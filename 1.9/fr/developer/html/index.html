@@ -1,0 +1,346 @@
+<html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>developers-guide-1.9-en.odt</title>
+</head>
+
+<body>
+
+<p>Chamilo 1.9 developer's guide</p>
+<p>
+
+</p><h1>Theming through templates</h1>
+<p>
+</p><p>Chamilo 1.9 uses the Twig templating engine for part of its interface.</p>
+<p>As much as we'd like to be able to use it everywhere, this is not the
+ type of things that you would do in a few hours, so right now there's 
+only localized support for templates.</p>
+<p>This being said, we probably cover all the very important part&nbsp;:
+ headers, footers and general layout are covered almost everywhere (to 
+the notable exception of learning paths).</p>
+<p>
+</p><p>To update the template in 1.9.x, you still have to do that 
+manually on the filesystem, so you'd be better off using the following 
+procedure&nbsp;:</p>
+<p>
+</p><p>cd main/template/</p>
+<p>cp -r default default-backup</p>
+<p>cd default</p>
+<p>
+</p><p>This way, you can edit anything in the default template, but you also have the initial template if anything goes wrong.</p>
+<p>
+</p><p>Inside the <i>default</i> directory, you'll find the following directories, which we explain when needed (most of them are self-explanatory).</p>
+<p></p>
+<p>admin
+/</p>
+<p>agenda
+/</p>
+<p>auth
+/</p>
+<p>course_description
+/</p>
+<p>create_course
+/</p>
+<p>export
+/</p>
+<p>form
+/</p>
+<p>glossary/
+</p>
+<p>index
+/→ homepage for anonymous users and announcements</p>
+<p>layout
+/→ header, footer, banner and more are stored here</p>
+<p>learnpath/
+</p>
+<p>link
+/</p>
+<p>mail_editor
+/</p>
+<p>notebook
+/</p>
+<p>pages
+/</p>
+<p>skill
+/</p>
+<p>userportal
+/ → list of courses each user can see in «&nbsp;My courses&nbsp;»</p>
+<p>work/</p>
+<p></p>
+
+<h2>Cleaning the cache</h2>
+<p>If you're going to change templates, you need to know one thing and 
+remember it&nbsp;: before you test each change, delete the contents of 
+the <i><b>main/archives/twig/ </b></i>directory. Otherwise, the cache 
+will stick around and you won't see any (or you'll see only some) of 
+your changes, which could make you believe they didn't take effect.</p>
+<p></p>
+
+<h2>Structure of a page</h2>
+<p></p>
+<p>The structure of a typical page will thus be structured something 
+close to the following. We are using a shortened version of 
+main/template/default/layout/layout_2_col.tpl here, for the sake of 
+documentation. layout_2_col means «&nbsp;layout for 2 colums 
+page&nbsp;», and it is selected when we want to show things like the 
+courses list.</p>
+<p></p>
+<p>All text marked as {# ...text here... #} (colored gray in the 
+following example} is a comment that serves only the developers and 
+designers. It will not appear in the final HTML generated. If you want 
+an HTML comment, simply use its normal syntax &lt;&nbsp;!-- HTML comment
+ →.</p>
+<p></p>
+<p>All text marked as {&nbsp;% ...text here... %} (colored green) is 
+specific Twig statements-language and marks some special action (more on
+ that later). This can include «&nbsp;if&nbsp;» conditions and stuff 
+like that.</p>
+<p></p>
+<p>All normal HTML tag will appear as is. No need for any trick.</p>
+<p></p>
+<p>All text marked {{ ...text here... }} (colored blue) is an insert of a
+ specific template variable prepared by your PHP scripts. This is how 
+you call those variables which you have carefully prepared for display. 
+These are usually strings or arrays (array values are called through the
+ <i>array.index</i> syntax).</p>
+<p></p><b>{% extends "default/layout/main.tpl" %}
+</b>
+<p>
+</p>
+<p>{% block body %}
+</p>
+<p>{# Main content #}
+</p>
+<p>{# Right column #}
+</p>
+<p>&lt;div class="span3 menu-column"&gt;
+</p>
+<p>{# if user is not login show the login form #}
+</p>
+<p>{% if _u.logged == 0 %}
+</p>
+<p><b>{% include "default/layout/login_form.tpl" %}
+</b></p>
+<p>{% endif %}
+</p>
+<p>{# User picture #}
+</p>
+<p>{{ user_image_block }}
+</p>
+<p>
+ {{# User Profile links #}
+</p>
+<p>{{ profile_block }}
+</p>
+<p>
+ &lt;/div&gt;
+</p>
+<p>&lt;div class="span9 content-column"&gt;
+</p>
+<p>{# Portal homepage #}
+</p>
+<p>{% if home_page_block %}
+</p>
+<p>&lt;section id="homepage"&gt;
+</p>
+<p>&lt;div class="row"&gt;
+</p>
+<p>&lt;div class="span9"&gt;
+</p>
+<p>{{ home_page_block }}
+</p>
+<p>&lt;/div&gt;
+</p>
+<p>&lt;/div&gt;
+</p>
+<p>&lt;/section&gt;
+</p>
+<p>{% endif %}
+</p>
+<p>
+</p>
+<p><b>{% include "default/layout/page_body.tpl" %}
+</b></p>
+<p>
+</p><p>{% if content is not null %}
+</p>
+<p>&lt;section id="main_content"&gt;
+</p>
+<p>{{ content }}
+</p>
+<p>&lt;/section&gt;
+</p>
+<p>{% endif %}
+</p>
+<p>&lt;/div&gt;</p>
+<p>{% endblock %}
+</p>
+<p></p>
+<p>As you can see in the example, some «&nbsp;include&nbsp;» statements 
+can be found. They get the indicated file and put its content right 
+where you placed the call. This is practical to re-use other 
+already-templated blocks.</p>
+<p></p>
+
+<h2>Usable variables</h2>
+<p>Because we want this templating system to be practical for us, and 
+because we don't want to always be assigning all the common variables 
+we'll need right at the end of our scripts, Chamilo comes with a set of 
+pre-defined variables and arrays you can use.</p>
+<p>Here is a list of those variables and arrays... Not that it might not
+ be exhaustive and that, at this time, we have no way of helping you 
+list these, but you <b>could</b> hack into <i><b>main/inc/lib/template.lib.php</b></i> and search for all <i><b>$this-&gt;assign('literal', $variable)&nbsp;;</b></i> calls to find out.</p>
+
+<h3><b>The _u array</b></h3>
+<p>The <b>_u</b> array contains general information about the user. You 
+could get the user's firstname to be printed inside any tpl by using the
+ following syntax&nbsp;:</p>
+<p>{{ _u.firstname }}</p>
+<p>Here is a complete list of the values it contains, together with an 
+example of the value you'll get from them. As you will see, some of 
+these are duplicated under a slightly different name. We recommend 
+always using the lowercase variables, as others should be cleaned out 
+progressively in the future.</p>
+<p>[complete_name] =&gt; John Doe
+</p>
+<p>[complete_name_with_username] =&gt; John Doe (admin)
+</p>
+<p>[firstname] =&gt; John
+</p>
+<p>[lastname] =&gt; Doe
+</p>
+<p>[firstName] =&gt; John
+</p>
+<p>[lastName] =&gt; Doe
+</p>
+<p>[mail] =&gt; john@example.com</p>
+<p>[email] =&gt; john@example.com</p>
+<p>[picture_uri] =&gt; 
+</p>
+<p>[user_id] =&gt; 1
+</p>
+<p>[official_code] =&gt; ADMIN
+</p>
+<p>[status] =&gt; 1
+</p>
+<p>[auth_source] =&gt; platform
+</p>
+<p>[active] =&gt; 1
+</p>
+<p>[username] =&gt; admin
+</p>
+<p>[theme] =&gt; 
+</p>
+<p>[language] =&gt; english
+</p>
+<p>[last_login] =&gt; 2014-01-11 15:21:57
+</p>
+<p>[lastLogin] =&gt; 2014-01-11 15:21:57
+</p>
+<p>[avatar] =&gt; http://my.chamilo19.net/main/img/unknown.jpg
+</p>
+<p>[avatar_sys_path] =&gt; /var/www/chamilo-lms/main/img/unknown.jpg
+</p>
+<p>[avatar_small] =&gt; http://my.chamilo19.net/main/img/unknown_22.jpg
+</p>
+<p>[logged] =&gt; 1
+</p>
+<p>[is_admin] =&gt; 1
+</p>
+<p>[messages_count] =&gt; 
+</p>
+<p>[messages_invitations_count] =&gt; </p>
+<p></p>
+
+<h3>The _p array</h3>
+<p>This array contains a list of different forms of paths that you might
+ need at the template level, for example to link to other resources</p>
+<p>[web] =&gt; http://my.chamilo19.net/
+</p>
+<p>[web_course] =&gt; http://my.chamilo19.net/courses/
+</p>
+<p>[web_main] =&gt; http://my.chamilo19.net/main/
+</p>
+<p>[web_css] =&gt; http://my.chamilo19.net/main/css/
+</p>
+<p>[web_ajax] =&gt; http://my.chamilo19.net/main/inc/ajax/
+</p>
+<p>[web_img] =&gt; http://my.chamilo19.net/main/img/
+</p>
+<p>[web_plugin] =&gt; http://my.chamilo19.net/plugin/
+</p>
+<p>[web_lib] =&gt; http://my.chamilo19.net/main/inc/lib/</p>
+<p></p>
+
+<h3>The _s array</h3>
+<p>This array contains some system variables representing general platform information</p>
+<p>[software_name] =&gt; Chamilo
+</p>
+<p>[system_version] =&gt; 1.9.8
+</p>
+<p>[site_name] =&gt; My campus
+</p>
+<p>[institution] =&gt; My Organisation</p>
+<p></p>
+
+<h3>Individual variables</h3>
+<p>Other variables are defined individually but are always available inside any template.</p>
+<p>As for the previous groups, the list below should be self-explanatory through the example values provided.</p>
+<p>system_charset =&gt; utf-8</p>
+<p>online_button =&gt; &lt;img src='...online.png' /&gt;</p>
+<p>offline_button =&gt; &lt;img src='...offline.png' /&gt;</p>
+<p>document_language =&gt; en</p>
+<p>title_string =&gt; My portal – My organisation – Portal section</p>
+<p>favico =&gt; <a href="http://my.chamilo19.net/favicon.ico">http://my.chamilo19.net/favicon.ico</a></p>
+<p>bug_notification_link =&gt; &lt;li class='report'&gt;&lt;a href='<a href="http://support.chamilo.org/">http://support.chamilo.org/</a>...'&gt;&lt;img src='...'&gt;&lt;/a&gt;&lt;/li&gt;</p>
+<p>notification_menu =&gt; …</p>
+<p>logout_link =&gt; <a href="http://my.chamilo19.net/index.php?logout=logout&amp;uid=5">http://my.chamilo19.net/index.php?logout=logout&amp;uid=5</a></p>
+<p>profile_link =&gt; </p>
+<p>message_link =&gt; </p>
+<p>portal_name =&gt; </p>
+<p>menu =&gt; </p>
+<p>breadcrumb =&gt; </p>
+<p>header_extra_content =&gt; </p>
+<p>administrator_name =&gt; </p>
+<p>footer_extra_content =&gt; </p>
+<p>session_teachers =&gt; </p>
+<p>teachers =&gt; </p>
+<p>style =&gt; </p>
+<p>help_content =&gt; </p>
+<p>actions =&gt; </p>
+<p>show_footer =&gt; </p>
+<p>show_header =&gt; </p>
+<p>show_toolbar =&gt; </p>
+<p>css_file_to_string =&gt; </p>
+<p>css_style_print =&gt; </p>
+<p>logo =&gt; </p>
+<p>js_file_to_string =&gt; </p>
+<p>extra_headers =&gt; </p>
+<p></p>
+
+<h2>Modifiers</h2>
+<p>Finally, there might come oportunities where you'd like the template 
+to do something for you, not very complicated but which relies on some 
+kind of processing. That's what modifiers are for.</p>
+<p>For example, and probably the most common modifier inside existing 
+tpl files&nbsp;: get_lang, will take the given value and use the 
+internal procedure from Chamilo to translate it and show the translation
+ as the result, just where the tag was placed.</p>
+<p>For example, you could have a section like this, representing part of the header&nbsp;:</p>
+<p>&lt;div class="span3"&gt;
+ &lt;div class="home-ico"&gt;
+ &lt;a href="{{ _p.web }}"&gt;{{"Home"|get_lang}}&lt;/a&gt;
+ &lt;/div&gt; 
+&lt;/div&gt;
+</p>
+<p>In this case, the term «&nbsp;Home&nbsp;» will be translated by 
+Chamilo's get_lang() function before it's shown on screen. The resulting
+ code for this tpl block, taking into account previous examples, in 
+French, would look something like this&nbsp;:</p>
+<p>&lt;div class="span3"&gt;
+ &lt;div class="home-ico"&gt;
+ &lt;a href="http://my.chamilo19.net/"&gt;Accueil&lt;/a&gt;
+ &lt;/div&gt; 
+&lt;/div&gt;
+</p>
+
+</body></html>
