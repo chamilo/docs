@@ -1,6 +1,5 @@
 # Summary
 
-* [Chamilo](README.md)
 * [Introduction](introduction/README.md)
   * [What is Chamilo?](introduction/what_is_chamilo.md)
   * [About this guide](introduction/about_this_guide.md)
