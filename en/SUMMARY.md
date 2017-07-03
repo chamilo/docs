@@ -2,15 +2,15 @@
 
 ### Teacher Guide
 
-* [Introduction](teacher/introduction/README.md)
+* Getting to know Chamilo
   * [What is Chamilo?](teacher/introduction/what_is_chamilo.md)
   * [About this guide](teacher/introduction/about_this_guide.md)
   * [Who is this guide for?](teacher/introduction/who_is_this_guide_for.md)
   * [How to use this guide.](teacher/introduction/how_to_use_this_guide.md)
   * [General usability](teacher/introduction/general_usability.md)
-* [Why Chamilo?](teacher/why_chamilo/README.md)
-  * [Learning paradigm](teacher/why_chamilo/learning_paradigm.md)
-  * [Common interface elements](teacher/why_chamilo/common_interface_elements.md)
+  * [Why Chamilo?](teacher/why_chamilo/README.md)
+    * [Learning paradigm](teacher/why_chamilo/learning_paradigm.md)
+    * [Common interface elements](teacher/why_chamilo/common_interface_elements.md)
 * [The Chamilo homepage](teacher/the_chamilo_homepage.md)
 * [Registering on the platform](teacher/registering_on_the_platform.md)
 * [Finding your way in Chamilo](teacher/finding_your_way_in_chamilo.md)
