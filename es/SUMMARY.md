@@ -192,6 +192,22 @@
 
 ### Manual del Administrador
 
+* [Unidad Administrador](admin/unidad_administrador/README.md)
+  * [Instalación y configuración](admin/unidad_administrador/instalacion_y_configuracion.md)
+  * [Copias de seguridad](admin/unidad_administrador/copias_de_seguridad.md)
+  * [Administración de la plataforma](admin/unidad_administrador/administracion_de_la_plataforma.md)
+  * [Administración de Usuarios](admin/unidad_administrador/administracion_de_usuarios.md)
+  * [Administración de los cursos](admin/unidad_administrador/administracion_de_los_cursos.md)
+  * [Administración de sesiones](admin/unidad_administrador/administracion_de_sesiones.md)
+  * [Administración del sistema](admin/unidad_administrador/administracion_del_sistema.md)
+  * [Funcionalidades globales](admin/unidad_administrador/funcionalidades_globales.md)
+  * [Cambios en esta versión](admin/unidad_administrador/cambios_en_esta_version.md)
+  * [Opciones de configuración](admin/unidad_administrador/opciones_de_configuracion.md)
+* [Apéndice](admin/apendice/README.md)
+  * [Preguntas frecuentes](admin/apendice/preguntas_frecuentes.md)
+  * [Licencia](admin/apendice/licencia.md)
+  * [Historial del documento](admin/apendice/historial_del_documento.md)
+  * [Índices](admin/apendice/indices.md)
 
 ### Manual del Desarrollador
 
