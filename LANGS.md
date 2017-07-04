@@ -2,4 +2,4 @@
 
 * [English](en/)
 * [Español](es/)
-* [French](fr/)
+* [Français](fr/)
