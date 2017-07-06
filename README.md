@@ -3,7 +3,7 @@ Documentation for Chamilo LMS
 
 Documentation for the Chamilo LMS e-learning platform project
 
-This repository is divided in branches by version, by language and by role:
+This repository is organized in branches by version, by language and by role:
 
 * branch 1.9.x for all 1.9.x versions of Chamilo LMS
   * en/ for English (includes teacher, admin and developer docs)
