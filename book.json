@@ -1,1 +1,10 @@
-{}
+{
+  "title": "Chamilo LMS",
+  "description": "Official documentation for the Free Software Chamilo Learning Management System project",
+  "author": "Chamilo Association members and community contributors",
+  "pdf": {
+    "pageNumbers": true,
+    "fontSize": 12,
+    "fontFamily": "Arial"
+  }
+}
