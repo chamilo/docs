@@ -3,7 +3,7 @@ Chamilo User Guides
 
 This is the complete set of Chamilo Guides for users of Chamilo.
 
-* [Administrator guide](admin/README.md)
+* [Administrator guide](admin/introduction/chamilo,_what_is_it.md)
 * [Teacher guide](teacher/introduction/what_is_chamilo.md)
 * [Developer guide](developer/introduction/what_is_chamilo.md)
 
