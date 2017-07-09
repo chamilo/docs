@@ -1,5 +1,3 @@
-Chamilo Administrator Guide
-===========================
+# Administrator guide
 
-This guide is currently not up to date.
-Please [check the summary](SUMMARY.md) for the table of contents.
+[Start reading...](introduction/chamilo,_what_is_it.md)
