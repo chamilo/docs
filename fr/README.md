@@ -2,6 +2,9 @@
 
 Ce site contient les guides utilisateurs en langue française relatifs à la version 1.11 de Chamilo.
 
+* [Guide administrateur](admin/introduction/a_propos_de_ce_guide.md)
+* [Guide enseignant](teacher/introduction/quest-ce_que_chamilo.md)
+
 La grande majorité des utilisateurs n'auront aucun besoin d'utiliser les guides utilisateur de Chamilo.
 
 Les enseignants et formateurs s'intéresseront particulièrement au Guide Enseignant, mais il est fort possible que seul une petite partie du guide leur soit utile. En effet, le Guide Enseignant couvre de nombreux aspects de l'utilisation de Chamilo au sujet desquels un enseignant/formateur n'aura pas toujours d'utilité.
