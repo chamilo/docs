@@ -198,9 +198,7 @@
 
 ### Guide Administrateur
 
-* [À propos de ce guide](admin/introduction/a_propos_de_ce_guide.md)
-  * [À qui ce guide est-il destiné ?](admin/introduction/a_qui_ce_guide_est-il_destine.md)
-  * [Comment lire ce guide ?](admin/introduction/comment_lire_ce_guide.md)
+* [Introduction](admin/introduction/README.md)
 * [Installation et configuration](admin/installation_et_configuration/README.md)
   * [Serveur](admin/installation_et_configuration/serveur.md)
   * [Assistant d'installation](admin/installation_et_configuration/assistant_dinstallation.md)
