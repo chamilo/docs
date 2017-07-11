@@ -1,7 +1,8 @@
 # Summary
 
-### Guide Enseignant
+## Guide Enseignant
 
+* [Introduction](README.md)
 * [Découverte de Chamilo](teacher/introduction/README.md)
   * [Qu'est-ce que Chamilo ?](teacher/introduction/quest-ce_que_chamilo.md)
   * [À propos de ce guide](teacher/introduction/a_propos_de_ce_guide.md)
@@ -20,7 +21,7 @@
   * [Catégories personnelles](teacher/lorganisation_des_cours/categories_personnelles.md)
   * [Icônes de gestion des cours](teacher/lorganisation_des_cours/icones_de_gestion_des_cours.md)
 * [Administrer un cours](teacher/administrer_un_cours.md)
-* [Éditeur en ligne (teacher/WYSIWYG)](editeur_en_ligne_wysiwyg/README.md)
+* [Éditeur en ligne \(teacher/WYSIWYG\)](editeur_en_ligne_wysiwyg/README.md)
   * [Outils variables](teacher/editeur_en_ligne_wysiwyg/outils_variables.md)
   * [Envoyer une image](teacher/editeur_en_ligne_wysiwyg/envoyer_une_image.md)
 * [Page principale du cours](teacher/page_principale_du_cours/README.md)
@@ -99,7 +100,7 @@
 * [L'outil « Wiki »](teacher/loutil__wiki/README.md)
   * [Démarrer un wiki en modifiant la page principale ](teacher/loutil__wiki/demarrer_un_wiki_en_modifiant_la_page_principale.md)
   * [Ajouter une nouvelle page liée ](teacher/loutil__wiki/ajouter_une_nouvelle_page_liee.md)
-  * [Ajouter une nouvelle page non liée (teacher/orpheline) ](loutil__wiki/ajouter_une_nouvelle_page_non_liee_orpheline.md)
+  * [Ajouter une nouvelle page non liée \(teacher/orpheline\) ](loutil__wiki/ajouter_une_nouvelle_page_non_liee_orpheline.md)
   * [Commenter une page ](teacher/loutil__wiki/commenter_une_page.md)
   * [Autres outils du wiki ](teacher/loutil__wiki/autres_outils_du_wiki.md)
 * [L'outil « Liens »](teacher/loutil__liens/README.md)
@@ -125,16 +126,16 @@
 * [L'outil « Agenda »](teacher/loutil__agenda/README.md)
   * [Ajouter un événement dans l'agenda d'un cours ](teacher/loutil__agenda/ajouter_un_evenement_dans_lagenda_dun_cours.md)
   * [Importer/exporter des événements](teacher/loutil__agenda/importerexporter_des_evenements.md)
-  * [Agenda personnel (teacher/onglet Agenda perso)](loutil__agenda/agenda_personnel_onglet_agenda_perso.md)
+  * [Agenda personnel \(teacher/onglet Agenda perso\)](loutil__agenda/agenda_personnel_onglet_agenda_perso.md)
 * [L'outil « Partage de documents »](teacher/loutil__partage_de_documents/README.md)
   * [Créer des dossiers pour les fichiers](teacher/loutil__partage_de_documents/creer_des_dossiers_pour_les_fichiers.md)
   * [Envoyer un fichier en sélectionnant les destinataires ](teacher/loutil__partage_de_documents/envoyer_un_fichier_en_selectionnant_les_destinatai.md)
-  * [Administrer (teacher/enregistrer, déplacer, supprimer) des fichiers envoyés ou reçus ](loutil__partage_de_documents/administrer_enregistrer,_deplacer,_supprimer_des_f.md)
+  * [Administrer \(teacher/enregistrer, déplacer, supprimer\) des fichiers envoyés ou reçus ](loutil__partage_de_documents/administrer_enregistrer,_deplacer,_supprimer_des_f.md)
   * [Créer ou consulter le « feedback » associé à un fichier envoyé ou reçu ](teacher/loutil__partage_de_documents/creer_ou_consulter_le__feedback__associe_a_un_fich.md)
 * [L'outil « Groupes »](teacher/loutil__groupes/README.md)
   * [Créer un groupe](teacher/loutil__groupes/creer_un_groupe.md)
   * [Paramétrer les propriétés des groupes ](teacher/loutil__groupes/parametrer_les_proprietes_des_groupes.md)
-  * [Remplir un groupe (teacher/inscription par les apprenants eux-mêmes) ](loutil__groupes/remplir_un_groupe_inscription_par_les_apprenants_e.md)
+  * [Remplir un groupe \(teacher/inscription par les apprenants eux-mêmes\) ](loutil__groupes/remplir_un_groupe_inscription_par_les_apprenants_e.md)
   * [Remplir un groupe automatiquement ](teacher/loutil__groupes/remplir_un_groupe_automatiquement.md)
   * [Remplir un groupe manuellement](teacher/loutil__groupes/remplir_un_groupe_manuellement.md)
   * [Atteindre l’espace d’un groupe ](teacher/loutil__groupes/atteindre_lespace_dun_groupe.md)
@@ -157,7 +158,7 @@
   * [Lancer un nouveau projet ](teacher/loutil__blogs/lancer_un_nouveau_projet.md)
   * [Inscrire les apprenants participant au blog ](teacher/loutil__blogs/inscrire_les_apprenants_participant_au_blog.md)
   * [Créer un nouvel article](teacher/loutil__blogs/creer_un_nouvel_article.md)
-  * [La gestion des tâches (teacher/ou définir des rôles) ](loutil__blogs/la_gestion_des_taches_ou_definir_des_roles.md)
+  * [La gestion des tâches \(teacher/ou définir des rôles\) ](loutil__blogs/la_gestion_des_taches_ou_definir_des_roles.md)
   * [Assigner une tâche à un apprenant ](teacher/loutil__blogs/assigner_une_tache_a_un_apprenant.md)
   * [Signaler l’exécution d’une tâche ](teacher/loutil__blogs/signaler_lexecution_dune_tache.md)
   * [Consulter la gestion des tâches par apprenant ](teacher/loutil__blogs/consulter_la_gestion_des_taches_par_apprenant.md)
@@ -196,7 +197,7 @@
   * [Licence du document](teacher/annexes/licence_du_document.md)
   * [Historique du document](teacher/annexes/historique_du_document.md)
 
-### Guide Administrateur
+## Guide Administrateur
 
 * [Introduction](admin/introduction/README.md)
 * [Installation et configuration](admin/installation_et_configuration/README.md)
@@ -210,18 +211,17 @@
 * [Administration](admin/administration/README.md)
   * [Administrer la plateforme](admin/administration/administrer_la_plateforme.md)
   * [Administrer les « Utilisateurs »](admin/administration/administrer_les__utilisateurs.md)
-  * [L'administration des « Cours »](admin/administration/ladministration_des__cours.md)
+  * [Administrer des « Cours »](admin/administration/ladministration_des__cours.md)
   * [Administrer les « Sessions de formation »](admin/administration/administrer_les__sessions_de_formation.md)
-  * [Administration des options système](admin/administration/administration_des_options_systeme.md)
+  * [Administrer les options système](admin/administration/administration_des_options_systeme.md)
 * [Fonctionnalités globales](admin/fonctionnalites_globales/README.md)
   * [Multi-URL](admin/fonctionnalites_globales/multi-url.md)
   * [Vidéoconférence](admin/fonctionnalites_globales/videoconference.md)
-  * [Chamilo Rapid Course (admin/conversion ppt)](fonctionnalites_globales/chamilo_rapid_course_conversion_ppt.md)
+  * [Chamilo Rapid Course \(admin/conversion ppt\)](fonctionnalites_globales/chamilo_rapid_course_conversion_ppt.md)
   * [Modifier les styles](admin/fonctionnalites_globales/modifier_les_styles.md)
 * [Annexes](admin/annexes/README.md)
   * [Foire aux questions](admin/annexes/foire_aux_questions.md)
   * [Listing des options de configuration](admin/annexes/listing_des_options_de_configuration.md)
   * [Licence du document](admin/annexes/licence_du_document.md)
   * [Historique du document](admin/annexes/historique_du_document.md)
-
 
