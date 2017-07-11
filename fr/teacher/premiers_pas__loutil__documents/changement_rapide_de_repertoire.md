@@ -1,4 +1,4 @@
-## Changement rapide de répertoire {#changement-rapide-de-r-pertoire}
+## Changer rapidement de répertoire {#changement-rapide-de-r-pertoire}
 
 Lors de la création d'un nouveau cours, l'outil « Documents » contient, par défaut \(cela peut dépendre de la façon dont a été configuré le cours à sa création\), plusieurs répertoires \(_audio_, _flash_, _images_, etc...\). Ces répertoires ont pour but de vous aider à organiser les ressources de votre cours. Vous constaterez facilement par vous-même qu'une fois dépassés les 20 documents environ dans le répertoire de base, il devient difficile de localiser un document au moment où vous en avez besoin.
 
