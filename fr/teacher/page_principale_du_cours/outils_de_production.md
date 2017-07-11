@@ -6,23 +6,23 @@
 
 ![](../assets/image23.svg)![](../assets/image23.png)
 
-Il n&#039;est pas obligatoire de remplir cette description, mais elle permet de décrire le cours de manière globale et synthétique, et de donner un avant goût aux futurs apprenants.
+Il n'est pas obligatoire de compléter cette description, mais elle permet de décrire le cours de manière globale et synthétique, et de donner un avant-goût aux futurs apprenants.
 
-Cette description comporte plusieurs rubriques qu&#039;il n&#039;est pas obligatoire de remplir. Si les rubriques proposées ne correspondent pas, il est possible d&#039;en créer d&#039;autres avec des titres explicites :
+Cette description comporte plusieurs rubriques qu'il n'est pas obligatoire de remplir. Si les rubriques proposées ne correspondent pas, il est possible d'en créer d'autres avec des titres explicites :
 
-*   « Description du cours »,
+* « Description du cours »,
 
-*   « Objectifs »,
+* « Objectifs »,
 
-*   « Sujets »,
+* « Sujets »,
 
-*   « Méthodologie » etc,
+* « Méthodologie » etc,
 
 Il est possible, à tout moment, de supprimer une rubrique en cliquant sur le bouton « Supprimer », représenté par une croix rouge, ou de la modifier à l’aide de l’éditeur interne en cliquant sur le bouton « Modifier », représenté par un crayon.
 
 Cette description est accessible aux étudiants qui entrent dans le cours, mais elle est également accessible depuis le catalogue de cours grâce au bouton _Description_.
 
-Ce bouton ouvre une fenêtre _popup_ avec la description préalablement remplie par l&#039;enseignant.
+Ce bouton ouvre une fenêtre _popup_ avec la description préalablement remplie par l'enseignant.
 
 ### Documents {#documents}
 
@@ -40,19 +40,19 @@ Créer, modifier, importer des exercices, mais aussi vérifier ou exporter les r
 
 ![](../assets/image26.svg)![](../assets/image26.png)
 
-Les parcours sont un outil d&#039;agglomération et d&#039;organisation des autres contenus. Ils peuvent constituer, dans certains cas, l&#039;unique outil présenté aux apprenants. Nous réviserons les parcours en détail dans un prochain chapitre.
+Les parcours sont un outil d'agglomération et d'organisation des autres contenus. Ils peuvent constituer, dans certains cas, l'unique outil présenté aux apprenants. Nous réviserons les parcours en détail dans un prochain chapitre.
 
 ### Cahier de notes {#cahier-de-notes}
 
 ![](../assets/image27.svg)![](../assets/image27.png)
 
-Cet outil est utile pour les cours où une note doit être attribuée. Il permet de créer une évaluation en salle ou en ligne. Récemment renommé _Cahier de notes_ (il se nommait auparavant _Évaluations_), cet outil permet également la génération de certificats (beaucoup plus intuitive depuis la version 1.8.8.4).
+Cet outil est utile pour les cours où une note doit être attribuée. Il permet de créer une évaluation en salle ou en ligne. Récemment renommé _Cahier de notes_ \(il se nommait auparavant _Évaluations_\), cet outil permet également la génération de certificats \(beaucoup plus intuitive depuis la version 1.8.8.4\).
 
 ### Présences {#pr-sences}
 
 ![](../assets/image28.svg)![](../assets/image28.png)
 
-Permet de faire un relevé des présences/absences des apprenants et d&#039;en tenir compte (ou non) dans la pondération du cahier de notes.
+Permet de faire un relevé des présences/absences des apprenants et d'en tenir compte \(ou non\) dans la pondération du cahier de notes.
 
 ### Liens {#liens}
 
@@ -64,7 +64,7 @@ Ajouter des liens en relation avec le cours.
 
 ![](../assets/image30.svg)![](../assets/image30.png)
 
-Ajouter une annonce en lien avec le cours. Il est même possible d&#039;y insérer des annexes.
+Ajouter une annonce en lien avec le cours. Il est même possible d'y insérer des annexes.
 
 ### Glossaires {#glossaires}
 
@@ -78,16 +78,17 @@ Ajouter des termes spécifiques au cours.
 
 Permet de créer des sections thématiques, des thèmes, leurs plans et progrès respectifs.
 
-**Note** : Les parcours créés dans le cours peuvent aussi être rendus visibles dans la partie « Production », ce qui peut être redondant. Il est possible de les montrer ou de les cacher en utilisant l&#039;icône de doubles carrés dans la liste des parcours (« Rendre visible aux étudiants »)
+**Note** : Les parcours créés dans le cours peuvent aussi être rendus visibles dans la partie « Production », ce qui peut être redondant. Il est possible de les montrer ou de les cacher en utilisant l'icône de doubles carrés dans la liste des parcours \(« Rendre visible aux étudiants »\)
 
 ### Blogs {#blogs}
 
 ![](../assets/image33.svg)![](../assets/image33.png)
 
-Les « Projets » de la partie « Administration » s&#039;afficheront dans la « Production ». Il est possible de les cacher à la vue des apprenants.
+Les « Projets » de la partie « Administration » s'afficheront dans la « Production ». Il est possible de les cacher à la vue des apprenants.
 
 ### MagnifierRecherche {#magnifierrecherche}
 
 ![](../assets/image34.svg)![](../assets/image34.png)
 
-L&#039;outil de recherche peut être activé sur la plate-forme par l&#039;administrateur, mais requiert d&#039;une installation spécifique assez avancée de modules externes à Chamilo. L&#039;outil permet de faire des recherches dans le texte de la plupart des documents à base de texte importés ou créés dans Chamilo.
+L'outil de recherche peut être activé sur la plate-forme par l'administrateur, mais requiert d'une installation spécifique assez avancée de modules externes à Chamilo. L'outil permet de faire des recherches dans le texte de la plupart des documents à base de texte importés ou créés dans Chamilo.
+
