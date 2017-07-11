@@ -1,4 +1,4 @@
-## Comment lire ce guide {#comment-lire-ce-guide}
+## Comment lire ce guide ? {#comment-lire-ce-guide}
 
 Cet ouvrage a été rédigé comme un tutoriel pas à pas. Il vous guidera tout d'abord au travers de la création d'un compte enseignant dans Chamilo, puis au travers des outils de cours et enfin des autres outils globaux ou alternatifs qui vous serviront pour la « distribution » de votre cours vers vos étudiants, et vous faciliteront le travail de suivi afin que vous puissiez vous concentrer sur l'essentiel : atteindre un niveau supérieur d'enseignement envers un plus grande nombre d'étudiants.
 
