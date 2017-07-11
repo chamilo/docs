@@ -18,11 +18,11 @@ Cette description comporte plusieurs rubriques qu'il n'est pas obligatoire de re
 
 * « Méthodologie » etc,
 
-Il est possible, à tout moment, de supprimer une rubrique en cliquant sur le bouton « Supprimer », représenté par une croix rouge, ou de la modifier à l’aide de l’éditeur interne en cliquant sur le bouton « Modifier », représenté par un crayon.
+Il est possible, à tout moment, de supprimer une rubrique en cliquant sur le bouton « Supprimer », représentant une croix rouge, ou de la modifier à l’aide de l’éditeur interne en cliquant sur le bouton « Modifier » représentant un crayon.
 
 Cette description est accessible aux étudiants qui entrent dans le cours, mais elle est également accessible depuis le catalogue de cours grâce au bouton _Description_.
 
-Ce bouton ouvre une fenêtre _popup_ avec la description préalablement remplie par l'enseignant.
+Ce bouton ouvre une fenêtre _popup_ avec la description préalablement complétée par l'enseignant.
 
 ### Documents {#documents}
 
