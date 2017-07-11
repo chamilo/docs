@@ -32,7 +32,7 @@
 * [Premiers pas : l'outil « Documents »](teacher/premiers_pas__loutil__documents/README.md)
   * [Créer un répertoire](teacher/premiers_pas__loutil__documents/creer_un_repertoire.md)
   * [Changer rapidement de répertoire](teacher/premiers_pas__loutil__documents/changement_rapide_de_repertoire.md)
-  * [Importer un document sur la plate-forme](teacher/premiers_pas__loutil__documents/importer_un_document_sur_la_plate-forme.md)
+  * [Importer un document sur la plateforme](teacher/premiers_pas__loutil__documents/importer_un_document_sur_la_plate-forme.md)
   * [Créer un nouveau document](teacher/premiers_pas__loutil__documents/creer_un_nouveau_document.md)
   * [Télécharger les documents](teacher/premiers_pas__loutil__documents/telecharger_les_documents.md)
   * [Supprimer un fichier ou un dossier](teacher/premiers_pas__loutil__documents/supprimer_un_fichier_ou_un_dossier.md)
