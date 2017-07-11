@@ -1,4 +1,4 @@
-## Présentater des images {#pr-sentation-d-images}
+## Présenter des images {#pr-sentation-d-images}
 
 Si vous disposez de nombreuses images dans l'outil \_Documents\_et que vous souhaitez les visualiser facilement, vous pouvez utiliser la fonctionnalité de galerie d'images ![](../assets/image54.svg)![](../assets/image54.png) depuis le menu supérieur de la liste de documents.
 
