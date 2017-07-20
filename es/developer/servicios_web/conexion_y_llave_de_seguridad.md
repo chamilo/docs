@@ -1,4 +1,4 @@
-## Conexión y llave de seguridad {#conexi-n-y-llave-de-seguridad}
+## Conexión y llave de seguridad
 
 El mecanismo de autenticación de los servicios web es un poco raro, así que dejenos darle un ejemplo de como haríamos para llamar un servicio que cree un usuario en Chamilo desde otra aplicación en PHP... luego explicaremos las distintas partes.
 
