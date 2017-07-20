@@ -1,4 +1,4 @@
-## Historial del documento {#historial-del-documento}
+## Historial del documento
 
 Este documento es fruto de la colaboración de muchas personas y organizaciones. Con el fin de mantener un seguimiento de sucesivas participaciones y garantizar la duración de su contribución, más abajo aparece un registro completo. Si de alguna manera se mejora este documento sea tan amable de agregar su nombre a la lista y de enviar la versión actualizada a info@chamilo.org. ¡Gracias!
 
@@ -10,5 +10,6 @@ Este documento es fruto de la colaboración de muchas personas y organizaciones.
 | 2015 | 3.0 | Yannick Warnier | Actualización a Chamilo LMS 1.10 |
 | 2015 | 3.1 | Yannick Warnier | Corrección sección phpMyAdmin |
 | 2015 | 3.2 | Yannick Warnier | Corrección doble opción de actualización y retiro opción de activación sesión |
+| 2017 | 4.0 | Yannick Warnier | Actualización a Chamilo LMS 1.11 (en progreso) |
 
-Colaborativo: trabajo colaborativo de los autores indicados al inicio del documentos
+Colaborativo: trabajo colaborativo de los autores indicados al inicio del documentos.

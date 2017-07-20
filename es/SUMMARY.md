@@ -207,7 +207,6 @@
   * [Preguntas frecuentes](admin/apendice/preguntas_frecuentes.md)
   * [Licencia](admin/apendice/licencia.md)
   * [Historial del documento](admin/apendice/historial_del_documento.md)
-  * [Índices](admin/apendice/indices.md)
 
 ### Manual del Desarrollador
 

@@ -1,6 +1,7 @@
 ## Administración de la plataforma {#administraci-n-de-la-plataforma}
 
-![](../assets/images137.png)Ilustración 30: Administración - Bloque plataforma
+![](../assets/images137.png)
+Ilustración 30: Administración - Bloque plataforma
 
 La configuración de la plataforma se realiza a través de la pestaña _Administración_, bloque plataforma.
 
@@ -8,13 +9,15 @@ La configuración de la plataforma se realiza a través de la pestaña _Administ
 
 Estos ajustes se unen a varias secciones como se observa en la siguiente ilustración.
 
-![](../assets/images138.png)Ilustración 31: Administración - Secciones de las opciones de configuración
+![](../assets/images138.png)
+Ilustración 31: Administración - Secciones de las opciones de configuración
 
 Chamilo ofrece una configuración predeterminada que puede ser diferente a la que usted necesite. Sólo vamos a ver aquí las opciones más importantes o con más probabilidad de que sean cambiadas. De todas formas, piense que un administrador debe conocer perfectamente su entorno, así que siempre podrá encontrar una lista completa de ajustes en el Apéndice de la página 99.
 
 #### Portal {#portal}
 
-![](../assets/images11.svg)![](../assets/images11.png)Esta sección permite configurar la información visible, el registro de usuarios, y otras opciones generales de carácter general. En algunos elementos la información que pueden contener se puede dejar vacía, en cuyo caso no se mostrará nada.
+![](../assets/images11.png)
+Esta sección permite configurar la información visible, el registro de usuarios, y otras opciones generales de carácter general. En algunos elementos la información que pueden contener se puede dejar vacía, en cuyo caso no se mostrará nada.
 
 **Registro** permite autorizar la creación de cuentas por parte de usuarios externos o que sólo el administrador pueda crearlas o que habiéndola creado un usuario externo se requiera la aprobación del administrador para su funcionamiento.
 
@@ -32,7 +35,8 @@ Chamilo ofrece una configuración predeterminada que puede ser diferente a la qu
 
 #### Cursos {#cursos}
 
-![](../assets/images12.svg)![](../assets/images12.png)En esta sección se configuran las opciones relacionadas con los cursos, sus usuarios, creadores y otros detalles de carácter técnico. Compruebe cuidadosamente cada opción hasta satisfacer sus necesidades.
+![](../assets/images12.png)
+En esta sección se configuran las opciones relacionadas con los cursos, sus usuarios, creadores y otros detalles de carácter técnico. Compruebe cuidadosamente cada opción hasta satisfacer sus necesidades.
 
 Algunas de las opciones tienen repercusiones en la usabilidad de la plataforma, en la forma de mostrar la página principal o en la barra de acceso directo a las herramientas de los cursos.
 
@@ -42,17 +46,20 @@ Algunas de las opciones tienen repercusiones en la usabilidad de la plataforma, 
 
 #### Sesiones {#sesiones}
 
-![](../assets/image3.svg)![](../assets/image3.png)En esta sección se encuentran todas las opciones relacionadas con las sesiones. Las sesiones son explicadas a continuación, y representan un mecanismo potente pero complejo para gestionar cursos en el tiempo.
+![](../assets/image3.svg)
+![](../assets/image3.png)
+En esta sección se encuentran todas las opciones relacionadas con las sesiones. Las sesiones son explicadas a continuación, y representan un mecanismo potente pero complejo para gestionar cursos en el tiempo.
 
 #### Idiomas {#idiomas-0}
 
-![](../assets/images13.png)En esta sección se encuentran todas las opciones relacionadas con los idiomas. Un enlace apunta a la entrada de _Idiomas_ de la página de administración.
+![](../assets/images13.png)
+En esta sección se encuentran todas las opciones relacionadas con los idiomas. Un enlace apunta a la entrada de _Idiomas_ de la página de administración.
 
 **Permite definir sub-idiomas**hace posible la definición de las variaciones de cada término del idioma utilizado en la interfaz de la plataforma, como un idioma basado en un idioma existente. Esta opción puede ser encontrado en la lista de idiomas(siga el enlace [_Idiomas de la plataforma Chamilo_](http://chamilo.beeznest.com/main/admin/languages.php)) .
 
 #### Usuarios {#usuarios}
 
-![](../assets/images14.svg)![](../assets/images14.png)
+![](../assets/images14.png)
 
 Esta sección presenta las opciones relativas a las propiedades de los usuarios y permisos.
 
@@ -62,27 +69,30 @@ Esta sección presenta las opciones relativas a las propiedades de los usuarios 
 
 #### Módulos {#m-dulos}
 
-![](../assets/images15.png)Esta sección define las propiedades de los cursos y de las principales herramientas. Tendrá consecuencias en todos los cursos.
+![](../assets/images15.png)
+Esta sección define las propiedades de los cursos y de las principales herramientas. Tendrá consecuencias en todos los cursos.
 
 **Módulos activos al crear un curso,**establece las herramientas que serán visibles por defecto al crear un curso. Los docentes pueden modificar esta configuración según sus necesidades.
 
-**Los archivos eliminados no pueden ser recuperados**, permite crear una copia de seguridad de cada archivo que sea borrado por un usuario, aunque ésta no será visible a través del sistema. La copia de cada archivo tendrá el sufijo __DELETED y_ permitirá al administrador de la plataforma recuperar manualmente estos archivos en caso de que hubieran sido borrados accidentalmente.
+**Los archivos eliminados no pueden ser recuperados**, permite crear una copia de seguridad de cada archivo que sea borrado por un usuario, aunque ésta no será visible a través del sistema. La copia de cada archivo tendrá el sufijo `__DELETED__` y permitirá al administrador de la plataforma recuperar manualmente estos archivos en caso de que hubieran sido borrados accidentalmente.
 
 **Editor de correo electrónico en línea,** permite decidir si desea proporcionar a sus usuarios una manera de enviar e-mails a otros usuarios de la plataforma sin necesidad de un cliente externo de correo electrónico. Actívelo haciendo clic en el enlace de contacto administrativo en el pie de portal.
 
 #### Editor HTML {#editor-html}
 
-![](../assets/images16.png)Esta sección contiene todos los ajustes relacionados con lo que se puede hacer a través del editor en línea. Esto incluye la creación de expresiones matemáticas y otras extensiones.
+![](../assets/images16.png)
+Esta sección contiene todos los ajustes relacionados con lo que se puede hacer a través del editor en línea. Esto incluye la creación de expresiones matemáticas y otras extensiones.
 
 **Gestor avanzado de ficheros para el editor WYSIWYG,** permite elegir entre un simple y fácil gestor de archivos y otro más avanzado y algo más complicado. Para ver el resultado, despliegue el editor en cualquier lugar de un curso, seleccione el icono insertar imagen y finalmente haga clic en _navegar por el servidor_.
 
-**Nota**: WYSIWYG es una abreviatura de “Lo que ves _es lo que obtienes”_, otra manera de decir que el editor le permite editar las cosas visualmente en la pantalla mientras se guarda en un formato más complejo sin tener que preocuparse por ello.
+**Nota**: WYSIWYG es una abreviatura de “Lo que ves es lo que obtienes”, otra manera de decir que el editor le permite editar las cosas visualmente en la pantalla mientras se guarda en un formato más complejo sin tener que preocuparse por ello.
 
-**Editores Matemáticos:** **MimeTeX****,** **ASCIImathML**y preinstalación de **WIRIS**. Estas tres opciones le permiten activar tres formas de edición de formulas matemáticas. También se incorpora un editor de gráficos matemáticos **ASCIIsvg**. El funcionamiento de todos ellos puede variar dependiendo de los navegadores de los usuarios. Varios editores pueden estar activados a un tiempo.
+**Editores Matemáticos:** **MimeTeX**, **ASCIImathML**y preinstalación de **WIRIS**. Estas tres opciones le permiten activar tres formas de edición de formulas matemáticas. También se incorpora un editor de gráficos matemáticos **ASCIIsvg**. El funcionamiento de todos ellos puede variar dependiendo de los navegadores de los usuarios. Varios editores pueden estar activados a un tiempo.
 
 #### Seguridad {#seguridad}
 
-![](../assets/images17.svg)![](../assets/images17.png)Esta sección le permite configurar algunos elementos relacionados con la seguridad de su plataforma. Las opciones por defecto son suficientes, pero es posible que desee restringir algunas cosas para aumentar su nivel de seguridad.
+![](../assets/images17.png)
+Esta sección le permite configurar algunos elementos relacionados con la seguridad de su plataforma. Las opciones por defecto son suficientes, pero es posible que desee restringir algunas cosas para aumentar su nivel de seguridad.
 
 **Tipo de filtrado en el envío de documentos,** establece dos tipos de filtrado:
 
@@ -92,21 +102,23 @@ Esta sección presenta las opciones relativas a las propiedades de los usuarios 
 
 **Permisos para los nuevos directorios,** establece los permisos que tendrán los directorios de nueva creación. Es una opción que en sistemas basados en Linux permitirá aumentar la seguridad del sistema frente a personas no deseadas.
 
-**_Warning_**_:_ el valor por defecto es &quot; 0777 &quot;, por garantizar una mayor portabilidad y porque permisos más restrictivos pueden causar algún problema. Si su sistema Linux requiere una estricta política de seguridad podrá modificarlo. Una vez modificado, puede que reciba un error del servidor cada vez que intente entrar en los nuevos cursos que cree a partir de ahora. En este caso, cambie este valor y cree otro curso hasta que no se produzca este error. Los valores con los que puede probar son: 0750, 0755, 0775 y 0777\. Finalmente borre los cursos que presentan el error.
+**_Warning_**_:_ el valor por defecto es " 0777 ", por garantizar una mayor portabilidad y porque permisos más restrictivos pueden causar algún problema. Si su sistema Linux requiere una estricta política de seguridad podrá modificarlo. Una vez modificado, puede que reciba un error del servidor cada vez que intente entrar en los nuevos cursos que cree a partir de ahora. En este caso, cambie este valor y cree otro curso hasta que no se produzca este error. Los valores con los que puede probar son: 0750, 0755, 0775 y 0777\. Finalmente borre los cursos que presentan el error.
 
 **Registro de usuarios por el tutor,**permite a los tutores (los docentes en las sesiones) registrar nuevos usuarios en la plataforma.
 
 #### Rendimiento {#rendimiento}
 
-![](../assets/images19.png)Esta sección permite mejorar la eficiencia de la plataforma.
+![](../assets/images19.png)
+Esta sección permite mejorar la eficiencia de la plataforma.
 
 **Dividir el directorio de transferencias (upload) de los usuarios,** mejora la velocidad en las plataformas con una carga muy alta, mediante la división del directorio personal de los usuarios. No obstante, esto también requiere una operación manual en el disco.
 
-Desde la versión 1.8.8.4, también se pueden encontrar consejos de optimización en _chamilo/documentation/__optimization.html_.
+Desde la versión 1.8.8.4 (año 2011), también se pueden encontrar consejos de optimización en _chamilo/documentation/optimization.html_.
 
 #### Evaluaciones {#evaluaciones}
 
-![](../assets/images18.png)Estos son los parámetros globales de la herramienta de evaluación que, en la mayoría de los casos, pueden ser redefinidos dentro de cada curso de forma específica.
+![](../assets/images18.png)
+Estos son los parámetros globales de la herramienta de evaluación que, en la mayoría de los casos, pueden ser redefinidos dentro de cada curso de forma específica.
 
 **Coloreado de puntuación,** permite la coloración a partir de las marcas que se establezcan en las evaluaciones. También es necesario definir las marcas que se colorearán en rojo.
 
@@ -114,7 +126,8 @@ Desde la versión 1.8.8.4, también se pueden encontrar consejos de optimizació
 
 #### Zonas Horarias {#zonas-horarias}
 
-![](../assets/images21.png)Esta sección define las opciones generales de las zonas horarias.
+![](../assets/images21.png)
+Esta sección define las opciones generales de las zonas horarias.
 
 **Zonas horarias de los usuarios,** permitirá a los usuarios definir sus propias zonas horarias y disponer de ellas en todo momento en la pantalla de la plataforma. Esto, por ejemplo, les permitirá conocer con mayor precisión el momento en que presentan un trabajo. Tenga en cuenta que este ajuste tiene que realizarse junto con la activación de la posibilidad de modificación del campo de _zona horaria_ por el usuario en los _campos de perfil de usuario_ (ver el capítulo 4.10Gestionar los campos de usuarios de la página 62).
 
@@ -122,25 +135,30 @@ Desde la versión 1.8.8.4, también se pueden encontrar consejos de optimizació
 
 #### Informes {#informes-0}
 
-![](../assets/image8.png)Esta sección le permite configurar mecanismos de SEO y de analíticas de su portal Chamilo, dándole acceso a las cabeceras del portal.
+![](../assets/image8.png)
+Esta sección le permite configurar mecanismos de SEO y de analíticas de su portal Chamilo, dándole acceso a las cabeceras del portal.
 
 #### Buscar {#buscar}
 
-![](../assets/images22.png)Esta sección permite configurar la característica de indexación de texto completo de Chamilo. Requiere el módulo php5-xapian y otras aplicaciones adicionales en el servidor. Esta característica sólo estaba disponible en la versión medical, pero se incorporó a la versión principal de Chamilo 1.8.8.4 como compromiso de los proveedores oficiales Chamilo.
+![](../assets/images22.png)
+Esta sección permite configurar la característica de indexación de texto completo de Chamilo. Requiere el módulo php5-xapian y otras aplicaciones adicionales en el servidor. Esta característica sólo estaba disponible en la versión medical, pero se incorporó a la versión principal de Chamilo 1.8.8.4 como compromiso de los proveedores oficiales Chamilo.
 
 No dude en solicitar alojamiento dedicado de uno de los proveedores oficiales de Chamilo[^9] si tiene alguna dificultad en la configuración.
 
 #### Hojas de estilo {#hojas-de-estilo}
 
-![](../assets/images23.svg)![](../assets/images23.png)Las hojas de estilo permiten definir el estilo visual global de su plataforma.
+![](../assets/images23.png)
+Las hojas de estilo permiten definir el estilo visual global de su plataforma.
 
-![](../assets/images139.png)Ilustración 32: Administración - Configuración de las hojas de estilo
+![](../assets/images139.png)
+Ilustración 32: Administración - Configuración de las hojas de estilo
 
-Desde la versión 1.8.7, es posible que usted pueda crear sus propias hojas de estilo y enviarlas al servidor. Puede recuperar una copia de uno de los estilos existentes en _chamilo/__app/Resources/public/__css/__themes/_ y cambiar el nombre del directorio de recuperación (en su ordenador, no en el servidor). A partir de aquí, puede modificar el estilo a su gusto y enviar el directorio que contiene su trabajo en un archivo zip con el nombre que desee. Tras realizar esto, seleccione el estilo que ha creado en la lista desplegable y si está contento con el resultado, haga clic en el botón _Guardar configuración_ para aplicar este estilo a todo su portal.
+Desde la versión 1.8.7, es posible que usted pueda crear sus propias hojas de estilo y enviarlas al servidor. Puede recuperar una copia de uno de los estilos existentes en _chamilo/app/Resources/public/css/themes/_ y cambiar el nombre del directorio de recuperación (en su ordenador, no en el servidor). A partir de aquí, puede modificar el estilo a su gusto y enviar el directorio que contiene su trabajo en un archivo zip con el nombre que desee. Tras realizar esto, seleccione el estilo que ha creado en la lista desplegable y si está contento con el resultado, haga clic en el botón _Guardar configuración_ para aplicar este estilo a todo su portal.
 
 #### Plantillas {#plantillas}
 
-![](../assets/images24.png)Las plantillas de documentos permiten acelerar la creación de contenidos en Chamilo. La creación de nuevas plantillas desde este zona de la plataforma afectará a todos los cursos del portal.
+![](../assets/images24.png)
+Las plantillas de documentos permiten acelerar la creación de contenidos en Chamilo. La creación de nuevas plantillas desde este zona de la plataforma afectará a todos los cursos del portal.
 
 Crear, editar y eliminar plantillas es muy fácil. En cada curso podrá usar estas plantillas cuando cree o edite un documento del curso. No dude en probar esta funcionalidad, creando algunas plantillas de prueba que siempre podrá borrar si no son de su agrado.
 
@@ -148,9 +166,11 @@ Esta característica es particularmente útil para establecer sus propias planti
 
 #### Plugins {#plugins-0}
 
-![](../assets/images25.png)Esta sección permite habilitar los plugins disponibles en la carpeta _plugin/_ del servidor.
+![](../assets/images25.png)
+Esta sección permite habilitar los plugins disponibles en la carpeta _plugin/_ del servidor.
 
-![](../assets/images140.png)Ilustración 33: Administración - Instalación de plugins
+![](../assets/images140.png)
+Ilustración 33: Administración - Instalación de plugins
 
 Desde la versión 1.8.8.2 de Chamilo al habilitar un plugin éste puede aparecer como una herramienta más en el curso, tal y como ocurre con el plugin _BigBlueButton_. Si activa este plugin podrá conectar su portal Chamilo a un servidor de vídeo-conferencia. Chamilo no incorpora el servidor de vídeo-conferencia, por lo que tendrá que instalarlo usted mismo o pedir ayuda a un proveedor oficial.
 
@@ -158,33 +178,40 @@ Desde la versión 1.8.8.2 de Chamilo al habilitar un plugin éste puede aparecer
 
 #### LDAP {#ldap}
 
-![](../assets/images20.png)Esta sección le permite configurar la sincronización con un servidor LDAP. Contiene una larga serie de ajustes que requieren de un buen conocimiento de LDAP, por lo que le invitamos a ampliar su información mediante documentación específica sobre LDAP. Tenga en cuenta que un servidor ActiveDirectory puede ser utilizado como un servidor LDAP a través del modo LDAP -compatibility.
+![](../assets/images20.png)
+Esta sección le permite configurar la sincronización con un servidor LDAP. Contiene una larga serie de ajustes que requieren de un buen conocimiento de LDAP, por lo que le invitamos a ampliar su información mediante documentación específica sobre LDAP. Tenga en cuenta que un servidor ActiveDirectory puede ser utilizado como un servidor LDAP a través del modo LDAP -compatibility.
 
 #### CAS {#cas}
 
-![](../assets/image4.png)Esta sección le permite configurar la conexión con servidores de autenticación CAS. No obstante, puede ser necesario modificar algunos archivos para que funcione, ya que los servidores CAS pueden tener configuraciones específicas. Por favor leer con atención.
+![](../assets/image4.png)
+Esta sección le permite configurar la conexión con servidores de autenticación CAS. No obstante, puede ser necesario modificar algunos archivos para que funcione, ya que los servidores CAS pueden tener configuraciones específicas. Por favor leer con atención.
 
 #### Shibboleth {#shibboleth}
 
-![](../assets/image5.png)Esta sección le permite configurar la conexión con servidores de autenticación Shibboleth. No obstante, puede ser necesario modificar algunos archivos para que funcione, ya que los servidores Shibboleth pueden tener configuraciones específicas. Por favor leer con atención.
+![](../assets/image5.png)
+Esta sección le permite configurar la conexión con servidores de autenticación Shibboleth. No obstante, puede ser necesario modificar algunos archivos para que funcione, ya que los servidores Shibboleth pueden tener configuraciones específicas. Por favor leer con atención.
 
 #### Facebook {#facebook}
 
-![](../assets/image6.png)Esta sección le permite configurar la conexión con servidores de autenticación Facebook. No obstante, puede ser necesario modificar algunos archivos para que funcione, ya que los servidores Facebook pueden tener configuraciones específicas. Por favor leer con atención.
+![](../assets/image6.png)
+Esta sección le permite configurar la conexión con servidores de autenticación Facebook. No obstante, puede ser necesario modificar algunos archivos para que funcione, ya que los servidores Facebook pueden tener configuraciones específicas. Por favor leer con atención.
 
 #### Crons {#crons}
 
-![](../assets/image7.png)Esta sección le permite configurar parámetros de procesos (cronológicos) que tienen que lanzarse en momentos determinados. Esto requiere de la configuración de archivos en el sistema operativo del servidor Chamilo. A leer con atención.
+![](../assets/image7.png)
+Esta sección le permite configurar parámetros de procesos (cronológicos) que tienen que lanzarse en momentos determinados. Esto requiere de la configuración de archivos en el sistema operativo del servidor Chamilo. A leer con atención.
 
 ### Idiomas {#idiomas}
 
 Aquí podrá definir los idiomas que estarán disponibles para los usuarios cuando se éstos se registren o creen un curso.
 
-![](../assets/images143.png)Ilustración 34: Administración - Administración de idiomas
+![](../assets/images143.png)
+Ilustración 34: Administración - Administración de idiomas
 
 Si activa la funcionalidad de sub-idiomas, podrá redefinir algunos términos en el interfaz del portal. Para ello, active esta opción en la página de configuración de idiomas (ver la sección 3.1.4Idiomas), a continuación abra la página de lista de idiomas. Aquí encontrará un icono adicional que le permite agregar un idioma secundario a cualquier idioma existente.
 
-![](../assets/images144.png)Ilustración 35: Administración - Icono de creación de sub-idioma
+![](../assets/images144.png)
+Ilustración 35: Administración - Icono de creación de sub-idioma
 
 La definición de un sub-idioma es muy fácil: sólo tiene que indicar el nombre del idioma secundario, el código ISO (2 letras, como “fr”, “en”, “es”) y su nombre en inglés, no debiendo coincidir este último con alguno ya existente.
 
@@ -194,13 +221,15 @@ Si piensa definir un sub-idioma es preferible que lo haga antes de crear los cur
 
 #### Crear un sub-idioma {#crear-un-sub-idioma}
 
-Haga clic en el icono de la creación de sub-idioma en el extremo derecho de la línea del idioma seleccionado, por ejemplo el inglés. Rellene el formulario indicando el nombre común de la lengua, por ejemplo &quot;Inglés Médico&quot;. Facilite para el mismo un nombre en inglés sin espacios ni acentos, por ejemplo &quot;medical_english&quot;. Proporcione un código ISO igual que el del idioma padre, en este caso “en”.
+Haga clic en el icono de la creación de sub-idioma en el extremo derecho de la línea del idioma seleccionado, por ejemplo el inglés. Rellene el formulario indicando el nombre común de la lengua, por ejemplo "Inglés Médico". Facilite para el mismo un nombre en inglés sin espacios ni acentos, por ejemplo "medical_english". Proporcione un código ISO igual que el del idioma padre, en este caso “en”.
 
-![](../assets/images145.png)Ilustración 36: Administración - Crear sub-idioma
+![](../assets/images145.png)
+Ilustración 36: Administración - Crear sub-idioma
 
 Seleccione la _Visibilidad_ para que luego podamos seleccionar su activación, y haga clic en el botón _crear sub-idioma_. Un mensaje de confirmación le sugerirá regresas a la lista de idiomas. Siga el enlace...
 
-![](../assets/images146.png)Ilustración 37: Administración - Lista de idiomas con sub-idiomas
+![](../assets/images146.png)
+Ilustración 37: Administración - Lista de idiomas con sub-idiomas
 
 La página de resultados mostrará una línea un poco diferente al resto, que corresponderá al sub-idioma creado. En el mismo, haga clic en el icono de flecha doble para definir sus propios términos.
 
@@ -208,7 +237,8 @@ La página de resultados mostrará una línea un poco diferente al resto, que co
 
 La página que se presenta es una página de búsqueda. Si desea modificar un _término_ escriba el texto en la caja de búsqueda para ver todas las veces en que es usado en la plataforma.
 
-![](../assets/images147.png)Ilustración 38: Administración - Redefinición de términos en el sub-idioma
+![](../assets/images147.png)
+Ilustración 38: Administración - Redefinición de términos en el sub-idioma
 
 Una vez que la búsqueda ha generado resultados, modifique cualquiera de los términos o palabras de la columna _nombre original_, con una nueva traducción que introducirá en la columna _sub-idioma_. Finalmente haga clic en el botón _Guardar_. Tenga en cuenta que algunos de los términos aparecen frecuentemente en la traducción de la interfaz, por lo que esta tarea podría tardar un tiempo ...
 
@@ -216,7 +246,8 @@ Una vez que la búsqueda ha generado resultados, modifique cualquiera de los té
 
 Tras haber modificado algún término de su sub-idioma. el único paso que queda es asignarlo por defecto a todos los nuevos cursos y usuarios. Para ello, volver a la lista de idiomas y desactivar todos los demás idiomas.
 
-![](../assets/images148.png)Ilustración 39: Administración - Visibilidad y uso por defecto
+![](../assets/images148.png)
+Ilustración 39: Administración - Visibilidad y uso por defecto
 
 En el sub-idioma en cuestión, haga clic en el tercer icono para que se convierta en el idioma por defecto de la plataforma. Eso es todo, la plataforma está personalizada para la actividad en que va a ser usada.
 
@@ -238,7 +269,8 @@ Las regiones no representan una funcionalidad directamente útil para un adminis
 
 Le permite agregar un anuncio global en la página principal del portal y en la parte superior de la lista de cursos.
 
-![](../assets/images142.png)Ilustración 40: Administración - Anuncios globales
+![](../assets/images142.png)
+Ilustración 40: Administración - Anuncios globales
 
 Es posible configurar el tiempo que se mantendrá visible el anuncio, el grupo de personas con determinado rol de docente, alumno o invitado que lo verán y si también se les va a enviar por correo electrónico.
 
@@ -262,7 +294,8 @@ Desde esta página, usted puede configurar muchas cosas:
 
 4.  Insertar enlaces
 
-![](../assets/images149.png)Ilustración 41: Administración - Configuración de la página principal
+![](../assets/images149.png)
+Ilustración 41: Administración - Configuración de la página principal
 
 Tenga en cuenta que esta funcionalidad depende del idioma seleccionado. Si se define una página de bienvenida en francés, sólo será visible cuando el francés sea el idioma seleccionado. Esto le permite configurar diferentes mensajes de bienvenida en función de sus usuarios.
 
@@ -282,11 +315,12 @@ Esta herramienta le permite generar pequeños cuadros estadísticos para cuatro 
 
 *   Social
 
-![](../assets/images150.png)Ilustración 42: Administración - Estadísticas globales
+![](../assets/images150.png)
+Ilustración 42: Administración - Estadísticas globales
 
 Aunque los datos estadísticos son muy resumidos darán una buena idea del uso de la plataforma.
 
-En particular, las _A__ctividades importantes_ del sistema le darán una información detallada de todas las actividades que se realizan en el portal: creación y eliminación de cursos, de usuarios, sesiones, edición de opciones de configuración y muchas más.
+En particular, las _Actividades importantes_ del sistema le darán una información detallada de todas las actividades que se realizan en el portal: creación y eliminación de cursos, de usuarios, sesiones, edición de opciones de configuración y muchas más.
 
 ### Informes {#informes}
 

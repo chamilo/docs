@@ -6,9 +6,11 @@ En una sesión se pueden agrupar cursos de diferentes categorías.
 
 El el esquema que hemos utilizado para explicar los roles de los usuarios nos servirá para explicar las _sesiones_.
 
-![](../assets/images206.png)Ilustración 61: Global - Esquema de las sesiones
+![](../assets/images206.png)
+Ilustración 61: Global - Esquema de las sesiones
 
-![](../assets/images104.png)![](../assets/images105.png)
+![](../assets/images104.png)
+![](../assets/images105.png)
 
 Como puede ver, la sesión se define por un _administrador de sesiones_ y un _tutor de la sesión_ o tutor general que actúa como coordinador.
 
@@ -18,7 +20,7 @@ Opcionalmente, se pueden establecer límites de tiempo para los tutores y alumno
 
 ### Casos de uso {#casos-de-uso}
 
-Hay varios casos donde las sesiones pueden ser un verdadero ahorro de tiempo ... todos flotan sobre una gran ventaja: el reciclaje de contenidos.
+Hay varios casos donde las sesiones pueden ser un verdadero ahorro de tiempo... todos flotan sobre una gran ventaja: el reciclaje de contenidos.
 
 #### El año académico {#el-a-o-acad-mico}
 
@@ -31,39 +33,28 @@ Esto se puede realizar de varias formas:
 El primero es copiar el curso. Lo cual significa que:
 
 *   duplicará una y otra vez los 50 MB de espacio que se reserva a cada curso
-
 *   tal vez deberá asignarlo a otro docente
-
 *   tendrá que pensar en un código nuevo para el curso que se adapte al hecho de que no es enteramente el mismo curso en cada uno de los casos
-
-*   tal vez los alumnos del año anterior seguirán perteneciendo al curso porque su inscripción no ha &quot;caducado&quot;
+*   tal vez los alumnos del año anterior seguirán perteneciendo al curso porque su inscripción no ha "caducado"
 
 El segundo es limpiar el curso. Para ello deberá:
 
 *   eliminar todos los alumnos del curso
-
 *   eliminar todos los foros que no mantengan su utilidad
-
 *   eliminar todas las páginas wiki que hayan dejado de ser útiles
 
 1.  **Con el uso de sesiones**. Para ello deberá:
 
 *   definir una sesión que, por ejemplo, se extienda por todo el semestre de enero 2011 a julio 2011
-
 *   asignar los cursos a la sesión
-
 *   asignar los docentes responsables de esos cursos (tutores)
-
 *   asignar los alumnos a la sesión
 
 El uso de sesiones conlleva las siguientes ventajas:
 
 *   los docentes tutores pueden agregar contenidos a los cursos de la sesión pero no pueden eliminar los contenidos base que ya están disponibles. Además, los contenidos que agreguen sólo serán visibles por sus alumnos.
-
 *   los alumnos sólo deben inscribirse una vez
-
 *   los alumnos tendrán acceso a estos cursos después de que, por ejemplo, el semestre haya terminado. Pero para ello, tendrán que hacerlo a través de su “historial de sesiones” que aparecerá en otra página de acceso diferente a la que han tenido durante la sesión.
-
 *   cuando revise los resultados o los foros, usted nunca tendrá distintos grupos de alumnos de varios años mezclados en el interior de su curso
 
 #### Tutoría personal {#tutor-a-personal}
@@ -105,25 +96,15 @@ El bloque de sesiones aparece como sigue en la página principal de administraci
 Para agregar una sesión:
 
 *   ir a _administración_
-
-*   _sesiones de formación_ → &quot;Crear una sesión de formación&quot;
-
+*   _sesiones de formación_ → "Crear una sesión de formación"
 *   dar nombre a la sesión
-
 *   asignar un tutor que tendrá permisos para entrar y seguir todos los cursos y alumnos en esta sesión
-
 *   opcionalmente, dar una categoría de sesiones
-
 *   en su caso, definir un tiempo límite de caducidad
-
 *   definir la visibilidad de una sesión, una vez expirada:
-
 *   _sólo lectura,_ posibilita que se siga accediendo a los recursos pero no realizar exámenes, ni participar en los foros, etc.
-
 *   _accesible,_ implica que la sesión se mantendrá plenamente accesible a través del enlace al historial de sesiones de la lista de cursos
-
 *   no accesible
-
 *   dar clic en siguiente elemento
 
 ![](../assets/images170.png)Ilustración 62: Administración - Creación de sesiones
@@ -135,16 +116,15 @@ En el caso de definirlas por duración, la duración se cuenta en número de dí
 En el caso de definirlas por fechas, existen 3 grupos de fechas que definir (solo el primero es necesario):
 
 1.  Fechas de inicio y fin de acceso para los estudiantes
-
 2.  Fechas de inicio y fin que se mostrarán en las listas, “oficialmente”, asociadas con la sesión
-
 3.  Fechas de inicio y fin de acceso para los tutores
 
 El segundo paso requiere que se agregue cursos a la sesión. Seleccione uno (o más) curso(s) y haga clic en la flecha azul para añadir o eliminar cursos en la sesión, luego haga clic en el botón _Siguiente elemento_ para continuar.
 
 **Registro individual** permite no perderse dentro de los cursos que existen en la plataforma. Usted debe escribir el comienzo del título del curso dentro del campo de búsqueda y los cursos que comiencen por ese texto aparecerán en el listado.
 
-![](../assets/images171.png)Ilustración 63: Administración – Agregando cursos a una sesión
+![](../assets/images171.png)
+Ilustración 63: Administración – Agregando cursos a una sesión
 
 El último paso le permite suscribir a los alumnos a la sesión. Otros tutores se pueden asignar más tarde, ahora sólo estamos inscribiendo alumnos.
 
@@ -154,7 +134,8 @@ Elegir a los usuarios y añadirlos con la flecha azul, de forma similar a la que
 
 **Matrícula por clases**permite agregar a los alumnos a la sesión de clases. Las clases se tratarán más adelante en este capítulo.
 
-![](../assets/images172.png)Ilustración 64: Administración - Suscripción de los estudiantes a las sesiones
+![](../assets/images172.png)
+Ilustración 64: Administración - Suscripción de los estudiantes a las sesiones
 
 Debido al funcionamiento especial de las herramientas de un curso cuando éste se utiliza a través de sesiones, hemos escrito un informe técnico sobre cómo deberían comportarse en el contexto de una sesión en nuestro wiki técnico:
 
@@ -266,30 +247,22 @@ Volvamos al esquema anterior como referencia:
 
 Las dos promociones será el resultado de 5 años de estudio, que serán acordes con el periodo mínimo de cursos de un año. De este modo tendrá 5 **periodos** de un año cada uno que en conjunto forman la promoción 2021.
 
-Los periodos son fijos, por lo que pueden ser compartidos entre las dos carreras. En su plataforma, se trata de categorías de sesiones, que se le llamarán, respectivamente, _201__6__-201__7__, 201__7__-201__8__, 201__8__-201__9__, 201__9__-20__20_ _y 20__20__-20__2__1._Por supuesto, usted puede darles otros nombres según su necesidades.
+Los periodos son fijos, por lo que pueden ser compartidos entre las dos carreras. En su plataforma, se trata de categorías de sesiones, que se le llamarán, respectivamente, _2016-2017_, _2017-2018_, _2018-2019_, _2019-2020_ y _2020-2021_. Por supuesto, usted puede darles otros nombres según su necesidades.
 
 Dentro de cada periodo, los docentes impartirán sus clases. Algunos cursos son comunes a la carrera de medicina y a la carrera de veterinaria, por ejemplo: el curso de Biología general (BIOGEN); pero los docentes tutores de estos cursos podrán ser diferentes y realizarán su labor en dos aulas separadas de alumnos, una por carrera.
 
 El curso se imparte desde hace varios años casi sin modificación y sin guardar los resultados de cada año en el historial del curso. El interés principal está en tener una visión clara de los alumnos inscritos este año.
 
-Esta necesidad nos lleva al uso de una sesión. Esta sesión se extiende durante un año académico a los alumnos de la promoción 2021 de veterinaria (PROVET2021), durante el periodo 2016-2017. Durante la misma los alumnos seguirán entre otros los cursos de_biología canina_, _ética médica_ y _leyes médicas_.
+Esta necesidad nos lleva al uso de una sesión. Esta sesión se extiende durante un año académico a los alumnos de la promoción 2021 de veterinaria (PROVET2021), durante el periodo 2016-2017. Durante la misma los alumnos seguirán entre otros los cursos de _biología canina_, _ética médica_ y _leyes médicas_.
 
 Los pasos para establecer toda la estructura serían los siguientes:
-
 1.  crear una carrera (VET)
-
 2.  crear una promoción (PROMVET2021)
-
 3.  crear un periodo (2016-2)
-
 4.  crear o seleccionar los cursos para esta promoción en el 2016 (BIOGEN, BIOCAN, ETHMED, DROMED)
-
 5.  crear una sesión que contenga estos cursos (VET2016-2-AAA)
-
 6.  asignar un tutor de sesión que se ocupe de la coordinación
-
 7.  asignar un tutor de curso para que se ocupe de cada curso-aula. En nuestro caso, tendrán un especial papel de ayuda en las prácticas
-
 8.  finalmente, suscribir a los alumnos en la sesión
 
 De esta manera, sus alumnos tendrán acceso a los cursos actuales, y más tarde también a su historial de cursos según haya configurado usted la visibilidad de las sesiones.
