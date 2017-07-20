@@ -1,8 +1,12 @@
 ## Opciones de configuración {#opciones-de-configuraci-n}
 
-Chamilo 1.10 ofrece más de 300 opciones de configuración en la parte _Parámetros de configuración de Chamilo_. Estas opciones impactan el funcionamiento de la plataforma y la cantidad de opciones adicionales que aparecerán en todas partes de la plataforma.
+Chamilo 1.11 ofrece cerca de 300 parámetros de configuración en la parte _Parámetros de configuración de Chamilo_, sin contar unas docenas de parámetros adicionales en su archivo de configuración _app/config/configuration.php_. Estas opciones impactan el funcionamiento de la plataforma y la cantidad de opciones adicionales que aparecerán en todas partes de la plataforma.
 
-Por lo tanto, consideramos importante tener un registro centralizado así como una pequeña explicación de cada uno de estos parámetros en este manual.
+Por lo tanto, consideramos importante tener un registro centralizado así como una pequeña explicación de una mayoría de estos parámetros.
+
+Algunos de estos parámetros solo se pueden configurar en el archivo de configuración de Chamilo (_app/config/configuration.php_). De estos, algunos están ahí temporalmente hasta la próxima versión mayor de Chamilo y su integración a la lista normal de opciones, mientras otros están en este archivo principalmente porque su cambio implica algún tipo de cambio adicional paralelo en el servidor, el cual solo puede ser gestionado por alguien que tenga acceso al sistema de archivos, y por lo tanto no ayudaría ponerlos en la interfaz web.
+
+Nota: Si su portal Chamilo ha sido actualizado desde una versión anterior, puede que no todas las opciones disponibles aparezcan en _app/config/configuration.php_. En este caso, verifique la existencia de nuevos parámetros en el archivo _main/install/configuration.dist.php_ y cópielos en _app/config/configuration.php_ antes de activarlos.
 
 ### Lista de opciones de configuración {#lista-de-opciones-de-configuraci-n}
 
