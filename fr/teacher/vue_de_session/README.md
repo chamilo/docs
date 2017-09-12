@@ -6,9 +6,9 @@ Depuis Chamilo 1.8.8, une nouvelle vue est disponible depuis la page _Mes cours_
 
 ![](../assets/image288.png)Illustration 212: Mes cours - Vue de session
 
-À la différence des versions précédentes de Chamilo, le titre de la session est désormais un lien, qui mène directement vers une page dont la présentation est assez distincte du reste de Chamilo. Il s&#039;agit d&#039;une méthode de présentation différente.
+À la différence des versions antérieures de Chamilo, le titre de la session est désormais un lien, qui mène directement vers une page dont la présentation est assez distincte du reste de Chamilo. Il s&#039;agit d&#039;une méthode de présentation différente.
 
-Ce nouveau concept dépend fortement d&#039;une programmation dans le temps des exercices et des parcours : en vous assurant que chaque parcours et chaque exercice possèdent une date de début et une date de fin, les données affichées dans cette interface deviennent bien plus riches.
+Ce nouveau concept dépend fortement d&#039;une programmation dans le temps des exercices et des parcours : en vous assurant que chaque parcours et chaque exercice comportent une date de début et une date de fin, les données affichées dans cette interface deviennent bien plus riches.
 
 ![](../assets/image289.png)Illustration 213: Sessions - Écran de session
 

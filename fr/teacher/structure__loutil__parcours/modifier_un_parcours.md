@@ -20,7 +20,7 @@ La colonne de droite comprend les outils utiles à la modification. Il comprend 
 | ![](../assets/images114.png) | Exporter le parcours complet sous forme d&#039;un document PDF |
 | ![](../assets/graphics40.png) | Copier/répliquer un parcours |
 
-Dans la version 1.10.0, deux nouvelles options font leur apparition dans les outils de gestion des parcours. La première apparaîtra toujours et permet, grâce à l&#039;icône de rapports (![](../assets/image133.png)), d&#039;accéder à une page de rapports sur le progrès, pour ce parcours en particulier, de tous les apprenants. Elle permet de comparer tous les apprenants du cours. Dans les versions précédentes, il était possible uniquement d&#039;obtenir ce rapport apprenant par apprenant, sur des pages individuelles, ou la moyenne de tous les apprenants d&#039;une fois.
+Dans la version 1.10.0, deux nouvelles options font leur apparition dans les outils de gestion des parcours. La première apparaîtra toujours et permet, grâce à l&#039;icône de rapports (![](../assets/image133.png)), d&#039;accéder à une page de rapports sur le progrès, pour ce parcours en particulier, de tous les apprenants. Elle permet de comparer tous les apprenants du cours. Dans les versions antérieures, il était possible uniquement d&#039;obtenir ce rapport apprenant par apprenant, sur des pages individuelles, ou la moyenne de tous les apprenants à la fois.
 
 La deuxième option apparaît seulement si l&#039;administrateur a décidé d&#039;activer le mode de “gamification” ou ludification dans les paramètres de configuration.
 
@@ -34,7 +34,7 @@ Dans ce cas, et uniquement si le parcours a été configuré dans ce mode en uti
 
 *   ![](../assets/image135.png)1 étoile quand le score de l&#039;exercice final &gt;= 80% (comprendre le dernier exercice du parcours)
 
-Évidemment, cela demande que plusieurs exercices aient été placés dans le parcours (nous recommandon un minimum de 4 exercices), c&#039;est pourquoi nous vous suggérons de faire des tests en suffisance avant de lancer le parcours au grand public.
+Évidemment, cela demande que plusieurs exercices aient été placés dans le parcours (nous recommandons un minimum de 4 exercices), c&#039;est pourquoi nous vous suggérons de faire des tests en suffisance avant de lancer le parcours au grand public.
 
 Le score qui apparaît (sous forme de “points”) reflète le score total (absolu) de la somme des dernières tentatives aux exercices passés dans ce parcours.
 
