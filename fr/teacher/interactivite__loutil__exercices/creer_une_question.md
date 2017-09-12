@@ -6,7 +6,7 @@ Une fois le test créé, choisir le type de la première question parmi les sept
 
 ### Type 1 : Question à choix multiples – réponse unique {#type-1-question-choix-multiples-r-ponse-unique}
 
-![](../assets/graphics153.svg)![](../assets/graphics153.png)Le QCM classique est celui où une seule proposition sera considérée comme valide. Il est possible de rendre le test plus dur en affectant un score négatif à une réponse fausse, ce qui fait davantage réfléchir le participant et le fait hésiter à répondre « au hasard ».
+![](../assets/graphics153.svg)![](../assets/graphics153.png)Le QCM classique est celui où une seule proposition sera considérée comme valide. Il est possible de rendre le test plus dur en affectant un score négatif à une réponse fausse, ce qui pousse le participant à réfléchir davantage et le dissuade de répondre « au hasard ».
 
 * compléter le titre de la question – attention, ceci n'est **pas** la question elle-même,
 
