@@ -6,7 +6,7 @@ La section _Accès à ce cours_ permet de configurer la manière d&#039;accéder
 
 La visibilité peut être configurée de 4 façons :
 
-*   « Public » permet de rendre le cours accessible à tous. Cela signifie également aux utilisateurs qui ne sont pas inscrit dans votre cours ni inscrits sur le portail. N&#039;importe quel « touriste du net » pourra entrer dans votre cours et en voir le contenu. Il pourra même passer des exercices, même si son score ne sera pas conservé.
+*   « Public » permet de rendre le cours accessible à tous. Cela signifie également aux utilisateurs qui ne sont pas inscrit dans votre cours ni inscrits sur le portail. N&#039;importe quel « touriste du net » pourra entrer dans votre cours et en voir le contenu. Il pourra aussi passer des exercices, même si son score ne sera pas conservé.
 
 *   Ouvert permet aux utilisateurs du portail (et uniquement ceux-ci) de s&#039;inscrire librement à votre cours. Au travers de leurs inscription, ils accèdent aux ressources du cours et peuvent y participer comme un quelconque apprenant.
 

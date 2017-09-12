@@ -12,4 +12,4 @@ Dans cette section, il est possible de choisir d’être informé par courriel s
 
 *   un test a été passé par un apprenant,
 
-*   etc (les options sont bien décrites sur la page même)
+*   etc (les options sont bien décrites sur la page-même)

@@ -14,7 +14,7 @@
 
 *   ajoutez une description de l’événement (il est possible d&#039;insérer une image, une vidéo, un lien),
 
-*   indiquez optionnellement un commentaire ou une remarque (n&#039;oubliez pas que l&#039;événement peut être envoyé à une seule personne à la fois),
+*   indiquez facultativement un commentaire ou une remarque (n&#039;oubliez pas que l&#039;événement peut être envoyé à une seule personne à la fois),
 
 *   associez éventuellement un document joint en cliquant sur le lien « Annexe » puis sur le bouton « Parcourir »,
 

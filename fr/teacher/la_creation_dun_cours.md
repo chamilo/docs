@@ -14,7 +14,7 @@ Pour le cours, il faut :
 
 ![](assets/graficos7.png)Illustration 11: Créer un cours - version courte
 
-Les options additionnelles \(et totalement optionnelles\) disponibles en cliquant sur le lien _Paramètres avancés_ sont :
+Les options additionnelles \(et totalement facultatives\) disponibles en cliquant sur le lien _Paramètres avancés_ sont :
 
 * une catégorie parmi celles proposées dans la liste déroulante[^3],
 
