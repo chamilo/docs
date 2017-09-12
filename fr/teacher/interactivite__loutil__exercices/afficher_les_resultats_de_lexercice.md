@@ -1,6 +1,6 @@
 ## Afficher les résultats de l'exercice {#afficher-les-r-sultats-de-l-exercice}
 
-Chamilo propose aussi de pouvoir analyser les exercices effectués par les apprenants en cliquant tout simplement sur le lien « Résultats », qui listera tous les résultats de l'exercice correspondant.
+Chamilo permet aussi d'analyser les exercices effectués par les apprenants en cliquant tout simplement sur le lien « Résultats », qui listera tous les résultats de l'exercice correspondant.
 
 ![](../assets/graficos37.png)Illustration 47: Exercices - Liste
 

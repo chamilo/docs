@@ -1,6 +1,6 @@
 ## Qu'est-ce que Chamilo ? {#qu-est-ce-que-chamilo}
 
-Chamilo est un système d'e-learning \(c'est à dire de gestion de l'apprentissage\) développé de façon collaborative par diverses entreprises, associations et personnes, au travers d'un modèle ouvert qualifié de « logiciel libre ».
+Chamilo est un système de gestion de l'apprentissage \(« e-learning »\) développé de façon collaborative par diverses entreprises, associations et personnes, au travers d'un modèle ouvert qualifié de « logiciel libre ».
 
 Vous pouvez télécharger gratuitement Chamilo et l'utiliser librement, pour peu que vous acceptiez sa licence \(GNU/GPLv3\), qui vous donne, en résumé, 4 libertés, en échange d'un engagement de votre part d'assurer la continuité de ces libertés : utiliser, étudier, modifier et distribuer.
 
