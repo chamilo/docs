@@ -10,7 +10,7 @@ En tant qu&#039;enseignant, il est seulement possible de sélectionner la (ou le
 
 Pour sélectionner une compétence au sein du cahier de notes, tapez au moins 3 lettres successives du titre de cette compétence. Une liste de correspondances (voir capture ci-dessus) apparaîtra afin de sélectionner celle qui convient. En sélectionnant une compétence, vous la liez au cahier de notes, et tous les apprenants atteignant la note minimum configurée obtiendront automatiquement cette compétence.
 
-Les règles d&#039;obtention des compétences sont donc identiques à celles des certificats : l&#039;apprenant devra charger la page principale de l&#039;outil de cahier de notes pour que la compétence correspondante soit réellement attribuée. Ce petit détail a été corrigé dans la version 1.10.4 de Chamilo, mais il est important de ne pas l&#039;oublier au cas où vous auriez le coup.
+Les règles d&#039;obtention des compétences sont donc identiques à celles des certificats : l&#039;apprenant devra charger la page principale de l&#039;outil de cahier de notes pour que la compétence correspondante soit réellement attribuée. Ce petit détail a été corrigé depuis la version 1.10.4 de Chamilo, mais il est important de ne pas l&#039;oublier au cas où vous auriez le coup.
 
 Si l&#039;outil de compétences a été activé, si une compétence a été configurée, si l&#039;apprenant a obtenu le score minimum nécessaire et si le réseau social n&#039;a pas été désactivé, les compétences s&#039;afficheront automatiquement sur le profil de l&#039;utilisateur dans le réseau social.
 

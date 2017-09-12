@@ -1,6 +1,6 @@
 ## Administrer les « Sessions de formation » {#administrer-les-sessions-de-formation}
 
-Une session est un dispositif qui se place « par-dessus » un ou plusieurs cours et permet de former des groupes d&#039;apprenants qui pourront suivre les mêmes cours en même temps, dans des _espaces virtuels_ séparés.
+Une session est un dispositif qui se place « par-dessus » un ou plusieurs cours et permet de former des groupes d&#039;apprenants qui pourront suivre les mêmes cours simultanément, dans des _espaces virtuels_ séparés.
 
 Les sessions peuvent regrouper différents cours de différentes catégories.
 
@@ -104,7 +104,7 @@ Choisissez les utilisateurs et, comme pour les cours, ajoutez-les avec la flèch
 
 ### Catégories de sessions ou Périodes {#cat-gories-de-sessions-ou-p-riodes}
 
-Les catégories de sessions sont à considérer comme n&#039;importe quel type de catégorisation, mais dans de nombreux cas elles permettent d&#039;introduire la notion de période (trimestre, semestre, année) durant laquelle plusieurs sessions se déroulent en même temps.
+Les catégories de sessions sont à considérer comme n&#039;importe quel type de catégorisation, mais dans de nombreux cas elles permettent d&#039;introduire la notion de période (trimestre, semestre, année) durant laquelle plusieurs sessions se déroulent simultanément.
 
 La gestion des catégories de sessions est fort similaire à la gestion de catégories de cours. Nous ne rentrerons pas dans les détails ici. La seule chose à savoir est que les dates de catégories de sessions sont purement informatives et n&#039;ont aucune influence sur la visibilité des sessions.
 

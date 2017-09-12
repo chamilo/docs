@@ -6,7 +6,7 @@ Bien que l'ordre logique voudrait que la suite naturelle à la création de docu
 
 L'outil _Forum_ \(![](../assets/image76.png)\) permet d'organiser les échanges d'idées, d'opinions et d'informations sur le cours et les parcours. L'outil est conçu pour permettre aux personnes intéressées par une question de trouver rapidement l'information recherchée sans avoir à parcourir une longue liste de messages non pertinents.
 
-Le forum est un outil de discussion asynchrone \(c'est à dire que les personnes impliquées dans une conversation ne doivent pas s'y trouver connectés en même temps\), comme le courriel. À la différence du courriel toutefois, le forum situe la discussion dans un espace public ou semi-public \(à plusieurs\).
+Le forum est un outil de discussion asynchrone \(c'est à dire que les personnes impliquées dans une conversation ne doivent pas s'y trouver connectés simultanément\), comme le courriel. À la différence du courriel toutefois, le forum situe la discussion dans un espace public ou semi-public \(à plusieurs\).
 
 Pour utiliser l'outil « Forum » de Chamilo, les utilisateurs n'ont besoin que d'un simple navigateur Web \(Firefox, Opera, Chrome, Internet Explorer, etc\).
 

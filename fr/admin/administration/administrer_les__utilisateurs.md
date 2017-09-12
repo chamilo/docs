@@ -313,7 +313,7 @@ Le message d&#039;erreur montre les conflits qui ont pu se produire durant l&#03
 
 ### Éditer utilisateurs par CSV {#diter-utilisateurs-par-csv}
 
-Cette option, introduite dans la version 1.10, permet d&#039;exécuter uniquement une mise à jour d&#039;utilisateurs existants, sans création ni suppression. Elle fonctionne de manière similaire à l&#039;import et l&#039;export, mais requiert **obligatoirement** un nom d&#039;utilisateur, qui est utilisé comme identifiant unique pour assurer la modification de l&#039;utilisateur voulu.
+Cette option, introduite à partir de la version 1.10, permet d&#039;exécuter uniquement une mise à jour d&#039;utilisateurs existants, sans création ni suppression. Elle fonctionne de manière similaire à l&#039;import et l&#039;export, mais requiert **obligatoirement** un nom d&#039;utilisateur, qui est utilisé comme identifiant unique pour assurer la modification de l&#039;utilisateur voulu.
 
 ### Profils {#profils}
 

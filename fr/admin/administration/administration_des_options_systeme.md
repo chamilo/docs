@@ -26,7 +26,7 @@ Il est donc bon de penser à exécuter ce script de temps en temps \(une fois pa
 
 ### Séquencialisation de ressources {#s-quencialisation-de-ressources}
 
-Cet outil est apparu sous forme expérimentale dans la version 1.10 de Chamilo. Il permet de configurer une séquencialisation des sessions, de telle manière qu'un apprenant ne puisse s'inscrire à une session que s'il a complété une ou plusieurs autres sessions.
+Cet outil est apparu sous forme expérimentale avec la version 1.10 de Chamilo. Il permet de configurer une séquencialisation des sessions, de telle manière qu'un apprenant ne puisse s'inscrire à une session que s'il a complété une ou plusieurs autres sessions.
 
 Afin d'utiliser cette fonctionnalité il est nécessaire :
 

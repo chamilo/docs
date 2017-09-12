@@ -18,7 +18,7 @@ L’inscription d’un utilisateur comme enseignant du cours reprend la même pr
 
 ### Ajouter des groupes {#ajouter-des-groupes}
 
-Dans la version 1.10, la notion de classe a été regroupée avec la notion de groupe social. Il n&#039;en reste pas moins que la notion de « groupe » au sein d&#039;un cours est différente de la notion de « groupe social », et pour autant, l&#039;écran d&#039;utilisateurs offre l&#039;ajout de groupes et l&#039;ajout de classes sous des onglets différents.
+À partir de la version 1.10, la notion de classe a été regroupée avec la notion de groupe social. Il n&#039;en reste pas moins que la notion de « groupe » au sein d&#039;un cours est différente de la notion de « groupe social », et pour autant, l&#039;écran d&#039;utilisateurs offre l&#039;ajout de groupes et l&#039;ajout de classes sous des onglets différents.
 
 L&#039;ajout d&#039;un groupe, pour autant, se fait via l&#039;onglet de groupes, de la même manière que pour les apprenants.
 

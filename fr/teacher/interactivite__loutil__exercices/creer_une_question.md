@@ -156,7 +156,7 @@ Dans ce type de question, l'apprenant doit cliquer sur une ou plusieurs zones d'
 
 * cliquer sur le bouton « Ajouter la question au test » pour sauvegarder la question.
 
-Différence notoire pour ce type de question par rapport aux versions précédant la 1.10.2, nous avons éliminé totalement la dépendance à Flash pour ce type de question. Veuillez noter que, dans la version 1.10.0, ce type de question était hors service. Il est de retour dans la 1.10.2.
+Différence notoire pour ce type de question par rapport aux versions antérieures à la 1.10.2, nous avons éliminé totalement la dépendance à Flash pour ce type de question. Veuillez noter que, dans la version 1.10.0, ce type de question était hors service. Il est de retour depuis la 1.10.2.
 
 ### Type 8 : Combinaison exacte {#type-8-combinaison-exacte}
 

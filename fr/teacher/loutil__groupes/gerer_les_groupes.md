@@ -17,4 +17,4 @@ La gestion par lots permet, au travers de la sélection par ligne et de la barre
 
 *   ajouter des utilisateurs,
 
-*   désinscrire tous les utilisateurs de plusieurs cours en même temps.
+*   désinscrire tous les utilisateurs de plusieurs cours simultanément.

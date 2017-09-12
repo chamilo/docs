@@ -67,7 +67,7 @@ Outre ces champs obligatoires, en plus d'un enseignant, il est possible :
 
 * de gérer l'inscription et la désinscription.
 
-Quelques paramètres se sont encore ajoutés à ceux-ci dans la version 1.10. Ils ont pour objectif d'étendre les possibilités du catalogue de cours de Chamilo.
+Quelques paramètres se sont encore ajoutés à ceux-ci à partir de la version 1.10. Ils ont pour objectif d'étendre les possibilités du catalogue de cours de Chamilo.
 
 ![](../assets/image29.png)Illustration 59: Champs de cours additionnels à partir de la 1.10
 
