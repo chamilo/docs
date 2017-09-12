@@ -94,7 +94,7 @@ Depuis la version 1.10, l'enseignant peut sélectionner 4 nouvelles options par 
 
 * cliquer sur le lien « Enrichir la question » pour ajouter des médias à l’aide de l’éditeur interne,
 
-* ajouter ou diminuer le nombre d'éléments proposés \(en haut n°\) et de correspondance \(en bas lettres\) en cliquant sur « - élément » ou « + élément »,
+* ajouter ou diminuer le nombre d'éléments proposés \(en haut, un n°\) et de correspondance \(en bas, une lettre\) en cliquant sur « - élément » ou « + élément »,
 
 * saisir les éléments proposés et leur correspondance,
 
