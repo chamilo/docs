@@ -12,7 +12,7 @@ Depuis la liste des fils de discussion d’un forum :
 
 * la nouvelle page affiche un tableau statistique basé sur les interventions de l'apprenant,
 
-* saisir la note attribuée à l'apprenant : en prenant appui sur la liste des contributions, on réalise une évaluation qualitative des contributions. Le tableau statistique permet aussi une évaluation quantitative de ces contributions,
+* saisir la note attribuée à l'apprenant : en se basant sur la liste des contributions, on réalise une évaluation qualitative des contributions. Le tableau statistique permet aussi une évaluation quantitative de ces contributions,
 
 * « Noter ce fil ».
 
