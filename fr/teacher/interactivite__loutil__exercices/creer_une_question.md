@@ -124,7 +124,7 @@ Depuis la version 1.10, l'enseignant peut sélectionner 4 nouvelles options par 
 
 C'est un type de question très utile pour les cours de langue, qui peut être d'une grande aide pour animer les apprenants à présenter des travaux par oral en leur permettant d'améliorer leurs capacités de communication.
 
-Note: Ce type de question demande que l'apprenant ait installé le support d'applications Java dans son navigateur web. Ce module peut être téléchargé de manière gratuite sur[www.java.com](http://www.java.com/). S'il n'en dispose pas, l'apprenant pourra tout de même enregistrer sa réponse depuis son ordinateur en utilisant un programme d'enregistrement audio séparé et en envoyant le fichier audio correspondant sur la plateforme au format MP3.
+Note: Ce type de question demande que l'apprenant ait installé le support d'applications Java dans son navigateur web. Ce module peut être téléchargé de manière gratuite depuis [www.java.com](http://www.java.com/). S'il n'en dispose pas, l'apprenant pourra tout de même enregistrer sa réponse depuis son ordinateur en utilisant un programme d'enregistrement audio séparé et en envoyant le fichier audio correspondant sur la plateforme au format MP3.
 
 Étant donnés les prérequis additionnels pour l'utilisation de ce type de question, il est recommandé de vous assurer que vos apprenants disposent du nécessaire sur leur ordinateur pour répondre à une question de type oral. Vous devriez aussi prévoir qu'ils pourraient avoir besoin de plus d'une tentative pour répondre, ou de plus de temps au cas où ils auraient à installer tout le nécessaire durant l'examen. Rappelez-vous que ce type de question peut être une activité stressante pour un apprenant. Veillez donc à éviter de lui compliquer la tâche.
 
