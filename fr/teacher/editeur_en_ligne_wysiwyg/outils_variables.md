@@ -12,5 +12,5 @@ Cela dit, conscients de la variété de circonstances particulières possibles, 
 
 ![](../assets/image19.png)
 
-Sans ce cas, seulement en étendant la zone d'édition, nous sommes passés de 30 icônes à plus de 50.
+En étendant la zone d'édition d'un simple clic, nous sommes passés de 30 icônes à plus de 50.
 
