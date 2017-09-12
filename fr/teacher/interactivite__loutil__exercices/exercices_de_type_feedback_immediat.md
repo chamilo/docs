@@ -38,7 +38,7 @@ Toutes ces options peuvent être combinées de telle manière que l&#039;apprena
 
 ### Planification des exercices d&#039;auto- évaluation {#planification-des-exercices-d-auto-valuation}
 
-Comme on a pu l&#039;observer dans la section antérieure, au moment de créer une nouvelle question, il est déjà possible de sélectionner la question suivante. Ceci signifie que la question suivante **doit** exister.
+Comme on a pu l&#039;observer dans la section précédente, au moment de créer une nouvelle question, il est déjà possible de sélectionner la question suivante. Ceci signifie que la question suivante **doit** exister.
 
 Pour le design de ce type d&#039;exercices, il est donc bon de planifier les chemins que les apprenants pourront prendre dans son parcours. Cela signifie qu&#039;il est nécessaire de planifier ces chemins, et quelle meilleure manière de le faire qu&#039;un diagramme décisionnel ?
 

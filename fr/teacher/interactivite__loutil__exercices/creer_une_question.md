@@ -1,12 +1,12 @@
 ## Créer une question {#cr-er-une-question}
 
-Une fois le test créé, choisir le type de la première question parmi les sept proposés. Si le test existe déjà, et qu'il faut rajouter une \(ou plusieurs\) question\(s\), procéder de la même façon. Il est possible de rendre le test plus difficile en affectant un score négatif à une réponse fausse, ce qui fait davantage réfléchir le participant. L'exercice peut faire intervenir plusieurs types de réponses pour briser la monotonie et répondre à différents besoins d’évaluation.
+Une fois le test créé, choisir le type de la première question parmi les sept proposés. Si le test existe déjà, et qu'il faut rajouter une \(ou plusieurs\) question\(s\), procéder de la même façon. Il est possible de rendre le test plus difficile en affectant un score négatif à une réponse erronée, ce qui fait davantage réfléchir le participant. L'exercice peut faire intervenir plusieurs types de réponses pour briser la monotonie et répondre à différents besoins d’évaluation.
 
 ![](../assets/graficos35.png)Illustration 41: Exercices - Types de questions
 
 ### Type 1 : Question à choix multiples – réponse unique {#type-1-question-choix-multiples-r-ponse-unique}
 
-![](../assets/graphics153.svg)![](../assets/graphics153.png)Le QCM classique est celui où une seule proposition sera considérée comme valide. Il est possible de rendre le test plus dur en affectant un score négatif à une réponse fausse, ce qui pousse le participant à réfléchir davantage et le dissuade de répondre « au hasard ».
+![](../assets/graphics153.svg)![](../assets/graphics153.png)Le QCM classique est celui où une seule proposition sera considérée comme valide. Il est possible de rendre le test plus difficile en affectant un score négatif à une réponse erronée, ce qui pousse le participant à réfléchir davantage et le dissuade de répondre « au hasard ».
 
 * compléter le titre de la question – attention, ceci n'est **pas** la question elle-même,
 
@@ -20,7 +20,7 @@ Une fois le test créé, choisir le type de la première question parmi les sept
 
 * cocher la bonne réponse,
 
-* saisir les commentaires \(feedback\) associés aux réponses \(une mise en forme succincte et l’ajout d’un média de type son est rendu possible en cliquant sur la flèche noire, en haut à gauche de la zone de réponse\). Garder à l’esprit que le commentaire associé à une réponse fausse peut constituer un début de remédiation, et que le commentaire associé à la bonne réponse peut constituer un début de renforcement de l’apprentissage,
+* saisir les commentaires \(feedback\) associés aux réponses \(une mise en forme succincte et l’ajout d’un média de type son est rendu possible en cliquant sur la flèche noire, en haut à gauche de la zone de réponse\). Garder à l’esprit que le commentaire associé à une réponse erronée peut constituer un début de remédiation, et que le commentaire associé à la bonne réponse peut constituer un début de renforcement de l’apprentissage,
 
 * affecter un score \(positif, négatif ou nul\) à chaque réponse proposée,
 
@@ -46,7 +46,7 @@ Ce QCM est une variante du type précédent. Il permet d’affecter plusieurs r�
 
 * cocher la bonne réponse,
 
-* saisir les commentaires \(feedback\) associés aux réponses \(une mise en forme succincte et l’ajout d’un média de type son sont rendus possible en cliquant sur la flèche noire, en haut à gauche de la zone de réponse\). Garder à l’esprit que le commentaire associé à une réponse fausse peut constituer un début de remédiation, et que le commentaire associé à la bonne réponse peut constituer un début de renforcement de l’apprentissage,
+* saisir les commentaires \(feedback\) associés aux réponses \(une mise en forme succincte et l’ajout d’un média de type son sont rendus possible en cliquant sur la flèche noire, en haut à gauche de la zone de réponse\). Garder à l’esprit que le commentaire associé à une réponse erronée peut constituer un début de remédiation, et que le commentaire associé à la bonne réponse peut constituer un début de renforcement de l’apprentissage,
 
 * affecter un score \(positif, négatif ou nul\) à chaque réponse proposée,
 
@@ -176,7 +176,7 @@ Dans ce dernier type d'exercice, si la combinaison comprend une erreur, elle ne 
 
 * cocher la \(ou les\) bonne\(s\) réponse\(s\),
 
-* saisir les commentaires associés aux réponses \(une mise en forme succincte et l’ajout d’un média de type son sont rendus possible en cliquant sur la flèche noire, en haut à gauche de la zone de réponse\). Garder à l’esprit que le commentaire associé à une réponse fausse peut constituer un début de remédiation, et que le commentaire associé à la bonne réponse peut constituer un début de renforcement de l’apprentissage,
+* saisir les commentaires associés aux réponses \(une mise en forme succincte et l’ajout d’un média de type son sont rendus possible en cliquant sur la flèche noire, en haut à gauche de la zone de réponse\). Garder à l’esprit que le commentaire associé à une réponse erronée peut constituer un début de remédiation, et que le commentaire associé à la bonne réponse peut constituer un début de renforcement de l’apprentissage,
 
 * affecter un score \(positif, négatif ou nul\) à chaque réponse proposée,
 
@@ -220,9 +220,9 @@ Les champs à remplir sont :
 
 Il est possible de jouer sur de nombreuses variations, et un lien en-dessous des rangs de valeurs indique toutes les fonctions mathématiques qui peuvent être utilisées.
 
-Note : il est important de ne pas se tromper par rapport à la zone de texte dans laquelle on introduit l'énoncé. Une erreur commune est de mettre le texte à crochet dans la partie de description de la question, qui explique le contexte \(dans «_Paramètres avancés »_\). Dans ce cas, les variables ne seront pas mises en évidence.
+Note : il est important de ne pas se tromper par rapport à la zone de texte dans laquelle on introduit l'énoncé. Une erreur fréquente est de mettre le texte à crochet dans la partie de description de la question, qui explique le contexte \(dans «_Paramètres avancés »_\). Dans ce cas, les variables ne seront pas mises en évidence.
 
-Une autre erreur commune est de reproduire la formule « telle quelle ». L'exemple affiché dans le formulaire utilisant « sqrt\(\) » représente la formule de la racine carrée. Il ne s'agit **pas** d'un préfixe obligatoire. C'est juste un exemple.
+Une autre erreur fréquente est de reproduire la formule « telle quelle ». L'exemple affiché dans le formulaire utilisant « sqrt\(\) » représente la formule de la racine carrée. Il ne s'agit **pas** d'un préfixe obligatoire. C'est juste un exemple.
 
 La fonction « modulo » \(le reste d'une division\) n'apparaît que dans la version 1.10.4 de Chamilo.
 

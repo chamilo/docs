@@ -146,15 +146,15 @@ Les paramètres du cahier de notes de la page d&#039;administration sont des par
 
 Pour plus d&#039;information, consulter un guide spécifiques à LDAP. Notez qu&#039;un serveur ActiveDirectory peut être utilisé comme serveur LDAP, moyennant son activation du mode de compatibilité LDAP.
 
-#### Zones horaires {#zones-horaires}
+#### Fuseaux horaires {#zones-horaires}
 
-![](../assets/graficos15.png)**Utiliser les zones de temps utilisateurs :** permet d&#039;activer ou désactiver la gestion des zones horaires pour les utilisateurs. Activer les zones horaires permet
+![](../assets/graficos15.png)**Utiliser les fuseaux horaires utilisateurs :** permet d&#039;activer ou désactiver la gestion des fuseaux horaires pour les utilisateurs. Activer les fuseau horaires permet
 
-*   d&#039;héberger des portails pour des clients répartis sur plusieurs zones horaires sur un seul serveur
+*   d&#039;héberger des portails pour des clients répartis sur plusieurs fuseaux horaires sur un seul serveur
 
-*   d&#039;afficher les délais de remise de devoirs ou l&#039;agenda précis d&#039;évènements tels qu&#039;une réunion par vidéoconférence, selon la zone horaire dans laquelle se trouve chaque utilisateur
+*   d&#039;afficher les délais de remise de devoirs ou l&#039;agenda précis d&#039;évènements tels qu&#039;une réunion par vidéoconférence, selon le fuseau horaire dans lequel se trouve chaque utilisateur
 
-**Zone de temps :** permet de définir la zone horaire utilisée par défaut sur le système.
+**Fuseau horaire :** permet de définir le fuseau horaire utilisé par défaut sur le système.
 
 #### Suivi {#suivi}
 
