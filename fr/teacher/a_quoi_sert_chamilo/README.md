@@ -22,7 +22,7 @@ L'enseignant dispose de nombreux outils qui lui permettent de créer un environn
 
 * créer des **groupes de travail** ou de laboratoire,
 
-* participer à une **classe virtuelle** \(au travers de l'extension de vidéo-conférence\),
+* participer à une **classe virtuelle** \(au travers de l'extension de vidéoconférence\),
 
 * gérer les **notes** au travers du cahier de notes,
 

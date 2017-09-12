@@ -74,5 +74,5 @@ Ces notes sont personnelles. Aucun utilisateur n'a accès aux notes d'autrui.
 
 ![](../assets/image45.svg)![](../assets/image45.png)
 
-Il est assez simple, à condition d'avoir un serveur de vidéo-conférence local à disposition, d'installer un outil de vidéo-conférence au sein d'un cours de Chamilo, mais il s'agit néanmoins d'une extension qui n'est pas souvent disponible sur un portail classique.
+Il est assez simple, à condition d'avoir un serveur de vidéoconférence local à disposition, d'installer un outil de vidéoconférence au sein d'un cours de Chamilo, mais il s'agit néanmoins d'une extension qui n'est pas souvent disponible sur un portail classique.
 
