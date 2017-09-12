@@ -141,7 +141,7 @@
 | Utilisateurs |
 | Inscription: champs obligatoires | Quels champs doivent être obligatoirement remplis (en plus de nom, prénom, nom d&#039;utilisateur et mot de passe) |  |
 | Agenda perso | L&#039;utilisateur peut-il ajouter des éléments d&#039;agenda personnels sur la page &#039;Mon agenda&#039;? |  |
-| Utiliser le Profil Étendu | Si &quot;Oui&quot; est coché, l&#039;utilisateur pourra compléter les champs optionnels suivants: &quot;Mes compétences&quot;, &quot;Mes diplômes&quot;, &quot;Mes compétences professionnelles&quot;, &quot;Mon espace personnel&quot; |  |
+| Utiliser le Profil Étendu | Si &quot;Oui&quot; est coché, l&#039;utilisateur pourra compléter les champs facultatifs suivants: &quot;Mes compétences&quot;, &quot;Mes diplômes&quot;, &quot;Mes compétences professionnelles&quot;, &quot;Mon espace personnel&quot; |  |
 | Champs du profil étendu lors de l&#039;enregistrement | Lesquels des champs suivants du profil étendu doivent être disponibles lors du processus d&#039;enregistrement des utilisateurs? Ceci nécessite que le profil étendu lors de l&#039;enregistrement soit activé (voir plus haut). |  |
 | Champs du profil étendu demandés lors de l&#039;enregistrement | Lesquels des champs suivants du profil étendu sont requis lors de l&#039;enregistrement des utilisateurs? Ceci nécessite que l&#039;option du profil étendu à l&#039;enregistrement soit activée et que les champs soient disponibles dans le formulaire d&#039;inscription (voir ci-dessus). |  |
 | Mise à jour du profil | Quelle partie du profil souhaitez-vous modifier? |  |
@@ -260,7 +260,7 @@
 | Contenu supplémentaire dans l&#039;en-tête | Vous pouvez ajouter du contenu supplémentaire sous forme de balise « meta ». |  |
 | Contenu supplémentaire de le pied de page | Vous pouvez ajouter du contenu HTML supplémentaire. |  |
 | Compte Twitter Site | Le _Twitter Site_ est un compte Twitter (ex: @chamilo_news) qui est lié à votre site. Il s&#039;agit généralement d&#039;un compte plus temporaire que celui de _Twitter Creator_, ou il représente une organisation (plutôt qu&#039;une personne). Ce champ est nécessaire pour activer le fonctionnement des champs « méta » des _Twitter Cards_. |  |
-| Compte Twitter Creator | Le Twitter Creator est un compte Twitter (ex. @ywarnier) qui représente par exemple la personne qui a créé le site. Ce champ est optionnel. |  |
+| Compte Twitter Creator | Le Twitter Creator est un compte Twitter (ex. @ywarnier) qui représente par exemple la personne qui a créé le site. Ce champ est facultatif. |  |
 | Titre méta OpenGraph | Ce champ montrera un tag « meta » de titre pour _OpenGraph_ (_og:title_) dans les en-têtes du site. |  |
 | Description méta | Ce champ fera apparaître un tag de description « méta » d&#039;_OpenGraph_ (_og:description_) dans l&#039;en-tête du site. |  |
 | Chemin d&#039;image méta | Ce chemin vers une image au sein de votre répertoire Chamilo (ex: home/image.png) permet l&#039;affichage d&#039;une image qui accompagne les _Twitter Cards_ ou les encarts _OpenGraph_ qui représentent votre plateforme sur d&#039;autres sites où elle est référencée. Twitter recommande l&#039;utilisation d&#039;images de 120x120 pixels, qui sont parfois recoupées vers du 120x90. |  |

@@ -92,7 +92,7 @@ Pour cette vérification il vous faudra compléter les différents champs propos
 
 *   _Hôte base de données_: le nom du serveur de base de données SQL. Si c'est une installation locale, le serveur MySQL est probablement lui aussi local, et son nom sera par défaut : « localhost ».
 
-*   _Port_: optionnel, représente le port TCP/IP au travers duquel se fera la connexion à la base de données sur le hôte donné
+*   _Port_: facultatif, représente le port TCP/IP au travers duquel se fera la connexion à la base de données sur l'hôte donné
 
 *   _Utilisateur base de données_: le nom de l'utilisateur de votre base de données. Si c'est une installation locale, le nom sera par défaut « root », mais nous vous recommandons la création d'un autre utilisateur pour votre base de données Chamilo, car utiliser « root » pourrait générer de grands risques de sécurité inutiles.
 
