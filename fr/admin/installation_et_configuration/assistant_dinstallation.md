@@ -26,7 +26,7 @@ Illustration 1: Installation - Écran d'accueil
 
 Vous devrez ensuite suivre une série d'étapes pour préciser les différents paramètres de la plateforme. Ces étapes sont quasiment identiques qu'elles soient effectuées en local ou à distance.
 
-Gardez en mémoire qu'à chaque étape de l'installateur, vous pouvez abandonner le processus et consulter le guide d'installation. Merci de vous référer au guide d’utilisation si vous avez le moindre doute ou problème au moment de l'installation. Cela évitera de demander de l'aide inutilement à l'équipe de développement, et lui permettra de ne pas se déconcentrer avec des problèmes récurrents et dont les solutions sont déjà documentées.
+Gardez en mémoire qu'à chaque étape de l'installateur, vous pouvez abandonner le processus et consulter le guide d'installation. Veuillez vous référer au guide d’utilisation si vous avez le moindre doute ou problème au moment de l'installation. Cela évitera de demander de l'aide inutilement à l'équipe de développement, et lui permettra de ne pas se déconcentrer avec des problèmes récurrents et dont les solutions sont déjà documentées.
 
 #### Étape 1 sur 6 : Langue d’installation
 

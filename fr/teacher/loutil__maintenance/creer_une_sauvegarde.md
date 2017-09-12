@@ -4,11 +4,11 @@ Par mesure de sécurité, ou en fin de formation, il est prudent de créer une s
 
 Pour démarrer la sauvegarde :
 
-*   cliquez sur le lien « Générer backup »,
+*   cliquez sur le lien « Générer sauvegarde »,
 
 *   dans la page qui s’affiche, choisissez de sauvegarder le cours complet ou quelques-uns de ses éléments (à choisir dans l’écran suivant),
 
-*   cliquez sur « Générer backup » pour lancer la procédure.
+*   cliquez sur « Générer sauvegarde » pour lancer la procédure.
 
 La sauvegarde est disponible sous la forme d’un fichier compressé téléchargeable sur le disque dur et simultanément sous la forme d’un fichier compressé stocké sur le serveur où est installé Chamilo.
 

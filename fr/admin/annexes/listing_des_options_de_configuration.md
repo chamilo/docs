@@ -45,7 +45,7 @@
 | Télécharger une image en filigrane | Permet d&#039;utiliser une image comme fond de PDF (au lieu d&#039;un texte) |  |
 | Activer la définition de filigranes par cours | Lorsque cette option est activée, les enseignants peuvent définir leur propre filigrane pour les documents de leurs cours. |  |
 | Texte du filigrane de PDF | Ce texte sera ajouté en filigrane aux documents exportés en PDF. |  |
-| Redimensionnement des caractères | Activer cette option montrera une série d&#039;options de redimensionnement des caractères dans le coin supérieur-droit de votre campus. Celles-ci permettront aux personnes à déficience visuelle de lire leurs contenus de cours plus facilement. |  |
+| Redimensionnement des caractères | Activer cette option montrera une série d&#039;options de redimensionnement des caractères dans le coin supérieur droit de votre campus. Celles-ci permettront aux personnes à déficience visuelle de lire leurs contenus de cours plus facilement. |  |
 | Page après connexion pour les apprenants | Cette page s&#039;affichera aux apprenants après connexion (login) |  |
 | Page après connexion pour les enseignants | Cette page s&#039;affichera aux enseignants après connexion (login) |  |
 | Page après connexion pour les directeurs RH | Cette page s&#039;affichera aux directeurs RH après connexion (login) |  |

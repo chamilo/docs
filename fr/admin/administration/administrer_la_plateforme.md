@@ -86,7 +86,7 @@ Dans cet onglet, on règle les propriétés du compte utilisateur et ses informa
 
 **Les fichiers supprimés ne pourront être restaurés** : si un fichier est supprimé dans l&#039;outil documents, il le sera définitivement. Par défaut, il n&#039;est pas supprimé définitivement et une sauvegarde peut être récupérée sur le serveur par l&#039;administrateur (un suffixe _DELETED_ est ajouté au fichier sur le disque).
 
-**Partage de fichiers: taille maximale des documents** : la taille maximale que peut avoir un document dans la section de partage de fichiers. Elle est autorisés à 100.000.000 octets par défaut, ce qui fait environ 95,4 méga-octets. Attention, l&#039;envoi de fichiers sur le serveur est également conditionné par des variables de configuration de PHP. En particulier, les variables _post_max_size_ et _upload_max_filesize_ dans votre _php.ini_ limitent le volume des fichiers envoyés sur le serveur.
+**Partage de fichiers: taille maximale des documents** : la taille maximale que peut avoir un document dans la section de partage de fichiers. Elle est autorisés à 100.000.000 octets par défaut, ce qui fait environ 95,4 Mio. Attention, l&#039;envoi de fichiers sur le serveur est également conditionné par des variables de configuration de PHP. En particulier, les variables _post_max_size_ et _upload_max_filesize_ dans votre _php.ini_ limitent le volume des fichiers envoyés sur le serveur.
 
 **Partage de fichier: autoriser l&#039;envoi par courriels** : la fonctionnalité d&#039;envoi par courriel, permet d&#039;adresser un document personnel à chaque utilisateur.
 

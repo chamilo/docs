@@ -128,7 +128,7 @@ Pour l&#039;utiliser, il est nécessaire de disposer d&#039;une session d&#039;o
 
 Une fois ces conditions remplies, il suffit de sélectionner la session d&#039;origine, la session de destination, le cours d&#039;origine, le cours de destination, puis décider si on veut copier tous les contenus de la session ou seulement certaines sections.
 
-Note : cet outil est encore en version beta. Merci de le traiter avec prudence et de bien vérifier que son comportement est valide par rapport à vos attentes.
+Note : cet outil est encore en version beta. Veuillez le traiter avec prudence et bien vérifier que son comportement est valide par rapport à vos attentes.
 
 ### Déplacer les résultats utilisateurs dans/vers une session {#d-placer-les-r-sultats-utilisateurs-dans-vers-une-session}
 
