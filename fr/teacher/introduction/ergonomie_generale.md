@@ -2,7 +2,7 @@
 
 Chamilo a été créé pour fournir de l&#039;aide au sein même de l&#039;application. Les icônes ont été concue pour symboliser ce qu&#039;elles représentent, indépendamment de la langue ou de la culture de l&#039;utilisateur. Enfin, chaque icône offre une brève description de son fonctionnement qui s&#039;affiche au moment de passer par-dessus avec le curseur de la souris (sans cliquer).
 
-Il existe également un système d&#039;aide en ligne sur une majorité des pages qui apparaît sous forme d&#039;une bouée de sauvetage partiellement obfusquée dans la partie supérieure droite de l&#039;écran (voirIllustration 2: Aide cachée) et qui se déplie au moment de passer par dessus avec le curseur de la souris(voirIllustration 3: Aide dépliée). L&#039;aide se déplace selon la position de l&#039;écran et reste toujours disponible. Vous pouvez l&#039;ouvrir ou la fermer sans affecter votre travail du moment. Lorsque vous cliquez sur la bouée, un petit guide s&#039;ouvre dans une fenêtre flottante, expliquant l&#039;outil sur lequel vous êtes ainsi que la manière de l&#039;utiliser (voir Illustration 4: Fenêtre d&#039;aide contextuelle).
+Il existe également un système d&#039;aide en ligne sur une majorité des pages qui apparaît sous forme d&#039;une bouée de sauvetage partiellement obfusquée dans la partie supérieure droite de l&#039;écran (voir Illustration 2: Aide cachée) et qui se déplie au moment de passer par dessus avec le curseur de la souris (voir Illustration 3: Aide dépliée). L&#039;aide se déplace selon la position de l&#039;écran et reste toujours disponible. Vous pouvez l&#039;ouvrir ou la fermer sans affecter votre travail du moment. Lorsque vous cliquez sur la bouée, un petit guide s&#039;ouvre dans une fenêtre flottante, expliquant l&#039;outil sur lequel vous êtes ainsi que la manière de l&#039;utiliser (voir Illustration 4: Fenêtre d&#039;aide contextuelle).
 
 | ![](../assets/image2.png)Illustration 2: Aide cachée | ![](../assets/illustration_4.png)Illustration 3: Aide dépliée |
 | --- | --- |
@@ -25,7 +25,7 @@ Dans ce guide, nous nous sommes efforcés à utiliser une terminologie universel
 
 Ainsi, nous avons aussi décidé d&#039;utiliser le terme « enseignant » pour identifier les différents acteurs qui ont un rôle similaire mais pas identique : formateurs, tuteurs, professeurs, enseignants, etc (et leurs équivalents féminins, évidemment).
 
-Ce manuel est disponible en différents formats. Vous pouvez le télécharger depuis notre site web en un format non-éditable. Pour un format éditable, envoyez-nous un petit e-mailàinfo@chamilo.org. Si vous l&#039;améliorez, nous nous ferons un plaisir d&#039;intégrer vos changements au manuel de base.
+Ce manuel est disponible en différents formats. Vous pouvez le télécharger depuis notre site web en un format non-éditable. Pour un format éditable, envoyez-nous un petit courriel à info@chamilo.org. Si vous l&#039;améliorez, nous nous ferons un plaisir d&#039;intégrer vos changements au manuel de base.
 
 L&#039;unité de regroupement minimale des outils s&#039;appelle un « cours ». Le terme « parcours d&#039;apprentissage » utilisé dans les versions précédentes du logiciel a été réduit au terme « parcours » pour éviter des problèmes d&#039;affichage.
 

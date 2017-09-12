@@ -2,7 +2,7 @@
 
 Si l&#039;administrateur a activé l&#039;option de scénarisation des exercices (voir illustration),
 
-![](../assets/image69.png)Illustration 49: Option de configuration de la plate-forme pour les exercices scénarisés
+![](../assets/image69.png)Illustration 49: Option de configuration de la plateforme pour les exercices scénarisés
 
 le formulaire de création des exercices offre une option additionnelle, appelée _feedback immédiat__en popup._
 
@@ -24,7 +24,7 @@ Ce type d&#039;exercice requiert une préparation particulière. Comme vous pour
 
 ![](../assets/image72.png)Illustration 52: Formulaire de création de questions en mode de scénarisation
 
-Analysons les champs qui aparaissent dans la colonne « Scénario ». Tous suggèrent une proposition différente à l&#039;apprenant. Ces propositions apparaîtront à l&#039;apprenant juste après qu&#039;il ait répondu.
+Analysons les champs qui apparaissent dans la colonne « Scénario ». Tous suggèrent une proposition différente à l&#039;apprenant. Ces propositions apparaîtront à l&#039;apprenant juste après qu&#039;il ait répondu.
 
 *   Réessayez: permettra à l&#039;apprenant d&#039;essayer à nouveau la même option
 

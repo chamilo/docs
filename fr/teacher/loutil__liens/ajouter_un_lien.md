@@ -16,6 +16,6 @@ Pour ajouter un lien :
 
 *   placez-le dans un dossier si cela est utile,
 
-*   il est possible de mettre le lien sur la page d&#039;accueil de la plate-forme en cochant la case « Sur la page d&#039;accueil? »,
+*   il est possible de mettre le lien sur la page d&#039;accueil de la plateforme en cochant la case « Sur la page d&#039;accueil? »,
 
 *   cliquez sur « Enregistrer le lien ».

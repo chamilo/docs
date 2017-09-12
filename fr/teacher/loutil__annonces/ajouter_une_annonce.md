@@ -8,7 +8,7 @@ Une fois dans l&#039;outil :
 
 ![](../assets/image205.png)Illustration 134: Annonces - Choix des destinataires
 
-*   l&#039;annonce peut être envoyée par courriel aux utilisateurs (cochez la case « Envoyer cette annonce par email »),
+*   l&#039;annonce peut être envoyée par courriel aux utilisateurs (cochez la case « Envoyer cette annonce par courriel »),
 
 *   ajoutez un « Sujet » à l&#039;annonce,
 
@@ -32,7 +32,7 @@ Les marqueurs disponibles sont :
 
 *   ((teacher_name)) : le nom complet de l&#039;enseignant
 
-*   ((teacher_email)) : l&#039;e-mail de l&#039;enseignant (utile pour permettre à vos apprenants de vous contacter)
+*   ((teacher_email)) : le courriel de l&#039;enseignant (utile pour permettre à vos apprenants de vous contacter)
 
 *   ((course_title)) : le titre du cours
 
@@ -42,4 +42,4 @@ Les marqueurs disponibles sont :
 
 Pour les utilisez, copiez-les simplement, tels quels (incluant les doubles parenthèses), dans le texte de votre annonce. Ceux-ci seront dynamiquement remplacés par des données relatives à l&#039;utilisateur et au cours.
 
-Pour les administrateurs de la plate-forme et les enseignants du cours de base utilisé dans plusieurs sessions, il est également possible d&#039;envoyer l&#039;annonce d&#039;un seul coup à tous les utilisateurs de toutes les sessions actives du cours. À utiliser avec précautions (sur un portail très actif, vous pourriez déclencher d&#039;un coup l&#039;envoi de dizaines de milliers d&#039;e-mails).
+Pour les administrateurs de la plateforme et les enseignants du cours de base utilisé dans plusieurs sessions, il est également possible d&#039;envoyer l&#039;annonce d&#039;un seul coup à tous les utilisateurs de toutes les sessions actives du cours. À utiliser avec précaution (sur un portail très actif, vous pourriez déclencher d&#039;un coup l&#039;envoi de dizaines de milliers de courriels).

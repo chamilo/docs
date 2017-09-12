@@ -1,6 +1,6 @@
 ## Configurer les parcours {#configurer-les-parcours}
 
-Chamilo propose plusieurs thèmes graphiques pour la plate-forme. Ces thèmes peuvent être choisis pour afficher l’environnement d’un cours, indépendamment du thème choisi par l’administrateur pour l’ensemble de la plate-forme.
+Chamilo propose plusieurs thèmes graphiques. Ces thèmes peuvent être choisis pour afficher l’environnement d’un cours, indépendamment du thème choisi par l’administrateur pour l’ensemble de la plateforme.
 
 Si l&#039;administrateur a permis la configuration d&#039;un thème graphique par cours, l&#039;enseignant peut décider de l&#039;apparence du portail à l&#039;intérieur de son cours.
 

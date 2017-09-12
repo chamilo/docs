@@ -14,7 +14,7 @@ Ajouter des événements en choisissant soit « tous », pour que tout le monde 
 
 ![](../assets/image36.png)
 
-Envoyer des documents aux utilisateurs de la plate-forme.
+Envoyer des documents aux utilisateurs de la plateforme.
 
 ### MagnifierGroupes {#magnifiergroupes}
 
@@ -56,7 +56,7 @@ Salon de discussion en temps réel type IRC.
 
 ![](../assets/image43.svg)![](../assets/image43.png)
 
-Créer une ou plusieurs enquêtes, puis la ou les envoyer aux utilisateurs ou au groupe d'utilisateurs de la plate-forme choisie. Cet outil permet aussi de dépouiller l'enquête une fois les résultats collectés.
+Créer une ou plusieurs enquêtes, puis la ou les envoyer aux utilisateurs ou au groupe d'utilisateurs de la plateforme choisie. Cet outil permet aussi de dépouiller l'enquête une fois les résultats collectés.
 
 ### MagnifierNotes personnelles {#magnifiernotes-personnelles}
 

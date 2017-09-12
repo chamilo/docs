@@ -18,7 +18,7 @@
 
 *   associez éventuellement un document joint en cliquant sur le lien « Annexe » puis sur le bouton « Parcourir »,
 
-*   décidez si vous souhaitez que l&#039;événement soit copié sous forme d&#039;annonce pour être envoyé par e-mail aux apprenants sélectionnés
+*   décidez si vous souhaitez que l&#039;événement soit copié sous forme d&#039;annonce pour être envoyé par courriel aux apprenants sélectionnés
 
 *   cliquez sur le bouton « Ajouter un événement » pour ajouter l’événement à la liste.
 

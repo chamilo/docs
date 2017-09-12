@@ -16,4 +16,4 @@ et
 
 [CC-BY-SA](http://creativecommons.org/licenses/by-sa/2.0/fr/) : [ht](http://creativecommons.org/licenses/by-sa/2.0/fr/)[71510](http://creativecommons.org/licenses/by-sa/2.0/fr/)[tp://creativecommons.org/licenses/by-sa/2.0/fr/](http://creativecommons.org/licenses/by-sa/2.0/fr/)
 
-Dans la dynamique du Libre, toutes les corrections ou modifications du tutoriel sont les bienvenues, à l&#039;adresse mail : info@chamilo.org
+Dans la dynamique du Libre, toutes les corrections ou modifications du tutoriel sont les bienvenues, à l&#039;adresse de courriel suivante : info@chamilo.org

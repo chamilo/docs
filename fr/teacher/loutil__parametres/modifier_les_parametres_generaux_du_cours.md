@@ -6,7 +6,7 @@ Dans cette section, il est possible de :
 
 *   modifier la catégorie générale à laquelle le cours appartient,
 
-*   changer la langue dans laquelle l’environnement du cours est dispensé (l’environnement d’un cours peut être affiché dans une langue différente de celle de la plate-forme : cela est utile pour les cours en langue étrangère).
+*   changer la langue dans laquelle l’environnement du cours est dispensé (l’environnement d’un cours peut être affiché dans une langue différente de celle de la plateforme : cela est utile pour les cours en langue étrangère).
 
 ![](../assets/image260.png)Illustration 184: Paramètres - Général
 
@@ -20,6 +20,6 @@ Celle-ci apparaîtra dans le catalogue de cours. C&#039;est une façon simple de
 
 ![](../assets/image262.png)Illustration 186: Catalogue de cours - Exemple de cours illustré
 
-Si l&#039;administrateur de la plate-forme a activé la fonctionnalité d&#039;utilisation des images de cours dans la liste de cours, l&#039;apprenant pourra également bénéficier de cette image dans sa liste normale de cours.
+Si l&#039;administrateur de la plateforme a activé la fonctionnalité d&#039;utilisation des images de cours dans la liste de cours, l&#039;apprenant pourra également bénéficier de cette image dans sa liste normale de cours.
 
 ![](../assets/image263.png)Illustration 187: Liste de cours

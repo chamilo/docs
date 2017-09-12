@@ -20,7 +20,7 @@ La colonne de droite comprend les outils utiles à la modification. Il comprend 
 | ![](../assets/images114.png) | Exporter le parcours complet sous forme d&#039;un document PDF |
 | ![](../assets/graphics40.png) | Copier/répliquer un parcours |
 
-Dans la version 1.10.0, deux nouvelles options font leur aparition dans les outils de gestion des parcours. La première apparaîtra toujours et permet, grâce à l&#039;icône de rapports (![](../assets/image133.png)), d&#039;accéder à une page de rapports sur le progrès, pour ce parcours en particulier, de tous les apprenants. Elle permet de comparer tous les apprenants du cours. Dans les versions précédentes, il était possible uniquement d&#039;obtenir ce rapport apprenant par apprenant, sur des pages individuelles, ou la moyenne de tous les apprenants d&#039;une fois.
+Dans la version 1.10.0, deux nouvelles options font leur apparition dans les outils de gestion des parcours. La première apparaîtra toujours et permet, grâce à l&#039;icône de rapports (![](../assets/image133.png)), d&#039;accéder à une page de rapports sur le progrès, pour ce parcours en particulier, de tous les apprenants. Elle permet de comparer tous les apprenants du cours. Dans les versions précédentes, il était possible uniquement d&#039;obtenir ce rapport apprenant par apprenant, sur des pages individuelles, ou la moyenne de tous les apprenants d&#039;une fois.
 
 La deuxième option apparaît seulement si l&#039;administrateur a décidé d&#039;activer le mode de “gamification” ou ludification dans les paramètres de configuration.
 
@@ -38,4 +38,4 @@ Dans ce cas, et uniquement si le parcours a été configuré dans ce mode en uti
 
 Le score qui apparaît (sous forme de “points”) reflète le score total (absolu) de la somme des dernières tentatives aux exercices passés dans ce parcours.
 
-Ce mode est légérement distinct de ce qui se voit normalement dans un parcours, et il s&#039;agit d&#039;une petite partie d&#039;un effort généralisé dans Chamilo pour augmenter le succès des cours pour les apprenants. Dans une prochaine version, le score total de tous les parcours de tous les cours pourra être utilisé comme score global dans le profil de l&#039;apprenant, comme un espèce de progrès global et de comparatif vis à vis des autres apprenants.
+Ce mode est légérement distinct de ce qui se voit normalement dans un parcours, et il s&#039;agit d&#039;une petite partie d&#039;un effort généralisé dans Chamilo pour augmenter le succès des cours pour les apprenants. Dans une version ultérieure, le score total de tous les parcours de tous les cours pourra être utilisé comme score global dans le profil de l&#039;apprenant, comme une espèce de progrès global et de comparatif vis-à-vis des autres apprenants.

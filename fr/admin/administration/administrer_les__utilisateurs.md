@@ -263,7 +263,7 @@ Le compte utilisateur peut avoir une « date d&#039;expiration ». Dans ce cas, 
 
 Ensuite, le compte utilisateur peut être créé actif ou inactif, en attendant par exemple le début d&#039;une session de formation.
 
-Trois nouveaux champs ont été ajoutés à partir de Chamilo 1.8.8, du type « Avertir par mail de la réception... ». Ces trois champs permettent de configurer les avertissements par mail dans de cas de l&#039;utilisation de l&#039;outil de réseau social. Dans le cas où ces valeurs seraient mises à « Non », l&#039;utilisateur ne recevra aucun message d&#039;avertissement lorsqu&#039;un message lui est envoyé par mail. Cette option nécessite la configuration d&#039;un processus chronologique (_cron_).
+Trois nouveaux champs ont été ajoutés à partir de Chamilo 1.8.8, du type « Avertir par courriel de la réception... ». Ces trois champs permettent de configurer les avertissements par courriel dans de cas de l&#039;utilisation de l&#039;outil de réseau social. Dans le cas où ces valeurs seraient mises à « Non », l&#039;utilisateur ne recevra aucun message d&#039;avertissement lorsqu&#039;un message lui est envoyé par courriel. Cette option nécessite la configuration d&#039;un processus chronologique (_cron_).
 
 ### Exporter la liste des utilisateurs dans un fichier XML/CSV {#exporter-la-liste-des-utilisateurs-dans-un-fichier-xml-csv}
 
@@ -303,7 +303,7 @@ Pour importer un fichier CSV/XML, il suffit de suivre la procédure suivante.
 
 *   choisissez le format de fichier,
 
-*   choisissez d&#039;envoyer ou non un mail de bienvenue aux nouveaux utilisateurs qui seront créés lors de l&#039;import,
+*   choisissez d&#039;envoyer ou non un courriel de bienvenue aux nouveaux utilisateurs qui seront créés lors de l&#039;import,
 
 *   cliquez sur « Importer »
 

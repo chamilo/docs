@@ -12,4 +12,4 @@ Il suffit de taper une partie du nom et du prénom pour que Chamilo propose une 
 
 ![](../assets/image282.png)Illustration 206: Réseau social - Invitations
 
-Le lien « Ami » regroupe tous les amis que l&#039;utilisateur a sur la plate-forme. Il permet de voir le profil de l&#039;utilisateur et de lui envoyer un message en un clic sur son nom.
+Le lien « Ami » regroupe tous les amis que l&#039;utilisateur a sur la plateforme. Il permet de voir le profil de l&#039;utilisateur et de lui envoyer un message en un clic sur son nom.

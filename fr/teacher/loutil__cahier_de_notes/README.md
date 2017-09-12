@@ -1,6 +1,6 @@
 # L&#039;outil « Cahier de notes » {#l-outil-cahier-de-notes}
 
-Cet outil, anciennement appelé « Évaluations », permet d&#039;établir des **objectifs pédagogiques**, ainsi que de générer des **certificats**. Dans les cas plus avancés d&#039;utilisation du système de gestion des _compétences_ (à activer au niveau de l&#039;administration de la plate-forme), l&#039;outil permet également d&#039;attribuer des compétences aux apprenants inscrits et ayant culminé les objectifs établis.
+Cet outil, anciennement appelé « Évaluations », permet d&#039;établir des **objectifs pédagogiques**, ainsi que de générer des **certificats**. Dans les cas plus avancés d&#039;utilisation du système de gestion des _compétences_ (à activer au niveau de l&#039;administration de la plateforme), l&#039;outil permet également d&#039;attribuer des compétences aux apprenants inscrits et ayant culminé les objectifs établis.
 
 Il permet de préparer un rapport de compétences qui présentera les résultats des apprenants inscrits au cours. Ces évaluations peuvent être pondérées (coefficient) pour refléter l&#039;importance relative d&#039;un élément par rapport à un autre.
 

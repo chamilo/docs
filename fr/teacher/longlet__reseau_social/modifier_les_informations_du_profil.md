@@ -8,9 +8,9 @@ Pour modifier vos informations personnelles, depuis l’onglet « Réseau social
 
 *   « Enregistrer les paramètres ».
 
-Notez que la quantité de champs dont l&#039;édition est possible dépend de la configuration de la plate-forme, mise en place par l&#039;administrateur.
+Notez que la quantité de champs dont l&#039;édition est possible dépend de la configuration de la plateforme, mise en place par l&#039;administrateur.
 
-Le profil simple permet de modifier la photo et la langue ; le profil étendu (si activé par l&#039;administrateur) permet de rajouter :
+Le profil simple permet de modifier la photo et la langue ; le profil étendu (si activé par l&#039;administrateur) permet encore d&#039;y ajouter :
 
 *   « Mes compétences »,
 

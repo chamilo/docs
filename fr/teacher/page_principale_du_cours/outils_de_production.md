@@ -90,5 +90,5 @@ Les « Projets » de la partie « Administration » s'afficheront dans la « Pro
 
 ![](../assets/image34.svg)![](../assets/image34.png)
 
-L'outil de recherche peut être activé sur la plate-forme par l'administrateur, mais requiert d'une installation spécifique assez avancée de modules externes à Chamilo. L'outil permet de faire des recherches dans le texte de la plupart des documents à base de texte importés ou créés dans Chamilo.
+L'outil de recherche peut être activé sur la plateforme par l'administrateur, mais requiert d'une installation spécifique assez avancée de modules externes à Chamilo. L'outil permet de faire des recherches dans le texte de la plupart des documents à base de texte importés ou créés dans Chamilo.
 

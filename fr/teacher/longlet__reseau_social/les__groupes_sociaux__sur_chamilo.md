@@ -1,6 +1,6 @@
 ## Les « Groupes sociaux » sur Chamilo {#les-groupes-sociaux-sur-chamilo}
 
-Cet onglet recense tous les groupes qui existent sur la plate-forme. Ces groupes ne peuvent être créés que par les administrateurs.
+Cet onglet recense tous les groupes qui existent sur la plateforme. Ces groupes ne peuvent être créés que par les administrateurs.
 
 Il existe deux types de groupes :
 

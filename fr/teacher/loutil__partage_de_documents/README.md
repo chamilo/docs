@@ -4,7 +4,7 @@
 
 L&#039;outil « Partage de documents » permet à l&#039;enseignant d&#039;envoyer des fichiers à un ou plusieurs apprenants. Il offre aussi la possibilité aux apprenants d’adresser un fichier à leur enseignant, ou de
 
-s’adresser des fichiers entre eux (si l’administrateur de la plate-forme a activé cette option).
+s’adresser des fichiers entre eux (si l’administrateur de la plateforme a activé cette option).
 
 L&#039;outil est fonctionnellement similaire au site _dropbox.io_ et souffre un peu de son âge à présent, mais précède considérablement ce site.
 

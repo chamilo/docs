@@ -294,11 +294,11 @@ Cet outil est particulièrement pratique pour envoyer une annonce de maintenance
 
 La version 1.10 a ajouté une série de paramètres de configuration à cette fonctionnalité :
 
-*   Envoyer mail permet à l&#039;administrateur de décider si l&#039;annonce s&#039;enverra par mail ou pas. Attention, pour les portails de dizaines de milliers d&#039;utilisateurs, cette annonce pourrait prendre plusieurs heures (voir plusieurs jours) à s&#039;envoyer, en particulier lorsque le portail Chamilo est connecté à un serveur de mails SMTP Office365, particulièrement lent pour ce genre d&#039;actions massives. Les mails peuvent également être envoyés après la création de l&#039;annonce, en éditant celle-ci et en marquant cette option avant de sauvegarder.
+*   Envoyer courriel permet à l&#039;administrateur de décider si l&#039;annonce s&#039;enverra par courriel ou pas. Attention, pour les portails de dizaines de milliers d&#039;utilisateurs, cette annonce pourrait prendre plusieurs heures (voir plusieurs jours) à s&#039;envoyer, en particulier lorsque le portail Chamilo est connecté à un serveur de courriels SMTP Office365, particulièrement lent pour ce genre d&#039;actions massives. Les courriels peuvent également être envoyés après la création de l&#039;annonce, en éditant celle-ci et en marquant cette option avant de sauvegarder.
 
 *   Ajouter au calendrier permet de rajouter l&#039;annonce comme un événement global (voir section suivante) qui apparaîtra dans le calendrier de tous les utilisateurs de la plateforme
 
-*   M&#039;envoyer un mail à des fins de test est une option permettant d&#039;envoyer une simulation du mail final uniquement à l&#039;administrateur qui est occupé à préparer l&#039;annonce.
+*   M&#039;envoyer un courriel à des fins de test est une option permettant d&#039;envoyer une simulation du courriel final uniquement à l&#039;administrateur qui est occupé à préparer l&#039;annonce.
 
 Notez que, dans le cas de la préparation d&#039;une annonce pour une date ultérieure, sélectionner l&#039;option d&#039;envoi de courriel en enverra bien immédiatement. Celui-ci n&#039;attendra pas la date de début pour s&#039;envoyer.
 

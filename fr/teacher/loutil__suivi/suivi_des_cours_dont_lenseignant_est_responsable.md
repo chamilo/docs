@@ -12,4 +12,4 @@ Le tableau synthétique qui s’affiche montre la liste des cours dont l&#039;en
 
 Un clic sur le bouton « Détails » d’un cours donne accès au tableau de synthèse dudit cours qui permettra d’accéder au suivi individuel déjà décrit dans la section 16.1 - Suivi apprenants en page 91.
 
-Sur le premier écran, on notera également l&#039;existence d&#039;une icône de certificats, donnant accès à la liste de certificats des apprenants de la plate-forme. Les certificats peuvent être considérés comme privés. Dans ce cas, il sera impossible de les visualiser publiquement ou si l&#039;on ne dispose pas des autorisations pertinentes.
+Sur le premier écran, on notera également l&#039;existence d&#039;une icône de certificats, donnant accès à la liste de certificats des apprenants de la plateforme. Les certificats peuvent être considérés comme privés. Dans ce cas, il sera impossible de les visualiser publiquement ou si l&#039;on ne dispose pas des autorisations adéquates.

@@ -23,7 +23,7 @@ La barre supérieure permet :
 
 *   d&#039;exporter le tableau présenté au format PDF
 
-*   de visualiser une liste des travaux manquants (pas encore remis par les apprenants) et d&#039;envoyer un mail aux apprenants correspondants
+*   de visualiser une liste des travaux manquants (pas encore remis par les apprenants) et d&#039;envoyer un courriel aux apprenants correspondants
 
 *   d&#039;exporter une liste de tous les travaux remis
 

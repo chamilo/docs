@@ -28,7 +28,7 @@ Pour alerter par courriel le(s) apprenant(s) inactif(s) :
 
 *   s&#039;affiche alors un écran similaire à celui qui permet de créer une annonce dans lequel les destinataires seront déjà sélectionnés et comportant un messagetype personnalisable,
 
-*   dans « Publier annonce », si la case « Envoyer cette annonce par mail » est cochée, alors l’annonce sera ajoutée aux annonces classiques du cours (les destinataires de l’annonce seront uniquement ceux concernés par l’inactivité) et les apprenants inactifs recevront le courriel type.
+*   dans « Publier annonce », si la case « Envoyer cette annonce par courriel » est cochée, alors l’annonce sera ajoutée aux annonces classiques du cours (les destinataires de l’annonce seront uniquement ceux concernés par l’inactivité) et les apprenants inactifs recevront le courriel type.
 
 ![](../assets/image144.png)Illustration 90: Suivi - Annonce de rappel
 
