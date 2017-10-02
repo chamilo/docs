@@ -12,5 +12,7 @@ Además de haber sido desarrollado de manera colaborativa por docenas de persona
 
 ¡Por favor no dudes en contribuir también a Chamilo! Puedes hacerlo promoviendo su utilización, reportando errores, sugiriendo mejoras, traduciéndolo \(o sus manuales\) a tu lengua nativa, o incluso desarrollando extensiones o correcciones por tu cuenta.
 
+Si tienes dudas sobre como contribuir puedes contactar con nosotros en el siguiente correo: communication @ chamilo.org
+
 [^1]: [http://www.gnu.org/licenses/quick-guide-gplv3.html](http://www.gnu.org/licenses/quick-guide-gplv3.html)
 
