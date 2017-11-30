@@ -1,4 +1,4 @@
-## Reuso de preguntas existentes {#reuso-de-preguntas-existentes}
+## Reutilizar preguntas existentes {#reutilizar-preguntas-existentes}
 
 Cualquier pregunta creada, independientemente de la prueba o curso a la que se fue vinculada, se almacena en la base de datos de preguntas. Este almacén de preguntas puede ser muy útil para los profesores que quieren reutilizar preguntas que son muy generales o, si necesitas preguntas para servir como &quot;relleno&quot; cuando estás falto de un par de preguntas en una nueva prueba..
 
@@ -10,4 +10,4 @@ Para acceder a la base de datos, haz clic en el icono de _reciclar preguntas exi
 
 ![](../assets/graficos31.png)Ilustración 69: Tests – Base de datos de preguntas
 
-Haz clic en el botón de _Reusar en la prueba actual_ _![](../assets/graficos32.gif)_para incluir la pregunta en la prueba actual. Lo que en realidad ocurre (en Chamilo 1.9) es que una copia de la prueba antigua se incluye en la prueba actual, de modo que puede ser editada en la nueva prueba si es necesario sin que su contenido o configuración se vean alterados en la prueba en la que fue originalmente creada.
+Haz clic en el botón de _Reutilizar en la prueba actual_ _![](../assets/graficos32.gif)_para incluir la pregunta en la prueba actual. Lo que en realidad ocurre (en Chamilo 1.9) es que una copia de la prueba antigua se incluye en la prueba actual, de modo que puede ser editada en la nueva prueba si es necesario sin que su contenido o configuración se vean alterados en la prueba en la que fue originalmente creada.
