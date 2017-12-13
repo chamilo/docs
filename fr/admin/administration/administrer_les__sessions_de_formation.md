@@ -127,8 +127,11 @@ CREATE TABLE scheduled_announcements (id INT AUTO_INCREMENT NOT NULL, subject VA
 ```
 
 Ensuite depuis la page de résumé de session vous pouvez accéder à la programmation des annonces. On arrive sur une page qui liste les annonces, avec en haut 2 boutons d'actions connus :
-|![](../assets/tuning.png)| Pour ajouter une nouvelle annonce |
-|![](../assets/add.svg)| Pour lancer manuellement de cron de vérification des annonces en attente |
+
+| Icônes | Fonctionnalités |
+| --- | --- |
+| ![](../assets/tuning.png) | Pour ajouter une nouvelle annonce |
+| ![](../assets/add.svg) | Pour lancer manuellement le cron de vérification des annonces en attente |
 
 En cliquant sur + on ouvre une nouvelle page avec le formulaire de création d'annonce.
 
