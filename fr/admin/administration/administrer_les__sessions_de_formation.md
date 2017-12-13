@@ -1,5 +1,5 @@
 ## Administrer les « Sessions de formation » 
-{#administrer-les-sessions-de-formation}
+<a name="administrer-les-sessions-de-formation"></a>
 
 Une session est un dispositif qui se place « par-dessus » un ou plusieurs cours et permet de former des groupes d&#039;apprenants qui pourront suivre les mêmes cours simultanément, dans des _espaces virtuels_ séparés.
 
@@ -14,7 +14,7 @@ Comme on peut le voir, la session est définie par un administrateur de sessions
 Bien que ce ne soit pas visible sur ce schéma, les sessions permettent d&#039;établir des limites temporelles pour les tuteurs et apprenants de cette session.
 
 ### Administrer les « Sessions » 
-{#administrer-les-sessions}
+<a name="administrer-les-sessions"></a>
 
 La gestion des sessions se fait avec des icônes connues, et d&#039;autres un peu plus spécifiques.
 
@@ -29,7 +29,7 @@ La gestion des sessions se fait avec des icônes connues, et d&#039;autres un pe
 Tableau 1: Administration - Icônes de gestion des sessions
 
 ### Ajouter une session 
-{#ajouter-une-session}
+<a name="ajouter-une-session"></a>
 
 Pour ajouter une session :
 
@@ -106,7 +106,7 @@ Choisissez les utilisateurs et, comme pour les cours, ajoutez-les avec la flèch
 ![](../assets/session-inscription2.png)Administration - Assigner des utilisateurs à une session
 
 ### Résumé de session 
-{#r-sum--de-session}
+<a name="r-sum--de-session"></a>
 
 À partir de la page de liste de session, quand on clique sur le nom de la session on arrive sur une page qui permet de voir toutes les informations concernant la session. Les informations générales en premier avec la gestion des annonces programmées en bas, puis la gestion de la liste des cours de la session et enfin les apprenants inscrits à la session.
 
@@ -119,14 +119,14 @@ Ce formulaire permet de programmer l'envoi automatique d'annonces aux étudiants
 ![](../assets/SessionAnnoncesProgrammees.png)Administration - Session - Annonces programmées
 
 ### Catégories de sessions ou Périodes 
-{#cat-gories-de-sessions-ou-p-riodes}
+<a name="cat-gories-de-sessions-ou-p-riodes"></a>
 
 Les catégories de sessions sont à considérer comme n&#039;importe quel type de catégorisation, mais dans de nombreux cas elles permettent d&#039;introduire la notion de période (trimestre, semestre, année) durant laquelle plusieurs sessions se déroulent simultanément.
 
 La gestion des catégories de sessions est fort similaire à la gestion de catégories de cours. Nous ne rentrerons pas dans les détails ici. La seule chose à savoir est que les dates de catégories de sessions sont purement informatives et n&#039;ont aucune influence sur la visibilité des sessions.
 
 ### Exporter des sessions 
-{#exporter-des-sessions}
+<a name="exporter-des-sessions"></a>
 
 Chamilo permet d&#039;exporter la liste de tout ou partie des sessions présentes sur la plateforme.
 
@@ -135,7 +135,7 @@ Chamilo permet d&#039;exporter la liste de tout ou partie des sessions présente
 Choisissez le format de l&#039;export, choisissez une session particulière ou toutes les sessions, « Export de de session », puis téléchargez le fichier en cliquant sur le lien.
 
 ### Copie d&#039;un cours d&#039;une session à une autre session 
-{#copie-d-un-cours-d-une-session-une-autre-session}
+<a name="copie-d-un-cours-d-une-session-une-autre-session"></a>
 
 Étant donnée la possibilité de créer du contenu dans un cours au travers d&#039;une session, contenu qui ne sera visible qu&#039;au sein de cette session, la nécessité peut survenir de récupérer ce contenu propre à une session pour le placer « par dessus » le même cours dans une **autre** session.
 
@@ -150,14 +150,14 @@ Une fois ces conditions remplies, il suffit de sélectionner la session d&#039;o
 Note : cet outil est encore en version beta. Veuillez le traiter avec prudence et bien vérifier que son comportement est valide par rapport à vos attentes.
 
 ### Déplacer les résultats utilisateurs dans/vers une session 
-{#d-placer-les-r-sultats-utilisateurs-dans-vers-une-session}
+<a name="d-placer-les-r-sultats-utilisateurs-dans-vers-une-session"></a>
 
 Dans le cas où vous passeriez d&#039;un mode sans sessions vers un mode avec sessions, vous pourriez (dans certains cas exceptionnels) vouloir récupérer, dans une session, des résultats d&#039;étudiants précédemment enregistrés dans un cours (hors session). Cet outil (toujours instable) a été développé exactement pour ça.
 
 Son interface est complexe mais relativement auto-explicative. Si vous avez un doute, nous vous conseillons d&#039;agir prudemment et de toujours travailler sur base d&#039;un système sauvegardé quelques moments auparavant.
 
 ### Filières et promotions 
-{#fili-res-et-promotions}
+<a name="fili-res-et-promotions"></a>
 
 La gestion de filières (ou carrières) et de promotions (ou années de sortie) se fait de manière pratiquement identique à la gestion académique classique de toute institution éducative, une fois combinées avec les périodes (ou catégories de sessions).
 
@@ -170,7 +170,7 @@ La première page nous donne une liste des filières (lignes grisées avec titre
 ![](../assets/graficos86.png)
 
 #### Filières 
-{#fili-res}
+<a name="fili-res"></a>
 
 Pour ajouter une nouvelle filière, cliquez sur l&#039;icône de classeurs tricolores. La page suivante apparaît.
 
@@ -189,7 +189,7 @@ Pour mieux comprendre la structure complète, incluant les filières et promotio
 ![](../assets/graficos90.png)Hiérarchie de cours, sessions et filières
 
 #### Promotions 
-{#promotions}
+<a name="promotions"></a>
 
 La seule différence entre promotions et filières est qu&#039;une promotion peut être rattachée à une filière. La création de promotions est dès lors très simple une fois que vous aurez créé une filière.
 
@@ -204,11 +204,11 @@ On obtient alors une liste similaire à l&#039;illustration suivante (déjà pr�
 Sur cette page, nous retrouvons, outre la filière _Médecine_ et ses trois promotions, une session dans chaque promotion antérieure à 2015 et la liste de cours de chaque session. Chaque élément est un lien vers la ressource correspondante.
 
 #### Copie 
-{#copie}
+<a name="copie"></a>
 
 La copies de promotions ou de filières se fait à partir des listes de filières (icône de classeurs tricolores) ou de promotions (icône de feuilles de laurier), en utilisant une icône de double feuille blanche.
 
-#### Cas pratique {#cas-pratique}
+#### Cas pratique <a name="cas-pratique"></a>
 
 Imaginons que votre institution dispose de deux filières : médecine et vétérinariat. Ces deux filières durent 5 ans et nous sommes en 2011\. Dès la première année, nous enregistrons donc la promotion 2016 pour médecine (PROMMED2016) et la promotion 2016 pour vétérinariat (PROMVET2016).
 
@@ -249,6 +249,6 @@ De cette manière, je permets à mes étudiants d&#039;avoir accès à leurs cou
 Du côté administratif, je dispose de toute la structure et pourrai répliquer d&#039;un clic toute la hiérarchie d&#039;une promotion l&#039;année prochaine...
 
 ### Gérer les champs pour les sessions 
-{#g-rer-les-champs-pour-les-sessions}
+<a name="g-rer-les-champs-pour-les-sessions"></a>
 
 Cette fonctionnalité est similaire à la gestion des champs de profil des apprenants. Bien que les champs additionnels de sessions n&#039;aient pas d&#039;utilité immédiate dans une installation Chamilo de base, ils représentent un atout très puissant pour l&#039;implémentation de nouveaux plugins ou l&#039;utilisation de plugins existants qui étendent les fonctionnalités de sessions.
