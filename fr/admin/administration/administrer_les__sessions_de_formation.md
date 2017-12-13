@@ -113,8 +113,26 @@ Choisissez les utilisateurs et, comme pour les cours, ajoutez-les avec la flèch
 ![](../assets/session-resume.png)Administration - Résumé d'une session
 
 ### Annonces programmées
+<a name="annonces-programm-es"></a>
 
-Ce formulaire permet de programmer l'envoi automatique d'annonces aux étudiants qui réalisent le cours dans une session. Il existe deux types d'annonces programmées: l'envoi à une date spécifique: dans ce cas, on sélectionne un jour en particulier pour procéder à l'envoi du mail; et l'envoi sur base des dates de début ou de fin de la session: dans ce cas, il faut indiquer le nombre de jours de différence avec la date de début ou de fin, auquel l'e-mail doit être envoyé. Par exemple: 3 jours avant la fin de la session.
+Cette fonctionnalité permet de programmer l'envoi automatique d'annonces aux étudiants qui réalisent le cours dans une session. Elle est disponible depuis la version 1.11.6 de chamilo.
+
+Pour l'activer il faut rajouter dans le fichier app/config/configuration.php la ligne suivante :
+```
+$_configuration['allow_scheduled_announcements'] = true;
+```
+Et appliquer un changement à la base de données:
+```
+CREATE TABLE scheduled_announcements (id INT AUTO_INCREMENT NOT NULL, subject VARCHAR(255) NOT NULL, message LONGTEXT NOT NULL, date DATETIME DEFAULT NULL, sent TINYINT(1) NOT NULL, session_id INT NOT NULL, c_id INT DEFAULT NULL, PRIMARY KEY(id)) DEFAULT CHARACTER SET utf8 COLLATE utf8_unicode_ci ENGINE = InnoDB;
+```
+
+Ensuite depuis la page de résumé de session vous pouvez accéder à la programmation des annonces. On arrive sur une page qui liste les annonces, avec en haut 2 boutons d'actions connus :
+|![](../assets/tuning.png)| Pour ajouter une nouvelle annonce |
+|![](../assets/add.svg)| Pour lancer manuellement de cron de vérification des annonces en attente |
+
+En cliquant sur + on ouvre une nouvelle page avec le formulaire de création d'annonce.
+
+Il existe deux types d'annonces programmées: l'envoi à une date spécifique: dans ce cas, on sélectionne un jour en particulier pour procéder à l'envoi du mail; et l'envoi sur base des dates de début ou de fin de la session: dans ce cas, il faut indiquer le nombre de jours de différence avec la date de début ou de fin, auquel l'e-mail doit être envoyé. Par exemple: 3 jours avant la fin de la session.
 
 ![](../assets/SessionAnnoncesProgrammees.png)Administration - Session - Annonces programmées
 
