@@ -367,3 +367,19 @@ Au travers des options de configuration, l&#039;administrateur peut également d
 La décision de créer un groupe ou une classe se limite à cocher (ou non) la case « Groupe social ».
 
 Un groupe social est toujours une classe (et peut donc être utilisé comme notion de regroupement d&#039;utilisateurs lors de l’inscription des utilisateurs dans un cours ou une session), mais une classe n&#039;est pas toujours un groupe social (elle n&#039;offre pas nécessairement un espace réservé de communication entre ses membres dans le réseau social).
+
+#### Demandes de liens entre utilisateurs <a name="demandes-de-liens-entre-utilisateurs"></a>
+
+Le but est de permettre à un utilisateur de type supervision de demander son rattachement à un apprenant qu'il souhaite surperviser. Cela corresdpondrait à un parents qui s'inscrit sur le portail de l'école et demande à avoir accès aux comptes de ces enfants pour supervision. Il y a de toute façon validation par un administrateur de la plateforme afin d'autoriser la supervision.
+
+Pour activer cette fonctionnalité qui est présente depuis la version 1.11.6, il faut rajouter dans le fichier app/config/configuration.php la ligne suivante :
+```
+$_configuration['show_link_request_hrm_user'] = true;
+```
+Une fois l'option activé, les utilisateurs de types Supervision auront un nouveau lien dans le bloc Profil de la page d'accueil indiquant "Liens avec apprenants". En cliquant sur ce lien on ouvre une page pour sélectionner l'apprenant auquel on souhaite être rattaché et on clique sur "Demander le lien avec cet apprenant". On voit en dessous la liste des utilisateurs qui sont déjà rattachés.
+
+![](../assets/AdminUserDemandeLienRH.png)Administration - Demande de liens apprenants
+
+De son côté l'administrateur retrouve dans le bloc utilisateur un lien "Demandes de liens entre utilisateurs" qui ouvre la page de gestion sur laquelle il sélectionne l'utilisateur et en dessous retrouve les demandes à attentes et les apprenants déjà affectés.
+
+![](../assets/AdminUserDemandeLienRHGestion.png)Administration - Demandes de liens entre utilisateurs
