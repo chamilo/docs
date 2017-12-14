@@ -2,9 +2,9 @@
 
 ## Chamilo, kesako?
 
-Chamilo est un système d'e-learning (ou Learning Management System, c'est-à-dire de gestion de l'apprentissage) développé de façon collaborative par diverses entreprises, associations et personnes, au travers d'un modèle ouvert qualifié de « logiciel libre ».
+Chamilo est un système d'e-learning \(ou Learning Management System, c'est-à-dire de gestion de l'apprentissage\) développé de façon collaborative par diverses entreprises, associations et personnes, au travers d'un modèle ouvert qualifié de « logiciel libre ».
 
-Vous pouvez télécharger gratuitement Chamilo et l'utiliser librement, pour peu que vous acceptiez sa licence (GNU/GPLv3), qui vous donne, en résumé, 4 libertés, en échange d'un engagement de votre part d'assurer la continuité de ces libertés : utiliser, étudier, modifier et distribuer.
+Vous pouvez télécharger gratuitement Chamilo et l'utiliser librement, pour peu que vous acceptiez sa licence \(GNU/GPLv3\), qui vous donne, en résumé, 4 libertés, en échange d'un engagement de votre part d'assurer la continuité de ces libertés : utiliser, étudier, modifier et distribuer.
 
 Chamilo est non seulement développé de manière collaborative par des dizaines de personnes dans le monde entier, mais il est également soutenu par une association sans but lucratif dont le but est de promouvoir la plateforme et d'assurer sa continuité. Enfin, l'équipe de développement de Chamilo est presque totalement trilingue Anglais-Français-Espagnol et accepte les suggestions et rapports du public en général. En ce sens, Chamilo est la seule plateforme d'e-learning de « logiciel libre » qui apporte autant de garanties de libre accès.
 
@@ -28,4 +28,5 @@ Ce guide peut également être utilisé comme référence rapide, grâce à sa s
 
 Si ce guide ne répond pas à vos questions, vous pouvez également utiliser [le forum de Chamilo](https://chamilo.org/forum), où de nombreux autres utilisateurs, enseignants ou administrateurs, mais aussi développeurs de l'application, pourront vous aider à trouver une solution.
 
-Enfin, si tout cela ne suffisait pas, vous pourriez également faire appel aux services des [fournisseurs officiels](https://chamilo.org/fr/communaute/fournisseurs) [de Chamilo](https://chamilo.org/fr/communaute/fournisseurs), un groupe, officiellement reconnu par l’Association, d'entreprises et d'institutions qui fournissent des services professionnels relatifs à Chamilo et participent activement au projet, soutenant ainsi son modèle collaboratif.
+Enfin, si tout cela ne suffisait pas, vous pourriez également faire appel aux services des [fournisseurs officiels](https://chamilo.org/fr/communaute/fournisseurs) [de Chamilo](https://chamilo.org/fr/communaute/fournisseurs), un ensemble d'entreprises et d'institutions officiellement reconnues par l’Association et qui fournissent des services professionnels relatifs à Chamilo et participent activement au projet, soutenant ainsi son modèle collaboratif.
+
