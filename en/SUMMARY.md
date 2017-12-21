@@ -1,8 +1,9 @@
 # Summary
 
-### Teacher Guide
+## Teacher Guide
 
-* Getting to know Chamilo
+* [Introduction](README.md)
+* [Getting to know Chamilo](getting-to-know-chamilo.md)
   * [What is Chamilo?](teacher/introduction/what_is_chamilo.md)
   * [About this guide](teacher/introduction/about_this_guide.md)
   * [Who is this guide for?](teacher/introduction/who_is_this_guide_for.md)
@@ -190,7 +191,7 @@
   * [Alphabetical index](teacher/appendix/alphabetical_index.md)
   * [Document history](teacher/appendix/document_history.md)
 
-### Admin Guide
+## Admin Guide
 
 * [Getting to know Chamilo](admin/introduction/chamilo,_what_is_it.md)
   * [About this guide](admin/introduction/about_this_guide.md)
@@ -225,7 +226,7 @@
 * [Platform administration](admin/platform_administration/README.md)
   * [Chamilo configuration settings](admin/platform_administration/chamilo_configuration_settings/README.md)
     * [Portal](admin/platform_administration/chamilo_configuration_settings/portal.md)
-    * [Training (admin/courses)](platform_administration/chamilo_configuration_settings/training_courses.md)
+    * [Training \(admin/courses\)](platform_administration/chamilo_configuration_settings/training_courses.md)
     * [Sessions](admin/platform_administration/chamilo_configuration_settings/sessions.md)
     * [Languages](admin/platform_administration/chamilo_configuration_settings/languages/README.md)
       * [Creating a sub-language](admin/platform_administration/chamilo_configuration_settings/languages/creating_a_sub-language.md)
@@ -255,12 +256,12 @@
   * [Reports](admin/platform_administration/reports.md)
 * [Users management](admin/users_management/README.md)
   * [User roles](admin/users_management/user_roles/README.md)
-    * [Learner (admin/or student)](users_management/user_roles/learner_or_student.md)
+    * [Learner \(admin/or student\)](users_management/user_roles/learner_or_student.md)
     * [The course assistant](admin/users_management/user_roles/the_course_assistant.md)
-    * [The human resources manager (admin/or supervisor)](users_management/user_roles/the_human_resources_manager_or_supervisor.md)
+    * [The human resources manager \(admin/or supervisor\)](users_management/user_roles/the_human_resources_manager_or_supervisor.md)
     * [The course coach](admin/users_management/user_roles/the_course_coach.md)
-    * [The session coach (admin/or session tutor)](users_management/user_roles/the_session_coach_or_session_tutor.md)
-    * [Teacher (admin/or trainer)](users_management/user_roles/teacher_or_trainer.md)
+    * [The session coach \(admin/or session tutor\)](users_management/user_roles/the_session_coach_or_session_tutor.md)
+    * [Teacher \(admin/or trainer\)](users_management/user_roles/teacher_or_trainer.md)
     * [Sessions administrator](admin/users_management/user_roles/sessions_administrator.md)
     * [Portal administrator](admin/users_management/user_roles/portal_administrator.md)
     * [Global administrator](admin/users_management/user_roles/global_administrator.md)
@@ -293,7 +294,7 @@
     * [Corporate induction courses](admin/sessions_management/use_cases/corporate_induction_courses.md)
   * [Managing the sessions](admin/sessions_management/managing_the_sessions.md)
   * [Add a session](admin/sessions_management/add_a_session.md)
-  * [Sessions categories (admin/or periods)](sessions_management/sessions_categories_or_periods.md)
+  * [Sessions categories \(admin/or periods\)](sessions_management/sessions_categories_or_periods.md)
   * [Export sessions list](admin/sessions_management/export_sessions_list.md)
   * [Copy from course in session to another session](admin/sessions_management/copy_from_course_in_session_to_another_session.md)
   * [Move users results from/to a session](admin/sessions_management/move_users_results_fromto_a_session.md)
@@ -329,7 +330,7 @@
     * [Sending e-mails from the platform doesn't work](admin/appendix/frequently_asked_questions/sending_e-mails_from_the_platform_doesnt_work.md)
     * [How do I prevent teachers to subscribe or unsubscribe learners into/from their courses?](admin/appendix/frequently_asked_questions/how_do_i_prevent_teachers_to_subscribe_or_unsubscr.md)
     * [How do I block access to the course catalog for learners?](admin/appendix/frequently_asked_questions/how_do_i_block_access_to_the_course_catalog_for_le.md)
-    * [How much bandwidth does the videoconference tool (admin/BigBlueButton) consume?](appendix/frequently_asked_questions/how_much_bandwidth_does_the_videoconference_tool_b.md)
+    * [How much bandwidth does the videoconference tool \(admin/BigBlueButton\) consume?](appendix/frequently_asked_questions/how_much_bandwidth_does_the_videoconference_tool_b.md)
   * [Security in Chamilo LMS](admin/appendix/security_in_chamilo_lms.md)
   * [Database structure](admin/appendix/database_structure.md)
   * [Accessing the database](admin/appendix/accessing_the_database.md)
@@ -338,7 +339,7 @@
   * [Document license](admin/appendix/document_license.md)
   * [Document history](admin/appendix/document_history.md)
 
-### Developer Guide
+## Developer Guide
 
 * [Introduction](developer/introduction/README.md)
   * [What is Chamilo?](developer/introduction/what_is_chamilo.md)
@@ -387,7 +388,6 @@
   * [General plugins development](developer/plugins/general_plugins_development.md)
   * [The Dashboard](developer/plugins/the_dashboard.md)
   * [Language variables](developer/plugins/language_variables.md)
-  * [](developer/plugins/.md)
 * [System AdministratorsAuthentication methods](developer/system_administratorsauthentication_methods/README.md)
   * [LDAP](developer/system_administratorsauthentication_methods/ldap.md)
   * [CAS](developer/system_administratorsauthentication_methods/cas.md)
@@ -395,3 +395,4 @@
   * [Facebook](developer/system_administratorsauthentication_methods/facebook.md)
   * [OpenID](developer/system_administratorsauthentication_methods/openid.md)
   * [Custom SSO methods](developer/system_administratorsauthentication_methods/custom_sso_methods.md)
+
