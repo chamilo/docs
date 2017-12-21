@@ -19,7 +19,7 @@
 * [Organizar os cursos](teacher/organizar_os_cursos/README.md)
   * [Categorías Personais](teacher/organizar_os_cursos/categorias_personais.md)
   * [Suscribirse a outros cursos](teacher/organizar_os_cursos/suscribirse_a_outros_cursos.md)
-  * [Iconos de xestión do curso](teacher/organizar_os_cursos/iconos_de_xestion_do_curso.md)
+  * [Iconas de xestión do curso](teacher/organizar_os_cursos/iconas_de_xestion_do_curso.md)
 * [Administración do curso](teacher/administracion_do_curso.md)
 * [Editor en liña (teacher/WYSIWYG)](teacher/editor_en_lina_wysiwyg/README.md)
   * [Ferramentas variables](teacher/editor_en_lina_wysiwyg/ferramentas_variables.md)

@@ -1,30 +1,30 @@
-## Herramientas de Administración {#herramientas-de-administraci-n}
+## Ferramentas de Administración {#ferramentas-de-administracion}
 
-El grupo de utilidades de la sección de _administración_, a las que el estudiante nunca debe necesitar acceder – y por lo tanto no existe opción de ocultar o mostrar las herramientas – está diseñado únicamente para uso del profesor.
+O grupo de utilidades da sección de _administración_, ás que o estudante nunca debe precisar aceder – e polo tanto non existe opción de ocultar ou mostrar as ferramentas – está deseñado únicamente para uso do profesor.
 
-![](../assets/images31.png)Ilustración 28: Herramientas de Administración
+![](../assets/images31.png)Ilustración 28: Ferramentas de Administración
 
-### Gestión de blogs {#gesti-n-de-blogs}
+### Xestión de blogs {#xestion-de-blogs}
 
-![](../assets/graphics107.png)Aquí el profesor puede crear nuevos _blogs_ visibles y disponibles para los estudiantes en la sección de _Creación de contenidos_. Un blog integra gestión de tareas y usuarios a través de un calendario dentro de la propia herramienta, proporcionando una gestión efectiva de proyectos colaborativos.
+![](../assets/graphics107.png)Aquí o profesor puede crear novos _blogs_ visibles e dispoñibles para os estudiantes na sección de _Creación de contidos_. Un blog integra xestión de tarefas e usuarios a través dun calendario dentro da propia ferramenta, proporcionando unha xestión efectiva de proxectos colaborativos.
 
-### Configuración del curso {#configuraci-n-del-curso}
+### Configuración do curso {#configuracion-do-curso}
 
-![](../assets/graphics108.png)Gestiona los parámetros de configuración del curso como profesor. Estos parámetros están ordenados en varias secciones:
+![](../assets/graphics108.png)Xestiona os parámetros de configuración do curso coma profesor. Estes parámetros están ordeados en varias secciones:
 
-| ![](../assets/images282.png)![](../assets/images284.png)![](../assets/images283.png)![](../assets/images281.png)![](../assets/graphics109.png) | Configuración del curso | Gestiona y actualiza elementos como el título del curso, categoría, idioma, imagen, etc. |
+| ![](../assets/images282.png)![](../assets/images284.png)![](../assets/images283.png)![](../assets/images281.png)![](../assets/graphics109.png) | Configuración do curso | Xestiona e actualiza elementos como o título do curso, categoría, idioma, imaxe, etc. |
 | --- | --- | --- |
-| ![](../assets/graphics110.png) | Acceso al curso | Configura el acceso al curso (visibilidad, suscripción y otros permisos) |
-|  | Notificaciones por e-mail | Configura el comportamiento de los avisos por e-mail |
-|  | Derechos de usuario | Configuración de la agenda, anuncios, o el mostrar imágenes en el foro |
-|  | Configuración del chat | Configura cómo se abre la herramienta chat |
-|  | Configurar la herramienta lecciones | Permite habilitar el tema gráfico en las lecciones, así como otros parámetros de la herramienta |
-| ![](../assets/images285.png) | Configuración de la herramienta de programaciones didácticas | Decide si la información de progreso debe mostrarse en la página de inicio del curso |
+| ![](../assets/graphics110.png) | Aceso ao curso | Configura o aceso ao curso (visibilidade, suscripción e outros permisos) |
+|  | Notificacións por e-mail | Configura o comportamento dos avisos por e-mail |
+|  | Dereitos do usuario | Configuración da axenda, anuncios, ou mostrar imaxes no foro |
+|  | Configuración do chat | Configura cómo se abre a ferramenta chat |
+|  | Configurar a ferramenta leccións | Permite habilitar o tema gráfico nas leccións, así como outros parámetros da ferramenta |
+| ![](../assets/images285.png) | Configuración da ferramenta de programacións didácticas | Decide se a información de progreso debe mostrarse na páxina de inicio do curso |
 
 ### Informes {#informes}
 
-![](../assets/graphics113.png)Esta importante utilidad para el profesor muestra un seguimiento de los estudiantes en lecciones, ejercicios, foros, etc., así como el tiempo invertido en el curso, el porcentaje de progreso, calificaciones, tareas, número de mensajes y fecha de última conexión. Es una potente herramienta de monitorización que puede ahorrar al profesor una gran cantidad de tiempo y monótono trabajo de mantenimiento.
+![](../assets/graphics113.png)Esta importante utilidade para o profesor mostra un seguemento dos estudantes en leccións, exercicios, foros, etc., así como o tempo invertido no curso, o porcentaxe de progreso, calificacións, tarefas, número de mensaxes e data de última conexión. É unha potente ferramenta de monitorización que pode aforrar ao profesor unha gran cantidade de tempo e monótono traballo de mantemento.
 
-### Mantenimiento del curso {#mantenimiento-del-curso}
+### Mantemento do curso {#mantemento-do-curso}
 
-Aquí puedes (y regularmente debes) realizar copias de seguridad de tu curso y exportarlas como archivo. También puedes utilizarla para importar una copia previa y borrar todo o parte del contenido y datos del curso. También puedes usar esta herramienta simplemente para borrar el curso – sé cuidadoso, sin embargo – ¡no hay vuelta atrás!
+Aquí podes (e regularmente debes) realizar copias de seguridade do teu curso e exportalas como arquivo. Tamén podes utilizala para importar unha copia previa e borrar todo a parte do contido e datos do curso. Tamén podes usar esta ferramenta simplemente para borrar o curso – sé coidadoso, sen embargo – ¡non hai volta atrás!

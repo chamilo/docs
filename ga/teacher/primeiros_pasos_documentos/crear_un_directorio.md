@@ -1,17 +1,17 @@
 ## Crear un directorio {#crear-un-directorio}
 
-Para lograr una clara estructura de almacenamiento, Chamilo te permite crear directorios (carpetas) y subdirectorios haciendo clic en el icono de carpeta con el asterisco amarillo ![](../assets/graphics114.png) .
+Para lograr unha clara estrutura de almacenamento, Chamilo permiteche crear directorios (cartafols) e subdirectorios facendo clic na icona de cartafol co asterisco amarelo ![](../assets/graphics114.png) .
 
 ![](../assets/images32.png)Ilustración 29: Documentos – crear directorios
 
 Para crear un directorio:
 
-*   clic en el icono de _Crear carpeta_,
+*   Clic na icona de _Crear cartafol_,
 
-*   introducir el nombre del directorio,
+*   Introducir o nome do directorio,
 
-*   clic en el botón de _Crear la carpeta_,
+*   Clic no botón de _Crear a cartafol_,
 
-*   el nuevo directorio ha sido creado y puedes utilizarlo ya para almacenar nuevos documentos.
+*   O novo directorio foi creado e podes empregalo xa para almacenar novos documentos.
 
-Si quieres crear un subdirectorio, abre el directorio donde quieres crearlo y sigue el mismo procedimiento.
+Se queres crear un subdirectorio, abre o directorio onde queres crealo e segue o mesmo procedimento.

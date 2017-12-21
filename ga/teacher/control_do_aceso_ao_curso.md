@@ -1,23 +1,23 @@
-# Control del acceso al curso {#control-del-acceso-al-curso}
+# Control do aceso ao curso {#control-do-aceso-ao-curso}
 
-Durante la creación del curso, se recomienda que no permitas acceso a los estudiantes hasta que todo esté listo, pues podrían ver un curso incompleto.
+Durante a creación do curso, recoméndase que non permitas aceso aos estudiantes ata que todo esté listo, pois poderían ver un curso incompleto.
 
-Para conseguir esto, el acceso puede restringirse desde el apartado de **_Configuración_****_del curso_**:
+Para conseguir isto, o aceso pode restrinxirse dende o apartado de **_Configuración do curso_**:
 
-![](assets/images17.png)Ilustración 16: Herramientas de administración del curso
+![](assets/images17.png)Ilustración 16: Ferramentas de administración do curso
 
-Una serie de opciones están disponibles para el profesor.
+Unha serie de opcións están dispoñibles para o profesor.
 
-![](assets/images18.png)Ilustración 17: Configuración del curso - Acceso al curso
+![](assets/images18.png)Ilustración 17: Configuración do curso - Aceso ao curso
 
-Las opciones de visibilidad se encuentran en la sección “_Acceso al curso_” (zona desplegable) y son las siguientes:
+As opcións de visibilidade se atopan na sección “_Aceso ao curso_” (zona despregable) e son as seguintes:
 
-*   **Público** : accesible a cualquier usuario, registrado o no en la plataforma
+*   **Público** : acesible a cualqueira usuario, rexistrado ou non na plataforma
 
-*   **Abierto** : todos los usuarios _registrados en la plataforma_ pueden acceder al curso siempre que se hayan suscrito previamente al mismo (pueden hacerlo desde el catálogo de cursos). Es la _opción por defecto_.
+*   **Aberto** : todos os usuarios _rexistrados na plataforma_ poden aceder ao curso sempre que se suscribiran previamente ao mesmo (poden facelo dende o catálogo de cursos). É a _opción por defecto_.
 
-*   **Privado** : el curso es _únicamente accesible a los estudiantes que hayan sido inscritos al mismo por un profesor o administrador_. Asegúrate que la opción de _Suscripción_ esté disponible sólo para los docentes, pues de otra forma los usuarios podrán suscribirse por sí mismos.
+*   **Privado** : o curso é _únicamente acesible aos estudantes que foran inscritos ao mesmo por un profesor ou administrador_. Asegúrate que a opción de _Suscripción_ esté dispoñible só para os docentes, pois de outra forma os usuarios poderán suscribirse por sí mesmos.
 
-*   **Cerrado** : el curso _sólo está disponible para el profesor o administrador._ Otros usuarios no pueden acceder, aunque hayan sido previamente suscritos al mismo. Esta última opción es recomendable durante la _creación o periodos de mantenimiento_ del curso.
+*   **Pechado** : o curso _só está dispoñible para o profesor ou administrador._ Outros usuarios non poden aceder, ainda que fosen previamente suscritos ao mesmo. Esta última opción é recomendable durante a _creación ou periodos de mantemento_ do curso.
 
-A partir de la versión 1.9.10, el administrador también tiene acceso a un nivel de visibilidad adicional, “Escondido”, que le permite deshabilitar un curso por completo. Si un curso algún día tuviera que desaparecer de tu lista como profesor, esta podría ser la razón.
+A partir da versión 1.9.10, o administrador tamén ten aceso a un nivel de visibilidade adicional, “Agochado”, que lle permite deshabilitar un curso por completo. Se un curso algún día desaparecera da túa lista como profesor, esta podería ser a razón.

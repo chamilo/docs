@@ -1,13 +1,13 @@
 ## Reuso de preguntas existentes {#reuso-de-preguntas-existentes}
 
-Cualquier pregunta creada, independientemente de la prueba o curso a la que se fue vinculada, se almacena en la base de datos de preguntas. Este almacén de preguntas puede ser muy útil para los profesores que quieren reutilizar preguntas que son muy generales o, si necesitas preguntas para servir como &quot;relleno&quot; cuando estás falto de un par de preguntas en una nueva prueba..
+Cualqueira pregunta creada, independentemente da prueba ou curso á que foi vinculada, almacénase na base de datos de preguntas. Este almacén de preguntas pode ser moi útil para os profesores que queiran reutilizar preguntas que son moi xerais ou, se precisas preguntas para servir como &quot;recheo&quot; cuando estás falto dun par de preguntas nunha nova prueba...
 
-Durante la creación de la prueba, la base de datos muestra las preguntas de otros exámenes, así como preguntas huérfanas (es decir, las cuestiones que han pertenecido a una prueba que haya sido eliminada).
+Durante a creación da prueba, a base de datos mostra as preguntas de outros exames, así como preguntas orfas (é decir, as cuestións que perteneceron a unha proba que fora eliminada).
 
-Cuando la base de datos de preguntas se muestra, presenta una lista con todas las preguntas existentes dentro del curso. Aquí es donde la asignación de las preguntas a las categorías y la adición de una dificultad para las pruebas puede resultar muy útil para identificar las preguntas individuales: utiliza las listas desplegables de _Filtro_ y _Dificultad_ para filtrar las preguntas adecuadamente.
+Cando a base de datos de preguntas móstrase, presenta unha lista con todas as preguntas existentes dentro do curso. Aquí é onde a asignación das preguntas ás categorías e a adición dunha dificultade para as probas pode resultar moi útil para identificar as preguntas individuais: utiliza as listas despregables de _Filtro_ e _Dificultade_ para filtrar as preguntas adecuadamente.
 
-Para acceder a la base de datos, haz clic en el icono de _reciclar preguntas existentes_ _![](../assets/graficos30.png)_tal y como aparece en la página _Crear una pregunta_ junto con los distintos tipos de preguntas:
+Para acceder á base de datos, fai clic na icona de _reciclar preguntas existentes_ _![](../assets/graficos30.png)_tal e como aparece na páxina _Crear unha pregunta_ xunto cos distintos tipos de preguntas:
 
-![](../assets/graficos31.png)Ilustración 69: Tests – Base de datos de preguntas
+![](../assets/graficos31.png)Ilustración 69: Exercicios – Base de datos de preguntas
 
-Haz clic en el botón de _Reusar en la prueba actual_ _![](../assets/graficos32.gif)_para incluir la pregunta en la prueba actual. Lo que en realidad ocurre (en Chamilo 1.9) es que una copia de la prueba antigua se incluye en la prueba actual, de modo que puede ser editada en la nueva prueba si es necesario sin que su contenido o configuración se vean alterados en la prueba en la que fue originalmente creada.
+Fai clic no botón de _Reusar na proba actual_ _![](../assets/graficos32.gif)_para incluir a pregunta na proba actual. O que en realidade ocurre (en Chamilo 1.9) é que unha copia da proba antiga inclúese na proba actual, de modo que pode ser editada na nova proba se é preciso, sen que o seu contido ou configuración véxanse alterados na proba na que foi orixinalmente creada.

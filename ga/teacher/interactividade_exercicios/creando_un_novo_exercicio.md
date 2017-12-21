@@ -1,49 +1,49 @@
-## Creando un nuevo ejercicio {#creando-un-nuevo-ejercicio}
+## Creando un novo exercicio {#creando-un-novo-exercicio}
 
-Crear un nuevo ejercicio es muy fácil; para comenzar haz clic en el icono de _Nuevo ejercicio_ ![](../assets/graphics130.png) y da un nombre, a continuación haz clic en el botón _Preparar Preguntas_.
+Crear un novo exercicio é moi fácil; para comezar fai clic na icona de _Novo exercicio_ ![](../assets/graphics130.png) e da un nome, a continuación fai clic no botón _Preparar Preguntas_.
 
 ![](../assets/graficos7.png)
 
-Ilustración 42: Ejercicios - Crear nuevo ejercicio
+Ilustración 42: Exercicios - Crear novo exercicio
 
-Si deseas escribir una descripción del ejercicio,puedes hacerlo haciendo clic en el botón de _Parámetros avanzados__,_ se mostrará un editor de texto en el que podrás escribir la descripción que quieras y se le mostrará a los alumnos cuando realicen el ejercicio.
+Se desexas escribir unha descrición do exercicio, podes facelo facendo clic no botón de _Parámetros avanzados_, mostrarase un editor de texto no que poderás escribir a descripción que queiras e se lle mostrará aos alumnos cando realicen o exercicio.
 
-Una vez que hayas creado el ejercicio, éste se mostrará en la página principal de la herramienta de _Ejercicios_ juntos con todos los ejercicios que se hayan creado.
+Unha vez crearas o exercicio, éste mostrarase na páxina principal da ferramenta de _Exercicios_ xunto con todos os exercicios que se crearan.
 
-![](../assets/graficos8.png)Ilustración 43: Lista de ejercicios de un curso
+![](../assets/graficos8.png)Ilustración 43: Lista de exercicios dun curso
 
-Dado que hay varias formas de utilizar la herramienta de _Ejercicios_, puede darse el caso en que las opciones por defecto de los ejercicios no sean las que necesitas, si este llega a ser tu caso, puedes modificar las opciones por defecto en la sección de _Parámetros avanzados_ disponible al momento de crear o modificar un ejercicio, o usando el icono de herramientas (![](../assets/image18.svg)![](../assets/image18.png)).
+Dado que hai varias formas de utilizar a ferramenta de _Exercicios_, pode darse o caso no que as opcións por defecto dos exercicios non sexan as que necesitas, se este chega a ser o teu caso, podes modificar as opcións por defecto na sección de _Parámetros avanzados_ dispoñible ao momento de crear ou modificar un exercicio, ou usando a icona de ferramentas (![](../assets/image18.svg)![](../assets/image18.png)).
 
-![](../assets/graficos9.png)Ilustración 44: Parámetros avanzados de un ejercicio al momento de crearlo
+![](../assets/graficos9.png)Ilustración 44: Parámetros avanzados dun exercicio ao momento de crealo
 
-Los parámetros avanzados se explican por si solo, sin embargo a continuación te mostramos una breve descripción de los mismos.
+Os parámetros avanzados explícanse por si mesmos, sen embargo a continuación mostramoste unha breve descripción dos mesmos.
 
-*   Retroalimentación, puede ser provista al final del ejercicio o no ofrecerla, por ejemplo en el caso de crear un examen.
+*   Retroalimentación, pode ser provista ao final do exercicio ou non ofrecela, por exemplo no caso de crear un exame.
 
-*   Los resultados del ejercicio pueden se mostrados a los estudiantes (e.g. En un ejercicio interactivo) u ocultarlos (e.g. En un examen).
+*   Os resultados do exercicio poden ser mostrados aos estudantes (por ex. Nun exercicio interactivo) ou ocultalos (por ex. Nun exame).
 
-*   Preguntas por página, pueden ser mostradas todas en una sola página (e.g. En un examen rápido) o en páginas separadas (e.g. Cuando las preguntas y respuestas son extensas o cuando se incorporan elementos multimedia).
+*   Preguntas por páxina, poden ser mostradas todas nunha soa páxina (por ex. Nun exame rápido) ou en páxinas separadas (por ex. Cando as preguntas e respostas son extensas ou cando se incorporan elementos multimedia).
 
-*   Las preguntas y respuestas pueden mostrarse en una secuencia predeterminada o de manera aleatoria y mezclada. En este caso, será necesario indicar cuantas de las preguntas disponibles se quiere ofrecer al alumno (así se puede tener una funcionalidad de banco de preguntas). Ya sea “Todas” o una cantidad inferior a la cantidad total de preguntas disponibles.
+*   As preguntas e respostas poden mostrarse nunha secuencia predeterminada ou de maneira aleatoria e mezclada. Neste caso, será necesario indicar cantas das preguntas dispoñibles quérese ofrecer ao alumno (así se pode ter unha funcionalidade de banco de preguntas). Xa sea “Todas” ou unha cantidade inferior á cantidade total de preguntas dispoñibles.
 
-*   Tal como es posible barajar las preguntas, es posible barajar las respuestas dentro de una misma pregunta. En este caso, tendrás que evitar de usar respuestas como “Todas las anteriores”, ya que ¡esta respuesta podría aparecer primero en la lista!
+*   Tal como é posible barallar as preguntas, é posible barallar as respostas dentro dunha mesma pregunta. Neste caso, terás que evitar usar respostas como “Todas as anteriores”, xa que ¡esta resposta podería aparecer primeiro na lista!
 
-*   Si decides clasificar las preguntas por categorías, podrás decidir también de seleccionar una cierta cantidad (fija) de preguntas por categoría. Lamentablemente, en Chamilo 1.10 todavía no es posible poner una cantidad variable de preguntas para cada categoría. Solo podrás, por ejemplo, decir que cada categoría muestra 5 preguntas al azar, pero no decir que la categoría A muestra 5 preguntas y la categoría B muestra 8 preguntas. Esperamos añadir esta funcionalidad a futuro.
+*   Se decides clasificar as preguntas por categorías, poderás decidir tamén seleccionar unha certa cantidade (fixa) de preguntas por categoría. Lamentablemente, en Chamilo 1.10 todavía non é posible por unha cantidade variable de preguntas para cada categoría. Solo poderás, por exemplo, dicir que cada categoría mostra 5 preguntas ao azar, pero non dicir que a categoría A mostra 5 preguntas e a categoría B mostra 8 preguntas. Esperamos engadir esta funcionalidade nun futuro.
 
-*   Las categorías de las preguntas pueden ser mostradas u ocultadas en el ejercicio que se muestra al alumno.
+*   As categorías das preguntas poden ser mostradas ou ocultadas no exercicio que se mostra ao alumno.
 
-*   El número de intentos para resolver el ejercicio puede limitarse a un número determinado o ser infinito, por ejemplo para ejercicios de práctica.
+*   O número de intentos para resolver o exercicio pode limitarse a un número determinado ou ser infinito, por exemplo para exercicios de práctica.
 
-*   Es posible definir la fecha de inicio y de fin de disponibilidad de un ejercicio, así como también es posible definir el tiempo máximo que tiene un alumno para responder a las preguntas de un ejercicio, en cuyo caso se le mostrará un cronómetro con el tiempo que tiene disponible mientras realiza el ejercicio[^9]. Es importante notar que las fechas de disponibilidad **solo** afectan el inicio del ejercicio. Si la fecha de fin es a media noche y el alumno entra a las 23:59, podrá tomar todo su ejercicio con tranquilidad hasta terminar el tiempo impartido para el ejercicio.
+*   É posible definir a data de inicio e de fin de dispoñibilidade dun exercicio, así como tamén é posible definir o tempo máximo que ten un alumno para responder ás preguntas dun exercicio, caso no que se lle mostrará un cronómetro co tempo que ten dispoñible mentras realiza o exercicio[^9]. É importante notar que as datas de dispoñibilidade **so** afectan ao inicio do exercicio. Se a data de fin é a media noite e o alumno entra ás 23:59, poderá tomar todo o seu exercicio con tranquilidade ata terminar o tempo impartido para o exercicio.
 
-*   Los resultados negativos, pueden ser contabilizados como _cero_ o acumulados para la siguiente pregunta.
+*   Os resultados negativos, poden ser contabilizados coma _cero_ ou acumulados para a seguinte pregunta.
 
-*   Es posible definir si los estudiantes pueden revisar sus respuestas al finalizar el ejercicio.
+*   É posible definir se os estudantes poden revisar as súas respostas ao finalizar o exercicio.
 
-*   Existe la opción de escribir un mensaje que se le mostrará a los estudiantes al finalizar el ejercicio.
+*   Existe a opción de escribir unha mensaxe que se lle mostrará aos estudantes ao finalizar o exercicio.
 
-*   Si se define un porcentaje de éxito, el estudiante verá un mensaje verde o rojo en la pantalla de resultados según su resultado final.
+*   Si se define un porcentaxe de éxito, o estudante verá unha mensaxe verde ou vermella na pantalla de resultados segundo o seu resultado final.
 
-**Nota:** _El administrador de la plataforma puede habilitar una opción adicional para la sección de “Retroalimentación” de los parámetros avanzados: Autoevaluación (retroalimentación inmediata). Si se activa esta opción, se habilita el tipo de preguntas de “Escenario” que permite a los profesores crear preguntas de respuesta múltiple o de relacionar imágenes, que dependiendo de la respuesta del estudiante, le puede mostrar una secuencia alternativa de preguntas. Esta es una opción muy potente, sin embargo, ten cuidado, por que una vez que la opción de “Autoevaluación” se selecciona no es posible modificarla dentro de un ejercicio, si ya no la quieres utilizar, tendrás que crear un nuevo ejercicio sin que esta opción esté seleccionada._
+**Nota:** _O administrador da plataforma pode habilitar unha opción adicional para a sección de “Retroalimentación” dos parámetros avanzados: Autoavaliación (retroalimentación inmediata). Se se activa esta opción, habilítase o tipo de preguntas de “Escenario” que permite aos profesores crear preguntas de resposta múltiple ou de relacionar imaxes, que dependendo da resposta do estudante, pódelle mostrar unha secuencia alternativa de preguntas. Esta é unha opción moi potente, sen embargo, ten coidado, por que unha vez que a opción de “Autoavaliación” se selecciona non é posible modificala dentro dun exercicio, se xa non a queres empregar, terás que crear un novo exercicio sen que esta opción esté seleccionada._
 
-[^9]: Si mientras un alumno resuelve u ejercicio éste se desconecta por cualquier motivo de la plataforma, el tiempo para resolver el ejercicio seguirá corriendo, sin embargo, el alumno podrá volver a conectarse y continuar el ejercicio justo en el punto donde lo dejó. El cronómetro solo se mostrará en los ejercicios configurados para mostrar todas las preguntas en una sola página.
+[^9]: Se mentres un alumno resolve un exercicio, éste se desconecta por calqueira motivo da plataforma, o tempo para resolver o exercicio seguirá correndo, sen embargo, o alumno poderá volver a conectarse e continuar o exercicio xusto no punto onde o deixou. O cronómetro soamente se mostrará nos exercicios configurados para mostrar todas as preguntas nunha soa páxina.

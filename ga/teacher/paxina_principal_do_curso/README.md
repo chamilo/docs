@@ -1,3 +1,3 @@
-# Página principal del curso {#p-gina-principal-del-curso}
+# Páxina principal do curso {#paxina-principal-do-curso}
 
-En este capítulo, nos limitaremos a revisar brevemente las distintas herramientas disponibles. En capítulos posteriores entraremos a explicar cada herramienta con mayor detalle.
+Neste capítulo, limitarémonos a revisar brevemente as distintas ferramientas dispoñibles. En capítulos posteriores entraremos a explicar cada ferramenta con maior detalle.

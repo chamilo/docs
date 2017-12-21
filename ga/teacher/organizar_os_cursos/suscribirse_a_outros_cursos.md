@@ -1,9 +1,9 @@
-## Suscribirse a otros cursos {#suscribirse-a-otros-cursos}
+## Suscribirse a outros cursos {#suscribirse-a-outros-cursos}
 
-Tanto los profesores como los estudiantes pueden suscribirse a los cursos existentes en su campus. Si un profesor se apunta a un curso, será considerado estudiante en ese cursos y no tendrá acceso a las herramientas que habitualmente están disponibles para los profesores. Si quieres apuntarte a un curso como profesor, entonces tendrás que solicitarle al propietario del curso que te matricule como tal.
+Tanto os profesores coma os estudantes poden suscribirse aos cursos existentes no seu campus. Se un profesor se apunta a un curso, será considerado estudante nese curso e non terá aceso ás ferramentas que habitualmente están dispoñibles para os profesores. Se queres apuntarte a un curso como profesor, entón terás que solicitarlle ao propietario do curso que te matricule como tal.
 
-Pulsando sobre el enlace _Catálogo de cursos_ aparecerá el listado de categorías con sus respectivos cursos. Para apuntarte a uno, debes pulsar sobre el botón _Inscribirme_ (un botón verde con el símbolo de entrada)_._ Puedes utilizar la caja de búsqueda que aparece en el catálogo de cursos para localizar el curso de tu interés.
+Pulsando sobre o enlace _Catálogo de cursos_ aparecerá o listado de categorías cos seus respectivos cursos. Para apuntarte a un, debes pulsar sobre o botón _Inscribirme_ (un botón verde co símbolo de entrada)_._ Podes empregar a caixa de búsqueda que aparece no catálogo de cursos para localizar o curso do teu interés.
 
 ![](../assets/images21.png)Ilustración 22: Catálogo de cursos
 
-Al inscribirte a un curso, se te asignará el rol de **estudiante** en ese curso.
+Ao inscribirte a un curso, asignarásete o rol de **estudante** nese curso.

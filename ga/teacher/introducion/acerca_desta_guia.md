@@ -1,3 +1,3 @@
-## Acerca de esta guía {#acerca-de-esta-gu-a}
+## Acerca desta guía {#acerca-desta-guia}
 
-Este manual ha sido escrito a través de la colaboración de varias organizaciones y personas que comparten el objetivo común de contribuir a la educación alrededor del mundo. Tu también puedes contribuir a la redacción y mejora de esta guía. Todo lo que necesitas hacer es enviarnos un e-mail a info@chamilo.org con tus sugerencias para mejoras – puedes adjuntar tu propia versión modificada de párrafos, capítulos, capturas de pantalla o incluso el manual completo! ¡Es así de fácil!
+Este manual foi escrito a través da colaboración de varias organizacións e persoas que comparten o obxetivo común de contribuir á educación ao redor do mundo. Ti tamén podes contribuir á redacción e mellora desta guía. Todo o que precisas facer é enviarnos un e-mail a info@chamilo.org coas túas suxerencias para melloras – podes adxuntar a túa propia versión modificada de párrafos, capítulos, capturas de pantalla ou incluso o manual completo! ¡É así de fácil!

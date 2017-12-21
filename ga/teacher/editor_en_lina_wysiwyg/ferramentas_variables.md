@@ -1,15 +1,15 @@
-## Herramientas variables {#herramientas-variables}
+## Ferramentas variables {#ferramentas-variables}
 
-El primer elemento importante de conocer es que la barra de herramientas del editor WYSIWYG no siempre es la misma, y es a propósito. Si tuviéramos que proponer cada vez unos 30-40 iconos, volvería la interfaz muy pesada. Por esto, hemos trabajado con decentes en el campo para tratar de proponer una primera visualización que sea satisfactoria para una mayoría de personas en cada contexto particular de Chamilo.
+O primeiro elemento importante de coñecer é que a barra de ferramentas do editor WYSIWYG non sempre é a mesma, e é a propósito. Se tiveramos que propor cada vez unhas 30-40 iconas, volvería a interface moi pesada. Por isto, traballamos con docentes no campo para tratar de propor unha primeira visualización que sexa satisfactoria para unha maioría de persoas en cada contexto particular de Chamilo.
 
-Por ejemplo, en la sección de introducción al curso, la barra de herramientas se verá como sigue.
+Por exemplo, na sección de introdución ao curso, a barra de ferramentas verase como segue.
 
 ![](../assets/image13.png)
 
-Aquí encontramos todos los botones esenciales inmediatamente al crear la introducción de un curso. No es (generalmente) necesario tener opciones como la redacción de fórmulas matemáticas en la introducción al curso.
+Aquí atopamos todos os botóns esenciais inmediatamente ao crear a introdución dun curso. Non é (xeralmente) necesario ter opcións como a redacción de fórmulas matemáticas na introdución ao curso.
 
-Sin embargo, conscientes de que existen todos tipos de circunstancias, hemos agregado un modo “expandido” al cual se accede usando el último icono (4 flechas hacia el exterior) para agrandar la zona de edición a la página completa **y** tener el espacio suficiente para añadir herramientas en la barra correspondiente, como se ve a continuación.
+Sen embargo, conscientes de que existen todo tipo de circunstancias, agregamos un modo “expandido” ao que se accede usando a última icona (4 frechas hacia o exterior) para agrandar a zona de edición á páxina completa **e** ter o espazo suficiente para engadir ferramentas na barra correspondente, como se ve a continuación.
 
 ![](../assets/image14.png)
 
-En este caso, solo expandiendo la zona de edición, hemos pasado de 30 iconos de opciones a más de 45.
+Neste caso, só expandindo a zona de edición, pasamos de 30 iconas de opcións a máis de 45.

@@ -1,51 +1,51 @@
-## Herramientas de interacción {#herramientas-de-interacci-n}
+## Ferramentas de interacción {#ferramentas-de-interaccion}
 
-El objetivo de la sección de interacción es brindar herramientas que permitan la comunicación entre docentes y alumnos, así como entre alumnos. A diferencia que con las herramientas de producción, el docente no es el único que puede usarlas.
+O obxetivo da sección de interacción é brindar ferramentas que permitan a comunicación entre docentes e alumnos, así como entre alumnos. A diferenza que coas ferramentas de producción, o docente non é o único que pode usalas.
 
-![](../assets/images30.png)Ilustración 27: Herramientas de Interacción
+![](../assets/images30.png)Ilustración 27: Ferramentas de Interacción
 
-### Agenda {#agenda}
+### Axenda {#axenda}
 
-![](../assets/graphics96.png)Esta herramienta permite a os alumnos tener una agenda del curso en la que pueden además de ver eventos que están por venir, añadir los suyos propios.
+![](../assets/graphics96.png)Esta ferramenta permite aos alumnos ter unha axenda do curso na que poden, ademáis de ver eventos que están por vir, engadir os seus.
 
 ### Compartir documentos {#compartir-documentos}
 
-![](../assets/graphics97.png)Esta herramienta permite a los usuarios compartir documentos entre si.
+![](../assets/graphics97.png)Esta ferramenta permite aos usuarios compartir documentos entre si.
 
 ### Grupos {#grupos}
 
-![](../assets/graphics98.png)Esta herramienta permite la creación de grupos dentro del curso.
+![](../assets/graphics98.png)Esta ferramenta permite a creación de grupos dentro do curso.
 
-### Tareas {#tareas}
+### Tarefas {#tarefas}
 
-![](../assets/graphics99.png)Esta herramienta permite crear tareas para que los estudiantes las realicen online o para que las hagan offline y después las envíen para que el profesor las evalúe. La herramienta de tareas está completamente integrada con la herramienta de informes y permite evaluaciones rápidas y facilita el seguimiento de tareas y resultados obtenidos en las mismas por cada alumno.
+![](../assets/graphics99.png)Esta ferramenta permite crear tarefas para que os estudantes as realicen online ou para que as fagan offline e despois as envíen para que o profesor as avalíe. A ferramenta de tarefas está completamente integrada coa ferramenta de informes, permitindo evaluacións rápidas, e facilita o seguimiento de tarefas e resultados obtidos nas mesmas por cada alumno.
 
 ### Wiki {#wiki}
 
-![](../assets/graphics100.png)El wiki es una herramienta para estimular la colaboración entre los estudiantes y el profesor. Proporciona una sencilla interfaz para la producción en común de documentación de aula.
+![](../assets/graphics100.png)A wiki é unha ferramenta para estimular a colaboración entre os estudantes e o profesor. Proporciona unha sencilla interface para a producción en común de documentación de aula.
 
 ### Foro {#foro}
 
-![](../assets/graphics101.png)La completa herramienta de foro permite la creación y gestión de diferentes foros que pueden utilizar los usuarios del curso, e incluye la utilidad de citar posts de estudiantes y editar, marcar o indicar notas sobre su trabajo en cualquier forma que el profesor estime oportuna para apoyar el aprendizaje.
+![](../assets/graphics101.png)A completa ferramenta de foro permite a creación e xestión de diferentes foros que poden utilizar os usuarios do curso, e inclúe a utilidade de citar posts de estudantes e editar, marcar ou indicar notas sobre o seu trabajo en cualqueira forma que o profesor estime oportuna para apoiar o aprendizaxe.
 
 ### Usuarios {#usuarios}
 
-![](../assets/graphics102.png)Esta herramienta permite a los docentes ver quién está inscrito en el curso, y pueden gestionar usuarios, inscribiendo profesores y estudiantes, e importar y exportar la lista de participantes si se desea.
+![](../assets/graphics102.png)Esta ferramenta permite aos docentes ver quen está inscrito no curso, e poden xestionar usuarios, inscribindo profesores e estudantes, e importar e exportar a lista de participantes se se desexa.
 
-La herramienta de usuarios también está integrada con la herramienta _Grupos_.
+A ferramenta de usuarios tamén está integrada coa ferramenta _Grupos_.
 
 ### Chat {#chat}
 
-![](../assets/graphics103.png)Chamilo proporciona una sencilla utilidad de chat mediante texto, que permite a los usuarios interactuar online con otros usuarios en la plataforma.
+![](../assets/graphics103.png)Chamilo proporciona unha sencilla utilidade de chat mediante texto, que permite aos usuarios interactuar online con outros usuarios na plataforma.
 
-### Encuestas {#encuestas}
+### Enquisas {#enquisas}
 
-![](../assets/graphics104.png)La completa herramienta de encuestas es un potente medio para invitar a los usuarios a ofrecer su retroalimentación y comentarios sobre la evaluación y el desarrollo del curso. Esta herramienta también soporta el análisis de los resultados recogidos de los participantes.
+![](../assets/graphics104.png)A completa ferramenta de enquisas é un potente medio para invitar aos usuarios a ofrecer a súa retroalimentación e comentarios sobre a evaluación e o desenvolvemento do curso. Esta ferramenta tamén soporta a análise dos resultados recollidos dos participantes.
 
-### Notas personales {#notas-personales}
+### Notas personais {#notas-personais}
 
-![](../assets/graphics105.png)A veces un estudiante o un profesor quiere conservar notas relevantes para su trabajo en el curso. La herramienta de notas personales proporciona una forma sencilla de escribir, almacenar y organizar notas en la plataforma para su propio uso, utilizando el editor online. Las notas creadas por esta herramienta son privadas: ningún usuario tiene acceso a las notas de otro usuario.
+![](../assets/graphics105.png)A veces un estudante ou un profesor quere conservar notas relevantes para o seu traballo no curso. A ferramenta de notas personais proporciona unha forma sinxela de escribir, almacenar e organizar notas na plataforma para o seu propio uso, empregando o editor online. As notas creadas por esta ferramenta son privadas: ningún usuario tene aceso ás notas de outro usuario.
 
 ### Videoconferencia {#videoconferencia}
 
-![](../assets/graphics106.png)En la actualidad es relativamente fácil, utilizando un servidor local de videoconferencia, instalar esta herramienta en un curso de Chamilo, aunque sigue siendo una extensión externa que no está siempre disponible en un portal clásico. Chamilo 1.9 soporta BigBlueButton 0.8, software de código libre para videoconferencia que soporta grabación de la pizarra y el audio de una conferencia. La sesión de vídeo puede estar luego disponible dentro del propio Chamilo como una videoteca dentro del curso. Desde el punto de vista de un profesor, ¡merece la pena presionar a su administrador para configurarla!
+![](../assets/graphics106.png)Na actualidade é relativamente fácil, utilizando un servidor local de videoconferencia, instalar esta ferramenta nun curso de Chamilo, ainda que segue seendo unha extensión externa que non está sempre dispoñible nun portal clásico. Chamilo 1.9 soporta BigBlueButton 0.8, software de código libre para videoconferencia que soporta grabación da pizarra e o audio dunha conferencia. A sesión de vídeo pode estar logo dispoñible dentro do propio Chamilo como unha videoteca dentro do curso. Dende o punto de vista dun profesor, ¡merece a pena presionar ao seu administrador para configurala!

@@ -1,19 +1,19 @@
-## Subir una imagen {#subir-una-imagen}
+## Subir unha imaxe {#subir-unha-imaxe}
 
-Con el nuevo editor WYSIWYG (CKeditor), el procedimiento de subida de archivos (fotos o imágenes, en general) es considerablemente distinto de las versiones anteriores. Por esto preferimos explicar, en unos pasos, su funcionamiento.
+Co novo editor WYSIWYG (CKeditor), o procedemento de subida de arquivos (fotos ou imaxes, en xeral) é considerablemente distinto das versións anteriores. Por isto preferimos explicar, nuns pasos, o seu funcionamiento.
 
-*   Paso 1: abrir el editor WYSIWYG en algún lugar
+*   Paso 1: abrir o editor WYSIWYG nalgún lugar
 
-*   Paso 2: dar clic en el icono de paisaje
+*   Paso 2: dar clic na icona de paisaxe
 
-*   Paso 3: en la ventana emergente, seleccionar el botón “Ver Servidor”
+*   Paso 3: na ventana emerxente, selecionar o botón “Ver Servidor”
 
-*   Paso 4: en la nueva ventana emergente, usar el 6to icono que representa un diskette con un símbolo “+” verde
+*   Paso 4: na nova ventana emerxente, usar a sexta icona que representa un disquette cun símbolo “+” verde
 
-*   Paso 5: seleccionar el archivo en tu disco y dar clic en “Abrir”
+*   Paso 5: seleccionar o arquivo no teu disco e dar clic en “Abrir”
 
-*   Paso 6: cuando el archivo haya sido subido, dar doble clic en el archivo que se muestra en la lista
+*   Paso 6: cando o archivo sexa subido, dar doble clic no arquivo que se mostra na lista
 
-*   Paso 7: en la venta emergente original, aparece una vista previa de la imagen por usar en el contenido. Ajustar su tamaño y alineación. Una vez listo/a, puedes confirmar y la imagen quedará insertada en el documento editado.
+*   Paso 7: na fiestra emerxente orixinal, aparece unha vista previa da imaxe a usar no contenido. Axustar o seu tamaño e aliñación. Unha vez listo/a, podes confirmar e a imaxe quedará inserida no documento editado.
 
 ![](../assets/image15.png)![](../assets/image16.png)![](../assets/image17.png)

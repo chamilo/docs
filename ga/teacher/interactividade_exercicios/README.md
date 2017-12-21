@@ -1,1 +1,1 @@
-# Interactividad: Ejercicios {#interactividad-ejercicios}
+# Interactividade: Exercicios {#interactividade-exercicios}

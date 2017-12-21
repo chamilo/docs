@@ -1,15 +1,15 @@
-# Registrarse en la plataforma {#registrarse-en-la-plataforma}
+# Rexistrarse na plataforma {#rexistrarse-na-plataforma}
 
-Como para cualquier plataforma web, los usuarios que deseen acceder a los contenidos de la misma deben registrarse previamente con su nombre de usuario y contraseña.
+Como para calqueira plataforma web, os usuarios que desexen aceder aos contidos da mesma deben rexistrarse previamente co seu nome de usuario e contrasinal.
 
-Una vez conectado, el profesor tiene acceso a aquellos cursos en los que se encuentre inscrito:
+Unha vez conectado, o profesor ten aceso a aqueles cursos nos que se atope inscrito:
 
-![](assets/images270.png)Ilustración 8: Página &quot;Mis cursos&quot;
+![](assets/images270.png)Ilustración 8: Páxina &quot;Os Meus cursos&quot;
 
-*   Relación de los cursos en los que el usuario esté inscrito. Un lápiz aparece junto a aquellos cursos en los que el usuario tiene permisos de profesor (permitiendo así que pueda actualizar la configuración del curso)
+*   Relación dos cursos nos que o usuario esté inscrito. Un lápis aparece xunto a aqueles cursos nos que o usuario ten permisos de profesor (permitindo así que poida actualizar a configuración do curso)
 
-*   Acceso directo a la herramienta de Red Social (la cual será analizada en el apartadoErreur : source de la référence non trouvée, Erreur : source de la référence non trouvée de esta guía)
+*   Aceso directo á ferramenta de Rede Social (a cal será analizada no apartado Rede Social desta guía)
 
-*   Profesores y estudiantes pueden inscribirse a más cursos existentes
+*   Profesores e estudantes poden inscribirse a máis cursos existentes
 
-*   Profesores y estudiantes tienen acceso al historial de sesiones de sus cursos.
+*   Profesores e estudantes teñen aceso ao historial de sesións dos sus cursos.
