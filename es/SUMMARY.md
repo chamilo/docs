@@ -13,7 +13,7 @@
   * [Elementos comunes de la interfaz](teacher/por_que_chamilo/elementos_comunes_de_la_interfaz.md)
 * [La página de inicio de Chamilo](teacher/la_pagina_de_inicio_de_chamilo.md)
 * [Registrarse en la plataforma](teacher/registrarse_en_la_plataforma.md)
-* [Encontrando e camino en Chamilo](teacher/encontrando_e_camino_en_chamilo.md)
+* [Encontrando el camino en Chamilo](teacher/encontrando_el_camino_en_chamilo.md)
 * [Creación de cursos](teacher/creacion_de_cursos.md)
 * [Control del acceso al curso](teacher/control_del_acceso_al_curso.md)
 * [Organizar los cursos](teacher/organizar_los_cursos/README.md)

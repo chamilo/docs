@@ -1,4 +1,4 @@
-# Encontrando e camino en Chamilo {#encontrando-e-camino-en-chamilo}
+# Encontrando el camino en Chamilo {#encontrando-el-camino-en-chamilo}
 
 La mayoría de las páginas son rápidamente accesibles a través de las pestañas de la parte superior de la ventana:
 
