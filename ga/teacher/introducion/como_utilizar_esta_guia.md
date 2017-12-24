@@ -1,17 +1,17 @@
 ## Cómo utilizar esta guía. {#c-mo-utilizar-esta-gu-a}
 
-Este manual de referencia se ha diseñado para conducirte a través de un sencillo camino de aprendizaje, introduciendo en primer lugar las herramientas más comúnmente utilizadas y guiándote a continuación progresivamente hacia características más complejas o menos utilizadas.
+Este manual de referencia foi deseñado para conducirte a través dun sencillo camino de aprendizaxe, introducindo en primeiro lugar as ferramentas máis comúnmente utilizadas e guiándote a continuación progresivamente hacia características máis complexas ou menos utilizadas.
 
-(La excepción a este patrón es la herramienta de red social, la cual es explicada de forma separada al final de la guía. La hemos colocado ahí para ofrecer un respiro tras los 3 o 4 capítulos anteriores, que suponen un reto algo mayor que los otros).
+(A excepción a este patrón é a ferramenta de rede social, a cal é explicada de forma separada ó final da guía. Colocámola ahí para ofrecer un respiro tras os 3 ou 4 capítulos anteriores, que suponen un reto algo maior que os outros).
 
-Siguiendo este camino, encontrarás diferentes enfoques para configurar Chamilo que hallarás de utilidad cuando organices cursos para tus estudiantes, simplificando tu trabajo de seguimiento y ayudándote a identificar fácilmente y apoyar a los individuos “flojos”mientras progresan en el curso en general.
+Seguindo este camino, atoparás diferentes enfoques para configurar Chamilo que serán de utilidade cando organices cursos para os teus estudantes, simplificando o teu traballo de seguemento e axudándote a identificar fácilmente e apoiar aos individuos “floxos” mentras progresan no curso en xeral.
 
-Te recomendamos que eches un vistazo al Glosario (sección 37.1). Te dará una visión general sobre los términos usados a lo largo de esta guía y te evitarán confusión en algunas secciones.
+Recomendamoste botar un vistazo ó Glosario (sección 37.1). Darache una visión xeral sobre os termos usados ao largo desta guía e evitarache confusión nalgunhas seccións.
 
-Si ya tienes una cuenta de profesor en el portal Chamilo, puedes ir directamente al Capítulo 5, que describe la interfaz de Chamilo. Si estás familiarizado con ella, ve al Capítulo 6 que explica cómo crear un curso. Si ya eres un administrador de curso (por ejemplo un profesor que ha creado también cursos), debes ir directamente al Capítulo 9, donde se comienzan a explicar las herramientas del curso. Para aquellos que estén familiarizados con las herramientas, gran parte de esta guía les resultará familiar, aunque puede que les resulte interesante investigar las características actualizadas, como en el capítulo 36 _La Red Social._
+Se xa tes unha conta de profesor no portal Chamilo, podes ir directamente ao Capítulo 5, que describe a interface de Chamilo. Se estás familiarizado con ela, vai o Capítulo 6 que explica cómo crear un curso. Se xa eres un administrador de curso (por exemplo un profesor que creou cursos), debes ir directamente ao Capítulo 9, onde se comenzan a explicar as ferramentas do curso. Para aqueles que estén familiarizados coas ferramentas, gran parte desta guía lles resultará familiar, aínda que pode que lles resulte interesante investigar as características actualizadas, como no capítulo 36 _A Rede Social._
 
-Este manual también puede servir como una práctica guía de referencia rápida, gracias al _Índice Alfabético._
+Este manual tamén puede servir como unha práctica guía de referencia rápida, grazas ao _Índice Alfabético._
 
-Si tienes preguntas adicionales sobre el uso de Chamilo, puedes visitar el foro ([https://chamilo.org/forum](https://chamilo.org/forum)), donde muchos otros usuarios, profesores, administradores y desarrolladores estarán encantados de ayudarte a encontrar las respuestas.
+Se tes preguntas adicionales sobre o uso de Chamilo, podes visitar o foro ([https://chamilo.org/forum](https://chamilo.org/forum)), onde moitos outros usuarios, profesores, administradores e desenvolvedores estarán encantados de axudarte a atopar as respostas.
 
-Si necesitas más requerimientos, puedes considerar el contratar a uno de nuestros proveedores oficiales ([http](https://chamilo.org/en/providers)[s](https://chamilo.org/en/providers)[://chamilo.org/en/providers](https://chamilo.org/en/providers)), un grupo de empresas e instituciones que ofrecen servicios profesionales sobre Chamilo. Los proveedores oficiales tienen un amplio y probado historial de implicación en el proyecto y están comprometidos a mantener su modelo colaborativo. Contratándolos también apoyas al proyecto Chamilo.
+Se precisas máis requerimentos, podes considerar o contratar a un dos nosos proveedores oficiales ([http](https://chamilo.org/en/providers)[s](https://chamilo.org/en/providers)[://chamilo.org/en/providers](https://chamilo.org/en/providers)), un grupo de empresas e institucións que ofrecen servizos profesionais sobre Chamilo. Os proveedores oficiais teñen un amplio e probado historial de implicación no proxecto e están comprometidos a manter o seu modelo colaborativo. Contratándoos tamén apoias ao proxecto Chamilo.

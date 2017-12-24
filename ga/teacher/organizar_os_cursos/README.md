@@ -1,5 +1,5 @@
-# Organizar los cursos {#organizar-los-cursos}
+# Organizar os cursos {#organizar-os-cursos}
 
-Con Chamilo se pueden gestionar y organizar una gran cantidad de cursos. Para ayudar en esta tarea existen, además de las categorías generales comunes a todos los docentes, las _categorías personales_. Éstas son sólo visibles para el docente que las crea, permitiéndole una organización personalizada de los cursos que gestiona.
+Con Chamilo pódense xestionar e organizar unha gran cantidade de cursos. Para axudar nesta tarea existen, ademáis das categorías xerais comúns a todos os docentes, as _categorías personais_. Éstas son só visibles para o docente que as crea, permitíndolle unha organización personalizada dos cursos que xestiona.
 
-**Nota** : Esta funcionalidad dejará de mantenerse, es decir el equipo de desarrolladores no trabajará mas en ella, y podría ser abandonada en el futuro. Su uso puede ocasionar conflictos con los cursos ordenados en la página “Mis cursos” cuando éstos se encuentran registrados dentro de sesiones de formación_._
+**Nota** : Esta funcionalidade deixará de manterse, é decir o equipo de desenvolvedores non traballará máis nela, e podería ser abandonada no futuro. Seu uso pode ocasionar conflictos cos cursos ordeados na páxina “Os Meus Cursos” cando éstos se atopan rexistrados dentro de sesións de formación.

@@ -1,49 +1,49 @@
 # ¿Por que Chamilo? {#por-que-chamilo}
 
-Si debe existir **una** razón por la cual Chamilo existe, es su sencillez de uso. Chamilo es la herramienta ideal para apoyar el docente neófito en tecnologías en su transición de cursos presenciales a cursos virtuales o semi-virtuales.
+Se debe haber **unha** razón pola cal Chamilo existe, é a súa xinceleza de uso. Chamilo é a ferramenta ideal para apoiar ao docente neófito en tecnoloxías na súa transición de cursos presenciais a cursos virtuais ou semi-virtuais.
 
-Y es que, en el equipo de Chamilo, hacemos las cosas distintas. Nos esforzamos, a cada paso, a cada nueva versión, en simplificar la interfaz para que cualquier docente que sepa usar un cliente de correo web (a través de su navegador) también sepa usarlo, sin necesidad de largas capacitaciones o de lecturas de manuales como este (que solo sirve para un uso avanzado del sistema, o para verificar conceptos básicos y descubrir nuevas funcionalidades).
+E é que, no equipo de Chamilo, facemos as cousas distintas. Esforzámonos, a cada paso, a cada nova versión, en simplificar a interface para que cualqueira docente que saiba usar un cliente de correo web (a través do seu navegador) tamén saiba usalo, sen necesidade de longas capacitaciones ou de lecturas de manuais como este (que só serve para un uso avanzado do sistema, ou para verificar conceptos básicos e descubrir novas funcionalidades).
 
-La sencillez no solo es aprender más rápido, es acelerar todas las etapas de la generación de contenido y de seguimiento de los alumnos, a tal punto que no mine la motivación de los docentes, para que ellos puedan trasladar su pasión más allá de las barreras técnicas o tecnológicas, y que el impacto sobre la educación no sea reducido por tontas trabas en su aprendizaje de una nueva metodología.
+A sencillez non só é aprender máis rápido, é acelerar todas as etapas da xeración de contido e de seguimento dos alumnos, a tal punto que non mine a motivación dos docentes, para que eles poidan trasladar a súa paixón máis alá das barreiras técnicas o tecnolóxicas, e que o impacto sobre la educación non sexa reducido por tontas trabas na súa aprendizaxe dunha nova metodoloxía.
 
-Un profesor que utilice Chamilo se beneficiará, además, de una serie de herramientas que le permiten crear un entorno de aprendizaje eficiente. Al crear o editar un curso, podrá:
+Un profesor que utilice Chamilo se beneficiará, ademáis, dunha serie de ferramintas que lle permiten crear un entorno de aprendizaxe eficiente. Ao crear ou editar un curso, poderá:
 
-*   importar o crear documentos (audio, vídeo, imágenes) y publicarlos,
+*   importar ou crear documentos (audio, vídeo, imaxes) e publicalos,
 
-*   construir **ejercicios** y **exámenes** con **calificación automática** y **retroalimentación** si se requiere,
+*   construir **exercicios** e **exames** con **calificación automática** e **retroalimentación** se se require,
 
-*   crear o importar contenidos ([SCORM](http://fr.wikipedia.org/wiki/Sharable_Content_Object_Reference_Model) y [AICC](http://fr.wikipedia.org/wiki/Aviation_Industry_CBT_Committee)) ,
+*   crear ou importar contidos ([SCORM](https://es.wikipedia.org/wiki/SCORM) y [AICC](https://es.wikipedia.org/wiki/Aviation_Industry_Computer-Based_Training_Committee)) ,
 
-*   configurar la entrega de **trabajos virtuales**,
+*   configurar a entrega de **traballos virtuais**,
 
-*   describir los componentes del curso a través de la **sección descripción**,
+*   describir os compoñentes do curso a través da **sección descripción**,
 
-*   comunicarse a través del **foro** o **chat,**
+*   comunicarse a través do **foro** ou **chat**,
 
 *   publicar **anuncios**,
 
-*   agregar **enlaces**,
+*   engadir **enlaces**,
 
-*   crear **grupos de trabajo** o grupos de laboratorio,
+*   crear **grupos de traballo** ou grupos de laboratorio,
 
-*   establecer un **aula virtual (**a través de la extensión videoconferencia),
+*   establecer un **aula virtual** (a través da extensión videoconferencia),
 
-*   gestionar las calificaciones, certificaciones y competencias en la herramienta de **evaluación**,
+*   xestionar as calificacións, certificacións e competencias na ferramenta de **evaluación**,
 
-*   crear **encuestas,**
+*   crear **enquisas**,
 
-*   añadir una **wiki** para crear documentos de manera colaborativa,
+*   engadir unha **wiki** para crear documentos de maneira colaborativa,
 
 *   utilizar un **glosario**,
 
-*   utilizar una **agenda**,
+*   utilizar unha **axenda**,
 
-*   gestionar un **proyecto** (a través de la herramienta **blog**),
+*   xestionar un **proxecto** (a través da ferramenta **blog**),
 
-*   hacer el seguimiento de los estudiantes en los cursos,
+*   facer o seguimiento dos estudantes nos cursos,
 
-*   registrar **asistencias**,
+*   rexistrar as **asistencias**,
 
-*   elaborar un **diario de clase** (progreso del curso).
+*   elaborar un **diario de clase** (progreso do curso).
 
-La plataforma Chamilo es extremadamente **flexible**. Todas sus herramientas pueden ser personalizadas de acuerdo con las necesidades de cada curso. Proporciona una interfaz de usuario **amigable** e **intuitiva** que no requiere de especiales habilidades o conocimientos previos.
+A plataforma Chamilo é extremadamente **flexible**. Todas as súas ferramentas poden ser personalizadas de acordo coas necesidades de cada curso. Proporciona unha interface de usuario **amigable** e **intuitiva** que non require de especiais habilidades ou coñecementos previos.

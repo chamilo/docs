@@ -1,11 +1,11 @@
-## Borrando un archivo o un directorio {#borrando-un-archivo-o-un-directorio}
+## Borrando un arquivo ou un directorio {#borrando-un-arquivo-ou-un-directorio}
 
-Para borrar, editar, ocultar o mostrar un archivo o directorio, usa las opciones de la columna derecha en la lista de documentos:
+Para borrar, editar, ocultar ou mostrar un arquivo ou directorio, usa as opcións da columna dereita na lista de documentos:
 
-![](../assets/images45.png)Ilustración 37: Documentos - Opciones
+![](../assets/images45.png)Ilustración 37: Documentos - Opcións
 
-Como te habrás dado cuenta, los iconos varían dependiendo del tipo de documento. Los documentos HTML ofrecen más posibilidades.
+Como te darías de conta, as iconas varían dependendo do tipo de documento. Os documentos HTML ofrecen máis posibilidades.
 
-El icono de barita mágica te permite utilizar el documento seleccionado como una plantilla para crear nuevos documentos. Esto hace muy fácil asegurar un estilo visual consistente para todos los documentos del mismo curso.
+A icona de varita máxica permiteche empregar o documento seleccionado como unha plantilla para crear novos documentos. Esto fai moi fácil asegurar un estilo visual consistente para todos os documentos do mesmo curso.
 
-El icono de PDF te permite exportar el documento en formato PDF. Esto puede ser particularmente útil si deseas leer tu curso en el tren o el avión, donde no tengas acceso a tu plataforma e-learning.
+A icona de PDF permiteche exportar o documento en formato PDF. Esto pode ser particularmente útil se desexas ler o teu curso no tren ou no avión, onde non teñas aceso á túa plataforma e-learning.

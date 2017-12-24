@@ -1,13 +1,13 @@
-## Cambiar rápidamente de directorio {#cambiar-r-pidamente-de-directorio}
+## Cambiar rápidamente de directorio {#cambiar-rapidamente-de-directorio}
 
-Cuando creamos un curso nuevo con contenido de ejemplo, la herramienta Documentos contiene varios directorios (_audio, flash,_ _imágenes__,_ etc) por defecto.
+Cando creamos un curso novo con contido de exemplo, a ferramenta Documentos contén varios directorios (_audio, flash,_ _imaxes__,_ etc) por defecto.
 
-Estos directorios están destinados a proporcionar ayuda adicional para organizar los recursos dentro del curso. Una vez que se tienen 20 o más documentos en el directorio raíz, se vuelve difícil localizar un documento cuando se necesita, porque tendrás que deslizar la pantalla arriba y abajo para conseguir ver todos los ficheros. Por ello, recomendamos no tener más de 20 ficheros por carpeta – buena práctica general en cualquier gestión de archivos.
+Estos directorios están destinados a proporcionar axuda adicional para organizar os recursos dentro do curso. Unha vez que se teñen 20 ou máis documentos no directorio raíz, vólvese difícil localizar un documento cando se precisa, porque terás que deslizar a pantalla arriba e abaixo para conseguir ver todos os ficheiros. Por iso, recomendamos non ter máis de 20 ficheiros por cartafol – boa práctica xeral en cualqueira xestión de arquivos.
 
-Esos directorios por defecto son invisibles para los alumnos. Es decisión del profesor si los alumnos deben o no ver su contenido (haciendo clic en el icono del _ojo_![](../assets/graphics115.png)).
+Eses directorios, por defecto, son invisibles para os alumnos. É decisión do profesor se os alumnos deben ou non ver o seu contido (facendo clic na icona do _ollo_![](../assets/graphics115.png)).
 
 ![](../assets/images33.png)Ilustración 30: Documentos – Lista de directorios por defecto
 
-Por supuesto, es posible crear otros directorios utilizando el icono de crear carpeta. Para navegar rápidamente dentro del árbol de directorios, una lista desplegable, denominada _Carpeta actual_ está disponible en la parte superior izquierda de la pantalla, permitiendo acceder a cualquier nivel de directorios en documentos.
+Por suposto, é posible crear outros directorios empregando a icona de crear cartafol. Para navegar rápidamente dentro da árbore de directorios, unha lista desplegable, denominada _Cartafol actual_ está dispoñible na parte superior esquerda da pantalla, permitindo acceder a cualqueira nivel de directorios en documentos.
 
-Una vez dentro de un directorio, el icono de “subir un nivel” ![](../assets/graphics117.png) permite al profesor volver atrás un nivel.
+Unha vez dentro dun directorio, a icona de “subir un nivel” ![](../assets/graphics117.png) permite ao profesor voltar atrás un nivel.

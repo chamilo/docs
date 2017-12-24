@@ -1,11 +1,11 @@
-## Presentación de Imágenes {#presentaci-n-de-im-genes}
+## Presentación de Imaxes {#presentacion-de-imaxes}
 
-Si dentro de la herramienta de _Documentos_ tienes varias imágenes y quieres verlas todas a la vez, puedes utilizar la opción de presentaciones. Para utilizar esta opción, tienes que hacer clic en el icono de _ver presentación_![](../assets/graphics126.png) que encontraras en el menú de opciones en la parte superior de la lista de documentos. A continuación verás una especie de presentación de diapositivas con las imágenes de la carpeta en la que te encuentres, las cuales se mostrarán una a una; puedes cambiar de imagen haciendo clic en las flechas de navegación ubicadas en la parte superior derecha de la vista de presentación. Cada imagen tiene como pié su nombre, tamaño y espacio en disco que ocupa.
+Se dentro da ferramenta de _Documentos_ tes varias imaxes e queres velas todas á vez, podes utilizar a opción de presentacións. Para empregar esta opción, tes que facer clic na icona de _Ver presentación_![](../assets/graphics126.png) que atoparas no menú de opcións na parte superior da lista de documentos. A continuación verás unha especie de presentación de diapositivas coas imaxes da carpeta na que te atopes, as cales mostraranse unha a unha; podes cambiar de imaxe facendo clic nas frechas de navegación ubicadas na parte superior dereita da vista de presentación. Cada imaxe ten como pie o seu nome, tamaño e espazo en disco que ocupa.
 
-![](../assets/graficos6.png)Ilustración 40: Vista de presentación de una galería de imágenes
+![](../assets/graficos6.png)Ilustración 40: Vista de presentación dunha galería de imaxes
 
-La plataforma ofrecen una manera más práctica de ver la imágenes en forma de miniaturas. Para acceder a esta vista, tienes que hacer clic en el icono de _ver miniaturas_![](../assets/graphics127.png) y verás todas tus imágenes a la vez en un tamaño pequeño tal y como se muestra a continuación.
+A plataforma ofrece unha maneira máis práctica de ver as imaxes en forma de miniaturas. Para aceder a esta vista, tes que facer clic na icona de _Ver miniaturas_![](../assets/graphics127.png) e verás todas as túas imaxes á vez nun tamaño pequeno tal e como se mostra a continuación.
 
 ![](../assets/images290.png)Ilustración 41: Vista de miniaturas
 
-Adicionalmente en esta vista de presentación tienes disponible las _Opciones de presentación,_ a las que puedes acceder haciendo clic en este icono![](../assets/graphics345.png)y en dónde podrás modificar la manera en la que se muestran las imágenes.
+Adicionalmente nesta vista de presentación tes dispoñibles as _Opcións de presentación,_ ás que podes aceder facendo clic nesta icona ![](../assets/graphics345.png), e en dónde poderás modificar a maneira na que se mostran as imaxes.

@@ -1,13 +1,13 @@
-## ¿A quién está dirigida esta guía? {#a-qui-n-est-dirigida-esta-gu-a}
+## ¿A quen está dirixida esta guía? {#a-quen-est-dirixida-esta-gu-a}
 
-Este manual ha sido redactado pensando en los educadores: profesores, tutores, preparadores, instructores y otros involucrados en la educación que se encuentran con la responsabilidad (bien por elección o por necesidad) de gestionar un curso de e-learning.
+Este manual foi redactado pensando nos educadores: profesores, titores, preparadores, instructores e outros involucrados na educación que se atopan coa responsabilidade (ben por elección ou por necesidade) de xestionar un curso de e-learning.
 
-Entrar en el mundo del e-learning puede presentar un reto complejo, incluso desalentador, pero creemos que Chamilo LMS en sí mismo proporciona una solución bienvenida para recién llegados. Aprendiendo a utilizar Chamilo recorrerás una buena parte del camino en la vía para llegar a dominar muchos aspectos clave del e-learning.
+Entrar no mundo do e-learning pode presentar un reto complexo, incluso desalentador, pero cremos que Chamilo LMS en sí mesmo proporciona unha solución de benvida para os recén chegados. Aprendendo a utilizar Chamilo percorrerás unha boa parte do camiño na vía para chegar a dominar moitos aspectos chave do e-learning.
 
-Si eres ya un educador con experiencia en e-learning, podrás encontrar en esta guía una útil y detallada explicación para trabajar con Chamilo, y te permitirá mejorar tus habilidades en la utilización de herramientas de e-learning para desarrollar tus cursos.
+Se eres xa un educador con experiencia en e-learning, poderás atopar nesta guía unha útil e detallada explicación para traballar con Chamilo, e permitirate mellorar as túas habilidades na utilización de ferramentas de e-learning para desenvolver os teus cursos.
 
-Chamilo tiene dos objetivos principales:
+Chamilo ten dous obxectivos principais:
 
-1.  apoyar al profesor para una mejor respuesta a las necesidades de sus alumnos, y
+1.  Apoiar ao profesor para unha mellor resposta ás necesidades dos seus alumnos, e
 
-2.  facilitar la construcción y edición de materiales digitales de alta calidad para e-learning que el profesor puede no solo crear sino también desarrollar para mejorar continuamente el contenido de sus cursos.
+2.  Facilitar a construcción e edición de materiais dixitais de alta calidade para e-learning que o profesor pode non só crear senón tamén desenvolver para mellorar continúamente o contido dos seus cursos.

@@ -1,15 +1,15 @@
-# La página de inicio de Chamilo {#la-p-gina-de-inicio-de-chamilo}
+# A páxina de inicio de Chamilo {#a-paxina-de-inicio-de-chamilo}
 
-La de inicio es la primera página visible. Contiene el formulario de acceso y algunos otros elementos importantes:
+A de inicio é a primeira páxina visible. Contén o formulario de aceso y algúns outros elementos importantes:
 
-![](assets/images269.png)Ilustración 7: Página de inicio
+![](assets/images269.png)Ilustración 7: Páxina de inicio
 
-*   Una vez que el usuario y la contraseña han sido registrados, la conexión es directa ( el administrador asigna permisos a los usuarios dependiendo de la configuración de la plataforma).
+*   Unha vez que o usuario e o contrasinal foron rexistrados, a conexión é directa (o administrador asigna permisos aos usuarios dependendo da configuración da plataforma).
 
-*   Es posible registrarse en la plataforma utilizando un sencillo formulario (_¡__Reg__í__str__ate!_).
+*   É posible rexistrarse na plataforma utilizando un sencillo formulario (_¡Rexístrate!_).
 
-*   En caso de que olvides tu contraseña, puedes generar una nueva fácilmente (utilizando el enlace de _¿Ha olvidado su contraseña?_).
+*   No caso de que olvides o teu contrasinal, podes xerar un novo fácilmente (utilizando o enlace de _¿Olvidou o seu contrasinal?_).
 
-*   A través del enlace _For__um_ del módulo _General_, se accede al foro oficial de la Comunidad Chamilo.
+*   A través do enlace _Forum_ do módulo _Xeral_, accédese ao foro oficial da Comunidade Chamilo.
 
-**Nota** : Para ver los cursos de acceso restringido, el alumno debe estar registrado en la plataforma e inscrito por el profesor, a través de la **lista de usuarios del curso**.
+**Nota** : Para ver os cursos de acceso restrinxido, o alumno debe estar rexistrado na plataforma e inscrito polo profesor, a través da **lista de usuarios do curso**.

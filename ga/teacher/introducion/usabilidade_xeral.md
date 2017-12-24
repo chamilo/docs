@@ -1,6 +1,6 @@
-## Usabilidad general {#usabilidad-general}
+## Usabilidade xeral {#usabilidade-xeral}
 
-Chamilo ha sido diseñado para proporcionar ayuda y apoyo dentro en la propia aplicación. Los iconos se han previsto para simbolizar lo que representan, independientemente de un idioma o cultura concreto. Además, cada icono tiene una descripción breve de su funcionamiento que se muestra al pasar sobre él el puntero del ratón (sin hacer clic). (Ilustración 2: Descripción iconos).
+Chamilo foi deseñado para proporcionar axuda e apoio dentro na propia aplicación. As iconas prevíronse para simbolizar o que representan, independentemente dun idioma ou cultura concretos. Ademáis, cada icona ten unha descripción breve do seu funcionamiento que se mostra ao pasar sobre ela o punteiro do ratón (sen facer clic). (Ilustración 2: Descrición iconas).
 
 ![](../assets/images2.png)Ilustración 2: Descripción iconos
 
