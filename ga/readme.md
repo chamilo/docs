@@ -1,10 +1,10 @@
-Manuales de uso de Chamilo
+Manuais de uso de Chamilo
 ==========================
 
-Este sitio contiene los manuales de Chamilo en el idioma Español para la versión 1.11
+Este sitio contén os manuais de Chamilo no idioma Galego para a versión 1.11
 
-* [Guía administrador](admin/unidad_administrador/instalacion_y_configuracion.md)
-* [Guía profesor](teacher/introduccion/que_es_chamilo.md)
-* [Guía desarrollador](developer/servicios_web/README.md)
+* [Guía administrador](admin/unidade_administrador/instalacion_e_configuracion.md)
+* [Guía profesor](teacher/introducion/que_e_chamilo.md)
+* [Guía desenvolvedor](developer/servizos_web/README.md)
 
-La guía para desarrolladores en Español representa solo una parte del manual en Inglés.
+A guía para desenvolvedores en galego representa só unha parte do manual en inglés.
