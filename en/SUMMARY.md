@@ -342,7 +342,6 @@
 ## Developer Guide
 
 * [Introduction](developer/introduction/README.md)
-  * [What is Chamilo?](developer/introduction/what_is_chamilo.md)
   * [About this guide](developer/introduction/about_this_guide.md)
   * [Who is this guide for?](developer/introduction/who_is_this_guide_for.md)
   * [How to use this guide](developer/introduction/how_to_use_this_guide.md)
