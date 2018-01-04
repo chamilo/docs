@@ -4,12 +4,12 @@ This guide has been written with developers and e-learning implementors in mind:
 
 In short, the people to which we are directing this manual are :
 
-| ![](../assets/images1.png)IT Managers | IT Managers (they will probably only need to « scan » this document to get an idea of the reliability and seriousness of Chamilo LMS) |
+| ![](../assets/images1.png) | IT Managers | IT Managers (they will probably only need to « scan » this document to get an idea of the reliability and seriousness of Chamilo LMS) |
 | --- | --- |
-| ![](../assets/images6.png)Web designers | Web designers |
-| ![](../assets/images10.png)Themers | Themers (web designers with some technical background) |
-| ![](../assets/images11.png)Web developers | Web developers |
-| ![](../assets/images12.png)System admins | System administrators |
+| ![](../assets/images6.png) | Web designers | Web designers |
+| ![](../assets/images10.png) | Themers | Themers (web designers with some technical background) |
+| ![](../assets/images11.png) | Web developers | Web developers |
+| ![](../assets/images12.png) | System admins | System administrators |
 
 Not all sections are meant for all these people, so we havetried to mark sections with a specific coloured tag, as shown above, to mark the relevance of each chapter to these specific profiles.
 
