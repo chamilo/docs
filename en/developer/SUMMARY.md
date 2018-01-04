@@ -1,7 +1,6 @@
 # Summary
 
 * [Introduction](introduction/README.md)
-  * [What is Chamilo?](introduction/what_is_chamilo.md)
   * [About this guide](introduction/about_this_guide.md)
   * [Who is this guide for?](introduction/who_is_this_guide_for.md)
   * [How to use this guide](introduction/how_to_use_this_guide.md)
