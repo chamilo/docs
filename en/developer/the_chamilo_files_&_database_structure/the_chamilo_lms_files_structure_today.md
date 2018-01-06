@@ -1,7 +1,79 @@
 ## The Chamilo LMS files structure today {#the-chamilo-lms-files-structure-today}
 
-As of Chamilo LMS 1.10.0, the files structure looks like this (not entering in the details of each folder)[^5] . All folders relevant for us now have been marked in **bold**.
+As of Chamilo LMS 1.11, the files structure looks like this (not entering in the details of each folder)[5] .
 
-./app./app/cache./app/config./app/courses./app/home./app/logs./app/Migrations./app/Resources./app/upload./bin./certificates ./custompages./documentation ./main ./main/admin ./main/announcements ./main/attendance ./main/auth./main/badge./main/blog ./main/calendar ./main/chat ./main/coursecopy ./main/course_description ./main/course_home ./main/course_info ./main/course_progress ./main/create_course ./main/cron ./main/dashboard ./main/default_course_document ./main/document ./main/dropbox ./main/exercice ./main/fonts./main/forum ./main/gamification./main/glossary ./main/gradebook ./main/group ./main/help./main/img ./main/inc ./main/install ./main/lang ./main/link ./main/messages ./main/mySpace ./main/newscorm ./main/notebook ./main/palettes./main/permissions ./main/plugin ./main/portfolio ./main/reports ./main/resourcelinker ./main/search ./main/session ./main/social ./main/survey ./main/template ./main/timeline ./main/tracking ./main/upload ./main/user ./main/webservices ./main/wiki ./main/work ./plugin ./src./tests./vendor ./web./web/assets./web/css
+ - app
+ - app/cache
+ - app/config
+ - app/courses
+ - app/DoctrineExtensions
+ - app/home
+ - app/logs
+ - app/Migrations
+ - app/Resources
+ - app/upload
+ - bin
+ - certificates
+ - custompages
+ - documentation
+ - main
+ - main/admin
+ - main/announcements
+ - main/attendance
+ - main/auth
+ - main/badge
+ - main/blog
+ - main/calendar
+ - main/chat
+ - main/course\_description
+ - main/course\_home
+ - main/course\_info
+ - main/course\_progress
+ - main/coursecopy
+ - main/create\_course
+ - main/cron
+ - main/dashboard
+ - main/default\_course\_document
+ - main/document
+ - main/dropbox
+ - main/exercise
+ - main/extrafield
+ - main/fonts
+ - main/forum
+ - main/gamification
+ - main/glossary
+ - main/gradebook
+ - main/group
+ - main/help
+ - main/img
+ - main/inc
+ - main/install
+ - main/lang
+ - main/link
+ - main/lp
+ - main/messages
+ - main/mySpace
+ - main/notebook
+ - main/palettes
+ - main/permissions
+ - main/portfolio
+ - main/search
+ - main/session
+ - main/social
+ - main/survey
+ - main/template
+ - main/ticket
+ - main/timeline
+ - main/tracking
+ - main/upload
+ - main/user
+ - main/webservices
+ - main/wiki
+ - main/work
+ - plugin
+ - src
+ - tests
+ - vendor
+ - web
 
-[^5]: Found through the « find . -type d -maxdepth 2 » command
+[5]: Found through the « find . -type d -maxdepth 2 » command
