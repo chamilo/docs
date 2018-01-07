@@ -1,4 +1,4 @@
-## The Chamilo LMS files structure today {#the-chamilo-lms-files-structure-today}
+## The Chamilo LMS files structure today
 
 As of Chamilo LMS 1.11, the files structure looks like this (not entering in the details of each folder)[5] .
 

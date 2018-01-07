@@ -1,5 +1,4 @@
 ## Database structure : static in all minor versions
-{#database-structure-static-in-all-minor-versions}
 
 One important change in Chamilo (in comparison with its ancestors) is that we do **not allow neither database nor file structure changes** between minor versions. On the developer side, this means that, if you have to develop a new feature with new data to be stored, you will have to work through plugins or extra fields (more about these later) until they can be included in the next major version.
 

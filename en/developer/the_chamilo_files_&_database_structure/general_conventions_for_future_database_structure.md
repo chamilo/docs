@@ -1,5 +1,4 @@
 ## General conventions for future database structure
-{#general-conventions-for-future-database-structure}
 
 If you are starting a new plugin or some kind of feature that requires database modifications, and although you can find most of this information in the coding conventions (next section), please keep the following rules in mind :
 
