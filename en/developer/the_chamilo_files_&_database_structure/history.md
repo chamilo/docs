@@ -1,5 +1,4 @@
 ## History
-{#history}
 
 ![](../assets/images19.png)![](../assets/images22.png)
 
@@ -11,19 +10,17 @@ In 2004, the Claroline project suffered a _fork_ (a disturbance in _the force_) 
 
 In 2010, the Dokeos project suffered another fork, between Dokeos (still exists today) and Chamilo, provoked by the very unsensitive behaviour of the Dokeos company manager, with little understanding of the value of the community in such a project.
 
-These 2 large project splits were mostly philosophical in the _Chamilo_ project history, but they did come with their amount of changes in structure (both at the database level and at the files level), and we&#039;ll try to cover these shortly here.
+These 2 large project splits were mostly philosophical in the _Chamilo_ project history, but they did come with their amount of changes in structure (both at the database level and at the files level), and we'll try to cover these shortly here.
 
 An important note to conclude this short time-travel with, is that Chamilo LMS 1.10 and 1.11 came with additional critical new changes that greatly improved readability and reusability of the Chamilo system. Chamilo 2.0, currently under development, will bring some more changes mostly focused on extensibility.
 
-So, let&#039;s see what notable changes have happened in Chamilo over the years...
+So, let's see what notable changes have happened in Chamilo over the years...
 
 ### 2001-2003
-{#2001-2003}
 
-During this period, _Claroline_ starts as an aggregate of simple teacher tools and a relatively loose central core. The project developers earned our respect for drawing the first draft of what didn&#039;t exist in the free software world, using nothing but the PHP basis to build a cathedral, but they did a considerable amount of technical errors as well, which still have an impact on Chamilo today.
+During this period, _Claroline_ starts as an aggregate of simple teacher tools and a relatively loose central core. The project developers earned our respect for drawing the first draft of what didn't exist in the free software world, using nothing but the PHP basis to build a cathedral, but they did a considerable amount of technical errors as well, which still have an impact on Chamilo today.
 
 #### Separation of courses databases
-{#separation-of-courses-databases}
 
 Arguably the biggest mistake in the whole structure of the system was to separate the data of each course into its individual database.
 
@@ -40,7 +37,6 @@ This had the direct impact that users wanting to install Claroline on a shared h
 An attempt at mildly reducing the impact of this measure made things even worst, as the idea went from having one database per course (with ~50 tables each) to having one single database but maintaining the prefix system (this time for tables), which caused a 20-courses platform to actually require one database with 1,000 tables. You then had a clarodb\_course1\_document, a clarodb\_course2\_document, etc just to manage the documents tool for all courses.
 
 #### Separation of responsibilities : one developer per tool
-{#separation-of-responsibilities-one-developer-per-tool}
 
 Somehow, this is not as much of a design mistake than an open-contributions-with-limited-management problem. The problem was that, after a few years of development, each tool had developed a different standard. The coding conventions were not respected strictly enough, no template was provided to develop new tools, and the dropbox tool ended up being completely different in code styling and name conventions than the documents tool, for example.
 
@@ -49,7 +45,6 @@ This had dramatic consequences, which were somehow found later, in _Dokeos_, as 
 Furthermore, the development of separate tools in a relatively uncontrolled manner generate code replication. A lot of code was found in different tools at the same time, generating more work to maintain and less traceability of changes.
 
 #### Course code as literal
-{#course-code-as-literal}
 
 A final issue was the use of a literal (string) as a course identifier. This means that, for all joins between tables where the course is important, we have several searches on the course code, meaning we need expensive indexes in place to speed up the searches, while an integer would make things much faster.
 
@@ -58,14 +53,12 @@ It also reduces portability a little, as querying a string comes with uppercase 
 To date, in 2017 (16 years later) we still didn't get rid of this issue completely as some tables (very few actually, mostly gradebook stuff) still make use of the litteral course code. This will be (finally) completely gone in Chamilo 2.0.
 
 #### Multiple writeable folders
-{#multiple-writeable-folders}
 
 An issue starting to appear right before 2004, and after that, was the multiplication of writeable folders. A writeable folder is a folder to which the web server requires write access in order to provide the complete features of Chamilo. Having several folders like this implies changing permissions **and** watching for security attacks in all of these, as well as taking backups of only part of these, etc. In short : a series of complications for such a small interest point for final users.
 
 In 1.11.x, this has been significantly improved by moving _most_ of these writeable directories into the _app/_ folder. However, a few additional "optional" directories remain, like _web/css/_ and _main/lang/_ (and in some cases some plugin folders). A list of these folders can be found in the _documentation/security.html_ file in any Chamilo installation.
 
 ### 2004-2010
-{#2004-2010}
 
 The split between Claroline and Dokeos could have been handled in a smarter way, to say the least. The main issue here was that the separation did not separate the development team (the Claroline team remained while a new team was created for Dokeos). It mainly was a management split.
 
@@ -74,14 +67,12 @@ This meant that Dokeos, while being a great innovative view of how an e-learning
 Nevertheless, the Dokeos team maintained, improved and extended the software in an impressive way. But the structure issues from Claroline were maintained, never reaching a point with sufficient (economical) ressources to fix the flaws, but working slowly on getting them fixed progressively.
 
 #### Tracking for learning paths
-{#tracking-for-learning-paths}
 
 One mistake increased the damage a little, though, and was mostly due to a lack of experience of the original author of this guide (i.e. me): the tracking for the learning path tool (completely re-written in Dokeos to support SCORM 1.2) was stored inside the main database (which is alright thinking in the long-term of bringing all data under the same database, but not in comparison with all other tracking tables), provoking some confusion within the developers team as all other tracking ressources are generally located in tables prefixed with *track\_e\_*. This is still a bit confusing today, as `lp_view` and `lp_item_view` tables contain user tracking information, but it will remain like that until a proper renaming and re-structuring of the tracking tables can be executed without risking our users' data.
 
 Some tracking is also kept in gradebook and student\_publication tables.
 
 #### The item\_property table
-{#the-item-property-table}
 
 Another mistake, which we're not clear whether it was already present in Claroline or appeared in the very early stages of Dokeos, is that there is an item\_property tool which holds some item properties (as the name suggests) but **also** stores time information of when these properties have changed.
 
@@ -92,10 +83,8 @@ At the moment, for example, it might be necessary to go through all records for 
 Furthermore, the item\_property table keeps a reference to object of many other tables. And this reference is using a literal tool code as a discriminator instead of an integer number, which has further performance impact.
 
 ### 2010-2014
-{#2010-2014}
 
 #### Single database and InnoDB
-{#single-database-and-innodb}
 
 At the very beginning of the Chamilo project, a major labour was undertaken to get rid of the multiple-databases issue.
 
@@ -126,7 +115,6 @@ Fixing these meant adding an additional, global, ID that is worth for all course
 Once this step is completed, Chamilo will be completely optimized for very high load portals. In the meantime, handling thousands of transactions per second on several database servers in a load balanced infrastructure should be done with care, possibly using only a few tools (like the exercises tool in Chamilo 1.11, which has already been implemented in such a structure in production).
 
 #### Multiple databases layer
-{#multiple-databases-layer}
 
 Considerable efforts have been executed on centralizing all SQL and making sure we could move more easily to other database server management systems (PostgreSQL, Oracle, etc). At the time of 1.11.0, this work was not yet complete, but is reaching completion slowly (but surely) and we hope to have a first version available in 3.0 (not 2.0 as initially planned as this has become a lower priority with time with Oracle being the owner of MySQL and MariaDB launching on its own).
 
@@ -135,7 +123,6 @@ However, a series of queries are still located in different Chamilo scripts, whi
 When developing inside Chamilo now, try using the entities (and their ORM relationship) put at your disposal for all new queries. Check the select() and update() functions on these entities in `src/Chamilo/*/Entity/`.
 
 #### Packaging for inclusion in other software
-{#packaging-for-inclusion-in-other-software}
 
 Considerable efforts of re-structuring have been made and are still being made to improve the structure of Chamilo files in view of integrating it into other software, such as Linux distributions like Debian and others.
 
