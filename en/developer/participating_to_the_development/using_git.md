@@ -1,9 +1,9 @@
-## Using Git {#using-git}
+## Using Git
 
 ...basics… clone, --track, pull, checkout, commit, push
 
-### Branches {#branches}
+### Branches
 
 … make sure your code is up to date…
 
-### Forks {#forks}
+### Forks

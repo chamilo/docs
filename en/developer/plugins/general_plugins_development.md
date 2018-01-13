@@ -1,1 +1,3 @@
-## General plugins development {#general-plugins-development}
+## General plugins development
+
+Coming soon...

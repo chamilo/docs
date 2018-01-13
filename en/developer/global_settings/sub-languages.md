@@ -1,4 +1,4 @@
-## Sub-languages {#sub-languages}
+## Sub-languages (or slang)
 
 Sub-languages are summarily defined in the Administrator Guide and can be defined following the procedure below:
 

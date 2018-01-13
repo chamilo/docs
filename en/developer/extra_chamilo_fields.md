@@ -2,17 +2,29 @@
 
 ![](assets/images29.png)
 
-If you ever wonder where those « original\_user\_id » values we saw in the webservices chapter were stored, have a look at the « \*\_field » tables. You'll find that users, courses \(since 1.9.0\) and even sessions \(since 1.10.0\) all have two « extra » tables that allow us to store a virtually-unlimited amount of additional information and links to other systems.
+If you ever wonder where those « original_user_id » values we saw in the webservices chapter 
+were stored, have a look at the « extra_field » table. You'll find that users, 
+courses and even sessions all use two « extra » tables that 
+allow us to store a virtually-unlimited amount of additional information and links to other 
+systems.
 
-For users, it's easy : you can define fields through the administration panel. Just click the last link of the users block : « Profiling » and follow the instructions to define a new field.
+For users, it's easy : you can define fields through the administration panel. Just click the 
+last link of the users block : « Profiling » and follow the instructions to define a new field.
 
-Since 1.10.0, the admin panel offers the possibility to configure additional course and session fields.
+Since 1.10.0, the admin panel offers the possibility to configure additional course and session
+fields, and since 1.11.0, you can do that with any supported element through a link at the end of the platform block.
 
-For users, courses and sessions, however, the fields were already available in the Chamilo 1.9 database, so you **c\*\***ould\*\* use them if you wanted. Actually, web services already used them when creating a new course or a new session through them : they create \(or insert data into it if it exists\) a field by the name of the value you gave in the « original\_course\_id\_name » parameter to the WSCreateCourse\(\) method, for example.
+For users, courses and sessions, however, the fields were already available in the Chamilo 1.9 
+database, so you **could** use them if you wanted. Web services already used 
+them when creating a new course or a new session through them : they create (or insert data into 
+it if it exists) a field by the name of the value you gave in the « original_course_id_name » 
+parameter to the WSCreateCourse() method, for example.
 
-Either way, you can define new fields manually directly from your database client and use these through plugins, if you want.
+Either way, you can define new fields manually directly from your database client and use these 
+through plugins, if you want.
 
-Fields definitions are stored in the _\_field tables. Values of each user, course or session for these fields are stored in the _\_field\_values tables.
+Fields definitions are stored in the extra_field table. Values of each user, course or session for 
+these fields are stored in the extra_field_values table.
 
 Check them out, they're a great resource to work with !
 

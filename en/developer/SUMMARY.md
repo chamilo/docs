@@ -32,7 +32,6 @@
 * [Participating to the development](participating_to_the_development/README.md)
   * [Using Git](participating_to_the_development/using_git.md)
   * [Updating you code](participating_to_the_development/updating_you_code.md)
-* [Update composer](update_composer.md)
 * [Clear the template cache](clear_the_template_cache.md)
 * [Fixing bugs](fixing_bugs.md)
 * [System AdministratorsWeb services](system_administratorsweb_services/README.md)

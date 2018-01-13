@@ -373,7 +373,6 @@
 * [Participating to the development](developer/participating_to_the_development/README.md)
   * [Using Git](developer/participating_to_the_development/using_git.md)
   * [Updating you code](developer/participating_to_the_development/updating_you_code.md)
-* [Update composer](developer/update_composer.md)
 * [Clear the template cache](developer/clear_the_template_cache.md)
 * [Fixing bugs](developer/fixing_bugs.md)
 * [System AdministratorsWeb services](developer/system_administratorsweb_services/README.md)

@@ -1,4 +1,4 @@
-# Global settings {#global-settings}
+# Global settings
 
 ![](../assets/images26.png)
 

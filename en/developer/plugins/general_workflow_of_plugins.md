@@ -1,4 +1,4 @@
-## General workflow of plugins {#general-workflow-of-plugins}
+## General workflow of plugins
 
 The (shortened) plugins workflow as follow:
 

@@ -1,4 +1,4 @@
-## The cascading structure {#the-cascading-structure}
+## The cascading structure
 
 As can be understood by looking at the **Illegal HTML tag removed :** section of any Chamilo page, CSS files are loaded like this (we have intentionally replaced the domain name by the marker **[.]** for readability, and used the default active style of main/css/chamilo/ ) :
 
@@ -24,12 +24,16 @@ We will not look into the less-important CSS files here, but you should note tha
 
 As CSS dictates, a CSS that appears first in the list will be loaded first, then the following ones will « overwrite » the previous settings if necessary.
 
+### Earlier versions
+
 You should also know that, in some cases in earlier versions of Chamilo, we used the @import url() feature of CSS to load more « default » CSS. For example, for all Chamilo-type styles, you would have found a block like this at the beginning :
 
+```
 /* Adding default style for the chamilo_X themes */
 
-@import url(&#039;../base_chamilo.css&#039;);
+@import url('../base_chamilo.css');
+```
 
-This has been removed from styles in 1.10.0, so you shouldn&#039;t find any of these.
+This has been removed from styles since 1.10.0, so you should not find (nor use) any of these anymore.
 
 With all this information in mind, we are ready to tackle the next section : analyzing the purpose of each file.

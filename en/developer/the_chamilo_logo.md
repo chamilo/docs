@@ -1,10 +1,14 @@
-# The Chamilo logo {#the-chamilo-logo}
+# The Chamilo logo
 
-This section might not really fit here, but given we&#039;re discussing Chamilo design, we thought maybe this would prove useful to some.
+This section might not really fit here, but given we&#039;re discussing Chamilo design, we thought 
+maybe this would prove useful to some.
 
 The Chamilo logo was originally (pre-2013) a chameleon in a semi-transparent cube.
 
-![](assets/image4.png)After many issues printing the cube and explaining to people the bug inside was actually a chameleon, Blender artist Alex Aragon Calixto (@aragcar) proposed the following design as a variation for an event organized by the Peruvian community.
+![](assets/image4.png)
+After many issues printing the cube and explaining to people the bug inside was actually a chameleon,
+Blender artist Alex Aragon Calixto (@aragcar) proposed the following design as a variation for an 
+event organized by the Peruvian community.
 
 ![](assets/image5.png)
 
@@ -18,7 +22,8 @@ On a side note, Chamilo also has its own mascot, “Chamilito”, with the follo
 
 This first version was a sketch published on the internet and for which the Chamilo Association asked permission to make use of. It is also the same basic sketch that served as logo for the Free Software Notepad++.
 
-![](assets/image7.png)![](assets/image8.png)
+![](assets/image7.png)
+![](assets/image8.png)
 
 This second version is simply a vectorized version of the first, with a colourized version with a mouth that followed shortly after (the idea was to use it as a mascot inside Chamilo and make it speak, so it needed a mouth).
 
