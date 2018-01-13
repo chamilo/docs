@@ -351,7 +351,7 @@
   * [Common interface elements](developer/why_chamilo/common_interface_elements.md)
 * [The Chamilo files & database structure](developer/the_chamilo_files_&_database_structure/README.md)
   * [History](developer/the_chamilo_files_&_database_structure/history.md)
-  * [Database structure : fixed in all minor versions](developer/the_chamilo_files_&_database_structure/database_structure__fixed_in_all_minor_versions.md)
+  * [Database structure : static in all minor versions](developer/the_chamilo_files_&_database_structure/database_structure__fixed_in_all_minor_versions.md)
   * [The Chamilo LMS files structure today](developer/the_chamilo_files_&_database_structure/the_chamilo_lms_files_structure_today.md)
   * [The Chamilo LMS database structure today](developer/the_chamilo_files_&_database_structure/the_chamilo_lms_database_structure_today.md)
   * [General conventions for future database structure](developer/the_chamilo_files_&_database_structure/general_conventions_for_future_database_structure.md)
