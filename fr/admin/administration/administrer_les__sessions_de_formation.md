@@ -126,7 +126,11 @@ Et appliquer un changement à la base de données:
 CREATE TABLE scheduled_announcements (id INT AUTO_INCREMENT NOT NULL, subject VARCHAR(255) NOT NULL, message LONGTEXT NOT NULL, date DATETIME DEFAULT NULL, sent TINYINT(1) NOT NULL, session_id INT NOT NULL, c_id INT DEFAULT NULL, PRIMARY KEY(id)) DEFAULT CHARACTER SET utf8 COLLATE utf8_unicode_ci ENGINE = InnoDB;
 ```
 
-Ensuite depuis la page de résumé de session vous pouvez accéder à la programmation des annonces. On arrive sur une page qui liste les annonces, avec en haut 2 boutons d'actions connus :
+Ensuite depuis la page de résumé de session vous pouvez accéder à la programmation des annonces. On arrive sur une page qui liste les annonces.
+
+![](../assets/SessionAnnoncesProgrammeesListe.png)Administration - Session - Liste des annonces programmées
+
+On retrouve en haut 2 boutons d'actions connus :
 
 | Icônes | Fonctionnalités |
 | --- | --- |
