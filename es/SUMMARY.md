@@ -44,7 +44,7 @@
   * [Retroalimentación, resultados y respuestas correctas](teacher/interactividad_ejercicios/retroalimentacion,_resultados_y_respuestas_correct.md)
   * [Tipos de ejercicios](teacher/interactividad_ejercicios/tipos_de_ejercicios.md)
   * [Añadiendo preguntas a un ejercicio ](teacher/interactividad_ejercicios/anadiendo_preguntas_a_un_ejercicio.md)
-  * [Reuso de preguntas existentes ](teacher/interactividad_ejercicios/reuso_de_preguntas_existentes.md)
+  * [Reuso de preguntas existentes ](teacher/interactividad_ejercicios/reutilizar_preguntas_existentes.md)
   * [Importación: HotPotatoes, IMS/QTI2, Excel](teacher/interactividad_ejercicios/importacion_hotpotatoes,_imsqti2,_excel.md)
   * [Resultados de las pruebas](teacher/interactividad_ejercicios/resultados_de_las_pruebas.md)
   * [Ejercicios de tipo autoevaluación](teacher/interactividad_ejercicios/ejercicios_de_tipo_autoevaluacion.md)
