@@ -13,7 +13,8 @@ $_configuration['data_protection_officer_role'] = '';
 $_configuration['data_protection_officer_email'] = '';
 ```
 
-La première conséquence de l'activation de ces fonctionnalités et l'apparition sur la page du réseau social d'une nouvelle entrée "Données Personnelles" sur la gauche de la page dans le bloc "Réseau social".
+La première conséquence de l'activation de ces fonctionnalités est l'apparition sur la page du réseau social d'une nouvelle entrée "Données Personnelles" sur la gauche de la page dans le bloc "Réseau social".
+
 ![](../assets/RGPD-LienDonneesPersonnelles.png)Administration - Lien Données Personnelles
 
 Sur cette page chaque utilisateur pourra retrouver l'ensemble des informations personnelles qui sont stockées dans Chamilo et pourra les exporter au format Json.
