@@ -45,6 +45,15 @@ Les actions disponibles sont identifiées par les icônes suivants :
 | ![](../assets/icone-edit.png) | Éditer l'utilisateur : permet d'arriver au formulaire d'édition standard ou l'on peut voir en particulier les raisons de la demande de suppression des termes et conditions et les raisons de la demandes de suppression de compte (Les champs de texte obligatoires que l'utilisateur rempli quand il fait une de ces 2 demandes). |
 | ![](../assets/icone-admin_star.png) / ![](../assets/icone-admin_star_na.png) | Permet de savoir si l'utilisateur est administrateur de la plateforme ou non |
 
+### Configuration du Cron de rappel par mail de demandes en attente
+
+Afin d'assurer que les demandes de suppression de compte sont traitées dans le délais maximum défini par le RGPD (4 semaines) il est possible de configurer une tâche Cron qui va vérifier s'il y a les demandes en attentes depuis plus de 7 jours et si c'est le cas alors pour chacune il est envoyé un rappel au DPO s'il est défini sinon à défaut à tous les administrateurs en indiquant le nom de la personne dont la demande est en attente et un lien vers la page de gestion des demandes en attente.
+
+Cette fonctionnalité nécessite la configuration sur le serveur d'un processus _cron_ qui appelle le script suivant :
+```
+/main/cron/request_removal_reminder.php 
+```
+
 ### Extension des termes et conditions
 
 Une autre conséquence de l'activation des fonctionnalités pour répondre au RGPD est l'ajout de champs extra pour les termes et conditions afin de faciliter la description des parties obligatoires définies par le RGPD.
