@@ -45,3 +45,26 @@ Les actions disponibles sont identifiées par les icônes suivants :
 | ![](../assets/icone-edit.png) | Éditer l'utilisateur : permet d'arriver au formulaire d'édition standard ou l'on peut voir en particulier les raisons de la demande de suppression des termes et conditions et les raisons de la demandes de suppression de compte (Les champs de texte obligatoires que l'utilisateur rempli quand il fait une de ces 2 demandes). |
 | ![](../assets/icone-admin_star.png) / ![](../assets/icone-admin_star_na.png) | Permet de savoir si l'utilisateur est administrateur de la plateforme ou non |
 
+### Extension des termes et conditions
+
+Une autre conséquence de l'activation des fonctionnalités pour répondre au RGPD est l'ajout de champs extra pour les termes et conditions afin de faciliter la description des parties obligatoires définies par le RGPD.
+Sur la page d'édition des termes et conditions (voir la documentation spécifique sur l'activation et l'utilisation des termes et conditions) on trouve maintenant en plus du bloc d'édition principales un bloc d'édition par sous partie afin de ne rien oublier.
+
+Les sous blocs sont :
+* Collecte des données personnelles 
+* Enregistrement des données personnelles 
+* Organisation des données personnelles 
+* Structuration des données personnelles 
+* Conservation des données personnelles 
+* Adaptation ou modification des données personnelles
+* Extraction des données personnelles
+* Consultation des données personnelles
+* Utilisation des données personnelles 
+* Communication et diffusion des données personnelles
+* Interconnexion des données personnelles
+* Limitation des données personnelles
+* Effacement des donnée personnelles
+* Destruction des donnée personnelles 
+* Profilage des donnée personnelles 
+
+Chacun de ces blocs apparaîtra comme une section des termes et conditions générales.
