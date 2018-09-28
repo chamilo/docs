@@ -214,6 +214,7 @@
   * [Administrer les « Cours »](admin/administration/ladministration_des__cours.md)
   * [Administrer les « Sessions de formation »](admin/administration/administrer_les__sessions_de_formation.md)
   * [Administrer les options système](admin/administration/administration_des_options_systeme.md)
+  * [Administrer le_RGPD](admin/administration/Administrer_le_RGPD.md)
 * [Fonctionnalités globales](admin/fonctionnalites_globales/README.md)
   * [Multi-URL](admin/fonctionnalites_globales/multi-url.md)
   * [Vidéoconférence](admin/fonctionnalites_globales/videoconference.md)
