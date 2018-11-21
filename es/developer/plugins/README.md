@@ -144,7 +144,11 @@ Se puede añadir información de casos de uso y peculiaridades que sean oportuna
 
 ##### Definir la clase del plugin
 
-Tener en cuenta el nombre que se elige al plugin, será utilizado en la carpeta del plugin, en el fichero de la clase y en el nombre de la clase. _Ejemplo: _
+Tener en cuenta el nombre que se elige al plugin, será utilizado en la carpeta del plugin, en el fichero de la clase y en el nombre de la clase. Ejemplo:
+
+![nombre del plugin en la carpeta](images/folder_plugin.png "Nombre de la carpeta del plugin")
+![nombre del fichero de la clase](images/file_class.png "Nombre del fichero de la clase")
+![nombre de la clase](images/name_class.png "Nombre de la clase")
 
 **Nombre de la clase:**
 ```
