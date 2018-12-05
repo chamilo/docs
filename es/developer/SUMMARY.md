@@ -8,4 +8,4 @@
   * [Conexión y llave de seguridad](servicios_web/conexion_y_llave_de_seguridad.md)
   * [Restricciones sobre la IP de llamada](servicios_web/restricciones_sobre_la_ip_de_llamada.md)
   * [Otros métodos](servicios_web/otros_metodos.md)
-
+* [Desarrollo de plugin para chamilo](plugins/README.md)
