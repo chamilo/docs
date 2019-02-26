@@ -1,4 +1,4 @@
-Guía del desarrollador - Chamilo LMS {#guia-desarrollador}
+## Guía del desarrollador - Chamilo LMS {#guia-desarrollador}
 
 Esta guía ha sido diseñada para ayudar los desarrolladores, administradores de 
 sistemas y "themers" de Chamilo encontrar su camino en Chamilo de manera más
