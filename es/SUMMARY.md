@@ -210,6 +210,7 @@
 
 ### Manual del Desarrollador
 
+* [Introducción](developer/introduccion.md)
 * [Estructura de archivos de Chamilo y base de datos](developer/estructura_de_archivos_de_chamilo_y_base_de_datos/README.md)
   * [Estructura de base de datos de Camilo LMS hoy en día](developer/estructura_de_archivos_de_chamilo_y_base_de_datos/estructura_de_base_de_datos_de_chamilo_lms_hoy_en_dia.md)
     * [Diccionario de datos](developer/estructura_de_archivos_de_chamilo_y_base_de_datos/diccionario_de_datos.md)
