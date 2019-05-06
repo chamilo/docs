@@ -65,11 +65,13 @@ src/Chamilo/UserBundle/Security/Encoder.php class:
 
 ```
 So now we know that, to generate the password, we simply need the number of times
-to pass it through password_hash().
+to pass it through password_hash(), and the salt, which is simply a sha1(unique_id(true, true))..
 
 So to "fake" the generation of the password "tomato", we would simply need to call:
 ```
-password_hash('tomato', PASSWORD_BCRYPT, ['cost' => 4]);
+$salt = sha1(unique_id(true, true));
+password_hash('tomato', PASSWORD_BCRYPT, ['cost' => 4, 'salt' => $salt]);
 ```
+So whenever editing a user's password, you will also need to edit its "salt" column to the newly-generated salt.
 
 As you can see, other encryption methods use other paths in the Encoder constructor.
