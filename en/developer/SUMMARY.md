@@ -56,3 +56,4 @@
   * [Facebook](system_administratorsauthentication_methods/facebook.md)
   * [OpenID](system_administratorsauthentication_methods/openid.md)
   * [Custom SSO methods](system_administratorsauthentication_methods/custom_sso_methods.md)
+* [Passwords generation](security/passwords.md)
