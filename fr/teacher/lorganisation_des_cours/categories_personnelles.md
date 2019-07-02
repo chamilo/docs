@@ -12,7 +12,9 @@ Dans la liste déroulante, sélectionner la catégorie personnelle à laquelle l
 
 Pour supprimer la catégorie, cliquer sur la croix rouge « Supprimer ».
 
-![](../assets/images26.png)Illustration 17: Catégories de cours
+![](../assets/images26.png)
+
+Illustration 17: Catégories de cours
 
 Il est possible de s&#039;inscrire à d&#039;autres cours que ceux qu&#039;on administre. Ce sera un enregistrement comme utilisateur et non comme co-responsable à un cours proposé par un autre enseignant.
 
