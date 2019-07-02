@@ -1,6 +1,6 @@
 ## Sonoriser une activité {#sonoriser-une-activit}
 
-Pour renforcer l'impact d'un parcours, il est possible de sonoriser chacune des activités au travers de l'icône « Audio » \(![](../assets/image121.png)\) dans la page de construction du parcours.
+Pour renforcer l'impact d'un parcours, il est possible de sonoriser chacune des activités au travers de l'icône « Audio » \(<img width="16px" src="../assets/image121.png">\) dans la page de construction du parcours.
 
 Il existe 2 méthodes pour associer une séquence audio à un élément du parcours.
 
