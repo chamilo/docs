@@ -8,12 +8,12 @@ La colonne de droite comprend les outils utiles à la modification. Il comprend 
 
 | Icônes | Fonctionnalités |
 | --- | --- |
-| ![](../assets/image132.svg)![](../assets/image132.png) | Modifier les paramètres du parcours |
-| ![](../assets/images102.svg)![](../assets/images102.png) | Supprimer un parcours |
-| ![](../assets/graphics37.svg)![](../assets/graphics37.png) | Accéder à l&#039;outil « construire » pour retravailler le parcours |
-| ![](../assets/images194.png)![](../assets/images200.png) | Afficher / cacher le parcours |
-| ![](../assets/images195.png)![](../assets/images199.png) | Masquer / montrer aux apprenants |
-| ![](../assets/images201.png)![](../assets/images108.svg)![](../assets/images108.png) | Exporter le parcours au format .zip, réintégrable en SCORM |
+| <img width="32px" src="../assets/image132.svg"> | Modifier les paramètres du parcours |
+| <img width="32px" src="../assets/images102.svg"> | Supprimer un parcours |
+| <img width="32px" src="../assets/graphics37.svg"> | Accéder à l&#039;outil « construire » pour retravailler le parcours |
+| <img width="32px" src="../assets/images194.png"> | Afficher / cacher le parcours |
+| <img width="32px" src="../assets/images195.png"> | Masquer / montrer aux apprenants |
+| ![](../assets/images201.png)<img width="32px" src="../assets/images108.svg"> | Exporter le parcours au format .zip, réintégrable en SCORM |
 | ![](../assets/images202.png)![](../assets/images197.png) | Autoriser / interdire plusieurs tentatives aux apprenants |
 | ![](../assets/images203.png)![](../assets/images198.png) | Mettre le parcours en vue « plein écran » ou en vue « normal » |
 |  | Réorganiser la position des parcours |
