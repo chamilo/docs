@@ -1,6 +1,6 @@
 # L&#039;outil « Agenda » {#l-outil-agenda}
 
-![](../assets/image302.svg)![](../assets/image302.png)
+<img width="64px" src="../assets/image302.svg">
 
 L&#039;agenda est un outil qui est présent à la fois dans chaque cours et comme outil de synthèse pour l’utilisateur. Un agenda est donc attaché à chaque cours.
 
