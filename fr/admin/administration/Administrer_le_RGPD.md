@@ -15,10 +15,14 @@ $_configuration['data_protection_officer_email'] = '';
 
 La première conséquence de l'activation de ces fonctionnalités est l'apparition sur la page du réseau social d'une nouvelle entrée "Données Personnelles" sur la gauche de la page dans le bloc "Réseau social".
 
-![](../assets/RGPD-LienDonneesPersonnelles.png)Administration - Lien Données Personnelles
+![](../assets/RGPD-LienDonneesPersonnelles.png)
+
+Administration - Lien Données Personnelles
 
 Sur cette page chaque utilisateur pourra retrouver l'ensemble des informations personnelles qui sont stockées dans Chamilo et pourra les exporter au format Json.
-![](../assets/RGPD-HautPageDonneesPersonnelles.png)Administration - Début Page Données Personnelles
+![](../assets/RGPD-HautPageDonneesPersonnelles.png)
+
+Administration - Début Page Données Personnelles
 
 Ensuite en bas de cette même page l'utilisateur pourra voir les informations concernant le DPO, les termes et conditions qu'il a acceptées, demander le retrait de son acceptation des celles-ci et donc son accord avec le traitement des données et également demander la suppression de son compte utilisateur.
 ![](../assets/RGPD-BasPageDonneesPersonnelles.png)
