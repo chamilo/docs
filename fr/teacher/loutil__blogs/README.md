@@ -1,6 +1,6 @@
 # L&#039;outil « Blogs » {#l-outil-blogs}
 
-![](../assets/image308.svg)![](../assets/image308.png)
+<img width="64px" src="../assets/image308.svg">
 
 L’outil « Blogs » dérive d’un blog classique (il peut d’ailleurs être utilisé comme tel) mais offre également une série de fonctionnalités additionnelles qui lui avaient valu, à l&#039;époque de sa création, la dénomination de _Smart blogs_. Sa philosophie est de permettre l’attribution des tâches à des apprenants. Ces tâches ont un lien avec les étapes du blog (anciennement aussi appelé _Projet_).
 
