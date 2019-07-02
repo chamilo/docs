@@ -1,6 +1,6 @@
 # L&#039;outil « Travaux » {#l-outil-travaux}
 
-![](../assets/image296.svg)![](../assets/image296.png)
+<img width="64px" src="../assets/image296.svg">
 
 Cet outil permet à un apprenant ou à un groupe d&#039;apprenants de poster des documents pour l&#039;enseignant qui peuvent être rendus visibles et téléchargeables par les autres apprenants du cours (si l&#039;enseignant a coché cette option dans « Visibilité »).
 
