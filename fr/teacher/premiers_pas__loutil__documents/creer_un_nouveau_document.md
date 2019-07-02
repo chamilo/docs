@@ -20,7 +20,7 @@ D'autres types de documents à créer apparaissent selon votre navigateur et la 
 | ![](../assets/graficos29.png) | La fonctionnalité de retouche d'image est **très** similaire à l'outil _Photoshop_® et permet la retouche, la découpe, la colorisation, la combinaison et l'édition en général de photos ou autres images bitmap. |
 | ![](../assets/graficos30.png) | La fonctionnalité d'enregistrement audio vous permet d'enregistrer des pistes audio depuis votre navigateur et votre micro \(sur un ordinateur portable, le micro est incorporé\) |
 | ![](../assets/graficos28.png) | La fonctionnalité de génération de voix à partir de textes vous permet de faire parler l'ordinateur pour vous. Essayez-là, vous serez surpris de la qualité des voix générées. |
-| ![](../assets/image51.svg)![](../assets/image51.png) | La fonctionnalité d'enregistrement de webcam permet de prendre des photos à partir de votre webcam, par exemple pour illustrer votre cours. Pas encore de vidéos. |
+| <img width="32px" src="../assets/image51.svg"> | La fonctionnalité d'enregistrement de webcam permet de prendre des photos à partir de votre webcam, par exemple pour illustrer votre cours. Pas encore de vidéos. |
 
 [^6]: Dans tous les navigateurs récents sauf dans Internet Explorer 6, 7 et 8 ou cette fonctionnalité n'est pas implémentée.
 
