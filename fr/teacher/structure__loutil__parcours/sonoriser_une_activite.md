@@ -8,7 +8,7 @@ Il existe 2 méthodes pour associer une séquence audio à un élément du parco
 
 Pour associer des fichiers son aux activités:
 
-* cliquer sur l'icône « Audio » ![](../assets/image122.png)
+* cliquer sur l'icône « Audio » <img width="16px" src="../assets/image122.png">
 
 * cliquer sur le bouton « Parcourir » situé en face du nom de l’activité à sonoriser pour rechercher le fichier son à associer à l’activité,
 
