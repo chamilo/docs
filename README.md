@@ -6,6 +6,7 @@ This is the official place for the Chamilo LMS e-learning platform project docum
 * [Guías en Español](es/README.md)
 * [Guides en Français](fr/README.md)
 * [Guías en Gallego](ga/README.md)
+* [Gids in het Nederlands](nl/README.md)
 
 ## Internal structure and older guides
 This repository is organized in branches by version, by language and by role:
