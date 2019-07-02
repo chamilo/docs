@@ -4,7 +4,7 @@ L&#039;administration des travaux repose sur plusieurs commandes :
 
 | Icônes | Fonctionnalités |
 | --- | --- |
-| ![](../assets/image156.svg)![](../assets/image156.png) | Modifier le nom ou la description d’un travail, corriger et affecter une note à un travail |
-| ![](../assets/image155.svg)![](../assets/image155.png) | Supprimer un travail (après demande de confirmation) |
+| <img width="32px" src="../assets/image156.svg"> | Modifier le nom ou la description d’un travail, corriger et affecter une note à un travail |
+| <img width="32px" src="../assets/image155.svg"> | Supprimer un travail (après demande de confirmation) |
 | ![](../assets/image163.png) | Déplacer un travail vers un autre dossier de travaux ou vers la racine |
-| ![](../assets/image164.svg)![](../assets/image164.png) | Rendre visible / invisible le travail pour les apprenants |
+| <img width="32px" src="../assets/image164.svg"> | Rendre visible / invisible le travail pour les apprenants |
