@@ -4,8 +4,8 @@ L&#039;administration des dossiers de travaux repose sur des commandes connues :
 
 | Icônes | Fonctionnalités |
 | --- | --- |
-| ![](../assets/image153.svg)![](../assets/image153.png) | Modifier le nom d’un dossier de travaux |
-| ![](../assets/image154.svg)![](../assets/image154.png) | Supprimer un dossier de travaux (après demande de confirmation) et tous les travaux qu’il contient |
+| <img width="32px" src="../assets/image153.svg"> | Modifier le nom d’un dossier de travaux |
+| <img width="32px" src="../assets/image154.svg"> | Supprimer un dossier de travaux (après demande de confirmation) et tous les travaux qu’il contient |
 
 Si le nombre d&#039;apprenants est élevé, il y aura probablement une grande quantité de travaux à corriger ! Chamilo allège la labeur de gestion des travaux en maintenant un registre organisé des travaux et des messages des étudiants sur la page principale de chaque travail. On y retrouvera les travaux remis par chaque apprenant, un avis indiquant si le travail nécessite correction, une indication de la date de remise et une navigation rapide pour revoir le travail en soi. Si un score a déjà été donné pour le travail, celui-ci s&#039;affichera également.
 
