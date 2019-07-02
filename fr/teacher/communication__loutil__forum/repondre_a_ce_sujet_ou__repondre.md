@@ -1,4 +1,4 @@
-## « Répondre à ce sujet» ou « Répondre » {#r-pondre-ce-sujet-ou-r-pondre}
+## « Répondre à ce sujet» ou « Répondre »
 
 La différence fondamentale réside dans la hiérarchie des différents messages et réponses.
 
