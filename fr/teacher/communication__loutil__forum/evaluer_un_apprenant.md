@@ -4,7 +4,7 @@ Si on choisit de noter un fil de discussion \(un score maximal est atteignable\)
 
 Depuis la liste des fils de discussion d’un forum :
 
-* cliquer sur l'icône « Liste des apprenants » \(![](../assets/image105.svg)![](../assets/image105.png)\),
+* cliquer sur l'icône « Liste des apprenants » \(<img width="16px" src="../assets/image105.svg">\),
 
 * la liste des participants au fil de discussion apparaît en bas de la page,
 
