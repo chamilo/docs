@@ -1,5 +1,4 @@
-## Glossaire {#glossaire}
-
+## Glossaire
 * Administrateur : L'utilisateur qui contrôle et gère le portail Chamilo dans son entièreté
 
 * Administrateur de cours : L'utilisateur qui possède le contrôle complet d'un cours
