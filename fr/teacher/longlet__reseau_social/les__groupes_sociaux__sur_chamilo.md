@@ -8,7 +8,8 @@ Il existe deux types de groupes :
 
 *   privé, sous réserve d&#039;acceptation de l&#039;administrateur du groupe.
 
-![](../assets/image284.png)Illustration 208: Réseau social - Groupes sociaux
+![](../assets/image284.png)
+Illustration 208: Réseau social - Groupes sociaux
 
 L&#039;onglet « Mes groupes » rassemble les groupes dont l&#039;utilisateur fait partie.
 
