@@ -66,7 +66,9 @@ Une fois la liste des utilisateurs affichée :
 
 Parmi les nombreuses informations disponibles, il est possible de corriger les tests en cliquant sur le bouton « Corriger », situé dans la colonne « Détails » de la zone « Tests », ou d&#039;obtenir le détail des accès aux cours, en cliquant sur le bouton situé dans la colonne « Détails » en face de chaque nom de parcours. Le rapport de suivi offre une vue de synthèse de la participation, qui est utile pour juger de l&#039;implication individuelle dans le cours.
 
-![](../assets/suivigraph.png)Illustration 105: Utilisateurs - Détails d&#039;accès
+![](../assets/suivigraph.png)
+
+Illustration 105: Utilisateurs - Détails d&#039;accès
 
 Depuis cet écran, il est possible :
 
