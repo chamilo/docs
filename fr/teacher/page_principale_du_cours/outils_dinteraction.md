@@ -4,63 +4,63 @@ L'objectif de la section d'interaction est de réunir les outils qui permettent 
 
 ![](../assets/coursinteraction.png)Illustration 23: Outils d'interaction
 
-### MagnifierAgenda {#magnifieragenda}
+### Agenda {#magnifieragenda}
 
-![](../assets/image35.svg)![](../assets/image35.png)
+<img width="64px" src="../assets/image35.svg">
 
 Ajouter des événements en choisissant soit « tous », pour que tout le monde puisse voir l'information soit directement, à une personne en particulier, soit à un groupe.
 
-### MagnifierPartage de documents {#magnifierpartage-de-documents}
+### Partage de documents {#magnifierpartage-de-documents}
 
-![](../assets/image36.png)
+<img width="64px" src="../assets/image36.png">
 
 Envoyer des documents aux utilisateurs de la plateforme.
 
-### MagnifierGroupes {#magnifiergroupes}
+### Groupes {#magnifiergroupes}
 
-![](../assets/image37.svg)![](../assets/image37.png)
+<img width="64px" src="../assets/image37.svg">
 
 Créer des groupes dans le cours et administrer l'accès aux différents outils du cours.
 
-### MagnifierTravaux {#magnifiertravaux}
+### Travaux {#magnifiertravaux}
 
-![](../assets/image38.svg)![](../assets/image38.png)
+<img width="64px" src="../assets/image38.svg">
 
 Regrouper tous les travaux rendus par les apprenants et créer son propre dossier de travaux.
 
-### MagnifierWiki {#magnifierwiki}
+### Wiki {#magnifierwiki}
 
-![](../assets/image39.svg)![](../assets/image39.png)
+<img width="64px" src="../assets/image39.svg">
 
 Créer un wiki propre au cours.
 
-### MagnifierForums {#magnifierforums}
+### Forums {#magnifierforums}
 
-![](../assets/image40.svg)![](../assets/image40.png)
+<img width="64px" src="../assets/image40.svg">
 
 Créer un nouveau forum pour le cours en un clic de souris.
 
-### MagnifierUtilisateurs {#magnifierutilisateurs}
+### Utilisateurs {#magnifierutilisateurs}
 
-![](../assets/image41.svg)![](../assets/image41.png)
+<img width="64px" src="../assets/image41.svg">
 
 Gérer les utilisateurs du cours, ajouter/supprimer/exporter. Renvoie aussi vers l'outil « Groupes ».
 
-### MagnifierChat {#magnifierchat}
+### Chat {#magnifierchat}
 
-![](../assets/image42.svg)![](../assets/image42.png)
+<img width="64px" src="../assets/image42.svg">
 
 Salon de discussion en temps réel type IRC.
 
-### MagnifierEnquêtes {#magnifierenqu-tes}
+### Enquêtes {#magnifierenqu-tes}
 
-![](../assets/image43.svg)![](../assets/image43.png)
+<img width="64px" src="../assets/image43.svg">
 
 Créer une ou plusieurs enquêtes, puis la ou les envoyer aux utilisateurs ou au groupe d'utilisateurs de la plateforme choisie. Cet outil permet aussi de dépouiller l'enquête une fois les résultats collectés.
 
-### MagnifierNotes personnelles {#magnifiernotes-personnelles}
+### Notes personnelles {#magnifiernotes-personnelles}
 
-![](../assets/image44.svg)![](../assets/image44.png)
+<img width="64px" src="../assets/image44.svg">
 
 C'est un bloc notes, il est possible de créer des notes puis de les trier sur plusieurs critères :
 
@@ -70,9 +70,9 @@ C'est un bloc notes, il est possible de créer des notes puis de les trier sur p
 
 Ces notes sont personnelles. Aucun utilisateur n'a accès aux notes d'autrui.
 
-### MagnifierVidéo-conférence {#magnifiervid-o-conf-rence}
+### Vidéo-conférence {#magnifiervid-o-conf-rence}
 
-![](../assets/image45.svg)![](../assets/image45.png)
+<img width="64px" src="../assets/image45.svg">
 
 Il est assez simple, à condition d'avoir un serveur de vidéoconférence local à disposition, d'installer un outil de vidéoconférence au sein d'un cours de Chamilo, mais il s'agit néanmoins d'une extension qui n'est pas souvent disponible sur un portail classique.
 
