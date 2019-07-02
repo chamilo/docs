@@ -2,11 +2,9 @@
 
 L'enseignant dispose des trois boutons génériques suivants sur la plateforme :
 
-![](../assets/graficos2.png)
-
 | Icônes | Fonctionnalités |
 | --- | --- |
-|  | L'outil « crayon » qui permet de **modifier** une information |
+| ![](../assets/graficos2.png) | L'outil « crayon » qui permet de **modifier** une information |
 | ![](../assets/graficos1.png) | L'outil « croix » qui permet de **supprimer** des informations ou un contenu |
 | ![](../assets/images3.png)![](../assets/images4.png) | L'outil « œil » qui permet de rendre **visible** ou **invisible** une information |
 | ![](../assets/image5.svg)![](../assets/image5.png) | L'étoile jaune par-dessus un icône symbolise la création d'une nouvelle ressource |
