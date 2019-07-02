@@ -21,17 +21,23 @@ Sur cette page chaque utilisateur pourra retrouver l'ensemble des informations p
 ![](../assets/RGPD-HautPageDonneesPersonnelles.png)Administration - Début Page Données Personnelles
 
 Ensuite en bas de cette même page l'utilisateur pourra voir les informations concernant le DPO, les termes et conditions qu'il a acceptées, demander le retrait de son acceptation des celles-ci et donc son accord avec le traitement des données et également demander la suppression de son compte utilisateur.
-![](../assets/RGPD-BasPageDonneesPersonnelles.png)Administration - Fin de la Page Données Personnelles
+![](../assets/RGPD-BasPageDonneesPersonnelles.png)
+
+Administration - Fin de la Page Données Personnelles
 
 Ces 2 boutons de demandes envoient une information au DPO (si celui-ci n'est pas défini alors l'envoi est fait à tous les administrateurs) indiquant qu'une nouvelle demande est à traiter et un lien vers la page de gestion des demandes.
 
 ### Gestion des demandes
 
 Les demandes de suppression de compte ou du retrait d'acceptation des termes et condition sont stockées et présentées sur la page de gestion de la liste des demandes utilisateurs /main/admin/user_list_consent.php  accessible depuis la page d'administration dans le bloc "Protection des données personnelles".
-![](../assets/RGPD-AdministrationBlocDonneesPersonnelles.png)Administration - Bloc de Protection des Données Personnelles
+![](../assets/RGPD-AdministrationBlocDonneesPersonnelles.png)
+
+Administration - Bloc de Protection des Données Personnelles
 
 La page présente une liste des utilisateur en indiquant le type de demande (suppression de compte ou suppression d'accord légal), le temps passé depuis la demande (sachant que le RGPD indique qu'il faut qu'une demande de suppression de compte soit traité dans un délais de 4 semaines, voir la configuration du Cron ci-dessous afin d'assurer le traitement dans les temps) et permet de traiter la demande avec différentes actions disponibles.
-![](../assets/RGPD-ListeUtilisateursDemandesEnAttente.png)Administration - Liste des utilisateurs avec une demande en attente
+![](../assets/RGPD-ListeUtilisateursDemandesEnAttente.png)
+
+Administration - Liste des utilisateurs avec une demande en attente
 
 Les actions disponibles sont identifiées par les icônes suivants :
 
