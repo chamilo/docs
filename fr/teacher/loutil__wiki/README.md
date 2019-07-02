@@ -1,6 +1,6 @@
 # L&#039;outil « Wiki » {#l-outil-wiki}
 
-![](../assets/image295.svg)![](../assets/image295.png)
+<img width="64px" src="../assets/image295.svg">
 
 L&#039;outil de _wiki_ est un outil de rédaction collective ou collaborative. Il permet aux utilisateurs de travailler à plusieurs sur un seul et même document tout en suivant l&#039;historique des modifications. Il permet aussi de gagner du temps et d&#039;être plus efficace pendant un travail de groupe. Il peut compléter un forum.
 
