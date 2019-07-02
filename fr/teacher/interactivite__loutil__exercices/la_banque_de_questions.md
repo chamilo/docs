@@ -1,6 +1,6 @@
 ## La banque de questions {#la-banque-de-questions}
 
-![](../assets/image68.svg)![](../assets/image68.png)
+<img width="64px" src="../assets/image68.svg">
 
 Toute question créée, indépendamment du test ou du cours auquel elle est initialement rattachée, alimente la base de questions. Cette base peut servir de « réservoir à questions », en cas de manque d’inspiration...
 
