@@ -4,19 +4,19 @@ La section d&#039;administration a pour objectif de réunir les outils que l&#03
 
 ![](../assets/coursadministration.png)Illustration 24: Outils d&#039;administration
 
-### MagnifierBlogs {#magnifierblogs}
+### Blogs {#magnifierblogs}
 
 <img width="64px" src="../assets/image46.svg">
 
 Créer de nouveaux blogs qui seront visibles dans la partie « Production » par les apprenants. Un blog comprend la gestion des tâches et des utilisateurs à l&#039;aide d&#039;un calendrier à l&#039;intérieur de l&#039;outil « Blogs ».
 
-### MagnifierSuivi {#magnifiersuivi}
+### Suivi {#magnifiersuivi}
 
 <img width="64px" src="../assets/image47.svg">
 
 Cet outil transmet la « fréquentation » des parcours par les apprenants (au cas par cas). Il décrit le temps passé sur le cours, le progrès en pourcentage, son score, ses travaux, le nombre de ses messages et la date de sa dernière connexion.
 
-### MagnifierParamètres {#magnifierparam-tres}
+### Paramètres {#magnifierparam-tres}
 
 <img width="64px" src="../assets/image48.svg">
 
@@ -32,7 +32,7 @@ Gérer l&#039;administration du cours en tant qu&#039;enseignant. Il se compose 
 | ![](../assets/images285.png) | Configuration de l&#039;avance thématique | Choisir les informations à donner sur l&#039;avance thématique sur la page d&#039;accueil du cours. |
 | ![](../assets/image291.png) | Configuration de plugins de cours | Dans certains cas, les plugins peuvent offrir des paramètres de configuration propres au cours. Si c&#039;est le cas, chaque plugin correspondant définira une section additionnelle à la suite des sections précédentes. |
 
-### MagnifierMaintenance {#magnifiermaintenance}
+### Maintenance {#magnifiermaintenance}
 
 <img width="32px" src="../assets/image49.svg">
 
