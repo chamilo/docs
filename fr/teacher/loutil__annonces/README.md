@@ -1,6 +1,6 @@
 # L&#039;outil « Annonces » {#l-outil-annonces}
 
-![](../assets/image294.svg)![](../assets/image294.png)
+<img width="64px" src="../assets/image294.svg">
 
 Cet outil permet d&#039;envoyer un message par courriel aux utilisateurs et / ou de publier une information directement dans le cours.
 
