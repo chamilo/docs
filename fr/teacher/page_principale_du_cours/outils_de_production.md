@@ -4,7 +4,7 @@
 
 ### Description du cours {#description-du-cours}
 
-![](../assets/image23.svg)![](../assets/image23.png)
+<img width="64px" src="../assets/image23.svg">
 
 Il n'est pas obligatoire de compléter cette description, mais elle permet de décrire le cours de manière globale et synthétique, et de donner un avant-goût aux futurs apprenants.
 
@@ -26,55 +26,55 @@ Ce bouton ouvre une fenêtre _popup_ avec la description préalablement complét
 
 ### Documents {#documents}
 
-![](../assets/image24.svg)![](../assets/image24.png)
+<img width="64px" src="../assets/image24.svg">
 
 Ajouter des documents, créer des dossiers pour le cours.
 
 ### Exercices {#exercices}
 
-![](../assets/image25.svg)![](../assets/image25.png)
+<img width="64px" src="../assets/image25.svg">
 
 Créer, modifier, importer des exercices, mais aussi vérifier ou exporter les résultats et les corriger.
 
 ### Parcours {#parcours}
 
-![](../assets/image26.svg)![](../assets/image26.png)
+<img width="64px" src="../assets/image26.svg">
 
 Les parcours sont un outil d'agglomération et d'organisation des autres contenus. Ils peuvent constituer, dans certains cas, l'unique outil présenté aux apprenants. Nous réviserons les parcours en détail dans un prochain chapitre.
 
 ### Cahier de notes {#cahier-de-notes}
 
-![](../assets/image27.svg)![](../assets/image27.png)
+<img width="64px" src="../assets/image27.svg">
 
 Cet outil est utile pour les cours où une note doit être attribuée. Il permet de créer une évaluation en salle ou en ligne. Récemment renommé _Cahier de notes_ \(il se nommait auparavant _Évaluations_\), cet outil permet également la génération de certificats \(beaucoup plus intuitive depuis la version 1.8.8.4\).
 
 ### Présences {#pr-sences}
 
-![](../assets/image28.svg)![](../assets/image28.png)
+<img width="64px" src="../assets/image28.svg">
 
 Permet de faire un relevé des présences/absences des apprenants et d'en tenir compte \(ou non\) dans la pondération du cahier de notes.
 
 ### Liens {#liens}
 
-![](../assets/image29.svg)![](../assets/image29.png)
+<img width="64px" src="../assets/image29.svg">
 
 Ajouter des liens en relation avec le cours.
 
 ### Annonces {#annonces}
 
-![](../assets/image30.svg)![](../assets/image30.png)
+<img width="64px" src="../assets/image30.svg">
 
 Ajouter une annonce en lien avec le cours. Il est même possible d'y insérer des annexes.
 
 ### Glossaires {#glossaires}
 
-![](../assets/image31.svg)![](../assets/image31.png)
+<img width="64px" src="../assets/image31.svg">
 
 Ajouter des termes spécifiques au cours.
 
 ### Progrès du cours {#progr-s-du-cours}
 
-![](../assets/image32.svg)![](../assets/image32.png)
+<img width="64px" src="../assets/image32.svg">
 
 Permet de créer des sections thématiques, des thèmes, leurs plans et progrès respectifs.
 
@@ -82,13 +82,13 @@ Permet de créer des sections thématiques, des thèmes, leurs plans et progrès
 
 ### Blogs {#blogs}
 
-![](../assets/image33.svg)![](../assets/image33.png)
+<img width="64px" src="../assets/image33.svg">
 
 Les « Projets » de la partie « Administration » s'afficheront dans la « Production ». Il est possible de les cacher à la vue des apprenants.
 
 ### MagnifierRecherche {#magnifierrecherche}
 
-![](../assets/image34.svg)![](../assets/image34.png)
+<img width="64px" src="../assets/image34.svg">
 
 L'outil de recherche peut être activé sur la plateforme par l'administrateur, mais requiert d'une installation spécifique assez avancée de modules externes à Chamilo. L'outil permet de faire des recherches dans le texte de la plupart des documents à base de texte importés ou créés dans Chamilo.
 
