@@ -8,4 +8,6 @@ Selon la complexité des échanges sur les forums, plusieurs modes d&#039;affich
 
 Dans les versions antérieures de Chamilo, une vue thématique était également disponible. Elle a été supprimée par manque d&#039;intérêt.
 
-![](../assets/image78.png)Illustration 58: Forum - Modes d&#039;affichage
+![](../assets/image78.png)
+
+Illustration 58: Forum - Modes d&#039;affichage
