@@ -1,4 +1,4 @@
-## Rechercher un élément dans les forums {#rechercher-un-l-ment-dans-les-forums}
+## Rechercher un élément dans les forums
 
 Tous les écrans de l’outil « Forum » possèdent une fonction de recherche.
 
