@@ -1,12 +1,11 @@
 # L&#039;outil « Chat » {#l-outil-chat}
 
-![](../assets/image305.svg)![](../assets/image305.png)
-
+<img width="32px" src="../assets/image305.svg">
 L&#039;outil « Chat » est une « messagerie instantanée » qui permet d’échanger en direct avec les apprenants inscrits au cours. Il fonctionne dans une page web.
 
 L&#039;avantage de cette solution est que son utilisation est universellement garantie sur tous les ordinateurs et sans délai. L&#039;inconvénient est que la liste des messages ne se « rafraîchit » pas instantanément (cela peut prendre 5 à 10 secondes).
 
-![](../assets/image244.png)Illustration 168: Chat - Conversation enseignant-élève
+![](../assets/image244.png) Illustration 168: Chat - Conversation enseignant-élève
 
 Si les participants ont envoyé leur photo dans l&#039;outil « Profil », celle-ci apparaîtra avec le nom du participant. Il appartient au responsable d&#039;effacer les discussions quand il le juge nécessaire.
 
