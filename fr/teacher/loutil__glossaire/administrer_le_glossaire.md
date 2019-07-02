@@ -7,8 +7,8 @@ L’administration courante des termes du glossaire fait appel à des icônes co
 | ![](../assets/graficos77.png) | Modifier un terme |
 | ![](../assets/graficos78.png) | Supprimer un terme |
 | ![](../assets/graficos79.png) | Réorganiser les termes dans le glossaire |
-| ![](../assets/image208.svg)![](../assets/image208.png) | Modifier l&#039;affichage des termes en liste (menu haut) |
+| <img width="32px" src="../assets/image208.svg"> | Modifier l&#039;affichage des termes en liste (menu haut) |
 | ![](../assets/image209.png) | Modifier l&#039;affichage des termes en tableau (menu haut) |
-| ![](../assets/image210.svg)![](../assets/image210.png) | Exporter le glossaire entier sous forme de fichier CSV |
-| ![](../assets/image211.svg)![](../assets/image211.png) | Importer des termes de glossaire sous forme de fichier CSV |
-| ![](../assets/image212.svg)![](../assets/image212.png) | Exporter le glossaire entier sous forme de fichier PDF |
+| <img width="32px" src="../assets/image210.svg"> | Exporter le glossaire entier sous forme de fichier CSV |
+| <img width="32px" src="../assets/image211.svg"> | Importer des termes de glossaire sous forme de fichier CSV |
+| <img width="32px" src="../assets/image212.svg"> | Exporter le glossaire entier sous forme de fichier PDF |
