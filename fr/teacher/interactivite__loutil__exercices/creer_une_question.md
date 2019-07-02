@@ -6,7 +6,7 @@ Une fois le test créé, choisir le type de la première question parmi les sept
 
 ### Type 1 : Question à choix multiples – réponse unique {#type-1-question-choix-multiples-r-ponse-unique}
 
-![](../assets/graphics153.svg)![](../assets/graphics153.png)Le QCM classique est celui où une seule proposition sera considérée comme valide. Il est possible de rendre le test plus difficile en affectant un score négatif à une réponse erronée, ce qui pousse le participant à réfléchir davantage et le dissuade de répondre « au hasard ».
+<img width="32px" src="../assets/graphics153.svg"> Le QCM classique est celui où une seule proposition sera considérée comme valide. Il est possible de rendre le test plus difficile en affectant un score négatif à une réponse erronée, ce qui pousse le participant à réfléchir davantage et le dissuade de répondre « au hasard ».
 
 * compléter le titre de la question – attention, ceci n'est **pas** la question elle-même,
 
@@ -28,9 +28,7 @@ Une fois le test créé, choisir le type de la première question parmi les sept
 
 ### Type 2 : Question à choix multiples - réponses multiples {#type-2-question-choix-multiples-r-ponses-multiples}
 
-![](../assets/graphics350.svg)![](../assets/graphics350.png)
-
-Ce QCM est une variante du type précédent. Il permet d’affecter plusieurs réponses valides. Là encore, les scores positifs et négatifs ainsi que la pondération sont possibles.
+<img width="32px" src="../assets/graphics350.svg"> Ce QCM est une variante du type précédent. Il permet d’affecter plusieurs réponses valides. Là encore, les scores positifs et négatifs ainsi que la pondération sont possibles.
 
 ![](../assets/coursexercice_-repmultiple.png)
 
@@ -54,7 +52,7 @@ Ce QCM est une variante du type précédent. Il permet d’affecter plusieurs r�
 
 ### Type 3 : Remplissage de blancs {#type-3-remplissage-de-blancs}
 
-![](../assets/graphics351.svg)![](../assets/graphics351.png)Il s'agit du texte à trous. Le but est de faire inscrire par l’utilisateur des mots préalablement retirés du texte. C’est le type d’exercice utilisé couramment par les professeurs de langue, au début de
+<img width="32px" src="../assets/graphics351.svg"> Il s'agit du texte à trous. Le but est de faire inscrire par l’utilisateur des mots préalablement retirés du texte. C’est le type d’exercice utilisé couramment par les professeurs de langue, au début de
 
 l’apprentissage.
 
@@ -84,7 +82,7 @@ Depuis la version 1.10, l'enseignant peut sélectionner 4 nouvelles options par 
 
 ### Type 4 : Apparier \(Correspondance\) {#type-4-apparier-correspondance}
 
-![](../assets/graphics352.svg)![](../assets/graphics352.png)Ce type de réponse peut être choisi pour créer une question où l’utilisateur devra relier des éléments d'un ensemble de propositions P1 avec les éléments d'un second ensemble de propositions P2. Il peut également être utilisé pour demander à l’utilisateur de trier des éléments dans un certain ordre.
+<img width="32px" src="../assets/graphics352.svg"> Ce type de réponse peut être choisi pour créer une question où l’utilisateur devra relier des éléments d'un ensemble de propositions P1 avec les éléments d'un second ensemble de propositions P2. Il peut également être utilisé pour demander à l’utilisateur de trier des éléments dans un certain ordre.
 
 ![](../assets/coursexercice_-apparier.png)
 
@@ -106,7 +104,7 @@ Depuis la version 1.10, l'enseignant peut sélectionner 4 nouvelles options par 
 
 ### Type 5 : Questions ouvertes {#type-5-questions-ouvertes}
 
-![](../assets/graphics353.svg)![](../assets/graphics353.png)Ici, la réponse de l'apprenant sera rédigée librement. Cette réponse ne sera pas évaluée immédiatement, car l'évaluation demande l'intervention du professeur. Le score final sera attribué par le professeur, à l'issue de la correction.
+<img width="32px" src="../assets/graphics353.svg"> Ici, la réponse de l'apprenant sera rédigée librement. Cette réponse ne sera pas évaluée immédiatement, car l'évaluation demande l'intervention du professeur. Le score final sera attribué par le professeur, à l'issue de la correction.
 
 * ![](../assets/cours-exercice-q-ouverte.png)compléter l'intitulé de la question \(version courte de la question\),
 
@@ -120,7 +118,7 @@ Depuis la version 1.10, l'enseignant peut sélectionner 4 nouvelles options par 
 
 ### Type 6 : Expression orale {#type-6-expression-orale}
 
-![](../assets/graphics354.svg)![](../assets/graphics354.png)Ce type de question requiert l'activation par l'administrateur de l'option d'enregistrement audio Nanogong. Il s'agit d'un type de question similaire à la question ouverte, mais l'apprenant peut y répondre par oral en enregistrant sa réponse au travers du micro.
+<img width="32px" src="../assets/graphics354.svg"> Ce type de question requiert l'activation par l'administrateur de l'option d'enregistrement audio Nanogong. Il s'agit d'un type de question similaire à la question ouverte, mais l'apprenant peut y répondre par oral en enregistrant sa réponse au travers du micro.
 
 C'est un type de question très utile pour les cours de langue, qui peut être d'une grande aide pour animer les apprenants à présenter des travaux par oral en leur permettant d'améliorer leurs capacités de communication.
 
@@ -132,7 +130,7 @@ Pour répondre à une question audio, l'apprenant aura simplement à cliquer sur
 
 ### Type 7 : Zones sur image \(hotspot\) {#type-7-zones-sur-image-hotspot}
 
-![](../assets/graphics355.svg)![](../assets/graphics355.png)Dans ce type de question, l'apprenant sera amené à identifier des zones \(en cliquant dessus\) dans une image pour répondre à la question posée par le professeur.
+<img width="32px" src="../assets/graphics355.svg"> Dans ce type de question, l'apprenant sera amené à identifier des zones \(en cliquant dessus\) dans une image pour répondre à la question posée par le professeur.
 
 Dans ce type de question, l'apprenant doit cliquer sur une ou plusieurs zones d'une image qui est préalablement mise à sa disposition sur le serveur. La conception d’une question de type zone sur image demande un travail sur deux écrans successifs.
 
@@ -184,23 +182,23 @@ Dans ce dernier type d'exercice, si la combinaison comprend une erreur, elle ne 
 
 ### Type 9 : Réponse unique + « ne sais pas » {#type-9-r-ponse-unique-ne-sais-pas}
 
-![](../assets/graphics357.svg)![](../assets/graphics357.png)Dans certains cas, l'enseignant souhaite que l'apprenant indique s'il ne connaît pas la réponse à une question, au lieu d'essayer de deviner la réponse correcte. Ce type de question est similaire à celui de réponses multiples, mais il réserve la dernière possibilité pour l'option « Ne sais pas », qui est toujours évaluée à 0 points. Si l'enseignant le considère opportun, les apprenants peuvent être pénalisés avec un score négatif s'ils tentent de deviner la réponse \(sans succès\).
+<img width="32px" src="../assets/graphics357.svg"> Dans certains cas, l'enseignant souhaite que l'apprenant indique s'il ne connaît pas la réponse à une question, au lieu d'essayer de deviner la réponse correcte. Ce type de question est similaire à celui de réponses multiples, mais il réserve la dernière possibilité pour l'option « Ne sais pas », qui est toujours évaluée à 0 points. Si l'enseignant le considère opportun, les apprenants peuvent être pénalisés avec un score négatif s'ils tentent de deviner la réponse \(sans succès\).
 
 ### Type 10 : Réponse multiple Vrai/Faux/Ne sais pas {#type-10-r-ponse-multiple-vrai-faux-ne-sais-pas}
 
-![](../assets/graphics358.svg)![](../assets/graphics358.png)Il s'agit d'un autre format de combinaison qui inclut une option de type « Ne sais pas » et de valeur 0, comme dans l'option de question antérieure, mais qui utilise Vrai/Faux au lieu de questions à réponses multiples. De nouveau, il est possible d'assigner un score négatif pour éviter les tentatives aléatoires et suggérer aux apprenants de répondre honnêtement.
+<img width="32px" src="../assets/graphics358.svg"> Il s'agit d'un autre format de combinaison qui inclut une option de type « Ne sais pas » et de valeur 0, comme dans l'option de question antérieure, mais qui utilise Vrai/Faux au lieu de questions à réponses multiples. De nouveau, il est possible d'assigner un score négatif pour éviter les tentatives aléatoires et suggérer aux apprenants de répondre honnêtement.
 
 ### Type 11 : Combinaison Vrai/Faux/Ne sais pas {#type-11-combinaison-vrai-faux-ne-sais-pas}
 
-![](../assets/graphics359.svg)![](../assets/graphics359.png)Cette option offre une ponctuation unique qui couvre une ou plusieurs questions. Le formulaire offre une apparence similaire à celui de réponse à combinaison exacte, mais la question se montre à l'étudiant d'une façon différente \(sous forme de tableau\).
+<img width="32px" src="../assets/graphics359.svg"> Cette option offre une ponctuation unique qui couvre une ou plusieurs questions. Le formulaire offre une apparence similaire à celui de réponse à combinaison exacte, mais la question se montre à l'étudiant d'une façon différente \(sous forme de tableau\).
 
 ### Type 12: Réponse globale multiple {#type-12-r-ponse-globale-multiple}
 
-![](../assets/graphics360.svg)![](../assets/graphics360.png)Ce format de question combine le format de réponses multiples avec une ponctuation unique tout en évitant l'accumulation de valeurs négatives dans les scores. Il s'agit un peu d'un type « réponse multiple » pour les paresseux, vu qu'il ne demande aucune répartition de ponctuation entre les différentes questions. Il suffira d'indiquer lesquelles sont correctes et lesquelles ne le sont pas.
+<img width="32px" src="../assets/graphics360.svg"> Ce format de question combine le format de réponses multiples avec une ponctuation unique tout en évitant l'accumulation de valeurs négatives dans les scores. Il s'agit un peu d'un type « réponse multiple » pour les paresseux, vu qu'il ne demande aucune répartition de ponctuation entre les différentes questions. Il suffira d'indiquer lesquelles sont correctes et lesquelles ne le sont pas.
 
 ### Type 13 : Question calculée {#type-13-question-calcul-e}
 
-![](../assets/image57.svg)![](../assets/image57.png)Ce type de question, encore considéré en mode Beta \(ce qui signifie qu'il ne devrait pas être utilisé comme partie d'un examen critique\) permet l'élaboration de questions du type énoncé, comme par exemple : « _Julie a_ _7 pommes dans son panier. Elle veut les distribuer de manière égale et seulement par pommes entières à ses 4 frères. Combien de pommes recevra chaque frère ?_ ».
+<img width="32px" src="../assets/image57.svg"> Ce type de question, encore considéré en mode Beta \(ce qui signifie qu'il ne devrait pas être utilisé comme partie d'un examen critique\) permet l'élaboration de questions du type énoncé, comme par exemple : « _Julie a_ _7 pommes dans son panier. Elle veut les distribuer de manière égale et seulement par pommes entières à ses 4 frères. Combien de pommes recevra chaque frère ?_ ».
 
 Une fois l'énoncé de base élaboré, on remplace les valeurs numériques par des variables et on établit une formule qui permet de calculer la réponse. Par exemple : « _Julie a_ _\[x\] pommes dans son panier. Elle veut les distribuer de manière égale et seulement par pommes entières à ses \[y\] frères. Combien de pommes recevra chaque frère ? »_ avec la formule \[x\]/\[y\] qui permet d'obtenir la réponse attendue de la part de l'apprenant.
 
@@ -228,7 +226,7 @@ La fonction « modulo » \(le reste d'une division\) n'apparaît que dans la ver
 
 ### Type 14 : Réponse unique sur image {#type-14-r-ponse-unique-sur-image}
 
-![](../assets/image60.svg)![](../assets/image60.png)Ce type de question permet de donner une sélection d'images à l'apprenant et de lui demander de sélectionner la réponse correcte parmi celles-ci. Il s'agit d'un type de question très attrayant visuellement pour l'apprenant, mais il demande une préparation plus importante de la part de l'enseignant \(pour la préparation des images\).
+<img width="32px" src="../assets/image60.svg"> Ce type de question permet de donner une sélection d'images à l'apprenant et de lui demander de sélectionner la réponse correcte parmi celles-ci. Il s'agit d'un type de question très attrayant visuellement pour l'apprenant, mais il demande une préparation plus importante de la part de l'enseignant \(pour la préparation des images\).
 
 Le système recommande l'utilisation d'images de 200 pixels de large sur 150 pixels de haut pour que le résultat soit le plus esthétique possible. Voici un petit exemple de formulaire \(interface en espagnol dans ce cas\) pour élaborer ce type de question.
 
@@ -240,7 +238,7 @@ Pour l'apprenant, le résultat est visuellement plus plaisant, comme on peut l'o
 
 ### Type 15 : Réordonner des mots {#type-15-r-ordonner-des-mots}
 
-![](../assets/image61.svg)![](../assets/image61.png)Ce type de question permet de demander à l'apprenant de réordonner correctement les mots dans une phrase. Son élaboration est similaire à celle de la correspondance, mais elle demande simplement de mettre des termes dans l'ordre \(au lieu de les faire correspondre entre eux\).
+<img width="32px" src="../assets/image61.svg"> Ce type de question permet de demander à l'apprenant de réordonner correctement les mots dans une phrase. Son élaboration est similaire à celle de la correspondance, mais elle demande simplement de mettre des termes dans l'ordre \(au lieu de les faire correspondre entre eux\).
 
 ![](../assets/image64.png)
 
