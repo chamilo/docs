@@ -1,4 +1,4 @@
-## Paradigme de formation {#paradigme-de-formation}
+## Paradigme pédagogique
 
 Certains système de gestion de la formation commettent le péché d'essayer de soutenir une méthodologie d'apprentissage \(ou d'enseignement\) spécifique \(par exemple le constructivisme social\), probablement pour gagner un peu de crédibilité pédagogique. Alors que se focaliser sur un paradigme unique peut être approprié ou même désirable dans certains cas de la part d'un enseignant ou d'une institution, Chamilo résiste à la tentation de limiter le design de la plateforme à un contexte spécifique.
 
