@@ -1,10 +1,10 @@
 ## Créer un lien {#cr-er-un-lien}
 
-![](../assets/image178.svg)![](../assets/image178.png)
+<img width="64px" src="../assets/image178.svg">
 
 Cette outil permet de créer un lien (n&#039;importe quel type de lien) entre l&#039;évaluation et l&#039;une des ressources du cours dont la ponctuation est automatique (sauf exception):
 
-*   ![](../assets/image180.png)Illustration 116: Cahier de notes - Créer un lien
+*   ![](../assets/image180.png) Illustration 116: Cahier de notes - Créer un lien
 
     « Exercices » (tests),
 *   « Travaux »,
