@@ -5,17 +5,17 @@ La gestion des utilisateurs se fait par des icônes génériques connues, et d&#
 | Icônes | Fonctionnalités |
 | --- | --- |
 | ![](../assets/images32.png)![](../assets/images31.png) | Modifier le statut de l&#039;utilisateur en cliquant sur l&#039;icône (inactive si panneau interdit) |
-| ![](../assets/image17.svg)![](../assets/image17.png) | Afficher la liste des cours auxquels l&#039;utilisateur est enregistré |
-| ![](../assets/image18.svg)![](../assets/image18.png) | _Se connecter en tant que..._ permet à l&#039;administrateur de prendre l&#039;identité d&#039;un utilisateur pour vérifier un problème qu&#039;il rencontre sur la plateforme (ou pour faire une démonstration rapide de la différence entre plusieurs rôles) |
-| ![](../assets/image19.svg)![](../assets/image19.png) | Assigner des formations à l&#039;utilisateur (enseignant et superviseur) |
+| <img width="32px" src="../assets/image17.svg"> | Afficher la liste des cours auxquels l&#039;utilisateur est enregistré |
+| <img width="32px" src="../assets/image18.svg"> | _Se connecter en tant que..._ permet à l&#039;administrateur de prendre l&#039;identité d&#039;un utilisateur pour vérifier un problème qu&#039;il rencontre sur la plateforme (ou pour faire une démonstration rapide de la différence entre plusieurs rôles) |
+| <img width="32px" src="../assets/image19.svg"> | Assigner des formations à l&#039;utilisateur (enseignant et superviseur) |
 | ![](../assets/image20.gif) | Assigner des sessions de formation (enseignant, superviseur et administrateur de session de formation) |
-| ![](../assets/image21.svg)![](../assets/image21.png) | Donne toutes les informations sur un utilisateur, la liste des sessions, ses formations, ses cours ; possibilité d&#039;accéder au suivi |
+| <img width="32px" src="../assets/image21.svg"> | Donne toutes les informations sur un utilisateur, la liste des sessions, ses formations, ses cours ; possibilité d&#039;accéder au suivi |
 | ![](../assets/image22.png) | Assigner des utilisateurs (enseignant et supervision) |
 | ![](../assets/graficos21.png)![](../assets/graficos22.png) | Donne le suivi détaillé de l&#039;utilisateur |
 | ![](../assets/graficos23.png) | Éditer les paramètres d&#039;un utilisateur |
-| ![](../assets/image23.svg)![](../assets/image23.png) | Montrer le calendrier « _free/busy »_ de l&#039;utilisateur |
+| <img width="32px" src="../assets/image23.svg"> | Montrer le calendrier « _free/busy »_ de l&#039;utilisateur |
 | ![](../assets/graficos24.png) | Supprimer (après demande de confirmation) un utilisateur |
-| ![](../assets/image24.svg)![](../assets/image24.png) ![](../assets/image25.svg)![](../assets/image25.png) | Voir d&#039;un coup d&#039;œil si l&#039;utilisateur est administrateur ou pas. Seuls les comptes administrateurs et administrateurs de sessions disposent d&#039;une étoile colorée de jaune. Les autres utilisateurs affichent une étoile grise |
+| <img width="32px" src="../assets/image24.svg"> <img width="32px" src="../assets/image25.svg"> | Voir d&#039;un coup d&#039;œil si l&#039;utilisateur est administrateur ou pas. Seuls les comptes administrateurs et administrateurs de sessions disposent d&#039;une étoile colorée de jaune. Les autres utilisateurs affichent une étoile grise |
 
 Tableau 1: Administration - Icônes de gestion utilisateurs
 
