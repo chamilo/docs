@@ -6,8 +6,8 @@ En plus des commandes d&#039;administration habituelles, il y a des commandes sp
 | --- | --- |
 | ![](../assets/graficos88.png) | Modifier le nom d’un dossier de fichiers partagés |
 | ![](../assets/graficos89.png) | Supprimer (après demande de confirmation) un dossier de fichiers partagés ou reçus |
-| ![](../assets/graficos90.png)![](../assets/graficos91.png) | Ajouter un « feedback » au fichier partagé |
-|  | S’affiche derrière le nom d’un fichier nouvellement envoyé par un autre utilisateur |
+| ![](../assets/graficos90.png) | Ajouter un « feedback » au fichier partagé |
+| ![](../assets/graficos91.png) | S’affiche derrière le nom d’un fichier nouvellement envoyé par un autre utilisateur |
 | ![](../assets/graficos92.png) | Déplacer un fichier vers la racine ou vers un autre dossier |
 | ![](../assets/graficos93.png) | Sauvegarder sur le disque dur un fichier compressé contenant la totalité des fichiers d’un dossier |
 | ![](../assets/graficos94.png) | Sauvegarder sur le disque dur une copie d’un fichier |
