@@ -1,6 +1,6 @@
-## Évaluer depuis un message {#valuer-depuis-un-message}
+## Évaluer depuis un message
 
-* cliquer sur l'icône « Évaluer » \(![](../assets/image108.svg)![](../assets/image108.png)\) qui est située sous la photo du contributeur,
+* cliquer sur l'icône « Évaluer » \(<img width="16px" src="../assets/image108.svg">\) qui est située sous la photo du contributeur,
 
 * la nouvelle page qui s’affiche regroupe la liste de toutes les contributions postées par l'apprenant évalué ainsi qu’un tableau statistique basé sur ces mêmes contributions,
 
