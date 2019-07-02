@@ -135,7 +135,7 @@ On retrouve en haut 2 boutons d'actions connus :
 | Icônes | Fonctionnalités |
 | --- | --- |
 | ![](../assets/tuning.png) | Pour ajouter une nouvelle annonce |
-| ![](../assets/add.svg) | Pour lancer manuellement le cron de vérification des annonces en attente |
+| <img width="32px" src="../assets/add.svg"> | Pour lancer manuellement le cron de vérification des annonces en attente |
 
 En cliquant sur + on ouvre une nouvelle page avec le formulaire de création d'annonce.
 
