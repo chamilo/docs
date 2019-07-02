@@ -1,5 +1,4 @@
-## Lancer un nouveau sujet {#lancer-un-nouveau-sujet}
-
+## Lancer un nouveau sujet
 Lorsque le contenu d'un forum est affiché :
 
 * cliquer sur le lien « Nouveau sujet »,
