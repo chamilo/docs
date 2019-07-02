@@ -18,7 +18,8 @@ Chamilo propose une configuration par défaut, qui n&#039;est pas forcément cel
 
 #### Plateforme {#plateforme}
 
-<img width="64px" src="../assets/graficos5.svg"> Cet onglet permet de configurer, entre autres, les informations qui seront visibles par tous les utilisateurs sur la plateforme d&#039;une manière générale, l&#039;inscription des utilisateurs ou encore des options qui n&#039;entrent dans aucune autre catégorie. Ces informations peuvent être cachées ou montrées (ne pas compléter les champs ou désactiver une option).
+<img width="64px" src="../assets/graficos5.svg">
+Cet onglet permet de configurer, entre autres, les informations qui seront visibles par tous les utilisateurs sur la plateforme d&#039;une manière générale, l&#039;inscription des utilisateurs ou encore des options qui n&#039;entrent dans aucune autre catégorie. Ces informations peuvent être cachées ou montrées (ne pas compléter les champs ou désactiver une option).
 
 **Inscription** : permet d&#039;autoriser ou non la création d&#039;un compte par un utilisateur, ou de laisser à l&#039;administrateur de la plateforme le choix d&#039;accepter ou non l&#039;inscription, ce qui peut donner un travail superflu à l&#039;administrateur (ou l&#039;éviter).
 
