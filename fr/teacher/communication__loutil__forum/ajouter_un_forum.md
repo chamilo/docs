@@ -1,4 +1,4 @@
-## Ajouter un forum {#ajouter-un-forum}
+## Ajouter un forum
 
 Depuis la page de l&#039;outil « Forum » :
 
