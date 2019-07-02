@@ -5,8 +5,8 @@ Pour gérer les enquêtes, de nouveaux outils sont disponibles, en plus des clas
 | Icônes | Fonctionnalités |
 | --- | --- |
 | ![](../assets/graficos104.png) | Modifier les paramètres d’une enquête |
-| ![](../assets/image250.svg)![](../assets/image250.png) | Générer un lien public vers l&#039;enquête |
-| ![](../assets/image251.svg)![](../assets/image251.png) | Générer une copie de l&#039;enquête pour ensuite modifier la copie |
+| <img width="32px" src="../assets/image250.svg"> | Générer un lien public vers l&#039;enquête |
+| <img width="32px" src="../assets/image251.svg"> | Générer une copie de l&#039;enquête pour ensuite modifier la copie |
 | ![](../assets/graficos106.png) | Vider l’enquête de ses résultats |
 | ![](../assets/graficos107.png) | Prévisualiser l’enquête |
 | ![](../assets/graficos108.png) | Publier l’enquête |
