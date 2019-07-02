@@ -1,4 +1,4 @@
-## Évaluer un apprenant {#valuer-un-apprenant}
+## Évaluer un apprenant
 
 Si on choisit de noter un fil de discussion \(un score maximal est atteignable\), un titre de colonne apparaîtra dans le rapport de compétences ainsi qu'une pondération de la note par rapport aux autres composantes de l’évaluation.
 
