@@ -15,7 +15,7 @@ La gestion des utilisateurs se fait par des icônes génériques connues, et d&#
 | ![](../assets/graficos23.png) | Éditer les paramètres d&#039;un utilisateur |
 | <img width="32px" src="../assets/image23.svg"> | Montrer le calendrier « _free/busy »_ de l&#039;utilisateur |
 | ![](../assets/graficos24.png) | Supprimer (après demande de confirmation) un utilisateur |
-| <img width="32px" src="../assets/image24.svg"> <img width="32px" src="../assets/image25.svg"> | Voir d&#039;un coup d&#039;œil si l&#039;utilisateur est administrateur ou pas. Seuls les comptes administrateurs et administrateurs de sessions disposent d&#039;une étoile colorée de jaune. Les autres utilisateurs affichent une étoile grise |
+| <img width="32px" src="../assets/image24.svg"><img width="32px" src="../assets/image25.svg"> | Voir d&#039;un coup d&#039;œil si l&#039;utilisateur est administrateur ou pas. Seuls les comptes administrateurs et administrateurs de sessions disposent d&#039;une étoile colorée de jaune. Les autres utilisateurs affichent une étoile grise |
 
 Tableau 1: Administration - Icônes de gestion utilisateurs
 
