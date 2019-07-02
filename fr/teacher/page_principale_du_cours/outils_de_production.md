@@ -85,10 +85,3 @@ Permet de créer des sections thématiques, des thèmes, leurs plans et progrès
 <img width="64px" src="../assets/image33.svg">
 
 Les « Projets » de la partie « Administration » s'afficheront dans la « Production ». Il est possible de les cacher à la vue des apprenants.
-
-### MagnifierRecherche {#magnifierrecherche}
-
-<img width="64px" src="../assets/image34.svg">
-
-L'outil de recherche peut être activé sur la plateforme par l'administrateur, mais requiert d'une installation spécifique assez avancée de modules externes à Chamilo. L'outil permet de faire des recherches dans le texte de la plupart des documents à base de texte importés ou créés dans Chamilo.
-
