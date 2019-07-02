@@ -1,10 +1,10 @@
-# Communication : l'outil « Forum » {#communication-l-outil-forum}
+# Communication : l'outil « Forum »
 
-![](../assets/image292.svg)![](../assets/image292.png)
+<img width="64px" src="../assets/image292.svg">
 
 Bien que l'ordre logique voudrait que la suite naturelle à la création de documents et d'exercices soit la création de parcours d'apprentissage \(voir Chapitre 15. en page 77\), dans la pratique, c'est l'outil de forum \(ou parfois de _chat_\) qui l'emporte comme troisième étape de l'adoption de l'e-learning par les enseignants.
 
-L'outil _Forum_ \(![](../assets/image76.png)\) permet d'organiser les échanges d'idées, d'opinions et d'informations sur le cours et les parcours. L'outil est conçu pour permettre aux personnes intéressées par une question de trouver rapidement l'information recherchée sans avoir à parcourir une longue liste de messages non pertinents.
+L'outil _Forum_ \(<img width="16px" src="../assets/image76.png">\) permet d'organiser les échanges d'idées, d'opinions et d'informations sur le cours et les parcours. L'outil est conçu pour permettre aux personnes intéressées par une question de trouver rapidement l'information recherchée sans avoir à parcourir une longue liste de messages non pertinents.
 
 Le forum est un outil de discussion asynchrone \(c'est à dire que les personnes impliquées dans une conversation ne doivent pas s'y trouver connectés simultanément\), comme le courriel. À la différence du courriel toutefois, le forum situe la discussion dans un espace public ou semi-public \(à plusieurs\).
 
