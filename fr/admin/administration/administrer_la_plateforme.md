@@ -1,6 +1,8 @@
 ## Administrer la plateforme {#administrer-la-plateforme}
 
-![](../assets/plateforme.png)Illustration 28: Administration - Bloc plateforme
+![](../assets/plateforme.png)
+
+Illustration 28: Administration - Bloc plateforme
 
 Cette configuration se fait via l&#039;onglet « Administration ».
 
@@ -8,13 +10,15 @@ Cette configuration se fait via l&#039;onglet « Administration ».
 
 Ces paramètres regroupent plusieurs catégories, partiellement reprises dans la capture d&#039;écran ci-dessous :
 
-![](../assets/graficos4.png)Illustration 29: Administration - Catégories de paramètres d&#039;administration
+![](../assets/graficos4.png)
+
+Illustration 29: Administration - Catégories de paramètres d&#039;administration
 
 Chamilo propose une configuration par défaut, qui n&#039;est pas forcément celle souhaitée par les utilisateurs de la plateforme. Même si toutes les options méritent d&#039;être expliquées, car un administrateur doit connaître parfaitement son environnement, nous allons aborder ici celles qui sont plus spécifiques et qui ont besoin d&#039;être modifiées par rapport à la configuration d&#039;origine. Vous trouverez, en annexe, une liste complète des options disponibles avec leurs explications.
 
 #### Plateforme {#plateforme}
 
-![](../assets/graficos5.svg)![](../assets/graficos5.png)Cet onglet permet de configurer, entre autres, les informations qui seront visibles par tous les utilisateurs sur la plateforme d&#039;une manière générale, l&#039;inscription des utilisateurs ou encore des options qui n&#039;entrent dans aucune autre catégorie. Ces informations peuvent être cachées ou montrées (ne pas compléter les champs ou désactiver une option).
+<img width="64px" src="../assets/graficos5.svg"> Cet onglet permet de configurer, entre autres, les informations qui seront visibles par tous les utilisateurs sur la plateforme d&#039;une manière générale, l&#039;inscription des utilisateurs ou encore des options qui n&#039;entrent dans aucune autre catégorie. Ces informations peuvent être cachées ou montrées (ne pas compléter les champs ou désactiver une option).
 
 **Inscription** : permet d&#039;autoriser ou non la création d&#039;un compte par un utilisateur, ou de laisser à l&#039;administrateur de la plateforme le choix d&#039;accepter ou non l&#039;inscription, ce qui peut donner un travail superflu à l&#039;administrateur (ou l&#039;éviter).
 
@@ -32,7 +36,7 @@ Chamilo propose une configuration par défaut, qui n&#039;est pas forcément cel
 
 #### Cours {#cours}
 
-![](../assets/graficos6.png)Cet onglet permet de configurer de nombreuses options liées aux cours, que ce soit en rapport avec l&#039;utilisateur du cours, son créateur ou les options techniques du cours. Adaptez-les en fonction de vos besoins.
+<img width="64px" src="../assets/graficos6.png"> Cet onglet permet de configurer de nombreuses options liées aux cours, que ce soit en rapport avec l&#039;utilisateur du cours, son créateur ou les options techniques du cours. Adaptez-les en fonction de vos besoins.
 
 Concernant l&#039;ergonomie de la plateforme, des choix sont possibles comme celui de la **Vue de la page d&#039;accueil** ou l&#039;ajout d&#039;un **Raccourcis vers les outils**.
 
@@ -60,17 +64,17 @@ Concernant l&#039;ergonomie de la plateforme, des choix sont possibles comme cel
 
 #### Sessions {#sessions}
 
-![](../assets/image5.svg)![](../assets/image5.png)Comme son nom l&#039;indique, cette section permet de modifier les options liées aux sessions. Les sessions sont expliquées plus loin dans ce guide et représentent un mécanisme puissant mais complexe pour gérer les cours dans le temps.
+<img width="64px" src="../assets/image5.svg"> Comme son nom l&#039;indique, cette section permet de modifier les options liées aux sessions. Les sessions sont expliquées plus loin dans ce guide et représentent un mécanisme puissant mais complexe pour gérer les cours dans le temps.
 
 #### Langue {#langue}
 
-![](../assets/graficos7.png)Dans cet onglet, il est possible de changer la langue de la plateforme et d’autoriser l’utilisation d’un sous-langage.
+<img width="64px" src="../assets/graficos7.png"> Dans cet onglet, il est possible de changer la langue de la plateforme et d’autoriser l’utilisation d’un sous-langage.
 
 **Autoriser la définition et l&#039;usage de sous-langages** : cette option rend possible la définition de variations pour chacun des termes de langage utilisé dans l&#039;interface de la plateforme, sous la forme d&#039;un langage basé sur et étendant un langage existant. Cette option se trouve dans la section des langues du panneau d&#039;administration, sous la forme d&#039;une icône d&#039;ajout.
 
 #### Utilisateurs {#utilisateurs}
 
-![](../assets/graficos8.svg)![](../assets/graficos8.png)
+<img width="64px" src="../assets/graficos8.svg">
 
 Dans cet onglet, on règle les propriétés du compte utilisateur et ses informations.
 
@@ -80,7 +84,7 @@ Dans cet onglet, on règle les propriétés du compte utilisateur et ses informa
 
 #### Outils {#outils}
 
-![](../assets/graficos9.png)Dans cette section, il est possible de configurer les propriétés des outils au sein des cours.
+<img width="64px" src="../assets/graficos9.png"> Dans cette section, il est possible de configurer les propriétés des outils au sein des cours.
 
 **Outils actifs à la création du cours** : ce sont les outils qui sont visibles par défaut lorsqu&#039;un cours est créé.
 
@@ -94,7 +98,7 @@ Dans cet onglet, on règle les propriétés du compte utilisateur et ses informa
 
 #### Éditeur WYSIWYG {#diteur-wysiwyg}
 
-![](../assets/graficos10.png)**Gestionnaire de fichiers avancé pour l&#039;éditeur WYSIWYG** : permet d&#039;activer le gestionnaire de fichiers avancé pour l&#039;éditeur WYSIWYG (ou éditeur en ligne). Attention : cette option ajoutera un nombre considérable d&#039;options au gestionnaire de fichiers s&#039;ouvrant en fenêtre pop-up lors de l&#039;envoi d&#039;un fichier sur le serveur.
+<img width="64px" src="../assets/graficos10.png"> **Gestionnaire de fichiers avancé pour l&#039;éditeur WYSIWYG** : permet d&#039;activer le gestionnaire de fichiers avancé pour l&#039;éditeur WYSIWYG (ou éditeur en ligne). Attention : cette option ajoutera un nombre considérable d&#039;options au gestionnaire de fichiers s&#039;ouvrant en fenêtre pop-up lors de l&#039;envoi d&#039;un fichier sur le serveur.
 
 WYSIWYG est une abréviation de _What You See Is What You Get_, ou _Ce que vous voyez est ce que vous obtenez_, une autre manière de dire que l&#039;éditeur nous permet de visualiser directement à l&#039;écran ce que nous éditons au format HTML.
 
@@ -102,7 +106,7 @@ WYSIWYG est une abréviation de _What You See Is What You Get_, ou _Ce que vous 
 
 #### Sécurité {#s-curit}
 
-![](../assets/graficos11.png)**Type de filtrage sur l&#039;envoi de documents** : il existe un choix entre deux filtrages, la blacklist ou la whitelist :
+<img width="64px" src="../assets/graficos11.png"> **Type de filtrage sur l&#039;envoi de documents** : il existe un choix entre deux filtrages, la blacklist ou la whitelist :
 
 *   Blacklist : La liste noire (_blacklist_), est un mode de filtrage qui permet d&#039;éliminer les fichiers dont les extensions figurent dans la liste. Les fichiers sans extension sont acceptés d&#039;office. La casse (majuscule/minuscule) n&#039;a pas d&#039;importance.
 
@@ -122,7 +126,7 @@ WYSIWYG est une abréviation de _What You See Is What You Get_, ou _Ce que vous 
 
 #### Améliorations des performances {#am-liorations-des-performances}
 
-![](../assets/graficos13.png)**Diviser le répertoire de téléchargement des utilisateurs** : cette option est définie sur la page correspondante et permet de passer au-delà de 100.000 utilisateurs mais requiert une modification manuelle du répertoire _main/upload/users/_.
+<img width="64px" src="../assets/graficos13.png"> **Diviser le répertoire de téléchargement des utilisateurs** : cette option est définie sur la page correspondante et permet de passer au-delà de 100.000 utilisateurs mais requiert une modification manuelle du répertoire _main/upload/users/_.
 
 Depuis la version 1.8.8.4, vous disposez aussi d&#039;un fichier _documentation/optimization.html_
 
@@ -130,7 +134,9 @@ Depuis la version 1.8.8.4, vous disposez aussi d&#039;un fichier _documentation/
 
 Les paramètres du cahier de notes de la page d&#039;administration sont des paramètres globaux, redéfinissables (dans la plupart des cas) au niveau du cours.
 
-![](../assets/graficos12.png)**Coloration des notes :** active la coloration des notes. Il est également nécessaire de définir quelles notes seront affichées en rouge, par exemple.
+<img width="64px" src="../assets/graficos12.png">
+
+**Coloration des notes :** active la coloration des notes. Il est également nécessaire de définir quelles notes seront affichées en rouge, par exemple.
 
 **Affichage paramétrable des scores** : active le paramétrage des scores. Il est nécessaire de sélectionner quels scores seront donnés pour quels points obtenus.
 
@@ -142,13 +148,13 @@ Les paramètres du cahier de notes de la page d&#039;administration sont des par
 
 #### LDAP {#ldap}
 
-![](../assets/graficos14.png)Cette section permet de configurer la synchronisation avec un serveur LDAP. Elle contient une longue série de paramètres qui requièrent une bonne connaissance de LDAP.
+<img width="64px" src="../assets/graficos14.png"> Cette section permet de configurer la synchronisation avec un serveur LDAP. Elle contient une longue série de paramètres qui requièrent une bonne connaissance de LDAP.
 
 Pour plus d&#039;information, consulter un guide spécifiques à LDAP. Notez qu&#039;un serveur ActiveDirectory peut être utilisé comme serveur LDAP, moyennant son activation du mode de compatibilité LDAP.
 
 #### Fuseaux horaires {#zones-horaires}
 
-![](../assets/graficos15.png)**Utiliser les fuseaux horaires utilisateurs :** permet d&#039;activer ou désactiver la gestion des fuseaux horaires pour les utilisateurs. Activer les fuseau horaires permet
+<img width="64px" src="../assets/graficos15.png"> **Utiliser les fuseaux horaires utilisateurs :** permet d&#039;activer ou désactiver la gestion des fuseaux horaires pour les utilisateurs. Activer les fuseau horaires permet
 
 *   d&#039;héberger des portails pour des clients répartis sur plusieurs fuseaux horaires sur un seul serveur
 
@@ -158,35 +164,35 @@ Pour plus d&#039;information, consulter un guide spécifiques à LDAP. Notez qu&
 
 #### Suivi {#suivi}
 
-![](../assets/image8.png)
+<img width="64px" src="../assets/image8.png">
 
 Cette section permet la configuration d&#039;éléments globaux importants au niveau SEO et analytique de votre portail Chamilo, notamment la configuration des en-tête et pied de page pour y placer des widgets de suivi au travers de _Google Analytics_, par exemple.
 
 #### Recherche {#recherche}
 
-![](../assets/graficos16.png)La recherche full-text permet d&#039;indexer les textes des documents importés dans Chamilo. Cette fonctionnalité était initialement réservée à la version médicale. Elle requiert l&#039;installation, au niveau du serveur, du module Xapian de PHP et d&#039;une série de librairies d&#039;extraction de texte depuis des formats de documents variés, ce qui est rarement possible sur un hébergement mutualisé non spécifique à Chamilo.
+<img width="64px" src="../assets/graficos16.png"> La recherche full-text permet d&#039;indexer les textes des documents importés dans Chamilo. Cette fonctionnalité était initialement réservée à la version médicale. Elle requiert l&#039;installation, au niveau du serveur, du module Xapian de PHP et d&#039;une série de librairies d&#039;extraction de texte depuis des formats de documents variés, ce qui est rarement possible sur un hébergement mutualisé non spécifique à Chamilo.
 
 N&#039;hésitez par à faire appel aux fournisseurs officiels de Chamilo[^15] pour un hébergement spécialisé ou des services d’accompagnement.
 
 #### Feuilles de style {#feuilles-de-style}
 
-![](../assets/graficos17.png)Les feuilles de style permettent de définir le style visuel global de la plateforme.
+<img width="64px" src="../assets/graficos17.png"> Les feuilles de style permettent de définir le style visuel global de la plateforme.
 
-![](../assets/feuille-de-styles.png)Illustration 30: Administration - Configuration des feuilles de style
+![](../assets/feuille-de-styles.png) Illustration 30: Administration - Configuration des feuilles de style
 
 Depuis la version 1.8.7, il vous est possible de créer vos propres feuilles de style et de les envoyer sur le serveur. Pour cela, récupérez une copie de l&#039;un des styles existants dans _chamilo/app/Resources/public/css/themes_ (ou, dans les versions antérieures à la 1.10, dans _chamilo/main/css/_) et changez le nom du répertoire récupéré (sur votre ordinateur, pas sur le serveur). Modifiez le style à votre goût. Une fois satisfait, envoyez le répertoire au serveur sous forme d&#039;un fichier .zip et donnez-lui un nom propre à votre portail. Ensuite, sélectionnez le style dans la liste déroulante. S&#039;il vous convient, cliquez sur _Enregistrer les paramètres_ pour l&#039;appliquer comme style par défaut sur votre portail.
 
 #### Modèles {#mod-les}
 
-![](../assets/graficos18.png)Les modèles de documents permettent d&#039;accélérer la création de contenu dans Chamilo. Créer de nouveaux modèles dans cette partie de la plateforme l’impactera globalement.
+<img width="64px" src="../assets/graficos18.png"> Les modèles de documents permettent d&#039;accélérer la création de contenu dans Chamilo. Créer de nouveaux modèles dans cette partie de la plateforme l’impactera globalement.
 
 Créer, éditer et supprimer des modèles est très simple, et se rapproche fort de l&#039;édition de documents d&#039;un cours. N&#039;hésitez pas à faire un essai sous forme d&#039;un nouveau modèle (vous pourrez toujours le supprimer par la suite).
 
 #### Plugins {#plugins-0}
 
-![](../assets/graficos19.png)Cet onglet permet d&#039;activer les plugins présents sur le serveur, dans le dossier « plugin ».
+<img width="64px" src="../assets/graficos19.png"> Cet onglet permet d&#039;activer les plugins présents sur le serveur, dans le dossier « plugin ».
 
-![](../assets/plugins.png)Illustration 31: Administration - Installation de plugins
+![](../assets/plugins.png) Illustration 31: Administration - Installation de plugins
 
 Le plugin appelé _BigBlueButton_, une fois activé, vous permet de connecter votre portail Chamilo à un serveur de vidéoconférence. Toutefois, l&#039;installation du serveur de vidéoconférence n&#039;est pas incluse dans Chamilo. Il vous faudra donc l&#039;installer par vous-même ou faire appel à l’un des fournisseurs officiels[^16].
 
@@ -196,37 +202,37 @@ Notez qu&#039;un connecteur vers _OpenMeetings_ est également disponible au bes
 
 #### LDAP {#ldap-0}
 
-![](../assets/images20.png)La section correspondante à LDAP donne simplement une série d&#039;instruction afin de faciliter à l&#039;administrateur système la configuration d&#039;un back-end LDAP pour les processus d&#039;authentification des utilisateurs de Chamilo.
+<img width="64px" src="../assets/images20.png"> La section correspondante à LDAP donne simplement une série d&#039;instruction afin de faciliter à l&#039;administrateur système la configuration d&#039;un back-end LDAP pour les processus d&#039;authentification des utilisateurs de Chamilo.
 
 #### CAS {#cas}
 
-![](../assets/image6.png)Cette section permet de configurer des serveurs d&#039;authentification CAS. Il est possible que certaines modifications de fichiers soient nécessaires étant donné que les serveurs CAS peuvent proposer des configurations très spécifiques. À lire avec attention.
+<img width="64px" src="../assets/image6.png"> Cette section permet de configurer des serveurs d&#039;authentification CAS. Il est possible que certaines modifications de fichiers soient nécessaires étant donné que les serveurs CAS peuvent proposer des configurations très spécifiques. À lire avec attention.
 
 #### Shibboleth {#shibboleth}
 
-![](../assets/image7.png)Cette section permet de configurer des serveurs d&#039;authentification [Shibboleth](https://shibbolet.net/)[^17]. Il est possible que certaines modifications de fichiers soient nécessaires étant donné que les serveurs Shibboleth peuvent proposer des configurations très spécifiques. À lire avec attention.
+<img width="64px" src="../assets/image7.png"> Cette section permet de configurer des serveurs d&#039;authentification [Shibboleth](https://shibbolet.net/)[^17]. Il est possible que certaines modifications de fichiers soient nécessaires étant donné que les serveurs Shibboleth peuvent proposer des configurations très spécifiques. À lire avec attention.
 
 #### Facebook {#facebook}
 
-![](../assets/image9.png)Cette section permet de configurer des serveurs d&#039;authentification Facebook. Il est possible que certaines modifications de fichiers soient nécessaires étant donné que les serveurs Faceook peuvent proposer des configurations très spécifiques. Dans le cas de Facebook, la génération d&#039;une « application » Facebook sera nécessaire pour pouvoir profiter de l&#039;authentification partagée. À lire avec attention.
+<img width="64px" src="../assets/image9.png"> Cette section permet de configurer des serveurs d&#039;authentification Facebook. Il est possible que certaines modifications de fichiers soient nécessaires étant donné que les serveurs Faceook peuvent proposer des configurations très spécifiques. Dans le cas de Facebook, la génération d&#039;une « application » Facebook sera nécessaire pour pouvoir profiter de l&#039;authentification partagée. À lire avec attention.
 
 #### Crons {#crons}
 
-![](../assets/image10.png)Cette section permet de configurer les paramètres des processus planifiés qui doivent être exécutés à des moments prédéterminés. Ceux-ci requièrent la configuration de fichiers sur le système d&#039;exploitation du serveur Chamilo. À lire attentivement.
+<img width="64px" src="../assets/image10.png"> Cette section permet de configurer les paramètres des processus planifiés qui doivent être exécutés à des moments prédéterminés. Ceux-ci requièrent la configuration de fichiers sur le système d&#039;exploitation du serveur Chamilo. À lire attentivement.
 
 ### Langues {#langues}
 
 Cet outil permet de définir quelles langues seront visibles par les utilisateurs lors de leur inscription sur la plateforme.
 
-![](../assets/langue.png)Illustration 32: Administration - Gestion des langues
+![](../assets/langue.png) Illustration 32: Administration - Gestion des langues
 
 Au travers de l&#039;activation des sous-langages, cet outil permet également de redéfinir certains termes de l&#039;interface du portail. Pour cela, activez l&#039;option dans la page de configuration des langues (voir 4.1.1.4 Langue ).
 
-![](../assets/image11.png)Illustration 33: Option de sous-langages dans les paramètres de configuration
+![](../assets/image11.png) Illustration 33: Option de sous-langages dans les paramètres de configuration
 
 Ensuite, ouvrez la page de configuration des langues. Vous y trouverez une icône supplémentaire, qui permet d&#039;ajouter un « sous-langage » à n&#039;importe quel langage existant.
 
-![](../assets/image12.png)Illustration 34: Liste des langages avec option de sous-langages
+![](../assets/image12.png) Illustration 34: Liste des langages avec option de sous-langages
 
 La définition d&#039;un sous-langage est assez simple : il vous suffit d&#039;indiquer le nom du sous-langage, son code ISO et son nom anglais (le nom du répertoire).
 
@@ -238,23 +244,23 @@ Voici comment procéder…
 
 #### Création du sous-langage {#cr-ation-du-sous-langage}
 
-![](../assets/image13.png)Cliquez sur l&#039;icône de création de sous-langage à l&#039;extrême droite de la ligne de langue française.
+<img width="64px" src="../assets/image13.png"> Cliquez sur l&#039;icône de création de sous-langage à l&#039;extrême droite de la ligne de langue française.
 
 Compléter le formulaire en indiquant un nom commun pour le langage ainsi qu&#039;un nom sans espaces, ni ponctuation, ni accents pour le « nom anglais » et un code ISO de deux lettres qui doit correspondre au langage de base que vous déclinez ici (_fr_ dans ce cas-ci).
 
 Cochez _Visibilité_ et cliquez sur _Créer sous-langage_. Le message de confirmation vous propose de retourner à la liste des langages actifs. Cliquez sur la barre de navigation horizontale pour retourner sur la liste de langues.
 
-![](../assets/image14.png)Illustration 35: Message de confirmation de création d&#039;un sous-langage
+![](../assets/image14.png) Illustration 35: Message de confirmation de création d&#039;un sous-langage
 
 La page de listing affiche une ligne un peu différente. Cliquez sur l&#039;icône de double flèche pour définir vos propres termes.
 
-![](../assets/graficos39.png)Illustration 36: Administration - Liste des langages, avec sous-langage
+![](../assets/graficos39.png) Illustration 36: Administration - Liste des langages, avec sous-langage
 
 #### Définir ses propres termes linguistiques {#d-finir-ses-propres-termes-linguistiques}
 
 La nouvelle page est une page de recherche. Si vous voulez modifier les termes « Cours » en « Formation », lancez d&#039;abord une recherche sur « Cours ».
 
-![](../assets/graficos40.png)Illustration 37: Administration - Redéfinition des termes d&#039;un sous-langage
+![](../assets/graficos40.png) Illustration 37: Administration - Redéfinition des termes d&#039;un sous-langage
 
 Une fois la recherche effectuée, redéfinissez chacun des termes apparaissant dans la colonne _Nom d&#039;origine_ en le réécrivant (modifié) dans la colonne _Sous-langage_. Une fois satisfait, cliquez sur _Enregistrer._ Veillez à sauvegarder chacun des nouveaux termes progressivement. Notez que pour le terme « Cours », on retrouve 814 occurrences, ce qui peut prendre un certain temps à corriger...
 
@@ -262,7 +268,7 @@ Une fois la recherche effectuée, redéfinissez chacun des termes apparaissant d
 
 Finalement, vous avez défini entièrement votre sous-langage, il ne vous reste plus qu&#039;à l&#039;assigner par défaut à tous les nouveaux utilisateurs et nouveaux cours. Pour cela, retournez dans la liste des langues, et désactivez toutes les autres langues.
 
-![](../assets/graficos41.png)Illustration 38: Administration - Sous-langages - Visibilité et usage par défaut
+![](../assets/graficos41.png) Illustration 38: Administration - Sous-langages - Visibilité et usage par défaut
 
 Pour votre sous-langage, cliquez sur la troisième icône pour en faire la langue par défaut de la plateforme. Ça y est, votre plateforme est personnalisée selon votre secteur, votre industrie ou votre institution !
 
@@ -286,7 +292,7 @@ Les régions sont les zones de l&#039;écran dans lesquelles peuvent apparaître
 
 Permet d&#039;ajouter une annonce globale sur la page principale de la plateforme (et au-dessus de la liste de cours).
 
-![](../assets/image15.png)Illustration 39: Formulaire de création d&#039;annonce du système
+![](../assets/image15.png) Illustration 39: Formulaire de création d&#039;annonce du système
 
 Il est possible de choisir la visibilité/invisibilité de l&#039;annonce (par date de début et date de fin), les rôles auxquels cette annonce est dirigée, ainsi que d&#039;envoyer l&#039;annonce par courriel.
 
@@ -306,7 +312,7 @@ Notez que, dans le cas de la préparation d&#039;une annonce pour une date ulté
 
 L&#039;agenda global permet d&#039;ajouter des événements visibles depuis l&#039;agenda de tous les utilisateurs de la plateforme.
 
-![](../assets/graficos42.png)Illustration 40: Administration - Agenda global
+![](../assets/graficos42.png) Illustration 40: Administration - Agenda global
 
 La fonctionnalité est en tous points similaire à celle que l&#039;on retrouve dans l&#039;espace de cours, mais l&#039;ajout d&#039;un événement y a une portée globale puisque tous les utilisateurs en seront conscients grâce au positionnement dans leur calendrier.
 
@@ -320,7 +326,7 @@ Dans cette configuration, il est possible de modifier plusieurs informations :
 
 *   insérer des liens et éditer l&#039;avis
 
-![](../assets/image16.png)Illustration 41: Administration - Configurer la page d&#039;accueil
+![](../assets/image16.png) Illustration 41: Administration - Configurer la page d&#039;accueil
 
 Notez que cette fonctionnalité est propre à la langue choisie. Si vous définissez une page d&#039;accueil en français, celle-ci ne sera visible que si le français a été sélectionné. Cela vous permet de configurer des messages d&#039;accueil différents selon vos utilisateurs.
 
@@ -348,7 +354,7 @@ Cet outil permet de générer des graphiques statistiques pour quatre catégorie
 
 *   social.
 
-![](../assets/statistiques.png)Illustration 42: Administration - Statistiques globales
+![](../assets/statistiques.png) Illustration 42: Administration - Statistiques globales
 
 Bien que les données statistiques affichées par défaut par Chamilo soient assez sommaires, elles permettent d&#039;obtenir une bonne idée générale de l&#039;utilisation de la plateforme ainsi que des possibilités de cette fonctionnalité, et sont aisément extensibles à toutes les données présentes dans la plateforme. Si nécessaire, n’hésitez pas à faire appel à l’un des fournisseurs officiels pour vous assister à l’extension de ces statistiques à vos besoins particuliers.
 
