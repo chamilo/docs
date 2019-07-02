@@ -1,6 +1,6 @@
 # L&#039;outil « Présences » {#l-outil-pr-sences}
 
-![](../assets/image300.svg)![](../assets/image300.png)
+<img width="64px" src="../assets/image300.svg">
 
 L&#039;outil se structure à deux niveau : les _feuilles de présences_, qui permettent de maintenir à la fois une feuille de présence pour les laboratoires (ou travaux pratiques) et une feuille de présences pour les séances de théorie, par exemple, ainsi que les présences en soi.
 
