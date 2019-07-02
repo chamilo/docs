@@ -161,81 +161,51 @@ Afin de visualiser la liste d&#039;utilisateurs de forme plus concrète, voici u
 
 #### Apprenant <a name="apprenant"></a>
 
-*   ![](../assets/graficos45.png)**Actif/Inactif** : un apprenant peut être activé/désactivé à volonté
-
-*   ![](../assets/graficos46.png)![](../assets/graficos47.png)**Liste des cours** : un apprenant peut être inscrit à plusieurs cours
-
-*   **Se connecter en tant que...** activé pour l&#039;apprenant
-
-*   ![](../assets/graficos48.png)**Statistiques** : l&#039;apprenant est le seul utilisateur dont on peut voir un rapport de suivi
-
-*   ![](../assets/graficos50.png)**Édition** : le compte de l&#039;apprenant peut être édité par l&#039;administrateur
-
-*   ![](../assets/graficos51.png)**Administration** : l&#039;apprenant ne peut jamais être administrateur
-
-*   ![](../assets/graficos52.png)**Calendrier free/busy** : montre la disponibilité de l&#039;apprenant
-
-*   ![](../assets/graficos60.png)**Suppression** : le compte de l&#039;apprenant peut être supprimé
+| ![](../assets/graficos45.png) | **Actif/Inactif** | un apprenant peut être activé/désactivé à volonté |
+| ![](../assets/graficos46.png)![](../assets/graficos47.png) | **Liste des cours** | un apprenant peut être inscrit à plusieurs cours |
+| | **Se connecter en tant que...** | activé pour l&#039;apprenant |
+| ![](../assets/graficos48.png) | **Statistiques** | l&#039;apprenant est le seul utilisateur dont on peut voir un rapport de suivi |
+| ![](../assets/graficos50.png) | **Édition** | le compte de l&#039;apprenant peut être édité par l&#039;administrateur |
+| ![](../assets/graficos51.png) | **Administration** | l&#039;apprenant ne peut jamais être administrateur |
+| ![](../assets/graficos52.png) | **Calendrier free/busy** | montre la disponibilité de l&#039;apprenant |
+| ![](../assets/graficos60.png) | **Suppression** | le compte de l&#039;apprenant peut être supprimé |
 
 #### Enseignant <a name="enseignant"></a>
 
-*   ![](../assets/graficos53.png)**Actif/Inactif** : un enseignant peut être activé/désactivé à volonté
-
-*   ![](../assets/graficos54.png)![](../assets/graficos55.png)**Liste des cours** : un enseignant peut être inscrit à plusieurs cours
-
-*   **Se connecter en tant que...** activé pour l&#039;enseignant
-
-*   ![](../assets/graficos56.png)**Statistiques** : l&#039;enseignant ne peut être « suivi » qu&#039;au travers du _panneau de contrôle_
-
-*   ![](../assets/graficos57.png)![](../assets/graficos58.png)**Édition** : le compte de l&#039;enseignant peut être édité par l&#039;administrateur
-
-*   **Administration** : l&#039;enseignant qui est administrateur est administrateur avant tout
-
-*   ![](../assets/graficos59.png)**Calendrier free/busy** : montre la disponibilité de l&#039;enseignant
-
-*   ![](../assets/graficos61.png)**Suppression** : le compte de l&#039;enseignant peut être supprimé
+| ![](../assets/graficos53.png) | **Actif/Inactif** | un enseignant peut être activé/désactivé à volonté |
+| ![](../assets/graficos54.png)![](../assets/graficos55.png) | **Liste des cours** | un enseignant peut être inscrit à plusieurs cours |
+| | **Se connecter en tant que...** | activé pour l&#039;enseignant |
+| ![](../assets/graficos56.png) | **Statistiques** | l&#039;enseignant ne peut être « suivi » qu&#039;au travers du _panneau de contrôle_ |
+| ![](../assets/graficos57.png)![](../assets/graficos58.png) | **Édition** | le compte de l&#039;enseignant peut être édité par l&#039;administrateur |
+| | **Administration** | l&#039;enseignant qui est administrateur est administrateur avant tout |
+| ![](../assets/graficos59.png) | **Calendrier free/busy** | montre la disponibilité de l&#039;enseignant |
+| ![](../assets/graficos61.png) | **Suppression** | le compte de l&#039;enseignant peut être supprimé |
 
 #### Administrateur <a name="administrateur"></a>
 
-*   ![](../assets/image26.png)**Actif/Inactif** : un administrateur ne peut pas être désactivé
-
-*   ![](../assets/graficos62.png)![](../assets/graficos63.png)**Liste des cours** : un administrateur peut être inscrit à plusieurs cours
-
-*   **Se connecter en tant que...** désactivé pour l&#039;administrateur
-
-*   ![](../assets/graficos67.png)**Statistiques** : l&#039;administrateur ne peut être « suivi » qu&#039;au travers du _panneau de contrôle_
-
-*   ![](../assets/graficos64.png)**Édition** : le compte de l&#039;administrateur ne peut être édité que par cet administrateur lui-même
-
-*   ![](../assets/graficos65.png)**Administration** : cet utilisateur est administrateur parce que son étoile est colorée
-
-*   ![](../assets/graficos68.png)**Suivre des utilisateurs** : seuls les administrateurs peuvent suivre le progrès des utilisateurs (apprenants, enseignants ou administrateurs) au travers du panneau de contrôle
-
-*   ![](../assets/graficos69.png)**Suivre des cours** : seuls les administrateurs peuvent suivre le progrès de cours au travers du panneau de contrôle
-
-*   ![](../assets/graficos70.png)**Suivre des sessions** : seuls les administrateurs peuvent suivre le progrès des sessions au travers du panneau de contrôle
-
-*   ![](../assets/graficos66.png)**Calendrier free/busy** : montre la disponibilité de l&#039;administrateur
+| ![](../assets/image26.png) | **Actif/Inactif** | un administrateur ne peut pas être désactivé |
+| ![](../assets/graficos62.png)![](../assets/graficos63.png) | **Liste des cours** | un administrateur peut être inscrit à plusieurs cours |
+| | **Se connecter en tant que...** | désactivé pour l&#039;administrateur |
+| ![](../assets/graficos67.png) | **Statistiques** | l&#039;administrateur ne peut être « suivi » qu&#039;au travers du _panneau de contrôle_ |
+| ![](../assets/graficos64.png) | **Édition** | le compte de l&#039;administrateur ne peut être édité que par cet administrateur lui-même |
+| ![](../assets/graficos65.png) | **Administration** | cet utilisateur est administrateur parce que son étoile est colorée|
+| ![](../assets/graficos68.png) | **Suivre des utilisateurs** | seuls les administrateurs peuvent suivre le progrès des utilisateurs (apprenants, enseignants ou administrateurs) au travers du panneau de contrôle |
+| ![](../assets/graficos69.png) | **Suivre des cours** | seuls les administrateurs peuvent suivre le progrès de cours au travers du panneau de contrôle |
+| ![](../assets/graficos70.png) | **Suivre des sessions** | seuls les administrateurs peuvent suivre le progrès des sessions au travers du panneau de contrôle |
+| ![](../assets/graficos66.png) | **Calendrier free/busy** | montre la disponibilité de l&#039;administrateur |
 
 #### Anonyme <a name="anonyme"></a>
 
 L&#039;utilisateur anonyme est un utilisateur particulier, qui ne sert que dans le but de permettre à des utilisateurs non enregistrés sur la plateforme de profiter des cours mis publiquement à leur disposition. Le nombre de possibilités de suivi est donc réduit. Notez que si aucun cours n&#039;est publique, ce compte utilisateur ne sert à rien et pourrait être désactivé (bien que cette fonctionnalité ne soit pas officiellement supportée).
 
-*   ![](../assets/graficos71.png)**Actif/Inactif** : l&#039;utilisateur anonyme peut être activé/désactivé à volonté
-
-*   ![](../assets/graficos72.png)![](../assets/graficos73.png)**Liste des cours** : l&#039;utilisateur anonyme ne peut être inscrit à aucun cours
-
-*   **Se connecter en tant que...** désactivé pour l&#039;utilisateur anonyme
-
-*   ![](../assets/graficos74.png)**Statistiques** : l&#039;utilisateur anonyme ne permet pas de suivi
-
-*   ![](../assets/graficos75.png)![](../assets/graficos77.png)**Édition** : l&#039;utilisateur anonyme ne peut pas être édité
-
-*   **Administration** : l&#039;utilisateur anonyme ne peut jamais être administrateur
-
-*   ![](../assets/graficos76.png)**Calendrier free/busy** : l&#039;utilisateur anonyme n&#039;a pas vraiment de calendrier _« free/busy »_
-
-*   ![](../assets/graficos78.png)**Suppression** : le compte de l&#039;utilisateur anonyme ne peut pas être supprimé (pour éviter les incohérences du système)
+| ![](../assets/graficos71.png) | **Actif/Inactif** | l&#039;utilisateur anonyme peut être activé/désactivé à volonté |
+| ![](../assets/graficos72.png)![](../assets/graficos73.png) | **Liste des cours** | l&#039;utilisateur anonyme ne peut être inscrit à aucun cours |
+| | **Se connecter en tant que...** | désactivé pour l&#039;utilisateur anonyme |
+| ![](../assets/graficos74.png) | **Statistiques** | l&#039;utilisateur anonyme ne permet pas de suivi |
+| ![](../assets/graficos75.png)![](../assets/graficos77.png) | **Édition** | l&#039;utilisateur anonyme ne peut pas être édité |
+| | **Administration** | l&#039;utilisateur anonyme ne peut jamais être administrateur |
+| ![](../assets/graficos76.png) | **Calendrier free/busy** | l&#039;utilisateur anonyme n&#039;a pas vraiment de calendrier _« free/busy »_|
+| ![](../assets/graficos78.png) | **Suppression** | le compte de l&#039;utilisateur anonyme ne peut pas être supprimé (pour éviter les incohérences du système) |
 
 En plus de cette gestion, il est possible de supprimer tout ou partie des utilisateurs en cochant la case à gauche de l&#039;utilisateur et en le supprimant en bas,comme dans la gestion des utilisateurs d&#039;un cours pour un formateur.
 
