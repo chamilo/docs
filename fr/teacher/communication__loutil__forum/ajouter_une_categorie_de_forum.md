@@ -1,5 +1,4 @@
-## Ajouter une catégorie de forum {#ajouter-une-cat-gorie-de-forum}
-
+## Ajouter une catégorie de forum
 Dans l&#039;outil « Forum » :
 
 *   cliquer sur le lien « Nouveau dossier »
