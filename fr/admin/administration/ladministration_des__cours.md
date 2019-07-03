@@ -2,7 +2,9 @@
 
 Les cours sont des **espaces** au sein desquels les enseignants génèrent du contenu en utilisant la vingtaine d'outils mis à leur disposition pour enseigner d'une façon mémorable, dynamique, multimédia et, dans la mesure du possible, ludique.
 
-![](../assets/image28.png)Illustration 56: Bloc d'administration des cours
+![](../assets/image28.png)
+
+Illustration 56: Bloc d'administration des cours
 
 Les cours peuvent être agrémentés d'une notion temporelle grâce à l'utilisation de **sessions** \(voir 4.4Administrer les « Sessions de formation » en page 72\).
 
@@ -121,7 +123,9 @@ L'administrateur peut inscrire n'importe qui à n'importe quel cours :
 
 Cette fonction permet à l'administrateur, après avoir fait un export d'utilisateurs pour un cours, de les importer grâce à un fichier CSV ou XML.
 
-![](../assets/inscrire-utilisateur-cours.png)Illustration 65: Administration - Inscription d'utilisateurs à un cours, par lots
+![](../assets/inscrire-utilisateur-cours.png)
+
+Illustration 65: Administration - Inscription d'utilisateurs à un cours, par lots
 
 Cet import permet d'effectuer deux actions qu'il suffit de cocher pour qu'elles soient prises en compte et que vous puissiez gérer la liste d'utilisateurs en fonction de l'import.
 
