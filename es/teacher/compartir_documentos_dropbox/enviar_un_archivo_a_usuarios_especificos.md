@@ -1,6 +1,6 @@
 ## Enviar un archivo a usuarios específicos {#enviar-un-archivo-a-usuarios-espec-ficos}
 
-*   Dar clic en el icono _Compartir nuevo archivo_![](../assets/graphics271.svg)![](../assets/graphics271.png)
+*   Dar clic en el icono _Compartir nuevo archivo_ <img width="32px" src="../assets/graphics271.svg">
 
 *   Dar clic en _Seleccionar archivo_ y seleccionar el archivo en tu computadora
 
