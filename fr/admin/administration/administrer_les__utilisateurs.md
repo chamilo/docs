@@ -43,8 +43,9 @@ Révisons ensemble ces rôles, en partant du moins influent et en terminant par 
 
 #### L&#039;apprenant (ou étudiant) <a name="l-apprenant-ou-tudiant"></a>
 
-| Description | L&#039;apprenant est le rôle typique de celui qui suit un ou plusieurs cours. Il a accès aux contenus des cours auxquels il s&#039;est inscrit (si cela lui était possible) ou auxquels on l&#039;a inscrit. |
+| Item | Détails |
 | --- | --- |
+| Description | L&#039;apprenant est le rôle typique de celui qui suit un ou plusieurs cours. Il a accès aux contenus des cours auxquels il s&#039;est inscrit (si cela lui était possible) ou auxquels on l&#039;a inscrit. |
 | Disponibilité | Globale |
 | Accès | Formulaire de création dans l&#039;administration |
 | Droits dans un cours | De base, il peut : |
@@ -52,8 +53,9 @@ Révisons ensemble ces rôles, en partant du moins influent et en terminant par 
 
 #### L&#039;assistant de cours <a name="l-assistant-de-cours"></a>
 
-| Description | L&#039;assistant est un rôle étendu d&#039;apprenant. Il s&#039;agit en tous points d&#039;un apprenant, mais l&#039;enseignant peut lui assigner le rôle d&#039;assistant dans un de ses cours via l&#039;édition de l&#039;utilisateur dans l&#039;outil de liste d&#039;utilisateurs du cours (case à cocher « tuteur »). |
+| Item | Détails |
 | --- | --- |
+| Description | L&#039;assistant est un rôle étendu d&#039;apprenant. Il s&#039;agit en tous points d&#039;un apprenant, mais l&#039;enseignant peut lui assigner le rôle d&#039;assistant dans un de ses cours via l&#039;édition de l&#039;utilisateur dans l&#039;outil de liste d&#039;utilisateurs du cours (case à cocher « tuteur »). |
 | Disponibilité | Contextuelle : disponible uniquement au sein d&#039;un cours |
 | Accès | Liste d&#039;apprenants dans un cours (icône d&#039;édition) |
 | Droits dans un cours | De base, il peut : |
@@ -61,8 +63,9 @@ Révisons ensemble ces rôles, en partant du moins influent et en terminant par 
 
 #### Le responsable des ressources humaines (ou Supervision) <a name="le-responsable-des-ressources-humaines-ou-supervision"></a>
 
-| Description | Le responsable des ressources humaines est un rôle attribué à la création de l&#039;utilisateur (ou postérieurement au travers de l&#039;écran d&#039;édition de l&#039;utilisateur). C&#039;est un rôle exclusif (il ne peut pas être combiné avec un autre rôle). Le but de ce rôle est de suivre des utilisateurs, cours ou sessions en particulier, comme le ferait un responsable des ressources humaines avec un employé dont il est le responsable. |
+| Item | Détails |
 | --- | --- |
+| Description | Le responsable des ressources humaines est un rôle attribué à la création de l&#039;utilisateur (ou postérieurement au travers de l&#039;écran d&#039;édition de l&#039;utilisateur). C&#039;est un rôle exclusif (il ne peut pas être combiné avec un autre rôle). Le but de ce rôle est de suivre des utilisateurs, cours ou sessions en particulier, comme le ferait un responsable des ressources humaines avec un employé dont il est le responsable. |
 | Disponibilité | Globale |
 | Accès | Formulaire de création dans l&#039;administration |
 | Droits dans un cours | Aucun |
@@ -70,8 +73,9 @@ Révisons ensemble ces rôles, en partant du moins influent et en terminant par 
 
 #### Le tuteur (ou coach) <a name="le-tuteur-ou-coach"></a>
 
-| Description | Le tuteur (ou coach) de cours est un enseignant qui donne un cours sur base d&#039;un contenu générique que d&#039;autres ont préparé, mais sur lequel il peut développer son propre contenu. |
+| Item | Détails |
 | --- | --- |
+| Description | Le tuteur (ou coach) de cours est un enseignant qui donne un cours sur base d&#039;un contenu générique que d&#039;autres ont préparé, mais sur lequel il peut développer son propre contenu. |
 | Disponibilité | Contextuelle : Seulement disponible pour les enseignants dans le contexte d&#039;un cours dans une session |
 | Accès | Formulaire d&#039;édition de session (administration) |
 | Droits dans un cours | De base, il peut : |
@@ -79,8 +83,9 @@ Révisons ensemble ces rôles, en partant du moins influent et en terminant par 
 
 #### Le tuteur de session (ou coach de session) <a name="le-tuteur-de-session-ou-coach-de-session"></a>
 
-| Description | Le tuteur de session est un enseignant qui a un rôle de coordinateur au sein d&#039;une session. Il communique avec les autres tuteurs de la session et peut naviguer au sein de tous les cours de la session pour y observer les résultats des utilisateurs et prendre de meilleures décisions sur base d&#039;une information plus complète. |
+| Item | Détails |
 | --- | --- |
+| Description | Le tuteur de session est un enseignant qui a un rôle de coordinateur au sein d&#039;une session. Il communique avec les autres tuteurs de la session et peut naviguer au sein de tous les cours de la session pour y observer les résultats des utilisateurs et prendre de meilleures décisions sur base d&#039;une information plus complète. |
 | Disponibilité | Contextuelle : Seulement disponible pour les enseignants dans le contexte d&#039;une session. |
 | Accès | Formulaire d&#039;édition de session (administration) |
 | Droits dans un cours | De base, il peut : |
@@ -88,8 +93,9 @@ Révisons ensemble ces rôles, en partant du moins influent et en terminant par 
 
 #### L&#039;enseignant (ou prof) <a name="l-enseignant-ou-prof"></a>
 
-| Description | L&#039;enseignant (ou prof) est le créateur de cours par excellence. Il crée du contenu au sein d&#039;un cours de base qui pourra servir au sein d&#039;une session (dans le cas d&#039;utilisation d&#039;une session). |
+| Item | Détails |
 | --- | --- |
+| Description | L&#039;enseignant (ou prof) est le créateur de cours par excellence. Il crée du contenu au sein d&#039;un cours de base qui pourra servir au sein d&#039;une session (dans le cas d&#039;utilisation d&#039;une session). |
 | Disponibilité | Globale |
 | Accès | Formulaire de création dans l&#039;administration |
 | Droits dans un cours | De base, il peut : |
@@ -97,8 +103,9 @@ Révisons ensemble ces rôles, en partant du moins influent et en terminant par 
 
 #### L&#039;administrateur de session <a name="l-administrateur-de-session"></a>
 
-| Description | L&#039;administrateur de session est un rôle exclusif (il ne peut pas être combiné avec un autre rôle) et est déterminé à la création ou l&#039;édition de l&#039;utilisateur depuis l&#039;interface d&#039;administration. Ce rôle est dédié à la gestion académique des sessions de cours : il détermine qui va dicter quel cours, à quel moment et à quels apprenants. |
+| Item | Détails |
 | --- | --- |
+| Description | L&#039;administrateur de session est un rôle exclusif (il ne peut pas être combiné avec un autre rôle) et est déterminé à la création ou l&#039;édition de l&#039;utilisateur depuis l&#039;interface d&#039;administration. Ce rôle est dédié à la gestion académique des sessions de cours : il détermine qui va dicter quel cours, à quel moment et à quels apprenants. |
 | Disponibilité | Globale (mais uniquement utile dans le contexte de l&#039;utilisation de sessions) |
 | Accès | Formulaire de création dans l&#039;administration |
 | Droits dans un cours | Mêmes droits qu&#039;un tuteur de session |
@@ -106,8 +113,9 @@ Révisons ensemble ces rôles, en partant du moins influent et en terminant par 
 
 #### L&#039;administrateur de portail <a name="l-administrateur-de-portail"></a>
 
-| Description | L&#039;administrateur de portail n&#039;a de sens que si l&#039;on utilise le mode multi-URL (voir Chapitre 5\. Fonctionnalités globales en page 86). Dans ce cas, l&#039;administrateur qui n&#039;est pas autorisé à modifier tous les portails est un administrateur de portail (par opposition à administrateur global). |
+| Item | Détails |
 | --- | --- |
+| Description | L&#039;administrateur de portail n&#039;a de sens que si l&#039;on utilise le mode multi-URL (voir Chapitre 5\. Fonctionnalités globales en page 86). Dans ce cas, l&#039;administrateur qui n&#039;est pas autorisé à modifier tous les portails est un administrateur de portail (par opposition à administrateur global). |
 | Disponibilité | Globale mais uniquement utile dans le contexte de l&#039;utilisation d&#039;un Chamilo en mode multi-URL (ou « multi-portails »). Sinon, il s&#039;agit simplement d&#039;un administrateur global. |
 | Accès | Formulaire de création dans l&#039;administration : sélectionner « Enseignant » puis l&#039;option dynamique « Administration », et assigner à un portail spécifique dans l&#039;interface de gestion multi-URL. |
 | Droits dans un cours | Tous les droits |
@@ -115,8 +123,9 @@ Révisons ensemble ces rôles, en partant du moins influent et en terminant par 
 
 #### L&#039;administrateur global <a name="l-administrateur-global"></a>
 
-| Description | L&#039;administrateur global est l&#039;utilisateur tout-puissant. Il peut simplement tout faire. Il a accès à toutes les interfaces. |
+| Item | Détails |
 | --- | --- |
+| Description | L&#039;administrateur global est l&#039;utilisateur tout-puissant. Il peut simplement tout faire. Il a accès à toutes les interfaces. |
 | Disponibilité | Globale |
 | Accès | Formulaire de création dans l&#039;administration : sélectionner « Enseignant » puis l&#039;option dynamique « Administration » |
 | Droits dans un cours | De base, il peut tout faire. |
@@ -124,8 +133,9 @@ Révisons ensemble ces rôles, en partant du moins influent et en terminant par 
 
 #### Le supérieur d&#039;apprenant <a name="le-sup-rieur-d-apprenant"></a>
 
-| Description | Le supérieur d&#039;apprenant est un rôle similaire à celui de responsable des ressources humaines. C&#039;est un rôle exclusif (il ne peut pas être combiné avec un autre rôle), bien qu&#039;il puisse également suivre des cours s&#039;il y est inscrit comme étudiant. Le but de ce rôle est de suivre des utilisateurs, cours ou sessions en particulier, comme le ferait un responsable des ressources humaines avec un employé dont il est le responsable. À la différence de ce dernier, le supérieur d&#039;apprenant, s&#039;il est placé comme coordinateur d&#039;un groupe (social ou classe) d&#039;apprenants, accède à des rapports spécifiques. Enfin, le supérieur d&#039;apprenant possède des droits particuliers en combinaison avec des plugins spécifiques (par exemple celui d&#039;inscription avancée). Dans ce cas, il peut par exemple accepter ou refuser l&#039;inscription d&#039;un apprenant à un cours. |
+| Item | Détails |
 | --- | --- |
+| Description | Le supérieur d&#039;apprenant est un rôle similaire à celui de responsable des ressources humaines. C&#039;est un rôle exclusif (il ne peut pas être combiné avec un autre rôle), bien qu&#039;il puisse également suivre des cours s&#039;il y est inscrit comme étudiant. Le but de ce rôle est de suivre des utilisateurs, cours ou sessions en particulier, comme le ferait un responsable des ressources humaines avec un employé dont il est le responsable. À la différence de ce dernier, le supérieur d&#039;apprenant, s&#039;il est placé comme coordinateur d&#039;un groupe (social ou classe) d&#039;apprenants, accède à des rapports spécifiques. Enfin, le supérieur d&#039;apprenant possède des droits particuliers en combinaison avec des plugins spécifiques (par exemple celui d&#039;inscription avancée). Dans ce cas, il peut par exemple accepter ou refuser l&#039;inscription d&#039;un apprenant à un cours. |
 | Disponibilité | Globale |
 | Accès | Formulaire de création dans l&#039;administration. Il faudra ensuite assigner cet utilisateur comme supérieur d&#039;un apprenant en éditant cet apprenant depuis la liste d&#039;utilisateurs de l&#039;administration. |
 | Droits dans un cours | Aucun |
@@ -133,8 +143,9 @@ Révisons ensemble ces rôles, en partant du moins influent et en terminant par 
 
 #### Cas particulier: L&#039;utilisateur anonyme <a name="cas-particulier-l-utilisateur-anonyme"></a>
 
-| Description | L&#039;utilisateur anonyme est un cas très particulier : il s&#039;agit d&#039;un utilisateur dont l&#039;existence ne se justifie que par le besoin de concrétiser l&#039;existence (dans la base de données) d&#039;utilisateurs qui n&#039;ont pas de compte utilisateur sur le portail Chamilo. Grâce à ce mécanisme, l&#039;utilisateur « anonyme » peut exécuter la plupart des opérations qu&#039;un apprenant peut exécuter, mais uniquement au sein des cours marqués comme **publics** |
+| Item | Détails |
 | --- | --- |
+| Description | L&#039;utilisateur anonyme est un cas très particulier : il s&#039;agit d&#039;un utilisateur dont l&#039;existence ne se justifie que par le besoin de concrétiser l&#039;existence (dans la base de données) d&#039;utilisateurs qui n&#039;ont pas de compte utilisateur sur le portail Chamilo. Grâce à ce mécanisme, l&#039;utilisateur « anonyme » peut exécuter la plupart des opérations qu&#039;un apprenant peut exécuter, mais uniquement au sein des cours marqués comme **publics** |
 | Disponibilité | Globale |
 | Accès | Aucune « création » de ce type d&#039;utilisateur. Il est créé lors de la création de la plateforme et ne devrait jamais être supprimé. |
 | Droits dans un cours **public** | De base, il peut : |
@@ -142,8 +153,9 @@ Révisons ensemble ces rôles, en partant du moins influent et en terminant par 
 
 #### L&#039;invité <a name="l-invit"></a>
 
-| Description | L&#039;invité est un utilisateur particulier, dans ce sens qu&#039;il s&#039;agit d&#039;un utilisateur enregistré dans le système (donc qui dispose d&#039;un nom d&#039;utilisateur et d&#039;un mot de passe, à la différence de l&#039;utilisateur anonyme), et dont l&#039;objectif est d&#039;agir comme un apprenant mais sans laisser de trace. On entend par là que les résultats aux tests qu&#039;il passerait éventuellement sur la plateforme ne seront pas enregistrés, de telle sorte qu&#039;il passera relativement inaperçu dans un cours. |
+| Item | Détails |
 | --- | --- |
+| Description | L&#039;invité est un utilisateur particulier, dans ce sens qu&#039;il s&#039;agit d&#039;un utilisateur enregistré dans le système (donc qui dispose d&#039;un nom d&#039;utilisateur et d&#039;un mot de passe, à la différence de l&#039;utilisateur anonyme), et dont l&#039;objectif est d&#039;agir comme un apprenant mais sans laisser de trace. On entend par là que les résultats aux tests qu&#039;il passerait éventuellement sur la plateforme ne seront pas enregistrés, de telle sorte qu&#039;il passera relativement inaperçu dans un cours. |
 | Disponibilité | Globale |
 | Accès | Formulaire de création dans l&#039;administration |
 | Droits dans un cours **public** | De base, il peut : |
@@ -231,7 +243,9 @@ L&#039;administrateur a le pouvoir d&#039;ajouter un utilisateur en le créant d
 
 Cependant, il existe des options avancées auxquelles il faut faire attention.
 
-![](../assets/graficos79.png)Administration - Formulaire de création d&#039;utilisateur
+![](../assets/graficos79.png)
+
+Administration - Formulaire de création d&#039;utilisateur
 
 Le mot de passe peut être généré automatiquement ou par l&#039;administrateur. En fonction des besoins, il faut veiller à sélectionner l&#039;option « Envoyer un courriel au nouvel utilisateur ». Depuis la version 1.10, une aide visuelle permet de donner des suggestions sur le mot de passe introduit. Cette aide n&#039;est pas bloquante (il est possible d&#039;insérer un mot de passe peu sûr même si le système le mentionne), mais elle permet en tout cas d&#039;éviter les choix de mots de passe trop simples par ignorance ou mégarde de l&#039;administrateur en charge).
 
@@ -320,7 +334,9 @@ Tableau 2: Administration - Icônes de gestion des champs de profil
 
 Les types de champs disponibles sont nombreux, et permettent des validations spécifiques sur les données introduites par les utilisateurs.
 
-![](../assets/image27.png)Types de champs extra
+![](../assets/image27.png)
+
+Types de champs extra
 
 ### Classes <a name="classes"></a>
 
