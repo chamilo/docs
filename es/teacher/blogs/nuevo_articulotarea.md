@@ -2,7 +2,7 @@
 
 Desde la página principal del blog:
 
-*   Haz clic en el icono _Nuevo artículo_![](../assets/graphics310.png):
+*   Haz clic en el icono _Nuevo artículo_ ![](../assets/graphics310.png):
 
 *   Dale un nombre al artículo,
 
