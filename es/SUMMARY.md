@@ -187,7 +187,6 @@
   * [Preguntas frecuentes](teacher/apendice/preguntas_frecuentes.md)
   * [Licencia de uso de este manual](teacher/apendice/licencia_de_uso_de_este_manual.md)
   * [Índice de ilustraciones](teacher/apendice/indice_de_ilustraciones.md)
-  * [Índice alfabético](teacher/apendice/indice_alfabetico.md)
   * [Document history](teacher/apendice/document_history.md)
 
 ### Manual del Administrador
