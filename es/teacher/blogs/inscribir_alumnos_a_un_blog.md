@@ -4,7 +4,7 @@ Puedes gestionar varios blogs dentro de un mismo curso y, por tanto, seleccionar
 
 Para inscribir alumnos a un blog, desde la página principal de un blog:
 
-*   Haz clic en el icono de Administración de usuarios![](../assets/graphics309.png),
+*   Haz clic en el icono de Administración de usuarios ![](../assets/graphics309.png),
 
 *   Marca las casillas junto a los alumnos que quieras asociar con este blog,
 
