@@ -161,6 +161,8 @@ Afin de visualiser la liste d&#039;utilisateurs de forme plus concrète, voici u
 
 #### Apprenant <a name="apprenant"></a>
 
+| Icône | Usage | Description |
+| ---- | ---- | ---- |
 | ![](../assets/graficos45.png) | **Actif/Inactif** | un apprenant peut être activé/désactivé à volonté |
 | ![](../assets/graficos46.png)![](../assets/graficos47.png) | **Liste des cours** | un apprenant peut être inscrit à plusieurs cours |
 | | **Se connecter en tant que...** | activé pour l&#039;apprenant |
@@ -172,6 +174,8 @@ Afin de visualiser la liste d&#039;utilisateurs de forme plus concrète, voici u
 
 #### Enseignant <a name="enseignant"></a>
 
+| Icône | Usage | Description |
+| ---- | ---- | ---- |
 | ![](../assets/graficos53.png) | **Actif/Inactif** | un enseignant peut être activé/désactivé à volonté |
 | ![](../assets/graficos54.png)![](../assets/graficos55.png) | **Liste des cours** | un enseignant peut être inscrit à plusieurs cours |
 | | **Se connecter en tant que...** | activé pour l&#039;enseignant |
@@ -183,6 +187,8 @@ Afin de visualiser la liste d&#039;utilisateurs de forme plus concrète, voici u
 
 #### Administrateur <a name="administrateur"></a>
 
+| Icône | Usage | Description |
+| ---- | ---- | ---- |
 | ![](../assets/image26.png) | **Actif/Inactif** | un administrateur ne peut pas être désactivé |
 | ![](../assets/graficos62.png)![](../assets/graficos63.png) | **Liste des cours** | un administrateur peut être inscrit à plusieurs cours |
 | | **Se connecter en tant que...** | désactivé pour l&#039;administrateur |
@@ -198,6 +204,8 @@ Afin de visualiser la liste d&#039;utilisateurs de forme plus concrète, voici u
 
 L&#039;utilisateur anonyme est un utilisateur particulier, qui ne sert que dans le but de permettre à des utilisateurs non enregistrés sur la plateforme de profiter des cours mis publiquement à leur disposition. Le nombre de possibilités de suivi est donc réduit. Notez que si aucun cours n&#039;est publique, ce compte utilisateur ne sert à rien et pourrait être désactivé (bien que cette fonctionnalité ne soit pas officiellement supportée).
 
+| Icône | Usage | Description |
+| ---- | ---- | ---- |
 | ![](../assets/graficos71.png) | **Actif/Inactif** | l&#039;utilisateur anonyme peut être activé/désactivé à volonté |
 | ![](../assets/graficos72.png)![](../assets/graficos73.png) | **Liste des cours** | l&#039;utilisateur anonyme ne peut être inscrit à aucun cours |
 | | **Se connecter en tant que...** | désactivé pour l&#039;utilisateur anonyme |
