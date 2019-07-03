@@ -2,11 +2,11 @@
 
 Desde la página principal de Anuncios:
 
-*   clic en el icono de _Añadir un anuncio_![](../assets/graphics227.png),
+*   clic en el icono de _Añadir un anuncio_ ![](../assets/graphics227.png),
 
 ![](../assets/image34.png)Ilustración 137: Añadir un anuncio
 
-*   por defecto, el anuncio no se enviará a nadie. Es necesario seleccionar los usuarios de destino en la lista de la derecha en el enlace de _Dirigido a_![](../assets/graphics228.svg)![](../assets/graphics228.png)
+*   por defecto, el anuncio no se enviará a nadie. Es necesario seleccionar los usuarios de destino en la lista de la derecha en el enlace de _Dirigido a_ <img width="16px" src="../assets/graphics228.svg">
 
 *   el anuncio puede ser enviado por e-mail a los usuarios del curso (marca la casilla de _Enviar este anuncio por correo electrónico),_
 
