@@ -2,7 +2,7 @@
 
 Tras haber creado el rol o tarea, debes asignárselo a un alumno:
 
-*   Haz clic en el enlace _Asignar tareas_![](../assets/graphics315.gif),
+*   Haz clic en el enlace _**Asignar tareas**_![](../assets/graphics315.gif),
 
 *   Selecciona el alumno al que asignarle la tarea o rol,
 
@@ -14,6 +14,6 @@ Tras haber creado el rol o tarea, debes asignárselo a un alumno:
 
     ![](../assets/images239.png)
 
-    Ilustración 180: Blogs – Asignar una tarea
+    *Ilustración 180: Blogs – Asignar una tarea*
 
     el botón _Validar_.

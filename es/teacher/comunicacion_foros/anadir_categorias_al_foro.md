@@ -1,8 +1,8 @@
 ## Añadir categorías al foro {#a-adir-categor-as-al-foro}
 
-En la herramienta del _Foro_:
+En la herramienta del _**Foro**_:
 
-*   haz clic en el enlace _Nueva categoría_,
+*   haz clic en el enlace _**Nueva categoría**_,
 
 *   dale un nombre,
 
@@ -10,4 +10,4 @@ En la herramienta del _Foro_:
 
 *   haz clic en Crear categoría.
 
-![](../assets/graficos50.png)Ilustración 84: Foro – Nueva categoría
+![](../assets/graficos50.png)*Ilustración 84: Foro – Nueva categoría*

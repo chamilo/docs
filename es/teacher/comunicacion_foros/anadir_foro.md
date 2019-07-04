@@ -1,8 +1,8 @@
 ## Añadir foro {#a-adir-foro}
 
-Desde la página del _Foro_:
+Desde la página del _**Foro**_:
 
-*   Haz clic en Clic _Nuevo foro_,
+*   Haz clic en Clic _**Nuevo foro**_,
 
 *   dale un nombre,
 
@@ -20,6 +20,6 @@ Desde la página del _Foro_:
 
     *   agregar una imagen que represente el foro (y se verá en la lista de foros)
 
-*   haz clic en el botón _Crear foro_.
+*   haz clic en el botón _**Crear foro_.**
 
-![](../assets/graficos51.png)Ilustración 85: Foro – Formulario de creación de foro
+![](../assets/graficos51.png)*Ilustración 85: Foro – Formulario de creación de foro*

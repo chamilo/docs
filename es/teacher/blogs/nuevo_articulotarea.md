@@ -2,7 +2,7 @@
 
 Desde la página principal del blog:
 
-*   Haz clic en el icono _Nuevo artículo_ ![](../assets/graphics310.png):
+*   Haz clic en el icono _**Nuevo artículo**_ ![](../assets/graphics310.png):
 
 *   Dale un nombre al artículo,
 
@@ -10,6 +10,6 @@ Desde la página principal del blog:
 
 *   Adjunta un documento (opcional),
 
-*   Haz clic en el botón _Guardar_.
+*   Haz clic en el botón _**Guardar**_.
 
-![](../assets/graphics314.png)Ilustración 178: Blogs – Nuevo artículo
+![](../assets/graphics314.png)*Ilustración 178: Blogs – Nuevo artículo*

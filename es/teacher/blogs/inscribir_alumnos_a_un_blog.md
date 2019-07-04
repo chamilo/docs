@@ -8,8 +8,8 @@ Para inscribir alumnos a un blog, desde la página principal de un blog:
 
 *   Marca las casillas junto a los alumnos que quieras asociar con este blog,
 
-*   Haz clic en el botón _Validar_.
+*   Haz clic en el botón _**Validar**_.
 
 ![](../assets/graphics312.png)
 
-Ilustración 177: Blogs – Administración de usuarios
+*Ilustración 177: Blogs – Administración de usuarios*

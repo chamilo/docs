@@ -2,7 +2,7 @@
 
 Cuando el contenido de un foro se muestra:
 
-*   haz clic en el enlace _Nuevo mensaje_,
+*   haz clic en el enlace _**Nuevo mensaje**_,
 
 *   completa los campos de nombre y descripción,
 
@@ -30,4 +30,4 @@ Cuando el contenido de un foro se muestra:
 
 ![](../assets/graficos52.png)
 
-Ilustración 86: Foro – Hilo de discusión
+*Ilustración 86: Foro – Hilo de discusión*

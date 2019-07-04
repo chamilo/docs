@@ -2,10 +2,10 @@
 
 Desde la página principal de _Blogs_:
 
-*   Haz clic en el icono _Crear un blog_,
+*   Haz clic en el icono _**Crear un blog**_
 
 *   Dale a tu blog un nombre y descripción breves,
 
-*   Haz clic en _Guardar blog_.
+*   Haz clic en **_Guardar blog_**.
 
-![](../assets/images238.png)Ilustración 176: Blogs – Creación de un blog
+![](../assets/images238.png)*Ilustración 176: Blogs – Creación de un blog*
