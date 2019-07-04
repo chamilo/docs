@@ -10,3 +10,4 @@
 | April 2013 | Steve Miller | stephanibus@gmail.com | Complete revision and update of English text and screenshots based on 1.9.4\. Icons added inline to text for clarity. Some additional paragraphs on pedagogical use. |
 | January to march 2014 | Contidos Dixitais S.L. - Emiliano Orizales | communication@chamilo.org | Made the spanish translation of the whole manual. |
 | October 2015 | BeezNest Latino, Yannick Warnier | info@beeznest.com | Updated to 1.10.0 |
+| July 2019 | BeezNest Latino, Alex Aragón | alex.aragon@beeznest.com | Updated to 1.11.10 |

@@ -4,7 +4,7 @@ Desde la página principal de Anuncios:
 
 *   clic en el icono de _Añadir un anuncio_ ![](../assets/graphics227.png),
 
-![](../assets/image34.png)Ilustración 137: Añadir un anuncio
+![](../assets/image34.png)*Ilustración 137: Añadir un anuncio*
 
 *   por defecto, el anuncio no se enviará a nadie. Es necesario seleccionar los usuarios de destino en la lista de la derecha en el enlace de _Dirigido a_ <img width="16px" src="../assets/graphics228.svg">
 
@@ -42,4 +42,4 @@ Las etiquetas disponibles (al momento de publicar la versión 1.10) son:
 
     ![](../assets/graphics233.png)
 
-    Ilustración 138: Anuncios – Vista estudiante
+    *Ilustración 138: Anuncios – Vista estudiante*
