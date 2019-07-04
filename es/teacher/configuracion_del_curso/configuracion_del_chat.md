@@ -4,4 +4,4 @@ En la sección Configuración _del chat_![](../assets/graphics326.png), con la o
 
 ![](../assets/images245.png)
 
-Ilustración 187: Configuración del curso – Configuración del chat
+*Ilustración 187: Configuración del curso – Configuración del chat*

@@ -4,7 +4,7 @@ Las _Notificaciones por e-mail_ ![](../assets/graphics324.png) son una forma efe
 
 ![](../assets/images243.png)
 
-Ilustración 185: Configuración del curso – Notificaciones por e-mail
+*Ilustración 185: Configuración del curso – Notificaciones por e-mail*
 
 En esta sección, puedes elegir recibir notificaciones por e-mail si:
 

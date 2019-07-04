@@ -14,10 +14,10 @@ Por defecto, esta página (una serie de pestañas verticales), muestra la Config
 
 *   Elegir una hoja de estilos para este curso desde un menú desplegable (por defecto, la hoja de estilos de la plataforma)
 
-![](../assets/images241.png)Ilustración 183: Configuración del curso - General
+![](../assets/images241.png)*Ilustración 183: Configuración del curso - General*
 
 ![](../assets/images242.png)
 
-Ilustración 184: Catálogo de cursos – Ejemplo de imágenes de cursos
+*Ilustración 184: Catálogo de cursos – Ejemplo de imágenes de cursos*
 
-**Nota** : el **Departamento** es una característica para la que ya no se ofrece soporte. Dependiendo del estilo visual, puede que el departamento aparezca como enlace en la cabecera del campus (para estilos antiguos). Esto es todo lo que cambiará establecer un departamento. Para versiones recientes de la plataforma a partir de Chamilo 1.8, si necesitas administrar cursos por departamentos dentro de una universidad, recomendamos que utilices la opción de multi-url, descrita en la guía del administrador, la hermana pequeña de esta guía.
+> **Nota** : el **Departamento** es una característica para la que ya no se ofrece soporte. Dependiendo del estilo visual, puede que el departamento aparezca como enlace en la cabecera del campus (para estilos antiguos). Esto es todo lo que cambiará establecer un departamento. Para versiones recientes de la plataforma a partir de Chamilo 1.8, si necesitas administrar cursos por departamentos dentro de una universidad, recomendamos que utilices la opción de multi-url, descrita en la guía del administrador, la hermana pequeña de esta guía.
