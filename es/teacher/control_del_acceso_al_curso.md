@@ -4,11 +4,11 @@ Durante la creación del curso, se recomienda que no permitas acceso a los estud
 
 Para conseguir esto, el acceso puede restringirse desde el apartado de **_Configuración_****_del curso_**:
 
-![](assets/images17.png)Ilustración 16: Herramientas de administración del curso
+![](assets/images17.png)*Ilustración 16: Herramientas de administración del curso*
 
 Una serie de opciones están disponibles para el profesor.
 
-![](assets/images18.png)Ilustración 17: Configuración del curso - Acceso al curso
+![](assets/images18.png)*Ilustración 17: Configuración del curso - Acceso al curso*
 
 Las opciones de visibilidad se encuentran en la sección “_Acceso al curso_” (zona desplegable) y son las siguientes:
 

@@ -2,11 +2,11 @@
 
 Crear un curso es rápido y fácil, y puede hacerse desde la página de _Mis_ cursos
 
-![](assets/images14.png)Ilustración 12: Bloques del menú de usuario
+![](assets/images14.png)
 
-.
+Ilustración 12: Bloques del menú de usuario
 
-Nota : en algunos portales, los profesores pueden no tener permisos para crear nuevos cursos y simplemente es el administrador quien les asigna cursos ya creados.
+> **Nota :** en algunos portales, los profesores pueden no tener permisos para crear nuevos cursos y simplemente es el administrador quien les asigna cursos ya creados.
 
 Dale clic en _Crear_ _un_ _curso._ Cumplimenta los campos obligatorios (ver Ilustración 13: Creando un curso – versión corta) y haz clic en el botón. Ya está.
 
@@ -14,7 +14,7 @@ El curso será visible para el creador del curso y (posteriormente) por los usua
 
 Para crear el curso, solo necesitas introducir un único dato, el título o nombre del curso.
 
-![](assets/images15.png)Ilustración 13: Creando un curso – versión corta
+![](assets/images15.png)*Ilustración 13: Creando un curso – versión corta*
 
 Haciendo clic en el enlace de _parámetros avanzados_, se presentan opciones adicionales (totalmente opcionales):
 
@@ -28,7 +28,7 @@ Haciendo clic en el enlace de _parámetros avanzados_, se presentan opciones adi
 
 ![](assets/images16.png)
 
-Ilustración 14: Crear un curso – versión extendida
+*Ilustración 14: Crear un curso – versión extendida*
 
 La página siguiente que aparece en la creación del curso sugiere varias posibilidades:
 
@@ -36,7 +36,7 @@ La página siguiente que aparece en la creación del curso sugiere varias posibi
 
 *   ir directamente, haciendo clic en el icono correspondiente, a uno de los pasos más frecuentes en la configuración del curso:
 
-![](assets/images271.png)Ilustración 15: Creación del curso – continuación
+![](assets/images271.png)*Ilustración 15: Creación del curso – continuación*
 
 Con la estructura vacía ya creada, el siguiente paso es enriquecer el curso con la adición de texto, documentos multimedia, pistas de audio, enlaces, etc.
 

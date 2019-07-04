@@ -4,8 +4,8 @@ Eventos pueden ser añadidos a la agenda de curso de dos maneras. La manera más
 
 ![](../assets/graficos134.png)
 
-Ilustración 155: Añadir un evento directamente al calendario
+*Ilustración 155: Añadir un evento directamente al calendario*
 
 Para una configuración más completa de tu evento, tendrá que hacer clic en el icono de creación de evento ![](../assets/graphics262.png) en la barra de herramientas. Esto abrirá un diálogo permitiendo el ingreso de un título, de una selección de usuarios, pero también de una descripción más enriquecida (p.ej.usando recursos gráficos), repetición automática (diaria-, semanal-, mensual- y anualmente) y la opción de añadir un archivo adjunto (para acompañar los anuncios por correo electrónicos).
 
-![](../assets/graficos135.png)Ilustración 156: Añadir un evento usando el icono Añadir evento
+![](../assets/graficos135.png)*Ilustración 156: Añadir un evento usando el icono Añadir evento*

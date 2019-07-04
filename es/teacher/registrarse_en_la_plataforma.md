@@ -4,7 +4,7 @@ Como para cualquier plataforma web, los usuarios que deseen acceder a los conten
 
 Una vez conectado, el profesor tiene acceso a aquellos cursos en los que se encuentre inscrito:
 
-![](assets/images270.png)Ilustración 8: Página &quot;Mis cursos&quot;
+![](assets/images270.png)*Ilustración 8: Página &quot;Mis cursos&quot; con los cursos asiganados.*
 
 *   Relación de los cursos en los que el usuario esté inscrito. Un lápiz aparece junto a aquellos cursos en los que el usuario tiene permisos de profesor (permitiendo así que pueda actualizar la configuración del curso)
 

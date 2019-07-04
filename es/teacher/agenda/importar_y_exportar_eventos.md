@@ -6,6 +6,6 @@ Los usuarios pueden, además, exportar eventos en el formato iCal desde la venta
 
 ![](../assets/graficos136.png)
 
-Ilustración 157: Exportar, editar o borrar un evento
+*Ilustración 157: Exportar, editar o borrar un evento*
 
-(**Nota**: Los profesores solo tienen acceso a los botones de edición/borrado a través de la agenda dentro de la página principal del curso – no vía la pestaña Mi agenda donde, como los alumnos, solo pueden ver y exportar los eventos).
+> **Nota**: Los profesores solo tienen acceso a los botones de edición/borrado a través de la agenda dentro de la página principal del curso – no vía la pestaña Mi agenda donde, como los alumnos, solo pueden ver y exportar los eventos.
