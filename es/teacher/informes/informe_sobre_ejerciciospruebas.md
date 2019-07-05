@@ -4,4 +4,4 @@ La herramienta de seguimiento de los ejercicios/pruebas es útil para los profes
 
 ![](../assets/graficos88.png)
 
-Ilustración 105: Seguimiento de examen
+*Ilustración 105: Seguimiento de examen*

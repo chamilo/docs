@@ -4,7 +4,7 @@ En la página _Informes_, hacer clic en el icono _Detalles_ ![](../assets/graphi
 
 ![](../assets/graficos85.png)
 
-Ilustración 102: Informes – datos individuales de los alumnos
+*Ilustración 102: Informes – datos individuales de los alumnos*
 
 La información se puede imprimir ![](../assets/graphics51.png) , exportar como un archivo csv ![](../assets/graphics185.png) o enviar por correo-e ![](../assets/graphics186.png)
 
@@ -14,4 +14,4 @@ Pulsando en el icono _Detalles de acceso_ ![](../assets/graphics184.png) en la b
 
 ![](../assets/graficos86.png)
 
-Ilustración 103: Usuarios – Detalles de acceso
+*Ilustración 103: Usuarios – Detalles de acceso*

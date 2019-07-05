@@ -4,6 +4,6 @@ Los miembros de un grupo pueden acceder al espacio de trabajo del grupo simpleme
 
 ![](../assets/images217.png)
 
-Ilustración 165: Grupos – Espacio de grupo
+*Ilustración 165: Grupos – Espacio de grupo*
 
 Desde el espacio de grupo, puedes consultar la hoja de información de un alumno simplemente haciendo clic en su nombre desde la lista de miembros de la parte inferior de la página.

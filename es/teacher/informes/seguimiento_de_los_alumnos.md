@@ -4,7 +4,7 @@ Por defecto, al pulsar sobre el icono _Informes_ se mostrará una lista de los a
 
 ![](../assets/graficos84.png)
 
-Ilustración 101: Informes – Alumnos
+*Ilustración 101: Informes – Alumnos*
 
 En esta página, el profesor, puede ver una tabla resumida de la actividad general de los estudiantes y su progreso. También puede añadir fácilmente columnas a la tabla general referentes al perfil de los estudiantes (país, data de nacimiento), así como otros datos del curso relativos a los mismos ( código de curso, datos de rendimiento, tareas, mensajes, encuestas).
 
