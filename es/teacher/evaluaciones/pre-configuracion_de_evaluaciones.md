@@ -10,7 +10,7 @@ Para ver y editar la configuración básica, pulsar en el icono de edición ![](
 
 ![](../assets/graficos101.png)
 
-Ilustración 119: Evaluaciones – Opciones generales
+*Ilustración 119: Evaluaciones – Opciones generales*
 
 El _Peso total_ del curso es importante para la asignación de ponderaciones individuales (ver más adelante). La _Puntuación_ mínima de certificación define la nota mínima para la superación del curso.
 
@@ -20,7 +20,7 @@ Los pesos permiten definir la importancia relativa de cada una de las actividade
 
 ![](../assets/graficos102.png)
 
-Ilustración 120:Evaluaciones - Pesos
+*Ilustración 120:Evaluaciones - Pesos*
 
 Siempre es recomendable definir el total de las ponderaciones a 100 ( o el valor equivalente total para el curso definido en la sección anterior), de lo contrario se vuelve realmente complicado entender todos los posibles problemas de las puntuaciones relativas.
 
@@ -32,7 +32,7 @@ Así como un pase-marca, puede añadir opciones adicionales: por ejemplo, los no
 
 ![](../assets/graficos103.png)
 
-Ilustración 121: Evaluaciones – Rango de puntuaciones
+*Ilustración 121: Evaluaciones – Rango de puntuaciones*
 
 dar a cualquier banda de nota para hacerlo más rápido para leer informes genéricos.
 
@@ -42,9 +42,11 @@ Finalmente es posible crear certificados generados automáticamente utilizando l
 
 ![](../assets/graficos104.png)
 
-Ilustración 122: Evaluaciones – Plantilla de creación de certificado
+*Ilustración 122: Evaluaciones – Plantilla de creación de certificado*
 
-![](../assets/graficos105.png)Ilustración 123: Etiquetas para usar en la plantilla de certificado
+![](../assets/graficos105.png)
+
+*Ilustración 123: Etiquetas para usar en la plantilla de certificado*
 
 Observa que sobre el editor principal, la página muestra una lista de etiquetas que pueden ser usadas para que el certificado muestre los datos necesarios de cada estudiante una vez que haya logrado superar los objetivos fijados en la evaluación.
 
@@ -52,7 +54,7 @@ La página principal de certificados muestra los certificados que han sido carga
 
 ![](../assets/graficos106.png)
 
-Ilustración 124: Evaluaciones – Relación de plantillas de certificados
+*Ilustración 124: Evaluaciones – Relación de plantillas de certificados*
 
 Haz clic en el icono ![](../assets/graphics198.png) para seleccionar este documento como la plantilla de certificado por defecto ( Se verá coloreado cuando se seleccione). Este es el certificado que será expedido a los estudiantes. Puedes volver a la pantalla de evaluaciones a través de la barra de navegación (haciendo clic en _Evaluaciones_).
 

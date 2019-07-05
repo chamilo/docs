@@ -14,6 +14,6 @@ Las reglas para obtener las competencias son las mismas que las de los certifica
 
 Si la herramienta de competencias fue activada y el alumno logró alguna competencia, y si la herramienta de red social no fue desactivada, esta se mostrará de inmediato en su perfil de red social.
 
-![](../assets/image57.png)Ilustración 131: Competencias: Vista parcial de la página de perfil personal
+![](../assets/image57.png)*Ilustración 131: Competencias: Vista parcial de la página de perfil personal*
 
-![](../assets/image58.png)Ilustración 132: Competencias: Página de perfil compartido, mostrando las competencias en la parte derecha
+![](../assets/image58.png)*Ilustración 132: Competencias: Página de perfil compartido, mostrando las competencias en la parte derecha*

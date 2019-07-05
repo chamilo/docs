@@ -4,6 +4,6 @@ La vista plana ![](../assets/graphics201.png) en la herramienta de _Evaluaciones
 
 La pantalla puede ser impresa o exportada en varios formatos (.xml, .doc, .pdf, .csv) utilizando la barra de iconos.
 
-![](../assets/graficos110.png)Ilustración 128: Evaluaciones – Vista plana
+![](../assets/graficos110.png)*Ilustración 128: Evaluaciones – Vista plana*
 
-**Nota**: Esta vista sólo funciona si las reglas de calificación han sido completamente definidas, lo que sugiere una activación de la opción de reglas de calificaciones por el administrador de la plataforma, **y** la definición de las reglas a nivel del curso, usando el icono de podio (![](../assets/image55.png)).
+> **Nota**: Esta vista sólo funciona si las reglas de calificación han sido completamente definidas, lo que sugiere una activación de la opción de reglas de calificaciones por el administrador de la plataforma, **y** la definición de las reglas a nivel del curso, usando el icono de podio (![](../assets/image55.png)).
