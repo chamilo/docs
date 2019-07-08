@@ -15,7 +15,7 @@ El grupo de utilidades de la sección de _**administración**_, a las que el est
 | <img src="../assets/graphics109.png" width="32px" /> | Configuración del curso | Gestiona y actualiza elementos como el título del curso, categoría, idioma, imagen, etc. |
 | :-: | --- | --- |
 | ![](../assets/graphics110.png) | Acceso al curso | Configura el acceso al curso (visibilidad, suscripción y otros permisos) |
-| ![](../assets/images281.png) | Notificaciones por e-mail | Configura el comportamiento de los avisos por e-mail |
+| <img src="../assets/images281.png" width="32px"/> | Notificaciones por e-mail | Configura el comportamiento de los avisos por e-mail |
 | ![](../assets/images282.png) | Derechos de usuario | Configuración de la agenda, anuncios, o el mostrar imágenes en el foro |
 | ![](../assets/images283.png) | Configuración del chat | Configura cómo se abre la herramienta chat |
 | ![](../assets/images284.png) | Configurar la herramienta lecciones | Permite habilitar el tema gráfico en las lecciones, así como otros parámetros de la herramienta |
@@ -23,7 +23,7 @@ El grupo de utilidades de la sección de _**administración**_, a las que el est
 
 ### Informes {#informes}
 
-![](../assets/graphics113.png)Esta importante utilidad para el profesor muestra un seguimiento de los estudiantes en lecciones, ejercicios, foros, etc., así como el tiempo invertido en el curso, el porcentaje de progreso, calificaciones, tareas, número de mensajes y fecha de última conexión. Es una potente herramienta de monitorización que puede ahorrar al profesor una gran cantidad de tiempo y monótono trabajo de mantenimiento.
+<img src="../assets/graphics113.png" width="64px" align="left"/>Esta importante utilidad para el profesor muestra un seguimiento de los estudiantes en lecciones, ejercicios, foros, etc., así como el tiempo invertido en el curso, el porcentaje de progreso, calificaciones, tareas, número de mensajes y fecha de última conexión. Es una potente herramienta de monitorización que puede ahorrar al profesor una gran cantidad de tiempo y monótono trabajo de mantenimiento.
 
 ### Mantenimiento del curso {#mantenimiento-del-curso}
 

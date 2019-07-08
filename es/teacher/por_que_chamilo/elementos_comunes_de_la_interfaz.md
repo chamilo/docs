@@ -7,12 +7,12 @@ A continuación se relacionan algunos de los símbolos más comúnmente utilizad
 ![](../assets/graphics348.png)
 
 | Iconos | Descripción |
-| --- | --- |
-| ![](../assets/graphics112.svg)![](../assets/graphics112.png) | La herramienta lápiz permite la **edición** de una parte específica de información o contenido |
-| ![](../assets/images7.svg)![](../assets/images7.png) | El aspa permite **eliminar** una parte específica de información o contenido |
+| --- | :-- |
+| <img src="../assets/graphics112.svg" width="42px" /> | La herramienta lápiz permite la **edición** de una parte específica de información o contenido |
+| <img src="../assets/images7.svg" width="42px"/> | El aspa permite **eliminar** una parte específica de información o contenido |
 | ![](../assets/images8.png)![](../assets/images9.png) | El icono del ojo permite cambiar la **visibilidad** de una parte de información o contenido |
-| ![](../assets/image3.svg)![](../assets/image3.png) | La **estrella amarilla** dentro de un icono simboliza la creación de un nuevo recurso |
-| ![](../assets/image4.svg)![](../assets/image4.png) | Una flecha azul hacia la derecha generalmente indica **mover cosas** o **insertar cosas** en otras |
-| ![](../assets/graphics347.svg)![](../assets/graphics347.png) | Una flecha azul hacia la izquierda generalmente significa **volver** atrás (como el botón de retroceso en tu navegador). |
-| ![](../assets/image5.svg)![](../assets/image5.png) | Una flecha azul hacia abajo generalmente indica **descargar** algún archivo o datos. |
-| ![](../assets/image6.svg)![](../assets/image6.png) | Una flecha azul hacia arriba generalmente significa **subir** algún archivo o datos. |
+| <img src="../assets/image3.svg" width="42px"/> | La **estrella amarilla** dentro de un icono simboliza la creación de un nuevo recurso |
+| <img src="../assets/image4.svg" width="42px" /> | Una flecha azul hacia la derecha generalmente indica **mover cosas** o **insertar cosas** en otras |
+| <img src="../assets/graphics347.svg" width="42px" /> | Una flecha azul hacia la izquierda generalmente significa **volver** atrás (como el botón de retroceso en tu navegador). |
+| <img src="../assets/image5.svg" width="42px"/> | Una flecha azul hacia abajo generalmente indica **descargar** algún archivo o datos. |
+| <img src="../assets/image6.svg" width="42px"/> | Una flecha azul hacia arriba generalmente significa **subir** algún archivo o datos. |
