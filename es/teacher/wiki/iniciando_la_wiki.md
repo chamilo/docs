@@ -4,12 +4,12 @@ La página principal es el punto de entrada de la wiki. Puede inicialmente ser e
 
 ![](../assets/graficos112.png)
 
-Ilustración 133: Wiki – Página principal
+*Ilustración 133: Wiki – Página principal*
 
-*   Clic en el icono de editar página![](../assets/graphics209.svg)![](../assets/graphics209.png),
+*   Clic en el icono de editar página <img src="../assets/graphics209.svg" />,
 
 *   Eliminar el contenido existente y reemplazarlo con el nuevo contenido (por ejemplo, una lista de enlaces a otras páginas de la wiki),
 
 *   Añadir un comentario explicando tu contribución.
 
-*   Clic en guardar
+*   Clic en **guardar**

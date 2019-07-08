@@ -4,7 +4,7 @@ Desde Chamilo 1.8.8 en adelante, si tu plataforma utiliza S_esiones,_ dispondrá
 
 ![](../assets/images262.png)
 
-Ilustración 206: Mis cursos - Sesiones
+*Ilustración 206: Mis cursos - Sesiones*
 
 Una diferencia principal desde las versiones previas de Chamilo es que el título de la sesión es ahora un enlace que conduce directamente a una página cuya apariencia difiere del resto de Chamilo. (Es un nuevo formato de presentación que vamos a ir estudiando en los próximos meses, y contamos con tu ayuda y retroalimentación. Déjanos conocer tu opinión en el foro de Chamilo: [http](https://chamilo.org/forum/)[s](https://chamilo.org/forum/)[://chamilo.org/](https://chamilo.org/forum/)[forum/ ](https://chamilo.org/forum/)).
 
@@ -14,7 +14,7 @@ This new concept relies essentially on a new way of setting up tests and learnin
 
 ![](../assets/graphics370.png)
 
-Ilustración 207: Sesiones – Pantalla de nueva sesión
+*Ilustración 207: Sesiones – Pantalla de nueva sesión*
 
 Pinchar en el icono de sesión ![](../assets/graficos80.png) ubicado en la pestaña de _Mis Cursos_, el menú principal consta de cuatro pestañas: _Cursos, Rutas de aprendizaje, Mi POM_ (Preguntas de Opción Múltiple) y _Mis Estadísticas._
 

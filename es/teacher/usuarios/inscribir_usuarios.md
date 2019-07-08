@@ -2,7 +2,7 @@
 
 Veamos primero con inscribir nuevos usuarios como estudiantes en el curso. En la pestaña principal (_Estudiantes_) de la herramienta de_us__uarios,_ pulsar sobre el icono de la barra de tareas _Añadir_ ![](../assets/graphics172.png) Esto mostrará una lista de usuarios registrados en la plataforma que no están subscritos al curso:
 
-![](../assets/graficos97.png)Ilustración 116: Usuarios – Botones de inscripción
+![](../assets/graficos97.png)*Ilustración 116: Usuarios – Botones de inscripción*
 
 Para inscribir un solo alumno, pulsar sobre el enlace _Inscribir_ ![](../assets/graphics174.png) que se encuentra a la derecha de la lista. Para inscribir varios alumnos a la vez, marcar las casillas correspondientes en el lado izquierdo, a continuación pulsar sobre el botón _Registrar_ en la lista desplegable _Acciones_ en la parte inferior de la tabla ( se desplegará una ventana de confirmación para garantizar que desea suscribirse, una vez confirmó, una aparecerá un mensaje de confirmación para indicar que los alumnos han sido subscritos.
 
@@ -30,7 +30,7 @@ Para dar de baja un único usuario, pulsa en el botón _Dar de baja_![](../asset
 
 Para anular la subscripción de más de un usuario a la vez, marca en las casillas de los usuarios que se encuentran a la izquierda de la tabla y selecciona _Dar de baja_ de la lista desplegable en la parte inferior de la página, a continuación pulsa en _Dar de baja_
 
-**Nota** : No se puede dar de baja al docente principal de este curso desde esta pantalla. Solamente el administrador de la plataforma puede realizar esta acción.
+> **Nota** : No se puede dar de baja al docente principal de este curso desde esta pantalla. Solamente el administrador de la plataforma puede realizar esta acción.
 
 ### Cambiar un alumno a asistente del curso {#cambiar-un-alumno-a-asistente-del-curso}
 
@@ -50,7 +50,7 @@ Solo tiene que rellenar el campo de búsqueda con los caracteres correspondiente
 
 Es posible que desees, independientemente de las copias de seguridad realizadas por el administrador de la plataforma, guardar una copia por separado de la lista de usuarios. Para ello, desde la página principal de _Usuarios_, pulsa en uno de los iconos de la barra de herramientas (_Exportar a CSV_ _![](../assets/graphics178.png)__, exportar a Excel__®__![](../assets/graphics179.png)_ _o exportar a PDF_ _![](../assets/graphics363.png)_) para descargar la lista de usuarios en el formato correspondiente.
 
-**Nota**: No son exportados todos los detalles de los usuarios a través de esta funcionalidad (como sus contraseñas, por ejemplo, su información confidencial no disponible para otros usuarios ni siquiera para el docente).
+> **Nota**: No son exportados todos los detalles de los usuarios a través de esta funcionalidad (como sus contraseñas, por ejemplo, su información confidencial no disponible para otros usuarios ni siquiera para el docente).
 
 ### Pantalla informe de los alumnos {#pantalla-informe-de-los-alumnos}
 
