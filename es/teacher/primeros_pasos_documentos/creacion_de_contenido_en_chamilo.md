@@ -2,11 +2,11 @@
 
 Una mayor ventaja de Chamilo frente a otros sistemas de gestión del aprendizaje (LMS) es que proporciona un amplio abanico de características para la creación efectiva de contenido en el curso. La barra de herramientas de la parte superior de la página de documentos muestra un rango de utilidades de apoyo a la autoría de contenido. Algunos de estos iconos aparecen únicamente cuando la opción correspondiente ha sido activada por el administrador.
 
-![](../assets/graphics122.png)Ilustración 34: Documentos – barra de herramientas
+![](../assets/graphics122.png)*Ilustración 34: Documentos – barra de herramientas*
 
 Los iconos marcados con un asterisco amarillo representan herramientas de creación. En primer lugar, el profesor puede crear documentos multimedia enriquecidos directamente a través de la herramienta documentos, sin necesidad de sistemas externos de autoría. Simplemente haciendo clic en el icono de _crear un documento_ ![](../assets/graphics118.png) dentro de la carpeta deseada. Aparece un completo editor online.
 
-![](../assets/images39.png)Ilustración 35: Documentos – Crear un nuevo documento
+![](../assets/images39.png)*Ilustración 35: Documentos – Crear un nuevo documento*
 
 Después de asignar un nombre al documento, es posible utilizar todas las opciones en el editor de texto incrustado para dar formato al documento. El editor soporta un amplio rango de elementos, incluyendo tablas, imágenes, audio, vídeo, Flash, etc. Incluye un editor html, lo que implica que, para aquellos con conocimientos de programación, ¡no hay límite en términos de enriquecer el contenido!
 

@@ -4,4 +4,4 @@ Chamilo reconoce que una interacción social efectiva online es un importante el
 
 ![](../assets/images255.png)
 
-Ilustración 198: Social network - Home
+*Ilustración 198: Social network - Home*

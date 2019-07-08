@@ -6,7 +6,7 @@ Estos directorios están destinados a proporcionar ayuda adicional para organiza
 
 Esos directorios por defecto son invisibles para los alumnos. Es decisión del profesor si los alumnos deben o no ver su contenido (haciendo clic en el icono del _ojo_![](../assets/graphics115.png)).
 
-![](../assets/images33.png)Ilustración 30: Documentos – Lista de directorios por defecto
+![](../assets/images33.png)*Ilustración 30: Documentos – Lista de directorios por defecto*
 
 Por supuesto, es posible crear otros directorios utilizando el icono de crear carpeta. Para navegar rápidamente dentro del árbol de directorios, una lista desplegable, denominada _Carpeta actual_ está disponible en la parte superior izquierda de la pantalla, permitiendo acceder a cualquier nivel de directorios en documentos.
 

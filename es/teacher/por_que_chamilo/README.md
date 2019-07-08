@@ -47,3 +47,4 @@ Un profesor que utilice Chamilo se beneficiará, además, de una serie de herram
 *   elaborar un **diario de clase** (progreso del curso).
 
 La plataforma Chamilo es extremadamente **flexible**. Todas sus herramientas pueden ser personalizadas de acuerdo con las necesidades de cada curso. Proporciona una interfaz de usuario **amigable** e **intuitiva** que no requiere de especiales habilidades o conocimientos previos.
+

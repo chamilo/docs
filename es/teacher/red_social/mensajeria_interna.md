@@ -4,7 +4,7 @@ Desde la pestaña _Red Social_, en el menú de la izquierda, la opción de _Mens
 
 ![](../assets/images257.png)
 
-Ilustración 200: Red Social – Mensajería Interna – Bandeja de Entrada
+*Ilustración 200: Red Social – Mensajería Interna – Bandeja de Entrada*
 
 Para escribir un mensaje a otro usuario (o a un amigo) suscrito a la plataforma sigue los siguientes pasos:
 
@@ -20,4 +20,4 @@ Para escribir un mensaje a otro usuario (o a un amigo) suscrito a la plataforma 
 
 Si el destinatario ha definido su correo electrónico en su perfil, el mensaje serpa enviado automáticamente a dirección de correo electrónico.
 
-**Nota**: Si el mensaje se envía a otro usuario, el mensaje también le llegará a su correo electrónico como una notificación de un mensaje interno, sin embargo, deberá responder al mensaje desde la plataforma.
+> **Nota**: Si el mensaje se envía a otro usuario, el mensaje también le llegará a su correo electrónico como una notificación de un mensaje interno, sin embargo, deberá responder al mensaje desde la plataforma.

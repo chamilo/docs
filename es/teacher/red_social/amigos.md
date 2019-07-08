@@ -1,12 +1,12 @@
 ## “Amigos” {#amigos}
 
-En la pestaña de _Red Social_ es posible hacer contactos e invitarlos como _Amigos_ (nos permitimos hacer un uso libre del termino amigo). Es posible buscar personas dentro de la plataforma de la siguiente manera:
+En la pestaña de _**Red Social**_ es posible hacer contactos e invitarlos como _**Amigos**_ (nos permitimos hacer un uso libre del termino amigo). Es posible buscar personas dentro de la plataforma de la siguiente manera:
 
-*   Haz clic en el enlace _Invitaciones_ en el menú de la izquierda ![](../assets/graficos76.png).
+*   Haz clic en el enlace _**Invitaciones**_ en el menú de la izquierda ![](../assets/graficos76.png).
 
 *   Escribe el nombre de la persona que buscas.
 
-*   Haz clic en _Buscar._
+*   Haz clic en _**Buscar.**_
 
 Simplemente escribiendo algunos caracteres del nombre o apellido de la persona que buscas, Chamilo te ayudará mostrándote una lista de usuarios que coinciden con los caracteres que escribas. Una vez que la invitación es enviada a un usuario, éste puede aceptar o rechazar la solicitud de amistad.
 

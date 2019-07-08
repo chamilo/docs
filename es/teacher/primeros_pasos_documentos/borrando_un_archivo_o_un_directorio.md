@@ -2,7 +2,9 @@
 
 Para borrar, editar, ocultar o mostrar un archivo o directorio, usa las opciones de la columna derecha en la lista de documentos:
 
-![](../assets/images45.png)Ilustración 37: Documentos - Opciones
+![](../assets/images45.png)
+
+*Ilustración 37: Documentos - Opciones*
 
 Como te habrás dado cuenta, los iconos varían dependiendo del tipo de documento. Los documentos HTML ofrecen más posibilidades.
 

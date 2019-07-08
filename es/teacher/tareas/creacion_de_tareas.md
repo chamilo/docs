@@ -2,15 +2,15 @@
 
 Para crear una nueva tarea:
 
-*   pulsar en la herramienta _Crear tarea_![](../assets/graphics65.png) en la página principal de _Tareas_
+*   pulsar en la herramienta _**Crear tarea**_![](../assets/graphics65.png) en la página principal de _Tareas_
 
 *   dar un nuevo nombre a la tarea
 
 *   añadir una descripción (opcional)
 
-*   pulsar en el botón _Validar_
+*   pulsar en el botón _**Validar**_
 
-![](../assets/graficos90.png)Ilustración 107: Crear una nueva tarea
+![](../assets/graficos90.png)*Ilustración 107: Crear una nueva tarea*
 
 Los **ajustes avanzados** permiten:
 

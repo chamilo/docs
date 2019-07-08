@@ -12,4 +12,4 @@ Para configurar esto, selecciona las casillas correspondientes en las _opciones 
 
 ![](../assets/graficos94.png)
 
-Ilustración 112:Tareas – opciones de para fechas de expiración
+*Ilustración 112:Tareas – opciones de para fechas de expiración*

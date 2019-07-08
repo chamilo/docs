@@ -4,4 +4,4 @@ Los estudiantes tienen la opción de realizar su tarea en línea o bien cargar u
 
 ![](../assets/graficos91.png)
 
-Ilustración 108: Documento de tarea del estudiante
+*Ilustración 108: Documento de tarea del estudiante*
