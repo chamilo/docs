@@ -6,7 +6,7 @@ Chamilo también te permite importar los contenidos de una copia de seguridad de
 
 Para comenzar la importación:
 
-*   haz clic en el enlace _Importar una copia de seguridad_ en la sección de _Copia de seguridad del curso_ _![](../assets/graphics331.gif)_
+*   haz clic en el enlace _**Importar una copia de seguridad**_ en la sección de _**Copia de seguridad del curso**_ _![](../assets/graphics331.gif)_
 
 *   elige el origen de la copia: un archivo .zip en tu ordenador o uno almacenado en el servidor,
 
@@ -14,10 +14,10 @@ Para comenzar la importación:
 
 *   decide entre duplicar ficheros específicos durante la importación o reemplazarlos,,
 
-*   haz clic en _Importar una copia_ para comenzar la importación.
+*   haz clic en _**Importar una copia**_ para comenzar la importación.
 
 ![](../assets/images251.png)
 
-Ilustración 194: Copia de seguridad – Importar una copia
+*Ilustración 194: Copia de seguridad – Importar una copia*
 
-**Nota** : Un mensaje confirmará que la restauración se ha ejecutado correctamente
+> **Nota** : Un mensaje confirmará que la restauración se ha ejecutado correctamente

@@ -1,6 +1,6 @@
 ## Copiar el curso {#copiar-el-curso}
 
-La utilidad de _Copiar el curso_ ![](../assets/graphics332.gif) te permite copiar todo o una parte del curso en otro curso (vacío). Para utilizarla, en primer lugar necesitas tener otro curso disponible donde copiar.
+La utilidad de _**Copiar el curso**_ ![](../assets/graphics332.gif) te permite copiar todo o una parte del curso en otro curso (vacío). Para utilizarla, en primer lugar necesitas tener otro curso disponible donde copiar.
 
 Desde la página de Mantenimiento del curso:
 
@@ -14,4 +14,4 @@ Desde la página de Mantenimiento del curso:
 
 *   clic en el botón de _Copiar curso._
 
-**Nota** : Un mensaje confirmará si el curso se ha copiado con éxito
+> **Nota** : Un mensaje confirmará si el curso se ha copiado con éxito
