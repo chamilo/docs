@@ -8,6 +8,6 @@ Cuando la base de datos de preguntas se muestra, presenta una lista con todas la
 
 Para acceder a la base de datos, haz clic en el icono de _reciclar preguntas existentes_ _![](../assets/graficos30.png)_tal y como aparece en la página _Crear una pregunta_ junto con los distintos tipos de preguntas:
 
-![](../assets/graficos31.png)Ilustración 69: Tests – Base de datos de preguntas
+![](../assets/graficos31.png)*Ilustración 69: Tests – Base de datos de preguntas*
 
 Haz clic en el botón de _Reutilizar en la prueba actual_ _![](../assets/graficos32.gif)_para incluir la pregunta en la prueba actual. Lo que en realidad ocurre (en Chamilo 1.9) es que una copia de la prueba antigua se incluye en la prueba actual, de modo que puede ser editada en la nueva prueba si es necesario sin que su contenido o configuración se vean alterados en la prueba en la que fue originalmente creada.

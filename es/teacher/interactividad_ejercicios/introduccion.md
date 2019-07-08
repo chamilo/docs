@@ -1,6 +1,6 @@
 ## Introducción {#introducci-n}
 
-La herramienta de _Ejercicios_ ![](../assets/graphics128.svg)![](../assets/graphics128.png) es generalmente la funcionalidad de mayor interés para los profesores cuando están explorando el mundo del e-learning.
+<img src="../assets/graphics128.svg" width="64px" align="left" /> La herramienta de **_Ejercicios_**  es generalmente la funcionalidad de mayor interés para los profesores cuando están explorando el mundo del e-learning.
 
 El valor de esta herramienta para los profesores es evidente, ofrece corrección y retroalimentación automática de las respuestas de los estudiantes, lo cuál no sólo significa un ahorro de tiempo para el profesor, si no que además, el alumno puede auto-evaluarse repetidamente sin sentirse cohibido, por ejemplo cuando el alumno está en un curso de idiomas y necesita aprender nuevo vocabulario, o dentro de un curso de matemáticas debe comprender a la perfección algún algoritmo. Gracias a la automatización del la retroalimentación, los alumnos obtienen de manera inmediata una respuesta sobre el trabajo que han realizado sin depender de la presencia o disponibilidad del profesor. Así mismo, las calificaciones de los ejercicios pueden integrarse automáticamente en las evaluaciones del alumno junto con información relativa a la resolución del ejercicio como fechas, número de intentos, etc. que pueden ayudar al profesor a realizar un seguimiento del progreso de sus alumnos durante el curso.
 

@@ -4,17 +4,17 @@ Crear un nuevo ejercicio es muy fácil; para comenzar haz clic en el icono de _N
 
 ![](../assets/graficos7.png)
 
-Ilustración 42: Ejercicios - Crear nuevo ejercicio
+*Ilustración 42: Ejercicios - Crear nuevo ejercicio*
 
 Si deseas escribir una descripción del ejercicio,puedes hacerlo haciendo clic en el botón de _Parámetros avanzados__,_ se mostrará un editor de texto en el que podrás escribir la descripción que quieras y se le mostrará a los alumnos cuando realicen el ejercicio.
 
 Una vez que hayas creado el ejercicio, éste se mostrará en la página principal de la herramienta de _Ejercicios_ juntos con todos los ejercicios que se hayan creado.
 
-![](../assets/graficos8.png)Ilustración 43: Lista de ejercicios de un curso
+![](../assets/graficos8.png)*Ilustración 43: Lista de ejercicios de un curso*
 
-Dado que hay varias formas de utilizar la herramienta de _Ejercicios_, puede darse el caso en que las opciones por defecto de los ejercicios no sean las que necesitas, si este llega a ser tu caso, puedes modificar las opciones por defecto en la sección de _Parámetros avanzados_ disponible al momento de crear o modificar un ejercicio, o usando el icono de herramientas (![](../assets/image18.svg)![](../assets/image18.png)).
+Dado que hay varias formas de utilizar la herramienta de _Ejercicios_, puede darse el caso en que las opciones por defecto de los ejercicios no sean las que necesitas, si este llega a ser tu caso, puedes modificar las opciones por defecto en la sección de _Parámetros avanzados_ disponible al momento de crear o modificar un ejercicio, o usando el icono de herramientas (<img src="../assets/image18.svg" width="32px" />).
 
-![](../assets/graficos9.png)Ilustración 44: Parámetros avanzados de un ejercicio al momento de crearlo
+![](../assets/graficos9.png)*Ilustración 44: Parámetros avanzados de un ejercicio al momento de crearlo*
 
 Los parámetros avanzados se explican por si solo, sin embargo a continuación te mostramos una breve descripción de los mismos.
 
@@ -44,6 +44,6 @@ Los parámetros avanzados se explican por si solo, sin embargo a continuación t
 
 *   Si se define un porcentaje de éxito, el estudiante verá un mensaje verde o rojo en la pantalla de resultados según su resultado final.
 
-**Nota:** _El administrador de la plataforma puede habilitar una opción adicional para la sección de “Retroalimentación” de los parámetros avanzados: Autoevaluación (retroalimentación inmediata). Si se activa esta opción, se habilita el tipo de preguntas de “Escenario” que permite a los profesores crear preguntas de respuesta múltiple o de relacionar imágenes, que dependiendo de la respuesta del estudiante, le puede mostrar una secuencia alternativa de preguntas. Esta es una opción muy potente, sin embargo, ten cuidado, por que una vez que la opción de “Autoevaluación” se selecciona no es posible modificarla dentro de un ejercicio, si ya no la quieres utilizar, tendrás que crear un nuevo ejercicio sin que esta opción esté seleccionada._
+> **Nota:** _El administrador de la plataforma puede habilitar una opción adicional para la sección de “Retroalimentación” de los parámetros avanzados: Autoevaluación (retroalimentación inmediata). Si se activa esta opción, se habilita el tipo de preguntas de “Escenario” que permite a los profesores crear preguntas de respuesta múltiple o de relacionar imágenes, que dependiendo de la respuesta del estudiante, le puede mostrar una secuencia alternativa de preguntas. Esta es una opción muy potente, sin embargo, ten cuidado, por que una vez que la opción de “Autoevaluación” se selecciona no es posible modificarla dentro de un ejercicio, si ya no la quieres utilizar, tendrás que crear un nuevo ejercicio sin que esta opción esté seleccionada._
 
-[^9]: Si mientras un alumno resuelve u ejercicio éste se desconecta por cualquier motivo de la plataforma, el tiempo para resolver el ejercicio seguirá corriendo, sin embargo, el alumno podrá volver a conectarse y continuar el ejercicio justo en el punto donde lo dejó. El cronómetro solo se mostrará en los ejercicios configurados para mostrar todas las preguntas en una sola página.
+Si mientras un alumno resuelve u ejercicio éste se desconecta por cualquier motivo de la plataforma, el tiempo para resolver el ejercicio seguirá corriendo, sin embargo, el alumno podrá volver a conectarse y continuar el ejercicio justo en el punto donde lo dejó. El cronómetro solo se mostrará en los ejercicios configurados para mostrar todas las preguntas en una sola página.

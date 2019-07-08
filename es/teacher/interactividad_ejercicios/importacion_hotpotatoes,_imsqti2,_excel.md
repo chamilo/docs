@@ -8,6 +8,6 @@ Estas son conocidas herramientas de autoría que pueden producir pruebas en un f
 
 ![](../assets/graficos34.png)![](../assets/graficos35.png)![](../assets/graficos36.png)
 
-Ilustración 71: Tests - Importación HotPotatoes, Qti2 y tests de Excel
+*Ilustración 71: Tests - Importación HotPotatoes, Qti2 y tests de Excel*
 
 Desde la versión 1.9, es posible importar ejercicios en el formato _Aiken_ también, aunque la funcionalidad de importación QTI2 parece tener ciertos problemas en la versión 1.10.0.

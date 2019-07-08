@@ -2,13 +2,13 @@
 
 Si el administrador ha habilitado la opción de escenarización de ejercicios (ver ilustración),
 
-![](../assets/image59.png)Ilustración 74: Opción de configuración de la plataforma para ejercicios de autoevaluación
+![](../assets/image59.png)*Ilustración 74: Opción de configuración de la plataforma para ejercicios de autoevaluación*
 
 el formulario de creación de ejercicios ofrecerá una opción adicional, llamada escenarización o “Autoevaluación (retroalimentación inmediata)”.
 
 ### Creación de ejercicios de tipo autoevaluación {#creaci-n-de-ejercicios-de-tipo-autoevaluaci-n}
 
-![](../assets/image60.png)Ilustración 75: Opciones de creación de ejercicios - Modo autoevaluación
+![](../assets/image60.png)*Ilustración 75: Opciones de creación de ejercicios - Modo autoevaluación*
 
 Al seleccionar esta opción, distintos cambios aparecerán en la interfaz de creación de ejercicios.
 
@@ -18,11 +18,11 @@ Es importante entender que este tipo de ejercicio no tiene como objetivo la gene
 
 Es importante también notar que, en caso se esté tratando de usar las notas como medida de evaluación, los resultados variarán de un alumno al otro, ya que cada uno podrá tener un recorrido distinto entre las preguntas.
 
-![](../assets/image61.png)Ilustración 76: Página de creación de preguntas de ejercicios de autoevaluación
+![](../assets/image61.png)*Ilustración 76: Página de creación de preguntas de ejercicios de autoevaluación*
 
 Este tipo de ejercicios requiere de una preparación especial. Como verás al crear una nueva pregunta de tipo respuesta única, se presentan mucho más opciones de las normales.
 
-![](../assets/image62.png)Ilustración 77: Formulario de creación de preguntas en modo escenarización
+![](../assets/image62.png)*Ilustración 77: Formulario de creación de preguntas en modo escenarización*
 
 Analicemos los nuevos campos que aparecen en la columna “Escenario”. Todos ellos sugieren una propuesta distinta al alumno, que le aparecerán justo después de responder:
 
@@ -54,8 +54,9 @@ También las preguntas deberían ser identificadas de una manera especial por el
 
 El alumno tomando una prueba de autoevaluación escenarizada verá una pantalla distinta de la normal de ejercicios, al concluir cada pregunta, en la cual tendrá retro-alimentación inmediata, pero también podrá decidir (en caso existan distintas posibilidades) de su próximo paso.
 
-![](../assets/image63.png)Ilustración 79: Autoevaluación escenarizada: Caso de respuesta incorrecta - Volver a intentar
+![](../assets/image63.png)*Ilustración 79: Autoevaluación escenarizada: Caso de respuesta incorrecta - Volver a intentar*
 
-![](../assets/image64.png)Ilustración 80: Autoevaluación escenarizada: Caso de respuesta correcta - Pasar a la siguiente
+![](../assets/image64.png)*Ilustración 80: Autoevaluación escenarizada: Caso de respuesta correcta - Pasar a la siguiente*
 
-![](../assets/image65.png)Ilustración 81: Autoevaluación escenarizada: Caso de respuesta correcta y fin
+![](../assets/image65.png)*Ilustración 81: Autoevaluación escenarizada: Caso de respuesta correcta y fin*
+

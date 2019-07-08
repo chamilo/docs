@@ -2,11 +2,11 @@
 
 Chamilo ofrece un soporte muy útil para el análisis de resultados de las pruebas, simplemente haciendo clic en el icono de resultados ![](../assets/graficos37.png), que se muestra a la derecha de cada una de las pruebas enumeradas en la página principal de Pruebas.
 
-![](../assets/graficos38.png)Ilustración 72: Ejercicios - Lista
+![](../assets/graficos38.png)*Ilustración 72: Ejercicios - Lista*
 
 Esto mostrará una página con todos los resultados relevantes de esa prueba.
 
-![](../assets/graficos39.png)Ilustración 73: Ejercicios – Lista de resultados
+![](../assets/graficos39.png)*Ilustración 73: Ejercicios – Lista de resultados*
 
 En este caso, el profesor puede obtener una visión general de los tiempos y las puntuaciones de los alumnos, y se pueden puntuar ![](../assets/graficos44.png) o editar ![](../assets/graficos45.png) preguntas abiertas y ofrecer una retroalimentación. También puede borrar ![](../assets/graficos46.png) un intento de prueba para permitir que el alumno haga la prueba otra vez (si hay una razón válida para hacerlo, por ejemplo un error en la prueba).
 
