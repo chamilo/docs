@@ -15,14 +15,14 @@ Unos iconos facilitan la gestión de cursos, algunos ya nos son conocidos:
 | ![](../assets/images7.png) | Genera o importa una copia de seguridad |
 | ![](../assets/images8.png) | Facilita ir a la página principal del curso |
 
-Tableau 3: Administración – iconos de administración de cursos
+*Tableau 3: Administración – iconos de administración de cursos*
 
 ### Lista de Cursos {#lista-de-cursos}
 
 Esta herramienta permite visualizar los cursos de la plataforma.
 
 ![](../assets/images162.png)
-Ilustración 54: Administración - Lista de cursos
+*Ilustración 54: Administración - Lista de cursos*
 
 Esta lista nos da mucha información sobre los cursos. Preste atención al color del círculo que precede al título de cada curso, pues representan el tipo de visibilidad del curso:
 
@@ -49,7 +49,7 @@ Estos iconos son atajos que llevan al administrador a la pestaña Mis cursos.
 Cuando un administrador crea un curso sólo está obligado a rellenar el título.
 
 ![](../assets/images163.png)
-Ilustración 55: Creación de un curso
+*Ilustración 55: Creación de un curso*
 
 Además de este campo obligatorio, hay otras opciones disponibles exclusivamente para el administrador:
 
@@ -64,14 +64,14 @@ Además de este campo obligatorio, hay otras opciones disponibles exclusivamente
 Esta característica le permite exportar los detalles de algunos o todos los cursos de la plataforma en el formato CSV.
 
 ![](../assets/images164.png)
-Ilustración 56: Administración - Exportar cursos
+*Ilustración 56: Administración - Exportar cursos*
 
 ### Importar cursos {#importar-cursos}
 
 Esta funcionalidad le permite crear una serie de cursos a partir de la importación de una lista de cursos en formato CSV. Si utiliza las categorías e importa los cursos desde otra instalación de Chamilo, entonces tendrá que asegurarse de que los códigos de las categorías sean iguales (existan) en ambos portales.
 
 ![](../assets/images165.png)
-Ilustración 57: Administración - Importar cursos
+*Ilustración 57: Administración - Importar cursos*
 
 Una vez importado, sólo tendrá que rellenar las lecciones.
 
@@ -80,7 +80,7 @@ Una vez importado, sólo tendrá que rellenar las lecciones.
 Puede crear, actualizar o eliminar categorías de cursos a través de iconos de acción. Es posible crear numerosas categorías y subcategorías.
 
 ![](../assets/images166.png)
-Ilustración 58: Administración - Categorías de cursos
+*Ilustración 58: Administración - Categorías de cursos*
 
 También es posible organizar estas categorías gracias a los iconos en forma de flecha. El texto de estas categorías no se ha internacionalizado, por lo que si se utiliza un portal multilingüe asegúrese de que el nombre o la clasificación de los cursos sea fácil de entender por todos los usuarios.
 
@@ -93,14 +93,14 @@ El administrador puede suscribir a cualquier usuario a un curso. Para ello:
 *   haga clic en _Añadir a este (estos) curso(s)_
 
 ![](../assets/images167.png)
-Ilustración 59: Administración - Suscribir usuarios a los cursos
+*Ilustración 59: Administración - Suscribir usuarios a los cursos*
 
 ### Suscribir usuarios a los cursos desde un fichero {#suscribir-usuarios-a-los-cursos-desde-un-fichero}
 
 Esta característica le permite suscribir un listado de usuarios en un curso mediante un archivo CSV o XML. Por ejemplo, con ciertas modificaciones podremos inscribir directamente en un curso, un listado de usuarios que hayamos exportado previamente de otro.
 
 ![](../assets/images169.png)
-Ilustración 60: Administración - Suscribir usuarios a los cursos
+*Ilustración 60: Administración - Suscribir usuarios a los cursos*
 
 La importación tiene dos acciones opcionales que permiten afinar el resultado de la operación.
 

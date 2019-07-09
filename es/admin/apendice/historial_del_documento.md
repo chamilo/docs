@@ -11,5 +11,6 @@ Este documento es fruto de la colaboración de muchas personas y organizaciones.
 | 2015 | 3.1 | Yannick Warnier | Corrección sección phpMyAdmin |
 | 2015 | 3.2 | Yannick Warnier | Corrección doble opción de actualización y retiro opción de activación sesión |
 | 2017 | 4.0 | Yannick Warnier | Actualización a Chamilo LMS 1.11 (en progreso) |
+| 2019 | 5.0 | Alex Aragón | Actualización a Chamilo 1.11.10 |
 
 Colaborativo: trabajo colaborativo de los autores indicados al inicio del documentos.
