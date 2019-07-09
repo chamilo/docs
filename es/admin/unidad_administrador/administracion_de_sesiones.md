@@ -7,10 +7,9 @@ En una sesión se pueden agrupar cursos de diferentes categorías.
 El el esquema que hemos utilizado para explicar los roles de los usuarios nos servirá para explicar las _sesiones_.
 
 ![](../assets/images206.png)
-Ilustración 61: Global - Esquema de las sesiones
+*Ilustración 61: Global - Esquema de las sesiones*
 
-![](../assets/images104.png)
-![](../assets/images105.png)
+![](../assets/images104.png)![](../assets/images105.png)
 
 Como puede ver, la sesión se define por un _administrador de sesiones_ y un _tutor de la sesión_ o tutor general que actúa como coordinador.
 
@@ -107,7 +106,7 @@ Para agregar una sesión:
 *   no accesible
 *   dar clic en siguiente elemento
 
-![](../assets/images170.png)Ilustración 62: Administración - Creación de sesiones
+![](../assets/images170.png)*Ilustración 62: Administración - Creación de sesiones*
 
 A partir de la versión 1.10, es posible definir sesiones por duración o por fechas.
 
@@ -124,7 +123,7 @@ El segundo paso requiere que se agregue cursos a la sesión. Seleccione uno (o m
 **Registro individual** permite no perderse dentro de los cursos que existen en la plataforma. Usted debe escribir el comienzo del título del curso dentro del campo de búsqueda y los cursos que comiencen por ese texto aparecerán en el listado.
 
 ![](../assets/images171.png)
-Ilustración 63: Administración – Agregando cursos a una sesión
+*Ilustración 63: Administración – Agregando cursos a una sesión*
 
 El último paso le permite suscribir a los alumnos a la sesión. Otros tutores se pueden asignar más tarde, ahora sólo estamos inscribiendo alumnos.
 
@@ -135,7 +134,7 @@ Elegir a los usuarios y añadirlos con la flecha azul, de forma similar a la que
 **Matrícula por clases**permite agregar a los alumnos a la sesión de clases. Las clases se tratarán más adelante en este capítulo.
 
 ![](../assets/images172.png)
-Ilustración 64: Administración - Suscripción de los estudiantes a las sesiones
+*Ilustración 64: Administración - Suscripción de los estudiantes a las sesiones*
 
 Debido al funcionamiento especial de las herramientas de un curso cuando éste se utiliza a través de sesiones, hemos escrito un informe técnico sobre cómo deberían comportarse en el contexto de una sesión en nuestro wiki técnico:
 
@@ -151,7 +150,7 @@ La gestión de categorías de sesiones es muy similar a la gestión de categorí
 
 Chamilo permite exportar una lista de todas o de algunas de las sesiones que se hayan definido en la plataforma.
 
-![](../assets/images173.png)Ilustración 65: Administración - Exportar sesiones
+![](../assets/images173.png)*Ilustración 65: Administración - Exportar sesiones*
 
 Elija el formato de exportación, luego seleccione las sesiones que desea exportar, haga clic en _Exportar sesión_ y descargue el archivo.
 
@@ -169,7 +168,7 @@ Teniendo en cuenta la posibilidad de definir el contenido de una sesión a trav�
 
 Para realizar la copia es necesario tener una sesión de origen y otra de destino en la que queramos que también esté el mismo curso y todos sus contenidos.
 
-![](../assets/images174.png)Ilustración 66: Copiar un curso de una sesión a otra
+![](../assets/images174.png)*Ilustración 66: Copiar un curso de una sesión a otra*
 
 Una vez que se cumplen estas condiciones, sólo tendrá que seleccionar primero la sesión y curso de origen y luego la sesión y curso de destino, tras lo cual deberá decidir si desea que se copien todos los contenidos del curso o sólo una parte de ellos.
 
@@ -191,7 +190,7 @@ La interfaz de la herramienta es elemental y puede que al principio le lleve alg
 
 Veamos como se hace...
 
-![](../assets/images175.png)Ilustración 67: Lista de carreras y promociones
+![](../assets/images175.png)*Ilustración 67: Lista de carreras y promociones*
 
 La primera página nos da una lista de las carreras (tablas con cabecera en fondo gris), y las promociones que cada carrera contiene (primera columna), las sesiones correspondientes a estas promociones (segunda columna) y los cursos incluidos en estas sesiones (última columna).
 
@@ -201,7 +200,7 @@ La primera página nos da una lista de las carreras (tablas con cabecera en fond
 
 Para añadir una nueva carrera, haga clic en el icono tricolor de los archivadores. Aparecerá la página siguiente.
 
-![](../assets/images176.png)Ilustración 68: Creación de carreras
+![](../assets/images176.png)*Ilustración 68: Creación de carreras*
 
 Sólo el nombre de la carrera es obligatorio. Añadir una nueva carrera (por ejemplo, Medicina) y guardar. La carrera que acaba de crear aparecerá en la lista de carreras.
 
@@ -211,7 +210,9 @@ Cada fila de la lista corresponde a una carrera. A la derecha de la fila un icon
 
 Para entender mejor la estructura de las carreras y las promociones las representaremos en un esquema:
 
-![](../assets/images190.png)Ilustración 70: Cursos, sesiones, promociones y carreras
+<img src="../assets/images190.png" width="400px"/>
+
+*Ilustración 70: Cursos, sesiones, promociones y carreras*
 
 Las entidades aquí en juego están organizadas por periodos (categorías de sesiones) y sumándose en el mismo nivel las promociones (conjunto de sesiones de un grupo). Si saca los periodos fuera del esquema, éste será más fácil de entender.
 
@@ -221,11 +222,11 @@ Las promociones representan los grupos que potencialmente se graduará de una ci
 
 En las promociones forman parte de las carreras y a diferencia de en las carreras pueden incluir sesiones de forma directa
 
-![](../assets/images178.png)Ilustración 71: Creación de promociones
+![](../assets/images178.png)*Ilustración 71: Creación de promociones*
 
 La creación de promociones debe ser seguida por la asignación de sesiones a esas promociones, usando el icono sesiones para cada promoción del listado. Entonces se obtiene una lista similar a la siguiente.
 
-![](../assets/images179.png)Ilustración 72: Lista de carreras y promociones
+![](../assets/images179.png)*Ilustración 72: Lista de carreras y promociones*
 
 En esta página, vemos las carreras de _Medicina_ y de _Ingeniería de Sistemas_, con sus respectivas promociones, las cuales contienen una sesión (salvo la del _10mo ciclo)_ y la lista de cursos de cada sesión. Cada elemento es un enlace al recurso correspondiente.
 
@@ -243,7 +244,9 @@ Si estamos en el 2016, crearemos una promoción 2021 para medicina (PROMMED2021)
 
 Volvamos al esquema anterior como referencia:
 
-![](../assets/images191.png)Ilustración 73: Cursos, sesiones, promociones y carreras
+<img src="../assets/images191.png" width="400px" />
+
+*Ilustración 73: Cursos, sesiones, promociones y carreras*
 
 Las dos promociones será el resultado de 5 años de estudio, que serán acordes con el periodo mínimo de cursos de un año. De este modo tendrá 5 **periodos** de un año cada uno que en conjunto forman la promoción 2021.
 

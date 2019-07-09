@@ -3,21 +3,21 @@
 La gestión de usuarios se realiza a través de iconos genéricos y familiares.
 
 | Iconos | Funcionalidades |
-| --- | --- |
+| :-: | --- |
 | ![](../assets/images34.png)![](../assets/images35.png) | Modifica el estado del usuario (activado/desactivado) |
-| ![](../assets/images36.svg)![](../assets/images36.png) | ![](../assets/images50.png)Muestra la lista de cursos en los que está inscrito el usuario |
-|  | Conectar como ... permite a los administradores tomar la identidad de un usuario específico. Puede ser útil para revisar un fallo que éste haya comunicado que le ocurre en la plataforma. También puede facilitar la realización de una rápida demostración de los diversos roles de usuario. |
+| <img src="../assets/images36.svg" width="42px"/> | Muestra la lista de cursos en los que está inscrito el usuario |
+| ![](../assets/images50.png) | Conectar como ... permite a los administradores tomar la identidad de un usuario específico. Puede ser útil para revisar un fallo que éste haya comunicado que le ocurre en la plataforma. También puede facilitar la realización de una rápida demostración de los diversos roles de usuario. |
 | ![](../assets/images45.png) | Asigna cursos a administradores o supervisores para su seguimiento (a través del Panel de control) |
 | ![](../assets/images37.gif) | Asigna sesiones del curso a administradores o supervisores para su seguimiento (a través del Panel de control). |
 | ![](../assets/images38.png) | Suministra toda la información sobre el usuario, su lista de sesiones, la lista de cursos y otros detalles, además de muchas maneras de ampliarla. |
 | ![](../assets/images39.png) | Asigna usuarios a administradores o supervisores para el seguimiento (a través del Panel de control) |
 | ![](../assets/images40.png)![](../assets/images41.png) | Da una información detallada sobre el usuario (deshabilitado para docentes y administradores) |
-| ![](../assets/images49.png) | ![](../assets/images32.png)Actualiza la información y ajustes de los usuarios |
-|  | Muestra el calendario libre/ocupado de los usuarios |
+| ![](../assets/images49.png) | Actualiza la información y ajustes de los usuarios |
+| ![](../assets/images32.png) | Muestra el calendario libre/ocupado de los usuarios |
 | ![](../assets/images42.png) | Elimina un usuario (después de la aprobación) |
 | ![](../assets/images43.png)![](../assets/images44.png) | Muestra si un usuario es administrador o no. Sólo los administradores de cuentas (o los administradores de cuentas de sesiones) tienen una estrella amarilla, el resto aparece con una estrella gris. |
 
-Tableau 1: Administración – Iconos de administración de usuarios
+*Tabla 1: Administración – Iconos de administración de usuarios*
 
 ### Roles de los usuarios {#roles-de-los-usuarios}
 
@@ -27,7 +27,9 @@ Para el administrador común, parecerá que sólo hay cuatro roles en Chamilo: l
 
 Con el fin de guiarle en el descubrimiento de estos roles, se utilizará el siguiente esquema como referencia, ya que representa la mayor parte de las funciones y también la noción de sesiones (que veremos en el capítulo Capítulo 6 Administración de sesiones de la página 69).
 
-![](../assets/images205.png)Ilustración 43: Roles y sesiones
+<img src="../assets/images205.png" width="600px" />
+
+*Ilustración 43: Roles y sesiones*
 
 En este esquema, podemos ver al administrador principal (en la parte superior), al administrador de sesiones (a la derecha), al tutor de la sesión (en la parte superior del bloque de la sesión), a los tutores de los cursos (en la parte superior de los cursos), al docente (a la izquierda de un curso), a los alumnos (conectado a la sesión) y al gerente de recursos humanos (conectado a los alumnos).
 
@@ -127,11 +129,11 @@ En la página de administración, el bloque de usuarios se presenta de esta mane
 
 Aquí el administrador puede gestionar a todos los usuarios con un simple clic sobre un icono.
 
-![](../assets/images153.png)Ilustración 45: Administración - Lista de usuarios
+![](../assets/images153.png)*Ilustración 45: Administración - Lista de usuarios*
 
 Con el fin de visualizar la lista de usuarios de una manera más clara, aquí hay una lista reducida de los roles y tipos de opciones a los que el administrador tiene acceso.
 
-![](../assets/images154.png)Ilustración 46: Administración - Usuarios - Opciones por rol
+![](../assets/images154.png)*Ilustración 46: Administración - Usuarios - Opciones por rol*
 
 #### Estudiante/Alumno {#estudiante-alumno}
 
@@ -227,7 +229,7 @@ Para agregar usuarios, el administrador deberá cumplimentar un formulario en el
 
 Además, hay otras opciones avanzadas a las que se debe prestar atención.
 
-![](../assets/images155.png)Ilustración 47: Administración - Creación de usuarios
+![](../assets/images155.png)*Ilustración 47: Administración - Creación de usuarios*
 
 La contraseña, se puede generar automáticamente o ser asignada por el administrador. Dependiendo de las necesidades de la situación, no se olvide de la opción &quot;Enviar un e-mail al nuevo usuario&quot;.
 
@@ -243,7 +245,7 @@ Tres nuevos campos se han añadido a Chamilo 1.8.8\. Estos campos le permiten co
 
 En Chamilo, es posible exportar todos o una selección de usuarios.
 
-![](../assets/images156.png)Ilustración 48: Administración - Exportar usuarios
+![](../assets/images156.png)*Ilustración 48: Administración - Exportar usuarios*
 
 Usted puede elegir entre dos formatos para el archivo de salida: [XML](http://fr.wikipedia.org/wiki/Extensible_Markup_Language) o [CSV](http://fr.wikipedia.org/wiki/Comma-separated_values). La mayoría de usuarios utilizan CSV que puede ser leído con facilidad por varios programas como MS-Excel® y OpenOffice.org Calc®.
 
@@ -259,7 +261,7 @@ Chamilo le permite importar los usuarios utilizando el mismo formato en el que s
 
 Para importar un archivo CSV/XML, realice los siguientes pasos:
 
-![](../assets/images157.png)Ilustración 49: Administración - Importar usuarios
+![](../assets/images157.png)*Ilustración 49: Administración - Importar usuarios*
 
 *   seleccione el archivo tras pulsar Examinar
 
@@ -269,7 +271,9 @@ Para importar un archivo CSV/XML, realice los siguientes pasos:
 
 *   haga clic en Importar
 
-![](../assets/images158.png)Ilustración 50: Administración – Informe de la importación de usuarios
+![](../assets/images158.png)
+
+*Ilustración 50: Administración – Informe de la importación de usuarios*
 
 El mensaje de aviso muestra las incidencias que se produzcan y la lista de usuarios que no pudieron ser importados.
 
@@ -291,7 +295,7 @@ Con este cambio, es posible ahora armar un grupo de red social que pueda ser ins
 
 La herramienta de _red social_ permite crear grupos de interés común donde los usuarios dialogan de forma similar a la de un foro. Los grupos que usted cree podrán ser abiertos o cerrados. Con otras opciones de configuración, también puede decidir si se va a permitir que los usuarios puedan crear sus propios grupos de interés.
 
-![](../assets/images159.png)Ilustración 51: Administración - Creación de grupos sociales
+![](../assets/images159.png)*Ilustración 51: Administración - Creación de grupos sociales*
 
 Para que esta clase sea un grupo en la red social, marque la casilla “Grupo de red social”.
 
@@ -299,7 +303,7 @@ Para que esta clase sea un grupo en la red social, marque la casilla “Grupo de
 
 En esta sección puede actualizar o eliminar los grupos, así como agregar usuarios a un grupo.
 
-![](../assets/images160.png)Ilustración 52: Administración - Lista de clases
+![](../assets/images160.png)*Ilustración 52: Administración - Lista de clases*
 
 Si usted hace clic en el enlace del nombre del grupo se le conducirá a la página de ese grupo y a la pestaña de _redes sociales_.
 
@@ -321,7 +325,7 @@ Se pueden crear campos en el perfil de un usuario sin que éste tenga que tener 
 
 Para usuarios familiarizados con Drupal esto es equivalente a un mini modulo CCK en Chamilo.
 
-![](../assets/images161.png)Ilustración 53: Administración - Lista de campos del perfil de usuario
+![](../assets/images161.png)*Ilustración 53: Administración - Lista de campos del perfil de usuario*
 
 | Iconos | Funcionalidades |
 | --- | --- |
@@ -330,6 +334,6 @@ Para usuarios familiarizados con Drupal esto es equivalente a un mini modulo CCK
 | ![](../assets/images3.png) | Organización de los campos |
 | ![](../assets/images4.png)![](../assets/images5.png) | Mostrar / Ocultar un campo del usuario |
 
-Tabla 2: Administración – Iconos de administración de los campos del perfil
+*Tabla 2: Administración – Iconos de administración de los campos del perfil*
 
 [^10]: https://chamilo.org/en/providers
