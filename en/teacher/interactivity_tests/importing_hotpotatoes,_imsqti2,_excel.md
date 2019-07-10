@@ -6,8 +6,8 @@ To do so, the teacher need simply click on the relevant icon in the toolbar on t
 
 ![](../assets/graphics132.png)
 
-Illustration 63: Tests – import external tests from Tests page
+*Illustration 63: Tests – import external tests from Tests page*
 
 ![](../assets/graphics157.png)![](../assets/graphics158.png)![](../assets/graphics159.png)
 
-Illustration 64: Tests - Import HotPotatoes, Qti2 and Excel tests
+*Illustration 64: Tests - Import HotPotatoes, Qti2 and Excel tests*

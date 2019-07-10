@@ -2,7 +2,7 @@
 
 On creating a test, click _Proceed to questions_ you will be taken to the questions page:
 
-![](../assets/images292.png)Illustration 47: First view of the questions list
+![](../assets/images292.png)*Illustration 47: First view of the questions list*
 
 In addition to the toolbar the page displays an array of different types of question. (The same page can be accessed at a later time using the edit icon for any given test listed in the _Tests_ page.) It offers a range of question types from which to choose, which are described in this section. Each test can contain a combination of question types – this can prove handy for ensuring tests don&#039;t become monotonous.
 
@@ -32,7 +32,7 @@ Global multiple answer
 
 ![](../assets/images50.png)
 
-Illustration 48: Exercises – Question types
+*Illustration 48: Exercises – Question types*
 
 Questions are created using an on-line form which differs according to the question type. The following subsections describe each form in detail. Completion of the forms is quite intuitive. The following general points regarding the completion of the on-line forms apply to all or most types of question:
 
@@ -54,15 +54,15 @@ Questions are created using an on-line form which differs according to the quest
 
 ### Type 1 : Multiple choice – Single answer {#type-1-multiple-choice-single-answer}
 
-![](../assets/graphics153.gif)The classic multiple choice question is one in which **only one answer** can be considered valid for scoring purposes. It is possible to make the test a little bit more challenging by assigning a negative score to a wrong answer. When this is highlighted (e.g. in the test introduction or the question itself), this encourages the learner to think more carefully before selecting ananswer at random, and incurring a penalty.
+<img src="../assets/exercise/mcua.svg" width="64px" align="left"/>The classic multiple choice question is one in which **only one answer** can be considered valid for scoring purposes. It is possible to make the test a little bit more challenging by assigning a negative score to a wrong answer. When this is highlighted (e.g. in the test introduction or the question itself), this encourages the learner to think more carefully before selecting ananswer at random, and incurring a penalty.
 
 ![](../assets/graphics154.png)
 
-Illustration 49: Tests – Multiple choice, single answer
+*Illustration 49: Tests – Multiple choice, single answer*
 
 ### Type 2 : Multiple choice – multiple answer {#type-2-multiple-choice-multiple-answer}
 
-![](../assets/graphics350.gif)This question type is a variation of the previous simple multiple choice question. It allows you to assign more than one valid answer. Again, positive and negative scores are possible. This type of question can prove more challenging to students (you may wish to indicate in the question that there are two answers – so as not to “trick” them!
+<img src="../assets/exercise/mcma.svg" width="64px" align="left"/>This question type is a variation of the previous simple multiple choice question. It allows you to assign more than one valid answer. Again, positive and negative scores are possible. This type of question can prove more challenging to students (you may wish to indicate in the question that there are two answers – so as not to “trick” them!
 
 ![](../assets/graphics140.png)
 
@@ -70,11 +70,11 @@ Illustration 50: Tests – Multiple answer question
 
 ### Type 3 : Fill the blanks {#type-3-fill-the-blanks}
 
-![](../assets/graphics351.gif)This question type can be used to produce the classic “cloze passage” exercise favoured by language teachers, in which certain words in a written passage can be selected to be displayed as a blank field for students to fill in. First, the teacher simply needs to type the passage (or list of sentences) and then add square brackets around the words to be “blanked”. (These words will be displayed to the learner as empty text fields, which will be marked as correct if the student enters the correct answer matching the word typed by the teacher.) As soon as the square brackets are added, the form will display a “score” field for each word to be corrected. To make the test a little easier, the teacher may choose to list the words to be chose in the “enrich question” box. It&#039;s a handy test for checking key terminology or vocabulary.
+<img src="../assets/exercise/fill_in_blanks.svg" width="64px" align="left"/>This question type can be used to produce the classic “cloze passage” exercise favoured by language teachers, in which certain words in a written passage can be selected to be displayed as a blank field for students to fill in. First, the teacher simply needs to type the passage (or list of sentences) and then add square brackets around the words to be “blanked”. (These words will be displayed to the learner as empty text fields, which will be marked as correct if the student enters the correct answer matching the word typed by the teacher.) As soon as the square brackets are added, the form will display a “score” field for each word to be corrected. To make the test a little easier, the teacher may choose to list the words to be chose in the “enrich question” box. It&#039;s a handy test for checking key terminology or vocabulary.
 
 ![](../assets/graphics139.png)
 
-Illustration 51: Tests - Fill the blanks
+*Illustration 51: Tests - Fill the blanks*
 
 The question will appear like this to the learner, who simply needs to type the correct word in to the blank fields:
 
@@ -82,11 +82,11 @@ The question will appear like this to the learner, who simply needs to type the 
 
 ### Type 4 : Matching {#type-4-matching}
 
-![](../assets/graphics352.gif)This type of question is designed to have the learner link together text elements from one list with text elements in another. An element might be a word, a sentence or part-sentence. It can also be used to ask a user to sort elements in a certain order.
+<img src="../assets/exercise/matching.svg" width="64px" align="left"/>This type of question is designed to have the learner link together text elements from one list with text elements in another. An element might be a word, a sentence or part-sentence. It can also be used to ask a user to sort elements in a certain order.
 
 ![](../assets/graphics142.png)
 
-Illustration 52: Tests – Matching text elements
+*Illustration 52: Tests – Matching text elements*
 
 The learner will view the matching question like this:
 
@@ -96,11 +96,11 @@ or, from 1.9.6, a draggable circle will make it a little more appealing to stude
 
 ### Type 5 : Open question {#type-5-open-question}
 
-![](../assets/graphics353.gif)The open question type allows the learner to write whatever they wish as an answer (a kind of “mini-assignment). As such an activity has no single give answer, it will **not** be automatically evaluated at the end of the test, but will have to be evaluated manually by the teacher before the final test result can be scored. As with assignment and marked forum posts, the teacher is able to do this via the _Recording_ tool which will flag up open questions needing marked.
+<img src="../assets/exercise/open_answer.svg" width="64px" align="left"/>The open question type allows the learner to write whatever they wish as an answer (a kind of “mini-assignment). As such an activity has no single give answer, it will **not** be automatically evaluated at the end of the test, but will have to be evaluated manually by the teacher before the final test result can be scored. As with assignment and marked forum posts, the teacher is able to do this via the _Recording_ tool which will flag up open questions needing marked.
 
 ![](../assets/images54.png)
 
-Illustration 53: Tests - Open questions
+*Illustration 53: Tests - Open questions*
 
 The learner will be presented with a text field in which to write. (He can use the small arrow on the left of the top border of the field to make use of a range of fields if he wishes to enrich his presentation. e.g. with heading or highlighted text.)
 
@@ -108,7 +108,7 @@ The learner will be presented with a text field in which to write. (He can use t
 
 ### Type 6: Audio answer {#type-6-audio-answer}
 
-![](../assets/graphics354.png)This new question type, available with Chamilo 1.9, will only appear only if your administrator has enabled the Nanogong audio recording feature. The question can be compared to “open question” type described above, requiring manual marking by the teacher, but instead of asking the learner to write a text passage, you ask him to record an audio answer. This has obvious uses for language courses, of for learners with particular access needs, but can provide a useful alternative in many study fields – encouraging learners to develop their oral presentation skills.
+<img src="../assets/exercise/audio_question.svg" width="64px" align="left"/>This new question type, available with Chamilo 1.9, will only appear only if your administrator has enabled the Nanogong audio recording feature. The question can be compared to “open question” type described above, requiring manual marking by the teacher, but instead of asking the learner to write a text passage, you ask him to record an audio answer. This has obvious uses for language courses, of for learners with particular access needs, but can provide a useful alternative in many study fields – encouraging learners to develop their oral presentation skills.
 
 (note: This question type requires the learner to have Java applets supported in his browser. If this is not the case, he will need to to record the audio separately and then upload it as an MP3 file to the server.)
 
@@ -116,7 +116,7 @@ Because of the additional requirements for this question type, you should make s
 
 ![](../assets/graphics145.png)
 
-Illustration 54: Tests – Oral expression
+*Illustration 54: Tests – Oral expression*
 
 The learner simply needs to press the _Record answer_ when he is ready to talk, and follow the instructions for the on-screen Nanogong recorder, which will automatically send his recording to the teacher for marking and scoring.
 
@@ -126,9 +126,9 @@ The learner simply needs to press the _Record answer_ when he is ready to talk, 
 
 ### Type 7 : Hot spot, or image area {#type-7-hot-spot-or-image-area}
 
-![](../assets/graphics355.gif)In this type of question, the learner will be asked to identify areas within an image by clicking on them. These areas have been previously defined by the teacher. Building one of these questions require slightly more work than other types.
+<img src="../assets/exercise/hotspot.svg" width="64px" align="left"/>In this type of question, the learner will be asked to identify areas within an image by clicking on them. These areas have been previously defined by the teacher. Building one of these questions require slightly more work than other types.
 
-![](../assets/graphics147.png)Illustration 55: Exercises - Hot spot question creation
+![](../assets/graphics147.png)*Illustration 55: Exercises - Hot spot question creation*
 
 Having uploaded your image and named your question, you can add or remove hotspots, and define the area using an ellipse, a rectangle or a polygon shape. As with other question types, you can add comments for feedback purposes and determine a score for each correctly identified area.
 
@@ -136,50 +136,50 @@ The learner needs to click on the picture to identify the areas listed – the n
 
 ![](../assets/graphics148.png)
 
-Illustration 56: Exercises - Hot spot learner view
+*Illustration 56: Exercises - Hot spot learner view*
 
 ### Type 8 : Exact combination {#type-8-exact-combination}
 
-![](../assets/graphics356.gif)This is a variation of the multiple answer type test looked at above. The only difference is that no partially-correct combination will be accepted. This means that if, between options A-B-C-D, only B and D are correct, you will have to mark both B **and** D in order to be given the points assigned to this question. There is therefore only one overall score field shown on the form.
+<img src="../assets/exercise/mcmac.svg" width="64px" align="left"/>This is a variation of the multiple answer type test looked at above. The only difference is that no partially-correct combination will be accepted. This means that if, between options A-B-C-D, only B and D are correct, you will have to mark both B **and** D in order to be given the points assigned to this question. There is therefore only one overall score field shown on the form.
 
 ![](../assets/images55.png)
 
-Illustration 57: Tests - Exact combination
+*Illustration 57: Tests - Exact combination*
 
 ### Type 9 : Unique answer with unknown {#type-9-unique-answer-with-unknown}
 
-![](../assets/graphics357.gif)Sometimes a teacher wants the student to indicate that they don&#039;t know the answer to a question, rather than just guess an answer. This question type is a single-answer multiple choice question, but reserves the last answer as a “Don&#039;t know” option, with an automatic score of zero. Students can be discouraged from guessing by penalizing a wrong answer with a negative score.
+<img src="../assets/exercise/mcuao.svg" width="64px" align="left"/>Sometimes a teacher wants the student to indicate that they don&#039;t know the answer to a question, rather than just guess an answer. This question type is a single-answer multiple choice question, but reserves the last answer as a “Don&#039;t know” option, with an automatic score of zero. Students can be discouraged from guessing by penalizing a wrong answer with a negative score.
 
 ![](../assets/graphics150.png)
 
-Illustration 58: Tests – unique answer with unknown
+*Illustration 58: Tests – unique answer with unknown*
 
 ### Type 10 : Multiple answer True/False/Don&#039;t know {#type-10-multiple-answer-true-false-don-t-know}
 
-![](../assets/graphics358.gif)This is a another combination format which includes a zero-scored “don&#039;t know” option as with the above question option, but using true/false answers rather than multiple choice. Again, negative scores can be assigned to discourage guessing, and admit “honest” ignorance!
+<img src="../assets/exercise/mcmao.svg" width="64px" align="left"/>This is a another combination format which includes a zero-scored “don&#039;t know” option as with the above question option, but using true/false answers rather than multiple choice. Again, negative scores can be assigned to discourage guessing, and admit “honest” ignorance!
 
 ![](../assets/graphics151.png)
 
-Illustration 59: Tests – Multiple answer true/false/don&#039;t know
+*Illustration 59: Tests – Multiple answer true/false/don&#039;t know*
 
 ### Type 11 : Combination True/false/don&#039;t know {#type-11-combination-true-false-don-t-know}
 
-![](../assets/graphics359.gif)This option offers a single score covering one or more questions. The form looks similar to the “exact answer” form, but the test is displayed to the student differently, as illustrated below.
+<img src="../assets/exercise/mcmaco.svg" width="64px" align="left"/>This option offers a single score covering one or more questions. The form looks similar to the “exact answer” form, but the test is displayed to the student differently, as illustrated below.
 
 ![](../assets/graphics170.png)
 
-Illustration 60: Tests – Combination true/false/don&#039;t know
+*Illustration 60: Tests – Combination true/false/don&#039;t know*
 
 The learner will view the question(s) and use radio buttons like this:
 
 ![](../assets/graphics171.png)
 
-(Note: a “don&#039;t know” will generate a zero score, so this format might most fairly contain one or two questions – requiring prudent use from the teacher.)
+> **Note**: a “don&#039;t know” will generate a zero score, so this format might most fairly contain one or two questions – requiring prudent use from the teacher.
 
 ### Type 12 : Global multiple answer {#type-12-global-multiple-answer}
 
-![](../assets/graphics360.gif)This question format combines the multiple answer format with a single score , providing an option for ensuring that no negative score is accrued
+<img src="../assets/exercise/mcmagl.svg" width="64px" align="left"/>This question format combines the multiple answer format with a single score , providing an option for ensuring that no negative score is accrued
 
 ![](../assets/graphics152.png)
 
-Illustration 61: Tests – Global multiple answer
+*Illustration 61: Tests – Global multiple answer*

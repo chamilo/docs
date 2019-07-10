@@ -4,17 +4,17 @@ Creating a new test is very easy. Click the _create a test_ icon ![](../assets/g
 
 ![](../assets/graphics133.png)
 
-Illustration 44: Exercises – Create a new test
+*Illustration 44: Exercises – Create a new test*
 
 If you opt to _give a context to the test_ _![](../assets/graphics131.png)_you can use the on-line editor to compose an explanatory section which will be visible to learners when they undertake the test.
 
 The test will be displayed on the main page of the test tool, listed along with other tests created in the course:
 
-![](../assets/graphics134.png)Illustration 45: Exercises - List
+![](../assets/graphics134.png)*Illustration 45: Exercises - List*
 
 Because there are so many different ways the test tool can be used, there is a good chance the default options are not entirely suitable your needs. Be careful, therefore to consider the extensive Advanced _settings_ section available in the _create/edit test_ page:
 
-![](../assets/graphics135.png)Illustration 46: Exercises – Creating an exercise – Advanced options
+![](../assets/graphics135.png)*Illustration 46: Exercises – Creating an exercise – Advanced options*
 
 The settings are fairly self evident:
 
@@ -40,6 +40,6 @@ The settings are fairly self evident:
 
 *   A closing message to be viewed on completion can be composed.
 
-**Note** : _The platform administrator may enable an additional option in the “Feedback” section of the advanced settings:__Self-evaluation (immediate feedback)._ This option, if checked, enables the “scenario” question types which allows teachers to devise quizzes based on multiple-choice or image mapping questions which, depending on the answer given, lead the learner to alternative subsequent questions. This is a powerful tool – however, be aware that once _self-evaluation_ is checked, these advanced settings cannot be changed: you will instead have to create a new test not based on the _Self-evaluation (immediate feedback)_ option.
+> **Note** : _The platform administrator may enable an additional option in the “Feedback” section of the advanced settings:__Self-evaluation (immediate feedback)._ This option, if checked, enables the “scenario” question types which allows teachers to devise quizzes based on multiple-choice or image mapping questions which, depending on the answer given, lead the learner to alternative subsequent questions. This is a powerful tool – however, be aware that once _self-evaluation_ is checked, these advanced settings cannot be changed: you will instead have to create a new test not based on the _Self-evaluation (immediate feedback)_ option.
 
 [^10]: If the learner disconnects from the exercise, his time will continue counting down until it is completely expired, but he will be able to reconnect and continue his exercise right whee he left it. The time counter only works in one question per page mode.
