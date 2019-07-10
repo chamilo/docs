@@ -2,14 +2,17 @@
 
 Chamilo has been designed to provide help and support within the application. The icons are intended to symbolize what they represent, independently of any particular language or culture. Furthermore, each icon has a “mouse-over” description. If you allow your mouse to “hover” over an icon for one second (without clicking), you will see a simple pop-up description of the icon&#039;s function.
 
-![](../assets/images2.png)Illustration 2: Icons label
+![](../assets/images2.png)
+
+*Illustration 2: Icons label*
 
 There is also an online _help_ facility on most pages which appears as a partially hidden lifebuoy ring on the top right side of your screen (see Illustration 3: Folded help) and clicking it will open a window explaining the feature you&#039;re in and how to use it (see Illustration 4, Unfolded help ).It remains in place when you scroll the screen so that it&#039;s constantly available and you can open and close it without affecting your current work. When you click the buoy, a small guide will open up, explaining the tool you&#039;re in and how to use it (see Illustration 5: Contextual help pop-up).
 
-| ![](../assets/images3.png)Illustration 3: Folded help | ![](../assets/illustration_4.png)Illustration 4: Unfolded help |
-| --- | --- |
+ ![](../assets/images3.png)Illustration 3: Folded help | ![](../assets/illustration_4.png)
 
-![](../assets/images5.png)Illustration 5: Contextual help pop-up
+*Illustration 4: Unfolded help 
+
+![](../assets/images5.png)*Illustration 5: Contextual help pop-up*
 
 ### Terminology {#terminology}
 
@@ -17,7 +20,7 @@ At the time of writing, Chamilo is being used by more than 30,000 organizations 
 
 Obviously, all these bodies and institutions tend to use slightly differing terminologies. For example, some institutions will call their courses “Training sessions”, others will call them “Learning spaces” and others simply “Courses”. This presents challenges for the design of a “one-size-fits-all” e-learning platform (or even user guide), so we have sought the middle road, and employ a simple, universal terminology which we trust will make sense to all our users.
 
-![](../assets/images4.png)Illustration 6: History of Chamilo installations around the world, 2015 to 2017
+![](../assets/images4.png)*Illustration 6: History of Chamilo installations around the world, 2015 to 2017*
 
 Of course, because we understand your organization may prefer a specific terminology, we have equipped Chamilo with a way to edit any interface term from within the platform administration. (this requires administration skills and is thus described in the _Chamilo Administration Guide_). Should you urgently require a customization, you can ask one of our official providers[^2] for a customized language pack to be imported into your platform.
 

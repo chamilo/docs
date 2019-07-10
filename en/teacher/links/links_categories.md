@@ -12,4 +12,4 @@ You can create links categories in Chamilo, allowing for a better organizational
 
 ![](../assets/images156.png)
 
-Illustration 122: Links - Add a category
+*Illustration 122: Links - Add a category*

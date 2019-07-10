@@ -10,10 +10,10 @@ By simply entering a few characters of the user&#039;s first or last name, Chami
 
 ![](../assets/images258.png)
 
-Illustration 190: Social network – send and receive invitations
+*Illustration 190: Social network – send and receive invitations*
 
 The _Friends_ link ![](../assets/graphics342.png) gathers all friends you have linked to on the platform. It allows you to see the shared profile of the user and send him a message with a click on his name.
 
 ![](../assets/images259.png)
 
-Illustration 191: Social network – Shared profile
+*Illustration 191: Social network – Shared profile*

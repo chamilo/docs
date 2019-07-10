@@ -4,6 +4,7 @@ A user can use the _My files_ link ![](../assets/graphics343.png) in the social 
 
 ![](../assets/graphics344.png)
 
-Illustration 194: Social network – My files
+*Illustration 194: Social network – My files*
 
 Files can be viewed or downloaded by clicking on them.
+

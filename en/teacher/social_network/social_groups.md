@@ -10,10 +10,10 @@ There are two types of groups, depending on access:
 
 ![](../assets/images260.png)
 
-Illustration 192: Social network – Social groups
+*Illustration 192: Social network – Social groups*
 
 The _My groups tab_ lists the groups of which you are a member. These groups work as a forum. The administrator (or moderator) creates discussion topics and users start contributing.
 
 ![](../assets/images261.png)
 
-Illustration 193: Social network – Social groups interface
+*Illustration 193: Social network – Social groups interface*

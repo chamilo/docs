@@ -8,4 +8,4 @@ On the course homepage, click on the _Learning path_ link: ![](../assets/graphic
 
 Using the learning path tool, you can either import an existing AICC or SCORM course, create a new learning path within Chamilo or edit an existing learning path:
 
-![](../assets/graphics7.png)Illustration 74: The learning path tool:
+![](../assets/graphics7.png)*Illustration 74: The learning path tool:*

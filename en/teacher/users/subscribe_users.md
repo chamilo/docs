@@ -4,7 +4,7 @@ Let&#039;s look first at how to subscribe new users as learners to the course. O
 
 ![](../assets/images129.png)
 
-Illustration 100: Users – Action buttons
+*Illustration 100: Users – Action buttons*
 
 To subscribe a single learner, just click the _Register_ link ![](../assets/graphics174.png) to the right of their listing.
 
@@ -42,9 +42,9 @@ Just fill in the search field with the relevant characters and click the _Search
 
 ### Export the list of subscribed users {#export-the-list-of-subscribed-users}
 
-You might want, (independently of the backup copies taken by your careful administrator!) to keep a separate copy of your users list. To do so, from the main _Users_ page, click one of the export icons in the toolbar (_CSV export_ _![](../assets/graphics178.png)_ _Excel export_ _![](../assets/graphics179.png)_ _or .pdf export_ _![](../assets/graphics363.png)_) to download the list of users in the corresponding format.
+You might want, (independently of the backup copies taken by your careful administrator!) to keep a separate copy of your users list. To do so, from the main _Users_ page, click one of the export icons in the toolbar (_CSV export_ _![](../assets/graphics178.png)_ _Excel export_ __ <img src="../assets/graphics179.png" width="36px" />_or .pdf export_ _![](../assets/graphics363.png)_) to download the list of users in the corresponding format.
 
-**Note**: not all users details are exported through this feature (their passwords, for example, are confidential information not available to other users, not even to the teacher).
+> **Note**: not all users details are exported through this feature (their passwords, for example, are confidential information not available to other users, not even to the teacher).
 
 ### Display learners reporting {#display-learners-reporting}
 

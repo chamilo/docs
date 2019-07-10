@@ -8,4 +8,5 @@ From the projects homepage:
 
 *   click _Save blog_.
 
-![](../assets/images238.png)Illustration 163: Blogs – Blog creation
+![](../assets/images238.png)*Illustration 163: Blogs – Blog creation*
+

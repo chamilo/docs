@@ -4,4 +4,4 @@ By clicking the _Users rights management_ icon ![](../assets/graphics317.png) in
 
 ![](../assets/graphics318.png)
 
-Illustration 171: Projects – Users management
+*Illustration 171: Projects – Users management*

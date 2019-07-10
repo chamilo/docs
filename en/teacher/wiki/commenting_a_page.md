@@ -12,3 +12,4 @@ By clicking the _Discuss this page_ icon ![](../assets/graphics211.png), you get
 | ![](../assets/graphics215.gif) | Get an e-mail notification of all changes made to this page |
 | ![](../assets/graphics216.png) | Make a page visible/invisible to learners |
 | ![](../assets/images155.png) ![](../assets/images152.png) | Lock / Unlock a page for edition by learners |
+

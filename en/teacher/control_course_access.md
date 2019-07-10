@@ -6,11 +6,11 @@ In order to do this, access has to be restricted by going to the course **_Setti
 
 ![](assets/images17.png)
 
-Illustration 17: Course administration tools
+*Illustration 17: Course administration tools*
 
 A series of choices are available to the teacher.
 
-![](assets/images18.png)Illustration 18: Course settings - Visibility
+![](assets/images18.png)*Illustration 18: Course settings - Visibility*
 
 *   **Public** : means it is accessible to any user, registered on this portal or not
 

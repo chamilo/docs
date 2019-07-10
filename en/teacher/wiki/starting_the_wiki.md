@@ -2,7 +2,7 @@
 
 The main page is the entry point of the wiki. It can initially be edited only by the teacher, who unlocks it through this initial action. Until he does this, learners cannot access it.
 
-![](../assets/images146.png)Illustration 120: Wiki – Main page
+![](../assets/images146.png)*Illustration 120: Wiki – Main page*
 
 *   Click the _Edit this page_ icon ![](../assets/graphics209.png),
 

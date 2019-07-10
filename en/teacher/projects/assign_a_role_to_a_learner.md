@@ -14,4 +14,4 @@ Once the role has been created, you must assign it to a learner:
 
 ![](../assets/images239.png)
 
-Illustration 169: Projects – Assign a role
+*Illustration 169: Projects – Assign a role*

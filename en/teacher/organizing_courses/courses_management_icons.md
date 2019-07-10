@@ -11,3 +11,4 @@ In the courses management interface, you will see the following common icons and
 | ![](../assets/images22.png) | Read the course description |
 | ![](../assets/images23.png) | Link to the course homepage (only available if public or open) |
 |  | Register on the course |
+

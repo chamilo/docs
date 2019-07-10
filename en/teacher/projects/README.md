@@ -8,4 +8,4 @@ The tool can, however, be used as a classic blog.
 
 **Note** : When a new project is created, it appears in the list of course Authoring tools on the course homepage. Its visibility can be controlled like that of other tools. One main difference by comparison to other tools is that one can create several blogs in the same course. They will appear as multiple entries in the Authoring tools in much the same way as with links and learning paths.
 
-![](../assets/images237.png)Illustration 162: Projects - List
+![](../assets/images237.png)*Illustration 162: Projects - List*

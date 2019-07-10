@@ -6,14 +6,14 @@ Click the _Publish_ icon ![](../assets/graphics293.png). Select the course users
 
 ![](../assets/images226.png)
 
-Illustration 157: Surveys – Publication: select course members
+*Illustration 157: Surveys – Publication: select course members*
 
 In addition/alternatively, send invitations using the same form directly by e-mail (separate email addresses using semi-colons). Invitations can be sent to people who are not registered users on the platform (e.g. you may wish to send the invitation to potential customers, or to parents of learners):
 
 ![](../assets/graphics296.png)
 
-Illustration 158: Surveys – Publication: email additional recipients
+*Illustration 158: Surveys – Publication: email additional recipients*
 
 Once you have completed the fields, remember to click the _Publish survey_ button.
 
-**Note**: you can also invite anonymous individuals without requiring an email address (e.g. visitors to a web page) using the Generate access link icon ![](../assets/graphics294.png) in the survey listings.
+> **Note**: you can also invite anonymous individuals without requiring an email address (e.g. visitors to a web page) using the Generate access link icon ![](../assets/graphics294.png) in the survey listings.

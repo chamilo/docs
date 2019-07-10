@@ -1,18 +1,21 @@
 # Course creation {#course-creation}
 
-![](assets/images14.png)Illustration 13: Personal menu blocks
+![](assets/images14.png)
+
+*Illustration 13: Personal menu blocks*
 
 Creating a course is quick and easy, and can be done from the _My courses_ page.
 
-Note : on some portals, teachers might not have permissions to create new courses and are simply assigned pre-created courses by the administrator.
-
-Click on _Create course_ in the side column. Fill the mandatory “Course name” field (see Illustration 14: Creating a course – short version) and click the button. That&#039;s it.
+> **Note** : on some portals, teachers might not have permissions to create new courses and are simply assigned pre-created courses by the administrator.
+>
+> Click on _Create course_ in the side column. Fill the mandatory “Course name” field (see Illustration 14: Creating a course – short version) and click the button. That&#039;s it.
+>
 
 The course will be visible by the course creator and (later) by the users subscribed to it. By default, the person who creates the course is responsible for this course&#039;s administration. She is generally referred to as the **Course owner** or **Course creator**.
 
 To create the course, you need only enter a single element, i.e. a clear and detailed title.
 
-![](assets/images15.png)Illustration 14: Creating a course – short version
+![](assets/images15.png)*Illustration 14: Creating a course – short version*
 
 Additional **options** (entirely optional) are available by clicking on the _Advanced settings_button:
 
@@ -28,7 +31,7 @@ Additional **options** (entirely optional) are available by clicking on the _Adv
 
 *   finally, the course can be created from a template course that you have access to (you must be a teacher in the template course to see it appear in your list)
 
-![](assets/images16.png)Illustration 15: Create a course – extended version
+![](assets/images16.png)*Illustration 15: Create a course – extended version*
 
 In versions 1.9 and 1.10, a course creation follow-up page was displayed, which suggested:
 
@@ -36,7 +39,7 @@ In versions 1.9 and 1.10, a course creation follow-up page was displayed, which 
 
 *   going directly, by clicking on the relevant icon, to one of the most common course configuration steps, as illustrated below.
 
-![](assets/images271.png)Illustration 16: Course creation follow-up page
+![](assets/images271.png)*Illustration 16: Course creation follow-up page*
 
 However, feedback has been relatively negative about this feature, so we decided to disable it by default in version 1.11 onward. Your administrator can still enable this if desired.
 

@@ -4,6 +4,6 @@ The main page of the R_eporting_ tab displays summary tables offering a general 
 
 ![](../assets/images254.png)
 
-Illustration 186: Reporting tab – main page
+*Illustration 186: Reporting tab – main page*
 
 Clicking the _Details_ icon ![](../assets/graphics365.gif) will show you a more detailed list for that specific course or session. Clicking on further _Details_ icon in any of those screens will show you a deeper level of detail. There are about 4-5 levels of detail and this guide does not cover them all. We recommend you take some time to have a look through all the options and see which report best meets your needs.

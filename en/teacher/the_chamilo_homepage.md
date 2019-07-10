@@ -2,7 +2,7 @@
 
 The homepage is the first visible page. It contains the login form and a few other important elements.
 
-![](assets/images269.png)Illustration 7: Homepage
+![](assets/images269.png)*Illustration 7: Homepage*
 
 Although your mileage may (and certainly will) vary, this is mostly what you should find on a Chamilo portal’s homepage:
 
@@ -20,4 +20,4 @@ Although your mileage may (and certainly will) vary, this is mostly what you sho
 
 *   A block with the most popular courses appear. This will be empty at the beginning (when no courses exist on the platform) or can later be removed by the administrator, in case you don’t want the public to know about the courses available on the platform.
 
-**Note** : To view the courses with restricted access, you must be registered on the platform and must be subscribed by the course teacher, through the **course users** list.
+> **Note** : To view the courses with restricted access, you must be registered on the platform and must be subscribed by the course teacher, through the **course users** list.

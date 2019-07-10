@@ -14,4 +14,4 @@ From the project&#039;s homepage:
 
 ![](../assets/graphics314.png)
 
-Illustration 165: Projects – New task
+*Illustration 165: Projects – New task*

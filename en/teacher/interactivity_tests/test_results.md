@@ -4,13 +4,13 @@ Chamilo offers handy support for analyzing test results simply by clicking on th
 
 ![](../assets/graphics161.png)
 
-Illustration 65: Exercises - List
+*Illustration 65: Exercises - List*
 
 This will display a page listing all the results for the relevant test.
 
 ![](../assets/graphics162.png)
 
-Illustration 66: Exercises – Results list
+*Illustration 66: Exercises – Results list*
 
 Here, the teacher can get an overview of learners&#039; times and scores, and can score ![](../assets/graphics160.png) or edit ![](../assets/graphics163.png) open questions and offer feedback. He can also delete ![](../assets/graphics164.png) a test attempt to allow the learner to do the test again (if there is a valid reason to do so e.g. there was an error in the test).
 

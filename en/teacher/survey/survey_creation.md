@@ -4,7 +4,7 @@ To create a survey, click the _Create survey_ icon ![](../assets/graphics291.png
 
 ![](../assets/images223.png)
 
-Illustration 154: Surveys – Creation form
+*Illustration 154: Surveys – Creation form*
 
 Complete the fields, giving your survey a _Code_, a _Title,_ and a _Subtitle_ (description). Optionally, you can set a start and end date so the survey is only available for a limited time. You can choose whether your survey will be anonymous (users&#039; answers will not be identifiable) by checking the relevant box. Finally, write a survey introduction (this is a text that will appear just before the user starts the survey) and a _Final thanks_ message (this will appear when the users finish the survey, to thank them and maybe inform them of when the results will be compiled and used).
 

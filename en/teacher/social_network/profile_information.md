@@ -12,6 +12,7 @@ Profile options allow you to edit your _name_, your Chamilo _code_, your _email_
 
 ![](../assets/graphics339.png)
 
-Illustration 188: Social network – Extended profile update
+*Illustration 188: Social network – Extended profile update*
 
 Remember to click the _save_ button when you&#039;ve completed entering/editing your profile details!
+

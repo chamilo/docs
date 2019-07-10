@@ -16,4 +16,4 @@ The execution report of the task appears as a comment to the article.
 
 ![](../assets/images240.png)
 
-Illustration 170: Projects – Tasks comments
+*Illustration 170: Projects – Tasks comments*

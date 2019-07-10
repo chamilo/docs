@@ -4,13 +4,13 @@ Because we know that common conventions make things easier for everybody to reme
 
 Below are listed some of the most commonly used symbols on the platform:
 
-| ![](../assets/graphics112.svg)![](../assets/graphics112.png)![](../assets/graphics138.svg)![](../assets/graphics138.png)![](../assets/graphics348.svg)![](../assets/graphics348.png)![](../assets/images275.svg)![](../assets/images275.png)![](../assets/images277.svg)![](../assets/images277.png)Icons | Features |
-| --- | --- |
-|  | The pencil tool allows the **updating** of a specific piece of information or content |
-| ![](../assets/images7.svg)![](../assets/images7.png) | The cross tool allows for the **deletion** of a specific piece of information or content |
-| ![](../assets/images8.svg)![](../assets/images8.png)![](../assets/images9.svg)![](../assets/images9.png) | The eye tool allows you to change the **visibility** of a piece of information/ content |
-|  | The **yellow star** marker on any icon symbolizes the **creation** of a **new** resource |
-|  | A blue right arrow generally means **move things** or **insert things** into others |
-| ![](../assets/graphics347.svg)![](../assets/graphics347.png) | A blue left arrow generally means **go back** (like the back button in your browser). |
-|  | A blue arrow pointing down generally means **download** some file or data. |
-|  | A blue arrow pointing upwards generally means **upload** some file or data. |
+| Icons | Features |
+| :-: | --- |
+| <img src="../assets/graphics112.svg" width="42px" /> | The pencil tool allows the **updating** of a specific piece of information or content |
+| <img src="../assets/images7.svg" width="42px" /> | The cross tool allows for the **deletion** of a specific piece of information or content |
+| <img src="../assets/images9.svg" width="42px" /><img src="../assets/images8.svg"  width="42px"/> | The eye tool allows you to change the **visibility** of a piece of information/ content |
+| <img src="../assets/graphics138.svg" width="42px"/> | The **yellow star** marker on any icon symbolizes the **creation** of a **new** resource |
+| <img src="../assets/images275.svg" width="42px" /> | A blue right arrow generally means **move things** or **insert things** into others |
+| <img src="../assets/graphics347.svg" width="42px" /> | A blue left arrow generally means **go back** (like the back button in your browser). |
+| <img src="../assets/images277.svg" width="42px"/> | A blue arrow pointing down generally means **download** some file or data. |
+| <img src="../assets/graphics348.svg" width="42px"/> | A blue arrow pointing upwards generally means **upload** some file or data. |

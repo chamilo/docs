@@ -4,4 +4,4 @@ Analyzing survey results can be an exhausting process. The tools provided in thi
 
 ![](../assets/images227.png)
 
-Illustration 159: Surveys - Results
+*Illustration 159: Surveys - Results*

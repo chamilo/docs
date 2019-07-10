@@ -2,7 +2,7 @@
 
 As you build your learning path/course, you have the option to include existing learning objects or activities or to create your own using Chamilo.
 
-![](../assets/graphics12.png)Illustration 78: Adding a learning object or activity to a course
+![](../assets/graphics12.png)*Illustration 78: Adding a learning object or activity to a course*
 
 ### Create a new document {#create-a-new-document}
 
@@ -12,7 +12,7 @@ In essence, it is possible to use the rich text editor to edit styles, add image
 
 To begin, click the _Rich media page / activity_ icon ![](../assets/graphics24.png) to see the following page:
 
-![](../assets/graphics25.png)Illustration 79: Learning paths – Rich media creation tool
+![](../assets/graphics25.png)*Illustration 79: Learning paths – Rich media creation tool*
 
 ### Use existing resources {#use-existing-resources}
 
@@ -22,18 +22,18 @@ You can also add tests, links, assignments and forums by dragging them across to
 
 Links, tests, assignments and forums can be created prior to building the learning path in the _Authoring_ or _Interaction_ sections on your course&#039;s homepage, and then added from these sections into your learning path via the relevant tab on the learning path page. (Alternatively, they can be created directly from within the tabs themselves as you build the learning path:)
 
-![](../assets/graphics28.png)Illustration 80: Learning paths – Importing existing resources
+![](../assets/graphics28.png)*Illustration 80: Learning paths – Importing existing resources*
 
 ### Add a new section {#add-a-new-section}
 
 The _Sections_ tool ![](../assets/graphics33.png) is a simple but effective tool allowing you to group activities in the the learning path under headings for clarity.
 
-![](../assets/graphics29.png)Illustration 81: Learning paths – New sections
+![](../assets/graphics29.png)*Illustration 81: Learning paths – New sections*
 
 ### Display the learning path {#display-the-learning-path}
 
 Display the results of the learning path you just built:
 
-![](../assets/graphics30.png)Illustration 82: Learning paths – Learner&#039;s view
+![](../assets/graphics30.png)*Illustration 82: Learning paths – Learner&#039;s view*
 
 You can toggle between the above teacher and learner views by clicking the teacher/learner view button ![](../assets/graphics31.png):

@@ -4,7 +4,7 @@ A link can be added in a category or at the root level:
 
 ![](../assets/graphics220.png)
 
-Illustration 123: Links - Add link
+*Illustration 123: Links - Add link*
 
 To add a link:
 

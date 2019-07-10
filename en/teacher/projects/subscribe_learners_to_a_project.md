@@ -12,4 +12,4 @@ To subscribe learners to a project from the homepage of this project:
 
 ![](../assets/graphics312.png)
 
-Illustration 164: Projects – Users management
+*Illustration 164: Projects – Users management*
