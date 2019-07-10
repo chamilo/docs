@@ -64,7 +64,7 @@ El proceso de instalación es el siguiente:
 
 *   redefinir su URL principal (reemplace localhost) y añadir el deseado, luego agregar y habilitar un administrador para cada uno de ellos
 
-![](../assets/images181.png)Ilustración 75: Administración - Multi-URLs
+![](../assets/images181.png)*Ilustración 75: Administración - Multi-URLs*
 
 El resultado de una instalación multi-URL puede quedar muy bonito si cuenta con los servicios de un diseñador profesional. Aquí presentamos un ejemplo con 3 facultades de un mismo instituto…
 
@@ -134,7 +134,7 @@ Esta rueda representa las competencias, ordenadas de manera jerárquica. Usualme
 
 Al dar clic en cualquier competencia de la rueda, la página se refresca para centrar la rueda sobre la competencia seleccionada y mostrar solamente sus competencias “hijas”.
 
-![](../assets/image25.png)
+<img src="../assets/image25.png" width="600px">
 
 Como se ve en la primera captura, existe un código de color (y su leyenda) para las competencias de la rueda. Para que un alumno pueda lograr una competencia, es necesario asociarla con una evaluación dentro de un curso.
 

@@ -2,7 +2,7 @@
 
 The objective of the interaction section is to group tools which facilitate communication between learners as well as between learner and teacher. Unlike the _Authoring_ tools which are primarily for teacher use, The _Interaction_ tools are provided mainly for use by other users also, to support their learning.
 
-![](../assets/images30.png)Illustration 28: Interaction tools
+![](../assets/images30.png)*Illustration 28: Interaction tools*
 
 ### Agenda {#agenda}
 
@@ -10,15 +10,15 @@ The objective of the interaction section is to group tools which facilitate comm
 
 ### Dropbox {#dropbox}
 
-![](../assets/graphics97.png)Users can use the course dropbox to share their own documents with others on the course.
+<img src="../assets/graphics97.png" width="46px" align="left" />Users can use the course dropbox to share their own documents with others on the course.
 
 ### Groups {#groups}
 
-![](../assets/graphics98.png)Use this to create groups within in the course and manage access to course tools.
+<img src="../assets/graphics98.png" width="46px" align="left" />Use this to create groups within in the course and manage access to course tools.
 
 ### Assignments {#assignments}
 
-![](../assets/graphics99.png)Create assignments for learners to complete within the Chamilo platform, or to complete externally and upload for evaluation by the teacher. The assignments tool integrates fully with the reporting and assessments tools and allows for quick and easy monitoring of assignment submissions and results.
+<img src="../assets/graphics99.png" width="46px" aligin="left" />Create assignments for learners to complete within the Chamilo platform, or to complete externally and upload for evaluation by the teacher. The assignments tool integrates fully with the reporting and assessments tools and allows for quick and easy monitoring of assignment submissions and results.
 
 ### Wiki {#wiki}
 
@@ -30,7 +30,7 @@ The objective of the interaction section is to group tools which facilitate comm
 
 ### Users {#users}
 
-![](../assets/graphics102.png)This tool allows learners to view who else is subscribed to the course, and teachers to manage course users, subscribing teachers and users, and importing and exporting course lists as required. The _users_ tool also integrates with the _Groups_ tool.
+<img src="../assets/graphics102.png" width="46px" align="left" />This tool allows learners to view who else is subscribed to the course, and teachers to manage course users, subscribing teachers and users, and importing and exporting course lists as required. The _users_ tool also integrates with the _Groups_ tool.
 
 ### Chat {#chat}
 
@@ -38,7 +38,7 @@ The objective of the interaction section is to group tools which facilitate comm
 
 ### Surveys {#surveys}
 
-![](../assets/graphics104.png)The fully featured survey tool a powerful means of inviting users on the platform to quickly and easily offer comment and feedback for the evaluation and development of courses. The tool also supports the analysis of results collected from participants.
+<img src="../assets/graphics104.png" width="46px" align="left" />The fully featured survey tool a powerful means of inviting users on the platform to quickly and easily offer comment and feedback for the evaluation and development of courses. The tool also supports the analysis of results collected from participants.
 
 ### Notebook {#notebook}
 
@@ -46,4 +46,4 @@ The objective of the interaction section is to group tools which facilitate comm
 
 ### Video-conference {#video-conference}
 
-![](../assets/graphics106.png)It is now relatively easy, using a local video-conference server, to install the video-conference tool within a Chamilo course, although it remains an external extension which is not always available in a classic portal. Chamilo 1.9 supports BigBlueButton 0.8, open-source conferencing software which supports recording of the white board and audio from a conference. The video sessions can later be made available within Chamilo itself as a video library inside the course. From a teacher&#039;s point of view, it&#039;s worth lobbying your administrator to set it up!
+<img src="../assets/graphics106.png" align="left" width="46px" />It is now relatively easy, using a local video-conference server, to install the video-conference tool within a Chamilo course, although it remains an external extension which is not always available in a classic portal. Chamilo 1.9 supports BigBlueButton 0.8, open-source conferencing software which supports recording of the white board and audio from a conference. The video sessions can later be made available within Chamilo itself as a video library inside the course. From a teacher&#039;s point of view, it&#039;s worth lobbying your administrator to set it up!

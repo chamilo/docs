@@ -26,4 +26,6 @@ When the content of a forum is shown:
 
 *   Click _Create thread_
 
-![](../assets/graphics5.png)Illustration 71: Forum – Discussion thread
+![](../assets/graphics5.png)
+
+*Illustration 71: Forum – Discussion thread*

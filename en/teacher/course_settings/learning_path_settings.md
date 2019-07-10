@@ -2,11 +2,11 @@
 
 The _Learning path_ section ![](../assets/graphics327.png) can be used to enable the _auto-launch_ of learning paths and the style (or graphical theme) for the course.
 
-![](../assets/images246.png)Illustration 177: Course settings – Learning path settings
+![](../assets/images246.png)*Illustration 177: Course settings – Learning path settings*
 
 The auto-launch feature allows the teacher to select one specific learning path to auto-start when the user enters the course homepage. In order to use this feature, you&#039;ll need to enable the option in the course settings (remembering to save the changes) then go to the learning paths list and click on the rocket icon which represents the auto-launch of one of the learning paths:
 
-![](../assets/images247.png)Illustration 178: Learning paths - Auto-launch
+![](../assets/images247.png)*Illustration 178: Learning paths - Auto-launch*
 
 Only one learning path can be set as auto-launch at a time, and it will start as soon as the learner enters the course homepage. Other learning paths show a gray rocket icon. To test this option, you&#039;ll have to connect as a learner as it has been disabled for teachers for practical reasons.
 

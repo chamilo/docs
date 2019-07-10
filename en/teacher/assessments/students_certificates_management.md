@@ -20,9 +20,11 @@ If Bilbo gets 10/10 on the last activity, his final total score will be 95%. How
 
 And you can! To access the certificates management, click the certificates icon (the 5th icon in the action bar).
 
-![](../assets/image13.png)This leads you to the list of certificates, which shows all the certificates generated so far.
+![](../assets/image13.png)
 
-![](../assets/image14.png)Illustration 117: Certificates management page
+This leads you to the list of certificates, which shows all the certificates generated so far.
+
+![](../assets/image14.png)*Illustration 117: Certificates management page*
 
 The page provides you with 5 options:
 

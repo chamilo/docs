@@ -18,6 +18,6 @@ To start the import:
 
 ![](../assets/images251.png)
 
-Illustration 183: Backup - Import
+*Illustration 183: Backup - Import*
 
-**Note** : A message will confirm the backup restoration executed successfully
+> **Note** : A message will confirm the backup restoration executed successfully

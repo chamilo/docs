@@ -4,6 +4,7 @@ On the main _Groups_ page, click the _Create new group(s)_ icon ![](../assets/gr
 
 ![](../assets/images213.png)
 
-Illustration 148: Create _a group_
+*Illustration 148: Create a group*
 
 Give it a name, enter the number of empty seats you want in the group, and click _Create group(s)_. The new group will appear in the listings in the main _Groups_ page. It can be deleted using the usual _Delete_ icon ![](../assets/graphics278.png).
+

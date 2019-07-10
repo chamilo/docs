@@ -2,7 +2,9 @@
 
 To delete, update, hide or show a file or directory, use the options in the right hand column of the documents listing:
 
-![](../assets/images45.png)Illustration 39: Documents - Options
+![](../assets/images45.png)
+
+*Illustration 39: Documents - Options*
 
 As you will realize yourself, the icons vary depending on the document type. HTML documents offer more possibilities.
 

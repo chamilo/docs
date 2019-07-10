@@ -12,6 +12,6 @@
 
 ![](../assets/images203.png)
 
-Illustration 146: Dropbox – Sending a file
+*Illustration 146: Dropbox – Sending a file*
 
 Files will be listed under the “sent files” tab if they have been uploaded by the user, and under the “received file” tab if the file was uploaded by someone else all files can be instantly accessed by the recipient as well as the sender.

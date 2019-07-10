@@ -2,7 +2,7 @@
 
 Just before looking at any particular course tool, note that it is possible to present a welcome message to a course. Click on the _Add an_ _introduction text_ icon ![](../assets/graphics349.gif) below the _Learner View_ button. A text editor appears...
 
-![](../assets/images28.png)Illustration 26: Course homepage – Introduction text
+![](../assets/images28.png)*Illustration 26: Course homepage – Introduction text*
 
 This feature, although very simple to use, is also very powerful: it can simply present a few words of introduction, but it also enables you to redesign the entire course homepage simply by hiding all the course tools and writing a large introduction text/page including icons with links to the course tools&#039; internal pages.
 

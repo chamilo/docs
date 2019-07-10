@@ -10,4 +10,4 @@ In the _Forum_ tool:
 
 *   click _Create category._
 
-![](../assets/graphics3.png)Illustration 69: Forum – New category
+![](../assets/graphics3.png)*Illustration 69: Forum – New category*

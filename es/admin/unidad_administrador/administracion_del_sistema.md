@@ -4,7 +4,7 @@
 
 La funcionalidad de exportaciones especiales ha sido diseñada para ayudar al inspector académico. Le permite exportar todos los documentos de todos los cursos en una sola – y pesada - operación . Una segunda opción permite escoger los documentos de los cursos que quiera.
 
-![](../assets/images141.png)Ilustración 74: Administración - Exportaciones especiales
+![](../assets/images141.png)*Ilustración 74: Administración - Exportaciones especiales*
 
 ### Información del sistema {#informaci-n-del-sistema}
 
@@ -32,7 +32,9 @@ Una vez distintas sesiones creadas, se pueden definir secuencias de sesiones, gr
 
 La interfaz de configuración de secuencias de sesiones se encuentra en la página de administración, en el panel “Sistema”.
 
-![](../assets/image16.png)Dar clic en el enlace “Secuencialización de recursos”.
+![](../assets/image16.png)
+
+Dar clic en el enlace “Secuencialización de recursos”.
 
 La página resultante ofrece distintas secciones útiles descritas a continuación.
 

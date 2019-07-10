@@ -1,6 +1,6 @@
 # First Steps: Documents {#first-steps-documents}
 
-The normal first step any teacher takes when needing content for a course is to go to the _Documents_ tool ![](../assets/graphics111.png) and upload existing content (in the form of PDFs, PowerPoints, etc).
+The normal first step any teacher takes when needing content for a course is to go to the _Documents_ tool <img src="../assets/graphics111.png" width="48px"  /> and upload existing content (in the form of PDFs, PowerPoints, etc).
 
 Chamilo allows for the import of all types of documents (HTML, MS-Word®, MS-PowerPoint® MS-Excel®, PDF, Flash, Quicktime®, OpenOffice.org, LibreOffice, MP3, OGG, AVI, etc.) and can first be used as a simple documents catalog while the teacher builds up a bank of materials (a few weeks, depending on the context).
 

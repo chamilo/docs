@@ -14,4 +14,5 @@ From the Backup page:
 
 *   click the _Copy course_ button.
 
-**Note** : A message will confirm if the course was successfully copied
+> **Note** : A message will confirm if the course was successfully copied
+

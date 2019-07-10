@@ -2,7 +2,9 @@
 
 If you choose to score/grade a topic/discussion thread, you will first need to assign a maximum score to this thread. This needs to be done when the thread is created. Go to _advanced settings_ in the _create thread_ page and check the _grade this thread_ box. An option to enter a maximum score will appear:
 
-![](../assets/graphics14.png)Illustration 72: A_ssigning a maximum score to a discussion thread_
+![](../assets/graphics14.png)
+
+*Illustration 72: Assigning a maximum score to a discussion thread*
 
 To score a student&#039;s contribution to a thread:
 
@@ -18,4 +20,4 @@ To score a student&#039;s contribution to a thread:
 
 *   Click the Grade _this thread_ button.
 
-![](../assets/graphics6.png)Illustration 73: Forum – Marking a thread
+![](../assets/graphics6.png)*Illustration 73: Forum – Marking a thread*

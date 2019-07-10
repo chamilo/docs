@@ -20,4 +20,4 @@ From the _Forum_ page:
 
 *   click the _Create forum_ button.
 
-![](../assets/graphics4.png)Illustration 70: Forum – Forum creation form
+![](../assets/graphics4.png)*Illustration 70: Forum – Forum creation form*

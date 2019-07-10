@@ -1,10 +1,10 @@
 ## Weights {#weights}
 
-The weights, accessed through a percentage-symbol icon (![](../assets/image4.svg)![](../assets/image4.png)) on the right side of the main assessments page, allow you to define the relative importance of each of the activities within the assessment. If you don&#039;t have any activity registered at this point, return to this section when you do.
+The weights, accessed through a percentage-symbol icon <img src="../assets/image4.svg" width="42px"/>  on the right side of the main assessments page, allow you to define the relative importance of each of the activities within the assessment. If you don&#039;t have any activity registered at this point, return to this section when you do.
 
 ![](../assets/images133.png)
 
-Illustration 108: Assessments - Weights
+*Illustration 108: Assessments - Weights*
 
 We suggest that you define a distribution of weights that make a total of 100 (or the equivalent total value for the course defined in the previous section), otherwise it becomes really complicated to understand all the possible relative scoring issues. Several messages will remind you to do just that.
 
@@ -16,7 +16,7 @@ Click on the podium icon on the right side of the main assessments page ![](../a
 
 ![](../assets/graphics195.png)
 
-Illustration 109: Assessments – Skills ranking
+*Illustration 109: Assessments – Skills ranking*
 
 As well as a pass-mark, you can add additional options: e.g. the names you want to give to any score range to make it faster to read generic reports.
 
@@ -34,7 +34,7 @@ Theassessmentstool makes it possible to create a certificate generated automatic
 
 The page starts with a list of tags that you can use in the edition of your certificate:
 
-![](../assets/image6.png)Illustration 110: Certificates edition tags
+![](../assets/image6.png)*Illustration 110: Certificates edition tags*
 
 These tags are relatively self-explanatory, but for the sake of precision, let’s define them here:
 
@@ -72,23 +72,25 @@ These tags are relatively self-explanatory, but for the sake of precision, let�
 
 Editing the certificate is then only a question of finding a good text and the right tags:
 
-![](../assets/image7.png)Illustration 111: Certificate creation area
+![](../assets/image7.png)*Illustration 111: Certificate creation area*
 
 Once you have created and saved your certificate, the main Certificate page lists the certificates that have been uploaded or created.
 
-![](../assets/image8.png)Illustration 112: Certificate templates list
+![](../assets/image8.png)*Illustration 112: Certificate templates list*
 
 You might note that the 5th icon on the right has a slightly different color for the first and the second line… That’s because the “Default certificate” in this example is still considered the… default certificate. To change that, you will have to click on the gray icon on the second line (![](../assets/graphics198.png)) to make your new certificate (“Future of Learning” in this example) the default certificate for all students.
 
 Only one certificate can be selected in a course at any one time, so choose well.
 
-Once this is done, the magnifier icon (![](../assets/image9.svg)![](../assets/image9.png)) will allow you to see a preview of the certificate with fake values. In our example, this gives something like this:
+Once this is done, the magnifier icon <img width="42px" src="../assets/image9.svg"/>  will allow you to see a preview of the certificate with fake values. In our example, this gives something like this:
 
-![](../assets/image10.png)Illustration 113: Example certificate
+![](../assets/image10.png)
+
+*Illustration 113: Example certificate*
 
 Missing something? Clearly, some HTML design with a logo, the names of the people approving this certificate would have been a good addition. You will find these on the certificate available in every course in Chamilo by default, which would render like this.
 
-![](../assets/image11.png)Illustration 114: Default certificate template available in Chamilo
+![](../assets/image11.png)*Illustration 114: Default certificate template available in Chamilo*
 
 As you can see, this template is much more developed than the quick template we built as an example for this guide. That’s because we intent to provide you with the best tools and templates to ensure you can generate a great impact with your course with minimal effort. You can edit the default template if you want and replace the logo by your institution’s logo. This is all up to you.
 

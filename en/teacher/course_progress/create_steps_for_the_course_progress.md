@@ -4,7 +4,7 @@ The steps (termed _Thematic advance_) are the dates on which you will teach the 
 
 ![](../assets/images186.png)
 
-Illustration 140: Course progress – Steps creation
+*Illustration 140: Course progress – Steps creation*
 
 Here you can, enter the date for each teaching session and the contents of what is to be covered specifically in that session. You can either enter dates and times manually or link to dates previously defined in the _attendance sheets_ (see Attendances-Attendances on page 122). Where the Course progress tool is used, progress through the course will be displayed on the main course page:
 

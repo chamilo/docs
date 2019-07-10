@@ -74,7 +74,7 @@ Descargar el código desde la página de descarga de [Chamilo](https://chamilo.o
 
 Ex.: user@server:(sudo) mv /home/_user_/Bureau/chamilo /var/www
 
-**Nota** : Es posible que desee cambiar el nombre del directorio una vez descomprimido.
+> **Nota** : Es posible que desee cambiar el nombre del directorio una vez descomprimido.
 
 Chamilo puede instalarse en cualquier directorio. Elija el directorio raíz del sitio para poder acceder directamente a la plataforma través de la dirección &quot;[http://www.mydomain.com/](http://www.mydomain.com/)&quot;.
 
@@ -86,7 +86,7 @@ Una vez que los archivos han sido copiados en el servidor dirija su navegador a 
 
 Si pudo configurar un VirtualHost en la configuración de su servidor web, es probable que lo cargue directamente, sin el sufijo chamilo, de esta forma: &quot;[http://www.virtualhost.com/](http://www.virtualhost.com/)&quot;.
 
-![](../assets/images182.png)Ilustración 1: Instalación - Pantalla de inicio
+![](../assets/images182.png)*Ilustración 1: Instalación - Pantalla de inicio*
 
 A continuación, debe seguir una serie de pasos para indicar los diferentes parámetros de la plataforma. Estos pasos son casi idénticos en la instalación en forma local y en forma remota.
 
@@ -98,29 +98,33 @@ Esta pantalla le pide que elija el idioma de la instalación. Desde la versión 
 
 Tenga en cuenta que este no es el idioma en el que finalmente quedará instalada la plataforma, sino solamente el elegido para el proceso de instalación.
 
-![](../assets/images106.png)Ilustración 2: Instalación - Cambiar el idioma
+![](../assets/images106.png)*Ilustración 2: Instalación - Cambiar el idioma*
 
 ##### Paso 2 de 6: Requisitos {#paso-2-de-6-requisitos}
 
 Este paso comprueba si su servidor tiene todos los elementos necesarios para una instalación correcta y completa de Chamilo.
 
-![](../assets/images109.png)Ilustración 3: Instalación – Requisitos de módulos
+![](../assets/images109.png)*Ilustración 3: Instalación – Requisitos de módulos*
 
 Los requisitos previos que ya cumple su sistema están marcados en **verde**, mientras que los requisitos obligatorios no satisfechos por su sistema aparecerán marcados en **rojo**. En **naranja** aparecerán los requisitos no satisfechos pero que no son imprescindibles.
 
-![](../assets/image2.png)Ilustración 4: Instalación – Requisitos de configuración
+![](../assets/image2.png)
+
+*Ilustración 4: Instalación – Requisitos de configuración*
 
 Para ampliar la información sobre los prerrequisitos relacionados con la instalación de PHP también dispone de los enlaces respectivos a Internet. Los parámetros recomendados representan las variables que se pueden modificar en la configuración de PHP (_php.ini_[^6]) o dentro de la configuración del VirtualHost.
 
 Al final de la página de prerrequisitos figuran los permisos _sobre los directorios y archivos_.
 
-![](../assets/images108.png)Ilustración 5: Instalación - Requisitos (continuación)
+![](../assets/images108.png)
+
+*Ilustración 5: Instalación - Requisitos (continuación)*
 
 En GNU/Linux la escritura en los directorios no está autorizada por defecto. Debe cambiar los archivos de accesos para optimizar la seguridad y otorgar los permisos suficientes al usuario que ejecuta el servidor web. Con ello se garantiza el confinamiento de los permisos durante la ejecución de un servicio (en este caso Apache) y evitará que un cracker pueda tomar el control de su servidor con demasiada facilidad.
 
 Bajo Windows, esto suele ser más fácil (pero mucho menos seguro) ya que los permisos por defecto son suficientes (quizá en exceso).
 
-**Nota**: Chamilo es revisado frecuentemente (al menos una vez al año) contra fallos de seguridad que pudieran poner en peligro su servidor. Usted puede mantenerse al tanto de los errores de seguridad más recientes y de su reparación, mediante su suscripción a nuestra lista de correo dedicada a la seguridad: [http://lists.chamilo.org/listinfo/](http://lists.chamilo.org/listinfo/security)[security](http://lists.chamilo.org/listinfo/security) o en [http://support.chamilo.org/projects/chamilo-18/wiki/Security_issues](http://support.chamilo.org/projects/chamilo-18/wiki/Security_issues). Alternativamente, disponemos de un Twitter Feed de noticias de seguridad: [http://twitter.com/chamilosecurity](http://twitter.com/chamilosecurity)
+> **Nota**: Chamilo es revisado frecuentemente (al menos una vez al año) contra fallos de seguridad que pudieran poner en peligro su servidor. Usted puede mantenerse al tanto de los errores de seguridad más recientes y de su reparación, mediante su suscripción a nuestra lista de correo dedicada a la seguridad: [http://lists.chamilo.org/listinfo/](http://lists.chamilo.org/listinfo/security)[security](http://lists.chamilo.org/listinfo/security) o en [http://support.chamilo.org/projects/chamilo-18/wiki/Security_issues](http://support.chamilo.org/projects/chamilo-18/wiki/Security_issues). Alternativamente, disponemos de un Twitter Feed de noticias de seguridad: [http://twitter.com/chamilosecurity](http://twitter.com/chamilosecurity)
 
 En una instalación en modo local en Ubuntu, ir al directorio donde está _Chamilo_. Proporciónele los permisos necesarios para el usuario _www-data_ (el usuario del servidor web en Ubuntu) y vuelva a cargar la página en el navegador. Si utiliza otro sistema operativo, puede que tenga que modificar un poco la siguiente orden:
 
@@ -128,7 +132,7 @@ Ex.: user@server:/var/www$ chown -R www-data:www-data chamilo/
 
 Clic en “ + _Nueva instalación “_.
 
-**_Nota_**: si se ejecuta una actualización de una versión anterior de Chamilo, este capítulo no es el adecuado. Usted debería consultar el capítulo 2.3: Actualización de Chamilo. También le recomendamos que lea la Guía de instalación y actualización de Chamilo, disponible en el directorio de **documentación** de su paquete de Chamilo.
+> **_Nota_**: si se ejecuta una actualización de una versión anterior de Chamilo, este capítulo no es el adecuado. Usted debería consultar el capítulo 2.3: Actualización de Chamilo. También le recomendamos que lea la Guía de instalación y actualización de Chamilo, disponible en el directorio de **documentación** de su paquete de Chamilo.
 
 ##### Paso 3 de 6: Licencia {#paso-3-de-6-licencia}
 
@@ -136,7 +140,7 @@ Chamilo explica aquí la distribución libre del software bajo los términos de 
 
 Para ir al siguiente paso tendrá que leer la licencia y aprobarla (de lo contrario no está autorizado a utilizar el software). Encontrará otras versiones de esta licencia (probablemente en su propio idioma), conectándose con la Free Software Foundation[^7], que es la organización que publica esta licencia.
 
-![](../assets/images207.png)Ilustración 6: Instalación - Licencia
+![](../assets/images207.png)*Ilustración 6: Instalación - Licencia*
 
 **Nota**: _Desde la versión 1.8.8, también encontrará un formulario opcional debajo de la aprobación de la licencia. Este formulario nos permite tener algunos datos para contactar con usted y poder informarle de cualquier evento organizado por la Asociación Chamilo o relacionado con sus miembros, que tenga lugar cerca de donde se encuentre ubicado. Trataremos sus datos con cuidado y no los proporcionaremos a terceros. Se mantendrán dentro de la asociación. De acuerdo con las leyes de privacidad, usted tiene derecho a que sus datos sean borrados o actualizados en nuestra base de datos mediante el envío de un correo electrónico a info@chamilo.org_
 
@@ -144,7 +148,7 @@ Para ir al siguiente paso tendrá que leer la licencia y aprobarla (de lo contra
 
 En este paso vamos a comprobar el sistema de gestión de bases de datos (DBMS) con el que trabaja y la configuración requerida:
 
-![](../assets/images107.png)Ilustración 7: Instalación - Opciones de MySQL
+![](../assets/images107.png)*Ilustración 7: Instalación - Opciones de MySQL*
 
 Para permitir la comprobación de valores, deberá cumplimentar todos los campos requeridos. Estos datos, probablemente le fueron proporcionados cuando alquiló su servicio de alojamiento por primera vez, o fueron asignados por usted cuando realizó la configuración del servidor [LAMP](http://fr.wikipedia.org/wiki/LAMP) en modo local.
 
@@ -158,7 +162,7 @@ Para permitir la comprobación de valores, deberá cumplimentar todos los campos
 
 *   Nombre de base de datos: es el nombre de **la** base de datos que se usará y sobre la cual el usuario indicado tiene los permisos de creación, modificación y consulta de tablas e índices
 
-**Nota :** En versiones anteriores a la 1.9, era posible seleccionar una o varias bases de datos. Sin embargo, esta elección conllevaba considerables problemas de eficiencia para grandes portales, y un dolor de cabeza inmenso para los desarrolladores. Desde la versión 1.9, todo esto ha sido simplificado y ordenado, así que ya no le hacemos esta pregunta en el instalador.
+> **Nota :** En versiones anteriores a la 1.9, era posible seleccionar una o varias bases de datos. Sin embargo, esta elección conllevaba considerables problemas de eficiencia para grandes portales, y un dolor de cabeza inmenso para los desarrolladores. Desde la versión 1.9, todo esto ha sido simplificado y ordenado, así que ya no le hacemos esta pregunta en el instalador.
 
 Compruebe los datos introducidos en el formulario y luego haga clic en el botón _comprobar conexión de base de datos_. Si aparece un mensaje de error, revise los datos de nuevo. Tal vez la contraseña no sea la correcta.
 
@@ -172,7 +176,7 @@ Todos los ajustes de este paso, excepto el método de cifrado y la URL del porta
 
 Después de la instalación es casi imposible cambiar el método de cifrado, pues supondría volver a generar nuevas contraseñas para todos los usuarios y enviarlas por e-mail. Por su parte, la URL del portal podría ser actualizada con cierta dificultad, a través del fichero de configuración. Así pues, tómese un momento para pensar la configuración más adecuada de ambos durante la instalación.
 
-![](../assets/images110.png)Ilustración 8: Instalación - Opciones generales de configuración
+![](../assets/images110.png)*Ilustración 8: Instalación - Opciones generales de configuración*
 
 *   _Nombre de u__suario y Contraseña del Administrador:_ **_I_**MPORTANTE – le permitirán conectarse a su portal como administrador. Una opción es crear una cuenta global de administración desde aquí (con el nombre &quot;admin&quot;) y tener varios administradores utilizando esta cuenta; sin embargo, se recomienda crear una cuenta para cada administrador (por lo que esta primera de la instalación debe ser la suya), para poder hacer un seguimiento de todas las acciones tomadas por otros administradores.
 
@@ -194,13 +198,13 @@ Después de la instalación es casi imposible cambiar el método de cifrado, pue
 
 *   _Permitir que los propios usuarios puedan registrarse como creadores de cursos:_ posibilita que un usuario pueda registrarse por sí mismo como docente y por tanto poder crear nuevos cursos. Solo se tiene en cuenta si la configuración que se ha realizado anteriormente para los usuarios ha sido establecida como SI.
 
-**Nota** : Lo definido por el usuario en esta pantalla tendrá todos los permisos de administración, por lo que más tarde podrá actualizar la configuración de esta página.
+> **Nota** : Lo definido por el usuario en esta pantalla tendrá todos los permisos de administración, por lo que más tarde podrá actualizar la configuración de esta página.
 
 ##### Paso 6 de 6 : Última revisión antes de la instalación {#paso-6-de-6-ltima-revisi-n-antes-de-la-instalaci-n}
 
 Aquí se pueden ver todos los ajustes realizados antes de iniciar la instalación. Le recomendamos que tome una captura de pantalla o la imprima y guárdela en un lugar seguro. Estos datos podrían ser útiles cuando informe de un error a la comunidad Chamilo, o en caso de perder por accidente la configuración que estableció durante la instalación. Si encuentra algún error en la configuración, sólo tiene que volver atrás y subsanarlo; en caso contrario, haga clic en el botón _Instalar Chamilo_ y proceda ...
 
-![](../assets/images111.png)Ilustración 9: Instalación - Revisión
+![](../assets/images111.png)*Ilustración 9: Instalación - Revisión*
 
 Cuando la instalación haya terminado, bastará con ir a la página principal de la plataforma y entrar en ella con la cuenta que acaba de establecer.
 
@@ -212,11 +216,15 @@ Cualquier actualización de software puede generar nuevos errores o regresiones 
 
 Como administrador, puede activar la notificación de nuevas versiones en la ficha Administración, bloque _Chamilo_.
 
-![](../assets/images114.png)Ilustración 10: Administración - Bloque Chamilo
+![](../assets/images114.png)
+
+*Ilustración 10: Administración - Bloque Chamilo*
 
 Para activar esta funcionalidad, haga clic en el botón de Activar la verificación de versiones.
 
-![](../assets/images117.png)Ilustración 11: Administración - Bloque Chamilo (continuación)
+![](../assets/images117.png)
+
+*Ilustración 11: Administración - Bloque Chamilo (continuación)*
 
 Siempre que una nueva versión sea publicada, su interfaz se lo comunicará. Tenga en cuenta que esta característica, también enviará algunos datos sobre su portal para que podamos usarlos con fines estadísticos: el e-mail público que ha hecho figurar en la administración de la plataforma, la dirección URL pública de la misma, así como el número de usuarios y cursos. De esta manera, podremos saber cuántas personas están usando Chamilo en todo el mundo.
 

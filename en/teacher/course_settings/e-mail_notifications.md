@@ -4,7 +4,7 @@ E-mail notifications ![](../assets/graphics324.png) are a effective way to ensur
 
 ![](../assets/images243.png)
 
-Illustration 174: Course settings – E-mail notifications
+*Illustration 174: Course settings – E-mail notifications*
 
 In this section, you can choose to receive an e-mail notification if:
 

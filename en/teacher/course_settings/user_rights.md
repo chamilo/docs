@@ -6,4 +6,4 @@ The _User rights_ section ![](../assets/graphics325.png) allows you to set parti
 
 ![](../assets/images244.png)
 
-Illustration 175: Course settings – Users rights
+*Illustration 175: Course settings – Users rights*

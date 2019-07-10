@@ -4,6 +4,8 @@ Certainly one of the trickiest aspects of certificates is that students **have t
 
 The certificate page uses a unique URL, so the student can just copy the link and reuse it later on, as long as the link is public, which is an option the administrator has to enable, like this:
 
-![](../assets/image12.png)Illustration 116: Public certificates option
+![](../assets/image12.png)
+
+*Illustration 116: Public certificates option*
 
 Once generated, a certificate cannot be canceled by the student. The teacher has to enter the certificates management tool to remove it and allow the student to re-generate it.

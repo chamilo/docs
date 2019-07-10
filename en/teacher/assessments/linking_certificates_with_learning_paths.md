@@ -6,7 +6,7 @@ To do this, you will need to configure an assessment based only on this learning
 
 Go to the learning path, create one, develop all its contents, then use the last content type icon to create the final page, like this.
 
-![](../assets/image16.png)Illustration 119: Certificate to finish a learning path
+![](../assets/image16.png)*Illustration 119: Certificate to finish a learning path*
 
 There are many items on this page, so take your time to analyze all of them. The special certificate page will only ever appear as the last step of your learning path, out of any sub-folder.
 

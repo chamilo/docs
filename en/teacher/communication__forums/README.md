@@ -6,15 +6,13 @@ The _Forum_ tool ![](../assets/graphics375.png) allows you to organize the excha
 
 The forum is an asynchronous discussion tool, i.e. the people involved in a conversation do not have to be connected simultaneously to participate. Email is also an asynchronous tool. However, a major difference from e-mail is that the forum is a public or semi-public space, where several people can see information (even if they were not part of the discussion initially), boosting support for learning by providing ready access to really useful information, inasmuch as a group of students and teachers can exchange ideas together in their specialist field.
 
-Forum management tools
-
-category
+Forum management tools category
 
 ![](../assets/graphics1.png)
 
 Name of forum
 
-Illustration 67: Forum – Global view
+*Illustration 67: Forum – Global view*
 
 Exchanges are organized hierarchically, as follows:
 

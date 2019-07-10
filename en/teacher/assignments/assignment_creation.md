@@ -10,9 +10,11 @@ To create a new assignment:
 
 *   click the _Validate_ button.
 
-Illustration 93: Create a new assignment
-
 ![](../assets/graphics66.png)
+
+*Illustration 93: Create a new assignment*
+
+
 
 Advanced settings allow you to:
 

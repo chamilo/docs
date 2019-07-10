@@ -6,6 +6,6 @@ This requires the administrator to have enabled and configured the skills availa
 
 Once skills are available, the administrator will have to come to your course and link the assessment that you have configured with a specific skill. This looks something like this (to the administrator):
 
-![](../assets/image15.png)Illustration 118: Assign skill to assessment
+![](../assets/image15.png)*Illustration 118: Assign skill to assessment*
 
 We can see there (although the skills available are written in Spanish) that a new “Skills” field appears in the same edition form as we have for assessments.

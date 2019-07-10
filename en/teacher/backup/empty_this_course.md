@@ -14,7 +14,7 @@ To empty a course:
 
 ![](../assets/images252.png)
 
-Illustration 184: Maintenance – Empty course
+*Illustration 184: Maintenance – Empty course*
 
 ### Delete the course area {#delete-the-course-area}
 
@@ -24,4 +24,4 @@ Given the fact there&#039;s no way back from this, we highly recommend you consi
 
 ![](../assets/graphics336.gif) Warning: This feature should be used with extreme caution! ![](../assets/graphics337.gif)
 
-![](../assets/images253.png)Illustration 185: Maintenance – Course deleting
+![](../assets/images253.png)*Illustration 185: Maintenance – Course deleting*

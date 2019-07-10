@@ -6,7 +6,7 @@ The _Attendance sheet_ displays a table with columns listing users, their attend
 
 ![](../assets/images182.png)
 
-Illustration 134: Attendances sheet
+*Illustration 134: Attendances sheet*
 
 By default, the system assumes all learners are attending the course session, so **only** take note of **missing** learners, by **unchecking** the learner&#039;s box to mark his absence.
 

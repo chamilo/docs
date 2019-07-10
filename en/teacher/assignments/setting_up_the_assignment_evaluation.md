@@ -16,4 +16,6 @@ To include assignments&#039; evaluation in the assessments:
 
 *   click on the _Validate_ button.
 
-![](../assets/graphics71.png)Illustration 96: Assignments – Advanced settings
+![](../assets/graphics71.png)
+
+*Illustration 96: Assignments – Advanced settings*

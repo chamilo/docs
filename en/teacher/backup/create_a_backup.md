@@ -10,6 +10,6 @@ For security and procedural reasons, it is recommended that you create a backup 
 
 ![](../assets/graphics333.png)
 
-Illustration 182: Maintenance – Backup creation
+*Illustration 182: Maintenance – Backup creation*
 
 The backup is made available in the form of a compressed file which you can download on your computer. It is also stored on the server for quick restoration if needed.

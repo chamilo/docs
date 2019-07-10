@@ -4,6 +4,6 @@ Chamilo makes a distinction between maintenance tools and course settings to sim
 
 ![](../assets/images250.png)
 
-Illustration 181: Backup - General
+*Illustration 181: Backup - General*
 
-**Note** : Features for saving, copying, recovering etc. have been developed with the intention of managing **content**. For this reason, interactions with or between users are not saved. To save them, you&#039;ll have to ask your platform administrator to do a full backup of the portal. If you are the administrator, this procedure is described in the admin guide.
+> **Note** : Features for saving, copying, recovering etc. have been developed with the intention of managing **content**. For this reason, interactions with or between users are not saved. To save them, you&#039;ll have to ask your platform administrator to do a full backup of the portal. If you are the administrator, this procedure is described in the admin guide.

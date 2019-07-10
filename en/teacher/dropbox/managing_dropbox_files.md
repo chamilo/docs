@@ -12,4 +12,4 @@ As well as the familiar icons, the dropbox tool offers a series of new managemen
 | ![](../assets/images209.png) | Save on your computer a compressed archive of all the files in the folder |
 | ![](../assets/graphics274.png) | Save a copy of the corresponding file on your computer |
 
-**Note** : When a learner deletes a file sent to the system, this file is still available to the teacher
+> **Note** : When a learner deletes a file sent to the system, this file is still available to the teacher

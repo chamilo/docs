@@ -8,4 +8,6 @@ Depending on the complexity of exchanges on the forums, several display modes ca
 
 *   **nested view** : uses the threaded view but displays a complete subject.
 
-![](../assets/graphics2.png)Illustration 68: Forum – Display modes
+![](../assets/graphics2.png)
+
+*Illustration 68: Forum – Display modes*

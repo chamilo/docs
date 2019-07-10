@@ -5,39 +5,39 @@
 ## `c_survey`
 Almacena las encuestas en cursos
 
-| Column name           | DataType     | PK | NN | UQ | BIN | UN | ZF | AI | Default | Comment                                                  |
-|-----------------------|--------------|:--:|:--:|:--:|:---:|:--:|:--:|:--:|---------|----------------------------------------------------------|
-| iid                   | INT(11)      |  ✔ |  ✔ |    |     |    |    |  ✔ |         | Identificador                                            |
-| c_id                  | INT(11)      |    |  ✔ |    |     |    |    |    |         | Identificador del curso                                  |
-| survey_id             | INT(11)      |    |  ✔ |    |     |    |    |    |         | Antiguo identificador de la tabla                        |
-| code                  | VARCHAR(20)  |    |    |    |     |    |    |    | NULL    | Código de la encuesta                                    |
-| title                 | LONGTEXT     |    |    |    |     |    |    |    | NULL    | Título de la encuesta                                    |
-| subtitle              | LONGTEXT     |    |    |    |     |    |    |    | NULL    | Subtítulo de la encuesta                                 |
-| author                | VARCHAR(20)  |    |    |    |     |    |    |    | NULL    | Identificador del usuario creador de la encuesta         |
-| lang                  | VARCHAR(20)  |    |    |    |     |    |    |    | NULL    | Idioma de la encuesta                                    |
-| avail_from            | DATE         |    |    |    |     |    |    |    | NULL    | Fecha de inicio de disponibilidad                        |
-| avail_till            | DATE         |    |    |    |     |    |    |    | NULL    | Fecha de fin de disponibilidad                           |
-| is_shared             | VARCHAR(1)   |    |    |    |     |    |    |    | NULL    | (Obsoleto)                                               |
-| template              | VARCHAR(20)  |    |    |    |     |    |    |    | NULL    | (Obsoleto, pero requiere template como valor)            |
-| intro                 | LONGTEXT     |    |    |    |     |    |    |    | NULL    | Texto de instroducción                                   |
-| surveythanks          | LONGTEXT     |    |    |    |     |    |    |    | NULL    | Texto de agradecimiento                                  |
-| creation_date         | DATETIME     |    |  ✔ |    |     |    |    |    |         | Fecha de creación                                        |
-| invited               | INT(11)      |    |  ✔ |    |     |    |    |    |         | Número de invitados a la encuesta                        |
-| answered              | INT(11)      |    |  ✔ |    |     |    |    |    |         | Número de usuarios que respondieron la encuesta          |
-| invite_mail           | LONGTEXT     |    |  ✔ |    |     |    |    |    |         | Texto del correo electrónico de invitación               |
-| reminder_mail         | LONGTEXT     |    |  ✔ |    |     |    |    |    |         |                                                          |
-| mail_subject          | VARCHAR(255) |    |  ✔ |    |     |    |    |    |         | Asunto del correo electrónico de invitación              |
-| anonymous             | VARCHAR(10)  |    |  ✔ |    |     |    |    |    |         | Indica si la encuesta puede ser respondidad anónimamente |
-| access_condition      | LONGTEXT     |    |    |    |     |    |    |    | NULL    |                                                          |
-| shuffle               | TINYINT(1)   |    |  ✔ |    |     |    |    |    |         | Indica si las preguntas se muestran aleatoriamente       |
-| one_question_per_page | TINYINT(1)   |    |  ✔ |    |     |    |    |    |         | Opción de mostrar una pregunta por página                |
-| survey_version        | VARCHAR(255) |    |  ✔ |    |     |    |    |    |         | Versión de la encuesta                                   |
-| parent_id             | INT(11)      |    |  ✔ |    |     |    |    |    |         | Identificador de la encuesta madre                       |
-| survey_type           | INT(11)      |    |  ✔ |    |     |    |    |    |         | Tipo de encuesta                                         |
-| show_form_profile     | INT(11)      |    |  ✔ |    |     |    |    |    |         |                                                          |
-| form_fields           | LONGTEXT     |    |  ✔ |    |     |    |    |    |         |                                                          |
-| session_id            | INT(11)      |    |  ✔ |    |     |    |    |    |         | Identificador de la sesión                               |
-| visible_results       | INT(11)      |    |    |    |     |    |    |    | NULL    | Visibilidad de los resultados                            |
+| Column name           | DataType     |  PK  |  NN  |  UQ  | BIN  |  UN  |  ZF  |  AI  | Default | Comment                                                  |
+| --------------------- | ------------ | :--: | :--: | :--: | :--: | :--: | :--: | :--: | ------- | -------------------------------------------------------- |
+| iid                   | INT(11)      |  ✔   |  ✔   |      |      |      |      |  ✔   |         | Identificador                                            |
+| c_id                  | INT(11)      |      |  ✔   |      |      |      |      |      |         | Identificador del curso                                  |
+| survey_id             | INT(11)      |      |  ✔   |      |      |      |      |      |         | Antiguo identificador de la tabla                        |
+| code                  | VARCHAR(20)  |      |      |      |      |      |      |      | NULL    | Código de la encuesta                                    |
+| title                 | LONGTEXT     |      |      |      |      |      |      |      | NULL    | Título de la encuesta                                    |
+| subtitle              | LONGTEXT     |      |      |      |      |      |      |      | NULL    | Subtítulo de la encuesta                                 |
+| author                | VARCHAR(20)  |      |      |      |      |      |      |      | NULL    | Identificador del usuario creador de la encuesta         |
+| lang                  | VARCHAR(20)  |      |      |      |      |      |      |      | NULL    | Idioma de la encuesta                                    |
+| avail_from            | DATE         |      |      |      |      |      |      |      | NULL    | Fecha de inicio de disponibilidad                        |
+| avail_till            | DATE         |      |      |      |      |      |      |      | NULL    | Fecha de fin de disponibilidad                           |
+| is_shared             | VARCHAR(1)   |      |      |      |      |      |      |      | NULL    | (Obsoleto)                                               |
+| template              | VARCHAR(20)  |      |      |      |      |      |      |      | NULL    | (Obsoleto, pero requiere template como valor)            |
+| intro                 | LONGTEXT     |      |      |      |      |      |      |      | NULL    | Texto de instroducción                                   |
+| surveythanks          | LONGTEXT     |      |      |      |      |      |      |      | NULL    | Texto de agradecimiento                                  |
+| creation_date         | DATETIME     |      |  ✔   |      |      |      |      |      |         | Fecha de creación                                        |
+| invited               | INT(11)      |      |  ✔   |      |      |      |      |      |         | Número de invitados a la encuesta                        |
+| answered              | INT(11)      |      |  ✔   |      |      |      |      |      |         | Número de usuarios que respondieron la encuesta          |
+| invite_mail           | LONGTEXT     |      |  ✔   |      |      |      |      |      |         | Texto del correo electrónico de invitación               |
+| reminder_mail         | LONGTEXT     |      |  ✔   |      |      |      |      |      |         |                                                          |
+| mail_subject          | VARCHAR(255) |      |  ✔   |      |      |      |      |      |         | Asunto del correo electrónico de invitación              |
+| anonymous             | VARCHAR(10)  |      |  ✔   |      |      |      |      |      |         | Indica si la encuesta puede ser respondidad anónimamente |
+| access_condition      | LONGTEXT     |      |      |      |      |      |      |      | NULL    |                                                          |
+| shuffle               | TINYINT(1)   |      |  ✔   |      |      |      |      |      |         | Indica si las preguntas se muestran aleatoriamente       |
+| one_question_per_page | TINYINT(1)   |      |  ✔   |      |      |      |      |      |         | Opción de mostrar una pregunta por página                |
+| survey_version        | VARCHAR(255) |      |  ✔   |      |      |      |      |      |         | Versión de la encuesta                                   |
+| parent_id             | INT(11)      |      |  ✔   |      |      |      |      |      |         | Identificador de la encuesta madre                       |
+| survey_type           | INT(11)      |      |  ✔   |      |      |      |      |      |         | Tipo de encuesta                                         |
+| show_form_profile     | INT(11)      |      |  ✔   |      |      |      |      |      |         |                                                          |
+| form_fields           | LONGTEXT     |      |  ✔   |      |      |      |      |      |         |                                                          |
+| session_id            | INT(11)      |      |  ✔   |      |      |      |      |      |         | Identificador de la sesión                               |
+| visible_results       | INT(11)      |      |      |      |      |      |      |      | NULL    | Visibilidad de los resultados                            |
 
 ## `c_survey_question`
 Almacena las preguntas de las encuestas
