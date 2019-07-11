@@ -4,13 +4,13 @@
 
 La fonctionnalité d'export spécial a été dessinée dans l'intention de venir en aide au réviseur académique / instructionnel, et lui permet d'exporter tous les documents de tous les cours en une seule opération. Une seconde option permet de choisir les documents des cours qu'il désire exporter, et exportera les documents présents dans ces cours directement depuis l'outil de maintenance du cours lui-même.
 
-![](../assets/export-speciaux.png)Illustration 79: Administration - Exports spéciaux
+![](../assets/export-speciaux.png)*Illustration 79: Administration - Exports spéciaux*
 
 ### État du système {#tat-du-syst-me}
 
 La page d'état du système permet de consulter quelques détails par rapport à la plateforme et au serveur sur lequel elle est installée.
 
-![](../assets/image33.png)Illustration 80: Administration - État du système
+![](../assets/image33.png)*Illustration 80: Administration - État du système*
 
 Ces informations sont particulièrement utiles aux équipes de support techniques pour diagnostiquer un problème lorsqu'il est impossible d'avoir un accès au serveur lui-même.
 
@@ -46,7 +46,7 @@ Bien que l'outil soit fonctionnel, il requiert de nombreuses étapes de configur
 
 L'outil est particulièrement appliqué, dans son état actuel, pour une utilisation sur un portail en libre accès mais pour lequel on souhaite que l'apprenant puisse compléter un véritable parcours d'apprentissage pour atteindre un objectif final dans le contexte d'une formation complète.
 
-![](../assets/image34.png)Illustration 81: Exemple d'écran de définition des séquences
+![](../assets/image34.png)*Illustration 81: Exemple d'écran de définition des séquences*
 
 Cet outil, dans son état actuel, offre encore trop peu d'options pour satisfaire la plupart de nos utilisateurs.
 
