@@ -8,9 +8,10 @@ Téléchargez la source sur la page de téléchargement de [Chamilo](https://cha
 
 Ex: user@user:(sudo) mv /home/_user_/Bureau/chamilo /var/www
 
-**Note**: Il peut être utile de renommer le dossier une fois décompressé.
-
-Chamilo peut être installé dans n'importe quel répertoire. Choisissez la racine du site (_DocumentRoot_) pour que la plateforme soit directement accessible à l'adresse « http://www.mondomaine.com/ », par exemple.
+> **Note**: Il peut être utile de renommer le dossier une fois décompressé.
+>
+> Chamilo peut être installé dans n'importe quel répertoire. Choisissez la racine du site (_DocumentRoot_) pour que la plateforme soit directement accessible à l'adresse « http://www.mondomaine.com/ », par exemple.
+>
 
 Le dossier où copier les fichiers de Chamilo doit être accessible en lecture par l'utilisateur système du serveur Web (soit « www-data » sur notre Ubuntu, ou _httpd_ ou encore _nobody_ sur d'autres systèmes Linux). À distance, il faut pouvoir changer les permissions (droits) sur les dossiers et les fichiers à travers un accès [FTP](http://fr.wikipedia.org/wiki/FileZilla), [SSH](http://fr.wikipedia.org/wiki/Secure_Shell) ou autre.
 Certains répertoires devront également être accessibles en écriture, mais cette information sera indiquée sur la page de pré-requis du processus d'installation.
@@ -22,7 +23,7 @@ Une fois les fichiers de Chamilo copiés sur le serveur, allez à l'adresse « h
 Si vous avez pu configurer un hôte virtuel (ou VirtualHost[^11] en anglais), il faudra probablement charger directement « http://www.hotevirtuel.com/ » sans le suffixe _chamilo._
 
 ![](../assets/debutinstall.png)
-Illustration 1: Installation - Écran d'accueil
+*Illustration 1: Installation - Écran d'accueil*
 
 Vous devrez ensuite suivre une série d'étapes pour préciser les différents paramètres de la plateforme. Ces étapes sont quasiment identiques qu'elles soient effectuées en local ou à distance.
 
@@ -37,30 +38,30 @@ Depuis la version 1.8.8, votre langue est détectée automatiquement via les par
 Attention, ceci n'est **pas** la langue dans laquelle sera configurée votre plateforme Chamilo, mais bien la langue du processus d'installation, rien de plus.
 
 ![](../assets/graficos2.png)
-Illustration 2: Installation - Choix de la langue
+*Illustration 2: Installation - Choix de la langue*
 
 #### Étape 2 sur 6 : Pré-requis
 
 Cette étape permet de vérifier si votre serveur dispose bien de tous les éléments pour une installation correcte et complète de Chamilo:
 
 ![](../assets/etape2.png)
-Illustration 3: Installation – Pré-requis d'extensions
+*Illustration 3: Installation – Pré-requis d'extensions*
 
 Notez que les pré-requis déjà couverts par votre système sont notés en **_vert_**, ceux qui sont obligatoires mais absents sont notés en **_rouge_**, et ceux qui ne sont pas présents mais pas non plus obligatoires sont notés en **_orange_**.
 
 Presque tous les pré-requis concernent l'installation de PHP et proposent un lien vers plus de détails. Les paramètres recommandés représentent des variables que vous pouvez modifier dans votre fichier de configuration de PHP (_php.ini_[^12]) ou dans la configuration de votre hôte virtuel.
 
 ![](../assets/image2.png)
-Illustration 4: Installation - Pré-requis de configuration
+*Illustration 4: Installation - Pré-requis de configuration*
 
 À la fin des pré-requis, vous retrouverez une section _Permissions sur les répertoires et fichiers_.
 
 ![](../assets/etape2-1.png)
-Illustration 5: Installation - Pré-requis (suite et fin)
+*Illustration 5: Installation - Pré-requis (suite et fin)*
 
 Par défaut, sous GNU/Linux, l'écriture n'est pas autorisée sur les dossiers. Il faut changer les droits d'accès aux fichiers pour optimiser la sécurité et donner les droits suffisants à l'utilisateur correspondant au serveur Web. Cela sert à confiner les droits lors de l'exécution d'un service (en l'occurrence le serveur Web) et éviter qu'un pirate ne prenne trop facilement le contrôle de votre serveur. Sous Windows, c'est généralement plus simple par défaut (mais beaucoup moins sûr) et les permissions sont déjà suffisantes (mais trop permissives). En d'autres mots, la procédure est inversée : on part de quelque chose de peu sûr et on restreint les droits, alors que sous Linux on part de quelque chose de sûr et on étend les droits selon les besoins.
 
-**Note** : Chamilo est régulièrement révisé (une fois par an) pour éviter les failles de sécurité qui mettraient en danger votre serveur. Vous pouvez être tenu au courant des dernières failles de sécurité rencontrées et corrigées en vous abonnant à notre liste de courriels de sécurité: [http://lists.chamilo.org/listinfo/](http://lists.chamilo.org/listinfo/security)[security](http://lists.chamilo.org/listinfo/security) ou sur [http://support.chamilo.org/projects/chamilo-18/wiki/Security_issues](http://support.chamilo.org/projects/chamilo-18/wiki/Security_issues). Alternativement, vous pouvez suivre notre fil d'information Twitter : [http://twitter.com/chamilosecurity](http://twitter.com/chamilosecurity)
+> **Note** : Chamilo est régulièrement révisé (une fois par an) pour éviter les failles de sécurité qui mettraient en danger votre serveur. Vous pouvez être tenu au courant des dernières failles de sécurité rencontrées et corrigées en vous abonnant à notre liste de courriels de sécurité: [http://lists.chamilo.org/listinfo/](http://lists.chamilo.org/listinfo/security)[security](http://lists.chamilo.org/listinfo/security) ou sur [http://support.chamilo.org/projects/chamilo-18/wiki/Security_issues](http://support.chamilo.org/projects/chamilo-18/wiki/Security_issues). Alternativement, vous pouvez suivre notre fil d'information Twitter : [http://twitter.com/chamilosecurity](http://twitter.com/chamilosecurity)
 
 En local, sous Ubuntu, allez dans le répertoire où se trouve le dossier « Chamilo ». Donnez les permissions suffisantes à l'utilisateur « www-data » (il s'agit de l'utilisateur en charge du serveur Web Apache HTTPd) et rafraîchissez votre navigateur. Si vous utilisez un autre système d'exploitation, adaptez la procédure selon les règles de celui-ci.
 
@@ -68,7 +69,7 @@ Ex: user@user:/var/www$ chown -R www-data:www-data chamilo/
 
 Cliquer sur « + Nouvelle installation ».
 
-**_Note_** : si vous exécutez la mise à jour d'une version antérieure de Chamilo, ce chapitre n'est pas totalement adéquat. Consultez plutôt le chapitre 2.3 : Mise à jour de la plateforme Chamilo. Nous vous recommandons également la lecture du manuel d'installation et de mise à jour de Chamilo, en anglais (traduction disponible partiellement en français), présent dans le répertoire _documentation/__de votre paquet Chamilo._
+> **_Note_** : si vous exécutez la mise à jour d'une version antérieure de Chamilo, ce chapitre n'est pas totalement adéquat. Consultez plutôt le chapitre 2.3 : Mise à jour de la plateforme Chamilo. Nous vous recommandons également la lecture du manuel d'installation et de mise à jour de Chamilo, en anglais (traduction disponible partiellement en français), présent dans le répertoire _documentation/__de votre paquet Chamilo._
 
 #### Étape 3 sur 6 : Licence
 
@@ -77,7 +78,7 @@ Ici, on vous explique que «Chamilo est un logiciel libre distribué sous la lic
 Pour passer à l'étape suivante, vous devez lire la licence et l'accepter. Vous trouverez d'autres versions (dans votre langue) de la licence si vous le désirez, en vous connectant au site de la Free Software Foundation[^13], qui est l'organisme officiel édictant cette licence. Si vous avez déjà eu l'occasion de lire la licence GNU/GPLv3 et que vous êtes familier avec _Creative Commons_ et que vous êtes d'accord avec les termes de ces licences, vous pouvez immédiatement cocher la case et passer à l'étape suivante. Ces licences n’ont en rien été modifiées.
 
 ![](../assets/etape3.png)
-Illustration 6: Installation - Licence
+*Illustration 6: Installation - Licence*
 
 Une section facultative est disponible au-dessous du bloc d'approbation de la licence. Le formulaire qui s'y trouve nous permettra de vous contacter au cas où l'Association Chamilo organiserait un événement près de chez vous, ou pour vous annoncer qu'un nouveau fournisseur officiel est disponible dans votre pays (au cas où vous auriez besoin de services professionnels). Ceci n'est pas obligatoire, mais nous utiliserons vos données de contact avec respect et elles nous aideront de toute façon à promouvoir les activités de l'Association Chamilo.
 
@@ -86,7 +87,7 @@ Une section facultative est disponible au-dessous du bloc d'approbation de la li
 Dans cette étape, on vérifie que le système de gestion de bases de données (SGBD) fonctionne correctement:
 
 ![](../assets/etape4.png)
-Illustration 7: Installation - Paramètres MySQL
+*Illustration 7: Installation - Paramètres MySQL*
 
 Pour cette vérification il vous faudra compléter les différents champs proposés. Ces éléments vous sont donnés lors de la location de l'hébergement ou, s'il est installé localement, vous les avez définis lors de la mise en place du serveur [LAMP](http://fr.wikipedia.org/wiki/LAMP).
 
@@ -113,7 +114,7 @@ Une fois que tout est vérifié et correct, passez à l'étape suivante.
 Tous les paramètres de cette étape seront modifiables via l'interface d'administration de Chamilo, à l'exception de la _Méthode d__e cryptage_. Cette dernière est d'ailleurs pratiquement impossible à modifier après l'installation. Veillez à la sélectionner avec soin.
 
 ![](../assets/etape5.png)
-Illustration 8: Installation - Paramètres de configuration généraux
+*Illustration 8: Installation - Paramètres de configuration généraux*
 
 *   _Identifiant et Mot de passe de l'administrateur_: **_IMPORTANT_** _- ces informations permettront de se connecter en tant qu'administrateur dans Chamilo. Une solution est de mettre un compte administrateur générique, non nominatif et non personnel, mais cela supprimerait la possibilité d'identifier les activités d'un des administrateurs. Il est possible, après l'installation, de définir d'autres administrateurs distincts aux pouvoirs identiques._
 
@@ -133,14 +134,14 @@ Illustration 8: Installation - Paramètres de configuration généraux
 
 *   _Auto inscription en tant que créateur de cours_: à modifier en fonction des besoins.
 
-**Note** : L'utilisateur défini à cette étape aura les droits d'administration de la plateforme. Certaines informations pourront être modifiées plus tard.
+> **Note** : L'utilisateur défini à cette étape aura les droits d'administration de la plateforme. Certaines informations pourront être modifiées plus tard.
 
 #### Étape 6 sur 6 : Dernière vérification avant installation
 
 Ici, il faut vérifier les valeurs qui ont été introduites. Il est conseillé d'imprimer cette page pour conserver le mot de passe et les autres paramètres (dans un endroit sûr). Si une erreur est constatée, il est toujours possible de revenir en arrière. Si tout est correct, cliquez sur « Installer Chamilo».
 
 ![](../assets/image3.png)
-Illustration 9: Installation - Récapitulatif
+*Illustration 9: Installation - Récapitulatif*
 
 Une fois l'installation terminée, il suffit de se rendre sur le site en suivant le lien proposé et de se connecter avec l'identifiant défini précédemment.
 
@@ -149,9 +150,9 @@ Une fois l'installation terminée, il suffit de se rendre sur le site en suivant
 Une fois Chamilo installé, un dernier message d'avertissement apparaît:
 
 ![](../assets/dernier-parametre.png)
-Illustration 10: Installation - Rapport d'installation
+*Illustration 10: Installation - Rapport d'installation*
 
-Il est possible de changer les droits d'accès au répertoire « app/config/ » en utilisant « chmod » :
+Il est possible de changer les droists d'accès au répertoire « app/config/ » en utilisant « chmod » :
 
 user@user:/var/www/chamilo$ sudo chmod -R 0555app/config/
 

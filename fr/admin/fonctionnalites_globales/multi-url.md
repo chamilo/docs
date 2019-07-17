@@ -62,4 +62,4 @@ La marche à suivre est :
 
 *   d&#039;ajouter les sous-portails voulus et y activer un administrateur local pour chacun
 
-![](../assets/graficos97.png)Illustration 82: Administration - Multi-URLs
+![](../assets/graficos97.png)*Illustration 82: Administration - Multi-URLs*
