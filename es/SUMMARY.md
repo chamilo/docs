@@ -198,7 +198,7 @@
   * [Actualización de la plataforma Chamilo.](admin/instalacion_y_configuracion/actualizar_chamilo.md)
 * [Copias de seguridad](admin/copias_de_seguridad/README.md)
   * [Copia de seguridad fuera de Chamilo](admin/copias_de_seguridad/copias_de_seguridad.md)
-  * [Copia de seguridad por la interfaz de Chamilo](admin/sauvegardes/copias_de_seguridad_por_la_interfaz_de_chamilo.md)
+  * [Copia de seguridad por la interfaz de Chamilo](admin/copias_de_seguridad/copias_de_seguridad_por_la_interfaz_de_chamilo.md)
   * [Recuperando copias de seguridad](admin/copias_de_seguridad/recuperar_copias_de_seguridad.md)
 * [Administración](admin/unidad_administrador/README.md)
   * [Administrar la plataforma](admin/unidad_administrador/administracion_de_la_plataforma.md)
