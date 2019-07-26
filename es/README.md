@@ -8,3 +8,4 @@ Este sitio contiene los manuales de Chamilo en el idioma Español para la versi�
 * [Guía desarrollador](developer/introduccion.md)
 
 La guía para desarrolladores en Español representa solo una parte del manual en Inglés.
+
