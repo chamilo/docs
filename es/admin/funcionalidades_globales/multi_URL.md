@@ -46,14 +46,14 @@ El proceso de instalación es el siguiente:
 - ir a la página de administración de Chamilo y seguir el enlace múlti-URL del portal
 - redefinir su URL principal (reemplace localhost) y añadir el deseado, luego agregar y habilitar un administrador para cada uno de ellos
 
-![](/var/www/docs/es/admin/assets/images181.png)*Ilustración 75: Administración - Multi-URLs*
+![](../assets/images181.png)*Ilustración 75: Administración - Multi-URLs*
 
 El resultado de una instalación multi-URL puede quedar muy bonito si cuenta con los servicios de un diseñador profesional. Aquí presentamos un ejemplo con 3 facultades de un mismo instituto…
 
-![](/var/www/docs/es/admin/assets/image18.png)
+![](../assets/image18.png)
 
-![](/var/www/docs/es/admin/assets/image20.png)
+![](../assets/image20.png)
 
-![](/var/www/docs/es/admin/assets/image21.png)
+![](../assets/image21.png)
 
 ### 

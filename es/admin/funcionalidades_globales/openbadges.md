@@ -4,11 +4,11 @@ OpenBadges es un estándar abierto de representación e intercambio de competenc
 
 Para crear una insignia OpenBadges, necesito tener una competencia. Para ello, puedo visitar la entrada “Gestionar las competencias” en la página principal de administración, o bien puedo usar la entrada “Insignias”.
 
-![](/var/www/docs/es/admin/assets/image30.png)
+![](../assets/image30.png)
 
 Para la competencia que quiero ilustrar, doy clic en el botón “Crear insignia”.
 
-![](/var/www/docs/es/admin/assets/image31.png)
+![](../assets/image31.png)
 
 Esto me redirige hacia una página de edición de la insignia y la competencia, que contiene dos campos más que la competencia misma:
 
@@ -19,11 +19,11 @@ También existe un botón “Diseñar una nueva insignia”, y es que pensamos q
 
 Al dar clic en el botón de diseño, se abre una nueva ventana emergente con el servicio de MyKnowledgeMap que permite diseñar su propia insignia, descargarla, y luego volver a subira.
 
-![](/var/www/docs/es/admin/assets/image32.png)
+![](../assets/image32.png)
 
 Una vez estas operaciones ejecutadas, podremos visualizar este badge en miniatura en la lista de badges.
 
-![](/var/www/docs/es/admin/assets/image33.png)
+![](../assets/image33.png)
 
 Finalmente, el alumno podrá visualizar este badge en su red social, seleccionar uno de ellos, ver su ficha de logro del badge y exportar su competencia a un “Backpack” especial de OpenBadges. Por defecto, se usa el BackPack de Mozilla en [https://backpack.openbadges.org/](https://backpack.openbadges.org/)
 

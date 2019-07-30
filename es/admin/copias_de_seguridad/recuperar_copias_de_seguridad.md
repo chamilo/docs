@@ -12,11 +12,11 @@ En la herramienta lecciones hay tres opciones (La última solo aparecerá si se 
 - &quot; Importación [SCORM](http://fr.wikipedia.org/wiki/Sharable_Content_Object_Reference_Model) &quot; (2do icono),
 - &quot; Chamilo Rapid &quot; (3er icono)
 
-![](/var/www/docs/es/admin/assets/images135.png)*Ilustración 28: Interfaz - Importar lecciones*
+![](../assets/images135.png)*Ilustración 28: Interfaz - Importar lecciones*
 
 Para importar una lección previamente exportada, haga clic en _Importación SCORM_ (2do icono).
 
-![](/var/www/docs/es/admin/assets/images136.png)*Ilustración 29: Interfaz - Importación SCORM*
+![](../assets/images136.png)*Ilustración 29: Interfaz - Importación SCORM*
 
 El archivo .zip que se vaya a exportar, obviamente debe tener un contenido en formato SCORM. En concreto con SCORM 1.2\. Chamilo no es totalmente compatible con SCORM 2004, por lo que si realiza una importación en este formato es probable que aparentemente no se presenten dificultades, pero la importación no será funcional en la mayoría de los casos. Su paquete de lección también puede ser compatible con AICC.
 

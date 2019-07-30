@@ -34,17 +34,17 @@ Esta pantalla le pide que elija el idioma de la instalación. Desde la versión 
 
 Tenga en cuenta que este no es el idioma en el que finalmente quedará instalada la plataforma, sino solamente el elegido para el proceso de instalación.
 
-![](/var/www/docs/es/admin/assets/images106.png)*Ilustración 2: Instalación - Cambiar el idioma*
+![](../assets/images106.png)*Ilustración 2: Instalación - Cambiar el idioma*
 
 ##### Paso 2 de 6: Requisitos {#paso-2-de-6-requisitos}
 
 Este paso comprueba si su servidor tiene todos los elementos necesarios para una instalación correcta y completa de Chamilo.
 
-![](/var/www/docs/es/admin/assets/images109.png)*Ilustración 3: Instalación – Requisitos de módulos*
+![](../assets/images109.png)*Ilustración 3: Instalación – Requisitos de módulos*
 
 Los requisitos previos que ya cumple su sistema están marcados en **verde**, mientras que los requisitos obligatorios no satisfechos por su sistema aparecerán marcados en **rojo**. En **naranja** aparecerán los requisitos no satisfechos pero que no son imprescindibles.
 
-![](/var/www/docs/es/admin/assets/image2.png)
+![](../assets/image2.png)
 
 *Ilustración 4: Instalación – Requisitos de configuración*
 
@@ -52,7 +52,7 @@ Para ampliar la información sobre los prerrequisitos relacionados con la instal
 
 Al final de la página de prerrequisitos figuran los permisos _sobre los directorios y archivos_.
 
-![](/var/www/docs/es/admin/assets/images108.png)
+![](../assets/images108.png)
 
 *Ilustración 5: Instalación - Requisitos (continuación)*
 
@@ -76,7 +76,7 @@ Chamilo explica aquí la distribución libre del software bajo los términos de 
 
 Para ir al siguiente paso tendrá que leer la licencia y aprobarla (de lo contrario no está autorizado a utilizar el software). Encontrará otras versiones de esta licencia (probablemente en su propio idioma), conectándose con la Free Software Foundation[^7], que es la organización que publica esta licencia.
 
-![](/var/www/docs/es/admin/assets/images207.png)*Ilustración 6: Instalación - Licencia*
+![](../assets/images207.png)*Ilustración 6: Instalación - Licencia*
 
 **Nota**: _Desde la versión 1.8.8, también encontrará un formulario opcional debajo de la aprobación de la licencia. Este formulario nos permite tener algunos datos para contactar con usted y poder informarle de cualquier evento organizado por la Asociación Chamilo o relacionado con sus miembros, que tenga lugar cerca de donde se encuentre ubicado. Trataremos sus datos con cuidado y no los proporcionaremos a terceros. Se mantendrán dentro de la asociación. De acuerdo con las leyes de privacidad, usted tiene derecho a que sus datos sean borrados o actualizados en nuestra base de datos mediante el envío de un correo electrónico a info@chamilo.org_
 
@@ -84,7 +84,7 @@ Para ir al siguiente paso tendrá que leer la licencia y aprobarla (de lo contra
 
 En este paso vamos a comprobar el sistema de gestión de bases de datos (DBMS) con el que trabaja y la configuración requerida:
 
-![](/var/www/docs/es/admin/assets/images107.png)*Ilustración 7: Instalación - Opciones de MySQL*
+![](../assets/images107.png)*Ilustración 7: Instalación - Opciones de MySQL*
 
 Para permitir la comprobación de valores, deberá cumplimentar todos los campos requeridos. Estos datos, probablemente le fueron proporcionados cuando alquiló su servicio de alojamiento por primera vez, o fueron asignados por usted cuando realizó la configuración del servidor [LAMP](http://fr.wikipedia.org/wiki/LAMP) en modo local.
 
@@ -108,7 +108,7 @@ Todos los ajustes de este paso, excepto el método de cifrado y la URL del porta
 
 Después de la instalación es casi imposible cambiar el método de cifrado, pues supondría volver a generar nuevas contraseñas para todos los usuarios y enviarlas por e-mail. Por su parte, la URL del portal podría ser actualizada con cierta dificultad, a través del fichero de configuración. Así pues, tómese un momento para pensar la configuración más adecuada de ambos durante la instalación.
 
-![](/var/www/docs/es/admin/assets/images110.png)*Ilustración 8: Instalación - Opciones generales de configuración*
+![](../assets/images110.png)*Ilustración 8: Instalación - Opciones generales de configuración*
 
 - _Nombre de u__suario y Contraseña del Administrador:_ **_I_**MPORTANTE – le permitirán conectarse a su portal como administrador. Una opción es crear una cuenta global de administración desde aquí (con el nombre &quot;admin&quot;) y tener varios administradores utilizando esta cuenta; sin embargo, se recomienda crear una cuenta para cada administrador (por lo que esta primera de la instalación debe ser la suya), para poder hacer un seguimiento de todas las acciones tomadas por otros administradores.
 - _Nombres_ _y apellidos_ _del administrador:_ son los datos que se mostrarán en el pie de página del portal como el enlace a la dirección de correo electrónico del administrador. En su lugar puede poner cualquier tipo de texto alternativo, como por ejemplo: &quot;Soporte técnico”.
@@ -127,7 +127,7 @@ Después de la instalación es casi imposible cambiar el método de cifrado, pue
 
 Aquí se pueden ver todos los ajustes realizados antes de iniciar la instalación. Le recomendamos que tome una captura de pantalla o la imprima y guárdela en un lugar seguro. Estos datos podrían ser útiles cuando informe de un error a la comunidad Chamilo, o en caso de perder por accidente la configuración que estableció durante la instalación. Si encuentra algún error en la configuración, sólo tiene que volver atrás y subsanarlo; en caso contrario, haga clic en el botón _Instalar Chamilo_ y proceda ...
 
-![](/var/www/docs/es/admin/assets/images111.png)*Ilustración 9: Instalación - Revisión*
+![](../assets/images111.png)*Ilustración 9: Instalación - Revisión*
 
 Cuando la instalación haya terminado, bastará con ir a la página principal de la plataforma y entrar en ella con la cuenta que acaba de establecer.
 

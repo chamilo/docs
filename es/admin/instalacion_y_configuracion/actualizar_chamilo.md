@@ -6,13 +6,13 @@ Cualquier actualización de software puede generar nuevos errores o regresiones 
 
 Como administrador, puede activar la notificación de nuevas versiones en la ficha Administración, bloque _Chamilo_.
 
-![](/var/www/docs/es/admin/assets/images114.png)
+![](../assets/images114.png)
 
 *Ilustración 10: Administración - Bloque Chamilo*
 
 Para activar esta funcionalidad, haga clic en el botón de Activar la verificación de versiones.
 
-![](/var/www/docs/es/admin/assets/images117.png)
+![](../assets/images117.png)
 
 *Ilustración 11: Administración - Bloque Chamilo (continuación)*
 
