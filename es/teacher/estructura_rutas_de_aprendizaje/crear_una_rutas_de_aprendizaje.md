@@ -1,6 +1,6 @@
 ## Crear una rutas de aprendizaje {#crear-una-rutas-de-aprendizaje}
 
-_Haz clic en el icono de crear un nuevo curso_[^]_:__![](../assets/graphics13.png)_
+_Haz clic en el icono de crear un nuevo curso_[^]_:![](../assets/graphics13.png)_
 
 ![](../assets/graficos59.png)*Ilustración 89: Rutas de aprendizaje – Crear una nueva rutas de aprendizaje*
 

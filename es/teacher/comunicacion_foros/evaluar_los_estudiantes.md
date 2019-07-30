@@ -4,7 +4,7 @@ Si decides puntuar/calificar un tema/hilo de discusión, primero deberás asigna
 
 ![](../assets/graficos53.png)Ilustración 87: _Asignar una puntuación máxima a un hilo de discusión_
 
-.
+
 
 Para puntuar la contribución de un alumno en un hilo:
 

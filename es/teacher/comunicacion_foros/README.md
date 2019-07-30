@@ -1,8 +1,6 @@
 # Comunicación: Foros {#comunicaci-n-foros}
 
-A raíz de los capítulos anteriores probablemente estás esperado examinar las herramientas para los _**caminos de aprendizaje**_ en este momento. El lugar de eso, en realidad tiene más sentido en este momento echarle un vistazo a la siguiente herramienta más comúnmente utilizada de
-
-la plataforma.
+A raíz de los capítulos anteriores probablemente estás esperado examinar las herramientas para los _**caminos de aprendizaje**_ en este momento. El lugar de eso, en realidad tiene más sentido en este momento echarle un vistazo a la siguiente herramienta más comúnmente utilizada de la plataforma.
 
 La herramienta del _**Foro**_ _![](../assets/graficos47.png)_te permite organizar el intercambio de ideas, opiniones e informaciones relativos a los cursos y los caminos de aprendizaje. La herramienta ha sido concebida para que los alumnos con preguntas sobre su curso pueden encontrar fácilmente respuestas a sus preguntas sin tener que tamizar a través de una enorme cantidad de información por sí mismos.
 

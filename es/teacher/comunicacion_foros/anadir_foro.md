@@ -20,6 +20,8 @@ Desde la página del _**Foro**_:
 
     *   agregar una imagen que represente el foro (y se verá en la lista de foros)
 
-*   haz clic en el botón _**Crear foro_.**
+* haz clic en el botón _**Crear foro_.**
 
-![](../assets/graficos51.png)*Ilustración 85: Foro – Formulario de creación de foro*
+  <img src="../assets/graficos51.png" width="600px" />
+
+*Ilustración 85: Foro – Formulario de creación de foro*
