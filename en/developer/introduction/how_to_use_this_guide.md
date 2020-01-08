@@ -4,7 +4,7 @@ This reference guide is designed to be progressively complex, only reaching mind
 
 If you have further questions about using Chamilo. you can visit the Chamilo forum ([http://www.chamilo.org/forum](http://www.chamilo.org/forum)), where numerous other users, teachers, administrators and software developers will be happy to help you find the answers.
 
-If you have technical questions on how to contribute to Chamilo, you can use our [Slack channel][1] (it requires registration on Slack and that we accept your subscription to the channel, but we always do).
+If you have technical questions on how to contribute to Chamilo, you can use our [Slack channel][1]. You need to get invited (there is no other way for you to get accepted), so please send an e-mail to ywarnier -at- chamilo _dot_ org asking for an invite.
 
 If you have more complex requirements, you might consider contacting one of our official providers ([http://www.chamilo.org/en/providers](http://www.chamilo.org/en/providers)), a group of companies and institutions which offer professional services supporting Chamilo. The official providers have a record of tried and proven serious involvement in the project and are committed to sustaining its collaborative model. By hiring them, you already support the Chamilo project.
 
