@@ -10,7 +10,7 @@ To configure the multi-URL mode, you will need
 
 The installation process is as follows
 
-*   update _main/inc/conf/configuration.php_ by removing the comments marker before the line : _$_configuration[&#039;multiple_access_urls&#039;] = true;_
+*   update _app/conf/configuration.php_ by removing the comments marker before the line : _$_configuration[&#039;multiple_access_urls&#039;] = true;_ (and make sure it is set to true)
 
 *   add ServerAlias directives inside your Apache&#039;s VirtualHost (see below)
 
@@ -26,16 +26,13 @@ The installation process is as follows
 
 For two different Multi-URLs and one administrative one, based on the domain _campusabc.com_, the VirtualHost would look something like this:
 
+```
 ServerAdmin webmaster@campusabc.com
-
 DocumentRoot /var/www/campusabc.com /
-
 ServerName admin.campusabc.com
-
 ServerAlias pepsi.campusabc.com
-
 ServerAlias cocacola.campusabc.com
-
-# other host settings here #
+... other host settings here ...
+```
 
 Don&#039;t forget to always consider that your first portal will be a generic, administration, portal. You should preferably not use it for direct access by students. Declare something like admin.[domain-name] as the first host, then declare the URLs you will really use.
