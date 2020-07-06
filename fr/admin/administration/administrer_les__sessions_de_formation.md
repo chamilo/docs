@@ -53,11 +53,11 @@ Pour ajouter une session :
 
 *   définir la visibilité de la session une fois la formation terminée :
 
-    *   lecture seul,
+    *   lecture seul : une fois la session terminée (la date de fin dépassée) l'apprenant peut encore rentrer dans les cours qui la composent, mais ne peut pas réaliser d'exercice, ni enregistrer d'avancement dans les parcours. Il peut seulement visualiser les éléments du cours. C'est l'option par défaut car typiquement un apprenant qui a réalisé un cours, plusieurs mois après avoir fini peut avoir besoin de revenir à ce qu'il avait appris pour s'en rappeler, mais on ne veut pas qu'il réalise les exercices car sa formation est terminé et donc on en veut pas qu'il puisse modifier ses résultats.
 
-    *   accessible,
+    *   accessible : Une fois la session terminée (la date de fin dépassée) l'apprenant peut continuer à rentrer dans les cours qui la composent dans les mêmes conditions que quand il a réalisé la session, au niveau de l'accès à la session c'est la même chose que s'il n'y avait pas de date de fin (sauf que la session n'apparaît plus sur la page Mes cours, mais dans l'historique).
 
-    *   non accessible,
+    *   non accessible : Une fois la session terminée (la date de fin dépassée) l'apprenant n'a plus accès à la session, il ne peut plus rentrer dans le cours, l'accès lui est refusé.
 
 *   Étape suivante
 
