@@ -5,7 +5,7 @@ This is the complete set of Chamilo Guides for users of Chamilo.
 
 * [Administrator guide](admin/introduction/chamilo,_what_is_it.md)
 * [Teacher guide](teacher/introduction/what_is_chamilo.md)
-* [Developer guide](developer/introduction/what_is_chamilo.md)
+* [Developer guide](developer/introduction/)
 
 Most users will not require to read all guides, and will have plenty of information (maybe too much) just going through the teacher guide. However, if you want to know more or your role in your organization is specifically that of a Chamilo administrator or a developer or sysadmin, you might be interested by the Admin Guide and the Developer Guide that follow.
 
