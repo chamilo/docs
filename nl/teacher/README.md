@@ -1,6 +1,4 @@
-Chamilo Teacher Guide
-=====================
+Chamilo Lerarengids
+===================
 
-This guide is currently not up to date.
-
-Don't bother? Get started with the [Introduction](introduction/README.md)
+Ga aan de slag met de [Introductie](introduction/README.md)
