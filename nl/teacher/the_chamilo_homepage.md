@@ -1,23 +1,23 @@
-# The Chamilo homepage {#the-chamilo-homepage}
+# De homepage van Chamilo
 
-The homepage is the first visible page. It contains the login form and a few other important elements.
+De homepage is de eerste zichtbare pagina. Het bevat het inlogformulier en een paar andere belangrijke elementen.
 
-![](assets/images269.png)Illustration 7: Homepage
+![](assets/images269.png)Illustratie 7: Homepage
 
-Although your mileage may (and certainly will) vary, this is mostly what you should find on a Chamilo portal’s homepage:
+Hoewel uw omstandigheden kunnen variëren, is dit meestal wat u zou moeten vinden op de homepage van een Chamilo-portaal:
 
-*   The logo of your organization will always appear on the top left corner of the page. This can later be changed (check the admin guide for more info).
+*   Het logo van uw organisatie verschijnt altijd in de linkerbovenhoek van de pagina. Dit kan later worden gewijzigd (raadpleeg de beheerders gids voor meer info).
 
-*   The blue bar (color may change depending on the stylesheet selected by your admin) contains the first elements of menu. This will change when you login or when the administrator ads new items to it.
+*   De blauwe balk (kleur kan veranderen afhankelijk van de stylesheet die door uw admin is geselecteerd) bevat de eerste menu-elementen. Dit verandert wanneer u zich aanmeldt of wanneer de beheerder er nieuwe items aan toevoegt.
 
-*   The login block allows you to login, a very straightforward process (the administrator assigns permissions to users depending on the platform configuration).
+*   Met het inlogblok kunt u inloggen, een zeer eenvoudig proces (de beheerder wijst gebruikers machtigingen toe, afhankelijk van de platformconfiguratie).
 
-*   It is possible to register on the platform using a simple form (_Sign up!_ link).
+*   Het is mogelijk om je op het platform in te schrijven met een eenvoudig formulier (_Sign up!_ Link).
 
-*   In case you lose your password, a new one can be generated easily (using the _I lost my password_ link).
+*   Als u uw wachtwoord kwijtraakt, kan er gemakkelijk een nieuw worden aangemaakt (met behulp van de _Ik ben mijn wachtwoord vergeten_-link).
 
-*   Access to the Chamilo community&#039;s forum is provided through the _Forum_ link in the _Help_ box. This can be removed or edited by the administrator
+*   Toegang tot het forum van de Chamilo-gemeenschap wordt geboden via de _Forum_-link in het _Help_-vak. Dit kan worden verwijderd of bewerkt door de beheerder
 
-*   A block with the most popular courses appear. This will be empty at the beginning (when no courses exist on the platform) or can later be removed by the administrator, in case you don’t want the public to know about the courses available on the platform.
+*   Er verschijnt een blok met de meest populaire cursussen. Dit is aan het begin leeg (als er geen cursussen op het platform bestaan) of kan later worden verwijderd door de beheerder, voor het geval je niet wilt dat het publiek weet welke cursussen op het platform beschikbaar zijn.
 
-**Note** : To view the courses with restricted access, you must be registered on the platform and must be subscribed by the course teacher, through the **course users** list.
+**Nota** : Om de cursussen met beperkte toegang te bekijken, moet je geregistreerd zijn op het platform en geabonneerd zijn door de cursusdocent, via de **cursusgebruikers** lijst.
