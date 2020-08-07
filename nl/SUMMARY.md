@@ -1,8 +1,8 @@
-# Summary
+# Overzicht
 
-## Teacher Guide
+## Lerarengids
 
-* [Introduction](README.md)
+* [Introductie](README.md)
 * [Chamilo leren kennen](getting-to-know-chamilo.md)
   * [Wat is Chamilo?](teacher/introduction/what_is_chamilo.md)
   * [Over deze gids](teacher/introduction/about_this_guide.md)
@@ -96,17 +96,17 @@
   * [Assessments koppelen aan vaardigheden](teacher/assessments/linking_assessments_with_skills.md)
   * [Koppelen van certificaten aan leertrajecten](teacher/assessments/linking_certificates_with_learning_paths.md)
 * [Wiki](teacher/wiki/README.md)
-  * [Starting the wiki](teacher/wiki/starting_the_wiki.md)
-  * [Add a new linked page](teacher/wiki/add_a_new_linked_page.md)
-  * [Add a new orphan page](teacher/wiki/add_a_new_orphan_page.md)
-  * [Commenting a page](teacher/wiki/commenting_a_page.md)
-  * [Other wiki features](teacher/wiki/other_wiki_features.md)
+  * [De wiki starten](teacher/wiki/starting_the_wiki.md)
+  * [Voeg een nieuwe gekoppeld pagina toe](teacher/wiki/add_a_new_linked_page.md)
+  * [Voeg een nieuwe weespagina toe](teacher/wiki/add_a_new_orphan_page.md)
+  * [Reageren op een pagina](teacher/wiki/commenting_a_page.md)
+  * [Andere wiki-functies](teacher/wiki/other_wiki_features.md)
 * [Links](teacher/links/README.md)
-  * [Links categories](teacher/links/links_categories.md)
+  * [Links categorieën](teacher/links/links_categories.md)
   * [Links](teacher/links/links.md)
-  * [Manage links](teacher/links/manage_links.md)
+  * [Links beheren](teacher/links/manage_links.md)
   * [Links checker](teacher/links/links_checker.md)
-* [Announcements](teacher/announcements/README.md)
+* [Aankondigingen](teacher/announcements/README.md)
   * [Add an announcement](teacher/announcements/add_an_announcement.md)
   * [Announcements management](teacher/announcements/announcements_management.md)
 * [Glossary](teacher/glossary/README.md)
