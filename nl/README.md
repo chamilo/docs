@@ -1,14 +1,14 @@
-Chamilo User Guides
+Chamilo gebruikershandleidingen
 ===================
 
-This is the complete set of Chamilo Guides for users of Chamilo.
+Dit is de complete Chamilo-gidsen set voor gebruikers van Chamilo.
 
-* [Administrator guide](admin/introduction/chamilo,_what_is_it.md)
-* [Teacher guide](teacher/introduction/what_is_chamilo.md)
-* [Developer guide](developer/introduction/what_is_chamilo.md)
+* [Beheerder gids](admin/introduction/chamilo,_what_is_it.md)
+* [Leraar gids](teacher/introduction/what_is_chamilo.md)
+* [Ontwikkelaars gids](developer/introduction/what_is_chamilo.md)
 
-Most users will not require to read all guides, and will have plenty of information (maybe too much) just going through the teacher guide. However, if you want to know more or your role in your organization is specifically that of a Chamilo administrator or a developer or sysadmin, you might be interested by the Admin Guide and the Developer Guide that follow.
+De meeste gebruikers hoeven niet alle handleidingen te lezen, en zullen voldoende informatie hebben (misschien te veel) door gewoon de docentenhandleiding te lezen. Als u echter meer wilt weten of uw rol in uw organisatie specifiek die van een Chamilo-beheerder of een ontwikkelaar of sysadmin is, bent u wellicht geïnteresseerd in de Admin Guide en de Developer Guide die volgen.
 
-If you are looking at this documentation on the web, and if you find any issue, please consider creating an account on https://gitbook.com and submitting change requests directly. This website allows it, so why not becoming a documentation contributor and help Chamilo become more accessible to others?
+Als u deze documentatie op internet bekijkt en u vindt een probleem, overweeg dan om een account aan te maken op https://gitbook.com en rechtstreeks wijzigingsverzoeken in te dienen. Deze website staat het toe, dus waarom zou u geen documentatieverstrekker worden en Chamilo helpen toegankelijker te worden voor anderen?
 
-To proceed, just click any section in the table of contents or search for a specific topic from the search bar.
+Om verder te gaan, klikt u op elke sectie in de inhoudsopgave of zoeken naar een specifiek onderwerp uit de zoekbalk.
