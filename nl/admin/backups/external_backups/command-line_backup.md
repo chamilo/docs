@@ -1,5 +1,5 @@
-### Command-line backup {#command-line-backup}
+### Command-line backup {# command-line-backup}
 
-If you are more of a Linux sysadmin, you can take a backup with a command of this type, where the final part is the file where you want to save it (and &#039;olimahc&#039; is the password):
+Als je meer een Linux-sysadmin bent, kun je een back-up maken met een commando van dit type, waarbij het laatste deel het bestand is waar je het wilt opslaan (en 'olimahc' is het wachtwoord):
 
-mysqldump -u chamilo -polimahc chamilo19x &gt; chamilo-backup-file.sql
+mysqldump -u chamilo -polimahc chamilo19x> chamilo-backup-file.sql

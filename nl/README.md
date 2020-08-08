@@ -1,14 +1,13 @@
-Chamilo gebruikershandleidingen
-===================
+# Chamilo Gebruikersgidsen
 
-Dit is de complete Chamilo-gidsen set voor gebruikers van Chamilo.
+Dit is de complete set Chamilo Gidsen voor gebruikers van Chamilo.
 
-* [Beheerder gids](admin/introduction/chamilo,_what_is_it.md)
-* [Leraar gids](teacher/introduction/what_is_chamilo.md)
-* [Ontwikkelaars gids](developer/introduction/what_is_chamilo.md)
+- [Administrator Handleiding](admin/introduction/chamilo,_what_is_it.md)
+- [Leerkracht Handleiding](teacher/introduction/what_is_chamilo.md)
+- [Ontwikkelaar Handleiding](developer/introduction/what_is_chamilo.md)
 
-De meeste gebruikers hoeven niet alle handleidingen te lezen, en zullen voldoende informatie hebben (misschien te veel) door gewoon de docentenhandleiding te lezen. Als u echter meer wilt weten of uw rol in uw organisatie specifiek die van een Chamilo-beheerder of een ontwikkelaar of sysadmin is, bent u wellicht geïnteresseerd in de Admin Guide en de Developer Guide die volgen.
+De meeste gebruikers hoeven niet alle handleidingen te lezen en hebben voldoende informatie (misschien te veel) door alleen de docentenhandleiding te bladeren. Als u echter meer wilt weten of uw functie in uw organisatie is die van een Chamilo beheerder of een ontwikkelaar of sysadmin. Bent u wellicht geïnteresseerd in de Admistrator Handleiding en de Ontwikkelaar Handleiding die volgen.
 
-Als u deze documentatie op internet bekijkt en u vindt een probleem, overweeg dan om een account aan te maken op https://gitbook.com en rechtstreeks wijzigingsverzoeken in te dienen. Deze website staat het toe, dus waarom zou u geen documentatieverstrekker worden en Chamilo helpen toegankelijker te worden voor anderen?
+Als u deze documentatie op internet bekijkt en als u een probleem tegenkomt, overweeg dan om een account aan te maken op https://gitbook.com en rechtstreeks wijzigingsverzoeken in te dienen. Deze website maakt het mogelijk, dus waarom zou u geen documentatiebijdrager worden en Chamilo helpen toegankelijker te worden voor anderen?
 
-Om verder te gaan, klikt u op elke sectie in de inhoudsopgave of zoeken naar een specifiek onderwerp uit de zoekbalk.
+Om verder te gaan, klikt u gewoon op een sectie in de inhoudsopgave of zoekt u naar een specifiek onderwerp in de zoekbalk.

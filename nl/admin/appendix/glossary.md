@@ -1,11 +1,11 @@
-## Glossary {#glossary}
+## Woordenlijst {#glossary}
 
-*   Obfuscación: Técnica para esconder información importante
+- Obfuscation: techniek om belangrijke informatie te verbergen
 
-*   Course: Course space, in which all resources for one specific course are stored and published
+- Cursus: Cursusruimte, waarin alle bronnen voor één specifieke cursus worden opgeslagen en gepubliceerd
 
-*   Session: group of courses taught during a certain period of time
+- Sessie: groep cursussen die gedurende een bepaalde periode wordt gegeven
 
-*   Teacher: person in charge of leading a course
+- Docent: persoon die de leiding heeft over een cursus
 
-*   Coach: person in charge of leaing a course inside the context of a session
+- Coach: persoon die verantwoordelijk is voor het leiden van een cursus in het kader van een sessie

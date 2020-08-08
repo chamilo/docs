@@ -1,17 +1,19 @@
-### PhpMyAdmin database backup {#phpmyadmin-database-backup}
+### PhpMyAdmin-databaseback-up {# phpmyadmin-database-backup}
 
-Databases can be saved from the [P](http://fr.wikipedia.org/wiki/PhpMyAdmin)[hpMyAdmin](http://fr.wikipedia.org/wiki/PhpMyAdmin) interface, connecting using the login and password created during the [LAMP](http://fr.wikipedia.org/wiki/LAMP) server installation, the database installation, or in the data transmitted by your hosting provider[^14].
+Databases kunnen worden opgeslagen vanuit de [P](http://fr.wikipedia.org/wiki/PhpMyAdmin) [hpMyAdmin-](http://fr.wikipedia.org/wiki/PhpMyAdmin) interface, door verbinding te maken met de login en het wachtwoord die zijn gemaakt tijdens de [LAMP-](http://fr.wikipedia.org/wiki/LAMP) serverinstallatie, de database-installatie of in de gegevens die zijn verzonden door uw hostingprovider [^ 14].
 
-![](../../assets/phpaccueuil.png)Illustration 15: Administration - PHPMyAdmin
+![](../../assets/phpaccueuil.png) Afbeelding 15: Beheer - PHPMyAdmin
 
-Once in the graphical interface of PhpMyAdmin, go to the _Export_tab and select the database to be saved. There&#039;s probably another one called “information_schema”, which you can just ignore.
+Eenmaal in de grafische interface van PhpMyAdmin, ga naar de _Export_tab en selecteer de database die moet worden opgeslagen. Er is waarschijnlijk nog 1 genaamd "information_schema", die u gewoon kunt negeren.
 
-You may want to change the output format of the backup file. To save, choose on the desired format below the databases to export. In the present example we chose SQL.
+Mogelijk wilt u het uitvoerformaat van het back-upbestand wijzigen. Om op te slaan, kiest u het gewenste formaat onder de databases om te exporteren. In het huidige voorbeeld hebben we gekozen voor SQL.
 
-The name of the saved file can also be changed in the _Output_ section. It can be compressed using one of the three offered formats. Do not forget to select the _Save output to a file_ option, otherwise it will just print the backup result on screen, which will not really help you.
+De naam van het opgeslagen bestand kan ook worden gewijzigd in het gedeelte *Uitvoer* . Het kan worden gecomprimeerd met een van de drie aangeboden formaten. Vergeet niet om de optie *Save output to a file te* selecteren, anders zal het alleen het back-up resultaat op het scherm afdrukken, wat je niet echt zal helpen.
 
-You&#039;re only left with downloading the file. It will be saved by default in your _Downloads_ directory or on your desktop, depending on your browser&#039;s configuration.
+Je hoeft alleen nog maar het bestand te downloaden. Het wordt standaard opgeslagen in uw map *Downloads* of op uw bureaublad, afhankelijk van de configuratie van uw browser.
 
-Saving the databases through _hpMyAdmin_ is over. The saved file will be to the SQL format (.sql extension) and will be importable later on, in case of problem, through PhpMyAdmin.
+Het opslaan van de databases via *phpMyAdmin* is voorbij. Het opgeslagen bestand heeft de SQL-indeling (.sql-extensie) en kan later, in geval van problemen, via PhpMyAdmin worden geïmporteerd.
 
-[^14]: You can also recover the database credentials from the main/inc/conf/configuration.php file
+[^ 14]: U kunt de databasereferenties ook herstellen vanuit het hoofdbestand / inc / conf / configuration.php
+
+

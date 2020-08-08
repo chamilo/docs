@@ -1,3 +1,3 @@
-## Archive directory clean-up {#archive-directory-clean-up}
+## Archiefmap opschonen {# archive-directory-clean-up}
 
-The archives/ directory is used to store temporary data. XLS exports, courses backups, etc. As such, and unless you have a cron job running regularly to clean it up, you should clean it manually once in a while. This link allows you to do just that, without requiring direct access to the files directory.
+De archieven / directory wordt gebruikt om tijdelijke gegevens op te slaan. XLS-exports, back-ups van cursussen, enz. Als zodanig, en tenzij u regelmatig een cron-taak hebt om het op te schonen, moet u het af en toe handmatig opschonen. Met deze link kunt u dat doen, zonder directe toegang tot de bestandsdirectory.
