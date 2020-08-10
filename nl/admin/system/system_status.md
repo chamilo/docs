@@ -1,5 +1,5 @@
-## System status {#system-status}
+## Systeemstatus {# system-status}
 
-This section allows you to check a series of system variables and compare them to the recommendations made.
+In deze sectie kunt u een reeks systeemvariabelen controleren en deze vergelijken met de aanbevelingen.
 
-![](../assets/images49.png)Illustration 82: Administration - System status
+![](../assets/images49.png) Afbeelding 82: Beheer - Systeemstatus

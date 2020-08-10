@@ -1,5 +1,5 @@
-### Sending e-mails from the platform doesn&#039;t work {#sending-e-mails-from-the-platform-doesn-t-work}
+### Het verzenden van e-mails vanaf het platform werkt niet {# send-e-mails-from-the-platform-doesn-t-work}
 
-Under Windows, you are required to configure the _main/inc/conf/mail.conf.php_ file to use an SMTP server. The file is quite understandable. If you use an SMTP server with authentication, configure _smtp_auth_ to _1_ and define a user and a password. If you use an open SMTP server, set _smtp_auth_ to _0_.
+Onder Windows moet u het *hoofdbestand /inc/conf/mail.conf.php configureren* om een SMTP-server te gebruiken. Het bestand is heel begrijpelijk. Als u een SMTP-server met authenticatie gebruikt, configureert u *smtp_auth* op *1* en definieert u een gebruiker en een wachtwoord. Als u een open SMTP-server gebruikt, stelt u *smtp_auth in* op *0* .
 
-Under GNU/Linux, you can choose to use an SMTP server like under Windows. Alternatively, if your browser allows it, you can use a local mails server. To configure one under Ubuntu, you can follow the documentation on the BeezNest blog: [http://beeznest.wordpress.com/?s=](http://beeznest.wordpress.com/?s=exim4)[exim4](http://beeznest.wordpress.com/?s=exim4)
+Onder GNU / Linux kun je ervoor kiezen om een SMTP-server te gebruiken zoals onder Windows. Als alternatief kunt u, als uw browser dit toestaat, een lokale mailserver gebruiken. Om er een te configureren onder Ubuntu, kun je de documentatie op het BeezNest-blog volgen: [http://beeznest.wordpress.com/?s=](http://beeznest.wordpress.com/?s=exim4) [exim4](http://beeznest.wordpress.com/?s=exim4)

@@ -1,197 +1,197 @@
-## Configuration settings list {#configuration-settings-list}
+## Lijst met configuratie-instellingen {# configuration-settings-list}
 
-| Title | Description | Default |
-| --- | --- | --- |
-| Platform |
-| Organization name | The name of the organization (appears in the header on the right) |  |
-| Organization URL (web address) | The URL of the institutions (the link that appears in the header on the right) |  |
-| E-learning portal name | The Name of your Chamilo Portal (appears in the header) |  |
-| Portal Administrator: E-mail | The e-mail address of the Platform Administrator (appears in the footer on the left) |  |
-| Portal Administrator: Last Name | The Family Name of the Platform Administrator (appears in the footer on the left) |  |
-| Portal Administrator: First Name | The First Name of the Platform Administrator (appears in the footer on the left) |  |
-| Platform Administrator Information in footer | Show the Information of the Platform Administrator in the footer? |  |
-| Session&#039;s tutor&#039;s data is shown in the footer. | Show the session&#039;s tutor reference (name and e-mail if available) in the footer? |  |
-| Show teacher information in footer | Show the teacher reference (name and e-mail if available) in the footer? |  |
-| Server Type | What sort of server is this? This enables or disables some specific options. On a development server there is a translation feature functional that indicates untranslated strings |  |
-| Who&#039;s Online | Display the number of persons that are online? |  |
-| Registration | Is registration as a new user allowed? Can users create new accounts? | Yes |
-| Registration as Trainer | Can one register as a trainer (with the ability to create training)? | Yes |
-| Lost password | Are users allowed to request their lost password? |  |
-| Display Code in Training name | Display Training Code in training list |  |
-| Display trainer in training name | Display trainer in training list |  |
-| Portal Administrator: Telephone | The telephone number of the platform administrator |  |
-| Enable learner view | Enable the user view, which allows a trainer or admin to see a training as a participant or user would see it | Yes |
-| Page after login | The page which is seen by the user entering the platform |  |
-| Time limit on Who Is Online | This time limit defines for how many seconds after his last action a user will be considered *online* |  |
-| Example material on training creation | Create example material automatically when creating a new course |  |
-| Account validity | A user account is valid for this number of days after creation |  |
-| Use training sessions | Training sessions give a different way of dealing with training, where training have an author, a coach and learners. Each coach gives a training for a set period of time, called a *training session*, to a set of learners who do not mix with other learner groups attached to another training session. | Yes |
-| Show email addresses | Show email addresses to users |  |
-| Show training number | Show the number of training in each category in the training categories on the homepage |  |
-| Show empty training categories | Show the categories of training on the homepage, even if they&#039;re empty |  |
-| Show back links from categories/training | Show a link to go back in the training hierarchy. A link is available at the bottom of the list anyway. |  |
-| Show training languages | Show the language each training is in, next to the training title, on the homepage training list |  |
-| Display categories on home page | This option will display or hide training categories on the portal home page |  |
-| Tabs in the header | Check the tabs you want to see appear in the header. The unchecked tabs will appear on the right hand menu on the portal homepage and my training page if these need to appear |  |
-| No-reply e-mail address | This is the e-mail address to be used when an e-mail has to be sent specifically requesting that no answer be sent in return. Generally, this e-mail address should be configured on your server to drop/ignore any incoming e-mail. |  |
-| User theme selection | Allow users to select their own visual theme in their profile. This will change the look of Chamilo for them, but will leave the default style of the portal intact. If a specific course or session has a specific theme assigned, it will have priority over user-defined themes. |  |
-| Display closed training on login page and portal start page? | Display closed training on the login page and training start page? On the portal start page an icon will appear next to the training to quickly subscribe to the training. This will only appear on the portal start page when the user is logged in and when the user is not subscribed to the portal yet. |  |
-| Show session coach | Show the global session coach name in session title box in the training list |  |
-| Allow non admin to create training | Allow non administrators (trainers) to create new training in the portal |  |
-| Learners access to training catalogue | Allow learners to browse the training catalogue and subscribe to available training |  |
-| Enable terms and conditions | This option will display the Terms and Conditions in the register form for new users |  |
-| Email alert, of creation a new course | Send an email to administrator of the platform, each time the teacher register a new course |  |
-| Show link to report bug | Show a link in the header to report a bug inside of our support platform (http://support.chamilo.org). When clicking on the link, the user is sent to the support platform, on a wiki page that describes the bug reporting process. |  |
-| Training validation | When &quot;Training validation&quot; feature is activated, a teacher is not able to create a training alone. He/she fills a training request. The platform administrator reviews the request and approves it or rejects it.This feature relies on automated e-mail messages; set Chamilo to access an e-mail server and to use a dedicated an e-mail account. |  |
-| Training validation - a link to the terms and conditions | This is the URL to the &quot;Terms and Conditions&quot; document that is valid for making a training request. If the address here is set, before sending a training request the user should read and agree with these terms and conditions.If you activate Chamilo&#039;s module &quot;Terms and Conditions&quot; and if you want its URL to be used, then leave this setting empty. |  |
-| Enable watermark in PDF export | By enabling this option, you can upload an image or a text that will be automatically added as watermark to all PDF exports of documents on the system. |  |
-| Enable watermark definition by course | When this option is enabled, teachers can define their own watermark for the documents in their courses. |  |
-| PDF watermark text | This text will be added as a watermark to the documents exports as PDF. |  |
-| Show classes to users | Show the classes to users. Classes are a feature that allow you to register/unregister groups of users into a session or a course directly, reducing the administrative hassle. When you pick this option, learners will be able to see in which class they are through their social network interface. |  |
-| Font resize accessibility feature | Enable this option to show a set of font resize options on the top-right side of your campus. This will allow visually impaired to read their course contents more easily. |  |
-| Hide courses list in sessions | When showing the session block in your courses page, hide the list of courses inside that session (only show them inside the specific session screen). |  |
-| Courses |
-| Training homepage design | How would you like the homepage of a training to look? |  |
-| Tools shortcuts | Show the tool shortcuts in the banner? |  |
-| Group categories | Allow trainers to create categories in the Groups tool? |  |
-| Default hard disk space | What is the available disk space? You can override the quota for specific training through: platform administration &gt; Training &gt; modify | 100000000 |
-| Group disk space available | What is the default hard disk space available for a groups documents tool? | 5000000 |
-| Allow users profiling inside training | Can a trainer define learner profile fields to retrieve additional information? |  |
-| Display training navigation menu | Display a navigation menu that quickens access to the tools |  |
-| Enable tool introduction | Enable introductions on each tool&#039;s homepage |  |
-| Training homepage breadcrumb | The breadcrumb is the horizontal links navigation system usually in the top left of your page. This option selects what you want to appear in the breadcrumb on courses&#039; homepages |  |
-| Default forum view | What should be the default option when creating a new forum. Any trainer can however choose a different view for every individual forum |  |
-| Survey e-mail sender (no-reply) | Should the survey invitations use the coach email address or the no-reply address defined in the main configuration section? |  |
-| Allow training themes | Allows training graphical themes and makes it possible to change the style sheet used by a training to any of the possible style sheets available to Chamilo. When a user enters the training, the style sheet of the training will have priority over the user&#039;s own style sheet and the platform&#039;s default style sheet. |  |
-| Show session data title | Show session data comment |  |
-| Show glossary terms in documents | From here you can configure how to add links to the glossary terms from the documents |  |
-| Show the courses descriptions in the catalogue | Show the courses descriptions as an integrated popup when clicking on a course info icon in the courses catalogue |  |
-| Allow coaches to edit inside training sessions | Allow coaches to edit inside training sessions comment |  |
-| Show the glossary terms in extra tools | From here you can configure how to add the glossary terms in extra tools as learning path and exercise tool |  |
-| Go directly to the course after login | When a user is registered in one course, go directly to the course after login |  |
-| Minimum score of exercises | Define a minimum score (generally 0) for all the exercises on the platform. This will define how final results are shown to users and teachers. |  |
-| Maximum score of exercises | Define a maximum score (generally 10,20 or 100) for all the exercises on the platform. This will define how final results are shown to users and teachers. |  |
-| Enable Quiz scenario | From here you will be able to create exercises that propose different questions depending in the user&#039;s answers. |  |
-| Languages |
-| Portal Language | You can determine the platform languages in a different part of the platform administration, namely: [Chamilo Platform Languages](http://my.chamilo.net/main/admin/languages.php) |  |
-| Hide DLTT Mark-up | Hide the [= ... =] mark-up when a language variable is not translated | Yes |
-| Character set | The character set is what pilots the way specific languages can be displayed in Chamilo. If you use Russian or Japanese characters, for example, you might want to change this. For all English, Latin and west-european characters, the default ISO-8859-15 should be al-right. | UTF-8 |
-| Allow definition and use of sub-languages | By enabling this option, you will be able to define variations for each of the language terms used in the platform&#039;s interface, in the form of a new language based on and extending an existing language. You&#039;ll find this option in the languages section of the administration panel. |  |
-| Users |
-| Profile | Which parts of the profile can be changed? |  |
-| Registration: required fields | Which fields are required (besides name, first name, login and password) |  |
-| Personal Agenda | Can the learner add personal events to the Agenda? |  |
-| Extended profile | If this setting is set to &#039;True&#039;, a user can fill in following (optional) fields: &#039;My competences&#039;, &#039;My diplomas&#039;, &#039;What I am able to teach&#039; and &#039;My personal open area&#039; |  |
-| Extended profile fields in registration | Which of the following fields of the extended profile have to be available in the user registration process? This requires that the extended profile is activated (see above). |  |
-| Required extended profile fields in registration | Which of the following fields of the extended profile are required in the user registration process? This requires that the extended profile is activated and that the field is also available in the registration form (see above). |  |
-| Modules |
-| Modules active upon training creation | Which tools have to be activated (visible) by default when a new training is created? |  |
-| Use a title for the document name | This will allow the use of a title for document names instead of document_name.ext | Yes |
-| Deleted files cannot be restored | Deleting a file in the documents tool permanently deletes it. The file cannot be restored | No |
-| Drop box: Can documents be overwritten | Can the original document be overwritten when a user or trainer uploads a document with the name of a document that already exist? If you answer yes then you loose the conversioning mechanism. |  |
-| Drop box: Maximum file size of a document | How big (in bytes) can a drop box document be? | 100000000 |
-| Drop box: Upload to own drop box space? | Allow trainers and users to upload documents to their drop box without sending the documents to themselves |  |
-| Drop box: Learner **Illegal HTML tag removed :** Learner | Allow users to send documents to other users (peer 2 peer). Users might use this for less relevant documents also (mp3, tests solutions, ...). If you disable this then the users can send documents to the trainer only. |  |
-| Drop box: allow group | Users can send files to groups |  |
-| Drop box: Allow mailing | With the mailing functionality you can send each learner a personal document |  |
-| Active online email editor | If this option is activated, clicking on an e-mail address will open an online mail editor. | No |
-| Display the small month calendar in the agenda tool | This setting enables or disables the small month calendar that appears in the left column of the agenda tool |  |
-| Display the upcoming events in the agenda tool | This setting enables or disables the upcoming events that appears in the left column of the agenda tool of the course |  |
-| Number of upcoming events that have to be displayed. | The number of upcoming events that have to be displayed in the agenda. This requires that the upcoming event functionality is activated (see setting above). |  |
-| Booking | The booking system allows you to book resources for your training (rooms, tables, books, screens, ...). You need this tool to be enabled (through the Admin) to have it appear in the user menu. | No |
-| Internal messaging tool | Enabling the internal messaging tool allows users to send messages to other users of the platform and to have a messaging inbox. | Yes |
-| Social network tool (Facebook-like) | The social network tool allows users to define relations with other users and, by doing so, to define groups of friends. Combined with the internal messaging tool, this tool allows tight communication with friends, inside the portal environment. | Yes |
-| Allow students to download directories | Allow students to pack and download a complete directory from the document tool |  |
-| Allow users to copy files from a course in your personal file area | Allows users to copy files from a course in your personal file area, visible through the Social Network or through the HTML editor when they are out of a course |  |
-| Allow users to create groups in social network | Allow users to create groups in social network |  |
-| Allow send message to all platform users | Allow send message to all platform users |  |
-| Max upload file size in messages | Maximum size for file uploads in the messaging tool (in Bytes) |  |
-| Create and edit SVG files | This option allows you to create and edit SVG (Scalable Vector Graphics) multilayer online, as well as export them to PNG format images. |  |
-| Allow students to export web documents to PDF format in the documents and wiki tools | This feature is enabled by default, but in case of server overload abuse it, or specific learning environments, might want to disable it for all courses. |  |
-| Show users folders in the documents tool | This option allows you to show or hide to teachers the folders that the system generates for each user who visits the tool documents or send a file through the web editor. [...] |  |
-| Show in documents tool all folders containing multimedia resources supplied by default | Multimedia file folders containing files supplied by default organized in categories of video, audio, image and flash animations to use in their courses. Although you make it invisible into the document tool, you can still use these resources in the platform web editor. |  |
-| Show the history folder of chat conversations | This will show to teacher the folder that contains all sessions that have been made in the chat, the teacher can make them visible or not students and use them as a resource |  |
-| Enable online services to conversion text in audio | Online tool to convert text into speech. Uses speech synthesis systems and technology to provide voice resources. |  |
-| Hide tools from teachers | Check the tools you want to hide from teachers. This will not prohibit access to the tool (no security purpose), but will make it invisible for the teachers in order to avoid confusion (with too many tools - usability purpose). |  |
-| Enable external Pixlr services | Pixlr allow you to edit, adjust and filter your photos with features similar to Photoshop. It is the ideal complement to process images based on bitmaps |  |
-| Activate recorder - voice player Nanogong | Nanogong is a recorder - voice player that allows you to record your voice and send it to the platform or download it into your hard drive. It also lets you play what you recorded. The students only need a microphone and speakers, and accept the load applet when first loaded. It is very useful for language learners to hear his voice after listening the correct pronunciation proposed by teacher in another wav or mp3 voice file. |  |
-| HTML Editor |
-| Public pages compliance to WAI | WAI (Web Accessibility Initiative) is an initiative to make the web more accessible. By selecting this option, the public pages of Chamilo will become more accessible. This also means that some content on the portal&#039;s public pages might appear differently. |  |
-| Advanced file manager for WYSIWYG editor | Enable advanced file manager for WYSIWYG editor? This will add a considerable amount of additional options to the file manager that opens in a pop-up window when uploading files to the server. |  |
-| mimeTEX mathematical editor | Enable mimeTeX mathematical editor. The activation is not fully realized if not previously installed on the server the executable MimeTex file. See the Chamilo installation guide. |  |
-| ASCIIMathML mathematical editor | Enable ASCIIMathML mathematical editor |  |
-| Mathematical graphics editor ASCIIsvg | Activation of mathematical graphics editor (ASCIIsvg). |  |
-| Load the file ASCIIMathML.js in all the system&#039;s pages | Activate this setting if you want to show ASCIIMathML-based mathematical formulas and ASCIIsvg-based mathematical graphics not only in the &quot;Documents&quot; tool, but elsewhere in the system. |  |
-| Allow students to insert videos from YouTube | Enable the possibility that students can insert YouTube videos |  |
-| Block students copy and paste | Block students the ability to copy and paste into the WYSIWYG editor |  |
-| Buttons bar extended | Enable button bars extended when the WYSIWYG editor is maximized |  |
-| WIRIS mathematical editor | Enable WIRIS mathematical editor. Installing this plugin you get WIRIS editor and WIRIS CAS. [...] |  |
-| Spell check | Enable spell check |  |
-| Forcing to Wiki to paste as plain text | This will prevent many hidden tags, incorrect or non-standard, copied from other texts to stop corrupting the text of the Wiki after many issues; but will lose some features while editing. |  |
-| Activate Google maps | Activate the button to insert Google maps. Activation is not fully realized if not previously edited the file main/inc/lib/fckeditor/myconfig.php and added a Google maps API key. |  |
-| Activate Image maps | Activate the button to insert Image maps. This allows you to associate URLs to areas of an image, creating hotspots. |  |
-| Allow insertion of widgets | This allows you to embed on your web pages your favourite videos and applications such as vimeo or slideshare and all sorts of widgets and gadgets |  |
-| Security |
-| Type of filtering on document uploads | Whether you want to use the blacklist or whitelist filtering. See blacklist or whitelist description below for more details. |  |
-| Blacklist - setting | The blacklist is used to filter the files extensions by removing (or renaming) any file which extension figures in the blacklist below. The extensions should figure without the leading dot (.) and separated by semi-column (;) like the following: exe;com;bat;scr;php. Files without extension are accepted. Letter casing (uppercase/lowercase) doesn&#039;t matter. |  |
-| Whitelist - setting | The whitelist is used to filter the files extensions by removing (or renaming) any file which extension does *NOT* figure in the whitelist below. It is generally considered as a safer but more restrictive approach to filtering. The extensions should figure without the leading dot (.) and separated by semi-column (;) like the following: htm;html;txt;doc;xls;ppt;jpg;jpeg;gif;sxw . Files without extension are accepted. Letter casing (uppercase/lowercase) doesn&#039;t matter. | htm;html;jpg;jpeg;gif;png;swf;avi;mpg;mpeg;mov;flv;doc;docx;xls;xlsx;ppt;pptx;odt;odp;ods;pdf |
-| Filtering behaviour (skip/rename) | If you choose to skip, the files filtered through the blacklist or whitelist will not be uploaded to the system. If you choose to rename them, their extension will be replaced by the one defined in the extension replacement setting. Beware that renaming doesn&#039;t really protect you, and may cause name collision if several files of the same name but different extensions exist. |  |
-| Replacement extension | Enter the extension that you want to use to replace the dangerous extensions detected by the filter. Only needed if you have selected a filter by replacement. | dangerous |
-| Permissions for new directories | The ability to define the permissions settings to assign to every newly created directory lets you improve security against attacks by hackers uploading dangerous content to your portal. The default setting (0770) should be enough to give your server a reasonable protection level. The given format uses the UNIX terminology of Owner-Group-Others with Read-Write-Execute permissions. |  |
-| Permissions for new files | The ability to define the permissions settings to assign to every newly created file lets you improve security against attacks by hackers uploading dangerous content to your portal. The default setting (0550) should be enough to give your server a reasonable protection level. The given format uses the UNIX terminology of Owner-Group-Others with Read-Write-Execute permissions. If you use Oogie, take care that the user who launch OpenOffice can write files in the course folder. |  |
-| OpenID authentication | Enable the OpenID URL-based authentication (displays an additional login form on the homepage) |  |
-| Register users by Coach | Coach users may create users to the platform and subscribe users to a session. |  |
-| Extend rights for coach | Activate this option will give the coach the same permissions as the trainer on authoring tools |  |
-| Extend rights for coaches on surveys | Activate this option will allow the coaches to create and edit surveys |  |
-| Allow User Course Subscription By Course Administrator | Activate this option will allow course administrator to subscribe users inside a course |  |
-| Single Sign On | Enabling Single Sign On allows you to connect this platform as a slave of an authentication master, for example a Drupal website with the Drupal-Chamilo plugin or any other similar master setup. |  |
-| Domain of the Single Sign On server | The domain of the Single Sign On server (the web address of the other server that will allow automatic registration to Chamilo). This should generally be the address of the other server without any trailing slash and without the protocol, e.g. www.example.com |  |
-| Single Sign On server authentication URL | The address of the page that deals with the authentication verification. For example /?q=user in Drupal&#039;s case. |  |
-| Single Sign On server&#039;s logout URL | The address of the page on the server that logs the user out. This option is useful if you want users logging out of Chamilo to be automatically logged out of the authentication server. |  |
-| Single Sign On server&#039;s protocol | The protocol string to prefix the Single Sign On server&#039;s domain (we recommend you use https:// if your server is able to provide this feature, as all non-secure protocols are dangerous for authentication matters) |  |
-| Tuning |
-| Split users&#039; upload directory | On high-load portals, where a lot of users are registered and send their pictures, the upload directory (main/upload/users/) might contain too many files for the file-system to handle (it has been reported with more than 36000 files on a Debian server). [...] |  |
-| Assessments |
-| Competence thresholds colouring | Tick the box to enable Competences thresholds |  |
-| Competence levels labelling | Tick the box to enable Competence levels labelling |  |
-| Threshold | The threshold (in %) under which scores will be coloured red |  |
-| Display score upper limit | Tick the box to show the score&#039;s upper limit |  |
-| Number of decimals | Allows you to set the number of decimals allowed in a score | 0 |
-| LDAP |
-| Main LDAP server address | The IP address or URL of your main LDAP server. |  |
-| Main LDAP server&#039;s port. | The port on which the main LDAP server will respond (usually 389). This is a mandatory setting. |  |
-| LDAP domain | This is the LDAP domain (dc) that will be used to find the contacts on the LDAP server. For example: dc=xx, dc=yy, dc=zz |  |
-| Replicate server address | When the main server is not available, this server will be accessed. Leave blank or use the same value as the main server if you don&#039;t have a replicate server. |  |
-| Replicate server&#039;s port | The port on which the replicate server will respond. |  |
-| Search term | This term will be used to filter the search for contacts on the LDAP server. If you are unsure what to put in here, please refer to your LDAP server&#039;s documentation and configuration. |  |
-| LDAP version | Please select the version of the LDAP server you want to use. Using the right version depends on your LDAP server&#039;s configuration. |  |
-| Tutor identification field | A check will be done on this LDAP contact field on new users insertion. If this field is not empty, the user will be considered as a tutor and inserted in Chamilo as such. If you want all your users to be recognised as simple users, leave this field empty. You can modify this behaviour by changing the code. Please read the [installation guide](http://my.chamilo.net/documentation/installation_guide.html) for more information. |  |
-| Authentication login | If you are using an LDAP server that does not support or accept anonymous access, fill the following field with the user login that should be used. Do not include &quot;cn=&quot;. Leave empty for anonymous access. |  |
-| Authentication password | If you are using an LDAP server that does not support or accept anonymous access, fill the following field with the user password that should be used. |  |
-| Tutor identification value | When a check is done on the tutor field given above, this value has to be inside one of the tutor fields sub-elements for the user to be considered as a trainer. If you leave this field blank, the only condition is that the field exists for this LDAP user to be considered as a trainer. As an example, the field could be &quot;memberof&quot; and the value to search for could be &quot;CN=G_TRAINER,OU=Trainer&quot;. |  |
-| Time zones |
-| Use users time zones | Enable the possibility for users to select their own time zone. The time zone field should be set to visible and changeable in the Profiling menu in the administration section before users can choose their own. |  |
-| Time zone value | This is the time zone for this portal. If left empty, it will use the server&#039;s time zone. If configured, all times on the system will be shown based on this time zone. This setting has a lower priority than the user&#039;s time zone, if enabled and selected by the |  |
-| Search |
-| Full text search | This feature allows you to index most of the documents uploaded to your portal, then provide a search feature for users. [...] | No |
-| Style sheets |
-| Stylesheets selection |  |  |
-| Templates |
-| Templates management |  |  |
-| Plugins |
-| Search |  |  |
-| BigBlueButton |  |  |
-| Date |  |  |
-| Dashboard plugins |
-| Student Graph Block | Display information about students inside platform with graph |  |
-| Evaluation Graph Block | Display maximum, minimum and average evaluations about links inside assessments tool |  |
-| Student Block | Display information about students inside platform |  |
-| Teacher Block | Display information about teachers inside platform |  |
-| Session Block | Display information about sessions inside platform |  |
-| Teacher Graph Block | Display information about teachers inside platform with graph |  |
-| Gradebook &amp; Attendances | Access to attendances in a Gradebook |  |
-| Gradebook &amp; Attendances | Display information about courses inside platform |  |
-| Extra (when BigBlueButton is enabled) |
-| BigBlueButton video-conference tool | Choose whether you want to enable the BigBlueButton video-conference tool. Once enabled, it will show as an additional course tool in all courses&#039; homepage, and teachers will be able to launch a conference at any time. [...] | No |
-| BigBlueButton server host | This is the name of the server where your BigBlueButton server is running. Might be _localhost_, an IP address (e.g. 192.168.13.54) or a domain name (e.g. my.video.com). |  |
-| Security key of the BigBlueButton server | This is the security key of your BigBlueButton server, which will allow your server to authenticate the Chamilo installation. Refer to the BigBlueButton documentation to locate it. |  |
+Titel | Omschrijving | Standaard
+--- | --- | ---
+Platform |  |
+Organisatie naam | De naam van de organisatie (verschijnt in de koptekst aan de rechterkant) |
+URL van organisatie (webadres) | De URL van de Organisatie(de link die in de koptekst aan de rechterkant verschijnt) |
+E-learning portaalnaam | De naam van uw Chamilo-portaal (verschijnt in de koptekst) |
+Portalbeheerder: e-mail | Het e-mailadres van de platformbeheerder (verschijnt in de voettekst aan de linkerkant) |
+Portaal Beheerder: achternaam | De achternaam van de platformbeheerder (verschijnt in de voettekst aan de linkerkant) |
+Portaal Beheerder: voornaam | De voornaam van de platformbeheerder (verschijnt in de voettekst aan de linkerkant) |
+Platformbeheerderinformatie in voettekst | De informatie van de platformbeheerder weergeven in de voettekst? |
+De gegevens van de tutor van de sessie worden weergegeven in de voettekst. | De tutorreferentie van de sessie weergeven (naam en e-mail indien beschikbaar) in de voettekst? |
+Toon docentinformatie in voettekst | Toon de referentie van de leraar (naam en e-mail indien beschikbaar) in de voettekst? |
+server type | Wat voor soort server is dit? Dit schakelt een aantal specifieke opties in of uit. Op een ontwikkelingsserver is er een vertaalfunctie functioneel die onvertaalde strings aangeeft |
+wie is er Online | Het aantal personen weergeven dat online is? |
+Registratie | Is registratie als nieuwe gebruiker toegestaan? Kunnen gebruikers nieuwe accounts aanmaken? | Ja
+Registratie als trainer | Kan men zich inschrijven als trainer (met de mogelijkheid om training te creëren)? | Ja
+Vergeten wachtwoord | Mogen gebruikers hun verloren wachtwoord opvragen? |
+Code weergeven in trainingsnaam | Trainingscode weergeven in trainingslijst |
+Trainer weergeven in trainingsnaam | Trainer weergeven in trainingslijst |
+Portaalbeheerder: telefoon | Het telefoonnummer van de platformbeheerder |
+Leerlingweergave inschakelen | Schakel de gebruikersweergave in, waarmee een trainer of beheerder een training kan zien zoals een deelnemer of gebruiker deze zou zien | Ja
+Pagina na inloggen | De pagina die wordt gezien door de gebruiker die het platform binnengaat |
+Tijdslimiet voor wie online is | Deze tijdslimiet bepaalt hoeveel seconden na zijn laatste actie een gebruiker *online* wordt beschouwd |
+Voorbeeldmateriaal over het maken van trainingen | Maak automatisch voorbeeldmateriaal bij het maken van een nieuwe cursus |
+Geldigheid van account | Een gebruikersaccount is geldig voor dit aantal dagen na aanmaak |
+Gebruik trainingssessies | Trainingssessies bieden een andere manier om met training om te gaan, waarbij training een auteur, een coach en leerlingen heeft. Elke coach geeft een training voor een bepaalde periode, een *trainingssessie genoemd* , aan een set van leerlingen die zich niet mengen met andere leerlinggroepen die aan een andere trainingssessie zijn gekoppeld. | Ja
+Laat e-mailadressen zien | Toon e-mailadressen aan gebruikers |
+Trainingsnummer tonen | Toon het aantal trainingen in elke categorie in de trainingscategorieën op de homepage |
+Toon lege trainingscategorieën | Toon de trainingscategorieën op de startpagina, zelfs als ze leeg zijn |
+Toon links uit categorieën / training | Toon een link om terug te gaan in de trainingshiërarchie. Een link is sowieso onderaan de lijst beschikbaar. |
+Trainingstalen weergeven | Toon de taal waarin elke training is, naast de trainingstitel, op de startpagina trainingslijst |
+Toon categorieën op de startpagina | Met deze optie worden trainingscategorieën weergegeven of verborgen op de startpagina van de portal |
+Tabbladen in de koptekst | Controleer de tabbladen die u in de koptekst wilt zien verschijnen. De ongecontroleerde tabbladen verschijnen in het rechtermenu op de homepagina van de portal en mijn trainingspagina als deze moeten verschijnen |
+E-mailadres zonder antwoord | Dit is het e-mailadres dat moet worden gebruikt wanneer een e-mail specifiek moet worden verzonden met het verzoek om geen antwoord te sturen. Over het algemeen moet dit e-mailadres op uw server worden geconfigureerd om binnenkomende e-mail te verwijderen / negeren. |
+Selectie van gebruikersthema | Sta gebruikers toe om hun eigen visuele thema in hun profiel te selecteren. Dit verandert het uiterlijk van Chamilo voor hen, maar laat de standaardstijl van de portal intact. Als aan een specifieke cursus of sessie een specifiek thema is toegewezen, heeft deze voorrang op door de gebruiker gedefinieerde thema's. |
+Gesloten training weergeven op loginpagina en portalstartpagina? | Gesloten training weergeven op de inlogpagina en de startpagina van de training? Op de startpagina van de portal verschijnt een pictogram naast de training om je snel te abonneren op de training. Dit verschijnt alleen op de startpagina van de portal wanneer de gebruiker is aangemeld en wanneer de gebruiker nog niet is geabonneerd op de portal. |
+Sessiecoach tonen | Geef de algemene naam van de sessiecoach weer in het titelvak van de sessie in de trainingslijst |
+Sta niet-admin toe om training te maken | Laat niet-beheerders (trainers) nieuwe trainingen maken in de portal |
+Toegang voor leerlingen tot trainingcatalogus | Laat leerlingen door de trainingscatalogus bladeren en zich abonneren op beschikbare trainingen |
+Schakel algemene voorwaarden in | Deze optie geeft de algemene voorwaarden weer in het registratieformulier voor nieuwe gebruikers |
+E-mailwaarschuwing bij het maken van een nieuwe cursus | Stuur een e-mail naar de beheerder van het platform, elke keer dat de docent een nieuwe cursus registreert |
+Link weergeven om bug te melden | Toon een link in de koptekst om een bug in ons ondersteuningsplatform (http://support.chamilo.org) te melden. Door op de link te klikken, wordt de gebruiker naar het ondersteuningsplatform gestuurd, op een wikipagina die het bugrapportageproces beschrijft. |
+Training validatie | Wanneer de functie "Trainingsvalidatie" is geactiveerd, kan een docent niet alleen een training maken. Hij / zij vult een trainingsverzoek in. De platformbeheerder beoordeelt het verzoek en keurt het goed of verwerpt het. Deze functie is afhankelijk van geautomatiseerde e-mailberichten; stel Chamilo in om toegang te krijgen tot een e-mailserver en om een toegewijd e-mailaccount te gebruiken. |
+Trainingsvalidatie - een link naar de algemene voorwaarden | Dit is de URL naar het document "Algemene voorwaarden" dat geldig is voor het indienen van een trainingsverzoek. Als het adres hier is ingesteld, moet de gebruiker, voordat hij een trainingsverzoek verstuurt, deze algemene voorwaarden lezen en ermee akkoord gaan. Als u de module "Algemene voorwaarden" van Chamilo activeert en als u wilt dat de URL wordt gebruikt, laat u deze instelling leeg. |
+Schakel watermerk in bij PDF-export | Door deze optie in te schakelen, kunt u een afbeelding of tekst uploaden die automatisch als watermerk wordt toegevoegd aan alle PDF-export van documenten op het systeem. |
+Schakel per definitie een watermerk in | Als deze optie is ingeschakeld, kunnen docenten hun eigen watermerk definiëren voor de documenten in hun cursussen. |
+PDF-watermerktekst | Deze tekst wordt als watermerk toegevoegd aan de documenten die als PDF worden geëxporteerd. |
+Toon lessen aan gebruikers | Toon de klassen aan gebruikers. Klassen zijn een functie waarmee u groepen gebruikers rechtstreeks bij een sessie of cursus kunt registreren / afmelden, waardoor het administratieve gedoe wordt verminderd. Wanneer u deze optie kiest, kunnen leerlingen via hun sociale netwerkinterface zien in welke klas ze zitten. |
+Lettertype vergroot de toegankelijkheidsfunctie | Schakel deze optie in om een reeks opties voor het wijzigen van het lettertype te tonen in de rechterbovenhoek van je campus. Hierdoor kunnen slechtzienden hun cursusinhoud gemakkelijker lezen. |
+Verberg cursussen lijst in sessies | Wanneer u het sessieblok op uw cursuspagina weergeeft, verberg dan de lijst met cursussen binnen die sessie (toon ze alleen in het specifieke sessiescherm). |
+Cursussen |  |
+Opleiding homepage ontwerp | Hoe wil je dat de startpagina van een training eruit ziet? |
+Sneltoetsen voor tools | De snelkoppelingen voor tools in de banner weergeven? |
+Groepscategorieën | Trainers toestaan om categorieën te maken in de tool Groepen? |
+Standaard hardeschijfruimte | Wat is de beschikbare schijfruimte? U kunt het quotum voor specifieke training overschrijven via: platformbeheer> Training> wijzigen | 100000000
+Beschikbare schijfruimte voor groep | Wat is de standaardruimte op de harde schijf die beschikbaar is voor een tool voor groepsdocumenten? | 5000000
+Sta gebruikers toe profilering binnen de training | Kan een trainer profielvelden van leerlingen definiëren om aanvullende informatie op te halen? |
+Trainingsnavigatiemenu weergeven | Geef een navigatiemenu weer dat de toegang tot de tools versnelt |
+Schakel gereedschapsintroductie in | Schakel introducties in op de startpagina van elke tool |
+Training startpagina breadcrumb | De breadcrumb is het navigatiesysteem met horizontale links, meestal linksboven op uw pagina. Deze optie selecteert wat je wilt weergeven in het broodkruimel op de homepages van cursussen |
+Standaard forumweergave | Wat moet de standaardoptie zijn bij het maken van een nieuw forum. Elke trainer kan echter voor elk individueel forum een andere weergave kiezen |
+Afzender van enquête-e-mail (geen antwoord) | Moeten de uitnodigingen voor de enquête het e-mailadres van de coach gebruiken of het adres voor geen antwoord dat is gedefinieerd in de hoofdconfiguratiesectie? |
+Sta trainingsthema's toe | Maakt het mogelijk om grafische thema's te trainen en maakt het mogelijk om het stijlblad dat door een training wordt gebruikt te wijzigen in een van de mogelijke stijlbladen die beschikbaar zijn voor Chamilo. Wanneer een gebruiker deelneemt aan de training, heeft het stijlblad van de training voorrang op het eigen stijlblad van de gebruiker en het standaardstijlblad van het platform. |
+Titel van sessiegegevens weergeven | Sessiegegevensopmerking weergeven |
+Toon woordenlijsttermen in documenten | Vanaf hier kunt u configureren hoe u vanuit de documenten links naar de woordenlijsttermen toevoegt |
+Toon de cursusbeschrijvingen in de catalogus | Toon de cursusbeschrijvingen als een geïntegreerde pop-up wanneer u op een cursusinfo-pictogram in de cursussencatalogus klikt |
+Laat coaches binnen trainingssessies bewerken | Sta coaches toe commentaar binnen trainingssessies te bewerken |
+Toon de woordenlijsttermen in extra tools | Vanaf hier kunt u configureren hoe u de woordenlijsttermen in extra tools toevoegt als leerpad en oefentool |
+Ga direct naar de cursus na inloggen | Als een gebruiker voor één cursus is geregistreerd, gaat u na inloggen direct naar de cursus |
+Minimumscore van oefeningen | Definieer een minimumscore (meestal 0) voor alle oefeningen op het platform. Dit zal bepalen hoe eindresultaten worden getoond aan gebruikers en docenten. |
+Maximale score van oefeningen | Definieer een maximale score (meestal 10,20 of 100) voor alle oefeningen op het platform. Dit zal bepalen hoe eindresultaten worden getoond aan gebruikers en docenten. |
+Schakel Quiz-scenario in | Vanaf hier kunt u oefeningen maken die verschillende vragen voorstellen, afhankelijk van de antwoorden van de gebruiker. |
+Talen |  |
+Portal Taal | U kunt de platformtalen bepalen in een ander deel van het platformbeheer, namelijk: [Chamilo Platformtalen](http://my.chamilo.net/main/admin/languages.php) |
+Verberg DLTT Mark-up | Verberg de [= ... =] opmaak wanneer een taalvariabele niet wordt vertaald | Ja
+Karakterset | De tekenset is wat piloten de manier waarop specifieke talen kunnen worden weergegeven in Chamilo. Als je bijvoorbeeld Russische of Japanse karakters gebruikt, wil je dit misschien veranderen. Voor alle Engelse, Latijnse en West-Europese karakters moet de standaard ISO-8859-15 in orde zijn. | UTF-8
+Sta definitie en gebruik van subtalen toe | Door deze optie in te schakelen, kunt u variaties definiëren voor elk van de taaltermen die in de interface van het platform worden gebruikt, in de vorm van een nieuwe taal op basis van en uitbreiding van een bestaande taal. U vindt deze optie in het talengedeelte van het administratiepaneel. |
+Gebruikers |  |
+Profiel | Welke delen van het profiel kunnen worden gewijzigd? |
+Registratie: verplichte velden | Welke velden zijn verplicht (naast naam, voornaam, login en wachtwoord) |
+Persoonlijke agenda | Kan de leerling persoonlijke evenementen aan de agenda toevoegen? |
+Uitgebreid profiel | Als deze instelling is ingesteld op 'Waar', kan een gebruiker de volgende (optionele) velden invullen: 'Mijn competenties', 'Mijn diploma's', 'Wat kan ik leren' en 'Mijn persoonlijke open ruimte' |
+Uitgebreide profielvelden bij registratie | Welke van de volgende velden van het uitgebreide profiel moeten beschikbaar zijn in het gebruikersregistratieproces? Dit vereist dat het uitgebreide profiel is geactiveerd (zie hierboven). |
+Vereiste uitgebreide profielvelden bij registratie | Welke van de volgende velden van het uitgebreide profiel zijn vereist in het gebruikersregistratieproces? Dit vereist dat het uitgebreide profiel is geactiveerd en dat het veld ook beschikbaar is in het registratieformulier (zie hierboven). |
+Modules |  |
+Modules actief bij het maken van trainingen | Welke tools moeten standaard geactiveerd (zichtbaar) worden bij het aanmaken van een nieuwe training? |
+Gebruik een titel voor de documentnaam | Dit staat het gebruik van een titel toe voor documentnamen in plaats van document_name.ext | Ja
+Verwijderde bestanden kunnen niet worden hersteld | Als u een bestand in de documententool verwijdert, wordt het permanent verwijderd. Het bestand kan niet worden hersteld | Nee
+Dropbox: kunnen documenten worden overschreven | Kan het originele document worden overschreven wanneer een gebruiker of trainer een document uploadt met de naam van een document dat al bestaat? Als u ja antwoordt, verliest u het conversiemechanisme. |
+Dropbox: maximale bestandsgrootte van een document | Hoe groot (in bytes) kan een dropbox-document zijn? | 100000000
+Dropbox: uploaden naar eigen dropboxruimte? | Laat trainers en gebruikers documenten uploaden naar hun dropbox zonder de documenten naar zichzelf te sturen |
+Dropbox: leerling **Ongeldige HTML-tag verwijderd:** leerling | Sta gebruikers toe documenten naar andere gebruikers te verzenden (peer 2 peer). Gebruikers kunnen dit ook gebruiken voor minder relevante documenten (mp3, testoplossingen, ...). Als u dit uitschakelt, kunnen de gebruikers alleen documenten naar de trainer sturen. |
+Dropbox: groep toestaan | Gebruikers kunnen bestanden naar groepen sturen |
+Dropbox: mailing toestaan | Met de mailingfunctionaliteit kunt u elke leerling een persoonlijk document sturen |
+Actieve online e-maileditor | Als deze optie is geactiveerd, zal het klikken op een e-mailadres een online e-maileditor openen. | Nee
+Geef de kleine maandkalender weer in de agendatool | Met deze instelling wordt de kleine maandkalender die in de linkerkolom van de agendatool verschijnt, in- of uitgeschakeld |
+Toon de aankomende evenementen in de agendatool | Deze instelling schakelt de aankomende evenementen in of uit in de linkerkolom van de agendatool van de cursus |
+Aantal aankomende evenementen dat moet worden weergegeven. | Het aantal aankomende evenementen dat in de agenda moet worden weergegeven. Dit vereist dat de functionaliteit voor aankomende evenementen is geactiveerd (zie instelling hierboven). |
+Boeking | Met het boekingssysteem kunt u middelen reserveren voor uw training (kamers, tafels, boeken, schermen, ...). U moet deze tool inschakelen (via de Admin) om deze in het gebruikersmenu te laten verschijnen. | Nee
+Interne messaging-tool | Door de interne berichtentool in te schakelen, kunnen gebruikers berichten verzenden naar andere gebruikers van het platform en een berichteninbox hebben. | Ja
+Tool voor sociale netwerken (Facebook-achtig) | Met de tool voor sociale netwerken kunnen gebruikers relaties met andere gebruikers definiëren en zo groepen vrienden definiëren. Gecombineerd met de interne berichtentool, maakt deze tool nauwe communicatie met vrienden mogelijk binnen de portalomgeving. | Ja
+Laat leerlingen mappen downloaden | Laat leerlingen een complete directory inpakken en downloaden vanuit de documenttool |
+Sta gebruikers toe bestanden van een cursus te kopiëren in uw persoonlijke bestandsgebied | Staat gebruikers toe om bestanden van een cursus in uw persoonlijke bestandsgebied te kopiëren, zichtbaar via het sociale netwerk of via de HTML-editor wanneer ze buiten een cursus zijn |
+Sta gebruikers toe groepen te maken in een sociaal netwerk | Sta gebruikers toe groepen te maken in een sociaal netwerk |
+Sta een bericht toe aan alle platformgebruikers | Sta een bericht toe aan alle platformgebruikers |
+Maximale upload bestandsgrootte in berichten | Maximale grootte voor bestandsuploads in de berichtentool (in bytes) |
+Maak en bewerk SVG-bestanden | Met deze optie kunt u online meerlagen SVG (Scalable Vector Graphics) online maken en bewerken, en deze exporteren naar afbeeldingen in PNG-indeling. |
+Laat studenten webdocumenten exporteren naar PDF-formaat in de documenten en wiki-tools | Deze functie is standaard ingeschakeld, maar in geval van misbruik van serveroverbelasting kan deze functie, of specifieke leeromgevingen, deze voor alle cursussen uitschakelen. |
+Toon gebruikersmappen in de documententool | Met deze optie kunt u de mappen tonen of verbergen voor docenten die het systeem genereert voor elke gebruiker die de tooldocumenten bezoekt of een bestand verzendt via de webeditor. [...] |
+Toon in documententool alle mappen die standaard multimediabronnen bevatten | Multimediabestandsmappen met bestanden die standaard worden aangeleverd, ingedeeld in categorieën van video-, audio-, beeld- en flash-animaties voor gebruik in hun cursussen. Hoewel u het onzichtbaar maakt in de documenttool, kunt u deze bronnen nog steeds gebruiken in de webeditor van het platform. |
+Toon de geschiedenismap van chatgesprekken | Dit zal de leraar de map tonen die alle sessies bevat die in de chat zijn gemaakt, de leraar kan ze zichtbaar maken of niet studenten en ze gebruiken als hulpmiddel |
+Schakel online services in voor het converteren van tekst in audio | Online tool om tekst om te zetten in spraak. Gebruikt spraaksynthesesystemen en technologie om spraakbronnen te leveren. |
+Verberg tools voor docenten | Controleer de tools die je voor docenten wilt verbergen. Dit zal de toegang tot de tool niet verbieden (geen veiligheidsdoel), maar zal het onzichtbaar maken voor de leerkrachten om verwarring te voorkomen (met te veel tools - gebruiksdoel). |
+Schakel externe Pixlr-services in | Met Pixlr kunt u uw foto's bewerken, aanpassen en filteren met functies die vergelijkbaar zijn met Photoshop. Het is de ideale aanvulling om afbeeldingen te verwerken op basis van bitmaps |
+Activeer recorder - spraakspeler Nanogong | Nanogong is een recorder - spraakspeler waarmee u uw stem kunt opnemen en naar het platform kunt sturen of naar uw harde schijf kunt downloaden. Het laat je ook spelen wat je hebt opgenomen. De studenten hebben alleen een microfoon en luidsprekers nodig en accepteren de load-applet wanneer ze voor het eerst worden geladen. Het is erg handig voor taalleerders om zijn stem te horen nadat ze de juiste uitspraak van de leraar hebben beluisterd in een ander wav- of mp3-spraakbestand. |
+HTML-editor |  |
+Naleving van openbare pagina's voor WAI | WAI (Web Accessibility Initiative) is een initiatief om het web toegankelijker te maken. Door deze optie te selecteren, worden de openbare pagina's van Chamilo toegankelijker. Dit betekent ook dat bepaalde inhoud op de openbare pagina's van de portal er anders uit kan zien. |
+Geavanceerde bestandsbeheerder voor WYSIWYG-editor | Geavanceerde bestandsbeheer inschakelen voor WYSIWYG-editor? Dit voegt een aanzienlijk aantal extra opties toe aan de bestandsbeheerder die wordt geopend in een pop-upvenster bij het uploaden van bestanden naar de server. |
+mimeTEX wiskundige editor | Schakel mimeTeX wiskundige editor in. De activering wordt niet volledig gerealiseerd als het uitvoerbare MimeTex-bestand niet eerder op de server is geïnstalleerd. Zie de Chamilo-installatiehandleiding. |
+ASCIIMathML wiskundige editor | Schakel de wiskundige editor ASCIIMathML in |
+Wiskundige grafische editor ASCIIsvg | Activering van wiskundige grafische editor (ASCIIsvg). |
+Laad het bestand ASCIIMathML.js in alle systeempagina's | Activeer deze instelling als u ASCIIMathML-gebaseerde wiskundige formules en ASCIIsvg-gebaseerde wiskundige afbeeldingen wilt tonen, niet alleen in de tool "Documenten", maar elders in het systeem. |
+Laat leerlingen video's van YouTube invoegen | Maak het mogelijk dat studenten YouTube-video's kunnen invoegen |
+Blokkeer studenten kopiëren en plakken | Blokkeer studenten de mogelijkheid om te kopiëren en plakken in de WYSIWYG-editor |
+Knoppenbalk verlengd | Schakel knoppenbalken in die zijn uitgebreid wanneer de WYSIWYG-editor is gemaximaliseerd |
+WIRIS wiskundige editor | Schakel WIRIS wiskundige editor in. Als u deze plug-in installeert, krijgt u de WIRIS-editor en WIRIS CAS. [...] |
+Spellingscontrole | Schakel spellingcontrole in |
+Dwingen naar Wiki om als platte tekst te plakken | Dit voorkomt dat veel verborgen tags, onjuist of niet-standaard, gekopieerd worden van andere teksten om te voorkomen dat de tekst van de Wiki na veel problemen beschadigd raakt; maar verliest enkele functies tijdens het bewerken. |
+Activeer Google maps | Activeer de knop om Google maps in te voegen. Activering wordt niet volledig gerealiseerd als het niet eerder het bestand main / inc / lib / fckeditor / myconfig.php heeft bewerkt en een Google maps API-sleutel heeft toegevoegd. |
+Activeer Image maps | Activeer de knop om Image maps in te voegen. Hierdoor kunt u URL's aan delen van een afbeelding koppelen, waardoor hotspots ontstaan. |
+Sta het invoegen van widgets toe | Hierdoor kunt u op uw webpagina's uw favoriete video's en applicaties zoals vimeo of slideshare en allerlei widgets en gadgets insluiten |
+Veiligheid |  |
+Type filtering bij het uploaden van documenten | Of u nu de filtering op de zwarte lijst of op de witte lijst wilt gebruiken. Zie onderstaande beschrijving van zwarte of witte lijst voor meer details. |
+Blacklist - instelling | De zwarte lijst wordt gebruikt om de bestandsextensies te filteren door elk bestand te verwijderen (of hernoemen) waarvan de extensie voorkomt in de onderstaande zwarte lijst. De extensies moeten worden weergegeven zonder de leidende punt (.) En worden gescheiden door een halve kolom (;) zoals de volgende: exe; com; bat; scr; php. Bestanden zonder extensie worden geaccepteerd. Letterbehuizing (hoofdletters / kleine letters) maakt niet uit. |
+Witte lijst - instelling | De witte lijst wordt gebruikt om de bestandsextensies te filteren door elk bestand te verwijderen (of hernoemen) waarvan de extensie *NIET* voorkomt in de onderstaande witte lijst. Het wordt algemeen beschouwd als een veiligere maar meer restrictieve benadering van filteren. De extensies moeten worden weergegeven zonder de leidende punt (.) En worden gescheiden door een halve kolom (;) zoals de volgende: htm; html; txt; doc; xls; ppt; jpg; jpeg; gif; sxw. Bestanden zonder extensie worden geaccepteerd. Letterbehuizing (hoofdletters / kleine letters) maakt niet uit. | htm; html; jpg; jpeg; gif; png; swf; avi; mpg; mpeg; mov; flv; doc; docx; xls; xlsx; ppt; pptx; odt; odp; ods; pdf
+Filtergedrag (overslaan / hernoemen) | Als u ervoor kiest om over te slaan, worden de bestanden die door de zwarte lijst of witte lijst zijn gefilterd, niet naar het systeem geüpload. Als u ervoor kiest om ze te hernoemen, wordt hun extensie vervangen door de extensie die is gedefinieerd in de instelling voor het vervangen van extensies. Houd er rekening mee dat het hernoemen u niet echt beschermt en een naambotsing kan veroorzaken als er meerdere bestanden met dezelfde naam maar met verschillende extensies bestaan. |
+Vervangende extensie | Voer de extensie in die u wilt gebruiken om de door het filter gedetecteerde gevaarlijke extensies te vervangen. Alleen nodig als u een vervangend filter heeft geselecteerd. | gevaarlijk
+Rechten voor nieuwe mappen | De mogelijkheid om de machtigingsinstellingen te definiëren die aan elke nieuw gemaakte map moeten worden toegewezen, stelt u in staat de beveiliging tegen aanvallen van hackers die gevaarlijke inhoud uploaden naar uw portaal, te verbeteren. De standaardinstelling (0770) zou voldoende moeten zijn om uw server een redelijk beschermingsniveau te geven. Het gegeven formaat gebruikt de UNIX-terminologie van Owner-Group-Others met Read-Write-Execute-rechten. |
+Machtigingen voor nieuwe bestanden | De mogelijkheid om de machtigingsinstellingen te definiëren die aan elk nieuw gemaakt bestand moeten worden toegewezen, stelt u in staat de beveiliging tegen aanvallen van hackers die gevaarlijke inhoud uploaden naar uw portaal, te verbeteren. De standaardinstelling (0550) zou voldoende moeten zijn om uw server een redelijk beschermingsniveau te geven. Het gegeven formaat gebruikt de UNIX-terminologie van Owner-Group-Others met Read-Write-Execute-rechten. Als je Oogie gebruikt, zorg er dan voor dat de gebruiker die OpenOffice start, bestanden in de cursusmap kan schrijven. |
+OpenID-authenticatie | Schakel de op OpenID URL-gebaseerde authenticatie in (geeft een extra aanmeldingsformulier op de startpagina weer) |
+Registreer gebruikers per Coach | Coach-gebruikers kunnen gebruikers aanmaken op het platform en gebruikers abonneren op een sessie. |
+Verleng de rechten voor coach | Activeer deze optie om de coach dezelfde rechten te geven als de trainer voor authoringtools |
+Verleng de rechten voor coaches op enquêtes | Als u deze optie activeert, kunnen de coaches enquêtes maken en bewerken |
+Abonnement op gebruikerscursus toestaan door cursusbeheerder | Als u deze optie activeert, kan de cursusbeheerder gebruikers binnen een cursus abonneren |
+Eenmalig inloggen | Door Single Sign On in te schakelen, kunt u dit platform verbinden als een slave van een authenticatiemaster, bijvoorbeeld een Drupal-website met de Drupal-Chamilo-plug-in of een andere soortgelijke masterconfiguratie. |
+Domein van de Single Sign On-server | Het domein van de Single Sign On-server (het webadres van de andere server die automatische registratie bij Chamilo mogelijk maakt). Dit moet in het algemeen het adres zijn van de andere server zonder slash en zonder protocol, bijv. Www.example.com |
+Server-URL voor eenmalige aanmelding | Het adres van de pagina die de authenticatieverificatie behandelt. Bijvoorbeeld /? Q = gebruiker in het geval van Drupal. |
+Single Sign On server logout URL | Het adres van de pagina op de server die de gebruiker afmeldt. Deze optie is handig als u wilt dat gebruikers die zich afmelden bij Chamilo automatisch worden afgemeld bij de verificatieserver. |
+Single Sign On server protocol | De protocolreeks om het domein van de Single Sign On-server te prefixen (we raden u aan https: // te gebruiken als uw server deze functie kan bieden, aangezien alle niet-beveiligde protocollen gevaarlijk zijn voor authenticatie) |
+Afstemmen |  |
+Splits de uploadmap van gebruikers | Op portals met hoge belasting, waar veel gebruikers zijn geregistreerd en hun foto's verzenden, bevat de uploaddirectory (main / upload / users /) mogelijk te veel bestanden om door het bestandssysteem te worden verwerkt (er is gemeld met meer dan 36000 bestanden op een Debian-server). [...] |
+Beoordelingen |  |
+Competentiedrempels kleuren | Vink het vakje aan om Competentiedrempels in te schakelen |
+Etikettering van competentieniveaus | Vink het vakje aan om het labelen van competentieniveaus in te schakelen |
+Drempel | De drempel (in%) waaronder scores rood worden gekleurd |
+Toon score bovengrens | Vink het vakje aan om de bovengrens van de score weer te geven |
+Aantal decimalen | Hiermee kunt u het aantal decimalen instellen dat in een score is toegestaan | 0
+LDAP |  |
+Hoofdadres van de LDAP-server | Het IP-adres of de URL van uw belangrijkste LDAP-server. |
+Poort van de hoofd-LDAP-server. | De poort waarop de hoofd-LDAP-server reageert (meestal 389). Dit is een verplichte instelling. |
+LDAP-domein | Dit is het LDAP-domein (dc) dat zal worden gebruikt om de contacten op de LDAP-server te vinden. Bijvoorbeeld: dc = xx, dc = yy, dc = zz |
+Repliceer het serveradres | Wanneer de hoofdserver niet beschikbaar is, wordt deze server benaderd. Laat leeg of gebruik dezelfde waarde als de hoofdserver als u geen replicatieserver hebt. |
+Repliceer de poort van de server | De poort waarop de replicatieserver zal reageren. |
+Zoekterm | Deze term wordt gebruikt om de zoekopdracht naar contacten op de LDAP-server te filteren. Als u niet zeker weet wat u hier moet plaatsen, raadpleeg dan de documentatie en configuratie van uw LDAP-server. |
+LDAP-versie | Selecteer de versie van de LDAP-server die u wilt gebruiken. Het gebruik van de juiste versie hangt af van de configuratie van uw LDAP-server. |
+Identificatieveld tutor | Er zal een controle worden uitgevoerd op dit LDAP-contactveld bij het invoegen van nieuwe gebruikers. Als dit veld niet leeg is, wordt de gebruiker als tutor beschouwd en als zodanig in Chamilo ingevoegd. Als u wilt dat al uw gebruikers als eenvoudige gebruikers worden herkend, laat u dit veld leeg. U kunt dit gedrag wijzigen door de code te wijzigen. Lees de [installatiehandleiding](http://my.chamilo.net/documentation/installation_guide.html) voor meer informatie. |
+Verificatie login | Als u een LDAP-server gebruikt die anonieme toegang niet ondersteunt of accepteert, vul dan het volgende veld in met de gebruikersaanmelding die moet worden gebruikt. Neem "cn =" niet op. Laat leeg voor anonieme toegang. |
+Verificatiewachtwoord | Als u een LDAP-server gebruikt die anonieme toegang niet ondersteunt of accepteert, vul dan het volgende veld in met het gebruikerswachtwoord dat moet worden gebruikt. |
+Identificatiewaarde tutor | Wanneer een controle wordt uitgevoerd op het hierboven gegeven tutorveld, moet deze waarde binnen een van de subelementen van het tutorveld liggen om de gebruiker als trainer te kunnen beschouwen. Als u dit veld leeg laat, is de enige voorwaarde dat het veld bestaat om deze LDAP-gebruiker als trainer te beschouwen. Het veld kan bijvoorbeeld "memberof" zijn en de waarde waarnaar moet worden gezocht kan "CN = G_TRAINER, OU = Trainer" zijn. |
+Tijdzones |  |
+Gebruik tijdzones van gebruikers | Geef gebruikers de mogelijkheid om hun eigen tijdzone te selecteren. Het tijdzoneveld moet worden ingesteld op zichtbaar en veranderlijk in het menu Profilering in het administratiegedeelte voordat gebruikers hun eigen veld kunnen kiezen. |
+Waarde van tijdzone | Dit is de tijdzone voor dit portaal. Indien leeg gelaten, zal het de tijdzone van de server gebruiken. Indien geconfigureerd, worden alle tijden op het systeem weergegeven op basis van deze tijdzone. Deze instelling heeft een lagere prioriteit dan de tijdzone van de gebruiker, indien ingeschakeld en geselecteerd door de |
+Zoeken |  |
+Zoek volledige text | Met deze functie kunt u de meeste documenten die naar uw portal zijn geüpload indexeren en vervolgens een zoekfunctie voor gebruikers bieden. [...] | Nee
+Stijlbladen |  |
+Selectie van stylesheets |  |
+Sjablonen |  |
+Beheer van sjablonen |  |
+Plug-ins |  |
+Zoeken |  |
+BigBlueButton |  |
+Datum |  |
+Dashboard-plug-ins |  |
+Student Graph Block | Toon informatie over studenten binnen platform met grafiek |
+Evaluatiegrafiekblok | Geef maximale, minimale en gemiddelde evaluaties weer over links in de beoordelingstool |
+Studentenblok | Geef informatie weer over studenten binnen het platform |
+Leraar Block | Geef informatie weer over docenten binnen het platform |
+Sessieblok | Geef informatie weer over sessies binnen het platform |
+Docent Graph Block | Toon informatie over leraren binnen platform met grafiek |
+Cijferlijst en aanwezigheid | Toegang tot aanwezigheid in een cijferlijst |
+Cijferlijst en aanwezigheid | Geef informatie weer over cursussen binnen het platform |
+Extra (als BigBlueButton is ingeschakeld) |  |
+BigBlueButton videoconferentie-tool | Kies of u de BigBlueButton-videoconferentietool wilt inschakelen. Eenmaal ingeschakeld, wordt het weergegeven als een extra cursushulpmiddel op de startpagina van alle cursussen en kunnen docenten op elk moment een conferentie starten. [...] | Nee
+BigBlueButton-serverhost | Dit is de naam van de server waarop uw BigBlueButton-server draait. Dit kan *localhost zijn* , een IP-adres (bijv. 192.168.13.54) of een domeinnaam (bijv. Mijn.video.com). |
+Beveiligingssleutel van de BigBlueButton-server | Dit is de beveiligingssleutel van uw BigBlueButton-server, waarmee uw server de Chamilo-installatie kan verifiëren. Raadpleeg de BigBlueButton-documentatie om deze te lokaliseren. | 

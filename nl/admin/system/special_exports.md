@@ -1,17 +1,18 @@
-## Special exports {#special-exports}
+## Speciale uitvoer {# speciale uitvoer}
 
-The special exports feature has been designed to help the academical inspector. It allows him to export all documents (and only documents) from all courses in one single (be it very heavy) operation. A second option allows him to choose the documents from the courses he wants.
+De speciale exportfunctie is ontworpen om de academische inspecteur te helpen. Hiermee kan hij alle documenten (en alleen documenten) van alle cursussen in één enkele (zij het zeer zware) bewerking exporteren. Met een tweede optie kan hij de documenten kiezen uit de cursussen die hij wil.
 
-![](../assets/export-speciaux.png)Illustration 81: Administration – Special exports
+![](../assets/export-speciaux.png) Afbeelding 81: Administratie - Speciale uitvoer
 
-There is no automated way to import those courses directly from the special export at the moment (it is more meant as a way to quickly export all your documents), but if you wanted to import them, one way to do so would be to:
-- open the downloaded zip file
-- open any course directory (courses are listed by their code, which also appears in the URL of the course in Chamilo 1.*)
-- build a zip file with the folders you want in that course folder (do not include the course folder itself)
-- go to a course on a Chamilo platform
-- enter the documents tool
-- click the "Upload" icon
-- select the simple file uploader tab
-- select the zip file and mark the option "Unzip" in the advanced parameters
+Er is op dit moment geen geautomatiseerde manier om die cursussen rechtstreeks uit de speciale export te importeren (het is meer bedoeld als een manier om snel al uw documenten te exporteren), maar als u ze wilt importeren, een manier om dit te doen:
 
-This should restore all the course files in the same structure as the original course.
+- open het gedownloade zip-bestand
+- open een cursusmap (cursussen worden vermeld met hun code, die ook in de URL van de cursus in Chamilo 1 voorkomt. *)
+- bouw een zip-bestand met de gewenste mappen in die cursusmap (neem de cursusmap zelf niet op)
+- ga naar een cursus op een Chamilo-platform
+- voer de documententool in
+- klik op het pictogram "Uploaden"
+- selecteer het eenvoudige uploader-tabblad voor bestanden
+- selecteer het zip-bestand en markeer de optie "Unzip" in de geavanceerde parameters
+
+Dit zou alle cursusbestanden in dezelfde structuur moeten herstellen als de originele cursus.

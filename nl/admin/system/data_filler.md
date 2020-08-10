@@ -1,5 +1,5 @@
-## Data filler {#data-filler}
+## Gegevensvuller {# data-filler}
 
-This feature is only available for development installations of Chamilo LMS (where the tests/ directory exists).
+Deze functie is alleen beschikbaar voor ontwikkelingsinstallaties van Chamilo LMS (waar de tests / directory bestaat).
 
-It allows the admin to fill the database with example data (users, courses, etc).
+Hiermee kan de beheerder de database vullen met voorbeeldgegevens (gebruikers, cursussen, enz.).
