@@ -1,28 +1,19 @@
-# Documentation for Chamilo LMS
+# Guides Utilisateurs de Chamilo
 
-This is the official place for the Chamilo LMS e-learning platform project documentation
+Ce site contient les guides utilisateurs en langue française relatifs à la version 1.11 de Chamilo.
 
-* [English guides](en/README.md)
-* [Guías en Español](es/README.md)
-* [Guides en Français](fr/README.md)
-* [Guías en Gallego](ga/README.md)
-* [Gids in het Nederlands](nl/README.md)
+* [Guide administrateur](admin/introduction/a_propos_de_ce_guide.md)
+* [Guide enseignant](teacher/introduction/quest-ce_que_chamilo.md)
 
-## Internal structure and older guides
-This repository is organized in branches by version, by language and by role:
+La grande majorité des utilisateurs n'auront aucun besoin d'utiliser les guides utilisateur de Chamilo.
 
-* branch 1.11.x for all 1.11.x versions \(still in the works\)
-  * en/ for English
-  * fr/ for French
-  * es/ for Spanish
-* branch 1.10.x for all 1.10.x versions
-  * en/ for English
-  * fr/ for French
-  * es/ for Spanish
-* branch 1.9.x for all 1.9.x versions of Chamilo LMS
-  * en/ for English \(includes teacher, admin and developer docs\)
-  * fr/ for French \(inclut la doc pour profs, admins et développeurs\)
-  * es/ for Spanish \(incluye documentación para profes, admins y desarrolladores\)
+Les enseignants et formateurs s'intéresseront particulièrement au Guide Enseignant, mais il est fort possible que seule une petite partie du guide leur soit utile. En effet, le Guide Enseignant couvre de nombreux aspects de l'utilisation de Chamilo dont un enseignant/formateur n'aura pas toujours d'utilité.
 
+Les administrateurs, ou les enseignants souhaitant en savoir plus, trouveront dans le Guide Administrateur une source incomparable de trucs et astuces et une référence pour avoir tout sous la main.
 
+Les administrateurs systèmes et les développeurs devront, eux, se contenter du Guide Développeur en anglais, puisqu'il n'existe pas, à ce jour, de traduction vers le français de ce guide en particulier.
+
+Si vous lisez cette documentation sur le Web et que vous veniez à repérez une coquille ou erreur, merci de bien vouloir nous laisser un commentaire en créant un compte sur [https://gitbook.com](https://gitbook.com) et en marquant simplement le texte qui vous semble erroné, avec votre suggestion de correction. Ce site le permet, alors pourquoi ne pas en profiter pour devenir contributeur de ces guides de Chamilo?
+
+Pour commencer, cliquez simplement sur n'importe quel lien de la table des matières ou faites une recherche avec la barre de recherche.
 
