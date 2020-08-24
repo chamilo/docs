@@ -1,1 +1,0 @@
-# Interactividad: Ejercicios {#interactividad-ejercicios}

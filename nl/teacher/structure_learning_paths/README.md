@@ -1,1 +1,0 @@
-# Structure: Learning paths {#structure-learning-paths}

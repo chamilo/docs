@@ -1,28 +1,13 @@
-# Documentation for Chamilo LMS
+# Chamilo Gebruikersgidsen
 
-This is the official place for the Chamilo LMS e-learning platform project documentation
+Dit is de complete set Chamilo Gidsen voor gebruikers van Chamilo.
 
-* [English guides](en/README.md)
-* [Guías en Español](es/README.md)
-* [Guides en Français](fr/README.md)
-* [Guías en Gallego](ga/README.md)
-* [Gids in het Nederlands](nl/README.md)
+- [Administrator Handleiding](admin/introduction/chamilo,_what_is_it.md)
+- [Leerkracht Handleiding](teacher/introduction/what_is_chamilo.md)
+- [Ontwikkelaar Handleiding](developer/introduction/what_is_chamilo.md)
 
-## Internal structure and older guides
-This repository is organized in branches by version, by language and by role:
+De meeste gebruikers hoeven niet alle handleidingen te lezen en hebben voldoende informatie (misschien te veel) door alleen de docentenhandleiding te bladeren. Als u echter meer wilt weten of uw functie in uw organisatie is die van een Chamilo beheerder of een ontwikkelaar of sysadmin. Bent u wellicht geïnteresseerd in de Admistrator Handleiding en de Ontwikkelaar Handleiding die volgen.
 
-* branch 1.11.x for all 1.11.x versions \(still in the works\)
-  * en/ for English
-  * fr/ for French
-  * es/ for Spanish
-* branch 1.10.x for all 1.10.x versions
-  * en/ for English
-  * fr/ for French
-  * es/ for Spanish
-* branch 1.9.x for all 1.9.x versions of Chamilo LMS
-  * en/ for English \(includes teacher, admin and developer docs\)
-  * fr/ for French \(inclut la doc pour profs, admins et développeurs\)
-  * es/ for Spanish \(incluye documentación para profes, admins y desarrolladores\)
+Als u deze documentatie op internet bekijkt en als u een probleem tegenkomt, overweeg dan om een account aan te maken op https://gitbook.com en rechtstreeks wijzigingsverzoeken in te dienen. Deze website maakt het mogelijk, dus waarom zou u geen documentatiebijdrager worden en Chamilo helpen toegankelijker te worden voor anderen?
 
-
-
+Om verder te gaan, klikt u gewoon op een sectie in de inhoudsopgave of zoekt u naar een specifiek onderwerp in de zoekbalk.
