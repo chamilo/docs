@@ -1,0 +1,2 @@
+# Getting to know Chamilo
+
