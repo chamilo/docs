@@ -1,3 +1,0 @@
-# Informes {#informes}
-
-Este capítulo está dedicado a la **pestaña** de _Informes_, en contraposición con la **herramienta** de informes comentada en capítulos anteriores y a la que se accede desde la página de inicio de un curso y se refiere únicamente a ese curso en concreto. La **pestaña** de Informes permite obtener una visión global de lo que ocurre en **todos** los cursos o sesiones. El enlace de _Informes_ dentro de un curso es esencialmente una versión filtrada de lo siguiente, y ha sido descrito en detalle en el capítulo 15, así que puedes remitirte a ese capítulo en cuanto a los detalles de las páginas de informes.

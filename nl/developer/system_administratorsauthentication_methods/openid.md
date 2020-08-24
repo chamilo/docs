@@ -1,3 +1,0 @@
-## OpenID
-
-Coming soon...

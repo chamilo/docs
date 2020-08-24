@@ -1,28 +1,11 @@
-# Documentation for Chamilo LMS
+Manuales de uso de Chamilo
+==========================
 
-This is the official place for the Chamilo LMS e-learning platform project documentation
+Este sitio contiene los manuales de Chamilo en el idioma Español para la versión 1.11
 
-* [English guides](en/README.md)
-* [Guías en Español](es/README.md)
-* [Guides en Français](fr/README.md)
-* [Guías en Gallego](ga/README.md)
-* [Gids in het Nederlands](nl/README.md)
+* [Guía administrador](admin/instalacion_y_configuracion/servidor.md)
+* [Guía profesor](teacher/introduccion/que_es_chamilo.md)
+* [Guía desarrollador](developer/introduccion.md)
 
-## Internal structure and older guides
-This repository is organized in branches by version, by language and by role:
-
-* branch 1.11.x for all 1.11.x versions \(still in the works\)
-  * en/ for English
-  * fr/ for French
-  * es/ for Spanish
-* branch 1.10.x for all 1.10.x versions
-  * en/ for English
-  * fr/ for French
-  * es/ for Spanish
-* branch 1.9.x for all 1.9.x versions of Chamilo LMS
-  * en/ for English \(includes teacher, admin and developer docs\)
-  * fr/ for French \(inclut la doc pour profs, admins et développeurs\)
-  * es/ for Spanish \(incluye documentación para profes, admins y desarrolladores\)
-
-
+La guía para desarrolladores en Español representa solo una parte del manual en Inglés.
 
