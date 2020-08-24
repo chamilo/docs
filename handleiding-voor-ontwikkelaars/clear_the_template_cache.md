@@ -2,9 +2,9 @@
 
 ## Composer install
 
-Using composer to process the new stylesheets and templates is a simple matter of getting to the root of your Chamilo code folder \(where composer.json lies\) and launching `composer install`. That is, if you have composer. If you don't, then you can also use the "Clean cache" option from the administration page's "System" block.
+Het gebruik van composer om de nieuwe stylesheets en sjablonen te verwerken is een eenvoudige kwestie van naar de root van uw Chamilo-codemap \(waar composer.json ligt\) te vinden en `composer install` te starten. Tenminste, als je een componist hebt. Als u dat niet doet, kunt u ook de optie "Cache opschonen" gebruiken in het blok "Systeem" van de beheerpagina.
 
-## Clearing the template cache
+## De sjablooncache wissen
 
-Clearing the template cache should not be necessary if you have set your portal in « testing mode », but if you haven't, you'll have to clean the « app/cache/twig/ » folder.
+Het wissen van de sjablooncache zou niet nodig moeten zijn als u uw portaal in de «testmodus» hebt gezet, maar als u dat niet hebt gedaan, moet u de map «app/cache/twig/» opschonen.
 
