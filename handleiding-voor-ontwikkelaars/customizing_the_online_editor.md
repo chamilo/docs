@@ -1,10 +1,10 @@
 # De online editor aanpassen
 
-In Chamilo 1.10 and later, we use CKeditor as a WYSIWYG \(What You See Is What You Get\) or “online” HTML editor. This was not the case with Chamilo 1.9, which still used the now-dead FCKeditor.
+In Chamilo 1.10 en later gebruiken we CKeditor als een WYSIWYG \(What You See Is What You Get\) of "online" HTML-editor. Dit was niet het geval met Chamilo 1.9, die nog de inmiddels overleden FCKeditor gebruikte.
 
-Sometimes, you might want to customize the editor for some particular item in Chamilo. This can be done, for existing custom element types, in the src/Chamilo/CoreBundle/Component/Editor/CkEditor/Toolbar/ directory.
+Soms wilt u de editor voor een bepaald item in Chamilo aanpassen. Dit kan worden gedaan, voor bestaande typen aangepaste elementen, in de directory src/Chamilo/CoreBundle/Component/Editor/CkEditor/Toolbar/.
 
-There, you’ll find a series of files of the following form:
+Daar vindt u een reeks bestanden met de volgende vorm:
 
 ```text
 /* For licensing terms, see /license.txt */
@@ -98,15 +98,15 @@ class Messages extends Basic
 }
 ```
 
-As you can probably appreciate, the structure is simply:
+Zoals u waarschijnlijk kunt begrijpen, is de structuur eenvoudig:
 
-* a class extending the “Basic” class for the editor
-* a getConfig\(\) method to get some global configuration \(like size of the area\)
-* a getMaximizedToolbar\(\) method that defines the options to be shown when maximized
-* a getNormalToolbar\(\) method that defines the options to be shown when normal
-* a getMinimizedToolbar\(\) method that defines the options to be shown when minimized
+* een klasse die de klasse "Basic" uitbreidt voor de editor
+* een getConfig\(\) methode om een globale configuratie te krijgen \(zoals de grootte van het gebied\)
+* een methode getMaximizedToolbar\(\) die de opties definieert die moeten worden weergegeven wanneer deze zijn gemaximaliseerd
+* een getNormalToolbar\(\) methode die de opties definieert die getoond moeten worden wanneer normaal
+* een getMinimizedToolbar\(\) - methode die de opties definieert die moeten worden weergegeven wanneer ze worden geminimaliseerd
 
-If you want to change one of the tools offered in the toolbars for a specific case, just change it here.
+Als u een van de tools die in de werkbalken worden aangeboden voor een specifiek geval wilt wijzigen, wijzig dit dan hier.
 
-Note, however, that this customization is not part of the normally-accepted customizations, so you will have to keep it on record somewhere to be able to apply it again when the next version comes out.
+Houd er echter rekening mee dat deze aanpassing geen deel uitmaakt van de normaal geaccepteerde aanpassingen, dus u moet het ergens bewaren om het opnieuw te kunnen toepassen wanneer de volgende versie uitkomt.
 
