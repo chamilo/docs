@@ -1,9 +1,9 @@
-# Guides Utilisateurs de Chamilo
+# Introduction
 
 Ce site contient les guides utilisateurs en langue française relatifs à la version 1.11 de Chamilo.
 
-* [Guide administrateur](admin/introduction/a_propos_de_ce_guide.md)
-* [Guide enseignant](teacher/introduction/quest-ce_que_chamilo.md)
+* [Guide administrateur](https://github.com/chamilo/docs/tree/642884fbf07b635792040357fdb2979ccf46ae47/admin/introduction/a_propos_de_ce_guide.md)
+* [Guide enseignant](guide-enseignant/introduction/quest-ce_que_chamilo.md)
 
 La grande majorité des utilisateurs n'auront aucun besoin d'utiliser les guides utilisateur de Chamilo.
 
@@ -13,7 +13,7 @@ Les administrateurs, ou les enseignants souhaitant en savoir plus, trouveront da
 
 Les administrateurs systèmes et les développeurs devront, eux, se contenter du Guide Développeur en anglais, puisqu'il n'existe pas, à ce jour, de traduction vers le français de ce guide en particulier.
 
-Si vous lisez cette documentation sur le Web et que vous veniez à repérez une coquille ou erreur, merci de bien vouloir nous laisser un commentaire en créant un compte sur [https://github.com](https://github.com), en créant une copie (fork) de ce projet (https://github.com/chamilo/docs) et en marquant simplement le texte qui vous semble erroné, puis en envoyant votre suggestion de correction.
+Si vous lisez cette documentation sur le Web et que vous veniez à repérez une coquille ou erreur, merci de bien vouloir nous laisser un commentaire en créant un compte sur [https://github.com](https://github.com), en créant une copie \(fork\) de ce projet \([https://github.com/chamilo/docs](https://github.com/chamilo/docs)\) et en marquant simplement le texte qui vous semble erroné, puis en envoyant votre suggestion de correction.
 
 Pour commencer, cliquez simplement sur n'importe quel lien de la table des matières ou faites une recherche avec la barre de recherche.
 
