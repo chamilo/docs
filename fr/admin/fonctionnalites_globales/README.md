@@ -1,1 +1,0 @@
-# Fonctionnalités globales {#fonctionnalit-s-globales}

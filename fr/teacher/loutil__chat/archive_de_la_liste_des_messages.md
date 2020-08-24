@@ -1,3 +1,0 @@
-## Archive de la liste des messages {#archive-de-la-liste-des-messages}
-
-Tous les messages envoyés sur le chat sont systématiquement conservés dans l&#039;outil documents, sous forme d&#039;un répertoire caché intitulé « Historique de conversations dans le chat ». Les apprenants ne sont pas nécessairement au courant de cette fonctionnalité, c&#039;est pourquoi il est recommandé de le leur communiquer si le caractère privé de ces conversations est important.

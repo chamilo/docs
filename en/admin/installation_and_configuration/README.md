@@ -1,1 +1,0 @@
-# Installation and configuration {#installation-and-configuration}

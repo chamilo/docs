@@ -1,1 +1,0 @@
-# Global features {#global-features}
