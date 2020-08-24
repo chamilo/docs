@@ -1,19 +1,21 @@
 # Beheer de toegang tot de cursus
 
-During the creation of the course, it is recommended you don't allow learners access before it is ready so they don't see an incomplete course.
+Tijdens het maken van de cursus is het raadzaam om studenten geen toegang te verlenen voordat deze klaar is, zodat ze geen onvolledige cursus zien.
 
-In order to do this, access has to be restricted by going to the course _**Settings**_ tool:
+Om dit te doen, moet de toegang worden beperkt door naar de cursus _**Instellingen**_ tool te gaan:
 
 ![](../.gitbook/assets/images17%20%289%29.png)
 
-Illustration 17: Course administration tools
+Afbeelding 17: Tools voor cursusbeheer
 
-A series of choices are available to the teacher.
+De docent heeft een reeks keuzes.
 
-![](../.gitbook/assets/images18%20%289%29.png)Illustration 18: Course settings - Visibility
+![](../.gitbook/assets/images18%20%289%29.png)
 
-* **Public** : means it is accessible to any user, registered on this portal or not
-* **Open** : means all users _registered on the portal_ can access the course as long as they have previously subscribed to it \(they can do this through the courses catalog\). This is the _default option_
-* **Private** : means the course is only available to students who have been subscribed to it by a teacher or administrator. Make sure the _Subscription_ option is set to be only available to trainers, though, as otherwise students might be able to subscribe themselves.
-* **Closed** : means the course is _only available to its teacher or the administrator.\_Other users cannot access it, even if they have previously been subscribed to it. This last option is recommended \_during the building or_ _maintenance_ _periods of the course_.
+Afbeelding 18: Koersinstellingen - Zichtbaarheid
+
+* **Openbaar**: betekent dat het toegankelijk is voor elke gebruiker, al dan niet geregistreerd op dit portaal
+* **Open**: betekent dat alle gebruikers _ingeschreven op de portal_ toegang hebben tot de cursus zolang ze zich er eerder op hebben ingeschreven \(ze kunnen dit doen via de cursuscatalogus \). Dit is de standaardoptie
+* **Privé**: betekent dat de cursus alleen beschikbaar is voor studenten die erop zijn geabonneerd door een leraar of beheerder. Zorg ervoor dat de optie _Subscription_ zo is ingesteld dat deze alleen beschikbaar is voor trainers, anders kunnen studenten zich mogelijk zelf inschrijven.
+* **Gesloten**: betekent dat de cursus _alleen beschikbaar is voor de docent of de beheerder. \_Andere gebruikers hebben er geen toegang toe, zelfs niet als ze er eerder op zijn geabonneerd. Deze laatste optie wordt aanbevolen \_tijdens het bouwen of_ _onderhoud_ _periodes van de cursus_.
 
