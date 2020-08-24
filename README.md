@@ -13,7 +13,7 @@ Les administrateurs, ou les enseignants souhaitant en savoir plus, trouveront da
 
 Les administrateurs systèmes et les développeurs devront, eux, se contenter du Guide Développeur en anglais, puisqu'il n'existe pas, à ce jour, de traduction vers le français de ce guide en particulier.
 
-Si vous lisez cette documentation sur le Web et que vous veniez à repérez une coquille ou erreur, merci de bien vouloir nous laisser un commentaire en créant un compte sur [https://gitbook.com](https://gitbook.com) et en marquant simplement le texte qui vous semble erroné, avec votre suggestion de correction. Ce site le permet, alors pourquoi ne pas en profiter pour devenir contributeur de ces guides de Chamilo?
+Si vous lisez cette documentation sur le Web et que vous veniez à repérez une coquille ou erreur, merci de bien vouloir nous laisser un commentaire en créant un compte sur [https://github.com](https://github.com), en créant une copie (fork) de ce projet (https://github.com/chamilo/docs) et en marquant simplement le texte qui vous semble erroné, puis en envoyant votre suggestion de correction.
 
 Pour commencer, cliquez simplement sur n'importe quel lien de la table des matières ou faites une recherche avec la barre de recherche.
 
