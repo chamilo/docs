@@ -1,4 +1,0 @@
-# Découverte de Chamilo {#introduction}
-
-
-
