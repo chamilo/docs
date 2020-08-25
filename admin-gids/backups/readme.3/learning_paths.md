@@ -1,22 +1,26 @@
 # Leerpaden
 
-After exporting the learning paths, you might want to know how to import them back into another \(or the same\) Chamilo portal.
+Na het exporteren van de leertrajecten, wil je misschien weten hoe je ze weer kunt importeren in een ander \(of hetzelfde\) Chamilo-portaal.
 
-In the _My courses_ tab, create an empty course matching the one which has to be imported \(or re-use an existing course\). Once in the course, click _Learning paths_.
+Maak in het tabblad _Mijn cursussen_ een lege cursus aan die overeenkomt met de cursus die moet worden geïmporteerd \(of hergebruik een bestaande cursus\). Eenmaal in de cursus klikt u op _Leerpaden_.
 
-In the learning paths tool, you have three options:
+In de leerpaden-tool heb je drie mogelijkheden:
 
-* « Create new course » \(1st icon\),
-* « Import [SCORM](http://fr.wikipedia.org/wiki/Sharable_Content_Object_Reference_Model) courses » \(2nd icon\),
-* « Chamilo Rapid » \(3rd icon\)
+* «Nieuwe cursus aanmaken» \(1e icoon\),
+* « Importeren [SCORM](http://fr.wikipedia.org/wiki/Sharable_Content_Object_Reference_Model) cursussen » \(2de icoon\),
+* « Chamilo Rapid » \(3de icoon\)
 
-![](../../../.gitbook/assets/graficos35%20%281%29.png)Illustration 27: Interface – Learning paths import
+![](../../../.gitbook/assets/graficos35%20%281%29.png)
 
-To import the learning path previously exported, click on _Import SCORM course_ \(2nd icon\).
+Afbeelding 27: Interface - Leerpaden importeren
 
-![](../../../.gitbook/assets/graficos36%20%281%29.png)Illustration 28: Interface – SCORM learning paths import
+Om het eerder geëxporteerde leertraject te importeren, klikt u op _Import SCORM course_ \ (2e icoon \).
 
-The backup must obviously be compatible with SCORM and, something less obvious, SCORM 1.2, which is a particular version of SCORM. Chamilo does not fully support SCORM 2004, so you will probably have a valid learning path import, but it will not remain fully functional, most of the time. Your learning path package can also be AICC compatible, but that's another story.
+![](../../../.gitbook/assets/graficos36%20%281%29.png)
 
-Note the _Authoring tool_ field is only an informational field and doesn't generate any behaviour modification.
+Afbeelding 28: Interface - SCORM-leerpaden importeren
+
+De back-up moet uiteraard compatibel zijn met SCORM en, iets minder voor de hand liggend, SCORM 1.2, een specifieke versie van SCORM. Chamilo ondersteunt SCORM 2004 niet volledig, dus u zult waarschijnlijk een geldige leerpadimport hebben, maar het zal meestal niet volledig functioneel blijven. Je leertrajectpakket kan ook AICC-compatibel zijn, maar dat is een ander verhaal.
+
+Merk op dat het veld _Authoring tool_ slechts een informatief veld is en geen gedragsverandering genereert.
 
