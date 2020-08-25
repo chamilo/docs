@@ -1,28 +1,31 @@
 # Chamilo Rapid
 
-The PowerPoint® or Impress® presentations conversion to learning paths is relatively complex to install the right way. There's only one known short-cut: install an OpenOffice.org or LibreOffice version 3 and the _screen_ command.
+De conversie van PowerPoint®- of Impress®-presentaties naar leertrajecten is relatief complex om op de juiste manier te installeren. Er is maar één bekende sneltoets: installeer een OpenOffice.org of LibreOffice versie 3 en het _screen_ commando.
 
-$ sudo apt-get install libreoffice screen
+`$ sudo apt-get install libreoffice screen`
 
-Then launch the following commands
+Start vervolgens de volgende opdrachten
 
+```
 $ screen
-
-_$_ _sudo soffice -accept=**”**socket,host=**127.0.0.1**,port=2002,tcpNoDelay=1;urp;”_ _-headless -nodefault_ _-nofirststartwizard_ _-nolockcheck -nologo_ _-norestore_ _&_
-
+$ sudo soffice -accept=**”**socket,host=**127.0.0.1**,port=2002,tcpNoDelay=1;urp;” -headless -nodefault -nofirststartwizard -nolockcheck -nologo -norestore &
 ctrl-a + ctrl-d
+```
 
-Any finer explanation would largely be out of the context of this guide, but this recipe works well on Ubuntu server.
+Elke fijnere uitleg zou grotendeels buiten de context van deze gids vallen, maar dit recept werkt goed op de Ubuntu-server.
 
-**Note**: the installation of the video-conference server already includes the installation of the _OpenOffice.org_ server on port 8100, so if you have installed it, you won't need the command above. Just configure Chamilo to use the presentations conversion server from port 8100.
+**Opmerking**: de installatie van de videoconferentieserver omvat al de installatie van de _OpenOffice.org_ server op poort 8100, dus als je deze hebt geïnstalleerd, heb je de bovenstaande opdracht niet nodig. Configureer Chamilo om de presentatieserver van poort 8100 te gebruiken.
 
-Once configured and running, you will be able to convert PPT from inside your courses' learning path tools.
+Eenmaal geconfigureerd en actief, kunt u PPT converteren vanuit de leerpadtools van uw cursussen.
 
-![](../../.gitbook/assets/images66.png)Illustration 87: Rapid conversion icon in learning paths tool
+![](../../.gitbook/assets/images66.png)
 
-![](../../.gitbook/assets/images67.png)Illustration 88: Learning path import PPT screen
+Afbeelding 87: Pictogram voor snelle conversie in tool Leerpaden
 
-Once imported this way, a PowerPoint or Impress presentation will be transformed to a full learning path, ready to be further edited and structured, then published to learners.
+![](../../.gitbook/assets/images67.png)
 
-If you're stuck with the installation of this service, don't hesitate to ask one of our official providers to give you a hand or rent you one of their pre-configured servers.
+Afbeelding 88: Leerpad importeren PPT-scherm
 
+Eenmaal op deze manier geïmporteerd, wordt een PowerPoint- of Impress-presentatie omgevormd tot een volledig leertraject, klaar om verder te worden bewerkt en gestructureerd, en vervolgens voor leerlingen gepubliceerd.
+
+Als u vastloopt met de installatie van deze service, aarzel dan niet om een van onze officiële providers te vragen om u een handje te helpen of om u een van hun vooraf geconfigureerde servers te huren.
