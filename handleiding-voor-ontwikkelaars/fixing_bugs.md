@@ -1,16 +1,16 @@
 # Bugs oplossen
 
-Your contribution fixing bugs is much appreciated.
+Uw bijdrage aan het oplossen van bugs wordt zeer gewaardeerd.
 
-To enable the right level of tracking of any bug, we first ask you to report it in the [Github issues page](https://github.com/chamilo/chamilo-lms/issues) and follow the contributions guide to report it.
+Om een bug op het juiste niveau te kunnen volgen, vragen we u deze eerst te melden op de [Github-problemenpagina](https://github.com/chamilo/chamilo-lms/issues) en de handleiding voor bijdragen te volgen om deze te melden .
 
-If you can fix it, that is even more appreciated. To do that, the requested procedure is to:
+Als je het kunt repareren, wordt dat nog meer gewaardeerd. Om dat te doen, is de gevraagde procedure om:
 
-* clone the repository \(in your Github account\)
-* create a new branch in your repository \(preferably with a name that matches the issue ID number\)
-* develop your patch and write a few comments helping us understand it
-* send it to your branch
-* in your branch, submit the whole branch as a Pull Request with additional explanations \(ideally, add a screenshot of the issue and its resolution to your Pull Request\)
+* kloon de repository \(in je Github-account\)
+* maak een nieuwe branch in uw repository \(bij voorkeur met een naam die overeenkomt met het issue ID-nummer\)
+* ontwikkel uw patch en schrijf een paar opmerkingen om ons te helpen deze te begrijpen
+* stuur het naar uw kantoor
+* in je branch, dien de hele branch in als een Pull Request met aanvullende uitleg \(voeg idealiter een screenshot van het probleem en de oplossing toe aan je Pull Request\)
 
-If you have followed these steps carefully, there's a big chance we will attend your Pull Request very quickly, and your name will remain as a contributor of Chamilo for the years to come! \(through Github's history\)
+Als je deze stappen zorgvuldig hebt gevolgd, is de kans groot dat we je Pull Request zeer snel zullen bijwonen, en je naam zal de komende jaren als donateur van Chamilo blijven! \(via de geschiedenis van Github\)
 
