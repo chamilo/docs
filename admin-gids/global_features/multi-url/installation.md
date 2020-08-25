@@ -1,35 +1,34 @@
 # Installatie
 
-To configure the multi-URL mode, you will need
+Om de multi-URL-modus te configureren, heeft u nodig
 
-* access to your web server's configuration
-* access to the definition of your domain names
-* access to the Chamilo configuration file
+* toegang tot de configuratie van uw webserver
+* toegang tot de definitie van uw domeinnamen
+* toegang tot het Chamilo-configuratiebestand
 
-The installation process is as follows
+Het installatieproces is als volgt
 
-* update _main/inc/conf/configuration.php_ by removing the comments marker before the line : _$\_configuration\['multiple\_access\_urls'\] = true;_
-* add ServerAlias directives inside your Apache's VirtualHost \(see below\)
-* define domain or sub-domain names \(DNS\) so they point to your server
-* \[deprecated\] add line “1,1” in your _access\_url\_rel\_user_ table \(this line is not necessary anymore, starting from Chamilo LMS 1.9\).
-* go to the Chamilo admin page and follow the link _Multiple URL portals_
-* redefine your main URL \(replace _localhost_\) and add the desired sub-portals, then add and enable a local administrator in each of them
+* update _main/inc/conf/configuration.php_ door de commentaarteken vóór de regel te verwijderen: _$\_configuration\['multiple\_access\_urls'\] = true;_
+* voeg ServerAlias-richtlijnen toe in uw Apache's VirtualHost \(zie hieronder\)
+* definieer domein- of subdomeinnamen \(DNS\) zodat ze naar uw server verwijzen
+* \[verouderd\] voeg regel “1,1” toe aan uw _access\_url\_rel\_user_ tafel \(deze regel is niet meer nodig vanaf Chamilo LMS 1.9\).
+* ga naar de Chamilo admin-pagina en volg de link _Multiple URL portals_
+* herdefinieer uw hoofd-URL \(vervang _localhost_\) en voeg de gewenste subportalen toe, voeg vervolgens een lokale beheerder toe en schakel deze in voor elk ervan
 
-![](../../../.gitbook/assets/graficos97%20%285%29.png)Illustration 83: Administration - Multi-URLs
+![](../../../.gitbook/assets/graficos97%20%285%29.png)
 
-For two different Multi-URLs and one administrative one, based on the domain _campusabc.com_, the VirtualHost would look something like this:
+Afbeelding 83: Administratie - Multi-URL's
 
+Voor twee verschillende multi-URL's en één administratieve URL, gebaseerd op het domein _campusabc.com_, zou de VirtualHost er ongeveer zo uitzien:
+
+```
 ServerAdmin webmaster@campusabc.com
-
 DocumentRoot /var/www/campusabc.com /
-
 ServerName admin.campusabc.com
-
 ServerAlias pepsi.campusabc.com
-
 ServerAlias cocacola.campusabc.com
+```
 
-## other host settings here \#
+## andere hostinstellingen hier
 
-Don't forget to always consider that your first portal will be a generic, administration, portal. You should preferably not use it for direct access by students. Declare something like admin.\[domain-name\] as the first host, then declare the URLs you will really use.
-
+Vergeet niet altijd te bedenken dat uw eerste portaal een generiek, administratief portaal zal zijn. Gebruik het bij voorkeur niet voor directe toegang door studenten. Declareer zoiets als admin. \[Domeinnaam\] als de eerste host, en declareer vervolgens de URL's die je echt gaat gebruiken.
