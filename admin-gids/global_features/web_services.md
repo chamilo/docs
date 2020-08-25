@@ -1,22 +1,22 @@
 # webservices
 
-Chamilo LMS offers a series of web services, which have been extended over time. Although the current basis is not well organized, you should be able to find what you're looking for easily in the main/webservices/ directory.
+Chamilo LMS biedt een reeks webservices die in de loop van de tijd zijn uitgebreid. Hoewel de huidige basis niet goed is georganiseerd, zou je gemakkelijk moeten kunnen vinden wat je zoekt in de _main/webservices/_ directory.
 
-More details about all our web services are available on our wiki: [http://support.chamilo.org/projects/chamilo-18/wiki/Web\_services](http://support.chamilo.org/projects/chamilo-18/wiki/Web_services)
+Meer details over al onze webservices zijn beschikbaar op onze wiki: [http://support.chamilo.org/projects/chamilo-18/wiki/Web_services](http://support.chamilo.org/projects/chamilo-18/wiki/Web_services)
 
-Between others, the current SOAP web services \(but we also have some REST and XML-RPC services available\) allow you to:
+Met de huidige SOAP-webservices \(maar we hebben ook enkele REST- en XML-RPC-services beschikbaar\) kunt u onder andere:
 
-* create, edit, enable, disable and delete users
-* create, edit, enable, disable and delete courses
-* create and edit courses' descriptions
-* create, edit, enable, disable and delete sessions
-* subscribe or unsubscribe users to courses or sessions
-* subscribe courses to sessions
-* get a list of courses
+* gebruikers aanmaken, bewerken, inschakelen, uitschakelen en verwijderen
+* cursussen maken, bewerken, inschakelen, uitschakelen en verwijderen
+* maak en bewerk de beschrijvingen van cursussen
+* sessies maken, bewerken, inschakelen, uitschakelen en verwijderen
+* gebruikers aan- of afmelden voor cursussen of sessies
+* cursussen inschrijven voor sessies
+* ontvang een lijst met cursussen
 
-The services already implemented also allow you to easily extend and build your own. Check the main/webservices/registration.soap.php file for a starting point. More structured scripts are around, but registration.soap.php is the one implementing the highest number of features at this point.
+Met de reeds geïmplementeerde services kunt u ook eenvoudig uw eigen services uitbreiden en bouwen. Controleer het hoofdbestand / webservices / registration.soap.php voor een startpunt. Er zijn meer gestructureerde scripts beschikbaar, maar registration.soap.php implementeert op dit moment het grootste aantal functies.
 
-If you happen to develop new services, please consider sharing them with us at [http://support.chamilo.org/projects/chamilo-18/issues](http://support.chamilo.org/projects/chamilo-18/issues) \(open an issue and file a _Feature_ suggestion with your code – we will “credit” you for this\).
+Als u nieuwe services ontwikkelt, overweeg dan om deze met ons te delen op [http://support.chamilo.org/projects/chamilo-18/issues](http://support.chamilo.org/projects/chamilo-18/issues) \(open een issue en dien een _Feature_-suggestie in met je code - we zullen je hiervoor "crediteren"\).
 
-The _testip.php_ script will allow you to identify your own IP for the setup procedure described on the wiki.
+Met het _testip.php_ -script kunt u uw eigen IP-adres identificeren voor de installatieprocedure die op de wiki wordt beschreven.
 
