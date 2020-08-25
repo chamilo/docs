@@ -1,18 +1,18 @@
 # Het opnamemechanisme voor stylesheets
 
-If you ever want to include more stylesheets to the list, this is the complete flow :
+Als u ooit meer stylesheets aan de lijst wilt toevoegen, is dit de volledige stroom:
 
-* a script starts \(e.g. /user\_portal.php\)
-* it includes global.inc.php
-* global.inc.php calls the method Display::display\_header\(\) \(in main/inc/lib/display.lib.php\)
-* display\_header calls the Template ::set\_css\_files\(\) methos
-* set_css\_files\(\) prepares an array with the CSS to load and prepares it as \_css\_file\_to\_string_
-* the initial script loads a template \(.tpl\) from main/template/default/
-* the template includes the main/template/default/layout/main\_header.tpl template
-* the main\_header.tpl load head.tpl \(in the same folder\)
-* head.tpl loads the _css\_file\_to\_string_ array to show the CSS in the
+* een script start \(bijv. /user\_portal.php\)
+* het omvat global.inc.php
+* global.inc.php roept de methode Display::display\_header\(\) aan \(in main/inc/lib/display.lib.php\)
+* display\_header roept de methode Template::set\_css\_files\(\) aan
+* set_css\_files\(\) bereidt een array voor met de CSS om te laden en bereidt deze voor als \_css\_file\_to\_string
+* het initiële script laadt een sjabloon \(.tpl\) uit main/template/default/
+* de sjabloon bevat de sjabloon main/template/default/layout/main\_header.tpl
+* de main \_header.tpl load head.tpl \(in dezelfde map\)
+* head.tpl laadt de _css\_file\_to\_string_ array om de CSS in de
 
-If you want to configure a new stylesheet globally, or change the order in which they are loaded, and if you followed the previous flow, you'll now know that the best place to do so is int the Template::setCssFiles\(\) method.
+Als je globaal een nieuw stylesheet wilt configureren, of de volgorde waarin ze geladen zijn wilt veranderen, en als je de vorige flow hebt gevolgd, weet je nu dat de beste plaats om dit te doen is in de Template::setCssFiles\(\) methode.
 
-This is the best method so far in Chamilo 1.10, but in 2.0 with the full capability of templates unleashed, you should be able to add directly the new CSS to your template.
+Dit is tot dusver de beste methode in Chamilo 1.10, maar in 2.0 met de volledige mogelijkheden van ontketende sjablonen, zou je in staat moeten zijn om de nieuwe CSS rechtstreeks aan je sjabloon toe te voegen.
 
