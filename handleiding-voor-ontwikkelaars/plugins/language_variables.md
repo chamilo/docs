@@ -1,10 +1,10 @@
 # Taalvariabelen
 
-Plugins can also use the global get\_lang\(\) function available inside the rest of the code of Chamilo, but they have to use a variation : get\_plugin\_lang\(\), that requires you to give the name of the plugin in which it is used.
+Plug-ins kunnen ook de globale functie get\_lang\(\) gebruiken die beschikbaar is in de rest van de code van Chamilo, maar ze moeten een variant gebruiken: get\_plugin\_lang\(\), waarvoor u de naam moet opgeven van de plug-in waarin het wordt gebruikt.
 
-Language variables have to be located in a lang/\[language\].php file. E.g, the basic plugin language file for plugin « abc » will reside inside the plugin's subfolder « lang »: /plugin/abc/lang/english.php
+Taalvariabelen moeten in een lang/\[taal\].php bestand staan. Bijv. het standaard plug-in taalbestand voor plug-in «abc» bevindt zich in de submap van de plug-in «lang»: /plugin/abc/lang/english.php
 
-The file itself has to use the following format :
+Het bestand zelf moet het volgende formaat gebruiken:
 
 ```text
 /* Plugin's language variables */
@@ -14,9 +14,8 @@ $strings['plugin_comment'] = 'Plugin for managing the … website';
 $strings['SelectASession'] = 'Select a session';
 ```
 
-As you can see, the format has to be set as an array called « $strings ».
+Zoals u kunt zien, moet het formaat worden ingesteld als een array met de naam «$strings».
 
-The two first array elements are mandatory. They will allow administrators to see the plugin name and a short description in their own language.
+De twee eerste array-elementen zijn verplicht. Hiermee kunnen beheerders de naam van de plug-in en een korte beschrijving in hun eigen taal zien.
 
-To use the variables from inside the plugin, inside a template file \(.tpl\)... \(to be completed\)
-
+Om de variabelen te gebruiken vanuit de plug-in, in een sjabloonbestand \(.tpl\) ... \(in te vullen\)
