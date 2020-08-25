@@ -1,14 +1,13 @@
 # Hoe leest u deze gids?
 
-This guide has been written as a reference with a smooth learning curve, getting you through the installation, configuration and backup process \(see_Installation and configuration_\), then the general configuration options \(see _Platform administration_\), then user management \(see _Users management_\), then through courses management \(see_Courses management_\), sessions management \(see Sessions management\), and then a series of global features or extensions you need to know about \(see Global features\).
+Deze handleiding is geschreven als een referentie met een soepele leercurve, die u door het installatie-, configuratie- en back-upproces leidt \(zie_Installatie en configuratie_\), vervolgens de algemene configuratie-opties \(zie _Platformbeheer_\) en vervolgens gebruikersbeheer \(zie _Gebruikersbeheer_\), vervolgens via cursusbeheer \(zie_Cursusbeheer_\), sessiebeheer \(zie Sessiebeheer\), en vervolgens een reeks algemene functies of extensies die u moet kennen \(zie Algemene functies\).
 
-If you want to go along practising with this book without installing your own Chamilo portal \(which we **do not** recommend, as you will miss the first requirement to be a Chamilo admin: be able to install it\), you can have a go as _admin_ on our development portal: [http://stable.chamilo.org](http://stable.chamilo.org/). This portal is normally only there for development purposes, but you can access it as a temporal fix if you are stuck.
+Als je mee wilt oefenen met dit boek zonder je eigen Chamilo-portaal te installeren \(wat we **niet** aanbevelen, aangezien je de eerste vereiste mist om een Chamilo-beheerder te zijn: in staat zijn om het te installeren\), dan kunt u als _admin_ proberen op ons ontwikkelingsportaal: [http://stable.chamilo.org](http://stable.chamilo.org/). Dit portaal is er normaal gesproken alleen voor ontwikkelingsdoeleinden, maar je hebt er toegang toe als tijdelijke oplossing als je vastloopt.
 
-A considerable amount of seriously relevant information has been added as footnotes, so make sure you check them if you think the guide is missing something.
+Er is een aanzienlijke hoeveelheid serieus relevante informatie toegevoegd als voetnoten, dus zorg ervoor dat u deze controleert als u denkt dat de gids iets mist.
 
-You will find this guide can serve as a quick reference too, thanks to its Frequently asked questions chapter.
+U zult zien dat deze gids ook als snel naslagwerk kan dienen, dankzij het hoofdstuk Veelgestelde vragen.
 
-If this guide doesn't answer your questions, you can use the Chamilo forum, where numerous other users, teachers or administrators, but also developers of the software, will be able to help you find the answers.
+Als deze gids uw vragen niet beantwoordt, kunt u het Chamilo-forum gebruiken, waar tal van andere gebruikers, leraren of beheerders, maar ook ontwikkelaars van de software, u kunnen helpen de antwoorden te vinden.
 
-Finally, in the eventuality of having greater needs, you might also use the services of our [official providers](https://chamilo.org/providers), a group of companies and institutions which provide professional services around Chamilo, have proven their involvement and seriousness in the project and are sustaining its collaborative model.
-
+Ten slotte, in het geval dat u grotere behoeften heeft, kunt u ook gebruik maken van de diensten van onze [officiële providers](https://chamilo.org/providers), een groep bedrijven en instellingen die professionele diensten leveren rond Chamilo, hebben hun bewezen betrokkenheid en ernst bij het project en ondersteunen het samenwerkingsmodel.
