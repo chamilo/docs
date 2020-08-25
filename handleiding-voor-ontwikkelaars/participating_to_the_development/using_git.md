@@ -4,7 +4,7 @@
 
 ## Branches
 
-… make sure your code is up to date…
+… zorg ervoor dat uw code up-to-date is …
 
 ## Forks
 
