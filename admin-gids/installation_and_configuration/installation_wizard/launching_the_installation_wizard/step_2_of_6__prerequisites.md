@@ -1,30 +1,36 @@
 # Stap 2 van 6: Vereisten
 
-This step checks your server has all the required elements for a complete and correct installation of Chamilo.
+Deze stap controleert of uw server alle benodigde elementen heeft voor een volledige en correcte installatie van Chamilo.
 
-![](../../../../.gitbook/assets/images3%20%281%29.png)Illustration 4: Installation - Prerequisites
+![](../../../../.gitbook/assets/images3%20%281%29.png)
 
-The prerequisites already fulfilled by your system are marked in **green**, the mandatory but non-satisfied ones are marked in **red** and the ones non-satisfied but not mandatory either are marked in **orange**.
+Afbeelding 4: Installatie - vereisten
 
-Almost all prerequisites relate to the PHP installation and offer links to more details. The recommended parameters represent variables that you can modify in your PHP configuration \(_php.ini_\) or inside the VirtualHost configuration.
+De vereisten waaraan al door uw systeem is voldaan, zijn gemarkeerd in **groen**, de verplichte maar niet-tevredenen zijn gemarkeerd met **rood** en de niet-tevreden maar niet verplichte voorwaarden zijn gemarkeerd met **oranje**.
 
-At the end of the prerequisites page, you will find a _Permissions on directories and files_ section.
+Bijna alle vereisten hebben betrekking op de PHP-installatie en bieden links naar meer details. De aanbevolen parameters vertegenwoordigen variabelen die u kunt wijzigen in uw PHP-configuratie \(_php.ini_\) of in de VirtualHost-configuratie.
 
-![](../../../../.gitbook/assets/images5%20%281%29.png)Illustration 5: Installation - Prerequisites \(end\)
+Aan het einde van de pagina met vereisten vindt u een sectie _Permissions op mappen en bestanden_.
 
-By default under GNU/Linux, writing is not authorized on directories. You must change files accesses to optimise the security and give the sufficient permissions to the user running the web server. These ensure confinement of permissions during the execution of a service \(in this case _Apache_\) and avoid a cracker to be able to take control of your server too easily.
+![](../../../../.gitbook/assets/images5%20%281%29.png)
 
-Under Windows, this is generally easier by default \(but much less secure\) and the permissions are already sufficient \(but too permissive\).
+Afbeelding 5: Installatie - Voorwaarden \(einde\)
 
-**Note** : Chamilo is frequently reviewed \(at least once a year\) against security flaws that would endanger your server. You can be kept aware of the latest security flaws found and fixed by subscribing to our dedicated security mailing list: [http://lists.chamilo.org/listinfo/](http://lists.chamilo.org/listinfo/security)[security](http://lists.chamilo.org/listinfo/security) or on [http://support.chamilo.org/projects/chamilo-18/wiki/Security\_issues](http://support.chamilo.org/projects/chamilo-18/wiki/Security_issues). Alternatively, we have a Twitter feed for Chamilo's security-related news: [http://twitter.com/chamilosecurity](http://twitter.com/chamilosecurity)Chamilo has an excellent track record of fixing every security flaw and publishing patches to its users within 4 days of being reported. You can check our public record on Secunia's website
+Standaard is onder GNU/Linux schrijven niet toegestaan in mappen. U moet de toegang tot bestanden wijzigen om de beveiliging te optimaliseren en voldoende machtigingen te geven aan de gebruiker die de webserver uitvoert. Deze zorgen ervoor dat de permissies worden beperkt tijdens het uitvoeren van een service \(in dit geval _Apache_\) en voorkomen dat een cracker te gemakkelijk de controle over uw server kan krijgen.
 
-Locally, on Ubuntu, go to the directory where the _Chamilo_ directory is. Give it sufficient permissions to user _www-data_ \(the web server user under Ubuntu\) and reload the page in your browser. If you use another operating system, you might need to update the following command a little bit.
+Onder Windows is dit over het algemeen standaard gemakkelijker \(maar veel minder veilig\) en zijn de permissies al voldoende \(maar te tolerant\).
 
+**Opmerking**: Chamilo wordt regelmatig \(minstens één keer per jaar\) gecontroleerd op beveiligingsfouten die uw server in gevaar zouden kunnen brengen. U kunt op de hoogte worden gehouden van de nieuwste beveiligingsfouten die zijn gevonden en verholpen door u te abonneren op [http://support.chamilo.org/projects/chamilo-18/wiki/Security\_issues](http://support.chamilo.org/projects/chamilo-18/wiki/Security_issues). Als alternatief hebben we een Twitter-feed voor Chamilo's beveiligingsgerelateerde nieuws: [http://twitter.com/chamilosecurity](http://twitter.com/chamilosecurity) Chamilo heeft een uitstekende staat van dienst wat betreft het oplossen van elk beveiligingsprobleem en het publiceren van patches aan zijn gebruikers binnen 4 dagen na melding. U kunt ons openbaar register raadplegen op de website van Secunia.
+
+Ga op Ubuntu lokaal naar de directory waar de directory _Chamilo_ staat. Geef het voldoende rechten aan gebruiker _www-data_ \(de webservergebruiker onder Ubuntu\) en laad de pagina opnieuw in uw browser. Als u een ander besturingssysteem gebruikt, moet u mogelijk de volgende opdracht een beetje bijwerken.
+
+```
 Ex.: user@server:/var/www$ chown -R www-data:www-data chamilo/
+```
 
-These permissions are nowhere near secure, and we assume you will seek advise about permissions to a properly qualified Linux administrator. Security should matter to you, but we cannot possibly cover all cases of permissions and servers out there just with this guide.
+Deze machtigingen zijn lang niet veilig en we gaan ervan uit dat u advies over machtigingen zult inwinnen bij een goed gekwalificeerde Linux-beheerder. Beveiliging zou voor u belangrijk moeten zijn, maar we kunnen onmogelijk alle gevallen van machtigingen en servers die er zijn, alleen met deze handleiding behandelen.
 
-Click on « + New installation ».
+Klik op «+ Nieuwe installatie».
 
-_**Note**_ : if you run an update of a previous version of Chamilo, this chapter is not the right one for you. You should rather check out chapter 2.3 : Updating Chamilo. We also recommend you to read the installation and update guide of Chamilo, available inside the **documentation** directory of your Chamilo package.
+_**Opmerking**_: als u een update van een eerdere versie van Chamilo uitvoert, is dit hoofdstuk niet het juiste hoofdstuk voor u. Je zou beter hoofdstuk 2.3 moeten lezen: Chamilo updaten. We raden je ook aan om de installatie- en updategids van Chamilo te lezen, die beschikbaar is in de **documentatie** directory van je Chamilo-pakket.
 
