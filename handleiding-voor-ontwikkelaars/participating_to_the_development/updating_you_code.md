@@ -1,12 +1,11 @@
 # Je code bijwerken
 
-Because we use autoloading mechanisms, and because we use templates, there is one little step you will have to take **every single time** right after you pull the last changes from our repository:
+Omdat we mechanismen voor automatisch laden gebruiken, en omdat we sjablonen gebruiken, is er een kleine stap die u **elke keer** moet nemen direct nadat u de laatste wijzigingen uit onze repository hebt gehaald:
 
 ```text
 composer update
 ```
 
-This will ensure that all dependencies are up to date and that the autoloading mechanism is updated to find all its classes in the right places.
+Dit zorgt ervoor dat alle afhankelijkheden up-to-date zijn en dat het autoloading-mechanisme wordt bijgewerkt om al zijn klassen op de juiste plaatsen te vinden.
 
-Sadly, composer is a very slow and memory-hungry process with Chamilo, so make sure you have at least 2GB of RAM available just for that process, and that you work on something else in the meantime...
-
+Helaas is componist een erg traag en geheugenverslindend proces met Chamilo, dus zorg ervoor dat je minimaal 3 GB RAM beschikbaar hebt voor dat proces, en dat je in de tussentijd aan iets anders werkt ...
