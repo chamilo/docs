@@ -2,7 +2,6 @@
 
 ![](../../.gitbook/assets/image1.png)
 
-As a general rule of thumb, all configuration related to authentication methods can be found in a mix of the settings \(inside the portal administration or the settings\_current table\) and the main/inc/conf/auth.conf.php file.
+Als algemene vuistregel geldt dat alle configuraties met betrekking tot authenticatiemethoden kunnen worden gevonden in een mix van de instellingen \(in het portaalbeheer of de settings\_current tabel\) en het main/inc/conf/auth.conf.php bestand. 
 
-In order to keep track of who's identified through what, Chamilo usually keeps track of the user's authentication source through the **auth\_source** field in the **user** table. A user identified through LDAP will use « ldap » \(if synchronised automatically\) or « extldap » \(if first registered when logging in for the first time\).
-
+Om bij te houden wie door wat is geïdentificeerd, houdt Chamilo gewoonlijk de authenticatiebron van de gebruiker bij via het **auth\_source** veld in de **user** tabel. Een gebruiker geïdentificeerd via LDAP zal «ldap» gebruiken \(indien automatisch gesynchroniseerd\) of «extldap» \(indien voor het eerst geregistreerd bij de eerste keer inloggen\).
