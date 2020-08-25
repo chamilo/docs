@@ -1,62 +1,80 @@
 # Een cursus opslaan
 
-The platform administrator can save any course from \(among other methods\) the administrative interface.
+De platformbeheerder kan elke cursus opslaan vanuit \(onder andere\) de administratieve interface.
 
-1. Go to : « Administration » → « Courses list » :
+1. Ga naar: «Administratie» → «Lijst met cursussen»:
 
-![](../../../.gitbook/assets/images13%20%281%29.png)Illustration 18: Administration – Courses block
+![](../../../.gitbook/assets/images13%20%281%29.png)
 
-1. Click on the CD icon, for the course to export.
+Afbeelding 18: Administratie - Cursussenblok
 
-![](../../../.gitbook/assets/graficos33%20%281%29.png)Illustration 19: Administration – Courses list – Backup
+1. Klik op het cd-pictogram om de cursus te exporteren.
 
-1. Chamilo then suggests to « Generate a backup » or « Import backup information » from backup. Click on _Generate backup_.
+![](../../../.gitbook/assets/graficos33%20%281%29.png)
 
-![](../../../.gitbook/assets/sauvegardecours_-backup.png)Illustration 20: Administration - Backup
+Afbeelding 19: Administratie - Lijst met cursussen - Back-up
 
-1. You can choose between a complete backup and a specific selection \(depending on your needs\). Let's pick _Complete_ backup for the example.
+1. Chamilo stelt vervolgens voor om "een back-up te genereren" of "back-upinformatie te importeren" van de back-up. Klik op _Back-up genereren_.
 
-![](../../../.gitbook/assets/sauvegardegenerer_-backup%20%281%29.png)Illustration 21: Administration – Backup settings
+![](../../../.gitbook/assets/sauvegardecours_-backup.png)
 
-1. The backup is generated and you just have to click the zip file button to download it.
+Afbeelding 20: Beheer - Back-up
 
-![](../../../.gitbook/assets/sauvegardebackup_-ok%20%281%29.png)Illustration 22: Administration – Backup, results of backup generation
+1. U kunt kiezen tussen een volledige back-up en een specifieke selectie \(afhankelijk van uw behoeften\). Laten we _Complete_ backup kiezen voor het voorbeeld.
 
-1. On clicking the _Generate backup_ button, Chamilo creates a backup file which, by default, ends up in its _chamilo/archive_ directory. You can thus recover it by direct access, but that means other people can also have access to it. This means, as an admin, that you should both have a regular process to clean this directory \(we offer one in the _main/cron_ directory but you have to execute it\) **and** that you should set your configuration \(through .htaccess or VirtualHost config\) to avoid direct navigation inside the _main/archive_ directory.
+![](../../../.gitbook/assets/sauvegardegenerer_-backup%20%281%29.png)
 
-There is also another way to generate backups...
+Afbeelding 21: Beheer - Back-upinstellingen
 
-As admin or teacher, click on the _My courses_ tab, then on one of the courses available. Then it is possible to generate a backup pretty much the same way clicking on the _Maintenance_ tool.
+1. De back-up wordt gegenereerd en u hoeft alleen maar op de zip-bestandknop te klikken om deze te downloaden.
 
-![](../../../.gitbook/assets/administrationmaintenance%20%281%29.png)Illustration 23: Interface – Course administration tools
+![](../../../.gitbook/assets/sauvegardebackup_-ok%20%281%29.png)
 
-The interface is slightly different...
+Afbeelding 22: Beheer - Back-up, resultaten van het genereren van back-ups
 
-![](../../../.gitbook/assets/proprietemaintenance%20%281%29.png)Illustration 24: Interface – Course backup options
+1. Door op de knop _Generate backup_ te klikken, maakt Chamilo een back-upbestand aan dat standaard in de map _chamilo/app/cache_ terechtkomt. U kunt het dus door directe toegang herstellen, maar dat betekent dat andere mensen er ook toegang toe hebben. Dit betekent dat je als admin allebei een normaal proces zou moeten hebben om deze directory op te schonen \(we bieden er een aan in de _main/cron_ directory maar je moet het uitvoeren\) **en** dat je je configuratie moet instellen \(via .htaccess of VirtualHost config\) om directe navigatie binnen de _main/archive_ directory te vermijden.
 
-With the course backup options, you can still execute three more functions:
+Er is ook een andere manier om back-ups te maken...
 
-* **Course copy** allows you to duplicate all or part of a course into another \(preferably empty\) course. The only required state before this is to have a first course with something to copy, and another course which doesn't contain the elements of the first one.
-* **Empty course** allows you to empty the whole contents of a course. Let's say you want to start a fresh course inside the same “shell” as the previous one... just click this link and all the resources previously created will be gone, with no chance to recover them. Obviously, before you do that, you might want to recover the course element through a _Course backup_ operation.
-* **Delete** allows you to delete the whole course, this also means removing its empty shell. A confirmation is required, but once it's removed, don't expect it to be available as a safe copy anywhere...
+Klik als admin of docent op het tabblad _Mijn cursussen_ en vervolgens op een van de beschikbare cursussen. Dan is het mogelijk om een back-up te maken op vrijwel dezelfde manier door op de tool _Onderhoud_ te klikken.
 
-**Note** : when opening the backup's .zip file, you will find a close similarity with the _Documents_ tool documents hierarchy.
+![](../../../.gitbook/assets/administrationmaintenance%20%281%29.png)
 
-For your information, the default .zip file for a course initially created with example content weighs around 8.9MB.
+Afbeelding 23: Interface - Tools voor cursusbeheer
 
-It contains :
+De interface is iets anders ...
 
-* one internal structure file named course\_info.dat
-* one directory called _Document_
-* a series of files and folders containing the course documents, anything not linked to the users \(assignments and other stuff user-related are not saved\)
+![](../../../.gitbook/assets/proprietemaintenance%20%281%29.png)
 
-The _Document_ directory has a structure similar to the one presented in illustration 25, which reproduces the documents tool structure as shown in illustration 26.
+Afbeelding 24: Interface - Opties voor back-up van de cursus
 
-![](../../../.gitbook/assets/structuredoc%20%281%29.png)Illustration 25: Backup – Backup files structure
+Met de opties voor cursusback-up kunt u nog drie andere functies uitvoeren:
 
-![](../../../.gitbook/assets/graficos34%20%281%29.png)Illustration 26: Interface – Documents list
+* **Cursuskopie** stelt u in staat om een cursus geheel of gedeeltelijk te dupliceren naar een andere \(bij voorkeur lege\) cursus. De enige vereiste toestand hiervoor is om een eerste cursus te hebben met iets om te kopiëren, en een andere cursus die de elementen van de eerste niet bevat.
+* **Lege cursus** stelt u in staat om de hele inhoud van een cursus te legen. Stel dat u een nieuwe cursus wilt starten in dezelfde "shell" als de vorige ... klik gewoon op deze link en alle eerder gemaakte bronnen zijn verdwenen, zonder de kans om ze te herstellen. Het is duidelijk dat u, voordat u dat doet, het cursuselement wilt herstellen via een _Course backup_ bewerking.
+* **Verwijderen** stelt je in staat om de hele cursus te verwijderen, dit betekent ook dat je de lege shell verwijdert. Een bevestiging is vereist, maar als het eenmaal is verwijderd, verwacht dan niet dat het ergens als veilige kopie beschikbaar is ...
 
-These documents are the default contents of the course.
+**Opmerking**: wanneer u het .zip-bestand van de back-up opent, zult u een grote overeenkomst zien met de documenthiërarchie van de _Documents_-tool.
 
-Furthermore, the backup will only recover documents \(images, videos, etc.\) related to the course.
+Ter informatie: het standaard .zip-bestand voor een cursus die oorspronkelijk met voorbeeldinhoud is gemaakt, weegt ongeveer 8,9MB.
+
+Het bevat :
+
+* een intern structuurbestand met de naam course\_info.dat
+* een map genaamd _Document_
+* een reeks bestanden en mappen met de cursusdocumenten, alles wat niet aan de gebruikers is gekoppeld \(opdrachten en andere gebruikersgerelateerde zaken worden niet opgeslagen\)
+
+De map _Document_ heeft een structuur die lijkt op die in afbeelding 25, die de structuur van de documenttool weergeeft zoals weergegeven in afbeelding 26.
+
+![](../../../.gitbook/assets/structuredoc%20%281%29.png)
+
+Afbeelding 25: Back-up - Structuur van back-upbestanden
+
+![](../../../.gitbook/assets/graficos34%20%281%29.png)
+
+Afbeelding 26: Interface - Documentenlijst
+
+Deze documenten zijn de standaardinhoud van de cursus.
+
+Bovendien herstelt de back-up alleen documenten \(afbeeldingen, video's, enz.\) Die betrekking hebben op de cursus.
 
