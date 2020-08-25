@@ -1,19 +1,18 @@
 # Beheer van cursussen
 
-**Courses are spaces** within which teachers generate content using the 20-or so tools available to teach this content \(and much more\) to their student in a memorable, dynamical, multimedia and if possible entertaining way.
+**Cursussen zijn ruimtes** waarin docenten inhoud genereren met behulp van de ongeveer 20 tools die beschikbaar zijn om deze inhoud \(en nog veel meer\) aan hun studenten te onderwijzen op een gedenkwaardige, dynamische, multimediale en indien mogelijk onderhoudende manier.
 
-Courses can be used as timeless resources \(and they are, most of the time\), but they can also be inserted into a time-based context through the use of **sessions**_**\*\***_\(see Chapter 7. Sessions management on page 64\).
+Cursussen kunnen worden gebruikt als tijdloze bronnen \(en dat zijn ze meestal\), maar ze kunnen ook worden ingevoegd in een op tijd gebaseerde context door het gebruik van **sessies** _**\*\***_ \(zie Hoofdstuk 7. Sessiebeheer op pagina 64\).
 
-Courses management can be done with icons you should already be familiar with at this time :
+Cursusbeheer kan worden gedaan met pictogrammen die u op dit moment al zou moeten kennen:
 
-| Icons | Features |
+| Icoons | Kenmerken |
 | :--- | :--- |
-| ![](../../.gitbook/assets/images64%20%281%29.png) | Gives all information on the use of the course and its users |
-| ![](../../.gitbook/assets/graficos30%20%281%29.png)![](../../.gitbook/assets/graficos31%20%281%29.png) | Gives a detailed tracking of the users, the course and resources report |
-| ![](../../.gitbook/assets/graficos28%20%281%29.png) | Update the parameters or course details |
-| ![](../../.gitbook/assets/graficos29%20%281%29.png) | Remove a course \(after approval\) |
-| ![](../../.gitbook/assets/images59%20%281%29.png) | Generate or import a backup |
-| ![](../../.gitbook/assets/images61%20%281%29.png) | Go to the course homepage |
+| ![](../../.gitbook/assets/images64%20%281%29.png) | Geeft alle informatie over het gebruik van de cursus en zijn gebruikers |
+| ![](../../.gitbook/assets/graficos30%20%281%29.png)![](../../.gitbook/assets/graficos31%20%281%29.png) | Geeft een gedetailleerd overzicht van de gebruikers, het cursus- en bronnenrapport |
+| ![](../../.gitbook/assets/graficos28%20%281%29.png) | Werk de parameters of koersdetails bij |
+| ![](../../.gitbook/assets/graficos29%20%281%29.png) | Een cursus verwijderen \(na goedkeuring\) |
+| ![](../../.gitbook/assets/images59%20%281%29.png) | Genereer of importeer een back-up |
+| ![](../../.gitbook/assets/images61%20%281%29.png) | Ga naar de startpagina van de cursus |
 
-Tableau 3: Administration – Courses management icons
-
+Tableau 3: Administratie - Pictogrammen voor cursusbeheer
