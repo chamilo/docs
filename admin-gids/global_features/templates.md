@@ -1,32 +1,33 @@
 # Sjablonen
 
-Since version 1.9, Chamilo uses the Twig templating system to generate parts of its visual appearance.
+Sinds versie 1.9 gebruikt Chamilo het Twig-templating-systeem om delen van het visuele uiterlijk te genereren.
 
-This means that you can now change Chamilo more easily. For example, the following screenshot is taken from a Chamilo 1.9 installation modified through templating. Although most visual changes can be done through CSS, there is a number of things that can just not be done this way, like showing new visual elements.
+Dit betekent dat u Chamilo nu gemakkelijker kunt veranderen. De volgende schermafbeelding is bijvoorbeeld afkomstig van een Chamilo 1.9-installatie die is gewijzigd via sjablonen. Hoewel de meeste visuele wijzigingen kunnen worden aangebracht via CSS, zijn er een aantal dingen die gewoon niet op deze manier kunnen worden gedaan, zoals het tonen van nieuwe visuele elementen.
 
-![](../../.gitbook/assets/images50%20%281%29.png) Illustration 89: Example portal using another template
+![](../../.gitbook/assets/images50%20%281%29.png)
 
-As you can see, classical elements of Chamilo have been moved around, shown or hidden depending on the desired final appearance.
+Afbeelding 89: Voorbeeldportaal met een ander sjabloon
 
-To update a theme, we recommend you start with a copy of the existing one:
+Zoals je kunt zien, zijn klassieke elementen van Chamilo verplaatst, getoond of verborgen, afhankelijk van het gewenste uiteindelijke uiterlijk.
 
+Om een thema bij te werken, raden we u aan te beginnen met een kopie van het bestaande:
+
+```
 cd /var/www/chamilo/main/templates/
-
 cp -r default mytemplate
+```
 
-Then you can start looking into that theme. You'll find that most header and footer elements are located in the _layout_ directory. For example, the whole visible header on the page is declared in main/templates/default/layout/main\_header.tpl.
+Dan kun je dat thema gaan onderzoeken. U zult zien dat de meeste kop- en voettekstelementen zich in de map _layout_ bevinden. De hele zichtbare koptekst op de pagina wordt bijvoorbeeld gedeclareerd in main/template/default/layout/main\_header.tpl.
 
-Understanding the templates mechanism should be relatively easy if you have any experience with other templating systems.
+Het begrijpen van het sjablonenmechanisme zou relatief eenvoudig moeten zijn als u enige ervaring heeft met andere sjabloneringssystemen.
 
-Templates \(ending in .tpl\) will look something like this:
+Alle markeringen in een .tpl worden voorbereid in andere scripts of bibliotheken. De meeste van de meest voorkomende tags zijn gedefinieerd in main/inc/lib/template.lib.php, met een "toewijzen" aanroep, zoals deze:
 
-**Illegal HTML tag removed**:
+```
+$this->assign\('show\_footer', $status\);
+```
 
-All  markers are prepared into other scripts or libraries. Most of the very common tags are defined in main/inc/lib/template.lib.php, with an “assign” call, like this:
+Om je nieuwe sjabloon te kunnen testen, moet je regel 13 van main/inc/lib/template.lib.php wijzigen om 'default' te vervangen door de naam van de map van je nieuwe sjabloon \(met behulp van het voorbeeld hierboven zou het _mytemplate_\) zijn.
 
-$this-&gt;assign\('show\_footer', $status\);
-
-In order for you to be able to test your new template, you will have to change line 13 of main/inc/lib/template.lib.php to replace 'default' by the name of your new template's directory \(using the example above, it would be _mytemplate_\).
-
-During the development of a new template \(which we recommend you do on a separate portal, not your production portal\), you should disable caching. You can do that in a series of ways, but the easiest is probably to just put your portal in “test server” mode. You can do that in the first page of the _Platform settings_ \(option called _Server Type_\).
+Tijdens de ontwikkeling van een nieuw sjabloon \(wat we u aanraden op een apart portaal te doen, niet uw productieportaal\), moet u caching uitschakelen. U kunt dat op een aantal manieren doen, maar het gemakkelijkste is waarschijnlijk om uw portaal gewoon in de "testserver" -modus te zetten. U kunt dat doen op de eerste pagina van de _Platform-instellingen_ \(optie genaamd _Server Type_\).
 
