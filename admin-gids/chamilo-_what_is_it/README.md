@@ -1,12 +1,13 @@
 # Chamilo leren kennen
 
-Chamilo LMS is an e-learning system \(that is it manages learning\) developed in a collaborative way by several companies, associations and people, through an open model called « free software » \(as in _freedom_\).
+Chamilo LMS is een e-learning systeem \(dat wil zeggen dat het leren beheert\) ontwikkeld op een gezamenlijke manier door verschillende bedrijven, verenigingen en mensen, door middel van een open model genaamd «vrije software» \(zoals in _vrijheid_\).
 
-You can download and use Chamilo freely, given you accept its license \(GNU/GPLv3\) which gives you, in short, four essential freedoms, given your compromise to maintain those freedoms : the freedom to use, study, modify and distribute the software.
+U kunt Chamilo vrij downloaden en gebruiken, mits u de licentie \(GNU/GPLv3\) accepteert die u, kortom, vier essentiële vrijheden geeft, gezien uw compromis om die vrijheden te behouden: de vrijheid om de software te gebruiken, bestuderen, wijzigen en verspreiden software.
 
-![](../../.gitbook/assets/images268.png)Illustration 1: Right to use, study and modify, share and distribute the software
+![](../../.gitbook/assets/images268.png)
 
-Chamilo is not only developed collaboratively by dozens of people in the world at large ; it is also supported by a non-profit association with the objective of promoting the platform and ensure its continuity. In this sense, Chamilo LMS is the only free software e-learning platform that generates so many guarantees of open access.
+Afbeelding 1: Recht om de software te gebruiken, bestuderen en wijzigen, delen en verspreiden
 
-You can contribute to Chamilo too, promoting its use, reporting errors, suggesting improvements, translating it \(or its manuals\) to your native language, or even developing extensions or fixes by yourself.
+Chamilo wordt niet alleen gezamenlijk ontwikkeld door tientallen mensen over de hele wereld; het wordt ook ondersteund door een vereniging zonder winstoogmerk met als doel het platform te promoten en de continuïteit ervan te verzekeren. In die zin is Chamilo LMS het enige gratis software e-learningplatform dat zoveel garanties op open access genereert.
 
+U kunt ook bijdragen aan Chamilo door het gebruik ervan te promoten, fouten te rapporteren, verbeteringen voor te stellen, het \(of zijn handleidingen\) naar uw moedertaal te vertalen, of zelfs zelf extensies of fixes te ontwikkelen.
