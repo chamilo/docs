@@ -2,13 +2,13 @@
 
 ![](../../.gitbook/assets/images33%20%282%29.png)
 
-Plugins in Chamilo exist to allow third party to \(relatively easily\) integrate new components in Chamilo, and are viewed either as a « staging » platform to include new features in the core of Chamilo in future versions, or as a « buffer » where we can make some code reside that we don't really **want** to integrate to Chamilo \(usually for ethical or licensing reasons\) but that we know might benefit our community at large.
+Plug-ins in Chamilo bestaan om derde partijen in staat te stellen \(relatief gemakkelijk\) nieuwe componenten in Chamilo te integreren, en worden gezien als een &amp;quot;staging&amp;quot; -platform om nieuwe functies in de kern van Chamilo in toekomstige versies op te nemen, of als een &amp;quot;buffer&amp;quot; waar we een code kunnen maken die we niet **echt** willen integreren met Chamilo \(meestal om ethische of licentieredenen\), maar waarvan we weten dat het onze gemeenschap in het algemeen ten goede kan komen.
 
-For integrators, it is a great way to insert new code into Chamilo without having to wait for the next major version in order to incorporate database changes, as the plugins can have their own installer/uninstaller.
+Voor integrators is het een geweldige manier om nieuwe code in Chamilo in te voegen zonder te hoeven wachten op de volgende hoofdversie om databasewijzigingen op te nemen, aangezien de plug-ins hun eigen installatieprogramma / de-installatieprogramma kunnen hebben.
 
-Plugins can be split in 2 categories : visual plugins, and back-end plugins. Back-end plugins act in the background \(you'd have guessed\) and require much less work \(usually\) from the visual design side. Visual plugins need to be crafted carefully so they integrate seamlessly into the Chamilo layout.
+Plug-ins kunnen worden opgesplitst in 2 categorieën: visuele plug-ins en back-end plug-ins. Back-end plug-ins werken op de achtergrond \(je zou het al raden\) en vereisen veel minder werk \(meestal\) van de visuele ontwerpkant. Visuele plug-ins moeten zorgvuldig worden gemaakt, zodat ze naadloos in de Chamilo-lay-out kunnen worden geïntegreerd.
 
-Although this is the major division, we won't make any distinction in the following section between these. If you develop a back-end plugin, just ignore the display part.
+Hoewel dit de belangrijkste divisie is, zullen we in de volgende paragraaf hier geen onderscheid tussen maken. Als u een back-end-plug-in ontwikkelt, negeert u gewoon het weergavegedeelte.
 
-We will, however, differentiate between the general plugins \(all but one at this time\) and the dashboard plugin, as this last one represents a specific case that appears as a top menu tabulation entry and is only allowed to administrators.
+We zullen echter een onderscheid maken tussen de algemene plug-ins \(op dit moment alle op één na\) en de dashboard-plug-in, aangezien deze laatste een specifiek geval vertegenwoordigt dat verschijnt als een item in de bovenste menutabel en alleen is toegestaan voor beheerders.
 
