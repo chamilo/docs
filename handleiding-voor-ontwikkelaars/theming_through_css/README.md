@@ -2,9 +2,9 @@
 
 ![](../../.gitbook/assets/images16%20%282%29.png)![](../../.gitbook/assets/images18%20%282%29.png)![](../../.gitbook/assets/images17%20%282%29.png)
 
-Cascading StyleSheets are a formidable tool to « brand » any web portal. Since Chamilo LMS 1.10.0, we have made considerable progress in comparison with earlier versions, in terms of CSS reuse.
+Cascading StyleSheets zijn een formidabel hulpmiddel om elk webportaal te "brandmerken". Sinds Chamilo LMS 1.10.0 hebben we aanzienlijke vooruitgang geboekt in vergelijking met eerdere versies op het gebied van CSS-hergebruik.
 
-Notably, we use the Bootstrap framework \(version 3 in Chamilo &lt; 2.0, then Bootstrap version 4\), which is touted as a « mobile first » framework. This means that, if you extend it nicely \(which took us about 300h of work in total to migrate to\), your web application should respond very well to all kinds of devices dimensions changes.
+We gebruiken met name het Bootstrap framework \(versie 3 in Chamilo <2.0, dan Bootstrap versie 4\), dat wordt aangeprezen als een «mobile first» framework. Dit betekent dat, als je het netjes uitbreidt \(wat ons in totaal ongeveer 300 uur werk kostte om naar te migreren\), je webapplicatie heel goed zou moeten reageren op allerlei apparaatafmetingen.
 
-Chamilo uses the « cascading » concept extensively. For each theme used, we use a common basis and redefine specific elements locally.
+Chamilo maakt uitgebreid gebruik van het «cascading» -concept. Voor elk gebruikt thema gebruiken we een gemeenschappelijke basis en herdefiniëren we specifieke elementen lokaal.
 
