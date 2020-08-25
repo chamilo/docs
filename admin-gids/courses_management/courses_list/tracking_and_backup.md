@@ -1,6 +1,5 @@
 # Tracking en back-up
 
-The tracking and the backup are the same for the admin as for the teacher \(see _Teacher guide_\).
+Het volgen en de back-up zijn hetzelfde voor de admin als voor de leraar \(zie _Lerarengids_\).
 
-These icons are shortcuts which send the admin inside the _My courses_ tab.
-
+Deze pictogrammen zijn snelkoppelingen die de admin naar het tabblad _Mijn cursussen_ sturen.
