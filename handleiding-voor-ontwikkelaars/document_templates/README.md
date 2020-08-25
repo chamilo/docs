@@ -1,12 +1,11 @@
 # Documentsjablonen
 
-When creating new documents in courses \(in the Documents tool\), you will see a left column showing a series of document templates.
+Bij het aanmaken van nieuwe documenten in cursussen \(in de Documenten-tool\), zie je een linkerkolom met een reeks documentsjablonen.
 
-Those templates can be extended inside the course itself. In this case, they remain specific to the course.
+Die sjablonen kunnen binnen de cursus zelf worden uitgebreid. In dit geval blijven ze specifiek voor de cursus.
 
-But an administrator can also create \(or update\) global templates. Go to Administration -&gt; Platform settings -&gt; Templates for that.
+Maar een beheerder kan ook \(of update\) algemene sjablonen maken. Ga daarvoor naar Beheer -> Platforminstellingen -> Sjablonen.
 
-However, this feature is relatively limited in Chamilo 1.9-1.11. Even if you can place new templates there, they cannot easily, for example, include new media \(there is no way to upload the corresponding files\) and you will need to use specific variables to avoid Chamilo to transform erroneously the links to the CSS and JS files you might want to include.
+Deze functie is echter relatief beperkt in Chamilo 1.9-1.11. Zelfs als je daar nieuwe sjablonen kunt plaatsen, kunnen ze bijvoorbeeld niet gemakkelijk nieuwe media bevatten \(er is geen manier om de bijbehorende bestanden te uploaden\) en je zult specifieke variabelen moeten gebruiken om te voorkomen dat Chamilo de links naar de CSS- en JS-bestanden die u mogelijk wilt opnemen.
 
-So there is an alternative way, but it takes a bit of effort. That is what we explain in the following section.
-
+Er is dus een alternatieve manier, maar het kost wat moeite. Dat leggen we in de volgende paragraaf uit.
