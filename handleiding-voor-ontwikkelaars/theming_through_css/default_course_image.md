@@ -1,10 +1,10 @@
 # Standaard cursusafbeelding
 
-Similarly to the default icons replacement described in the previous section, the default image for the course, which appears in the catalogue or in the courses grid view, can be replaced.
+Net als bij de standaardvervanging van pictogrammen die in de vorige sectie is beschreven, kan de standaardafbeelding voor de cursus, die in de catalogus of in de rasterweergave van de cursussen wordt weergegeven, worden vervangen.
 
-To do this, you will have to take the main/img/session\_default.png \(400x224 in v1.11.10\) and main/img/session\_default\_small.png \(85x48 in v1.11.10\) images dimensions as a starting point, and develop a new image that fits in these.
+Om dit te doen, moet u de afbeeldingen main/img/session\_default.png \(400x224 in v1.11.10\) en main/img/session\_default\_small.png \(85x48 in v1.11.10\) nemen dimensies als uitgangspunt, en ontwikkel een nieuw beeld dat daarin past.
 
-Then, instead of replacing the images directly in main/img/ \(which would remove the customization during each posterior Chamilo upgrade\), you can simply place those 2 new images in the root folder of your custom CSS.
+Dan, in plaats van de afbeeldingen rechtstreeks in main/img/ te vervangen \(wat de aanpassing tijdens elke latere Chamilo-upgrade zou verwijderen\), kun je die 2 nieuwe afbeeldingen eenvoudig in de hoofdmap van je aangepaste CSS plaatsen.
 
-For example, if you have placed \(as suggested in previous sections\) your CSS in a folder called "myCustomCSS/", the two images would respectively be placed in "myCustomCSS/session\_default.png" and "myCustomCSS/session\_default\_small.png".
+Als u bijvoorbeeld \(zoals voorgesteld in voorgaande secties\) uw CSS in een map met de naam "myCustomCSS/" hebt geplaatst, zouden de twee afbeeldingen respectievelijk in "myCustomCSS/session\_default.png" en "myCustomCSS/session\_default\_small.png" worden geplaatst.
 
