@@ -1,8 +1,9 @@
 # Gebruikerslijst importeren
 
-This feature allows you, after a users export, to subscribe the users to another course directly with a CSV or XML file.
+Met deze functie kunt u, nadat een gebruiker is geëxporteerd, de gebruikers rechtstreeks abonneren op een andere cursus met een CSV- of XML-bestand.
 
-![](../../.gitbook/assets/inscrire-utilisateur-cours%20%281%29.png)Illustration 63: Administration – Subscribe users to courses in batches
+![](../../.gitbook/assets/inscrire-utilisateur-cours%20%281%29.png)
 
-This import allows you to execute two actions which will change the behaviour a little while importing.
+Afbeelding 63: Beheer - Abonneer gebruikers op cursussen in batches
 
+Met deze import kunt u twee acties uitvoeren die het gedrag een beetje veranderen tijdens het importeren.
