@@ -1,8 +1,8 @@
 # Structuur van een pagina
 
-The structure of a typical page will thus be something close to the following. We are using a shortened version of `main/template/default/layout/layout_2_col.tpl` here, for the sake of documentation. `layout_2_col` means « layout for 2 colums page », and it is selected when we want to show things like the courses list, because on this screen we have two columns: the side menu and the list of courses.
+De structuur van een typische pagina zal dus iets zijn dat in de buurt komt van het volgende. We gebruiken hier een verkorte versie van `main/template/default/layout/layout_2_col.tpl`, ter wille van de documentatie. `layout_2_col` betekent« layout voor pagina met 2 kolommen », en het wordt geselecteerd als we dingen zoals de cursuslijst willen tonen, omdat we op dit scherm twee kolommen hebben: het zijmenu en de lijst met cursussen.
 
-All normal HTML tag will appear as is. No need for any trick.
+Alle normale HTML-tags worden weergegeven zoals ze zijn. Geen enkele truc nodig.
 
 ```text
 {% extends template ~ "/layout/main.tpl" %} 
@@ -40,5 +40,5 @@ All normal HTML tag will appear as is. No need for any trick.
 {% endblock %}
 ```
 
-As you can see in the example, some « include » statements can be found. They get the indicated file and put its content right where you placed the call. This is practical to re-use other already-templated blocks.
+Zoals u in het voorbeeld kunt zien, zijn enkele «include» -verklaringen te vinden. Ze krijgen het aangegeven bestand en plaatsen de inhoud precies daar waar u de oproep heeft geplaatst. Dit is praktisch om andere blokken die al een sjabloon hebben, opnieuw te gebruiken.
 
