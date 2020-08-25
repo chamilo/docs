@@ -1,10 +1,11 @@
 # Voeg gebruikers toe aan de cursus
 
-The admin can subscribe whomever to whichever course he wants:
+De admin kan iedereen inschrijven voor welke cursus hij maar wil:
 
-* select one or several users in the list on the left \(use CTRL or SHIFT to select multiple\),
-* Choose the course\(s\) to subscribe these users to,
-* click _Subscribe users to course_.
+* selecteer een of meerdere gebruikers in de lijst aan de linkerkant \(gebruik CTRL of SHIFT om meerdere te selecteren\),
+* Kies de cursus \(s\) om deze gebruikers op te abonneren,
+* klik op _Subscribe users to course_.
 
-![](../../.gitbook/assets/coursinscrire_-utilisateurs%20%281%29.png)Illustration 62: Administration – Subscribe users to courses
+![](../../.gitbook/assets/coursinscrire_-utilisateurs%20%281%29.png)
 
+Afbeelding 62: Beheer - Gebruikers abonneren op cursussen
