@@ -1,17 +1,17 @@
 # Subtalen
 
-Sub-languages are summarily defined in the Administrator Guide and can be defined following the procedure below:
+Subtalen worden summier gedefinieerd in de beheerdershandleiding en kunnen worden gedefinieerd volgens de onderstaande procedure:
 
-1. Go to platform settings
-2. Pick the “languages” section
-3. Enable the sub-languages feature
-4. Click the “Platform languages” link in the first setting of this section to get to the languages list
-5. Click the U.N. flag with a yellow star icon next to the parent language to define a new sub-language
-6. Return to the languages list
-7. Click the double arrow icon to redefine some specific terms \(and redefine some\)
-8. Change the language for one of the platform users \(can be yourself\)
-9. Disconnect and connect as the changed user
-10. You should see the transformed terms
+1. Ga naar platforminstellingen
+2. Kies de sectie "talen"
+3. Schakel de functie voor subtalen in
+4. Klik op de link “Platformtalen” in de eerste instelling van deze sectie om naar de talenlijst te gaan
+5. Klik op de VN-vlag met een geel sterpictogram naast de bovenliggende taal om een nieuwe subtaal te definiëren
+6. Keer terug naar de talenlijst
+7. Klik op het pictogram met de dubbele pijl om enkele specifieke termen te herdefiniëren \(en sommige opnieuw te definiëren\)
+8. Verander de taal voor een van de platformgebruikers \(kan jezelf zijn \)
+9. Verbreek de verbinding en maak verbinding als de gewijzigde gebruiker
+10. U zou de getransformeerde termen moeten zien
 
-Of course, once these 10 steps have been followed, changing new terms is just a matter of 3-4 steps.
+Zodra deze 10 stappen zijn gevolgd, is het wijzigen van nieuwe voorwaarden natuurlijk slechts een kwestie van 3-4 stappen.
 
