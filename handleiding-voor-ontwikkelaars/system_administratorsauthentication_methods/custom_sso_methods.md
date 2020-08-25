@@ -1,10 +1,9 @@
 # Aangepaste SSO-methoden
 
-Whenever connecting Chamilo for Single Sign On to a third-party solution that doesn't offer compatibility with any of the supported methods, you will want to check main/auth/sso/ and "extend" \(in PHP\) the sso.class.php \(like the example for Drupal\).
+Telkens wanneer Chamilo voor Single Sign On wordt aangesloten op een oplossing van een derde partij die geen compatibiliteit biedt met een van de ondersteunde methoden, moet u main/auth/sso/ en "extension" \(in PHP\) de sso controleren. class.php \(zoals het voorbeeld voor Drupal\).
 
-These files contain explanations of what you need to add to your database to support the custom method, and how you need to call it.
+Deze bestanden bevatten uitleg over wat u aan uw database moet toevoegen om de aangepaste methode te ondersteunen, en hoe u deze moet noemen.
 
-If you miss inspiration for your side of the SSO \(third-party solution\), you can check the [Drupal-Chamilo project](https://www.drupal.org/project/chamilo) code here: [http://cgit.drupalcode.org/chamilo/tree/chamilo.module\#n42](http://cgit.drupalcode.org/chamilo/tree/chamilo.module#n42)
+Als je inspiratie mist voor jouw kant van de SSO \(oplossing van derden\), kun je de code van het [Drupal-Chamilo-project](https://www.drupal.org/project/chamilo) hier bekijken: [http: //cgit.drupalcode.org/chamilo/tree/chamilo.module\#n42](http://cgit.drupalcode.org/chamilo/tree/chamilo.module#n42)
 
-Finally, you might need to check in main/inc/local.inc.php for the "sso" term to find where it all gets managed in the Chamilo login process.
-
+Ten slotte moet je misschien in main/inc/local.inc.php kijken voor de "sso" term om te zien waar het allemaal wordt beheerd in het Chamilo-inlogproces.
