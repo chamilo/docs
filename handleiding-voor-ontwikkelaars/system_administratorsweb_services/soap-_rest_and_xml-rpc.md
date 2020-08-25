@@ -1,6 +1,5 @@
 # SOAP, REST en XML-RPC
 
-If you get a little into it, you'll find that we have started developing different kinds of webservices, in SOAP but also in REST and XML-RPC.
+Als je er een beetje op ingaat, zul je merken dat we begonnen zijn met het ontwikkelen van verschillende soorten webservices, in SOAP maar ook in REST en XML-RPC.
 
-However, the most used and maintained version is probably SOAP \(for no particular reason\) and is concentrated into one single file: main/webservices/registration.soap.php
-
+De meest gebruikte en onderhouden versie is waarschijnlijk SOAP \(zonder specifieke reden\) en is geconcentreerd in één enkel bestand: main/webservices/registration.soap.php
