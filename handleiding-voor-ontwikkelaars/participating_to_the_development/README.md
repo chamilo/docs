@@ -1,4 +1,3 @@
 # Meedoen aan de ontwikkeling
 
-If you have the capabilities to contribute patches and new code to Chamilo, we're happy to help you get started. We understanding the task might feel daunting at first.
-
+Als je de mogelijkheid hebt om patches en nieuwe code bij te dragen aan Chamilo, helpen we je graag op weg. We begrijpen dat de taak in eerste instantie ontmoedigend kan aanvoelen.
