@@ -2,7 +2,6 @@
 
 ![](../../.gitbook/assets/images27%20%282%29.png) ![](../../.gitbook/assets/images28%20%282%29.png)
 
-Basic information about web services in Chamilo LMS can always be found here: [Chamilo-APIs](https://github.com/chamilo/chamilo-lms/wiki/Chamilo-APIs) but the information there might not be fully up to date \(the one in this manual either\) as services tend to change or increase in number over time \(although, obviously, we do our best to maintain backwards compatibility\).
+Basisinformatie over webservices in Chamilo LMS is altijd hier te vinden: [Chamilo-APIs](https://github.com/chamilo/chamilo-lms/wiki/Chamilo-APIs), maar de informatie is daar mogelijk niet volledig datum \(die in deze handleiding ook\), aangezien services de neiging hebben om in de loop van de tijd te veranderen of in aantal toe te nemen \(hoewel we uiteraard ons best doen om achterwaartse compatibiliteit te behouden\).
 
-But the most reliable source is always the code, which can be found inside the main/webservices/ folder.
-
+Maar de meest betrouwbare bron is altijd de code, die te vinden is in de map main/webservices/.
