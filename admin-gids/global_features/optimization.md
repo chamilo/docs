@@ -1,6 +1,5 @@
 # Optimalisatie
 
-If you ever run into efficiency issues and you have full access to your server, you might want to look into optimizing your Chamilo installation.
+Als je ooit efficiëntieproblemen tegenkomt en je hebt volledige toegang tot je server, dan wil je misschien overwegen om je Chamilo-installatie te optimaliseren.
 
-If so, have a look at the documentation/optimization.html document, as it has been designed to help out in these types of situations.
-
+Als dit het geval is, kijk dan eens naar het document documentation/optimization.html, aangezien het is ontworpen om te helpen in dit soort situaties.
