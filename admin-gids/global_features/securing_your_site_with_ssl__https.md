@@ -1,26 +1,31 @@
 # Je site beveiligen met SSL / HTTPS
 
-As Chamilo LMS has grown more popular in the last 12 months \(roughly 400% increase in number of users\), we have received several indications of password theft and that the security of Chamilo might be in question. Check out our Security in Chamilo LMS section \(10.2\) in the Appendix for more information about security in Chamilo.
+Naarmate Chamilo LMS populairder is geworden, hebben we verschillende aanwijzingen ontvangen van wachtwoorddiefstal en dat de veiligheid van Chamilo in het geding kan zijn. Bekijk onze sectie Beveiliging in Chamilo LMS \(10.2\) in de bijlage voor meer informatie over beveiliging in Chamilo.
 
-The weakest link so far with our Chamilo portals has been the infrastructure, in that students can \(relatively easily\) steal accesses from a teacher connecting to the platform from the same computer room \(due to some characteristics of network equipment\). There are many ways to get to “spy” on the communication of another user with the server, and one of the most secure ways to avoid this kind of theft is to encrypt the whole communication between the user and the Chamilo server.
+De zwakste schakel tot dusver met onze Chamilo-portals is de infrastructuur, in die zin dat studenten \(relatief gemakkelijk\) toegang kunnen stelen van een leraar die verbinding maakt met het platform vanuit dezelfde computerruimte \(vanwege enkele kenmerken van netwerkapparatuur\). Er zijn veel manieren om de communicatie van een andere gebruiker met de server te “bespioneren”, en een van de veiligste manieren om dit soort diefstal te voorkomen, is door de hele communicatie tussen de gebruiker en de Chamilo-server te versleutelen.
 
-This can be done through SSL \(or more commonly called HTTPS for the appearance of an “s” in the URL of those portals\), a secure and standard way to encrypt any HTTP communication on the web.
+Dit kan worden gedaan via SSL \(of beter bekend als HTTPS voor de weergave van een "s" in de URL van die portalen\), een veilige en standaardmanier om HTTP-communicatie op het web te versleutelen.
 
-Sadly, because of the inherent security of the system, an SSL certificate \(required for the secure communication to happen\) has to be “signed” \(virtually\) by a recognized authority, for a limited amount of time. This implies \(in most cases until now\) payment to said authority of a fee to sign the certificate. In other words, a certificate is not free and it is not permanent. For example, a simple \(lowest-level of security\) certificate, just for a single domain name, might cost between $25 and $100 a year.
+Helaas, vanwege de inherente beveiliging van het systeem, moet een SSL-certificaat \(vereist om de veilige communicatie te laten plaatsvinden\) voor een beperkte tijd \(virtueel\) "ondertekend" worden door een erkende autoriteit. Dit impliceert \(in de meeste gevallen tot nu\) betaling aan genoemde autoriteit van een vergoeding voor het ondertekenen van het certificaat. Met andere woorden, een certificaat is niet gratis en het is niet permanent. Een eenvoudig \(laagste beveiligingsniveau\) certificaat, alleen voor een enkele domeinnaam, kan bijvoorbeeld tussen de $ 25 en $ 100 per jaar kosten.
 
-You can “self-sign” your certificates, but this will show a scary screen to all users the first time they access the portal, and it will ask them to take a decision. The users will have to click a minimum of 3 times in very specific options in order to get to the site, as illustrated by the following screenshots.
+U kunt uw certificaten “zelf ondertekenen”, maar dit zal een eng scherm tonen voor alle gebruikers de eerste keer dat ze de portal openen, en het zal hen vragen om een beslissing te nemen. De gebruikers zullen minimaal 3 keer op zeer specifieke opties moeten klikken om naar de site te gaan, zoals geïllustreerd door de volgende schermafbeeldingen.
 
-![](../../.gitbook/assets/images52.png)Illustration 90: Browsers warn users of self-signed SSL certificates: Step 1/3: click on the “I Understand the Risks” link \(example with Mozilla Firefox\)
+![](../../.gitbook/assets/images52.png)
 
-![](../../.gitbook/assets/images53.png)Illustration 91: Browsers warn users of self-signed SSL certificates: Step 2/3: click the "Add Exception" button
+Afbeelding 90: Browsers waarschuwen gebruikers voor zelfondertekende SSL-certificaten: Stap 1/3: klik op de link "I Understand the Risks" \(voorbeeld met Mozilla Firefox\)
 
-![](../../.gitbook/assets/images60.png)Illustration 92: Browsers warn users of self-signed SSL certificates: Step 3/3: click "Confirm Security Exception"
+![](../../.gitbook/assets/images53.png)
 
-These rather scary three steps completed, your user will have access to your site with an encrypted connection, but the process will not work for everyone.
+Afbeelding 91: Browsers waarschuwen gebruikers voor zelfondertekende SSL-certificaten: Stap 2/3: klik op de knop "Uitzondering toevoegen"
 
-To avoid these messages, you will need to purchase an SSL certificate \(we have had some reasonable success with _RapidSSL_ so far, but it is entirely up to you to choose the right SSL certificates provider for you\).
+![](../../.gitbook/assets/images60.png)
 
-If you'd rather go for a self-signed certificate because your team will be a finite number of people using it and you know they're able to manage the 3 steps of certificate acceptance, then you can follow this article to set it up: [https://beeznest.wordpress.com/2008/04/25/how-to-configure-https-on-apache-2/](https://beeznest.wordpress.com/2008/04/25/how-to-configure-https-on-apache-2/)
+Afbeelding 92: Browsers waarschuwen gebruikers voor zelfondertekende SSL-certificaten: Stap 3/3: klik op "Beveiligingsuitzondering bevestigen"
 
-There is no more secure and practical way of securing your connections than SSL, so don't try to implement your own security mechanism. If you have comments about SSL, you should contact directly with the community managing the standard.
+Deze nogal enge drie stappen zijn voltooid, uw gebruiker heeft toegang tot uw site met een gecodeerde verbinding, maar het proces werkt niet voor iedereen.
 
+Om deze berichten te vermijden, moet u een SSL-certificaat kopen \(we hebben tot nu toe redelijk succes gehad met _RapidSSL_, maar het is geheel aan u om de juiste SSL-certificaatprovider voor u te kiezen\).
+
+Als u liever kiest voor een zelfondertekend certificaat omdat uw team een eindig aantal mensen zal gebruiken en u weet dat ze de 3 stappen van certificaatacceptatie kunnen beheren, dan kunt u dit artikel volgen om het in te stellen: [https://beeznest.wordpress.com/2008/04/25/how-to-configure-https-on-apache-2/](https://beeznest.wordpress.com/2008/04/25/how-to-configure-https-on-apache-2/)
+
+Er is geen veiligere en praktische manier om uw verbindingen te beveiligen dan SSL, dus probeer niet uw eigen beveiligingsmechanisme te implementeren. Als u opmerkingen heeft over SSL, dient u rechtstreeks contact op te nemen met de community die de standaard beheert.
