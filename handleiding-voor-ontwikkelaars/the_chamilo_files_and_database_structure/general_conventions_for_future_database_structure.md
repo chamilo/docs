@@ -1,11 +1,11 @@
 # Algemene conventies voor toekomstige databasestructuur
 
-If you are starting a new plugin or some kind of feature that requires database modifications, and although you can find most of this information in the coding conventions \(next section\), please keep the following rules in mind :
+Als u een nieuwe plug-in of een andere functie start waarvoor database-aanpassingen nodig zijn, en hoewel u de meeste van deze informatie kunt vinden in de coderingsconventies \(volgende sectie\), moet u de volgende regels in gedachten houden:
 
-* All tables MUST have a unique identifier based on one single columns. If the table already contains an `id` that is dependent on a `c_id` column, the new column MUST be named `iid`
-* All tables referring to courses MUST use the integer ID of the course and call the corresponding column `c_id`
-* All tables referring to sessions MUST use the integer ID of the session and call the corresponding column `session_id` \(and NOT `id_session`\)
-* All tables representing the relationship between to other tables \(namely a n-m or 1-n relationship\) SHOULD bear a name with a central « rel » term, where the two table names are expressed in alphabetical order, unless this is counter intuitive. For example, linking users with courses bears the table name `course_rel_user`.
-* If specifically defining a table index to speed things up, this index SHOULD follow the order of the fields that is used in the corresponding queries. For example, for a table containing at least the three fields `user_id`, `c_id` and `session_id`, an index on those three fields should be based on the queries that are made to this table. If a query works like this : `SELECT id FROM table WHERE c_id = 3 AND user_id = 872 AND session_id = 32` then the index should be created in this order: `ALTER TABLE table ADD INDEX idx_tcus (c_id, user_id, session_id)`
-* Translations of terms are managed outside of the database. All table, column and index names MUST be written in CORRECT English language for better understandability by other developers around the world.
+* Alle tabellen MOETEN een unieke identificatie hebben op basis van één enkele kolom. Als de tabel al een `id` bevat die afhankelijk is van een `c_id` kolom, MOET de nieuwe kolom de naam `iid` hebben
+* Alle tabellen die naar cursussen verwijzen MOETEN de gehele ID van de cursus gebruiken en de corresponderende kolom `c_id` aanroepen
+* Alle tabellen die verwijzen naar sessies MOETEN de integer ID van de sessie gebruiken en de corresponderende kolom `session_id` \(en NIET `id_session`\) aanroepen
+* Alle tabellen die de relatie weergeven tussen andere tabellen \(namelijk een nm- of 1-n-relatie\) MOET een naam dragen met een centrale term «rel», waarbij de twee tabelnamen in alfabetische volgorde worden uitgedrukt, tenzij dit contra-intuïtief is . Het koppelen van gebruikers aan cursussen draagt bijvoorbeeld de tabelnaam `course_rel_user`.
+* Als u specifiek een tabelindex definieert om dingen te versnellen, MOET deze index de volgorde volgen van de velden die in de overeenkomstige query's worden gebruikt. Voor een tabel die bijvoorbeeld ten minste de drie velden 'user_id', 'c_id' en 'session_id' bevat, moet een index van die drie velden worden gebaseerd op de zoekopdrachten die naar deze tabel worden gedaan. Als een zoekopdracht als volgt werkt: `SELECT id FROM table WHERE c_id = 3 AND user_id = 872 AND session_id = 32`, dan moet de index in deze volgorde worden gemaakt: `ALTER TABLE table ADD INDEX idx_tcus (c_id, user_id, session_id)`
+* Vertalingen van termen worden beheerd buiten de database. Alle tabel-, kolom- en indexnamen MOETEN in CORRECTE Engelse taal worden geschreven voor een betere begrijpelijkheid door andere ontwikkelaars over de hele wereld.
 
