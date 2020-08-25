@@ -1,6 +1,6 @@
 # De structuur van Chamilo LMS-bestanden vandaag
 
-As of Chamilo LMS 1.11, the files structure looks like this \(not entering in the details of each folder\)\[5\] .
+Vanaf Chamilo LMS 1.11 ziet de bestandsstructuur er als volgt uit \(niet de details van elke map invoeren\)\[5\].
 
 * app
 * app/cache
@@ -76,5 +76,5 @@ As of Chamilo LMS 1.11, the files structure looks like this \(not entering in th
 * vendor
 * web
 
-\[5\]: Found through the « find . -type d -maxdepth 2 » command
+\[5\]: Gevonden via het « find . -type d -maxdepth 2 » commando
 
