@@ -1,8 +1,7 @@
 # Use case - Universitaire faculteiten
 
-Imagine the 12 faculties of your “John Smith University” \(fictional name\) want to show their portal under a distinct appearance \(each one wants its own variation of the logo in the header and a background colour slightly different\).
+Stel je voor dat de 12 faculteiten van je "John Smith University" \(fictieve naam\) hun portaal willen laten zien onder een duidelijk uiterlijk \(elk wil zijn eigen variatie van het logo in de koptekst en een iets andere achtergrondkleur\).
 
-For example, you would have a general [http://admin.jsu.edu/](http://admin.jsu.edu/), then a specific law faculty: [http://law.jsu.edu/](http://law.jsu.du/), a sciences faculty: [http://sci.jsu.edu/](http://sci.jsu.edu/), etc.
+U hebt bijvoorbeeld een algemene [http://admin.jsu.edu/](http://admin.jsu.edu/) en vervolgens een specifieke rechtenfaculteit: [http://law.jsu.edu/](http: //law.jsu.du/), een faculteit wetenschappen: [http://sci.jsu.edu/](http://sci.jsu.edu/), enz.
 
-Each one of them has its own teachers, whom, and I quote, “sometimes” have to give a course in more than one faculty. Students are also students from one single faculty \(only a few “exceptional case” are not\). Finally, courses are different, “except” in specific cases for very general courses...
-
+Elk van hen heeft zijn eigen docenten, die, en ik citeer, “soms” een cursus aan meer dan één faculteit moeten geven. Studenten zijn ook studenten van één enkele faculteit \(slechts enkele "uitzonderlijke gevallen" zijn dat niet\). Ten slotte zijn de cursussen anders, "behalve" in specifieke gevallen voor zeer algemene cursussen...
