@@ -1,14 +1,15 @@
 # Carrière en promoties
 
-Careers and promotions are two new concepts in Chamilo 1.8.8. They allow you to manage careers \(like “Medicine” or “Software engineering”\) and promotions \(like “Medicine, graduation of 2017”\) almost the same way you would manage them in a normal academical institution once you combine them with sessions and periods \(i.e. categories of sessions\).
+Carrières en promoties zijn twee nieuwe concepten in Chamilo 1.8.8. Ze stellen je in staat om carrières \(zoals 'Geneeskunde' of 'Software engineering'\) en promoties \(zoals 'Geneeskunde, afstuderen van 2017'\) te beheren, op bijna dezelfde manier als je ze zou beheren in een normale academische instelling als je ze eenmaal combineert met sessies en periodes \(dwz categorieën van sessies\).
 
-The interface of the tool is still a bit rough on the edges, and it will take you some time at first to find your way, but it is stable and you should be able to use it easily after a few minutes of practice.
+De interface van de tool is nog een beetje ruw aan de randen, en het zal even duren voordat je de weg hebt gevonden, maar het is stabiel en je zou het na een paar minuten oefenen gemakkelijk moeten kunnen gebruiken.
 
-Let's see how it's done...
+Laten we eens kijken hoe het moet...
 
-![](../../../.gitbook/assets/graficos85%20%281%29.png)Illustration 70: List of careers and promotions
+![](../../../.gitbook/assets/graficos85%20%281%29.png)
 
-The first page gives us a list of careers \(grey-background line\), of promotions that each career contains \(first column\), of sessions registered to these promotions \(second column\) and of courses included into these sessions \(last column\).
+Afbeelding 70: Lijst met carrières en promoties
+
+De eerste pagina geeft ons een lijst met carrières \(lijn met grijze achtergrond\), van promoties die elke carrière bevat \(eerste kolom\), van sessies geregistreerd voor deze promoties \(tweede kolom\) en van cursussen die in deze sessies zijn opgenomen \(laatste kolom\).
 
 ![](../../../.gitbook/assets/graficos86%20%281%29.png)
-
