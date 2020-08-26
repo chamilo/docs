@@ -1,8 +1,10 @@
 # Mededelingen
 
-The _Announcements_ tool ![](../../.gitbook/assets/graphics226.png) lets you send a message by e-mail to your learners and/or publish an message directly to the course.
+Met de tool _Announcements_ ![](../../.gitbook/assets/graphics226.png) kun je een bericht per e-mail naar je studenten sturen en / of een bericht rechtstreeks in de cursus publiceren.
 
-These announcements can be used, for example, to inform learners of the recent availability of a document, of the deadline for an assignment or any news or information related to the course.
+Deze aankondigingen kunnen bijvoorbeeld worden gebruikt om studenten te informeren over de recente beschikbaarheid van een document, de deadline voor een opdracht of nieuws of informatie met betrekking tot de cursus.
 
-![](../../.gitbook/assets/images163%20%281%29.png)Illustration 124: Announcements page
+![](../../.gitbook/assets/images163%20%281%29.png)
+
+Afbeelding 124: Aankondigingenpagina
 
