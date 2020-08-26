@@ -2,11 +2,10 @@
 
 ![](../../../.gitbook/assets/graficos8.png)
 
-This category presents the options relative to users properties and permissions.
+Deze categorie presenteert de opties met betrekking tot gebruikerseigenschappen en machtigingen.
 
-**Profile** defines which fields of the profile will be modifiable by the user. By default, the e-mail cannot be modified by the user himself.
+**Profiel** bepaalt welke velden van het profiel door de gebruiker kunnen worden gewijzigd. Standaard kan de e-mail niet door de gebruiker zelf worden gewijzigd.
 
-**Personal agenda** lets you decide whether a user can register personal events in his calendar.
+**Persoonlijke agenda** laat u beslissen of een gebruiker persoonlijke evenementen in zijn agenda kan registreren.
 
-Allow users to change e-mail without password allows users to change their e-mails without having to provide their password. This is particularly dangerous as the e-mail address is where the password reminder is sent, so if someone steals another user's connection, he can change the password and prevent access by the legitimate user. The default option is to not allow it without having to give one's password, which is more secure but a little more complicated.
-
+Gebruikers toestaan e-mail te wijzigen zonder wachtwoord stelt gebruikers in staat hun e-mailberichten te wijzigen zonder hun wachtwoord op te geven. Dit is vooral gevaarlijk omdat het e-mailadres is waar de wachtwoordherinnering naartoe wordt gestuurd, dus als iemand de verbinding van een andere gebruiker steelt, kan hij het wachtwoord wijzigen en de toegang door de legitieme gebruiker voorkomen. De standaardoptie is om het niet toe te staan zonder een wachtwoord op te geven, wat veiliger is, maar iets gecompliceerder.
