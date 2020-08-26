@@ -1,7 +1,7 @@
 # De cursusassistent
 
-| Description | The assistant is an extended learner role. It is normally a learner, but the teacher can assign him the role of assistant in one of his courses through the user edition, through the list of users in the users tool in the course \(check-box « Assistant »\). |
+| Omschrijving | De assistent is een uitgebreide leerlingrol. Het is normaal gesproken een leerling, maar de leraar kan hem de rol van assistent in een van zijn cursussen toewijzen via de gebruikerseditie, via de lijst van gebruikers in de gebruikerstool in de cursus \(selectievakje «Assistent»\). |
 | :--- | :--- |
-| Permissions in a course | By default, he can: |
-| Global permissions | By default, he can : |
+| Rechten in een cursus | Standaard kan hij: |
+| Globale machtigingen | Standaard kan hij: |
 
