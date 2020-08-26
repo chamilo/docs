@@ -1,14 +1,13 @@
 # Beheren van de sessies
 
-Managing the sessions can be done with icons mostly familiar, and a few new ones...
+Het beheren van de sessies kan worden gedaan met pictogrammen die meestal bekend zijn, en een paar nieuwe ...
 
-| Icons | Features |
+| Icoons | Kenmerken |
 | :--- | :--- |
-| ![](../../.gitbook/assets/images76.png) | Update the settings/details of a session |
-| ![](../../.gitbook/assets/images77.png) | Remove a session \(after confirmation\) |
-| ![](../../.gitbook/assets/images73%20%281%29.png) | Subscribe users to a session |
-| ![](../../.gitbook/assets/images74%20%281%29.png) | Add courses to a session |
-| ![](../../.gitbook/assets/images79%20%281%29.png) | Add a session to a category |
+| ![](../../.gitbook/assets/images76.png) | Werk de instellingen / details van een sessie bij |
+| ![](../../.gitbook/assets/images77.png) | Een sessie verwijderen \ (na bevestiging \) |
+| ![](../../.gitbook/assets/images73%20%281%29.png) | Abonneer gebruikers op een sessie |
+| ![](../../.gitbook/assets/images74%20%281%29.png) | Voeg cursussen toe aan een sessie |
+| ![](../../.gitbook/assets/images79%20%281%29.png) | Voeg een sessie toe aan een categorie |
 
-Tableau 1: Administration – Sessions management icons
-
+Tableau 1: Administratie - Pictogrammen voor sessiebeheer
