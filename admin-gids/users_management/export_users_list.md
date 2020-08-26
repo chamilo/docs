@@ -1,12 +1,13 @@
 # Gebruikerslijst exporteren
 
-In Chamilo, it is possible to export all or only some of the users.
+In Chamilo is het mogelijk om alle of slechts enkele gebruikers te exporteren.
 
-![](../../.gitbook/assets/exporterliste_-utilisateurs%20%281%29.png)Illustration 51: Administration – Users export
+![](../../.gitbook/assets/exporterliste_-utilisateurs%20%281%29.png)
 
-You can choose between two output save file formats: [XML](http://fr.wikipedia.org/wiki/Extensible_Markup_Language) or [CSV](http://fr.wikipedia.org/wiki/Comma-separated_values). Most users will use CSV, which can be read by MS-Excel® and OpenOffice.org Calc®.
+Afbeelding 51: Administratie - Gebruikers exporteren
 
-Once you chose the format, it is recommended to check the “_Yes, add the CSV header”_ option. Then you can pick a limited list of students to export \(by course\) or leave it as is to export all students of the platform. Click on _Export_ to launch the export.
+U kunt kiezen tussen twee bestandsformaten voor het opslaan van uitvoer: [XML](http://fr.wikipedia.org/wiki/Extensible_Markup_Language) of [CSV](http://fr.wikipedia.org/wiki/Comma-separated_values). De meeste gebruikers zullen CSV gebruiken, dat kan worden gelezen door MS-Excel® en OpenOffice.org Calc®.
 
-A new window opens to let you decide what to do with the file.
+Nadat u het formaat heeft gekozen, is het raadzaam om de optie "_Ja, voeg de CSV-koptekst toe"_ aan te vinken. Vervolgens kunt u een beperkte lijst met studenten kiezen om te exporteren \(per cursus\) of deze laten zoals het is om alle studenten van het platform te exporteren. Klik op _Export_ om de export te starten.
 
+Er wordt een nieuw venster geopend waarin u kunt beslissen wat u met het bestand wilt doen.
