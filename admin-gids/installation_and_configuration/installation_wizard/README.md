@@ -1,15 +1,16 @@
 # Installatiewizard
 
-Download the source from [Chamilo](http://www.chamilo.org/en/download)'s download pageand unpack it \(with a tool such as 7-zip under Windows or _tar_ under Linux/MacOS\).
+Download de broncode van de downloadpagina van [Chamilo](http://www.chamilo.org/en/download) en pak deze uit \(met een tool zoals 7-zip onder Windows of _tar & gunzip_ onder Linux / MacOS\).
 
-* If it is a remote server \(i.e. you are not directly connected to the computer by a keyboard and a screen\), send the archive through FTP \(or [SSH](http://fr.wikipedia.org/wiki/Secure_Shell)\) to the online space \(we recommend you send the file and then unzip it on the server, this will be much faster and secure, but you can also send all the files you find under the _chamilo_ directory _–_ beware, sometimes the FTP transfer is interrupted and the installation cannot be completed safely – make sure all files have been transferred by checking the log and sending them a second time, checking the option _Don't overwrite existing files_ in your FTP client\).
-* If it is a local installation, just copy the files in the root web folder on your server \(on Ubuntu, that is, inside /var/www\).
+* Als het een server op afstand is \(dwz u bent niet rechtstreeks met de computer verbonden via een toetsenbord en een scherm\), stuur het archief dan via FTP \(of [SSH](http://fr.wikipedia.org/wiki/Secure_Shell)\) naar de online ruimte \(we raden u aan het bestand te verzenden en vervolgens uit te pakken op de server, dit gaat veel sneller en veiliger, maar u kunt ook alle bestanden verzenden die u vindt in de _chamilo_ directory let op, soms wordt de FTP-overdracht onderbroken en kan de installatie niet veilig worden voltooid - zorg ervoor dat alle bestanden zijn overgedragen door het logboek te controleren en ze een tweede keer te verzenden, door de optie _Don't overschrijf bestaande bestanden_ in uw FTP-client\) aan te vinken.
+* Als het een lokale installatie is, kopieer dan gewoon de bestanden naar de rootwebmap op uw server \(op Ubuntu, dat wil zeggen in /var/www\).
 
-Ex.: user@server:\(sudo\) mv /home/_user_/Desktop/chamilo /var/www
+```
+Ex.: user@server:(sudo) mv /home/_user_/Desktop/chamilo /var/www
+```
 
-**Note** : You might want to rename the directory to something more convenient once unpacked.
+**Opmerking**: misschien wilt u de map een andere naam geven als deze eenmaal is uitgepakt.
 
-Chamilo can be installed to whichever directory you like. Choose the root directory of the site so that the platform is directly accessible through the « [http://www.mydomain.com/](http://www.mydomain.com/) » address, for example.
+Chamilo kan in elke gewenste directory worden geïnstalleerd. Kies de root directory van de site zodat het platform direct toegankelijk is via bijvoorbeeld het «[http://www.mijndomein.com/](http://www.mijndomein.com/) adres.
 
-The directory where the files are copied must be writeable by the same system user running the web server \(i.e. _www-data_ on Ubuntu, or _httpd_ or _nobody_ on some other UNIX-based operating systems\). Remotely, you must be able to change the permissions on the files and folders through [FTP](http://fr.wikipedia.org/wiki/FileZilla), [SSH](http://fr.wikipedia.org/wiki/Secure_Shell) or any other type of access.
-
+De map waarin de bestanden worden gekopieerd, moet beschrijfbaar zijn door dezelfde systeemgebruiker die de webserver draait \(d.w.z. _www-data_ op Ubuntu, of _httpd_ of _nobody_ op sommige andere op UNIX gebaseerde besturingssystemen\). Op afstand moet u de machtigingen voor de bestanden en mappen kunnen wijzigen via [FTP](http://fr.wikipedia.org/wiki/FileZilla), [SSH](http://fr.wikipedia.org/wiki/Secure_Shell) of elk ander type toegang.
