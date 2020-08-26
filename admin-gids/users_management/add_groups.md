@@ -1,8 +1,10 @@
 # Groepen toevoegen
 
-Chamilo integrates a _Social network_ tool which allows you to create common interest groups where users will be able to discuss between themselves as on a forum. You can choose to create groups which can be either opened or closed.
+Chamilo integreert een _Sociaal netwerk_tool waarmee u gemeenschappelijke belangengroepen kunt creëren waar gebruikers onderling kunnen discussiëren zoals op een forum. U kunt ervoor kiezen om groepen te maken die zowel geopend als gesloten kunnen worden.
 
-Through the configuration settings, you can also decide to let users create their own interest groups.
+Via de configuratie-instellingen kunt u er ook voor kiezen om gebruikers hun eigen interessegroepen te laten aanmaken.
 
-![](../../.gitbook/assets/groupesajouter%20%281%29.png)Illustration 54: Administration – Social groups creation
+![](../../.gitbook/assets/groupesajouter%20%281%29.png)
+
+Afbeelding 54: Administratie - Oprichting van sociale groepen
 
