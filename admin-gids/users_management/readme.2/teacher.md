@@ -1,11 +1,11 @@
 # Leraar
 
-* ![](../../../.gitbook/assets/images45%20%281%29.png)**Active/Inactive** : a teacher can be enabled/disabled at wish
-* ![](../../../.gitbook/assets/graficos54%20%281%29.png)![](../../../.gitbook/assets/graficos55%20%281%29.png)**Courses list** : a teacher can be subscribed to several courses
-* **Login as...** enabled for the teacher
-* ![](../../../.gitbook/assets/graficos56%20%281%29.png)**Statistics** : the teacher cannot be “followed” any other way than through the control panel
-* ![](../../../.gitbook/assets/graficos57%20%281%29.png)![](../../../.gitbook/assets/graficos58%20%281%29.png)**Edition** : the teacher account can be edited by the administrator
-* **Administration** : the teacher who would be administrator is administrator before anything else
-* ![](../../../.gitbook/assets/graficos59%20%281%29.png)**Free/busy calendar** : shows the availability of the teacher
-* ![](../../../.gitbook/assets/graficos61%20%281%29.png)**Removal** : the teacher account can be removed
+* ![](../../../.gitbook/assets/images45%20%281%29.png)**Actief / inactief**: een leraar kan naar wens worden in- / uitgeschakeld
+* ![](../../../.gitbook/assets/graficos55%20%281%29.png)**Lijst met cursussen**: een docent kan voor meerdere cursussen worden ingeschreven
+* ![](../../../.gitbook/assets/graficos54%20%281%29.png)**Login als...** ingeschakeld voor de docent
+* ![](../../../.gitbook/assets/graficos56%20%281%29.png)**Statistieken**: de docent kan op geen enkele andere manier worden “gevolgd” dan via het controlepaneel
+* ![](../../../.gitbook/assets/graficos58%20%281%29.png)**Editie**: het docentaccount kan worden bewerkt door de beheerder
+* ![](../../../.gitbook/assets/graficos57%20%281%29.png)**Administratie**: de leraar die administrator zou zijn, is in de eerste plaats administrator
+* ![](../../../.gitbook/assets/graficos59%20%281%29.png)**Vrij / bezet-kalender**: toont de beschikbaarheid van de docent
+* ![](../../../.gitbook/assets/graficos61%20%281%29.png)**Verwijdering**: het docentaccount kan worden verwijderd
 
