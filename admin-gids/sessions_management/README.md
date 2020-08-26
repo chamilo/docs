@@ -1,16 +1,18 @@
 # Beheer van sessies
 
-A session is a mechanism which hover “above” one or several courses and allows groups of students to follow the same group of courses during the same period, in separate virtual spaces.
+Een sessie is een mechanisme dat “boven” een of meerdere cursussen zweeft en het stelt groepen studenten in staat dezelfde groep cursussen te volgen in dezelfde periode, in aparte virtuele ruimtes.
 
-Sessions can group several courses of different categories.
+Sessies kunnen verschillende cursussen van verschillende categorieën groeperen.
 
-The following schema has already been used in the _users_ chapter to explain roles, but we will now use it in the context of _Sessions._
+Het volgende schema is al gebruikt in het _users_ hoofdstuk om rollen uit te leggen, maar we zullen het nu gebruiken in de context van _Sessions_.
 
-![](../../.gitbook/assets/images72%20%281%29.png)Illustration 64: Global – Sessions schema
+![](../../.gitbook/assets/images72%20%281%29.png)
 
-As you can see, the session is defined by a sessions administrator and has a general coach \(also called the session coordinator, or _session tutor_ in the schema\) who watches over the session and assists teachers and students in need.
+Afbeelding 64: Globaal - schema Sessies
 
-Several courses are registered to the session, each of them being taught by one or more course coaches \(_session-course tutor_ on the schema\).
+Zoals je kunt zien, wordt de sessie gedefinieerd door een sessiebeheerder en heeft een algemene coach \(ook wel de sessiecoördinator genoemd, of _sessiebegeleider_ in het schema\) die waakt over de sessie en leraren en studenten in nood helpt.
 
-Although not clearly represented on this schema, a session allows you \(optionally\) to establish time limits for the coaches and learners of this session.
+Er zijn meerdere cursussen voor de sessie geregistreerd, die elk worden gegeven door een of meer cursuscoaches \(_sessie-cursusbegeleider_ volgens het schema\).
+
+Hoewel dit schema niet duidelijk wordt weergegeven, stelt een sessie u \(optioneel\) in staat om tijdslimieten vast te stellen voor de coaches en leerlingen van deze sessie.
 
