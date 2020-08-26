@@ -1,18 +1,24 @@
 # Carrière
 
-To add a new career, click on the tricolour folders icon. The following page appears.
+Om een nieuwe carrière toe te voegen, klikt u op het driekleurige mappenpictogram. De volgende pagina verschijnt.
 
-![](../../../.gitbook/assets/graficos87%20%281%29.png)Illustration 71: Career creation form
+![](../../../.gitbook/assets/graficos87%20%281%29.png)
 
-Only the career name is mandatory. Add a new career \(e.g. _Medicine_\) and save. The list of careers appears with an entry for the career you just created.
+Afbeelding 71: Formulier voor het maken van een carrière
 
-![](../../../.gitbook/assets/graficos89%20%281%29.png)Illustration 72: Careers list
+Alleen de carrièrenaam is verplicht. Voeg een nieuwe carrière \(bijv. _Medicine_\) toe en sla op. De lijst met carrières wordt weergegeven met een vermelding voor de carrière die u zojuist hebt gemaakt.
 
-This list highlights a double white page icon that allows you to copy a complete career and create a new one. The copy of a career also copies the whole underlying structure \(promotions, sessions and courses\) silently, which makes it a hugely powerful tool for administration.
+![](../../../.gitbook/assets/graficos89%20%281%29.png)
 
-To better understand the complete structure, including careers and promotions, let's try and represent them on the following schema \(French labels should be easy to understand\).
+Afbeelding 72: Carrièrelijst
 
-![](../../../.gitbook/assets/graficos90%20%281%29.png)Illustration 73: Courses, sessions, promotions and careers
+Deze lijst markeert een dubbel wit paginapictogram waarmee u een volledige carrière kunt kopiëren en een nieuwe kunt maken. De kopie van een carrière kopieert ook de hele onderliggende structuur \(promoties, sessies en cursussen\) geruisloos, wat het een enorm krachtig hulpmiddel voor administratie maakt.
 
-Of all the entities at play here, only periods \(categories of sessions\) and promotions add at the same level \(they group sessions together under a specific concept\). If you take periods out of the equation for a while, the schema is probably easier to understand.
+Laten we, om de volledige structuur, inclusief carrières en promoties, beter te begrijpen, proberen ze weer te geven volgens het volgende schema \(Franse labels moeten gemakkelijk te begrijpen zijn\).
+
+![](../../../.gitbook/assets/graficos90%20%281%29.png)
+
+Afbeelding 73: cursussen, sessies, promoties en carrières
+
+Van alle entiteiten die hier spelen, worden alleen periodes \(categorieën van sessies\) en promoties opgeteld op hetzelfde niveau \(ze groeperen sessies samen onder een specifiek concept\). Als u periodes een tijdje uit de vergelijking haalt, is het schema waarschijnlijk gemakkelijker te begrijpen.
 
