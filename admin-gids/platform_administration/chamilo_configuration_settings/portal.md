@@ -1,30 +1,30 @@
 # Portaal
 
-![](../../../.gitbook/assets/graficos5.png)This category allows you to configure globally-visible information, users registration, or other options that do not fit in any other category. Some of this information can be left empty. In this case, it will not be shown.
+![](../../../.gitbook/assets/graficos5.png) Met deze categorie kunt u wereldwijd zichtbare informatie, gebruikersregistratie of andere opties configureren die niet in een andere categorie passen. Een deel van deze informatie kan leeg worden gelaten. In dit geval wordt het niet weergegeven.
 
-**Registration** allows you to authorize the creation of accounts by external users, to only allow the admin to create them, or to require the admin's approval for the creation of the user account.
+**Registratie** stelt u in staat om het aanmaken van accounts door externe gebruikers toe te staan, om alleen de admin toe te staan deze aan te maken, of om de goedkeuring van de admin te vereisen voor het aanmaken van het gebruikersaccount.
 
-**Registration as t\*\***eache**\*\*r** allows you to let any new user choose to be a teacher \(and as such to create new courses\). You generally _don't_ want this option to be enabled.
+**Registratie als teacher** stelt je in staat elke nieuwe gebruiker te laten kiezen om leraar te worden \(en als zodanig nieuwe cursussen te maken\). Over het algemeen wilt u _don't_ dat deze optie is ingeschakeld.
 
-**Enable learner view** allows you to let teachers have a preview of what their course would look like seen as a student. It is a highly useful tool and we don't recommend you remove this feature.
+**Leerlingweergave inschakelen** stelt u in staat om docenten een voorbeeld te geven van hoe hun cursus eruit zou zien als student. Het is een zeer nuttige tool en we raden u af deze functie te verwijderen.
 
-**Page after login** allows you to select whether you want the user to get back to your platform welcome page \(Homepage\), to go directly to their courses list \(My courses_\)_ or to go to the courses catalogue.
+**Pagina na inloggen** stelt u in staat om te selecteren of u wilt dat de gebruiker terugkeert naar de welkomstpagina van uw platform \(Homepage\), om rechtstreeks naar de lijst met cursussen \(_Mijn cursussen_\) of om naar de cursussen te gaan catalogus.
 
-Tabs in header allows you to select which tabs you want to show in the tabs bar. Any tab unselected from this list will cease to appear in the tabs bar, but it will still be accessible through the user vertical menu on the _My courses_ page. Make sure you don't remove them all from the header at the same time.
+Met tabbladen in koptekst kunt u selecteren welke tabbladen u in de tabbladenbalk wilt weergeven. Elk tabblad dat niet in deze lijst is geselecteerd, wordt niet meer weergegeven in de balk met tabbladen, maar is nog steeds toegankelijk via het verticale gebruikersmenu op de pagina _Mijn cursussen_. Zorg ervoor dat u ze niet allemaal tegelijk uit de koptekst verwijdert.
 
-**Allow non admin to create** **courses** allows teachers to create courses. It is allowed by default, but in a strongly-structured organization, you'll want the admin to setup the courses and their teachers, so this option might be better turned off.
+**Sta niet-beheerders toe om cursussen** te maken zodat docenten cursussen kunnen maken. Het is standaard toegestaan, maar in een sterk gestructureerde organisatie wilt u dat de beheerder de cursussen en hun docenten instelt, dus deze optie kan beter worden uitgeschakeld.
 
-Learners access to courses catalogue lets you decide whether the students can see the courses catalogue \(available as a link on their courses list page\) or not. The course catalogue gives links to course subscription, so removing the access will also prevent them from registering by themselves.
+Toegang van studenten tot de cursuscatalogus laat je beslissen of de studenten de cursuscatalogus \(beschikbaar als link op hun cursuslijstpagina\) kunnen zien of niet. De cursuscatalogus geeft links naar cursusabonnementen, dus als je de toegang verwijdert, kunnen ze zich ook niet meer zelf registreren.
 
-**Enable terms and conditions** enables the special _terms and conditions_ feature \(that you will then have to configure from the administration page\). Terms and conditions deal with languages and versions, and ensure your students have access to your portal only if they agree with the latest version.
+**Schakel algemene voorwaarden in** schakelt de speciale _terms and conditions_-functie in \(die u dan moet configureren vanaf de beheerpagina\). Algemene voorwaarden hebben betrekking op talen en versies en zorgen ervoor dat uw studenten alleen toegang hebben tot uw portaal als ze akkoord gaan met de nieuwste versie.
 
-Show link to report bug allows you to remove the little ladybug in a green floating tab on the right of the screen. It is recommended to disable this option on any production portal.
+Link weergeven om bug te rapporteren stelt je in staat het kleine lieveheersbeestje te verwijderen in een groen zwevend tabblad aan de rechterkant van het scherm. Het wordt aanbevolen om deze optie op elke productieportal uit te schakelen.
 
-Courses validation allows you to enable a feature by which “requests” for courses can be done by teachers. The admin will have an additional interface through which he'll authorize the creation of new courses.
+Met cursusvalidatie kunt u een functie inschakelen waarmee "verzoeken" voor cursussen kunnen worden gedaan door docenten. De admin heeft een extra interface waarmee hij toestemming geeft voor het maken van nieuwe cursussen.
 
-Enable watermark in PDF export allows you to upload an image or text to be added to all PDF exports on the system.
+Watermerk inschakelen in PDF-export stelt u in staat een afbeelding of tekst te uploaden om toe te voegen aan alle PDF-exporten op het systeem.
 
-Font resize accessibility feature allows you to show a small set of letters on the top-right side of your portal to let users make fonts larger \(for better reading\) without affecting the platform.
+Met de toegankelijkheidsfunctie voor het wijzigen van de grootte van lettertypen kunt u een kleine set letters rechtsboven in uw portaal weergeven, zodat gebruikers lettertypen groter kunnen maken \(voor beter lezen\) zonder het platform te beïnvloeden.
 
 Show admin toolbar allows you to control the top-page floating admin bar that has appeared by default in Chamilo versions after 1.9. If you don't like it, just disable it.
 
