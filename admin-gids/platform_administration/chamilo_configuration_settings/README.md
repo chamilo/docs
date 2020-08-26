@@ -1,12 +1,13 @@
 # Chamilo-configuratie-instellingen
 
-These settings join several categories, shown in the following illustration.
+Deze instellingen voegen zich bij verschillende categorieën, zoals weergegeven in de volgende illustratie.
 
-![](../../../.gitbook/assets/images17%20%281%29.png)Illustration 30: Administration – Portal settings categories
+![](../../../.gitbook/assets/images17%20%281%29.png)
 
-Chamilo offers a default configuration, which is not necessarily the one you would prefer. Even if all options are worth being explained, as an admin should know his environment perfectly, we're only going to see here the ones we consider the most important or more likely to be changed in comparison with the default settings. You can always find a complete list of settings in the Appendix on page 91.
+Afbeelding 30: Beheer - Categorieën portaalinstellingen
 
-Due to the number of settings now available to reconfigure your Chamilo portal, the Chamilo team built a nice and easy search feature. If you don't know where the option is, just search one related word and Chamilo will filter all the corresponding options for you!
+Chamilo biedt een standaardconfiguratie, die niet noodzakelijk de gewenste configuratie is. Zelfs als alle opties de moeite waard zijn om uitgelegd te worden, aangezien een admin zijn omgeving perfect zou moeten kennen, zullen we hier alleen de opties zien waarvan we denken dat ze het belangrijkst zijn of die het meest waarschijnlijk zullen worden gewijzigd in vergelijking met de standaardinstellingen. U kunt altijd een volledige lijst met instellingen vinden in de bijlage op pagina 91.
 
-The three links: _Configuration settings, Plugins_ and _Regions_ are actually direct links to different sections of the configuration settings, so they won't be explained separately.
+Vanwege het aantal instellingen dat nu beschikbaar is om uw Chamilo-portaal opnieuw te configureren, heeft het Chamilo-team een leuke en gemakkelijke zoekfunctie gebouwd. Als je niet weet waar de optie is, zoek dan gewoon een gerelateerd woord en Chamilo filtert alle corresponderende opties voor je!
 
+De drie links: _Configuration settings, Plugins_ en _Regions_ zijn eigenlijk directe links naar verschillende secties van de configuratie-instellingen, dus ze zullen niet afzonderlijk worden uitgelegd.
