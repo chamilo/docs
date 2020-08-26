@@ -4,7 +4,7 @@ Deze lijst met korte vragen en antwoorden kan je helpen om uit te zoeken hoe je 
 
 ## Hoe kan ik een enquête instellen als een vereiste om een cursus te voltooien? <a id="how-can-i-set-a-survey-as-a-requirement-to-complete-a-course"></a>
 
-Het idee van “een cursus afronden” kan alleen worden gebouwd op de tool _Assessments_, door een certificaat op te stellen dat alleen wordt gegenereerd bij het behalen van een bepaalde set leerdoelen \(oefeningen, leertrajecten, opdrachten, enz.\). Enquêtes kunnen vervolgens worden geconfigureerd als een "vergrendelings" -mechanisme waarbij een student geen certificaat kan krijgen als hij de enquête niet invult.
+Het idee van “een cursus afronden” kan alleen worden gebouwd op de tool _Assessments_, door een certificaat op te stellen dat alleen wordt gegenereerd bij het behalen van een bepaalde set leerdoelen \(oefeningen, leertrajecten, opdrachten, enz.\). Enquêtes kunnen vervolgens worden geconfigureerd als een "vergrendelings" mechanisme waarbij een student geen certificaat kan krijgen als hij de enquête niet invult.
 
 Ga hiervoor naar de enquêtetool en maak uw enquête. Vink in de _Geavanceerde instellingen_ het vakje _Kwalificeren in cijferlijst_ aan en selecteer een gewicht van 50 \(ja, 50, dat is meestal vrij groot\).
 
