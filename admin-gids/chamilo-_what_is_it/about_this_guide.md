@@ -1,6 +1,6 @@
 # Over deze gids
 
-This guide has been written through the collaborative action of several companies which contribute, their own way, to the improvement of education around the world.
+Deze gids is tot stand gekomen door de gezamenlijke actie van verschillende bedrijven die op hun eigen manier bijdragen aan de verbetering van onderwijs over de hele wereld.
 
-You can contribute to the writing and improving of this guide too. Just drop us an e-mail at info@chamilo.org and send us back the modified version. It's that easy!
+U kunt ook bijdragen aan het schrijven en verbeteren van deze gids. Stuur ons gewoon een e-mail naar info@chamilo.org en stuur ons de gewijzigde versie terug. Het is zo makkelijk!
 

@@ -2,36 +2,35 @@
 
 ![](../../.gitbook/assets/images21%20%282%29.png)
 
-Chamilo is an e-learning and collaboration platform which comes bundled as open-source software \(or as purists will rightfully correct, _Free Software_\) which can be adapted to educational or professional projects. It is distributed under the [GNU/GPLv3+](http://fr.wikipedia.org/wiki/Licence_publique_générale_GNU) license, which you are bound to accept when using it.
+Chamilo is een e-learning- en samenwerkingsplatform dat gebundeld wordt als open-source software \(of zoals puristen terecht zullen corrigeren, _Free Software_\) die kan worden aangepast aan educatieve of professionele projecten. Het wordt gedistribueerd onder de licentie [GNU / GPLv3 +](http://fr.wikipedia.org/wiki/Licence_publique_générale_GNU), die u bij het gebruik ervan moet accepteren.
 
-Chamilo \(as a software\) has two key aims:
+Chamilo \(als software\) heeft twee hoofddoelen:
 
-1. to support the teacher in better responding to the needs of their students and
-2. to make it so easy to build and edit high-quality digital learning materials that the teacher can not only create but be inspired to develop and continuously improve their courses' content.
+1. de docent ondersteunen om beter in te spelen op de behoeften van hun studenten en
+2. het zo gemakkelijk maken en bewerken van hoogwaardig digitaal leermateriaal dat de docent niet alleen kan creëren, maar ook geïnspireerd kan worden om de inhoud van zijn cursussen te ontwikkelen en continu te verbeteren.
 
-The goal of the Chamilo Association, through the publishing of Chamilo, is to "Increase the availability of quality education worldwide".
+Het doel van de Chamilo Association, door middel van de publicatie van Chamilo, is om "de beschikbaarheid van kwaliteitsonderwijs wereldwijd te vergroten".
 
-A teacher using Chamilo can access a series of useful tools allowing them to easily and efficiently create an effective learning environment. On creating/editing a course he \(or she\) can:
+Een leraar die Chamilo gebruikt, heeft toegang tot een reeks handige tools waarmee hij gemakkelijk en efficiënt een effectieve leeromgeving kan creëren. Bij het maken / bewerken van een cursus kan hij \(of zij\):
 
-* import or create **documents** \(audio, video, images\) and publish them,
-* build **tests** and **exams** with **automated scores and feedback** as required,
-* build or import \([SCORM](http://fr.wikipedia.org/wiki/Sharable_Content_Object_Reference_Model) and [AICC](http://fr.wikipedia.org/wiki/Aviation_Industry_CBT_Committee)\) compliant courses,
-* set and receive **virtual assignments**,
-* describe the components of the course through **description** sections,
-* communicate through **forums** or **chat**,
-* publish **announcements**,
-* add **links**,
-* create **work groups** or laboratory groups,
-* set up a **virtual classroom** \(through the videoconference extension\),
-* manage **scores** through the assessments tool,
-* create **surveys**,
-* add a **wiki** to create documents collaboratively,
-* use a **glossary**,
-* use an **agenda**,
-* manage a **project** \(through the **blog** tool\),
-* enable **tracking** of learners in your courses,
-* register **attendances**,
-* elaborate **a class diary \(course progress\)**.
+* importeer of maak **documenten** \ (audio, video, afbeeldingen \) en publiceer ze,
+* bouw **tests** en **examens** met **geautomatiseerde scores en feedback** zoals vereist,
+* bouwen of importeren \([SCORM](http://fr.wikipedia.org/wiki/Sharable_Content_Object_Reference_Model) en [AICC](http://fr.wikipedia.org/wiki/Aviation_Industry_CBT_Committee)\) cursussen,
+* stel en ontvang **virtuele opdrachten**,
+* beschrijf de onderdelen van de cursus via **beschrijving** secties,
+* communiceren via **forums** of **chat**,
+* publiceer **aankondigingen**,
+* voeg **links** toe,
+* maak **werkgroepen** of laboratoriumgroepen,
+* een **virtueel klaslokaal** opzetten \(via de videoconferentie-extensie\),
+* beheer **scores** via de assessmenttool,
+* maak **enquêtes**,
+* voeg een **wiki** toe om samen documenten te maken,
+* gebruik een **woordenlijst**,
+* gebruik een **agenda**,
+* beheer een **project** \(via de **blog** tool\),
+* schakel **tracking** van studenten in uw cursussen in,
+* registreer **aanwezigheden**,
+* werk **een lesdagboek uit \(voortgang van de cursus\)**.
 
-The Chamilo platform is extremely **flexible**. All its tools can be customized according to the needs of each course. It provides a **friendly** and **intuitive** user interface which requires no special prior technical knowledge or skills.
-
+Het Chamilo-platform is extreem **flexibel**. Al zijn tools kunnen worden aangepast aan de behoeften van elke cursus. Het biedt een **vriendelijke** en **intuïtieve** gebruikersinterface waarvoor geen speciale technische kennis of vaardigheden vereist zijn.

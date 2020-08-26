@@ -1,4 +1,3 @@
 # Stijlbladen
 
-As mentioned in section 4.1.14 Stylesheets on page 36, the Chamilo styles can be updated through a simple copy of any of the existing styles located in _chamilo/main/css/_. You'll find a series of styles directories in this directory, e.g. _chamilo\_green_, which can be copied, renamed and modified at wish. To test them, just go to the _Stylesheets_ section of your portal configuration page, upload your style as a .zip file and select the style uploaded, then save.
-
+Zoals vermeld in sectie 4.1.14 Stylesheets op pagina 36, kunnen de Chamilo-stijlen worden bijgewerkt door een eenvoudige kopie van een van de bestaande stijlen in _chamilo/main/css/_. In deze directory vindt u een reeks stijlmappen, bijv. _chamilo\_green_, die naar wens kan worden gekopieerd, hernoemd en gewijzigd. Om ze te testen, gaat u naar het gedeelte _Stylesheets_ van uw portalconfiguratiepagina, uploadt u uw stijl als een .zip-bestand en selecteert u de geüploade stijl en slaat u deze op.

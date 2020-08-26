@@ -1,6 +1,5 @@
 # Cursusdetails bijwerken
 
-To update the details of a course, click on the pencil icon on the right. As an admin, it is possible to change as many information as the teacher/creator of the course in the course settings.
+Om de details van een cursus bij te werken, klikt u op het potloodpictogram aan de rechterkant. Als admin is het mogelijk om in de cursusinstellingen zoveel mogelijk informatie te wijzigen als de docent/maker van de cursus.
 
-However, the admin can also update the allowed disk space for the course and mark it as a _Special course_, which makes it visible on top of the list of courses for all users of the platform.
-
+De admin kan echter ook de toegestane schijfruimte voor de cursus bijwerken en deze markeren als een _Speciale cursus_, waardoor deze zichtbaar wordt bovenaan de lijst met cursussen voor alle gebruikers van het platform.

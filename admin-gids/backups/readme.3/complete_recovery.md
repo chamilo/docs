@@ -1,14 +1,13 @@
 # Volledig herstel
 
-This recovery procedure has been tested a few times, but your configuration might vary considerably from this example. Here we will use a local installation case, using PhpMyAdmin and a backup of the Chamilo root directory. For a remote server, it would require SSH / SFTP or FTP access to the server.
+Deze herstelprocedure is een paar keer getest, maar uw configuratie kan aanzienlijk afwijken van dit voorbeeld. Hier zullen we een lokale installatiecasus gebruiken, met behulp van PhpMyAdmin en een back-up van de Chamilo-hoofdmap. Voor een externe server is SSH/SFTP of FTP-toegang tot de server vereist.
 
-This recovery might be necessary after you mistakenly delete some or all of the Chamilo databases, or after serious damage has been caused on your server by a cracker.
+Dit herstel kan nodig zijn nadat u per ongeluk enkele of alle Chamilo-databases heeft verwijderd, of nadat er ernstige schade is toegebracht aan uw server door een cracker.
 
-1. Copy the backup file into the root directory \(/var/www\) and unzip it. Keeping the same directories structure allows you not to loose some of the pre-configured access path to some data.
-2. Import the database backup from PhpMyAdmin \(after removing the previous database if it was still present\).
-3. Connect to your site and check everything is in order.
+1. Kopieer het back-upbestand naar de root directory \(/var/www\) en pak het uit. Door dezelfde mappenstructuur te behouden, kunt u een deel van het vooraf geconfigureerde toegangspad tot bepaalde gegevens niet verliezen.
+2. Importeer de databaseback-up vanuit PhpMyAdmin \(na het verwijderen van de vorige database als deze nog aanwezig was\).
+3. Maak verbinding met uw site en controleer of alles in orde is.
 
-The backup contains users, passwords, courses, learning paths, and all the resources of your portal.
+De back-up bevat gebruikers, wachtwoorden, cursussen, leertrajecten en alle bronnen van uw portal.
 
-We actively recommend taking automatic backups on **another** server at least once a day for critical Chamilo servers.
-
+We raden actief aan om minstens één keer per dag automatische back-ups te maken op **een andere** server voor kritieke Chamilo-servers.

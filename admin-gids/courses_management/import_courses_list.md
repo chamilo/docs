@@ -1,8 +1,9 @@
 # Lijst met cursussen importeren
 
-This feature allows you to import a CSV file to create courses. If you use categories and you are importing the courses in another platform then the one you exported them from, you will need to ensure you have the same category codes on both portals.
+Met deze functie kun je een CSV-bestand importeren om cursussen te maken. Als je categorieën gebruikt en je importeert de cursussen op een ander platform dan het platform waaruit je ze hebt geëxporteerd, dan moet je ervoor zorgen dat je op beide portals dezelfde categoriecodes hebt.
 
-![](../../.gitbook/assets/creer-formation-lot%20%281%29.png)Illustration 60: Administration – Creating courses by batches
+![](../../.gitbook/assets/creer-formation-lot%20%281%29.png)
 
-Once imported, you will only need to fill learning paths.
+Afbeelding 60: Administratie - Cursussen aanmaken in batches
 
+Eenmaal geïmporteerd hoeft u alleen leertrajecten in te vullen.

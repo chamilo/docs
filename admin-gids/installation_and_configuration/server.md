@@ -1,62 +1,69 @@
 # Server
 
-To install Chamilo, you will need a web server, a database server and an [FTP](http://fr.wikipedia.org/wiki/File_Transfer_Protocol) client \(or any other, preferably secure, way to upload files to the server, such as SFTP, to ensure the security of your future Chamilo server\).
+Nota: Deze pagina is verouderd.
 
-The platform works on most operating systems:
+Om Chamilo te installeren, heeft u een webserver, een databaseserver en een [FTP](http://fr.wikipedia.org/wiki/File_Transfer_Protocol) client \(of een andere, bij voorkeur beveiligde, manier nodig om bestanden naar de server, zoals SFTP, om de veiligheid van uw toekomstige Chamilo-server te garanderen\).
+
+Het platform werkt op de meeste besturingssystemen:
 
 * GNU/Linux, BSD, UNIX
 * Windows \(XP, Vista, 7\)
 * Mac OS X
 
-It is recommended to install a [Wamp](http://fr.wikipedia.org/wiki/WAMP) server \([Windows](http://fr.wikipedia.org/wiki/Microsoft_Windows)\), or the components of a LAMP server \(Linux\). LAMP goes for:
+Het wordt aanbevolen om een [Wamp](http://fr.wikipedia.org/wiki/WAMP) server \([Windows](http://fr.wikipedia.org/wiki/Microsoft_Windows)\) te installeren, of de componenten van een LAMP-server \(Linux\). LAMP gaat voor:
 
 * [Linux](http://fr.wikipedia.org/wiki/Linux)
 * [Apache](http://fr.wikipedia.org/wiki/Apache_HTTP_Server)
 * [MySQL](http://fr.wikipedia.org/wiki/MySQL)
 * [PHP5](http://fr.wikipedia.org/wiki/PHP)
 
-This server must support PHP 5.3 or superior and MySQL 5.1 or superior \(or, alternatively, MariaDB\).
+Deze server moet PHP 5.3 of hoger en MySQL 5.1 of hoger \(of, als alternatief, MariaDB\) ondersteunen.
 
-During the site and database creation, be it online or local, the hosting provider must provide the parameters which will be asked during the installation, i.e.:
+Tijdens het aanmaken van de site en de database, of het nu online of lokaal is, moet de hostingprovider de parameters opgeven die tijdens de installatie worden gevraagd, d.w.z .:
 
-* the FTP \(or SFTP\) server name,
-* the username for this server,
-* the password for this server,
-* the name of the SQL server \(if different from the FTP server\),
-* the name of the database,
-* the username and password for this database.
+* de FTP \(of SFTP\) servernaam,
+* de gebruikersnaam voor deze server,
+* het wachtwoord voor deze server,
+* de naam van de SQL-server \(indien verschillend van de FTP-server\),
+* de naam van de database,
+* de gebruikersnaam en het wachtwoord voor deze database.
 
-Under GNU/Linux, most distributions \(Debian, RedHat, Suse, CentOS, ...\) allow you to easily configure a LAMP server. In this tutorial, we will use the GNU/Linux Ubuntu distribution, version 12.04 Long Term Support as an example. Although other distributions will work just fine, Chamilo's development team uses Debian or Ubuntu as preferred distribution of GNU/Linux for their security as well as their very stable and intelligent packaging system, which avoid fighting against dependencies when the need to install new packages presents itself.
+Onder GNU/Linux kunt u met de meeste distributies \(Debian, RedHat, Suse, CentOS, ...\) eenvoudig een LAMP-server configureren. In deze tutorial gebruiken we de GNU/Linux Ubuntu-distributie, versie 12.04 Long Term Support als voorbeeld. Hoewel andere distributies prima zullen werken, gebruikt het ontwikkelingsteam van Chamilo Debian of Ubuntu als voorkeursdistributie van GNU/Linux voor hun veiligheid en voor hun zeer stabiele en intelligente pakketsysteem, die vechten tegen afhankelijkheden vermijden wanneer de noodzaak om nieuwe pakketten te installeren zich voordoet. .
 
-Installing Apache \(in its version 2\) :
+Apache installeren \(in versie 2\):
 
+```
 user@server: sudo apt-get install apache2-mpm-prefork
+```
 
-Installing MySQL:
-
+MySQL installeren:
+```
 user@server: sudo apt-get install mysql-server
-
-Installing PHP5 with bindings for Apache and MySQL, and other recommended features:
-
+```
+PHP5 installeren met bindingen voor Apache en MySQL, en andere aanbevolen functies:
+```
 user@server: sudo apt-get install libapache2-mod-php5 php5-mysql php5-pear php5-gd php5-xml php5-intl php5-curl
+```
+U kunt al deze toepassingen ook in één keer installeren met de volgende opdracht:
+```
+user@server: sudo apt-get install apache2-mpm-prefork mysql-server libapache2-mod-php5 php5-mysql php5-peer php5-gd php5-xml php5-intl php5-curl
+```
 
-You could also install all these applications at once using the following command:
+Het installatieproces zal u wat informatie vragen over de configuratie van uw systeem. Lees de instructies aandachtig door en antwoord met volledige beoordelingsvermogen. Als u het niet weet, kunt u de standaardwaarden waarschijnlijk ingeschakeld laten.
 
-user@server: sudo apt-get install apache2-mpm-prefork mysql-server libapache2-mod-php5 php5-mysql php5-pear php5-gd php5-xml php5-intl php5-curl
+Voor degenen onder u die Chamilo lokaal willen gebruiken om tests of updates uit te voeren, raden we de installatie van de _Xdebug_-module en de _Web-ontwikkelaarstool in Firefox aan. De aanbevolen opdracht voor het installeren van een volledige ontwikkel- / testomgeving zijn:
+```
+user@server: sudo apt-get install apache2-mpm-prefork mysql-server libapache2-mod-php5 php5-mysql php5-peer php5-gd php5-xml php5-intl php5-curlphp5-xdebug php5-dev
+```
 
-The installation process will ask you some information about the configuration of your system. Please read the instructions carefully and answer in full judgement capacity. If you don't know, you can probably leave the default values enabled.
+Houd er rekening mee dat het gebruik van Xdebug zeer ernstige gevolgen kan hebben voor de efficiëntie van uw portaal, dus het is echt aan te raden om het uit te schakelen wanneer u het naar productie gaat (zie PHP-configuratie in php.ini , xdebug.ini of in uw VirtualHost \).
 
-For those of you planning to use Chamilo locally to run tests or updates, we recommend the installation of the _Xdebug_ module and the _Web developer_ tool in Firefox. The recommended command for installing a full development/testing environment are:
+Om het gewicht van de verschillende processen in Chamilo te meten, kun je de XHProf-bibliotheek gebruiken die \ (voornamelijk \) door Facebook is ontwikkeld. Zie BeezNest's blog voor meer informatie over het configureren ervan.
 
-user@server: sudo apt-get install apache2-mpm-prefork mysql-server libapache2-mod-php5 php5-mysql php5-pear php5-gd php5-xml php5-intl php5-curlphp5-xdebug php5-dev
+Ten slotte raden we op een redelijk geladen productieserver het gebruik aan van een PHP-cachegeheugenbeheersysteem zoals_Xcache, APC of Memcache_ en het snel lezen van de optimalisatiegids die is ingesloten in de _documentation_-directory van je Chamilo-pakket. Gebruik deze opdracht om de installatie van Xcache op te nemen in de volledige installatie:
 
-Be aware that using Xdebug might have very serious consequences on the efficiency of your portal, so it is really recommended, in case you **did** install it, to disable it when moving to production \(see PHP configuration in php.ini, xdebug.ini or in your VirtualHost\).
+```
+user@server: sudo apt-get install apache2-mpm-prefork mysql-server libapache2-mod-php5 php5-mysql php5-peer php5-gd php5-xml php5-intl php5-curl php5-xdebug php5-dev php5-xcache
+```
 
-To measure the weight of the different processes in Chamilo, you can use the XHProf library developed \(mainly\) by Facebook. See BeezNest's blog for more info on how to configure it.
-
-Finally, on fairly-loaded production server, we recommend the use of a PHP cache memory management system like_Xcache, APC or Memcache_ and the quick reading of the optimisation guide embedded into the _documentation_ directory of your Chamilo package. To include the installation of Xcache to the full installation, use this command:
-
-user@server: sudo apt-get install apache2-mpm-prefork mysql-server libapache2-mod-php5 php5-mysql php5-pear php5-gd php5-xml php5-intl php5-curl php5-xdebug php5-dev php5-xcache
-
-Consider using MemCached to store sessions, but be aware this can lead to tricky problems with loss of sessions if not configured properly.
-
+Overweeg MemCached te gebruiken om sessies op te slaan, maar houd er rekening mee dat dit kan leiden tot lastige problemen met het verlies van sessies als het niet goed is geconfigureerd.

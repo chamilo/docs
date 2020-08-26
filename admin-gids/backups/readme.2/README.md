@@ -1,4 +1,4 @@
 # De Chamilo-interface opslaan
 
-Chamilo offers different ways to save data. It is possible to save a complete course \(or almost so\) or a course element in particular, but only as administrator or teacher.
+Chamilo biedt verschillende manieren om gegevens op te slaan. Het is mogelijk om een volledige cursus \(of bijna zo\) of een cursuselement in het bijzonder op te slaan, maar alleen als beheerder of docent.
 

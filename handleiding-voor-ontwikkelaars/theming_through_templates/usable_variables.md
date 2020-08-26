@@ -1,18 +1,18 @@
 # Bruikbare variabelen
 
-Because we want this template system to be practical for us, and because we don't want to always be assigning all the common variables we'll need rightat the end of our scripts, Chamilo comes with a set of pre-defined variables and arrays you can use.
+Omdat we willen dat dit sjabloonsysteem praktisch voor ons is, en omdat we niet altijd alle gangbare variabelen willen toewijzen die we nodig hebben aan het einde van onze scripts, wordt Chamilo geleverd met een set vooraf gedefinieerde variabelen en arrays je kunt gebruiken.
 
-Here is a list of those variables and arrays... Not that it might not be exhaustive and that, at this time, we have no way of helping you list these, but you **could** hack into _**main/inc/lib/template.lib.php**_ and search for all _**$this-&gt;assign\('literal', $variable\) ;**_ calls to find out.
+Hier is een lijst met die variabelen en arrays... Niet dat het misschien niet volledig is en dat we je op dit moment niet kunnen helpen om deze op te sommen, maar je kunt _**main/inc/lib/template.lib.php**_ en zoek naar alle _**$this->assign\('literal', $variable\);**_ calls om erachter te komen.
 
-## The \_u array
+## De \_u array
 
-The **\_u** array contains general information about the user. You could get the user's firstname to be printed inside any tpl by using the following syntax :
+De **\_u** array bevat algemene informatie over de gebruiker. U kunt de voornaam van de gebruiker in elke tpl laten afdrukken door de volgende syntaxis te gebruiken:
 
 ```text
 {{ _u.firstname }}
 ```
 
-Here is a complete list of the values it contains, together with an example of the value you'll get from them. As you will see, some of these are duplicated under a slightly different name. We recommend always using the lowercase variables, as others should be cleaned out progressively in the future.
+Hier is een volledige lijst met de waarden die het bevat, samen met een voorbeeld van de waarde die u ervan krijgt. Zoals u zult zien, zijn sommige hiervan onder een iets andere naam gedupliceerd. We raden aan om altijd de variabelen in kleine letters te gebruiken, omdat andere in de toekomst geleidelijk moeten worden opgeschoond.
 
 ```text
 [complete_name] => John Doe
@@ -43,9 +43,9 @@ Here is a complete list of the values it contains, together with an example of t
 [messages_invitations_count] => 0
 ```
 
-## The \_p array
+## Het \_p array
 
-This array contains a list of different forms of paths that you might need at the template level, for example to link to other resources.
+Deze array bevat een lijst met verschillende vormen van paden die u mogelijk nodig heeft op sjabloonniveau, bijvoorbeeld om te linken naar andere bronnen.
 
 ```text
 [web] => http://my.chamilo110.net/
@@ -64,17 +64,17 @@ This array contains a list of different forms of paths that you might need at th
 [web_cid_query] => cidReq=ABC&amp;id_session=0&amp;gidReq=0&amp;gradebook=0&amp;origin=...
 ```
 
-You could get the basis of the courses directory to be printed inside any tpl by using the following syntax :
+U kunt de basis van de cursusmap die moet worden afgedrukt in elke tpl krijgen door de volgende syntaxis te gebruiken:
 
 ```text
 {{ _p.web_course }}
 ```
 
-Note that system paths, although easily available otherwise in the PHP scripts, are not provided here, as they should never be shown to the final users \(even in the HTML source code\).
+Merk op dat systeempaden, hoewel ze anders gemakkelijk beschikbaar zijn in de PHP-scripts, hier niet worden gegeven, aangezien ze nooit aan de eindgebruikers mogen worden getoond (zelfs niet in de HTML-broncode).
 
-## The \_s array
+## Het \_s array
 
-This array contains some system variables representing general platform information
+Deze array bevat enkele systeemvariabelen die algemene platforminformatie vertegenwoordigen
 
 ```text
 [software_name] => Chamilo 
@@ -86,17 +86,17 @@ This array contains some system variables representing general platform informat
 [gamification_mode] => true/false
 ```
 
-i.e. you can get the site name \(as configured in the global settings\) to be printed inside any tpl by using the following syntax :
+d.w.z. u kunt de sitenaam \(zoals geconfigureerd in de algemene instellingen\) binnen elke tpl laten afdrukken door de volgende syntaxis te gebruiken:
 
 ```text
 {{ _s.site_name }}
 ```
 
-## The \_c array
+## Het \_c array
 
-This array \(only present starting from 1.9.8\) contains information about the current course.
+Deze array \(alleen aanwezig vanaf 1.9.8\) bevat informatie over de huidige cursus.
 
-You can check if the current course is defined \(i.e. if the user is inside a course right now\) by using the _course\_is\_set_ variable :
+Je kunt controleren of de huidige cursus is gedefinieerd \(d.w.z. of de gebruiker zich momenteel in een cursus bevindt\) door de variabele _course\_is\_set_ te gebruiken:
 
 ```text
 { % if course_is_set %}
@@ -106,7 +106,7 @@ You can check if the current course is defined \(i.e. if the user is inside a co
 { % endif %}
 ```
 
-The \_c array looks like this :
+De \_c array ziet er als volgt uit:
 
 ```text
 [id] => MODULE3 
@@ -120,11 +120,11 @@ The \_c array looks like this :
 [student_view] => false
 ```
 
-As you can see, it also contains the session ID. Session ID is always 0 when we are **not** in a session at all.
+Zoals u kunt zien, bevat het ook de sessie-ID. Sessie-ID is altijd 0 als we helemaal **niet** in een sessie zijn.
 
-You can also use, from the tpl, the `{{ course_code }}` variable, which is equivalent to `{{ _c.code }}`.
+U kunt ook vanuit de tpl de variabele '{{course_code}}' gebruiken, die gelijk is aan '{{_c.code}}'.
 
-Although a bit more complex already, you could decide whether or not you'd want to show a link to a course by checking its visibility, like so:
+Hoewel het al wat ingewikkelder is, kun je als volgt beslissen of je een link naar een cursus wilt weergeven door de zichtbaarheid ervan te controleren:
 
 ```text
 { % if _c.visibility == 1 %}
@@ -132,13 +132,13 @@ Although a bit more complex already, you could decide whether or not you'd want 
 {% endif %}
 ```
 
-As you can see, we combined several variables here, including one from the \_s array, to write a condition that will show a full link to the course homepage to the user, only if the course has a visibility of « 1 ».
+Zoals je kunt zien, hebben we hier verschillende variabelen gecombineerd, waaronder een uit de \_s array, om een voorwaarde te schrijven die een volledige link naar de startpagina van de cursus aan de gebruiker laat zien, alleen als de cursus een zichtbaarheid van «1» heeft.
 
-## Individual variables
+## Individuele variabelen
 
-Other variables are defined individually but are always available inside any template.
+Andere variabelen worden afzonderlijk gedefinieerd, maar zijn altijd beschikbaar in elk sjabloon.
 
-As for the previous groups, the list below should be self-explanatory through the example values provided. In some cases, we add a comment after a « // » sign to give you more info.
+Net als voor de vorige groepen, zou de onderstaande lijst voor zichzelf moeten spreken door de gegeven voorbeeldwaarden. In sommige gevallen voegen we een opmerking toe na een «//» teken om u meer informatie te geven.
 
 ```text
 system_charset => utf-8
@@ -176,5 +176,4 @@ css_styles => chamilo_red // disambig. of CSS/style vs theme vs template
 template => default // disambiguation of CSS (*.css) vs template (*.tpl)
 ```
 
-i.e. you can get the name of the current CSS in use \(and so get elements from the images/ folder in there\) simply by using the following syntax:
-
+d.w.z. je kunt de naam krijgen van de huidige CSS die in gebruik is \(en dus elementen uit de images/ map daarin\) krijgen door simpelweg de volgende syntaxis te gebruiken:

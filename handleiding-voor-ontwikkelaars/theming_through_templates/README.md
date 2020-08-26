@@ -1,8 +1,8 @@
 # Thema's door middel van sjablonen
 
-![](https://github.com/chamilo/docs/tree/fbd412b43ccca034e3bced0a85bedab44d5b579f/es/developer/assets/images14.png) ![](https://github.com/chamilo/docs/tree/fbd412b43ccca034e3bced0a85bedab44d5b579f/es/developer/assets/images13.png) ![](https://github.com/chamilo/docs/tree/fbd412b43ccca034e3bced0a85bedab44d5b579f/es/developer/assets/images15.png) Chamilo, since version 1.10, uses the Twig templating engine for most \(and in the future all\) of its interface.
+![](https://github.com/chamilo/docs/tree/fbd412b43ccca034e3bced0a85bedab44d5b579f/es/developer/assets/images14.png) ![](https://github.com/chamilo/docs/tree/fbd412b43ccca034e3bced0a85bedab44d5b579f/es/developer/assets/images13.png) ![](https://github.com/chamilo/docs/tree/fbd412b43ccca034e3bced0a85bedab44d5b579f/es/developer/assets/images15.png) Chamilo gebruikt sinds versie 1.10 de Twig-sjabloonengine voor de meeste \(en in de toekomst\) alle interface.
 
-To update the template in Chamilo, you can one of two things: redefine some template files in `main/template/override/` OR copy the `default` folder and modify a line in `app/config/configuration.php`, following this procedure :
+Om de sjabloon in Chamilo bij te werken, kunt u een van de volgende twee dingen doen: sommige sjabloonbestanden opnieuw definiëren in `main/template/override/` OF de map `standaard` kopiëren en een regel wijzigen in `app/config/configuration.php`, als volgt deze procedure :
 
 ```text
 cd main/template/
@@ -16,22 +16,22 @@ vim ../../app/config/configuration.php
 // the admin page
 ```
 
-This way, you can edit anything in your new template, while keeping the original template available, and you also avoid your template being overwritten during your next Chamilo upgrade.
+Op deze manier kunt u alles in uw nieuwe sjabloon bewerken, terwijl u de originele sjabloon beschikbaar houdt, en voorkomt u ook dat uw sjabloon wordt overschreven tijdens uw volgende Chamilo-upgrade.
 
-However, it is important to understand that any custom template will have to be maintained: if a new .tpl file is created in the default/ template in Chamilo, then this new .tpl file will have to be added to your custom template. In the case of the override/ folder, although it is not necessary to create the corresponding file, it is still necessary to make sure that no new information added to the default/ .tpl file that would otherwise not appear in the override. These changes can be tracked through the history of changes in the default/ directory on Github: [https://github.com/chamilo/chamilo-lms/commits/1.11.x/main/template/default](https://github.com/chamilo/chamilo-lms/commits/1.11.x/main/template/default)
+Het is echter belangrijk om te begrijpen dat elke aangepaste sjabloon moet worden gehandhaafd: als een nieuw .tpl-bestand wordt gemaakt in de default/template map in Chamilo, dan moet dit nieuwe .tpl-bestand worden toegevoegd aan uw aangepaste sjabloon. In het geval van de _override/_ map is het, hoewel het niet nodig is om het corresponderende bestand aan te maken, toch nodig om ervoor te zorgen dat er geen nieuwe informatie wordt toegevoegd aan het default/ .tpl-bestand die anders niet in de override zou verschijnen. Deze wijzigingen kunnen worden gevolgd via de geschiedenis van wijzigingen in de default/ directory op Github: [https://github.com/chamilo/chamilo-lms/commits/1.11.x/main/template/default](https://github.com/chamilo/chamilo-lms/commits/1.11.x/main/template/default)
 
-Inside the _default_ directory, you'll find the following directories, which we explain when needed \(most of them are self-explanatory\).
+In de _default_ directory vind je de volgende directories, die we indien nodig uitleggen \(de meeste spreken voor zich\).
 
 * admin
 * agenda
-* auth → all stuff related to authentication forms and processes
+* auth → alle dingen met betrekking tot authenticatieformulieren en -processen
 * course\_description
 * create\_course
 * export
 * form
 * glossary
-* index → homepage for anonymous users and announcements
-* layout → header, footer, banner and more are stored here
+* index → homepage voor anonieme gebruikers en aankondigingen
+* layout → koptekst, voettekst, banner en meer worden hier opgeslagen
 * learnpath 
 * link 
 * mail\_editor
@@ -39,6 +39,6 @@ Inside the _default_ directory, you'll find the following directories, which we 
 * pages
 * social
 * skill
-* userportal → list courses in « My courses » tab
+* userportal → lijst cursussen op het tabblad «Mijn cursussen»
 * work
 

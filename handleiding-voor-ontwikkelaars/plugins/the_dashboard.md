@@ -1,6 +1,5 @@
 # Het dashboard
 
-At the moment we removed the dashboard from the teacher/student view because _some_ of the charts that show there are _very_ slow when you have a lot of data, and we believe it would be a bad idea to show it to all users.Recently, however, we started doing a small change to allow the platform admin to see one more chart than the other admins, so there is a start for doing role-based changes.
+Op dit moment hebben we het dashboard verwijderd uit de docent/leerling weergave omdat _sommige_ van de grafieken die laten zien dat er _heel_ traag zijn als je veel gegevens hebt, en we denken dat het een slecht idee zou zijn om het aan alle gebruikers te laten zien. We zijn echter begonnen met een kleine wijziging om de platformbeheerder toe te staan nog een grafiek te zien dan de andere beheerders, dus er is een begin voor het aanbrengen van op rollen gebaseerde wijzigingen.
 
-If you want to unlock completely the dashboard for all users, you can unlock the permissions at main/inc/lib/banner.lib.php, around line 319, where you have checks on api\_is\_platform\_admin\(\), api\_is\_drh\(\) and api\_is\_session\_admin\(\). Remove this line and you'll get it for students and teachers indifferently.
-
+Als je het dashboard volledig wilt ontgrendelen voor alle gebruikers, kun je de rechten ontgrendelen op main/inc/lib/banner.lib.php, rond regel 319, waar je controles hebt op api\_is\_platform\_admin\(\) , api\_is\_drh\(\) en api\_is\_session\_admin\(\). Verwijder deze regel en je krijgt het onverschillig voor studenten en docenten.
