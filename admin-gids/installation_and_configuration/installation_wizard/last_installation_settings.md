@@ -1,22 +1,26 @@
 # Laatste installatie-instellingen
 
-Once Chamilo is installed, the success message also brings a short warning message
+Zodra Chamilo is geïnstalleerd, bevat het succesbericht ook een kort waarschuwingsbericht
 
-« **Security hint**: To protect your site, please change permissions on main/inc/conf/configuration.php and main/install/index.php \(not their directories\) to read-only \(CHMOD 444\). »
+**Beveiligingstip**: Om uw site te beschermen, wijzigt u de rechten op app/config/ en main/install/index.php \(niet hun directories\) in read-only \(CHMOD 444 \). »
 
-![](../../../.gitbook/assets/dernier-parametre%20%281%29.png)Illustration 11: Installation – Installation report
+![](../../../.gitbook/assets/dernier-parametre%20%281%29.png)
 
-It is preferable, in fact, to remove the _main/install/_ directory completely \(the confirmation text is not really accurate about this\):
+Afbeelding 11: Installatie - Installatierapport
 
+Het verdient in feite de voorkeur om de _main/install/_ directory volledig te verwijderen \(de bevestigingstekst is hier niet echt nauwkeurig over\):
+
+```
 user@server:/var/www/chamilo$ sudo rm -rf main/install/
+```
 
-This will prevent anybody \(except the _root_ user\) to see this directory, and thus to use it.
+Dit voorkomt dat iemand \(behalve de _root_ gebruiker\) deze map kan zien en deze dus kan gebruiken.
 
-For the _configuration.php_ file, **0444** are the appropriate permissions to assign:
+Voor het _configuration.php_ bestand zijn **0444** de juiste rechten om toe te wijzen:
 
+```
 user@server:/var/www/chamilo/$ cd main/inc/conf/
-
 user@server:/var/www/chamilo/main/inc/conf$ sudo chmod 0444 configuration.php
+```
 
-When this operation is completed, using Chamilo can begin safely clicking on the _Go to the newly created portal_ link.
-
+Wanneer deze bewerking is voltooid, kan het gebruik van Chamilo veilig beginnen te klikken op de _Ga naar de nieuw gemaakte portal_ link.
