@@ -1,25 +1,25 @@
 # Voeg een aankondiging toe
 
-From the main Announcement page:
+Vanaf de hoofdaankondigingspagina:
 
 * ![](../../.gitbook/assets/images164%20%281%29.png)
 
-  Illustration 125: Add an announcement
+  Afbeelding 125: Voeg een aankondiging toe
 
-  click the _Add an announcement_ icon ![](../../.gitbook/assets/graphics227.png),
+  klik op het pictogram _ Een aankondiging toevoegen _ ![](../../.gitbook/assets/graphics227.png),
 
-* by default, the announcement will be sent to all users, but it is possible to edit the list of recipients by clicking on the _visible to_ link ![](../../.gitbook/assets/graphics228.png)
-* the announcement can be sent by e-mail to the course users \(check the _Send this announcement by email to selected groups/users_ box\),
-* add an announcement subject,
-* write the main announcement using the editor,
-* add an attachment if desired,
-* click _Send announcement_.
+* de aankondiging wordt standaard naar alle gebruikers verzonden, maar het is mogelijk om de lijst met ontvangers te bewerken door op de link _visible to_ te klikken ![](../../.gitbook/assets/graphics228.png)
+* de aankondiging kan per e-mail naar de cursusgebruikers worden gestuurd \(vink het vakje _Stuur deze aankondiging per e-mail naar geselecteerde groepen/gebruikers_ aan\),
+* een aankondigingsonderwerp toevoegen,
+* schrijf de belangrijkste aankondiging met behulp van de editor,
+* voeg desgewenst een bijlage toe,
+* klik op Mededeling verzenden.
 
-Note: since version 1.8.8.4, you can use tags inside your announcements \(just copy-paste them\). These tags will be automatically replaced by the corresponding value when sent by e-mail or displayed on the platform to users.
+Opmerking: sinds versie 1.8.8.4 kunt u tags gebruiken in uw aankondigingen \(kopieer en plak ze\). Deze tags worden automatisch vervangen door de overeenkomstige waarde wanneer ze per e-mail worden verzonden of aan gebruikers op het platform worden weergegeven.
 
-Announcements will appear to recipients like this on the platform:
+Aankondigingen verschijnen als volgt voor ontvangers op het platform:
 
 ![](../../.gitbook/assets/graphics233.png)
 
-Illustration 126: Announcements – learner view
+Afbeelding 126: Aankondigingen - leerlingweergave
 
