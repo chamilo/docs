@@ -1,20 +1,24 @@
 # Talen
 
-![](../../../../.gitbook/assets/graficos7.png)In this category, you will find all language-related options \(one link points to the external _Languages_ entry on the administration page\).
+![](../../../../.gitbook/assets/graficos7.png)In deze categorie vindt u alle taalgerelateerde opties \(een link verwijst naar het externe _Languages_-item op de beheerpagina\).
 
-**Portal language** gives you a link to the languages management screen. See below for more details.
+**Portaaltaal** geeft u een link naar het taalbeheerscherm. Zie hieronder voor meer details.
 
-**Allow definition and use of sub-languages** makes possible the definition of variations for each language term used in the platform interface, as a language based on an existing language. This option can then be found in the languages list \(follow the _Chamilo Platform Languages_\).
+**Definitie en gebruik van subtalen toestaan** maakt de definitie van variaties mogelijk voor elke taalterm die wordt gebruikt in de platforminterface, als een taal op basis van een bestaande taal. Deze optie is dan te vinden in de talenlijst \(volg de _Chamilo Platform-talen_\).
 
-This tool \(available when clicking on the languages link\) allows you to define which languages are visible by the users during their subscription to the platform or during the course creation process.
+Deze tool \(beschikbaar wanneer u op de talenlink klikt\) stelt u in staat om te bepalen welke talen zichtbaar zijn voor de gebruikers tijdens hun abonnement op het platform of tijdens het aanmaken van een cursus.
 
-![](../../../../.gitbook/assets/langue%20%281%29.png)Illustration 31: Administration – Languages management
+![](../../../../.gitbook/assets/langue%20%281%29.png)
 
-When enabling the sub-languages feature, this tool also allows you to redefine certain terms of the portal interface. For this, enable the option in the languages configuration page, then open the languages list page. You will find an additional icon which allows you to add a _sub-language_ to any existing language.
+Afbeelding 31: Administratie - Talenbeheer
 
-![](../../../../.gitbook/assets/graficos37.png)Illustration 32: Administration – Sub-language creation icon
+Wanneer u de functie voor subtalen inschakelt, kunt u met deze tool ook bepaalde termen van de portaalinterface opnieuw definiëren. Schakel hiervoor de optie in op de taalconfiguratiepagina en open vervolgens de talenlijstpagina. U vindt een extra pictogram waarmee u een _subtaal_ aan een bestaande taal kunt toevoegen.
 
-The definition of a sub-language is quite easy: you just indicate the name of the sub-language, its ISO code \(2 letters, like “fr”, “en”, “es”\) and its English name \(the name the directory will take – which cannot be the same as an existing language\).
+![](../../../../.gitbook/assets/graficos37.png)
 
-Let's say you want to redefine the terms of the interface because you work in the medical sector and that the English terms proposed are not satisfying to you \(note that it is _much_ more practical to define this sub-language _before_ new courses are created\). For example, you thing the term _Reporting_ should really be called _Evaluation_... Here is how it's done:
+Afbeelding 32: Administratie - Pictogram voor het maken van een subtaal
+
+De definitie van een subtaal is vrij eenvoudig: u geeft gewoon de naam van de subtaal, de ISO-code \(2 letters, zoals "fr", "en", "es"\) en de Engelse naam \( de naam die de directory zal aannemen - die niet hetzelfde kan zijn als een bestaande taal\).
+
+Stel dat u de termen van de interface opnieuw wilt definiëren omdat u in de medische sector werkt en dat de voorgestelde Engelse termen u niet bevredigen \(merk op dat het _veel_ praktischer is om deze subtaal te definiëren _voordat_ nieuwe cursussen worden aangemaakt\). Je vindt bijvoorbeeld dat de term _Reporting_ eigenlijk _Evaluation_... moet heten. Hier is hoe het moet:
 
