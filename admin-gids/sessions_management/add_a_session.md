@@ -1,37 +1,44 @@
 # Voeg een sessie toe
 
-To add a session:
+Om een sessie toe te voegen:
 
-* go to _administration_,
-* _course sessions_ → « Add a course session »,
-* give a name to the session,
-* assign a coach who will have permissions to enter and follow all courses and learners inside this session,
-* give a sessions category \(optional\),
-* define whether there is a time expiry limit,
-* give a few days of additional access for the coaches to the session,
-* define the visibility of a session once expired:
-  * read only \(can access resources but not pass exams, answer forums, etc. anymore\),
-  * accessible \(can be accessed freely, through the sessions history link on the courses list\),
-  * not accessible,
-* ![](../../.gitbook/assets/sessionajouter%20%281%29.png)Illustration 65: Administration – Session creation
+* ga naar _administration_,
+* _cursussessies_ → «Voeg een cursussessie toe»,
+* geef een naam aan de sessie,
+* wijs een coach toe die toestemming heeft om alle cursussen en leerlingen binnen deze sessie te volgen en te volgen,
+* geef een sessiecategorie \(optioneel\),
+* bepaal of er een tijdslimiet is,
+* geef de coaches een paar dagen extra toegang tot de sessie,
+* bepaal de zichtbaarheid van een sessie als deze is verlopen:
+** alleen lezen \(heeft toegang tot bronnen maar slaagt niet meer voor examens, antwoordforums, enz.\),
+** toegankelijk \(vrij toegankelijk via de link sessiegeschiedenis in de cursuslijst\),
+** niet toegankelijk,
 
-  click on _Next step_.
+![](../../.gitbook/assets/sessionajouter%20%281%29.png)
 
-The second step requires you to register courses to the session. Select one \(or more\) course\(s\) and click on the blue arrow button to add it \(or remove it\) then click on the _Next step_ button to proceed.
+Afbeelding 65: Administratie - Aanmaken van een sessie
 
-**Single registration** allows you to not get lost within the courses that exist on the platform. You must write the start of the course title inside the search field and the corresponding courses will appear.
+   klik op _Volgende stap_.
 
-![](../../.gitbook/assets/session-inscription%20%281%29.png)Illustration 66: Administration – Registering courses into a session
+De tweede stap vereist dat u cursussen registreert voor de sessie. Selecteer een \(of meer\) cursus\(sen\) en klik op de blauwe pijlknop om deze toe te voegen \(of te verwijderen\) en klik vervolgens op de knop _Volgende stap_ om verder te gaan.
 
-The last step allows you to subscribe _learners_ to the session \(other coaches can be assigned later, this is just a learners subscription at this point\).
+**Met eenmalige registratie** kun je niet verdwalen binnen de cursussen die op het platform bestaan. U moet het begin van de cursustitel in het zoekveld schrijven en de bijbehorende cursussen verschijnen.
 
-Choose the users and, like for the courses, add them with the blue arrow button.
+![](../../.gitbook/assets/session-inscription%20%281%29.png)
 
-**Single registration** allows you to search for one user \(by firstname or lastname\).
+Afbeelding 66: Administratie - Cursussen registreren in een sessie
 
-Enrolment by classes allows you to register learners to your session by classes. Classes are defined in the next sections of this chapter.
+De laatste stap stelt je in staat om _learners_ in te schrijven voor de sessie \(andere coaches kunnen later worden toegewezen, dit is op dit moment slechts een studentenabonnement\).
 
-![](../../.gitbook/assets/session-inscription2%20%281%29.png)Illustration 67: Administration – Subscribing students to sessions
+Kies de gebruikers en voeg ze, net als bij de cursussen, toe met de blauwe pijlknop.
 
-Because of the special behaviour of course tools when used through sessions, we have written a technical report about how these should behave in the context of a session on our technical wiki: [http://support.chamilo.org/projects/chamilo-18/wiki/Tools\_and\_sessions](http://support.chamilo.org/projects/chamilo-18/wiki/Tools_and_sessions)
+**Met eenmalige registratie** kunt u zoeken naar één gebruiker \(op voornaam of achternaam\).
+
+Inschrijving per klas stelt u in staat studenten per klas voor uw sessie te registreren. Klassen worden gedefinieerd in de volgende secties van dit hoofdstuk.
+
+![](../../.gitbook/assets/session-inscription2%20%281%29.png)
+
+Afbeelding 67: Administratie - Studenten inschrijven op sessies
+
+Vanwege het speciale gedrag van cursushulpmiddelen bij gebruik tijdens sessies, hebben we een technisch rapport geschreven over hoe deze zich zouden moeten gedragen in de context van een sessie op onze technische wiki: [http://support.chamilo.org/projects/chamilo-18/wiki/Tools\_and\_sessions](http://support.chamilo.org/projects/chamilo-18/wiki/Tools_and_sessions)
 
