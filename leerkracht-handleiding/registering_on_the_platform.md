@@ -1,16 +1,18 @@
 # Registreren op het platform
 
-As for any web platform, users wishing to access the platform contents must register with their user name and password. This is simply done by following the _Sign up!_ link on the homepage, or by an administrator pre-registering all users. Once registered, one can simply connect using your username and password.
+Zoals bij elk webplatform, moeten gebruikers die toegang willen hebben tot de inhoud van het platform, zich registreren met hun gebruikersnaam en wachtwoord. Dit wordt eenvoudig gedaan door de _Sign up!_ Link op de homepagina te volgen, of door een administrator die alle gebruikers vooraf registreert. Eenmaal geregistreerd, kunt u eenvoudig verbinding maken met uw gebruikersnaam en wachtwoord.
 
-![](../.gitbook/assets/image2%20%2811%29.png)Illustration 8: "My courses" page
+![](../.gitbook/assets/image2%20%2811%29.png)
 
-Once connected, the teacher has access to any courses on which \(s\)he is registered:
+Afbeelding 8: pagina "Mijn cursussen"
 
-* A list of courses to which the user is subscribed. A pencil will appear on the right of the courses boxes for which the current user is a teacher, allowing the teacher to directly go to the courses settings
-* A link to the _Social Network_ tool \(which we will analyze in Social networkon p. 164\)
-* A \(non-admin\) teacher can create a course
-* Teachers and learners can subscribe to more existing courses through a “Course catalogue”
-* Teachers and learners have access to the history of their sessions through the “Courses history”. Sessions are a vast concept detailed in the Admin Guide.
+Eenmaal verbonden, heeft de leraar toegang tot alle cursussen waarop hij is geregistreerd:
 
-**Note** : Although the help feature link has been replaced \(since version 1.8.8\) by a more dynamic, JavaScript-based box, it remains fully accessible to people with impaired vision, which might be navigating the platform through a text-based browser. Version 1.9 and upwards also offer a font resize feature for people with slightly impaired vision.
+* Een lijst met cursussen waarop de gebruiker is geabonneerd. Er verschijnt een potlood aan de rechterkant van de cursusvakken waarvoor de huidige gebruiker docent is, zodat de docent direct naar de cursusinstellingen kan gaan
+* Een link naar de _Sociale Netwerk_ tool \(die we zullen analyseren in Sociaal netwerk op p. 164\)
+* Een \(niet-admin\) docent kan een cursus aanmaken
+* Docenten en studenten kunnen zich abonneren op meer bestaande cursussen via een "Cursuscatalogus"
+* Docenten en studenten hebben toegang tot de geschiedenis van hun sessies via de "Cursusgeschiedenis". Sessies zijn een enorm concept dat wordt beschreven in de beheerdershandleiding.
+
+**Opmerking**: hoewel de link naar de helpfunctie is vervangen \(sinds versie 1.8.8\) door een meer dynamische, op JavaScript gebaseerde box, blijft deze volledig toegankelijk voor mensen met een verminderd gezichtsvermogen, die mogelijk door het platform navigeren een op tekst gebaseerde browser. Versie 1.9 en hoger bieden ook een functie voor het wijzigen van de grootte van lettertypen voor mensen met een licht verminderd gezichtsvermogen.
 
