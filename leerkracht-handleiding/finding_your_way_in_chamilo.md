@@ -1,20 +1,28 @@
 # De weg vinden in Chamilo
 
-Most pages are quickly accessible via the tabs at the top of the page:
+De meeste pagina's zijn snel toegankelijk via de tabbladen bovenaan de pagina:
 
-![](../.gitbook/assets/images11%20%2810%29.png)Illustration 9: Chamilo header
+![](../.gitbook/assets/images11%20%2810%29.png)
 
-The “tabs” provide access to the homepage, the courses list, your agenda, the reporting/tracking page, the social network and \(if you are is lucky enough to be a portal administrator\) to the dashboard and administration pages. The last tab shows the user's picture \(so he can check he's not mistakenly using another user's account\) and a drop-down menu lets the user go to his profile or log out at any time in just two clicks.
+Afbeelding 9: Chamilo-header
 
-Browsing through a course offers the same kind of navigation elements you will find on any computer software. In Chamilo, the very important navigation bar is referred to as the _breadcrumb_ navigation \(in reference to a popular fairy tale, the_Little Thumbling_who saved the lives of his brothers by leaving a trail of stones, then breadcrumbs, in a dark forest so they could find their way home\). This type of navigation allows the user to find its way back to his starting point.
+De “tabs” geven toegang tot de homepage, de cursuslijst, je agenda, de rapportage/tracking pagina, het sociale netwerk en \(als je het geluk hebt een portaalbeheerder te zijn\) tot het dashboard en de administratiepagina's. Het laatste tabblad toont de foto van de gebruiker \(zodat hij kan controleren dat hij niet per ongeluk het account van een andere gebruiker gebruikt\) en een vervolgkeuzemenu laat de gebruiker naar zijn profiel gaan of uitloggen op elk moment met slechts twee klikken.
 
-The first “breadcrumb” link, on the left, displays the name of the course, and allows the user to return to the course homepage directly. The links to the right of this point directly to the elements of the course in which the user is currently located.
+Als u door een cursus bladert, krijgt u dezelfde soort navigatie-elementen als bij alle computersoftware. In Chamilo wordt de zeer belangrijke navigatiebalk de _broodkruimel_navigatie \genoemd (verwijzend naar een populair sprookje, de_kleine Duimpje_die de levens van zijn broers redde door een spoor van stenen en dan broodkruimels achter te laten in een donker bos, zodat ze hun weg naar huis vinden\). Met deze manier van navigeren kan de gebruiker zijn weg terug vinden naar zijn startpunt.
 
-![](../.gitbook/assets/images12%20%288%29.png)Illustration 10: Breadcrumb Navigation
+De eerste "breadcrumb" link, aan de linkerkant, geeft de naam van de cursus weer en stelt de gebruiker in staat rechtstreeks naar de startpagina van de cursus terug te keren. De links rechts van dit punt verwijzen rechtstreeks naar de elementen van de cursus waarin de gebruiker zich momenteel bevindt.
 
-Within a course, _Learner view_ allows the teacher to view the course as a learner. The link then changes to _Teacher view_. Just click the new link to get back to the normal “teacher” view:
+![](../.gitbook/assets/images12%20%288%29.png)
 
-![](../.gitbook/assets/images13%20%2810%29.png)Illustration 11: Switch to student view
+Afbeelding 10: Broodkruimelnavigatie
 
-![](../.gitbook/assets/image1%20%283%29.png)Illustration 12: Switch to teacher view
+Binnen een cursus stelt de leerlingweergave de docent in staat de cursus als een leerling te zien. De link verandert dan in de weergave Leraar. Klik gewoon op de nieuwe link om terug te gaan naar de normale weergave van de "leraar":
+
+![](../.gitbook/assets/images13%20%2810%29.png)
+
+Afbeelding 11: Schakel over naar de leerlingweergave
+
+![](../.gitbook/assets/image1%20%283%29.png)
+
+Afbeelding 12: Schakel over naar de docentweergave
 
