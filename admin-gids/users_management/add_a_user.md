@@ -1,25 +1,26 @@
 # Voeg een gebruiker toe
+De beheerder kan gebruikers toevoegen door ze vanuit een leeg formulier te maken. Hij hoeft alleen te geven:
 
-The administrator can add users by creating them out of an empty form. He will only need to give:
+* " Voornaam "
+* " achternaam "
+* " E-mail "
+* " Log in "
 
-* « firstname »
-* « lastname »
-* « e-mail »
-* « login »
+Er zijn echter geavanceerde opties waar men op moet letten.
 
-There are, however, advanced options to which one should pay attention.
+![](../../.gitbook/assets/graficos79%20%281%29.png)
 
-![](../../.gitbook/assets/graficos79%20%281%29.png)Illustration 50: Administration - Users creation
+Afbeelding 50: Administratie - Aanmaken van gebruikers
 
-The password can be automatically generated or can be assigned by the administrator. Depending on the needs of the situation, don't forget the option “Send an e-mail to the new user”.
+Het wachtwoord kan automatisch worden gegenereerd of kan worden toegewezen door de beheerder. Vergeet, afhankelijk van de behoeften van de situatie, de optie "Stuur een e-mail naar de nieuwe gebruiker" niet.
 
-The profile \(or role\) of the user is very important. See chapter 5.1User roles on page 46 for more info.
+Het profiel \(of rol\) van de gebruiker is erg belangrijk. Zie hoofdstuk _Gebruikersrollen_ voor meer informatie.
 
-The user account can have an expiration date. In this case, one has to choose the end of the subscription period.
+Het gebruikersaccount kan een vervaldatum hebben. In dit geval moet men het einde van de abonnementsperiode kiezen.
 
-Finally, the user account can be created active or inactive, waiting for example for the start of a new sessions.
+Ten slotte kan het gebruikersaccount actief of inactief worden aangemaakt, bijvoorbeeld wachtend op de start van een nieuwe sessie.
 
-Three new fields have been added to Chamilo 1.8.8. These fields allow you to configure the frequency to which personal messages sent from the Chamilo social network to your account are sent to you by e-mail.
+Er zijn drie nieuwe velden toegevoegd aan Chamilo 1.8.8. Met deze velden kunt u de frequentie configureren waarmee persoonlijke berichten die vanaf het sociale netwerk Chamilo naar uw account worden verzonden, per e-mail naar u worden verzonden.
 
-If the user picks _No_, then no message will be sent to his e-mail to notify him. This option requires the configuration of a chronological script launch \(_cron_\).
+Als de gebruiker _No_ kiest, wordt er geen bericht naar zijn e-mail gestuurd om hem op de hoogte te stellen. Deze optie vereist de configuratie van een chronologische scriptstart \(_cron_\).
 
