@@ -10,9 +10,9 @@ Om een sessie toe te voegen:
 * bepaal of er een tijdslimiet is,
 * geef de coaches een paar dagen extra toegang tot de sessie,
 * bepaal de zichtbaarheid van een sessie als deze is verlopen:
-** alleen lezen \(heeft toegang tot bronnen maar slaagt niet meer voor examens, antwoordforums, enz.\),
-** toegankelijk \(vrij toegankelijk via de link sessiegeschiedenis in de cursuslijst\),
-** niet toegankelijk,
+ * alleen lezen \(heeft toegang tot bronnen maar slaagt niet meer voor examens, antwoordforums, enz.\),
+ * toegankelijk \(vrij toegankelijk via de link sessiegeschiedenis in de cursuslijst\),
+ * niet toegankelijk,
 
 ![](../../.gitbook/assets/sessionajouter%20%281%29.png)
 
