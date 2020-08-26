@@ -1,8 +1,7 @@
 # Tijdzones
 
-![](../../../.gitbook/assets/graficos15.png)This category defines general settings for time zones.
+![](../../../.gitbook/assets/graficos15.png) Deze categorie definieert algemene instellingen voor tijdzones.
 
-**Enable users time zones** will let the users define their own time zones, and thus get all times on the platform display in their own time zones. This will let them know more accurately when to submit a assignment, for example. Note that this setting has to go along with the activation of the _time zone_ field for modification by the user in the _user profile fields_ \(see chapter 5.8Profiling on page 57\).
+**Schakel tijdzones van gebruikers in** laat de gebruikers hun eigen tijdzones definiëren en krijgen zo alle tijden op het platform in hun eigen tijdzones. Zo weten ze beter wanneer ze bijvoorbeeld een opdracht moeten inleveren. Merk op dat deze instelling samen moet gaan met de activering van het _tijdzone_-veld voor wijziging door de gebruiker in de _gebruikersprofielvelden_ \(zie hoofdstuk 5.8Profilering op pagina 57\).
 
-**Time zone value** is used to define the time zone of the portal. This allows, in cases where the server is hosted and configured in a different time zone than the customer's, to set things right and have time values show appropriately.
-
+**Tijdzonewaarde** wordt gebruikt om de tijdzone van de portal te definiëren. Dit maakt het mogelijk om, in gevallen waarin de server wordt gehost en geconfigureerd in een andere tijdzone dan die van de klant, dingen recht te zetten en tijdwaarden correct weer te geven.
