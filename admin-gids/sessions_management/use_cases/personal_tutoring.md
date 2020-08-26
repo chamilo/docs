@@ -1,8 +1,7 @@
 # Persoonlijke begeleiding
 
-Let's say you work in a private college and most students have a right to personal tutoring. They can follow pre-recorded audio courses at their pace and have an assigned tutor which is available to them at any pre-agreed time.
+Stel dat u op een privéschool werkt en de meeste studenten recht hebben op persoonlijke bijles. Ze kunnen vooraf opgenomen audiocursussen volgen in hun eigen tempo en hebben een toegewezen tutor die op elk vooraf afgesproken tijdstip voor hen beschikbaar is.
 
-Without sessions, you would have one course sharing several tutors and several students, and each tutor would share the “space” with others and would see the results of students he isn't in charge of. Worst, he could even modify the results of a students he isn't in charge of...
+Zonder sessies zou je een cursus hebben met meerdere docenten en meerdere studenten, en elke tutor zou de "ruimte" met anderen delen en de resultaten zien van studenten waar hij niet de leiding over heeft. Het ergste is dat hij zelfs de resultaten kan wijzigen van een student waar hij niet de leiding over heeft ...
 
-With the sessions, simply define one new session per student. Register the courses he has access to and his own coach to the session. These two will now be able to work in an isolated virtual space.
-
+Met de sessies definieert u eenvoudig één nieuwe sessie per student. Registreer de cursussen waartoe hij toegang heeft en zijn eigen coach voor de sessie. Deze twee kunnen nu in een geïsoleerde virtuele ruimte werken.
