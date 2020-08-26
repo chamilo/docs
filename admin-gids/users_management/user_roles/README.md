@@ -1,14 +1,15 @@
 # Gebruikersrollen
 
-User roles are a fundamental part in the users management of a Chamilo portal, and their deep understanding allows you to go further than a private use, into a complete academical management where every person has its place and responsibility.
+Gebruikersrollen zijn een fundamenteel onderdeel in het gebruikersbeheer van een Chamilo-portaal, en hun diepgaande begrip stelt u in staat verder te gaan dan een privégebruik, naar een compleet academisch beheer waar elke persoon zijn plaats en verantwoordelijkheid heeft.
 
-For the common administrator, it will seem there are only four roles in Chamilo: the ones which appear directly in the users creation form in the administration section. However, some roles actually offer sub-roles, of which one can only gain knowledge after a deeper use of the platform.
+Voor de gewone beheerder lijkt het erop dat er slechts vier rollen zijn in Chamilo: de rollen die direct verschijnen in het gebruikersaanmaakformulier in het beheergedeelte. Sommige rollen bieden echter eigenlijk subrollen, waarvan men alleen kennis kan opdoen na een dieper gebruik van het platform.
 
-In order to guide you in the discovery of these roles, we will use the following schema as a reference, as it represents most of the roles and also the notion of sessions \(as we will see it in chapter Chapter 7. Sessions management on page 64\).
+Om u te begeleiden bij het ontdekken van deze rollen, gebruiken we het volgende schema als referentie, aangezien het de meeste rollen weergeeft en ook het begrip sessies \(zoals we het zullen zien in het hoofdstuk Sessiemanagement\).
 
-![](../../../.gitbook/assets/graficos80%20%281%29.png)Illustration 46: Roles and sessions
+![](../../../.gitbook/assets/graficos80%20%281%29.png)
 
-In this schema, we can see the main administrator \(on top\), the sessions administrator \(on the right\), the session coach \(on top of the session block\), the courses coaches \(on top of the courses\), the teacher \(on the left of a course\), the students \(connected to the session\) and the human resources manager \(connected to the students\).
+Afbeelding 46: Rollen en sessies
 
-Let's review these roles together, going from the less powerful up to the most powerful.
+In dit schema zien we de hoofdbeheerder \(bovenaan\), de sessiebeheerder \(rechts\), de sessiecoach \(bovenaan het sessieblok\), de cursuscoaches \(bovenop de cursussen\), de docent \(links van een cursus\), de studenten \(verbonden met de sessie\) en de manager personeelszaken \(verbonden met de studenten\).
 
+Laten we deze rollen samen bekijken, gaande van de minder krachtige tot de krachtigste.
