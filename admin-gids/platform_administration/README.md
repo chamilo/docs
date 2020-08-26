@@ -1,6 +1,7 @@
 # Platformbeheer
 
-![](../../.gitbook/assets/images26%20%281%29.png)Illustration 29: Administration – Portal block
+![](../../.gitbook/assets/images26%20%281%29.png)
 
-The platform configuration is done through the _Administration_ tab, _Portal_ block.
+Afbeelding 29: Administratie - Portaalblok
 
+De platformconfiguratie wordt gedaan via het tabblad _Administration_, _Portal_ block.
