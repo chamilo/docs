@@ -1,25 +1,24 @@
 # Vervang de oudere versie door de nieuwe
 
-Before applying a more recent version “on top of” your current Chamilo version, you might want to apply a few changes to the package “just in case”. For example, the following directories could be removed from the Chamilo package **before** you copy them over your current installation:
+Voordat u een recentere versie toepast "bovenop" uw huidige Chamilo-versie, wilt u misschien een paar wijzigingen aanbrengen in het pakket "voor het geval dat". De volgende mappen kunnen bijvoorbeeld uit het Chamilo-pakket **worden verwijderd voordat** u ze over uw huidige installatie kopieert:
 
-* home/
-* courses/
-* main/inc/conf/
-* main/upload/users/
-* main/searchdb/
+* app/home/
+* app/courses/
+* app/config/
+* app/upload/users/
 
-These directories are all supposed to be about the same in the new version, and might all have been altered by your use of Chamilo through the web interface, so to avoid any file clash, just remove them from the Chamilo package, then continue...
+Deze mappen zouden allemaal ongeveer hetzelfde moeten zijn in de nieuwe versie, en ze zijn mogelijk allemaal gewijzigd door je gebruik van Chamilo via de webinterface, dus om een conflict tussen bestanden te voorkomen, verwijder ze gewoon uit het Chamilo-pakket en ga dan verder. .
 
-There is only one recommended way to update your Chamilo version for now:
+Er is voorlopig maar één aanbevolen manier om uw Chamilo-versie bij te werken:
 
-1. Don't delete the previous folder, otherwise the older configuration files will be lost.
-2. Simply copy the new Chamilo directory over the old one.
-   * if you use a GNU/Linux distribution, you'll have to copy the entire new directory to the old one, i.e.:
+1. Verwijder de vorige map niet, anders gaan de oudere configuratiebestanden verloren.
+2. Kopieer gewoon de nieuwe Chamilo-directory over de oude.
 
-| user@server: sudo cp -r chamilo-1.9.4/\* /var/www/chamilo/ |
-| :--- |
+Als je een GNU/Linux-distributie gebruikt, moet je de hele nieuwe map naar de oude kopiëren, d.w.z .:
 
+```
+user@server$ sudo cp -r chamilo-1.9.4/\* /var/www/chamilo/
+```
 
-1. Then go through the steps from _«**2.2.2**Last installation settings\_\_»_.
-2. Connect to your site and check that everything is there.
-
+1. Doorloop vervolgens de stappen van _«**2.2.2** Laatste installatie-instellingen»_.
+2. Maak verbinding met uw site en controleer of alles aanwezig is.
