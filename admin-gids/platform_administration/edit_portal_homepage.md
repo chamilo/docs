@@ -1,13 +1,14 @@
 # Portal homepage bewerken
 
-From this page, you can configure several things
+Vanaf deze pagina kunt u verschillende dingen configureren
 
-* edit the homepage,
-* edit categories of courses,
-* insert links
-* edit the notice block
+* bewerk de homepage,
+* categorieën cursussen bewerken,
+* links invoegen
+* bewerk het notificatieblok
 
-![](../../.gitbook/assets/images28%20%281%29.png)Illustration 42: Administration – Homepage configuration
+![](../../.gitbook/assets/images28%20%281%29.png)
 
-Note that this feature depends on the language selected. If you define a welcome page in French, it will only be visible if French is the selected language. This allows you to configure different welcome messages depending on your users.
+Afbeelding 42: Beheer - Homepage-configuratie
 
+Merk op dat deze functie afhankelijk is van de geselecteerde taal. Als u een welkomstpagina in het Frans definieert, is deze alleen zichtbaar als Frans de geselecteerde taal is. Hierdoor kunt u verschillende welkomstberichten configureren, afhankelijk van uw gebruikers.
