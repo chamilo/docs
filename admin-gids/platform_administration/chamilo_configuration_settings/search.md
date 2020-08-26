@@ -1,8 +1,7 @@
 # Zoeken
 
-![](../../../.gitbook/assets/graficos16.png)This category allows you to configure the full-text indexing feature of Chamilo. It requires, however, the php5-xapian module \(as well as a few additional applications\) to be installed on the server in order to work. This feature was previously available only in the medical version, but was added to mainstream Chamilo 1.8.8.4 as is the engagement from the Chamilo official providers.
+![](../../../.gitbook/assets/graficos16.png) Met deze categorie kunt u de volledige-tekstindexeringsfunctie van Chamilo configureren. Het vereist echter dat de php5-xapian-module \(evenals een paar extra applicaties\) op de server worden geïnstalleerd om te kunnen werken. Deze functie was voorheen alleen beschikbaar in de medische versie, maar werd toegevoegd aan de reguliere Chamilo 1.8.8.4, net als het engagement van de officiële Chamilo-providers.
 
-You will need to enable this feature and define an additional search tag \(ie “Author”\) **before** you upload documents in order for these to be indexed \(and searchable\).
+U moet deze functie inschakelen en een extra zoektag \(dwz "Auteur"\) **definiëren voordat** u documenten uploadt, zodat deze kunnen worden geïndexeerd \(en doorzoekbaar\).
 
-Don't hesitate to ask for dedicated hosting from one of the Chamilo's official providers if you've got issues setting it all up.
-
+Aarzel niet om speciale hosting te vragen bij een van de officiële providers van Chamilo als u problemen ondervindt bij het opzetten ervan.
