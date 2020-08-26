@@ -1,12 +1,13 @@
 # Portal nieuws
 
-Allows you to add a global announcement on the homepage of the portal \(and on top of the courses list\).
+Hiermee kunt u een algemene aankondiging toevoegen op de startpagina van de portal \(en bovenaan de cursuslijst\).
 
-![](../../.gitbook/assets/images27%20%281%29.png)Illustration 40: Administration – Global announcements
+![](../../.gitbook/assets/images27%20%281%29.png)
 
-It is possible to choose the visibility of the announcement \(by start and end date\), the roles which this announcement is meant for, and to send it by e-mail. You can event send it to a social group.
+Afbeelding 40: Administratie - Wereldwijde aankondigingen
 
-If you want to publish this announcement in the global calendar, just tick the corresponding box.
+Het is mogelijk om de zichtbaarheid van de aankondiging \(op start- en einddatum\), de rollen waarvoor deze aankondiging bedoeld is, te kiezen en deze per e-mail te versturen. U kunt het evenement naar een sociale groep sturen.
 
-This tool is particularly useful to send a maintenance, update or terms and conditions change on the portal.
+Als u deze aankondiging in de algemene kalender wilt publiceren, vinkt u gewoon het overeenkomstige vakje aan.
 
+Deze tool is met name handig om een onderhoud, update of wijziging van voorwaarden op de portal te sturen.
