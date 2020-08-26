@@ -1,12 +1,12 @@
 # Importeer en exporteer evenementen
 
-The Chamilo Agenda tool supports the import and export of standard calendar files \(Outlook, iCal\). To import an Outlook file, click the _Import Outlook_ icon ![](../../.gitbook/assets/graphics264.png) in the tool-bar in the course _Agenda_ and upload the relevant file as prompted. Then return to the _Agenda_ using the _Agenda_ icon ![](../../.gitbook/assets/graphics267.png).
+De Chamilo Agenda-tool ondersteunt de import en export van standaard agendabestanden \(Outlook, iCal\). Om een Outlook-bestand te importeren, klikt u op het _Import Outlook_ -pictogram ![] (../../.gitbook/assets/graphics264.png) in de werkbalk in de cursus _Agenda_ en uploadt u het relevante bestand wanneer daarom wordt gevraagd. Keer dan terug naar de _Agenda_ met behulp van het _Agenda_ -pictogram ![](../../.gitbook/assets/graphics267.png).
 
-Users can export events as iCal from the pop-up window that appears when they click on an event to view details. They can select the appropriate iCal format \(_confidential, private, public_\) for the export at the bottom of the pop-up window, and teachers can edit or delete the event using the appropriate button in the pop-up window:
+Gebruikers kunnen gebeurtenissen exporteren als iCal vanuit het pop-upvenster dat verschijnt wanneer ze op een gebeurtenis klikken om details te bekijken. Ze kunnen het juiste iCal-formaat \(_vertrouwelijk, privé, openbaar_\) selecteren voor de export onder in het pop-upvenster, en docenten kunnen de gebeurtenis bewerken of verwijderen met de juiste knop in het pop-upvenster:
 
 ![](../../.gitbook/assets/graphics270.png)
 
-Illustration 144: Export, edit or delete an event
+Afbeelding 144: een evenement exporteren, bewerken of verwijderen
 
-\(**Note**: Teachers only have access to the delete/edit buttons via the course Agenda from the course homepage – not via the Personal Agenda tab, where, like learners, they can only view/export events\).
+\(**Opmerking**: docenten hebben alleen toegang tot de knoppen voor verwijderen/bewerken via de cursusagenda vanaf de startpagina van de cursus - niet via het tabblad Persoonlijke agenda, waar ze, net als studenten, alleen evenementen kunnen bekijken/exporteren\).
 
