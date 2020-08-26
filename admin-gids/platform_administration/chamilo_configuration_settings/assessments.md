@@ -1,8 +1,7 @@
 # Beoordelingen
 
-![](../../../.gitbook/assets/graficos12.png)These are global parameters for the assessments tool, which can be redefined \(in most cases\) tat the course level.
+![](../../../.gitbook/assets/graficos12.png) Dit zijn globale parameters voor de assessments-tool, die opnieuw gedefinieerd kunnen worden \(in de meeste gevallen\) op het cursusniveau.
 
-**Marks thresholds colouring** enables the colouring of marks in the assessments. It is also necessary to define the marks that will effectively be coloured red.
+**Markering drempels kleuring** maakt het inkleuren van markeringen in de beoordelingen mogelijk. Het is ook nodig om de markeringen te definiëren die effectief rood worden gekleurd.
 
-**Marks levels labelling** enables setting different levels of marks as labels \(“E” level for less than 50%\).
-
+**Markeringsniveaus labelen** maakt het mogelijk om verschillende markeringsniveaus in te stellen als labels \("E"-niveau voor minder dan 50%\).
