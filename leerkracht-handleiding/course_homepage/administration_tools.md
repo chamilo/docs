@@ -12,7 +12,7 @@ Afbeelding 29: beheertools
 
 ## Instellingen <a id="settings"></a>
 
-![](../../.gitbook/assets/graphics108%20%283%29.png) Beheer de cursusinstellingen als docent. De instellingen zijn gesorteerd in een paar secties:
+![](../../.gitbook/assets/graphics108%20%283%29.png)Beheer de cursusinstellingen als docent. De instellingen zijn gesorteerd in een paar secties:
 
 | ![](../../.gitbook/assets/images282%20%284%29.png)![](../../.gitbook/assets/images284%20%284%29.png)![](../../.gitbook/assets/images283%20%284%29.png)![](../../.gitbook/assets/images281%20%284%29.png)![](../../.gitbook/assets/graphics109%20%284%29.png) | Cursusinstellingen | Beheer en update elementen zoals de cursustitel, categorie, taal, afbeelding, etc. |
 | :--- | :--- | :--- |
