@@ -1,18 +1,20 @@
 # Certificaten koppelen aan leertrajecten
 
-Finally, version 1.11 has introduced a nice feature allowing you to generate a certificate \(and assign a skill, if any\) to students at the end of a learning path.
+Ten slotte heeft versie 1.11 een leuke functie geïntroduceerd waarmee je een certificaat \(en eventueel een vaardigheid\) kunt genereren aan studenten aan het einde van een leertraject.
 
-To do this, you will need to configure an assessment based only on this learning path, and make sure it generates a certificate.
+Om dit te doen, moet u een assessment configureren dat alleen op dit leertraject is gebaseerd, en ervoor zorgen dat het een certificaat genereert.
 
-Go to the learning path, create one, develop all its contents, then use the last content type icon to create the final page, like this.
+Ga naar het leertraject, maak er een aan, ontwikkel de volledige inhoud en gebruik vervolgens het pictogram van het laatste inhoudstype om de laatste pagina te maken, zoals deze.
 
-![](../../.gitbook/assets/image16%20%288%29.png)Illustration 119: Certificate to finish a learning path
+![](../../.gitbook/assets/image16%20%288%29.png)
 
-There are many items on this page, so take your time to analyze all of them. The special certificate page will only ever appear as the last step of your learning path, out of any sub-folder.
+Afbeelding 119: Certificaat om een leertraject af te ronden
 
-It requires all steps of the learning path to be completed in order to appear.
+Er staan veel items op deze pagina, dus neem de tijd om ze allemaal te analyseren. De speciale certificaatpagina verschijnt alleen als laatste stap van je leertraject, vanuit een submap.
 
-Once this is configured, go to the assessment tool and make sure the whole assessment can only be obtained once the learning path is completed \(it is possible to do otherwise but it might be a bit counter-productive\).
+Het vereist dat alle stappen van het leertraject zijn doorlopen om te verschijnen.
 
-When the student finished the learning path, he/she will automatically see a certificate and skill page. That is: the student will not have to go to the assessment page to generate the certificate anymore. Everything can be managed at the learning path level!
+Zodra dit is geconfigureerd, gaat u naar de assessmenttool en zorgt u ervoor dat de hele assessment pas kan worden verkregen als het leertraject is voltooid \(het is mogelijk om iets anders te doen, maar het kan een beetje contraproductief zijn\).
+
+Wanneer de student het leertraject heeft voltooid, krijgt hij/zij automatisch een certificaat en vaardigheidspagina te zien. Dat wil zeggen: de student hoeft niet meer naar de beoordelingspagina te gaan om het certificaat te genereren. Alles kan op leerpadniveau worden beheerd!
 
