@@ -1,4 +1,4 @@
 # Stuur een bericht
 
-Enter the text inside the field located at the bottom of the page, then click the \_Send message\_button. Inside the messages list, the messages from the teacher appear with a corresponding icon in front of the user's name.
+Typ de tekst in het veld onder aan de pagina, klik vervolgens op de knop \_Send message\_. In de berichtenlijst verschijnen de berichten van de docent met een bijbehorend pictogram voor de gebruikersnaam.
 
