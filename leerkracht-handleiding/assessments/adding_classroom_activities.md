@@ -8,7 +8,7 @@ De naam, weging en maximale score voor de activiteit moeten worden ingevoerd, en
 
 Afbeelding 105: Beoordelingen - Activiteit in de klas
 
-U kunt alleen resultaten toevoegen voor klassikale activiteiten voor studenten die zich hebben aangemeld voor uw cursus. Het scoren van de Classroom-activiteit is eenvoudig - klik op de relevante activiteit die wordt vermeld op de hoofdpagina _Assessments_ en vervolgens op het pictogram _ bewerken_ ![](../../.gitbook/assets/graphics199%20%283%29.png) ofwel naast de vermelding van de leerling of \(om een lijst met leerlingen te scoren\) in de werkbalk:
+U kunt alleen resultaten toevoegen voor klassikale activiteiten voor studenten die zich hebben aangemeld voor uw cursus. Het scoren van de Classroom-activiteit is eenvoudig - klik op de relevante activiteit die wordt vermeld op de hoofdpagina _Assessments_ en vervolgens op het pictogram bewerken ![](../../.gitbook/assets/graphics199%20%283%29.png) ofwel naast de vermelding van de leerling of \(om een lijst met leerlingen te scoren\) in de werkbalk:
 
 ![](../../.gitbook/assets/images139%20%284%29.png)
 
