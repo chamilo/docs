@@ -1,22 +1,22 @@
 # Opdracht creëren
 
-To create a new assignment:
+Om een nieuwe opdracht aan te maken:
 
-* click on the _Create assignment\_tool_ ![](../../.gitbook/assets/graphics65%20%283%29.png) _in the \_Assignments_ page:
-* give your new assignment a name,
-* add a description \(optional\),
-* click the _Validate_ button.
+* klik op de _Create opdracht\_tool_ ![](../../.gitbook/assets/graphics65%20%283%29.png) _op de \_Opdrachten_ pagina:
+* geef je nieuwe opdracht een naam,
+* voeg een beschrijving toe \(optioneel\),
+* klik op de knop _Validate_.
 
-Illustration 93: Create a new assignment
+Afbeelding 93: Maak een nieuwe toewijzing
 
 ![](../../.gitbook/assets/graphics66%20%281%29.png)
 
-Advanced settings allow you to:
+Met geavanceerde instellingen kunt u:
 
-* Assign a maximum score for the assignment
-* Include the assignment in the assessment/grade-book tool
-* pick a deadline for the assignment to be completed and sent
-* pick a final end date for the assignment \(and hide it to students\)
-* Include the deadline in the course agenda/calendar.
-* Allow students to hand in their assignment directly from the assignment editor
+* Wijs een maximale score toe aan de opdracht
+* Neem de opdracht op in de assessment/cijferlijsttool
+* kies een deadline voor de opdracht die moet worden voltooid en verzonden
+* kies een definitieve einddatum voor de opdracht \(en verberg deze voor studenten\)
+* Neem de deadline op in de cursusagenda/kalender.
+* Laat studenten hun opdracht rechtstreeks vanuit de opdrachteditor inleveren
 
