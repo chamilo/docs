@@ -1,67 +1,68 @@
 # Auteurs hulpmiddelen
 
-![](../../.gitbook/assets/images29%20%289%29.png)Illustration 27: Authoring tools
+![](../../.gitbook/assets/images29%20%289%29.png)
 
-## Course description <a id="course-description"></a>
+Afbeelding 27: Authoring tools
 
-![](../../.gitbook/assets/graphics80%20%283%29.png)The course description is not at all mandatory, but it allows you to present a global summary of the course and to offer potential subscribers a flavour of the course.
+## Cursusbeschrijving <a id="course-description"></a>
 
-The description tool presents several sections which provide the course author with a simple suggested structure for their course description. \(The teacher doesn't have to use these, of course; if the proposed sections do not match requirements, other sections can be created with the preferred titles\). The sections include:
+![](../../.gitbook/assets/graphics80%20%283%29.png) De cursusbeschrijving is helemaal niet verplicht, maar stelt u in staat om een globale samenvatting van de cursus te presenteren en potentiële abonnees een voorproefje van de cursus te bieden.
 
-* « Course description »,
-* « Objectives »,
-* « Topics »,
-* « Methodology » etc,
+De beschrijvingstool presenteert verschillende secties die de cursusauteur een eenvoudige voorgestelde structuur bieden voor hun cursusbeschrijving. \(De docent hoeft deze natuurlijk niet te gebruiken; als de voorgestelde secties niet voldoen aan de vereisten, kunnen andere secties worden gemaakt met de gewenste titels\). De secties bevatten:
 
-At any time, a section can be removed by clicking on the _Delete_ icon ![](../../.gitbook/assets/graphics83%20%283%29.png), or updated using the _update_ icon .
+* « Cursusbeschrijving »,
+* « Doelen »,
+* « Onderwerpen »,
+* « Methodologie » enz.
 
-The description is available to learners inside the course, but can also be viewed in the course catalog \(via the _Description_ button\). This button opens a pop-up window showing the description provided by the teacher.
+Een sectie kan op elk moment verwijderd worden door op het __Delete__ icoon te klikken ![](../../.gitbook/assets/graphics83%20%283%29.png), of bijgewerkt met het pictogram _update_.
 
-## Documents <a id="documents"></a>
+De beschrijving is beschikbaar voor studenten binnen de cursus, maar kan ook worden bekeken in de cursuscatalogus \(via de knop _Beschrijving_\). Deze knop opent een pop-upvenster met de beschrijving van de docent.
 
-![](../../.gitbook/assets/graphics85%20%283%29.png)This is used to add and organize the documents or files \(text, images, audio, video, HTML files etc.\) used in the course. You can create directories/folders within this tool as required.
+## Documenten <a id="documents"></a>
+
+![](../../.gitbook/assets/graphics85%20%283%29.png)Dit wordt gebruikt om de documenten of bestanden toe te voegen en te ordenen \(tekst, afbeeldingen, audio, video, HTML-bestanden etc.\) gebruikt in de cursus. U kunt desgewenst in deze tool mappen/mappen maken.
 
 ## Tests <a id="tests"></a>
 
-![](../../.gitbook/assets/graphics86%20%283%29.png)The tests tool is used to create, update or import tests, quizzes and exams in the course. It includes facilities to automatically or manually score and feedback to learners and to track and export learners' results. The tests tool can be used to develop quite sophisticated automated exercises which might in themselves form the core of the course.
+![](../../.gitbook/assets/graphics86%20%283%29.png)De toetstool wordt gebruikt om toetsen, quizzen en examens in de cursus te maken, bij te werken of te importeren. Het bevat faciliteiten om automatisch of handmatig te scoren en feedback te geven aan leerlingen en om de resultaten van leerlingen bij te houden en te exporteren. De testtool kan worden gebruikt om behoorlijk geavanceerde geautomatiseerde oefeningen te ontwikkelen die op zichzelf de kern van de cursus kunnen vormen.
 
-## Learning Paths <a id="learning-paths"></a>
+## Leertrajecten <a id="learning-paths"></a>
 
-![](../../.gitbook/assets/graphics87%20%283%29.png)This organizational tool allows you to generate or update **learning paths** to help guide your students through a specific sequence of learning objects/experiences. It can be configured in various ways e.g. to require students to undertake tasks in a given order, or to allow the repetition of certain activities.
+![](../../.gitbook/assets/graphics87%20%283%29.png)Met deze organisatorische tool kunt u **leerpaden** genereren of bijwerken om uw studenten te helpen bij een specifieke reeks leerobjecten/ervaringen. Het kan op verschillende manieren worden geconfigureerd, b.v. om studenten te verplichten taken in een bepaalde volgorde uit te voeren, of om de herhaling van bepaalde activiteiten toe te staan.
 
-Note: If you come from a Moodle background, this feature can be compared to the ordering of blocks on your course homepage.
+Opmerking: als je een Moodle-achtergrond hebt, kan deze functie worden vergeleken met de volgorde van blokken op de startpagina van je cursus.
 
-## Assessments <a id="assessments"></a>
+## Beoordelingen <a id="assessments"></a>
 
-![](../../.gitbook/assets/graphics88%20%283%29.png)The assessments tool is very useful when a score has to be assigned for the whole course. It allows for the creation of a gradebook incorporating the results of on-line or in-class evaluations. It also allows for the automatic generation of certificates \(although this might not prove as intuitive as the rest of the platform tools due to the many parameters involved\).
+![](../../.gitbook/assets/graphics88%20%283%29.png)De assessments-tool is erg handig wanneer er een score moet worden toegekend aan de hele cursus. Hiermee kan een cijferlijst worden gemaakt met de resultaten van online of klassikale evaluaties. Het maakt ook het automatisch genereren van certificaten mogelijk \(hoewel dit misschien niet zo intuïtief is als de rest van de platformtools vanwege de vele betrokken parameters\).
 
-## Attendances <a id="attendances"></a>
+## Aanwezigheid <a id="attendances"></a>
 
-![](../../.gitbook/assets/graphics89%20%283%29.png)This provides a means for the registration of attendance by learners, taking this into account in the scoring of assessments.
+![](../../.gitbook/assets/graphics89%20%283%29.png)Dit biedt een manier om de aanwezigheid van leerlingen te registreren, waarbij hiermee rekening wordt gehouden bij het beoordelen van beoordelingen.
 
 ## Links <a id="links"></a>
 
-![](../../.gitbook/assets/graphics90%20%283%29.png)You can use this tool to add links to external websites from within the course which be be of value to students during the course of their study. These links can be incorporated into a learning path.
+![](../../.gitbook/assets/graphics90%20%283%29.png)Je kunt deze tool gebruiken om vanuit de cursus links naar externe websites toe te voegen die van waarde zijn voor studenten tijdens hun studie. Deze koppelingen kunnen worden opgenomen in een leertraject.
 
-## Announcements <a id="announcements"></a>
+## Mededelingen <a id="announcements"></a>
 
-![](../../.gitbook/assets/graphics91%20%283%29.png)Use this fully featured tool to make announcements related to the course, which will be flagged up to users when they log in to the course. They can be be personalized and configured to be sent via email to relevant users. It is also possible to attach documents to announcements.
+![](../../.gitbook/assets/graphics91%20%283%29.png)Gebruik deze volledig functionele tool om aankondigingen te doen die verband houden met de cursus, die worden gemarkeerd voor gebruikers wanneer ze inloggen op de cursus. Ze kunnen worden gepersonaliseerd en geconfigureerd om via e-mail naar relevante gebruikers te worden verzonden. Het is ook mogelijk om documenten toe te voegen aan aankondigingen.
 
-## Glossary <a id="glossary"></a>
+## Woordenlijst <a id="glossary"></a>
 
-![](../../.gitbook/assets/graphics92%20%283%29.png)A course glossary can be an invaluable aid to students on some courses. This tool allows you add and view terms and definitions \(including sound, graphics etc.\) and to import and export text .csv lists or save the glossary as a .pdf file.
+![](../../.gitbook/assets/graphics92%20%283%29.png)Een cursuswoordenlijst kan voor sommige cursussen van onschatbare waarde zijn voor studenten. Met deze tool kunt u termen en definities toevoegen en bekijken \(inclusief geluid, graphics etc.\) en om tekst .csv-lijsten te importeren en exporteren of om de woordenlijst op te slaan als een .pdf-bestand.
 
-## Course progress <a id="course-progress"></a>
+## Cursusvoortgang <a id="course-progress"></a>
 
-![](../../.gitbook/assets/graphics93%20%283%29.png)This planning and record keeping tool helps you to create, import, export or save _thematic sections_ which can serve as a “course diary” to include topics and plans and indicate class progress.
+![](../../.gitbook/assets/graphics93%20%283%29.png)Deze tool voor het plannen en bijhouden van gegevens helpt u bij het maken, importeren, exporteren of opslaan van _thematische secties_ die kunnen dienen als een "cursusdagboek" om onderwerpen en plannen op te nemen en de voortgang van de klas aan te geven.
 
-**Note** : The learning paths created inside the course can also be made visible in the « Authoring » section, which could generate redundancy. It is possible to show or hide them using the double square icon in the learning paths list \(« Make visible to learners »\)
+**Opmerking**: De leertrajecten die binnen de cursus zijn gemaakt, kunnen ook zichtbaar worden gemaakt in de sectie «Authoring», wat redundantie kan genereren. Het is mogelijk om ze te tonen of te verbergen met behulp van het dubbele vierkante pictogram in de lijst met leertrajecten \(«Maak zichtbaar voor leerlingen»\)
 
 ## Blogs <a id="blogs"></a>
 
-![](../../.gitbook/assets/graphics94%20%283%29.png)You may not see the Projects tool in the Authoring section, but if you create a project using the tool in the Administration section, it will show up in the _Authoring_ tools, where you can hide it from the learners' view if you wish. This tool allows for collaborative work to be organized.
+![](../../.gitbook/assets/graphics94%20%283%29.png)Mogelijk ziet u de Projecten-tool niet in de Authoring-sectie, maar als u een project maakt met behulp van de tool in de Administration-sectie, wordt het weergegeven in de _Authoring_-tools, waar u het desgewenst kunt verbergen voor de weergave van de leerlingen. Met deze tool kan gezamenlijk werk worden georganiseerd.
 
 ## Search <a id="search"></a>
 
-![](../../.gitbook/assets/graphics95%20%283%29.png)The search tool can only be enabled on the platform by the administrator, as it requires the installation of specific and advanced modules external to Chamilo itself. If enabled, the tool allows for searching within the text of most documents on the whole platform, including texts imported or created inside Chamilo.
-
+![](../../.gitbook/assets/graphics95%20%283%29.png)De zoekfunctie kan alleen door de beheerder op het platform worden ingeschakeld, aangezien hiervoor specifieke en geavanceerde modules buiten Chamilo zelf moeten worden geïnstalleerd. Indien ingeschakeld, kunt u met de tool zoeken in de tekst van de meeste documenten op het hele platform, inclusief teksten die zijn geïmporteerd of gemaakt in Chamilo.
