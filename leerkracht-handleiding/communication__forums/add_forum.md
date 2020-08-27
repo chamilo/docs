@@ -1,16 +1,18 @@
 # Forum toevoegen
 
-From the _Forum_ page:
+Vanaf de _Forum_ pagina:
 
-* Click _New forum_,
-* give it a name,
-* add a description if necessary,
-* in the advanced settings, it is possible to:
-  * authorize learners to modify their own answers,
-  * authorize learners to create new discussion threads,
-  * set the default view,
-  * decide if the forum is the one of a group, if it is public or private,
-* click the _Create forum_ button.
+* Klik op _Nieuw forum_,
+* geef het een naam,
+* voeg indien nodig een beschrijving toe,
+* in de geavanceerde instellingen is het mogelijk om:
+  * leerlingen machtigen om hun eigen antwoorden te wijzigen,
+  * studenten autoriseren om nieuwe discussiethreads te maken,
+  * stel de standaardweergave in,
+  * beslissen of het forum van een groep is, of het openbaar of privé is,
+* klik op de knop Formulier maken.
 
-![](../../.gitbook/assets/graphics4%20%281%29.png)Illustration 70: Forum – Forum creation form
+![](../../.gitbook/assets/graphics4%20%281%29.png)
+
+Afbeelding 70: Forum - Formulier voor het maken van een forum
 
