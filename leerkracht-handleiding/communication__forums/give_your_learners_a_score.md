@@ -1,17 +1,21 @@
 # Geef uw leerlingen een score
 
-If you choose to score/grade a topic/discussion thread, you will first need to assign a maximum score to this thread. This needs to be done when the thread is created. Go to _advanced settings_ in the _create thread_ page and check the _grade this thread_ box. An option to enter a maximum score will appear:
+Als je ervoor kiest om een onderwerp/discussiethread te scoren/beoordelen, moet je eerst een maximale score aan deze thread toekennen. Dit moet worden gedaan wanneer de thread is gemaakt. Ga naar de _geavanceerde instellingen_ op de pagina _Thread maken_ en vink het vakje _grade this thread_ aan. Er verschijnt een optie om een maximale score in te voeren:
 
-![](../../.gitbook/assets/graphics14%20%281%29.png)Illustration 72: A_ssigning a maximum score to a discussion thread_
+![](../../.gitbook/assets/graphics14%20%281%29.png)
 
-To score a student's contribution to a thread:
+Afbeelding 72: _Een maximale score toekennen aan een discussiethread_
 
-* click on the _Learners list_ icon ![](../../.gitbook/assets/graphics167%20%283%29.png)
-* scroll down to see the list of learners,
-* click on the _grade activity_ icon ![](../../.gitbook/assets/graphics15%20%283%29.gif) next to the learner's name
-* on the new page, locate the list of all the contributions \(messages\) written by the learner scored as well as a statistical table based on these same contributions,
-* enter the score you want to assign the learner: with the help of the list of contributions, choose a qualitative evaluation for these contributions. The statistical table allows a quantitative evaluation of the contributions,
-* Click the Grade _this thread_ button.
+Om de bijdrage van een student aan een discussielijn te scoren:
 
-![](../../.gitbook/assets/graphics6%20%281%29.png)Illustration 73: Forum – Marking a thread
+* klik op het pictogram van de studentenlijst ![](../../.gitbook/assets/graphics167%20%283%29.png)
+* scroll naar beneden om de lijst met studenten te zien,
+* klik op het cijferactiviteitspictogram ![](../../.gitbook/assets/graphics15%20%283%29.gif) naast de naam van de leerling
+* zoek op de nieuwe pagina de lijst met alle bijdragen \(berichten\) geschreven door de gescoorde leerling, evenals een statistische tabel op basis van dezelfde bijdragen,
+* vul de score in die u de leerling wilt toekennen: kies met behulp van de lijst met bijdragen een kwalitatieve evaluatie voor deze bijdragen. De statistische tabel maakt een kwantitatieve evaluatie van de bijdragen mogelijk,
+* Klik op de knop Deze thread beoordelen.
+
+![](../../.gitbook/assets/graphics6%20%281%29.png)
+
+Afbeelding 73: Forum - Een discussie markeren
 
