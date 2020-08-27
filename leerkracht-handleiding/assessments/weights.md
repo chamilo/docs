@@ -1,81 +1,91 @@
 # Gewichten
 
-The weights, accessed through a percentage-symbol icon \(![](../../.gitbook/assets/image4%20%283%29.svg)![](../../.gitbook/assets/image4%20%2810%29.png)\) on the right side of the main assessments page, allow you to define the relative importance of each of the activities within the assessment. If you don't have any activity registered at this point, return to this section when you do.
+De gewichten, toegankelijk via een pictogram met een percentagesymbool \(![](../../.gitbook/assets/image4%20%283%29.svg)![](../../.gitbook/assets/image4%20%2810%29.png)\) aan de rechterkant van de hoofdpagina met beoordelingen, kunt u het relatieve belang van elk van de activiteiten binnen de beoordeling definiëren. Als u op dit moment nog geen activiteit heeft geregistreerd, keer dan terug naar deze sectie.
 
 ![](../../.gitbook/assets/images133%20%284%29.png)
 
-Illustration 108: Assessments - Weights
+Afbeelding 108: Beoordelingen - Gewichten
 
-We suggest that you define a distribution of weights that make a total of 100 \(or the equivalent total value for the course defined in the previous section\), otherwise it becomes really complicated to understand all the possible relative scoring issues. Several messages will remind you to do just that.
+We raden u aan om een gewichtsverdeling te definiëren die een totaal van 100 \ oplevert (of de equivalente totale waarde voor het parcours gedefinieerd in de vorige sectie\), anders wordt het erg ingewikkeld om alle mogelijke relatieve scoreproblemen te begrijpen. Verschillende berichten zullen u eraan herinneren om precies dat te doen.
 
 ## Skills ranking <a id="skills-ranking"></a>
 
-Skills ranking allow you to define ranks for the scores, so that they can be more easily represented literally and graphically. This option, however, **must** be enabled by your portal administrator. Otherwise you won’t see the following options.
+Met de rangschikking van vaardigheden kunt u de rangschikking voor de scores definiëren, zodat ze gemakkelijker letterlijk en grafisch kunnen worden weergegeven. Deze optie **moet** echter zijn ingeschakeld door uw portalbeheerder. Anders zie je de volgende opties niet.
 
-Click on the podium icon on the right side of the main assessments page ![](../../.gitbook/assets/graphics191%20%281%29.png):
+Klik op het podiumpictogram aan de rechterkant van de hoofdbeoordelingpagina ![](../../.gitbook/assets/graphics191%20%281%29.png):
 
 ![](../../.gitbook/assets/graphics195%20%281%29.png)
 
-Illustration 109: Assessments – Skills ranking
+Afbeelding 109: Assessments - Rangschikking van vaardigheden
 
-As well as a pass-mark, you can add additional options: e.g. the names you want to give to any score range to make it faster to read generic reports.
+Naast een pass-markering kunt u extra opties toevoegen: bijv. de namen die u aan een scorebereik wilt geven, zodat u sneller algemene rapporten kunt lezen.
 
-## Certificate template <a id="certificate-template"></a>
+## certificaatsjabloon <a id="certificate-template"></a>
 
-Once you have configured the rest of the tools, you might get interested in setting up your own certificate template. But before we start, let’s get 3 concepts clear:
+Nadat u de rest van de tools heeft geconfigureerd, kunt u geïnteresseerd raken in het opzetten van uw eigen certificaatsjabloon. Maar laten we, voordat we beginnen, drie concepten duidelijk maken:
 
-* Certificate templates are built in HTML, so you will probably need a web designer \(or a lot of patience\) to generate beautiful templates.
-* Certificate templates are build in HTML \(yes, again\), so their export to PDF \(a feature provided as a commodity in Chamilo\) might not be ideal and you might need to work over that with your designer to make sure both results are fine.
-* Certificates are only generated when the certificates option is selected \(see Assessments pre-configurationon page 99\), if students have a passing grade, and if the student actually **enters** the assessment tool \(or, in 1.11, if you used the special certificate page in the learning path\)
+* Certificaatsjablonen zijn gebouwd in HTML, dus je hebt waarschijnlijk een webdesigner \(of veel geduld\) nodig om mooie sjablonen te genereren.
+* Certificaatsjablonen zijn gebouwd in HTML \(ja, nogmaals\), dus hun export naar PDF \(een functie die als commodity wordt aangeboden in Chamilo\) is misschien niet ideaal en u moet daar misschien samen met uw ontwerper aan werken om ervoor te zorgen dat beide resultaten zijn prima.
+* Certificaten worden alleen gegenereerd als de optie Certificaten is geselecteerd \(zie Voorconfiguratie toetsen op pagina 99\), als studenten een voldoende hebben behaald en als de student daadwerkelijk de assessmenttool **invoert** \(of, in 1.11, als je hebt de speciale certificaatpagina gebruikt in het leertraject\)
 
-Theassessmentstool makes it possible to create a certificate generated automatically using the learner's data stored on the platform. To set this up, click the large certificate icon ![](../../.gitbook/assets/graphics193%20%281%29.png) on the right side of the main page. This will bring up a screen displaying a list of existing certificates, with tool-bar options to import ![](../../.gitbook/assets/graphics194%20%281%29.png) or create certificates. Chamilo provides one basic template certificate that you can update if you like. Click the _Create certificate_ icon ![](../../.gitbook/assets/graphics196%20%281%29.png) to go to a document creation page, which allows you to design a certificate.
+De assessments-tool maakt het mogelijk om een certificaat aan te maken dat automatisch wordt gegenereerd op basis van de gegevens van de leerling die op het platform zijn opgeslagen. Om dit in te stellen, klikt u op het grote certificaatpictogram ![](../../.gitbook/assets/graphics193%20%281%29.png) aan de rechterkant van de hoofdpagina. Hierdoor verschijnt een scherm met een lijst met bestaande certificaten, met te importeren werkbalkopties ![](../../.gitbook/assets/graphics194%20%281%29.png) of maak certificaten aan. Chamilo biedt één basissjablooncertificaat dat u kunt bijwerken als u dat wilt. Klik op het pictogram _Create certificate_ ![](../../.gitbook/assets/graphics196%20%281%29.png) om naar een pagina voor het maken van documenten te gaan, waar u een certificaat kunt ontwerpen.
 
-The page starts with a list of tags that you can use in the edition of your certificate:
+De pagina begint met een lijst met tags die u kunt gebruiken in de editie van uw certificaat:
 
-![](../../.gitbook/assets/image6%20%2810%29.png)Illustration 110: Certificates edition tags
+![](../../.gitbook/assets/image6%20%2810%29.png)
 
-These tags are relatively self-explanatory, but for the sake of precision, let’s define them here:
+Afbeelding 110: tags voor de uitgave van certificaten
 
-* **\(\(user\_firstname\)\)** will be replaced by the firstname of the user obtaining the certificate
-* **\(\(user\_lastname\)\)** same thing as above, with the lastname
-* **\(\(gradebook\_institution\)\)** this will be replaced by the name of your organization, defined by the administrator in the platform settings, and visible in the title bar of your browser
-* **\(\(gradebook\_sitename\)\)** will be replaced by the name of the platform, also defined by the administrator an visible in the title bar of your browser
-* **\(\(teacher\_firstname\)\)** will be replaced by the firstname of the teacher assigned to this course. A word of warning: this hasn’t been tested with multiple teachers or with sessions, so use with caution.
-* **\(\(teacher\_lastname\)\)** same as above, but lastname
-* **\(\(official\_code\)\)** if you use the users’ official code field, then the corresponding value will replace this tag when generating the certificate
-* **\(\(date\_certificate\)\)** will be replaced by the certificate date and time, in the date format that matches your language definition
-* **\(\(date\_certificate\_no\_time\)\)** same as above, without the hours and minutes
-* **\(\(course\_code\)\)** if you use a clear hierarchy of course codes, using the course code here might be useful
-* **\(\(course\_title\)\)** will be replaced by the course title
-* **\(\(gradebook\_grade\)\)** will be replaced by the score obtained \(both absolute and percentage\) by the student
-* **\(\(certificate\_link\)\)** will be replaced by the unique URL of the certificate. Chamilo keeps them well stored, so showing the link on a certificate that is going to be printed is a good idea to maintain the relationship with the digital original version
-* **\(\(certificate\_link\_html\)\)** in case you will export the certificate as an HTML certificate or a PDF certificate to use in a digital format, this will put an HTML link directly on the certificate
-* **\(\(certificate\_barcode\)\)** will replace the tag with a QR code with information about the certificate \(including the link to the original\). This is a very nice feature if you like QR codes, but you have to think that the tag \(a simple text on one line\) will actually be replaced by a good-size QR code. So plan the free space around this text well.
-* **\(\(external\_style\)\)** and **\(\(région\)\)** are examples of extra profile fields defined on users. Extra fields will appear in this list depending on their availability, so that’s a great extension you can give to your certificates if your administrator is open to this type of usage.
+Deze tags spreken voor zich, maar laten we ze hier voor de precisie definiëren:
 
-Editing the certificate is then only a question of finding a good text and the right tags:
+* **\(\(gebruiker\_Voornaam\)\)** wordt vervangen door de voornaam van de gebruiker die het certificaat verkrijgt
+* **\(\(gebruiker\_achternaam\)\)** hetzelfde als hierboven, met de achternaam
+* **\(\(cijferlijst\_instelling\)\)** deze wordt vervangen door de naam van uw organisatie, gedefinieerd door de beheerder in de platforminstellingen, en zichtbaar in de titelbalk van uw browser
+* **\(\(cijferlijst\_site naam\)\)** wordt vervangen door de naam van het platform, ook gedefinieerd door de beheerder en zichtbaar in de titelbalk van uw browser
+* **\(\(leraar\_Voornaam\)\)** wordt vervangen door de voornaam van de docent die aan deze cursus is toegewezen. Een waarschuwing: dit is niet getest met meerdere docenten of met sessies, dus wees voorzichtig.
+* **\(\(leraar\_lachternaam\)\)** hetzelfde als hierboven, maar achternaam
+* **\(\(officieel\_code\)\)** als u het officiële codeveld van de gebruikers gebruikt, zal de overeenkomstige waarde deze tag vervangen bij het genereren van het certificaat
+* **\(\(datum\_certificaat\)\)** wordt vervangen door de datum en tijd van het certificaat, in de datumnotatie die overeenkomt met uw taaldefinitie
+* **\(\(datum\_certificaat\_nee\_tijd\)\)** hetzelfde als hierboven, zonder de uren en minuten
+* **\(\(cursus\_code\)\)** als je een duidelijke hiërarchie van cursuscodes gebruikt, kan het handig zijn om de cursuscode hier te gebruiken
+* **\(\(cursus\_titel\)\)** wordt vervangen door de cursustitel
+* **\(\(cijferlijst\_rang\)\)** wordt vervangen door de score behaald \(zowel absoluut als percentage\) door de student
+* **\(\(certificaat\_koppeling\)\)** wordt vervangen door de unieke URL van het certificaat. Chamilo bewaart ze goed, dus het is een goed idee om de link te tonen op een certificaat dat afgedrukt gaat worden om de relatie met de digitale originele versie te behouden
+* **\(\(certificaat\_koppeling\_html\)\)** in het geval dat u het certificaat exporteert als een HTML-certificaat of een PDF-certificaat voor gebruik in een digitaal formaat, zal dit een HTML-link rechtstreeks op het certificaat plaatsen
+* **\(\(certificaat\_streepjescode\)\)** vervangt de tag door een QR-code met informatie over het certificaat \(inclusief de link naar het origineel\). Dit is een erg leuke functie als je van QR-codes houdt, maar je moet er rekening mee houden dat de tag \(een simpele tekst op één regel\) daadwerkelijk zal worden vervangen door een QR-code van goede grootte. Plan dus de vrije ruimte rond deze tekst goed.
+* **\(\(extern\_stijl\)\)** and **\(\(regio\)\)** zijn voorbeelden van extra profielvelden die zijn gedefinieerd voor gebruikers. Extra velden verschijnen in deze lijst, afhankelijk van hun beschikbaarheid, dus dat is een geweldige uitbreiding die u aan uw certificaten kunt geven als uw beheerder openstaat voor dit soort gebruik.
 
-![](../../.gitbook/assets/image7%20%2810%29.png)Illustration 111: Certificate creation area
+Het certificaat wijzigen is dan alleen een kwestie van het vinden van een goede tekst en de juiste tags:
 
-Once you have created and saved your certificate, the main Certificate page lists the certificates that have been uploaded or created.
+![](../../.gitbook/assets/image7%20%2810%29.png)
 
-![](../../.gitbook/assets/image8%20%2810%29.png)Illustration 112: Certificate templates list
+Afbeelding 111: Gebied voor het maken van certificaten
 
-You might note that the 5th icon on the right has a slightly different color for the first and the second line… That’s because the “Default certificate” in this example is still considered the… default certificate. To change that, you will have to click on the gray icon on the second line \(![](../../.gitbook/assets/graphics198%20%283%29.png)\) to make your new certificate \(“Future of Learning” in this example\) the default certificate for all students.
+Nadat u uw certificaat heeft aangemaakt en opgeslagen, toont de hoofdpagina Certificaat de certificaten die zijn geüpload of gemaakt.
 
-Only one certificate can be selected in a course at any one time, so choose well.
+![](../../.gitbook/assets/image8%20%2810%29.png)
 
-Once this is done, the magnifier icon \(![](../../.gitbook/assets/image9%20%281%29.svg)![](../../.gitbook/assets/image9%20%2810%29.png)\) will allow you to see a preview of the certificate with fake values. In our example, this gives something like this:
+Afbeelding 112: Lijst met certificaatsjablonen
 
-![](../../.gitbook/assets/image10%20%287%29.png)Illustration 113: Example certificate
+U merkt misschien op dat het 5e pictogram aan de rechterkant een iets andere kleur heeft voor de eerste en de tweede regel ... Dat komt omdat het "Standaardcertificaat" in dit voorbeeld nog steeds wordt beschouwd als het ... standaardcertificaat. Om dat te veranderen, moet u op het grijze pictogram op de tweede regel klikken \(![](../../.gitbook/assets/graphics198%20%283%29.png)\) om van uw nieuwe certificaat \("Future of Learning" in dit voorbeeld\) het standaardcertificaat te maken voor alle studenten.
 
-Missing something? Clearly, some HTML design with a logo, the names of the people approving this certificate would have been a good addition. You will find these on the certificate available in every course in Chamilo by default, which would render like this.
+Er kan slechts één certificaat tegelijk in een cursus worden geselecteerd, dus kies goed.
 
-![](../../.gitbook/assets/image11%20%2810%29.png)Illustration 114: Default certificate template available in Chamilo
+Zodra dit is gebeurd, het vergrootglaspictogram \(![](../../.gitbook/assets/image9%20%281%29.svg)![](../../.gitbook/assets/image9%20%2810%29.png)\) kunt u een voorbeeld van het certificaat met nepwaarden zien. In ons voorbeeld geeft dit zoiets als dit:
 
-As you can see, this template is much more developed than the quick template we built as an example for this guide. That’s because we intent to provide you with the best tools and templates to ensure you can generate a great impact with your course with minimal effort. You can edit the default template if you want and replace the logo by your institution’s logo. This is all up to you.
+![](../../.gitbook/assets/image10%20%287%29.png)
 
-This certificate, however, sometimes shows a little defect when exporting to PDF, so test it first if you expect this to be your best feature...
+Afbeelding 113: Voorbeeldcertificaat
 
-You can return to the assessments screen through the breadcrumb navigation \(click _Assessments_\).
+Iets missen? Het is duidelijk dat sommige HTML-ontwerpen met een logo, de namen van de mensen die dit certificaat goedkeurden, een goede toevoeging zouden zijn geweest. U vindt deze op het certificaat dat standaard in elke cursus in Chamilo beschikbaar is en die zo wordt weergegeven.
+
+![](../../.gitbook/assets/image11%20%2810%29.png)
+
+Illustratie 114: Standaard certificaatsjabloon beschikbaar in Chamilo
+
+Zoals u kunt zien, is deze sjabloon veel verder ontwikkeld dan de snelle sjabloon die we als voorbeeld voor deze handleiding hebben gemaakt. Dat komt omdat we u de beste tools en sjablonen willen bieden om ervoor te zorgen dat u met minimale inspanning een grote impact kunt genereren met uw cursus. U kunt de standaardsjabloon desgewenst bewerken en het logo vervangen door het logo van uw instelling. Dit is allemaal aan jou.
+
+Dit certificaat vertoont echter soms een klein defect bij het exporteren naar PDF, dus test het eerst als u verwacht dat dit uw beste eigenschap is ...
+
+U kunt via de broodkruimelnavigatie terugkeren naar het beoordelingsscherm \(klik op _Assessments_\).
 
