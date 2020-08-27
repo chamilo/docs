@@ -1,11 +1,12 @@
 # Forumcategorieën toevoegen
 
-In the _Forum_ tool:
+In de _Forum_ tool:
 
-* click the _New category_ link,
-* give it a name,
-* add a comment if needed,
-* click _Create category._
+* klik op de link _Nieuwe categorie_,
+* geef het een naam,
+* voeg eventueel een opmerking toe,
+* klik op _Categorie aanmaken._
 
-![](../../.gitbook/assets/graphics3%20%281%29.png)Illustration 69: Forum – New category
+![](../../.gitbook/assets/graphics3%20%281%29.png)
 
+Afbeelding 69: Forum - Nieuwe categorie
