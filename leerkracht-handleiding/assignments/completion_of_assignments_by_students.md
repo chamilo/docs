@@ -1,6 +1,7 @@
 # Afronding van opdrachten door studenten
 
-Students have the option either to do their assignment on-line or to upload a file or document they have chosen to complete outside of the Chamilo platform \(n.b. to ensure students have this choice, the teacher will need to check the relevant box in the advanced settings options of the _Create assignment_ page\) The student simply needs to click on the assignment title and then the _submit paper_ icon ![](../../.gitbook/assets/graphics68%20%281%29.png)to be taken to a page where they can upload a file using the relevant tool and/or write their assignment using Chamilo's rich text editor.
+Studenten hebben de optie om hun opdracht online te doen of om een bestand of document te uploaden dat ze hebben gekozen om buiten het Chamilo-platform in te vullen \(nb om ervoor te zorgen dat studenten deze keuze hebben, moet de docent het relevante vakje in de geavanceerde instellingen van de _Create opdracht_ pagina\) De student hoeft alleen maar op de titel van de opdracht te klikken en vervolgens op het pictogram voor het indienen van een paper ![](../../.gitbook/assets/graphics68%20%281%29.png)om naar een pagina te worden geleid waar ze een bestand kunnen uploaden met de relevante tool en/of hun opdracht kunnen schrijven met de rich text-editor van Chamilo.
 
-![](../../.gitbook/assets/graphics70%20%281%29.png)Illustration 94: Student's assignment paper
+![](../../.gitbook/assets/graphics70%20%281%29.png)
 
+Afbeelding 94: Opdrachtdocument van de student
