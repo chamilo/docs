@@ -1,8 +1,8 @@
 # Zoek een forumelement
 
-All the screens of the _Forum_ tool include a search feature. The search can be executed in all the forums at once and you can combine search terms with the “+” sign. The results are sent in the form of a list indicating:
+Alle schermen van de _Forum_ tool bevatten een zoekfunctie. De zoekopdracht kan in alle forums tegelijk worden uitgevoerd en u kunt zoektermen combineren met het "+" teken. De resultaten worden verzonden in de vorm van een lijst met daarin:
 
-* the forum category,
-* the forum title,
-* the title of the thread in which the searched words have been found.
+* de forumcategorie,
+* de forumtitel,
+* de titel van de thread waarin de gezochte woorden zijn gevonden.
 
