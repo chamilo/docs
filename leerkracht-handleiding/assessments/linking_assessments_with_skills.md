@@ -1,12 +1,14 @@
 # Assessments koppelen aan vaardigheden
 
-Since the latest versions 1.9.\*, Chamilo allows you to link skills to assessments. In short, anything that would generate a certificate for a user can also be used to grant this student a skill.
+Sinds de laatste versie 1.9.\* Stelt Chamilo je in staat om vaardigheden te koppelen aan assessments. Kortom, alles dat een certificaat voor een gebruiker zou genereren, kan ook worden gebruikt om deze student een vaardigheid te geven.
 
-This requires the administrator to have enabled and configured the skills available on the platform. This usually requires you to discuss this specific topic with the organization authorities, as you cannot yourself create a skill.
+Dit vereist dat de beheerder de beschikbare vaardigheden op het platform heeft ingeschakeld en geconfigureerd. Dit vereist meestal dat u dit specifieke onderwerp met de organisatieautoriteiten bespreekt, aangezien u zelf geen vaardigheid kunt creëren.
 
-Once skills are available, the administrator will have to come to your course and link the assessment that you have configured with a specific skill. This looks something like this \(to the administrator\):
+Zodra de vaardigheden beschikbaar zijn, moet de beheerder naar uw cursus komen en de beoordeling die u hebt geconfigureerd koppelen aan een specifieke vaardigheid. Dit ziet er ongeveer zo uit \(voor de beheerder\):
 
-![](../../.gitbook/assets/image15%20%288%29.png)Illustration 118: Assign skill to assessment
+![](../../.gitbook/assets/image15%20%288%29.png)
 
-We can see there \(although the skills available are written in Spanish\) that a new “Skills” field appears in the same edition form as we have for assessments.
+Afbeelding 118: wijs vaardigheid toe aan beoordeling
+
+We kunnen daar zien \(hoewel de beschikbare vaardigheden in het Spaans zijn geschreven\) dat een nieuw veld "Vaardigheden" verschijnt in dezelfde editie als we hebben voor assessments.
 
