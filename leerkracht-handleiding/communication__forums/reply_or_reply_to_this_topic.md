@@ -1,6 +1,5 @@
 # Reageer of reageer op dit onderwerp
 
-The main difference between those two options resides in the hierarchy of the different messages and their answers.
+Het belangrijkste verschil tussen deze twee opties zit in de hiërarchie van de verschillende berichten en hun antwoorden.
 
-_Reply_ creates new answers which will be deleted altogether when the initial message s removed, while _Reply to this thread_ creates messages which will be kept, even if the starting message is removed.
-
+_Antwoord_ maakt nieuwe antwoorden aan die helemaal worden verwijderd wanneer het eerste bericht wordt verwijderd, while _Reageer op deze thread_ maakt berichten aan die worden bewaard, zelfs als het startbericht wordt verwijderd.
