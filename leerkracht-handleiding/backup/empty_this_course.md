@@ -1,26 +1,27 @@
 # Maak deze cursus leeg
 
-The _Empty this course_ feature ![](../../.gitbook/assets/graphics334%20%283%29.gif) empties \(“recycles”\) either the whole course or selected elements. It deletes documents, forums, links, etc. This procedure can be executed after a course has ended and when you want to start anew in the same space. Of course, it is generally recommended that you keep a history of these courses.
+De functie _Leeg deze cursus_ ![](../../.gitbook/assets/graphics334%20%283%29.gif) leegt \(“recycleert”\) ofwel de hele cursus of geselecteerde elementen. Het verwijdert documenten, forums, links, enz. Deze procedure kan worden uitgevoerd nadat een cursus is beëindigd en wanneer u opnieuw wilt beginnen in dezelfde ruimte. Het wordt natuurlijk over het algemeen aanbevolen om een geschiedenis van deze cursussen bij te houden.
 
-Warning: Before you empty the course, make sure you take a backup copy, just in case!
+Waarschuwing: Zorg ervoor dat u een reservekopie maakt voordat u de cursus leegmaakt, voor het geval dat!
 
-To empty a course:
+Een cursus leegmaken:
 
-* click on the _Empty this course_ link,
-* select whether you want to empty the whole course or just specific tools,
-* click the _Empty this course_ button to proceed.
+* klik op de link _Deze cursus leegmaken_,
+* selecteer of je de hele cursus wilt leegmaken of alleen specifieke tools,
+* klik op de knop _Deze cursus leegmaken_ om door te gaan.
 
 ![](../../.gitbook/assets/images252%20%283%29.png)
 
-Illustration 184: Maintenance – Empty course
+Afbeelding 184: Onderhoud - Lege cursus
 
-## Delete the course area <a id="delete-the-course-area"></a>
+## Verwijder het cursusgebied <a id="delete-the-course-area"></a>
 
-Click the _Delete the course area_ \_![](../../.gitbook/assets/graphics335%20%283%29.gif)\_link to delete the course completely from the server.
+Klik op _Verwijder het cursusgebied_ \_![](../../.gitbook/assets/graphics335%20%283%29.gif)\_link om de cursus volledig van de server te verwijderen.
 
-Given the fact there's no way back from this, we highly recommend you consider this twice before confirming it.
+Gezien het feit dat er geen weg terug is, raden we u ten zeerste aan dit twee keer te overwegen voordat u het bevestigt.
 
-![](../../.gitbook/assets/graphics336%20%283%29.gif) Warning: This feature should be used with extreme caution! ![](../../.gitbook/assets/graphics337%20%283%29.gif)
+![](../../.gitbook/assets/graphics336%20%283%29.gif) Waarschuwing: deze functie moet met uiterste voorzichtigheid worden gebruikt! ![](../../.gitbook/assets/graphics337%20%283%29.gif)
 
-![](../../.gitbook/assets/images253%20%283%29.png)Illustration 185: Maintenance – Course deleting
+![](../../.gitbook/assets/images253%20%283%29.png)
 
+Afbeelding 185: Onderhoud - Cursus verwijderen
