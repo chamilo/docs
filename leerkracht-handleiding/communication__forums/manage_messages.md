@@ -1,13 +1,13 @@
 # Beheer berichten
 
-A message is an answer within one of the discussion threads.
+Een bericht is een antwoord binnen een van de discussiethreads.
 
-| Icons | Features |
+| Pictogrammen | Kenmerken |
 | :--- | :--- |
-| ![](../../.gitbook/assets/images82%20%281%29.png) | Change the settings \(name, text and advanced settings\) of the message |
-| ![](../../.gitbook/assets/images83%20%281%29.png) | Delete the message \(after approval\) |
-| ![](../../.gitbook/assets/images84%20%281%29.png) | Control a message's visibility |
-| ![](../../.gitbook/assets/images85%20%281%29.png) | Reply to the message |
-| ![](../../.gitbook/assets/images86%20%281%29.png) | Move the message to another thread |
-| ![](../../.gitbook/assets/images87%20%281%29.png) | Quote this message \(and answer on the basis of the quoted message\) |
+| ![](../../.gitbook/assets/images82%20%281%29.png) | Wijzig de instellingen \(naam, tekst en geavanceerde instellingen\) van het bericht |
+| ![](../../.gitbook/assets/images83%20%281%29.png) | Verwijder het bericht \(na goedkeuring\) |
+| ![](../../.gitbook/assets/images84%20%281%29.png) | Beheer de zichtbaarheid van een bericht |
+| ![](../../.gitbook/assets/images85%20%281%29.png) | Beantwoord het bericht |
+| ![](../../.gitbook/assets/images86%20%281%29.png) | Verplaats het bericht naar een andere thread |
+| ![](../../.gitbook/assets/images87%20%281%29.png) | Citeer dit bericht \(en antwoord op basis van het geciteerde bericht\) |
 
