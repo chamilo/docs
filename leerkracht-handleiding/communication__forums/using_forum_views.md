@@ -1,10 +1,11 @@
 # Forumweergaven gebruiken
 
-Depending on the complexity of exchanges on the forums, several display modes can be used to simplify reading and answering discussion threads.
+Afhankelijk van de complexiteit van uitwisselingen op de forums, kunnen verschillende weergavemodi worden gebruikt om het lezen en beantwoorden van discussiethreads te vereenvoudigen.
 
-* **List view** : simply shows messages in chronological order,
-* **threaded view** : shows only one answer thread at a time,
-* **nested view** : uses the threaded view but displays a complete subject.
+* **Lijstweergave** : toont eenvoudig berichten in chronologische volgorde,
+* **schroefdraadweergave** : toont slechts één antwoordthread tegelijk,
+* **geneste weergave** : gebruikt de weergave met schroefdraad, maar toont een volledig onderwerp.
 
-![](../../.gitbook/assets/graphics2%20%281%29.png)Illustration 68: Forum – Display modes
+![](../../.gitbook/assets/graphics2%20%281%29.png)
 
+Afbeelding 68: Forum - Weergavemodi
