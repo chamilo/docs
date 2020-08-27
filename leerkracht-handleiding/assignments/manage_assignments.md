@@ -1,8 +1,10 @@
 # Beheer opdrachten
 
-If the number of learners in your course is significant, there will be plenty of assignments to mark..!
+Als het aantal studenten in uw cursus aanzienlijk is, zullen er genoeg opdrachten zijn om te markeren ..!
 
-Chamilo eases the burden a little by keeping an organized record of assignments set and student posts on the main page for each assignment set. It lists the assignments completed by learners as each is submitted, flags up clearly if they need to be marked, offers a record of dates , allows quick navigation to each assignment exercise for review and displays each learner's scores. Clicking on the column headings allows for the quick and easy re-ordering of entries e.g. according to date, students name, score etc. The toolbar includes listings ![](../../.gitbook/assets/graphics69%20%281%29.png) for “missing” submissions from students on the course \(including an option to send a reminder\), and the list can be downloaded as a .zip file.
+Chamilo verlicht de last een beetje door een overzichtelijk overzicht bij te houden van de set opdrachten en de berichten van studenten op de hoofdpagina voor elke set opdrachten. Het geeft een overzicht van de opdrachten die door leerlingen zijn voltooid wanneer ze worden ingeleverd, geeft duidelijk aan of ze moeten worden gemarkeerd, biedt een overzicht van de datums, maakt snelle navigatie naar elke opdrachtoefening mogelijk voor beoordeling en geeft de scores van elke leerling weer. Door op de kolomtitels te klikken, kunt u items snel en gemakkelijk opnieuw ordenen, bijv. op datum, naam van de leerling, score etc. De werkbalk bevat lijsten ![](../../.gitbook/assets/graphics69%20%281%29.png) voor "ontbrekende" inzendingen van studenten op de cursus \(inclusief een optie om een herinnering te sturen\), en de lijst kan worden gedownload als een .zip-bestand.
 
-![](../../.gitbook/assets/graphics67%20%281%29.png)Illustration 95: Main page for an assignment set by the teacher
+![](../../.gitbook/assets/graphics67%20%281%29.png)
+
+Afbeelding 95: Hoofdpagina voor een opdracht van de docent
 
