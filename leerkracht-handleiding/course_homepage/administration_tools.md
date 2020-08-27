@@ -1,31 +1,33 @@
 # Administrator hulpmiddelen
 
-The _administration_ section groups tools that the learner never needs access to – there is therefore no option to hide or show the tools, which are designed for teacher use only.
+Het _beheergedeelte_ groepeert tools waartoe de leerling nooit toegang nodig heeft - er is daarom geen optie om de tools te verbergen of weer te geven, die alleen bedoeld zijn voor gebruik door de leerkracht.
 
-![](../../.gitbook/assets/images31%20%288%29.png)Illustration 29: Administration tools
+![](../../.gitbook/assets/images31%20%288%29.png)
 
-## Projects <a id="projects"></a>
+Afbeelding 29: beheertools
 
-![](../../.gitbook/assets/graphics107%20%283%29.png)This is where the teacher can create new _blogs_ visible and available to learners in the _Authoring_ section. A blog integrates tasks and users management via a calendar within the _Blogs_ tool, supporting the effective management of collaborative projects.
+## Projecten <a id="projects"></a>
 
-## Settings <a id="settings"></a>
+![](../../.gitbook/assets/graphics107%20%283%29.png) Hier kan de docent nieuwe _blogs_ maken die zichtbaar en beschikbaar zijn voor leerlingen in de sectie _Authoring_. Een blog integreert taken en gebruikersbeheer via een kalender in de _Blogs_-tool, wat het effectieve beheer van samenwerkingsprojecten ondersteunt.
 
-![](../../.gitbook/assets/graphics108%20%283%29.png)Manage the course settings as a teacher. Settings are sorted in a few sections:
+## Instellingen <a id="settings"></a>
 
-| ![](../../.gitbook/assets/images282%20%284%29.png)![](../../.gitbook/assets/images284%20%284%29.png)![](../../.gitbook/assets/images283%20%284%29.png)![](../../.gitbook/assets/images281%20%284%29.png)![](../../.gitbook/assets/graphics109%20%284%29.png) | Course settings | Manage and update elements such as the course title, category, language, picture, etc. |
+![](../../.gitbook/assets/graphics108%20%283%29.png) Beheer de cursusinstellingen als docent. De instellingen zijn gesorteerd in een paar secties:
+
+| ![](../../.gitbook/assets/images282%20%284%29.png)![](../../.gitbook/assets/images284%20%284%29.png)![](../../.gitbook/assets/images283%20%284%29.png)![](../../.gitbook/assets/images281%20%284%29.png)![](../../.gitbook/assets/graphics109%20%284%29.png) | Cursusinstellingen | Beheer en update elementen zoals de cursustitel, categorie, taal, afbeelding, etc. |
 | :--- | :--- | :--- |
-| ![](../../.gitbook/assets/graphics110%20%284%29.png) | Course access | Configure course access updates \(visibility, subscription and other permissions\) |
-|  | E-mail notifications | Set the behaviour of for e-mails alerts |
-|  | Users rights | Configure of the agenda, announcements or picture display inside the forum |
-|  | Chat settings | Configure how the chat tool opens |
-|  | Learning paths settings | Enable the graphical theme of the learning path, as well as various other learning path settings |
-| ![](../../.gitbook/assets/images285%20%284%29.png) | Thematic advance configuration | Decide whether course progress information should be shown on course homepage |
+| ![](../../.gitbook/assets/graphics110%20%284%29.png) | Toegang tot de cursus | Configureer updates voor cursustoegang \(zichtbaarheid, abonnement en andere machtigingen\) |
+|  | E-mail notificaties | Stel het gedrag in voor e-mailwaarschuwingen |
+|  | Gebruikersrechten | Configureer de agenda, aankondigingen of afbeeldingen in het forum |
+|  | Gespreks instellingen | Configureer hoe de chat-tool wordt geopend |
+|  | Instellingen voor leertrajecten | Schakel het grafische thema van het leertraject in, evenals verschillende andere leerpadinstellingen |
+| ![](../../.gitbook/assets/images285%20%284%29.png) | Thematische geavanceerde configuratie | Bepaal of informatie over de voortgang van de cursus op de startpagina van de cursus moet worden weergegeven |
 
-## Reporting <a id="reporting"></a>
+## Rapporteren <a id="reporting"></a>
 
-![](../../.gitbook/assets/graphics113%20%283%29.png)This important teacher tool tracks learners' use of learning paths, tests, forums etc., as well as time spent on the course, progress, scores, assignments, numbers of messages and last connection date. It is a powerful monitoring tool which can save the teacher a huge amount of time and dreary record keeping work.
+![](../../.gitbook/assets/graphics113%20%283%29.png)Dit belangrijke hulpmiddel voor leerkrachten houdt het gebruik van leertrajecten, tests, forums enz. Door leerlingen bij, evenals de tijd die aan de cursus is besteed, de voortgang, scores, opdrachten, het aantal berichten en de datum van de laatste verbinding. Het is een krachtige monitoringtool die de leraar enorm veel tijd en saai werk kan besparen.
 
-## Backup <a id="backup"></a>
+## Back-up <a id="backup"></a>
 
-![](../../.gitbook/assets/graphics346%20%283%29.png)This is where you can \(and regularly should!\) back up your course by exporting a copy of the course. You can also use it to import previously backed up courses and to delete all or part of the course content and data. You can also use it simply to delete the course – be careful, though – there's no way back!
+![](../../.gitbook/assets/graphics346%20%283%29.png) Dit is waar u kunt \(en regelmatig zou moeten!\) maak een back-up van uw cursus door een kopie van de cursus te exporteren. U kunt het ook gebruiken om cursussen te importeren waarvan u eerder een back-up heeft gemaakt en om de inhoud en gegevens van de cursus geheel of gedeeltelijk te verwijderen. Je kunt het ook gewoon gebruiken om de cursus te verwijderen - wees echter voorzichtig - er is geen weg terug!
 
