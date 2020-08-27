@@ -1,22 +1,24 @@
 # Maak een presentielijst
 
-To get started, click the _Create a new attendance list_ icon ![](../../.gitbook/assets/graphics245%20%283%29.png):
+Om aan de slag te gaan, klikt u op het pictogram Nieuwe presentielijst maken ![](../../.gitbook/assets/graphics245%20%283%29.png):
 
 ![](../../.gitbook/assets/images178%20%284%29.png)
 
-Illustration 131: Attendances – New attendances form
+Afbeelding 131: Aanwezigheid - Nieuw aanwezigheidsformulier
 
-Fill in the main title/description fields and tick if you wish to grade the attendances. If you do so you can select an assessment to link attendances to, write a column header for the report and add a
+Vul de velden voor de hoofdtitel/beschrijving in en vink aan of u de aanwezigheden wilt beoordelen. Als je dat doet, kun je een beoordeling selecteren om de aanwezigheid aan te koppelen, een kolomkop voor het rapport schrijven en een
 
 ![](../../.gitbook/assets/graphics249%20%281%29.png)
 
-Illustration 132: Attendances – Intermediary step for dates creation
+Afbeelding 132: Aanwezigheid - Tussenstap voor het maken van datums
 
-weighting to activities. Finally, click _save_ and you will be prompted to add a time and date:
+weging van activiteiten. Klik ten slotte op _sparen_ en u wordt gevraagd om een tijd en datum toe te voegen:
 
-Selecting _repeat date_ allows to you quickly generate a series dates and time for regular sessions e.g. weekly at 22.00 hrs. Click _Save_ again to view a list of the dates chosen:
+Door _repeat date_ te selecteren, kunt u snel een reeks datums en tijden genereren voor reguliere sessies, bijv. wekelijks om 22.00 uur. Klik nogmaals op _Save_ om een lijst met de gekozen datums te zien:
 
-![](../../.gitbook/assets/graphics253%20%281%29.png)Illustration 133: Attendances calendar
+![](../../.gitbook/assets/graphics253%20%281%29.png)
 
-These are fully editable \(e.g. if one week is a holiday, delete\) and, equally, you can add to the dates/times using the _add a date and time_ icon ![](../../.gitbook/assets/graphics246%20%283%29.png) in the toolbar. You can also clear the entire list of dates and times using the _clear the calendar of all lists_ icon ![](../../.gitbook/assets/graphics247%20%283%29.png). To view the attendance sheet for the relevant activity click the A_ttendance sheet_ icon ![](../../.gitbook/assets/graphics250%20%283%29.png)
+Afbeelding 133: Aanwezigheidskalender
+
+Deze zijn volledig bewerkbaar \(bijv. Als een week een feestdag is, verwijder dan\) en u kunt ook de datums/tijden toevoegen met het _add een datum en tijd_ pictogram ![](../../.gitbook/assets/graphics246%20%283%29.png) in de werkbalk. U kunt ook de volledige lijst met datums en tijden wissen met het pictogram _calender van alle lijsten wissen_ ![](../../.gitbook/assets/graphics247%20%283%29.png). Om het aanwezigheidsformulier voor de relevante activiteit te bekijken, klikt u op het aanwezigheidsformulier ![](../../.gitbook/assets/graphics250%20%283%29.png)
 
