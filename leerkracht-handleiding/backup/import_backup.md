@@ -6,7 +6,7 @@ Met Chamilo kun je ook de inhoud van een reservekopie importeren in een nieuwe l
 
 Om het importeren te starten:
 
-* Klik op de_Back-up importeren_ link in de _Back-up en import_ sectie ![](../../.gitbook/assets/graphics331%20%283%29.gif)
+* Klik op de _Back-up importeren_ link in de _Back-up en import_ sectie ![](../../.gitbook/assets/graphics331%20%283%29.gif)
 * kies de bron van de back-up: ofwel een .zip-bestand op uw computer of een opgeslagen op de server,
 * kies of je de hele cursus wilt importeren of alleen specifieke secties \(te selecteren in het volgende scherm\),
 * beslissen of u specifieke bestanden tijdens het importeren wilt dupliceren of vervangen,
