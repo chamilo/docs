@@ -1,8 +1,8 @@
 # Aanwezigheid opnemen
 
-Nadat u uw cursussessies heeft opgezet, moet u beginnen met het opnemen van de aanwezigheid van uw studenten. U doet dit met behulp van het blad _Attendances, _ die u kunt openen vanaf de hoofdpagina _Attendances_ door op de relevante vermelding te klikken. U ziet een lijst met namen van studenten in de eerste kolom en vervolgens één kolom voor elke aanwezigheidsdatum. Over het algemeen is de standaard geactiveerde kolom de eerste die nog niet is gewijzigd.
+Nadat u uw cursussessies heeft opgezet, moet u beginnen met het opnemen van de aanwezigheid van uw studenten. U doet dit met behulp van het blad _Attendances_ die u kunt openen vanaf de hoofdpagina _Attendances_ door op de relevante vermelding te klikken. U ziet een lijst met namen van studenten in de eerste kolom en vervolgens één kolom voor elke aanwezigheidsdatum. Over het algemeen is de standaard geactiveerde kolom de eerste die nog niet is gewijzigd.
 
-Het _ Aanwezigheidsblad_ toont een tabel met kolommen met gebruikers, hun aanwezigheid en data/tijden. Welke datums u bekijkt, wordt bepaald door het vervolgkeuzemenu _Filter_ in de werkbalk \(kies "alle" en klik op _filter_ om ze allemaal te zien\). Om het bewerken van elke datumkolom mogelijk te maken, klikt u op het "hangslot" ![](../../.gitbook/assets/graphics269%20%283%29.png) in de kolomkop.
+Het _Aanwezigheidsblad_ toont een tabel met kolommen met gebruikers, hun aanwezigheid en data/tijden. Welke datums u bekijkt, wordt bepaald door het vervolgkeuzemenu _Filter_ in de werkbalk \(kies "alle" en klik op _filter_ om ze allemaal te zien\). Om het bewerken van elke datumkolom mogelijk te maken, klikt u op het "hangslot" ![](../../.gitbook/assets/graphics269%20%283%29.png) in de kolomkop.
 
 ![](../../.gitbook/assets/images182%20%284%29.png)
 
