@@ -1,40 +1,40 @@
 # Communicatie: Forums
 
-Following on from the previous chapters you might be expecting to examine the _learning paths_ tool at this juncture. However, we'll look at this later \(see Structure: Learning paths on page 76\). Instead, it actually makes more sense here to take a look at the next most commonly used tool on the platform.
+In navolging van de vorige hoofdstukken verwacht u misschien het _leertrajecten_ tool op dit moment. We zullen hier later echter naar kijken \(zie Structuur: leertrajecten op pagina 76\). In plaats daarvan is het hier eigenlijk logischer om de volgende meest gebruikte tool op het platform te bekijken.
 
-The _Forum_ tool ![](../../.gitbook/assets/graphics375%20%281%29.png) allows you to organize the exchange of ideas, opinions and information relating to courses and the learning paths. The tool has been conceived so that learners with questions about their course can readily find answers to their questions without having to sift through a massive amount of information by themselves.
+De _Forum_ tool ![](../../.gitbook/assets/graphics375%20%281%29.png) stelt u in staat om de uitwisseling van ideeën, meningen en informatie over cursussen en leertrajecten te organiseren. De tool is zo ontworpen dat leerlingen met vragen over hun cursus gemakkelijk antwoorden op hun vragen kunnen vinden zonder zelf een enorme hoeveelheid informatie te hoeven doorzoeken.
 
-The forum is an asynchronous discussion tool, i.e. the people involved in a conversation do not have to be connected simultaneously to participate. Email is also an asynchronous tool. However, a major difference from e-mail is that the forum is a public or semi-public space, where several people can see information \(even if they were not part of the discussion initially\), boosting support for learning by providing ready access to really useful information, inasmuch as a group of students and teachers can exchange ideas together in their specialist field.
+Het forum is een asynchroon discussietool, d.w.z. de mensen die bij een gesprek betrokken zijn, hoeven niet tegelijkertijd verbonden te zijn om deel te nemen. E-mail is ook een asynchrone tool. Een groot verschil met e-mail is echter dat het forum een openbare of semi-openbare ruimte is, waar meerdere mensen informatie kunnen zien \(zelfs als ze aanvankelijk geen deel uitmaakten van de discussie\), het stimuleren van leerondersteuning door gemakkelijke toegang te bieden tot echt nuttige informatie, aangezien een groep studenten en docenten samen ideeën kan uitwisselen op hun vakgebied.
 
-Forum management tools
+Hulpmiddelen voor forumbeheer
 
-category
+categorie
 
 ![](../../.gitbook/assets/graphics1%20%281%29.png)
 
-Name of forum
+Naam van het forum
 
-Illustration 67: Forum – Global view
+Afbeelding 67: Forum - Globale weergave
 
-Exchanges are organized hierarchically, as follows:
+De uitwisselingen zijn als volgt hiërarchisch georganiseerd:
 
-\*Forum category
+\*Forum categorie
 
 → Forum
 
-→ → Discussion thread
+→ → Discussie
 
-→ → → message
+→ → → bericht
 
-→ → → → answer to the message
+→ → → → antwoord op het bericht
 
-→ → → → answer to the message
+→ → → → antwoord op het bericht
 
-→ → → message
+→ → → bericht
 
-→ → → → answer to the message
+→ → → → antwoord op het bericht
 
-→ → → → → answer to the answer
+→ → → → → antwoord op het antwoord
 
-and so forth...
+enzovoorts...
 
