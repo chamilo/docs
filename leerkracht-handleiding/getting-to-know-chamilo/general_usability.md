@@ -8,12 +8,13 @@ Illustratie: Pictogrammenlabel
 
 Er is ook een online _help_ faciliteit op de meeste pagina's die verschijnt als een gedeeltelijk verborgen reddingsboeiring rechtsboven in uw scherm \(zie afbeelding 3: Gevouwen hulp\) en als u erop klikt, wordt een venster geopend met uitleg over de functie waarin u zich bevindt. en hoe het te gebruiken \(zie afbeelding 4, uitgevouwen hulp\).Het blijft op zijn plaats wanneer u door het scherm scrolt, zodat het constant beschikbaar is en u het kunt openen en sluiten zonder uw huidige werk te beïnvloeden. Als je op de boei klikt, wordt er een kleine gids geopend, waarin wordt uitgelegd in welk gereedschap je je bevindt en hoe je het moet gebruiken \(zie afbeelding 5: contextuele pop-up voor hulp\).
 
-| ![](../../.gitbook/assets/images3%20%2810%29.png)
+![](../../.gitbook/assets/images3%20%2810%29.png)
 
-Afbeelding: ingeklapte hulp | ![](../../.gitbook/assets/illustration_4%20%286%29.png)
-Afbeelding 4: Uitgevouwen hulp |
-| :--- | :--- |
+Afbeelding: ingeklapte hulp
 
+![](../../.gitbook/assets/illustration_4%20%286%29.png)
+
+Afbeelding 4: Uitgevouwen hulp 
 
 ![](../../.gitbook/assets/images5%20%2810%29.png)
 
