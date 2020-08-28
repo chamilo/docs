@@ -1,18 +1,17 @@
 # Hoe deze handleiding te gebruiken.
 
-This reference guide is designed to lead you smoothly through a clear learning path, introducing you first to the most commonly used tools, then guiding you progressively through more complex and/or seldom used features.
+Deze naslaggids is bedoeld om u soepel door een duidelijk leertraject te leiden, u eerst kennis te laten maken met de meest gebruikte tools en u vervolgens geleidelijk door meer complexe en / of zelden gebruikte functies te leiden.
 
-\(The exception to this pattern is the description of the social network tool, which is explained separately at the end of the guide. We've placed it there to offer some light relief following the preceding three or four chapters, which are a little bit more challenging than the others! \)
+\(De uitzondering op dit patroon is de beschrijving van de sociale netwerktool, die apart aan het einde van de gids wordt uitgelegd. We hebben het daar geplaatst om wat lichte verlichting te bieden na de voorgaande drie of vier hoofdstukken, die een beetje uitdagender zijn dan de andere! \)
 
-Following this, you'll find a description of alternative approaches to setting up Chamilo which you should find useful when organizing courses for your students, simplifying your tracking work and helping you easily identify and support “flagging” individuals while progressing with the course overall.
+Hierna vindt u een beschrijving van alternatieve benaderingen voor het opzetten van Chamilo die u nuttig zou kunnen vinden bij het organiseren van cursussen voor uw studenten, het vereenvoudigen van uw trackingwerk en het helpen identificeren en ondersteunen van "markerende" individuen terwijl u vorderingen maakt met de cursus in het algemeen.
 
-We recommend you take a quick look at the Glossary section. It will give you an overview of the terms used throughout this guide and hopefully help avoid confusion in some sections.
+We raden u aan om snel het gedeelte Woordenlijst te bekijken. Het geeft u een overzicht van de termen die in deze handleiding worden gebruikt en helpt hopelijk verwarring in sommige secties te voorkomen.
 
-If you already have a teacher account in a Chamilo portal, you can move directly to the chapter which describes the Chamilo interface. If you are familiar with this, move on to Chapter 6 which explains how to create a course. If you are already a course administrator \(i.e. a teacher who has also created courses\), you should go directly to the chapter on course tools. For those who are familiar with the tools, much in this guide will already be familiar, though you may find it handy to explore updated features, such as the Social network_._
+Als je al een lerarenaccount hebt in een Chamilo-portaal, kun je direct naar het hoofdstuk gaan dat de Chamilo-interface beschrijft. Als u hiermee bekend bent, gaat u verder met hoofdstuk 6 waarin wordt uitgelegd hoe u een cursus maakt. Als je al een cursusbeheerder bent \(d.w.z. een docent die ook cursussen heeft gemaakt\), ga dan direct naar het hoofdstuk over cursustools. Voor degenen die bekend zijn met de tools, veel in deze gids zal al bekend zijn, hoewel u het misschien handig vindt om bijgewerkte functies te verkennen, zoals het sociale netwerk_._
 
-This guide can also serve as a handy quick reference, thanks to its searching feature.
+Dankzij de zoekfunctie kan deze gids ook dienen als een handig naslagwerk.
 
-If you have further questions about using Chamilo. you can visit the Chamilo forum\([https://chamilo.org/forum](https://chamilo.org/forum)\), where numerous other users, teachers, administrators and software developers will be happy to help you find the answers.
+Als u nog vragen heeft over het gebruik van Chamilo. Je kunt het Chamilo-forum bezoeken\([https://chamilo.org/forum](https://chamilo.org/forum)\), waar talloze andere gebruikers, docenten, beheerders en softwareontwikkelaars u graag helpen bij het vinden van de antwoorden.
 
-If you have more demanding requirements, you might consider hiring one of our official providers \([https://chamilo.org/providers\),a](https://chamilo.org/providers%29,a) group of companies and institutions which offer professional services supporting Chamilo. The official providers have a record of tried and proven serious involvement in the project and are committed to sustaining its collaborative model. By hiring them, you already support the Chamilo project.
-
+Als u hogere eisen stelt, kunt u overwegen om een van onze officiële providers in te huren \([https://chamilo.org/providers\),a](https://chamilo.org/providers%29,a) groep van bedrijven en instellingen die professionele diensten aanbieden ter ondersteuning van Chamilo. De officiële aanbieders hebben een bewezen serieuze betrokkenheid bij het project en zetten zich in om het samenwerkingsmodel in stand te houden. Door ze in te huren, steun je al het Chamilo-project.
