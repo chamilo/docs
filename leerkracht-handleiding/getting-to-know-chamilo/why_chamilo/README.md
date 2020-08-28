@@ -1,6 +1,6 @@
 # Waarom Chamilo?
 
-Chamilo is een e-learning- en samenwerkingsplatform dat gebundeld wordt als open-source software \(of zoals puristen zullen opmerken, liever_Gratis software_\) die kunnen worden aangepast aan educatieve of professionele projecten. Het wordt verdeeld onder de [GNU/](http://fr.wikipedia.org/wiki/Licence_publique_générale_GNU)[GPL](http://fr.wikipedia.org/wiki/Licence_publique_générale_GNU)[v](http://fr.wikipedia.org/wiki/Licence_publique_générale_GNU)3+ licentie, die u verplicht moet accepteren wanneer u deze gebruikt.
+Chamilo is een e-learning- en samenwerkingsplatform dat gebundeld wordt als open-source software \(of zoals puristen zullen opmerken, liever _Gratis software_\) die kunnen worden aangepast aan educatieve of professionele projecten. Het wordt verdeeld onder de [GNU/](http://fr.wikipedia.org/wiki/Licence_publique_générale_GNU)[GPL](http://fr.wikipedia.org/wiki/Licence_publique_générale_GNU)[v](http://fr.wikipedia.org/wiki/Licence_publique_générale_GNU)3+ licentie, die u verplicht moet accepteren wanneer u deze gebruikt.
 
 Een leraar die Chamilo gebruikt, heeft toegang tot een reeks handige tools waarmee hij gemakkelijk en efficiënt een effectieve leeromgeving kan creëren. Bij het maken/bewerken van een cursus kan hij \(of zij\):
 
