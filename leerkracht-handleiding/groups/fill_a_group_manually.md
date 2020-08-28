@@ -1,8 +1,9 @@
 # Vul handmatig een groep in
 
-For a variety of reasons, a teacher may want to select group members manually, i.e. choose which learners will work together, e.g. learners with similar interests or goal, or an experienced learner with a latecomer to the course. To do this, \(whether or not the groups have already been auto-filled\) click the _Edit this group_ icon ![](../../.gitbook/assets/graphics285%20%283%29.png) to add users manually:
+Om verschillende redenen kan een leraar groepsleden handmatig willen selecteren, d.w.z. kiezen welke leerlingen zullen samenwerken, bijv. leerlingen met dezelfde interesses of hetzelfde doel, of een ervaren leerling met een laatkomer in de cursus. Om dit te doen, \(ongeacht of de groepen al automatisch zijn ingevuld\) klikt u op het pictogram _Deze groep bewerken_ ![](../../.gitbook/assets/graphics285%20%283%29.png) om gebruikers handmatig toe te voegen:
 
-![](../../.gitbook/assets/images216%20%283%29.png)Illustration 151: Groups – Filling a group manually
+![](../../.gitbook/assets/images216%20%283%29.png)
 
-Select and add/remove users as required using the arrows. Any user can be added as a _coach_ \(i.e. group leader, tutor etc.\) or as a _Group member –_ this will be shown in the listing.
+Afbeelding 151: Groepen - Een groep handmatig vullen
 
+Selecteer en voeg gebruikers toe/verwijder ze met de pijlen. Elke gebruiker kan worden toegevoegd als _coach_ \(d.w.z. groepsleider, tutor etc.\) of als _Groepslid –_ dit wordt in de lijst getoond.
