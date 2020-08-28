@@ -1,8 +1,10 @@
 # Opdrachten markeren
 
-To mark a document uploaded by a learner, go to the main page for the relevant assignment. In the right hand column headed _Detail_, click on the _Save_ icon ![](../../.gitbook/assets/graphics75%20%283%29.png)to download and view a file the student has submitted, then click the _Correct and rate_ icon ![](../../.gitbook/assets/graphics76%20%283%29.png) to add feedback/comments and a score. If the student has not uploaded a file, but submitted their assignment using the on-line editor, the save icon will not show – instead the student's assignment will be automatically shown in the editor to which the teacher can add feedback etc when scoring the work.
+Om een document te markeren dat door een leerling is geüpload, ga je naar de hoofdpagina voor de relevante opdracht. Klik in de rechterkolom met de titel _Detail_ op het pictogram _Save_ ![](../../.gitbook/assets/graphics75%20%283%29.png) om een bestand dat de student heeft ingediend te downloaden en te bekijken, en klik vervolgens op het pictogram _Corrigeren en beoordelen_ ![](../../.gitbook/assets/graphics76%20%283%29.png) om feedback/opmerkingen en een score toe te voegen. Als de student geen bestand heeft geüpload, maar zijn opdracht heeft ingeleverd met behulp van de online editor, wordt het opslagpictogram niet weergegeven - in plaats daarvan wordt de opdracht van de student automatisch weergegeven in de editor waaraan de docent feedback kan toevoegen bij het scoren van het werk .
 
-![](../../.gitbook/assets/graphics74%20%281%29.png)Illustration 98: Marking students' assignments
+![](../../.gitbook/assets/graphics74%20%281%29.png)
 
-To save the score/feedback, click the _Update this task_ button.
+Afbeelding 98: opdrachten van leerlingen markeren
+
+Om de score/feedback op te slaan, klikt u op de knop Update deze taak.
 

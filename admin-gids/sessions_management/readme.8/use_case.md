@@ -1,39 +1,40 @@
 # Gebruik case
 
-Let's imagine your institution offers two careers: medicine and veterinary. These two careers last 5 years each. You are in August 2011, preparing the classes that will start in September 2011.
+Stel je voor dat je instelling twee carrières biedt: geneeskunde en dierenarts. Deze twee carrières duren elk 5 jaar. Je bent in augustus 2011 en bereidt de lessen voor die in september 2011 beginnen.
 
-From year one \(2011\), you create promotion 2016 for both medicine \(PROMMED2016\) and veterinary \(PROMVET2016\).
+Vanaf jaar één \(2011\) creëer je promotie 2016 voor zowel geneeskunde \(PROMMED2016\) als diergeneeskunde \(PROMVET2016\).
 
-Let's re-use the previous schema as a reference :
+Laten we het vorige schema opnieuw gebruiken als referentie:
 
-![](../../../.gitbook/assets/graficos92%20%281%29.png)Illustration 76: Courses, sessions, promotions and careers
+![](../../../.gitbook/assets/graficos92%20%281%29.png)
 
-These two promotions will be the result of 5 years of study \(let's agree that the minimum period of course is one year\). You will thus have 5 **periods** of one year each, which lead to a promotion in 2016.
+Afbeelding 76: cursussen, sessies, promoties en carrières
 
-These periods are fixed and can thus be shared between the two careers. In your platform, these are _categories of sessions_, which you will name respectively _2011-2012, 2012-2013, 2013-2014, 2014-2015,_ and _2015-2016._
+Deze twee promoties zullen het resultaat zijn van 5 jaar studie \(laten we afspreken dat de minimale cursusduur een jaar is\). Je hebt dus 5 **periodes** van elk een jaar, die leiden tot een promotie in 2016.
 
-Of course, you can give them other names, as you would prefer to see them. Periods are simply classifications based on a time information. Nothing more. They aren't used to sort anything, either.
+Deze periodes liggen vast en kunnen dus tussen de twee carrières worden gedeeld. In uw platform zijn dit _categorieën van sessies_, die u respectievelijk _2011-2012, 2012-2013, 2013-2014, 2014-2015, en 2015-2016_ noemt.
 
-Within each period, your teachers will teach classes. Some courses are common to both the medicine and the veterinary careers, as the general biology course \(BIOGEN\), for example, but the course coaches who will be teaching still teach these students in separate groups depending on the career \(that's just a matter of space in the classroom, really\).
+U kunt ze natuurlijk ook andere namen geven, aangezien u ze liever ziet. Perioden zijn eenvoudig classificaties op basis van tijdsinformatie. Niets meer. Ze zijn ook niet gewend om iets te sorteren.
 
-If a course is taught several years in a row with almost no modification, you don't want students results of the previous year to stack into the course history. You'd like to have a clear view on this year's students.
+Binnen elke periode geven uw docenten les. Sommige cursussen zijn zowel in de geneeskunde als in de diergeneeskunde gebruikelijk, zoals bijvoorbeeld de algemene biologiecursus \(BIOGEN\), maar de cursuscoaches die les geven, geven deze studenten nog steeds les in aparte groepen, afhankelijk van de carrière \(dat is alleen een kwestie van ruimte in de klas, echt waar\).
 
-This is why you use a _session_. This session will spread one academical year and group students from the 2016 promotion of veterinary \(PROVET2016\), during the period 2011-2012.
+Als een cursus meerdere jaren achter elkaar wordt gegeven en vrijwel ongewijzigd blijft, wil je niet dat studentenresultaten van het voorgaande jaar in de cursusgeschiedenis worden gestapeld. Je zou graag een duidelijk beeld willen hebben van de studenten van dit jaar.
 
-These students will also follow courses of canine biology, medical ethics and medical laws. This is why you'd like to re-use this structure in other opportunities.
+Daarom gebruik je een _session_. Deze sessie zal één academisch jaar en groepstudenten uit de promotie van veterinaire \(PROVET2016\) 2016 spreiden in de periode 2011-2012.
 
-So you have all the variables required to establish the complete structure:
+Deze studenten volgen ook vakken over hondenbiologie, medische ethiek en medische wetten. Dit is de reden waarom u deze structuur opnieuw wilt gebruiken in andere kansen.
 
-1. create a career \(VET\)
-2. create a promotion \(PROMVET2016\)
-3. create a period \(2011-2\)
-4. create or select the courses for this promotion in 2011 \(BIOGEN, BIOCAN, ETHMED, DROMED\)
-5. create a session that contains these courses \(VET2011-2-AAA\)
-6. subscribe a session coach, who will deal with coordination
-7. subscribe a course coach for each course in this session, they will help with practices
-8. finally, subscribe the students to the session
+Je hebt dus alle variabelen die nodig zijn om de volledige structuur vast te stellen:
 
-This way, you allow your students to have access to their current courses, and also to have access later on to their history of previous courses \(visibility depends on sessions settings\).
+1. creëer een carrière \(VET\)
+2. maak een promotie \(PROMVET2016\)
+3. maak een periode \(2011-2\)
+4. maak of selecteer de cursussen voor deze promotie in 2011 \(BIOGEN, BIOCAN, ETHMED, DROMED\)
+5. maak een sessie met deze cursussen \(VET2011-2-AAA\)
+6. Schrijf een sessiecoach in, die de coördinatie voor zijn rekening neemt
+7. Schrijf een cursuscoach in voor elke cursus in deze sessie, deze zal helpen met oefenen
+8. Schrijf ten slotte de studenten in voor de sessie
 
-On the administrative side, you have the whole academic structure and you'll be able to replicate the whole promotion in only one click when you start the next year...
+Op deze manier geeft u uw studenten toegang tot hun huidige cursussen, en ook om later toegang te hebben tot hun geschiedenis van eerdere cursussen \(zichtbaarheid is afhankelijk van sessie-instellingen\).
 
+Aan de administratieve kant heb je de hele academische structuur en kun je de hele promotie in slechts één klik repliceren wanneer je het volgende jaar start ...

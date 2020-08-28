@@ -1,6 +1,8 @@
 # Definieer het thematisch plan
 
-Once the thematic section has been created, you can edit its entry in the _Thematic plan_ column. The _Thematic\_\_plan_ is the definition of the objectives, methodology and other details of the newly created thematic section. Click on the _Thematic plan_ icon ![](../../.gitbook/assets/graphics255%20%283%29.png) to show a form containing several fields in each of which which you can enter a title and description which will be displayed on the main C_ourse progress_ page. By default, the fields are titled: _Objectives, skills to acquire, Methodology, Infrastructure, Assessment_ and _Other,_ although these can be edited as appropriate. Fields with no description added will not be displayed.
+Nadat de thematische sectie is gemaakt, kunt u de vermelding ervan in de kolom _Thematisch plan_ bewerken. Het _Thematic\_\_plan_ is de definitie van de doelstellingen, methodologie en andere details van de nieuw gecreëerde thematische sectie. Klik op het pictogram _Thematisch plan_ ![](../../.gitbook/assets/graphics255%20%283%29.png) om een formulier weer te geven dat meerdere velden bevat waarin u een titel en beschrijving kunt invoeren die op het hoofdscherm worden weergegeven _Cursus voortgang_ pagina. Standaard hebben de velden de titel: _Doelstellingen, te verwerven vaardigheden, methodologie, infrastructuur, evaluatie_ en _Other,_ hoewel deze naar wens kunnen worden bewerkt. Velden zonder toegevoegde beschrijving worden niet weergegeven.
 
-![](../../.gitbook/assets/graphics260%20%281%29.png)Illustration 139: Course progress – example title and description fields
+![](../../.gitbook/assets/graphics260%20%281%29.png)
+
+Afbeelding 139: Cursusvoortgang - voorbeeldtitels en beschrijvingsvelden
 

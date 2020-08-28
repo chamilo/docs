@@ -1,24 +1,25 @@
 # Evaluaties pre-configuratie
 
-The assessment tool \(also called the _gradebook_ tool by some of our users\) requires several settings to be correctly configured to give you a useful result. The activities weighting, a minimum certification score \(pass-mark\), skills rankings and a certificate template are elements that can extend this tool if properly configured. If these are not set correctly, an orange alert will be displayed on the main _Assessments_ page.
+De assessment tool \(ook wel de _gradebook_ tool genoemd door sommige van onze gebruikers\) vereist dat verschillende instellingen correct geconfigureerd zijn om je een bruikbaar resultaat te geven. De activiteitenweging, een minimale certificeringsscore \(pass-mark\), vaardigheidsclassificaties en een certificaatsjabloon zijn elementen die deze tool kunnen uitbreiden, mits goed geconfigureerd. Als deze niet correct zijn ingesteld, wordt er een oranje waarschuwing weergegeven op de hoofdpagina _Assessments_.
 
-![](../../.gitbook/assets/image3%20%2811%29.png)Illustration 103: An empty gradebook generates information messages
+![](../../.gitbook/assets/image3%20%2811%29.png)
 
-So let’s analyze each of these elements in more detail.
+Afbeelding 103: Een lege cijferlijst genereert informatieberichten
 
-## Total weight and minimum certification score <a id="total-weight-and-minimum-certification-score"></a>
+Laten we dus elk van deze elementen in meer detail analyseren.
 
-To view and edit this basic configuration , click on any of the edit icons \( ![](../../.gitbook/assets/graphics182%20%281%29.svg)![](../../.gitbook/assets/graphics182%20%283%29.png)\) of the page:
+## Totaalgewicht en minimale certificeringsscore <a id="total-weight-and-minimum-certification-score"></a>
+
+Om deze basisconfiguratie te bekijken en te bewerken, klikt u op een van de bewerkingspictogrammen \( ![](../../.gitbook/assets/graphics182%20%281%29.svg)![](../../.gitbook/assets/graphics182%20%283%29.png)\) van de pagina:
 
 ![](../../.gitbook/assets/images132%20%284%29.png)
 
-Illustration 104: Assessments – General settings
+Afbeelding 104: Assessments - Algemene instellingen
 
-The _Total weight_ of the course is important for assigning individual weights to activities. This will allow you to “spread” the importance of each activity in your course. If you only have a few activities, maybe a total weight of 10 is enough, but we consider 100 to be a common selection among teachers.
+Het _Totale gewicht_ van de cursus is belangrijk voor het toekennen van individuele gewichten aan activiteiten. Hierdoor kunt u het belang van elke activiteit in uw cursus "verspreiden". Als je maar een paar activiteiten hebt, is misschien een totaalgewicht van 10 voldoende, maar we beschouwen 100 als een veel voorkomende selectie onder docenten.
 
-The _Minimum_ _certification score_ defines the pass-mark for the course. It is expressed as a percentage of the total score. This can be useful in several ways, but in the end, if a student has a grade/score that is superior to that percentage, he/she will “pass” the course and, if you configured certificates, he/she will also receive a certificate. If the score is below that percentage, no certificate will be generated, and we will consider the student didn’t acquire the corresponding skill or skills.
+De _Minimum_ _certificatiescore_ definieert het voldoende cijfer voor de cursus. Het wordt uitgedrukt als een percentage van de totale score. Dit kan op verschillende manieren nuttig zijn, maar als een student uiteindelijk een cijfer/score heeft dat hoger is dan dat percentage, zal hij/zij voor de cursus 'slagen' en, als u certificaten heeft geconfigureerd, hij / zij ook een certificaat. Als de score lager is dan dat percentage, wordt er geen certificaat gegenereerd en gaan we ervan uit dat de student de bijbehorende vaardigheid of vaardigheden niet heeft verworven.
 
-The description is really not used much. You can use this field to describe what is expected of the student to get a certificate or a passing score.
+De beschrijving wordt echt niet veel gebruikt. U kunt dit veld gebruiken om te beschrijven wat er van de student wordt verwacht om een certificaat of een voldoende score te behalen.
 
-Finally, an option allows you to define whether you want to generate a certificate or not. In previous versions, the generation of a certificate was automatic if the student reached the minimum certification score. However, some teachers noted that they didn’t always have the time to configure certificates properly, and that they wanted to remain in control of when certificates should be generated when they used the assessments tool with students. Fair enough: we added the option so the certificate generation is optional \(and is not enabled by default\). We’ll come back to that option a bit later.
-
+Ten slotte kunt u met een optie bepalen of u al dan niet een certificaat wilt genereren. In eerdere versies was het genereren van een certificaat automatisch als de student de minimale certificeringsscore behaalde. Sommige docenten merkten echter op dat ze niet altijd de tijd hadden om certificaten correct te configureren en dat ze controle wilden houden over wanneer certificaten moesten worden gegenereerd wanneer ze de beoordelingstool met leerlingen gebruikten. Eerlijk genoeg: we hebben de optie toegevoegd zodat het genereren van certificaten optioneel is \(en niet standaard ingeschakeld\). We komen later op die optie terug.

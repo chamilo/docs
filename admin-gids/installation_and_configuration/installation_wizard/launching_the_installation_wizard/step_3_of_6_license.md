@@ -1,14 +1,17 @@
 # Stap 3 van 6: Licentie
 
-Here, Chamilo explains it is a free software distributed under the terms of the GNU General Public Licence \([GPL](http://en.wikipedia.org/wiki/GNU_General_Public_License)\) \(version 3 or superior\) and that part of its **content** is released under [BY-SA](http://creativecommons.org/licenses/by-sa/3.0/deed.fr) [Creative Commons](http://creativecommons.org/licenses/by-sa/3.0/deed.fr)[.](http://creativecommons.org/licenses/by-sa/3.0/deed.fr)
+Hier legt Chamilo uit dat het gratis software is die wordt gedistribueerd onder de voorwaarden van de GNU General Public License \([GPL](http://en.wikipedia.org/wiki/GNU_General_Public_License)\) \(versie 3 of hoger\) en dat deel van de **inhoud** is vrijgegeven onder [BY-SA](http://creativecommons.org/licenses/by-sa/3.0/deed.fr) [Creative Commons](http://creativecommons.org /licenses/by-sa/3.0/deed.fr)
 
-To go to the next step, you'll have to read the license and approve it, **otherwise you are not authorized to use this software** \(it is very important for you to understand that you are **only** allowed to use it if you accept these conditions\). You will find other translations of this license \(probably in your own language\) if you need it, connecting to the Free Software Foundation, which is the organisation which publishes this license.
+Om naar de volgende stap te gaan, moet u de licentie lezen en goedkeuren, **anders bent u niet geautoriseerd om deze software te gebruiken** \(het is erg belangrijk dat u begrijpt dat u **alleen** toestemming om het te gebruiken als u deze voorwaarden accepteert\). U vindt andere vertalingen van deze licentie \(waarschijnlijk in uw eigen taal\) als u deze nodig hebt, door verbinding te maken met de Free Software Foundation, de organisatie die deze licentie publiceert.
 
-![](../../../../.gitbook/assets/images6%20%281%29.png)Illustration 6: Installation - License
+![](../../../../.gitbook/assets/images6%20%281%29.png)
 
-**Note**: Starting with version 1.8.8, you will also find an **optional** form below the license approval. This form allows us some contact data about you and let you know of any event organised by the Chamilo Association or its members, which happen near your location.
+Afbeelding 6: Installatie - Licentie
 
-![](../../../../.gitbook/assets/images8%20%281%29.png)Illustration 7: Installation contact form
+**Opmerking**: vanaf versie 1.8.8 vindt u ook een **optioneel** formulier onder de licentiegoedkeuring. Dit formulier geeft ons enkele contactgegevens over u en stelt u op de hoogte van elk evenement georganiseerd door de Chamilo Association of haar leden in de buurt van uw locatie.
 
-We will treat your contact information with care and will not provide it to third parties. It will be kept within the association itself. As per most privacy laws, you are entitled to have your data removed or updated in our database by sending an e-mail at info@chamilo.org
+![](../../../../.gitbook/assets/images8%20%281%29.png)
 
+Afbeelding 7: Contactformulier voor installatie
+
+Wij gaan zorgvuldig om met uw contactgegevens en verstrekken deze niet aan derden. Het wordt binnen de vereniging zelf bewaard. Volgens de meeste privacywetten heeft u het recht om uw gegevens te laten verwijderen of bijwerken in onze database door een e-mail te sturen naar info@chamilo.org

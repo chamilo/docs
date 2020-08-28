@@ -1,11 +1,12 @@
 # Voeg een bericht toe aan een thread
 
-In the list of tools for managing discussion threads, locate the _Reply to this thread_ icon ![](../../.gitbook/assets/graphics17.png) . This allows you to add a message at the same hierarchical level as the starting message.
+In de lijst met tools voor het beheren van discussiethreads, zoek het _Reageer op deze thread_ icoon ![](../../.gitbook/assets/graphics17.png) . Hierdoor kunt u een bericht toevoegen op hetzelfde hiërarchische niveau als het startbericht.
 
-* clicking the icon will give you access to the on-line editor to write your message. An area allowing you to read the other messages of the thread appear at the bottom of the page,
-* give a short topic to your message,
-* enter your message,
-* choose whether you want to be notified by e-mail in case anybody answers your message,
-* attach a document \(optional\) and, if you do, add a small comment describing the document,
-* click on the _Reply to this thread_ button.
+* als u op het pictogram klikt, krijgt u toegang tot de online editor om uw bericht te schrijven. Onderaan de pagina verschijnt een gebied waarin u de andere berichten van de thread kunt lezen,
+* geef een kort onderwerp aan uw bericht,
+* voer uw bericht in,
+* kies of u per e-mail op de hoogte wilt worden gebracht voor het geval iemand uw bericht beantwoordt,
+* voeg een document \(optioneel\) toe en, als je dat doet, voeg dan een korte opmerking toe die het document beschrijft,
+* klik op de _Reageer op deze thread_ knop.
+
 

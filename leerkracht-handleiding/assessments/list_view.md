@@ -1,8 +1,10 @@
 # Lijstweergave
 
-The list view ![](../../.gitbook/assets/graphics201%20%283%29.png) view in the _Assessments_ tool allows you to list all learners and their results at any point through the course, as well as charts illustrating students' achievements overall for each assessment and a combined chart for all resources. \(This resource is obviously more useful at the end of a course – when students have completed all the assessed activities\). The view can be printed or exported in various formats \(.xml, .doc, .pdf, .csv\) using the relevant tool-bar icons.
+De lijstweergave ![](../../.gitbook/assets/graphics201%20%283%29.png) weergave in de _Assessments_-tool stelt u in staat om alle studenten en hun resultaten op elk punt van de cursus weer te geven, evenals grafieken die de algehele prestaties van de studenten voor elke beoordeling illustreren en een gecombineerd diagram voor alle bronnen. \(Dit hulpmiddel is duidelijk nuttiger aan het einde van een cursus - wanneer studenten alle beoordeelde activiteiten hebben voltooid\). De weergave kan worden afgedrukt of geëxporteerd in verschillende formaten \(.xml, .doc, .pdf, .csv\) met behulp van de relevante werkbalkpictogrammen.
 
-![](../../.gitbook/assets/images141%20%284%29.png)Illustration 115: Assessments – List view
+![](../../.gitbook/assets/images141%20%284%29.png)
 
-**Note**: This view only works if skills ranking rules have been fully defined.
+Afbeelding 115: Assessments - Lijstweergave
+
+**Opmerking**: deze weergave werkt alleen als de classificatieregels voor vaardigheden volledig zijn gedefinieerd.
 

@@ -1,8 +1,8 @@
 # Geef een score uit een bericht
 
-* Click on the _Grade activity_ icon ![](../../.gitbook/assets/graphics16.png) under the user's picture,
-* The new page gathers the list of all messages posted by the learner as well as a statistical table based on these messages,
-* Click the _Grade this thread_ button.
+* Klik op het pictogram _Activiteit beoordelen_ ![](../../.gitbook/assets/graphics16.png) onder de foto van de gebruiker,
+* De nieuwe pagina verzamelt de lijst met alle berichten die door de leerling zijn gepost, evenals een statistische tabel op basis van deze berichten,
+* Klik op de knop _Deze thread beoordelen_.
 
-The score given to the learners will be shown in the assessment tool.
+De score die aan de studenten wordt gegeven, wordt weergegeven in de assessmenttool.
 

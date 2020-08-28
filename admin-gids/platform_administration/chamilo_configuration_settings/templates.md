@@ -1,8 +1,7 @@
 # Sjablonen
 
-![](../../../.gitbook/assets/graficos18%20%281%29.png)Document templates allow you to speed up the creation of content in Chamilo. Creating new templates in this part of the platform will affect the whole portal.
+![](../../../.gitbook/assets/graficos18%20%281%29.png) Met documentsjablonen kunt u het maken van inhoud in Chamilo versnellen. Het maken van nieuwe sjablonen in dit deel van het platform heeft gevolgen voor de hele portal.
 
-Create, edit and remove templates easily. It is close from the documents edition tools inside the course. Don't hesitate to try it out and create a new template. You can always delete afterwards if you're not happy with it.
+Maak, bewerk en verwijder eenvoudig sjablonen. Het ligt dicht bij de tools voor het bewerken van documenten in de cursus. Aarzel niet om het uit te proberen en een nieuw sjabloon te maken. U kunt achteraf altijd verwijderen als u er niet tevreden mee bent.
 
-This feature is particularly useful to set your own templates to your organization's standards.
-
+Deze functie is vooral handig om uw eigen sjablonen in te stellen volgens de normen van uw organisatie.

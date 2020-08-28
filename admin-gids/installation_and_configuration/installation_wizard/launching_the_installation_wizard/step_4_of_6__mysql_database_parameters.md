@@ -1,25 +1,29 @@
 # Stap 4 van 6: MySQL-databaseparameters
 
-We'll now check the database management system \(DBMS\) works and is configured as expected :
+We zullen nu controleren of het databasebeheersysteem \(DBMS\) werkt en is geconfigureerd zoals verwacht:
 
-![](../../../../.gitbook/assets/images7%20%281%29.png)Illustration 8: Installation – MySQL settings
+![](../../../../.gitbook/assets/images7%20%281%29.png)
 
-To allow for the settings check, you will have to fill in the required fields. These elements have probably been given to you when you rented your hosting service the first time, or you did them yourself when configuring your [LAMP](http://fr.wikipedia.org/wiki/LAMP) server locally.
+Afbeelding 8: Installatie - MySQL-instellingen
 
-* _Database host :_ the name of the SQL server. If this is a local installation, the MySQL server is probably local too, and its name will be _localhost_.
-* _Database user :_ the name of the database user. If this is a local installation, the name will probably be _root_ by default, but we recommend the creation of another user for your Chamilo databases, because using _root_ represents a significant security risk for your other databases on that server. Typically, you can create a new user through a web interface, but if you have to do this in the terminal, and assuming you want a user named “chamilo” with a password “olimahc”, these 2 commands will help you out:
-  * grant all privileges on chamilo.\* to chamilo@localhost identified by 'olimahc';
-  * flush privileges;
-* _Database password:_ the password that has been given/created during the hiring/creation of the database, at the same time as the user. Locally, the password is generally empty by default, but once again we recommend defining your own password here, for security reasons.
-* _Database name:_ the name of the database to create and in which to store all of your Chamilo's data
+Om de instellingen te kunnen controleren, moet u de verplichte velden invullen. Deze elementen zijn waarschijnlijk aan u gegeven toen u uw hostingservice de eerste keer huurt, of u hebt ze zelf gedaan bij het lokaal configureren van uw [LAMP](http://fr.wikipedia.org/wiki/LAMP) server.
 
-Since Chamilo 1.9.0, the installation process has been simplified and the database structure has been migrated so that only one database is used, which greatly simplifies the installation process and th maintenance of Chamilo portals.
+* _Database-host:_ de naam van de SQL-server. Als dit een lokale installatie is, is de MySQL-server waarschijnlijk ook lokaal en zal de naam _localhost_ zijn.
+* _Database-gebruiker:_ de naam van de databasegebruiker. Als dit een lokale installatie is, is de naam waarschijnlijk standaard _root_, maar we raden aan een andere gebruiker aan te maken voor uw Chamilo-databases, omdat het gebruik van _root_ een aanzienlijk veiligheidsrisico vormt voor uw andere databases op die server. Normaal gesproken kunt u een nieuwe gebruiker aanmaken via een webinterface, maar als u dit in de terminal moet doen, en ervan uitgaande dat u een gebruiker met de naam "chamilo" wilt met een wachtwoord "olimahc", zullen deze 2 opdrachten u helpen:
+** grant all privileges on chamilo.\* to chamilo@localhost identified by 'olimahc';
+** flush-privileges;
+* _Database-wachtwoord:_ het wachtwoord dat is gegeven/aangemaakt tijdens het inhuren/aanmaken van de database, op hetzelfde moment als de gebruiker. Lokaal is het wachtwoord over het algemeen standaard leeg, maar uit veiligheidsoverwegingen raden we u nogmaals aan hier uw eigen wachtwoord te definiëren.
+* _Databasenaam:_ de naam van de database die moet worden gemaakt en waarin alle gegevens van uw Chamilo worden opgeslagen
 
-Check the data entered in the form, then click the _Check database connection_ button. If an error message appears, check the data again. Maybe this password is not the right one?
+Sinds Chamilo 1.9.0 is het installatieproces vereenvoudigd en is de databasestructuur gemigreerd zodat er slechts één database wordt gebruikt, wat het installatieproces en het onderhoud van Chamilo-portals aanzienlijk vereenvoudigt.
 
-Once everything is OK \(and the green confirmation block appears\), move on to the next step.
+Controleer de gegevens die in het formulier zijn ingevoerd en klik op de knop _Controleer databaseverbinding_. Controleer de gegevens opnieuw als er een foutmelding verschijnt. Misschien is dit wachtwoord niet het juiste?
 
-![](../../../../.gitbook/assets/images9%20%281%29.png)Illustration 9: Installation database check - OK
+Als alles in orde is \(en het groene bevestigingsblok verschijnt\), gaat u verder met de volgende stap.
 
-If a database with the same name already exists, a yellow-background message will tell you so, because this database **will get overridden** with your new database! To avoid this, make sure you use another database name in the previous form.
+![](../../../../.gitbook/assets/images9%20%281%29.png)
+
+Afbeelding 9: Controle van installatiedatabase - OK
+
+Als er al een database met dezelfde naam bestaat, zal een bericht met een gele achtergrond u dat vertellen, omdat deze database **wordt overschreven** met uw nieuwe database! Om dit te voorkomen, moet u ervoor zorgen dat u in het vorige formulier een andere databasenaam gebruikt.
 

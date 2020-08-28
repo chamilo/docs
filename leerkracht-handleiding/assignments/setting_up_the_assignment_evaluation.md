@@ -1,15 +1,17 @@
 # Opzetten van de opdrachtevaluatie
 
-The teacher's evaluation of student assignments can be automatically included within the assessments tool. The marks assigned to corrected assignments will form part of the overall assessment, and a weighting assigned for each particular assignment.
+De beoordeling van de docent van opdrachten van studenten kan automatisch worden opgenomen in de beoordelingstool. De cijfers die aan gecorrigeerde opdrachten worden toegekend, maken deel uit van de algehele beoordeling en er wordt een weging toegekend aan elke specifieke opdracht.
 
-To include assignments' evaluation in the assessments:
+Om de evaluatie van opdrachten op te nemen in de beoordelingen:
 
-* click on the _Advanced settings_ link in the Create/edit _assignment_ page
-* assign a _Maximum score_ greater than 0
-* check the _Add to grade-book_ box
-* choose the relevant assessment from the drop-down list
-* assign a weighting within the assessment
-* click on the _Validate_ button.
+* klik op de link _Geavanceerde instellingen_ op de pagina _opdracht_aanmaken/bewerken_
+* wijs een _Maximale score_ toe groter dan 0
+* vink het vakje Toevoegen aan cijferlijst aan
+* kies de relevante beoordeling uit de vervolgkeuzelijst
+* wijs een weging toe binnen de beoordeling
+* klik op de knop _Validate_.
 
-![](../../.gitbook/assets/graphics71%20%281%29.png)Illustration 96: Assignments – Advanced settings
+![](../../.gitbook/assets/graphics71%20%281%29.png)
+
+Afbeelding 96: Toewijzingen - Geavanceerde instellingen
 

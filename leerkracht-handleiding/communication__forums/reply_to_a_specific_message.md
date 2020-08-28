@@ -1,6 +1,6 @@
 # Beantwoord een specifiek bericht
 
-The _Reply to this message_ icon \(![](../../.gitbook/assets/images89.png)\), located below the message author's picture allows you to give an answer which will be linked to the chosen message and will be hierarchically dependent on that message.
+Het pictogram _Beantwoord dit bericht_ \(![](../../.gitbook/assets/images89.png)\), onder de afbeelding van de auteur van het bericht kunt u een antwoord geven dat wordt gekoppeld aan het gekozen bericht en hiërarchisch afhankelijk is van dat bericht.
 
-The reply procedure is the same as the previous one, except the message topic includes the initial message, prefixing it with a « Re : » indicating the two messages are related.
+De antwoordprocedure is dezelfde als de vorige, behalve dat het berichtonderwerp het eerste bericht bevat, voorafgegaan door een «Re:», wat aangeeft dat de twee berichten gerelateerd zijn.
 

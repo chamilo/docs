@@ -1,20 +1,19 @@
 # Back-up importeren
 
-Each backup is a compressed file \(a Zip file\) which is stored on the server \(in the _archive/_ directory\). It can also be downloaded to your computer.
+Elke back-up is een gecomprimeerd bestand \(een zipbestand\) dat is opgeslagen op de server \(in de _archive/_ directory\). Het kan ook naar uw computer worden gedownload.
 
-Chamilo also allows you to import the contents of a backup copy inside a new empty course. This can be useful for a teacher creating a new course.
+Met Chamilo kun je ook de inhoud van een reservekopie importeren in een nieuwe lege cursus. Dit kan handig zijn voor een docent die een nieuwe cursus maakt.
 
-To start the import:
+Om het importeren te starten:
 
-* click the _Import backup_ link in the _Backup and import_ section![](../../.gitbook/assets/graphics331%20%283%29.gif)
-* choose the source of backup: either a .zip file on your computer or one stored on the server,
-* choose whether you want to import the whole course or only specific sections \(to be selected in the next screen\),
-* decide whether to duplicate specific files during the importation operation or to replace them,
-* click _Import backup_ to start the import.
+* Klik op de _Back-up importeren_ link in de _Back-up en import_ sectie ![](../../.gitbook/assets/graphics331%20%283%29.gif)
+* kies de bron van de back-up: ofwel een .zip-bestand op uw computer of een opgeslagen op de server,
+* kies of je de hele cursus wilt importeren of alleen specifieke secties \(te selecteren in het volgende scherm\),
+* beslissen of u specifieke bestanden tijdens het importeren wilt dupliceren of vervangen,
+* klik op _Import backup_ om het importeren te starten.
 
 ![](../../.gitbook/assets/images251%20%283%29.png)
 
-Illustration 183: Backup - Import
+Afbeelding 183: Backup - Importeren
 
-**Note** : A message will confirm the backup restoration executed successfully
-
+**Opmerking**: een bericht bevestigt dat het herstel van de back-up is voltooid

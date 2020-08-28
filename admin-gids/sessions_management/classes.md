@@ -1,28 +1,35 @@
 # Klassen
 
-Classes are a group of users \(in general students\). These groups can be assigned courses or sessions, so that all group users are subscribed personally to these courses or sessions.
+Klassen zijn een groep gebruikers \(in het algemeen studenten\). Aan deze groepen kunnen cursussen of sessies worden toegewezen, zodat alle groepsgebruikers persoonlijk op deze cursussen of sessies worden ingeschreven.
 
-Similarly, when you unsubscribe the class from a course or a session, each of the class users will be unsubscribed individually from the course or session.
+Evenzo, wanneer u de klas uitschrijft voor een cursus of sessie, wordt elk van de klasgebruikers afzonderlijk afgemeld voor de cursus of sessie.
 
-**Note** : before 1.8.8, there was already a concept of class \(slightly different\), which was mutually exclusive with the sessions tool. Since version 1.8.8, it is possible to use classes in combination with sessions.
+**Opmerking**: vóór 1.8.8 was er al een concept van klasse \(iets anders\), dat wederzijds exclusief was met de sessietool. Sinds versie 1.8.8 is het mogelijk om lessen te gebruiken in combinatie met sessies.
 
-The classes interface is pretty basic. The list of classes is empty the first time. To add a class, just click the starred icon.
+De klasseninterface is vrij eenvoudig. De lijst met klassen is de eerste keer leeg. Om een klas toe te voegen, klikt u op het sterpictogram.
 
-![](../../.gitbook/assets/graficos93.png)Illustration 77: Administration - Classes – Empty list
+![](../../.gitbook/assets/graficos93.png)
 
-The creation of a class requires only a name and an optional description.
+Afbeelding 77: Administratie - Klassen - Lege lijst
 
-You then come back to the list of classes to add users to them \(through the users icon\).
+Voor het maken van een klasse is alleen een naam en een optionele beschrijving nodig.
 
-![](../../.gitbook/assets/graficos94.png)Illustration 78: Administration - Classes – Adding users
+U keert dan terug naar de lijst met klassen om er gebruikers aan toe te voegen \(via het gebruikerspictogram\).
 
-The users subscription screen is similar to other users subscription screen you've seen before.
+![](../../.gitbook/assets/graficos94.png)
 
-Once the users have been added, you can subscribe the class to one or more courses, and to one or more sessions.
+Afbeelding 78: Administratie - Klassen - Gebruikers toevoegen
 
-![](../../.gitbook/assets/graficos95.png)Illustration 79: Administration - Classes – Adding courses
+Het gebruikersabonnementscherm is vergelijkbaar met het abonnementsscherm van andere gebruikers dat u eerder hebt gezien.
 
-![](../../.gitbook/assets/graficos96.png)Illustration 80: Administration - Classes – Adding sessions
+Nadat de gebruikers zijn toegevoegd, kunt u de klas inschrijven voor een of meer cursussen en voor een of meer sessies.
 
-Note that, as the sessions logic dictates, a class should never be subscribed to a course **and** to a session \(which contains this course\), otherwise you might end up confusing the student \(and probably the teacher\) with duplicated accesses in and out of a session.
+![](../../.gitbook/assets/graficos95.png)
 
+Afbeelding 79: Administratie - Klassen - Cursussen toevoegen
+
+![](../../.gitbook/assets/graficos96.png)
+
+Afbeelding 80: Administratie - Klassen - Sessies toevoegen
+
+Merk op dat, zoals de sessielogica voorschrijft, een klas nooit mag worden ingeschreven op een cursus **en** op een sessie \(die deze cursus bevat\), anders zou je de student \(en waarschijnlijk de leraar\) met dubbele toegangen in en uit een sessie.

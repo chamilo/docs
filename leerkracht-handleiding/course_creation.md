@@ -1,38 +1,46 @@
 # Cursuscreatie
 
-![](../.gitbook/assets/images14%20%2810%29.png)Illustration 13: Personal menu blocks
+![](../.gitbook/assets/images14%20%2810%29.png)
 
-Creating a course is quick and easy, and can be done from the _My courses_ page.
+Afbeelding 13: Persoonlijke menublokken
 
-Note : on some portals, teachers might not have permissions to create new courses and are simply assigned pre-created courses by the administrator.
+Het aanmaken van een cursus is snel en gemakkelijk, en kan gedaan worden vanaf de _Mijn cursussen_ pagina.
 
-Click on _Create course_ in the side column. Fill the mandatory “Course name” field \(see Illustration 14: Creating a course – short version\) and click the button. That's it.
+Opmerking: op sommige portals, hebben docenten mogelijk geen toestemming om nieuwe cursussen te maken en krijgen ze gewoon vooraf-gemaakte cursussen toegewezen door de beheerder.
 
-The course will be visible by the course creator and \(later\) by the users subscribed to it. By default, the person who creates the course is responsible for this course's administration. She is generally referred to as the **Course owner** or **Course creator**.
+Klik op _Create course_ in de zijkolom. Vul het verplichte veld “Cursusnaam” \in(zie Afbeelding 14: Een cursus aanmaken - korte versie\) en klik op de knop. Dat is het.
 
-To create the course, you need only enter a single element, i.e. a clear and detailed title.
+De cursus is zichtbaar voor de maker van de cursus en\(later\) voor de gebruikers die erop zijn geabonneerd. De persoon die de cursus maakt, is standaard verantwoordelijk voor de administratie van deze cursus. Ze wordt doorgaans de **Cursuseigenaar** of **Cursusmaker** genoemd.
 
-![](../.gitbook/assets/images15%20%2810%29.png)Illustration 14: Creating a course – short version
+Om de cursus te maken, hoeft u slechts één element in te voeren, namelijk een duidelijke en gedetailleerde titel.
 
-Additional **options** \(entirely optional\) are available by clicking on the \_Advanced settings\_button:
+![](../.gitbook/assets/images15%20%2810%29.png)
 
-* **a** **category** within the ones offered in the drop-down box \(this is optional\),
-* **a** **course code** Pick a code that matches the course title associated with e.g. a numerical classification. \(n.b. Even if entered in lowercase, the course code will be automatically uppercased and symbols like _\(-,_  and spaces\_ will be removed from the code\),
-* **the** **course admin** this option is automatically filled with your name and cannot be updated,
-* **the** **language** used to display the course environment \(nothing stops you from using e.g. French even if the platform is installed in English\). The language choice doesn't influence the course content, only the course interface
-* the course can be filled with some **demo content** to indicate to the new course administrator the sort of thing s/he can create inside the course \(typically an exercise, forums and an introduction section\). Alternatively, this can be left completely empty.
-* finally, the course can be created from a template course that you have access to \(you must be a teacher in the template course to see it appear in your list\)
+Afbeelding 14: Een cursus maken - korte versie
 
-![](../.gitbook/assets/images16%20%289%29.png)Illustration 15: Create a course – extended version
+Extra **opties** \(geheel optioneel\) zijn beschikbaar door op de knop \_Geavanceerde instellingen\_te klikken:
 
-In versions 1.9 and 1.10, a course creation follow-up page was displayed, which suggested:
+* **een** **categorie** binnen degene die worden aangeboden in de vervolgkeuzelijst \(dit is optioneel\),
+* **een** **cursuscode** Kies een code die overeenkomt met de cursustitel die is gekoppeld aan bijv. een numerieke classificatie. \(n.b. Zelfs als deze in kleine letters wordt ingevoerd, wordt de cursuscode automatisch in hoofdletters weergegeven en worden symbolen zoals _\(-,_ en spaties\_ verwijderd uit de code\),
+* **de** **cursusbeheerder** deze optie wordt automatisch gevuld met uw naam en kan niet worden bijgewerkt,
+* **de** **taal** die wordt gebruikt om de cursusomgeving weer te geven \(niets houdt u tegen om bijv. Frans te gebruiken, zelfs als het platform in het Engels is geïnstalleerd\). De taalkeuze heeft geen invloed op de cursusinhoud, alleen op de cursusinterface
+* de cursus kan worden gevuld met wat **demo-inhoud** om aan de nieuwe cursusbeheerder aan te geven wat voor soort dingen hij/zij binnen de cursus kan maken \(meestal een oefening, forums en een inleidende sectie\). Als alternatief kan deze volledig leeg worden gelaten.
+* tot slot kan de cursus worden gemaakt op basis van een sjablooncursus waartoe u toegang hebt \(u moet een leraar zijn in de sjablooncursus om deze in uw lijst te zien verschijnen\)
 
-* going straight to the newly created course \(through a link on the course title\),
-* going directly, by clicking on the relevant icon, to one of the most common course configuration steps, as illustrated below.
+![](../.gitbook/assets/images16%20%289%29.png)
 
-![](../.gitbook/assets/images271%20%283%29.png)Illustration 16: Course creation follow-up page
+Afbeelding 15: Maak een cursus - uitgebreide versie
 
-However, feedback has been relatively negative about this feature, so we decided to disable it by default in version 1.11 onward. Your administrator can still enable this if desired.
+In versies 1.9 en 1.10 werd een vervolgpagina voor het maken van cursussen weergegeven, die suggereerde:
 
-This empty course structure created, the next step is to enrich this course through the addition of text, multimedia documents, audio tracks, links etc. etc.....\)
+* direct naar de nieuw gemaakte cursus \gaan (via een link op de cursustitel\),
+* ga direct, door op het relevante pictogram te klikken, naar een van de meest gebruikelijke configuratiestappen voor de cursus, zoals hieronder geïllustreerd.
+
+![](../.gitbook/assets/images271%20%283%29.png)
+
+Afbeelding 16: Vervolgpagina voor het maken van cursussen
+
+De feedback was echter relatief negatief over deze functie, dus hebben we besloten om deze vanaf versie 1.11 standaard uit te schakelen. Uw beheerder kan dit desgewenst nog inschakelen.
+
+Deze lege cursusstructuur gecreëerd, de volgende stap is om deze cursus te verrijken door de toevoeging van tekst, multimediadocumenten, audiotracks, links etc. etc .....\)
 

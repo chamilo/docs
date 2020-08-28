@@ -1,28 +1,32 @@
 # Gebruikerslijst importeren
 
-Whether you have exported a list of users or not, you might want to import users into the platform...
+Of u nu een lijst met gebruikers heeft geëxporteerd of niet, misschien wilt u gebruikers importeren in het platform ...
 
-Chamilo allows you to import the users using the same format in which it exported them, obviously, but you can also download two example files by clicking on the link \(blue link in the following screen-shot\). If you'd like to import users from an external source, the CSV format is generally an easy option as you can generate them with a simple spreadsheet tool.
+Met Chamilo kun je de gebruikers natuurlijk importeren in hetzelfde formaat waarin het ze heeft geëxporteerd, maar je kunt ook twee voorbeeldbestanden downloaden door op de link \(blauwe link in de volgende schermafbeelding\) te klikken. Als u gebruikers uit een externe bron wilt importeren, is de CSV-indeling over het algemeen een gemakkelijke optie, omdat u ze kunt genereren met een eenvoudige spreadsheet-tool.
 
-Just
+Alleen maar
 
-* download the example CSV file,
-* open it with MS-Excel® and OpenOffice.org \(or LibreOffice\) Calc® as a CSV file
-* choose the semi-column as a fields separator
-* adjust your users list to the spreadsheet format to match the CSV example
-* save in CSV format
-* send it to the server using the form where you found the example files
+* download het voorbeeld CSV-bestand,
+* open het met MS-Excel® en OpenOffice.org \(of LibreOffice\) Calc® als een CSV-bestand
+* kies de halve kolom als scheidingsteken tussen velden
+* pas uw gebruikerslijst aan het spreadsheetformaat aan om het CSV-voorbeeld te evenaren
+* opslaan in CSV-formaat
+* stuur het naar de server met behulp van het formulier waar je de voorbeeldbestanden hebt gevonden
 
-To import a CSV/XML file, follow these steps:
+Volg deze stappen om een CSV/XML-bestand te importeren:
 
-![](../../.gitbook/assets/importerliste_-utilisateurs%20%281%29.png)Illustration 52: Administration – Users import
+![](../../.gitbook/assets/importerliste_-utilisateurs%20%281%29.png)
 
-* in _Browse_, search for the file,
-* choose the file format \(CSV or XML\),
-* choose whether to send a welcome mail to new users created through this import,
-* click on _Import_
+Afbeelding 52: Administratie - Gebruikers importeren
 
-![](../../.gitbook/assets/importerliste_-utilisateurs2%20%281%29.png)Illustration 53: Administration – Users import report
+* zoek in _Browse_ naar het bestand,
+* kies het bestandsformaat \(CSV of XML\),
+* kies of u een welkomstmail wilt sturen naar nieuwe gebruikers die via deze import zijn gemaakt,
+* klik op _Import_
 
-The report message shows conflicts that might have occurred, and the list of users that might not have been imported.
+![](../../.gitbook/assets/importerliste_-utilisateurs2%20%281%29.png)
+
+Afbeelding 53: Administratie - Gebruikers importeren rapport
+
+Het rapportbericht toont conflicten die mogelijk zijn opgetreden en de lijst met gebruikers die mogelijk niet zijn geïmporteerd.
 

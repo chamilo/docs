@@ -1,10 +1,9 @@
 # Afstemmen
 
-![](../../../.gitbook/assets/graficos13%20%281%29.png)This category allows you to configure only one setting so far to improve efficiency a little.
+![](../../../.gitbook/assets/graficos13%20%281%29.png) Met deze categorie kunt u tot nu toe slechts één instelling configureren om de efficiëntie een beetje te verbeteren.
 
-**Split users' upload directory** allow you to improve speed a little bit for very high load platforms by splitting the users directories \(but this requires a manual operation on disk as well\).
+**Gesplitste uploaddirectory van gebruikers** stelt u in staat om de snelheid een beetje te verbeteren voor platforms met zeer hoge belasting door de gebruikersmappen te splitsen \(maar dit vereist ook een handmatige bewerking op schijf\).
 
-Since version 1.8.8.4, you can also find optimisation hints in _chamilo/documentation/optimization.html_.
+Sinds versie 1.8.8.4 kunt u ook optimalisatiehints vinden in _chamilo/documentation/optimization.html_.
 
-**Activate the browser sniffer** will scan the users' browsers for specific features.
-
+**Activeer de browser sniffer** scant de browsers van de gebruikers op specifieke functies.

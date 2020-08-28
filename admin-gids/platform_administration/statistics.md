@@ -1,19 +1,22 @@
 # Statistieken
 
-This tool allows you to generate small statistical charts for four categories of data:
+Met deze tool kunt u kleine statistische grafieken genereren voor vier categorieën gegevens:
 
-* courses,
-* users,
-* system,
-* social.
+* cursussen,
+* gebruikers,
+* systeem,
+* sociaal.
 
-![](../../.gitbook/assets/images37.png)Illustration 43: Administration – Global statistics
+![](../../.gitbook/assets/images37.png)
 
-Although the statistical data is pretty summarised, it will give you a good idea of the general use of the platform.
+Afbeelding 43: Administratie - Algemene statistieken
 
-Important activities group all the portal administration activities: creation and removal of courses, of users, of sessions; edition of configuration settings and some other... important activities.
+Hoewel de statistische gegevens behoorlijk samengevat zijn, geeft het u een goed idee van het algemene gebruik van het platform.
 
-![](../../.gitbook/assets/images29%20%281%29.png)Illustration 44: Administration - Statistics - Important activities
+Belangrijke activiteiten groeperen alle portaalbeheeractiviteiten: aanmaken en verwijderen van cursussen, gebruikers, sessies; editie van configuratie-instellingen en enkele andere ... belangrijke activiteiten.
 
-Note that you can also check from what IP address an action was taken. This gives you more possibilities in terms of ensuring the legitimate character of an action.
+![](../../.gitbook/assets/images29%20%281%29.png)
 
+Afbeelding 44: Administratie - Statistieken - Belangrijke activiteiten
+
+Merk op dat u ook kunt controleren vanaf welk IP-adres een actie is ondernomen. Dit geeft u meer mogelijkheden om het legitieme karakter van een handeling te waarborgen.

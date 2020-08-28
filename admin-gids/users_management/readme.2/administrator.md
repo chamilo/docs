@@ -1,13 +1,13 @@
 # Beheerder
 
-* ![](../../../.gitbook/assets/images46%20%281%29.png)**Active/Inactive** : an administrator cannot be disabled
-* ![](../../../.gitbook/assets/graficos62%20%281%29.png)![](../../../.gitbook/assets/graficos63%20%281%29.png)**Courses list** : an administrator can be subscribed to several courses
-* **Login as...** disabled for an admin
-* ![](../../../.gitbook/assets/graficos67%20%281%29.png)**Statistics** : the administrator cannot be “tracked” apart from the control panel
-* ![](../../../.gitbook/assets/graficos64%20%281%29.png)**Edition** : the administrator account cannot be edited apart by the same administrator
-* ![](../../../.gitbook/assets/graficos65%20%281%29.png)**Administration** : this user is administrator, as his star colour shows
-* ![](../../../.gitbook/assets/graficos68%20%281%29.png)**Follow users** : only administrator-type users can follow the users progress \(learners, teachers or administrator\) through the control panel
-* ![](../../../.gitbook/assets/graficos69%20%281%29.png)**Follow courses** : only the administrators can track the progress of a course through the control panel
-* ![](../../../.gitbook/assets/graficos70%20%281%29.png)**Follow sessions** : only administrators can follow the sessions progress through the control panel
-* ![](../../../.gitbook/assets/graficos66%20%281%29.png)**Free/busy calendar** : shows the availability of the administrator
+* ![](../../../.gitbook/assets/images46%20%281%29.png)**Actief / inactief**: een beheerder kan niet worden uitgeschakeld
+* ![](../../../.gitbook/assets/graficos63%20%281%29.png)**Cursuslijst**: een beheerder kan op meerdere cursussen worden ingeschreven
+* ![](../../../.gitbook/assets/graficos62%20%281%29.png)**Login als...** uitgeschakeld voor een admin
+* ![](../../../.gitbook/assets/graficos67%20%281%29.png)**Statistieken**: de beheerder kan niet afzonderlijk worden "gevolgd" vanaf het configuratiescherm
+* ![](../../../.gitbook/assets/graficos64%20%281%29.png)**Editie**: het beheerdersaccount kan niet apart worden bewerkt door dezelfde beheerder
+* ![](../../../.gitbook/assets/graficos65%20%281%29.png)**Administratie**: deze gebruiker is administrator, zoals blijkt uit zijn sterkleur
+* ![](../../../.gitbook/assets/graficos68%20%281%29.png)**Volg gebruikers**: alleen beheerders van het type gebruikers kunnen de voortgang van de gebruiker volgen \(studenten, docenten of beheerder\) via het configuratiescherm
+* ![](../../../.gitbook/assets/graficos69%20%281%29.png)**Cursussen volgen**: alleen de beheerders kunnen de voortgang van een cursus volgen via het controlepaneel
+* ![](../../../.gitbook/assets/graficos70%20%281%29.png)**Volg sessies**: alleen beheerders kunnen de voortgang van de sessie volgen via het controlepaneel
+* ![](../../../.gitbook/assets/graficos66%20%281%29.png)**Vrij / bezet-kalender**: toont de beschikbaarheid van de beheerder
 

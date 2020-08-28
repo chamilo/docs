@@ -1,10 +1,13 @@
 # Cursusvoortgang
 
-The _Course progress_ tool ![](../../.gitbook/assets/graphics251%20%283%29.png) \(or perhaps _Course diary_ - the name of this tool is still under consideration\) allows the teacher to build a course program to be shown \(optionally\) on the course homepage to include a progress status relative to the current teachers and learners' progress in the scheduled topic preparation.
+De _Cursus voortgang_ tool ![](../../.gitbook/assets/graphics251%20%283%29.png) \(of misschien _Cursus dagboek_ - de naam van deze tool wordt nog overwogen\) stelt de docent in staat een cursusprogramma samen te stellen om te laten zien \(optioneel\) op de startpagina van de cursus om een voortgangsstatus op te nemen met betrekking tot de huidige docenten en de voortgang van de leerlingen bij de geplande onderwerpvoorbereiding.
 
-![](../../.gitbook/assets/graphics256%20%281%29.png)Illustration 135: Course progress – Learner view
+![](../../.gitbook/assets/graphics256%20%281%29.png)
 
-This tool is only useful in the case of “synchronous” courses, in which the teacher and the learners progress through the course concurrently. Configuring _Course progress_ is quite easy, although quite a lengthy process.
+Afbeelding 135: Cursusvoortgang - Leerlingweergave
 
-![](../../.gitbook/assets/graphics258%20%281%29.png)Illustration 136: Course progress – Teacher view
+Deze tool is alleen nuttig in het geval van "synchrone" cursussen, waarin de leraar en de leerlingen gelijktijdig door de cursus gaan. Het configureren van _Course progress_ is vrij eenvoudig, hoewel een behoorlijk langdurig proces.
 
+![](../../.gitbook/assets/graphics258%20%281%29.png)
+
+Afbeelding 136: Cursusvoortgang - Docentweergave

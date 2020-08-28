@@ -1,12 +1,13 @@
 # Kopieer van cursus in sessie naar een andere sessie
 
-Given the possibility to define content in a course through a session and given the fact that this content will only be visible within this session, you will sometimes need to copy that session-specific content to another session containing the same course... and this is exactly what this tool does.
+Gezien de mogelijkheid om inhoud in een cursus te definiëren door middel van een sessie en gezien het feit dat deze inhoud alleen zichtbaar zal zijn tijdens deze sessie, zal je soms die sessiespecifieke inhoud moeten kopiëren naar een andere sessie die dezelfde cursus bevat ... en dit is precies wat deze tool doet.
 
-To use it, you must have an origin and a destination session, in which you can find the same course, from and to which you wish to copy the content of the session.
+Om het te gebruiken, moet u een oorsprongs- en een doelsessie hebben, waarin u dezelfde cursus kunt vinden, van waaruit u de inhoud van de sessie wilt kopiëren.
 
-![](../../.gitbook/assets/graficos84%20%281%29.png)Illustration 69: Copying course content from session to session
+![](../../.gitbook/assets/graficos84%20%281%29.png)
 
-Once these conditions are met, you'll just have to select the session of origin, the course of origin, the session of destination and the course of destination, then decide whether you want all session-specific contents to be copied or only some of them.
+Afbeelding 69: Cursusinhoud kopiëren van sessie naar sessie
 
-**Note** : this tool is still in beta version. We recommend you use it with caution and you counter-check it does what you expected.
+Zodra aan deze voorwaarden is voldaan, hoeft u alleen maar de sessie van herkomst, het traject van herkomst, de sessie van bestemming en het traject van bestemming te selecteren en vervolgens te beslissen of u alle sessiespecifieke inhoud wilt kopiëren of slechts een deel van hen.
 
+**Let op**: deze tool is nog in bètaversie. We raden u aan om het voorzichtig te gebruiken en om te controleren of het doet wat u verwachtte.

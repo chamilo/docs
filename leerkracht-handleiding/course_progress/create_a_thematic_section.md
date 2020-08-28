@@ -1,12 +1,16 @@
 # Maak een thematisch gedeelte
 
-The thematic sections represent the highest level in the course progress' structure. You need to create sections in order to be able to create other levels of the structure.
+De thematische secties vertegenwoordigen het hoogste niveau in de voortgangsstructuur van de cursus. U moet secties maken om andere niveaus van de structuur te kunnen maken.
 
-To create the first section, create the _New thematic section_ icon ![](../../.gitbook/assets/graphics252%20%283%29.png) and complete the relevant fields using text, images etc.
+Om de eerste sectie te maken, maakt u het pictogram Nieuwe thematische sectie ![](../../.gitbook/assets/graphics252%20%283%29.png) en vul de relevante velden in met tekst, afbeeldingen etc.
 
-![](../../.gitbook/assets/images184%20%284%29.png)Illustration 137: Course progress – invitation to create a thematic plan
+![](../../.gitbook/assets/images184%20%284%29.png)
 
-On clicking _Save_ you will be invited to create new thematic plan:
+Illustratie 137: Cursusvoortgang - uitnodiging om een thematisch plan te maken
 
-![](../../.gitbook/assets/graphics259%20%281%29.png)Illustration 138: Course progress – invitation to create a thematic plan/advance
+Door op _Save_ te klikken, wordt u uitgenodigd om een nieuw thematisch plan te maken:
+
+![](../../.gitbook/assets/graphics259%20%281%29.png)
+
+Illustratie 138: Cursusvoortgang - uitnodiging om een thematisch plan / voorschot te maken
 

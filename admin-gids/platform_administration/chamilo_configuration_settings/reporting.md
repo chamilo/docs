@@ -1,4 +1,3 @@
 # Rapportage
 
-![](../../../.gitbook/assets/images19%20%282%29.png)This category offers only two options, oriented more towards “Analytics” than “Reporting”. You can use these options to add an extra header or an extra footer to your page. These will allow you to set the Google Analytics tag, for example.
-
+![](../../../.gitbook/assets/images19%20%282%29.png) Deze categorie biedt slechts twee opties, meer gericht op "Analytics" dan op "Rapportage". U kunt deze opties gebruiken om een extra koptekst of een extra voettekst aan uw pagina toe te voegen. Hiermee kunt u bijvoorbeeld de Google Analytics-tag instellen.

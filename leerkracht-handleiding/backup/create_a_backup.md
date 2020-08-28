@@ -1,14 +1,14 @@
 # Maak een back-up
 
-For security and procedural reasons, it is recommended that you create a backup copy of the complete contents of your course. This procedure is automated. It allows you to create either a complete backup or a partial backup, based on your selection of what to save, using a few simple clicks. To begin backup:
+Om veiligheids en procedurele redenen is het raadzaam een reservekopie te maken van de volledige inhoud van uw cursus. Deze procedure is geautomatiseerd. Hiermee kunt u met een paar simpele klikken een volledige back-up of een gedeeltelijke back-up maken, op basis van uw selectie van wat u wilt opslaan. Om een back-up te maken:
 
-* click on the _Create backup_ link in the _Backup and import_ section![](../../.gitbook/assets/graphics330%20%283%29.gif),
-* on the next page, select whether you want a full copy or just a selection of elements \(in which case you will have to select them on the next page and click _Validate_\),
-* click the _Create backup_ button to launch the procedure.
+* klik op de _Create backup_ link in de _Backup en import_ sectie ![](../../.gitbook/assets/graphics330%20%283%29.gif),
+* Selecteer op de volgende pagina of je een volledige kopie wilt of alleen een selectie van elementen \(in dat geval moet u ze op de volgende pagina selecteren en op _validate_ klikken\),
+* klik op de knop _Back-up maken_ om de procedure te starten.
 
 ![](../../.gitbook/assets/graphics333%20%283%29.png)
 
-Illustration 182: Maintenance – Backup creation
+Afbeelding 182: Onderhoud - Back-up maken
 
-The backup is made available in the form of a compressed file which you can download on your computer. It is also stored on the server for quick restoration if needed.
+De back-up wordt ter beschikking gesteld in de vorm van een gecomprimeerd bestand dat u op uw computer kunt downloaden. Het wordt ook opgeslagen op de server voor snel herstel indien nodig.
 

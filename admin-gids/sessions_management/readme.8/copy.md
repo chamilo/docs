@@ -1,6 +1,6 @@
 # Kopiëren
 
-Copying promotions or careers is made by using the lists of careers or promotions, by using a double-paper-sheet-shaped icon.
+Het kopiëren van promoties of carrières wordt gemaakt door de lijsten met carrières of promoties te gebruiken, met behulp van een pictogram in de vorm van een dubbel vel papier.
 
-Note: for now, the copy of courses is a **hard copy**, which means you might loose considerable disk space by copying an entire career. Another mode is available \(not yet enabled\) to **soft copy** the courses through the sessions \(use of the same courses through another session, which is just what sessions have been designed for\).
+Let op: voorlopig is de kopie van cursussen een **hard copy**, wat betekent dat je aanzienlijke schijfruimte kunt verliezen door een hele carrière te kopiëren. Een andere modus is beschikbaar \(nog niet ingeschakeld\) om **soft copy** de cursussen via de sessies \(gebruik van dezelfde cursussen via een andere sessie, dat is precies waarvoor de sessies zijn ontworpen\).
 

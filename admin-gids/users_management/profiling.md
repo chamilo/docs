@@ -1,23 +1,24 @@
 # Profilering
 
-This tool allows you to add extensions to the profile of all users. Each field created through this tool gives you a series of options:
+Met deze tool kun je extensies toevoegen aan het profiel van alle gebruikers. Elk veld dat met deze tool is gemaakt, biedt u een reeks opties:
 
-* _Visibility_ allows you to decide whether the field must appear on the _extended profile_ page of the user \(so that he can see – and maybe update - it himself\)
-* _Modifiable_ lets you decide if the field can be updated by the user himself, or if the admin will assign a specific value for this field for all users
-* _Filter_ allows you to decide whether the field can be used as a filter and if it can be exported through exercises results exports
+* _Visibility_ stelt u in staat om te beslissen of het veld moet verschijnen op de _extended profile_ pagina van de gebruiker \(zodat hij het zelf kan zien - en eventueel updaten\)
+* _Modifiable_ laat u beslissen of het veld kan worden bijgewerkt door de gebruiker zelf, of dat de admin een specifieke waarde voor dit veld zal toewijzen voor alle gebruikers
+* _Filter_ stelt u in staat om te beslissen of het veld kan worden gebruikt als filter en of het kan worden geëxporteerd door middel van export van oefenresultaten
 
-Usually, you can create fields of which the user has no knowledge but which are useful administratively to organise or synchronise the system with other systems \(common unique identifier, for example\). Other fields are submitted to the user, like his date of birth, country, mother tongue, etc., which will later allow you to generate better statistics depending on the age, culture, previous knowledges, etc.
+Gewoonlijk kunt u velden aanmaken waarvan de gebruiker geen kennis heeft, maar die administratief handig zijn om het systeem te organiseren of te synchroniseren met andere systemen \(gemeenschappelijke unieke identificatie, bijvoorbeeld\). Andere velden worden aan de gebruiker voorgelegd, zoals zijn geboortedatum, land, moedertaal, enz., Waarmee u later betere statistieken kunt genereren afhankelijk van de leeftijd, cultuur, eerdere kennis, enz.
 
-For users familiar with Drupal, this is equivalent to a mini CCK module for Chamilo.
+Voor gebruikers die bekend zijn met Drupal, komt dit overeen met een mini CCK-module voor Chamilo.
 
-![](../../.gitbook/assets/profil%20%281%29.png)Illustration 56: Administration – User profile fields list
+![](../../.gitbook/assets/profil%20%281%29.png)
 
-| Icons | Features |
+Afbeelding 56: Beheer - Lijst met velden voor gebruikersprofielen
+
+| Icoons | Kenmerken |
 | :--- | :--- |
-| ![](../../.gitbook/assets/graficos26%20%281%29.png)![](../../.gitbook/assets/graficos27%20%281%29.png) | Update/Delete field |
-| ![](../../.gitbook/assets/images54%20%281%29.png)![](../../.gitbook/assets/images55%20%281%29.png) | Make modifiable / non modifiable or enable/disable filter |
-| ![](../../.gitbook/assets/images56%20%281%29.png) | Organise the fields |
-| ![](../../.gitbook/assets/images57%20%281%29.png)![](../../.gitbook/assets/images58%20%281%29.png) | Show/hide a field to the user |
+| ![](../../.gitbook/assets/graficos26%20%281%29.png)![](../../.gitbook/assets/graficos27%20%281%29.png) | Veld bijwerken / verwijderen |
+| ![](../../.gitbook/assets/images54%20%281%29.png)![](../../.gitbook/assets/images55%20%281%29.png) | Maak aanpasbaar / niet wijzigbaar of schakel filter in / uit |
+| ![](../../.gitbook/assets/images56%20%281%29.png) | Organiseer de velden |
+| ![](../../.gitbook/assets/images57%20%281%29.png)![](../../.gitbook/assets/images58%20%281%29.png) | Toon / verberg een veld voor de gebruiker |
 
-Tableau 2: Administration – Profile fields management icons
-
+Tableau 2: Administratie - Pictogrammen voor beheer van profielvelden

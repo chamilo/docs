@@ -1,9 +1,9 @@
 # Zichtbaarheid en toegang
 
-The _Course access_ section ![](../../.gitbook/assets/graphics323.png) allows you to define how open access to your course will be by selecting the _Course visibility_ settings \(already described in Control course access on page 20\). These settings \(_public, open, private_ or _closed_\) are fully defined on the page. On this page you can also:
+De sectie Toegang tot de cursus ![](../../.gitbook/assets/graphics323.png) stelt je in staat om te bepalen hoe open de toegang tot je cursus zal zijn door de _Cursuszichtbaarheid_ instellingen \te selecteren (al beschreven in Cursustoegang beheren op pagina 20\). Deze instellingen \(_openbaar, open, privé_ of _gesloten_ \) zijn volledig gedefinieerd op de pagina. Op deze pagina kunt u ook:
 
-* obtain a _direct link_ to send e.g. via email or a web page to invite registration to this course
-* allow self-subscription and unsubscription
-* provide a registration password to allow access by unsubscribed users
-* establish legal terms to be displayed on entry to the course
+* verkrijg een _directe link_ om b.v. via e-mail of een webpagina om registratie voor deze cursus uit te nodigen
+* zelf-in- en uitschrijven toestaan
+* geef een registratiewachtwoord op om toegang te verlenen aan uitgeschreven gebruikers
+* leg juridische termen vast die moeten worden weergegeven bij het betreden van de cursus
 

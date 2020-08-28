@@ -1,6 +1,5 @@
 # Verplaats gebruikersresultaten van / naar een sessie
 
-In the case you would want to move from a session-less mode to a session-full mode, you might \(in exceptional cases\) want to move a specific students' tracking data from a course-context to a session-context. This \(still unstable\) tool has been written exactly for that.
+In het geval dat u van een sessie-loze modus naar een sessie-volledige modus wilt gaan, kunt u \(in uitzonderlijke gevallen\) de trackinggegevens van een specifieke student verplaatsen van een cursuscontext naar een sessiecontext. Deze \(nog steeds onstabiele\) tool is precies daarvoor geschreven.
 
-Its interface is complex but relatively self-explaining. If you have doubts, we recommend you take backups, act cautiously and maybe contact an official Chamilo provider to take care of it...
-
+De interface is complex maar relatief vanzelfsprekend. Als u twijfelt, raden we u aan back-ups te maken, voorzichtig te handelen en misschien contact op te nemen met een officiële Chamilo-provider om ervoor te zorgen ...

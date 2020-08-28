@@ -2,7 +2,7 @@
 
 ![](../../../../.gitbook/assets/images11%20%281%29.png)Illustration 10: Installation - Reminder
 
-Here, you'll be able to check all your settings a last time before launching the installation. We recommend you take a screenshot \(or print it\) and keep it in a safe place. It might be useful when reporting a bug to the Chamilo community, or in case you forgot the settings you set. If you spot a mistake in the settings, just go back and update it. Alternatively, just click on the _Install Chamilo_ button and proceed...
+Hier kun je al je instellingen een laatste keer controleren voordat je de installatie start. We raden u aan een screenshot te maken \(of af te drukken \) en deze op een veilige plaats te bewaren. Het kan handig zijn als u een bug rapporteert aan de Chamilo-gemeenschap, of als u de instellingen bent vergeten die u heeft ingesteld. Als u een fout ontdekt in de instellingen, gaat u terug en werkt u deze bij. Of klik gewoon op de knop _Install Chamilo_ en ga verder ...
 
-Once the installation is over, just go to the site by following the link given and connect with the account you just set.
+Zodra de installatie is voltooid, gaat u gewoon naar de site door de gegeven link te volgen en verbinding te maken met het account dat u zojuist hebt ingesteld.
 

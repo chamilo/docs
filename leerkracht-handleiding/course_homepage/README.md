@@ -1,4 +1,4 @@
 # Startpagina van de cursus
 
-In this chapter, we will present a brief overview of the various tools available. Each tool will be examined in more detail in later chapters.
+In dit hoofdstuk geven we een kort overzicht van de verschillende beschikbare tools. Elke tool zal in latere hoofdstukken meer in detail worden besproken.
 

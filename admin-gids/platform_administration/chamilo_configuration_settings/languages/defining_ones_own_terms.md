@@ -1,8 +1,9 @@
 # Eigen voorwaarden definiëren
 
-The new page is a search page. If you want to modify the term _Reporting_ to _Evaluation_, just search for _Reporting_.
+De nieuwe pagina is een zoekpagina. Als u de term _Reporting_ wilt wijzigen in _Evaluation_, zoekt u gewoon naar _Reporting_.
 
-![](../../../../.gitbook/assets/graficos40%20%281%29.png)Illustration 35: Administration – Sub-language terms re-definition
+![](../../../../.gitbook/assets/graficos40%20%281%29.png)
 
-Once the search has generated results, redefine any of the terms appearing in the _Original name_ column by giving another translation inside the _Sub-language_ column. Once you're satisfied, click on the _Save_ button, once for each redefined term. Note that some terms appear quite a lot in the interface translations, so it might take a while to process...
+Afbeelding 35: Administratie - Herdefinitie van termen in de subtaal
 
+Zodra de zoekopdracht resultaten heeft gegenereerd, definieert u de termen die in de kolom _Originele naam_ verschijnen opnieuw door een andere vertaling te geven in de kolom _Subtaal_. Als u tevreden bent, klikt u eenmaal op de knop _Save_ voor elke opnieuw gedefinieerde term. Merk op dat sommige termen behoorlijk veel voorkomen in de interface-vertalingen, dus het kan even duren om te verwerken...

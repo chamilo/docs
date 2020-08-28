@@ -1,16 +1,18 @@
 # Beoordelingen
 
-The _Assessments_ tool ![](../../.gitbook/assets/graphics181%20%283%29.png) is where you, as teacher, can establish success criteria for the course \(i.e. the pass-mark, merit rankings etc.\), involving the allocation of weightings to various activities, tests etc. You can also use the assessments tool to generate and issue certificates to learners on successful completion of the course. Click on the tool to display the main _Assessments_ page which may \(once set up for the course\) look like this to the teacher.
+De _Assessments_ tool ![](../../.gitbook/assets/graphics181%20%283%29.png) is waar u, als docent, succescriteria voor de cursus kunt vaststellen \(dwz het slaagcijfer, de ranglijsten van verdiensten enz.\), waarbij u gewichten kunt toewijzen aan verschillende activiteiten, tests enz. U kunt ook de beoordelingstool gebruiken om en certificaten uitgeven aan studenten bij succesvolle afronding van de cursus. Klik op de tool om de hoofdpagina _Assessments_ weer te geven die \(eenmaal ingesteld voor de cursus\) er voor de docent zo uit kan zien.
 
 ![](../../.gitbook/assets/graphics190%20%281%29.png)
 
-Illustration 101: Assessments – Example teacher view
+Afbeelding 101: Assessments - Voorbeeld van docentweergave
 
-It allows you to prepare an overview report compiling learners' achievements in the course overall, drawing on the results of activities undertaken in virtually every part of the online course, but also including “external” activities undertaken in your classroom, outside of the online course.
+Hiermee kunt u een overzichtsrapport opstellen met de prestaties van de leerlingen in de cursus in het algemeen, op basis van de resultaten van activiteiten die zijn ondernomen in vrijwel elk onderdeel van de online cursus, maar ook met inbegrip van "externe" activiteiten die in uw klas worden ondernomen, buiten de online cursus om.
 
-The learner can use the assessments tool as a “grade-book” to monitor his own progress, and will see a simpler, personalized view when he clicks on the _A\_\_ssessments_ tool which will look something like this:
+De leerling kan de assessments-tool gebruiken als een "cijferlijst" om zijn eigen voortgang bij te houden, en krijgt een eenvoudigere, persoonlijkere weergave te zien wanneer hij klikt op de tool _A\_\_ssessments_ die er ongeveer zo uitziet:
 
-![](../../.gitbook/assets/graphics192%20%281%29.png)Illustration 102: Assessments – Example learner view
+![](../../.gitbook/assets/graphics192%20%281%29.png)
 
-_\(Note: Before looking further into the assessments tool, make sure you have at least one learner subscribed to your course. \(This is why we cleverly put the_ _Users_ _chapter before this one!\). In this chapter, it will be much easier to follow the examples if you already have learners subscribed and a series of activities created. Don't forget – until you choose to allow it, the user will not be able to see the course anyway, as long as is configured as closed.\)_
+Afbeelding 102: Assessments - Voorbeeld van leerlingweergave
+
+_\(Opmerking: zorg ervoor dat er ten minste één cursist op uw cursus is geabonneerd voordat u verder kijkt in de beoordelingstool. \(Daarom hebben we het_ _Users_ _chapter slim voor deze geplaatst!\). In dit hoofdstuk zal het veel gemakkelijker zijn om de voorbeelden te volgen als u al studenten heeft ingeschreven en een reeks activiteiten heeft gemaakt. Vergeet niet - totdat u ervoor kiest om het toe te staan, kan de gebruiker de cursus toch niet zien, zolang deze is geconfigureerd als gesloten.\)_
 

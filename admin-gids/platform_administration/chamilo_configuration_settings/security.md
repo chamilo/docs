@@ -1,23 +1,23 @@
 # Veiligheid
 
-![](../../../.gitbook/assets/graficos11.png)This category will allow you to configure a few things that have to do with security. The default settings are... acceptable, but you might want to restrict a few things to improve it.
+![](../../../.gitbook/assets/graficos11.png) In deze categorie kunt u een aantal zaken configureren die met beveiliging te maken hebben. De standaardinstellingen zijn ... acceptabel, maar misschien wilt u een paar dingen beperken om deze te verbeteren.
 
-**Type of filtering on document uploads** there are two different filtering types:
+**Type filtering op documentuploads** er zijn twee verschillende filtertypen:
 
-* Blacklist is a way to prevent files with a specific extension. That allows you to say, for example, that you don't want executable files to be uploaded \(i.e. “.exe” files\). This is considered the weakest filtering method though.
-* White list is a way to say “I only want files which match my authorized extensions”, so it is really safe: no funny file will surprise you here. Case \(upper-case or lower-case\) doesn't matter here. This is the safest option, but it is somewhat limited.
+* Blacklist is een manier om bestanden met een specifieke extensie te voorkomen. Hiermee kunt u bijvoorbeeld zeggen dat u niet wilt dat uitvoerbare bestanden worden geüpload \(d.w.z. ".exe" -bestanden\). Dit wordt echter als de zwakste filtermethode beschouwd.
+* Witte lijst is een manier om te zeggen "Ik wil alleen bestanden die overeenkomen met mijn geautoriseerde extensies", dus het is echt veilig: geen grappig bestand zal je hier verrassen. Hoofdletter \(hoofdletters of kleine letters\) maakt hier niet uit. Dit is de veiligste optie, maar het is enigszins beperkt.
 
-**Permissions for new directories** sets which access permissions new directories will have. This is mostly an option for Linux-based systems, and allows you to increase security against pirates.
+**Machtigingen voor nieuwe mappen** stelt in welke toegangsrechten nieuwe mappen zullen hebben. Dit is meestal een optie voor op Linux gebaseerde systemen en stelt u in staat de beveiliging tegen piraten te vergroten.
 
-_**Warning**:_ the default value is « 0777 » following a series of problems found by users with more restrictive permissions. This value guarantees greater portability, not greater security, and it sometimes needs to be modified if the Linux-based system you're installing it on requires a strict security policy. If this is the case, you will receive a server error when trying to enter a course you have just created. In this case, try to update this value to 0777, 0775, 0755 and 0750 alternatively, and create a new course each time. You can always delete the failed courses afterwards.
+**Waarschuwing**: de standaardwaarde is «0777» na een reeks problemen die zijn gevonden door gebruikers met meer beperkende rechten. Deze waarde garandeert een grotere draagbaarheid, geen grotere beveiliging, en het moet soms worden gewijzigd als het op Linux gebaseerde systeem waarop u het installeert een strikt beveiligingsbeleid vereist. Als dit het geval is, krijg je een serverfout wanneer je probeert een cursus in te voeren die je zojuist hebt gemaakt. Probeer in dat geval deze waarde bij te werken naar 0777, 0775, 0755 en 0750 en maak elke keer een nieuwe cursus. Je kunt de mislukte cursussen achteraf altijd verwijderen.
 
-**OpenID authentication** enables the OpenID feature. You will also need to enable the OpenID field in the user profiling fields in order for this feature to provide the desire functionality. Be aware that, at this time, it does not allow for several identities combined, and you still have to paste your entire identity URL inside the OpenID box. We hope to improve this feature in the future.
+**OpenID-authenticatie** schakelt de OpenID-functie in. U moet ook het OpenID-veld in de velden voor gebruikersprofilering inschakelen om deze functie de gewenste functionaliteit te bieden. Houd er rekening mee dat het momenteel niet mogelijk is om meerdere identiteiten te combineren, en dat u nog steeds uw volledige identiteits-URL in het OpenID-vak moet plakken. We hopen deze functie in de toekomst te verbeteren.
 
-**Extend rights for coaches** will let teachers edit the contents of courses inside the session context \(modify documents, learning paths, exercises, links, etc.\). See chapter Chapter 7. Sessions management on page 64.
+**Rechten uitbreiden voor coaches** stelt docenten in staat de inhoud van cursussen binnen de sessiecontext te bewerken \(documenten, leertrajecten, oefeningen, koppelingen, enz. Wijzigen\). Zie hoofdstuk Hoofdstuk 7. Sessiemanagement op pagina 64.
 
-Allow User Course Subscription By Course Admininistrator allows the teacher to subscribe users to his course. This option is enabled by default, but if you want to prevent this from happening, you know where to look...
+Cursusinschrijving door gebruiker toestaan door cursusbeheerder stelt de docent in staat gebruikers op zijn cursus te abonneren. Deze optie is standaard ingeschakeld, maar als u dit wilt voorkomen, weet u waar u moet zoeken ...
 
-Single Sign On enables the connection without login, based on a sister website which already processes the login \(an intranet, for example\). This feature requires a bit of customizing and you should really hire a developer with experience in Single Sign On methodologies to do that quickly. If lucky, this might work out of the box, though. Just make sure you check the other settings and the main/auth/sso/ directory for more information.
+Single Sign On maakt de verbinding mogelijk zonder in te loggen, op basis van een zusterwebsite die al de login \(een intranet, bijvoorbeeld\) verwerkt. Deze functie vereist een beetje aanpassing en u moet echt een ontwikkelaar inhuren met ervaring in Single Sign On-methodologieën om dat snel te doen. Als je geluk hebt, kan dit echter uit de doos werken. Zorg ervoor dat u de andere instellingen en de main/auth/sso/ controleert voor meer informatie.
 
-Filter terms allows you to automatically filter all given words by _\*_ in forums and e-mails.
+Met filtertermen kunt u automatisch alle gegeven woorden filteren op _\*_ in forums en e-mails.
 

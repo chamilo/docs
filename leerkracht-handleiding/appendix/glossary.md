@@ -1,15 +1,15 @@
 # Woordenlijst
 
-* **Administrator** : The “master” user who controls and manages the Chamilo portal globally.
-* **Course administrator** : See _teacher_
-* **Student** : See _learner_
-* **Course assistant :** a learner with additional rights limited to a specific course: he can track other learners' results, check their assignments and their test results
-* **Coach :** ateacher of a course in the context of a _Session_
-* **Course** : a course area, or course space, with its 20-odd tools
-* **Learner** : A user who has the right, within a course, to access resources as the teacher prepared them
-* **Trainer** : _See teacher_
-* **Training** : See _course_. In versions 1.8.5 to 1.8.8 of Chamilo, the term _Training_ replaced the term _Course,_ resulting in an awful lot of confusion, not only in English, but also in other languages which depended on English for translations. The term can be of course be redefined on each portal depending on needs through the portal administration interface, but _Course_ is the term used globally now.
-* **Teacher :** The user who creates and/or controls a course \(outwit h the _Session_ context\)
-* **Tutor** : See Coach
-* **User** : Any user who has an access to your Chamilo portal, regardless of his role
+* **Beheerder** : De "master" gebruiker die het Chamilo-portaal wereldwijd bestuurt en beheert.
+* **Cursusbeheerder** : Zie _teacher_
+* **Leerling** : Zie _learner_
+* **Cursus assistent** : een leerling met aanvullende rechten beperkt tot een specifieke cursus: hij kan de resultaten van andere leerlingen volgen, hun opdrachten en hun testresultaten bekijken
+* **Trainer** : docent van een cursus in de context van een sessie
+* **Cursus** : een cursusgebied, of cursusruimte, met zijn 20-tal tools
+* **Leerling** : Een gebruiker die het recht heeft om binnen een cursus toegang te krijgen tot bronnen zoals de docent ze heeft voorbereid
+* **Trainer** : _Zie leraar_
+* **Opleiding** : Zie _course_. In de versies 1.8.5 tot 1.8.8 van Chamilo verving de term _Training_ de term _Course_, wat leidde tot een hoop verwarring, niet alleen in het Engels, maar ook in andere talen die voor vertalingen afhankelijk waren van het Engels. De term kan natuurlijk opnieuw worden gedefinieerd op elke portal, afhankelijk van de behoeften via de portalbeheerinterface, maar _Course_ is de term die nu wereldwijd wordt gebruikt.
+* **Leraar** : De gebruiker die een cursus maakt en/of beheert \(wees de _Session_context te slim af)
+* **Tutor** : Zie Coach
+* **Gebruiker** : Elke gebruiker die toegang heeft tot uw Chamilo-portaal, ongeacht zijn rol
 

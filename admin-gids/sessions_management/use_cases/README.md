@@ -1,4 +1,3 @@
 # Gebruik cases
 
-There are several cases where the sessions can be a real time saver... but the whole concepts floats around one big advantage: content recycling.
-
+Er zijn verschillende gevallen waarin de sessies een realtime besparing kunnen opleveren ... maar het hele concept draait om één groot voordeel: contentrecycling.

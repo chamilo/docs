@@ -1,12 +1,14 @@
 # Een evenement toevoegen aan de cursusagenda
 
-Events can be added to the course _Agenda_ in two ways. The simplest and quickest way is simply to click on the relevant date/day/time in the course _Agenda_ \(choose week or day view to select a specific time or timescale\). You can select users who can see the event, add a title and a brief verbal description, and decide whether to also send the event as an announcement/email:
+Gebeurtenissen kunnen op twee manieren aan de cursus _Agenda_ worden toegevoegd. De eenvoudigste en snelste manier is door simpelweg op de relevante datum/dag/tijd in de cursus _Agenda_ \te klikken (kies week- of dagweergave om een specifieke tijd of tijdschaal te selecteren\). U kunt gebruikers selecteren die het evenement kunnen zien, een titel en een korte mondelinge beschrijving toevoegen en beslissen of u het evenement ook als aankondiging/e-mail wilt verzenden:
 
 ![](../../.gitbook/assets/graphics265.png)
 
-Illustration 142: Adding an event directly to the calendar
+Afbeelding 142: een gebeurtenis rechtstreeks aan de kalender toevoegen
 
-For a more fully configured event entry, however, click the _Add event_ icon ![](../../.gitbook/assets/graphics262.png) in the tool-bar. This will open a dialogue page allowing entry of a title and the selection of users, but also a richer description \(e.g. using graphics\), automatic repeat configuration \(daily, weekly, monthly, yearly\) and the option to add an attachment \(to accompany email announcements\).
+Voor een meer volledig geconfigureerde gebeurtenisinvoer, klik je echter op het _Gebeurtenis toevoegen_pictogram ![](../../.gitbook/assets/graphics262.png) in de werkbalk. Hierdoor wordt een dialoogpagina geopend waarmee u een titel kunt invoeren en gebruikers kunt selecteren, maar ook een rijkere beschrijving \(bijv. Met afbeeldingen\), automatische herhalingsconfiguratie \(dagelijks, wekelijks, maandelijks, jaarlijks\) en de optie om een bijlage \(om e-mailaankondigingen te begeleiden\).
 
-![](../../.gitbook/assets/graphics266.png)Illustration 143: Adding an event using the Add event tool
+![](../../.gitbook/assets/graphics266.png)
+
+Afbeelding 143: een gebeurtenis toevoegen met de tool Gebeurtenis toevoegen
 

@@ -1,20 +1,19 @@
 # Stap 5 van 6: Configuratie-instellingen
 
-Every setting of this step can be modified after the installation through theChamilo _Administration_ page, **except** for the _Encryption method_ and the _Portal URL._
+Elke instelling van deze stap kan na de installatie worden gewijzigd via de Chamilo _Administration_-pagina, **behalve** voor de _Encryption-methode_ en de _Portal-URL._
 
-_Encryption method_ is almost impossible to change afterwards as it would imply re-generating new passwords for all users and sending them by e-mail. The default option is always the most secure, so we recommend you **leave it** as it is.
+Het is bijna onmogelijk om achteraf de _Encryptiemethode_ te wijzigen, omdat het zou betekenen dat alle gebruikers nieuwe wachtwoorden moeten genereren en deze per e-mail zouden verzenden. De standaardoptie is altijd de veiligste, dus we raden u aan **deze te laten** zoals hij is.
 
-_Portal URL_ could be updated but only through the configuration file, which could prove tricky. Please select these two wisely.
+_Portal URL_ kan worden bijgewerkt, maar alleen via het configuratiebestand, wat lastig kan zijn. Selecteer deze twee verstandig.
 
-* _Main language :_ default language on your portal.
-* _Chamilo URL :_ URL of your Chamilo portal \(locally : [http://localhost/chamilo](http://localhost/chamilo); remotely : [http://www.mydomain.com/chamilo](http://www.mydomain.com/chamilo)\).
-* _Admin's e-mail :_ portal administrator's e-mail contact address \(or support team\)
-* _Admin's first name and last name :_ will be shown in the footer as the link to the admin's e-mail address. You can put any information there, like “Support team” as an example.
-* _Admin's login and password :_ **IMPORTANT** – will allow you to connect to your portal as administrator later on. One option is to set a global functional admin account here \(named “admin”\) and have multiple people use that account. It is, however, recommended to create a more personalized account for each administrator \(so this first one should be yours\), to be able to keep track of all actions taken by other administrators.
-* _Portal's name and organisation's short name :_ will be visible, only in specific visual themes, in the top left corner of the page \(on all pages\).
-* _Encryption method :_ hashing and cryptographic functions that will be used to secure the users passwords in your database. We recommend \(and select by default\) the most secure one available in Chamilo: SHA1.
-* _Self registration :_ will allow user to register alone; set to _No_ for a private portal.
-* _Self registration as teacher :_ will allow user to register alone as a teacher; only taken into account if the previous setting is set to _Yes_. This will allow new users to register as teachers, and thus to create new courses.
+* _Hoofdtaal:_ standaardtaal op uw portaal.
+* _Chamilo URL:_ URL van uw Chamilo-portaal \(lokaal: [http://localhost/chamilo](http://localhost/chamilo); op afstand: [http://www.mijndomein.com/chamilo](http://www.mijndomein.com/chamilo)\).
+* _Admin's e-mail:_ portaalbeheerder e-mail contactadres \(of ondersteuningsteam\)
+* _Admin's voornaam en achternaam:_ zullen in de voettekst worden getoond als de link naar het e-mailadres van de admin. U kunt daar alle informatie plaatsen, zoals "Support team" als voorbeeld.
+* _Admin's login en wachtwoord:_ **BELANGRIJK** - hiermee kunt u later als administrator verbinding maken met uw portaal. Een optie is om hier een algemeen functioneel beheerdersaccount \(genaamd "admin"\) in te stellen en meerdere mensen dat account te laten gebruiken. Het wordt echter aanbevolen om voor elke beheerder een persoonlijker account aan te maken \(dus deze eerste moet van jou zijn\), om alle acties van andere beheerders te kunnen volgen.
+* _De naam van het portaal en de korte naam van de organisatie:_ zijn alleen zichtbaar in specifieke visuele thema's in de linkerbovenhoek van de pagina \(op alle pagina's\).
+* _Versleutelingsmethode:_ hashing en cryptografische functies die zullen worden gebruikt om de wachtwoorden van gebruikers in uw database te beveiligen. We raden \(en selecteren standaard\) de veiligste aan die beschikbaar is in Chamilo: SHA1.
+* _Zelfregistratie:_ staat de gebruiker toe om alleen te registreren; ingesteld op _No_ voor een privéportaal.
+* _Zelfregistratie als leraar:_ stelt de gebruiker in staat om zich alleen als leraar te registreren; wordt alleen in aanmerking genomen als de vorige instelling is ingesteld op _Ja_. Hierdoor kunnen nieuwe gebruikers zich registreren als docent en zo nieuwe cursussen aanmaken.
 
-**Note** : The user defined on this screen will have full administration permissions. He will be able to update the settings on this page afterwards.
-
+**Opmerking**: de gebruiker die op dit scherm is gedefinieerd, heeft volledige beheerdersrechten. Hij kan daarna de instellingen op deze pagina bijwerken.

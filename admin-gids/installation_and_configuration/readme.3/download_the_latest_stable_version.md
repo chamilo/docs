@@ -1,4 +1,3 @@
 # Download de nieuwste stabiele versie
 
-Go get latest package from [Chamilo](http://www.chamilo.org/)'s website. Once you got it, uncompress it and move to the next chapter.
-
+Haal het nieuwste pakket op van de website van [Chamilo](https://chamilo.org/). Als je het eenmaal hebt, pak het uit en ga naar het volgende hoofdstuk.

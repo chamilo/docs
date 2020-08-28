@@ -1,8 +1,10 @@
 # Lijst met sessies exporteren
 
-Chamilo allows you to export a list of some or all of the sessions defined on the platform.
+Met Chamilo kunt u een lijst exporteren van enkele of alle sessies die op het platform zijn gedefinieerd.
 
-![](../../.gitbook/assets/session-import-utilisateurs%20%281%29.png)Illustration 68: Administration – Exporting sessions
+![](../../.gitbook/assets/session-import-utilisateurs%20%281%29.png)
 
-Choose the export format, choose a filter for the sessions, click _Export session\(s\)_ and download the file.
+Afbeelding 68: Administratie - Sessies exporteren
+
+Kies het exportformaat, kies een filter voor de sessies, klik op _Export session\(s\)_ en download het bestand.
 

@@ -1,7 +1,7 @@
 # Sessies beheerder
 
-| Description | The sessions administrator is an exclusive role \(it cannot be combined with any other role\) and is determined during the user creation or its later edition from the administration interface. This role is dedicated to the academical management of sessions of courses: he sets who will teach which course, at what time and to which learners. |
+| Omschrijving | De sessiebeheerder is een exclusieve rol \(deze kan niet worden gecombineerd met een andere rol\) en wordt bepaald tijdens het aanmaken van de gebruiker of de latere editie ervan vanuit de beheerinterface. Deze rol is gewijd aan het academisch beheer van sessies van cursussen: hij bepaalt wie welke cursus zal onderwijzen, op welk tijdstip en aan welke leerlingen. |
 | :--- | :--- |
-| Permissions in a course | Same permissions as a session coach |
-| Global permissions | By default, he can: |
+| Rechten in een cursus | Dezelfde rechten als een sessiecoach |
+| Globale machtigingen | Standaard kan hij: |
 

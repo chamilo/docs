@@ -1,7 +1,7 @@
 # Wereldwijde beheerder
 
-| Description | The global administrator is the all-mighty user. He can simply do anything. He has access to all interfaces. |
+| Omschrijving | De globale beheerder is de almachtige gebruiker. Hij kan gewoon alles doen. Hij heeft toegang tot alle interfaces. |
 | :--- | :--- |
-| Permissions in a course | By default, he can do anything. |
-| Global permissions | By default, he can do anything \(on all portals in the case of multi-url\), including create other users, courses, sessions and... other portals. |
+| Rechten in een cursus | Standaard kan hij alles doen. |
+| Globale machtigingen | Standaard kan hij alles doen \(op alle portals in het geval van multi-url\), inclusief het maken van andere gebruikers, cursussen, sessies en ... andere portals. |
 

@@ -1,15 +1,14 @@
 # Anoniem
 
-The anonymous user is a particular case which only serves the purpose of allowing one of the non-subscribed users to benefit from the courses publicly made available. The number of tracking opportunities is thus reduced. Note that if no course is made public, this user account is useless and could be disabled \(although this feature is not officially supported\).
+De anonieme gebruiker is een specifiek geval dat alleen dient om een van de niet-geabonneerde gebruikers te laten profiteren van de openbaar gemaakte cursussen. Het aantal volgmogelijkheden wordt hierdoor verminderd. Merk op dat als er geen cursus openbaar wordt gemaakt, dit gebruikersaccount nutteloos is en kan worden uitgeschakeld \(hoewel deze functie niet officieel wordt ondersteund\).
 
-* ![](../../../.gitbook/assets/images47%20%281%29.png)**Active/Inactive** : the anonymous user can be enabled/disabled at wish
-* ![](../../../.gitbook/assets/graficos72%20%281%29.png)![](../../../.gitbook/assets/graficos73%20%281%29.png)**Courses list** : the anonymous user cannot be subscribed to courses
-* **Login as...** disabled for the anonymous user
-* ![](../../../.gitbook/assets/graficos74%20%281%29.png)**Statistics** : the anonymous user doesn't show statistics
-* ![](../../../.gitbook/assets/graficos75%20%281%29.png)![](../../../.gitbook/assets/graficos77%20%281%29.png)**Edition** : the anonymous user cannot be edited
-* **Administration** : the anonymous user can never be an administrator
-* ![](../../../.gitbook/assets/graficos76%20%281%29.png)**Free/busy calendar** : the anonymous user doesn't have a free/busy calendar
-* ![](../../../.gitbook/assets/graficos78%20%281%29.png)**Removal** : the anonymous user account cannot be removed \(to avoid system incoherences\)
+* ![](../../../.gitbook/assets/images47%20%281%29.png)**Actief / inactief**: de anonieme gebruiker kan naar wens worden in- / uitgeschakeld
+* ![](../../../.gitbook/assets/graficos73%20%281%29.png)**Cursuslijst**: de anonieme gebruiker kan niet worden ingeschreven voor cursussen
+* ![](../../../.gitbook/assets/graficos72%20%281%29.png)**Login als...** uitgeschakeld voor de anonieme gebruiker
+* ![](../../../.gitbook/assets/graficos74%20%281%29.png)**Statistieken**: de anonieme gebruiker toont geen statistieken
+* ![](../../../.gitbook/assets/graficos77%20%281%29.png)**Editie**: de anonieme gebruiker kan niet worden bewerkt
+* ![](../../../.gitbook/assets/graficos75%20%281%29.png)**Administratie**: de anonieme gebruiker kan nooit een administrator zijn
+* ![](../../../.gitbook/assets/graficos76%20%281%29.png)**Beschikbaar / bezet-agenda**: de anonieme gebruiker heeft geen beschikbaar / bezet-agenda
+* ![](../../../.gitbook/assets/graficos78%20%281%29.png)**Verwijdering**: het anonieme gebruikersaccount kan niet worden verwijderd \(om systeemincoherentie te voorkomen\)
 
-Additionally to these management options, it is possible to remove all or part of the users by selecting the check-box on the left of the user and removing him below, as in the users management of a course for a teacher.
-
+Naast deze beheeropties is het mogelijk om alle of een deel van de gebruikers te verwijderen door het selectievakje links van de gebruiker aan te vinken en hem hieronder te verwijderen, zoals bij het gebruikersbeheer van een cursus voor een docent.

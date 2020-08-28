@@ -1,13 +1,13 @@
 # Beheer forums
 
-Managing forums makes use of familiar icons:
+Het beheren van forums maakt gebruik van bekende pictogrammen:
 
-| Icons | Features |
+| Pictogrammen | Kenmerken |
 | :--- | :--- |
-| ![](../../.gitbook/assets/images68.png) | Update forum settings |
-| ![](../../.gitbook/assets/images69.png) | Delete the forum and all its contents |
-| ![](../../.gitbook/assets/images70.png) | Control a forum's visibility |
-| ![](../../.gitbook/assets/images71.png) | Lock / unlock a forum to prevent its edition \(but previous articles can still be accessed\) |
-| ![](../../.gitbook/assets/images72%20%282%29.png) | Re-organize the forums position |
-| ![](../../.gitbook/assets/images73%20%282%29.png) | Ask to be kept up to date by e-mail when a message is added to the forum |
+| ![](../../.gitbook/assets/images68.png) | Update foruminstellingen |
+| ![](../../.gitbook/assets/images69.png) | Verwijder het forum en al zijn inhoud |
+| ![](../../.gitbook/assets/images70.png) | Beheer de zichtbaarheid van een forum |
+| ![](../../.gitbook/assets/images71.png) | Vergrendel / ontgrendel een forum om de editie ervan te voorkomen \(maar eerdere artikelen zijn nog steeds toegankelijk\) |
+| ![](../../.gitbook/assets/images72%20%282%29.png) | Herorganiseer de positie van het forum |
+| ![](../../.gitbook/assets/images73%20%282%29.png) | Vraag om per e-mail op de hoogte te worden gehouden als er een bericht op het forum wordt geplaatst |
 
