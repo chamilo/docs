@@ -2,7 +2,9 @@
 
 To achieve a clearer storage structure, Chamilo lets you create directories \(folders\) and sub-directories by clicking on the folder icon with the yellow star symbol ![](../../.gitbook/assets/graphics114%20%283%29.png) .
 
-![](../../.gitbook/assets/images32%20%288%29.png)Illustration 30: Documents – creating directories
+![](../../.gitbook/assets/images32%20%288%29.png)
+
+Illustration 30: Documents – creating directories
 
 To create a directory:
 
