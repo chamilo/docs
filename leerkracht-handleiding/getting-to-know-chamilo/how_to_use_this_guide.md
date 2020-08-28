@@ -6,11 +6,11 @@ This reference guide is designed to lead you smoothly through a clear learning p
 
 Following this, you'll find a description of alternative approaches to setting up Chamilo which you should find useful when organizing courses for your students, simplifying your tracking work and helping you easily identify and support “flagging” individuals while progressing with the course overall.
 
-We recommend you take a quick look at the Glossary \(section 37.1 on page 177\). It will give you an overview of the terms used throughout this guide and hopefully help avoid confusion in some sections.
+We recommend you take a quick look at the Glossary section. It will give you an overview of the terms used throughout this guide and hopefully help avoid confusion in some sections.
 
-If you already have a teacher account in a Chamilo portal, you can move directly to Chapter 5, which describes the Chamilo interface. If you are familiar with this, move on to Chapter 6 which explains how to create a course. If you are already a course administrator \(i.e. a teacher who has also created courses\), you should go directly to Chapter 9, which is the initial chapter explaining the course tools. For those who are familiar with the tools, much in this guide will already be familiar, though you may find it handy to explore updated features, such as chapter 35: Social network_._
+If you already have a teacher account in a Chamilo portal, you can move directly to the chapter which describes the Chamilo interface. If you are familiar with this, move on to Chapter 6 which explains how to create a course. If you are already a course administrator \(i.e. a teacher who has also created courses\), you should go directly to the chapter on course tools. For those who are familiar with the tools, much in this guide will already be familiar, though you may find it handy to explore updated features, such as the Social network_._
 
-This guide can also serve as a handy quick reference, thanks to its Alphabetical index on page 183.
+This guide can also serve as a handy quick reference, thanks to its searching feature.
 
 If you have further questions about using Chamilo. you can visit the Chamilo forum\([https://chamilo.org/forum](https://chamilo.org/forum)\), where numerous other users, teachers, administrators and software developers will be happy to help you find the answers.
 
