@@ -1,8 +1,10 @@
 # Documenten opslaan
 
-Chamilo allows you to save all the documents, or a specific directory, simply by clicking on the _Save \(ZIP\)_ icon ![](../../.gitbook/assets/graphics120%20%283%29.png) in the toolbar at the top of the page.
+Met Chamilo kunt u alle documenten of een specifieke map opslaan door simpelweg op het pictogram _Save \(ZIP\)_ te klikken ![](../../.gitbook/assets/graphics120%20%283%29.png) in de werkbalk bovenaan de pagina.
 
-![](../../.gitbook/assets/images44%20%287%29.png)Illustration 38: Documents – Download a copy
+![](../../.gitbook/assets/images44%20%287%29.png)
 
-It is also possible to save a single file by clicking on the _download_ icon ![](../../.gitbook/assets/graphics123%20%283%29.png) to the right of the filename, or to download a specific directory by clicking on the _Save \(ZIP\)_ icon ![](../../.gitbook/assets/graphics121%20%283%29.png) to the right of the directory listing. The briefcase icon ![](../../.gitbook/assets/graphics124%20%283%29.png) allows users to copy a shared file into their private file area in the _social networks_ area \(see chapter 35\).
+Afbeelding 38: Documenten - Download een kopie
+
+Het is ook mogelijk om een enkel bestand op te slaan door op het pictogram _download_ te klikken ![](../../.gitbook/assets/graphics123%20%283%29.png) rechts van de bestandsnaam, of om een specifieke map te downloaden door op het pictogram _Save \(ZIP\)_ te klikken ![](../../.gitbook/assets/graphics121%20%283%29.png) rechts van de directorylijst. Het pictogram van de werkmap ![](../../.gitbook/assets/graphics124%20%283%29.png) stelt gebruikers in staat om een gedeeld bestand te kopiëren naar hun privé-bestandsgebied in het _sociale-netwerk_ gebied \(zie hoofdstuk 35\).
 
