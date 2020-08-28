@@ -1,10 +1,9 @@
 # Instellingen voor groepen
 
-A teacher can access settings for the group from the toolbar in the main _Groups_ page. Clicking the _Edit settings_ icon ![](../../.gitbook/assets/graphics279%20%283%29.png) takes you to a page which allows you to limit the number of groups an individual user can belong to, and to make default settings for all groups including maximum group size, self registration and access privileges for all the associated tools \(documents, agenda, assignments, announcements, forum, wiki and chat\):
+Een docent heeft toegang tot de instellingen voor de groep via de werkbalk op de hoofdpagina _Groups_. Klik op het pictogram _Edit instellingen_ ![](../../.gitbook/assets/graphics279%20%283%29.png) brengt u naar een pagina waar u het aantal groepen kunt beperken waartoe een individuele gebruiker kan behoren, en om standaardinstellingen voor alle groepen te maken, inclusief maximale groepsgrootte, zelfregistratie en toegangsrechten voor alle bijbehorende tools \(documenten, agenda, opdrachten, aankondigingen, forum, wiki en chat\):
 
 ![](../../.gitbook/assets/graphics282%20%283%29.png)
 
-Illustration 149: Groups- settings
+Afbeelding 149: Groepsinstellingen
 
-Remember to click the _Save settings_ button at the bottom of the page. These default settings can be edited by the teacher for each group using the _Edit this group_ icon ![](../../.gitbook/assets/graphics281%20%283%29.png) to the right of each group listing in the main page.
-
+Vergeet niet om onder aan de pagina op de knop Instellingen opslaan te klikken. Deze standaardinstellingen kunnen door de docent voor elke groep worden aangepast met het pictogram _Edit deze groep_ ![](../../.gitbook/assets/graphics281%20%283%29.png) rechts van elke groepsvermelding op de hoofdpagina.
