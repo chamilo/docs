@@ -1,26 +1,30 @@
 # Inhoud schrijven in Chamilo
 
-A major advantage of Chamilo over other Learning Management Systems is that it provides a wide range of inbuilt features supporting the effective authoring of course content. The toolbar at the top of the documents page displays a range of tools to support authoring:
+Een groot voordeel van Chamilo ten opzichte van andere leerbeheersystemen is dat het een breed scala aan ingebouwde functies biedt die het effectief schrijven van cursusinhoud ondersteunen. De werkbalk bovenaan de documentenpagina toont een reeks tools om het schrijven te ondersteunen:
 
-![](../../.gitbook/assets/graphics122%20%283%29.png)Illustration 36: Documents - toolbar
+![](../../.gitbook/assets/graphics122%20%283%29.png)
 
-The icons marked with an a yellow asterisk represent creation tools. First and foremost, the teacher can create new rich media documents directly via the documents tool, without any need for an external authoring system. Just click the _create rich media page/activity_ icon ![](../../.gitbook/assets/graphics118%20%283%29.png) within the desired folder. A fully featured on-line editor appears.
+Afbeelding 36: Documenten - werkbalk
 
-![](../../.gitbook/assets/images39%20%285%29.png)Illustration 37: Documents – Creating a new document
+De pictogrammen die zijn gemarkeerd met een gele asterisk, staan voor creatiehulpmiddelen. Eerst en vooral kan de docent rechtstreeks nieuwe rich media-documenten maken via de documententool, zonder dat daarvoor een extern authoringsysteem nodig is. Klik gewoon op het pictogram voor het _maken van een rich media-pagina/activiteit_ ![](../../.gitbook/assets/graphics118%20%283%29.png) in de gewenste map. Er verschijnt een volledig functionele online editor.
 
-After naming the document, it is possible to use all the options in the embedded rich text editor to format them. The editor supports a wide range of elements, including tables,images, audio, video, flash, etc. It includes an html editor which means that, for those with some knowledge of scripting the sky's the limit in terms of rich content!\)
+![](../../.gitbook/assets/images39%20%285%29.png)
 
-You can also use a series of document templates, \(available in the left column\), or create and save your own templates for designing further pages.
+Afbeelding 37: Documenten - Een nieuw document aanmaken
 
-Once the document has been created/edited, save it by clicking on the _Create document_ button.
+Nadat u het document een naam hebt gegeven, is het mogelijk om alle opties in de ingesloten RTF-editor te gebruiken om ze op te maken. De editor ondersteunt een breed scala aan elementen, waaronder tabellen, afbeeldingen, audio, video, flash, enz. Het bevat een html-editor, wat betekent dat, voor degenen met enige kennis van scripting, the sky the limit is in termen van rijke inhoud!\)
 
-Other types of documents can be created depending on your browser and the portal configuration \(ask your administrator to enable these extra features if you don't see them in the toolbar\).
+U kunt ook een reeks documentsjablonen \(beschikbaar in de linkerkolom\) gebruiken, of uw eigen sjablonen maken en opslaan voor het ontwerpen van verdere pagina's.
 
-| Icon | Feature |
+Zodra het document is aangemaakt/bewerkt, slaat u het op door op de knop _Create document_ te klikken.
+
+Andere soorten documenten kunnen worden aangemaakt, afhankelijk van uw browser en de portaalconfiguratie \(vraag uw beheerder om deze extra functies in te schakelen als u ze niet in de werkbalk ziet\).
+
+| Icoon | Voorzien zijn van |
 | :--- | :--- |
-| ![](../../.gitbook/assets/images40%20%287%29.png) | The _draw_ feature allows you to draw diagrams or schema in a vector format, which can be re-edited or exported to the bitmap format. |
-| ![](../../.gitbook/assets/images41%20%287%29.png) | The _photo retouching_ feature is very similar to the _Photoshop_® tool and allows for the editing, cutting, colouring etc. of pictures or other bitmap images. |
-| ![](../../.gitbook/assets/images42%20%287%29.png) | The audio recording feature the recording of audio tracks right from your browser, using your microphone \(on a laptop, the microphone is generally embedded\). Flash® or Java® applet browser support is required for this one. |
-| ![](../../.gitbook/assets/images43%20%287%29.png) | The text-based voice generation feature allows you to have the computer speak for you. Try it. You'll be surprised by the quality of the generated voices. |
-| ![](../../.gitbook/assets/images287%20%283%29.png) | The web-cam clip feature allows you to record footage directly from your laptop's web-cam Flash® is required for this one. |
+| ![](../../.gitbook/assets/images40%20%287%29.png) | Met de _draw_ functie kunt u diagrammen of schema's tekenen in een vectorformaat, dat opnieuw kan worden bewerkt of geëxporteerd naar het bitmapformaat. |
+| ![](../../.gitbook/assets/images41%20%287%29.png) | De functie _foto retoucheren_ lijkt sterk op de _Photoshop_® tool en maakt het mogelijk om afbeeldingen of andere bitmapafbeeldingen te bewerken, knippen, kleuren enz.. |
+| ![](../../.gitbook/assets/images42%20%287%29.png) | Met de audio-opname kunt u audiotracks rechtstreeks vanuit uw browser opnemen met uw microfoon \(op een laptop is de microfoon meestal ingebouwd\). Hiervoor is Flash®- of Java®-appletbrowserondersteuning vereist. |
+| ![](../../.gitbook/assets/images43%20%287%29.png) | Met de op tekst gebaseerde functie voor het genereren van stemmen kunt u de computer voor u laten spreken. Probeer het. Je zult verrast zijn door de kwaliteit van de gegenereerde stemmen. |
+| ![](../../.gitbook/assets/images287%20%283%29.png) | Met de webcamclipfunctie kunt u rechtstreeks beeldmateriaal opnemen vanaf de webcam van uw laptop. Flash® is hiervoor vereist. |
 
