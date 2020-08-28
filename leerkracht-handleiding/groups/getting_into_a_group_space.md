@@ -1,10 +1,9 @@
 # In een groepsruimte komen
 
-Group members can access the group's “workspace” simply by clicking the name of the relevant group in the listing on the main _Groups_ page. The page will display the group description \(e.g. a list of aims and objectives\) and details of membership, as well as it's own “toolbar” of links to the group's various tools \(_Forums, Documents, Agenda, Assignments, Announcements, Wiki_ and _chat\)_ which link to the various \(private\) group workspaces:
+Groepsleden hebben toegang tot de "werkruimte" van de groep door simpelweg op de naam van de relevante groep in de lijst op de hoofdpagina _Groups_ te klikken. De pagina toont de groepsbeschrijving \(bijv. Een lijst met doelen en doelstellingen\) en details van het lidmaatschap, evenals zijn eigen "werkbalk" met links naar de verschillende tools van de groep \(_Forums, Documenten, Agenda, Opdrachten, Aankondigingen, Wiki_ en _chat\)_ die linken naar de verschillende \(privé\) groepswerkruimten:
 
 ![](../../.gitbook/assets/images217%20%283%29.png)
 
-Illustration 152: Groups – Group space
+Afbeelding 152: Groepen - Groepsruimte
 
-From the group space, you can query a learner's information sheet by simply clicking on her name in the list of members in the lower part of the page.
-
+Vanuit de groepsruimte kunt u het informatieblad van een leerling opvragen door simpelweg op haar naam te klikken in de lijst met leden in het onderste deel van de pagina.
