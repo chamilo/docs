@@ -26,9 +26,9 @@ Op het moment van schrijven wordt Chamilo gebruikt door meer dan 50.000 organisa
 
 Het is duidelijk dat al deze organen en instellingen de neiging hebben om enigszins verschillende terminologieën te gebruiken. Sommige instellingen noemen hun cursussen bijvoorbeeld "Trainingssessies", andere noemen ze "Leerruimtes" en andere gewoon "Cursussen". Dit stelt uitdagingen voor het ontwerp van een 'one-size-fits-all' e-learningplatform \(of zelfs gebruikershandleiding\), dus we hebben de middenweg gezocht en gebruiken een eenvoudige, universele terminologie waarvan we vertrouwen dat het zin voor al onze gebruikers.
 
-![](../../.gitbook/assets/images4%20%288%29.png)
+![](../../.gitbook/assets/images4.png)
 
-Afbeelding 6: Geschiedenis van Chamilo-installaties over de hele wereld, 2015 tot 2017
+Afbeelding 6: Geschiedenis van Chamilo-installaties over de hele wereld, 2018 tot 2020
 
 Omdat we begrijpen dat uw organisatie wellicht de voorkeur geeft aan een specifieke terminologie, hebben we Chamilo uitgerust met een manier om elke interfaceterm te bewerken vanuit de platformadministratie. \(dit vereist administratieve vaardigheden en wordt daarom beschreven in de _Chamilo Administration Guide_\). Als u dringend een aanpassing nodig heeft, kunt u een van onze officiële providers vragen om een aangepast taalpakket te importeren in uw platform.
 
