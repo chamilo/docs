@@ -1,21 +1,23 @@
 # Inleidende tekst
 
-Just before looking at any particular course tool, note that it is possible to present a welcome message to a course. Click on the _Add an_ _introduction text_ icon ![](../../.gitbook/assets/graphics349%20%281%29.gif) below the _Learner View_ button. A text editor appears...
+Voordat u naar een bepaald cursustool kijkt, moet u er rekening mee houden dat het mogelijk is om een welkomstbericht voor een cursus te presenteren. Klik op het pictogram Introductietekst toevoegen ![](../../.gitbook/assets/graphics349%20%281%29.gif) onder de knop _Learner View_. Er verschijnt een teksteditor...
 
-![](../../.gitbook/assets/images28%20%289%29.png)Illustration 26: Course homepage – Introduction text
+![](../../.gitbook/assets/images28%20%289%29.png)
 
-This feature, although very simple to use, is also very powerful: it can simply present a few words of introduction, but it also enables you to redesign the entire course homepage simply by hiding all the course tools and writing a large introduction text/page including icons with links to the course tools' internal pages.
+Afbeelding 26: startpagina van de cursus - inleidende tekst
 
-To do this :
+Deze functie, hoewel heel eenvoudig te gebruiken, is ook erg krachtig: het kan eenvoudig een paar woorden van introductie bevatten, maar het stelt je ook in staat om de hele startpagina van de cursus opnieuw te ontwerpen door alle cursushulpmiddelen te verbergen en een grote inleidende tekst/pagina te schrijven. inclusief pictogrammen met links naar de interne pagina's van de cursustools.
 
-* hide all the tools \(by clicking the eye, which must be _closed_ and grayed\)
-* right-click on any tool to which the learners need access
-* select _Copy link location_
-* left-click on _Add an introduction text_
-* place an introduction text \(use the table tool ![](../../.gitbook/assets/graphics81%20%283%29.png), or an external HTML-editing tool if you wish, to position elements precisely\) and a new icon/graphic representing the tool requiring access
-* click an icon to select it then click the link creation tool ![](../../.gitbook/assets/graphics82%20%283%29.png)
-* « paste » the link that was saved a few steps before \(CTRL-V should work just fine\)
-* click the _save intro text_ button
+Om dit te doen :
 
-You now have an entirely personalized course homepage! The only remaining other visual elements are the header and the footer.
+* verberg alle tools \(door op het oog te klikken, dat _gesloten_ en grijs moet zijn\)
+* klik met de rechtermuisknop op een tool waartoe de leerlingen toegang nodig hebben
+* selecteer Koppelingslocatie kopiëren
+* klik met de linkermuisknop op _Inleidende tekst toevoegen_
+* plaats een inleidende tekst \(gebruik het tafelgereedschap ![](../../.gitbook/assets/graphics81%20%283%29.png), of een externe HTML-bewerkingstool om elementen nauwkeurig te positioneren\) en een nieuw pictogram/grafische voorstelling van de tool die toegang nodig heeft
+* klik op een pictogram om het te selecteren en klik vervolgens op het hulpprogramma voor het maken van links ![](../../.gitbook/assets/graphics82%20%283%29.png)
+* « plakken » de link die een paar stappen eerder is opgeslagen \(CTRL-V zou prima moeten werken\)
+* klik op de knop _save intro text_
+
+Je hebt nu een volledig gepersonaliseerde cursus-homepage! De enige overige visuele elementen zijn de koptekst en de voettekst.
 
