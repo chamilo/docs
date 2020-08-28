@@ -4,7 +4,7 @@ Deze gids is geschreven met docenten in gedachten: de vele docenten, tutors, tra
 
 Het betreden van de wereld van e-learning kan een complexe, zelfs ontmoedigende uitdaging zijn, maar we geloven dat Chamilo LMS op zichzelf een welkome oplossing biedt voor nieuwkomers. Door Chamilo te leren gebruiken, zult u een lange weg afleggen om veel belangrijke aspecten van e-learning onder de knie te krijgen.
 
-Als je al een opvoeder bent met ervaring in e-learning, zou je deze gids een nuttige, gedetailleerde uitleg van de werking van Chamilo moeten vinden, en deze gids kunnen gebruiken om je vaardigheden te verbeteren in het gebruik van e-learningtools om je cursussen te ontwikkelen. .
+Als je al een opvoeder bent met ervaring in e-learning, zou je deze gids een nuttige, gedetailleerde uitleg van de werking van Chamilo moeten vinden, en deze gids kunnen gebruiken om je vaardigheden te verbeteren in het gebruik van e-learningtools om je cursussen te ontwikkelen.
 
 Chamilo heeft twee hoofddoelen:
 
