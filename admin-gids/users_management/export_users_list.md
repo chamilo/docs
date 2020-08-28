@@ -2,7 +2,7 @@
 
 In Chamilo is het mogelijk om alle of slechts enkele gebruikers te exporteren.
 
-![](../../.gitbook/assets/exporterliste_-utilisateurs%20%281%29.png)
+![](../../.gitbook/assets/exporterliste_-utilisateurs.png)
 
 Afbeelding 51: Administratie - Gebruikers exporteren
 

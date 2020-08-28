@@ -4,7 +4,7 @@ Zodra Chamilo is geïnstalleerd, bevat het succesbericht ook een kort waarschuwi
 
 **Beveiligingstip**: Om uw site te beschermen, wijzigt u de rechten op app/config/ en main/install/index.php \(niet hun directories\) in read-only \(CHMOD 444 \). »
 
-![](../../../.gitbook/assets/dernier-parametre%20%281%29.png)
+![](../../../.gitbook/assets/dernier-parametre.png)
 
 Afbeelding 11: Installatie - Installatierapport
 

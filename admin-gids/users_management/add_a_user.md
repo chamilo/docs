@@ -8,7 +8,7 @@ De beheerder kan gebruikers toevoegen door ze vanuit een leeg formulier te maken
 
 Er zijn echter geavanceerde opties waar men op moet letten.
 
-![](../../.gitbook/assets/graficos79%20%281%29.png)
+![](../../.gitbook/assets/graficos79.png)
 
 Afbeelding 50: Administratie - Aanmaken van gebruikers
 

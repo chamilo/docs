@@ -10,7 +10,7 @@ Afbeelding 18: Administratie - Cursussenblok
 
 1. Klik op het cd-pictogram om de cursus te exporteren.
 
-![](../../../.gitbook/assets/graficos33%20%281%29.png)
+![](../../../.gitbook/assets/graficos33.png)
 
 Afbeelding 19: Administratie - Lijst met cursussen - Back-up
 
@@ -70,7 +70,7 @@ De map _Document_ heeft een structuur die lijkt op die in afbeelding 25, die de 
 
 Afbeelding 25: Back-up - Structuur van back-upbestanden
 
-![](../../../.gitbook/assets/graficos34%20%281%29.png)
+![](../../../.gitbook/assets/graficos34.png)
 
 Afbeelding 26: Interface - Documentenlijst
 

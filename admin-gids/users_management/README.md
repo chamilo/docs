@@ -13,10 +13,10 @@ Het gebruikersbeheer wordt gedaan door middel van algemene en bekende pictogramm
 | ![](../../.gitbook/assets/images35%20%281%29.png) | Wijs cursus sessies toe aan admins of supervisors om ze op te volgen \(via het dashboard\) |
 | ![](../../.gitbook/assets/images36.png) | Geeft alle informatie over de gebruiker, zijn sessielijst, cursuslijst en andere details, plus vele manieren om van daaruit meer te weten te komen |
 | ![](../../.gitbook/assets/graficos20.png) | Wijs gebruikers toe aan beheerders of supervisors om ze op te volgen \(via het dashboard\) |
-| ![](../../.gitbook/assets/graficos21%20%281%29.png)![](../../.gitbook/assets/graficos22%20%281%29.png) | Geeft een gedetailleerde rapportage over de gebruiker \(uitgeschakeld voor docenten en beheerders\) |
+| ![](../../.gitbook/assets/graficos21.png)![](../../.gitbook/assets/graficos22.png) | Geeft een gedetailleerde rapportage over de gebruiker \(uitgeschakeld voor docenten en beheerders\) |
 | ![](../../.gitbook/assets/graficos43.png) | Werk de informatie en instellingen van de gebruiker bij |
-| ![](../../.gitbook/assets/graficos23%20%281%29.png)| Toon de vrij/bezet-agenda van de gebruiker |
-| ![](../../.gitbook/assets/graficos24%20%281%29.png) | Verwijder een gebruiker \(na goedkeuring\) |
+| ![](../../.gitbook/assets/graficos23.png)| Toon de vrij/bezet-agenda van de gebruiker |
+| ![](../../.gitbook/assets/graficos24.png) | Verwijder een gebruiker \(na goedkeuring\) |
 | ![](../../.gitbook/assets/images42%20%281%29.png)![](../../.gitbook/assets/images43%20%281%29.png) | Toont of een gebruiker admin is of niet. Alleen beheerdersaccounts \(of sessiebeheerdersaccounts\) hebben een gele ster. Anderen laten een grijze ster zien. |
 
 Tableau 1: Administration – Users administration icons

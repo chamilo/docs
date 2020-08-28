@@ -9,9 +9,9 @@ Cursusbeheer kan worden gedaan met pictogrammen die u op dit moment al zou moete
 | Icoons | Kenmerken |
 | :--- | :--- |
 | ![](../../.gitbook/assets/images64%20%281%29.png) | Geeft alle informatie over het gebruik van de cursus en zijn gebruikers |
-| ![](../../.gitbook/assets/graficos30%20%281%29.png)![](../../.gitbook/assets/graficos31%20%281%29.png) | Geeft een gedetailleerd overzicht van de gebruikers, het cursus- en bronnenrapport |
-| ![](../../.gitbook/assets/graficos28%20%281%29.png) | Werk de parameters of koersdetails bij |
-| ![](../../.gitbook/assets/graficos29%20%281%29.png) | Een cursus verwijderen \(na goedkeuring\) |
+| ![](../../.gitbook/assets/graficos30.png)![](../../.gitbook/assets/graficos31.png) | Geeft een gedetailleerd overzicht van de gebruikers, het cursus- en bronnenrapport |
+| ![](../../.gitbook/assets/graficos28.png) | Werk de parameters of koersdetails bij |
+| ![](../../.gitbook/assets/graficos29.png) | Een cursus verwijderen \(na goedkeuring\) |
 | ![](../../.gitbook/assets/images59%20%281%29.png) | Genereer of importeer een back-up |
 | ![](../../.gitbook/assets/images61%20%281%29.png) | Ga naar de startpagina van de cursus |
 

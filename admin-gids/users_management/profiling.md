@@ -16,7 +16,7 @@ Afbeelding 56: Beheer - Lijst met velden voor gebruikersprofielen
 
 | Icoons | Kenmerken |
 | :--- | :--- |
-| ![](../../.gitbook/assets/graficos26%20%281%29.png)![](../../.gitbook/assets/graficos27%20%281%29.png) | Veld bijwerken / verwijderen |
+| ![](../../.gitbook/assets/graficos26.png)![](../../.gitbook/assets/graficos27.png) | Veld bijwerken / verwijderen |
 | ![](../../.gitbook/assets/images54%20%281%29.png)![](../../.gitbook/assets/images55%20%281%29.png) | Maak aanpasbaar / niet wijzigbaar of schakel filter in / uit |
 | ![](../../.gitbook/assets/images56%20%281%29.png) | Organiseer de velden |
 | ![](../../.gitbook/assets/images57%20%281%29.png)![](../../.gitbook/assets/images58%20%281%29.png) | Toon / verberg een veld voor de gebruiker |
