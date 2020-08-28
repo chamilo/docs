@@ -1,14 +1,18 @@
 # Diavoorstelling
 
-If you have a lot of images uploaded in your folders and want to see them all at once, you can use the slideshow feature. Click on the slideshow icon ![](../../.gitbook/assets/graphics126%20%283%29.png) to go to the folder where your images are located.
+Als u veel afbeeldingen in uw mappen heeft geüpload en u ze allemaal tegelijk wilt zien, kunt u de functie voor diavoorstellingen gebruiken. Klik op het pictogram van de diavoorstelling ![](../../.gitbook/assets/graphics126%20%283%29.png) om naar de map te gaan waar uw afbeeldingen zich bevinden.
 
-You'll be presented with a type of “slideshow” view of the images in that folder. Each image is captioned with its name, dimensions and size on disk.
+U krijgt een soort "diavoorstelling" -weergave te zien van de afbeeldingen in die map. Elke afbeelding is voorzien van een onderschrift met de naam, afmetingen en grootte op schijf.
 
-![](../../.gitbook/assets/images289%20%281%29.png)Illustration 42: Image gallery - Slideshow view
+![](../../.gitbook/assets/images289%20%281%29.png)
 
-It may be more practical to select the small _show thumbnails_ icon ![](../../.gitbook/assets/graphics127%20%283%29.png) in the slideshow toolbar to let you view all images at once \(as thumbnails\), as illustrated below:
+Afbeelding 42: Fotogalerij - Diavoorstelling
 
-![](../../.gitbook/assets/images290%20%283%29.png)Illustration 43: Thumbnails view
+Het kan praktischer zijn om het pictogram voor kleine miniaturen weergeven te selecteren ![](../../.gitbook/assets/graphics127%20%283%29.png) iin de diashow-werkbalk om u alle afbeeldingen in één keer te laten zien \(als miniaturen\), zoals hieronder geïllustreerd:
 
-A _settings_ option![](../../.gitbook/assets/graphics345%20%283%29.png) is available to further fine-tune the viewing of images.
+![](../../.gitbook/assets/images290%20%283%29.png)
+
+Afbeelding 43: Miniatuurweergave
+
+Een _settings_ optie![](../../.gitbook/assets/graphics345%20%283%29.png) is beschikbaar om de weergave van afbeeldingen verder te verfijnen.
 
