@@ -1,6 +1,5 @@
 # Mappen
 
-The teacher can add folders to categorize his files a bit more clearly. The shared folders \(be they sent or received\) are invisible to learners and are only there for organizational purposes.
+De docent kan mappen toevoegen om zijn bestanden wat duidelijker te categoriseren. De gedeelde mappen \(of ze nu zijn verzonden of ontvangen\) zijn onzichtbaar voor studenten en zijn er alleen voor organisatorische doeleinden.
 
-To create a new folder, click on the _Add a new folder_ icon ![](../../.gitbook/assets/graphics254.png), enter a name for it in the field that appears at the top of the screen and click the _Create category_ button.
-
+Om een nieuwe map te maken, klikt u op het pictogram Nieuwe map toevoegen ![](../../.gitbook/assets/graphics254.png), typ een naam ervoor in het veld dat bovenaan het scherm verschijnt en klik op de knop _Categorie maken_.
