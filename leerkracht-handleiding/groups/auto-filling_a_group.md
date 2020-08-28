@@ -1,6 +1,8 @@
 # Een groep automatisch invullen
 
-To quickly add course members to a group, click the _Add users_ icon ![](../../.gitbook/assets/graphics283%20%283%29.png) on the right of the group listing on the main _Groups_ page. Use the batch processing \(drop-down list at the bottom\) to automatically fill several groups. You can't set parameters for filling groups \(e.g. alphabetical, random etc\), but you can always edit the group membership manually afterwards. You can clear all members from a group by clicking the _Unsubscribe all users_ icon ![](../../.gitbook/assets/graphics284%20%283%29.png) in the listing. If you have a long list of groups to manage, use the check boxes on the left and the batch processing option \(i.e. the drop-down list at the bottom\) to automatically fill several groups:
+Klik op het pictogram Gebruikers toevoegen om snel cursusleden aan een groep toe te voegen ![](../../.gitbook/assets/graphics283%20%283%29.png) aan de rechterkant van de groepsvermelding op de hoofdpagina _Groups_. Gebruik de batchverwerking \(vervolgkeuzelijst onderaan\) om automatisch meerdere groepen te vullen. U kunt geen parameters instellen voor het vullen van groepen \(bijv. Alfabetisch, willekeurig enz\), maar u kunt het groepslidmaatschap altijd achteraf handmatig bewerken. U kunt alle leden uit een groep verwijderen door op het pictogram Alle gebruikers opzeggen te klikken ![](../../.gitbook/assets/graphics284%20%283%29.png) in de aanbieding. Als je een lange lijst met groepen moet beheren, gebruik dan de selectievakjes aan de linkerkant en de optie voor batchverwerking \(d.w.z. de vervolgkeuzelijst onderaan\) om automatisch meerdere groepen te vullen:
 
-![](../../.gitbook/assets/images215%20%283%29.png)Illustration 150: Groups – Auto-fill groups
+![](../../.gitbook/assets/images215%20%283%29.png)
+
+Afbeelding 150: Groepen - groepen automatisch aanvullen
 
