@@ -1,17 +1,17 @@
 # Maak een directory
 
-To achieve a clearer storage structure, Chamilo lets you create directories \(folders\) and sub-directories by clicking on the folder icon with the yellow star symbol ![](../../.gitbook/assets/graphics114%20%283%29.png) .
+Om een duidelijkere opslagstructuur te bereiken, laat Chamilo u mappen \(mappen\) en submappen maken door op het mappictogram met het gele ster-symbool te klikken ![](../../.gitbook/assets/graphics114%20%283%29.png) .
 
 ![](../../.gitbook/assets/images32%20%288%29.png)
 
-Illustration 30: Documents – creating directories
+Afbeelding 30: Documenten - mappen maken
 
-To create a directory:
+Om een directory aan te maken:
 
-* click on the _Create folder_ icon,
-* enter the directory name,
-* click on the _Create the folder_ button,
-* The new directory has been created and can be used right away to store new documents.
+* klik op het pictogram _Map maken_,
+* voer de directorynaam in,
+* klik op de knop _Maak de map_,
+* De nieuwe directory is aangemaakt en kan meteen worden gebruikt om nieuwe documenten op te slaan.
 
-  If you want to create a sub-directory, open the directory you want to create it in and follow the same procedure.
+ Als u een submap wilt maken, opent u de map waarin u deze wilt maken en volgt u dezelfde procedure.
 
