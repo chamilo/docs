@@ -1,12 +1,14 @@
 # Thematische geavanceerde instellingen
 
-This _Thematic advance_ section ![](../../.gitbook/assets/graphics328%20%283%29.png) allows you to choose which options for the _Course progress_ will be visible on the course homepage \(on the right-hand side of the introduction section\).
+Deze _Thematische vooruitgang_ sectie ![](../../.gitbook/assets/graphics328%20%283%29.png) stelt je in staat te kiezen welke opties voor de _Cursusvoortgang_ zichtbaar zijn op de homepage van de cursus \(aan de rechterkant van het inleidende gedeelte\).
 
-![](../../.gitbook/assets/images248%20%283%29.png)Illustration 179: Courses settings - Course progress
+![](../../.gitbook/assets/images248%20%283%29.png)
 
-These options require a proper understanding of the course progress tool. The results of the third option, for example, will be similar to the ones show in the illustration below\).
+Afbeelding 179: Koersinstellingen - Koersvoortgang
+
+Deze opties vereisen een goed begrip van de cursusvoortgangstool. De resultaten van de derde optie zijn bijvoorbeeld vergelijkbaar met die in de onderstaande afbeelding\).
 
 ![](../../.gitbook/assets/images249%20%283%29.png)
 
-Illustration 180: Course progress – Display on course homepage
+Afbeelding 180: Cursusvoortgang - Weergave op de startpagina van de cursus
 
