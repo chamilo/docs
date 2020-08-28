@@ -1,10 +1,10 @@
 # Een groep maken
 
-On the main _Groups_ page, click the _Create new group\(s\)_ icon ![](../../.gitbook/assets/graphics277%20%283%29.png). You will be prompted to enter the number of groups to create \(this will speed up the process if you want to create more than one group\) and click the _Proceed to create group\(s\)_ button:
+Klik op de hoofdpagina _Groups_ op het pictogram _Create new group\(s\)_ ![](../../.gitbook/assets/graphics277%20%283%29.png). U wordt gevraagd om het aantal aan te maken groepen \in te voeren (dit versnelt het proces als u meer dan één groep wilt maken\) en klik op de knop _Proceed to create group\(s\)_:
 
 ![](../../.gitbook/assets/images213%20%283%29.png)
 
-Illustration 148: Create _a group_
+Afbeelding 148: Maak _een groep_
 
-Give it a name, enter the number of empty seats you want in the group, and click _Create group\(s\)_. The new group will appear in the listings in the main _Groups_ page. It can be deleted using the usual _Delete_ icon ![](../../.gitbook/assets/graphics278%20%283%29.png).
+Geef het een naam, voer het aantal lege stoelen in dat u in de groep wilt hebben, en klik op _Create group\(s\)_. De nieuwe groep zal verschijnen in de lijsten op de hoofdpagina _Groups_. Het kan worden verwijderd met het gebruikelijke __Delete__ pictogram ![](../../.gitbook/assets/graphics278%20%283%29.png).
 
