@@ -1,14 +1,13 @@
 # Wat is Chamilo?
 
-Chamilo LMS is a _learning management system_ designed to support effective online education \(often referred to as _e-learning_\). It is “free” software which has been developed through the collaboration of various companies, organizations and individuals according to a model known as _open-source_, but with stricter ethical values.
+Chamilo LMS is een _learningbeheersysteem_ dat is ontworpen ter ondersteuning van effectief online onderwijs \(vaak aangeduid als _e-learning_\). Het is ‘gratis’ software die is ontwikkeld in samenwerking met verschillende bedrijven, organisaties en individuen volgens een model dat bekend staat als _open-source_, maar met strengere ethische waarden.
 
-This means that you are free to download and use Chamilo, provided you accept its license terms, \(detailed under the GNU/GPLv3 license[1](http://www.gnu.org/licenses/quick-guide-gplv3.html)\). As long as you undertake to maintain them, this confers four essential freedoms to you: the freedom to **use**, **study**, **modify** and **distribute** the software.
+Dit betekent dat u Chamilo vrij kunt downloaden en gebruiken, op voorwaarde dat u de licentievoorwaarden accepteert, \(gedetailleerd onder de GNU / GPLv3-licentie[1](http://www.gnu.org/licenses/quick-guide-gplv3.html)\). Zolang u zich ertoe verbindt ze te onderhouden, verleent dit u vier essentiële vrijheden: de vrijheid om de software **te** gebruiken, **te bestuderen**, **te wijzigen** en **te distribueren**.
 
 ![](../../.gitbook/assets/images268%20%282%29.png)
 
-Right to use, study and modify, share and distribute the software
+Recht om de software te gebruiken, bestuderen en wijzigen, delen en verspreiden
 
-In addition to having been developed collaboratively by dozens of people across the world ; Chamilo is also supported by _The Chamilo Association,_ a non-profit organization whose key objective is to support the platform and ensure its continuity. Such guarantees of continuing open access make Chamilo LMS unique as an e-learning system.
+Behalve dat het door tientallen mensen over de hele wereld gezamenlijk is ontwikkeld; Chamilo wordt ook ondersteund door _The Chamilo Association,_ een non-profitorganisatie met als belangrijkste doel het platform te ondersteunen en de continuïteit ervan te verzekeren. Dergelijke garanties voor blijvende open access maken Chamilo LMS uniek als e-learning systeem.
 
-Please feel free to contribute to Chamilo too! You can do this by promoting its use, reporting errors, suggesting improvements, translating it \(or its manuals\) into your native language, or even developing extensions or fixes by yourself.
-
+Voel je ook vrij om bij te dragen aan Chamilo! U kunt dit doen door het gebruik ervan te promoten, fouten te rapporteren, verbeteringen voor te stellen, het \(of de bijbehorende handleidingen\) in uw moedertaal te vertalen, of zelfs zelf extensies of fixes te ontwikkelen.
