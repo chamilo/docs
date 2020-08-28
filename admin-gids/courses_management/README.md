@@ -2,7 +2,7 @@
 
 **Cursussen zijn ruimtes** waarin docenten inhoud genereren met behulp van de ongeveer 20 tools die beschikbaar zijn om deze inhoud \(en nog veel meer\) aan hun studenten te onderwijzen op een gedenkwaardige, dynamische, multimediale en indien mogelijk onderhoudende manier.
 
-Cursussen kunnen worden gebruikt als tijdloze bronnen \(en dat zijn ze meestal\), maar ze kunnen ook worden ingevoegd in een op tijd gebaseerde context door het gebruik van **sessies** _**\*\***_ \(zie Hoofdstuk 7. Sessiebeheer op pagina 64\).
+Cursussen kunnen worden gebruikt als tijdloze bronnen \(en dat zijn ze meestal\), maar ze kunnen ook worden ingevoegd in een op tijd gebaseerde context door het gebruik van **sessies** \(zie Hoofdstuk _Sessiebeheer_\).
 
 Cursusbeheer kan worden gedaan met pictogrammen die u op dit moment al zou moeten kennen:
 
