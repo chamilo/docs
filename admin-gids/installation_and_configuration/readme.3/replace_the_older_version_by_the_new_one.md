@@ -17,8 +17,8 @@ Er is voorlopig maar één aanbevolen manier om uw Chamilo-versie bij te werken:
 Als je een GNU/Linux-distributie gebruikt, moet je de hele nieuwe map naar de oude kopiëren, d.w.z .:
 
 ```
-user@server$ sudo cp -r chamilo-1.9.4/\* /var/www/chamilo/
+user@server$ sudo cp -r chamilo-1.11.12/\* /var/www/chamilo/
 ```
 
-1. Doorloop vervolgens de stappen van _«**2.2.2** Laatste installatie-instellingen»_.
+1. Doorloop vervolgens de stappen van _«Laatste installatie-instellingen»_.
 2. Maak verbinding met uw site en controleer of alles aanwezig is.

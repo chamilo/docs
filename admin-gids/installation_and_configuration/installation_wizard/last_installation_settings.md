@@ -19,8 +19,9 @@ Dit voorkomt dat iemand \(behalve de _root_ gebruiker\) deze map kan zien en dez
 Voor het _configuration.php_ bestand zijn **0444** de juiste rechten om toe te wijzen:
 
 ```
-user@server:/var/www/chamilo/$ cd main/inc/conf/
-user@server:/var/www/chamilo/main/inc/conf$ sudo chmod 0444 configuration.php
+user@server:/var/www/chamilo/$ cd app/config/
+user@server:/var/www/chamilo/app/config$ sudo chmod 0444 configuration.php
 ```
 
 Wanneer deze bewerking is voltooid, kan het gebruik van Chamilo veilig beginnen te klikken op de _Ga naar de nieuw gemaakte portal_ link.
+

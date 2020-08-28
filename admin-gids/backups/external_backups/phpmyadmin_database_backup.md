@@ -6,7 +6,7 @@ Databases kunnen worden opgeslagen vanuit de [P](http://fr.wikipedia.org/wiki/Ph
 
 Afbeelding 15: Beheer - PHPMyAdmin
 
-Eenmaal in de grafische interface van PhpMyAdmin, ga naar de \_Export\_tab en selecteer de database die moet worden opgeslagen. Er is waarschijnlijk nog 1 genaamd "information\_schema", die u gewoon kunt negeren.
+Eenmaal in de grafische interface van PhpMyAdmin, ga naar de _Export_ tab en selecteer de database die moet worden opgeslagen. Er is waarschijnlijk nog 1 genaamd "information\_schema", die u gewoon kunt negeren.
 
 Mogelijk wilt u het uitvoerformaat van het back-upbestand wijzigen. Om op te slaan, kiest u het gewenste formaat onder de databases om te exporteren. In het huidige voorbeeld hebben we gekozen voor SQL.
 
