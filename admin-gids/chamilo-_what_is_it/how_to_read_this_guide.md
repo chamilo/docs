@@ -2,7 +2,7 @@
 
 Deze handleiding is geschreven als een referentie met een soepele leercurve, die u door het installatie-, configuratie- en back-upproces leidt \(zie_Installatie en configuratie_\), vervolgens de algemene configuratie-opties \(zie _Platformbeheer_\) en vervolgens gebruikersbeheer \(zie _Gebruikersbeheer_\), vervolgens via cursusbeheer \(zie_Cursusbeheer_\), sessiebeheer \(zie Sessiebeheer\), en vervolgens een reeks algemene functies of extensies die u moet kennen \(zie Algemene functies\).
 
-Als je mee wilt oefenen met dit boek zonder je eigen Chamilo-portaal te installeren \(wat we **niet** aanbevelen, aangezien je de eerste vereiste mist om een Chamilo-beheerder te zijn: in staat zijn om het te installeren\), dan kunt u als _admin_ proberen op ons ontwikkelingsportaal: [http://stable.chamilo.org](http://stable.chamilo.org/). Dit portaal is er normaal gesproken alleen voor ontwikkelingsdoeleinden, maar je hebt er toegang toe als tijdelijke oplossing als je vastloopt.
+Als je mee wilt oefenen met dit boek zonder je eigen Chamilo-portaal te installeren \(wat we **niet** aanbevelen, aangezien je de eerste vereiste mist om een Chamilo-beheerder te zijn: in staat zijn om het te installeren\), dan kunt u als _admin_ proberen op ons ontwikkelingsportaal: [http://11.chamilo.org](http://11.chamilo.org/). Dit portaal is er normaal gesproken alleen voor ontwikkelingsdoeleinden, maar je hebt er toegang toe als tijdelijke oplossing als je vastloopt.
 
 Er is een aanzienlijke hoeveelheid serieus relevante informatie toegevoegd als voetnoten, dus zorg ervoor dat u deze controleert als u denkt dat de gids iets mist.
 
