@@ -8,12 +8,13 @@ Illustration: Icons label
 
 There is also an online _help_ facility on most pages which appears as a partially hidden lifebuoy ring on the top right side of your screen \(see Illustration 3: Folded help\) and clicking it will open a window explaining the feature you're in and how to use it \(see Illustration 4, Unfolded help \).It remains in place when you scroll the screen so that it's constantly available and you can open and close it without affecting your current work. When you click the buoy, a small guide will open up, explaining the tool you're in and how to use it \(see Illustration 5: Contextual help pop-up\).
 
-| ![](../../.gitbook/assets/images3%20%2810%29.png)
+![](../../.gitbook/assets/images3%20%2810%29.png)
 
-Illustration: Folded help | ![](../../.gitbook/assets/illustration_4%20%286%29.png)
-Illustration 4: Unfolded help |
-| :--- | :--- |
+Illustration: Folded help
 
+![](../../.gitbook/assets/illustration_4%20%286%29.png)
+
+Illustration 4: Unfolded help
 
 ![](../../.gitbook/assets/images5%20%2810%29.png)
 
