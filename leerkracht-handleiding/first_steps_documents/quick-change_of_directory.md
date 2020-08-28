@@ -1,16 +1,16 @@
 # Snel wisselen van directory
 
-When creating a new course with example content, the _Documents_ tool contains several directories \(_audio, flash, images,_ etc\) by default.
+Bij het maken van een nieuwe cursus met voorbeeldinhoud, bevat de tool _Documents_ verschillende mappen \(_audio, flitser, afbeeldingen,_ enz.\) standaard.
 
-These directories are meant to provide additional help organizing resources inside the course. Once there are over twenty or so documents in the root directory, it becomes difficult to locate a document when needed, because you will have to scroll up and down to get to see all the files. Because of this, we recommend not having more than twenty files in a single directory - general good practice in file management anyway.
+Deze mappen zijn bedoeld om extra hulp te bieden bij het organiseren van bronnen binnen de cursus. Zodra er meer dan twintig documenten in de hoofdmap staan, wordt het moeilijk om een document te vinden wanneer dat nodig is, omdat u omhoog en omlaag moet scrollen om alle bestanden te zien. Daarom raden we aan om niet meer dan twintig bestanden in een enkele map te hebben - hoe dan ook een algemene goede praktijk bij bestandsbeheer.
 
-These directories are by default invisible to learners. It is up to the teacher to decide whether learners should see these directories' contents or not \(by clicking on the _eye_ icon ![](../../.gitbook/assets/graphics115%20%283%29.png)\).
+Deze mappen zijn standaard onzichtbaar voor studenten. Het is aan de docent om te beslissen of leerlingen de inhoud van deze mappen moeten zien of niet \(door op het pictogram _eye_ ![](../../.gitbook/assets/graphics115%20%283%29.png)\).
 
 ![](../../.gitbook/assets/images33%20%289%29.png)
 
-Illustration 31: Documents – List of default directories
+Afbeelding 31: Documenten - Lijst met standaardmappen
 
-Of course, it is possible to create several other directories using the folder creation icon. In order to navigate swiftly within the directories tree, a drop-down list called _Current folder_ is available on the top left of the screen allowing any level of documents-directory to be readily accessed.
+Het is natuurlijk mogelijk om verschillende andere mappen aan te maken met het pictogram voor het maken van mappen. Om snel binnen de mappenboom te kunnen navigeren, is linksboven in het scherm een vervolgkeuzelijst met de naam _Huidige map_ beschikbaar, waardoor elk niveau van de documenten-directory gemakkelijk toegankelijk is.
 
-Once inside a directory, the _“up a level”_ icon ![](../../.gitbook/assets/graphics117%20%283%29.png) lets the teacher get back up one directory level.
+Eenmaal binnen een directory, het _"een niveau omhoog"_ pictogram ![](../../.gitbook/assets/graphics117%20%283%29.png) laat de leraar een mapniveau teruggaan.
 
