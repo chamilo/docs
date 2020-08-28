@@ -3,7 +3,7 @@
 * klik op het pictogram _Een nieuw bestand_ delen ![](../../.gitbook/assets/graphics271%20%283%29.png)
 * Klik op de _kies bestand_ knop en selecteer het bestand op uw computer,
 * beslissen of u andere bestanden met dezelfde naam wilt overschrijven
-*in de lijst _Verzenden naar_, selecteer de mensen met wie u het document wilt delen \(groepen kunnen ook worden geselecteerd door de CTRL-toets ingedrukt te houden terwijl u op de namen klikt\)
+* in de lijst _Verzenden naar_, selecteer de mensen met wie u het document wilt delen \(groepen kunnen ook worden geselecteerd door de CTRL-toets ingedrukt te houden terwijl u op de namen klikt\)
 * klik op de knop _Upload_.
 
 ![](../../.gitbook/assets/images203%20%284%29.png)
