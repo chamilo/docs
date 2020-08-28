@@ -1,4 +1,4 @@
 # Over deze handleiding
 
-This guide has been written through the collaboration of various organizations and individuals who share a common goal to contribute to education around the world. You can contribute to the writing and improvement of this guide too. All you need to do is drop us an e-mail at info@chamilo.org with your suggestions for improvements – you could attach you own modified version of paragraphs, chapters, screen-shots or even the whole manual! It's that easy!
+Deze gids is geschreven door de samenwerking van verschillende organisaties en individuen die een gemeenschappelijk doel hebben om bij te dragen aan onderwijs over de hele wereld. U kunt ook bijdragen aan het schrijven en verbeteren van deze gids. Het enige dat u hoeft te doen, is ons een e-mail sturen naar info@chamilo.org met uw suggesties voor verbeteringen - u kunt uw eigen aangepaste versie van alinea's, hoofdstukken, schermafbeeldingen of zelfs de hele handleiding bijvoegen! Het is zo makkelijk!
 
