@@ -8,7 +8,7 @@ U krijgt een soort "diavoorstelling" -weergave te zien van de afbeeldingen in di
 
 Afbeelding 42: Fotogalerij - Diavoorstelling
 
-Het kan praktischer zijn om het pictogram voor kleine miniaturen weergeven te selecteren ![](../../.gitbook/assets/graphics127%20%283%29.png) iin de diashow-werkbalk om u alle afbeeldingen in één keer te laten zien \(als miniaturen\), zoals hieronder geïllustreerd:
+Het kan praktischer zijn om het pictogram voor kleine miniaturen weergeven te selecteren ![](../../.gitbook/assets/graphics127%20%283%29.png) in de diashow-werkbalk om u alle afbeeldingen in één keer te laten zien \(als miniaturen\), zoals hieronder geïllustreerd:
 
 ![](../../.gitbook/assets/images290%20%283%29.png)
 
