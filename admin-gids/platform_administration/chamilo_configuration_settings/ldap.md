@@ -4,7 +4,7 @@
 
 Voor meer informatie nodigen we u uit om LDAP-specifieke documentatie te volgen. Merk op dat een ActiveDirectory-server kan worden gebruikt als een LDAP-server door de LDAP-compatibiliteitsmodus in te schakelen.
 
-De nieuwe LDAP-plug-in moet worden geconfigureerd in app/config/auth.conf.php via de aanpassing van de volgende sectie \(de in-line documentatie voor deze plug-in is onjuist tot Chamilo 1.9.4\):
+De nieuwe LDAP-plug-in moet worden geconfigureerd in app/config/auth.conf.php via de aanpassing van de volgende sectie:
 
 ```
 $extldap_config = array(

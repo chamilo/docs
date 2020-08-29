@@ -16,7 +16,7 @@ Afbeelding 28: Interactietools
 
 ## Groepen <a id="groups"></a>
 
-![](../../.gitbook/assets/graphics98%20%283%29.png)Gebruik dit om groepen binnen de cursus te maken en de toegang tot cursustools te beheren.
+![](../../.gitbook/assets/graphics98%20%283%29.png =64x64)Gebruik dit om groepen binnen de cursus te maken en de toegang tot cursustools te beheren.
 
 ## Opdrachten <a id="assignments"></a>
 

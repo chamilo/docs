@@ -1,6 +1,6 @@
 # Plug-ins
 
-![](../../../.gitbook/assets/graficos19%20%281%29.png) Op dit tabblad kunt u de plug-ins inschakelen die aanwezig zijn in de map _plugin/_ op de server.
+![](../../../.gitbook/assets/graficos19.png) Op dit tabblad kunt u de plug-ins inschakelen die aanwezig zijn in de map _plugin/_ op de server.
 
 ![](../../../.gitbook/assets/images22%20%282%29.png)
 

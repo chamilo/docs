@@ -10,7 +10,7 @@ Hier kun je de cursussen zien waarvan je de leraar bent \(via het potloodpictogr
 
 Eenmaal in de leerpadenlijst, klikt u op het cd-pictogram om een back-upbestand te genereren.
 
-![](../../../.gitbook/assets/graficos32%20%281%29.png)
+![](../../../.gitbook/assets/graficos32.png)
 
 Afbeelding 17: Interface - Leerpaden exporteren
 

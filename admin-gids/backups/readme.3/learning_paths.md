@@ -10,13 +10,13 @@ In de leerpaden-tool heb je drie mogelijkheden:
 * « Importeren [SCORM](http://fr.wikipedia.org/wiki/Sharable_Content_Object_Reference_Model) cursussen » \(2de icoon\),
 * « Chamilo Rapid » \(3de icoon\)
 
-![](../../../.gitbook/assets/graficos35%20%281%29.png)
+![](../../../.gitbook/assets/graficos35.png)
 
 Afbeelding 27: Interface - Leerpaden importeren
 
 Om het eerder geëxporteerde leertraject te importeren, klikt u op _Import SCORM course_ \ (2e icoon \).
 
-![](../../../.gitbook/assets/graficos36%20%281%29.png)
+![](../../../.gitbook/assets/graficos36.png)
 
 Afbeelding 28: Interface - SCORM-leerpaden importeren
 

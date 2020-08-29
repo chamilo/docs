@@ -1,21 +1,20 @@
 # Nieuwe term
 
-To add a new term:
+Om een nieuwe term toe te voegen:
 
-* click on _Add new glossary term_ ![](../../.gitbook/assets/graphics234%20%283%29.png),
-* enter the term in the first field,
-* give the term's definition,
-* click the _Save term_ button.
+* klik op _Voeg nieuwe woordenlijst toe_ ![](../../.gitbook/assets/graphics234%20%283%29.png),
+* typ de term in het eerste veld,
+* geef de definitie van de term,
+* klik op de knop _Save term_.
 
-A definition can be enriched by images and links:
+Een definitie kan worden verrijkt met afbeeldingen en links:
 
 ![](../../.gitbook/assets/graphics236%20%281%29.png)
 
-Illustration 128: Glossary – add a term
+Afbeelding 128: Verklarende woordenlijst - voeg een term toe
 
-By default terms are displayed in T_able view_ ![](../../.gitbook/assets/graphics235%20%283%29.png) – suitable for a large number of terms with a brief definition. For a smaller list of fuller definitions, both teacher and learner may wish to choose the more attractive _List view_ ![](../../.gitbook/assets/graphics238%20%283%29.png) _:_
+Standaard worden termen weergegeven in de _tabelweergave_ ![](../../.gitbook/assets/graphics235%20%283%29.png) – geschikt voor een groot aantal termen met een korte definitie. Voor een kleinere lijst met volledigere definities kunnen zowel de leraar als de leerling de aantrekkelijkere _List-weergave_ kiezen ![](../../.gitbook/assets/graphics238%20%283%29.png) _:_
 
 ![](../../.gitbook/assets/graphics237%20%281%29.png)
 
-Illustration 129: Glossary – List view
-
+Afbeelding 129: Verklarende woordenlijst - lijstweergave

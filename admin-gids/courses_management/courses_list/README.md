@@ -2,7 +2,7 @@
 
 Met deze tool kunt u alle cursussen op het platform visualiseren.
 
-![](../../../.gitbook/assets/graficos82%20%281%29.png)
+![](../../../.gitbook/assets/graficos82.png)
 
 Afbeelding 57: Administratie - Lijst met cursussen
 

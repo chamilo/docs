@@ -1,28 +1,28 @@
 # Waarom Chamilo?
 
-Chamilo is an e-learning and collaboration platform which comes bundled as open-source software \(or as puristswill note, rather_Free Software_\) which can be adapted to educational or professional projects. It is distributed under the [GNU/](http://fr.wikipedia.org/wiki/Licence_publique_générale_GNU)[GPL](http://fr.wikipedia.org/wiki/Licence_publique_générale_GNU)[v](http://fr.wikipedia.org/wiki/Licence_publique_générale_GNU)3+ license, which you are bound to accept when using it.
+Chamilo is een e-learning- en samenwerkingsplatform dat gebundeld wordt als open-source software \(of zoals puristen zullen opmerken, liever _Gratis software_\) die kunnen worden aangepast aan educatieve of professionele projecten. Het wordt verdeeld onder de [GNU/](http://fr.wikipedia.org/wiki/Licence_publique_générale_GNU)[GPL](http://fr.wikipedia.org/wiki/Licence_publique_générale_GNU)[v](http://fr.wikipedia.org/wiki/Licence_publique_générale_GNU)3+ licentie, die u verplicht moet accepteren wanneer u deze gebruikt.
 
-A teacher using Chamilo can access a series of useful tools allowing them to easily and efficiently create an effective learning environment. On creating/editing a course he \(or she\) can:
+Een leraar die Chamilo gebruikt, heeft toegang tot een reeks handige tools waarmee hij gemakkelijk en efficiënt een effectieve leeromgeving kan creëren. Bij het maken/bewerken van een cursus kan hij \(of zij\):
 
-* import or create **documents** \(audio, video, images\) and publish them,
-* build **tests** and **exams** with **automated scores and feedback** as required,
-* build or import \([SCORM](http://fr.wikipedia.org/wiki/Sharable_Content_Object_Reference_Model) and [AICC](http://fr.wikipedia.org/wiki/Aviation_Industry_CBT_Committee)\) compliant courses,
-* set and receive **virtual assignments**,
-* describe the components of the course through **description** sections,
-* communicate through **forums** or **chat**,
-* publish **announcements**,
-* add **links**,
-* create **work groups** or laboratory groups,
-* set up a **virtual classroom** \(through the videoconference extension\),
-* manage **scores** through the assessments tool,
-* create **surveys**,
-* add a **wiki** to create documents collaboratively,
-* use a **glossary**,
-* use an **agenda**,
-* manage a **project** \(through the **blog** tool\),
-* enable **tracking** of learners in your courses,
-* register **attendances**,
-* elaborate **a class diary \(course progress\)**.
+* importeer of maak **documenten** \(audio, video, afbeeldingen\) en publiceer ze,
+* **tests** en **examens** bouwen met **geautomatiseerde scores en feedback** zoals vereist,
+* bouwen of importeren \([SCORM](http://fr.wikipedia.org/wiki/Sharable_Content_Object_Reference_Model) en [AICC](http://fr.wikipedia.org/wiki/Aviation_Industry_CBT_Committee)\) conforme cursussen,
+* stel en ontvang **virtuele opdrachten**,
+* beschrijf de onderdelen van de cursus via **beschrijving** secties,
+* communiceren via **forums** of **chat**,
+* publiceer **aankondigingen**,
+* **links** toevoegen,
+* **werkgroepen** of laboratoriumgroepen aanmaken,
+* een **virtueel klaslokaal** \opzetten (via de videoconferentie-extensie\),
+* **scores** beheren via de assessmenttool,
+* **enquêtes** maken,
+* voeg een **wiki** toe om samen documenten te maken,
+* gebruik een **woordenlijst**,
+* gebruik een **agenda**,
+* een **project** \beheren (via de **blog** tool\),
+* schakel **tracking** van studenten in uw cursussen in,
+* registreer **aanwezigheden**,
+* werk **een lesdagboek \(voortgang van de cursus\)** uit.
 
-The Chamilo platform is extremely **flexible**. All its tools can be customized according to the needs of each course. It provides a **friendly** and **intuitive** user interface which requires no special prior technical knowledge or skills.
+Het Chamilo-platform is extreem **flexibel**. Al zijn tools kunnen worden aangepast aan de behoeften van elke cursus. Het biedt een **vriendelijke** en **intuïtieve** gebruikersinterface waarvoor geen speciale technische voorkennis of vaardigheden vereist zijn.
 

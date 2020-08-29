@@ -2,7 +2,7 @@
 
 Ten slotte heeft u uw termen opnieuw gedefinieerd in uw subtaal. De enige resterende stap is om deze standaard toe te wijzen aan alle nieuwe gebruikers en alle nieuwe cursussen. Ga hiervoor terug naar de talenlijst en schakel alle andere talen uit.
 
-![](../../../../.gitbook/assets/graficos41%20%281%29.png)
+![](../../../../.gitbook/assets/graficos41.png)
 
 Afbeelding 36: Administratie - Subtalen - Zichtbaarheid en standaardgebruik
 

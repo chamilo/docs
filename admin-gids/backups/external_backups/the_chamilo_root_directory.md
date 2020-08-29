@@ -14,11 +14,11 @@ Comprimeer de directory met de opdracht "tar" om een tar.gz-bestand te genereren
 gebruiker@server:/var/www$ sudo tar cvfj /home/you/bkp/backup_chamilo.tar.gz chamilo/
 ```
 
-Het kan praktisch om een naam die is samengesteld met behulp van de datum, zoals _2010-05-07-backup-chamilo._ _tar.gz_ te geven. Op deze manier kunt u, als u een reeks back-upbestanden opslaat, ze gemakkelijk op datum sorteren.
+Het kan praktisch om een naam die is samengesteld met behulp van de datum, zoals _2021-05-07-backup-chamilo.tar.gz_ te geven. Op deze manier kunt u, als u een reeks back-upbestanden opslaat, ze gemakkelijk op datum sorteren.
 
 Deze back-up kopie bevat alle informatie van de toegang tot de Chamilo-database en al zijn configuraties. Het is dan handig bij verlies van gegevens of een ongewenste inval op uw server. Het is de enige betrouwbare manier om uw Chamilo-server opnieuw op te bouwen als er zich een groot probleem voordoet.
 
-Deze back-up kan automatisch worden uitgevoerd door een planningssysteem \(_cron-_proces onder GNU/Linux\) op de server, maar het kan handmatig worden uitgevoerd als de server het niet goed doet.
+Deze back-up kan automatisch worden uitgevoerd door een planningssysteem \( _cron-_proces onder GNU/Linux\) op de server, maar het kan handmatig worden uitgevoerd als de server het niet goed doet.
 
 Als u geen toegang heeft tot een terminal, is het mogelijk dat u een back-up via _FTP_ moet uitvoeren. Deze operatie kan echter \(zonder compressie\) **veel** langer duren.
 

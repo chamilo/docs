@@ -1,30 +1,40 @@
 # Algemene bruikbaarheid
 
-Chamilo has been designed to provide help and support within the application. The icons are intended to symbolize what they represent, independently of any particular language or culture. Furthermore, each icon has a “mouse-over” description. If you allow your mouse to “hover” over an icon for one second \(without clicking\), you will see a simple pop-up description of the icon's function.
+Chamilo is ontworpen om hulp en ondersteuning te bieden binnen de applicatie. De iconen zijn bedoeld om te symboliseren wat ze vertegenwoordigen, onafhankelijk van een bepaalde taal of cultuur. Bovendien heeft elk pictogram een "mouse-over" -beschrijving. Als u uw muis een seconde lang over een pictogram laat "zweven" \(zonder op te klikken\), ziet u een eenvoudige pop-upbeschrijving van de functie van het pictogram.
 
-![](../../.gitbook/assets/images2%20%289%29.png)Illustration 2: Icons label
+![](../../.gitbook/assets/images2%20%289%29.png)
 
-There is also an online _help_ facility on most pages which appears as a partially hidden lifebuoy ring on the top right side of your screen \(see Illustration 3: Folded help\) and clicking it will open a window explaining the feature you're in and how to use it \(see Illustration 4, Unfolded help \).It remains in place when you scroll the screen so that it's constantly available and you can open and close it without affecting your current work. When you click the buoy, a small guide will open up, explaining the tool you're in and how to use it \(see Illustration 5: Contextual help pop-up\).
+Illustratie: Pictogrammenlabel
 
-| ![](../../.gitbook/assets/images3%20%2810%29.png)Illustration 3: Folded help | ![](../../.gitbook/assets/illustration_4%20%286%29.png)Illustration 4: Unfolded help |
-| :--- | :--- |
+Er is ook een online _help_ faciliteit op de meeste pagina's die verschijnt als een gedeeltelijk verborgen reddingsboeiring rechtsboven in uw scherm \(zie afbeelding 3: Gevouwen hulp\) en als u erop klikt, wordt een venster geopend met uitleg over de functie waarin u zich bevindt. en hoe het te gebruiken \(zie afbeelding 4, uitgevouwen hulp\).Het blijft op zijn plaats wanneer u door het scherm scrolt, zodat het constant beschikbaar is en u het kunt openen en sluiten zonder uw huidige werk te beïnvloeden. Als je op de boei klikt, wordt er een kleine gids geopend, waarin wordt uitgelegd in welk gereedschap je je bevindt en hoe je het moet gebruiken \(zie afbeelding 5: contextuele pop-up voor hulp\).
 
+![](../../.gitbook/assets/images3%20%2810%29.png)
 
-![](../../.gitbook/assets/images5%20%2810%29.png)Illustration 5: Contextual help pop-up
+Afbeelding: ingeklapte hulp
 
-## Terminology <a id="terminology"></a>
+![](../../.gitbook/assets/illustration_4%20%286%29.png)
 
-At the time of writing, Chamilo is being used by more than 30,000 organizations around the world, in many different languages, including primary schools, colleges, higher education institutes, universities, NGOs, small, medium and large companies.
+Afbeelding 4: Uitgevouwen hulp 
 
-Obviously, all these bodies and institutions tend to use slightly differing terminologies. For example, some institutions will call their courses “Training sessions”, others will call them “Learning spaces” and others simply “Courses”. This presents challenges for the design of a “one-size-fits-all” e-learning platform \(or even user guide\), so we have sought the middle road, and employ a simple, universal terminology which we trust will make sense to all our users.
+![](../../.gitbook/assets/images5%20%2810%29.png)
 
-![](../../.gitbook/assets/images4%20%288%29.png)Illustration 6: History of Chamilo installations around the world, 2015 to 2017
+Afbeelding 5: pop-up contextuele help
 
-Of course, because we understand your organization may prefer a specific terminology, we have equipped Chamilo with a way to edit any interface term from within the platform administration. \(this requires administration skills and is thus described in the _Chamilo Administration Guide_\). Should you urgently require a customization, you can ask one of our official providers for a customized language pack to be imported into your platform.
+## Terminologie <a id="terminology"></a>
 
-In this guide, we have endeavored to employ a universal terminology so, for example, the common education term “**student**” has been replaced by more neutral terms like “**learner**” which applies equally well in the business world. When referring to all kinds of users collectively, we have decided to use the term “**user**”.
+Op het moment van schrijven wordt Chamilo gebruikt door meer dan 50.000 organisaties over de hele wereld, in veel verschillende talen, waaronder basisscholen, hogescholen, instellingen voor hoger onderwijs, universiteiten, ngo's, kleine, middelgrote en grote bedrijven.
 
-This manual is available in several formats, so you can always download it in editable format from our website and do a quick search & replace operation to make it fit your needs. Don't hesitate to send us the updated version back for sharing with others at info@chamilo.org. You'll be amazed at how this can benefit you in return, as other communities build up on your work to make things even better.
+Het is duidelijk dat al deze organen en instellingen de neiging hebben om enigszins verschillende terminologieën te gebruiken. Sommige instellingen noemen hun cursussen bijvoorbeeld "Trainingssessies", andere noemen ze "Leerruimtes" en andere gewoon "Cursussen". Dit stelt uitdagingen voor het ontwerp van een 'one-size-fits-all' e-learningplatform \(of zelfs gebruikershandleiding\), dus we hebben de middenweg gezocht en gebruiken een eenvoudige, universele terminologie waarvan we vertrouwen dat het zin voor al onze gebruikers.
 
-The somewhat ambivalent term “**training**” which had been employed in previous versions of the software has now been replaced by the more understandable term “**course**”, while the previously ousted term “**learning path**” has now been reinstated after a short and unpopular change to “**course**”. You will find all these terms defined and explained in the following guide. If in any doubt, make sure you check our Glossary on page 177 Don't forget: you can customize these terms with the help of your Chamilo administrator \(if that's you, check the _Chamilo Administration Guide,_ also available from our website\).
+![](../../.gitbook/assets/images4.png)
+
+Afbeelding 6: Geschiedenis van Chamilo-installaties over de hele wereld, 2018 tot 2020
+
+Omdat we begrijpen dat uw organisatie wellicht de voorkeur geeft aan een specifieke terminologie, hebben we Chamilo uitgerust met een manier om elke interfaceterm te bewerken vanuit de platformadministratie. \(dit vereist administratieve vaardigheden en wordt daarom beschreven in de _Chamilo Administration Guide_\). Als u dringend een aanpassing nodig heeft, kunt u een van onze officiële providers vragen om een aangepast taalpakket te importeren in uw platform.
+
+In deze gids hebben we geprobeerd een universele terminologie te gebruiken, dus de algemene onderwijsterm "**student**" is bijvoorbeeld vervangen door meer neutrale termen zoals "**leerling**", die even goed van toepassing is in het bedrijf wereld. Wanneer we samen naar alle soorten gebruikers verwijzen, hebben we besloten om de term "**gebruiker**" te gebruiken.
+
+Deze handleiding is beschikbaar in verschillende formaten, dus u kunt het altijd in bewerkbaar formaat downloaden van onze website en een snelle zoek- en vervangbewerking uitvoeren om het aan uw behoeften te voldoen. Aarzel niet om ons de bijgewerkte versie terug te sturen om met anderen te delen via info@chamilo.org. U zult versteld staan hoe u er in ruil voor kunt profiteren, terwijl andere gemeenschappen uw werk opbouwen om de zaken nog beter te maken.
+
+The somewhat ambivalent term “**training**” which had been employed in previous versions of the software has now been replaced by the more understandable term “**course**”, while the previously ousted term “**learning path**” has now been reinstated after a short and unpopular change to “**course**”. You will find all these terms defined and explained in the following guide. If in any doubt, make sure you check our Glossary section. Don't forget: you can customize these terms with the help of your Chamilo administrator \(if that's you, check the _Chamilo Administration Guide,_ also available from our website\).
 

@@ -12,15 +12,16 @@ Afbeelding 29: beheertools
 
 ## Instellingen <a id="settings"></a>
 
-![](../../.gitbook/assets/graphics108%20%283%29.png)Beheer de cursusinstellingen als docent. De instellingen zijn gesorteerd in een paar secties:
+![](../../.gitbook/assets/graphics108%20%283%29.png) Beheer de cursusinstellingen als docent. De instellingen zijn gesorteerd in een paar secties:
 
-| ![](../../.gitbook/assets/images282%20%284%29.png)![](../../.gitbook/assets/images284%20%284%29.png)![](../../.gitbook/assets/images283%20%284%29.png)![](../../.gitbook/assets/images281%20%284%29.png)![](../../.gitbook/assets/graphics109%20%284%29.png) | Cursusinstellingen | Beheer en update elementen zoals de cursustitel, categorie, taal, afbeelding, etc. |
+| Icoon | Naam | Omschrijving |
 | :--- | :--- | :--- |
+| ![](../../.gitbook/assets/images282%20%284%29.png)  | Gebruikersrechten | Configureer de agenda, aankondigingen of afbeeldingen in het forum |
+| ![](../../.gitbook/assets/images284%20%284%29.png)  | Instellingen voor leertrajecten | Schakel het grafische thema van het leertraject in, evenals verschillende andere leerpadinstellingen |
+| ![](../../.gitbook/assets/images283%20%284%29.png)  | Gespreks instellingen | Configureer hoe de chat-tool wordt geopend |
+| ![](../../.gitbook/assets/images281%20%284%29.png)  | E-mail notificaties | Stel het gedrag in voor e-mailwaarschuwingen |
+| ![](../../.gitbook/assets/graphics109%20%284%29.png) | Cursusinstellingen | Beheer en update elementen zoals de cursustitel, categorie, taal, afbeelding, etc. |
 | ![](../../.gitbook/assets/graphics110%20%284%29.png) | Toegang tot de cursus | Configureer updates voor cursustoegang \(zichtbaarheid, abonnement en andere machtigingen\) |
-|  | E-mail notificaties | Stel het gedrag in voor e-mailwaarschuwingen |
-|  | Gebruikersrechten | Configureer de agenda, aankondigingen of afbeeldingen in het forum |
-|  | Gespreks instellingen | Configureer hoe de chat-tool wordt geopend |
-|  | Instellingen voor leertrajecten | Schakel het grafische thema van het leertraject in, evenals verschillende andere leerpadinstellingen |
 | ![](../../.gitbook/assets/images285%20%284%29.png) | Thematische geavanceerde configuratie | Bepaal of informatie over de voortgang van de cursus op de startpagina van de cursus moet worden weergegeven |
 
 ## Rapporteren <a id="reporting"></a>

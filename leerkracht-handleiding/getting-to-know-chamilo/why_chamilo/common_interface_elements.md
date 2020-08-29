@@ -1,17 +1,17 @@
 # Gemeenschappelijke interface elementen
 
-Because we know that common conventions make things easier for everybody to remember and manipulate, we use a set of common visual symbols throughout Chamilo. These symbols might stand alone representing an action, or be coupled with another symbol representing the object of the action.
+Omdat we weten dat gemeenschappelijke conventies het voor iedereen gemakkelijker maken om te onthouden en te manipuleren, gebruiken we een reeks gemeenschappelijke visuele symbolen in heel Chamilo. Deze symbolen kunnen op zichzelf staan en een actie voorstellen, of kunnen worden gekoppeld aan een ander symbool dat het doel van de actie vertegenwoordigt.
 
-Below are listed some of the most commonly used symbols on the platform:
+Hieronder staan enkele van de meest gebruikte symbolen op het platform:
 
-| ![](../../../.gitbook/assets/graphics112%20%283%29.svg)![](../../../.gitbook/assets/graphics112%20%285%29.png)![](../../../.gitbook/assets/graphics138%20%281%29.svg)![](../../../.gitbook/assets/graphics138%20%283%29.png)![](../../../.gitbook/assets/graphics348%20%281%29.svg)![](../../../.gitbook/assets/graphics348%20%285%29.png)![](../../../.gitbook/assets/images275%20%281%29.svg)![](../../../.gitbook/assets/images275%20%281%29.png)![](../../../.gitbook/assets/images277%20%281%29.svg)![](../../../.gitbook/assets/images277%20%283%29.png)Icons | Features |
+| Pictogrammen | Kenmerken |
 | :--- | :--- |
-|  | The pencil tool allows the **updating** of a specific piece of information or content |
-| ![](../../../.gitbook/assets/images7%20%283%29.svg)![](../../../.gitbook/assets/images7%20%289%29.png) | The cross tool allows for the **deletion** of a specific piece of information or content |
-| ![](../../../.gitbook/assets/images8%20%281%29.svg)![](../../../.gitbook/assets/images8%20%289%29.png)![](../../../.gitbook/assets/images9%20%281%29.svg)![](../../../.gitbook/assets/images9%20%289%29.png) | The eye tool allows you to change the **visibility** of a piece of information/ content |
-|  | The **yellow star** marker on any icon symbolizes the **creation** of a **new** resource |
-|  | A blue right arrow generally means **move things** or **insert things** into others |
-| ![](../../../.gitbook/assets/graphics347%20%284%29.svg)![](../../../.gitbook/assets/graphics347%20%286%29.png) | A blue left arrow generally means **go back** \(like the back button in your browser\). |
-|  | A blue arrow pointing down generally means **download** some file or data. |
-|  | A blue arrow pointing upwards generally means **upload** some file or data. |
+| ![](../../../.gitbook/assets/graphics112.svg) | Met de potloodtool kunt u een bepaald stuk informatie of inhoud **bijwerken** |
+| ![](../../../.gitbook/assets/graphics138.svg) | De **gele ster** markering op een pictogram symboliseert de **creatie** van een **nieuwe** grondstof |
+| ![](../../../.gitbook/assets/graphics348.svg) | Een blauwe pijl die naar boven wijst, betekent over het algemeen **een bestand of gegevens uploaden**. |
+| ![](../../../.gitbook/assets/images275.svg) | Een blauwe pijl naar rechts betekent over het algemeen **dingen verplaatsen** of **dingen invoegen** in anderen |
+| ![](../../../.gitbook/assets/images277.svg) | Een blauwe pijl die naar beneden wijst, betekent over het algemeen **download** een bestand of gegevens. |
+| ![](../../../.gitbook/assets/images7.svg) | Met de kruistool kan een bepaald stuk informatie of inhoud **worden verwijderd** |
+| ![](../../../.gitbook/assets/images8.svg)![](../../../.gitbook/assets/images9.svg) | Met de eye-tool kunt u de **zichtbaarheid** van een stuk informatie/inhoud wijzigen |
+| ![](../../../.gitbook/assets/graphics347.svg) | Een blauwe pijl naar links betekent over het algemeen **ga terug** \(zoals de terugknop in uw browser\). |
 

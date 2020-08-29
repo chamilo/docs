@@ -1,11 +1,11 @@
 # Beheer van groepen
 
-A teacher can manage groups in two ways – using the icons on the right of each listing in the main Groups page \(listed below\) to manage individual groups, and using the “batch management” feature \(tick boxes, buttons and drop-down lists\) displayed on the same page, which allows the teacher to apply the same functions to several or all groups at once. Using these methods together can save the teacher a lot of time consuming organization.
+Een docent kan groepen op twee manieren beheren - door de pictogrammen rechts van elke vermelding op de hoofdpagina Groepen \(hieronder vermeld\) te gebruiken om individuele groepen te beheren, en door de functie "batchbeheer" te gebruiken \(aankruisvakjes, knoppen en -downlijsten\) weergegeven op dezelfde pagina, waardoor de leraar dezelfde functies kan toepassen op meerdere of alle groepen tegelijk. Door deze methoden samen te gebruiken, kan de docent veel tijdrovende organisatie besparen.
 
-| Ico![](../../.gitbook/assets/images220%20%283%29.png)ns | Features |
+| Ico![](../../.gitbook/assets/images220%20%283%29.png)ns | Kenmerken |
 | :--- | :--- |
-| ![](../../.gitbook/assets/graphics287%20%283%29.png) | Update a group's settings |
-| ![](../../.gitbook/assets/images219%20%283%29.png) | Delete a group \(confirmation pop-up\) **and all its contents** |
-|  | Fill a group with users automatically |
-| ![](../../.gitbook/assets/graphics289%20%283%29.png) | Empty the group |
+| ![](../../.gitbook/assets/graphics287%20%283%29.png) | Werk de instellingen van een groep bij |
+| ![](../../.gitbook/assets/images219%20%283%29.png) | Verwijder een groep \(bevestigingspop-up\) **en al zijn inhoud** |
+|  | Vul automatisch een groep met gebruikers |
+| ![](../../.gitbook/assets/graphics289%20%283%29.png) | Maak de groep leeg |
 

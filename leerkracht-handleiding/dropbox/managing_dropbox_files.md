@@ -1,16 +1,16 @@
 # Dropbox-bestanden beheren
 
-As well as the familiar icons, the dropbox tool offers a series of new management icons:
+Naast de bekende pictogrammen biedt de dropbox-tool een reeks nieuwe beheerpictogrammen:
 
-| Icons | Features |
+| Pictogrammen | Kenmerken |
 | :--- | :--- |
-| ![](../../.gitbook/assets/graphics272%20%283%29.png) | Edit the name of a folder |
-| ![](../../.gitbook/assets/images205%20%286%29.png) | Delete a folder |
-| ![](../../.gitbook/assets/graphics273%20%283%29.png) | Add a comment to the shared file |
-| ![](../../.gitbook/assets/images207%20%286%29.png) | Shows next to the name of any new file |
-| ![](../../.gitbook/assets/images208%20%283%29.png) | Move the file to another folder |
-| ![](../../.gitbook/assets/images209%20%283%29.png) | Save on your computer a compressed archive of all the files in the folder |
-| ![](../../.gitbook/assets/graphics274%20%283%29.png) | Save a copy of the corresponding file on your computer |
+| ![](../../.gitbook/assets/graphics272%20%283%29.png) | Bewerk de naam van een map |
+| ![](../../.gitbook/assets/images205%20%286%29.png) | Verwijder een map |
+| ![](../../.gitbook/assets/graphics273%20%283%29.png) | Voeg een opmerking toe aan het gedeelde bestand |
+| ![](../../.gitbook/assets/images207%20%286%29.png) | Wordt weergegeven naast de naam van een nieuw bestand |
+| ![](../../.gitbook/assets/images208%20%283%29.png) | Verplaats het bestand naar een andere map |
+| ![](../../.gitbook/assets/images209%20%283%29.png) | Bewaar op uw computer een gecomprimeerd archief van alle bestanden in de map |
+| ![](../../.gitbook/assets/graphics274%20%283%29.png) | Sla een kopie van het bijbehorende bestand op uw computer op |
 
-**Note** : When a learner deletes a file sent to the system, this file is still available to the teacher
+**Opmerking**: Wanneer een leerling een bestand verwijdert dat naar het systeem is verzonden, is dit bestand nog steeds beschikbaar voor de leraar
 

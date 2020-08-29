@@ -9,7 +9,7 @@ Afbeelding 8: pagina "Mijn cursussen"
 Eenmaal verbonden, heeft de leraar toegang tot alle cursussen waarop hij is geregistreerd:
 
 * Een lijst met cursussen waarop de gebruiker is geabonneerd. Er verschijnt een potlood aan de rechterkant van de cursusvakken waarvoor de huidige gebruiker docent is, zodat de docent direct naar de cursusinstellingen kan gaan
-* Een link naar de _Sociale Netwerk_ tool \(die we zullen analyseren in Sociaal netwerk op p. 164\)
+* Een link naar de _Sociale Netwerk_ tool \(die we zullen analyseren in Sociaal netwerk\)
 * Een \(niet-admin\) docent kan een cursus aanmaken
 * Docenten en studenten kunnen zich abonneren op meer bestaande cursussen via een "Cursuscatalogus"
 * Docenten en studenten hebben toegang tot de geschiedenis van hun sessies via de "Cursusgeschiedenis". Sessies zijn een enorm concept dat wordt beschreven in de beheerdershandleiding.

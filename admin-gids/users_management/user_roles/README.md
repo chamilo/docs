@@ -6,7 +6,7 @@ Voor de gewone beheerder lijkt het erop dat er slechts vier rollen zijn in Chami
 
 Om u te begeleiden bij het ontdekken van deze rollen, gebruiken we het volgende schema als referentie, aangezien het de meeste rollen weergeeft en ook het begrip sessies \(zoals we het zullen zien in het hoofdstuk Sessiemanagement\).
 
-![](../../../.gitbook/assets/graficos80%20%281%29.png)
+![](../../../.gitbook/assets/graficos80.png)
 
 Afbeelding 46: Rollen en sessies
 

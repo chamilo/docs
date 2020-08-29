@@ -13,7 +13,7 @@
 
 **OpenID-authenticatie** schakelt de OpenID-functie in. U moet ook het OpenID-veld in de velden voor gebruikersprofilering inschakelen om deze functie de gewenste functionaliteit te bieden. Houd er rekening mee dat het momenteel niet mogelijk is om meerdere identiteiten te combineren, en dat u nog steeds uw volledige identiteits-URL in het OpenID-vak moet plakken. We hopen deze functie in de toekomst te verbeteren.
 
-**Rechten uitbreiden voor coaches** stelt docenten in staat de inhoud van cursussen binnen de sessiecontext te bewerken \(documenten, leertrajecten, oefeningen, koppelingen, enz. Wijzigen\). Zie hoofdstuk Hoofdstuk 7. Sessiemanagement op pagina 64.
+**Rechten uitbreiden voor coaches** stelt docenten in staat de inhoud van cursussen binnen de sessiecontext te bewerken \(documenten, leertrajecten, oefeningen, koppelingen, enz. Wijzigen\). Zie hoofdstuk Hoofdstuk _Sessiebeheer_.
 
 Cursusinschrijving door gebruiker toestaan door cursusbeheerder stelt de docent in staat gebruikers op zijn cursus te abonneren. Deze optie is standaard ingeschakeld, maar als u dit wilt voorkomen, weet u waar u moet zoeken ...
 

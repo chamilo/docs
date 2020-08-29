@@ -2,7 +2,7 @@
 
 De nieuwe pagina is een zoekpagina. Als u de term _Reporting_ wilt wijzigen in _Evaluation_, zoekt u gewoon naar _Reporting_.
 
-![](../../../../.gitbook/assets/graficos40%20%281%29.png)
+![](../../../../.gitbook/assets/graficos40.png)
 
 Afbeelding 35: Administratie - Herdefinitie van termen in de subtaal
 

@@ -6,6 +6,6 @@ De admin kan iedereen inschrijven voor welke cursus hij maar wil:
 * Kies de cursus \(s\) om deze gebruikers op te abonneren,
 * klik op _Subscribe users to course_.
 
-![](../../.gitbook/assets/coursinscrire_-utilisateurs%20%281%29.png)
+![](../../.gitbook/assets/coursinscrire_-utilisateurs.png)
 
 Afbeelding 62: Beheer - Gebruikers abonneren op cursussen

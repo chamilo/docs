@@ -1,6 +1,8 @@
 # Woordenlijst
 
-Chamilo integrates a glossary tool ![](../../.gitbook/assets/graphics232%20%283%29.png) to allow the teacher to define terms or expressions in the same way as a dictionary. No term is defined by default - it is the teacher's responsibility to define important terms.
+Chamilo integreert een verklarende tool ![](../../.gitbook/assets/graphics232%20%283%29.png) zodat de docent termen of uitdrukkingen op dezelfde manier kan definiëren als een woordenboek. Er wordt standaard geen term gedefinieerd - het is de verantwoordelijkheid van de leraar om belangrijke termen te definiëren.
 
-![](../../.gitbook/assets/images173%20%285%29.png)Illustration 127: Glossary – Table view
+![](../../.gitbook/assets/images173%20%285%29.png)
+
+Afbeelding 127: Woordenlijst - Tabelweergave
 

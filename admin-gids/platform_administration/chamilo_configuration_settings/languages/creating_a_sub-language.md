@@ -8,7 +8,7 @@ Afbeelding 33: Administratie - Creëren van subtalen
 
 Selecteer _Visibility_ om het selecteerbaar te maken en klik op de knop _Create sub-language_. Het bevestigingsbericht suggereert dat u teruggaat naar de talenlijst. Volg gewoon de link ...
 
-![](../../../../.gitbook/assets/graficos39%20%281%29.png)
+![](../../../../.gitbook/assets/graficos39.png)
 
 Afbeelding 34: Administratie - Lijst met talen, met subtalen
 

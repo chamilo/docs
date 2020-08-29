@@ -1,7 +1,8 @@
 # Bijzonder geval: de anonieme gebruiker
 
-| Omschrijving | De anonieme gebruiker is een heel bijzonder geval: deze gebruiker bestaat alleen om het volgen mogelijk te maken voor gebruikers die geen account hebben op het Chamilo-portaal. Dankzij dit mechanisme kan de gebruiker _anoniem_ de meeste bewerkingen uitvoeren die een leerling kan uitvoeren, maar alleen binnen cursussen die zijn gemarkeerd als _public._ |
+| Element | Omschrijving |
 | :--- | :--- |
+| Omschrijving | De anonieme gebruiker is een heel bijzonder geval: deze gebruiker bestaat alleen om het volgen mogelijk te maken voor gebruikers die geen account hebben op het Chamilo-portaal. Dankzij dit mechanisme kan de gebruiker _anoniem_ de meeste bewerkingen uitvoeren die een leerling kan uitvoeren, maar alleen binnen cursussen die zijn gemarkeerd als _public._ |
 | Toestemmingen in een openbare cursus | Standaard kan hij: |
 | Globale machtigingen | Standaard kan hij: |
 

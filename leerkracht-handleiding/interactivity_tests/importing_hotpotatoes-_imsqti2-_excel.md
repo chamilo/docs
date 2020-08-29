@@ -1,14 +1,14 @@
 # Importeren: HotPotatoes, IMS / QTI2, Excel
 
-As well as allowing teachers to create their own tests as described above in sections 12.2 to 12.6, Chamilo enables teachers to easily upload and include tests created in external tools, in particular tests created using Hot Potatoes, Qti2 and Microsoft Excel. These are popular authoring tools which can produce tests in a standard format suitable for use in many, LMSes, including Chamilo. Details of how to use these software packages are obviously outwit h the scope of this guide, but experienced online educators may well be familiar with one or all of them, and may have produced tests with them which they wish to upload to Chamilo.
+Naast het toestaan van docenten om hun eigen tests te maken zoals hierboven beschreven in secties 12.2 tot 12.6, stelt Chamilo docenten in staat om gemakkelijk tests te uploaden en op te nemen die zijn gemaakt in externe tools, in het bijzonder tests die zijn gemaakt met Hot Potatoes, Qti2 en Microsoft Excel. Dit zijn populaire ontwerptools die tests kunnen produceren in een standaardformaat dat geschikt is voor gebruik in veel LMS'en, waaronder Chamilo. Details over het gebruik van deze softwarepakketten vallen duidelijk buiten de reikwijdte van deze gids, maar ervaren online docenten zijn misschien wel bekend met een of alle van hen, en hebben mogelijk tests met hen gemaakt die ze willen uploaden naar Chamilo.
 
-To do so, the teacher need simply click on the relevant icon in the toolbar on the main _Tests_ page and follow the dialogue box to locate and import the relevant file.
+Om dit te doen, hoeft de docent gewoon op het relevante pictogram in de werkbalk op de hoofdpagina _Tests_ te klikken en het dialoogvenster te volgen om het relevante bestand te zoeken en te importeren.
 
 ![](../../.gitbook/assets/graphics132%20%281%29.png)
 
-Illustration 63: Tests – import external tests from Tests page
+Afbeelding 63: Tests - importeer externe tests van de pagina Tests
 
 ![](../../.gitbook/assets/graphics157%20%281%29.png)![](../../.gitbook/assets/graphics158%20%281%29.png)![](../../.gitbook/assets/graphics159%20%281%29.png)
 
-Illustration 64: Tests - Import HotPotatoes, Qti2 and Excel tests
+Afbeelding 64: Tests - Importeer HotPotatoes, Qti2 en Excel-tests
 

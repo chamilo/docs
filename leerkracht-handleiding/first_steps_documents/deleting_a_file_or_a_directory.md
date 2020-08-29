@@ -1,12 +1,14 @@
 # Een bestand of map verwijderen
 
-To delete, update, hide or show a file or directory, use the options in the right hand column of the documents listing:
+Gebruik de opties in de rechterkolom van de lijst met documenten om een bestand of map te verwijderen, bij te werken, te verbergen of weer te geven:
 
-![](../../.gitbook/assets/images45%20%287%29.png)Illustration 39: Documents - Options
+![](../../.gitbook/assets/images45%20%287%29.png)
 
-As you will realize yourself, the icons vary depending on the document type. HTML documents offer more possibilities.
+Afbeelding 39: Documenten - Opties
 
-The magic wand icon allows you to use the selected document as a template to create other documents. It thus becomes very easy to ensure a consistent visual style for all documents in the same course.
+Zoals u zult beseffen, variëren de pictogrammen afhankelijk van het documenttype. HTML-documenten bieden meer mogelijkheden.
 
-The PDF icon allows you to export the document in a PDF format. This can be particularly useful if you wish to read your course in the train or the plane, where you don't have access to your e-learning platform.
+Met het toverstafpictogram kunt u het geselecteerde document als sjabloon gebruiken om andere documenten te maken. Zo wordt het heel eenvoudig om voor alle documenten in dezelfde cursus een consistente visuele stijl te garanderen.
+
+Met het PDF-pictogram kunt u het document in PDF-indeling exporteren. Dit kan met name handig zijn als u uw cursus in de trein of het vliegtuig wilt lezen, waar u geen toegang heeft tot uw e-learningplatform.
 
