@@ -1,34 +1,37 @@
 # Een nieuwe test maken
 
-Creating a new test is very easy. Click the _create a test_ icon ![](../../.gitbook/assets/graphics130%20%283%29.png) on the left and give your test a title, then click on the _proceed to questions_ button.
+Het maken van een nieuwe test is heel eenvoudig. Klik op het pictogram voor het maken van een test ![](../../.gitbook/assets/graphics130%20%283%29.png) aan de linkerkant en geef je toets een titel, klik dan op de knop _door naar vragen_.
 
 ![](../../.gitbook/assets/graphics133%20%281%29.png)
 
-Illustration 44: Exercises – Create a new test
+Afbeelding 44: Oefeningen - Maak een nieuwe test
 
-If you opt to _give a context to the test_ \_![](../../.gitbook/assets/graphics131%20%281%29.png)\_you can use the on-line editor to compose an explanatory section which will be visible to learners when they undertake the test.
+Als u ervoor kiest om _ een context aan de test te geven_ \_![](../../.gitbook/assets/graphics131%20%281%29.png)\_u kunt de online editor gebruiken om een verklarende sectie samen te stellen die zichtbaar zal zijn voor studenten wanneer ze de test maken.
 
-The test will be displayed on the main page of the test tool, listed along with other tests created in the course:
+De test wordt weergegeven op de hoofdpagina van de testtool, samen met andere tests die in de cursus zijn gemaakt:
 
-![](../../.gitbook/assets/graphics134%20%281%29.png)Illustration 45: Exercises - List
+![](../../.gitbook/assets/graphics134%20%281%29.png)
 
-Because there are so many different ways the test tool can be used, there is a good chance the default options are not entirely suitable your needs. Be careful, therefore to consider the extensive Advanced _settings_ section available in the _create/edit test_ page:
+Afbeelding 45: Oefeningen - lijst
 
-![](../../.gitbook/assets/graphics135%20%281%29.png)Illustration 46: Exercises – Creating an exercise – Advanced options
+Omdat er zoveel verschillende manieren zijn waarop de testtool kan worden gebruikt, is de kans groot dat de standaardopties niet helemaal aan uw wensen voldoen. Let daarom goed op de uitgebreide sectie Advanced _settings_ die beschikbaar is op de _create/edit test_ pagina:
 
-The settings are fairly self evident:
+![](../../.gitbook/assets/graphics135%20%281%29.png)
 
-* feedback can be provided either at the end of the test or withheld, e.g. for an exam
-* questions can be presented either on a single page \(e.g. for a brief text quiz\) or on separate pages \(e.g. when the question and answers are lengthy or incorporate media\)
-* scores and correct answers can be shown \(e.g. for an interactive exercise\) or hidden \(e.g. for an exam\).
-* Questions and answers can follow a pre-determined sequence or be randomized and shuffled
-* The relevant questions category can be displayed or hidden
-* The number of attempts allowed can be limited to a given number - “infinite” attempts might suit a “practice” exercise
-* Start and end times for the test can be set and the time allowed to complete the test can be limited; \)a real-time counter will appear to the user\)
-* Negative scores can be “zeroed” or carried forward to the next question
-* Students can review their answers before submitting the test
-* A pass percentage can be set to indicate success or failure to the student
-* A closing message to be viewed on completion can be composed.
+Afbeelding 46: Oefeningen - Een oefening maken - Geavanceerde opties
 
-**Note** : _The platform administrator may enable an additional option in the “Feedback” section of the advanced settings:\_\_Self-evaluation \(immediate feedback\)._ This option, if checked, enables the “scenario” question types which allows teachers to devise quizzes based on multiple-choice or image mapping questions which, depending on the answer given, lead the learner to alternative subsequent questions. This is a powerful tool – however, be aware that once _self-evaluation_ is checked, these advanced settings cannot be changed: you will instead have to create a new test not based on the _Self-evaluation \(immediate feedback\)_ option.
+De instellingen zijn vrij vanzelfsprekend:
 
+* Feedback kan worden gegeven aan het einde van de test of achtergehouden, b.v. voor een examen
+* Vragen kunnen worden gepresenteerd op een enkele pagina \(bijv. voor een korte tekstquiz\) of op afzonderlijke pagina's \(bijv. wanneer de vraag en antwoorden lang zijn of media bevatten\)
+* Scores en juiste antwoorden kunnen worden getoond \(bijv. voor een interactieve oefening\) of verborgen \(bijv. voor een examen\).
+* Vragen en antwoorden kunnen een vooraf bepaalde volgorde volgen of willekeurig worden verdeeld en geschud
+* De relevante vragencategorie kan worden weergegeven of verborgen
+* Het aantal toegestane pogingen kan worden beperkt tot een bepaald aantal - "oneindige" pogingen kunnen passen bij een "oefen" -oefening
+* Start- en eindtijden voor de test kunnen worden ingesteld en de tijd die is toegestaan om de test te voltooien kan worden beperkt; \) een real-time teller zal aan de gebruiker verschijnen\)
+* Negatieve scores kunnen op nul worden gezet of worden overgedragen naar de volgende vraag
+* Studenten kunnen hun antwoorden bekijken voordat ze de test indienen
+* Een slagingspercentage kan worden ingesteld om succes of mislukking voor de student aan te geven
+* Er kan een slotbericht worden opgesteld dat na voltooiing kan worden bekeken.
+
+**Opmerking**: _De platformbeheerder kan een extra optie inschakelen in het gedeelte 'Feedback' van de geavanceerde instellingen:\_\_Zelfevaluatie\(onmiddellijke feedback\)._ Deze optie, indien aangevinkt, schakelt het 'scenario' in vraagtypen waarmee docenten quizzen kunnen bedenken op basis van multiple-choice of image mapping-vragen die, afhankelijk van het gegeven antwoord, de leerling naar alternatieve vervolgvragen leiden. Dit is een krachtig hulpmiddel - houd er echter rekening mee dat zodra _zelfevaluatie_ is aangevinkt, deze geavanceerde instellingen niet meer kunnen worden gewijzigd: u zult in plaats daarvan een nieuwe test moeten maken die niet is gebaseerd op de optie _Zelfevaluatie \(onmiddellijke feedback\)_.
