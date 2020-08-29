@@ -6,7 +6,7 @@ Het maken van een nieuwe test is heel eenvoudig. Klik op het pictogram voor het 
 
 Afbeelding 44: Oefeningen - Maak een nieuwe test
 
-Als u ervoor kiest om _ een context aan de test te geven_ \_![](../../.gitbook/assets/graphics131%20%281%29.png)\_u kunt de online editor gebruiken om een verklarende sectie samen te stellen die zichtbaar zal zijn voor studenten wanneer ze de test maken.
+Als u ervoor kiest om _een context aan de test te geven_ \_![](../../.gitbook/assets/graphics131%20%281%29.png)\_u kunt de online editor gebruiken om een verklarende sectie samen te stellen die zichtbaar zal zijn voor studenten wanneer ze de test maken.
 
 De test wordt weergegeven op de hoofdpagina van de testtool, samen met andere tests die in de cursus zijn gemaakt:
 
@@ -34,4 +34,4 @@ De instellingen zijn vrij vanzelfsprekend:
 * Een slagingspercentage kan worden ingesteld om succes of mislukking voor de student aan te geven
 * Er kan een slotbericht worden opgesteld dat na voltooiing kan worden bekeken.
 
-**Opmerking**: _De platformbeheerder kan een extra optie inschakelen in het gedeelte 'Feedback' van de geavanceerde instellingen:\_\_Zelfevaluatie\(onmiddellijke feedback\)._ Deze optie, indien aangevinkt, schakelt het 'scenario' in vraagtypen waarmee docenten quizzen kunnen bedenken op basis van multiple-choice of image mapping-vragen die, afhankelijk van het gegeven antwoord, de leerling naar alternatieve vervolgvragen leiden. Dit is een krachtig hulpmiddel - houd er echter rekening mee dat zodra _zelfevaluatie_ is aangevinkt, deze geavanceerde instellingen niet meer kunnen worden gewijzigd: u zult in plaats daarvan een nieuwe test moeten maken die niet is gebaseerd op de optie _Zelfevaluatie \(onmiddellijke feedback\)_.
+**Opmerking**: _De platformbeheerder kan een extra optie inschakelen in het gedeelte 'Feedback' van de geavanceerde instellingen: \_\_Zelfevaluatie\(onmiddellijke feedback\)._ Deze optie, indien aangevinkt, schakelt het 'scenario' in vraagtypen waarmee docenten quizzen kunnen bedenken op basis van multiple-choice of image mapping-vragen die, afhankelijk van het gegeven antwoord, de leerling naar alternatieve vervolgvragen leiden. Dit is een krachtig hulpmiddel - houd er echter rekening mee dat zodra _zelfevaluatie_ is aangevinkt, deze geavanceerde instellingen niet meer kunnen worden gewijzigd: u zult in plaats daarvan een nieuwe test moeten maken die niet is gebaseerd op de optie _Zelfevaluatie \(onmiddellijke feedback\)_.
