@@ -6,7 +6,7 @@ During test creation, the database shows questions from other tests, as well as 
 
 When the question database shows, it presents a list of all existing questions inside the course. This is where assigning questions to categories and adding a difficulty to tests can prove very useful for identifying individual questions: use the _Filter_ and _Difficulty_ drop-down lists to filter the questions accordingly.
 
-To access the database, click on the _recycle existing questions_ icon ![](../../.gitbook/assets/graphics361%20%281%29.png) as it is listed on the _Create a question_ page alongside the various question types:
+To access the database, click on the _recycle existing questions_ icon ![](../../.gitbook/assets/graphics361.png) as it is listed on the _Create a question_ page alongside the various question types:
 
 ![](../../.gitbook/assets/images56%20%285%29.png)
 

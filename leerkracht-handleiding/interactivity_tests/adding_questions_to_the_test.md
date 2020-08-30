@@ -57,7 +57,7 @@ Afbeelding 49: Tests - Meerkeuzevragen, één antwoord
 
 ## Type 2: meerkeuze - meervoudig antwoord <a id="type-2-multiple-choice-multiple-answer"></a>
 
-![](../../.gitbook/assets/graphics350%20%281%29.gif)Dit vraagtype is een variatie op de vorige eenvoudige meerkeuzevraag. Hiermee kunt u meer dan één geldig antwoord toewijzen. Ook hier zijn positieve en negatieve scores mogelijk. Dit type vraag kan voor studenten uitdagender zijn \(u kunt in de vraag aangeven dat er twee antwoorden zijn - om ze niet te 'misleiden'!
+![](../../.gitbook/assets/graphics350.png)Dit vraagtype is een variatie op de vorige eenvoudige meerkeuzevraag. Hiermee kunt u meer dan één geldig antwoord toewijzen. Ook hier zijn positieve en negatieve scores mogelijk. Dit type vraag kan voor studenten uitdagender zijn \(u kunt in de vraag aangeven dat er twee antwoorden zijn - om ze niet te 'misleiden'!
 
 ![](../../.gitbook/assets/graphics140%20%281%29.png)
 
@@ -65,7 +65,7 @@ Afbeelding 50: Tests - vraag met meerdere antwoorden
 
 ## Type 3: Vul de lege plekken in <a id="type-3-fill-the-blanks"></a>
 
-![](../../.gitbook/assets/graphics351%20%281%29.gif)Dit vraagtype kan worden gebruikt om de klassieke oefening "cloze passage" te produceren die de voorkeur geniet van taaldocenten, waarin bepaalde woorden in een geschreven passage kunnen worden geselecteerd om te worden weergegeven als een leeg veld dat leerlingen kunnen invullen. Ten eerste heeft de leraar gewoon om de passage \(of lijst met zinnen\) te typen en vervolgens vierkante haken toe te voegen rond de woorden die moeten worden "blanco". \(Deze woorden worden aan de leerling weergegeven als lege tekstvelden, die als correct worden gemarkeerd als de leerling het juiste antwoord invoert dat overeenkomt met het woord dat door de leraar is getypt.\) Zodra de vierkante haken zijn toegevoegd, zal het formulier toon een "score" -veld voor elk woord dat moet worden gecorrigeerd. Om de toets wat gemakkelijker te maken, kan de docent ervoor kiezen om de te kiezen woorden in het vak "verrijkingsvraag" te vermelden. Het is een handige test om de belangrijkste terminologie of woordenschat te controleren.
+![](../../.gitbook/assets/graphics351.png)Dit vraagtype kan worden gebruikt om de klassieke oefening "cloze passage" te produceren die de voorkeur geniet van taaldocenten, waarin bepaalde woorden in een geschreven passage kunnen worden geselecteerd om te worden weergegeven als een leeg veld dat leerlingen kunnen invullen. Ten eerste heeft de leraar gewoon om de passage \(of lijst met zinnen\) te typen en vervolgens vierkante haken toe te voegen rond de woorden die moeten worden "blanco". \(Deze woorden worden aan de leerling weergegeven als lege tekstvelden, die als correct worden gemarkeerd als de leerling het juiste antwoord invoert dat overeenkomt met het woord dat door de leraar is getypt.\) Zodra de vierkante haken zijn toegevoegd, zal het formulier toon een "score" -veld voor elk woord dat moet worden gecorrigeerd. Om de toets wat gemakkelijker te maken, kan de docent ervoor kiezen om de te kiezen woorden in het vak "verrijkingsvraag" te vermelden. Het is een handige test om de belangrijkste terminologie of woordenschat te controleren.
 
 ![](../../.gitbook/assets/graphics139%20%281%29.png)
 
@@ -77,7 +77,7 @@ De vraag zal als volgt verschijnen voor de leerling, die gewoon het juiste woord
 
 ## Type 4: bijpassende <a id="type-4-matching"></a>
 
-![](../../.gitbook/assets/graphics352%20%281%29.gif)Dit type vraag is bedoeld om de leerling tekstelementen uit de ene lijst te laten koppelen aan tekstelementen in een andere. Een element kan een woord, een zin of een deelzin zijn. Het kan ook worden gebruikt om een gebruiker te vragen elementen in een bepaalde volgorde te sorteren.
+![](../../.gitbook/assets/graphics352.png)Dit type vraag is bedoeld om de leerling tekstelementen uit de ene lijst te laten koppelen aan tekstelementen in een andere. Een element kan een woord, een zin of een deelzin zijn. Het kan ook worden gebruikt om een gebruiker te vragen elementen in een bepaalde volgorde te sorteren.
 
 ![](../../.gitbook/assets/graphics142%20%281%29.png)
 
@@ -91,7 +91,7 @@ of, vanaf 1.9.6, een versleepbare cirkel zal het iets aantrekkelijker maken voor
 
 ## Type 5 : Open vraag <a id="type-5-open-question"></a>
 
-![](../../.gitbook/assets/graphics353%20%281%29.gif)Bij het open vraagtype kan de leerling schrijven wat hij maar wil als antwoord \(een soort "mini-opdracht\). Aangezien een dergelijke activiteit geen eenduidig antwoord heeft, wordt deze **niet** automatisch geëvalueerd aan het einde van de toets, maar moet deze handmatig door de docent worden geëvalueerd voordat het definitieve toetsresultaat kan worden gescoord. Net als bij opdrachten en gemarkeerde forumberichten, kan de leraar dit doen via de tool _Recording_ die open vragen markeert die moeten worden gemarkeerd.
+![](../../.gitbook/assets/graphics353.png)Bij het open vraagtype kan de leerling schrijven wat hij maar wil als antwoord \(een soort "mini-opdracht\). Aangezien een dergelijke activiteit geen eenduidig antwoord heeft, wordt deze **niet** automatisch geëvalueerd aan het einde van de toets, maar moet deze handmatig door de docent worden geëvalueerd voordat het definitieve toetsresultaat kan worden gescoord. Net als bij opdrachten en gemarkeerde forumberichten, kan de leraar dit doen via de tool _Recording_ die open vragen markeert die moeten worden gemarkeerd.
 
 ![](../../.gitbook/assets/images54%20%285%29.png)
 
@@ -103,7 +103,7 @@ De leerling krijgt een tekstveld te zien waarin hij kan schrijven. \(Hij kan de 
 
 ## Type 6: Audio antwoord <a id="type-6-audio-answer"></a>
 
-![](../../.gitbook/assets/graphics354%20%284%29.png)Dit nieuwe vraagtype, beschikbaar bij Chamilo 1.9, zal alleen verschijnen als je beheerder de Nanogong audio-opnamefunctie heeft ingeschakeld. De vraag kan worden vergeleken met het hierboven beschreven type "open vraag", waarbij handmatige markering door de leraar vereist is, maar in plaats van de leerling te vragen een tekstgedeelte te schrijven, vraagt u hem een audioantwoord op te nemen. Dit heeft duidelijke toepassingen voor taalcursussen, of voor leerlingen met specifieke toegangsbehoeften, maar kan een nuttig alternatief bieden in veel studiegebieden - het aanmoedigen van leerlingen om hun mondelinge presentatievaardigheden te ontwikkelen.
+![](../../.gitbook/assets/graphics354.png)Dit nieuwe vraagtype, beschikbaar bij Chamilo 1.9, zal alleen verschijnen als je beheerder de Nanogong audio-opnamefunctie heeft ingeschakeld. De vraag kan worden vergeleken met het hierboven beschreven type "open vraag", waarbij handmatige markering door de leraar vereist is, maar in plaats van de leerling te vragen een tekstgedeelte te schrijven, vraagt u hem een audioantwoord op te nemen. Dit heeft duidelijke toepassingen voor taalcursussen, of voor leerlingen met specifieke toegangsbehoeften, maar kan een nuttig alternatief bieden in veel studiegebieden - het aanmoedigen van leerlingen om hun mondelinge presentatievaardigheden te ontwikkelen.
 
 \(Opmerking: dit vraagtype vereist dat de leerling Java-applets ondersteunt in zijn browser. Als dit niet het geval is, moet hij de audio afzonderlijk opnemen en deze vervolgens als mp3-bestand naar de server uploaden.\)
 
@@ -121,7 +121,7 @@ De leerling hoeft alleen maar op _Record antwoord_ te drukken wanneer hij klaar 
 
 ## Type 7 : Hotspot of afbeeldingsgebied <a id="type-7-hot-spot-or-image-area"></a>
 
-![](../../.gitbook/assets/graphics355%20%281%29.gif)Bij dit type vraag wordt de leerling gevraagd gebieden in een afbeelding te identificeren door erop te klikken. Deze gebieden zijn vooraf bepaald door de docent. Het bouwen van een van deze vragen vereist iets meer werk dan andere typen.
+![](../../.gitbook/assets/graphics355.png)Bij dit type vraag wordt de leerling gevraagd gebieden in een afbeelding te identificeren door erop te klikken. Deze gebieden zijn vooraf bepaald door de docent. Het bouwen van een van deze vragen vereist iets meer werk dan andere typen.
 
 ![](../../.gitbook/assets/graphics147%20%281%29.png)
 
@@ -137,7 +137,7 @@ Afbeelding 56: Oefeningen - Hotspot-leerlingweergave
 
 ## Type 8 : Exacte combinatie <a id="type-8-exact-combination"></a>
 
-![](../../.gitbook/assets/graphics356%20%281%29.gif)Dit is een variatie op de test met meerdere antwoordtypen die hierboven is bekeken. Het enige verschil is dat geen gedeeltelijk correcte combinatie wordt geaccepteerd. Dit betekent dat als tussen opties A-B-C-D alleen B en D correct zijn, u zowel B **als** D moet markeren om de punten te krijgen die aan deze vraag zijn toegewezen. Er wordt daarom maar één totaalscoreveld op het formulier weergegeven.
+![](../../.gitbook/assets/graphics356.png)Dit is een variatie op de test met meerdere antwoordtypen die hierboven is bekeken. Het enige verschil is dat geen gedeeltelijk correcte combinatie wordt geaccepteerd. Dit betekent dat als tussen opties A-B-C-D alleen B en D correct zijn, u zowel B **als** D moet markeren om de punten te krijgen die aan deze vraag zijn toegewezen. Er wordt daarom maar één totaalscoreveld op het formulier weergegeven.
 
 ![](../../.gitbook/assets/images55%20%285%29.png)
 
@@ -145,7 +145,7 @@ Afbeelding 57: Tests - exacte combinatie
 
 ## Type 9 : Uniek antwoord met onbekend <a id="type-9-unique-answer-with-unknown"></a>
 
-![](../../.gitbook/assets/graphics357%20%281%29.gif)Soms wil een leraar dat de leerling aangeeft dat hij het antwoord op een vraag niet weet, in plaats van alleen maar een antwoord te raden. Dit vraagtype is een meerkeuzevraag met één antwoord, maar reserveert het laatste antwoord als een "Weet niet" -optie, met een automatische score van nul. Studenten kunnen worden ontmoedigd om te raden door een verkeerd antwoord te bestraffen met een negatieve score.
+![](../../.gitbook/assets/graphics357.png)Soms wil een leraar dat de leerling aangeeft dat hij het antwoord op een vraag niet weet, in plaats van alleen maar een antwoord te raden. Dit vraagtype is een meerkeuzevraag met één antwoord, maar reserveert het laatste antwoord als een "Weet niet" -optie, met een automatische score van nul. Studenten kunnen worden ontmoedigd om te raden door een verkeerd antwoord te bestraffen met een negatieve score.
 
 ![](../../.gitbook/assets/graphics150%20%281%29.png)
 
@@ -153,7 +153,7 @@ Afbeelding 58: Tests - uniek antwoord met onbekend
 
 ## Type 10 : Meerdere antwoorden Klopt/Vals/Weet het niet <a id="type-10-multiple-answer-true-false-don-t-know"></a>
 
-![](../../.gitbook/assets/graphics358%20%281%29.gif)Dit is een ander combinatieformaat met een nulscore "weet niet" -optie zoals bij de bovenstaande vraagoptie, maar met waar/onwaar-antwoorden in plaats van meerkeuzevragen. Nogmaals, er kunnen negatieve scores worden toegekend om gissen te ontmoedigen en om "eerlijke" onwetendheid toe te geven!
+![](../../.gitbook/assets/graphics358.png)Dit is een ander combinatieformaat met een nulscore "weet niet" -optie zoals bij de bovenstaande vraagoptie, maar met waar/onwaar-antwoorden in plaats van meerkeuzevragen. Nogmaals, er kunnen negatieve scores worden toegekend om gissen te ontmoedigen en om "eerlijke" onwetendheid toe te geven!
 
 ![](../../.gitbook/assets/graphics151%20%281%29.png)
 
@@ -161,7 +161,7 @@ Afbeelding 59: Tests - Meerdere antwoorden waar/onwaar/weet niet
 
 ## Type 11 : Combinatie Klopt/Vals/Weet het niet <a id="type-11-combination-true-false-don-t-know"></a>
 
-![](../../.gitbook/assets/graphics359%20%281%29.gif)Deze optie biedt een enkele score voor een of meer vragen. Het formulier lijkt op het formulier "exact antwoord", maar de toets wordt anders aan de student getoond, zoals hieronder geïllustreerd.
+![](../../.gitbook/assets/graphics359.png)Deze optie biedt een enkele score voor een of meer vragen. Het formulier lijkt op het formulier "exact antwoord", maar de toets wordt anders aan de student getoond, zoals hieronder geïllustreerd.
 
 ![](../../.gitbook/assets/graphics170%20%281%29.png)
 
@@ -175,7 +175,7 @@ De leerling zal de vraag \(s\) bekijken en keuzerondjes als volgt gebruiken:
 
 ## Type 12 : Globaal meervoudig antwoord <a id="type-12-global-multiple-answer"></a>
 
-![](../../.gitbook/assets/graphics360%20%281%29.gif)Dit vraagformaat combineert het formaat met meerdere antwoorden met een enkele score, waardoor er een optie is om ervoor te zorgen dat er geen negatieve score wordt behaald
+![](../../.gitbook/assets/graphics360.png)Dit vraagformaat combineert het formaat met meerdere antwoorden met een enkele score, waardoor er een optie is om ervoor te zorgen dat er geen negatieve score wordt behaald
 
 ![](../../.gitbook/assets/graphics152%20%281%29.png)
 
