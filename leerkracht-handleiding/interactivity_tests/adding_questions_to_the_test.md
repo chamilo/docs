@@ -49,7 +49,7 @@ Vragen worden gemaakt met behulp van een online formulier dat verschilt naargela
 
 ## Type 1: meerkeuze - één antwoord <a id="type-1-multiple-choice-single-answer"></a>
 
-![](../../.gitbook/assets/graphics153%20%281%29.gif)De klassieke meerkeuzevraag is er een waarin **slechts één antwoord** als geldig kan worden beschouwd voor scoringsdoeleinden. Het is mogelijk om de test wat uitdagender te maken door een negatieve score toe te kennen aan een fout antwoord. Wanneer dit wordt gemarkeerd \(bijv. In de inleiding van de test of de vraag zelf\), moedigt dit de leerling aan om zorgvuldiger na te denken voordat hij een willekeurig antwoord selecteert en een boete oploopt.
+![](../../.gitbook/assets/graphics153.png)De klassieke meerkeuzevraag is er een waarin **slechts één antwoord** als geldig kan worden beschouwd voor scoringsdoeleinden. Het is mogelijk om de test wat uitdagender te maken door een negatieve score toe te kennen aan een fout antwoord. Wanneer dit wordt gemarkeerd \(bijv. In de inleiding van de test of de vraag zelf\), moedigt dit de leerling aan om zorgvuldiger na te denken voordat hij een willekeurig antwoord selecteert en een boete oploopt.
 
 ![](../../.gitbook/assets/graphics154%20%281%29.png)
 
