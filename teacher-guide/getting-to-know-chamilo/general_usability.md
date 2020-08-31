@@ -4,23 +4,31 @@ Chamilo has been designed to provide help and support within the application. Th
 
 ![](../../.gitbook/assets/images2%20%283%29.png)
 
-_Illustration 2: Icons label_
+Illustration 2: Icons label
 
 There is also an online _help_ facility on most pages which appears as a partially hidden lifebuoy ring on the top right side of your screen \(see Illustration 3: Folded help\) and clicking it will open a window explaining the feature you're in and how to use it \(see Illustration 4, Unfolded help \).It remains in place when you scroll the screen so that it's constantly available and you can open and close it without affecting your current work. When you click the buoy, a small guide will open up, explaining the tool you're in and how to use it \(see Illustration 5: Contextual help pop-up\).
 
-![](../../.gitbook/assets/images3%20%283%29.png)Illustration 3: Folded help \| ![](../../.gitbook/assets/illustration_4%20%281%29.png)
+![](../../.gitbook/assets/images3%20%283%29.png)
 
-\*Illustration 4: Unfolded help
+Illustration 3: Folded help
 
-![](../../.gitbook/assets/images5%20%283%29.png)_Illustration 5: Contextual help pop-up_
+![](../../.gitbook/assets/illustration_4%20%281%29.png)
+
+Illustration 4: Unfolded help
+
+![](../../.gitbook/assets/images5%20%283%29.png)
+
+Illustration 5: Contextual help pop-up
 
 ## Terminology <a id="terminology"></a>
 
-At the time of writing, Chamilo is being used by more than 30,000 organizations around the world, in many different languages, including primary schools, colleges, higher education institutes, universities, NGOs, small, medium and large companies.
+At the time of writing, Chamilo is being used by more than 50,000 organizations around the world, in many different languages, including primary schools, colleges, higher education institutes, universities, NGOs, small, medium and large companies.
 
 Obviously, all these bodies and institutions tend to use slightly differing terminologies. For example, some institutions will call their courses “Training sessions”, others will call them “Learning spaces” and others simply “Courses”. This presents challenges for the design of a “one-size-fits-all” e-learning platform \(or even user guide\), so we have sought the middle road, and employ a simple, universal terminology which we trust will make sense to all our users.
 
-![](../../.gitbook/assets/images4%20%282%29.png)_Illustration 6: History of Chamilo installations around the world, 2015 to 2017_
+![](../../.gitbook/assets/images4%20%282%29.png)
+
+Illustration 6: History of Chamilo installations around the world, 2015 to 2017
 
 Of course, because we understand your organization may prefer a specific terminology, we have equipped Chamilo with a way to edit any interface term from within the platform administration. \(this requires administration skills and is thus described in the _Chamilo Administration Guide_\). Should you urgently require a customization, you can ask one of our official providers for a customized language pack to be imported into your platform.
 
@@ -28,5 +36,5 @@ In this guide, we have endeavored to employ a universal terminology so, for exam
 
 This manual is available in several formats, so you can always download it in editable format from our website and do a quick search & replace operation to make it fit your needs. Don't hesitate to send us the updated version back for sharing with others at info@chamilo.org. You'll be amazed at how this can benefit you in return, as other communities build up on your work to make things even better.
 
-The somewhat ambivalent term “**training**” which had been employed in previous versions of the software has now been replaced by the more understandable term “**course**”, while the previously ousted term “**learning path**” has now been reinstated after a short and unpopular change to “**course**”. You will find all these terms defined and explained in the following guide. If in any doubt, make sure you check our Glossary on page 177 Don't forget: you can customize these terms with the help of your Chamilo administrator \(if that's you, check the _Chamilo Administration Guide,_ also available from our website\).
+The somewhat ambivalent term “**training**” which had been employed in previous versions of the software has now been replaced by the more understandable term “**course**”, while the previously ousted term “**learning path**” has now been reinstated after a short and unpopular change to “**course**”. You will find all these terms defined and explained in the following guide. Don't forget: you can customize these terms with the help of your Chamilo administrator \(if that's you, check the _Chamilo Administration Guide,_ also available from our website\).
 
