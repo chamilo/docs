@@ -14,5 +14,5 @@ Dit nieuwe concept steunt in wezen op een nieuwe manier om toetsen en leertrajec
 
 Afbeelding 196: Sessies - Nieuw sessiescherm
 
-Klik op het relevante sessiepictogram ![](../../.gitbook/assets/graphics372%20%283%29.png) weergegeven op de _Mijn cursussen_ pagina Het hoofdscherm toont vier tabbladen: _Cursussen, Leerpaden, Mijn MCQ \(Meerkeuzevragen \) en Mijn statistieken_
+Klik op het relevante sessiepictogram ![](../../.gitbook/assets/graphics372%20%283%29.png) weergegeven op de _Mijn cursussen_ pagina Het hoofdscherm toont vier tabbladen: _Cursussen, Leerpaden, Mijn MCQ \(Meerkeuzevragen\) en Mijn statistieken_
 
