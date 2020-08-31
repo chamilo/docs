@@ -14,7 +14,9 @@ The course will be visible by the course creator and \(later\) by the users subs
 
 To create the course, you need only enter a single element, i.e. a clear and detailed title.
 
-![](../.gitbook/assets/images15%20%283%29.png)_Illustration 14: Creating a course – short version_
+![](../.gitbook/assets/images15%20%283%29.png)
+
+_Illustration 14: Creating a course – short version_
 
 Additional **options** \(entirely optional\) are available by clicking on the \_Advanced settings\_button:
 
@@ -25,14 +27,18 @@ Additional **options** \(entirely optional\) are available by clicking on the \_
 * the course can be filled with some **demo content** to indicate to the new course administrator the sort of thing s/he can create inside the course \(typically an exercise, forums and an introduction section\). Alternatively, this can be left completely empty.
 * finally, the course can be created from a template course that you have access to \(you must be a teacher in the template course to see it appear in your list\)
 
-![](../.gitbook/assets/images16%20%283%29.png)_Illustration 15: Create a course – extended version_
+![](../.gitbook/assets/images16%20%283%29.png)
+
+_Illustration 15: Create a course – extended version_
 
 In versions 1.9 and 1.10, a course creation follow-up page was displayed, which suggested:
 
 * going straight to the newly created course \(through a link on the course title\),
 * going directly, by clicking on the relevant icon, to one of the most common course configuration steps, as illustrated below.
 
-![](../.gitbook/assets/images271.png)_Illustration 16: Course creation follow-up page_
+![](../.gitbook/assets/images271.png)
+
+_Illustration 16: Course creation follow-up page_
 
 However, feedback has been relatively negative about this feature, so we decided to disable it by default in version 1.11 onward. Your administrator can still enable this if desired.
 

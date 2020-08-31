@@ -8,7 +8,9 @@ You just need to click on the course name to access its homepage. The various to
 * **Interaction** : tools for teacher-learner or learner-learner interaction within the course,
 * **Administration** : tools for the management of course options.
 
-![](../.gitbook/assets/images26%20%283%29.png)_Illustration 24: Course tools – Classical option_
+![](../.gitbook/assets/images26%20%283%29.png)
+
+_Illustration 24: Course tools – Classical option_
 
 ![](../.gitbook/assets/graphics79.png)
 
@@ -16,7 +18,9 @@ The teacher can choose to hide or show distinct tools using the _eye_ icon under
 
 Note : In some cases the administrator may make tools unavailable to course teachers or enable tools which depend on specific extensions \(like the full-text search or the video conference\), so what you see entering the course might not be the same as described here.
 
-![](../.gitbook/assets/images27%20%283%29.png)_Illustration 25: Authoring tools in ipad type view_
+![](../.gitbook/assets/images27%20%283%29.png)
+
+_Illustration 25: Authoring tools in big activity view type_
 
 > **Note** : The course interface can be presented in different ways depending on what the administrator's chooses. He might, for example, enable a view that was popular in previous versions of Chamilo, as in this illustration. This view is called the 2-columns activity view.
 

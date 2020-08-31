@@ -2,7 +2,9 @@
 
 The homepage is the first visible page. It contains the login form and a few other important elements.
 
-![](../.gitbook/assets/images269.png)_Illustration 7: Homepage_
+![](../.gitbook/assets/images269.png)
+
+_Illustration 7: Homepage_
 
 Although your mileage may \(and certainly will\) vary, this is mostly what you should find on a Chamilo portal’s homepage:
 
