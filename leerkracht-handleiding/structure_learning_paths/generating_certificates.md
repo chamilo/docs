@@ -1,4 +1,3 @@
 # Certificaten genereren
 
-You can readily create a certificate for students successfully completing the course. To do so, just make the last step in your course a certificate which students can view or print off. You can upload an existing pre-made certificate to the course documents area \(e.g. an image or .pdf file\). Alternatively, Chamilo offers a tool for creating certificate templates, which allows for the automatic generation of a certificate detailing relevant data for each learner in the course \(see Chapter 18\).
-
+U kunt gemakkelijk een certificaat aanmaken voor studenten die de cursus met succes hebben afgerond. Om dit te doen, maakt u voor de laatste stap in uw cursus een certificaat dat studenten kunnen bekijken of afdrukken. U kunt een bestaand, vooraf gemaakt certificaat uploaden naar het gedeelte met cursusdocumenten \(bijvoorbeeld een afbeelding of .pdf-bestand\). Als alternatief biedt Chamilo een tool voor het maken van certificaatsjablonen, waarmee automatisch een certificaat kan worden gegenereerd met relevante gegevens voor elke leerling in de cursus \(zie hoofdstuk 18\).
