@@ -1,18 +1,18 @@
 # Sessieweergave
 
-From Chamilo 1.8.8 platforms onwards, if your platform uses _Course sessions_ a new view type has become available from the _My courses_ tab. This is a special “sessions” view, which you will find is a very different way of presenting courses and tools \(specifically learning paths and tests\).
+Vanaf Chamilo 1.8.8 platforms, als uw platform _Cursussessies_ gebruikt, is een nieuw weergavetype beschikbaar op het tabblad _Mijn cursussen_. Dit is een speciale weergave van "sessies", waarin u zult zien dat het een heel andere manier is om cursussen en tools \(met name leertrajecten en tests\) te presenteren.
 
 ![](../../.gitbook/assets/images262%20%283%29.png)
 
-Illustration 195: My courses - Sessions
+Illustratie 195: Mijn cursussen - Sessies
 
-One main difference from previous versions of Chamilo is that the session title is now a link which leads directly to a page whose appearance differs in many ways from the rest of Chamilo. \(This is a new format of presentation that we will be studying over the next few months, and we're counting on your help and feedback. Do let us know what you think on the Chamilo forum: [http://www.chamilo.org/](http://www.chamilo.org/)\)
+Een belangrijk verschil met eerdere versies van Chamilo is dat de sessietitel nu een link is die rechtstreeks naar een pagina leidt waarvan het uiterlijk in veel opzichten verschilt van de rest van Chamilo. \(Dit is een nieuw presentatievorm dat we de komende maanden zullen bestuderen, en we rekenen op uw hulp en feedback. Laat ons weten wat u ervan vindt op het Chamilo-forum: [http://www.chamilo.org/](http://www.chamilo.org/)\)
 
-This new concept relies essentially on a new way of setting up tests and learning paths based on timescales. By making sure each exercise and learning path has a start and end date, the data shown in these screens make far more sense. \(As such, it is not well suited to asynchronous teaching i.e. purely remote e-learning, with its relatively free timescales.\)
+Dit nieuwe concept steunt in wezen op een nieuwe manier om toetsen en leertrajecten op te zetten op basis van tijdschalen. Door ervoor te zorgen dat elke oefening en leerpad een begin- en einddatum heeft, zijn de gegevens die op deze schermen worden weergegeven veel logischer. \(Als zodanig is het niet erg geschikt voor asynchroon onderwijs, d.w.z. puur e-learning op afstand, met zijn relatief vrije tijdschalen.\)
 
 ![](../../.gitbook/assets/graphics370%20%283%29.png)
 
-Illustration 196: Sessions – New session screen
+Afbeelding 196: Sessies - Nieuw sessiescherm
 
-Click on the relevant session icon ![](../../.gitbook/assets/graphics372%20%283%29.png) displayed in the _My courses_ page The main screen displays four tabs: _Courses, Learning paths, My MCQ \(Multiple Choice Questions\), and My statistics_
+Klik op het relevante sessiepictogram ![](../../.gitbook/assets/graphics372%20%283%29.png) weergegeven op de _Mijn cursussen_ pagina Het hoofdscherm toont vier tabbladen: _Cursussen, Leerpaden, Mijn MCQ \(Meerkeuzevragen \) en Mijn statistieken_
 
