@@ -1,12 +1,15 @@
 # Toon individuele details van de leerling
 
-On the _Reporting_ page, click the _Details_ icon ![](../../.gitbook/assets/graphics53%20%283%29.gif) next to the name of the learner you want to check on. The new page shows the learner's details in summary, including profile information, photo, connection and summary progress details, but also detailed information about the student's progress through each learning path, results in tests, and potentially useful information about other activities such as assignments, messages sent, links visited, documents uploaded and chat.
+Klik op de pagina _Rapportage_ op het pictogram _details_ ![](../../.gitbook/assets/graphics53%20%283%29.gif) naast de naam van de leerling die u wilt controleren. De nieuwe pagina toont de details van de leerling in samenvatting, inclusief profielinformatie, foto, verbinding en samenvattende voortgangsgegevens, maar ook gedetailleerde informatie over de voortgang van de leerling tijdens elk leertraject, resultaten in toetsen en mogelijk bruikbare informatie over andere activiteiten zoals opdrachten, verzonden berichten, bezochte links, geüploade documenten en chat.
 
-![](../../.gitbook/assets/graphics54%20%281%29.png)Illustration 88: Reporting – individual student's details
+![](../../.gitbook/assets/graphics54%20%281%29.png)
 
-The information can be printed ![](../../.gitbook/assets/graphics51%20%283%29.png) , exported as a csv file ![](../../.gitbook/assets/graphics185%20%283%29.png) or mailed ![](../../.gitbook/assets/graphics186%20%283%29.png) by clicking on the relevant toolbar icon at the top of the page. Further details about test attempts and scores and progress through learning paths can be accessed by clicking on the various icons on the page.
+Afbeelding 88: Rapportage - gegevens van individuele studenten
 
-Clicking on the _Access Details_ icon ![](../../.gitbook/assets/graphics184%20%283%29.png) in the toolbar allows the teacher to see the course \(times and dates\) . This general reporting screen gives a general idea of the participation of the learner, which is useful for judging of the involvement of the learner inside the course.
+De informatie kan worden afgedrukt ![](../../.gitbook/assets/graphics51%20%283%29.png) , geëxporteerd als een csv-bestand ![](../../.gitbook/assets/graphics185%20%283%29.png) of gemaild ![](../../.gitbook/assets/graphics186%20%283%29.png) door op het relevante werkbalkpictogram bovenaan de pagina te klikken. Verdere details over testpogingen en scores en voortgang door leertrajecten zijn toegankelijk door op de verschillende pictogrammen op de pagina te klikken.
 
-![](../../.gitbook/assets/graphics183%20%281%29.png)Illustration 89: Users – Access details
+Klik op het pictogram _Toegangsdetails_ ![](../../.gitbook/assets/graphics184%20%283%29.png) in de werkbalk kan de docent de cursus \(tijden en datums\) zien. Dit algemene rapportagescherm geeft een algemeen idee van de deelname van de leerling, wat handig is om de betrokkenheid van de leerling binnen de cursus te beoordelen.
 
+![](../../.gitbook/assets/graphics183%20%281%29.png)
+
+Afbeelding 89: Gebruikers - Toegang tot details
