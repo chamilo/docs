@@ -1,4 +1,4 @@
 # Enquête
 
-The S_urvey_ tool ![](../../.gitbook/assets/graphics290.png) allows the teacher to collect information, views and opinions from course participants. It might typically be used during or at the end of a course as an aid to overall course evaluation, or it may be used at the beginning of a course to gather information about learners' interests, aspirations, previous achievements etc. in order to help the teacher tailor aspects of the course content to suit his learners.
+De _Survey_ tool ![](../../.gitbook/assets/graphics290.png) stelt de docent in staat om informatie, meningen en meningen van cursisten te verzamelen. Het kan doorgaans tijdens of aan het einde van een cursus worden gebruikt als hulpmiddel bij de algehele evaluatie van een cursus, of het kan aan het begin van een cursus worden gebruikt om informatie te verzamelen over de interesses, ambities, eerdere prestaties enz. Van leerlingen om te helpen de leraar stemt aspecten van de cursusinhoud af op zijn leerlingen.
 
