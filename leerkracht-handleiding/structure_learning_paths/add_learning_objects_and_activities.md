@@ -20,7 +20,7 @@ Afbeelding 79: Leerpaden - Hulpprogramma voor het maken van rich media
 
 ## Gebruik bestaande bronnen <a id="use-existing-resources"></a>
 
-U kunt elk document gebruiken dat u eerder hebt geïmporteerd of aangemaakt in de documenten-tool van de cursus \(bijv. Een SCORM-cursus, _.html_-pagina's, video's, afbeeldingen, enz. - zie_Authoring content in Chamilo\_)._
+U kunt elk document gebruiken dat u eerder hebt geïmporteerd of aangemaakt in de documenten-tool van de cursus \(bijv. Een SCORM-cursus, _.html_-pagina's, video's, afbeeldingen, enz. - zie _Authoring content in Chamilo\_).
 
 U kunt ook tests, links, opdrachten en forums toevoegen door ze naar de lijst met leertrajecten aan de linkerkant van de pagina te slepen met behulp van het groene 'handvat' ![](../../.gitbook/assets/graphics26%20%281%29.png) . Het gekozen hulpmiddel zal verschijnen in de waar u ook kiest in het leertraject. Gebruik het handvat om items opnieuw te ordenen en gebruik het potlood ![](../../.gitbook/assets/graphics32%20%281%29.png) en kruis ![](../../.gitbook/assets/graphics27%20%281%29.png) pictogrammen om elementen te bewerken/verwijderen.
 
