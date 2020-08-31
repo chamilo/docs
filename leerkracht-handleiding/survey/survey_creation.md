@@ -1,14 +1,14 @@
 # Enquête maken
 
-To create a survey, click the _Create survey_ icon ![](../../.gitbook/assets/graphics291%20%283%29.png) on the main S_urvey_ page_:_
+Om een enquête te maken, klikt u op het pictogram _Enquête maken_ ![](../../.gitbook/assets/graphics291%20%283%29.png) op de hoofdpagina _Survey_:
 
 ![](../../.gitbook/assets/images223%20%283%29.png)
 
-Illustration 154: Surveys – Creation form
+Afbeelding 154: Enquêtes - Aanmaakformulier
 
-Complete the fields, giving your survey a _Code_, a _Title,_ and a _Subtitle_ \(description\). Optionally, you can set a start and end date so the survey is only available for a limited time. You can choose whether your survey will be anonymous \(users' answers will not be identifiable\) by checking the relevant box. Finally, write a survey introduction \(this is a text that will appear just before the user starts the survey\) and a _Final thanks_ message \(this will appear when the users finish the survey, to thank them and maybe inform them of when the results will be compiled and used\).
+Vul de velden in en geef uw enquête een _Code_, een _Title,_ en een _Subtitle_ \(description\). Optioneel kunt u een start- en einddatum instellen, zodat de enquête slechts een beperkte tijd beschikbaar is. U kunt kiezen of uw enquête anoniem is \(de antwoorden van gebruikers zullen niet identificeerbaar zijn\) door het relevante vakje aan te vinken. Schrijf ten slotte een inleiding voor de enquête \(dit is een tekst die verschijnt net voordat de gebruiker de enquête start\) en een _Dankzij_ bericht \(dit verschijnt wanneer de gebruikers de enquête hebben voltooid, om hen te bedanken en eventueel te informeren wanneer de resultaten worden gecompileerd en gebruikt\).
 
-In the _Advanced settings_, you can choose whether you want this survey to be considered an essential element of the _Assessments_ \(_Gradebook_\)\_s\_tool , whether you want it to be attached to a parent survey \(not documented in this guide yet\), whether you want to have one question per page or whether you want to shuffle questions.
+In de _Geavanceerde instellingen_ kunt u kiezen of u wilt dat deze enquête wordt beschouwd als een essentieel onderdeel van de _Assessments_ \(_Cijferlijst_\)\_s\_tool, of u deze wilt toevoegen aan een bovenliggende enquête \(niet gedocumenteerd in deze handleiding nog\), of u één vraag per pagina wilt hebben of dat u vragen in willekeurige volgorde wilt afwisselen.
 
-Remember to click the _Create survey_ button.
+Vergeet niet op de knop _Enquête maken_ te klikken.
 
