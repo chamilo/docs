@@ -1,12 +1,12 @@
 # Projecten
 
-The _Projects_ or _Blogs_ tool ![](../../.gitbook/assets/graphics307%20%283%29.png) was developed in 2006 at the request of a large Belgian telecoms company. The idea behind it was to implement a blog with lightweight project management features, which was tagged under the name of _Smart blogs_. Its philosophy is to allow for the assignment of tasks to the learners in order to write the contents of a story-telling type blog.
+De _Projecten_ of _Blogs_ tool ![](../../.gitbook/assets/graphics307%20%283%29.png) werd in 2006 ontwikkeld op vraag van een groot Belgisch telecombedrijf. Het idee erachter was om een blog te implementeren met lichtgewicht projectmanagementfuncties, die werd getagd onder de naam _Smart blogs_. De filosofie is om de toewijzing van taken aan de leerlingen mogelijk te maken om de inhoud van een blog van het type verhalen te schrijven.
 
-The teacher takes responsibility for choosing learners who will contribute to the blog, and defines the project and the assignment of tasks \(or roles taken by the learners\). The creation of articles is shared between the teacher and the learners.
+De leraar neemt de verantwoordelijkheid voor het kiezen van leerlingen die aan de blog zullen bijdragen, en definieert het project en de toewijzing van taken \(of rollen die door de leerlingen worden ingenomen\). Het maken van artikelen wordt gedeeld tussen de leraar en de leerlingen.
 
-The tool can, however, be used as a classic blog.
+De tool kan echter worden gebruikt als een klassieke blog.
 
-**Note** : When a new project is created, it appears in the list of course Authoring tools on the course homepage. Its visibility can be controlled like that of other tools. One main difference by comparison to other tools is that one can create several blogs in the same course. They will appear as multiple entries in the Authoring tools in much the same way as with links and learning paths.
+**Opmerking**: wanneer een nieuw project wordt aangemaakt, verschijnt het in de lijst met cursusauthenticatietools op de startpagina van de cursus. De zichtbaarheid ervan kan worden gecontroleerd zoals die van andere tools. Een belangrijk verschil met andere tools is dat je in dezelfde cursus meerdere blogs kunt maken. Ze verschijnen als meerdere vermeldingen in de ontwerptools op vrijwel dezelfde manier als bij links en leertrajecten.
 
 ![](../../.gitbook/assets/images237%20%283%29.png)Illustration 162: Projects - List
 
