@@ -1,15 +1,15 @@
 # Beheer van enquêtes
 
-A series of common icons are made available for the management of surveys, as well as a few specific icons.
+Er is een reeks veelgebruikte pictogrammen beschikbaar voor het beheer van enquêtes, evenals enkele specifieke pictogrammen.
 
-| Icons | Features |
+| Icons | Kenmerken |
 | :--- | :--- |
-| ![](../../.gitbook/assets/graphics297.png) | Edit survey settings |
-| ![](../../.gitbook/assets/images229.png) | Delete surveys |
-| ![](../../.gitbook/assets/graphics298.png) | Empty survey results |
-| ![](../../.gitbook/assets/graphics299.png) | Survey preview |
-| ![](../../.gitbook/assets/graphics300.png) | Publish survey |
-| ![](../../.gitbook/assets/graphics301.png) | Generate survey access link |
-| ![](../../.gitbook/assets/graphics302.png) | Access report features |
-| ![](../../.gitbook/assets/images234.png) | Change the order of the questions inside the survey |
+| ![](../../.gitbook/assets/graphics297.png) | Bewerk enquête-instellingen |
+| ![](../../.gitbook/assets/images229.png) | Verwijder enquêtes |
+| ![](../../.gitbook/assets/graphics298.png) | Lege enquêteresultaten |
+| ![](../../.gitbook/assets/graphics299.png) | Enquêtevoorbeeld |
+| ![](../../.gitbook/assets/graphics300.png) | Enquête publiceren |
+| ![](../../.gitbook/assets/graphics301.png) | Genereer toegangslink voor enquêtes |
+| ![](../../.gitbook/assets/graphics302.png) | Toegang tot rapportfuncties |
+| ![](../../.gitbook/assets/images234.png) | Verander de volgorde van de vragen in de enquête |
 
