@@ -8,5 +8,7 @@ De tool kan echter worden gebruikt als een klassieke blog.
 
 **Opmerking**: wanneer een nieuw project wordt aangemaakt, verschijnt het in de lijst met cursusauthenticatietools op de startpagina van de cursus. De zichtbaarheid ervan kan worden gecontroleerd zoals die van andere tools. Een belangrijk verschil met andere tools is dat je in dezelfde cursus meerdere blogs kunt maken. Ze verschijnen als meerdere vermeldingen in de ontwerptools op vrijwel dezelfde manier als bij links en leertrajecten.
 
-![](../../.gitbook/assets/images237%20%283%29.png)Illustration 162: Projects - List
+![](../../.gitbook/assets/images237%20%283%29.png)
+
+Afbeelding 162: Projecten - lijst
 
