@@ -1,10 +1,12 @@
 # Project creatie
 
-From the projects homepage:
+Vanaf de startpagina van projecten:
 
-* click the _Create a new project_ icon ,
-* give your project a name and a short description,
-* click _Save blog_.
+* klik op het pictogram _Create a new project_,
+* ggeef uw project een naam en een korte beschrijving,
+* klik op _Save blog_.
 
-![](../../.gitbook/assets/images238%20%283%29.png)Illustration 163: Blogs – Blog creation
+![](../../.gitbook/assets/images238%20%283%29.png)
+
+Illustratie 163: Blogs - Blogs maken
 
