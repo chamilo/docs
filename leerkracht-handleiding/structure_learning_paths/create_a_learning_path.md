@@ -1,6 +1,6 @@
 # Creëer een leerpad
 
-_Klik op het nieuwe cursus_ _pictogram_ maken:\_\__![](../../.gitbook/assets/graphics13%20%283%29.png)
+_Klik op het nieuwe cursus_ _pictogram_ maken:\_\_![](../../.gitbook/assets/graphics13%20%283%29.png)
 
 ![](../../.gitbook/assets/graphics9%20%281%29.png)
 
