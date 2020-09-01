@@ -1,6 +1,5 @@
 # Voeg een nieuwe verweesde pagina toe
 
-By clicking the _Add new page_ link inside the drop-down menu icon ![](../../.gitbook/assets/graphics210%20%283%29.png) , you create a new page, unrelated to the rest of the wiki. This is one way of preparing a page which will temporarily not be visible to users \(at least not in the usual way\).
+Door op de link _Nieuwe pagina toevoegen_ in het vervolgkeuzemenu te klikken ![](../../.gitbook/assets/graphics210%20%283%29.png), je maakt een nieuwe pagina aan, die geen verband houdt met de rest van de wiki. Dit is een manier om een pagina voor te bereiden die tijdelijk niet zichtbaar zal zijn voor gebruikers \(althans niet op de gebruikelijke manier\).
 
-**Note** : Orphan pages can be listed from the _All pages_ link in the drop-down menu.
-
+**Opmerking**: weespagina's kunnen worden weergegeven via de koppeling _Alle pagina's_ in het vervolgkeuzemenu.
