@@ -40,7 +40,7 @@ Vul gewoon het zoekveld in met de relevante karakters en klik op de _Zoeken_ kno
 
 ## Exporteer de lijst met geabonneerde gebruikers <a id="export-the-list-of-subscribed-users"></a>
 
-Misschien wilt u \(onafhankelijk van de reservekopieën die door uw zorgvuldige beheerder zijn gemaakt!\) Een aparte kopie van uw gebruikerslijst bewaren. Om dit te doen, klikt u op de hoofdpagina _Gebruikers_ op een van de exportpictogrammen in de werkbalk \(_CSV exporteren_\ ![](../../.gitbook/assets/graphics178%20%283%29.png) _Excel-export_ ![](../../.gitbook/assets/graphics179%20%283%29.png) _of pdf-export_ ![](../../.gitbook/assets/graphics363%20%283%29.png)\) om de lijst met gebruikers in het overeenkomstige formaat te downloaden.
+Misschien wilt u \(onafhankelijk van de reservekopieën die door uw zorgvuldige beheerder zijn gemaakt!\) Een aparte kopie van uw gebruikerslijst bewaren. Om dit te doen, klikt u op de hoofdpagina _Gebruikers_ op een van de exportpictogrammen in de werkbalk \(_CSV exporteren_ ![](../../.gitbook/assets/graphics178%20%283%29.png) _Excel-export_ ![](../../.gitbook/assets/graphics179%20%283%29.png) _of pdf-export_ ![](../../.gitbook/assets/graphics363%20%283%29.png)\) om de lijst met gebruikers in het overeenkomstige formaat te downloaden.
 
 **Opmerking**: niet alle gebruikersgegevens worden geëxporteerd via deze functie \(hun wachtwoorden zijn bijvoorbeeld vertrouwelijke informatie die niet beschikbaar is voor andere gebruikers, zelfs niet voor de leraar\).
 
