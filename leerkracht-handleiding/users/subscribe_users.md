@@ -1,50 +1,49 @@
 # Abonneer gebruikers
 
-Let's look first at how to subscribe new users as learners to the course. On the main _Users_ pagetoolbar, click on the _Enroll users to course_ icon ![](../../.gitbook/assets/graphics172%20%283%29.png)_._ This will display a list of users registered on the platform not subscribed to the course:
+Laten we eerst kijken hoe u nieuwe gebruikers als cursisten op de cursus kunt abonneren. Klik op de hoofdwerkbalk van de _gebruiker_ pagina op het pictogram _Gebruikers inschrijven voor cursus_![](../../.gitbook/assets/graphics172%20%283%29.png)_._ Hierdoor wordt een lijst weergegeven met gebruikers die op het platform zijn geregistreerd en niet zijn geabonneerd op de cursus:
 
 ![](../../.gitbook/assets/images129%20%284%29.png)
 
-Illustration 100: Users – Action buttons
+Afbeelding 100: Gebruikers - Actieknoppen
 
-To subscribe a single learner, just click the _Register_ link ![](../../.gitbook/assets/graphics174%20%283%29.png) to the right of their listing.
+Om een enkele leerling in te schrijven, klikt u op de _Register_ link ![](../../.gitbook/assets/graphics174%20%283%29.png) rechts van hun vermelding.
 
-To subscribe several learners at once, check the relevant boxes on the left hand side, then select the _Register_ option in the drop-down list headed _Detail_ at the bottom of the table \_\(\_a confirmation window appears to ensure you want to subscribe them: once confirmed, a confirmation list appears indicating which learners have been subscribed.\)
+Om meerdere studenten tegelijk in te schrijven, vinkt u de relevante vakjes aan de linkerkant aan en selecteert u vervolgens de optie _Registreren_ in de vervolgkeuzelijst _Detail_ onderaan de tabel \_\(\_er verschijnt een bevestigingsvenster om ervoor te zorgen dat u schrijf ze in: eenmaal bevestigd, verschijnt er een bevestigingslijst die aangeeft welke studenten zijn ingeschreven.\)
 
-## Add teachers <a id="add-teachers"></a>
+## Voeg docenten toe <a id="add-teachers"></a>
 
-You can also subscribe another user as teacher in your course. Just click the second _Enroll teacher_ icon ![](../../.gitbook/assets/graphics175%20%283%29.png) \(he's wearing a tie!\) and repeat the process as for learners. Users subscribed using this link will have the status of _Teacher_ on the course.
+U kunt ook een andere gebruiker inschrijven als docent in uw cursus. Klik gewoon op het tweede pictogram _Inschrijven leraar_ ![](../../.gitbook/assets/graphics175%20%283%29.png) \(hij draagt een stropdas! \) en herhaal het proces zoals voor de leerlingen. Gebruikers die zich via deze link hebben aangemeld, hebben de status _Leraar_ op de cursus.
 
-## Unsubscribe a user <a id="unsubscribe-a-user"></a>
+## Schrijf een gebruiker uit <a id="unsubscribe-a-user"></a>
 
-You can unsubscribe users individually or as a group from a course.
+U kunt gebruikers individueel of als groep uitschrijven voor een cursus.
 
-To unsubscribe a single user, click the _Unregister_ button ![](../../.gitbook/assets/graphics177%20%283%29.png) next to the corresponding user and confirm your choice.
+Om een enkele gebruiker uit te schrijven, klikt u op de knop _Unregister_ ![](../../.gitbook/assets/graphics177%20%283%29.png) naast de betreffende gebruiker en bevestig uw keuze.
 
-To unsubscribe a group of users, check the relevant boxes on the left side of the table and select _Unregister_ in the drop-down list headed _Detail_ at the bottom of the table, then click _U**nregister**._
+Om een groep gebruikers uit te schrijven, vinkt u de relevante vakjes aan de linkerkant van de tabel aan en selecteert u _Unregister_ in de vervolgkeuzelijst _Detail_ onderaan de tafel, en klikt u vervolgens op _ **Uitschrijven**._
 
-**Note** : As a teacher you cannot remove the main teacher of a course \(by default described in the listing as Trainer\) from this screen. Only the platform administrator can do that.
+**Opmerking**: Als docent kun je de hoofddocent van een cursus \(standaard beschreven in de lijst als Trainer\) niet van dit scherm verwijderen. Alleen de platformbeheerder kan dat doen.
 
-## Add/update a user's description <a id="add-update-a-user-s-description"></a>
+## Voeg de beschrijving van een gebruiker toe/update deze <a id="add-update-a-user-s-description"></a>
 
-* Click the _Edit_ icon ![](../../.gitbook/assets/graphics176%20%281%29.png) to the right of the relevant user's entry to view the user's basic details;
-* Complete/update the _Description_ field to inform other users of the role played by this user;
-* Save changes.
+* Klik op het pictogram _Bewerken_ ![](../../.gitbook/assets/graphics176%20%281%29.png) rechts van de invoer van de relevante gebruiker om de basisgegevens van de gebruiker te bekijken;
+* Vul het veld _Beschrijving_ in/update het om andere gebruikers te informeren over de rol die deze gebruiker speelt;
+* Wijzigingen opslaan.
 
-The _Assistant_ box \(previously titled _Tutor_\) allows the teacher to assign a special _Course assistant_ role with its corresponding permissions. These permissions allow the assistant to view test and assignments results from other learners in the course, to help him assist the teacher in this role.
+De _Assistent_ doos \(voorheen getiteld _Tutor_\) stelt de docent in staat om een speciale _Cursusassistent_ rol toe te wijzen met de bijbehorende machtigingen. Met deze machtigingen kan de assistent de test- en opdrachtresultaten van andere studenten in de cursus bekijken om hem te helpen de docent bij deze rol te helpen.
 
-## Search for a subscribed learner <a id="search-for-a-subscribed-learner"></a>
+## Zoek naar een ingeschreven leerling <a id="search-for-a-subscribed-learner"></a>
 
-If the teacher needs to find a specific learner in the list of users subscribed to the course, the search feature will allow him to find one or several users from all or part of his first name or last name.
+Als de docent een specifieke leerling moet vinden in de lijst met gebruikers die op de cursus zijn geabonneerd, zal de zoekfunctie hem in staat stellen om een of meerdere gebruikers te vinden met zijn volledige of gedeeltelijke voor- of achternaam.
 
-Just fill in the search field with the relevant characters and click the _Search_ button. A list of matching users will be displayed.
+Vul gewoon het zoekveld in met de relevante karakters en klik op de _Zoeken_ knop. Er wordt een lijst met overeenkomende gebruikers weergegeven.
 
-## Export the list of subscribed users <a id="export-the-list-of-subscribed-users"></a>
+## Exporteer de lijst met geabonneerde gebruikers <a id="export-the-list-of-subscribed-users"></a>
 
-You might want, \(independently of the backup copies taken by your careful administrator!\) to keep a separate copy of your users list. To do so, from the main _Users_ page, click one of the export icons in the toolbar \(_CSV export_ ![](../../.gitbook/assets/graphics178%20%283%29.png) _Excel export_ ![](../../.gitbook/assets/graphics179%20%283%29.png) _or .pdf export_ ![](../../.gitbook/assets/graphics363%20%283%29.png)\) to download the list of users in the corresponding format.
+Misschien wilt u \(onafhankelijk van de reservekopieën die door uw zorgvuldige beheerder zijn gemaakt!\) Een aparte kopie van uw gebruikerslijst bewaren. Om dit te doen, klikt u op de hoofdpagina _Gebruikers_ op een van de exportpictogrammen in de werkbalk \(_CSV exporteren_) ![](../../.gitbook/assets/graphics178%20%283%29.png) _Excel-export_ ![](../../.gitbook/assets/graphics179%20%283%29.png) _of pdf-export_ ![](../../.gitbook/assets/graphics363%20%283%29.png)\) om de lijst met gebruikers in het overeenkomstige formaat te downloaden.
 
-**Note**: not all users details are exported through this feature \(their passwords, for example, are confidential information not available to other users, not even to the teacher\).
+**Opmerking**: niet alle gebruikersgegevens worden geëxporteerd via deze functie \(hun wachtwoorden zijn bijvoorbeeld vertrouwelijke informatie die niet beschikbaar is voor andere gebruikers, zelfs niet voor de leraar\).
 
-## Display learners reporting <a id="display-learners-reporting"></a>
+## Geef de rapportage van leerlingen weer <a id="display-learners-reporting"></a>
 
-The teacher can directly access details from the main _Users_ page about each learner's participation in the course by clicking on the _Reporting_ icon ![](../../.gitbook/assets/graphics180%20%283%29.png) next to the user's listing. This will link to the L_earners details in course_ page, described more fully in chapter 15 above.
-
+De docent heeft rechtstreeks toegang tot de details van de hoofdpagina _Gebruikers_ over de deelname van elke leerling aan de cursus door op het pictogram _Rapportage_ te klikken ![](../../.gitbook/assets/graphics180%20%283%29.png) naast de vermelding van de gebruiker. Dit zal linken naar de _Details van leerlingen in de cursus_ pagina, die vollediger beschreven is in hoofdstuk 15 hierboven.
