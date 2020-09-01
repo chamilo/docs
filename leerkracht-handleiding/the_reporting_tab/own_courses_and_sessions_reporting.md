@@ -1,10 +1,10 @@
 # Eigen rapportage van cursussen en sessies
 
-The main page of the R_eporting_ tab displays summary tables offering a general overview, some statistics relating to users on your courses \(each entry shows some statistical data which allows you to track the progress and the results of all learners as an average value\) , and a list of courses and sessions for which you are responsible:
+De hoofdpagina van het tabblad _Rapportage_ geeft overzichtstabellen weer met een algemeen overzicht, enkele statistieken met betrekking tot gebruikers van uw cursussen \(elk item toont enkele statistische gegevens waarmee u de voortgang en de resultaten van alle studenten als gemiddelde waarde kunt volgen\), en een lijst met cursussen en sessies waarvoor je verantwoordelijk bent:
 
 ![](../../.gitbook/assets/images254%20%283%29.png)
 
-Illustration 186: Reporting tab – main page
+Afbeelding 186: Tabblad Rapportage - hoofdpagina
 
-Clicking the _Details_ icon ![](../../.gitbook/assets/graphics365%20%283%29.gif) will show you a more detailed list for that specific course or session. Clicking on further _Details_ icon in any of those screens will show you a deeper level of detail. There are about 4-5 levels of detail and this guide does not cover them all. We recommend you take some time to have a look through all the options and see which report best meets your needs.
+Klik op het pictogram _Details_ ![](../../.gitbook/assets/graphics365%20%283%29.gif) toont u een meer gedetailleerde lijst voor die specifieke cursus of sessie. Als u op een ander _Details_ pictogram in een van deze schermen klikt, krijgt u een dieper detailniveau te zien. Er zijn ongeveer 4-5 detailniveaus en deze gids behandelt ze niet allemaal. We raden u aan even de tijd te nemen om alle opties te bekijken en te kijken welk rapport het beste aansluit bij uw behoeften.
 
