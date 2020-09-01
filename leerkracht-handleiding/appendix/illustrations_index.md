@@ -1,396 +1,396 @@
 # Illustraties index
 
-Illustration 1: Right to use, study and modify, share and distribute the software8
+Illustratie 1: Recht om de software te gebruiken, bestuderen en wijzigen, delen en verspreiden 8
 
-Illustration 2: Icons label10
+Illustratie 2: Pictogrammen label10
 
-Illustration 3: Folded help11
+Illustratie 3: Gevouwen hulp 11
 
-Illustration 4: Unfolded help11
+Illustratie 4: Ongevouwen hulp 11
 
-Illustration 5: Contextual help pop-up11
+Illustratie 5: Contextuele help pop-up 11
 
-Illustration 6: History of Chamilo installations around the world, 2015 to 201712
+Illustratie 6: Geschiedenis van Chamilo-installaties over de hele wereld, 2015 tot 2017 12
 
-Illustration 7: Homepage15
+Illustratie 7: Homepage15
 
-Illustration 8: "My courses" page16
+Illustratie 8: "Mijn cursussen" pagina 16
 
-Illustration 9: Chamilo header17
+Illustratie 9: Chamilo koptekst 17
 
-Illustration 10: Breadcrumb Navigation17
+Illustratie 10: Breadcrumb-navigatie 17
 
-Illustration 11: Switch to student view17
+Illustratie 11: Overschakelen naar leerlingweergave 17
 
-Illustration 12: Switch to teacher view17
+Illustratie 12: Overschakelen naar docentweergave 17
 
-Illustration 13: Personal menu blocks18
+Illustratie 13: Persoonlijke menublokken 18
 
-Illustration 14: Creating a course – short version18
+Illustratie 14: Een cursus maken - korte versie 18
 
-Illustration 15: Create a course – extended version19
+Illustratie 15: Maak een cursus - uitgebreide versie 19
 
-Illustration 16: Course creation follow-up page19
+Illustratie 16: Vervolgpagina voor het maken van cursussen 19
 
-Illustration 17: Course administration tools20
+Illustratie 17: Tools voor cursusbeheer 20
 
-Illustration 18: Course settings - Visibility20
+Illustratie 18: Koersinstellingen - Zichtbaarheid 20
 
-Illustration 19: Sort my courses21
+Illustratie 19: Sorteer mijn cursussen 21
 
-Illustration 20: Personal category creation form21
+Illustratie 20: Formulier voor het aanmaken van persoonlijke categorieën 21
 
-Illustration 21: Personal courses category created22
+Illustratie 21: Categorie voor persoonlijke cursussen gemaakt 22
 
-Illustration 22: Personal courses categories22
+Illustratie 22: Categorieën persoonlijke cursussen 22
 
-Illustration 23: Courses catalog23
+Illustratie 23: Cursussen catalogus 23
 
-Illustration 24: Course tools – Classical option24
+Illustratie 24: Cursustools - Klassieke optie 24
 
-Illustration 25: Authoring tools in ipad type view25
+Illustratie 25: Authoring tools in ipad type visie 25
 
-Illustration 26: Course homepage – Introduction text26
+Illustratie 26: Cursus homepage - Introductietekst26
 
-Illustration 27: Authoring tools27
+Illustratie 27: Authoring tools27
 
-Illustration 28: Interaction tools30
+Illustratie 28: Interactietools 30
 
-Illustration 29: Administration tools32
+Illustratie 29: Beheerhulpmiddelen 32
 
-Illustration 30: Documents – creating directories34
+Illustratie 30: Documenten - mappen aanmaken 34
 
-Illustration 31: Documents – List of default directories35
+Illustratie 31: Documenten - Lijst met standaardmappen 35
 
-Illustration 32: Documents - Icons - Upload36
+Illustratie 32: Documenten - Pictogrammen - Uploaden 36
 
-Illustration 33: Documents – Documents upload36
+Illustratie 33: Documenten – Documenten uploaden 36
 
-Illustration 34: Documents – Documents upload in progress36
+Illustratie 34: Documenten – Bezig met uploaden van documenten 36
 
-Illustration 35: Documents – Document upload finished37
+Illustratie 35: Documenten – Uploaden van document voltooid 37
 
-Illustration 36: Documents - toolbar37
+Illustratie 36: Documenten - werkbalk 37
 
-Illustration 37: Documents – Creating a new document38
+Illustratie 37: Documenten – Een nieuw document aanmaken 38
 
-Illustration 38: Documents – Download a copy40
+Illustratie 38: Documenten – Download een kopie 40
 
-Illustration 39: Documents - Options40
+Illustratie 39: Documenten - Opties 40
 
-Illustration 40: Documents - Quota41
+Illustratie 40: Documenten - Quotum 41
 
-Illustration 41: Documents quota chart41
+Illustratie 41: Documenten quota grafiek41
 
-Illustration 42: Image gallery - Slideshow view42
+Illustratie 42: Fotogalerij - Diavoorstelling 42
 
-Illustration 43: Thumbnails view42
+Illustratie 43: Miniatuurweergave 42
 
-Illustration 44: Exercises – Create a new test44
+Illustratie 44: Oefeningen - Maak een nieuwe test 44
 
-Illustration 45: Exercises - List44
+Illustratie 45: Exercises - List44
 
-Illustration 46: Exercises – Creating an exercise – Advanced options45
+Illustratie 46: Oefeningen - Een oefening maken - Geavanceerde opties 45
 
-Illustration 47: First view of the questions list49
+Illustratie 47: Eerste blik op de vragenlijst 49
 
-Illustration 48: Exercises – Question types49
+Illustratie 48: Oefeningen - Vraagtypen 49
 
-Illustration 49: Tests – Multiple choice, single answer51
+Illustratie 49: Tests – Meerkeuze, één antwoord 51
 
-Illustration 50: Tests – Multiple answer question52
+Illustratie 50: Tests – Vraag met meerdere antwoorden 52
 
-Illustration 51: Tests - Fill the blanks53
+Illustratie 51: Tests - Vul de lege plekken 53
 
-Illustration 52: Tests – Matching text elements54
+Illustratie 52: Tests – Overeenkomende tekstelementen 54
 
-Illustration 53: Tests - Open questions55
+Illustratie 53: Tests - Open vragen 55
 
-Illustration 54: Tests – Oral expression56
+Illustratie 54: Tests – Mondelinge uitdrukking 56
 
-Illustration 55: Exercises - Hot spot question creation58
+Illustratie 55: Opdrachten - Creëren van hotspotvragen 58
 
-Illustration 56: Exercises - Hot spot learner view59
+Illustratie 56: Opdrachten - Weergave van hotspot-leerling 59
 
-Illustration 57: Tests - Exact combination60
+Illustratie 57: Tests - Exacte combinatie 60
 
-Illustration 58: Tests – unique answer with unknown61
+Illustratie 58: Tests – uniek antwoord met onbekende 61
 
-Illustration 59: Tests – Multiple answer true/false/don't know62
+Illustratie 59: Tests – Meerdere antwoorden waar/onwaar/weet niet 62
 
-Illustration 60: Tests – Combination true/false/don't know63
+Illustratie 60: Tests – Combinatie waar/onwaar/weet niet 63
 
-Illustration 61: Tests – Global multiple answer64
+Illustratie 61: Tests – Globaal meervoudig antwoord 64
 
-Illustration 62: Tests – Questions database65
+Illustratie 62: Tests – Database met vragen 65
 
-Illustration 63: Tests – import external tests from Tests page66
+Illustratie 63: Tests – importeer externe tests van Tests-pagina 66
 
-Illustration 64: Tests - Import HotPotatoes, Qti2 and Excel tests66
+Illustratie 64: Tests - HotPotatoes, Qti 2 en Excel-tests importeren 66
 
-Illustration 65: Exercises - List67
+Illustratie 65: Opdrachten - Lijst 67
 
-Illustration 66: Exercises – Results list67
+Illustratie 66: Opdrachten – Resultatenlijst 67
 
-Illustration 67: Forum – Global view68
+Illustratie 67: Forum – Globaal overzicht 68
 
-Illustration 68: Forum – Display modes69
+Illustratie 68: Forum – Weergavemodi 69
 
-Illustration 69: Forum – New category69
+Illustratie 69: Forum – Nieuwe categorie 69
 
-Illustration 70: Forum – Forum creation form70
+Illustratie 70: Forum – Formulier voor het maken van een forum 70
 
-Illustration 71: Forum – Discussion thread72
+Illustratie 71: Forum – Discussie 72
 
-Illustration 72: Assigning a maximum score to a discussion thread73
+Illustratie 72: Een maximale score toekennen aan een discussiethread 73
 
-Illustration 73: Forum – Marking a thread74
+Illustratie 73: Forum – Een draad markeren 74
 
-Illustration 74: The learning path tool:76
+Illustratie 74: Het leerpadtool 76
 
-Illustration 75: Learning paths - Creating a new learning path77
+Illustratie 75: Leertrajecten - Creëren van een nieuw leerpad 77
 
-Illustration 76: Learning paths – Learning paths – Adding a learning object or activity78
+Illustratie 76: Leertrajecten – Leerpaden – Een leerobject of activiteit toevoegen 78
 
-Illustration 77: Learning paths – Settings78
+Illustratie 77: Leertrajecten – Instellingen 78
 
-Illustration 78: Adding a learning object or activity to a course79
+Illustratie 78: Een leerobject of activiteit toevoegen aan een cursus 79
 
-Illustration 79: Learning paths – Rich media creation tool79
+Illustratie 79: Leerpaden – Hulpprogramma voor het maken van rich media 79
 
-Illustration 80: Learning paths – Importing existing resources80
+Illustratie 80: Leerpaden – Bestaande bronnen importeren 80
 
-Illustration 81: Learning paths – New sections80
+Illustratie 81: Leerpaden – Nieuwe secties 80
 
-Illustration 82: Learning paths – Learner's view81
+Illustratie 82: Leerpaden – Zienswijze van de leerling 81
 
-Illustration 83: Learning paths - Import SCORM81
+Illustratie 83: Leerpaden - SCORM 81 importeren
 
-Illustration 84: Learning paths – List82
+Illustratie 84: Leerpaden – Lijst 82
 
-Illustration 85: Learning paths – Prerequisites83
+Illustratie 85: Leerpaden – Vereisten 83
 
-Illustration 86: Learning paths – Prerequisites options83
+Illustratie 86: Leerpaden – Vereisten opties83
 
-Illustration 87: Reporting – Learners85
+Illustratie 87: Rapporteren – Lerenden 85
 
-Illustration 88: Reporting – individual student's details86
+Illustratie 88: Rapporteren – gegevens van individuele studenten 86
 
-Illustration 89: Users – Access details86
+Illustratie 89: Gebruikers – Toegang tot details 86
 
-Illustration 90: Report on resource87
+Illustratie 90: Verslag over bron 87
 
-Illustration 91: Exam tracking88
+Illustratie 91: Examens bijhouden 88
 
-Illustration 92: Assignment settings89
+Illustratie 92: Toewijzingsinstellingen 89
 
-Illustration 93: Create a new assignment90
+Illustratie 93: Maak een nieuwe opdracht 90
 
-Illustration 94: Student's assignment paper91
+Illustratie 94: Opdracht paper 91
 
-Illustration 95: Main page for an assignment set by the teacher91
+Illustratie 95: Hoofdpagina voor een opdracht van de leraar91
 
-Illustration 96: Assignments – Advanced settings92
+Illustratie 96: Opdrachten – Geavanceerde instellingen 92
 
-Illustration 97: Assignments – setting expiry dates93
+Illustratie 97: Opdrachten – vervaldata instellen 93
 
-Illustration 98: Marking students' assignments94
+Illustratie 98: Opdrachten van leerlingen markeren 94
 
-Illustration 99: Users – Main screen95
+Illustratie 99: Gebruikers – Hoofdscherm 95
 
-Illustration 100: Users – Action buttons95
+Illustratie 100: Gebruikers – Actieknoppen 95
 
-Illustration 101: Assessments – Example teacher view98
+Illustratie 101: Beoordelingen – Voorbeeld docentweergave 98
 
-Illustration 102: Assessments – Example learner view98
+Illustratie 102: Beoordelingen – Voorbeeld van leerlingweergave 98
 
-Illustration 103: An empty gradebook generates information messages99
+Illustratie 103: Een lege cijferlijst genereert informatieberichten 99
 
-Illustration 104: Assessments – General settings99
+Illustratie 104: Beoordelingen – Algemene instellingen 99
 
-Illustration 105: Assessments – Classroom activity101
+Illustratie 105: Beoordelingen – Activiteit in de klas 101
 
-Illustration 106: Assessments – Classroom activities – Filling in results101
+Illustratie 106: Beoordelingen – Klassikale activiteiten - Resultaten invullen 101
 
-Illustration 107: Assessments – Add online activity102
+Illustratie 107: Beoordelingen – Voeg online activiteit toe 102
 
-Illustration 108: Assessments - Weights102
+Illustratie 108: Beoordelingen - Gewichten 102
 
-Illustration 109: Assessments – Skills ranking103
+Illustratie 109: Beoordelingen – Ranglijst van vaardigheden 103
 
-Illustration 110: Certificates edition tags104
+Illustratie 110: Certificaten editie tags104
 
-Illustration 111: Certificate creation area105
+Illustratie 111: Gebied voor het aanmaken van certificaten 105
 
-Illustration 112: Certificate templates list106
+Illustratie 112: Lijst met certificaatsjablonen 106
 
-Illustration 113: Example certificate106
+Illustratie 113: Voorbeeld certificaat 106
 
-Illustration 114: Default certificate template available in Chamilo107
+Illustratie 114: Standaard certificaatsjabloon beschikbaar in Chamilo107
 
-Illustration 115: Assessments – List view108
+Illustratie 115: Beoordelingen – Lijstweergave 108
 
-Illustration 116: Assessments – creating categories109
+Illustratie 116: Beoordelingen – Categorieën aanmaken109
 
-Illustration 117: Wiki – Main page110
+Illustratie 117: Wiki – Hoofdpagina 110
 
-Illustration 118: The Links page113
+Illustratie 118: De Links pagina 113
 
-Illustration 119: Links - Add a category113
+Illustratie 119: Links - Voeg een categorie toe 113
 
-Illustration 120: Links - Add link114
+Illustratie 120: Links - Link toevoegen 114
 
-Illustration 121: Announcements page116
+Illustratie 121: Mededelingen pagina 116
 
-Illustration 122: Add an announcement116
+Illustratie 122: Een aankondiging toevoegen 116
 
-Illustration 123: Announcements – learner view117
+Illustratie 123: Mededelingen – leerling 117
 
-Illustration 124: Glossary – Table view118
+Illustratie 124: Woordenlijst – Tafeloverzicht 118
 
-Illustration 125: Glossary – add a term118
+Illustratie 125: Woordenlijst – voeg een term toe 118
 
-Illustration 126: Glossary – List view119
+Illustratie 126: Woordenlijst – Lijstweergave 119
 
-Illustration 127: Attendances – main page120
+Illustratie 127: Aanwezigheid – hoofdpagina 120
 
-Illustration 128: Attendances – New attendances form120
+Illustratie 128: Aanwezigheid – Formulier voor nieuwe bezoekers 120
 
-Illustration 129: Attendances – Intermediary step for dates creation121
+Illustratie 129: Aanwezigheid – Tussenstap voor het maken van datums 121
 
-Illustration 130: Attendances calendar121
+Illustratie 130: Aanwezigheidskalender 121
 
-Illustration 131: Attendances sheet122
+Illustratie 131: Aanwezigheidsblad 122
 
-Illustration 132: Course progress – Learner view123
+Illustratie 132: Cursusvoortgang – Weergave van de leerling 123
 
-Illustration 133: Course progress – Teacher view123
+Illustratie 133: Cursusvoortgang – Leraar bekijken 123
 
-Illustration 134: Course progress – invitation to create a thematic plan124
+Illustratie 134: Cursusvoortgang – uitnodiging om een thematisch plan te maken 124
 
-Illustration 135: Course progress – invitation to create a thematic plan/advance124
+Illustratie 135: Cursusvoortgang – uitnodiging om een thematisch plan / voorschot te maken124
 
-Illustration 136: Course progress – example title and description fields125
+Illustratie 136: Cursusvoortgang – voorbeeld titel en beschrijving velden 125
 
-Illustration 137: Course progress – Steps creation125
+Illustratie 137: Cursusvoortgang – Stappen creatie 125
 
-Illustration 138: Personal Agenda126
+Illustratie 138: Persoonlijke agenda 126
 
-Illustration 139: Adding an event directly to the calendar128
+Illustratie 139: Een evenement rechtstreeks aan de kalender toevoegen 128
 
-Illustration 140: Adding an event using the Add event tool128
+Illustratie 140: Een evenement toevoegen met de tool Gebeurtenis toevoegen 128
 
-Illustration 141: Export, edit or delete an event129
+Illustratie 141: Een evenement exporteren, bewerken of verwijderen 129
 
-Illustration 142: Dropbox – sent files130
+Illustratie 142: Dropbox – verzonden bestanden 130
 
-Illustration 143: Dropbox – Sending a file131
+Illustratie 143: Dropbox – Een bestand verzenden 131
 
-illustration 144: Dropbox - Comments132
+Illustratie 144: Dropbox - Reacties132
 
-Illustration 145: Create a group133
+Illustratie 145: Creëer een groep133
 
-Illustration 146: Groups- settings134
+Illustratie 146: Groepen- instellingen134
 
-Illustration 147: Groups – Auto-fill groups135
+Illustratie 147: Groepen – Groepen automatisch aanvullen 135
 
-Illustration 148: Groups – Filling a group manually136
+Illustratie 148: Groepen – Handmatig vullen van een groep 136
 
-Illustration 149: Groups – Group space137
+Illustratie 149: Groepen – Groepsruimte 137
 
-Illustration 150: The chat window139
+Illustratie 150: Het chatvenster 139
 
-Illustration 151: Surveys – Creation form140
+Illustratie 151: Enquêtes – Aanmaakformulier 140
 
-Illustration 152: Surveys – Questions creation141
+Illustratie 152: Enquêtes – Vragen maken 141
 
-Illustration 153: Surveys – Preview survey142
+Illustratie 153: Enquêtes – Voorbeeld van enquête 142
 
-Illustration 154: Surveys – Publication: select course members142
+Illustratie 154: Enquêtes – Publicatie: selecteer cursisten 142
 
-Illustration 155: Surveys – Publication: email additional recipients143
+Illustratie 155: Enquêtes – Publicatie: e-mail extra ontvangers143
 
-Illustration 156: Surveys - Results143
+Illustratie 156: Enquêtes - Resultaten 143
 
-Illustration 157: Notebook - List145
+Illustratie 157: Notebook - Lijst 145
 
-Illustration 158: Notebook – Creation form145
+Illustratie 158: Notebook – Aanmaakformulier 145
 
-Illustration 159: Projects - List146
+Illustratie 159: Projecten - Lijst146
 
-Illustration 160: Blogs – Blog creation146
+Illustratie 160: Blogs – Blog creatie 146
 
-Illustration 161: Projects – Users management148
+Illustratie 161: Projecten – Gebruikersbeheer 148
 
-Illustration 162: Projects – New task149
+Illustratie 162: Projecten – Nieuwe taak 149
 
-Illustration 163: Projects - Roles management149
+Illustratie 163: Projecten - Rollenbeheer 149
 
-Illustration 164: Projects – Roles management page149
+Illustratie 164: Projecten – Rollenbeheer pagina 149
 
-Illustration 165: Projects – New role150
+Illustratie 165: Projecten – Nieuwe role150
 
-Illustration 166: Projects – Assign a role150
+Illustratie 166: Projecten – Wijs een rol toe 150
 
-Illustration 167: Projects – Tasks comments151
+Illustratie 167: Projecten – Opmerkingen over taken 151
 
-Illustration 168: Projects – Users management152
+Illustratie 168: Projecten – Gebruikersbeheer 152
 
-Illustration 169: Course settings - General153
+Illustratie 169: Cursusinstellingen - Algemeen 153
 
-Illustration 170: Courses catalog – Example of courses illustrations154
+Illustratie 170: Cursussen catalogus – Voorbeeld van illustraties van cursussen 154
 
-Illustration 171: Course settings – E-mail notifications155
+Illustratie 171: Cursusinstellingen – E-mailmeldingen 155
 
-Illustration 172: Course settings – Users rights155
+Illustratie 172: Cursusinstellingen – Gebruikersrechten155
 
-Illustration 173: Course settings – Chat settings156
+Illustratie 173: Cursusinstellingen – Chat-instellingen 156
 
-Illustration 174: Course settings – Learning path settings156
+Illustratie 174: Cursusinstellingen – Instellingen leertraject 156
 
-Illustration 175: Learning paths - Auto-launch156
+Illustratie 175: Leerpaden - Automatische lancering 156
 
-Illustration 176: Courses settings - Course progress157
+Illustratie 176: Cursusinstellingen - Cursusvoortgang 157
 
-Illustration 177: Course progress – Display on course homepage157
+Illustratie 177: Cursusvoortgang – Weergeven op de startpagina van de cursus 157
 
-Illustration 178: Backup - General158
+Illustratie 178: Back-up - Algemeen 158
 
-Illustration 179: Maintenance – Backup creation159
+Illustratie 179: Onderhoud – Back-up maken 159
 
-Illustration 180: Backup - Import160
+Illustratie 180: Back-up - Importeren 160
 
-Illustration 181: Maintenance – Empty course161
+Illustratie 181: Onderhoud – Lege cursus 161
 
-Illustration 182: Maintenance – Course deleting161
+Illustratie 182: Onderhoud – Cursus verwijderen 161
 
-Illustration 183: Reporting tab – main page162
+Illustratie 183: Rapportage tabblad – hoofdpagina 162
 
-Illustration 184: Social network - Home163
+Illustratie 184: Sociaal netwerk - Huis163
 
-Illustration 185: Social network – Extended profile update166
+Illustratie 185: Sociaal netwerk – Uitgebreide profielupdate166
 
-Illustration 186: Social network – Internal messaging - Inbox167
+Illustratie 186: Sociaal netwerk – Interne berichten - Postvak IN167
 
-Illustration 187: Social network – send and receive invitations168
+Illustratie 187: Sociaal netwerk – uitnodigingen versturen en ontvangen 168
 
-Illustration 188: Social network – Shared profile168
+Illustratie 188: Sociaal netwerk – Gedeeld profiel 168
 
-Illustration 189: Social network – Social groups169
+Illustratie 189: Sociaal netwerk – Sociale groepen169
 
-Illustration 190: Social network – Social groups interface169
+Illustratie 190: Sociaal netwerk – Interface voor sociale groepen 169
 
-Illustration 191: Social network – My files170
+Illustratie 191: Sociaal netwerk – Mijn bestanden 170
 
-Illustration 192: My courses - Sessions171
+Illustratie 192: Mijn vakken - Sessies 171
 
-Illustration 193: Sessions – New session screen171
+Illustratie 193: Sessies – Nieuw sessiescherm 171
 
-Illustration 194: Sessions – Learning paths172
+Illustratie 194: Sessies – Leertrajecten 172
 
-Illustration 195: Sessions – My QCM tab173
+Illustratie 195: Sessies – Mijn QCM-tabblad 173
 
-Illustration 196: Sessions – My statistics tab174
+Illustratie 196: Sessies – Mijn statistieken-tabblad 174
 
-Illustration 197: Sessions – Statistical details175
+Illustratie 197: Sessies – Statistische gegevens 175
 
