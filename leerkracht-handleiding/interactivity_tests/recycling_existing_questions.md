@@ -1,16 +1,16 @@
 # Bestaande vragen recyclen
 
-Any question created, independently of the test or course to which it has been attached, feeds the questions database. This base can be very useful for teachers wanting to re-use questions that are very general or, needing questions to serve as “fillers” when you're short of a few questions in a new test.
+Elke vraag die wordt gemaakt, onafhankelijk van de test of cursus waaraan deze is gekoppeld, voedt de database met vragen. Deze basis kan erg handig zijn voor docenten die vragen willen hergebruiken die erg algemeen zijn of die vragen nodig hebben om te dienen als 'vulstoffen' wanneer je een paar vragen te kort komt in een nieuwe toets.
 
-During test creation, the database shows questions from other tests, as well as orphan questions \(i.e. those questions which have belonged to a test which has been removed\).
+Tijdens het maken van tests toont de database zowel vragen uit andere tests als weesvragen \(d.w.z. die vragen die hebben behoord tot een test die is verwijderd\).
 
-When the question database shows, it presents a list of all existing questions inside the course. This is where assigning questions to categories and adding a difficulty to tests can prove very useful for identifying individual questions: use the _Filter_ and _Difficulty_ drop-down lists to filter the questions accordingly.
+Wanneer de vraagendatabase wordt weergegeven, wordt een lijst weergegeven met alle bestaande vragen in de cursus. Dit is waar het toewijzen van vragen aan categorieën en het toevoegen van een moeilijkheid aan tests erg handig kan zijn voor het identificeren van individuele vragen: gebruik de vervolgkeuzelijsten _Filter_ en _Difficulty_ om de vragen dienovereenkomstig te filteren.
 
-To access the database, click on the _recycle existing questions_ icon ![](../../.gitbook/assets/graphics361%20%281%29.png) as it is listed on the _Create a question_ page alongside the various question types:
+Om toegang te krijgen tot de database, klikt u op het pictogram _recycle bestaande vragen_ ![](../../.gitbook/assets/graphics361.png) zoals het wordt vermeld op de pagina _Maak een vraag_ naast de verschillende vraagtypen:
 
 ![](../../.gitbook/assets/images56%20%285%29.png)
 
-Illustration 62: Tests – Questions database
+Afbeelding 62: Tests - Vragendatabase
 
-Click the _Re-use in current test_ button ![](../../.gitbook/assets/graphics155%20%281%29.gif) to include these questions in the current test. What actually happens \(in Chamilo 1.9\) is that a copy of the old test is included in the current test, so that it can be edited if necessary for the new test without its content or configuration being altered within the test in which it was originally created.
+Klik op de knop _Re-use in current test_ ![](../../.gitbook/assets/graphics155%20%281%29.gif) om deze vragen in de huidige test op te nemen. Wat er feitelijk gebeurt \ (in Chamilo 1.9 \) is dat een kopie van de oude test wordt opgenomen in de huidige test, zodat deze indien nodig kan worden bewerkt voor de nieuwe test zonder dat de inhoud of configuratie wordt gewijzigd binnen de test waarin deze is oorspronkelijk gemaakt.
 

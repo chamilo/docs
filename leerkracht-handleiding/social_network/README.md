@@ -1,6 +1,7 @@
 # Sociaal netwerk
 
-Chamilo recognizes that effective online social interaction is an important element in successful online learning. The Social Network facility offered on the platform is designed to optimize support, within the platform, for teachers and learners wanting to make use of various social network features as an integral part of their online learning \(and teaching\) experience. These include simple profiling, an internal messaging system available to users and the facility to create interest groups. \(Note that some of these features need to be enabled by the platform administrator.\)
+Chamilo erkent dat effectieve online sociale interactie een belangrijk element is bij succesvol online leren. De sociale netwerkfaciliteit die op het platform wordt aangeboden, is ontworpen om de ondersteuning binnen het platform te optimaliseren voor docenten en leerlingen die gebruik willen maken van verschillende sociale netwerkfuncties als een integraal onderdeel van hun online leer- \(en onderwijs\) ervaring. Deze omvatten eenvoudige profilering, een intern berichtensysteem dat beschikbaar is voor gebruikers en de mogelijkheid om belangengroepen aan te maken. \(Merk op dat sommige van deze functies moeten worden ingeschakeld door de platformbeheerder.\)
 
-![](../../.gitbook/assets/images255%20%283%29.png)Illustration 187: Social network - Home
+![](../../.gitbook/assets/images255%20%283%29.png)
 
+Afbeelding 187: Sociaal netwerk - Thuis

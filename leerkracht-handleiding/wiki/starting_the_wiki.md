@@ -1,11 +1,13 @@
 # De wiki starten
 
-The main page is the entry point of the wiki. It can initially be edited only by the teacher, who unlocks it through this initial action. Until he does this, learners cannot access it.
+De hoofdpagina is het startpunt van de wiki. Het kan in eerste instantie alleen worden bewerkt door de leraar, die het via deze eerste actie ontgrendelt. Zolang hij dit niet doet, hebben leerlingen er geen toegang toe.
 
-![](../../.gitbook/assets/images146%20%284%29.png)Illustration 120: Wiki – Main page
+![](../../.gitbook/assets/images146%20%284%29.png)
 
-* Click the _Edit this page_ icon ![](../../.gitbook/assets/graphics209%20%283%29.png),
-* Remove the existing content and replace it by new content \(for example, a list of links pointing to other pages of the wiki\),
-* Add a comment explaining your contribution,
-* Click _Save_.
+Afbeelding 120: Wiki - Hoofdpagina
+
+* Klik op het pictogram _Deze pagina bewerken_ ![](../../.gitbook/assets/graphics209%20%283%29.png),
+* Verwijder de bestaande inhoud en vervang deze door nieuwe inhoud \(bijvoorbeeld een lijst met links die verwijzen naar andere pagina's van de wiki\),
+* Voeg een opmerking toe met een toelichting op uw bijdrage,
+* Klik op _Sparen_.
 

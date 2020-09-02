@@ -1,20 +1,20 @@
 # Enquête publicatie
 
-If you are satisfied with the survey, you just need to publish it \(make sure you don't contradict yourself with the start date, sending the invitation by e-mail for a survey which is not yet available!\)
+Als u tevreden bent met de enquête, hoeft u deze alleen maar te publiceren \(zorg ervoor dat u zichzelf niet tegenspreekt met de startdatum, verstuur de uitnodiging per e-mail voor een enquête die nog niet beschikbaar is!\)
 
-Click the _Publish_ icon ![](../../.gitbook/assets/graphics293%20%283%29.png). Select the course users to send the survey invitation to:
+Klik op het pictogram _Publish_ ![](../../.gitbook/assets/graphics293%20%283%29.png). Selecteer de cursusgebruikers om de enquête-uitnodiging naar te sturen:
 
 ![](../../.gitbook/assets/images226%20%283%29.png)
 
-Illustration 157: Surveys – Publication: select course members
+Illustratie 157: Enquêtes - Publicatie: selecteer cursusleden
 
-In addition/alternatively, send invitations using the same form directly by e-mail \(separate email addresses using semi-colons\). Invitations can be sent to people who are not registered users on the platform \(e.g. you may wish to send the invitation to potential customers, or to parents of learners\):
+Stuur bovendien/alternatief uitnodigingen met hetzelfde formulier rechtstreeks per e-mail \(aparte e-mailadressen met puntkomma's\). Uitnodigingen kunnen worden verzonden naar mensen die geen geregistreerde gebruikers op het platform zijn \(u wilt de uitnodiging bijvoorbeeld naar potentiële klanten sturen, of naar ouders van leerlingen\):
 
 ![](../../.gitbook/assets/graphics296%20%283%29.png)
 
-Illustration 158: Surveys – Publication: email additional recipients
+Afbeelding 158: Enquêtes - Publicatie: e-mail extra ontvangers
 
-Once you have completed the fields, remember to click the _Publish survey_ button.
+Als u de velden heeft ingevuld, vergeet dan niet op de knop _Publish survey_ te klikken.
 
-**Note**: you can also invite anonymous individuals without requiring an email address \(e.g. visitors to a web page\) using the Generate access link icon ![](../../.gitbook/assets/graphics294%20%283%29.png) in the survey listings.
+**Opmerking**: u kunt ook anonieme personen uitnodigen zonder een e-mailadres \(bijv. Bezoekers van een webpagina\) met het pictogram Toegangskoppeling genereren ![](../../.gitbook/assets/graphics294%20%283%29.png) in de lijst met enquêtes.
 

@@ -1,13 +1,16 @@
 # Voeg een nieuwe gekoppelde pagina toe
 
-From the page you're going to add the link to:
+Vanaf de pagina waarnaar u de link gaat toevoegen:
 
-* click the _Edit this page_ icon,
-* click the line you want to add the link on, then **either**:
-* add the text between double square brackets \[\[_link to the page to be created_\]\]. Once saved, the text entered between brackets will be transformed into a link to a new empty page,
-* ![](../../.gitbook/assets/graphics213%20%281%29.png)**or** click the _Insert/Edit Wiki Link_ icon in the editor to indicate the name of the new page to be created,
+* klik op het pictogram _Deze pagina bewerken_,
+* klik op de regel waaraan u de link wilt toevoegen en vervolgens **ofwel**:
+* plaats de tekst tussen dubbele vierkante haken \[\[_link naar de aan te maken pagina_\]\]. Eenmaal opgeslagen, wordt de tekst tussen haakjes omgezet in een link naar een nieuwe lege pagina,
+
+* ![](../../.gitbook/assets/graphics213%20%281%29.png)
+
+**of** klik op het pictogram _Insert/Edit Wiki Link_ in de editor om de naam aan te geven van de nieuwe pagina die moet worden gemaakt,
 
 ![](../../.gitbook/assets/graphics212%20%281%29.png)
 
-* click _Save_.
+* klik op _Sparen_.
 

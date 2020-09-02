@@ -1,14 +1,13 @@
 # Abonneer studenten op een project
 
-Your can manage several projects within the same course, and therefore select individual learners to contribute to each project.
+U kunt meerdere projecten binnen dezelfde cursus beheren en daarom individuele studenten selecteren om aan elk project bij te dragen.
 
-To subscribe learners to a project from the homepage of this project:
+Om leerlingen te abonneren op een project vanaf de startpagina van dit project:
 
-* click the _Users management_ icon ![](../../.gitbook/assets/graphics309%20%283%29.png),
-* check the boxes next to the learners you want to associate with this project,
-* click the _Validate_ button.
+* klik op het pictogram _Gebruikersbeheer_ ![](../../.gitbook/assets/graphics309%20%283%29.png),
+* vink de vakjes aan naast de studenten die u aan dit project wilt koppelen,
+* klik op de knop _Valideren_.
 
 ![](../../.gitbook/assets/graphics312%20%283%29.png)
 
-Illustration 164: Projects – Users management
-
+Afbeelding 164: Projecten - Gebruikersbeheer

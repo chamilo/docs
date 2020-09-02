@@ -1,12 +1,12 @@
 # Inschrijven op andere cursussen
 
-Teachers and students can subscribe to courses. When a teacher subscribes to another course by himself, he is considered student in this course, and will thus not have access to the normal teacher tools. If you want to register to be registered to someone else's course as a teacher, you will have to ask the current teacher of that course or the administrator to register you, as a teacher, to that course.
+Docenten en studenten kunnen zich inschrijven voor cursussen. Wanneer een docent zichzelf inschrijft voor een andere cursus, wordt hij in deze cursus als student beschouwd en heeft hij dus geen toegang tot de normale tools voor docenten. Als je je wilt inschrijven om als docent te worden ingeschreven voor de cursus van iemand anders, moet je de huidige docent van die cursus of de beheerder vragen om jou als docent in te schrijven voor die cursus.
 
-Clicking on the _Courses catalog_ link, and a list of courses will appear. You can look for the course in the suggested categories, or find it by searching for all or part of the course title via the search box on the top part of the page. If this portal uses sessions, a sessions catalog is also made available
+Als u op de koppeling _Cursuscatalogus_ klikt, wordt een lijst met cursussen weergegeven. U kunt de cursus zoeken in de voorgestelde categorieën, of deze vinden door te zoeken naar de titel van de cursus of een deel ervan via het zoekvak bovenaan de pagina. Als dit portaal sessies gebruikt, wordt er ook een sessiecatalogus beschikbaar gesteld
 
 ![](../../.gitbook/assets/images21%20%289%29.png)
 
-Illustration 23: Courses catalog
+Afbeelding 23: Cursuscatalogus
 
-Once you’ve found your the course, click on the green _Subscribe_ icon to subscribe to it. The subscription gives the user subscribing **learner** status.
+Zodra u uw cursus heeft gevonden, klikt u op het groene _Subscribe_ pictogram om u erop te abonneren. Het abonnement geeft de gebruiker de status **leerling**.
 
