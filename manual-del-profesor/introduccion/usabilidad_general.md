@@ -8,15 +8,17 @@ _Ilustración 2: Descripción iconos_
 
 También hay un sistema de ayuda en línea en la mayoría de las páginas que aparece como un salvavidas parcialmente oculto en la parte superior derecha de la pantalla \(ver Ilustración 3: Ayuda plegada\) y que se despliega al pasar el puntero por encima \(ver Ilustración 4: Ayuda desplegada \). Permanece en la misma posición cuando te desplazas por la pantalla así que está continuamente disponible y puedes abrirla o cerrarlas sin que afecte a tu trabajo actual. Cuando haces clic en el salvavidas, una pequeña guía se abrirá, explicando la herramienta en la que estés así como la forma de usarla \(ver Ilustración 5: Ventana de ayuda contextual\).
 
-\| ![](../../.gitbook/assets/images3%20%2811%29.png)
+![](../../.gitbook/assets/images3%20%2811%29.png)
 
-Ilustración 3: Ayuda plegada \| ![](../../.gitbook/assets/illustration_4%20%287%29.png)
+Ilustración 3: Ayuda plegada
 
-Ilustración 4: Ayuda desplegada \| \| --- \| --- \|
+![](../../.gitbook/assets/illustration_4%20%287%29.png)
+
+Ilustración 4: Ayuda desplegada
 
 ![](../../.gitbook/assets/images5%20%2811%29.png)
 
-_Ilustración 5: Ventana de ayuda contextual_
+Ilustración 5: Ventana de ayuda contextual
 
 ## Terminología <a id="terminolog-a"></a>
 
