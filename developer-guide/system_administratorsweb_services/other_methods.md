@@ -18,7 +18,7 @@ Creëert slechts één gebruiker.
 function WSCreateUsersPasswordCrypted($params)
 ```
 
-Maakt gebruikers die er rekening mee houden dat hun wachtwoorden mogelijk zijn gecodeerd. Deze methode verwacht de volgende parameters:
+Maakt gebruikers, die er rekening mee houden dat hun wachtwoorden mogelijk zijn gecodeerd. Deze methode verwacht de volgende parameters:
 
 ```text
 $params = array(

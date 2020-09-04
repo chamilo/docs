@@ -2,11 +2,11 @@
 
 ## Hooks
 
-Plug-ins kunnen "hooks" gebruiken, die vergelijkbaar zijn met wat je in het Drupal CMS kunt vinden: plaatsen in de normale workflow van Chamilo waar plug-ins kunnen ingrijpen.
+Plug-ins kunnen "hooks" gebruiken, die vergelijkbaar zijn, met wat je in het Drupal CMS kunt vinden: plaatsen in de normale workflow van Chamilo waar plug-ins kunnen ingrijpen.
 
-Het werkt in Chamilo door het normale proces te hebben, bijvoorbeeld om een gebruiker te verwijderen, een speciale functie aan te roepen die naar elke geïnstalleerde plug-in zoekt en die een specifieke methode implementeert.
+Het werkt in Chamilo, door het normale proces te hebben, bijvoorbeeld om een gebruiker te verwijderen, een speciale functie aan te roepen die naar elke geïnstalleerde plug-in zoekt en die een specifieke methode implementeert.
 
-De hooks zijn gedefinieerd in `main/inc/lib/hook/` en worden geïnstancieerd in de normale workflow. In `usermanager.lib.php` vinden we bijvoorbeeld dat de `UserManager :: create_user()` methode feitelijk het HookCreateUser-object instancieert en vervolgens een van zijn methoden aanroept:
+De hooks zijn gedefinieerd in `main/inc/lib/hook/` en worden geïnstancieerd in de normale workflow. In `usermanager.lib.php` vinden we bijvoorbeeld, dat de `UserManager :: create_user()` methode feitelijk het HookCreateUser-object instancieert en vervolgens een van zijn methoden aanroept:
 
 ```text
         $hook = HookCreateUser::create();

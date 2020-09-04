@@ -1,6 +1,6 @@
 # Invoering
 
-Chamilo LMS is een _Learning Management System_ dat is ontworpen ter ondersteuning van effectief online onderwijs \(vaak aangeduid als _e-learning_\). Het is ‘gratis’ software die is ontwikkeld door de samenwerking van verschillende bedrijven, organisaties en individuen volgens een model dat bekend staat als _open-source_, maar met strengere ethische waarden.
+Chamilo LMS is een _Learning Management System_, dat is ontworpen ter ondersteuning van effectief online onderwijs \(vaak aangeduid als _e-learning_\). Het is ‘gratis’ software die is ontwikkeld door de samenwerking van verschillende bedrijven, organisaties en individuen volgens een model dat bekend staat als _open-source_, maar met strengere ethische waarden.
 
 Dit betekent dat het u vrij staat om Chamilo te downloaden en te gebruiken, op voorwaarde dat u de licentievoorwaarden accepteert,\(gedetailleerd onder de [GNU/GPLv3-licentie](http://www.gnu.org/licenses/quick-guide-gplv3.html )\). Zolang u zich ertoe verbindt ze te onderhouden, verleent dit u vier essentiële vrijheden: de vrijheid om de software te **gebruiken**, **studeren**, **wijzigen** en **distribueren**.
 

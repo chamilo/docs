@@ -1,6 +1,6 @@
 # Voor wie is deze gids bedoeld?
 
-Deze handleiding is geschreven met ontwikkelaars en e-learning-implementeerders in gedachten: de vele technische professionals die betrokken zijn bij het installeren, verfijnen of aanpassen van een Chamilo LMS-portaal zouden deze handleiding een nuttige bron moeten vinden voor elke wijziging die ze willen uitvoeren en dat is niet zo. mogelijk via de webinterface van Chamilo LMS.
+Deze handleiding is geschreven met ontwikkelaars en e-learning-implementeerders in gedachten: de vele technische professionals die betrokken zijn bij het installeren, verfijnen of aanpassen van een Chamilo LMS-portaal zouden deze handleiding een nuttige bron moeten vinden voor elke wijziging die ze willen uitvoeren en is dat niet zo. mogelijk via de webinterface van Chamilo LMS.
 
 Kortom, de mensen aan wie we deze handleiding richten zijn:
 
