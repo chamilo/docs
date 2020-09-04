@@ -1,2 +1,0 @@
-# Structuur: leerpaden
-

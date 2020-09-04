@@ -1,13 +1,13 @@
 # Links categorieën
 
-You can create links categories in Chamilo, allowing for a better organizational structure when your library contains a lot of links.
+U kunt in Chamilo categorieën met links maken, waardoor u een betere organisatiestructuur krijgt als uw bibliotheek veel links bevat.
 
-* Click the _Add a category_ icon ![](../../.gitbook/assets/graphics218%20%283%29.png),
-* Give a clear name to your category,
-* Add a description if needed,
-* Click the _Add a category_ button.
+* Klik op het pictogram Categorie toevoegen ![](../../.gitbook/assets/graphics218%20%283%29.png),
+* Geef een duidelijke naam aan uw categorie,
+* Voeg indien nodig een beschrijving toe,
+* CKlik op de knop Categorie toevoegen
 
 ![](../../.gitbook/assets/images156%20%284%29.png)
 
-Illustration 122: Links - Add a category
+Afbeelding 122: Links - Voeg een categorie toe
 

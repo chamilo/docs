@@ -2,7 +2,7 @@
 
 ![](../../.gitbook/assets/images26%20%282%29.png)
 
-Globale instellingen in Chamilo zijn een manier, om een soort systeemgedrag op platformniveau te configureren, dat alle cursussen en alle gebruikers zal beïnvloeden, indien relevant.
+Globale instellingen in Chamilo zijn een manier om een soort systeemgedrag op platformniveau te configureren, dat alle cursussen en alle gebruikers zal beïnvloeden, indien relevant.
 
 Al deze instellingen worden op een van de 2 locaties bewaard:
 

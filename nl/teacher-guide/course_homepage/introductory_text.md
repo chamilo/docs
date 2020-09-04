@@ -1,6 +1,6 @@
 # Inleidende tekst
 
-Voordat u naar een bepaald cursustool kijkt, moet u er rekening mee houden dat het mogelijk is om een welkomstbericht voor een cursus te presenteren. Klik op het pictogram Introductietekst toevoegen ![](../../.gitbook/assets/graphics349%20%281%29.gif) onder de knop _Learner View_. Er verschijnt een teksteditor...
+Voordat u naar een bepaald cursustool kijkt, moet u er rekening mee houden dat het mogelijk is om een welkomstbericht voor een cursus te presenteren. Klik op het pictogram Introductietekst toevoegen ![](../../.gitbook/assets/graphics349.png) onder de knop _Learner View_. Er verschijnt een teksteditor...
 
 ![](../../.gitbook/assets/images28%20%289%29.png)
 

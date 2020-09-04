@@ -1,14 +1,18 @@
 # Vereisten
 
-If a learning path contains several elements, it is possible to establish the completion of tasks and targets expected of learners following the learning path using the _prerequisites_ feature.
+Als een leertraject verschillende elementen bevat, is het mogelijk om de voltooiing van taken en doelen vast te stellen die verwacht worden van leerlingen die het leertraject volgen met behulp van de _prerequisites_ functie.
 
-Click on the _prerequisites_ button ![](../../.gitbook/assets/graphics46%20%283%29.png) next to any element in the path \(or ![](../../.gitbook/assets/graphics41%20%283%29.png) in edit view\):
+Klik op de knop _voorwaarden_ ![](../../.gitbook/assets/graphics46%20%283%29.png) naast een element in het pad \(of ![](../../.gitbook/assets/graphics41%20%283%29.png) in bewerkingsweergave\):
 
-![](../../.gitbook/assets/graphics43%20%281%29.png)Illustration 85: Learning paths – Prerequisites
+![](../../.gitbook/assets/graphics43%20%281%29.png)
 
-This allows the teacher to require the learner to have completed another task in the learning path \(e.g. the preceding task\) before they can access this element, and also, e.g. in the case of a test or assessment, to have achieved a given minimum score.
+Afbeelding 85: Leerpaden - Voorwaarden
 
-Using the _prerequisite options_ button in the toolbar, prerequisites to complete the preceding step can be set globally for all steps in the path, or alternatively all prerequisites can be cleared from the path.
+Hierdoor kan de leraar eisen dat de leerling een andere taak in het leertraject heeft voltooid \(bijv. De voorgaande taak\) voordat hij toegang heeft tot dit element, en ook bijv. in het geval van een toets of beoordeling een bepaalde minimumscore hebben behaald.
 
-![](../../.gitbook/assets/graphics45%20%281%29.png)Illustration 86: Learning paths – Prerequisites options
+Met de knop _voorkeuze-opties_ in de werkbalk kunnen voorwaarden voor het voltooien van de voorgaande stap globaal worden ingesteld voor alle stappen in het pad, of als alternatief kunnen alle voorwaarden uit het pad worden verwijderd.
+
+![](../../.gitbook/assets/graphics45%20%281%29.png)
+
+Afbeelding 86: Leerpaden - opties voor voorwaarden
 

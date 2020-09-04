@@ -2,13 +2,12 @@
 
 Once the role has been created, you must assign it to a learner:
 
-* click on the _Assign roles_ link ![](../../.gitbook/assets/graphics315%20%283%29.gif),
-* select a learner to assign the role to,
-* select the task to be assigned,
-* select a date to achieve the objective of the role,
-* click the _Validate_ button.
+* klik op de _Rollen toewijzen_ link: ![](../../.gitbook/assets/graphics315%20%283%29.gif),
+* selecteer een leerling om de rol aan toe te wijzen,
+* selecteer de taak die u wilt toewijzen,
+* selecteer een datum om het doel van de rol te bereiken,
+* klik op de knop _Validate_.
 
 ![](../../.gitbook/assets/images239%20%283%29.png)
 
-Illustration 169: Projects – Assign a role
-
+Afbeelding 169: Projecten - Wijs een rol toe

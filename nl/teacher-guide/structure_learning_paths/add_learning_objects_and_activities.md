@@ -1,40 +1,50 @@
 # Voeg leerobjecten en activiteiten toe
 
-As you build your learning path/course, you have the option to include existing learning objects or activities or to create your own using Chamilo.
+Terwijl u uw leertraject/cursus samenstelt, heeft u de mogelijkheid om bestaande leerobjecten of activiteiten op te nemen of om uw eigen te creëren met Chamilo.
 
-![](../../.gitbook/assets/graphics12%20%281%29.png)Illustration 78: Adding a learning object or activity to a course
+![](../../.gitbook/assets/graphics12%20%281%29.png)
 
-## Create a new document <a id="create-a-new-document"></a>
+Afbeelding 78: een leerobject of activiteit toevoegen aan een cursus
 
-This option allows you to generate a document which will be automatically added to the learning path and saved in _.html_ format in the learning path documents.
+## Maak een nieuw document <a id="create-a-new-document"></a>
 
-In essence, it is possible to use the rich text editor to edit styles, add images, videos, etc. You can toggle between html and the WYSIWYG editor to produce whatever content you wish. In other words, Chamilo provides you with a complete learning path creation tool.
+Met deze optie kunt u een document genereren dat automatisch wordt toegevoegd aan het leertraject en wordt opgeslagen in _.html_ formaat in de leerpaddocumenten.
 
-To begin, click the _Rich media page / activity_ icon ![](../../.gitbook/assets/graphics24%20%283%29.png) to see the following page:
+In wezen is het mogelijk om de RTF-editor te gebruiken om stijlen te bewerken, afbeeldingen, video's, enz. Toe te voegen. U kunt schakelen tussen html en de WYSIWYG-editor om elke gewenste inhoud te produceren. Met andere woorden, Chamilo biedt u een complete tool voor het maken van leertrajecten.
 
-![](../../.gitbook/assets/graphics25%20%281%29.png)Illustration 79: Learning paths – Rich media creation tool
+Klik om te beginnen op het pictogram _Rich media-pagina/activiteit_ ![](../../.gitbook/assets/graphics24%20%283%29.png) om de volgende pagina te zien:
 
-## Use existing resources <a id="use-existing-resources"></a>
+![](../../.gitbook/assets/graphics25%20%281%29.png)
 
-You can use any document you have previously imported or created in the documents tool of the course \(e.g. a SCORM course, _.html_ pages, videos, images, etc. - see_Authoring content in Chamilo\_\_\)._
+Afbeelding 79: Leerpaden - Hulpprogramma voor het maken van rich media
 
-You can also add tests, links, assignments and forums by dragging them across to the learning paths list on the left of the page using the green “handle” ![](../../.gitbook/assets/graphics26%20%281%29.png) . The chosen resource will appears in the wherever you choose in the learning path. Use the handle to re-order items, and the pencil ![](../../.gitbook/assets/graphics32%20%281%29.png) and cross ![](../../.gitbook/assets/graphics27%20%281%29.png) icons to edit/delete elements.
+## Gebruik bestaande bronnen <a id="use-existing-resources"></a>
 
-Links, tests, assignments and forums can be created prior to building the learning path in the _Authoring_ or _Interaction_ sections on your course's homepage, and then added from these sections into your learning path via the relevant tab on the learning path page. \(Alternatively, they can be created directly from within the tabs themselves as you build the learning path:\)
+U kunt elk document gebruiken dat u eerder hebt geïmporteerd of aangemaakt in de documenten-tool van de cursus \(bijv. Een SCORM-cursus, _.html_-pagina's, video's, afbeeldingen, enz. - zie _Authoring content in Chamilo\_).
 
-![](../../.gitbook/assets/graphics28%20%281%29.png)Illustration 80: Learning paths – Importing existing resources
+U kunt ook tests, links, opdrachten en forums toevoegen door ze naar de lijst met leertrajecten aan de linkerkant van de pagina te slepen met behulp van het groene 'handvat' ![](../../.gitbook/assets/graphics26%20%281%29.png) . Het gekozen hulpmiddel zal verschijnen in de waar u ook kiest in het leertraject. Gebruik het handvat om items opnieuw te ordenen en gebruik het potlood ![](../../.gitbook/assets/graphics32%20%281%29.png) en kruis ![](../../.gitbook/assets/graphics27%20%281%29.png) pictogrammen om elementen te bewerken/verwijderen.
 
-## Add a new section <a id="add-a-new-section"></a>
+Links, toetsen, opdrachten en forums kunnen voorafgaand aan het opbouwen van het leertraject worden aangemaakt in de secties _Authoring_ of _Interaction_ op de startpagina van uw cursus, en vervolgens vanuit deze secties aan uw leertraject worden toegevoegd via het relevante tabblad op de leertrajectpagina. \(Als alternatief kunnen ze rechtstreeks vanuit de tabbladen zelf worden gemaakt terwijl u het leertraject samenstelt:\)
 
-The _Sections_ tool ![](../../.gitbook/assets/graphics33%20%283%29.png) is a simple but effective tool allowing you to group activities in the the learning path under headings for clarity.
+![](../../.gitbook/assets/graphics28%20%281%29.png)
 
-![](../../.gitbook/assets/graphics29%20%281%29.png)Illustration 81: Learning paths – New sections
+Illustratie 80: Leerpaden - Importeren van bestaande bronnen
 
-## Display the learning path <a id="display-the-learning-path"></a>
+## Voeg een nieuwe sectie toe <a id="add-a-new-section"></a>
 
-Display the results of the learning path you just built:
+De _Sections_ tool ![](../../.gitbook/assets/graphics33%20%283%29.png) is een eenvoudig maar effectief hulpmiddel waarmee u activiteiten in het leertraject onder de kopjes kunt groeperen voor de duidelijkheid.
 
-![](../../.gitbook/assets/graphics30%20%281%29.png)Illustration 82: Learning paths – Learner's view
+![](../../.gitbook/assets/graphics29%20%281%29.png)
 
-You can toggle between the above teacher and learner views by clicking the teacher/learner view button ![](../../.gitbook/assets/graphics31%20%283%29.png):
+Afbeelding 81: Leerpaden - Nieuwe secties
+
+## Geef het leertraject weer <a id="display-the-learning-path"></a>
+
+Geef de resultaten weer van het leertraject dat u zojuist heeft opgebouwd:
+
+![](../../.gitbook/assets/graphics30%20%281%29.png)
+
+Afbeelding 82: Leerpaden - mening van de leerling
+
+U kunt schakelen tussen de bovenstaande leerkracht- en leerlingweergaven door op de knop voor leerkracht/leerlingweergave te klikken ![](../../.gitbook/assets/graphics31%20%283%29.png):
 

@@ -1,6 +1,6 @@
 # Tabblad Cursussen
 
-The _Courses_ tab shows a list of courses available inside the sessions. Click on one of these courses \(the text will turn black\) to filter the rest of the tabs to show only items from this course.
+Het tabblad _Courses_ toont een lijst met cursussen die beschikbaar zijn in de sessies. Klik op een van deze cursussen \(de tekst wordt zwart\) om de rest van de tabbladen te filteren om alleen items van deze cursus weer te geven.
 
-Clicking directly on one of the tabs will show a complete list of all corresponding resources in the session \(if you don't click on one specific course in the first tab, the _Learning paths_ tab will show all learning paths in the session, all courses mixed up\).
+Als u rechtstreeks op een van de tabbladen klikt, wordt een volledige lijst van alle overeenkomstige bronnen in de sessie weergegeven \(als u niet op een specifieke cursus in het eerste tabblad klikt, toont het tabblad _Leerpaden_ alle leerpaden in de sessie, alle gangen door elkaar\).
 

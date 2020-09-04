@@ -1,2 +1,0 @@
-# Interactiviteit: tests
-

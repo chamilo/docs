@@ -1,6 +1,6 @@
 # Verbinding en beveiligingssleutel
 
-Het authenticatiemechanisme voor de webservices is een beetje raar. Daarom geven wij u eerst een voorbeeld van hoe we een service zouden kunnen aanroepen die een gebruiker in Chamilo aangemaakt heeft vanuit een andere applicatie in PHP. We zullen dan daarna de verschillende onderdelen verder behandelen.
+Het authenticatiemechanisme voor de webservices is een beetje raar, dus laten we u eerst een voorbeeld geven van hoe we een service zouden aanroepen die een gebruiker in Chamilo aanmaakt vanuit een andere applicatie in PHP ... we zullen dan de verschillende onderdelen.
 
 ```text
 $url = 'https://chamilo.net/main/webservices/';
@@ -38,13 +38,13 @@ $params = array(
 $soap->WSCreateUserPasswordCrypted($params);
 ```
 
-Helemaal aan het begin hebben we de URL gevormd om toegang te krijgen tot de WSDL. De meeste bestanden in main/webservices/ \(zo niet alle\) kunnen worden aangeroepen met het achtervoegsel "?wsdl" om de WSDL \(de gestructureerde presentatie van de beschikbare functies\) te tonen. Dit zou voldoende moeten zijn voor elke SOAP-cliënt om te weten welke functies beschikbaar zijn om aan te kunnen roepen.
+Helemaal aan het begin hebben we de URL gevormd om toegang te krijgen tot de WSDL. De meeste bestanden in main/webservices/ \(zo niet alle\) kunnen worden aangeroepen met het achtervoegsel "?wsdl" om de WSDL \(de gestructureerde presentatie van de beschikbare functies\) te tonen. Dit zou voldoende moeten zijn voor elke SOAP-client om te weten welke functies beschikbaar zijn om aan te roepen.
 
-We zochten vervolgens naar een IP-adres op testip.php. Dit script is er specifiek om ons te helpen de geheime sleutel te vormen: we moeten de server laten zien vanaf welk IP-adres we zullen bellen. Als u file\_get\_contents\(\) gebruikt, krijgt u die informatie in een variabele.
+We zochten vervolgens naar een IP-adres op testip.php. Dit script is er specifiek om ons te helpen de geheime sleutel te vormen: we moeten de server laten zien waarvan we weten vanaf welk IP-adres we zullen bellen. Als u file\_get\_contents\(\) gebruikt, krijgt u die informatie in een variabele.
 
-We definiëren dan een sleutel, omdat we deze niet rechtstreeks van Chamilo kunnen krijgen via de webserver. We moeten het app/config/configuration.php bestand openen en zoeken naar _$\_configuration\['security\_key'\] en daarna de waarde ervan naar ons script kopiëren om de laatste geheime sleutel te vormen die we zullen sturen naar de webservice.
+We definiëren dan een sleutel ... dat komt omdat we deze niet rechtstreeks van Chamilo kunnen krijgen via de webserver. We moeten het app/config/configuration.php bestand openen en zoeken naar _$\_configuration\['security\_key'\]_, dan de waarde ervan naar ons script kopiëren om de laatste geheime sleutel te vormen die we zullen sturen naar de webservice.
 
-Ten slotte bereiden we de _$params_ array voor en roepen we de _WSCreateUserPasswordCrypted\(\)_ \(een speciale versie van _WSCreateUser\(\)_ aan, die alleen werkt als we dezelfde cryptomethode gebruiken voor het wachtwoord aan beide kanten. \(belangrijk om het te vermelden in de _encrypt\_method_ parameter\).
+Ten slotte bereiden we de _$params_ array voor en roepen we de _WSCreateUserPasswordCrypted\(\)_ \(een speciale versie van _WSCreateUser\(\)_ aan die alleen werkt als we dezelfde cryptomethode gebruiken voor het wachtwoord aan beide kanten \(we hebben om het te vermelden in de _encrypt\_method_ parameter\).
 
-De parameter _original\_user\_id\_name_ is wat ons in staat stelt om te linken tussen Chamilo en onze externe service. Gebruik een constante naam die uw systeem vertegenwoordigt en meld dat het een gebruikers-ID is. En geef de gebruikers-ID van **uw** systeem op binnen de waarde van _original\_user\_id\_value_. Met deze ingestelde waarde kunt u later gebruikers die u eerder hebt gemaakt, bewerken of verwijderen: Chamilo zal een relatie onderhouden tussen uw systeem en zichzelf dankzij het opslaan van deze informatie.
+De parameter _original\_user\_id\_name_ is wat ons in staat stelt om te linken tussen Chamilo en onze externe service. Geef gewoon een constante naam die uw systeem vertegenwoordigt en het feit dat het een gebruikers-ID is, en geef de gebruikers-ID van **uw** systeem binnen de waarde van _original\_user\_id\_value_. Met deze ingestelde waarde kunt u later gebruikers die u eerder hebt gemaakt, bewerken of verwijderen: Chamilo zal een relatie onderhouden tussen uw systeem en zichzelf dankzij het opslaan van deze informatie.
 

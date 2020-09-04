@@ -1,18 +1,17 @@
 # Test resultaten
 
-Chamilo offers handy support for analyzing test results simply by clicking on the _Results_ icon ![](../../.gitbook/assets/graphics156%20%281%29.png), displayed to the right of each test listed in the main Tests page.
+Chamilo biedt handige ondersteuning voor het analyseren van testresultaten door simpelweg op het pictogram _Resultaten_ te klikken ![](../../.gitbook/assets/graphics156%20%281%29.png), rechts van elke test weergegeven op de hoofdpagina Tests.
 
 ![](../../.gitbook/assets/graphics161%20%281%29.png)
 
-Illustration 65: Exercises - List
+Afbeelding 65: Oefeningen - lijst
 
-This will display a page listing all the results for the relevant test.
+Hierdoor wordt een pagina weergegeven met alle resultaten voor de relevante test.
 
 ![](../../.gitbook/assets/graphics162%20%281%29.png)
 
-Illustration 66: Exercises – Results list
+Afbeelding 66: Oefeningen - Resultatenlijst
 
-Here, the teacher can get an overview of learners' times and scores, and can score ![](../../.gitbook/assets/graphics160%20%281%29.png) or edit ![](../../.gitbook/assets/graphics163%20%281%29.png) open questions and offer feedback. He can also delete ![](../../.gitbook/assets/graphics164%20%281%29.png) a test attempt to allow the learner to do the test again \(if there is a valid reason to do so e.g. there was an error in the test\).
+Hier kan de docent een overzicht krijgen van de tijden en scores van de leerlingen en kan hij scoren ![](../../.gitbook/assets/graphics160%20%281%29.png) of bewerken ![](../../.gitbook/assets/graphics163%20%281%29.png) open vragen en geef feedback. Hij kan ook verwijderen ![](../../.gitbook/assets/graphics164%20%281%29.png) een testpoging om de leerling de test opnieuw te laten doen \(als er een geldige reden is om dit te doen, bijvoorbeeld als er een fout is opgetreden in de test\).
 
-The menu bar of this page allows the teacher to navigate back ![](../../.gitbook/assets/graphics165%20%281%29.png) to the test , export test results in CSV or XLS format ![](../../.gitbook/assets/graphics166%20%281%29.png) \(e.g. to sort them and generate graphical evaluation statistics\), view statistics ![](../../.gitbook/assets/graphics169%20%281%29.png) about test questions undertaken or even monitor students taking the test “live” ![](../../.gitbook/assets/graphics168%20%281%29.png)to know how they are performing “during” the exam \(particularly useful to monitored exam centers\).
-
+Via de menubalk van deze pagina kan de docent terug navigeren ![](../../.gitbook/assets/graphics165%20%281%29.png) testresultaten exporteren in CSV- of XLS-indeling ![](../../.gitbook/assets/graphics166%20%281%29.png) \(bijv. om ze te sorteren en grafische evaluatiestatistieken te genereren\), statistieken bekijken ![](../../.gitbook/assets/graphics169%20%281%29.png) over gemaakte testvragen of zelfs het volgen van studenten die de test 'live' afleggen ![](../../.gitbook/assets/graphics168%20%281%29.png) om te weten hoe ze presteren "tijdens" het examen \(vooral handig voor gecontroleerde examencentra\).

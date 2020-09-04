@@ -1,26 +1,26 @@
 # Persoonlijke categorieën
 
-Go to _My courses_, option _Sort courses_ in the menu, to get to the courses sorting tools page. Click on the _Create a personal course category_, and fill the name of the new personal category to be created. Finally, click the _Add category_ icon.
+Ga naar _Mijn cursussen_, optie _Sorteer cursussen_ in het menu, om naar de pagina met sorteerhulpmiddelen voor cursussen te gaan. Klik op _Create a personal course category_, en vul de naam in van de nieuwe aan te maken persoonlijke categorie. Klik ten slotte op het pictogram _Categorie toevoegen_.
 
 ![](../../.gitbook/assets/images19%20%2812%29.png)
 
-Illustration 19: Sort my courses
+Afbeelding 19: Sorteer mijn cursussen
 
 ![](../../.gitbook/assets/images272%20%283%29.png)
 
-Illustration 20: Personal category creation form
+Afbeelding 20: Aanmaakformulier persoonlijke categorie
 
-The new personal category appears in a list at the top of the page. It is possible to create several personal course categories.
+De nieuwe persoonlijke categorie verschijnt in een lijst bovenaan de pagina. Het is mogelijk om meerdere persoonlijke cursuscategorieën aan te maken.
 
 ![](../../.gitbook/assets/images273%20%283%29.png)
 
-Illustration 21: Personal courses category created
+Afbeelding 21: categorie Persoonlijke cursussen gemaakt
 
-Click the pencil icon next to each course to set a category for it. In the drop-down list, select the personal category with which the course will be associated, then click the confirmation button. With courses sorted and linked to personal categories, the courses homepage is more readable. Courses not associated with any personal category are shown at the top of the page.
+Klik op het potloodpictogram naast elke cursus om er een categorie voor in te stellen. Selecteer in de vervolgkeuzelijst de persoonlijke categorie waaraan de cursus zal worden gekoppeld en klik op de bevestigingsknop. Met cursussen gesorteerd en gekoppeld aan persoonlijke categorieën, is de startpagina van de cursussen beter leesbaar. Cursussen die niet aan een persoonlijke categorie zijn gekoppeld, worden bovenaan de pagina weergegeven.
 
 ![](../../.gitbook/assets/images20%20%2810%29.png)
 
-Illustration 22: Personal courses categories
+Afbeelding 22: Categorieën persoonlijke cursussen
 
-To remove a category, click the red crossand confirm.
+Om een categorie te verwijderen, klikt u op het rode kruis en bevestigt u.
 

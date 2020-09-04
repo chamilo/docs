@@ -16,7 +16,7 @@ Er is ook een online _help_-faciliteit op de meeste pagina's die verschijnt als 
 
 ## Terminology <a id="terminology"></a>
 
-Op het moment van schrijven, wordt Chamilo door bijna zesduizend organisaties over de hele wereld gebruikt, in veel verschillende talen, waaronder basisscholen, hogescholen, instellingen voor hoger onderwijs, universiteiten, ngo's, kleine, middelgrote en grote bedrijven.
+Op het moment van schrijven wordt Chamilo door bijna zesduizend organisaties over de hele wereld gebruikt, in veel verschillende talen, waaronder basisscholen, hogescholen, instellingen voor hoger onderwijs, universiteiten, ngo's, kleine, middelgrote en grote bedrijven.
 
 Het is duidelijk dat al deze organen en instellingen de neiging hebben om enigszins verschillende terminologieën te gebruiken. Sommige instellingen noemen hun cursussen bijvoorbeeld "Trainingssessies", andere noemen ze "Leerruimtes" en andere gewoon "Cursussen". Dit stelt uitdagingen voor het ontwerp van een 'one-size-fits-all'-e-learningplatform \(of zelfs een gebruikershandleiding\), dus we hebben de middenweg gezocht en gebruiken een eenvoudige, universele terminologie die we vertrouwen zin voor al onze gebruikers.
 
