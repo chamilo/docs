@@ -1,0 +1,6 @@
+# Groepen
+
+De _Groups_ tool ![](../../.gitbook/assets/graphics276%20%283%29.png) stelt een leraar in staat om werkgroepen van leerlingen te creëren en te beheren. Dit is een eenvoudig organisatorisch hulpmiddel dat de automatische of handmatige groepering van leerlingen mogelijk maakt, maar vanuit pedagogisch oogpunt kan dit een zeer krachtig hulpmiddel zijn voor online leren. Groepswerk moedigt peerondersteuning en interactie aan en helpt een student om dat gevoel van isolement te overwinnen, wat een van de belangrijkste uitdagingen is waarmee hij/zij te maken kan krijgen bij online studeren. In combinatie met andere tools kan het gebruik van de \_Groups\_tool helpen om teamworkvaardigheden te ontwikkelen, door kansen te bieden voor taakleiderschap en voor wederzijdse reflectie en feedback tussen leerlingen. Als zodanig kan het studenten helpen bij het volhouden en hun online studie-ervaring aanzienlijk verrijken.
+
+Met de tool _Groups_ kan een leraar een reeks Chamilo-tools \(documenten, agenda, opdrachten, aankondigingen, forum, wiki en chat\) toewijzen aan een groep die als privé kan worden geconfigureerd voor de groep, waardoor studenten effectief veilige online werkplekken krijgen die niet kunnen worden bekeken door andere leerlingen of groepen.
+

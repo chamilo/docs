@@ -1,23 +1,23 @@
-### Training (courses) {#training-courses}
+### Training (cursussen) {# trainingen}
 
-![](../../assets/graficos6.png)This tab allows you to configure the options related to the courses, be them in relation to the course user, its creator or even the purely technical side. Check each option carefully to match your needs.
+![](../../assets/graficos6.png) Op dit tabblad kunt u de opties met betrekking tot de cursussen configureren, of deze nu betrekking hebben op de cursusgebruiker, de maker ervan of zelfs de puur technische kant. Controleer elke optie zorgvuldig om aan uw behoeften te voldoen.
 
-Some choices are available that influence the usability of the platform, as the way you show the homepage or the tools shortcuts bar.
+Er zijn enkele keuzes die van invloed zijn op de bruikbaarheid van het platform, zoals de manier waarop u de startpagina of de sneltoetsbalk toont.
 
-Training homepage design allows you to switch the appearance of your course homepage (where all tools icons reside). Previously, the design of the course homepage was “Activity view”, but it has now been replaced by the more mobile-friendly “Big activity view”, which gives larger and more inviting icons.
+Met het ontwerp van de startpagina van de training kunt u het uiterlijk van de startpagina van uw cursus wijzigen (waar alle pictogrammen voor tools zich bevinden). Voorheen was het ontwerp van de startpagina van de cursus "Activiteitenweergave", maar deze is nu vervangen door de meer mobielvriendelijke "Grote activiteitenweergave", die grotere en meer uitnodigende pictogrammen geeft.
 
-Tools shortcuts makes a toolbar appear inside the course, allowing you to quickly jump from one tool to another. It is a popular feature amongst many Chamilo users, but it can only be enabled/disabled at the platform level. It appears horizontally, just below the page&#039;s breadcrumb.
+Met sneltoetsen voor tools wordt een werkbalk in de cursus weergegeven, zodat u snel van de ene tool naar de andere kunt gaan. Het is een populaire functie onder veel Chamilo-gebruikers, maar het kan alleen op platformniveau worden in- / uitgeschakeld. Het verschijnt horizontaal, net onder de broodkruimel van de pagina.
 
-**Default hard disk space** is the space allowed for documents in a specific course&#039;s document tool. It is set to 95.4MB by default, which is for historical reasons (it&#039;s the equivalent of 100,000,000 bytes, in 1024 base). You can change this option on a course basis through the courses list in the administration page. Only an admin can do that, though. Changing the option here will only affect future courses.
+**Standaardruimte op de harde schijf** is de ruimte die is toegestaan voor documenten in de documenttool van een specifieke cursus. Het is standaard ingesteld op 95,4 MB, wat om historische redenen is (het is het equivalent van 100.000.000 bytes, in 1024 basis). U kunt deze optie per cursus wijzigen via de cursuslijst op de administratiepagina. Alleen een admin kan dat echter doen. Het wijzigen van de optie hier heeft alleen gevolgen voor toekomstige cursussen.
 
-Display training navigation menu is another type of toolbar, appearing on the right hand side of the courses pages.
+Trainingsnavigatiemenu weergeven is een ander type werkbalk, die aan de rechterkant van de cursuspagina's verschijnt.
 
-Show glossary terms in documents allows you to enable the auto-parsing of glossary terms in documents of the same course.
+Door termen uit de woordenlijst in documenten weer te geven, kunt u de automatische ontleding van termen uit de woordenlijst in documenten van dezelfde cursus inschakelen.
 
-Go directly to the course after login makes the user go directly to the course homepage in case he&#039;s only registered in one course. This makes for a much better user experience for users who only ever come to quickly get studying on their single active course.
+Als je na het inloggen direct naar de cursus gaat, gaat de gebruiker direct naar de startpagina van de cursus voor het geval hij maar voor één cursus is geregistreerd. Dit zorgt voor een veel betere gebruikerservaring voor gebruikers die alleen maar komen om snel te studeren op hun enkele actieve cursus.
 
-Enable quiz scenario allows you to enable the adaptative exercises. These exercises can drive a student dynamically through a moving path of questions, depending on his answers to previous questions.
+Met het quizscenario inschakelen kunt u de adaptieve oefeningen inschakelen. Deze oefeningen kunnen een student dynamisch door een bewegend vragenpad drijven, afhankelijk van zijn antwoorden op eerdere vragen.
 
-Default course visibility indicates which visibility new courses will have by default. It is recommended (for private portals) to set this option to “Private” so students cannot subscribe on their own. The default is “Open” and will allow students to subscribe.
+Standaard zichtbaarheid van cursussen geeft aan welke zichtbaarheid nieuwe cursussen standaard zullen hebben. Het wordt aanbevolen (voor privéportals) om deze optie in te stellen op “Privé” zodat studenten zich niet zelfstandig kunnen inschrijven. De standaardinstelling is "Open" en stelt studenten in staat zich in te schrijven.
 
-Allow public certificates allows you to define whether students&#039; certificates will be visible to the public or not. Certificates are generated from inside the _Assessments_ tool in a course.
+Met openbare certificaten toestaan kunt u bepalen of de certificaten van studenten zichtbaar zijn voor het publiek of niet. Certificaten worden gegenereerd vanuit de *Assessments-* tool in een cursus.

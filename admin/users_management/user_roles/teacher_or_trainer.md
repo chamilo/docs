@@ -1,6 +1,6 @@
-### Teacher (or trainer) {#teacher-or-trainer}
+### Docent (of trainer) {# teacher-or-trainer}
 
-| Description | The teacher is the creator of courses by excellence. He creates content within a base course, and this content is either used directly (if you don&#039;t use sessions) or can be used in many sessions at the same time (in the case of sessions usage). |
-| --- | --- |
-| Permissions in a course | By default, he can: |
-| Global permissions | By default, he can : |
+Omschrijving | De docent is de bedenker van cursussen bij uitstek. Hij maakt inhoud binnen een basiscursus, en deze inhoud wordt ofwel direct gebruikt (als je geen sessies gebruikt) of kan in veel sessies tegelijk worden gebruikt (in het geval van sessiegebruik).
+--- | ---
+Rechten in een cursus | Standaard kan hij:
+Globale machtigingen | Standaard kan hij:

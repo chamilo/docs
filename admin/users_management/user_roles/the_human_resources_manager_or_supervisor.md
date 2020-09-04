@@ -1,6 +1,6 @@
-### The human resources manager (or supervisor) {#the-human-resources-manager-or-supervisor}
+### De HR-manager (of supervisor) {#De-HR-manager-of-supervisor}
 
-| Description | The human resources manager is a role given during the creation of a user (or later on in the user edition screen, but this might affect other permissions used until then). It is an exclusive role (it cannot be combined with another role). The aim of this role is to follow users, courses or sessions in particular, as a human resources manager would do with an employee he&#039;s been assigned to. It is an observation role. As such, he cannot modify anything. |
-| --- | --- |
-| Permissions in a course | See his students&#039; results |
-| Global permissions | By default, he can : |
+Omschrijving | De HR-manager is een rol die wordt toegekend tijdens het aanmaken van een gebruiker (of later in het gebruikerseditie-scherm, maar dit kan van invloed zijn op andere machtigingen die tot dan toe werden gebruikt). Het is een exclusieve rol (het kan niet gecombineerd worden met een andere rol). Het doel van deze rol is om met name gebruikers, cursussen of sessies te volgen, zoals een HR-manager zou doen met een medewerker aan wie hij is toegewezen. Het is een observatierol. Als zodanig kan hij niets wijzigen.
+--- | ---
+Rechten in een cursus | De resultaten bekijken van zijn studenten
+Globale machtigingen | Standaard kan hij:
