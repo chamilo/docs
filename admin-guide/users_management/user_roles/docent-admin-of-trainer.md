@@ -1,2 +1,0 @@
-# Docent \(admin / of trainer\)
-

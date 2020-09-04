@@ -22,10 +22,10 @@
 | Portaalbeheerder: telefoon | Het telefoonnummer van de platformbeheerder |  |
 | Leerlingweergave inschakelen | Schakel de gebruikersweergave in, waarmee een trainer of beheerder een training kan zien zoals een deelnemer of gebruiker deze zou zien | Ja |
 | Pagina na inloggen | De pagina die wordt gezien door de gebruiker die het platform binnengaat |  |
-| Tijdslimiet voor wie online is | Deze tijdslimiet bepaalt hoeveel seconden na zijn laatste actie een gebruiker nog online wordt beschouwd |  |
+| Tijdslimiet voor wie online is | Deze tijdslimiet bepaalt hoeveel seconden na zijn laatste actie een gebruiker _online_ wordt beschouwd |  |
 | Voorbeeldmateriaal over het maken van trainingen | Maak automatisch voorbeeldmateriaal bij het maken van een nieuwe cursus |  |
 | Geldigheid van account | Een gebruikersaccount is geldig voor dit aantal dagen na aanmaak |  |
-| Gebruik trainingssessies | Trainingssessies bieden een andere manier om met training om te gaan, waarbij training een auteur, een coach en leerlingen heeft. Elke coach geeft een training voor een bepaalde periode, een _trainingssessie genoemd_ , aan een set van leerlingen die zich niet mengen met andere leerling groepen die aan een andere trainingssessie zijn gekoppeld. | Ja |
+| Gebruik trainingssessies | Trainingssessies bieden een andere manier om met training om te gaan, waarbij training een auteur, een coach en leerlingen heeft. Elke coach geeft een training voor een bepaalde periode, een _trainingssessie genoemd_ , aan een set van leerlingen die zich niet mengen met andere leerlinggroepen die aan een andere trainingssessie zijn gekoppeld. | Ja |
 | Laat e-mailadressen zien | Toon e-mailadressen aan gebruikers |  |
 | Trainingsnummer tonen | Toon het aantal trainingen in elke categorie in de trainingscategorieën op de homepage |  |
 | Toon lege trainingscategorieën | Toon de trainingscategorieën op de startpagina, zelfs als ze leeg zijn |  |
@@ -48,7 +48,7 @@
 | Schakel per definitie een watermerk in | Als deze optie is ingeschakeld, kunnen docenten hun eigen watermerk definiëren voor de documenten in hun cursussen. |  |
 | PDF-watermerktekst | Deze tekst wordt als watermerk toegevoegd aan de documenten die als PDF worden geëxporteerd. |  |
 | Toon lessen aan gebruikers | Toon de klassen aan gebruikers. Klassen zijn een functie waarmee u groepen gebruikers rechtstreeks bij een sessie of cursus kunt registreren / afmelden, waardoor het administratieve gedoe wordt verminderd. Wanneer u deze optie kiest, kunnen leerlingen via hun sociale netwerkinterface zien in welke klas ze zitten. |  |
-| Vergroot de Lettertype toegankelijkheidsfunctie | Schakel deze optie in om een reeks opties voor het wijzigen van het lettertype te tonen in de rechterbovenhoek van je campus. Hierdoor kunnen slechtzienden hun cursusinhoud gemakkelijker lezen. |  |
+| Lettertype vergroot de toegankelijkheidsfunctie | Schakel deze optie in om een reeks opties voor het wijzigen van het lettertype te tonen in de rechterbovenhoek van je campus. Hierdoor kunnen slechtzienden hun cursusinhoud gemakkelijker lezen. |  |
 | Verberg cursussen lijst in sessies | Wanneer u het sessieblok op uw cursuspagina weergeeft, verberg dan de lijst met cursussen binnen die sessie \(toon ze alleen in het specifieke sessiescherm\). |  |
 | Cursussen |  |  |
 | Opleiding homepage ontwerp | Hoe wil je dat de startpagina van een training eruit ziet? |  |
@@ -63,7 +63,7 @@
 | Standaard forumweergave | Wat moet de standaardoptie zijn bij het maken van een nieuw forum. Elke trainer kan echter voor elk individueel forum een andere weergave kiezen |  |
 | Afzender van enquête-e-mail \(geen antwoord\) | Moeten de uitnodigingen voor de enquête het e-mailadres van de coach gebruiken of het adres voor geen antwoord dat is gedefinieerd in de hoofdconfiguratiesectie? |  |
 | Sta trainingsthema's toe | Maakt het mogelijk om grafische thema's te trainen en maakt het mogelijk om het stijlblad dat door een training wordt gebruikt te wijzigen in een van de mogelijke stijlbladen die beschikbaar zijn voor Chamilo. Wanneer een gebruiker deelneemt aan de training, heeft het stijlblad van de training voorrang op het eigen stijlblad van de gebruiker en het standaardstijlblad van het platform. |  |
-| Titel van sessiegegevens weergeven | Sessiegegevens opmerking weergeven |  |
+| Titel van sessiegegevens weergeven | Sessiegegevensopmerking weergeven |  |
 | Toon woordenlijsttermen in documenten | Vanaf hier kunt u configureren hoe u vanuit de documenten links naar de woordenlijsttermen toevoegt |  |
 | Toon de cursusbeschrijvingen in de catalogus | Toon de cursusbeschrijvingen als een geïntegreerde pop-up wanneer u op een cursusinfo-pictogram in de cursussencatalogus klikt |  |
 | Laat coaches binnen trainingssessies bewerken | Sta coaches toe commentaar binnen trainingssessies te bewerken |  |
@@ -75,7 +75,7 @@
 | Talen |  |  |
 | Portal Taal | U kunt de platformtalen bepalen in een ander deel van het platformbeheer, namelijk: [Chamilo Platformtalen](http://my.chamilo.net/main/admin/languages.php) |  |
 | Verberg DLTT Mark-up | Verberg de \[= ... =\] opmaak wanneer een taalvariabele niet wordt vertaald | Ja |
-| Karakterset | De tekenset is de manier waarop specifieke talen kunnen worden weergegeven in Chamilo. Als je bijvoorbeeld Russische of Japanse karakters gebruikt, wil je dit misschien veranderen. Voor alle Engelse, Latijnse en West-Europese karakters moet de standaard ISO-8859-15 in orde zijn. | UTF-8 |
+| Karakterset | De tekenset is wat piloten de manier waarop specifieke talen kunnen worden weergegeven in Chamilo. Als je bijvoorbeeld Russische of Japanse karakters gebruikt, wil je dit misschien veranderen. Voor alle Engelse, Latijnse en West-Europese karakters moet de standaard ISO-8859-15 in orde zijn. | UTF-8 |
 | Sta definitie en gebruik van subtalen toe | Door deze optie in te schakelen, kunt u variaties definiëren voor elk van de taaltermen die in de interface van het platform worden gebruikt, in de vorm van een nieuwe taal op basis van en uitbreiding van een bestaande taal. U vindt deze optie in het talengedeelte van het administratiepaneel. |  |
 | Gebruikers |  |  |
 | Profiel | Welke delen van het profiel kunnen worden gewijzigd? |  |
@@ -114,7 +114,7 @@
 | Schakel online services in voor het converteren van tekst in audio | Online tool om tekst om te zetten in spraak. Gebruikt spraaksynthesesystemen en technologie om spraakbronnen te leveren. |  |
 | Verberg tools voor docenten | Controleer de tools die je voor docenten wilt verbergen. Dit zal de toegang tot de tool niet verbieden \(geen veiligheidsdoel\), maar zal het onzichtbaar maken voor de leerkrachten om verwarring te voorkomen \(met te veel tools - gebruiksdoel\). |  |
 | Schakel externe Pixlr-services in | Met Pixlr kunt u uw foto's bewerken, aanpassen en filteren met functies die vergelijkbaar zijn met Photoshop. Het is de ideale aanvulling om afbeeldingen te verwerken op basis van bitmaps |  |
-| Activeer recorder - spraakspeler Nanogong | Nanogong is een recorder - spraakspeler waarmee u uw stem kunt opnemen en naar het platform kunt sturen of naar uw harde schijf kunt downloaden. Het laat je ook spelen wat je hebt opgenomen. De studenten hebben alleen een microfoon en luidsprekers nodig en accepteren de load-applet wanneer ze voor het eerst worden geladen. Het is erg handig voor taal leerders om zijn stem te horen nadat ze de juiste uitspraak van de leraar hebben beluisterd in een ander wav- of mp3-spraakbestand. |  |
+| Activeer recorder - spraakspeler Nanogong | Nanogong is een recorder - spraakspeler waarmee u uw stem kunt opnemen en naar het platform kunt sturen of naar uw harde schijf kunt downloaden. Het laat je ook spelen wat je hebt opgenomen. De studenten hebben alleen een microfoon en luidsprekers nodig en accepteren de load-applet wanneer ze voor het eerst worden geladen. Het is erg handig voor taalleerders om zijn stem te horen nadat ze de juiste uitspraak van de leraar hebben beluisterd in een ander wav- of mp3-spraakbestand. |  |
 | HTML-editor |  |  |
 | Naleving van openbare pagina's voor WAI | WAI \(Web Accessibility Initiative\) is een initiatief om het web toegankelijker te maken. Door deze optie te selecteren, worden de openbare pagina's van Chamilo toegankelijker. Dit betekent ook dat bepaalde inhoud op de openbare pagina's van de portal er anders uit kan zien. |  |
 | Geavanceerde bestandsbeheerder voor WYSIWYG-editor | Geavanceerde bestandsbeheer inschakelen voor WYSIWYG-editor? Dit voegt een aanzienlijk aantal extra opties toe aan de bestandsbeheerder die wordt geopend in een pop-upvenster bij het uploaden van bestanden naar de server. |  |

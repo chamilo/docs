@@ -1,2 +1,0 @@
-# Installatie en configuratie
-

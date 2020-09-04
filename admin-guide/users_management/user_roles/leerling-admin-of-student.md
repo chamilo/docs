@@ -1,2 +1,0 @@
-# Leerling \(admin / of student\)
-

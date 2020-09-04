@@ -1,3 +1,0 @@
-# Use case - Corporate branding
-
-Stel dat uw bedrijf, KBTS \(fictieve naam\), gezondheids- en veiligheidscursussen aanbiedt voor verschillende klanten. Stel je voor dat een van je klanten Coca-Cola® is en de andere Pepsi®. Misschien wil je niet dat deze twee klanten weten dat je ze dezelfde cursus verkoopt of dat je hetzelfde portaal gebruikt om ze les te geven. Natuurlijk zou je dezelfde cursus willen hergebruiken \(om de hoeveelheid werk niet te dupliceren\), maar zonder dat je leerlingen bijdragen zien van de leerlingen van het andere bedrijf ... Met multi-URL , kunt u cocacola.kbts.com en pepsi.kbts.com opzetten om dat scheidingsdoel te dienen.

@@ -4,9 +4,9 @@ Dit document is het resultaat van de samenwerking van verschillende organisaties
 
 | Datum | Bijdrager | Contact | Updates |
 | :--- | :--- | :--- | :--- |
-| 2010 | 2i2l.fr, Anaël Boulier | info@2i2l.fr | Basis schrijven van de handleiding voor Chamilo 1.8.7 |
-| April 2011 | BeezNest Belgium SPRL, Yannick Warnier | info@beeznest.com | Update voor 1.8.8, fixes, lay-out, details toevoegingen |
-| Juillet 2011 | BeezNest Belgium SPRL, Yannick Warnier | info@beeznest.com | Update voor 1.8.8.4, multi-url sectietoevoegingen, videoconf, stijlen, ppt-conversie, verminderen, kanalen en promoties, kopieën van sessies, gebruikersrollen, profieluitbreiding, subtalen, inleiding herschrijven , zet wat opties aan |
+| 2010 | 2i2l.fr, Anaël Boulier | info@2i2l.fr | Rédaction de base du manuel pour Chamilo 1.8.7 |
+| April 2011 | BeezNest Belgium SPRL, Yannick Warnier | info@beeznest.com | Mise à jour pour 1.8.8, correctifs, mise en page, ajouts de détails |
+| Juillet 2011 | BeezNest Belgium SPRL, Yannick Warnier | info@beeznest.com | Mise à jour pour 1.8.8.4, ajouts de secties multi-url, videoconf, styles, conversion ppt, lessen, filières et promoties, kopieën van sessies, rôles d'utilisateurs, extension de profils, sous-langages, réécriture de l'introduction , met des opties |
 | Juli 2011 | BeezNest Belgium SPRL | info@beeznest.com | Vertaling naar het Engels. Ontbrekende illustraties en peer review. |
 | Maart 2013 | BeezNest Belgium SPRL | info@beeznest.com | Bijgewerkt naar Chamilo 1.9 en nieuwe secties toegevoegd. |
-| July 2020 | Spacecabbie & BeezNest Belgium SPRL | | Vertaling naar het Nederlands |
+| July 2020 | Spacecabbie & BeezNest Belgium SPRL | | Vertaling naar het Nederlands | 

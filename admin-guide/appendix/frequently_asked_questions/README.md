@@ -1,2 +1,0 @@
-# Veel Gestelde Vragen
-
