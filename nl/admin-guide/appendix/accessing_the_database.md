@@ -1,4 +1,4 @@
-# Toegang tot de database
+# Toegang tot de database 
 
 We raden u ten zeerste aan om **nooit rechtstreeks toegang te krijgen tot de database** en altijd de beheertools van Chamilo te gebruiken om uw gegevens te wijzigen. Dit zorgt voor gegevensintegriteit en stelt elke beheerder in staat om uw gegevens veilig en snel te analyseren in geval van problemen.
 
