@@ -1,0 +1,9 @@
+# Dropbox
+
+De _Dropbox_ \(delen van documenten\) tool ![](../../.gitbook/assets/graphics268%20%283%29.png) een plek bieden waar gebruikers bestanden voor elkaar kunnen achterlaten, zodat ze gemakkelijk kunnen worden gedownload en zware e-maildownloads worden vermeden. Bestanden kunnen daar worden 'neergezet' door de leraar zodat de leerlingen ze kunnen verzamelen, door een leerling voor andere leerlingen \(indien toegestaan door de platformbeheerder\) of door een leerling voor de leraar \(hoewel het niet echt bedoeld is voor de levering van huiswerk of opdrachten, waarvoor de tool _Assignments_ moet worden gebruikt.\)
+
+Hoewel het basisconcept van deze tool vergelijkbaar is met populaire tools zoals Dropbox of Google Drive, is het eigenlijk ouder dan deze moderne tools en werkt het niet op dezelfde manier. Als je bijvoorbeeld samen aan één document werkt, in plaats van het 'gedeelde' bestand te openen om het rechtstreeks te bekijken en te bewerken, downloaden gebruikers gewoon het gedeelde bestand, werken eraan en uploaden het opnieuw naar de dropbox \(bijv. Met wijzigingen\). Standaard zullen gewijzigde bestanden de originele versie niet overschrijven, ook al is de bestandsnaam hetzelfde, waardoor het gemakkelijk wordt om "versies" van een document te beheren, gedifferentieerd naar datum/tijd van uploaden. Alle gebruikers hebben de mogelijkheid om in het dropbox-venster een opmerking toe te voegen aan een gedeeld document, opnieuw een handig apparaat voor serieus samenwerken. Zo kan een docent bijvoorbeeld een korte aantekening maken over de bijdrage van elke student.
+
+![](../../.gitbook/assets/images202%20%282%29.png)
+
+Afbeelding 145: Dropbox - verzonden bestanden

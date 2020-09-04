@@ -10,7 +10,7 @@ Het aanmaken van promoties wordt gevolgd door de registratie van sessies binnen 
 
 Men krijgt dan een lijst die lijkt op de volgende \(al getoond vóór\).
 
-![](../../../.gitbook/assets/graficos85%20%281%29.png)
+![](../../../.gitbook/assets/graficos91%20%281%29.png)
 
 Afbeelding 75: Lijst met carrières en promoties
 

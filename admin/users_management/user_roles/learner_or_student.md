@@ -1,6 +1,6 @@
-### Learner (or student) {#learner-or-student}
+### Leerling (of student) {# leerling-of-student}
 
-| Description | The learner is the typical role of the person who follows one or several courses. He has access to the contents of the courses to which he subscribed (if that was made possible) or to which someone subscribed him. |
-| --- | --- |
-| Permissions in a course | By default, he can : |
-| Global permissions | By default, he can : |
+Omschrijving | De leerling is de typische rol van de persoon die een of meerdere cursussen volgt. Hij heeft toegang tot de inhoud van de cursussen waarop hij zich heeft ingeschreven (als dat mogelijk is gemaakt) of waarop iemand hem heeft ingeschreven.
+--- | ---
+Rechten in een Cursus | Standaard kan hij:
+Globale machtigingen | Standaard kan hij:

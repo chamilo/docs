@@ -1,6 +1,6 @@
-### The session coach (or session tutor) {#the-session-coach-or-session-tutor}
+### De sessiecoach (of sessiebegeleider) {# the-session-coach-or-session-tutor}
 
-| Description | The session coach is a teacher who has a coordination role within a session. She communicates with other coaches in the session and can navigate into all the courses of the session in order to observe the users results and take the best decisions on he basis of more complete information. |
-| --- | --- |
-| Permissions in a course | By default, he can : |
-| Global permissions | Same permissions as a course coach |
+Omschrijving | De sessiecoach is een docent die een coördinerende rol heeft binnen een sessie. Ze communiceert met andere coaches in de sessie en kan navigeren in alle cursussen van de sessie om de resultaten van de gebruikers te observeren en de beste beslissingen te nemen op basis van meer volledige informatie.
+--- | ---
+Rechten in een cursus | Standaard kan hij:
+Globale machtigingen | Dezelfde rechten als een cursuscoach
