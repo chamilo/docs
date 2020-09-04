@@ -1,14 +1,14 @@
 # Andere wiki-functies
 
-The menu located in the top left corner \(drop-down menu\) gives access to other wiki features, regardless of the current page:
+Het menu in de linkerbovenhoek \(vervolgkeuzemenu\) geeft toegang tot andere wiki-functies, ongeacht de huidige pagina:
 
-* search titles or contents of pages,
-* display a list of all the pages,
-* list only the latest modifications,
-* remove the whole wiki \(be careful with this command!\),
-* see the most active users,
-* see the most visited pages,
-* see the most updated pages,
-* see all orphan pages,
-* see all empty pages \(wanted pages\) created as such in order to invite somebody else to add content on a given topic.
+* zoeken naar titels of inhoud van pagina's,
+* toon een lijst van alle pagina's,
+* lijst alleen de laatste wijzigingen,
+* verwijder de hele wiki \(wees voorzichtig met dit commando!\),
+* bekijk de meest actieve gebruikers,
+* zie de meest bezochte pagina's,
+* zie de meest bijgewerkte pagina's,
+* zie alle weespagina's,
+* bekijk alle lege pagina's \(gewenste pagina's\) die als zodanig zijn aangemaakt om iemand anders uit te nodigen om inhoud over een bepaald onderwerp toe te voegen.
 

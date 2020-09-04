@@ -1,19 +1,19 @@
 # Sociale groepen
 
-The _Social groups_ link ![](../../.gitbook/assets/graphics341%20%281%29.png) compiles together all groups that exist on the platform. These groups can only be created by administrators, unless they have enabled this option for all users.
+De _sociale groepen_ koppelen ![](../../.gitbook/assets/graphics341%20%281%29.png) compileert alle groepen die op het platform bestaan. Deze groepen kunnen alleen door beheerders worden aangemaakt, tenzij ze deze optie voor alle gebruikers hebben ingeschakeld.
 
-There are two types of groups, depending on access:
+Er zijn twee soorten groepen, afhankelijk van de toegang:
 
-* public \(everybody can join\)
-* private \(the group administrator must authorize the membership request\)
+* public \(iedereen kan meedoen\)
+* private \(de groepsbeheerder moet de lidmaatschapsverzoek autoriseren\)
 
 ![](../../.gitbook/assets/images260%20%283%29.png)
 
-Illustration 192: Social network – Social groups
+Afbeelding 192: Sociaal netwerk - Sociale groepen
 
-The _My groups tab_ lists the groups of which you are a member. These groups work as a forum. The administrator \(or moderator\) creates discussion topics and users start contributing.
+Het tabblad _Mijn groepen_ geeft de groepen weer waarvan u lid bent. Deze groepen werken als een forum. De beheerder \(of moderator\) maakt discussieonderwerpen en gebruikers beginnen met bijdragen.
 
 ![](../../.gitbook/assets/images261%20%283%29.png)
 
-Illustration 193: Social network – Social groups interface
+Illustratie 193: Sociaal netwerk - Interface voor sociale groepen
 

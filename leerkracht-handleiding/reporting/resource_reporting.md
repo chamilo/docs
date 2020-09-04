@@ -1,10 +1,10 @@
 # Bronnenrapportage
 
-To access details of resources used on the course, click on the \_Report on resource\_icon ![](../../.gitbook/assets/graphics55%20%283%29.png) on the main Reporting page. This will display a list of resources added and deleted to the course, including
+Om toegang te krijgen tot details van bronnen die in de cursus worden gebruikt, klikt u op het pictogram \_Rapport op bron\_ ![](../../.gitbook/assets/graphics55%20%283%29.png) op de hoofdpagina Rapportage. Hiermee wordt een lijst weergegeven met bronnen die aan de cursus zijn toegevoegd en verwijderd, inclusief bronnen die door studenten zijn toegevoegd.
 
-resources added by students.
+![](../../.gitbook/assets/graphics57%20%281%29.png)
 
-![](../../.gitbook/assets/graphics57%20%281%29.png)Illustration 90: Report on resource
+Afbeelding 90: Rapport over bron
 
-A search facility allows teachers to filter and find the resources they are interested in, and the links on the left allows him/her to navigate easily to the resource. There are also links to the user profile for the user adding each link, and even an IP address which can be used to indicate the location of users.
+Met een zoekfunctie kunnen docenten filteren en de bronnen vinden waarin ze geïnteresseerd zijn, en met de links aan de linkerkant kan hij/zij gemakkelijk naar de bron navigeren. Er zijn ook links naar het gebruikersprofiel voor de gebruiker die elke link toevoegt, en zelfs een IP-adres dat kan worden gebruikt om de locatie van gebruikers aan te geven.
 

@@ -1,6 +1,8 @@
 # Gebruikers
 
-The _Users_ tool ![](../../.gitbook/assets/graphics73%20%283%29.png) gathers all learners and teachers subscribed to the course. It allows you to manage a list of subscribed users, register new learners and assign specific roles and responsibilities. It also allows you to monitor the activities of all users subscribed to the course.
+De _Gebruikers_ tool ![](../../.gitbook/assets/graphics73%20%283%29.png) verzamelt alle leerlingen en docenten die zich voor de cursus hebben aangemeld. Hiermee kunt u een lijst met geabonneerde gebruikers beheren, nieuwe studenten registreren en specifieke rollen en verantwoordelijkheden toewijzen. Hiermee kunt u ook de activiteiten volgen van alle gebruikers die op de cursus zijn ingeschreven.
 
-![](../../.gitbook/assets/graphics173%20%281%29.png)Illustration 99: Users – Main screen
+![](../../.gitbook/assets/graphics173%20%281%29.png)
+
+Afbeelding 99: Gebruikers - Hoofdscherm
 
