@@ -2,11 +2,13 @@
 
 Het LDAP-authenticatiesysteem in Chamilo is in de loop van de tijd onderworpen aan verschillende diepgaande veranderingen, en de huidige situatie is enigszins verwarrend en vereist altijd een soort handmatige update.
 
+Een patch van Eric Marguin in versie 1.10.0 loste een reeks problemen op van eerdere versies, gerelateerd aan importscripts die het configuratiebestand voor LDAP niet gebruikten (main / inc / conf / auth.conf.php).
+
 ## Configuring LDAP
 
-Om LDAP te configureren, controleert u de LDAP-variabelen in main/inc/conf/auth.conf.php.
+Standaard zal het zo (min of meer) komen, waarbij elementen die moeten worden aangepast aan uw eigen LDAP-server en configuratie in rood zijn gekleurd:
 
-Standaard zal het zo \(min of meer\) komen, waarbij elementen die moeten worden aangepast aan uw eigen LDAP-server en configuratie in rood zijn gekleurd:
+Als je eenmaal dat bestand hebt ingesteld, moet je configuration.php wijzigen voordat er een paar dingen aan je administratie-interface worden toegevoegd.
 
 ```text
 /**
@@ -85,12 +87,12 @@ $extldap_user_correspondance = array(
 );
 ```
 
-Als je eenmaal dat bestand hebt ingesteld, moet je configuration.php wijzigen voordat er een paar dingen aan je administratie-interface worden toegevoegd.
-
 Als je naar app/config/configuration.php kijkt en zoekt naar «ldap», vind je deze 3 regels:
 
+Verwijder commentaar om een paar extra scripts in te schakelen.
+
 ```text
-// -> Uncomment the two lines bellow to activate LDAP AND edit main/auth/external_login/ldap.conf.php 
+// -> Uncomment the two lines bellow to activate LDAP AND edit main/auth/external_login/ldap.conf.php
 // for configuration
 // $extAuthSource["extldap"]["login"] = $_configuration['root_sys']. $_configuration['code_append']."auth/external_login/login.ldap.php";
 // $extAuthSource["extldap"]["newUser"] = $_configuration['root_sys'].$_configuration['code_append']."auth/external_login/newUser.ldap.php";
@@ -98,21 +100,20 @@ Als je naar app/config/configuration.php kijkt en zoekt naar «ldap», vind je d
 
 Verwijder commentaar om een paar extra scripts in te schakelen.
 
-Bij het verwijderen van commentaar ziet u het volgende item verschijnen in het beheerpaneel.
-
 ![](../../.gitbook/assets/image2%20%281%29.png)
+
+Dit geeft u toegang tot een zoeklijst voor gebruikers op de LDAP-server en opties om die gebruikers te importeren. Versies 1.9.x van Chamilo LMS hadden daar misschien een klein probleem mee, waardoor het eigenlijk onmogelijk was om vanaf dit scherm te zoeken. ![](../../.gitbook/assets/image3%20%281%29.png)
 
 Dit geeft u toegang tot een zoeklijst voor gebruikers op de LDAP-server en opties om die gebruikers te importeren. Versies 1.9.x van Chamilo LMS hadden daar misschien een klein probleem mee, waardoor het eigenlijk onmogelijk was om vanaf dit scherm te zoeken.
 
-![](../../.gitbook/assets/image3%20%281%29.png)
+Om dat op te lossen, zou je de ldap_get_users functies in main/auth/external_login/ldap.inc.php moeten bewerken. Daar zul je zien dat ongeacht welke mapping je hebt gegeven in de $extldap_user_correspondance_variable in auth.conf.php, er geen rekening mee wordt gehouden. Werk dat bij om de zoekopdracht te laten werken.
 
-Om dat op te lossen, zou je de ldap\_get\_users functies in main/auth/external\_login/ldap.inc.php moeten bewerken. Daar zul je zien dat ongeacht welke mapping je hebt gegeven in de $extldap\_user\_correspondance\_variable in auth.conf.php, er geen rekening mee wordt gehouden. Werk dat bij om de zoekopdracht te laten werken.
+Om dat op te lossen, zou je de ldap_get_users functies in main/auth/external_login/ldap.inc.php moeten bewerken. Daar zul je zien dat ongeacht welke mapping je hebt gegeven in de $extldap_user_correspondance_variable in auth.conf.php, er geen rekening mee wordt gehouden. Werk dat bij om de zoekopdracht te laten werken.
 
-Merk op dat dit moet worden opgelost sinds Chamilo LMS 1.10.x.
+Sommige synchronisatiemechanismen zijn gemaakt om automatisch te worden uitgevoerd (via CRON). Om deze te vinden, kijkt u dieper in de main/auth/external_login/.
 
 ## Synchronisaties uitvoeren
 
-Sommige synchronisatiemechanismen zijn gemaakt om automatisch te worden uitgevoerd \(via CRON\). Om deze te vinden, kijkt u dieper in de main/auth/external\_login/.
+Het *ldap_import_all_users.php* script kan bijvoorbeeld worden uitgevoerd om automatisch alle gebruikers van LDAP (volgens specifieke criteria gedefinieerd in ldap.inc.php) in Chamilo in te voegen. Houd er rekening mee dat, nogmaals, in versie 1.9.x, dit vroeger een beetje kapot was, waardoor een herziening van de ldap.inc.php-functies nodig was om te werken.
 
-Het _ldap\_import\_all\_users.php_ script kan bijvoorbeeld worden uitgevoerd om automatisch alle gebruikers van LDAP \(volgens specifieke criteria gedefinieerd in ldap.inc.php\) in Chamilo in te voegen. Houd er rekening mee dat, nogmaals, in versie 1.9.x, dit vroeger een beetje kapot was, waardoor een herziening van de ldap.inc.php-functies nodig was om te werken.
-
+Het ldap_import_all_users.php script kan bijvoorbeeld worden uitgevoerd om automatisch alle gebruikers van LDAP (volgens specifieke criteria gedefinieerd in ldap.inc.php) in Chamilo in te voegen. Houd er rekening mee dat, nogmaals, in versie 1.9.x, dit vroeger een beetje kapot was, waardoor een herziening van de ldap.inc.php-functies nodig was om te werken.

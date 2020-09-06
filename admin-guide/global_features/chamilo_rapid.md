@@ -8,9 +8,9 @@ Start vervolgens de volgende opdrachten
 
 $ screen
 
-*$* *sudo soffice -accept=**”**socket,host=**127.0.0.1**,port=2002,tcpNoDelay=1;urp;”* *-headless -nodefault* *-nofirststartwizard* *-nolockcheck -nologo* *-norestore* *&*
+_$_ _sudo soffice -accept=**”**socket,host=**127.0.0.1**,port=2002,tcpNoDelay=1;urp;”_ _-headless -nodefault_ _-nofirststartwizard_ _-nolockcheck -nologo_ _-norestore_ _&_
 
-ctrl-a + ctrl-d
+ctrl-a + ctrl
 
 Elke fijnere uitleg zou grotendeels buiten de context van deze gids vallen, maar dit recept werkt goed op de Ubuntu-server.
 

@@ -10,9 +10,7 @@ Hiermee kunt u een overzichtsrapport opstellen met de prestaties van de leerling
 
 De leerling kan de assessments-tool gebruiken als een "cijferlijst" om zijn eigen voortgang bij te houden, en krijgt een eenvoudigere, persoonlijkere weergave te zien wanneer hij klikt op de tool _A\_\_ssessments_ die er ongeveer zo uitziet:
 
-![](../../.gitbook/assets/graphics192%20%281%29.png)
+![](../../.gitbook/assets/graphics192%20%281%29.png)Afbeelding 102: Assessments - Voorbeeld van leerlingweergave
 
-Afbeelding 102: Assessments - Voorbeeld van leerlingweergave
 
-_\(Opmerking: zorg ervoor dat er ten minste één cursist op uw cursus is geabonneerd voordat u verder kijkt in de beoordelingstool. \(Daarom hebben we het_ _Users_ _chapter slim voor deze geplaatst!\). In dit hoofdstuk zal het veel gemakkelijker zijn om de voorbeelden te volgen als u al studenten heeft ingeschreven en een reeks activiteiten heeft gemaakt. Vergeet niet - totdat u ervoor kiest om het toe te staan, kan de gebruiker de cursus toch niet zien, zolang deze is geconfigureerd als gesloten.\)_
-
+';k/'p;k'kpih

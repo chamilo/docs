@@ -4,6 +4,4 @@ Dit scherm vraagt u om de installatietaal te kiezen. Sinds versie 1.8.8 wordt uw
 
 Pas op dat dit **niet** de laatste taal van het platform is, maar eerder de taal voor de installatieprocedure, meer niet.
 
-![](../../../../.gitbook/assets/images2%20%281%29.png)
-
-Afbeelding 3: Installatie - De taal kiezen
+![](../../../../.gitbook/assets/images2%20%281%29.png)Afbeelding 3: Installatie - De taal kiezen
