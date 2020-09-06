@@ -2,7 +2,7 @@
 
 Het gebruikersbeheer wordt gedaan door middel van algemene en bekende pictogrammen en enkele meer specifieke pictogrammen.
 
-
+![](../../.gitbook/assets/graficos49%20%283%29.png)
 
 | Icoons | Kenmerken |
 | :--- | :--- |

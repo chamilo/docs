@@ -4,12 +4,10 @@ Gebruikersrollen zijn een fundamenteel onderdeel in het gebruikersbeheer van een
 
 Voor de gewone beheerder lijkt het erop dat er slechts vier rollen zijn in Chamilo: de rollen die direct verschijnen in het gebruikersaanmaakformulier in het beheergedeelte. Sommige rollen bieden echter eigenlijk subrollen, waarvan men alleen kennis kan opdoen na een dieper gebruik van het platform.
 
-Om u te begeleiden bij het ontdekken van deze rollen, gebruiken we het volgende schema als referentie, aangezien het de meeste rollen weergeeft en ook het begrip sessies \(zoals we het zullen zien in het hoofdstuk Sessiemanagement\).
+Om u te begeleiden bij het ontdekken van deze rollen, gebruiken we het volgende schema als referentie, aangezien het de meeste rollen weergeeft en ook het begrip sessies (zoals we het zullen zien in het hoofdstuk Sessiemanagement).
 
-![](../../../.gitbook/assets/graficos80.png)
+![](../../../.gitbook/assets/graficos80.png)Afbeelding 46: Rollen en sessies
 
-Afbeelding 46: Rollen en sessies
-
-In dit schema zien we de hoofdbeheerder \(bovenaan\), de sessiebeheerder \(rechts\), de sessiecoach \(bovenaan het sessieblok\), de cursuscoaches \(bovenop de cursussen\), de docent \(links van een cursus\), de studenten \(verbonden met de sessie\) en de manager personeelszaken \(verbonden met de studenten\).
+In dit schema zien we de hoofdbeheerder (bovenaan), de sessiebeheerder (rechts), de sessiecoach (bovenaan het sessieblok), de cursuscoaches (bovenop de cursussen), de docent (links van een cursus), de studenten (verbonden met de sessie) en de manager personeelszaken (verbonden met de studenten).
 
 Laten we deze rollen samen bekijken, gaande van de minder krachtige tot de krachtigste.

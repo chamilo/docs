@@ -2,17 +2,13 @@
 
 Om een leertraject te exporteren, gaat u eerst naar het tabblad _Mijn cursussen_ \(doorgaans het 2e tabblad van links\).
 
-![](../../../.gitbook/assets/parcourssauvegarde%20%281%29.png)
-
-Afbeelding 16: Interface - Lijst met cursussen
+![](../../../.gitbook/assets/parcourssauvegarde%20%281%29.png)Afbeelding 16: Interface - Lijst met cursussen
 
 Hier kun je de cursussen zien waarvan je de leraar bent \(via het potloodpictogram\). Om door te gaan, klikt u op een ervan en voert u de tool _Learning path_ in.
 
 Eenmaal in de leerpadenlijst, klikt u op het cd-pictogram om een back-upbestand te genereren.
 
-![](../../../.gitbook/assets/graficos32.png)
-
-Afbeelding 17: Interface - Leerpaden exporteren
+![](../../../.gitbook/assets/graficos32.png)Afbeelding 17: Interface - Leerpaden exporteren
 
 In dit stadium hoeft u alleen te selecteren waar u het bestand op uw schijf wilt opslaan. De export is beschikbaar als een .zip-bestand.
 
