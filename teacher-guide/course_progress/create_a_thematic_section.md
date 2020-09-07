@@ -4,13 +4,8 @@ De thematische secties vertegenwoordigen het hoogste niveau in de voortgangsstru
 
 Om de eerste sectie te maken, maakt u het pictogram Nieuwe thematische sectie ![](../../.gitbook/assets/graphics252%20%283%29.png) en vul de relevante velden in met tekst, afbeeldingen etc.
 
-![](../../.gitbook/assets/images184%20%284%29.png)
+![](../../.gitbook/assets/images184%20%284%29.png)Illustratie 137: Cursusvoortgang - uitnodiging om een thematisch plan te maken
 
-Illustratie 137: Cursusvoortgang - uitnodiging om een thematisch plan te maken
-
-Door op _Save_ te klikken, wordt u uitgenodigd om een nieuw thematisch plan te maken:
-
-![](../../.gitbook/assets/graphics259%20%281%29.png)
+Door op <em>Save</em> te klikken, wordt u uitgenodigd om een nieuw thematisch plan te maken:
 
 Illustratie 138: Cursusvoortgang - uitnodiging om een thematisch plan / voorschot te maken
-

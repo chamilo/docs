@@ -2,26 +2,24 @@
 
 ![](../../.gitbook/assets/images29%20%289%29.png)
 
-Afbeelding 27: Authoring tools
-
 ## Cursusbeschrijving <a id="course-description"></a>
 
 ![](../../.gitbook/assets/graphics80%20%283%29.png) De cursusbeschrijving is helemaal niet verplicht, maar stelt u in staat om een globale samenvatting van de cursus te presenteren en potentiële abonnees een voorproefje van de cursus te bieden.
 
-De beschrijvingstool presenteert verschillende secties die de cursusauteur een eenvoudige voorgestelde structuur bieden voor hun cursusbeschrijving. \(De docent hoeft deze natuurlijk niet te gebruiken; als de voorgestelde secties niet voldoen aan de vereisten, kunnen andere secties worden gemaakt met de gewenste titels\). De secties bevatten:
+De beschrijvingstool presenteert verschillende secties die de cursusauteur een eenvoudige voorgestelde structuur bieden voor hun cursusbeschrijving. (De docent hoeft deze natuurlijk niet te gebruiken; als de voorgestelde secties niet voldoen aan de vereisten, kunnen andere secties worden gemaakt met de gewenste titels). De secties bevatten:
 
-* « Cursusbeschrijving »,
-* « Doelen »,
-* « Onderwerpen »,
-* « Methodologie » enz.
+- « Cursusbeschrijving »,
+- « Doelen »,
+- « Onderwerpen »,
+- « Methodologie » enz.
 
-Een sectie kan op elk moment verwijderd worden door op het __Delete__ icoon te klikken ![](../../.gitbook/assets/graphics83%20%283%29.png), of bijgewerkt met het pictogram _update_.
+Een sectie kan op elk moment verwijderd worden door op het **Delete** icoon te klikken ![](../../.gitbook/assets/graphics83%20%283%29.png), of bijgewerkt met het pictogram *update*.
 
-De beschrijving is beschikbaar voor studenten binnen de cursus, maar kan ook worden bekeken in de cursuscatalogus \(via de knop _Beschrijving_\). Deze knop opent een pop-upvenster met de beschrijving van de docent.
+De beschrijving is beschikbaar voor studenten binnen de cursus, maar kan ook worden bekeken in de cursuscatalogus (via de knop *Beschrijving*). Deze knop opent een pop-upvenster met de beschrijving van de docent.
 
 ## Documenten <a id="documents"></a>
 
-![](../../.gitbook/assets/graphics85%20%283%29.png)Dit wordt gebruikt om de documenten of bestanden toe te voegen en te ordenen \(tekst, afbeeldingen, audio, video, HTML-bestanden etc.\) gebruikt in de cursus. U kunt desgewenst in deze tool mappen/mappen maken.
+![](../../.gitbook/assets/graphics85%20%283%29.png)Dit wordt gebruikt om de documenten of bestanden toe te voegen en te ordenen (tekst, afbeeldingen, audio, video, HTML-bestanden etc.) gebruikt in de cursus. U kunt desgewenst in deze tool mappen/mappen maken.
 
 ## Tests <a id="tests"></a>
 
@@ -35,7 +33,7 @@ Opmerking: als je een Moodle-achtergrond hebt, kan deze functie worden vergeleke
 
 ## Beoordelingen <a id="assessments"></a>
 
-![](../../.gitbook/assets/graphics88%20%283%29.png)De assessments-tool is erg handig wanneer er een score moet worden toegekend aan de hele cursus. Hiermee kan een cijferlijst worden gemaakt met de resultaten van online of klassikale evaluaties. Het maakt ook het automatisch genereren van certificaten mogelijk \(hoewel dit misschien niet zo intuïtief is als de rest van de platformtools vanwege de vele betrokken parameters\).
+![](../../.gitbook/assets/graphics88%20%283%29.png)De assessments-tool is erg handig wanneer er een score moet worden toegekend aan de hele cursus. Hiermee kan een cijferlijst worden gemaakt met de resultaten van online of klassikale evaluaties. Het maakt ook het automatisch genereren van certificaten mogelijk (hoewel dit misschien niet zo intuïtief is als de rest van de platformtools vanwege de vele betrokken parameters).
 
 ## Aanwezigheid <a id="attendances"></a>
 
@@ -51,17 +49,17 @@ Opmerking: als je een Moodle-achtergrond hebt, kan deze functie worden vergeleke
 
 ## Woordenlijst <a id="glossary"></a>
 
-![](../../.gitbook/assets/graphics92%20%283%29.png)Een cursuswoordenlijst kan voor sommige cursussen van onschatbare waarde zijn voor studenten. Met deze tool kunt u termen en definities toevoegen en bekijken \(inclusief geluid, graphics etc.\) en om tekst .csv-lijsten te importeren en exporteren of om de woordenlijst op te slaan als een .pdf-bestand.
+![](../../.gitbook/assets/graphics92%20%283%29.png)Een cursuswoordenlijst kan voor sommige cursussen van onschatbare waarde zijn voor studenten. Met deze tool kunt u termen en definities toevoegen en bekijken (inclusief geluid, graphics etc.) en om tekst .csv-lijsten te importeren en exporteren of om de woordenlijst op te slaan als een .pdf-bestand.
 
 ## Cursusvoortgang <a id="course-progress"></a>
 
-![](../../.gitbook/assets/graphics93%20%283%29.png)Deze tool voor het plannen en bijhouden van gegevens helpt u bij het maken, importeren, exporteren of opslaan van _thematische secties_ die kunnen dienen als een "cursusdagboek" om onderwerpen en plannen op te nemen en de voortgang van de klas aan te geven.
+![](../../.gitbook/assets/graphics93%20%283%29.png)Deze tool voor het plannen en bijhouden van gegevens helpt u bij het maken, importeren, exporteren of opslaan van *thematische secties* die kunnen dienen als een "cursusdagboek" om onderwerpen en plannen op te nemen en de voortgang van de klas aan te geven.
 
-**Opmerking**: De leertrajecten die binnen de cursus zijn gemaakt, kunnen ook zichtbaar worden gemaakt in de sectie «Authoring», wat redundantie kan genereren. Het is mogelijk om ze te tonen of te verbergen met behulp van het dubbele vierkante pictogram in de lijst met leertrajecten \(«Maak zichtbaar voor leerlingen»\)
+> **Opmerking**: De leertrajecten die binnen de cursus zijn gemaakt, kunnen ook zichtbaar worden gemaakt in de sectie «Authoring», wat redundantie kan genereren. Het is mogelijk om ze te tonen of te verbergen met behulp van het dubbele vierkante pictogram in de lijst met leertrajecten («Maak zichtbaar voor leerlingen»)
 
 ## Blogs <a id="blogs"></a>
 
-![](../../.gitbook/assets/graphics94%20%283%29.png)Mogelijk ziet u de Projecten-tool niet in de Authoring-sectie, maar als u een project maakt met behulp van de tool in de Administration-sectie, wordt het weergegeven in de _Authoring_-tools, waar u het desgewenst kunt verbergen voor de weergave van de leerlingen. Met deze tool kan gezamenlijk werk worden georganiseerd.
+![](../../.gitbook/assets/graphics94%20%283%29.png)Mogelijk ziet u de Projecten-tool niet in de Authoring-sectie, maar als u een project maakt met behulp van de tool in de Administration-sectie, wordt het weergegeven in de *Authoring*-tools, waar u het desgewenst kunt verbergen voor de weergave van de leerlingen. Met deze tool kan gezamenlijk werk worden georganiseerd.
 
 ## Search <a id="search"></a>
 

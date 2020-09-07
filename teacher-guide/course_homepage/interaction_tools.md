@@ -1,10 +1,8 @@
 # Interactie-instrumenten
 
-Het doel van het interactiegedeelte is om instrumenten te groeperen die de communicatie tussen leerlingen en tussen leerling en leraar vergemakkelijken. In tegenstelling tot de _Authoring_ tools die primair voor docenten zijn, worden de _Interaction_ tools voornamelijk geleverd voor gebruik door andere gebruikers, om hun leerproces te ondersteunen.
+Het doel van het interactiegedeelte is om instrumenten te groeperen die de communicatie tussen leerlingen en tussen leerling en leraar vergemakkelijken. In tegenstelling tot de *Authoring* tools die primair voor docenten zijn, worden de *Interaction* tools voornamelijk geleverd voor gebruik door andere gebruikers, om hun leerproces te ondersteunen.
 
-![](../../.gitbook/assets/images30%20%287%29.png)
-
-Afbeelding 28: Interactietools
+![](../../.gitbook/assets/images30%20%287%29.png)Afbeelding 28: Interactietools
 
 ## Agenda <a id="agenda"></a>
 
@@ -16,7 +14,7 @@ Afbeelding 28: Interactietools
 
 ## Groepen <a id="groups"></a>
 
-![](../../.gitbook/assets/graphics98%20%283%29.png =64x64)Gebruik dit om groepen binnen de cursus te maken en de toegang tot cursustools te beheren.
+Gebruik dit om groepen binnen de cursus te maken en de toegang tot cursustools te beheren.
 
 ## Opdrachten <a id="assignments"></a>
 
@@ -32,7 +30,7 @@ Afbeelding 28: Interactietools
 
 ## Gebruikers <a id="users"></a>
 
-![](../../.gitbook/assets/graphics102%20%283%29.png)Met deze tool kunnen studenten zien wie er nog meer op de cursus zijn geabonneerd, en docenten kunnen cursusgebruikers beheren, docenten en gebruikers inschrijven en cursuslijsten naar behoefte importeren en exporteren. De _users_ tool kan ook worden geïntegreerd met de _Groups_ tool.
+![](../../.gitbook/assets/graphics102%20%283%29.png)Met deze tool kunnen studenten zien wie er nog meer op de cursus zijn geabonneerd, en docenten kunnen cursusgebruikers beheren, docenten en gebruikers inschrijven en cursuslijsten naar behoefte importeren en exporteren. De *users* tool kan ook worden geïntegreerd met de *Groups* tool.
 
 ## Chat <a id="chat"></a>
 
