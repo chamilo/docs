@@ -1,6 +1,5 @@
 # Wiki
 
-The _Wiki_ tool ![](../../.gitbook/assets/graphics208.png) is a collective or collaborative redaction tool. It allows users to work together on a single document, and to follow the history of modifications. It also allows you to save time and be more efficient during a group task. In many ways, it complements the forum tool.
+De _Wiki_ tool ![](../../.gitbook/assets/graphics208.png) is een collectief of gezamenlijk redactietool. Het stelt gebruikers in staat om samen aan een enkel document te werken en de geschiedenis van wijzigingen te volgen. Het stelt u ook in staat om tijd te besparen en efficiënter te zijn tijdens een groepstaak. Het is in veel opzichten een aanvulling op de forumtool.
 
-A wiki page can contain many links to other pages, which may or may not \(yet\) have existing content. Wiki pages can be updated; each contributor sharing the same rights to write and edit content. Originally designed to support collaboration between learners, the wiki may, at the beginning of a course, consist only of a list of links inserted by the teacher, pointing to empty pages which each learner will have to build using one another's ideas, views and experiences.
-
+Een wikipagina kan veel links naar andere pagina's bevatten, die al dan niet \(nog\) bestaande inhoud hebben. Wiki-pagina's kunnen worden bijgewerkt; elke bijdrager deelt dezelfde rechten om inhoud te schrijven en te bewerken. Oorspronkelijk ontworpen om de samenwerking tussen leerlingen te ondersteunen, kan de wiki, aan het begin van een cursus, alleen bestaan uit een lijst met links die door de leraar zijn ingevoegd, die verwijzen naar lege pagina's die elke leerling zal moeten bouwen met behulp van elkaars ideeën, opvattingen en ervaringen .

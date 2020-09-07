@@ -1,6 +1,3 @@
 # Cursusrapportage
 
-Clicking on the _course report_ icon ![](../../.gitbook/assets/graphics187.png) on the Reporting page provides global information about the
-
-course as a whole that the teacher can use in evaluating or developing the course. This includes information such as general progress through learning paths, overall test scores, participation in forum and chats, tools used, documents downloaded and links visited. As with other reporting pages, information can be readily exported as csv files or printed by clicking the relevant tool bar icons.
-
+Door op het cursusrapportpictogram te klikken ![](../../.gitbook/assets/graphics187.png) op de rapportagepagina geeft globale informatie over de cursus als geheel die de docent kan gebruiken bij het evalueren of ontwikkelen van de cursus. Dit omvat informatie zoals algemene voortgang tijdens leertrajecten, algemene testscores, deelname aan forums en chats, gebruikte tools, gedownloade documenten en bezochte links. Net als bij andere rapportagepagina's, kan informatie gemakkelijk worden geëxporteerd als csv-bestanden of worden afgedrukt door op de relevante werkbalkpictogrammen te klikken.

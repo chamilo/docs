@@ -1,14 +1,14 @@
 # Nieuw artikel / taak
 
-From the project's homepage:
+Vanaf de homepage van het project:
 
-* click the _New task_ icon ![](../../.gitbook/assets/graphics310%20%283%29.png):
-* give the article a name,
-* write down the real article,
-* attach a document \(optional\),
-* click the _Save_ button.
+* klik op het pictogram Nieuwe taak ![](../../.gitbook/assets/graphics310%20%283%29.png):
+* geef het artikel een naam,
+* schrijf het echte artikel op,
+* voeg een document toe \(optioneel\),
+* klik op de knop _Save_.
 
 ![](../../.gitbook/assets/graphics314%20%283%29.png)
 
-Illustration 165: Projects – New task
+Afbeelding 165: Projecten - Nieuwe taak
 

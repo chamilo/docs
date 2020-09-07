@@ -1,8 +1,10 @@
 # Leerlingen volgen
 
-By default, clicking on the _Reporting_ icon will display summary details for a list of learners on the course. It includes summary information about test scores, time spent on-line, login details etc.
+Als u standaard op het pictogram _Reporting_ klikt, worden samenvattende details weergegeven voor een lijst met studenten van de cursus. Het bevat samenvattende informatie over testscores, online bestede tijd, inloggegevens enz.
 
-![](../../.gitbook/assets/graphics48%20%281%29.png)Illustration 87: Reporting – Learners
+![](../../.gitbook/assets/graphics48%20%281%29.png)
 
-On this page the teacher, as well as viewing a summary table of students' overall activity and progress, can easily add columns to the table drawing on students' profile information \(country, date of birth\) as well as data held elsewhere in the course \(course code, performance data, assignments, messages, surveys\). He/she can highlight ![](../../.gitbook/assets/graphics47%20%283%29.gif)learners absent from the course for a specified length of time and at one click notify learners with an appropriate announcement using a configurable announcement tool \(see chapter 21\) accessed by clicking the notify button ![](../../.gitbook/assets/graphics50%20%283%29.png) . The teacher can also print out the table ![](../../.gitbook/assets/graphics49%20%283%29.png) or export it as a csv file ![](../../.gitbook/assets/graphics52%20%283%29.png).
+Afbeelding 87: Rapportage - Lerenden
+
+Op deze pagina kan de docent niet alleen een overzichtstabel bekijken van de algemene activiteiten en voortgang van de leerlingen, maar ook gemakkelijk kolommen aan de tabel toevoegen op basis van de profielgegevens van de leerlingen \(land, geboortedatum\) en gegevens die elders in de cursus \(cursuscode, prestatiegegevens, opdrachten, berichten, enquêtes\). Hij/zij kan markeren ![](../../.gitbook/assets/graphics47%20%283%29.gif)leerlingen die gedurende een bepaalde tijd afwezig zijn in de cursus en met één klik de leerlingen op de hoogte stellen met een passende aankondiging met behulp van een configureerbare aankondigingstool \(zie hoofdstuk 21\) die toegankelijk is door op de meldingsknop te klikken ![](../../.gitbook/assets/graphics50%20%283%29.png) . De docent kan de tafel ook uitprinten ![](../../.gitbook/assets/graphics49%20%283%29.png) of exporteer het als een csv-bestand ![](../../.gitbook/assets/graphics52%20%283%29.png).
 

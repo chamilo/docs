@@ -1,12 +1,11 @@
 # Tabblad Leerpaden
 
-The _Learning paths_ tab shows a list of learning paths in the session, filtered according to course \(as long as you clicked a course in the first tab\).
+Het tabblad _Leerpaden_ toont een lijst met leerpaden in de sessie, gefilterd op cursus \(zolang u op een cursus in het eerste tabblad hebt geklikt\).
 
 ![](../../.gitbook/assets/images264%20%283%29.png)
 
-Illustration 197: Sessions – Learning paths
+Afbeelding 197: Sessies - Leerpaden
 
-The publication date of each learning path gives you an idea of the chronological order of the learning paths. Where you have several simultaneous courses \(which might be the case in a session\) all offering several learning paths, organizing the right learning paths schedule will provide the learner with a clear indication of the order in which we expect him to follow them. The learner can enter a learning path directly from this screen, simply by clicking its name.
+De publicatiedatum van elk leertraject geeft je een idee van de chronologische volgorde van de leertrajecten. Als je meerdere gelijktijdige cursussen hebt \(wat het geval kan zijn in een sessie\) die allemaal verschillende leertrajecten aanbieden, zal het organiseren van het juiste leerpadenschema de leerling een duidelijke indicatie geven van de volgorde waarin we van hem verwachten dat hij ze volgt. De leerling kan rechtstreeks vanuit dit scherm een leertraject invoeren door simpelweg op de naam te klikken.
 
-**Note** : there are three view types for learning paths: _All, Per week, By course._ They do not affect the way contents are ordered, so don't hesitate to try them out.
-
+**Opmerking**: er zijn drie weergavetypen voor leertrajecten: _Alle, Per week, Per cursus._ Ze hebben geen invloed op de manier waarop de inhoud wordt geordend, dus aarzel niet om ze uit te proberen.

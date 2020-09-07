@@ -1,16 +1,16 @@
 # Profiel informatie
 
-To enter/edit your personal details, go to the _Social network_ tab:
+Om uw persoonlijke gegevens in te voeren/te bewerken, gaat u naar het tabblad _Sociaal netwerk_:
 
-* click the _Edit profile_ link,
-* update the fields,
-* click _Save settings_.
+* klik op de link _Profiel bewerken_,
+* update de velden,
+* klik op _Instellingen opslaan_.
 
-Profile options allow you to edit your _name_, your Chamilo _code_, your _email_ and you _phone_ number, as well as a profile _picture_ and preferred _language_. Other fields \(if enabled by the administrator\) allow you to choose a _graphical theme_ and enter details of personal _competences_, _diplomas_ \(qualifications\), and _what you are able to teach_. You can upload any relevant file using _productions_, and write any other relevant information in m_y personal open area_. More recent versions of Chamilo also invite you to enter/edit your _password_, _tags_, _rss_ _feeds_, _timezone_, _email_ _notifications_, your _Google calendar URL_, your _country_, your _birthday_ and even a range of personal social networking links:
+Met profielopties kunt u uw _naam_, uw Chamilo _code_, uw _email_ en uw _telefoonnummer_ wijzigen, evenals een profiel _picture_ en uw favoriete _taal_. Andere velden \(indien ingeschakeld door de beheerder\) staan je toe om een _grafisch thema_ te kiezen en details van persoonlijke _competenties_, _diploma's_ \(kwalificaties\), en _wat je kunt leren_ in te voeren. U kunt elk relevant bestand uploaden met _productions_, en alle andere relevante informatie schrijven in _mijn persoonlijke open ruimte_. Meer recente versies van Chamilo nodigen u ook uit om uw _password_, _tags_, _rss_ _feeds_, _timezone_, _email_ _notifications_, uw _Google-agenda-URL_, uw _land_, uw _verjaardag_ en zelfs een reeks persoonlijke sociale netwerklinks in te voeren / te bewerken:
 
 ![](../../.gitbook/assets/graphics339%20%283%29.png)
 
-Illustration 188: Social network – Extended profile update
+Afbeelding 188: Sociaal netwerk - Uitgebreide profielupdate
 
-Remember to click the _save_ button when you've completed entering/editing your profile details!
+Vergeet niet om op de knop _save_ te klikken als u klaar bent met het invoeren/bewerken van uw profielgegevens!
 

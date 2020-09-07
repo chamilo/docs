@@ -1,19 +1,19 @@
 # "Vrienden"
 
-In the _Social network_ tab, you can make contacts and invite them as _Friends_ \(a rather free use of the term _friend_!\). You can search for people by:
+Op het tabblad _Sociaal netwerk_ kun je contacten leggen en ze uitnodigen als Vrienden \(een vrij gratis gebruik van de term vriend!\). U kunt mensen zoeken op:
 
-* clicking the _Invitations_ link in the left menu ![](../../.gitbook/assets/graphics340%20%281%29.png),
-* click _Search_.
+* klikken op de _Invitations_ link in het linkermenu ![](../../.gitbook/assets/graphics340%20%281%29.png),
+* klik op _Zoeken_.
 
-By simply entering a few characters of the user's first or last name, Chamilo will help by proposing a list of users matching these characters. The invitation can then be sent to the user, who can choose whether to accept or refuse it.
+Door simpelweg een paar karakters van de voor- of achternaam van de gebruiker in te voeren, zal Chamilo helpen door een lijst van gebruikers voor te stellen die overeenkomen met deze karakters. De uitnodiging kan vervolgens naar de gebruiker worden gestuurd, die kan kiezen of hij deze accepteert of weigert.
 
 ![](../../.gitbook/assets/images258%20%283%29.png)
 
-Illustration 190: Social network – send and receive invitations
+Illustratie 190: Sociaal netwerk - uitnodigingen verzenden en ontvangen
 
-The _Friends_ link ![](../../.gitbook/assets/graphics342%20%281%29.png) gathers all friends you have linked to on the platform. It allows you to see the shared profile of the user and send him a message with a click on his name.
+De _Friends_ link ![](../../.gitbook/assets/graphics342%20%281%29.png) verzamelt alle vrienden waarmee je op het platform hebt gelinkt. Hiermee kunt u het gedeelde profiel van de gebruiker zien en hem een bericht sturen met een klik op zijn naam.
 
 ![](../../.gitbook/assets/images259%20%283%29.png)
 
-Illustration 191: Social network – Shared profile
+Afbeelding 191: Sociaal netwerk - Gedeeld profiel
 

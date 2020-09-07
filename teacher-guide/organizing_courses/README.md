@@ -1,6 +1,6 @@
 # Cursussen organiseren
 
-With Chamilo, one can end up managing a large quantity of courses. In addition to _general_ course categories, all course creators have an option to create _personal_ categories, visible only to the user who created them, to help him organize his courses.
+Met Chamilo kan men uiteindelijk een groot aantal cursussen beheren. Naast _general_ cursuscategorieën hebben alle cursusmakers de optie om _persoonlijke_ categorieën te maken, die alleen zichtbaar zijn voor de gebruiker die ze heeft gemaakt, om hem te helpen zijn cursussen te organiseren.
 
-**Note** : This feature is not supported by the platform's developers anymore, and might be abandoned in the future. It can result in a conflict with the courses order on the My courses _page when these are registered within sessions._
+**Opmerking**: deze functie wordt niet meer ondersteund door de ontwikkelaars van het platform en kan in de toekomst worden verlaten. Het kan leiden tot een conflict met de volgorde van de cursussen op de pagina Mijn cursussen _wanneer deze binnen sessies zijn geregistreerd_.
 

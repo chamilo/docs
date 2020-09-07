@@ -1,10 +1,9 @@
 # Mijn MCQ-tabblad
 
-The _My MCQ_ tab contains all tests pertaining to courses in the session, sorted by publication date. Because the display of these test is relative \(comparing results to those of other learners\) and is in a chronological order, it is doubly critical to establish publication dates for all your tests.
+Het tabblad _Mijn MCQ_ bevat alle tests die betrekking hebben op cursussen in de sessie, gesorteerd op publicatiedatum. Omdat de weergave van deze toets relatief is \(resultaten worden vergeleken met die van andere studenten\) en in chronologische volgorde wordt weergegeven, is het dubbel cruciaal om publicatiedata vast te stellen voor al uw toetsen.
 
 ![](../../.gitbook/assets/images265%20%283%29.png)
 
-Illustration 198: Sessions – My QCM tab
+Afbeelding 198: Sessies - Mijn QCM-tabblad
 
-Exercises which have not yet been attempted are indicated by a yellow star ![](../../.gitbook/assets/graphics371%20%283%29.png). The number of attempts is indicated as well as the exercise results, and also the highest scores obtained by any learner in the session. Finally, the position in the table reflects a learner's relative results within this session. By clicking the test title, the learner goes directly to the test or, once all attempts have been exhausted, directly to the test results screen.
-
+Oefeningen die nog niet zijn geprobeerd, worden aangegeven met een gele ster ![](../../.gitbook/assets/graphics371%20%283%29.png). Het aantal pogingen wordt aangegeven, evenals de trainingsresultaten, en ook de hoogste scores die elke leerling tijdens de sessie heeft behaald. Ten slotte weerspiegelt de positie in de tabel de relatieve resultaten van de leerling tijdens deze sessie. Door op de titel van de test te klikken, gaat de leerling direct naar de test of, zodra alle pogingen zijn uitgeput, rechtstreeks naar het scherm met testresultaten.

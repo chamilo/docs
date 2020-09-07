@@ -1,8 +1,8 @@
 # Resultaten
 
-Analyzing survey results can be an exhausting process. The tools provided in this section should be of great assistance. Click the _Reporting_ icon ![](../../.gitbook/assets/graphics295%20%283%29.png) to view a menu of automatically generated statistical and graphical reports, each of which will present a complete report which can be exported as a .csv or .xml file.
+Het analyseren van enquêteresultaten kan een vermoeiend proces zijn. De tools in deze sectie zouden een grote hulp moeten zijn. Klik op het pictogram _Reporting_ ![](../../.gitbook/assets/graphics295%20%283%29.png) om een menu met automatisch gegenereerde statistische en grafische rapporten te bekijken, die elk een compleet rapport bevatten dat kan worden geëxporteerd als een .csv- of .xml-bestand.
 
 ![](../../.gitbook/assets/images227%20%283%29.png)
 
-Illustration 159: Surveys - Results
+Afbeelding 159: Enquêtes - resultaten
 

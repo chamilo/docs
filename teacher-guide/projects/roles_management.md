@@ -1,21 +1,24 @@
 # Beheer van rollen
 
-The _Roles management_ icon ![](../../.gitbook/assets/graphics311%20%283%29.png) displays a page listing the roles/tasks created and assigned to users:
+Het pictogram Rollenbeheer ![](../../.gitbook/assets/graphics311%20%283%29.png) geeft een pagina weer met de rollen/taken die zijn gemaakt en toegewezen aan gebruikers:
 
-![](../../.gitbook/assets/graphics322%20%281%29.png)Illustration 166: Projects - Roles management
+![](../../.gitbook/assets/graphics322%20%281%29.png)
 
-Illustration 167: Projects – Roles management page
+Afbeelding 166: Projecten - Rollenbeheer
 
-From the _Roles management_ page you can create detailed tasks of a project step or assign roles to the members of a project.
+Afbeelding 167: Projecten - Pagina Rollenbeheer
 
-To create a new task/role:
+Vanaf de pagina Rollenbeheer kunt u gedetailleerde taken van een projectstap maken of rollen toewijzen aan de leden van een project.
 
-* click the _Add a new role_ icon ![](../../.gitbook/assets/graphics313%20%283%29.gif),
-* give the role a title, description and assign permissions,
-* choose a color using to the drop-down bar,
-* click _Save._
+Om een nieuwe taak/rol aan te maken:
 
-![](../../.gitbook/assets/graphics316%20%283%29.png)Illustration 168: Projects – New role
+* klik op het pictogram _Een nieuwe rol toevoegen_ ![](../../.gitbook/assets/graphics313%20%283%29.gif),
+* geef de rol een titel, beschrijving en wijs rechten toe,
+* kies een kleur met naar de vervolgkeuzelijst,
+* klik op _Save._
 
-→ The new role appears in the roles list.
+![](../../.gitbook/assets/graphics316%20%283%29.png)
 
+Afbeelding 168: Projecten - Nieuwe rol
+
+→ De nieuwe rol verschijnt in de rollenlijst.

@@ -1,8 +1,8 @@
 # Links
 
-The Li_nks_ tool ![](../../.gitbook/assets/graphics217%20%283%29.png) allows you to create a library of internal and external links which learners can use in a course as they work their way through the learning path.
+De _Links_ tool ![](../../.gitbook/assets/graphics217%20%283%29.png) stelt u in staat om een bibliotheek met interne en externe links aan te maken die studenten kunnen gebruiken in een cursus terwijl ze zich een weg banen door het leertraject.
 
 ![](../../.gitbook/assets/graphics222%20%281%29.png)
 
-Illustration 121: The Links page
+Afbeelding 121: De pagina Links
 

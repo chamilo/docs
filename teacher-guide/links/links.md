@@ -1,18 +1,18 @@
 # Links
 
-A link can be added in a category or at the root level:
+Een link kan worden toegevoegd in een categorie of op hoofdniveau:
 
 ![](../../.gitbook/assets/graphics220%20%281%29.png)
 
-Illustration 123: Links - Add link
+Afbeelding 123: Links - Link toevoegen
 
-To add a link:
+Om een link toe te voegen:
 
-* Click the _Add a link_ icon ![](../../.gitbook/assets/graphics219%20%283%29.png)
-* Add the link's URL,
-* Give it a label,
-* Add a description of what is on the other side of the link, if desired,
-* Select a category if desired,
-* Choose whether to show the link on the course homepage or not,
-* Click the _Save link_ button.
+* Klik op het pictogram _Add a link_ ![](../../.gitbook/assets/graphics219%20%283%29.png)
+* Voeg de URL van de link toe,
+* Geef het een label,
+* Voeg desgewenst een beschrijving toe van wat er aan de andere kant van de link staat,
+* Selecteer desgewenst een categorie,
+* Kies of je de link wel of niet op de startpagina van de cursus wilt weergeven,
+* Klik op de knop _Save link_.
 

@@ -1,17 +1,17 @@
 # Geef de uitvoering van een taak aan
 
-Whether for a teacher or a learner, tasks assigned to any user are shown at the bottom left of the projects page under section _My tasks._
+Of het nu gaat om een leraar of een leerling, taken die aan een gebruiker zijn toegewezen, worden linksonder op de projectpagina weergegeven onder sectie _Mijn taken._
 
-To indicate the successful execution of a task:
+Om de succesvolle uitvoering van een taak aan te geven:
 
-* click on an executed task,
-* in the project steps list, select the article you want to attach the task to,
-* in the resulting screen, fill the task name, a comment and optionally a document,
-* click _Save_.
+* klik op een uitgevoerde taak,
+* selecteer in de lijst met projectstappen het artikel waaraan u de taak wilt koppelen,
+* vul in het resulterende scherm de taaknaam, een opmerking en optioneel een document in,
+* klik op _Save_.
 
-The execution report of the task appears as a comment to the article.
+Het uitvoeringsrapport van de taak wordt weergegeven als een opmerking bij het artikel.
 
 ![](../../.gitbook/assets/images240%20%283%29.png)
 
-Illustration 170: Projects – Tasks comments
+Afbeelding 170: Projecten - Takencommentaar
 
