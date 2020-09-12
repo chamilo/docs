@@ -1,6 +1,8 @@
 # Créer un cours
 
-![](../.gitbook/assets/graficos6%20%286%29.png)Illustration 10: Blocs de liste des cours
+![](../.gitbook/assets/my-courses-home.png)
+
+Illustration 10: Blocs de liste des cours
 
 La création d'un cours est simple et rapide et se fait à partir de la page _Mes cours_.
 
@@ -12,7 +14,9 @@ Pour le cours, il faut :
 
 * un titre clair et détaillé,
 
-![](../.gitbook/assets/graficos7%20%286%29.png)Illustration 11: Créer un cours - version courte
+![](../.gitbook/assets/graficos7%20%286%29.png)
+
+Illustration 11: Créer un cours - version courte
 
 Les options additionnelles \(et totalement facultatives\) disponibles en cliquant sur le lien _Paramètres avancés_ sont :
 
@@ -21,14 +25,16 @@ Les options additionnelles \(et totalement facultatives\) disponibles en cliquan
 * la langue utilisée pour afficher l’environnement du cours \(rien n'interdit de choisir l’anglais, même si Chamilo est installé en français\). Le choix de la langue n’influence pas le contenu du cours, seulement l’environnement de travail dans lequel le contenu est affiché et éventuellement quelques contenus de base \(uniquement si l'option suivante est cochée\),
 * si vous désirez remplir le cours avec quelques contenus d'exemple qui pourraient vous donner un peu d'inspiration \(typiquement un exercice, des forums et une section d'introduction\) ou si vous préférez le laisser entièrement vierge.
 
-![](../.gitbook/assets/graficos8%20%286%29.png)Illustration 12: Créer un cours - version étendue
+![](../.gitbook/assets/creation-cours-etendue.png)
 
-Une page de confirmation s’affiche. Elle propose :
+Illustration 12: Créer un cours - version étendue
 
-* d’entrer directement dans le cours créée et d’en découvrir les outils \(en cliquant sur le titre du cours\),
-* de retourner à la liste des cours dont on est responsable.
+Dépendant des versions de Chamilo, la création du cours peut :
 
-![](../.gitbook/assets/image13%20%289%29.png)Illustration 13: Page de confirmation après création de cours
+* vous envoyer directement sur la page d'accueil du cours
+* vous envoyer sur une page intermédiaire avec quelques outils mis en évidence
+* vous proposer d'entrer directement dans le cours créé et d'en découvrir les outils \(en cliquant sur le titre du cours\),
+* vous proposer de retourner à la liste des cours dont on est responsable.
 
 La structure du premier cours est maintenant créée. En s'appuyant sur le matériel pédagogique mis à votre disposition \(documents texte ou multimédia, extraits sonores...\), il vous est possible d'enrichir cette structure, qui n’est pour le moment qu’un « contenant vide » proposant divers outils mais ne comportant aucun contenu.
 
