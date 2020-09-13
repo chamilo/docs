@@ -4,5 +4,7 @@ Ce suivi montre la manière dont l'apprenant utilise le cours grâce à différe
 
 Un clic sur l'outil « Suivi » affiche le tableau de synthèse des apprenants. Il est possible d'utiliser ce tableau de synthèse pour repérer les apprenants dont l’activité est trop faible voire nulle \(il est possible de définir le niveau d’inactivité entre 2 et 30 jours ou le niveau « Never »\) en actionnant la liste déroulante qui est située en haut de la page.
 
-![](../../.gitbook/assets/image139%20%281%29.png)Illustration 86: Suivi - Apprenants
+![](../../.gitbook/assets/image139%20%281%29.png)
+
+Illustration : Suivi - Apprenants
 
