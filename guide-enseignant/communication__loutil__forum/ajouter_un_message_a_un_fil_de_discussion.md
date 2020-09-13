@@ -1,8 +1,6 @@
 # Ajouter un message à un fil de discussion
 
-Dans la liste des outils disponibles pour gérer un fil de discussion, l'icône « Répondre à ce sujet »
-
-\(![](../../.gitbook/assets/image109%20%281%29.svg)\) apparaît. Il permet d’ajouter un message au même niveau hiérarchique que le message de départ.
+Dans la liste des outils disponibles pour gérer un fil de discussion, l'icône « Répondre à ce sujet » apparaît. Il permet d’ajouter un message au même niveau hiérarchique que le message de départ.
 
 Pour cela :
 
