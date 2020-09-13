@@ -6,17 +6,21 @@ L'intérêt est clair : correction automatique des réponses des étudiants \(do
 
 Un exercice bien élaboré peut constituer un outil d'une valeur inestimable pour augmenter la motivation des apprenants. L'enseignant peut définir des suggestions et commentaires pour la rétro-alimentation des apprenants, aussi détaillé que nécessaire, au travers de liens, de vidéos, etc.
 
-L'outil d'exercice pourrait aussi bien être appelé outil d'examens, puisqu'il permet de générer des examens limités en temps, avec tirage aléatoire au sein d'une banque de questions, etc.
+L'outil d'exercice pourrait aussi bien être appelé outil d'examens, puisqu'il permet de générer des examens limités en temps, avec tirage aléatoire au sein d'une banque de questions, avec des questions classées par catégories etc.
 
 L'outil vous permet de créer ou d'importer un questionnaire \(au format [HotPotatoes](http://fr.wikipedia.org/wiki/Hot_Potatoes), IMS/QTI2 ou XLS\).
 
-![](../../.gitbook/assets/graficos32%20%285%29.png)Illustration 38: Exercices - Liste
+![](../../.gitbook/assets/quiz-list.png)
 
-La création d'un nouveau test est très simple. Cliquez sur la première icône à gauche et donnez-lui un titre, puis cliquez sur le bouton de confirmation.
+Illustration 38: Exercices - Liste
 
-![](../../.gitbook/assets/graficos33%20%287%29.png)Illustration 39: Exercices - Création simple
+La création d'un nouveau test est très simple. Cliquez sur la première icône à gauche et indiquez un titre, puis cliquez sur le bouton de confirmation.
 
-Comme il existe une grande quantité de types d'exercices différents, vous pourriez penser que les options par défaut que nous avons choisies ne vous conviennent pas entièrement. Qu'à cela ne tienne, l'option dépliante de _Paramètres avancés_ est là pour ça \(voir Illustration 40 ci-après\).
+![](../../.gitbook/assets/quiz-formulaire-creation-simple.png)
+
+Illustration 39: Exercices - Création simple
+
+Comme il existe une grande quantité de types d'exercices différents, vous pourriez penser que les options par défaut que nous avons choisies ne vous conviennent pas entièrement. Qu'à cela ne tienne, l'option dépliante de _Paramètres avancés_ est là pour ça.
 
 Ce questionnaire comporte de nombreuses options. Lors de la création du test \(et aussi lors de son édition\), vous pourrez choisir :
 
