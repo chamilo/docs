@@ -1,6 +1,6 @@
 # Communication : l'outil « Forum »
 
-![](../../.gitbook/assets/image292%20%281%29.svg)
+![](../../.gitbook/assets/image76%20%281%29.png)
 
 Bien que l'ordre logique voudrait que la suite naturelle à la création de documents et d'exercices soit la création de parcours d'apprentissage \(voir Chapitre 15. en page 77\), dans la pratique, c'est l'outil de forum \(ou parfois de _chat_\) qui l'emporte comme troisième étape de l'adoption de l'e-learning par les enseignants.
 
@@ -12,7 +12,9 @@ Pour utiliser l'outil « Forum » de Chamilo, les utilisateurs n'ont besoin que 
 
 La structure de la page des forums est la suivante:
 
-![](../../.gitbook/assets/image77%20%281%29.png)Illustration 57: Forum - Vue générale
+![](../../.gitbook/assets/image77%20%281%29.png)
+
+Illustration : Forum - Vue générale
 
 On y retrouve, comme titre, le nom de la catégorie de forums \(ou fora\). Dans le premier cadre se trouve un forum. Enfin, sur la droite, on retrouve les options relatives à la catégorie et au forum.
 
