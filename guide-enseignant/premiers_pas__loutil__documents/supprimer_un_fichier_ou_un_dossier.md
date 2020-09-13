@@ -2,7 +2,7 @@
 
 Pour supprimer, modifier, cacher ou montrer un fichier ou un document, il faut utiliser les options de la colonne de droite:
 
-![](../../.gitbook/assets/graficos25%20%285%29.png)
+![](../../.gitbook/assets/documents-liste.png)
 
 Comme vous pouvez le constater, les icônes sont différentes selon le type de documents. Les documents HTML offrent plus de possibilités.
 
