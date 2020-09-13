@@ -2,21 +2,23 @@
 
 Aller dans « Mes cours », choisir un cours et cliquer sur l'outil « Parcours » :
 
-![](../../.gitbook/assets/image131%20%281%29.png)Illustration 82: Parcours - Liste
+![](../../.gitbook/assets/image131%20%281%29.png)
+
+Illustration : Parcours - Liste
 
 La colonne de droite comprend les outils utiles à la modification. Il comprend :
 
 | Icônes | Fonctionnalités |
 | :--- | :--- |
-| ![](../../.gitbook/assets/image132%20%281%29.svg) | Modifier les paramètres du parcours |
-| ![](../../.gitbook/assets/images102%20%283%29.svg) | Supprimer un parcours |
-| ![](../../.gitbook/assets/graphics37%20%283%29.svg) | Accéder à l'outil « construire » pour retravailler le parcours |
+| ![](../../.gitbook/assets/reference.png) | Modifier les paramètres du parcours |
+| ![](../../.gitbook/assets/graficos27.pnh) | Supprimer un parcours |
+| ![](../../.gitbook/assets/edit.png) | Accéder à l'outil « construire » pour retravailler le parcours |
 | ![](../../.gitbook/assets/images194%20%281%29.png) | Afficher / cacher le parcours |
 | ![](../../.gitbook/assets/images195%20%281%29.png) | Masquer / montrer aux apprenants |
-| ![](../../.gitbook/assets/images201%20%281%29.png)![](../../.gitbook/assets/images108%20%283%29.svg) | Exporter le parcours au format .zip, réintégrable en SCORM |
-| ![](../../.gitbook/assets/images202%20%283%29.png)![](../../.gitbook/assets/images197%20%281%29.png) | Autoriser / interdire plusieurs tentatives aux apprenants |
-| ![](../../.gitbook/assets/images203%20%285%29.png) | Mettre le parcours en vue « plein écran » ou en vue « normal » |
-| ![](../../.gitbook/assets/images198%20%281%29.png) | Réorganiser la position des parcours |
+| ![](../../.gitbook/assets/images108%20%283%29.svg) | Exporter le parcours au format .zip, réintégrable en SCORM |
+| ![](../../.gitbook/assets/images201%20%281%29.png)![](../../.gitbook/assets/images197%20%281%29.png) | Autoriser / interdire plusieurs tentatives aux apprenants |
+| ![](../../.gitbook/assets/images202%20%283%29.png) ![](../../.gitbook/assets/images198%20%281%29.png)| Mettre le parcours en vue « plein écran » ou en vue « normal » |
+|  | Réorganiser la position des parcours |
 | ![](../../.gitbook/assets/images114%20%288%29.png) | Exporter le parcours complet sous forme d'un document PDF |
 | ![](../../.gitbook/assets/graphics40%20%285%29.png) | Copier/répliquer un parcours |
 
