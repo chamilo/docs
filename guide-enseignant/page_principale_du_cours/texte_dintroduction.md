@@ -2,7 +2,9 @@
 
 En dehors de tout outil en particulier, il est possible de composer un message d'accueil au cours. Cliquez sur le lien « Ajouter un texte d'introduction », un éditeur de texte apparaît :
 
-![](../../.gitbook/assets/courstexte_-intro%20%281%29.png)Illustration 21: Page d'accueil du cours - Texte d'introduction
+![](../../.gitbook/assets/courstexte_-intro%20%281%29.png)
+
+Illustration 21: Page d'accueil du cours - Texte d'introduction
 
 Cette fonctionnalité, bien qu'à l'air anodine, est en fait très puissante : il est possible de redessiner l'entièreté de la page du cours en masquant tous les outils et en plaçant vos propres icônes. Pour cela :
 

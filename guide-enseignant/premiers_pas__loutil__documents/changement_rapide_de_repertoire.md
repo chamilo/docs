@@ -4,7 +4,9 @@ Lors de la création d'un nouveau cours, l'outil « Documents » contient, par d
 
 Ces répertoires sont initialement créés invisibles aux étudiants. Ce sera à vous de décider si vous désirez que vos étudiants puissent voir le contenu de ces répertoires ou non. Notez qu'il est encore possible de modifier la visibilité de chaque document au sein du répertoire en question.
 
-![](../../.gitbook/assets/graficos17%20%286%29.png)Illustration 26: Documents - Liste des répertoires par défaut
+![](../../.gitbook/assets/graficos17%20%286%29.png)
+
+Illustration 26: Documents - Liste des répertoires par défaut
 
 Pour les besoins du cours, il est possible de créer plusieurs autres répertoires grâce à l'icône de création de répertoire. Afin de naviguer rapidement dans l'arborescence des répertoires du cours, une liste déroulante intitulée « Répertoire courant » est disponible à gauche de l'écran. Il est possible d'atteindre n'importe quel niveau de l'arborescence pour structurer le cours simplement en le sélectionnant.
 

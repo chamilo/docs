@@ -1,6 +1,6 @@
 # Premiers pas : l'outil « Documents »
 
-![](../../.gitbook/assets/image50%20%281%29.svg)
+![](../../.gitbook/assets/graphics111.png)
 
 L'invariable première étape de création de contenu de cours de tout enseignant qui utilise Chamilo pour la première fois est de se diriger vers l'outil de documents et d'y tenter quelques opérations de ré-utilisation de contenu existant \(sous forme de documents PDF, PowerPoint, etc\).
 
