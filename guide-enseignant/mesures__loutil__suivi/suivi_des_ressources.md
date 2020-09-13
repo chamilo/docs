@@ -10,7 +10,9 @@ Sur la page de suivi, l'icône de ressources permet d'accéder à un rapport sur
 * un titre d'objet
 * la date et l'heure de la modifications
 
-![](../../.gitbook/assets/image145%20%281%29.png)Illustration 91: Suivi - Suivi des ressources du cours
+![](../../.gitbook/assets/image145%20%281%29.png)
+
+Illustration : Suivi - Suivi des ressources du cours
 
 Un petit outil de recherche permet de filtrer les résultats et les liens de gauche permettent d'accéder facilement aux ressources.
 
