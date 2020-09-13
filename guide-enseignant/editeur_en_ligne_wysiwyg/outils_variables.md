@@ -2,7 +2,7 @@
 
 La première chose importante à savoir est que la barre d'outils de l'éditeur WYSIWYG n'est volontairement pas complète en permanence. Afficher en permanence l'ensemble des 30 à 40 icônes rendrait l'interface très lourde. C'est pourquoi nous avons travaillé avec des professeurs de terrain pour tenter de proposer une visualisation de base qui soit satisfaisante pour une majorité de personnes dans chaque contexte spécifique de Chamilo.
 
-Par exemple, dans la section d'introduction au cours, la barre d'outils apparaîtra comme suit.
+Par exemple, dans la section d'introduction au cours, la barre d'outils apparaîtra comme une clef anglaise croisée d'un tournevis (icône ci-dessous), soit comme une clef anglaise en monochrome pour les toutes dernières versions.
 
 ![](../../.gitbook/assets/image18%20%287%29.png)
 
