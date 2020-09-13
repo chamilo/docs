@@ -2,7 +2,9 @@
 
 Cliquez sur « Nouveau test » et donnez-lui un nom. Vous pouvez en rester là et passer à la page suivante, mais ici nous vous demanderons d'étendre le formulaire en cliquant sur le bouton « Paramètres avancés ».
 
-![](../../.gitbook/assets/graficos34%20%287%29.png)Illustration 40: Exercices - Création d'un test - Options avancées
+![](../../.gitbook/assets/quiz-formulaire-creation-ext.png)
+
+Illustration 40: Exercices - Création d'un test - Options avancées
 
 Les autres paramètres sont facultatifs, mais ils permettent de préciser quelques conditions :
 
