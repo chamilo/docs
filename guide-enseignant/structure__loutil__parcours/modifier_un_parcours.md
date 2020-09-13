@@ -31,7 +31,9 @@ Dans ce cas, et uniquement si le parcours a été configuré dans ce mode en uti
 * 1 étoile pour atteindre la moitié du parcours \(comprendre 50% de progrès dans le parcours\)
 * 1 étoile quand le score moyen des exercices du parcours \(de tous les chapitres\) &gt;= 50%
 * 1 étoile quand le score moyen des exercices du parcours \(de tous les chapitres\) &gt;= 80%
-* ![](../../.gitbook/assets/image135%20%281%29.png)1 étoile quand le score de l'exercice final &gt;= 80% \(comprendre le dernier exercice du parcours\)
+* 1 étoile quand le score de l'exercice final &gt;= 80% \(comprendre le dernier exercice du parcours\)
+
+![](../../.gitbook/assets/image135%20%281%29.png)
 
 Évidemment, cela demande que plusieurs exercices aient été placés dans le parcours \(nous recommandons un minimum de 4 exercices\), c'est pourquoi nous vous suggérons de faire des tests en suffisance avant de lancer le parcours au grand public.
 
