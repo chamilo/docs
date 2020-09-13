@@ -10,7 +10,7 @@ On retrouve ici les boutons immédiatement essentiels à la création de l'intro
 
 Cela dit, conscients de la variété de circonstances particulières possibles, nous avons ajouté un mode “étendu” auquel on peut accéder au travers de la dernière icône \(4 flèches vers l'extérieur\) pour agrandir la zone d'édition à la page complète et ainsi avoir l'espace suffisant pour ajouter tous les outils dans la barre, comme on peut le voir ci-dessous.
 
-![](../../.gitbook/assets/image19%20%287%29.png)
+![Éditeur en ligne en mode étendu](../../.gitbook/assets/wysiwyg-full.png)
 
 En étendant la zone d'édition d'un simple clic, nous sommes passés de 30 icônes à plus de 50.
 
