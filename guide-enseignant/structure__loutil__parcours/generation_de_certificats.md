@@ -6,5 +6,7 @@ Alternativement, Chamilo offre un outil pour créer des modèles de certificats,
 
 Ci-dessous, une suggestion de structure du document HTML pour générer un modèle de certificat optimal.
 
-![](../../.gitbook/assets/image313%20%281%29.png)Illustration 84: Structure d'un modèle de certificat
+![](../../.gitbook/assets/image313%20%281%29.png)
+
+Illustration : Structure d'un modèle de certificat
 
