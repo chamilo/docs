@@ -2,9 +2,13 @@
 
 Chamilo permet aussi d'analyser les exercices effectués par les apprenants en cliquant tout simplement sur le lien « Résultats », qui listera tous les résultats de l'exercice correspondant.
 
-![](../../.gitbook/assets/graficos37%20%285%29.png)Illustration 47: Exercices - Liste
+![](../../.gitbook/assets/graficos37%20%285%29.png)
 
-![](../../.gitbook/assets/graficos38%20%285%29.png)Illustration 48: Exercices - Liste des résultats
+Illustration 47: Exercices - Liste
+
+![](../../.gitbook/assets/quiz-results-list.png)
+
+Illustration 48: Exercices - Liste des résultats
 
 Barre de menu droite :
 
