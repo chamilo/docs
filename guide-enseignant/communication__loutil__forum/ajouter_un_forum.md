@@ -13,5 +13,7 @@ Depuis la page de l'outil « Forum » :
   * d'ajouter une image qui représente le forum \(et sera utilisée dans la liste des forums\)
 * cliquer sur « Créer ce forum ».
 
-![](../../.gitbook/assets/forumcreer%20%281%29.png)Illustration 60: Forum - Création de forum
+![](../../.gitbook/assets/forumcreer%20%281%29.png)
+
+Illustration : Forum - Création de forum
 
