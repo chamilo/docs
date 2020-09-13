@@ -12,11 +12,15 @@ Une fois identifié, aller dans l'onglet « Mes cours » puis cliquer sur celui 
 
 Dans le cours ci-dessous, il est possible de créer un parcours en cliquant sur « Parcours », la troisième icône de la première ligne :
 
-![](../../.gitbook/assets/image110%20%281%29.png)Illustration 64: Parcours - Accès depuis la page de cours
+![](../../.gitbook/assets/image110%20%281%29.png)
+
+Illustration : Parcours - Accès depuis la page de cours
 
 Une fois dans ce cours, il est proposé de créer un parcours ou d'importer un AICC et SCORM, mais aussi de modifier un parcours existant :
 
-![](../../.gitbook/assets/image111%20%281%29.png)Illustration 65: Parcours - Liste des parcours
+![](../../.gitbook/assets/image111%20%281%29.png)
+
+Illustration : Parcours - Liste des parcours
 
 Depuis la version 1.10, on y retrouve aussi \(sous forme de la première icône\) la possibilité de créer des catégories de parcours, fonctionnalité particulièrement utile si vous gérez des cours contenant plus de 10 parcours.
 

@@ -2,11 +2,15 @@
 
 Cliquer sur la baguette magique : « Créer un parcours » :
 
-![](../../.gitbook/assets/image112%20%281%29.png)Illustration 66: Parcours - Créer un parcours
+![](../../.gitbook/assets/image112%20%281%29.png)
+
+Illustration : Parcours - Créer un parcours
 
 Donner un nom à son parcours et cliquer sur « Continuer ». Le parcours est créé. Bien qu'il soit vide de contenu, il apparaît déjà dans la liste des parcours. Une fois le parcours créé, on a accès à plusieurs outils pour créer le parcours.
 
-![](../../.gitbook/assets/image114%20%281%29.png)Illustration 67: Parcours - Page d'édition des éléments
+![](../../.gitbook/assets/image114%20%281%29.png)
+
+Illustration : Parcours - Page d'édition des éléments
 
 Il est proposé :
 
@@ -24,7 +28,9 @@ Il est proposé :
 
 Modifier les informations du parcours :
 
-![](../../.gitbook/assets/image115%20%281%29.png)Illustration 68: Parcours - Édition des propriétés
+![](../../.gitbook/assets/image115%20%281%29.png)
+
+Illustration 68: Parcours - Édition des propriétés
 
 Ce cadre gris sera le fil d'Ariane lors de la visualisation du parcours par les apprenants. Les différentes parties seront visibles et accessibles en un clic de souris.
 
