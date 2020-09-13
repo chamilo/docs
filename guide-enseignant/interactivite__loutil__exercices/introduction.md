@@ -32,19 +32,25 @@ Ce questionnaire comporte de nombreuses options. Lors de la création du test \(
 
 Les questions posées peuvent être de différentes nature :
 
-* choix multiple,
-* réponses multiples,
+* choix multiple, réponse unique,
+* choix multiple, réponses multiples,
 * remplir les blancs ou le formulaire \(ou encore mots-croisés en se basant sur une table remplie de blancs\),
-* apparier,
+* apparier par listes déroulantes,
 * question ouverte,
+* question ouverte à réponse audio \(si activée\),
 * zones sur image,
 * combinaison exacte,
-* apparier par glisser-déplacer,
-* réordonner des mots dans une phrase,
+* réponse unique avec "ne sais pas",
+* réponses multiples "vrai/faux/ne sais pas",
+* réponses multiples "vrai/faux" avec degré de certitude,
+* combinaison exacte "vrai/faux/ne sais pas",
+* question à réponses multiples avec pondération globale (uniquement utile pour les grands volumes de questions),
+* question calculée,
 * sélection d'image,
-* question calculée
-
-… ainsi que quelques variations sur ces types de questions.
+* réordonner des mots dans une phrase,
+* correspondance par glisser-déplacer \(version améliorée de "apparier"\),
+* annotation,
+* compréhension à la lecture
 
 Les réponses à ce questionnaire sont rentrées lors de sa création, puis la correction est réalisée dans l'onglet « Résultats et corrections » lorsque les apprenants l'ont effectuée. Cet onglet leur permet aussi d'ajouter un commentaire puis d'exporter les résultats obtenus.
 
