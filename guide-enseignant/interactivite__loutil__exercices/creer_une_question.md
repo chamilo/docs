@@ -2,11 +2,13 @@
 
 Une fois le test créé, choisir le type de la première question parmi les sept proposés. Si le test existe déjà, et qu'il faut rajouter une \(ou plusieurs\) question\(s\), procéder de la même façon. Il est possible de rendre le test plus difficile en affectant un score négatif à une réponse erronée, ce qui fait davantage réfléchir le participant. L'exercice peut faire intervenir plusieurs types de réponses pour briser la monotonie et répondre à différents besoins d’évaluation.
 
-![](../../.gitbook/assets/graficos35%20%287%29.png)Illustration 41: Exercices - Types de questions
+![](../../.gitbook/assets/quiz-types-questions.png)
+
+Illustration 41: Exercices - Types de questions
 
 ## Type 1 : Question à choix multiples – réponse unique <a id="type-1-question-choix-multiples-r-ponse-unique"></a>
 
-![](../../.gitbook/assets/graphics153%20%283%29.svg) Le QCM classique est celui où une seule proposition sera considérée comme valide. Il est possible de rendre le test plus difficile en affectant un score négatif à une réponse erronée, ce qui pousse le participant à réfléchir davantage et le dissuade de répondre « au hasard ».
+![](../../.gitbook/assets/mcua.png) Le QCM classique est celui où une seule proposition sera considérée comme valide. Il est possible de rendre le test plus difficile en affectant un score négatif à une réponse erronée, ce qui pousse le participant à réfléchir davantage et le dissuade de répondre « au hasard ».
 
 * compléter le titre de la question – attention, ceci n'est **pas** la question elle-même,
 * saisir le niveau de difficulté de la question,
@@ -20,7 +22,7 @@ Une fois le test créé, choisir le type de la première question parmi les sept
 
 ## Type 2 : Question à choix multiples - réponses multiples <a id="type-2-question-choix-multiples-r-ponses-multiples"></a>
 
-![](../../.gitbook/assets/graphics350%20%283%29.svg) Ce QCM est une variante du type précédent. Il permet d’affecter plusieurs réponses valides. Là encore, les scores positifs et négatifs ainsi que la pondération sont possibles.
+![](../../.gitbook/assets/mcma.png) Ce QCM est une variante du type précédent. Il permet d’affecter plusieurs réponses valides. Là encore, les scores positifs et négatifs ainsi que la pondération sont possibles.
 
 ![](../../.gitbook/assets/coursexercice_-repmultiple%20%281%29.png)
 
@@ -36,7 +38,7 @@ Une fois le test créé, choisir le type de la première question parmi les sept
 
 ## Type 3 : Remplissage de blancs <a id="type-3-remplissage-de-blancs"></a>
 
-![](../../.gitbook/assets/graphics351%20%283%29.svg) Il s'agit du texte à trous. Le but est de faire inscrire par l’utilisateur des mots préalablement retirés du texte. C’est le type d’exercice utilisé couramment par les professeurs de langue, au début de
+![](../../.gitbook/assets/fill_in_blanks.png) Il s'agit du texte à trous. Le but est de faire inscrire par l’utilisateur des mots préalablement retirés du texte. C’est le type d’exercice utilisé couramment par les professeurs de langue, au début de
 
 l’apprentissage.
 
@@ -58,7 +60,7 @@ Depuis la version 1.10, l'enseignant peut sélectionner 4 nouvelles options par 
 
 ## Type 4 : Apparier \(Correspondance\) <a id="type-4-apparier-correspondance"></a>
 
-![](../../.gitbook/assets/graphics352%20%283%29.svg) Ce type de réponse peut être choisi pour créer une question où l’utilisateur devra relier des éléments d'un ensemble de propositions P1 avec les éléments d'un second ensemble de propositions P2. Il peut également être utilisé pour demander à l’utilisateur de trier des éléments dans un certain ordre.
+![](../../.gitbook/assets/matching.png) Ce type de réponse peut être choisi pour créer une question où l’utilisateur devra relier des éléments d'un ensemble de propositions P1 avec les éléments d'un second ensemble de propositions P2. Il peut également être utilisé pour demander à l’utilisateur de trier des éléments dans un certain ordre.
 
 ![](../../.gitbook/assets/coursexercice_-apparier%20%281%29.png)
 
@@ -73,7 +75,7 @@ Depuis la version 1.10, l'enseignant peut sélectionner 4 nouvelles options par 
 
 ## Type 5 : Questions ouvertes <a id="type-5-questions-ouvertes"></a>
 
-![](../../.gitbook/assets/graphics353%20%283%29.svg) Ici, la réponse de l'apprenant sera rédigée librement. Cette réponse ne sera pas évaluée immédiatement, car l'évaluation demande l'intervention du professeur. Le score final sera attribué par le professeur, à l'issue de la correction.
+![](../../.gitbook/assets/open_answer.png) Ici, la réponse de l'apprenant sera rédigée librement. Cette réponse ne sera pas évaluée immédiatement, car l'évaluation demande l'intervention du professeur. Le score final sera attribué par le professeur, à l'issue de la correction.
 
 * ![](../../.gitbook/assets/cours-exercice-q-ouverte%20%281%29.png)compléter l'intitulé de la question \(version courte de la question\),
 * saisir le niveau de difficulté de la question,
@@ -83,7 +85,7 @@ Depuis la version 1.10, l'enseignant peut sélectionner 4 nouvelles options par 
 
 ## Type 6 : Expression orale <a id="type-6-expression-orale"></a>
 
-![](../../.gitbook/assets/graphics354%20%283%29.svg) Ce type de question requiert l'activation par l'administrateur de l'option d'enregistrement audio Nanogong. Il s'agit d'un type de question similaire à la question ouverte, mais l'apprenant peut y répondre par oral en enregistrant sa réponse au travers du micro.
+![](../../.gitbook/assets/audio_question.png) Ce type de question requiert l'activation par l'administrateur de l'option d'enregistrement audio Nanogong. Il s'agit d'un type de question similaire à la question ouverte, mais l'apprenant peut y répondre par oral en enregistrant sa réponse au travers du micro.
 
 C'est un type de question très utile pour les cours de langue, qui peut être d'une grande aide pour animer les apprenants à présenter des travaux par oral en leur permettant d'améliorer leurs capacités de communication.
 
@@ -95,7 +97,7 @@ Pour répondre à une question audio, l'apprenant aura simplement à cliquer sur
 
 ## Type 7 : Zones sur image \(hotspot\) <a id="type-7-zones-sur-image-hotspot"></a>
 
-![](../../.gitbook/assets/graphics355%20%283%29.svg) Dans ce type de question, l'apprenant sera amené à identifier des zones \(en cliquant dessus\) dans une image pour répondre à la question posée par le professeur.
+![](../../.gitbook/assets/hotspot.png) Dans ce type de question, l'apprenant sera amené à identifier des zones \(en cliquant dessus\) dans une image pour répondre à la question posée par le professeur.
 
 Dans ce type de question, l'apprenant doit cliquer sur une ou plusieurs zones d'une image qui est préalablement mise à sa disposition sur le serveur. La conception d’une question de type zone sur image demande un travail sur deux écrans successifs.
 
@@ -116,7 +118,7 @@ Différence notoire pour ce type de question par rapport aux versions antérieur
 
 Dans ce dernier type d'exercice, si la combinaison comprend une erreur, elle ne seras pas acceptée.
 
-![](../../.gitbook/assets/coursexercice_-combinaison%20%281%29.png)
+![](../../.gitbook/assets/mcmac.png)
 
 * compléter l’intitulé de la question,
 * saisir le niveau de difficulté de la question,
@@ -130,23 +132,23 @@ Dans ce dernier type d'exercice, si la combinaison comprend une erreur, elle ne 
 
 ## Type 9 : Réponse unique + « ne sais pas » <a id="type-9-r-ponse-unique-ne-sais-pas"></a>
 
-![](../../.gitbook/assets/graphics357%20%283%29.svg) Dans certains cas, l'enseignant souhaite que l'apprenant indique s'il ne connaît pas la réponse à une question, au lieu d'essayer de deviner la réponse correcte. Ce type de question est similaire à celui de réponses multiples, mais il réserve la dernière possibilité pour l'option « Ne sais pas », qui est toujours évaluée à 0 points. Si l'enseignant le considère opportun, les apprenants peuvent être pénalisés avec un score négatif s'ils tentent de deviner la réponse \(sans succès\).
+![](../../.gitbook/assets/mcuao.png) Dans certains cas, l'enseignant souhaite que l'apprenant indique s'il ne connaît pas la réponse à une question, au lieu d'essayer de deviner la réponse correcte. Ce type de question est similaire à celui de réponses multiples, mais il réserve la dernière possibilité pour l'option « Ne sais pas », qui est toujours évaluée à 0 points. Si l'enseignant le considère opportun, les apprenants peuvent être pénalisés avec un score négatif s'ils tentent de deviner la réponse \(sans succès\).
 
 ## Type 10 : Réponse multiple Vrai/Faux/Ne sais pas <a id="type-10-r-ponse-multiple-vrai-faux-ne-sais-pas"></a>
 
-![](../../.gitbook/assets/graphics358%20%283%29.svg) Il s'agit d'un autre format de combinaison qui inclut une option de type « Ne sais pas » et de valeur 0, comme dans l'option de question antérieure, mais qui utilise Vrai/Faux au lieu de questions à réponses multiples. De nouveau, il est possible d'assigner un score négatif pour éviter les tentatives aléatoires et suggérer aux apprenants de répondre honnêtement.
+![](../../.gitbook/assets/mcmao.png) Il s'agit d'un autre format de combinaison qui inclut une option de type « Ne sais pas » et de valeur 0, comme dans l'option de question antérieure, mais qui utilise Vrai/Faux au lieu de questions à réponses multiples. De nouveau, il est possible d'assigner un score négatif pour éviter les tentatives aléatoires et suggérer aux apprenants de répondre honnêtement.
 
 ## Type 11 : Combinaison Vrai/Faux/Ne sais pas <a id="type-11-combinaison-vrai-faux-ne-sais-pas"></a>
 
-![](../../.gitbook/assets/graphics359%20%283%29.svg) Cette option offre une ponctuation unique qui couvre une ou plusieurs questions. Le formulaire offre une apparence similaire à celui de réponse à combinaison exacte, mais la question se montre à l'étudiant d'une façon différente \(sous forme de tableau\).
+![](../../.gitbook/assets/mcmaco.png) Cette option offre une ponctuation unique qui couvre une ou plusieurs questions. Le formulaire offre une apparence similaire à celui de réponse à combinaison exacte, mais la question se montre à l'étudiant d'une façon différente \(sous forme de tableau\).
 
 ## Type 12: Réponse globale multiple <a id="type-12-r-ponse-globale-multiple"></a>
 
-![](../../.gitbook/assets/graphics360%20%283%29.svg) Ce format de question combine le format de réponses multiples avec une ponctuation unique tout en évitant l'accumulation de valeurs négatives dans les scores. Il s'agit un peu d'un type « réponse multiple » pour les paresseux, vu qu'il ne demande aucune répartition de ponctuation entre les différentes questions. Il suffira d'indiquer lesquelles sont correctes et lesquelles ne le sont pas.
+![](../../.gitbook/assets/mcmagl.png) Ce format de question combine le format de réponses multiples avec une ponctuation unique tout en évitant l'accumulation de valeurs négatives dans les scores. Il s'agit un peu d'un type « réponse multiple » pour les paresseux, vu qu'il ne demande aucune répartition de ponctuation entre les différentes questions. Il suffira d'indiquer lesquelles sont correctes et lesquelles ne le sont pas.
 
 ## Type 13 : Question calculée <a id="type-13-question-calcul-e"></a>
 
-![](../../.gitbook/assets/image57%20%281%29.svg) Ce type de question, encore considéré en mode Beta \(ce qui signifie qu'il ne devrait pas être utilisé comme partie d'un examen critique\) permet l'élaboration de questions du type énoncé, comme par exemple : « _Julie a_ _7 pommes dans son panier. Elle veut les distribuer de manière égale et seulement par pommes entières à ses 4 frères. Combien de pommes recevra chaque frère ?_ ».
+![](../../.gitbook/assets/calculated_answer.png) Ce type de question, encore considéré en mode Beta \(ce qui signifie qu'il ne devrait pas être utilisé comme partie d'un examen critique\) permet l'élaboration de questions du type énoncé, comme par exemple : « _Julie a_ _7 pommes dans son panier. Elle veut les distribuer de manière égale et seulement par pommes entières à ses 4 frères. Combien de pommes recevra chaque frère ?_ ».
 
 Une fois l'énoncé de base élaboré, on remplace les valeurs numériques par des variables et on établit une formule qui permet de calculer la réponse. Par exemple : « _Julie a_ _\[x\] pommes dans son panier. Elle veut les distribuer de manière égale et seulement par pommes entières à ses \[y\] frères. Combien de pommes recevra chaque frère ? »_ avec la formule \[x\]/\[y\] qui permet d'obtenir la réponse attendue de la part de l'apprenant.
 
@@ -170,19 +172,23 @@ La fonction « modulo » \(le reste d'une division\) n'apparaît que dans la ver
 
 ## Type 14 : Réponse unique sur image <a id="type-14-r-ponse-unique-sur-image"></a>
 
-![](../../.gitbook/assets/image60%20%281%29.svg) Ce type de question permet de donner une sélection d'images à l'apprenant et de lui demander de sélectionner la réponse correcte parmi celles-ci. Il s'agit d'un type de question très attrayant visuellement pour l'apprenant, mais il demande une préparation plus importante de la part de l'enseignant \(pour la préparation des images\).
+![](../../.gitbook/assets/uaimg.png) Ce type de question permet de donner une sélection d'images à l'apprenant et de lui demander de sélectionner la réponse correcte parmi celles-ci. Il s'agit d'un type de question très attrayant visuellement pour l'apprenant, mais il demande une préparation plus importante de la part de l'enseignant \(pour la préparation des images\).
 
 Le système recommande l'utilisation d'images de 200 pixels de large sur 150 pixels de haut pour que le résultat soit le plus esthétique possible. Voici un petit exemple de formulaire \(interface en espagnol dans ce cas\) pour élaborer ce type de question.
 
-![](../../.gitbook/assets/image58%20%283%29.png)Illustration 42: Exercices: Réponse unique sur image
+![](../../.gitbook/assets/image58%20%283%29.png)
+
+Illustration 42: Exercices: Réponse unique sur image
 
 Pour l'apprenant, le résultat est visuellement plus plaisant, comme on peut l'observer dans la capture d'écran suivante. La sélection faite par l'apprenant se marque directement avec un fin bord bleu.
 
-![](../../.gitbook/assets/image59%20%283%29.png)Illustration 43: Exercices: Visualisation par l'apprenant du type sélection d'image
+![](../../.gitbook/assets/image59%20%283%29.png)
+
+Illustration 43: Exercices: Visualisation par l'apprenant du type sélection d'image
 
 ## Type 15 : Réordonner des mots <a id="type-15-r-ordonner-des-mots"></a>
 
-![](../../.gitbook/assets/image61%20%281%29.svg) Ce type de question permet de demander à l'apprenant de réordonner correctement les mots dans une phrase. Son élaboration est similaire à celle de la correspondance, mais elle demande simplement de mettre des termes dans l'ordre \(au lieu de les faire correspondre entre eux\).
+![](../../.gitbook/assets/ordering.png) Ce type de question permet de demander à l'apprenant de réordonner correctement les mots dans une phrase. Son élaboration est similaire à celle de la correspondance, mais elle demande simplement de mettre des termes dans l'ordre \(au lieu de les faire correspondre entre eux\).
 
 ![](../../.gitbook/assets/image64%20%283%29.png)
 
@@ -196,7 +202,7 @@ Finalement, l'apprenant verra les termes dans les cases numérotées avec un bou
 
 ## Type 16 : Correspondance par glisser-déplacer <a id="type-16-correspondance-par-glisser-d-placer"></a>
 
-![](../../.gitbook/assets/image67%20%281%29.svg)![](../../.gitbook/assets/image67%20%281%29.png)
+![](../../.gitbook/assets/matchingdrag.png)
 
 Ce type de question permet de faire correspondre des propositions avec leurs réponse correspondante. Il se génère de manière identique au type 4 \(correspondances\) mais sa visualisation pour l'apprenant est différente.
 
