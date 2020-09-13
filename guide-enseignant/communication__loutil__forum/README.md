@@ -2,7 +2,7 @@
 
 ![](../../.gitbook/assets/image76%20%281%29.png)
 
-Bien que l'ordre logique voudrait que la suite naturelle à la création de documents et d'exercices soit la création de parcours d'apprentissage \(voir Chapitre 15. en page 77\), dans la pratique, c'est l'outil de forum \(ou parfois de _chat_\) qui l'emporte comme troisième étape de l'adoption de l'e-learning par les enseignants.
+Bien que l'ordre logique voudrait que la suite naturelle à la création de documents et d'exercices soit la création de _parcours d'apprentissage_, dans la pratique, c'est l'outil de forum \(ou parfois de _chat_\) qui l'emporte comme troisième étape de l'adoption de l'e-learning par les enseignants.
 
 L'outil _Forum_ \(![](../../.gitbook/assets/image76%20%281%29.png)\) permet d'organiser les échanges d'idées, d'opinions et d'informations sur le cours et les parcours. L'outil est conçu pour permettre aux personnes intéressées par une question de trouver rapidement l'information recherchée sans avoir à parcourir une longue liste de messages non pertinents.
 
