@@ -2,13 +2,17 @@
 
 Si l'administrateur a activé l'option de scénarisation des exercices \(voir illustration\),
 
-![](../../.gitbook/assets/image69%20%281%29.png)Illustration 49: Option de configuration de la plateforme pour les exercices scénarisés
+![](../../.gitbook/assets/image69%20%281%29.png)
 
-le formulaire de création des exercices offre une option additionnelle, appelée _feedback immédiat\_\_en popup._
+Illustration : Option de configuration de la plateforme pour les exercices scénarisés
+
+le formulaire de création des exercices offre une option additionnelle, appelée _feedback immédiat en popup._
 
 ## Création d'exercices de type auto-évaluation <a id="cr-ation-d-exercices-de-type-auto-valuation"></a>
 
-![](../../.gitbook/assets/image70%20%281%29.png)Illustration 50: Options de création d'exercices – Mode feedback immédiat
+![](../../.gitbook/assets/image70%20%281%29.png)
+
+Illustration : Options de création d'exercices – Mode feedback immédiat
 
 En sélectionnant cette option, divers changements apparaîtront dans l'interface de création de l'exercice.
 
@@ -18,11 +22,15 @@ Il est important de comprendre que ce type d'exercice n'a pas pour objectif la g
 
 Il est également important de noter qu'en cas de tentative d'utilisation des résultats comme mesure d'évaluation, ces résultats varieront d'un apprenant à un autre étant donnée la nature adaptative du parcours d'une question à une autre par les apprenants.
 
-![](../../.gitbook/assets/image71%20%281%29.png)Illustration 51: Page de création de questions dans les exercices de feedback immédiat
+![](../../.gitbook/assets/image71%20%281%29.png)
+
+Illustration : Page de création de questions dans les exercices de feedback immédiat
 
 Ce type d'exercice requiert une préparation particulière. Comme vous pourrez le constater en créant une nouvelle question de type réponse unique, des options additionnelles à la normales s'offrent à vous.
 
-![](../../.gitbook/assets/image72%20%281%29.png)Illustration 52: Formulaire de création de questions en mode de scénarisation
+![](../../.gitbook/assets/image72%20%281%29.png)
+
+Illustration : Formulaire de création de questions en mode de scénarisation
 
 Analysons les champs qui apparaissent dans la colonne « Scénario ». Tous suggèrent une proposition différente à l'apprenant. Ces propositions apparaîtront à l'apprenant juste après qu'il ait répondu.
 
@@ -39,11 +47,9 @@ Comme on a pu l'observer dans la section précédente, au moment de créer une n
 
 Pour le design de ce type d'exercices, il est donc bon de planifier les chemins que les apprenants pourront prendre dans son parcours. Cela signifie qu'il est nécessaire de planifier ces chemins, et quelle meilleure manière de le faire qu'un diagramme décisionnel ?
 
-Dans le diagramme suivant, les questions, représentées par des numéros, ont des destinations distinctes selon la réponse donnée par l'apprenant \(dans ce cas, une réponse erronée envoie à gauche alors qu'une réponse correcte envoie à droite ou vers le bas\). Comme on peut l'observer, il est critique de penser à toutes les possibilités et de ne laisser aucune question sans destination possible, tant en cas de réponse correcte qu'en cas de réponse erronée.
+Dans un diagramme hypothétique, les questions, représentées par des numéros, ont des destinations distinctes selon la réponse donnée par l'apprenant \(dans ce cas, une réponse erronée envoie à gauche alors qu'une réponse correcte envoie à droite ou vers le bas\). Il est donc critique de penser à toutes les possibilités et de ne laisser aucune question sans destination possible, tant en cas de réponse correcte qu'en cas de réponse erronée.
 
-Objet OLEIllustration 53: Exemple de diagramme décisionnel d'un exercice scénarisé
-
-Dans ce cas, seuls 4 niveaux de questions existent avant d'arriver à la fin \(ou 4 questions maximum\). Ceci suggère que, pour une auto-évaluation de 4 niveaux, il faudra toujours penser à élaborer le double ou le triple de questions.
+Dans ce cas, on pourrait imaginer que seuls 4 niveaux de questions existent avant d'arriver à la fin \(ou 4 questions maximum\). Ceci suggère que, pour une auto-évaluation de 4 niveaux, il faudra toujours penser à élaborer le double ou le triple de questions.
 
 Les questions devraient également être identifiées de manière spéciale par l'enseignant, pour éviter de les mélanger avec les questions d'un exercice normal, étant donné qu'elles ne disposent pas de ces « destinations » et de ces propriétés particulières.
 
@@ -51,9 +57,15 @@ Les questions devraient également être identifiées de manière spéciale par 
 
 L'apprenant qui passe un test d'auto-évaluation scénarisé verra un écran différent de celui des exercices normaux à la fin de chaque question. Sur cette écran, il verra une information de rétro-alimentation immédiate mais il pourra aussi décider \(dans le cas de différentes possibilités\) de la prochaine étape.
 
-![](../../.gitbook/assets/image73%20%281%29.png)Illustration 54: Auto-évaluation scénarisée: Cas de réponse incorrecte – Essayez à nouveau
+![](../../.gitbook/assets/image73%20%281%29.png)
 
-![](../../.gitbook/assets/image74%20%281%29.png)Illustration 55: Auto-évaluation scénarisée: Cas de réponse correcte – Passer à la suivante
+Illustration : Auto-évaluation scénarisée: Cas de réponse incorrecte – Essayez à nouveau
 
-![](../../.gitbook/assets/image75%20%281%29.png)Illustration 56: Auto-évaluation scénarisée: Cas de réponse correcte et fin
+![](../../.gitbook/assets/image74%20%281%29.png)
+
+Illustration : Auto-évaluation scénarisée: Cas de réponse correcte – Passer à la suivante
+
+![](../../.gitbook/assets/image75%20%281%29.png)
+
+Illustration : Auto-évaluation scénarisée: Cas de réponse correcte et fin
 
