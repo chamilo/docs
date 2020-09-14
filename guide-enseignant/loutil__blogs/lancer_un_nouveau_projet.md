@@ -7,5 +7,7 @@ Depuis la page d’accueil de projets :
 * décrire éventuellement le projet,
 * « Enregistrer le projet ».
 
-![](../../.gitbook/assets/image255%20%281%29.png)Illustration 177: Blogs - Création d'un blog
+![](../../.gitbook/assets/image255%20%281%29.png)
+
+Illustration : Blogs - Création d'un blog
 
