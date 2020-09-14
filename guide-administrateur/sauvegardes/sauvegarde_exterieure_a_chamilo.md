@@ -4,7 +4,9 @@
 
 Les bases de données peuvent être sauvegardées par l'interface de [P](http://fr.wikipedia.org/wiki/PhpMyAdmin)[hpMyAdmin](http://fr.wikipedia.org/wiki/PhpMyAdmin)\(ou _Adminer\)_ en se connectant grâce à l'identifiant et au mot de passe créés lors de l'installation du serveur [LAMP](http://fr.wikipedia.org/wiki/LAMP) ou de bases de données, ou transmis par l'hébergeur.
 
-![](../../.gitbook/assets/phpaccueuil.png)Illustration 13: Administration - PHPMyAdmin
+![](../../.gitbook/assets/phpaccueuil.png)
+
+Illustration : Administration - PHPMyAdmin
 
 Une fois dans l'interface graphique de phpMyAdmin, aller à l'onglet _Exporter_ et sélectionner la base de données à sauvegarder.
 
@@ -34,7 +36,9 @@ user@user:/var/www$ sudo mv backup\_chamilo /home/user/Bureau/
 
 Il peut être pratique de lui donner une date visible dans le nom exemple : « 2010-05-07-backup-chamilo ». De cette manière, si vous accumulez plusieurs sauvegardes de la sorte, il vous sera facile de les trier visuellement par date.
 
-![](../../.gitbook/assets/terminalsauvegarde.png)Illustration 14: Terminal - Déplacement des fichiers
+![](../../.gitbook/assets/terminalsauvegarde.png)
+
+Illustration : Terminal - Déplacement des fichiers
 
 Cette sauvegarde contient toutes les informations de connexion à la base de données de Chamilo et toutes ses configurations. Elle est utile en cas d'effacement des données ou d'attaque du serveur. C'est la seule façon fiable de reconstruire votre portail Chamilo tel qu'il était avant que ne survienne un problème quelconque.
 

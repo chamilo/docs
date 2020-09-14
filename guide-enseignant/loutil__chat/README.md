@@ -6,7 +6,9 @@ L'outil « Chat » est une « messagerie instantanée » qui permet d’échange
 
 L'avantage de cette solution est que son utilisation est universellement garantie sur tous les ordinateurs et sans délai. L'inconvénient est que la liste des messages ne se « rafraîchit » pas instantanément \(cela peut prendre 5 à 10 secondes\).
 
-![](../../.gitbook/assets/image244%20%281%29.png) Illustration 168: Chat - Conversation enseignant-élève
+![](../../.gitbook/assets/image244%20%281%29.png)
+
+Illustration : Chat - Conversation enseignant-élève
 
 Si les participants ont envoyé leur photo dans l'outil « Profil », celle-ci apparaîtra avec le nom du participant. Il appartient au responsable d'effacer les discussions quand il le juge nécessaire.
 

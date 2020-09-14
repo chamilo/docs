@@ -6,15 +6,21 @@ Chamilo propose différentes façons de sauvegarder les données. Il est possibl
 
 Pour exporter un parcours, aller dans l'onglet « Mes cours »:
 
-![](../../.gitbook/assets/parcourssauvegarde.png)Illustration 15: Interface - Liste des cours
+![](../../.gitbook/assets/parcourssauvegarde.png)
+
+Illustration : Interface - Liste des cours
 
 Ici, on peut voir tous les cours dont on est l'enseignant principal. Pour continuer, il faut cliquer sur l'un d'eux pour entrer dans le cours puis sur « Parcours » :
 
-![](../../.gitbook/assets/image4.png)Illustration 16: Liste des outils de cours
+![](../../.gitbook/assets/image4.png)
+
+Illustration : Liste des outils de cours
 
 Une fois dans les parcours, il faut cliquer sur l'icône représentant un « CD » pour générer la sauvegarde :
 
-![](../../.gitbook/assets/graficos32.png)Illustration 17: Interface - Export des parcours
+![](../../.gitbook/assets/graficos32.png)
+
+Illustration : Interface - Export des parcours
 
 Ensuite, il ne reste plus qu'à sauvegarder ce cours dans le dossier désiré sur votre ordinateur \(par défaut « Téléchargement »\).
 
@@ -28,19 +34,27 @@ L'administrateur de la plateforme peut procéder à une sauvegarde pour n'import
 
 1. Allez dans : « Administration » → « Liste des cours » :
 
-![](../../.gitbook/assets/administrationcours.png)Illustration 18: Administration - Bloc cours
+![](../../.gitbook/assets/administrationcours.png)
+
+Illustration : Administration - Bloc cours
 
 1. Ensuite, cliquez sur l'icône « CD » de la colonne de droite au niveau du cours à exporter :
 
-![](../../.gitbook/assets/graficos33.png)Illustration 19: Administration - Liste des cours – Sauvegarde
+![](../../.gitbook/assets/graficos33.png)
+
+Illustration : Administration - Liste des cours – Sauvegarde
 
 1. Un choix est possible entre la sauvegarde complète et la sélection \(en fonction de la situation et des besoins\). Pour cet exemple nous choisirons : "Faire une sauvegarde complète de ce cours".
 
-![](../../.gitbook/assets/sauvegardegenerer_-backup.png)Illustration 20: Administration - Paramètres de sauvegarde
+![](../../.gitbook/assets/sauvegardegenerer_-backup.png)
+
+Illustration : Administration - Paramètres de sauvegarde
 
 1. La sauvegarde est générée. Il ne reste plus qu'à cliquer sur le bouton pour la télécharger sous forme de fichier ZIP.
 
-![](../../.gitbook/assets/sauvegardebackup_-ok.png)Illustration 21: Administration - Sauvegarde, résultat de la sauvegarde
+![](../../.gitbook/assets/sauvegardebackup_-ok.png)
+
+Illustration : Administration - Sauvegarde, résultat de la sauvegarde
 
 1. Après avoir cliqué sur « Générer sauvegarde », Chamilo crée un fichier de sauvegarde, par défaut, dans son répertoire : « chamilo/app/cache ». Vous pouvez donc l'y récupérer par accès direct, ce qui veut dire que d'autres utilisateurs peuvent y avoir accès également \(à condition de connaître le nom du fichier\). Il est donc important de mettre en place un mécanisme de nettoyage régulier de ce répertoire. Nous proposons un script qui fait cela dans _main/cron_, mais il faudra encore configurer votre serveur pour qu'il exécute ce script de manière automatique et régulière \(quotidiennement, par exemple\).
 
@@ -48,11 +62,15 @@ Il est également possible de générer une sauvegarde du cours par un autre che
 
 En tant qu'administrateur ou enseignant, cliquez sur l'onglet « Mes cours » puis sur l'un des cours disponibles. Ensuite, il est proposé de générer une sauvegarde avec la même méthode expliquée au-dessus en cliquant sur « Maintenance ».
 
-![](../../.gitbook/assets/administrationmaintenance.png)Illustration 22: Interface - Outil d'administration du cours
+![](../../.gitbook/assets/administrationmaintenance.png)
+
+Illustration : Interface - Outil d'administration du cours
 
 Une interface légèrement différente est proposée.
 
-![](../../.gitbook/assets/proprietemaintenance.png)Illustration 23: Interface - Options de maintenance de cours
+![](../../.gitbook/assets/proprietemaintenance.png)
+
+Illustration : Interface - Options de maintenance de cours
 
 Il est donc possible de générer une sauvegarde comme cela est expliqué ci-dessus. Trois autres options sont encore disponibles :
 
@@ -77,9 +95,13 @@ Il contient :
 
 Le dossier "Document" est organisé comme représenté dans l'illustration 24, qui reproduit la structure des documents dans l'illustration 25.
 
-![](../../.gitbook/assets/structuredoc.png)Illustration 24: Sauvegarde - Structure des fichiers de sauvegarde
+![](../../.gitbook/assets/structuredoc.png)
 
-![](../../.gitbook/assets/graficos34.png)Illustration 25: Interface - Liste de documents
+Illustration : Sauvegarde - Structure des fichiers de sauvegarde
+
+![](../../.gitbook/assets/graficos34.png)
+
+Illustration : Interface - Liste de documents
 
 Ces dossiers et documents sont les contenus du cours.
 
