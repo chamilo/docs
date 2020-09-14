@@ -4,12 +4,14 @@ L'administration des dossiers de travaux repose sur des commandes connues :
 
 | Icônes | Fonctionnalités |
 | :--- | :--- |
-| ![](../../.gitbook/assets/image153%20%281%29.svg) | Modifier le nom d’un dossier de travaux |
-| ![](../../.gitbook/assets/image154%20%281%29.svg) | Supprimer un dossier de travaux \(après demande de confirmation\) et tous les travaux qu’il contient |
+| ![](../../.gitbook/assets/edit.png) | Modifier le nom d’un dossier de travaux |
+| ![](../../.gitbook/assets/graficos27.png) | Supprimer un dossier de travaux \(après demande de confirmation\) et tous les travaux qu’il contient |
 
 Si le nombre d'apprenants est élevé, il y aura probablement une grande quantité de travaux à corriger ! Chamilo allège la labeur de gestion des travaux en maintenant un registre organisé des travaux et des messages des étudiants sur la page principale de chaque travail. On y retrouvera les travaux remis par chaque apprenant, un avis indiquant si le travail nécessite correction, une indication de la date de remise et une navigation rapide pour revoir le travail en soi. Si un score a déjà été donné pour le travail, celui-ci s'affichera également.
 
-![](../../.gitbook/assets/image159%20%281%29.png)Illustration 98: Travaux - Liste de travaux non corrigés
+![](../../.gitbook/assets/image159%20%281%29.png)
+
+Illustration : Travaux - Liste de travaux non corrigés
 
 Les colonnes du tableau permettent de réordonner les travaux par nom de l'apprenant , par titre du travail, par score, etc, ou simplement de redimensionner une colonne pour y voir plus clair. L'avant dernière colonne permet d'envoyer une correction à l'apprenant.
 
@@ -37,9 +39,13 @@ Pour chaque travail, individuellement,, l'enseignant pourra également :
 
 Une fois les travaux corrigés, l'apparence de la liste des travaux remis change subtilement.
 
-![](../../.gitbook/assets/image160%20%281%29.png)Illustration 99: Travaux - Liste des travaux avec correction
+![](../../.gitbook/assets/image160%20%281%29.png)
+
+Illustration : Travaux - Liste des travaux avec correction
 
 Sur la page principale des travaux, il est également possible de visualiser une liste des apprenants et le nombre de travaux remis par chacun d'entre eux. Pour cela, il suffit de cliquer sur l'icône d'utilisateurs sur la page principale.
 
-![](../../.gitbook/assets/image162%20%281%29.png)Illustration 100: Travaux - Rapport de remises par les utilisateurs
+![](../../.gitbook/assets/image162%20%281%29.png)
+
+Illustration : Travaux - Rapport de remises par les utilisateurs
 

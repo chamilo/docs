@@ -11,7 +11,9 @@ Pour créer un nouveau travail:
 * ajoutez éventuellement un commentaire,
 * cliquer sur le bouton « Créer ».
 
-![](../../.gitbook/assets/image148%20%281%29.png)Illustration 94: Travaux - Création d'un travail
+![](../../.gitbook/assets/image148%20%281%29.png)
+
+Illustration : Travaux - Création d'un travail
 
 Les paramètres avancés des travaux permettent de déterminer :
 
