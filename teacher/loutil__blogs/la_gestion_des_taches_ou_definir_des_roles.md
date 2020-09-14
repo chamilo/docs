@@ -1,8 +1,10 @@
-## La gestion des tâches (ou définir des rôles) {#la-gestion-des-t-ches-ou-d-finir-des-r-les}
+## La gestion des tâches (ou définir des rôles)
 
 Le lien « Gestion des tâches » est utilisé pour créer des tâches détaillées d’une étape de projet ou affecter des rôles aux participants du projet/blog.
 
-![](../assets/image257.png)Illustration 180: Blogs – Liste des tâches
+![](../assets/image257.png)
+
+Illustration : Blogs – Liste des tâches
 
 Pour créer une nouvelle tâche (ou un nouveau rôle) :
 
@@ -18,6 +20,8 @@ Pour créer une nouvelle tâche (ou un nouveau rôle) :
 
 *   « Enregistrer ».
 
-![](../assets/image259.png)Illustration 181: Blogs - Nouvelle tâche
+![](../assets/image259.png)
+
+Illustration : Blogs - Nouvelle tâche
 
 → La nouvelle tâche vient enrichir la liste des tâches existantes.

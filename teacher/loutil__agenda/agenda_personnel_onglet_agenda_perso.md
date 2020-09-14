@@ -1,8 +1,10 @@
-## Agenda personnel (onglet _Agenda perso_) {#agenda-personnel-onglet-agenda-perso}
+## Agenda personnel (onglet _Agenda perso_)
 
 L&#039;agenda personnel regroupe tous les événements liés à l&#039;utilisateur :
 
-![](../assets/image232.png)Illustration 155: Agenda - Vue personnelle
+![](../assets/image232.png)
+
+Illustration : Agenda - Vue personnelle
 
 Il est possible de trier les événements par jour, semaine ou mois (comme dans la vue ci-dessus). Il suffit de cliquer sur l’événement pour avoir plus d&#039;informations.
 
