@@ -5,5 +5,7 @@
 * renseignez et mettez en forme son contenu,
 * cliquez sur le bouton « Enregistrer la note ».
 
-![](../../.gitbook/assets/image253%20%281%29.png)Illustration 175: Notes personnelles - Création
+![](../../.gitbook/assets/image253%20%281%29.png)
+
+Illustration : Notes personnelles - Création
 

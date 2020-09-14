@@ -8,5 +8,7 @@ Pour inscrire des apprenants à un projet, depuis la page d’accueil de ce proj
 * cocher les cases qui correspondent aux apprenants à associer au projet,
 * cliquer sur le bouton « Valider ».
 
-![](../../.gitbook/assets/image256%20%281%29.png)Illustration 178: Blogs - Interface générale - Liste d'utilisateurs
+![](../../.gitbook/assets/image256%20%281%29.png)
+
+Illustration : Blogs - Interface générale - Liste d'utilisateurs
 

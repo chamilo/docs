@@ -2,7 +2,9 @@
 
 Dépouiller les enquêtes est long et fatiguant. Les outils de suivi \(par question, par utilisateur, comparatif ou rapport complet\) seront d'une grande aide.
 
-![](../../.gitbook/assets/image249%20%281%29.png)Illustration 173: Enquêtes - Résultats
+![](../../.gitbook/assets/image249%20%281%29.png)
+
+Illustration : Enquêtes - Résultats
 
 Ce suivi permet de réaliser :
 

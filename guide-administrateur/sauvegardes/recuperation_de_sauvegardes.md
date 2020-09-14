@@ -12,11 +12,15 @@ Dans le parcours, il y a trois possibilités \(la dernière dépend de votre act
 * « Import [AICC](http://fr.wikipedia.org/wiki/Aviation_Industry_CBT_Committee) et [SCORM](http://fr.wikipedia.org/wiki/Sharable_Content_Object_Reference_Model) » \(seconde icône\),
 * « Conversion PowerPoint » \(troisième icône\)
 
-![](../../.gitbook/assets/graficos35.png)Illustration 26: Interface - Import de parcours
+![](../../.gitbook/assets/graficos35.png)
+
+Illustration : Interface - Import de parcours
 
 Pour importer le parcours précédemment exporté, cliquez sur « Import AICC et SCORM » \(seconde icône\).
 
-![](../../.gitbook/assets/graficos36.png)Illustration 27: Interface - Import de parcours SCORM
+![](../../.gitbook/assets/graficos36.png)
+
+Illustration : Interface - Import de parcours SCORM
 
 Évidemment, la sauvegarde à importer doit être compatible avec les formats SCORM ou AICC.
 

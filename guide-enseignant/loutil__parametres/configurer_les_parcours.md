@@ -8,7 +8,9 @@ L'option de permettre la définition de thème par parcours \(indiqué comme _Au
 
 Un apprenant pourrait ainsi entrer dans son portail Chamilo, visualiser le système dans un style principalement bleu, entrer dans un cours dont le style est plutôt rouge \(toute l'interface est alors modifiée\), puis entrer dans un des parcours de ce cours dans lequel l'apparence visuelle est plutôt verte... Il est toutefois recommandé, pour une raison de confort visuel, de conserver le même style pour l'ensemble du portail.
 
-![](../../.gitbook/assets/image268%20%281%29.png)Illustration 192: Paramètres - Parcours et style du cours
+![](../../.gitbook/assets/image268%20%281%29.png)
+
+Illustration : Paramètres - Parcours et style du cours
 
 L'option _Activer l'auto-démarrage des parcours d'app**r**entissage_ a été ajoutée dans Chamilo 1.8.8.4 et permet à l'enseignant de définir un parcours en auto-démarrage \(ou _auto-lancement_ pour traduire littéralement depuis l'anglais _auto-launch_\). L'apprenant entrant dans le cours sera alors automatiquement envoyé vers le parcours.
 
@@ -19,7 +21,9 @@ Pour rendre cette option fonctionnelle, il vous faudra :
 * ouvrir l'outil de parcours
 * cliquer sur l'icône de fusée représentative de l'_auto-lancement_ d'un certain parcours \(une des dernières icônes\)
 
-![](../../.gitbook/assets/image269%20%281%29.png)Illustration 193: Parcours - Fusée d'auto-lancement
+![](../../.gitbook/assets/image269%20%281%29.png)
+
+Illustration : Parcours - Fusée d'auto-lancement
 
 Le parcours qui s'auto-démarrera lorsqu'un apprenant entrera dans le cours est marqué d'une fusée colorée. Les autres affichent une fusée grise.
 

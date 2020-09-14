@@ -10,5 +10,7 @@ Pour démarrer la sauvegarde :
 
 La sauvegarde est disponible sous la forme d’un fichier compressé téléchargeable sur le disque dur et simultanément sous la forme d’un fichier compressé stocké sur le serveur où est installé Chamilo.
 
-![](../../.gitbook/assets/image276%20%281%29.png)Illustration 197: Maintenance - Création de sauvegarde
+![](../../.gitbook/assets/image276%20%281%29.png)
+
+Illustration : Maintenance - Création de sauvegarde
 

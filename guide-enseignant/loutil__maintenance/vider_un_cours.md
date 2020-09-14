@@ -10,7 +10,9 @@ Pour vider le cours de son contenu :
 * dans la page qui s’affiche, choisir de recycler le cours complet ou quelques-uns de ses éléments \(à choisir dans l’écran suivant\),
 * cliquer enfin sur le bouton « Vider ce cours » pour lancer la procédure de nettoyage.
 
-![](../../.gitbook/assets/image274%20%281%29.png)Illustration 199: Maintenance - Vider un cours
+![](../../.gitbook/assets/image274%20%281%29.png)
+
+Illustration : Maintenance - Vider un cours
 
 ## Supprimer un cours <a id="supprimer-un-cours"></a>
 
@@ -20,5 +22,7 @@ Compte-tenu du caractère irréversible de cette manipulation, un avertissement 
 
 Attention : Cette fonctionnalité est à manier avec une extrême précaution.
 
-![](../../.gitbook/assets/image275%20%281%29.png)Illustration 200: Maintenance - Suppression de cours
+![](../../.gitbook/assets/image275%20%281%29.png)
+
+Illustration : Maintenance - Suppression de cours
 

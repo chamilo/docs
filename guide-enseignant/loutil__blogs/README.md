@@ -8,5 +8,7 @@ L'enseignant a la responsabilité de choisir les apprenants qui vont participer 
 
 **Note** : Lorsqu’un nouveau projet est créé, il apparaît dans la liste des outils de production. Sa visibilité est contrôlable, comme pour tous les autres outils. À la différence des autres outils, on peut créer plusieurs blogs dans un même cours. Ils apparaîtront comme une série d'outils de blog.
 
-![](../../.gitbook/assets/image254%20%281%29.png)Illustration 176: Blogs – Liste administrative
+![](../../.gitbook/assets/image254%20%281%29.png)
+
+Illustration : Blogs – Liste administrative
 

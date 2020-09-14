@@ -21,5 +21,7 @@ Depuis l'onglet « Réseau social » :
 * « Éditer mon profil »,
 * « Modifier le profil étendu ».
 
-![](../../.gitbook/assets/image280%20%281%29.png)Illustration 204: Réseau social - Modification de profil
+![](../../.gitbook/assets/image280%20%281%29.png)
+
+Illustration : Réseau social - Modification de profil
 

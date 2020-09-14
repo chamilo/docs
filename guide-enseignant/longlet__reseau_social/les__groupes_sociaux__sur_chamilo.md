@@ -15,5 +15,7 @@ L'onglet « Mes groupes » rassemble les groupes dont l'utilisateur fait partie.
 
 Ces groupes fonctionnent comme un forum. L'administrateur \(ou le modérateur\) crée des sujets de discussion et les utilisateurs y participent.
 
-![](../../.gitbook/assets/image285%20%281%29.png)Illustration 209: Réseau social - Interface de groupe
+![](../../.gitbook/assets/image285%20%281%29.png)
+
+Illustration : Réseau social - Interface de groupe
 

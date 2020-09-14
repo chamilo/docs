@@ -12,5 +12,7 @@
 * décidez si vous souhaitez que l'événement soit copié sous forme d'annonce pour être envoyé par courriel aux apprenants sélectionnés
 * cliquez sur le bouton « Ajouter un événement » pour ajouter l’événement à la liste.
 
-![](../../.gitbook/assets/image230%20%281%29.png)Illustration 154: Agenda - Création
+![](../../.gitbook/assets/image230%20%281%29.png)
+
+Illustration : Agenda - Création
 

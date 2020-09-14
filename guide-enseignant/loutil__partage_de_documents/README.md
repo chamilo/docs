@@ -8,7 +8,9 @@ s’adresser des fichiers entre eux \(si l’administrateur de la plateforme a a
 
 L'outil est fonctionnellement similaire au site _dropbox.io_ et souffre un peu de son âge à présent, mais précède considérablement ce site.
 
-![](../../.gitbook/assets/image231%20%281%29.png)Illustration 156: Partage de documents - Fichiers reçus
+![](../../.gitbook/assets/image231%20%281%29.png)
+
+Illustration : Partage de documents - Fichiers reçus
 
 Le travail de plusieurs apprenants sur un même fichier est grandement facilité, d’autant plus que l’outil gère de façon très simple les différentes versions d’un même fichier \(voir ci-après\).
 

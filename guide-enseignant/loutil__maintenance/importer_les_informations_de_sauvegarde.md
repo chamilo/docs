@@ -12,7 +12,9 @@ Pour démarrer l’importation :
 * décider de dupliquer certains fichiers lors de l’opération d’importation \(attention, ne pas importer ces fichiers, mais les renommer ou les écraser\),
 * « Importer les informations de sauvegarde » pour démarrer l’importation.
 
-![](../../.gitbook/assets/image273%20%281%29.png)Illustration 198: Maintenance - Importation
+![](../../.gitbook/assets/image273%20%281%29.png)
+
+Illustration : Maintenance - Importation
 
 **Note** : Un message vous informe du bon déroulement de l’opération.
 

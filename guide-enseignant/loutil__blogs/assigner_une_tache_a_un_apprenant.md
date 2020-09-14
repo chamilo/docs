@@ -9,5 +9,7 @@ Une fois la tâche créée, il est nécessaire de l’affecter à un apprenant :
 * choisissez enfin une date à laquelle la tâche devra être réalisée,
 * cliquez sur « Validez » pour ajouter la tâche à la liste des tâches assignées.
 
-![](../../.gitbook/assets/images173%20%286%29.png)Illustration 182: Blogs - Assigner une tâche
+![](../../.gitbook/assets/images173%20%286%29.png)
+
+Illustration : Blogs - Assigner une tâche
 

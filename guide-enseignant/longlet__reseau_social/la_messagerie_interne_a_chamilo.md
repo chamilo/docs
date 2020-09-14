@@ -9,5 +9,7 @@ Pour composer un message à un utilisateur ou un ami :
 * saisissez le sujet et le contenu du message \(il est possible d'ajouter une pièce jointe\),
 * cliquez sur le lien « Envoyer message ».
 
-![](../../.gitbook/assets/image281%20%281%29.png)Illustration 205: Réseau social - Messagerie - Boîte de réception
+![](../../.gitbook/assets/image281%20%281%29.png)
+
+Illustration : Réseau social - Messagerie - Boîte de réception
 

@@ -15,5 +15,7 @@ Pour signaler l’exécution d’une tâche :
 
 Le « rapport d’exécution » de la tâche apparaîtra comme un commentaire de l’étape du projet.
 
-![](../../.gitbook/assets/images174%20%284%29.png)Illustration 183: Blogs - Commentaires de tâches
+![](../../.gitbook/assets/images174%20%284%29.png)
+
+Illustration : Blogs - Commentaires de tâches
 
