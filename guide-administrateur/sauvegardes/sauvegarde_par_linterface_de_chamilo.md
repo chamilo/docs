@@ -8,7 +8,7 @@ Pour exporter un parcours, aller dans l'onglet « Mes cours »:
 
 ![](../../.gitbook/assets/parcourssauvegarde.png)
 
-Illustration : Interface - Liste des cours
+Illustration : Interface - Liste des cours (style Chamilo 1.9)
 
 Ici, on peut voir tous les cours dont on est l'enseignant principal. Pour continuer, il faut cliquer sur l'un d'eux pour entrer dans le cours puis sur « Parcours » :
 
@@ -28,7 +28,7 @@ Cet export se fait au format SCORM 1.2 \(qui définit aussi qu'il doit être com
 
 Veuillez noter que ce format rend l'édition complexe, pour ne pas dire impossible. Il s'agit donc d'une sauvegarde à considérer comme non modifiable dans la plupart des circonstances.
 
-## **S\*\***auvegarde d'un cours\*\* <a id="sauvegarde-d-un-cours"></a>
+## **Sauvegarde d'un cours** <a id="sauvegarde-d-un-cours"></a>
 
 L'administrateur de la plateforme peut procéder à une sauvegarde pour n'importe quel cours, depuis \(entre autres méthodes\) l'interface d'administration.
 
@@ -101,7 +101,7 @@ Illustration : Sauvegarde - Structure des fichiers de sauvegarde
 
 ![](../../.gitbook/assets/graficos34.png)
 
-Illustration : Interface - Liste de documents
+Illustration : Interface - Liste de documents (style Chamilo 1.9)
 
 Ces dossiers et documents sont les contenus du cours.
 

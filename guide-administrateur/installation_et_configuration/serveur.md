@@ -15,7 +15,7 @@ Pour les serveurs, il est recommandé d'installer un « serveur » en mode [WA](
   [Apache HTTPd](http://fr.wikipedia.org/wiki/Apache_HTTP_Server) \(version 2.2 ou supérieure avec _mod\_PHP_ ou _FPM_\) ou Nginx avec FPM
 
 * [MySQL](http://fr.wikipedia.org/wiki/MySQL) \(version 5.1 ou supérieure\) ou MariaDB en versions 5 ou 10
-* [PHP](http://fr.wikipedia.org/wiki/PHP) \(version 5.4 ou supérieur, mais nous recommandons sérieusement 5.5 ou supérieure pour des raisons de performances\)
+* [PHP](http://fr.wikipedia.org/wiki/PHP) \(version 5.6 ou supérieur, mais nous recommandons sérieusement 7.2 ou supérieure pour des raisons de performances\)
 
 Lors de la création du site, en ligne ou en local, et de la base SQL, l'hébergeur fournit \(généralement\) des paramètres qui seront nécessaires au cours de l'installation :
 

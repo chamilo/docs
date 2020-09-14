@@ -12,10 +12,6 @@ Illustration : Administration - Exports spéciaux
 
 La page d'état du système permet de consulter quelques détails par rapport à la plateforme et au serveur sur lequel elle est installée.
 
-![](../../.gitbook/assets/image33.png)
-
-Illustration : Administration - État du système
-
 Ces informations sont particulièrement utiles aux équipes de support techniques pour diagnostiquer un problème lorsqu'il est impossible d'avoir un accès au serveur lui-même.
 
 ## Remplisseur de données <a id="remplisseur-de-donn-es"></a>

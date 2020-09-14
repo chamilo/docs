@@ -5,17 +5,17 @@ La gestion des utilisateurs se fait par des icônes génériques connues, et d'a
 | Icônes | Fonctionnalités |
 | :--- | :--- |
 | ![](../../.gitbook/assets/images32.png)![](../../.gitbook/assets/images31.png) | Modifier le statut de l'utilisateur en cliquant sur l'icône \(inactive si panneau interdit\) |
-| ![](../../.gitbook/assets/image17.svg) | Afficher la liste des cours auxquels l'utilisateur est enregistré |
+| ![](../../.gitbook/assets/blackboard.png) | Afficher la liste des cours auxquels l'utilisateur est enregistré |
 | ![](../../.gitbook/assets/image18.svg) | _Se connecter en tant que..._ permet à l'administrateur de prendre l'identité d'un utilisateur pour vérifier un problème qu'il rencontre sur la plateforme \(ou pour faire une démonstration rapide de la différence entre plusieurs rôles\) |
 | ![](../../.gitbook/assets/image19.svg) | Assigner des formations à l'utilisateur \(enseignant et superviseur\) |
 | ![](../../.gitbook/assets/image20.gif) | Assigner des sessions de formation \(enseignant, superviseur et administrateur de session de formation\) |
 | ![](../../.gitbook/assets/image21.svg) | Donne toutes les informations sur un utilisateur, la liste des sessions, ses formations, ses cours ; possibilité d'accéder au suivi |
-| ![](../../.gitbook/assets/image22.png) | Assigner des utilisateurs \(enseignant et supervision\) |
+|  | Assigner des utilisateurs \(enseignant et supervision\) |
 | ![](../../.gitbook/assets/graficos21.png)![](../../.gitbook/assets/graficos22.png) | Donne le suivi détaillé de l'utilisateur |
 | ![](../../.gitbook/assets/graficos23.png) | Éditer les paramètres d'un utilisateur |
 | ![](../../.gitbook/assets/image23.svg) | Montrer le calendrier « _free/busy »_ de l'utilisateur |
 | ![](../../.gitbook/assets/graficos24.png) | Supprimer \(après demande de confirmation\) un utilisateur |
-| ![](../../.gitbook/assets/image24.svg)![](../../.gitbook/assets/image25.svg) | Voir d'un coup d'œil si l'utilisateur est administrateur ou pas. Seuls les comptes administrateurs et administrateurs de sessions disposent d'une étoile colorée de jaune. Les autres utilisateurs affichent une étoile grise |
+|  | Voir d'un coup d'œil si l'utilisateur est administrateur ou pas. Seuls les comptes administrateurs et administrateurs de sessions disposent d'une étoile colorée de jaune. Les autres utilisateurs affichent une étoile grise |
 
 _Tableau 1: Administration - Icônes de gestion utilisateurs_
 
@@ -27,7 +27,9 @@ Il apparaîtra à l'administrateur commun que Chamilo dispose de 4 rôles : ceux
 
 Afin de nous guider dans la découverte des rôles, nous utiliserons comme référence le schéma suivant, représentant à la fois la plupart des rôles et la notion de sessions \(que nous verrons plus loin dans ce guide\).
 
-![](../../.gitbook/assets/graficos80.png)_Rôles et sessions_
+![](../../.gitbook/assets/graficos80.png)
+
+Illustration : Rôles et sessions
 
 Dans ce schéma, nous retrouvons l'administrateur principal, l'administrateur de sessions, le coach de session, le coach de cours, le prof, l'apprenant, le responsable des ressources humaines et le supérieur d'apprenant. Sur le schéma, on distingue aussi, sur fond vert, le « triangle doré », une représentation de la relation la plus simple entre cours, professeur et apprenants. Les sessions s'utilisent dans des cas plus complexes, mais nous avons voulu y inclure ce triangle doré pour une question de simplicité de visualisation.
 
@@ -35,7 +37,9 @@ Dans la table ci-dessous, la ligne « Disponibilité » indique « Globale » da
 
 Dans la capture suivante, nous mettons en évidence les rôles disponibles de manière « globale », c'est-à-dire à la création d'un nouvel utilisateur par l'administrateur.
 
-![](../../.gitbook/assets/image35.png)_: Rôles disponibles à la création d'un utilisateur_
+![](../../.gitbook/assets/image35.png) 
+
+Illustration : Rôles disponibles à la création d'un utilisateur
 
 La ligne « Accès » indique où l'on peut trouver l'interface nécessaire à l'attribution de ce rôle.
 
@@ -203,7 +207,7 @@ _Administration - Utilisateurs - Options par rôles_
 
 | Icône | Usage | Description |
 | :--- | :--- | :--- |
-| ![](../../.gitbook/assets/image26.png) | **Actif/Inactif** | un administrateur ne peut pas être désactivé |
+| ![](../../.gitbook/assets/graficos53.png) | **Actif/Inactif** | un administrateur ne peut pas être désactivé |
 | ![](../../.gitbook/assets/graficos62.png)![](../../.gitbook/assets/graficos63.png) | **Liste des cours** | un administrateur peut être inscrit à plusieurs cours |
 |  | **Se connecter en tant que...** | désactivé pour l'administrateur |
 | ![](../../.gitbook/assets/graficos67.png) | **Statistiques** | l'administrateur ne peut être « suivi » qu'au travers du _panneau de contrôle_ |
@@ -248,7 +252,7 @@ _Administration - Formulaire de création d'utilisateur_
 
 Le mot de passe peut être généré automatiquement ou par l'administrateur. En fonction des besoins, il faut veiller à sélectionner l'option « Envoyer un courriel au nouvel utilisateur ». Depuis la version 1.10, une aide visuelle permet de donner des suggestions sur le mot de passe introduit. Cette aide n'est pas bloquante \(il est possible d'insérer un mot de passe peu sûr même si le système le mentionne\), mais elle permet en tout cas d'éviter les choix de mots de passe trop simples par ignorance ou mégarde de l'administrateur en charge\).
 
-Le profil \(ou rôle\) de l'utilisateur est très important. Voir le chapitre 4.2.1 Rôles utilisateurs en page 48\).
+Le profil \(ou rôle\) de l'utilisateur est très important. Voir le chapitre _Rôles utilisateurs_\).
 
 Le compte utilisateur peut avoir une « date d'expiration ». Dans ce cas, il faut choisir la date de début et la date de fin. C'est utile pour les sessions de formation par exemple.
 
@@ -364,9 +368,13 @@ $_configuration['show_link_request_hrm_user'] = true;
 
 Une fois l'option activé, les utilisateurs de types Supervision auront un nouveau lien dans le bloc Profil de la page d'accueil indiquant "Liens avec apprenants". En cliquant sur ce lien on ouvre une page pour sélectionner l'apprenant auquel on souhaite être rattaché et on clique sur "Demander le lien avec cet apprenant". On voit en dessous la liste des utilisateurs qui sont déjà rattachés.
 
-![](../../.gitbook/assets/AdminUserDemandeLienRH.png)_Administration - Demande de liens apprenants_
+![](../../.gitbook/assets/AdminUserDemandeLienRH.png)
+
+Illustration : Administration - Demande de liens apprenants
 
 De son côté l'administrateur retrouve dans le bloc utilisateur un lien "Demandes de liens entre utilisateurs" qui ouvre la page de gestion sur laquelle il sélectionne l'utilisateur et en dessous retrouve les demandes à attentes et les apprenants déjà affectés.
 
-![](../../.gitbook/assets/AdminUserDemandeLienRHGestion.png)_Administration - Demandes de liens entre utilisateurs_
+![](../../.gitbook/assets/AdminUserDemandeLienRHGestion.png)
+
+Illustration : Administration - Demandes de liens entre utilisateurs
 

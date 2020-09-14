@@ -35,6 +35,7 @@ Cette liste nous donne une grande quantité d'informations sur les cours. Notez 
 * vert : ouvert aux utilisateurs de la plateforme
 * orange : privé, utilisateurs inscrits par des enseignants ou administrateurs
 * rouge : fermé \(pour maintenance ou expiration, généralement\), le cours n'est disponible que pour les enseignants du cours et les administrateurs
+* gris: \(non représenté dans la capture d'écran\) caché, pour que personne à part les admins ne puissent ni voir, ni entrer dans le cours
 
 Elle nous permet également de modifier des informations en un clic sur une icône dans la partie droite « Action ».
 

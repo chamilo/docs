@@ -22,25 +22,33 @@ La première conséquence de l'activation de ces fonctionnalités est l'appariti
 
 _Administration - Lien Données Personnelles_
 
-Sur cette page chaque utilisateur pourra retrouver l'ensemble des informations personnelles qui sont stockées dans Chamilo et pourra les exporter au format Json. ![](../../.gitbook/assets/RGPD-HautPageDonneesPersonnelles.png)
+Sur cette page chaque utilisateur pourra retrouver l'ensemble des informations personnelles qui sont stockées dans Chamilo et pourra les exporter au format Json.
 
-_Administration - Début Page Données Personnelles_
+![](../../.gitbook/assets/RGPD-HautPageDonneesPersonnelles.png)
 
-Ensuite en bas de cette même page l'utilisateur pourra voir les informations concernant le DPO, les termes et conditions qu'il a acceptées, demander le retrait de son acceptation des celles-ci et donc son accord avec le traitement des données et également demander la suppression de son compte utilisateur. ![](../../.gitbook/assets/RGPD-BasPageDonneesPersonnelles.png)
+Illustration : Administration - Début Page Données Personnelles
 
-_Administration - Fin de la Page Données Personnelles_
+Ensuite en bas de cette même page l'utilisateur pourra voir les informations concernant le DPO, les termes et conditions qu'il a acceptées, demander le retrait de son acceptation des celles-ci et donc son accord avec le traitement des données et également demander la suppression de son compte utilisateur.
+
+![](../../.gitbook/assets/RGPD-BasPageDonneesPersonnelles.png)
+
+Illustration : Administration - Fin de la Page Données Personnelles
 
 Ces 2 boutons de demandes envoient une information au DPO \(si celui-ci n'est pas défini alors l'envoi est fait à tous les administrateurs\) indiquant qu'une nouvelle demande est à traiter et un lien vers la page de gestion des demandes.
 
 ## Gestion des demandes
 
-Les demandes de suppression de compte ou du retrait d'acceptation des termes et condition sont stockées et présentées sur la page de gestion de la liste des demandes utilisateurs /main/admin/user\_list\_consent.php accessible depuis la page d'administration dans le bloc "Protection des données personnelles". ![](../../.gitbook/assets/RGPD-AdministrationBlocDonneesPersonnelles.png)
+Les demandes de suppression de compte ou du retrait d'acceptation des termes et condition sont stockées et présentées sur la page de gestion de la liste des demandes utilisateurs /main/admin/user\_list\_consent.php accessible depuis la page d'administration dans le bloc "Protection des données personnelles". 
 
-_Administration - Bloc de Protection des Données Personnelles_
+![](../../.gitbook/assets/RGPD-AdministrationBlocDonneesPersonnelles.png)
 
-La page présente une liste des utilisateur en indiquant le type de demande \(suppression de compte ou suppression d'accord légal\), le temps passé depuis la demande \(sachant que le RGPD indique qu'il faut qu'une demande de suppression de compte soit traité dans un délais de 4 semaines, voir la configuration du Cron ci-dessous afin d'assurer le traitement dans les temps\) et permet de traiter la demande avec différentes actions disponibles. ![](../../.gitbook/assets/RGPD-ListeUtilisateursDemandesEnAttente.png)
+Illustration : Administration - Bloc de Protection des Données Personnelles
 
-_Administration - Liste des utilisateurs avec une demande en attente_
+La page présente une liste des utilisateur en indiquant le type de demande \(suppression de compte ou suppression d'accord légal\), le temps passé depuis la demande \(sachant que le RGPD indique qu'il faut qu'une demande de suppression de compte soit traité dans un délais de 4 semaines, voir la configuration du Cron ci-dessous afin d'assurer le traitement dans les temps\) et permet de traiter la demande avec différentes actions disponibles. 
+
+![](../../.gitbook/assets/RGPD-ListeUtilisateursDemandesEnAttente.png)
+
+Illustration : Administration - Liste des utilisateurs avec une demande en attente
 
 Les actions disponibles sont identifiées par les icônes suivants :
 

@@ -92,24 +92,28 @@ Concernant l'ergonomie de la plateforme, des choix sont possibles comme celui de
 
 **Activer l'éditeur d\*\***e courriel ****en ligne\*\* : cette option permet l’ouverture de l’éditeur en ligne par un simple clic sur une adresse de courriel.
 
-### Éditeur WYSIWYG <a id="diteur-wysiwyg"></a>
+### Éditeur WYSIWYG <a id="editeur-wysiwyg"></a>
 
-![](../../.gitbook/assets/html_editor.svg)**Gestionnaire de fichiers avancé pour l'éditeur WYSIWYG** : permet d'activer le gestionnaire de fichiers avancé pour l'éditeur WYSIWYG \(ou éditeur en ligne\). Attention : cette option ajoutera un nombre considérable d'options au gestionnaire de fichiers s'ouvrant en fenêtre pop-up lors de l'envoi d'un fichier sur le serveur.
+![](../../.gitbook/assets/html_editor.svg)
+
+**Gestionnaire de fichiers avancé pour l'éditeur WYSIWYG** : permet d'activer le gestionnaire de fichiers avancé pour l'éditeur WYSIWYG \(ou éditeur en ligne\). Attention : cette option ajoutera un nombre considérable d'options au gestionnaire de fichiers s'ouvrant en fenêtre pop-up lors de l'envoi d'un fichier sur le serveur.
 
 WYSIWYG est une abréviation de _What You See Is What You Get_, ou _Ce que vous voyez est ce que vous obtenez_, une autre manière de dire que l'éditeur nous permet de visualiser directement à l'écran ce que nous éditons au format HTML.
 
-**Éditeurs mathématiques : MimeTeX, ASCIImathML ou ASCIISVG:** ce sont trois options séparées, mais qui permettent toutes les trois d'activer un éditeur de formules et caractères mathématiques. Pour les essayer, c'est très simple, activez un éditeur et dirigez-vous vers l'outil documents de n'importe quel espace de cours. Là, utilisez l'icône de l'éditeur activé \(en général un symbole de racine carrée\).
+**Éditeurs mathématiques** : MimeTeX, ASCIImathML ou ASCIISVG: ce sont trois options séparées, mais qui permettent toutes les trois d'activer un éditeur de formules et caractères mathématiques. Pour les essayer, c'est très simple, activez un éditeur et dirigez-vous vers l'outil documents de n'importe quel espace de cours. Là, utilisez l'icône de l'éditeur activé \(en général un symbole de racine carrée\).
 
-### Sécurité <a id="s-curit"></a>
+### Sécurité <a id="securite"></a>
 
-![](../../.gitbook/assets/security.svg)**Type de filtrage sur l'envoi de documents** : il existe un choix entre deux filtrages, la blacklist ou la whitelist :
+![](../../.gitbook/assets/security.svg)
+
+**Type de filtrage sur l'envoi de documents** : il existe un choix entre deux filtrages, la blacklist ou la whitelist :
 
 * Blacklist : La liste noire \(_blacklist_\), est un mode de filtrage qui permet d'éliminer les fichiers dont les extensions figurent dans la liste. Les fichiers sans extension sont acceptés d'office. La casse \(majuscule/minuscule\) n'a pas d'importance.
 * Whitelist : La liste blanche \(_whitelist_\), est un mode de filtrage qui permet d'éliminer \(ou de renommer\) les fichiers dont les extensions ne figurent **pas**dans la liste. Cette méthode est généralement considérée comme plus sûre mais plus contraignante que la blacklist. Les fichiers sans extension sont acceptés d'office. La casse \(majuscule/minuscule\) n'a pas d'importance.
 
 **Permissions des nouveaux répertoires** : cette option définit les permissions allouées aux nouveaux répertoires et permet d'augmenter la sécurité contre les attaques de pirates envoyant des contenus dangereux sur le serveur.
 
-_**Attention**:_ la valeur par défaut est « 0777 » suite à une série de problèmes rencontrés par des utilisateurs avec des permissions plus restrictive. Cette valeur garantit une plus grande portabilité, mais dans certains cas \(hébergements bon marché\), une valeur aussi permissive n'est pas autorisée. Le problème se manifeste sous la forme d'une erreur sur la page de cours juste après sa création. Essayez de faire varier cette valeur entre 0777, 0775, 0755 et 0750.
+_**Attention** :_ la valeur par défaut est « 0777 » suite à une série de problèmes rencontrés par des utilisateurs avec des permissions plus restrictive. Cette valeur garantit une plus grande portabilité, mais dans certains cas \(hébergements bon marché\), une valeur aussi permissive n'est pas autorisée. Le problème se manifeste sous la forme d'une erreur sur la page de cours juste après sa création. Essayez de faire varier cette valeur entre 0777, 0775, 0755 et 0750.
 
 **Permettre l'enregistrement d'utilisateurs par les coaches** : autorise les coaches à ajouter des utilisateurs dans le portail et à les inscrire dans une session.
 
@@ -119,7 +123,7 @@ _**Attention**:_ la valeur par défaut est « 0777 » suite à une série de pro
 
 **Autoriser l'inscription d'utilisateurs aux cours par l'administrateur du cours** : cette option autorise l'administrateur du cours à inscrire des utilisateurs au sein de son cours. Cette option est généralement désactivée sur les portails pour lesquels une équipe d'administrateurs ou un système tiers se charge des inscriptions des étudiants manuellement ou automatiquement.
 
-### Améliorations des performances <a id="am-liorations-des-performances"></a>
+### Améliorations des performances <a id="ameliorations-des-performances"></a>
 
 ![](../../.gitbook/assets/graficos13.png) **Diviser le répertoire de téléchargement des utilisateurs** : cette option est définie sur la page correspondante et permet de passer au-delà de 100.000 utilisateurs mais requiert une modification manuelle du répertoire _main/upload/users/_.
 
@@ -129,7 +133,9 @@ Depuis la version 1.8.8.4, vous disposez aussi d'un fichier _documentation/optim
 
 Les paramètres du cahier de notes de la page d'administration sont des paramètres globaux, redéfinissables \(dans la plupart des cas\) au niveau du cours.
 
-![](../../.gitbook/assets/gradebook.svg)**Coloration des notes :** active la coloration des notes. Il est également nécessaire de définir quelles notes seront affichées en rouge, par exemple.
+![](../../.gitbook/assets/gradebook.png)
+
+**Coloration des notes :** active la coloration des notes. Il est également nécessaire de définir quelles notes seront affichées en rouge, par exemple.
 
 **Affichage paramétrable des scores** : active le paramétrage des scores. Il est nécessaire de sélectionner quels scores seront donnés pour quels points obtenus.
 

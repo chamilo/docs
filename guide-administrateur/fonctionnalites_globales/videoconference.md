@@ -2,7 +2,7 @@
 
 Comme indiqué antérieurement dans la section _plugins_ de ce guide, la vidéoconférence est un outil séparé de Chamilo. Vous pouvez facilement l'installer et faire le lien avec Chamilo grâce au plugin _BigBlueButton_, mais cela requiert un serveur dédié \(ou en tout cas un serveur dédié à autre chose sur lequel il vous reste suffisamment de ressources\).
 
-Pour installer le serveur de vidéoconférence _BigBlueButton_, nous vous recommandons de suivre les instructions \(en anglais\) sur la page du projet : [http://code.google.com/p/bigbluebutton/wiki/InstallationUbuntu](http://code.google.com/p/bigbluebutton/wiki/InstallationUbuntu)
+Pour installer le serveur de vidéoconférence _BigBlueButton_, nous vous recommandons de suivre les instructions \(en anglais\) sur la page du projet : [https://docs.bigbluebutton.org/2.2/install.html](https://docs.bigbluebutton.org/2.2/install.html)
 
 Une fois la vidéoconférence installée et fonctionnelle, vous devrez en connaître l'URL publique \(parfois une simple adresse IP\) et la clef secrète.
 
@@ -21,6 +21,8 @@ Dans les versions suivantes, le plugin de vidéoconférence s'est étoffé de no
   * Possibilité de définir des limites de nombre de participants dans les salles de conférence.
 * version 2.7 de 2018-07
   * Possibilité de choisir entre interface HTML5 ou Flash au niveau du plugin ou de donner le choix aux utilisateurs \(nécessite une plateforme BBB en version 2.0 Beta ou supérieure\)
+* version 2.8 de 2020-05
+  * Possibilité cacher les options de l'administration du cours. Compatible avec BBB 2.2.
 
 Il ne vous reste plus qu'à vous diriger dans l'un de vos cours ou sur la page d'accueil si vous avez activer les conférences globales pour tester l'intégration.
 

@@ -6,7 +6,9 @@ Les sessions peuvent regrouper différents cours de différentes catégories.
 
 Le schéma suivant a déjà été utilisé dans la section utilisateurs, mais nous nous intéresserons ici plus au cadre nommé _Session_.
 
-![](../../.gitbook/assets/images72.png)_Général - Diagramme des sessions_
+![](../../.gitbook/assets/images72.png)
+
+Illustration: Général - Diagramme des sessions
 
 Comme on peut le voir, la session est définie par un administrateur de sessions \(ou un administrateur global\), et possède un tuteur général de session qui surveille le bon déroulement de celle-ci, dans laquelle se déroulent plusieurs cours dictés par des tuteurs de cours.
 
@@ -18,8 +20,8 @@ La gestion des sessions se fait avec des icônes connues, et d'autres un peu plu
 
 | Icônes | Fonctionnalités |
 | :--- | :--- |
-| ![](../../.gitbook/assets/image31.png) | Modifier les paramètres/informations d'une session |
-| ![](../../.gitbook/assets/image32.png) | Supprimer \(après demande de confirmation\) une session |
+| ![](../../.gitbook/assets/edit.png) | Modifier les paramètres/informations d'une session |
+| ![](../../.gitbook/assets/graficos27.png) | Supprimer \(après demande de confirmation\) une session |
 | ![](../../.gitbook/assets/images73.png) | Inscrire des utilisateurs à une session |
 | ![](../../.gitbook/assets/images74.png) | Ajouter des cours à une session |
 | ![](../../.gitbook/assets/images79.png) | Ajouter une session ou une session à catégorie |
@@ -47,7 +49,9 @@ Pour ajouter une session :
   * non accessible : Une fois la session terminée \(la date de fin dépassée\) l'apprenant n'a plus accès à la session, il ne peut plus rentrer dans le cours, l'accès lui est refusé.
 * Étape suivante
 
-![](../../.gitbook/assets/sessionajouter.png)_Administration - Création de session_
+![](../../.gitbook/assets/sessionajouter.png)
+
+Illustration : Administration - Création de session
 
 Depuis la version 1.10, différentes options sont disponibles pour les dates :
 
@@ -69,7 +73,9 @@ Choisissez un \(ou plusieurs\) cours et cliquez sur la flèche bleue pour l'ajou
 
 **Inscription unique :** permet de ne pas être envahi par le nombre de cours existant sur la plateforme. Il faut écrire le début du titre du cours dans le champs de recherche et les cours correspondants apparaissent.
 
-![](../../.gitbook/assets/session-inscription.png)_Administration - Assigner des cours à une session_
+![](../../.gitbook/assets/session-inscription.png)
+
+Illustration : Administration - Assigner des cours à une session
 
 Suite à une série de difficultés liées à la gestion des cahiers de notes dans les sessions, nous avons ajouté une option pour permettre l'importation dans la session de la structure du cahier de notes tel que défini dans le cours de base. Il suffit, pour cela, de sélectionner l'option \(case à cocher\) indiquée pour que tous les cours voient leur cahier de note copié dans la session.
 
@@ -79,13 +85,17 @@ Choisissez les utilisateurs et, comme pour les cours, ajoutez-les avec la flèch
 
 **Inscription unique :** permet de retrouver un seul utilisateur en mettant son nom ou son prénom dans le champs de recherche d'où ressort une liste.
 
-![](../../.gitbook/assets/session-inscription2.png)_Administration - Assigner des utilisateurs à une session_
+![](../../.gitbook/assets/session-inscription2.png)
+
+Illustration : Administration - Assigner des utilisateurs à une session
 
 ## Résumé de session
 
 À partir de la page de liste de session, quand on clique sur le nom de la session on arrive sur une page qui permet de voir toutes les informations concernant la session. Les informations générales en premier avec la gestion des annonces programmées en bas, puis la gestion de la liste des cours de la session et enfin les apprenants inscrits à la session.
 
-![](../../.gitbook/assets/session-resume.png)_Administration - Résumé d'une session_
+![](../../.gitbook/assets/session-resume.png)
+
+Illustration : Administration - Résumé d'une session
 
 ## Annonces programmées
 
@@ -118,7 +128,9 @@ _En cliquant sur + on ouvre une nouvelle page avec le formulaire de création d'
 
 Il existe deux types d'annonces programmées: l'envoi à une date spécifique: dans ce cas, on sélectionne un jour en particulier pour procéder à l'envoi du mail; et l'envoi sur base des dates de début ou de fin de la session: dans ce cas, il faut indiquer le nombre de jours de différence avec la date de début ou de fin, auquel l'e-mail doit être envoyé. Par exemple: 3 jours avant la fin de la session.
 
-![](../../.gitbook/assets/SessionAnnoncesProgrammees.png)_Administration - Session - Annonces programmées_
+![](../../.gitbook/assets/SessionAnnoncesProgrammees.png)
+
+Illustration : Administration - Session - Annonces programmées
 
 ## Catégories de sessions ou Périodes
 
@@ -130,7 +142,9 @@ La gestion des catégories de sessions est fort similaire à la gestion de caté
 
 Chamilo permet d'exporter la liste de tout ou partie des sessions présentes sur la plateforme.
 
-![](../../.gitbook/assets/session-import-utilisateurs.png)_Administration - Export de sessions_
+![](../../.gitbook/assets/session-import-utilisateurs.png)
+
+Illustration : Administration - Export de sessions
 
 Choisissez le format de l'export, choisissez une session particulière ou toutes les sessions, « Export de de session », puis téléchargez le fichier en cliquant sur le lien.
 
@@ -142,7 +156,9 @@ C’est exactement ce que fait cet outil.
 
 Pour l'utiliser, il est nécessaire de disposer d'une session d'origine et d'une session de destination dans lesquelles on puisse retrouver le même cours, depuis et vers lequel on désire copier le contenu de la session.
 
-![](../../.gitbook/assets/graficos84.png)_Copie de sessions, cours vers cours_
+![](../../.gitbook/assets/graficos84.png)
+
+Illustration : Copie de sessions, cours vers cours
 
 Une fois ces conditions remplies, il suffit de sélectionner la session d'origine, la session de destination, le cours d'origine, le cours de destination, puis décider si on veut copier tous les contenus de la session ou seulement certaines sections.
 
@@ -160,7 +176,9 @@ La gestion de filières \(ou carrières\) et de promotions \(ou années de sorti
 
 Voyons ci-dessous de quoi elle est composée :
 
-![](../../.gitbook/assets/graficos85.png)_Liste de filières et promotions_
+![](../../.gitbook/assets/graficos85.png)
+
+Illustration : Liste de filières et promotions
 
 La première page nous donne une liste des filières \(lignes grisées avec titre de carrière en bleu\), des promotions de chaque filière \(première colonne\), des sessions de chacune de ces promotions \(seconde colonne\) et des cours de chacune de ces sessions.
 
@@ -172,13 +190,15 @@ Pour ajouter une nouvelle filière, cliquez sur l'icône de classeurs tricolores
 
 ![](../../.gitbook/assets/graficos87.png)
 
-_Formulaire de création de filière_
+Illustration : Formulaire de création de filière
 
 Seul le nom de la filière est obligatoire. Insérez une nouvelle filière \(par exemple, _Médecine_\) et sauvegardez.
 
 La liste de filières apparaîtra différemment.
 
-![](../../.gitbook/assets/graficos89.png)Liste de filières
+![](../../.gitbook/assets/graficos89.png)
+
+Illustration : Liste de filières
 
 Celle liste met en évidence une icône \(double feuille blanche\) permettant de copier une filière sous forme d'une nouvelle filière. La copie d'une filière copiera également toutes ses promotions \(individuellement\) ainsi que toutes ses sessions et cours.
 
@@ -186,7 +206,7 @@ Pour mieux comprendre la structure complète, incluant les filières et promotio
 
 ![](../../.gitbook/assets/graficos90.png)
 
-_Hiérarchie de cours, sessions et filières_
+Illustration : Hiérarchie de cours, sessions et filières
 
 ### Promotions
 
@@ -194,13 +214,15 @@ La seule différence entre promotions et filières est qu'une promotion peut êt
 
 ![](../../.gitbook/assets/graficos88.png)
 
-_Formulaire de création de promotion_
+Illustration : Formulaire de création de promotion
 
 La création de promotions est suivie de l'enregistrement, dans ces promotions, de sessions, en utilisant l'icône de sessions pour chaque promotion, dans la liste des promotions.
 
 On obtient alors une liste similaire à l'illustration suivante \(déjà présentée plus haut\).
 
-![](../../.gitbook/assets/graficos91.png)_Liste de filières et promotions_
+![](../../.gitbook/assets/graficos91.png)
+
+Illustration : Liste de filières et promotions
 
 Sur cette page, nous retrouvons, outre la filière _Médecine_ et ses trois promotions, une session dans chaque promotion antérieure à 2015 et la liste de cours de chaque session. Chaque élément est un lien vers la ressource correspondante.
 
@@ -216,7 +238,7 @@ Reprenons le schéma de distribution de filières à cours comme référence :
 
 ![](../../.gitbook/assets/graficos92.png)
 
-_Structure de filières à cours_
+Illustration : Structure de filières à cours
 
 Ces deux promotions seront le résultat de 5 années d'études, divisées chacune en 2 semestres de cours. On aura donc 10 **périodes** de 6 mois qui mènent à la promotion en 2016.
 

@@ -9,4 +9,5 @@ Ce document est le fruit de la collaboration de plusieurs personnes et individus
 | Juillet 2011 | BeezNest Belgium SPRL, Yannick Warnier | info@beeznest.com | Mise à jour pour 1.8.8.4, ajouts de sections multi-URL, videoconf, styles, conversion PPT, classes, filières et promotions, copies de sessions, rôles d'utilisateurs, extension de profils, sous-langages, réécriture de l'introduction, listing des options |
 | 2015 | BeezNest Belgium SPRL, Yannick Warnier | info@beeznest.com | Mise à jour à 1.10 + ajout de sections sur l'administration des options système, le rôle supérieur d'étudiant. |
 | 2017 | BeezNest Belgium SPRL, | info@beeznest.com | Mise à jour à 1.11 et révision intégrale |
+| 2020 | BeezNest Belgium SPRL, | info@beeznest.com | Mise à jour à 1.11.12 et révision des images |
 
