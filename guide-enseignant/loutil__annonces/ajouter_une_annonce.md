@@ -5,7 +5,9 @@ Une fois dans l'outil :
 * cliquez sur « Ajouter une annonce »,
 * par défaut, l'annonce sera diffusée à tous. Il est possible de gérer la liste de diffusion :
 
-![](../../.gitbook/assets/image205%20%281%29.png)Illustration 134: Annonces - Choix des destinataires
+![](../../.gitbook/assets/image205%20%281%29.png)
+
+Illustration : Annonces - Choix des destinataires
 
 * l'annonce peut être envoyée par courriel aux utilisateurs \(cochez la case « Envoyer cette annonce par courriel »\),
 * ajoutez un « Sujet » à l'annonce,
@@ -13,7 +15,9 @@ Une fois dans l'outil :
 * il est aussi possible d'ajouter une annexe, à partir de son ordinateur, et de lui donner une description si cela est nécessaire,
 * cliquez sur « Publier l'annonce ».
 
-![](../../.gitbook/assets/image206%20%281%29.png)Illustration 135: Annonces - Création
+![](../../.gitbook/assets/image206%20%281%29.png)
+
+Illustration : Annonces - Création
 
 Bien que ces options n'apparaissent pas \(par erreur\) dans certaines versions de Chamilo, l est possible d'ajouter des marqueurs dans le texte des annonces, de telle sorte que celles-ci puissent être plus personnalisées ou plus rapides à rédiger.
 

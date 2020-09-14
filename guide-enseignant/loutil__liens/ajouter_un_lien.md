@@ -2,7 +2,9 @@
 
 Un lien peut être ajouté soit dans un dossier, soit directement dans la racine :
 
-![](../../.gitbook/assets/image199%20%281%29.png)Illustration 128: Liens - Création d'un lien
+![](../../.gitbook/assets/image199%20%281%29.png)
+
+Illustration : Liens - Création d'un lien
 
 Pour ajouter un lien :
 

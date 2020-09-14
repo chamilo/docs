@@ -7,5 +7,7 @@ Chamilo propose de créer des dossiers de liens, qui permet de rendre la liste p
 * renseigner une description au besoin,
 * « Ajouter une catégorie ».
 
-![](../../.gitbook/assets/image198%20%281%29.png)Illustration 127: Liens - Création de catégorie de liens
+![](../../.gitbook/assets/image198%20%281%29.png)
+
+Illustration : Liens - Création de catégorie de liens
 
