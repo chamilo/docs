@@ -1,6 +1,6 @@
 # L'outil « Agenda »
 
-![](../../.gitbook/assets/image302%20%281%29.svg)
+![](../../.gitbook/assets/agenda.png)
 
 L'agenda est un outil qui est présent à la fois dans chaque cours et comme outil de synthèse pour l’utilisateur. Un agenda est donc attaché à chaque cours.
 
