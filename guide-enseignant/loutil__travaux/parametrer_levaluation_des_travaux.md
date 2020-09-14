@@ -14,5 +14,7 @@ La procédure est similaire durant la création du travail.
 
 **Note** : En face du nom du dossier de travaux évalué apparaît le terme « Tâche » qui indique que les travaux contenus dans le dossier sont évalués.
 
-![](../../.gitbook/assets/image161%20%281%29.png)Illustration 101: Travaux - Paramètres avancés
+![](../../.gitbook/assets/image161%20%281%29.png)
+
+Illustration : Travaux - Paramètres avancés
 
