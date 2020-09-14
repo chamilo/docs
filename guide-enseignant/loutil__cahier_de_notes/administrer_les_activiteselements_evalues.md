@@ -4,12 +4,14 @@ Il est possible d'accéder à l'administration des épreuves rapidement grâce a
 
 | Icônes | Fonctionnalités |
 | :--- | :--- |
-| ![](../../.gitbook/assets/image182%20%281%29.svg) | Modifier les paramètres d’une épreuve \(nom, pondération, description, visibilité\) |
-| ![](../../.gitbook/assets/image183%20%281%29.svg) | Supprimer une épreuve \(après demande de confirmation\) |
-| ![](../../.gitbook/assets/image184%20%281%29.svg) | Contrôler la visibilité d’une épreuve |
+| ![](../../.gitbook/assets/edit.png) | Modifier les paramètres d’une épreuve \(nom, pondération, description, visibilité\) |
+| ![](../../.gitbook/assets/graficos27.png) | Supprimer une épreuve \(après demande de confirmation\) |
+| ![](../../.gitbook/assets/visible.png) | Contrôler la visibilité d’une épreuve |
 | ![](../../.gitbook/assets/image185%20%281%29.png) | Afficher les modifications successives apportées à une épreuve |
 
 Si vous souhaitez vérifier l'historique de la pondération d'un certain élément, il suffit de cliquer sur l'icône de suivi \(les deux marques de pas\). L'écran affiche alors un détail des personnes impliquées dans ce changement, histoire de pouvoir établir les responsabilités éventuelles dans la détermination de ces pondérations.
 
-![](../../.gitbook/assets/image186%20%281%29.png)Illustration 118: Cahier de note - Historique des modifications dans la pondération
+![](../../.gitbook/assets/image186%20%281%29.png)
+
+Illustration : Cahier de note - Historique des modifications dans la pondération
 

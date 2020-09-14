@@ -1,6 +1,6 @@
 # L'outil « Wiki »
 
-![](../../.gitbook/assets/image295%20%281%29.svg)
+![](../../.gitbook/assets/wiki.png)
 
 L'outil de _wiki_ est un outil de rédaction collective ou collaborative. Il permet aux utilisateurs de travailler à plusieurs sur un seul et même document tout en suivant l'historique des modifications. Il permet aussi de gagner du temps et d'être plus efficace pendant un travail de groupe. Il peut compléter un forum.
 

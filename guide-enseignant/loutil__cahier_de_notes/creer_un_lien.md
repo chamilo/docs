@@ -1,10 +1,12 @@
 # Créer un lien
 
-![](../../.gitbook/assets/image178%20%281%29.svg)
+![](../../.gitbook/assets/new_online_evaluation.png)
 
 Cette outil permet de créer un lien \(n'importe quel type de lien\) entre l'évaluation et l'une des ressources du cours dont la ponctuation est automatique \(sauf exception\):
 
-* ![](../../.gitbook/assets/image180%20%281%29.png) Illustration 116: Cahier de notes - Créer un lien
+* ![](../../.gitbook/assets/image180%20%281%29.png)
+
+Illustration : Cahier de notes - Créer un lien
 
   « Exercices » \(tests\),
 

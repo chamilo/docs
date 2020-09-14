@@ -8,5 +8,7 @@ Depuis la page sur laquelle se situera le lien inséré :
 * soit de cliquer sur le bouton « Insérer / éditer un lien wiki » pour renseigner le nom de la page à créer,
 * cliquez « OK ».
 
-![](../../.gitbook/assets/image189%20%281%29.png)Illustration 126: Wiki - Page principale éditée
+![](../../.gitbook/assets/image189%20%281%29.png)
+
+Illustration : Wiki - Page principale éditée
 

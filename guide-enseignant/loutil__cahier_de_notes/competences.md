@@ -2,7 +2,9 @@
 
 Si l'administrateur a activé la gestion des compétences sur ce portail Chamilo, l'option de compétences apparaîtra dans le formulaire de création et d'édition du cahier de notes \(ou des catégories au sein du cahier de notes\).
 
-![](../../.gitbook/assets/image193%20%281%29.png)Illustration 119: Cahier de notes - Formulaire d'édition - Compétences activées
+![](../../.gitbook/assets/image193%20%281%29.png)
+
+Illustration : Cahier de notes - Formulaire d'édition - Compétences activées
 
 Les compétences sont à présent profondément ancrées dans Chamilo et offrent une grande compatibilité avec le standard ouvert OpenBadges®, ce qui signifie que chaque apprenant peut exporter ses compétences sous formes de badges visuels vers le Mozilla Backpack \(serveur de badges indépendant\) et, de là, vers LinkedIn ou d'autres sites professionnels qui supportent ce standard.
 
@@ -14,19 +16,27 @@ Les règles d'obtention des compétences sont donc identiques à celles des cert
 
 Si l'outil de compétences a été activé, si une compétence a été configurée, si l'apprenant a obtenu le score minimum nécessaire et si le réseau social n'a pas été désactivé, les compétences s'afficheront automatiquement sur le profil de l'utilisateur dans le réseau social.
 
-![](../../.gitbook/assets/image194%20%281%29.png)Illustration 120: Réseau social - Vue personnelle
+![](../../.gitbook/assets/image194%20%281%29.png)
 
-![](../../.gitbook/assets/image195%20%281%29.png)Illustration 121: Réseau social - Profil partagé
+Illustration : Réseau social - Vue personnelle
+
+![](../../.gitbook/assets/image195%20%281%29.png)
+
+Illustration : Réseau social - Profil partagé
 
 En cliquant sur un badge, on peut visualiser les détails de l'obtention de la compétence mentionnée. Ici nous avons indiqué peu de détails, mais on peut voir qu'il est possible d'indiquer des critères d'obtention. Cette page est publique et peut être référencée depuis n'importe quel site professionnel.
 
-![](../../.gitbook/assets/image196%20%281%29.png)Illustration 122: Compétences - Fiche de délivrance
+![](../../.gitbook/assets/image196%20%281%29.png)
+
+Illustration : Compétences - Fiche de délivrance
 
 Notez que l'image en soi contient des métadonnées permettant de retrouver de nombreux détails au sujet du badge, à qui il a été attribué, à quelle date, etc. C'est pratiquement un certificat en soi.
 
 Sur LinkedIn, il sera dès lors possible \(moyennant quelques étapes intermédiaires\) d'afficher quelque chose comme ceci dans la section « Éducation » :
 
-![](../../.gitbook/assets/image197%20%281%29.png)Illustration 123: Profil sur LinkedIn montrant un OpenBadge
+![](../../.gitbook/assets/image197%20%281%29.png)
+
+Illustration : Profil sur LinkedIn montrant un OpenBadge
 
 Si vous êtes intéressé par cette procédure, consultez la [vidéo en espagnol](https://www.youtube.com/watch?v=uAuycQVvEZc) \(à défaut de mieux\) de BeezNest, l'un des fournisseurs officiels de Chamilo et principal éditeur de ce guide.
 
