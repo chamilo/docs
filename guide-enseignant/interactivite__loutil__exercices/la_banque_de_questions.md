@@ -10,7 +10,7 @@ Lorsque la base de questions s’affiche, elle présente la liste de toutes les 
 
 ![](../../.gitbook/assets/graficos36%20%287%29.png)
 
-Illustration 44: Exercices - Banque de questions
+Illustration : Exercices - Banque de questions
 
 Cliquez sur le bouton « Récupérer » pour récupérer immédiatement la question dans l'exercice.
 

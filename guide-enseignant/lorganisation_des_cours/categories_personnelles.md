@@ -4,7 +4,7 @@ Il faut aller dans « Mes cours », « Catalogue de cours » pour accéder à la
 
 ![](../../.gitbook/assets/trier-cours%20%281%29.png)
 
-Illustration 16: Trier mes cours
+Illustration : Trier mes cours
 
 La catégorie personnelle créée apparaît dans une liste en bas de la page. Il est possible de créer plusieurs catégories personnelles.
 
@@ -16,7 +16,7 @@ Pour supprimer la catégorie, cliquer sur la croix rouge « Supprimer ».
 
 ![](../../.gitbook/assets/categorie-de-cours-supprimer.png)
 
-Illustration 17: Catégories de cours
+Illustration : Catégories de cours
 
 Il est possible de s'inscrire à d'autres cours que ceux qu'on administre. Ce sera un enregistrement comme utilisateur et non comme co-responsable à un cours proposé par un autre enseignant.
 
@@ -24,7 +24,7 @@ En cliquant sur le lien « Catalogue de cours », la liste générale de cours a
 
 ![](../../.gitbook/assets/graficos9%20%286%29.png)
 
-Illustration 18: Catalogue de cours
+Illustration : Catalogue de cours
 
 Une fois le cours trouvé, cliquer sur l'icône vert pour s'inscrire. L'inscription donne le statut d’apprenant. Seuls les outils laissés à disposition des apprenants pourront être utilisés. Pour devenir enseignant à ce cours, il faut qu'un administrateur du cours rajoute la personne concernée dans la liste des enseignants.
 

@@ -4,7 +4,7 @@ La section d'administration a pour objectif de réunir les outils que l'étudian
 
 ![](../../.gitbook/assets/coursadministration%20%281%29.png)
 
-Illustration 24: Outils d'administration
+Illustration : Outils d'administration
 
 ## Blogs <a id="magnifierblogs"></a>
 

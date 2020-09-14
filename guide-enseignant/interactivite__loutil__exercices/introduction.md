@@ -12,13 +12,13 @@ L'outil vous permet de créer ou d'importer un questionnaire \(au format [HotPot
 
 ![](../../.gitbook/assets/quiz-list.png)
 
-Illustration 38: Exercices - Liste
+Illustration : Exercices - Liste
 
 La création d'un nouveau test est très simple. Cliquez sur la première icône à gauche et indiquez un titre, puis cliquez sur le bouton de confirmation.
 
 ![](../../.gitbook/assets/quiz-formulaire-creation-simple.png)
 
-Illustration 39: Exercices - Création simple
+Illustration : Exercices - Création simple
 
 Comme il existe une grande quantité de types d'exercices différents, vous pourriez penser que les options par défaut que nous avons choisies ne vous conviennent pas entièrement. Qu'à cela ne tienne, l'option dépliante de _Paramètres avancés_ est là pour ça.
 

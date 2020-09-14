@@ -4,7 +4,7 @@ Cliquez sur « Nouveau test » et donnez-lui un nom. Vous pouvez en rester là e
 
 ![](../../.gitbook/assets/quiz-formulaire-creation-ext.png)
 
-Illustration 40: Exercices - Création d'un test - Options avancées
+Illustration : Exercices - Création d'un test - Options avancées
 
 Les autres paramètres sont facultatifs, mais ils permettent de préciser quelques conditions :
 

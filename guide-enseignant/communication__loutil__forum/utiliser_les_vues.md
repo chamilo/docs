@@ -9,5 +9,5 @@ Dans les versions antérieures de Chamilo, une vue thématique était également
 
 ![](../../.gitbook/assets/image78%20%281%29.png)
 
-Illustration 58: Forum - Modes d'affichage
+Illustration : Forum - Modes d'affichage
 

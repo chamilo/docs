@@ -2,7 +2,7 @@
 
 ![](../../.gitbook/assets/coursproduction%20%281%29.png)
 
-Illustration 22: Outils de production
+Illustration : Outils de production
 
 ## Description du cours <a id="description-du-cours"></a>
 

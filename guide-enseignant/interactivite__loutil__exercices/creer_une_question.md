@@ -4,7 +4,7 @@ Une fois le test créé, choisir le type de la première question parmi les sept
 
 ![](../../.gitbook/assets/quiz-types-questions.png)
 
-Illustration 41: Exercices - Types de questions
+Illustration : Exercices - Types de questions
 
 ## Type 1 : Question à choix multiples – réponse unique <a id="type-1-question-choix-multiples-r-ponse-unique"></a>
 
@@ -178,13 +178,13 @@ Le système recommande l'utilisation d'images de 200 pixels de large sur 150 pix
 
 ![](../../.gitbook/assets/image58%20%283%29.png)
 
-Illustration 42: Exercices: Réponse unique sur image
+Illustration : Exercices: Réponse unique sur image
 
 Pour l'apprenant, le résultat est visuellement plus plaisant, comme on peut l'observer dans la capture d'écran suivante. La sélection faite par l'apprenant se marque directement avec un fin bord bleu.
 
 ![](../../.gitbook/assets/image59%20%283%29.png)
 
-Illustration 43: Exercices: Visualisation par l'apprenant du type sélection d'image
+Illustration : Exercices: Visualisation par l'apprenant du type sélection d'image
 
 ## Type 15 : Réordonner des mots <a id="type-15-r-ordonner-des-mots"></a>
 

@@ -9,5 +9,7 @@ Elle permet aussi de gérer l'affichage des photos des utilisateurs dans les for
 
 Enfin, elle permet de définir si l'apprenant a accès à la liste d'utilisateurs dans le cours.
 
-![](../../.gitbook/assets/image266%20%281%29.png)Illustration 190: Paramètres - Permissions utilisateurs
+![](../../.gitbook/assets/image266%20%281%29.png)
+
+Illustration : Paramètres - Permissions utilisateurs
 

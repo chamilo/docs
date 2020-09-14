@@ -1,6 +1,8 @@
 # Créer une nouvelle enquête
 
-* ![](../../.gitbook/assets/image245%20%281%29.png)Illustration 169: Enquêtes - Formulaire de création
+![](../../.gitbook/assets/image245%20%281%29.png)
+
+Illustration : Enquêtes - Formulaire de création
 
   Cliquez sur le lien _Créer une enquête_,
 

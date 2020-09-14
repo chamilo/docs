@@ -13,7 +13,7 @@ Lorsque le contenu d'un forum est affiché :
 
 ![](../../.gitbook/assets/images62%20%285%29.png)
 
-Illustration 61: Forum - Fil de discussion
+Illustration : Forum - Fil de discussion
 
 * * 1. d’être prévenu par courriel si une contribution est apportée au fil de discussion,
   * 2. de positionner le message toujours en haut du fil de discussion,

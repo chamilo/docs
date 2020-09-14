@@ -4,7 +4,7 @@ Les cours sont des **espaces** au sein desquels les enseignants génèrent du co
 
 ![](../../.gitbook/assets/image28.png)
 
-_Illustration 56: Bloc d'administration des cours_
+Illustration : Bloc d'administration des cours
 
 Les cours peuvent être agrémentés d'une notion temporelle grâce à l'utilisation de **sessions** \(voir 4.4Administrer les « Sessions de formation » en page 72\).
 
@@ -25,7 +25,9 @@ _Tableau 3: Administration - Icônes de gestion des cours_
 
 Cet outil permet de visualiser tous les cours que contient la plateforme.
 
-![](../../.gitbook/assets/graficos82.png)_Illustration 57: Administration - Liste des cours_
+![](../../.gitbook/assets/graficos82.png)
+
+Illustration : Administration - Liste des cours
 
 Cette liste nous donne une grande quantité d'informations sur les cours. Notez la couleur des cercles préfixant les titres de cours : elles représentent la visibilité des cours en question :
 
@@ -52,7 +54,9 @@ Ces icônes ne sont que des raccourcis qui renvoient l'administrateur vers l'ong
 
 En tant qu'administrateur, lors de la création d'un cours, seul le titre est obligatoire.
 
-![](../../.gitbook/assets/graficos83.png)_Illustration 58: Création de cours_
+![](../../.gitbook/assets/graficos83.png)
+
+Illustration : Création de cours
 
 Outre ces champs obligatoires, en plus d'un enseignant, il est possible :
 
@@ -64,7 +68,9 @@ Outre ces champs obligatoires, en plus d'un enseignant, il est possible :
 
 Quelques paramètres se sont encore ajoutés à ceux-ci à partir de la version 1.10. Ils ont pour objectif d'étendre les possibilités du catalogue de cours de Chamilo.
 
-![](../../.gitbook/assets/image29.png)_Illustration 59: Champs de cours additionnels à partir de la 1.10_
+![](../../.gitbook/assets/image29.png)
+
+Illustration : Champs de cours additionnels à partir de la 1.10
 
 On y retrouve donc les deux champs suivants :
 
@@ -73,7 +79,9 @@ On y retrouve donc les deux champs suivants :
 
 Ces champs ne seront utiles **que** dans un cas d'utilisation du catalogue de sessions. Dans ce cas, et si l'on a veillé à inclure ce cours dans une session, on retrouvera un écran de présentation de session similaire au suivant :
 
-![](../../.gitbook/assets/image30.png)_Illustration 60: Écran de présentation de session_
+![](../../.gitbook/assets/image30.png)
+
+Illustration : Écran de présentation de session
 
 On y retrouve donc bien une pré-visualisation de la vidéo liée au cours, ainsi que les tags en bas à droite. On y trouve également des liens vers quelques réseaux sociaux, afin de faciliter la promotion de cette session. Nous reparlerons des sessions dans le chapitre suivant.
 
@@ -81,7 +89,9 @@ On y retrouve donc bien une pré-visualisation de la vidéo liée au cours, ains
 
 Cette fonction permet d'exporter tout ou partie de la liste des cours au format CSV.
 
-![](../../.gitbook/assets/coursexporter.png)_Illustration 61: Administration - Export de cours_
+![](../../.gitbook/assets/coursexporter.png)
+
+Illustration : Administration - Export de cours
 
 ## Créer des cours par lot <a id="cr-er-des-cours-par-lot"></a>
 
@@ -89,7 +99,7 @@ Cette fonction permet d'importer le fichier CSV exporté précédemment dans « 
 
 ![](../../.gitbook/assets/creer-formation-lot.png)
 
-_Illustration 62: Administration - Création de cours par lots_
+Illustration : Administration - Création de cours par lots
 
 Une fois la liste importée, reste à ajouter les parcours au cours.
 
@@ -99,7 +109,7 @@ Ici, on peut créer, modifier ou supprimer les différentes catégories de cours
 
 ![](../../.gitbook/assets/images65.png)
 
-_Illustration 63: Administration - Catégories de cours_
+Illustration : Administration - Catégories de cours
 
 Il est aussi possible d'organiser ces catégories grâce aux flèches. Ces catégories ne sont pas traduites automatiquement et il n'est pas possible d'enregistrer des traductions pour chaque catégorie et chaque langue, ce qui veut dire que si vous disposez d'un portail multilingue, vous devrez trouver une formulation suffisamment claire pour que tous vos utilisateurs la comprennent.
 
@@ -111,7 +121,9 @@ L'administrateur peut inscrire n'importe qui à n'importe quel cours :
 * choisir le\(s\) cours au\(x\)quel\(s\) les inscrire,
 * cliquez « inscrire à ce\(s\) cours ».
 
-![](../../.gitbook/assets/coursinscrire_-utilisateurs.png)_Illustration 64: Administration - Inscription d'utilisateurs à un cours_
+![](../../.gitbook/assets/coursinscrire_-utilisateurs.png)
+
+Illustration : Administration - Inscription d'utilisateurs à un cours
 
 ## Inscrire des utilisateurs par lot <a id="inscrire-des-utilisateurs-par-lot"></a>
 
@@ -119,7 +131,7 @@ Cette fonction permet à l'administrateur, après avoir fait un export d'utilisa
 
 ![](../../.gitbook/assets/inscrire-utilisateur-cours.png)
 
-_Illustration 65: Administration - Inscription d'utilisateurs à un cours, par lots_
+Illustration : Administration - Inscription d'utilisateurs à un cours, par lots
 
 Cet import permet d'effectuer deux actions qu'il suffit de cocher pour qu'elles soient prises en compte et que vous puissiez gérer la liste d'utilisateurs en fonction de l'import.
 

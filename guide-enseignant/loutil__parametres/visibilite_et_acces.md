@@ -2,7 +2,9 @@
 
 La section _Accès à ce cours_ permet de configurer la manière d'accéder au cours et, pour cela, la visibilité du cours lui-même.
 
-![](../../.gitbook/assets/image264%20%281%29.png)Illustration 188: Paramètres - Accès au cours
+![](../../.gitbook/assets/image264%20%281%29.png)
+
+Illustration : Paramètres - Accès au cours
 
 La visibilité peut être configurée de 4 façons :
 

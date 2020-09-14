@@ -4,7 +4,7 @@ L'objectif de la section d'interaction est de réunir les outils qui permettent 
 
 ![](../../.gitbook/assets/coursinteraction%20%281%29.png)
 
-Illustration 23: Outils d'interaction
+Illustration : Outils d'interaction
 
 ## Agenda <a id="magnifieragenda"></a>
 

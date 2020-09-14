@@ -6,5 +6,7 @@ Depuis la page d’accueil des groupes :
 * cocher les groupes à remplir \(dans la colonne de gauche\),
 * utiliser la commande « Ajouter des utilisateurs » qui est située dans la liste déroulante. Le remplissage s'effectue « au hasard ». La composition des groupes n'est pas maîtrisée, mais il est toujours possible d’intervenir manuellement \(et ultérieurement\) sur la composition des groupes.
 
-![](../../.gitbook/assets/image241%20%281%29.png)Illustration 165: Groupes - Remplissage automatique
+![](../../.gitbook/assets/image241%20%281%29.png)
+
+Illustration : Groupes - Remplissage automatique
 

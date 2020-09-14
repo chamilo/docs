@@ -4,7 +4,7 @@ Par défaut, le quota d'un cours est de 100Mo, mais il est aussi possible de le 
 
 ![](../../.gitbook/assets/graficos31%20%287%29.png)
 
-Illustration 34: Documents - Quota
+Illustration : Documents - Quota
 
 Si vous pensez atteindre la limite du cours dans les prochains jours, contactez votre administrateur pour lui demander s'il est possible d'augmenter l'espace disponible. Seul l'administrateur dispose de cette fonctionnalité.
 
@@ -14,5 +14,5 @@ Si vous souhaitez obtenir une visualisation plus illustrée de l'espace utilisé
 
 ![](../../.gitbook/assets/image52%20%283%29.png)
 
-Illustration 35: Documents - Espace disponible
+Illustration : Documents - Espace disponible
 

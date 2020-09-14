@@ -30,7 +30,7 @@ Modifier les informations du parcours :
 
 ![](../../.gitbook/assets/image115%20%281%29.png)
 
-Illustration 68: Parcours - Édition des propriétés
+Illustration : Parcours - Édition des propriétés
 
 Ce cadre gris sera le fil d'Ariane lors de la visualisation du parcours par les apprenants. Les différentes parties seront visibles et accessibles en un clic de souris.
 

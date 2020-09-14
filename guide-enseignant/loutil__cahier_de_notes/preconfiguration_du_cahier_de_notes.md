@@ -44,7 +44,7 @@ Cliquez sur l'icône symbolisant un podium \(si vous ne la voyez pas, indiquez l
 
 La façon la plus rapide de configurer l'écran suivant est d'indiquer « 50 » comme valeur de coloration en rouge, puis de cliquer 5 fois sur l'icône de « + » vert. Ensuite, complétez comme indiqué sur la capture d'écran suivante.
 
-Le même écran se charge à nouveau avec des options additionnelles. Complétez-les selon vos besoins. Inspirez-vous si nécessaire de la capture d'écran de l'Illustration 110. L'idée du système est permettre une catégorisation des notes, comme nous allons le voir ci-après.
+Le même écran se charge à nouveau avec des options additionnelles. Complétez-les selon vos besoins. Inspirez-vous si nécessaire de la capture d'écran. L'idée du système est permettre une catégorisation des notes, comme nous allons le voir ci-après.
 
 ![](../../.gitbook/assets/image171%20%281%29.png)
 

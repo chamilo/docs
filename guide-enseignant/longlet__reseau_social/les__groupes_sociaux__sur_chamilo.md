@@ -9,7 +9,7 @@ Il existe deux types de groupes :
 
 ![](../../.gitbook/assets/image284%20%281%29.png)
 
-Illustration 208: Réseau social - Groupes sociaux
+Illustration : Réseau social - Groupes sociaux
 
 L'onglet « Mes groupes » rassemble les groupes dont l'utilisateur fait partie.
 

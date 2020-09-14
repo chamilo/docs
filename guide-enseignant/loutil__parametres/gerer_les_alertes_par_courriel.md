@@ -2,7 +2,9 @@
 
 L'envoi de courriels est un bon moyen de tenir l'enseignant informé, en temps réel, de la production de certains événements.
 
-![](../../.gitbook/assets/image265%20%281%29.png)Illustration 189: Paramètres - Envoi d'alertes courriel
+![](../../.gitbook/assets/image265%20%281%29.png)
+
+Illustration : Paramètres - Envoi d'alertes courriel
 
 Dans cette section, il est possible de choisir d’être informé par courriel si :
 

@@ -6,13 +6,13 @@ Vous retrouverez un écran similaire à l'illustration suivante :
 
 ![](../../.gitbook/assets/graficos20%20%285%29.png)
 
-Illustration 28: Documents - Envoi de documents
+Illustration : Documents - Envoi de documents
 
 Cliquez sur la **zone verte** pour explorer l'arborescence de l'ordinateur et sélectionner le \(ou les\) document\(s\) à envoyer et cliquez sur le bouton de validation. L'envoi des documents est alors démarré. Si vous envoyez plusieurs documents à la fois, vous verrez leur progrès à la manière de l'illustration suivante.
 
 ![](../../.gitbook/assets/graphics119.png)
 
-Illustration 29: Documents - Envoi de documents en cours
+Illustration : Documents - Envoi de documents en cours
 
 Voilà qui est fait : vous avez envoyé vos documents dans l'outil de documents de votre cours avec succès. Cliquez maintenant sur l'icône de flèche bleue dirigée vers la gauche pour retourner à la liste de documents.
 

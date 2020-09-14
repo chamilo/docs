@@ -10,5 +10,7 @@ Depuis la page d’accueil des groupes :
 * définir le\(s\) tuteur\(s\) et le\(s\) membre\(s\),
 * « Modifier les propriétés du groupe »
 
-![](../../.gitbook/assets/image239%20%281%29.png)Illustration 163: Groupes – Paramètres de groupe
+![](../../.gitbook/assets/image239%20%281%29.png)
+
+Illustration : Groupes – Paramètres de groupe
 

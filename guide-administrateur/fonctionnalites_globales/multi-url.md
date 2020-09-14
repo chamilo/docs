@@ -39,12 +39,14 @@ Pour configurer le mode multi-URL, vous aurez besoin
 
 La marche à suivre est :
 
-* de modifier app/conf/configuration.php et dé-commenter la ligne qui dit : _$\_configuration\['multiple\_access\_urls'\] = true;_
+* de modifier app/conf/configuration.php et dé-commenter la ligne qui dit : _$\_configuration\['multiple\_access\_urls'\]=true; _
 * d'ajouter des directives _SiteAlias_ dans votre VirtualHost d'Apache HTTPd \(rien de plus\)
 * de définir les noms de domaines ou sous-domaines pour qu'ils dirigent vers le même serveur
 * d'aller dans votre page d'administration de Chamilo et de suivre le lien « Configurer l'accès via URLs différents \(branding\) »
 * de définir votre URL principal \(renommer _localhost_\)
 * d'ajouter les sous-portails voulus et y activer un administrateur local pour chacun
 
-![](../../.gitbook/assets/graficos97.png)_Illustration 82: Administration - Multi-URLs_
+![](../../.gitbook/assets/graficos97.png)
+
+Illustration : Administration - Multi-URLs
 

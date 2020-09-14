@@ -2,7 +2,7 @@
 
 ![](../.gitbook/assets/my-courses-home.png)
 
-Illustration 10: Blocs de liste des cours
+Illustration : Blocs de liste des cours
 
 La création d'un cours est simple et rapide et se fait à partir de la page _Mes cours_.
 
@@ -16,7 +16,7 @@ Pour le cours, il faut :
 
 ![](../.gitbook/assets/graficos7%20%286%29.png)
 
-Illustration 11: Créer un cours - version courte
+Illustration : Créer un cours - version courte
 
 Les options additionnelles \(et totalement facultatives\) disponibles en cliquant sur le lien _Paramètres avancés_ sont :
 
@@ -27,7 +27,7 @@ Les options additionnelles \(et totalement facultatives\) disponibles en cliquan
 
 ![](../.gitbook/assets/creation-cours-etendue.png)
 
-Illustration 12: Créer un cours - version étendue
+Illustration : Créer un cours - version étendue
 
 Dépendant des versions de Chamilo, la création du cours peut :
 

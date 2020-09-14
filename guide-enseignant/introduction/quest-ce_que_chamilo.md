@@ -6,7 +6,7 @@ Vous pouvez télécharger gratuitement Chamilo et l'utiliser librement, pour peu
 
 ![](../../.gitbook/assets/images268%20%289%29.png)
 
-Illustration 1: Droits d'usage, d'analyse, de modification, de copie et de distribution du logiciel
+Illustration : Droits d'usage, d'analyse, de modification, de copie et de distribution du logiciel
 
 Chamilo est non seulement développé de manière collaborative par des dizaines de personnes dans le monde entier, mais il est également soutenu par une association sans but lucratif dont le but est de promouvoir la plateforme et assurer sa continuité. En ce sens, Chamilo est la seule plateforme d'e-learning en logiciel libre qui apporte autant de garanties de libre accès.
 

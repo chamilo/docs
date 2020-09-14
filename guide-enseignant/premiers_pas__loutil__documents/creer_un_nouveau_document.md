@@ -4,7 +4,7 @@ Il est possible de créer un nouveau document directement dans l'outil de docume
 
 ![](../../.gitbook/assets/graficos21%20%287%29.png)
 
-Illustration 31: Documents - Icônes - Création
+Illustration : Documents - Icônes - Création
 
 Notez que toutes les icônes marquées d'une petite étoile représentent des fonctionnalités de création. Nous les réviserons dans quelques instants.
 
@@ -12,7 +12,7 @@ Après avoir nommé le document, il est possible d'utiliser toutes les options d
 
 ![](../../.gitbook/assets/graficos23%20%287%29.png)
 
-Illustration 32: Documents - Création d'un nouveau document
+Illustration : Documents - Création d'un nouveau document
 
 Une fois le document édité à votre goût, enregistrez-le en cliquant sur « Créer un document ».
 

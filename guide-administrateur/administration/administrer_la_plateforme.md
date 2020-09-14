@@ -2,7 +2,7 @@
 
 ![](../../.gitbook/assets/plateforme.png)
 
-_Illustration 28: Administration - Bloc plateforme_
+Illustration : Administration - Bloc plateforme
 
 Cette configuration se fait via l'onglet « Administration ».
 
@@ -12,7 +12,7 @@ Ces paramètres regroupent plusieurs catégories, partiellement reprises dans la
 
 ![](../../.gitbook/assets/graficos4.png)
 
-_Illustration 29: Administration - Catégories de paramètres d'administration_
+Illustration : Administration - Catégories de paramètres d'administration
 
 Chamilo propose une configuration par défaut, qui n'est pas forcément celle souhaitée par les utilisateurs de la plateforme. Même si toutes les options méritent d'être expliquées, car un administrateur doit connaître parfaitement son environnement, nous allons aborder ici celles qui sont plus spécifiques et qui ont besoin d'être modifiées par rapport à la configuration d'origine. Vous trouverez, en annexe, une liste complète des options disponibles avec leurs explications.
 
@@ -168,7 +168,9 @@ N'hésitez par à faire appel aux fournisseurs officiels de Chamilo pour un héb
 
 ![](../../.gitbook/assets/stylesheets.svg) Les feuilles de style permettent de définir le style visuel global de la plateforme.
 
-![](../../.gitbook/assets/feuille-de-styles.png) _Illustration 30: Administration - Configuration des feuilles de style_
+![](../../.gitbook/assets/feuille-de-styles.png)
+
+Illustration : Administration - Configuration des feuilles de style
 
 Depuis la version 1.8.7, il vous est possible de créer vos propres feuilles de style et de les envoyer sur le serveur. Pour cela, récupérez une copie de l'un des styles existants dans _chamilo/app/Resources/public/css/themes_ \(ou, dans les versions antérieures à la 1.10, dans _chamilo/main/css/_\) et changez le nom du répertoire récupéré \(sur votre ordinateur, pas sur le serveur\). Modifiez le style à votre goût. Une fois satisfait, envoyez le répertoire au serveur sous forme d'un fichier .zip et donnez-lui un nom propre à votre portail. Ensuite, sélectionnez le style dans la liste déroulante. S'il vous convient, cliquez sur _Enregistrer les paramètres_ pour l'appliquer comme style par défaut sur votre portail.
 
@@ -182,7 +184,9 @@ Créer, éditer et supprimer des modèles est très simple, et se rapproche fort
 
 ![](../../.gitbook/assets/graficos19.png) Cet onglet permet d'activer les plugins présents sur le serveur, dans le dossier « plugin ».
 
-![](../../.gitbook/assets/plugins.png) _Illustration 31: Administration - Installation de plugins_
+![](../../.gitbook/assets/plugins.png)
+
+Illustration : Administration - Installation de plugins
 
 Le plugin appelé _BigBlueButton_, une fois activé, vous permet de connecter votre portail Chamilo à un serveur de vidéoconférence. Toutefois, l'installation du serveur de vidéoconférence n'est pas incluse dans Chamilo. Il vous faudra donc l'installer par vous-même ou faire appel à l’un des fournisseurs officiels.
 
@@ -214,15 +218,21 @@ Notez qu'un connecteur vers _OpenMeetings_ est également disponible au besoin.
 
 Cet outil permet de définir quelles langues seront visibles par les utilisateurs lors de leur inscription sur la plateforme.
 
-![](../../.gitbook/assets/langue.png) _Illustration 32: Administration - Gestion des langues_
+![](../../.gitbook/assets/langue.png)
+
+Illustration : Administration - Gestion des langues
 
 Au travers de l'activation des sous-langages, cet outil permet également de redéfinir certains termes de l'interface du portail. Pour cela, activez l'option dans la page de configuration des langues \(voir 4.1.1.4 Langue \).
 
-![](../../.gitbook/assets/image11.png) _Illustration 33: Option de sous-langages dans les paramètres de configuration_
+![](../../.gitbook/assets/image11.png)
+
+Illustration : Option de sous-langages dans les paramètres de configuration
 
 Ensuite, ouvrez la page de configuration des langues. Vous y trouverez une icône supplémentaire, qui permet d'ajouter un « sous-langage » à n'importe quel langage existant.
 
-![](../../.gitbook/assets/image12.png) _Illustration 34: Liste des langages avec option de sous-langages_
+![](../../.gitbook/assets/image12.png)
+
+Illustration : Liste des langages avec option de sous-langages
 
 La définition d'un sous-langage est assez simple : il vous suffit d'indiquer le nom du sous-langage, son code ISO et son nom anglais \(le nom du répertoire\).
 
@@ -240,17 +250,23 @@ Compléter le formulaire en indiquant un nom commun pour le langage ainsi qu'un 
 
 Cochez _Visibilité_ et cliquez sur _Créer sous-langage_. Le message de confirmation vous propose de retourner à la liste des langages actifs. Cliquez sur la barre de navigation horizontale pour retourner sur la liste de langues.
 
-![](../../.gitbook/assets/image14.png) _Illustration 35: Message de confirmation de création d'un sous-langage_
+![](../../.gitbook/assets/image14.png)
+
+Illustration : Message de confirmation de création d'un sous-langage
 
 La page de listing affiche une ligne un peu différente. Cliquez sur l'icône de double flèche pour définir vos propres termes.
 
-![](../../.gitbook/assets/graficos39.png) _Illustration 36: Administration - Liste des langages, avec sous-langage_
+![](../../.gitbook/assets/graficos39.png)
+
+Illustration : Administration - Liste des langages, avec sous-langage
 
 ### Définir ses propres termes linguistiques <a id="d-finir-ses-propres-termes-linguistiques"></a>
 
 La nouvelle page est une page de recherche. Si vous voulez modifier les termes « Cours » en « Formation », lancez d'abord une recherche sur « Cours ».
 
-![](../../.gitbook/assets/graficos40.png) _Illustration 37: Administration - Redéfinition des termes d'un sous-langage_
+![](../../.gitbook/assets/graficos40.png)
+
+Illustration : Administration - Redéfinition des termes d'un sous-langage
 
 Une fois la recherche effectuée, redéfinissez chacun des termes apparaissant dans la colonne _Nom d'origine_ en le réécrivant \(modifié\) dans la colonne _Sous-langage_. Une fois satisfait, cliquez sur _Enregistrer._ Veillez à sauvegarder chacun des nouveaux termes progressivement. Notez que pour le terme « Cours », on retrouve 814 occurrences, ce qui peut prendre un certain temps à corriger...
 
@@ -258,7 +274,9 @@ Une fois la recherche effectuée, redéfinissez chacun des termes apparaissant d
 
 Finalement, vous avez défini entièrement votre sous-langage, il ne vous reste plus qu'à l'assigner par défaut à tous les nouveaux utilisateurs et nouveaux cours. Pour cela, retournez dans la liste des langues, et désactivez toutes les autres langues.
 
-![](../../.gitbook/assets/graficos41.png) _Illustration 38: Administration - Sous-langages - Visibilité et usage par défaut_
+![](../../.gitbook/assets/graficos41.png)
+
+Illustration : Administration - Sous-langages - Visibilité et usage par défaut
 
 Pour votre sous-langage, cliquez sur la troisième icône pour en faire la langue par défaut de la plateforme. Ça y est, votre plateforme est personnalisée selon votre secteur, votre industrie ou votre institution !
 
@@ -281,7 +299,9 @@ Les régions sont les zones de l'écran dans lesquelles peuvent apparaître les 
 
 Permet d'ajouter une annonce globale sur la page principale de la plateforme \(et au-dessus de la liste de cours\).
 
-![](../../.gitbook/assets/image15.png) _Illustration 39: Formulaire de création d'annonce du système_
+![](../../.gitbook/assets/image15.png)
+
+Illustration : Formulaire de création d'annonce du système
 
 Il est possible de choisir la visibilité/invisibilité de l'annonce \(par date de début et date de fin\), les rôles auxquels cette annonce est dirigée, ainsi que d'envoyer l'annonce par courriel.
 
@@ -299,7 +319,9 @@ Notez que, dans le cas de la préparation d'une annonce pour une date ultérieur
 
 L'agenda global permet d'ajouter des événements visibles depuis l'agenda de tous les utilisateurs de la plateforme.
 
-![](../../.gitbook/assets/graficos42.png) _Illustration 40: Administration - Agenda global_
+![](../../.gitbook/assets/graficos42.png)
+
+Illustration : Administration - Agenda global
 
 La fonctionnalité est en tous points similaire à celle que l'on retrouve dans l'espace de cours, mais l'ajout d'un événement y a une portée globale puisque tous les utilisateurs en seront conscients grâce au positionnement dans leur calendrier.
 
@@ -311,7 +333,9 @@ Dans cette configuration, il est possible de modifier plusieurs informations :
 * éditer les catégories \(de cours\),
 * insérer des liens et éditer l'avis
 
-![](../../.gitbook/assets/image16.png) _Illustration 41: Administration - Configurer la page d'accueil_
+![](../../.gitbook/assets/image16.png)
+
+Illustration : Administration - Configurer la page d'accueil
 
 Notez que cette fonctionnalité est propre à la langue choisie. Si vous définissez une page d'accueil en français, celle-ci ne sera visible que si le français a été sélectionné. Cela vous permet de configurer des messages d'accueil différents selon vos utilisateurs.
 
@@ -335,7 +359,9 @@ Cet outil permet de générer des graphiques statistiques pour quatre catégorie
 * système,
 * social.
 
-![](../../.gitbook/assets/statistiques.png) _Illustration 42: Administration - Statistiques globales_
+![](../../.gitbook/assets/statistiques.png)
+
+Illustration : Administration - Statistiques globales
 
 Bien que les données statistiques affichées par défaut par Chamilo soient assez sommaires, elles permettent d'obtenir une bonne idée générale de l'utilisation de la plateforme ainsi que des possibilités de cette fonctionnalité, et sont aisément extensibles à toutes les données présentes dans la plateforme. Si nécessaire, n’hésitez pas à faire appel à l’un des fournisseurs officiels pour vous assister à l’extension de ces statistiques à vos besoins particuliers.
 

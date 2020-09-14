@@ -2,19 +2,19 @@
 
 Chamilo a été créé pour fournir de l'aide au sein même de l'application. Les icônes ont été concue pour symboliser ce qu'elles représentent, indépendamment de la langue ou de la culture de l'utilisateur. Enfin, chaque icône offre une brève description de son fonctionnement qui s'affiche au moment de passer par-dessus avec le curseur de la souris \(sans cliquer\).
 
-Il existe également un système d'aide en ligne sur une majorité des pages qui apparaît sous forme d'une bouée de sauvetage partiellement obfusquée dans la partie supérieure droite de l'écran \(voir Illustration 2: Aide cachée\) et qui se déplie au moment de passer par dessus avec le curseur de la souris \(voir Illustration 3: Aide dépliée\). L'aide se déplace selon la position de l'écran et reste toujours disponible. Vous pouvez l'ouvrir ou la fermer sans affecter votre travail du moment. Lorsque vous cliquez sur la bouée, un petit guide s'ouvre dans une fenêtre flottante, expliquant l'outil sur lequel vous êtes ainsi que la manière de l'utiliser \(voir Illustration 4: Fenêtre d'aide contextuelle\).
+Il existe également un système d'aide en ligne sur une majorité des pages qui apparaît sous forme d'une bouée de sauvetage partiellement obfusquée dans la partie supérieure droite de l'écran \(voir Illustration : Aide cachée\) et qui se déplie au moment de passer par dessus avec le curseur de la souris \(voir Illustration : Aide dépliée\). L'aide se déplace selon la position de l'écran et reste toujours disponible. Vous pouvez l'ouvrir ou la fermer sans affecter votre travail du moment. Lorsque vous cliquez sur la bouée, un petit guide s'ouvre dans une fenêtre flottante, expliquant l'outil sur lequel vous êtes ainsi que la manière de l'utiliser \(voir Illustration : Fenêtre d'aide contextuelle\).
 
 ![](../../.gitbook/assets/images3%20%2811%29.png)
 
-Illustration 2: Aide cachée
+Illustration : Aide cachée
 
 ![](../../.gitbook/assets/illustration_4%20%287%29.png)
 
-Illustration 3: Aide dépliée
+Illustration : Aide dépliée
 
 ![](../../.gitbook/assets/images5.png)
 
-Illustration 4: Fenêtre d'aide contextuelle
+Illustration : Fenêtre d'aide contextuelle
 
 ## Terminologie <a id="terminologie"></a>
 
@@ -22,7 +22,7 @@ Chamilo est utilisé par de dizaines de milliers d'organisations dans le monde e
 
 ![](../../.gitbook/assets/images4.png)
 
-Illustration 5: Historique d'installations de Chamilo dans le monde de 2018 à 2020
+Illustration : Historique d'installations de Chamilo dans le monde de 2018 à 2020
 
 Il est clair qu'elles tendent toutes à utiliser des terminologies différentes. Par exemple, quelques institutions appellent leurs cours “sessions de formation”. D'autres les appellent “espaces d'apprentissage”, d'autres les appellent simplement “cours”. Ceci suppose un défi pour élaborer une plateforme de formation de “taille unique” \(ou même un guide utilisateur\). C'est pourquoi nous avons recherché une solution intermédiaire et employé une terminologie simple et universelle que nous espérons avoir du sens pour tous nos utilisateurs. Chamilo compte déjà plusieurs dizaines de milliers de portails Chamilo installés dans le monde. Soit autant d'organisations, petites et grandes, qui totalisent plus de 25 millions d'utilisateurs dans le monde.
 

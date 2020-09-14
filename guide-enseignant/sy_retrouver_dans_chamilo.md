@@ -4,7 +4,7 @@ Les différentes pages de cours sont accessibles rapidement en utilisant la barr
 
 ![](../.gitbook/assets/graficos3%20%283%29.png)
 
-Illustration 7: En-tête de Chamilo
+Illustration : En-tête de Chamilo
 
 Les onglets permettent d'accéder à la page d’accueil de la plateforme, la liste des cours, l’édition du profil et aux outils sociaux associés, l’agenda et aux outils de suivi ainsi qu'à se déconnecter.
 
@@ -14,11 +14,11 @@ Le premier lien, à gauche, portant le nom du cours \(_Tutoriel_ dans l'exemple 
 
 ![](../.gitbook/assets/breadcrumb.png)
 
-Illustration 8: Navigation breadcrumb
+Illustration : Navigation breadcrumb
 
 Au sein d'un cours, la « Vue apprenant » permet à l'enseignant de visionner le cours comme un apprenant. Il suffit ensuite de cliquer sur le lien « Vue prof » pour revenir en vue normal :
 
 ![](../.gitbook/assets/vue-apprenant.png)
 
-Illustration 9: Vue apprenant
+Illustration : Vue apprenant
 

@@ -19,7 +19,9 @@ Une fois les fichiers de Chamilo copiés sur le serveur, allez à l'adresse « [
 
 Si vous avez pu configurer un hôte virtuel \(ou VirtualHost en anglais\), il faudra probablement charger directement « [http://www.hotevirtuel.com/](http://www.hotevirtuel.com/) » sans le suffixe _chamilo._
 
-![](../../.gitbook/assets/debutinstall.png) _Illustration 1: Installation - Écran d'accueil_
+![](../../.gitbook/assets/debutinstall.png)
+
+Illustration : Installation - Écran d'accueil
 
 Vous devrez ensuite suivre une série d'étapes pour préciser les différents paramètres de la plateforme. Ces étapes sont quasiment identiques qu'elles soient effectuées en local ou à distance.
 
@@ -33,23 +35,31 @@ Depuis la version 1.8.8, votre langue est détectée automatiquement via les par
 
 Attention, ceci n'est **pas** la langue dans laquelle sera configurée votre plateforme Chamilo, mais bien la langue du processus d'installation, rien de plus.
 
-![](../../.gitbook/assets/graficos2.png) _Illustration 2: Installation - Choix de la langue_
+![](../../.gitbook/assets/graficos2.png)
+
+Illustration : Installation - Choix de la langue
 
 ### Étape 2 sur 6 : Pré-requis
 
 Cette étape permet de vérifier si votre serveur dispose bien de tous les éléments pour une installation correcte et complète de Chamilo:
 
-![](../../.gitbook/assets/etape2.png) _Illustration 3: Installation – Pré-requis d'extensions_
+![](../../.gitbook/assets/etape2.png)
+
+Illustration : Installation – Pré-requis d'extensions
 
 Notez que les pré-requis déjà couverts par votre système sont notés en _**vert**_, ceux qui sont obligatoires mais absents sont notés en _**rouge**_, et ceux qui ne sont pas présents mais pas non plus obligatoires sont notés en _**orange**_.
 
 Presque tous les pré-requis concernent l'installation de PHP et proposent un lien vers plus de détails. Les paramètres recommandés représentent des variables que vous pouvez modifier dans votre fichier de configuration de PHP \(_php.ini_\) ou dans la configuration de votre hôte virtuel.
 
-![](../../.gitbook/assets/image2.png) _Illustration 4: Installation - Pré-requis de configuration_
+![](../../.gitbook/assets/image2.png)
+
+Illustration : Installation - Pré-requis de configuration
 
 À la fin des pré-requis, vous retrouverez une section _Permissions sur les répertoires et fichiers_.
 
-![](../../.gitbook/assets/etape2-1.png) _Illustration 5: Installation - Pré-requis \(suite et fin\)_
+![](../../.gitbook/assets/etape2-1.png)
+
+Illustration : Installation - Pré-requis \(suite et fin\)
 
 Par défaut, sous GNU/Linux, l'écriture n'est pas autorisée sur les dossiers. Il faut changer les droits d'accès aux fichiers pour optimiser la sécurité et donner les droits suffisants à l'utilisateur correspondant au serveur Web. Cela sert à confiner les droits lors de l'exécution d'un service \(en l'occurrence le serveur Web\) et éviter qu'un pirate ne prenne trop facilement le contrôle de votre serveur. Sous Windows, c'est généralement plus simple par défaut \(mais beaucoup moins sûr\) et les permissions sont déjà suffisantes \(mais trop permissives\). En d'autres mots, la procédure est inversée : on part de quelque chose de peu sûr et on restreint les droits, alors que sous Linux on part de quelque chose de sûr et on étend les droits selon les besoins.
 
@@ -69,7 +79,9 @@ Ici, on vous explique que «Chamilo est un logiciel libre distribué sous la lic
 
 Pour passer à l'étape suivante, vous devez lire la licence et l'accepter. Vous trouverez d'autres versions \(dans votre langue\) de la licence si vous le désirez, en vous connectant au site de la Free Software Foundation, qui est l'organisme officiel édictant cette licence. Si vous avez déjà eu l'occasion de lire la licence GNU/GPLv3 et que vous êtes familier avec _Creative Commons_ et que vous êtes d'accord avec les termes de ces licences, vous pouvez immédiatement cocher la case et passer à l'étape suivante. Ces licences n’ont en rien été modifiées.
 
-![](../../.gitbook/assets/etape3.png) _Illustration 6: Installation - Licence_
+![](../../.gitbook/assets/etape3.png)
+
+Illustration : Installation - Licence
 
 Une section facultative est disponible au-dessous du bloc d'approbation de la licence. Le formulaire qui s'y trouve nous permettra de vous contacter au cas où l'Association Chamilo organiserait un événement près de chez vous, ou pour vous annoncer qu'un nouveau fournisseur officiel est disponible dans votre pays \(au cas où vous auriez besoin de services professionnels\). Ceci n'est pas obligatoire, mais nous utiliserons vos données de contact avec respect et elles nous aideront de toute façon à promouvoir les activités de l'Association Chamilo.
 
@@ -77,7 +89,9 @@ Une section facultative est disponible au-dessous du bloc d'approbation de la li
 
 Dans cette étape, on vérifie que le système de gestion de bases de données \(SGBD\) fonctionne correctement:
 
-![](../../.gitbook/assets/etape4.png) _Illustration 7: Installation - Paramètres MySQL_
+![](../../.gitbook/assets/etape4.png)
+
+Illustration : Installation - Paramètres MySQL
 
 Pour cette vérification il vous faudra compléter les différents champs proposés. Ces éléments vous sont donnés lors de la location de l'hébergement ou, s'il est installé localement, vous les avez définis lors de la mise en place du serveur [LAMP](http://fr.wikipedia.org/wiki/LAMP).
 
@@ -97,18 +111,20 @@ Une fois que tout est vérifié et correct, passez à l'étape suivante.
 
 ### Étape 5 sur 6 : Paramètres de configuration
 
-Tous les paramètres de cette étape seront modifiables via l'interface d'administration de Chamilo, à l'exception de la _Méthode d\_\_e cryptage_. Cette dernière est d'ailleurs pratiquement impossible à modifier après l'installation. Veillez à la sélectionner avec soin.
+Tous les paramètres de cette étape seront modifiables via l'interface d'administration de Chamilo, à l'exception de la _Méthode de cryptage_. Cette dernière est d'ailleurs pratiquement impossible à modifier après l'installation. Veillez à la sélectionner avec soin.
 
-![](../../.gitbook/assets/etape5.png) _Illustration 8: Installation - Paramètres de configuration généraux_
+![](../../.gitbook/assets/etape5.png) 
 
-* _Identifiant et Mot de passe de l'administrateur_: _**IMPORTANT**_ _- ces informations permettront de se connecter en tant qu'administrateur dans Chamilo. Une solution est de mettre un compte administrateur générique, non nominatif et non personnel, mais cela supprimerait la possibilité d'identifier les activités d'un des administrateurs. Il est possible, après l'installation, de définir d'autres administrateurs distincts aux pouvoirs identiques._
+Illustration : Installation - Paramètres de configuration généraux
+
+* _Identifiant et Mot de passe de l'administrateur_: **IMPORTANT** ces informations permettront de se connecter en tant qu'administrateur dans Chamilo. Une solution est de mettre un compte administrateur générique, non nominatif et non personnel, mais cela supprimerait la possibilité d'identifier les activités d'un des administrateurs. Il est possible, après l'installation, de définir d'autres administrateurs distincts aux pouvoirs identiques.
 * _Prénom et Nom de l'administrateur_: seront affichés en bas à droite de votre Chamilo avec son adresse de courriel. Il est aussi possible d'ajouter une autre information, comme « Équipe de support technique ». Chacun fait à sa convenance.
 * _Courriel de l'administrateur_: l'adresse de contact de l'administrateur.
 * _Langue principale_: la langue qui sera utilisée par défaut sur votre portail Chamilo.
 * _URL de Chamilo_: l'adresse de votre portail Chamilo \(si en local : [http://localhost/chamilo](http://localhost/chamilo); si distant : [http://www.mondomaine.com/chamilo](http://www.mondomaine.com/chamilo)\).
 * _Nom du portail et Nom abrégé de l'organisation_: ces informations seront visibles, dans certains styles graphiques, en haut à gauche du portail Chamilo et sur toutes les pages.
-* _Méthode de cryptage_: ce sont des fonctions cryptographiques qui permettent de sécuriser l'enregistrement des mots de passe des utilisateurs. Nous recommandons l’algorithme disponible le plus sûr : _b\_\_crypt_. Cette valeur étant pratiquement impossible à modifier par la suite, veillez à la choisir avec soin.
-* _Auto inscription_: à mettre à _Non\_ou \_Après approbation_ pour une installation non publique.
+* _Méthode de cryptage_: ce sont des fonctions cryptographiques qui permettent de sécuriser l'enregistrement des mots de passe des utilisateurs. Nous recommandons l’algorithme disponible le plus sûr : _bcrypt_. Cette valeur étant pratiquement impossible à modifier par la suite, veillez à la choisir avec soin.
+* _Auto inscription_: à mettre à _Non_ ou _Après approbation_ pour une installation non publique.
 * _Auto inscription en tant que créateur de cours_: à modifier en fonction des besoins.
 
 > **Note** : L'utilisateur défini à cette étape aura les droits d'administration de la plateforme. Certaines informations pourront être modifiées plus tard.
@@ -117,7 +133,9 @@ Tous les paramètres de cette étape seront modifiables via l'interface d'admini
 
 Ici, il faut vérifier les valeurs qui ont été introduites. Il est conseillé d'imprimer cette page pour conserver le mot de passe et les autres paramètres \(dans un endroit sûr\). Si une erreur est constatée, il est toujours possible de revenir en arrière. Si tout est correct, cliquez sur « Installer Chamilo».
 
-![](../../.gitbook/assets/image3.png) _Illustration 9: Installation - Récapitulatif_
+![](../../.gitbook/assets/image3.png)
+
+Illustration : Installation - Récapitulatif
 
 Une fois l'installation terminée, il suffit de se rendre sur le site en suivant le lien proposé et de se connecter avec l'identifiant défini précédemment.
 
@@ -125,7 +143,9 @@ Une fois l'installation terminée, il suffit de se rendre sur le site en suivant
 
 Une fois Chamilo installé, un dernier message d'avertissement apparaît:
 
-![](../../.gitbook/assets/dernier-parametre.png) _Illustration 10: Installation - Rapport d'installation_
+![](../../.gitbook/assets/dernier-parametre.png)
+
+Illustration : Installation - Rapport d'installation
 
 Il est possible de changer les droists d'accès au répertoire « app/config/ » en utilisant « chmod » :
 

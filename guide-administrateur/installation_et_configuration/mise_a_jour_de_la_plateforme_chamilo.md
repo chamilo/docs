@@ -8,13 +8,13 @@ En tant qu'administrateur, il est possible d'activer la notification de mise à 
 
 ![](../../.gitbook/assets/parametreschamilo_org.png)
 
-Illustration 11: Administration - Bloc Chamilo
+Illustration : Administration - Bloc Chamilo
 
 Il suffit de cliquer sur le bouton « Activer la vérification de version » pour que l'option s'active :
 
 ![](../../.gitbook/assets/graficos3fr.png)
 
-Illustration 12: Administration - Bloc Chamilo \(suite\)
+Illustration : Administration - Bloc Chamilo \(suite\)
 
 À chaque publication de nouvelle version, un message apparaîtra pour indiquer sa disponibilité. Notez que cette fonctionnalité transférera occasionnellement l'URL de votre portail, son nombre d'étudiants et son nombre de cours à l'Association, qui utilisera ces informations pour mieux promouvoir Chamilo.
 
