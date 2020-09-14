@@ -14,7 +14,7 @@ Le tableau synthétique qui s’affiche montre la liste des cours dont l'enseign
 
 Illustration : Rapport de liste de cours assignés
 
-Un clic sur le bouton « Détails » d’un cours donne accès au tableau de synthèse dudit cours qui permettra d’accéder au suivi individuel déjà décrit dans la section 16.1 - Suivi apprenants en page 91.
+Un clic sur le bouton « Détails » d’un cours donne accès au tableau de synthèse dudit cours qui permettra d’accéder au suivi individuel déjà décrit dans la section _Suivi apprenants_.
 
 Sur le premier écran, on notera également l'existence d'une icône de certificats, donnant accès à la liste de certificats des apprenants de la plateforme. Les certificats peuvent être considérés comme privés. Dans ce cas, il sera impossible de les visualiser publiquement ou si l'on ne dispose pas des autorisations adéquates.
 

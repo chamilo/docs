@@ -26,3 +26,5 @@ Attention : Cette fonctionnalité est à manier avec une extrême précaution.
 
 Illustration : Maintenance - Suppression de cours
 
+Note: Depuis la version 1.11.12, il vous est demandé de confirmer le code du cours avant de le supprimer. Question de sécurité...
+

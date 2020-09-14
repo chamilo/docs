@@ -8,4 +8,5 @@
 | Janv. 2016 | BeezNest Belgium SPRL, Yannick Warnier | info@beeznest.com | Mise à jour complète pour 1.10.\* |
 | Sep. 2017 | BeezNest Belgium SPRL, Jérôme Warnier | info@beeznest.com | Révision globale |
 | Jul. 2019 | BeezNest Belgium SPRL, Yannick Warnier | info@beeznest.com | Révision de style |
+| Aou. 2020 | BeezNest Belgium SPRL, Yannick Warnier | info@beeznest.com | Mise à jour et révision de style |
 

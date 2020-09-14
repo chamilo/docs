@@ -10,5 +10,5 @@ La date de publication de chaque parcours permet d'avoir une idée de la chronol
 
 À partir de cet écran, l'apprenant peut entrer directement dans ses parcours en cliquant sur leur nom.
 
-**Note** : il existe 3 types de vue pour les parcours : **Tous, Par semaine**_**\*\***_et **Par cours**. Ils n'affectent que la manière dont s'affichent leurs contenus, donc n'hésitez pas à les essayer.
+**Note** : il existe 3 types de vue pour les parcours : **Tous, Par semaine et Par cours**. Ils n'affectent que la manière dont s'affichent leurs contenus, donc n'hésitez pas à les essayer.
 
