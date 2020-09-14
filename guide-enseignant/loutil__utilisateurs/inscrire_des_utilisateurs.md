@@ -7,7 +7,9 @@ Voyons ensemble comment inscrire des utilisateurs...
 * pour inscrire plusieurs personnes en une seule opération, cocher le\(s\) utilisateur\(s\) à inscrire au cours \(colonne de gauche\), vérifier que la liste des actions possibles affiche le lien « Inscrire » et cliquer sur le bouton « Sélectionnez »,
 * un message de confirmation s’affiche, ainsi qu’un « feedback » en haut de la page, qui rappelle le nom des apprenants inscrits.
 
-![](../../.gitbook/assets/image158%20%281%29.png)Illustration 104: Utilisateurs - Inscrire des apprenants
+![](../../.gitbook/assets/image158%20%281%29.png)
+
+Illustration : Utilisateurs - Inscrire des apprenants
 
 ## Ajouter des responsables <a id="ajouter-des-responsables"></a>
 
@@ -62,7 +64,7 @@ Parmi les nombreuses informations disponibles, il est possible de corriger les t
 
 ![](../../.gitbook/assets/suivigraph%20%281%29.png)
 
-Illustration 105: Utilisateurs - Détails d'accès
+Illustration : Utilisateurs - Détails d'accès
 
 Depuis cet écran, il est possible :
 

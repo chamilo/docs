@@ -6,7 +6,9 @@ Il permet de préparer un rapport de compétences qui présentera les résultats
 
 Avant d'aller plus loin dans l'explication de l'outil de cahier de notes, assurez-vous qu'au moins un apprenant est inscrit dans votre cours. C'est pour cette raison que nous avons placé le Chapitre 18. : L'outil « Utilisateurs » avant ce chapitre. Dans le cadre de ce guide, il sera beaucoup plus simple de procéder par exemples si quelques apprenants sont déjà inscrits dans votre cours. N'oubliez pas que l'apprenant ne pourra de toute façon pas voir le cours si celui-ci est configuré comme cours fermé.
 
-![](../../.gitbook/assets/image167%20%281%29.png)Illustration 106: Cahier de notes - Exemple
+![](../../.gitbook/assets/image167%20%281%29.png)
+
+Illustration : Cahier de notes - Exemple
 
 Dans la capture d'écran ci-dessous, on peut déjà sentir une certaine complexité. Cet outil est, en effet, l'un des plus complets et complexes à utiliser dans Chamilo, avec les parcours d'apprentissage.
 

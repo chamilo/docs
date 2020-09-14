@@ -8,7 +8,9 @@ Pour corriger un travail et lui affecter une note \(pour cela, il est impératif
     * de modifier le titre ou la description du document \(à utiliser avec parcimonie\)
     * saisir une note dans le champ « Évaluation »
 
-![](../../.gitbook/assets/image152%20%281%29.png)Illustration 102: Travaux - Corriger un travail
+![](../../.gitbook/assets/image152%20%281%29.png)
+
+Illustration : Travaux - Corriger un travail
 
 Pour enregistrer la note, cliquer sur le bouton « Mettre le document à jour ».
 

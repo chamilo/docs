@@ -2,7 +2,9 @@
 
 L'outil « Utilisateurs » reprend toutes les personnes inscrites au cours. Il permet de gérer la liste des inscrits, d'inscrire de nouveaux apprenants, et de leur affecter un rôle ou des responsabilités. Il permet aussi de suivre les activités des différentes personnes inscrites au cours.
 
-![](../../.gitbook/assets/image157%20%281%29.png)Illustration 103: Utilisateurs - Écran principal
+![](../../.gitbook/assets/image157%20%281%29.png)
+
+Illustration : Utilisateurs - Écran principal
 
 À partir de la version 1.10, afin de gérer la complexité croissante de la gestion des apprenants, des enseignants, des groupes et des classes, l'interface a été modifiée considérablement en séparant ces concepts sous différents onglets.
 
