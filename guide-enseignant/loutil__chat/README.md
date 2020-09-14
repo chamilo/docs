@@ -1,6 +1,6 @@
 # L'outil « Chat »
 
-![](../../.gitbook/assets/image305%20%281%29.svg)
+![](../../.gitbook/assets/chat.png)
 
 L'outil « Chat » est une « messagerie instantanée » qui permet d’échanger en direct avec les apprenants inscrits au cours. Il fonctionne dans une page web.
 

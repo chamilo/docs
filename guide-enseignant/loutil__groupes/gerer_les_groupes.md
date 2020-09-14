@@ -5,8 +5,8 @@ La gestion individuelle des groupes fait appel à des commandes connues et à d�
 | Icônes | Fonctionnalités |
 | :--- | :--- |
 | ![](../../.gitbook/assets/graficos99%20%283%29.png) | Modifier les paramètres d’un groupe |
-| ![](../../.gitbook/assets/graficos100%20%283%29.png) | Supprimer \(après demande de confirmation\) un groupe |
-| ![](../../.gitbook/assets/graficos101%20%283%29.png) | Remplir le groupe de façon « aléatoire » |
+| ![](../../.gitbook/assets/graficos27.png) | Supprimer \(après demande de confirmation\) un groupe |
+|  | Remplir le groupe de façon « aléatoire » |
 | ![](../../.gitbook/assets/graficos102%20%283%29.png) | Vider le groupe |
 
 ## La gestion par lots <a id="la-gestion-par-lots"></a>
