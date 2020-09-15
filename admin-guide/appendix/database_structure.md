@@ -2,7 +2,10 @@
 
 Als je geïnteresseerd bent in de databasestructuur voor Chamilo 1.9, kijk dan op onze wiki voor het volledige schema: [http://support.chamilo.org/projects/chamilo-18/wiki/Database_schema](http://support.chamilo.org/projects/chamilo-18/wiki/Database_schema) . Weet gewoon dat er ongeveer 180 tafels zijn, met veel onderlinge verbindingen, dus zorg ervoor dat u het goed doet voordat u ermee probeert te knoeien. Er zijn verschillende mechanismen om plug-ins te ontwikkelen op basis van de huidige structuur, zonder deze te wijzigen. Neem contact op met de ontwikkelaars via IRC (zie de voettekst van onze website) of via [http://support.chamilo.org/projects/chamilo-18](http://support.chamilo.org/projects/chamilo-18) als je je verloren voelt.
 
-![](../../.gitbook/assets/images51%20%281%29.png)Afbeelding:  Chamilo LMS 1.9 database-structuur
+![](../../.gitbook/assets/images51%20%281%29.png)
+ 
+ 
+Afbeelding:  Chamilo LMS 1.9 database-structuur
 
 De databasestructuur is drastisch veranderd tussen Dokeos of Chamilo LMS 1.8 en Chamilo LMS 1.9. We hebben alles naar één database verplaatst zonder tabelreplicatie, wat ons nu een reeks nieuwe kansen biedt voor mash-ups tussen cursussen.
 

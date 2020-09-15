@@ -4,7 +4,10 @@ De platformbeheerder kan elke cursus opslaan vanuit (onder andere methoden) de a
 
 1. Ga naar: «Administratie» → «Lijst met cursussen» :
 
-![](../../../.gitbook/assets/images13%20%288%29.png)Afbeelding: Ade back-up. Klik op *Back-up genereren* .
+![](../../../.gitbook/assets/images13%20%288%29.png)
+ 
+ 
+Afbeelding: Ade back-up. Klik op *Back-up genereren* .
 
 1. Klik op het cd-pictogram om de cursus te exporteren.
 

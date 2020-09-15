@@ -2,7 +2,10 @@
 
 De speciale exportfunctie is ontworpen om de academische inspecteur te helpen. Hiermee kan hij alle documenten (en alleen documenten) van alle cursussen in één enkele (zij het zeer zware) bewerking exporteren. Met een tweede optie kan hij de documenten kiezen uit de cursussen die hij wil.
 
-![](../../.gitbook/assets/export-speciaux.png)Afbeelding: Administratie - Speciale uitvoer
+![](../../.gitbook/assets/export-speciaux.png)
+ 
+ 
+Afbeelding: Administratie - Speciale uitvoer
 
 Er is op dit moment geen geautomatiseerde manier om die cursussen rechtstreeks uit de speciale export te importeren (het is meer bedoeld als een manier om snel al uw documenten te exporteren), maar als u ze wilt importeren, een manier om dit te doen:
 

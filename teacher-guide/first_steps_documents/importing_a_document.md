@@ -12,7 +12,10 @@ Afbeelding: Documenten - Documenten uploaden
 
 Klik op het groene gebied om de bestanden op uw schijf te verkennen en selecteer een (s) om te uploaden. Klik in het pop-upvenster op de bevestigingsknop. Het uploaden van de documenten begint. Als u meerdere bestanden tegelijkertijd verzendt, ziet u hun uploadvoortgang live, zoals in de volgende illustratie.
 
-![](../../.gitbook/assets/graphics119%20%281%29.png)Afbeelding: Documenten - Bezig met uploaden van documenten
+![](../../.gitbook/assets/graphics119%20%281%29.png)
+ 
+ 
+Afbeelding: Documenten - Bezig met uploaden van documenten
 
 Zodra het uploaden is voltooid, wordt de volgende validatielijst weergegeven.
 

@@ -15,7 +15,10 @@ Alleen maar
 
 Volg deze stappen om een CSV/XML-bestand te importeren:
 
-![](../../.gitbook/assets/importerliste_-utilisateurs%20%281%29.png)Afbeelding: Administratie - Gebruikers importeren
+![](../../.gitbook/assets/importerliste_-utilisateurs%20%281%29.png)
+ 
+ 
+Afbeelding: Administratie - Gebruikers importeren
 
 - zoek in *Browse* naar het bestand,
 - kies het bestandsformaat (CSV of XML),

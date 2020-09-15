@@ -4,7 +4,10 @@ Sinds versie 1.9 gebruikt Chamilo het Twig-templating-systeem om delen van het v
 
 Dit betekent dat u Chamilo nu gemakkelijker kunt veranderen. De volgende schermafbeelding is bijvoorbeeld afkomstig van een Chamilo 1.9-installatie die is gewijzigd via sjablonen. Hoewel de meeste visuele wijzigingen kunnen worden aangebracht via CSS, zijn er een aantal dingen die gewoon niet op deze manier kunnen worden gedaan, zoals het tonen van nieuwe visuele elementen.
 
-![](../../.gitbook/assets/images50%20%281%29.png)Afbeelding: Voorbeeldportaal met een ander sjabloon
+![](../../.gitbook/assets/images50%20%281%29.png)
+ 
+ 
+Afbeelding: Voorbeeldportaal met een ander sjabloon
 
 Zoals je kunt zien, zijn klassieke elementen van Chamilo verplaatst, getoond of verborgen, afhankelijk van het gewenste uiteindelijke uiterlijk.
 

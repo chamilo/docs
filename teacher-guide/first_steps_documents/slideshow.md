@@ -4,7 +4,10 @@ Als u veel afbeeldingen in uw mappen heeft geüpload en u ze allemaal tegelijk w
 
 U krijgt een soort "diavoorstelling" -weergave te zien van de afbeeldingen in die map. Elke afbeelding is voorzien van een onderschrift met de naam, afmetingen en grootte op schijf.
 
-![](../../.gitbook/assets/images289%20%281%29.png)Afbeelding: Fotogalerij - Diavoorstelling
+![](../../.gitbook/assets/images289%20%281%29.png)
+ 
+ 
+Afbeelding: Fotogalerij - Diavoorstelling
 
 Het kan praktischer zijn om het pictogram voor kleine miniaturen weergeven te selecteren <img> in de diashow-werkbalk om u alle afbeeldingen in één keer te laten zien (als miniaturen), zoals hieronder geïllustreerd:
 

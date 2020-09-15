@@ -12,4 +12,7 @@ Vanaf de *Forum* pagina:
     - beslissen of het forum van een groep is, of het openbaar of privé is,
 - klik op de knop Formulier maken.
 
-![](../../.gitbook/assets/graphics4%20%281%29.png)Afbeelding: Forum - Formulier voor het maken van een forum
+![](../../.gitbook/assets/graphics4%20%281%29.png)
+ 
+ 
+Afbeelding: Forum - Formulier voor het maken van een forum

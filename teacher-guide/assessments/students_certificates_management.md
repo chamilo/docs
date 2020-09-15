@@ -20,7 +20,10 @@ En jij kan! Om toegang te krijgen tot het certificatenbeheer, klikt u op het cer
 
 Dit leidt u naar de lijst met certificaten, die alle tot nu toe gegenereerde certificaten toont.
 
-![](../../.gitbook/assets/image14%20%288%29.png)Afbeelding: Beheerpagina voor certificaten
+![](../../.gitbook/assets/image14%20%288%29.png)
+ 
+ 
+Afbeelding: Beheerpagina voor certificaten
 
 De pagina biedt u 5 opties:
 

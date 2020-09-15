@@ -6,7 +6,10 @@ Vanaf jaar één (2011) creëer je promotie 2016 voor zowel geneeskunde (PROMMED
 
 Laten we het vorige schema opnieuw gebruiken als referentie:
 
-![](../../../.gitbook/assets/graficos92%20%281%29.png)Afbeelding: cursussen, sessies, promoties en carrières
+![](../../../.gitbook/assets/graficos92%20%281%29.png)
+ 
+ 
+Afbeelding: cursussen, sessies, promoties en carrières
 
 Deze twee promoties zullen het resultaat zijn van 5 jaar studie (laten we afspreken dat de minimale cursusduur een jaar is). Je hebt dus 5 **periodes** van elk een jaar, die leiden tot een promotie in 2016.
 

@@ -10,7 +10,10 @@ Hiermee kunt u een overzichtsrapport opstellen met de prestaties van de leerling
 
 De leerling kan de assessments-tool gebruiken als een "cijferlijst" om zijn eigen voortgang bij te houden, en krijgt een eenvoudigere, persoonlijkere weergave te zien wanneer hij klikt op de tool _A\_\_ssessments_ die er ongeveer zo uitziet:
 
-![](../../.gitbook/assets/graphics192%20%281%29.png)Afbeelding: Assessments - Voorbeeld van leerlingweergave
+![](../../.gitbook/assets/graphics192%20%281%29.png)
+ 
+ 
+Afbeelding: Assessments - Voorbeeld van leerlingweergave
 
 
 ';k/'p;k'kpih

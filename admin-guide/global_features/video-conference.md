@@ -10,17 +10,26 @@ U vindt de geheime sleutel die tp gebruikt in de configuratie van de Chamilo-plu
 
 Zodra deze twee gegevens in uw bezit zijn, gaat u naar de sectie Chamilo-instellingen, *Plugins*. Schakel de *BigBlueButton*-plug-in in en sla op. ** Herlaad de pagina ** zodat de nieuwe categorie "Extra" met instellingen verschijnt in de actiebalk bovenaan de pagina (een toverstaf) en klik erop. Voer de gegevens van uw videoconferentieserver in. Nu hoef je alleen nog maar de integratie te controleren door naar een cursus te gaan en op de link *Video-conferentie* te klikken.
 
-![](../../.gitbook/assets/images48%20%281%29.png)Afbeelding: De tool voor videoconferenties in een cursus
+![](../../.gitbook/assets/images48%20%281%29.png)
+ 
+ 
+Afbeelding: De tool voor videoconferenties in een cursus
 
 Cursusdocenten en coaches zijn de enigen die een videoconferentieruimte kunnen **starten**. Zij zijn ook de enigen die de status van moderator hebben binnen de conferentie.
 
-![](../../.gitbook/assets/images62%20%281%29.png)Afbeelding: pagina van het hulpprogramma voor videoconferenties met een lijst met opnamen
+![](../../.gitbook/assets/images62%20%281%29.png)
+ 
+ 
+Afbeelding: pagina van het hulpprogramma voor videoconferenties met een lijst met opnamen
 
 Studenten kunnen geen verbinding maken in een videoconferentie als hun leraar eerder een kamer heeft geopend (anders laadt het klikken op de videoconferentie-link gewoon de startpagina van de cursus).
 
 Als je opnames wilt inschakelen (die veel ruimte op je videoconferentieserver in beslag nemen), moet je naar de cursusinstellingen gaan en de functie inschakelen.
 
-![](../../.gitbook/assets/images63.png)Afbeelding: Videoconferentie koersinstelling voor opname
+![](../../.gitbook/assets/images63.png)
+ 
+ 
+Afbeelding: Videoconferentie koersinstelling voor opname
 
 Als u het niet kunt installeren, aarzel dan niet om contact op te nemen met de officiële providers van Chamilo, die u graag toegang verlenen tot hun vooraf geconfigureerde videoconferentieservers.
 

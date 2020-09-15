@@ -2,4 +2,7 @@
 
 Klik op het pictogram Gebruikers toevoegen om snel cursusleden aan een groep toe te voegen ![](../../.gitbook/assets/graphics283%20%283%29.png) aan de rechterkant van de groepsvermelding op de hoofdpagina *Groups*. Gebruik de batchverwerking (vervolgkeuzelijst onderaan) om automatisch meerdere groepen te vullen. U kunt geen parameters instellen voor het vullen van groepen (bijv. Alfabetisch, willekeurig enz), maar u kunt het groepslidmaatschap altijd achteraf handmatig bewerken. U kunt alle leden uit een groep verwijderen door op het pictogram Alle gebruikers opzeggen te klikken ![](../../.gitbook/assets/graphics284%20%283%29.png) in de aanbieding. Als je een lange lijst met groepen moet beheren, gebruik dan de selectievakjes aan de linkerkant en de optie voor batchverwerking (d.w.z. de vervolgkeuzelijst onderaan) om automatisch meerdere groepen te vullen:
 
-![](../../.gitbook/assets/images215%20%283%29.png)Afbeelding: Groepen - groepen automatisch aanvullen
+![](../../.gitbook/assets/images215%20%283%29.png)
+ 
+ 
+Afbeelding: Groepen - groepen automatisch aanvullen

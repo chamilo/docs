@@ -6,7 +6,10 @@ Een groot voordeel van Chamilo ten opzichte van andere leerbeheersystemen is dat
 
 De pictogrammen die zijn gemarkeerd met een gele asterisk, staan voor creatiehulpmiddelen. Eerst en vooral kan de docent rechtstreeks nieuwe rich media-documenten maken via de documententool, zonder dat daarvoor een extern authoringsysteem nodig is. Klik gewoon op het pictogram voor het *maken van een rich media-pagina/activiteit* ![](../../.gitbook/assets/graphics118%20%283%29.png) in de gewenste map. Er verschijnt een volledig functionele online editor.
 
-![](../../.gitbook/assets/images39%20%285%29.png)Afbeelding: Documenten - Een nieuw document aanmaken
+![](../../.gitbook/assets/images39%20%285%29.png)
+ 
+ 
+Afbeelding: Documenten - Een nieuw document aanmaken
 
 Nadat u het document een naam hebt gegeven, is het mogelijk om alle opties in de ingesloten RTF-editor te gebruiken om ze op te maken. De editor ondersteunt een breed scala aan elementen, waaronder tabellen, afbeeldingen, audio, video, flash, enz. Het bevat een html-editor, wat betekent dat, voor degenen met enige kennis van scripting, the sky the limit is in termen van rijke inhoud!)
 

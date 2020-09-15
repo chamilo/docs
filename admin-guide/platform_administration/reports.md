@@ -4,4 +4,7 @@ Deze sectie \(beschikbaar vanaf Chamilo LMS 1.9.4\) zou "Executive rapportage" g
 
 Ervan uitgaande dat u in elke cursus maar één leertraject en één “assessment” heeft, geeft het u ook de voortgang van het leertraject, of de student 100% vooruitgang heeft behaald en of hij zijn certificaat heeft afgedrukt of niet.
 
-![](../../.gitbook/assets/images38%20%281%29.png)Afbeelding: Administratie - Rapportage van leidinggevenden
+![](../../.gitbook/assets/images38%20%281%29.png)
+ 
+ 
+Afbeelding: Administratie - Rapportage van leidinggevenden

@@ -2,7 +2,10 @@
 
 De sectie Leerpad ![](../../.gitbook/assets/graphics327%20%283%29.png) kan worden gebruikt om de *auto-lancering* van leertrajecten en de stijl (of grafisch thema) voor de cursus mogelijk te maken.
 
-![](../../.gitbook/assets/images246%20%283%29.png)Afbeelding: Cursusinstellingen - Leerpadinstellingen
+![](../../.gitbook/assets/images246%20%283%29.png)
+ 
+ 
+Afbeelding: Cursusinstellingen - Leerpadinstellingen
 
 Afbeelding: Cursusinstellingen - Leerpadinstellingen
 

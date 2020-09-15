@@ -9,7 +9,10 @@ De beheerder kan gebruikers toevoegen door ze vanuit een leeg formulier te maken
 
 Er zijn echter geavanceerde opties waar men op moet letten.
 
-![](../../.gitbook/assets/graficos79.png)Afbeelding: Administratie - Oprichting van sociale groepen
+![](../../.gitbook/assets/graficos79.png)
+ 
+ 
+Afbeelding: Administratie - Oprichting van sociale groepen
 
 Het wachtwoord kan automatisch worden gegenereerd of kan worden toegewezen door de beheerder. Vergeet, afhankelijk van de behoeften van de situatie, de optie "Stuur een e-mail naar de nieuwe gebruiker" niet.
 
