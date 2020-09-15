@@ -19,10 +19,10 @@ Zodra het document is aangemaakt/bewerkt, slaat u het op door op de knop *Create
 
 Andere soorten documenten kunnen worden aangemaakt, afhankelijk van uw browser en de portaalconfiguratie (vraag uw beheerder om deze extra functies in te schakelen als u ze niet in de werkbalk ziet).
 
-Icoon | Voorzien zijn van
-:-- | :--
-![](../../.gitbook/assets/images40%20%287%29.png) | Met de *draw* functie kunt u diagrammen of schema's tekenen in een vectorformaat, dat opnieuw kan worden bewerkt of geëxporteerd naar het bitmapformaat.
-![](../../.gitbook/assets/images41%20%287%29.png) | De functie *foto retoucheren* lijkt sterk op de _Photoshop_® tool en maakt het mogelijk om afbeeldingen of andere bitmapafbeeldingen te bewerken, knippen, kleuren enz..
-![](../../.gitbook/assets/images42%20%287%29.png) | Met de audio-opname kunt u audiotracks rechtstreeks vanuit uw browser opnemen met uw microfoon (op een laptop is de microfoon meestal ingebouwd). Hiervoor is Flash®- of Java®-appletbrowserondersteuning vereist.
-![](../../.gitbook/assets/images43%20%287%29.png) | Met de op tekst gebaseerde functie voor het genereren van stemmen kunt u de computer voor u laten spreken. Probeer het. Je zult verrast zijn door de kwaliteit van de gegenereerde stemmen.
-![](../../.gitbook/assets/images287%20%283%29.png) | Met de webcamclipfunctie kunt u rechtstreeks beeldmateriaal opnemen vanaf de webcam van uw laptop. Flash® is hiervoor vereist.
+|Icoon | Voorzien zijn van |
+|:-- | :-- |
+|![](../../.gitbook/assets/images40%20%287%29.png) | Met de *draw* functie kunt u diagrammen of schema's tekenen in een vectorformaat, dat opnieuw kan worden bewerkt of geëxporteerd naar het bitmapformaat. |
+|![](../../.gitbook/assets/images41%20%287%29.png) | De functie *foto retoucheren* lijkt sterk op de _Photoshop_® tool en maakt het mogelijk om afbeeldingen of andere bitmapafbeeldingen te bewerken, knippen, kleuren enz.. |
+|![](../../.gitbook/assets/images42%20%287%29.png) | Met de audio-opname kunt u audiotracks rechtstreeks vanuit uw browser opnemen met uw microfoon (op een laptop is de microfoon meestal ingebouwd). Hiervoor is Flash®- of Java®-appletbrowserondersteuning vereist. |
+|![](../../.gitbook/assets/images43%20%287%29.png) | Met de op tekst gebaseerde functie voor het genereren van stemmen kunt u de computer voor u laten spreken. Probeer het. Je zult verrast zijn door de kwaliteit van de gegenereerde stemmen. |
+|![](../../.gitbook/assets/images287%20%283%29.png) | Met de webcamclipfunctie kunt u rechtstreeks beeldmateriaal opnemen vanaf de webcam van uw laptop. Flash® is hiervoor vereist. |
