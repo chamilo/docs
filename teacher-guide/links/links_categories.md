@@ -9,5 +9,5 @@ U kunt in Chamilo categorieën met links maken, waardoor u een betere organisati
 
 ![](../../.gitbook/assets/images156%20%284%29.png)
 
-Afbeelding 122: Links - Voeg een categorie toe
+Afbeelding: Links - Voeg een categorie toe
 

@@ -10,10 +10,10 @@ Als beheerder kunt u de versie-updatemelding inschakelen via het tabblad Beheer,
 
 Klik gewoon eenmaal op de knop *Enable version check* om de functie in te schakelen.
 
-![](../../../.gitbook/assets/images15%20%281%29.png)Afbeelding 13: Administratie - Versiecontroleblok (up-to-date)
+![](../../../.gitbook/assets/images15%20%281%29.png)Afbeelding: Administratie - Versiecontroleblok (up-to-date)
 
 ![](../../../.gitbook/assets/images15%20%281%29.png)
 
-![](../../../.gitbook/assets/images16%20%281%29.png)Afbeelding 14: Administratie - Versiecontroleblok (verouderd)
+![](../../../.gitbook/assets/images16%20%281%29.png)Afbeelding: Administratie - Versiecontroleblok (verouderd)
 
 Merk op dat deze functie ons tegelijkertijd wat statistische informatie over uw portaal stuurt: het openbare e-mailadres van het ondersteuningsteam, de URL van de openbare portal, het aantal gebruikers en cursussen. Op deze manier kunnen we gemakkelijk tellen hoeveel mensen Chamilo over de hele wereld gebruiken.

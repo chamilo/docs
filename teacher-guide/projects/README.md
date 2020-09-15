@@ -10,5 +10,5 @@ De tool kan echter worden gebruikt als een klassieke blog.
 
 ![](../../.gitbook/assets/images237%20%283%29.png)
 
-Afbeelding 162: Projecten - lijst
+Afbeelding: Projecten - lijst
 

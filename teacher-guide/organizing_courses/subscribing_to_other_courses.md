@@ -6,7 +6,7 @@ Als u op de koppeling _Cursuscatalogus_ klikt, wordt een lijst met cursussen wee
 
 ![](../../.gitbook/assets/images21%20%289%29.png)
 
-Afbeelding 23: Cursuscatalogus
+Afbeelding: Cursuscatalogus
 
 Zodra u uw cursus heeft gevonden, klikt u op het groene _Subscribe_ pictogram om u erop te abonneren. Het abonnement geeft de gebruiker de status **leerling**.
 

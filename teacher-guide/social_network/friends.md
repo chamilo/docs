@@ -15,5 +15,5 @@ De _Friends_ link ![](../../.gitbook/assets/graphics342%20%281%29.png) verzamelt
 
 ![](../../.gitbook/assets/images259%20%283%29.png)
 
-Afbeelding 191: Sociaal netwerk - Gedeeld profiel
+Afbeelding: Sociaal netwerk - Gedeeld profiel
 

@@ -4,7 +4,7 @@ Klik op de pagina _Rapportage_ op het pictogram _details_ ![](../../.gitbook/ass
 
 ![](../../.gitbook/assets/graphics54%20%281%29.png)
 
-Afbeelding 88: Rapportage - gegevens van individuele studenten
+Afbeelding: Rapportage - gegevens van individuele studenten
 
 De informatie kan worden afgedrukt ![](../../.gitbook/assets/graphics51%20%283%29.png) , geëxporteerd als een csv-bestand ![](../../.gitbook/assets/graphics185%20%283%29.png) of gemaild ![](../../.gitbook/assets/graphics186%20%283%29.png) door op het relevante werkbalkpictogram bovenaan de pagina te klikken. Verdere details over testpogingen en scores en voortgang door leertrajecten zijn toegankelijk door op de verschillende pictogrammen op de pagina te klikken.
 
@@ -12,4 +12,4 @@ Klik op het pictogram _Toegangsdetails_ ![](../../.gitbook/assets/graphics184%20
 
 ![](../../.gitbook/assets/graphics183%20%281%29.png)
 
-Afbeelding 89: Gebruikers - Toegang tot details
+Afbeelding: Gebruikers - Toegang tot details

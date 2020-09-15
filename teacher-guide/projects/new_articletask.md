@@ -10,5 +10,5 @@ Vanaf de homepage van het project:
 
 ![](../../.gitbook/assets/graphics314%20%283%29.png)
 
-Afbeelding 165: Projecten - Nieuwe taak
+Afbeelding: Projecten - Nieuwe taak
 

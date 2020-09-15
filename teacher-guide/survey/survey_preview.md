@@ -4,5 +4,5 @@ Nadat de vragen zijn gemaakt, kunt u een voorbeeld van uw enquête bekijken voor
 
 ![](../../.gitbook/assets/images225%20%283%29.png)
 
-Afbeelding 156: Enquêtes - Voorbeeld van enquête
+Afbeelding: Enquêtes - Voorbeeld van enquête
 

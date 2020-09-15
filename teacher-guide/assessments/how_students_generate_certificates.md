@@ -6,6 +6,6 @@ De certificaatpagina gebruikt een unieke URL, dus de student kan de link gewoon 
 
 ![](../../.gitbook/assets/image12%20%2810%29.png)
 
-Afbeelding 116: Optie openbare certificaten
+Afbeelding: Optie openbare certificaten
 
 Een eenmaal gegenereerd certificaat kan niet worden geannuleerd door de student. De docent moet de tool voor het beheer van certificaten openen om deze te verwijderen en de leerling opnieuw te laten genereren.

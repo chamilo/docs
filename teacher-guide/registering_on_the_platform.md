@@ -4,7 +4,7 @@ Zoals bij elk webplatform, moeten gebruikers die toegang willen hebben tot de in
 
 ![](../.gitbook/assets/image2%20%2811%29.png)
 
-Afbeelding 8: pagina "Mijn cursussen"
+Afbeelding: pagina "Mijn cursussen"
 
 Eenmaal verbonden, heeft de leraar toegang tot alle cursussen waarop hij is geregistreerd:
 

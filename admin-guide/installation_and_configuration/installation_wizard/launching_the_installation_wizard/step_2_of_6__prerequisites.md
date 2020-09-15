@@ -10,7 +10,7 @@ Bijna alle vereisten hebben betrekking op de PHP-installatie en bieden links naa
 
 Aan het einde van de pagina met vereisten vindt u een sectie *Permissions op mappen en bestanden*.
 
-![](../../../../.gitbook/assets/images5%20%281%29.png)Afbeelding 5: Installatie - Voorwaarden (einde)
+![](../../../../.gitbook/assets/images5%20%281%29.png)Afbeelding: Installatie - Voorwaarden (einde)
 
 Standaard is onder GNU/Linux schrijven niet toegestaan in mappen. U moet de toegang tot bestanden wijzigen om de beveiliging te optimaliseren en voldoende machtigingen te geven aan de gebruiker die de webserver uitvoert. Deze zorgen ervoor dat de permissies worden beperkt tijdens het uitvoeren van een service (in dit geval *Apache*) en voorkomen dat een cracker te gemakkelijk de controle over uw server kan krijgen.
 

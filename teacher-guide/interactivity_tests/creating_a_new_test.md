@@ -4,17 +4,17 @@ Het maken van een nieuwe test is heel eenvoudig. Klik op het pictogram voor het 
 
 ![](../../.gitbook/assets/graphics133%20%281%29.png)
 
-*Afbeelding 44: Oefeningen - Maak een nieuwe test*
+*Afbeelding: Oefeningen - Maak een nieuwe test*
 
 Als u ervoor kiest om *een context aan de test te geven* _![](../../.gitbook/assets/graphics131%20%281%29.png)_u kunt de online editor gebruiken om een verklarende sectie samen te stellen die zichtbaar zal zijn voor studenten wanneer ze de test maken.
 
 De test wordt weergegeven op de hoofdpagina van de testtool, samen met andere tests die in de cursus zijn gemaakt:
 
-![](../../.gitbook/assets/graphics134%20%281%29.png)Afbeelding 45: Oefeningen - lijst
+![](../../.gitbook/assets/graphics134%20%281%29.png)Afbeelding: Oefeningen - lijst
 
 Omdat er zoveel verschillende manieren zijn waarop de testtool kan worden gebruikt, is de kans groot dat de standaardopties niet helemaal aan uw wensen voldoen. Let daarom goed op de uitgebreide sectie Advanced *settings* die beschikbaar is op de *create/edit test* pagina:
 
-![](../../.gitbook/assets/graphics135%20%281%29.png)Afbeelding 46: Oefeningen - Een oefening maken - Geavanceerde opties
+![](../../.gitbook/assets/graphics135%20%281%29.png)Afbeelding: Oefeningen - Een oefening maken - Geavanceerde opties
 
 De instellingen zijn vrij vanzelfsprekend:
 

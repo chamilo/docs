@@ -4,5 +4,5 @@ Het analyseren van enquêteresultaten kan een vermoeiend proces zijn. De tools i
 
 ![](../../.gitbook/assets/images227%20%283%29.png)
 
-Afbeelding 159: Enquêtes - resultaten
+Afbeelding: Enquêtes - resultaten
 

@@ -4,6 +4,6 @@ De tool _Persoonlijke notities_ \(of _Notebook_\) ![](../../.gitbook/assets/grap
 
 ![](../../.gitbook/assets/images235%20%283%29.png)
 
-Afbeelding 160: Notebook - Lijst
+Afbeelding: Notebook - Lijst
 
 Notities kunnen indien nodig worden bijgewerkt en de aanmaakdatums en de laatste update worden opgeslagen. Notities gemaakt door een gebruiker zijn niet zichtbaar voor andere gebruikers. In die zin zijn ze inderdaad persoonlijk.

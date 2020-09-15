@@ -7,4 +7,4 @@ In de *Forum* tool:
 - voeg eventueel een opmerking toe,
 - klik op *Categorie aanmaken.*
 
-![](../../.gitbook/assets/graphics3%20%281%29.png)Afbeelding 69: Forum - Nieuwe categorie
+![](../../.gitbook/assets/graphics3%20%281%29.png)Afbeelding: Forum - Nieuwe categorie

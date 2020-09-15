@@ -15,13 +15,13 @@ Alleen maar
 
 Volg deze stappen om een CSV/XML-bestand te importeren:
 
-![](../../.gitbook/assets/importerliste_-utilisateurs%20%281%29.png)Afbeelding 52: Administratie - Gebruikers importeren
+![](../../.gitbook/assets/importerliste_-utilisateurs%20%281%29.png)Afbeelding: Administratie - Gebruikers importeren
 
 - zoek in *Browse* naar het bestand,
 - kies het bestandsformaat (CSV of XML),
 - kies of u een welkomstmail wilt sturen naar nieuwe gebruikers die via deze import zijn gemaakt,
 - klik op *Import*
 
-Afbeelding 53: Administratie - Gebruikers importeren rapport
+Afbeelding: Administratie - Gebruikers importeren rapport
 
 Het rapportbericht toont conflicten die mogelijk zijn opgetreden en de lijst met gebruikers die mogelijk niet zijn geïmporteerd.

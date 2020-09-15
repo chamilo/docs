@@ -2,13 +2,13 @@
 
 ![](../.gitbook/assets/images14%20%2810%29.png)
 
-Afbeelding 13: Persoonlijke menublokken
+Afbeelding: Persoonlijke menublokken
 
 Het aanmaken van een cursus is snel en gemakkelijk, en kan gedaan worden vanaf de _Mijn cursussen_ pagina.
 
 Opmerking: op sommige portals, hebben docenten mogelijk geen toestemming om nieuwe cursussen te maken en krijgen ze gewoon vooraf-gemaakte cursussen toegewezen door de beheerder.
 
-Klik op _Create course_ in de zijkolom. Vul het verplichte veld “Cursusnaam” in \(zie Afbeelding 14: Een cursus aanmaken - korte versie\) en klik op de knop. Dat is het.
+Klik op _Create course_ in de zijkolom. Vul het verplichte veld “Cursusnaam” in \(zie Afbeelding: Een cursus aanmaken - korte versie\) en klik op de knop. Dat is het.
 
 De cursus is zichtbaar voor de maker van de cursus en\(later\) voor de gebruikers die erop zijn geabonneerd. De persoon die de cursus maakt, is standaard verantwoordelijk voor de administratie van deze cursus. Ze wordt doorgaans de **Cursuseigenaar** of **Cursusmaker** genoemd.
 
@@ -16,7 +16,7 @@ Om de cursus te maken, hoeft u slechts één element in te voeren, namelijk een 
 
 ![](../.gitbook/assets/images15%20%2810%29.png)
 
-Afbeelding 14: Een cursus maken - korte versie
+Afbeelding: Een cursus maken - korte versie
 
 Extra **opties** \(geheel optioneel\) zijn beschikbaar door op de knop _Geavanceerde instellingen_ te klikken:
 
@@ -29,7 +29,7 @@ Extra **opties** \(geheel optioneel\) zijn beschikbaar door op de knop _Geavance
 
 ![](../.gitbook/assets/images16%20%289%29.png)
 
-Afbeelding 15: Maak een cursus - uitgebreide versie
+Afbeelding: Maak een cursus - uitgebreide versie
 
 In versies 1.9 en 1.10 werd een vervolgpagina voor het maken van cursussen weergegeven, die suggereerde:
 
@@ -38,7 +38,7 @@ In versies 1.9 en 1.10 werd een vervolgpagina voor het maken van cursussen weerg
 
 ![](../.gitbook/assets/images271%20%283%29.png)
 
-Afbeelding 16: Vervolgpagina voor het maken van cursussen
+Afbeelding: Vervolgpagina voor het maken van cursussen
 
 De feedback was echter relatief negatief over deze functie, dus hebben we besloten om deze vanaf versie 1.11 standaard uit te schakelen. Uw beheerder kan dit desgewenst nog inschakelen.
 

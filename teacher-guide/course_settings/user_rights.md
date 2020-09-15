@@ -6,5 +6,5 @@ De sectie _Gebruikersrechten_ ![](../../.gitbook/assets/graphics325%20%283%29.pn
 
 ![](../../.gitbook/assets/images244%20%283%29.png)
 
-Afbeelding 175: Cursusinstellingen - Gebruikersrechten
+Afbeelding: Cursusinstellingen - Gebruikersrechten
 

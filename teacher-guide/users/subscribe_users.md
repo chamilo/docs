@@ -4,7 +4,7 @@ Laten we eerst kijken hoe u nieuwe gebruikers als cursisten op de cursus kunt ab
 
 ![](../../.gitbook/assets/images129%20%284%29.png)
 
-Afbeelding 100: Gebruikers - Actieknoppen
+Afbeelding: Gebruikers - Actieknoppen
 
 Om een enkele leerling in te schrijven, klikt u op de _Register_ link ![](../../.gitbook/assets/graphics174%20%283%29.png) rechts van hun vermelding.
 

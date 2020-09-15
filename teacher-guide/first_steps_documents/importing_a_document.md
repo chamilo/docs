@@ -4,21 +4,21 @@ Importeer een nieuw document door naar de gewenste bestemmingsmap te gaan en op 
 
 ![](../../.gitbook/assets/images34%20%287%29.png)
 
-*Afbeelding 32: Documenten - Pictogrammen - Uploaden*
+*Afbeelding: Documenten - Pictogrammen - Uploaden*
 
 Het volgende scherm verschijnt:
 
-Afbeelding 33: Documenten - Documenten uploaden
+Afbeelding: Documenten - Documenten uploaden
 
 Klik op het groene gebied om de bestanden op uw schijf te verkennen en selecteer een (s) om te uploaden. Klik in het pop-upvenster op de bevestigingsknop. Het uploaden van de documenten begint. Als u meerdere bestanden tegelijkertijd verzendt, ziet u hun uploadvoortgang live, zoals in de volgende illustratie.
 
-![](../../.gitbook/assets/graphics119%20%281%29.png)Afbeelding 34: Documenten - Bezig met uploaden van documenten
+![](../../.gitbook/assets/graphics119%20%281%29.png)Afbeelding: Documenten - Bezig met uploaden van documenten
 
 Zodra het uploaden is voltooid, wordt de volgende validatielijst weergegeven.
 
 ![](../../.gitbook/assets/images37%20%285%29.png)
 
-*Afbeelding 35: Documenten - Uploaden van documenten voltooid*
+*Afbeelding: Documenten - Uploaden van documenten voltooid*
 
 De groene vinkjes geven aan dat de documenten met succes naar de cursus zijn verzonden. Klik op het blauwe pijlpictogram dat naar links wijst om terug te gaan naar de documentenlijst.
 

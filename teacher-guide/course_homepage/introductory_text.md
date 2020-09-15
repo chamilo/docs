@@ -2,7 +2,7 @@
 
 Voordat u naar een bepaald cursustool kijkt, moet u er rekening mee houden dat het mogelijk is om een welkomstbericht voor een cursus te presenteren. Klik op het pictogram Introductietekst toevoegen ![](../../.gitbook/assets/graphics349.png) onder de knop *Learner View*. Er verschijnt een teksteditor...
 
-![](../../.gitbook/assets/images28%20%289%29.png)Afbeelding 26: startpagina van de cursus - inleidende tekst
+![](../../.gitbook/assets/images28%20%289%29.png)Afbeelding: startpagina van de cursus - inleidende tekst
 
 Deze functie, hoewel heel eenvoudig te gebruiken, is ook erg krachtig: het kan eenvoudig een paar woorden van introductie bevatten, maar het stelt je ook in staat om de hele startpagina van de cursus opnieuw te ontwerpen door alle cursushulpmiddelen te verbergen en een grote inleidende tekst/pagina te schrijven. inclusief pictogrammen met links naar de interne pagina's van de cursustools.
 

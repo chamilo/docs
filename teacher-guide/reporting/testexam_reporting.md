@@ -4,5 +4,5 @@ De tool voor het bijhouden van examens is handig voor docenten die zich willen c
 
 ![](../../.gitbook/assets/graphics59%20%281%29.png)
 
-Afbeelding 91: Examens bijhouden
+Afbeelding: Examens bijhouden
 

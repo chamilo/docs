@@ -11,10 +11,10 @@ Een definitie kan worden verrijkt met afbeeldingen en links:
 
 ![](../../.gitbook/assets/graphics236%20%281%29.png)
 
-Afbeelding 128: Verklarende woordenlijst - voeg een term toe
+Afbeelding: Verklarende woordenlijst - voeg een term toe
 
 Standaard worden termen weergegeven in de _tabelweergave_ ![](../../.gitbook/assets/graphics235%20%283%29.png) – geschikt voor een groot aantal termen met een korte definitie. Voor een kleinere lijst met volledigere definities kunnen zowel de leraar als de leerling de aantrekkelijkere _List-weergave_ kiezen ![](../../.gitbook/assets/graphics238%20%283%29.png) _:_
 
 ![](../../.gitbook/assets/graphics237%20%281%29.png)
 
-Afbeelding 129: Verklarende woordenlijst - lijstweergave
+Afbeelding: Verklarende woordenlijst - lijstweergave

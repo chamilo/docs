@@ -4,7 +4,7 @@ De assessment tool \(ook wel de _gradebook_ tool genoemd door sommige van onze g
 
 ![](../../.gitbook/assets/image3%20%2811%29.png)
 
-Afbeelding 103: Een lege cijferlijst genereert informatieberichten
+Afbeelding: Een lege cijferlijst genereert informatieberichten
 
 Laten we dus elk van deze elementen in meer detail analyseren.
 
@@ -14,7 +14,7 @@ Om deze basisconfiguratie te bekijken en te bewerken, klikt u op een van de bewe
 
 ![](../../.gitbook/assets/images132%20%284%29.png)
 
-Afbeelding 104: Assessments - Algemene instellingen
+Afbeelding: Assessments - Algemene instellingen
 
 Het _Totale gewicht_ van de cursus is belangrijk voor het toekennen van individuele gewichten aan activiteiten. Hierdoor kunt u het belang van elke activiteit in uw cursus "verspreiden". Als je maar een paar activiteiten hebt, is misschien een totaalgewicht van 10 voldoende, maar we beschouwen 100 als een veel voorkomende selectie onder docenten.
 

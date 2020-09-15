@@ -10,4 +10,4 @@ Met behulp van de leerpadtool kunt u een bestaande AICC- of SCORM-cursus importe
 
 ![](../../.gitbook/assets/graphics7%20%281%29.png)
 
-Afbeelding 74: De leerpadtool
+Afbeelding: De leerpadtool

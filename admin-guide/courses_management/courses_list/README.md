@@ -2,7 +2,7 @@
 
 Met deze tool kunt u alle cursussen op het platform visualiseren.
 
-![](../../../.gitbook/assets/graficos82.png)Afbeelding 57: Administratie - Lijst met cursussen
+![](../../../.gitbook/assets/graficos82.png)Afbeelding: Administratie - Lijst met cursussen
 
 Deze lijst geeft ons veel informatie over de cursussen. Let op de kleuren van de stippen die de titels van de cursussen voorafgaan: ze vertegenwoordigen de zichtbaarheid van de cursussen:
 

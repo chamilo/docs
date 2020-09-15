@@ -12,7 +12,7 @@ Een cursus leegmaken:
 
 ![](../../.gitbook/assets/images252%20%283%29.png)
 
-Afbeelding 184: Onderhoud - Lege cursus
+Afbeelding: Onderhoud - Lege cursus
 
 ## Verwijder het cursusgebied <a id="delete-the-course-area"></a>
 
@@ -24,4 +24,4 @@ Gezien het feit dat er geen weg terug is, raden we u ten zeerste aan dit twee ke
 
 ![](../../.gitbook/assets/images253%20%283%29.png)
 
-Afbeelding 185: Onderhoud - Cursus verwijderen
+Afbeelding: Onderhoud - Cursus verwijderen

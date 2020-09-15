@@ -10,7 +10,7 @@ Met profielopties kunt u uw _naam_, uw Chamilo _code_, uw _email_ en uw _telefoo
 
 ![](../../.gitbook/assets/graphics339%20%283%29.png)
 
-Afbeelding 188: Sociaal netwerk - Uitgebreide profielupdate
+Afbeelding: Sociaal netwerk - Uitgebreide profielupdate
 
 Vergeet niet om op de knop _save_ te klikken als u klaar bent met het invoeren/bewerken van uw profielgegevens!
 

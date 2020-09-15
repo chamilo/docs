@@ -10,7 +10,7 @@ Gewoonlijk kunt u velden aanmaken waarvan de gebruiker geen kennis heeft, maar d
 
 Voor gebruikers die bekend zijn met Drupal, komt dit overeen met een mini CCK-module voor Chamilo.
 
-![](../../.gitbook/assets/profil%20%281%29.png)Afbeelding 56: Beheer - Lijst met velden voor gebruikersprofielen
+![](../../.gitbook/assets/profil%20%281%29.png)Afbeelding: Beheer - Lijst met velden voor gebruikersprofielen
 
 Icoons | Kenmerken
 :-- | :--

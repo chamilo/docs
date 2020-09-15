@@ -4,7 +4,7 @@ Zodra de shell van uw enquête is gemaakt, moet u een reeks vragen definiëren m
 
 ![](../../.gitbook/assets/images224%20%283%29.png)
 
-Afbeelding 155: Enquêtes - Vragen maken
+Afbeelding: Enquêtes - Vragen maken
 
 Om vragen te maken, klikt u op het relevante pictogram en vult u de relevante velden in.
 

@@ -8,4 +8,4 @@ Afhankelijk van de complexiteit van uitwisselingen op de forums, kunnen verschil
 
 ![](../../.gitbook/assets/graphics2%20%281%29.png)
 
-Afbeelding 68: Forum - Weergavemodi
+Afbeelding: Forum - Weergavemodi

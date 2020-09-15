@@ -4,13 +4,13 @@ De _Assessments_ tool ![](../../.gitbook/assets/graphics181%20%283%29.png) is wa
 
 ![](../../.gitbook/assets/graphics190%20%281%29.png)
 
-Afbeelding 101: Assessments - Voorbeeld van docentweergave
+Afbeelding: Assessments - Voorbeeld van docentweergave
 
 Hiermee kunt u een overzichtsrapport opstellen met de prestaties van de leerlingen in de cursus in het algemeen, op basis van de resultaten van activiteiten die zijn ondernomen in vrijwel elk onderdeel van de online cursus, maar ook met inbegrip van "externe" activiteiten die in uw klas worden ondernomen, buiten de online cursus om.
 
 De leerling kan de assessments-tool gebruiken als een "cijferlijst" om zijn eigen voortgang bij te houden, en krijgt een eenvoudigere, persoonlijkere weergave te zien wanneer hij klikt op de tool _A\_\_ssessments_ die er ongeveer zo uitziet:
 
-![](../../.gitbook/assets/graphics192%20%281%29.png)Afbeelding 102: Assessments - Voorbeeld van leerlingweergave
+![](../../.gitbook/assets/graphics192%20%281%29.png)Afbeelding: Assessments - Voorbeeld van leerlingweergave
 
 
 ';k/'p;k'kpih

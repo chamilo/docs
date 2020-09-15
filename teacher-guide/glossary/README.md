@@ -4,5 +4,5 @@ Chamilo integreert een verklarende tool ![](../../.gitbook/assets/graphics232%20
 
 ![](../../.gitbook/assets/images173%20%285%29.png)
 
-Afbeelding 127: Woordenlijst - Tabelweergave
+Afbeelding: Woordenlijst - Tabelweergave
 

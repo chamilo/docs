@@ -4,6 +4,6 @@ Groepsleden hebben toegang tot de "werkruimte" van de groep door simpelweg op de
 
 ![](../../.gitbook/assets/images217%20%283%29.png)
 
-Afbeelding 152: Groepen - Groepsruimte
+Afbeelding: Groepen - Groepsruimte
 
 Vanuit de groepsruimte kunt u het informatieblad van een leerling opvragen door simpelweg op haar naam te klikken in de lijst met leden in het onderste deel van de pagina.

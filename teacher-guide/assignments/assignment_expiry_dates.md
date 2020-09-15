@@ -11,5 +11,5 @@ Om deze te configureren, vinkt u de relevante vakjes aan in de _geavanceerde ins
 
 ![](../../.gitbook/assets/graphics368.png)
 
-Afbeelding 97: Toewijzingen - vervaldatums instellen
+Afbeelding: Toewijzingen - vervaldatums instellen
 

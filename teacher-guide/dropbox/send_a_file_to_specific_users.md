@@ -8,6 +8,6 @@
 
 ![](../../.gitbook/assets/images203%20%284%29.png)
 
-Afbeelding 146: Dropbox - Een bestand verzenden
+Afbeelding: Dropbox - Een bestand verzenden
 
 Bestanden worden weergegeven onder het tabblad 'verzonden bestanden' als ze zijn geüpload door de gebruiker, en onder het tabblad 'ontvangen bestand' als het bestand is geüpload door iemand anders, alle bestanden zijn direct toegankelijk voor zowel de ontvanger als de afzender .

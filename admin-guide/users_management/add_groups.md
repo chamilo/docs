@@ -4,4 +4,4 @@ Chamilo integreert een *Sociaal netwerk* tool waarmee u gemeenschappelijke belan
 
 Via de configuratie-instellingen kunt u er ook voor kiezen om gebruikers hun eigen interessegroepen te laten aanmaken.
 
-![](../../.gitbook/assets/groupesajouter%20%281%29.png)Afbeelding 54: Administratie - Oprichting van sociale groepen
+![](../../.gitbook/assets/groupesajouter%20%281%29.png)Afbeelding: Administratie - Oprichting van sociale groepen

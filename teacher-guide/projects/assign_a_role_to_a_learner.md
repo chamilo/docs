@@ -10,4 +10,4 @@ Once the role has been created, you must assign it to a learner:
 
 ![](../../.gitbook/assets/images239%20%283%29.png)
 
-Afbeelding 169: Projecten - Wijs een rol toe
+Afbeelding: Projecten - Wijs een rol toe

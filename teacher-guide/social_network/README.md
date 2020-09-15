@@ -4,4 +4,4 @@ Chamilo erkent dat effectieve online sociale interactie een belangrijk element i
 
 ![](../../.gitbook/assets/images255%20%283%29.png)
 
-Afbeelding 187: Sociaal netwerk - Thuis
+Afbeelding: Sociaal netwerk - Thuis

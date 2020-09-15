@@ -4,7 +4,7 @@ Chamilo gebruikt standaarden zoals [SCORM](http://fr.wikipedia.org/wiki/Sharable
 
 ![](../../.gitbook/assets/graphics35%20%281%29.png)
 
-Afbeelding 83: Leerpaden - SCORM importeren
+Afbeelding: Leerpaden - SCORM importeren
 
 Klik op _bestand kiezen_ om het relevante document op uw harde schijf te selecteren en _send_ om het te uploaden. Dat is het. Uw geïmporteerde cursus is klaar voor gebruik.
 

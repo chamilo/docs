@@ -4,7 +4,7 @@ Ga naar _Mijn cursussen_, kies een cursus en klik op het _pictogram Leerpaden_ !
 
 ![](../../.gitbook/assets/graphics38%20%281%29.png)
 
-Afbeelding 84: Leerpaden - lijst
+Afbeelding: Leerpaden - lijst
 
 De rechterkolom, _Authoring-opties_, bevat tools om uw leertrajecten te beheren:
 

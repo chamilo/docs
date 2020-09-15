@@ -4,7 +4,7 @@ Als je ervoor kiest om een onderwerp/discussiethread te scoren/beoordelen, moet 
 
 ![](../../.gitbook/assets/graphics14%20%281%29.png)
 
-Afbeelding 72: _Een maximale score toekennen aan een discussiethread_
+Afbeelding: _Een maximale score toekennen aan een discussiethread_
 
 Om de bijdrage van een student aan een discussielijn te scoren:
 
@@ -17,5 +17,5 @@ Om de bijdrage van een student aan een discussielijn te scoren:
 
 ![](../../.gitbook/assets/graphics6%20%281%29.png)
 
-Afbeelding 73: Forum - Een discussie markeren
+Afbeelding: Forum - Een discussie markeren
 

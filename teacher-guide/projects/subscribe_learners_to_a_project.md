@@ -10,4 +10,4 @@ Om leerlingen te abonneren op een project vanaf de startpagina van dit project:
 
 ![](../../.gitbook/assets/graphics312%20%283%29.png)
 
-Afbeelding 164: Projecten - Gebruikersbeheer
+Afbeelding: Projecten - Gebruikersbeheer

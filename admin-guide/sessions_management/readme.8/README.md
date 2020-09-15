@@ -6,7 +6,7 @@ De interface van de tool is nog een beetje ruw aan de randen, en het zal even du
 
 Laten we eens kijken hoe het moet...
 
-![](../../../.gitbook/assets/graficos86%20%281%29.png)Afbeelding 70: Lijst met carrières en promoties
+![](../../../.gitbook/assets/graficos86%20%281%29.png)Afbeelding: Lijst met carrières en promoties
 
 De eerste pagina geeft ons een lijst met carrières (lijn met grijze achtergrond), van promoties die elke carrière bevat (eerste kolom), van sessies geregistreerd voor deze promoties (tweede kolom) en van cursussen die in deze sessies zijn opgenomen (laatste kolom).
 

@@ -7,4 +7,4 @@
 
 ![](../../.gitbook/assets/images236.png)
 
-Afbeelding 161: Notitieboekje - Aanmaakformulier
+Afbeelding: Notitieboekje - Aanmaakformulier

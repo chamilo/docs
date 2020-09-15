@@ -6,13 +6,13 @@ Om dit te doen, moet de toegang worden beperkt door naar de cursus _**Instelling
 
 ![](../.gitbook/assets/images17%20%289%29.png)
 
-Afbeelding 17: Tools voor cursusbeheer
+Afbeelding: Tools voor cursusbeheer
 
 De docent heeft een reeks keuzes.
 
 ![](../.gitbook/assets/images18%20%289%29.png)
 
-Afbeelding 18: Koersinstellingen - Zichtbaarheid
+Afbeelding: Koersinstellingen - Zichtbaarheid
 
 * **Openbaar**: betekent dat het toegankelijk is voor elke gebruiker, al dan niet geregistreerd op dit portaal
 * **Open**: betekent dat alle gebruikers _ingeschreven op de portal_ toegang hebben tot de cursus zolang ze zich er eerder op hebben ingeschreven \(ze kunnen dit doen via de cursuscatalogus \). Dit is de standaardoptie

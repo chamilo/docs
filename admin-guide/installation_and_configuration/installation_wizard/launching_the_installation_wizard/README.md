@@ -6,6 +6,6 @@ Als je een VirtualHost in de configuratie van je webserver hebt kunnen configure
 
 In de volgende screenshots installeren we Chamilo 1.11.12. De installatie van alle versies van 1.11.* zijn bijna exact hetzelfde, dus de procedure is ook geldig voor 1.11.0, 1.11.2, 1.11.4, 1.11.6, 1.11.8 en 1.11.10.
 
-![](../../../../.gitbook/assets/images1%20%281%29.png)Afbeelding 2: Installatie - Welkomstscherm
+![](../../../../.gitbook/assets/images1%20%281%29.png)Afbeelding: Installatie - Welkomstscherm
 
 U moet dan een reeks stappen volgen om uw platformparameters aan te geven. Deze stappen zijn bijna identiek voor lokale en externe installaties.

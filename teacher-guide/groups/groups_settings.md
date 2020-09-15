@@ -4,6 +4,6 @@ Een docent heeft toegang tot de instellingen voor de groep via de werkbalk op de
 
 ![](../../.gitbook/assets/graphics282%20%283%29.png)
 
-Afbeelding 149: Groepsinstellingen
+Afbeelding: Groepsinstellingen
 
 Vergeet niet om onder aan de pagina op de knop Instellingen opslaan te klikken. Deze standaardinstellingen kunnen door de docent voor elke groep worden aangepast met het pictogram _Edit deze groep_ ![](../../.gitbook/assets/graphics281%20%283%29.png) rechts van elke groepsvermelding op de hoofdpagina.

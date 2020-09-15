@@ -7,7 +7,7 @@ Om een nieuwe opdracht aan te maken:
 * voeg een beschrijving toe \(optioneel\),
 * klik op de knop _Validate_.
 
-Afbeelding 93: Maak een nieuwe toewijzing
+Afbeelding: Maak een nieuwe toewijzing
 
 ![](../../.gitbook/assets/graphics66%20%281%29.png)
 

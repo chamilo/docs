@@ -6,7 +6,7 @@ Gebruikers kunnen gebeurtenissen exporteren als iCal vanuit het pop-upvenster da
 
 ![](../../.gitbook/assets/graphics270.png)
 
-Afbeelding 144: een evenement exporteren, bewerken of verwijderen
+Afbeelding: een evenement exporteren, bewerken of verwijderen
 
 \(**Opmerking**: docenten hebben alleen toegang tot de knoppen voor verwijderen/bewerken via de cursusagenda vanaf de startpagina van de cursus - niet via het tabblad Persoonlijke agenda, waar ze, net als studenten, alleen evenementen kunnen bekijken/exporteren\).
 

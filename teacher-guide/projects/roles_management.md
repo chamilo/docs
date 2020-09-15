@@ -4,9 +4,9 @@ Het pictogram Rollenbeheer ![](../../.gitbook/assets/graphics311%20%283%29.png) 
 
 ![](../../.gitbook/assets/graphics322%20%281%29.png)
 
-Afbeelding 166: Projecten - Rollenbeheer
+Afbeelding: Projecten - Rollenbeheer
 
-Afbeelding 167: Projecten - Pagina Rollenbeheer
+Afbeelding: Projecten - Pagina Rollenbeheer
 
 Vanaf de pagina Rollenbeheer kunt u gedetailleerde taken van een projectstap maken of rollen toewijzen aan de leden van een project.
 
@@ -19,6 +19,6 @@ Om een nieuwe taak/rol aan te maken:
 
 ![](../../.gitbook/assets/graphics316%20%283%29.png)
 
-Afbeelding 168: Projecten - Nieuwe rol
+Afbeelding: Projecten - Nieuwe rol
 
 → De nieuwe rol verschijnt in de rollenlijst.
