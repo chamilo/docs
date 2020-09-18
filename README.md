@@ -2,8 +2,8 @@
 
 Dit is de complete set Chamilo-gidsen voor gebruikers van Chamilo.
 
-- [Beheerdershandleiding](admin-guide/chamilo-_what_is_it/)
 - [Leraar gids](teacher-guide/getting-to-know-chamilo/what_is_chamilo.md)
+- [Beheerdershandleiding](admin-guide/chamilo-_what_is_it/)
 - [Handleiding voor ontwikkelaars](developer-guide/introduction/)
 
 De meeste gebruikers hoeven niet alle handleidingen te lezen, en zullen voldoende informatie hebben (misschien te veel) door de docentenhandleiding te lezen. Als u echter meer wilt weten of uw rol in uw organisatie specifiek die van een Chamilo-beheerder of een ontwikkelaar of sysadmin is, bent u wellicht geïnteresseerd in de Admin Guide en de Developer Guide die volgen.
