@@ -4,6 +4,6 @@ Chamilo maakt onderscheid tussen onderhoudstools en cursusinstellingen om cursus
 
 ![](../../.gitbook/assets/images250%20%283%29.png)
 
-*Afbeelding 181: Back-up - algemeen*
+*Afbeelding: Back-up - algemeen*
 
 > **Opmerking**: Functies voor opslaan, kopiëren, herstellen enz. Zijn ontwikkeld met de bedoeling deze te beheren.<br>**inhoud** Om deze reden worden interacties met of tussen gebruikers niet opgeslagen. Om ze op te slaan, moet u uw platformbeheerder vragen om een volledige back-up van de portal te maken. Als u de beheerder bent, wordt deze procedure beschreven in de beheerdershandleiding.

@@ -4,7 +4,7 @@ Een link kan worden toegevoegd in een categorie of op hoofdniveau:
 
 ![](../../.gitbook/assets/graphics220%20%281%29.png)
 
-Afbeelding 123: Links - Link toevoegen
+Afbeelding: Links - Link toevoegen
 
 Om een link toe te voegen:
 

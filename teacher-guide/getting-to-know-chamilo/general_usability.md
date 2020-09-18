@@ -14,11 +14,11 @@ Afbeelding: ingeklapte hulp
 
 ![](../../.gitbook/assets/illustration_4%20%286%29.png)
 
-Afbeelding 4: Uitgevouwen hulp 
+Afbeelding: Uitgevouwen hulp 
 
 ![](../../.gitbook/assets/images5%20%2810%29.png)
 
-Afbeelding 5: pop-up contextuele help
+Afbeelding: pop-up contextuele help
 
 ## Terminologie <a id="terminology"></a>
 
@@ -28,7 +28,7 @@ Het is duidelijk dat al deze organen en instellingen de neiging hebben om enigsz
 
 ![](../../.gitbook/assets/images4.png)
 
-Afbeelding 6: Geschiedenis van Chamilo-installaties over de hele wereld, 2018 tot 2020
+Afbeelding: Geschiedenis van Chamilo-installaties over de hele wereld, 2018 tot 2020
 
 Omdat we begrijpen dat uw organisatie wellicht de voorkeur geeft aan een specifieke terminologie, hebben we Chamilo uitgerust met een manier om elke interfaceterm te bewerken vanuit de platformadministratie. \(dit vereist administratieve vaardigheden en wordt daarom beschreven in de _Chamilo Administration Guide_\). Als u dringend een aanpassing nodig heeft, kunt u een van onze officiële providers vragen om een aangepast taalpakket te importeren in uw platform.
 

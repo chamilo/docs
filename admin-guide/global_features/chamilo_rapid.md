@@ -18,9 +18,15 @@ Elke fijnere uitleg zou grotendeels buiten de context van deze gids vallen, maar
 
 Eenmaal geconfigureerd en actief, kunt u PPT converteren vanuit de leerpadtools van uw cursussen.
 
-![](../../.gitbook/assets/images66.png)Afbeelding 87: Pictogram voor snelle conversie in tool Leerpaden
+![](../../.gitbook/assets/images66.png)
+ 
+ 
+Afbeelding: Pictogram voor snelle conversie in tool Leerpaden
 
-![](../../.gitbook/assets/images67.png)Afbeelding 88: Leerpad importeren PPT-scherm
+![](../../.gitbook/assets/images67.png)
+ 
+ 
+Afbeelding: Leerpad importeren PPT-scherm
 
 Eenmaal op deze manier geïmporteerd, wordt een PowerPoint- of Impress-presentatie omgevormd tot een volledig leertraject, klaar om verder te worden bewerkt en gestructureerd, en vervolgens voor leerlingen gepubliceerd.
 

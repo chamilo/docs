@@ -4,13 +4,13 @@ Chamilo biedt handige ondersteuning voor het analyseren van testresultaten door 
 
 ![](../../.gitbook/assets/graphics161%20%281%29.png)
 
-Afbeelding 65: Oefeningen - lijst
+Afbeelding: Oefeningen - lijst
 
 Hierdoor wordt een pagina weergegeven met alle resultaten voor de relevante test.
 
 ![](../../.gitbook/assets/graphics162%20%281%29.png)
 
-Afbeelding 66: Oefeningen - Resultatenlijst
+Afbeelding: Oefeningen - Resultatenlijst
 
 Hier kan de docent een overzicht krijgen van de tijden en scores van de leerlingen en kan hij scoren ![](../../.gitbook/assets/graphics160%20%281%29.png) of bewerken ![](../../.gitbook/assets/graphics163%20%281%29.png) open vragen en geef feedback. Hij kan ook verwijderen ![](../../.gitbook/assets/graphics164%20%281%29.png) een testpoging om de leerling de test opnieuw te laten doen \(als er een geldige reden is om dit te doen, bijvoorbeeld als er een fout is opgetreden in de test\).
 

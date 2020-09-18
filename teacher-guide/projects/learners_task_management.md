@@ -4,5 +4,5 @@ Door op het pictogram Beheer van gebruikersrechten te klikken ![](../../.gitbook
 
 ![](../../.gitbook/assets/graphics318%20%283%29.png)
 
-Afbeelding 171: Projecten - Gebruikersbeheer
+Afbeelding: Projecten - Gebruikersbeheer
 

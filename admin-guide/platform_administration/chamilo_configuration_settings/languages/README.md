@@ -8,11 +8,14 @@
 
 Deze tool (beschikbaar wanneer u op de talenlink klikt) stelt u in staat om te bepalen welke talen zichtbaar zijn voor de gebruikers tijdens hun abonnement op het platform of tijdens het aanmaken van een cursus.
 
-![](../../../../.gitbook/assets/langue%20%281%29.png)Afbeelding 31: Administratie - Talenbeheer
+![](../../../../.gitbook/assets/langue%20%281%29.png)
+ 
+ 
+Afbeelding: Administratie - Talenbeheer
 
 Wanneer u de functie voor subtalen inschakelt, kunt u met deze tool ook bepaalde termen van de portaalinterface opnieuw definiëren. Schakel hiervoor de optie in op de taalconfiguratiepagina en open vervolgens de talenlijstpagina. U vindt een extra pictogram waarmee u een <em>subtaal</em> aan een bestaande taal kunt toevoegen.
 
-<img>Afbeelding 32: Administratie - Pictogram voor het maken van een subtaal
+<img>Afbeelding: Administratie - Pictogram voor het maken van een subtaal
 
 ![](../../../../.gitbook/assets/graficos37.png)
 

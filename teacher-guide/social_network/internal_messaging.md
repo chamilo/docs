@@ -4,7 +4,7 @@ Vanaf het tabblad _Sociaal netwerk_ \(linkermenu\) kunt u met het item _Berichte
 
 ![](../../.gitbook/assets/images257%20%283%29.png)
 
-Afbeelding 189: Sociaal netwerk - Interne berichten - Inbox
+Afbeelding: Sociaal netwerk - Interne berichten - Inbox
 
 Om een bericht te schrijven naar een andere gebruiker \(of een vriend\) die op het platform is geabonneerd:
 

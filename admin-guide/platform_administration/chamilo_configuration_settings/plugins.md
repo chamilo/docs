@@ -2,7 +2,10 @@
 
 ![](../../../.gitbook/assets/graficos19.png) Op dit tabblad kunt u de plug-ins inschakelen die aanwezig zijn in de map *plugin/* op de server.
 
-![](../../../.gitbook/assets/images22%20%282%29.png)Afbeelding 39: Beheer - Installatie van plug-ins
+![](../../../.gitbook/assets/images22%20%282%29.png)
+ 
+ 
+Afbeelding: Beheer - Installatie van plug-ins
 
 Sinds versie 1.8.8.2 van Chamilo zijn de plug-insystemen verbeterd en kun je nu plug-ins maken en inschakelen die als nieuwe cursustools verschijnen. Dit is het geval met een nieuwe plug-in genaamd *BigBlueButton*. Als deze plug-in eenmaal is ingeschakeld, kunt u uw Chamilo-portaal verbinden met een videoconferentieserver. De installatie van een videoconferentieserver is echter niet inbegrepen in Chamilo. U moet het zelf installeren of een officiële provider vragen om dat voor u te doen.
 

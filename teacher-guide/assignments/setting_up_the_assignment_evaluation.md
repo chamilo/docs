@@ -13,5 +13,5 @@ Om de evaluatie van opdrachten op te nemen in de beoordelingen:
 
 ![](../../.gitbook/assets/graphics71%20%281%29.png)
 
-Afbeelding 96: Toewijzingen - Geavanceerde instellingen
+Afbeelding: Toewijzingen - Geavanceerde instellingen
 

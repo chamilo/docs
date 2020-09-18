@@ -6,7 +6,7 @@ Het _Aanwezigheidsblad_ toont een tabel met kolommen met gebruikers, hun aanwezi
 
 ![](../../.gitbook/assets/images182%20%284%29.png)
 
-Afbeelding 134: Presentielijst
+Afbeelding: Presentielijst
 
 Standaard gaat het systeem ervan uit dat alle studenten de cursussessie bijwonen, dus **alleen** let op **ontbrekende** studenten door **het vakje van de leerling uit te schakelen** om zijn afwezigheid te markeren.
 

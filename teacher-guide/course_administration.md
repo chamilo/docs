@@ -10,7 +10,7 @@ U hoeft alleen maar op de cursusnaam te klikken om naar de homepage te gaan. De 
 
 ![](../.gitbook/assets/images26%20%2810%29.png)
 
-Afbeelding 24: Cursustools - Klassieke optie
+Afbeelding: Cursustools - Klassieke optie
 
 
 De docent kan ervoor kiezen om verschillende tools te verbergen of weer te geven met behulp van het _eye_-pictogram onder elke tool, zodat de cursus de nieuwe leerling niet intimideert met te veel opties.
@@ -21,7 +21,7 @@ Opmerking: in sommige gevallen kan de beheerder tools onbeschikbaar maken voor c
 
 ![](../.gitbook/assets/images27%20%289%29.png)
 
-Afbeelding 25: Authoring tools in ipad type view
+Afbeelding: Authoring tools in ipad type view
 
 **Opmerking**: de cursusinterface kan op verschillende manieren worden gepresenteerd, afhankelijk van wat de beheerder kiest. Hij zou bijvoorbeeld een weergave kunnen inschakelen die populair was in eerdere versies van Chamilo, zoals in deze illustratie. Deze weergave wordt de activiteitsweergave met 2 kolommen genoemd.
 

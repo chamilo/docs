@@ -4,7 +4,7 @@ E-mail notificaties ![](../../.gitbook/assets/graphics324%20%283%29.png) zijn ee
 
 ![](../../.gitbook/assets/images243%20%283%29.png)
 
-Afbeelding 174: Koersinstellingen - E-mailmeldingen
+Afbeelding: Koersinstellingen - E-mailmeldingen
 
 In dit gedeelte kunt u ervoor kiezen om een e-mailmelding te ontvangen als:
 

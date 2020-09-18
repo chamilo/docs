@@ -8,7 +8,7 @@ Om veiligheids en procedurele redenen is het raadzaam een reservekopie te maken 
 
 ![](../../.gitbook/assets/graphics333%20%283%29.png)
 
-Afbeelding 182: Onderhoud - Back-up maken
+Afbeelding: Onderhoud - Back-up maken
 
 De back-up wordt ter beschikking gesteld in de vorm van een gecomprimeerd bestand dat u op uw computer kunt downloaden. Het wordt ook opgeslagen op de server voor snel herstel indien nodig.
 

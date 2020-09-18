@@ -2,7 +2,10 @@
 
 Als beheerder is alleen de titel verplicht tijdens het maken van de cursus.
 
-![](../../.gitbook/assets/graficos83%20%281%29.png)Afbeelding 58: Cursus maken
+![](../../.gitbook/assets/graficos83%20%281%29.png)
+ 
+ 
+Afbeelding: Cursus maken
 
 Naast dit verplichte veld zijn de volgende opties exclusief beschikbaar voor de admin:
 

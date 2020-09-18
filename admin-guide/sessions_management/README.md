@@ -6,7 +6,10 @@ Sessies kunnen verschillende cursussen van verschillende categorieën groeperen.
 
 Het volgende schema is al gebruikt in het *users* hoofdstuk om rollen uit te leggen, maar we zullen het nu gebruiken in de context van *Sessions*.
 
-![](../../.gitbook/assets/images72%20%281%29.png)Afbeelding 64: Globaal - schema Sessies
+![](../../.gitbook/assets/images72%20%281%29.png)
+ 
+ 
+Afbeelding: Globaal - schema Sessies
 
 Zoals je kunt zien, wordt de sessie gedefinieerd door een sessiebeheerder en heeft een algemene coach (ook wel de sessiecoördinator genoemd, of *sessiebegeleider* in het schema) die waakt over de sessie en leraren en studenten in nood helpt.
 

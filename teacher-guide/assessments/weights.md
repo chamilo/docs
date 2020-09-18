@@ -16,7 +16,10 @@ Klik op het podiumpictogram aan de rechterkant van de hoofdbeoordelingpagina ![]
 
 ![](../../.gitbook/assets/graphics195.png)
 
-*![](../../.gitbook/assets/graphics195%20%281%29.png)Afbeelding 109: Assessments - Rangschikking van vaardigheden*
+*![](../../.gitbook/assets/graphics195%20%281%29.png)
+ 
+ 
+Afbeelding: Assessments - Rangschikking van vaardigheden*
 
 Naast een pass-markering kunt u extra opties toevoegen: bijv. de namen die u aan een scorebereik wilt geven, zodat u sneller algemene rapporten kunt lezen.
 
@@ -32,7 +35,10 @@ De assessments-tool maakt het mogelijk om een certificaat aan te maken dat autom
 
 De pagina begint met een lijst met tags die u kunt gebruiken in de editie van uw certificaat:
 
-![](../../.gitbook/assets/image6%20%2810%29.png)Afbeelding 110: tags voor de uitgave van certificaten
+![](../../.gitbook/assets/image6%20%2810%29.png)
+ 
+ 
+Afbeelding: tags voor de uitgave van certificaten
 
 Deze tags spreken voor zich, maar laten we ze hier voor de precisie definiëren:
 
@@ -55,11 +61,17 @@ Deze tags spreken voor zich, maar laten we ze hier voor de precisie definiëren:
 
 Het certificaat wijzigen is dan alleen een kwestie van het vinden van een goede tekst en de juiste tags:
 
-![](../../.gitbook/assets/image7%20%2810%29.png)Afbeelding 111: Gebied voor het maken van certificaten
+![](../../.gitbook/assets/image7%20%2810%29.png)
+ 
+ 
+Afbeelding: Gebied voor het maken van certificaten
 
 Nadat u uw certificaat heeft aangemaakt en opgeslagen, toont de hoofdpagina Certificaat de certificaten die zijn geüpload of gemaakt.
 
-![](../../.gitbook/assets/image8%20%2810%29.png)Afbeelding 112: Lijst met certificaatsjablonen
+![](../../.gitbook/assets/image8%20%2810%29.png)
+ 
+ 
+Afbeelding: Lijst met certificaatsjablonen
 
 U merkt misschien op dat het 5e pictogram aan de rechterkant een iets andere kleur heeft voor de eerste en de tweede regel ... Dat komt omdat het "Standaardcertificaat" in dit voorbeeld nog steeds wordt beschouwd als het ... standaardcertificaat. Om dat te veranderen, moet u op het grijze pictogram op de tweede regel klikken (![](../../.gitbook/assets/graphics198%20%283%29.png)) om van uw nieuwe certificaat ("Future of Learning" in dit voorbeeld) het standaardcertificaat te maken voor alle studenten.
 
@@ -69,7 +81,10 @@ Zodra dit is gebeurd, het vergrootglaspictogram (![](../../.gitbook/assets/image
 
 ![](../../.gitbook/assets/image10%20%281%29.png)
 
-*![](../../.gitbook/assets/image10%20%287%29.png)Afbeelding 113: Voorbeeldcertificaat*
+*![](../../.gitbook/assets/image10%20%287%29.png)
+ 
+ 
+Afbeelding: Voorbeeldcertificaat*
 
 Mist u iets? Het is duidelijk dat sommige HTML-ontwerpen met een logo, de namen van de mensen die dit certificaat goedkeurden, een goede toevoeging zouden zijn geweest. U vindt deze op het certificaat dat standaard in elke cursus in Chamilo beschikbaar is en die zo wordt weergegeven.
 

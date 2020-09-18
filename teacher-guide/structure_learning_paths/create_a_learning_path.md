@@ -24,7 +24,7 @@ Klik op het instellingenpictogram ![](../../.gitbook/assets/graphics20%20%283%29
 
 ![](../../.gitbook/assets/graphics11%20%281%29.png)
 
-Afbeelding 77: Leerpaden - Instellingen
+Afbeelding: Leerpaden - Instellingen
 
 Let op: Chamilo gebruikt hier de eenvoudige term "cursus" in plaats van "leertraject". Verwar dit niet met de term "cursus" zoals toegepast op de algemene cursus \(Leer Engels in de illustratie\)
 

@@ -6,6 +6,9 @@ Dit vereist dat de beheerder de beschikbare vaardigheden op het platform heeft i
 
 Zodra de vaardigheden beschikbaar zijn, moet de beheerder naar uw cursus komen en de beoordeling die u hebt geconfigureerd koppelen aan een specifieke vaardigheid. Dit ziet er ongeveer zo uit (voor de beheerder):
 
-![](../../.gitbook/assets/image15%20%288%29.png)Afbeelding 118: wijs vaardigheid toe aan beoordeling
+![](../../.gitbook/assets/image15%20%288%29.png)
+ 
+ 
+Afbeelding: wijs vaardigheid toe aan beoordeling
 
 We kunnen daar zien (hoewel de beschikbare vaardigheden in het Spaans zijn geschreven) dat een nieuw veld "Vaardigheden" verschijnt in dezelfde editie als we hebben voor assessments.

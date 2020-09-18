@@ -12,7 +12,10 @@ U kunt uw certificaten “zelf ondertekenen”, maar dit zal een eng scherm tone
 
 ![](../../.gitbook/assets/images52.png)
 
-![](../../.gitbook/assets/images53.png)Afbeelding 91: Browsers waarschuwen gebruikers voor zelfondertekende SSL-certificaten: Stap 2/3: klik op de knop "Uitzondering toevoegen"
+![](../../.gitbook/assets/images53.png)
+ 
+ 
+Afbeelding: klik op de knop "Uitzondering toevoegen"
 
 ![](../../.gitbook/assets/images53.png)
 

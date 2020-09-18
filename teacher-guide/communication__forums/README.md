@@ -14,7 +14,7 @@ categorie
 
 Naam van het forum
 
-Afbeelding 67: Forum - Globale weergave
+Afbeelding: Forum - Globale weergave
 
 De uitwisselingen zijn als volgt hiërarchisch georganiseerd:
 

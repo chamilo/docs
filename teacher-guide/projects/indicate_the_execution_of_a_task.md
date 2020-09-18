@@ -13,5 +13,5 @@ Het uitvoeringsrapport van de taak wordt weergegeven als een opmerking bij het a
 
 ![](../../.gitbook/assets/images240%20%283%29.png)
 
-Afbeelding 170: Projecten - Takencommentaar
+Afbeelding: Projecten - Takencommentaar
 

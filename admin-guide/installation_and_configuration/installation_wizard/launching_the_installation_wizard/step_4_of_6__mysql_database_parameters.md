@@ -19,6 +19,9 @@ Controleer de gegevens die in het formulier zijn ingevoerd en klik op de knop *C
 
 Als alles in orde is (en het groene bevestigingsblok verschijnt), gaat u verder met de volgende stap.
 
-![](../../../../.gitbook/assets/images9%20%281%29.png)Afbeelding 9: Controle van installatiedatabase - OK
+![](../../../../.gitbook/assets/images9%20%281%29.png)
+ 
+ 
+Afbeelding: Controle van installatiedatabase - OK
 
 ![](../../../../.gitbook/assets/images9%20%281%29.png)

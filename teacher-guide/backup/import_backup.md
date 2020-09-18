@@ -14,6 +14,6 @@ Om het importeren te starten:
 
 ![](../../.gitbook/assets/images251%20%283%29.png)
 
-Afbeelding 183: Backup - Importeren
+Afbeelding: Backup - Importeren
 
 **Opmerking**: een bericht bevestigt dat het herstel van de back-up is voltooid

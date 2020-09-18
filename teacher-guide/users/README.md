@@ -4,5 +4,5 @@ De _Gebruikers_ tool ![](../../.gitbook/assets/graphics73%20%283%29.png) verzame
 
 ![](../../.gitbook/assets/graphics173%20%281%29.png)
 
-Afbeelding 99: Gebruikers - Hoofdscherm
+Afbeelding: Gebruikers - Hoofdscherm
 

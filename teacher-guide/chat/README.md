@@ -6,7 +6,7 @@ Hoewel het misschien nogal traag lijkt \(drie seconden per bericht\) en beperkt 
 
 ![](../../.gitbook/assets/graphics280%20%283%29.png)
 
-Afbeelding 153: Het chatvenster
+Afbeelding: Het chatvenster
 
 Als gebruikers hun afbeelding hebben geconfigureerd op het tabblad _Sociaal netwerk_ \(of _Profile_\), wordt deze naast hun naam weergegeven. Het is aan de docent om eerdere berichten te verwijderen wanneer hij dit nodig acht.
 

@@ -10,7 +10,7 @@ Om toegang te krijgen tot de database, klikt u op het pictogram _recycle bestaan
 
 ![](../../.gitbook/assets/images56%20%285%29.png)
 
-Afbeelding 62: Tests - Vragendatabase
+Afbeelding: Tests - Vragendatabase
 
 Klik op de knop _Re-use in current test_ ![](../../.gitbook/assets/graphics155%20%281%29.gif) om deze vragen in de huidige test op te nemen. Wat er feitelijk gebeurt \ (in Chamilo 1.9 \) is dat een kopie van de oude test wordt opgenomen in de huidige test, zodat deze indien nodig kan worden bewerkt voor de nieuwe test zonder dat de inhoud of configuratie wordt gewijzigd binnen de test waarin deze is oorspronkelijk gemaakt.
 

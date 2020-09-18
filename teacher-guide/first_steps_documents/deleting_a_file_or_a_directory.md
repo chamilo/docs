@@ -4,7 +4,7 @@ Gebruik de opties in de rechterkolom van de lijst met documenten om een bestand 
 
 ![](../../.gitbook/assets/images45%20%287%29.png)
 
-Afbeelding 39: Documenten - Opties
+Afbeelding: Documenten - Opties
 
 Zoals u zult beseffen, variëren de pictogrammen afhankelijk van het documenttype. HTML-documenten bieden meer mogelijkheden.
 

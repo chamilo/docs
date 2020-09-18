@@ -4,7 +4,7 @@ Klik bij het maken van een toets op _Doorgaan naar vragen_ u wordt naar de vrage
 
 ![](../../.gitbook/assets/images292%20%281%29.png)
 
-Afbeelding 47: Eerste weergave van de vragenlijst
+Afbeelding: Eerste weergave van de vragenlijst
 
 Naast de werkbalk toont de pagina een reeks verschillende soorten vragen. \(Dezelfde pagina kan op een later tijdstip worden geopend met het bewerkingspictogram voor een bepaalde test die wordt vermeld op de pagina _Tests_.\) Het biedt een reeks vraagtypen waaruit u kunt kiezen, die in deze sectie worden beschreven. Elke test kan een combinatie van vraagtypen bevatten - dit kan handig zijn om ervoor te zorgen dat tests niet eentonig worden.
 
@@ -34,7 +34,7 @@ Globaal meervoudig antwoord
 
 ![](../../.gitbook/assets/images50%20%287%29.png)
 
-Afbeelding 48: Oefeningen - Vraagtypen
+Afbeelding: Oefeningen - Vraagtypen
 
 Vragen worden gemaakt met behulp van een online formulier dat verschilt naargelang het vraagtype. De volgende onderafdelingen beschrijven elk formulier in detail. Het invullen van de formulieren is vrij intuïtief. De volgende algemene punten met betrekking tot het invullen van de online formulieren zijn van toepassing op alle of de meeste soorten vragen:
 
@@ -53,7 +53,7 @@ Vragen worden gemaakt met behulp van een online formulier dat verschilt naargela
 
 ![](../../.gitbook/assets/graphics154%20%281%29.png)
 
-Afbeelding 49: Tests - Meerkeuzevragen, één antwoord
+Afbeelding: Tests - Meerkeuzevragen, één antwoord
 
 ## Type 2: meerkeuze - meervoudig antwoord <a id="type-2-multiple-choice-multiple-answer"></a>
 
@@ -61,7 +61,7 @@ Afbeelding 49: Tests - Meerkeuzevragen, één antwoord
 
 ![](../../.gitbook/assets/graphics140%20%281%29.png)
 
-Afbeelding 50: Tests - vraag met meerdere antwoorden
+Afbeelding: Tests - vraag met meerdere antwoorden
 
 ## Type 3: Vul de lege plekken in <a id="type-3-fill-the-blanks"></a>
 
@@ -69,7 +69,7 @@ Afbeelding 50: Tests - vraag met meerdere antwoorden
 
 ![](../../.gitbook/assets/graphics139%20%281%29.png)
 
-Afbeelding 51: Tests - Vul de lege plekken
+Afbeelding: Tests - Vul de lege plekken
 
 De vraag zal als volgt verschijnen voor de leerling, die gewoon het juiste woord in de lege velden hoeft te typen:
 
@@ -81,7 +81,7 @@ De vraag zal als volgt verschijnen voor de leerling, die gewoon het juiste woord
 
 ![](../../.gitbook/assets/graphics142%20%281%29.png)
 
-Afbeelding 52: Tests - Overeenkomende tekstelementen
+Afbeelding: Tests - Overeenkomende tekstelementen
 
 De leerling zal de overeenkomende vraag als volgt bekijken:
 
@@ -95,7 +95,7 @@ of, vanaf 1.9.6, een versleepbare cirkel zal het iets aantrekkelijker maken voor
 
 ![](../../.gitbook/assets/images54%20%285%29.png)
 
-Afbeelding 53: Toetsen - Open vragen
+Afbeelding: Toetsen - Open vragen
 
 De leerling krijgt een tekstveld te zien waarin hij kan schrijven. \(Hij kan de kleine pijl aan de linkerkant van de bovenrand van het veld gebruiken om gebruik te maken van een reeks velden als hij zijn presentatie wil verrijken, bijvoorbeeld met een kop of gemarkeerde tekst.\)
 
@@ -111,7 +111,7 @@ Vanwege de aanvullende vereisten voor dit vraagtype, moet u ervoor zorgen dat uw
 
 ![](../../.gitbook/assets/graphics145%20%281%29.png)
 
-Afbeelding 54: Tests - Mondelinge expressie
+Afbeelding: Tests - Mondelinge expressie
 
 De leerling hoeft alleen maar op _Record antwoord_ te drukken wanneer hij klaar is om te praten, en de instructies voor de Nanogong-recorder op het scherm te volgen, die zijn opname automatisch naar de leraar zal sturen om te beoordelen en te scoren.
 
@@ -125,7 +125,7 @@ De leerling hoeft alleen maar op _Record antwoord_ te drukken wanneer hij klaar 
 
 ![](../../.gitbook/assets/graphics147%20%281%29.png)
 
-Afbeelding 55: Oefeningen - Creëren van hotspotvragen
+Afbeelding: Oefeningen - Creëren van hotspotvragen
 
 Nadat je je afbeelding hebt geüpload en je vraag een naam hebt gegeven, kun je hotspots toevoegen of verwijderen en het gebied definiëren met een ellips, een rechthoek of een veelhoek. Net als bij andere vraagtypen, kunt u opmerkingen toevoegen voor feedbackdoeleinden en een score bepalen voor elk correct geïdentificeerd gebied.
 
@@ -133,7 +133,7 @@ De leerling moet op de afbeelding klikken om de vermelde gebieden te identificer
 
 ![](../../.gitbook/assets/graphics148%20%281%29.png)
 
-Afbeelding 56: Oefeningen - Hotspot-leerlingweergave
+Afbeelding: Oefeningen - Hotspot-leerlingweergave
 
 ## Type 8 : Exacte combinatie <a id="type-8-exact-combination"></a>
 
@@ -141,7 +141,7 @@ Afbeelding 56: Oefeningen - Hotspot-leerlingweergave
 
 ![](../../.gitbook/assets/images55%20%285%29.png)
 
-Afbeelding 57: Tests - exacte combinatie
+Afbeelding: Tests - exacte combinatie
 
 ## Type 9 : Uniek antwoord met onbekend <a id="type-9-unique-answer-with-unknown"></a>
 
@@ -149,7 +149,7 @@ Afbeelding 57: Tests - exacte combinatie
 
 ![](../../.gitbook/assets/graphics150%20%281%29.png)
 
-Afbeelding 58: Tests - uniek antwoord met onbekend
+Afbeelding: Tests - uniek antwoord met onbekend
 
 ## Type 10 : Meerdere antwoorden Klopt/Vals/Weet het niet <a id="type-10-multiple-answer-true-false-don-t-know"></a>
 
@@ -157,7 +157,7 @@ Afbeelding 58: Tests - uniek antwoord met onbekend
 
 ![](../../.gitbook/assets/graphics151%20%281%29.png)
 
-Afbeelding 59: Tests - Meerdere antwoorden waar/onwaar/weet niet
+Afbeelding: Tests - Meerdere antwoorden waar/onwaar/weet niet
 
 ## Type 11 : Combinatie Klopt/Vals/Weet het niet <a id="type-11-combination-true-false-don-t-know"></a>
 
@@ -165,7 +165,7 @@ Afbeelding 59: Tests - Meerdere antwoorden waar/onwaar/weet niet
 
 ![](../../.gitbook/assets/graphics170%20%281%29.png)
 
-Afbeelding 60: Tests – Combinatie Klopt/Vals/Weet het niet
+Afbeelding: Tests – Combinatie Klopt/Vals/Weet het niet
 
 De leerling zal de vraag \(s\) bekijken en keuzerondjes als volgt gebruiken:
 
@@ -179,5 +179,5 @@ De leerling zal de vraag \(s\) bekijken en keuzerondjes als volgt gebruiken:
 
 ![](../../.gitbook/assets/graphics152%20%281%29.png)
 
-Afbeelding 61: Tests - Globaal meervoudig antwoord
+Afbeelding: Tests - Globaal meervoudig antwoord
 

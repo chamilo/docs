@@ -6,7 +6,10 @@ Om dit te doen, moet u een assessment configureren dat alleen op dit leertraject
 
 Ga naar het leertraject, maak er een aan, ontwikkel de volledige inhoud en gebruik vervolgens het pictogram van het laatste inhoudstype om de laatste pagina te maken, zoals deze.
 
-![](../../.gitbook/assets/image16%20%288%29.png)Afbeelding 119: Certificaat om een leertraject af te ronden
+![](../../.gitbook/assets/image16%20%288%29.png)
+ 
+ 
+Afbeelding: Certificaat om een leertraject af te ronden
 
 Er staan veel items op deze pagina, dus neem de tijd om ze allemaal te analyseren. De speciale certificaatpagina verschijnt alleen als laatste stap van je leertraject, vanuit een submap.
 

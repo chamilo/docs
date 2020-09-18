@@ -4,6 +4,6 @@ Een gebruiker kan de _My files_ link gebruiken ![](../../.gitbook/assets/graphic
 
 ![](../../.gitbook/assets/graphics344%20%283%29.png)
 
-Afbeelding 194: Sociaal netwerk - Mijn bestanden
+Afbeelding: Sociaal netwerk - Mijn bestanden
 
 Bestanden kunnen worden bekeken of gedownload door erop te klikken.

@@ -4,7 +4,7 @@ De homepage is de eerste zichtbare pagina. Het bevat het inlogformulier en een p
 
 ![](../.gitbook/assets/images269%20%283%29.png)
 
-Afbeelding 7: Homepage
+Afbeelding: Homepage
 
 Hoewel uw omstandigheden kunnen variëren, is dit meestal wat u zou moeten vinden op de homepage van een Chamilo-portaal:
 

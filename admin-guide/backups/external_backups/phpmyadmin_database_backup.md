@@ -2,7 +2,7 @@
 
 Databases kunnen worden opgeslagen vanuit de [P](http://fr.wikipedia.org/wiki/PhpMyAdmin) [hpMyAdmin-](http://fr.wikipedia.org/wiki/PhpMyAdmin) interface, door verbinding te maken met de login en het wachtwoord die zijn gemaakt tijdens de [LAMP-](http://fr.wikipedia.org/wiki/LAMP) serverinstallatie, de database-installatie of in de gegevens die zijn verzonden door uw hostingprovider .
 
-<img>Afbeelding 15: Administration - PHPMyAdmin
+<img>Afbeelding: Administration - PHPMyAdmin
 
 Eenmaal in de grafische interface van PhpMyAdmin, ga naar de *Export* tab en selecteer de database die moet worden opgeslagen. Er is waarschijnlijk nog 1 genaamd "information_schema", die u gewoon kunt negeren.
 

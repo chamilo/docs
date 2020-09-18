@@ -11,11 +11,11 @@ Standaard is deze pagina \(een reeks verticale tabbladen\) toont de belangrijkst
 
 ![](../../.gitbook/assets/images241%20%283%29.png)
 
-Afbeelding 172: Koersinstellingen - algemeen
+Afbeelding: Koersinstellingen - algemeen
 
 ![](../../.gitbook/assets/images242%20%283%29.png)
 
-Afbeelding 173: Cursuscatalogus - Voorbeeld van cursusillustraties
+Afbeelding: Cursuscatalogus - Voorbeeld van cursusillustraties
 
 **Opmerking**: het **D\*\***_epartment_\*\* is een functie waarvoor de ondersteuning tot dusver is geschrapt. Afhankelijk van de visuele stijlen kan de afdeling verschijnen als een link in de campusheader \(voor oude, verouderde stijlen\). Dit is allemaal een afdeling zal veranderen. Als u in de recentere versie van Chamilo 1.8 cursussen moet beheren op afdelingen binnen een universiteit, raden we u aan de multi-url-functie te gebruiken, beschreven in de beheerdershandleiding, het kleine broertje van deze handleiding _._
 

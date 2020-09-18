@@ -6,7 +6,7 @@ Klik op de knop _voorwaarden_ ![](../../.gitbook/assets/graphics46%20%283%29.png
 
 ![](../../.gitbook/assets/graphics43%20%281%29.png)
 
-Afbeelding 85: Leerpaden - Voorwaarden
+Afbeelding: Leerpaden - Voorwaarden
 
 Hierdoor kan de leraar eisen dat de leerling een andere taak in het leertraject heeft voltooid \(bijv. De voorgaande taak\) voordat hij toegang heeft tot dit element, en ook bijv. in het geval van een toets of beoordeling een bepaalde minimumscore hebben behaald.
 
@@ -14,5 +14,5 @@ Met de knop _voorkeuze-opties_ in de werkbalk kunnen voorwaarden voor het voltoo
 
 ![](../../.gitbook/assets/graphics45%20%281%29.png)
 
-Afbeelding 86: Leerpaden - opties voor voorwaarden
+Afbeelding: Leerpaden - opties voor voorwaarden
 

@@ -12,7 +12,7 @@ Stuur bovendien/alternatief uitnodigingen met hetzelfde formulier rechtstreeks p
 
 ![](../../.gitbook/assets/graphics296%20%283%29.png)
 
-Afbeelding 158: Enquêtes - Publicatie: e-mail extra ontvangers
+Afbeelding: e-mail extra ontvangers
 
 Als u de velden heeft ingevuld, vergeet dan niet op de knop _Publish survey_ te klikken.
 

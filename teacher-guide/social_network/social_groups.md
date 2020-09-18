@@ -9,7 +9,7 @@ Er zijn twee soorten groepen, afhankelijk van de toegang:
 
 ![](../../.gitbook/assets/images260%20%283%29.png)
 
-Afbeelding 192: Sociaal netwerk - Sociale groepen
+Afbeelding: Sociaal netwerk - Sociale groepen
 
 Het tabblad _Mijn groepen_ geeft de groepen weer waarvan u lid bent. Deze groepen werken als een forum. De beheerder \(of moderator\) maakt discussieonderwerpen en gebruikers beginnen met bijdragen.
 

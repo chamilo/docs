@@ -2,7 +2,10 @@
 
 Het doel van het interactiegedeelte is om instrumenten te groeperen die de communicatie tussen leerlingen en tussen leerling en leraar vergemakkelijken. In tegenstelling tot de *Authoring* tools die primair voor docenten zijn, worden de *Interaction* tools voornamelijk geleverd voor gebruik door andere gebruikers, om hun leerproces te ondersteunen.
 
-![](../../.gitbook/assets/images30%20%287%29.png)Afbeelding 28: Interactietools
+![](../../.gitbook/assets/images30%20%287%29.png)
+ 
+ 
+Afbeelding: Interactietools
 
 ## Agenda <a id="agenda"></a>
 

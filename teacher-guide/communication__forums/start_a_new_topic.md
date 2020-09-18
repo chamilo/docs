@@ -17,5 +17,5 @@ Wanneer de inhoud van een forum wordt getoond:
 
 ![](../../.gitbook/assets/graphics5%20%281%29.png)
 
-Afbeelding 71: Forum - Discussiethread
+Afbeelding: Forum - Discussiethread
 

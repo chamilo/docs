@@ -22,7 +22,10 @@ Om een sessie toe te voegen:
     - toegankelijk (vrij toegankelijk via de link sessiegeschiedenis in de cursuslijst),
     - niet toegankelijk,
 
-- ![](../../.gitbook/assets/sessionajouter%20%281%29.png)Afbeelding 65: Administratie - Aanmaken van een sessie
+- ![](../../.gitbook/assets/sessionajouter%20%281%29.png)
+ 
+ 
+Afbeelding: Administratie - Aanmaken van een sessie
 
     klik op *Volgende stap*.
 
@@ -30,7 +33,10 @@ De tweede stap vereist dat u cursussen registreert voor de sessie. Selecteer een
 
 **Met eenmalige registratie** kun je niet verdwalen binnen de cursussen die op het platform bestaan. U moet het begin van de cursustitel in het zoekveld schrijven en de bijbehorende cursussen verschijnen.
 
-![](../../.gitbook/assets/session-inscription%20%281%29.png)Afbeelding 66: Administratie - Cursussen registreren in een sessie
+![](../../.gitbook/assets/session-inscription%20%281%29.png)
+ 
+ 
+Afbeelding: Administratie - Cursussen registreren in een sessie
 
 De laatste stap stelt je in staat om *learners* in te schrijven voor de sessie (andere coaches kunnen later worden toegewezen, dit is op dit moment slechts een studentenabonnement).
 
@@ -40,6 +46,9 @@ Kies de gebruikers en voeg ze, net als bij de cursussen, toe met de blauwe pijlk
 
 Inschrijving per klas stelt u in staat studenten per klas voor uw sessie te registreren. Klassen worden gedefinieerd in de volgende secties van dit hoofdstuk.
 
-![](../../.gitbook/assets/session-inscription2%20%281%29.png)Afbeelding 67: Administratie - Studenten inschrijven op sessies
+![](../../.gitbook/assets/session-inscription2%20%281%29.png)
+ 
+ 
+Afbeelding: Administratie - Studenten inschrijven op sessies
 
 Vanwege het speciale gedrag van cursushulpmiddelen bij gebruik tijdens sessies, hebben we een technisch rapport geschreven over hoe deze zich zouden moeten gedragen in de context van een sessie op onze technische wiki: [http://support.chamilo.org/projects/chamilo-18/wiki/Tools_and_sessions](http://support.chamilo.org/projects/chamilo-18/wiki/Tools_and_sessions)

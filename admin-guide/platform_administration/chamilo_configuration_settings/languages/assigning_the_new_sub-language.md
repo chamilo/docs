@@ -2,7 +2,10 @@
 
 Ten slotte heeft u uw termen opnieuw gedefinieerd in uw subtaal. De enige resterende stap is om deze standaard toe te wijzen aan alle nieuwe gebruikers en alle nieuwe cursussen. Ga hiervoor terug naar de talenlijst en schakel alle andere talen uit.
 
-![](../../../../.gitbook/assets/graficos41.png)Afbeelding 36: Administratie - Subtalen - Zichtbaarheid en standaardgebruik
+![](../../../../.gitbook/assets/graficos41.png)
+ 
+ 
+Afbeelding: Administratie - Subtalen - Zichtbaarheid en standaardgebruik
 
 Klik voor uw subtaal op het derde pictogram om dit de standaardtaal op het platform te maken. Dat is alles, uw platform is nu gepersonaliseerd volgens uw activiteitsdomein.
 

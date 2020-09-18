@@ -4,7 +4,7 @@ Terwijl u uw leertraject/cursus samenstelt, heeft u de mogelijkheid om bestaande
 
 ![](../../.gitbook/assets/graphics12%20%281%29.png)
 
-Afbeelding 78: een leerobject of activiteit toevoegen aan een cursus
+Afbeelding: een leerobject of activiteit toevoegen aan een cursus
 
 ## Maak een nieuw document <a id="create-a-new-document"></a>
 
@@ -16,7 +16,7 @@ Klik om te beginnen op het pictogram _Rich media-pagina/activiteit_ ![](../../.g
 
 ![](../../.gitbook/assets/graphics25%20%281%29.png)
 
-Afbeelding 79: Leerpaden - Hulpprogramma voor het maken van rich media
+Afbeelding: Leerpaden - Hulpprogramma voor het maken van rich media
 
 ## Gebruik bestaande bronnen <a id="use-existing-resources"></a>
 
@@ -36,7 +36,7 @@ De _Sections_ tool ![](../../.gitbook/assets/graphics33%20%283%29.png) is een ee
 
 ![](../../.gitbook/assets/graphics29%20%281%29.png)
 
-Afbeelding 81: Leerpaden - Nieuwe secties
+Afbeelding: Leerpaden - Nieuwe secties
 
 ## Geef het leertraject weer <a id="display-the-learning-path"></a>
 
@@ -44,7 +44,7 @@ Geef de resultaten weer van het leertraject dat u zojuist heeft opgebouwd:
 
 ![](../../.gitbook/assets/graphics30%20%281%29.png)
 
-Afbeelding 82: Leerpaden - mening van de leerling
+Afbeelding: Leerpaden - mening van de leerling
 
 U kunt schakelen tussen de bovenstaande leerkracht- en leerlingweergaven door op de knop voor leerkracht/leerlingweergave te klikken ![](../../.gitbook/assets/graphics31%20%283%29.png):
 

@@ -4,4 +4,7 @@ Met de tool *Announcements* ![](../../.gitbook/assets/graphics226.png) kun je ee
 
 Deze aankondigingen kunnen bijvoorbeeld worden gebruikt om studenten te informeren over de recente beschikbaarheid van een document, de deadline voor een opdracht of nieuws of informatie met betrekking tot de cursus.
 
-![](../../.gitbook/assets/images163%20%281%29.png)Afbeelding 124: Aankondigingenpagina
+![](../../.gitbook/assets/images163%20%281%29.png)
+ 
+ 
+Afbeelding: Aankondigingenpagina

@@ -4,7 +4,7 @@ Vanaf de hoofdaankondigingspagina:
 
 * ![](../../.gitbook/assets/images164%20%281%29.png)
 
-  Afbeelding 125: Voeg een aankondiging toe
+  Afbeelding: Voeg een aankondiging toe
 
   klik op het pictogram _ Een aankondiging toevoegen _ ![](../../.gitbook/assets/graphics227.png),
 
@@ -21,5 +21,5 @@ Aankondigingen verschijnen als volgt voor ontvangers op het platform:
 
 ![](../../.gitbook/assets/graphics233.png)
 
-Afbeelding 126: Aankondigingen - leerlingweergave
+Afbeelding: Aankondigingen - leerlingweergave
 

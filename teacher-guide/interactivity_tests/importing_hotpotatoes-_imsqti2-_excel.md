@@ -6,9 +6,9 @@ Om dit te doen, hoeft de docent gewoon op het relevante pictogram in de werkbalk
 
 ![](../../.gitbook/assets/graphics132%20%281%29.png)
 
-Afbeelding 63: Tests - importeer externe tests van de pagina Tests
+Afbeelding: Tests - importeer externe tests van de pagina Tests
 
 ![](../../.gitbook/assets/graphics157%20%281%29.png)![](../../.gitbook/assets/graphics158%20%281%29.png)![](../../.gitbook/assets/graphics159%20%281%29.png)
 
-Afbeelding 64: Tests - Importeer HotPotatoes, Qti2 en Excel-tests
+Afbeelding: Tests - Importeer HotPotatoes, Qti2 en Excel-tests
 

@@ -4,7 +4,7 @@ De meeste pagina's zijn snel toegankelijk via de tabbladen bovenaan de pagina:
 
 ![](../.gitbook/assets/images11%20%2810%29.png)
 
-Afbeelding 9: Chamilo-header
+Afbeelding: Chamilo-header
 
 De “tabs” geven toegang tot de homepage, de cursuslijst, je agenda, de rapportage/tracking pagina, het sociale netwerk en \(als je het geluk hebt een portaalbeheerder te zijn\) tot het dashboard en de administratiepagina's. Het laatste tabblad toont de foto van de gebruiker \(zodat hij kan controleren dat hij niet per ongeluk het account van een andere gebruiker gebruikt\) en een vervolgkeuzemenu laat de gebruiker naar zijn profiel gaan of uitloggen op elk moment met slechts twee klikken.
 
@@ -14,15 +14,15 @@ De eerste "breadcrumb" link, aan de linkerkant, geeft de naam van de cursus weer
 
 ![](../.gitbook/assets/images12%20%288%29.png)
 
-Afbeelding 10: Broodkruimelnavigatie
+Afbeelding: Broodkruimelnavigatie
 
 Binnen een cursus stelt de leerlingweergave de docent in staat de cursus als een leerling te zien. De link verandert dan in de weergave Leraar. Klik gewoon op de nieuwe link om terug te gaan naar de normale weergave van de "leraar":
 
 ![](../.gitbook/assets/images13%20%2810%29.png)
 
-Afbeelding 11: Schakel over naar de leerlingweergave
+Afbeelding: Schakel over naar de leerlingweergave
 
 ![](../.gitbook/assets/image1%20%283%29.png)
 
-Afbeelding 12: Schakel over naar de docentweergave
+Afbeelding: Schakel over naar de docentweergave
 
