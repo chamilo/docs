@@ -210,6 +210,8 @@
   * [Administrar la configuración del sistema](manual-del-administrador/unidad_administrador/opciones_de_configuracion.md)
   * [Administrar el RGPD](manual-del-administrador/unidad_administrador/administracion_rgpd.md)
   * [Cambios en esta versión](manual-del-administrador/unidad_administrador/cambios_en_esta_version.md)
+* [Informes](manual-del-administrador/informes/README.md)
+  * [Lista de informes](manual-del-administrador/informes/lista_de_informes.md) 
 * [Funcionalidades globales](manual-del-administrador/funcionalidades_globales/README.md)
   * [Multi-URL](manual-del-administrador/funcionalidades_globales/multi_url.md)
   * [Videoconferencia](manual-del-administrador/funcionalidades_globales/video_conferencia.md)
