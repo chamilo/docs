@@ -4,7 +4,7 @@
 
 ## Leerkracht Handleiding
 
-* [Invoering](teacher-guide/readme.md)
+* [Inleding](teacher-guide/readme.md)
 * [Chamilo leren kennen](teacher-guide/getting-to-know-chamilo/README.md)
   * [Wat is Chamilo?](teacher-guide/getting-to-know-chamilo/what_is_chamilo.md)
   * [Over deze handleiding](teacher-guide/getting-to-know-chamilo/about_this_guide.md)
