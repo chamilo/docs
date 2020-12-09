@@ -2,8 +2,8 @@
 
 Ce site contient les guides utilisateurs en langue française relatifs à la version 1.11 de Chamilo.
 
-* [Guide administrateur](https://github.com/chamilo/docs/tree/642884fbf07b635792040357fdb2979ccf46ae47/admin/introduction/a_propos_de_ce_guide.md)
-* [Guide enseignant](guide-enseignant/introduction/quest-ce_que_chamilo.md)
+ - Guide enseignant
+ - Guide administrateur
 
 La grande majorité des utilisateurs n'auront aucun besoin d'utiliser les guides utilisateur de Chamilo.
 
