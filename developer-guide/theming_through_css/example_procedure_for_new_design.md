@@ -3,6 +3,7 @@
 With all the information you've gone through, how would you go ahead now and create a new design (based on an existing one) with new colors, including new course tool icons, a new logo and a default image for courses?
 
 This is a checklist of what you will need to do, step by step:
+
  1. Connect to Chamilo
  2. Go to Administration -> Platform -> Configuration settings -> Stylesheets
  3. Select the name of the style you want to use as a base (this is *much* easier than starting a new one from scratch)
@@ -26,11 +27,12 @@ This is a checklist of what you will need to do, step by step:
  21. Move back to the `Update` tab and select the new stylesheet (you can use the `Preview` button so that it doesn't affect all your users immediately)
  21. You might need to use CTRL+F5 to refresh some cache memory in your browser, but that shouldn't be the case
  
- That's it!
+That's it!
  
- ## Forbidden file extensions
+## Forbidden file extensions
  
- For security reasons, we only allow a number of file extensions to be uploaded:
+For security reasons, we only allow a number of file extensions to be uploaded:
+
   - css
   - zip
   - jpeg
@@ -46,7 +48,7 @@ This is a checklist of what you will need to do, step by step:
   - woff2
   - md
   
-  This list can change. You can find it in the getAllowedFileTypes() function around https://github.com/chamilo/chamilo-lms/blob/1.11.x/main/admin/settings.lib.php#L2072
+This list can change. You can find it in the getAllowedFileTypes() function around https://github.com/chamilo/chamilo-lms/blob/1.11.x/main/admin/settings.lib.php#L2072
   
-  If you want to avoid those restrictions, you can also upload the new style through SFTP directly in `app/Resources/public/css/themes/`, but you will *need* to use the `Cache clean-up` option in the administration page (block `System`), otherwise the stylesheet will not be spread to the final public folder `web/css/themes/`.
+If you want to avoid those restrictions, you can also upload the new style through SFTP directly in `app/Resources/public/css/themes/`, but you will *need* to use the `Cache clean-up` option in the administration page (block `System`), otherwise the stylesheet will not be spread to the final public folder `web/css/themes/`.
   
