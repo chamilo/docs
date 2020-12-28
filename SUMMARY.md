@@ -369,6 +369,7 @@
   * [The stylesheets inclusion mechanism](developer-guide/theming_through_css/the_stylesheets_inclusion_mechanism.md)
   * [Extending the icons set](developer-guide/theming_through_css/extending_the_icons_set.md)
   * [Default course image](developer-guide/theming_through_css/default_course_image.md)
+  * [Example procedure for new design](developer-guide/theming_through_css/example_procedure_for_new_design.md)
 * [Document templates](developer-guide/document_templates/README.md)
   * [Structure](developer-guide/document_templates/structure.md)
 * [Theming certificates](developer-guide/theming-certificates.md)
