@@ -1,14 +1,14 @@
-# Complete recovery
 
-This recovery procedure has been tested a few times, but your configuration might vary considerably from this example. Here we will use a local installation case, using PhpMyAdmin and a backup of the Chamilo root directory. For a remote server, it would require SSH / SFTP or FTP access to the server.
+# Vollständige Wiederherstellung
 
-This recovery might be necessary after you mistakenly delete some or all of the Chamilo databases, or after serious damage has been caused on your server by a cracker.
+Dieser Wiederherstellungsvorgang wurde einige Male getestet, Ihre Konfiguration kann jedoch erheblich von diesem Beispiel abweichen. Hier verwenden wir einen lokalen Installationsfall, der phpMyAdmin und ein Backup des Chamilo-Root-Verzeichnisses verwendet. Für einen Remote-Server würde es SSH/ SFTP- oder FTP-Zugriff auf den Server erfordern.
 
-1. Copy the backup file into the root directory \(/var/www\) and unzip it. Keeping the same directories structure allows you not to loose some of the pre-configured access path to some data.
-2. Import the database backup from PhpMyAdmin \(after removing the previous database if it was still present\).
-3. Connect to your site and check everything is in order.
+Diese Wiederherstellung kann erforderlich sein, nachdem Sie versehentlich einige oder alle Chamilo-Datenbanken gelöscht haben oder nachdem auf Ihrem Server durch einen Cracker ernsthafte Schäden verursacht wurden.
 
-The backup contains users, passwords, courses, learning paths, and all the resources of your portal.
+1. Kopieren Sie die Backup-Datei in das Root-Verzeichnis \(/var/www\) und entpacken Sie sie. Wenn Sie die gleiche Verzeichnisstruktur beibehalten, können Sie einen Teil des vorkonfigurierten Zugriffspfads auf einige Daten nicht verlieren.
+2. Importieren Sie die Datenbanksicherung aus phpMyAdmin \(nachdem Sie die vorherige Datenbank entfernt haben, falls sie noch vorhanden war\).
+3. Verbinde dich mit deiner Website und überprüfe, ob alles in Ordnung ist.
 
-We actively recommend taking automatic backups on **another** server at least once a day for critical Chamilo servers.
+Das Backup enthält Benutzer, Passwörter, Kurse, Lernpfade und alle Ressourcen Ihres Portals.
 
+Wir empfehlen aktiv, mindestens einmal täglich automatische Backups auf einem anderen Server für kritische Chamilo Server zu erstellen.

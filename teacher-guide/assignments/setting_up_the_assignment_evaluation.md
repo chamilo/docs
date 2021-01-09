@@ -1,17 +1,17 @@
-# Setting up the assignment evaluation
 
-The teacher's evaluation of student assignments can be automatically included within the assessments tool. The marks assigned to corrected assignments will form part of the overall assessment, and a weighting assigned for each particular assignment.
+# Einrichten der Arbeitsauftragsbewertung
 
-To include assignments' evaluation in the assessments:
+Die Bewertung der Studenteneinsätze durch den Lehrer kann automatisch in das Bewertungstool aufgenommen werden. Die Marken, die korrigierten Zuweisungen zugewiesen sind, sind Teil der Gesamtbewertung und eine Gewichtung, die für jeden einzelnen Auftrag zugewiesen wird.
 
-* click on the _Advanced settings_ link in the Create/edit _assignment_ page
-* assign a _Maximum score_ greater than 0
-* check the _Add to grade-book_ box
-* choose the relevant assessment from the drop-down list
-* assign a weighting within the assessment
-* click on the _Validate_ button.
+So nehmen Sie die Bewertung der Aufgaben in die Bewertungen auf:
+
+* klicken Sie auf den Link _Erweiterte Einstellungen_ auf der Seite _assignment_ erstellen/bearbeiten
+* Weisen Sie einen _Maximal-Score_ größer als 0 zu
+* Aktivieren Sie das Kästchen _Zum Klasse-Buch hinzufügen_
+* Wählen Sie die entsprechende Bewertung aus der Dropdown-Liste
+* Weisen Sie eine Gewichtung innerhalb der Bewertung zu
+* klicken Sie auf die Schaltfläche _Validate_.
 
 ![](../../.gitbook/assets/graphics71.png)
 
-_Illustration 96: Assignments – Advanced settings_
-
+_Illustration 96: Aufgaben — Erweiterte Einstellungen_

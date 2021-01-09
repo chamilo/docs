@@ -1,30 +1,30 @@
-# Step 2 of 6 : Prerequisites
 
-This step checks your server has all the required elements for a complete and correct installation of Chamilo.
+# Schritt 2 von 6: Voraussetzungen
 
-![](../../../../.gitbook/assets/images3%20%288%29.png)Illustration 4: Installation - Prerequisites
+In diesem Schritt wird überprüft, ob Ihr Server über alle erforderlichen Elemente für eine vollständige und korrekte Installation von Chamilo verfügt.
 
-The prerequisites already fulfilled by your system are marked in **green**, the mandatory but non-satisfied ones are marked in **red** and the ones non-satisfied but not mandatory either are marked in **orange**.
+![](../../../../.gitbook/assets/images3%20%288%29.png)Illustration 4: Installation - Voraussetzungen
 
-Almost all prerequisites relate to the PHP installation and offer links to more details. The recommended parameters represent variables that you can modify in your PHP configuration \(_php.ini_\) or inside the VirtualHost configuration.
+Die Voraussetzungen, die Ihr System bereits erfüllt hat, sind in **Grün** gekennzeichnet, die obligatorischen, aber nicht zufriedenen sind in **rot** gekennzeichnet und diejenigen, die nicht zufrieden, aber auch nicht obligatorisch sind in orange** gekennzeichnet.
 
-At the end of the prerequisites page, you will find a _Permissions on directories and files_ section.
+Fast alle Voraussetzungen beziehen sich auf die PHP-Installation und bieten Links zu weiteren Details. Die empfohlenen Parameter stellen Variablen dar, die Sie in Ihrer PHP-Konfiguration \(_php.ini_\) oder in der VirtualHost-Konfiguration ändern können.
 
-![](../../../../.gitbook/assets/images5%20%288%29.png)Illustration 5: Installation - Prerequisites \(end\)
+Am Ende der Seite „Voraussetzungen“ finden Sie den Abschnitt _Permissions für Verzeichnisse und Dateien_.
 
-By default under GNU/Linux, writing is not authorized on directories. You must change files accesses to optimise the security and give the sufficient permissions to the user running the web server. These ensure confinement of permissions during the execution of a service \(in this case _Apache_\) and avoid a cracker to be able to take control of your server too easily.
+![](../../../../.gitbook/assets/images5%20%288%29.png)Illustration 5: Installation - Voraussetzungen \(end\)
 
-Under Windows, this is generally easier by default \(but much less secure\) and the permissions are already sufficient \(but too permissive\).
+Standardmäßig ist unter GNU/Linux das Schreiben für Verzeichnisse nicht autorisiert. Sie müssen die Dateizugriffe ändern, um die Sicherheit zu optimieren und dem Benutzer, der den Webserver ausführt, die ausreichenden Berechtigungen zu erteilen. Diese stellen die Beschränkung der Berechtigungen während der Ausführung eines Dienstes sicher \(in diesem Fall _Apache_\) und vermeiden, dass ein Cracker zu einfach die Kontrolle über Ihren Server übernehmen kann.
 
-**Note** : Chamilo is frequently reviewed \(at least once a year\) against security flaws that would endanger your server. You can be kept aware of the latest security flaws found and fixed by subscribing to our dedicated security mailing list: [http://lists.chamilo.org/listinfo/](http://lists.chamilo.org/listinfo/security)[security](http://lists.chamilo.org/listinfo/security) or on [http://support.chamilo.org/projects/chamilo-18/wiki/Security\_issues](http://support.chamilo.org/projects/chamilo-18/wiki/Security_issues). Alternatively, we have a Twitter feed for Chamilo's security-related news: [http://twitter.com/chamilosecurity](http://twitter.com/chamilosecurity)Chamilo has an excellent track record of fixing every security flaw and publishing patches to its users within 4 days of being reported. You can check our public record on Secunia's website
+Unter Windows ist dies im Allgemeinen standardmäßig einfacher \(aber viel weniger sicher\) und die Berechtigungen reichen bereits aus \(aber zu freudig\).
 
-Locally, on Ubuntu, go to the directory where the _Chamilo_ directory is. Give it sufficient permissions to user _www-data_ \(the web server user under Ubuntu\) and reload the page in your browser. If you use another operating system, you might need to update the following command a little bit.
+**Hinweis**: Chamilo wird häufig \(mindestens einmal im Jahr\) gegen Sicherheitslücken überprüft, die Ihren Server gefährden würden. Sie können auf die neuesten Sicherheitslücken aufmerksam gemacht und behoben werden, indem Sie unsere spezielle Sicherheits-Mailingliste abonnieren: [http://lists.chamilo.org/listinfo/](http://lists.chamilo.org/listinfo/security) [security](http://lists.chamilo.org/listinfo/security) oder auf [http://support.chamilo.org/projects/chamilo-18/wiki/Security\_issues](http://support.chamilo.org/projects/chamilo-18/wiki/Security_issues). Alternativ haben wir einen Twitter-Feed für die sicherheitsrelevanten Nachrichten von Chamilo: [http://twitter.com/chamilosecurity](http://twitter.com/chamilosecurity)Chamilo hat eine hervorragende Erfolgsbilanz bei der Behebung aller Sicherheitslücken und der Veröffentlichung von Patches für seine Benutzer innerhalb von 4 Tagen nach der Meldung. Sie können unsere öffentlichen Aufzeichnungen auf der Website von Secunia einsehen
 
-Ex.: user@server:/var/www$ chown -R www-data:www-data chamilo/
+Wechseln Sie lokal auf Ubuntu in das Verzeichnis, in dem sich das Verzeichnis _Chamilo_ befindet. Geben Sie dem Benutzer _www-data_ (dem Webserver-Benutzer unter Ubuntu\) ausreichende Berechtigungen und laden Sie die Seite in Ihren Browser neu. Wenn Sie ein anderes Betriebssystem verwenden, müssen Sie möglicherweise den folgenden Befehl ein wenig aktualisieren.
 
-These permissions are nowhere near secure, and we assume you will seek advise about permissions to a properly qualified Linux administrator. Security should matter to you, but we cannot possibly cover all cases of permissions and servers out there just with this guide.
+Beispiel: user @server: /var/www$ chown -R www-data:www-data chamilo/
 
-Click on « + New installation ».
+Diese Berechtigungen sind nicht annähernd sicher, und wir gehen davon aus, dass Sie sich an einen ordnungsgemäß qualifizierten Linux-Administrator wenden werden. Sicherheit sollte für Sie wichtig sein, aber wir können unmöglich alle Fälle von Berechtigungen und Servern nur mit diesem Handbuch abdecken.
 
-_**Note**_ : if you run an update of a previous version of Chamilo, this chapter is not the right one for you. You should rather check out chapter 2.3 : Updating Chamilo. We also recommend you to read the installation and update guide of Chamilo, available inside the **documentation** directory of your Chamilo package.
+Klicke auf « + New installation ».
 
+_**Hinweis**_: Wenn du ein Update einer früheren Version von Chamilo ausführst, ist dieses Kapitel nicht das Richtige für dich. Sie sollten sich lieber Kapitel 2.3: Aktualisierung von Chamilo ansehen. Wir empfehlen Ihnen auch, die Installations- und Aktualisierungsanleitung von Chamilo zu lesen, die im Verzeichnis**Dokumentation** Ihres Chamilo-Pakets verfügbar ist.

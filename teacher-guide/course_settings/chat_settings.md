@@ -1,6 +1,6 @@
-# Chat settings
 
-In the _Chat_ section ![](../../.gitbook/assets/graphics326.png), selecting the appropriate option allows you to choose whether the chat opens within in the page or in a new window:
+# Chat-Einstellungen
 
-![](../../.gitbook/assets/images245.png)_Illustration 176: Course settings – Chat settings_
+Im Abschnitt _Chat_ ![](../../.gitbook/assets/graphics326.png) können Sie durch Auswahl der entsprechenden Option auswählen, ob der Chat in der Seite oder in einem neuen Fenster geöffnet wird:
 
+![](../../.gitbook/assets/images245.png)_Illustration 176: Kurseinstellungen — Chat-Einstellungen_

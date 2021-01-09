@@ -1,4 +1,4 @@
-# About this guide
 
-This guide has been written through the collaboration of various organizations and individuals who share a common goal to contribute to education around the world. You can contribute to the writing and improvement of this guide too. All you need to do is drop us an e-mail at info@chamilo.org with your suggestions for improvements – you could attach you own modified version of paragraphs, chapters, screen-shots or even the whole manual! It's that easy!
+# Über diesen Leitfaden
 
+Dieser Leitfaden wurde in Zusammenarbeit mit verschiedenen Organisationen und Einzelpersonen verfasst, die ein gemeinsames Ziel verfolgen, zur Bildung auf der ganzen Welt beizutragen. Sie können auch zum Schreiben und zur Verbesserung dieses Leitfadens beitragen. Alles, was Sie tun müssen, ist uns eine E-Mail an info@chamilo.org mit Ihren Verbesserungsvorschlägen zu senden - Sie könnten Ihre eigene modifizierte Version von Absätzen, Kapiteln, Screenshots oder sogar das gesamte Handbuch beifügen! So einfach geht's!

@@ -1,12 +1,12 @@
-# Getting to know Chamilo
 
-Chamilo LMS is an e-learning system \(that is it manages learning\) developed in a collaborative way by several companies, associations and people, through an open model called « free software » \(as in _freedom_\).
+# Chamilo kennenlernen
 
-You can download and use Chamilo freely, given you accept its license \(GNU/GPLv3\) which gives you, in short, four essential freedoms, given your compromise to maintain those freedoms : the freedom to use, study, modify and distribute the software.
+Chamilo LMS ist ein E-Learning-System \(das heißt, es verwaltet das Lernen\), das auf kollaborative Weise von mehreren Unternehmen, Verbänden und Personen durch ein offenes Modell namens « free software » \(wie in _freedom_\) entwickelt wurde.
 
-![](../../.gitbook/assets/images268%20%286%29.png)Illustration 1: Right to use, study and modify, share and distribute the software
+Sie können Chamilo kostenlos herunterladen und verwenden, da Sie seine Lizenz \(GNU/GPLv3\) akzeptieren, die Ihnen kurz gesagt vier wesentliche Freiheiten gibt, wenn Sie Ihren Kompromiss zur Wahrung dieser Freiheiten erhalten: die Freiheit, die Software zu verwenden, zu studieren, zu modifizieren und zu vertreiben.
 
-Chamilo is not only developed collaboratively by dozens of people in the world at large ; it is also supported by a non-profit association with the objective of promoting the platform and ensure its continuity. In this sense, Chamilo LMS is the only free software e-learning platform that generates so many guarantees of open access.
+![](../../.gitbook/assets/images268%20%286%29.png)Illustration 1: Recht auf Nutzung, Studium und Änderung, Weitergabe und Verbreitung der Software
 
-You can contribute to Chamilo too, promoting its use, reporting errors, suggesting improvements, translating it \(or its manuals\) to your native language, or even developing extensions or fixes by yourself.
+Chamilo wird nicht nur von Dutzenden von Menschen auf der ganzen Welt gemeinsam entwickelt, sondern wird auch von einem gemeinnützigen Verband unterstützt, um die Plattform zu fördern und ihre Kontinuität sicherzustellen. In diesem Sinne ist Chamilo LMS die einzige E-Learning-Plattform für freie Software, die so viele Garantien für Open Access generiert.
 
+Sie können auch zu Chamilo beitragen, seine Verwendung bewerben, Fehler melden, Verbesserungen vorschlagen, \(oder seine Handbücher\) in Ihre Muttersprache übersetzen oder sogar Erweiterungen oder Korrekturen selbst entwickeln.

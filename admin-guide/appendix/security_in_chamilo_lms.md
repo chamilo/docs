@@ -1,26 +1,26 @@
-# Security in Chamilo LMS
 
-While Chamilo is free software \(and thus anyone can access its code\), you can rest assure that security is a very important element for the development team and the official providers. This section gives you a few facts about security that you might be interested in knowing if you ever have to defend Chamilo against proprietary software.
+# Sicherheit bei Chamilo LMS
 
-First things first. Proprietary software generally means that the source code is hidden, or “obfuscated” by compilation. This means that you cannot “just” download the application and look through the code.
+Während Chamilo Freie Software ist \(und damit jeder auf seinen Code zugreifen kann\), können Sie sicher sein, dass Sicherheit ein sehr wichtiges Element für das Entwicklungsteam und die offiziellen Anbieter ist. In diesem Abschnitt finden Sie einige Fakten zur Sicherheit, die Sie möglicherweise wissen möchten, ob Sie Chamilo jemals gegen proprietäre Software verteidigen müssen.
 
-Open Source and Free Software software means that you can see the source code, which also means, in theory, that you can more easily find its weaknesses and, eventually, exploit them.
+Die ersten Dinge zuerst. Proprietäre Software bedeutet im Allgemeinen, dass der Quellcode verborgen ist oder “obfuscated” durch Kompilierung. Dies bedeutet, dass Sie die Anwendung nicht von “just” herunterladen und den Code durchsehen können.
 
-There's something inherently wrong about the conception that people have about proprietary software, though: it is **not difficult** to get to the source code. As many articles will explain, there are many de-compilation tools that will allow you to analyse the code of any compiled application.
+Open Source- und Freie-Software-Software bedeutet, dass Sie den Quellcode sehen können, was theoretisch auch bedeutet, dass Sie seine Schwächen leichter finden und letztendlich ausnutzen können.
 
-Another case is when you use web applications, where users do not have access to the code at all. Free Software provides this code for download, which means a free software web application is more easily analysed than a closed source application. And that part is true.
+An der Konzeption, die Menschen über proprietäre Software haben, stimmt inhärent nicht: Es ist **nicht schwer**, zum Quellcode zu gelangen. Wie viele Artikel erläutern werden, gibt es viele Tools zur De-Kompilierung, mit denen Sie den Code jeder kompilierten Anwendung analysieren können.
 
-The second huge misconception is that an application that doesn't reveal its source is more secure than an application that does. This isn't true, and comes, in a way, from the “web 2.0” effect: a system with open sources is more easily reviewed by people with interests in making it more secure, and the sharing of common security concepts across the different open source projects make it easier to protect a piece of software from malicious attacks.
+Ein weiterer Fall ist die Verwendung von Webanwendungen, bei denen Benutzer überhaupt keinen Zugriff auf den Code haben. Freie Software stellt diesen Code zum Download bereit, was bedeutet, dass eine kostenlose Software-Webanwendung einfacher analysiert werden kann als eine Closed Source-Anwendung. Und dieser Teil stimmt.
 
-Let's analyse this with facts: on Secunia's \(an agency specialized in software security\) website, you can find all security vulnerabilities reported publicly. Every report, when left unsolved long enough, gets a unique “CVE” code, which identifies the vulnerability and allows references to it later on.
+Das zweite große Missverständnis ist, dass eine Anwendung, die ihre Quelle nicht preisgibt, sicherer ist als eine Anwendung, die dies tut. Dies ist nicht wahr und ergibt sich in gewisser Weise aus dem “web 2.0” -Effekt: Ein System mit offenen Quellen lässt sich leichter von Personen überprüfen, die daran interessiert sind, es sicherer zu machen, und das Teilen gemeinsamer Sicherheitskonzepte für die verschiedenen Open-Source-Projekte erleichtert es, eine Software vor bösartig zu schützen -Angriffe.
 
-Chamilo, since its creation and until now, has never laster more than 4 calendar days to solve a new security flaw reported to them. You can check the report here: [http://secunia.com/advisories/product/34198/](http://secunia.com/advisories/product/34198/)
+Lassen Sie uns dies mit Fakten analysieren: Auf der Website von Secunia (einer auf Softwaresicherheit spezialisierten Agentur\) finden Sie alle öffentlich gemeldeten Sicherheitslücken. Jeder Bericht erhält, wenn er lange genug ungelöst bleibt, einen eindeutigen “CVE” -Code, der die Schwachstelle identifiziert und später Verweise darauf zulässt.
 
-A proprietary product in the same category, for example Blackboard® Learn 9.x \(it's latest version\), has yet to fix a security issue published in July 2012 \(8 months ago\): [http://secunia.com/advisories/product/41718/?task=advisories](http://secunia.com/advisories/product/41718/?task=advisories). It's Academic Suite still suffrs from a security flaw reported in July 2008: [http://secunia.com/advisories/product/18189/?task=advisories](http://secunia.com/advisories/product/18189/?task=advisories)
+Chamilo hat seit seiner Gründung und bis jetzt nie mehr als 4 Kalendertage Zeit, um einen neuen Sicherheitslücken zu lösen, der ihnen gemeldet wurde. Sie können den Bericht hier einsehen: [http://secunia.com/advisories/product/34198/](http://secunia.com/advisories/product/34198/)
 
-The code of Blackboard is not only compiled: it is also not downloadable, so attackers cannot access it directly. Nevertheless, security flaws can still be detected, reported and remain unfixed for years.
+Ein proprietäres Produkt in der gleichen Kategorie, zum Beispiel Blackboard® Learn 9.x \(es ist die neueste Version\), muss noch ein im Juli 2012 veröffentlichtes Sicherheitsproblem beheben \(vor 8 Monaten\): [http://secunia.com/advisories/product/41718/?task=advisories](http://secunia.com/advisories/product/41718/?task=advisories). Es ist Academic Suite leidet immer noch unter einer Sicherheitslücke, die im Juli 2008 gemeldet wurde: [http://secunia.com/advisories/product/18189/?task=advisories](http://secunia.com/advisories/product/18189/?task=advisories)
 
-The strength of the security chain is the one of its weakest link, and most of the time this link is the human laziness. We have never, so far, received any report of security flaws being exploited in Chamilo, but we did receive several reports of password theft, provoked by a bad infrastructure or just by distraction.
+Der Code von Blackboard ist nicht nur kompiliert: Er kann auch nicht heruntergeladen werden, sodass Angreifer nicht direkt darauf zugreifen können. Dennoch können Sicherheitslücken immer noch erkannt, gemeldet und über Jahre nicht behoben werden.
 
-In conclusion, Chamilo is just as safe, if not safer, than equivalent proprietary software. If you want to avoid security issues, make sure you use password that are difficult to guess, and to always connect on a secure network. Check the SSL chapter on page 88 for a few tips.
+Die Stärke der Sicherheitskette ist die ihres schwächsten Gliedes, und meistens ist diese Verbindung die menschliche Faulheit. Bisher haben wir noch nie einen Bericht über Sicherheitslücken erhalten, die in Chamilo ausgenutzt werden, aber wir haben mehrere Berichte über Passwortdiebstahl erhalten, die durch eine schlechte Infrastruktur oder nur durch Ablenkung hervorgerufen wurden.
 
+Zusammenfassend ist Chamilo genauso sicher, wenn nicht sogar sicherer als gleichwertige proprietäre Software. Wenn Sie Sicherheitsprobleme vermeiden möchten, stellen Sie sicher, dass Sie ein schwer zu erratendes Passwort verwenden und sich immer in einem sicheren Netzwerk verbinden. Im SSL-Kapitel auf Seite 88 finden Sie einige Tipps.

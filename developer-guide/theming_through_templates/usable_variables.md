@@ -1,18 +1,19 @@
-# Usable variables
 
-Because we want this template system to be practical for us, and because we don't want to always be assigning all the common variables we'll need rightat the end of our scripts, Chamilo comes with a set of pre-defined variables and arrays you can use.
+# Verwendbare Variablen
 
-Here is a list of those variables and arrays... Not that it might not be exhaustive and that, at this time, we have no way of helping you list these, but you **could** hack into _**main/inc/lib/template.lib.php**_ and search for all _**$this-&gt;assign\('literal', $variable\) ;**_ calls to find out.
+Da wir möchten, dass dieses Vorlagensystem für uns praktisch ist und wir am Ende unserer Skripte nicht immer alle gängigen Variablen zuweisen möchten, die wir am Ende unserer Skripte benötigen, enthält Chamilo eine Reihe vordefinierter Variablen und Arrays, die Sie verwenden können.
 
-## The \_u array
+Hier ist eine Liste dieser Variablen und Arrays... Nicht, dass es vielleicht nicht erschöpfend wäre und wir Ihnen derzeit nicht helfen können, diese aufzulisten, aber Sie könnten** in _ _ **main/inc/lib/template.lib.php**_ hacken und nach allen _**$this->assign \('wörtlich', $variable\); **_ Aufrufe, um es herauszufinden.
 
-The **\_u** array contains general information about the user. You could get the user's firstname to be printed inside any tpl by using the following syntax :
+## Das\_u Array
+
+Das Array **\_u** enthält allgemeine Informationen über den Benutzer. Sie könnten den Vornamen des Benutzers in jedem tpl drucken lassen, indem Sie die folgende Syntax verwenden:
 
 ```text
 {{ _u.firstname }}
 ```
 
-Here is a complete list of the values it contains, together with an example of the value you'll get from them. As you will see, some of these are duplicated under a slightly different name. We recommend always using the lowercase variables, as others should be cleaned out progressively in the future.
+Hier ist eine vollständige Liste der enthaltenen Werte zusammen mit einem Beispiel für den Wert, den Sie von ihnen erhalten. Wie Sie sehen werden, werden einige davon unter einem etwas anderen Namen dupliziert. Wir empfehlen, die Variablen in Kleinbuchstaben immer zu verwenden, da andere in Zukunft schrittweise bereinigt werden sollten.
 
 ```text
 [complete_name] => John Doe
@@ -43,9 +44,9 @@ Here is a complete list of the values it contains, together with an example of t
 [messages_invitations_count] => 0
 ```
 
-## The \_p array
+## Das\_p Array
 
-This array contains a list of different forms of paths that you might need at the template level, for example to link to other resources.
+Dieses Array enthält eine Liste verschiedener Formen von Pfaden, die Sie möglicherweise auf Vorlagenebene benötigen, um beispielsweise mit anderen Ressourcen zu verknüpfen.
 
 ```text
 [web] => http://my.chamilo110.net/
@@ -64,17 +65,17 @@ This array contains a list of different forms of paths that you might need at th
 [web_cid_query] => cidReq=ABC&amp;id_session=0&amp;gidReq=0&amp;gradebook=0&amp;origin=...
 ```
 
-You could get the basis of the courses directory to be printed inside any tpl by using the following syntax :
+Sie können die Grundlage für das Kursverzeichnis erhalten, das in jedem tpl gedruckt werden soll, indem Sie die folgende Syntax verwenden:
 
 ```text
 {{ _p.web_course }}
 ```
 
-Note that system paths, although easily available otherwise in the PHP scripts, are not provided here, as they should never be shown to the final users \(even in the HTML source code\).
+Beachten Sie, dass Systempfade, obwohl sie sonst in den PHP-Skripten leicht verfügbar sind, hier nicht bereitgestellt werden, da sie den Endbenutzern (auch nicht im HTML-Quellcode\) angezeigt werden sollten.
 
-## The \_s array
+## Das\_s Array
 
-This array contains some system variables representing general platform information
+Dieses Array enthält einige Systemvariablen, die allgemeine Plattforminformationen darstellen
 
 ```text
 [software_name] => Chamilo 
@@ -86,17 +87,17 @@ This array contains some system variables representing general platform informat
 [gamification_mode] => true/false
 ```
 
-i.e. you can get the site name \(as configured in the global settings\) to be printed inside any tpl by using the following syntax :
+dh Sie können den Site-Namen \(wie in den globalen Einstellungen konfiguriert\) in jedem tpl drucken, indem Sie die folgende Syntax verwenden:
 
 ```text
 {{ _s.site_name }}
 ```
 
-## The \_c array
+## Das\_c Array
 
-This array \(only present starting from 1.9.8\) contains information about the current course.
+Dieses Array \(nur ab 1.9.8 vorhanden\) enthält Informationen über den aktuellen Kurs.
 
-You can check if the current course is defined \(i.e. if the user is inside a course right now\) by using the _course\_is\_set_ variable :
+Sie können überprüfen, ob der aktuelle Kurs definiert ist \(dh wenn sich der Benutzer gerade in einem Kurs befindet\), indem Sie die Variable _course\_is\_set_ verwenden:
 
 ```text
 { % if course_is_set %}
@@ -106,7 +107,7 @@ You can check if the current course is defined \(i.e. if the user is inside a co
 { % endif %}
 ```
 
-The \_c array looks like this :
+Das\_c Array sieht so aus:
 
 ```text
 [id] => MODULE3 
@@ -120,11 +121,11 @@ The \_c array looks like this :
 [student_view] => false
 ```
 
-As you can see, it also contains the session ID. Session ID is always 0 when we are **not** in a session at all.
+Wie Sie sehen, enthält es auch die Sitzungs-ID. Die Sitzungs-ID ist immer 0, wenn wir überhaupt nicht in einer Sitzung sind.
 
-You can also use, from the tpl, the `{{ course_code }}` variable, which is equivalent to `{{ _c.code }}`.
+Sie können auch aus der tpl die `{{ course_code }}` -Variable verwenden, die `{{ _c.code }}` entspricht.
 
-Although a bit more complex already, you could decide whether or not you'd want to show a link to a course by checking its visibility, like so:
+Obwohl es bereits etwas komplexer ist, könnten Sie entscheiden, ob Sie einen Link zu einem Kurs anzeigen möchten oder nicht, indem Sie dessen Sichtbarkeit überprüfen:
 
 ```text
 { % if _c.visibility == 1 %}
@@ -132,13 +133,13 @@ Although a bit more complex already, you could decide whether or not you'd want 
 {% endif %}
 ```
 
-As you can see, we combined several variables here, including one from the \_s array, to write a condition that will show a full link to the course homepage to the user, only if the course has a visibility of « 1 ».
+Wie Sie sehen, haben wir hier mehrere Variablen kombiniert, darunter eine aus dem\_s-Array, um eine Bedingung zu schreiben, die dem Benutzer einen vollständigen Link zur Kurs-Homepage zeigt, nur wenn der Kurs eine Sichtbarkeit von « 1 » hat.
 
-## Individual variables
+## Einzelne Variablen
 
-Other variables are defined individually but are always available inside any template.
+Andere Variablen werden einzeln definiert, sind aber immer in jedem Template verfügbar.
 
-As for the previous groups, the list below should be self-explanatory through the example values provided. In some cases, we add a comment after a « // » sign to give you more info.
+Wie bei den vorherigen Gruppen sollte die folgende Liste durch die bereitgestellten Beispielwerte selbsterklärend sein. In einigen Fällen fügen wir nach einem « // » -Zeichen einen Kommentar hinzu, um Ihnen weitere Informationen zu geben.
 
 ```text
 system_charset => utf-8
@@ -176,5 +177,4 @@ css_styles => chamilo_red // disambig. of CSS/style vs theme vs template
 template => default // disambiguation of CSS (*.css) vs template (*.tpl)
 ```
 
-i.e. you can get the name of the current CSS in use \(and so get elements from the images/ folder in there\) simply by using the following syntax:
-
+dh Sie können den Namen des aktuell verwendeten CSS abrufen \(und so Elemente aus dem Ordner images/dort abrufen\), indem Sie einfach die folgende Syntax verwenden:

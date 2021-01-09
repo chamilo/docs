@@ -1,12 +1,12 @@
-# Adding an event to the course agenda
 
-Events can be added to the course _Agenda_ in two ways. The simplest and quickest way is simply to click on the relevant date/day/time in the course _Agenda_ \(choose week or day view to select a specific time or timescale\). You can select users who can see the event, add a title and a brief verbal description, and decide whether to also send the event as an announcement/email:
+# Hinzufügen einer Veranstaltung zur Kursagenda
+
+Ereignisse können auf zwei Arten zum Kurs _Agenda_ hinzugefügt werden. Der einfachste und schnellste Weg ist einfach, auf das relevante Datum/Tages/Uhrzeit im Kurs _Agenda_\ zu klicken (wählen Sie die Wochen- oder Tagesansicht, um eine bestimmte Uhrzeit oder einen bestimmten Zeitrahmen auszuwählen\). Sie können Benutzer auswählen, die das Ereignis sehen können, einen Titel und eine kurze mündliche Beschreibung hinzufügen und entscheiden, ob Sie die Veranstaltung auch als Ankündigung/E-Mail senden möchten:
 
 ![](../../.gitbook/assets/graphics265%20%281%29.png)
 
-Illustration 142: Adding an event directly to the calendar
+Abbildung 142: Hinzufügen einer Veranstaltung direkt zum Kalender
 
-For a more fully configured event entry, however, click the _Add event_ icon ![](../../.gitbook/assets/graphics262%20%283%29.png) in the tool-bar. This will open a dialogue page allowing entry of a title and the selection of users, but also a richer description \(e.g. using graphics\), automatic repeat configuration \(daily, weekly, monthly, yearly\) and the option to add an attachment \(to accompany email announcements\).
+Für einen umfassenderen konfigurierten Ereigniseintrag klicken Sie jedoch auf das _Ereignis hinzufügen_ -Symbol ![](../../.gitbook/assets/graphics262%20%283%29.png) in der Symbolleiste. Dadurch wird eine Dialogseite geöffnet, die die Eingabe eines Titels und die Auswahl der Benutzer ermöglicht, aber auch eine reichhaltigere Beschreibung \(z. B. mit Grafiken\), eine automatische Wiederholungskonfiguration \(täglich, wöchentlich, monatlich, jährlich\) und die Option zum Hinzufügen eines Anhangs \(zu Begleitung von E-Mail-Ankündigungen\).
 
-![](../../.gitbook/assets/graphics266%20%281%29.png)Illustration 143: Adding an event using the Add event tool
-
+![](../../.gitbook/assets/graphics266%20%281%29.png)Illustration 143: Hinzufügen eines Ereigniswerkzeugs mit dem Tool „Event hinzufügen“

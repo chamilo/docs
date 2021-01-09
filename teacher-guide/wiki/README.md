@@ -1,6 +1,6 @@
+
 # Wiki
 
-The _Wiki_ tool ![](../../.gitbook/assets/graphics208%20%283%29.png) is a collective or collaborative redaction tool. It allows users to work together on a single document, and to follow the history of modifications. It also allows you to save time and be more efficient during a group task. In many ways, it complements the forum tool.
+Das _Wiki_-Tool ![](../../.gitbook/assets/graphics208%20%283%29.png) ist ein kollektives oder kollaboratives Redaktions-Tool. Es ermöglicht Benutzern, an einem einzigen Dokument zusammenzuarbeiten und den Änderungsverlauf zu verfolgen. Sie können damit auch Zeit sparen und während einer Gruppenaufgabe effizienter arbeiten. In vielerlei Hinsicht ergänzt es das Forum-Tool.
 
-A wiki page can contain many links to other pages, which may or may not \(yet\) have existing content. Wiki pages can be updated; each contributor sharing the same rights to write and edit content. Originally designed to support collaboration between learners, the wiki may, at the beginning of a course, consist only of a list of links inserted by the teacher, pointing to empty pages which each learner will have to build using one another's ideas, views and experiences.
-
+Eine Wiki-Seite kann viele Links zu anderen Seiten enthalten, die möglicherweise \(noch\) vorhandenen Inhalt enthalten. Wiki-Seiten können aktualisiert werden; jeder Mitwirkende hat dieselben Rechte zum Schreiben und Bearbeiten von Inhalten. Ursprünglich entwickelt, um die Zusammenarbeit zwischen den Lernenden zu unterstützen, kann das Wiki zu Beginn eines Kurses nur aus einer Liste von Links bestehen, die vom Lehrer eingefügt wurden und auf leere Seiten hinweisen, die jeder Lernende mit den Ideen, Ansichten und Erfahrungen des anderen aufbauen muss.

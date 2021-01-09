@@ -1,8 +1,8 @@
-# Import users list
 
-This feature allows you, after a users export, to subscribe the users to another course directly with a CSV or XML file.
+# Benutzerliste importieren
 
-![](../../.gitbook/assets/inscrire-utilisateur-cours%20%283%29.png)Illustration 63: Administration – Subscribe users to courses in batches
+Mit dieser Funktion können Sie nach dem Export eines Benutzers die Benutzer direkt mit einer CSV- oder XML-Datei für einen anderen Kurs abonnieren.
 
-This import allows you to execute two actions which will change the behaviour a little while importing.
+![](../../.gitbook/assets/inscrire-utilisateur-cours%20%283%29.png)Illustration 63: Administration — Abonnieren Sie Benutzer von Kursen in Chargen
 
+Mit diesem Import können Sie zwei Aktionen ausführen, die das Verhalten während des Imports etwas ändern.

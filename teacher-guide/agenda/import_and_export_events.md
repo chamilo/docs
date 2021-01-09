@@ -1,12 +1,12 @@
-# Import and export events
 
-The Chamilo Agenda tool supports the import and export of standard calendar files \(Outlook, iCal\). To import an Outlook file, click the _Import Outlook_ icon ![](../../.gitbook/assets/graphics264%20%284%29.png) in the tool-bar in the course _Agenda_ and upload the relevant file as prompted. Then return to the _Agenda_ using the _Agenda_ icon ![](../../.gitbook/assets/graphics267%20%284%29.png).
+# Importieren und Exportieren von Events
 
-Users can export events as iCal from the pop-up window that appears when they click on an event to view details. They can select the appropriate iCal format \(_confidential, private, public_\) for the export at the bottom of the pop-up window, and teachers can edit or delete the event using the appropriate button in the pop-up window:
+Das Chamilo Agenda-Tool unterstützt den Import und Export von Standardkalenderdateien \(Outlook, iCal\). Um eine Outlook-Datei zu importieren, klicken Sie auf das _Import Outlook_-Symbol ![](../../.gitbook/assets/graphics264%20%284%29.png) in der Symbolleiste des Kurses _Agenda_ und laden Sie die entsprechende Datei wie aufgefordert hoch. Kehren Sie dann mit dem _Agenda_ Icon ![](../../.gitbook/assets/graphics267%20%284%29.png) zum _Agenda_ zurück.
+
+Benutzer können Ereignisse als iCal aus dem Popup-Fenster exportieren, das angezeigt wird, wenn sie auf ein Ereignis klicken, um Details anzuzeigen. Sie können am unteren Rand des Popup-Fensters das entsprechende iCal-Format \(_vertraulich, privat, public_\) für den Export auswählen, und Lehrer können das Ereignis mit der entsprechenden Schaltfläche im Popup-Fenster bearbeiten oder löschen:
 
 ![](../../.gitbook/assets/graphics270%20%281%29.png)
 
-Illustration 144: Export, edit or delete an event
+Abbildung 144: Exportieren, Bearbeiten oder Löschen eines Ereignisses
 
-\(**Note**: Teachers only have access to the delete/edit buttons via the course Agenda from the course homepage – not via the Personal Agenda tab, where, like learners, they can only view/export events\).
-
+\(**Hinweis**: Lehrer haben nur Zugriff auf die Schaltflächen zum Löschen/Bearbeiten über die Kursagenda von der Kursseite aus - nicht über die Registerkarte „Persönliche Agenda“, wo sie wie die Lernenden nur Ereignisse anzeigen/exportieren können\).

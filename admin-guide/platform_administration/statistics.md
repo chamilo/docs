@@ -1,19 +1,19 @@
-# Statistics
 
-This tool allows you to generate small statistical charts for four categories of data:
+# Statistiken
 
-* courses,
-* users,
-* system,
-* social.
+Mit diesem Tool können Sie kleine statistische Diagramme für vier Datenkategorien erstellen:
 
-![](../../.gitbook/assets/images37%20%284%29.png)Illustration 43: Administration – Global statistics
+* Kurse
+* Benutzer,
+* System
+* sozial.
 
-Although the statistical data is pretty summarised, it will give you a good idea of the general use of the platform.
+![](../../.gitbook/assets/images37%20%284%29.png)Illustration 43: Verwaltung — Globale Statistiken
 
-Important activities group all the portal administration activities: creation and removal of courses, of users, of sessions; edition of configuration settings and some other... important activities.
+Obwohl die statistischen Daten ziemlich zusammengefasst sind, erhalten Sie einen guten Überblick über die allgemeine Nutzung der Plattform.
 
-![](../../.gitbook/assets/images29%20%287%29.png)Illustration 44: Administration - Statistics - Important activities
+Wichtige Aktivitäten gruppieren alle Aktivitäten der Portalverwaltung: Erstellung und Entfernung von Kursen, Benutzern, von Sitzungen; Ausgabe von Konfigurationseinstellungen und einige andere... wichtige Aktivitäten.
 
-Note that you can also check from what IP address an action was taken. This gives you more possibilities in terms of ensuring the legitimate character of an action.
+![](../../.gitbook/assets/images29%20%287%29.png)Illustration 44: Administration - Statistiken - Wichtige Aktivitäten
 
+Beachten Sie, dass Sie auch anhand der IP-Adresse prüfen können, an welcher IP-Adresse eine Maßnahme ergriffen wurde. Dies gibt Ihnen mehr Möglichkeiten, um den legitimen Charakter einer Aktion sicherzustellen.

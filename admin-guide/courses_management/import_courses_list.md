@@ -1,8 +1,8 @@
-# Import courses list
 
-This feature allows you to import a CSV file to create courses. If you use categories and you are importing the courses in another platform then the one you exported them from, you will need to ensure you have the same category codes on both portals.
+# Liste der Importkurse
 
-![](../../.gitbook/assets/creer-formation-lot%20%283%29.png)Illustration 60: Administration – Creating courses by batches
+Mit dieser Funktion können Sie eine CSV-Datei importieren, um Kurse zu erstellen. Wenn Sie Kategorien verwenden und die Kurse in eine andere Plattform importieren, aus der Sie sie exportiert haben, müssen Sie sicherstellen, dass Sie auf beiden Portalen die gleichen Kategoriecodes haben.
 
-Once imported, you will only need to fill learning paths.
+![](../../.gitbook/assets/creer-formation-lot%20%283%29.png)Illustration 60: Administration — Kurse nach Chargen erstellen
 
+Nach dem Import müssen Sie nur Lernpfade ausfüllen.

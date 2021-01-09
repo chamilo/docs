@@ -1,8 +1,8 @@
-# Fill a group manually
 
-For a variety of reasons, a teacher may want to select group members manually, i.e. choose which learners will work together, e.g. learners with similar interests or goal, or an experienced learner with a latecomer to the course. To do this, \(whether or not the groups have already been auto-filled\) click the _Edit this group_ icon ![](../../.gitbook/assets/graphics285.png) to add users manually:
+# Fülle eine Gruppe manuell
 
-![](../../.gitbook/assets/images216.png)_Illustration 151: Groups – Filling a group manually_
+Aus verschiedenen Gründen möchte ein Lehrer möglicherweise manuell Gruppenmitglieder auswählen, dh wählen Sie aus, welche Lernenden zusammenarbeiten, z. B. Lernende mit ähnlichen Interessen oder Zielen oder ein erfahrener Lernender mit einem Nachzügler des Kurses. Klicken Sie dazu \(unabhängig davon, ob die Gruppen bereits automatisch ausgefüllt wurden\) auf das Symbol _Diese Gruppe bearbeiten_ ![](../../.gitbook/assets/graphics285.png), um Benutzer manuell hinzuzufügen:
 
-Select and add/remove users as required using the arrows. Any user can be added as a _coach_ \(i.e. group leader, tutor etc.\) or as a _Group member –_ this will be shown in the listing.
+![](../../.gitbook/assets/images216.png)_Illustration 151: Gruppen — Manuell eine Gruppe füllen_
 
+Wählen Sie Benutzer aus und fügen/entfernen Sie sie nach Bedarf mit den Pfeilen. Jeder Benutzer kann als _coach_ \(dh Gruppenleiter, Tutor usw.\) oder als _Gruppenmitglied hinzugefügt werden —_ dies wird in der Auflistung angezeigt.

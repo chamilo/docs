@@ -1,8 +1,8 @@
-# Courses categories
 
-You can create, update or remove courses categories through common action icons. It is possible to create numerous categories and sub-categories.
+# Kurse Kategorien
 
-![](../../.gitbook/assets/images65%20%286%29.png)Illustration 61: Administration – Courses categories
+Sie können Kurskategorien über allgemeine Aktionssymbole erstellen, aktualisieren oder entfernen. Es ist möglich, zahlreiche Kategorien und Unterkategorien zu erstellen.
 
-It is also possible to organise these categories thanks to the arrow icons. These categories are not internationalised, so if you use a multilingual portal, make sure the name or the categorisation of your courses is easy to understand for all users.
+![](../../.gitbook/assets/images65%20%286%29.png)Illustration 61: Verwaltung — Kategorien der Kurse
 
+Dank der Pfeilsymbole ist es auch möglich, diese Kategorien zu organisieren. Diese Kategorien sind nicht internationalisiert. Wenn Sie also ein mehrsprachiges Portal verwenden, stellen Sie sicher, dass der Name oder die Kategorisierung Ihrer Kurse für alle Benutzer leicht verständlich ist.

@@ -1,8 +1,8 @@
-# Global agenda
 
-The global agenda allows you to add events that will be visible from the agenda of any user of the platform.
+# Globale Agenda
 
-![](../../.gitbook/assets/images30%20%286%29.png)Illustration 41: Administration – Global agenda
+Die globale Agenda ermöglicht es Ihnen, Ereignisse hinzuzufügen, die von der Agenda eines beliebigen Benutzers der Plattform aus sichtbar sind.
 
-The feature is completely similar to the one you can find in the courses space, but the addition of an event there has a global reach, as all users will see it through their own calendar. Any event added this way is considered to be more important and will be shown in a different colour than other events.
+![](../../.gitbook/assets/images30%20%286%29.png)Illustration 41: Administration — Globale Agenda
 
+Die Funktion ähnelt vollständig derjenigen, die Sie im Kursbereich finden können, aber die Hinzufügung einer Veranstaltung dort hat eine globale Reichweite, da alle Benutzer sie durch ihren eigenen Kalender sehen. Jedes Ereignis, das auf diese Weise hinzugefügt wird, wird als wichtiger angesehen und in einer anderen Farbe als andere Ereignisse angezeigt.

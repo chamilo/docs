@@ -1,13 +1,13 @@
-# Manage messages
 
-A message is an answer within one of the discussion threads.
+# Nachrichten verwalten
 
-| Icons | Features |
-| :--- | :--- |
-| ![](../../.gitbook/assets/images82%20%283%29.png) | Change the settings \(name, text and advanced settings\) of the message |
-| ![](../../.gitbook/assets/images83%20%283%29.png) | Delete the message \(after approval\) |
-| ![](../../.gitbook/assets/images84%20%283%29.png) | Control a message's visibility |
-| ![](../../.gitbook/assets/images85%20%285%29.png) | Reply to the message |
-| ![](../../.gitbook/assets/images86%20%283%29.png) | Move the message to another thread |
-| ![](../../.gitbook/assets/images87%20%285%29.png) | Quote this message \(and answer on the basis of the quoted message\) |
+Eine Nachricht ist eine Antwort innerhalb eines der Diskussionsthemen.
 
+| Icons | Funktionen |
+|: — |: — |
+| ![](../../.gitbook/assets/images82%20%283%29.png) | Ändern Sie die Einstellungen \(Name, Text und erweiterte Einstellungen\) der Nachricht |
+| ![](../../.gitbook/assets/images83%20%283%29.png) | Lösche die Nachricht \(nach Genehmigung\) |
+| ![](../../.gitbook/assets/images84%20%283%29.png) | Die Sichtbarkeit einer Nachricht kontrollieren |
+| ![](../../.gitbook/assets/images85%20%285%29.png) | Auf die Nachricht antworten |
+| ![](../../.gitbook/assets/images86%20%283%29.png) | Verschiebe die Nachricht in einen anderen Thread |
+| ![](../../.gitbook/assets/images87%20%285%29.png) | Zitiere diese Nachricht \(und antworte auf der Grundlage der zitierten Nachricht\) |

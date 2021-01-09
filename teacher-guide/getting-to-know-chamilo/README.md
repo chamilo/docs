@@ -1,2 +1,2 @@
-# Getting to know Chamilo
 
+# Chamilo kennenlernen

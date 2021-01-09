@@ -1,4 +1,4 @@
-# Saving the Chamilo interface
 
-Chamilo offers different ways to save data. It is possible to save a complete course \(or almost so\) or a course element in particular, but only as administrator or teacher.
+# Speichern der Chamilo-Schnittstelle
 
+Chamilo bietet verschiedene Möglichkeiten, Daten zu speichern. Es ist möglich, einen vollständigen Kurs \(oder fast\) oder ein Kurselement im Besonderen zu speichern, jedoch nur als Administrator oder Lehrer.

@@ -1,16 +1,16 @@
-# Fixing bugs
 
-Your contribution fixing bugs is much appreciated.
+# Fehlerbehebung
 
-To enable the right level of tracking of any bug, we first ask you to report it in the [Github issues page](https://github.com/chamilo/chamilo-lms/issues) and follow the contributions guide to report it.
+Ihr Beitrag zur Behebung von Fehlern wird sehr geschätzt.
 
-If you can fix it, that is even more appreciated. To do that, the requested procedure is to:
+Um das richtige Maß an der Verfolgung eines Fehlers zu ermöglichen, bitten wir Sie zuerst, dies im [Github issues page](https://github.com/chamilo/chamilo-lms/issues) zu melden und dem Beitragshandbuch zu folgen, um ihn zu melden.
 
-* clone the repository \(in your Github account\)
-* create a new branch in your repository \(preferably with a name that matches the issue ID number\)
-* develop your patch and write a few comments helping us understand it
-* send it to your branch
-* in your branch, submit the whole branch as a Pull Request with additional explanations \(ideally, add a screenshot of the issue and its resolution to your Pull Request\)
+Wenn du es reparieren kannst, wird das noch mehr geschätzt. Um dies zu tun, besteht das angeforderte Verfahren darin,
 
-If you have followed these steps carefully, there's a big chance we will attend your Pull Request very quickly, and your name will remain as a contributor of Chamilo for the years to come! \(through Github's history\)
+* klone das Repository \(in deinem Github-Konto\)
+* einen neuen Zweig in Ihrem Repository erstellen \(vorzugsweise mit einem Namen, der der Ausgabe-ID-Nummer entspricht\)
+* entwickeln Sie Ihren Patch und schreiben Sie ein paar Kommentare, die uns helfen, ihn zu verstehen
+* senden Sie es an Ihre Filiale
+* Reichen Sie in Ihrer Filiale den gesamten Zweig als Pull-Request mit zusätzlichen Erläuterungen ein \(fügen Sie Ihrem Pull Request idealerweise einen Screenshot des Problems und seiner Lösung hinzu\)
 
+Wenn Sie diese Schritte sorgfältig befolgt haben, besteht eine große Chance, dass wir sehr schnell an Ihrem Pull Request teilnehmen, und Ihr Name wird für die kommenden Jahre als Mitwirkender von Chamilo bleiben! \(durch Githubs Geschichte\)

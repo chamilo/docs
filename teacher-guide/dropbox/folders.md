@@ -1,6 +1,6 @@
-# Folders
 
-The teacher can add folders to categorize his files a bit more clearly. The shared folders \(be they sent or received\) are invisible to learners and are only there for organizational purposes.
+# Ordner
 
-To create a new folder, click on the _Add a new folder_ icon ![](../../.gitbook/assets/graphics254%20%283%29.png), enter a name for it in the field that appears at the top of the screen and click the _Create category_ button.
+Der Lehrer kann Ordner hinzufügen, um seine Dateien etwas klarer zu kategorisieren. Die freigegebenen Ordner \(sei es gesendet oder empfangen\) sind für die Teilnehmer unsichtbar und nur für organisatorische Zwecke da.
 
+Um einen neuen Ordner zu erstellen, klicken Sie auf das Symbol _Neuen Ordner hinzufügen_ ![](../../.gitbook/assets/graphics254%20%283%29.png), geben Sie einen Namen dafür in das Feld ein, das oben auf dem Bildschirm angezeigt wird, und klicken Sie auf die Schaltfläche _Kategorie erstellen.

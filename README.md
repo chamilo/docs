@@ -1,14 +1,14 @@
-# Introduction
 
-This is the complete set of Chamilo Guides for users of Chamilo.
+# Einführung
 
-* [Administrator guide](admin-guide/chamilo-_what_is_it/)
-* [Teacher guide](teacher-guide/getting-to-know-chamilo/what_is_chamilo.md)
-* [Developer guide](developer-guide/introduction/)
+Dies ist das komplette Set von Chamilo Guides für Benutzer von Chamilo.
 
-Most users will not require to read all guides, and will have plenty of information \(maybe too much\) just going through the teacher guide. However, if you want to know more or your role in your organization is specifically that of a Chamilo administrator or a developer or sysadmin, you might be interested by the Admin Guide and the Developer Guide that follow.
+* [Administratorhandbuch](admin-guide/chamilo-_what_is_it/)
+* [Lehrerhandbuch](teacher-guide/getting-to-know-chamilo/what_is_chamilo.md)
+* [Entwicklerhandbuch](developer-guide/introduction/)
 
-If you are looking at this documentation on the web, and if you find any issue, please consider creating an account on [https://github.com](https://github.com) and submitting change requests directly to the [https://github.com/chamilo/docs](https://github.com/chamilo/docs) repository. Note that translations are available as language-marked "branches" of the project.
+Die meisten Benutzer müssen nicht alle Anleitungen lesen und haben viele Informationen \(vielleicht zu viel\), indem sie einfach den Lehrerführer durchgehen. Wenn Sie jedoch mehr wissen möchten oder Ihre Rolle in Ihrer Organisation speziell die eines Chamilo-Administrators oder eines Entwicklers oder Sysadmins ist, könnten Sie am folgenden Admin Guide und der Entwicklerleitfaden interessiert sein.
 
-To proceed, just click any section in the table of contents or search for a specific topic from the search bar.
+Wenn Sie sich diese Dokumentation im Internet ansehen und ein Problem feststellen, sollten Sie erwägen, ein Konto bei [https://github.com](https://github.com) zu erstellen und Änderungsanträge direkt an das [https://github.com/chamilo/docs](https://github.com/chamilo/docs) -Repository zu senden. Beachten Sie, dass die Übersetzungen als "branches" mit der Sprache des Projekts verfügbar sind.
 
+Um fortzufahren, klicken Sie einfach auf einen Abschnitt im Inhaltsverzeichnis oder suchen Sie in der Suchleiste nach einem bestimmten Thema.

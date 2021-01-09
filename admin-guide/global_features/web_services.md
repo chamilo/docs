@@ -1,22 +1,22 @@
-# Web services
 
-Chamilo LMS offers a series of web services, which have been extended over time. Although the current basis is not well organized, you should be able to find what you're looking for easily in the main/webservices/ directory.
+# Web-Dienste
 
-More details about all our web services are available on our wiki: [http://support.chamilo.org/projects/chamilo-18/wiki/Web\_services](http://support.chamilo.org/projects/chamilo-18/wiki/Web_services)
+Chamilo LMS bietet eine Reihe von Webservices an, die im Laufe der Zeit erweitert wurden. Obwohl die aktuelle Basis nicht gut organisiert ist, sollten Sie im main/webservices/ -Verzeichnis leicht finden, wonach Sie suchen.
 
-Between others, the current SOAP web services \(but we also have some REST and XML-RPC services available\) allow you to:
+Weitere Details zu allen unseren Webservices finden Sie in unserem Wiki: [http://support.chamilo.org/projects/chamilo-18/wiki/Web\_services](http://support.chamilo.org/projects/chamilo-18/wiki/Web_services)
 
-* create, edit, enable, disable and delete users
-* create, edit, enable, disable and delete courses
-* create and edit courses' descriptions
-* create, edit, enable, disable and delete sessions
-* subscribe or unsubscribe users to courses or sessions
-* subscribe courses to sessions
-* get a list of courses
+Die aktuellen SOAP-Webservices \(aber wir haben auch einige REST- und XML-RPC-Dienste zur Verfügung\) ermöglichen Ihnen:
 
-The services already implemented also allow you to easily extend and build your own. Check the main/webservices/registration.soap.php file for a starting point. More structured scripts are around, but registration.soap.php is the one implementing the highest number of features at this point.
+* Benutzer erstellen, bearbeiten, aktivieren, deaktivieren und löschen
+* Kurse erstellen, bearbeiten, aktivieren, deaktivieren und löschen
+* Erstellen und Bearbeiten von Kursbeschreibungen
+* Erstellen, Bearbeiten, Aktivieren, Deaktivieren und Löschen von Sitzungen
+* Abonnieren oder Abbestellen von Kursen oder Sitzungen
+* Abonnieren Sie Kurse für Sitzungen
+* Holen Sie sich eine Liste von Kursen
 
-If you happen to develop new services, please consider sharing them with us at [http://support.chamilo.org/projects/chamilo-18/issues](http://support.chamilo.org/projects/chamilo-18/issues) \(open an issue and file a _Feature_ suggestion with your code – we will “credit” you for this\).
+Die bereits implementierten Dienste ermöglichen es Ihnen auch, Ihre eigenen einfach zu erweitern und zu erstellen. Prüfen Sie die main/webservices/registration.soap.php -Datei auf einen Startpunkt. Es gibt mehr strukturierte Skripte, aber die Registrierung. Soap.php ist diejenige, die zu diesem Zeitpunkt die meisten Funktionen implementiert.
 
-The _testip.php_ script will allow you to identify your own IP for the setup procedure described on the wiki.
+Wenn Sie zufällig neue Dienste entwickeln, denken Sie darüber nach, diese unter [http://support.chamilo.org/projects/chamilo-18/issues](http://support.chamilo.org/projects/chamilo-18/issues)\ mit uns zu teilen (öffnen Sie ein Problem und reichen Sie einen _Feature_-Vorschlag mit Ihrem Code ein - wir werden “credit” dafür\).
 
+Das Skript _testip.php_ ermöglicht es Ihnen, Ihre eigene IP für den im Wiki beschriebenen Setup-Verfahren zu identifizieren.

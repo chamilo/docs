@@ -1,6 +1,6 @@
-# Data filler
 
-This feature is only available for development installations of Chamilo LMS \(where the tests/ directory exists\).
+# Datenfüller
 
-It allows the admin to fill the database with example data \(users, courses, etc\).
+Diese Funktion ist nur für Entwicklungsinstallationen von Chamilo LMS\ verfügbar (wo das Tests/ Verzeichnis existiert\).
 
+Es ermöglicht dem Administrator, die Datenbank mit Beispieldaten zu füllen \(Benutzer, Kurse usw.\).

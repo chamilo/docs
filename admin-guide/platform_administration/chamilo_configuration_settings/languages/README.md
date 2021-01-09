@@ -1,20 +1,20 @@
-# Languages
 
-![](../../../../.gitbook/assets/graficos7%20%285%29.png)In this category, you will find all language-related options \(one link points to the external _Languages_ entry on the administration page\).
+# Sprachen
 
-**Portal language** gives you a link to the languages management screen. See below for more details.
+![](../../../../.gitbook/assets/graficos7%20%285%29.png)In Diese Kategorie finden Sie alle sprachbezogenen Optionen \(ein Link verweist auf den externen _Languages_-Eintrag auf der Administrationsseite\).
 
-**Allow definition and use of sub-languages** makes possible the definition of variations for each language term used in the platform interface, as a language based on an existing language. This option can then be found in the languages list \(follow the _Chamilo Platform Languages_\).
+**Portalsprache** gibt Ihnen einen Link zum Bildschirm für die Sprachverwaltung. Siehe unten für weitere Details.
 
-This tool \(available when clicking on the languages link\) allows you to define which languages are visible by the users during their subscription to the platform or during the course creation process.
+**Definition und Verwendung von Untersprachen erlauben** ermöglicht die Definition von Variationen für jeden in der Plattformschnittstelle verwendeten Sprachbegriff als Sprache, die auf einer vorhandenen Sprache basiert. Diese Option finden Sie dann in der Sprachenliste \(folgen Sie den _Chamilo Platform Languages_\).
 
-![](../../../../.gitbook/assets/langue%20%283%29.png)Illustration 31: Administration – Languages management
+Mit diesem Tool \(verfügbar, wenn Sie auf den Sprachlink\ klicken) können Sie definieren, welche Sprachen für die Benutzer während ihres Abonnements der Plattform oder während des Kurserstellungsprozesses sichtbar sind.
 
-When enabling the sub-languages feature, this tool also allows you to redefine certain terms of the portal interface. For this, enable the option in the languages configuration page, then open the languages list page. You will find an additional icon which allows you to add a _sub-language_ to any existing language.
+![](../../../../.gitbook/assets/langue%20%283%29.png)Illustration 31: Administration — Sprachenverwaltung
 
-![](../../../../.gitbook/assets/graficos37%20%284%29.png)Illustration 32: Administration – Sub-language creation icon
+Wenn Sie die Funktion „Sub-Sprachen“ aktivieren, können Sie mit diesem Tool auch bestimmte Begriffe der Portalschnittstelle neu definieren. Aktivieren Sie dazu die Option auf der Konfigurationsseite für Sprachen und öffnen Sie dann die Seite mit der Sprachenliste. Sie finden ein zusätzliches Symbol, mit dem Sie einer bestehenden Sprache eine _Untersprache_ hinzufügen können.
 
-The definition of a sub-language is quite easy: you just indicate the name of the sub-language, its ISO code \(2 letters, like “fr”, “en”, “es”\) and its English name \(the name the directory will take – which cannot be the same as an existing language\).
+![](../../../../.gitbook/assets/graficos37%20%284%29.png)Illustration 32: Administration — Symbol zur Erstellung einer Untersprache
 
-Let's say you want to redefine the terms of the interface because you work in the medical sector and that the English terms proposed are not satisfying to you \(note that it is _much_ more practical to define this sub-language _before_ new courses are created\). For example, you thing the term _Reporting_ should really be called _Evaluation_... Here is how it's done:
+Die Definition einer Untersprache ist ziemlich einfach: Sie geben einfach den Namen der Untersprache, ihren ISO-Code \(2 Buchstaben wie “fr”, “en”, “es”\) und ihren englischen Namen \(den Namen, den das Verzeichnis annehmen wird - der nicht mit einer bestehenden Sprache identisch sein kann\).
 
+Nehmen wir an, Sie möchten die Bedingungen der Benutzeroberfläche neu definieren, da Sie im medizinischen Bereich arbeiten und dass die vorgeschlagenen englischen Begriffe für Sie nicht zufriedenstellend sind \(beachten Sie, dass es praktischer ist, diese Untersprache zu definieren _before_ neue Kurse werden erstellt\). Zum Beispiel sollte der Begriff _Reporting_ wirklich _Evaluation_ heißen... So wird's gemacht:

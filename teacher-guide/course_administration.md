@@ -1,26 +1,26 @@
-# Course administration
 
-The _My courses_ tab the teacher to see a list of the courses which they can manage. \(These display a pencil icon on the right side of the course's box, as opposed to courses on which they are subscribed as learners\).
+# Kurs-Administration
 
-You just need to click on the course name to access its homepage. The various tools are arranged in three categories:
+Auf der Registerkarte _Meine Kurse_ wird der Lehrer angezeigt, um eine Liste der Kurse anzuzeigen, die er verwalten kann. \(Diese zeigen ein Bleistiftsymbol auf der rechten Seite des Kursfeldes an, im Gegensatz zu Kursen, bei denen sie als Teilnehmer abonniert sind\).
 
-* **Authoring** : tools for creating course content,
-* **Interaction** : tools for teacher-learner or learner-learner interaction within the course,
-* **Administration** : tools for the management of course options.
+Sie müssen nur auf den Kursnamen klicken, um auf seine Homepage zuzugreifen. Die verschiedenen Tools sind in drei Kategorien unterteilt:
+
+* **Autorieren**: Tools zum Erstellen von Kursinhalten,
+* **Interaktion**: Tools für die Interaktion zwischen Lehrern und Lernern oder Lernenden innerhalb des Kurses,
+* **Verwaltung**: Tools für die Verwaltung von Kursoptionen.
 
 ![](../.gitbook/assets/images26%20%283%29.png)
 
-_Illustration 24: Course tools – Classical option_
+_Illustration 24: Kurs-Tools — Klassische Option_
 
 ![](../.gitbook/assets/graphics79.png)
 
-The teacher can choose to hide or show distinct tools using the _eye_ icon under each tool, so that the course doesn't intimidate the new learner with too many options.
+Der Lehrer kann wählen, ob er verschiedene Werkzeuge mit dem _eye_ Symbol unter jedem Werkzeug ausblenden oder anzeigen möchte, damit der Kurs den neuen Lernenden nicht mit zu vielen Optionen einschüchtert.
 
-Note : In some cases the administrator may make tools unavailable to course teachers or enable tools which depend on specific extensions \(like the full-text search or the video conference\), so what you see entering the course might not be the same as described here.
+Hinweis: In einigen Fällen kann der Administrator Tools für Kurslehrer nicht verfügbar machen oder Tools aktivieren, die von bestimmten Erweiterungen abhängen \(wie der Volltextsuche oder der Videokonferenz\), sodass das, was Sie beim Betreten des Kurses sehen, möglicherweise nicht derselbe ist wie hier beschrieben.
 
 ![](../.gitbook/assets/images27%20%283%29.png)
 
-_Illustration 25: Authoring tools in big activity view type_
+_Illustration 25: Autorentools in der Ansicht „Große Aktivitäten“
 
-> **Note** : The course interface can be presented in different ways depending on what the administrator's chooses. He might, for example, enable a view that was popular in previous versions of Chamilo, as in this illustration. This view is called the 2-columns activity view.
-
+> **Hinweis**: Die Kursschnittstelle kann auf verschiedene Arten dargestellt werden, je nachdem, was der Administrator wählt. Er könnte zum Beispiel eine Ansicht ermöglichen, die in früheren Versionen von Chamilo populär war, wie in dieser Illustration gezeigt. Diese Ansicht wird als 2-Spalten-Aktivitätsansicht bezeichnet.

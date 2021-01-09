@@ -1,4 +1,4 @@
-# Download the latest stable version
 
-Go get latest package from [Chamilo](http://www.chamilo.org/)'s website. Once you got it, uncompress it and move to the next chapter.
+# Laden Sie die neueste stabile Version herunter
 
+Holen Sie sich das neueste Paket von der Website von [Chamilo](http://www.chamilo.org/). Sobald du es hast, dekomprimiere es und gehe zum nächsten Kapitel.

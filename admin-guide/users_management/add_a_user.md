@@ -1,25 +1,25 @@
-# Add a user
 
-The administrator can add users by creating them out of an empty form. He will only need to give:
+# Fügen Sie einen Benutzer hinzu
+
+Der Administrator kann Benutzer hinzufügen, indem er sie aus einem leeren Formular erstellt. Er muss nur geben:
 
 * « firstname »
 * « lastname »
 * « e-mail »
 * « login »
 
-There are, however, advanced options to which one should pay attention.
+Es gibt jedoch erweiterte Optionen, auf die man achten sollte.
 
-![](../../.gitbook/assets/graficos79%20%286%29.png)Illustration 50: Administration - Users creation
+![](../../.gitbook/assets/graficos79%20%286%29.png)Illustration 50: Administration - Erstellung von Benutzern
 
-The password can be automatically generated or can be assigned by the administrator. Depending on the needs of the situation, don't forget the option “Send an e-mail to the new user”.
+Das Passwort kann automatisch generiert oder vom Administrator vergeben werden. Vergessen Sie je nach den Bedürfnissen der Situation nicht die Option “Send an e-mail to the new user”.
 
-The profile \(or role\) of the user is very important. See chapter 5.1User roles on page 46 for more info.
+Das Profil \(oder Rolle\) des Benutzers ist sehr wichtig. Siehe Kapitel 5.1Benutzerrollen auf Seite 46 für weitere Informationen.
 
-The user account can have an expiration date. In this case, one has to choose the end of the subscription period.
+Das Benutzerkonto kann ein Ablaufdatum haben. In diesem Fall muss man das Ende des Abonnementzeitraums wählen.
 
-Finally, the user account can be created active or inactive, waiting for example for the start of a new sessions.
+Schließlich kann das Benutzerkonto aktiv oder inaktiv erstellt werden und beispielsweise auf den Beginn einer neuen Sitzung warten.
 
-Three new fields have been added to Chamilo 1.8.8. These fields allow you to configure the frequency to which personal messages sent from the Chamilo social network to your account are sent to you by e-mail.
+Drei neue Felder wurden zu Chamilo 1.8.8 hinzugefügt. Mit diesen Feldern können Sie die Häufigkeit konfigurieren, mit der persönliche Nachrichten, die vom sozialen Netzwerk Chamilo an Ihr Konto gesendet werden, per E-Mail an Sie gesendet werden.
 
-If the user picks _No_, then no message will be sent to his e-mail to notify him. This option requires the configuration of a chronological script launch \(_cron_\).
-
+Wenn der Benutzer _No_ auswählt, wird keine Nachricht an seine E-Mail gesendet, um ihn zu benachrichtigen. Diese Option erfordert die Konfiguration des Starts eines chronologischen Skripts \(_cron_\).

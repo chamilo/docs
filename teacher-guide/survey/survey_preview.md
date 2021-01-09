@@ -1,6 +1,6 @@
-# Survey preview
 
-Once the questions have been created, you can preview your survey before publishing it Click the _Preview_ icon ![](../../.gitbook/assets/graphics292.png) and the preview screen leads you through the questions as if you were a learner:
+# Vorschau der Umfrage
 
-![](../../.gitbook/assets/images225.png)_Illustration 156: Surveys – Preview survey_
+Sobald die Fragen erstellt wurden, können Sie eine Vorschau Ihrer Umfrage anzeigen, bevor Sie sie veröffentlichen Klicken Sie auf das _Preview_-Symbol ![](../../.gitbook/assets/graphics292.png) und der Vorschaubildschirm führt Sie durch die Fragen, als wären Sie ein Teilnehmer:
 
+![](../../.gitbook/assets/images225.png)_Illustration 156: Umfragen — Vorschau-Umfrage_

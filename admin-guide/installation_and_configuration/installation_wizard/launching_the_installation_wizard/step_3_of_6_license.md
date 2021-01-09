@@ -1,14 +1,14 @@
-# Step 3 of 6: License
 
-Here, Chamilo explains it is a free software distributed under the terms of the GNU General Public Licence \([GPL](http://en.wikipedia.org/wiki/GNU_General_Public_License)\) \(version 3 or superior\) and that part of its **content** is released under [BY-SA](http://creativecommons.org/licenses/by-sa/3.0/deed.fr) [Creative Commons](http://creativecommons.org/licenses/by-sa/3.0/deed.fr)[.](http://creativecommons.org/licenses/by-sa/3.0/deed.fr)
+# Schritt 3 von 6: Lizenz
 
-To go to the next step, you'll have to read the license and approve it, **otherwise you are not authorized to use this software** \(it is very important for you to understand that you are **only** allowed to use it if you accept these conditions\). You will find other translations of this license \(probably in your own language\) if you need it, connecting to the Free Software Foundation, which is the organisation which publishes this license.
+Hier erklärt Chamilo, dass es sich um eine freie Software handelt, die unter den Bedingungen der GNU General Public Licence \([GPL](http://en.wikipedia.org/wiki/GNU_General_Public_License)\) \(Version 3 oder höher\) vertrieben wird, und dass ein Teil seiner Inhalt** unter [BY-SA](http://creativecommons.org/licenses/by-sa/3.0/deed.fr) [Creative Commons](http://creativecommons.org/licenses/by-sa/3.0/deed.fr) [.](http://creativecommons.org/licenses/by-sa/3.0/deed.fr) veröffentlicht wird
 
-![](../../../../.gitbook/assets/images6%20%285%29.png)Illustration 6: Installation - License
+Um zum nächsten Schritt zu gelangen, müssen Sie die Lizenz lesen und genehmigen, **andernfalls sind Sie nicht berechtigt, diese Software zu verwenden** \(es ist sehr wichtig für Sie zu verstehen, dass Sie **nur** sie verwenden dürfen, wenn Sie diese Bedingungen akzeptieren\). Sie finden andere Übersetzungen dieser Lizenz \(wahrscheinlich in Ihrer eigenen Sprache\), wenn Sie sie benötigen, und stellen Sie eine Verbindung zur Free Software Foundation her, der Organisation, die diese Lizenz veröffentlicht.
 
-**Note**: Starting with version 1.8.8, you will also find an **optional** form below the license approval. This form allows us some contact data about you and let you know of any event organised by the Chamilo Association or its members, which happen near your location.
+![](../../../../.gitbook/assets/images6%20%285%29.png)Illustration 6: Installation - Lizenz
 
-![](../../../../.gitbook/assets/images8%20%287%29.png)Illustration 7: Installation contact form
+**Hinweis**: Ab Version 1.8.8 finden Sie auch ein Optional**Formular unter der Lizenzgenehmigung. Dieses Formular gibt uns einige Kontaktdaten über Sie und informiert Sie über jede Veranstaltung, die von der Chamilo Association oder ihren Mitgliedern organisiert wird und in der Nähe Ihres Standorts stattfindet.
 
-We will treat your contact information with care and will not provide it to third parties. It will be kept within the association itself. As per most privacy laws, you are entitled to have your data removed or updated in our database by sending an e-mail at info@chamilo.org
+![](../../../../.gitbook/assets/images8%20%287%29.png)Illustration 7: Kontaktformular für die Installation
 
+Wir werden Ihre Kontaktinformationen mit Sorgfalt behandeln und nicht an Dritte weitergeben. Es wird im Verein selbst aufbewahrt. Gemäß den meisten Datenschutzgesetzen haben Sie das Recht, Ihre Daten in unserer Datenbank entfernen oder aktualisieren zu lassen, indem Sie eine E-Mail an info@chamilo.org senden

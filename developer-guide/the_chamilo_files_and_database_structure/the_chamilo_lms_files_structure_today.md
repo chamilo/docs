@@ -1,8 +1,9 @@
-# The Chamilo LMS files structure today
 
-As of Chamilo LMS 1.11, the files structure looks like this \(not entering in the details of each folder\)\[5\] .
+# Die Struktur der Chamilo LMS-Dateien heute
 
-* app
+Ab Chamilo LMS 1.11 sieht die Dateistruktur so aus \(ohne die Details jedes Ordners einzugeben\) \[5\].
+
+* App
 * app/cache
 * app/config
 * app/courses
@@ -12,11 +13,11 @@ As of Chamilo LMS 1.11, the files structure looks like this \(not entering in th
 * app/Migrations
 * app/Resources
 * app/upload
-* bin
-* certificates
-* custompages
-* documentation
-* main
+* Fach
+* Zertifikate
+* CustomSeiten
+* Dokumentation
+* Haupt
 * main/admin
 * main/announcements
 * main/attendance
@@ -70,11 +71,10 @@ As of Chamilo LMS 1.11, the files structure looks like this \(not entering in th
 * main/webservices
 * main/wiki
 * main/work
-* plugin
+* Plugin
 * src
-* tests
-* vendor
-* web
+* Tests
+* Anbieter
+* Netz
 
-\[5\]: Found through the « find . -type d -maxdepth 2 » command
-
+\[5\]: Gefunden durch den « find . -type d -maxdepth 2 » -Befehl

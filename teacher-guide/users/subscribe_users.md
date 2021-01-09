@@ -1,50 +1,50 @@
-# Subscribe users
 
-Let's look first at how to subscribe new users as learners to the course. On the main _Users_ pagetoolbar, click on the _Enroll users to course_ icon ![](../../.gitbook/assets/graphics172.png)_._ This will display a list of users registered on the platform not subscribed to the course:
+# Abonnieren Sie Benutzer
+
+Schauen wir uns zuerst an, wie man neue Benutzer als Lernende für den Kurs abonniert. Klicken Sie in der Hauptseitenleiste _Users_ auf das Symbol _Benutzer einschreiben_ für Kurs_ ![](../../.gitbook/assets/graphics172.png)_ ._ Dadurch wird eine Liste der auf der Plattform registrierten Benutzer angezeigt, die den Kurs nicht abonniert haben:
 
 ![](../../.gitbook/assets/images129%20%281%29.png)
 
-_Illustration 100: Users – Action buttons_
+_Illustration 100: Benutzer — Handlungsbuttons_
 
-To subscribe a single learner, just click the _Register_ link ![](../../.gitbook/assets/graphics174.png) to the right of their listing.
+Um einen einzelnen Teilnehmer zu abonnieren, klicken Sie einfach auf den Link _Register_ ![](../../.gitbook/assets/graphics174.png) rechts neben dem Eintrag.
 
-To subscribe several learners at once, check the relevant boxes on the left hand side, then select the _Register_ option in the drop-down list headed _Detail_ at the bottom of the table \_\(\_a confirmation window appears to ensure you want to subscribe them: once confirmed, a confirmation list appears indicating which learners have been subscribed.\)
+Um mehrere Lernende gleichzeitig zu abonnieren, markieren Sie die entsprechenden Kästchen auf der linken Seite und wählen Sie dann die Option _Register_ in der Dropdown-Liste mit der Überschrift _Detail_ am Ende der Tabelle\_ \(\_es erscheint ein Bestätigungsfenster, um sicherzustellen, dass Sie sie abonnieren möchten: Nach der Bestätigung erscheint eine Bestätigungsliste welche Teilnehmer wurden abonniert.\)
 
-## Add teachers <a id="add-teachers"></a>
+## Lehrer hinzufügen <a id="add-teachers"></a>
 
-You can also subscribe another user as teacher in your course. Just click the second _Enroll teacher_ icon ![](../../.gitbook/assets/graphics175.png) \(he's wearing a tie!\) and repeat the process as for learners. Users subscribed using this link will have the status of _Teacher_ on the course.
+Sie können auch einen anderen Benutzer als Lehrer in Ihrem Kurs abonnieren. Klicke einfach auf das zweite Symbol für Lehrer einschreiben ![](../../.gitbook/assets/graphics175.png) \(er trägt eine Krawatte!\) und wiederhole den Vorgang wie für die Lernenden. Benutzer, die über diesen Link abonniert wurden, haben den Status _Teacher_ auf dem Kurs.
 
-## Unsubscribe a user <a id="unsubscribe-a-user"></a>
+## Einen Benutzer aufheben <a id="unsubscribe-a-user"></a>
 
-You can unsubscribe users individually or as a group from a course.
+Sie können Benutzer einzeln oder als Gruppe aus einem Kurs abbestellen.
 
-To unsubscribe a single user, click the _Unregister_ button ![](../../.gitbook/assets/graphics177.png) next to the corresponding user and confirm your choice.
+Um einen einzelnen Benutzer abzubestellen, klicken Sie neben dem entsprechenden Benutzer auf die Schaltfläche _Unregister_ ![](../../.gitbook/assets/graphics177.png) und bestätigen Sie Ihre Auswahl.
 
-To unsubscribe a group of users, check the relevant boxes on the left side of the table and select _Unregister_ in the drop-down list headed _Detail_ at the bottom of the table, then click _U**nregister**._
+Um eine Gruppe von Benutzern abzumelden, markieren Sie die entsprechenden Kästchen auf der linken Seite der Tabelle und wählen Sie _Unregister_ in der Dropdown-Liste mit der Überschrift _Detail_ am Ende der Tabelle aus und klicken Sie dann auf _u**NRegister**._
 
-**Note** : As a teacher you cannot remove the main teacher of a course \(by default described in the listing as Trainer\) from this screen. Only the platform administrator can do that.
+**Hinweis**: Als Lehrer können Sie den Hauptlehrer eines Kurses nicht (standardmäßig in der Auflistung als Trainer beschrieben\) von diesem Bildschirm entfernen. Das kann nur der Plattformadministrator tun.
 
-## Add/update a user's description <a id="add-update-a-user-s-description"></a>
+## hinzufügen/aktualisieren Beschreibung eines Benutzers <a id="add-update-a-user-s-description"></a>
 
-* Click the _Edit_ icon ![](../../.gitbook/assets/graphics176.png) to the right of the relevant user's entry to view the user's basic details;
-* Complete/update the _Description_ field to inform other users of the role played by this user;
-* Save changes.
+* Klicken Sie auf das _Edit_-Symbol ![](../../.gitbook/assets/graphics176.png) rechts neben dem Eintrag des jeweiligen Benutzers, um die grundlegenden Details des Benutzers anzuzeigen;
+* Vervollständigen/aktualisieren Sie das Feld _Description_, um andere Benutzer über die Rolle dieses Benutzers zu informieren;
+* Änderungen speichern.
 
-The _Assistant_ box \(previously titled _Tutor_\) allows the teacher to assign a special _Course assistant_ role with its corresponding permissions. These permissions allow the assistant to view test and assignments results from other learners in the course, to help him assist the teacher in this role.
+Das Feld _Assistant_ \(zuvor mit dem Titel _Tutor_\) ermöglicht es dem Lehrer, eine spezielle _Course Assistant-Rolle mit den entsprechenden Berechtigungen zuzuweisen. Diese Berechtigungen ermöglichen es dem Assistenten, die Ergebnisse anderer Teilnehmer im Kurs zu testen und die Aufgabenergebnisse anderer Teilnehmer zu unterstützen, um ihm zu helfen, den Lehrer in dieser Rolle zu unterstützen.
 
-## Search for a subscribed learner <a id="search-for-a-subscribed-learner"></a>
+## Suche nach einem abonnierten Lernenden <a id="search-for-a-subscribed-learner"></a>
 
-If the teacher needs to find a specific learner in the list of users subscribed to the course, the search feature will allow him to find one or several users from all or part of his first name or last name.
+Wenn der Lehrer einen bestimmten Lernenden in der Liste der Benutzer finden muss, die den Kurs abonniert haben, kann er mit der Suchfunktion einen oder mehrere Benutzer aus seinem Vor- oder Nachnamen oder einem Teil seines Vornamens oder Nachnamens finden.
 
-Just fill in the search field with the relevant characters and click the _Search_ button. A list of matching users will be displayed.
+Füllen Sie einfach das Suchfeld mit den relevanten Zeichen aus und klicken Sie auf die Schaltfläche _Search_. Eine Liste der passenden Benutzer wird angezeigt.
 
-## Export the list of subscribed users <a id="export-the-list-of-subscribed-users"></a>
+## Exportiere die Liste der abonnierten Benutzer <a id="export-the-list-of-subscribed-users"></a>
 
-You might want, \(independently of the backup copies taken by your careful administrator!\) to keep a separate copy of your users list. To do so, from the main _Users_ page, click one of the export icons in the toolbar \(_CSV export_ ![](../../.gitbook/assets/graphics178.png) _Excel export_ _\__ ![](../../.gitbook/assets/graphics179.png)_\_or .pdf export_ ![](../../.gitbook/assets/graphics363.png)\) to download the list of users in the corresponding format.
+Vielleicht möchten Sie \(unabhängig von den Sicherungskopien Ihres vorsichtigen Administrators!\), um eine separate Kopie Ihrer Benutzerliste zu behalten. Klicken Sie dazu auf der Hauptseite _Users_ auf eines der Exportsymbole in der Symbolleiste \(_CSV-Export_ ![](../../.gitbook/assets/graphics178.png) _Excel-Export_ _ _ _ __ ![](../../.gitbook/assets/graphics179.png)_\_oder .pdf export_ ![](../../.gitbook/assets/graphics363.png)\), um die Liste der Benutzer im entsprechenden Format herunterzuladen.
 
-> **Note**: not all users details are exported through this feature \(their passwords, for example, are confidential information not available to other users, not even to the teacher\).
+> **Hinweis**: Nicht alle Benutzerdetails werden über diese Funktion exportiert \(ihre Kennwörter sind beispielsweise vertrauliche Informationen, die anderen Benutzern nicht zur Verfügung stehen, nicht einmal dem Lehrer\).
 
-## Display learners reporting <a id="display-learners-reporting"></a>
+## Anzeige der Lernenden <a id="display-learners-reporting"></a>
 
-The teacher can directly access details from the main _Users_ page about each learner's participation in the course by clicking on the _Reporting_ icon ![](../../.gitbook/assets/graphics180.png) next to the user's listing. This will link to the L_earners details in course_ page, described more fully in chapter 15 above.
-
+Der Lehrer kann direkt auf Details von der _Users_Hauptseite über die Teilnahme jedes Teilnehmers am Kurs zugreifen, indem er auf das Symbol _Reporting_ ![](../../.gitbook/assets/graphics180.png) neben der Auflistung des Benutzers klickt. Dies wird auf die Details zu L_Earners in course_ verweisen, die in Kapitel 15 ausführlicher beschrieben wird.

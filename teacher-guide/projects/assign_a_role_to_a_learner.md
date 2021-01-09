@@ -1,14 +1,14 @@
-# Assign a role to a learner
 
-Once the role has been created, you must assign it to a learner:
+# Weisen Sie einem Lernenden eine Rolle zu
 
-* click on the _Assign roles_ link ![](../../.gitbook/assets/graphics315.gif),
-* select a learner to assign the role to,
-* select the task to be assigned,
-* select a date to achieve the objective of the role,
-* click the _Validate_ button.
+Nachdem die Rolle erstellt wurde, müssen Sie sie einem Lernenden zuweisen:
+
+* klicken Sie auf den Link _Zuweisen von Rollen ![](../../.gitbook/assets/graphics315.gif),
+* wählen Sie einen Teilnehmer aus, dem Sie die Rolle zuweisen möchten,
+* wählen Sie die zuzuordnende Aufgabe aus,
+* Wählen Sie ein Datum aus, um das Ziel der Rolle zu erreichen,
+* klicken Sie auf die Schaltfläche _Validate_.
 
 ![](../../.gitbook/assets/images239.png)
 
-_Illustration 169: Projects – Assign a role_
-
+_Illustration 169: Projekte — Zuweisen einer Rolle_

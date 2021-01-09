@@ -1,20 +1,20 @@
-# Internal messaging
 
-From the _Social network_ tab \(left menu\) the _Messages_ entry allows you to send or receive messages. It is similar to most messaging tools.
+# Interne Nachrichten
+
+Auf der Registerkarte _Social Network_ \(linkes Menü\) können Sie mit dem Eintrag _Messages_ Nachrichten Nachrichten senden oder empfangen. Es ähnelt den meisten Messaging-Tools.
 
 ![](../../.gitbook/assets/images257.png)
 
-_Illustration 189: Social network – Internal messaging - Inbox_
+_Illustration 189: Soziales Netzwerk — Interne Nachrichten - Postinbox_
 
-To write a message to another user \(or a friend\) subscribed to the platform:
+So schreiben Sie eine Nachricht an einen anderen Benutzer \(oder einen Freund\), abonniert die Plattform:
 
-* click the _Messages_ link below your picture,
-* click the _Compose message_ icon ![](../../.gitbook/assets/graphics338.png),
-* Chamilo will auto-complete the send-to field with known contacts,
-* enter the subject and message \(optionally you can add an attached file\),
-* click the _Send message_ button.
+* klicken Sie auf den Link _Messages_ unter Ihrem Bild,
+* klicken Sie auf das Symbol „Nachricht verfassen“ ![](../../.gitbook/assets/graphics338.png),
+* Chamilo vervollständigt das Feld „Senden an“ automatisch mit bekannten Kontakten,
+* Geben Sie den Betreff und die Nachricht ein \(optional können Sie eine angehängte Datei hinzufügen\),
+* Klicken Sie auf die Schaltfläche _Nachricht senden_.
 
-If the recipient has entered their email in their profile, the message will also go automatically go to their email address.
+Wenn der Empfänger seine E-Mail-Adresse in sein Profil eingegeben hat, wird die Nachricht automatisch an seine E-Mail-Adresse gesendet.
 
-> **Note**: If the other user has chosen to, the message will also be sent to his e-mail as a notification of internal message. However, he will have to enter the platform to answer you.
-
+> **Hinweis**: Wenn der andere Benutzer dies gewählt hat, wird die Nachricht auch als Benachrichtigung über eine interne Nachricht an seine E-Mail gesendet. Er muss jedoch die Plattform betreten, um Ihnen zu antworten.

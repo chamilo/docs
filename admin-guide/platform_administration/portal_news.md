@@ -1,12 +1,12 @@
-# Portal news
 
-Allows you to add a global announcement on the homepage of the portal \(and on top of the courses list\).
+# Neuigkeiten des Portals
 
-![](../../.gitbook/assets/images27%20%287%29.png)Illustration 40: Administration – Global announcements
+Ermöglicht das Hinzufügen einer globalen Ankündigung auf der Startseite des Portals \(und oben auf der Kursliste\).
 
-It is possible to choose the visibility of the announcement \(by start and end date\), the roles which this announcement is meant for, and to send it by e-mail. You can event send it to a social group.
+![](../../.gitbook/assets/images27%20%287%29.png)Illustration 40: Administration — Globale Ankündigungen
 
-If you want to publish this announcement in the global calendar, just tick the corresponding box.
+Es ist möglich, die Sichtbarkeit der Ankündigung zu wählen \(nach Start- und Enddatum\), der Rollen, für die diese Ankündigung gedacht ist, und sie per E-Mail zu senden. Du kannst es einer Veranstaltung an eine soziale Gruppe senden.
 
-This tool is particularly useful to send a maintenance, update or terms and conditions change on the portal.
+Wenn Sie diese Ankündigung im globalen Kalender veröffentlichen möchten, kreuzen Sie einfach das entsprechende Kästchen an.
 
+Dieses Tool ist besonders nützlich, um eine Wartungs-, Aktualisierungs- oder Änderung der Allgemeinen Geschäftsbedingungen auf dem Portal zu senden.

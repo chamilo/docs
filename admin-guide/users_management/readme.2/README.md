@@ -1,10 +1,10 @@
-# Users list
 
-Here the administrator can manage all users in a simple click on an icon that we have seen previously.
+# Liste der Benutzer
 
-![](../../../.gitbook/assets/images40%20%286%29.png)Illustration 48: Administration – Users list
+Hier kann der Administrator alle Benutzer mit einem einfachen Klick auf ein Icon verwalten, das wir zuvor gesehen haben.
 
-In order to visualise the users list in a clearer way, here is a reduced list of roles and types of options of which the administrator has access to regarding each of these roles.
+![](../../../.gitbook/assets/images40%20%286%29.png)Illustration 48: Administration — Liste der Benutzer
 
-![](../../../.gitbook/assets/images41%20%286%29.png)Illustration 49: Administration – Users – Options by role
+Um die Benutzerliste auf übersichtlichere Weise zu visualisieren, finden Sie hier eine reduzierte Liste von Rollen und Arten von Optionen, auf die der Administrator in Bezug auf jede dieser Rollen Zugriff hat.
 
+![](../../../.gitbook/assets/images41%20%286%29.png)Illustration 49: Administration — Benutzer — Optionen nach Rolle

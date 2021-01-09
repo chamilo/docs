@@ -1,4 +1,4 @@
-# Send a message
 
-Enter the text inside the field located at the bottom of the page, then click the \_Send message\_button. Inside the messages list, the messages from the teacher appear with a corresponding icon in front of the user's name.
+# Sende eine Nachricht
 
+Geben Sie den Text in das Feld ein, das sich unten auf der Seite befindet, und klicken Sie dann auf die Schaltfläche\_Nachricht senden\_. In der Nachrichtenliste werden die Nachrichten des Lehrers mit einem entsprechenden Symbol vor dem Namen des Benutzers angezeigt.

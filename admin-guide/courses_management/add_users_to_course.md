@@ -1,10 +1,10 @@
-# Add users to course
 
-The admin can subscribe whomever to whichever course he wants:
+# Benutzer zum Kurs hinzufügen
 
-* select one or several users in the list on the left \(use CTRL or SHIFT to select multiple\),
-* Choose the course\(s\) to subscribe these users to,
-* click _Subscribe users to course_.
+Der Admin kann jeden Kurs abonnieren, den er möchte:
 
-![](../../.gitbook/assets/coursinscrire_-utilisateurs%20%283%29.png)Illustration 62: Administration – Subscribe users to courses
+* wählen Sie einen oder mehrere Benutzer in der Liste auf der linken Seite aus \(verwenden Sie STRG oder UMSCHALTTASTE, um mehrere auszuwählen\),
+* Wählen Sie den Kurs aus, für den Sie diese Benutzer abonnieren möchten,
+* klicken Sie auf _Benutzer abonnieren_.
 
+![](../../.gitbook/assets/coursinscrire_-utilisateurs%20%283%29.png)Illustration 62: Administration — Abonnieren Sie Benutzer zu Kursen

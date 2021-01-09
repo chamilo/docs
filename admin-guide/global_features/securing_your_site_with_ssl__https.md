@@ -1,26 +1,26 @@
-# Securing your site with SSL / HTTPS
 
-As Chamilo LMS has grown more popular in the last 12 months \(roughly 400% increase in number of users\), we have received several indications of password theft and that the security of Chamilo might be in question. Check out our Security in Chamilo LMS section \(10.2\) in the Appendix for more information about security in Chamilo.
+# Sicherung Ihrer Website mit SSL/HTTPS
 
-The weakest link so far with our Chamilo portals has been the infrastructure, in that students can \(relatively easily\) steal accesses from a teacher connecting to the platform from the same computer room \(due to some characteristics of network equipment\). There are many ways to get to “spy” on the communication of another user with the server, and one of the most secure ways to avoid this kind of theft is to encrypt the whole communication between the user and the Chamilo server.
+Da Chamilo LMS in den letzten 12 Monaten immer beliebter geworden ist \(Erhöhung der Benutzeranzahl um 400%\), haben wir mehrere Hinweise auf Passwortdiebstahl erhalten und dass die Sicherheit von Chamilo in Frage gestellt werden könnte. Weitere Informationen zur Sicherheit in Chamilo in Chamilo LMS \(10.2\) im Anhang finden Sie weitere Informationen zur Sicherheit in Chamilo.
 
-This can be done through SSL \(or more commonly called HTTPS for the appearance of an “s” in the URL of those portals\), a secure and standard way to encrypt any HTTP communication on the web.
+Das bisher schwächste Glied zu unseren Chamilo-Portalen war die Infrastruktur, in der Schüler (relativ leicht\) Zugriffe von einem Lehrer stehlen können, der über denselben Computerraum mit der Plattform verbunden ist\ \(aufgrund einiger Merkmale der Netzwerkausrüstung\). Es gibt viele Möglichkeiten, bei der Kommunikation eines anderen Benutzers mit dem Server zu “spy” zu gelangen, und eine der sichersten Möglichkeiten, diese Art von Diebstahl zu vermeiden, besteht darin, die gesamte Kommunikation zwischen dem Benutzer und dem Chamilo Server zu verschlüsseln.
 
-Sadly, because of the inherent security of the system, an SSL certificate \(required for the secure communication to happen\) has to be “signed” \(virtually\) by a recognized authority, for a limited amount of time. This implies \(in most cases until now\) payment to said authority of a fee to sign the certificate. In other words, a certificate is not free and it is not permanent. For example, a simple \(lowest-level of security\) certificate, just for a single domain name, might cost between $25 and $100 a year.
+Dies kann über SSL \(oder häufiger als HTTPS für das Erscheinen eines “s” in der URL dieser Portale\) geschehen, eine sichere und standardmäßige Möglichkeit, HTTP-Kommunikation im Internet zu verschlüsseln.
 
-You can “self-sign” your certificates, but this will show a scary screen to all users the first time they access the portal, and it will ask them to take a decision. The users will have to click a minimum of 3 times in very specific options in order to get to the site, as illustrated by the following screenshots.
+Leider muss aufgrund der inhärenten Sicherheit des Systems ein SSL-Zertifikat \(das für die sichere Kommunikation erforderlich ist\) für eine begrenzte Zeit “signed” \(virtuell) von einer anerkannten Behörde sein. Dies impliziert \(in den meisten Fällen bis jetzt\) Zahlung einer Gebühr zur Unterzeichnung des Zertifikats an diese Behörde. Mit anderen Worten, ein Zertifikat ist nicht kostenlos und nicht dauerhaft. Zum Beispiel könnte ein einfaches \(Lost Level of Security\) -Zertifikat, nur für einen einzelnen Domainnamen, zwischen 25 und 100 US-Dollar pro Jahr kosten.
 
-![](../../.gitbook/assets/images52%20%281%29.png)Illustration 90: Browsers warn users of self-signed SSL certificates: Step 1/3: click on the “I Understand the Risks” link \(example with Mozilla Firefox\)
+Sie können “self-sign” Ihre Zertifikate, aber dies zeigt allen Benutzern beim ersten Zugriff auf das Portal einen beängstigenden Bildschirm an und fordert sie auf, eine Entscheidung zu treffen. Die Benutzer müssen mindestens dreimal in sehr spezifischen Optionen klicken, um auf die Website zu gelangen, wie die folgenden Screenshots zeigen.
 
-![](../../.gitbook/assets/images53%20%281%29.png)Illustration 91: Browsers warn users of self-signed SSL certificates: Step 2/3: click the "Add Exception" button
+![](../../.gitbook/assets/images52%20%281%29.png)Illustration 90: Browser warnen Benutzer von selbstsignierten SSL-Zertifikaten: Schritt 1/3: Klicken Sie auf den “I Understand the Risks” -Link \(Beispiel mit Mozilla Firefox\)
 
-![](../../.gitbook/assets/images60%20%281%29.png)Illustration 92: Browsers warn users of self-signed SSL certificates: Step 3/3: click "Confirm Security Exception"
+![](../../.gitbook/assets/images53%20%281%29.png)Illustration 91: Browser warnen Benutzer vor selbstsignierten SSL-Zertifikaten: Schritt 2/3: Klicken Sie auf die Schaltfläche "Add Exception"
 
-These rather scary three steps completed, your user will have access to your site with an encrypted connection, but the process will not work for everyone.
+![](../../.gitbook/assets/images60%20%281%29.png)Illustration 92: Browser warnen Benutzer vor selbstsignierten SSL-Zertifikaten: Schritt 3/3: Klick "Confirm Security Exception"
 
-To avoid these messages, you will need to purchase an SSL certificate \(we have had some reasonable success with _RapidSSL_ so far, but it is entirely up to you to choose the right SSL certificates provider for you\).
+Diese ziemlich beängstigenden drei Schritte sind abgeschlossen, Ihr Benutzer hat Zugriff auf Ihre Website mit einer verschlüsselten Verbindung, aber der Prozess wird nicht für alle funktionieren.
 
-If you'd rather go for a self-signed certificate because your team will be a finite number of people using it and you know they're able to manage the 3 steps of certificate acceptance, then you can follow this article to set it up: [https://beeznest.wordpress.com/2008/04/25/how-to-configure-https-on-apache-2/](https://beeznest.wordpress.com/2008/04/25/how-to-configure-https-on-apache-2/)
+Um diese Nachrichten zu vermeiden, müssen Sie ein SSL-Zertifikat erwerben \(wir hatten bisher einen vernünftigen Erfolg mit _RapidSSL_, aber es liegt ganz bei Ihnen, den richtigen Anbieter für SSL-Zertifikate für Sie zu wählen\).
 
-There is no more secure and practical way of securing your connections than SSL, so don't try to implement your own security mechanism. If you have comments about SSL, you should contact directly with the community managing the standard.
+Wenn Sie sich lieber für ein selbstsigniertes Zertifikat entscheiden möchten, weil Ihr Team eine begrenzte Anzahl von Personen ist, die es verwenden, und Sie wissen, dass sie die 3 Schritte der Zertifikatsannahme verwalten können, können Sie diesen Artikel befolgen, um es einzurichten: [https://beeznest.wordpress.com/2008/04/25/how-to-configure-https-on-apache-2/](https://beeznest.wordpress.com/2008/04/25/how-to-configure-https-on-apache-2/)
 
+Es gibt keine sicherere und praktischere Möglichkeit, Ihre Verbindungen zu sichern als SSL. Versuchen Sie daher nicht, Ihren eigenen Sicherheitsmechanismus zu implementieren. Wenn Sie Kommentare zu SSL haben, sollten Sie sich direkt an die Community wenden, die den Standard verwaltet.

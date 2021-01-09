@@ -1,19 +1,19 @@
-# Update general course settings
 
-By default, this page \(a series of vertical tabs\) displays the main _Course settings_ where you can:
+# Aktualisieren Sie die allgemeinen Kurseinstellungen
 
-* enter or edit the course title,
-* enter/edit the general category to which the course belongs,
-* choose the language in which the course interface is set \(this can be set to language other than that of the platform, - particularly useful for a “total immersion” language course\).
-* enter a Department name and/or web address
-* add a picture to be displayed in the course catalogue \(important for “marketing” your course\)
-* choose a stylesheet for this course from a drop down menu \(by default that of the platform\)
+Standardmäßig zeigt diese Seite \(eine Reihe vertikaler Registerkarten\) die wichtigsten _Course -Einstellungen_ an, in denen Sie:
 
-![](../../.gitbook/assets/images241.png)_Illustration 172: Course settings - General_
+* Geben Sie den Kurstitel ein oder bearbeiten Sie ihn,
+* die allgemeine Kategorie eingeben/bearbeiten, zu der der Kurs gehört,
+* wählen Sie die Sprache, in der die Kursschnittstelle eingestellt ist \(diese kann auf eine andere Sprache als die der Plattform eingestellt werden - besonders nützlich für einen “total immersion” -Sprachkurs\).
+* Geben Sie einen Abteilungsnamen und/oder eine Webadresse ein
+* füge ein Bild hinzu, das im Kurskatalog angezeigt wird \(wichtig für “marketing” dein Kurs\)
+* wähle ein Stylesheet für diesen Kurs aus einem Dropdown-Menü aus \(standardmäßig das der Plattform\)
+
+![](../../.gitbook/assets/images241.png)_Illustration 172: Kurseinstellungen - Allgemeinar_
 
 ![](../../.gitbook/assets/images242.png)
 
-_Illustration 173: Courses catalog – Example of courses illustrations_
+_Illustration 173: Katalog der Kurse — Beispiel für Lehrveranstaltungen Illustrationen_
 
-> **Note** : the **D\*\***_epartment_\*\* is a feature for which support has been dropped so far. Depending on visual styles, the department might appear as a link in the campus header \(for old, deprecated styles\). This is all a department will change. In more recent version of Chamilo 1.8, if you need to manage courses by departments inside a university, we recommend you use the multi-url feature, described in the administrator's guide, little brother of this guide_._
-
+> **Hinweis**: Das **D\*\***_epartment_\* ist eine Funktion, für die die Unterstützung bisher fallen gelassen wurde. Abhängig von visuellen Stilen kann die Abteilung als Link im Campuskopf erscheinen \(für alte, veraltete Stile\). Das ist alles, was sich eine Abteilung ändern wird. Wenn Sie in einer neueren Version von Chamilo 1.8 Kurse von Abteilungen innerhalb einer Universität verwalten müssen, empfehlen wir Ihnen, die im Administratorhandbuch beschriebene Funktion zu verwenden, kleiner Bruder dieses Leitfades_._

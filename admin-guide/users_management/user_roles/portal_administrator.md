@@ -1,7 +1,7 @@
-# Portal administrator
 
-| Description | The portal administrator only makes sense if we use the multi-url mode \(see 9.1Multi-URL on page 80\). In this case, the administrator not authorized to modify all the portals is a portal administrator \(as opposed to global administrator\) |
-| :--- | :--- |
-| Permissions in a course | All permissions |
-| Global permissions | By default, he can : |
+# Portaladministrator
 
+| Beschreibung | Der Portaladministrator macht nur Sinn, wenn wir den Multi-URL-Modus verwenden \(siehe 9.1Multi-URL auf Seite 80\). In diesem Fall ist der Administrator, der nicht berechtigt ist, alle Portale zu ändern, ein Portaladministrator \(im Gegensatz zum globalen Administrator\) |
+|: — |: — |
+| Berechtigungen in einem Kurs | Alle Berechtigungen |
+| Globale Berechtigungen | Standardmäßig kann er:

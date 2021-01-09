@@ -1,8 +1,8 @@
-# Search a forum element
 
-All the screens of the _Forum_ tool include a search feature. The search can be executed in all the forums at once and you can combine search terms with the “+” sign. The results are sent in the form of a list indicating:
+# Suche ein Forenelement
 
-* the forum category,
-* the forum title,
-* the title of the thread in which the searched words have been found.
+Alle Bildschirme des Tools _Forum_ enthalten eine Suchfunktion. Die Suche kann in allen Foren gleichzeitig ausgeführt werden und Sie können Suchbegriffe mit dem “+” -Zeichen kombinieren. Die Ergebnisse werden in Form einer Liste gesendet, die Folgendes angibt:
 
+* die Forenkategorie
+* der Forumtitel,
+* der Titel des Threads, in dem die gesuchten Wörter gefunden wurden.

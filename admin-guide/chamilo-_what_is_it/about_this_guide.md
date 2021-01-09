@@ -1,6 +1,6 @@
-# About this guide
 
-This guide has been written through the collaborative action of several companies which contribute, their own way, to the improvement of education around the world.
+# Über diesen Leitfaden
 
-You can contribute to the writing and improving of this guide too. Just drop us an e-mail at info@chamilo.org and send us back the modified version. It's that easy!
+Dieser Leitfaden wurde durch die gemeinsame Aktion mehrerer Unternehmen geschrieben, die auf ihre eigene Weise zur Verbesserung der Bildung auf der ganzen Welt beitragen.
 
+Sie können auch zum Schreiben und Verbessern dieses Leitfadens beitragen. Schreiben Sie uns einfach eine E-Mail an info@chamilo.org und schicken Sie uns die modifizierte Version zurück. So einfach geht's!

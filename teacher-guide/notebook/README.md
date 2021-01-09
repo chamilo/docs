@@ -1,8 +1,8 @@
-# Notebook
 
-The _Personal notes_ \(or _Notebook_\) tool ![](../../.gitbook/assets/graphics303.png) is a kind of notepad attached to each course. It allows the users to take note of things they would otherwise write on a piece of paper.
+# Notizbuch
 
-![](../../.gitbook/assets/images235.png)_Illustration 160: Notebook - List_
+Das Tool _Persönliche Hinweise_ \(oder _Notebook_\) ![](../../.gitbook/assets/graphics303.png) ist eine Art Notizblock, der an jeden Kurs angehängt ist. Es ermöglicht den Benutzern, Dinge zur Kenntnis zu nehmen, die sie sonst auf ein Blatt Papier schreiben würden.
 
-Notes can be updated as needed and dates of creation and latest update are saved. Notes taken by a user are not visible by other users. In this sense, they are, indeed, personal.
+![](../../.gitbook/assets/images235.png)_Illustration 160: Notizbuch - Liste_
 
+Notizen können bei Bedarf aktualisiert werden und Erstellungs- und Aktualisierungsdaten werden gespeichert. Von einem Benutzer aufgenommene Notizen sind für andere Benutzer nicht sichtbar. In diesem Sinne sind sie in der Tat persönlich.

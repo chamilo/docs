@@ -1,14 +1,14 @@
-# How to read this guide?
 
-This guide has been written as a reference with a smooth learning curve, getting you through the installation, configuration and backup process \(see_Installation and configuration_\), then the general configuration options \(see _Platform administration_\), then user management \(see _Users management_\), then through courses management \(see_Courses management_\), sessions management \(see Sessions management\), and then a series of global features or extensions you need to know about \(see Global features\).
+# Wie lese ich diesen Leitfaden?
 
-If you want to go along practising with this book without installing your own Chamilo portal \(which we **do not** recommend, as you will miss the first requirement to be a Chamilo admin: be able to install it\), you can have a go as _admin_ on our development portal: [http://stable.chamilo.org](http://stable.chamilo.org/). This portal is normally only there for development purposes, but you can access it as a temporal fix if you are stuck.
+Dieses Handbuch wurde als Referenz mit einer reibungslosen Lernkurve geschrieben, die Sie durch den Installations-, Konfigurations- und Sicherungsprozess führt \(see_Installation und Konfiguration_\), dann die allgemeinen Konfigurationsoptionen \(siehe _Plattformadministration_\), dann die Benutzerverwaltung \(siehe _Benutzerverwaltung\) über die Kursverwaltung \(See_Courses Management_\), Sitzungsverwaltung \(siehe Sitzungsverwaltung\) und dann eine Reihe globaler Funktionen oder Erweiterungen, die Sie kennen müssen \(siehe Globale Funktionen\).
 
-A considerable amount of seriously relevant information has been added as footnotes, so make sure you check them if you think the guide is missing something.
+Wenn Sie mit diesem Buch üben möchten, ohne Ihr eigenes Chamilo-Portal zu installieren \(was wir nicht** empfehlen, da Sie die erste Anforderung verpassen, ein Chamilo-Administrator zu sein: in der Lage sein, es zu installieren\), können Sie als _admin_ auf unserem Entwicklungsportal gehen: [http://stable.chamilo.org](http://stable.chamilo.org/). Dieses Portal ist normalerweise nur zu Entwicklungszwecken da, aber Sie können als zeitliche Korrektur darauf zugreifen, wenn Sie nicht weiterkommen.
 
-You will find this guide can serve as a quick reference too, thanks to its Frequently asked questions chapter.
+Eine beträchtliche Menge ernsthaft relevanter Informationen wurde als Fußnoten hinzugefügt. Überprüfen Sie diese daher, wenn Sie der Meinung sind, dass dem Leitfaden etwas fehlt.
 
-If this guide doesn't answer your questions, you can use the Chamilo forum, where numerous other users, teachers or administrators, but also developers of the software, will be able to help you find the answers.
+Sie werden feststellen, dass dieser Leitfaden dank des Kapitels Häufig gestellte Fragen auch als Kurzanleitung dienen kann.
 
-Finally, in the eventuality of having greater needs, you might also use the services of our [official providers](https://chamilo.org/providers), a group of companies and institutions which provide professional services around Chamilo, have proven their involvement and seriousness in the project and are sustaining its collaborative model.
+Wenn dieser Leitfaden Ihre Fragen nicht beantwortet, können Sie das Chamilo-Forum nutzen, in dem Ihnen zahlreiche andere Benutzer, Lehrer oder Administratoren, aber auch Entwickler der Software, bei der Suche nach den Antworten helfen können.
 
+Schließlich können Sie in dem Fall, dass Sie größere Bedürfnisse haben, auch die Dienste unserer [offiziellen Anbieter](https://chamilo.org/providers) in Anspruch nehmen, einer Gruppe von Unternehmen und Institutionen, die professionelle Dienstleistungen rund um Chamilo anbieten, ihre Beteiligung und Seriosität am Projekt bewiesen haben und sein kollaboratives Modell aufrechterhalten.

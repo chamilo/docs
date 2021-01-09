@@ -1,54 +1,54 @@
-# Modifiers
 
-Finally, there might come opportunities where you'd like the template to do something for you, not very complicated but which relies on some kind of processing. That's what modifiers are for.
+# Modifikatoren
 
-For example, and probably the most common modifier inside existing tpl files : get\_lang, will take the given value and use the internal procedure from Chamilo to translate it and show the translation as the result, just where the tag was placed.
+Schließlich gibt es Möglichkeiten, bei denen Sie möchten, dass die Vorlage etwas für Sie tut, das nicht sehr kompliziert ist, aber auf einer Art Verarbeitung beruht. Dafür gibt es Modifikatoren.
 
-For example, you could have a section like this, representing part of the header :
+Zum Beispiel und wahrscheinlich der gebräuchlichste Modifikator in vorhandenen tpl-Dateien: get\_lang, nimmt den angegebenen Wert und verwendet die interne Prozedur von Chamilo, um ihn zu übersetzen und die Übersetzung als Ergebnis anzuzeigen, wo das Tag genau dort platziert wurde.
+
+Zum Beispiel könnten Sie einen Abschnitt wie diesen haben, der einen Teil des Headers darstellt:
 
 ```text
 {{"Home"|get_lang}}
 ```
 
-In this case, the term « Home » will be translated by Chamilo's get\_lang\(\) function before it's shown on screen. The resulting code for this tpl block, taking into account previous examples, in French, would look something like this :
+In diesem Fall wird der Begriff « Home » von Chamilos get\_lang\(\) Funktion übersetzt, bevor er auf dem Bildschirm angezeigt wird. Der resultierende Code für diesen tpl-Block unter Berücksichtigung früherer Beispiele auf Französisch würde ungefähr so aussehen:
 
 ```text
 Accueil
 ```
 
-If you are using language terms with multiple variables to be inserted \(for example « DateFromXToY »\), you'll have to combine two modifiers, like so :
+Wenn Sie Sprachbegriffe mit mehreren einzufügenden Variablen verwenden (zum Beispiel « DateFromXToY »\), müssen Sie zwei Modifikatoren kombinieren:
 
 ```text
 {{ 'DateFromXToY' | get_lang | format(dateX, dateY) }}
 ```
 
-Where dateX and dateY are variables you previously « assigned » to your template.
+Wo DateX und DateY Variablen sind, die Sie zuvor « assigned » zu Ihrem Template haben.
 
-You can find examples of this in main/template/default/skill/skill\_info.tpl.
+Beispiele hierfür finden Sie in main/template/default/skill/skill\_info.tpl.
 
-## Using the get\_lang modifier with plugins
+## Verwenden des Modifikators „get\_lang“ mit Plugins
 
-When developing plugins with .tpl \(which is recommended\), the use case is slightly different. If you use variables defined **only** in the plugin's lang/ folder \(see Language variables section on page 50\), and in order to ensure that parent languages will be taken into account as well \(in case the users of your plugin make use of a sub-language – see "Sub-languages" for related information\), you will have to use the get\_plugin\_lang modifier.
+Bei der Entwicklung von Plugins mit .tpl \(was empfohlen wird\) ist der Anwendungsfall etwas anders. Wenn Sie Variablen verwenden, die **nur** im Ordner lang/ des Plugins definiert wurden \(siehe Abschnitt Sprachvariablen auf Seite 50\) und um sicherzustellen, dass auch die Elternsprachen berücksichtigt werden \(falls die Benutzer Ihres Plugins eine Untersprache verwenden - siehe "Sub-languages" für verwandte Informationen\), müssen Sie verwende den modifizierer get\_plugin\_lang.
 
-However, this modifier takes an additional parameter, the name of the plugin **class**, so if we re-use one of the previous cases and say we are working on a plugin that has a folder called plugins/homepage-looks/ but inside it, the main class is called HomepageLooksPlugin:
+Dieser Modifikator verwendet jedoch einen zusätzlichen Parameter, den Namen des Plugins **Klasse**. Wenn wir also einen der vorherigen Fälle wiederverwenden und sagen, dass wir an einem Plugin arbeiten, das einen Ordner namens plugins/homepage-looks/ enthält, aber darin heißt die Hauptklasse HomepageLockupGin:
 
 ```text
 Accueil
 ```
 
-… and decide that the French term “Accueil” \(“Home”, in a web context\) should be translated through plugin-specific translations, then our first reaction would be to do this:
+... und beschließe, dass der französische Begriff “Accueil” \(“Home”, in einem Webkontext\) durch Plugin-spezifische Übersetzungen übersetzt werden soll, dann wäre unsere erste Reaktion, dies zu tun:
 
 ```text
 {{ “Home” | get_lang }}
 ```
 
-However, this will not consider plugin-specific translations in the case of sub-languages. Instead, do this:
+Dies wird jedoch bei Untersprachen keine Plugin-spezifischen Übersetzungen berücksichtigen. Tun Sie das stattdessen:
 
 ```text
 {{ “Home” | get_plugin_lang('HomepageLooksPlugin') }}
 ```
 
-This way, Chamilo will look specifically for a translation defined inside the plugin and, if no translation is found for the sub-language created by the user, it will look for a parent language that it can use, and finally default to English if none of those two steps work.
+Auf diese Weise wird Chamilo speziell nach einer im Plugin definierten Übersetzung suchen, und wenn keine Übersetzung für die vom Benutzer erstellte Untersprache gefunden wird, sucht es nach einer übergeordneten Sprache, die es verwenden kann, und wird schließlich auf Englisch gesetzt, wenn keiner dieser beiden Schritte funktioniert.
 
-In conclusion, all your plugins should make some use of the _get\_plugin\_lang_ modifier rather than the get\_lang modifier, whenever a translation is specifically defined in the plugin.
-
+Zusammenfassend sollten alle Ihre Plugins den Modifikator _get\_plugin\_lang_ anstelle des Modifikators get\_lang verwenden, wenn eine Übersetzung speziell im Plugin definiert ist.

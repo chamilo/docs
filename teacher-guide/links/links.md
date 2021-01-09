@@ -1,18 +1,18 @@
-# Links
 
-A link can be added in a category or at the root level:
+# Verbindungen
+
+Ein Link kann in einer Kategorie oder auf der Root-Ebene hinzugefügt werden:
 
 ![](../../.gitbook/assets/graphics220.png)
 
-_Illustration 123: Links - Add link_
+_Illustration 123: Links - Link hinzufügen_
 
-To add a link:
+So fügen Sie einen Link hinzu:
 
-* Click the _Add a link_ icon ![](../../.gitbook/assets/graphics219.png)
-* Add the link's URL,
-* Give it a label,
-* Add a description of what is on the other side of the link, if desired,
-* Select a category if desired,
-* Choose whether to show the link on the course homepage or not,
-* Click the _Save link_ button.
-
+* Klicken Sie auf das Symbol _Link hinzufügen_ ![](../../.gitbook/assets/graphics219.png)
+* Fügen Sie die URL des Links hinzu,
+* Gib ihm ein Etikett,
+* Fügen Sie auf Wunsch eine Beschreibung hinzu, was sich auf der anderen Seite des Links befindet,
+* Wählen Sie auf Wunsch eine Kategorie aus,
+* Wählen Sie, ob der Link auf der Kurs-Homepage angezeigt werden soll oder nicht,
+* Klicken Sie auf die Schaltfläche _Save Link_.

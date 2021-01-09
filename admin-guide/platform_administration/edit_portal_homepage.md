@@ -1,13 +1,13 @@
-# Edit portal homepage
 
-From this page, you can configure several things
+# Portal-Startseite bearbeiten
 
-* edit the homepage,
-* edit categories of courses,
-* insert links
-* edit the notice block
+Auf dieser Seite können Sie verschiedene Dinge konfigurieren
 
-![](../../.gitbook/assets/images28%20%287%29.png)Illustration 42: Administration – Homepage configuration
+* bearbeite die Homepage,
+* Kategorien von Kursen editieren,
+* Links einfügen
+* Bearbeiten Sie den Notizblock
 
-Note that this feature depends on the language selected. If you define a welcome page in French, it will only be visible if French is the selected language. This allows you to configure different welcome messages depending on your users.
+![](../../.gitbook/assets/images28%20%287%29.png)Illustration 42: Administration — Homepage-Konfiguration
 
+Beachten Sie, dass diese Funktion von der ausgewählten Sprache abhängt. Wenn Sie eine Begrüßungsseite auf Französisch definieren, ist diese nur sichtbar, wenn Französisch die ausgewählte Sprache ist. Auf diese Weise können Sie je nach Benutzer verschiedene Willkommensnachrichten konfigurieren.

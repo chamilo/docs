@@ -1,12 +1,12 @@
-# Updating you code
 
-Because we use autoloading mechanisms, and because we use templates, there is one little step you will have to take **every single time** right after you pull the last changes from our repository:
+# Aktualisieren Sie Ihren Code
+
+Da wir Autoloading-Mechanismen verwenden und weil wir Vorlagen verwenden, gibt es einen kleinen Schritt, den Sie jedes Mal**jedes Mal** machen müssen, nachdem Sie die letzten Änderungen aus unserem Repository übernommen haben:
 
 ```text
 composer update
 ```
 
-This will ensure that all dependencies are up to date and that the autoloading mechanism is updated to find all its classes in the right places.
+Dadurch wird sichergestellt, dass alle Abhängigkeiten auf dem neuesten Stand sind und dass der Autoloading-Mechanismus aktualisiert wird, um alle seine Klassen an den richtigen Stellen zu finden.
 
-Sadly, composer is a very slow and memory-hungry process with Chamilo, so make sure you have at least 2GB of RAM available just for that process, and that you work on something else in the meantime...
-
+Leider ist der Komponist mit Chamilo ein sehr langsamer und speicherhungriger Prozess. Stellen Sie daher sicher, dass Sie nur für diesen Prozess mindestens 2 GB RAM zur Verfügung haben und dass Sie in der Zwischenzeit an etwas anderem arbeiten...

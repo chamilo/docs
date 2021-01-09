@@ -1,8 +1,8 @@
-# Manage assignments
 
-If the number of learners in your course is significant, there will be plenty of assignments to mark..!
+# Arbeitsaufträge verwalten
 
-Chamilo eases the burden a little by keeping an organized record of assignments set and student posts on the main page for each assignment set. It lists the assignments completed by learners as each is submitted, flags up clearly if they need to be marked, offers a record of dates , allows quick navigation to each assignment exercise for review and displays each learner's scores. Clicking on the column headings allows for the quick and easy re-ordering of entries e.g. according to date, students name, score etc. The toolbar includes listings ![](../../.gitbook/assets/graphics69.png) for “missing” submissions from students on the course \(including an option to send a reminder\), and the list can be downloaded as a .zip file.
+Wenn die Anzahl der Teilnehmer in Ihrem Kurs signifikant ist, gibt es viele Aufgaben zu markieren..!
 
-![](../../.gitbook/assets/graphics67.png)_Illustration 95: Main page for an assignment set by the teacher_
+Chamilo erleichtert die Belastung ein wenig, indem es für jeden Aufgabensatz eine organisierte Aufzeichnung der eingestellten Aufgaben und der Studentenbeiträge auf der Hauptseite aufbewahrt. Es listet die Aufgaben auf, die von den Teilnehmern abgeschlossen werden, wenn sie eingereicht werden, wird deutlich markiert, wenn sie markiert werden müssen, bietet eine Aufzeichnung der Daten, ermöglicht eine schnelle Navigation zu jeder Aufgabe zur Überprüfung und zeigt die Ergebnisse jedes Teilnehmers an. Das Klicken auf die Spaltenüberschriften ermöglicht die schnelle und einfache Neuanordnung von Einträgen, z. B. nach Datum, Name des Schülers, Punktzahl usw. Die Symbolleiste enthält Einträge ![](../../.gitbook/assets/graphics69.png) für “missing” -Einreichungen von Studenten des Kurses \(einschließlich einer Option zum Senden einer Erinnerung\), und die Liste kann als heruntergeladen werden.zip-Datei.
 
+![](../../.gitbook/assets/graphics67.png)_Illustration 95: Hauptseite für eine vom Lehrer festgelegte Aufgabe

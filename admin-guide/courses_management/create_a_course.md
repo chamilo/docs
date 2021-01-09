@@ -1,14 +1,14 @@
-# Create a course
 
-As an administrator, only the title is mandatory during the course creation.
+# Erstellen Sie einen Kurs
 
-![](../../.gitbook/assets/graficos83%20%285%29.png)Illustration 58: Course creation
+Als Administrator ist bei der Kurserstellung nur der Titel obligatorisch.
 
-Apart from this mandatory field, the following options are exclusively available to the admin:
+![](../../.gitbook/assets/graficos83%20%285%29.png)Illustration 58: Kurs-Erstellung
 
-* assign a teacher in charge of the course
-* add one \(or more\) teacher\(s\) to the course,
-* give a _department_ and a _department URL_,
-* manage its visibility,
-* manage the registration and un-registration settings
+Abgesehen von diesem Pflichtfeld stehen dem Administrator ausschließlich folgende Optionen zur Verfügung:
 
+* Weisen Sie einen Lehrer zu, der für den Kurs verantwortlich ist
+* füge einen \(oder mehr\) Lehrer zum Kurs hinzu,
+* gib eine _department_ und eine _department URL_,
+* verwalten Sie seine Sichtbarkeit,
+* verwalten Sie die Registrierungs- und Abmeldeeinstellungen

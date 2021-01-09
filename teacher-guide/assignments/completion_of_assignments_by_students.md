@@ -1,6 +1,6 @@
-# Completion of assignments by students
 
-Students have the option either to do their assignment on-line or to upload a file or document they have chosen to complete outside of the Chamilo platform \(n.b. to ensure students have this choice, the teacher will need to check the relevant box in the advanced settings options of the _Create assignment_ page\) The student simply needs to click on the assignment title and then the _submit paper_ icon ![](../../.gitbook/assets/graphics68.png)to be taken to a page where they can upload a file using the relevant tool and/or write their assignment using Chamilo's rich text editor.
+# Abschluss der Aufgaben durch Studenten
 
-![](../../.gitbook/assets/graphics70.png)_Illustration 94: Student's assignment paper_
+Die Schüler haben die Möglichkeit, ihre Aufgabe entweder online zu erledigen oder eine Datei oder ein Dokument hochzuladen, das sie außerhalb der Chamilo-Plattform ausfüllen möchten \(z. B. um sicherzustellen, dass die Schüler diese Wahl haben, muss der Lehrer das entsprechende Kästchen in den erweiterten Einstellungsoptionen der Seite _Aufgabe erstellen aktivieren\) Der Student muss einfach auf den Aufgabentitel klicken und dann das Symbol _submit paper_ auf eine Seite gebracht werden, auf der er eine Datei mit dem entsprechenden Tool hochladen und/oder seine Aufgabe mit Chamilos Rich-Text-Editor schreiben kann. ![](../../.gitbook/assets/graphics68.png)to
 
+![](../../.gitbook/assets/graphics70.png)_Illustration 94: Papier der Studenten_

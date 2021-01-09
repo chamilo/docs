@@ -1,2 +1,2 @@
-# Learner \(admin/or student\)
 
+# Lerner \(Admin/oder Student\)

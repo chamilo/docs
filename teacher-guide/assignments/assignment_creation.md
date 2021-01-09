@@ -1,22 +1,22 @@
-# Assignment creation
 
-To create a new assignment:
+# Erstellung von Zuweisungen
 
-* click on the _Create assignment\_tool_ ![](../../.gitbook/assets/graphics65.png) _in the \_Assignments_ page:
-* give your new assignment a name,
-* add a description \(optional\),
-* click the _Validate_ button.
+So erstellen Sie eine neue Aufgabe:
+
+* klicken Sie auf _Aufgabe erstellen\_tool_ ![](../../.gitbook/assets/graphics65.png) _in der\_Assignments_ Seite:
+* gib deiner neuen Aufgabe einen Namen,
+* füge eine Beschreibung hinzu \(optional\),
+* klicken Sie auf die Schaltfläche _Validate_.
 
 ![](../../.gitbook/assets/graphics66.png)
 
-_Illustration 93: Create a new assignment_
+_Illustration 93: Eine neue Aufgabe erstellen_
 
-Advanced settings allow you to:
+Mit den erweiterten Einstellungen können Sie:
 
-* Assign a maximum score for the assignment
-* Include the assignment in the assessment/grade-book tool
-* pick a deadline for the assignment to be completed and sent
-* pick a final end date for the assignment \(and hide it to students\)
-* Include the deadline in the course agenda/calendar.
-* Allow students to hand in their assignment directly from the assignment editor
-
+* Weisen Sie eine Höchstpunktzahl für den Auftrag zu
+* Schließen Sie die Aufgabe in das Bewertungs-/Lektbuch-Tool ein
+* wählen Sie eine Frist für den Abschluss und den Versand des Auftrags
+* Wähle ein endgültiges Enddatum für die Aufgabe aus \(und verberge es für Studenten\)
+* Nehmen Sie die Frist in die Kursagenda/den Kalender ein.
+* Ermöglichen Sie es den Schülern, ihre Aufgabe direkt vom Aufgabeneditor abzugeben

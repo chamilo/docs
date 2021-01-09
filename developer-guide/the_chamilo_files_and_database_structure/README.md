@@ -1,2 +1,2 @@
-# The Chamilo files & database structure
 
+# Die Chamilo-Dateien & Datenbankstruktur

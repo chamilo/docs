@@ -1,12 +1,12 @@
-# Document templates
 
-When creating new documents in courses \(in the Documents tool\), you will see a left column showing a series of document templates.
+# Vorlagen für Dokumente
 
-Those templates can be extended inside the course itself. In this case, they remain specific to the course.
+Wenn Sie neue Dokumente in courses \(im Documents-Tool\) erstellen, wird eine linke Spalte mit einer Reihe von Dokumentvorlagen angezeigt.
 
-But an administrator can also create \(or update\) global templates. Go to Administration -&gt; Platform settings -&gt; Templates for that.
+Diese Vorlagen können innerhalb des Kurses selbst erweitert werden. In diesem Fall bleiben sie spezifisch für den Kurs.
 
-However, this feature is relatively limited in Chamilo 1.9-1.11. Even if you can place new templates there, they cannot easily, for example, include new media \(there is no way to upload the corresponding files\) and you will need to use specific variables to avoid Chamilo to transform erroneously the links to the CSS and JS files you might want to include.
+Ein Administrator kann aber auch globale Vorlagen \(oder aktualisieren\) erstellen. Gehen Sie dazu auf Administration -> Plattformeinstellungen -> Vorlagen.
 
-So there is an alternative way, but it takes a bit of effort. That is what we explain in the following section.
+Diese Funktion ist jedoch in Chamilo 1.9-1.11 relativ begrenzt. Selbst wenn Sie neue Vorlagen dort platzieren können, können sie beispielsweise nicht einfach neue Medien enthalten \(es gibt keine Möglichkeit, die entsprechenden Dateien hochzuladen\), und Sie müssen bestimmte Variablen verwenden, um zu verhindern, dass Chamilo die Links zu den CSS- und JS-Dateien, die Sie möglicherweise einbeziehen möchten, irrtümlich umwandelt.
 
+Es gibt also einen alternativen Weg, aber es erfordert ein wenig Mühe. Das erklären wir im folgenden Abschnitt.

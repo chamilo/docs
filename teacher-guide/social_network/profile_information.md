@@ -1,16 +1,16 @@
-# Profile information
 
-To enter/edit your personal details, go to the _Social network_ tab:
+# Profilinformationen
 
-* click the _Edit profile_ link,
-* update the fields,
-* click _Save settings_.
+Um Ihre persönlichen Daten einzugeben/zu bearbeiten, gehen Sie zum Tab _Soziales Netzwerk_:
 
-Profile options allow you to edit your _name_, your Chamilo _code_, your _email_ and you _phone_ number, as well as a profile _picture_ and preferred _language_. Other fields \(if enabled by the administrator\) allow you to choose a _graphical theme_ and enter details of personal _competences_, _diplomas_ \(qualifications\), and _what you are able to teach_. You can upload any relevant file using _productions_, and write any other relevant information in m_y personal open area_. More recent versions of Chamilo also invite you to enter/edit your _password_, _tags_, _rss_ _feeds_, _timezone_, _email_ _notifications_, your _Google calendar URL_, your _country_, your _birthday_ and even a range of personal social networking links:
+* klicken Sie auf den Link _Profil bearbeiten_,
+* aktualisiere die Felder,
+* klicken Sie auf _Einstellungen speichern_.
+
+Mit den Profiloptionen können Sie Ihren _name_, Ihren Chamilo _code_, Ihre _email_ und Ihre _phone_-Nummer sowie ein Profil _picture_ und die bevorzugte _language_ bearbeiten. Andere Felder \(falls vom Administrator aktiviert\) ermöglichen es Ihnen, ein grafisches Thema zu wählen und Details zu persönlichen _Kompetenzen_, _diplomas_ (Qualifikationen\) und _was Sie unterrichten können_ einzugeben_. Sie können jede relevante Datei mit _productions_ hochladen und andere relevante Informationen in m_y personal open area_ schreiben. Neuere Versionen von Chamilo laden Sie auch ein, Ihr Passwort, _tags_, _rss_ _feeds_, _timezone_, _email_ _notifications_, Ihren _Google-Kalender URL_, Ihr Land, Ihren _Birthday_ und sogar eine Reihe persönlicher Links zum sozialen Netzwerk einzugeben/zu bearbeiten:
 
 ![](../../.gitbook/assets/graphics339.png)
 
-_Illustration 188: Social network – Extended profile update_
+_Illustration 188: Soziales Netzwerk — Erweiterte Profilaktualisierung_
 
-Remember to click the _save_ button when you've completed entering/editing your profile details!
-
+Denken Sie daran, auf die Schaltfläche _save_ zu klicken, wenn Sie Ihre Profildetails eingehen/bearbeiten haben!

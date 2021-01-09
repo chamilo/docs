@@ -1,6 +1,6 @@
-# Course settings
 
-The _Settings_ tool ![](../../.gitbook/assets/graphics320.png) in the _Administration_ section of the course homepage allows you to edit the overall behaviour of the course \(most options will affect several tools\). Although it is placed in a remote location at the bottom of the page \(and at the end of this manual\), it is generally a good idea to use it at the beginning of your course to manage subscription settings and course access \(see later: Visibility and access Visibility and access section\).
+# Kurs-Einstellungen
 
-> **Note**: Course tutors using the course inside the session will not have access to this tool as configuration changes might affect other sessions.
+Das Tool _Settings_ ![](../../.gitbook/assets/graphics320.png) im Abschnitt _Administration_ der Kurs-Homepage ermöglicht es Ihnen, das Gesamtverhalten des Kurses zu bearbeiten \(die meisten Optionen betreffen mehrere Tools\). Obwohl es sich am Ende dieses Handbuchs an einem Remote-Standort befindet \(und am Ende dieses Handbuchs\), ist es im Allgemeinen eine gute Idee, es zu Beginn Ihres Kurses zu verwenden, um Abonnementeinstellungen und Kurszugriff zu verwalten \(siehe später: Abschnitt Sichtbarkeit und Zugriff\).
 
+> **Hinweis**: Kurslehrer, die den Kurs innerhalb der Sitzung verwenden, haben keinen Zugriff auf dieses Tool, da sich Konfigurationsänderungen auf andere Sitzungen auswirken können.

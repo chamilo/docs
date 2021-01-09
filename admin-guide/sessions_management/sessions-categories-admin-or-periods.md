@@ -1,2 +1,2 @@
-# Sessions categories \(admin/or periods\)
 
+# Sitzungskategorien \(Admin/oder Perioden\)

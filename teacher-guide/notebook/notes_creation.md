@@ -1,9 +1,9 @@
-# Notes creation
 
-* click on the _Add new note in my personal notebook_ icon ![](../../.gitbook/assets/graphics304%20%283%29.png),
-* give your note a short title,
-* write down your note,
-* click _Create note_.
+# Erstellung von Notizen
 
-![](../../.gitbook/assets/images236%20%283%29.png)Illustration 161: Notebook – Creation form
+* klicken Sie auf das Symbol _Neue Notiz in meinem persönlichen Notizbuch_ hinzufügen_ ![](../../.gitbook/assets/graphics304%20%283%29.png),
+* gib deiner Notiz einen kurzen Titel,
+* Notieren Sie Ihre Notiz,
+* klicken Sie auf _Notiz_ erstellen.
 
+![](../../.gitbook/assets/images236%20%283%29.png)Illustration 161: Notizbuch — Formular zur Erstellung

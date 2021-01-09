@@ -1,23 +1,23 @@
-# Security
 
-![](../../../.gitbook/assets/graficos11%20%284%29.png)This category will allow you to configure a few things that have to do with security. The default settings are... acceptable, but you might want to restrict a few things to improve it.
+# Sicherheit
 
-**Type of filtering on document uploads** there are two different filtering types:
+Die Kategorie ![](../../../.gitbook/assets/graficos11%20%284%29.png)This ermöglicht es Ihnen, einige Dinge zu konfigurieren, die mit Sicherheit zu tun haben. Die Standardeinstellungen sind... akzeptabel, aber Sie sollten einige Dinge einschränken, um sie zu verbessern.
 
-* Blacklist is a way to prevent files with a specific extension. That allows you to say, for example, that you don't want executable files to be uploaded \(i.e. “.exe” files\). This is considered the weakest filtering method though.
-* White list is a way to say “I only want files which match my authorized extensions”, so it is really safe: no funny file will surprise you here. Case \(upper-case or lower-case\) doesn't matter here. This is the safest option, but it is somewhat limited.
+**Art der Filterung bei Dokumenten-Uploads** Es gibt zwei verschiedene Filtertypen:
 
-**Permissions for new directories** sets which access permissions new directories will have. This is mostly an option for Linux-based systems, and allows you to increase security against pirates.
+* Blacklist ist eine Möglichkeit, Dateien mit einer bestimmten Erweiterung zu verhindern. So können Sie beispielsweise sagen, dass Sie nicht möchten, dass ausführbare Dateien \(dh “.exe” -Dateien\) hochgeladen werden. Dies gilt jedoch als die schwächste Filtermethode.
+* White List ist eine Möglichkeit, “I only want files which match my authorized extensions” zu sagen, also ist es wirklich sicher: Keine lustige Datei wird dich hier überraschen. Fall \(Groß- oder Kleinbuchstaben\) spielt hier keine Rolle. Dies ist die sicherste Option, aber sie ist etwas eingeschränkt.
 
-_**Warning**:_ the default value is « 0777 » following a series of problems found by users with more restrictive permissions. This value guarantees greater portability, not greater security, and it sometimes needs to be modified if the Linux-based system you're installing it on requires a strict security policy. If this is the case, you will receive a server error when trying to enter a course you have just created. In this case, try to update this value to 0777, 0775, 0755 and 0750 alternatively, and create a new course each time. You can always delete the failed courses afterwards.
+**Berechtigungen für neue Verzeichnis** legt fest, welche Zugriffsberechtigungen neue Verzeichnisse haben werden. Dies ist hauptsächlich eine Option für Linux-basierte Systeme und ermöglicht es Ihnen, die Sicherheit gegen Piraten zu erhöhen.
 
-**OpenID authentication** enables the OpenID feature. You will also need to enable the OpenID field in the user profiling fields in order for this feature to provide the desire functionality. Be aware that, at this time, it does not allow for several identities combined, and you still have to paste your entire identity URL inside the OpenID box. We hope to improve this feature in the future.
+_**Warnung**:_ Der Standardwert ist « 0777 » nach einer Reihe von Problemen, die von Benutzern mit restriktiveren Berechtigungen gefunden wurden. Dieser Wert garantiert eine höhere Portabilität und nicht mehr Sicherheit und muss manchmal geändert werden, wenn das Linux-basierte System, auf dem Sie es installieren, eine strenge Sicherheitsrichtlinie erfordert. Wenn dies der Fall ist, erhalten Sie einen Serverfehler, wenn Sie versuchen, einen Kurs zu starten, den Sie gerade erstellt haben. Versuchen Sie in diesem Fall, diesen Wert alternativ auf 0777, 0775, 0755 und 0750 zu aktualisieren, und erstellen Sie jedes Mal einen neuen Kurs. Sie können die fehlgeschlagenen Kurse danach jederzeit löschen.
 
-**Extend rights for coaches** will let teachers edit the contents of courses inside the session context \(modify documents, learning paths, exercises, links, etc.\). See chapter Chapter 7. Sessions management on page 64.
+**OpenID-Authentifizierung** aktiviert die OpenID-Funktion. Sie müssen auch das OpenID-Feld in den Feldern zur Benutzerprofilerstellung aktivieren, damit diese Funktion die gewünschten Funktionen bereitstellen kann. Beachten Sie, dass derzeit nicht mehrere Identitäten kombiniert werden können, und Sie müssen immer noch Ihre gesamte Identitäts-URL in das Feld OpenID einfügen. Wir hoffen, diese Funktion in Zukunft verbessern zu können.
 
-Allow User Course Subscription By Course Admininistrator allows the teacher to subscribe users to his course. This option is enabled by default, but if you want to prevent this from happening, you know where to look...
+**Rechte für Trainer verlängern** lässt Lehrer den Inhalt von Kursen innerhalb des Sitzungskontextes bearbeiten \(Dokumente, Lernpfade, Übungen, Links usw. ändern\). Siehe Kapitel Kapitel 7. Sitzungsmanagement auf Seite 64.
 
-Single Sign On enables the connection without login, based on a sister website which already processes the login \(an intranet, for example\). This feature requires a bit of customizing and you should really hire a developer with experience in Single Sign On methodologies to do that quickly. If lucky, this might work out of the box, though. Just make sure you check the other settings and the main/auth/sso/ directory for more information.
+Benutzerkursabonnement nach Kurs zulassen Admininistrator ermöglicht es dem Lehrer, Benutzer für seinen Kurs zu abonnieren. Diese Option ist standardmäßig aktiviert, aber wenn Sie dies verhindern möchten, wissen Sie, wo Sie suchen müssen...
 
-Filter terms allows you to automatically filter all given words by _\*_ in forums and e-mails.
+Single Sign On ermöglicht die Verbindung ohne Anmeldung, basierend auf einer Schwester-Website, die bereits den Login verarbeitet \(zum Beispiel ein Intranet\). Diese Funktion erfordert ein wenig Customizing, und Sie sollten wirklich einen Entwickler mit Erfahrung in Single Sign On-Methoden einstellen, um dies schnell zu tun. Wenn Sie Glück haben, könnte dies jedoch funktionieren. Stellen Sie einfach sicher, dass Sie die anderen Einstellungen und das main/auth/sso/ -Verzeichnis überprüfen, um weitere Informationen zu erhalten.
 
+Mit Filterbedingungen können Sie alle angegebenen Wörter in Foren und E-Mails automatisch nach _\*_ filtern.

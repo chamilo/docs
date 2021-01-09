@@ -1,8 +1,9 @@
-# Theming through templates
 
-![](../../.gitbook/assets/images14%20%282%29.png) ![](../../.gitbook/assets/images13%20%282%29.png) ![](../../.gitbook/assets/images15%20%282%29.png) Chamilo, since version 1.10, uses the Twig templating engine for most \(and in the future all\) of its interface.
+# Theming durch Vorlagen
 
-To update the template in Chamilo, you can one of two things: redefine some template files in `main/template/override/` OR copy the `default` folder and modify a line in `app/config/configuration.php`, following this procedure :
+![](../../.gitbook/assets/images14%20%282%29.png) ![](../../.gitbook/assets/images13%20%282%29.png) ![](../../.gitbook/assets/images15%20%282%29.png) Chamilo verwendet seit Version 1.10 die Twig-Templating-Engine für die meisten \(und in Zukunft alle\) seiner Schnittstelle.
+
+Um die Vorlage in Chamilo zu aktualisieren, können Sie eines von zwei Dingen: Definieren Sie einige Vorlagendateien in `main/template/override/` NEU ODER kopieren Sie den `default` -Ordner und ändern Sie eine Zeile in `app/config/configuration.php`, indem Sie folgendermaßen folgende Schritte ausführen:
 
 ```text
 cd main/template/
@@ -16,29 +17,28 @@ vim ../../app/config/configuration.php
 // the admin page
 ```
 
-This way, you can edit anything in your new template, while keeping the original template available, and you also avoid your template being overwritten during your next Chamilo upgrade.
+Auf diese Weise können Sie alles in Ihrer neuen Vorlage bearbeiten, während die ursprüngliche Vorlage verfügbar bleibt, und Sie vermeiden auch, dass Ihre Vorlage während Ihres nächsten Chamilo-Upgrades überschrieben wird.
 
-However, it is important to understand that any custom template will have to be maintained: if a new .tpl file is created in the default/ template in Chamilo, then this new .tpl file will have to be added to your custom template. In the case of the override/ folder, although it is not necessary to create the corresponding file, it is still necessary to make sure that no new information added to the default/ .tpl file that would otherwise not appear in the override. These changes can be tracked through the history of changes in the default/ directory on Github: [https://github.com/chamilo/chamilo-lms/commits/1.11.x/main/template/default](https://github.com/chamilo/chamilo-lms/commits/1.11.x/main/template/default)
+Es ist jedoch wichtig zu verstehen, dass jede benutzerdefinierte Vorlage beibehalten werden muss: Wenn in Chamilo eine neue TPL-Datei in der Standard/Vorlage erstellt wird, muss diese neue TPL-Datei zu Ihrer benutzerdefinierten Vorlage hinzugefügt werden. Im Falle des override/-Ordners muss, obwohl es nicht erforderlich ist, die entsprechende Datei zu erstellen, dennoch sicherstellen, dass der default./.tpl-Datei keine neuen Informationen hinzugefügt wurden, die sonst nicht in der Überschreibung erscheinen würden. Diese Änderungen können im Verlauf der Änderungen im Verzeichnis default/ auf Github nachverfolgt werden: [https://github.com/chamilo/chamilo-lms/commits/1.11.x/main/template/default](https://github.com/chamilo/chamilo-lms/commits/1.11.x/main/template/default)
 
-Inside the _default_ directory, you'll find the following directories, which we explain when needed \(most of them are self-explanatory\).
+Im Verzeichnis _default_ finden Sie die folgenden Verzeichnisse, die wir bei Bedarf erklären \(die meisten von ihnen sind selbsterklärend\).
 
-* admin
-* agenda
-* auth → all stuff related to authentication forms and processes
-* course\_description
-* create\_course
-* export
-* form
-* glossary
-* index → homepage for anonymous users and announcements
-* layout → header, footer, banner and more are stored here
-* learnpath 
-* link 
+* Admin
+* Tagesordnung
+* auth → alles was mit Authentifizierungsformularen und -prozessen zu tun hat
+* Kurs\_Beschreibung
+* erstellen\_kurs
+* Exportieren
+* Formular
+* Glossar
+* index → Homepage für anonyme Nutzer und Ankündigungen
+* layout → Kopfzeile, Fußzeile, Banner und mehr sind hier gespeichert
+* learnpfad 
+* verknüpfen 
 * mail\_editor
-* notebook
-* pages
-* social
-* skill
-* userportal → list courses in « My courses » tab
-* work
-
+* Notizbuch
+* Seiten
+* sozial
+* Fertigkeit
+* userportal → Liste der Kurse im « My courses » Tab
+* arbeiten

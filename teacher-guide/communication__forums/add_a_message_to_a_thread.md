@@ -1,11 +1,11 @@
-# Add a message to a thread
 
-In the list of tools for managing discussion threads, locate the _Reply to this thread_ icon ![](../../.gitbook/assets/graphics17%20%281%29.png) . This allows you to add a message at the same hierarchical level as the starting message.
+# Füge eine Nachricht zu einem Thread hinzu
 
-* clicking the icon will give you access to the on-line editor to write your message. An area allowing you to read the other messages of the thread appear at the bottom of the page,
-* give a short topic to your message,
-* enter your message,
-* choose whether you want to be notified by e-mail in case anybody answers your message,
-* attach a document \(optional\) and, if you do, add a small comment describing the document,
-* click on the _Reply to this thread_ button.
+Suchen Sie in der Liste der Tools zum Verwalten von Diskussionsfäden das Symbol _Antworten auf diesen Thread_ ![](../../.gitbook/assets/graphics17%20%281%29.png). Auf diese Weise können Sie eine Nachricht auf derselben Hierarchieebene wie die Startnachricht hinzufügen.
 
+* Wenn Sie auf das Symbol klicken, können Sie auf den Online-Editor zugreifen, um Ihre Nachricht zu schreiben. Ein Bereich, in dem Sie die anderen Nachrichten des Threads lesen können, wird am unteren Rand der Seite angezeigt.
+* gib deiner Nachricht ein kurzes Thema,
+* gib deine Nachricht ein,
+* wählen Sie aus, ob Sie per E-Mail benachrichtigt werden möchten, falls jemand auf Ihre Nachricht antwortet,
+* fügen Sie ein Dokument an \(optional\) und fügen Sie in diesem Fall einen kleinen Kommentar hinzu, der das Dokument beschreibt,
+* klicken Sie auf die Schaltfläche _Auf diesen Thread antworten_.

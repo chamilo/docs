@@ -1,15 +1,15 @@
-# General workflow of plugins
 
-The \(shortened\) plugins workflow as follow:
+# Allgemeiner Workflow von Plugins
 
-* you create the plugin.php file and the index.php
-* you then configure where it will be seen \(in the plugins section of the administration panel\)
-* the main/inc/lib/template.lib.php class \(around line 140\) "loads" the plugins regions
-* regions are defined in main/inc/lib/plugin.lib.php and the method "get\_installed\_plugins\_by\_region" allows you to know which plugin should be enabled in a specific region of the user interface
-* \(back to template.lib.php ~140\) the template lib "loads" the plugins inside specific template variables called "plugin\_\[region\]"
-* the template variables defined are then shown by any .tpl that loads them
+Der \(verkürzte\) Plug-Workflow wie folgt:
 
-  TPL \(template\) files inside the main/template/default/ directory \(see templates section above\).
+* du erstellst die plugin.php Datei und die index.php
+* Sie konfigurieren dann, wo es zu sehen ist \(im Plugins-Bereich des Administrations-Panels\)
+* Die main/inc/lib/template.lib.php -Klasse \(um die Zeile 140\) "loads" die Plugins-Regionen
+* Regionen sind in main/inc/lib/plugin.lib.php definiert und mit der Methode "get\_installed\_plugins\_by\_region" können Sie wissen, welches Plugin in einer bestimmten Region der Benutzeroberfläche aktiviert werden soll
+* \(zurück zu template.lib.php ~140\) die Template-Lib "loads" die Plugins in bestimmten Template-Variablen namens "plugin\_\[region\]"
+* Die definierten Vorlagenvariablen werden dann von jeder .tpl angezeigt, die sie lädt
 
-  For example, for the normal student "2-columns" view of the courses list \(like in user_portal.php\), you can check layout/layout\_2col.tpl, and in general they will load {{plugin_\[region\]}}variables depending on the region the plugin defines.At the moment, there is no "region" defined for the courses list, so if you want to make a plugin appear there, you should define a new region \(both inside one of the .tpl files and inside plugin.lib.php\), or you could use the menu\_top and menu\_bottom respectively \(I believe these are for the left/right menu\).
+ TPL \(Template\) -Dateien innerhalb des main/template/default/ -Verzeichnisses \(siehe Abschnitt Vorlagen oben\).
 
+ Zum Beispiel können Sie für die normale "2-columns" -Ansicht der Kursliste des Schülers \(wie in user_portal.php\) layout/layout\_2col.tpl überprüfen, und im Allgemeinen werden sie {{plugin_\[region\]}}variables laden, abhängig von der Region, die das Plugin definiert wird.Im Moment ist kein "region" für die Kursliste definiert, also wenn Sie also eine -Plugin erscheint dort, Sie sollten eine neue Region definieren \(sowohl in einer der TPL-Dateien als auch innerhalb von plugin.lib.php\), oder Sie könnten das Menü\_top bzw. das Menü\_bottom verwenden \(ich glaube, diese sind für das Menü links/rechts\).

@@ -1,10 +1,10 @@
-# Import AICC and SCORM
 
-Chamilo uses standards like [SCORM](http://fr.wikipedia.org/wiki/Sharable_Content_Object_Reference_Model) and [AICC](http://fr.wikipedia.org/wiki/Aviation_Industry_CBT_Committee) for the exchange of contents. Importing such files couldn't be easier. Click the Learning Path icon ![](../../.gitbook/assets/graphics34.png)on the _Learning paths_ page:
+# Importieren Sie AICC und SCORM
 
-![](../../.gitbook/assets/graphics35.png)_Illustration 83: Learning paths - Import SCORM_
+Chamilo verwendet Standards wie [SCORM](http://fr.wikipedia.org/wiki/Sharable_Content_Object_Reference_Model) und [AICC](http://fr.wikipedia.org/wiki/Aviation_Industry_CBT_Committee) für den Austausch von Inhalten. Das Importieren solcher Dateien könnte nicht einfacher sein. Klicken Sie auf das Lernpfad-Symbol ![](../../.gitbook/assets/graphics34.png)on die Seite _Learning Paths_:
 
-Click _choose file to_ select the relevant document on your hard disk and _send_ to upload it. That's it. Your imported course is ready to use.
+![](../../.gitbook/assets/graphics35.png)_Illustration 83: Lernpfade - Importieren von SCORM_
 
-> **Note** : Chamilo 1.8 and all its derivations \(including D0keos\) only support SCORM in version 1.2.
+Klicken Sie auf _choose file, um_ das relevante Dokument auf Ihrer Festplatte auszuwählen und es hochzuladen. Das ist es. Ihr importierter Kurs ist einsatzbereit.
 
+> **Hinweis**: Chamilo 1.8 und alle seine Ableitungen \(einschließlich d0KEOS\) unterstützen SCORM nur in Version 1.2.

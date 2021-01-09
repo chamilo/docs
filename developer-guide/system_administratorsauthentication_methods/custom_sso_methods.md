@@ -1,10 +1,10 @@
-# Custom SSO methods
 
-Whenever connecting Chamilo for Single Sign On to a third-party solution that doesn't offer compatibility with any of the supported methods, you will want to check main/auth/sso/ and "extend" \(in PHP\) the sso.class.php \(like the example for Drupal\).
+# Individuelle SSO-Methoden
 
-These files contain explanations of what you need to add to your database to support the custom method, and how you need to call it.
+Wenn Sie Chamilo für Single Sign On mit einer Drittanbieterlösung verbinden, die keine Kompatibilität mit einer der unterstützten Methoden bietet, sollten Sie main/auth/sso/ und "extend" \(in PHP\) die sso.class.php \(wie das Beispiel für Drupal\) überprüfen.
 
-If you miss inspiration for your side of the SSO \(third-party solution\), you can check the [Drupal-Chamilo project](https://www.drupal.org/project/chamilo) code here: [http://cgit.drupalcode.org/chamilo/tree/chamilo.module\#n42](http://cgit.drupalcode.org/chamilo/tree/chamilo.module#n42)
+Diese Dateien enthalten Erklärungen, was Sie Ihrer Datenbank hinzufügen müssen, um die benutzerdefinierte Methode zu unterstützen, und wie Sie sie aufrufen müssen.
 
-Finally, you might need to check in main/inc/local.inc.php for the "sso" term to find where it all gets managed in the Chamilo login process.
+Wenn Sie die Inspiration für Ihre Seite des SSO verpassen \(Drittanbieterlösung\), können Sie den [Drupal-Chamilo project](https://www.drupal.org/project/chamilo) -Code hier überprüfen: [http://cgit.drupalcode.org/chamilo/tree/chamilo.module\#n42](http://cgit.drupalcode.org/chamilo/tree/chamilo.module#n42)
 
+Schließlich müssen Sie möglicherweise main/inc/local.inc.php für den "sso" Begriff einchecken, um herauszufinden, wo alles im Chamilo-Anmeldeprozess verwaltet wird.

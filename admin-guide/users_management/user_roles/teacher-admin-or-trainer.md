@@ -1,2 +1,2 @@
-# Teacher \(admin/or trainer\)
 
+# Lehrer \(Admin/oder Trainer\)

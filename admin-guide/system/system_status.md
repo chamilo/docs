@@ -1,6 +1,6 @@
-# System status
 
-This section allows you to check a series of system variables and compare them to the recommendations made.
+# Systemstatus
 
-![](../../.gitbook/assets/images49%20%283%29.png)Illustration 82: Administration - System status
+In diesem Abschnitt können Sie eine Reihe von Systemvariablen prüfen und mit den Empfehlungen vergleichen.
 
+![](../../.gitbook/assets/images49%20%283%29.png)Illustration 82: Administration - Systemstatus

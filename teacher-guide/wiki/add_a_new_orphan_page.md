@@ -1,6 +1,6 @@
-# Add a new orphan page
 
-By clicking the _Add new page_ link inside the drop-down menu icon ![](../../.gitbook/assets/graphics210.png) , you create a new page, unrelated to the rest of the wiki. This is one way of preparing a page which will temporarily not be visible to users \(at least not in the usual way\).
+# Fügen Sie eine neue verwaiis Seite
 
-> **Note** : Orphan pages can be listed from the _All pages_ link in the drop-down menu.
+Durch Klicken auf den Link _Neue Seite hinzufügen_ im Dropdown-Menüsymbol ![](../../.gitbook/assets/graphics210.png) erstellst du eine neue Seite, die nichts mit dem Rest des Wikis zu tun hat. Dies ist eine Möglichkeit, eine Seite vorzubereiten, die für Benutzer vorübergehend nicht sichtbar ist \(zumindest nicht wie gewohnt\).
 
+> **Hinweis**: Verwaiste Seiten können über den Link _Alle Seiten_ im Dropdown-Menü aufgelistet werden.

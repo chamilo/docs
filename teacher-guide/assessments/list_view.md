@@ -1,8 +1,8 @@
-# List view
 
-The list view ![](../../.gitbook/assets/graphics201.png) view in the _Assessments_ tool allows you to list all learners and their results at any point through the course, as well as charts illustrating students' achievements overall for each assessment and a combined chart for all resources. \(This resource is obviously more useful at the end of a course – when students have completed all the assessed activities\). The view can be printed or exported in various formats \(.xml, .doc, .pdf, .csv\) using the relevant tool-bar icons.
+# Listen-Ansicht
 
-![](../../.gitbook/assets/images141%20%281%29.png)_Illustration 115: Assessments – List view_
+Die Listenansicht ![](../../.gitbook/assets/graphics201.png) im Tool _Assessments_ ermöglicht es Ihnen, alle Lernenden und ihre Ergebnisse zu jedem Zeitpunkt während des Kurses aufzulisten, sowie Diagramme, die die Leistungen der Schüler insgesamt für jede Bewertung und ein kombiniertes Diagramm für alle Ressourcen veranschaulichen. \(Diese Ressource ist am Ende eines Kurses offensichtlich nützlicher - wenn die Schüler alle bewerteten Aktivitäten abgeschlossen haben\). Die Ansicht kann in verschiedenen Formaten gedruckt oder exportiert werden \(.xml, .doc, .pdf, .csv\) mit den entsprechenden Symbolen in der Symbolleiste.
 
-**Note**: This view only works if skills ranking rules have been fully defined.
+![](../../.gitbook/assets/images141%20%281%29.png)_Illustration 115: Bewertungen — Listenansicht
 
+**Hinweis**: Diese Ansicht funktioniert nur, wenn die Regeln für das Rangieren von Fähigkeiten vollständig definiert wurden.

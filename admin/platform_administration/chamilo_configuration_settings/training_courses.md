@@ -1,23 +1,24 @@
-### Training (courses) {#training-courses}
 
-![](../../assets/graficos6.png)This tab allows you to configure the options related to the courses, be them in relation to the course user, its creator or even the purely technical side. Check each option carefully to match your needs.
+### Training (Kurse) {#training-courses}
 
-Some choices are available that influence the usability of the platform, as the way you show the homepage or the tools shortcuts bar.
+Mit der Registerkarte ![](../../assets/graficos6.png)This können Sie die Optionen für die Kurse konfigurieren, sei es in Bezug auf den Kursbenutzer, seinen Ersteller oder sogar die rein technische Seite. Überprüfen Sie jede Option sorgfältig, um Ihren Anforderungen zu entsprechen.
 
-Training homepage design allows you to switch the appearance of your course homepage (where all tools icons reside). Previously, the design of the course homepage was “Activity view”, but it has now been replaced by the more mobile-friendly “Big activity view”, which gives larger and more inviting icons.
+Es stehen einige Optionen zur Verfügung, die die Benutzerfreundlichkeit der Plattform beeinflussen, als die Art und Weise, wie Sie die Startseite oder die Tools-Verknüpfungsleiste anzeigen.
 
-Tools shortcuts makes a toolbar appear inside the course, allowing you to quickly jump from one tool to another. It is a popular feature amongst many Chamilo users, but it can only be enabled/disabled at the platform level. It appears horizontally, just below the page&#039;s breadcrumb.
+Das Design der Trainings-Homepage ermöglicht es Ihnen, das Erscheinungsbild Ihrer Kurs-Homepage (wo sich alle Tools-Symbole befinden) zu ändern. Zuvor war das Design der Kurs-Homepage “Activity view”, wurde aber jetzt durch den mobileren “Big activity view” ersetzt, der größere und einladendere Symbole enthält.
 
-**Default hard disk space** is the space allowed for documents in a specific course&#039;s document tool. It is set to 95.4MB by default, which is for historical reasons (it&#039;s the equivalent of 100,000,000 bytes, in 1024 base). You can change this option on a course basis through the courses list in the administration page. Only an admin can do that, though. Changing the option here will only affect future courses.
+Durch Tools Shortcuts wird eine Symbolleiste innerhalb des Kurses angezeigt, mit der Sie schnell von einem Tool zum anderen springen können. Es ist ein beliebtes Feature bei vielen Chamilo-Benutzern, aber es kann nur auf Plattformebene aktiviert/deaktiviert werden. Es erscheint horizontal, direkt unter dem Breadcrumb der Seite.
 
-Display training navigation menu is another type of toolbar, appearing on the right hand side of the courses pages.
+**Standardfestplattenspeicher** ist der Platz, der für Dokumente im Dokument-Tool eines bestimmten Kurses zulässig ist. Es ist standardmäßig auf 95,4 MB eingestellt, was aus historischen Gründen der Fall ist (es entspricht 100.000.000 Bytes in 1024). Sie können diese Option auf Kursbasis über die Kursliste auf der Administrationsseite ändern. Aber nur ein Admin kann das tun. Eine Änderung der Option hier wirkt sich nur auf zukünftige Kurse aus.
 
-Show glossary terms in documents allows you to enable the auto-parsing of glossary terms in documents of the same course.
+Das Navigationsmenü für die Anzeige von Schulungen ist eine andere Art von Symbolleiste, die auf der rechten Seite der Kursseiten angezeigt wird.
 
-Go directly to the course after login makes the user go directly to the course homepage in case he&#039;s only registered in one course. This makes for a much better user experience for users who only ever come to quickly get studying on their single active course.
+Wenn Sie Glossarbegriffe in Dokumenten anzeigen, können Sie das automatische Analysieren von Glossarbegriffen in Dokumenten desselben Kurses aktivieren.
 
-Enable quiz scenario allows you to enable the adaptative exercises. These exercises can drive a student dynamically through a moving path of questions, depending on his answers to previous questions.
+Gehen Sie direkt zum Kurs, nachdem Sie sich angemeldet haben, der Benutzer direkt auf die Kurs-Homepage geht, falls er nur in einem Kurs registriert ist. Dies sorgt für eine viel bessere Benutzererfahrung für Benutzer, die immer nur schnell an ihrem aktiven Kurs studieren.
 
-Default course visibility indicates which visibility new courses will have by default. It is recommended (for private portals) to set this option to “Private” so students cannot subscribe on their own. The default is “Open” and will allow students to subscribe.
+Quizszenario aktivieren ermöglicht es Ihnen, die adaptiven Übungen zu aktivieren. Diese Übungen können einen Schüler dynamisch durch einen bewegten Pfad von Fragen führen, abhängig von seinen Antworten auf frühere Fragen.
 
-Allow public certificates allows you to define whether students&#039; certificates will be visible to the public or not. Certificates are generated from inside the _Assessments_ tool in a course.
+Die standardmäßige Kurssichtbarkeit gibt an, welche Sichtbarkeit neue Kurse standardmäßig haben werden. Es wird empfohlen (für private Portale), diese Option auf “Private” zu setzen, damit die Schüler nicht selbst abonnieren können. Der Standardwert ist “Open” und ermöglicht es Schülern, sich anzumelden
+
+Mit öffentlichen Zertifikaten zulassen können Sie definieren, ob die Zertifikate von Schülern für die Öffentlichkeit sichtbar sind oder nicht. Zertifikate werden in einem Kurs aus dem Tool _Assessments_ generiert.

@@ -1,8 +1,8 @@
-# Glossary
+
+# Glossar
 
 * **Obfuscación**: Técnica para esconder información importante
-* **Course**: Course space, in which all resources for one specific course are stored and published
-* **Session**: group of courses taught during a certain period of time
-* **Teacher**: person in charge of leading a course
-* **Coach**: person in charge of leaing a course inside the context of a session
-
+* **Kurs**: Kursbereich, in dem alle Ressourcen für einen bestimmten Kurs gespeichert und veröffentlicht werden
+* **Sitzung**: Gruppe von Kursen, die während einer bestimmten Zeit unterrichtet werden
+* **Lehrer**: Person, die für die Leitung eines Kurses verantwortlich ist
+* **Coach**: Person, die für das Ablegen eines Kurses im Kontext einer Sitzung verantwortlich ist

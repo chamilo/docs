@@ -1,38 +1,38 @@
-# Communication : Forums
 
-Following on from the previous chapters you might be expecting to examine the _learning paths_ tool at this juncture. However, we'll look at this later \(see Structure: Learning paths on page 76\). Instead, it actually makes more sense here to take a look at the next most commonly used tool on the platform.
+# Kommunikation: Foren
 
-The _Forum_ tool ![](../../.gitbook/assets/graphics375.png) allows you to organize the exchange of ideas, opinions and information relating to courses and the learning paths. The tool has been conceived so that learners with questions about their course can readily find answers to their questions without having to sift through a massive amount of information by themselves.
+Im Anschluss an die vorherigen Kapitel erwarten Sie möglicherweise, zu diesem Zeitpunkt das Tool _learning paths_ zu untersuchen. Dies werden wir uns jedoch später ansehen \(siehe Struktur: Lernpfade auf Seite 76\). Stattdessen ist es hier sinnvoller, einen Blick auf das am nächsten am häufigsten verwendete Tool auf der Plattform zu werfen.
 
-The forum is an asynchronous discussion tool, i.e. the people involved in a conversation do not have to be connected simultaneously to participate. Email is also an asynchronous tool. However, a major difference from e-mail is that the forum is a public or semi-public space, where several people can see information \(even if they were not part of the discussion initially\), boosting support for learning by providing ready access to really useful information, inasmuch as a group of students and teachers can exchange ideas together in their specialist field.
+Das Tool _Forum_ ![](../../.gitbook/assets/graphics375.png) ermöglicht es Ihnen, den Austausch von Ideen, Meinungen und Informationen in Bezug auf Kurse und die Lernpfade zu organisieren. Das Tool wurde so konzipiert, dass Lernende, die Fragen zu ihrem Kurs haben, leicht Antworten auf ihre Fragen finden können, ohne selbst eine große Menge an Informationen durchsuchen zu müssen.
 
-Forum management tools category
+Das Forum ist ein asynchrones Diskussionsinstrument, d.h. die an einem Gespräch beteiligten Personen müssen nicht gleichzeitig verbunden sein, um teilnehmen zu können. E-Mail ist auch ein asynchrones Tool. Ein wesentlicher Unterschied zu E-Mail besteht jedoch darin, dass das Forum ein öffentlicher oder halböffentlicher Raum ist, in dem mehrere Personen Informationen sehen können \(auch wenn sie anfangs nicht Teil der Diskussion waren\), was die Unterstützung des Lernens fördert, indem sie einen sofortigen Zugang zu wirklich nützlichen Informationen bietet, sowie eine Gruppe von Studenten und Lehrer können sich in ihrem Fachgebiet gemeinsam austauschen.
+
+Forum-Management-Tools Kategorie
 
 ![](../../.gitbook/assets/graphics1.png)
 
-Name of forum
+Name des Forums
 
-_Illustration 67: Forum – Global view_
+_Illustration 67: Forum — Weltsicht_
 
-Exchanges are organized hierarchically, as follows:
+Die Börsen sind wie folgt hierarchisch organisiert:
 
-\*Forum category
+\*Forum-Kategorie
 
 → Forum
 
-→ → Discussion thread
+→ → Diskussionsfaden
 
-→ → → message
+→ → → Nachricht
 
-→ → → → answer to the message
+→ → → → Antwort auf die Nachricht
 
-→ → → → answer to the message
+→ → → → Antwort auf die Nachricht
 
-→ → → message
+→ → → Nachricht
 
-→ → → → answer to the message
+→ → → → Antwort auf die Nachricht
 
-→ → → → → answer to the answer
+→ → → → → Antwort auf die Antwort
 
-and so forth...
-
+und so weiter...

@@ -1,16 +1,16 @@
-# E-mail notifications
 
-E-mail notifications ![](../../.gitbook/assets/graphics324.png) are a effective way to ensure the teacher is aware, through immediate alerts, of key events in his course as they happen. The various settings are filly described on the section:
+# E-Mail-Benachrichtigungen
+
+E-Mail-Benachrichtigungen ![](../../.gitbook/assets/graphics324.png) sind ein effektiver Weg, um sicherzustellen, dass der Lehrer durch sofortige Warnungen über wichtige Ereignisse in seinem Kurs informiert ist, sobald sie eintreten. Die verschiedenen Einstellungen sind Stutfohlen im Abschnitt beschrieben:
 
 ![](../../.gitbook/assets/images243.png)
 
-_Illustration 174: Course settings – E-mail notifications_
+_Illustration 174: Kurseinstellungen — E-Mail-Benachrichtigungen_
 
-In this section, you can choose to receive an e-mail notification if:
+In diesem Abschnitt können Sie wählen, ob Sie eine E-Mail-Benachrichtigung erhalten möchten, wenn:
 
-* a user subscribed to your course \(this feature has to be enabled by the platform admin\),
-* a new file is submitted in the _Assignments_ or the _Dropbox_ tools,
-* a test is passed by a learner.
+* ein Benutzer hat Ihren Kurs abonniert \(diese Funktion muss vom Plattformadministrator aktiviert werden\),
+* Eine neue Datei wird in den _Assignments_ oder den _Dropbox_-Tools eingereicht,
+* Ein Test wird von einem Lernenden bestanden.
 
-It is also possible to set an e-mail notification to all users when a new assignment is created.
-
+Es ist auch möglich, eine E-Mail-Benachrichtigung für alle Benutzer festzulegen, wenn eine neue Zuweisung erstellt wird.

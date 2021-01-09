@@ -1,19 +1,19 @@
-# Special exports
 
-The special exports feature has been designed to help the academical inspector. It allows him to export all documents \(and only documents\) from all courses in one single \(be it very heavy\) operation. A second option allows him to choose the documents from the courses he wants.
+# Spezielle Exporte
 
-![](../../.gitbook/assets/export-speciaux%20%283%29.png)Illustration 81: Administration – Special exports
+Die spezielle Exportfunktion wurde entwickelt, um dem akademischen Inspektor zu helfen. Es erlaubt ihm, alle Dokumente \(und nur Dokumente\) aus allen Kursen in einem einzigen \(sei es sehr schwer\) Operation zu exportieren. Eine zweite Option ermöglicht es ihm, die Dokumente aus den Kursen auszuwählen, die er möchte.
 
-There is no automated way to import those courses directly from the special export at the moment \(it is more meant as a way to quickly export all your documents\), but if you wanted to import them, one way to do so would be to:
+![](../../.gitbook/assets/export-speciaux%20%283%29.png)Illustration 81: Verwaltung — Sonderausfuhren
 
-* open the downloaded zip file
-* open any course directory \(courses are listed by their code, which also appears in the URL of the course in Chamilo 1.\*\)
-* build a zip file with the folders you want in that course folder \(do not include the course folder itself\)
-* go to a course on a Chamilo platform
-* enter the documents tool
-* click the "Upload" icon
-* select the simple file uploader tab
-* select the zip file and mark the option "Unzip" in the advanced parameters
+Es gibt derzeit keine automatisierte Möglichkeit, diese Kurse direkt aus dem Sonderexport zu importieren \(es ist eher als eine Möglichkeit gedacht, alle Ihre Dokumente schnell zu exportieren\), aber wenn Sie sie importieren möchten, wäre eine Möglichkeit, dies zu tun:
 
-This should restore all the course files in the same structure as the original course.
+* Öffne die heruntergeladene Zip
+* öffne ein beliebiges Kursverzeichnis \(Kurse sind nach ihrem Code aufgelistet, der auch in der URL des Kurses in Chamilo 1 angezeigt wird.\*)
+* Erstellen Sie eine Zip-Datei mit den Ordnern, die Sie in diesem Kursordner haben möchten \(den Kursordner selbst nicht einschließen\)
+* Gehe zu einem Kurs auf einer Chamilo-Plattform
+* Geben Sie das Dokumente-Tool ein
+* klicke auf das "Upload" -Symbol
+* Wählen Sie die Registerkarte „Einfacher Datei-Uploader“
+* Wählen Sie die Zip-Datei aus und markieren Sie die Option "Unzip" in den erweiterten Parametern
 
+Dadurch sollten alle Kursdateien in derselben Struktur wie der ursprüngliche Kurs wiederhergestellt werden.

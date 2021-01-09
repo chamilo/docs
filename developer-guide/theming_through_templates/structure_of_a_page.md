@@ -1,8 +1,9 @@
-# Structure of a page
 
-The structure of a typical page will thus be something close to the following. We are using a shortened version of `main/template/default/layout/layout_2_col.tpl` here, for the sake of documentation. `layout_2_col` means « layout for 2 colums page », and it is selected when we want to show things like the courses list, because on this screen we have two columns: the side menu and the list of courses.
+# Aufbau einer Seite
 
-All normal HTML tag will appear as is. No need for any trick.
+Die Struktur einer typischen Seite wird daher dem Folgenden nahe kommen. Wir verwenden hier eine verkürzte Version von `main/template/default/layout/layout_2_col.tpl`, um der Dokumentation willen. `layout_2_col` bedeutet « layout for 2 colums page » und wird ausgewählt, wenn wir Dinge wie die Kursliste anzeigen möchten, da wir auf diesem Bildschirm zwei Spalten haben: das Seitenmenü und die Liste der Kurse.
+
+Alle normalen HTML-Tags werden so angezeigt, wie es ist. Keine Notwendigkeit für einen Trick.
 
 ```text
 {% extends template ~ "/layout/main.tpl" %} 
@@ -40,5 +41,4 @@ All normal HTML tag will appear as is. No need for any trick.
 {% endblock %}
 ```
 
-As you can see in the example, some « include » statements can be found. They get the indicated file and put its content right where you placed the call. This is practical to re-use other already-templated blocks.
-
+Wie Sie im Beispiel sehen können, können einige « include » -Anweisungen gefunden werden. Sie erhalten die angegebene Datei und legen den Inhalt genau dort ab, wo Sie den Anruf abgegeben haben. Dies ist praktisch, um andere bereits mehrlagerte Blöcke wiederzuverwenden.

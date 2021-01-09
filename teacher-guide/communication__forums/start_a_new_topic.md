@@ -1,21 +1,21 @@
-# Start a new topic
 
-When the content of a forum is shown:
+# Starte ein neues Thema
 
-* click on the _New message_ link,
-* complete the _Name_ and _Description_ fields,
-* advanced settings allow us to
-  * score a discussion thread as a teacher and give it a maximum score. To do this:
-    * select the “Mark this thread” box
-    * set a maximum score to reflect the learners participation in a discussion thread,
-    * enter or update the title of the corresponding column for the assessments tool,
-    * give a weight to the participation in the discussions thread in comparison to the other components of the assessment tool.
-  * receive e-mail alerts if an answer is added to the discussion thread,
-  * set a discussion thread to appear on top of the threads list,
-  * add an attachment to any message, together with a comment,
-* Click _Create thread_
+Wenn der Inhalt eines Forums angezeigt wird:
+
+* klicken Sie auf den Link _Neue Nachricht
+* füllen Sie die Felder _Name_ und _Description_ aus,
+* Erweiterte Einstellungen erlauben es uns
+ * Erziele als Lehrer einen Diskussionsfaden und gib ihm eine maximale Punktzahl. Um dies zu tun:
+* Wählen Sie das Feld “Mark this thread” aus
+ * legen Sie eine maximale Punktzahl fest, um die Teilnahme der Teilnehmer an einem Diskussionsfaden widerzuspiegeln,
+ * den Titel der entsprechenden Spalte für das Bewertungstool eingeben oder aktualisieren,
+ * nehmen der Teilnahme am Diskussions-Thread im Vergleich zu den anderen Komponenten des Bewertungstools ein Gewicht zu.
+ * erhalten Sie E-Mail-Benachrichtigungen, wenn dem Diskussionsfaden eine Antwort hinzugefügt wird,
+ * einen Diskussionsfaden setzen, der oben in der Threads-Liste angezeigt wird,
+ * fügen Sie eine Anlage zu einer Nachricht zusammen mit einem Kommentar hinzu,
+* Klicken Sie auf _Create thread_
 
 ![](../../.gitbook/assets/graphics5.png)
 
-_Illustration 71: Forum – Discussion thread_
-
+_Illustration 71: Forum — Diskussions-Thread_

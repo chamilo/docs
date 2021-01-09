@@ -1,14 +1,15 @@
-# Passwords generation
 
-The mechanism to generate passwords in Chamilo is a bit complex, in particular with the bcrypt method, as it diverges completely from the other methods.
+# Generierung von Pass
 
-For all the first options: 'none', 'md5' and 'sha1' \(all now considered insecure methods\), the procedure was relatively easy initially: we get the plain password, we transform it using the given algorithm and... done.
+Der Mechanismus zum Generieren von Passwörtern in Chamilo ist insbesondere bei der bcrypt-Methode etwas komplex, da er vollständig von den anderen Methoden abweicht.
 
-But at the time we considered adding an extra layer of security with bcrypt passwords, we decided to do it through a Symfony bundle called Sonata \(which helps with CMS-style features\) and so the password generation was delegated to that bundle.
+Für alle ersten Optionen: „none“, „md5“ und „sha1“ \(alle werden jetzt als unsichere Methoden angesehen\) war das Verfahren anfangs relativ einfach: Wir erhalten das einfache Passwort, wir transformieren es mit dem angegebenen Algorithmus und... fertig.
 
-This can be found \(in Chamilo 1.11\) in vendor/sonata-project/user-bundle/Model/UserManager.php, in the updatePassword\(\) method, which checks the encoder \(bcrypt in this case\) and calls its class in vendor/symfony/security/Core/Encoder/BCryptPasswordEncoder.php
+Aber zu der Zeit, als wir überlegten, eine zusätzliche Sicherheitsebene mit bcrypt-Passwörtern hinzuzufügen, haben wir uns entschlossen, dies über ein Symfony-Bundle namens Sonata\ zu tun (was bei CMS-Funktionen hilft\), und so wurde die Passwortgenerierung an dieses Bündel delegiert.
 
-This translates into something like this \(might change with time and the implementation of the security bundle\):
+Dies kann \(in Chamilo 1.11\) in vendor/sonata-project/user-bundle/Model/UserManager.php gefunden werden, in der updatePassword\(\) -Methode, die den Encoder \(bcrypt in diesem Fall\) überprüft und seine Klasse in vendor/symfony/security/Core/Encoder/BCryptPasswordEncoder.php aufruft
+
+Dies führt zu so etwas \(könnte sich mit der Zeit und der Implementierung des Sicherheitspakets ändern\):
 
 ```text
 public function encodePassword($raw, $salt)
@@ -29,9 +30,9 @@ public function encodePassword($raw, $salt)
 }
 ```
 
-As you can see, the end process is simply to use the password\_hash\(\) function, but with the password and a set of options. These options are basically a "cost" parameter, that represents the amount of times we want to "super-encrypt" the password.
+Wie Sie sehen, besteht der Endprozess einfach darin, die Funktion password\_hash\(\) zu verwenden, jedoch mit dem Passwort und einer Reihe von Optionen. Diese Optionen sind im Grunde ein "cost" -Parameter, der die Häufigkeit angibt, mit der wir das Kennwort mit "super-encrypt" erreichen möchten.
 
-This number has to be traced back to the constructor of the src/Chamilo/UserBundle/Security/Encoder.php class: \`\`\` public function \_\_construct\($method\) { $this-&gt;method = $method; switch \($this-&gt;method\) { case 'none': $defaultEncoder = new PlaintextPasswordEncoder\(\); break; case 'bcrypt': $defaultEncoder = new BCryptPasswordEncoder\(4\); break; case 'sha1': case 'md5': $defaultEncoder = new MessageDigestPasswordEncoder\($this-&gt;method, false, 1\); break; } $this-&gt;defaultEncoder = $defaultEncoder; }
+Diese Nummer muss auf den Konstruktor der src/Chamilo/UserBundle/Security/Encoder.php -Klasse zurückgeführt werden:\ `\`\ `public function\_\_construct \($method\) { $this-&gt;method = $method; switch \($this-&gt;method\) { case 'none': $defaultEncoder = new PlaintextPasswordEncoder\(\); break; case 'bcrypt': $defaultEncoder = new BCryptPasswordEncoder\(4\); break; case 'sha1': case 'md5': $defaultEncoder = new MessageDigestPasswordEncoder\($this-&gt;method, false, 1\); break; } $this->defaultRecoder = $defaultRecoder;}
 
 ```text
 So now we know that, to generate the password, we simply need the number of times
@@ -40,9 +41,8 @@ to pass it through password_hash(), and the salt, which is simply a sha1(unique_
 So to "fake" the generation of the password "tomato", we would simply need to call:
 ```
 
-$salt = sha1\(unique\_id\(true, true\)\); password\_hash\('tomato', PASSWORD\_BCRYPT, \['cost' =&gt; 4, 'salt' =&gt; $salt\]\);
+$salt = sha1 \(eindeutig\_id \(true, true\)\); password\_hash \('Tomate', PASSWORT\_BCRYPT, \['cost' => 4, 'salt' => $salt\]\);
 
-\`\`\` So whenever editing a user's password, you will also need to edit its "salt" column to the newly-generated salt.
+\`\`\ `Wenn Sie also das Kennwort eines Benutzers bearbeiten, müssen Sie auch seine "salt" -Spalte in das neu generierte Salz bearbeiten.
 
-As you can see, other encryption methods use other paths in the Encoder constructor.
-
+Wie Sie sehen, verwenden andere Verschlüsselungsmethoden andere Pfade im Encoder-Konstruktor.

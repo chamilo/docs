@@ -1,10 +1,10 @@
-# Using Git
 
-...basics… clone, --track, pull, checkout, commit, push
+# Git benutzen
 
-## Branches
+... Grundlagen... Klonen, —Track, Pull, Checkout, Commit, Push
 
-… make sure your code is up to date…
+## Filialen
 
-## Forks
+... vergewissere dich, dass dein Code auf dem neuesten Stand ist...
 
+## Gabeln

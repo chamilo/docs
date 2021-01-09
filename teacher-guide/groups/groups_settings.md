@@ -1,10 +1,10 @@
-# Groups settings
 
-A teacher can access settings for the group from the toolbar in the main _Groups_ page. Clicking the _Edit settings_ icon ![](../../.gitbook/assets/graphics279.png) takes you to a page which allows you to limit the number of groups an individual user can belong to, and to make default settings for all groups including maximum group size, self registration and access privileges for all the associated tools \(documents, agenda, assignments, announcements, forum, wiki and chat\):
+# Gruppeneinstellungen
+
+Ein Lehrer kann über die Symbolleiste auf der Hauptseite _Groups_ auf die Einstellungen für die Gruppe zugreifen. Durch Klicken auf das Symbol _Einstellungen bearbeiten ![](../../.gitbook/assets/graphics279.png) gelangen Sie zu einer Seite, auf der Sie die Anzahl der Gruppen, zu denen ein einzelner Benutzer gehören kann, einschränken und Standardeinstellungen für alle Gruppen vornehmen, einschließlich maximaler Gruppengröße, Selbstregistrierung und Zugriffsberechtigungen für alle zugehörigen Tools \(Dokumente, Agenda, Aufgaben, Ankündigungen, Forum, Wiki und Chat\):
 
 ![](../../.gitbook/assets/graphics282.png)
 
-_Illustration 149: Groups- settings_
+_Illustration 149: Gruppen - Einstellungen_
 
-Remember to click the _Save settings_ button at the bottom of the page. These default settings can be edited by the teacher for each group using the _Edit this group_ icon ![](../../.gitbook/assets/graphics281.png) to the right of each group listing in the main page.
-
+Denken Sie daran, unten auf der Seite auf die Schaltfläche _Save settings_ zu klicken. Diese Standardeinstellungen können vom Lehrer für jede Gruppe mit dem Symbol _Diese Gruppe bearbeiten ![](../../.gitbook/assets/graphics281.png) rechts neben jeder Gruppenliste auf der Hauptseite bearbeitet werden.

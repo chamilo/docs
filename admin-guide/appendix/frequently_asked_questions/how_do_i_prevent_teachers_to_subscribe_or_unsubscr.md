@@ -1,4 +1,4 @@
-# How do I prevent teachers to subscribe or unsubscribe learners into/from their courses?
 
-Locate and change the “Allow User Course Subscription By Course Admininistrator” option in the admin settings.
+# Wie verhindere ich, dass Lehrer Lernende in ihren Kursen abonnieren oder abbestellen?
 
+Suchen und ändern Sie die “Allow User Course Subscription By Course Admininistrator” -Option in den Admin-Einstellungen.

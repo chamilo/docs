@@ -1,18 +1,18 @@
-# Registering on the platform
 
-As for any web platform, users wishing to access the platform contents must register with their user name and password. This is simply done by following the _Sign up!_ link on the homepage, or by an administrator pre-registering all users. Once registered, one can simply connect using your username and password.
+# Registrierung auf der Plattform
+
+Wie bei jeder Webplattform müssen sich Benutzer, die auf die Plattforhalte zugreifen möchten, mit ihrem Benutzernamen und Passwort registrieren. Dies geschieht einfach durch Befolgen der _Sign up!_ Link auf der Homepage oder durch einen Administrator, der alle Benutzer vorregistriert. Nach der Registrierung kann man sich einfach mit Ihrem Benutzernamen und Passwort verbinden.
 
 ![](../.gitbook/assets/image2%20%282%29.png)
 
-_Illustration 8: "My courses" page_
+_Illustration 8: "My courses" Seite_
 
-Once connected, the teacher has access to any courses on which \(s\)he is registered:
+Sobald er verbunden ist, hat der Lehrer Zugriff auf alle Kurse, in denen er registriert ist:
 
-* A list of courses to which the user is subscribed. A pencil will appear on the right of the courses boxes for which the current user is a teacher, allowing the teacher to directly go to the courses settings
-* A link to the _Social Network_ tool \(which we will analyze in the Social network section\)
-* A \(non-admin\) teacher can create a course
-* Teachers and learners can subscribe to more existing courses through a “Course catalogue”
-* Teachers and learners have access to the history of their sessions through the “Courses history”. Sessions are a vast concept detailed in the Admin Guide.
+* Eine Liste der Kurse, bei denen der Benutzer abonniert ist. Rechts neben den Kursfeldern, für die der aktuelle Benutzer ein Lehrer ist, wird ein Bleistift angezeigt, der es dem Lehrer ermöglicht, direkt zu den Kurseinstellungen zu gelangen
+* Ein Link zum Tool _Social Network_ \(den wir im Bereich Soziales Netzwerk analysieren werden\)
+* Ein \(Nicht-Admin\) -Lehrer kann einen Kurs erstellen
+* Lehrer und Lernende können mehr bestehende Kurse über einen “Course catalogue” abonnieren
+* Lehrer und Lernende haben über den “Courses history” Zugriff auf den Verlauf ihrer Sitzungen. Sessions sind ein umfangreiches Konzept, das im Admin Guide beschrieben wird.
 
-> **Note** : Although the help feature link has been replaced \(since version 1.8.8\) by a more dynamic, JavaScript-based box, it remains fully accessible to people with impaired vision, which might be navigating the platform through a text-based browser. Version 1.9 and upwards also offer a font resize feature for people with slightly impaired vision.
-
+> **Hinweis**: Obwohl der Link zur Hilfefunktion \(seit Version 1.8.8\) durch eine dynamischere, JavaScript-basierte Box ersetzt wurde, bleibt er für Personen mit eingeschränkter Sicht vollständig zugänglich, die möglicherweise über einen textbasierten Browser auf der Plattform navigieren. Version 1.9 und aufwärts bieten auch eine Funktion zur Größenänderung von Schriftarten für Personen mit leicht eingeschränkter Sehkraft.

@@ -1,52 +1,52 @@
-# Interaction tools
 
-The objective of the interaction section is to group tools which facilitate communication between learners as well as between learner and teacher. Unlike the _Authoring_ tools which are primarily for teacher use, The _Interaction_ tools are provided mainly for use by other users also, to support their learning.
+# Interaktions-Tools
+
+Ziel des Interaktionsbereichs ist es, Tools zu gruppieren, die die Kommunikation zwischen den Lernenden sowie zwischen Lernenden und Lehrern erleichtern. Im Gegensatz zu den _Authoring_ Tools, die hauptsächlich für die Verwendung durch Lehrer bestimmt sind, werden die _Interaction_-Tools hauptsächlich für die Verwendung durch andere Benutzer bereitgestellt, um ihr Lernen zu unterstützen.
 
 ![](../../.gitbook/assets/images30%20%282%29.png)
 
-_Illustration 28: Interaction tools_
+_Illustration 28: Interaktionstools_
 
-## Agenda <a id="agenda"></a>
+## Tagesordnung <a id="agenda"></a>
 
-![](../../.gitbook/assets/graphics96.png) This tool provides users with a comprehensive diary/calendar tool to which they can add events etc.
+![](../../.gitbook/assets/graphics96.png) Dieses Tool bietet Benutzern ein umfassendes Tagebuch/Kalender-Tool, zu dem sie Ereignisse usw. hinzufügen können.
 
 ## Dropbox <a id="dropbox"></a>
 
-![](../../.gitbook/assets/graphics97.png) Users can use the course dropbox to share their own documents with others on the course.
+![](../../.gitbook/assets/graphics97.png) Benutzer können die Kurs-Dropbox verwenden, um ihre eigenen Dokumente mit anderen im Kurs zu teilen.
 
-## Groups <a id="groups"></a>
+## Gruppen <a id="groups"></a>
 
-![](../../.gitbook/assets/graphics98.png) Use this to create groups within in the course and manage access to course tools.
+![](../../.gitbook/assets/graphics98.png) Verwenden Sie diese Option, um Gruppen innerhalb des Kurses zu erstellen und den Zugriff auf Kurs-Tools zu verwalten.
 
-## Assignments <a id="assignments"></a>
+## Aufgaben <a id="assignments"></a>
 
-![](../../.gitbook/assets/graphics99.png) Create assignments for learners to complete within the Chamilo platform, or to complete externally and upload for evaluation by the teacher. The assignments tool integrates fully with the reporting and assessments tools and allows for quick and easy monitoring of assignment submissions and results.
+![](../../.gitbook/assets/graphics99.png) Erstellen Sie Aufgaben, die die Lernenden innerhalb der Chamilo-Plattform abschließen oder extern abschließen und zur Bewertung durch den Lehrer hochladen können. Das Zuweisungstool lässt sich vollständig in die Berichts- und Bewertungstools integrieren und ermöglicht eine schnelle und einfache Überwachung von Einreichungen und Ergebnissen von Aufgaben.
 
 ## Wiki <a id="wiki"></a>
 
-![](../../.gitbook/assets/graphics100.png) The Wiki provides a handy tool for collaboration between users, be they teachers or learners, through providing a clear and simple interface for the joint production of a class document.
+![](../../.gitbook/assets/graphics100.png) Das Wiki bietet ein praktisches Tool für die Zusammenarbeit zwischen Benutzern, sei es Lehrern oder Lernenden, indem es eine klare und einfache Schnittstelle für die gemeinsame Erstellung eines Klassendokuments bietet.
 
-## Forum <a id="forum"></a>
+## Forums <a id="forum"></a>
 
-![](../../.gitbook/assets/graphics101.png) The very fully featured forum tool allows for the creation and management of forums for use by course members, and includes the facility to quote student posts to teaching forums and edit, mark or annotate their work in whatever way the teacher judges will best support students' learning.
+![](../../.gitbook/assets/graphics101.png) Das sehr voll funktionsfähige Forent-Tool ermöglicht die Erstellung und Verwaltung von Foren, die von Kursmitgliedern verwendet werden können, und umfasst die Möglichkeit, Studentenbeiträge für Lehrforen zu zitieren und ihre Arbeit zu bearbeiten, zu markieren oder zu kommentieren, in welcher Weise die Lehrer-Richter das Lernen der Schüler am besten unterstützen.
 
-## Users <a id="users"></a>
+## Nutzer <a id="users"></a>
 
-![](../../.gitbook/assets/graphics102.png) This tool allows learners to view who else is subscribed to the course, and teachers to manage course users, subscribing teachers and users, and importing and exporting course lists as required. The _users_ tool also integrates with the _Groups_ tool.
+![](../../.gitbook/assets/graphics102.png) Mit diesem Tool können die Lernenden sehen, wer sonst noch den Kurs abonniert hat, und Lehrer, Kursbenutzer zu verwalten, Lehrer und Benutzer zu abonnieren und bei Bedarf Kurslisten zu importieren und zu exportieren. Das Tool _users_ lässt sich auch in das Tool _Groups_ integrieren.
 
 ## Chat <a id="chat"></a>
 
-![](../../.gitbook/assets/graphics103.png) Chamilo provides a simple text-chat facility allowing users to chat with other users on-line in the platform.
+![](../../.gitbook/assets/graphics103.png) Chamilo bietet eine einfache Text-Chat-Funktion, mit der Benutzer online auf der Plattform mit anderen Benutzern chatten können.
 
-## Surveys <a id="surveys"></a>
+## Umfragen <a id="surveys"></a>
 
-![](../../.gitbook/assets/graphics104.png) The fully featured survey tool a powerful means of inviting users on the platform to quickly and easily offer comment and feedback for the evaluation and development of courses. The tool also supports the analysis of results collected from participants.
+![](../../.gitbook/assets/graphics104.png) Das voll funktionsfähige Umfragetool ist ein leistungsstarkes Mittel, um Benutzer auf der Plattform schnell und einfach dazu einzuladen, Kommentare und Feedback für die Bewertung und Entwicklung von Kursen abzugeben. Das Tool unterstützt auch die Analyse der von den Teilnehmern gesammelten Ergebnisse.
 
-## Notebook <a id="notebook"></a>
+## Notizbuch <a id="notebook"></a>
 
-![](../../.gitbook/assets/graphics105.png) Sometimes a learner or teacher just wants to keep personal notes relevant to his or coursework. The notebook tool provides a simple means for users to write and store and organize such notes within the platform for their own use, using the on-line editor. Notes created by this tool are private: no user has access to the notes of another user.
+![](../../.gitbook/assets/graphics105.png) Manchmal möchte ein Lernender oder Lehrer nur persönliche Notizen für seine Kursarbeit relevant machen. Das Notebook-Tool bietet Benutzern eine einfache Möglichkeit, solche Notizen mithilfe des Online-Editors auf der Plattform für den eigenen Gebrauch zu schreiben, zu speichern und zu organisieren. Die mit diesem Tool erstellten Notizen sind privat: Kein Benutzer hat Zugriff auf die Notizen eines anderen Benutzers.
 
-## Video-conference <a id="video-conference"></a>
+## Videokonferenz <a id="video-conference"></a>
 
-![](../../.gitbook/assets/graphics106.png) It is now relatively easy, using a local video-conference server, to install the video-conference tool within a Chamilo course, although it remains an external extension which is not always available in a classic portal. Chamilo 1.9 supports BigBlueButton 0.8, open-source conferencing software which supports recording of the white board and audio from a conference. The video sessions can later be made available within Chamilo itself as a video library inside the course. From a teacher's point of view, it's worth lobbying your administrator to set it up!
-
+![](../../.gitbook/assets/graphics106.png) Es ist jetzt relativ einfach, mit einem lokalen Videokonferenzserver das Videokonferenz-Tool innerhalb eines Chamilo-Kurses zu installieren, obwohl es eine externe Erweiterung bleibt, die nicht immer in einem klassischen Portal verfügbar ist. Chamilo 1.9 unterstützt BigBlueButton 0.8, eine Open-Source-Konferenzsoftware, die die Aufzeichnung des Whiteboards und des Audios aus einer Konferenz unterstützt. Die Videositzungen können später in Chamilo selbst als Videothek innerhalb des Kurses zur Verfügung gestellt werden. Aus der Sicht eines Lehrers lohnt es sich, Ihren Administrator Lobbyarbeit zu erlegen, um ihn einzurichten!

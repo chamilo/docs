@@ -1,6 +1,6 @@
-# Users
 
-![](../../.gitbook/assets/graphics73.png)The _Users_ tool gathers all learners and teachers subscribed to the course. It allows you to manage a list of subscribed users, register new learners and assign specific roles and responsibilities. It also allows you to monitor the activities of all users subscribed to the course.
+# Nutzer
 
-![](../../.gitbook/assets/graphics173.png)_Illustration 99: Users – Main screen_
+![](../../.gitbook/assets/graphics73.png)The _Users_ Tool sammelt alle Lernenden und Lehrer, die den Kurs abonniert haben. Es ermöglicht Ihnen, eine Liste abonnierter Benutzer zu verwalten, neue Lernende zu registrieren und bestimmte Rollen und Verantwortlichkeiten zuzuweisen. Außerdem können Sie die Aktivitäten aller Benutzer, die den Kurs abonniert haben, überwachen.
 
+![](../../.gitbook/assets/graphics173.png)_Illustration 99: Benutzer — Hauptbildschirm_

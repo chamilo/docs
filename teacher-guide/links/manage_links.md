@@ -1,11 +1,11 @@
-# Manage links
 
-Links management uses the usual action icons:
+# Links verwalten
 
-| Icons | Features |
-| :--- | :--- |
-| ![](../../.gitbook/assets/graphics221%20%283%29.png) | Edit links or categories |
-| ![](../../.gitbook/assets/images158%20%286%29.png) | Remove links or categories |
-| ![](../../.gitbook/assets/images159%20%286%29.png) | Re-organize links and categories order |
-| ![](../../.gitbook/assets/images161%20%286%29.png) ![](../../.gitbook/assets/images160%20%286%29.png) | Show/Hide a link |
+Das Links-Management verwendet die üblichen Aktionssymbole:
 
+| Icons | Funktionen |
+|: — |: — |
+| ![](../../.gitbook/assets/graphics221%20%283%29.png) | Links oder Kategorien bearbeiten |
+| ![](../../.gitbook/assets/images158%20%286%29.png) | Links oder Kategorien entfernen |
+| ![](../../.gitbook/assets/images159%20%286%29.png) | Ordnen Sie Links und Kategorien neu an |
+| ![](../../.gitbook/assets/images161%20%286%29.png) ![](../../.gitbook/assets/images160%20%286%29.png) | Link anzeigen/ausblenden |

@@ -1,30 +1,30 @@
-# The Chamilo logo
 
-This section might not really fit here, but given we're discussing Chamilo design, we thought maybe this would prove useful to some.
+# Das Chamilo-Logo
 
-The Chamilo logo was originally \(pre-2013\) a chameleon in a semi-transparent cube.
+Dieser Abschnitt passt vielleicht nicht wirklich hierher, aber da wir über Chamilo-Design sprechen, dachten wir, dass sich dies für einige als nützlich erweisen würde.
 
-![](../.gitbook/assets/image4%20%289%29.png) After many issues printing the cube and explaining to people the bug inside was actually a chameleon, Blender artist Alex Aragon Calixto \(@aragcar\) proposed the following design as a variation for an event organized by the Peruvian community.
+Das Chamilo-Logo war ursprünglich \(vor 2013\) ein Chamäleon in einem halbtransparenten Würfel.
+
+![](../.gitbook/assets/image4%20%289%29.png) Nach vielen Problemen beim Drucken des Würfels und der Erklärung, dass der Fehler im Inneren tatsächlich ein Chamäleon war, schlug der Blender Künstler Alex Aragon Calixto \(@aragcar\) das folgende Design als Variation für eine von der peruanischen Gemeinschaft organisierte Veranstaltung vor.
 
 ![](../.gitbook/assets/image5%20%289%29.png)
 
-After careful consideration, the Chamilo Association's board decided that, given the fonts family was conserved \(URW Gothic L\), the colour was revived and the design was simplified \(so much it can almost be drawn on paper\), it would be a better logo for the overall Chamilo project.
+Nach sorgfältiger Überlegung entschied der Vorstand der Chamilo Association, dass es angesichts der Erweckung der Schriftartenfamilie \(URW Gothic L\) wiederbelebt und das Design vereinfacht wurde \(so viel kann es fast auf Papier gezeichnet werden\) wäre es ein besseres Logo für das gesamte Chamilo-Projekt.
 
-The logo belongs to the Chamilo Association but is released as Creative Commons BY-SA. The use of the logo is authorized but the use of the Chamilo trademark should not be abused, i.e. be illegitimately used to pretend someone or something is a representative or part of the association if he/she/it isn't.
+Das Logo gehört der Chamilo Association, wird aber als Creative Commons BY-SA veröffentlicht. Die Verwendung des Logos ist zulässig, aber die Verwendung der Chamilo-Marke sollte nicht missbraucht werden, d.h. sei unrechtmäßig verwendet, um so zu tun, als sei jemand oder etwas ein Vertreter oder Teil des Vereins, wenn er es nicht ist.
 
-On a side note, Chamilo also has its own mascot, “Chamilito”, with the following derivations:
+Nebenbei hat Chamilo auch ein eigenes Maskottchen, “Chamilito”, mit den folgenden Ableitungen:
 
 ![](../.gitbook/assets/image6%20%289%29.png)
 
-This first version was a sketch published on the internet and for which the Chamilo Association asked permission to make use of. It is also the same basic sketch that served as logo for the Free Software Notepad++.
+Diese erste Version war eine Skizze, die im Internet veröffentlicht wurde und für die die Chamilo Association um Erlaubnis zur Nutzung bat. Es ist auch dieselbe grundlegende Skizze, die als Logo für das Free Software Notepad ++ diente.
 
 ![](../.gitbook/assets/image7%20%289%29.png) ![](../.gitbook/assets/image8%20%289%29.png)
 
-This second version is simply a vectorized version of the first, with a colourized version with a mouth that followed shortly after \(the idea was to use it as a mascot inside Chamilo and make it speak, so it needed a mouth\).
+Diese zweite Version ist einfach eine vektorisierte Version der ersten, mit einer kolorierten Version mit einem Mund, der kurz darauf folgte \(die Idee war, es als Maskottchen in Chamilo zu verwenden und es zum Sprechen zu bringen, also brauchte es einen Mund\).
 
 ![](../.gitbook/assets/image10%20%281%29.jpg)
 
-The second version lead, thanks to the contribution of Mexican Blender artists \(Octavio Mendez, aka @octagesimal and Claudia Hernández, aka @casyopea\), to a 3rd version in 3D, called the “Chamilito 3D”, also available in source Blender files here [http://www.blendswap.com/blends/view/49816](http://www.blendswap.com/blends/view/49816)
+Die zweite Version führte dank des Beitrags der mexikanischen Blender-Künstler \(Octavio Mendez, alias @octagesimal und Claudia Hernández, alias @casyopea\) zu einer 3. Version in 3D, genannt “Chamilito 3D”, die hier auch in den Blender-Squelldateien verfügbar ist [http://www.blendswap.com/blends/view/49816](http://www.blendswap.com/blends/view/49816)
 
-![](../.gitbook/assets/image9%20%289%29.png)Finally, @aragcar developed a series of variations for different events or articles, one of which you can see on the right and is the most likely \(to date\) to become the official in-page mascot of Chamilo LMS.
-
+![](../.gitbook/assets/image9%20%289%29.png)Finally, @aragcar hat eine Reihe von Variationen für verschiedene Events oder Artikel entwickelt, von denen eine rechts zu sehen ist und das wahrscheinlichste \(bisher\) das offizielle In-Page-Maskottchen von Chamilo LMS wird.

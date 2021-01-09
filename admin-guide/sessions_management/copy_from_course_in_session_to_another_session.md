@@ -1,12 +1,12 @@
-# Copy from course in session to another session
 
-Given the possibility to define content in a course through a session and given the fact that this content will only be visible within this session, you will sometimes need to copy that session-specific content to another session containing the same course... and this is exactly what this tool does.
+# Kopieren von Kurs in Sitzung zu einer anderen Sitzung
 
-To use it, you must have an origin and a destination session, in which you can find the same course, from and to which you wish to copy the content of the session.
+Angesichts der Möglichkeit, Inhalte in einem Kurs in einem Kurs während einer Sitzung zu definieren, und angesichts der Tatsache, dass dieser Inhalt nur innerhalb dieser Sitzung sichtbar ist, müssen Sie diesen sitzungsspezifischen Inhalt manchmal in eine andere Sitzung kopieren, die denselben Kurs enthält... und genau das macht dieses Tool.
 
-![](../../.gitbook/assets/graficos84%20%285%29.png)Illustration 69: Copying course content from session to session
+Um es verwenden zu können, benötigen Sie eine Ursprungs- und eine Zielsitzung, in der Sie denselben Kurs finden können, von dem Sie den Inhalt der Sitzung kopieren möchten.
 
-Once these conditions are met, you'll just have to select the session of origin, the course of origin, the session of destination and the course of destination, then decide whether you want all session-specific contents to be copied or only some of them.
+![](../../.gitbook/assets/graficos84%20%285%29.png)Illustration 69: Kursinhalte von Sitzung zu Sitzung kopieren
 
-**Note** : this tool is still in beta version. We recommend you use it with caution and you counter-check it does what you expected.
+Sobald diese Bedingungen erfüllt sind, müssen Sie nur die Ursprungssitzung, den Herkunftsverlauf, die Zielsitzung und den Zielort auswählen und dann entscheiden, ob alle sitzungsspezifischen Inhalte kopiert werden sollen oder nur einige davon.
 
+**Hinweis**: Dieses Tool ist immer noch in der Betaversion. Wir empfehlen Ihnen, es mit Vorsicht zu verwenden und zu überprüfen, ob es das tut, was Sie erwartet haben.

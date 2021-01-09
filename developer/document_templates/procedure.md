@@ -1,9 +1,10 @@
-## Adding new document templates
 
-As introduced in the sections above, to add a new document template, we will need to do the following:
-* generate a thumbnail of your 100 x 70
-* place all media files in a "certificates/" folder of the CSS we use (if we use a custom CSS)
-* create the templates manually through the web interface and replace paths to images with {CSS}your-custom-theme/certificates/[file]
+## Hinzufügen neuer Dokumentvorlagen
 
-Later on, we might need to go to the database and remove some references manually 
-because CKeditor will automatically add a bootstrap tag, for example
+Wie in den obigen Abschnitten vorgestellt, müssen wir Folgendes tun, um eine neue Dokumentvorlage hinzuzufügen:
+* erzeuge ein Thumbnail deiner 100 x 70
+* alle Mediendateien in einen "certificates/" -Ordner des von uns verwendeten CSS legen (wenn wir ein benutzerdefiniertes CSS verwenden)
+* Erstellen Sie die Vorlagen manuell über das Web-Interface und ersetzen Sie Pfade zu Bildern durch {CSS}your -custom-theme /certificates/[file]
+
+Später müssen wir möglicherweise in die Datenbank gehen und einige Referenzen manuell entfernen 
+weil CKEditor zum Beispiel automatisch ein Bootstrap-Tag hinzufügt

@@ -1,22 +1,22 @@
-# Managing learning paths
 
-Go to _My courses_, pick a course and click the _Learning paths icon_ ![](../../.gitbook/assets/graphics36.png):
+# Lernpfade verwalten
 
-![](../../.gitbook/assets/graphics38.png)_Illustration 84: Learning paths – List_
+Gehe zu _Meine Kurse_, wähle einen Kurs und klicke auf das Symbol _Learning Path_ ![](../../.gitbook/assets/graphics36.png):
 
-The right-side column, _Authoring options_ includes tools to manage your learning paths:
+![](../../.gitbook/assets/graphics38.png)_Illustration 84: Lernpfade — Liste_
 
-| Icons | Features |
-| :---: | :--- |
-| ![](../../.gitbook/assets/images101.png) | Update the learning path's settings |
-| ![](../../.gitbook/assets/images102%20%281%29.png) | Delete the learning path |
-| ![](../../.gitbook/assets/graphics37.png) | Edit the learning path |
-| ![](../../.gitbook/assets/images104%20%281%29.png) ![](../../.gitbook/assets/images105%20%281%29.png) | Show / hide the learning path to/from learners |
-| ![](../../.gitbook/assets/images106%20%281%29.png) ![](../../.gitbook/assets/images107%20%281%29.png) | Show / hide the learning page on the course homepage |
-| ![](../../.gitbook/assets/images108%20%281%29.png) | Export the learning path in .zip format, to later use as SCORM content inside other tools |
-| ![](../../.gitbook/assets/images109%20%281%29.png) ![](../../.gitbook/assets/images110%20%281%29.png) | Allow / prevent multiple attempts by learners |
-| ![](../../.gitbook/assets/graphics362.png) ![](../../.gitbook/assets/images111%20%281%29.png) | Toggle between full-screen or normal \(embedded\) view |
-| ![](../../.gitbook/assets/graphics39.png) ![](../../.gitbook/assets/graphics42.png) | Re-order the learning paths |
-| ![](../../.gitbook/assets/images114%20%281%29.png) | Export the complete learning path as a large multi-pages PDF document |
-| ![](../../.gitbook/assets/graphics40.png) | Copy learning path |
+Die rechte Spalte _Authoring-Optionen_ enthält Tools zur Verwaltung Ihrer Lernpfade:
 
+| Icons | Funktionen |
+|: —: |: — |
+| ![](../../.gitbook/assets/images101.png) | Die Einstellungen des Lernpfads aktualisieren |
+| ![](../../.gitbook/assets/images102%20%281%29.png) | Löschen Sie den Lernpfad |
+| ![](../../.gitbook/assets/graphics37.png) | Den Lernpfad bearbeiten |
+| ![](../../.gitbook/assets/images104%20%281%29.png) ![](../../.gitbook/assets/images105%20%281%29.png) | Den Lernpfad zu/von den Lernenden ein- und ausblenden |
+| ![](../../.gitbook/assets/images106%20%281%29.png) ![](../../.gitbook/assets/images107%20%281%29.png) | Die Lernseite auf der Kurs-Homepage anzeigen/ausblenden |
+| ![](../../.gitbook/assets/images108%20%281%29.png) | Exportiere den Lernpfad im ZIP-Format, um ihn später als SCORM-Inhalt in anderen Tools zu verwenden |
+| ![](../../.gitbook/assets/images109%20%281%29.png) ![](../../.gitbook/assets/images110%20%281%29.png) | Erlaube/verhindere mehrfache Versuche von Lernenden |
+| ![](../../.gitbook/assets/graphics362.png) ![](../../.gitbook/assets/images111%20%281%29.png) | Umschalten zwischen Vollbild- oder Normalansicht \(embedded\) |
+| ![](../../.gitbook/assets/graphics39.png) ![](../../.gitbook/assets/graphics42.png) | Ordne die Lernpfade neu an |
+| ![](../../.gitbook/assets/images114%20%281%29.png) | Exportiere den vollständigen Lernpfad als großes mehrseitiges PDF-Dokument |
+| ![](../../.gitbook/assets/graphics40.png) | Lernpfad kopieren |

@@ -1,8 +1,8 @@
-# Add groups
 
-Chamilo integrates a _Social network_ tool which allows you to create common interest groups where users will be able to discuss between themselves as on a forum. You can choose to create groups which can be either opened or closed.
+# Gruppen hinzufügen
 
-Through the configuration settings, you can also decide to let users create their own interest groups.
+Chamilo integriert ein Tool _Social Network_, mit dem Sie gemeinsame Interessengruppen erstellen können, in denen Benutzer wie in einem Forum untereinander diskutieren können. Sie können wählen, Gruppen zu erstellen, die entweder geöffnet oder geschlossen werden können.
 
-![](../../.gitbook/assets/groupesajouter%20%283%29.png)Illustration 54: Administration – Social groups creation
+Über die Konfigurationseinstellungen können Sie auch entscheiden, dass Benutzer ihre eigenen Interessengruppen erstellen können.
 
+![](../../.gitbook/assets/groupesajouter%20%283%29.png)Illustration 54: Verwaltung — Schaffung sozialer Gruppen

@@ -1,40 +1,40 @@
-# Portal
 
-![](../../../.gitbook/assets/graficos5%20%285%29.png)This category allows you to configure globally-visible information, users registration, or other options that do not fit in any other category. Some of this information can be left empty. In this case, it will not be shown.
+# Das Portal
 
-**Registration** allows you to authorize the creation of accounts by external users, to only allow the admin to create them, or to require the admin's approval for the creation of the user account.
+Mit der Kategorie ![](../../../.gitbook/assets/graficos5%20%285%29.png)This können Sie global sichtbare Informationen, die Registrierung von Benutzern oder andere Optionen konfigurieren, die in keine andere Kategorie passen. Einige dieser Informationen können leer gelassen werden. In diesem Fall wird es nicht gezeigt.
 
-**Registration as t\*\***eache**\*\*r** allows you to let any new user choose to be a teacher \(and as such to create new courses\). You generally _don't_ want this option to be enabled.
+**Registrierung** ermöglicht es Ihnen, die Erstellung von Konten durch externe Benutzer zu autorisieren, dem Administrator nur die Erstellung zu gestatten oder die Genehmigung des Administrators für die Erstellung des Benutzerkontos zu verlangen.
 
-**Enable learner view** allows you to let teachers have a preview of what their course would look like seen as a student. It is a highly useful tool and we don't recommend you remove this feature.
+**Die Registrierung als t\*\***jede**\*\*r** ermöglicht es Ihnen, jedem neuen Benutzer die Wahl zu lassen, Lehrer zu sein \(und als solcher neue Kurse zu erstellen\). Im Allgemeinen möchten Sie nicht, dass diese Option aktiviert ist.
 
-**Page after login** allows you to select whether you want the user to get back to your platform welcome page \(Homepage\), to go directly to their courses list \(My courses_\)_ or to go to the courses catalogue.
+**Ansicht für Lernende aktivieren** ermöglicht es Ihnen, Lehrern eine Vorschau darauf zu geben, wie ihr Kurs als Schüler aussehen würde. Es ist ein äußerst nützliches Tool, und wir empfehlen Ihnen nicht, diese Funktion zu entfernen.
 
-Tabs in header allows you to select which tabs you want to show in the tabs bar. Any tab unselected from this list will cease to appear in the tabs bar, but it will still be accessible through the user vertical menu on the _My courses_ page. Make sure you don't remove them all from the header at the same time.
+**Seite nach dem Anmelden** können Sie auswählen, ob der Benutzer zu Ihrer Plattform-Begrüßungsseite zurückkehren soll \(Homepage\), direkt zu seiner Kursliste gehen \(Meine Kurse_\) oder zum Kurskatalog gehen.
 
-**Allow non admin to create** **courses** allows teachers to create courses. It is allowed by default, but in a strongly-structured organization, you'll want the admin to setup the courses and their teachers, so this option might be better turned off.
+Mit den Registerkarten in der Kopfzeile können Sie auswählen, welche Registerkarten Sie in der Registerkartenleiste anzeigen möchten. Jede Registerkarte, die nicht in dieser Liste ausgewählt ist, wird nicht mehr in der Registerkartenleiste angezeigt, sie ist jedoch weiterhin über das vertikale Menü des Benutzers auf der Seite _Meine Kurse zugänglich. Stellen Sie sicher, dass Sie nicht alle gleichzeitig aus dem Header entfernen.
 
-Learners access to courses catalogue lets you decide whether the students can see the courses catalogue \(available as a link on their courses list page\) or not. The course catalogue gives links to course subscription, so removing the access will also prevent them from registering by themselves.
+**Erstellen von Nicht-Adminen** erlauben** Kurse** ermöglicht es Lehrern, Kurse zu erstellen. Dies ist standardmäßig zulässig, aber in einer stark strukturierten Organisation möchten Sie, dass der Administrator die Kurse und seine Lehrer einrichtet, sodass diese Option möglicherweise besser deaktiviert ist.
 
-**Enable terms and conditions** enables the special _terms and conditions_ feature \(that you will then have to configure from the administration page\). Terms and conditions deal with languages and versions, and ensure your students have access to your portal only if they agree with the latest version.
+Durch den Zugriff der Lernenden auf den Kurskatalog können Sie entscheiden, ob die Teilnehmer den Kurskatalog sehen können \(verfügbar als Link auf ihrer Kurslistenseite\) oder nicht. Der Kurskatalog enthält Links zum Kursabonnement, sodass das Entfernen des Zugriffs auch daran gehindert wird, sich selbst zu registrieren.
 
-Show link to report bug allows you to remove the little ladybug in a green floating tab on the right of the screen. It is recommended to disable this option on any production portal.
+**Allgemeine Geschäftsbedingungen** aktiviert die spezielle Funktion _Bedingungen \(die Sie dann auf der Administrationsseite konfigurieren müssen\). Die Allgemeinen Geschäftsbedingungen befassen sich mit Sprachen und Versionen und stellen sicher, dass Ihre Schüler nur dann Zugriff auf Ihr Portal haben, wenn sie mit der neuesten Version einverstanden sind.
 
-Courses validation allows you to enable a feature by which “requests” for courses can be done by teachers. The admin will have an additional interface through which he'll authorize the creation of new courses.
+Link zum Melden von Fehlern anzeigen ermöglicht es Ihnen, den kleinen Marienkäfer in einem grünen, schwebenden Tab rechts auf dem Bildschirm zu entfernen. Es wird empfohlen, diese Option in jedem Produktionsportal zu deaktivieren.
 
-Enable watermark in PDF export allows you to upload an image or text to be added to all PDF exports on the system.
+Die Validierung von Kursen ermöglicht es Ihnen, eine Funktion zu aktivieren, mit der “requests” für Kurse von Lehrern durchgeführt werden kann. Der Administrator wird über eine zusätzliche Schnittstelle verfügen, über die er die Erstellung neuer Kurse autorisiert.
 
-Font resize accessibility feature allows you to show a small set of letters on the top-right side of your portal to let users make fonts larger \(for better reading\) without affecting the platform.
+Wenn Sie Wasserzeichen im PDF-Export aktivieren, können Sie ein Bild oder einen Text hochladen, der allen PDF-Exporten auf dem System hinzugefügt werden soll.
 
-Show admin toolbar allows you to control the top-page floating admin bar that has appeared by default in Chamilo versions after 1.9. If you don't like it, just disable it.
+Die Barrierefreiheitsfunktion zur Größenänderung von Schriftarten ermöglicht es Ihnen, einen kleinen Satz von Buchstaben oben rechts im Portal anzuzeigen, damit Benutzer Schriftarten vergrößern können \(zum besseren Lesen\), ohne die Plattform zu beeinträchtigen.
 
-Allow global chat allows you to disable the new FB-like chat feature at the bottom-right of your browser. This feature only works with Chamilo's-social-network-friends, and it is automatically disabled when entering an exercise. However, we haven't tried it under high load conditions, and you might want to make sure it will not slow down your server before you let this feature enabled.
+Mit der Admin-Symbolleiste anzeigen können Sie die schwebende Admin-Leiste auf der obersten Seite steuern, die standardmäßig nach 1.9 in Chamilo-Versionen erschienen ist. Wenn es dir nicht gefällt, deaktiviere es einfach.
 
-Use the email as username this very recent feature allows you to let users identify themselves using their e-mails as a username, rather than their maybe-difficult-to-remember alias on this portal.
+Globaler Chat zulassen ermöglicht es Ihnen, die neue FB-ähnliche Chat-Funktion unten rechts in Ihrem Browser zu deaktivieren. Diese Funktion funktioniert nur mit Chamilo's-Social-Network-Friends und wird bei der Teilnahme an einer Übung automatisch deaktiviert. Wir haben es jedoch unter Hochlastbedingungen nicht ausprobiert, und Sie sollten sicherstellen, dass Ihr Server nicht verlangsamt wird, bevor Sie diese Funktion aktivieren lassen.
 
-Allow unsubscription from platform is a feature that comes as a response to administrators' requests to let users unsubscribe from a Chamilo portal if they do not want their data to be kept. When unsubscribing, all user information will be definitively removed from the portal, so you might want to think about enabling it. When enabled, an additional menu entry will appear in the user's social network page.
+Verwenden Sie die E-Mail als Benutzernamen Diese sehr aktuelle Funktion ermöglicht es Ihnen, Benutzer zu ermöglichen, sich anhand ihrer E-Mails als Benutzernamen zu identifizieren und nicht mit ihrem vielleicht schwer zu merkenden Alias auf diesem Portal.
 
-Enable e-mail alerts templates, although still incomplete at this time, allows you to configure templates for e-mails to be sent upon specific events detected in Chamilo.
+Die Abmeldung von der Plattform zulassen ist eine Funktion, die als Antwort auf die Anfragen von Administratoren erfolgt, Benutzer von einem Chamilo-Portal abbestellen zu lassen, wenn sie nicht möchten, dass ihre Daten aufbewahrt werden. Wenn Sie sich abmelden, werden alle Benutzerinformationen endgültig aus dem Portal entfernt, daher sollten Sie darüber nachdenken, sie zu aktivieren. Wenn diese Option aktiviert ist, wird ein zusätzlicher Menüeintrag im sozialen Netzwerk des Benutzers angezeigte
 
-Show hot courses will allow you to disable the default option of showing the most popular courses on the homepage.
+Wenn Sie E-Mail-Warnungsvorlagen aktivieren, obwohl sie zu diesem Zeitpunkt noch unvollständig sind, können Sie Vorlagen für E-Mails konfigurieren, die bei bestimmten in Chamilo erkannten Ereignissen gesendet werden.
 
+Mit „Hot Courses anzeigen“ können Sie die Standardoption deaktivieren, die beliebtesten Kurse auf der Homepage anzuzeigen.

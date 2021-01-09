@@ -1,33 +1,33 @@
-# Administration tools
 
-The _administration_ section groups tools that the learner never needs access to – there is therefore no option to hide or show the tools, which are designed for teacher use only.
+# Administrationstools
+
+Im Abschnitt _administration_ werden Tools gruppiert, auf die der Lernende niemals zugreifen muss. Es gibt daher keine Möglichkeit, die Tools auszublenden oder anzuzeigen, die nur für die Verwendung durch Lehrer bestimmt sind.
 
 ![](../../.gitbook/assets/images31%20%282%29.png)
 
-_Illustration 29: Administration tools_
+_Illustration 29: Verwaltungstools_
 
-## Projects <a id="projects"></a>
+## Projekte <a id="projects"></a>
 
-![](../../.gitbook/assets/graphics107.png) This is where the teacher can create new _blogs_ visible and available to learners in the _Authoring_ section. A blog integrates tasks and users management via a calendar within the _Blogs_ tool, supporting the effective management of collaborative projects.
+![](../../.gitbook/assets/graphics107.png) Hier kann der Lehrer neue _blogs_ erstellen, die für Lernende im Abschnitt _Authoring_ sichtbar und verfügbar sind. Ein Blog integriert das Aufgaben- und Benutzermanagement über einen Kalender innerhalb des Tools _blogs_ und unterstützt das effektive Management von kollaborativen Projekten.
 
-## Settings <a id="settings"></a>
+## Einstellungen <a id="settings"></a>
 
-![](../../.gitbook/assets/graphics108.png) Manage the course settings as a teacher. Settings are sorted in a few sections:
+![](../../.gitbook/assets/graphics108.png) Verwalte die Kurseinstellungen als Lehrer. Die Einstellungen sind in ein paar Abschnitten sortiert:
 
-| ![](../../.gitbook/assets/graphics109.png) | Course settings | Manage and update elements such as the course title, category, language, picture, etc. |
-| :---: | :--- | :--- |
-| ![](../../.gitbook/assets/graphics110.png) | Course access | Configure course access updates \(visibility, subscription and other permissions\) |
-| ![](../../.gitbook/assets/images281.png) | E-mail notifications | Set the behaviour of for e-mails alerts |
-| ![](../../.gitbook/assets/images282.png) | Users rights | Configure of the agenda, announcements or picture display inside the forum |
-| ![](../../.gitbook/assets/images283.png) | Chat settings | Configure how the chat tool opens |
-| ![](../../.gitbook/assets/images284.png) | Learning paths settings | Enable the graphical theme of the learning path, as well as various other learning path settings |
-| ![](../../.gitbook/assets/images285.png) | Thematic advance configuration | Decide whether course progress information should be shown on course homepage |
+| ![](../../.gitbook/assets/graphics109.png) | Kurseinstellungen | Elemente wie Kurstitel, Kategorie, Sprache, Bild usw. verwalten und aktualisieren |
+|: —: |: — |: — |
+| ![](../../.gitbook/assets/graphics110.png) | Kurszugriff | Aktualisierungen des Kurszugriffs konfigurieren \(Sichtbarkeit, Abonnement und andere Berechtigungen\) |
+| ![](../../.gitbook/assets/images281.png) | E-Mail-Benachrichtigungen | Festlegen des Verhaltens von für E-Mails Alerts |
+| ![](../../.gitbook/assets/images282.png) | Rechte der Benutzer | Konfiguration der Agenda, Ankündigungen oder Bildanzeige im Forum |
+| ![](../../.gitbook/assets/images283.png) | Chat-Einstellungen | Konfigurieren, wie das Chat-Tool geöffnet wird |
+| ![](../../.gitbook/assets/images284.png) | Einstellungen für Lernpfade | Aktivieren Sie das grafische Thema des Lernpfads sowie verschiedene andere Einstellungen für den Lernpfad |
+| ![](../../.gitbook/assets/images285.png) | Thematische Vorabkonfiguration | Entscheiden Sie, ob Informationen zum Kursfortschritt auf der Startseite des Kurses angezeigt werden sollen |
 
-## Reporting <a id="reporting"></a>
+## Berichterstattung <a id="reporting"></a>
 
-![](../../.gitbook/assets/graphics113.png) This important teacher tool tracks learners' use of learning paths, tests, forums etc., as well as time spent on the course, progress, scores, assignments, numbers of messages and last connection date. It is a powerful monitoring tool which can save the teacher a huge amount of time and dreary record keeping work.
+![](../../.gitbook/assets/graphics113.png) Dieses wichtige Lehrer-Tool verfolgt die Verwendung von Lernpfaden, Tests, Foren usw. durch die für den Kurs aufgewendete Zeit, den Fortschritt, die Punktzahlen, die Aufgaben, die Anzahl der Nachrichten und das Datum der letzten Verbindung. Es ist ein leistungsstarkes Überwachungstool, das dem Lehrer viel Zeit und trostvolle Aufzeichnungsarbeit ersparen kann.
 
 ## Backup <a id="backup"></a>
 
-![](../../.gitbook/assets/graphics346%20%281%29.png) This is where you can \(and regularly should!\) back up your course by exporting a copy of the course. You can also use it to import previously backed up courses and to delete all or part of the course content and data. You can also use it simply to delete the course – be careful, though – there's no way back!
-
+![](../../.gitbook/assets/graphics346%20%281%29.png) Hier kannst du (und solltest regelmäßig!\) Sichern Sie Ihren Kurs, indem Sie eine Kopie des Kurses exportieren. Sie können es auch verwenden, um zuvor gesicherte Kurse zu importieren und den Kursinhalt und die Daten ganz oder teilweise zu löschen. Sie können ihn auch einfach verwenden, um den Kurs zu löschen - seien Sie jedoch vorsichtig - es gibt keinen Weg zurück!

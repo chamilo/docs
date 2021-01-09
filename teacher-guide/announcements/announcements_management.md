@@ -1,12 +1,12 @@
-# Announcements management
 
-Announcements can be managed through the familiar action icons:
+# Ankündigungen-Management
 
-| Icons | Features |
-| :--- | :--- |
-| ![](../../.gitbook/assets/graphics229%20%283%29.png) | Update the title, body or settings of the announcement |
-| ![](../../.gitbook/assets/images168%20%284%29.png) | Re-order announcements position |
-| ![](../../.gitbook/assets/graphics366%20%283%29.png) ![](../../.gitbook/assets/graphics367%20%283%29.png) | Show / Hide announcement to learners |
-| ![](../../.gitbook/assets/graphics230%20%281%29.gif) | Indicates the announcement has been sent by e-mail |
-| ![](../../.gitbook/assets/graphics231%20%283%29.gif) | Indicates the announcement includes an attachment |
+Ankündigungen können über die bekannten Aktionssymbole verwaltet werden:
 
+| Icons | Funktionen |
+|: — |: — |
+| ![](../../.gitbook/assets/graphics229%20%283%29.png) | Aktualisieren Sie den Titel, den Text oder die Einstellungen der Ankündigung |
+| ![](../../.gitbook/assets/images168%20%284%29.png) | Position für Ankündigungen erneut bestellen |
+| ![](../../.gitbook/assets/graphics366%20%283%29.png) ![](../../.gitbook/assets/graphics367%20%283%29.png) | Ankündigung für Lernende anzeigen/ ausblenden |
+| ![](../../.gitbook/assets/graphics230%20%281%29.gif) | Zeigt an, dass die Ankündigung per E-Mail verschickt wurde |
+| ![](../../.gitbook/assets/graphics231%20%283%29.gif) | Zeigt an, dass die Ankündigung einen Anhang enthält |

@@ -1,21 +1,21 @@
-# Control course access
 
-During the creation of the course, it is recommended you don't allow learners access before it is ready so they don't see an incomplete course.
+# Kontrollieren Sie den Kurs
 
-In order to do this, access has to be restricted by going to the course _**Settings**_ tool:
+Während der Erstellung des Kurses wird empfohlen, den Lernenden keinen Zugriff zu gewähren, bevor er bereit ist, damit sie keinen unvollständigen Kurs sehen.
+
+Um dies zu tun, muss der Zugriff durch das Tool _**Settings**_ des Kurses eingeschränkt werden:
 
 ![](../.gitbook/assets/images17%20%283%29.png)
 
-_Illustration 17: Course administration tools_
+_Abbildung 17: Tools zur Kursverwaltung_
 
-A series of choices are available to the teacher.
+Ddem Lehrer stehen eine Reihe von Auswahlmöglichkeiten zur Verfügung.
 
 ![](../.gitbook/assets/images18%20%283%29.png)
 
-_Illustration 18: Course settings - Visibility_
+_Illustration 18: Kurseinstellungen - Sichtbarkeit_
 
-* **Public** : means it is accessible to any user, registered on this portal or not
-* **Open** : means all users _registered on the portal_ can access the course as long as they have previously subscribed to it \(they can do this through the courses catalog\). This is the _default option_
-* **Private** : means the course is only available to students who have been subscribed to it by a teacher or administrator. Make sure the _Subscription_ option is set to be only available to trainers, though, as otherwise students might be able to subscribe themselves.
-* **Closed** : means the course is _only available to its teacher or the administrator_. Other users cannot access it, even if they have previously been subscribed to it. This last option is recommended _during the building or maintenance periods of the course_.
-
+* **Public**: bedeutet, dass es für jeden Benutzer zugänglich ist, der auf diesem Portal registriert ist oder nicht
+* **Öffnen**: bedeutet, dass alle im Portal registrierten Benutzer auf den Kurs zugreifen können, solange sie ihn zuvor abonniert haben \(sie können dies über den Kurskatalog tun\). Dies ist die _default Option_
+* **Private**: bedeutet, dass der Kurs nur für Schüler verfügbar ist, die ihn von einem Lehrer oder Administrator abonniert haben. Stellen Sie sicher, dass die Option _Subscription_ jedoch nur für Trainer verfügbar ist, da sich die Schüler sonst möglicherweise selbst abonnieren können.
+* **Geschlossen**: bedeutet, dass der Kurs _nur seinem Lehrer oder dem Verwalter zur Verfügung steht. Andere Benutzer können nicht darauf zugreifen, selbst wenn sie es zuvor abonniert haben. Diese letzte Option wird während der Bau- oder Wartungszeiten des Kurss_ empfohlen.

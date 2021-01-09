@@ -1,6 +1,6 @@
-# Test/exam Reporting
 
-The exam tracking tool is useful for teachers wanting to focus on monitoring learners' performance in tests. By clicking on the _exam tracking_ icon ![](../../.gitbook/assets/graphics56.png) on the main reporting page, the teacher is provided with a list of tests and students' scores/percentages, including number of attempts. They can select individual tests and filter results by a given percentage e.g. to display a list of students passing a course, or excelling in their score. This data can be exported as a standard MS-Excel file®.
+# Test-/Prüfungsberichterstattung
 
-![](../../.gitbook/assets/graphics59.png)_Illustration 91: Exam tracking_
+Das Prüfungs-Tracking-Tool ist nützlich für Lehrer, die sich in Tests auf die Überwachung der Leistung der Lernenden konzentrieren möchten. Durch Klicken auf das _exam-Tracking_-Symbol ![](../../.gitbook/assets/graphics56.png) auf der Hauptberichtsseite erhält der Lehrer eine Liste der Scores/Prozente von Tests und Schülern, einschließlich der Anzahl der Versuche. Sie können einzelne Tests auswählen und Ergebnisse nach einem bestimmten Prozentsatz filtern, z. B. um eine Liste von Studenten anzuzeigen, die einen Kurs bestehen, oder um ihre Punktzahl zu übertreffen. Diese Daten können als Standard-MS-Excel-Datei® exportiert werden.
 
+![](../../.gitbook/assets/graphics59.png)_Illustration 91: Prüfungs-Tracking_

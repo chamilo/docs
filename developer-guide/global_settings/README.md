@@ -1,15 +1,15 @@
-# Global settings
+
+# Globale Einstellungen
 
 ![](../../.gitbook/assets/images26%20%289%29.png)
 
-Global settings in Chamilo are a way to configure some kind of system behaviour at the platform level, which will affect all courses and all users, if relevant.
+Globale Einstellungen in Chamilo sind eine Möglichkeit, ein gewisses Systemverhalten auf Plattforniveaus zu konfigurieren, das sich auf alle Kurse und alle Benutzer auswirkt, falls relevant.
 
-All these settings are kept in one of 2 locations :
+Alle diese Einstellungen werden an einem von zwei Standorten aufbewahrt:
 
-1. the configuration file, if we think this setting must be controlled by the system administrator but not by the Chamilo administrator \(a very small number of settings are kept there\)
-2. the settings\_current \(and settings\_option\) table\(s\), when we want those settings to appear inside the platform settings page
+1. die Konfigurationsdatei, wenn wir der Meinung sind, dass diese Einstellung vom Systemadministrator gesteuert werden muss, nicht jedoch vom Chamilo-Administrator \(eine sehr kleine Anzahl von Einstellungen wird dort beibehalten\)
+2. die Tabelle settings\_current \(und settings\_option\) \(s\), wenn diese Einstellungen auf der Seite mit den Plattformeinstellungen angezeigt werden sollen
 
-As indicated in the first chapters, the database cannot change between minor versions of Chamilo, so when we develop an optional feature in a minor version, we often use the configuration file to store the setting until we get to the next major version.
+Wie in den ersten Kapiteln angegeben, kann sich die Datenbank nicht zwischen Nebenversionen von Chamilo ändern. Wenn wir also eine optionale Funktion in einer Nebenversion entwickeln, verwenden wir die Konfigurationsdatei häufig, um die Einstellung zu speichern, bis wir zur nächsten Hauptversion gelangen.
 
-To be completed…
-
+Zu vollenden...

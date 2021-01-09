@@ -1,40 +1,40 @@
-# General usability
 
-Chamilo has been designed to provide help and support within the application. The icons are intended to symbolize what they represent, independently of any particular language or culture. Furthermore, each icon has a “mouse-over” description. If you allow your mouse to “hover” over an icon for one second \(without clicking\), you will see a simple pop-up description of the icon's function.
+# Allgemeine Usability
+
+Chamilo wurde entwickelt, um Hilfe und Unterstützung innerhalb der Anwendung zu bieten. Die Symbole sollen symbolisieren, was sie darstellen, unabhängig von einer bestimmten Sprache oder Kultur. Außerdem hat jedes Icon eine “mouse-over” Beschreibung. Wenn Sie der Maus eine Sekunde lang über ein Symbol fahren lassen \(ohne auf\ zu klicken), wird eine einfache Popup-Beschreibung der Funktion des Symbols angezeigt. “hover”
 
 ![](../../.gitbook/assets/images2%20%283%29.png)
 
-Illustration 2: Icons label
+Abbildung 2: Ikonen-Label
 
-There is also an online _help_ facility on most pages which appears as a partially hidden lifebuoy ring on the top right side of your screen \(see Illustration 3: Folded help\) and clicking it will open a window explaining the feature you're in and how to use it \(see Illustration 4, Unfolded help \).It remains in place when you scroll the screen so that it's constantly available and you can open and close it without affecting your current work. When you click the buoy, a small guide will open up, explaining the tool you're in and how to use it \(see Illustration 5: Contextual help pop-up\).
+Es gibt auch eine Online-_help_-Funktion auf den meisten Seiten, die als teilweise versteckter Rettungsringring oben rechts auf Ihrem Bildschirm angezeigt wird \(siehe Abbildung 3: Gefaltete Hilfe\), und wenn Sie darauf klicken, wird ein Fenster geöffnet, in dem Sie sich befinden und wie Sie sie verwenden können \(siehe Abbildung 4, Unfolded help\). an Ort und Stelle, wenn Sie den Bildschirm scrollen, damit er ständig verfügbar ist und Sie ihn öffnen und schließen können, ohne Ihre aktuelle Arbeit zu beeinträchtigen. Wenn Sie auf die Boje klicken, wird eine kleine Anleitung geöffnet, in der das Tool erläutert wird, in dem Sie sich befinden und wie Sie es verwenden können \(siehe Abbildung 5: Popup-Fenster für kontextbezogene Hilfe\).
 
 ![](../../.gitbook/assets/images3%20%283%29.png)
 
-Illustration 3: Folded help
+Abbildung 3: Gefaltete Hilfe
 
 ![](../../.gitbook/assets/illustration_4%20%281%29.png)
 
-Illustration 4: Unfolded help
+Abbildung 4: Entfaltete Hilfe
 
 ![](../../.gitbook/assets/images5%20%283%29.png)
 
-Illustration 5: Contextual help pop-up
+Abbildung 5: Kontext-Hilfe-Popup
 
-## Terminology <a id="terminology"></a>
+## Terminologie <a id="terminology"></a>
 
-At the time of writing, Chamilo is being used by more than 50,000 organizations around the world, in many different languages, including primary schools, colleges, higher education institutes, universities, NGOs, small, medium and large companies.
+Zum Zeitpunkt des Schreibens wird Chamilo von mehr als 50.000 Organisationen auf der ganzen Welt in vielen verschiedenen Sprachen genutzt, darunter Grundschulen, Hochschulen, Hochschulinstitute, Universitäten, NGOs, kleine, mittlere und große Unternehmen.
 
-Obviously, all these bodies and institutions tend to use slightly differing terminologies. For example, some institutions will call their courses “Training sessions”, others will call them “Learning spaces” and others simply “Courses”. This presents challenges for the design of a “one-size-fits-all” e-learning platform \(or even user guide\), so we have sought the middle road, and employ a simple, universal terminology which we trust will make sense to all our users.
+Offensichtlich verwenden alle diese Einrichtungen und Institutionen tendenziell leicht unterschiedliche Terminologien. Zum Beispiel nennen einige Institutionen ihre Kurse “Training sessions”, andere nennen sie “Learning spaces” und andere einfach “Courses”. Dies stellt die Entwicklung einer “one-size-fits-all” E-Learning-Plattform dar \(oder sogar eines Benutzerhandbuchs\). Daher haben wir die mittlere Straße gesucht und eine einfache, universelle Terminologie eingesetzt, von der wir vertrauen, dass sie für alle unsere Benutzer sinnvoll ist.
 
 ![](../../.gitbook/assets/images4%20%282%29.png)
 
-Illustration 6: History of Chamilo installations around the world, 2015 to 2017
+Abbildung 6: Geschichte der Chamilo-Installationen auf der ganzen Welt, 2015 bis 2017
 
-Of course, because we understand your organization may prefer a specific terminology, we have equipped Chamilo with a way to edit any interface term from within the platform administration. \(this requires administration skills and is thus described in the _Chamilo Administration Guide_\). Should you urgently require a customization, you can ask one of our official providers for a customized language pack to be imported into your platform.
+Da wir verstehen, dass Ihre Organisation eine bestimmte Terminologie bevorzugen kann, haben wir Chamilo natürlich mit einer Möglichkeit ausgestattet, jeden Interface-Begriff innerhalb der Plattformverwaltung zu bearbeiten. \(dies erfordert Verwaltungskenntnisse und wird daher im _Chamilo Administration Guide_\ beschrieben. Sollten Sie dringend eine Anpassung benötigen, können Sie einen unserer offiziellen Anbieter bitten, ein benutzerdefiniertes Language Pack in Ihre Plattform zu importieren.
 
-In this guide, we have endeavored to employ a universal terminology so, for example, the common education term “**student**” has been replaced by more neutral terms like “**learner**” which applies equally well in the business world. When referring to all kinds of users collectively, we have decided to use the term “**user**”.
+In diesem Leitfaden haben wir uns bemüht, eine universelle Terminologie einzusetzen, so dass beispielsweise der gemeinsame Bildungsbegriff “**student**” durch neutralere Begriffe wie “**learner**” ersetzt wurde, was in der Geschäftswelt gleichermaßen gut gilt. Wenn wir uns gemeinsam auf alle Arten von Benutzern beziehen, haben wir uns entschieden, den Begriff “**user**” zu verwenden.
 
-This manual is available in several formats, so you can always download it in editable format from our website and do a quick search & replace operation to make it fit your needs. Don't hesitate to send us the updated version back for sharing with others at info@chamilo.org. You'll be amazed at how this can benefit you in return, as other communities build up on your work to make things even better.
+Dieses Handbuch ist in verschiedenen Formaten verfügbar, sodass Sie es immer in bearbeitbarem Format von unserer Website herunterladen und eine schnelle Suche und Ersetzung durchführen können, um es Ihren Anforderungen anzupassen. Zögern Sie nicht, uns die aktualisierte Version zur Weitergabe an info@chamilo.org zurückzusenden. Sie werden erstaunt sein, wie Ihnen dies im Gegenzug zugute kommen kann, da andere Gemeinschaften auf Ihrer Arbeit aufbauen, um die Dinge noch besser zu machen.
 
-The somewhat ambivalent term “**training**” which had been employed in previous versions of the software has now been replaced by the more understandable term “**course**”, while the previously ousted term “**learning path**” has now been reinstated after a short and unpopular change to “**course**”. You will find all these terms defined and explained in the following guide. Don't forget: you can customize these terms with the help of your Chamilo administrator \(if that's you, check the _Chamilo Administration Guide,_ also available from our website\).
-
+Der etwas ambivalente Begriff “**training**”, der in früheren Versionen der Software verwendet wurde, wurde nun durch den verständlicheren Begriff “**course**” ersetzt, während der zuvor verdrängte Begriff “**learning path**” nun nach einer kurzen und unpopulären Änderung zu “**course**” wiederhergestellt wurde. Alle diese Begriffe finden Sie in der folgenden Anleitung definiert und erläutert. Vergessen Sie nicht: Sie können diese Bedingungen mit Hilfe Ihres Chamilo-Administrators anpassen \(wenn Sie es sind, lesen Sie den _Chamilo Administration Guide, _, der auch auf unserer Website verfügbar ist\).

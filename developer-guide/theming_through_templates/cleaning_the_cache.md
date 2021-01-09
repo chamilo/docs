@@ -1,16 +1,16 @@
-# Cleaning the cache
 
-If you're going to change templates, you need to know one thing and remember it: after writing your changes and before you test them, you will need to delete the contents of the `app/cache/twig/` directory.
+# Säubern des Cache
 
-Otherwise, the cache will stick around and you won't see any \(or you'll see only some\) of your changes, which could make you believe they didn't take effect.
+Wenn Sie Vorlagen ändern möchten, müssen Sie eines wissen und sich daran erinnern: Nachdem Sie Ihre Änderungen geschrieben haben und bevor Sie sie testen, müssen Sie den Inhalt des `app/cache/twig/` -Verzeichnisses löschen.
 
-This cleanup is also executed when using the "Archive/Cache cleanup" option on the main administration screen of your Chamilo portal \("System" block\).
+Andernfalls bleibt der Cache in der Nähe und Sie werden keine \(oder Sie werden nur einige\ sehen) Ihrer Änderungen sehen, was Sie glauben lassen könnte, dass sie nicht wirksam werden.
 
-Alternatively, you can use Chash \(a command line tool for Chamilo\) with the command:
+Diese Bereinigung wird auch ausgeführt, wenn Sie die "Archive/Cache cleanup" -Option auf dem Hauptadministrationsbildschirm Ihres Chamilo-Portals verwenden \("System" -Block\).
+
+Alternativ können Sie Chash \(ein Befehlszeilentool für Chamilo\) mit dem folgenden Befehl verwenden:
 
 ```text
 chash files:clean_temp_folder
 ```
 
-That is, if you have Chash[6](https://github.com/chamilo/chash) installed.
-
+Das heißt, wenn Sie Chash [6](https://github.com/chamilo/chash) installiert haben.

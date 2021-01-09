@@ -1,8 +1,8 @@
-# Groups list
 
-In this section, you can update or remove groups, and add users to a group thanks to icons we have already used previously.
+# Gruppenliste
 
-![](../../.gitbook/assets/groupeliste%20%283%29.png)Illustration 55: Administration – Social groups list
+In diesem Abschnitt können Sie Gruppen aktualisieren oder entfernen und Benutzer zu einer Gruppe hinzufügen, dank der Symbole, die wir bereits zuvor verwendet haben.
 
-If you click the link of the group name, you'll be redirected to the _Social network_ tab and the group page.
+![](../../.gitbook/assets/groupeliste%20%283%29.png)Illustration 55: Administration — Liste der sozialen Gruppen
 
+Wenn Sie auf den Link des Gruppennamens klicken, werden Sie zum Tab _Social Network_ und zur Gruppenseite weitergeleitet.

@@ -1,2 +1,2 @@
-# Structure: Learning paths
 
+# Struktur: Lernpfade

@@ -1,2 +1,2 @@
-# Installation and configuration
 
+# Installation und Konfiguration

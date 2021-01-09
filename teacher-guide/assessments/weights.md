@@ -1,83 +1,83 @@
-# Weights
 
-The weights, accessed through a percentage-symbol icon ![](../../.gitbook/assets/image4.svg) on the right side of the main assessments page, allow you to define the relative importance of each of the activities within the assessment. If you don't have any activity registered at this point, return to this section when you do.
+# Gewichte
+
+Die Gewichtungen, auf die über ein Prozentsymbolsymbol ![](../../.gitbook/assets/image4.svg) auf der rechten Seite der Hauptbewertungsseite zugegriffen wird, ermöglichen es Ihnen, die relative Bedeutung der einzelnen Aktivitäten innerhalb der Bewertung zu definieren. Wenn Sie zu diesem Zeitpunkt keine Aktivität registriert haben, kehren Sie in diesem Fall zu diesem Abschnitt zurück.
 
 ![](../../.gitbook/assets/images133%20%281%29.png)
 
-_Illustration 108: Assessments - Weights_
+_Abbildung 108: Bewertungen - Gewichts_
 
-We suggest that you define a distribution of weights that make a total of 100 \(or the equivalent total value for the course defined in the previous section\), otherwise it becomes really complicated to understand all the possible relative scoring issues. Several messages will remind you to do just that.
+Wir empfehlen Ihnen, eine Verteilung von Gewichtungen zu definieren, die insgesamt 100 \(oder den entsprechenden Gesamtwert für den im vorherigen Abschnitt definierten Kurs\) ausmachen, da es sonst sehr kompliziert wird, alle möglichen relativen Bewertungsprobleme zu verstehen. Mehrere Nachrichten werden Sie daran erinnern, genau das zu tun.
 
-## Skills ranking <a id="skills-ranking"></a>
+## Rangfolge Fertigkeiten <a id="skills-ranking"></a>
 
-Skills ranking allow you to define ranks for the scores, so that they can be more easily represented literally and graphically. This option, however, **must** be enabled by your portal administrator. Otherwise you won’t see the following options.
+Mit dem Skills-Ranking können Sie Ränge für die Ergebnisse definieren, damit sie buchstäblich und grafisch leichter dargestellt werden können. Diese Optionen**muss** von Ihrem Portaladministrator aktiviert werden. Andernfalls werden die folgenden Optionen nicht angezeigt.
 
-Click on the podium icon on the right side of the main assessments page ![](../../.gitbook/assets/graphics191.png):
+Klicke auf das Podium-Symbol auf der rechten Seite der Hauptbewertungsseite ![](../../.gitbook/assets/graphics191.png):
 
 ![](../../.gitbook/assets/graphics195.png)
 
-_Illustration 109: Assessments – Skills ranking_
+_Illustration 109: Bewertungen — Qualifikations-Rangelling_
 
-As well as a pass-mark, you can add additional options: e.g. the names you want to give to any score range to make it faster to read generic reports.
+Neben einer Pass-Marke können Sie zusätzliche Optionen hinzufügen: z. B. die Namen, die Sie jedem Bewertungsbereich geben möchten, um das Lesen generischer Berichte zu beschleunigen.
 
-## Certificate template <a id="certificate-template"></a>
+## Zertifikatvorlage <a id="certificate-template"></a>
 
-Once you have configured the rest of the tools, you might get interested in setting up your own certificate template. But before we start, let’s get 3 concepts clear:
+Sobald Sie die restlichen Tools konfiguriert haben, sind Sie möglicherweise daran interessiert, eine eigene Zertifikatvorlage einzurichten. Aber bevor wir beginnen, lassen Sie uns drei Konzepte klarstellen:
 
-* Certificate templates are built in HTML, so you will probably need a web designer \(or a lot of patience\) to generate beautiful templates.
-* Certificate templates are build in HTML \(yes, again\), so their export to PDF \(a feature provided as a commodity in Chamilo\) might not be ideal and you might need to work over that with your designer to make sure both results are fine.
-* Certificates are only generated when the certificates option is selected \(see Assessments pre-configurationon page 99\), if students have a passing grade, and if the student actually **enters** the assessment tool \(or, in 1.11, if you used the special certificate page in the learning path\)
+* Zertifikatvorlagen sind in HTML integriert, daher benötigen Sie wahrscheinlich einen Webdesigner \(oder viel Geduld\), um schöne Vorlagen zu erstellen.
+* Zertifikatvorlagen werden in HTML \(ja, wieder\) erstellt, sodass der Export nach PDF \(eine Funktion, die in Chamilo als Ware bereitgestellt wird) möglicherweise nicht ideal ist und Sie möglicherweise mit Ihrem Designer darüber arbeiten müssen, um sicherzustellen, dass beide Ergebnisse in Ordnung sind.
+* Zertifikate werden nur generiert, wenn die Zertifikatoption ausgewählt ist \(siehe Vorkonfiguration Beurteilungenauf Seite 99\), wenn die Schüler eine bestandene Note haben und wenn der Student tatsächlich als** das Bewertungstool eingibt \(oder in 1.11, wenn Sie die spezielle Zertifikatsseite im Lernpfad verwendet haben\)
 
-Theassessmentstool makes it possible to create a certificate generated automatically using the learner's data stored on the platform. To set this up, click the large certificate icon ![](../../.gitbook/assets/graphics193.png) on the right side of the main page. This will bring up a screen displaying a list of existing certificates, with tool-bar options to import ![](../../.gitbook/assets/graphics194.png) or create certificates. Chamilo provides one basic template certificate that you can update if you like. Click the _Create certificate_ icon ![](../../.gitbook/assets/graphics196.png) to go to a document creation page, which allows you to design a certificate.
+TheAssessmentstool ermöglicht es, ein Zertifikat zu erstellen, das automatisch unter Verwendung der auf der Plattform gespeicherten Daten des Lernenden generiert wird. Um dies einzurichten, klicken Sie rechts auf der Hauptseite auf das große Zertifikatsymbol ![](../../.gitbook/assets/graphics193.png). Dadurch wird ein Bildschirm angezeigt, auf dem eine Liste vorhandener Zertifikate angezeigt wird, mit Toolbar-Optionen zum Importieren von ![](../../.gitbook/assets/graphics194.png) oder zum Erstellen von Zertifikaten. Chamilo bietet ein grundlegendes Vorlagenzertifikat, das Sie aktualisieren können, wenn Sie möchten. Klicken Sie auf das Symbol _Certificate erstellen ![](../../.gitbook/assets/graphics196.png), um zu einer Seite zur Dokumenterstellung zu gelangen, auf der Sie ein Zertifikat entwerfen können.
 
-The page starts with a list of tags that you can use in the edition of your certificate:
+Die Seite beginnt mit einer Liste von Tags, die Sie in der Edition Ihres Zertifikats verwenden können:
 
-![](../../.gitbook/assets/image6%20%282%29.png)_Illustration 110: Certificates edition tags_
+![](../../.gitbook/assets/image6%20%282%29.png)_Illustration 110: Bescheinigungen Edition-tags_
 
-These tags are relatively self-explanatory, but for the sake of precision, let’s define them here:
+Diese Tags sind relativ selbsterklärend, aber aus Gründen der Präzision definieren wir sie hier:
 
-* **\(\(user\_firstname\)\)** will be replaced by the firstname of the user obtaining the certificate
-* **\(\(user\_lastname\)\)** same thing as above, with the lastname
-* **\(\(gradebook\_institution\)\)** this will be replaced by the name of your organization, defined by the administrator in the platform settings, and visible in the title bar of your browser
-* **\(\(gradebook\_sitename\)\)** will be replaced by the name of the platform, also defined by the administrator an visible in the title bar of your browser
-* **\(\(teacher\_firstname\)\)** will be replaced by the firstname of the teacher assigned to this course. A word of warning: this hasn’t been tested with multiple teachers or with sessions, so use with caution.
-* **\(\(teacher\_lastname\)\)** same as above, but lastname
-* **\(\(official\_code\)\)** if you use the users’ official code field, then the corresponding value will replace this tag when generating the certificate
-* **\(\(date\_certificate\)\)** will be replaced by the certificate date and time, in the date format that matches your language definition
-* **\(\(date\_certificate\_no\_time\)\)** same as above, without the hours and minutes
-* **\(\(course\_code\)\)** if you use a clear hierarchy of course codes, using the course code here might be useful
-* **\(\(course\_title\)\)** will be replaced by the course title
-* **\(\(gradebook\_grade\)\)** will be replaced by the score obtained \(both absolute and percentage\) by the student
-* **\(\(certificate\_link\)\)** will be replaced by the unique URL of the certificate. Chamilo keeps them well stored, so showing the link on a certificate that is going to be printed is a good idea to maintain the relationship with the digital original version
-* **\(\(certificate\_link\_html\)\)** in case you will export the certificate as an HTML certificate or a PDF certificate to use in a digital format, this will put an HTML link directly on the certificate
-* **\(\(certificate\_barcode\)\)** will replace the tag with a QR code with information about the certificate \(including the link to the original\). This is a very nice feature if you like QR codes, but you have to think that the tag \(a simple text on one line\) will actually be replaced by a good-size QR code. So plan the free space around this text well.
-* **\(\(external\_style\)\)** and **\(\(région\)\)** are examples of extra profile fields defined on users. Extra fields will appear in this list depending on their availability, so that’s a great extension you can give to your certificates if your administrator is open to this type of usage.
+* ** \(\ (user\_firstname\)\) ** wird durch den Vornamen des Benutzers ersetzt, der das Zertifikat erhält
+* ** \(\ (user\_lastname\)\) ** dasselbe wie oben, mit dem Nachnamen
+* ** \(\ (Bewertungsheft\_institution\)\) ** dies wird durch den Namen Ihrer Organisation ersetzt, der vom Administrator in den Plattformeinstellungen definiert und in der Titelleiste Ihres Browsers sichtbar ist
+* ** \(\ (Bewertungsheft\_sitename\)\) ** wird durch den Namen der Plattform ersetzt, der ebenfalls vom Administrator definiert wird und in der Titelleiste Ihres Browsers sichtbar ist
+* ** \(\ (Lehrer\_firstname\)\) ** wird durch den Vornamen des Lehrers ersetzt, der diesem Kurs zugewiesen ist. Ein Wort der Warnung: Dies wurde nicht mit mehreren Lehrern oder Sitzungen getestet, also sei mit Vorsicht geboten.
+* ** \(\ (Lehrer\_lastname\)\) ** wie oben, aber Nachname
+* ** \(\ (official\_code\)\) ** Wenn Sie das offizielle Codefeld des Benutzers verwenden, ersetzt der entsprechende Wert dieses Tag beim Generieren des Zertifikats
+* ** \(\ (date\_certificate\)\) ** wird durch das Datum und die Uhrzeit des Zertifikats im Datumsformat ersetzt, das Ihrer Sprachdefinition entspricht
+* ** \(\ (Datum\_Zertifikat\_nein\_Zeit\)\) ** wie oben, ohne die Stunden und Minuten
+* ** \(\ (course\_code\)\) ** Wenn Sie eine klare Hierarchie von Kurscodes verwenden, könnte die Verwendung des Kurscodes hier nützlich sein
+* ** \(\ (course\_title\)\) ** wird durch den Kurstitel ersetzt
+* ** \(\ (Bewertungsheft\_grade\)\) ** wird durch die Punktzahl ersetzt, die \(sowohl absolut als auch prozentual\) durch den Studenten erhalten wurde
+* ** \(\ (Zertifikat\_link\)\) ** wird durch die eindeutige URL des Zertifikats ersetzt. Chamilo hält sie gut gelagert, daher ist es eine gute Idee, den Link auf einem Zertifikat anzuzeigen, das gedruckt wird, um die Beziehung zur digitalen Originalversion aufrechtzuerhalten
+* ** \(\ (Zertifikat\_link\_html\)\) ** Falls Sie das Zertifikat als HTML-Zertifikat oder PDF-Zertifikat für die Verwendung in einem digitalen Format exportieren, wird ein HTML-Link direkt auf das Zertifikat gesetzt
+* ** \(\ (Zertifikat\_barcode\)\) ** ersetzt das Tag durch einen QR-Code durch Informationen über das Zertifikat \(einschließlich des Links zum Original\). Dies ist eine sehr nette Funktion, wenn Sie QR-Codes mögen, aber Sie müssen denken, dass das Tag \(ein einfacher Text in einer Zeile\) tatsächlich durch einen QR-Code in guter Größe ersetzt wird. Planen Sie also den freien Speicherplatz um diesen Text gut.
+* ** \(\ (extern\_style\)\) ** und ** \(\ (Region\)\) ** sind Beispiele für zusätzliche Profilfelder, die für Benutzer definiert wurden. Je nach Verfügbarkeit werden zusätzliche Felder in dieser Liste angezeigt. Dies ist eine großartige Erweiterung, die Sie Ihren Zertifikaten zur Verfügung stellen können, wenn Ihr Administrator für diese Art der Nutzung offen ist.
 
-Editing the certificate is then only a question of finding a good text and the right tags:
+Die Bearbeitung des Zertifikats ist dann nur eine Frage der Suche nach einem guten Text und den richtigen Tags:
 
-![](../../.gitbook/assets/image7%20%282%29.png)_Illustration 111: Certificate creation area_
+![](../../.gitbook/assets/image7%20%282%29.png)_Illustration 111: Bereich für die Zertifikatserstellung_
 
-Once you have created and saved your certificate, the main Certificate page lists the certificates that have been uploaded or created.
+Nachdem Sie Ihr Zertifikat erstellt und gespeichert haben, werden auf der Hauptseite Zertifikat die Zertifikate aufgeführt, die hochgeladen oder erstellt wurden.
 
-![](../../.gitbook/assets/image8%20%282%29.png)_Illustration 112: Certificate templates list_
+![](../../.gitbook/assets/image8%20%282%29.png)_Illustration 112: Liste der Zertifikatvorlagen_
 
-You might note that the 5th icon on the right has a slightly different color for the first and the second line… That’s because the “Default certificate” in this example is still considered the… default certificate. To change that, you will have to click on the gray icon on the second line \(![](../../.gitbook/assets/graphics198.png)\) to make your new certificate \(“Future of Learning” in this example\) the default certificate for all students.
+Sie könnten feststellen, dass das fünfte Symbol auf der rechten Seite eine etwas andere Farbe für die erste und die zweite Zeile hat... Das liegt daran, dass das “Default certificate” in diesem Beispiel immer noch als... Standardzertifikat gilt. Um dies zu ändern, müssen Sie auf das graue Symbol in der zweiten Zeile \(![](../../.gitbook/assets/graphics198.png)\) klicken, um Ihr neues Zertifikat \(“Future of Learning” in diesem Beispiel“ zum Standardzertifikat für alle Studenten zu machen.
 
-Only one certificate can be selected in a course at any one time, so choose well.
+Es kann immer nur ein Zertifikat in einem Kurs ausgewählt werden, also wähle gut aus.
 
-Once this is done, the magnifier icon ![](../../.gitbook/assets/image9.svg) will allow you to see a preview of the certificate with fake values. In our example, this gives something like this:
+Sobald dies erledigt ist, können Sie mit dem Lupensymbol ![](../../.gitbook/assets/image9.svg) eine Vorschau des Zertifikats mit gefälschten Werten sehen. In unserem Beispiel gibt das so etwas:
 
 ![](../../.gitbook/assets/image10%20%281%29.png)
 
-_Illustration 113: Example certificate_
+_Illustration 113: Beispiel-Zertifikat_
 
-Missing something? Clearly, some HTML design with a logo, the names of the people approving this certificate would have been a good addition. You will find these on the certificate available in every course in Chamilo by default, which would render like this.
+Fehlt etwas? Offensichtlich wären einige HTML-Designs mit einem Logo, die Namen der Personen, die dieses Zertifikat genehmigen, eine gute Ergänzung gewesen. Sie finden diese standardmäßig auf dem Zertifikat, das in jedem Kurs in Chamilo verfügbar ist und das so rendern würde.
 
-![](../../.gitbook/assets/image11%20%282%29.png)_Illustration 114: Default certificate template available in Chamilo_
+![](../../.gitbook/assets/image11%20%282%29.png)_Illustration 114: Standardzertifikatvorlage in Chamilo_
 
-As you can see, this template is much more developed than the quick template we built as an example for this guide. That’s because we intent to provide you with the best tools and templates to ensure you can generate a great impact with your course with minimal effort. You can edit the default template if you want and replace the logo by your institution’s logo. This is all up to you.
+Wie Sie sehen, ist diese Vorlage viel weiter entwickelt als die Schnellvorlage, die wir als Beispiel für diesen Leitfaden erstellt haben. Das liegt daran, dass wir Ihnen die besten Tools und Vorlagen zur Verfügung stellen möchten, um sicherzustellen, dass Sie mit minimalem Aufwand eine große Wirkung auf Ihren Kurs erzielen können. Sie können die Standardvorlage bei Bedarf bearbeiten und das Logo durch das Logo Ihrer Institution ersetzen. Das liegt ganz bei dir.
 
-This certificate, however, sometimes shows a little defect when exporting to PDF, so test it first if you expect this to be your best feature...
+Dieses Zertifikat weist jedoch beim Exportieren nach PDF manchmal einen kleinen Defekt auf. Testen Sie es also zuerst, wenn Sie davon ausgehen, dass dies Ihre beste Funktion ist...
 
-You can return to the assessments screen through the breadcrumb navigation \(click _Assessments_\).
-
+Sie können über die Breadcrumb-Navigation zum Bewertungsbildschirm zurückkehren (klicken Sie auf _Assessments_\).

@@ -1,8 +1,8 @@
-# Templates
 
-![](../../../.gitbook/assets/graficos18%20%286%29.png)Document templates allow you to speed up the creation of content in Chamilo. Creating new templates in this part of the platform will affect the whole portal.
+# Vorlagen
 
-Create, edit and remove templates easily. It is close from the documents edition tools inside the course. Don't hesitate to try it out and create a new template. You can always delete afterwards if you're not happy with it.
+Mit ![](../../../.gitbook/assets/graficos18%20%286%29.png)Document -Vorlagen können Sie die Erstellung von Inhalten in Chamilo beschleunigen. Das Erstellen neuer Vorlagen in diesem Teil der Plattform wirkt sich auf das gesamte Portal aus.
 
-This feature is particularly useful to set your own templates to your organization's standards.
+Erstellen, bearbeiten und entfernen Sie Vorlagen einfach. Es ist nah an den Tools der Dokumentenedition innerhalb des Kurses. Zögern Sie nicht, es auszuprobieren und eine neue Vorlage zu erstellen. Du kannst danach immer löschen, wenn du damit nicht zufrieden bist.
 
+Diese Funktion ist besonders nützlich, um Ihre eigenen Vorlagen an die Standards Ihres Unternehmens anzupassen.

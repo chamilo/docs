@@ -1,14 +1,14 @@
-# Survey creation
 
-To create a survey, click the _Create survey_ icon ![](../../.gitbook/assets/graphics291.png) on the main S_urvey_ page_:_
+# Umfrage-Erstellung
+
+Um eine Umfrage zu erstellen, klicken Sie auf das Symbol _Create Survey_ ![](../../.gitbook/assets/graphics291.png) auf der Hauptseite von s_URVEY_
 
 ![](../../.gitbook/assets/images223.png)
 
-_Illustration 154: Surveys – Creation form_
+_Illustration 154: Umfragen — Formular für Schöpfung_
 
-Complete the fields, giving your survey a _Code_, a _Title,_ and a _Subtitle_ \(description\). Optionally, you can set a start and end date so the survey is only available for a limited time. You can choose whether your survey will be anonymous \(users' answers will not be identifiable\) by checking the relevant box. Finally, write a survey introduction \(this is a text that will appear just before the user starts the survey\) and a _Final thanks_ message \(this will appear when the users finish the survey, to thank them and maybe inform them of when the results will be compiled and used\).
+Füllen Sie die Felder aus und geben Sie Ihrer Umfrage einen _Code_, einen _Title, _ und einen _Untertitel \(Beschreibung\). Optional können Sie ein Start- und Enddatum festlegen, sodass die Umfrage nur für eine begrenzte Zeit verfügbar ist. Sie können wählen, ob Ihre Umfrage anonym sein wird \(die Antworten der Benutzer sind nicht identifizierbar\), indem Sie das entsprechende Kästchen ankreuzen. Schreiben Sie abschließend eine Umfrageeinführung \(dies ist ein Text, der kurz vor dem Start der Umfrage angezeigt wird\) und eine _Final thanks_ Nachricht \(dies wird angezeigt, wenn die Benutzer die Umfrage beenden, um ihnen zu danken und sie möglicherweise darüber zu informieren, wann die Ergebnisse kompiliert und verwendet werden\).
 
-In the _Advanced settings_, you can choose whether you want this survey to be considered an essential element of the _Assessments_ \(_Gradebook_\)\_s\_tool , whether you want it to be attached to a parent survey \(not documented in this guide yet\), whether you want to have one question per page or whether you want to shuffle questions.
+In den Einstellungen _Advanced können Sie wählen, ob diese Umfrage als wesentliches Element von _Assessments_ \(_Gradebook_\)\_s\_s\_tool betrachtet werden soll, ob Sie möchten, dass sie an eine übergeordnete Umfrage angehängt wird \(noch nicht in diesem Leitfaden dokumentiert\), ob Sie eine Frage pro Seite haben möchten oder ob Sie möchte Fragen mischen.
 
-Remember to click the _Create survey_ button.
-
+Denken Sie daran, auf die Schaltfläche „Umfrage erstellen_“ zu klicken.

@@ -1,8 +1,8 @@
+
 # Assessments
 
-![](../../../.gitbook/assets/graficos12%20%284%29.png)These are global parameters for the assessments tool, which can be redefined \(in most cases\) tat the course level.
+![](../../../.gitbook/assets/graficos12%20%284%29.png)These sind globale Parameter für das Bewertungstool, das auf Kursebene neu definiert werden kann \(in den meisten Fällen\).
 
-**Marks thresholds colouring** enables the colouring of marks in the assessments. It is also necessary to define the marks that will effectively be coloured red.
+**Markierungen Schwellenwert-Färbe** ermöglicht das Einfärben von Markierungen in den Bewertungen. Es ist auch notwendig, die Markierungen zu definieren, die effektiv rot gefärbt werden.
 
-**Marks levels labelling** enables setting different levels of marks as labels \(“E” level for less than 50%\).
-
+**Kennzeichnet Ebenenbeschriftung** ermöglicht das Festlegen verschiedener Markenstufen als Beschriftungen \(“E” Level für weniger als 50%\).

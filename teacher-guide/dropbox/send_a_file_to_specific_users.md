@@ -1,14 +1,14 @@
-# Send a file to specific users
 
-* click the _Share a new file_ icon ![](../../.gitbook/assets/graphics271.png)
-* click the _choose file_ button and select the file on your computer,
-* decide whether to overwrite other files with the same name
-* in the _Send to_ list, select the people to share the document with \(groups can also be selected by holding the CTRL key pressed while clicking the names\)
-* click the _Upload_ button.
+# Senden Sie eine Datei an bestimmte Benutzer
+
+* klicken Sie auf das Symbol „Eine neue Datei teilen“ ![](../../.gitbook/assets/graphics271.png)
+* klicken Sie auf die Schaltfläche _choose file_ und wählen Sie die Datei auf Ihrem Computer aus,
+* entscheiden Sie, ob andere Dateien mit dem gleichen Namen überschrieben werden sollen
+* Wählen Sie in der Liste _An senden die Personen aus, für die das Dokument freigegeben werden soll \(Gruppen können auch ausgewählt werden, indem Sie die STRG-Taste gedrückt halten, während Sie auf die Namen klicken\)
+* klicken Sie auf die Schaltfläche _Upload.
 
 ![](../../.gitbook/assets/images203.png)
 
-_Illustration 146: Dropbox – Sending a file_
+_Illustration 146: Dropbox — Eine Datei_
 
-Files will be listed under the “sent files” tab if they have been uploaded by the user, and under the “received file” tab if the file was uploaded by someone else all files can be instantly accessed by the recipient as well as the sender.
-
+Dateien werden auf der Registerkarte “sent files” aufgelistet, wenn sie vom Benutzer hochgeladen wurden, und unter der Registerkarte “received file”, wenn die Datei von jemand anderem hochgeladen wurde, können alle Dateien sofort vom Empfänger und vom Absender aufgerufen werden.

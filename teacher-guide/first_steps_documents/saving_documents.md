@@ -1,8 +1,8 @@
-# Saving documents
 
-Chamilo allows you to save all the documents, or a specific directory, simply by clicking on the _Save \(ZIP\)_ icon ![](../../.gitbook/assets/graphics120.png) in the toolbar at the top of the page.
+# Dokumente speichern
 
-![](../../.gitbook/assets/images44%20%282%29.png)_Illustration 38: Documents – Download a copy_
+Chamilo ermöglicht es Ihnen, alle Dokumente oder ein bestimmtes Verzeichnis zu speichern, indem Sie einfach auf das Symbol _Save \(ZIP\) _ in der Symbolleiste oben auf der Seite klicken. ![](../../.gitbook/assets/graphics120.png)
 
-It is also possible to save a single file by clicking on the _download_ icon ![](../../.gitbook/assets/graphics123.png) to the right of the filename, or to download a specific directory by clicking on the _Save \(ZIP\)_ icon ![](../../.gitbook/assets/graphics121.png) to the right of the directory listing. The briefcase icon ![](../../.gitbook/assets/graphics124.png) allows users to copy a shared file into their private file area in the _social networks_ area \(see chapter 35\).
+![](../../.gitbook/assets/images44%20%282%29.png)_Illustration 38: Dokumente — Ein Copy_ herunterladen
 
+Es ist auch möglich, eine einzelne Datei zu speichern, indem Sie auf das _download_-Symbol ![](../../.gitbook/assets/graphics123.png) rechts neben dem Dateinamen klicken oder ein bestimmtes Verzeichnis herunterladen, indem Sie auf das ![](../../.gitbook/assets/graphics121.png) -Symbol _Save \(ZIP\) _ rechts neben der Verzeichnisliste klicken. Das Aktenkoffersymbol ![](../../.gitbook/assets/graphics124.png) ermöglicht es Benutzern, eine freigegebene Datei in ihren privaten Dateibereich im Bereich _social networks_ zu kopieren \(siehe Kapitel 35\).

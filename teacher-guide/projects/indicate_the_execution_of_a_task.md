@@ -1,17 +1,17 @@
-# Indicate the execution of a task
 
-Whether for a teacher or a learner, tasks assigned to any user are shown at the bottom left of the projects page under section _My tasks._
+# Geben Sie die Ausführung einer Aufgabe an
 
-To indicate the successful execution of a task:
+Ob für einen Lehrer oder einen Lernenden, Aufgaben, die einem Benutzer zugewiesen sind, werden unten links auf der Projektseite unter Abschnitt _Meine Aufgaben angezeigt._
 
-* click on an executed task,
-* in the project steps list, select the article you want to attach the task to,
-* in the resulting screen, fill the task name, a comment and optionally a document,
-* click _Save_.
+So geben Sie die erfolgreiche Ausführung einer Aufgabe an:
 
-The execution report of the task appears as a comment to the article.
+* klicke auf eine ausgeführte Aufgabe,
+* Wählen Sie in der Liste der Projektschritte den Artikel aus, an den Sie die Aufgabe anhängen möchten,
+* füllen Sie auf dem resultierenden Bildschirm den Namen der Aufgabe, einen Kommentar und optional ein Dokument aus,
+* klicken Sie auf _Save_.
+
+Der Ausführungsbericht der Aufgabe wird als Kommentar zum Artikel angezeigt.
 
 ![](../../.gitbook/assets/images240.png)
 
-_Illustration 170: Projects – Tasks comments_
-
+_Illustration 170: Projekte — Aufgabenkommentare_

@@ -1,8 +1,8 @@
-# System AdministratorsWeb services
+
+# SystemadministratorsWEB Dienste
 
 ![](../../.gitbook/assets/images27%20%288%29.png) ![](../../.gitbook/assets/images28%20%288%29.png)
 
-Basic information about web services in Chamilo LMS can always be found here: [Chamilo-APIs](https://github.com/chamilo/chamilo-lms/wiki/Chamilo-APIs) but the information there might not be fully up to date \(the one in this manual either\) as services tend to change or increase in number over time \(although, obviously, we do our best to maintain backwards compatibility\).
+Grundlegende Informationen zu Webdiensten in Chamilo LMS finden Sie immer hier: [Chamilo-APIs](https://github.com/chamilo/chamilo-lms/wiki/Chamilo-APIs) Aber die Informationen dort sind möglicherweise nicht vollständig auf dem neuesten Stand \(die in diesem Handbuch\), da sich die Dienste im Laufe der Zeit tendenziell ändern oder an Zahl zunehmen \(obwohl wir natürlich unser Bestes tun, um die Abwärtskompatibilität aufrechtzuerhalten\).
 
-But the most reliable source is always the code, which can be found inside the main/webservices/ folder.
-
+Die zuverlässigste Quelle ist jedoch immer der Code, der sich im main/webservices/ -Ordner befindet.

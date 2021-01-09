@@ -1,6 +1,7 @@
-Chamilo Teacher Guide
-=====================
 
-This guide is currently not up to date.
+Chamilo Lehrerführer
+=======================
 
-Don't bother? Get started with the [Introduction](introduction/README.md)
+Dieser Leitfaden ist derzeit nicht auf dem neuesten Stand.
+
+Mach dir keine Mühe? Beginnen Sie mit dem [Einführung](introduction/README.md)

@@ -1,25 +1,25 @@
-# Replace the older version by the new one
 
-Before applying a more recent version “on top of” your current Chamilo version, you might want to apply a few changes to the package “just in case”. For example, the following directories could be removed from the Chamilo package **before** you copy them over your current installation:
+# Ersetzen Sie die ältere Version durch die neue
+
+Bevor Sie eine neuere Version “on top of” Ihrer aktuellen Chamilo-Version anwenden, möchten Sie vielleicht ein paar Änderungen am Paket “just in case” vornehmen. Beispielsweise könnten die folgenden Verzeichnisse aus dem Chamilo-Paket**vor** entfernt werden, wenn Sie sie über Ihre aktuelle Installation kopieren:
 
 * home/
-* courses/
+* Kurse/
 * main/inc/conf/
 * main/upload/users/
 * main/searchdb/
 
-These directories are all supposed to be about the same in the new version, and might all have been altered by your use of Chamilo through the web interface, so to avoid any file clash, just remove them from the Chamilo package, then continue...
+Diese Verzeichnisse sollen in der neuen Version ungefähr gleich sein und wurden möglicherweise alle durch die Verwendung von Chamilo über das Webinterface geändert. Um einen Dateikolliv zu vermeiden, entfernen Sie sie einfach aus dem Chamilo-Paket und fahren Sie dann fort...
 
-There is only one recommended way to update your Chamilo version for now:
+Es gibt nur eine empfohlene Möglichkeit, Ihre Chamilo-Version vorerst zu aktualisieren:
 
-1. Don't delete the previous folder, otherwise the older configuration files will be lost.
-2. Simply copy the new Chamilo directory over the old one.
-   * if you use a GNU/Linux distribution, you'll have to copy the entire new directory to the old one, i.e.:
+1. Löschen Sie den vorherigen Ordner nicht, da sonst die älteren Konfigurationsdateien verloren gehen.
+2. Kopieren Sie einfach das neue Chamilo-Verzeichnis über das alte.
+ * Wenn Sie eine GNU/Linux-Distribution verwenden, müssen Sie das gesamte neue Verzeichnis in das alte kopieren, d.h.:
 
-| user@server: sudo cp -r chamilo-1.9.4/\* /var/www/chamilo/ |
-| :--- |
+| user @server: sudo cp -r chamilo-1.9.4/\* /var/www/chamilo/ |
+|: — |
 
 
-1. Then go through the steps from _«**2.2.2**Last installation settings\_\_»_.
-2. Connect to your site and check that everything is there.
-
+1. Dann gehe die Schritte von _ «**2.2.2**Last installation settings\_\_»_ durch.
+2. Verbinde dich mit deiner Seite und überprüfe, ob alles da ist.

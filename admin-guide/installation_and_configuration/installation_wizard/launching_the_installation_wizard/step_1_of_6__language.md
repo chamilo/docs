@@ -1,8 +1,8 @@
-# Step 1 of 6 : Language
 
-This screen prompts you to choose the installation language. Since version 1.8.8, your language is automatically detected via your browser's parameters, and this screen simply requires you to confirm whether the detected language is correct.
+# Schritt 1 von 6: Sprache
 
-Beware that this is **not** the final language of the platform, but rather the one for the installation procedure, nothing more.
+In diesem Bildschirm werden Sie aufgefordert, die Installationssprache zu wählen. Seit Version 1.8.8 wird Ihre Sprache automatisch über die Parameter Ihres Browsers erkannt, und auf diesem Bildschirm müssen Sie lediglich bestätigen, ob die erkannte Sprache korrekt ist.
 
-![](../../../../.gitbook/assets/images2%20%287%29.png)Illustration 3: Installation – Choosing the language
+Beachten Sie, dass dies **nicht** die endgültige Sprache der Plattform ist, sondern eher die für den Installationsvorgang, nicht mehr.
 
+![](../../../../.gitbook/assets/images2%20%287%29.png)Illustration 3: Installation — Die Wahl der Sprache

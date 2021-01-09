@@ -1,19 +1,19 @@
-# The solution
 
-We call this solution _multi-URL_. By enabling multi-URL, you enable the following mechanism:
+# Die Lösung
 
-* you use the same source code \(so less maintenance\)
-* you use the same database \(so less duplication of data\)
-* one “master” portal \(which is not used directly by your customers\) allows you to define “slave” portals
-* each course is created inside a “slave” portal, and is only visible inside this slave portal
-* each user is created inside a “slave” portal, is only visible inside this portal and has only access to this portal
-* each slave portal uses a different domain name \(or a different sub-domain\)
-* each portal can use its own graphic style
-* one \(or more\) administrator can be assigned to each slave portal. This administrator doesn't have access to global settings, neither to the users and courses of other portals
-* one session can use a global course, but each session only exists in one and only one portal
+Wir nennen diese Lösung _Multi-URL_. Indem Sie Multi-URL aktivieren, aktivieren Sie den folgenden Mechanismus:
 
-Using the same database, you benefit from these “extra features”:
+* du verwendest den gleichen Quellcode \(also weniger Wartung\)
+* Sie benutzen die gleiche Datenbank \(also weniger Duplizierung von Daten\)
+* Ein “master” -Portal \(das nicht direkt von Ihren Kunden genutzt wird\) ermöglicht es Ihnen, “slave” Portale zu definieren
+* Jeder Kurs wird in einem “slave” -Portal erstellt und ist nur in diesem Slave-Portal sichtbar
+* Jeder Benutzer wird in einem “slave” -Portal erstellt, ist nur innerhalb dieses Portals sichtbar und hat nur Zugriff auf dieses Portal
+* Jedes Slave-Portal verwendet einen anderen Domain-Namen \(oder eine andere Subdomäne\)
+* jedes Portal kann seinen eigenen Grafikstil verwenden
+* jedem Slave-Portal kann ein \(oder mehr\) Administrator zugewiesen werden. Dieser Administrator hat keinen Zugriff auf globale Einstellungen, auch nicht auf die Benutzer und Kurse anderer Portale
+* Eine Sitzung kann einen globalen Kurs verwenden, aber jede Sitzung existiert nur in einem einzigen Portal
 
-* one course can be made “global” and be used through sessions on all slave portals
-* one user \(learner, teacher or administrator\) can be given access to other portals by the global administrator
+Mit der gleichen Datenbank profitieren Sie von diesen “extra features”:
 
+* Ein Kurs kann “global” gemacht werden und über Sitzungen auf allen Slave-Portalen verwendet werden
+* Ein Benutzer \(Lernender, Lehrer oder Administrator\) kann vom globalen Administrator Zugriff auf andere Portale erhalten

@@ -1,16 +1,16 @@
-# PhpMyAdmin database backup
 
-Databases can be saved from the [P](http://fr.wikipedia.org/wiki/PhpMyAdmin)[hpMyAdmin](http://fr.wikipedia.org/wiki/PhpMyAdmin) interface, connecting using the login and password created during the [LAMP](http://fr.wikipedia.org/wiki/LAMP) server installation, the database installation, or in the data transmitted by your hosting provider.
+# phpMyAdmin-Datenbanksicherung
 
-![](../../../.gitbook/assets/phpaccueuil%20%283%29.png)Illustration 15: Administration - PHPMyAdmin
+Datenbanken können über die [P](http://fr.wikipedia.org/wiki/PhpMyAdmin) [hpMyAdmin](http://fr.wikipedia.org/wiki/PhpMyAdmin) -Schnittstelle gespeichert werden, indem Sie mit dem Login und dem Passwort verbinden, die während der [LAMP](http://fr.wikipedia.org/wiki/LAMP) -Serverinstallation, der Datenbankinstallation oder der von Ihrem Hosting-Anbieter übermittelten Daten erstellt wurden.
 
-Once in the graphical interface of PhpMyAdmin, go to the \_Export\_tab and select the database to be saved. There's probably another one called “information\_schema”, which you can just ignore.
+![](../../../.gitbook/assets/phpaccueuil%20%283%29.png)Illustration 15: Verwaltung - phpMyAdmin
 
-You may want to change the output format of the backup file. To save, choose on the desired format below the databases to export. In the present example we chose SQL.
+Wechseln Sie in der grafischen Oberfläche von phpMyAdmin auf die Registerkarte\_Export\__und wählen Sie die Datenbank aus, die gespeichert werden soll. Es gibt wahrscheinlich einen anderen namens “information\_schema”, den du einfach ignorieren kannst.
 
-The name of the saved file can also be changed in the _Output_ section. It can be compressed using one of the three offered formats. Do not forget to select the _Save output to a file_ option, otherwise it will just print the backup result on screen, which will not really help you.
+Möglicherweise möchten Sie das Ausgabeformat der Sicherungsdatei ändern. Um zu speichern, wählen Sie das gewünschte Format unter den zu exportierenden Datenbanken aus. Im vorliegenden Beispiel haben wir uns für SQL entschieden.
 
-You're only left with downloading the file. It will be saved by default in your _Downloads_ directory or on your desktop, depending on your browser's configuration.
+Der Name der gespeicherten Datei kann auch im Abschnitt _Output_ geändert werden. Es kann mit einem der drei angebotenen Formate komprimiert werden. Vergessen Sie nicht, die Option _Save Ausgabe in eine Datei_ auszuwählen, da sie sonst einfach das Backup-Ergebnis auf dem Bildschirm ausgibt, was Ihnen nicht wirklich hilft.
 
-Saving the databases through _hpMyAdmin_ is over. The saved file will be to the SQL format \(.sql extension\) and will be importable later on, in case of problem, through PhpMyAdmin.
+Sie haben nur noch das Herunterladen der Datei übrig. Es wird je nach Konfiguration Ihres Browsers standardmäßig in Ihrem _Downloads_-Verzeichnis oder auf Ihrem Desktop gespeichert.
 
+Das Speichern der Datenbanken über _HPMyAdmin_ ist beendet. Die gespeicherte Datei wird in das SQL-Format \(.sql-Erweiterung\) erstellt und kann später im Falle eines Problems über phpMyAdmin importiert werden.

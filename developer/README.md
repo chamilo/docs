@@ -1,6 +1,7 @@
-Chamilo Developer Guide
-=======================
 
-This guide is only for developers and themers of a Chamilo portal.
+Chamilo Entwicklerhandbuch
+===========================
 
-Get started with the [Introduction](introduction/README.md)
+Dieser Leitfaden richtet sich nur an Entwickler und Themenhersteller eines Chamilo-Portals.
+
+Beginnen Sie mit dem [Einführung](introduction/README.md)

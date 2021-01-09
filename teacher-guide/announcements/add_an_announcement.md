@@ -1,25 +1,25 @@
-# Add an announcement
 
-From the main Announcement page:
+# Eine Ankündigung hinzufügen
+
+Von der Haupt-Ankündigungsseite:
 
 * ![](../../.gitbook/assets/images164%20%284%29.png)
 
-  Illustration 125: Add an announcement
+ Abbildung 125: Eine Ankündigung hinzufügen
 
-  click the _Add an announcement_ icon ![](../../.gitbook/assets/graphics227%20%283%29.png),
+klicken Sie auf das Symbol _Ankündigung hinzufügen_ ![](../../.gitbook/assets/graphics227%20%283%29.png),
 
-* by default, the announcement will be sent to all users, but it is possible to edit the list of recipients by clicking on the _visible to_ link ![](../../.gitbook/assets/graphics228%20%283%29.png)
-* the announcement can be sent by e-mail to the course users \(check the _Send this announcement by email to selected groups/users_ box\),
-* add an announcement subject,
-* write the main announcement using the editor,
-* add an attachment if desired,
-* click _Send announcement_.
+* Standardmäßig wird die Ankündigung an alle Benutzer gesendet, es ist jedoch möglich, die Liste der Empfänger zu bearbeiten, indem Sie auf den Link _visible to_ klicken ![](../../.gitbook/assets/graphics228%20%283%29.png)
+* Die Ankündigung kann per E-Mail an die Kursbenutzer gesendet werden \(aktivieren Sie das Kästchen _Diese Ankündigung per E-Mail an ausgewählte Gruppen/Benutzer senden_\),
+* ein Mitteilungsthema hinzufügen,
+* schreibe die Hauptankündigung mit dem Editor,
+* fügen Sie auf Wunsch einen Anhang hinzu,
+* klicken Sie auf _Mitteilung senden_.
 
-Note: since version 1.8.8.4, you can use tags inside your announcements \(just copy-paste them\). These tags will be automatically replaced by the corresponding value when sent by e-mail or displayed on the platform to users.
+Hinweis: Seit Version 1.8.8.4 können Sie Tags in Ihren Ankündigungen verwenden \(kopieren Sie sie einfach\). Diese Tags werden automatisch durch den entsprechenden Wert ersetzt, wenn sie per E-Mail gesendet oder den Benutzern auf der Plattform angezeigt werden.
 
-Announcements will appear to recipients like this on the platform:
+Ankündigungen werden Empfängern wie dieser auf der Plattform angezeigt:
 
 ![](../../.gitbook/assets/graphics233%20%283%29.png)
 
-Illustration 126: Announcements – learner view
-
+Abbildung 126: Ankündigungen — Ansicht der Lernenden

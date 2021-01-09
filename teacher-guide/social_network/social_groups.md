@@ -1,19 +1,19 @@
-# Social groups
 
-The _Social groups_ link ![](../../.gitbook/assets/graphics341.png) compiles together all groups that exist on the platform. These groups can only be created by administrators, unless they have enabled this option for all users.
+# Soziale Gruppen
 
-There are two types of groups, depending on access:
+Der Link _Social groups_ ![](../../.gitbook/assets/graphics341.png) fasst alle Gruppen zusammen, die auf der Plattform existieren. Diese Gruppen können nur von Administratoren erstellt werden, es sei denn, sie haben diese Option für alle Benutzer aktiviert.
 
-* public \(everybody can join\)
-* private \(the group administrator must authorize the membership request\)
+Je nach Zugriff gibt es zwei Arten von Gruppen:
+
+* public \(jeder kann beitreten\)
+* privat \(der Gruppenadministrator muss die Mitgliedschaftsanfrage autorisieren\)
 
 ![](../../.gitbook/assets/images260.png)
 
-_Illustration 192: Social network – Social groups_
+_Illustration 192: Soziales Netzwerk — Soziale Gruppen_
 
-The _My groups tab_ lists the groups of which you are a member. These groups work as a forum. The administrator \(or moderator\) creates discussion topics and users start contributing.
+Der Tab „Meine Gruppen“ listet die Gruppen auf, bei denen Sie Mitglied sind. Diese Gruppen arbeiten als Forum. Der Administrator \(oder Moderator\) erstellt Diskussionsthemen und Benutzer beginnen mit dem Beitrag.
 
 ![](../../.gitbook/assets/images261.png)
 
-_Illustration 193: Social network – Social groups interface_
-
+_Illustration 193: Soziales Netzwerk — Soziale Gruppen interface_

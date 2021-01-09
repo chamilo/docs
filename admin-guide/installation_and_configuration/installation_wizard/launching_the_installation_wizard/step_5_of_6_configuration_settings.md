@@ -1,20 +1,20 @@
-# Step 5 of 6: Configuration settings
 
-Every setting of this step can be modified after the installation through theChamilo _Administration_ page, **except** for the _Encryption method_ and the _Portal URL._
+# Schritt 5 von 6: Konfigurationseinstellungen
 
-_Encryption method_ is almost impossible to change afterwards as it would imply re-generating new passwords for all users and sending them by e-mail. The default option is always the most secure, so we recommend you **leave it** as it is.
+Jede Einstellung dieses Schritts kann nach der Installation über die Seite Chamilo _Administration_ geändert werden, **ausnahme** für die _Encryption Methode_ und die _Portal URL._
 
-_Portal URL_ could be updated but only through the configuration file, which could prove tricky. Please select these two wisely.
+_Die Verschlüsselungsmethode_ ist danach kaum zu ändern, da dies eine erneute Generierung neuer Kennwörter für alle Benutzer und das Senden per E-Mail bedeuten würde. Die Standardoption ist immer die sicherste, daher empfehlen wir Ihnen, es zu verlaufen** wie es ist.
 
-* _Main language :_ default language on your portal.
-* _Chamilo URL :_ URL of your Chamilo portal \(locally : [http://localhost/chamilo](http://localhost/chamilo); remotely : [http://www.mydomain.com/chamilo](http://www.mydomain.com/chamilo)\).
-* _Admin's e-mail :_ portal administrator's e-mail contact address \(or support team\)
-* _Admin's first name and last name :_ will be shown in the footer as the link to the admin's e-mail address. You can put any information there, like “Support team” as an example.
-* _Admin's login and password :_ **IMPORTANT** – will allow you to connect to your portal as administrator later on. One option is to set a global functional admin account here \(named “admin”\) and have multiple people use that account. It is, however, recommended to create a more personalized account for each administrator \(so this first one should be yours\), to be able to keep track of all actions taken by other administrators.
-* _Portal's name and organisation's short name :_ will be visible, only in specific visual themes, in the top left corner of the page \(on all pages\).
-* _Encryption method :_ hashing and cryptographic functions that will be used to secure the users passwords in your database. We recommend \(and select by default\) the most secure one available in Chamilo: SHA1.
-* _Self registration :_ will allow user to register alone; set to _No_ for a private portal.
-* _Self registration as teacher :_ will allow user to register alone as a teacher; only taken into account if the previous setting is set to _Yes_. This will allow new users to register as teachers, and thus to create new courses.
+_Portal URL_ könnte aktualisiert werden, aber nur über die Konfigurationsdatei, was sich als schwierig erweisen könnte. Bitte wählen Sie diese beiden mit Bedacht aus.
 
-**Note** : The user defined on this screen will have full administration permissions. He will be able to update the settings on this page afterwards.
+* _Hauptsprache:_ Standardsprache auf Ihrem Portal.
+* _Chamilo URL:_ URL Ihres Chamilo-Portals \(lokal: [http://localhost/chamilo](http://localhost/chamilo); remote: [http://www.mydomain.com/chamilo](http://www.mydomain.com/chamilo)\).
+* _E-Mail des Admin:_ E-Mail-Adresse des Portaladministrators \(oder Support-Team\)
+* _Der Vorname und der Nachname des Admin:_ werden in der Fußzeile als Link zur E-Mail-Adresse des Administrators angezeigt. Sie können dort beliebige Informationen eingeben, wie zum Beispiel “Support team”.
+* _Login und Passwort des Admin:_ **WICHTIG** — ermöglicht es Ihnen, sich später als Administrator mit Ihrem Portal zu verbinden. Eine Möglichkeit besteht darin, hier ein globales funktionales Administratorkonto einzurichten \(mit dem Namen “admin”\) und mehrere Personen dieses Konto verwenden zu lassen. Es wird jedoch empfohlen, für jeden Administrator ein personalisierteres Konto zu erstellen \(also sollte dieses erste Konto Ihnen gehören\), um alle von anderen Administratoren durchgeführten Aktionen verfolgen zu können.
+* _Der Name von Portal und der Kurznamen der Organisation: _ sind nur in bestimmten visuellen Themen in der oberen linken Ecke der Seite sichtbar \(auf allen Seiten\).
+* _Verschlüsselungsmethode:_ Hashing- und kryptographische Funktionen, die verwendet werden, um die Kennwörter der Benutzer in Ihrer Datenbank zu sichern. Wir empfehlen \(und wählen standardmäßig\) das sicherste in Chamilo: SHA1.
+* _Self-registration:_ ermöglicht es dem Benutzer, sich allein zu registrieren; setzt auf _No_ für ein privates Portal.
+* _Die Selbstregistrierung als Lehrer:_ ermöglicht es dem Benutzer, sich allein als Lehrer zu registrieren; wird nur berücksichtigt, wenn die vorherige Einstellung auf _Yes_ festgelegt ist. Auf diese Weise können sich neue Benutzer als Lehrer registrieren und so neue Kurse erstellen.
 
+**Hinweis**: Der auf diesem Bildschirm definierte Benutzer hat volle Administrationsberechtigungen. Er kann die Einstellungen auf dieser Seite nachträglich aktualisieren.

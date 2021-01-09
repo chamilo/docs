@@ -1,16 +1,16 @@
+
 # Assessments
 
-The _Assessments_ tool ![](../../.gitbook/assets/graphics181.png) is where you, as teacher, can establish success criteria for the course \(i.e. the pass-mark, merit rankings etc.\), involving the allocation of weightings to various activities, tests etc. You can also use the assessments tool to generate and issue certificates to learners on successful completion of the course. Click on the tool to display the main _Assessments_ page which may \(once set up for the course\) look like this to the teacher.
+Das Tool _Assessments_ ![](../../.gitbook/assets/graphics181.png) ist der Ort, an dem Sie als Lehrer Erfolgskriterien für den Kurs festlegen können \(dh die Pass-Marke, Verdienst-Rankings usw.\), einschließlich der Zuordnung von Gewichtungen zu verschiedenen Aktivitäten, Tests usw. Sie können das Bewertungstool verwenden, um Zertifikate an Lernende zu generieren und auszustellen erfolgreicher Abschluss des Kurses. Klicken Sie auf das Tool, um die Hauptseite von _Assessments_ anzuzeigen, die dem Lehrer (einmal für den Kurs eingerichtet\) so aussehen kann.
 
 ![](../../.gitbook/assets/graphics190.png)
 
-_Illustration 101: Assessments – Example teacher view_
+_Illustration 101: Assessments — Beispiel für Lehreransicht_
 
-It allows you to prepare an overview report compiling learners' achievements in the course overall, drawing on the results of activities undertaken in virtually every part of the online course, but also including “external” activities undertaken in your classroom, outside of the online course.
+Sie können damit einen Übersichtsbericht erstellen, in dem die Erfolge der Lernenden im Kurs insgesamt zusammengestellt werden, der sich auf die Ergebnisse der Aktivitäten stützt, die in praktisch jedem Teil des Online-Kurses durchgeführt wurden, aber auch die “external” -Aktivitäten, die außerhalb des Online-Kurses in Ihrem Klassenzimmer durchgeführt werden.
 
-The learner can use the assessments tool as a “grade-book” to monitor his own progress, and will see a simpler, personalized view when he clicks on the _A\_\_ssessments_ tool which will look something like this:
+Der Lernende kann das Bewertungstool als “grade-book” verwenden, um seinen eigenen Fortschritt zu überwachen, und wird eine einfachere, personalisierte Ansicht sehen, wenn er auf das Tool _A\_ _ssessments_ klickt, das ungefähr so aussieht:
 
-![](../../.gitbook/assets/graphics192.png)_Illustration 102: Assessments – Example learner view_
+![](../../.gitbook/assets/graphics192.png)_Illustration 102: Assessments — Beispiel aus der Sicht der Lernenden
 
-_\(Note: Before looking further into the assessments tool, make sure you have at least one learner subscribed to your course. \(This is why we cleverly put the_ _Users_ _chapter before this one!\). In this chapter, it will be much easier to follow the examples if you already have learners subscribed and a series of activities created. Don't forget – until you choose to allow it, the user will not be able to see the course anyway, as long as is configured as closed.\)_
-
+_ \(Hinweis: Bevor Sie sich das Assessment-Tool genauer ansehen, stellen Sie sicher, dass mindestens ein Teilnehmer Ihren Kurs abonniert hat. \(Deshalb haben wir das_ _Users_ _Kapitel geschickt vor dieses gestellt!\). In diesem Kapitel wird es viel einfacher sein, den Beispielen zu folgen, wenn Sie bereits Teilnehmer abonniert und eine Reihe von Aktivitäten erstellt haben. Vergessen Sie nicht - solange Sie sich nicht dafür entscheiden, dies zuzulassen, kann der Benutzer den Kurs sowieso nicht sehen, solange er als geschlossen konfiguriert ist.\) _
