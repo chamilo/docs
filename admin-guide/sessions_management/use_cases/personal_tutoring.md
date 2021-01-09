@@ -1,4 +1,3 @@
-
 # Persönliche Nachhilfe
 
 Nehmen wir an, Sie arbeiten an einem privaten College und die meisten Studenten haben ein Recht auf Nachhilfe. Sie können in ihrem Tempo aufgezeichnete Audiokurse absolvieren und haben einen zugewiesenen Tutor, der ihnen zu jedem vorher vereinbarten Zeitpunkt zur Verfügung steht.

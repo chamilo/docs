@@ -1,4 +1,3 @@
-
 # Plattformverwaltung
 
 ![](../../.gitbook/assets/images26%20%288%29.png)Illustration 29: Verwaltung — Portalblock

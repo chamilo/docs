@@ -1,4 +1,3 @@
-
 # Eine Ankündigung hinzufügen
 
 Von der Haupt-Ankündigungsseite:

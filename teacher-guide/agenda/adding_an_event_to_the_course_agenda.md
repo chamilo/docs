@@ -1,4 +1,3 @@
-
 # Hinzufügen einer Veranstaltung zur Kursagenda
 
 Ereignisse können auf zwei Arten zum Kurs _Agenda_ hinzugefügt werden. Der einfachste und schnellste Weg ist einfach, auf das relevante Datum/Tages/Uhrzeit im Kurs _Agenda_\ zu klicken (wählen Sie die Wochen- oder Tagesansicht, um eine bestimmte Uhrzeit oder einen bestimmten Zeitrahmen auszuwählen\). Sie können Benutzer auswählen, die das Ereignis sehen können, einen Titel und eine kurze mündliche Beschreibung hinzufügen und entscheiden, ob Sie die Veranstaltung auch als Ankündigung/E-Mail senden möchten:

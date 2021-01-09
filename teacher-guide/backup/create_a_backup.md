@@ -1,4 +1,3 @@
-
 # Erstellen Sie ein Backup
 
 Aus Sicherheits- und Verfahrensgründen wird empfohlen, eine Sicherungskopie des gesamten Inhalts Ihres Kurses zu erstellen. Dieser Vorgang ist automatisiert. Sie können damit entweder ein vollständiges Backup oder ein Teil-Backup erstellen, basierend auf Ihrer Auswahl, was Sie speichern möchten, mit wenigen einfachen Klicks. So beginnen Sie mit der Sicherung:

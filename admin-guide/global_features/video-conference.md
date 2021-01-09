@@ -1,4 +1,3 @@
-
 # Videokonferenz
 
 Wie bereits im Abschnitt „_plugins_“ dieses Handbuchs angegeben \(siehe Kapitel 4.1.16 auf Seite 37\) wird das Videokonferenz-Tool nicht zusammen mit Chamilo ausgeliefert. Sie können Chamilo dank des _BigBlueButton_ Plugins einfach installieren und damit verknüpfen, aber dies erfordert einen dedizierten Server \(oder zumindest einen Server, der für etwas bestimmt ist, das nicht kritisch ist\).

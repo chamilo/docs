@@ -1,4 +1,3 @@
-
 # Die neue Untersprache zuweisen
 
 Schließlich haben Sie Ihre Begriffe in Ihrer Untersprache neu definiert. Der einzige noch verbleibende Schritt besteht darin, ihn standardmäßig allen neuen Benutzern und allen neuen Kursen zuzuweisen. Kehren Sie dazu zur Sprachenliste zurück und deaktivieren Sie alle anderen Sprachen.

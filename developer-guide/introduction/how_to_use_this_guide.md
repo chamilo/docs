@@ -1,4 +1,3 @@
-
 # Wie benutzt man diesen Leitfaden?
 
 Dieser Referenzleitfaden soll progressiv komplex sein und am Ende nur äußerst verblüffend komplexe Themen erreichen. Es wird davon ausgegangen, dass die letzten Kapitel nur das Interesse einiger weniger wecken werden, aber wir machen uns darüber keine Sorgen. Was uns wichtig ist, ist, dass SIE die relevanten Informationen schnell finden. Aus diesem Grund haben Sie am Ende des Handbuchs auch einen allgemeinen Index \(zumindest in den ODT- und PDF-Versionen\), mit dem Sie einen Begriff finden und schnell herausfinden können, auf welcher Seite wir ihn verwendet haben.

@@ -1,4 +1,3 @@
-
 ### Training (Kurse) {#training-courses}
 
 Mit der Registerkarte ![](../../assets/graficos6.png)This können Sie die Optionen für die Kurse konfigurieren, sei es in Bezug auf den Kursbenutzer, seinen Ersteller oder sogar die rein technische Seite. Überprüfen Sie jede Option sorgfältig, um Ihren Anforderungen zu entsprechen.

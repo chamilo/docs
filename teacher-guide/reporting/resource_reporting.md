@@ -1,4 +1,3 @@
-
 # Reporting Ressourcen
 
 Um auf Details der im Kurs verwendeten Ressourcen zuzugreifen, klicken Sie auf der Hauptseite Berichterstattung auf das\_Icon auf Ressource\__icon. ![](../../.gitbook/assets/graphics55.png) Dadurch wird eine Liste der Ressourcen angezeigt, die dem Kurs hinzugefügt und gelöscht wurden, einschließlich

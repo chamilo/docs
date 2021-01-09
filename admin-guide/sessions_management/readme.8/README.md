@@ -1,4 +1,3 @@
-
 # Karriere und Promotions
 
 Karrieren und Promotionen sind zwei neue Konzepte in Chamilo 1.8.8. Sie ermöglichen es Ihnen, Karrieren \(wie “Medicine” oder “Software engineering”\) und Promotionen \(wie “Medicine, graduation of 2017”\) fast genauso zu verwalten, wie Sie sie in einer normalen akademischen Einrichtung verwalten würden, sobald Sie sie mit Sitzungen und Perioden kombinieren \(dh Kategorien von Sitzungen\).

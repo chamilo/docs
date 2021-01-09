@@ -1,4 +1,3 @@
-
 # Benutzer zum Kurs hinzufügen
 
 Der Admin kann jeden Kurs abonnieren, den er möchte:

@@ -1,4 +1,3 @@
-
 # Wie Studenten Zertifikate generieren
 
 Sicherlich ist einer der schwierigsten Aspekte von Zertifikaten, dass Studenten das Bewertungstool eingeben müssen, um ihr Zertifikat zu erstellen. Wenn ein Student das Bewertungstool eingibt und ein Standardzertifikat konfiguriert ist, **und** der Student die Mindestnote erreicht hat, um das Zertifikat zu erhalten, wird auf der rechten Seite des Bildschirms ein großes Zertifikatssymbol angezeigt. Dies wird ihn direkt auf die Zertifikatsseite schicken.

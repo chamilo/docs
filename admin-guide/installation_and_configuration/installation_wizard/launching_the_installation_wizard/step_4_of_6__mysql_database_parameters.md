@@ -1,4 +1,3 @@
-
 # Schritt 4 von 6: MySQL-Datenbankparameter
 
 Wir überprüfen nun, ob das Datenbankverwaltungssystem \(DBMS\) funktioniert und wie erwartet konfiguriert ist:

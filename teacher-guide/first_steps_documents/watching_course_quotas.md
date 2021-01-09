@@ -1,4 +1,3 @@
-
 # Kursquoten ansehen
 
 Standardmäßig ist ein Kurskontingent von 100 MB festgelegt, aber es ist auch für Ihren Administrator möglich, es zu erhöhen. Um die Speicherplatznutzung zu überprüfen, sehen Sie sich die Angabe am Ende Ihrer Dokumentenliste an. Ich gebe den Prozentsatz Ihres Kurses an, der verwendet wird.

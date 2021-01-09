@@ -1,4 +1,3 @@
-
 # Details einzelner Teilnehmer anzeigen
 
 Klicken Sie auf der Seite _Reporting_ neben dem Namen des Teilnehmers, den Sie überprüfen möchten, auf das Symbol _Details_ ![](../../.gitbook/assets/graphics53.gif). Die neue Seite zeigt die Details des Lernenden in der Zusammenfassung, einschließlich Profilinformationen, Foto-, Verbindungs- und zusammenfassenden Fortschrittsdetails, aber auch detaillierte Informationen über den Fortschritt des Schülers auf jedem Lernpfad, Ergebnisse in Tests und potenziell nützliche Informationen über andere Aktivitäten wie Aufgaben, gesendete Nachrichten, besuchte Links, hochgeladene Dokumente und Chat.

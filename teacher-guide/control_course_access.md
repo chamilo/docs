@@ -1,4 +1,3 @@
-
 # Kontrollieren Sie den Kurs
 
 Während der Erstellung des Kurses wird empfohlen, den Lernenden keinen Zugriff zu gewähren, bevor er bereit ist, damit sie keinen unvollständigen Kurs sehen.

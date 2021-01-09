@@ -1,4 +1,3 @@
-
 # Aktualisieren Sie Ihren Code
 
 Da wir Autoloading-Mechanismen verwenden und weil wir Vorlagen verwenden, gibt es einen kleinen Schritt, den Sie jedes Mal**jedes Mal** machen müssen, nachdem Sie die letzten Änderungen aus unserem Repository übernommen haben:

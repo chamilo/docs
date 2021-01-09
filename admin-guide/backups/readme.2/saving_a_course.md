@@ -1,4 +1,3 @@
-
 # Einen Kurs speichern
 
 Der Plattformadministrator kann jeden Kurs von \(unter anderem aus der Verwaltungsoberfläche\) speichern.

@@ -1,4 +1,3 @@
-
 # Symbole für das Kursmanagement
 
 In der Kursverwaltungsoberfläche sehen Sie die folgenden allgemeinen Symbole und Schaltflächen.

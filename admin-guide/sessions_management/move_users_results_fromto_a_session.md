@@ -1,4 +1,3 @@
-
 # Verschieben Sie Benutzerergebnisse von/zu einer Sitzung
 
 Für den Fall, dass Sie von einem sitzungslosen Modus in einen Sitzungsvollmodus wechseln möchten, können Sie (in Ausnahmefällen\) die Tracking-Daten eines bestimmten Schülers von einem Kurskontext in einen Sitzungskontext verschieben möchten. Dieses \(noch instabil\) Tool wurde genau dafür geschrieben.

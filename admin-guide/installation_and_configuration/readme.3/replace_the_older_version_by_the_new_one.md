@@ -1,4 +1,3 @@
-
 # Ersetzen Sie die ältere Version durch die neue
 
 Bevor Sie eine neuere Version “on top of” Ihrer aktuellen Chamilo-Version anwenden, möchten Sie vielleicht ein paar Änderungen am Paket “just in case” vornehmen. Beispielsweise könnten die folgenden Verzeichnisse aus dem Chamilo-Paket**vor** entfernt werden, wenn Sie sie über Ihre aktuelle Installation kopieren:

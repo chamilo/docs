@@ -1,4 +1,3 @@
-
 # Erste Schritte: Dokumente
 
 Der normale erste Schritt, den ein Lehrer macht, wenn er Inhalte für einen Kurs benötigt, besteht darin, zum Tool _Documents_ ![](../../.gitbook/assets/graphics111.png) zu gehen und vorhandene Inhalte hochzuladen \(in Form von PDFs, PowerPoints usw.\).

@@ -1,4 +1,3 @@
-
 # Chamilo kennenlernen
 
 Chamilo LMS ist ein E-Learning-System \(das heißt, es verwaltet das Lernen\), das auf kollaborative Weise von mehreren Unternehmen, Verbänden und Personen durch ein offenes Modell namens « free software » \(wie in _freedom_\) entwickelt wurde.

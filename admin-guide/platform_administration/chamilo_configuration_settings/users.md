@@ -1,4 +1,3 @@
-
 # Nutzer
 
 ![](../../../.gitbook/assets/graficos8%20%285%29.png)

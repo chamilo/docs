@@ -1,4 +1,3 @@
-
 # Interne Nachrichten
 
 Auf der Registerkarte _Social Network_ \(linkes Menü\) können Sie mit dem Eintrag _Messages_ Nachrichten Nachrichten senden oder empfangen. Es ähnelt den meisten Messaging-Tools.

@@ -1,4 +1,3 @@
-
 # Online-Aktivitäten hinzufügen
 
 Innerhalb des Chamilo-Kurses können nicht nur Tests, sondern eine ganze Reihe von Aktivitäten bewertet und dem Tool _Assessments_ hinzugefügt werden, um die Gesamtbewertung der Schüler zu berücksichtigen. Mit dem Tool _Add Online Activity_ \(![](../../.gitbook/assets/graphics200.png)\) können Sie einen Link aus der Bewertung zu einer der folgenden Arten von Ressourcen in Ihrem Kurs erstellen \(diese Ressourcen verfügen bereits über Bewertungsfunktionen\):

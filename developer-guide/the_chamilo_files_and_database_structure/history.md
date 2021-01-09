@@ -1,4 +1,3 @@
-
 # Geschichte
 
 ![](../../.gitbook/assets/images19%20%2810%29.png) ![](../../.gitbook/assets/images22%20%289%29.png)

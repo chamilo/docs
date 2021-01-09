@@ -1,4 +1,3 @@
-
 # Füge Lernobjekte und
 
 Beim Aufbau Ihres Lernpfads/Kurses haben Sie die Möglichkeit, vorhandene Lernobjekte oder -aktivitäten einzubeziehen oder Ihre eigenen mit Chamilo zu erstellen.

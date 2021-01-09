@@ -1,4 +1,3 @@
-
 # Eine Untersprache erstellen
 
 Klicken Sie auf das Symbol zur Erstellung der Untersprache ganz rechts in der englischen Sprachzeile. Füllen Sie das Formular aus, indem Sie einen allgemeinen Namen für die Sprache \(z. B. “Medical English”\) und einen englischen Namen ohne Leerzeichen oder Akzente \(z. B. “medical\_english”\) und einen ISO-Code angeben, der der Vatersprache entspricht \(in diesem Fall “en”\).

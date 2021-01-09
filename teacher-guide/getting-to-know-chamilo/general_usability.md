@@ -1,4 +1,3 @@
-
 # Allgemeine Usability
 
 Chamilo wurde entwickelt, um Hilfe und Unterstützung innerhalb der Anwendung zu bieten. Die Symbole sollen symbolisieren, was sie darstellen, unabhängig von einer bestimmten Sprache oder Kultur. Außerdem hat jedes Icon eine “mouse-over” Beschreibung. Wenn Sie der Maus eine Sekunde lang über ein Symbol fahren lassen \(ohne auf\ zu klicken), wird eine einfache Popup-Beschreibung der Funktion des Symbols angezeigt. “hover”

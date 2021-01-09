@@ -1,4 +1,3 @@
-
 # Projekte
 
 Das Tool _Projects_ oder _Blogs_ ![](../../.gitbook/assets/graphics307.png) wurde 2006 auf Wunsch eines großen belgischen Telekommunikationsunternehmens entwickelt. Die Idee dahinter war die Implementierung eines Blogs mit leichtgewichtigen Projektmanagementfunktionen, der unter dem Namen _Smart Blogs_ markiert wurde. Seine Philosophie besteht darin, die Zuweisung von Aufgaben an die Lernenden zu ermöglichen, um den Inhalt eines Blogs vom Typ „Geschichtenerzählung“ zu schreiben.

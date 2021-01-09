@@ -1,4 +1,3 @@
-
 # Zeitzonen
 
 ![](../../../.gitbook/assets/graficos15%20%283%29.png)This category definiert allgemeine Einstellungen für Zeitzonen.

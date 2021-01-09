@@ -1,4 +1,3 @@
-
 # Rechte der Nutzer
 
 Im Abschnitt _User rights_ ![](../../.gitbook/assets/graphics325.png) können Sie bestimmte Berechtigungen für Benutzer in diesem Kurs festlegen, einschließlich des Rechts, Ereignisse zur _Agenda hinzuzufügen, _ um _Ankündigungen hinzuzufügen._ Es ermöglicht Ihnen auch, persönliche Benutzerbilder in den _Forums_ auszublenden und zu entscheiden, ob Benutzer Zugriff auf die _Users_-Liste haben.

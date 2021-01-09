@@ -1,4 +1,3 @@
-
 # Liste der Kurse
 
 Mit diesem Tool können Sie alle auf der Plattform enthaltenen Kurse visualisieren.

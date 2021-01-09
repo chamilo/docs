@@ -1,4 +1,3 @@
-
 # Warum Chamilo?
 
 ![](../../.gitbook/assets/images21%20%288%29.png)

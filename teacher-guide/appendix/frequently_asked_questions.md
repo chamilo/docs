@@ -1,4 +1,3 @@
-
 # Häufig gestellte Fragen
 
 Diese Liste mit kurzen Fragen und Antworten könnte Ihnen helfen, bestimmte Dinge mit Chamilo zu erledigen, die in den vorherigen Kapiteln nicht explizit erläutert werden.

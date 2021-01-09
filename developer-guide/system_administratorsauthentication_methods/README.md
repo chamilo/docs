@@ -1,4 +1,3 @@
-
 # SystemadministratorenAuthentifizierungsmethoden
 
 ![](../../.gitbook/assets/image1%20%282%29.png)

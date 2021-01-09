@@ -1,4 +1,3 @@
-
 # Lernpfade
 
 Nachdem Sie die Lernpfade exportiert haben, möchten Sie vielleicht wissen, wie Sie sie wieder in ein anderes \(oder dasselbe\) Chamilo-Portal importieren.

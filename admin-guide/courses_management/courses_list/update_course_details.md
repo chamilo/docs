@@ -1,4 +1,3 @@
-
 # Kursdetails aktualisieren
 
 Um die Details eines Kurses zu aktualisieren, klicken Sie auf das Bleistiftsymbol rechts. Als Admin ist es möglich, in den Kurseinstellungen so viele Informationen wie der Lehrer/Ersteller des Kurses zu ändern.

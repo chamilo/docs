@@ -1,4 +1,3 @@
-
 # Einleitender Text
 
 Bevor Sie sich ein bestimmtes Kurswerkzeug ansehen, beachten Sie, dass es möglich ist, einem Kurs eine Begrüßungsnachricht zu präsentieren. Klicken Sie auf das _Add an_ _introduction text_ Icon ![](../../.gitbook/assets/graphics349.gif) unterhalb der Schaltfläche _Learner View_. Ein Texteditor erscheint...

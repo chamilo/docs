@@ -1,4 +1,3 @@
-
 # Glossar Begriffe Management
 
 Die Verwaltung von Glossarbegriffen erfolgt über die üblichen Aktionssymbole:

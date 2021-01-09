@@ -1,4 +1,3 @@
-
 # Sub-Sprachen
 
 Untersprachen sind im Administratorhandbuch zusammenfassend definiert und können im folgenden Verfahren definiert werden:

@@ -1,4 +1,3 @@
-
 # Sprachvariablen
 
 Plugins können auch die globale get\_lang\(\) -Funktion verwenden, die im Rest des Codes von Chamilo verfügbar ist, aber sie müssen eine Variante verwenden: get\_plugin\_lang\(\), für die Sie den Namen des Plugins angeben müssen, in dem es verwendet wird.

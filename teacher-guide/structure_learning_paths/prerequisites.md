@@ -1,4 +1,3 @@
-
 # Voraussetzungen
 
 Wenn ein Lernpfad mehrere Elemente enthält, ist es möglich, den Abschluss von Aufgaben und Zielen festzulegen, die von Lernenden erwartet werden, die dem Lernpfad folgen, mit der Funktion _prerequisites_.

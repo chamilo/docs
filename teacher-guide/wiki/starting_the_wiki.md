@@ -1,4 +1,3 @@
-
 # Das Wiki starten
 
 Die Hauptseite ist der Einstiegspunkt des Wikis. Es kann zunächst nur von dem Lehrer bearbeitet werden, der es durch diese erste Aktion freischaltet. Solange er dies nicht tut, können die Lernenden nicht darauf zugreifen.

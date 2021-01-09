@@ -1,4 +1,3 @@
-
 # Dokument-Lizenz
 
 Alle Rechte vorbehalten.

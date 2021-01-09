@@ -1,4 +1,3 @@
-
 # Nachrichten verwalten
 
 Eine Nachricht ist eine Antwort innerhalb eines der Diskussionsthemen.

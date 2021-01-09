@@ -1,4 +1,3 @@
-
 # Gib eine Punktzahl aus einer Nachricht
 
 * Klicken Sie auf das _Grade Activity_Icon ![](../../.gitbook/assets/graphics16%20%283%29.png) unter dem Bild des Benutzers,

@@ -1,4 +1,3 @@
-
 # Warum Chamilo?
 
 Chamilo ist eine E-Learning- und Kollaborationsplattform, die als Open-Source-Software gebündelt wird \(oder wie Purist beachten, Raker_Free Software_\), die an Bildungs- oder Berufsprojekte angepasst werden kann. Es wird unter der [GNU/](http://fr.wikipedia.org/wiki/Licence_publique_générale_GNU) [GPL](http://fr.wikipedia.org/wiki/Licence_publique_générale_GNU) [v](http://fr.wikipedia.org/wiki/Licence_publique_générale_GNU)3 +-Lizenz vertrieben, die Sie bei der Verwendung akzeptieren müssen.

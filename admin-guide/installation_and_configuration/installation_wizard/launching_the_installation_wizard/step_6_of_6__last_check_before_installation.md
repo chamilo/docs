@@ -1,4 +1,3 @@
-
 # Schritt 6 von 6: Letzte Überprüfung vor der Installation
 
 ![](../../../../.gitbook/assets/images11%20%288%29.png)Illustration 10: Installation - Erinnerung

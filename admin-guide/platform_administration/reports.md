@@ -1,4 +1,3 @@
-
 # Berichte
 
 Dieser Abschnitt \(verfügbar in Chamilo LMS 1.9.4\) könnte als “Executive reporting” bezeichnet werden und gibt Ihnen einen speziellen Bericht über alle Benutzer und alle Schulungsstunden, die sie innerhalb der Plattform absolviert haben. Dies ist besonders nützlich für Organisationen, die Schulungen für die Mitarbeiter anderer Organisationen anbieten und dies berücksichtigen müssen \(in den Schulungsstunden des Menschen\).

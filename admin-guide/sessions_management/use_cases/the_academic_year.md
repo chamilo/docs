@@ -1,4 +1,3 @@
-
 # Das akademische Jahr
 
 Stellen wir uns vor, Sie arbeiten an einer Universität in Europa. Jedes Jahr unterrichten die Lehrer neue Kurse, aber jedes Jahr gibt es auch eine große Anzahl von Kursen, die sich nicht sehr entwickeln. Diese Kurse aus dem letzten Jahr konnten recycelt und mit der neuen Gruppe frischer Studenten in diesem Jahr genutzt werden.

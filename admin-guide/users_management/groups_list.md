@@ -1,4 +1,3 @@
-
 # Gruppenliste
 
 In diesem Abschnitt können Sie Gruppen aktualisieren oder entfernen und Benutzer zu einer Gruppe hinzufügen, dank der Symbole, die wir bereits zuvor verwendet haben.

@@ -1,4 +1,3 @@
-
 # Andere Methoden
 
 Einige der anderen verfügbaren Methoden mit einer kleinen Erklärung für jede:

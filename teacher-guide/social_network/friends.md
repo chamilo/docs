@@ -1,4 +1,3 @@
-
 # “Friends”
 
 Auf der Registerkarte _Social Network_ kannst du Kontakte knüpfen und sie als _Friends_\ einladen (eine eher kostenlose Verwendung des Begriffs _friend_!\). Sie können nach Personen suchen, indem Sie:

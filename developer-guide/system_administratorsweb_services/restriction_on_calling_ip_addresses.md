@@ -1,4 +1,3 @@
-
 # Beschränkung beim Anrufen von IP-Adressen
 
 Andere Skripte folgen möglicherweise nicht diesem, aber mit registration.soap.php können Sie Einschränkungen für die IP-Adressen definieren, die die darin enthaltenen Webservices aufrufen können.

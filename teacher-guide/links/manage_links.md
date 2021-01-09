@@ -1,4 +1,3 @@
-
 # Links verwalten
 
 Das Links-Management verwendet die üblichen Aktionssymbole:

@@ -1,4 +1,3 @@
-
 # Hinzufügen von Aktivitäten im Klassenzimmer
 
 Eine “classroom” -Aktivität bezieht sich auf jede Komponente der Gesamtbewertung, die nicht innerhalb der Chamilo-Plattform durchgeführt wurde. Jede bewertete Aktivität kann als _classroom-Aktivität_ hinzugefügt werden und wird daher Teil Ihrer Gesamtbewertung des Kurses. Daher müssen Sie den Assessments natürlich die relevanten Details manuell hinzufügen. Klicken Sie dazu auf der Hauptbewertungsseite in der Symbolleiste auf das Symbol _Klassenzimmerbewertung hinzufügen_ ![](../../.gitbook/assets/graphics197.png).

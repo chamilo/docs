@@ -1,4 +1,3 @@
-
 # Verwaltung von Benutzern
 
 Die Benutzerverwaltung erfolgt über generische und vertraute Symbole und einige spezifischere Symbole.

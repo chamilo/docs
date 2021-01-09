@@ -1,4 +1,3 @@
-
 # Erstellen Sie einen Kurs
 
 Als Administrator ist bei der Kurserstellung nur der Titel obligatorisch.

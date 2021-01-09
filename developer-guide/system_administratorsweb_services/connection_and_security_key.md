@@ -1,4 +1,3 @@
-
 # Verbindungs- und Sicherheitsschlüssel
 
 Der Authentifizierungsmechanismus für die Webservices ist etwas seltsam, also geben wir Ihnen zuerst ein Beispiel dafür, wie wir einen Dienst anrufen würden, der einen Benutzer in Chamilo aus einer anderen Anwendung in PHP erstellt... wir erklären dann die verschiedenen Teile.

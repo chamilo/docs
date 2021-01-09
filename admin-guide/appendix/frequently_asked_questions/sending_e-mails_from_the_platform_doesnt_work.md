@@ -1,4 +1,3 @@
-
 # Das Versenden von E-Mails von der Plattform funktioniert nicht
 
 Unter Windows müssen Sie die _main/inc/conf/mail.conf.php_ -Datei für die Verwendung eines SMTP-Servers konfigurieren. Die Akte ist durchaus verständlich. Wenn Sie einen SMTP-Server mit Authentifizierung verwenden, konfigurieren Sie _smtp\_auth_ nach _1_ und definieren Sie einen Benutzer und ein Kennwort. Wenn Sie einen offenen SMTP-Server verwenden, setzen Sie _smtp\_auth_ auf _0_.

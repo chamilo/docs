@@ -1,4 +1,3 @@
-
 # Sitzungsansicht
 
 Ab den Plattformen Chamilo 1.8.8 ist, wenn Ihre Plattform _Course Sessions_ verwendet, ein neuer Ansichtstyp auf der Registerkarte _Meine Kurse_ verfügbar. Dies ist eine spezielle “sessions” -Ansicht, die Sie als eine ganz andere Art der Präsentation von Kursen und Tools finden \(insbesondere Lernpfade und Tests\).

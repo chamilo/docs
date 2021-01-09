@@ -1,4 +1,3 @@
-
 # Wiki
 
 Das _Wiki_-Tool ![](../../.gitbook/assets/graphics208%20%283%29.png) ist ein kollektives oder kollaboratives Redaktions-Tool. Es ermöglicht Benutzern, an einem einzigen Dokument zusammenzuarbeiten und den Änderungsverlauf zu verfolgen. Sie können damit auch Zeit sparen und während einer Gruppenaufgabe effizienter arbeiten. In vielerlei Hinsicht ergänzt es das Forum-Tool.

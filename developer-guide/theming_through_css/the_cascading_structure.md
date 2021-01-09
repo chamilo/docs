@@ -1,4 +1,3 @@
-
 # Die kaskadierende Struktur
 
 Wie unter dem Abschnitt „Seite' Illegale HTML“ -Tag entfernt: ** einer beliebigen Chamilo-Seite verstanden werden kann, werden CSS-Dateien wie folgt geladen \(wir haben den Domainnamen absichtlich durch den Marker „** \[.\] ** zur besseren Lesbarkeit ersetzt und den standardmäßigen aktiven Stil von main/css/chamilo/\ verwendet):

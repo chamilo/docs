@@ -1,4 +1,3 @@
-
 # Backup
 
 Chamilo unterscheidet zwischen Wartungstools und Kurseinstellungen, um die Kurswartung und das Backup zu vereinfachen. Das Löschen, Leeren, Kopieren, Speichern oder Wiederherstellen des Inhalts eines Kurses \(teilweise oder vollständig\) kann mit dem Tool _Backup_ schnell und effizient ausgeführt werden ![](../../.gitbook/assets/graphics329.gif):

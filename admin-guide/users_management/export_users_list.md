@@ -1,4 +1,3 @@
-
 # Liste der Benutzer exportieren
 
 In Chamilo ist es möglich, alle oder nur einige Benutzer zu exportieren.

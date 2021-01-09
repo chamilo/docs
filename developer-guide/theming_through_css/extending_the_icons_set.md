@@ -1,4 +1,3 @@
-
 # Erweitern des Icons Sets
 
 Seit Version 1.9 enthält Chamilo eine wenig bekannte Funktion, mit der benutzerdefinierte Symbole, die in Ihrem CSS-Thema platziert sind, die vordefinierten Symbole von Chamilo ersetzen können.

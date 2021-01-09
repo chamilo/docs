@@ -1,4 +1,3 @@
-
 # Lesen und fügen Sie Kommentare zu einer Datei hinzu
 
 * ![](../../.gitbook/assets/graphics275.png) klicke auf das _comment_ -Symbol neben dem Dateinamen,

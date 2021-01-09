@@ -1,4 +1,3 @@
-
 # Allgemeine Usability
 
 ![](../../.gitbook/assets/images20%20%289%29.png) ![](../../.gitbook/assets/images23%20%286%29.png)

@@ -1,4 +1,3 @@
-
 # Erstellen von Inhalten in Chamilo
 
 Ein wesentlicher Vorteil von Chamilo gegenüber anderen Learning Management Systemen besteht darin, dass es eine breite Palette von integrierten Funktionen bietet, die das effektive Verfassen von Kursinhalten unterstützen. Die Symbolleiste oben auf der Dokumentseite zeigt eine Reihe von Tools zur Unterstützung der Erstellung an:

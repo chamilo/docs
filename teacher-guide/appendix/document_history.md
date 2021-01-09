@@ -1,4 +1,3 @@
-
 # Geschichte des Dokuments
 
 | Datum | Mitarbeiter | Kontakt | Aktualisiert |

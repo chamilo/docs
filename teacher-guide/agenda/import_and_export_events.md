@@ -1,4 +1,3 @@
-
 # Importieren und Exportieren von Events
 
 Das Chamilo Agenda-Tool unterstützt den Import und Export von Standardkalenderdateien \(Outlook, iCal\). Um eine Outlook-Datei zu importieren, klicken Sie auf das _Import Outlook_-Symbol ![](../../.gitbook/assets/graphics264%20%284%29.png) in der Symbolleiste des Kurses _Agenda_ und laden Sie die entsprechende Datei wie aufgefordert hoch. Kehren Sie dann mit dem _Agenda_ Icon ![](../../.gitbook/assets/graphics267%20%284%29.png) zum _Agenda_ zurück.

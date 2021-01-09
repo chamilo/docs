@@ -1,4 +1,3 @@
-
 # Erstellung von Notizen
 
 * klicken Sie auf das Symbol _Neue Notiz in meinem persönlichen Notizbuch_ hinzufügen_ ![](../../.gitbook/assets/graphics304%20%283%29.png),

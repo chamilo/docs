@@ -1,4 +1,3 @@
-
 # Kurse
 
 Klassen sind eine Gruppe von Benutzern \(im Allgemeinen Studenten\). Diesen Gruppen können Kurse oder Sitzungen zugewiesen werden, sodass alle Gruppenbenutzer diese Kurse oder Sitzungen persönlich abonniert haben.

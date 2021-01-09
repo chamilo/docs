@@ -1,4 +1,3 @@
-
 # Systemstatus
 
 In diesem Abschnitt können Sie eine Reihe von Systemvariablen prüfen und mit den Empfehlungen vergleichen.

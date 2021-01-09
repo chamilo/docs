@@ -1,4 +1,3 @@
-
 # Erstellung von Kuren
 
 ![](../.gitbook/assets/images14%20%283%29.png)

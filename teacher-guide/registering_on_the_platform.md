@@ -1,4 +1,3 @@
-
 # Registrierung auf der Plattform
 
 Wie bei jeder Webplattform müssen sich Benutzer, die auf die Plattforhalte zugreifen möchten, mit ihrem Benutzernamen und Passwort registrieren. Dies geschieht einfach durch Befolgen der _Sign up!_ Link auf der Homepage oder durch einen Administrator, der alle Benutzer vorregistriert. Nach der Registrierung kann man sich einfach mit Ihrem Benutzernamen und Passwort verbinden.

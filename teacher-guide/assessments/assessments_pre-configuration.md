@@ -1,4 +1,3 @@
-
 # Vorkonfiguration der Bewertungen
 
 Das Bewertungstool \(von einigen unserer Benutzer auch als _gradebook_-Tool bezeichnet\) erfordert, dass mehrere Einstellungen korrekt konfiguriert sind, um Ihnen ein nützliches Ergebnis zu liefern. Die Gewichtung der Aktivitäten, ein Mindestzertifizierungswert \(Pass-Mark\), Skills-Rankings und eine Zertifikatvorlage sind Elemente, die dieses Tool erweitern können, wenn es richtig konfiguriert ist. Wenn diese nicht richtig eingestellt sind, wird eine orangefarbene Warnung auf der Hauptseite von _Assessments_ angezeigt.

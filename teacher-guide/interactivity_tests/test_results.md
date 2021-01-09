@@ -1,4 +1,3 @@
-
 # Testergebnisse
 
 Chamilo bietet praktische Unterstützung für die Analyse von Testergebnissen, indem Sie einfach auf das _Results_-Symbol ![](../../.gitbook/assets/graphics156.png) klicken, das rechts neben jedem Test auf der Hauptseite Tests angezeigt wird.

@@ -1,4 +1,3 @@
-
 # Das Dashboard
 
 Im Moment haben wir das Dashboard aus der Lehrer-/Schüler-Ansicht entfernt, weil einige der Diagramme, die zeigen, dass es sehr langsam ist, wenn Sie viele Daten haben, und wir glauben, dass es eine schlechte Idee wäre, es allen Benutzern zu zeigen.In letzter Zeit haben wir jedoch eine kleine Änderung vorgenommen, damit der Plattformadministrator eine sehen kann mehr Diagramm als die anderen Administratoren, daher gibt es einen Anfang für rollenbasierte Änderungen.

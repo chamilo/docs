@@ -1,4 +1,3 @@
-
 # Aufgaben
 
 Das Aufgabentool ![](../../.gitbook/assets/graphics58.png) \(von der Homepage aus zugänglich\) ermöglicht es einem Lernenden oder einer Gruppe von Teilnehmern, Dokumente hochzuladen, die der Lehrer überprüfen kann. Aufgaben können von anderen Lernenden eingesehen und heruntergeladen werden, sofern sie vom Lehrer nicht als unsichtbar \(![](../../.gitbook/assets/graphics60.png)\) konfiguriert wurden.

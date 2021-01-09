@@ -1,4 +1,3 @@
-
 # Multi-URL
 
 Chamilo verbirgt \(innerhalb seiner vielen Schätze\) eine diskrete, aber praktische Funktion, falls Sie Ihr Chamilo-Portal für mehrere Benutzerkategorien nutzen, für die Sie erwägen müssen, das Portal mit einem zweiten Domainnamen, einem anderen visuellen Aspekt und einer Vorauswahl von nur wenigen Benutzern und Kursen zur Verfügung zu stellen. Ein unabhängiger Raum, der einen Teil seines Inhalts und seines gesamten Codes teilt, wenn Sie so wollen.

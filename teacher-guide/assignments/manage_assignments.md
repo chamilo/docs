@@ -1,4 +1,3 @@
-
 # Arbeitsaufträge verwalten
 
 Wenn die Anzahl der Teilnehmer in Ihrem Kurs signifikant ist, gibt es viele Aufgaben zu markieren..!

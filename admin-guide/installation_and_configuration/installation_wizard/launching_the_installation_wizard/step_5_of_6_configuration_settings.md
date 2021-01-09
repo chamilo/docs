@@ -1,4 +1,3 @@
-
 # Schritt 5 von 6: Konfigurationseinstellungen
 
 Jede Einstellung dieses Schritts kann nach der Installation über die Seite Chamilo _Administration_ geändert werden, **ausnahme** für die _Encryption Methode_ und die _Portal URL._

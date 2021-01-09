@@ -1,4 +1,3 @@
-
 # SOAP, REST und XML-RPC
 
 Wenn Sie sich ein wenig damit beschäftigen, werden Sie feststellen, dass wir mit der Entwicklung verschiedener Arten von Webservices begonnen haben, in SOAP, aber auch in REST und XML-RPC.

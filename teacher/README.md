@@ -1,4 +1,3 @@
-
 Chamilo Lehrerführer
 =======================
 

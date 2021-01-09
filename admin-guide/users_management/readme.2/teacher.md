@@ -1,4 +1,3 @@
-
 # Lehrer
 
 * ![](../../../.gitbook/assets/images45%20%286%29.png) **Aktiv/Inaktiv**: Ein Lehrer kann auf Wunsch aktiviert/deaktiviert werden

@@ -1,4 +1,3 @@
-
 # Sicherung Ihrer Website mit SSL/HTTPS
 
 Da Chamilo LMS in den letzten 12 Monaten immer beliebter geworden ist \(Erhöhung der Benutzeranzahl um 400%\), haben wir mehrere Hinweise auf Passwortdiebstahl erhalten und dass die Sicherheit von Chamilo in Frage gestellt werden könnte. Weitere Informationen zur Sicherheit in Chamilo in Chamilo LMS \(10.2\) im Anhang finden Sie weitere Informationen zur Sicherheit in Chamilo.

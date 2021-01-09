@@ -1,4 +1,3 @@
-
 # Schneller Wechsel des Verzeichnisses
 
 Beim Erstellen eines neuen Kurses mit Beispielinhalt enthält das Tool _Documents_ standardmäßig mehrere Verzeichnisse \(_Audio, Flash, Bilder, _ etc\).

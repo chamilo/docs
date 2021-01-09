@@ -1,4 +1,3 @@
-
 # Erstelle eine Gruppe
 
 Klicken Sie auf der Hauptseite _Groups_ auf das Symbol _Neue Gruppe erstellen \(s\) _ ![](../../.gitbook/assets/graphics277.png). Sie werden aufgefordert, die Anzahl der zu erstellenden Gruppen einzugeben \(dies beschleunigt den Prozess, wenn Sie mehr als eine Gruppe erstellen möchten\) und auf die Schaltfläche _Weiter klicken, um Gruppe \(s\_) zu erstellen:

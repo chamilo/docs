@@ -1,4 +1,3 @@
-
 # Das Prestashop Plugin
 
 Wenn Sie Ihr Chamilo-Portal in einen Online-Shop für Kurse verwandeln möchten, können Sie das nicht. Nun, das kann man nicht direkt machen, aber es gibt eine einfache Möglichkeit, dieses Problem zu vermeiden: ein echtes Online-Shop-System zu verwenden und es mit Chamilo zu verbinden.

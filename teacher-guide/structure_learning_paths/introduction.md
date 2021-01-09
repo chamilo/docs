@@ -1,4 +1,3 @@
-
 # Einführung
 
 Ein Lernpfad_ in Chamilo ist ein organisatorisches Konzept/Werkzeug, das Aktivitäten oder Lernobjekte aus dem Kurs in einer organisierten Reihenfolge präsentiert, um das Lernen zu leiten und zu unterstützen. Es kann auf verschiedene Arten erstellt werden, die für Kursinhalte geeignet sind. Im einfachsten Fall ist es ein klares Inhaltsverzeichnis oder kann je nach Art der beteiligten Aktivitäten die notwendige Agenda für den Erwerb eines bestimmten Wissens-, Verständnis- oder Fähigkeitsbereichs bereitstellen.

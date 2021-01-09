@@ -1,4 +1,3 @@
-
 # Dropbox
 
 Das _Dropbox_ \(Document-Sharing-Tool\) ![](../../.gitbook/assets/graphics268.png)provide ist ein Ort, an dem Benutzer Dateien füreinander lassen, so bequem heruntergeladen werden können, um starke E-Mail-Downloads zu vermeiden. Dateien können “dropped” vom Lehrer dort sein, damit die Lernenden von einem Lernenden, von einem Lernenden für andere Lernende \(wenn dies vom Plattformadministrator erlaubt\) oder von einem Lernenden für den Lehrer gesammelt werden kann \(obwohl es nicht wirklich für die Lieferung von Hausaufgaben oder Aufgaben gedacht ist, für die das Tool _Assignments _ verwendet werden sollte.\)

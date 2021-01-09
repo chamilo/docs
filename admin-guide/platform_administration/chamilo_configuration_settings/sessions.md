@@ -1,4 +1,3 @@
-
 # Sitzungen
 
 ![](../../../.gitbook/assets/images18%20%287%29.png)In in dieser Kategorie finden Sie alle Sitzungen bezogene Optionen. In der Vergangenheit waren diese Optionen auf andere Abschnitte verteilt, aber das Wachstum der sitzungsbezogenen Merkmale hat diesen Abschnitt erforderlich gemacht. Sitzungen steuern Gruppen von Kursen, die gemeinsamen Gruppen \(Klassen\) von Schülern unterrichtet werden. Durch die Verwendung von Sitzungen profitieren Sie von einer Reihe von Vorteilen in Bezug auf die Wiederverwendung von Inhalten und der Aufteilung von Schülern, die zwischen zwei separaten Räumen verfolgen. Um mehr über Sitzungen zu erfahren, lesen Sie Kapitel 7Sessions Management.

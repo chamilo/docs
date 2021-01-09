@@ -1,4 +1,3 @@
-
 # Anpassen des Online-Editors
 
 In Chamilo 1.10 und höher verwenden wir CKEditor als WYSIWYG \(Was Sie sehen, ist was Sie bekommen\) oder als “online” HTML-Editor. Dies war bei Chamilo 1.9 nicht der Fall, der immer noch den jetzt toten FckEditor benutzte.

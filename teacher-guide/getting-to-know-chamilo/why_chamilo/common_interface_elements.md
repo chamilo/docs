@@ -1,4 +1,3 @@
-
 # Gemeinsame Interface-Elemente
 
 Da wir wissen, dass gemeinsame Konventionen es jedem erleichtern, sich daran zu erinnern und zu manipulieren, verwenden wir in Chamilo eine Reihe gemeinsamer visueller Symbole. Diese Symbole können allein stehen und eine Aktion darstellen oder mit einem anderen Symbol gekoppelt sein, das das Objekt der Aktion darstellt.

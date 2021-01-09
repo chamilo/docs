@@ -1,4 +1,3 @@
-
 # Antwort oder Antwort auf dieses Thema
 
 Der Hauptunterschied zwischen diesen beiden Optionen liegt in der Hierarchie der verschiedenen Nachrichten und ihrer Antworten.

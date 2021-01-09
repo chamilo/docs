@@ -1,4 +1,3 @@
-
 # Letzte Installationseinstellungen
 
 Sobald Chamilo installiert ist, enthält die Erfolgsmeldung auch eine kurze Warnmeldung

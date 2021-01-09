@@ -1,4 +1,3 @@
-
 # Abonnieren Sie Benutzer
 
 Schauen wir uns zuerst an, wie man neue Benutzer als Lernende für den Kurs abonniert. Klicken Sie in der Hauptseitenleiste _Users_ auf das Symbol _Benutzer einschreiben_ für Kurs_ ![](../../.gitbook/assets/graphics172.png)_ ._ Dadurch wird eine Liste der auf der Plattform registrierten Benutzer angezeigt, die den Kurs nicht abonniert haben:

@@ -1,4 +1,3 @@
-
 # Benutzerliste importieren
 
 Mit dieser Funktion können Sie nach dem Export eines Benutzers die Benutzer direkt mit einer CSV- oder XML-Datei für einen anderen Kurs abonnieren.

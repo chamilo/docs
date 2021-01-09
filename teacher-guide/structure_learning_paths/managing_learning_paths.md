@@ -1,4 +1,3 @@
-
 # Lernpfade verwalten
 
 Gehe zu _Meine Kurse_, wähle einen Kurs und klicke auf das Symbol _Learning Path_ ![](../../.gitbook/assets/graphics36.png):

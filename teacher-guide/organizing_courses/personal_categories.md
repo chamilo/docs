@@ -1,4 +1,3 @@
-
 # Persönliche Kategorien
 
 Gehen Sie im Menü zu _Meine Kurse_, Option _Kurse sortieren_, um zur Seite Sortierwerkzeuge für Kurse zu gelangen. Klicken Sie auf die Kategorie „Persönlichen Kurs erstellen“ und geben Sie den Namen der zu erstellenden neuen persönlichen Kategorie ein. Klicken Sie abschließend auf das Symbol _Kategorie hinzufügen.

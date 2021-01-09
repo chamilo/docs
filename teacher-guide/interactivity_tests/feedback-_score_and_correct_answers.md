@@ -1,4 +1,3 @@
-
 # Feedback, Punktzahl und richtige Antworten
 
 In diesem Abschnitt werden einige der wichtigsten Bildungskonzepte beschrieben, die das Design der Testfunktion in Chamilo gesteuert haben. Für Lehrer, die neu im Online-Lehren und Lernen sind, ist es sinnvoll, einige der von Chamilo verwendeten Begriffe in Bezug auf diese Konzepte zu berücksichtigen, bevor die Tests selbst entwickelt werden.

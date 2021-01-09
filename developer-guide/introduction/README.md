@@ -1,4 +1,3 @@
-
 # Einführung
 
 Chamilo LMS ist ein _Learning Management System_, das zur Unterstützung effektiver Online-Bildung entwickelt wurde \(oft als _e-Learning_\ bezeichnet). Es handelt sich um eine “free” -Software, die in Zusammenarbeit mit verschiedenen Unternehmen, Organisationen und Einzelpersonen nach einem Modell entwickelt wurde, das als _open-source_ bekannt ist, jedoch mit strengeren ethischen Werten.

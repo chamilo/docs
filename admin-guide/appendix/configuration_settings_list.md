@@ -1,4 +1,3 @@
-
 # Liste der Konfigurationseinstellungen
 
 | Titel | Beschreibung | Default |

@@ -1,4 +1,3 @@
-
 # Das Portal
 
 Mit der Kategorie ![](../../../.gitbook/assets/graficos5%20%285%29.png)This können Sie global sichtbare Informationen, die Registrierung von Benutzern oder andere Optionen konfigurieren, die in keine andere Kategorie passen. Einige dieser Informationen können leer gelassen werden. In diesem Fall wird es nicht gezeigt.

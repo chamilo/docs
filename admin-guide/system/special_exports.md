@@ -1,4 +1,3 @@
-
 # Spezielle Exporte
 
 Die spezielle Exportfunktion wurde entwickelt, um dem akademischen Inspektor zu helfen. Es erlaubt ihm, alle Dokumente \(und nur Dokumente\) aus allen Kursen in einem einzigen \(sei es sehr schwer\) Operation zu exportieren. Eine zweite Option ermöglicht es ihm, die Dokumente aus den Kursen auszuwählen, die er möchte.

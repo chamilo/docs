@@ -1,4 +1,3 @@
-
 # Optimierung
 
 Wenn Sie jemals auf Effizienzprobleme stoßen und vollen Zugriff auf Ihren Server haben, sollten Sie sich mit der Optimierung Ihrer Chamilo-Installation befassen.

@@ -1,4 +1,3 @@
-
 # Datenbank-Struktur
 
 Wenn Sie sich für die Datenbankstruktur von Chamilo 1.9 interessieren, sehen Sie bitte in unserem Wiki nach den vollständigen Schaltplänen: [http://support.chamilo.org/projects/chamilo-18/wiki/Database\_schema](http://support.chamilo.org/projects/chamilo-18/wiki/Database_schema). Wisse nur, dass es rund 180 Tische mit vielen Verbindungen gibt, also stellen Sie sicher, dass Sie es richtig machen, bevor Sie versuchen, es zu manipulieren. Es gibt verschiedene Mechanismen, um Plugins basierend auf der aktuellen Struktur zu entwickeln, ohne sie zu ändern. Bitte kontaktieren Sie die Entwickler über IRC \(siehe Fußzeile unserer Website\) oder über [http://support.chamilo.org/projects/chamilo-18](http://support.chamilo.org/projects/chamilo-18), wenn Sie sich verloren fühlen.

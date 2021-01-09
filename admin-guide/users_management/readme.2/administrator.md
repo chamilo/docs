@@ -1,4 +1,3 @@
-
 # Verwalter
 
 * ![](../../../.gitbook/assets/images46%20%284%29.png) **Aktiv/Inaktiv**: Ein Administrator kann nicht deaktiviert werden

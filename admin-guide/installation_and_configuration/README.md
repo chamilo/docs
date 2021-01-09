@@ -1,2 +1,1 @@
-
 # Installation und Konfiguration

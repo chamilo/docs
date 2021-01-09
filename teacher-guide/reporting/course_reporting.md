@@ -1,4 +1,3 @@
-
 # Kurs-Berichte
 
 Ein Klick auf das Icon _course Report_ ![](../../.gitbook/assets/graphics187%20%283%29.png) auf der Berichtsseite bietet globale Informationen über die

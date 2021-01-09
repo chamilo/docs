@@ -1,4 +1,3 @@
-
 # Für wen ist dieser Leitfaden?
 
 Dieser Leitfaden wurde mit Blick auf Pädagogen geschrieben: Die vielen Lehrer, Tutoren, Ausbilder, Ausbilder, Ausbilder und andere, die an der Bildung beteiligt sind und \(durch Wahl oder Notwendigkeit\) mit Verantwortung für die Verwaltung eines E-Learning-Kurses konfrontiert sind.

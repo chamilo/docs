@@ -1,4 +1,3 @@
-
 # Kursfortschritt
 
 Das Tool _Course Progress_ ![](../../.gitbook/assets/graphics251.png) \(oder vielleicht _Course Diary_ - der Name dieses Tools wird noch in Betracht gezogen\) ermöglicht es dem Lehrer, ein Kursprogramm zu erstellen, das \(optional\) auf der Kursseite angezeigt wird, um einen Fortschrittsstatus im Vergleich zu den aktuellen Lehrern und Lernenden aufzunehmen geplante Themenvorbereitung

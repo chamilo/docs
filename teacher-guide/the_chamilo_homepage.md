@@ -1,4 +1,3 @@
-
 # Die Chamilo-Homepage
 
 Die Homepage ist die erste sichtbare Seite. Es enthält das Anmeldeformular und einige andere wichtige Elemente.

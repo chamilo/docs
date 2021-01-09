@@ -1,4 +1,3 @@
-
 # Weltweiter Verwalter
 
 | Beschreibung | Der globale Administrator ist der allmächtige Benutzer. Er kann einfach alles machen. Er hat Zugriff auf alle Schnittstellen. |

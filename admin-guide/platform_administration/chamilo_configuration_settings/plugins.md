@@ -1,4 +1,3 @@
-
 # Plugins
 
 ![](../../../.gitbook/assets/graficos19%20%286%29.png)This ermöglicht es Ihnen, die im _plugin/_ -Ordner auf dem Server vorhandenen Plugins zu aktivieren.

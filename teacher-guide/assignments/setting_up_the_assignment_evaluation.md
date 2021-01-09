@@ -1,4 +1,3 @@
-
 # Einrichten der Arbeitsauftragsbewertung
 
 Die Bewertung der Studenteneinsätze durch den Lehrer kann automatisch in das Bewertungstool aufgenommen werden. Die Marken, die korrigierten Zuweisungen zugewiesen sind, sind Teil der Gesamtbewertung und eine Gewichtung, die für jeden einzelnen Auftrag zugewiesen wird.

@@ -1,4 +1,3 @@
-
 # Aktualisieren Sie die allgemeinen Kurseinstellungen
 
 Standardmäßig zeigt diese Seite \(eine Reihe vertikaler Registerkarten\) die wichtigsten _Course -Einstellungen_ an, in denen Sie:

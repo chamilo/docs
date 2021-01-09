@@ -1,4 +1,3 @@
-
 # Verwendbare Variablen
 
 Da wir möchten, dass dieses Vorlagensystem für uns praktisch ist und wir am Ende unserer Skripte nicht immer alle gängigen Variablen zuweisen möchten, die wir am Ende unserer Skripte benötigen, enthält Chamilo eine Reihe vordefinierter Variablen und Arrays, die Sie verwenden können.

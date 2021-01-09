@@ -1,4 +1,3 @@
-
 # Finde deinen Weg in Chamilo
 
 Die meisten Seiten sind über die Registerkarten oben auf der Seite schnell zugänglich:

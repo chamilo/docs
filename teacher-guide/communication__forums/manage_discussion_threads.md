@@ -1,4 +1,3 @@
-
 # Diskussionsfäden verwalten
 
 Die tägliche Verwaltung von Themen \(auch als “discussion threads” bezeichnet) ist identisch mit der von Kategorien oder Foren. Sie können jedoch ein Thema von einem Forum in ein anderes besser geeignetes Thema verschieben.

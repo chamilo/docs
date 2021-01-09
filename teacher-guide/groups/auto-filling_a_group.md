@@ -1,4 +1,3 @@
-
 # Eine Gruppe automatisch ausfüllen
 
 Um Kursmitglieder schnell zu einer Gruppe hinzuzufügen, klicken Sie auf das Symbol _Benutzer hinzufügen_ rechts neben der Gruppenliste auf der Hauptseite _Groups_. ![](../../.gitbook/assets/graphics283.png) Verwenden Sie die Stapelverarbeitung \(Dropdown-Liste unten\), um automatisch mehrere Gruppen zu füllen. Sie können keine Parameter für das Ausfüllen von Gruppen festlegen \(z. B. alphabetisch, zufällig usw.\), aber Sie können die Gruppenmitgliedschaft danach immer manuell bearbeiten. Du kannst alle Mitglieder einer Gruppe löschen, indem du in der Auflistung auf das Symbol _Alle Benutzer abmelde_ klickst. ![](../../.gitbook/assets/graphics284.png) Wenn Sie eine lange Liste von Gruppen verwalten müssen, verwenden Sie die Kontrollkästchen auf der linken Seite und die Stapelverarbeitungsoption \(d. h. die Dropdown-Liste unten\), um automatisch mehrere Gruppen zu füllen:

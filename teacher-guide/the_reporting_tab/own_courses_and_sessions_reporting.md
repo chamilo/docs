@@ -1,4 +1,3 @@
-
 # Eigene Kurse und Sitzungen Reporting
 
 Die Hauptseite der Registerkarte R_eporting_ enthält Zusammenfassungstabellen mit einem allgemeinen Überblick, einigen Statistiken zu Benutzern in Ihren Kursen \(jeder Eintrag zeigt einige statistische Daten, mit denen Sie den Fortschritt und die Ergebnisse aller Teilnehmer als Durchschnittswert verfolgen können\) und eine Liste von Kursen und Sitzungen für welche du verantwortlich bist:

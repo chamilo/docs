@@ -1,4 +1,3 @@
-
 # Liste der Exportsitzungen
 
 Chamilo ermöglicht es Ihnen, eine Liste einiger oder aller auf der Plattform definierten Sitzungen zu exportieren.

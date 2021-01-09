@@ -1,4 +1,3 @@
-
 # Veröffentlichung der Umfrage
 
 Wenn Sie mit der Umfrage zufrieden sind, müssen Sie sie nur veröffentlichen \(stellen Sie sicher, dass Sie sich nicht dem Startdatum widersprechen und senden Sie die Einladung per E-Mail für eine Umfrage, die noch nicht verfügbar ist!\)

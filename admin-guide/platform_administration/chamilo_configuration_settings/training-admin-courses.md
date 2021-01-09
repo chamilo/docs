@@ -1,2 +1,1 @@
-
 # Training \(Admin/Kurse\)

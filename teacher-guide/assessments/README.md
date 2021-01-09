@@ -1,4 +1,3 @@
-
 # Assessments
 
 Das Tool _Assessments_ ![](../../.gitbook/assets/graphics181.png) ist der Ort, an dem Sie als Lehrer Erfolgskriterien für den Kurs festlegen können \(dh die Pass-Marke, Verdienst-Rankings usw.\), einschließlich der Zuordnung von Gewichtungen zu verschiedenen Aktivitäten, Tests usw. Sie können das Bewertungstool verwenden, um Zertifikate an Lernende zu generieren und auszustellen erfolgreicher Abschluss des Kurses. Klicken Sie auf das Tool, um die Hauptseite von _Assessments_ anzuzeigen, die dem Lehrer (einmal für den Kurs eingerichtet\) so aussehen kann.

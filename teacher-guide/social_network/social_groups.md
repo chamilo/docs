@@ -1,4 +1,3 @@
-
 # Soziale Gruppen
 
 Der Link _Social groups_ ![](../../.gitbook/assets/graphics341.png) fasst alle Gruppen zusammen, die auf der Plattform existieren. Diese Gruppen können nur von Administratoren erstellt werden, es sei denn, sie haben diese Option für alle Benutzer aktiviert.

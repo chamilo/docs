@@ -1,4 +1,3 @@
-
 # Ankündigungen
 
 Mit dem Tool _announcements_ ![](../../.gitbook/assets/graphics226%20%283%29.png) können Sie eine Nachricht per E-Mail an Ihre Lernenden senden und/oder eine Nachricht direkt an den Kurs veröffentlichen.

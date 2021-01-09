@@ -1,4 +1,3 @@
-
 # Das Lernparadigma
 
 Einige Lernmanagementsysteme geraten in die Falle, zu versuchen, eine spezifische Lern-/Unterrichtsmethodik zu unterstützen \(z. B. sozialer Konstruktivismus\), vielleicht um eine kurzlebige pädagogische Glaubwürdigkeit zu gewinnen. Während die Fokussierung auf ein einzelnes Paradigma von einzelnen Lehrern oder Organisationen angemessen und sogar wünschenswert ist, glauben wir, dass es nicht an den Plattformentwicklern liegt, in die Versuchung zu geraten, das Design der Plattform auf einen bestimmten Ansatz zu beschränken.

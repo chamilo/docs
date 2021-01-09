@@ -1,4 +1,3 @@
-
 # Foren verwalten
 
 Bei der Verwaltung von Foren werden vertraute Icons verwendet:

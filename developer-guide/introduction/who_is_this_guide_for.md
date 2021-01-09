@@ -1,4 +1,3 @@
-
 # Für wen ist dieser Leitfaden?
 
 Dieser Leitfaden wurde mit Blick auf Entwickler und E-Learning-Implementierer geschrieben: Die vielen technischen Experten, die an der Installation, Feinabstimmung oder Anpassung eines Chamilo LMS-Portals beteiligt sind, sollten dieses Handbuch als nützliche Ressource für alle Änderungen finden, die sie vornehmen möchten und die nicht über das Internet möglich ist Schnittstelle von Chamilo LMS.

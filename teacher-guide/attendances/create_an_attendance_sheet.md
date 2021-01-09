@@ -1,4 +1,3 @@
-
 # Erstellen Sie ein Anwesenheitsblatt
 
 Klicken Sie zunächst auf das Symbol _Neue Anwesenheitsliste erstellen_ ![](../../.gitbook/assets/graphics245.png):

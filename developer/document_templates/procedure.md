@@ -1,4 +1,3 @@
-
 ## Hinzufügen neuer Dokumentvorlagen
 
 Wie in den obigen Abschnitten vorgestellt, müssen wir Folgendes tun, um eine neue Dokumentvorlage hinzuzufügen:

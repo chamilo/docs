@@ -1,4 +1,3 @@
-
 # Abstimmung
 
 Mit der Kategorie ![](../../../.gitbook/assets/graficos13%20%285%29.png)This können Sie bisher nur eine Einstellung konfigurieren, um die Effizienz ein wenig zu verbessern.

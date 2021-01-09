@@ -1,4 +1,3 @@
-
 # Lernende verfolgen
 
 Wenn Sie standardmäßig auf das Symbol _Reporting_ klicken, werden Zusammenfassungsdetails für eine Liste der Teilnehmer des Kurses angezeigt. Es enthält zusammenfassende Informationen zu Testergebnissen, online verbrachte Zeit, Anmeldedaten usw.

@@ -1,4 +1,3 @@
-
 # Sicherheit bei Chamilo LMS
 
 Während Chamilo Freie Software ist \(und damit jeder auf seinen Code zugreifen kann\), können Sie sicher sein, dass Sicherheit ein sehr wichtiges Element für das Entwicklungsteam und die offiziellen Anbieter ist. In diesem Abschnitt finden Sie einige Fakten zur Sicherheit, die Sie möglicherweise wissen möchten, ob Sie Chamilo jemals gegen proprietäre Software verteidigen müssen.

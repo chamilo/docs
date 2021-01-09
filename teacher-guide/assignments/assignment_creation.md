@@ -1,4 +1,3 @@
-
 # Erstellung von Zuweisungen
 
 So erstellen Sie eine neue Aufgabe:

@@ -1,4 +1,3 @@
-
 # Aufbau einer Seite
 
 Die Struktur einer typischen Seite wird daher dem Folgenden nahe kommen. Wir verwenden hier eine verkürzte Version von `main/template/default/layout/layout_2_col.tpl`, um der Dokumentation willen. `layout_2_col` bedeutet « layout for 2 colums page » und wird ausgewählt, wenn wir Dinge wie die Kursliste anzeigen möchten, da wir auf diesem Bildschirm zwei Spalten haben: das Seitenmenü und die Liste der Kurse.

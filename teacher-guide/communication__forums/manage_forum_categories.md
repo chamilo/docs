@@ -1,4 +1,3 @@
-
 # Verwalten von Forenkategorien
 
 Bei der Verwaltung von Forenkategorien werden vertraute Symbole verwendet:

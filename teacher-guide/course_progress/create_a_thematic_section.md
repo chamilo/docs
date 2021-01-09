@@ -1,4 +1,3 @@
-
 # Erstellen Sie einen thematischen Bereich
 
 Die thematischen Abschnitte stellen das höchste Niveau in der Struktur des Kursfortschritts dar. Sie müssen Abschnitte erstellen, um andere Ebenen der Struktur erstellen zu können.

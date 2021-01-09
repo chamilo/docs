@@ -1,4 +1,3 @@
-
 # User-Rollen
 
 Benutzerrollen sind ein grundlegender Bestandteil bei der Benutzerverwaltung eines Chamilo-Portals, und ihr tiefes Verständnis ermöglicht es Ihnen, über eine private Nutzung hinauszugehen, in ein vollständiges akademisches Management, in dem jede Person ihren Platz und ihre Verantwortung hat.

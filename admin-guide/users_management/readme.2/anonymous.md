@@ -1,4 +1,3 @@
-
 # Anonym
 
 Der anonyme Benutzer ist ein Sonderfall, der nur dem Zweck dient, einem der nicht abonnierten Benutzer die Möglichkeit zu geben, von den öffentlich zur Verfügung gestellten Kursen zu profitieren. Die Anzahl der Tracking-Möglichkeiten wird somit reduziert. Beachten Sie, dass dieses Benutzerkonto nutzlos ist und deaktiviert werden kann, wenn kein Kurs veröffentlicht wird \(obwohl diese Funktion nicht offiziell unterstützt wird\).

@@ -1,4 +1,3 @@
-
 # Verlinkung von Zertifikaten mit Lernpfaden
 
 Schließlich hat Version 1.11 eine nette Funktion eingeführt, mit der Sie den Schülern am Ende eines Lernpfades ein Zertifikat \(und gegebenenfalls einen Skill zuweisen\) können.

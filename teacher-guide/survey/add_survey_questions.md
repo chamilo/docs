@@ -1,4 +1,3 @@
-
 # Fragen zur Umfrage hinzufügen
 
 Sobald die Shell Ihrer Umfrage erstellt wurde, müssen Sie eine Reihe von Fragen mit einigen vordefinierten Typen definieren \(ähnlich wie das Tool _Tests_\): _Ja/Nein, Multiple Choice, Multiple Answer, Open, Dropdown, Prozentsatz, Performance, Kommentar._

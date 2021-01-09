@@ -1,4 +1,3 @@
-
 # Test-Typen
 
 Sie werden inzwischen zusammengefasst haben, dass der für dieses Tool verwendete Begriff _Tests_ ein Oberbegriff ist, der verwendet wird, um eine Reihe von Online-Lernaktivitäten zu beschreiben, die zusammen mit Aufgaben und Foren verwendet werden können, um evaluative Informationen zu generieren, die das weitere Lernen der Schüler leiten können. Ein wichtiger Aspekt des Tools _Tests_ ist, dass es verwendet werden kann, um sofortige automatisierte Antworten auf die Eingabe der Schüler zu geben, ohne darauf warten zu müssen, dass der Lehrer antwortet. Wie solche automatisierten Antworten geliefert und verwendet werden, kann jedoch im Laufe der Reise des Schülers durch den Kurs sehr unterschiedlich sein. Im Folgenden finden Sie einige empfohlene allgemeine Kategorien von Bewertungsaktivitäten, die mit dem Tool _Tests_ effektiv eingerichtet werden können.

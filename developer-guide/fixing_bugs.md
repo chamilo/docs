@@ -1,4 +1,3 @@
-
 # Fehlerbehebung
 
 Ihr Beitrag zur Behebung von Fehlern wird sehr geschätzt.

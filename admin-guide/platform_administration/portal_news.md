@@ -1,4 +1,3 @@
-
 # Neuigkeiten des Portals
 
 Ermöglicht das Hinzufügen einer globalen Ankündigung auf der Startseite des Portals \(und oben auf der Kursliste\).

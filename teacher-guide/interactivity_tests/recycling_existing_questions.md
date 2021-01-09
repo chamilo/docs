@@ -1,4 +1,3 @@
-
 # Recycling bestehender Fragen
 
 Jede Frage, die unabhängig von dem Test oder Kurs erstellt wird, an den sie angehängt wurde, füttert die Fragen-Datenbank. Diese Basis kann sehr nützlich sein für Lehrer, die sehr allgemeine Fragen wiederverwenden möchten oder Fragen als “fillers” benötigen, wenn Ihnen in einem neuen Test einige Fragen fehlt.
