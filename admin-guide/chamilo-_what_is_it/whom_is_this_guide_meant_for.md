@@ -1,4 +1,3 @@
-
 # Für wen ist dieser Guide gedacht?
 
 Dieser Leitfaden wurde insbesondere mit Blick auf die zahlreichen Chamilo-Administratoren und Dienstleister verfasst, die \(aus eigenem Willen oder nach Notwendigkeit) eine E-Learning-Plattform verwalten müssen. Der Eintritt in die E-Learning-Welt ist ein komplexer Prozess, aber wir glauben, dass wir eine gute Lösung für Sie haben. Indem wir Ihnen erklären, wie Sie Chamilo verwalten, schicken wir Sie tatsächlich auf einen sehr einfachen Weg, um E-Learning-Plattformen zu nutzen.

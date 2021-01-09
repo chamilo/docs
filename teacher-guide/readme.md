@@ -1,4 +1,3 @@
-
 # Einführung
 
 Dies ist das komplette Set von Chamilo Guides für Benutzer von Chamilo.

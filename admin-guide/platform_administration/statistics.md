@@ -1,4 +1,3 @@
-
 # Statistiken
 
 Mit diesem Tool können Sie kleine statistische Diagramme für vier Datenkategorien erstellen:

@@ -1,4 +1,3 @@
-
 # Die Struktur der Chamilo LMS-Dateien heute
 
 Ab Chamilo LMS 1.11 sieht die Dateistruktur so aus \(ohne die Details jedes Ordners einzugeben\) \[5\].

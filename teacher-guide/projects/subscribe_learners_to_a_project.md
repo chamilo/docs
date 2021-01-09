@@ -1,4 +1,3 @@
-
 # Abonnieren Sie Lernende für ein Projekt
 
 Sie können mehrere Projekte innerhalb desselben Kurses verwalten und daher einzelne Lernende auswählen, die zu jedem Projekt beitragen sollen.

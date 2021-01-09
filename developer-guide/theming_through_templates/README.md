@@ -1,4 +1,3 @@
-
 # Theming durch Vorlagen
 
 ![](../../.gitbook/assets/images14%20%282%29.png) ![](../../.gitbook/assets/images13%20%282%29.png) ![](../../.gitbook/assets/images15%20%282%29.png) Chamilo verwendet seit Version 1.10 die Twig-Templating-Engine für die meisten \(und in Zukunft alle\) seiner Schnittstelle.

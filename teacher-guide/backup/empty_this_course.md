@@ -1,4 +1,3 @@
-
 # Leere diesen Kurs
 
 Die Funktion „Diesen Kurs leeren“ ![](../../.gitbook/assets/graphics334.gif) leert \(“recycles”\) entweder den gesamten Kurs oder die ausgewählten Elemente. Es löscht Dokumente, Foren, Links usw. Diese Prozedur kann ausgeführt werden, nachdem ein Kurs beendet wurde und wenn Sie im selben Bereich neu beginnen möchten. Natürlich wird generell empfohlen, eine Geschichte dieser Kurse zu führen.

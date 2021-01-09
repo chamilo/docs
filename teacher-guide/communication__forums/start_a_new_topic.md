@@ -1,4 +1,3 @@
-
 # Starte ein neues Thema
 
 Wenn der Inhalt eines Forums angezeigt wird:

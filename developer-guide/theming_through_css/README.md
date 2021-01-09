@@ -1,4 +1,3 @@
-
 # Theming durch CSS
 
 ![](../../.gitbook/assets/images16%20%288%29.png) ![](../../.gitbook/assets/images18%20%288%29.png) ![](../../.gitbook/assets/images17%20%288%29.png)

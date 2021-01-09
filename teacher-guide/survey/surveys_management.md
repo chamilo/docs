@@ -1,4 +1,3 @@
-
 # Umfrage-Management
 
 Für die Verwaltung von Umfragen werden eine Reihe gemeinsamer Symbole sowie einige spezifische Symbole zur Verfügung gestellt.

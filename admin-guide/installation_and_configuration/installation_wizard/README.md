@@ -1,4 +1,3 @@
-
 # Installationsassistent
 
 Laden Sie die Quelle von der Downloadseite von [Chamilo](http://www.chamilo.org/en/download) herunter und entpacken Sie sie \(mit einem Tool wie 7-zip unter Windows oder _tar_ unter Linux/macOS\).

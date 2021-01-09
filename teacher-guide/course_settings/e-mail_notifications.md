@@ -1,4 +1,3 @@
-
 # E-Mail-Benachrichtigungen
 
 E-Mail-Benachrichtigungen ![](../../.gitbook/assets/graphics324.png) sind ein effektiver Weg, um sicherzustellen, dass der Lehrer durch sofortige Warnungen über wichtige Ereignisse in seinem Kurs informiert ist, sobald sie eintreten. Die verschiedenen Einstellungen sind Stutfohlen im Abschnitt beschrieben:

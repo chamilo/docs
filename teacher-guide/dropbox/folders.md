@@ -1,4 +1,3 @@
-
 # Ordner
 
 Der Lehrer kann Ordner hinzufügen, um seine Dateien etwas klarer zu kategorisieren. Die freigegebenen Ordner \(sei es gesendet oder empfangen\) sind für die Teilnehmer unsichtbar und nur für organisatorische Zwecke da.

@@ -1,4 +1,3 @@
-
 # LDAP
 
 Das LDAP-Authentifizierungssystem in Chamilo wurde im Laufe der Zeit verschiedenen tiefgreifenden Änderungen unterzogen, und die aktuelle Situation ist etwas verwirrend und erfordert immer eine Art manuelles Update.

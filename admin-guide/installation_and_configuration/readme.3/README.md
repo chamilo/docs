@@ -1,4 +1,3 @@
-
 # Chamilo wird aktualisiert
 
 Wenn Sie bereits eine Chamilo-Installation haben \(jede frühere Version\) und eine neue Version veröffentlicht wurde, empfehlen wir Ihnen dringend, Ihre zu aktualisieren, um von neuen Funktionen und Korrekturen zu profitieren, vor allem aber von den Sicherheitspatches, die möglicherweise Fehler in früheren Versionen beheben.

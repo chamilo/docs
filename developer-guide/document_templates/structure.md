@@ -1,4 +1,3 @@
-
 # Struktur
 
 Damit wir die Vorlagen ändern können, lassen Sie uns verstehen, wie sie funktionieren.

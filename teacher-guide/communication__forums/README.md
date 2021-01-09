@@ -1,4 +1,3 @@
-
 # Kommunikation: Foren
 
 Im Anschluss an die vorherigen Kapitel erwarten Sie möglicherweise, zu diesem Zeitpunkt das Tool _learning paths_ zu untersuchen. Dies werden wir uns jedoch später ansehen \(siehe Struktur: Lernpfade auf Seite 76\). Stattdessen ist es hier sinnvoller, einen Blick auf das am nächsten am häufigsten verwendete Tool auf der Plattform zu werfen.

@@ -1,4 +1,3 @@
-
 # Beispielvorgehensweise für neues Design
 
 Wie würden Sie mit all den Informationen, die Sie durchgemacht haben, jetzt vorankommen und ein neues Design (basierend auf einem bestehenden) mit neuen Farben erstellen, einschließlich neuer Kurswerkzeugsymbole, eines neuen Logos und eines Standardbilds für Kurse?

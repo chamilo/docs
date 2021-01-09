@@ -1,4 +1,3 @@
-
 # Fügen Sie Forenkategorien
 
 Im Tool _Forum_:

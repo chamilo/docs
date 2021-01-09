@@ -1,4 +1,3 @@
-
 # Registerkarte „Kurse“
 
 Die Registerkarte _Courses_ zeigt eine Liste der Kurse an, die in den Sitzungen verfügbar sind. Klicken Sie auf einen dieser Kurse \(der Text wird schwarz\), um die restlichen Registerkarten zu filtern und nur Elemente aus diesem Kurs anzuzeigen.

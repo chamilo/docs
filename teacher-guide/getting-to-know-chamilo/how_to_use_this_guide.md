@@ -1,4 +1,3 @@
-
 # Wie benutzt man diesen Leitfaden?
 
 Dieser Referenzleitfaden soll Sie reibungslos durch einen klaren Lernpfad führen und Sie zunächst in die am häufigsten verwendeten Tools einführen und Sie dann schrittweise durch komplexere und/oder selten verwendete Funktionen führen.

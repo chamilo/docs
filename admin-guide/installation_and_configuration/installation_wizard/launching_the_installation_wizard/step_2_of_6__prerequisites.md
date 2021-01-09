@@ -1,4 +1,3 @@
-
 # Schritt 2 von 6: Voraussetzungen
 
 In diesem Schritt wird überprüft, ob Ihr Server über alle erforderlichen Elemente für eine vollständige und korrekte Installation von Chamilo verfügt.

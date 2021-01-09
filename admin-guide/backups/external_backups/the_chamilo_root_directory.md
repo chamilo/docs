@@ -1,4 +1,3 @@
-
 # Das Chamilo-Root-Verzeichnis
 
 Das Stammverzeichnis ist \(in diesem Zusammenhang\) das Verzeichnis, das die Chamilo-Dateien enthält. Betrachten wir für das Beispiel in diesem Tutorial, dass es in _/var/www/chamilo_ installiert wurde und über [_http://localhost/chamilo/_](http://localhost/chamilo/)\ verfügbar ist (für einen Remote-Server müssen wir FTP o SSH/SFTP\ verwenden).

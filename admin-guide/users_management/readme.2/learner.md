@@ -1,4 +1,3 @@
-
 # Lerner
 
 * ![](../../../.gitbook/assets/images44%20%286%29.png) **Aktiv/Inaktiv**: Ein Lernender kann auf Wunsch aktiviert/deaktiviert werden

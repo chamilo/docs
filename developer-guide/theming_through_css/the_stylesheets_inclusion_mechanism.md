@@ -1,4 +1,3 @@
-
 # Der Mechanismus der Einbeziehung von Stylesheets
 
 Wenn Sie jemals mehr Stylesheets in die Liste aufnehmen möchten, ist dies der vollständige Ablauf:

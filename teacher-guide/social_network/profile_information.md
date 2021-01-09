@@ -1,4 +1,3 @@
-
 # Profilinformationen
 
 Um Ihre persönlichen Daten einzugeben/zu bearbeiten, gehen Sie zum Tab _Soziales Netzwerk_:

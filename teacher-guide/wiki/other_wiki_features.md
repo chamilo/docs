@@ -1,4 +1,3 @@
-
 # Weitere Wiki-Funktionen
 
 Das Menü in der oberen linken Ecke \(Dropdown-Menü\) bietet Zugriff auf andere Wiki-Funktionen, unabhängig von der aktuellen Seite:

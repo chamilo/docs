@@ -1,4 +1,3 @@
-
 # Module
 
 ![](../../../.gitbook/assets/graficos9%20%285%29.png)This category definiert die Eigenschaften der Kurswerkzeuge und globalen Tools global \(beeinflusst alle Kurse\).

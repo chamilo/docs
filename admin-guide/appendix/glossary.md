@@ -1,4 +1,3 @@
-
 # Glossar
 
 * **Obfuscación**: Técnica para esconder información importante

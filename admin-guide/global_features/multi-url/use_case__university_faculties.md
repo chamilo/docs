@@ -1,4 +1,3 @@
-
 # Anwendungsfall — Universitätsfakultäten
 
 Stellen Sie sich vor, die 12 Fakultäten Ihres “John Smith University” \(fiktionalen Namens\) wollen ihr Portal unter einem deutlichen Erscheinungsbild zeigen \(jeder möchte seine eigene Variation des Logos im Header und eine leicht andere Hintergrundfarbe haben\).

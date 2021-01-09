@@ -1,4 +1,3 @@
-
 # Assessments
 
 ![](../../../.gitbook/assets/graficos12%20%284%29.png)These sind globale Parameter für das Bewertungstool, das auf Kursebene neu definiert werden kann \(in den meisten Fällen\).

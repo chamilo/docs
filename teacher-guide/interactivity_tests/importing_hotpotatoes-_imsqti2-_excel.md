@@ -1,4 +1,3 @@
-
 # Import: HotPotatoes, IMS/QTI2, Excel
 
 Chamilo ermöglicht es Lehrern nicht mehr, wie oben in den Abschnitten 12.2 bis 12.6 beschrieben, eigene Tests zu erstellen, auch ermöglicht es Lehrern, Tests, die in externen Tools erstellt wurden, insbesondere Tests, die mit Hot Potatoes, Qti2 und Microsoft Excel erstellt wurden. Dies sind beliebte Autorentools, die Tests in einem Standardformat erstellen können, das für die Verwendung in vielen LMSEs einschließlich Chamilo geeignet ist. Details zur Verwendung dieser Softwarepakete werden offensichtlich vom Umfang dieses Handbuchs übertroffen, aber erfahrene Online-Pädagogen sind möglicherweise mit einem oder allen von ihnen vertraut und haben möglicherweise Tests mit ihnen erstellt, die sie nach Chamilo hochladen möchten.

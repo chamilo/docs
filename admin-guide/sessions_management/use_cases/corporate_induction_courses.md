@@ -1,4 +1,3 @@
-
 # Corporate Einführungskurse
 
 Sie arbeiten als Personalmanager eines Unternehmens, und die “new guys” \(5 neue Mitarbeiter\) kommen herein und müssen dem “induction drill” folgen, das aus 7 kleinen 4h-Videokursen besteht, gefolgt von einer Prüfung. Einige von ihnen werden jedoch an dem Fabrikmehl arbeiten, wo die Sicherheitsvorschriften den Bürovorschriften nicht den Bürovorschriften ähneln. Dies bedeutet, dass 5 von 6 Kursen für die 5 neuen Mitarbeiter identisch sind, während 3 einen “factory floor security” -Kurs haben und 2 den “office floor security” -Kurs haben werden.

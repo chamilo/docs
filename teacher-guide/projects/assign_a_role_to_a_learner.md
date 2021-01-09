@@ -1,4 +1,3 @@
-
 # Weisen Sie einem Lernenden eine Rolle zu
 
 Nachdem die Rolle erstellt wurde, müssen Sie sie einem Lernenden zuweisen:

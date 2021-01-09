@@ -1,4 +1,3 @@
-
 # Definieren der eigenen Begriffe
 
 Die neue Seite ist eine Suchseite. Wenn Sie den Begriff _Reporting_ nach _Evaluation_ ändern möchten, suchen Sie einfach nach _Reporting_.

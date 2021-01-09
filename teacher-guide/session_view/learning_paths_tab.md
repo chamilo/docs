@@ -1,4 +1,3 @@
-
 # Registerkarte Lernpfade
 
 Die Registerkarte _Learning Paths_ zeigt eine Liste der Lernpfade in der Sitzung an, gefiltert nach Kurs \(solange Sie auf einen Kurs im ersten Tab geklickt haben\).

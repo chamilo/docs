@@ -1,4 +1,3 @@
-
 # Löschen einer Datei oder eines Verzeichnisses
 
 Um eine Datei oder ein Verzeichnis zu löschen, zu aktualisieren, auszublenden oder anzuzeigen, verwenden Sie die Optionen in der rechten Spalte der Dokumentenliste:

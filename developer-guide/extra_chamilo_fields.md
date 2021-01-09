@@ -1,4 +1,3 @@
-
 # Zusätzliche Chamilo-Felder
 
 ![](../.gitbook/assets/images29%20%288%29.png)

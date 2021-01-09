@@ -1,4 +1,3 @@
-
 # Verbindungen
 
 Ein Link kann in einer Kategorie oder auf der Root-Ebene hinzugefügt werden:

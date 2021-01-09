@@ -1,4 +1,3 @@
-
 # Geschichte des Dokuments
 
 Dieses Dokument ist das Ergebnis der Zusammenarbeit mehrerer Organisationen und Einzelpersonen. Um die aufeinanderfolgenden Beteiligungen dieser Menschen zu verfolgen und den Dauerhaft ihres Beitrags zu gewährleisten, führen wir hier einen vollständigen Bericht. Wenn Sie dieses Dokument in irgendeiner Weise verbessern, fügen Sie bitte unten Ihren Namen hinzu und senden Sie die aktualisierte Version \(zusammen mit einer Liste von Änderungen\) an info@chamilo.org. Danke!

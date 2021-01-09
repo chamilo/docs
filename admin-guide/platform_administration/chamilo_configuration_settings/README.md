@@ -1,4 +1,3 @@
-
 # Chamilo Konfigurationseinstellungen
 
 Diese Einstellungen verbinden sich mit mehreren Kategorien, wie in der folgenden Abbildung dargestellt.

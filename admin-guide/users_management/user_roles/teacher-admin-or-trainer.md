@@ -1,2 +1,1 @@
-
 # Lehrer \(Admin/oder Trainer\)

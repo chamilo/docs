@@ -1,4 +1,3 @@
-
 # Einen neuen Test erstellen
 
 Das Erstellen eines neuen Tests ist sehr einfach. Klicken Sie links auf das Symbol _test erstellen_ ![](../../.gitbook/assets/graphics130.png) und geben Sie Ihrem Test einen Titel. Klicken Sie dann auf die Schaltfläche _weiter zu den Fragen.

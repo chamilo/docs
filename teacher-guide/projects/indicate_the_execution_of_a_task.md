@@ -1,4 +1,3 @@
-
 # Geben Sie die Ausführung einer Aufgabe an
 
 Ob für einen Lehrer oder einen Lernenden, Aufgaben, die einem Benutzer zugewiesen sind, werden unten links auf der Projektseite unter Abschnitt _Meine Aufgaben angezeigt._

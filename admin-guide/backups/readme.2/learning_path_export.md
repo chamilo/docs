@@ -1,4 +1,3 @@
-
 # Lernpfad Export
 
 Um einen Lernpfad zu exportieren, wechseln Sie zuerst zum Tab _Meine Kurse \(in der Regel die zweite Registerkarte von links\).

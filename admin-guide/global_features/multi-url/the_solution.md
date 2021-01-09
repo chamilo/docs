@@ -1,4 +1,3 @@
-
 # Die Lösung
 
 Wir nennen diese Lösung _Multi-URL_. Indem Sie Multi-URL aktivieren, aktivieren Sie den folgenden Mechanismus:

@@ -1,4 +1,3 @@
-
 # Senden Sie eine Datei an bestimmte Benutzer
 
 * klicken Sie auf das Symbol „Eine neue Datei teilen“ ![](../../.gitbook/assets/graphics271.png)

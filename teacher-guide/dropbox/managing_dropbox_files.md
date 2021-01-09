@@ -1,4 +1,3 @@
-
 # Verwaltung von Dropbox-Dateien
 
 Neben den bekannten Icons bietet das Dropbox-Tool eine Reihe neuer Verwaltungssymbole:

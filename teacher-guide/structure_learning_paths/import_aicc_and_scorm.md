@@ -1,4 +1,3 @@
-
 # Importieren Sie AICC und SCORM
 
 Chamilo verwendet Standards wie [SCORM](http://fr.wikipedia.org/wiki/Sharable_Content_Object_Reference_Model) und [AICC](http://fr.wikipedia.org/wiki/Aviation_Industry_CBT_Committee) für den Austausch von Inhalten. Das Importieren solcher Dateien könnte nicht einfacher sein. Klicken Sie auf das Lernpfad-Symbol ![](../../.gitbook/assets/graphics34.png)on die Seite _Learning Paths_:

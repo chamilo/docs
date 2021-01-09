@@ -1,4 +1,3 @@
-
 # Schritt 1 von 6: Sprache
 
 In diesem Bildschirm werden Sie aufgefordert, die Installationssprache zu wählen. Seit Version 1.8.8 wird Ihre Sprache automatisch über die Parameter Ihres Browsers erkannt, und auf diesem Bildschirm müssen Sie lediglich bestätigen, ob die erkannte Sprache korrekt ist.

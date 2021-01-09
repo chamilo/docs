@@ -1,4 +1,3 @@
-
 # Chat
 
 Das _Chat_-Tool ![](../../.gitbook/assets/graphics374.png) ist ein Instant-Messaging-Tool, mit dem Benutzer in einem Kurs Ideen, Fragen und Antworten in “live”, schriftlichen Konversationen, austauschen können.

@@ -1,4 +1,3 @@
-
 # Datenbankstruktur: in allen Nebenversionen fixiert
 
 Eine wichtige Änderung in Chamilo \(im Vergleich zu seinen Vorfahren\) ist, dass wir keine Änderungen der Datenbank oder der Dateistruktur erlauben** zwischen Nebenversionen. Auf der Entwicklerseite bedeutet dies, dass Sie, wenn Sie eine neue Funktion mit neuen Daten entwickeln müssen, die gespeichert werden sollen, Plugins oder zusätzliche Felder \(mehr dazu später\) verwenden müssen, bis sie in die nächste Hauptversion aufgenommen werden können.

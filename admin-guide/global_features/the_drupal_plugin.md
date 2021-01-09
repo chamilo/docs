@@ -1,4 +1,3 @@
-
 # Das Drupal-Plugin
 
 Wenn Sie Drupal verwenden, wird Ihnen wahrscheinlich die Tatsache gefallen, dass wir ein Drupal-Plugin mit einer Reihe von Funktionen wie Single Sign On, Drucken von Kursblogs, Block für persönliche Ereignisse usw. haben.

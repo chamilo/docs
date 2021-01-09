@@ -1,4 +1,3 @@
-
 # Datenfüller
 
 Diese Funktion ist nur für Entwicklungsinstallationen von Chamilo LMS\ verfügbar (wo das Tests/ Verzeichnis existiert\).

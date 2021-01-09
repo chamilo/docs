@@ -1,4 +1,3 @@
-
 # Liste der Importkurse
 
 Mit dieser Funktion können Sie eine CSV-Datei importieren, um Kurse zu erstellen. Wenn Sie Kategorien verwenden und die Kurse in eine andere Plattform importieren, aus der Sie sie exportiert haben, müssen Sie sicherstellen, dass Sie auf beiden Portalen die gleichen Kategoriecodes haben.

@@ -1,4 +1,3 @@
-
 # Schritt 3 von 6: Lizenz
 
 Hier erklärt Chamilo, dass es sich um eine freie Software handelt, die unter den Bedingungen der GNU General Public Licence \([GPL](http://en.wikipedia.org/wiki/GNU_General_Public_License)\) \(Version 3 oder höher\) vertrieben wird, und dass ein Teil seiner Inhalt** unter [BY-SA](http://creativecommons.org/licenses/by-sa/3.0/deed.fr) [Creative Commons](http://creativecommons.org/licenses/by-sa/3.0/deed.fr) [.](http://creativecommons.org/licenses/by-sa/3.0/deed.fr) veröffentlicht wird

@@ -1,4 +1,3 @@
-
 # Säubern des Cache
 
 Wenn Sie Vorlagen ändern möchten, müssen Sie eines wissen und sich daran erinnern: Nachdem Sie Ihre Änderungen geschrieben haben und bevor Sie sie testen, müssen Sie den Inhalt des `app/cache/twig/` -Verzeichnisses löschen.

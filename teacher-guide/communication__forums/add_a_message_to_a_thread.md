@@ -1,4 +1,3 @@
-
 # Füge eine Nachricht zu einem Thread hinzu
 
 Suchen Sie in der Liste der Tools zum Verwalten von Diskussionsfäden das Symbol _Antworten auf diesen Thread_ ![](../../.gitbook/assets/graphics17%20%281%29.png). Auf diese Weise können Sie eine Nachricht auf derselben Hierarchieebene wie die Startnachricht hinzufügen.

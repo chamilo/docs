@@ -1,4 +1,3 @@
-
 # Fügen Sie einen Benutzer hinzu
 
 Der Administrator kann Benutzer hinzufügen, indem er sie aus einem leeren Formular erstellt. Er muss nur geben:

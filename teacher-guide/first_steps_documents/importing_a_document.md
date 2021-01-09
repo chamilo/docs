@@ -1,4 +1,3 @@
-
 # Importieren eines Dokuments
 
 Importieren Sie ein neues Dokument, indem Sie zum gewünschten Zielordner gehen und auf das Symbol _Dokumente hochladen_ ![](../../.gitbook/assets/graphics116.png) klicken.

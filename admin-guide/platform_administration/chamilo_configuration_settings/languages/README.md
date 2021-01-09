@@ -1,4 +1,3 @@
-
 # Sprachen
 
 ![](../../../../.gitbook/assets/graficos7%20%285%29.png)In Diese Kategorie finden Sie alle sprachbezogenen Optionen \(ein Link verweist auf den externen _Languages_-Eintrag auf der Administrationsseite\).

@@ -1,4 +1,3 @@
-
 # Kurs-Administration
 
 Auf der Registerkarte _Meine Kurse_ wird der Lehrer angezeigt, um eine Liste der Kurse anzuzeigen, die er verwalten kann. \(Diese zeigen ein Bleistiftsymbol auf der rechten Seite des Kursfeldes an, im Gegensatz zu Kursen, bei denen sie als Teilnehmer abonniert sind\).

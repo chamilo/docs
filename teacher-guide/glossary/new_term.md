@@ -1,4 +1,3 @@
-
 # Neuer Begriff
 
 So fügen Sie einen neuen Begriff hinzu:

@@ -1,4 +1,3 @@
-
 # Verwenden von Forenansichten
 
 Abhängig von der Komplexität des Austauschs in den Foren können verschiedene Anzeigemodi verwendet werden, um das Lesen und Beantworten von Diskussionsthemen zu vereinfachen.

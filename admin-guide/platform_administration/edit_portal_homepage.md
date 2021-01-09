@@ -1,4 +1,3 @@
-
 # Portal-Startseite bearbeiten
 
 Auf dieser Seite können Sie verschiedene Dinge konfigurieren

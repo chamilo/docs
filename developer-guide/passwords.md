@@ -1,4 +1,3 @@
-
 # Generierung von Pass
 
 Der Mechanismus zum Generieren von Passwörtern in Chamilo ist insbesondere bei der bcrypt-Methode etwas komplex, da er vollständig von den anderen Methoden abweicht.

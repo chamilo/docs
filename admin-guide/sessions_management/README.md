@@ -1,4 +1,3 @@
-
 # Sitzungen Management
 
 Eine Sitzung ist ein Mechanismus, der den “above” in einem oder mehreren Kursen verbietet und es Gruppen von Schülern ermöglicht, dieselbe Gruppe von Kursen im selben Zeitraum in separaten virtuellen Räumen zu absolvieren.

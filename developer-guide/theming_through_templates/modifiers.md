@@ -1,4 +1,3 @@
-
 # Modifikatoren
 
 Schließlich gibt es Möglichkeiten, bei denen Sie möchten, dass die Vorlage etwas für Sie tut, das nicht sehr kompliziert ist, aber auf einer Art Verarbeitung beruht. Dafür gibt es Modifikatoren.

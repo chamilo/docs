@@ -1,4 +1,3 @@
-
 # HTML-Editor
 
 Der Abschnitt ![](../../../.gitbook/assets/graficos10%20%284%29.png)This enthält alle Einstellungen, die sich auf das beziehen, was Sie über den Online-Editor tun können. Dies beinhaltet das Einrichten von Editoren für mathematische Ausdrücke und andere Erweiterungen des Online-Editors.

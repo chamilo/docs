@@ -1,4 +1,3 @@
-
 # Vorlagen für Dokumente
 
 Wenn Sie neue Dokumente in courses \(im Documents-Tool\) erstellen, wird eine linke Spalte mit einer Reihe von Dokumentvorlagen angezeigt.

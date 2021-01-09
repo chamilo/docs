@@ -1,4 +1,3 @@
-
 # Web-Dienste
 
 Chamilo LMS bietet eine Reihe von Webservices an, die im Laufe der Zeit erweitert wurden. Obwohl die aktuelle Basis nicht gut organisiert ist, sollten Sie im main/webservices/ -Verzeichnis leicht finden, wonach Sie suchen.

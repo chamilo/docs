@@ -1,4 +1,3 @@
-
 # Verwaltung der Sitzungen
 
 Die Verwaltung der Sitzungen kann mit meist bekannten Symbolen und einigen neuen durchgeführt werden...

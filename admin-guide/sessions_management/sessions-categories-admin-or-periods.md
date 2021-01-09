@@ -1,2 +1,1 @@
-
 # Sitzungskategorien \(Admin/oder Perioden\)

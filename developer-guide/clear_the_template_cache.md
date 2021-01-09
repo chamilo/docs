@@ -1,4 +1,3 @@
-
 # Löschen Sie den Vorlagencache
 
 ## Composer installieren

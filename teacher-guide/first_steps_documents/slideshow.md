@@ -1,4 +1,3 @@
-
 # Diashow
 
 Wenn Sie viele Bilder in Ihren Ordnern hochgeladen haben und sie alle auf einmal sehen möchten, können Sie die Diashow-Funktion verwenden. Klicken Sie auf das Diashow-Symbol ![](../../.gitbook/assets/graphics126.png), um zu dem Ordner zu gelangen, in dem sich Ihre Bilder befinden.

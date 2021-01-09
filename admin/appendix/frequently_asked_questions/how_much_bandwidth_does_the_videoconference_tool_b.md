@@ -1,4 +1,3 @@
-
 ### Wie viel Bandbreite verbraucht das Videokonferenz-Tool (BigBlueButton)? {#how-much-bandwidth-does-the-videoconference-tool-bigbluebutton-consume}
 
 Dies hängt von den Funktionen der Videokonferenz ab, die Sie verwenden werden und wie viele Personen sie gleichzeitig nutzen werden. Überprüfen Sie [http://code.google.com/p/bigbluebutton/wiki/FAQ#Bandwidth_Requirements](http://code.google.com/p/bigbluebutton/wiki/FAQ#Bandwidth_Requirements)for eine umfassende Anleitung zur Berechnung. Der BigBlueButton empfiehlt, wenn Sie keine Ahnung haben, mit welcher Last Sie es zu tun haben, etwa 100 Mbit/s anzustreben.

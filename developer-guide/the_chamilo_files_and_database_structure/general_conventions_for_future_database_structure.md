@@ -1,4 +1,3 @@
-
 # Allgemeine Konventionen für zukünftige Datenbankstrukturen
 
 Wenn Sie ein neues Plugin oder eine Funktion starten, die Änderungen an der Datenbank erfordert, und obwohl Sie die meisten dieser Informationen in den Codierungskonventionen finden \(nächster Abschnitt\), beachten Sie bitte die folgenden Regeln:

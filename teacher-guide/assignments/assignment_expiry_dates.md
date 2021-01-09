@@ -1,4 +1,3 @@
-
 # Mindesthaltbarkeitsdatum der Zu
 
 Chamilo bietet zwei zeitbasierte Optionen für die Zuweisungen:

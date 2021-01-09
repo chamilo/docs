@@ -1,4 +1,3 @@
-
 # Kurse Kategorien
 
 Sie können Kurskategorien über allgemeine Aktionssymbole erstellen, aktualisieren oder entfernen. Es ist möglich, zahlreiche Kategorien und Unterkategorien zu erstellen.

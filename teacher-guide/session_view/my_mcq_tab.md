@@ -1,4 +1,3 @@
-
 # Mein MCQ-Tab
 
 Die Registerkarte _My MCQ_ enthält alle Tests, die sich auf Kurse in der Sitzung beziehen, sortiert nach Veröffentlichungsdatum. Da die Anzeige dieser Tests relativ ist \(Vergleich der Ergebnisse mit denen anderer Lernender\) und in chronologischer Reihenfolge ist, ist es doppelt wichtig, Veröffentlichungstermine für alle Ihre Tests festzulegen.

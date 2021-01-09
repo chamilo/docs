@@ -1,4 +1,3 @@
-
 # Chamilo Rapid
 
 Die Umwandlung von PowerPoint® - oder Impress® -Präsentationen in Lernpfade ist relativ komplex, um richtig zu installieren. Es gibt nur eine bekannte Abkürzung: Installieren Sie eine OpenOffice.org oder LibreOffice Version 3 und den Befehl _screen_.

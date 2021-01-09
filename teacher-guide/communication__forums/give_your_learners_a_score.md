@@ -1,4 +1,3 @@
-
 # Gib deinen Lernenden eine Punktzahl
 
 Wenn Sie sich dafür entscheiden, ein Thema/einen Diskussions-Thread zu erzielen/zu bewerten, müssen Sie diesem Thread zunächst eine maximale Punktzahl zuweisen. Dies muss getan werden, wenn der Thread erstellt wird. Gehen Sie auf der Seite _create thread_ zu _advanced settings_ und aktivieren Sie das Kästchen _grade dieses Thread_. Eine Option zur Eingabe einer Höchstpunktzahl wird angezeigt:

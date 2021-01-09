@@ -1,4 +1,3 @@
-
 # Ankündigungen-Management
 
 Ankündigungen können über die bekannten Aktionssymbole verwaltet werden:

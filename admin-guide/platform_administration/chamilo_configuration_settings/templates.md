@@ -1,4 +1,3 @@
-
 # Vorlagen
 
 Mit ![](../../../.gitbook/assets/graficos18%20%286%29.png)Document -Vorlagen können Sie die Erstellung von Inhalten in Chamilo beschleunigen. Das Erstellen neuer Vorlagen in diesem Teil der Plattform wirkt sich auf das gesamte Portal aus.

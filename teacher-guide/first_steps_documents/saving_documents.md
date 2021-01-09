@@ -1,4 +1,3 @@
-
 # Dokumente speichern
 
 Chamilo ermöglicht es Ihnen, alle Dokumente oder ein bestimmtes Verzeichnis zu speichern, indem Sie einfach auf das Symbol _Save \(ZIP\) _ in der Symbolleiste oben auf der Seite klicken. ![](../../.gitbook/assets/graphics120.png)

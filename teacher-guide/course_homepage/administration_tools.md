@@ -1,4 +1,3 @@
-
 # Administrationstools
 
 Im Abschnitt _administration_ werden Tools gruppiert, auf die der Lernende niemals zugreifen muss. Es gibt daher keine Möglichkeit, die Tools auszublenden oder anzuzeigen, die nur für die Verwendung durch Lehrer bestimmt sind.

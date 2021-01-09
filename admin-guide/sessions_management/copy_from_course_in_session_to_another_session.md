@@ -1,4 +1,3 @@
-
 # Kopieren von Kurs in Sitzung zu einer anderen Sitzung
 
 Angesichts der Möglichkeit, Inhalte in einem Kurs in einem Kurs während einer Sitzung zu definieren, und angesichts der Tatsache, dass dieser Inhalt nur innerhalb dieser Sitzung sichtbar ist, müssen Sie diesen sitzungsspezifischen Inhalt manchmal in eine andere Sitzung kopieren, die denselben Kurs enthält... und genau das macht dieses Tool.

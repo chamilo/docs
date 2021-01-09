@@ -1,4 +1,3 @@
-
 # Interaktions-Tools
 
 Ziel des Interaktionsbereichs ist es, Tools zu gruppieren, die die Kommunikation zwischen den Lernenden sowie zwischen Lernenden und Lehrern erleichtern. Im Gegensatz zu den _Authoring_ Tools, die hauptsächlich für die Verwendung durch Lehrer bestimmt sind, werden die _Interaction_-Tools hauptsächlich für die Verwendung durch andere Benutzer bereitgestellt, um ihr Lernen zu unterstützen.

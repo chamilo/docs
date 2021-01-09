@@ -1,4 +1,3 @@
-
 # Gruppen
 
 Das Tool _Groups_ ![](../../.gitbook/assets/graphics276.png) ermöglicht es einem Lehrer, Arbeitsgruppen von Lernenden zu erstellen und zu verwalten. Dies ist ein einfaches Organisationsinstrument, das die automatische oder manuelle Gruppierung von Lernenden ermöglicht, aber aus pädagogischer Sicht kann dies ein sehr leistungsfähiges Werkzeug für das Online-Lernen sein. Gruppenarbeit fördert die Unterstützung und Interaktion von Gleichaltrigen und hilft einem Schüler, dieses Gefühl der Isolation zu überwinden, das eine der größten Herausforderungen ist, mit denen er im Online-Studium konfrontiert sein könnte. In Verbindung mit anderen Tools kann die Verwendung des Tools\_Groups\_dazu beitragen, Teamfähigkeiten zu entwickeln, Aufgabenführungen zu bieten und gegenseitige Reflexion und Feedback zwischen den Lernenden zu schaffen. Auf diese Weise kann es den Schülern helfen, ihre Aufgabe zu behalten und ihre Online-Lernerfahrung erheblich zu bereichern.

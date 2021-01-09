@@ -1,4 +1,3 @@
-
 # Vorlagen
 
 Seit Version 1.9 verwendet Chamilo das Twig-Templating-System, um Teile seines visuellen Erscheinungsbildes zu erzeugen.

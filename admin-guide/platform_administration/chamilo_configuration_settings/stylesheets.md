@@ -1,4 +1,3 @@
-
 # Stylesheets
 
 Mit ![](../../../.gitbook/assets/graficos17%20%285%29.png)The -Stylesheets können Sie den globalen visuellen Stil Ihrer Plattform definieren.

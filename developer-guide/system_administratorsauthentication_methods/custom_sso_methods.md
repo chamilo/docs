@@ -1,4 +1,3 @@
-
 # Individuelle SSO-Methoden
 
 Wenn Sie Chamilo für Single Sign On mit einer Drittanbieterlösung verbinden, die keine Kompatibilität mit einer der unterstützten Methoden bietet, sollten Sie main/auth/sso/ und "extend" \(in PHP\) die sso.class.php \(wie das Beispiel für Drupal\) überprüfen.

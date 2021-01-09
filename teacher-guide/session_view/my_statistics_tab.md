@@ -1,4 +1,3 @@
-
 # Mein Statistik-Reiter
 
 Die Registerkarte _Meine Statistiken_ bietet Lehrern und Lernenden eine Reihe innovativer Funktionen, sofern Veröffentlichungstermine für Übungen festgelegt wurden. Die Lernenden können dann im Vergleich zu denen anderer Lernende ein visuelles Ergebnis ihrer Punktzahlen sehen.

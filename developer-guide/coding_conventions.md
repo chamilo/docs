@@ -1,4 +1,3 @@
-
 # Codier-Konventionen
 
 Codierungskonventionen sind hier verfügbar:

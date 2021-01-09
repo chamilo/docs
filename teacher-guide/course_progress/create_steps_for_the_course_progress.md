@@ -1,4 +1,3 @@
-
 # Schritte für den Kursfortschritt erstellen
 
 Die Schritte \(genannt _Thematic advance_\) sind die Daten, an denen Sie den spezifischen Inhalt der relevanten _Thematic-Abschnitt_ unterrichten. Nachdem Sie den _thematischen Plan gespeichert haben, kehren Sie mit der Breadcrumb-Navigation zur Hauptseite des _kurses zurück und klicken Sie im entsprechenden Abschnitt auf das Symbol _New_ t_hematic advance_\_ ![](../../.gitbook/assets/graphics257.png)\__im entsprechenden Abschnitt.

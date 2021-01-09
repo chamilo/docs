@@ -1,4 +1,3 @@
-
 # Erstellen Sie ein Verzeichnis
 
 Um eine klarere Speicherstruktur zu erreichen, können Sie mit Chamilo Verzeichnisse \(Ordner\) und Unterverzeichnisse erstellen, indem Sie auf das Ordnersymbol mit dem gelben Sternsymbol ![](../../.gitbook/assets/graphics114.png) klicken.

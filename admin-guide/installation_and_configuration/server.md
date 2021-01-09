@@ -1,4 +1,3 @@
-
 # Server
 
 Um Chamilo zu installieren, benötigen Sie einen Webserver, einen Datenbankserver und einen [FTP](http://fr.wikipedia.org/wiki/File_Transfer_Protocol) -Client \(oder eine andere, vorzugsweise sichere Methode, um Dateien auf den Server hochzuladen, z. B. SFTP, um die Sicherheit Ihres zukünftigen Chamilo-Servers zu gewährleisten\).

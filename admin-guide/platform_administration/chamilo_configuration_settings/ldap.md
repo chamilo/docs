@@ -1,4 +1,3 @@
-
 # LDAP
 
 Die Kategorie ![](../../../.gitbook/assets/graficos14%20%285%29.png)This ermöglicht es Ihnen, die Synchronisierung mit einem LDAP-Server zu konfigurieren. Es enthält eine lange Reihe von Einstellungen, die alle gute LDAP-Kenntnisse erfordern.

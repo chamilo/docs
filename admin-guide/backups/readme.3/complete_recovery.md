@@ -1,4 +1,3 @@
-
 # Vollständige Wiederherstellung
 
 Dieser Wiederherstellungsvorgang wurde einige Male getestet, Ihre Konfiguration kann jedoch erheblich von diesem Beispiel abweichen. Hier verwenden wir einen lokalen Installationsfall, der phpMyAdmin und ein Backup des Chamilo-Root-Verzeichnisses verwendet. Für einen Remote-Server würde es SSH/ SFTP- oder FTP-Zugriff auf den Server erfordern.

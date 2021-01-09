@@ -1,4 +1,3 @@
-
 # Verwaltung von Zeugnissen für
 
 Sobald die Schüler den Kurs belegen und höhere Punktzahlen erhalten haben, die ihnen Zugriff auf ihr Zertifikat geben, haben Sie möglicherweise einige Probleme.

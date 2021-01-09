@@ -1,4 +1,3 @@
-
 # Über diesen Leitfaden
 
 Dieser Leitfaden wurde von Mitgliedern des Kernteams von Entwicklern verfasst, die hinter der Chamilo LMS-Entwicklung stehen. Wenn Sie glauben, dass Sie einen Tippfehler oder eine fehlende Funktion gefunden haben, können Sie auch zum Schreiben und zur Verbesserung dieses Leitfadens beitragen. Alles, was Sie tun müssen, ist uns eine E-Mail an info@chamilo.org mit Ihren Verbesserungsvorschlägen zu senden - Sie könnten Ihre eigene modifizierte Version von Absätzen, Kapiteln, Screenshots oder sogar das gesamte Handbuch beifügen! So einfach geht's!

@@ -1,4 +1,3 @@
-
 # Kopie
 
 Das Kopieren von Werbeaktionen oder Karrieren erfolgt mithilfe der Listen von Karrieren oder Werbeaktionen mithilfe eines doppelten papierblattförmigen Symbols.

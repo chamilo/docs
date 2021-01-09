@@ -1,4 +1,3 @@
-
 # Abonnieren anderer Kurse
 
 Lehrer und Schüler können Kurse abonnieren. Wenn ein Lehrer selbst einen anderen Kurs abonniert, gilt er in diesem Kurs als Schüler und hat daher keinen Zugang zu den normalen Lehrerwerkzeugen. Wenn Sie sich für den Kurs einer anderen Person als Lehrer registrieren möchten, müssen Sie den aktuellen Lehrer dieses Kurses oder den Administrator bitten, Sie als Lehrer für diesen Kurs anzumelden.

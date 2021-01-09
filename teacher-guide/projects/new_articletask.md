@@ -1,4 +1,3 @@
-
 # Neuer Artikel/Aufgabe
 
 Von der Homepage des Projekts:

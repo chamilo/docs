@@ -1,4 +1,3 @@
-
 # Anmelden mit OpenID
 
 Eine OpenID-Funktion ist in Chamilo verfügbar. Es ist nicht so vollständig wie andere OpenID-Implementierungen, aber wenn Sie es aktivieren möchten, müssen Sie eine Reihe von Schritten ausführen:

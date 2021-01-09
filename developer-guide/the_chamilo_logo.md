@@ -1,4 +1,3 @@
-
 # Das Chamilo-Logo
 
 Dieser Abschnitt passt vielleicht nicht wirklich hierher, aber da wir über Chamilo-Design sprechen, dachten wir, dass sich dies für einige als nützlich erweisen würde.

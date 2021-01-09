@@ -1,4 +1,3 @@
-
 # Backup importieren
 
 Jedes Backup ist eine komprimierte Datei \(eine Zip-Datei\), die auf dem Server \(im _archive/_-Verzeichnis\) gespeichert ist. Es kann auch auf Ihren Computer heruntergeladen werden.

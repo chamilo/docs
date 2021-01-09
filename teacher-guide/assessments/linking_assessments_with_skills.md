@@ -1,4 +1,3 @@
-
 # Assessments mit Skills verknüpfen
 
 Seit den neuesten Versionen 1.9.\* ermöglicht Chamilo die Verknüpfung von Fähigkeiten mit Assessments. Kurz gesagt, alles, was ein Zertifikat für einen Benutzer generieren würde, kann auch verwendet werden, um diesem Schüler eine Fähigkeit zu gewähren.

@@ -1,4 +1,3 @@
-
 # Thematische Vorauseinstellungen
 
 In diesem Abschnitt _Thematic advance_ ![](../../.gitbook/assets/graphics328.png) können Sie auswählen, welche Optionen für den _Kursfortschritt_ auf der Startseite des Kurses sichtbar sind \(auf der rechten Seite des Einführungsabschnitts\).

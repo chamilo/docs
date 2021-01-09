@@ -1,4 +1,3 @@
-
 # Glossar
 
 * **Administrator**: Der “master” -Benutzer, der das Chamilo-Portal weltweit kontrolliert und verwaltet.

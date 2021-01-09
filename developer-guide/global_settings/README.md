@@ -1,4 +1,3 @@
-
 # Globale Einstellungen
 
 ![](../../.gitbook/assets/images26%20%289%29.png)

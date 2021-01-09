@@ -1,4 +1,3 @@
-
 # Wie lese ich diesen Leitfaden?
 
 Dieses Handbuch wurde als Referenz mit einer reibungslosen Lernkurve geschrieben, die Sie durch den Installations-, Konfigurations- und Sicherungsprozess führt \(see_Installation und Konfiguration_\), dann die allgemeinen Konfigurationsoptionen \(siehe _Plattformadministration_\), dann die Benutzerverwaltung \(siehe _Benutzerverwaltung\) über die Kursverwaltung \(See_Courses Management_\), Sitzungsverwaltung \(siehe Sitzungsverwaltung\) und dann eine Reihe globaler Funktionen oder Erweiterungen, die Sie kennen müssen \(siehe Globale Funktionen\).

@@ -1,4 +1,3 @@
-
 # Die Chamilo LMS-Datenbankstruktur heute
 
 Sie können hier auf ein vollständiges Schema der Chamilo 1.9, 1.10 und 1.11 Datenbanken zugreifen: [https://github.com/chamilo/chamilo-lms/wiki/Database-structure](https://github.com/chamilo/chamilo-lms/wiki/Database-structure)

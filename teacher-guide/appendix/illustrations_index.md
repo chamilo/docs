@@ -1,4 +1,3 @@
-
 # Illustrationen Index
 
 Abbildung 1: Recht, die Software zu nutzen, zu studieren und zu ändern, zu teilen und zu verteilen8

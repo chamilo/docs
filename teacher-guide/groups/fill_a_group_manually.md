@@ -1,4 +1,3 @@
-
 # Fülle eine Gruppe manuell
 
 Aus verschiedenen Gründen möchte ein Lehrer möglicherweise manuell Gruppenmitglieder auswählen, dh wählen Sie aus, welche Lernenden zusammenarbeiten, z. B. Lernende mit ähnlichen Interessen oder Zielen oder ein erfahrener Lernender mit einem Nachzügler des Kurses. Klicken Sie dazu \(unabhängig davon, ob die Gruppen bereits automatisch ausgefüllt wurden\) auf das Symbol _Diese Gruppe bearbeiten_ ![](../../.gitbook/assets/graphics285.png), um Benutzer manuell hinzuzufügen:

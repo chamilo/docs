@@ -1,4 +1,3 @@
-
 # Liste der Benutzer
 
 Hier kann der Administrator alle Benutzer mit einem einfachen Klick auf ein Icon verwalten, das wir zuvor gesehen haben.

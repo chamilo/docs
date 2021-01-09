@@ -1,4 +1,3 @@
-
 # Das Lernparadigma
 
 Einige Lernmanagementsysteme geraten in die Falle, zu versuchen, eine spezifische Lern-/Unterrichtsmethodik zu unterstützen \(z. B. sozialer Konstruktivismus\), vielleicht um eine kurzlebige pädagogische Glaubwürdigkeit zu gewinnen. Während die Fokussierung auf ein einzelnes Paradigma von einzelnen Lehrern oder Organisationen angemessen und sogar wünschenswert ist, widersteht Chamilo der Versuchung, das Design der Plattform auf diese Weise auf einen bestimmten Ansatz zu beschränken.

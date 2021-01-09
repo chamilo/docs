@@ -1,4 +1,3 @@
-
 # Alphabetischer Index
 
 Aktivität-view25

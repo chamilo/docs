@@ -1,4 +1,3 @@
-
 # Kommentieren einer Seite
 
 Durch Klicken auf das Symbol _Diskutieren auf diese Seite ![](../../.gitbook/assets/graphics211.png) erhalten Sie Zugriff auf ein Formular zum Hinzufügen/Anzeigen von Kommentaren. Dieser Bereich ist sichtbar und kann von jedem Benutzer aktualisiert werden. Weitere Aktionen, die auf Wiki-Seiten ausgeführt werden können, sind:

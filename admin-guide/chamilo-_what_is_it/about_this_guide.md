@@ -1,4 +1,3 @@
-
 # Über diesen Leitfaden
 
 Dieser Leitfaden wurde durch die gemeinsame Aktion mehrerer Unternehmen geschrieben, die auf ihre eigene Weise zur Verbesserung der Bildung auf der ganzen Welt beitragen.

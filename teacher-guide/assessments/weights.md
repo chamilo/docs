@@ -1,4 +1,3 @@
-
 # Gewichte
 
 Die Gewichtungen, auf die über ein Prozentsymbolsymbol ![](../../.gitbook/assets/image4.svg) auf der rechten Seite der Hauptbewertungsseite zugegriffen wird, ermöglichen es Ihnen, die relative Bedeutung der einzelnen Aktivitäten innerhalb der Bewertung zu definieren. Wenn Sie zu diesem Zeitpunkt keine Aktivität registriert haben, kehren Sie in diesem Fall zu diesem Abschnitt zurück.

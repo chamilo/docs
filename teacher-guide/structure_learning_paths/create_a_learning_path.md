@@ -1,4 +1,3 @@
-
 # Erstelle einen Lernpfad
 
 _Klicken Sie auf den neuen Kurs erstellen_ _ico n:\_\__ ![](../../.gitbook/assets/graphics13.png)

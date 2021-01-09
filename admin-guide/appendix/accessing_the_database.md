@@ -1,4 +1,3 @@
-
 # Zugriff auf die Datenbank
 
 Wir empfehlen Ihnen dringend, auf die Datenbank nie direkt zugreifen** und verwenden Sie Chamilos Admin-Tools immer, um Ihre Daten zu ändern. Dies gewährleistet die Datenintegrität und ermöglicht es jedem Administrator, Ihre Daten im Falle eines Problems schnell zu analysieren.

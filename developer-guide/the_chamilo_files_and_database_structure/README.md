@@ -1,2 +1,1 @@
-
 # Die Chamilo-Dateien & Datenbankstruktur

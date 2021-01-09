@@ -1,4 +1,3 @@
-
 # Umfrage-Erstellung
 
 Um eine Umfrage zu erstellen, klicken Sie auf das Symbol _Create Survey_ ![](../../.gitbook/assets/graphics291.png) auf der Hauptseite von s_URVEY_

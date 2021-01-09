@@ -1,4 +1,3 @@
-
 # Starten des Installationsassistenten
 
 Sobald die Dateien auf den Server kopiert wurden, zeigen Sie Ihren Browser auf « [http://www.mydomain.com/chamilo](http://www.mydomain.com/chamilo) » oder lokal auf « [http://localhost/chamilo](http://localhost/chamilo) », je nachdem, wo genau Sie das Verzeichnis abgelegt haben.

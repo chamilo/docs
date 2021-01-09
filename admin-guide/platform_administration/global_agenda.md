@@ -1,4 +1,3 @@
-
 # Globale Agenda
 
 Die globale Agenda ermöglicht es Ihnen, Ereignisse hinzuzufügen, die von der Agenda eines beliebigen Benutzers der Plattform aus sichtbar sind.

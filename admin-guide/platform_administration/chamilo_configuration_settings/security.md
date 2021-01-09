@@ -1,4 +1,3 @@
-
 # Sicherheit
 
 Die Kategorie ![](../../../.gitbook/assets/graficos11%20%284%29.png)This ermöglicht es Ihnen, einige Dinge zu konfigurieren, die mit Sicherheit zu tun haben. Die Standardeinstellungen sind... akzeptabel, aber Sie sollten einige Dinge einschränken, um sie zu verbessern.

@@ -1,4 +1,3 @@
-
 # Promotionen
 
 Der einzige zweite Unterschied zwischen Karrieren und Beförderungen besteht darin, dass eine Beförderung in eine Karriere aufgenommen werden kann, während eine Karriere keine Sitzungen direkt beinhalten kann. Es ist sehr einfach, eine Promotion zu erstellen, sobald Sie eine Karriere erstellt haben.

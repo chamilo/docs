@@ -1,4 +1,3 @@
-
 # Leere Nachrichten
 
 Sie können die Verbindung zur Plattform trennen und haben weiterhin Zugriff auf frühere Nachrichten, sofern Sie am selben Tag wieder verbinden.

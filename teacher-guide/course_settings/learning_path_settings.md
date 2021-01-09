@@ -1,4 +1,3 @@
-
 # Lernpfad-Einstellungen
 
 Der Abschnitt _Learning path_ ![](../../.gitbook/assets/graphics327.png) kann verwendet werden, um das _auto-launch_ von Lernpfaden und den Stil \(oder das grafische Thema\) für den Kurs zu aktivieren.

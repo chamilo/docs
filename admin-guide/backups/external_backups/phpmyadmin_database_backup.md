@@ -1,4 +1,3 @@
-
 # phpMyAdmin-Datenbanksicherung
 
 Datenbanken können über die [P](http://fr.wikipedia.org/wiki/PhpMyAdmin) [hpMyAdmin](http://fr.wikipedia.org/wiki/PhpMyAdmin) -Schnittstelle gespeichert werden, indem Sie mit dem Login und dem Passwort verbinden, die während der [LAMP](http://fr.wikipedia.org/wiki/LAMP) -Serverinstallation, der Datenbankinstallation oder der von Ihrem Hosting-Anbieter übermittelten Daten erstellt wurden.

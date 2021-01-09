@@ -1,4 +1,3 @@
-
 # Allgemeiner Workflow von Plugins
 
 Der \(verkürzte\) Plug-Workflow wie folgt:

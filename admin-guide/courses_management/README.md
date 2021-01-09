@@ -1,4 +1,3 @@
-
 # Verwaltung von Kursen
 
 **Kurse sind Räume**, in denen Lehrer Inhalte mit den rund 20 verfügbaren Tools generieren, um ihren Schülern diese Inhalte \(und vieles mehr) auf einprägsame, dynamische, multimediale und wenn möglich unterhaltsame Weise beizubringen.

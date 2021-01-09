@@ -1,4 +1,3 @@
-
 # Rollenverwaltung
 
 Das Symbol _Roles Management ![](../../.gitbook/assets/graphics311.png) zeigt eine Seite mit den erstellten und Benutzern zugewiesenen Rollen/Aufgaben an:

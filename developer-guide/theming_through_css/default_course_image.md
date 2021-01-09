@@ -1,4 +1,3 @@
-
 # Standard-Kursbild
 
 Ähnlich wie die im vorherigen Abschnitt beschriebene Standardersetzung für Symbole kann das Standardbild für den Kurs, das im Katalog oder in der Ansicht des Kursrasters angezeigt wird, ersetzt werden.

@@ -1,4 +1,3 @@
-
 # Anwendungsfall
 
 Stellen wir uns vor, Ihre Institution bietet zwei Karrieren an: Medizin und Veterinärmedizin. Diese beiden Karrieren dauern jeweils 5 Jahre. Sie sind im August 2011 und bereiten die Kurse vor, die im September 2011 beginnen werden.

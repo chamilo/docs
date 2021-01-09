@@ -1,4 +1,3 @@
-
 # Aufzeichnen von Teilnehmern
 
 Nachdem Sie Ihre Kurssitzungen eingerichtet haben, müssen Sie damit beginnen, die Teilnehmer Ihrer Lernenden aufzuzeichnen. Sie tun dies über das Blatt _Attendances, auf das Sie von der Hauptseite _attendances_ aus zugreifen können, indem Sie auf das entsprechende Angebot klicken. In der ersten Spalte wird eine Liste der Namen der Lernenden und dann eine Spalte für jedes Anwesenheitsdatum angezeigt. Im Allgemeinen ist die aktivierte Standardspalte die erste, die noch nicht geändert wurde.

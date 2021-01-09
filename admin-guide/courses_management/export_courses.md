@@ -1,4 +1,3 @@
-
 # Kurse exportieren
 
 Mit dieser Funktion können Sie Details einiger oder aller Kurse der Plattform in das CSV-Format exportieren.

@@ -1,4 +1,3 @@
-
 # Fügen Sie eine Sitzung hinzu
 
 So fügen Sie eine Sitzung hinzu:

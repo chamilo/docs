@@ -1,4 +1,3 @@
-
 # Kurse
 
 Es gibt zwei Möglichkeiten, einen Kurs wieder nach Chamilo zu importieren:

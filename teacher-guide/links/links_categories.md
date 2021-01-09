@@ -1,4 +1,3 @@
-
 # Verknüpft Kategorien
 
 Sie können Linkskategorien in Chamilo erstellen, was eine bessere Organisationsstruktur ermöglicht, wenn Ihre Bibliothek viele Links enthält.

@@ -1,2 +1,1 @@
-
 # Häufig gestellte Fragen

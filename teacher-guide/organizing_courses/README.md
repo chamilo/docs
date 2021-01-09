@@ -1,4 +1,3 @@
-
 # Organisieren von Kursen
 
 Mit Chamilo kann man am Ende eine große Anzahl von Kursen verwalten. Zusätzlich zu den Kurskategorien von _generell_ haben alle Kursersteller die Möglichkeit, _personal_ Kategorien zu erstellen, die nur für den Benutzer sichtbar sind, der sie erstellt hat, um ihm bei der Organisation seiner Kurse zu helfen.

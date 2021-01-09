@@ -1,4 +1,3 @@
-
 # Allgemeine Plugins Entwicklung
 
 ## Haken
