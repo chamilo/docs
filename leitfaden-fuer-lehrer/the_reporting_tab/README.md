@@ -1,4 +1,0 @@
-# Die Registerkarte „Berichte“
-
-Dieses Kapitel bezoG sich auf _reporting_**tab** im Gegensatz zu dem in früheren Kapiteln besprochenen Berichts**Tool**, auf das von der Kurs-Homepage aus zugegriffen wird und sich nur auf diesen spezifischen Kurs bezieht. Über das Register Berichts **können Sie sich einen Überblick darüber verschaffen, was in** alle\*\* Ihren Kursen oder Sitzungen passiert. Der _Reporting_-Link innerhalb eines Kurses ist im Wesentlichen nur eine gefilterte Version der folgenden und wurde in Kapitel 15 ausführlich beschrieben, sodass Sie in Bezug auf die Details der Berichtsseiten auf dieses Kapitel verweisen können.
-

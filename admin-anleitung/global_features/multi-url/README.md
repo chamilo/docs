@@ -1,8 +1,0 @@
-# Multi-URL
-
-Chamilo verbirgt \(innerhalb seiner vielen Schätze\) eine diskrete, aber praktische Funktion, falls Sie Ihr Chamilo-Portal für mehrere Benutzerkategorien nutzen, für die Sie erwägen müssen, das Portal mit einem zweiten Domainnamen, einem anderen visuellen Aspekt und einer Vorauswahl von nur wenigen Benutzern und Kursen zur Verfügung zu stellen. Ein unabhängiger Raum, der einen Teil seines Inhalts und seines gesamten Codes teilt, wenn Sie so wollen.
-
-Zum Beispiel möchten Sie vielleicht ein Chamilo-Portal auf [http://one.campus.org/](http://one.campus.org/) und ein anderes auf [http://two.campus.org/](http://two.campus.org/) bereitstellen. Selbst wenn es sich um ein separates Portal handelt, wird wahrscheinlich das gleiche Verwaltungsteam alles verwalten. Daher ist es sinnvoll, sowohl die Datenbank als auch das Dateiverzeichnis zu teilen. Auf diese Weise können Sie sogar Benutzer und Kurse nach Ihren Vorstellungen über alle Portale verteilen.
-
-Für diejenigen, die mit Drupal vertraut sind, ist dies **nicht** dasselbe wie eine Konfiguration mit mehreren Standorten, da Chamilo multi-url **die Datenbank** zwischen allen Instanzen teilt. Es stellt mehrere Portale bereit, ist aber auch enger durch die Datenbank gebunden.
-

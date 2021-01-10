@@ -1,8 +1,0 @@
-# Für wen ist dieser Leitfaden gedacht?
-
-Dieser Leitfaden wurde insbesondere mit Blick auf die zahlreichen Chamilo-Administratoren und Dienstleister verfasst, die \(aus eigenem Willen oder nach Notwendigkeit\) eine E-Learning-Plattform verwalten müssen. Der Eintritt in die E-Learning-Welt ist ein komplexer Prozess, aber wir glauben, dass wir eine gute Lösung für Sie haben. Indem wir Ihnen erklären, wie Sie Chamilo verwalten, schicken wir Sie tatsächlich auf einen sehr einfachen Weg, um E-Learning-Plattformen zu nutzen.
-
-Wenn Sie bereits ein erfahrener Chamilo-Administrator sind, ist dieser Leitfaden auch für Sie nützlich, da er sich eingehend mit jeder Chamilo-Verwaltungsfunktion beeinfälet und es Ihnen ermöglicht, die Art und Weise, wie Sie das Tool zur Verbesserung Ihrer Dienste verwenden, für die Community zu erweitern.
-
-Chamilo hat zwei Hauptziele: die Erhöhung der Verfügbarkeit des Lehrers für seine bedürftigen Schüler und die Verbesserung der Qualität der Kursinhalte, indem sie so einfach zu erstellen und zu aktualisieren, dass Sie einfach wiederkommen werden, um sie zu bearbeiten, um Elemente zu verbessern, an die Sie zunächst nicht gedacht haben. Die Rolle des Administrators in diesem Zusammenhang ist von entscheidender Bedeutung, da sie es den Lehrern ermöglicht, ihre Ängste zu umgehen und moralische und technische Unterstützung zu erhalten, damit sie bessere Kurse erstellen können.
-

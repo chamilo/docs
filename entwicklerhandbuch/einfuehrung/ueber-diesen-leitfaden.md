@@ -1,2 +1,0 @@
-# Über diesen Leitfaden
-

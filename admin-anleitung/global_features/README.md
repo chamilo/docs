@@ -1,2 +1,0 @@
-# Globale Funktionen
-

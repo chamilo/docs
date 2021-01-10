@@ -1,2 +1,0 @@
-# Lerner \(Admin/oder Student\)
-
