@@ -4,13 +4,13 @@ Der Mechanismus zum Generieren von Passwörtern in Chamilo ist insbesondere bei 
 
 Für alle ersten Optionen: „none“, „md5“ und „sha1“ \(alle werden jetzt als unsichere Methoden angesehen\) war das Verfahren anfangs relativ einfach: Wir erhalten das einfache Passwort, wir transformieren es mit dem angegebenen Algorithmus und... fertig.
 
-Aber zu der Zeit, als wir überlegten, eine zusätzliche Sicherheitsebene mit bcrypt-Passwörtern hinzuzufügen, haben wir uns entschlossen, dies über ein Symfony-Bundle namens Sonata\ zu tun (was bei CMS-Funktionen hilft\), und so wurde die Passwortgenerierung an dieses Bündel delegiert.
+Aber zu der Zeit, als wir überlegten, eine zusätzliche Sicherheitsebene mit bcrypt-Passwörtern hinzuzufügen, haben wir uns entschlossen, dies über ein Symfony-Bundle namens Sonata zu tun \(was bei CMS-Funktionen hilft\), und so wurde die Passwortgenerierung an dieses Bündel delegiert.
 
-Dies kann \(in Chamilo 1.11\) in vendor/sonata-project/user-bundle/Model/UserManager.php gefunden werden, in der updatePassword\(\) -Methode, die den Encoder \(bcrypt in diesem Fall\) überprüft und seine Klasse in vendor/symfony/security/Core/Encoder/BCryptPasswordEncoder.php aufruft
+Dies kann \(in `Chamilo 1.11`\) in `vendor/sonata-project/user-bundle/Model/UserManager.php` gefunden werden, in der `updatePassword()`-Methode, die den Encoder \(bcrypt in diesem Fall\) überprüft und seine Klasse in `vendor/symfony/security/Core/Encoder/BCryptPasswordEncoder.php` aufruft
 
 Dies führt zu so etwas \(könnte sich mit der Zeit und der Implementierung des Sicherheitspakets ändern\):
 
-```text
+```php
 public function encodePassword($raw, $salt)
 {
     if ($this->isPasswordTooLong($raw)) {
@@ -20,7 +20,7 @@ public function encodePassword($raw, $salt)
     $options = array('cost' => $this->cost);
 
     if ($salt) {
-        @trigger_error('Passing a $salt to '.__METHOD__.'() is deprecated since Symfony `2.8` and will be ignored in 3.0.', E_USER_DEPRECATED);
+        @trigger_error('Passing a $salt to '.__METHOD__.'() is deprecated since Symfony 2.8 and will be ignored in 3.0.', E_USER_DEPRECATED);
 
         $options['salt'] = $salt;
     }
@@ -29,19 +29,42 @@ public function encodePassword($raw, $salt)
 }
 ```
 
-Wie Sie sehen, besteht der Endprozess einfach darin, die Funktion password\_hash\(\) zu verwenden, jedoch mit dem Passwort und einer Reihe von Optionen. Diese Optionen sind im Grunde ein "cost" -Parameter, der die Häufigkeit angibt, mit der wir das Kennwort mit "super-encrypt" erreichen möchten.
+Wie Sie sehen, besteht der Endprozess einfach darin, die Funktion `password_hash()` zu verwenden, jedoch mit dem Passwort und einer Reihe von Optionen. Diese Optionen sind im Grunde ein "cost" -Parameter, der die Häufigkeit angibt, mit der wir das Kennwort mit "super-encrypt" erreichen möchten.
 
-Diese Nummer muss auf den Konstruktor der src/Chamilo/UserBundle/Security/Encoder.php -Klasse zurückgeführt werden:\ `\`\ `public function\_\_construct \($method\) { $this-&gt;method = $method; switch \($this-&gt;method\) { case 'none': $defaultEncoder = new PlaintextPasswordEncoder\(\); break; case 'bcrypt': $defaultEncoder = new BCryptPasswordEncoder\(4\); break; case 'sha1': case 'md5': $defaultEncoder = new MessageDigestPasswordEncoder\($this-&gt;method, false, 1\); break; } $this->defaultRecoder = $defaultRecoder;}
+Diese Nummer muss auf den Konstruktor der `src/Chamilo/UserBundle/Security/Encoder.php`-Klasse zurückgeführt werden:
 
-```text
-So now we know that, to generate the password, we simply need the number of times
-to pass it through password_hash(), and the salt, which is simply a sha1(unique_id(true, true))..
+```php
+public function__construct ($method) {
 
-So to "fake" the generation of the password "tomato", we would simply need to call:
+    $this->method = $method;
+
+    switch ($this->method) {
+        case 'none':
+            $defaultEncoder = new PlaintextPasswordEncoder();
+            break;
+
+        case 'bcrypt':
+            $defaultEncoder = new BCryptPasswordEncoder(4);
+            break;
+
+        case 'sha1':
+        case 'md5':
+            $defaultEncoder = new MessageDigestPasswordEncoder($this->method, false, 1);
+            break;
+    }
+
+    $this->defaultRecoder = $defaultRecoder;}
 ```
 
-$salt = sha1 \(eindeutig\_id \(true, true\)\); password\_hash \('Tomate', PASSWORT\_BCRYPT, \['cost' => 4, 'salt' => $salt\]\);
+Jetzt wissen wir, dass wir zur Erstellung des Passworts einfach die Anzahl der Male benötigen
+um es durch `password_hash()` und das Salz zu geben, das einfach ein `sha1` ist `sha1(unique_id(true, true))..`
 
-\`\`\ `Wenn Sie also das Kennwort eines Benutzers bearbeiten, müssen Sie auch seine "salt" -Spalte in das neu generierte Salz bearbeiten.
+Um also die Generierung des Passworts „Tomate“ zu „fälschen“, müssten wir folgendes anrufen:
+
+```php
+$salt = sha1(unique_id(true, true)); password_hash('tomato', PASSWORD_BCRYPT, ['cost' => 4, 'salt' => $salt]);
+```
+
+Wenn Sie also das Kennwort eines Benutzers bearbeiten, müssen Sie auch seine "salt"-Spalte in das neu generierte Salz bearbeiten.
 
 Wie Sie sehen, verwenden andere Verschlüsselungsmethoden andere Pfade im Encoder-Konstruktor.
