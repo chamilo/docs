@@ -4,11 +4,15 @@ Das Stammverzeichnis ist \(in diesem Zusammenhang\) das Verzeichnis, das die Cha
 
 Um zu speichern, müssen Sie die Dateien über Ihr Terminal komprimieren und in das _/var/www/_ -Verzeichnis gehen.
 
-user @server:cd /var/www
+```bash
+user@server: cd /var/www
+```
 
 Komprimiere das Verzeichnis mit dem „tar „-Befehl, um eine Datei tar.gz zu generieren:
 
-user @server: /var/www$ sudo tar cvfj /home/you/bkp/backup\_chamilo.tar.gz chamilo/
+```bash
+user@server: /var/www$ sudo tar cvfj /home/you/bkp/backup_chamilo.tar.gz chamilo/
+```
 
 Es kann praktisch sein, einen Namen anzugeben, der anhand des Datums wie _2010-05-07-backup-chamilo erstellt wurde.\_\_tar.gz_ Wenn Sie eine Reihe von Sicherungsdateien speichern, können Sie diese auf diese Weise einfach nach Datum sortieren.
 

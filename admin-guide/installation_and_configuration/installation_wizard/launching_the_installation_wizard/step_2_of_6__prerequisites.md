@@ -7,7 +7,7 @@ Illustration 4: Installation - Voraussetzungen
 
 Die Voraussetzungen, die Ihr System bereits erfüllt hat, sind in **Grün** gekennzeichnet, die obligatorischen, aber nicht zufriedenen sind in **rot** gekennzeichnet und diejenigen, die nicht zufrieden, aber auch nicht obligatorisch sind in orange** gekennzeichnet.
 
-Fast alle Voraussetzungen beziehen sich auf die PHP-Installation und bieten Links zu weiteren Details. Die empfohlenen Parameter stellen Variablen dar, die Sie in Ihrer PHP-Konfiguration \(_php.ini_\) oder in der VirtualHost-Konfiguration ändern können.
+Fast alle Voraussetzungen beziehen sich auf die PHP-Installation und bieten Links zu weiteren Details. Die empfohlenen Parameter stellen Variablen dar, die Sie in Ihrer PHP-Konfiguration \(_`php.ini`_\) oder in der VirtualHost-Konfiguration ändern können.
 
 Am Ende der Seite „Voraussetzungen“ finden Sie den Abschnitt _Permissions für Verzeichnisse und Dateien_.
 
@@ -22,7 +22,7 @@ Unter Windows ist dies im Allgemeinen standardmäßig einfacher \(aber viel weni
 
 Wechseln Sie lokal auf Ubuntu in das Verzeichnis, in dem sich das Verzeichnis _Chamilo_ befindet. Geben Sie dem Benutzer _www-data_ (dem Webserver-Benutzer unter Ubuntu\) ausreichende Berechtigungen und laden Sie die Seite in Ihren Browser neu. Wenn Sie ein anderes Betriebssystem verwenden, müssen Sie möglicherweise den folgenden Befehl ein wenig aktualisieren.
 
-Beispiel: user @server: /var/www$ chown -R www-data:www-data chamilo/
+Beispiel: `user@server:/var/www$ chown -R www-data:www-data chamilo/`
 
 Diese Berechtigungen sind nicht annähernd sicher, und wir gehen davon aus, dass Sie sich an einen ordnungsgemäß qualifizierten Linux-Administrator wenden werden. Sicherheit sollte für Sie wichtig sein, aber wir können unmöglich alle Fälle von Berechtigungen und Servern nur mit diesem Handbuch abdecken.
 

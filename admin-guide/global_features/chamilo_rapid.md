@@ -1,16 +1,19 @@
 # Chamilo Rapid
 
-Die Umwandlung von PowerPoint® - oder Impress® -Präsentationen in Lernpfade ist relativ komplex, um richtig zu installieren. Es gibt nur eine bekannte Abkürzung: Installieren Sie eine OpenOffice.org oder LibreOffice Version 3 und den Befehl _screen_.
+Die Umwandlung von PowerPoint®- oder Impress®-Präsentationen in Lernpfade ist relativ komplex, um richtig zu installieren. Es gibt nur eine bekannte Abkürzung: Installieren Sie eine OpenOffice.org oder LibreOffice Version 3 und den Befehl _screen_.
 
-$ sudo apt-get install libreoffice bildschirm
+```bash
+$ sudo apt-get install libreoffice screen
+```
 
 Dann starte die folgenden Befehle
 
-$ Bildschirm
+```bash
+$ screen
+$ sudo soffice -accept=**”**socket,host=127.0.0.1,port=2002,tcpNoDelay=1;urp;” -headless -nodefault -nofirststartwizard -nolockcheck -nologo -norestore &
+ctrl-a + ctrl-d
+```
 
-_$_ _sudo soffice -accept=**“ **socket, host=**127.0.0.1**, port = 2002, tcpnoDelay=1; urp;“ _ _-kopflose -nodefault_ _-nofirststartwizard_ _-nolockcheck -nologo_ _-norestore_ _&_
-
-Strg-A + Strg-D
 
 Jede feinere Erklärung würde größtenteils außerhalb des Kontextes dieses Leitfadens stehen, aber dieses Rezept funktioniert gut auf dem Ubuntu-Server.
 
