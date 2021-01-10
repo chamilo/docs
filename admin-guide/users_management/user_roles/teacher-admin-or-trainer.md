@@ -1,1 +1,0 @@
-# Lehrer \(Admin/oder Trainer\)

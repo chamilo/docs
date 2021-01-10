@@ -1,1 +1,0 @@
-# Struktur: Lernpfade

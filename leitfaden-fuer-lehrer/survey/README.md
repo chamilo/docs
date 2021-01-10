@@ -1,0 +1,4 @@
+# Umfrage
+
+Das s_Urvey_ Tool ![](../../.gitbook/assets/graphics290%20%283%29.png) ermöglicht es dem Lehrer, Informationen, Ansichten und Meinungen von Kursteilnehmern zu sammeln. Es kann in der Regel während oder am Ende eines Kurses als Hilfe bei der allgemeinen Kursbewertung verwendet werden, oder es kann zu Beginn eines Kurses verwendet werden, um Informationen über die Interessen, Bestrebungen der Lernenden usw. zu sammeln, um dem Lehrer zu helfen, Aspekte des Inhaltskurses an seinen Die Lernenden.
+

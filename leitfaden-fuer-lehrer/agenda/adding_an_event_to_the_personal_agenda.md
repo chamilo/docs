@@ -1,0 +1,4 @@
+# Hinzufügen einer Veranstaltung zur persönlichen Agenda
+
+Die persönliche Agenda, die zu jedem Zeitpunkt verfügbar ist, während Sie in Chamilo über die entsprechende Registerkarte navigieren, funktioniert genauso wie die Kursagenda, mit der Ausnahme, dass die Optionen zum Erstellen von Ereignissen auf die “direct” -Methode beschränkt sind \(dh klicken/ziehen Sie auf das relevante Datum/die entsprechenden Zeiten, um ein einfaches Popup-Dialogfenster zu öffnen \(siehe oben\). Das Löschen, Bearbeiten und Exportieren von Optionen für “personal” -Events kann auch durchgeführt werden \(wie beim Kurs _Agenda\)_  einfach durch Anklicken eines Ereignisses, um ein Popup-Dialogfeld anzuzeigen. Lehrer und Lernende müssen bedenken, dass die \(blauen\) persönlichen Ereignisse von niemandem außer sich selbst betrachtet werden können.
+

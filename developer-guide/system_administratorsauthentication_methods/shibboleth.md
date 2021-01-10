@@ -1,3 +1,0 @@
-# Shibboleth
-
-Kommt bald...

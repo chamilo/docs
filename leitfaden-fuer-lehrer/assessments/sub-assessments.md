@@ -1,0 +1,4 @@
+# Sub-Bewertungen
+
+Mit dem Bewertungstool können Sie mehrere “sub-assessments” innerhalb des Bewertungstools definieren oder einfach das Bewertungstool auf höherer Ebene verwenden, um Ihre Aktivitäten zu verteilen. Wir glauben, dass die Verwendung von Unterbewertungen etwas komplexer ist, und wir sollten an dieser Stelle keine Verwirrung stiften. Behalten wir es daher einfach bei: Bei Bedarf können Sie mithilfe des Symbols zur Erstellung des gelben Ordners eine niedrigere Ebene von Bewertungen im Bewertungstool erstellen ![](../../.gitbook/assets/image5%20%281%29.svg)
+

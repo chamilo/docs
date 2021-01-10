@@ -2,8 +2,8 @@
 
 Dies ist das komplette Set von Chamilo Guides für Benutzer von Chamilo.
 
-* [Administratorhandbuch](admin-anleitung/chamilo-_what_is_it/)
-* [Lehrerhandbuch](leitfaden-fuer-lehrer/getting-to-know-chamilo/what_is_chamilo.md)
+* [Administratorhandbuch](../admin-anleitung/chamilo-_what_is_it/)
+* [Lehrerhandbuch](getting-to-know-chamilo/what_is_chamilo.md)
 * [Entwicklerhandbuch](https://github.com/StoneAge-IT/docs/tree/ac042ae4c4e3b2c4a7c06a4db06d3f42d29b4ddd/developer-guide/introduction/README.md)
 
 Die meisten Benutzer müssen nicht alle Anleitungen lesen und haben viele Informationen \(vielleicht zu viel\), indem sie einfach den Lehrerführer durchgehen. Wenn Sie jedoch mehr wissen möchten oder Ihre Rolle in Ihrer Organisation speziell die eines Chamilo-Administrators oder eines Entwicklers oder Sysadmins ist, könnten Sie am folgenden Admin Guide und der Entwicklerleitfaden interessiert sein.

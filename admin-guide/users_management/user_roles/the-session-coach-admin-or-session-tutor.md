@@ -1,1 +1,0 @@
-# Der Sitzungscoach \(Admin/oder Session Tutor\)
