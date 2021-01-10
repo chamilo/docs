@@ -7,7 +7,7 @@ Kurz gesagt, die Personen, auf die wir dieses Handbuch richten, sind:
 \| Icon\| Rolle\| Beschreibung\|
 
 | ![](../../.gitbook/assets/images1%20%286%29.png) | IT-Manager | IT-Manager \(sie brauchen wahrscheinlich nur « scan » dieses Dokument, um sich ein Bild von der Zuverlässigkeit und Seriosität von Chamilo LMS zu machen\) |
-|: — |: — |: — |
+| :--- | :--- | :--- |
 | ![](../../.gitbook/assets/images6%20%286%29.png) | Webdesigner | Webdesigner |
 | ![](../../.gitbook/assets/images10%20%284%29.png) | Themers | Themers \(Webdesigner mit einem technischen Hintergrund\) |
 | ![](../../.gitbook/assets/images11%20%289%29.png) | Webentwickler | Webentwickler |
