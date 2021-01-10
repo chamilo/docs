@@ -10,11 +10,14 @@ Leider muss aufgrund der inhärenten Sicherheit des Systems ein SSL-Zertifikat \
 
 Sie können “self-sign” Ihre Zertifikate, aber dies zeigt allen Benutzern beim ersten Zugriff auf das Portal einen beängstigenden Bildschirm an und fordert sie auf, eine Entscheidung zu treffen. Die Benutzer müssen mindestens dreimal in sehr spezifischen Optionen klicken, um auf die Website zu gelangen, wie die folgenden Screenshots zeigen.
 
-![](../../.gitbook/assets/images52%20%281%29.png)Illustration 90: Browser warnen Benutzer von selbstsignierten SSL-Zertifikaten: Schritt 1/3: Klicken Sie auf den “I Understand the Risks” -Link \(Beispiel mit Mozilla Firefox\)
+![](../../.gitbook/assets/images52%20%281%29.png)
+Illustration 90: Browser warnen Benutzer von selbstsignierten SSL-Zertifikaten: Schritt 1/3: Klicken Sie auf den “I Understand the Risks” -Link \(Beispiel mit Mozilla Firefox\)
 
-![](../../.gitbook/assets/images53%20%281%29.png)Illustration 91: Browser warnen Benutzer vor selbstsignierten SSL-Zertifikaten: Schritt 2/3: Klicken Sie auf die Schaltfläche "Add Exception"
+![](../../.gitbook/assets/images53%20%281%29.png)
+Illustration 91: Browser warnen Benutzer vor selbstsignierten SSL-Zertifikaten: Schritt 2/3: Klicken Sie auf die Schaltfläche "Add Exception"
 
-![](../../.gitbook/assets/images60%20%281%29.png)Illustration 92: Browser warnen Benutzer vor selbstsignierten SSL-Zertifikaten: Schritt 3/3: Klick "Confirm Security Exception"
+![](../../.gitbook/assets/images60%20%281%29.png)
+Illustration 92: Browser warnen Benutzer vor selbstsignierten SSL-Zertifikaten: Schritt 3/3: Klick "Confirm Security Exception"
 
 Diese ziemlich beängstigenden drei Schritte sind abgeschlossen, Ihr Benutzer hat Zugriff auf Ihre Website mit einer verschlüsselten Verbindung, aber der Prozess wird nicht für alle funktionieren.
 

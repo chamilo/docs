@@ -18,9 +18,11 @@ Jede feinere Erklärung würde größtenteils außerhalb des Kontextes dieses Le
 
 Einmal konfiguriert und ausgeführt, können Sie PPT aus den Lernpfad-Tools Ihrer Kurse konvertieren.
 
-![](../../.gitbook/assets/images66%20%282%29.png)Illustration 87: Symbol für schnelle Konvertierung im Lernpfad-Tool
+![](../../.gitbook/assets/images66%20%282%29.png)
+Illustration 87: Symbol für schnelle Konvertierung im Lernpfad-Tool
 
-![](../../.gitbook/assets/images67%20%282%29.png)Illustration 88: Lernpfad Import PPT-Bildschirm
+![](../../.gitbook/assets/images67%20%282%29.png)
+Illustration 88: Lernpfad Import PPT-Bildschirm
 
 Nach dem Import auf diese Weise wird eine PowerPoint- oder Impress-Präsentation in einen vollständigen Lernpfad umgewandelt, der weiter bearbeitet und strukturiert und dann den Lernenden veröffentlicht wird.
 

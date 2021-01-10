@@ -14,4 +14,4 @@ Wenn Sie jemals mehr Stylesheets in die Liste aufnehmen möchten, ist dies der v
 
 Wenn Sie ein neues Stylesheet global konfigurieren oder die Reihenfolge ändern möchten, in der es geladen wird, und wenn Sie den vorherigen Flow verfolgt haben, wissen Sie jetzt, dass der beste Ort dafür die Methode Template::setCssFiles\(\) ist.
 
-Dies ist die bisher beste Methode in Chamilo 1.10, aber in 2.0 mit der vollen Fähigkeit, Vorlagen zu entfesseln, sollten Sie in der Lage sein, das neue CSS direkt zu Ihrer Vorlage hinzuzufügen.
+Dies ist die bisher beste Methode in Chamilo 1.10, aber in `2.0` mit der vollen Fähigkeit, Vorlagen zu entfesseln, sollten Sie in der Lage sein, das neue CSS direkt zu Ihrer Vorlage hinzuzufügen.

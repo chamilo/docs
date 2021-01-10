@@ -6,4 +6,5 @@ Der Admin kann jeden Kurs abonnieren, den er möchte:
 * Wählen Sie den Kurs aus, für den Sie diese Benutzer abonnieren möchten,
 * klicken Sie auf _Benutzer abonnieren_.
 
-![](../../.gitbook/assets/coursinscrire_-utilisateurs%20%283%29.png)Illustration 62: Administration — Abonnieren Sie Benutzer zu Kursen
+![](../../.gitbook/assets/coursinscrire_-utilisateurs%20%283%29.png)
+Illustration 62: Administration — Abonnieren Sie Benutzer zu Kursen

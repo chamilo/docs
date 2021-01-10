@@ -2,7 +2,7 @@
 
 Das LDAP-Authentifizierungssystem in Chamilo wurde im Laufe der Zeit verschiedenen tiefgreifenden Änderungen unterzogen, und die aktuelle Situation ist etwas verwirrend und erfordert immer eine Art manuelles Update.
 
-Ein Patch von Eric Marguin in Version 1.10.0 behob eine Reihe von Problemen aus früheren Versionen, die sich auf Importskripte bezogen, die die Konfigurationsdatei für LDAP \(main/inc/conf/auth.conf.php\) nicht verwendeten.
+Ein Patch von Eric Marguin in Version `1.10.0` behob eine Reihe von Problemen aus früheren Versionen, die sich auf Importskripte bezogen, die die Konfigurationsdatei für LDAP \(main/inc/conf/auth.conf.php\) nicht verwendeten.
 
 ## LDAP konfigurieren
 
@@ -92,7 +92,7 @@ Sobald Sie diese Datei eingerichtet haben, müssen Sie configuration.php ändern
 Wenn Sie sich app/config/configuration.php ansehen und nach « ldap » suchen, finden Sie diese 3 Zeilen:
 
 ```text
-// -> Uncomment the two lines bellow to activate LDAP AND edit main/auth/external_login/ldap.conf.php 
+// -> Uncomment the two lines bellow to activate LDAP AND edit main/auth/external_login/ldap.conf.php
 // for configuration
 // $extAuthSource["extldap"]["login"] = $_configuration['root_sys']. $_configuration['code_append']."auth/external_login/login.ldap.php";
 // $extAuthSource["extldap"]["newUser"] = $_configuration['root_sys'].$_configuration['code_append']."auth/external_login/newUser.ldap.php";

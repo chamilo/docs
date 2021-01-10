@@ -1,6 +1,6 @@
 # Anpassen des Online-Editors
 
-In Chamilo 1.10 und höher verwenden wir CKEditor als WYSIWYG \(Was Sie sehen, ist was Sie bekommen\) oder als “online” HTML-Editor. Dies war bei Chamilo 1.9 nicht der Fall, der immer noch den jetzt toten FckEditor benutzte.
+In Chamilo 1.10 und höher verwenden wir CKEditor als WYSIWYG \(Was Sie sehen, ist was Sie bekommen\) oder als “online” HTML-Editor. Dies war bei `Chamilo 1.9` nicht der Fall, der immer noch den jetzt toten FckEditor benutzte.
 
 Manchmal möchten Sie möglicherweise den Editor für ein bestimmtes Element in Chamilo anpassen. Dies kann für vorhandene benutzerdefinierte Elementtypen im src/Chamilo/CoreBundle/Component/Editor/CkEditor/Toolbar/ -Verzeichnis erfolgen.
 
@@ -17,7 +17,7 @@ namespace Chamilo\CoreBundle\Component\Editor\CkEditor\Toolbar;
  * @package Chamilo\CoreBundle\Component\Editor\CkEditor\Toolbar
  */
 class Messages extends Basic
-{ 
+{
     /**
      * Get the toolbar config
      * @return array

@@ -37,7 +37,7 @@ user@server: sudo apt-get install apache2-mpm-prefork
 MySQL installieren:
 
 ```bash
-user @server: sudo apt-get install mysql-server
+user@server: sudo apt-get install mysql-server
 ```
 
 Installieren von PHP5 mit Bindungen für Apache und MySQL und anderen empfohlenen Funktionen:

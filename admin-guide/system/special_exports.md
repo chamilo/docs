@@ -2,7 +2,8 @@
 
 Die spezielle Exportfunktion wurde entwickelt, um dem akademischen Inspektor zu helfen. Es erlaubt ihm, alle Dokumente \(und nur Dokumente\) aus allen Kursen in einem einzigen \(sei es sehr schwer\) Operation zu exportieren. Eine zweite Option ermöglicht es ihm, die Dokumente aus den Kursen auszuwählen, die er möchte.
 
-![](../../.gitbook/assets/export-speciaux%20%283%29.png)Illustration 81: Verwaltung — Sonderausfuhren
+![](../../.gitbook/assets/export-speciaux%20%283%29.png)
+Illustration 81: Verwaltung — Sonderausfuhren
 
 Es gibt derzeit keine automatisierte Möglichkeit, diese Kurse direkt aus dem Sonderexport zu importieren \(es ist eher als eine Möglichkeit gedacht, alle Ihre Dokumente schnell zu exportieren\), aber wenn Sie sie importieren möchten, wäre eine Möglichkeit, dies zu tun:
 

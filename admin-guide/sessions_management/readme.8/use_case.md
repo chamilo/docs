@@ -6,7 +6,8 @@ Ab dem ersten Jahr \(2011\) erstellen Sie Promotion 2016 sowohl für Medizin \(P
 
 Lassen Sie uns das vorherige Schema als Referenz wiederverwenden:
 
-![](../../../.gitbook/assets/graficos92%20%286%29.png)Illustration 76: Kurse, Sitzungen, Promotions und Karriere
+![](../../../.gitbook/assets/graficos92%20%286%29.png)
+Illustration 76: Kurse, Sitzungen, Promotions und Karriere
 
 Diese beiden Promotionen sind das Ergebnis von 5 Studienjahren \(seien wir uns einig, dass die Mindestdauer natürlich ein Jahr beträgt\). Sie haben also 5 **Perioden** von jeweils einem Jahr, was 2016 zu einer Beförderung führt.
 

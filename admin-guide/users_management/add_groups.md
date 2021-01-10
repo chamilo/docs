@@ -4,4 +4,5 @@ Chamilo integriert ein Tool _Social Network_, mit dem Sie gemeinsame Interesseng
 
 Über die Konfigurationseinstellungen können Sie auch entscheiden, dass Benutzer ihre eigenen Interessengruppen erstellen können.
 
-![](../../.gitbook/assets/groupesajouter%20%283%29.png)Illustration 54: Verwaltung — Schaffung sozialer Gruppen
+![](../../.gitbook/assets/groupesajouter%20%283%29.png)
+Illustration 54: Verwaltung — Schaffung sozialer Gruppen

@@ -4,7 +4,8 @@ Angesichts der Möglichkeit, Inhalte in einem Kurs in einem Kurs während einer 
 
 Um es verwenden zu können, benötigen Sie eine Ursprungs- und eine Zielsitzung, in der Sie denselben Kurs finden können, von dem Sie den Inhalt der Sitzung kopieren möchten.
 
-![](../../.gitbook/assets/graficos84%20%285%29.png)Illustration 69: Kursinhalte von Sitzung zu Sitzung kopieren
+![](../../.gitbook/assets/graficos84%20%285%29.png)
+Illustration 69: Kursinhalte von Sitzung zu Sitzung kopieren
 
 Sobald diese Bedingungen erfüllt sind, müssen Sie nur die Ursprungssitzung, den Herkunftsverlauf, die Zielsitzung und den Zielort auswählen und dann entscheiden, ob alle sitzungsspezifischen Inhalte kopiert werden sollen oder nur einige davon.
 

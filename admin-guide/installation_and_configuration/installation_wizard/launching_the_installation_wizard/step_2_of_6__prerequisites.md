@@ -2,7 +2,8 @@
 
 In diesem Schritt wird überprüft, ob Ihr Server über alle erforderlichen Elemente für eine vollständige und korrekte Installation von Chamilo verfügt.
 
-![](../../../../.gitbook/assets/images3%20%288%29.png)Illustration 4: Installation - Voraussetzungen
+![](../../../../.gitbook/assets/images3%20%288%29.png)
+Illustration 4: Installation - Voraussetzungen
 
 Die Voraussetzungen, die Ihr System bereits erfüllt hat, sind in **Grün** gekennzeichnet, die obligatorischen, aber nicht zufriedenen sind in **rot** gekennzeichnet und diejenigen, die nicht zufrieden, aber auch nicht obligatorisch sind in orange** gekennzeichnet.
 
@@ -10,7 +11,8 @@ Fast alle Voraussetzungen beziehen sich auf die PHP-Installation und bieten Link
 
 Am Ende der Seite „Voraussetzungen“ finden Sie den Abschnitt _Permissions für Verzeichnisse und Dateien_.
 
-![](../../../../.gitbook/assets/images5%20%288%29.png)Illustration 5: Installation - Voraussetzungen \(end\)
+![](../../../../.gitbook/assets/images5%20%288%29.png)
+Illustration 5: Installation - Voraussetzungen \(end\)
 
 Standardmäßig ist unter GNU/Linux das Schreiben für Verzeichnisse nicht autorisiert. Sie müssen die Dateizugriffe ändern, um die Sicherheit zu optimieren und dem Benutzer, der den Webserver ausführt, die ausreichenden Berechtigungen zu erteilen. Diese stellen die Beschränkung der Berechtigungen während der Ausführung eines Dienstes sicher \(in diesem Fall _Apache_\) und vermeiden, dass ein Cracker zu einfach die Kontrolle über Ihren Server übernehmen kann.
 

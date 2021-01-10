@@ -2,7 +2,8 @@
 
 Als Administrator ist bei der Kurserstellung nur der Titel obligatorisch.
 
-![](../../.gitbook/assets/graficos83%20%285%29.png)Illustration 58: Kurs-Erstellung
+![](../../.gitbook/assets/graficos83%20%285%29.png)
+Illustration 58: Kurs-Erstellung
 
 Abgesehen von diesem Pflichtfeld stehen dem Administrator ausschließlich folgende Optionen zur Verfügung:
 

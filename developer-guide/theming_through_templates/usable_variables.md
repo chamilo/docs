@@ -17,28 +17,28 @@ Hier ist eine vollständige Liste der enthaltenen Werte zusammen mit einem Beisp
 ```text
 [complete_name] => John Doe
 [complete_name_with_username] => John Doe (admin)
-[firstname] => John 
-[lastname] => Doe 
-[firstName] => John 
-[lastName] => Doe 
+[firstname] => John
+[lastname] => Doe
+[firstName] => John
+[lastName] => Doe
 [mail] => john@example.com
 [email] => john@example.com
-[picture_uri] => 
-[user_id] => 1 
-[official_code] => ADMIN 
-[status] => 1 
+[picture_uri] =>
+[user_id] => 1
+[official_code] => ADMIN
+[status] => 1
 [auth_source] => platform
-[active] => 1 
-[username] => admin 
-[theme] => 
-[language] => english 
+[active] => 1
+[username] => admin
+[theme] =>
+[language] => english
 [last_login] => 2014-01-11 15:21:57
 [lastLogin] => 2014-01-11 15:21:57
 [avatar] => http://my.chamilo110.net/main/img/unknown.jpg
 [avatar_sys_path] => /var/www/chamilo-lms/main/img/unknown.jpg
 [avatar_small] => http://my.chamilo110.net/main/img/unknown_22.jpg
-[logged] => 1 
-[is_admin] => 1 
+[logged] => 1
+[is_admin] => 1
 [messages_count] => 0
 [messages_invitations_count] => 0
 ```
@@ -49,14 +49,14 @@ Dieses Array enthält eine Liste verschiedener Formen von Pfaden, die Sie mögli
 
 ```text
 [web] => http://my.chamilo110.net/
-[web_course] => http://my.chamilo110.net/courses/ 
-[web_main] => http://my.chamilo110.net/main/ 
-[web_css] => http://my.chamilo110.net/web/css/ 
+[web_course] => http://my.chamilo110.net/courses/
+[web_main] => http://my.chamilo110.net/main/
+[web_css] => http://my.chamilo110.net/web/css/
 [web_css_theme] => http://my.chamilo110.net/web/css/themes/chamilo/
-[web_ajax] => http://my.chamilo110.net/main/inc/ajax/ 
-[web_img] => http://my.chamilo110.net/main/img/ 
-[web_plugin] => http://my.chamilo110.net/plugin/ 
-[web_lib] => [http://my.chamilo110.net/main/inc/lib/](http://my.chamilo19.net/main/inc/lib/)// only since 1.9.8 or later
+[web_ajax] => http://my.chamilo110.net/main/inc/ajax/
+[web_img] => http://my.chamilo110.net/main/img/
+[web_plugin] => http://my.chamilo110.net/plugin/
+[web_lib] => [http://my.chamilo110.net/main/inc/lib/](http://my.chamilo19.net/main/inc/lib/)// only since `1.9.8` or later
 [web_upload] => http://my.chamilo110.net/app/upload/
 [web_self] => [http://my.chamilo110.net/courses/ABC/index.php](http://my.chamilo19.net/courses/ABC/index.php)
 [web_query_vars] => cidReq=ABC&amp;id_session=0
@@ -77,9 +77,9 @@ Beachten Sie, dass Systempfade, obwohl sie sonst in den PHP-Skripten leicht verf
 Dieses Array enthält einige Systemvariablen, die allgemeine Plattforminformationen darstellen
 
 ```text
-[software_name] => Chamilo 
+[software_name] => Chamilo
 [system_version] => 1.11.6
-[site_name] => My campus 
+[site_name] => My campus
 [institution] => My Organisation
 [date] => Wednesday, January 31st 2018 // only available starting 1.10.0
 [timezone] => Europe/Brussels
@@ -94,7 +94,7 @@ dh Sie können den Site-Namen \(wie in den globalen Einstellungen konfiguriert\)
 
 ## Das\_c Array
 
-Dieses Array \(nur ab 1.9.8 vorhanden\) enthält Informationen über den aktuellen Kurs.
+Dieses Array \(nur ab `1.9.8` vorhanden\) enthält Informationen über den aktuellen Kurs.
 
 Sie können überprüfen, ob der aktuelle Kurs definiert ist \(dh wenn sich der Benutzer gerade in einem Kurs befindet\), indem Sie die Variable _course\_is\_set_ verwenden:
 
@@ -109,12 +109,12 @@ Sie können überprüfen, ob der aktuelle Kurs definiert ist \(dh wenn sich der 
 Das\_c Array sieht so aus:
 
 ```text
-[id] => MODULE3 
-[code] => MODULE3 
+[id] => MODULE3
+[code] => MODULE3
 [title] => Module 3
 [visibility] => 1
-[language] => spanish 
-[directory] => MODULE3 
+[language] => spanish
+[directory] => MODULE3
 [session_id] => 0// only since 1.9.8
 [user_is_teacher] => true
 [student_view] => false
@@ -145,33 +145,33 @@ system_charset => utf-8
 document_language => en
 style => chamilo_red // the CSS used at this time, subfolder of main/css/
 favico => [http://my.chamilo110.net/favicon.ico](http://my.chamilo19.net/favicon.ico)
-logo => 
+logo =>
 online_button => … //an HTML tag to show if another user is online
 offline_button => … //an HTML tag to show if another user is offline
 title_string => My portal – My organisation – Portal name
 bug_notification_link => … //HTML tag representing the bug reporting icon
-notification_menu => 
-…menu => 
-breadcrumb => 
-profile_link => 
-message_link => 
+notification_menu =>
+…menu =>
+breadcrumb =>
+profile_link =>
+message_link =>
 logout_link => [http://my.chamilo110.net/index.php?logout=logout&amp;uid=5](http://my.chamilo19.net/index.php?logout=logout&uid=5)
 administrator_name => John Doe
 teachers => Samuel Lee, Mark Hansen
-header_extra_content => 
-footer_extra_content => 
-session_teachers => 
-help_content => 
-actions => 
-show_footer => 
+header_extra_content =>
+footer_extra_content =>
+session_teachers =>
+help_content =>
+actions =>
+show_footer =>
 show_header => true //whether the header block should be shown or not
-show_toolbar => 
-css_file_to_string => 
-css_style_print => 
-js_file_to_string => 
-extra_headers => 
+show_toolbar =>
+css_file_to_string =>
+css_style_print =>
+js_file_to_string =>
+extra_headers =>
 show_course_shortcut => true or null //icons that appear if enabled
-show_course_navigation_menu => true or null //icons that appear if enabled// since 1.9.8 only
+show_course_navigation_menu => true or null //icons that appear if enabled// since `1.9.8` only
 css_styles => chamilo_red // disambig. of CSS/style vs theme vs template
 template => default // disambiguation of CSS (*.css) vs template (*.tpl)
 ```

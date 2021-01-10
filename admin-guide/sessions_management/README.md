@@ -6,7 +6,8 @@ Sessions können mehrere Kurse verschiedener Kategorien gruppieren.
 
 Das folgende Schema wurde bereits im Kapitel _users_ verwendet, um Rollen zu erklären, aber wir werden es jetzt im Kontext von _Sessions verwenden._
 
-![](../../.gitbook/assets/images72%20%284%29.png)Illustration 64: Global — Sitzungsschema
+![](../../.gitbook/assets/images72%20%284%29.png)
+Illustration 64: Global — Sitzungsschema
 
 Wie Sie sehen, wird die Sitzung von einem Sitzungsadministrator definiert und verfügt über einen allgemeinen Coach \(auch Sitzungskoordinator oder _Session-Tutor_ im Schema\ genannt), der die Sitzung überwacht und Lehrer und Schüler in Not unterstützt.
 

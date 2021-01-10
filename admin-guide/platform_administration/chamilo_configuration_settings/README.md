@@ -2,7 +2,8 @@
 
 Diese Einstellungen verbinden sich mit mehreren Kategorien, wie in der folgenden Abbildung dargestellt.
 
-![](../../../.gitbook/assets/images17%20%287%29.png)Illustration 30: Administration — Kategorien der Portaleinstellungen
+![](../../../.gitbook/assets/images17%20%287%29.png)
+Illustration 30: Administration — Kategorien der Portaleinstellungen
 
 Chamilo bietet eine Standardkonfiguration, die Sie nicht unbedingt bevorzugen würden. Selbst wenn alle Optionen es wert sind, erklärt zu werden, da ein Administrator seine Umgebung perfekt kennen sollte, werden wir hier nur diejenigen sehen, die wir im Vergleich zu den Standardeinstellungen als am wichtigsten oder wahrscheinlicher für Änderungen halten. Eine vollständige Liste der Einstellungen finden Sie immer im Anhang auf Seite 91.
 

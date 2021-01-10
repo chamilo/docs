@@ -78,7 +78,7 @@ function WSEditUserPasswordCrypted($params)
 
 Bearbeiten Sie einen Benutzer und senden Sie ein verschlüsseltes Passwort.
 
-**Warnung**: Obwohl sehr diskret, gibt es in Chamilo LMS 1.9 ein Problem.\* wobei wscreateUserGypwordCrypted den Benutzernamen in Form eines « loginname » -Feldes erwartet, während WseditUserPasswordCryptoD den Benutzernamen in Form eines « username » -Feldes erwartet. Stellen Sie sicher, dass Sie nicht auf dieses hereinfallen, da dies zeitaufwändig sein könnte.
+**Warnung**: Obwohl sehr diskret, gibt es in `Chamilo LMS 1.9` ein Problem.\* wobei wscreateUserGypwordCrypted den Benutzernamen in Form eines « loginname » -Feldes erwartet, während WseditUserPasswordCryptoD den Benutzernamen in Form eines « username » -Feldes erwartet. Stellen Sie sicher, dass Sie nicht auf dieses hereinfallen, da dies zeitaufwändig sein könnte.
 
 ```text
 function WSDeleteUsers($params)

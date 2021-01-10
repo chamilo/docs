@@ -15,4 +15,4 @@ Die Hooks sind in `main/inc/lib/hook/` definiert und werden im normalen Workflow
         }
 ```
 
-Hooks müssen auch in allen Plugins definiert werden. Siehe [https://github.com/chamilo/chamilo-lms/issues/1767](https://github.com/chamilo/chamilo-lms/issues/1767) für eine sehr kurze Notiz zum Thema Hinzufügen von Hooks auf halbem Weg zu einer Nebenversion und zur Existenz von 3 Funktionen \(`doWhenDeletingCourse`, `doWhenDeletingSession` und `doWhenDeletingUser`\), die noch nicht implementiert sind, aber das sollten in 2.0 sein.
+Hooks müssen auch in allen Plugins definiert werden. Siehe [https://github.com/chamilo/chamilo-lms/issues/1767](https://github.com/chamilo/chamilo-lms/issues/1767) für eine sehr kurze Notiz zum Thema Hinzufügen von Hooks auf halbem Weg zu einer Nebenversion und zur Existenz von 3 Funktionen \(`doWhenDeletingCourse`, `doWhenDeletingSession` und `doWhenDeletingUser`\), die noch nicht implementiert sind, aber das sollten in `2.0` sein.

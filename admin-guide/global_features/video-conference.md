@@ -10,18 +10,21 @@ Sie finden den geheimen Schlüssel tp in der Chamilo Plugin-Konfiguration in /va
 
 Sobald sich diese beiden Informationen in Ihrem Besitz befinden, gehen Sie zu den Chamilo-Einstellungen, _Plugins_. Aktiviere das _BigBlueButton_ Plugin und speichere. **Lade die Seite neu laden** so dass die neue “Extra” -Einstellungskategorie in der Aktionsleiste oben auf der Seite erscheint \(ein Zauberstab\) und klicke darauf. Geben Sie die Informationen Ihres Videokonferenzservers ein. Jetzt müssen Sie nur noch die Integration überprüfen, indem Sie in einen Kurs gehen und auf den Link _Videokonferenz_ klicken.
 
-![](../../.gitbook/assets/images48%20%283%29.png)Illustration 84: Das Videokonferenz-Tool in einem Kurs
+![](../../.gitbook/assets/images48%20%283%29.png)
+Illustration 84: Das Videokonferenz-Tool in einem Kurs
 
 Kurslehrer und Coaches sind die einzigen, die einen Videokonferenzraum starten können. Sie sind auch die einzigen, die den Moderatorenstatus innerhalb der Konferenz haben.
 
-![](../../.gitbook/assets/images62%20%284%29.png)Illustration 85: Seite des Videokonferenz-Tools mit einer Aufzeichnungsliste
+![](../../.gitbook/assets/images62%20%284%29.png)
+Illustration 85: Seite des Videokonferenz-Tools mit einer Aufzeichnungsliste
 
 Die Lernenden können sich bei Videokonferenzen nicht verbinden, wenn ihr Lehrer zuvor einen Raum gestartet hat \(andernfalls wird durch Klicken auf den Videokonferenz-Link die Kurs-Homepage einfach neu geladen\).
 
 Wenn Sie Aufzeichnungen aktivieren möchten \(die viel Platz auf Ihrem Videokonferenzserver benötigen\), müssen Sie zum Tool für die Kurseinstellungen gehen und die Funktion aktivieren.
 
-![](../../.gitbook/assets/images63%20%284%29.png)Illustration 86: Videokonferenz-Kurs-Setting für die Aufnahme
+![](../../.gitbook/assets/images63%20%284%29.png)
+Illustration 86: Videokonferenz-Kurs-Setting für die Aufnahme
 
 Wenn Sie es nicht installieren können, zögern Sie nicht, sich an die offiziellen Anbieter von Chamilo zu wenden, die Ihnen gerne einen Zugang zu ihren vorkonfigurierten Videokonferenzservern zuweisen.
 
-Hinweis: In Chamilo bis Version 1.9.4 gab es einen Fehler im Plugin, der die Verwendung von Audio verhinderte. In nachfolgenden Versionen bis 1.9.6 verhinderte ein weiterer kleinerer Fehler, dass die Videokonferenz länger als 30 Minuten funktionierte. Dies wurde in Version 1.9.8 behoben und auf 5 Stunden erhöht \(suche nach “300” in plugin/bbb/lib/bbb.lib.php zum Anpassen\).
+Hinweis: In Chamilo bis Version `1.9.4` gab es einen Fehler im Plugin, der die Verwendung von Audio verhinderte. In nachfolgenden Versionen bis `1.9.6` verhinderte ein weiterer kleinerer Fehler, dass die Videokonferenz länger als 30 Minuten funktionierte. Dies wurde in Version `1.9.8` behoben und auf 5 Stunden erhöht \(suche nach “300” in plugin/bbb/lib/bbb.lib.php zum Anpassen\).

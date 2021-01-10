@@ -27,6 +27,6 @@ Sie sollten auch wissen, dass wir in einigen Fällen in früheren Versionen von 
 @import url('../base_chamilo.css');
 ```
 
-Dies wurde seit 1.10.0 aus den Stilen entfernt, daher sollten Sie \(noch nicht mehr\) finden.
+Dies wurde seit `1.10.0` aus den Stilen entfernt, daher sollten Sie \(noch nicht mehr\) finden.
 
 Mit all diesen Informationen sind wir bereit, den nächsten Abschnitt anzugehen: den Zweck jeder Datei zu analysieren.

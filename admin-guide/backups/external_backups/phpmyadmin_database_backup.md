@@ -2,7 +2,8 @@
 
 Datenbanken können über die [P](http://fr.wikipedia.org/wiki/PhpMyAdmin) [hpMyAdmin](http://fr.wikipedia.org/wiki/PhpMyAdmin) -Schnittstelle gespeichert werden, indem Sie mit dem Login und dem Passwort verbinden, die während der [LAMP](http://fr.wikipedia.org/wiki/LAMP) -Serverinstallation, der Datenbankinstallation oder der von Ihrem Hosting-Anbieter übermittelten Daten erstellt wurden.
 
-![](../../../.gitbook/assets/phpaccueuil%20%283%29.png)Illustration 15: Verwaltung - phpMyAdmin
+![](../../../.gitbook/assets/phpaccueuil%20%283%29.png)
+Illustration 15: Verwaltung - phpMyAdmin
 
 Wechseln Sie in der grafischen Oberfläche von phpMyAdmin auf die Registerkarte\_Export\__und wählen Sie die Datenbank aus, die gespeichert werden soll. Es gibt wahrscheinlich einen anderen namens “information\_schema”, den du einfach ignorieren kannst.
 

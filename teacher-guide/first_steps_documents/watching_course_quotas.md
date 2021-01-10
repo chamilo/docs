@@ -10,4 +10,4 @@ Wenn Sie einen klareren Überblick darüber erhalten möchten, was in Ihrem Doku
 
 ![](../../.gitbook/assets/images288.png)_Illustration 41: Quotenschachweise für Dokumente
 
-Hinweis: Der in einem Kurs verfügbare Speicherplatz ist in Chamilo 1.9 nur auf die Verwendung des Dokumententools beschränkt. Benutzer können zahlreiche Aufgaben senden, ohne sich Gedanken über das Platzlimit machen zu müssen.
+Hinweis: Der in einem Kurs verfügbare Speicherplatz ist in `Chamilo 1.9` nur auf die Verwendung des Dokumententools beschränkt. Benutzer können zahlreiche Aufgaben senden, ohne sich Gedanken über das Platzlimit machen zu müssen.

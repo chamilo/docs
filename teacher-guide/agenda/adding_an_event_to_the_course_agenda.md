@@ -8,4 +8,5 @@ Abbildung 142: Hinzufügen einer Veranstaltung direkt zum Kalender
 
 Für einen umfassenderen konfigurierten Ereigniseintrag klicken Sie jedoch auf das _Ereignis hinzufügen_ -Symbol ![](../../.gitbook/assets/graphics262%20%283%29.png) in der Symbolleiste. Dadurch wird eine Dialogseite geöffnet, die die Eingabe eines Titels und die Auswahl der Benutzer ermöglicht, aber auch eine reichhaltigere Beschreibung \(z. B. mit Grafiken\), eine automatische Wiederholungskonfiguration \(täglich, wöchentlich, monatlich, jährlich\) und die Option zum Hinzufügen eines Anhangs \(zu Begleitung von E-Mail-Ankündigungen\).
 
-![](../../.gitbook/assets/graphics266%20%281%29.png)Illustration 143: Hinzufügen eines Ereigniswerkzeugs mit dem Tool „Event hinzufügen“
+![](../../.gitbook/assets/graphics266%20%281%29.png)
+Illustration 143: Hinzufügen eines Ereigniswerkzeugs mit dem Tool „Event hinzufügen“

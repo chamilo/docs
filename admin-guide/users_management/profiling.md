@@ -10,7 +10,8 @@ In der Regel können Sie Felder erstellen, von denen der Benutzer keine Kenntnis
 
 Für Benutzer, die mit Drupal vertraut sind, entspricht dies einem Mini-CCK-Modul für Chamilo.
 
-![](../../.gitbook/assets/profil%20%283%29.png)Illustration 56: Administration — Liste der Felder für Benutzer
+![](../../.gitbook/assets/profil%20%283%29.png)
+Illustration 56: Administration — Liste der Felder für Benutzer
 
 | Icons | Funktionen |
 | :--- | :--- |

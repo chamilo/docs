@@ -6,14 +6,17 @@ Bedenken Sie vor der Aktualisierung von Chamilo, dass jedes Softwareupdate unter
 
 Als Administrator können Sie die Benachrichtigung über das Versionsupdate auf der Registerkarte Administration, Block _Chamilo_, aktivieren.
 
-![](../../../.gitbook/assets/images14%20%288%29.png)Illustration 12: Verwaltung — Block Chamilo
+![](../../../.gitbook/assets/images14%20%288%29.png)
+Illustration 12: Verwaltung — Block Chamilo
 
 Klicken Sie einfach einmal auf die Schaltfläche _Versionsprüch_ aktivieren, um die Funktion zu aktivieren.
 
-![](../../../.gitbook/assets/images15%20%288%29.png)Illustration 13: Administration — Block für Versionsprüfung \(aktuell\)
+![](../../../.gitbook/assets/images15%20%288%29.png)
+Illustration 13: Administration — Block für Versionsprüfung \(aktuell\)
 
 Immer wenn eine neue Version veröffentlicht wird, wird eine Benachrichtigung über die Verfügbarkeit auf der Benutzeroberfläche angezeigt.
 
-![](../../../.gitbook/assets/images16%20%287%29.png)Illustration 14: Administration - Block für Versionsprüfung \(veraltet\)
+![](../../../.gitbook/assets/images16%20%287%29.png)
+Illustration 14: Administration - Block für Versionsprüfung \(veraltet\)
 
 Beachten Sie, dass diese Funktion uns gleichzeitig einige statistische Informationen über Ihr Portal sendet: die öffentliche E-Mail-Adresse des Support-Teams, die URL des öffentlichen Portals, die Anzahl der Benutzer und Kurse. Auf diese Weise können wir leicht zählen, wie viele Menschen Chamilo auf der ganzen Welt verwenden.

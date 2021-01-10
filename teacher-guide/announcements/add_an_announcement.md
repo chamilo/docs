@@ -15,7 +15,7 @@ klicken Sie auf das Symbol _Ankündigung hinzufügen_ ![](../../.gitbook/assets/
 * fügen Sie auf Wunsch einen Anhang hinzu,
 * klicken Sie auf _Mitteilung senden_.
 
-Hinweis: Seit Version 1.8.8.4 können Sie Tags in Ihren Ankündigungen verwenden \(kopieren Sie sie einfach\). Diese Tags werden automatisch durch den entsprechenden Wert ersetzt, wenn sie per E-Mail gesendet oder den Benutzern auf der Plattform angezeigt werden.
+Hinweis: Seit Version `1.8.8`.4 können Sie Tags in Ihren Ankündigungen verwenden \(kopieren Sie sie einfach\). Diese Tags werden automatisch durch den entsprechenden Wert ersetzt, wenn sie per E-Mail gesendet oder den Benutzern auf der Plattform angezeigt werden.
 
 Ankündigungen werden Empfängern wie dieser auf der Plattform angezeigt:
 

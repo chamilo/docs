@@ -2,7 +2,8 @@
 
 Wir überprüfen nun, ob das Datenbankverwaltungssystem \(DBMS\) funktioniert und wie erwartet konfiguriert ist:
 
-![](../../../../.gitbook/assets/images7%20%287%29.png)Illustration 8: Installation — MySQL-Einstellungen
+![](../../../../.gitbook/assets/images7%20%287%29.png)
+Illustration 8: Installation — MySQL-Einstellungen
 
 Um die Einstellungsüberprüfung zu ermöglichen, müssen Sie die erforderlichen Felder ausfüllen. Diese Elemente wurden Ihnen wahrscheinlich gegeben, als Sie Ihren Hosting-Service zum ersten Mal gemietet haben, oder Sie haben sie selbst gemacht, als Sie Ihren [LAMP](http://fr.wikipedia.org/wiki/LAMP) -Server lokal konfiguriert haben.
 
@@ -13,12 +14,13 @@ Um die Einstellungsüberprüfung zu ermöglichen, müssen Sie die erforderlichen
 * _Datenbank-Passwort:_ das Passwort, das während der Einstellung/Erstellung der Datenbank zur gleichen Zeit wie der Benutzer gegeben/erstellt wurde. Vor Ort ist das Passwort standardmäßig leer, aber wir empfehlen aus Sicherheitsgründen erneut, hier ein eigenes Passwort zu definieren.
 * _Datenbankname:_ der Name der zu erstellenden Datenbank und in der alle Daten von Chamilo gespeichert werden
 
-Seit Chamilo 1.9.0 wurde der Installationsprozess vereinfacht und die Datenbankstruktur wurde migriert, sodass nur eine Datenbank verwendet wird, was den Installationsprozess und die Wartung von Chamilo-Portalen erheblich vereinfacht.
+Seit `Chamilo 1.9.0` wurde der Installationsprozess vereinfacht und die Datenbankstruktur wurde migriert, sodass nur eine Datenbank verwendet wird, was den Installationsprozess und die Wartung von Chamilo-Portalen erheblich vereinfacht.
 
 Überprüfen Sie die im Formular eingegebenen Daten und klicken Sie dann auf die Schaltfläche _Datenbankverbindung prüfen_. Wenn eine Fehlermeldung angezeigt wird, überprüfen Sie die Daten erneut. Vielleicht ist dieses Passwort nicht das richtige?
 
 Sobald alles in Ordnung ist \(und der grüne Bestätigungsblock erscheint\), fahren Sie mit dem nächsten Schritt fort.
 
-![](../../../../.gitbook/assets/images9%20%287%29.png)Illustration 9: Prüfung der Installationsdatenbank - OK
+![](../../../../.gitbook/assets/images9%20%287%29.png)
+Illustration 9: Prüfung der Installationsdatenbank - OK
 
 Wenn eine Datenbank mit dem gleichen Namen bereits existiert, wird es Ihnen eine Meldung mit gelbem Hintergrund mitteilen, da diese Datenbank mit Ihrer neuen Datenbank überschrieben wird! Um dies zu vermeiden, sollten Sie im vorherigen Formular einen anderen Datenbanknamen verwenden.

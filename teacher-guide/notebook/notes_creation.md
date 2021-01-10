@@ -5,4 +5,5 @@
 * Notieren Sie Ihre Notiz,
 * klicken Sie auf _Notiz_ erstellen.
 
-![](../../.gitbook/assets/images236%20%283%29.png)Illustration 161: Notizbuch — Formular zur Erstellung
+![](../../.gitbook/assets/images236%20%283%29.png)
+Illustration 161: Notizbuch — Formular zur Erstellung

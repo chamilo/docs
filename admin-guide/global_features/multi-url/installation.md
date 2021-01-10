@@ -15,7 +15,8 @@ Der Installationsprozess ist wie folgt
 * Gehe zur Chamilo-Admin-Seite und folge dem Link _Mehrere URL-Portale_
 * Definieren Sie Ihre Haupt-URL neu \(ersetzen Sie _localhost_\) und fügen Sie die gewünschten Unterportale hinzu, fügen Sie dann jeweils einen lokalen Administrator hinzu und aktivieren Sie ihn
 
-![](../../../.gitbook/assets/graficos97%20%281%29.png)Illustration 83: Verwaltung - Multi-URLs
+![](../../../.gitbook/assets/graficos97%20%281%29.png)
+Illustration 83: Verwaltung - Multi-URLs
 
 Für zwei verschiedene Multi-URLs und eine administrative, basierend auf der Domain _campusabc.com_, würde der VirtualHost ungefähr so aussehen:
 

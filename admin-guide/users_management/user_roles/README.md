@@ -6,7 +6,8 @@ Für den gemeinsamen Administrator scheint es in Chamilo nur vier Rollen zu gebe
 
 Um Sie bei der Entdeckung dieser Rollen zu unterstützen, verwenden wir das folgende Schema als Referenz, da es die meisten Rollen und auch den Begriff der Sitzungen darstellt \(wie wir es in Kapitel 7 sehen werden. Sitzungsmanagement auf Seite 64\).
 
-![](../../../.gitbook/assets/graficos80%20%285%29.png)Illustration 46: Rollen und Sitzungen
+![](../../../.gitbook/assets/graficos80%20%285%29.png)
+Illustration 46: Rollen und Sitzungen
 
 In diesem Schema sehen wir den Hauptadministrator \(oben\), den Sitzungsadministrator \(rechts\), den Sitzungscoach \(oben im Sitzungsblock\), die Kurstrainer \(oben auf den Kursen\), den Lehrer \(links eines Kurses\), die Schüler \(die mit der Sitzung verbunden sind\) und die Personalressourcen manager \(verbunden mit den Studenten\).
 

@@ -85,7 +85,7 @@ Der Lernende wird die passende Frage wie folgt ansehen:
 
 ![](../../.gitbook/assets/graphics143.png)
 
-oder ab 1.9.6 wird ein ziehbarer Kreis es für Studenten etwas attraktiver machen.
+oder ab `1.9.6` wird ein ziehbarer Kreis es für Studenten etwas attraktiver machen.
 
 ## Typ 5: Frage öffnen <a id="type-5-open-question"></a>
 
@@ -101,7 +101,7 @@ Dem Lernenden wird ein Textfeld zum Schreiben präsentiert. \(Er kann den kleine
 
 ## Typ 6: Audio-Antwort <a id="type-6-audio-answer"></a>
 
-![](../../.gitbook/assets/audio_question.svg)This neuer Fragetyp, der mit Chamilo 1.9 verfügbar ist, wird nur angezeigt, wenn Ihr Administrator die Audio-Aufnahmefunktion von Nanogong aktiviert hat. Die Frage kann mit dem oben beschriebenen Typ “open question” verglichen werden, der eine manuelle Markierung durch den Lehrer erfordert. Anstatt den Lernenden jedoch zu bitten, eine Textstelle zu schreiben, bitten Sie ihn, eine Audioantwort aufzunehmen. Dies hat offensichtliche Verwendungszwecke für Sprachkurse für Lernende mit besonderem Zugangsbedarf, kann jedoch in vielen Studienbereichen eine nützliche Alternative bieten - die Lernenden zu ermutigen, ihre mündlichen Präsentationsfähigkeiten zu entwickeln.
+![](../../.gitbook/assets/audio_question.svg)This neuer Fragetyp, der mit `Chamilo 1.9` verfügbar ist, wird nur angezeigt, wenn Ihr Administrator die Audio-Aufnahmefunktion von Nanogong aktiviert hat. Die Frage kann mit dem oben beschriebenen Typ “open question” verglichen werden, der eine manuelle Markierung durch den Lehrer erfordert. Anstatt den Lernenden jedoch zu bitten, eine Textstelle zu schreiben, bitten Sie ihn, eine Audioantwort aufzunehmen. Dies hat offensichtliche Verwendungszwecke für Sprachkurse für Lernende mit besonderem Zugangsbedarf, kann jedoch in vielen Studienbereichen eine nützliche Alternative bieten - die Lernenden zu ermutigen, ihre mündlichen Präsentationsfähigkeiten zu entwickeln.
 
 \(Hinweis: Für diesen Fragetyp muss der Teilnehmer Java-Applets in seinem Browser unterstützen. Ist dies nicht der Fall, muss er das Audio separat aufnehmen und dann als MP3-Datei auf den Server hochladen.\)
 

@@ -2,7 +2,8 @@
 
 In Chamilo ist es möglich, alle oder nur einige Benutzer zu exportieren.
 
-![](../../.gitbook/assets/exporterliste_-utilisateurs%20%283%29.png)Illustration 51: Administration — Benutzer exportieren
+![](../../.gitbook/assets/exporterliste_-utilisateurs%20%283%29.png)
+Illustration 51: Administration — Benutzer exportieren
 
 Sie können zwischen zwei Formaten zum Speichern von Ausgaben wählen: [XML](http://fr.wikipedia.org/wiki/Extensible_Markup_Language) oder [CSV](http://fr.wikipedia.org/wiki/Comma-separated_values). Die meisten Benutzer verwenden CSV, das von MS-Excel® und OpenOffice.org Calc® gelesen werden kann.
 
