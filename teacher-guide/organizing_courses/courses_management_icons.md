@@ -4,7 +4,7 @@ In der Kursverwaltungsoberfläche sehen Sie die folgenden allgemeinen Symbole un
 
 
 | Icons | Funktionen |
-|: — |: — |
+| :--- | :--- |
 | ![](../../.gitbook/assets/graphics77.png) | Einen Kurs aktualisieren/bearbeiten |
 | ![](../../.gitbook/assets/images25%20%282%29.png) | Einen Kurs entfernen |
 | ![](../../.gitbook/assets/images22%20%285%29.png) | Lesen Sie die Kursbeschreibung |

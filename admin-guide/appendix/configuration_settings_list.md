@@ -1,7 +1,7 @@
 # Liste der Konfigurationseinstellungen
 
 | Titel | Beschreibung | Default |
-|: — |: — |: — |
+| :--- | :--- | :--- |
 | Plattform | | |
 | Name der Organisation | Der Name der Organisation \(erscheint in der Kopfzeile rechts\) | |
 | Organisations-URL \(Webadresse\) | Die URL der Institutionen \(der Link, der in der Kopfzeile rechts erscheint\) | |

@@ -5,7 +5,7 @@ Die Benutzerverwaltung erfolgt über generische und vertraute Symbole und einige
 ![](../../.gitbook/assets/graficos49%20%283%29.png)
 
 | Icons | Funktionen |
-|: — |: — |
+| :--- | :--- |
 | ![](../../.gitbook/assets/images31%20%287%29.png) ![](../../.gitbook/assets/images32%20%287%29.png) | Ändere den Status des Benutzers, indem du auf das Icon klickst \(aktiviert/deaktiviert\) |
 | ![](../../.gitbook/assets/images33%20%287%29.png) | Klicken Sie hier, um die Liste der Kurse anzuzeigen, für die der Benutzer abonniert ist |
 | | Verbinden als... ermöglicht es dem Administrator, die Identität eines bestimmten Benutzers zu übernehmen, um einen Fehler zu überprüfen, den er auf der Plattform gemeldet hat \(oder um eine schnelle Demonstration mit mehreren Benutzerrollen zu erstellen\) |

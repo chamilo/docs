@@ -3,7 +3,7 @@
 Die Verwaltung der Sitzungen kann mit meist bekannten Symbolen und einigen neuen durchgeführt werden...
 
 | Icons | Funktionen |
-|: — |: — |
+| :--- | :--- |
 | ![](../../.gitbook/assets/images76%20%283%29.png) | Aktualisiere die Einstellungen/Details einer Session |
 | ![](../../.gitbook/assets/images77%20%283%29.png) | Session entfernen \(nach Bestätigung\) |
 | ![](../../.gitbook/assets/images73%20%287%29.png) | Abonniere Nutzer für eine Sitzung |

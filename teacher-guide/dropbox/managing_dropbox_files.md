@@ -3,7 +3,7 @@
 Neben den bekannten Icons bietet das Dropbox-Tool eine Reihe neuer Verwaltungssymbole:
 
 | Icons | Funktionen |
-|: — |: — |
+| :--- | :--- |
 | ![](../../.gitbook/assets/graphics272.png) | Den Namen eines Ordners bearbeiten |
 | ![](../../.gitbook/assets/images205%20%281%29.png) | Einen Ordner löschen |
 | ![](../../.gitbook/assets/graphics273.png) | Kommentar zur freigegebenen Datei hinzufügen |

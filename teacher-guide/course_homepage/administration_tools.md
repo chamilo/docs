@@ -15,7 +15,7 @@ _Illustration 29: Verwaltungstools_
 ![](../../.gitbook/assets/graphics108.png) Verwalte die Kurseinstellungen als Lehrer. Die Einstellungen sind in ein paar Abschnitten sortiert:
 
 | ![](../../.gitbook/assets/graphics109.png) | Kurseinstellungen | Elemente wie Kurstitel, Kategorie, Sprache, Bild usw. verwalten und aktualisieren |
-|: —: |: — |: — |
+|: —: | :--- | :--- |
 | ![](../../.gitbook/assets/graphics110.png) | Kurszugriff | Aktualisierungen des Kurszugriffs konfigurieren \(Sichtbarkeit, Abonnement und andere Berechtigungen\) |
 | ![](../../.gitbook/assets/images281.png) | E-Mail-Benachrichtigungen | Festlegen des Verhaltens von für E-Mails Alerts |
 | ![](../../.gitbook/assets/images282.png) | Rechte der Benutzer | Konfiguration der Agenda, Ankündigungen oder Bildanzeige im Forum |

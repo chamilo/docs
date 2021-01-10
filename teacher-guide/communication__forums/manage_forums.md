@@ -3,7 +3,7 @@
 Bei der Verwaltung von Foren werden vertraute Icons verwendet:
 
 | Icons | Funktionen |
-|: — |: — |
+| :--- | :--- |
 | ![](../../.gitbook/assets/images68%20%284%29.png) | Foreneinstellungen aktualisieren |
 | ![](../../.gitbook/assets/images69%20%283%29.png) | Löschen Sie das Forum und alle seine Inhalte |
 | ![](../../.gitbook/assets/images70%20%283%29.png) | Die Sichtbarkeit eines Forums kontrollieren |

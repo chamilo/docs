@@ -13,7 +13,7 @@ Für Benutzer, die mit Drupal vertraut sind, entspricht dies einem Mini-CCK-Modu
 ![](../../.gitbook/assets/profil%20%283%29.png)Illustration 56: Administration — Liste der Felder für Benutzer
 
 | Icons | Funktionen |
-|: — |: — |
+| :--- | :--- |
 | ![](../../.gitbook/assets/graficos26%20%285%29.png) ![](../../.gitbook/assets/graficos27%20%286%29.png) | Feld aktualisieren/löschen |
 | ![](../../.gitbook/assets/images54%20%284%29.png) ![](../../.gitbook/assets/images55%20%284%29.png) | Änderbar machen/nicht änderbar oder aktivieren/deaktivieren Filter |
 | ![](../../.gitbook/assets/images56%20%284%29.png) | Organisiere die Felder |

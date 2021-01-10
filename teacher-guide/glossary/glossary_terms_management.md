@@ -3,7 +3,7 @@
 Die Verwaltung von Glossarbegriffen erfolgt über die üblichen Aktionssymbole:
 
 | Icons | Funktionen |
-|: — |: — |
+| :--- | :--- |
 | ![](../../.gitbook/assets/graphics244%20%283%29.png) | Begriff bearbeiten |
 | ![](../../.gitbook/assets/graphics369%20%283%29.png) | Begriff löschen |
 | ![](../../.gitbook/assets/graphics239%20%283%29.png) | Listenansicht anzeigen |

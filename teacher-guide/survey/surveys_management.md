@@ -3,7 +3,7 @@
 Für die Verwaltung von Umfragen werden eine Reihe gemeinsamer Symbole sowie einige spezifische Symbole zur Verfügung gestellt.
 
 | Icons | Funktionen |
-|: — |: — |
+| :--- | :--- |
 | ![](../../.gitbook/assets/graphics297%20%283%29.png) | Umfrageeinstellungen bearbeiten |
 | ![](../../.gitbook/assets/images229%20%283%29.png) | Umfragen löschen |
 | ![](../../.gitbook/assets/graphics298%20%283%29.png) | Leere Umfrageergebnisse |

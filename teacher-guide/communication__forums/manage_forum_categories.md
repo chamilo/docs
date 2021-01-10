@@ -3,7 +3,7 @@
 Bei der Verwaltung von Forenkategorien werden vertraute Symbole verwendet:
 
 | Icons | Funktionen |
-|: — |: — |
+| :--- | :--- |
 | ![](../../.gitbook/assets/images63%20%285%29.png) | Einstellungen der Forenkategorie aktualisieren |
 | ![](../../.gitbook/assets/images64%20%287%29.png) | Löschen Sie die Forenkategorie und alle ihre Inhalte |
 | ![](../../.gitbook/assets/images65%20%287%29.png) | Kontrollieren Sie die Sichtbarkeit einer Forenkategorie |

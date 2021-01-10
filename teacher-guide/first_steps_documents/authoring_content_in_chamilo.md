@@ -17,7 +17,7 @@ Nachdem das Dokument erstellt/bearbeitet wurde, speichern Sie es, indem Sie auf 
 Abhängig von Ihrem Browser und der Portalkonfiguration können andere Arten von Dokumenten erstellt werden \(bitten Sie Ihren Administrator, diese zusätzlichen Funktionen zu aktivieren, wenn Sie sie nicht in der Symbolleiste sehen\).
 
 | Icon | Funktion |
-|: — |: — |
+| :--- | :--- |
 | ![](../../.gitbook/assets/images40%20%282%29.png) | Mit der Funktion _draw_ können Sie Diagramme oder Schemas in einem Vektorformat zeichnen, das neu bearbeitet oder in das Bitmap-Format exportiert werden kann. |
 | ![](../../.gitbook/assets/images41%20%282%29.png) | Die Funktion _photo retouching_ ist dem _Photoshop_® -Tool sehr ähnlich und ermöglicht das Bearbeiten, Schneiden, Ausmalen usw. von Bildern oder anderen Bitmap-Bildern. |
 | ![](../../.gitbook/assets/images42%20%282%29.png) | Die Audioaufnahme bietet die Aufnahme von Audiospuren direkt von Ihrem Browser aus mit Ihrem Mikrofon \(auf einem Laptop ist das Mikrofon im Allgemeinen eingebettet\). Für diese ist eine Browserunterstützung für Flash® oder Java® Applet erforderlich. |

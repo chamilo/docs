@@ -3,7 +3,7 @@
 Eine Nachricht ist eine Antwort innerhalb eines der Diskussionsthemen.
 
 | Icons | Funktionen |
-|: — |: — |
+| :--- | :--- |
 | ![](../../.gitbook/assets/images82%20%283%29.png) | Ändern Sie die Einstellungen \(Name, Text und erweiterte Einstellungen\) der Nachricht |
 | ![](../../.gitbook/assets/images83%20%283%29.png) | Lösche die Nachricht \(nach Genehmigung\) |
 | ![](../../.gitbook/assets/images84%20%283%29.png) | Die Sichtbarkeit einer Nachricht kontrollieren |

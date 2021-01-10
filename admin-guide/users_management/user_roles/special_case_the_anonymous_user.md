@@ -1,7 +1,7 @@
 # Spezialfall: Der anonyme Nutzer
 
 | Description | Der anonyme Benutzer ist ein ganz besonderer Fall: Dieser Benutzer existiert nur, um das Tracking für Benutzer zu ermöglichen, die kein Konto auf dem Chamilo-Portal haben. Dank dieses Mechanismus kann der _anonymous_-Benutzer die meisten Operationen ausführen, die ein Teilnehmer ausführen kann, jedoch nur in Kursen, die als _public._ gekennzeichnet sind |
-|: — |: — |
+| :--- | :--- |
 | Berechtigungen in einem öffentlichen Kurs | Standardmäßig kann er:
 | Globale Berechtigungen | Standardmäßig kann er:
 

@@ -7,7 +7,7 @@ Kurse können als zeitlose Ressourcen verwendet werden \(und das sind es meisten
 Das Kursmanagement kann mit Symbolen durchgeführt werden, mit denen Sie derzeit bereits vertraut sein sollten:
 
 | Icons | Funktionen |
-|: — |: — |
+| :--- | :--- |
 | ![](../../.gitbook/assets/images64%20%286%29.png) | Gibt alle Informationen zur Nutzung des Kurses und seiner Nutzer |
 | ![](../../.gitbook/assets/graficos30%20%286%29.png) ![](../../.gitbook/assets/graficos31%20%286%29.png) | Bietet eine detaillierte Verfolgung der Nutzer, des Kurs- und Ressourcenberichts |
 | ![](../../.gitbook/assets/graficos28%20%286%29.png) | Aktualisieren Sie die Parameter oder Kursdetails |

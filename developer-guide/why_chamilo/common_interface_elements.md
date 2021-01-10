@@ -5,7 +5,7 @@
 Im Folgenden sind einige der am häufigsten verwendeten Symbole auf der Plattform aufgeführt:
 
 | Icons | Funktionen |
-|: — |: — |
+| :--- | :--- |
 | ![](../../.gitbook/assets/graphics112%20%284%29.png) | Das Bleistift-Tool ermöglicht das **Aktualisieren** einer bestimmten Information oder eines bestimmten Inhalts |
 | ![](../../.gitbook/assets/images7%20%288%29.png) | Das Cross-Tool ermöglicht das **Löschung** einer bestimmten Information oder eines bestimmten Inhalts |
 | ![](../../.gitbook/assets/images8%20%288%29.png) ![](../../.gitbook/assets/images9%20%288%29.png) | Mit dem Eye-Tool können Sie die **Sichtbarkeit** eines Informationsstandes/ eines Inhalts ändern |

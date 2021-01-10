@@ -7,7 +7,7 @@ Gehe zu _Meine Kurse_, wähle einen Kurs und klicke auf das Symbol _Learning Pat
 Die rechte Spalte _Authoring-Optionen_ enthält Tools zur Verwaltung Ihrer Lernpfade:
 
 | Icons | Funktionen |
-|: —: |: — |
+| :--- | :--- |
 | ![](../../.gitbook/assets/images101.png) | Die Einstellungen des Lernpfads aktualisieren |
 | ![](../../.gitbook/assets/images102%20%281%29.png) | Löschen Sie den Lernpfad |
 | ![](../../.gitbook/assets/graphics37.png) | Den Lernpfad bearbeiten |

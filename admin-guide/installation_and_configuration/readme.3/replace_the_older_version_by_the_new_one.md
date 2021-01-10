@@ -17,7 +17,7 @@ Es gibt nur eine empfohlene Möglichkeit, Ihre Chamilo-Version vorerst zu aktual
  * Wenn Sie eine GNU/Linux-Distribution verwenden, müssen Sie das gesamte neue Verzeichnis in das alte kopieren, d.h.:
 
 | user @server: sudo cp -r chamilo-1.9.4/\* /var/www/chamilo/ |
-|: — |
+| :--- |
 
 
 1. Dann gehe die Schritte von _ «**2.2.2**Last installation settings\_\_»_ durch.
