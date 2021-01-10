@@ -343,11 +343,11 @@
 
 ## Entwicklerhandbuch
 
-* [Einführung](developer-guide/Einführung/README.md)
-  * [Über diesen Leitfaden](developer-guide/Einführung/about_this_guide.md)
-  * [Für wen ist dieser Leitfaden?](developer-guide/Einführung/who_is_this_guide_for.md)
-  * [Wie benutzt man diesen Leitfaden?](developer-guide/Einführung/how_to_use_this_guide.md)
-  * [Allgemeine Benutzerfreundlichkeit](developer-guide/Einführung/general_usability.md)
+* [Einführung](developer-guide/introduction/README.md)
+  * [Über diesen Leitfaden](developer-guide/introduction/about_this_guide.md)
+  * [Für wen ist dieser Leitfaden?](developer-guide/introduction/who_is_this_guide_for.md)
+  * [Wie benutzt man diesen Leitfaden?](developer-guide/introduction/how_to_use_this_guide.md)
+  * [Allgemeine Benutzerfreundlichkeit](developer-guide/introduction/general_usability.md)
 * [Warum Chamilo?](developer-guide/why_chamilo/README.md)
   * [Das Lernparadigma](developer-guide/why_chamilo/learning_paradigm.md)
   * [Gemeinsame Interface-Elemente](developer-guide/why_chamilo/common_interface_elements.md)
