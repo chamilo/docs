@@ -1,20 +1,19 @@
-# Import backup
+# Backup importieren
 
-Each backup is a compressed file \(a Zip file\) which is stored on the server \(in the _archive/_ directory\). It can also be downloaded to your computer.
+Jedes Backup ist eine komprimierte Datei \(eine Zip-Datei\), die auf dem Server \(im _archive/_-Verzeichnis\) gespeichert ist. Es kann auch auf Ihren Computer heruntergeladen werden.
 
-Chamilo also allows you to import the contents of a backup copy inside a new empty course. This can be useful for a teacher creating a new course.
+Chamilo ermöglicht es Ihnen auch, den Inhalt einer Sicherungskopie in einen neuen leeren Kurs zu importieren. Dies kann für einen Lehrer nützlich sein, der einen neuen Kurs erstellt.
 
-To start the import:
+So starten Sie den Import:
 
-* click the _Import backup_ link in the _Backup and import_ section![](../../.gitbook/assets/graphics331.gif)
-* choose the source of backup: either a .zip file on your computer or one stored on the server,
-* choose whether you want to import the whole course or only specific sections \(to be selected in the next screen\),
-* decide whether to duplicate specific files during the importation operation or to replace them,
-* click _Import backup_ to start the import.
+* klicken Sie auf den Link _Import backup_ im Abschnitt _Backup und Import_ ![](../../.gitbook/assets/graphics331.gif)
+* Wählen Sie die Quelle der Sicherung: entweder eine ZIP-Datei auf Ihrem Computer oder eine auf dem Server gespeicherte,
+* wählen Sie aus, ob Sie den gesamten Kurs oder nur bestimmte Abschnitte importieren möchten \(im nächsten Bildschirm ausgewählt werden\),
+* entscheiden, ob bestimmte Dateien während des Importvorgangs dupliziert oder ersetzt werden sollen,
+* Klicken Sie auf _Backup importieren_, um den Import zu starten.
 
 ![](../../.gitbook/assets/images251.png)
 
-_Illustration 183: Backup - Import_
+_Illustration 183: Sicherung - Import_
 
-> **Note** : A message will confirm the backup restoration executed successfully
-
+> **Hinweis**: Eine Meldung bestätigt, dass die Backup-Wiederherstellung erfolgreich ausgeführt wurde

@@ -1,8 +1,7 @@
-# Accessing the database
+# Zugriff auf die Datenbank
 
-We highly recommend you **never access the database directly** and always use Chamilo's admin tools to alter your data. This will ensure data integrity and will allow any administrator to safely an quickly analyse your data in case of problem.
+Wir empfehlen Ihnen dringend, auf die Datenbank nie direkt zugreifen** und verwenden Sie Chamilos Admin-Tools immer, um Ihre Daten zu ändern. Dies gewährleistet die Datenintegrität und ermöglicht es jedem Administrator, Ihre Daten im Falle eines Problems schnell zu analysieren.
 
-We do, however, acknowledge the need to access the database in some very specific circumstances to execute large operations faster.
+Wir erkennen jedoch an, dass unter bestimmten Umständen auf die Datenbank zugegriffen werden muss, um große Operationen schneller auszuführen.
 
-To do this, we recommend using applications that do not require too much work for installation and configuration, like adminer.php. Adminer is a small, one-script application that allows you to connect to your database, execute SQL operations, then remove the file when you're done. This way, you do not make your database server vulnerable to remote attacks for longer than required, and you do not increase the complexity of your system.
-
+Um dies zu tun, empfehlen wir die Verwendung von Anwendungen, die nicht zu viel Arbeit für die Installation und Konfiguration erfordern, wie adminer.php. Adminer ist eine kleine Anwendung mit einem Skript, mit der Sie eine Verbindung zu Ihrer Datenbank herstellen, SQL-Vorgänge ausführen und die Datei dann entfernen können, wenn Sie fertig sind. Auf diese Weise machen Sie Ihren Datenbankserver nicht länger als erforderlich anfällig für Remote-Angriffe und erhöhen nicht die Komplexität Ihres Systems.

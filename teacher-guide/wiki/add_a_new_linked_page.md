@@ -1,16 +1,15 @@
-# Add a new linked page
+# Füge eine neue verlinkte Seite hinzu
 
-From the page you're going to add the link to:
+Von der Seite aus fügen Sie den Link hinzu zu:
 
-* click the _Edit this page_ icon,
-* click the line you want to add the link on, then **either**:
-* add the text between double square brackets \[\[_link to the page to be created_\]\]. Once saved, the text entered between brackets will be transformed into a link to a new empty page
+* klicken Sie auf das Symbol _Diese Seite bearbeiten_
+* klicke auf die Zeile, zu der du den Link hinzufügen möchtest, und dann auf**entweder**:
+* füge den Text zwischen doppelten eckigen Klammern \[\ [_link zu der zu erstellenden Seite _\]\] hinzu. Nach dem Speichern wird der zwischen Klammern eingegebene Text in einen Link zu einer neuen leeren Seite umgewandelt
 
-  ![](../../.gitbook/assets/graphics213.png)
+![](../../.gitbook/assets/graphics213.png)
 
-* **or** click the _Insert/Edit Wiki Link_ icon in the editor to indicate the name of the new page to be created.
+* **oder** klicken Sie im Editor auf das Symbol _Wiki Link bearbeiten_, um den Namen der zu erstellenden neuen Seite anzugeben.
 
-  ![](../../.gitbook/assets/graphics212.png)
+![](../../.gitbook/assets/graphics212.png)
 
-* click _**Save**_.
-
+* klicken Sie auf _**Speichern**.

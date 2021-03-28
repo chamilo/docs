@@ -1,12 +1,11 @@
-# Manage forum categories
+# Verwalten von Forenkategorien
 
-Managing forum categories makes use of familiar icons:
+Bei der Verwaltung von Forenkategorien werden vertraute Symbole verwendet:
 
-| Icons | Features |
+| Icons | Funktionen |
 | :--- | :--- |
-| ![](../../.gitbook/assets/images63%20%285%29.png) | Update forum category settings |
-| ![](../../.gitbook/assets/images64%20%287%29.png) | Delete the forum category and all its contents |
-| ![](../../.gitbook/assets/images65%20%287%29.png) | Control visibility of a forum category |
-| ![](../../.gitbook/assets/images66%20%283%29.png) | Lock / unlock a forum category to prevent editing |
-| ![](../../.gitbook/assets/images67%20%283%29.png) | Re-organize forum categories |
-
+| ![](../../.gitbook/assets/images63%20%285%29.png) | Einstellungen der Forenkategorie aktualisieren |
+| ![](../../.gitbook/assets/images64%20%287%29.png) | Löschen Sie die Forenkategorie und alle ihre Inhalte |
+| ![](../../.gitbook/assets/images65%20%287%29.png) | Kontrollieren Sie die Sichtbarkeit einer Forenkategorie |
+| ![](../../.gitbook/assets/images66%20%283%29.png) | Sperre/schalte eine Forenkategorie, um das Bearbeiten zu verhindern |
+| ![](../../.gitbook/assets/images67%20%283%29.png) | Forenkategorien neu organisieren |

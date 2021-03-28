@@ -1,396 +1,395 @@
-# Illustrations index
+# Illustrationen Index
 
-Illustration 1: Right to use, study and modify, share and distribute the software8
+Abbildung 1: Recht, die Software zu nutzen, zu studieren und zu ändern, zu teilen und zu verteilen8
 
-Illustration 2: Icons label10
+Abbildung 2: Symbole label10
 
-Illustration 3: Folded help11
+Abbildung 3: Gefaltete Hilfe11
 
-Illustration 4: Unfolded help11
+Abbildung 4: Entfaltet Hilfe11
 
-Illustration 5: Contextual help pop-up11
+Abbildung 5: Kontext-Hilfe pop-up11
 
-Illustration 6: History of Chamilo installations around the world, 2015 to 201712
+Abbildung 6: Geschichte der Chamilo-Installationen auf der ganzen Welt, 2015 bis 201712
 
-Illustration 7: Homepage15
+Abbildung 7: Homepage15
 
-Illustration 8: "My courses" page16
+Abbildung 8: "My courses" page16
 
-Illustration 9: Chamilo header17
+Abbildung 9: Chamilo header17
 
-Illustration 10: Breadcrumb Navigation17
+Abbildung 10: Breadcrumb Navigation17
 
-Illustration 11: Switch to student view17
+Abbildung 11: Wechseln Sie zur Studentenansicht17
 
-Illustration 12: Switch to teacher view17
+Abbildung 12: Wechseln Sie zur Lehrer-View17
 
-Illustration 13: Personal menu blocks18
+Abbildung 13: Persönliche Menüblocke18
 
-Illustration 14: Creating a course – short version18
+Abbildung 14: Erstellen eines Kurses — Kurzversion18
 
-Illustration 15: Create a course – extended version19
+Abbildung 15: Erstellen eines Kurses — erweiterte Version19
 
-Illustration 16: Course creation follow-up page19
+Abbildung 16: Nachverfolgung der Kurserstellung Seite19
 
-Illustration 17: Course administration tools20
+Abbildung 17: Tools20 der Kursverwaltung
 
-Illustration 18: Course settings - Visibility20
+Abbildung 18: Kurseinstellungen - Visibility20
 
-Illustration 19: Sort my courses21
+Abbildung 19: Sortiere meine Kurse21
 
-Illustration 20: Personal category creation form21
+Abbildung 20: Formular zur Erstellung persönlicher Kategorien21
 
-Illustration 21: Personal courses category created22
+Abbildung 21: Kategorie persönliche Kurse erstellt22
 
-Illustration 22: Personal courses categories22
+Abbildung 22: Persönliche Kurse Kategorien22
 
-Illustration 23: Courses catalog23
+Abbildung 23: Kurse catalog23
 
-Illustration 24: Course tools – Classical option24
+Abbildung 24: Kurs-Tools — Klassische Option24
 
-Illustration 25: Authoring tools in ipad type view25
+Abbildung 25: Autorentools im iPad-Typ-Ansicht25
 
-Illustration 26: Course homepage – Introduction text26
+Abbildung 26: Kurs-Homepage — Einleitungstext26
 
-Illustration 27: Authoring tools27
+Abbildung 27: Autoren-Tools27
 
-Illustration 28: Interaction tools30
+Abbildung 28: Interaktionstools30
 
-Illustration 29: Administration tools32
+Abbildung 29: Administration Tools32
 
-Illustration 30: Documents – creating directories34
+Abbildung 30: Dokumente — Erstellung von Verzeichnissen34
 
-Illustration 31: Documents – List of default directories35
+Abbildung 31: Dokumente — Liste der Standardverzeichnisse35
 
-Illustration 32: Documents - Icons - Upload36
+Abbildung 32: Dokumente - Ikonen - Upload36
 
-Illustration 33: Documents – Documents upload36
+Abbildung 33: Dokumente — Dokumente upload36
 
-Illustration 34: Documents – Documents upload in progress36
+Abbildung 34: Dokumente — Dokumente werden progress36 hochgeladen
 
-Illustration 35: Documents – Document upload finished37
+Abbildung 35: Dokumente — Das Hochladen von Dokumenten ist fertig37
 
-Illustration 36: Documents - toolbar37
+Abbildung 36: Dokumente - toolbar37
 
-Illustration 37: Documents – Creating a new document38
+Abbildung 37: Dokumente — Erstellen eines neuen Dokuments38
 
-Illustration 38: Documents – Download a copy40
+Abbildung 38: Dokumente — Eine Kopie:40
 
-Illustration 39: Documents - Options40
+Abbildung 39: Dokumente - Optionen40
 
-Illustration 40: Documents - Quota41
+Abbildung 40: Dokumente - Quota41
 
-Illustration 41: Documents quota chart41
+Abbildung 41: Dokumente Quotenchart41
 
-Illustration 42: Image gallery - Slideshow view42
+Abbildung 42: Bildergalerie - Diashow-View42
 
-Illustration 43: Thumbnails view42
+Abbildung 43: Miniaturansichten
 
-Illustration 44: Exercises – Create a new test44
+Abbildung 44: Übungen — Erstelle einen neuen Test44
 
-Illustration 45: Exercises - List44
+Abbildung 45: Übungen - List44
 
-Illustration 46: Exercises – Creating an exercise – Advanced options45
+Abbildung 46: Übungen — Erstellen einer Übung — Fortgeschrittene Optionen45
 
-Illustration 47: First view of the questions list49
+Abbildung 47: Erste Ansicht der Fragenliste49
 
-Illustration 48: Exercises – Question types49
+Abbildung 48: Übungen — Fragetypen49
 
-Illustration 49: Tests – Multiple choice, single answer51
+Abbildung 49: Tests — Multiple Choice, Single Antwort51
 
-Illustration 50: Tests – Multiple answer question52
+Abbildung 50: Tests — Frage mit mehreren Antwort52
 
-Illustration 51: Tests - Fill the blanks53
+Abbildung 51: Tests - Füllen Sie die Leeren53
 
-Illustration 52: Tests – Matching text elements54
+Abbildung 52: Tests — Passende Textelemente54
 
-Illustration 53: Tests - Open questions55
+Abbildung 53: Tests - Offene Fragen55
 
-Illustration 54: Tests – Oral expression56
+Abbildung 54: Tests — Mündlicher Ausdrucks56
 
-Illustration 55: Exercises - Hot spot question creation58
+Abbildung 55: Übungen - Hot Spot-Fragenerstellung58
 
-Illustration 56: Exercises - Hot spot learner view59
+Abbildung 56: Übungen - Hot-Spot-Lerner view59
 
-Illustration 57: Tests - Exact combination60
+Abbildung 57: Tests - Exakte Kombination60
 
-Illustration 58: Tests – unique answer with unknown61
+Abbildung 58: Tests — einzigartige Antwort mit unbekannt61
 
-Illustration 59: Tests – Multiple answer true/false/don't know62
+Abbildung 59: Tests — Mehrfache Antwort wahr/falsch/weiß nicht 62
 
-Illustration 60: Tests – Combination true/false/don't know63
+Abbildung 60: Tests — Kombination wahr/falsch/weiss nicht63
 
-Illustration 61: Tests – Global multiple answer64
+Abbildung 61: Tests — Globale Mehrfachantwort64
 
-Illustration 62: Tests – Questions database65
+Abbildung 62: Tests — Fragen-Datenbank65
 
-Illustration 63: Tests – import external tests from Tests page66
+Abbildung 63: Tests — importieren Sie externe Tests aus der Testseite66
 
-Illustration 64: Tests - Import HotPotatoes, Qti2 and Excel tests66
+Abbildung 64: Tests - Importieren von HotPotatose-, Qti2- und Excel-Tests66
 
-Illustration 65: Exercises - List67
+Abbildung 65: Übungen - List67
 
-Illustration 66: Exercises – Results list67
+Abbildung 66: Übungen — Ergebnisliste 67
 
-Illustration 67: Forum – Global view68
+Abbildung 67: Forum — Globale Ansicht68
 
-Illustration 68: Forum – Display modes69
+Abbildung 68: Forum — Anzeigemodus69
 
-Illustration 69: Forum – New category69
+Abbildung 69: Forum — Neue Kategorie69
 
-Illustration 70: Forum – Forum creation form70
+Abbildung 70: Forum — Forum-Erstellung form70
 
-Illustration 71: Forum – Discussion thread72
+Abbildung 71: Forum — Diskussions-Thread72
 
-Illustration 72: Assigning a maximum score to a discussion thread73
+Abbildung 72: Zuweisen einer Höchstpunktzahl zu einem Diskussions-Thread73
 
-Illustration 73: Forum – Marking a thread74
+Abbildung 73: Forum — Markieren eines Threads74
 
-Illustration 74: The learning path tool:76
+Abbildung 74: Das Lernpfad-Tool: 76
 
-Illustration 75: Learning paths - Creating a new learning path77
+Abbildung 75: Lernpfade - Einen neuen Lernpfad erschaffen77
 
-Illustration 76: Learning paths – Learning paths – Adding a learning object or activity78
+Abbildung 76: Lernpfade — Lernpfade — Lernobjekt oder -aktivitäten78
 
-Illustration 77: Learning paths – Settings78
+Abbildung 77: Lernpfade — Einstellungen78
 
-Illustration 78: Adding a learning object or activity to a course79
+Abbildung 78: Hinzufügen eines Lernobjekts oder einer Aktivität zu einem Kurs79
 
-Illustration 79: Learning paths – Rich media creation tool79
+Abbildung 79: Lernpfade — Tool zur Erstellung von Rich Media 79
 
-Illustration 80: Learning paths – Importing existing resources80
+Abbildung 80: Lernpfade — Import vorhandener Ressourcen80
 
-Illustration 81: Learning paths – New sections80
+Illustration 81: Lernpfade — Neue Abschnitte80
 
-Illustration 82: Learning paths – Learner's view81
+Abbildung 82: Lernpfade — Sicht der Lerner81
 
-Illustration 83: Learning paths - Import SCORM81
+Abbildung 83: Lernpfade - importieren SCORM81
 
-Illustration 84: Learning paths – List82
+Abbildung 84: Lernpfade — Liste82
 
-Illustration 85: Learning paths – Prerequisites83
+Abbildung 85: Lernpfade — Voraussetzungen83
 
-Illustration 86: Learning paths – Prerequisites options83
+Abbildung 86: Lernpfade — Voraussetzungen options83
 
-Illustration 87: Reporting – Learners85
+Abbildung 87: Berichterstattung — Learners85
 
-Illustration 88: Reporting – individual student's details86
+Abbildung 88: Berichterstattung — Details einzelner Schüleren86
 
-Illustration 89: Users – Access details86
+Abbildung 89: Benutzer — Zugriffsdetails86
 
-Illustration 90: Report on resource87
+Abbildung 90: Bericht über resource87
 
-Illustration 91: Exam tracking88
+Abbildung 91: Tracking88 der Prüfung
 
-Illustration 92: Assignment settings89
+Abbildung 92: Zuweisungseinstellungen89
 
-Illustration 93: Create a new assignment90
+Abbildung 93: Erstellen einer neuen Zuweisung90
 
-Illustration 94: Student's assignment paper91
+Abbildung 94: Auftragsweispapier91 des Schülers
 
-Illustration 95: Main page for an assignment set by the teacher91
+Abbildung 95: Hauptseite für eine vom Lehrer91 festgelegte Aufgabe
 
-Illustration 96: Assignments – Advanced settings92
+Abbildung 96: Aufgaben — Erweiterte Einstellungen92
 
-Illustration 97: Assignments – setting expiry dates93
+Abbildung 97: Zuweisungen — Festlegen von Ablaufdatens93
 
-Illustration 98: Marking students' assignments94
+Abbildung 98: Kennzeichnung der Aufgaben der Studenten94
 
-Illustration 99: Users – Main screen95
+Abbildung 99: Benutzer — Hauptbildschirm95
 
-Illustration 100: Users – Action buttons95
+Abbildung 100: Benutzer — Handlungsknopfen95
 
-Illustration 101: Assessments – Example teacher view98
+Abbildung 101: Assessments — Beispiel für Lehreransicht98
 
-Illustration 102: Assessments – Example learner view98
+Abbildung 102: Assessments — Beispiel für die Sicht der Lernenden 98
 
-Illustration 103: An empty gradebook generates information messages99
+Abbildung 103: Ein leeres Bewertungsbericht generiert Informationsmelleure99
 
-Illustration 104: Assessments – General settings99
+Abbildung 104: Bewertungen — Allgemeine Einstellungen99
 
-Illustration 105: Assessments – Classroom activity101
+Abbildung 105: Bewertungen — Unterrichtszimmer-Aktivität101
 
-Illustration 106: Assessments – Classroom activities – Filling in results101
+Abbildung 106: Bewertungen — Aktivitäten im Klassenzimmer — Ergebnisse101 ausfüllen
 
-Illustration 107: Assessments – Add online activity102
+Abbildung 107: Assessments - Online-Aktivität hinzufügen102
 
-Illustration 108: Assessments - Weights102
+Abbildung 108: Bewertungen - Gewichts102
 
-Illustration 109: Assessments – Skills ranking103
+Abbildung 109: Einschätzungen — Qualifikations-Ranking103
 
-Illustration 110: Certificates edition tags104
+Abbildung 110: Bescheinigungen edition tags104
 
-Illustration 111: Certificate creation area105
+Abbildung 111: Bereich zur Zertifikatserstellung105
 
-Illustration 112: Certificate templates list106
+Abbildung 112: Liste der Zertifikatvorlagen 106
 
-Illustration 113: Example certificate106
+Abbildung 113: Beispiel-Zertifikat106
 
-Illustration 114: Default certificate template available in Chamilo107
+Abbildung 114: In Chamilo107 Standardzertifikatvorlage verfügbar
 
-Illustration 115: Assessments – List view108
+Abbildung 115: Bewertungen — Listenansicht108
 
-Illustration 116: Assessments – creating categories109
+Abbildung 116: Bewertungen — Erstellen von Kategorien109
 
-Illustration 117: Wiki – Main page110
+Abbildung 117: Wiki — Hauptseite110
 
-Illustration 118: The Links page113
+Abbildung 118: Seite113 Die Links
 
-Illustration 119: Links - Add a category113
+Abbildung 119: Links - Kategorie hinzufügen113
 
-Illustration 120: Links - Add link114
+Abbildung 120: Links - Link114 hinzufügen
 
-Illustration 121: Announcements page116
+Abbildung 121: Ankündigungen-Seite 116
 
-Illustration 122: Add an announcement116
+Abbildung 122: Ankündigung hinzufügen 116
 
-Illustration 123: Announcements – learner view117
+Abbildung 123: Ankündigungen — Einsteigern117
 
-Illustration 124: Glossary – Table view118
+Abbildung 124: Glossar — Tabellenansicht118
 
-Illustration 125: Glossary – add a term118
+Abbildung 125: Glossar — einen Begriff hinzufügen118
 
-Illustration 126: Glossary – List view119
+Abbildung 126: Glossar — Listenansicht119
 
-Illustration 127: Attendances – main page120
+Abbildung 127: Teilnahmen - Hauptseite120
 
-Illustration 128: Attendances – New attendances form120
+Abbildung 128: Teilnahmen — Neue Teilnahmen form120
 
-Illustration 129: Attendances – Intermediary step for dates creation121
+Abbildung 129: Teilnahmen — Vermittlungsschritt zur Terminerstellung121
 
-Illustration 130: Attendances calendar121
+Abbildung 130: Kalender der Teilnehmern121
 
-Illustration 131: Attendances sheet122
+Abbildung 131: Teilnehmeranwesenheiten122
 
-Illustration 132: Course progress – Learner view123
+Abbildung 132: Kursfortschritt — Lerner view123
 
-Illustration 133: Course progress – Teacher view123
+Abbildung 133: Kursfortschritt — Lehrer-View123
 
-Illustration 134: Course progress – invitation to create a thematic plan124
+Abbildung 134: Kursfortschritt — Einladung zur Erstellung eines thematischen Planes124
 
-Illustration 135: Course progress – invitation to create a thematic plan/advance124
+Abbildung 135: Kursfortschritt — Einladung zur Erstellung eines thematischen Plans/Fortschritts124
 
-Illustration 136: Course progress – example title and description fields125
+Abbildung 136: Kursfortschritt — Beispieltitel und Beschreibungsfelder125
 
-Illustration 137: Course progress – Steps creation125
+Abbildung 137: Kursfortschritt — Schritte schaffung125
 
-Illustration 138: Personal Agenda126
+Abbildung 138: Persönliche Agenda126
 
-Illustration 139: Adding an event directly to the calendar128
+Abbildung 139: Hinzufügen eines Ereignisses direkt zum Kalender128
 
-Illustration 140: Adding an event using the Add event tool128
+Abbildung 140: Hinzufügen eines Ereigniswerkzeugs mit dem Tool „Ereignis hinzufügen“ 128
 
-Illustration 141: Export, edit or delete an event129
+Abbildung 141: Exportieren, Bearbeiten oder Löschen eines Events129
 
-Illustration 142: Dropbox – sent files130
+Abbildung 142: Dropbox — gesendete Dateien130
 
-Illustration 143: Dropbox – Sending a file131
+Abbildung 143: Dropbox — Eine Datei senden131
 
-illustration 144: Dropbox - Comments132
+Abbildung 144: Dropbox - Kommentare132
 
-Illustration 145: Create a group133
+Abbildung 145: Erstelle eine Gruppe133
 
-Illustration 146: Groups- settings134
+Abbildung 146: Gruppen - Einstellungen134
 
-Illustration 147: Groups – Auto-fill groups135
+Abbildung 147: Gruppen — Gruppen automatisch ausfüllen135
 
-Illustration 148: Groups – Filling a group manually136
+Abbildung 148: Gruppen - Manuell eine Gruppe füllen136
 
-Illustration 149: Groups – Group space137
+Abbildung 149: Gruppen — Gruppen-Space137
 
-Illustration 150: The chat window139
+Illustration 150: Das Chat-Fenster 139
 
-Illustration 151: Surveys – Creation form140
+Abbildung 151: Umfragen — Schöpfungsform140
 
-Illustration 152: Surveys – Questions creation141
+Abbildung 152: Umfragen — Fragen zur Erstellung141
 
-Illustration 153: Surveys – Preview survey142
+Abbildung 153: Umfragen — Vorschau-Umfrage142
 
-Illustration 154: Surveys – Publication: select course members142
+Abbildung 154: Umfragen — Veröffentlichung: Mitglieder des Kurses auswählen142
 
-Illustration 155: Surveys – Publication: email additional recipients143
+Abbildung 155: Umfragen — Veröffentlichung: E-Mail an zusätzliche Empfänger“ 143
 
-Illustration 156: Surveys - Results143
+Abbildung 156: Umfragen - Ergebnisse143
 
-Illustration 157: Notebook - List145
+Abbildung 157: Notizbuch - Liste145
 
-Illustration 158: Notebook – Creation form145
+Abbildung 158: Notizbuch — Kreationsform145
 
-Illustration 159: Projects - List146
+Abbildung 159: Projekte - Liste146
 
-Illustration 160: Blogs – Blog creation146
+Abbildung 160: Blogs —Blog-Erstellung146
 
-Illustration 161: Projects – Users management148
+Abbildung 161: Projekte — Benutzerverwaltung148
 
-Illustration 162: Projects – New task149
+Abbildung 162: Projekte — Neue Aufgabes149
 
-Illustration 163: Projects - Roles management149
+Abbildung 163: Projekte - Rollenmanagement149
 
-Illustration 164: Projects – Roles management page149
+Abbildung 164: Projekte — Seite zur Rollenverwaltung149
 
-Illustration 165: Projects – New role150
+Abbildung 165: Projekte — Neue Rolle150
 
-Illustration 166: Projects – Assign a role150
+Abbildung 166: Projekte — Zuweisen einer Rolle150
 
-Illustration 167: Projects – Tasks comments151
+Abbildung 167: Projekte — Aufgaben-Kommentare151
 
-Illustration 168: Projects – Users management152
+Abbildung 168: Projekte — Nutzerverwalt152
 
-Illustration 169: Course settings - General153
+Abbildung 169: Kurseinstellungen - Allgemein153
 
-Illustration 170: Courses catalog – Example of courses illustrations154
+Abbildung 170: Katalog der Kurse — Beispiel für Lehrveranstaltungen Illustration154
 
-Illustration 171: Course settings – E-mail notifications155
+Abbildung 171: Kurseinstellungen — E-Mail-Benachrichtigungen155
 
-Illustration 172: Course settings – Users rights155
+Abbildung 172: Kurseinstellungen — Benutzerrechte155
 
-Illustration 173: Course settings – Chat settings156
+Abbildung 173: Kurseinstellungen — Chat-Einstellungen156
 
-Illustration 174: Course settings – Learning path settings156
+Abbildung 174: Kurseinstellungen — Einstellungen für den Lernpfad156
 
-Illustration 175: Learning paths - Auto-launch156
+Abbildung 175: Lernpfade - Auto-Launch156
 
-Illustration 176: Courses settings - Course progress157
+Abbildung 176: Einstellungen der Kurse - Kursfortschritts157
 
-Illustration 177: Course progress – Display on course homepage157
+Abbildung 177: Kursfortschritt — Anzeige auf dem Kurs homepage157
 
-Illustration 178: Backup - General158
+Abbildung 178: Sicherung - Allgemein158
 
-Illustration 179: Maintenance – Backup creation159
+Abbildung 179: Wartung — Backup-Erstellung 159
 
-Illustration 180: Backup - Import160
+Abbildung 180: Sicherung - Import160
 
-Illustration 181: Maintenance – Empty course161
+Abbildung 181: Wartung — Leerer Kurs161
 
-Illustration 182: Maintenance – Course deleting161
+Abbildung 182: Wartung — Löschvorlese161
 
-Illustration 183: Reporting tab – main page162
+Abbildung 183: Registerkarte „Berichterstellung“ — Hauptseite162
 
-Illustration 184: Social network - Home163
+Abbildung 184: Soziales Netzwerk - Home163
 
-Illustration 185: Social network – Extended profile update166
+Abbildung 185: Soziales Netzwerk — Erweiterte Profilaktualisierung166
 
-Illustration 186: Social network – Internal messaging - Inbox167
+Abbildung 186: Soziales Netzwerk — Interne Nachrichten - Inbox167
 
-Illustration 187: Social network – send and receive invitations168
+Abbildung 187: Soziales Netzwerk — Einladungen senden und empfangen168
 
-Illustration 188: Social network – Shared profile168
+Abbildung 188: Soziales Netzwerk — Gemeinsames Profile168
 
-Illustration 189: Social network – Social groups169
+Abbildung 189: Soziales Netzwerk — Soziale Gruppe169
 
-Illustration 190: Social network – Social groups interface169
+Abbildung 190: Soziales Netzwerk — Soziale Gruppen interface169
 
-Illustration 191: Social network – My files170
+Abbildung 191: Soziales Netzwerk — Meine Dateien170
 
-Illustration 192: My courses - Sessions171
+Abbildung 192: Meine Kurse - Sessions171
 
-Illustration 193: Sessions – New session screen171
+Illustration 193: Sessions — Neuer Session-Bildschirm 171
 
-Illustration 194: Sessions – Learning paths172
+Abbildung 194: Sitzungen — Lernpfade172
 
-Illustration 195: Sessions – My QCM tab173
+Abbildung 195: Sitzungen — Mein QCM tab173
 
-Illustration 196: Sessions – My statistics tab174
+Abbildung 196: Sessions — Meine Statistiken tab174
 
-Illustration 197: Sessions – Statistical details175
-
+Abbildung 197: Sitzungen — Statistische Details175

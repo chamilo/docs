@@ -1,4 +1,3 @@
 # Shibboleth
 
-![](../../../.gitbook/assets/images24%20%284%29.png)This section gives details about the Shibboleth authentication configuration.
-
+Der Abschnitt ![](../../../.gitbook/assets/images24%20%284%29.png)This enthält Einzelheiten zur Konfiguration der Shibboleth-Authentifizierung.

@@ -1,12 +1,13 @@
-# Creating a sub-language
+# Eine Untersprache erstellen
 
-Click on the sub-language creation icon on the extreme-right of the English language line. Fill-in the form by stating a common name for the language \(e.g. “Medical English”\) and an English name without spaces nor accents \(e.g. “medical\_english”\), and an ISO code that is the same as the father language \(in this case “en”\).
+Klicken Sie auf das Symbol zur Erstellung der Untersprache ganz rechts in der englischen Sprachzeile. Füllen Sie das Formular aus, indem Sie einen allgemeinen Namen für die Sprache \(z. B. “Medical English”\) und einen englischen Namen ohne Leerzeichen oder Akzente \(z. B. “medical\_english”\) und einen ISO-Code angeben, der der Vatersprache entspricht \(in diesem Fall “en”\).
 
-![](../../../../.gitbook/assets/graficos38%20%284%29.png)Illustration 33: Administration – Sub-language creation
+![](../../../../.gitbook/assets/graficos38%20%284%29.png)
+Illustration 33: Administration — Schaffung einer Untersprache
 
-Select _Visibility_ to make it selectable, and click on the _Create sub-language_ button. The confirmation message suggests you come back to the languages list. Just follow the link...
+Wählen Sie _Visibility_ aus, um es auswählbar zu machen, und klicken Sie auf die Schaltfläche _Untersprache erstellen_. Die Bestätigungsmeldung schlägt vor, dass Sie zur Sprachenliste zurückkehren. Folgen Sie einfach dem Link...
 
-![](../../../../.gitbook/assets/graficos39%20%285%29.png)Illustration 34: Administration – List of languages, with sub-languages
+![](../../../../.gitbook/assets/graficos39%20%285%29.png)
+Illustration 34: Administration — Liste der Sprachen mit Sub-Sprachen
 
-The results page shows one slightly different line. Click the double arrow icon to define your own terms.
-
+Die Ergebnisseite zeigt eine etwas andere Zeile. Klicken Sie auf das Doppelpfeilsymbol, um Ihre eigenen Begriffe zu definieren.

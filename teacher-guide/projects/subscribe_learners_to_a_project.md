@@ -1,14 +1,13 @@
-# Subscribe learners to a project
+# Abonnieren Sie Lernende für ein Projekt
 
-Your can manage several projects within the same course, and therefore select individual learners to contribute to each project.
+Sie können mehrere Projekte innerhalb desselben Kurses verwalten und daher einzelne Lernende auswählen, die zu jedem Projekt beitragen sollen.
 
-To subscribe learners to a project from the homepage of this project:
+So abonnieren Sie Lernende von der Homepage dieses Projekts aus:
 
-* click the _Users management_ icon ![](../../.gitbook/assets/graphics309.png),
-* check the boxes next to the learners you want to associate with this project,
-* click the _Validate_ button.
+* klicken Sie auf das Symbol _Users Management_ ![](../../.gitbook/assets/graphics309.png),
+* kreuzen Sie die Kästchen neben den Teilnehmern an, die Sie mit diesem Projekt verbinden möchten,
+* klicken Sie auf die Schaltfläche _Validate_.
 
 ![](../../.gitbook/assets/graphics312.png)
 
-_Illustration 164: Projects – Users management_
-
+_Illustration 164: Projekte — Benutzerverwaltung_

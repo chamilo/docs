@@ -1,18 +1,17 @@
-# Document license
+# Dokument-Lizenz
 
-All rights reserved.
+Alle Rechte vorbehalten.
 
-The permissions given by the copyleft license are indicated below.
+Die durch die Copyleft-Lizenz erteilten Berechtigungen sind unten angegeben.
 
-Copyright \(c\) 2007 2i2L Sarl. Permission is granted to copy, distribute and/or modify this document under the terms of the GNU Free Documentation License, Version 1.2 or any later version published by the Free Software Foundation ; with no Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts. A copy of the license is included in the section entitled "GNU Free Documentation License".
+Urheberrecht \(c\) 2007 2i2L Sarl. Die Erlaubnis zum Kopieren, Verteilen und/oder Ändern dieses Dokuments wird unter den Bedingungen der GNU Free Documentation License, Version 1.2 oder einer höheren von der Free Software Foundation veröffentlichten Version erteilt; ohne Invariantenabschnitte, ohne Front-Cover-Texte und ohne Back-Cover-Texte. Eine Kopie der Lizenz ist im Abschnitt mit dem Titel "GNU Free Documentation License" enthalten.
 
-The contents of this tutorial is available under the **copyleft** license:
+Der Inhalt dieses Tutorials ist unter der Lizenz **copyleft** verfügbar:
 
-[GNU FDL](http://www.gnu.org/licenses/fdl.txt) : [http://www.gnu.org/licenses/fdl.txt](http://www.gnu.org/licenses/fdl.txt)
+[GNU FDL](http://www.gnu.org/licenses/fdl.txt): [http://www.gnu.org/licenses/fdl.txt](http://www.gnu.org/licenses/fdl.txt)
 
-and
+und
 
-[CC-BY-SA](http://creativecommons.org/licenses/by-sa/2.0/fr/) : [http://creativecommons.org/licenses/by-sa/2.0/fr/](http://creativecommons.org/licenses/by-sa/2.0/fr/)
+[CC-BY-SA](http://creativecommons.org/licenses/by-sa/2.0/fr/): [http://creativecommons.org/licenses/by-sa/2.0/fr/](http://creativecommons.org/licenses/by-sa/2.0/fr/)
 
-In the dynamic of a Free and Open community, any corrections or modifications of this tutorial are welcome at info@chamilo.org.
-
+In der Dynamik einer Free and Open Community sind alle Korrekturen oder Modifikationen dieses Tutorials unter info@chamilo.org willkommen.

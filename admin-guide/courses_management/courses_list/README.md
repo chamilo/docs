@@ -1,17 +1,17 @@
-# Courses list
+# Liste der Kurse
 
-This tool allows you to visualise all the courses contained on the platform.
+Mit diesem Tool können Sie alle auf der Plattform enthaltenen Kurse visualisieren.
 
-![](../../../.gitbook/assets/graficos82%20%285%29.png)Illustration 57: Administration – Courses list
+![](../../../.gitbook/assets/graficos82%20%285%29.png)
+Illustration 57: Administration — Liste der Kurse
 
-This list gives us a great deal of information about the courses. Note the colours of the dots prefixing the courses titles: they represent the visibility of the courses:
+Diese Liste gibt uns eine Menge Informationen über die Kurse. Beachten Sie die Farben der Punkte, die den Kurstiteln vorgeben: Sie repräsentieren die Sichtbarkeit der Kurse:
 
-* blue : public
-* green : opened to platform users
-* orange : private, users are subscribed by teachers or admins
-* red : closed \(for maintenance or expiration, generally\), the course is not available except for course teachers and administrators
+* blau: öffentlich
+* grün: für Plattformbenutzer geöffnet
+* orange: privat, Benutzer werden von Lehrern oder Admins abonniert
+* rot: geschlossen \(für Wartung oder Ablauf, im Allgemeinen\) ist der Kurs außer für Kurslehrer und Administratoren nicht verfügbar
 
-It also allows us to modify information in one click on an action icon on the right side.
+Es ermöglicht uns auch, Informationen mit einem Klick auf ein Aktionssymbol auf der rechten Seite zu ändern.
 
-From version 1.9.8 up, a new visibility: hidden \(grey icon\) allows courses to be hidden to everybody **but** administrators.
-
+Ab Version `1.9.8` ermöglicht eine neue Sichtbarkeit: hidden \(graues Icon\), dass Kurse für alle, aber-/1-Administratoren, ausgeblendet werden können.

@@ -1,23 +1,22 @@
-# Introductory text
+# Einleitender Text
 
-Just before looking at any particular course tool, note that it is possible to present a welcome message to a course. Click on the _Add an_ _introduction text_ icon ![](../../.gitbook/assets/graphics349.gif) below the _Learner View_ button. A text editor appears...
+Bevor Sie sich ein bestimmtes Kurswerkzeug ansehen, beachten Sie, dass es möglich ist, einem Kurs eine Begrüßungsnachricht zu präsentieren. Klicken Sie auf das _Add an_ _introduction text_ Icon ![](../../.gitbook/assets/graphics349.gif) unterhalb der Schaltfläche _Learner View_. Ein Texteditor erscheint...
 
 ![](../../.gitbook/assets/images28%20%283%29.png)
 
-_Illustration 26: Course homepage – Introduction text_
+_Illustration 26: Startseite des Kurses — Einführungschext_
 
-This feature, although very simple to use, is also very powerful: it can simply present a few words of introduction, but it also enables you to redesign the entire course homepage simply by hiding all the course tools and writing a large introduction text/page including icons with links to the course tools' internal pages.
+Diese Funktion ist zwar sehr einfach zu bedienen, aber auch sehr mächtig: Sie kann einfach ein paar Einführungsworte darstellen, ermöglicht es Ihnen jedoch auch, die gesamte Kursseite neu zu gestalten, indem Sie einfach alle Kurswerkzeuge ausblenden und einen großen Einleitungstext/eine große Einführungsseite mit Symbolen mit Links zu den Kurswerkzeugen schreiben interne Seiten.
 
-To do this :
+Um dies zu tun:
 
-* hide all the tools \(by clicking the eye, which must be _closed_ and grayed\)
-* right-click on any tool to which the learners need access
-* select _Copy link location_
-* left-click on _Add an introduction text_
-* place an introduction text \(use the table tool ![](../../.gitbook/assets/graphics81.png), or an external HTML-editing tool if you wish, to position elements precisely\) and a new icon/graphic representing the tool requiring access
-* click an icon to select it then click the link creation tool ![](../../.gitbook/assets/graphics82.png)
-* « paste » the link that was saved a few steps before \(CTRL-V should work just fine\)
-* click the _save intro text_ button
+* alle Werkzeuge ausblenden \(durch Anklicken des Auges, das _closed_ und grau sein muss\)
+* Klicken Sie mit der rechten Maustaste auf ein Tool, auf das die Teilnehmer Zugriff haben
+* wählen Sie _Link kopieren_
+* Linksklick auf _Einen Einführungstext hinzufügen_
+* Platzieren Sie einen Einführungstext \(verwenden Sie das Tabellentool ![](../../.gitbook/assets/graphics81.png) oder ein externes HTML-Bearbeitungswerkzeug, um Elemente genau zu positionieren\) und ein neues Symbol/eine neue Symbol/Grafik, die das Werkzeug darstellt, das Zugriff benötigt
+* Klicken Sie auf ein Symbol, um es auszuwählen, und klicken Sie dann auf das Tool zur Linkerstellung ![](../../.gitbook/assets/graphics82.png)
+* « paste » der Link, der vorher ein paar Schritte gespeichert wurde \(CTRL-V sollte gut funktionieren\)
+* klicken Sie auf den Button _Save Intro Text_
 
-You now have an entirely personalized course homepage! The only remaining other visual elements are the header and the footer.
-
+Sie haben jetzt eine vollständig personalisierte Kurs-Homepage! Die einzigen übrigen anderen visuellen Elemente sind die Kopf- und die Fußzeile.

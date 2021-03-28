@@ -1,12 +1,11 @@
-# How students generate certificates
+# Wie Studenten Zertifikate generieren
 
-Certainly one of the trickiest aspects of certificates is that students **have to** enter the assessments tool to generate their certificate. When a student enters the assessments tool and a default certificate is configured, **and** the student has reached the minimum grade to get the certificate, he will see a large certificate icon on the right side of the screen. This will send him directly to the certificate page.
+Sicherlich ist einer der schwierigsten Aspekte von Zertifikaten, dass Studenten das Bewertungstool eingeben müssen, um ihr Zertifikat zu erstellen. Wenn ein Student das Bewertungstool eingibt und ein Standardzertifikat konfiguriert ist, **und** der Student die Mindestnote erreicht hat, um das Zertifikat zu erhalten, wird auf der rechten Seite des Bildschirms ein großes Zertifikatssymbol angezeigt. Dies wird ihn direkt auf die Zertifikatsseite schicken.
 
-The certificate page uses a unique URL, so the student can just copy the link and reuse it later on, as long as the link is public, which is an option the administrator has to enable, like this:
+Die Zertifikatseite verwendet eine eindeutige URL, sodass der Student den Link einfach kopieren und später wiederverwenden kann, solange der Link öffentlich ist. Dies ist eine Option, die der Administrator wie folgt aktivieren muss:
 
 ![](../../.gitbook/assets/image12%20%282%29.png)
 
-_Illustration 116: Public certificates option_
+_Illustration 116: Option für öffentliche Bescheinigung_
 
-Once generated, a certificate cannot be canceled by the student. The teacher has to enter the certificates management tool to remove it and allow the student to re-generate it.
-
+Einmal generiert, kann ein Zertifikat vom Studenten nicht mehr storniert werden. Der Lehrer muss das Zertifikatsverwaltungstool eingeben, um es zu entfernen und es dem Schüler zu ermöglichen, es neu zu generieren.

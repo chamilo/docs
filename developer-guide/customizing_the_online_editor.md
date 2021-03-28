@@ -1,10 +1,10 @@
-# Customizing the online editor
+# Anpassen des Online-Editors
 
-In Chamilo 1.10 and later, we use CKeditor as a WYSIWYG \(What You See Is What You Get\) or “online” HTML editor. This was not the case with Chamilo 1.9, which still used the now-dead FCKeditor.
+In Chamilo 1.10 und höher verwenden wir CKEditor als WYSIWYG \(Was Sie sehen, ist was Sie bekommen\) oder als “online” HTML-Editor. Dies war bei `Chamilo 1.9` nicht der Fall, der immer noch den jetzt toten FckEditor benutzte.
 
-Sometimes, you might want to customize the editor for some particular item in Chamilo. This can be done, for existing custom element types, in the src/Chamilo/CoreBundle/Component/Editor/CkEditor/Toolbar/ directory.
+Manchmal möchten Sie möglicherweise den Editor für ein bestimmtes Element in Chamilo anpassen. Dies kann für vorhandene benutzerdefinierte Elementtypen im `src/Chamilo/CoreBundle/Component/Editor/CkEditor/Toolbar/`-Verzeichnis erfolgen.
 
-There, you’ll find a series of files of the following form:
+Dort finden Sie eine Reihe von Dateien der folgenden Form:
 
 ```text
 /* For licensing terms, see /license.txt */
@@ -17,7 +17,7 @@ namespace Chamilo\CoreBundle\Component\Editor\CkEditor\Toolbar;
  * @package Chamilo\CoreBundle\Component\Editor\CkEditor\Toolbar
  */
 class Messages extends Basic
-{ 
+{
     /**
      * Get the toolbar config
      * @return array
@@ -98,15 +98,14 @@ class Messages extends Basic
 }
 ```
 
-As you can probably appreciate, the structure is simply:
+Wie Sie wahrscheinlich einschätzen können, ist die Struktur einfach:
 
-* a class extending the “Basic” class for the editor
-* a getConfig\(\) method to get some global configuration \(like size of the area\)
-* a getMaximizedToolbar\(\) method that defines the options to be shown when maximized
-* a getNormalToolbar\(\) method that defines the options to be shown when normal
-* a getMinimizedToolbar\(\) method that defines the options to be shown when minimized
+* Eine Klasse, die die “Basic” -Klasse für den Editor erweitert
+* eine getConfig\(\) -Methode, um eine globale Konfiguration zu erhalten \(wie die Größe des Gebiets\)
+* eine getMaximizedToolbar\(\) -Methode, die die Optionen definiert, die angezeigt werden sollen, wenn sie maximiert werden
+* eine getNormalToolbar\(\) -Methode, die die Optionen definiert, die normal angezeigt werden sollen
+* eine getMinimizedToolbar\(\) -Methode, die die Optionen definiert, die angezeigt werden sollen, wenn sie minimiert sind
 
-If you want to change one of the tools offered in the toolbars for a specific case, just change it here.
+Wenn Sie eines der in den Symbolleisten angebotenen Tools für einen bestimmten Fall ändern möchten, ändern Sie es einfach hier.
 
-Note, however, that this customization is not part of the normally-accepted customizations, so you will have to keep it on record somewhere to be able to apply it again when the next version comes out.
-
+Beachten Sie jedoch, dass diese Anpassung nicht Teil der normalerweise akzeptierten Anpassungen ist. Sie müssen sie daher irgendwo aufgezeichnet haben, um sie erneut anwenden zu können, wenn die nächste Version herauskommt.

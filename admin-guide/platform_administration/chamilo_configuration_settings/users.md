@@ -1,12 +1,11 @@
-# Users
+# Nutzer
 
 ![](../../../.gitbook/assets/graficos8%20%285%29.png)
 
-This category presents the options relative to users properties and permissions.
+Diese Kategorie enthält die Optionen in Bezug auf Benutzereigenschaften und Berechtigungen.
 
-**Profile** defines which fields of the profile will be modifiable by the user. By default, the e-mail cannot be modified by the user himself.
+**Profile** definiert, welche Felder des Profils vom Benutzer geändert werden können. Standardmäßig kann die E-Mail vom Benutzer selbst nicht geändert werden.
 
-**Personal agenda** lets you decide whether a user can register personal events in his calendar.
+**Persönliche Agenda** lässt Sie entscheiden, ob ein Benutzer persönliche Ereignisse in seinem Kalender registrieren kann.
 
-Allow users to change e-mail without password allows users to change their e-mails without having to provide their password. This is particularly dangerous as the e-mail address is where the password reminder is sent, so if someone steals another user's connection, he can change the password and prevent access by the legitimate user. The default option is to not allow it without having to give one's password, which is more secure but a little more complicated.
-
+Wenn Sie Benutzern erlauben, E-Mails ohne Passwort zu ändern, können Benutzer ihre E-Mails ändern, ohne ihr Passwort angeben zu müssen. Dies ist besonders gefährlich, da in der E-Mail-Adresse die Passworterinnerung gesendet wird. Wenn also jemand die Verbindung eines anderen Benutzers stiehlt, kann er das Passwort ändern und den Zugriff des legitimen Benutzers verhindern. Die Standardoption besteht darin, dies nicht zuzulassen, ohne sein Passwort angeben zu müssen, was sicherer, aber etwas komplizierter ist.

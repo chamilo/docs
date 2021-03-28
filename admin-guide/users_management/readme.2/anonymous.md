@@ -1,15 +1,14 @@
-# Anonymous
+# Anonym
 
-The anonymous user is a particular case which only serves the purpose of allowing one of the non-subscribed users to benefit from the courses publicly made available. The number of tracking opportunities is thus reduced. Note that if no course is made public, this user account is useless and could be disabled \(although this feature is not officially supported\).
+Der anonyme Benutzer ist ein Sonderfall, der nur dem Zweck dient, einem der nicht abonnierten Benutzer die Möglichkeit zu geben, von den öffentlich zur Verfügung gestellten Kursen zu profitieren. Die Anzahl der Tracking-Möglichkeiten wird somit reduziert. Beachten Sie, dass dieses Benutzerkonto nutzlos ist und deaktiviert werden kann, wenn kein Kurs veröffentlicht wird \(obwohl diese Funktion nicht offiziell unterstützt wird\).
 
-* ![](../../../.gitbook/assets/images47%20%283%29.png)**Active/Inactive** : the anonymous user can be enabled/disabled at wish
-* ![](../../../.gitbook/assets/graficos72%20%284%29.png)![](../../../.gitbook/assets/graficos73%20%284%29.png)**Courses list** : the anonymous user cannot be subscribed to courses
-* **Login as...** disabled for the anonymous user
-* ![](../../../.gitbook/assets/graficos74%20%286%29.png)**Statistics** : the anonymous user doesn't show statistics
-* ![](../../../.gitbook/assets/graficos75%20%286%29.png)![](../../../.gitbook/assets/graficos77%20%286%29.png)**Edition** : the anonymous user cannot be edited
-* **Administration** : the anonymous user can never be an administrator
-* ![](../../../.gitbook/assets/graficos76%20%285%29.png)**Free/busy calendar** : the anonymous user doesn't have a free/busy calendar
-* ![](../../../.gitbook/assets/graficos78%20%286%29.png)**Removal** : the anonymous user account cannot be removed \(to avoid system incoherences\)
+* ![](../../../.gitbook/assets/images47%20%283%29.png) **Aktiv/Inaktiv**: Der anonyme Benutzer kann auf Wunsch aktiviert/deaktiviert werden
+* ![](../../../.gitbook/assets/graficos72%20%284%29.png) ![](../../../.gitbook/assets/graficos73%20%284%29.png) **Kursliste**: Der anonyme Benutzer kann keine Kurse abonniert werden
+* **Login als... ** für den anonymen Benutzer deaktiviert
+* ![](../../../.gitbook/assets/graficos74%20%286%29.png) **Statistiken**: Der anonyme Benutzer zeigt keine Statistiken
+* ![](../../../.gitbook/assets/graficos75%20%286%29.png) ![](../../../.gitbook/assets/graficos77%20%286%29.png) **Edition**: Der anonyme Benutzer kann nicht bearbeitet werden
+* **Verwaltung**: Der anonyme Benutzer kann niemals ein Administrator sein
+* ![](../../../.gitbook/assets/graficos76%20%285%29.png) **Frei/Gebucht-Kalender**: Der anonyme Benutzer hat keinen Frei/Gebucht-Kalender
+* ![](../../../.gitbook/assets/graficos78%20%286%29.png) **Entfernen**: Das anonyme Benutzerkonto kann nicht entfernt werden \(um Systeminkohärenzen zu vermeiden\)
 
-Additionally to these management options, it is possible to remove all or part of the users by selecting the check-box on the left of the user and removing him below, as in the users management of a course for a teacher.
-
+Zusätzlich zu diesen Verwaltungsoptionen ist es möglich, alle oder einen Teil der Benutzer zu entfernen, indem Sie das Kontrollkästchen links neben dem Benutzer aktivieren und ihn unten entfernen, wie in der Benutzerverwaltung eines Kurses für einen Lehrer.

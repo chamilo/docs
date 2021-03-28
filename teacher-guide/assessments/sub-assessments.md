@@ -1,4 +1,3 @@
-# Sub-assessments
+# Sub-Bewertungen
 
-The assessments tool allows you to define several “sub-assessments” inside the assessments tool, or to just use the upper-level assessments tool to distribute your activities. We believe using sub-assessments is a bit more complex and we should avoid generating more confusion at this point, so let’s just keep it at that: if necessary, you can create a lower level of assessments inside the assessments tool, using the yellow folder creation icon ![](../../.gitbook/assets/image5%20%281%29.svg)
-
+Mit dem Bewertungstool können Sie mehrere “sub-assessments” innerhalb des Bewertungstools definieren oder einfach das Bewertungstool auf höherer Ebene verwenden, um Ihre Aktivitäten zu verteilen. Wir glauben, dass die Verwendung von Unterbewertungen etwas komplexer ist, und wir sollten an dieser Stelle keine Verwirrung stiften. Behalten wir es daher einfach bei: Bei Bedarf können Sie mithilfe des Symbols zur Erstellung des gelben Ordners eine niedrigere Ebene von Bewertungen im Bewertungstool erstellen ![](../../.gitbook/assets/image5%20%281%29.svg)

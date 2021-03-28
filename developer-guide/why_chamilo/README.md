@@ -1,37 +1,36 @@
-# Why Chamilo?
+# Warum Chamilo?
 
 ![](../../.gitbook/assets/images21%20%288%29.png)
 
-Chamilo is an e-learning and collaboration platform which comes bundled as open-source software \(or as purists will rightfully correct, _Free Software_\) which can be adapted to educational or professional projects. It is distributed under the [GNU/GPLv3+](http://fr.wikipedia.org/wiki/Licence_publique_générale_GNU) license, which you are bound to accept when using it.
+Chamilo ist eine E-Learning- und Kollaborationsplattform, die als Open-Source-Software gebündelt wird \(oder wie Puristen zu Recht korrigieren werden, _Freie Software_\), die an Bildungs- oder Berufsprojekte angepasst werden kann. Es wird unter der [GNU/GPLv3+](http://fr.wikipedia.org/wiki/Licence_publique_générale_GNU) -Lizenz vertrieben, die Sie bei der Verwendung akzeptieren müssen.
 
-Chamilo \(as a software\) has two key aims:
+Chamilo \(als Software\) verfolgt zwei Hauptziele:
 
-1. to support the teacher in better responding to the needs of their students and
-2. to make it so easy to build and edit high-quality digital learning materials that the teacher can not only create but be inspired to develop and continuously improve their courses' content.
+1. den Lehrer dabei zu unterstützen, besser auf die Bedürfnisse seiner Schüler einzugehen und
+2. um es so einfach zu machen, qualitativ hochwertige digitale Lernmaterialien zu erstellen und zu bearbeiten, dass der Lehrer nicht nur erstellen, sondern auch dazu inspiriert werden kann, den Inhalt seiner Kurse zu entwickeln und kontinuierlich zu verbessern.
 
-The goal of the Chamilo Association, through the publishing of Chamilo, is to "Increase the availability of quality education worldwide".
+Das Ziel der Chamilo Association ist durch die Veröffentlichung von Chamilo, "Increase the availability of quality education worldwide".
 
-A teacher using Chamilo can access a series of useful tools allowing them to easily and efficiently create an effective learning environment. On creating/editing a course he \(or she\) can:
+Ein Lehrer, der Chamilo verwendet, kann auf eine Reihe nützlicher Tools zugreifen, die es ihm ermöglichen, einfach und effizient eine effektive Lernumgebung zu schaffen. Beim Erstellen/Bearbeiten eines Kurses kann er (oder sie\):
 
-* import or create **documents** \(audio, video, images\) and publish them,
-* build **tests** and **exams** with **automated scores and feedback** as required,
-* build or import \([SCORM](http://fr.wikipedia.org/wiki/Sharable_Content_Object_Reference_Model) and [AICC](http://fr.wikipedia.org/wiki/Aviation_Industry_CBT_Committee)\) compliant courses,
-* set and receive **virtual assignments**,
-* describe the components of the course through **description** sections,
-* communicate through **forums** or **chat**,
-* publish **announcements**,
-* add **links**,
-* create **work groups** or laboratory groups,
-* set up a **virtual classroom** \(through the videoconference extension\),
-* manage **scores** through the assessments tool,
-* create **surveys**,
-* add a **wiki** to create documents collaboratively,
-* use a **glossary**,
-* use an **agenda**,
-* manage a **project** \(through the **blog** tool\),
-* enable **tracking** of learners in your courses,
-* register **attendances**,
-* elaborate **a class diary \(course progress\)**.
+* Importieren oder erstellen**Dokumente** \(Audio, Video, Bilder\) und veröffentlichen sie,
+* baue **Tests** und**Prüfungen** mit **automatisierten Scores und Feedback** nach Bedarf,
+* bauen oder importieren Sie \([SCORM](http://fr.wikipedia.org/wiki/Sharable_Content_Object_Reference_Model) und [AICC](http://fr.wikipedia.org/wiki/Aviation_Industry_CBT_Committee)\) konforme Kurse,
+* setze und empfange **virtuelle Aufgaben**,
+* beschreiben Sie die Komponenten des Kurses in den Abschnitten **Beschreibung**,
+* kommunizieren über **Foren** oder **chaten**,
+* veröffentlichen**Ankündigungen**,
+* füge **Links** hinzu,
+* erstellen**Arbeitsgruppen** oder Laborgruppen,
+* ein virtuelles Klassenzimmer** einrichten \(über die Erweiterung für Videokonferenzen\),
+* verwalte **Scores** über das Assessment-Tool,
+* erstelle **Umfragen**,
+* füge ein**wiki** hinzu, um gemeinsam Dokumente zu erstellen,
+* benutze ein **Glossar**,
+* benutze ein **agenda**,
+* verwalte ein **Projekt** \(über das **Blog**-Tool\),
+* aktiviere **Tracking** der Lernenden in deinen Kursen,
+* registrieren Sie**Teilnehmer**,
+* ausgefeiltes **ein Klassentagebuch \(Kursfortschritt\) **.
 
-The Chamilo platform is extremely **flexible**. All its tools can be customized according to the needs of each course. It provides a **friendly** and **intuitive** user interface which requires no special prior technical knowledge or skills.
-
+Die Chamilo Plattform ist extrem **flexibel**. Alle seine Werkzeuge können an die Bedürfnisse jedes Kurses angepasst werden. Es bietet eine „freundliche**“ und**intuitive** Benutzeroberfläche, die keine besonderen technischen Vorkenntnisse oder Fähigkeiten erfordert.

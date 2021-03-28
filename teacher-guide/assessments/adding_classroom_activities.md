@@ -1,16 +1,15 @@
-# Adding classroom activities
+# Hinzufügen von Aktivitäten im Klassenzimmer
 
-A “classroom” activity refers to any component of the overall assessment not undertaken inside the Chamilo platform. Any assessed activity can be added a _classroom activity_ and therefore become part of your overall course assessment. As such, you will of course need to add the relevant details manually to the Assessments. To do this, in the main assessment page, click on the _Add classroom assessment_ icon ![](../../.gitbook/assets/graphics197.png) in the tool-bar.
+Eine “classroom” -Aktivität bezieht sich auf jede Komponente der Gesamtbewertung, die nicht innerhalb der Chamilo-Plattform durchgeführt wurde. Jede bewertete Aktivität kann als _classroom-Aktivität_ hinzugefügt werden und wird daher Teil Ihrer Gesamtbewertung des Kurses. Daher müssen Sie den Assessments natürlich die relevanten Details manuell hinzufügen. Klicken Sie dazu auf der Hauptbewertungsseite in der Symbolleiste auf das Symbol _Klassenzimmerbewertung hinzufügen_ ![](../../.gitbook/assets/graphics197.png).
 
-The name, weighting and maximum score for the activity need to be entered, and the teacher can also choose whether to make the activity visible and whether to grade learners.
+Der Name, die Gewichtung und die Höchstpunktzahl für die Aktivität müssen eingegeben werden, und der Lehrer kann auch wählen, ob er die Aktivität sichtbar macht und ob er die Lernenden benoten möchte.
 
 ![](../../.gitbook/assets/images138%20%281%29.png)
 
-_Illustration 105: Assessments – Classroom activity_
+_Illustration 105: Bewertungen — Aktivitäten im Klassenraum_
 
-You will only be able to add results for classroom activities for learners subscribed to your course. Scoring the Classroom activity is straightforward – click the relevant activity listed in the main _Assessments_ page and then the _edit_ icon ![](../../.gitbook/assets/graphics199.png) either next to the learner's listing or \(to score a list of learners\) in the toolbar:
+Sie können nur Ergebnisse für Unterrichtsaktivitäten für Lernende hinzufügen, die Ihren Kurs abonniert haben. Die Bewertung der Classroom-Aktivität ist einfach — klicken Sie auf die entsprechende Aktivität, die auf der Hauptseite _Assessments_ aufgeführt ist, und dann auf das _edit_-Symbol ![](../../.gitbook/assets/graphics199.png) entweder neben der Auflistung des Teilnehmers oder auf \(um eine Liste der Lernenden zu erhalten\) in der Symbolleiste:
 
-![](../../.gitbook/assets/images139%20%281%29.png)_Illustration 106: Assessments – Classroom activities – Filling in results_
+![](../../.gitbook/assets/images139%20%281%29.png)_Illustration 106: Assessments — Aktivitäten im Klassenzimmer — Ergebnisse einfügen_
 
-The scores will be added to the assessment data and included in each student's grade-book.
-
+Die Ergebnisse werden zu den Bewertungsdaten hinzugefügt und in das Notenbuch jedes Schülers aufgenommen.

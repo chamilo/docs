@@ -1,28 +1,31 @@
-# Classes
+# Kurse
 
-Classes are a group of users \(in general students\). These groups can be assigned courses or sessions, so that all group users are subscribed personally to these courses or sessions.
+Klassen sind eine Gruppe von Benutzern \(im Allgemeinen Studenten\). Diesen Gruppen können Kurse oder Sitzungen zugewiesen werden, sodass alle Gruppenbenutzer diese Kurse oder Sitzungen persönlich abonniert haben.
 
-Similarly, when you unsubscribe the class from a course or a session, each of the class users will be unsubscribed individually from the course or session.
+Wenn Sie den Kurs von einem Kurs oder einer Sitzung abbestellen, wird jeder der Klassenbenutzer einzeln aus dem Kurs oder der Sitzung abgemeldet.
 
-**Note** : before 1.8.8, there was already a concept of class \(slightly different\), which was mutually exclusive with the sessions tool. Since version 1.8.8, it is possible to use classes in combination with sessions.
+**Hinweis**: Vor `1.8.8` gab es bereits ein Konzept der Klasse \(etwas anders\), das sich gegenseitig mit dem Session-Tool auslief. Seit Version `1.8.8` ist es möglich, Klassen in Kombination mit Sitzungen zu verwenden.
 
-The classes interface is pretty basic. The list of classes is empty the first time. To add a class, just click the starred icon.
+Die Klassenschnittstelle ist ziemlich einfach. Die Liste der Klassen ist beim ersten Mal leer. Um eine Klasse hinzuzufügen, klicke einfach auf das Sternsymbol.
 
-![](../../.gitbook/assets/graficos93%20%284%29.png)Illustration 77: Administration - Classes – Empty list
+![](../../.gitbook/assets/graficos93%20%284%29.png)
+Illustration 77: Verwaltung - Unterricht - Liste leeren
 
-The creation of a class requires only a name and an optional description.
+Die Erstellung einer Klasse erfordert nur einen Namen und eine optionale Beschreibung.
 
-You then come back to the list of classes to add users to them \(through the users icon\).
+Sie kehren dann zur Liste der Klassen zurück, um ihnen Benutzer hinzuzufügen \(über das Benutzersymbol\).
 
-![](../../.gitbook/assets/graficos94%20%284%29.png)Illustration 78: Administration - Classes – Adding users
+![](../../.gitbook/assets/graficos94%20%284%29.png)
+Illustration 78: Administration - Klassen — Benutzer hinzufügen
 
-The users subscription screen is similar to other users subscription screen you've seen before.
+Der Bildschirm für das Benutzerabonnement ähnelt dem Abonnementbildschirm anderer Benutzer, den Sie zuvor gesehen haben.
 
-Once the users have been added, you can subscribe the class to one or more courses, and to one or more sessions.
+Sobald die Benutzer hinzugefügt wurden, können Sie die Klasse für einen oder mehrere Kurse und eine oder mehrere Sitzungen abonnieren.
 
-![](../../.gitbook/assets/graficos95%20%283%29.png)Illustration 79: Administration - Classes – Adding courses
+![](../../.gitbook/assets/graficos95%20%283%29.png)
+Illustration 79: Administration - Kurse - Kurse hinzufügen
 
-![](../../.gitbook/assets/graficos96%20%283%29.png)Illustration 80: Administration - Classes – Adding sessions
+![](../../.gitbook/assets/graficos96%20%283%29.png)
+Illustration 80: Administration - Klassen — Sessions hinzufügen
 
-Note that, as the sessions logic dictates, a class should never be subscribed to a course **and** to a session \(which contains this course\), otherwise you might end up confusing the student \(and probably the teacher\) with duplicated accesses in and out of a session.
-
+Beachten Sie, dass, wie es die Sitzungslogik vorschreibt, eine Klasse niemals einen Kurs**und** für eine Sitzung \(die diesen Kurs enthält\) abonniert werden sollte, da Sie sonst den Schüler \(und wahrscheinlich den Lehrer\) mit doppelten Zugriffen in und außerhalb einer Sitzung verwechseln könnten.

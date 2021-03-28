@@ -1,6 +1,5 @@
-# The Drupal plugin
+# Das Drupal-Plugin
 
-If you use Drupal, you will probably like the fact that we have a Drupal plugin with a series of features, like Single Sign On, printing of courses blogs, personal events block, etc.
+Wenn Sie Drupal verwenden, wird Ihnen wahrscheinlich die Tatsache gefallen, dass wir ein Drupal-Plugin mit einer Reihe von Funktionen wie Single Sign On, Drucken von Kursblogs, Block für persönliche Ereignisse usw. haben.
 
-The current plugin is undergoing a review at the time of writing these lines, but you can get more information in the issue queue of the plugin: [http://drupal.org/project/chamilo](http://drupal.org/project/chamilo)
-
+Das aktuelle Plugin wird zum Zeitpunkt des Schreibens dieser Zeilen einer Überprüfung unterzogen, aber Sie können weitere Informationen in der Problemwarteschlange des Plugins erhalten: [http://drupal.org/project/chamilo](http://drupal.org/project/chamilo)

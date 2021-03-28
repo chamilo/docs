@@ -1,4 +1,3 @@
-# How do I block access to the course catalog for learners?
+# Wie blockiere ich den Zugang zum Kurskatalog für Lernende?
 
-Locate and change the “Learners access to courses catalogue” option in the admin settings.
-
+Suchen und ändern Sie die “Learners access to courses catalogue” -Option in den Admin-Einstellungen.

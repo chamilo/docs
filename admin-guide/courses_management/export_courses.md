@@ -1,6 +1,6 @@
-# Export courses
+# Kurse exportieren
 
-This feature allows you to export details of some or all the courses of the platform to the CSV format.
+Mit dieser Funktion können Sie Details einiger oder aller Kurse der Plattform in das CSV-Format exportieren.
 
-![](../../.gitbook/assets/coursexporter%20%283%29.png)Illustration 59: Administration – Courses export
-
+![](../../.gitbook/assets/coursexporter%20%283%29.png)
+Illustration 59: Verwaltung — Exportieren von Kursen

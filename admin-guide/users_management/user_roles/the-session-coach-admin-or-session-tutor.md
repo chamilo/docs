@@ -1,2 +1,1 @@
-# The session coach \(admin/or session tutor\)
-
+# Der Sitzungscoach \(Admin/oder Session Tutor\)

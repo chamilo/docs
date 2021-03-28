@@ -1,16 +1,15 @@
-# Quick-change of directory
+# Schneller Wechsel des Verzeichnisses
 
-When creating a new course with example content, the _Documents_ tool contains several directories \(_audio, flash, images,_ etc\) by default.
+Beim Erstellen eines neuen Kurses mit Beispielinhalt enthält das Tool _Documents_ standardmäßig mehrere Verzeichnisse \(_Audio, Flash, Bilder, _ etc\).
 
-These directories are meant to provide additional help organizing resources inside the course. Once there are over twenty or so documents in the root directory, it becomes difficult to locate a document when needed, because you will have to scroll up and down to get to see all the files. Because of this, we recommend not having more than twenty files in a single directory - general good practice in file management anyway.
+Diese Verzeichnisse sollen zusätzliche Hilfe bei der Organisation von Ressourcen innerhalb des Kurses bereitstellen. Sobald sich mehr als zwanzig Dokumente im Stammverzeichnis befinden, wird es schwierig, ein Dokument bei Bedarf zu finden, da Sie nach oben und unten scrollen müssen, um alle Dateien anzuzeigen. Aus diesem Grund empfehlen wir, nicht mehr als zwanzig Dateien in einem einzigen Verzeichnis zu haben - sowieso allgemeine bewährte Verfahren in der Dateiverwaltung.
 
-These directories are by default invisible to learners. It is up to the teacher to decide whether learners should see these directories' contents or not \(by clicking on the _eye_ icon ![](../../.gitbook/assets/graphics115.png)\).
+Diese Verzeichnisse sind für Lernende standardmäßig unsichtbar. Es ist Sache des Lehrers, zu entscheiden, ob die Lernenden die Inhalte dieser Verzeichnisse sehen sollen oder nicht \(durch Klicken auf das _eye_ Icon ![](../../.gitbook/assets/graphics115.png)\).
 
 ![](../../.gitbook/assets/images33%20%283%29.png)
 
-_Illustration 31: Documents – List of default directories_
+_Illustration 31: Dokumente — Liste der Standardverzeichnisse_
 
-Of course, it is possible to create several other directories using the folder creation icon. In order to navigate swiftly within the directories tree, a drop-down list called _Current folder_ is available on the top left of the screen allowing any level of documents-directory to be readily accessed.
+Natürlich ist es möglich, mehrere andere Verzeichnisse mit dem Symbol für die Ordnererstellung zu erstellen. Um schnell in der Verzeichnisstruktur zu navigieren, ist oben links auf dem Bildschirm eine Dropdown-Liste mit dem Namen _Current folder_ verfügbar, auf die problemlos auf jede Ebene des Dokumentverzeichnisses zugegriffen werden kann.
 
-Once inside a directory, the _“up a level”_ icon ![](../../.gitbook/assets/graphics117.png) lets the teacher get back up one directory level.
-
+Sobald Sie sich in einem Verzeichnis befinden, lässt das _ “up a level”_ -Symbol ![](../../.gitbook/assets/graphics117.png) den Lehrer eine Verzeichnisebene sichern.

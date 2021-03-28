@@ -1,136 +1,135 @@
-# History
+# Geschichte
 
-![](../../.gitbook/assets/images19%20%2810%29.png)![](../../.gitbook/assets/images22%20%289%29.png)
+![](../../.gitbook/assets/images19%20%2810%29.png) ![](../../.gitbook/assets/images22%20%289%29.png)
 
-To understand the Chamilo LMS files structure today, you need a bit of history.
+Um die Struktur der Chamilo LMS-Dateien heute zu verstehen, braucht man ein bisschen Geschichte.
 
-The Chamilo code kind of started, actually, in 2001, as a project called _Claroline_. Claroline grew to be a popular free software project, in particular in the academical world, and distinguished itself from other projects like _Moodle_, _WebCT_ and _Ilias_ \(between others\) by its ease of use, a characteristic tha Chamilo maintained throughout the years.
+Der Chamilo-Code begann im Jahr 2001 als ein Projekt namens _Claroline_. Claroline entwickelte sich zu einem beliebten Freie-Software-Projekt, insbesondere in der akademischen Welt, und zeichnete sich durch seine Benutzerfreundlichkeit von anderen Projekten wie _Moodle_, _WebCT_ und _Ilias_ \(untereinander\) durch seine Benutzerfreundlichkeit aus, eine Eigenschaft, die Chamilo im Laufe der Jahre beibehalten hatte.
 
-In 2004, the Claroline project suffered a _fork_ \(a disturbance in _the force_\) between the initial project \(which later died in 2014 and gave birth to the _Claroline Connect_ project\) and the _Dokeos_ project, more focused on bringing the tool to the corporate world.
+Im Jahr 2004 erlitt das Claroline-Projekt eine _fork_ \(eine Störung in der kraft _\) zwischen dem ursprünglichen Projekt \(das später im Jahr 2014 starb und das Projekt _Claroline Connect_ geboren hat\) und dem _Dokeos-Projekt, das sich mehr darauf konzentrierte, das Tool in die Unternehmenswelt zu bringen.
 
-In 2010, the Dokeos project suffered another fork, between Dokeos \(still exists today\) and Chamilo, provoked by the very unsensitive behaviour of the Dokeos company manager, with little understanding of the value of the community in such a project.
+Im Jahr 2010 erlitt das Dokeos-Projekt eine weitere Abspaltung zwischen Dokeos \(heute noch) und Chamilo, hervorgerufen durch das sehr unempfindliche Verhalten des Unternehmensleiters von Dokeos, mit wenig Verständnis für den Wert der Community in einem solchen Projekt.
 
-These 2 large project splits were mostly philosophical in the _Chamilo_ project history, but they did come with their amount of changes in structure \(both at the database level and at the files level\), and we'll try to cover these shortly here.
+Diese 2 großen Projekt-Splits waren in der Geschichte des _Chamilo_-Projekts überwiegend philosophisch, aber sie haben ihre vielen Änderungen in der Struktur \(sowohl auf Datenbank- als auch auf Dateiebene\), und wir werden versuchen, diese hier in Kürze abzudecken.
 
-An important note to conclude this short time-travel with, is that Chamilo LMS 1.10 and 1.11 came with additional critical new changes that greatly improved readability and reusability of the Chamilo system. Chamilo 2.0, currently under development, will bring some more changes mostly focused on extensibility.
+Ein wichtiger Hinweis zum Abschluss dieser kurzen Zeitreise ist, dass Chamilo LMS 1.10 und 1.11 mit zusätzlichen kritischen neuen Änderungen einhergingen, die die Lesbarkeit und Wiederverwendbarkeit des Chamilo-Systems erheblich verbesserten. `Chamilo 2.0`, das sich derzeit in der Entwicklung befindet, wird einige weitere Änderungen mit sich bringen, die sich hauptsächlich auf die Erweiterbarkeit konzentrieren.
 
-So, let's see what notable changes have happened in Chamilo over the years...
+Mal sehen, welche bemerkenswerten Veränderungen in Chamilo im Laufe der Jahre passiert sind...
 
 ## 2001-2003
 
-During this period, _Claroline_ starts as an aggregate of simple teacher tools and a relatively loose central core. The project developers earned our respect for drawing the first draft of what didn't exist in the free software world, using nothing but the PHP basis to build a cathedral, but they did a considerable amount of technical errors as well, which still have an impact on Chamilo today.
+Während dieser Zeit beginnt _Claroline_ als ein Aggregat von einfachen Lehrerwerkzeugen und einem relativ lockeren zentralen Kern. Die Projektentwickler verdienten sich unseren Respekt dafür, den ersten Entwurf dessen zu zeichnen, was in der Welt der Freien Software nicht existierte, indem sie nur die PHP-Basis nutzten, um eine Kathedrale zu bauen, aber sie haben auch eine beträchtliche Menge technischer Fehler gemacht, die sich noch heute auf Chamilo auswirken.
 
-### Separation of courses databases
+### Trennung von Kursdatenbanken
 
-Arguably the biggest mistake in the whole structure of the system was to separate the data of each course into its individual database.
+Der wohl größte Fehler in der gesamten Systemstruktur bestand darin, die Daten jedes Kurses in seine individuelle Datenbank zu trennen.
 
-This meant that, to have 20 active courses in your platform, you had to have 20 databases + 1 main database + 1 users database + 1 tracking database. And if you wanted more courses, you had to create more databases, forcing your MySQL user to have weird permissions on all databases with the same prefix, like so :
+Dies bedeutete, dass Sie, um 20 aktive Kurse auf Ihrer Plattform zu haben, 20 Datenbanken und 1 Hauptdatenbank+1 Benutzerdatenbank + 1 Tracking-Datenbank haben mussten. Und wenn Sie mehr Kurse wollten, mussten Sie mehr Datenbanken erstellen und Ihren MySQL-Benutzer dazu zwingen, seltsame Berechtigungen für alle Datenbanken mit demselben Präfix zu haben, wie folgt:
 
 ```text
 GRANT ALL PRIVILEGES ON `clarodb\_ %`.* to 'clarodb'@'localhost' identified by 'abcde' ;
 ```
 
-Where '%' means any character string.
+Wobei '%' eine beliebige Zeichenkette bedeutet.
 
-This had the direct impact that users wanting to install Claroline on a shared hosting services couldn't, because they had to get permissions on more than one database, which usually hosting services at this time didn't allow.
+Dies hatte die unmittelbaren Auswirkungen, die Benutzer, die Claroline auf einem Shared Hosting-Dienst installieren wollten, dies nicht konnten, da sie Berechtigungen für mehr als eine Datenbank erhalten mussten, die das Hosting von Diensten zu diesem Zeitpunkt normalerweise nicht erlaubte.
 
-An attempt at mildly reducing the impact of this measure made things even worst, as the idea went from having one database per course \(with ~50 tables each\) to having one single database but maintaining the prefix system \(this time for tables\), which caused a 20-courses platform to actually require one database with 1,000 tables. You then had a clarodb\_course1\_document, a clarodb\_course2\_document, etc just to manage the documents tool for all courses.
+Ein Versuch, die Auswirkungen dieser Maßnahme leicht zu reduzieren, machte die Dinge noch am schlimmsten, da die Idee von einer Datenbank pro Kurs \(mit jeweils ~ 50 Tabellen\) zu einer einzigen Datenbank ging, aber das Präfixsystem beibehielt \(diesmal für Tabellen\), was dazu führte, dass eine 20-Kurse-Plattform tatsächlich eine -Datenbank mit 1.000 Tabellen. Sie hatten dann einen clarodb\_course1\_document, einen clarodb\_course2\_document usw., um nur das Dokumententool für alle Kurse zu verwalten.
 
-### Separation of responsibilities : one developer per tool
+### Aufgabentrennung: Ein Entwickler pro Tool
 
-Somehow, this is not as much of a design mistake than an open-contributions-with-limited-management problem. The problem was that, after a few years of development, each tool had developed a different standard. The coding conventions were not respected strictly enough, no template was provided to develop new tools, and the dropbox tool ended up being completely different in code styling and name conventions than the documents tool, for example.
+Irgendwie ist dies nicht so ein Designfehler als ein Problem mit offenen Beiträgen mit eingeschränktem Management. Das Problem bestand darin, dass jedes Tool nach einigen Jahren der Entwicklung einen anderen Standard entwickelt hatte. Die Codierungskonventionen wurden nicht genau genug eingehalten, es wurde keine Vorlage für die Entwicklung neuer Tools bereitgestellt, und das Dropbox-Tool war in der Code-Styling und in den Namenskonventionen völlig anders als beispielsweise das Dokumententool.
 
-This had dramatic consequences, which were somehow found later, in _Dokeos_, as well : security flaws were found in one tool for a feature that was pretty similar to another, unflawed, feature in another tool.
+Dies hatte dramatische Konsequenzen, die später auch in _Dokeos_ gefunden wurden: Sicherheitslücken wurden in einem Tool für ein Feature gefunden, das einem anderen, nicht fehlerhaften Feature in einem anderen Tool ziemlich ähnlich war.
 
-Furthermore, the development of separate tools in a relatively uncontrolled manner generate code replication. A lot of code was found in different tools at the same time, generating more work to maintain and less traceability of changes.
+Darüber hinaus generiert die Entwicklung separater Tools auf relativ unkontrollierte Weise Code-Replikation. Gleichzeitig wurde viel Code in verschiedenen Tools gefunden, was zu mehr Arbeit bei der Aufrechterhaltung und einer geringeren Rückverfolgbarkeit von Änderungen führte.
 
-### Course code as literal
+### Kurscode als wörtlich
 
-A final issue was the use of a literal \(string\) as a course identifier. This means that, for all joins between tables where the course is important, we have several searches on the course code, meaning we need expensive indexes in place to speed up the searches, while an integer would make things much faster.
+Ein letztes Problem war die Verwendung eines Literals \(String\) als Kurs-ID. Dies bedeutet, dass wir für alle Joins zwischen Tabellen, bei denen der Kurs wichtig ist, mehrere Suchanfragen im Kurscode haben, was bedeutet, dass wir teure Indizes benötigen, um die Suche zu beschleunigen, während eine Ganzzahl die Dinge viel schneller machen würde.
 
-It also reduces portability a little, as querying a string comes with uppercase vs lowercase issues as well as escaping characters \(' vs " vs integer\) which are not always similar between different database systems.
+Es reduziert auch die Portabilität ein wenig, da das Abfragen einer Zeichenfolge mit Großbuchstaben und Kleinbuchstaben sowie das Entstehen von Zeichen \('vs\“ vs integer\) einhergeht, die zwischen verschiedenen Datenbanksystemen nicht immer ähnlich sind.
 
-To date, in 2017 \(16 years later\) we still didn't get rid of this issue completely as some tables \(very few actually, mostly gradebook stuff\) still make use of the litteral course code. This will be \(finally\) completely gone in Chamilo 2.0.
+Bis heute haben wir 2017 \(16 Jahre später\) dieses Problem immer noch nicht vollständig beseitigt, da einige Tabellen \(nur sehr wenige, meist Bewertungsbericht\) immer noch den Code für den litteralen Kurscode verwenden. Dies wird in `Chamilo 2.0` (endlich\) komplett verschwunden sein.
 
-### Multiple writeable folders
+### Mehrere beschreibbare Ordner
 
-An issue starting to appear right before 2004, and after that, was the multiplication of writeable folders. A writeable folder is a folder to which the web server requires write access in order to provide the complete features of Chamilo. Having several folders like this implies changing permissions **and** watching for security attacks in all of these, as well as taking backups of only part of these, etc. In short : a series of complications for such a small interest point for final users.
+Ein Problem, das kurz vor 2004 auftauchte, war danach die Multiplikation beschreibbarer Ordner. Ein beschreibbarer Ordner ist ein Ordner, auf den der Webserver Schreibzugriff benötigt, um die vollständigen Funktionen von Chamilo bereitzustellen. Wenn Sie mehrere Ordner wie diesen haben, müssen Sie die Berechtigungen ändern, **und** auf Sicherheitsangriffe bei all diesen Attachten achten, sowie Backups von nur einem Teil davon usw. Kurz gesagt: eine Reihe von Komplikationen für einen so kleinen Interessenpunkt für Endbenutzer.
 
-In 1.11.x, this has been significantly improved by moving _most_ of these writeable directories into the _app/_ folder. However, a few additional "optional" directories remain, like _web/css/_ and _main/lang/_ \(and in some cases some plugin folders\). A list of these folders can be found in the _documentation/security.html_ file in any Chamilo installation.
+In 1.11.x wurde dies erheblich verbessert, indem _most_ dieser beschreibbaren Verzeichnisse in den _app/_ -Ordner verschoben wurde. Es bleiben jedoch einige zusätzliche "optional" -Verzeichnisse übrig, wie _web/css/_ und _main/lang/_ \(und in einigen Fällen einige Plugin-Ordner\). Eine Liste dieser Ordner finden Sie in der _documentation/security.html_ -Datei in jeder Chamilo-Installation.
 
 ## 2004-2010
 
-The split between Claroline and Dokeos could have been handled in a smarter way, to say the least. The main issue here was that the separation did not separate the development team \(the Claroline team remained while a new team was created for Dokeos\). It mainly was a management split.
+Die Spaltung zwischen Claroline und Dokeos hätte gelinde gesagt intelligenter bewältigen können. Das Hauptproblem hier war, dass die Trennung das Entwicklungsteam nicht trennte \(das Claroline-Team blieb bestehen, während ein neues Team für Dokeos gegründet wurde\). Es war hauptsächlich ein Management-Split.
 
-This meant that Dokeos, while being a great innovative view of how an e-learning platform could also help the business world, did not maintain its technical lineage and lost a lot of know-how in the process. The separation was rather brutal as well \(with very little preventing a legal battle\), so communication with the previous technical team was not really welcome, and the new developers starting to work on Dokeos had to fill the gaps as well as possible, with a market that was clearly different and a lot of technical changes to be done.
+Dies bedeutete, dass Dokeos, obwohl es eine großartige innovative Sicht darauf war, wie eine E-Learning-Plattform auch der Geschäftswelt helfen könnte, ihre technische Linie nicht aufrechterhielt und dabei viel Know-how verlor. Die Trennung war auch ziemlich brutal \(mit sehr wenig, um einen legalen Kampf zu verhindern\), so dass die Kommunikation mit dem vorherigen technischen Team nicht wirklich willkommen war, und die neuen Entwickler, die mit der Arbeit an Dokeos zu arbeiten, mussten die Lücken so gut wie möglich schließen, mit einem Markt, der eindeutig anders war und viele durchzulegige technische Änderungen.
 
-Nevertheless, the Dokeos team maintained, improved and extended the software in an impressive way. But the structure issues from Claroline were maintained, never reaching a point with sufficient \(economical\) ressources to fix the flaws, but working slowly on getting them fixed progressively.
+Trotzdem pflegte, verbesserte und erweiterte das Doku-Team die Software auf beeindruckende Weise. Die Strukturprobleme von Claroline wurden jedoch beibehalten, erreichten nie einen Punkt mit ausreichenden \(wirtschaftlichen\) Ressourcen, um die Fehler zu beheben, sondern langsam daran zu arbeiten, sie schrittweise zu beheben.
 
-### Tracking for learning paths
+### Tracking für Lernpfade
 
-One mistake increased the damage a little, though, and was mostly due to a lack of experience of the original author of this guide \(i.e. me\): the tracking for the learning path tool \(completely re-written in Dokeos to support SCORM 1.2\) was stored inside the main database \(which is alright thinking in the long-term of bringing all data under the same database, but not in comparison with all other tracking tables\), provoking some confusion within the developers team as all other tracking ressources are generally located in tables prefixed with _track\_e\__. This is still a bit confusing today, as `lp_view` and `lp_item_view` tables contain user tracking information, but it will remain like that until a proper renaming and re-structuring of the tracking tables can be executed without risking our users' data.
+Ein Fehler erhöhte den Schaden jedoch ein wenig und war hauptsächlich auf mangelnde Erfahrung des ursprünglichen Autors dieses Handbuchs zurückzuführen \(dh ich\): Die Nachverfolgung des Lernpfad-Tools\ \(komplett in Dokeos zur Unterstützung von SCORM 1.2 neu geschrieben) wurde in der Hauptdatenbank gespeichert \(was in der langfristig alle Daten unter dieselbe Datenbank zu bringen, aber nicht im Vergleich zu allen anderen Tracking-Tabellen\), was zu Verwirrung innerhalb des Entwicklerteams führt, da sich alle anderen Tracking-Ressourcen im Allgemeinen in Tabellen befinden, denen _track\_e\__ vorangestellt ist. Dies ist heute noch etwas verwirrend, da `lp_view` - und `lp_item_view` -Tabellen Benutzer-Tracking-Informationen enthalten, aber es wird so bleiben, bis eine ordnungsgemäße Umbenennung und Neustrukturierung der Tracking-Tabellen ausgeführt werden kann, ohne die Daten unserer Benutzer zu riskieren.
 
-Some tracking is also kept in gradebook and student\_publication tables.
+Einige Nachverfolgungen werden auch in den Gradebuch- und den Tabellen student\_publication aufbewahrt.
 
-### The item\_property table
+### Die Tabelle item\_property
 
-Another mistake, which we're not clear whether it was already present in Claroline or appeared in the very early stages of Dokeos, is that there is an item\_property tool which holds some item properties \(as the name suggests\) but **also** stores time information of when these properties have changed.
+Ein weiterer Fehler, den wir nicht wissen, ob es bereits in Claroline vorhanden war oder in den sehr frühen Stadien von Dokeos auftrat, ist, dass es auch einen item\_property gibtl das einige Elementeigenschaften enthält \(wie der Name schon sagt\), aber **auch** speichert Zeitinformationen darüber, wann sich diese Eigenschaften geändert haben.
 
-The practicality of this meant that some developers started using this table as a **tracking** table \(for reporting of who deleted or created this or that\), which meant that we also started keeping stale \(old\) data of objects already deleted there which, in turn, meant that this table kept growing and growing until it became clogged with data that is very hard to parse.
+Die Praktikabilität bedeutete, dass einige Entwickler begannen, diese Tabelle als Tabelle zu verwenden (für die Meldung, wer dies oder jenes gelöscht oder erstellt hat\), was bedeutete, dass wir auch alte \(alte\) Daten von Objekten beibehalten, die dort bereits gelöscht wurden, was wiederum bedeutete, dass diese Tabelle weiter wächst und wächst bis es mit Daten verstopft ist, die sehr schwer zu analysieren sind.
 
-At the moment, for example, it might be necessary to go through all records for a specific item to know what its current visibility is, which requires a lot of unnecessary resources to execute.
+Im Moment kann es beispielsweise erforderlich sein, alle Datensätze für ein bestimmtes Element durchzugehen, um zu wissen, wie hoch seine aktuelle Sichtbarkeit ist, was viele unnötige Ressourcen erfordert, um sie auszuführen.
 
-Furthermore, the item\_property table keeps a reference to object of many other tables. And this reference is using a literal tool code as a discriminator instead of an integer number, which has further performance impact.
+Darüber hinaus enthält die Tabelle item\_property einen Verweis auf das Objekt vieler anderer Tabellen. Und diese Referenz verwendet einen wörtlichen Werkzeugcode als Diskriminator anstelle einer Ganzzahl, was weitere Auswirkungen auf die Leistung hat.
 
 ## 2010-2014
 
-### Single database and InnoDB
+### Einzelne Datenbank und InnoDB
 
-At the very beginning of the Chamilo project, a major labour was undertaken to get rid of the multiple-databases issue.
+Zu Beginn des Chamilo-Projekts wurde eine wichtige Arbeit unternommen, um das Problem mit mehreren Datenbanken zu beseitigen.
 
-The first stable version to come with a single database was version 1.9.0, released in 2012. It came shipped with a fully-automated upgrade process from earlier versions, which changes the database structure from multiple-databases to a single database on-the-fly and leaves you with an upgraded and much more efficient.
+Die erste stabile Version, die mit einer einzigen Datenbank geliefert wurde, war Version `1.9.0`, die 2012 veröffentlicht wurde. Es wurde mit einem vollautomatisierten Upgrade-Prozess aus früheren Versionen ausgeliefert, der die Datenbankstruktur von mehreren Datenbanken zu einer einzigen Datenbank im laufenden Betrieb ändert und Ihnen ein Upgrade und viel effizienter macht.
 
-This issue was now completely solved as of Chamilo 1.9.4, as the little remaining details were progressively fixed in the versions following directly 1.9.0.
+Dieses Problem wurde nun ab `Chamilo 1.9.4` vollständig gelöst, da die kleinen verbleibenden Details in den direkt `1.9.0` folgenden Versionen schrittweise behoben wurden.
 
-However, the change to a single database was made with little performance details to be improved. For example, the \(relatively quick\) mixing of several tables implied the discrimination of elements through a course code or a course ID combined with the original element ID, instead of redefining a new global ID.
+Die Änderung an einer einzelnen Datenbank wurde jedoch mit wenig Leistungsdetails vorgenommen, die verbessert werden sollten. Zum Beispiel implizierte das \(relativ schnelle\) Mischen mehrerer Tabellen die Unterscheidung von Elementen durch einen Kurscode oder eine Kurs-ID in Kombination mit der ursprünglichen Element-ID, anstatt eine neue globale ID neu zu definieren.
 
-For example, for an `id` field in the `document` table in database `chamilodb_course1`, we now have \(whenever a global ID has not been set yet\) a `c_id` **and** an `id` field in the `c_document` table in the single `chamilodb` database. Or to put it in SQL terms, two queries like these :
+Für ein `id` -Feld in der Tabelle `document` in der Datenbank `chamilodb_course1` haben wir jetzt \(wenn eine globale ID noch nicht festgelegt wurde\) ein `c_id` **und** ein Feld **und** in der Tabelle `c_document` in der Tabelle in der einzelnen `chamilodb` Datenbank. `id` Oder um es in SQL auszudrücken, zwei Abfragen wie diese:
 
 ```text
 select * from chamilodb_course1.document where id = 5;
 select * from chamilodb_course2.document where id = 5;
 ```
 
-Now become:
+Jetzt werden Sie:
 
 ```text
 select * from chamilodb.c_document where id = 5 and c_id = 1;
 select * from chamilodb.c_document where id = 5 and c_id = 2;
 ```
 
-As such, the primary key for table `c_document` is not `id` anymore, but rather a combination of `c_id+id`, which prevented the tables still using this structure to use the InnoDB engine in MySQL, which prevented further database efficiency improvements.
+Daher ist der Primärschlüssel für Tabelle `c_document` nicht mehr `id`, sondern eine Kombination von `c_id+id`, die verhinderte, dass die Tabellen, die diese Struktur noch verwenden, um die InnoDB-Engine in MySQL zu verwenden, was weitere Verbesserungen der Datenbankeffizienz verhinderte.
 
-Fixing these meant adding an additional, global, ID that is worth for all courses combined, which has been implementeded for all tables in version 1.10 of Chamilo LMS, released in 2015. However, the `cid+id` fields were maintained to guarantee maximum stability for a while. These are still present in Chamilo 1.11, but are scheduled for removal in 2.0 \(the `id` field, not necessarily the `c_id` field\).
+Die Behebung dieser bedeutete das Hinzufügen einer zusätzlichen globalen ID, die für alle Kurse zusammen wert ist und für alle Tabellen in Version 1.10 von Chamilo LMS implementiert wurde, die 2015 veröffentlicht wurden. Die `cid+id` -Felder wurden jedoch beibehalten, um für eine Weile maximale Stabilität zu gewährleisten. Diese sind immer noch in `Chamilo 1.11` vorhanden, werden aber in `2.0` entfernt werden (das Feld `id`, nicht unbedingt das `c_id` -Feld\).
 
-Once this step is completed, Chamilo will be completely optimized for very high load portals. In the meantime, handling thousands of transactions per second on several database servers in a load balanced infrastructure should be done with care, possibly using only a few tools \(like the exercises tool in Chamilo 1.11, which has already been implemented in such a structure in production\).
+Sobald dieser Schritt abgeschlossen ist, wird Chamilo vollständig für Portale mit sehr hoher Auslastung optimiert. In der Zwischenzeit sollte die Abwicklung von Tausenden von Transaktionen pro Sekunde auf mehreren Datenbankservern in einer Infrastruktur mit Lastenausgleich mit Vorsicht erfolgen, möglicherweise mit nur wenigen Tools \(wie das Übungs-Tool in Chamilo 1.11, das bereits in einer solchen Struktur in der Produktion implementiert wurde\).
 
-### Multiple databases layer
+### Layer für mehrere Datenbanken
 
-Considerable efforts have been executed on centralizing all SQL and making sure we could move more easily to other database server management systems \(PostgreSQL, Oracle, etc\). At the time of 1.11.0, this work was not yet complete, but is reaching completion slowly \(but surely\) and we hope to have a first version available in 3.0 \(not 2.0 as initially planned as this has become a lower priority with time with Oracle being the owner of MySQL and MariaDB launching on its own\).
+Es wurden beträchtliche Anstrengungen unternommen, um alle SQL-Anweisungen zu zentralisieren und sicherzustellen, dass wir leichter zu anderen Datenbankserver-Managementsystemen wechseln konnten \(PostgreSQL, Oracle, etc\). Zum Zeitpunkt von `1.11.0` war diese Arbeit noch nicht abgeschlossen, wird aber langsam abgeschlossen \(aber sicherlich\) und wir hoffen, dass eine erste Version in 3.0 verfügbar ist \(nicht `2.0`, wie ursprünglich geplant, da dies eine niedrigere Priorität geworden ist, wobei Oracle der Eigentümer von MySQL und MariaDB ist, das eigenständig startet\).
 
-However, a series of queries are still located in different Chamilo scripts, which prevent us from making sure it's completely portable without reviewing all of them.
+Eine Reihe von Abfragen befindet sich jedoch immer noch in verschiedenen Chamilo-Skripten, die uns daran hindern, sicherzustellen, dass sie vollständig portabel sind, ohne sie alle zu überprüfen.
 
-When developing inside Chamilo now, try using the entities \(and their ORM relationship\) put at your disposal for all new queries. Check the select\(\) and update\(\) functions on these entities in `src/Chamilo/*/Entity/`.
+Wenn Sie jetzt innerhalb von Chamilo entwickeln, versuchen Sie es mit den Entitäten \(und ihrem ORM relationship\) steht Ihnen für alle neuen Anfragen zur Verfügung. Überprüfen Sie die Funktionen select\(\) und update\(\) für diese Entitäten in `src/Chamilo/*/Entity/`.
 
-### Packaging for inclusion in other software
+### Verpackung zur Aufnahme in andere Software
 
-Considerable efforts of re-structuring have been made and are still being made to improve the structure of Chamilo files in view of integrating it into other software, such as Linux distributions like Debian and others.
+Es wurden beträchtliche Anstrengungen zur Umstrukturierung unternommen, um die Struktur der Chamilo-Dateien zu verbessern, um sie in andere Software wie Linux-Distributionen wie Debian und andere zu integrieren.
 
-To do this, one important issue was the multiplication of directories with specific privileges, where the web server has to have different privileges than for other directories. For example, the `app/upload/users/` folder is where the users pictures go, while the `main/default_course_documents/images/` folder has default files for courses but at the same time needs to accept new default files \(and as such requires write access for the web server\).
+Um dies zu erreichen, war ein wichtiges Problem die Multiplikation von Verzeichnissen mit bestimmten Rechten, bei denen der Webserver andere Privilegien haben muss als für andere Verzeichnisse. Zum Beispiel ist der Ordner `app/upload/users/` der Ort, an den die Benutzerbilder gehen, während der `main/default_course_documents/images/` -Ordner Standarddateien für Kurse hat, aber gleichzeitig neue Standarddateien akzeptieren muss \(und erfordert daher Schreibzugriff für den Webserver\).
 
-In both Claroline and Dokeos, these particular directories increased in number, and you now had to authorize writing for the web server in around 9 folders in total to get all the features of Chamilo.
+Sowohl in Claroline als auch in Dokeos nahmen die Anzahl dieser Verzeichnisse zu, und Sie mussten jetzt das Schreiben für den Webserver in insgesamt etwa 9 Ordnern autorisieren, um alle Funktionen von Chamilo zu erhalten.
 
-This has been fixed in 1.10 by unifying many under the `app/` directory and its subdirectories \(for all data related to courses and users\).
+Dies wurde in 1.10 behoben, indem viele unter dem `app/` -Verzeichnis und seinen Unterverzeichnissen \(für alle Daten im Zusammenhang mit Kursen und Benutzern vereinheitlicht wurden\).
 
-As such, the `app/` folder must be included in all system backups. The rest of the Chamilo application should remain stable inside the other folders.
-
+Daher muss der `app/` -Ordner in allen Systemsicherungen enthalten sein. Der Rest der Chamilo-Anwendung sollte in den anderen Ordnern stabil bleiben.

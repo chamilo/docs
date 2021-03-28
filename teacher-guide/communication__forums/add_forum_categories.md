@@ -1,11 +1,10 @@
-# Add forum categories
+# Fügen Sie Forenkategorien
 
-In the _Forum_ tool:
+Im Tool _Forum_:
 
-* click the _New category_ link,
-* give it a name,
-* add a comment if needed,
-* click _Create category._
+* klicken Sie auf den Link _Neue Kategorie_
+* gib ihm einen Namen,
+* fügen Sie bei Bedarf einen Kommentar hinzu,
+* klicken Sie auf _Kategorie erstellen._
 
-![](../../.gitbook/assets/graphics3.png)_Illustration 69: Forum – New category_
-
+![](../../.gitbook/assets/graphics3.png)_Illustration 69: Forum — Neue Kategorie_

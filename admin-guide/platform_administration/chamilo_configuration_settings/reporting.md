@@ -1,4 +1,3 @@
-# Reporting
+# Berichterstattung
 
-![](../../../.gitbook/assets/images19%20%289%29.png)This category offers only two options, oriented more towards “Analytics” than “Reporting”. You can use these options to add an extra header or an extra footer to your page. These will allow you to set the Google Analytics tag, for example.
-
+![](../../../.gitbook/assets/images19%20%289%29.png)This category bietet nur zwei Optionen, die mehr auf “Analytics” als auf als auf “Reporting” ausgerichtet sind. Sie können diese Optionen verwenden, um Ihrer Seite eine zusätzliche Kopfzeile oder eine zusätzliche Fußzeile hinzuzufügen. Auf diese Weise können Sie beispielsweise das Google Analytics-Tag festlegen.

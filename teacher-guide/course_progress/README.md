@@ -1,10 +1,9 @@
-# Course progress
+# Kursfortschritt
 
-The _Course progress_ tool ![](../../.gitbook/assets/graphics251.png) \(or perhaps _Course diary_ - the name of this tool is still under consideration\) allows the teacher to build a course program to be shown \(optionally\) on the course homepage to include a progress status relative to the current teachers and learners' progress in the scheduled topic preparation.
+Das Tool _Course Progress_ ![](../../.gitbook/assets/graphics251.png) \(oder vielleicht _Course Diary_ - der Name dieses Tools wird noch in Betracht gezogen\) ermöglicht es dem Lehrer, ein Kursprogramm zu erstellen, das \(optional\) auf der Kursseite angezeigt wird, um einen Fortschrittsstatus im Vergleich zu den aktuellen Lehrern und Lernenden aufzunehmen geplante Themenvorbereitung
 
-![](../../.gitbook/assets/graphics256.png)_Illustration 135: Course progress – Learner view_
+![](../../.gitbook/assets/graphics256.png)_Illustration 135: Kursfortschritt — Ansicht der Lernen_
 
-This tool is only useful in the case of “synchronous” courses, in which the teacher and the learners progress through the course concurrently. Configuring _Course progress_ is quite easy, although quite a lengthy process.
+Dieses Tool ist nur bei “synchronous” -Kursen nützlich, bei denen der Lehrer und die Lernenden gleichzeitig den Kurs durchlaufen. Die Konfiguration von _Course Progress_ ist ziemlich einfach, obwohl dies ein ziemlich langwieriger Prozess ist.
 
-![](../../.gitbook/assets/graphics258.png)_Illustration 136: Course progress – Teacher view_
-
+![](../../.gitbook/assets/graphics258.png)_Illustration 136: Kursfortschritt — Lehrer-Ansicht

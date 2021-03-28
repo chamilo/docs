@@ -1,6 +1,5 @@
-# Course reporting
+# Kurs-Berichte
 
-Clicking on the _course report_ icon ![](../../.gitbook/assets/graphics187%20%283%29.png) on the Reporting page provides global information about the
+Ein Klick auf das Icon _course Report_ ![](../../.gitbook/assets/graphics187%20%283%29.png) auf der Berichtsseite bietet globale Informationen über die
 
-course as a whole that the teacher can use in evaluating or developing the course. This includes information such as general progress through learning paths, overall test scores, participation in forum and chats, tools used, documents downloaded and links visited. As with other reporting pages, information can be readily exported as csv files or printed by clicking the relevant tool bar icons.
-
+Kurs als Ganzes, den der Lehrer bei der Evaluierung oder Entwicklung des Kurses verwenden kann. Dazu gehören Informationen wie allgemeiner Fortschritt durch Lernpfade, allgemeine Testergebnisse, Teilnahme an Foren und Chats, verwendete Tools, heruntergeladene Dokumente und besuchte Links. Wie bei anderen Berichtsseiten können Informationen problemlos als CSV-Dateien exportiert oder gedruckt werden, indem Sie auf die entsprechenden Symbolleistensymbole klicken.

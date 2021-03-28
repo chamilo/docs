@@ -1,12 +1,11 @@
 # Chat
 
-The _Chat_ tool ![](../../.gitbook/assets/graphics374.png) is an instant messaging tool which allows users in a course to exchange ideas, questions and answers in “live”, written conversation.
+Das _Chat_-Tool ![](../../.gitbook/assets/graphics374.png) ist ein Instant-Messaging-Tool, mit dem Benutzer in einem Kurs Ideen, Fragen und Antworten in “live”, schriftlichen Konversationen, austauschen können.
 
-While it may seem rather slow \(three seconds per post\) and limited in features to todays online users, the big advantage of this tool compared to e.g. _Skype, Facebook_ chat tools is it works as part of the platform and, as such, does not require any external tool, being guaranteed to work on all computers with the capability to use Chamilo.
+Während es für heutige Online-Benutzer ziemlich langsam erscheinen mag \(drei Sekunden pro Beitrag\) und die Funktionen für die heutigen Online-Benutzer eingeschränkt erscheinen mag, ist der große Vorteil dieses Tools im Vergleich zu Skype, Facebook_-Chat-Tools, dass es als Teil der Plattform funktioniert und als solches kein externes Tool erfordert, das garantiert auf allen Computern mit die Fähigkeit, Chamilo zu nutzen.
 
 ![](../../.gitbook/assets/graphics280.png)
 
-_Illustration 153: The chat window_
+_Illustration 153: Das Chat-Fenster_
 
-If users have configured their picture in the _Social network_ \(or _Profile_\) tab, it will appear next to their name. It's up to the teacher to delete previous messages when he considers it necessary.
-
+Wenn Benutzer ihr Bild auf der Registerkarte _Social Network_ \(oder _Profile_\) konfiguriert haben, wird es neben ihrem Namen angezeigt. Es liegt an dem Lehrer, frühere Nachrichten zu löschen, wenn er dies für notwendig hält.

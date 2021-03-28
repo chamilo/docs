@@ -1,12 +1,12 @@
-# Chamilo configuration settings
+# Chamilo Konfigurationseinstellungen
 
-These settings join several categories, shown in the following illustration.
+Diese Einstellungen verbinden sich mit mehreren Kategorien, wie in der folgenden Abbildung dargestellt.
 
-![](../../../.gitbook/assets/images17%20%287%29.png)Illustration 30: Administration – Portal settings categories
+![](../../../.gitbook/assets/images17%20%287%29.png)
+Illustration 30: Administration — Kategorien der Portaleinstellungen
 
-Chamilo offers a default configuration, which is not necessarily the one you would prefer. Even if all options are worth being explained, as an admin should know his environment perfectly, we're only going to see here the ones we consider the most important or more likely to be changed in comparison with the default settings. You can always find a complete list of settings in the Appendix on page 91.
+Chamilo bietet eine Standardkonfiguration, die Sie nicht unbedingt bevorzugen würden. Selbst wenn alle Optionen es wert sind, erklärt zu werden, da ein Administrator seine Umgebung perfekt kennen sollte, werden wir hier nur diejenigen sehen, die wir im Vergleich zu den Standardeinstellungen als am wichtigsten oder wahrscheinlicher für Änderungen halten. Eine vollständige Liste der Einstellungen finden Sie immer im Anhang auf Seite 91.
 
-Due to the number of settings now available to reconfigure your Chamilo portal, the Chamilo team built a nice and easy search feature. If you don't know where the option is, just search one related word and Chamilo will filter all the corresponding options for you!
+Aufgrund der Anzahl der Einstellungen, die jetzt verfügbar sind, um Ihr Chamilo-Portal neu zu konfigurieren, hat das Chamilo-Team eine nette und einfache Suchfunktion entwickelt. Wenn Sie nicht wissen, wo die Option ist, suchen Sie einfach nach einem verwandten Wort und Chamilo filtert alle entsprechenden Optionen für Sie!
 
-The three links: _Configuration settings, Plugins_ and _Regions_ are actually direct links to different sections of the configuration settings, so they won't be explained separately.
-
+Die drei Links: _Configuration settings, Plugins_ und _Regions_ sind eigentlich direkte Links zu verschiedenen Abschnitten der Konfigurationseinstellungen, daher werden sie nicht separat erklärt.

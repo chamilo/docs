@@ -1,15 +1,14 @@
-# Assignment expiry dates
+# Mindesthaltbarkeitsdatum der Zu
 
-Chamilo offers two time-based options for the assignments:
+Chamilo bietet zwei zeitbasierte Optionen für die Zuweisungen:
 
-* a “handing over” deadline: the date past which all assignments sent by the learners to the platform are marked as expired in red in the list of assignments. Past this date, assignments can still be sent, but they are marked to indicate late delivery.
-* a “final acceptance” date: this is the date past which it becomes impossible for the learners to send an assignment . It is the definitive date after which the teacher will not consider any more work sent.
+* eine “handing over” -Frist: das Datum, nach dem alle von den Teilnehmern an die Plattform gesendeten Aufgaben in der Aufgabenliste als rot markiert sind. Nach diesem Datum können Aufgaben weiterhin gesendet werden, sie sind jedoch markiert, um eine verspätete Lieferung anzugeben.
+* ein “final acceptance” Datum: Dies ist das Datum, an dem die Lernenden nicht mehr eine Aufgabe senden können. Es ist das endgültige Datum, nach dem der Lehrer keine weitere gesendete Arbeit in Betracht zieht.
 
-To configure these, check the relevant boxes in the _advanced settings_ of the _Create assignment_ page.
+Um diese zu konfigurieren, markieren Sie die entsprechenden Kästchen in den _erweiterten Einstellungen_ auf der Seite _Zuweisung erstellen.
 
 ![](../../.gitbook/assets/graphics72%20%283%29.png)
 
 ![](../../.gitbook/assets/graphics368%20%281%29.png)
 
-Illustration 97: Assignments – setting expiry dates
-
+Abbildung 97: Zuweisungen — Festlegen von Verfallsdaten

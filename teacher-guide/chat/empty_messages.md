@@ -1,8 +1,7 @@
-# Empty messages
+# Leere Nachrichten
 
-You can disconnect from the platform and still have access to previous messages, providing your reconnect the same day.
+Sie können die Verbindung zur Plattform trennen und haben weiterhin Zugriff auf frühere Nachrichten, sofern Sie am selben Tag wieder verbinden.
 
-To delete a conversation before starting a new one, click the \_Clear the chat\_link.
+Um eine Konversation zu löschen, bevor Sie eine neue beginnen, klicken Sie auf den Link\_Chat löschen\_.
 
-> **Note**: Chat history logs are normally saved inside the documents tool, in a hidden folder called _Chat history._ Clearing the chat will also delete the history of the chat for this whole date.
-
+> **Hinweis**: Chatverlaufsprotokolle werden normalerweise im Dokumententool in einem versteckten Ordner namens _Chat-Verlauf gespeichert._ Wenn Sie den Chat löschen, wird auch der Verlauf des Chats für dieses ganze Datum gelöscht.

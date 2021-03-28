@@ -1,22 +1,25 @@
-# Last installation settings
+# Letzte Installationseinstellungen
 
-Once Chamilo is installed, the success message also brings a short warning message
+Sobald Chamilo installiert ist, enthält die Erfolgsmeldung auch eine kurze Warnmeldung
 
-« **Security hint**: To protect your site, please change permissions on main/inc/conf/configuration.php and main/install/index.php \(not their directories\) to read-only \(CHMOD 444\). »
+« **Security hint**: To protect your site, please change permissions on `main/inc/conf/configuration.php` and `main/install/index.php` \(not their directories\) to read-only \(`chmod 444`\). »
 
-![](../../../.gitbook/assets/dernier-parametre%20%283%29.png)Illustration 11: Installation – Installation report
+![](../../../.gitbook/assets/dernier-parametre%20%283%29.png)
+Illustration 11: Installation — Installationsreport
 
-It is preferable, in fact, to remove the _main/install/_ directory completely \(the confirmation text is not really accurate about this\):
+Es ist in der Tat vorzuziehen, das _`main/install/`_-Verzeichnis vollständig zu entfernen \(der Bestätigungstext ist diesbezüglich nicht wirklich korrekt\):
 
-user@server:/var/www/chamilo$ sudo rm -rf main/install/
+```bash
+user@server: /var/www/chamilo$ sudo rm -rf main/install/
+```
 
-This will prevent anybody \(except the _root_ user\) to see this directory, and thus to use it.
+Dies wird verhindern, dass jemand \(außer dem _root_-Benutzer\) dieses Verzeichnis sieht und es somit benutzt.
 
-For the _configuration.php_ file, **0444** are the appropriate permissions to assign:
+Für die Datei _configuration.php_ sind **0444** die entsprechenden Berechtigungen zum Zuweisen:
 
+```bash
 user@server:/var/www/chamilo/$ cd main/inc/conf/
-
 user@server:/var/www/chamilo/main/inc/conf$ sudo chmod 0444 configuration.php
+```
 
-When this operation is completed, using Chamilo can begin safely clicking on the _Go to the newly created portal_ link.
-
+Wenn dieser Vorgang abgeschlossen ist, kann mit Chamilo sicher auf den Link _Go zu dem neu erstellten Portal_ Link klicken.

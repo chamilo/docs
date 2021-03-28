@@ -1,4 +1,3 @@
-# Use cases
+# Anwendungsfälle
 
-There are several cases where the sessions can be a real time saver... but the whole concepts floats around one big advantage: content recycling.
-
+Es gibt mehrere Fälle, in denen die Sitzungen eine echte Zeitersparnis sein können... aber die gesamten Konzepte schweben um einen großen Vorteil: das Recycling von Inhalten.

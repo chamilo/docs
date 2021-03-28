@@ -1,62 +1,70 @@
-# Saving a course
+# Einen Kurs speichern
 
-The platform administrator can save any course from \(among other methods\) the administrative interface.
+Der Plattformadministrator kann jeden Kurs von \(unter anderem aus der Verwaltungsoberfläche\) speichern.
 
-1. Go to : « Administration » → « Courses list » :
+1. Gehe zu: « Administration » → « Courses list »:
 
-![](../../../.gitbook/assets/images13%20%288%29.png)Illustration 18: Administration – Courses block
+![](../../../.gitbook/assets/images13%20%288%29.png)
+Illustration 18: Administration — Kursblock
 
-1. Click on the CD icon, for the course to export.
+1. Klicken Sie auf das CD-Symbol, damit der Kurs exportiert werden kann.
 
-![](../../../.gitbook/assets/graficos33%20%286%29.png)Illustration 19: Administration – Courses list – Backup
+![](../../../.gitbook/assets/graficos33%20%286%29.png)
+Illustration 19: Administration — Liste der Kurse — Backup
 
-1. Chamilo then suggests to « Generate a backup » or « Import backup information » from backup. Click on _Generate backup_.
+1. Chamilo schlägt dann vor, « Generate a backup » oder « Import backup information » von Backup zu erhalten. Klicken Sie auf _Backup generieren_.
 
-![](../../../.gitbook/assets/sauvegardecours_-backup%20%281%29.png)Illustration 20: Administration - Backup
+![](../../../.gitbook/assets/sauvegardecours_-backup%20%281%29.png)
+Illustration 20: Verwaltung - Backup
 
-1. You can choose between a complete backup and a specific selection \(depending on your needs\). Let's pick _Complete_ backup for the example.
+1. Sie können zwischen einem vollständigen Backup und einer bestimmten Auswahl wählen \(je nach Bedarf\). Lassen Sie uns für das Beispiel _Complete_ Backup auswählen.
 
-![](../../../.gitbook/assets/sauvegardegenerer_-backup%20%283%29.png)Illustration 21: Administration – Backup settings
+![](../../../.gitbook/assets/sauvegardegenerer_-backup%20%283%29.png)
+Illustration 21: Administration — Backup-Einstellungen
 
-1. The backup is generated and you just have to click the zip file button to download it.
+1. Das Backup wird generiert und Sie müssen nur auf die Schaltfläche Zip-Datei klicken, um es herunterzuladen.
 
-![](../../../.gitbook/assets/sauvegardebackup_-ok%20%283%29.png)Illustration 22: Administration – Backup, results of backup generation
+![](../../../.gitbook/assets/sauvegardebackup_-ok%20%283%29.png)
+Illustration 22: Administration — Backup, Ergebnisse der Backup-Generierung
 
-1. On clicking the _Generate backup_ button, Chamilo creates a backup file which, by default, ends up in its _chamilo/archive_ directory. You can thus recover it by direct access, but that means other people can also have access to it. This means, as an admin, that you should both have a regular process to clean this directory \(we offer one in the _main/cron_ directory but you have to execute it\) **and** that you should set your configuration \(through .htaccess or VirtualHost config\) to avoid direct navigation inside the _main/archive_ directory.
+1. Wenn Sie auf die Schaltfläche _Backup_ generieren klicken, erstellt Chamilo eine Sicherungsdatei, die standardmäßig in ihrem _chamilo/archive_ -Verzeichnis landet. Sie können es also durch direkten Zugriff wiederherstellen, aber das bedeutet, dass auch andere Personen Zugriff darauf haben können. Das bedeutet, dass Sie als Administrator beide einen regulären Prozess haben sollten, um dieses Verzeichnis zu bereinigen \(wir bieten eines im _main/cron_ -Verzeichnis an, aber Sie müssen es ausführen\) **und** dass Sie Ihre Konfiguration festlegen sollten \(über .htaccess oder VirtualHost-Konfiguration\), um eine direkte Navigation innerhalb des _main/archive_ zu vermeiden -Verzeichnis.
 
-There is also another way to generate backups...
+Es gibt auch eine andere Möglichkeit, Backups zu generieren...
 
-As admin or teacher, click on the _My courses_ tab, then on one of the courses available. Then it is possible to generate a backup pretty much the same way clicking on the _Maintenance_ tool.
+Klicken Sie als Administrator oder Lehrer auf den Tab „Meine Kurse“ und dann auf einen der verfügbaren Kurse. Dann ist es möglich, ein Backup auf die gleiche Weise zu erstellen, indem Sie auf das Tool _Maintenance_ klicken.
 
-![](../../../.gitbook/assets/administrationmaintenance%20%283%29.png)Illustration 23: Interface – Course administration tools
+![](../../../.gitbook/assets/administrationmaintenance%20%283%29.png)
+Illustration 23: Interface — Tools zur Kursverwaltung
 
-The interface is slightly different...
+Das Interface ist etwas anders...
 
-![](../../../.gitbook/assets/proprietemaintenance%20%283%29.png)Illustration 24: Interface – Course backup options
+![](../../../.gitbook/assets/proprietemaintenance%20%283%29.png)
+Illustration 24: Interface — Backup-Optionen für den Kurs
 
-With the course backup options, you can still execute three more functions:
+Mit den Backup-Optionen für den Kurs können Sie noch drei weitere Funktionen ausführen:
 
-* **Course copy** allows you to duplicate all or part of a course into another \(preferably empty\) course. The only required state before this is to have a first course with something to copy, and another course which doesn't contain the elements of the first one.
-* **Empty course** allows you to empty the whole contents of a course. Let's say you want to start a fresh course inside the same “shell” as the previous one... just click this link and all the resources previously created will be gone, with no chance to recover them. Obviously, before you do that, you might want to recover the course element through a _Course backup_ operation.
-* **Delete** allows you to delete the whole course, this also means removing its empty shell. A confirmation is required, but once it's removed, don't expect it to be available as a safe copy anywhere...
+* **Kurskopie** ermöglicht es Ihnen, einen Kurs ganz oder teilweise in einen anderen \(vorzugsweise leeren\) Kurs zu duplizieren. Der einzige erforderliche Zustand, bevor dies vorliegt, ist ein erster Kurs mit etwas zu kopieren und einen anderen Kurs, der nicht die Elemente des ersten enthält.
+* **Leerer Kurs** ermöglicht es Ihnen, den gesamten Inhalt eines Kurses zu leeren. Nehmen wir an, Sie möchten einen neuen Kurs innerhalb desselben “shell” wie den vorherigen starten... klicken Sie einfach auf diesen Link und alle zuvor erstellten Ressourcen sind weg, ohne die Möglichkeit, sie wiederherzustellen. Bevor Sie das tun, möchten Sie möglicherweise das Kurselement durch eine Backup- Operation von _Course wiederherstellen.
+* **Löschen** ermöglicht es Ihnen, den gesamten Kurs zu löschen, das bedeutet auch, seine leere Shell zu entfernen. Eine Bestätigung ist erforderlich, aber wenn sie entfernt ist, erwarten Sie nicht, dass sie irgendwo als sichere Kopie verfügbar ist...
 
-**Note** : when opening the backup's .zip file, you will find a close similarity with the _Documents_ tool documents hierarchy.
+**Hinweis**: Wenn Sie die ZIP-Datei des Backups öffnen, werden Sie eine enge Ähnlichkeit mit der Dokumentenhierarchie des Tools _Documents_ feststellen.
 
-For your information, the default .zip file for a course initially created with example content weighs around 8.9MB.
+Zu Ihrer Information wiegt die Standarddatei .zip für einen Kurs, der ursprünglich mit Beispielinhalt erstellt wurde, etwa 8,9 MB.
 
-It contains :
+Es enthält:
 
-* one internal structure file named course\_info.dat
-* one directory called _Document_
-* a series of files and folders containing the course documents, anything not linked to the users \(assignments and other stuff user-related are not saved\)
+* eine interne Strukturdatei mit dem Namen Kurs\_info.dat
+* ein Verzeichnis namens _Document_
+* eine Reihe von Dateien und Ordnern, die die Kursdokumente enthalten, alles, was nicht mit den Benutzern verknüpft ist \(Aufgaben und andere Dinge, die vom Benutzer zusammenhängen, werden nicht gespeichert\)
 
-The _Document_ directory has a structure similar to the one presented in illustration 25, which reproduces the documents tool structure as shown in illustration 26.
+Das _Document_-Verzeichnis hat eine ähnliche Struktur wie in Abbildung 25, die die Struktur des Dokument-Tools wiedergibt, wie in Abbildung 26 gezeigt.
 
-![](../../../.gitbook/assets/structuredoc%20%283%29.png)Illustration 25: Backup – Backup files structure
+![](../../../.gitbook/assets/structuredoc%20%283%29.png)
+Illustration 25: Backup — Struktur der Sicherungsdateien
 
-![](../../../.gitbook/assets/graficos34%20%286%29.png)Illustration 26: Interface – Documents list
+![](../../../.gitbook/assets/graficos34%20%286%29.png)
+Illustration 26: Interface — Dokumentenliste
 
-These documents are the default contents of the course.
+Diese Dokumente sind der Standardinhalt des Kurses.
 
-Furthermore, the backup will only recover documents \(images, videos, etc.\) related to the course.
-
+Darüber hinaus werden durch das Backup nur Dokumente \(Bilder, Videos usw.\) wiederhergestellt, die sich auf den Kurs beziehen.

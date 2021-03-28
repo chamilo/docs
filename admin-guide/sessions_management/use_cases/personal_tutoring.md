@@ -1,8 +1,7 @@
-# Personal tutoring
+# Persönliche Nachhilfe
 
-Let's say you work in a private college and most students have a right to personal tutoring. They can follow pre-recorded audio courses at their pace and have an assigned tutor which is available to them at any pre-agreed time.
+Nehmen wir an, Sie arbeiten an einem privaten College und die meisten Studenten haben ein Recht auf Nachhilfe. Sie können in ihrem Tempo aufgezeichnete Audiokurse absolvieren und haben einen zugewiesenen Tutor, der ihnen zu jedem vorher vereinbarten Zeitpunkt zur Verfügung steht.
 
-Without sessions, you would have one course sharing several tutors and several students, and each tutor would share the “space” with others and would see the results of students he isn't in charge of. Worst, he could even modify the results of a students he isn't in charge of...
+Ohne Sitzungen hätten Sie einen Kurs mit mehreren Tutoren und mehreren Schülern, und jeder Tutor würde den “space” mit anderen teilen und die Ergebnisse von Studenten sehen, für die er nicht verantwortlich ist. Am schlimmsten ist, er könnte sogar die Ergebnisse eines Studenten ändern, für das er nicht verantwortlich ist...
 
-With the sessions, simply define one new session per student. Register the courses he has access to and his own coach to the session. These two will now be able to work in an isolated virtual space.
-
+Definieren Sie mit den Sitzungen einfach eine neue Sitzung pro Schüler. Registrieren Sie die Kurse, zu denen er Zugang hat, und einen eigenen Coach für die Sitzung. Diese beiden können jetzt in einem isolierten virtuellen Raum arbeiten.

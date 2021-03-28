@@ -1,10 +1,9 @@
-# Clear the template cache
+# Löschen Sie den Vorlagencache
 
-## Composer install
+## Composer installieren
 
-Using composer to process the new stylesheets and templates is a simple matter of getting to the root of your Chamilo code folder \(where composer.json lies\) and launching `composer install`. That is, if you have composer. If you don't, then you can also use the "Clean cache" option from the administration page's "System" block.
+Wenn Sie Composer verwenden, um die neuen Stylesheets und Vorlagen zu verarbeiten, müssen Sie einfach zum Stammverzeichnis Ihres Chamilo-Code-Ordners gelangen \(wo composer.json liegt\) und `composer install` starten. Das heißt, wenn Sie einen Komponisten haben. Ist dies nicht der Fall, können Sie auch die "Clean cache" -Option aus dem "System" -Block der Administrationsseite verwenden.
 
-## Clearing the template cache
+## Leeren des Vorlagen-Cache
 
-Clearing the template cache should not be necessary if you have set your portal in « testing mode », but if you haven't, you'll have to clean the « app/cache/twig/ » folder.
-
+Das Löschen des Vorlagencaches sollte nicht erforderlich sein, wenn Sie Ihr Portal in « testing mode » festgelegt haben, aber wenn nicht, müssen Sie den « app/cache/twig/ » -Ordner bereinigen.

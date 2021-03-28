@@ -1,19 +1,18 @@
-# Give your learners a score
+# Gib deinen Lernenden eine Punktzahl
 
-If you choose to score/grade a topic/discussion thread, you will first need to assign a maximum score to this thread. This needs to be done when the thread is created. Go to _advanced settings_ in the _create thread_ page and check the _grade this thread_ box. An option to enter a maximum score will appear:
+Wenn Sie sich dafür entscheiden, ein Thema/einen Diskussions-Thread zu erzielen/zu bewerten, müssen Sie diesem Thread zunächst eine maximale Punktzahl zuweisen. Dies muss getan werden, wenn der Thread erstellt wird. Gehen Sie auf der Seite _create thread_ zu _advanced settings_ und aktivieren Sie das Kästchen _grade dieses Thread_. Eine Option zur Eingabe einer Höchstpunktzahl wird angezeigt:
 
 ![](../../.gitbook/assets/graphics14.png)
 
-_Illustration 72: Assigning a maximum score to a discussion thread_
+_Illustration 72: Zuweisen einer Höchstpunktzahl zu einem Diskussionsthema_
 
-To score a student's contribution to a thread:
+Um den Beitrag eines Schülers zu einem Thread zu erzielen:
 
-* click on the _Learners list_ icon ![](../../.gitbook/assets/graphics167.png)
-* scroll down to see the list of learners,
-* click on the _grade activity_ icon ![](../../.gitbook/assets/graphics15.gif) next to the learner's name
-* on the new page, locate the list of all the contributions \(messages\) written by the learner scored as well as a statistical table based on these same contributions,
-* enter the score you want to assign the learner: with the help of the list of contributions, choose a qualitative evaluation for these contributions. The statistical table allows a quantitative evaluation of the contributions,
-* Click the Grade _this thread_ button.
+* klicken Sie auf das Symbol _Learners Liste_ ![](../../.gitbook/assets/graphics167.png)
+* scrollen Sie nach unten, um die Liste der Lernenden zu sehen,
+* klicke auf das _grade-aktivität_ Icon ![](../../.gitbook/assets/graphics15.gif) neben dem Namen des Lernenden
+* Suchen Sie auf der neuen Seite die Liste aller Beiträge \(Nachrichten\), die vom Lernenden geschrieben wurden, sowie eine statistische Tabelle, die auf denselben Beiträgen basiert.
+* Geben Sie die Punktzahl ein, die Sie dem Teilnehmer zuweisen möchten: Wählen Sie mit Hilfe der Beitragsliste eine qualitative Bewertung für diese Beiträge aus. Die statistische Tabelle ermöglicht eine quantitative Bewertung der Beiträge,
+* Klicken Sie auf die Schaltfläche Not _this thread_.
 
-![](../../.gitbook/assets/graphics6.png)_Illustration 73: Forum – Marking a thread_
-
+![](../../.gitbook/assets/graphics6.png)_Illustration 73: Forum — Markieren eines Threads_

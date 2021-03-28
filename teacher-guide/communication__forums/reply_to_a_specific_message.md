@@ -1,6 +1,5 @@
-# Reply to a specific message
+# Antworten auf eine bestimmte Nachricht
 
-The _Reply to this message_ icon \(![](../../.gitbook/assets/images89%20%281%29.png)\), located below the message author's picture allows you to give an answer which will be linked to the chosen message and will be hierarchically dependent on that message.
+Das Symbol _Auf diese Nachricht antworten \(![](../../.gitbook/assets/images89%20%281%29.png)\), das sich unter dem Bild des Autors der Nachricht befindet, ermöglicht es Ihnen, eine Antwort zu geben, die mit der gewählten Nachricht verknüpft wird und hierarchisch von dieser Nachricht abhängig ist.
 
-The reply procedure is the same as the previous one, except the message topic includes the initial message, prefixing it with a « Re : » indicating the two messages are related.
-
+Die Antwortprozedur ist die gleiche wie die vorherige, mit der Ausnahme, dass das Nachrichtenthema die erste Nachricht enthält und ihr eine « Re : » voranstellt, die angibt, dass die beiden Nachrichten miteinander verwandt sind.

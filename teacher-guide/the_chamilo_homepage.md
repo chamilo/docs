@@ -1,20 +1,19 @@
-# The Chamilo homepage
+# Die Chamilo-Homepage
 
-The homepage is the first visible page. It contains the login form and a few other important elements.
+Die Homepage ist die erste sichtbare Seite. Es enthält das Anmeldeformular und einige andere wichtige Elemente.
 
 ![](../.gitbook/assets/images269.png)
 
-_Illustration 7: Homepage_
+_Illustration 7: Startseite_
 
-Although your mileage may \(and certainly will\) vary, this is mostly what you should find on a Chamilo portal’s homepage:
+Obwohl Ihre Laufleistung variieren kann (und sicherlich wird\), sollten Sie dies hauptsächlich auf der Homepage eines Chamilo-Portals finden:
 
-* The logo of your organization will always appear on the top left corner of the page. This can later be changed \(check the admin guide for more info\).
-* The blue bar \(color may change depending on the stylesheet selected by your admin\) contains the first elements of menu. This will change when you login or when the administrator ads new items to it.
-* The login block allows you to login, a very straightforward process \(the administrator assigns permissions to users depending on the platform configuration\).
-* It is possible to register on the platform using a simple form \(_Sign up!_ link\).
-* In case you lose your password, a new one can be generated easily \(using the _I lost my password_ link\).
-* Access to the Chamilo community's forum is provided through the _Forum_ link in the _Help_ box. This can be removed or edited by the administrator
-* A block with the most popular courses appear. This will be empty at the beginning \(when no courses exist on the platform\) or can later be removed by the administrator, in case you don’t want the public to know about the courses available on the platform.
+* Das Logo Ihrer Organisation wird immer oben links auf der Seite angezeigt. Dies kann später geändert werden \(weitere Informationen finden Sie im Admin-Handbuch\).
+* Der blaue Balken \(Farbe kann sich je nach dem von Ihrem Administrator ausgewählten Stylesheet ändern\) enthält die ersten Elemente des Menüs. Dies ändert sich, wenn Sie sich anmelden oder wenn der Administrator neue Artikel dafür anzeigt.
+* Der Anmelde-Block ermöglicht es Ihnen, sich anzumelden, ein sehr unkomplizierter Prozess \(der Administrator weist Benutzern Berechtigungen abhängig von der Plattformkonfiguration zu\).
+* Es ist möglich, sich mit einem einfachen Formular auf der Plattform zu registrieren \(_Registrieren!_ link\).
+* Falls Sie Ihr Passwort verlieren, kann einfach ein neues erstellt werden \(mit dem Link _Ich habe mein Passwort vergessen\).
+* Der Zugang zum Forum der Chamilo-Community erfolgt über den Link _Forum_ im Feld _Help_. Dies kann vom Administrator entfernt oder bearbeitet werden
+* Es erscheint ein Block mit den beliebtesten Kursen. Diese ist zu Beginn leer \(wenn auf der Plattform keine Kurse vorhanden sind\) oder kann später vom Administrator entfernt werden, falls Sie nicht möchten, dass die Öffentlichkeit von den auf der Plattform verfügbaren Kursen informiert wird.
 
-> **Note** : To view the courses with restricted access, you must be registered on the platform and must be subscribed by the course teacher, through the **course users** list.
-
+> **Hinweis**: Um die Kurse mit eingeschränktem Zugriff anzuzeigen, müssen Sie auf der Plattform registriert sein und vom Kurslehrer über die Liste **Kursbenutzer abonniert werden.

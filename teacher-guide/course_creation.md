@@ -1,46 +1,44 @@
-# Course creation
+# Erstellung von Kuren
 
 ![](../.gitbook/assets/images14%20%283%29.png)
 
-_Illustration 13: Personal menu blocks_
+_Illustration 13: Persönliche Menüblöcke_
 
-Creating a course is quick and easy, and can be done from the _My courses_ page.
+Das Erstellen eines Kurses ist schnell und einfach und kann auf der Seite „Meine Kurse“ erfolgen.
 
-> **Note** : on some portals, teachers might not have permissions to create new courses and are simply assigned pre-created courses by the administrator.
->
-> Click on _Create course_ in the side column. Fill the mandatory “Course name” field \(see Illustration 14: Creating a course – short version\) and click the button. That's it.
+> **Hinweis**: Auf einigen Portalen haben Lehrer möglicherweise keine Berechtigung, neue Kurse zu erstellen, und werden einfach vom Administrator vorab erstellte Kurse zugewiesen.
+> > Klicken Sie in der Seitenspalte auf _Kurs erstellen_. Füllen Sie das Pflichtfeld “Course name” aus \(siehe Abbildung 14: Erstellen eines Kurses — Kurzversion\) und klicken Sie auf die Schaltfläche. Das ist es.
 
-The course will be visible by the course creator and \(later\) by the users subscribed to it. By default, the person who creates the course is responsible for this course's administration. She is generally referred to as the **Course owner** or **Course creator**.
+Der Kurs wird vom Ersteller des Kurses und \(später\) durch die abonnierten Benutzer sichtbar sein. Standardmäßig ist die Person, die den Kurs erstellt, für die Verwaltung dieses Kurses verantwortlich. Sie wird im Allgemeinen als „**Kursbesitzer**“ oder „Kursersteller**“ bezeichnet.
 
-To create the course, you need only enter a single element, i.e. a clear and detailed title.
+Um den Kurs zu erstellen, müssen Sie nur ein einzelnes Element eingeben, also einen klaren und detaillierten Titel.
 
 ![](../.gitbook/assets/images15%20%283%29.png)
 
-_Illustration 14: Creating a course – short version_
+_Abbildung 14: Erstellen eines Kurses — Kurzversion_
 
-Additional **options** \(entirely optional\) are available by clicking on the \_Advanced settings\_button:
+Weitere **Optionen** \(vollständig optional\) sind verfügbar, wenn Sie auf den Button\_Erweiterte Einstellungen\_klicken:
 
-* **a** **category** within the ones offered in the drop-down box \(this is optional\),
-* **a** **course code** Pick a code that matches the course title associated with e.g. a numerical classification. \(n.b. Even if entered in lowercase, the course code will be automatically uppercased and symbols like _\(-,_  and spaces\_ will be removed from the code\),
-* **the** **course admin** this option is automatically filled with your name and cannot be updated,
-* **the** **language** used to display the course environment \(nothing stops you from using e.g. French even if the platform is installed in English\). The language choice doesn't influence the course content, only the course interface
-* the course can be filled with some **demo content** to indicate to the new course administrator the sort of thing s/he can create inside the course \(typically an exercise, forums and an introduction section\). Alternatively, this can be left completely empty.
-* finally, the course can be created from a template course that you have access to \(you must be a teacher in the template course to see it appear in your list\)
+* **a** **Kategorie** innerhalb der im Dropdown-Feld angebotenen \(dies ist optional\),
+* **a** **Kurscode** Wählen Sie einen Code aus, der dem Kurstitel entspricht, der z. B. einer numerischen Klassifikation zugeordnet ist. \(n.b. Selbst wenn er in Kleinbuchstaben eingegeben wird, wird der Kurscode automatisch in Großbuchstaben geschrieben und Symbole wie _ \(-, _ und Leerzeichen\_ werden aus dem Code entfernt\),
+* **das****Kurs-Admin** Diese Option wird automatisch mit Ihrem Namen gefüllt und kann nicht aktualisiert werden,
+* **das** **Sprache**, die zur Anzeige der Kursumgebung verwendet wurde \(nichts hindert Sie daran, z. B. Französisch zu verwenden, selbst wenn die Plattform auf Englisch installiert ist\). Die Sprachwahl hat keinen Einfluss auf den Kursinhalt, sondern nur die Kursoberfläche
+* Der Kurs kann mit irgendem**Demo-Inhalt** gefüllt werden, um dem neuen Kursadministrator die Art von Dingen anzugeben, die er innerhalb des Kurses erstellen kann \(normalerweise eine Übung, Foren und ein Einführungsabschnitt\). Alternativ kann dies komplett leer bleiben.
+* Schließlich kann der Kurs aus einem Vorlagenkurs erstellt werden, auf den Sie Zugriff haben \(Sie müssen ein Lehrer im Vorlagenkurs sein, damit er in Ihrer Liste angezeigt wird\)
 
 ![](../.gitbook/assets/images16%20%283%29.png)
 
-_Illustration 15: Create a course – extended version_
+_Illustration 15: Erstellen eines Kurses — erweiterte Version_
 
-In versions 1.9 and 1.10, a course creation follow-up page was displayed, which suggested:
+In den Versionen 1.9 und 1.10 wurde eine Nachfassseite zur Kurserstellung angezeigt, die Folgendes vorschlug:
 
-* going straight to the newly created course \(through a link on the course title\),
-* going directly, by clicking on the relevant icon, to one of the most common course configuration steps, as illustrated below.
+* direkt zum neu erstellten Kurs gehen \(über einen Link auf dem Kurstitel\),
+* Klicken Sie direkt auf das entsprechende Symbol zu einem der gängigsten Kurskonfigurationsschritte, wie unten dargestellt.
 
 ![](../.gitbook/assets/images271.png)
 
-_Illustration 16: Course creation follow-up page_
+_Illustration 16: Nachfassseite zur Kurserstellung_
 
-However, feedback has been relatively negative about this feature, so we decided to disable it by default in version 1.11 onward. Your administrator can still enable this if desired.
+Das Feedback war jedoch relativ negativ zu dieser Funktion, weshalb wir uns entschieden haben, sie ab Version 1.11 standardmäßig zu deaktivieren. Ihr Administrator kann dies bei Bedarf weiterhin aktivieren.
 
-This empty course structure created, the next step is to enrich this course through the addition of text, multimedia documents, audio tracks, links etc. etc.....\)
-
+Diese leere Kursstruktur wurde erstellt, der nächste Schritt besteht darin, diesen Kurs durch das Hinzufügen von Text, Multimedia-Dokumenten, Audiospuren, Links usw. zu bereichern...\)

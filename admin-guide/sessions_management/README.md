@@ -1,16 +1,16 @@
-# Sessions management
+# Sitzungen Management
 
-A session is a mechanism which hover “above” one or several courses and allows groups of students to follow the same group of courses during the same period, in separate virtual spaces.
+Eine Sitzung ist ein Mechanismus, der den “above” in einem oder mehreren Kursen verbietet und es Gruppen von Schülern ermöglicht, dieselbe Gruppe von Kursen im selben Zeitraum in separaten virtuellen Räumen zu absolvieren.
 
-Sessions can group several courses of different categories.
+Sessions können mehrere Kurse verschiedener Kategorien gruppieren.
 
-The following schema has already been used in the _users_ chapter to explain roles, but we will now use it in the context of _Sessions._
+Das folgende Schema wurde bereits im Kapitel _users_ verwendet, um Rollen zu erklären, aber wir werden es jetzt im Kontext von _Sessions verwenden._
 
-![](../../.gitbook/assets/images72%20%284%29.png)Illustration 64: Global – Sessions schema
+![](../../.gitbook/assets/images72%20%284%29.png)
+Illustration 64: Global — Sitzungsschema
 
-As you can see, the session is defined by a sessions administrator and has a general coach \(also called the session coordinator, or _session tutor_ in the schema\) who watches over the session and assists teachers and students in need.
+Wie Sie sehen, wird die Sitzung von einem Sitzungsadministrator definiert und verfügt über einen allgemeinen Coach \(auch Sitzungskoordinator oder _Session-Tutor_ im Schema\ genannt), der die Sitzung überwacht und Lehrer und Schüler in Not unterstützt.
 
-Several courses are registered to the session, each of them being taught by one or more course coaches \(_session-course tutor_ on the schema\).
+Für die Sitzung sind mehrere Kurse registriert, von denen jeder von einem oder mehreren Kurstrainern unterrichtet wird \(_session-Kurs-Tutorei_ auf dem Schema\).
 
-Although not clearly represented on this schema, a session allows you \(optionally\) to establish time limits for the coaches and learners of this session.
-
+Obwohl in diesem Schema nicht eindeutig dargestellt, können Sie mit einer Sitzung (optional\) Fristen für die Trainer und Lernenden dieser Sitzung festlegen.

@@ -1,10 +1,9 @@
-# Default course image
+# Standard-Kursbild
 
-Similarly to the default icons replacement described in the previous section, the default image for the course, which appears in the catalogue or in the courses grid view, can be replaced.
+Ähnlich wie die im vorherigen Abschnitt beschriebene Standardersetzung für Symbole kann das Standardbild für den Kurs, das im Katalog oder in der Ansicht des Kursrasters angezeigt wird, ersetzt werden.
 
-To do this, you will have to take the main/img/session\_default.png \(400x224 in v1.11.10\) and main/img/session\_default\_small.png \(85x48 in v1.11.10\) images dimensions as a starting point, and develop a new image that fits in these.
+Um dies zu tun, müssen Sie die Abmessungen main/img/session\_default.png \(400x224 in v1.11.10\) und main/img/session\_default\_small.png \(85x48 in v1.11.10\) als Ausgangspunkt für Bilder verwenden und ein neues Bild entwickeln, das in diese passt.
 
-Then, instead of replacing the images directly in main/img/ \(which would remove the customization during each posterior Chamilo upgrade\), you can simply place those 2 new images in the root folder of your custom CSS.
+Anstatt die Bilder dann direkt in main/img/\ zu ersetzen (wodurch die Anpassung bei jedem hinteren Chamilo-Upgrade entfernt wurde\), können Sie diese beiden neuen Bilder einfach in den Stammordner Ihres benutzerdefinierten CSS legen.
 
-For example, if you have placed \(as suggested in previous sections\) your CSS in a folder called "myCustomCSS/", the two images would respectively be placed in "myCustomCSS/session\_default.png" and "myCustomCSS/session\_default\_small.png".
-
+Wenn Sie beispielsweise \(wie in den vorherigen Abschnitten vorgeschlagen\) Ihr CSS in einem Ordner namens "myCustomCSS/" platziert haben, werden die beiden Bilder jeweils in "myCustomCSS/session\_default.png" und "myCustomCSS/session\_default\_small.png" abgelegt.

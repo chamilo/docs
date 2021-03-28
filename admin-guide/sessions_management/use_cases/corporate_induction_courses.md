@@ -1,12 +1,11 @@
-# Corporate induction courses
+# Corporate Einführungskurse
 
-You work as a company's human resources manager, and the “new guys” \(5 new employees\) come in and have to follow the “induction drill”, which consists of 7 small, 4h video courses, followed by an exam. Some of them, however, are going to work on the factory flour, where security regulations are not similar to the office regulations. This means 5 courses out of 6 will be identical for the 5 new employees, while 3 will have a “factory floor security” course, and 2 will have the “office floor security” course.
+Sie arbeiten als Personalmanager eines Unternehmens, und die “new guys” \(5 neue Mitarbeiter\) kommen herein und müssen dem “induction drill” folgen, das aus 7 kleinen 4h-Videokursen besteht, gefolgt von einer Prüfung. Einige von ihnen werden jedoch an dem Fabrikmehl arbeiten, wo die Sicherheitsvorschriften den Bürovorschriften nicht den Bürovorschriften ähneln. Dies bedeutet, dass 5 von 6 Kursen für die 5 neuen Mitarbeiter identisch sind, während 3 einen “factory floor security” -Kurs haben und 2 den “office floor security” -Kurs haben werden.
 
-And to make it easier, this happens every month...
+Und um es einfacher zu machen, geschieht dies jeden Monat...
 
-Because your 6 courses are all set, you “just” have to assign them to these courses. However, your management also requires you to be able to generate statistics on how well the new employees did pass the tests.
+Da Ihre 6 Kurse alle eingestellt sind, müssen Sie sie “just” diesen Kursen zuweisen. Ihr Management verlangt jedoch auch, dass Sie Statistiken darüber erstellen können, wie gut die neuen Mitarbeiter die Tests bestanden haben.
 
-In a normal situation, you would stack up students into the 7 different courses, and repeat next month. However, as your requirements are to keep track of the progress of the whole employees database over time, you want to insert a time element here. Also, because some employees are factory workers \(well, not really, but they do work a lot on the factory floor\) and others are office workers, you'll want to configure a session dedicated to factory, and another to office.
+In einer normalen Situation würden Sie die Schüler in den 7 verschiedenen Kursen stapeln und nächsten Monat wiederholen. Da Ihre Anforderungen jedoch darin bestehen, den Fortschritt der gesamten Mitarbeiterdatenbank im Laufe der Zeit zu verfolgen, möchten Sie hier ein Zeitelement einfügen. Auch weil einige Mitarbeiter Fabrikarbeiter sind \(naja, nicht wirklich, aber sie arbeiten viel in der Fabrikhalle\) und andere Büroangestellte sind, sollten Sie eine Sitzung für die Fabrik und eine andere für das Büro konfigurieren.
 
-Just create a “factory 2011-7” and an “office 2011-7” sessions, add your courses to it, then register the employees and... you're done. You can even use the _promotions_ feature \(in the next pages\) to copy this session every month. This reduces management, improves readability of the results and allows your employees to access the induction courses whenever they want, at the cost of a single click, while still learning new courses every 3 months without having these old courses in the way.
-
+Erstelle einfach eine “factory 2011-7” und eine “office 2011-7” -Sitzung, füge deine Kurse hinzu, registriere dann die Mitarbeiter und... du bist fertig. Sie können sogar die Funktion _promotions_ \(auf den nächsten Seiten\) verwenden, um diese Sitzung jeden Monat zu kopieren. Dies reduziert das Management, verbessert die Lesbarkeit der Ergebnisse und ermöglicht es Ihren Mitarbeitern, jederzeit auf die Einführungskurse zuzugreifen, auf Kosten eines einzigen Klicks, während sie weiterhin alle 3 Monate neue Kurse lernen, ohne diese alten Kurse im Weg zu haben.

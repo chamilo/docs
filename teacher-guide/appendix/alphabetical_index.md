@@ -1,162 +1,161 @@
-# Alphabetical index
+# Alphabetischer Index
 
-activity view25
+Aktivität-view25
 
-AICC76, 81
+AICC76, 81 JAHRE ALT
 
-Audio answer56
+Audio-Antwort56
 
-available space41
+verfügbarer space41
 
 AVI34
 
-certificates84
+Zertifikate84
 
-certification score100
+Punktzahl der Zertifizier
 
-Chat settings32
+Chat-Einstellungen32
 
-Clear the chat139
+Deaktivieren Sie das Chat139
 
-Course access32
+Kurs access32
 
-course admin18
+natürlich admin18
 
-course catalog27
+Kurs catalog27
 
-course category18
+Kurs-Kategorie18
 
-course code18
+Kurs-Code18
 
-course description27
+Beschreibung des Kurs27
 
-Course settings32
+Kurs-Einstellungen32
 
-Create assignment90
+Zuweisung erstellen90
 
-Create folder35
+Erstellen Sie folder35
 
-create forum thread73
+forum erstellen thread73
 
 CURL115
 
-demo content19
+Demo-Inhalt19
 
-difficulty level50
+Schwierigkeitsgrad 50
 
-E-mail notifications32
+E-Mail-Benachrichtigungen32
 
-enrich question49
+bereichern die Frage49
 
 Excel66
 
-feedback49, 94
+Feedback49, 94
 
-Fill the blanks53
+Füllen Sie die Lücken aus53
 
-Flash34
+Flash34 (Bl
 
-Forum creation70
+Forum-Schöpfung70
 
-grade a topic73
+Klasse ein Thema73
 
 gradebook28
 
-Groups133
+Gruppen133
 
-Hot spot58
+Heißer spot58
 
 HTML34
 
-image area58
+Bild-Bereich58
 
 IMS/QTI66
 
-introduction text26
+einführung text26
 
-IP address87
+IP-Adresse87
 
-language18
+sprache18
 
-Learner view17
+Lerner view17
 
-Learning paths settings32
+Lernpfade-Einstellungen32
 
-LibreOffice34
+LibreOffice34 ist
 
-maintenance20
+wartung20
 
-Matching answers54
+Passende Antworten54
 
 Moodle28
 
 MP334
 
-MS-Excel®34
+ms-Excel® 34
 
-MS-PowerPoint®34
+MS-Powerpoint® 34
 
-MS-Word34
+ms-Word34
 
-MS-Word®34
+MS-Word® 34
 
-multiple answer52
+mehrfache Antwort52
 
-Multiple answer62
+Mehrfache Antworten62
 
-multiple choice50
+Mehrfach-Wahl50
 
 OGG34
 
-Open question55
+Frage öffnen55
 
 OpenOffice.org34
 
-opinions140
+Meinungen140
 
-PDF34, 41
+PDF34, 41 JAHRE
 
-personal course category21
+persönlicher Kurs Kategorie21
 
-Photoshop®38
+Photoshop® 38
 
-private assignments89
+private Aufgaben89
 
-public assignments89
+öffentliche Aufgaben89
 
-questions category50
+Fragen category50
 
-questions database65
+Fragen database65
 
-Quicktime®34
+Quicktime® 34
 
-Recycling questions65
+Fragen zum Recycling 65
 
-Report on resource87
+Bericht auf resource87
 
-Reporting87
+Berichterstattung87
 
-score46
+Punktzahl 46
 
-SCORM76, 81
+SKORM76, 81
 
-Send message139
+Nachricht senden 139€
 
-show feedback49
+Feedback49 anzeigen
 
-Single answer51
+Einzelne Antwort51
 
-Teacher view17
+Lehrer-view17
 
 template40
 
-Thematic advance32
+Thematische Weiterentwicklung 32
 
-True/False/Don't know62
+Richtig/False/weiß es nicht62
 
-Unique answer61
+Eindeutige Antworten61
 
-Users permissions32
+Nutzer-Berechtigungen32
 
-working groups133
-
+Arbeitsgruppen133

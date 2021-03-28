@@ -1,18 +1,17 @@
-# The stylesheets inclusion mechanism
+# Der Mechanismus der Einbeziehung von Stylesheets
 
-If you ever want to include more stylesheets to the list, this is the complete flow :
+Wenn Sie jemals mehr Stylesheets in die Liste aufnehmen möchten, ist dies der vollständige Ablauf:
 
-* a script starts \(e.g. /user\_portal.php\)
-* it includes global.inc.php
-* global.inc.php calls the method Display::display\_header\(\) \(in main/inc/lib/display.lib.php\)
-* display\_header calls the Template ::set\_css\_files\(\) methos
-* set_css\_files\(\) prepares an array with the CSS to load and prepares it as \_css\_file\_to\_string_
-* the initial script loads a template \(.tpl\) from main/template/default/
-* the template includes the main/template/default/layout/main\_header.tpl template
-* the main\_header.tpl load head.tpl \(in the same folder\)
-* head.tpl loads the _css\_file\_to\_string_ array to show the CSS in the
+* ein Skript startet \(z.B. /user\_portal.php\)
+* es enthält global.inc.php
+* global.inc.php nennt die Methode Display::display\_header\(\) \(in main/inc/lib/display.lib.php\)
+* display\_header ruft das Template auf። set\_css\_files\(\) methos
+* set_css\_files \(\) bereitet ein Array mit dem CSS zum Laden vor und bereitet es als\_css\_file\_to\_string_
+* Das anfängliche Skript lädt eine Vorlage \(.tpl\) von main/template/default/
+* Die Vorlage enthält die Vorlage main/template/default/layout/main\_header.tpl
+* Der Hauptladen\_header.tpl head.tpl \(im selben Ordner\)
+* head.tpl lädt das Array _css\_file\_to\_string_ um das CSS im
 
-If you want to configure a new stylesheet globally, or change the order in which they are loaded, and if you followed the previous flow, you'll now know that the best place to do so is int the Template::setCssFiles\(\) method.
+Wenn Sie ein neues Stylesheet global konfigurieren oder die Reihenfolge ändern möchten, in der es geladen wird, und wenn Sie den vorherigen Flow verfolgt haben, wissen Sie jetzt, dass der beste Ort dafür die Methode Template::setCssFiles\(\) ist.
 
-This is the best method so far in Chamilo 1.10, but in 2.0 with the full capability of templates unleashed, you should be able to add directly the new CSS to your template.
-
+Dies ist die bisher beste Methode in Chamilo 1.10, aber in `2.0` mit der vollen Fähigkeit, Vorlagen zu entfesseln, sollten Sie in der Lage sein, das neue CSS direkt zu Ihrer Vorlage hinzuzufügen.

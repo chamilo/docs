@@ -1,7 +1,6 @@
-# Sessions administrator
+# Sitzungen Administrator
 
-| Description | The sessions administrator is an exclusive role \(it cannot be combined with any other role\) and is determined during the user creation or its later edition from the administration interface. This role is dedicated to the academical management of sessions of courses: he sets who will teach which course, at what time and to which learners. |
+| Description | Der Sitzungsadministrator ist eine exklusive Rolle \(sie kann nicht mit einer anderen Rolle kombiniert werden\) und wird während der Benutzererstellung oder ihrer späteren Edition über die Administrationsoberfläche bestimmt. Diese Rolle ist der akademischen Verwaltung von Kurssitzungen gewidmet: Er legt fest, wer welchen Kurs zu welcher Zeit und zu welchen Lernenden unterrichten wird. |
 | :--- | :--- |
-| Permissions in a course | Same permissions as a session coach |
-| Global permissions | By default, he can: |
-
+| Berechtigungen in einem Kurs | Gleiche Berechtigungen wie ein Session-Coach |
+| Globale Berechtigungen | Standardmäßig kann er:

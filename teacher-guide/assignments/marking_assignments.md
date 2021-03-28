@@ -1,8 +1,7 @@
-# Marking assignments
+# Zuweisungen markieren
 
-To mark a document uploaded by a learner, go to the main page for the relevant assignment. In the right hand column headed _Detail_, click on the _Save_ icon ![](../../.gitbook/assets/graphics75.png)to download and view a file the student has submitted, then click the _Correct and rate_ icon ![](../../.gitbook/assets/graphics76.png) to add feedback/comments and a score. If the student has not uploaded a file, but submitted their assignment using the on-line editor, the save icon will not show – instead the student's assignment will be automatically shown in the editor to which the teacher can add feedback etc when scoring the work.
+Um ein von einem Teilnehmer hochgeladenes Dokument zu markieren, rufen Sie die entsprechende Stelle auf die Hauptseite auf. Klicken Sie in der rechten Spalte mit der Überschrift _Detail_ auf das _Save_-Symbol ![](../../.gitbook/assets/graphics75.png)to und zeigen Sie eine Datei an, die der Student eingereicht hat, und klicken Sie dann auf das Symbol _Korrigieren und bewerten_ ![](../../.gitbook/assets/graphics76.png), um Feedback/Kommentare und eine Punktzahl hinzuzufügen. Wenn der Schüler keine Datei hochgeladen, sondern seine Aufgabe mit dem Online-Editor eingereicht hat, wird das Speichersymbol nicht angezeigt. Stattdessen wird die Aufgabe des Schülers automatisch in dem Editor angezeigt, zu dem der Lehrer bei der Bewertung der Arbeit Feedback usw. hinzufügen kann.
 
-![](../../.gitbook/assets/graphics74.png)_Illustration 98: Marking students' assignments_
+![](../../.gitbook/assets/graphics74.png)_Illustration 98: Kennzeichnung der Aufgaben der Studenten_
 
-To save the score/feedback, click the _Update this task_ button.
-
+Um das Score/Feedback zu speichern, klicken Sie auf die Schaltfläche _Diese Aufgabe aktualisieren_.

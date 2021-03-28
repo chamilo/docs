@@ -1,16 +1,15 @@
-# Learning path settings
+# Lernpfad-Einstellungen
 
-The _Learning path_ section ![](../../.gitbook/assets/graphics327.png) can be used to enable the _auto-launch_ of learning paths and the style \(or graphical theme\) for the course.
+Der Abschnitt _Learning path_ ![](../../.gitbook/assets/graphics327.png) kann verwendet werden, um das _auto-launch_ von Lernpfaden und den Stil \(oder das grafische Thema\) für den Kurs zu aktivieren.
 
-![](../../.gitbook/assets/images246.png)_Illustration 177: Course settings – Learning path settings_
+![](../../.gitbook/assets/images246.png)_Illustration 177: Kurseinstellungen — Einstellungen für den Lernpfad_
 
-The auto-launch feature allows the teacher to select one specific learning path to auto-start when the user enters the course homepage. In order to use this feature, you'll need to enable the option in the course settings \(remembering to save the changes\) then go to the learning paths list and click on the rocket icon which represents the auto-launch of one of the learning paths:
+Die automatische Startfunktion ermöglicht es dem Lehrer, einen bestimmten Lernpfad zum automatischen Start auszuwählen, wenn der Benutzer die Kurs-Homepage betritt. Um diese Funktion nutzen zu können, müssen Sie die Option in den Kurseinstellungen aktivieren \(denken Sie daran, die Änderungen zu speichern\), dann zur Liste der Lernpfade gehen und auf das Raketensymbol klicken, das den automatischen Start eines der Lernpfade darstellt:
 
-![](../../.gitbook/assets/images247.png)_Illustration 178: Learning paths - Auto-launch_
+![](../../.gitbook/assets/images247.png)_Illustration 178: Lernpfade - Auto-launch_
 
-Only one learning path can be set as auto-launch at a time, and it will start as soon as the learner enters the course homepage. Other learning paths show a gray rocket icon. To test this option, you'll have to connect as a learner as it has been disabled for teachers for practical reasons.
+Es kann jeweils nur ein Lernpfad als automatischer Start festgelegt werden, und er beginnt, sobald der Teilnehmer die Kurs-Homepage betritt. Andere Lernpfade zeigen ein graues Raketensymbol. Um diese Option zu testen, müssen Sie sich als Lernender verbinden, da sie aus praktischen Gründen für Lehrer deaktiviert wurde.
 
-As long as the platform administrator has enabled this feature, the teacher can select the _Allow training theme option_ to choose the graphical style of his course. It is also possible to select a separate theme for an individual Learning Path. This means that a learner might theoretically enter his Chamilo campus, see the platform in a particular visual style, \(e.g. mostly blue\), enter a course and see the style change to red, then enter a learning path and see the style mostly green... For visual comfort, it is recommended, however, to avoid style changes unless they are justified for real pedagogical reasons.
+Solange der Plattformadministrator diese Funktion aktiviert hat, kann der Lehrer die Option _Schulungsthema erlauben_ auswählen, um den grafischen Stil seines Kurses auszuwählen. Es ist auch möglich, ein separates Thema für einen individuellen Lernpfad auszuwählen. Dies bedeutet, dass ein Lernender theoretisch auf seinen Chamilo-Campus eintreten, die Plattform in einem bestimmten visuellen Stil sehen könnte, \(z. B. hauptsächlich blau\), einen Kurs betreten und sehen kann, wie sich der Stil in Rot ändert, dann einen Lernpfad betreten und den Stil meist grün sehen... Aus Gründen des visuellen Komforts wird jedoch empfohlen, Stiländerungen zu vermeiden, es sei denn, sie sind aus echten pädagogischen Gründen gerechtfertigt.
 
-Note : a learner will be able to return to the course homepage from the left menu inside the learning path. The idea here is not to disable or hide the course homepage, but rather to speed access to the course content.
-
+Hinweis: Ein Teilnehmer kann über das linke Menü innerhalb des Lernpfads zur Kurs-Homepage zurückkehren. Die Idee hier besteht nicht darin, die Kurs-Homepage zu deaktivieren oder zu verbergen, sondern den Zugriff auf die Kursinhalte zu beschleunigen.

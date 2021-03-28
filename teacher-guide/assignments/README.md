@@ -1,16 +1,15 @@
-# Assignments
+# Aufgaben
 
-The assignments tool ![](../../.gitbook/assets/graphics58.png)\(accessible from the home page\) allows a learner or a group of learners to upload documents for the teacher to review. Assignments can be seen and downloaded by other learners unless configured as invisible \( ![](../../.gitbook/assets/graphics60.png) \) by the teacher.
+Das Aufgabentool ![](../../.gitbook/assets/graphics58.png) \(von der Homepage aus zugänglich\) ermöglicht es einem Lernenden oder einer Gruppe von Teilnehmern, Dokumente hochzuladen, die der Lehrer überprüfen kann. Aufgaben können von anderen Lernenden eingesehen und heruntergeladen werden, sofern sie vom Lehrer nicht als unsichtbar \(![](../../.gitbook/assets/graphics60.png)\) konfiguriert wurden.
 
-Assignment documents are usually homework exercises set by the teacher, but they could also be files of interest to others which a learner may wish to share. The assignments tool can therefore be used to receive individual or collective reports, to collect answers to open questions, or indeed any other form of document developed by learners.
+Aufgabendokumente sind in der Regel Hausaufgaben, die vom Lehrer festgelegt wurden, aber es können sich auch um Dateien handeln, die für andere von Interesse sind und die ein Lernender möglicherweise teilen möchte. Das Aufgaben-Tool kann daher verwendet werden, um individuelle oder kollektive Berichte zu erhalten, Antworten auf offene Fragen oder jede andere von den Lernenden entwickelte Form von Dokumenten zu sammeln.
 
-The tool also allows the teacher to modify the default visibility of the assignments sent/posted by learners. This ensures students can sent files \(exercises, reports, written production, …\) in privacy to the course for evaluation by the teacher or course delegate. Click on _Assignment settings_ ![](../../.gitbook/assets/graphics61.png) on the Assignments page:
+Das Tool ermöglicht es dem Lehrer auch, die Standardsichtbarkeit der von den Lernenden gesendeten/geposteten Aufgaben zu ändern. Dadurch wird sichergestellt, dass die Schüler Dateien (Übungen, Berichte, schriftliche Produktion,...\) datenschutzgemäß an den Kurs senden können, um sie vom Lehrer oder Kursteilnehmer zu bewerten. Klicken Sie auf der Seite „Zuweisungen“ auf _Zuweisungseinstellungen ![](../../.gitbook/assets/graphics61.png):
 
 ![](../../.gitbook/assets/graphics63.png)
 
-_Illustration 92: Assignment settings_
+_Illustration 92: Einstellungen für Zuweisung_
 
-Making assignments visible by default to all users enables learners to check one another's assignments. This can be a valuable learning technique, as pupils can learn a lot through sharing each other's work, but it has of course to be used carefully; not all learners are not ready to be given so much freedom! The choice between _private_ \(only visible to the teachers\) or _public_ assignments \(all learners can see assignments from others\) can be made by clicking the appropriate visibility settings. The teacher can make any post visible or invisible to other learners by checking the ![](../../.gitbook/assets/graphics62.png) or ![](../../.gitbook/assets/graphics64.png) icon next to the relevant entry in the list of learner posts shown for any given assignment.
+Wenn Sie Aufgaben standardmäßig für alle Benutzer sichtbar machen, können die Teilnehmer die Aufgaben des anderen überprüfen. Dies kann eine wertvolle Lerntechnik sein, da die Schüler viel lernen können, indem sie die Arbeit des anderen teilen, aber sie muss natürlich sorgfältig eingesetzt werden; nicht alle Lernenden sind nicht bereit, so viel Freiheit zu erhalten! Die Wahl zwischen _private_ \(nur für die Lehrer sichtbar\) oder _public_ Aufgaben \(alle Teilnehmer können Aufgaben von anderen sehen\) kann durch Klicken auf die entsprechenden Sichtbarkeitseinstellungen getroffen werden. Der Lehrer kann jeden Beitrag für andere Lernende sichtbar oder unsichtbar machen, indem er das ![](../../.gitbook/assets/graphics62.png) oder ![](../../.gitbook/assets/graphics64.png) -Symbol neben dem entsprechenden Eintrag in der Liste der Teilnehmerbeiträge für eine bestimmte Aufgabe ankreuzen.
 
-> **Note**: A significant improvement in 1.9 is that assignments can also now be written and submitted directly within the assignments tool, instead of requiring to be uploaded as documents.
-
+> **Hinweis**: Eine signifikante Verbesserung in 1.9 besteht darin, dass Aufgaben jetzt auch direkt innerhalb des Aufgabenwerkzeugs geschrieben und eingereicht werden können, anstatt als Dokumente hochgeladen zu werden.

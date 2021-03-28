@@ -1,34 +1,33 @@
-# Creating a new test
+# Einen neuen Test erstellen
 
-Creating a new test is very easy. Click the _create a test_ icon ![](../../.gitbook/assets/graphics130.png) on the left and give your test a title, then click on the _proceed to questions_ button.
+Das Erstellen eines neuen Tests ist sehr einfach. Klicken Sie links auf das Symbol _test erstellen_ ![](../../.gitbook/assets/graphics130.png) und geben Sie Ihrem Test einen Titel. Klicken Sie dann auf die Schaltfläche _weiter zu den Fragen.
 
 ![](../../.gitbook/assets/graphics133.png)
 
-_Illustration 44: Exercises – Create a new test_
+_Illustration 44: Übungen — Einen neuen Test erstellen_
 
-If you opt to _give a context to the test_ \_![](../../.gitbook/assets/graphics131.png)\_you can use the on-line editor to compose an explanatory section which will be visible to learners when they undertake the test.
+Wenn Sie sich dafür entscheiden, dem Test einen Kontext zu geben _\_ ![](../../.gitbook/assets/graphics131.png)\_können Sie den Online-Editor verwenden, um einen erläuternden Abschnitt zu erstellen, der für die Lernenden sichtbar ist, wenn sie den Test durchführen.
 
-The test will be displayed on the main page of the test tool, listed along with other tests created in the course:
+Der Test wird auf der Hauptseite des Testwerkzeugs angezeigt, die zusammen mit anderen im Kurs erstellten Tests aufgelistet ist:
 
-![](../../.gitbook/assets/graphics134.png)_Illustration 45: Exercises - List_
+![](../../.gitbook/assets/graphics134.png)_Illustration 45: Übungen - Liste_
 
-Because there are so many different ways the test tool can be used, there is a good chance the default options are not entirely suitable your needs. Be careful, therefore to consider the extensive Advanced _settings_ section available in the _create/edit test_ page:
+Da es so viele verschiedene Möglichkeiten gibt, wie das Test-Tool verwendet werden kann, besteht eine gute Chance, dass die Standardoptionen nicht vollständig Ihren Anforderungen entsprechen. Achten Sie daher darauf, den umfangreichen Abschnitt „Erweiterte _settings_“ zu betrachten, der auf der Seite _create/edit test verfügbar ist:
 
-![](../../.gitbook/assets/graphics135.png)_Illustration 46: Exercises – Creating an exercise – Advanced options_
+![](../../.gitbook/assets/graphics135.png)_Illustration 46: Übungen — Erstellen einer Übung — Fortgeschrittene Optionen_
 
-The settings are fairly self evident:
+Die Einstellungen sind ziemlich selbstverständlich:
 
-* feedback can be provided either at the end of the test or withheld, e.g. for an exam
-* questions can be presented either on a single page \(e.g. for a brief text quiz\) or on separate pages \(e.g. when the question and answers are lengthy or incorporate media\)
-* scores and correct answers can be shown \(e.g. for an interactive exercise\) or hidden \(e.g. for an exam\).
-* Questions and answers can follow a pre-determined sequence or be randomized and shuffled
-* The relevant questions category can be displayed or hidden
-* The number of attempts allowed can be limited to a given number - “infinite” attempts might suit a “practice” exercise
-* Start and end times for the test can be set and the time allowed to complete the test can be limited; \)a real-time counter will appear to the user\)
-* Negative scores can be “zeroed” or carried forward to the next question
-* Students can review their answers before submitting the test
-* A pass percentage can be set to indicate success or failure to the student
-* A closing message to be viewed on completion can be composed.
+* Feedback kann entweder am Ende des Tests gegeben oder einbehalten werden, z. B. für eine Prüfung
+* Fragen können entweder auf einer einzelnen Seite gestellt werden \(z. B. für ein kurzes Text-Quiz\) oder auf separaten Seiten \(z. B. wenn die Frage und die Antworten langwierig sind oder Medien einbauen\)
+* Punktzahlen und korrekte Antworten können angezeigt werden \(z.B. für eine interaktive Übung\) oder versteckt \(z.B. für eine Prüfung\).
+* Fragen und Antworten können einer vorgegebenen Reihenfolge folgen oder randomisiert und gemischt werden
+* Die relevante Fragenkategorie kann angezeigt oder ausgeblendet werden
+* Die Anzahl der erlaubten Versuche kann auf eine bestimmte Anzahl beschränkt sein - “infinite” -Versuche könnten für eine “practice” Übung passen
+* Start- und Endzeiten für den Test können eingestellt werden und die Zeit, die für den Abschluss des Tests erlaubt ist, kann begrenzt werden;\) dem Benutzer wird ein Echtzeitzähler angezeigt\)
+* Negative Ergebnisse können “zeroed” sein oder auf die nächste Frage übertragen werden
+* Studenten können ihre Antworten überprüfen, bevor sie den Test einreichen
+* Ein Pass-Prozentsatz kann festgelegt werden, um Erfolg oder Misserfolg des Schülers anzuzeigen
+* Eine nach Abschluss zu betrachtende Abschlussnachricht kann verfasst werden.
 
-> **Note** : _The platform administrator may enable an additional option in the “Feedback” section of the advanced settings:\_\_Self-evaluation \(immediate feedback\)._ This option, if checked, enables the “scenario” question types which allows teachers to devise quizzes based on multiple-choice or image mapping questions which, depending on the answer given, lead the learner to alternative subsequent questions. This is a powerful tool – however, be aware that once _self-evaluation_ is checked, these advanced settings cannot be changed: you will instead have to create a new test not based on the _Self-evaluation \(immediate feedback\)_ option.
-
+> **Hinweis**: _Der Plattformadministrator kann eine zusätzliche Option im Abschnitt “Feedback” der erweiterten Einstellung s:\_\_Self -evaluation \(sofortiges Feedback\) aktivieren._ Diese Option ermöglicht, wenn aktiviert, die “scenario” -Fragetypen, die es Lehrern ermöglichen, Quiz basierend auf Multiple-Choice oder Image-Mapping zu entwickeln Fragen, die den Lernenden je nach Antwort zu alternativen Folgefragen führen. Dies ist ein leistungsstarkes Tool - beachten Sie jedoch, dass diese erweiterten Einstellungen nach der Überprüfung der _Self-Evaluation_ nicht geändert werden können: Sie müssen stattdessen einen neuen Test erstellen, der nicht auf der Option _Selbstbewertung \(sofortiges Feedback\) _ basiert.

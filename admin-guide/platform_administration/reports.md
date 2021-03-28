@@ -1,8 +1,8 @@
-# Reports
+# Berichte
 
-This section \(available from Chamilo LMS 1.9.4\) could be called “Executive reporting”, and gives you a special report about all users and all training hours they've been taking inside the platform. This is particularly useful for organizations providing training to other organizations' employees and having to account for that \(in man\*hours of training\).
+Dieser Abschnitt \(verfügbar in Chamilo LMS 1.9.4\) könnte als “Executive reporting” bezeichnet werden und gibt Ihnen einen speziellen Bericht über alle Benutzer und alle Schulungsstunden, die sie innerhalb der Plattform absolviert haben. Dies ist besonders nützlich für Organisationen, die Schulungen für die Mitarbeiter anderer Organisationen anbieten und dies berücksichtigen müssen \(in den Schulungsstunden des Menschen\).
 
-Assuming you've only got one learning path and one “assessment” in each course, it will also give you the learning path progress, whether the student reached 100% progress, and whether he printed his certificate or not.
+Angenommen, Sie haben in jedem Kurs nur einen Lernpfad und einen “assessment”, erhalten Sie auch den Fortschritt des Lernpfads, unabhängig davon, ob der Student 100% Fortschritte erzielt hat und ob er sein Zertifikat gedruckt hat oder nicht.
 
-![](../../.gitbook/assets/images38%20%283%29.png)Illustration 45: Administration - Executive reporting
-
+![](../../.gitbook/assets/images38%20%283%29.png)
+Illustration 45: Verwaltung - Berichterstattung

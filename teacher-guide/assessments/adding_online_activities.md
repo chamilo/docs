@@ -1,19 +1,18 @@
-# Adding online activities
+# Online-Aktivitäten hinzufügen
 
-Within the Chamilo course, not only tests but a whole range of activities can be scored and added to the _Assessments_ tool for consideration in the overall grading of students. The _Add online activity_ tool \(![](../../.gitbook/assets/graphics200.png)\) allows you to create a link from the assessment to one of the following types of resources in your course \(these resources already have scoring capabilities\):
+Innerhalb des Chamilo-Kurses können nicht nur Tests, sondern eine ganze Reihe von Aktivitäten bewertet und dem Tool _Assessments_ hinzugefügt werden, um die Gesamtbewertung der Schüler zu berücksichtigen. Mit dem Tool _Add Online Activity_ \(![](../../.gitbook/assets/graphics200.png)\) können Sie einen Link aus der Bewertung zu einer der folgenden Arten von Ressourcen in Ihrem Kurs erstellen \(diese Ressourcen verfügen bereits über Bewertungsfunktionen\):
 
 ![](../../.gitbook/assets/images140%20%281%29.png)
 
-_Illustration 107: Assessments – Add online activity_
+_Illustration 107: Bewertungen — Onlineaktivität hinzufügen_
 
 * Tests,
-* Assignments,
-* Learning paths,
-* Forum threads,
-* Attendances,
-* Surveys
+* Aufgaben,
+* Lernpfade
+* Forum-Threads,
+* Anwesenheiten,
+* Umfragen
 
-Walk down the drop-down lists to locate the activity visible in the list of activities for this assessment, and click to include the activity in the assessments so that it counts towards the learners' overall grade.
+Gehen Sie in den Dropdown-Listen nach unten, um die Aktivität zu finden, die in der Liste der Aktivitäten für diese Bewertung sichtbar ist, und klicken Sie, um die Aktivität in die Bewertungen aufzunehmen, damit sie für die Gesamtnote der Lernenden zählt.
 
-As you might expect, these “online” activities are automatically graded by Chamilo, so you don’t need to give students any score. That’s automatic. But the students will have to take the corresponding activities in order to get their grades.
-
+Wie zu erwarten, werden diese “online” -Aktivitäten automatisch von Chamilo bewertet, sodass Sie den Schülern keine Punkte geben müssen. Das ist automatisch. Aber die Schüler müssen die entsprechenden Aktivitäten unternehmen, um ihre Noten zu erhalten.

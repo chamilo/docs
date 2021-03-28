@@ -1,16 +1,15 @@
-# Recycling existing questions
+# Recycling bestehender Fragen
 
-Any question created, independently of the test or course to which it has been attached, feeds the questions database. This base can be very useful for teachers wanting to re-use questions that are very general or, needing questions to serve as “fillers” when you're short of a few questions in a new test.
+Jede Frage, die unabhängig von dem Test oder Kurs erstellt wird, an den sie angehängt wurde, füttert die Fragen-Datenbank. Diese Basis kann sehr nützlich sein für Lehrer, die sehr allgemeine Fragen wiederverwenden möchten oder Fragen als “fillers” benötigen, wenn Ihnen in einem neuen Test einige Fragen fehlt.
 
-During test creation, the database shows questions from other tests, as well as orphan questions \(i.e. those questions which have belonged to a test which has been removed\).
+Während der Testerstellung zeigt die Datenbank Fragen aus anderen Tests sowie verwaiste Fragen an \(d. h. jene Fragen, die zu einem Test gehört haben, der entfernt wurde\).
 
-When the question database shows, it presents a list of all existing questions inside the course. This is where assigning questions to categories and adding a difficulty to tests can prove very useful for identifying individual questions: use the _Filter_ and _Difficulty_ drop-down lists to filter the questions accordingly.
+Wenn die Fragendatenbank angezeigt wird, enthält sie eine Liste aller vorhandenen Fragen innerhalb des Kurses. Hier kann sich das Zuweisen von Fragen zu Kategorien und das Hinzufügen von Schwierigkeiten zu Tests als sehr nützlich erweisen, um einzelne Fragen zu identifizieren: Verwenden Sie die Dropdown-Listen _Filter_ und _Schwierigkeit_, um die Fragen entsprechend zu filtern.
 
-To access the database, click on the _recycle existing questions_ icon ![](../../.gitbook/assets/graphics361.png) as it is listed on the _Create a question_ page alongside the various question types:
+Um auf die Datenbank zuzugreifen, klicken Sie auf das Symbol _Recycle bestehender Fragen_ ![](../../.gitbook/assets/graphics361.png), da es auf der Seite _Create a Question_ neben den verschiedenen Fragetypen aufgeführt ist:
 
 ![](../../.gitbook/assets/images56%20%282%29.png)
 
-_Illustration 62: Tests – Questions database_
+_Illustration 62: Tests — Fragen-Datenbank_
 
-Click the _Re-use in current test_ button ![](../../.gitbook/assets/graphics155.gif) to include these questions in the current test. What actually happens \(in Chamilo 1.9\) is that a copy of the old test is included in the current test, so that it can be edited if necessary for the new test without its content or configuration being altered within the test in which it was originally created.
-
+Klicken Sie auf die Schaltfläche _Im aktuellen Test wiederverwenden_, um diese Fragen in den aktuellen Test aufzunehmen. ![](../../.gitbook/assets/graphics155.gif) Was tatsächlich passiert \(in Chamilo 1.9\) ist, dass eine Kopie des alten Tests im aktuellen Test enthalten ist, so dass er bei Bedarf für den neuen Test bearbeitet werden kann, ohne dass sein Inhalt oder seine Konfiguration innerhalb des Tests geändert wird, in dem er ursprünglich erstellt wurde.

@@ -1,16 +1,15 @@
-# Add forum
+# Forum hinzufügen
 
-From the _Forum_ page:
+Von der _Forum_ Seite:
 
-* Click _New forum_,
-* give it a name,
-* add a description if necessary,
-* in the advanced settings, it is possible to:
-  * authorize learners to modify their own answers,
-  * authorize learners to create new discussion threads,
-  * set the default view,
-  * decide if the forum is the one of a group, if it is public or private,
-* click the _Create forum_ button.
+* Klicken Sie auf _Neues Forum_,
+* gib ihm einen Namen,
+* ggf. eine Beschreibung hinzufügen,
+* In den erweiterten Einstellungen ist es möglich:
+ * Ermächtigen Sie die Lernenden, ihre eigenen Antworten zu ändern,
+ * Ermächtigen Sie die Lernenden, neue Diskussionsfäden zu erstellen,
+ * Legen Sie die Standardansicht fest,
+ * entscheiden, ob das Forum das einer Gruppe ist, ob es öffentlich oder privat ist,
+* Klicken Sie auf die Schaltfläche _Create forum_.
 
-![](../../.gitbook/assets/graphics4.png)_Illustration 70: Forum – Forum creation form_
-
+![](../../.gitbook/assets/graphics4.png)_Illustration 70: Forum — Formular zur Erstellung von Foren

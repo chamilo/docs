@@ -1,17 +1,16 @@
-# Sub-languages
+# Sub-Sprachen
 
-Sub-languages are summarily defined in the Administrator Guide and can be defined following the procedure below:
+Untersprachen sind im Administratorhandbuch zusammenfassend definiert und können im folgenden Verfahren definiert werden:
 
-1. Go to platform settings
-2. Pick the “languages” section
-3. Enable the sub-languages feature
-4. Click the “Platform languages” link in the first setting of this section to get to the languages list
-5. Click the U.N. flag with a yellow star icon next to the parent language to define a new sub-language
-6. Return to the languages list
-7. Click the double arrow icon to redefine some specific terms \(and redefine some\)
-8. Change the language for one of the platform users \(can be yourself\)
-9. Disconnect and connect as the changed user
-10. You should see the transformed terms
+1. Gehe zu den Plattformeinstellungen
+2. Wähle den Abschnitt “languages”
+3. Aktivieren der Funktion „Sub-Sprachen“
+4. Klicken Sie in der ersten Einstellung dieses Abschnitts auf den Link “Platform languages”, um zur Sprachenliste zu gelangen
+5. Klicken Sie auf die UN-Fahne mit einem gelben Sternsymbol neben der übergeordneten Sprache, um eine neue Untersprache zu definieren
+6. Zurück zur Sprachenliste
+7. Klicken Sie auf das Doppelpfeilsymbol, um einige spezifische Begriffe neu zu definieren \(und einige neu zu definieren\)
+8. Ändern Sie die Sprache für einen der Plattformbenutzer \(kann Sie selbst sein\)
+9. Trennen und verbinden sich als geänderter Benutzer
+10. Du solltest die transformierten Bedingungen sehen
 
-Of course, once these 10 steps have been followed, changing new terms is just a matter of 3-4 steps.
-
+Sobald diese 10 Schritte befolgt wurden, ist das Ändern neuer Bedingungen natürlich nur noch eine Frage von 3-4 Schritten.

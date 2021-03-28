@@ -1,26 +1,25 @@
-# Importing a document
+# Importieren eines Dokuments
 
-Import a new document by going to the desired destination folder and clicking the _Upload documents icon_ ![](../../.gitbook/assets/graphics116.png).
+Importieren Sie ein neues Dokument, indem Sie zum gewünschten Zielordner gehen und auf das Symbol _Dokumente hochladen_ ![](../../.gitbook/assets/graphics116.png) klicken.
 
 ![](../../.gitbook/assets/images34%20%282%29.png)
 
-_Illustration 32: Documents - Icons - Upload_
+_Illustration 32: Dokumente - Symbole - Hochladen_
 
-The following screen appears:
+Der folgende Bildschirm wird angezeigt:
 
-![](../../.gitbook/assets/images35%20%282%29.png)_Illustration 33: Documents – Documents upload_
+![](../../.gitbook/assets/images35%20%282%29.png)_Illustration 33: Dokumente — Dokumente hochladen_
 
-Click on the green area to explore the files on your disk and select one\(s\) to upload. Inside the pop-up window, click the confirmation button. The documents upload starts. If you send several files at the same time, you will see their upload progress, live, as in the following illustration.
+Klicken Sie auf den grünen Bereich, um die Dateien auf Ihrer Festplatte zu durchsuchen, und wählen Sie eine \(s\) zum Hochladen aus. Klicken Sie im Popup-Fenster auf die Bestätigungsschaltfläche. Der Upload der Dokumente beginnt. Wenn Sie mehrere Dateien gleichzeitig senden, sehen Sie den Upload-Fortschritt wie in der folgenden Abbildung live.
 
-![](../../.gitbook/assets/graphics119.png)_Illustration 34: Documents – Documents upload in progress_
+![](../../.gitbook/assets/graphics119.png)_Illustration 34: Dokumente — Dokumente werden im Ju hochgeladen_
 
-Once the upload is finished, the following validation list appears.
+Sobald der Upload abgeschlossen ist, wird die folgende Validierungsliste angezeigt.
 
 ![](../../.gitbook/assets/images37%20%281%29.png)
 
-_Illustration 35: Documents – Document upload finished_
+_Illustration 35: Dokumente — Das Hochladen von Dokumenten ist fertig_
 
-The green ticks indicate that the documents have been sent to the course successfully. Click on the blue arrow icon pointing left to get back to the documents list.
+Die grünen Ticks weisen darauf hin, dass die Dokumente erfolgreich an den Kurs gesendet wurden. Klicken Sie auf das blaue Pfeilsymbol, das nach links zeigt, um zur Dokumentenliste zurückzukehren.
 
-> **Note** : The tab labeled Send **\(**Simple**\)** allows you to use the traditional “dialogue window” procedure to upload. We called it **Simple** because users are generally more used to this one, though it's really a bit more complicated to use! Document indexing options can only be found in the Simple form \(in case your administrator has enabled the search feature\) as well as an option to unzip a complete file hierarchy.
-
+> **Hinweis**: Die Registerkarte Senden ** \(**Simple**\) ** ermöglicht es Ihnen, das traditionelle “dialogue window” -Verfahren zum Hochladen zu verwenden. Wir nannten es „Simple**“, weil die Benutzer im Allgemeinen mehr an dieses Gewöhnler sind, obwohl es wirklich etwas komplizierter ist! Optionen für die Dokumentindizierung finden Sie nur im einfachen Formular \(falls Ihr Administrator die Suchfunktion aktiviert hat\) sowie eine Option zum Entpacken einer vollständigen Dateihierarchie.

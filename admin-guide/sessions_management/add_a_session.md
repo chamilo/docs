@@ -1,37 +1,39 @@
-# Add a session
+# Fügen Sie eine Sitzung hinzu
 
-To add a session:
+So fügen Sie eine Sitzung hinzu:
 
-* go to _administration_,
-* _course sessions_ → « Add a course session »,
-* give a name to the session,
-* assign a coach who will have permissions to enter and follow all courses and learners inside this session,
-* give a sessions category \(optional\),
-* define whether there is a time expiry limit,
-* give a few days of additional access for the coaches to the session,
-* define the visibility of a session once expired:
-  * read only \(can access resources but not pass exams, answer forums, etc. anymore\),
-  * accessible \(can be accessed freely, through the sessions history link on the courses list\),
-  * not accessible,
-* ![](../../.gitbook/assets/sessionajouter%20%283%29.png)Illustration 65: Administration – Session creation
+* gehe zu _administration_,
+* _Kurssitze_ → « Add a course session »,
+* geben Sie der Sitzung einen Namen,
+* weisen Sie einen Coach zu, der die Berechtigung hat, alle Kurse und Teilnehmer in dieser Sitzung zu betreten und zu verfolgen,
+* geben Sie eine Sitzungskategorie an \(optional\),
+* definieren, ob es ein Zeitablauflimit gibt,
+* geben Sie den Trainern einige Tage zusätzlichen Zugang zu der Sitzung,
+* Definieren Sie die Sichtbarkeit einer Sitzung nach Ablauf:
+ * schreibgeschützt \(kann auf Ressourcen zugreifen, aber keine Prüfungen bestehen, Foren mehr beantworten\),
+ * zugänglich \(kann frei über den Link zum Sitzungsverlauf auf der Kursliste zugegriffen werden\),
+ * nicht zugänglich,
+* ![](../../.gitbook/assets/sessionajouter%20%283%29.png)
+Illustration 65: Administration — Session-Erstellung
 
-  click on _Next step_.
+ klicken Sie auf _Nächster Schritt_.
 
-The second step requires you to register courses to the session. Select one \(or more\) course\(s\) and click on the blue arrow button to add it \(or remove it\) then click on the _Next step_ button to proceed.
+Im zweiten Schritt müssen Sie Kurse für die Sitzung anmelden. Wählen Sie einen \(oder mehrere\) -Kurs \(s\) aus und klicken Sie auf den blauen Pfeil, um ihn hinzuzufügen \(oder zu entfernen\), und klicken Sie dann auf die Schaltfläche _Nächster Schritt_, um fortzufahren.
 
-**Single registration** allows you to not get lost within the courses that exist on the platform. You must write the start of the course title inside the search field and the corresponding courses will appear.
+**Einzelanmeldung** ermöglicht es Ihnen, sich nicht in den auf der Plattform vorhandenen Kursen zu verlieren. Sie müssen den Beginn des Kurstitels in das Suchfeld schreiben und die entsprechenden Kurse werden angezeigt.
 
-![](../../.gitbook/assets/session-inscription%20%283%29.png)Illustration 66: Administration – Registering courses into a session
+![](../../.gitbook/assets/session-inscription%20%283%29.png)
+Illustration 66: Administration — Kurse für eine Sitzung anmelden
 
-The last step allows you to subscribe _learners_ to the session \(other coaches can be assigned later, this is just a learners subscription at this point\).
+Im letzten Schritt können Sie _Learners_ für die Sitzung abonnieren \(andere Coaches können später zugewiesen werden, dies ist zu diesem Zeitpunkt nur ein Teilnehmerabonnement\).
 
-Choose the users and, like for the courses, add them with the blue arrow button.
+Wählen Sie die Benutzer aus und fügen Sie sie wie bei den Kursen mit der blauen Pfeiltaste hinzu.
 
-**Single registration** allows you to search for one user \(by firstname or lastname\).
+**Einzelne Registrierung** ermöglicht es Ihnen, nach einem Benutzer zu suchen \(nach Vorname oder Nachname\).
 
-Enrolment by classes allows you to register learners to your session by classes. Classes are defined in the next sections of this chapter.
+Die Einschreibung nach Klassen ermöglicht es Ihnen, Lernende nach Klassen für Ihre Sitzung anzumelden. Die Klassen werden in den nächsten Abschnitten dieses Kapitels definiert.
 
-![](../../.gitbook/assets/session-inscription2%20%283%29.png)Illustration 67: Administration – Subscribing students to sessions
+![](../../.gitbook/assets/session-inscription2%20%283%29.png)
+Illustration 67: Administration — Teilnehmer zu Sitzungen abonnieren
 
-Because of the special behaviour of course tools when used through sessions, we have written a technical report about how these should behave in the context of a session on our technical wiki: [http://support.chamilo.org/projects/chamilo-18/wiki/Tools\_and\_sessions](http://support.chamilo.org/projects/chamilo-18/wiki/Tools_and_sessions)
-
+Aufgrund des besonderen Verhaltens von Kurswerkzeugen bei der Verwendung in Sitzungen haben wir einen technischen Bericht darüber verfasst, wie sich diese im Rahmen einer Sitzung in unserem technischen Wiki verhalten sollen: [http://support.chamilo.org/projects/chamilo-18/wiki/Tools\_and\_sessions](http://support.chamilo.org/projects/chamilo-18/wiki/Tools_and_sessions)

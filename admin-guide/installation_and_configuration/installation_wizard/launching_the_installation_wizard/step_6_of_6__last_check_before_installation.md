@@ -1,8 +1,8 @@
-# Step 6 of 6 : Last check before installation
+# Schritt 6 von 6: Letzte Überprüfung vor der Installation
 
-![](../../../../.gitbook/assets/images11%20%288%29.png)Illustration 10: Installation - Reminder
+![](../../../../.gitbook/assets/images11%20%288%29.png)
+Illustration 10: Installation - Erinnerung
 
-Here, you'll be able to check all your settings a last time before launching the installation. We recommend you take a screenshot \(or print it\) and keep it in a safe place. It might be useful when reporting a bug to the Chamilo community, or in case you forgot the settings you set. If you spot a mistake in the settings, just go back and update it. Alternatively, just click on the _Install Chamilo_ button and proceed...
+Hier können Sie alle Ihre Einstellungen ein letztes Mal überprüfen, bevor Sie die Installation starten. Wir empfehlen Ihnen, einen Screenshot zu machen \(oder ihn auszudrucken\) und ihn an einem sicheren Ort aufzubewahren. Dies kann nützlich sein, wenn Sie einen Fehler an die Chamilo-Community melden oder falls Sie die von Ihnen festgelegten Einstellungen vergessen haben. Wenn Sie einen Fehler in den Einstellungen feststellen, gehen Sie einfach zurück und aktualisieren Sie ihn. Alternativ klicken Sie einfach auf die Schaltfläche „Chamilo_ installieren“ und fahren Sie fort...
 
-Once the installation is over, just go to the site by following the link given and connect with the account you just set.
-
+Sobald die Installation abgeschlossen ist, gehen Sie einfach auf die Website, indem Sie dem angegebenen Link folgen und sich mit dem soeben festgelegten Konto verbinden.

@@ -1,12 +1,11 @@
-# Projects
+# Projekte
 
-The _Projects_ or _Blogs_ tool ![](../../.gitbook/assets/graphics307.png) was developed in 2006 at the request of a large Belgian telecoms company. The idea behind it was to implement a blog with lightweight project management features, which was tagged under the name of _Smart blogs_. Its philosophy is to allow for the assignment of tasks to the learners in order to write the contents of a story-telling type blog.
+Das Tool _Projects_ oder _Blogs_ ![](../../.gitbook/assets/graphics307.png) wurde 2006 auf Wunsch eines großen belgischen Telekommunikationsunternehmens entwickelt. Die Idee dahinter war die Implementierung eines Blogs mit leichtgewichtigen Projektmanagementfunktionen, der unter dem Namen _Smart Blogs_ markiert wurde. Seine Philosophie besteht darin, die Zuweisung von Aufgaben an die Lernenden zu ermöglichen, um den Inhalt eines Blogs vom Typ „Geschichtenerzählung“ zu schreiben.
 
-The teacher takes responsibility for choosing learners who will contribute to the blog, and defines the project and the assignment of tasks \(or roles taken by the learners\). The creation of articles is shared between the teacher and the learners.
+Der Lehrer übernimmt die Verantwortung für die Auswahl der Lernenden, die zum Blog beitragen, und definiert das Projekt und die Zuweisung von Aufgaben \(oder Rollen der Lernenden\). Die Erstellung von Artikeln wird zwischen dem Lehrer und den Lernenden geteilt.
 
-The tool can, however, be used as a classic blog.
+Das Tool kann jedoch als klassischer Blog verwendet werden.
 
-**Note** : When a new project is created, it appears in the list of course Authoring tools on the course homepage. Its visibility can be controlled like that of other tools. One main difference by comparison to other tools is that one can create several blogs in the same course. They will appear as multiple entries in the Authoring tools in much the same way as with links and learning paths.
+**Hinweis**: Wenn ein neues Projekt erstellt wird, wird es in der Liste der Erstellungstools auf der Kurs-Homepage angezeigt. Seine Sichtbarkeit kann wie bei anderen Tools gesteuert werden. Ein Hauptunterschied im Vergleich zu anderen Tools besteht darin, dass man mehrere Blogs im selben Kurs erstellen kann. Sie werden auf ähnliche Weise als mehrere Einträge in den Authoring-Tools angezeigt wie bei Links und Lernpfaden.
 
-![](../../.gitbook/assets/images237.png)_Illustration 162: Projects - List_
-
+![](../../.gitbook/assets/images237.png)_Illustration 162: Projekte - Liste_

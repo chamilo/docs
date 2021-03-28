@@ -1,14 +1,13 @@
-# Show individual learner's details
+# Details einzelner Teilnehmer anzeigen
 
-On the _Reporting_ page, click the _Details_ icon ![](../../.gitbook/assets/graphics53.gif) next to the name of the learner you want to check on. The new page shows the learner's details in summary, including profile information, photo, connection and summary progress details, but also detailed information about the student's progress through each learning path, results in tests, and potentially useful information about other activities such as assignments, messages sent, links visited, documents uploaded and chat.
+Klicken Sie auf der Seite _Reporting_ neben dem Namen des Teilnehmers, den Sie überprüfen möchten, auf das Symbol _Details_ ![](../../.gitbook/assets/graphics53.gif). Die neue Seite zeigt die Details des Lernenden in der Zusammenfassung, einschließlich Profilinformationen, Foto-, Verbindungs- und zusammenfassenden Fortschrittsdetails, aber auch detaillierte Informationen über den Fortschritt des Schülers auf jedem Lernpfad, Ergebnisse in Tests und potenziell nützliche Informationen über andere Aktivitäten wie Aufgaben, gesendete Nachrichten, besuchte Links, hochgeladene Dokumente und Chat.
 
-![](../../.gitbook/assets/graphics54.png)_Illustration 88: Reporting – individual student's details_
+![](../../.gitbook/assets/graphics54.png)_Illustration 88: Berichterstattung — Details einzelner Studenten_
 
-The information can be printed ![](../../.gitbook/assets/graphics51.png) , exported as a csv file ![](../../.gitbook/assets/graphics185.png) or mailed ![](../../.gitbook/assets/graphics186.png) by clicking on the relevant toolbar icon at the top of the page. Further details about test attempts and scores and progress through learning paths can be accessed by clicking on the various icons on the page.
+Die Informationen können ![](../../.gitbook/assets/graphics51.png) ausgedruckt, als CSV-Datei ![](../../.gitbook/assets/graphics185.png) oder als E-Mail an ![](../../.gitbook/assets/graphics186.png) exportiert werden, indem Sie auf das entsprechende Symbolleistensymbol oben auf der Seite klicken. Weitere Details zu Testversuchen und -punkten sowie zum Fortschritt durch Lernpfade können Sie abrufen, indem Sie auf die verschiedenen Symbole auf der Seite klicken.
 
-Clicking on the _Access Details_ icon ![](../../.gitbook/assets/graphics184.png) in the toolbar allows the teacher to see the course \(times and dates\) . This general reporting screen gives a general idea of the participation of the learner, which is useful for judging of the involvement of the learner inside the course.
+Durch Klicken auf das Symbol _Access-Details_ ![](../../.gitbook/assets/graphics184.png) in der Symbolleiste kann der Lehrer den Kurs sehen \(Zeiten und Daten\). Dieser allgemeine Berichtsbildschirm gibt einen Überblick über die Teilnahme des Lernenden, die nützlich ist, um die Beteiligung des Lernenden innerhalb des Kurses zu beurteilen.
 
 ![](../../.gitbook/assets/graphics183.png)
 
-_Illustration 89: Users – Access details_
-
+_Illustration 89: Benutzer — Zugriffsdaten_

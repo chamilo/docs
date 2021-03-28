@@ -2,13 +2,12 @@
 
 ![](../../.gitbook/assets/images33%20%288%29.png)
 
-Plugins in Chamilo exist to allow third party to \(relatively easily\) integrate new components in Chamilo, and are viewed either as a « staging » platform to include new features in the core of Chamilo in future versions, or as a « buffer » where we can make some code reside that we don't really **want** to integrate to Chamilo \(usually for ethical or licensing reasons\) but that we know might benefit our community at large.
+Plugins in Chamilo existieren, um es Dritten zu ermöglichen, [relativ einfach\) neue Komponenten in Chamilo zu integrieren, und werden entweder als « staging » -Plattform angesehen, um in zukünftigen Versionen neue Funktionen in den Kern von Chamilo aufzunehmen, oder als eine « buffer », bei der wir Code residieren können, die wir nicht wirklich integrieren möchten an Chamilo \(normalerweise aus ethischen oder lizenzrechtlichen Gründen\), aber von dem wir wissen, dass es unserer Community insgesamt zugute kommen könnte.
 
-For integrators, it is a great way to insert new code into Chamilo without having to wait for the next major version in order to incorporate database changes, as the plugins can have their own installer/uninstaller.
+Für Integratoren ist es eine großartige Möglichkeit, neuen Code in Chamilo einzufügen, ohne auf die nächste Hauptversion warten zu müssen, um Datenbankänderungen zu integrieren, da die Plugins ihren eigenen Installer/Deinstallationsprogramm haben können.
 
-Plugins can be split in 2 categories : visual plugins, and back-end plugins. Back-end plugins act in the background \(you'd have guessed\) and require much less work \(usually\) from the visual design side. Visual plugins need to be crafted carefully so they integrate seamlessly into the Chamilo layout.
+Plugins können in zwei Kategorien unterteilt werden: visuelle Plugins und Backend-Plugins. Back-End-Plugins wirken im Hintergrund \(du hättest es erraten\) und benötigen viel weniger Arbeit \(normalerweise\) von der Seite des visuellen Designs. Visuelle Plugins müssen sorgfältig erstellt werden, damit sie sich nahtlos in das Chamilo-Layout integrieren lassen.
 
-Although this is the major division, we won't make any distinction in the following section between these. If you develop a back-end plugin, just ignore the display part.
+Obwohl dies die Hauptabteilung ist, werden wir im folgenden Abschnitt keine Unterscheidung zwischen diesen treffen. Wenn Sie ein Backend-Plugin entwickeln, ignorieren Sie einfach den Display-Teil.
 
-We will, however, differentiate between the general plugins \(all but one at this time\) and the dashboard plugin, as this last one represents a specific case that appears as a top menu tabulation entry and is only allowed to administrators.
-
+Wir werden jedoch zwischen den allgemeinen Plugins \(alle außer einem zu diesem Zeitpunkt\) und dem Dashboard-Plugin unterscheiden, da dieses letzte einen bestimmten Fall darstellt, der als Tabelleneintrag für das Hauptmenü angezeigt wird und nur Administratoren erlaubt ist.

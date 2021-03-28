@@ -1,2 +1,1 @@
-# Recovering a backup
-
+# Wiederherstellen eines Backups

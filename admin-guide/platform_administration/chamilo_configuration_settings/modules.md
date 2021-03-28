@@ -1,34 +1,33 @@
-# Modules
+# Module
 
-![](../../../.gitbook/assets/graficos9%20%285%29.png)This category defines the properties of the course tools and global tools, globally \(influences all courses\).
+![](../../../.gitbook/assets/graficos9%20%285%29.png)This category definiert die Eigenschaften der Kurswerkzeuge und globalen Tools global \(beeinflusst alle Kurse\).
 
-**Modules active upon** **course** **creation** are the tools which will be visible by default in a newly created course. Teachers can then update these settings to fit their needs.
+**Module, die nach oben aktiv sind** **Kurs** ** sind die Werkzeuge, die in einem neu erstellten Kurs standardmäßig sichtbar sind. Lehrer können diese Einstellungen dann an ihre Bedürfnisse anpassen.
 
-Deleted files cannot be restored if a file is deleted, you have a choice whether you want the system to delete it completely or to keep a secret backup file with a _\_DELETED_ suffix. Delete files will not be visible through the system any more, but you'll be able to find them on disk.
+Gelöschte Dateien können nicht wiederhergestellt werden, wenn eine Datei gelöscht wird. Sie haben die Wahl, ob das System sie vollständig löschen oder eine geheime Sicherungsdatei mit einem Suffix _\_DELETED_ behalten soll. Das Löschen von Dateien ist im System nicht mehr sichtbar, Sie können sie jedoch auf der Festplatte finden.
 
-**Online e-mail editor** enabled lets you decide whether you want to give your users a way to send e-mails to other users of the platform \(by e-mail\) without requiring an external e-mail client. Try it by enabling the feature then clicking on the admin contact link in the portal footer.
+**Online-E-Mail-Editor** aktiviert lässt Sie entscheiden, ob Sie Ihren Benutzern die Möglichkeit geben möchten, E-Mails an andere Benutzer der Plattform zu senden \(per E-Mail\), ohne einen externen E-Mail-Client zu benötigen. Versuchen Sie es, indem Sie die Funktion aktivieren und dann auf den Admin-Kontaktlink in der Fußzeile des Portals klicken.
 
-**Booking** is a tool that lacks a lot of love \(translate: has a very bad interface\) but has potential: once well configured, you can set resources up inside your platform to book them and show their availability.
+**Buchung** ist ein Tool, dem es an viel Liebe mangelt \(translate: hat eine sehr schlechte Schnittstelle\), aber Potenzial hat: Sobald Sie gut konfiguriert sind, können Sie Ressourcen in Ihrer Plattform einrichten, um sie zu buchen und ihre Verfügbarkeit zu zeigen.
 
-Internal messaging tool allows you to disable the messages box in the social network.
+Mit dem internen Messaging-Tool können Sie das Nachrichtenfeld im sozialen Netzwerk deaktivieren.
 
-Social network tool \(Facebook-like\) allows you to disable the social network feature. If disabled, the _Social network_ tab will say _Profile_ and users won't be able to invite and communicate with friends through the portal.
+Das Tool für soziale Netzwerke \(Facebook-like\) ermöglicht es Ihnen, die Funktion für soziale Netzwerke zu deaktivieren. Wenn diese Option deaktiviert ist, wird auf der Registerkarte _Social Network_ _Profile_ nicht angezeigt, und Benutzer können nicht über das Portal mit Freunden einladen und mit ihnen kommunizieren.
 
-Allow learners to create groups in social network allows normal students to create their own groups.
+Ermöglichen Sie den Lernenden, Gruppen in sozialen Netzwerken zu erstellen, ermöglicht normalen Schülern, ihre eigenen Gruppen zu erstellen.
 
-Allow sending messages to any platform user is a privacy feature to avoid spamming. On a large portal, users should probably be required to be “approved friends” before they can send messages to one another. The default is to allow anyone to message anyone else.
+Das Senden von Nachrichten an jeden Plattformbenutzer zuzulassen, ist eine Datenschutzfunktion, um Spam zu vermeiden. Auf einem großen Portal sollten Benutzer wahrscheinlich “approved friends” sein, bevor sie sich gegenseitig Nachrichten senden können. Die Standardeinstellung ist, jedem anderen zu erlauben, eine Nachricht zu senden.
 
-Create and edit SVG files enables the SVGEdit software inside the documents tool. We recommend to let this setting enabled as the tool is great and adds a lot of flexibility to the document building.
+Das Erstellen und Bearbeiten von SVG-Dateien ermöglicht die SVGEdit-Software innerhalb des Dokumenten-Tools. Wir empfehlen, diese Einstellung aktivieren zu lassen, da das Tool großartig ist und der Dokumentenerstellung viel Flexibilität verleiht.
 
-Enable online services for text to speech conversion lets you enable the text-to-speech feature in the documents tool. We recommend you enable it. It is not enabled by default to avoid users frustration in case the server does not have an internet connection \(which is required for the feature to work\).
+Wenn Sie Online-Dienste für die Konvertierung von Text in Sprache aktivieren, können Sie die Text-zu-Sprache-Funktion im Dokumenten-Tool aktivieren. Wir empfehlen Ihnen, es zu aktivieren. Es ist standardmäßig nicht aktiviert, um Frustration der Benutzer zu vermeiden, falls der Server keine Internetverbindung hat \(was erforderlich ist, damit die Funktion funktioniert\).
 
-Hide tools from teachers allows you to select tools that you want to hide on the whole platform. Not even the course teachers will be able to see them.
+Tools vor Lehrern ausblenden ermöglicht es Ihnen, Tools auszuwählen, die Sie auf der gesamten Plattform ausblenden möchten. Nicht einmal die Kurslehrer werden sie sehen können.
 
-Enable external Pixlr services allows you to enable the photo edition tool in the documents tool. This requires the end user to have an internet connection \(just connecting to the Chamilo server doesn't guarantee it will work\).
+Wenn Sie externe Pixlr-Dienste aktivieren, können Sie das Foto-Edition-Tool im Dokumenten-Tool aktivieren. Dies erfordert, dass der Endbenutzer eine Internetverbindung hat \(wenn Sie sich nur mit dem Chamilo Server verbinden, wird nicht garantiert, dass es funktioniert\).
 
-Activate recorder - voice player Nanogongallows you to enable a voice recorder \(Java Applet\) in the documents tool.
+Recorder aktivieren - Voice Player NanogongErmöglicht es Ihnen, einen Voice Recorder \(Java Applet\) im Dokumententool zu aktivieren.
 
-Activate Wami-recorder enables another voice recorder, this one in Flash, in the documents tool. Enabling Wami or Nanogong really depends on what software is most available on your users' computers.
+Aktivieren Sie Wami-Recorder ermöglicht einen weiteren Diktiergerät, diesen in Flash, im Dokumenten-Tool. Die Aktivierung von Wami oder Nanogong hängt wirklich davon ab, welche Software auf den Computern Ihrer Benutzer am besten verfügbar ist.
 
-Enable Webcam Clip enables a feature taking pictures from your webcam in the documents tool. This allows for faster illustration of courses by the teachers \(no need for digital camera, your webcam does the trick\).
-
+Aktivieren Sie Webcam-Clip aktiviert eine Funktion, die Bilder von Ihrer Webcam im Dokumenten-Tool aufnimmt. Dies ermöglicht eine schnellere Illustration der Kurse durch die Lehrer \(keine Notwendigkeit für eine Digitalkamera, Ihre Webcam macht den Trick\).

@@ -1,6 +1,5 @@
-# Reply or Reply to this topic
+# Antwort oder Antwort auf dieses Thema
 
-The main difference between those two options resides in the hierarchy of the different messages and their answers.
+Der Hauptunterschied zwischen diesen beiden Optionen liegt in der Hierarchie der verschiedenen Nachrichten und ihrer Antworten.
 
-_Reply_ creates new answers which will be deleted altogether when the initial message s removed, while _Reply to this thread_ creates messages which will be kept, even if the starting message is removed.
-
+_Reply_ erstellt neue Antworten, die vollständig gelöscht werden, wenn die erste Nachricht entfernt wird, während _Auf diesen Thread antworte Nachrichten erstellt, die beibehalten werden, selbst wenn die Startnachricht entfernt wird.

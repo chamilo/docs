@@ -1,12 +1,11 @@
-# Document history
+# Geschichte des Dokuments
 
-This document is the fruit of the collaboration of several organisations and individuals. In order to keep a trace of the successive participations of these people an ensure the lasting of their contribution, we keep a complete record here. If you improve this document in any way, please add your name below and send the updated version \(together with a list of changes\) to info@chamilo.org. Thank you!
+Dieses Dokument ist das Ergebnis der Zusammenarbeit mehrerer Organisationen und Einzelpersonen. Um die aufeinanderfolgenden Beteiligungen dieser Menschen zu verfolgen und den Dauerhaft ihres Beitrags zu gewährleisten, führen wir hier einen vollständigen Bericht. Wenn Sie dieses Dokument in irgendeiner Weise verbessern, fügen Sie bitte unten Ihren Namen hinzu und senden Sie die aktualisierte Version \(zusammen mit einer Liste von Änderungen\) an info@chamilo.org. Danke!
 
-| Date | Contributor | Contact | Updates |
+| Datum | Beiträger | Kontakt | Updates |
 | :--- | :--- | :--- | :--- |
-| 2010 | 2i2l.fr, Anaël Boulier | info@2i2l.fr | Rédaction de base du manuel pour Chamilo 1.8.7 |
-| Avril 2011 | BeezNest Belgium SPRL, Yannick Warnier | info@beeznest.com | Mise à jour pour 1.8.8, correctifs, mise en page, ajouts de détails |
-| Juillet 2011 | BeezNest Belgium SPRL, Yannick Warnier | info@beeznest.com | Mise à jour pour 1.8.8.4, ajouts de sections multi-url, videoconf, styles, conversion ppt, classes, filières et promotions, copies de sessions, rôles d'utilisateurs, extension de profils, sous-langages, réécriture de l'introduction, listing des options |
-| July 2011 | BeezNest Belgium SPRL | info@beeznest.com | Translation to English. Missing illustrations and peer review. |
-| March 2013 | BeezNest Belgium SPRL | info@beeznest.com | Updated to Chamilo 1.9 and added new sections. |
-
+| 2010 | 2i2l.fr, Anaël Boulier | info@2i2l.fr | Rédaction de base du Manuel pour `Chamilo 1.8.7` |
+| April 2011 | BeezNest Belgium SPRL, Yannick Warnier | info@beeznest.com | Mise à jour pour `1.8.8`, correctifs, mise en page, ajouts de détails |
+| juillet 2011 | BeezNest Belgien SPRL, Yannick Warnier | info@beeznest.com | Mise à jour pour `1.8.8`.4, ajouts de sections multi-url, videoconf, Stile, Conversion ppt, Klassen, filières et promotions, Kopien de Sessions, Rôles d'utilisateurs, Erweiterung de Profilen, Sous-Langages, récriture de l'introduction, Auflistung der Optionen |
+| July 2011 | BeezNest Belgium SPRL | info@beeznest.com | Übersetzung nach Englisch. Fehlende Illustrationen und Peer-Review. |
+| März 2013 | BeezNest Belgium SPRL | info@beeznest.com | Auf `Chamilo 1.9` aktualisiert und neue Abschnitte hinzugefügt. |

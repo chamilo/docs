@@ -1,22 +1,23 @@
-# Learning paths
+# Lernpfade
 
-After exporting the learning paths, you might want to know how to import them back into another \(or the same\) Chamilo portal.
+Nachdem Sie die Lernpfade exportiert haben, möchten Sie vielleicht wissen, wie Sie sie wieder in ein anderes \(oder dasselbe\) Chamilo-Portal importieren.
 
-In the _My courses_ tab, create an empty course matching the one which has to be imported \(or re-use an existing course\). Once in the course, click _Learning paths_.
+Erstellen Sie auf der Registerkarte _Meine Kurse_ einen leeren Kurs, der dem entspricht, der importiert werden muss \(oder einen vorhandenen Kurs wiederverwenden\). Klicken Sie im Kurs auf _Learning Paths_.
 
-In the learning paths tool, you have three options:
+Im Tool „Lernpfade“ haben Sie drei Optionen:
 
-* « Create new course » \(1st icon\),
-* « Import [SCORM](http://fr.wikipedia.org/wiki/Sharable_Content_Object_Reference_Model) courses » \(2nd icon\),
-* « Chamilo Rapid » \(3rd icon\)
+* « Create new course » \(1. Icon\),
+* « Import [SCORM](http://fr.wikipedia.org/wiki/Sharable_Content_Object_Reference_Model) courses » \(2. Icon\),
+* « Chamilo Rapid » \(3. Icon\)
 
-![](../../../.gitbook/assets/graficos35%20%286%29.png)Illustration 27: Interface – Learning paths import
+![](../../../.gitbook/assets/graficos35%20%286%29.png)
+Illustration 27: Interface — Lernpfade importieren
 
-To import the learning path previously exported, click on _Import SCORM course_ \(2nd icon\).
+Um den zuvor exportierten Lernpfad zu importieren, klicken Sie auf _SCORM-Kurs importieren_ \(2. Icon\).
 
-![](../../../.gitbook/assets/graficos36%20%286%29.png)Illustration 28: Interface – SCORM learning paths import
+![](../../../.gitbook/assets/graficos36%20%286%29.png)
+Illustration 28: Interface — Importieren von SCORM-Lernbahnen
 
-The backup must obviously be compatible with SCORM and, something less obvious, SCORM 1.2, which is a particular version of SCORM. Chamilo does not fully support SCORM 2004, so you will probably have a valid learning path import, but it will not remain fully functional, most of the time. Your learning path package can also be AICC compatible, but that's another story.
+Das Backup muss offensichtlich mit SCORM und, etwas weniger offensichtlich, SCORM 1.2, einer bestimmten Version von SCORM, kompatibel sein. Chamilo unterstützt SCORM 2004 nicht vollständig, daher werden Sie wahrscheinlich einen gültigen Lernpfadimport haben, der jedoch die meiste Zeit nicht voll funktionsfähig bleibt. Ihr Lernpfad-Paket kann auch AICC-kompatibel sein, aber das ist eine andere Geschichte.
 
-Note the _Authoring tool_ field is only an informational field and doesn't generate any behaviour modification.
-
+Beachten Sie, dass das Feld _Authoring tool_ nur ein Informationsfeld ist und keine Verhaltensänderung erzeugt.

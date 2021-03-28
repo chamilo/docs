@@ -1,14 +1,14 @@
-# Careers and promotions
+# Karriere und Promotions
 
-Careers and promotions are two new concepts in Chamilo 1.8.8. They allow you to manage careers \(like “Medicine” or “Software engineering”\) and promotions \(like “Medicine, graduation of 2017”\) almost the same way you would manage them in a normal academical institution once you combine them with sessions and periods \(i.e. categories of sessions\).
+Karrieren und Promotionen sind zwei neue Konzepte in `Chamilo 1.8.8`. Sie ermöglichen es Ihnen, Karrieren \(wie “Medicine” oder “Software engineering”\) und Promotionen \(wie “Medicine, graduation of 2017”\) fast genauso zu verwalten, wie Sie sie in einer normalen akademischen Einrichtung verwalten würden, sobald Sie sie mit Sitzungen und Perioden kombinieren \(dh Kategorien von Sitzungen\).
 
-The interface of the tool is still a bit rough on the edges, and it will take you some time at first to find your way, but it is stable and you should be able to use it easily after a few minutes of practice.
+Die Oberfläche des Werkzeugs ist an den Rändern immer noch etwas rau, und es wird zunächst einige Zeit dauern, bis Sie sich zufinden, aber es ist stabil und Sie sollten es nach ein paar Minuten Übung problemlos verwenden können.
 
-Let's see how it's done...
+Mal sehen wie es geht...
 
-![](../../../.gitbook/assets/graficos85%20%285%29.png)Illustration 70: List of careers and promotions
+![](../../../.gitbook/assets/graficos85%20%285%29.png)
+Illustration 70: Liste der Karrieren und Promotionen
 
-The first page gives us a list of careers \(grey-background line\), of promotions that each career contains \(first column\), of sessions registered to these promotions \(second column\) and of courses included into these sessions \(last column\).
+Die erste Seite gibt uns eine Liste der Karrieren \(Zeile mit grauem Hintergrund\), der Werbeaktionen, die jede Karriere enthält \(erste Spalte\), der Sitzungen, die für diese Werbeaktionen registriert sind \(zweite Spalte\) und der Kurse, die in diesen Sitzungen enthalten sind \(letzte Spalte\).
 
 ![](../../../.gitbook/assets/graficos86%20%285%29.png)
-

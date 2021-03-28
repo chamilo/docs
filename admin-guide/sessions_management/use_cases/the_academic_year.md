@@ -1,32 +1,31 @@
-# The academic year
+# Das akademische Jahr
 
-Let's imagine you work in a university in Europe. Every year, teachers teach new courses, but every year there is also a great number of courses which do not evolve much. These courses from last year could be recycled and used with the new group of fresh students coming in this year.
+Stellen wir uns vor, Sie arbeiten an einer Universität in Europa. Jedes Jahr unterrichten die Lehrer neue Kurse, aber jedes Jahr gibt es auch eine große Anzahl von Kursen, die sich nicht sehr entwickeln. Diese Kurse aus dem letzten Jahr konnten recycelt und mit der neuen Gruppe frischer Studenten in diesem Jahr genutzt werden.
 
-Without session, you'd have two options. The first one is to copy the course:
+Ohne Sitzung hätten Sie zwei Möglichkeiten. Die erste besteht darin, den Kurs zu kopieren:
 
-* copy the course to a new course, duplicate the 50MB of space \(over and over\),
-* assign maybe another teacher and
-* find a new course code that fits the fact that it's not entirely the same course but it's not really different either
-* have your previous students remain with the previous course in their listing because it's not been “expired”
+* Kopieren Sie den Kurs in einen neuen Kurs, duplizieren Sie die 50 MB Speicherplatz \(immer wieder\),
+* Weisen Sie vielleicht einen anderen Lehrer zu und
+* finde einen neuen Kurscode, der der Tatsache entspricht, dass er nicht ganz derselbe Kurs ist, aber auch nicht wirklich anders ist
+* Lassen Sie Ihre vorherigen Studenten mit dem vorherigen Kurs in ihrer Auflistung bleiben, weil es nicht “expired” war
 
-The other option is to clean the course up:
+Die andere Möglichkeit besteht darin, den Kurs aufzuräumen:
 
-* remove all students from course
-* remove all useless forums
-* remove all useless wiki pages
-* have your previous students remain without any access to the course they took last year
+* Entferne alle Schüler vom Kurs
+* Entferne alle nutzlosen Foren
+* Entferne alle unbrauchbaren Wiki-Seiten
+* lassen Sie Ihre bisherigen Studenten ohne Zugang zu dem Kurs bleiben, den sie letztes Jahr belegten
 
-With the sessions, you change a little bit how it works:
+Mit den Sitzungen änderst du ein wenig, wie es funktioniert:
 
-* you define a session that spans the whole semester from January 2011 to July 2011
-* you register 10 courses to it
-* you register teachers responsible for these courses
-* you register students in the session
+* Sie definieren eine Sitzung, die das gesamte Semester von Januar 2011 bis Juli 2011 umfasst
+* du registrierst 10 Kurse dazu
+* Sie melden Lehrer ein, die für diese Kurse verantwortlich sind
+* Sie melden Studenten in der Sitzung an
 
-This brings the following advantages:
+Dies bringt folgende Vorteile mit sich:
 
-* teachers can add content to the basic courses registered, but they cannot remove from them, and what they add is only visible to their students
-* students must only be registered once to the whole 10 courses
-* students will still have access to these courses after the semester is finished, but these courses will appear in their “sessions history”, which is on another page
-* when you check the results or the forums, you will never have to distinct groups of students mixing up inside your course, because you selected a specific session to review
-
+* Lehrer können den registrierten Grundkursen Inhalte hinzufügen, sie können jedoch nicht von ihnen entfernen, und was sie hinzufügen, ist nur für ihre Schüler sichtbar
+* Studenten müssen nur einmal für die ganzen 10 Kurse angemeldet sein
+* Die Studenten haben nach Beendigung des Semesters weiterhin Zugang zu diesen Kursen, aber diese Kurse werden in ihrem “sessions history” angezeigt, der sich auf einer anderen Seite befindet
+* Wenn Sie die Ergebnisse oder Foren überprüfen, müssen Sie niemals Gruppen von Schülern unterscheiden, die sich in Ihrem Kurs verwechseln, da Sie eine bestimmte Sitzung zur Überprüfung ausgewählt haben

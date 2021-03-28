@@ -1,20 +1,22 @@
-# Updating Chamilo
+# Chamilo wird aktualisiert
 
-If you already have a Chamilo installation \(any previous version\) and a new version has been released, we strongly suggest you update yours to benefit from new features and fixes, but more importantly from the security patches that might be fixing flaws detected in previous versions.
+Wenn Sie bereits eine Chamilo-Installation haben \(jede frühere Version\) und eine neue Version veröffentlicht wurde, empfehlen wir Ihnen dringend, Ihre zu aktualisieren, um von neuen Funktionen und Korrekturen zu profitieren, vor allem aber von den Sicherheitspatches, die möglicherweise Fehler in früheren Versionen beheben.
 
-Before updating Chamilo, bear in mind that any software update, considering the great number of contexts in which it can run, can generate new bugs or regressions. As such, it is **highly recommended** you take a **full backup** of your complete system \(_Chamilo_ folder _and databases_\).
+Bedenken Sie vor der Aktualisierung von Chamilo, dass jedes Softwareupdate unter Berücksichtigung der großen Anzahl von Kontexten, in denen es ausgeführt werden kann, neue Fehler oder Regressionen hervorrufen kann. Daher wird es **dringend empfohlen**, dass Sie ein vollständiges Backup** Ihres gesamten Systems erstellen \(_Chamilo_ Ordner _und Datenbank_\).
 
-As an admin, you can enable the version update notification from the Administration tab, _Chamilo_ block.
+Als Administrator können Sie die Benachrichtigung über das Versionsupdate auf der Registerkarte Administration, Block _Chamilo_, aktivieren.
 
-![](../../../.gitbook/assets/images14%20%288%29.png)Illustration 12: Administration – Chamilo block
+![](../../../.gitbook/assets/images14%20%288%29.png)
+Illustration 12: Verwaltung — Block Chamilo
 
-Just click on the _Enable version check_ button once to enable the feature.
+Klicken Sie einfach einmal auf die Schaltfläche _Versionsprüch_ aktivieren, um die Funktion zu aktivieren.
 
-![](../../../.gitbook/assets/images15%20%288%29.png)Illustration 13: Administration – Version check block \(up to date\)
+![](../../../.gitbook/assets/images15%20%288%29.png)
+Illustration 13: Administration — Block für Versionsprüfung \(aktuell\)
 
-Whenever a new version is published, a notification of availability will appear in the interface.
+Immer wenn eine neue Version veröffentlicht wird, wird eine Benachrichtigung über die Verfügbarkeit auf der Benutzeroberfläche angezeigt.
 
-![](../../../.gitbook/assets/images16%20%287%29.png)Illustration 14: Administration - Version check block \(outdated\)
+![](../../../.gitbook/assets/images16%20%287%29.png)
+Illustration 14: Administration - Block für Versionsprüfung \(veraltet\)
 
-Note that this feature at the same time sends us some statistical information about your portal: the public e-mail address of its support team, its public portal URL, its number of users and courses. This way, we can easily count how many people are using Chamilo around the world.
-
+Beachten Sie, dass diese Funktion uns gleichzeitig einige statistische Informationen über Ihr Portal sendet: die öffentliche E-Mail-Adresse des Support-Teams, die URL des öffentlichen Portals, die Anzahl der Benutzer und Kurse. Auf diese Weise können wir leicht zählen, wie viele Menschen Chamilo auf der ganzen Welt verwenden.

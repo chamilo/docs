@@ -1,28 +1,32 @@
 # Chamilo Rapid
 
-The PowerPoint® or Impress® presentations conversion to learning paths is relatively complex to install the right way. There's only one known short-cut: install an OpenOffice.org or LibreOffice version 3 and the _screen_ command.
+Die Umwandlung von PowerPoint®- oder Impress®-Präsentationen in Lernpfade ist relativ komplex, um richtig zu installieren. Es gibt nur eine bekannte Abkürzung: Installieren Sie eine OpenOffice.org oder LibreOffice Version 3 und den Befehl _screen_.
 
+```bash
 $ sudo apt-get install libreoffice screen
+```
 
-Then launch the following commands
+Dann starte die folgenden Befehle
 
+```bash
 $ screen
-
-_$_ _sudo soffice -accept=**”**socket,host=**127.0.0.1**,port=2002,tcpNoDelay=1;urp;”_ _-headless -nodefault_ _-nofirststartwizard_ _-nolockcheck -nologo_ _-norestore_ _&_
-
+$ sudo soffice -accept=**”**socket,host=127.0.0.1,port=2002,tcpNoDelay=1;urp;” -headless -nodefault -nofirststartwizard -nolockcheck -nologo -norestore &
 ctrl-a + ctrl-d
+```
 
-Any finer explanation would largely be out of the context of this guide, but this recipe works well on Ubuntu server.
 
-**Note**: the installation of the video-conference server already includes the installation of the _OpenOffice.org_ server on port 8100, so if you have installed it, you won't need the command above. Just configure Chamilo to use the presentations conversion server from port 8100.
+Jede feinere Erklärung würde größtenteils außerhalb des Kontextes dieses Leitfadens stehen, aber dieses Rezept funktioniert gut auf dem Ubuntu-Server.
 
-Once configured and running, you will be able to convert PPT from inside your courses' learning path tools.
+**Hinweis**: Die Installation des Videokonferenzservers beinhaltet bereits die Installation des _OpenOffice.org_ Servers auf Port 8100. Wenn Sie ihn also installiert haben, benötigen Sie den obigen Befehl nicht. Konfigurieren Sie einfach Chamilo, um den Präsentationskonvertierungsserver von Port 8100 aus zu verwenden.
 
-![](../../.gitbook/assets/images66%20%282%29.png)Illustration 87: Rapid conversion icon in learning paths tool
+Einmal konfiguriert und ausgeführt, können Sie PPT aus den Lernpfad-Tools Ihrer Kurse konvertieren.
 
-![](../../.gitbook/assets/images67%20%282%29.png)Illustration 88: Learning path import PPT screen
+![](../../.gitbook/assets/images66%20%282%29.png)
+Illustration 87: Symbol für schnelle Konvertierung im Lernpfad-Tool
 
-Once imported this way, a PowerPoint or Impress presentation will be transformed to a full learning path, ready to be further edited and structured, then published to learners.
+![](../../.gitbook/assets/images67%20%282%29.png)
+Illustration 88: Lernpfad Import PPT-Bildschirm
 
-If you're stuck with the installation of this service, don't hesitate to ask one of our official providers to give you a hand or rent you one of their pre-configured servers.
+Nach dem Import auf diese Weise wird eine PowerPoint- oder Impress-Präsentation in einen vollständigen Lernpfad umgewandelt, der weiter bearbeitet und strukturiert und dann den Lernenden veröffentlicht wird.
 
+Wenn Sie mit der Installation dieses Dienstes nicht weiterkommen, zögern Sie nicht, einen unserer offiziellen Anbieter zu bitten, Ihnen zu helfen oder Ihnen einen seiner vorkonfigurierten Server zu mieten.

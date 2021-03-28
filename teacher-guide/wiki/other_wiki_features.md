@@ -1,14 +1,13 @@
-# Other wiki features
+# Weitere Wiki-Funktionen
 
-The menu located in the top left corner \(drop-down menu\) gives access to other wiki features, regardless of the current page:
+Das Menü in der oberen linken Ecke \(Dropdown-Menü\) bietet Zugriff auf andere Wiki-Funktionen, unabhängig von der aktuellen Seite:
 
-* search titles or contents of pages,
-* display a list of all the pages,
-* list only the latest modifications,
-* remove the whole wiki \(be careful with this command!\),
-* see the most active users,
-* see the most visited pages,
-* see the most updated pages,
-* see all orphan pages,
-* see all empty pages \(wanted pages\) created as such in order to invite somebody else to add content on a given topic.
-
+* Suche nach Titeln oder Inhalten von Seiten,
+* eine Liste aller Seiten anzeigen,
+* nur die neuesten Änderungen auflisten,
+* entferne das ganze Wiki \(sei vorsichtig mit diesem Befehl!\)
+* sehen Sie die aktivsten Benutzer,
+* siehe die am häufigsten besuchten Seiten,
+* siehe die aktuellsten Seiten
+* alle verwaieten Seiten ansehen,
+* alle leeren Seiten \(gesuchte Seiten\), die als solche erstellt wurden, um jemand anderen einzuladen, Inhalte zu einem bestimmten Thema hinzuzufügen.

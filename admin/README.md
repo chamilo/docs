@@ -1,3 +1,3 @@
-# Administrator guide
+# Anleitung für Administratoren
 
-[Start reading...](introduction/chamilo,_what_is_it.md)
+[Beginne zu lesen...](introduction/chamilo,_what_is_it.md)

@@ -1,14 +1,13 @@
-# Watching course quotas
+# Kursquoten ansehen
 
-By default, a course quota of 100Mb is set, but it is also possible for your administrator to increase it. To check the space usage, look at the indication at the bottom of your documents list. I will indicate the percentage of your course that is being used.
+Standardmäßig ist ein Kurskontingent von 100 MB festgelegt, aber es ist auch für Ihren Administrator möglich, es zu erhöhen. Um die Speicherplatznutzung zu überprüfen, sehen Sie sich die Angabe am Ende Ihrer Dokumentenliste an. Ich gebe den Prozentsatz Ihres Kurses an, der verwendet wird.
 
-![](../../.gitbook/assets/images46%20%282%29.png)_Illustration 40: Documents - Quota_
+![](../../.gitbook/assets/images46%20%282%29.png)_Illustration 40: Dokumente - Quota_
 
-If you think you might reach the course limit in a few days, contact your administrator to ask him if it is possible to increase the available space. Only the platform administrator has the power to use this feature.
+Wenn Sie glauben, dass Sie das Kurslimit in ein paar Tagen erreichen könnten, wenden Sie sich an Ihren Administrator, um ihn zu fragen, ob es möglich ist, den verfügbaren Speicherplatz zu erhöhen. Nur der Plattformadministrator hat die Möglichkeit, diese Funktion zu nutzen.
 
-If you want to get a clearer view of what is occupying space in your documents directory, click the percent icon ![](../../.gitbook/assets/graphics125.png) . You'll see a chart like the one in Illustration 41 below.
+Wenn Sie einen klareren Überblick darüber erhalten möchten, was in Ihrem Dokumentenverzeichnis Platz belegt, klicken Sie auf das Prozentsymbol ![](../../.gitbook/assets/graphics125.png). In Abbildung 41 sehen Sie ein Diagramm wie das in Abbildung 41.
 
-![](../../.gitbook/assets/images288.png)_Illustration 41: Documents quota chart_
+![](../../.gitbook/assets/images288.png)_Illustration 41: Quotenschachweise für Dokumente
 
-Note : the space available in a course is only limited, in Chamilo 1.9, to the use of the documents tool. Users will be allowed to send numerous assignments without worrying about the space limit.
-
+Hinweis: Der in einem Kurs verfügbare Speicherplatz ist in `Chamilo 1.9` nur auf die Verwendung des Dokumententools beschränkt. Benutzer können zahlreiche Aufgaben senden, ohne sich Gedanken über das Platzlimit machen zu müssen.

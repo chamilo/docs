@@ -1,18 +1,17 @@
-# How to use this guide
+# Wie benutzt man diesen Leitfaden?
 
-This reference guide is designed to lead you smoothly through a clear learning path, introducing you first to the most commonly used tools, then guiding you progressively through more complex and/or seldom used features.
+Dieser Referenzleitfaden soll Sie reibungslos durch einen klaren Lernpfad führen und Sie zunächst in die am häufigsten verwendeten Tools einführen und Sie dann schrittweise durch komplexere und/oder selten verwendete Funktionen führen.
 
-\(The exception to this pattern is the description of the social network tool, which is explained separately at the end of the guide. We've placed it there to offer some light relief following the preceding three or four chapters, which are a little bit more challenging than the others! \)
+\(Die Ausnahme von diesem Muster ist die Beschreibung des Tools für soziale Netzwerke, die am Ende des Leitfadens gesondert erläutert wird. Wir haben es dort platziert, um nach den vorangegangenen drei oder vier Kapiteln etwas Leichterleichterung zu bieten, die etwas schwieriger sind als die anderen! \)
 
-Following this, you'll find a description of alternative approaches to setting up Chamilo which you should find useful when organizing courses for your students, simplifying your tracking work and helping you easily identify and support “flagging” individuals while progressing with the course overall.
+Im Anschluss daran finden Sie eine Beschreibung alternativer Ansätze zur Einrichtung von Chamilo, die Sie bei der Organisation von Kursen für Ihre Schüler nützlich finden sollten, Ihre Nachverfolgungsarbeit vereinfachen und Ihnen helfen, “flagging” -Personen einfach zu identifizieren und zu unterstützen, während Sie mit dem Kurs insgesamt fortfahren.
 
-We recommend you take a quick look at the Glossary section. It will give you an overview of the terms used throughout this guide and hopefully help avoid confusion in some sections.
+Wir empfehlen Ihnen, einen kurzen Blick auf den Abschnitt Glossar zu werfen. Es gibt Ihnen einen Überblick über die in diesem Handbuch verwendeten Begriffe und hilft hoffentlich, in einigen Abschnitten Verwirrung zu vermeiden.
 
-If you already have a teacher account in a Chamilo portal, you can move directly to the chapter which describes the Chamilo interface. If you are familiar with this, move on to the next chapter, which explains how to create a course. If you are already a course administrator \(i.e. a teacher who has also created courses\), you should go directly to the course tools chapter. For those who are familiar with the tools, much in this guide will already be familiar, though you may find it handy to explore updated features, such as the chapter on Social network.
+Wenn Sie bereits ein Lehrerkonto in einem Chamilo-Portal haben, können Sie direkt zu dem Kapitel wechseln, in dem die Chamilo-Benutzeroberfläche beschrieben wird. Wenn Sie damit vertraut sind, fahren Sie mit dem nächsten Kapitel fort, in dem erläutert wird, wie Sie einen Kurs erstellen. Wenn Sie bereits Kursadministrator sind \(d. h. ein Lehrer, der auch Kurse erstellt hat\), sollten Sie direkt zum Kapitel der Kurswerkzeuge gehen. Für diejenigen, die mit den Tools vertraut sind, ist vieles in diesem Handbuch bereits bekannt, obwohl Sie es möglicherweise nützlich finden, aktualisierte Funktionen wie das Kapitel über soziale Netzwerke zu erkunden.
 
-This guide can also serve as a handy quick reference, thanks to the search feature at the top of the page.
+Diese Anleitung kann dank der Suchfunktion oben auf der Seite auch als praktische Kurzanleitung dienen.
 
-If you have further questions about using Chamilo. you can visit the Chamilo forum\([https://forum.chamilo.org](https://forum.chamilo.org)\), where numerous other users, teachers, administrators and software developers will be happy to help you find the answers.
+Wenn Sie weitere Fragen zur Verwendung von Chamilo haben, können Sie das Chamilo-Forum \([https://forum.chamilo.org](https://forum.chamilo.org)\) besuchen, in dem Ihnen zahlreiche andere Benutzer, Lehrer, Administratoren und Softwareentwickler gerne helfen, die Antworten zu finden.
 
-If you have more demanding requirements, you might consider hiring one of our official providers \([https://chamilo.org/providers](https://chamilo.org/providers)\), a group of companies and institutions which offer professional services supporting Chamilo. The official providers have a record of tried and proven serious involvement in the project and are committed to sustaining its collaborative model. By hiring them, you already support the Chamilo project.
-
+Wenn Sie anspruchsvollere Anforderungen haben, sollten Sie erwägen, einen unserer offiziellen Anbieter zu engagieren \([https://chamilo.org/providers](https://chamilo.org/providers)\), eine Gruppe von Unternehmen und Institutionen, die professionelle Dienstleistungen anbieten, die Chamilo unterstützen. Die offiziellen Anbieter verfügen über eine bewährte und nachgewiesene ernsthafte Beteiligung an dem Projekt und verpflichten sich, ihr kollaboratives Modell aufrechtzuerhalten. Mit der Einstellung unterstützen Sie bereits das Chamilo-Projekt.

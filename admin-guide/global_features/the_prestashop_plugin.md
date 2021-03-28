@@ -1,10 +1,9 @@
-# The Prestashop plugin
+# Das Prestashop Plugin
 
-If you want to turn your Chamilo portal into an online shop for courses... you can't. Well, you can't do that directly, but there is an easy way to avoid that problem: using a real online shop system and connecting it to Chamilo.
+Wenn Sie Ihr Chamilo-Portal in einen Online-Shop für Kurse verwandeln möchten, können Sie das nicht. Nun, das kann man nicht direkt machen, aber es gibt eine einfache Möglichkeit, dieses Problem zu vermeiden: ein echtes Online-Shop-System zu verwenden und es mit Chamilo zu verbinden.
 
-Prestashop is a very popular, free software, online shop system that will allow you to setup your own online shop in a few hours.
+Prestashop ist ein sehr beliebtes Online-Shop-System mit kostenloser Software, mit dem Sie in wenigen Stunden Ihren eigenen Online-Shop einrichten können.
 
-Once you've got your shop installed and configure, go download the Chamilo plugin for Prestashop. On the plugin's wiki, you'll find a very extensive and simple installation guide to help you through the configuration. Once it's all configured, you'll be able to charge students to access your courses.
+Sobald Sie Ihren Shop installiert und konfiguriert haben, laden Sie das Chamilo Plugin für Prestashop herunter. Im Wiki des Plugins finden Sie eine sehr umfangreiche und einfache Installationsanleitung, die Ihnen bei der Konfiguration hilft. Sobald alles konfiguriert ist, können Sie den Schülern den Zugang zu Ihren Kursen in Rechnung stellen.
 
-At this time, the plugin doesn't work with sessions, so you will sell an unlimited access to your courses, but we hope to have this plugin extended in this direction in the future.
-
+Zu diesem Zeitpunkt funktioniert das Plugin nicht mit Sitzungen, sodass Sie einen unbegrenzten Zugriff auf Ihre Kurse verkaufen, aber wir hoffen, dass dieses Plugin in Zukunft in diese Richtung erweitert wird.

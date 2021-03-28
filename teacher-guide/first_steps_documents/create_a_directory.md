@@ -1,17 +1,16 @@
-# Create a directory
+# Erstellen Sie ein Verzeichnis
 
-To achieve a clearer storage structure, Chamilo lets you create directories \(folders\) and sub-directories by clicking on the folder icon with the yellow star symbol ![](../../.gitbook/assets/graphics114.png) .
+Um eine klarere Speicherstruktur zu erreichen, können Sie mit Chamilo Verzeichnisse \(Ordner\) und Unterverzeichnisse erstellen, indem Sie auf das Ordnersymbol mit dem gelben Sternsymbol ![](../../.gitbook/assets/graphics114.png) klicken.
 
 ![](../../.gitbook/assets/images32%20%282%29.png)
 
-_Illustration 30: Documents – creating directories_
+_Illustration 30: Dokumente — Verzeichnisse_
 
-To create a directory:
+So erstellen Sie ein Verzeichnis:
 
-* click on the _Create folder_ icon,
-* enter the directory name,
-* click on the _Create the folder_ button,
-* The new directory has been created and can be used right away to store new documents.
+* klicken Sie auf das Icon _Create Ordner_,
+* Geben Sie den Namen des Verzeichnisses ein
+* klicken Sie auf die Schaltfläche _Ordner erstellen_,
+* Das neue Verzeichnis wurde erstellt und kann sofort zum Speichern neuer Dokumente verwendet werden.
 
-  If you want to create a sub-directory, open the directory you want to create it in and follow the same procedure.
-
+ Wenn Sie ein Unterverzeichnis erstellen möchten, öffnen Sie das Verzeichnis, in dem Sie es erstellen möchten, und gehen Sie wie folgt vor.

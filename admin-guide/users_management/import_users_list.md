@@ -1,28 +1,29 @@
-# Import users list
+# Benutzerliste importieren
 
-Whether you have exported a list of users or not, you might want to import users into the platform...
+Unabhängig davon, ob Sie eine Liste von Benutzern exportiert haben oder nicht, möchten Sie möglicherweise Benutzer in die Plattform importieren...
 
-Chamilo allows you to import the users using the same format in which it exported them, obviously, but you can also download two example files by clicking on the link \(blue link in the following screen-shot\). If you'd like to import users from an external source, the CSV format is generally an easy option as you can generate them with a simple spreadsheet tool.
+Chamilo ermöglicht es Ihnen, die Benutzer natürlich mit dem gleichen Format zu importieren, in das sie exportiert haben. Sie können jedoch auch zwei Beispieldateien herunterladen, indem Sie auf den Link\ klicken (blauer Link im folgenden Screenshot\). Wenn Sie Benutzer aus einer externen Quelle importieren möchten, ist das CSV-Format im Allgemeinen eine einfache Option, da Sie sie mit einem einfachen Tabellenkalkulationswerkzeug generieren können.
 
-Just
+Einfach nur
 
-* download the example CSV file,
-* open it with MS-Excel® and OpenOffice.org \(or LibreOffice\) Calc® as a CSV file
-* choose the semi-column as a fields separator
-* adjust your users list to the spreadsheet format to match the CSV example
-* save in CSV format
-* send it to the server using the form where you found the example files
+* lade die Beispiel-CSV-Datei herunter,
+* öffne es mit MS-Excel® und OpenOffice.org \(oder LibreOffice\) Calc® als CSV-Datei
+* Wählen Sie die Halbsäule als Feldtrennzeichen
+* Passen Sie Ihre Benutzerliste an das Tabellenkalkulationsformat an, das dem CSV-Beispiel entspricht
+* im CSV-Format speichern
+* senden Sie es mit dem Formular, in dem Sie die Beispieldateien gefunden haben
 
-To import a CSV/XML file, follow these steps:
+Um eine CSV/XML-Datei zu importieren, gehen Sie folgendermaßen vor:
 
-![](../../.gitbook/assets/importerliste_-utilisateurs%20%283%29.png)Illustration 52: Administration – Users import
+![](../../.gitbook/assets/importerliste_-utilisateurs%20%283%29.png)
+Illustration 52: Administration — Benutzer importieren
 
-* in _Browse_, search for the file,
-* choose the file format \(CSV or XML\),
-* choose whether to send a welcome mail to new users created through this import,
-* click on _Import_
+* suchen Sie in _Browse_ nach der Datei,
+* wählen Sie das Dateiformat \(CSV oder XML\),
+* wählen, ob eine Willkommensnachricht an neue Benutzer gesendet werden soll, die durch diesen Import erstellt wurden,
+* klicken Sie auf _Import_
 
-![](../../.gitbook/assets/importerliste_-utilisateurs2%20%283%29.png)Illustration 53: Administration – Users import report
+![](../../.gitbook/assets/importerliste_-utilisateurs2%20%283%29.png)
+Illustration 53: Administration — Bericht zum Import von Benutzern
 
-The report message shows conflicts that might have occurred, and the list of users that might not have been imported.
-
+Die Berichtsnachricht zeigt möglicherweise aufgetretene Konflikte und die Liste der Benutzer, die möglicherweise nicht importiert wurden.

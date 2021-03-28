@@ -1,18 +1,19 @@
-# Learning path export
+# Lernpfad Export
 
-To export a learning path, first go to the _My courses_ tab \(generally the 2nd tab from the left\).
+Um einen Lernpfad zu exportieren, wechseln Sie zuerst zum Tab _Meine Kurse \(in der Regel die zweite Registerkarte von links\).
 
-![](../../../.gitbook/assets/parcourssauvegarde%20%283%29.png)Illustration 16: Interface – Courses list
+![](../../../.gitbook/assets/parcourssauvegarde%20%283%29.png)
+Illustration 16: Interface — Liste der Kurse
 
-Here, you can see the courses of which you are the teacher \(through the pencil icon\). To continue, click on one of them then enter the _Learning path_ tool.
+Hier sehen Sie die Kurse, von denen Sie der Lehrer sind \(über das Bleistiftsymbol\). Um fortzufahren, klicken Sie auf einen von ihnen und geben Sie das Pfadwerkzeug _Learning ein.
 
-Once in the learning paths list, click on the CD icon to generate a backup file.
+Klicken Sie in der Liste der Lernpfade auf das CD-Symbol, um eine Sicherungsdatei zu erstellen.
 
-![](../../../.gitbook/assets/graficos32%20%284%29.png)Illustration 17: Interface – Learning paths export
+![](../../../.gitbook/assets/graficos32%20%284%29.png)
+Illustration 17: Interface — Lernpfade exportieren
 
-At this stage, you only have to select where to save the file on your disk. The export is available as a .zip file.
+Zu diesem Zeitpunkt müssen Sie nur auswählen, wo die Datei auf Ihrer Festplatte gespeichert werden soll. Der Export ist als ZIP-Datei verfügbar.
 
-Note this export is generated in the SCORM 1.2 standard format \(which also defines it must be compressed as a .zip\), that you might want then to re-use on another LMS, be it Chamilo or any other, as far as it is SCORM 1.2-compatible \(which means more or less any other e-learning portal\), but this format makes the edition complex, not to say impossible. As such, it is a non-modifiable backup, in most circumstances.
+Beachten Sie, dass dieser Export im SCORM 1.2-Standardformat generiert wird \(das auch definiert, dass er als ZIP komprimiert werden muss), das Sie dann vielleicht auf einem anderen LMS wiederverwenden möchten, sei es Chamilo oder einem anderen, soweit es SCORM 1.2-kompatibel ist (was mehr oder weniger jedes andere E-Learning-Portal bedeutet\), aber dieses Format macht der Editionskomplex, um nicht zu sagen unmöglich. Als solches handelt es sich in den meisten Fällen um ein nicht änderbares Backup.
 
-You can also export any learning path to PDF, although dynamic elements like audio, video and flash animations, will not be exported.
-
+Sie können auch jeden Lernpfad nach PDF exportieren, obwohl dynamische Elemente wie Audio-, Video- und Flash-Animationen nicht exportiert werden.

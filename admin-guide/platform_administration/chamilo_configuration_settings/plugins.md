@@ -1,10 +1,10 @@
 # Plugins
 
-![](../../../.gitbook/assets/graficos19%20%286%29.png)This tab allows you to enable the plugins present in the _plugin/_ folder on the server.
+![](../../../.gitbook/assets/graficos19%20%286%29.png)This ermöglicht es Ihnen, die im _plugin/_ -Ordner auf dem Server vorhandenen Plugins zu aktivieren.
 
-![](../../../.gitbook/assets/images22%20%287%29.png)Illustration 39: Administration – Plugins installation
+![](../../../.gitbook/assets/images22%20%287%29.png)
+Illustration 39: Administration — Plugins-Installation
 
-Since version 1.8.8.2 of Chamilo, the plugins systems has been improved and you can now create and enable plugins that will appear as new course tools. This is the case of a new plugin called _BigBlueButton_. This plugin, once enabled, will allow you to connect your Chamilo portal to a video-conference server. The installation of a video-conference server, however, is not included in Chamilo. You will have to install it by yourself or ask an official provider to do that for you.
+Seit Version `1.8.8`.2 von Chamilo wurden die Plugins-Systeme verbessert und Sie können jetzt Plugins erstellen und aktivieren, die als neue Kurswerkzeuge angezeigt werden. Dies ist der Fall bei einem neuen Plugin namens _BigBlueButton_. Sobald dieses Plugin aktiviert ist, können Sie Ihr Chamilo-Portal mit einem Videokonferenzserver verbinden. Die Installation eines Videokonferenzservers ist jedoch nicht in Chamilo enthalten. Sie müssen es selbst installieren oder einen offiziellen Anbieter bitten, dies für Sie zu tun.
 
-**Note** : In order to avoid any strong dependency on our providers' services, we have selected a video-conference server particularly easy to install \(30 minutes on a fast and appropriate server\). Such server can, however, cause issues at another level: it is a costly service to maintain, as it requires constant care to be available at all times, watched over by dedicated staff. This is one of the reasons why we cannot include it in Chamilo: it would simply not stand up to the simplicity of Chamilo as a standalone platform.
-
+**Hinweis**: Um eine starke Abhängigkeit von den Diensten unserer Anbieter zu vermeiden, haben wir einen Videokonferenzserver ausgewählt, der besonders einfach zu installieren ist \(30 Minuten auf einem schnellen und geeigneten Server\). Ein solcher Server kann jedoch Probleme auf einer anderen Ebene verursachen: Es ist ein kostspieliger Service, da er ständige Sorgfalt erfordert, um jederzeit verfügbar zu sein, der von engagierten Mitarbeitern überwacht wird. Dies ist einer der Gründe, warum wir es nicht in Chamilo aufnehmen können: Es würde der Einfachheit von Chamilo als eigenständige Plattform einfach nicht standhalten.

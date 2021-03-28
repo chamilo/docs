@@ -1,8 +1,8 @@
-# Restriction on calling IP addresses
+# Beschränkung beim Anrufen von IP-Adressen
 
-Other scripts might not follow this, but registration.soap.php allows you to define restrictions on the IP addresses that can call the webservices it contains.
+Andere Skripte folgen möglicherweise nicht diesem, aber mit registration.soap.php können Sie Einschränkungen für die IP-Adressen definieren, die die darin enthaltenen Webservices aufrufen können.
 
-This is made possible by the following snippet of code inside the WSHelperVerifyKey\(\) function
+Dies wird durch den folgenden Codeausschnitt innerhalb der WSHelperVerifyKey\(\) -Funktion ermöglicht
 
 ```text
 // Check if a file that limits access from webservices exists
@@ -23,13 +23,12 @@ if (is_file('webservice-auth-ip.conf.php')) {
 }
 ```
 
-As you'll have understood, you need to create a file called « webservice-auth-ip.conf.php » inside the same folder as registration.soap.php and add a list of IP addresses \(or ranges\) inside the file itself. Only those IP addresses which match the ranges will be accepted.
+Wie Sie verstanden haben, müssen Sie eine Datei namens « webservice-auth-ip.conf.php » im selben Ordner wie registration.soap.php erstellen und eine Liste der IP-Adressen \(oder Bereiche\) in die Datei selbst einfügen. Es werden nur die IP-Adressen akzeptiert, die den Bereichen entsprechen.
 
-When using this method, the algorithm we saw earlier about building the security key will have to be modified, as we will not require the IP address anymore :
+Bei Verwendung dieser Methode muss der Algorithmus, den wir zuvor zum Erstellen des Sicherheitsschlüssels gesehen haben, geändert werden, da die IP-Adresse nicht mehr benötigt wird:
 
 ```text
 $finalKey = sha1($key) ;
 ```
 
-For portals where security is very important, it is a good idea to use this method.
-
+Für Portale, in denen Sicherheit sehr wichtig ist, empfiehlt es sich, diese Methode zu verwenden.

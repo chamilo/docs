@@ -1,19 +1,18 @@
-# Who is this guide for?
+# Für wen ist dieser Leitfaden?
 
-This guide has been written with developers and e-learning implementors in mind: the many technical professionals involved in installing, fine-tuning or customizing a Chamilo LMS portal should find this manual a useful resource for any modification they want to undertake and that is not feasable through the web interface of Chamilo LMS.
+Dieser Leitfaden wurde mit Blick auf Entwickler und E-Learning-Implementierer geschrieben: Die vielen technischen Experten, die an der Installation, Feinabstimmung oder Anpassung eines Chamilo LMS-Portals beteiligt sind, sollten dieses Handbuch als nützliche Ressource für alle Änderungen finden, die sie vornehmen möchten und die nicht über das Internet möglich ist Schnittstelle von Chamilo LMS.
 
-In short, the people to which we are directing this manual are :
+Kurz gesagt, die Personen, auf die wir dieses Handbuch richten, sind:
 
-\| Icon \| Role \| Description \|
+\| Icon\| Rolle\| Beschreibung\|
 
-| ![](../../.gitbook/assets/images1%20%286%29.png) | IT Managers | IT Managers \(they will probably only need to « scan » this document to get an idea of the reliability and seriousness of Chamilo LMS\) |
+| ![](../../.gitbook/assets/images1%20%286%29.png) | IT-Manager | IT-Manager \(sie brauchen wahrscheinlich nur « scan » dieses Dokument, um sich ein Bild von der Zuverlässigkeit und Seriosität von Chamilo LMS zu machen\) |
 | :--- | :--- | :--- |
-| ![](../../.gitbook/assets/images6%20%286%29.png) | Web designers | Web designers |
-| ![](../../.gitbook/assets/images10%20%284%29.png) | Themers | Themers \(web designers with some technical background\) |
-| ![](../../.gitbook/assets/images11%20%289%29.png) | Web developers | Web developers |
-| ![](../../.gitbook/assets/images12%20%287%29.png) | System admins | System administrators |
+| ![](../../.gitbook/assets/images6%20%286%29.png) | Webdesigner | Webdesigner |
+| ![](../../.gitbook/assets/images10%20%284%29.png) | Themers | Themers \(Webdesigner mit einem technischen Hintergrund\) |
+| ![](../../.gitbook/assets/images11%20%289%29.png) | Webentwickler | Webentwickler |
+| ![](../../.gitbook/assets/images12%20%287%29.png) | Systemadministratoren | Systemadministratoren |
 
-Not all sections are meant for all these people, so we havetried to mark sections with a specific coloured tag, as shown above, to mark the relevance of each chapter to these specific profiles.
+Nicht alle Abschnitte sind für all diese Personen gedacht, daher müssen wir Abschnitte mit einem bestimmten farbigen Tag markieren, wie oben gezeigt, um die Relevanz jedes Kapitels für diese spezifischen Profile zu kennzeichnen.
 
-Inside this guide, you will find a series of markers in the left colums for each chapter, so you can easily find if this is applicable to you.
-
+In diesem Handbuch finden Sie eine Reihe von Markierungen in den linken Colums für jedes Kapitel, damit Sie leicht herausfinden können, ob dies für Sie zutrifft.

@@ -1,2 +1,1 @@
-# Global features
-
+# Globale Funktionen

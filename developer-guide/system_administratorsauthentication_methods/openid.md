@@ -1,4 +1,3 @@
-# OpenID
+# openID
 
-Coming soon...
-
+Kommt bald...

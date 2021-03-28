@@ -1,23 +1,22 @@
-# Users management
+# Verwaltung von Benutzern
 
-The users management is done through generic and familiar icons, and some more specific icons.
+Die Benutzerverwaltung erfolgt über generische und vertraute Symbole und einige spezifischere Symbole.
 
 ![](../../.gitbook/assets/graficos49%20%283%29.png)
 
-| Icons | Features |
+| Icons | Funktionen |
 | :--- | :--- |
-| ![](../../.gitbook/assets/images31%20%287%29.png)![](../../.gitbook/assets/images32%20%287%29.png) | Modify the status of the user by clicking the icon \(enabled/disabled\) |
-| ![](../../.gitbook/assets/images33%20%287%29.png) | Click to show the list of courses to which the user is subscribed |
-|  | Connect as... allows the admin to take the identity of a specific user to check a bug he's reported on the platform \(or to help making a quick demonstration using several user roles\) |
-| ![](../../.gitbook/assets/images34%20%286%29.png) | Assign courses to admins or supervisors to follow them up \(dashboard\) |
-| ![](../../.gitbook/assets/images35%20%286%29.png) | Assign course sessions to admins or supervisors to follow them up \(through the dashboard\) |
-| ![](../../.gitbook/assets/images36%20%282%29.png) | Gives all the information about the user, his sessions list, courses list and other details, plus many ways to know more from there |
-| ![](../../.gitbook/assets/graficos20%20%284%29.png) | Assign users to admins or supervisors to follow them up \(through the dashboard\) |
-| ![](../../.gitbook/assets/graficos21%20%286%29.png)![](../../.gitbook/assets/graficos22%20%286%29.png) | Gives a detailed reporting on the user \(disabled for teachers and admins\) |
-| ![](../../.gitbook/assets/graficos23%20%286%29.png) | ![](../../.gitbook/assets/graficos43%20%283%29.png)Update user's information and settings |
-|  | Show the free/busy calendar of the user |
-| ![](../../.gitbook/assets/graficos24%20%286%29.png) | Remove a user \(after approval\) |
-| ![](../../.gitbook/assets/images42%20%286%29.png)![](../../.gitbook/assets/images43%20%286%29.png) | Shows whether a user is admin or not. Only administrators accounts \(or sessions administrators accounts\) have a yellow star. Others show a grey star. |
+| ![](../../.gitbook/assets/images31%20%287%29.png) ![](../../.gitbook/assets/images32%20%287%29.png) | Ändere den Status des Benutzers, indem du auf das Icon klickst \(aktiviert/deaktiviert\) |
+| ![](../../.gitbook/assets/images33%20%287%29.png) | Klicken Sie hier, um die Liste der Kurse anzuzeigen, für die der Benutzer abonniert ist |
+| | Verbinden als... ermöglicht es dem Administrator, die Identität eines bestimmten Benutzers zu übernehmen, um einen Fehler zu überprüfen, den er auf der Plattform gemeldet hat \(oder um eine schnelle Demonstration mit mehreren Benutzerrollen zu erstellen\) |
+| ![](../../.gitbook/assets/images34%20%286%29.png) | Weisen Sie Admins oder Vorgesetzten Kurse zu, um sie zu verfolgen \(Dashboard\) |
+| ![](../../.gitbook/assets/images35%20%286%29.png) | Weisen Sie Administratoren oder Vorgesetzten Kurssitzungen zu, um sie zu verfolgen \(über das Dashboard\) |
+| ![](../../.gitbook/assets/images36%20%282%29.png) | Gibt alle Informationen über den Benutzer, seine Sitzungsliste, seine Kursliste und andere Details sowie viele Möglichkeiten, mehr von dort zu erfahren |
+| ![](../../.gitbook/assets/graficos20%20%284%29.png) | Weisen Sie Benutzer Administratoren oder Vorgesetzten zu, um sie zu verfolgen \(über das Dashboard\) |
+| ![](../../.gitbook/assets/graficos21%20%286%29.png) ![](../../.gitbook/assets/graficos22%20%286%29.png) | Gibt eine detaillierte Berichterstattung über den Benutzer \(für Lehrer und Admins deaktiviert\) |
+| ![](../../.gitbook/assets/graficos23%20%286%29.png) | ![](../../.gitbook/assets/graficos43%20%283%29.png)Update Benutzerinformationen und Einstellungen |
+| | Zeigt den Frei/Gebucht-Kalender des Benutzers an |
+| ![](../../.gitbook/assets/graficos24%20%286%29.png) | Benutzer entfernen \(nach Genehmigung\) |
+| ![](../../.gitbook/assets/images42%20%286%29.png) ![](../../.gitbook/assets/images43%20%286%29.png) | Zeigt an, ob ein Benutzer Admin ist oder nicht. Nur Administratorkonten \(oder Sitzungsadministratorkonten\) haben einen gelben Stern. Andere zeigen einen grauen Stern. |
 
-Tableau 1: Administration – Users administration icons
-
+Tableau 1: Administration — Symbole für die Benutzerverwaltung

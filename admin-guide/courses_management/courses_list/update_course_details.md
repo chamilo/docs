@@ -1,6 +1,5 @@
-# Update course details
+# Kursdetails aktualisieren
 
-To update the details of a course, click on the pencil icon on the right. As an admin, it is possible to change as many information as the teacher/creator of the course in the course settings.
+Um die Details eines Kurses zu aktualisieren, klicken Sie auf das Bleistiftsymbol rechts. Als Admin ist es möglich, in den Kurseinstellungen so viele Informationen wie der Lehrer/Ersteller des Kurses zu ändern.
 
-However, the admin can also update the allowed disk space for the course and mark it as a _Special course_, which makes it visible on top of the list of courses for all users of the platform.
-
+Der Administrator kann jedoch auch den zulässigen Speicherplatz für den Kurs aktualisieren und ihn als _Special Course_ markieren, wodurch er für alle Benutzer der Plattform ganz oben auf der Liste der Kurse angezeigt wird.

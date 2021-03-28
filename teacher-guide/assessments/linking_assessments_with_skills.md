@@ -1,12 +1,11 @@
-# Linking assessments with skills
+# Assessments mit Skills verknüpfen
 
-Since the latest versions 1.9.\*, Chamilo allows you to link skills to assessments. In short, anything that would generate a certificate for a user can also be used to grant this student a skill.
+Seit den neuesten Versionen 1.9.\* ermöglicht Chamilo die Verknüpfung von Fähigkeiten mit Assessments. Kurz gesagt, alles, was ein Zertifikat für einen Benutzer generieren würde, kann auch verwendet werden, um diesem Schüler eine Fähigkeit zu gewähren.
 
-This requires the administrator to have enabled and configured the skills available on the platform. This usually requires you to discuss this specific topic with the organization authorities, as you cannot yourself create a skill.
+Dies erfordert, dass der Administrator die auf der Plattform verfügbaren Skills aktiviert und konfiguriert hat. Dies erfordert in der Regel, dass Sie dieses spezielle Thema mit den Organisationsbehörden besprechen, da Sie selbst keine Fähigkeit erstellen können.
 
-Once skills are available, the administrator will have to come to your course and link the assessment that you have configured with a specific skill. This looks something like this \(to the administrator\):
+Sobald Skills verfügbar sind, muss der Administrator zu Ihrem Kurs kommen und die von Ihnen konfigurierte Bewertung mit einem bestimmten Skill verknüpfen. Das sieht ungefähr so aus \(an den Administrator\):
 
-![](../../.gitbook/assets/image15%20%281%29.png)_Illustration 118: Assign skill to assessment_
+![](../../.gitbook/assets/image15%20%281%29.png)_Illustration 118: Weisen Sie der Bewertung Skill zuweisen_
 
-We can see there \(although the skills available are written in Spanish\) that a new “Skills” field appears in the same edition form as we have for assessments.
-
+Wir können dort sehen \(obwohl die verfügbaren Fähigkeiten in Spanisch verfasst sind\), dass ein neues “Skills” -Feld in der gleichen Ausgabeform wie für Bewertungen angezeigt wird.

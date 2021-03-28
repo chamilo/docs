@@ -1,19 +1,18 @@
-# Roles management
+# Rollenverwaltung
 
-The _Roles management_ icon ![](../../.gitbook/assets/graphics311.png) displays a page listing the roles/tasks created and assigned to users:
+Das Symbol _Roles Management ![](../../.gitbook/assets/graphics311.png) zeigt eine Seite mit den erstellten und Benutzern zugewiesenen Rollen/Aufgaben an:
 
-![](../../.gitbook/assets/graphics322.png)_Illustration 166: Projects - Roles management_
+![](../../.gitbook/assets/graphics322.png)_Illustration 166: Projekte - Rollenverwalt_
 
-From the _Roles management_ page you can create detailed tasks of a project step or assign roles to the members of a project.
+Auf der Seite _Roles management_ können Sie detaillierte Aufgaben eines Projektschritts erstellen oder den Mitgliedern eines Projekts Rollen zuweisen.
 
-To create a new task/role:
+So erstellen Sie eine neue Aufgabe/Rolle:
 
-* click the _Add a new role_ icon ![](../../.gitbook/assets/graphics313.gif),
-* give the role a title, description and assign permissions,
-* choose a color using to the drop-down bar,
-* click _Save._
+* klicken Sie auf das Symbol _Neue Rolle hinzufügen_ ![](../../.gitbook/assets/graphics313.gif),
+* geben Sie der Rolle einen Titel, eine Beschreibung und weisen Sie Berechtigungen zu,
+* Wählen Sie eine Farbe mit der Dropdown-Leiste aus,
+* klicken Sie auf _Speichern._
 
-![](../../.gitbook/assets/graphics316.png)_Illustration 168: Projects – New role_
+![](../../.gitbook/assets/graphics316.png)_Illustration 168: Projekte — Neue Rolle_
 
-→ The new role appears in the roles list.
-
+→ Die neue Rolle wird in der Rollenliste angezeigt.

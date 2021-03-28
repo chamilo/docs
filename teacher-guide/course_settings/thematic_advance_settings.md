@@ -1,12 +1,11 @@
-# Thematic advance settings
+# Thematische Vorauseinstellungen
 
-This _Thematic advance_ section ![](../../.gitbook/assets/graphics328.png) allows you to choose which options for the _Course progress_ will be visible on the course homepage \(on the right-hand side of the introduction section\).
+In diesem Abschnitt _Thematic advance_ ![](../../.gitbook/assets/graphics328.png) können Sie auswählen, welche Optionen für den _Kursfortschritt_ auf der Startseite des Kurses sichtbar sind \(auf der rechten Seite des Einführungsabschnitts\).
 
-![](../../.gitbook/assets/images248.png)_Illustration 179: Courses settings - Course progress_
+![](../../.gitbook/assets/images248.png)_Illustration 179: Kurseinstellungen - Kursfortschrittse_
 
-These options require a proper understanding of the course progress tool. The results of the third option, for example, will be similar to the ones show in the illustration below\).
+Diese Optionen erfordern ein angemessenes Verständnis des Kursfortschritts-Tools. Die Ergebnisse der dritten Option werden beispielsweise denen ähneln, die in der Abbildung unten gezeigt werden\).
 
 ![](../../.gitbook/assets/images249.png)
 
-_Illustration 180: Course progress – Display on course homepage_
-
+_Illustration 180: Kursfortschritt — Anzeige auf Kurs-Homepage_

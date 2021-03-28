@@ -1,40 +1,39 @@
-# Add Learning Objects and Activities
+# Füge Lernobjekte und
 
-As you build your learning path/course, you have the option to include existing learning objects or activities or to create your own using Chamilo.
+Beim Aufbau Ihres Lernpfads/Kurses haben Sie die Möglichkeit, vorhandene Lernobjekte oder -aktivitäten einzubeziehen oder Ihre eigenen mit Chamilo zu erstellen.
 
-![](../../.gitbook/assets/graphics12.png)_Illustration 78: Adding a learning object or activity to a course_
+![](../../.gitbook/assets/graphics12.png)_Illustration 78: Hinzufügen eines Lernobjekts oder einer Aktivität zu einem Kurs_
 
-## Create a new document <a id="create-a-new-document"></a>
+## Neues Dokument anlegen <a id="create-a-new-document"></a>
 
-This option allows you to generate a document which will be automatically added to the learning path and saved in _.html_ format in the learning path documents.
+Mit dieser Option können Sie ein Dokument erstellen, das automatisch zum Lernpfad hinzugefügt und im _.html_-Format in den Lernpfaddokumenten gespeichert wird.
 
-In essence, it is possible to use the rich text editor to edit styles, add images, videos, etc. You can toggle between html and the WYSIWYG editor to produce whatever content you wish. In other words, Chamilo provides you with a complete learning path creation tool.
+Im Wesentlichen ist es möglich, den Rich-Text-Editor zu verwenden, um Stile zu bearbeiten, Bilder, Videos usw. hinzuzufügen.Sie können zwischen HTML und dem WYSIWYG-Editor wechseln, um den gewünschten Inhalt zu erstellen. Mit anderen Worten, Chamilo bietet Ihnen ein vollständiges Tool zur Erstellung von Lernpfaden.
 
-To begin, click the _Rich media page / activity_ icon ![](../../.gitbook/assets/graphics24.png) to see the following page:
+Klicken Sie zunächst auf die _Rich Media-Seite/Aktivität_ Symbol ![](../../.gitbook/assets/graphics24.png), um die folgende Seite zu sehen:
 
-![](../../.gitbook/assets/graphics25.png)_Illustration 79: Learning paths – Rich media creation tool_
+![](../../.gitbook/assets/graphics25.png)_Illustration 79: Lernpfade — Rich Media Creation Tool_
 
-## Use existing resources <a id="use-existing-resources"></a>
+## Nutzen Sie vorhandene Ressourcen <a id="use-existing-resources"></a>
 
-You can use any document you have previously imported or created in the documents tool of the course \(e.g. a SCORM course, _.html_ pages, videos, images, etc. - see_Authoring content in Chamilo\_\_\)._
+Sie können jedes Dokument verwenden, das Sie zuvor im Dokumententool des Kurses importiert oder erstellt haben \(z. B. einen SCORM-Kurs, _.html_ Seiten, Videos, Bilder usw. - see_Authoring-Inhalte in Chamilo\_ _\)._
 
-You can also add tests, links, assignments and forums by dragging them across to the learning paths list on the left of the page using the green “handle” ![](../../.gitbook/assets/graphics26.png) . The chosen resource will appears in the wherever you choose in the learning path. Use the handle to re-order items, and the pencil ![](../../.gitbook/assets/graphics32.png) and cross ![](../../.gitbook/assets/graphics27.png) icons to edit/delete elements.
+Sie können auch Tests, Links, Aufgaben und Foren hinzufügen, indem Sie sie mit dem grünen “handle” ![](../../.gitbook/assets/graphics26.png) in die Liste der Lernpfade links auf der Seite ziehen. Die ausgewählte Ressource wird im überall dort angezeigt, wo Sie im Lernpfad wählen. Verwenden Sie den Griff, um Elemente neu anzuordnen, und die Bleistiftsymbole ![](../../.gitbook/assets/graphics32.png) und kreuzen Sie Elemente, um Elemente zu bearbeiten/zu löschen. ![](../../.gitbook/assets/graphics27.png)
 
-Links, tests, assignments and forums can be created prior to building the learning path in the _Authoring_ or _Interaction_ sections on your course's homepage, and then added from these sections into your learning path via the relevant tab on the learning path page. \(Alternatively, they can be created directly from within the tabs themselves as you build the learning path:\)
+Links, Tests, Aufgaben und Foren können erstellt werden, bevor der Lernpfad in den Abschnitten _Authoring_ oder _Interaction_ auf der Homepage Ihres Kurses erstellt und dann aus diesen Abschnitten über die entsprechende Registerkarte auf der Lernpfadseite zu Ihrem Lernpfad hinzugefügt werden. \(Alternativ können sie direkt aus den Registerkarten selbst heraus erstellt werden, während Sie den Lernpfad erstellen:\)
 
-![](../../.gitbook/assets/graphics28.png)_Illustration 80: Learning paths – Importing existing resources_
+![](../../.gitbook/assets/graphics28.png)_Illustration 80: Lernpfade — Import bestehender Ressourcen
 
-## Add a new section <a id="add-a-new-section"></a>
+## Füge einen neuen Abschnitt hinzu <a id="add-a-new-section"></a>
 
-The _Sections_ tool ![](../../.gitbook/assets/graphics33.png) is a simple but effective tool allowing you to group activities in the the learning path under headings for clarity.
+Das Tool _Sections_ ![](../../.gitbook/assets/graphics33.png) ist ein einfaches, aber effektives Tool, mit dem Sie Aktivitäten im Lernpfad unter Überschriften gruppieren können.
 
-![](../../.gitbook/assets/graphics29.png)_Illustration 81: Learning paths – New sections_
+![](../../.gitbook/assets/graphics29.png)_Illustration 81: Lernpfade — Neue Abschnitte_
 
-## Display the learning path <a id="display-the-learning-path"></a>
+## Anzeige des Lernpfades <a id="display-the-learning-path"></a>
 
-Display the results of the learning path you just built:
+Zeigen Sie die Ergebnisse des gerade gebauten Lernpfades an:
 
-![](../../.gitbook/assets/graphics30.png)_Illustration 82: Learning paths – Learner's view_
+![](../../.gitbook/assets/graphics30.png)_Illustration 82: Lernpfade — Sicht der Lerner_
 
-You can toggle between the above teacher and learner views by clicking the teacher/learner view button ![](../../.gitbook/assets/graphics31.png):
-
+Sie können zwischen den obigen Lehrer- und Lerneransichten wechseln, indem Sie auf die Schaltfläche für die Ansicht von Lehrer/Lernenden klicken ![](../../.gitbook/assets/graphics31.png):

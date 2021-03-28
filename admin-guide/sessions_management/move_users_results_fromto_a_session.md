@@ -1,6 +1,5 @@
-# Move users results from/to a session
+# Verschieben Sie Benutzerergebnisse von/zu einer Sitzung
 
-In the case you would want to move from a session-less mode to a session-full mode, you might \(in exceptional cases\) want to move a specific students' tracking data from a course-context to a session-context. This \(still unstable\) tool has been written exactly for that.
+Für den Fall, dass Sie von einem sitzungslosen Modus in einen Sitzungsvollmodus wechseln möchten, können Sie (in Ausnahmefällen\) die Tracking-Daten eines bestimmten Schülers von einem Kurskontext in einen Sitzungskontext verschieben möchten. Dieses \(noch instabil\) Tool wurde genau dafür geschrieben.
 
-Its interface is complex but relatively self-explaining. If you have doubts, we recommend you take backups, act cautiously and maybe contact an official Chamilo provider to take care of it...
-
+Die Benutzeroberfläche ist komplex, aber relativ selbsterklärend. Wenn Sie Zweifel haben, empfehlen wir Ihnen, Backups zu erstellen, vorsichtig zu handeln und sich vielleicht an einen offiziellen Chamilo-Anbieter zu wenden, um sich darum zu kümmern...

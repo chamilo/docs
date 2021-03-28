@@ -1,18 +1,17 @@
-# HTML Editor
+# HTML-Editor
 
-![](../../../.gitbook/assets/graficos10%20%284%29.png)This section contains all settings related to what you can do through the online editor. This includes setting up mathematical expressions editors and other online editor's extensions.
+Der Abschnitt ![](../../../.gitbook/assets/graficos10%20%284%29.png)This enthält alle Einstellungen, die sich auf das beziehen, was Sie über den Online-Editor tun können. Dies beinhaltet das Einrichten von Editoren für mathematische Ausdrücke und andere Erweiterungen des Online-Editors.
 
-**Advanced file manager for WYSIWYG editor** lets you choose between the simple & easy file manager and an extended & somewhat more complicated file manager. Change the options, go to any course introduction edition section, choose the icon to upload an image, click _Browse server_ and see the difference.
+**Der erweiterte Dateimanager für den WYSIWYG-Editor** lässt Sie zwischen dem einfachen und einfachen Dateimanager und einem erweiterten und etwas komplizierteren Dateimanager wählen. Ändern Sie die Optionen, gehen Sie zu einem beliebigen Abschnitt der Kurseinführungsausgabe, wählen Sie das Symbol zum Hochladen eines Bilds aus, klicken Sie auf _Server durchsuchen_ und sehen Sie den Unterschied.
 
-**Note**: WYSIWYG is an abbreviation of _What You See Is What You Get_, another way to say the editor allows you to edit things visually on screen while it is saved in a more complex format without having to worry about it.
+**Hinweis**: WYSIWYG ist eine Abkürzung von _What You See Is What You Ge Get_, eine andere Möglichkeit zu sagen, dass der Editor Dinge visuell auf dem Bildschirm bearbeiten kann, während es in einem komplexeren Format gespeichert wird, ohne sich darüber Gedanken machen zu müssen.
 
-**Mathematical editors: MimeTeX, ASCIImathML or ASCIISVG:** these are 3 separate options that allow you to enable the edition of mathematical formulaes. Their support may vary depending on the users browsers. To try these out, just enable them and try to edit a course's introduction section.
+**Mathematische Editoren: Mimetex, ASCIIMATHML oder ASCIISVG: ** Dies sind 3 separate Optionen, mit denen Sie die Edition von mathematischen Formeln aktivieren können. Ihre Unterstützung kann je nach den Browsern des Benutzers variieren. Um diese auszuprobieren, aktiviere sie einfach und versuche den Einführungsabschnitt eines Kurses zu bearbeiten.
 
-WIRIS mathematical editor allows you to link Chamilo's editor with the WIRIS editor, a very complete but, sadly, proprietary software to enhance mathematical or scientific courses. Using this feature will require your organization to hire WIRIS services.
+Mit dem mathematischen Editor von WIRIS können Sie den Editor von Chamilo mit dem WIRIS-Editor verknüpfen, einer sehr vollständigen, aber leider proprietären Software zur Verbesserung mathematischer oder wissenschaftlicher Kurse. Wenn Sie diese Funktion verwenden, muss Ihre Organisation WIRIS-Services einstellen.
 
-Spell check enables a spelling checker inside the editor. Make sure this is not a problem for the context of specific courses \(for example in orthography courses\).
+Die Rechtschreibprüfung ermöglicht eine Rechtschreibprüfung im Editor. Stellen Sie sicher, dass dies kein Problem für den Kontext bestimmter Kurse ist \(z. B. in Orthographie-Kursen\).
 
-Activate Google maps allows you to integrate Google Maps in your documents. This requires a Google Maps API, which you can obtain in your Google account.
+Durch die Aktivierung von Google Maps können Sie Google Maps in Ihre Dokumente integrieren. Dies erfordert eine Google Maps API, die Sie in Ihrem Google-Konto erhalten können.
 
-Allow insertion of widgets allows the users to have access to the “HTML widget” icon in the editor, which lets them paste tags taken from other sites \(Slideshare, YouTube, Vimeo, etc\).
-
+Durch das Einfügen von Widgets können Benutzer auf das “HTML widget” -Symbol im Editor zugreifen, wodurch sie Tags einfügen können, die von anderen Websites stammen \(Slideshare, YouTube, Vimeo usw.\).

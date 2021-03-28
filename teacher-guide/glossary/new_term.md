@@ -1,21 +1,20 @@
-# New term
+# Neuer Begriff
 
-To add a new term:
+So fügen Sie einen neuen Begriff hinzu:
 
-* click on _Add new glossary term_ ![](../../.gitbook/assets/graphics234.png),
-* enter the term in the first field,
-* give the term's definition,
-* click the _Save term_ button.
+* klicken Sie auf _Neuen Glossarbegriffe hinzufügen_ ![](../../.gitbook/assets/graphics234.png),
+* geben Sie den Begriff in das erste Feld ein,
+* geben Sie die Definition des Begriffs an,
+* Klicken Sie auf die Schaltfläche _Speicherbedingung_.
 
-A definition can be enriched by images and links:
+Eine Definition kann durch Bilder und Links bereichert werden:
 
 ![](../../.gitbook/assets/graphics236.png)
 
-_Illustration 128: Glossary – add a term_
+_Illustration 128: Glossar — einen Begriff hinzufügen_
 
-By default terms are displayed in T_able view_ ![](../../.gitbook/assets/graphics235.png) – suitable for a large number of terms with a brief definition. For a smaller list of fuller definitions, both teacher and learner may wish to choose the more attractive _List view_ ![](../../.gitbook/assets/graphics238.png) _:_
+Standardmäßig werden die Begriffe in t_able view_ ![](../../.gitbook/assets/graphics235.png) angezeigt — geeignet für eine große Anzahl von Begriffen mit einer kurzen Definition. Für eine kleinere Liste von umfassenderen Definitionen möchten Lehrer und Lernende möglicherweise die attraktivere _List-Ansicht_ ![](../../.gitbook/assets/graphics238.png) _:_
 
 ![](../../.gitbook/assets/graphics237.png)
 
-_Illustration 129: Glossary – List view_
-
+_Illustration 129: Glossar — Listenansicht_

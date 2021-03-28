@@ -1,15 +1,14 @@
-# Surveys management
+# Umfrage-Management
 
-A series of common icons are made available for the management of surveys, as well as a few specific icons.
+Für die Verwaltung von Umfragen werden eine Reihe gemeinsamer Symbole sowie einige spezifische Symbole zur Verfügung gestellt.
 
-| Icons | Features |
+| Icons | Funktionen |
 | :--- | :--- |
-| ![](../../.gitbook/assets/graphics297%20%283%29.png) | Edit survey settings |
-| ![](../../.gitbook/assets/images229%20%283%29.png) | Delete surveys |
-| ![](../../.gitbook/assets/graphics298%20%283%29.png) | Empty survey results |
-| ![](../../.gitbook/assets/graphics299%20%283%29.png) | Survey preview |
-| ![](../../.gitbook/assets/graphics300%20%283%29.png) | Publish survey |
-| ![](../../.gitbook/assets/graphics301%20%283%29.png) | Generate survey access link |
-| ![](../../.gitbook/assets/graphics302%20%283%29.png) | Access report features |
-| ![](../../.gitbook/assets/images234%20%283%29.png) | Change the order of the questions inside the survey |
-
+| ![](../../.gitbook/assets/graphics297%20%283%29.png) | Umfrageeinstellungen bearbeiten |
+| ![](../../.gitbook/assets/images229%20%283%29.png) | Umfragen löschen |
+| ![](../../.gitbook/assets/graphics298%20%283%29.png) | Leere Umfrageergebnisse |
+| ![](../../.gitbook/assets/graphics299%20%283%29.png) | Vorschau auf die Umfrage |
+| ![](../../.gitbook/assets/graphics300%20%283%29.png) | Umfrage veröffentlichen |
+| ![](../../.gitbook/assets/graphics301%20%283%29.png) | Link zum Umfragezugriff generieren |
+| ![](../../.gitbook/assets/graphics302%20%283%29.png) | Auf Berichtsfunktionen zugreifen |
+| ![](../../.gitbook/assets/images234%20%283%29.png) | Ändern Sie die Reihenfolge der Fragen in der Umfrage |

@@ -1,4 +1,3 @@
-# Overview /Export of group members
+# Übersicht /Export von Gruppenmitgliedern
 
-A teacher can quickly view a list of group members by clicking on the _Groups overview_ icon ![](../../.gitbook/assets/graphics286%20%283%29.png) on the main Groups page. From here, you can use the export feature, which is described more fully in the chapter dedicated to the _Users_ tool. Just click on the _Excel export_ icon ![](../../.gitbook/assets/graphics288%20%283%29.png) then open or save the file on your computer.
-
+Ein Lehrer kann schnell eine Liste von Gruppenmitgliedern anzeigen, indem er auf der Hauptseite Gruppenseite auf das Symbol _Gruppenübersicht_ ![](../../.gitbook/assets/graphics286%20%283%29.png) klickt. Von hier aus können Sie die Exportfunktion verwenden, die in dem Kapitel, das dem Tool _Users_ gewidmet ist, ausführlicher beschrieben wird. Klicken Sie einfach auf das _Excel-Export_-Symbol ![](../../.gitbook/assets/graphics288%20%283%29.png) und öffnen oder speichern Sie die Datei auf Ihrem Computer.

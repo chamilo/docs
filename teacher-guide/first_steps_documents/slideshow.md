@@ -1,14 +1,13 @@
-# Slideshow
+# Diashow
 
-If you have a lot of images uploaded in your folders and want to see them all at once, you can use the slideshow feature. Click on the slideshow icon ![](../../.gitbook/assets/graphics126.png) to go to the folder where your images are located.
+Wenn Sie viele Bilder in Ihren Ordnern hochgeladen haben und sie alle auf einmal sehen möchten, können Sie die Diashow-Funktion verwenden. Klicken Sie auf das Diashow-Symbol ![](../../.gitbook/assets/graphics126.png), um zu dem Ordner zu gelangen, in dem sich Ihre Bilder befinden.
 
-You'll be presented with a type of “slideshow” view of the images in that folder. Each image is captioned with its name, dimensions and size on disk.
+Ihnen wird eine Art “slideshow” -Ansicht der Bilder in diesem Ordner angezeigt. Jedes Bild wird mit seinem Namen, seinen Abmessungen und seiner Größe auf der Festplatte versehen.
 
-![](../../.gitbook/assets/images289.png)_Illustration 42: Image gallery - Slideshow view_
+![](../../.gitbook/assets/images289.png)_Illustration 42: Bildergalerie - Diashow view
 
-It may be more practical to select the small _show thumbnails_ icon ![](../../.gitbook/assets/graphics127.png) in the slideshow toolbar to let you view all images at once \(as thumbnails\), as illustrated below:
+Es kann praktischer sein, das kleine _show Thumbnails_-Symbol ![](../../.gitbook/assets/graphics127.png) in der Diashow-Symbolleiste auszuwählen, damit Sie alle Bilder auf einmal anzeigen können \(als Miniaturansichten\), wie unten dargestellt:
 
-![](../../.gitbook/assets/images290.png)_Illustration 43: Thumbnails view_
+![](../../.gitbook/assets/images290.png)_Illustration 43: Ansicht „Thumbnails“
 
-A _settings_ option![](../../.gitbook/assets/graphics345.png) is available to further fine-tune the viewing of images.
-
+Eine _settings_-Option ![](../../.gitbook/assets/graphics345.png) steht zur Verfügung, um die Anzeige von Bildern weiter einzustellen.

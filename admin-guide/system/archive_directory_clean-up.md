@@ -1,4 +1,3 @@
-# Archive directory clean-up
+# Archivverzeichnis-Bereinigung
 
-The archives/ directory is used to store temporary data. XLS exports, courses backups, etc. As such, and unless you have a cron job running regularly to clean it up, you should clean it manually once in a while. This link allows you to do just that, without requiring direct access to the files directory.
-
+Die Archive/ das Verzeichnis wird verwendet, um temporäre Daten zu speichern. XLS-Exporte, Kurssicherungen usw. als solche, und wenn Sie keinen Cron-Job haben, der regelmäßig ausgeführt wird, um ihn zu bereinigen, sollten Sie ihn ab und zu manuell bereinigen. Mit diesem Link können Sie genau das tun, ohne direkten Zugriff auf das Dateiverzeichnis zu benötigen.

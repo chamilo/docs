@@ -1,8 +1,7 @@
 # Multi-URL
 
-Chamilo hides \(within its many treasures\) a discrete but practical feature in case you use your Chamilo portal for several categories of users, for which you have to consider making the portal available with a second domain name, another visual aspect and a pre-selection of only a few users and courses. An independent space sharing some of its content and all of its code, if you will.
+Chamilo verbirgt \(innerhalb seiner vielen Schätze\) eine diskrete, aber praktische Funktion, falls Sie Ihr Chamilo-Portal für mehrere Benutzerkategorien nutzen, für die Sie erwägen müssen, das Portal mit einem zweiten Domainnamen, einem anderen visuellen Aspekt und einer Vorauswahl von nur wenigen Benutzern und Kursen zur Verfügung zu stellen. Ein unabhängiger Raum, der einen Teil seines Inhalts und seines gesamten Codes teilt, wenn Sie so wollen.
 
-For example, you might want to provide one Chamilo portal on [http://one.campus.org/](http://one.campus.org/) and another one on [http://two.campus.org/](http://two.campus.org/). Even if these are separate portal, you will probably have the same administration team managing all these, so it makes sense to share both the database and the files directory. This way, you even get to distribute users and courses over all portals as you please.
+Zum Beispiel möchten Sie vielleicht ein Chamilo-Portal auf [http://one.campus.org/](http://one.campus.org/) und ein anderes auf [http://two.campus.org/](http://two.campus.org/) bereitstellen. Selbst wenn es sich um ein separates Portal handelt, wird wahrscheinlich das gleiche Verwaltungsteam alles verwalten. Daher ist es sinnvoll, sowohl die Datenbank als auch das Dateiverzeichnis zu teilen. Auf diese Weise können Sie sogar Benutzer und Kurse nach Ihren Vorstellungen über alle Portale verteilen.
 
-For those familiar with Drupal, this is **not** the same as a multi-site configuration, as Chamilo multi-url **shares the database** between all instances. It does provide multiple portals, but it is also more tightly bound through the database.
-
+Für diejenigen, die mit Drupal vertraut sind, ist dies **nicht** dasselbe wie eine Konfiguration mit mehreren Standorten, da Chamilo multi-url **die Datenbank** zwischen allen Instanzen teilt. Es stellt mehrere Portale bereit, ist aber auch enger durch die Datenbank gebunden.

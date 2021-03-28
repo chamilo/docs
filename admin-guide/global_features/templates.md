@@ -1,32 +1,34 @@
-# Templates
+# Vorlagen
 
-Since version 1.9, Chamilo uses the Twig templating system to generate parts of its visual appearance.
+Seit Version 1.9 verwendet Chamilo das Twig-Templating-System, um Teile seines visuellen Erscheinungsbildes zu erzeugen.
 
-This means that you can now change Chamilo more easily. For example, the following screenshot is taken from a Chamilo 1.9 installation modified through templating. Although most visual changes can be done through CSS, there is a number of things that can just not be done this way, like showing new visual elements.
+Dies bedeutet, dass Sie Chamilo jetzt leichter wechseln können. Der folgende Screenshot stammt beispielsweise aus einer durch Templating modifizierten Chamilo 1.9-Installation. Obwohl die meisten visuellen Änderungen über CSS vorgenommen werden können, gibt es eine Reihe von Dingen, die auf diese Weise einfach nicht gemacht werden können, wie zum Beispiel neue visuelle Elemente.
 
-![](../../.gitbook/assets/images50%20%286%29.png) Illustration 89: Example portal using another template
+![](../../.gitbook/assets/images50%20%286%29.png) Illustration 89: Beispielportal mit einem anderen Template
 
-As you can see, classical elements of Chamilo have been moved around, shown or hidden depending on the desired final appearance.
+Wie Sie sehen, wurden klassische Elemente von Chamilo je nach gewünschtem Endbild bewegt, gezeigt oder verborgen.
 
-To update a theme, we recommend you start with a copy of the existing one:
+Um ein Theme zu aktualisieren, empfehlen wir Ihnen, mit einer Kopie des bestehenden Themas zu beginnen:
 
+```bash
 cd /var/www/chamilo/main/templates/
-
 cp -r default mytemplate
+```
 
-Then you can start looking into that theme. You'll find that most header and footer elements are located in the _layout_ directory. For example, the whole visible header on the page is declared in main/templates/default/layout/main\_header.tpl.
+Dann kannst du anfangen, dieses Thema zu untersuchen. Sie werden feststellen, dass sich die meisten Elemente für Kopf- und Fußzeilen im Verzeichnis _layout_ befinden. Zum Beispiel wird der gesamte sichtbare Header auf der Seite in `main/templates/default/layout/main_header.tpl`. deklariert
 
-Understanding the templates mechanism should be relatively easy if you have any experience with other templating systems.
+Das Verständnis des Template-Mechanismus sollte relativ einfach sein, wenn Sie Erfahrung mit anderen Templating-Systemen haben.
 
-Templates \(ending in .tpl\) will look something like this:
+Vorlagen \(die auf .tpl enden\) sehen in etwa so aus:
 
-**Illegal HTML tag removed**:
+**Illegales HTML-Tag entfernt**:
 
-All  markers are prepared into other scripts or libraries. Most of the very common tags are defined in main/inc/lib/template.lib.php, with an “assign” call, like this:
+Alle Marker werden in andere Skripte oder Bibliotheken vorbereitet. Die meisten der sehr gebräuchlichen Tags sind in `main/inc/lib/template.lib.php` definiert, mit einem “assign” -Aufruf wie folgt:
 
-$this-&gt;assign\('show\_footer', $status\);
+```bash
+$this->assign('show_footer', $status);
+```
 
-In order for you to be able to test your new template, you will have to change line 13 of main/inc/lib/template.lib.php to replace 'default' by the name of your new template's directory \(using the example above, it would be _mytemplate_\).
+Damit Sie Ihre neue Vorlage testen können, müssen Sie die Zeile 13 von `main/inc/lib/template.lib.php` ändern, um „Standard“ durch den Namen des Verzeichnisses Ihrer neuen Vorlage zu ersetzen \(im obigen Beispiel wäre es _mytemplate_\).
 
-During the development of a new template \(which we recommend you do on a separate portal, not your production portal\), you should disable caching. You can do that in a series of ways, but the easiest is probably to just put your portal in “test server” mode. You can do that in the first page of the _Platform settings_ \(option called _Server Type_\).
-
+Während der Entwicklung einer neuen Vorlage \(die wir empfehlen, in einem separaten Portal, nicht in Ihrem Produktionsportal\), sollten Sie das Caching deaktivieren. Sie können das auf verschiedene Arten tun, aber am einfachsten ist es wahrscheinlich, Ihr Portal einfach in den “test server” -Modus zu versetzen. Sie können dies auf der ersten Seite der _Platform-Einstellungen_ \(Option namens _Server Type_\) tun.

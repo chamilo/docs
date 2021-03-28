@@ -1,6 +1,6 @@
-### Teacher (or trainer) {#teacher-or-trainer}
+### Lehrer (oder Trainer) {#teacher-or-trainer}
 
-| Description | The teacher is the creator of courses by excellence. He creates content within a base course, and this content is either used directly (if you don&#039;t use sessions) or can be used in many sessions at the same time (in the case of sessions usage). |
-| --- | --- |
-| Permissions in a course | By default, he can: |
-| Global permissions | By default, he can : |
+| Beschreibung | Der Lehrer ist der Ersteller von Kursen durch Exzellenz. Er erstellt Inhalte innerhalb eines Basiskurses, und dieser Inhalt wird entweder direkt verwendet (wenn Sie keine Sitzungen verwenden) oder kann in vielen Sitzungen gleichzeitig verwendet werden (im Falle der Verwendung von Sitzungen). |
+| — | — |
+| Berechtigungen in einem Kurs | Standardmäßig kann er:
+| Globale Berechtigungen | Standardmäßig kann er:

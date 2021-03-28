@@ -1,12 +1,11 @@
-# Create a thematic section
+# Erstellen Sie einen thematischen Bereich
 
-The thematic sections represent the highest level in the course progress' structure. You need to create sections in order to be able to create other levels of the structure.
+Die thematischen Abschnitte stellen das höchste Niveau in der Struktur des Kursfortschritts dar. Sie müssen Abschnitte erstellen, um andere Ebenen der Struktur erstellen zu können.
 
-To create the first section, create the _New thematic section_ icon ![](../../.gitbook/assets/graphics252.png) and complete the relevant fields using text, images etc.
+Um den ersten Abschnitt zu erstellen, erstellen Sie das Symbol _Neuer thematischer Abschnitt_ ![](../../.gitbook/assets/graphics252.png) und füllen Sie die relevanten Felder mit Text, Bildern usw. aus.
 
-![](../../.gitbook/assets/images184%20%281%29.png)_Illustration 137: Course progress – invitation to create a thematic plan_
+![](../../.gitbook/assets/images184%20%281%29.png)_Illustration 137: Kursfortschritt — Einladung zur Erstellung eines thematischen Plans_
 
-On clicking _Save_ you will be invited to create new thematic plan:
+Wenn Sie auf _Save_ klicken, werden Sie eingeladen, einen neuen thematischen Plan zu erstellen:
 
-![](../../.gitbook/assets/graphics259.png)_Illustration 138: Course progress – invitation to create a thematic plan/advance_
-
+![](../../.gitbook/assets/graphics259.png)_Illustration 138: Kursfortschritt — Einladung zur Erstellung eines thematischen Plans/Fortschritt_

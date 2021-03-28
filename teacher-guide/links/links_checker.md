@@ -1,6 +1,5 @@
-# Links checker
+# Verbindungsprüfer
 
-Since version 1.8.8.4, you can \(manually\) check whether a link is alive. To do this, click the small magnifier icon ![](../../.gitbook/assets/graphics223.png) on the right side of the link as it is listed in the Links page. After a few seconds \(or less\), an icon appears. A green tick ![](../../.gitbook/assets/graphics224.png) means the link is valid. A red sign ![](../../.gitbook/assets/graphics225.gif) means the link is broken.
+Seit Version `1.8.8`.4 können Sie \(manuell\) überprüfen, ob ein Link lebt. Klicken Sie dazu auf das kleine Lupensymbol ![](../../.gitbook/assets/graphics223.png) auf der rechten Seite des Links, wie es auf der Link-Seite aufgeführt ist. Nach ein paar Sekunden \(oder weniger\) erscheint ein Symbol. Ein grünes Häkchen ![](../../.gitbook/assets/graphics224.png) bedeutet, dass der Link gültig ist. Ein rotes Zeichen ![](../../.gitbook/assets/graphics225.gif) bedeutet, dass der Link defekt ist.
 
-> **Note**: the links checker effectively tries to connect to the given link **from the server.** As such, a link that works for you might not work for the server, and vice-versa. This will require the server to be equipped with the CURL library. Check with your admin if this is the case.
-
+> **Hinweis**: Der Links-Checker versucht effektiv, sich mit dem angegebenen Link zu verbinden**vom Server.** Als solcher funktioniert ein Link, der für Sie funktioniert, möglicherweise nicht für den Server und umgekehrt. Dies erfordert, dass der Server mit der CURL-Bibliothek ausgestattet sein muss. Erkundigen Sie sich bei Ihrem Administrator, ob dies der Fall ist.

@@ -1,11 +1,10 @@
-# Read and add comments on a file
+# Lesen und fügen Sie Kommentare zu einer Datei hinzu
 
-* ![](../../.gitbook/assets/graphics275.png) click the _Comment_ icon next to the file's name,
-* read the existing comments,
-* add a feedback comment in the text area available,
-* click the _Save feedback_ button.
+* ![](../../.gitbook/assets/graphics275.png) klicke auf das _comment_ -Symbol neben dem Dateinamen,
+* lesen Sie die vorhandenen Kommentare,
+* fügen Sie einen Feedbackkommentar im verfügbaren Textbereich hinzu,
+* klicken Sie auf die Schaltfläche _Feedback_ speichern.
 
 ![](../../.gitbook/assets/images211.png)
 
-_illustration 147: Dropbox - Comments_
-
+_illustration 147: Dropbox - Kommentare_

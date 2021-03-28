@@ -1,14 +1,14 @@
-# User roles
+# User-Rollen
 
-User roles are a fundamental part in the users management of a Chamilo portal, and their deep understanding allows you to go further than a private use, into a complete academical management where every person has its place and responsibility.
+Benutzerrollen sind ein grundlegender Bestandteil bei der Benutzerverwaltung eines Chamilo-Portals, und ihr tiefes Verständnis ermöglicht es Ihnen, über eine private Nutzung hinauszugehen, in ein vollständiges akademisches Management, in dem jede Person ihren Platz und ihre Verantwortung hat.
 
-For the common administrator, it will seem there are only four roles in Chamilo: the ones which appear directly in the users creation form in the administration section. However, some roles actually offer sub-roles, of which one can only gain knowledge after a deeper use of the platform.
+Für den gemeinsamen Administrator scheint es in Chamilo nur vier Rollen zu geben: die, die direkt im Formular zur Erstellung von Benutzern im Administrationsbereich angezeigt werden. Einige Rollen bieten jedoch tatsächlich Unterrollen an, von denen man erst nach einer tieferen Nutzung der Plattform Wissen erlangen kann.
 
-In order to guide you in the discovery of these roles, we will use the following schema as a reference, as it represents most of the roles and also the notion of sessions \(as we will see it in chapter Chapter 7. Sessions management on page 64\).
+Um Sie bei der Entdeckung dieser Rollen zu unterstützen, verwenden wir das folgende Schema als Referenz, da es die meisten Rollen und auch den Begriff der Sitzungen darstellt \(wie wir es in Kapitel 7 sehen werden. Sitzungsmanagement auf Seite 64\).
 
-![](../../../.gitbook/assets/graficos80%20%285%29.png)Illustration 46: Roles and sessions
+![](../../../.gitbook/assets/graficos80%20%285%29.png)
+Illustration 46: Rollen und Sitzungen
 
-In this schema, we can see the main administrator \(on top\), the sessions administrator \(on the right\), the session coach \(on top of the session block\), the courses coaches \(on top of the courses\), the teacher \(on the left of a course\), the students \(connected to the session\) and the human resources manager \(connected to the students\).
+In diesem Schema sehen wir den Hauptadministrator \(oben\), den Sitzungsadministrator \(rechts\), den Sitzungscoach \(oben im Sitzungsblock\), die Kurstrainer \(oben auf den Kursen\), den Lehrer \(links eines Kurses\), die Schüler \(die mit der Sitzung verbunden sind\) und die Personalressourcen manager \(verbunden mit den Studenten\).
 
-Let's review these roles together, going from the less powerful up to the most powerful.
-
+Lassen Sie uns diese Rollen zusammen besprechen und von den weniger mächtigen zu den leistungsstärksten gehen.

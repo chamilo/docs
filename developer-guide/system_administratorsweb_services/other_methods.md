@@ -1,24 +1,24 @@
-# Other methods
+# Andere Methoden
 
-Some of the other methods available, with a small explanation for each:
+Einige der anderen verfügbaren Methoden mit einer kleinen Erklärung für jede:
 
 ```text
 function WSCreateUsers($params)
 ```
 
-Creates users in batches. Password is expected unencrypted \(which is alright on HTTPS but **not** otherwise\).
+Erstellt Benutzer in Chargen. Das Passwort wird unverschlüsselt erwartet \(was auf HTTPS in Ordnung ist, aber sonst **nicht**\).
 
 ```text
 function WSCreateUser($params)
 ```
 
-Creates just one user.
+Erzeugt nur einen Benutzer.
 
 ```text
 function WSCreateUsersPasswordCrypted($params)
 ```
 
-Creates users taking into account their passwords might be encrypted. This method expects the following parameters :
+Erstellt Benutzer, die berücksichtigen, dass ihre Kennwörter möglicherweise verschlüsselt sind. Diese Methode erwartet die folgenden Parameter:
 
 ```text
 $params = array(
@@ -46,99 +46,99 @@ $params = array(
 function WSCreateUserPasswordCrypted($params)
 ```
 
-Creates just one user taking into account his password might be encrypted
+Erstellt nur einen Benutzer, der sein Passwort berücksichtigt, ist möglicherweise verschlüsselt
 
 ```text
 function WSEditUserCredentials($params)
 ```
 
-Edits one user's credentials \(username + password\)
+Bearbeitet die Anmeldedaten eines Benutzers \(Benutzername + Passwort\)
 
 ```text
 function WSEditUsers($params)
 ```
 
-Edit several users in batch.
+Bearbeiten Sie mehrere Benutzer im Batch.
 
 ```text
 function WSEditUser($params)
 ```
 
-Edit just one user
+Bearbeiten Sie nur einen Benutzer
 
 ```text
 function WSEditUsersPasswordCrypted($params)
 ```
 
-Edit users, sending encrypted passwords
+Benutzer bearbeiten, verschlüsselte Passwörter senden
 
 ```text
 function WSEditUserPasswordCrypted($params)
 ```
 
-Edit one user, sending encrypted password.
+Bearbeiten Sie einen Benutzer und senden Sie ein verschlüsseltes Passwort.
 
-**Warning** : although very discrete, there is an issue in Chamilo LMS 1.9.\* whereby WSCreateUserPasswordCrypted expects the username in the form of a « loginname » field, whereas WSEditUserPasswordCrypted expects the username in the form of a « username » field. Make sure you don't fall for this one, as it might be time-costly.
+**Warnung**: Obwohl sehr diskret, gibt es in `Chamilo LMS 1.9` ein Problem.\* wobei wscreateUserGypwordCrypted den Benutzernamen in Form eines « loginname » -Feldes erwartet, während WseditUserPasswordCryptoD den Benutzernamen in Form eines « username » -Feldes erwartet. Stellen Sie sicher, dass Sie nicht auf dieses hereinfallen, da dies zeitaufwändig sein könnte.
 
 ```text
 function WSDeleteUsers($params)
 ```
 
-Delete users in batch
+Benutzer im Stapel löschen
 
 ```text
 function WSDisableUsers($params)
 ```
 
-Disable users in batch
+Deaktivieren Sie Benutzer im Batch
 
 ```text
 function WSEnableUsers($params)
 ```
 
-Enable users in batch
+Benutzer im Stapel aktivieren
 
 ```text
 function WSCreateCourse($params)
 ```
 
-Create a course
+Erstellen Sie einen Kurs
 
 ```text
 function WSCreateCourseByTitle($params)
 ```
 
-Create a course giving only a title
+Erstellen Sie einen Kurs mit nur einem Titel
 
 ```text
 function WSEditCourse($params)
 ```
 
-Edit an existing course
+Bearbeiten eines bestehenden Kurses
 
 ```text
 function WSCourseDescription($params)
 ```
 
-Get the course description for a given course
+Holen Sie sich die Kursbeschreibung für einen bestimmten Kurs
 
 ```text
 function WSEditCourseDescription($params)
 ```
 
-Edit a course description
+Bearbeiten einer Kursbeschreibung
 
 ```text
 function WSDeleteCourse($params)
 ```
 
-Delete a course
+Einen Kurs löschen
 
 ```text
 function WSCreateSession($params)
 ```
 
-Create a session. This method expects the following parameters :
+Erstellen Sie eine Sitzung. Diese Methode erwartet die folgenden Parameter:
 
 ```text
 $params = array(
@@ -166,7 +166,7 @@ $params = array(
 function WSEditSession($params)
 ```
 
-Edit one \(or more\) existing session\(s\) based on the original\_session\_id\_value field. This method expects the following parameters :
+Bearbeiten Sie eine \(oder mehrere\) bestehende Session \(s\) basierend auf dem ursprünglichen\_session\_id\_value-Feld. Diese Methode erwartet die folgenden Parameter:
 
 ```text
 $params = array(
@@ -196,43 +196,43 @@ $params = array(
 function WSDeleteSession($params)
 ```
 
-Delete a session
+Löschen einer Session
 
 ```text
 function WSSubscribeUserToCourse($params)
 ```
 
-Subscribe a user to a course
+Abonnieren Sie einen Benutzer für einen Kurs
 
 ```text
 function WSSubscribeUserToCourseSimple($params)
 ```
 
-Subscribe a user to a course
+Abonnieren Sie einen Benutzer für einen Kurs
 
 ```text
 function WSGetUser($params)
 ```
 
-Get user information from a user ID
+Holen Sie sich Benutzerinformationen von einer Benutzer-ID
 
 ```text
 function WSGetUserFromUsername($params)
 ```
 
-Get user information from a username
+Holen Sie sich Benutzerinformationen von einem Benutzernamen
 
 ```text
 function WSUnsubscribeUserFromCourse($params)
 ```
 
-Unsubscribe a user from a course
+Einen Benutzer von einem Kurs abmelden
 
 ```text
 function WSSuscribeUsersToSession($params)
 ```
 
-**WARNING : please note the typing mistake here : the service is called « suscribe » instead of « subscribe ». For backwards compatibility, we left it that way, but make no mistake : you have to type it in an incorrect English to make it work !**Subscribe a user to a session. This method expects the following parameters :
+**WARNUNG: Bitte beachten Sie hier den Tippfehler: Der Dienst heißt « suscribe » statt « subscribe ». Aus Gründen der Abwärtskompatibilität haben wir es so gelassen, aber machen Sie keinen Fehler: Sie müssen es in falschem Englisch eingeben, damit es funktioniert!**Abonnieren Sie einen Benutzer für eine Sitzung. Diese Methode erwartet die folgenden Parameter:
 
 ```text
 $params = array(
@@ -250,23 +250,23 @@ $params = array(
 function WSSubscribeUserToSessionSimple($params)
 ```
 
-Unsubscribe a user from a session
+Einen Benutzer von einer Sitzung abmelden
 
 ```text
 function WSUnsuscribeUsersFromSession($params)
 ```
 
-WARNING : See note in WSSuscribeUsersToSession
+WARNUNG: Siehe Hinweis in WSSSusCribeUsersToSession
 
-Unsubscribe several users from a session in batch
+Abmelden mehrerer Benutzer von einer Sitzung im Batch
 
 ```text
 function WSSuscribeCoursesToSession($params)
 ```
 
-WARNING : See note in WSSuscribeUsersToSession
+WARNUNG: Siehe Hinweis in WSSSusCribeUsersToSession
 
-Subscribe several users to a session in batch. This method expects the following parameters :
+Abonnieren Sie mehrere Benutzer für eine Sitzung im Stapel. Diese Methode erwartet die folgenden Parameter:
 
 ```text
 $params = array(
@@ -289,25 +289,24 @@ $params = array(
 function WSUnsuscribeCoursesFromSession($params)
 ```
 
-WARNING : See note in WSSuscribeUsersToSession
+WARNUNG: Siehe Hinweis in WSSSusCribeUsersToSession
 
-Remove a course from a session
+Entfernen eines Kurses aus einer Session
 
 ```text
 function WSListCourses($params)
 ```
 
-Gets a list of courses available on the platform
+Ruft eine Liste der auf der Plattform verfügbaren Kurse ab
 
 ```text
 function WSUpdateUserApiKey($params)
 ```
 
-Update the API key of a user
+Aktualisieren Sie den API-Schlüssel eines Benutzers
 
 ```text
 function WSListSessions($params)
 ```
 
-Lists the sessions available on the platform
-
+Listet die auf der Plattform verfügbaren Sitzungen auf

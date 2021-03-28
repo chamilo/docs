@@ -1,19 +1,18 @@
 # “Friends”
 
-In the _Social network_ tab, you can make contacts and invite them as _Friends_ \(a rather free use of the term _friend_!\). You can search for people by:
+Auf der Registerkarte _Social Network_ kannst du Kontakte knüpfen und sie als _Friends_\ einladen (eine eher kostenlose Verwendung des Begriffs _friend_!\). Sie können nach Personen suchen, indem Sie:
 
-* clicking the _Invitations_ link in the left menu ![](../../.gitbook/assets/graphics340.png),
-* click _Search_.
+* auf den Link _Invitations_ im linken Menü klicken ![](../../.gitbook/assets/graphics340.png),
+* klicken Sie auf _Search_.
 
-By simply entering a few characters of the user's first or last name, Chamilo will help by proposing a list of users matching these characters. The invitation can then be sent to the user, who can choose whether to accept or refuse it.
+Indem Chamilo einfach ein paar Zeichen des Vor- oder Nachnamens des Benutzers eingegeben wird, hilft es, eine Liste von Benutzern vorzuschlagen, die diesen Zeichen entsprechen. Die Einladung kann dann an den Benutzer gesendet werden, der wählen kann, ob er sie annehmen oder ablehnen möchte.
 
 ![](../../.gitbook/assets/images258.png)
 
-_Illustration 190: Social network – send and receive invitations_
+_Illustration 190: Soziales Netzwerk — Einladungen senden und empfangen_
 
-The _Friends_ link ![](../../.gitbook/assets/graphics342.png) gathers all friends you have linked to on the platform. It allows you to see the shared profile of the user and send him a message with a click on his name.
+Der _Friends_-Link ![](../../.gitbook/assets/graphics342.png) sammelt alle Freunde, mit denen du auf der Plattform verlinkt hast. Es ermöglicht Ihnen, das geteilte Profil des Benutzers zu sehen und ihm mit einem Klick auf seinen Namen eine Nachricht zu senden.
 
 ![](../../.gitbook/assets/images259.png)
 
-_Illustration 191: Social network – Shared profile_
-
+_Illustration 191: Soziales Netzwerk — Gemeinsames Profile_

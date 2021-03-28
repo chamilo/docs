@@ -1,8 +1,7 @@
-# Give a score from a message
+# Gib eine Punktzahl aus einer Nachricht
 
-* Click on the _Grade activity_ icon ![](../../.gitbook/assets/graphics16%20%283%29.png) under the user's picture,
-* The new page gathers the list of all messages posted by the learner as well as a statistical table based on these messages,
-* Click the _Grade this thread_ button.
+* Klicken Sie auf das _Grade Activity_Icon ![](../../.gitbook/assets/graphics16%20%283%29.png) unter dem Bild des Benutzers,
+* Die neue Seite enthält die Liste aller vom Teilnehmer geposteten Nachrichten sowie eine statistische Tabelle, die auf diesen Nachrichten basiert.
+* Klicken Sie auf die Schaltfläche _Diesen Thread benoten.
 
-The score given to the learners will be shown in the assessment tool.
-
+Die Punktzahl, die den Lernenden gegeben wird, wird im Bewertungstool angezeigt.

@@ -1,6 +1,6 @@
-# Connection and security key
+# Verbindungs- und Sicherheitsschlüssel
 
-The authentication mechanism for the webservices is a little weird, so let us first give you an example of how we would go about to call a service that creates a user in Chamilo from another application in PHP... we'll then explain the different parts.
+Der Authentifizierungsmechanismus für die Webservices ist etwas seltsam, also geben wir Ihnen zuerst ein Beispiel dafür, wie wir einen Dienst anrufen würden, der einen Benutzer in Chamilo aus einer anderen Anwendung in PHP erstellt... wir erklären dann die verschiedenen Teile.
 
 ```text
 $url = 'https://chamilo.net/main/webservices/';
@@ -38,13 +38,12 @@ $params = array(
 $soap->WSCreateUserPasswordCrypted($params);
 ```
 
-At the very beginning, we formed the URL to access the WSDL. Most of the files in main/webservices/ \(if not all\) can be called with a «?wsdl » suffix to show the WSDL \(the structured presentation of the available functions\). This should be enough for any SOAP client to know which functions are available to call.
+Gleich zu Beginn haben wir die URL für den Zugriff auf die WSDL erstellt. Die meisten Dateien in main/webservices/ \(wenn nicht alle\) können mit einem «?wsdl » -Suffix aufgerufen werden, um die WSDL \(die strukturierte Darstellung der verfügbaren Funktionen\) anzuzeigen. Dies sollte ausreichen, damit jeder SOAP-Client weiß, welche Funktionen für Anrufe verfügbar sind.
 
-We then looked for an IP address at testip.php. This script is specifically there to help us form the secret key : we need to show the server we know from what IP we'll be calling. Using file\_get\_contents\(\) gives you that information into a variable.
+Wir haben dann bei testip.php nach einer IP-Adresse gesucht. Dieses Skript hilft uns speziell bei der Bildung des geheimen Schlüssels: Wir müssen dem Server zeigen, von dem wir wissen, von welcher IP wir anrufen werden. Die Verwendung von file\_get\_contents\(\) gibt Ihnen diese Informationen in eine Variable.
 
-We then define a key... that's because we can't get it directly from Chamilo through the webserver. We have to open the app/config/configuration.php file and look for _$\_configuration\['security\_key'\],_ then copy its value into our script in order to form the final secret key that we will send to the web service.
+Wir definieren dann einen Schlüssel... das liegt daran, dass wir ihn nicht direkt von Chamilo über den Webserver beziehen können. Wir müssen die app/config/configuration.php -Datei öffnen und nach _$\_configuration \['security\_key'\] suchen, _ dann seinen Wert in unser Skript kopieren, um den endgültigen geheimen Schlüssel zu bilden, den wir an den Webdienst senden.
 
-Finally, we prepare the _$params_ array and call the _WSCreateUserPasswordCrypted_\(\) \(a special version of _WSCreateUser_\(\) that only works if we use the same crypt method for the password on both sides \(we have to mention it in the _encrypt\_method_ parameter.
+Schließlich bereiten wir das Array _$params_ vor und rufen das _WSCreateUserPasswordCrypted_\(\)\ auf (eine spezielle Version von _WSCreateUser_\(\), die nur funktioniert, wenn wir die gleiche Kryptenmethode für das Kennwort auf beiden Seiten verwenden \(wir müssen es im Parameter _encrypt\_method_ erwähnen.
 
-The parameter _original\_user\_id\_name_ is what allows us to link between Chamilo and our external service. Just give a constant name that represents your system and the fact that it is a user ID, and give the user ID from **your** system inside the value of _original\_user\_id\_value_. With this value set, you will later be able to edit or delete users you previously created: Chamilo will maintain a relationship between your system and itself thanks to the storing of this information.
-
+Der Parameter _original\_user\_id\_name_ ermöglicht es uns, eine Verbindung zwischen Chamilo und unserem externen Service herzustellen. Geben Sie einfach einen konstanten Namen an, der Ihr System und die Tatsache darstellt, dass es sich um eine Benutzer-ID handelt, und geben Sie die Benutzer-ID von **Ihre**-System innerhalb des Werts von _original\_user\_id\_value_ an. Mit diesem Wertesatz können Sie später Benutzer bearbeiten oder löschen, die Sie zuvor erstellt haben: Chamilo wird dank der Speicherung dieser Informationen eine Beziehung zwischen Ihrem System und sich selbst aufrechterhalten.

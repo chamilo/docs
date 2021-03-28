@@ -1,24 +1,23 @@
-# Assessments pre-configuration
+# Vorkonfiguration der Bewertungen
 
-The assessment tool \(also called the _gradebook_ tool by some of our users\) requires several settings to be correctly configured to give you a useful result. The activities weighting, a minimum certification score \(pass-mark\), skills rankings and a certificate template are elements that can extend this tool if properly configured. If these are not set correctly, an orange alert will be displayed on the main _Assessments_ page.
+Das Bewertungstool \(von einigen unserer Benutzer auch als _gradebook_-Tool bezeichnet\) erfordert, dass mehrere Einstellungen korrekt konfiguriert sind, um Ihnen ein nützliches Ergebnis zu liefern. Die Gewichtung der Aktivitäten, ein Mindestzertifizierungswert \(Pass-Mark\), Skills-Rankings und eine Zertifikatvorlage sind Elemente, die dieses Tool erweitern können, wenn es richtig konfiguriert ist. Wenn diese nicht richtig eingestellt sind, wird eine orangefarbene Warnung auf der Hauptseite von _Assessments_ angezeigt.
 
-![](../../.gitbook/assets/image3%20%282%29.png)_Illustration 103: An empty gradebook generates information messages_
+![](../../.gitbook/assets/image3%20%282%29.png)_Illustration 103: Ein leeres Bewertungsbericht generiert Informationsmellegen_
 
-So let’s analyze each of these elements in more detail.
+Lassen Sie uns also jedes dieser Elemente genauer analysieren.
 
-## Total weight and minimum certification score <a id="total-weight-and-minimum-certification-score"></a>
+## Gesamtgewicht und Mindestzertifikationswert <a id="total-weight-and-minimum-certification-score"></a>
 
-To view and edit this basic configuration , click on any of the edit icons \( ![](../../.gitbook/assets/graphics182.svg)\) of the page:
+Um diese Grundkonfiguration anzuzeigen und zu bearbeiten, klicken Sie auf eines der Bearbeitungssymbole \(![](../../.gitbook/assets/graphics182.svg)\) der Seite:
 
 ![](../../.gitbook/assets/images132%20%281%29.png)
 
-_Illustration 104: Assessments – General settings_
+_Illustration 104: Bewertungen — Allgemeine Einstellungen_
 
-The _Total weight_ of the course is important for assigning individual weights to activities. This will allow you to “spread” the importance of each activity in your course. If you only have a few activities, maybe a total weight of 10 is enough, but we consider 100 to be a common selection among teachers.
+Das _Gesamtgewicht_ des Kurses ist wichtig, um Aktivitäten einzelne Gewichte zuzuweisen. Dies ermöglicht es Ihnen, die Wichtigkeit jeder Aktivität in Ihrem Kurs zu “spread” zu machen. Wenn Sie nur wenige Aktivitäten haben, reicht vielleicht ein Gesamtgewicht von 10 aus, aber wir betrachten 100 als eine übliche Auswahl unter Lehrern.
 
-The _Minimum_ _certification score_ defines the pass-mark for the course. It is expressed as a percentage of the total score. This can be useful in several ways, but in the end, if a student has a grade/score that is superior to that percentage, he/she will “pass” the course and, if you configured certificates, he/she will also receive a certificate. If the score is below that percentage, no certificate will be generated, and we will consider the student didn’t acquire the corresponding skill or skills.
+Der _Minimum_ _Zertifizierungs-Score_ definiert das Kennzeichen für den Kurs. Es wird als Prozentsatz der Gesamtpunktzahl ausgedrückt. Dies kann auf verschiedene Arten nützlich sein, aber am Ende, wenn ein Schüler eine Note/einen Wert hat, der diesem Prozentsatz überlegen ist, wird er den Kurs “pass” und, wenn Sie Zertifikate konfiguriert haben, erhält er auch ein Zertifikat. Wenn die Punktzahl unter diesem Prozentsatz liegt, wird kein Zertifikat generiert, und wir werden davon ausgehen, dass der Schüler nicht die entsprechenden Fähigkeiten oder Fähigkeiten erworben hat.
 
-The description is really not used much. You can use this field to describe what is expected of the student to get a certificate or a passing score.
+Die Beschreibung wird wirklich nicht viel genutzt. Sie können dieses Feld verwenden, um zu beschreiben, was vom Schüler erwartet wird, um ein Zertifikat oder eine bestandene Punktzahl zu erhalten.
 
-Finally, an option allows you to define whether you want to generate a certificate or not. In previous versions, the generation of a certificate was automatic if the student reached the minimum certification score. However, some teachers noted that they didn’t always have the time to configure certificates properly, and that they wanted to remain in control of when certificates should be generated when they used the assessments tool with students. Fair enough: we added the option so the certificate generation is optional \(and is not enabled by default\). We’ll come back to that option a bit later.
-
+Schließlich können Sie mit einer Option definieren, ob Sie ein Zertifikat generieren möchten oder nicht. In früheren Versionen erfolgte die Erstellung eines Zertifikats automatisch, wenn der Student die Mindestzertifizierungsbewertung erreicht hat. Einige Lehrer stellten jedoch fest, dass sie nicht immer die Zeit hatten, Zertifikate ordnungsgemäß zu konfigurieren, und dass sie die Kontrolle darüber behalten wollten, wann Zertifikate erstellt werden sollten, wenn sie das Bewertungstool mit Schülern verwendeten. Fair genug: Wir haben die Option hinzugefügt, damit die Zertifikatgenerierung optional ist \(und standardmäßig nicht aktiviert ist\). Wir werden etwas später auf diese Option zurückkommen.

@@ -1,10 +1,9 @@
-# Create a group
+# Erstelle eine Gruppe
 
-On the main _Groups_ page, click the _Create new group\(s\)_ icon ![](../../.gitbook/assets/graphics277.png). You will be prompted to enter the number of groups to create \(this will speed up the process if you want to create more than one group\) and click the _Proceed to create group\(s\)_ button:
+Klicken Sie auf der Hauptseite _Groups_ auf das Symbol _Neue Gruppe erstellen \(s\) _ ![](../../.gitbook/assets/graphics277.png). Sie werden aufgefordert, die Anzahl der zu erstellenden Gruppen einzugeben \(dies beschleunigt den Prozess, wenn Sie mehr als eine Gruppe erstellen möchten\) und auf die Schaltfläche _Weiter klicken, um Gruppe \(s\_) zu erstellen:
 
 ![](../../.gitbook/assets/images213.png)
 
-_Illustration 148: Create a group_
+_Illustration 148: Erstelle eine Gruppen_
 
-Give it a name, enter the number of empty seats you want in the group, and click _Create group\(s\)_. The new group will appear in the listings in the main _Groups_ page. It can be deleted using the usual _Delete_ icon ![](../../.gitbook/assets/graphics278.png).
-
+Geben Sie ihm einen Namen, geben Sie die Anzahl der leeren Plätze ein, die Sie in der Gruppe haben möchten, und klicken Sie auf _Gruppe erstellen \(s\) _. Die neue Gruppe wird in den Angeboten auf der Hauptseite von _Groups_ angezeigt. Es kann mit dem üblichen _Delete_ Icon ![](../../.gitbook/assets/graphics278.png) gelöscht werden.

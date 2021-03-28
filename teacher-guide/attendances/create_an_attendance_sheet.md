@@ -1,24 +1,23 @@
-# Create an attendance sheet
+# Erstellen Sie ein Anwesenheitsblatt
 
-To get started, click the _Create a new attendance list_ icon ![](../../.gitbook/assets/graphics245.png):
+Klicken Sie zunächst auf das Symbol _Neue Anwesenheitsliste erstellen_ ![](../../.gitbook/assets/graphics245.png):
 
 ![](../../.gitbook/assets/images178%20%281%29.png)
 
-_Illustration 131: Attendances – New attendances form_
+_Illustration 131: Teilnahmen — Formular für neue Teilnahmewächte_
 
-Fill in the main title/description fields and tick if you wish to grade the attendances. If you do so you can select an assessment to link attendances to, write a column header for the report and add a
+Füllen Sie die Felder für den Haupttitel/die Beschreibung aus und kreuzen Sie an, wenn Sie die Teilnehmer benoten möchten. Wenn Sie dies tun, können Sie eine Bewertung auswählen, mit der Sie die Teilnahmeberechtigungen verknüpfen möchten, eine Spaltenüberschrift für den Bericht schreiben und eine
 
 ![](../../.gitbook/assets/graphics249.png)
 
-_Illustration 132: Attendances – Intermediary step for dates creation_
+_Illustration 132: Teilnahmen — Vermittlungsschritt zur Terminerstellung_
 
-weighting to activities. Finally, click _save_ and you will be prompted to add a time and date:
+Gewichtung der Aktivitäten. Klicken Sie abschließend auf _save_ und Sie werden aufgefordert, eine Uhrzeit und ein Datum hinzuzufügen:
 
-Selecting _repeat date_ allows to you quickly generate a series dates and time for regular sessions e.g. weekly at 22.00 hrs. Click _Save_ again to view a list of the dates chosen:
+Wenn Sie das Wiederholungsdatum auswählen, können Sie schnell ein SeriendDatum und eine Uhrzeit für reguläre Sitzungen generieren, z. wöchentlich um 22.00 Uhr. Klicken Sie erneut auf _Save_, um eine Liste der ausgewählten Daten anzuzeigen:
 
 ![](../../.gitbook/assets/graphics253.png)
 
-_Illustration 133: Attendances calendar_
+_Illustration 133: Kalender für Teilnehmende_
 
-These are fully editable \(e.g. if one week is a holiday, delete\) and, equally, you can add to the dates/times using the _add a date and time_ icon ![](../../.gitbook/assets/graphics246.png) in the toolbar. You can also clear the entire list of dates and times using the _clear the calendar of all lists_ icon ![](../../.gitbook/assets/graphics247.png). To view the attendance sheet for the relevant activity click the A_ttendance sheet_ icon ![](../../.gitbook/assets/graphics250.png)
-
+Diese sind vollständig editierbar \(z. B. wenn eine Woche ein Feiertag ist, löschen\) und Sie können die Daten/Zeiten mit dem Symbol _add a date and time_ in der Symbolleiste ergänzen. ![](../../.gitbook/assets/graphics246.png) Sie können auch die gesamte Liste der Datums- und Uhrzeitlisten löschen, indem Sie das Symbol _calendar aller Listen löschen_ ![](../../.gitbook/assets/graphics247.png). Um das Anwesenheitsblatt für die entsprechende Aktivität anzuzeigen, klicken Sie auf das a_TTendance-Blatt_ -Symbol ![](../../.gitbook/assets/graphics250.png)

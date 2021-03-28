@@ -1,2 +1,1 @@
-# The human resources manager \(admin/or supervisor\)
-
+# Der Personalmanager \(Admin/oder Supervisor\)

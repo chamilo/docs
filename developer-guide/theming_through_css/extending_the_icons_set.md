@@ -1,16 +1,16 @@
-# Extending the icons set
+# Erweitern des Icons Sets
 
-Since version 1.9, Chamilo includes a little-known feature by which custom icons, placed inside your CSS theme, can replace the pre-defined icons of Chamilo.
+Seit Version 1.9 enthält Chamilo eine wenig bekannte Funktion, mit der benutzerdefinierte Symbole, die in Ihrem CSS-Thema platziert sind, die vordefinierten Symbole von Chamilo ersetzen können.
 
-This, however, only works for icons that are normally loaded from the main/img/icons/ directory. Not the ones at the root of main/img/.
+Dies funktioniert jedoch nur für Icons, die normalerweise aus dem main/img/icons/ -Verzeichnis geladen werden. Nicht die, die an der Wurzel von main/img/. stehen
 
-To replace icons, you will have to create, inside your own CSS theme folder \(for example app/Resources/public/css/themes/chamili/\) a subfolder called “icons/”, inside which the structure of the normal _main/img/icons/_ folder is reproduced.
+Um Icons zu ersetzen, müssen Sie in Ihrem eigenen CSS-Theme-Ordner \(zum Beispiel app/Resources/public/css/themes/chamili/\) einen Unterordner namens “icons/” erstellen, in dem die Struktur des normalen _main/img/icons/_ Ordners wiedergegeben wird.
 
-For example, if you want to replace the edit\_profile.png icon on the left menu, normally located in
+Wenn Sie beispielsweise das Symbol edit\_profile.png im linken Menü ersetzen möchten, das sich normalerweise in
 
 * main/img/icons/22/edit\_profile.png
 
-you would have to create
+du müsst schaffen
 
 * app/Resources/public/css/themes/chamili/icons/22/edit\_profile.png
 
@@ -18,13 +18,12 @@ you would have to create
 
 ![](../../.gitbook/assets/image12%20%289%29.png)
 
-This is a short example of what type of style change you could generate just by creating a new folder in your CSS.
+Dies ist ein kurzes Beispiel dafür, welche Art von Stiländerung Sie einfach durch Erstellen eines neuen Ordners in Ihrem CSS generieren könnten.
 
-Remember that the new icons should have the same size as the previous one. This was not done in the above example, which is why the Inbox and Compose icons are a bit trimmed on the right side. Alternatively, you could also update the stylesheet to ensure the trimming does not happen, but this is likely to take a considerable amount of time.
+Denken Sie daran, dass die neuen Symbole die gleiche Größe haben sollten wie die vorherigen. Dies wurde im obigen Beispiel nicht durchgeführt, weshalb die Inbox- und Compose-Icons auf der rechten Seite etwas getrimmt sind. Alternativ können Sie das Stylesheet auch aktualisieren, um sicherzustellen, dass das Trimmen nicht stattfindet, dies wird jedoch wahrscheinlich viel Zeit in Anspruch nehmen.
 
-Remember that, to “flush” your style change, you either have to upload a new CSS folder in the ZIP format through the admin panel, OR to upload them directly to the server \(in app/Resources/public/css/themes/\[style\]/\). But if you do the latter, you will need to use the "Cache cleanup" option from the admin page, otherwise your style will remain into app/ and will not be “published” into web/css/ as it needs to.
+Denken Sie daran, dass Sie bei “flush” entweder einen neuen CSS-Ordner im ZIP-Format über das Admin-Panel hochladen oder direkt auf den Server hochladen müssen \(in app/Resources/public/css/themes/\[style\]/\). Wenn Sie jedoch Letzteres tun, müssen Sie die "Cache cleanup" -Option auf der Admin-Seite verwenden, andernfalls bleibt Ihr Stil in app/ und wird nicht nach web/css/ in “published” gesetzt, wie es benötigt wird.
 
-The real use of this feature is to avoid you having to modify the main/img/ folder in any way, considering this gets overwritten with each new version of the software.
+Die tatsächliche Verwendung dieser Funktion besteht darin, zu vermeiden, dass Sie den main/img/ -Ordner in irgendeiner Weise ändern müssen, wenn Sie bedenken, dass dies mit jeder neuen Version der Software überschrieben wird.
 
-Using your own CSS folder ensures independence of the main Chamilo code.
-
+Die Verwendung eines eigenen CSS-Ordners gewährleistet die Unabhängigkeit des wichtigsten Chamilo-Codes.

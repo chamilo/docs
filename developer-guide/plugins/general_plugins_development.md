@@ -1,12 +1,12 @@
-# General plugins development
+# Allgemeine Plugins Entwicklung
 
-## Hooks
+## Haken
 
-Plugins can use "hooks", which are similar to what can be found in the Drupal CMS: places in the normal workflow of Chamilo where plugins can intervene.
+Plugins können "hooks" verwenden, was dem ähnlich ist, was im Drupal CMS zu finden ist: platziert im normalen Workflow von Chamilo, wo Plugins eingreifen können.
 
-It works in Chamilo by having the normal process, for example to delete a user, calling a special function that will look for any plugin installed and that implement a specific method.
+Es funktioniert in Chamilo, indem es den normalen Prozess hat, zum Beispiel um einen Benutzer zu löschen, eine spezielle Funktion aufruft, die nach einem installierten Plugin sucht und eine bestimmte Methode implementiert.
 
-The hooks are defined in `main/inc/lib/hook/` and are instanciated in the normal workflow. For example, in `usermanager.lib.php`, we find that the `UserManager::create_user()` method actually instanciates the HookCreateUser object and then calls one of its method:
+Die Hooks sind in `main/inc/lib/hook/` definiert und werden im normalen Workflow instanziiert. Zum Beispiel stellen wir in `usermanager.lib.php` fest, dass die `UserManager::create_user()` -Methode das HookCreateUser-Objekt tatsächlich instanziiert und dann eine ihrer Methoden aufruft:
 
 ```text
         $hook = HookCreateUser::create();
@@ -15,5 +15,4 @@ The hooks are defined in `main/inc/lib/hook/` and are instanciated in the normal
         }
 ```
 
-Hooks also have to be defined in all plugins. See [https://github.com/chamilo/chamilo-lms/issues/1767](https://github.com/chamilo/chamilo-lms/issues/1767) for a very short note on the issue of adding hooks halfway through a minor version, and on the existence of 3 functions \(`doWhenDeletingCourse`, `doWhenDeletingSession` and `doWhenDeletingUser`\) that are not implemented as hooks yet but that should be in 2.0.
-
+Hooks müssen auch in allen Plugins definiert werden. Siehe [https://github.com/chamilo/chamilo-lms/issues/1767](https://github.com/chamilo/chamilo-lms/issues/1767) für eine sehr kurze Notiz zum Thema Hinzufügen von Hooks auf halbem Weg zu einer Nebenversion und zur Existenz von 3 Funktionen \(`doWhenDeletingCourse`, `doWhenDeletingSession` und `doWhenDeletingUser`\), die noch nicht implementiert sind, aber das sollten in `2.0` sein.

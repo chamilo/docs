@@ -1,6 +1,5 @@
-# Optimization
+# Optimierung
 
-If you ever run into efficiency issues and you have full access to your server, you might want to look into optimizing your Chamilo installation.
+Wenn Sie jemals auf Effizienzprobleme stoßen und vollen Zugriff auf Ihren Server haben, sollten Sie sich mit der Optimierung Ihrer Chamilo-Installation befassen.
 
-If so, have a look at the documentation/optimization.html document, as it has been designed to help out in these types of situations.
-
+Wenn ja, werfen Sie einen Blick auf das documentation/optimization.html -Dokument, da es in solchen Situationen helfen soll.

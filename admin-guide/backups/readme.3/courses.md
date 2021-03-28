@@ -1,9 +1,8 @@
-# Courses
+# Kurse
 
-There are two ways to import a course back into Chamilo:
+Es gibt zwei Möglichkeiten, einen Kurs wieder nach Chamilo zu importieren:
 
-* import a previous course backup file from your computer
-* import a backup file directly from the server
+* Importieren Sie eine vorherige Kurs-Sicherungsdatei von Ihrem Computer
+* Importieren Sie eine Backup-Datei direkt vom Server
 
-The two options are very easy to use from the _Import backup_ tool inside the _backup_ tool of any course.
-
+Die beiden Optionen sind sehr einfach über das Tool _Import backup_ innerhalb des Tools _backup_ eines beliebigen Kurses zu verwenden.

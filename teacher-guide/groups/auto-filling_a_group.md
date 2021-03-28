@@ -1,6 +1,5 @@
-# Auto-filling a group
+# Eine Gruppe automatisch ausfüllen
 
-To quickly add course members to a group, click the _Add users_ icon ![](../../.gitbook/assets/graphics283.png) on the right of the group listing on the main _Groups_ page. Use the batch processing \(drop-down list at the bottom\) to automatically fill several groups. You can't set parameters for filling groups \(e.g. alphabetical, random etc\), but you can always edit the group membership manually afterwards. You can clear all members from a group by clicking the _Unsubscribe all users_ icon ![](../../.gitbook/assets/graphics284.png) in the listing. If you have a long list of groups to manage, use the check boxes on the left and the batch processing option \(i.e. the drop-down list at the bottom\) to automatically fill several groups:
+Um Kursmitglieder schnell zu einer Gruppe hinzuzufügen, klicken Sie auf das Symbol _Benutzer hinzufügen_ rechts neben der Gruppenliste auf der Hauptseite _Groups_. ![](../../.gitbook/assets/graphics283.png) Verwenden Sie die Stapelverarbeitung \(Dropdown-Liste unten\), um automatisch mehrere Gruppen zu füllen. Sie können keine Parameter für das Ausfüllen von Gruppen festlegen \(z. B. alphabetisch, zufällig usw.\), aber Sie können die Gruppenmitgliedschaft danach immer manuell bearbeiten. Du kannst alle Mitglieder einer Gruppe löschen, indem du in der Auflistung auf das Symbol _Alle Benutzer abmelde_ klickst. ![](../../.gitbook/assets/graphics284.png) Wenn Sie eine lange Liste von Gruppen verwalten müssen, verwenden Sie die Kontrollkästchen auf der linken Seite und die Stapelverarbeitungsoption \(d. h. die Dropdown-Liste unten\), um automatisch mehrere Gruppen zu füllen:
 
-![](../../.gitbook/assets/images215.png)_Illustration 150: Groups – Auto-fill groups_
-
+![](../../.gitbook/assets/images215.png)_Illustration 150: Gruppen — Gruppen automatisch ausfüllen

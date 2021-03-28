@@ -1,10 +1,9 @@
-# Project creation
+# Projekt-Erstellung
 
-From the projects homepage:
+Von der Projekt-Homepage:
 
-* click the _Create a new project_ icon ,
-* give your project a name and a short description,
-* click _Save blog_.
+* klicken Sie auf das Symbol _Neues Projekt erstellen_,
+* gib deinem Projekt einen Namen und eine kurze Beschreibung,
+* klicken Sie auf _Blog speichern_.
 
-![](../../.gitbook/assets/images238.png)_Illustration 163: Blogs – Blog creation_
-
+![](../../.gitbook/assets/images238.png)_Illustration 163: Blogs — Blog-Erstellung_

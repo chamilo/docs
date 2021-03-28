@@ -1,18 +1,17 @@
-# Test results
+# Testergebnisse
 
-Chamilo offers handy support for analyzing test results simply by clicking on the _Results_ icon ![](../../.gitbook/assets/graphics156.png), displayed to the right of each test listed in the main Tests page.
+Chamilo bietet praktische Unterstützung für die Analyse von Testergebnissen, indem Sie einfach auf das _Results_-Symbol ![](../../.gitbook/assets/graphics156.png) klicken, das rechts neben jedem Test auf der Hauptseite Tests angezeigt wird.
 
 ![](../../.gitbook/assets/graphics161.png)
 
-_Illustration 65: Exercises - List_
+_Illustration 65: Übungen - Liste_
 
-This will display a page listing all the results for the relevant test.
+Dadurch wird eine Seite angezeigt, auf der alle Ergebnisse für den relevanten Test aufgeführt sind.
 
 ![](../../.gitbook/assets/graphics162.png)
 
-_Illustration 66: Exercises – Results list_
+_Illustration 66: Übungen — Ergebnisliste_
 
-Here, the teacher can get an overview of learners' times and scores, and can score ![](../../.gitbook/assets/graphics160.png) or edit ![](../../.gitbook/assets/graphics163.png) open questions and offer feedback. He can also delete ![](../../.gitbook/assets/graphics164.png) a test attempt to allow the learner to do the test again \(if there is a valid reason to do so e.g. there was an error in the test\).
+Hier kann sich der Lehrer einen Überblick über die Zeiten und Ergebnisse der Lernenden verschaffen und ![](../../.gitbook/assets/graphics160.png) bewerten oder offene ![](../../.gitbook/assets/graphics163.png) Fragen bearbeiten und Feedback geben. Er kann ![](../../.gitbook/assets/graphics164.png) auch löschen, einen Testversuch, der es dem Lernenden ermöglicht, den Test erneut durchzuführen \(wenn es einen triftigen Grund dafür gibt, zB ein Fehler im Test aufgetreten\).
 
-The menu bar of this page allows the teacher to navigate back ![](../../.gitbook/assets/graphics165.png) to the test , export test results in CSV or XLS format ![](../../.gitbook/assets/graphics166.png) \(e.g. to sort them and generate graphical evaluation statistics\), view statistics ![](../../.gitbook/assets/graphics169.png) about test questions undertaken or even monitor students taking the test “live” ![](../../.gitbook/assets/graphics168.png)to know how they are performing “during” the exam \(particularly useful to monitored exam centers\).
-
+Die Menüleiste dieser Seite ermöglicht es dem Lehrer, ![](../../.gitbook/assets/graphics165.png) zum Test zurückzukehren, Testergebnisse im CSV- oder XLS-Format zu exportieren ![](../../.gitbook/assets/graphics166.png) \(z. B. um sie zu sortieren und grafische Auswertungsstatistiken zu erstellen\), Statistiken ![](../../.gitbook/assets/graphics169.png) über unternommene Testfragen anzuzeigen oder sogar Schüler zu überwachen, die test “live” ![](../../.gitbook/assets/graphics168.png)to wissen, wie sie die Prüfung “during” ausführen \(besonders nützlich für überwachte Prüfungszentren\).

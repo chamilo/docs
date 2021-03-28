@@ -1,26 +1,25 @@
-# Empty this course
+# Leere diesen Kurs
 
-The _Empty this course_ feature ![](../../.gitbook/assets/graphics334.gif) empties \(“recycles”\) either the whole course or selected elements. It deletes documents, forums, links, etc. This procedure can be executed after a course has ended and when you want to start anew in the same space. Of course, it is generally recommended that you keep a history of these courses.
+Die Funktion „Diesen Kurs leeren“ ![](../../.gitbook/assets/graphics334.gif) leert \(“recycles”\) entweder den gesamten Kurs oder die ausgewählten Elemente. Es löscht Dokumente, Foren, Links usw. Diese Prozedur kann ausgeführt werden, nachdem ein Kurs beendet wurde und wenn Sie im selben Bereich neu beginnen möchten. Natürlich wird generell empfohlen, eine Geschichte dieser Kurse zu führen.
 
-Warning: Before you empty the course, make sure you take a backup copy, just in case!
+Warnung: Bevor Sie den Kurs leeren, stellen Sie sicher, dass Sie eine Sicherungskopie machen, nur für den Fall!
 
-To empty a course:
+So leere ich einen Kurs:
 
-* click on the _Empty this course_ link,
-* select whether you want to empty the whole course or just specific tools,
-* click the _Empty this course_ button to proceed.
+* klicken Sie auf den Link _Diesen Kurs leeren_
+* wählen Sie aus, ob Sie den gesamten Kurs oder nur bestimmte Tools leeren möchten,
+* Klicken Sie auf die Schaltfläche _Diesen Kurs leeren_ um fortzufahren.
 
 ![](../../.gitbook/assets/images252.png)
 
-_Illustration 184: Maintenance – Empty course_
+_Illustration 184: Wartung — Leerer Kurs_
 
-## Delete the course area <a id="delete-the-course-area"></a>
+## Lösche den Kursbereich <a id="delete-the-course-area"></a>
 
-Click the _Delete the course area_ \_![](../../.gitbook/assets/graphics335.gif)\_link to delete the course completely from the server.
+Klicken Sie auf den Link _Löschen des Kursbereichs_\_ ![](../../.gitbook/assets/graphics335.gif)\_, um den Kurs vollständig vom Server zu löschen.
 
-Given the fact there's no way back from this, we highly recommend you consider this twice before confirming it.
+Angesichts der Tatsache, dass es keinen Weg davon gibt, empfehlen wir Ihnen dringend, dies zweimal zu berücksichtigen, bevor Sie es bestätigen.
 
-![](../../.gitbook/assets/graphics336.gif) Warning: This feature should be used with extreme caution! ![](../../.gitbook/assets/graphics337.gif)
+![](../../.gitbook/assets/graphics336.gif) Warnung: Diese Funktion sollte mit äußerster Vorsicht verwendet werden! ![](../../.gitbook/assets/graphics337.gif)
 
-![](../../.gitbook/assets/images253.png)_Illustration 185: Maintenance – Course deleting_
-
+![](../../.gitbook/assets/images253.png)_Illustration 185: Wartung — Löschung_

@@ -1,18 +1,17 @@
-# Linking certificates with learning paths
+# Verlinkung von Zertifikaten mit Lernpfaden
 
-Finally, version 1.11 has introduced a nice feature allowing you to generate a certificate \(and assign a skill, if any\) to students at the end of a learning path.
+Schließlich hat Version 1.11 eine nette Funktion eingeführt, mit der Sie den Schülern am Ende eines Lernpfades ein Zertifikat \(und gegebenenfalls einen Skill zuweisen\) können.
 
-To do this, you will need to configure an assessment based only on this learning path, and make sure it generates a certificate.
+Um dies zu tun, müssen Sie eine Bewertung konfigurieren, die nur auf diesem Lernpfad basiert, und sicherstellen, dass ein Zertifikat generiert wird.
 
-Go to the learning path, create one, develop all its contents, then use the last content type icon to create the final page, like this.
+Gehe zum Lernpfad, erstelle einen, entwickle alle seine Inhalte und verwende dann das letzte Inhaltstyp-Symbol, um die letzte Seite so zu erstellen.
 
-![](../../.gitbook/assets/image16%20%281%29.png)_Illustration 119: Certificate to finish a learning path_
+![](../../.gitbook/assets/image16%20%281%29.png)_Illustration 119: Zertifikat zum Beenden eines Lernpfads_
 
-There are many items on this page, so take your time to analyze all of them. The special certificate page will only ever appear as the last step of your learning path, out of any sub-folder.
+Es gibt viele Elemente auf dieser Seite, also nehmen Sie sich Zeit, alle zu analysieren. Die spezielle Zertifikatseite wird immer nur als letzter Schritt Ihres Lernpfads aus einem Unterordner angezeigt.
 
-It requires all steps of the learning path to be completed in order to appear.
+Es erfordert, dass alle Schritte des Lernpfades abgeschlossen sind, damit sie erscheinen.
 
-Once this is configured, go to the assessment tool and make sure the whole assessment can only be obtained once the learning path is completed \(it is possible to do otherwise but it might be a bit counter-productive\).
+Sobald dies konfiguriert ist, gehen Sie zum Bewertungstool und stellen Sie sicher, dass die gesamte Bewertung nur erhalten werden kann, wenn der Lernpfad abgeschlossen ist \(es ist möglich, dies anders zu tun, aber es könnte etwas kontraproduktiv sein\).
 
-When the student finished the learning path, he/she will automatically see a certificate and skill page. That is: the student will not have to go to the assessment page to generate the certificate anymore. Everything can be managed at the learning path level!
-
+Wenn der Schüler den Lernpfad beendet hat, wird er automatisch eine Zertifikats- und Fähigkeitsseite sehen. Das heißt: Der Student muss nicht mehr auf die Bewertungsseite gehen, um das Zertifikat zu erstellen. Alles kann auf der Ebene des Lernpfades verwaltet werden!

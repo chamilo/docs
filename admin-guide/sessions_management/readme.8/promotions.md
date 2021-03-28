@@ -1,14 +1,15 @@
-# Promotions
+# Promotionen
 
-The only two differences between careers and promotions is that a promotion can be included to a career, while a career cannot include sessions directly. Creating a promotion once you have created a career is then very easy.
+Der einzige zweite Unterschied zwischen Karrieren und Beförderungen besteht darin, dass eine Beförderung in eine Karriere aufgenommen werden kann, während eine Karriere keine Sitzungen direkt beinhalten kann. Es ist sehr einfach, eine Promotion zu erstellen, sobald Sie eine Karriere erstellt haben.
 
-![](../../../.gitbook/assets/graficos88%20%286%29.png)Illustration 74: Promotion creation form
+![](../../../.gitbook/assets/graficos88%20%286%29.png)
+Illustration 74: Formular zur Schaffung von Werbeaktionen
 
-The creation of promotions is followed by the registration of sessions within these promotions, using the sessions icon for each promotion in the list of promotions.
+Auf die Erstellung von Werbeaktionen folgt die Registrierung von Sitzungen innerhalb dieser Werbeaktionen, wobei das Sitzungssymbol für jede Werbeaktion in der Liste der Werbeaktionen verwendet wird.
 
-One then obtains a list similar to the following \(already show before\).
+Man erhält dann eine Liste ähnlich der folgenden \(schon vorher angezeigt\).
 
-![](../../../.gitbook/assets/graficos91%20%286%29.png)Illustration 75: Careers and promotions list
+![](../../../.gitbook/assets/graficos91%20%286%29.png)
+Illustration 75: Liste der Karrieren und Promotionen
 
-On this page, we see our _Medicine_ career, with its 3 promotions, one session in each promotion previous to 2015 and the list of courses of each session. Each element is a link to the corresponding resource.
-
+Auf dieser Seite sehen wir unsere Karriere _Medicine_ mit ihren 3 Werbeaktionen, einer Sitzung in jeder Aktion vor 2015 und der Liste der Kurse jeder Sitzung. Jedes Element ist ein Link zu der entsprechenden Ressource.

@@ -1,6 +1,5 @@
-# Tracking and backup
+# Tracking und Backup
 
-The tracking and the backup are the same for the admin as for the teacher \(see _Teacher guide_\).
+Das Tracking und das Backup sind für den Administrator identisch wie für den Lehrer \(siehe _Lehrerführer\).
 
-These icons are shortcuts which send the admin inside the _My courses_ tab.
-
+Diese Symbole sind Verknüpfungen, die den Administrator in den Tab „Meine Kurse“ senden.

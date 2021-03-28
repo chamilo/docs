@@ -1,8 +1,8 @@
-# Export sessions list
+# Liste der Exportsitzungen
 
-Chamilo allows you to export a list of some or all of the sessions defined on the platform.
+Chamilo ermöglicht es Ihnen, eine Liste einiger oder aller auf der Plattform definierten Sitzungen zu exportieren.
 
-![](../../.gitbook/assets/session-import-utilisateurs%20%283%29.png)Illustration 68: Administration – Exporting sessions
+![](../../.gitbook/assets/session-import-utilisateurs%20%283%29.png)
+Illustration 68: Administration — Sitzungen werden exportiert
 
-Choose the export format, choose a filter for the sessions, click _Export session\(s\)_ and download the file.
-
+Wählen Sie das Exportformat, wählen Sie einen Filter für die Sessions, klicken Sie auf _Export session \(s\) _ und laden Sie die Datei herunter.

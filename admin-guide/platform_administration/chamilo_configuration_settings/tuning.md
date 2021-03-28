@@ -1,10 +1,9 @@
-# Tuning
+# Abstimmung
 
-![](../../../.gitbook/assets/graficos13%20%285%29.png)This category allows you to configure only one setting so far to improve efficiency a little.
+Mit der Kategorie ![](../../../.gitbook/assets/graficos13%20%285%29.png)This können Sie bisher nur eine Einstellung konfigurieren, um die Effizienz ein wenig zu verbessern.
 
-**Split users' upload directory** allow you to improve speed a little bit for very high load platforms by splitting the users directories \(but this requires a manual operation on disk as well\).
+** Das Upload-Verzeichnis für geteilte Benutzer** ermöglicht es Ihnen, die Geschwindigkeit für Plattformen mit sehr hoher Auslastung etwas zu verbessern, indem Sie die Benutzerverzeichnisse aufteilen \(dies erfordert jedoch auch eine manuelle Bedienung auf der Festplatte\).
 
-Since version 1.8.8.4, you can also find optimisation hints in _chamilo/documentation/optimization.html_.
+Seit Version `1.8.8`.4 finden Sie Optimierungshinweise auch in _chamilo/documentation/optimization.html_.
 
-**Activate the browser sniffer** will scan the users' browsers for specific features.
-
+**Aktivieren Sie den Browser-Sniffer** durchsucht die Browser der Benutzer nach bestimmten Funktionen.

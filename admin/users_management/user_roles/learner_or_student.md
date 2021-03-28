@@ -1,6 +1,6 @@
-### Learner (or student) {#learner-or-student}
+### Lerner (oder Student) {#learner-or-student}
 
-| Description | The learner is the typical role of the person who follows one or several courses. He has access to the contents of the courses to which he subscribed (if that was made possible) or to which someone subscribed him. |
-| --- | --- |
-| Permissions in a course | By default, he can : |
-| Global permissions | By default, he can : |
+| Beschreibung | Der Lernende ist die typische Rolle der Person, die einen oder mehrere Kurse befolgt. Er hat Zugriff auf den Inhalt der Kurse, die er abonniert hat (falls dies möglich wurde) oder bei denen ihn jemand abonniert hat. |
+| — | — |
+| Berechtigungen in einem Kurs | Standardmäßig kann er:
+| Globale Berechtigungen | Standardmäßig kann er:

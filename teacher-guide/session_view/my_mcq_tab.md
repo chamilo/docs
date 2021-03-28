@@ -1,10 +1,9 @@
-# My MCQ tab
+# Mein MCQ-Tab
 
-The _My MCQ_ tab contains all tests pertaining to courses in the session, sorted by publication date. Because the display of these test is relative \(comparing results to those of other learners\) and is in a chronological order, it is doubly critical to establish publication dates for all your tests.
+Die Registerkarte _My MCQ_ enthält alle Tests, die sich auf Kurse in der Sitzung beziehen, sortiert nach Veröffentlichungsdatum. Da die Anzeige dieser Tests relativ ist \(Vergleich der Ergebnisse mit denen anderer Lernender\) und in chronologischer Reihenfolge ist, ist es doppelt wichtig, Veröffentlichungstermine für alle Ihre Tests festzulegen.
 
 ![](../../.gitbook/assets/images265.png)
 
-_Illustration 198: Sessions – My QCM tab_
+_Illustration 198: Sitzungen — Registerkarte „Mein QCM“ _
 
-Exercises which have not yet been attempted are indicated by a yellow star ![](../../.gitbook/assets/graphics371.png). The number of attempts is indicated as well as the exercise results, and also the highest scores obtained by any learner in the session. Finally, the position in the table reflects a learner's relative results within this session. By clicking the test title, the learner goes directly to the test or, once all attempts have been exhausted, directly to the test results screen.
-
+Übungen, die noch nicht versucht wurden, werden durch einen gelben Stern ![](../../.gitbook/assets/graphics371.png) angezeigt. Die Anzahl der Versuche wird ebenso angezeigt wie die Übungsergebnisse und auch die höchsten Punktzahlen, die ein Teilnehmer in der Sitzung erzielt. Schließlich spiegelt die Position in der Tabelle die relativen Ergebnisse eines Lernenden innerhalb dieser Sitzung wider. Durch Anklicken des Testtitels geht der Teilnehmer direkt zum Test oder, sobald alle Versuche ausgeschöpft sind, direkt zum Bildschirm der Testergebnisse.

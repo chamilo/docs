@@ -1,32 +1,31 @@
-# General usability
+# Allgemeine Usability
 
 ![](../../.gitbook/assets/images20%20%289%29.png) ![](../../.gitbook/assets/images23%20%286%29.png)
 
-In order to start working on Chamilo, it is important to understand its fundamental goals.
+Um mit Chamilo arbeiten zu können, ist es wichtig, seine grundlegenden Ziele zu verstehen.
 
-Chamilo has been designed to provide help and support within the application. The icons are intended to symbolize what they represent, independently of any particular language or culture. Furthermore, each icon has a “mouse-over” description. If you allow your mouse to “hover” over an icon for one second \(without clicking\), you will see a simple pop-up description of the icon's function \(Illustration _Icons label_\).
+Chamilo wurde entwickelt, um Hilfe und Unterstützung innerhalb der Anwendung zu bieten. Die Symbole sollen symbolisieren, was sie darstellen, unabhängig von einer bestimmten Sprache oder Kultur. Außerdem hat jedes Icon eine “mouse-over” Beschreibung. Wenn Sie der Maus eine Sekunde lang über ein Symbol klicken lassen (ohne auf\ zu klicken), wird eine einfache Popup-Beschreibung der Funktion des Symbols angezeigt \(Illustration _Icons label_\). “hover”
 
-![](../../.gitbook/assets/images2%20%288%29.png) Icons label
+![](../../.gitbook/assets/images2%20%288%29.png) Icon-Label
 
-There is also an online _help_ facility on most pages which appears as a partially hidden lifebuoy ring on the top right side of your screen \(see Illustration _Folded help_\) and clicking it will open a window explaining the feature you're in and how to use it \(see Illustration _Unfolded help_\).It remains in place when you scroll the screen so that it's constantly available and you can open and close it without affecting your current work. When you click the buoy, a small guide will open up, explaining the tool you're in and how to use it \(see Illustration _Contextual help pop-up_\).
+Es gibt auch eine Online-_help_-Funktion auf den meisten Seiten, die als teilweise versteckter Rettungsring-Ring oben rechts auf Ihrem Bildschirm angezeigt wird \(siehe Abbildung _Gefaltete Hilfe_\), und wenn Sie darauf klicken, wird ein Fenster geöffnet, in dem Sie sich befinden und wie Sie sie verwenden \(siehe Abbildung _Unfolded help_\) geöffnet. platzieren Sie, wenn Sie den Bildschirm scrollen, damit er ständig verfügbar ist und Sie ihn öffnen und schließen können, ohne Ihre aktuelle Arbeit zu beeinträchtigen. Wenn Sie auf die Boje klicken, öffnet sich eine kleine Anleitung, in der das Tool erläutert wird, in dem Sie sich befinden und wie Sie es verwenden \(siehe Abbildung _Kontextuelle Hilfe pop-up_\).
 
-\| ![](../../.gitbook/assets/images3%20%289%29.png) \| ![](../../.gitbook/assets/illustration_4%20%285%29.png) \| \| Folded help \| Unfolded help \|
+\| ![](../../.gitbook/assets/images3%20%289%29.png)\| ![](../../.gitbook/assets/illustration_4%20%285%29.png)\| Gefaltete Hilfe\| Entfaltet Hilfe\|
 
-![](../../.gitbook/assets/images5%20%289%29.png)\| \|Contextual help pop-up\|
+![](../../.gitbook/assets/images5%20%289%29.png)\|\|Kontext-Hilfe-Popup\|
 
-## Terminology <a id="terminology"></a>
+## Terminologie <a id="terminology"></a>
 
-At the time of writing, Chamilo is being used by almost six thousand organizations around the world, in many different languages, including primary schools, colleges, higher education institutes, universities, NGOs, small, medium and large companies.
+Zum Zeitpunkt des Schreibens wird Chamilo von fast sechstausend Organisationen auf der ganzen Welt in vielen verschiedenen Sprachen genutzt, darunter Grundschulen, Hochschulen, Hochschuleinrichtungen, Universitäten, NGOs, kleine, mittlere und große Unternehmen.
 
-Obviously, all these bodies and institutions tend to use slightly differing terminologies. For example, some institutions will call their courses “Training sessions”, others will call them “Learning spaces” and others simply “Courses”. This presents challenges for the design of a “one-size-fits-all” e-learning platform \(or even user guide\), so we have sought the middle road, and employ a simple, universal terminology which we trust will make sense to all our users.
+Offensichtlich verwenden alle diese Einrichtungen und Institutionen tendenziell leicht unterschiedliche Terminologien. Zum Beispiel nennen einige Institutionen ihre Kurse “Training sessions”, andere nennen sie “Learning spaces” und andere einfach “Courses”. Dies stellt die Entwicklung einer “one-size-fits-all” E-Learning-Plattform dar \(oder sogar eines Benutzerhandbuchs\). Daher haben wir die mittlere Straße gesucht und eine einfache, universelle Terminologie eingesetzt, von der wir vertrauen, dass sie für alle unsere Benutzer sinnvoll ist.
 
-![](../../.gitbook/assets/images4%20%287%29.png) History of Chamilo installations around the world, up to August 2015
+![](../../.gitbook/assets/images4%20%287%29.png) Geschichte der Chamilo-Installationen auf der ganzen Welt bis August 2015
 
-Of course, because we understand your organization may prefer a specific terminology, we have equipped Chamilo with a way to edit any interface term from within the platform administration. \(this requires administration skills and is thus described in the _Chamilo Administration Guide_\). Should you urgently require a customization, you can ask one of our [official providers](http://www.chamilo.org/en/providers) for a customized language pack to be imported into your platform.
+Da wir verstehen, dass Ihre Organisation eine bestimmte Terminologie bevorzugen kann, haben wir Chamilo natürlich mit einer Möglichkeit ausgestattet, jeden Interface-Begriff innerhalb der Plattformverwaltung zu bearbeiten. \(dies erfordert Verwaltungskenntnisse und wird daher im _Chamilo Administration Guide_\ beschrieben. Sollten Sie dringend eine Anpassung benötigen, können Sie einen unserer [official providers](http://www.chamilo.org/en/providers) nach einem benutzerdefinierten Sprachpaket fragen, das in Ihre Plattform importiert wird.
 
-In this guide, we have endeavored to employ a universal terminology so, for example, the common education term “**student**” has been replaced by more neutral terms like “**learner**” which applies equally well in the business world. When referring to all kinds of users collectively, we have decided to use the term “**user**”.
+In diesem Leitfaden haben wir uns bemüht, eine universelle Terminologie einzusetzen, so dass beispielsweise der gemeinsame Bildungsbegriff “**student**” durch neutralere Begriffe wie “**learner**” ersetzt wurde, was in der Geschäftswelt gleichermaßen gut gilt. Wenn wir uns gemeinsam auf alle Arten von Benutzern beziehen, haben wir uns entschieden, den Begriff “**user**” zu verwenden.
 
-This manual is available in web format and as source \(see _About this guide_\), so you can always do a quick search & replace operation to make it fit your needs. Don't hesitate to send us the updated version back for sharing with others at info@chamilo.org. You'll be amazed at how this can benefit you in return, as other communities build up on your work to make things even better.
+Dieses Handbuch ist im Webformat und als Quelle verfügbar \(siehe _Über diesen Leitfaden_\), sodass Sie immer eine schnelle Suche und Ersetzung durchführen können, damit es Ihren Anforderungen entspricht. Zögern Sie nicht, uns die aktualisierte Version zur Weitergabe an info@chamilo.org zurückzusenden. Sie werden erstaunt sein, wie Ihnen dies im Gegenzug zugute kommen kann, da andere Gemeinschaften auf Ihrer Arbeit aufbauen, um die Dinge noch besser zu machen.
 
-The somewhat ambivalent term “**training**” which had been employed in previous versions of the software has now been replaced by the more understandable term “**course**”, while the previously ousted term “**learning path**” has now been reinstated after a short and unpopular change to “**course**”. You will find all these terms defined and explained in the following guide. If in any doubt, make sure you check our Erreur : source de la référence non trouvée on page Erreur : source de la référence non trouvée Don't forget: you can customize these terms with the help of your Chamilo administrator \(if that's you, check the _Chamilo Administration Guide_\).
-
+Der etwas ambivalente Begriff “**training**”, der in früheren Versionen der Software verwendet wurde, wurde nun durch den verständlicheren Begriff “**course**” ersetzt, während der zuvor verdrängte Begriff “**learning path**” nun nach einer kurzen und unpopulären Änderung zu “**course**” wiederhergestellt wurde. Alle diese Begriffe finden Sie in der folgenden Anleitung definiert und erläutert. Im Zweifelsfall überprüfen Sie unbedingt unseren Erreur: source de la référence non trouvée auf der Seite Erreur: source de la référence non trouvée Lesen Sie nicht: Sie können diese Begriffe mit Hilfe Ihres Chamilo-Administrators anpassen \(wenn Sie das sind, lesen Sie den _Chamilo Administration Guide_).

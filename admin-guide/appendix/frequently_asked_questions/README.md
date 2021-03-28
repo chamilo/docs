@@ -1,2 +1,1 @@
-# Frequently asked questions
-
+# Häufig gestellte Fragen

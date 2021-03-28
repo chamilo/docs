@@ -1,2 +1,1 @@
-# Theming certificates
-
+# Theming Zertifikate

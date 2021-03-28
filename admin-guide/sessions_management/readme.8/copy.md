@@ -1,6 +1,5 @@
-# Copy
+# Kopie
 
-Copying promotions or careers is made by using the lists of careers or promotions, by using a double-paper-sheet-shaped icon.
+Das Kopieren von Werbeaktionen oder Karrieren erfolgt mithilfe der Listen von Karrieren oder Werbeaktionen mithilfe eines doppelten papierblattförmigen Symbols.
 
-Note: for now, the copy of courses is a **hard copy**, which means you might loose considerable disk space by copying an entire career. Another mode is available \(not yet enabled\) to **soft copy** the courses through the sessions \(use of the same courses through another session, which is just what sessions have been designed for\).
-
+Hinweis: Vorerst ist die Kopie der Kurse eine **Hard Copy**, was bedeutet, dass Sie durch das Kopieren einer gesamten Karriere möglicherweise beträchtlichen Speicherplatz verlieren. Ein anderer Modus ist verfügbar \(noch nicht aktiviert\), um**Soft-Copy** die Kurse während der Sitzungen \(Verwendung der gleichen Kurse durch eine andere Sitzung, für die nur Sitzungen entwickelt wurden\).
