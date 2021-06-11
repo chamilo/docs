@@ -31,7 +31,7 @@ Ahi hay 7 iconos que permiten acceder a informes thematicos.
     * Surveys report
     * Student's superior follow up
     * General Coaches planning
-  * ![ejercicios](https://campus.chamilo.org/main/img/icons/32/quiz.png) para acceder al reporte de exercicios del cual hablaba arriba y que podria ser extendido para su uso con el detalle por alumno.
+  * ![ejercicios](https://campus.chamilo.org/main/img/icons/32/quiz.png) para acceder al informe del examen, el mismo que existe en la herramienta de seguimiento del curso, pero esta vez global a la plataforma con información genérica de aprobado o reprobado para cada examen (sin detalles por alumno). 
   * ![cursos](https://campus.chamilo.org/main/img/icons/32/statistics.png) para un reporte sobre los cursos del usuario conectado
   * ![sesiones](https://campus.chamilo.org/main/img/icons/32/session.png) para sesiones, pero es mas una herramienta de busqueda de certificados generados en sesiones
  
