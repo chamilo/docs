@@ -217,6 +217,8 @@
   * [Administrer les « Sessions de formation »](guide-administrateur/administration/administrer_les__sessions_de_formation.md)
   * [Administrer les options système](guide-administrateur/administration/administration_des_options_systeme.md)
   * [Administrer le RGPD](guide-administrateur/administration/administrer_le_rgpd.md)
+* [Rapports](guide-administrateur/rapports/README.md)
+  * [Liste des rapports](guide-administrateur/rapports/liste_des_rapports.md)
 * [Fonctionnalités globales](guide-administrateur/fonctionnalites_globales/README.md)
   * [Multi-URL](guide-administrateur/fonctionnalites_globales/multi-url.md)
   * [Vidéoconférence](guide-administrateur/fonctionnalites_globales/videoconference.md)
