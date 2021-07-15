@@ -51,10 +51,12 @@ Vamos a revisar estos roles desde los menos poderosos a los más poderosos.
 
 ### Gerente de recursos humanos \(Supervisor\) <a id="gerente-de-recursos-humanos-supervisor"></a>
 
-| Descripción | El gerente de recursos humanos o supervisor es un rol que se determina cuando se crea este tipo de usuario. También puede determinarse para cualquier usuario a posteriori a través de la pantalla de edición de usuario, pero esto podría afectar a otros permisos utilizados hasta entonces. |
+| Descripción | El gerente de recursos humanos o supervisor es un rol que se determina cuando se crea este tipo de usuario. También puede determinarse para cualquier usuario a posteriori a través de la pantalla de edición de usuario, pero esto podría afectar a otros permisos utilizados hasta entonces. El perfil de HR puede seguir el avanze de usuario, cursos, o sesiones que se le esta asignando.
+Es decir que en la pestana "Informes" va a encontrar los datos de los usuarios, cursos o sesiones que se ha asignado a este usuario.
+ Puede ser inscrito como alumno de un curso o de una sesion. |
 | :--- | :--- |
-| Permisos en el curso | Por defecto, puede: |
-| Permisos globales | Por defecto, puede: |
+| Permisos en el curso | No tiene ningun derechos en las sesiones o en los cursos. Solo seguimiento |
+| Permisos globales | No tiene ningun derecho global otro que seguimiento. |
 
 ### Tutor de curso <a id="tutor-de-curso"></a>
 
