@@ -13,6 +13,8 @@ Or, in short, we load them in this order :
 7. web/css/themes/chamilo/default.css \(customization of the CSS theme, changeable in Chamilo\)
 8. web/css/themes/chamilo/print.css \(a special version of the style for when you print it\)
 
+note: *The above directory structure wil get rewriten when cache is emptied. To make permanent modifications the location would be:  /app/Resources/public/*
+
 We will not look into the less-important CSS files here, but you should note that they are generally feature-specific, like chosen \(a JS, searchable, drop-down menu bar\).
 
 As CSS dictates, a CSS that appears first in the list will be loaded first, then the following ones will « overwrite » the previous settings if necessary.
