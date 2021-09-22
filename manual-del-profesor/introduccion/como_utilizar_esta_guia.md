@@ -16,3 +16,6 @@ Si tienes preguntas adicionales sobre el uso de Chamilo, puedes visitar el foro 
 
 Si necesitas más requerimientos, puedes considerar el contratar a uno de nuestros proveedores oficiales \([http](https://chamilo.org/en/providers)[s](https://chamilo.org/en/providers)[://chamilo.org/en/providers](https://chamilo.org/en/providers)\), un grupo de empresas e instituciones que ofrecen servicios profesionales sobre Chamilo. Los proveedores oficiales tienen un amplio y probado historial de implicación en el proyecto y están comprometidos a mantener su modelo colaborativo. Contratándolos también apoyas al proyecto Chamilo.
 
+Ayuda a mantener el proyecto: haz una donación. Ayúdanos para que podamos seguir mejorando la educación con el mejor LMS de código libre. Clic aquí para donar:
+https://chamilo.org/es/ayudanos
+
