@@ -22,7 +22,7 @@ Columna de la derecha, _Acciones_ incluye las herramientas necesarias para traba
 
 En la versión 1.10.0 aparecen dos nuevas opciones para la gestión de lecciones. La primera siempre aparece y permite, gracias al icono de informes \(![](../../.gitbook/assets/image52%20%283%29.png)\), acceder a una página de informes sobre el progreso, para esta lección, de todos los alumnos. Permite comparar el progreso de todos sus alumnos. En versiones anteriores solo se podía obtener este reporte alumno por alumno, en páginas individuales, o el promedio de todos los alumnos a la vez.
 
-La segunda opción solo aparece si el administrador eligió activar el modo de “gamification” o ludificación en los parámetros de configuración.
+La segunda opción solo aparece si el administrador eligió activar el modo de “gamificación” o ludificación en los parámetros de configuración.
 
 En este caso, y únicamente si la lección ha sido configurada en este modo a través del icono de gamification en la lista de lecciones \(![](../../.gitbook/assets/image53%20%283%29.png)\), se mostrará el avance en forma de 4 estrellas, basado en las reglas siguientes:
 
