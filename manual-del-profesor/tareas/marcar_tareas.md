@@ -8,7 +8,7 @@ En versiones anteriores a la 1.10, era necesario indicar sus comentarios en el m
 
 ![](../../.gitbook/assets/image32%20%287%29.png)
 
-_Ilustración 114: Los comentarios dejados con las tareas ahora se registran en un listado a parte_
+_Ilustración 114: Los comentarios dejados con las tareas ahora se registran en un listado aparte_
 
 El resultado y el comentario, no obstante, tienen que ser guardados separadamente \(es decir son dos operaciones sucesivas\).
 
