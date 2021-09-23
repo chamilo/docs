@@ -6,5 +6,5 @@ Chamilo utiliza estándares como [SCORM](http://fr.wikipedia.org/wiki/Sharable_C
 
 Haz clic en _**elegir archivo**_ para seleccionar el documento deseado en tu disco duro y _enviar_ para subirlo. Eso es todo. Has importado un curso listo para ser utilizado.
 
-> **Nota** : Chamilo 1.8 y sus derivados \(incluyendo D0keos\) solo soportan SCORM en su versión 1.2.
+> **Nota** : Chamilo y sus derivados \(incluyendo D0keos\) solo soportan SCORM en su versión 1.2.
 
