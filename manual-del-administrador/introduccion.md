@@ -1,6 +1,6 @@
 # Introducción
 
-## Chamilo, kesako?
+## Conocer Chamilo
 
 Chamilo es un sistema de e-learning \(o Sistema de Gestión de Aprendizaje\) desarrollado en colaboración por varias compañías, asociaciones y personas, a través de un modelo abierto. referido como "software libre".
 
