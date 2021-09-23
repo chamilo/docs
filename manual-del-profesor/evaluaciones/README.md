@@ -12,5 +12,5 @@ El alumno puede usar la herramienta de evaluación como un "libro de notas" para
 
 ![](../../.gitbook/assets/graficos98%20%282%29.png)_Ilustración 118: Evaluaciones – Vista del alumno_
 
-> _**Nota**:_ Antes de ir más lejos en la herramienta de evaluaciones, asegúrate que tienes por lo menos un alumno inscrito en el curso \(por esa razón ponemos antes de esta herramienta el capítulos Usuarios\). En este capítulo, será mucho más f_á\_\_cil seguir los ejemplos si ya se han inscrito los_ _estudiantes y si se ha creado una serie de actividade**s**. No hay que olvidar, hasta que decida permitirlo,que el usuario no podrá ver las anotaciones de la evaluación, siempre y cuando esté configurado como cerrado._
+> _**Nota**:_ Antes de ir más lejos en la herramienta de evaluaciones, asegúrate que tienes por lo menos un alumno inscrito en el curso \(por esa razón ponemos antes de esta herramienta el capítulos Usuarios\). En este capítulo, será mucho más fácil seguir los ejemplos si ya se han inscrito los estudiantes y si se ha creado una serie de actividades. No hay que olvidar, hasta que decida permitirlo, que el usuario no podrá ver las anotaciones de la evaluación, siempre y cuando esté configurado como cerrado._
 
