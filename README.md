@@ -1,6 +1,8 @@
 # Introduction
 
-This is the complete set of Chamilo Guides for users of Chamilo.
+Note: Right now, this set of guides has not been fully updated to Chamio 2 and is a mere copy of the 1.11 guides.
+
+This is the complete set of Chamilo Guides for users of Chamilo 2.\*.
 
 * [Administrator guide](admin-guide/chamilo-_what_is_it/)
 * [Teacher guide](teacher-guide/getting-to-know-chamilo/what_is_chamilo.md)
