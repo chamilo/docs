@@ -219,6 +219,7 @@
   * [Modificar estilos](manual-del-administrador/funcionalidades_globales/modificar_estilos.md)
   * [Open Badges](manual-del-administrador/funcionalidades_globales/openbadges.md)
   * [Competencias y certificados](manual-del-administrador/funcionalidades_globales/competencias_certificados.md)
+  * [Plugin xAPI](manual-del-administrador/funcionalidades_globales/xapi.md)
 * [Apéndice](manual-del-administrador/apendice/README.md)
   * [Preguntas frecuentes](manual-del-administrador/apendice/preguntas_frecuentes.md)
   * [Licencia](manual-del-administrador/apendice/licencia.md)
