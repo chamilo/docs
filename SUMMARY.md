@@ -324,6 +324,7 @@
   * [Web services](admin-guide/global_features/web_services.md)
   * [The Prestashop plugin](admin-guide/global_features/the_prestashop_plugin.md)
   * [The Drupal plugin](admin-guide/global_features/the_drupal_plugin.md)
+  * [The xAPI plugin](admin-guide/global_features/xapi.md)
   * [Logging in with OpenID](admin-guide/global_features/logging_in_with_openid.md)
   * [Securing your site with SSL / HTTPS](admin-guide/global_features/securing_your_site_with_ssl__https.md)
   * [Optimization](admin-guide/global_features/optimization.md)
