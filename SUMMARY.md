@@ -99,7 +99,7 @@
   * [Vue linéaire](guide-enseignant/loutil__cahier_de_notes/vue_lineaire.md)
   * [Administrer les activités/éléments évalués](guide-enseignant/loutil__cahier_de_notes/administrer_les_activiteselements_evalues.md)
   * [Compétences](guide-enseignant/loutil__cahier_de_notes/competences.md)
-  * [Compétences](guide-enseignant/loutil__cahier_de_notes/modele_d_evaluation.md)
+  * [Modèle d'évaluation](guide-enseignant/loutil__cahier_de_notes/modele_d_evaluation.md)
 * [L'outil « Wiki »](guide-enseignant/loutil__wiki/README.md)
   * [Démarrer un wiki en modifiant la page principale](guide-enseignant/loutil__wiki/demarrer_un_wiki_en_modifiant_la_page_principale.md)
   * [Ajouter une nouvelle page liée](guide-enseignant/loutil__wiki/ajouter_une_nouvelle_page_liee.md)
