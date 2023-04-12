@@ -5,6 +5,7 @@ This tool allows you to add extensions to the profile of all users. Each field c
 * _Visibility_ allows you to decide whether the field must appear on the _extended profile_ page of the user \(so that he can see – and maybe update - it himself\)
 * _Modifiable_ lets you decide if the field can be updated by the user himself, or if the admin will assign a specific value for this field for all users
 * _Filter_ allows you to decide whether the field can be used as a filter and if it can be exported through exercises results exports
+* _Order_ allows you to define an order of appearance of those fields, both in the application screens and in the CSV/XLS/XML exports. Note that not setting the field order can bring `title` vs `value` consistency issues in user exports.
 
 Usually, you can create fields of which the user has no knowledge but which are useful administratively to organise or synchronise the system with other systems \(common unique identifier, for example\). Other fields are submitted to the user, like his date of birth, country, mother tongue, etc., which will later allow you to generate better statistics depending on the age, culture, previous knowledges, etc.
 
