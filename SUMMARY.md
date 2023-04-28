@@ -227,6 +227,7 @@
   * [Modifier les styles](guide-administrateur/fonctionnalites_globales/modifier_les_styles.md)
   * [SSO CAS et synchro de données LDAP](guide-administrateur/fonctionnalites_globales/SSO_CAS_LDAP.md)
   * [Plugin xAPI](guide-administrateur/fonctionnalites_globales/xapi.md)
+  * [Événement sur inscription](guide-administrateur/fonctionnalites_globales/agenda_inscription_a_evenement.md)
 * [Annexes](guide-administrateur/annexes/README.md)
   * [Foire aux questions](guide-administrateur/annexes/foire_aux_questions.md)
   * [Listing des options de configuration](guide-administrateur/annexes/listing_des_options_de_configuration.md)
