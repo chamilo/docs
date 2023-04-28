@@ -60,8 +60,10 @@ Nous considérons ici que vous avez un compte administrateur et que vous êtes c
 Notre évènement est créé.
 
 On se connecte maintenant comme un apprenant de la classe et dans l'agenda perso on voit l'évènement et si on clique dessus ça ouvre la fenêtre du détails de l'évènement dans laquelle on peut voir que l'inscription est autorisée pour les membres de la classe avec le bouton s'inscrire en bas de la fenêtre. Une fois inscrit le bouton "S'inscrire" devient "Se désinscrire" pour se retirer de l'événement.
+
 ![](../../.gitbook/assets/VisualisationEvenementEtInscription.png)
 
 On peut alors se reconnecter comme administrateur et quand on édite son évènement on peut voir le nom des inscrits et on peut les désélectionner du champs pour les désinscrire.
+
 ![](../../.gitbook/assets/VueAdminEvenementAvecLesInscrits.png)
 
