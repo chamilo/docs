@@ -1,7 +1,7 @@
 # Test/exam Reporting
 
 The exam tracking tool is useful for teachers wanting to focus on monitoring learners' performance in tests. 
-By clicking on the _exam tracking_ icon ![](../../.gitbook/assets/graphics56.png) on the main reporting page, 
+By clicking on the _exam tracking_ icon <img src="../../.gitbook/assets/graphics56.png" width="20" style="margin-bottom:-3px;"> on the main reporting page, 
 the teacher is provided with a list of tests and students' scores/percentages, including number of attempts. 
 They can select individual tests and filter results by a given percentage e.g. to display a list of students 
 passing a course, or excelling in their score. This data can be exported as a standard MS-Excel file®.
@@ -19,7 +19,7 @@ without thinking thoroughly about the impact they might have on your tracking.
 
 ### Export all results as individual PDFs
 
-In the actions bar on top, a PDF icon ![](../../.gitbook/assets/export_pdf.png) called "Export all results of all 
+In the actions bar on top, a PDF icon <img src="../../.gitbook/assets/export_pdf.png" width="20" style="margin-bottom:-3px;"> called "Export all results of all 
 tests" allows the teacher (since version 1.11.20) to download a zip file containing one zip for each test. Inside 
 this last zip file, each test attempt by any student is represented by a different PDF file bearing the name of 
 the user and the unique internal ID of the attempt.
@@ -40,7 +40,7 @@ This latter feature is only available to administrators as it spans all sessions
 
 ## Within a test
 
-By clicking the charts icon ![](../../.gitbook/assets/graphics156.png) next to one specific test, you will get access 
+By clicking the charts icon <img src="../../.gitbook/assets/graphics156.png" width="20" style="margin-bottom:-3px;"> next to one specific test, you will get access 
 to a large set of reports on that specific test.
 
 ![](../../.gitbook/assets/test_reports_page.png)_Illustration 91-4: Test reports page_
@@ -49,7 +49,7 @@ On this page, everything has to do with reporting, so let's dive into more detai
 
 ### Live results
 
-The _Live results_ icon ![](../../.gitbook/assets/graphics168.png) allows you to access a "live" view of students 
+The _Live results_ icon <img src="../../.gitbook/assets/graphics168.png" width="20" style="margin-bottom:-3px;"> allows you to access a "live" view of students 
 taking the exam.
 
 ![](../../.gitbook/assets/test_report_live.png)_Illustration 91-5: Test report "live"_
@@ -73,7 +73,7 @@ technical issue or mental stress that you might be able to help with.
 
 ### Report by question
 
-The second icon, a standard pie chart icon <img src="../../.gitbook/assets/statistics.svg" width="32"> brings you to 
+The second icon, a standard pie chart icon <img src="../../.gitbook/assets/statistics.svg" width="20" style="margin-bottom:-3px;"> brings you to 
 a report page all about questions.
 
 ![](../../.gitbook/assets/test_report_questions.png)_Illustration 91-6: Test report by question_
@@ -164,14 +164,14 @@ this change. You can do so through the "Announcement" tool of the course.
 ### Export all results from an exercise
 
 Similarly to the _Export all results as individual PDFs_ section at the beginning of this page, 
-the ![](../../.gitbook/assets/export_pdf.png) icon report will export all attempts and their detailed results 
+the <img src="../../.gitbook/assets/export_pdf.png" width="20" style="margin-bottom:-3px;"> icon report will export all attempts and their detailed results 
 page to PDF. However, it only does so for this specific test.
 
 Given the fact it generates several PDFs at once, it will package them in one single zip file. 
 
 ### Clean all results before a selected date
 
-The _Clean all results before a selected date_ icon <img src="../../.gitbook/assets/clean_before_date.png" width="32" style="margin-bottom:-3px;">
+The _Clean all results before a selected date_ icon <img src="../../.gitbook/assets/clean_before_date.png" width="20" style="margin-bottom:-3px;">
 is one of those dangerous icons that will delete attempts from the database.
 
 In this case, a calendar allows you to pick the date after which attempts will *not* be deleted.
