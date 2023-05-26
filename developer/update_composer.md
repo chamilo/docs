@@ -1,1 +1,0 @@
-# Update composer {#update-composer}
