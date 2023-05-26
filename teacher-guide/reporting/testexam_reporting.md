@@ -73,8 +73,9 @@ technical issue or mental stress that you might be able to help with.
 
 ### Report by question
 
-The second icon, a standard pie chart icon <img src="../../.gitbook/assets/statistics.svg" width="20" style="margin-bottom:-3px;"> brings you to 
-a report page all about questions.
+<img src="../../.gitbook/assets/statistics.svg" width="20" style="margin-bottom:-3px;">
+
+The second icon, a standard pie chart icon, brings you to a report page all about questions.
 
 ![Test report by question](../../.gitbook/assets/test_report_questions.png)_Illustration: Test report by question_
 
@@ -106,8 +107,9 @@ Note you can export this report using the icons in the action bar.
 
 ### Report by attempt
 
-The _Report by attempts_ icon <img src="../../.gitbook/assets/survey_reporting_complete.svg" width="20" style="margin-bottom:-3px;">
-brings you to a page focused on counting attempts, essentially.
+<img src="../../.gitbook/assets/survey_reporting_complete.svg" width="20" style="margin-bottom:-3px;">
+
+The _Report by attempts_ icon brings you to a page focused on counting attempts, essentially.
 
 ![Test report by attempt](../../.gitbook/assets/test_report_by_attempt.png)_Illustration: Test report by attempt_
 
