@@ -6,13 +6,13 @@ the teacher is provided with a list of tests and students' scores/percentages, i
 They can select individual tests and filter results by a given percentage e.g. to display a list of students 
 passing a course, or excelling in their score. This data can be exported as a standard MS-Excel file®.
 
-![](../../.gitbook/assets/graphics59.png)_Illustration 91: Exam tracking_
+![Exam tracking](../../.gitbook/assets/graphics59.png)_Illustration: Exam tracking_
 
 ## Inside the _Tests_ tool
 
 Inside the _Tests_ tool itself, the teacher will also find a large amount of reporting options.
 
-![](../../.gitbook/assets/tests_list.png)_Illustration 91-1: Tests list_
+![Tests list](../../.gitbook/assets/tests_list.png)_Illustration: Tests list_
 
 Note that the broom(s) icons are meant to *delete all previous user results* from the database, so do not use them 
 without thinking thoroughly about the impact they might have on your tracking. 
@@ -30,11 +30,11 @@ While these IDs are not readily visible in Chamilo, you can usually find them in
 Although not covered completely in this manual, the same kind of report can be generated, with the addition of a date 
 filter, from the administration page, "Course sessions" block, "Export all results from an exercise" link.
 
-![](../../.gitbook/assets/admin_block_export_test_results.png)_Illustration 91-2: Link to PDF export of all results_
+![Link to PDF export of all results](../../.gitbook/assets/admin_block_export_test_results.png)_Illustration: Link to PDF export of all results_
 
 On this page, you can filter by session, course, test and start/end dates.
 
-![](../../.gitbook/assets/test_report_all_results_pdf_admin.png)_Illustration 91-3: Test reports page_
+![PDF export page for all tests](../../.gitbook/assets/test_report_all_results_pdf_admin.png)_Illustration: PDF export page for all tests_
 
 This latter feature is only available to administrators as it spans all sessions, courses and tests.
 
@@ -43,7 +43,7 @@ This latter feature is only available to administrators as it spans all sessions
 By clicking the charts icon <img src="../../.gitbook/assets/graphics156.png" width="20" style="margin-bottom:-3px;"> next to one specific test, you will get access 
 to a large set of reports on that specific test.
 
-![](../../.gitbook/assets/test_reports_page.png)_Illustration 91-4: Test reports page_
+![Test reports page](../../.gitbook/assets/test_reports_page.png)_Illustration: Test reports page_
 
 On this page, everything has to do with reporting, so let's dive into more details.
 
@@ -52,7 +52,7 @@ On this page, everything has to do with reporting, so let's dive into more detai
 The _Live results_ icon <img src="../../.gitbook/assets/graphics168.png" width="20" style="margin-bottom:-3px;"> allows you to access a "live" view of students 
 taking the exam.
 
-![](../../.gitbook/assets/test_report_live.png)_Illustration 91-5: Test report "live"_
+![Test report "live"](../../.gitbook/assets/test_report_live.png)_Illustration: Test report "live"_
 
 On this screen, you can see that 2 users are currently taking a 3-questions test. One of them started at 10:46 AM, the 
 second one at 10:47 AM.
@@ -76,7 +76,7 @@ technical issue or mental stress that you might be able to help with.
 The second icon, a standard pie chart icon <img src="../../.gitbook/assets/statistics.svg" width="20" style="margin-bottom:-3px;"> brings you to 
 a report page all about questions.
 
-![](../../.gitbook/assets/test_report_questions.png)_Illustration 91-6: Test report by question_
+![Test report by question](../../.gitbook/assets/test_report_questions.png)_Illustration: Test report by question_
 
 The table is divided into two different sections.
 
@@ -109,7 +109,7 @@ Note you can export this report using the icons in the action bar.
 The _Report by attempts_ icon <img src="../../.gitbook/assets/survey_reporting_complete.svg" width="20" style="margin-bottom:-3px;">
 brings you to a page focused on counting attempts, essentially.
 
-![](../../.gitbook/assets/test_report_by_attempt.png)_Illustration 91-7: Test report by attempts_
+![Test report by attempt](../../.gitbook/assets/test_report_by_attempt.png)_Illustration: Test report by attempt_
 
 The table shows the following information:
 - Username
@@ -119,7 +119,7 @@ The table shows the following information:
 By clicking the cells with something different than 0, you open a modal window showing you the answer of that specific
 user to that specific question.
 
-![](../../.gitbook/assets/test_report_by_attempt_detail.png)_Illustration 91-8: Detail of question attempt_
+![Detail of question attempt](../../.gitbook/assets/test_report_by_attempt_detail.png)_Illustration: Detail of question attempt_
 
 Note you can export this report in .xlsx format.
 
@@ -128,7 +128,7 @@ Note you can export this report in .xlsx format.
 The _Export_ icon <img src="../../.gitbook/assets/graphics123.png" width="20" style="margin-bottom:-3px;"> simply 
 allows you to export a CSV or XLS version of the report you see on screen.
 
-![](../../.gitbook/assets/test_report_export_csv.png)_Illustration 91-9: Export results_
+![Export results options](../../.gitbook/assets/test_report_export_csv.png)_Illustration: Export results options_
 
 An option allows you to include user profile fields (if they have been defined by the administrator and marked as
 available for filtering) in the export.
@@ -188,7 +188,7 @@ question. Similarly to the _Report by question_ we saw a few sections back, this
 questions that have the highest probability of being improved by reformulating, as it is not "normal" that most
 learners would fail it.
 
-![](../../.gitbook/assets/test_report_question_stats.png)_Illustration 91-10: Questions statistics report_
+![Questions statistics report](../../.gitbook/assets/test_report_question_stats.png)_Illustration: Questions statistics report_
 
 Note you can export this report in XLS format, and you can filter the results by group or by user.
 
@@ -197,7 +197,7 @@ Note you can export this report in XLS format, and you can filter the results by
 The _Comparative group report_ button leads you to a page that allows you to compare the relative performance between
 user groups (as defined in the _Groups_ tool of the same course).
 
-![](../../.gitbook/assets/test_report_comparative_group.png)_Illustration 91-11: Comparative group report_
+![Comparative group report](../../.gitbook/assets/test_report_comparative_group.png)_Illustration: Comparative group report_
 
 The report is very short and shows the average score for each group.
 
@@ -216,7 +216,7 @@ shown per page.
 Most columns are sortable and searchable, so if you have a lot of data there, you can quickly filter by users' 
 lastnames, for example.
 
-![](../../.gitbook/assets/test_reports_page_more.png)_Illustration 91-12: Test reports page, more results_
+![Test reports page, more results](../../.gitbook/assets/test_reports_page_more.png)_Illustration: Test reports page, more results_
 
 Let's review the available columns:
 - First name.
@@ -242,7 +242,7 @@ Let's review the available columns:
 When clicking that test or pencil icon in the "Detail" column of any attempt, the teacher is sent to the same kind of
 page as the user itself will see upon finishing the test if some feedback or results are set to be shown.
 
-![](../../.gitbook/assets/test_report_attempt_detail.png)_Illustration 91-13: Test attempt detail_
+![Test attempt detail](../../.gitbook/assets/test_report_attempt_detail.png)_Illustration: Test attempt detail_
 
 Except the teacher can provide feedback (if the question is auto-evaluated) or feedback *and* a score if the question
 is of "open" type.
