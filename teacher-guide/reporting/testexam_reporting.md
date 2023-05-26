@@ -6,7 +6,8 @@ the teacher is provided with a list of tests and students' scores/percentages, i
 They can select individual tests and filter results by a given percentage e.g. to display a list of students 
 passing a course, or excelling in their score. This data can be exported as a standard MS-Excel file®.
 
-![Exam tracking](../../.gitbook/assets/graphics59.png)_Illustration: Exam tracking_
+![Exam tracking](../../.gitbook/assets/graphics59.png)
+_Illustration: Exam tracking_
 
 ## Inside the _Tests_ tool
 
