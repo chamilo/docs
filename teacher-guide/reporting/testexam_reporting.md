@@ -7,13 +7,16 @@ They can select individual tests and filter results by a given percentage e.g. t
 passing a course, or excelling in their score. This data can be exported as a standard MS-Excel file®.
 
 ![Exam tracking](../../.gitbook/assets/graphics59.png)
+
 _Illustration: Exam tracking_
 
 ## Inside the _Tests_ tool
 
 Inside the _Tests_ tool itself, the teacher will also find a large amount of reporting options.
 
-![Tests list](../../.gitbook/assets/tests_list.png)_Illustration: Tests list_
+![Tests list](../../.gitbook/assets/tests_list.png)
+
+_Illustration: Tests list_
 
 Note that the broom(s) icons are meant to *delete all previous user results* from the database, so do not use them 
 without thinking thoroughly about the impact they might have on your tracking. 
