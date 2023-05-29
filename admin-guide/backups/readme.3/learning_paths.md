@@ -1,20 +1,20 @@
 # Learning paths
 
-After exporting the learning paths, you might want to know how to import them back into another \(or the same\) Chamilo portal.
+After exporting the learning paths, you might want to know how to import them back into another (or the same) Chamilo portal.
 
-In the _My courses_ tab, create an empty course matching the one which has to be imported \(or re-use an existing course\). Once in the course, click _Learning paths_.
+In the _My courses_ tab, create an empty course matching the one which has to be imported (or re-use an existing course). Once in the course, click _Learning paths_.
 
 In the learning paths tool, you have three options:
 
-* « Create new course » \(1st icon\),
-* « Import [SCORM](http://fr.wikipedia.org/wiki/Sharable_Content_Object_Reference_Model) courses » \(2nd icon\),
-* « Chamilo Rapid » \(3rd icon\)
+* « Create new course » (1st icon),
+* « Import [SCORM](http://fr.wikipedia.org/wiki/Sharable_Content_Object_Reference_Model) courses » (2nd icon),
+* « Chamilo Rapid » (3rd icon)
 
 ![](../../../.gitbook/assets/graficos35%20%286%29.png)
 
 _Illustration: Interface – Learning paths import_
 
-To import the learning path previously exported, click on _Import SCORM course_ \(2nd icon\).
+To import the learning path previously exported, click on _Import SCORM course_ (2nd icon).
 
 ![](../../../.gitbook/assets/graficos36%20%286%29.png)
 

@@ -1,6 +1,6 @@
 # How to read this guide?
 
-This guide has been written as a reference with a smooth learning curve, getting you through the installation, configuration and backup process \(see_Installation and configuration_\), then the general configuration options \(see _Platform administration_\), then user management \(see _Users management_\), then through courses management \(see_Courses management_\), sessions management \(see Sessions management\), and then a series of global features or extensions you need to know about \(see Global features\).
+This guide has been written as a reference with a smooth learning curve, getting you through the installation, configuration and backup process (see _Installation and configuration_), then the general configuration options \(see _Platform administration_\), then user management \(see _Users management_\), then through courses management \(see_Courses management_\), sessions management \(see Sessions management\), and then a series of global features or extensions you need to know about \(see Global features\).
 
 If you want to go along practising with this book without installing your own Chamilo portal \(which we **do not** recommend, as you will miss the first requirement to be a Chamilo admin: be able to install it\), you can have a go as _admin_ on our development portal: [http://stable.chamilo.org](http://stable.chamilo.org/). This portal is normally only there for development purposes, but you can access it as a temporal fix if you are stuck.
 

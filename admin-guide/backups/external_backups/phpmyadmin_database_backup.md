@@ -14,5 +14,5 @@ The name of the saved file can also be changed in the _Output_ section. It can b
 
 You're only left with downloading the file. It will be saved by default in your _Downloads_ directory or on your desktop, depending on your browser's configuration.
 
-Saving the databases through _hpMyAdmin_ is over. The saved file will be to the SQL format \(.sql extension\) and will be importable later on, in case of problem, through PhpMyAdmin.
+Saving the databases through _hpMyAdmin_ is over. The saved file will be to the SQL format (.sql extension) and will be importable later on, in case of problem, through PhpMyAdmin.
 

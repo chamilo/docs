@@ -1,6 +1,6 @@
 # Document history
 
-This document is the fruit of the collaboration of several organisations and individuals. In order to keep a trace of the successive participations of these people an ensure the lasting of their contribution, we keep a complete record here. If you improve this document in any way, please add your name below and send the updated version \(together with a list of changes\) to info@chamilo.org. Thank you!
+This document is the fruit of the collaboration of several organisations and individuals. In order to keep a trace of the successive participations of these people an ensure the lasting of their contribution, we keep a complete record here. If you improve this document in any way, please add your name below and send the updated version (together with a list of changes) to info@chamilo.org. Thank you!
 
 | Date | Contributor | Contact | Updates |
 | :--- | :--- | :--- | :--- |

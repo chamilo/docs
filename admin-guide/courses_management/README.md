@@ -1,8 +1,8 @@
 # Courses management
 
-**Courses are spaces** within which teachers generate content using the 20-or so tools available to teach this content \(and much more\) to their student in a memorable, dynamical, multimedia and if possible entertaining way.
+**Courses are spaces** within which teachers generate content using the 20-or so tools available to teach this content (and much more) to their student in a memorable, dynamical, multimedia and if possible entertaining way.
 
-Courses can be used as timeless resources \(and they are, most of the time\), but they can also be inserted into a time-based context through the use of **sessions**_**\*\***_\(see Chapter 7. Sessions management on page 64\).
+Courses can be used as timeless resources (and they are, most of the time), but they can also be inserted into a time-based context through the use of **sessions**_**\*\***_\(see Chapter 7. Sessions management on page 64\).
 
 Courses management can be done with icons you should already be familiar with at this time :
 

@@ -1,6 +1,6 @@
 # Saving a course
 
-The platform administrator can save any course from \(among other methods\) the administrative interface.
+The platform administrator can save any course from (among other methods) the administrative interface.
 
 1. Go to : « Administration » → « Courses list » :
 
@@ -20,7 +20,7 @@ _Illustration: Administration – Courses list – Backup_
 
 _Illustration: Administration - Backup_
 
-1. You can choose between a complete backup and a specific selection \(depending on your needs\). Let's pick _Complete_ backup for the example.
+1. You can choose between a complete backup and a specific selection (depending on your needs). Let's pick _Complete_ backup for the example.
 
 ![](../../../.gitbook/assets/sauvegardegenerer_-backup%20%283%29.png)
 
@@ -32,7 +32,7 @@ _Illustration: Administration – Backup settings_
 
 _Illustration: Administration – Backup, results of backup generation_
 
-1. On clicking the _Generate backup_ button, Chamilo creates a backup file which, by default, ends up in its _chamilo/archive_ directory. You can thus recover it by direct access, but that means other people can also have access to it. This means, as an admin, that you should both have a regular process to clean this directory \(we offer one in the _main/cron_ directory but you have to execute it\) **and** that you should set your configuration \(through .htaccess or VirtualHost config\) to avoid direct navigation inside the _main/archive_ directory.
+1. On clicking the _Generate backup_ button, Chamilo creates a backup file which, by default, ends up in its _chamilo/archive_ directory. You can thus recover it by direct access, but that means other people can also have access to it. This means, as an admin, that you should both have a regular process to clean this directory (we offer one in the _main/cron_ directory but you have to execute it) **and** that you should set your configuration (through .htaccess or VirtualHost config) to avoid direct navigation inside the _main/archive_ directory.
 
 There is also another way to generate backups...
 
@@ -50,7 +50,7 @@ _Illustration: Interface – Course backup options_
 
 With the course backup options, you can still execute three more functions:
 
-* **Course copy** allows you to duplicate all or part of a course into another \(preferably empty\) course. The only required state before this is to have a first course with something to copy, and another course which doesn't contain the elements of the first one.
+* **Course copy** allows you to duplicate all or part of a course into another (preferably empty) course. The only required state before this is to have a first course with something to copy, and another course which doesn't contain the elements of the first one.
 * **Empty course** allows you to empty the whole contents of a course. Let's say you want to start a fresh course inside the same “shell” as the previous one... just click this link and all the resources previously created will be gone, with no chance to recover them. Obviously, before you do that, you might want to recover the course element through a _Course backup_ operation.
 * **Delete** allows you to delete the whole course, this also means removing its empty shell. A confirmation is required, but once it's removed, don't expect it to be available as a safe copy anywhere...
 
@@ -62,9 +62,9 @@ It contains :
 
 * one internal structure file named course\_info.dat
 * one directory called _Document_
-* a series of files and folders containing the course documents, anything not linked to the users \(assignments and other stuff user-related are not saved\)
+* a series of files and folders containing the course documents, anything not linked to the users (assignments and other stuff user-related are not saved)
 
-The _Document_ directory has a structure similar to the one presented in illustration 25, which reproduces the documents tool structure as shown in illustration 26.
+The _Document_ directory has a structure similar to the one presented in an illustration above which reproduces the documents tool structure.
 
 ![](../../../.gitbook/assets/structuredoc%20%283%29.png)
 
@@ -76,5 +76,5 @@ _Illustration: Interface – Documents list_
 
 These documents are the default contents of the course.
 
-Furthermore, the backup will only recover documents \(images, videos, etc.\) related to the course.
+Furthermore, the backup will only recover documents (images, videos, etc.) related to the course.
 
