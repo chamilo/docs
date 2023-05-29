@@ -12,27 +12,19 @@ Forum management tools category
 
 Name of forum
 
-_Illustration 67: Forum – Global view_
+_Illustration: Forum – Global view_
 
 Exchanges are organized hierarchically, as follows:
 
-\*Forum category
-
-→ Forum
-
-→ → Discussion thread
-
-→ → → message
-
-→ → → → answer to the message
-
-→ → → → answer to the message
-
-→ → → message
-
-→ → → → answer to the message
-
-→ → → → → answer to the answer
+* Forum category
+  * Forum
+    * Discussion thread
+      * message
+        * answer to the message
+        * answer to the message
+      * message
+        * answer to the message
+        * answer to the answer
 
 and so forth...
 

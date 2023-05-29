@@ -6,7 +6,7 @@ While it may seem rather slow \(three seconds per post\) and limited in features
 
 ![](../../.gitbook/assets/graphics280.png)
 
-_Illustration 153: The chat window_
+_Illustration: The chat window_
 
 If users have configured their picture in the _Social network_ \(or _Profile_\) tab, it will appear next to their name. It's up to the teacher to delete previous messages when he considers it necessary.
 

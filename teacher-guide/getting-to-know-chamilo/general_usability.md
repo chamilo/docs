@@ -4,21 +4,21 @@ Chamilo has been designed to provide help and support within the application. Th
 
 ![](../../.gitbook/assets/images2%20%283%29.png)
 
-Illustration 2: Icons label
+Illustration: Icons label
 
-There is also an online _help_ facility on most pages which appears as a partially hidden lifebuoy ring on the top right side of your screen \(see Illustration 3: Folded help\) and clicking it will open a window explaining the feature you're in and how to use it \(see Illustration 4, Unfolded help \).It remains in place when you scroll the screen so that it's constantly available and you can open and close it without affecting your current work. When you click the buoy, a small guide will open up, explaining the tool you're in and how to use it \(see Illustration 5: Contextual help pop-up\).
+There is also an online _help_ facility on most pages which appears as a partially hidden lifebuoy ring on the top right side of your screen \(see Illustration: Folded help\) and clicking it will open a window explaining the feature you're in and how to use it \(see Illustration Unfolded help \).It remains in place when you scroll the screen so that it's constantly available and you can open and close it without affecting your current work. When you click the buoy, a small guide will open up, explaining the tool you're in and how to use it \(see Illustration Contextual help pop-up\).
 
 ![](../../.gitbook/assets/images3%20%283%29.png)
 
-Illustration 3: Folded help
+Illustration: Folded help icon
 
 ![](../../.gitbook/assets/illustration_4%20%281%29.png)
 
-Illustration 4: Unfolded help
+Illustration: Unfolded help icon
 
 ![](../../.gitbook/assets/images5%20%283%29.png)
 
-Illustration 5: Contextual help pop-up
+Illustration: Contextual help pop-up
 
 ## Terminology <a id="terminology"></a>
 
@@ -28,7 +28,7 @@ Obviously, all these bodies and institutions tend to use slightly differing term
 
 ![](../../.gitbook/assets/images4%20%282%29.png)
 
-Illustration 6: History of Chamilo installations around the world, 2015 to 2017
+Illustration: History of Chamilo installations around the world, 2015 to 2017
 
 Of course, because we understand your organization may prefer a specific terminology, we have equipped Chamilo with a way to edit any interface term from within the platform administration. \(this requires administration skills and is thus described in the _Chamilo Administration Guide_\). Should you urgently require a customization, you can ask one of our official providers for a customized language pack to be imported into your platform.
 

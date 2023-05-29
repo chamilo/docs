@@ -2,7 +2,7 @@
 
 ![](../../.gitbook/assets/images29%20%283%29.png)
 
-_Illustration 27: Authoring tools_
+_Illustration: Authoring tools_
 
 ## Course description <a id="course-description"></a>
 

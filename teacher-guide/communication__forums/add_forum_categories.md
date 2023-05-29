@@ -7,5 +7,7 @@ In the _Forum_ tool:
 * add a comment if needed,
 * click _Create category._
 
-![](../../.gitbook/assets/graphics3.png)_Illustration 69: Forum – New category_
+![](../../.gitbook/assets/graphics3.png)
+
+_Illustration: Forum – New category_
 

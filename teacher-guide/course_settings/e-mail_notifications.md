@@ -4,7 +4,7 @@ E-mail notifications ![](../../.gitbook/assets/graphics324.png) are a effective 
 
 ![](../../.gitbook/assets/images243.png)
 
-_Illustration 174: Course settings – E-mail notifications_
+_Illustration: Course settings – E-mail notifications_
 
 In this section, you can choose to receive an e-mail notification if:
 

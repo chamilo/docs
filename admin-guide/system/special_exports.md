@@ -2,7 +2,9 @@
 
 The special exports feature has been designed to help the academical inspector. It allows him to export all documents \(and only documents\) from all courses in one single \(be it very heavy\) operation. A second option allows him to choose the documents from the courses he wants.
 
-![](../../.gitbook/assets/export-speciaux%20%283%29.png)Illustration 81: Administration – Special exports
+![](../../.gitbook/assets/export-speciaux%20%283%29.png)
+
+_Illustration: Administration – Special exports_
 
 There is no automated way to import those courses directly from the special export at the moment \(it is more meant as a way to quickly export all your documents\), but if you wanted to import them, one way to do so would be to:
 

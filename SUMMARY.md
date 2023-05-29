@@ -189,8 +189,6 @@
   * [Glossary](teacher-guide/appendix/glossary.md)
   * [Frequently asked questions](teacher-guide/appendix/frequently_asked_questions.md)
   * [Document license](teacher-guide/appendix/document_license.md)
-  * [Illustrations index](teacher-guide/appendix/illustrations_index.md)
-  * [Alphabetical index](teacher-guide/appendix/alphabetical_index.md)
   * [Document history](teacher-guide/appendix/document_history.md)
 
 ## Admin Guide

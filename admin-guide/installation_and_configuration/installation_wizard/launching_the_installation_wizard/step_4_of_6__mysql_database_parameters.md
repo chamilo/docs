@@ -2,7 +2,9 @@
 
 We'll now check the database management system \(DBMS\) works and is configured as expected :
 
-![](../../../../.gitbook/assets/images7%20%287%29.png)Illustration 8: Installation – MySQL settings
+![](../../../../.gitbook/assets/images7%20%287%29.png)
+
+_Illustration: Installation – MySQL settings_
 
 To allow for the settings check, you will have to fill in the required fields. These elements have probably been given to you when you rented your hosting service the first time, or you did them yourself when configuring your [LAMP](http://fr.wikipedia.org/wiki/LAMP) server locally.
 
@@ -19,7 +21,9 @@ Check the data entered in the form, then click the _Check database connection_ b
 
 Once everything is OK \(and the green confirmation block appears\), move on to the next step.
 
-![](../../../../.gitbook/assets/images9%20%287%29.png)Illustration 9: Installation database check - OK
+![](../../../../.gitbook/assets/images9%20%287%29.png)
+
+_Illustration: Installation database check - OK_
 
 If a database with the same name already exists, a yellow-background message will tell you so, because this database **will get overridden** with your new database! To avoid this, make sure you use another database name in the previous form.
 

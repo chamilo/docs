@@ -6,7 +6,7 @@ The certificate page uses a unique URL, so the student can just copy the link an
 
 ![](../../.gitbook/assets/image12%20%282%29.png)
 
-_Illustration 116: Public certificates option_
+_Illustration: Public certificates option_
 
 Once generated, a certificate cannot be canceled by the student. The teacher has to enter the certificates management tool to remove it and allow the student to re-generate it.
 

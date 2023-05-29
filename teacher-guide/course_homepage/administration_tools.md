@@ -4,7 +4,7 @@ The _administration_ section groups tools that the learner never needs access to
 
 ![](../../.gitbook/assets/images31%20%282%29.png)
 
-_Illustration 29: Administration tools_
+_Illustration: Administration tools_
 
 ## Projects <a id="projects"></a>
 

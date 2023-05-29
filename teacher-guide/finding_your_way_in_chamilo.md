@@ -4,7 +4,7 @@ Most pages are quickly accessible via the tabs at the top of the page:
 
 ![](../.gitbook/assets/images11%20%283%29.png)
 
-_Illustration 9: Chamilo header_
+_Illustration: Chamilo header_
 
 The “tabs” provide access to the homepage, the courses list, your agenda, the reporting/tracking page, the social network and \(if you are is lucky enough to be a portal administrator\) to the dashboard and administration pages. The last tab shows the user's picture \(so he can check he's not mistakenly using another user's account\) and a drop-down menu lets the user go to his profile or log out at any time in just two clicks.
 
@@ -14,15 +14,15 @@ The first “breadcrumb” link, on the left, displays the name of the course, a
 
 ![](../.gitbook/assets/images12%20%282%29.png)
 
-_Illustration 10: Breadcrumb Navigation_
+_Illustration: Breadcrumb Navigation_
 
 Within a course, _Learner view_ allows the teacher to view the course as a learner. The link then changes to _Teacher view_. Just click the new link to get back to the normal “teacher” view:
 
 ![](../.gitbook/assets/images13%20%283%29.png)
 
-_Illustration 11: Switch to student view_
+_Illustration: Switch to student view_
 
 ![](../.gitbook/assets/image1%20%281%29.png)
 
-_Illustration 12: Switch to teacher view_
+_Illustration: Switch to teacher view_
 

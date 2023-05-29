@@ -4,19 +4,23 @@ Creating a new test is very easy. Click the _create a test_ icon ![](../../.gitb
 
 ![](../../.gitbook/assets/graphics133.png)
 
-_Illustration 44: Exercises – Create a new test_
+_Illustration: Exercises – Create a new test_
 
 If you opt to _give a context to the test_ \_![](../../.gitbook/assets/graphics131.png)\_you can use the on-line editor to compose an explanatory section which will be visible to learners when they undertake the test.
 
 The test will be displayed on the main page of the test tool, listed along with other tests created in the course:
 
-![](../../.gitbook/assets/graphics134.png)_Illustration 45: Exercises - List_
+![](../../.gitbook/assets/graphics134.png)
+
+_Illustration: Exercises - List_
 
 Because there are so many different ways the test tool can be used, there is a good chance the default options are not entirely suitable your needs. Be careful, therefore to consider the extensive Advanced _settings_ section available in the _create/edit test_ page:
 
-![](../../.gitbook/assets/graphics135.png)_Illustration 46: Exercises – Creating an exercise – Advanced options_
+![](../../.gitbook/assets/graphics135.png)
 
-The settings are fairly self evident:
+_Illustration: Exercises – Creating an exercise – Advanced options_
+
+The settings are fairly self-evident:
 
 * feedback can be provided either at the end of the test or withheld, e.g. for an exam
 * questions can be presented either on a single page \(e.g. for a brief text quiz\) or on separate pages \(e.g. when the question and answers are lengthy or incorporate media\)

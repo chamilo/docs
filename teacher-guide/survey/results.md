@@ -4,5 +4,5 @@ Analyzing survey results can be an exhausting process. The tools provided in thi
 
 ![](../../.gitbook/assets/images227.png)
 
-_Illustration 159: Surveys - Results_
+_Illustration: Surveys - Results_
 

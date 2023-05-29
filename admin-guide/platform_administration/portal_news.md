@@ -2,7 +2,9 @@
 
 Allows you to add a global announcement on the homepage of the portal \(and on top of the courses list\).
 
-![](../../.gitbook/assets/images27%20%287%29.png)Illustration 40: Administration – Global announcements
+![](../../.gitbook/assets/images27%20%287%29.png)
+
+_Illustration: Administration – Global announcements_
 
 It is possible to choose the visibility of the announcement \(by start and end date\), the roles which this announcement is meant for, and to send it by e-mail. You can event send it to a social group.
 

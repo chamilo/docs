@@ -18,9 +18,13 @@ Any finer explanation would largely be out of the context of this guide, but thi
 
 Once configured and running, you will be able to convert PPT from inside your courses' learning path tools.
 
-![](../../.gitbook/assets/images66%20%282%29.png)Illustration 87: Rapid conversion icon in learning paths tool
+![](../../.gitbook/assets/images66%20%282%29.png)
 
-![](../../.gitbook/assets/images67%20%282%29.png)Illustration 88: Learning path import PPT screen
+_Illustration: Rapid conversion icon in learning paths tool_
+
+![](../../.gitbook/assets/images67%20%282%29.png)
+
+_Illustration: Learning path import PPT screen_
 
 Once imported this way, a PowerPoint or Impress presentation will be transformed to a full learning path, ready to be further edited and structured, then published to learners.
 

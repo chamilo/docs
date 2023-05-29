@@ -6,5 +6,7 @@ The admin can subscribe whomever to whichever course he wants:
 * Choose the course\(s\) to subscribe these users to,
 * click _Subscribe users to course_.
 
-![](../../.gitbook/assets/coursinscrire_-utilisateurs%20%283%29.png)Illustration 62: Administration – Subscribe users to courses
+![](../../.gitbook/assets/coursinscrire_-utilisateurs%20%283%29.png)
+
+_Illustration: Administration – Subscribe users to courses_
 

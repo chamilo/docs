@@ -9,5 +9,5 @@ You can create links categories in Chamilo, allowing for a better organizational
 
 ![](../../.gitbook/assets/images156%20%281%29.png)
 
-_Illustration 122: Links - Add a category_
+_Illustration: Links - Add a category_
 

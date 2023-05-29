@@ -2,7 +2,9 @@
 
 As an administrator, only the title is mandatory during the course creation.
 
-![](../../.gitbook/assets/graficos83%20%285%29.png)Illustration 58: Course creation
+![](../../.gitbook/assets/graficos83%20%285%29.png)
+
+_Illustration: Course creation_
 
 Apart from this mandatory field, the following options are exclusively available to the admin:
 

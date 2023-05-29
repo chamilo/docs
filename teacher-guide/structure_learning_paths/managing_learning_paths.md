@@ -2,7 +2,9 @@
 
 Go to _My courses_, pick a course and click the _Learning paths icon_ ![](../../.gitbook/assets/graphics36.png):
 
-![](../../.gitbook/assets/graphics38.png)_Illustration 84: Learning paths – List_
+![](../../.gitbook/assets/graphics38.png)
+
+_Illustration: Learning paths – List_
 
 The right-side column, _Authoring options_ includes tools to manage your learning paths:
 

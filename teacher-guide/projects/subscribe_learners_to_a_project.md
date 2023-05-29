@@ -10,5 +10,5 @@ To subscribe learners to a project from the homepage of this project:
 
 ![](../../.gitbook/assets/graphics312.png)
 
-_Illustration 164: Projects – Users management_
+_Illustration: Projects – Users management_
 

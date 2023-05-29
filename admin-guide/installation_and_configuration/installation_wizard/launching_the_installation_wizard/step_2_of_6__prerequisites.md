@@ -2,7 +2,9 @@
 
 This step checks your server has all the required elements for a complete and correct installation of Chamilo.
 
-![](../../../../.gitbook/assets/images3%20%288%29.png)Illustration 4: Installation - Prerequisites
+![](../../../../.gitbook/assets/images3%20%288%29.png)
+
+_Illustration: Installation - Prerequisites_
 
 The prerequisites already fulfilled by your system are marked in **green**, the mandatory but non-satisfied ones are marked in **red** and the ones non-satisfied but not mandatory either are marked in **orange**.
 
@@ -10,7 +12,9 @@ Almost all prerequisites relate to the PHP installation and offer links to more 
 
 At the end of the prerequisites page, you will find a _Permissions on directories and files_ section.
 
-![](../../../../.gitbook/assets/images5%20%288%29.png)Illustration 5: Installation - Prerequisites \(end\)
+![](../../../../.gitbook/assets/images5%20%288%29.png)
+
+_Illustration: Installation - Prerequisites \(end\)_
 
 By default under GNU/Linux, writing is not authorized on directories. You must change files accesses to optimise the security and give the sufficient permissions to the user running the web server. These ensure confinement of permissions during the execution of a service \(in this case _Apache_\) and avoid a cracker to be able to take control of your server too easily.
 

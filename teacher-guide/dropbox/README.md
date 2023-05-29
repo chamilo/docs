@@ -4,5 +4,5 @@ The _Dropbox_ \(document-sharing\) tool ![](../../.gitbook/assets/graphics268.pn
 
 While the basic concept of this tool is similar to popular tools such as Dropbox or Google Drive, it actually predates these modern tools and doesn't work in quite the same way. For example, when working collaboratively on one document, rather than open the “shared” file to view and edit it directly users simply download the shared file, work on it, and upload it again to the dropbox \(e.g. with changes\). By default, altered files won't over-write the original version even though the filename is the same, effectively making it easy to manage “versions” of a document differentiated by date/time of upload. All users have the option to add a comment within the dropbox window to a shared document, again a useful device for serious collaborative work. For example, it allows a teacher to make a brief note about each student's contribution.
 
-![](../../.gitbook/assets/images202.png)_Illustration 145: Dropbox – sent files_
+![](../../.gitbook/assets/images202.png)_Illustration: Dropbox – sent files_
 

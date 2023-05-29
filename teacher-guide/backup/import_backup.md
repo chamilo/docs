@@ -14,7 +14,7 @@ To start the import:
 
 ![](../../.gitbook/assets/images251.png)
 
-_Illustration 183: Backup - Import_
+_Illustration: Backup - Import_
 
 > **Note** : A message will confirm the backup restoration executed successfully
 

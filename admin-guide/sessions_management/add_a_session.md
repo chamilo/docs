@@ -13,7 +13,9 @@ To add a session:
   * read only \(can access resources but not pass exams, answer forums, etc. anymore\),
   * accessible \(can be accessed freely, through the sessions history link on the courses list\),
   * not accessible,
-* ![](../../.gitbook/assets/sessionajouter%20%283%29.png)Illustration 65: Administration – Session creation
+* ![](../../.gitbook/assets/sessionajouter%20%283%29.png)
+
+  _Illustration: Administration – Session creation_
 
   click on _Next step_.
 
@@ -21,7 +23,9 @@ The second step requires you to register courses to the session. Select one \(or
 
 **Single registration** allows you to not get lost within the courses that exist on the platform. You must write the start of the course title inside the search field and the corresponding courses will appear.
 
-![](../../.gitbook/assets/session-inscription%20%283%29.png)Illustration 66: Administration – Registering courses into a session
+![](../../.gitbook/assets/session-inscription%20%283%29.png)
+
+_Illustration: Administration – Registering courses into a session_
 
 The last step allows you to subscribe _learners_ to the session \(other coaches can be assigned later, this is just a learners subscription at this point\).
 
@@ -31,7 +35,9 @@ Choose the users and, like for the courses, add them with the blue arrow button.
 
 Enrolment by classes allows you to register learners to your session by classes. Classes are defined in the next sections of this chapter.
 
-![](../../.gitbook/assets/session-inscription2%20%283%29.png)Illustration 67: Administration – Subscribing students to sessions
+![](../../.gitbook/assets/session-inscription2%20%283%29.png)
+
+_Illustration: Administration – Subscribing students to sessions_
 
 Because of the special behaviour of course tools when used through sessions, we have written a technical report about how these should behave in the context of a session on our technical wiki: [http://support.chamilo.org/projects/chamilo-18/wiki/Tools\_and\_sessions](http://support.chamilo.org/projects/chamilo-18/wiki/Tools_and_sessions)
 

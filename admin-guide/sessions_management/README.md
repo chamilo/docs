@@ -6,7 +6,9 @@ Sessions can group several courses of different categories.
 
 The following schema has already been used in the _users_ chapter to explain roles, but we will now use it in the context of _Sessions._
 
-![](../../.gitbook/assets/images72%20%284%29.png)Illustration 64: Global – Sessions schema
+![](../../.gitbook/assets/images72%20%284%29.png)
+
+_Illustration: Global – Sessions schema_
 
 As you can see, the session is defined by a sessions administrator and has a general coach \(also called the session coordinator, or _session tutor_ in the schema\) who watches over the session and assists teachers and students in need.
 

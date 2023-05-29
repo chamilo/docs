@@ -6,13 +6,13 @@ In order to do this, access has to be restricted by going to the course _**Setti
 
 ![](../.gitbook/assets/images17%20%283%29.png)
 
-_Illustration 17: Course administration tools_
+_Illustration: Course administration tools_
 
 A series of choices are available to the teacher.
 
 ![](../.gitbook/assets/images18%20%283%29.png)
 
-_Illustration 18: Course settings - Visibility_
+_Illustration: Course settings - Visibility_
 
 * **Public** : means it is accessible to any user, registered on this portal or not
 * **Open** : means all users _registered on the portal_ can access the course as long as they have previously subscribed to it \(they can do this through the courses catalog\). This is the _default option_

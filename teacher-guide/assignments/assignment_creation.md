@@ -9,7 +9,7 @@ To create a new assignment:
 
 ![](../../.gitbook/assets/graphics66.png)
 
-_Illustration 93: Create a new assignment_
+_Illustration: Create a new assignment_
 
 Advanced settings allow you to:
 

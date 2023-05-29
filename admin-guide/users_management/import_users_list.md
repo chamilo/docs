@@ -15,14 +15,18 @@ Just
 
 To import a CSV/XML file, follow these steps:
 
-![](../../.gitbook/assets/importerliste_-utilisateurs%20%283%29.png)Illustration 52: Administration – Users import
+![](../../.gitbook/assets/importerliste_-utilisateurs%20%283%29.png)
+
+_Illustration: Administration – Users import_
 
 * in _Browse_, search for the file,
 * choose the file format \(CSV or XML\),
 * choose whether to send a welcome mail to new users created through this import,
 * click on _Import_
 
-![](../../.gitbook/assets/importerliste_-utilisateurs2%20%283%29.png)Illustration 53: Administration – Users import report
+![](../../.gitbook/assets/importerliste_-utilisateurs2%20%283%29.png)
+
+_Illustration: Administration – Users import report_
 
 The report message shows conflicts that might have occurred, and the list of users that might not have been imported.
 

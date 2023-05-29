@@ -4,7 +4,7 @@ Within the Chamilo course, not only tests but a whole range of activities can be
 
 ![](../../.gitbook/assets/images140%20%281%29.png)
 
-_Illustration 107: Assessments – Add online activity_
+_Illustration: Assessments – Add online activity_
 
 * Tests,
 * Assignments,

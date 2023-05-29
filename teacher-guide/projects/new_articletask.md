@@ -10,5 +10,5 @@ From the project's homepage:
 
 ![](../../.gitbook/assets/graphics314.png)
 
-_Illustration 165: Projects – New task_
+_Illustration: Projects – New task_
 

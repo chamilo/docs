@@ -13,5 +13,5 @@ The execution report of the task appears as a comment to the article.
 
 ![](../../.gitbook/assets/images240.png)
 
-_Illustration 170: Projects – Tasks comments_
+_Illustration: Projects – Tasks comments_
 

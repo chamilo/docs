@@ -10,7 +10,7 @@ You just need to click on the course name to access its homepage. The various to
 
 ![](../.gitbook/assets/images26%20%283%29.png)
 
-_Illustration 24: Course tools – Classical option_
+_Illustration: Course tools – Classical option_
 
 ![](../.gitbook/assets/graphics79.png)
 
@@ -20,7 +20,7 @@ Note : In some cases the administrator may make tools unavailable to course teac
 
 ![](../.gitbook/assets/images27%20%283%29.png)
 
-_Illustration 25: Authoring tools in big activity view type_
+_Illustration: Authoring tools in big activity view type_
 
 > **Note** : The course interface can be presented in different ways depending on what the administrator's chooses. He might, for example, enable a view that was popular in previous versions of Chamilo, as in this illustration. This view is called the 2-columns activity view.
 

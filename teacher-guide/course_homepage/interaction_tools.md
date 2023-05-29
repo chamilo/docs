@@ -4,7 +4,7 @@ The objective of the interaction section is to group tools which facilitate comm
 
 ![](../../.gitbook/assets/images30%20%282%29.png)
 
-_Illustration 28: Interaction tools_
+_Illustration: Interaction tools_
 
 ## Agenda <a id="agenda"></a>
 

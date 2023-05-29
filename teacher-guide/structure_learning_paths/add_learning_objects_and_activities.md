@@ -2,7 +2,9 @@
 
 As you build your learning path/course, you have the option to include existing learning objects or activities or to create your own using Chamilo.
 
-![](../../.gitbook/assets/graphics12.png)_Illustration 78: Adding a learning object or activity to a course_
+![](../../.gitbook/assets/graphics12.png)
+
+_Illustration: Adding a learning object or activity to a course_
 
 ## Create a new document <a id="create-a-new-document"></a>
 
@@ -12,7 +14,9 @@ In essence, it is possible to use the rich text editor to edit styles, add image
 
 To begin, click the _Rich media page / activity_ icon ![](../../.gitbook/assets/graphics24.png) to see the following page:
 
-![](../../.gitbook/assets/graphics25.png)_Illustration 79: Learning paths – Rich media creation tool_
+![](../../.gitbook/assets/graphics25.png)
+
+_Illustration: Learning paths – Rich media creation tool_
 
 ## Use existing resources <a id="use-existing-resources"></a>
 
@@ -22,19 +26,25 @@ You can also add tests, links, assignments and forums by dragging them across to
 
 Links, tests, assignments and forums can be created prior to building the learning path in the _Authoring_ or _Interaction_ sections on your course's homepage, and then added from these sections into your learning path via the relevant tab on the learning path page. \(Alternatively, they can be created directly from within the tabs themselves as you build the learning path:\)
 
-![](../../.gitbook/assets/graphics28.png)_Illustration 80: Learning paths – Importing existing resources_
+![](../../.gitbook/assets/graphics28.png)
+
+_Illustration: Learning paths – Importing existing resources_
 
 ## Add a new section <a id="add-a-new-section"></a>
 
 The _Sections_ tool ![](../../.gitbook/assets/graphics33.png) is a simple but effective tool allowing you to group activities in the the learning path under headings for clarity.
 
-![](../../.gitbook/assets/graphics29.png)_Illustration 81: Learning paths – New sections_
+![](../../.gitbook/assets/graphics29.png)
+
+_Illustration: Learning paths – New sections_
 
 ## Display the learning path <a id="display-the-learning-path"></a>
 
 Display the results of the learning path you just built:
 
-![](../../.gitbook/assets/graphics30.png)_Illustration 82: Learning paths – Learner's view_
+![](../../.gitbook/assets/graphics30.png)
+
+_Illustration: Learning paths – Learner's view_
 
 You can toggle between the above teacher and learner views by clicking the teacher/learner view button ![](../../.gitbook/assets/graphics31.png):
 

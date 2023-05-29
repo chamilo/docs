@@ -13,5 +13,5 @@ To include assignments' evaluation in the assessments:
 
 ![](../../.gitbook/assets/graphics71.png)
 
-_Illustration 96: Assignments – Advanced settings_
+_Illustration: Assignments – Advanced settings_
 

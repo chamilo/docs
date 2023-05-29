@@ -6,7 +6,9 @@ The interface of the tool is still a bit rough on the edges, and it will take yo
 
 Let's see how it's done...
 
-![](../../../.gitbook/assets/graficos85%20%285%29.png)Illustration 70: List of careers and promotions
+![](../../../.gitbook/assets/graficos85%20%285%29.png)
+
+_Illustration: List of careers and promotions_
 
 The first page gives us a list of careers \(grey-background line\), of promotions that each career contains \(first column\), of sessions registered to these promotions \(second column\) and of courses included into these sessions \(last column\).
 

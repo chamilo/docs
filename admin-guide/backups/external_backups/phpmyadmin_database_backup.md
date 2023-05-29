@@ -2,7 +2,9 @@
 
 Databases can be saved from the [P](http://fr.wikipedia.org/wiki/PhpMyAdmin)[hpMyAdmin](http://fr.wikipedia.org/wiki/PhpMyAdmin) interface, connecting using the login and password created during the [LAMP](http://fr.wikipedia.org/wiki/LAMP) server installation, the database installation, or in the data transmitted by your hosting provider.
 
-![](../../../.gitbook/assets/phpaccueuil%20%283%29.png)Illustration 15: Administration - PHPMyAdmin
+![](../../../.gitbook/assets/phpaccueuil%20%283%29.png)
+
+_Illustration: Administration - PHPMyAdmin_
 
 Once in the graphical interface of PhpMyAdmin, go to the \_Export\_tab and select the database to be saved. There's probably another one called “information\_schema”, which you can just ignore.
 

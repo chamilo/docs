@@ -4,7 +4,7 @@ To create a survey, click the _Create survey_ icon ![](../../.gitbook/assets/gra
 
 ![](../../.gitbook/assets/images223.png)
 
-_Illustration 154: Surveys – Creation form_
+_Illustration: Surveys – Creation form_
 
 Complete the fields, giving your survey a _Code_, a _Title,_ and a _Subtitle_ \(description\). Optionally, you can set a start and end date so the survey is only available for a limited time. You can choose whether your survey will be anonymous \(users' answers will not be identifiable\) by checking the relevant box. Finally, write a survey introduction \(this is a text that will appear just before the user starts the survey\) and a _Final thanks_ message \(this will appear when the users finish the survey, to thank them and maybe inform them of when the results will be compiled and used\).
 

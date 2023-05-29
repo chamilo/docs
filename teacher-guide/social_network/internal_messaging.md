@@ -4,7 +4,7 @@ From the _Social network_ tab \(left menu\) the _Messages_ entry allows you to s
 
 ![](../../.gitbook/assets/images257.png)
 
-_Illustration 189: Social network – Internal messaging - Inbox_
+_Illustration: Social network – Internal messaging - Inbox_
 
 To write a message to another user \(or a friend\) subscribed to the platform:
 

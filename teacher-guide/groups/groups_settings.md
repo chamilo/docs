@@ -4,7 +4,7 @@ A teacher can access settings for the group from the toolbar in the main _Groups
 
 ![](../../.gitbook/assets/graphics282.png)
 
-_Illustration 149: Groups- settings_
+_Illustration: Groups- settings_
 
 Remember to click the _Save settings_ button at the bottom of the page. These default settings can be edited by the teacher for each group using the _Edit this group_ icon ![](../../.gitbook/assets/graphics281.png) to the right of each group listing in the main page.
 

@@ -6,7 +6,7 @@ Clicking on the _Courses catalog_ link, and a list of courses will appear. You c
 
 ![](../../.gitbook/assets/images21%20%283%29.png)
 
-_Illustration 23: Courses catalog_
+_Illustration: Courses catalog_
 
 Once you’ve found your the course, click on the green _Subscribe_ icon to subscribe to it. The subscription gives the user subscribing **learner** status.
 

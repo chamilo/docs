@@ -6,5 +6,5 @@ The _User rights_ section ![](../../.gitbook/assets/graphics325.png) allows you 
 
 ![](../../.gitbook/assets/images244.png)
 
-_Illustration 175: Course settings – Users rights_
+_Illustration: Course settings – Users rights_
 

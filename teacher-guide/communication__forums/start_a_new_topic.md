@@ -17,5 +17,5 @@ When the content of a forum is shown:
 
 ![](../../.gitbook/assets/graphics5.png)
 
-_Illustration 71: Forum – Discussion thread_
+_Illustration: Forum – Discussion thread_
 

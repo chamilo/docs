@@ -4,7 +4,7 @@ A user can use the _My files_ link ![](../../.gitbook/assets/graphics343.png) in
 
 ![](../../.gitbook/assets/graphics344.png)
 
-_Illustration 194: Social network – My files_
+_Illustration: Social network – My files_
 
 Files can be viewed or downloaded by clicking on them.
 

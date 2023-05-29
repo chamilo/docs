@@ -4,21 +4,25 @@ Import a new document by going to the desired destination folder and clicking th
 
 ![](../../.gitbook/assets/images34%20%282%29.png)
 
-_Illustration 32: Documents - Icons - Upload_
+_Illustration: Documents - Icons - Upload_
 
 The following screen appears:
 
-![](../../.gitbook/assets/images35%20%282%29.png)_Illustration 33: Documents – Documents upload_
+![](../../.gitbook/assets/images35%20%282%29.png)
+
+_Illustration: Documents – Documents upload_
 
 Click on the green area to explore the files on your disk and select one\(s\) to upload. Inside the pop-up window, click the confirmation button. The documents upload starts. If you send several files at the same time, you will see their upload progress, live, as in the following illustration.
 
-![](../../.gitbook/assets/graphics119.png)_Illustration 34: Documents – Documents upload in progress_
+![](../../.gitbook/assets/graphics119.png)
+
+_Illustration: Documents – Documents upload in progress_
 
 Once the upload is finished, the following validation list appears.
 
 ![](../../.gitbook/assets/images37%20%281%29.png)
 
-_Illustration 35: Documents – Document upload finished_
+_Illustration: Documents – Document upload finished_
 
 The green ticks indicate that the documents have been sent to the course successfully. Click on the blue arrow icon pointing left to get back to the documents list.
 

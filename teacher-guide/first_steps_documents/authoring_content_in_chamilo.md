@@ -2,11 +2,15 @@
 
 A major advantage of Chamilo over other Learning Management Systems is that it provides a wide range of inbuilt features supporting the effective authoring of course content. The toolbar at the top of the documents page displays a range of tools to support authoring:
 
-![](../../.gitbook/assets/graphics122.png)_Illustration 36: Documents - toolbar_
+![](../../.gitbook/assets/graphics122.png)
+
+_Illustration: Documents - toolbar_
 
 The icons marked with an a yellow asterisk represent creation tools. First and foremost, the teacher can create new rich media documents directly via the documents tool, without any need for an external authoring system. Just click the _create rich media page/activity_ icon ![](../../.gitbook/assets/graphics118.png) within the desired folder. A fully featured on-line editor appears.
 
-![](../../.gitbook/assets/images39%20%281%29.png)_Illustration 37: Documents – Creating a new document_
+![](../../.gitbook/assets/images39%20%281%29.png)
+
+_Illustration: Documents – Creating a new document_
 
 After naming the document, it is possible to use all the options in the embedded rich text editor to format them. The editor supports a wide range of elements, including tables,images, audio, video, flash, etc. It includes an html editor which means that, for those with some knowledge of scripting the sky's the limit in terms of rich content!\)
 

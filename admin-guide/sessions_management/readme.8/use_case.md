@@ -6,7 +6,9 @@ From year one \(2011\), you create promotion 2016 for both medicine \(PROMMED201
 
 Let's re-use the previous schema as a reference :
 
-![](../../../.gitbook/assets/graficos92%20%286%29.png)Illustration 76: Courses, sessions, promotions and careers
+![](../../../.gitbook/assets/graficos92%20%286%29.png)
+
+_Illustration: Courses, sessions, promotions and careers_
 
 These two promotions will be the result of 5 years of study \(let's agree that the minimum period of course is one year\). You will thus have 5 **periods** of one year each, which lead to a promotion in 2016.
 

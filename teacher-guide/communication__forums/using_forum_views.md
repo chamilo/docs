@@ -8,5 +8,5 @@ Depending on the complexity of exchanges on the forums, several display modes ca
 
 ![](../../.gitbook/assets/graphics2.png)
 
-_Illustration 68: Forum – Display modes_
+_Illustration: Forum – Display modes_
 

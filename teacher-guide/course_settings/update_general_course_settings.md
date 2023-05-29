@@ -9,11 +9,13 @@ By default, this page \(a series of vertical tabs\) displays the main _Course se
 * add a picture to be displayed in the course catalogue \(important for “marketing” your course\)
 * choose a stylesheet for this course from a drop down menu \(by default that of the platform\)
 
-![](../../.gitbook/assets/images241.png)_Illustration 172: Course settings - General_
+![](../../.gitbook/assets/images241.png)
+
+_Illustration: Course settings - General_
 
 ![](../../.gitbook/assets/images242.png)
 
-_Illustration 173: Courses catalog – Example of courses illustrations_
+_Illustration: Courses catalog – Example of courses illustrations_
 
 > **Note** : the **D\*\***_epartment_\*\* is a feature for which support has been dropped so far. Depending on visual styles, the department might appear as a link in the campus header \(for old, deprecated styles\). This is all a department will change. In more recent version of Chamilo 1.8, if you need to manage courses by departments inside a university, we recommend you use the multi-url feature, described in the administrator's guide, little brother of this guide_._
 

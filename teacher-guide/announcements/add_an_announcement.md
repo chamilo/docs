@@ -4,7 +4,7 @@ From the main Announcement page:
 
 * ![](../../.gitbook/assets/images164%20%284%29.png)
 
-  Illustration 125: Add an announcement
+  Illustration: Add an announcement
 
   click the _Add an announcement_ icon ![](../../.gitbook/assets/graphics227%20%283%29.png),
 
@@ -21,5 +21,5 @@ Announcements will appear to recipients like this on the platform:
 
 ![](../../.gitbook/assets/graphics233%20%283%29.png)
 
-Illustration 126: Announcements – learner view
+Illustration: Announcements – learner view
 

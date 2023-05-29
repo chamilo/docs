@@ -2,7 +2,9 @@
 
 The assessment tool \(also called the _gradebook_ tool by some of our users\) requires several settings to be correctly configured to give you a useful result. The activities weighting, a minimum certification score \(pass-mark\), skills rankings and a certificate template are elements that can extend this tool if properly configured. If these are not set correctly, an orange alert will be displayed on the main _Assessments_ page.
 
-![](../../.gitbook/assets/image3%20%282%29.png)_Illustration 103: An empty gradebook generates information messages_
+![](../../.gitbook/assets/image3%20%282%29.png)
+
+_Illustration: An empty gradebook generates information messages_
 
 So let’s analyze each of these elements in more detail.
 
@@ -12,7 +14,7 @@ To view and edit this basic configuration , click on any of the edit icons \( ![
 
 ![](../../.gitbook/assets/images132%20%281%29.png)
 
-_Illustration 104: Assessments – General settings_
+_Illustration: Assessments – General settings_
 
 The _Total weight_ of the course is important for assigning individual weights to activities. This will allow you to “spread” the importance of each activity in your course. If you only have a few activities, maybe a total weight of 10 is enough, but we consider 100 to be a common selection among teachers.
 

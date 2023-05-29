@@ -11,5 +11,5 @@ To configure these, check the relevant boxes in the _advanced settings_ of the _
 
 ![](../../.gitbook/assets/graphics368%20%281%29.png)
 
-Illustration 97: Assignments – setting expiry dates
+Illustration: Assignments – setting expiry dates
 

@@ -4,5 +4,7 @@ This section \(available from Chamilo LMS 1.9.4\) could be called “Executive r
 
 Assuming you've only got one learning path and one “assessment” in each course, it will also give you the learning path progress, whether the student reached 100% progress, and whether he printed his certificate or not.
 
-![](../../.gitbook/assets/images38%20%283%29.png)Illustration 45: Administration - Executive reporting
+![](../../.gitbook/assets/images38%20%283%29.png)
+
+_Illustration: Administration - Executive reporting_
 

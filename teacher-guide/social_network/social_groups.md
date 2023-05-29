@@ -9,11 +9,11 @@ There are two types of groups, depending on access:
 
 ![](../../.gitbook/assets/images260.png)
 
-_Illustration 192: Social network – Social groups_
+_Illustration: Social network – Social groups_
 
 The _My groups tab_ lists the groups of which you are a member. These groups work as a forum. The administrator \(or moderator\) creates discussion topics and users start contributing.
 
 ![](../../.gitbook/assets/images261.png)
 
-_Illustration 193: Social network – Social groups interface_
+_Illustration: Social network – Social groups interface_
 

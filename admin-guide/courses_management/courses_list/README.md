@@ -2,7 +2,9 @@
 
 This tool allows you to visualise all the courses contained on the platform.
 
-![](../../../.gitbook/assets/graficos82%20%285%29.png)Illustration 57: Administration – Courses list
+![](../../../.gitbook/assets/graficos82%20%285%29.png)
+
+_Illustration: Administration – Courses list_
 
 This list gives us a great deal of information about the courses. Note the colours of the dots prefixing the courses titles: they represent the visibility of the courses:
 

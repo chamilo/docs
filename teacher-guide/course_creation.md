@@ -2,7 +2,7 @@
 
 ![](../.gitbook/assets/images14%20%283%29.png)
 
-_Illustration 13: Personal menu blocks_
+_Illustration: Personal menu blocks_
 
 Creating a course is quick and easy, and can be done from the _My courses_ page.
 
@@ -16,7 +16,7 @@ To create the course, you need only enter a single element, i.e. a clear and det
 
 ![](../.gitbook/assets/images15%20%283%29.png)
 
-_Illustration 14: Creating a course – short version_
+_Illustration: Creating a course – short version_
 
 Additional **options** \(entirely optional\) are available by clicking on the \_Advanced settings\_button:
 
@@ -29,7 +29,7 @@ Additional **options** \(entirely optional\) are available by clicking on the \_
 
 ![](../.gitbook/assets/images16%20%283%29.png)
 
-_Illustration 15: Create a course – extended version_
+_Illustration: Create a course – extended version_
 
 In versions 1.9 and 1.10, a course creation follow-up page was displayed, which suggested:
 
@@ -38,7 +38,7 @@ In versions 1.9 and 1.10, a course creation follow-up page was displayed, which 
 
 ![](../.gitbook/assets/images271.png)
 
-_Illustration 16: Course creation follow-up page_
+_Illustration: Course creation follow-up page_
 
 However, feedback has been relatively negative about this feature, so we decided to disable it by default in version 1.11 onward. Your administrator can still enable this if desired.
 

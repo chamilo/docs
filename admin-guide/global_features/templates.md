@@ -4,7 +4,9 @@ Since version 1.9, Chamilo uses the Twig templating system to generate parts of 
 
 This means that you can now change Chamilo more easily. For example, the following screenshot is taken from a Chamilo 1.9 installation modified through templating. Although most visual changes can be done through CSS, there is a number of things that can just not be done this way, like showing new visual elements.
 
-![](../../.gitbook/assets/images50%20%286%29.png) Illustration 89: Example portal using another template
+![](../../.gitbook/assets/images50%20%286%29.png)
+
+_Illustration: Example portal using another template_
 
 As you can see, classical elements of Chamilo have been moved around, shown or hidden depending on the desired final appearance.
 

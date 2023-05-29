@@ -10,11 +10,17 @@ Sadly, because of the inherent security of the system, an SSL certificate \(requ
 
 You can “self-sign” your certificates, but this will show a scary screen to all users the first time they access the portal, and it will ask them to take a decision. The users will have to click a minimum of 3 times in very specific options in order to get to the site, as illustrated by the following screenshots.
 
-![](../../.gitbook/assets/images52%20%281%29.png)Illustration 90: Browsers warn users of self-signed SSL certificates: Step 1/3: click on the “I Understand the Risks” link \(example with Mozilla Firefox\)
+![](../../.gitbook/assets/images52%20%281%29.png)
 
-![](../../.gitbook/assets/images53%20%281%29.png)Illustration 91: Browsers warn users of self-signed SSL certificates: Step 2/3: click the "Add Exception" button
+_Illustration: Browsers warn users of self-signed SSL certificates: Step 1/3: click on the “I Understand the Risks” link \(example with Mozilla Firefox\)_
 
-![](../../.gitbook/assets/images60%20%281%29.png)Illustration 92: Browsers warn users of self-signed SSL certificates: Step 3/3: click "Confirm Security Exception"
+![](../../.gitbook/assets/images53%20%281%29.png)
+
+_Illustration: Browsers warn users of self-signed SSL certificates: Step 2/3: click the "Add Exception" button_
+
+![](../../.gitbook/assets/images60%20%281%29.png)
+
+_Illustration: Browsers warn users of self-signed SSL certificates: Step 3/3: click "Confirm Security Exception"_
 
 These rather scary three steps completed, your user will have access to your site with an encrypted connection, but the process will not work for everyone.
 

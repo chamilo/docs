@@ -6,7 +6,9 @@ If you were able to configure a VirtualHost in your web server's configuration, 
 
 In the following screenshots, we install Chamilo 1.9.4. The installation of all versions of 1.9.\* are almost exactly the same, so the procedure is also valid for 1.9.0, 1.9.2, 1.9.4, 1.9.6 and 1.9.8.
 
-![](../../../../.gitbook/assets/images1%20%285%29.png)Illustration 2: Installation – Welcome screen
+![](../../../../.gitbook/assets/images1%20%285%29.png)
+
+_Illustration: Installation – Welcome screen_
 
 You must then follow a series of steps to indicate your platform parameters. These steps are almost identical for local and remote installations.
 

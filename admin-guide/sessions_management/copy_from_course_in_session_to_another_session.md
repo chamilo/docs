@@ -4,7 +4,9 @@ Given the possibility to define content in a course through a session and given 
 
 To use it, you must have an origin and a destination session, in which you can find the same course, from and to which you wish to copy the content of the session.
 
-![](../../.gitbook/assets/graficos84%20%285%29.png)Illustration 69: Copying course content from session to session
+![](../../.gitbook/assets/graficos84%20%285%29.png)
+
+_Illustration: Copying course content from session to session_
 
 Once these conditions are met, you'll just have to select the session of origin, the course of origin, the session of destination and the course of destination, then decide whether you want all session-specific contents to be copied or only some of them.
 

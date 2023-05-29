@@ -8,7 +8,7 @@ These directories are by default invisible to learners. It is up to the teacher 
 
 ![](../../.gitbook/assets/images33%20%283%29.png)
 
-_Illustration 31: Documents – List of default directories_
+_Illustration: Documents – List of default directories_
 
 Of course, it is possible to create several other directories using the folder creation icon. In order to navigate swiftly within the directories tree, a drop-down list called _Current folder_ is available on the top left of the screen allowing any level of documents-directory to be readily accessed.
 

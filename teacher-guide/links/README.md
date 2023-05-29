@@ -4,5 +4,5 @@ The Li_nks_ tool ![](../../.gitbook/assets/graphics217.png)allows you to create 
 
 ![](../../.gitbook/assets/graphics222.png)
 
-_Illustration 121: The Links page_
+_Illustration: The Links page_
 

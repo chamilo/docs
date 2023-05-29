@@ -10,7 +10,7 @@ To access the database, click on the _recycle existing questions_ icon ![](../..
 
 ![](../../.gitbook/assets/images56%20%282%29.png)
 
-_Illustration 62: Tests – Questions database_
+_Illustration: Tests – Questions database_
 
 Click the _Re-use in current test_ button ![](../../.gitbook/assets/graphics155.gif) to include these questions in the current test. What actually happens \(in Chamilo 1.9\) is that a copy of the old test is included in the current test, so that it can be edited if necessary for the new test without its content or configuration being altered within the test in which it was originally created.
 

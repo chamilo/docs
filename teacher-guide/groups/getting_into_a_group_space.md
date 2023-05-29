@@ -4,7 +4,7 @@ Group members can access the group's “workspace” simply by clicking the name
 
 ![](../../.gitbook/assets/images217.png)
 
-_Illustration 152: Groups – Group space_
+_Illustration: Groups – Group space_
 
 From the group space, you can query a learner's information sheet by simply clicking on her name in the list of members in the lower part of the page.
 

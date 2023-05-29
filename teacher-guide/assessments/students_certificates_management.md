@@ -20,7 +20,9 @@ And you can! To access the certificates management, click the certificates icon 
 
 This leads you to the list of certificates, which shows all the certificates generated so far.
 
-![](../../.gitbook/assets/image14%20%281%29.png)_Illustration 117: Certificates management page_
+![](../../.gitbook/assets/image14%20%281%29.png)
+
+_Illustration: Certificates management page_
 
 The page provides you with 5 options:
 

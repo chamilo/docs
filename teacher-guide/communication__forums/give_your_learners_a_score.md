@@ -4,7 +4,7 @@ If you choose to score/grade a topic/discussion thread, you will first need to a
 
 ![](../../.gitbook/assets/graphics14.png)
 
-_Illustration 72: Assigning a maximum score to a discussion thread_
+_Illustration: Assigning a maximum score to a discussion thread_
 
 To score a student's contribution to a thread:
 
@@ -15,5 +15,7 @@ To score a student's contribution to a thread:
 * enter the score you want to assign the learner: with the help of the list of contributions, choose a qualitative evaluation for these contributions. The statistical table allows a quantitative evaluation of the contributions,
 * Click the Grade _this thread_ button.
 
-![](../../.gitbook/assets/graphics6.png)_Illustration 73: Forum – Marking a thread_
+![](../../.gitbook/assets/graphics6.png)
+
+_Illustration: Forum – Marking a thread_
 

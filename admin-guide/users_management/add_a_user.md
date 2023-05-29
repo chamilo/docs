@@ -9,7 +9,9 @@ The administrator can add users by creating them out of an empty form. He will o
 
 There are, however, advanced options to which one should pay attention.
 
-![](../../.gitbook/assets/graficos79%20%286%29.png)Illustration 50: Administration - Users creation
+![](../../.gitbook/assets/graficos79%20%286%29.png)
+
+_Illustration: Administration - Users creation_
 
 The password can be automatically generated or can be assigned by the administrator. Depending on the needs of the situation, don't forget the option “Send an e-mail to the new user”.
 

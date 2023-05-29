@@ -4,5 +4,6 @@ Chamilo integrates a _Social network_ tool which allows you to create common int
 
 Through the configuration settings, you can also decide to let users create their own interest groups.
 
-![](../../.gitbook/assets/groupesajouter%20%283%29.png)Illustration 54: Administration – Social groups creation
+![](../../.gitbook/assets/groupesajouter%20%283%29.png)
 
+_Illustration: Administration – Social groups creation_

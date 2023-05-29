@@ -5,5 +5,7 @@
 * write down your note,
 * click _Create note_.
 
-![](../../.gitbook/assets/images236%20%283%29.png)Illustration 161: Notebook – Creation form
+![](../../.gitbook/assets/images236%20%283%29.png)
+
+_Illustration: Notebook – Creation form_
 

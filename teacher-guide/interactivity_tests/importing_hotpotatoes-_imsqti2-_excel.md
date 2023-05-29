@@ -6,9 +6,9 @@ To do so, the teacher need simply click on the relevant icon in the toolbar on t
 
 ![](../../.gitbook/assets/graphics132.png)
 
-_Illustration 63: Tests – import external tests from Tests page_
+_Illustration: Tests – import external tests from Tests page_
 
 ![](../../.gitbook/assets/graphics157.png)![](../../.gitbook/assets/graphics158.png)![](../../.gitbook/assets/graphics159.png)
 
-_Illustration 64: Tests - Import HotPotatoes, Qti2 and Excel tests_
+_Illustration: Tests - Import HotPotatoes, Qti2 and Excel tests_
 

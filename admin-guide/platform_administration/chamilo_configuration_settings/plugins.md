@@ -1,8 +1,10 @@
 # Plugins
 
-![](../../../.gitbook/assets/graficos19%20%286%29.png)This tab allows you to enable the plugins present in the _plugin/_ folder on the server.
+![](../../../.gitbook/assets/graficos19%20%286%29.png) This tab allows you to enable the plugins present in the _plugin/_ folder on the server.
 
-![](../../../.gitbook/assets/images22%20%287%29.png)Illustration 39: Administration – Plugins installation
+![](../../../.gitbook/assets/images22%20%287%29.png)
+
+_Illustration: Administration – Plugins installation_
 
 Since version 1.8.8.2 of Chamilo, the plugins systems has been improved and you can now create and enable plugins that will appear as new course tools. This is the case of a new plugin called _BigBlueButton_. This plugin, once enabled, will allow you to connect your Chamilo portal to a video-conference server. The installation of a video-conference server, however, is not included in Chamilo. You will have to install it by yourself or ask an official provider to do that for you.
 

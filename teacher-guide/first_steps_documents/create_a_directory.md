@@ -4,7 +4,7 @@ To achieve a clearer storage structure, Chamilo lets you create directories \(fo
 
 ![](../../.gitbook/assets/images32%20%282%29.png)
 
-_Illustration 30: Documents – creating directories_
+_Illustration: Documents – creating directories_
 
 To create a directory:
 

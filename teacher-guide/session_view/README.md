@@ -4,7 +4,7 @@ From Chamilo 1.8.8 platforms onwards, if your platform uses _Course sessions_ a 
 
 ![](../../.gitbook/assets/images262.png)
 
-_Illustration 195: My courses - Sessions_
+_Illustration: My courses - Sessions_
 
 One main difference from previous versions of Chamilo is that the session title is now a link which leads directly to a page whose appearance differs in many ways from the rest of Chamilo. \(This is a new format of presentation that we will be studying over the next few months, and we're counting on your help and feedback. Do let us know what you think on the Chamilo forum: [http://www.chamilo.org/](http://www.chamilo.org/)\)
 
@@ -12,7 +12,7 @@ This new concept relies essentially on a new way of setting up tests and learnin
 
 ![](../../.gitbook/assets/graphics370.png)
 
-_Illustration 196: Sessions – New session screen_
+_Illustration: Sessions – New session screen_
 
 Click on the relevant session icon ![](../../.gitbook/assets/graphics372.png) displayed in the _My courses_ page The main screen displays four tabs: _Courses, Learning paths, My MCQ \(Multiple Choice Questions\), and My statistics_
 

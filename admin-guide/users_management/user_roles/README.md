@@ -6,7 +6,9 @@ For the common administrator, it will seem there are only four roles in Chamilo:
 
 In order to guide you in the discovery of these roles, we will use the following schema as a reference, as it represents most of the roles and also the notion of sessions \(as we will see it in chapter Chapter 7. Sessions management on page 64\).
 
-![](../../../.gitbook/assets/graficos80%20%285%29.png)Illustration 46: Roles and sessions
+![](../../../.gitbook/assets/graficos80%20%285%29.png)
+
+_Illustration: Roles and sessions_
 
 In this schema, we can see the main administrator \(on top\), the sessions administrator \(on the right\), the session coach \(on top of the session block\), the courses coaches \(on top of the courses\), the teacher \(on the left of a course\), the students \(connected to the session\) and the human resources manager \(connected to the students\).
 

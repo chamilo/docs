@@ -6,11 +6,13 @@ The name, weighting and maximum score for the activity need to be entered, and t
 
 ![](../../.gitbook/assets/images138%20%281%29.png)
 
-_Illustration 105: Assessments – Classroom activity_
+_Illustration: Assessments – Classroom activity_
 
 You will only be able to add results for classroom activities for learners subscribed to your course. Scoring the Classroom activity is straightforward – click the relevant activity listed in the main _Assessments_ page and then the _edit_ icon ![](../../.gitbook/assets/graphics199.png) either next to the learner's listing or \(to score a list of learners\) in the toolbar:
 
-![](../../.gitbook/assets/images139%20%281%29.png)_Illustration 106: Assessments – Classroom activities – Filling in results_
+![](../../.gitbook/assets/images139%20%281%29.png)
+
+_Illustration: Assessments – Classroom activities – Filling in results_
 
 The scores will be added to the assessment data and included in each student's grade-book.
 

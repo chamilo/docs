@@ -6,13 +6,13 @@ Click the _Publish_ icon ![](../../.gitbook/assets/graphics293.png). Select the 
 
 ![](../../.gitbook/assets/images226.png)
 
-_Illustration 157: Surveys – Publication: select course members_
+_Illustration: Surveys – Publication: select course members_
 
 In addition/alternatively, send invitations using the same form directly by e-mail \(separate email addresses using semi-colons\). Invitations can be sent to people who are not registered users on the platform \(e.g. you may wish to send the invitation to potential customers, or to parents of learners\):
 
 ![](../../.gitbook/assets/graphics296.png)
 
-_Illustration 158: Surveys – Publication: email additional recipients_
+_Illustration: Surveys – Publication: email additional recipients_
 
 Once you have completed the fields, remember to click the _Publish survey_ button.
 

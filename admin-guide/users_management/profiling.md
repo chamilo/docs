@@ -11,7 +11,9 @@ Usually, you can create fields of which the user has no knowledge but which are 
 
 For users familiar with Drupal, this is equivalent to a mini CCK module for Chamilo.
 
-![](../../.gitbook/assets/profil%20%283%29.png)Illustration 56: Administration – User profile fields list
+![](../../.gitbook/assets/profil%20%283%29.png)
+
+_Illustration: Administration – User profile fields list_
 
 | Icons | Features |
 | :--- | :--- |

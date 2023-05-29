@@ -2,11 +2,15 @@
 
 The _Learning path_ section ![](../../.gitbook/assets/graphics327.png) can be used to enable the _auto-launch_ of learning paths and the style \(or graphical theme\) for the course.
 
-![](../../.gitbook/assets/images246.png)_Illustration 177: Course settings – Learning path settings_
+![](../../.gitbook/assets/images246.png)
+
+_Illustration: Course settings – Learning path settings_
 
 The auto-launch feature allows the teacher to select one specific learning path to auto-start when the user enters the course homepage. In order to use this feature, you'll need to enable the option in the course settings \(remembering to save the changes\) then go to the learning paths list and click on the rocket icon which represents the auto-launch of one of the learning paths:
 
-![](../../.gitbook/assets/images247.png)_Illustration 178: Learning paths - Auto-launch_
+![](../../.gitbook/assets/images247.png)
+
+_Illustration: Learning paths - Auto-launch_
 
 Only one learning path can be set as auto-launch at a time, and it will start as soon as the learner enters the course homepage. Other learning paths show a gray rocket icon. To test this option, you'll have to connect as a learner as it has been disabled for teachers for practical reasons.
 

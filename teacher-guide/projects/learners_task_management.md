@@ -4,5 +4,5 @@ By clicking the _Users rights management_ icon ![](../../.gitbook/assets/graphic
 
 ![](../../.gitbook/assets/graphics318.png)
 
-_Illustration 171: Projects – Users management_
+_Illustration: Projects – Users management_
 

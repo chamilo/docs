@@ -4,7 +4,7 @@ A link can be added in a category or at the root level:
 
 ![](../../.gitbook/assets/graphics220.png)
 
-_Illustration 123: Links - Add link_
+_Illustration: Links - Add link_
 
 To add a link:
 

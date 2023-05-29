@@ -4,7 +4,7 @@ Let's look first at how to subscribe new users as learners to the course. On the
 
 ![](../../.gitbook/assets/images129%20%281%29.png)
 
-_Illustration 100: Users – Action buttons_
+_Illustration: Users – Action buttons_
 
 To subscribe a single learner, just click the _Register_ link ![](../../.gitbook/assets/graphics174.png) to the right of their listing.
 

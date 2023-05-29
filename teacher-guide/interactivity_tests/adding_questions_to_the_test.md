@@ -2,7 +2,9 @@
 
 On creating a test, click _Proceed to questions_ you will be taken to the questions page:
 
-![](../../.gitbook/assets/images292.png)_Illustration 47: First view of the questions list_
+![](../../.gitbook/assets/images292.png)
+
+_Illustration: First view of the questions list_
 
 In addition to the toolbar the page displays an array of different types of question. \(The same page can be accessed at a later time using the edit icon for any given test listed in the _Tests_ page.\) It offers a range of question types from which to choose, which are described in this section. Each test can contain a combination of question types – this can prove handy for ensuring tests don't become monotonous.
 
@@ -32,7 +34,7 @@ Global multiple answer
 
 ![](../../.gitbook/assets/images50%20%282%29.png)
 
-_Illustration 48: Exercises – Question types_
+_Illustration: Exercises – Question types_
 
 Questions are created using an on-line form which differs according to the question type. The following subsections describe each form in detail. Completion of the forms is quite intuitive. The following general points regarding the completion of the on-line forms apply to all or most types of question:
 
@@ -51,7 +53,7 @@ Questions are created using an on-line form which differs according to the quest
 
 ![](../../.gitbook/assets/graphics154.png)
 
-_Illustration 49: Tests – Multiple choice, single answer_
+_Illustration: Tests – Multiple choice, single answer_
 
 ## Type 2 : Multiple choice – multiple answer <a id="type-2-multiple-choice-multiple-answer"></a>
 
@@ -59,7 +61,7 @@ _Illustration 49: Tests – Multiple choice, single answer_
 
 ![](../../.gitbook/assets/graphics140.png)
 
-Illustration 50: Tests – Multiple answer question
+_Illustration: Tests – Multiple answer question_
 
 ## Type 3 : Fill the blanks <a id="type-3-fill-the-blanks"></a>
 
@@ -67,7 +69,7 @@ Illustration 50: Tests – Multiple answer question
 
 ![](../../.gitbook/assets/graphics139.png)
 
-_Illustration 51: Tests - Fill the blanks_
+_Illustration: Tests - Fill the blanks_
 
 The question will appear like this to the learner, who simply needs to type the correct word in to the blank fields:
 
@@ -79,7 +81,7 @@ The question will appear like this to the learner, who simply needs to type the 
 
 ![](../../.gitbook/assets/graphics142.png)
 
-_Illustration 52: Tests – Matching text elements_
+_Illustration: Tests – Matching text elements_
 
 The learner will view the matching question like this:
 
@@ -93,7 +95,7 @@ or, from 1.9.6, a draggable circle will make it a little more appealing to stude
 
 ![](../../.gitbook/assets/images54%20%282%29.png)
 
-_Illustration 53: Tests - Open questions_
+_Illustration: Tests - Open questions_
 
 The learner will be presented with a text field in which to write. \(He can use the small arrow on the left of the top border of the field to make use of a range of fields if he wishes to enrich his presentation. e.g. with heading or highlighted text.\)
 
@@ -109,7 +111,7 @@ Because of the additional requirements for this question type, you should make s
 
 ![](../../.gitbook/assets/graphics145.png)
 
-_Illustration 54: Tests – Oral expression_
+_Illustration: Tests – Oral expression_
 
 The learner simply needs to press the _Record answer_ when he is ready to talk, and follow the instructions for the on-screen Nanogong recorder, which will automatically send his recording to the teacher for marking and scoring.
 
@@ -121,7 +123,9 @@ The learner simply needs to press the _Record answer_ when he is ready to talk, 
 
 ![](../../.gitbook/assets/hotspot.svg)In this type of question, the learner will be asked to identify areas within an image by clicking on them. These areas have been previously defined by the teacher. Building one of these questions require slightly more work than other types.
 
-![](../../.gitbook/assets/graphics147.png)_Illustration 55: Exercises - Hot spot question creation_
+![](../../.gitbook/assets/graphics147.png)
+
+_Illustration: Exercises - Hot spot question creation_
 
 Having uploaded your image and named your question, you can add or remove hotspots, and define the area using an ellipse, a rectangle or a polygon shape. As with other question types, you can add comments for feedback purposes and determine a score for each correctly identified area.
 
@@ -129,7 +133,7 @@ The learner needs to click on the picture to identify the areas listed – the n
 
 ![](../../.gitbook/assets/graphics148.png)
 
-_Illustration 56: Exercises - Hot spot learner view_
+_Illustration: Exercises - Hot spot learner view_
 
 ## Type 8 : Exact combination <a id="type-8-exact-combination"></a>
 
@@ -137,7 +141,7 @@ _Illustration 56: Exercises - Hot spot learner view_
 
 ![](../../.gitbook/assets/images55%20%282%29.png)
 
-_Illustration 57: Tests - Exact combination_
+_Illustration: Tests - Exact combination_
 
 ## Type 9 : Unique answer with unknown <a id="type-9-unique-answer-with-unknown"></a>
 
@@ -145,7 +149,7 @@ _Illustration 57: Tests - Exact combination_
 
 ![](../../.gitbook/assets/graphics150.png)
 
-_Illustration 58: Tests – unique answer with unknown_
+_Illustration: Tests – unique answer with unknown_
 
 ## Type 10 : Multiple answer True/False/Don't know <a id="type-10-multiple-answer-true-false-don-t-know"></a>
 
@@ -153,7 +157,7 @@ _Illustration 58: Tests – unique answer with unknown_
 
 ![](../../.gitbook/assets/graphics151.png)
 
-_Illustration 59: Tests – Multiple answer true/false/don't know_
+_Illustration: Tests – Multiple answer true/false/don't know_
 
 ## Type 11 : Combination True/false/don't know <a id="type-11-combination-true-false-don-t-know"></a>
 
@@ -161,7 +165,7 @@ _Illustration 59: Tests – Multiple answer true/false/don't know_
 
 ![](../../.gitbook/assets/graphics170.png)
 
-_Illustration 60: Tests – Combination true/false/don't know_
+_Illustration: Tests – Combination true/false/don't know_
 
 The learner will view the question\(s\) and use radio buttons like this:
 
@@ -175,5 +179,5 @@ The learner will view the question\(s\) and use radio buttons like this:
 
 ![](../../.gitbook/assets/graphics152.png)
 
-_Illustration 61: Tests – Global multiple answer_
+_Illustration: Tests – Global multiple answer_
 

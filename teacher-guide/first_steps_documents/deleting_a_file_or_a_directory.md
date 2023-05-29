@@ -4,7 +4,7 @@ To delete, update, hide or show a file or directory, use the options in the righ
 
 ![](../../.gitbook/assets/images45%20%282%29.png)
 
-_Illustration 39: Documents - Options_
+_Illustration: Documents - Options_
 
 As you will realize yourself, the icons vary depending on the document type. HTML documents offer more possibilities.
 

@@ -9,11 +9,11 @@ By simply entering a few characters of the user's first or last name, Chamilo wi
 
 ![](../../.gitbook/assets/images258.png)
 
-_Illustration 190: Social network – send and receive invitations_
+_Illustration: Social network – send and receive invitations_
 
 The _Friends_ link ![](../../.gitbook/assets/graphics342.png) gathers all friends you have linked to on the platform. It allows you to see the shared profile of the user and send him a message with a click on his name.
 
 ![](../../.gitbook/assets/images259.png)
 
-_Illustration 191: Social network – Shared profile_
+_Illustration: Social network – Shared profile_
 

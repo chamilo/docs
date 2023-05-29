@@ -4,7 +4,9 @@ Chamilo LMS is an e-learning system \(that is it manages learning\) developed in
 
 You can download and use Chamilo freely, given you accept its license \(GNU/GPLv3\) which gives you, in short, four essential freedoms, given your compromise to maintain those freedoms : the freedom to use, study, modify and distribute the software.
 
-![](../../.gitbook/assets/images268%20%286%29.png)Illustration 1: Right to use, study and modify, share and distribute the software
+![](../../.gitbook/assets/images268%20%286%29.png)
+
+_Illustration: Right to use, study and modify, share and distribute the software_
 
 Chamilo is not only developed collaboratively by dozens of people in the world at large ; it is also supported by a non-profit association with the objective of promoting the platform and ensure its continuity. In this sense, Chamilo LMS is the only free software e-learning platform that generates so many guarantees of open access.
 

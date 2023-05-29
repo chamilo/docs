@@ -8,5 +8,7 @@ On the course homepage, click on the _Learning path_ link: ![](../../.gitbook/as
 
 Using the learning path tool, you can either import an existing AICC or SCORM course, create a new learning path within Chamilo or edit an existing learning path:
 
-![](../../.gitbook/assets/graphics7.png)_Illustration 74: The learning path tool:_
+![](../../.gitbook/assets/graphics7.png)
+
+_Illustration: The learning path tool:_
 

@@ -12,7 +12,7 @@ To empty a course:
 
 ![](../../.gitbook/assets/images252.png)
 
-_Illustration 184: Maintenance – Empty course_
+_Illustration: Maintenance – Empty course_
 
 ## Delete the course area <a id="delete-the-course-area"></a>
 
@@ -22,5 +22,7 @@ Given the fact there's no way back from this, we highly recommend you consider t
 
 ![](../../.gitbook/assets/graphics336.gif) Warning: This feature should be used with extreme caution! ![](../../.gitbook/assets/graphics337.gif)
 
-![](../../.gitbook/assets/images253.png)_Illustration 185: Maintenance – Course deleting_
+![](../../.gitbook/assets/images253.png)
+
+_Illustration: Maintenance – Course deleting_
 

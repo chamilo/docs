@@ -4,7 +4,9 @@ Once Chamilo is installed, the success message also brings a short warning messa
 
 « **Security hint**: To protect your site, please change permissions on main/inc/conf/configuration.php and main/install/index.php \(not their directories\) to read-only \(CHMOD 444\). »
 
-![](../../../.gitbook/assets/dernier-parametre%20%283%29.png)Illustration 11: Installation – Installation report
+![](../../../.gitbook/assets/dernier-parametre%20%283%29.png)
+
+_Illustration: Installation – Installation report_
 
 It is preferable, in fact, to remove the _main/install/_ directory completely \(the confirmation text is not really accurate about this\):
 

@@ -7,5 +7,5 @@
 
 ![](../../.gitbook/assets/images211.png)
 
-_illustration 147: Dropbox - Comments_
+_illustration: Dropbox - Comments_
 

@@ -4,13 +4,15 @@ The _Assessments_ tool ![](../../.gitbook/assets/graphics181.png) is where you, 
 
 ![](../../.gitbook/assets/graphics190.png)
 
-_Illustration 101: Assessments – Example teacher view_
+_Illustration: Assessments – Example teacher view_
 
 It allows you to prepare an overview report compiling learners' achievements in the course overall, drawing on the results of activities undertaken in virtually every part of the online course, but also including “external” activities undertaken in your classroom, outside of the online course.
 
 The learner can use the assessments tool as a “grade-book” to monitor his own progress, and will see a simpler, personalized view when he clicks on the _A\_\_ssessments_ tool which will look something like this:
 
-![](../../.gitbook/assets/graphics192.png)_Illustration 102: Assessments – Example learner view_
+![](../../.gitbook/assets/graphics192.png)
+
+_Illustration: Assessments – Example learner view_
 
 _\(Note: Before looking further into the assessments tool, make sure you have at least one learner subscribed to your course. \(This is why we cleverly put the_ _Users_ _chapter before this one!\). In this chapter, it will be much easier to follow the examples if you already have learners subscribed and a series of activities created. Don't forget – until you choose to allow it, the user will not be able to see the course anyway, as long as is configured as closed.\)_
 

@@ -8,7 +8,7 @@ For security and procedural reasons, it is recommended that you create a backup 
 
 ![](../../.gitbook/assets/graphics333.png)
 
-_Illustration 182: Maintenance – Backup creation_
+_Illustration: Maintenance – Backup creation_
 
 The backup is made available in the form of a compressed file which you can download on your computer. It is also stored on the server for quick restoration if needed.
 

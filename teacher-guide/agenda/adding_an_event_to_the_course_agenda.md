@@ -4,9 +4,11 @@ Events can be added to the course _Agenda_ in two ways. The simplest and quickes
 
 ![](../../.gitbook/assets/graphics265%20%281%29.png)
 
-Illustration 142: Adding an event directly to the calendar
+Illustration: Adding an event directly to the calendar
 
 For a more fully configured event entry, however, click the _Add event_ icon ![](../../.gitbook/assets/graphics262%20%283%29.png) in the tool-bar. This will open a dialogue page allowing entry of a title and the selection of users, but also a richer description \(e.g. using graphics\), automatic repeat configuration \(daily, weekly, monthly, yearly\) and the option to add an attachment \(to accompany email announcements\).
 
-![](../../.gitbook/assets/graphics266%20%281%29.png)Illustration 143: Adding an event using the Add event tool
+![](../../.gitbook/assets/graphics266%20%281%29.png)
+
+Illustration: Adding an event using the Add event tool
 
