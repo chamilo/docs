@@ -1,13 +1,21 @@
 # Replace the older version by the new one
 
 Before applying a more recent version “on top of” your current Chamilo version, you might want to apply a few changes to the package “just in case”. For example, the following directories could be removed from the Chamilo package **before** you copy them over your current installation:
+Old structure
+* ~~home/~~
+* ~~courses/~~
+* ~~main/inc/conf/~~
+* ~~main/upload/users/~~
+* ~~main/searchdb/~~
 
-* home/
-* courses/
-* main/inc/conf/
-* main/upload/users/
-* main/searchdb/
+New Structure
+* app/home/
+* app/courses/
+* app/config/
+* app/upload/
+* main/search/
 
+  
 These directories are all supposed to be about the same in the new version, and might all have been altered by your use of Chamilo through the web interface, so to avoid any file clash, just remove them from the Chamilo package, then continue...
 
 There is only one recommended way to update your Chamilo version for now:
