@@ -149,7 +149,13 @@ Illustration : Installation - Rapport d'installation
 
 Il est possible de changer les droists d'accès au répertoire « app/config/ » en utilisant « chmod » :
 
-user@user:/var/www/chamilo$ sudo chmod -R 0555 app/config/
+    user@user:/var/www/chamilo$ sudo chmod -R 0555 app/config/
 
 Lorsque cette manipulation est faite, l'utilisation de Chamilo peut commencer en toute sécurité en cliquant sur « Aller directement sur votre nouveau portail » ou, par le navigateur, à l'adresse « localhost/chamilo » en local et « [http://www.mondomaine.com/chamilo](http://www.mondomaine.com/chamilo) » à distance.
 
+Pour une protection renforcée, vous pouvez également déplacer _configuration.php_ en dehors du répertoire racine de Chamilo et l'inclure depuis _app/config/configuration.php_ en y écrivant le contenu suivant (si vous avez déplacé le fichier 3 niveaux au-dessus):
+
+    <?php
+    require __DIR__.'/../../../configuration.php';
+
+En réalisant cette opération, vous éviterez (cas extrême) qu'un cracker mal intentionné accède trop facilement au fichier de configuration contenant les données d'accès à votre base de données. Il ne s'agit cependant pas d'une mesure absolue mais bien d'un incrément de sécurité.

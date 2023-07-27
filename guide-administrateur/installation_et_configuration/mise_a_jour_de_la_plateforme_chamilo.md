@@ -30,10 +30,10 @@ Une seule méthode permet de garantir une mise à jour sans faille :
 2. Copier simplement le nouveau dossier de Chamilo par-dessus l'ancien.
    * dans le cas de l’utilisation d’une distribution GNU/Linux, copier l'intégralité du nouveau dossier vers l'ancien, ex.:
 
-| user@user: sudo cp -r chamilo-1.11.0/\* /var/www/chamilo/ |
-| :--- |
+| user@user: sudo cp -r chamilo-1.11.22/\* /var/www/chamilo/ |
+|:-----------------------------------------------------------|
 
 
-1. Ensuite, reproduire les actions réalisées lors de l'installation _cf «**2.2.2**Derniers réglages d'installation de Chamilo\_\_»\_ en page 16.
+1. Ensuite, reproduire les actions réalisées à la fin de l'installation et documentées dans la section «Derniers réglages d'installation de Chamilo».
 2. Se connecter au site et vérifier que tout est en ordre.
 
