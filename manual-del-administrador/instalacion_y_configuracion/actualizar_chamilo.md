@@ -8,13 +8,13 @@ Como administrador, puede activar la notificación de nuevas versiones en la fic
 
 ![](../../.gitbook/assets/images114.png)
 
-_Ilustración 10: Administración - Bloque Chamilo_
+_Ilustración: Administración - Bloque Chamilo_
 
 Para activar esta funcionalidad, haga clic en el botón de Activar la verificación de versiones.
 
 ![](../../.gitbook/assets/images117.png)
 
-_Ilustración 11: Administración - Bloque Chamilo \(continuación\)_
+_Ilustración: Administración - Bloque Chamilo \(continuación\)_
 
 Siempre que una nueva versión sea publicada, su interfaz se lo comunicará. Tenga en cuenta que esta característica, también enviará algunos datos sobre su portal para que podamos usarlos con fines estadísticos: el e-mail público que ha hecho figurar en la administración de la plataforma, la dirección URL pública de la misma, así como el número de usuarios y cursos. De esta manera, podremos saber cuántas personas están usando Chamilo en todo el mundo.
 
