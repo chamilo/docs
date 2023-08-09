@@ -221,6 +221,7 @@
   * [Competencias y certificados](manual-del-administrador/funcionalidades_globales/competencias_certificados.md)
   * [Plugin xAPI](manual-del-administrador/funcionalidades_globales/xapi.md)
 * [Apéndice](manual-del-administrador/apendice/README.md)
+  * [Estándares soportados](manual-del-administrador/apendice/estandares.md) 
   * [Preguntas frecuentes](manual-del-administrador/apendice/preguntas_frecuentes.md)
   * [Licencia](manual-del-administrador/apendice/licencia.md)
   * [Historial del documento](manual-del-administrador/apendice/historial_del_documento.md)
