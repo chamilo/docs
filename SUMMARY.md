@@ -234,8 +234,4 @@
     * [Diccionario de datos](manual-del-desarrollador/estructura_de_archivos_de_chamilo_y_base_de_datos/estructura_de_base_de_datos_de_chamilo_lms_hoy_en_dia/diccionario_de_datos.md)
 * [Plugins](manual-del-desarrollador/plugins.md)
 * [Servicios web](manual-del-desarrollador/servicios_web/README.md)
-  * [SOAP, REST y XML-RPC](manual-del-desarrollador/servicios_web/soap-_rest_y_xml-rpc.md)
-  * [Conexión y llave de seguridad](manual-del-desarrollador/servicios_web/conexion_y_llave_de_seguridad.md)
-  * [Restricciones sobre la IP de llamada](manual-del-desarrollador/servicios_web/restricciones_sobre_la_ip_de_llamada.md)
-  * [Otros métodos](manual-del-desarrollador/servicios_web/otros_metodos.md)
 
