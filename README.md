@@ -1,25 +1,18 @@
 # Documentation for Chamilo LMS
 
-Documentation for the Chamilo LMS e-learning platform project.
-
-You can access the more readable version of this documentation on https://docs.chamilo.org (graciously sponsored by https://gitbook.com).
+Documentation for the Chamilo LMS e-learning platform project
 
 This repository is organized in branches by version, by language and by role:
 
-* For 2 versions:
-  * branch 2.x for English
-* For 1.11 versions:
-  * branch 1.11.x for English
-  * branch 1.11.x-es for Spanish
-  * branch 1.11.x-fr for French
-  * branch 1.11.x-de for German
-  * branch 1.11.x-nl for Dutch
-  * branch 1.11.x-pt_BR for Brazilian Portuguese
-  * branch 1.11.x-ga for Galician
-* For 1.10 versions:
-  * branch 1.10.x for English
-  * branch 1.10.x-fr for French
-  * branch 1.10.x-es for Spanish
-* For 1.9 versions:
-  * branch 1.9.x for English
-  * branch 1.9.x-es for Spanish
+* branch 1.9.x for all 1.9.x versions of Chamilo LMS
+  * en/ for English \(includes teacher, admin and developer docs\)
+  * fr/ for French \(inclut la doc pour profs, admins et développeurs\)
+  * es/ for Spanish \(incluye documentación para profes, admins y desarrolladores\)
+* branch 1.10.x for all 1.10.x versions
+  * en/ for English
+  * fr/ for French
+  * es/ for Spanish
+* branch 1.11.x for all 1.11.x versions \(still in the works\)
+  * en/ for English
+  * fr/ for French
+
