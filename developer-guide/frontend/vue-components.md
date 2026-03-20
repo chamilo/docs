@@ -40,10 +40,7 @@ Located in `components/layout/`:
 
 ## Icon System
 
-Icons use two libraries:
-
-* **MDI** (primary): `<i class="mdi mdi-pencil"></i>`
-* **PrimeIcons** (secondary, used in PrimeVue components): `icon="pi pi-check"`
+Icons use **Material Design Icons (MDI)** as the sole icon library: `<i class="mdi mdi-pencil"></i>`
 
 The `ChamiloIcons.js` file provides a semantic mapping:
 

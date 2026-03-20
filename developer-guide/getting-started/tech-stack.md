@@ -51,8 +51,7 @@
 
 | Library | Version | Usage |
 |---------|---------|-------|
-| @mdi/font | 7.4.47 | Material Design Icons (primary icon set, CSS classes `mdi mdi-*`) |
-| primeicons | 7.0.0 | PrimeVue component icons (CSS classes `pi pi-*`, used in some PrimeVue components) |
+| @mdi/font | 7.4.47 | Material Design Icons (CSS classes `mdi mdi-*`) |
 
 ## Database
 

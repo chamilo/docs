@@ -13,7 +13,6 @@ Chamilo's styles are organized as:
 
 `assets/css/app.scss` is the main entry point, which imports:
 
-* PrimeIcons CSS
 * Custom SCSS files
 * Component-specific styles
 
