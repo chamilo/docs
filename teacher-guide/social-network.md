@@ -34,6 +34,14 @@ The social network integrates with the platform's messaging system:
 * **Inbox** <img src="/.gitbook/assets/icons/mdi-inbox.svg" alt="Inbox" data-size="line"> — Read and reply to received messages
 * **Sent messages** <img src="/.gitbook/assets/icons/mdi-send-check.svg" alt="Sent" data-size="line"> — Review messages you have sent
 
+### Composing and Replying
+
+When composing a new message, you can address it to multiple recipients at once. Similarly, when replying to a message, you can include multiple users in your reply — useful for group coordination without a formal social group.
+
+### Message Tags
+
+You can assign tags to messages to categorize them. Tags make it easier to filter and locate specific messages later, particularly when your inbox grows over time. Assign a tag when composing or reading a message, then use the tag filter in your inbox to quickly surface related threads.
+
 ## Social Groups
 
 Social groups allow users to gather around common interests or projects:
