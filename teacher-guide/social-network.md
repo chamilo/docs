@@ -24,6 +24,8 @@ You can connect with other users on the platform:
 * **Send connection requests** — Invite other users to connect
 * **Manage connections** — Accept, decline, or remove connections
 
+> **Note:** Learners can only search for and add other learners as friends — they cannot send friend requests to teachers. As a teacher, however, you can search for learners and request to add them as friends.
+
 ## Messaging
 
 The social network integrates with the platform's messaging system:
