@@ -12,7 +12,7 @@ When a plugin registers itself as a course tool:
 
 ## Registering as a Course Tool
 
-In your plugin class, indicate that it provides a course tool:
+In your plugin class, set `$isCoursePlugin = true`. To automatically add a tool icon to the course homepage, also set `$addCourseTool = true`:
 
 ```php
 class MyToolPlugin extends Plugin
@@ -21,8 +21,45 @@ class MyToolPlugin extends Plugin
     {
         parent::__construct('1.0', 'Author');
         $this->isCoursePlugin = true;
+        $this->addCourseTool = true;
     }
 }
+```
+
+## Per-Course Settings
+
+Define course-level configuration fields via the `$course_settings` property:
+
+```php
+public array $course_settings = [
+    ['name' => 'my_plugin_enabled', 'type' => 'checkbox', 'default' => false],
+    ['name' => 'my_plugin_limit',   'type' => 'text',     'default' => '10'],
+];
+```
+
+These appear in the course settings panel and can be validated by overriding `validateCourseSetting(string $variable)` (return `false` to reject a value) or acted on via `course_settings_updated(array $values)`.
+
+## Installation and Uninstallation
+
+To register the plugin fields across all existing courses on install:
+
+```php
+public function install(): void
+{
+    $this->install_course_fields_in_all_courses(add_tool_link: true);
+}
+```
+
+To install into a single course (e.g., when a new course is created):
+
+```php
+$this->course_install(courseId: $courseId, addToolLink: true);
+```
+
+To remove fields from a specific course:
+
+```php
+$this->uninstall_course_fields(courseId: $courseId);
 ```
 
 ## Integration Points
