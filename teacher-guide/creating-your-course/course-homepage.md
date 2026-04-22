@@ -32,23 +32,24 @@ The tools available in your course may include:
 
 | Tool | Icon | Purpose |
 |------|------|---------|
-| Documents | <img src="/.gitbook/assets/icons/mdi-bookshelf.svg" alt="Documents" data-size="line"> | Upload and organize files and content |
-| Exercises | <img src="/.gitbook/assets/icons/mdi-order-bool-ascending-variant.svg" alt="Exercises" data-size="line"> | Create quizzes and tests |
-| Learning paths | <img src="/.gitbook/assets/icons/mdi-map-marker-path.svg" alt="Learning paths" data-size="line"> | Build structured learning sequences |
-| Announcements | <img src="/.gitbook/assets/icons/mdi-bullhorn.svg" alt="Announcements" data-size="line"> | Send messages to enrolled learners |
-| Forums | <img src="/.gitbook/assets/icons/mdi-comment-quote.svg" alt="Forums" data-size="line"> | Host discussions |
-| Glossary | <img src="/.gitbook/assets/icons/mdi-alphabetical.svg" alt="Glossary" data-size="line"> | Define key terms |
-| Gradebook | <img src="/.gitbook/assets/icons/mdi-certificate.svg" alt="Gradebook" data-size="line"> | Manage grades and certificates |
-| Assignments | <img src="/.gitbook/assets/icons/mdi-inbox-full.svg" alt="Assignments" data-size="line"> | Collect and grade student work |
-| Links | <img src="/.gitbook/assets/icons/mdi-link.svg" alt="Links" data-size="line"> | Share useful URLs |
 | Agenda | <img src="/.gitbook/assets/icons/mdi-calendar-text.svg" alt="Agenda" data-size="line"> | Schedule events and deadlines |
-| Chat | | Real-time messaging within the course |
+| Announcements | <img src="/.gitbook/assets/icons/mdi-bullhorn.svg" alt="Announcements" data-size="line"> | Send messages to enrolled learners |
+| Assignments | <img src="/.gitbook/assets/icons/mdi-inbox-full.svg" alt="Assignments" data-size="line"> | Collect and grade student work |
+| Documents | <img src="/.gitbook/assets/icons/mdi-bookshelf.svg" alt="Documents" data-size="line"> | Upload and organize files and content |
+| Tests | <img src="/.gitbook/assets/icons/mdi-order-bool-ascending-variant.svg" alt="Exercises" data-size="line"> | Create quizzes and tests |
+| Forum | <img src="/.gitbook/assets/icons/mdi-comment-quote.svg" alt="Forums" data-size="line"> | Host discussions |
+| Glossary | <img src="/.gitbook/assets/icons/mdi-alphabetical.svg" alt="Glossary" data-size="line"> | Define key terms |
+| Assessments | <img src="/.gitbook/assets/icons/mdi-certificate.svg" alt="Gradebook" data-size="line"> | Manage grades and certificates |
+| Learning paths | <img src="/.gitbook/assets/icons/mdi-map-marker-path.svg" alt="Learning paths" data-size="line"> | Build structured learning sequences |
+| Links | <img src="/.gitbook/assets/icons/mdi-link.svg" alt="Links" data-size="line"> | Share useful URLs |
+| Users | <img src="/.gitbook/assets/icons/mdi-account.svg" alt="Members" data-size="line"> | View and manage enrolled users |
 | Surveys | <img src="/.gitbook/assets/icons/mdi-form-dropdown.svg" alt="Surveys" data-size="line"> | Create and distribute surveys |
-| Members | <img src="/.gitbook/assets/icons/mdi-account.svg" alt="Members" data-size="line"> | View and manage enrolled users |
-| Tracking | <img src="/.gitbook/assets/icons/mdi-chart-box.svg" alt="Tracking" data-size="line"> | Monitor learner progress |
-| Settings | <img src="/.gitbook/assets/icons/mdi-cog.svg" alt="Settings" data-size="line"> | Configure course settings |
 
 > Some tools may not appear if your administrator has disabled them at the platform level or if you have hidden them.
+
+A notable change from Chamilo 1.* is that we don't split the tools in 3 different sections anymore. This gives full control to the teachers on what tools to show in what order.
+
+Also
 
 ## Organizing Tools
 
