@@ -7,7 +7,7 @@ This section explains how to create a new course in Chamilo and configure it for
 To create a course:
 
 1. Click **My courses** in the sidebar
-2. Click the **Create a course** button (or navigate directly to the course creation page)
+2. Click the **Create course** button (usually a green book <img src="/.gitbook/assets/icons/mdi-book-open-page-variant.svg" alt="Courses" data-size="line"> icon with a + sign)
 3. Fill in the course creation form:
 
 ![The course creation form with fields for name, category, code, and language](/.gitbook/assets/course-creation-form.png)
@@ -18,6 +18,8 @@ To create a course:
 | **Course category** | No | Select a category to help organize courses on the platform |
 | **Course code** | No | A short code using only letters and numbers (max 40 characters). If left blank, one is generated automatically from the course name |
 | **Language** | No | The primary language of the course. Defaults to your current language |
+
+If enabled, you might also find a **Default room** setting and the possibility to use a **Course template** to avoid creating your course entirely from scratch.
 
 4. Click **Create this course**
 
