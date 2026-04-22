@@ -29,11 +29,13 @@ You will be redirected to your new course's homepage. A confirmation message wil
 
 Once your course is created, you land on its homepage. This is the central hub for your course, where you and your learners access all tools and content.
 
+![The course homepage tool grid showing available course tools with icons and visibility toggles](/.gitbook/assets/course-homepage-tool-grid.png)
+
 The homepage displays:
 
-* **Course title** — The name of your course, shown at the top
-* **Course introduction** — An optional description or welcome message. Click **Edit introduction** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Edit" data-size="line"> to add or modify it. This supports rich text with images, links, and formatting.
-* **Tool grid** — A grid of all available course tools, each shown as a card with an icon and name
+* **Course title** — The name of your course, shown at the top.
+* **Course introduction** — An optional description or welcome message. Click the **+ Course introduction** button to add one, or the **Edit introduction** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Edit" data-size="line"> button at the top to modify it. This supports rich text with images, links, and formatting.
+* **Tool grid** — A grid of all available course tools, each shown as a card with an icon and name.
 
 ### Managing Tool Visibility
 
