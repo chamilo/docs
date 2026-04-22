@@ -49,7 +49,7 @@ The tools available in your course may include:
 
 A notable change from Chamilo 1.* is that we don't split the tools in 3 different sections anymore. This gives full control to the teachers on what tools to show in what order.
 
-Also
+Also, the **Tracking** and **Maintenance** tools have been moved to the top of the page under the stats and cog icons to remove tools that are never shown to the learners from the list.
 
 ## Organizing Tools
 
@@ -69,7 +69,7 @@ Also
 
 ## Auto-Launch Features
 
-Your administrator may configure certain tools to launch automatically when a learner enters the course. If enabled, a notification appears at the top of the course homepage indicating which auto-launch is active:
+You may configure certain tools to launch automatically when a learner enters the course. If enabled, a notification appears at the top of the course homepage indicating which auto-launch is active:
 
 * Document auto-launch — Opens a specific document automatically
 * Exercise auto-launch — Launches a test immediately
