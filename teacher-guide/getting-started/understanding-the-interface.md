@@ -60,4 +60,4 @@ Chamilo 2.0 adapts to different screen sizes. On a mobile device or narrow brows
 * Course cards display in a single column instead of a grid
 * Tables become scrollable horizontally
 
-This means you and your learners can access the platform from a phone, tablet, or computer.
+This means you and your learners can access the platform from a phone, tablet, or computer, but you might experience the interface slightly differently.
