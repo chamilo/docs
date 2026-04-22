@@ -35,7 +35,7 @@ The sidebar contains the following links (some may be hidden depending on your p
 
 ## The Main Content Area
 
-The central area of the screen displays the content of the current page. At the top, you will often see a **breadcrumb trail** showing your current location in the platform (for example: Home > My course > Documents). Use the breadcrumbs to navigate back to a parent page.
+The central area of the screen displays the content of the current page. At the top, you will often see a **breadcrumb trail** showing your current location in the platform (for example: Home > Rock music > Documents). Use the breadcrumbs to navigate back to a parent page.
 
 ## The Course Homepage
 
