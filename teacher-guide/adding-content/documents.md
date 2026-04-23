@@ -14,7 +14,11 @@ Open the **Documents** <img src="/.gitbook/assets/icons/mdi-bookshelf.svg" alt="
 2. Select one or more files from your computer (you can drag and drop files into the upload area)
 3. The files are uploaded and appear in the current folder
 
-Chamilo supports most common file types: PDF, Word documents (.docx), PowerPoint presentations (.pptx), Excel spreadsheets (.xlsx), images (PNG, JPG, SVG, GIF), audio files, video files, HTML files, and more.
+Chamilo supports most common file types: PDF, office documents (.docx, .odt), presentations (.pptx, .odp), spreadsheets (.xlsx, .ods), images (PNG, JPG, SVG, GIF, WEBM), audio files, video files, HTML files, and more.
+
+Some formats might be forbidden by the portal administrator through a whitelist/blacklist filtering setting in the security section of the administration.
+
+For better readability by learners, we do recommend uploading files a browser can view or open without additional tools. This makes your course more portable and, as such, more accessible to mobile devices and more readable for people with special abilities.
 
 ## Creating Content
 
@@ -22,9 +26,9 @@ In addition to uploading files, you can create content directly in Chamilo:
 
 ### Web Pages
 
-1. Click **Create a document**
+1. Click **New document**
 2. Use the rich-text editor to write your content with formatting, images, tables, and links
-3. Enter a **file name** for the page
+3. Enter a **title** for the page
 4. Save
 
 The rich-text editor (TinyMCE) provides word-processor-like features including:
@@ -36,19 +40,21 @@ The rich-text editor (TinyMCE) provides word-processor-like features including:
 * Links to other resources
 * HTML source editing for advanced users
 
+If image and/or video AI helpers are enabled on your portal, a robot icon appears in the editor. Select a paragraph and click the icon to prompt the AI for an image or video illustrating this paragraph.
+
 ### Drawing
 
 Chamilo includes a built-in drawing tool that lets you create simple diagrams and illustrations directly in the browser.
 
 ### Audio Recording
 
-If your browser supports it, you can record audio directly within the documents tool — useful for creating audio instructions or language learning content.
+If your browser supports it, you can record audio directly within the documents tool — useful for creating audio instructions or language learning content. This requires an HTTPS configuration for Chamilo, as audio recording uses technology that the browser only allows if the connection is secure.
 
 ## Organizing with Folders
 
 Keep your document library organized using folders:
 
-1. Click **Create a folder** <img src="/.gitbook/assets/icons/mdi-folder-plus.svg" alt="New folder" data-size="line">
+1. Click **New folder** <img src="/.gitbook/assets/icons/mdi-folder-plus.svg" alt="New folder" data-size="line">
 2. Enter a folder name
 3. Save
 
@@ -56,7 +62,7 @@ You can create nested folders to build a logical content hierarchy (e.g., `Modul
 
 ### Moving Files
 
-* Select one or more files using the checkboxes
+* Locate your file in the list
 * Click **Move** <img src="/.gitbook/assets/icons/mdi-folder-move.svg" alt="Move" data-size="line">
 * Select the destination folder
 * Confirm
@@ -74,28 +80,25 @@ For each file or folder, you can:
 | **Replace** | <img src="/.gitbook/assets/icons/mdi-file-replace.svg" alt="Replace" data-size="line"> | Replace the file with an updated version |
 | **Move** | <img src="/.gitbook/assets/icons/mdi-folder-move.svg" alt="Move" data-size="line"> | Move to a different folder |
 
+Replacing a file is an important feature when you use documents to build learning paths, as replacing the document will allow the document to be refreshed without learners loosing the progress saved for that document.
+
 ### Bulk Actions
 
-Select multiple files using checkboxes, then use the toolbar to delete, move, or change visibility for all selected items at once.
-
-## View Modes
-
-You can switch between two view modes:
-
-* **List view** — Files shown in a detailed list with names, sizes, and dates
-* **Grid view** — Files shown as thumbnail cards (useful for image-heavy folders)
+Select multiple files using checkboxes, then use the toolbar to delete or download all selected items at once.
 
 ## OnlyOffice Integration
 
-If your administrator has configured **OnlyOffice**, you can edit Word, Excel, and PowerPoint files directly in the browser without downloading them. Look for the **Edit with OnlyOffice** <img src="/.gitbook/assets/icons/mdi-file-document-edit-outline.svg" alt="OnlyOffice" data-size="line"> option when viewing a supported file.
+If your administrator has configured the **OnlyOffice** plugin, you can edit Word, Excel, and PowerPoint (or LibreOffice) files directly in the browser without downloading them. Look for the **Edit with OnlyOffice** <img src="/.gitbook/assets/icons/mdi-file-document-edit-outline.svg" alt="OnlyOffice" data-size="line"> option when viewing a supported file.
+
+Documents are stored in Chamilo, OnlyOffice is only used to **view** or edit the documents in the browser, without the need for any additional tool.
 
 ## Cloud Files
 
-If cloud storage is configured (Azure Blob, AWS S3, or Google Cloud), files are stored in the cloud. This is transparent to you and your learners — the document tool works the same way regardless of the storage backend.
+If you use cloud storage (Azure Blob, AWS S3, or Google Cloud) for your files, these are stored in the cloud but you can link them from here. This is transparent to you and your learners — the document tool works the same way regardless of the storage backend.
 
 ## Tips
 
-* **Organize early** — Create your folder structure before uploading content so you don't have to reorganize later
+* **Organize early** — Create your folder structure before uploading content so you don't have to reorganize later. If you have created other courses with the right structure, you can use those courses as template later on
 * **Use descriptive file names** — Help learners find what they need with clear, meaningful names
 * **Hide work-in-progress** — Use the visibility toggle to hide documents you are still preparing
 * **Link from learning paths** — Reference documents within your learning paths to create guided learning sequences
