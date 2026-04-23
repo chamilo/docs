@@ -55,6 +55,16 @@ As a teacher, you will see additional controls:
 * **Show all / Hide all** — Quickly change the visibility of all tools for students
 * **Sort** — Enable drag-and-drop to reorder the tools on the homepage
 
+## Icon colors
+
+This is still experimental and not entirely complete in Chamilo 2.0, but we're trying to use the following rules for all buttons and action icons in the interface:
+
+* **Green** for creation actions. This includes adding, creating, importing, grading, saving and copying content.
+* **Blue** for view actions. This includes exporting, viewing, pre-viewing in lists or in detail views, searching and downloading.
+* **Orange** for editing actions. This includes editing, moving, configuring, enabling/disabling, hiding and showing.
+* **Red** for deletion/removal actions. This includes deleting, removing, unsubscribing.
+* **Grey** for cancelling actions. Just leaving things in the status quo.
+
 ## Responsive Design
 
 Chamilo 2.0 adapts to different screen sizes. On a mobile device or narrow browser window:
