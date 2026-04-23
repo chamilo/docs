@@ -1,25 +1,22 @@
-# Documentation for Chamilo LMS
+# Chamilo 2.0 Documentation
 
-Documentation for the Chamilo LMS e-learning platform project.
+Welcome to the official documentation for **Chamilo 2.0**, the open-source e-learning platform.
 
-You can access the more readable version of this documentation on https://docs.chamilo.org (graciously sponsored by https://gitbook.com).
+This documentation is organized into three guides, each tailored to a specific audience:
 
-This repository is organized in branches by version, by language and by role:
+* [**Teacher Guide**](teacher-guide/) — For instructors and trainers: create courses, add content, assess learners, and track progress.
+* [**Administration Guide**](admin-guide/) — For platform administrators: install, configure, and manage the Chamilo platform.
+* [**Developer Guide**](developer-guide/) — For developers: understand the architecture, build plugins, use the API, and contribute to the project.
 
-* For 2 versions:
-  * branch 2.x for English
-* For 1.11 versions:
-  * branch 1.11.x for English
-  * branch 1.11.x-es for Spanish
-  * branch 1.11.x-fr for French
-  * branch 1.11.x-de for German
-  * branch 1.11.x-nl for Dutch
-  * branch 1.11.x-pt_BR for Brazilian Portuguese
-  * branch 1.11.x-ga for Galician
-* For 1.10 versions:
-  * branch 1.10.x for English
-  * branch 1.10.x-fr for French
-  * branch 1.10.x-es for Spanish
-* For 1.9 versions:
-  * branch 1.9.x for English
-  * branch 1.9.x-es for Spanish
+## What's New in Chamilo 2.0
+
+Chamilo 2.0 is a major release with a completely redesigned interface and many new features:
+
+* **Modern interface** — Built with Vue 3 and PrimeVue for a faster, more responsive experience
+* **AI-powered tools** — Generate exercises, learning paths, and get AI-assisted grading
+* **REST API** — Full API Platform-based REST API with JWT authentication
+* **New authentication options** — OAuth2 (Azure, Keycloak, Facebook), SCIM user provisioning
+* **LTI 1.3** — Connect external learning tools seamlessly
+* **Cloud storage** — Native support for Azure Blob, AWS S3, and Google Cloud Storage
+* **Color themes** — Customizable platform branding with theme support
+* **OnlyOffice integration** — Edit documents collaboratively within the platform
