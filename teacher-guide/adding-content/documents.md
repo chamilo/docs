@@ -1,6 +1,6 @@
 # Documents
 
-The documents tool is your course's file repository. You can upload files, create web pages, organize content into folders, and give learners access to all the materials they need.
+The documents tool is your course's file repository. You can upload files, create documents in HTML format, organize content into folders, and give learners access to all the materials they need.
 
 ## Accessing the Documents Tool
 
