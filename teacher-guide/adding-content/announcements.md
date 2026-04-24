@@ -2,19 +2,26 @@
 
 The announcements tool lets you send messages to all learners enrolled in your course, or to specific individuals or groups.
 
+Messages sent through announcements are sent to the learners both by e-mail *and* to their Chamilo inbox.
+
 ## Creating an Announcement
 
 1. Open the **Announcements** <img src="/.gitbook/assets/icons/mdi-bullhorn.svg" alt="Announcements" data-size="line"> tool from the course homepage
-2. Click **Add an announcement**
+2. Click the **Add an announcement** icon <img src="/.gitbook/assets/icons/mdi-bullhorn.svg" alt="Announcements" data-size="line"> again
 3. Fill in:
-   * **Title** — A subject line for the announcement
-   * **Content** — The message body (supports rich text with formatting, links, and images)
    * **Recipients** — Choose who receives the announcement:
      * All enrolled learners
      * Specific learners
      * Specific groups
-   * **Send by email** — Optionally send the announcement as an email in addition to posting it in the course
+   * **Subject** — A subject line for the announcement
+   * **Content** — The message body (supports rich text with formatting, links, and images)
+   * **Attachment** — An optional attachment sent along with the e-mail
+   * **Sending options** — Announcements will be sent by e-mail by default, but you can also choose (if you have the permissions) to send it through all sessions that include this course, to send a copy to yourself or to attach this announcement to a calendar event for the course.
 4. Save
+
+The **Tags** button lets you identify a series of markers that will be dynamically replaced in the announcement **Content**. These are relatively intuitive, so we'll let you guess what they do.
+
+The **Preview** button is not very intuitive: it allows you to see whom this announcement will be sent to. This acts as a confirmation of the selection of recipients you made above.
 
 ## Managing Announcements
 
