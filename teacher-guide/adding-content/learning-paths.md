@@ -2,6 +2,8 @@
 
 Learning paths let you create structured sequences of learning activities. A learning path guides your learners through a specific order of documents, exercises, links, and other resources, with optional prerequisites and progress tracking.
 
+This tool is arguably the most used course tool, because it acts as a composer for many other tools and can very much be the ***only*** tool facing learners.
+
 ## Why Use Learning Paths?
 
 Learning paths are useful when you want to:
@@ -40,6 +42,8 @@ Click **Add an item** and choose what to add:
 | **Link** | An external URL |
 | **Assignment** | A student publication from the Assignments tool |
 | **Forum** | A link to a course forum |
+| **Survey** | A link to a survey |
+| **Certificate** | A special page to trigger the generation of a completion certificate or the awarding of skills |
 
 ### Organizing Items
 
@@ -70,8 +74,8 @@ When a learner opens a learning path:
 
 Chamilo supports importing standardized e-learning packages:
 
-* **SCORM 1.2 and SCORM 2004** — The most widely used e-learning standard. Upload a SCORM ZIP file and Chamilo will create a learning path from it, tracking progress and scores according to the SCORM specification.
-* **AICC** — An older e-learning standard. Chamilo supports importing AICC packages.
+* **SCORM 1.2** — The most widely used e-learning standard. Upload a SCORM ZIP file and Chamilo will create a learning path from it, tracking progress and scores according to the SCORM specification.
+* **CMI5** — The learning path presentation layer of the xAPI standard.
 
 To import a SCORM or AICC package:
 
@@ -93,6 +97,12 @@ Configure how the learning path behaves:
 ## Linking to the Gradebook
 
 You can include learning path completion as a graded activity in the Gradebook. This allows learning path progress to contribute to the learner's overall course grade and certificate eligibility.
+
+## Using AI
+
+If the administrator has enabled AI-assisted learning path generation, you will find an AI generator option in the drop-down actions menu. Give the AI as precise a context as you want your learning path, ask for a number of pages and an approximate number of words per page, then tell it if you want to populate it with tests and launch. A few minutes later, you are looking down at a complete, text-based learning path.
+
+Edit the documents to generate illustrations with more AI and you only have some review to do before you can share it with your learners.
 
 ## Tips
 
