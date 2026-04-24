@@ -13,14 +13,14 @@ The glossary tool lets you define key terms for your course. Learners can browse
 
 * **Edit** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Edit" data-size="line"> — Update a term or its definition
 * **Delete** <img src="/.gitbook/assets/icons/mdi-delete.svg" alt="Delete" data-size="line"> — Remove a term from the glossary
-* **Search** — Use the search function to find specific terms quickly
+* **Search** <img src="/.gitbook/assets/icons/mdi-magnify.svg" alt="Search" data-size="line"> — Use the search function to find specific terms quickly
 
 ## Importing and Exporting
 
 You can build your glossary faster using import/export:
 
-* **Import** — Upload a list of terms and definitions from a file (CSV format)
-* **Export** — Download the glossary for use in another course or for offline reference
+* **Import** <img src="/.gitbook/assets/icons/mdi-database-import-outline.svg" alt="Import" data-size="line"> — Upload a list of terms and definitions from a file (CSV format)
+* **Export** <img src="/.gitbook/assets/icons/mdi-file-export.svg" alt="Export" data-size="line"> — Download the glossary for use in another course or for offline reference
 
 ## Display Options
 
