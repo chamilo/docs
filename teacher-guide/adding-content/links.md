@@ -12,6 +12,7 @@ The links tool lets you share useful URLs with your learners, organized by categ
    * **Description** — An optional explanation of what the resource is about
    * **Category** — Assign the link to a category for organization
    * **Target** — Whether the link opens in the same window or a new tab
+   * **Show link on course homepage** — Whether you want to show it as a tool icon on the course homepage
 4. Save
 
 ## Organizing with Categories
@@ -26,14 +27,14 @@ Links within a category are displayed together, making it easy for learners to f
 
 ## Managing Links
 
-* **Edit** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Edit" data-size="line"> — Update a link's URL, title, or description
-* **Delete** <img src="/.gitbook/assets/icons/mdi-delete.svg" alt="Delete" data-size="line"> — Remove a link
-* **Visibility** <img src="/.gitbook/assets/icons/mdi-eye.svg" alt="Visibility" data-size="line"> — Hide or show links to learners
-* **Link checking** — Chamilo can verify whether links are still active or broken
+* **Link checking** <img src="/.gitbook/assets/icons/mdi-check-circle.svg" alt="Validity" data-size="line">  — Chamilo can verify whether links are still active or broken
+* **Edit** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Edit" data-size="line"> — Update the link's URL, title, or description
+* **Visibility** <img src="/.gitbook/assets/icons/mdi-eye.svg" alt="Visibility" data-size="line"> — Hide or show the link to learners
+* **Delete** <img src="/.gitbook/assets/icons/mdi-delete.svg" alt="Delete" data-size="line"> — Remove the link
 
-## Importing and Exporting Links
+## Exporting Links
 
-You can import links from a file or export your link collection for use in another course. Look for the **Import** and **Export** options in the links tool.
+You can export your link collection to PDF. Look for the **Export** option in the links tool.
 
 ## Tips
 
