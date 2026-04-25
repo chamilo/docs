@@ -111,7 +111,6 @@ Chamilo offers a rich set of question types organized into several categories:
 
 * **Hotspot** — Learner clicks on specific areas of an image to answer
 * **Hotspot delineation** — Learner draws boundaries around areas on an image
-* **Hotspot order** — Learner clicks on image areas in the correct sequence
 
 ### Calculated
 
