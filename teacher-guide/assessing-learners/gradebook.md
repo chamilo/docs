@@ -1,34 +1,41 @@
-# Gradebook
+# Assessments
 
-The gradebook aggregates scores from exercises, assignments, and other graded activities into a unified view of each learner's performance. It also controls certificate generation.
+The assessments (previously *gradebook*) aggregates scores from exercises, assignments, and other graded activities into a unified view of each learner's performance. It also controls certificate generation.
 
-## How the Gradebook Works
+## How the Assessments Work
 
-The gradebook is a weighted scoring system. You define:
+The assessments are weighted scoring systems. You define:
 
 1. **Which activities** contribute to the grade (exercises, assignments, attendance, etc.)
 2. **The weight** of each activity (how much it counts toward the final grade)
 3. **The minimum certification score** (the threshold for earning a certificate)
+4. **Exclusion grades** for each activity, that will prevent achieving the objectives and the awarding of a certificate
+
+Activities can be of 2 types:
+* **Classroom activity** (or in-person activity), where grades have to be imported from some other source
+* **Online activity** selected from the course, where grades are obtained through the fulfilling of the activity in the course
 
 Chamilo calculates each learner's overall grade based on these weights.
 
-## Setting Up the Gradebook
+## Setting Up the Assessment
 
-1. Open the **Gradebook** <img src="/.gitbook/assets/icons/mdi-certificate.svg" alt="Gradebook" data-size="line"> tool from the course homepage
-2. You will see the gradebook overview, initially empty
+1. Open the **Assessments** <img src="/.gitbook/assets/icons/mdi-certificate.svg" alt="Gradebook" data-size="line"> tool from the course homepage
+2. You will see the assessments overview, initially empty
 
 ### Adding Activities
 
-1. Click **Add an activity to the gradebook**
+1. Click **Add online activity**
 2. Choose the type:
-   * **Exercise** — Link a specific exercise from the course
+   * **Test** — Link a specific exercise from the course
    * **Assignment** — Link a student publication folder
-   * **Attendance** — Link an attendance sheet
    * **Learning path** — Link learning path completion
-   * **Link** — Add a manually-graded item
-3. Set the **weight** for this activity (e.g., 30% for the midterm exam, 40% for the final project)
-4. Set the **maximum score** if applicable
-5. Save
+   * **Attendance** — Link an attendance sheet
+   * **Forum thread** — Link a forum thread (which has to be graded manually)
+   * **Survey** — Link a survey
+3. Select the specific activity within the chosen type
+4. Set the **Weight** for this activity (e.g., 30% for the midterm exam, 40% for the final project)
+5. Set the **Minimum score** if applicable
+6. Save
 
 The total weight of all activities should add up to 100%.
 
@@ -37,13 +44,13 @@ The total weight of all activities should add up to 100%.
 For complex grading schemes, you can create **sub-categories** to group related activities:
 
 * **Example**: A "Homework" sub-category (weight: 30%) containing five individual assignments each worth 20% of the sub-category
-* Sub-categories let you organize the gradebook hierarchically while keeping the overall calculation simple
+* Sub-categories let you organize the assessment hierarchically while keeping the overall calculation simple
 
 ## Viewing Grades
 
 ![The gradebook overview table showing learner names, activity scores, and weighted totals](/.gitbook/assets/gradebook-overview.png)
 
-The gradebook shows a table with:
+The assessment shows a table with:
 
 * Each learner's name
 * Scores for each activity
@@ -56,15 +63,15 @@ You can sort by any column to quickly identify top performers or struggling lear
 
 To enable certificate generation:
 
-1. In the gradebook settings, set a **minimum certification score** (e.g., 70%)
-2. When a learner's weighted total meets or exceeds this threshold, they can download their certificate
+1. In the assessment settings, set a **minimum certification score** (e.g., 70%)
+2. When a learner's weighted total meets or exceeds this threshold and there are no excluded grades, they can download their certificate
 3. The certificate is generated from a template configured by the platform administrator
 
 See [Certificates and Skills](../tracking-and-reporting/certificates-and-skills.md) for more details.
 
 ## Linking to Skills
 
-You can associate **skills** with the gradebook. When a learner earns a certificate, the linked skills are automatically validated on their profile. This builds a competency record over time.
+You can associate **skills** with the assessment. When a learner reaches the set objectives to complete the assessment, they can either get a certificate, get a skill or both. Skills are visible on their profile in the social network space. This builds a competency record over time.
 
 ## Exporting Grades
 
