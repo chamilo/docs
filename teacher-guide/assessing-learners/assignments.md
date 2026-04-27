@@ -7,18 +7,33 @@ The assignments tool (also called "student publications") lets you collect work 
 1. Open the **Assignments** <img src="/.gitbook/assets/icons/mdi-inbox-full.svg" alt="Assignments" data-size="line"> tool from the course homepage
 2. Click **Create an assignment**
 3. Fill in the details:
-   * **Title** — The name of the assignment (e.g., "Final Project Report")
+   * **Assignment name** — The name of the assignment (e.g., "Final Project Report")
    * **Description** — Instructions for learners, including what to submit and how it will be evaluated (supports rich text)
-   * **Deadline** — The date and time after which submissions are no longer accepted (or are marked as late)
-   * **Allowed file types** — Restrict which file formats learners can upload
-   * **Maximum file size** — Limit the size of uploaded files
+   * **Maximum score** — On what total will the assignment be graded
+   * **Add to gradebook** — Add as an evaluated item in the assessment (gradebook) tool, so it can be part of reaching the course's goals
+   * **Deadline** — The official (published) date and time after which submissions are no longer accepted (they are, but marked as late)
+   * **Final acceptance date**  — The read date and time after which submissions are no longer accepted (no upload possible)
+   * **Add to calendar** — Create an event to reference this assignment submission date
+   * **Submission type** — Whether to allow text answers, files or either
+   * **Require specific file format** — Restrict which file formats (by file extension) learners can upload
 4. Save
+
+Once you have created an assignment, you can also:
+* Upload template documents from inside the assignment detail page
+* Assign the assignment to specific users (rather than all users of the course)
+
+And once learners have submitted their assignments, you can:
+* Export a PDF list of submissions
+* Show a list of only the learners who have not submitted their assignment
+* Download all assignments in a big ZIP
+* Upload all corrections in a big ZIP
+* Delete all corrections you submitted (this doesn't delete the learners' submissions)
 
 ## How Learners Submit
 
 Learners open the assignment and:
 
-1. Click **Upload my work** or the submission button
+1. Click **Upload file** or the submission button
 2. Select a file from their computer (or write text directly, depending on configuration)
 3. Add an optional comment
 4. Submit
@@ -54,14 +69,22 @@ If AI tools are configured on your platform, you may see an **AI grading** optio
 
 ## Managing Submissions
 
-* **Move submissions** — Transfer a submission between assignment folders
-* **Download all** — Download all submissions as a single ZIP file for offline review
-* **Visibility** — Control whether learners can see each other's submissions
+Group actions:
+* **Download assignments package** — Download all submissions as a single ZIP file for offline review
+* **Upload corrections package** — If you downloaded all submissions in a single ZIP file, edited the files in place on your computer and zipped them again, you can send the zip as a package of corrections. Do not change filenames or it will not work.
 * **Late submissions** — Submissions after the deadline are flagged but may still be accepted depending on your settings
+
+Individual submission actions:
+* **Upload correction** — Upload a correction for one learner 
+* **Download** — Download the submission of one learner
+* **Correct and grade** — Add a correction and a grade to the learner's submission 
+* **Edit** — Edit the document title or the previous feedback on the submission
+* **Move** — Transfer a submission between assignment folders (e.g. if the student submitted in the wrong assignment)
+* **Visibility** — Control whether learners can see each other's submissions
 
 ## Linking to the Gradebook
 
-Assignment scores can be included in the course gradebook. This allows assignment grades to contribute to the learner's overall course grade and certificate eligibility. See [Gradebook](gradebook.md) for details.
+Assignment scores can be included in the course gradebook ("Assessments" tool). This allows assignment grades to contribute to the learner's overall course grade and certificate eligibility. See [Gradebook](gradebook.md) for details.
 
 ## Tips
 
