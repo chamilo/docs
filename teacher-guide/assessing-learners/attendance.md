@@ -52,6 +52,13 @@ The attendance tool shows:
 * Each learner's attendance percentage (present sessions / total sessions)
 * Color-coded indicators for easy scanning
 
+## Extra
+
+Attendances have a few extended features that are not visible straight away:
+* **Signatures** can be enabled so that learners can sign their attendance in-class through a tablet handled by the teacher
+* **Comments** can be added by the teacher on each student attendance
+* **PDF reports** can be extracted to comply with regulation
+
 ## Tips
 
 * **Link to course progress** — Use attendance data alongside the Course Progress tool to correlate presence with topic coverage
