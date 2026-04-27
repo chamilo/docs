@@ -21,31 +21,38 @@ Forums in Chamilo are organized in three levels:
 
 ## Creating a Forum
 
+You can only add a forum once at least one category exists.
+
 1. Within a category, click **Add a forum**
-2. Fill in the forum details:
-   * **Forum name** — The title of this discussion board
+2. Fill in the basic details:
+   * **Title** — The name of this discussion board
    * **Description** — An optional description of the forum's purpose
-   * **Category** — The category this forum belongs to
-3. Configure forum options:
-   * **Allow anonymous posts** — Let users post without showing their name
-   * **Allow attachments** — Let users attach files to their posts
-   * **Moderation** — Require posts to be approved before they become visible
-   * **Notifications** — Configure email notifications for new posts
+   * **Create in category** — The category this forum belongs to
+3. Open **Advanced settings** to configure:
+   * **Publication date** / **Closing date** — Optional time window during which the forum is open
+   * **Moderated forum** — Require new posts to be approved by a teacher before they become visible
+   * **Can learners edit their own posts?** — Allow or prevent learners from editing posts after submitting
+   * **Allow users to start new threads** — When set to No, learners can only reply to existing threads
+   * **Default view type** — Choose how posts are displayed: **Flat**, **Threaded**, or **Nested**
+   * **For Group** — Attach this forum to a course group
+   * **Public access / Private access** — For group forums, decide whether any course member can read it or only group members
 4. Save
+
+If the course visibility is set to "Open to the world", the form also shows an **Allow anonymous posts?** option. This option is hidden in courses with restricted visibility.
 
 ## Managing Topics
 
 Learners (and you) can create new topics within a forum. As a teacher, you can:
 
-* **Pin a topic** — Keep important topics at the top of the list
+* **Pin a topic (sticky message)** — Mark a thread as sticky when you create or edit it so it always appears at the top
 * **Lock a topic** — Prevent further replies
 * **Edit or delete posts** — Moderate the discussion
 * **Move a topic** — Transfer a topic to a different forum
 
 ## Forum Scoring
 
-You can assign scores to forum participation. This is useful for grading discussion activities. When enabled, you can rate individual posts and the scores can feed into the gradebook.
+When creating a new thread as a teacher, you can enable **Grade this thread** under Advanced settings. You then set a maximum score, a column header for the gradebook, and a weight in the report. You can also enable **Thread scored by peers**, which requires each learner to qualify at least two other learners before their own score counts.
 
 ## Notifications
 
-You and your learners can subscribe to forums or individual topics to receive email notifications when new posts are added. This helps keep discussions active without requiring constant manual checking.
+Each forum and thread has a **Notify me** toggle that you and your learners can use to subscribe to email notifications about new posts. Notifications are a per-user subscription and are not configured when creating the forum.
