@@ -1,66 +1,82 @@
-# Language Settings
+# Languages Settings
 
-Language settings control which languages are available on the platform and how language selection works. Access them from **Administration > Configuration settings > Languages**.
+Available languages, default language, and how Chamilo resolves which language to display.
 
-## Platform Default Language
+Access these settings under **Administration > Configuration settings > Languages**. This category contains **12 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
 
-The **default language** is used for:
+> The variable name in code is shown in `monospace`. Use it when scripting via the API or referring to settings in `.env` overrides.
 
-* The login page and public-facing pages
-* New user accounts (unless the user selects a different language at registration)
-* System emails when no user-specific language is set
-* Fallback when a translation is missing in a user's selected language
+## Settings
 
-Set this to the language most of your users speak.
+### `allow_course_multiple_languages`
 
-## Available Languages
+**Multiple-language courses**
 
-Chamilo ships with translations for dozens of languages. You can enable or disable each language individually.
+Enable courses managed in more than one language. This option adds a language selector within the course page to let users switch easily, and adds a 'multiple_language' extra field to courses which allows for remote management procedures.
 
-To manage available languages, go to **Administration > Languages**. Each language can be:
+### `allow_use_sub_language`
 
-| State | Effect |
-|-------|--------|
-| **Enabled** | Users can select this language from the language selector. |
-| **Disabled** | The language is hidden from the selector. Existing users who had this language selected will fall back to the platform default. |
+**Allow definition and use of sub-languages**
 
-Only enable languages that your organization actually supports. Disabling unused languages reduces clutter in the language selector.
+By enabling this option, you will be able to define variations for each of the language terms used in the platform's interface, in the form of a new language based on and extending an existing language. You'll find this option in the languages section of the administration panel.
 
-## Sub-Languages
+### `auto_detect_language_custom_pages`
 
-Sub-languages let you customize translations without modifying the original language files. A sub-language inherits all translations from its parent and allows you to override specific strings.
+**Enable language auto-detect in custom pages**
 
-Common use cases:
+If you use custom pages, enable this if you want to have a language detector there present the page in the user's browser language, or disable to force the language to be the default platform language.
 
-* **Terminology customization** -- Replace "Course" with "Program" or "Student" with "Participant" to match your organization's vocabulary.
-* **Regional variants** -- Create a sub-language for a specific region (e.g., Latin American Spanish based on standard Spanish).
-* **Branding** -- Adjust interface text to match your organizational tone.
+### `language_flags_by_country`
 
-To create a sub-language:
+**Language flags**
 
-1. Go to **Administration > Languages**.
-2. Click **Create sub-language**.
-3. Select the parent language.
-4. Give the sub-language a name and ISO code.
-5. After creation, click the sub-language to edit individual translation strings.
+Use country flags for languages. This is not enabled by default because some languages are not strictly attached to a country, which can lead to frustration for some users.
 
-Sub-languages appear in the language selector alongside regular languages if enabled.
+### `language_priority_1`
 
-## Language Priority
+**Highest priority language**
 
-Chamilo's language resolution is configured through four ordered settings (`language_priority_1` through `language_priority_4`), each of which can be set to one of: `course_lang`, `user_profil_lang`, `user_selected_lang`, or `platform_lang`. Out of the box the defaults resolve in this order:
+Primary language selected when multiple language contexts are set.
 
-1. **Course language** (`course_lang`) — the language declared on the course
-2. **User profile language** (`user_profil_lang`) — the language stored on the user account
-3. **User selected language** (`user_selected_lang`) — the language the user has switched to in the current session
-4. **Platform default language** (`platform_lang`) — the platform-wide fallback
+### `language_priority_2`
 
-You can change these priorities to fit your portal — for example, swap them so that a user's profile language wins over the course's language.
+**Secondary priority language**
 
-For any given translation string, if the translation is missing in the chosen language, Chamilo falls back to English.
+Secondary fallback language if first priority is unavailable or out of context.
 
-## Tips
+### `language_priority_3`
 
-* **Disable languages you do not support** -- A long language list confuses users and may lead them to select a poorly translated language.
-* **Use sub-languages for terminology** -- Instead of editing translation files directly (which get overwritten on upgrades), create a sub-language to customize terms.
-* **Set course languages** when running a multilingual platform so that course navigation matches the language the course is taught in.
+**Third priority language**
+
+Tertiary language fallback if higher priorities fail.
+
+### `language_priority_4`
+
+**Fourth priority language**
+
+Last language fallback option by order of priority.
+
+### `platform_language`
+
+**Default platform language**
+
+Main language, used by default when no user language is set.
+
+### `show_different_course_language`
+
+**Show course languages**
+
+Show the language each course is in, next to the course title, on the homepage courses list
+
+### `show_language_selector_in_menu`
+
+**Language switcher in main menu**
+
+Display a language selector in the main menu that immediately updates the language preference of the user. This can be useful in multilingual portals where learners have to switch from one language to another for their learning.
+
+### `template_activate_language_filter`
+
+**Multiple-language document templates**
+
+Enable document templates (at the platform or course level) to be configured for specific languages.
+

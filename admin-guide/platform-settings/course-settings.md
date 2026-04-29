@@ -1,73 +1,280 @@
 # Course Settings
 
-Course settings define defaults and policies for how courses behave across the platform. Access them from **Administration > Configuration settings > Course**.
+Defaults and policies that apply to courses across the platform — visibility, creation rights, allowed tools, learner permissions, and similar.
 
-## Default Course Visibility
+Access these settings under **Administration > Configuration settings > Course**. This category contains **45 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
 
-When a new course is created, its visibility is set to the platform default. The creator can change it afterward.
+> The variable name in code is shown in `monospace`. Use it when scripting via the API or referring to settings in `.env` overrides.
 
-| Visibility | Description |
-|------------|-------------|
-| **Public** | Anyone, including anonymous visitors, can access the course without enrolling. |
-| **Open** | Any registered user can access the course without enrolling. |
-| **Private — access granted by privileged users** | Only enrolled users can access the course. This is the most common default. |
-| **Closed** | Only the course teacher and administrators can access it. Useful for courses under construction. |
+## Settings
 
-Set the default visibility under the **Default course visibility** option. Individual course creators can override this when creating or editing a course.
+### `active_tools_on_create`
 
-## Course Creation Permissions
+**Active tools on course creation**
 
-| Setting | Description |
-|---------|-------------|
-| **Allow non administrators (teachers) to create new courses** (`allow_users_to_create_courses`) | When enabled, non-admin users with the appropriate role (typically teachers) can create courses directly. When disabled, only administrators can create courses. |
-| **Course creation requires validation** | When enabled, newly created courses must be approved by an administrator before they become active (see Course Validation below). |
+Select the tools that will be *active* after the creation of a course.
 
-## Course Catalog
+### `allow_base_course_category`
 
-The course catalog allows users to browse and self-enroll in available courses.
+**Use course categories from top URL**
 
-| Setting | Description |
-|---------|-------------|
-| **Enable course catalog** | Show or hide the course catalog in the platform navigation. |
-| **Catalog layout** | Controls how courses are displayed in the catalog (grid or list). |
-| **Show courses by category** | Organizes the catalog by course categories instead of a flat list. |
-| **Allow self-enrollment** | When enabled, users can enroll themselves in courses directly from the catalog. When disabled, enrollment is managed by administrators or teachers. |
-| **Enrollment password** | Course creators can set a password that users must enter to self-enroll, providing lightweight access control. |
+In multi-URL settings, allow admins and teachers to assign categories from the top URL to courses in the children URLs.
 
-## Course Validation
+### `allow_course_theme`
 
-When course validation is enabled, new courses go through an approval workflow:
+**Allow course themes**
 
-1. A teacher creates a course. The course is marked as "pending."
-2. An administrator reviews pending courses in **Administration > Course validation requests**.
-3. The administrator approves or rejects the request.
-4. If approved, the course becomes active and visible according to its settings.
+Allows course graphical themes and makes it possible to change the style sheet used by a course to any of the possible style sheets available to Chamilo. When a user enters the course, the style sheet of the course will have priority over the user's own style sheet and the platform's default style sheet.
 
-This is useful for organizations that want to maintain editorial control over the course catalog.
+### `allow_public_course_with_no_terms_conditions`
 
-## Default Tools Enabled
+**Access public courses with terms and conditions**
 
-Each new course is created with a set of tools enabled by default. Administrators can control which tools are active in new courses.
+With this option enabled, if a course has public visibility and terms and conditions, those terms are disabled while the course is public.
 
-| Tool | Description |
-|------|-------------|
-| **Documents** | File repository for course materials. |
-| **Exercises** | Quizzes and tests. |
-| **Learning paths** | Structured, sequential learning content (supports SCORM). |
-| **Announcements** | Course-level announcements. |
-| **Forums** | Discussion boards. |
-| **Assignments** | Student work submission and grading. |
-| **Agenda** | Course calendar. |
-| **Chat** | Real-time messaging within the course. |
-| **Wiki** | Collaborative pages. |
-| **Glossary** | Term definitions. |
-| **Surveys** | Questionnaires and feedback forms. |
-| **Attendance** | Attendance tracking sheets. |
+### `block_registered_users_access_to_open_course_contents`
 
-Teachers can enable or disable individual tools within their own courses regardless of the platform default.
+**Block public courses access to authenticated users**
 
-## Tips
+Only show public courses. Do not allow registered users to access courses with 'open' visibility unless they are subscribed to each of these courses.
 
-* **Use "Private" as the default visibility** for most platforms — it ensures students must enroll before accessing content.
-* **Enable course validation** if you have many teachers creating courses and want to maintain quality control.
-* **Disable non-admin course creation** unless you specifically want a peer-teaching or community-driven platform.
+### `breadcrumbs_course_homepage`
+
+**Course homepage breadcrumb**
+
+The breadcrumb is the horizontal links navigation system usually in the top left of your page. This option selects what you want to appear in the breadcrumb on courses' homepages
+
+### `course_about_teacher_name_hide`
+
+**Hide course teacher info on course details page**
+
+On the course details page, hide the teacher information.
+
+### `course_category_code_to_use_as_model`
+
+**Restrict course templates to one course category**
+
+Give a category code to use as course templates. Only those courses will show in the drop-down at course creation time, and users won’t see the courses in this category from the courses catalogue.
+
+### `course_configuration_tool_extra_fields_to_show_and_edit`
+
+**Extra fields to show in course settings**
+
+The fields defined in this array will appear on the course settings page.
+
+### `course_creation_by_teacher_extra_fields_to_show`
+
+**Extra fields to show on course creation form**
+
+The fields defined in this array will appear as additional fields in the course creation form.
+
+### `course_creation_donate_link`
+
+**Donation link on course creation page**
+
+The page the donation message should link to (full URL).
+
+### `course_creation_donate_message_show`
+
+**Show donate message on course creation page**
+
+Add a message box in the course creation page for teachers, asking them to donate to the project.
+
+### `course_creation_form_hide_course_code`
+
+**Remove course code field from course creation form**
+
+If not provided, the course code is generated by default based on the course title, so enable this option to remove the code field from the course creation form altogether.
+
+### `course_creation_form_set_course_category_mandatory`
+
+**Set course category mandatory**
+
+When creating a course, make the course category a required setting.
+
+### `course_creation_form_set_extra_fields_mandatory`
+
+**Extra fields to require on course creation form**
+
+The fields defined in this array will be mandatory in the course creation form.
+
+### `course_creation_splash_screen`
+
+**Splash screen for courses**
+
+Show a splash screen when creating a new course.
+
+### `course_creation_use_template`
+
+**Use template course for new courses**
+
+Set this to use the same template course (identified by its course numeric ID in the database) for all new courses that will be created on the platform. Please note that, if not properly planned, this setting might have a massive impact on space usage. The template course will be used as if the teacher did a copy of the course with the course backup tools, so no user content is copied, only teacher material. All other course-backup rules apply. Leave empty (or set to 0) to disable.
+
+### `course_creation_user_course_extra_field_relation_to_prefill`
+
+**Prefill course fields with fields from user**
+
+If not empty, the course creation process will look for some fields in the user profile and auto-fill them for the course. For example, a teacher specialized in digital marketing could automatically set a « digital marketing » flag on each course (s)he creates.
+
+### `course_hide_tools`
+
+**Hide tools from teachers**
+
+Check the tools you want to hide from teachers. This will prohibit access to the tool.
+
+### `course_images_in_courses_list`
+
+**Courses custom icons**
+
+Use course images as the course icon in courses lists (instead of the default green blackboard icon).
+
+### `course_log_default_extra_fields`
+
+**User extra fields by default in course stats page**
+
+Configure this array with the internal IDs of the extra fields you want to show by default in the main course stats page.
+
+### `course_log_hide_columns`
+
+**Hide columns from course logs**
+
+This array gives you the possibility to configure which columns to hide in the main course stats page and in the total time report.
+
+### `course_sequence_valid_only_in_same_session`
+
+**Validate prerequisites only within the same session**
+
+When enabled, a course will be considered validated only if passed within the current session. If disabled, courses passed in other sessions will also unlock dependent courses.
+
+### `course_student_info`
+
+**Course student info display**
+
+On the ‘My courses’/’My sessions’ pages, show additional information regarding the score, progress and/or certificate acquisition by the student.
+
+### `course_validation`
+
+**Courses validation**
+
+When the 'Courses validation' feature is enabled, a teacher is not able to create a course alone. He/she fills a course request. The platform administrator reviews the request and approves it or rejects it.<br />This feature relies on automated e-mail messaging; set Chamilo to access an e-mail server and to use a dedicated an e-mail account.
+
+### `course_validation_terms_and_conditions_url`
+
+**Course validation - a link to the terms and conditions**
+
+This is the URL to the 'Terms and Conditions' document that is valid for making a course request. If the address is set here, the user should read and agree with these terms and conditions before sending a course request.<br />If you enable Chamilo's 'Terms and Conditions' module and if you want its URL to be used, then leave this setting empty.
+
+### `courses_default_creation_visibility`
+
+**Default course visibility**
+
+Default course visibility while creating a new course
+
+### `display_coursecode_in_courselist`
+
+**Display Code in Course name**
+
+Display Course Code in courses list
+
+### `display_teacher_in_courselist`
+
+**Display teacher in course name**
+
+Display teacher in courses list
+
+### `enable_tool_introduction`
+
+**Enable tool introduction**
+
+Enable introductions on each tool's homepage
+
+### `enable_unsubscribe_button_on_my_course_page`
+
+**Show unsubscribe button in ‘My courses’**
+
+Add a button to unsubscribe from a course on the ‘My courses’ page.
+
+### `example_material_course_creation`
+
+**Example material on course creation**
+
+Create example material automatically when creating a new course
+
+### `hide_course_rating`
+
+**Hide course rating**
+
+The course rating feature comes by default in different places. If you don’t want it, enable this option.
+
+### `hide_course_sidebar`
+
+**Hide courses block in the sidebar**
+
+When on screens where the left menu is visible, do not display the « Courses » section.
+
+### `multiple_access_url_show_shared_course_marker`
+
+**Show multi-URL shared course marker**
+
+Adds a link icon to courses that are shared between URLs, so users (in particular teachers) know they have to take special care when editing the course content.
+
+### `my_courses_show_courses_in_user_language_only`
+
+**Only show courses in the user's language**
+
+If enabled, this option will hide all courses not set in the user's language.
+
+### `profiling_filter_adding_users`
+
+**Filter users on profile fields on subscription to course**
+
+Allow teachers to filter the users based on extra fields on the page to subscribe users to their course.
+
+### `resource_sequence_show_dependency_in_course_intro`
+
+**Show dependencies in course intro**
+
+When using resources sequencing with courses or sessions, show the dependencies of the course on the course’s homepage.
+
+### `scorm_cumulative_session_time`
+
+**Cumulative session time for SCORM**
+
+When enabled, the session time for SCORM Learning Paths will be cumulative, otherwise, it will only be counted from the last update time. This is a global setting. It is used when creating a new Learning Path but can then be redefined for each one.
+
+### `send_email_to_admin_when_create_course`
+
+**E-mail alert on course creation**
+
+Send an email to the platform administrator each time a teacher creates a new course
+
+### `show_course_duration`
+
+**Show courses duration**
+
+Display the course duration next to the course title in the course catalogue and the courses list.
+
+### `show_navigation_menu`
+
+**Display course navigation menu**
+
+Display a navigation menu that quickens access to the tools
+
+### `show_toolshortcuts`
+
+**Tools shortcuts**
+
+Show the tool shortcuts in the banner?
+
+### `student_view_enabled`
+
+**Enable learner view**
+
+Enable the learner view, which allows a teacher or admin to see a course as a learner would see it
+
+### `view_grid_courses`
+
+**View courses in a grid layout**
+
+View courses in a layout with several courses per line. Otherwise, the layout will show one course per line.
+

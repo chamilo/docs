@@ -1,52 +1,418 @@
-# Session Settings
+# Sessions Settings
 
-Session settings control defaults for how training sessions behave on the platform. Access them from **Administration > Configuration settings > Session**.
+Defaults and behaviour for **Sessions** — session lifecycle, coach access windows, course visibility within a session, and similar.
 
-## What Are Sessions?
+Access these settings under **Administration > Configuration settings > Sessions**. This category contains **68 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
 
-Sessions are time-bound instances of one or more courses. They allow the same course content to be reused across different groups of learners with separate tracking. For example, a "Project Management" course can run in a January session and a March session, each with different students and coaches but identical content.
+> The variable name in code is shown in `monospace`. Use it when scripting via the API or referring to settings in `.env` overrides.
 
-## Default Session Visibility
+## Settings
 
-| Visibility | Description |
-|------------|-------------|
-| **Read only** | After the session period ends, learners can still view content but cannot interact (no quiz attempts, no forum posts). This is the most common default. |
-| **Accessible** | The session remains fully interactive even after its end date. |
-| **Not accessible** | After the session ends, learners can no longer access it at all. |
+### `add_users_by_coach`
 
-Set the default under **Default visibility after session end**. Session administrators can override this per session.
+**Register users by Coach**
 
-## Session Creation Permissions
+Coach users may create users to the platform and subscribe users to a session.
 
-| Setting | Description |
-|---------|-------------|
-| **Allow teachers to create sessions** | When enabled, teachers can create and manage their own sessions. When disabled, only administrators and session administrators can create sessions. |
-| **Session administrators can manage all sessions** | When enabled, session administrators can see and manage sessions created by other session administrators. When disabled, they can only manage their own. |
+### `allow_career_diagram`
 
-## Duration Settings
+**Enable career diagrams**
 
-| Setting | Description |
-|---------|-------------|
-| **Default session duration (days)** | The number of days a session remains active by default when no specific end date is set. Set to 0 for unlimited. |
-| **Session access before start date** | Number of days before the session start date that coaches can access the session to prepare content. Learners cannot access it during this period. |
-| **Session access after end date** | Number of days after the session end date that learners retain access (subject to the visibility setting above). |
+Career diagrams allow you to display diagrams of careers, skills and courses.
 
-## Session Display
+### `allow_career_users`
 
-| Setting | Description |
-|---------|-------------|
-| **Show session coach name** | Display the general coach name on the session listing page. |
-| **Show session description** | Show the session description to users before enrollment. |
-| **Order sessions by** | Controls how sessions are sorted in the user's session list: by start date, name, or custom order. |
+**Enable career diagrams for users**
 
-## How Sessions Interact with Courses
+If career diagrams are enabled, users can only see them (and only the diagrams that correspond to their studies) if you enable this option.
 
-* A session contains one or more courses. Content comes from the base course but tracking is separate per session.
-* Coaches (session tutors and course coaches) can add session-specific content that does not modify the base course.
-* Learners enrolled in a session only see their session's context, not the base course data from other sessions.
+### `allow_coach_to_edit_course_session`
 
-## Tips
+**Allow coaches to edit inside course sessions**
 
-* **Use "Read only" as the default post-session visibility** so learners can review materials after training ends without generating new activity data.
-* **Set coach access before start date** to at least 7 days so coaches have time to customize content before learners arrive.
-* **Use session categories** to organize sessions by department, semester, or program for easier management.
+Allow coaches to edit inside course sessions
+
+### `allow_delete_user_for_session_admin`
+
+**Session admins can delete users**
+
+_No description in fixtures._
+
+### `allow_disable_user_for_session_admin`
+
+**Session admins can disable users**
+
+_No description in fixtures._
+
+### `allow_edit_tool_visibility_in_session`
+
+**Allow tool visibility edition in sessions**
+
+When using sessions, the default behaviour is to use the tool visibility defined in the base course. This setting changes that to allow coaches in session courses to adapt tool visibilities to their needs.
+
+### `allow_redirect_to_session_after_inscription_about`
+
+**Redirect to session after registration in session's 'About' page**
+
+_No description in fixtures._
+
+### `allow_search_diagnostic`
+
+**Enable sessions search diagnosis**
+
+Allow tutors to get a diagnosis that will allow them to search for the best sessions for learners.
+
+### `allow_session_admin_extra_access`
+
+**Session admin can access batch user import, update and export**
+
+_No description in fixtures._
+
+### `allow_session_admin_login_as_teacher`
+
+**Session admins can 'login as' teachers**
+
+_No description in fixtures._
+
+### `allow_session_admin_read_careers`
+
+**Session admins can view careers**
+
+_No description in fixtures._
+
+### `allow_session_admins_to_manage_all_sessions`
+
+**Allow session administrators to see all sessions**
+
+When this option is not enabled (default), session administrators can only see the sessions they have created. This is confusing in an open environment where session administrators might need to share support time between two sessions.
+
+### `allow_session_course_copy_for_teachers`
+
+**Allow session-to-session copy for teachers**
+
+Enable this option to let teachers copy their content from one course in a session to a course in another session. By default, this option is only available to platform administrators.
+
+### `allow_teachers_to_create_sessions`
+
+**Allow teachers to create sessions**
+
+Teachers can create, edit and delete their own sessions.
+
+### `allow_tutors_to_assign_students_to_session`
+
+**Tutors can assign students to sessions**
+
+When enabled, course coaches/tutors in sessions can subscribe new users to their session. This option is otherwise only available to administrators and session administrators.
+
+### `allow_user_session_collapsable`
+
+**Allow user to collapse sessions in My sessions**
+
+_No description in fixtures._
+
+### `assignment_base_course_teacher_access_to_all_session`
+
+**Base course teacher can see assignments from all sessions**
+
+Show all learner publications (from base course and from all sessions) in the work/pending.php page of the base course.
+
+### `career_diagram_disclaimer`
+
+**Display a disclaimer below the career diagram**
+
+Add a disclaimer below the career diagram. A language variable called 'Career diagram disclaimer' must exist in your sub-language.
+
+### `career_diagram_legend`
+
+**Display a legend below the career diagram**
+
+Add a career legend below the career diagram. A language variable called 'Career diagram legend' must exist in your sub-language.
+
+### `courses_list_session_title_link`
+
+**Type of link for the session title**
+
+On the courses/sessions page, the session title can be either of the following : 0 = no link (hide session title) ; 1 = link title to a special session page ; 2 = link to the course if there is only one course ; 3 = session title makes the courses list foldable ; 4 = no link (show session title).
+
+### `default_session_list_view`
+
+**Default sessions list view**
+
+Select the default tab you want to see when opening the sessions list as admin.
+
+### `drh_can_access_all_session_content`
+
+**HR directors access all session content**
+
+If enabled, human resources directors will get access to all content and users from the sessions (s)he follows.
+
+### `duplicate_specific_session_content_on_session_copy`
+
+**Enable the copy of session-specific content to another session**
+
+Allows duplication of resources that were created in the session when duplicating the session.
+
+### `email_template_subscription_to_session_confirmation_lost_password`
+
+**Add reset password link to e-mail notification of subscription to session**
+
+_No description in fixtures._
+
+### `email_template_subscription_to_session_confirmation_username`
+
+**Add username to e-mail notification of subscription to session**
+
+_No description in fixtures._
+
+### `enable_auto_reinscription`
+
+**Enable Automatic Reinscription**
+
+Enable or disable automatic reinscription when course validity expires. The related cron job must also be activated.
+
+### `enable_session_replication`
+
+**Enable Session Replication**
+
+Enable or disable automatic session replication. The related cron job must also be activated.
+
+### `extend_rights_for_coach`
+
+**Extend rights for coach**
+
+Activate this option will give the coach the same permissions as the trainer on authoring tools
+
+### `hide_courses_in_sessions`
+
+**Hide courses list in sessions**
+
+When showing the session block in your courses page, hide the list of courses inside that session (only show them inside the specific session screen).
+
+### `hide_reporting_session_list`
+
+**Hide sessions list in reporting tool**
+
+Sessions that include the course are listed in the reporting tool inside the course itself, which can add considerable weight if the same course is used in hundreds of sessions. This option removes that list.
+
+### `hide_search_form_in_session_list`
+
+**Hide search form in sessions list**
+
+_No description in fixtures._
+
+### `hide_session_graph_in_my_progress`
+
+**Hide session chart in My progress**
+
+_No description in fixtures._
+
+### `hide_tab_list`
+
+**Hide tabs on the session page**
+
+_No description in fixtures._
+
+### `limit_session_admin_list_users`
+
+**Session admins are forbidden access to the users list**
+
+_No description in fixtures._
+
+### `limit_session_admin_role`
+
+**Limit session admins permissions**
+
+If enabled, the session administrators will only see the User block with the 'Add user' option and the Sessions block with the 'Sessions list' option.
+
+### `my_courses_session_order`
+
+**Change the default sorting of session in My sessions**
+
+By default, sessions are ordered by start date. Change this by providing an array of type ['field' => 'end_date', 'order' => 'desc'].
+
+### `my_courses_view_by_session`
+
+**View my courses by session**
+
+Enable an additional 'My courses' page where sessions appear as part of courses, rather than the opposite.
+
+### `my_progress_session_show_all_courses`
+
+**My progress: show course details in session**
+
+Display all details of each course in session when clicking on session details.
+
+### `prevent_session_admins_to_manage_all_users`
+
+**Prevent session admins to manage all users**
+
+By enabling this option, session admins will only be able to see, in the administration page, the users they created.
+
+### `remove_session_url`
+
+**Hide link to session page**
+
+Hide link to the session page from the sessions list.
+
+### `session_admins_access_all_content`
+
+**Session admins can access all course content**
+
+_No description in fixtures._
+
+### `session_admins_edit_courses_content`
+
+**Session admins can edit course content**
+
+_No description in fixtures._
+
+### `session_automatic_creation_user_id`
+
+**Auto-created session's creator ID**
+
+Set the user to use as creator of the automatically-created sessions (to avoid assigning every session to user '1' which is often the portal administrator).
+
+### `session_classes_tab_disable`
+
+**Disable add class in session course for non-admin**
+
+Disable tab to add classes in session course for non-admins.
+
+### `session_coach_access_after_duration_end`
+
+**Sessions by duration always available to coaches**
+
+Otherwise, session coaches only have access to sessions by duration during the active duration.
+
+### `session_course_ordering`
+
+**Session courses manual ordering**
+
+Enable this option to allow the session administrators to order the courses inside a session manually. If disabled, courses are ordered alphabetically on course title.
+
+### `session_course_users_subscription_limited_to_session_users`
+
+**Limit subscriptions to course to only users of the session**
+
+Restrict the list of students to subscribe in the course session. And disable registration for users in all courses from Resume Session page.
+
+### `session_courses_read_only_mode`
+
+**Set course read-only in session**
+
+Let teachers set some courses in read-only mode when opened through sessions. In the course properties, check the 'Lock course in session' option.
+
+### `session_creation_form_set_extra_fields_mandatory`
+
+**Set mandatory extra fields in session creation form**
+
+Require the listed fields during session creation.
+
+### `session_creation_user_course_extra_field_relation_to_prefill`
+
+**Pre-fill session fields with user fields**
+
+Array of relationships between user extra fields and session extra fields, so the session can be pre-filled with data matching the user's data.
+
+### `session_days_after_coach_access`
+
+**Default coach access days after session**
+
+Default number of days a coach can access his session after the official session end date
+
+### `session_days_before_coach_access`
+
+**Default coach access days before session**
+
+Default number of days a coach can access his session before the official session start date
+
+### `session_import_settings`
+
+**Options for session import**
+
+Array of options to apply as default parameters in the CSV/XML session import.
+
+### `session_list_order`
+
+**Sessions support manual sorting**
+
+_No description in fixtures._
+
+### `session_list_show_count_users`
+
+**Show number of users in sessions list**
+
+The admin can see the number of users in each session. This adds additional weight to the sessions list, so if you use it often, consider carefully whether you want the extra waiting time.
+
+### `session_list_view_remaining_days`
+
+**Show remaining days in My Sessions**
+
+If enabled, the session dates on the "My Sessions" page will be replaced by the number of remaining days.
+
+### `session_model_list_field_ordered_by_id`
+
+**Sort session templates by id in session creation form**
+
+_No description in fixtures._
+
+### `session_multiple_subscription_students_list_avoid_emptying`
+
+**Prevent emptying the subscribed users in session subscription**
+
+When using the multiple learners subscription to a session, prevent the normal behaviour which is to unsubscribe users who are not in the right panel when clicking submit. Keep all users there.
+
+### `show_all_sessions_on_my_course_page`
+
+**Show all sessions on 'My courses' page**
+
+If enabled, this option show all sessions of the user in calendar-based view.
+
+### `show_session_coach`
+
+**Show session coach**
+
+Show the global session coach name in session title box in the courses list
+
+### `show_session_data`
+
+**Show session data title**
+
+Show session data comment
+
+### `show_session_description`
+
+**Show session description**
+
+Show the session description wherever this option is implemented (sessions tracking pages, etc)
+
+### `show_simple_session_info`
+
+**Show simple session info**
+
+Add coach and dates to the session's subtitle in the sessions' list.
+
+### `show_users_in_active_sessions_in_tracking`
+
+**Only display users from active sessions in tracking**
+
+_No description in fixtures._
+
+### `tracking_columns`
+
+**Customize course-session tracking columns**
+
+Define an array of columns for the following reports: 'course_session', 'my_students_lp', 'my_progress_lp', 'my_progress_courses'.
+
+### `user_s_session_duration`
+
+**Auto-created sessions duration**
+
+Duration (in days) of the single-user, auto-created sessions. After expiry, the user cannot register to the same course (no other session is created).
+
+### `user_session_display_mode`
+
+**My Sessions display mode**
+
+Choose how the "My Sessions" page is displayed: as a modern visual block (card) view or the classic list style.
+
