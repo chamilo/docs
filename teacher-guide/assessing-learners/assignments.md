@@ -11,11 +11,10 @@ The assignments tool (also called "student publications") lets you collect work 
    * **Description** — Instructions for learners, including what to submit and how it will be evaluated (supports rich text)
    * **Maximum score** — On what total will the assignment be graded
    * **Add to gradebook** — Add as an evaluated item in the assessment (gradebook) tool, so it can be part of reaching the course's goals
-   * **Deadline** — The official (published) date and time after which submissions are no longer accepted (they are, but marked as late)
-   * **Final acceptance date**  — The read date and time after which submissions are no longer accepted (no upload possible)
+   * **Deadline** — The official (published) date and time after which submissions are flagged as late (uploads are still accepted)
+   * **Ends at (completely closed)** — The hard cutoff date and time after which no upload is possible
    * **Add to calendar** — Create an event to reference this assignment submission date
-   * **Submission type** — Whether to allow text answers, files or either
-   * **Require specific file format** — Restrict which file formats (by file extension) learners can upload
+   * **Submission type** — Choose between **Allow only text**, **Allow only files**, or **Allow files or online text**
 4. Save
 
 Once you have created an assignment, you can also:

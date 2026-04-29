@@ -10,9 +10,8 @@ When a new course is created, its visibility is set to the platform default. The
 |------------|-------------|
 | **Public** | Anyone, including anonymous visitors, can access the course without enrolling. |
 | **Open** | Any registered user can access the course without enrolling. |
-| **Registered** | Only enrolled users can access the course. This is the most common default. |
+| **Private — access granted by privileged users** | Only enrolled users can access the course. This is the most common default. |
 | **Closed** | Only the course teacher and administrators can access it. Useful for courses under construction. |
-| **Hidden** | The course does not appear in listings. Only administrators can see it. |
 
 Set the default visibility under the **Default course visibility** option. Individual course creators can override this when creating or editing a course.
 
@@ -20,8 +19,7 @@ Set the default visibility under the **Default course visibility** option. Indiv
 
 | Setting | Description |
 |---------|-------------|
-| **Allow teachers to create courses** | When enabled, users with the Teacher role can create courses directly. When disabled, only administrators can create courses. |
-| **Allow users to create courses** | When enabled, even standard users (learners) can create courses. Use with caution. |
+| **Allow non administrators (teachers) to create new courses** (`allow_users_to_create_courses`) | When enabled, non-admin users with the appropriate role (typically teachers) can create courses directly. When disabled, only administrators can create courses. |
 | **Course creation requires validation** | When enabled, newly created courses must be approved by an administrator before they become active (see Course Validation below). |
 
 ## Course Catalog
@@ -70,6 +68,6 @@ Teachers can enable or disable individual tools within their own courses regardl
 
 ## Tips
 
-* **Use "Registered" as the default visibility** for most platforms -- it ensures students must enroll before accessing content.
+* **Use "Private" as the default visibility** for most platforms — it ensures students must enroll before accessing content.
 * **Enable course validation** if you have many teachers creating courses and want to maintain quality control.
-* **Disable learner course creation** unless you specifically want a peer-teaching or community-driven platform.
+* **Disable non-admin course creation** unless you specifically want a peer-teaching or community-driven platform.

@@ -70,18 +70,19 @@ When a learner opens a learning path:
 * Progress is tracked automatically — if a learner leaves and comes back, they resume where they left off
 * A progress bar shows overall completion percentage
 
-## SCORM and AICC Content
+## SCORM Content
 
-Chamilo supports importing standardized e-learning packages:
+Chamilo's learning path tool can import **SCORM 1.2** packages — the most widely used e-learning standard. Upload a SCORM ZIP file and Chamilo will create a learning path from it, tracking progress and scores according to the SCORM specification.
 
-* **SCORM 1.2** — The most widely used e-learning standard. Upload a SCORM ZIP file and Chamilo will create a learning path from it, tracking progress and scores according to the SCORM specification.
-* **CMI5** — The learning path presentation layer of the xAPI standard.
+To import a SCORM package:
 
-To import a SCORM or AICC package:
-
-1. In the Learning paths tool, click **Import**
+1. In the Learning paths tool, open the actions menu and click **Upload**
 2. Upload the ZIP file
 3. Chamilo unpacks and creates the learning path automatically
+
+### CMI5 / xAPI packages
+
+CMI5 packages (the modern xAPI-based successor to SCORM) are supported through the **XApi** plugin. Once the plugin is enabled by your administrator, you can import a CMI5 package and learners can launch it from the course; their statements are forwarded to the configured Learning Record Store.
 
 ## Learning Path Settings
 

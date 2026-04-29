@@ -1,6 +1,6 @@
 # Controllers
 
-Chamilo 2.0 uses 131+ controllers organized across the bundles.
+Chamilo 2.0 uses a large number of controllers (in the order of dozens) organized across the bundles. The exact count drifts version to version — treat the names below as illustrative, not exhaustive.
 
 ## Controller Types
 
@@ -21,30 +21,21 @@ Located in `src/CoreBundle/Controller/`. Handle platform administration:
 
 Custom API Platform actions in `src/CoreBundle/Controller/Api/`:
 
-These extend API Platform's built-in CRUD with custom business logic. There are 80+ custom actions, for example:
+These extend API Platform's built-in CRUD with custom business logic. Examples:
 
 * `CreateDocumentFileAction` — File upload for documents
 * `CreateStudentPublicationFileAction` — Assignment submission upload
 * `UpdateVisibilityDocument` — Toggle document visibility
 * `ExportCGlossaryAction` — Export glossary
-* `GetCourseStatsAction` — Course statistics endpoint
 * `MoveDocumentAction` — Move a document to a different folder
 
 ### AI Controller
 
-`src/CoreBundle/Controller/AiController.php` handles all AI-related endpoints:
-
-* `/ai/generate_aiken` — Generate exercise questions
-* `/ai/generate_learnpath` — Generate learning paths
-* `/ai/generate_image` — Generate images
-* `/ai/generate_video` — Generate videos
-* `/ai/open_answer_grade` — Grade open-ended answers
-* `/ai/document_feedback` — Analyze document content
-* `/ai/task_grade` — Grade assignments
+`src/CoreBundle/Controller/AiController.php` is the entry point for AI-related endpoints (Aiken question generation, learning-path generation, image/video generation, open-answer grading, document analysis…). The exact set of routes evolves quickly — read the controller's `#[Route]` attributes for the current list rather than relying on a copy here.
 
 ### Chat Controller
 
-`src/CoreBundle/Controller/AccountChatController.php` handles real-time chat and AI tutor:
+`src/CoreBundle/Controller/ChatController.php` handles real-time chat and AI tutor:
 
 * User-to-user messaging
 * AI tutor chat (docked chat panel)

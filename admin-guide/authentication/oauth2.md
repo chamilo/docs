@@ -20,7 +20,7 @@ Chamilo includes built-in support for:
 In your identity provider's administration panel:
 
 1. Register a new application (client)
-2. Set the **redirect URI** to: `https://your-chamilo-url/login/check-{provider}` (e.g., `/login/check-azure` for Azure)
+2. Set the **redirect URI** to: `https://your-chamilo-url/connect/{provider}/check` (for example `/connect/azure/check`, `/connect/keycloak/check`, `/connect/facebook/check`, or `/connect/generic/check`)
 3. Note the **Client ID** and **Client Secret**
 4. Note the **Authorization URL**, **Token URL**, and **User Info URL** (for generic providers)
 

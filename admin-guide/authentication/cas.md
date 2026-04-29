@@ -1,34 +1,11 @@
 # CAS
 
-Chamilo supports **CAS** (Central Authentication Service), a single sign-on protocol commonly used in universities and research institutions.
+> **Status in Chamilo 2.x.** CAS configuration entries (`cas_activate`, `cas_server`, `cas_server_uri`, `cas_port`, `cas_protocol`, `cas_add_user_activate`) still exist in the platform settings as a legacy carry-over from Chamilo 1.x, and CAS still appears as a selectable authentication source on the user form — but there is no CAS authenticator wired into the Chamilo 2.x security pipeline. Logging in through CAS does **not** currently work out of the box. If you need SSO on Chamilo 2.x, use [OAuth2](oauth2.md) (Azure / Keycloak / Generic) or [LDAP](ldap.md) instead.
 
-## How CAS Works
+## What CAS would do (1.x behaviour)
 
-1. When a user clicks "Log in with CAS" on the Chamilo login page, they are redirected to the CAS server
-2. The user enters their credentials on the CAS server
-3. The CAS server validates the credentials and redirects the user back to Chamilo with a ticket
-4. Chamilo validates the ticket with the CAS server and logs the user in
+CAS (Central Authentication Service) is a single sign-on protocol commonly used in universities and research institutions. In Chamilo 1.x, clicking "Log in with CAS" would redirect the user to a CAS server, validate the returned ticket, and create or match a local account from CAS attributes.
 
-## Configuration
+## Migration note
 
-Configure CAS in the platform settings:
-
-| Setting | Description |
-|---------|-------------|
-| **CAS server URL** | The base URL of your CAS server (e.g., `https://cas.university.edu/cas`) |
-| **CAS version** | The CAS protocol version (typically 2.0 or 3.0) |
-| **Enable CAS** | Toggle CAS authentication on/off |
-
-## User Matching
-
-When a user logs in via CAS, Chamilo matches the CAS username to a local account. Configure:
-
-* **Username attribute** — Which CAS attribute to use as the Chamilo username
-* **Auto-registration** — Whether to automatically create accounts for new CAS users
-* **Attribute mapping** — How CAS attributes map to Chamilo user profile fields
-
-## Tips
-
-* **Test the CAS URL** — Verify you can access the CAS login page directly before configuring Chamilo
-* **Coordinate with IT** — Your IT department needs to register Chamilo as a CAS service
-* **Configure logout** — Ensure CAS single logout (SLO) works so that logging out of Chamilo also logs the user out of CAS
+If you are upgrading a Chamilo 1.x portal that used CAS, plan to re-implement that login flow on top of OAuth2 or LDAP for the time being, until the CAS authenticator is restored in a future 2.x release.

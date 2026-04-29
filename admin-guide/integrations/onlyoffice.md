@@ -5,9 +5,10 @@
 ## What OnlyOffice Provides
 
 * **Document editing** — Edit .docx, .xlsx, .pptx files in the browser
-* **Collaborative editing** — Multiple users can edit the same document simultaneously
 * **Format compatibility** — Full compatibility with Microsoft Office formats
 * **No desktop software needed** — Everything runs in the browser
+
+> Real-time collaborative editing depends on the OnlyOffice Document Server itself; Chamilo's plugin opens and saves documents through the server but does not add or restrict that capability.
 
 ## Configuration
 

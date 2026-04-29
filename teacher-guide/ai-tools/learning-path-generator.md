@@ -18,13 +18,12 @@ Look for the **AI Generator** section within the learning path creation interfac
 
 1. Open the AI Generator form
 2. Configure the parameters:
-   * **AI provider** — Select which AI provider to use (if multiple are available)
    * **Topic** — The subject matter for the learning path
-   * **Learning objectives** — What learners should be able to do after completing the path
-   * **Number of sections** — How many main sections or modules to create
-   * **Content depth** — How detailed the generated content should be
+   * **Number of items** — How many content pages the path should contain
+   * **Words count per page** — Roughly how long each page should be
+   * **Add test after each page** — When ticked, the AI also creates a short multiple-choice quiz after each page (default 2 questions, capped at 5)
 3. Click **Generate**
-4. The AI produces a learning path structure with sections and content
+4. The AI produces a learning path with one document item per page and, optionally, a quiz item after each one
 
 ## Reviewing and Customizing
 

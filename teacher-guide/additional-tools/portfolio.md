@@ -6,9 +6,9 @@ The portfolio tool lets learners collect and showcase their work throughout the 
 
 Each learner has a personal portfolio within the course where they can:
 
-* **Add items** — Upload documents, write text entries, or link to completed work
-* **Organize content** — Arrange portfolio items into categories or sections
-* **Share selectively** — Control which items are visible to the teacher and peers
+* **Add items** — Write text entries with the rich-text editor and attach one or more files to each item
+* **Organize content** — Tag items so they can be filtered by topic
+* **Share selectively** — Set the visibility of each item: hidden, visible to the course, hidden except for the teacher, or shared with selected users when advanced sharing is enabled
 
 ## As a Teacher
 
@@ -18,7 +18,9 @@ You can use portfolios for:
 * **Competency demonstration** — Have learners collect evidence of skills and knowledge
 * **Assessment** — Review portfolio contents as part of your evaluation
 
-To view a learner's portfolio, access the portfolio tool and navigate to the learner's submissions.
+To view a learner's portfolio, open the portfolio tool and filter the items list by user.
+
+If the course is configured to allow it, you can score portfolio items and individual comments — these scores can then feed into the gradebook. You can also **highlight** items you want to draw attention to, and mark items or comments as **templates** so you (or learners) can reuse them as a starting point for new entries. Portfolios can be exported as **PDF** or **ZIP**.
 
 ## Tips
 

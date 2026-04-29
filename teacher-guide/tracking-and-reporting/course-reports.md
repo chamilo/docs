@@ -12,12 +12,9 @@ Open the **Tracking** <img src="/.gitbook/assets/icons/mdi-chart-box.svg" alt="T
 
 ### Activity Overview
 
-A summary of overall course engagement:
+A summary of overall course engagement, including enrolled learners, time spent in the course, course progress, exercise progress and average score, and assignment activity.
 
-* Total number of enrolled learners
-* Average time spent in the course
-* Number of active learners (those who logged in recently)
-* Most and least accessed resources
+Separate detail views are available from the tracking section for **resources** (per-resource access counts), **tools** (per-tool usage), and **events** (raw event log).
 
 ### Exercise Reports
 

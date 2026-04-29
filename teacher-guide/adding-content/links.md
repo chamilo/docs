@@ -8,10 +8,10 @@ The links tool lets you share useful URLs with your learners, organized by categ
 2. Click **Add a link** <img src="/.gitbook/assets/icons/mdi-link-plus.svg" alt="Add link" data-size="line">
 3. Fill in the details:
    * **URL** — The web address (e.g., `https://example.com/resource`)
-   * **Title** — A descriptive name for the link
+   * **Link name** — A descriptive name for the link
    * **Description** — An optional explanation of what the resource is about
    * **Category** — Assign the link to a category for organization
-   * **Target** — Whether the link opens in the same window or a new tab
+   * **Target** — Where the link opens: `_self` (same window), `_blank` (new tab), `_parent`, or `_top`
    * **Show link on course homepage** — Whether you want to show it as a tool icon on the course homepage
 4. Save
 

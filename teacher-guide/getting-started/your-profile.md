@@ -30,7 +30,7 @@ To update your profile information, click **Edit profile**. Here you can:
 
 To change your password, click **Change Password**. For security reasons, you will need to give your current password and your new password twice.
 
-If the platform is configured to enable it, you can also choose to enable multi-factor authentication (2FA/MFA) using a common public MFA app on your phone.
+If your administrator has enabled the **two-factor authentication** option (`2fa_enable`) for the platform, your profile will let you turn on 2FA for your own account using a TOTP authenticator app (Google Authenticator, Authy, 1Password, etc.). Once enabled, the login flow will ask for the time-based 6-digit code in addition to your password.
 
 ## Personal Data
 

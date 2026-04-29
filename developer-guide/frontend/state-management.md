@@ -55,8 +55,11 @@ const setting = courseSettings.getSetting('exercise_generator')
 
 ## Composables
 
-In addition to stores, Chamilo uses Vue composables (`assets/vue/composables/`) for shared logic:
+In addition to stores, Chamilo uses Vue composables (`assets/vue/composables/`) for shared logic. Examples:
 
 * `useFileManager.js` — File browser state and operations
-* `useUserSessionSubscription` — Session enrollment checks
-* `userPermissions` — Permission checking helpers (e.g., `checkIsAllowedToEdit`)
+* `useTopbarLoggedIn.js` / `useTopbarNotLoggedIn.js` — Top-bar menu wiring
+* `useDocumentCreate.js`, `useDocumentUpdate.js`, `useDocumentTemplates.js` — Document tool helpers
+* `useCertificateTags.js` — Certificate-template tag helpers
+
+The full list lives under `assets/vue/composables/` (with feature subfolders like `course/`, `session/`, `admin/`, …) — that directory is the source of truth.

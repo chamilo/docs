@@ -12,7 +12,7 @@ The attendance tool lets you track learner presence for scheduled class sessions
 
 ### Advanced settings
 
-1. **Require unique resence** allows you to consider a learner as fully present if he/she participated even to only one date of the attendance sheet
+1. **Require unique presence** allows you to consider a learner as fully present if he/she participated even to only one date of the attendance sheet
 2. **Gradebook options** lets you decide to qualify the attendance sheet in the assessement tool (gradebook).
 
 ## Adding dates
@@ -22,7 +22,7 @@ Each attendance sheet contains one or more dates (sessions) where you record pre
 1. Open an attendance sheet or continue with the creation process
 2. Click **Add a date** <img src="/.gitbook/assets/icons/mdi-calendar-plus.svg" alt="Add date" data-size="line">
 3. Select the date and time
-4. Optionally, check **Repead date** to choose a repetition logic
+4. Optionally, check **Repeat date** to choose a repetition logic
 5. Give a **Duration** in minutes for the event (defaults to 60 minutes)
 6. Optionally, select a **Group** if this attendance date only applies to one group of learners
 7. Save

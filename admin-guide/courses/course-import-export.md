@@ -38,6 +38,8 @@ This allows content exchange with other platforms that support the Common Cartri
 
 Chamilo can import course backups from **Moodle**. The importer converts Moodle's content structure to Chamilo's format, including quizzes, documents, and course settings.
 
+> **Work in progress.** The Moodle importer does not currently cover every Moodle activity type and content format. Treat it as a starting point that may still require manual adjustment after the import completes.
+
 ## Tips
 
 * **Regular backups** — Encourage teachers to export their courses periodically as a backup

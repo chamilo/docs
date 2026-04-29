@@ -18,10 +18,12 @@ All enrolled users who are currently in the chat room can see messages in real t
 
 ## As a Teacher
 
-As the course teacher, you have additional controls:
+As the course teacher, you can:
 
-* **Clear chat history** — Remove all previous messages to start fresh
 * **Monitor discussions** — Review chat history to track learner engagement
+* **Find chat archives in Documents** — The chat tool automatically mirrors messages into HTML files in the Documents tool, organised by day and by scope (course / session / group), so the conversation persists beyond the live session
+
+If the platform setting "restrict chat to coach" is enabled by the administrator, only coaches can chat with learners; otherwise everyone enrolled in the course can participate.
 
 ## Tips for Using Chat Effectively
 

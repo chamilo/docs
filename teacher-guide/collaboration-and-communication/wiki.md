@@ -28,7 +28,7 @@ Anyone with edit permissions can modify a wiki page:
 1. Open the page you want to edit
 2. Click the **Edit** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Edit" data-size="line"> button
 3. Make your changes in the editor
-4. Add an optional **edit comment** describing what you changed
+4. Add an optional **Comments** entry describing what you changed
 5. Save
 
 ## Revision History
@@ -45,8 +45,12 @@ As the course teacher, you can:
 
 * **View all pages** — See a list of all wiki pages in the course
 * **Find orphan pages** — Identify pages that are not linked from any other page
+* **Find wanted pages** — See pages that are linked to but do not yet exist
+* **Lock a page for editing** — Block all edits on a page while you finalise it
+* **Toggle visibility** — Hide a page from learners
 * **Delete pages** — Remove pages that are no longer needed
-* **Monitor contributions** — See who edited which pages and when
+* **Monitor contributions** — Review per-user statistics: most active editors, most edited pages, most visited pages
+* **Export** — Export a wiki page to PDF, or send it into the Documents tool
 
 ## Tips
 

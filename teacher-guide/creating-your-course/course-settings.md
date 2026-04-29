@@ -9,10 +9,11 @@ To access course settings, enter your course and click the **Settings** <img src
 ### Course Information
 
 * **Course title** — The display name of your course
-* **Course code** — A short unique identifier (read-only after creation in most configurations)
 * **Course language** — The primary language for the course interface
 * **Course category** — The category under which the course appears in the catalog
 * **Course picture** — Upload a thumbnail that represents your course in course listings (will be resized depending on context)
+
+The course code (the short unique identifier) is set when the course is created and is not editable from this page.
 
 By default, all users entering your course will see the whole Chamilo interface in the language of your course. This is an immersive feature. Administrators can change this behaviour, but you can also change it with one of the first options: **Show course in user's language** (set to No by default) if you believe this makes it too hard for your users.
 
@@ -36,7 +37,7 @@ Control who can access your course:
 |---------|-------------|
 | **Public** | Anyone, including anonymous visitors, can access the course |
 | **Open to platform** | All registered users on the platform can access the course |
-| **Registered only** | Only users explicitly enrolled in the course can access it |
+| **Private — access granted by privileged users** | Only users explicitly enrolled in the course can access it |
 | **Closed** | The course is locked; no one can access it except the teacher |
 
 #### Enrollment Settings
@@ -57,13 +58,6 @@ Configure how course activity triggers notifications:
 
 * **Email notifications for new content** — Notify enrolled users when you add new documents, announcements, or other content
 
-### User Rights
-
-Control what learners are allowed to do within the course:
-
-* **Allow learners to edit their own publications** — Whether students can modify their submitted assignments
-* **Allow learners to see other learners' work** — Whether student submissions are visible to peers
-
 ### Chat Settings
 
 Control how the **Chat** tool will show.
@@ -71,7 +65,7 @@ Control how the **Chat** tool will show.
 ### Learning path Settings
 
 * **Enable course themes** — Allow learning paths to change appearance (not recommended for integrated user experience)
-* **Learning path return link** — Decide where users will return when they click the **Home** icon in the learning paths
+* **Learning path return link** — Decide where users land when they click the **Home** icon in a learning path: the learning paths list, the course home, *My courses*, *My sessions*, or the portal home
 
 ### Thematic Advance Settings
 

@@ -8,11 +8,11 @@ Chamilo supports multiple AI providers:
 
 | Provider | Capabilities |
 |----------|-------------|
-| **OpenAI** | Text generation, image generation |
-| **Google Gemini** | Text generation |
+| **OpenAI** | Text, image, video generation |
+| **Google Gemini** | Text, image, video generation |
 | **Mistral** | Text generation |
 | **DeepSeek** | Text generation |
-| **Grok** | Text generation |
+| **Grok** | Text, image, video generation |
 
 Each provider can be configured for different types of AI tasks:
 

@@ -24,8 +24,9 @@ Both teachers and learners (depending on permissions) can create posts.
 
 Readers can interact with blog posts through:
 
-* **Comments** — Leave feedback or start a discussion under a post
-* **Ratings** — Rate posts (if enabled), which helps identify the most valued contributions
+* **Comments** — Leave feedback or start a discussion under a post (comments can also be threaded as replies to other comments)
+* **Ratings** — Rate posts to highlight the most valued contributions
+* **Attachments** — Both posts and comments can carry file attachments
 
 ## Blog Tasks
 
@@ -39,6 +40,6 @@ You can create **tasks** within a blog — specific writing assignments that lea
 
 As the teacher, you can:
 
-* **Edit or delete** any post or comment
-* **Manage permissions** — Control who can write posts and comments
-* **Assign roles** — Designate learners as blog editors or contributors
+* **Edit or delete** posts and comments (post deletion is restricted to the post author or to teachers)
+* **Toggle blog visibility** to show or hide the blog from learners
+* **Define tasks** — Add specific writing assignments learners are expected to complete as posts. Tasks can be color-coded for easier visual grouping.

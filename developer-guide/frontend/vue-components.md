@@ -1,6 +1,6 @@
 # Vue Components
 
-Chamilo has 229 Vue components organized by feature area in `assets/vue/components/`.
+Chamilo has a large set of Vue components organized by feature area in `assets/vue/components/`.
 
 ## Base Components
 

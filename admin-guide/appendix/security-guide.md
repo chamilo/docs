@@ -53,9 +53,8 @@ Configure strong password requirements in [Security Settings](../platform-settin
 
 ### Application Level
 
-* Set **max login attempts** to 5 in Chamilo security settings.
-* Enable **CAPTCHA** after 3 failed attempts.
-* Set a lockout duration of at least 15 minutes.
+* Set **Max login attempts before blocking account** (`login_max_attempt_before_blocking_account`) to a small value (for example 5).
+* Enable **CAPTCHA** on the login page. CAPTCHA is on/off — it is not switched on automatically after N failed logins. Pair it with **CAPTCHA mistakes before blocking** (`captcha_number_mistakes_to_block_account`) to lock out an account that keeps failing the CAPTCHA.
 
 ### Server Level
 

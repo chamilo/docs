@@ -4,13 +4,13 @@ Chamilo allows you to award certificates to learners who meet specific achieveme
 
 ## How Certificates Work
 
-Certificates are linked to the **Gradebook**. When a learner's grade meets or exceeds the minimum threshold you define, a certificate is automatically generated.
+Certificates are linked to the **Gradebook**. When a learner's grade meets or exceeds the minimum threshold you define, a certificate becomes available for them to download.
 
 The workflow is:
 
 1. Set up the [Gradebook](../assessing-learners/gradebook.md) with your exercises, assignments, and other graded activities
 2. Define a **minimum certification score** (e.g., 70%)
-3. When a learner reaches that score, they can download their certificate
+3. When a learner reaches that score, they can download their certificate. As a teacher, you can also use the **Generate certificates** action in the gradebook to create the PDFs in batch for all eligible learners.
 
 ## Certificate Templates
 

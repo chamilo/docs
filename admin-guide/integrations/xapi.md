@@ -25,9 +25,10 @@ Chamilo can generate xAPI statements for:
 
 * Course access and completion
 * Exercise attempts and scores
-* Learning path progress
-* Document views
-* Forum participation
+* Learning path item progress
+* Portfolio items
+
+Other tools (such as Documents and Forums) are not currently emitted as xAPI events by the plugin.
 
 ## Use Cases
 

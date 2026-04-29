@@ -10,12 +10,12 @@ The largest bundle, handling all platform-wide concerns:
 
 * **Users and authentication** — User entity, roles, JWT tokens, OAuth2 providers
 * **Resource system** — ResourceNode and ResourceFile (the unified content abstraction)
-* **Platform settings** — 43 settings schemas covering every configurable aspect
+* **Platform settings** — settings schemas in `src/CoreBundle/Settings/` covering every configurable aspect
 * **Administration** — Admin controllers for user, course, session, and plugin management
 * **AI providers** — Factory pattern for OpenAI, Gemini, Mistral, DeepSeek, Grok
 * **File storage** — Flysystem-based storage adapters (local, S3, Azure, GCS)
 * **Security** — Voters, access control, role hierarchy
-* **Tools** — 39 course tool definitions
+* **Tools** — course tool definitions registered through the tool system
 
 ### CourseBundle (`src/CourseBundle/`)
 

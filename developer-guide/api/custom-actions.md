@@ -1,6 +1,6 @@
 # Custom Actions
 
-Beyond standard CRUD operations, Chamilo has 80+ custom API action controllers that handle specialized operations.
+Beyond standard CRUD operations, Chamilo has a number of custom API action controllers (in the order of dozens) that handle specialized operations. The exact count varies between releases — list `src/CoreBundle/Controller/Api/` for the current set.
 
 ## Location
 

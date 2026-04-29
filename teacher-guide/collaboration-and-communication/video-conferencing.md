@@ -17,16 +17,14 @@ Once a meeting is running, enrolled learners can join it by:
 * Clicking the same **Video conference** tool in their course homepage
 * Clicking the join link in an announcement or message you send them
 
-## BigBlueButton Features
+## BigBlueButton
 
-If your platform uses BigBlueButton, you have access to:
+If your platform uses the BigBlueButton plugin, the meeting itself runs in BigBlueButton, where the usual conference features (audio/video, screen sharing, whiteboard, in-meeting chat, breakout rooms) are available. The Chamilo plugin specifically adds:
 
-* **Audio and video** — Speak and share your webcam
-* **Screen sharing** — Present your screen or a specific application window
-* **Whiteboard** — Draw and annotate in real time
-* **Chat** — Text chat alongside the video session
-* **Breakout rooms** — Split learners into smaller groups for discussions
-* **Recording** — Record the session for later viewing (if enabled by the administrator)
+* **Recording management** — If recording is enabled by the administrator, recordings made during the session are listed inside the course so learners can replay them
+* **Pre-upload presentation documents** — Attach a presentation file to a meeting so it is loaded into BigBlueButton when the room opens
+* **Calendar integration** — Scheduled meetings are surfaced in the course agenda
+* **Course / group / global rooms** — Run a single course-wide room, separate group rooms, or a platform-wide room
 
 ## Zoom Integration
 

@@ -39,11 +39,7 @@ Click on a course to access management options:
 
 ## Bulk Operations
 
-Select multiple courses in the list to perform batch actions:
-
-* Delete multiple courses
-* Change visibility for multiple courses
-* Export course data
+Select multiple courses in the list to perform batch actions such as deleting them or changing their visibility. To export a course, enter the course and use the **Maintenance** tool — there is no bulk export action on the admin course list.
 
 ## Course Visibility Settings
 
@@ -53,5 +49,5 @@ Administrators can override the visibility set by teachers:
 |-----------|--------|
 | **Public** | Accessible to everyone, including anonymous visitors |
 | **Open to platform** | Accessible to all logged-in users |
-| **Registered only** | Only enrolled users can access the course |
+| **Private — access granted by privileged users** | Only enrolled users can access the course |
 | **Closed** | No one can access the course (except the teacher and admins) |

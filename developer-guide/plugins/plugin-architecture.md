@@ -10,7 +10,7 @@ public/plugin/
 ├── zoom/                   # Zoom integration
 ├── onlyoffice/             # OnlyOffice document editing
 ├── xapi/                   # xAPI/Tin Can
-├── ...                     # 56 plugins total
+├── ...                     # bundled plugins ship under public/plugin/
 ```
 
 ## Plugin Structure

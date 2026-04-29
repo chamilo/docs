@@ -21,10 +21,10 @@ The external tool appears seamlessly within the Chamilo interface.
 1. Navigate to the LTI settings in the administration panel
 2. **Register the external tool** by providing:
    * **Tool name** — A descriptive name
-   * **Tool URL** — The launch URL of the external tool
+   * **Login URL** — The OIDC login initiation URL of the external tool
+   * **Redirect URL** — The launch URL the tool returns to after login
    * **Client ID** — Provided by the tool vendor
-   * **Deployment ID** — A unique identifier for this deployment
-   * **Public keyset URL** — The tool's JWKS URL for security key exchange
+   * **Public keyset URL (JWKS URL)** — The tool's JWKS endpoint for security key exchange
 3. Configure **grade passback** — Whether the tool can send grades back to Chamilo
 4. Save
 

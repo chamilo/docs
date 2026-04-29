@@ -25,7 +25,7 @@ SCIM works alongside your authentication method. For example, you might use Azur
 ### In Chamilo
 
 1. Enable SCIM in the platform settings
-2. Note the SCIM endpoint URL (typically `https://your-chamilo-url/api/scim/v2/`)
+2. Note the SCIM endpoint URL (typically `https://your-chamilo-url/scim/v2/`)
 3. Generate an API token for the identity provider to authenticate with
 
 ### In Your Identity Provider

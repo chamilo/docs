@@ -30,16 +30,27 @@ Extra fields let you store metadata specific to your organization, such as:
 
 ## Field Types
 
+The extra-field engine supports a broad set of input types. Common ones include:
+
 | Type | Description |
 |------|-------------|
 | **Text** | A single-line text input |
 | **Textarea** | A multi-line text input |
-| **Dropdown** | A list of predefined options |
+| **Radio** | A single-choice radio group |
+| **Dropdown / Dropdown multiple** | A list of predefined options (single or multi-select) |
+| **Double select** | Two dependent dropdowns (e.g., country → city) |
 | **Checkbox** | A yes/no toggle |
-| **Date** | A date picker |
-| **Date and time** | A date and time picker |
-| **Number** | A numeric input |
-| **Tag** | Multiple tag values |
+| **Date / Date and time** | Date or date+time picker |
+| **Integer** | A numeric input |
+| **Tag** | Multiple free-form tag values |
+| **File** | File upload field |
+| **Video URL** | A URL pointing to a video |
+| **Mobile phone number** | A formatted phone number field |
+| **Timezone** | A timezone picker |
+| **Social profile** | A link to a social network profile |
+| **Divider** | A visual separator inside the form (no value) |
+
+The exact set of usable types depends on the Chamilo version; the field-type dropdown in the **Extra fields** admin page is the source of truth.
 
 ## Using Extra Fields
 

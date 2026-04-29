@@ -42,7 +42,7 @@ A: Yes. Use **Administration > Copy course** or the course maintenance tool with
 A: Chamilo supports SCORM 1.2 and SCORM 2004 (editions 3 and 4). SCORM packages are imported as learning paths.
 
 **Q: How do I limit who can create courses?**
-A: Go to **Administration > Configuration settings > Course** and disable "Allow teachers to create courses." When disabled, only administrators can create courses.
+A: Go to **Administration > Configuration settings > Course** and disable **Allow non administrators (teachers) to create new courses** (`allow_users_to_create_courses`). When disabled, only administrators can create courses.
 
 ## Performance and Maintenance
 

@@ -8,16 +8,17 @@ Open the **Tracking** <img src="/.gitbook/assets/icons/mdi-chart-box.svg" alt="T
 
 ## What Is Tracked
 
-For each learner, Chamilo records:
+For each learner, Chamilo records (in the main per-learner tracking view):
 
 * **Login activity** — When the learner last logged in and their total login time
 * **Time spent in the course** — Total time the learner has spent in your course
-* **Last access** — When the learner last visited the course
-* **Content accessed** — Which documents, learning paths, and pages the learner visited
+* **First and last access** — When the learner first entered and last visited the course
+* **Course progress** — Aggregate progress percentage across the course
 * **Exercise results** — Scores and attempts for each exercise
-* **Learning path progress** — Completion percentage and time spent on each learning path item
+* **Learning path progress** — Completion percentage and time spent on each learning path
 * **Assignment submissions** — Which assignments have been submitted and graded
-* **Forum participation** — Number of posts and replies
+
+Per-resource access details (which specific documents or pages a learner opened) and tool-level activity are available through the dedicated **Resources**, **Tools**, and **Events** views in the tracking section, rather than in the main learner row.
 
 ## Viewing Individual Learner Data
 

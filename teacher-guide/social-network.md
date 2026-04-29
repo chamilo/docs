@@ -40,7 +40,7 @@ When composing a new message, you can address it to multiple recipients at once.
 
 ### Message Tags
 
-You can assign tags to messages to categorize them. Tags make it easier to filter and locate specific messages later, particularly when your inbox grows over time. Assign a tag when composing or reading a message, then use the tag filter in your inbox to quickly surface related threads.
+If your platform configuration uses message tags (typically managed at the platform level), your inbox shows a tag list you can click to filter messages by that tag, which makes locating related threads faster as your inbox grows.
 
 ## Social Groups
 

@@ -4,18 +4,20 @@ The course progress tool helps you define the thematic structure of your course 
 
 ## How It Works
 
-Course progress is organized into:
+Course progress is organized into three layers:
 
 * **Thematic sections** — The main topics or modules of your course
-* **Plans** — The planned activities within each section
-* **Steps** — The individual steps or sessions for delivering the content
+* **Thematic plan** — For each section, what you intend to cover. Each plan entry is one of a fixed set of types: **Objectives**, **Skills to acquire**, **Methodology**, **Infrastructure**, **Assessment**, or **Others**.
+* **Thematic advance** — Discrete delivery records under each section, each with a start date and a duration in hours. Mark advances as **done** as you deliver them to track real progress against the plan.
 
 ## Setting Up Course Progress
 
 1. Open the **Course progress** tool from the course homepage
 2. Create **thematic sections** that correspond to your course's main topics or modules
-3. Within each section, define the **plan** — what you intend to cover
-4. As you deliver the content, update the **progress** to reflect what has been completed
+3. Within each section, add **plan** entries by type to describe what you intend to cover
+4. As you deliver the content, add **thematic advances** with their date and duration, and mark them as done
+
+You can optionally link a thematic advance to an attendance sheet so its start date is pulled from your attendance records. Sections (with their plan and advances) can also be **copied** within the same course/session.
 
 ## Use Cases
 

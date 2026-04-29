@@ -30,13 +30,16 @@ Each extra field supports:
 
 Custom fields are useful for tracking department, location, job title, or any other metadata your organization needs.
 
-## Avatar Settings
+## Avatars
+
+Gravatar integration is configured under **Configuration settings > Display**, not under User settings:
 
 | Setting | Description |
 |---------|-------------|
-| **Allow users to upload avatars** | When enabled, users can upload a profile picture. When disabled, a default avatar is shown. |
-| **Default avatar** | The image used when a user has not uploaded their own. |
-| **Gravatar integration** | When enabled, Chamilo fetches the user's avatar from Gravatar based on their email address, if no local avatar is set. |
+| `gravatar_enabled` | When enabled, Chamilo fetches the user's avatar from Gravatar based on their email address if no local avatar is set. |
+| `gravatar_type` | The Gravatar fallback style used when no Gravatar is found for an email. |
+
+User-uploaded avatars are managed from each user's profile page; there is no global "allow users to upload avatars" toggle in the configuration settings.
 
 ## User Export and Privacy
 

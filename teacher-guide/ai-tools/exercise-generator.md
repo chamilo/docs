@@ -7,24 +7,28 @@ The AI Exercise Generator helps you create quiz questions automatically using ar
 The Exercise Generator is available when creating or editing an exercise, provided that:
 
 1. AI helpers are enabled at the platform level
-2. The exercise generator is enabled in the course settings
-3. At least one AI text provider is configured
+2. At least one AI text provider is configured
 
 Look for the **AI Generator** button or section within the exercise creation interface.
 
 ## How to Generate Questions
 
-![The AI exercise generator form with fields for topic, question type, and difficulty](/.gitbook/assets/ai-exercise-generator.png)
+![The AI exercise generator form with fields for topic and number of questions](/.gitbook/assets/ai-exercise-generator.png)
 
-1. Open the AI Generator form within an exercise
+The generator offers two modes, available as tabs:
+
+* **Test from topic** — Generate questions from a textual topic description
+* **Test from document** — Generate questions from a course document (only available when a document-capable provider is configured). When this mode is used, the topic field becomes optional and is treated as an extra hint.
+
+1. Open the AI Generator form within an exercise and pick the mode
 2. Configure the generation parameters:
-   * **AI provider** — Select which AI provider to use (if multiple are configured). If only one provider is available, it is selected automatically.
-   * **Topic or content** — Describe what the questions should be about, or paste the content that questions should be based on
-   * **Number of questions** — How many questions to generate
-   * **Question type** — What type of questions to generate (multiple choice, true/false, fill in the blanks, etc.)
-   * **Difficulty level** — The desired difficulty of the questions
+   * **Quiz title** — The title for the resulting exercise
+   * **Questions topic** — Describe what the questions should be about (or, in document mode, an optional hint)
+   * **Number of questions** — How many questions to generate (capped at 100)
+   * **Question type** — Currently only **Multiple answer** is offered
+   * **AI provider** — Select which AI provider to use (only shown when more than one is configured)
 3. Click **Generate**
-4. The AI produces a set of questions with answer options and correct answers marked
+4. The AI produces a set of questions with answer options and correct answers marked. When AI disclosure is enabled, generated questions are prefixed with **\[AI-assisted\]**.
 
 ## Reviewing and Editing
 

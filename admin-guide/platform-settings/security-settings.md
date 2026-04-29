@@ -8,10 +8,9 @@ Security settings protect your Chamilo platform against unauthorized access and 
 
 | Setting | Description |
 |---------|-------------|
-| **Max login attempts** | The number of failed login attempts allowed before the account is temporarily locked. A typical value is 5. Set to 0 to disable lockout (not recommended). |
-| **Lockout duration (minutes)** | How long an account remains locked after exceeding the max login attempts. |
-| **Enable CAPTCHA** | Display a CAPTCHA on the login page after a configurable number of failed attempts. Helps prevent brute-force attacks. |
-| **CAPTCHA attempts threshold** | The number of failed attempts before the CAPTCHA is shown. For example, set to 3 to show CAPTCHA after 3 failed logins. |
+| **Max login attempts before blocking account** (`login_max_attempt_before_blocking_account`) | The number of failed login attempts allowed before the account is blocked. Set to 0 to disable. |
+| **Enable CAPTCHA** | Globally turn on the CAPTCHA on the login page. Helps prevent brute-force attacks. CAPTCHA is either on or off — there is no built-in setting that switches it on automatically after N failed logins. |
+| **CAPTCHA mistakes before blocking** (`captcha_number_mistakes_to_block_account`) | When CAPTCHA is enabled, the number of CAPTCHA mistakes a user can make before their account is blocked. This is independent of the login-attempt counter above. |
 
 ## Password Policy
 
@@ -38,17 +37,23 @@ Password policy changes apply to newly created passwords. Existing passwords are
 
 Always block executable file types to prevent users from uploading malicious files.
 
-## Intrusion Detection System (IDS)
-
-Chamilo includes a basic intrusion detection mechanism that monitors incoming requests for suspicious patterns such as SQL injection attempts, cross-site scripting (XSS), and path traversal.
+## Two-Factor Authentication
 
 | Setting | Description |
 |---------|-------------|
-| **Enable IDS** | Activates request inspection. |
-| **IDS action** | What happens when a suspicious request is detected: **log only**, **log and block**, or **log and notify administrator**. |
-| **IDS sensitivity** | Controls how aggressively the system flags requests. Higher sensitivity catches more threats but may produce false positives. |
+| **Enable two-factor authentication** (`2fa_enable`) | When enabled, users can turn on TOTP-based 2FA from their profile. The login flow then asks for the 6-digit code from their authenticator app in addition to their password. |
 
-IDS logs are stored in the system and can be reviewed by administrators to identify potential attacks.
+## Intrusion Detection System (IDS)
+
+Chamilo ships with a minimal IDS that scans incoming requests for common attack signatures (SQL injection, XSS, path traversal, command injection, scanner probes). It is configured via environment variables in `.env` (or `.env.local`) — see `config/packages/chamilo_ids.yaml`:
+
+| Variable | Description |
+|----------|-------------|
+| `IDS_ENABLED` | `true` (default) to enable scanning, `false` to disable. |
+| `IDS_BLOCK` | `false` (default) only logs detections; `true` rejects suspicious requests with HTTP 400. |
+| `IDS_SECURITY_HEADERS` | `true` to inject standard OWASP response headers (`X-Frame-Options`, `X-Content-Type-Options`, `Referrer-Policy`, etc.) for every response. |
+
+Detections are written to `var/logs/ids/ids_events.log` with daily rotation. The admin UI at **/admin/security/simple-ids** lists recent events and shows a daily-volume chart.
 
 ## Additional Security Settings
 
@@ -62,6 +67,6 @@ IDS logs are stored in the system and can be reviewed by administrators to ident
 ## Tips
 
 * **Always enforce HTTPS** in production. Credentials and session cookies sent over unencrypted connections can be intercepted.
-* **Set a reasonable lockout policy** -- 5 attempts with a 15-minute lockout balances security and usability.
+* **Set a reasonable lockout policy** — a small number of allowed login failures, combined with CAPTCHA on the login page, raises the cost of brute-force attempts noticeably.
 * **Block executable extensions** as a baseline and use an allowlist for known-safe file types.
-* **Review IDS logs periodically** to identify attack patterns and adjust your security configuration.
+* **Review IDS logs periodically** — the admin IDS view (or `var/logs/ids/ids_events.log`) is the fastest way to see what scanners and probes are hitting your portal.

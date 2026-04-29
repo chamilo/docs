@@ -9,7 +9,7 @@ The assessments are weighted scoring systems. You define:
 1. **Which activities** contribute to the grade (exercises, assignments, attendance, etc.)
 2. **The weight** of each activity (how much it counts toward the final grade)
 3. **The minimum certification score** (the threshold for earning a certificate)
-4. **Exclusion grades** for each activity, that will prevent achieving the objectives and the awarding of a certificate
+4. **A minimum score per activity** — Each activity in the gradebook can have its own **Minimum score**. Learners who score below that minimum on a key activity can be prevented from achieving the objectives and earning the certificate, even if their overall weighted total is otherwise high enough.
 
 Activities can be of 2 types:
 * **Classroom activity** (or in-person activity), where grades have to be imported from some other source
@@ -64,7 +64,7 @@ You can sort by any column to quickly identify top performers or struggling lear
 To enable certificate generation:
 
 1. In the assessment settings, set a **minimum certification score** (e.g., 70%)
-2. When a learner's weighted total meets or exceeds this threshold and there are no excluded grades, they can download their certificate
+2. When a learner's weighted total meets or exceeds this threshold (and they have not failed any per-activity minimum score), they can download their certificate
 3. The certificate is generated from a template configured by the platform administrator
 
 See [Certificates and Skills](../tracking-and-reporting/certificates-and-skills.md) for more details.

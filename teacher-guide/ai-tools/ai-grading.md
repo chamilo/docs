@@ -9,7 +9,7 @@ AI Grading is available in two contexts:
 * **Open-ended exercise questions** — When you manually grade free-answer questions in an exercise
 * **Assignment submissions** — When you review and score student publications in the Assignments tool
 
-Look for the **AI grading** button (indicated by a lightning bolt icon <img src="/.gitbook/assets/icons/mdi-robot.svg" alt="AI" data-size="line">) in the grading interface.
+Look for the **AI grading** button (indicated by a robot icon <img src="/.gitbook/assets/icons/mdi-robot.svg" alt="AI" data-size="line">) in the grading interface.
 
 ## How It Works
 

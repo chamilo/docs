@@ -1,6 +1,6 @@
 # Settings System
 
-Chamilo's configuration is managed through 43 settings schemas that define every configurable aspect of the platform.
+Chamilo's configuration is managed through a set of settings schemas (around 40 of them, varying between releases) that define every configurable aspect of the platform. They live in `src/CoreBundle/Settings/` — the exact list there is the source of truth.
 
 ## How It Works
 

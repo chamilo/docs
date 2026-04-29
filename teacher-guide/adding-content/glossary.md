@@ -5,7 +5,7 @@ The glossary tool lets you define key terms for your course. Learners can browse
 ## Adding a Term
 
 1. Open the **Glossary** <img src="/.gitbook/assets/icons/mdi-alphabetical.svg" alt="Glossary" data-size="line"> tool from the course homepage
-2. Click **Add a term**
+2. Click **Add new glossary term**
 3. Enter the **term** and its **definition** (the definition supports rich text formatting)
 4. Save
 
@@ -19,15 +19,15 @@ The glossary tool lets you define key terms for your course. Learners can browse
 
 You can build your glossary faster using import/export:
 
-* **Import** <img src="/.gitbook/assets/icons/mdi-database-import-outline.svg" alt="Import" data-size="line"> — Upload a list of terms and definitions from a file (CSV format)
-* **Export** <img src="/.gitbook/assets/icons/mdi-file-export.svg" alt="Export" data-size="line"> — Download the glossary for use in another course or for offline reference
+* **Import** <img src="/.gitbook/assets/icons/mdi-database-import-outline.svg" alt="Import" data-size="line"> — Upload a list of terms and definitions from a CSV or XLS file. You can also tick "Update existing terms" to overwrite definitions for terms that are already in the glossary.
+* **Export** <img src="/.gitbook/assets/icons/mdi-file-export.svg" alt="Export" data-size="line"> — Download the glossary as CSV, Excel (XLS), or PDF for use in another course or for offline reference
 
 ## Display Options
 
-The glossary can be displayed in different formats:
+The glossary can be displayed in two formats, toggled from the toolbar:
 
 * **Table view** — Terms listed in a table with their definitions
-* **Alphabetical list** — Terms organized by their first letter, similar to a dictionary
+* **List view** — Terms shown as individual panels stacked one after another
 
 ## Tips
 

@@ -48,13 +48,16 @@ Sub-languages appear in the language selector alongside regular languages if ena
 
 ## Language Priority
 
-When displaying text, Chamilo resolves the language in this order:
+Chamilo's language resolution is configured through four ordered settings (`language_priority_1` through `language_priority_4`), each of which can be set to one of: `course_lang`, `user_profil_lang`, `user_selected_lang`, or `platform_lang`. Out of the box the defaults resolve in this order:
 
-1. **User's selected language** -- Each user can set their preferred language in their profile.
-2. **Course language** -- If a course has a specific language set, course-related interface elements may use it.
-3. **Platform default language** -- Used when no user or course preference is set.
+1. **Course language** (`course_lang`) — the language declared on the course
+2. **User profile language** (`user_profil_lang`) — the language stored on the user account
+3. **User selected language** (`user_selected_lang`) — the language the user has switched to in the current session
+4. **Platform default language** (`platform_lang`) — the platform-wide fallback
 
-For any given translation string, if the translation is missing in the user's language, Chamilo falls back to English.
+You can change these priorities to fit your portal — for example, swap them so that a user's profile language wins over the course's language.
+
+For any given translation string, if the translation is missing in the chosen language, Chamilo falls back to English.
 
 ## Tips
 

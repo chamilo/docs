@@ -1,12 +1,12 @@
 # Views and Routing
 
-Chamilo has 153 Vue views (page-level components) connected via Vue Router.
+Chamilo has a large set of Vue views (page-level components) connected via Vue Router. The actual files live under `assets/vue/views/`.
 
 ## Router Architecture
 
 The router is defined in `assets/vue/router/index.js` using `createWebHistory` for clean URLs.
 
-Routes are modular — organized into 23+ route files imported into the main router:
+Routes are modular — organized into per-feature route files imported into the main router:
 
 | Route module | Pages |
 |-------------|-------|

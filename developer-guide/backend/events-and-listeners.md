@@ -4,14 +4,12 @@ Chamilo uses Symfony's event system for decoupled communication between componen
 
 ## Event Listeners
 
-Located in `src/CoreBundle/EventListener/`:
+Chamilo uses two listener locations:
 
-Event listeners respond to specific Symfony events:
+* **`src/CoreBundle/EventListener/`** — Symfony kernel/HTTP listeners (request, response, exception, login/logout, course/session access, etc.). Examples: `CidReqListener`, `CourseAccessListener`, `LoginSuccessHandler`, `LogoutListener`, `ExceptionListener`, `ResourceDoctrineListener`.
+* **`src/CoreBundle/Entity/Listener/`** — Doctrine entity listeners attached to specific entities. Examples: `ResourceNodeListener`, `CourseListener`, `SessionListener`, `LanguageListener`, `UserListener`, `MessageListener`.
 
-* **ResourceNodeListener** — Triggers on ResourceNode lifecycle events (persist, update, remove). Handles file storage operations and tree updates.
-* **CourseListener** — Handles course context setup when a course page is accessed
-* **SessionListener** — Sets up session context
-* **LocaleListener** — Manages user language preferences
+Pick the location that matches what you need to react to: HTTP-pipeline events go in `EventListener/`; entity lifecycle hooks go in `Entity/Listener/`.
 
 ## Event Subscribers
 

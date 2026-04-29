@@ -14,7 +14,7 @@ Open the **Documents** <img src="/.gitbook/assets/icons/mdi-bookshelf.svg" alt="
 2. Select one or more files from your computer (you can drag and drop files into the upload area)
 3. The files are uploaded and appear in the current folder
 
-Chamilo supports most common file types: PDF, office documents (.docx, .odt), presentations (.pptx, .odp), spreadsheets (.xlsx, .ods), images (PNG, JPG, SVG, GIF, WEBM), audio files, video files, HTML files, and more.
+Chamilo supports most common file types: PDF, office documents (.docx, .odt), presentations (.pptx, .odp), spreadsheets (.xlsx, .ods), images (PNG, JPG, SVG, GIF), audio files, video files (including WEBM), HTML files, and more.
 
 Some formats might be forbidden by the portal administrator through a whitelist/blacklist filtering setting in the security section of the administration.
 
@@ -40,11 +40,9 @@ The rich-text editor (TinyMCE) provides word-processor-like features including:
 * Links to other resources
 * HTML source editing for advanced users
 
-If image and/or video AI helpers are enabled on your portal, a robot icon appears in the editor. Select a paragraph and click the icon to prompt the AI for an image or video illustrating this paragraph.
+### AI media generation
 
-### Drawing
-
-Chamilo includes a built-in drawing tool that lets you create simple diagrams and illustrations directly in the browser.
+When AI helpers are enabled on the platform, you can ask the AI to generate an **image** or a **short video** to illustrate a paragraph in the document you are editing. Select a paragraph, open the **Generate AI media** dialog, and the AI will produce a media item that you can review and insert. The dialog respects course-level permissions and only appears in courses where AI media generation is allowed.
 
 ### Audio Recording
 

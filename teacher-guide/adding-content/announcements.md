@@ -14,7 +14,7 @@ Messages sent through announcements are sent to the learners both by e-mail *and
      * Specific learners
      * Specific groups
    * **Subject** — A subject line for the announcement
-   * **Content** — The message body (supports rich text with formatting, links, and images)
+   * **Description** — The message body (supports rich text with formatting, links, and images)
    * **Attachment** — An optional attachment sent along with the e-mail
    * **Sending options** — Announcements will be sent by e-mail by default, but you can also choose (if you have the permissions) to send it through all sessions that include this course, to send a copy to yourself or to attach this announcement to a calendar event for the course.
 4. Save

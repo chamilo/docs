@@ -4,7 +4,7 @@
 
 * PHP 8.2+ with extensions: intl, gd, curl, zip, mbstring, xml, json, pdo, ldap, exif, bcmath
 * Composer
-* Node.js and npm (or Yarn — the project uses Yarn 4.13)
+* Node.js and npm (or Yarn — the project uses Yarn 4; see `package.json` for the exact pinned version)
 * MySQL 8.0+, MariaDB 10.11+, or PostgreSQL 16+
 * Git
 

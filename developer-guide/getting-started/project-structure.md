@@ -10,8 +10,8 @@ chamilo/
 │   └── js/          # Legacy JavaScript
 ├── config/          # Symfony configuration (routes, services, packages)
 ├── public/          # Web root (index.php, legacy PHP pages, plugins)
-│   ├── main/        # Legacy PHP modules (47 subdirectories)
-│   └── plugin/      # Plugin files (56 plugins)
+│   ├── main/        # Legacy PHP modules (one subdirectory per tool)
+│   └── plugin/      # Bundled and custom plugins
 ├── src/             # PHP source code (Symfony bundles)
 │   ├── CoreBundle/  # Core platform logic
 │   ├── CourseBundle/# Course-specific features
@@ -27,16 +27,16 @@ chamilo/
 
 ### CoreBundle
 
-The largest bundle. Contains 36 subdirectories:
+The largest bundle. Notable subdirectories:
 
 | Directory | Contents |
 |-----------|----------|
-| `Entity/` | 213 Doctrine entities (User, Course, Session, ResourceNode, etc.) |
-| `Controller/` | 131 controllers (admin, API actions, pages) |
-| `Settings/` | 43 settings schema files (platform configuration) |
+| `Entity/` | Doctrine entities (User, Course, Session, ResourceNode, etc.) |
+| `Controller/` | Admin, API action, and page controllers (the Api/ subfolder holds custom API Platform actions) |
+| `Settings/` | Settings schema files (platform configuration) |
 | `Repository/` | Doctrine repositories |
 | `AiProvider/` | AI provider implementations (OpenAI, Gemini, Mistral, DeepSeek, Grok) |
-| `Tool/` | 39 course tool definitions |
+| `Tool/` | Course tool definitions |
 | `Security/` | Voters, authenticators, authorization |
 | `EventListener/` | Event listeners |
 | `EventSubscriber/` | Event subscribers |
@@ -51,7 +51,7 @@ Course-specific entities and logic:
 
 | Directory | Contents |
 |-----------|----------|
-| `Entity/` | 101 entities (CDocument, CQuiz, CLp, CForum, CStudentPublication, etc.) |
+| `Entity/` | Course-content entities (CDocument, CQuiz, CLp, CForum, CStudentPublication, etc.) |
 | `Controller/` | Course controllers |
 | `Settings/` | Course-level settings schemas |
 | `Component/CourseCopy/` | Course import/export (Common Cartridge, Moodle) |
@@ -71,7 +71,7 @@ LTI 1.3 integration:
 assets/vue/
 ├── main.js              # Application entry point
 ├── main_installer.js    # Installer entry point
-├── components/          # 229 reusable Vue components
+├── components/          # Reusable Vue components
 │   ├── basecomponents/  # BaseButton, BaseIcon, ChamiloIcons.js, etc.
 │   ├── layout/          # DashboardLayout, Sidebar, Topbar
 │   ├── course/          # Course cards, catalogs, forms
@@ -81,13 +81,13 @@ assets/vue/
 │   ├── filemanager/     # File browser components
 │   ├── installer/       # Installation wizard (Step1-7)
 │   └── ...
-├── views/               # 153 page-level Vue views
+├── views/               # Page-level Vue views
 │   ├── course/          # Course pages
 │   ├── documents/       # Document management
 │   ├── glossary/        # Glossary pages
 │   ├── admin/           # Admin pages
 │   └── ...
-├── router/              # Vue Router configuration (23 route modules)
+├── router/              # Vue Router configuration (per-feature route modules)
 ├── store/               # Pinia stores (security, course settings, enrollment)
 └── composables/         # Shared composition functions
 ```

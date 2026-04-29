@@ -119,8 +119,8 @@ Chamilo offers a rich set of question types organized into several categories:
 ### Special
 
 * **Reading comprehension** — Tests based on reading a passage
-* **Annotation** — Learner annotates content or an image
-* **Answer in Office document** — Learner completes answers within an embedded document (requires OnlyOffice)
+* **Annotation** — Teacher uploads an image and the learner annotates it
+* **Answer in Office document** — When the OnlyOffice plugin is enabled, the learner answers the question by editing an embedded Office document (Word, Excel, PowerPoint). Their response is saved as a separate file under the exercise so it can be reviewed alongside the rest of their attempt.
 
 ## Adding Questions to an Exercise
 

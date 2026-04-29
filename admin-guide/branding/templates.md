@@ -16,7 +16,7 @@ Certificate templates use HTML and CSS with placeholder variables:
 | Course name | The name of the course |
 | Date | The date the certificate was earned |
 | Score | The learner's final score |
-| QR code | A verification QR code |
+| Barcode | A barcode placeholder (`((certificate_barcode))`) used for verification |
 
 ### Uploading a Template
 

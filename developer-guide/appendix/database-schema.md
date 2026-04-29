@@ -1,14 +1,14 @@
 # Database Schema
 
-Chamilo 2.0 has 314 Doctrine entities that map to database tables.
+Chamilo 2.0 maps a large set of Doctrine entities to database tables. The exact counts drift between releases — read the entity directories listed below for the current state.
 
-## Entity Statistics
+## Entity locations
 
-| Bundle | Entity Count | Prefix |
-|--------|-------------|--------|
-| CoreBundle | 213 | None (e.g., `user`, `course`, `session`) |
-| CourseBundle | 101 | `c_` (e.g., `c_document`, `c_quiz`, `c_lp`) |
-| LtiBundle | ~5 | `lti_` |
+| Bundle | Where | Prefix |
+|--------|-------|--------|
+| CoreBundle | `src/CoreBundle/Entity/` | None (e.g., `user`, `course`, `session`) |
+| CourseBundle | `src/CourseBundle/Entity/` | `c_` (e.g., `c_document`, `c_quiz`, `c_lp`) |
+| LtiBundle | `src/LtiBundle/Entity/` | `lti_` |
 
 ## Key Tables
 

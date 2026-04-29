@@ -18,25 +18,15 @@ Upgrading from Chamilo 1.11.x to 2.0 is a **major migration**, not a simple upda
 
 ### Migration Process
 
+> **No turnkey 1.x → 2.x migration command is shipped with Chamilo today.** The PHP code base does not include a `chamilo:migrate` console command (or equivalent) that reads a 1.11.x database and writes it into the 2.x schema in one pass. Plan your migration as a manual data move rather than a single command run, and engage the Chamilo community channels for the migration tooling that may be available outside the core repository.
+
 1. **Install Chamilo 2.0** on a clean server or directory alongside your existing 1.11.x installation. Follow the standard [Installation Wizard](installation-wizard.md) to set up a fresh 2.0 instance.
 
-2. **Run the migration tool.** Chamilo provides a migration command that reads data from your 1.11.x database and imports it into the 2.0 schema:
+2. **Move data over piece by piece.** Until a built-in migration command is available, plan to migrate users, courses, sessions and tracking data through scripts you write or community-provided tools, by exporting from 1.x (SQL dumps and on-disk files) and importing through Chamilo 2.x's standard tools (CSV user import, course imports, session imports, etc.).
 
-   ```bash
-   php bin/console chamilo:migrate --source-database=chamilo_old
-   ```
+3. **Migrate files.** Files from your 1.11.x installation (`app/upload/`, `app/courses/`) need to be reorganised for the 2.x layout. There is no command that does this automatically — keep both filesystems available so you can move and re-link content as you go.
 
-   The migration tool handles:
-   - User accounts and profiles
-   - Course structures and content
-   - Session definitions and enrollments
-   - Exercise questions and results
-   - Tracking data and gradebook scores
-   - Forum posts and wiki content
-
-3. **Migrate files.** Upload files from your 1.11.x installation need to be moved and reorganized for the 2.0 file structure. The migration command handles the file mapping, but the source files must be accessible.
-
-4. **Verify the migration.** After the migration completes:
+4. **Verify the migration.** As you bring data over:
    - Log in as an administrator and check user counts.
    - Open several courses and verify content is present.
    - Check tracking data for a sample of learners.

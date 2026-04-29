@@ -36,64 +36,53 @@ composer require league/flysystem-azure-blob-storage
 
 ## Configuration
 
+Chamilo splits its files across several Flysystem mounts — **assets**, **assets cache**, **resources**, **resources cache**, **themes**, and **plugins**. Each mount can target a different bucket or container. The cloud configuration in `config/packages/oneup_flysystem.yaml` is selected by environment using `when@` conditions and reads the variables you set in `.env.local`.
+
 ### Amazon S3
 
-Add the following to your `.env.local`:
-
 ```bash
-STORAGE_ADAPTER=s3
-AWS_S3_BUCKET=your-bucket-name
-AWS_S3_REGION=us-east-1
-AWS_ACCESS_KEY_ID=your-access-key
-AWS_SECRET_ACCESS_KEY=your-secret-key
-```
+# .env.local — common credentials
+AWS_S3_STORAGE_VERSION=latest
+AWS_S3_STORAGE_REGION=eu-central-1
+AWS_S3_STORAGE_ACCESS_KEY=your-access-key
+AWS_S3_STORAGE_ACCESS_SECRET=your-secret-key
 
-Then configure the Flysystem adapter in `config/packages/flysystem.yaml`:
+# Per-mount buckets (each mount can be a different bucket)
+AWS_S3_STORAGE_ASSET_BUCKET=chamilo-assets
+AWS_S3_STORAGE_ASSET_CACHE_BUCKET=chamilo-asset-cache
+AWS_S3_STORAGE_RESOURCE_BUCKET=chamilo-resources
+AWS_S3_STORAGE_RESOURCE_CACHE_BUCKET=chamilo-resource-cache
+AWS_S3_STORAGE_THEMES_BUCKET=chamilo-themes
+AWS_S3_STORAGE_PLUGINS_BUCKET=chamilo-plugins
 
-```yaml
-flysystem:
-    storages:
-        default.storage:
-            adapter: 'aws'
-            options:
-                client: 's3_client'
-                bucket: '%env(AWS_S3_BUCKET)%'
-                prefix: 'chamilo'
-```
-
-### Google Cloud Storage
-
-```bash
-# .env.local
-STORAGE_ADAPTER=gcs
-GOOGLE_CLOUD_BUCKET=your-bucket-name
-GOOGLE_APPLICATION_CREDENTIALS=/path/to/service-account-key.json
+# Optional path prefixes inside a bucket — useful to share buckets across portals
+AWS_S3_STORAGE_ASSET_PREFIX=portal1/assets
+AWS_S3_STORAGE_RESOURCE_PREFIX=portal1/resources
 ```
 
 ### Azure Blob Storage
 
 ```bash
 # .env.local
-STORAGE_ADAPTER=azure
-AZURE_STORAGE_ACCOUNT=your-account-name
-AZURE_STORAGE_KEY=your-storage-key
-AZURE_STORAGE_CONTAINER=chamilo
+AZURE_STORAGE_CONNECTION_STRING='DefaultEndpointsProtocol=https;AccountName=...;AccountKey=...'
+AZURE_STORAGE_ASSET_CONTAINER=asset-container
+AZURE_STORAGE_ASSET_CACHE_CONTAINER=asset-cache-container
+AZURE_STORAGE_RESOURCE_CONTAINER=resources-container
+AZURE_STORAGE_RESOURCE_CACHE_CONTAINER=resources-cache-container
+AZURE_STORAGE_THEMES_CONTAINER=themes-container
+# Optional prefixes
+AZURE_STORAGE_ASSET_PREFIX=optional/prefix
 ```
+
+### Google Cloud Storage
+
+Configure GCS the same way as S3, using GCS-specific environment variables and one bucket per mount. Refer to the `oneup_flysystem.yaml` shipped with your release for the exact variable names — they are also documented in `.env`.
 
 ### MinIO (S3-Compatible)
 
-MinIO uses the same S3 adapter with a custom endpoint:
+MinIO works through the S3 adapter with a custom endpoint and path-style addressing — set `AWS_S3_STORAGE_*` as for S3 and add the MinIO endpoint and path-style flags supported by the bundle.
 
-```bash
-# .env.local
-STORAGE_ADAPTER=s3
-AWS_S3_BUCKET=chamilo
-AWS_S3_REGION=us-east-1
-AWS_S3_ENDPOINT=http://minio.local:9000
-AWS_ACCESS_KEY_ID=minioadmin
-AWS_SECRET_ACCESS_KEY=minioadmin
-AWS_S3_USE_PATH_STYLE=true
-```
+> The full set of variable names is listed in the `.env` file shipped with Chamilo. Copy only the lines for the provider you actually use into your `.env.local` and uncomment them.
 
 ## Migrating Existing Files
 

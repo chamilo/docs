@@ -54,14 +54,10 @@ composer require symfony/mailjet-mailer
 ### Brevo (formerly Sendinblue)
 
 ```bash
-MAILER_DSN=sendinblue+api://API_KEY@default
+MAILER_DSN=brevo+api://API_KEY@default
 ```
 
-Install the transport:
-
-```bash
-composer require symfony/sendinblue-mailer
-```
+The Brevo transport (`symfony/brevo-mailer`) is already in Chamilo's `composer.json`, so no extra `composer require` step is needed.
 
 ### Gmail (Development/Small Platforms)
 

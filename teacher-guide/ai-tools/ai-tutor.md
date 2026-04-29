@@ -17,7 +17,7 @@ The AI Tutor uses the course context to provide relevant answers. It is designed
 The AI Tutor requires two levels of configuration:
 
 1. **Platform level** — The administrator must enable AI helpers and configure at least one AI provider (see [AI Configuration](../../admin-guide/integrations/ai-configuration.md))
-2. **Course level** — The AI Tutor must be enabled in the course settings. As a teacher, you can choose which AI provider to use for your course if multiple providers are configured.
+2. **Course level** — The AI Tutor must be enabled in the course settings (a simple on/off toggle). The provider used for the chat is the one configured by the administrator.
 
 ## The Chat Interface
 
@@ -35,8 +35,8 @@ The chat interface shows the exchange between the learner and the AI in a famili
 
 * **Course context only** — The AI Tutor is only available inside a course, not on the general platform
 * **Disabled during exams** — The AI Tutor is automatically disabled when a learner is taking an exercise, to prevent cheating
-* **Conversation per learner** — Each learner has their own private conversation with the AI Tutor
-* **AI disclosure** — Responses include a disclosure notice indicating that the content is AI-generated
+* **Conversation per learner** — Each learner has their own private conversation with the AI Tutor, and the prompt context only includes the most recent messages
+* **Provider failover** — If the configured provider fails, Chamilo falls back to another available provider so the chat keeps working
 
 ## As a Teacher
 

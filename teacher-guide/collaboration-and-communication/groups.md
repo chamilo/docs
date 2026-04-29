@@ -21,17 +21,21 @@ Each group can have access to a subset of course tools that are shared only amon
 * **Documents** — A shared file space for the group
 * **Forum** — A group-specific discussion forum
 * **Wiki** — A collaborative wiki for the group
-* **Chat** — A group-only chat room
+* **Chat** — A chat space for the group
+* **Agenda** — Group-scoped calendar events
+* **Announcements** — Send announcements to group members only
+* **Assignments** — Collect work from the group
 
-You configure which tools are available to groups when creating or editing the group settings.
+For each tool you can choose its access level: **Not available**, **Public** (any course member), or **Private** (group members only). These settings can be applied at the group category level, so multiple groups in the same category share the same tool configuration.
 
 ## Managing Group Members
 
 You can manage group membership in several ways:
 
 * **Manual assignment** — Add specific learners to each group
-* **Random assignment** — Let Chamilo distribute learners randomly across groups
+* **Fill selected groups** — Automatically distribute unsubscribed learners across the selected groups, respecting each group's capacity and the per-user group limit
 * **Self-registration** — Allow learners to choose their own group
+* **Import from classes** — Auto-create groups from the classes already enrolled in the course
 
 To manually manage members, click on a group name, then use the **Members** section to add or remove learners.
 

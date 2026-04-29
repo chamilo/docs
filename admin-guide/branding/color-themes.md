@@ -4,7 +4,7 @@ Chamilo 2.0 introduces a color theme system that lets you customize the visual a
 
 ## How Themes Work
 
-Color themes define the palette used across the Chamilo interface — primary colors, accent colors, backgrounds, and text colors. Themes are applied globally and affect all pages.
+Color themes define the palette used across the Chamilo interface — primary colors, accent colors, backgrounds, and text colors. A theme is associated to an access URL: in a single-URL portal it effectively becomes the global theme, and in a multi-URL setup each URL can have its own.
 
 ## Applying a Theme
 

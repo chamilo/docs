@@ -12,15 +12,13 @@ Configure the basic identity of your portal:
 * **Institution name** — Your organization's name
 * **Institution URL** — A link to your organization's website
 * **Platform logo** — Upload your organization's logo (displayed in the top bar)
-* **Favicon** — The small icon shown in browser tabs
 
 ## Homepage Content
 
 Customize what users see on the home page:
 
 * **System announcements** — Post announcements visible to all users on the home page
-* **Custom pages** — Create static content pages accessible from the home page
-* **Featured courses** — Control whether featured courses are shown on the home page
+* **Hot courses** — Show or hide the "hot courses" block on the home page (controlled by the `show_hot_courses` setting)
 
 ## Footer
 
