@@ -36,7 +36,7 @@ Display a menu item that lets users access their pending surveys.
 
 **Display surveys from base course in all session courses**
 
-_No description in fixtures._
+[inferred] Make surveys from the base course visible and available to learners in all related session courses.
 
 ### `survey_additional_teacher_modify_actions`
 
@@ -48,7 +48,7 @@ Add actions (usually connected to plugins) in the list of surveys. Use array syn
 
 **Allow teachers to edit survey questions after students answered**
 
-_No description in fixtures._
+[inferred] Allow instructors to modify survey questions even after learners have submitted responses.
 
 ### `survey_anonymous_show_answered`
 
@@ -60,7 +60,7 @@ Allow teachers to see which learners have already answered an anonymous survey. 
 
 **Enable 'previous question' button in surveys**
 
-_No description in fixtures._
+[inferred] Enable a "previous question" navigation button to allow learners to review earlier survey questions.
 
 ### `survey_duplicate_order_by_name`
 
@@ -78,5 +78,5 @@ Should the survey invitations use the coach e-mail address or the no-reply addre
 
 **Mark all survey questions as 'required' by default**
 
-_No description in fixtures._
+[inferred] Automatically mark all newly created survey questions as required responses by default.
 

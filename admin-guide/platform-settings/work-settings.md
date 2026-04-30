@@ -18,13 +18,13 @@ Compilatio is an anti-cheating service that compares text between two submission
 
 **Enable My assignments page**
 
-_No description in fixtures._
+[inferred] Enable a dedicated page for learners to view and manage their own submitted assignments.
 
 ### `allow_only_one_student_publication_per_user`
 
 **Students can only upload one assignment**
 
-_No description in fixtures._
+[inferred] Restrict learners to submitting only one assignment per activity, preventing multiple submissions.
 
 ### `allow_redirect_to_main_page_after_work_upload`
 
@@ -36,25 +36,25 @@ Redirect to assignments list after uploading an assignment or a adding a comment
 
 **Prevent duplicate uploads in assignments**
 
-_No description in fixtures._
+[inferred] Block learners from uploading identical files for the same assignment submission.
 
 ### `block_student_publication_add_documents`
 
 **Prevent adding documents to assignments**
 
-_No description in fixtures._
+[inferred] Prevent learners from adding or attaching documents when submitting assignments.
 
 ### `block_student_publication_edition`
 
 **Prevent assignments edition**
 
-_No description in fixtures._
+[inferred] Prevent learners from modifying or updating their submitted assignments after initial submission.
 
 ### `block_student_publication_score_edition`
 
 **Prevent teacher from modifying assignment scores**
 
-_No description in fixtures._
+[inferred] Prevent instructors from changing assignment scores after they have been recorded.
 
 ### `compilatio_tool`
 
@@ -78,5 +78,5 @@ Force users to download the provided document in the assignment definition befor
 
 **Display link to 'pending' assignments from My courses page**
 
-_No description in fixtures._
+[inferred] Display a link or count of pending assignments on the learner's My Courses page for quick access.
 

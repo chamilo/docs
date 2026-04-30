@@ -24,7 +24,7 @@ Allows access to all personal files without restriction
 
 **Admins can set users passwords manually**
 
-_No description in fixtures._
+[inferred] When enabled, administrators can manually set user passwords directly without requiring users to reset them.
 
 ### `allow_captcha`
 

@@ -24,13 +24,13 @@ Given as array of e-mail addresses. Does not work for all cronjobs yet.
 
 **Extra e-mail HTML body attributes**
 
-_No description in fixtures._
+Extra HTML attributes to apply to the body tag of generated notification emails.
 
 ### `mail_header_style`
 
 **Extra e-mail HTML header attributes**
 
-_No description in fixtures._
+Extra HTML attributes to apply to the header section of generated notification emails.
 
 ### `mailer_debug_enable`
 
@@ -96,7 +96,7 @@ Add a custom extra footer for notifications emails for a specific language, for 
 
 **Send score in percentage in test results notification**
 
-_No description in fixtures._
+Sends exercise scores as percentages instead of points in test result notification emails.
 
 ### `send_two_inscription_confirmation_mail`
 
@@ -108,7 +108,7 @@ Send two separate e-mails on registration. One for the username, another one for
 
 **Show sender's e-mail address in notifications**
 
-_No description in fixtures._
+Includes the sender's email address with their name in personal message and notification emails.
 
 ### `update_users_email_to_dummy_except_admins`
 

@@ -150,7 +150,7 @@ If enabled, this option allows users to use a ‘lang’ attribute in HTML eleme
 
 **Hide the context menu on video player**
 
-_No description in fixtures._
+When enabled, the right-click context menu on HTML5 video players is disabled.
 
 ### `video_player_renderers`
 

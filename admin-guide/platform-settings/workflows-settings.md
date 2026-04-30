@@ -54,7 +54,7 @@ When disabled, admins do not have a link to quickly assign coaches to session-co
 
 **HRM can access all students from reporting pages**
 
-_No description in fixtures._
+[inferred] Grant HR/DRH managers access to reporting pages for all learners across the platform.
 
 ### `gamification_mode`
 
@@ -132,17 +132,17 @@ An array of role => number which represents the number of days an account has be
 
 **Disable user unsubscription from course/session on user unsubscription from group/class**
 
-_No description in fixtures._
+[inferred] When removing a user from a group/class, do not automatically unsubscribe them from associated courses or sessions.
 
 ### `usergroup_do_not_unsubscribe_users_from_course_on_course_unsubscribe`
 
 **Disable user unsubscription from course on course removal from group/class**
 
-_No description in fixtures._
+[inferred] When a course is removed from a group/class, do not automatically unsubscribe users from that course.
 
 ### `usergroup_do_not_unsubscribe_users_from_session_on_session_unsubscribe`
 
 **Disable user unsubscription from session on session removal from group/class**
 
-_No description in fixtures._
+[inferred] When a session is removed from a group/class, do not automatically unsubscribe users from that session.
 

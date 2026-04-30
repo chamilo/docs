@@ -48,7 +48,7 @@ Enable subscription to learning paths and learning path categories to groups/cla
 
 **Learning paths categories can be managed in sessions**
 
-_No description in fixtures._
+[inferred] Enable learners and instructors to organize and manage learning paths by categories within session courses.
 
 ### `allow_teachers_to_access_blocked_lp_by_prerequisite`
 
@@ -150,7 +150,7 @@ Add a minimum time field to learning paths. If the user has not spent that much 
 
 **Unlock learning path item if max attempt is reached for test prerequisite**
 
-_No description in fixtures._
+[inferred] Automatically unlock subsequent learning path items when a learner exhausts maximum quiz attempts for a prerequisite test.
 
 ### `lp_prerequisite_on_quiz_unblock_if_max_attempt_reached`
 
@@ -180,7 +180,7 @@ This is useful when using SCORM content with only one large SCO. SCORM does not 
 
 **Show max progress instead of average for learning paths reporting**
 
-_No description in fixtures._
+[inferred] Calculate learning path progress based on maximum item completion rather than averaging all items.
 
 ### `lp_show_max_progress_or_average_enable_course_level_redefinition`
 
@@ -210,7 +210,7 @@ Configure additional options for the learning paths subscription feature. Option
 
 **Foldable learning paths' items**
 
-_No description in fixtures._
+[inferred] Display learning path items in collapsible accordion format for improved navigation and content organization.
 
 ### `lp_view_settings`
 
@@ -228,7 +228,7 @@ Give the name of the extra field to be used as student_id for all SCORM communic
 
 **Use username as student\_id in SCORM communication**
 
-_No description in fixtures._
+[inferred] Use learner username as the student identifier in SCORM API communication instead of learner ID.
 
 ### `scorm_lms_update_sco_status_all_time`
 
@@ -252,7 +252,7 @@ Show hidden exercises that were added to a LP in the exercise list. If we are in
 
 **Display tests in list of learning path tests even if invisible**
 
-_No description in fixtures._
+[inferred] Include hidden tests in the list of available tests when viewing learning path contents.
 
 ### `show_invisible_exercise_in_lp_toc`
 
@@ -282,7 +282,7 @@ Add column to learner follow-up page to show acquisition status by a learner on 
 
 **Add visibility information for learning paths on learner follow-up page**
 
-_No description in fixtures._
+[inferred] Display visibility status indicator for learning paths on the learner progress tracking page.
 
 ### `student_follow_page_add_LP_subscription_info`
 
@@ -300,13 +300,13 @@ Hides the icon of percentage in 'Average of tests in Learning Paths' indication 
 
 **Include learning paths not subscribed to on learner follow-up page**
 
-_No description in fixtures._
+[inferred] Show learning paths on progress pages even when learners are not subscribed to them.
 
 ### `ticket_lp_quiz_info_add`
 
 **Add learning paths and tests info to ticket reporting**
 
-_No description in fixtures._
+[inferred] Include learning path and test information in support ticket reporting for better issue tracking.
 
 ### `validate_lp_prerequisite_from_other_session`
 

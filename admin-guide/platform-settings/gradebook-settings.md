@@ -102,7 +102,7 @@ Avoid learners clicking on items from the gradebook by removing the links on the
 
 **Hide gradebook button 'download PDF report'**
 
-_No description in fixtures._
+Removes the PDF export button from gradebook views for learners.
 
 ### `gradebook_hide_table`
 
@@ -120,7 +120,7 @@ Once enabled, this option will enable locking of any assessment by the teachers 
 
 **Allow multiple evaluation attempts in gradebook**
 
-_No description in fixtures._
+Allows adding comments to multiple evaluation attempts in gradebook and result tables.
 
 ### `gradebook_number_decimals`
 
@@ -156,7 +156,7 @@ Tick the box to enable Competence levels labelling
 
 **Custom score display in gradebook's standalone column**
 
-_No description in fixtures._
+Shows custom competence level values in a separate column in gradebook flatview when using custom score display.
 
 ### `gradebook_score_display_upperlimit`
 
@@ -174,19 +174,19 @@ Improve speed when rendering gradebook student reports using Doctrine APCU cache
 
 **Use test settings for grades display**
 
-_No description in fixtures._
+Applies exercise score display settings (percentage vs. points) to category scores in gradebook.
 
 ### `gradebook_use_exercise_score_settings_in_total`
 
 **Use global score display setting in gradebook**
 
-_No description in fixtures._
+Applies global exercise score display settings to total score calculations in gradebook.
 
 ### `hide_gradebook_percentage_user_result`
 
 **Hide percentage in best/average gradebook results**
 
-_No description in fixtures._
+Removes percentage display from best/average score results shown to learners in gradebook.
 
 ### `my_display_coloring`
 

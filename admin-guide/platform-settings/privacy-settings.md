@@ -12,19 +12,19 @@ Access these settings under **Administration > Configuration settings > Privacy*
 
 **Data protection officer e-mail address**
 
-_No description in fixtures._
+Email address for the designated data protection officer, displayed in GDPR/privacy sections.
 
 ### `data_protection_officer_name`
 
 **Data protection officer name**
 
-_No description in fixtures._
+Full name of the designated data protection officer, displayed in personal data and privacy pages.
 
 ### `data_protection_officer_role`
 
 **Data protection officer role**
 
-_No description in fixtures._
+Job title or role of the designated data protection officer, displayed alongside their name in privacy information.
 
 ### `disable_change_user_visibility_for_public_courses`
 

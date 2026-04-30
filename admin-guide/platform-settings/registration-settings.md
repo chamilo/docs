@@ -90,13 +90,13 @@ Define redirection per profile after login using a JSON object like {"STUDENT":"
 
 **Required extra fields during registration**
 
-_No description in fixtures._
+Array of extra field identifiers that must be completed during user registration.
 
 ### `required_profile_fields`
 
 **Required fields during registration**
 
-_No description in fixtures._
+Array of profile field names (email, phone, language, official_code) that must be provided during registration.
 
 ### `send_inscription_msg_to_inbox`
 

@@ -42,7 +42,7 @@ Enable the display of a map in the social network allowing you to locate other u
 
 **Allow teachers to manage classes**
 
-_No description in fixtures._
+Enables teachers to manage class groups and their membership within the system.
 
 ### `allow_user_headings`
 
@@ -102,7 +102,7 @@ Use the email in order to login to the system
 
 **Default number of items per page in mySpace**
 
-_No description in fixtures._
+Number of records displayed per page in MySpace tracking sections (users, work statistics, student list).
 
 ### `pass_reminder_custom_link`
 

@@ -60,13 +60,13 @@ The default behaviour is to send administrators directly to the administration p
 
 **Notify global admin only of new users**
 
-_No description in fixtures._
+When enabled, only the global administrator receives email notifications about new user registrations instead of all administrators.
 
 ### `show_link_request_hrm_user`
 
 **Show link to request bond between user and HRM**
 
-_No description in fixtures._
+Display a link on the profile page allowing Human Resources directors to request to be linked with a user account.
 
 ### `user_status_option_only_for_admin_enabled`
 

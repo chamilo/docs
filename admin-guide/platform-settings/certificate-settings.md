@@ -12,7 +12,7 @@ Access these settings under **Administration > Configuration settings > Certific
 
 **Add footer to PDF certificate exports**
 
-_No description in fixtures._
+When enabled, a footer is added to PDF exports of certificates.
 
 ### `allow_general_certificate`
 

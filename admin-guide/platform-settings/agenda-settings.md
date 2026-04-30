@@ -42,7 +42,7 @@ This gives the HRM a little more power by allowing them to edit/delete agenda ev
 
 **Link global calendar events with careers and promotions**
 
-_No description in fixtures._
+When enabled, global calendar events can be associated with careers and promotions, allowing targeted scheduling.
 
 ### `allow_personal_agenda`
 
@@ -72,5 +72,5 @@ Do not hide events from expired sessions.
 
 **Display sessions occupations in personal agenda**
 
-_No description in fixtures._
+When enabled, session schedules and occupations are displayed in users' personal calendars.
 

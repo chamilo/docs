@@ -36,19 +36,19 @@ Users can see their skills in the social network and in a block in the homepage.
 
 **Allow teachers to access learners' skills**
 
-_No description in fixtures._
+[inferred] Allow instructors to view and monitor skills acquired by learners in their courses.
 
 ### `badge_assignation_notification`
 
 **Send notification to learner when a skill/badge has been acquired**
 
-_No description in fixtures._
+[inferred] Send notifications to learners when they acquire a new skill or badge achievement.
 
 ### `hide_skill_levels`
 
 **Hide skill levels feature**
 
-_No description in fixtures._
+[inferred] Conceal the skill level hierarchy and level labels in skill-related views.
 
 ### `manual_assignment_subskill_autoload`
 
@@ -78,7 +78,7 @@ Define names for levels of skills as an array of id => name.
 
 **Show skills as a hierarchical table**
 
-_No description in fixtures._
+[inferred] Display learner skills as a hierarchical tree structure in progress and reporting pages.
 
 ### `skills_teachers_can_assign_skills`
 

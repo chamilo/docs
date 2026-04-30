@@ -42,11 +42,11 @@ Allows users to add feedback (likes or dislikes) to posts in social wall.
 
 **Teachers and admins see students as friends on social network**
 
-_No description in fixtures._
+Automatically makes instructors and administrators appear as friends to all students in the social network module.
 
 ### `social_show_language_flag_in_profile`
 
 **Show language flag next to avatar in social network**
 
-_No description in fixtures._
+Displays the user's language preference as a flag icon next to their avatar in social network profiles.
 

@@ -138,7 +138,7 @@ Define an array with the list of user extra fields to add to the report.
 
 **Round score in test exports**
 
-_No description in fixtures._
+When enabled, test scores are rounded to the nearest integer when exporting exercise reports.
 
 ### `exercise_embeddable_extra_types`
 
@@ -324,7 +324,7 @@ On the test results page, display a link to download the results as a file.
 
 **Always show test description on results page**
 
-_No description in fixtures._
+When enabled, the test description is always displayed on the results page after test completion.
 
 ### `score_grade_model`
 

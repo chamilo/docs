@@ -54,13 +54,13 @@ Enable this if you have X-sendfile enabled at the web server level and you want 
 
 **Enable sharing options for document inside group category**
 
-_No description in fixtures._
+When enabled, administrators can set document access and sharing permissions for document groups by category.
 
 ### `group_document_access`
 
 **Enable sharing options for group document**
 
-_No description in fixtures._
+When enabled, document sharing and access permissions can be configured at the group level.
 
 ### `pdf_export_watermark_by_course`
 

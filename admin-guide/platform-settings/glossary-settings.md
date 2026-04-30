@@ -12,7 +12,7 @@ Access these settings under **Administration > Configuration settings > Glossary
 
 **Remove HTML tags in glossary export**
 
-_No description in fixtures._
+When enabled, HTML tags are removed from glossary term definitions when exporting.
 
 ### `default_glossary_view`
 

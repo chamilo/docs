@@ -24,7 +24,7 @@ Only allow students to talk to the tutors in the course (not other students).
 
 **Hide videochat option in global chat**
 
-_No description in fixtures._
+When enabled, video chat functionality is disabled and unavailable in the global chat tool.
 
 ### `save_private_conversations_in_documents`
 

@@ -12,7 +12,7 @@ Access these settings under **Administration > Configuration settings > Announce
 
 **Link global announcements with careers and promotions**
 
-_No description in fixtures._
+When enabled, global announcements can be associated with careers and promotions for targeted distribution.
 
 ### `allow_coach_to_edit_announcements`
 

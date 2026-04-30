@@ -36,13 +36,13 @@ Allow coaches to edit inside course sessions
 
 **Session admins can delete users**
 
-_No description in fixtures._
+Session administrators can remove users from the platform when managing their session(s).
 
 ### `allow_disable_user_for_session_admin`
 
 **Session admins can disable users**
 
-_No description in fixtures._
+Session administrators can disable user accounts to prevent login while retaining enrollment records in their session(s).
 
 ### `allow_edit_tool_visibility_in_session`
 
@@ -54,7 +54,7 @@ When using sessions, the default behaviour is to use the tool visibility defined
 
 **Redirect to session after registration in session's 'About' page**
 
-_No description in fixtures._
+Automatically redirect new users to their session page after they complete registration through a session's About page.
 
 ### `allow_search_diagnostic`
 
@@ -66,19 +66,19 @@ Allow tutors to get a diagnosis that will allow them to search for the best sess
 
 **Session admin can access batch user import, update and export**
 
-_No description in fixtures._
+Session administrators can access batch user import, update, and export functionality in addition to their standard permissions.
 
 ### `allow_session_admin_login_as_teacher`
 
 **Session admins can 'login as' teachers**
 
-_No description in fixtures._
+Session administrators can impersonate teacher accounts to preview course content and student experience within their session(s).
 
 ### `allow_session_admin_read_careers`
 
 **Session admins can view careers**
 
-_No description in fixtures._
+[inferred] Session administrators can view and access career paths and promotion workflows linked to their managed sessions.
 
 ### `allow_session_admins_to_manage_all_sessions`
 
@@ -108,7 +108,7 @@ When enabled, course coaches/tutors in sessions can subscribe new users to their
 
 **Allow user to collapse sessions in My sessions**
 
-_No description in fixtures._
+Users can collapse session cards or groups in the My sessions page to reduce visual clutter and improve navigation.
 
 ### `assignment_base_course_teacher_access_to_all_session`
 
@@ -156,13 +156,13 @@ Allows duplication of resources that were created in the session when duplicatin
 
 **Add reset password link to e-mail notification of subscription to session**
 
-_No description in fixtures._
+Include a password reset link in subscription confirmation emails sent to users when they are enrolled in a session.
 
 ### `email_template_subscription_to_session_confirmation_username`
 
 **Add username to e-mail notification of subscription to session**
 
-_No description in fixtures._
+Include the user's username in subscription confirmation emails sent when they are enrolled in a session.
 
 ### `enable_auto_reinscription`
 
@@ -198,25 +198,25 @@ Sessions that include the course are listed in the reporting tool inside the cou
 
 **Hide search form in sessions list**
 
-_No description in fixtures._
+Remove the search input field from the session list view in the administration interface.
 
 ### `hide_session_graph_in_my_progress`
 
 **Hide session chart in My progress**
 
-_No description in fixtures._
+Conceal session progress charts and visualizations from the My progress page in learner dashboards.
 
 ### `hide_tab_list`
 
 **Hide tabs on the session page**
 
-_No description in fixtures._
+Remove navigation tabs from the session detail page to simplify the interface.
 
 ### `limit_session_admin_list_users`
 
 **Session admins are forbidden access to the users list**
 
-_No description in fixtures._
+Prevent session administrators from accessing the global users list in the administration interface.
 
 ### `limit_session_admin_role`
 
@@ -258,13 +258,13 @@ Hide link to the session page from the sessions list.
 
 **Session admins can access all course content**
 
-_No description in fixtures._
+Session administrators can view all course content within their sessions, including restricted or archived materials.
 
 ### `session_admins_edit_courses_content`
 
 **Session admins can edit course content**
 
-_No description in fixtures._
+Session administrators can modify course content (documents, exercises, tools) in courses assigned to their sessions.
 
 ### `session_automatic_creation_user_id`
 
@@ -336,7 +336,7 @@ Array of options to apply as default parameters in the CSV/XML session import.
 
 **Sessions support manual sorting**
 
-_No description in fixtures._
+Enable manual reordering of sessions in the administration session list via drag-and-drop or similar mechanism.
 
 ### `session_list_show_count_users`
 
@@ -354,7 +354,7 @@ If enabled, the session dates on the "My Sessions" page will be replaced by the 
 
 **Sort session templates by id in session creation form**
 
-_No description in fixtures._
+[inferred] Sort session templates by their numeric ID in the session creation form dropdown instead of alphabetically by name.
 
 ### `session_multiple_subscription_students_list_avoid_emptying`
 
@@ -396,7 +396,7 @@ Add coach and dates to the session's subtitle in the sessions' list.
 
 **Only display users from active sessions in tracking**
 
-_No description in fixtures._
+Display only users from currently active sessions in learner tracking and reporting views.
 
 ### `tracking_columns`
 
