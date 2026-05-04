@@ -4,7 +4,7 @@ Privacy and data-protection (GDPR-style) controls — consent, data export, acco
 
 Access these settings under **Administration > Configuration settings > Privacy**. This category contains **6 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
 
-> The variable name in code is shown in `monospace`. Use it when scripting via the API or referring to settings in `.env` overrides.
+> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
 
 ## Settings
 
