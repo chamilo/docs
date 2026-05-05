@@ -103,7 +103,6 @@
     * [Learning Paths](admin-guide/platform-settings/lp-settings.md)
     * [Mail](admin-guide/platform-settings/mail-settings.md)
     * [Messaging](admin-guide/platform-settings/message-settings.md)
-    * [Module Settings](admin-guide/platform-settings/module-settings.md)
     * [Performance Tuning](admin-guide/platform-settings/performance-tuning.md)
     * [Platform](admin-guide/platform-settings/platform-settings.md)
     * [Privacy](admin-guide/platform-settings/privacy-settings.md)
