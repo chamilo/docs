@@ -40,7 +40,6 @@ For each assignment:
 
 * Number of submissions received
 * Number of pending reviews
-* Score distribution for graded submissions
 
 ## Exporting Data
 
