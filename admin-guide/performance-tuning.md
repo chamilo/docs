@@ -1,6 +1,8 @@
 # Performance Tuning
 
-Performance settings help optimize Chamilo for faster page loads and better resource utilization, especially on platforms with many concurrent users. Access relevant settings from **Administration > Configuration settings**.
+Performance settings help optimize Chamilo for faster page loads and better resource utilization, especially on platforms with many concurrent users.
+
+> **Additional reference**: Your Chamilo installation includes an extended optimization guide. Open `/documentation/optimization.html` in a browser (e.g. `https://your-chamilo-site/documentation/optimization.html`) for server-level recommendations specific to your version.
 
 ## Symfony Cache
 
