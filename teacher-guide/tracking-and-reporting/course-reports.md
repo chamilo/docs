@@ -47,4 +47,4 @@ You can export tracking and report data for further analysis. Look for the **Exp
 
 ## Session Reports
 
-If you teach within a session, reports are scoped to the session's learners. Session coaches have access to reports across all courses in their session.
+If you teach within a session, reports are scoped to the session's learners. Session coaches have access to reports across all courses in their session. A global configuration setting can also allows teachers to see assignments through all sessions using their course (ask your admin).
