@@ -14,11 +14,17 @@ Access these settings under **Administration > Configuration settings > Workflow
 
 Activate this option will allow course administrator to subscribe users inside a course
 
+*Default: `true`*
+
+
 ### `allow_users_to_create_courses`
 
 **Allow non admin to create courses**
 
 Allow non administrators (teachers) to create new courses on the server
+
+*Default: `false`*
+
 
 ### `allow_working_time_edition`
 
@@ -26,11 +32,17 @@ Allow non administrators (teachers) to create new courses on the server
 
 Enable this feature to let teachers manually update the time spent in the course by learners.
 
+*Default: `false`*
+
+
 ### `course_visibility_change_only_admin`
 
 **Course visibility changes for admins only**
 
 Remove the possibility for non-admins to change the course visibility. Visibility can be an issue when there are too many teachers to control directly. Forcing visibilities allows the organization to better manage courses catalogues.
+
+*Default: `false`*
+
 
 ### `default_menu_entry_for_course_or_session`
 
@@ -38,11 +50,17 @@ Remove the possibility for non-admins to change the course visibility. Visibilit
 
 Define the default sub-elements of the 'Courses' entry to display if user is not registered to any course nor session.
 
+*Default: `my_courses`*
+
+
 ### `disable_user_conditions_sender_id`
 
 **Internal ID of the user used to send disabled account notifications**
 
 Avoid being too personal with users by using a 'bot' account to send e-mails to users when their account is disabled for some reason.
+
+*Default: `0`*
+
 
 ### `disabled_edit_session_coaches_course_editing_course`
 
@@ -50,11 +68,17 @@ Avoid being too personal with users by using a 'bot' account to send e-mails to 
 
 When disabled, admins do not have a link to quickly assign coaches to session-courses on the course edition page.
 
+*Default: `false`*
+
+
 ### `drh_allow_access_to_all_students`
 
 **HRM can access all students from reporting pages**
 
 [inferred] Grant HR/DRH managers access to reporting pages for all learners across the platform.
+
+*Default: `false`*
+
 
 ### `gamification_mode`
 
@@ -68,11 +92,17 @@ Activate the stars achievement in learning paths
 
 When a user is registered in one course, go directly to the course after login
 
+*Default: `false`*
+
+
 ### `load_term_conditions_section`
 
 **Load term conditions section**
 
 The legal agreement will appear during the login or when enter to a course.
+
+*Default: `login`*
+
 
 ### `multiple_url_hide_disabled_settings`
 
@@ -80,11 +110,17 @@ The legal agreement will appear during the login or when enter to a course.
 
 Set to yes to hide settings completely in a sub-URL if the setting is disabled in the main URL (where the access_url_changeable field = 0)
 
+*Default: `false`*
+
+
 ### `plugin_redirection_enabled`
 
 **Enable redirection plugin**
 
 Enable only if you are using the Redirection plugin
+
+*Default: `false`*
+
 
 ### `redirect_index_to_url_for_logged_users`
 
@@ -110,6 +146,9 @@ This setting defines the extra user field key (e.g., "company") that will be use
 
 Allow pick a course as template for the new course that teacher is creating
 
+*Default: `true`*
+
+
 ### `update_student_expiration_x_date`
 
 **Set expiration date on first login**
@@ -134,15 +173,24 @@ An array of role => number which represents the number of days an account has be
 
 [inferred] When removing a user from a group/class, do not automatically unsubscribe them from associated courses or sessions.
 
+*Default: `false`*
+
+
 ### `usergroup_do_not_unsubscribe_users_from_course_on_course_unsubscribe`
 
 **Disable user unsubscription from course on course removal from group/class**
 
 [inferred] When a course is removed from a group/class, do not automatically unsubscribe users from that course.
 
+*Default: `false`*
+
+
 ### `usergroup_do_not_unsubscribe_users_from_session_on_session_unsubscribe`
 
 **Disable user unsubscription from session on session removal from group/class**
 
 [inferred] When a session is removed from a group/class, do not automatically unsubscribe users from that session.
+
+*Default: `false`*
+
 

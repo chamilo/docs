@@ -14,11 +14,15 @@ Access these settings under **Administration > Configuration settings > Glossary
 
 When enabled, HTML tags are removed from glossary term definitions when exporting.
 
+*Default: `false`*
+
 ### `default_glossary_view`
 
 **Default glossary view**
 
 Choose which view ('table' or 'list') will be used by default in the glossary tool.
+
+*Default: `table`*
 
 ### `show_glossary_in_extra_tools`
 

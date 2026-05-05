@@ -14,6 +14,9 @@ Access these settings under **Administration > Configuration settings > Mail**. 
 
 Allow anonymous users to send e-mails from the platform. In this day and age of information security this is not a recommended option.
 
+*Default: `true`*
+
+
 ### `cron_notification_help_desk`
 
 **E-mail addresses to send cronjobs execution reports**
@@ -38,6 +41,9 @@ Extra HTML attributes to apply to the header section of generated notification e
 
 Select whether you want to enable the e-mail sending debug logs. These will give you more information on what is happening when connecting to the mail service, but are not elegant and might break page design. Only use when there is not user activity.
 
+*Default: `false`*
+
+
 ### `mailer_dkim`
 
 **Mail: DKIM headers**
@@ -55,6 +61,9 @@ The DSN fully includes all parameters needed to connect to the mail service. You
 **Mail: Avoid using LD+JSON**
 
 Some e-mail clients do not understand the descriptive LD+JSON format, showing it as a loose JSON string to the final user. If this is your case, you might want to set the variable below to 'false' to disable this header.
+
+*Default: `false`*
+
 
 ### `mailer_from_email`
 
@@ -74,6 +83,9 @@ Sets the default display name used for sending platform emails. e.g. "Support te
 
 In case you need to define the charset to use when sending those e-mails. Leave empty if you're not sure.
 
+*Default: `UTF-8`*
+
+
 ### `mailer_xoauth2`
 
 **Mail: XOAuth2 options**
@@ -85,6 +97,9 @@ If you use some XOAuth2-based e-mail service, use this setting in JSON to save y
 **Hide e-mail content to bring users to platform**
 
 Prefer short e-mail versions with a link to the messaging space on the platform to increase platform-based engagement.
+
+*Default: `false`*
+
 
 ### `notifications_extended_footer_message`
 
@@ -98,11 +113,17 @@ Add a custom extra footer for notifications emails for a specific language, for 
 
 Sends exercise scores as percentages instead of points in test result notification emails.
 
+*Default: `false`*
+
+
 ### `send_two_inscription_confirmation_mail`
 
 **Send 2 registration e-mails**
 
 Send two separate e-mails on registration. One for the username, another one for the password.
+
+*Default: `false`*
+
 
 ### `show_user_email_in_notification`
 
@@ -110,9 +131,15 @@ Send two separate e-mails on registration. One for the username, another one for
 
 Includes the sender's email address with their name in personal message and notification emails.
 
+*Default: `false`*
+
+
 ### `update_users_email_to_dummy_except_admins`
 
 **Update users e-mail to dummy value during imports**
 
 During special CSV cron imports of users, automatically replace e-mails with dummy e-mail username@example.com.
+
+*Default: `false`*
+
 

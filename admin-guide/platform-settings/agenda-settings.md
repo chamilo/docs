@@ -32,11 +32,15 @@ Customize the agenda on cursor hovering. Show agenda comment and/or description.
 
 Sets which user appears as the sender of agenda reminder emails.
 
+*Default: `0`*
+
 ### `allow_agenda_edit_for_hrm`
 
 **Allow HRM role to edit or delete agenda events**
 
 This gives the HRM a little more power by allowing them to edit/delete agenda events in the course-session.
+
+*Default: `false`*
 
 ### `allow_careers_in_global_agenda`
 
@@ -44,17 +48,23 @@ This gives the HRM a little more power by allowing them to edit/delete agenda ev
 
 When enabled, global calendar events can be associated with careers and promotions, allowing targeted scheduling.
 
+*Default: `false`*
+
 ### `allow_personal_agenda`
 
 **Personal Agenda**
 
 Can the learner add personal events to the Agenda?
 
+*Default: `true`*
+
 ### `default_calendar_view`
 
 **Default calendar display mode**
 
 Set this to dayGridMonth, basicWeek, agendaWeek or agendaDay to change the default view of the calendar.
+
+*Default: `month`*
 
 ### `fullcalendar_settings`
 
@@ -68,9 +78,13 @@ Extra settings for the agenda, allowing you to configure the specific calendar l
 
 Do not hide events from expired sessions.
 
+*Default: `false`*
+
 ### `personal_calendar_show_sessions_occupation`
 
 **Display sessions occupations in personal agenda**
 
 When enabled, session schedules and occupations are displayed in users' personal calendars.
+
+*Default: `false`*
 

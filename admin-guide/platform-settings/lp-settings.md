@@ -14,11 +14,17 @@ Access these settings under **Administration > Configuration settings > Learning
 
 When exporting a LP, all files and folders in the same path of an html will be exported too.
 
+*Default: `false`*
+
+
 ### `allow_htaccess_import_from_scorm`
 
 **Allow .htaccess from SCORM packages**
 
 Normally, all .htaccess files are filtered and removed when importing content in Chamilo. This feature allows .htaccess to be imported if it is present in a SCORM package.
+
+*Default: `false`*
+
 
 ### `allow_import_scorm_package_in_course_builder`
 
@@ -26,11 +32,17 @@ Normally, all .htaccess files are filtered and removed when importing content in
 
 Enable to copy the directory structure of SCORM packages when restoring a course (from the course maintenance tool).
 
+*Default: `false`*
+
+
 ### `allow_lp_chamilo_export`
 
 **Export learning paths in the Chamilo backup format**
 
 Enable the possibility to export any of your learning paths in a Chamilo course backup format.
+
+*Default: `false`*
+
 
 ### `allow_lp_return_link`
 
@@ -38,11 +50,17 @@ Enable the possibility to export any of your learning paths in a Chamilo course 
 
 Disable this option to hide the 'Return to homepage' button in the learning paths
 
+*Default: `true`*
+
+
 ### `allow_lp_subscription_to_usergroups`
 
 **Learning paths subscription for classes**
 
 Enable subscription to learning paths and learning path categories to groups/classes.
+
+*Default: `false`*
+
 
 ### `allow_session_lp_category`
 
@@ -50,11 +68,17 @@ Enable subscription to learning paths and learning path categories to groups/cla
 
 [inferred] Enable learners and instructors to organize and manage learning paths by categories within session courses.
 
+*Default: `false`*
+
+
 ### `allow_teachers_to_access_blocked_lp_by_prerequisite`
 
 **Teachers can access blocked learning paths**
 
 Teachers do not need to pass complete learning paths to have access to a prerequisites-blocked learning path.
+
+*Default: `false`*
+
 
 ### `disable_js_in_lp_view`
 
@@ -62,11 +86,16 @@ Teachers do not need to pass complete learning paths to have access to a prerequ
 
 Disable JS files that Chamilo usually adds to HTML files in the learning path (while displaying them).
 
+*Default: `false`*
+
+
 ### `disable_my_lps_page`
 
 **Hide 'My learning paths' page**
 
 The page 'My learning path' was added in 1.11. Use this option to hide it.
+
+*Default: `false`*
 
 ### `download_files_after_all_lp_finished`
 
@@ -80,11 +109,15 @@ Show download files button after finishing all LP. Example: if ABC is the course
 
 Enable editing tests even if they have been included in a learning path. The default is to prevent edition if the test is in a learning path, because that can affect consistency of tracking among many learners if test modifications are significant.
 
+*Default: `false`*
+
 ### `hide_accessibility_label_on_lp_item`
 
 **Hide requirements label in learning paths**
 
 Hide the pre-requisites tooltip on learning path items. This is mostly an estaethic choice.
+
+*Default: `true`*
 
 ### `hide_lp_time`
 
@@ -92,11 +125,15 @@ Hide the pre-requisites tooltip on learning path items. This is mostly an estaet
 
 Hide learning paths time spent in reports in general.
 
+*Default: `false`*
+
 ### `hide_scorm_copy_link`
 
 **Hide SCORM Copy**
 
 Hide the Learning Path Copy icon from the Learning Paths list
+
+*Default: `false`*
 
 ### `hide_scorm_export_link`
 
@@ -104,11 +141,15 @@ Hide the Learning Path Copy icon from the Learning Paths list
 
 Hide the SCORM Export icon from the Learning Paths list
 
+*Default: `false`*
+
 ### `hide_scorm_pdf_link`
 
 **Hide Learning Path PDF export**
 
 Hide the Learning Path PDF Export icon from the Learning Paths list
+
+*Default: `true`*
 
 ### `lp_allow_export_to_students`
 
@@ -116,11 +157,15 @@ Hide the Learning Path PDF Export icon from the Learning Paths list
 
 Enable this to allow learners to download the learning paths as SCORM packages.
 
+*Default: `false`*
+
 ### `lp_enable_flow`
 
 **Navigate between learning paths**
 
 Add the possibility to select a 'next' learning path and show buttons inside the learning path to move from one to the next.
+
+*Default: `false`*
 
 ### `lp_fixed_encoding`
 
@@ -128,11 +173,15 @@ Add the possibility to select a 'next' learning path and show buttons inside the
 
 Reduce resource usage by ignoring a check on the text encoding in imported learning paths.
 
+*Default: `false`*
+
 ### `lp_item_prerequisite_dates`
 
 **Date-based learning path items prerequisites**
 
 Adds the option to define prerequisites with start and end dates for learnpath items.
+
+*Default: `false`*
 
 ### `lp_menu_location`
 
@@ -140,11 +189,15 @@ Adds the option to define prerequisites with start and end dates for learnpath i
 
 Set this to 'left' or 'right' to change the side of the learning path menu.
 
+*Default: `left`*
+
 ### `lp_minimum_time`
 
 **Minimum time to complete learning path**
 
 Add a minimum time field to learning paths. If the user has not spent that much time on the learning path, the last item of the learning path cannot be completed.
+
+*Default: `false`*
 
 ### `lp_prerequisit_on_quiz_unblock_if_max_attempt_reached`
 
@@ -152,11 +205,16 @@ Add a minimum time field to learning paths. If the user has not spent that much 
 
 [inferred] Automatically unlock subsequent learning path items when a learner exhausts maximum quiz attempts for a prerequisite test.
 
+*Default: `false`*
+
+
 ### `lp_prerequisite_on_quiz_unblock_if_max_attempt_reached`
 
 **Unlock prerequisites after last test attempt**
 
 Allows users to continue in a learning path after using all quiz attempts of a test used as prerequisite for other items.
+
+*Default: `false`*
 
 ### `lp_prerequisite_use_last_attempt_only`
 
@@ -164,11 +222,15 @@ Allows users to continue in a learning path after using all quiz attempts of a t
 
 When a test is used as prerequisite for an item in the learning path, use the last attempt of the test only as validation for the prerequisite (default is to use best attempt).
 
+*Default: `false`*
+
 ### `lp_prevents_beforeunload`
 
 **Prevent beforeunload JS event in learning path**
 
 This helps with browser compatibility by preventing tricky JS events to execute.
+
+*Default: `false`*
 
 ### `lp_score_as_progress_enable`
 
@@ -176,11 +238,15 @@ This helps with browser compatibility by preventing tricky JS events to execute.
 
 This is useful when using SCORM content with only one large SCO. SCORM does not communicate progress, so this is a trick to use the score as progress. Enabling this option will let you configure this on a per-learning path basis.
 
+*Default: `false`*
+
 ### `lp_show_max_progress_instead_of_average`
 
 **Show max progress instead of average for learning paths reporting**
 
 [inferred] Calculate learning path progress based on maximum item completion rather than averaging all items.
+
+*Default: `false`*
 
 ### `lp_show_max_progress_or_average_enable_course_level_redefinition`
 
@@ -188,17 +254,23 @@ This is useful when using SCORM content with only one large SCO. SCORM does not 
 
 Enable redefinition of the setting to show the best progress instead of averages in reporting of learnpaths at a course level.
 
+*Default: `false`*
+
 ### `lp_show_reduced_report`
 
 **Learning paths: show reduced report**
 
 Inside the learning paths tool, when a user reviews his own progress (through the stats icon), show a shorten (less detailed) version of the progress report.
 
+*Default: `false`*
+
 ### `lp_start_and_end_date_visible_in_student_view`
 
 **Display learning path availability to learners**
 
 Show learning paths to learners with their availability dates, rather than hiding them until the date comes.
+
+*Default: `false`*
 
 ### `lp_subscription_settings`
 
@@ -211,6 +283,8 @@ Configure additional options for the learning paths subscription feature. Option
 **Foldable learning paths' items**
 
 [inferred] Display learning path items in collapsible accordion format for improved navigation and content organization.
+
+*Default: `false`*
 
 ### `lp_view_settings`
 
@@ -230,11 +304,15 @@ Give the name of the extra field to be used as student_id for all SCORM communic
 
 [inferred] Use learner username as the student identifier in SCORM API communication instead of learner ID.
 
+*Default: `false`*
+
 ### `scorm_lms_update_sco_status_all_time`
 
 **Update SCO status autonomously**
 
 If the SCO is not sending a status, take over and update the status based on what can be observed in Chamilo.
+
+*Default: `false`*
 
 ### `scorm_upload_from_cache`
 
@@ -242,11 +320,15 @@ If the SCO is not sending a status, take over and update the status based on wha
 
 Allow admins to upload a SCORM package (in zip form) into the cache directory and to use it as import source on the SCORM upload page.
 
+*Default: `false`*
+
 ### `show_hidden_exercise_added_to_lp`
 
 **Display tests from learning paths even if invisible**
 
 Show hidden exercises that were added to a LP in the exercise list. If we are in a session, the test is invisible in the base course, it is included in a LP and the setting to show it is not specifically set to true, then hide it.
+
+*Default: `true`*
 
 ### `show_invisible_exercise_in_lp_list`
 
@@ -254,11 +336,15 @@ Show hidden exercises that were added to a LP in the exercise list. If we are in
 
 [inferred] Include hidden tests in the list of available tests when viewing learning path contents.
 
+*Default: `false`*
+
 ### `show_invisible_exercise_in_lp_toc`
 
 **Invisible tests visible in learning paths**
 
 Make tests marked as 'invisible' in the tests tool appear when they are included in a learning path.
+
+*Default: `false`*
 
 ### `show_invisible_lp_in_course_home`
 
@@ -266,11 +352,15 @@ Make tests marked as 'invisible' in the tests tool appear when they are included
 
 If a learning path is set to invisible but the teacher/coach decided to make it available from the course homepage, this option prevents Chamilo from hiding the link on the course homepage.
 
+*Default: `false`*
+
 ### `show_prerequisite_as_blocked`
 
 **Learning path's prerequisites**
 
 On the learning paths lists, display a visual element to show that other learning paths are currently blocked by some prerequisites rule.
+
+*Default: `false`*
 
 ### `student_follow_page_add_LP_acquisition_info`
 
@@ -278,11 +368,15 @@ On the learning paths lists, display a visual element to show that other learnin
 
 Add column to learner follow-up page to show acquisition status by a learner on a learning path.
 
+*Default: `false`*
+
 ### `student_follow_page_add_LP_invisible_checkbox`
 
 **Add visibility information for learning paths on learner follow-up page**
 
 [inferred] Display visibility status indicator for learning paths on the learner progress tracking page.
+
+*Default: `false`*
 
 ### `student_follow_page_add_LP_subscription_info`
 
@@ -290,11 +384,15 @@ Add column to learner follow-up page to show acquisition status by a learner on 
 
 This adds an 'unlocked' column in the learning paths list if the learner is subscribed to the given learning path and has access to it.
 
+*Default: `false`*
+
 ### `student_follow_page_hide_lp_tests_average`
 
 **Hide percentage sign in average of tests in learning paths in learner follow-up**
 
 Hides the icon of percentage in 'Average of tests in Learning Paths' indication on a student tracking
+
+*Default: `false`*
 
 ### `student_follow_page_include_not_subscribed_lp_students`
 
@@ -302,15 +400,21 @@ Hides the icon of percentage in 'Average of tests in Learning Paths' indication 
 
 [inferred] Show learning paths on progress pages even when learners are not subscribed to them.
 
+*Default: `false`*
+
 ### `ticket_lp_quiz_info_add`
 
 **Add learning paths and tests info to ticket reporting**
 
 [inferred] Include learning path and test information in support ticket reporting for better issue tracking.
 
+*Default: `false`*
+
 ### `validate_lp_prerequisite_from_other_session`
 
 **Use learning path item status from other sessions**
 
 Allow users to complete prerequisites in a learning path if the corresponding item was already completed in another session.
+
+*Default: `false`*
 

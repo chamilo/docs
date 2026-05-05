@@ -14,6 +14,9 @@ Access these settings under **Administration > Configuration settings > Search**
 
 Select 'Yes' to enable this feature. It is highly dependent on the Xapian extension for PHP, so this will not work if this extension is not installed on your server, in version 1.x at minimum.
 
+*Default: `false`*
+
+
 ### `search_prefilter_prefix`
 
 **Specific Field for prefilter**
@@ -25,4 +28,6 @@ This option let you choose the Specific field to use on prefilter search type.
 **Full-text search: show unlinked results**
 
 When showing the results of a full-text search, what should be done with the results that are not accessible to the current user?
+
+*Default: `false`*
 

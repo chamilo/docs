@@ -14,6 +14,8 @@ Access these settings under **Administration > Configuration settings > Tracking
 
 In specific implementations like online exams, you might want to prevent user access to the 'My progress' page.
 
+*Default: `false`*
+
 ### `footer_extra_content`
 
 **Extra content in footer**
@@ -68,3 +70,4 @@ Change the order of tools shown on the 'My progress' page for learners. Options 
 
 If the 'My progress' page takes too long to load, you might want to remove the processing of generic statistics for the user. In this case enable this setting.
 
+*Default: `false`*

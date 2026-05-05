@@ -14,6 +14,8 @@ Access these settings under **Administration > Configuration settings > Platform
 
 Allow users to upload files to a personal space on the platform.
 
+*Default: `true`*
+
 ### `chamilo_database_version`
 
 **Current version of the database schema used by Chamilo**
@@ -26,11 +28,15 @@ Displays the current DB version to match the Chamilo core version.
 
 If enabled, this option shows a banner on top of your platform that asks users to acknowledge that the platform is using cookies necessary to provide the user experience. The banner can easily be acknowledged and hidden by the user. This allows Chamilo to comply with EU web cookies regulations.
 
+*Default: `false`*
+
 ### `disable_copy_paste`
 
 **Disable copy-pasting**
 
 When enabled, this option disables as well as possible the copy-pasting mechanisms. Useful in restrictive exams setups.
+
+*Default: `false`*
 
 ### `donotlistcampus`
 
@@ -38,11 +44,15 @@ When enabled, this option disables as well as possible the copy-pasting mechanis
 
 By default, Chamilo portals are automatically registered in a public list at chamilo.org, just using the title you gave to this portal (not the URL nor any private data). Check this box to avoid having the title of your portal appear.
 
+*Default: `false`*
+
 ### `generate_random_login`
 
 **Generate random username**
 
 When importing users (batch processes), automatically generate a random string for username. Otherwise, the username will be generated on the basis of the firstname and lastname, or the prefix of the e-mail.
+
+*Default: `false`*
 
 ### `hosting_limit_identical_email`
 
@@ -50,11 +60,15 @@ When importing users (batch processes), automatically generate a random string f
 
 Maximum number of accounts allowed to share the same e-mail address. Set to 0 to disable this limit.
 
+*Default: `0`*
+
 ### `hosting_limit_users_per_course`
 
 **Global limit of users per course**
 
 Defines a global maximum number of users (teachers included) allowed to be subscribed to any single course in the platform. Set this value to 0 to disable the limit. This helps avoid courses being overloaded in open portals.
+
+*Default: `0`*
 
 ### `institution`
 
@@ -80,17 +94,23 @@ The URL of the institutions (the link that appears in the header on the right)
 
 Maximum number of courses a teacher/trainer can create. Set to 0 to disable the limit. Can be overridden per user via a BuyCourses service purchase.
 
+*Default: `0`*
+
 ### `notification_event`
 
 **Enable the notification tool for a more impactful communication channel with students**
 
 Activates popup or system notifications for important platform events.
 
+*Default: `false`*
+
 ### `pdf_img_dpi`
 
 **PDF export resolution**
 
 This represents the resolution of generated PDF files (in dot per inch, or dpi). The default is 96. Increasing it will give you better resolution PDF files but will also increase the weight and generation time of the files.
+
+*Default: `96`*
 
 ### `platform_logo_url`
 
@@ -104,11 +124,15 @@ Replaces the Chamilo logo by loading a (possibly remote) URL. Make sure this is 
 
 Decide who can view the posts and comments of the portfolio.
 
+*Default: `false`*
+
 ### `portfolio_show_base_course_post_in_sessions`
 
 **Show base course posts in session course**
 
 Decide who can view the posts and comments of the portfolio.
+
+*Default: `false`*
 
 ### `push_notification_settings`
 
@@ -122,11 +146,15 @@ JSON configuration for Push notifications integration.
 
 Defines the environment type: "prod" (normal production), "validation" (like production but without reporting statistics), or "test" (debug mode with developer tools such as untranslated string indicators).
 
+*Default: `prod`*
+
 ### `session_admin_access_to_all_users_on_all_urls`
 
 **Allow session admins to see all users on all URLs**
 
 If enabled, session admins can search and list users from all access URLs, regardless of their current URL.
+
+*Default: `false`*
 
 ### `site_name`
 
@@ -139,6 +167,8 @@ The Name of your Chamilo Portal (appears in the header)
 **Timepicker increment**
 
 Minimal time increment (in minutes) when selecting a date and time with the timepicker widget. For example, it might not be useful to have less than 5 or 15 minutes increments when talking about assignment submission, availability of a test, start time of a session, etc.
+
+*Default: `15`*
 
 ### `timezone`
 
@@ -158,17 +188,23 @@ Give the system path to the UNO converter library to enable some extra exporting
 
 If using career diagrams, show an extra field instead of the internal career ID.
 
+*Default: `false`*
+
 ### `use_custom_pages`
 
 **Use custom pages**
 
 Enable this feature to configure specific login pages by role
 
+*Default: `false`*
+
 ### `use_virtual_keyboard`
 
 **Use virtual keyboard**
 
 Make a virtual keyboard appear. This is useful when setting up restrictive exams in a physical room where students have no keyboard to limit their ability to cheat.
+
+*Default: `false`*
 
 ### `user_status_show_option`
 
@@ -182,3 +218,4 @@ An array of role => true/false that defines whether that role should be shown or
 
 Enable to use an array to define which roles should be clearly displayed and which should be hidden.
 
+*Default: `false`*

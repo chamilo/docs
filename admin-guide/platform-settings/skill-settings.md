@@ -14,11 +14,17 @@ Access these settings under **Administration > Configuration settings > Skills**
 
 Allows HR to manage skills
 
+*Default: `true`*
+
+
 ### `allow_private_skills`
 
 **Hide skills from learners**
 
 If enabled, skills can only be visible for admins, teachers (related to a user via a course), and HRM users (if related to a user).
+
+*Default: `false`*
+
 
 ### `allow_skill_rel_items`
 
@@ -26,11 +32,16 @@ If enabled, skills can only be visible for admins, teachers (related to a user v
 
 This enables a major feature that enables any item to be linked to (and as such to allow acquisition of) a skill. The feature still requires the teacher to confirm the acquisition of the skill, so the acquisition is not automatic.
 
+*Default: `false`*
+
+
 ### `allow_skills_tool`
 
 **Allow Skills tool**
 
 Users can see their skills in the social network and in a block in the homepage.
+
+*Default: `false`*
 
 ### `allow_teacher_access_student_skills`
 
@@ -38,11 +49,17 @@ Users can see their skills in the social network and in a block in the homepage.
 
 [inferred] Allow instructors to view and monitor skills acquired by learners in their courses.
 
+*Default: `false`*
+
+
 ### `badge_assignation_notification`
 
 **Send notification to learner when a skill/badge has been acquired**
 
 [inferred] Send notifications to learners when they acquire a new skill or badge achievement.
+
+*Default: `false`*
+
 
 ### `hide_skill_levels`
 
@@ -50,11 +67,17 @@ Users can see their skills in the social network and in a block in the homepage.
 
 [inferred] Conceal the skill level hierarchy and level labels in skill-related views.
 
+*Default: `false`*
+
+
 ### `manual_assignment_subskill_autoload`
 
 **Assigning skills to user: sub-skills auto-loading**
 
 When manually assigning skills to a user, the form can be set to automatically offer you to assign a sub-skill instead of the skill you selected.
+
+*Default: `false`*
+
 
 ### `openbadges_backpack`
 
@@ -68,6 +91,9 @@ The URL of the OpenBadges backpack server that will be used by default for all u
 
 On the wheel of skills, it shows the name of the skill when it has short code.
 
+*Default: `false`*
+
+
 ### `skill_levels_names`
 
 **Skill levels names**
@@ -80,9 +106,15 @@ Define names for levels of skills as an array of id => name.
 
 [inferred] Display learner skills as a hierarchical tree structure in progress and reporting pages.
 
+*Default: `false`*
+
+
 ### `skills_teachers_can_assign_skills`
 
 **Allow teachers to set which skills are acquired through their courses**
 
 By default, only admins can decide which skills can be acquired through which course.
+
+*Default: `false`*
+
 

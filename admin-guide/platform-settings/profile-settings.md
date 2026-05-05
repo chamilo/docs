@@ -20,17 +20,24 @@ A user account is valid for this number of days after creation
 
 Add subject and body in the mailto: footer.
 
+*Default: `false`*
+
+
 ### `allow_show_linkedin_url`
 
 **Allow show the user LinkedIn URL**
 
 Add a link on the user social block, allowing visit the user's LinkedIn profile
 
+*Default: `false`*
+
 ### `allow_show_skype_account`
 
 **Allow show the user Skype account**
 
 Add a link on the user social block allowing start a chat by Skype
+
+*Default: `false`*
 
 ### `allow_social_map_fields`
 
@@ -44,6 +51,9 @@ Enable the display of a map in the social network allowing you to locate other u
 
 Enables teachers to manage class groups and their membership within the system.
 
+*Default: `false`*
+
+
 ### `allow_user_headings`
 
 **Allow users profiling inside courses**
@@ -56,11 +66,16 @@ Can a teacher define learner profile fields to retrieve additional information?
 
 When changing the account information
 
+*Default: `false`*
+
 ### `changeable_options`
 
 **Fields users are allowed to change in their profile**
 
 Select the fields users will be able to change on their profile page.
+
+*Default: `name,officialcode,email,picture,login,password,language,phone,theme`*
+
 
 ### `enable_profile_user_address_geolocalization`
 
@@ -68,11 +83,15 @@ Select the fields users will be able to change on their profile page.
 
 Enable user's address field and show it on a map using geolocalization features
 
+*Default: `false`*
+
 ### `extended_profile`
 
 **Portfolio**
 
 If this setting is on, a user can fill in the following (optional) fields: 'My personal open area', 'My competences', 'My diplomas', 'What I am able to teach'
+
+*Default: `false`*
 
 ### `hide_username_in_course_chat`
 
@@ -80,11 +99,17 @@ If this setting is on, a user can fill in the following (optional) fields: 'My p
 
 In the course chat, hide the username. Only display people's names.
 
+*Default: `false`*
+
+
 ### `hide_username_with_complete_name`
 
 **Hide username when already showing complete name**
 
 Some internal functions will return the username when returning the user's complete name. With this option enabled, you ensure the username will not appear.
+
+*Default: `false`*
+
 
 ### `linkedin_organization_id`
 
@@ -92,17 +117,25 @@ Some internal functions will return the username when returning the user's compl
 
 When sharing a badge on LinkedIn, LinkedIn allows you to set an organization ID that will link to the LinkedIn's page of your organization (to link the organization attributing the badge).
 
+*Default: `false`*
+
+
 ### `login_is_email`
 
 **Use the email as username**
 
 Use the email in order to login to the system
 
+*Default: `false`*
+
 ### `my_space_users_items_per_page`
 
 **Default number of items per page in mySpace**
 
 Number of records displayed per page in MySpace tracking sections (users, work statistics, student list).
+
+*Default: `10`*
+
 
 ### `pass_reminder_custom_link`
 
@@ -122,6 +155,9 @@ Array of fields and whether (boolean) they are visible or not on the user's prof
 
 Add help text for users to enter two names in the registration form when double lastnames are common.
 
+*Default: `false`*
+
+
 ### `send_notification_when_user_added`
 
 **Send mail to admin when user created**
@@ -140,11 +176,16 @@ Show multiple conditions to user during sign up process. Provide an array with e
 
 Show official code on the 'Who is online' page, below the username.
 
+*Default: `false`*
+
 ### `show_terms_if_profile_completed`
 
 **Terms and conditions only if profile complete**
 
 By enabling this option, terms and conditions will be available to the user only when the extra profile fields that start with 'terms_' and set to visible are completed.
+
+*Default: `false`*
+
 
 ### `split_users_upload_directory`
 
@@ -152,11 +193,15 @@ By enabling this option, terms and conditions will be available to the user only
 
 On high-load portals, where a lot of users are registered and send their pictures, the upload directory (main/upload/users/) might contain too many files for the filesystem to handle (it has been reported with more than 36000 files on a Debian server). Changing this option will enable a one-level splitting of the directories in the upload directory. 9 directories will be used in the base directory and all subsequent users' directories will be stored into one of these 9 directories. The change of this option will not affect the directories structure on disk, but will affect the behaviour of the Chamilo code, so if you change this option, you have to create the new directories and move the existing directories by yourself on te server. Be aware that when creating and moving those directories, you will have to move the directories of users 1 to 9 into subdirectories of the same name. If you are not sure about this option, it is best not to activate it.
 
+*Default: `false`*
+
 ### `use_users_timezone`
 
 **Enable users timezones**
 
 Enable the possibility for users to select their own timezone. Once configured, users will be able to see assignment deadlines and other time references in their own timezone, which will reduce errors at delivery time.
+
+*Default: `false`*
 
 ### `user_import_settings`
 
@@ -176,9 +221,14 @@ Naturally include the given extra fields (array of extra fields labels) in the u
 
 Allow users to select their own visual theme in their profile. This will change the look of Chamilo for them, but will leave the default style of the portal intact. If a specific course or session has a specific theme assigned, it will have priority over user-defined themes.
 
+*Default: `false`*
+
 ### `visible_options`
 
 **List of visible fields in profile**
 
 Controls which profile fields are visible to users and others.
+
+*Default: `name,officialcode,email,picture,login,password,language,phone,theme`*
+
 

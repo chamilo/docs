@@ -14,11 +14,15 @@ Access these settings under **Administration > Configuration settings > Chat**. 
 
 Users can chat with each other
 
+*Default: `false`*
+
 ### `course_chat_restrict_to_coach`
 
 **Restrict course chat to coaches**
 
 Only allow students to talk to the tutors in the course (not other students).
+
+*Default: `false`*
 
 ### `hide_chat_video`
 
@@ -26,15 +30,21 @@ Only allow students to talk to the tutors in the course (not other students).
 
 When enabled, video chat functionality is disabled and unavailable in the global chat tool.
 
+*Default: `true`*
+
 ### `save_private_conversations_in_documents`
 
 **Save private conversations in documents**
 
 If enabled, 1:1 private chat messages will be mirrored in the course chat history documents. Recommended to keep disabled for privacy.
 
+*Default: `false`*
+
 ### `show_chat_folder`
 
 **Show the history folder of chat conversations**
 
 This will show to theacher the folder that contains all sessions that have been made in the chat, the teacher can make them visible or not learners and use them as a resource
+
+*Default: `true`*
 

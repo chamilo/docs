@@ -20,6 +20,8 @@ If this option is activated, clicking on an e-mail address will open an online e
 
 Enable spell check
 
+*Default: `true`*
+
 ### `block_copy_paste_for_students`
 
 **Block learners copy and paste**
@@ -31,6 +33,9 @@ Block learners the ability to copy and paste into the WYSIWYG editor
 **Prevent copy-pasting images in WYSIWYG editor**
 
 Prevent the use of images copy-paste as base64 in the editor to avoid filling the database with images.
+
+*Default: `false`*
+
 
 ### `editor_driver_list`
 
@@ -55,6 +60,9 @@ Allowing arbitrary iframes in the HTML Editor will enhance the edition capabilit
 **Allow images drag&drop in WYSIWYG editor**
 
 Enable image upload as file when doing a copy in the content or a drag and drop.
+
+*Default: `false`*
+
 
 ### `enabled_asciisvg`
 
@@ -86,6 +94,8 @@ This allows you to embed on your webpages your favorite videos and applications 
 
 Enable the MathJax library to visualize mathematical formulas. This is only useful if either ASCIIMathML or ASCIISVG settings are enabled.
 
+*Default: `true`*
+
 ### `enabled_support_svg`
 
 **Create and edit SVG files**
@@ -109,6 +119,9 @@ This will prevent many hidden tags, incorrect or non-standard, copied from other
 **Full WYSIWYG editor toolbar**
 
 Show the full toolbar in all WYSIWYG editor boxes around the platform.
+
+*Default: `false`*
+
 
 ### `htmlpurifier_wiki`
 
@@ -134,11 +147,15 @@ Enable ASCIIMathML mathematical editor
 
 Enable button bars extended when the WYSIWYG editor is maximized
 
+*Default: `true`*
+
 ### `save_titles_as_html`
 
 **Save titles as HTML**
 
 Allow users to include HTML in title fields in several places. This allows for some styling of titles, notably in test questions.
+
+*Default: `false`*
 
 ### `translate_html`
 
@@ -146,11 +163,17 @@ Allow users to include HTML in title fields in several places. This allows for s
 
 If enabled, this option allows users to use a ‘lang’ attribute in HTML elements to define the langage the content of that element is written in. Enable multiple elements with different ‘lang’ attributes and Chamilo will display the content in the langage of the user only.
 
+*Default: `false`*
+
+
 ### `video_context_menu_hidden`
 
 **Hide the context menu on video player**
 
 When enabled, the right-click context menu on HTML5 video players is disabled.
+
+*Default: `false`*
+
 
 ### `video_player_renderers`
 

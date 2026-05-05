@@ -14,15 +14,21 @@ Access these settings under **Administration > Configuration settings > Cron Job
 
 Enable the Remind Course Expiration cron
 
+*Default: `false`*
+
 ### `cron_remind_course_expiration_frequency`
 
 **Frequency for the Remind Course Expiration cron**
 
 Number of days before the expiration of the course to consider to send reminder mail
 
+*Default: `2`*
+
 ### `cron_remind_course_finished_activate`
 
 **Send course finished notification**
 
 Whether to send an e-mail to students when their course (session) is finished. This requires cron tasks to be configured (see main/cron/ directory).
+
+*Default: `false`*
 

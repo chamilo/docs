@@ -14,17 +14,26 @@ Access these settings under **Administration > Configuration settings > Web Serv
 
 Download documents verifying the REST API key for a user
 
+*Default: `false`*
+
+
 ### `disable_webservices`
 
 **Disable web services**
 
 If you do not use web services, enable this to avoid any unnecessary security risk.
 
+*Default: `false`*
+
+
 ### `messaging_allow_send_push_notification`
 
 **Allow Push Notifications to the Chamilo Messaging mobile app**
 
 Send Push Notifications by Google's Firebase Console
+
+*Default: `false`*
+
 
 ### `messaging_gdc_api_key`
 
@@ -43,6 +52,8 @@ You need register a project on <a href='https://console.firebase.google.com/'>Go
 **Enable admin-only web services**
 
 Some REST web services are marked for admins only and are disabled by default. Enable this feature to give access to these web services (to users with admin credentials, obviously).
+
+*Default: `false`*
 
 ### `webservice_return_user_field`
 

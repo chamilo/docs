@@ -20,11 +20,16 @@ Provide a list of courses and tests' IDs that will show the best score attempt f
 
 Allow coaches to edit feedback during review of exercises
 
+*Default: `true`*
+
 ### `allow_edit_exercise_in_lp`
 
 **Allow teachers to edit tests in learning paths**
 
 By default, Chamilo prevents you from editing tests that are included inside a learning path. This is to avoid changes that would affect learners (past and future) differently regarding the results and/or progress in the learning path. This option allows teachers to bypass this restriction.
+
+*Default: `false`*
+
 
 ### `allow_exercise_categories`
 
@@ -32,11 +37,15 @@ By default, Chamilo prevents you from editing tests that are included inside a l
 
 Test categories are not enabled by default because they add a level of complexity. Enable this feature to show all test categories related management icons appear.
 
+*Default: `false`*
+
 ### `allow_mandatory_question_in_category`
 
 **Enable selecting mandatory questions**
 
 Enable the selection of mandatory questions in a test when using random categories.
+
+*Default: `false`*
 
 ### `allow_notification_setting_per_exercise`
 
@@ -44,11 +53,15 @@ Enable the selection of mandatory questions in a test when using random categori
 
 Enable the configuration of test submission notifications at the test level rather than the course level. Falls back to course-level settings if not defined at test-level.
 
+*Default: `false`*
+
 ### `allow_quick_question_description_popup`
 
 **Quick image addition to question**
 
 Enable an additional icon in the test questions list to add an image as question description. This vastly accelerates question edition when the questions are in the title and the description only includes an image.
+
+*Default: `false`*
 
 ### `allow_quiz_question_feedback`
 
@@ -56,11 +69,15 @@ Enable an additional icon in the test questions list to add an image as question
 
 By default, Chamilo allows you to show feedback on each answer in a question. With this option, an additional field is created to provide pre-defined feedback to the whole question. This feedback will only appear if the user answered incorrectly.
 
+*Default: `false`*
+
 ### `allow_quiz_results_page_config`
 
 **Enable test results page configuration**
 
-Define an array of settings you want to apply to all tests results pages. Settings can be 'hide_question_score', 'hide_expected_answer', 'hide_category_table', 'hide_correct_answered_questions', 'hide_total_score' and possibly more in the future. Look for ‘getPageConfigurationAttribute’ in the code to see what’s in use.
+Define an array of settings you want to apply to all tests results pages. Settings can be ‘hide_question_score’, ‘hide_expected_answer’, ‘hide_category_table’, ‘hide_correct_answered_questions’, ‘hide_total_score’ and possibly more in the future. Look for ‘getPageConfigurationAttribute’ in the code to see what’s in use.
+
+*Default: `false`*
 
 ### `allow_quiz_show_previous_button_setting`
 
@@ -68,11 +85,15 @@ Define an array of settings you want to apply to all tests results pages. Settin
 
 Set this to false to disable the 'previous' button when answering questions in a test, thus forcing users to always move ahead.
 
+*Default: `false`*
+
 ### `allow_teacher_comment_audio`
 
 **Audio feedback to submitted answers**
 
 Allow teachers to provide feedback to users through audio (alternatively to text) on each question in a test.
+
+*Default: `true`*
 
 ### `allow_time_per_question`
 
@@ -80,11 +101,15 @@ Allow teachers to provide feedback to users through audio (alternatively to text
 
 By default, it is only possible to limit the time per test. Limiting it per question adds an extra layer of possibilities, and you can (carefully) combine both.
 
+*Default: `false`*
+
 ### `block_category_questions`
 
 **Lock questions of previous categories in a test**
 
 When using this option, an additional option will appear in the test's configuration. When using a test with multiple question categories and asking for a distribution by category, this will allow the user to navigate questions per category. Once a category is finished, (s)he moves to the next category and cannot return to the previous category.
+
+*Default: `false`*
 
 ### `block_quiz_mail_notification_general_coach`
 
@@ -92,11 +117,15 @@ When using this option, an additional option will appear in the test's configura
 
 Learners completing a test usually sends notifications to coaches, including the general session coach. Enable this option to omit the general coach from these notifications.
 
+*Default: `false`*
+
 ### `configure_exercise_visibility_in_course`
 
 **Enable to bypass the configuration of Exercise invisible in session at a base course level**
 
 To enable the configuration of the exercise invisibility in session in the base course to by pass the global configuration. If not set the global parameter is used.
+
+*Default: `false`*
 
 ### `disable_clean_exercise_results_for_teachers`
 
@@ -104,17 +133,23 @@ To enable the configuration of the exercise invisibility in session in the base 
 
 Disable the option to delete test results from the tests list. This is often used when less-careful teachers manage courses, to avoid critical mistakes.
 
+*Default: `true`*
+
 ### `email_alert_manager_on_new_quiz`
 
 **Default e-mail alert setting on new quiz**
 
 Whether you want course managers (teachers) to be notified by e-mail when a quiz is answered by a student. This is the default value to be given to all new courses, but each teacher can still change this setting in his/her own course.
 
+*Default: `true`*
+
 ### `enable_quiz_scenario`
 
 **Enable Quiz scenario**
 
 From here you will be able to create exercises that propose different questions depending in the user's answers.
+
+*Default: `true`*
 
 ### `exercise_additional_teacher_modify_actions`
 
@@ -128,6 +163,8 @@ Configure callback elements to generate new action icons for teachers to the rig
 
 Show the username (instead or, or as well as, the user info) on the test results page.
 
+*Default: `false`*
+
 ### `exercise_category_report_user_extra_fields`
 
 **Add user extra fields in exercise category report**
@@ -139,6 +176,8 @@ Define an array with the list of user extra fields to add to the report.
 **Round score in test exports**
 
 When enabled, test scores are rounded to the nearest integer when exporting exercise reports.
+
+*Default: `false`*
 
 ### `exercise_embeddable_extra_types`
 
@@ -152,11 +191,15 @@ By default, only single answer and multiple answer questions are considered when
 
 By default, we show user information and its IP address, but this might be considered personal data, so this option allows you to remove this info from all test reports.
 
+*Default: `false`*
+
 ### `exercise_hide_label`
 
 **Hide question ribbon (right/wrong) in test results**
 
 In test results, a ribbon appears by default to indicate if the answer was right or wrong. Enable this option to remove the ribbon globally.
+
+*Default: `false`*
 
 ### `exercise_invisible_in_session`
 
@@ -164,11 +207,16 @@ In test results, a ribbon appears by default to indicate if the answer was right
 
 If an exercise is visible in the base course then it appears invisible in the session. If an exercise is invisible in the base course then it does not appear in the session.
 
+*Default: `false`*
+
 ### `exercise_max_editors_in_page`
 
 **Max editors in exercise result screen**
 
 Because of the sheer number of questions that might appear in an exercise, the correction screen, allowing the teacher to add comments to each answer, might be very slow to load. Set this number to 5 to ask the platform to only show WYSIWYG editors up to a certain number of answers on the screen. This will speed up the correction page loading time considerably, but will remove WYSIWYG editors and leave only a plain text editor.
+
+*Default: `0`*
+
 
 ### `exercise_max_score`
 
@@ -176,11 +224,17 @@ Because of the sheer number of questions that might appear in an exercise, the c
 
 Define a maximum score (generally 10,20 or 100) for all the exercises on the platform. This will define how final results are shown to users and teachers.
 
+*Default: `20`*
+
+
 ### `exercise_min_score`
 
 **Minimum score of exercises**
 
 Define a minimum score (generally 0) for all the exercises on the platform. This will define how final results are shown to users and teachers.
+
+*Default: `0`*
+
 
 ### `exercise_result_end_text_html_strict_filtering`
 
@@ -188,11 +242,16 @@ Define a minimum score (generally 0) for all the exercises on the platform. This
 
 Consider messages at the end of tests are always safe. Removing the filter makes it possible to use JavaScript there.
 
+*Default: `false`*
+
+
 ### `exercise_score_format`
 
 **Tests score format**
 
 Select between the following forms for the display of users' score in various reports: 1 = SCORE_AVERAGE (5 / 10); 2 = SCORE_PERCENT (50%); 3 = SCORE_DIV_PERCENT (5 / 10 (50%)). Use the numerical ID of the form you want to use.
+
+*Default: `0`*
 
 ### `exercises_disable_new_attempts`
 
@@ -200,11 +259,17 @@ Select between the following forms for the display of users' score in various re
 
 Disable new test attempts globally. Usually used when there is a problem with tests in general and you want some time to analyse without blocking the whole platform.
 
+*Default: `false`*
+
+
 ### `hide_free_question_score`
 
 **Hide open questions' score**
 
 Hide the fact that open questions (including audio and annotations) have a score by hiding the score display in all learner-facing reports.
+
+*Default: `false`*
+
 
 ### `hide_user_info_in_quiz_result`
 
@@ -212,11 +277,17 @@ Hide the fact that open questions (including audio and annotations) have a score
 
 The default test results page shows a user datasheet (photo, name, etc) which might, in some contexts, be considered as pushing the limits of personal data treatment. Enable this option to remove user details from the test results.
 
+*Default: `false`*
+
+
 ### `limit_exercise_teacher_access`
 
 **Limit teachers' permissions over tests**
 
 When enabled, teachers cannot delete tests nor questions, change tests visibility, download to QTI, clean results, etc.
+
+*Default: `false`*
+
 
 ### `my_courses_show_pending_exercise_attempts`
 
@@ -224,11 +295,17 @@ When enabled, teachers cannot delete tests nor questions, change tests visibilit
 
 Enable to display to the final user a page with the list of pending tests across all courses.
 
+*Default: `false`*
+
+
 ### `question_exercise_html_strict_filtering`
 
 **Bypass HTML filtering in test questions**
 
 Consider questions text in tests are always safe. Removing the filter makes it possible to use JavaScript there.
+
+*Default: `false`*
+
 
 ### `question_pagination_length`
 
@@ -236,11 +313,17 @@ Consider questions text in tests are always safe. Removing the filter makes it p
 
 Number of questions to show on every page when using the question pagination for teachers option.
 
+*Default: `20`*
+
+
 ### `quiz_answer_extra_recording`
 
 **Enable extra test answers recording**
 
 Enable recording of all answers (even temporary) in the track_e_attempt_recording table. This feautre is experimentaland can create issues in the reporting pages when attempting to grade a test.
+
+*Default: `false`*
+
 
 ### `quiz_check_all_answers_before_end_test`
 
@@ -248,11 +331,17 @@ Enable recording of all answers (even temporary) in the track_e_attempt_recordin
 
 Display a popup with the list of answered/unanswered questions before submitting the test.
 
+*Default: `false`*
+
+
 ### `quiz_check_button_enable`
 
 **Add answer-saving process check before test**
 
 Make sure users are all set to start the test by providing a simulation of the question-saving process before entering the test. This allows for early detection of some connection issues and reduces user experience frictions.
+
+*Default: `false`*
+
 
 ### `quiz_confirm_saved_answers`
 
@@ -260,11 +349,17 @@ Make sure users are all set to start the test by providing a simulation of the q
 
 This option adds a checkbox at the end of each test asking the user to confirm the number of answers saved. This provides better auditing data for critical tests.
 
+*Default: `false`*
+
+
 ### `quiz_discard_orphan_in_course_export`
 
 **Discard orphan questions in course export**
 
 When exporting a course, do not export the questions that are not part of any test.
+
+*Default: `false`*
+
 
 ### `quiz_generate_certificate_ending`
 
@@ -272,17 +367,26 @@ When exporting a course, do not export the questions that are not part of any te
 
 Generate certificate when ending a quiz. The quiz needs to be linked in the gradebook tool and have a pass percentage configured.
 
+*Default: `false`*
+
+
 ### `quiz_hide_attempts_table_on_start_page`
 
 **Hide test attempts table on test start page**
 
 Hide the table showing all previous attempts on the test start page.
 
+*Default: `false`*
+
+
 ### `quiz_hide_question_number`
 
 **Hide question number**
 
 Hide the question incremental numbering when taking a test.
+
+*Default: `false`*
+
 
 ### `quiz_image_zoom`
 
@@ -296,11 +400,17 @@ Enable this feature to allow users to zoom on images used in the tests.
 
 Keep session active by maintaining a regular ping signal to the server every x seconds, define here. We recommend once every 300 seconds.
 
+*Default: `0`*
+
+
 ### `quiz_open_question_decimal_score`
 
 **Decimal score in open question types**
 
 Allow the teacher to rate the open, oral expression and annotation question types with a decimal score.
+
+*Default: `false`*
+
 
 ### `quiz_prevent_copy_paste`
 
@@ -308,11 +418,17 @@ Allow the teacher to rate the open, oral expression and annotation question type
 
 Block copy/paste/save/print keys and right-clicks in exercises.
 
+*Default: `false`*
+
+
 ### `quiz_question_delete_automatically_when_deleting_exercise`
 
 **Automatically delete questions when deleting test**
 
 The default behaviour is to make questions orphan when the only test using them is deleted. When enabled, this option ensure that all questions that would otherwise end up orphan are deleted as well.
+
+*Default: `false`*
+
 
 ### `quiz_results_answers_report`
 
@@ -320,11 +436,17 @@ The default behaviour is to make questions orphan when the only test using them 
 
 On the test results page, display a link to download the results as a file.
 
+*Default: `false`*
+
+
 ### `quiz_show_description_on_results_page`
 
 **Always show test description on results page**
 
 When enabled, the test description is always displayed on the results page after test completion.
+
+*Default: `false`*
+
 
 ### `score_grade_model`
 
@@ -338,11 +460,17 @@ Define an array of score ranges and colors to display reports using this model. 
 
 Add the learner's score to the e-mail notification sent to the teacher after a test was submitted.
 
+*Default: `false`*
+
+
 ### `show_exercise_attempts_in_all_user_sessions`
 
 **Show test attempts from all sessions in pending tests report**
 
 Show test attempts from users in all sessions where the general coach has access in pending tests report.
+
+*Default: `false`*
+
 
 ### `show_exercise_expected_choice`
 
@@ -350,11 +478,17 @@ Show test attempts from users in all sessions where the general coach has access
 
 Show the expected choice and a status (right/wrong) for each answer on the test results page (if the test has been configured to show results).
 
+*Default: `false`*
+
+
 ### `show_exercise_question_certainty_ribbon_result`
 
 **Show score for certainty degree questions**
 
 By default, Chamilo does not show a score for the certainty degree question types.
+
+*Default: `false`*
+
 
 ### `show_exercise_session_attempts_in_base_course`
 
@@ -362,11 +496,16 @@ By default, Chamilo does not show a score for the certainty degree question type
 
 Show test attempts from users in all sessions to the teacher in the base course.
 
+*Default: `false`*
+
+
 ### `show_official_code_exercise_result_list`
 
 **Display official code in exercises results**
 
 Whether to show the students' official code in the exercises results reports
+
+*Default: `false`*
 
 ### `show_question_id`
 
@@ -374,15 +513,24 @@ Whether to show the students' official code in the exercises results reports
 
 Show questions' internal IDs to let users take note of issues on specific questions and report them more efficiently.
 
+*Default: `false`*
+
+
 ### `show_question_pagination`
 
 **Show question pagination for teachers**
 
 For tests with many questions, use pagination if the number of questions is higher than this setting. Set to 0 to prevent using pagination.
 
+*Default: `100`*
+
+
 ### `tracking_my_progress_show_deleted_exercises`
 
 **Show deleted tests in 'My progress'**
 
 Enable this option to display, on the 'My progress' page, the results of all tests you have taken, even the ones that have been deleted.
+
+*Default: `false`*
+
 

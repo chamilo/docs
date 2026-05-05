@@ -14,11 +14,16 @@ Access these settings under **Administration > Configuration settings > Language
 
 Enable courses managed in more than one language. This option adds a language selector within the course page to let users switch easily, and adds a 'multiple_language' extra field to courses which allows for remote management procedures.
 
+*Default: `false`*
+
+
 ### `allow_use_sub_language`
 
 **Allow definition and use of sub-languages**
 
 By enabling this option, you will be able to define variations for each of the language terms used in the platform's interface, in the form of a new language based on and extending an existing language. You'll find this option in the languages section of the administration panel.
+
+*Default: `false`*
 
 ### `auto_detect_language_custom_pages`
 
@@ -26,11 +31,17 @@ By enabling this option, you will be able to define variations for each of the l
 
 If you use custom pages, enable this if you want to have a language detector there present the page in the user's browser language, or disable to force the language to be the default platform language.
 
+*Default: `true`*
+
+
 ### `language_flags_by_country`
 
 **Language flags**
 
 Use country flags for languages. This is not enabled by default because some languages are not strictly attached to a country, which can lead to frustration for some users.
+
+*Default: `false`*
+
 
 ### `language_priority_1`
 
@@ -38,11 +49,17 @@ Use country flags for languages. This is not enabled by default because some lan
 
 Primary language selected when multiple language contexts are set.
 
+*Default: `course_lang`*
+
+
 ### `language_priority_2`
 
 **Secondary priority language**
 
 Secondary fallback language if first priority is unavailable or out of context.
+
+*Default: `user_profil_lang`*
+
 
 ### `language_priority_3`
 
@@ -50,11 +67,17 @@ Secondary fallback language if first priority is unavailable or out of context.
 
 Tertiary language fallback if higher priorities fail.
 
+*Default: `user_selected_lang`*
+
+
 ### `language_priority_4`
 
 **Fourth priority language**
 
 Last language fallback option by order of priority.
+
+*Default: `platform_lang`*
+
 
 ### `platform_language`
 
@@ -68,15 +91,24 @@ Main language, used by default when no user language is set.
 
 Show the language each course is in, next to the course title, on the homepage courses list
 
+*Default: `true`*
+
+
 ### `show_language_selector_in_menu`
 
 **Language switcher in main menu**
 
 Display a language selector in the main menu that immediately updates the language preference of the user. This can be useful in multilingual portals where learners have to switch from one language to another for their learning.
 
+*Default: `true`*
+
+
 ### `template_activate_language_filter`
 
 **Multiple-language document templates**
 
 Enable document templates (at the platform or course level) to be configured for specific languages.
+
+*Default: `false`*
+
 

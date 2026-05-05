@@ -14,6 +14,9 @@ Access these settings under **Administration > Configuration settings > Surveys*
 
 Activate this option will allow the coachs to create and edit surveys
 
+*Default: `true`*
+
+
 ### `hide_survey_edition`
 
 **Prevent survey edition**
@@ -26,17 +29,26 @@ Prevent editing surveys for all surveys listed here (by code). Use * to prevent 
 
 Allows admins to hide survey reporting button if surveys are used to survey teachers.
 
+*Default: `false`*
+
+
 ### `show_pending_survey_in_menu`
 
 **Show "Pending surveys" in menu**
 
 Display a menu item that lets users access their pending surveys.
 
+*Default: `false`*
+
+
 ### `show_surveys_base_in_sessions`
 
 **Display surveys from base course in all session courses**
 
 [inferred] Make surveys from the base course visible and available to learners in all related session courses.
+
+*Default: `false`*
+
 
 ### `survey_additional_teacher_modify_actions`
 
@@ -50,11 +62,17 @@ Add actions (usually connected to plugins) in the list of surveys. Use array syn
 
 [inferred] Allow instructors to modify survey questions even after learners have submitted responses.
 
+*Default: `false`*
+
+
 ### `survey_anonymous_show_answered`
 
 **Allow teachers to see who answered in anonymous surveys**
 
 Allow teachers to see which learners have already answered an anonymous survey. This only appears once more than one user has answered, so it remains difficult to identify who answered what.
+
+*Default: `false`*
+
 
 ### `survey_backwards_enable`
 
@@ -62,11 +80,17 @@ Allow teachers to see which learners have already answered an anonymous survey. 
 
 [inferred] Enable a "previous question" navigation button to allow learners to review earlier survey questions.
 
+*Default: `false`*
+
+
 ### `survey_duplicate_order_by_name`
 
 **Order by student name when using survey duplication feature**
 
 The survey duplication feature is oriented towards teachers and is meant to ask teachers to give their appreciation about each student in order. This option will order the questions by learner's lastname.
+
+*Default: `true`*
+
 
 ### `survey_email_sender_noreply`
 
@@ -74,9 +98,14 @@ The survey duplication feature is oriented towards teachers and is meant to ask 
 
 Should the survey invitations use the coach e-mail address or the no-reply address defined in the main configuration section?
 
+*Default: `coach`*
+
+
 ### `survey_mark_question_as_required`
 
 **Mark all survey questions as 'required' by default**
 
 [inferred] Automatically mark all newly created survey questions as required responses by default.
+
+*Default: `false`*
 

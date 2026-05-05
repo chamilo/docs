@@ -14,11 +14,15 @@ Access these settings under **Administration > Configuration settings > Attendan
 
 The default behaviour in Chamilo is to hide attendance sheets instead of deleting them, just in case the teacher would do it by mistake. Enable this option to allow teachers to *really* delete attendance sheets.
 
+*Default: `true`*
+
 ### `attendance_allow_comments`
 
 **Allow comments in attendance sheets**
 
 Teachers and students can comment on each individual attendance (to justify).
+
+*Default: `false`*
 
 ### `enable_sign_attendance_sheet`
 
@@ -26,9 +30,13 @@ Teachers and students can comment on each individual attendance (to justify).
 
 Enable taking signatures to confirm one's attendance.
 
+*Default: `false`*
+
 ### `multilevel_grading`
 
 **Enable Multi-Level Attendance Grading**
 
 Allows grading attendance with multiple levels instead of a simple present/absent system.
+
+*Default: `false`*
 

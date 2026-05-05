@@ -14,11 +14,15 @@ Access these settings under **Administration > Configuration settings > Assignme
 
 Compilatio is an anti-cheating service that compares text between two submissions and reports if there is a high probability the content (usually assignments) is not genuine.
 
+*Default: `false`*
+
 ### `allow_my_student_publication_page`
 
 **Enable My assignments page**
 
 [inferred] Enable a dedicated page for learners to view and manage their own submitted assignments.
+
+*Default: `false`*
 
 ### `allow_only_one_student_publication_per_user`
 
@@ -26,11 +30,15 @@ Compilatio is an anti-cheating service that compares text between two submission
 
 [inferred] Restrict learners to submitting only one assignment per activity, preventing multiple submissions.
 
+*Default: `false`*
+
 ### `allow_redirect_to_main_page_after_work_upload`
 
 **Redirect to assigment tool homepage after upload or comment**
 
 Redirect to assignments list after uploading an assignment or a adding a comment
+
+*Default: `false`*
 
 ### `assignment_prevent_duplicate_upload`
 
@@ -38,11 +46,15 @@ Redirect to assignments list after uploading an assignment or a adding a comment
 
 [inferred] Block learners from uploading identical files for the same assignment submission.
 
+*Default: `false`*
+
 ### `block_student_publication_add_documents`
 
 **Prevent adding documents to assignments**
 
 [inferred] Prevent learners from adding or attaching documents when submitting assignments.
+
+*Default: `false`*
 
 ### `block_student_publication_edition`
 
@@ -50,11 +62,15 @@ Redirect to assignments list after uploading an assignment or a adding a comment
 
 [inferred] Prevent learners from modifying or updating their submitted assignments after initial submission.
 
+*Default: `false`*
+
 ### `block_student_publication_score_edition`
 
 **Prevent teacher from modifying assignment scores**
 
 [inferred] Prevent instructors from changing assignment scores after they have been recorded.
+
+*Default: `false`*
 
 ### `compilatio_tool`
 
@@ -68,11 +84,15 @@ Configure the Compilatio connection details here.
 
 This will allow teachers to give an estimated time effort (in hh:mm:ss format) to complete the assignment. Upon submission of the assignment and approval by the teacher (the assignment is given a score), the learner will automatically be assigned the corresponding time.
 
+*Default: `work_time`*
+
 ### `force_download_doc_before_upload_work`
 
 **Force download of document before assignment upload**
 
 Force users to download the provided document in the assignment definition before they can upload their assignment.
+
+*Default: `true`*
 
 ### `my_courses_show_pending_work`
 
@@ -80,3 +100,4 @@ Force users to download the provided document in the assignment definition befor
 
 [inferred] Display a link or count of pending assignments on the learner's My Courses page for quick access.
 
+*Default: `false`*

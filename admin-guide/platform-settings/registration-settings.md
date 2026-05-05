@@ -14,6 +14,9 @@ Access these settings under **Administration > Configuration settings > Registra
 
 Simply display a confirmation request on the registration page before going forward with the user creation.
 
+*Default: `false`*
+
+
 ### `allow_fields_inscription`
 
 **Restrict fields shown during registration**
@@ -26,11 +29,15 @@ If you only want to show some of the available profile field, your can complete 
 
 Are users allowed to request their lost password?
 
+*Default: `true`*
+
 ### `allow_registration`
 
 **Registration**
 
 Is registration as a new user allowed? Can users create new accounts?
+
+*Default: `open`*
 
 ### `allow_registration_as_teacher`
 
@@ -38,11 +45,16 @@ Is registration as a new user allowed? Can users create new accounts?
 
 Can one register as a teacher (with the ability to create courses)?
 
+*Default: `true`*
+
 ### `allow_terms_conditions`
 
 **Enable terms and conditions**
 
 This option will display the Terms and Conditions in the register form for new users. Need to be configured first in the portal administration page.
+
+*Default: `false`*
+
 
 ### `drh_autosubscribe`
 
@@ -74,17 +86,36 @@ Array defining host and port for the LDAP server.
 
 If set to true, removes the "I have read and accept" checkbox in the Terms and Conditions page flow.
 
+*Default: `false`*
+
+
 ### `platform_unsubscribe_allowed`
 
 **Allow unsubscription from platform**
 
 By enabling this option, you allow any user to definitively remove his own account and all data related to it from the platform. This is quite a radical action, but it is necessary for portals opened to the public where users can auto-register. An additional entry will appear in the user profile to unsubscribe after confirmation.
 
+*Default: `false`*
+
+
 ### `redirect_after_login`
 
 **Redirect after login (per profile)**
 
 Define redirection per profile after login using a JSON object like {"STUDENT":"", "ADMIN":"admin-dashboard"}
+
+*Default:*
+```json
+{
+  "COURSEMANAGER": "courses",
+  "STUDENT": "courses",
+  "DRH": "",
+  "SESSIONADMIN": "admin-dashboard",
+  "STUDENT_BOSS": "main/my_space/student.php",
+  "INVITEE": "courses",
+  "ADMIN": "admin"
+}
+```
 
 ### `required_extra_fields_in_inscription`
 
@@ -103,6 +134,9 @@ Array of profile field names (email, phone, language, official_code) that must b
 **Send the welcome message to e-mail and inbox**
 
 By default, the welcome message (with credentials) is sent only by e-mail. Enable this option to send it to the user's Chamilo inbox as well.
+
+*Default: `false`*
+
 
 ### `sessionadmin_autosubscribe`
 
@@ -127,4 +161,7 @@ Teacher autosubscribe - not yet available
 **Hide 'never expires' option for users**
 
 Remove the option 'never expires' when creating/editing a user account.
+
+*Default: `false`*
+
 

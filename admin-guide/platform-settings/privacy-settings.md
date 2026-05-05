@@ -32,11 +32,15 @@ Job title or role of the designated data protection officer, displayed alongside
 
 Avoid anyone making the 'users' tool visible in a public course.
 
+*Default: `true`*
+
 ### `disable_gdpr`
 
 **Disable GDPR features**
 
 If you already manage your personal data protection declaration to users elsewhere, you can safely disable this feature.
+
+*Default: `true`*
 
 ### `hide_user_field_from_list`
 

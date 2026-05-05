@@ -14,11 +14,16 @@ Access these settings under **Administration > Configuration settings > Security
 
 Add fields in the password update page to enable 2FA using a TOTP authenticator app. When disabled globally, users won't see 2FA fields and won't be prompted for 2FA at login, even if they had enabled it previously.
 
+*Default: `false`*
+
 ### `access_to_personal_file_for_all`
 
 **Access to personal file for all**
 
 Allows access to all personal files without restriction
+
+*Default: `false`*
+
 
 ### `admins_can_set_users_pass`
 
@@ -32,6 +37,8 @@ Allows access to all personal files without restriction
 
 Enable a CAPTCHA on the login form, inscription form and lost password form to avoid password hammering
 
+*Default: `false`*
+
 ### `allow_online_users_by_status`
 
 **Filter users that can be seen as online**
@@ -44,11 +51,17 @@ Limits online user visibility to specific user roles.
 
 Enable this option to add a visual indicator of password strength, when the user changes his/her password. This will NOT prevent bad passwords to be added, it only acts as a visual helper.
 
+*Default: `true`*
+
+
 ### `anonymous_autoprovisioning`
 
 **Auto-provision more anonymous users**
 
 Dynamically creates new anonymous users to support high visitor traffic.
+
+*Default: `false`*
+
 
 ### `captcha_number_mistakes_to_block_account`
 
@@ -68,6 +81,9 @@ If the user reaches the maximum allowance for login mistakes (when using the CAP
 
 Enable validation of the password requirements defined above during password creation or password update.
 
+*Default: `false`*
+
+
 ### `filter_terms`
 
 **Filter terms**
@@ -80,17 +96,25 @@ Give a list of terms, one by line, to be filtered out of web pages and e-mails. 
 
 This is one simple measure to increase the security of your portal by asking users to immediately change their password, so the one that was transfered by e-mail is no longer valid and they then will use one that they came up with and that they are the only person to know.
 
+*Default: `false`*
+
+
 ### `hide_breadcrumb_if_not_allowed`
 
 **Hide breadcrumb if 'not allowed'**
 
 If the user is not allowed to access a specific page, also hide the breadcrumb. This increases security by avoiding the display of unnecessary information.
 
+*Default: `false`*
+
+
 ### `login_max_attempt_before_blocking_account`
 
 **Max login attempts before lockdown**
 
 Number of failed login attempts to tolerate before the user account is locked and has to be unlocked by an admin.
+
+*Default: `50`*
 
 ### `password_requirements`
 
@@ -104,11 +128,17 @@ Defines the required structure for user passwords. Example: {"min":{"length":8,"
 
 Number of days before users must rotate their password (0 = disabled).
 
+*Default: `0`*
+
+
 ### `prevent_multiple_simultaneous_login`
 
 **Prevent simultaneous login**
 
 Prevent users connecting with the same account more than once. This is a good option on pay-per-access portals, but might be restrictive during testing as only one browser can connect with any given account.
+
+*Default: `false`*
+
 
 ### `proxy_settings`
 
@@ -121,6 +151,9 @@ Some features of Chamilo will connect to the exterior from the server. For examp
 **Block disabled users immediately**
 
 Immediately block users who have been disabled by the admin through users management. Otherwise, users who have been disabled will keep their previous privileges until they logout.
+
+*Default: `false`*
+
 
 ### `security_content_policy`
 
@@ -152,11 +185,16 @@ This setting allows you to experiment by reporting but not enforcing some HTTP P
 
 Referrer Policy is a new header that allows a site to control how much information the browser includes with navigation away from a document and should be set by all sites.
 
+*Default: `origin-when-cross-origin`*
+
+
 ### `security_session_cookie_samesite_none`
 
 **Session cookie samesite**
 
 Enable samesite:None parameter for session cookie. More info: https://www.chromium.org/updates/same-site and https://developers.google.com/search/blog/2020/01/get-ready-for-new-samesitenone-secure
+
+*Default: `false`*
 
 ### `security_strict_transport`
 
@@ -170,11 +208,17 @@ HTTP Strict Transport Security is an excellent feature to support on your site a
 
 X-Content-Type-Options stops a browser from trying to MIME-sniff the content type and forces it to stick with the declared content-type. The only valid value for this header is 'nosniff'.
 
+*Default: `nosniff`*
+
+
 ### `security_x_frame_options`
 
 **X-Frame-Options**
 
 X-Frame-Options tells the browser whether you want to allow your site to be framed or not. By preventing a browser from framing your site you can defend against attacks like clickjacking. If defining a URL here, it should define the URL(s) from which your content should be visible, not the URLs from which your site accepts content. For example, if your main URL (root_web above) is https://11.chamilo.org/, then this setting should be: 'ALLOW-FROM https://11.chamilo.org'. These headers only apply to pages where Chamilo is responsible of the HTTP headers generation (i.e. '.php' files). It does not apply to static files. If playing with this feature, make sure you also update your web server configuration to add the right headers for static files. See CDN configuration documentation above (search for 'add_header') for more information. Recommended (strict) value for this setting, if enabled: 'SAMEORIGIN'.
+
+*Default: `SAMEORIGIN`*
+
 
 ### `security_xss_protection`
 
@@ -182,15 +226,24 @@ X-Frame-Options tells the browser whether you want to allow your site to be fram
 
 X-XSS-Protection sets the configuration for the cross-site scripting filter built into most browsers. Recommended value '1; mode=block'.
 
+*Default: `1; mode=block`*
+
+
 ### `user_reset_password`
 
 **Enable password reset token**
 
 This option allows to generate a expiring single-use token sent by e-mail to the user to reset his/her password.
 
+*Default: `false`*
+
+
 ### `user_reset_password_token_limit`
 
 **Time limit for password reset token**
 
 The number of seconds before the generated token automatically expires and cannot be used anymore (a new token needs to be generated).
+
+*Default: `3600`*
+
 

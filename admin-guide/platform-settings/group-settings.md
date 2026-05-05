@@ -14,15 +14,24 @@ Access these settings under **Administration > Configuration settings > Groups**
 
 Allow teachers to create categories in the Groups tool?
 
+*Default: `false`*
+
+
 ### `hide_course_group_if_no_tools_available`
 
 **Hide course group if no tool**
 
 If no tool is available in a group and the user is not registered to the group itself, hide the group completely in the groups list.
 
+*Default: `false`*
+
+
 ### `show_groups_to_users`
 
 **Show classes to users**
 
 Show the classes to users. Classes are a feature that allow you to register/unregister groups of users into a session or a course directly, reducing the administrative hassle. When you pick this option, learners will be able to see in which class they are through their social network interface.
+
+*Default: `false`*
+
 

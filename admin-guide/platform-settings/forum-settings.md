@@ -14,11 +14,15 @@ Access these settings under **Administration > Configuration settings > Forums**
 
 Add a language filter to the forum view to only see categries configured in a specific language. Requires using the 'language' extra field on the 'forum_category' entity.
 
+*Default: `false`*
+
 ### `allow_forum_post_revisions`
 
 **Forum post review**
 
 Enable this option to allow asking for a review or a translation to one's post in a forum. When extensively configured, can be used to collaborate with other users in a language-learning forum.
+
+*Default: `false`*
 
 ### `community_managers_user_list`
 
@@ -32,11 +36,15 @@ Provide an array of user IDs that will be considered community managers in the s
 
 What should be the default option when creating a new forum. Any trainer can however choose a different view for every individual forum
 
+*Default: `flat`*
+
 ### `display_groups_forum_in_general_tool`
 
 **Display group forums in general forum**
 
 Display group forums in the forum tool at the course level. This option is enabled by default (in this case, group forum individual visibilities still act as an additional criteria). If disabled, group forums will only be visible through the group tool, be them public or not.
+
+*Default: `true`*
 
 ### `forum_fold_categories`
 
@@ -44,11 +52,15 @@ Display group forums in the forum tool at the course level. This option is enabl
 
 Visual effect to enable forum categories folding/unfolding.
 
+*Default: `false`*
+
 ### `global_forums_course_id`
 
 **Use course as global forum**
 
 Set the course ID (numerical) of a course reserverd to use as a global forum. This replaces the 'Social groups' link in the social network by a link to the forum of that course.
+
+*Default: `0`*
 
 ### `hide_forum_post_revision_language`
 
@@ -56,9 +68,12 @@ Set the course ID (numerical) of a course reserverd to use as a global forum. Th
 
 Hide the possibility to assign a language to a forum post review.
 
+*Default: `false`*
+
 ### `subscribe_users_to_forum_notifications_also_in_base_course`
 
 **Forum notifications from base course as well**
 
 Enable this option to enable notifications coming from the base course forum, even if following the course through a session.
 
+*Default: `false`*
