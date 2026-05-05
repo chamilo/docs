@@ -46,7 +46,7 @@ The documents tool can integrate links to files in the cloud. The list of cloud 
 
 The default document visibility for all courses
 
-*Default: `0`*
+*Default: `false`*
 
 ### `documents_hide_download_icon`
 
@@ -147,7 +147,7 @@ Whenever someone creates a new item in the documents tool, send a notification t
 
 Multimedia file folders containing files supplied by default organized in categories of video, audio, image and flash animations to use in their courses. Although you make it invisible into the document tool, you can still use these resources in the platform web editor.
 
-*Default: `false`*
+*Default: `true`*
 
 ### `show_documents_preview`
 
@@ -163,7 +163,7 @@ Showing previews of the documents in the documents tool will avoid loading a new
 
 This option allows you to show or hide to teachers the folders that the system generates for each user who visits the tool documents or send a file through the web editor. If you display these folders to the teachers, they may make visible or not the learners and allow each learner to have a specific place on the course where not only store documents, but where they can also create and edit web pages and to export to pdf, make drawings, make personal web templates, send files, as well as create, move and delete directories and files and make security copies from their folders. Each user of course have a complete document manager. Also, remember that any user can copy a file that is visible from any folder in the documents tool (whether or not the owner) to his/her portfolios or personal documents area of social network, which will be available for his/her can use it in other courses.
 
-*Default: `false`*
+*Default: `true`*
 
 ### `students_download_folders`
 

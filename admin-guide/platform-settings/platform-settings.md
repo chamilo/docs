@@ -76,6 +76,9 @@ Defines a global maximum number of users (teachers included) allowed to be subsc
 
 The name of the organization (appears in the header on the right)
 
+*Default: `Chamilo.org`*
+
+
 ### `institution_address`
 
 **Institution address**
@@ -87,6 +90,9 @@ Address
 **Organization URL (web address)**
 
 The URL of the institutions (the link that appears in the header on the right)
+
+*Default: `http://www.chamilo.org`*
+
 
 ### `max_courses_per_user`
 
@@ -117,6 +123,9 @@ This represents the resolution of generated PDF files (in dot per inch, or dpi).
 **URL for alternative platform logo**
 
 Replaces the Chamilo logo by loading a (possibly remote) URL. Make sure this is allowed by your security policies.
+
+*Default: `https://chamilo.org`*
+
 
 ### `portfolio_advanced_sharing`
 
@@ -162,6 +171,9 @@ If enabled, session admins can search and list users from all access URLs, regar
 
 The Name of your Chamilo Portal (appears in the header)
 
+*Default: `Chamilo site`*
+
+
 ### `timepicker_increment`
 
 **Timepicker increment**
@@ -176,11 +188,17 @@ Minimal time increment (in minutes) when selecting a date and time with the time
 
 Select the default timezone for this portal. This will help set the timezone (if the feature is enabled) for each new user or for any user that has not set a specific timezone yet. Timezones help show all time-related information on screen in the specific timezone of each user.
 
+*Default: `Europe/Paris`*
+
+
 ### `unoconv_binaries`
 
 **UNO converter binaries**
 
 Give the system path to the UNO converter library to enable some extra exporting features.
+
+*Default: `/usr/bin/unoconv`*
+
 
 ### `use_career_external_id_as_identifier_in_diagrams`
 

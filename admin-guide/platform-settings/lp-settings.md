@@ -205,8 +205,6 @@ Add a minimum time field to learning paths. If the user has not spent that much 
 
 [inferred] Automatically unlock subsequent learning path items when a learner exhausts maximum quiz attempts for a prerequisite test.
 
-*Default: `false`*
-
 
 ### `lp_prerequisite_on_quiz_unblock_if_max_attempt_reached`
 

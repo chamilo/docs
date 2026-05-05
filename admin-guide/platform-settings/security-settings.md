@@ -114,7 +114,7 @@ If the user is not allowed to access a specific page, also hide the breadcrumb. 
 
 Number of failed login attempts to tolerate before the user account is locked and has to be unlocked by an admin.
 
-*Default: `50`*
+*Default: `0`*
 
 ### `password_requirements`
 

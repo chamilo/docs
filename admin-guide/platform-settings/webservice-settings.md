@@ -61,3 +61,6 @@ Some REST web services are marked for admins only and are disabled by default. E
 
 Ask REST webservices (v2.php) to return another identifier for fields related to user ID. This is useful if the external system doesn't really deal with user IDs as they are in Chamilo, as it helps the external system match the user data return with some external data that is know to Chamilo. For example, if you use an external authentication system, you can return the extra field used to match the user with the external authentication system rather than user.id.
 
+*Default: `oauth2_id`*
+
+

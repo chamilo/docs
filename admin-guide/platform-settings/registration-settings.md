@@ -37,7 +37,7 @@ Are users allowed to request their lost password?
 
 Is registration as a new user allowed? Can users create new accounts?
 
-*Default: `open`*
+*Default: `false`*
 
 ### `allow_registration_as_teacher`
 
@@ -45,7 +45,7 @@ Is registration as a new user allowed? Can users create new accounts?
 
 Can one register as a teacher (with the ability to create courses)?
 
-*Default: `true`*
+*Default: `false`*
 
 ### `allow_terms_conditions`
 

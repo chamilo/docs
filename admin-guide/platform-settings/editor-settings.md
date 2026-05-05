@@ -20,8 +20,6 @@ If this option is activated, clicking on an e-mail address will open an online e
 
 Enable spell check
 
-*Default: `true`*
-
 ### `block_copy_paste_for_students`
 
 **Block learners copy and paste**
@@ -93,8 +91,6 @@ This allows you to embed on your webpages your favorite videos and applications 
 **Enable MathJax**
 
 Enable the MathJax library to visualize mathematical formulas. This is only useful if either ASCIIMathML or ASCIISVG settings are enabled.
-
-*Default: `true`*
 
 ### `enabled_support_svg`
 

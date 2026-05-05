@@ -28,8 +28,6 @@ Allow coaches to edit feedback during review of exercises
 
 By default, Chamilo prevents you from editing tests that are included inside a learning path. This is to avoid changes that would affect learners (past and future) differently regarding the results and/or progress in the learning path. This option allows teachers to bypass this restriction.
 
-*Default: `false`*
-
 
 ### `allow_exercise_categories`
 

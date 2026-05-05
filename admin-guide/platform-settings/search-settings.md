@@ -29,5 +29,5 @@ This option let you choose the Specific field to use on prefilter search type.
 
 When showing the results of a full-text search, what should be done with the results that are not accessible to the current user?
 
-*Default: `false`*
+*Default: `true`*
 

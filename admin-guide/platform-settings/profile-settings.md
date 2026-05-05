@@ -14,6 +14,9 @@ Access these settings under **Administration > Configuration settings > User Pro
 
 A user account is valid for this number of days after creation
 
+*Default: `3660`*
+
+
 ### `add_user_course_information_in_mailto`
 
 **Pre-fill the mail with user and course info in footer contact**
@@ -29,15 +32,11 @@ Add subject and body in the mailto: footer.
 
 Add a link on the user social block, allowing visit the user's LinkedIn profile
 
-*Default: `false`*
-
 ### `allow_show_skype_account`
 
 **Allow show the user Skype account**
 
 Add a link on the user social block allowing start a chat by Skype
-
-*Default: `false`*
 
 ### `allow_social_map_fields`
 
@@ -74,16 +73,12 @@ When changing the account information
 
 Select the fields users will be able to change on their profile page.
 
-*Default: `name,officialcode,email,picture,login,password,language,phone,theme`*
-
 
 ### `enable_profile_user_address_geolocalization`
 
 **Enable user's geolocalization**
 
 Enable user's address field and show it on a map using geolocalization features
-
-*Default: `false`*
 
 ### `extended_profile`
 
@@ -193,7 +188,7 @@ By enabling this option, terms and conditions will be available to the user only
 
 On high-load portals, where a lot of users are registered and send their pictures, the upload directory (main/upload/users/) might contain too many files for the filesystem to handle (it has been reported with more than 36000 files on a Debian server). Changing this option will enable a one-level splitting of the directories in the upload directory. 9 directories will be used in the base directory and all subsequent users' directories will be stored into one of these 9 directories. The change of this option will not affect the directories structure on disk, but will affect the behaviour of the Chamilo code, so if you change this option, you have to create the new directories and move the existing directories by yourself on te server. Be aware that when creating and moving those directories, you will have to move the directories of users 1 to 9 into subdirectories of the same name. If you are not sure about this option, it is best not to activate it.
 
-*Default: `false`*
+*Default: `true`*
 
 ### `use_users_timezone`
 
@@ -201,7 +196,7 @@ On high-load portals, where a lot of users are registered and send their picture
 
 Enable the possibility for users to select their own timezone. Once configured, users will be able to see assignment deadlines and other time references in their own timezone, which will reduce errors at delivery time.
 
-*Default: `false`*
+*Default: `true`*
 
 ### `user_import_settings`
 
@@ -228,7 +223,5 @@ Allow users to select their own visual theme in their profile. This will change 
 **List of visible fields in profile**
 
 Controls which profile fields are visible to users and others.
-
-*Default: `name,officialcode,email,picture,login,password,language,phone,theme`*
 
 

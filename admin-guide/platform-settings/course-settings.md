@@ -264,7 +264,7 @@ The course rating feature comes by default in different places. If you don’t w
 
 When on screens where the left menu is visible, do not display the « Courses » section.
 
-*Default: `false`*
+*Default: `true`*
 
 ### `multiple_access_url_show_shared_course_marker`
 
@@ -357,5 +357,5 @@ Enable the learner view, which allows a teacher or admin to see a course as a le
 
 View courses in a layout with several courses per line. Otherwise, the layout will show one course per line.
 
-*Default: `false`*
+*Default: `true`*
 

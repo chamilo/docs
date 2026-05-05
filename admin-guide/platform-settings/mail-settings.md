@@ -56,6 +56,9 @@ Enter a JSON array of your DKIM configuration settings (see example).
 
 The DSN fully includes all parameters needed to connect to the mail service. You can learn more at https://symfony.com/doc/6.4/mailer.html#using-built-in-transports. Here are a few examples of supported DSN syntaxes: https://symfony.com/doc/6.4/mailer.html#using-a-3rd-party-transport
 
+*Default: `null://null`*
+
+
 ### `mailer_exclude_json`
 
 **Mail: Avoid using LD+JSON**

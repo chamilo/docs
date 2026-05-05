@@ -41,7 +41,7 @@ This enables a major feature that enables any item to be linked to (and as such 
 
 Users can see their skills in the social network and in a block in the homepage.
 
-*Default: `false`*
+*Default: `true`*
 
 ### `allow_teacher_access_student_skills`
 

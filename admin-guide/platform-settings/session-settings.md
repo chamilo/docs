@@ -65,7 +65,7 @@ Session administrators can disable user accounts to prevent login while retainin
 
 When using sessions, the default behaviour is to use the tool visibility defined in the base course. This setting changes that to allow coaches in session courses to adapt tool visibilities to their needs.
 
-*Default: `false`*
+*Default: `true`*
 
 ### `allow_redirect_to_session_after_inscription_about`
 
@@ -217,11 +217,17 @@ Allows duplication of resources that were created in the session when duplicatin
 
 Include a password reset link in subscription confirmation emails sent to users when they are enrolled in a session.
 
+*Default: `false`*
+
+
 ### `email_template_subscription_to_session_confirmation_username`
 
 **Add username to e-mail notification of subscription to session**
 
 Include the user's username in subscription confirmation emails sent when they are enrolled in a session.
+
+*Default: `false`*
+
 
 ### `enable_auto_reinscription`
 
@@ -434,15 +440,11 @@ Array of relationships between user extra fields and session extra fields, so th
 
 Default number of days a coach can access his session after the official session end date
 
-*Default: `0`*
-
 ### `session_days_before_coach_access`
 
 **Default coach access days before session**
 
 Default number of days a coach can access his session before the official session start date
-
-*Default: `0`*
 
 ### `session_import_settings`
 

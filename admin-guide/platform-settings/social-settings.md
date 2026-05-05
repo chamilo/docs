@@ -14,7 +14,7 @@ Access these settings under **Administration > Configuration settings > Social N
 
 The social network tool allows users to define relations with other users and, by doing so, to define groups of friends. Combined with the internal messaging tool, this tool allows tight communication with friends, inside the portal environment.
 
-*Default: `false`*
+*Default: `true`*
 
 ### `allow_students_to_create_groups_in_social`
 
@@ -31,7 +31,7 @@ Allow learners to create groups in social network
 
 Remove the thumb down option for social posts feedback. Only keep thumb up (like).
 
-*Default: `true`*
+*Default: `false`*
 
 ### `hide_social_groups_block`
 
@@ -48,7 +48,7 @@ Removes the groups section from the social network view.
 
 Allows users to add feedback (likes or dislikes) to posts in social wall.
 
-*Default: `true`*
+*Default: `false`*
 
 ### `social_make_teachers_friend_all`
 

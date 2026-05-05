@@ -85,6 +85,9 @@ Last language fallback option by order of priority.
 
 Main language, used by default when no user language is set.
 
+*Default: `en`*
+
+
 ### `show_different_course_language`
 
 **Show course languages**

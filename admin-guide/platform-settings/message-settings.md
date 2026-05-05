@@ -22,7 +22,7 @@ Enabling the internal messaging tool allows users to send messages to other user
 
 Allows you to send messages to any user of the platform, not just your friends or the people currently online.
 
-*Default: `true`*
+*Default: `false`*
 
 ### `allow_user_message_tracking`
 

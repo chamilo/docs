@@ -22,8 +22,6 @@ Enable the Remind Course Expiration cron
 
 Number of days before the expiration of the course to consider to send reminder mail
 
-*Default: `2`*
-
 ### `cron_remind_course_finished_activate`
 
 **Send course finished notification**
