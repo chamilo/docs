@@ -19,7 +19,7 @@ Default categories include:
 
 ## Accessing the Ticket Tool
 
-If your administrator has enabled the ticket link, a ticket icon appears in the top navigation bar. Click it to go directly to the ticket submission form.
+If your administrator has enabled the ticket link, a ticket icon <img src="/.gitbook/assets/icons/mdi-ticket-account.svg" alt="Ticket" data-size="line"> appears in the top navigation bar. Click it to go directly to the ticket submission form.
 
 You can also access your tickets from the main menu under **Support** or **Tickets**, depending on your platform configuration.
 
