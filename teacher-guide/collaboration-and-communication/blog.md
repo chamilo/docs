@@ -4,10 +4,11 @@ The blog tool lets you create a shared blog within your course. Learners can wri
 
 ## Creating a Blog
 
-1. Open the **Blog** tool from the course homepage
-2. Click **Create a blog**
-3. Enter a **blog title** and optional description
+1. Open the **Blog** tool from the course homepage (under the cog icon at the top)
+2. Click **New project**
+3. Enter a **title** and optional subtitle
 4. Save
+5. Decide when you want to make it available to students by clicking the **Show** (eye) icon
 
 You can create multiple blogs within a single course (e.g., one per topic or one per group).
 
