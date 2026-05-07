@@ -2,7 +2,7 @@
 
 This section covers everything you need to install and configure Chamilo 2.0 on your server.
 
-Chamilo 2.0 is a PHP application built on the Symfony framework. It can run on most Linux-based servers and supports multiple database backends.
+Chamilo 2.0 is a PHP application built on the Symfony framework. It can run on most Linux-based servers, has been installed and runs on Windows Server with IIS, and supports MySQL and MariaDB backends.
 
 ## Installation Steps
 
@@ -18,10 +18,12 @@ Chamilo 2.0 is a PHP application built on the Symfony framework. It can run on m
 The basic installation process is:
 
 1. Download or clone the Chamilo source code
-2. Install PHP dependencies with Composer
+2. Install PHP dependencies with Composer if preparing from source
 3. Install JavaScript dependencies with npm/yarn and build frontend assets
-4. Configure your `.env.local` file with database credentials and other settings
-5. Run the web-based installation wizard
-6. Create your first administrator account
+4. Create an empty `.env` file to store your database credentials and other settings later on
+5. Change permissions (writeable by the web server) on *var/*, *config/* and *.env*
+6. Run the web-based installation wizard
+7. Connect with your first administrator account
+8. Change permissions back on *config/* and *.env*
 
 Detailed instructions for each step are in the pages linked above.
