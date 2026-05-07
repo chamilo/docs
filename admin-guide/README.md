@@ -2,7 +2,7 @@
 
 Welcome to the Chamilo 2.0 Administration Guide. This guide is designed for platform administrators responsible for installing, configuring, and managing a Chamilo instance.
 
-## What You Can Do as an Administrator
+## What you can do as an Administrator
 
 As a Chamilo administrator, you manage:
 
@@ -15,7 +15,7 @@ As a Chamilo administrator, you manage:
 * **Branding** — Customize the look and feel of the platform with themes and visual settings
 * **Maintenance** — Perform backups, monitor system health, and manage storage
 
-## How This Guide Is Organized
+## How this guide is organized
 
 1. **Getting Started** — An overview of the administration interface
 2. **Installation** — Server requirements, installation wizard, and initial configuration
