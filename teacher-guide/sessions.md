@@ -29,7 +29,7 @@ When you enter a course through a session, the experience is similar to a regula
 
 * The **session name** appears alongside the course title, so you always know which session you are working in
 * Learner data (progress, grades, submissions) is specific to this session
-* Some settings may be locked by the session administrator
+* Some settings (like the ability to change the visibility of tools) may be locked by the session administrator
 
 ## Session Roles
 
