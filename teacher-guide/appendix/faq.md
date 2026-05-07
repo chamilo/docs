@@ -22,7 +22,7 @@ Go to the **Maintenance** tool in your course (accessible from the settings menu
 
 **Can I copy content from one course to another?**
 
-Yes. Use the course import/export features in the Maintenance tool to copy content between courses.
+Yes. Use the course import/export features in the Maintenance tool to copy content between courses. You will need to create an empty *destination* course first.
 
 **What file formats can I upload?**
 
@@ -44,7 +44,7 @@ Yes. When creating or editing an exercise, you can set a time limit in minutes. 
 
 **Can learners retake an exercise?**
 
-Yes. You control the number of allowed attempts in the exercise settings. You can allow unlimited attempts or set a specific maximum.
+Yes. You control the number of allowed attempts in the exercise settings. You can allow unlimited attempts or set a specific maximum, but this maximum applies to all users in your course (you can *free* new attempts by deleting previous ones, but this is not recommended as it results in unequal chances between users and it is registered for audit at the platform level).
 
 ## Technical Issues
 
