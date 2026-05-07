@@ -47,6 +47,8 @@
     * [Course Progress](teacher-guide/additional-tools/course-progress.md)
   * [Social Network](teacher-guide/social-network.md)
   * [Sessions](teacher-guide/sessions.md)
+  * [Branches and Rooms](teacher-guide/branches-and-rooms.md)
+  * [Support Tickets](teacher-guide/tickets.md)
   * [Appendix](teacher-guide/appendix/faq.md)
     * [FAQ](teacher-guide/appendix/faq.md)
     * [Glossary](teacher-guide/appendix/glossary.md)
