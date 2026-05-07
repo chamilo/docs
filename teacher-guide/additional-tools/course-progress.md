@@ -2,6 +2,8 @@
 
 The course progress tool helps you define the thematic structure of your course and track how much of the planned content has been delivered.
 
+To students, it is a useful tool for those who have been sick for a few days and could not attend class, as they will known what topics have been talked about and how far the rest of the class has progressed in their absence.
+
 ## How It Works
 
 Course progress is organized into three layers:
@@ -16,6 +18,7 @@ Course progress is organized into three layers:
 2. Create **thematic sections** that correspond to your course's main topics or modules
 3. Within each section, add **plan** entries by type to describe what you intend to cover
 4. As you deliver the content, add **thematic advances** with their date and duration, and mark them as done
+5. Decide the visibility of that information on the course homepage by changing the related settings in the **Course settings** section (cog icon at the top of the course homepage)
 
 You can optionally link a thematic advance to an attendance sheet so its start date is pulled from your attendance records. Sections (with their plan and advances) can also be **copied** within the same course/session.
 
