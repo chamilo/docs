@@ -23,7 +23,7 @@ Open the **Agenda** <img src="/.gitbook/assets/icons/mdi-calendar-text.svg" alt=
 3. Choose the **audience**:
    * **All learners** — Everyone enrolled in the course
    * **Specific users or groups** — Select individual learners or groups
-4. Optionally set a **reminder** <img src="/.gitbook/assets/icons/mdi-alarm.svg" alt="Reminder" data-size="line"> to send email notifications before the event
+4. Optionally set a **reminder** <img src="/.gitbook/assets/icons/mdi-alarm.svg" alt="Reminder" data-size="line"> to send email notifications before the event (*cron* setup for the portal required by an admin)
 5. Save
 
 ## Managing Events
@@ -40,4 +40,4 @@ You also have a **personal agenda** accessible from the sidebar. The personal ag
 
 * **Set deadlines** — Create events for assignment due dates and exercise deadlines so learners can see them in their calendar
 * **Use reminders** — Enable email reminders for important events to help learners stay on track
-* **Coordinate with sessions** — If you teach in multiple sessions, each session has its own events, visible only to that session's learners
+* **Coordinate with sessions** — If you teach in multiple sessions, each session has its own events, visible only to that session's learners. Teachers have a feature to see the events (homeworks, excursions, etc) of other courses in their sessions to avoid overloading students.
