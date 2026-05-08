@@ -36,19 +36,16 @@ The admin dashboard is organized into functional blocks. Each block groups relat
 
 * **Manage plugins** — Install, activate, configure, and deactivate platform plugins
 
-### Authentication
-
-* **Configure authentication** — Set up OAuth2, LDAP, CAS, and other external authentication providers
-
 ### System
 
 * **System status** — Check PHP configuration, database status, and server health
 * **Archive cleanup** — Manage temporary files and caches
-* **Backups** — Database and course backup tools
 
 ### Branding
 
-* **Color themes** — Customize the platform's visual appearance
+* **Colors** — Customize the platform's visual appearance
 * **Portal customization** — Configure portal homepage, news, and branding elements
 
 Each section is covered in detail in its corresponding chapter of this guide.
+
+Authentication methods like OAuth2, LDAP, CAS, and other external authentication providers are not configured in the administration dashboard but in `config/authentication.yaml`.

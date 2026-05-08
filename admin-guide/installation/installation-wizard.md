@@ -7,11 +7,9 @@ Chamilo 2.0 includes a web-based installation wizard that guides you through the
 Ensure the following prerequisites are met:
 
 1. Your server meets all [server requirements](server-requirements.md).
-2. You have downloaded or cloned the Chamilo source code.
-3. You have installed PHP dependencies: `composer install`
-4. You have installed JavaScript dependencies and built assets: `npm install && npm run build`
-5. Your web server is configured to serve the `public/` directory as the document root.
-6. Your `.env.local` file exists (it can be minimal at this point -- the wizard will guide database setup).
+2. You have downloaded a packaged (zip or tar.gz) version of Chamilo.
+3. Your web server is configured to serve the `public/` directory as the document root.
+4. Your `.env` file exists and is empty (the wizard will guide database setup).
 
 ## Step 1: Installation Language
 
@@ -27,7 +25,7 @@ If Chamilo detects an existing installation (for an upgrade), it will display th
 
 The wizard checks your server environment:
 
-* **PHP version** is 8.2 or higher
+* **PHP version** is 8.2 or superior
 * **Required PHP extensions** are installed (intl, gd, curl, zip, mbstring, xml, etc.)
 * **Recommended PHP settings** — `date.timezone` is configured, adequate upload/memory limits
 * **Directory and file permissions** — `var/`, `config/`, and `public/upload/` are writable by the web server
@@ -38,9 +36,9 @@ If any requirements are not met, the wizard displays warnings or errors. Resolve
 
 ![Installation wizard Step 3 — license acceptance](/.gitbook/assets/install-step3-license.png)
 
-This step displays the GNU GPL v3 license. You must check the **"I accept"** checkbox to proceed.
+This step displays the GNU/GPLv3 license. You must check the **"I accept"** checkbox to proceed.
 
-Optionally, you can expand the **Contact information** section to provide details about your organization (name, email, company, country). This is voluntary and helps the Chamilo community understand who uses the platform.
+Optionally, you can expand the **Contact information** section to provide details about your organization (name, email, company, country). This is voluntary and helps the Chamilo community understand who uses the platform, but will also allow us to contact you *very rarely* about events happening close to you.
 
 ## Step 4: Database Settings
 
@@ -51,7 +49,7 @@ Enter your database connection details:
 | Field | Description |
 |-------|-------------|
 | **Database host** | The hostname or IP of your database server (e.g., `localhost` or `127.0.0.1`) |
-| **Database port** | Default: 3306 for MySQL/MariaDB, 5432 for PostgreSQL |
+| **Database port** | Default: 3306 for MySQL/MariaDB |
 | **Database name** | The name of the database to use (alphanumeric and underscores only) |
 | **Database user** | A database user with full privileges on the specified database |
 | **Database password** | The password for the database user |
@@ -75,12 +73,13 @@ This step combines administrator account creation, portal settings, and email co
 | **Email** | Used for system notifications and password resets |
 | **Phone** | Optional contact number |
 
+These admin details will also be used by Chamilo to populate the support contact details, so make sure you go reconfigure that in the settings after the installation concluded.
+
 ### Portal Settings
 
 | Field | Description |
 |-------|-------------|
 | **Language** | The default interface language |
-| **Chamilo URL** | The base URL where the platform is accessible |
 | **Portal name** | The name of your platform (e.g., "My Organization LMS") |
 | **Company short name** | Your organization's abbreviated name |
 | **Company URL** | Your organization's website |
@@ -105,8 +104,6 @@ This step displays a summary of everything you entered for review:
 * Database connection details
 
 Review carefully, then click **Install Chamilo** to execute the installation. The wizard creates all database tables, populates initial data, and configures the platform.
-
-A progress bar shows the installation status.
 
 ## Step 7: Installation Complete
 
@@ -133,7 +130,7 @@ After completing the wizard:
 
 | Problem | Solution |
 |---------|----------|
-| Blank page at install URL | Check PHP error logs. Ensure `APP_ENV=dev` temporarily to see errors in the browser. |
+| Blank page at install URL | Check PHP error logs. Change to `APP_ENV=dev` in .env temporarily to see errors in the browser. |
 | Database connection fails | Verify credentials, confirm the database exists, check that the database server allows connections from the web server host. |
-| Permission denied errors | Ensure `var/`, `config/`, and `public/upload/` are writable by the web server user. |
-| Assets not loading (no CSS/JS) | Run `npm install && npm run build` to compile frontend assets. |
+| Permission denied errors | Ensure `var/` is writable by the web server user. |
+| Assets not loading (no CSS/JS) | Run `yarn install && yarn build` to compile frontend assets. |
