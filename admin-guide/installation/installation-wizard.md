@@ -111,7 +111,7 @@ Review carefully, then click **Install Chamilo** to execute the installation. Th
 
 After installation completes successfully, the wizard shows:
 
-* **Getting started advice** — Suggests creating your first course to explore the platform
+* **Getting started advice** — Suggests creating your first course to explore the platform (as admin, you need to do this from the admin panel)
 * **Security recommendations**:
   * Make the `config/` directory read-only (`chmod 0555`)
   * Delete the `public/main/install/` directory
@@ -123,7 +123,7 @@ After completing the wizard:
 
 * **Remove or restrict access to the installer** -- The wizard should not be accessible after installation. Chamilo typically locks it automatically, but verify that re-visiting the install URL redirects to the login page.
 * **Configure email delivery** -- See [Email Configuration](email-configuration.md).
-* **Set up backups** -- Before adding content, configure automated database and file backups.
+* **Set up backups** -- Before adding content, configure automated database and file backups (Chamilo does not provide a solution for this, but copying the var/ folder and the database are the 2 most important elements).
 * **Review security settings** -- See [Security Settings](../platform-settings/security-settings.md).
 
 ## Troubleshooting
