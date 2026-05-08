@@ -14,18 +14,19 @@ Before installing Chamilo 2.0, verify that your server meets the following requi
 
 | Extension | Purpose |
 |-----------|---------|
-| **intl** | Internationalization (date, number, and string formatting) |
-| **gd** | Image processing (thumbnails, CAPTCHA) |
 | **curl** | HTTP requests (API integrations, external services) |
-| **zip** | Handling ZIP archives (SCORM packages, bulk imports/exports) |
-| **mbstring** | Multibyte string handling (UTF-8 support) |
-| **xml** | XML parsing (SCORM, RSS, SOAP) |
-| **json** | JSON encoding/decoding |
-| **openssl** | Cryptographic operations (HTTPS, password hashing, tokens) |
 | **fileinfo** | MIME type detection for uploaded files |
+| **gd** | Image processing (thumbnails, CAPTCHA) |
+| **intl** | Internationalization (date, number, and string formatting) |
+| **json** | JSON encoding/decoding |
+| **ldap** | LDAP connector. Although you will probably not use LDAP, Chamilo requires it |
+| **mbstring** | Multibyte string handling (UTF-8 support) |
+| **openssl** | Cryptographic operations (HTTPS, password hashing, tokens) |
 | **pdo_mysql** or **pdo_pgsql** | Database connectivity (install the one matching your database) |
-| **opcache** | Opcode caching (strongly recommended for performance) |
+| **xml** | XML parsing (SCORM, RSS, SOAP) |
+| **zip** | Handling ZIP archives (SCORM packages, bulk imports/exports) |
 | **apcu** | User-level caching (recommended) |
+| **opcache** | Opcode caching (strongly recommended for performance) |
 | **xapian** | Full-text search (optional, only if you use search) |
 
 ### Database
@@ -34,15 +35,12 @@ Before installing Chamilo 2.0, verify that your server meets the following requi
 |----------|----------------|
 | **MySQL** | 8.0 |
 | **MariaDB** | 10.4 |
-| **PostgreSQL** | 13 |
-
-MySQL or MariaDB is the most common choice and the most thoroughly tested.
 
 ### Web Server
 
 | Server | Notes |
 |--------|-------|
-| **Apache** | Requires `mod_rewrite` enabled. Chamilo ships with an `.htaccess` file for URL rewriting. |
+| **Apache** | Requires `mod_rewrite` enabled. |
 | **Nginx** | Requires manual configuration for URL rewriting. See the Symfony Nginx documentation for a reference configuration. |
 
 ### Build Tools
@@ -59,7 +57,7 @@ MySQL or MariaDB is the most common choice and the most thoroughly tested.
 |----------|---------|-------------|
 | **RAM** | 2 GB | 4 GB or more |
 | **CPU** | 1 core | 2+ cores |
-| **Disk space** | 1 GB (application only) | 20+ GB (including uploaded content) |
+| **Disk space** | 2 GB (application only) | 20+ GB (including uploaded content) |
 | **Disk type** | HDD | SSD (significantly improves database and cache performance) |
 
 These are baseline figures. Actual requirements depend on the number of concurrent users and the volume of content hosted.
@@ -69,8 +67,8 @@ These are baseline figures. Actual requirements depend on the number of concurre
 | OS | Notes |
 |----|-------|
 | **Linux** | Recommended. Ubuntu 22.04+, Debian 12+, AlmaLinux 9+, or equivalent. |
-| **Windows** | Possible but not recommended for production. Use WSL2 for development. |
-| **macOS** | Development only. |
+| **Windows** | Possible but not thoroughly tested. Use WSL2 for development. |
+| **macOS** | Development only / untested. |
 
 ## Network Requirements
 
@@ -81,13 +79,7 @@ These are baseline figures. Actual requirements depend on the number of concurre
 
 ## Checking Requirements
 
-After placing the Chamilo source on your server, you can check requirements with the Symfony console:
-
-```bash
-php bin/console chamilo:requirements
-```
-
-Or check PHP configuration directly:
+After placing the Chamilo source on your server, you can check your PHP configuration directly:
 
 ```bash
 php -m          # List installed extensions
