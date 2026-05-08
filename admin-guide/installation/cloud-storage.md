@@ -21,27 +21,27 @@ Chamilo 2.0 supports cloud storage backends for user-uploaded files through **Fl
 
 ## Installation
 
-Install the Flysystem adapter for your provider via Composer:
+Chamilo already comes with the following pre-installed providers:
 
 ```bash
 # Amazon S3
-composer require league/flysystem-aws-s3-v3
+league/flysystem-aws-s3-v3
 
 # Google Cloud Storage
-composer require league/flysystem-google-cloud-storage
+league/flysystem-google-cloud-storage
 
 # Azure Blob Storage
-composer require league/flysystem-azure-blob-storage
+league/flysystem-azure-blob-storage
 ```
 
 ## Configuration
 
-Chamilo splits its files across several Flysystem mounts — **assets**, **assets cache**, **resources**, **resources cache**, **themes**, and **plugins**. Each mount can target a different bucket or container. The cloud configuration in `config/packages/oneup_flysystem.yaml` is selected by environment using `when@` conditions and reads the variables you set in `.env.local`.
+Chamilo splits its files across several Flysystem mounts — **assets**, **assets cache**, **resources**, **resources cache**, **themes**, and **plugins**. Each mount can target a different bucket or container. The cloud configuration in `config/packages/oneup_flysystem.yaml` is selected by environment using `when@` conditions and reads the variables you set in `.env`.
 
 ### Amazon S3
 
 ```bash
-# .env.local — common credentials
+# .env — common credentials
 AWS_S3_STORAGE_VERSION=latest
 AWS_S3_STORAGE_REGION=eu-central-1
 AWS_S3_STORAGE_ACCESS_KEY=your-access-key
@@ -63,7 +63,7 @@ AWS_S3_STORAGE_RESOURCE_PREFIX=portal1/resources
 ### Azure Blob Storage
 
 ```bash
-# .env.local
+# .env
 AZURE_STORAGE_CONNECTION_STRING='DefaultEndpointsProtocol=https;AccountName=...;AccountKey=...'
 AZURE_STORAGE_ASSET_CONTAINER=asset-container
 AZURE_STORAGE_ASSET_CACHE_CONTAINER=asset-cache-container
@@ -82,7 +82,7 @@ Configure GCS the same way as S3, using GCS-specific environment variables and o
 
 MinIO works through the S3 adapter with a custom endpoint and path-style addressing — set `AWS_S3_STORAGE_*` as for S3 and add the MinIO endpoint and path-style flags supported by the bundle.
 
-> The full set of variable names is listed in the `.env` file shipped with Chamilo. Copy only the lines for the provider you actually use into your `.env.local` and uncomment them.
+> The full set of variable names is listed in the `.env.dist` file shipped with Chamilo. Copy only the lines for the provider you actually use into your `.env` and uncomment them.
 
 ## Migrating Existing Files
 

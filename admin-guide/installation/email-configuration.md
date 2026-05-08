@@ -1,24 +1,27 @@
 # Email Configuration
 
-Chamilo sends emails for account creation, password resets, course notifications, message alerts, and other platform events. Email delivery is configured through the `MAILER_DSN` environment variable.
+Chamilo now manages the emails sending configuration from the administration dashboard, platform settings section (there is a specific entry for emails). Emails are sent for account creations, password resets, course notifications, message alerts, and other platform events. Email delivery is configured through a `MAILER_DSN` configuration setting.
 
 ## Configuration
 
-Set the `MAILER_DSN` in your `.env.local` file. The format depends on your email transport.
+Set the `Mail DSN` option in the /admin/settings/mail section. The format depends on your email transport.
 
 ### SMTP
 
 The most common configuration, suitable for any SMTP server:
 
 ```bash
+# Let the system decide
+native://default
+
 # Basic SMTP
-MAILER_DSN=smtp://username:password@smtp.example.com:587
+smtp://username:password@smtp.example.com:587
 
 # SMTP with TLS (most providers)
-MAILER_DSN=smtp://username:password@smtp.example.com:587?encryption=tls
+smtp://username:password@smtp.example.com:587?encryption=tls
 
 # SMTP without authentication (local relay)
-MAILER_DSN=smtp://localhost:25
+smtp://localhost:25
 ```
 
 Replace `username`, `password`, and the host with your SMTP server credentials.
@@ -27,10 +30,10 @@ Replace `username`, `password`, and the host with your SMTP server credentials.
 
 ```bash
 # Using SMTP interface
-MAILER_DSN=ses+smtp://ACCESS_KEY:SECRET_KEY@default?region=us-east-1
+ses+smtp://ACCESS_KEY:SECRET_KEY@default?region=us-east-1
 
 # Using API
-MAILER_DSN=ses+api://ACCESS_KEY:SECRET_KEY@default?region=us-east-1
+ses+api://ACCESS_KEY:SECRET_KEY@default?region=us-east-1
 ```
 
 Install the Symfony Amazon Mailer transport:
@@ -42,7 +45,7 @@ composer require symfony/amazon-mailer
 ### Mailjet
 
 ```bash
-MAILER_DSN=mailjet+api://API_KEY:SECRET_KEY@default
+mailjet+api://API_KEY:SECRET_KEY@default
 ```
 
 Install the transport:
@@ -54,7 +57,7 @@ composer require symfony/mailjet-mailer
 ### Brevo (formerly Sendinblue)
 
 ```bash
-MAILER_DSN=brevo+api://API_KEY@default
+brevo+api://API_KEY@default
 ```
 
 The Brevo transport (`symfony/brevo-mailer`) is already in Chamilo's `composer.json`, so no extra `composer require` step is needed.
@@ -62,7 +65,7 @@ The Brevo transport (`symfony/brevo-mailer`) is already in Chamilo's `composer.j
 ### Gmail (Development/Small Platforms)
 
 ```bash
-MAILER_DSN=gmail+smtp://your-email@gmail.com:app-password@default
+gmail+smtp://your-email@gmail.com:app-password@default
 ```
 
 Use an App Password, not your regular Gmail password. This is suitable for small platforms or development only, as Gmail has sending limits.
@@ -93,7 +96,7 @@ If the command completes without errors but the email is not received:
 3. Check your mail provider's sending logs for bounces or rejections.
 4. Review the Chamilo log at `var/log/prod.log` for mailer errors.
 
-## Email Queue (Async Delivery)
+## Experimental: Email Queue (Async Delivery)
 
 By default, emails are sent synchronously during the web request. For better performance, configure asynchronous delivery using Symfony Messenger:
 
