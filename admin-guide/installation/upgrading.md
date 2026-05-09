@@ -1,6 +1,7 @@
 # Upgrading
 
-This page covers upgrading to Chamilo 2.0 and keeping your 2.0 installation up to date.
+The upgrade process from 1.11.x to 2.0 is described in your `public/documentation/installation_guide.html` file, inside your Chamilo code.
+The information here is largely redundant. You can see it online at `https://campus.chamilo.net/documentation/installation_guide.html`.
 
 ## Upgrading from 1.11.x to 2.0
 
@@ -15,28 +16,6 @@ Upgrading from Chamilo 1.11.x to 2.0 is a **major migration**, not a simple upda
    - Your `configuration.php` file.
 3. **Test on a staging server first.** Never run the migration directly on your production server.
 4. **Verify server requirements.** Chamilo 2.0 has different requirements than 1.11.x. See [Server Requirements](server-requirements.md).
-
-### Migration Process
-
-> **No turnkey 1.x → 2.x migration command is shipped with Chamilo today.** The PHP code base does not include a `chamilo:migrate` console command (or equivalent) that reads a 1.11.x database and writes it into the 2.x schema in one pass. Plan your migration as a manual data move rather than a single command run, and engage the Chamilo community channels for the migration tooling that may be available outside the core repository.
-
-1. **Install Chamilo 2.0** on a clean server or directory alongside your existing 1.11.x installation. Follow the standard [Installation Wizard](installation-wizard.md) to set up a fresh 2.0 instance.
-
-2. **Move data over piece by piece.** Until a built-in migration command is available, plan to migrate users, courses, sessions and tracking data through scripts you write or community-provided tools, by exporting from 1.x (SQL dumps and on-disk files) and importing through Chamilo 2.x's standard tools (CSV user import, course imports, session imports, etc.).
-
-3. **Migrate files.** Files from your 1.11.x installation (`app/upload/`, `app/courses/`) need to be reorganised for the 2.x layout. There is no command that does this automatically — keep both filesystems available so you can move and re-link content as you go.
-
-4. **Verify the migration.** As you bring data over:
-   - Log in as an administrator and check user counts.
-   - Open several courses and verify content is present.
-   - Check tracking data for a sample of learners.
-   - Test exercises and learning paths.
-
-5. **Rebuild assets.**
-   ```bash
-   npm install && npm run build
-   php bin/console cache:clear --env=prod
-   ```
 
 ### What May Require Manual Attention
 
@@ -58,7 +37,7 @@ Minor updates within the 2.0 branch are more straightforward.
 
 2. **Pull the latest code** (or download the new release):
    ```bash
-   git pull origin main
+   git pull origin master
    ```
 
 3. **Update PHP dependencies:**
@@ -68,7 +47,7 @@ Minor updates within the 2.0 branch are more straightforward.
 
 4. **Update JavaScript dependencies and rebuild assets:**
    ```bash
-   npm install && npm run build
+   yarn install && yarn build
    ```
 
 5. **Run database migrations:**
@@ -93,11 +72,11 @@ For organizations that manage multiple Chamilo instances, consider scripting the
 set -e
 
 # Pull code
-git pull origin main
+git pull origin master
 
 # Dependencies
 composer install --no-dev --optimize-autoloader
-npm install && npm run build
+yarn install && yarn build
 
 # Database
 php bin/console doctrine:migrations:migrate --no-interaction
