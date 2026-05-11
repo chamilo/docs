@@ -18,14 +18,21 @@ Extra fields let you store metadata specific to your organization, such as:
 ## Creating Extra Fields
 
 1. From the administration panel, navigate to **Extra fields** or **Profile fields**
-2. Click **Add a field**
+2. Click **Add**
 3. Configure the field:
-   * **Field name** — Internal identifier
-   * **Display name** — The label shown to users
+   * **Name** — The field title shown to users
+   * **Description** — Optional description
+   * **Helper text** — To be shown under the field in any form including it
    * **Field type** — Text, dropdown, date, checkbox, etc.
-   * **Visibility** — Whether the field is visible on the user profile
-   * **Required** — Whether the field must be filled in
+   * **Field label** — The internal name of the field, for plugins integration 
+   * **Possible values** — If the field is a selector between those values 
    * **Default value** — An optional default
+   * **Visible to self** — Whether the field is visible on the user profile by the user itself
+   * **Visible to others** — Whether the field is visible to other users of the platform
+   * **Can change** — Whether the user can change its own field by himself (or whether only the admins can)
+   * **Filter** — If this is a selector-type field, whether to include it as a filter in administrative pages (e.g. to subscribe users to courses or sessions)
+   * **Order** — If you want to manage the display order of the fields, you will have to give a numerical order to each field
+   * **Remove on anonymization** — Important for privacy rules & laws: If the user is anonymized but not deleted, should this field be considered as potential holder of personally identifiable data? 
 4. Save
 
 ## Field Types
@@ -56,8 +63,8 @@ The exact set of usable types depends on the Chamilo version; the field-type dro
 
 Extra fields appear:
 
-* In the user creation and edit forms
-* On user profile pages (if visibility is enabled)
+* In the user creation (if visible to self) and edit forms
+* On user profile pages (if visible to self)
 * In user imports (you can include extra field values in CSV imports)
 * In exports and reports (filter or group by extra field values)
 

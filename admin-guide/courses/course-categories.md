@@ -5,12 +5,17 @@ Course categories help organize your course catalog, making it easier for learne
 ## Creating a Category
 
 1. From the administration panel, navigate to **Course categories**
-2. Click **Add a category**
+2. Click **Add category**
 3. Enter:
-   * **Category name** — The display name (e.g., "Information Technology", "Management Skills")
    * **Category code** — A short unique identifier
+   * **Category name** — The display name (e.g., "Information Technology", "Management Skills")
+   * **Allow adding courses in this category?** — Whether it allows courses to set this as a category, or it just serves as an intermediate level in a hierarchy 
    * **Parent category** — (Optional) Place this category under another category to create a hierarchy
-4. Save
+   * **Description** — (Optional)
+   * **Image** — (Optional) Will represent this category, although it almost doesn't show anywhere
+4. Press *Add category*
+
+Chamilo creates 3 categories by default: *Language skills*, *PC Skills* and *Projects*. These can be renamed, removed or kept, depending on your needs.
 
 ## Category Hierarchy
 

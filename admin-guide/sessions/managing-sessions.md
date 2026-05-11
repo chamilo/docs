@@ -7,13 +7,13 @@
 1. From the administration panel, click **Create a session**
 2. Fill in the session details:
    * **Session name** — A descriptive name (e.g., "Spring 2026 Onboarding")
-   * **Start and end dates** — When the session runs (optional — sessions can be open-ended)
+   * **Start and end dates** — When the session runs (optional — sessions can be open-ended). There are 3 sets of dates: Dates to display, dates to limit learners access and dates to limit coaches access
    * **Session coach** — The person overseeing the entire session
    * **Category** — Assign to a session category for organization
    * **Visibility** — Control access and listing behavior
 3. **Add courses** — Select one or more courses to include in the session
-4. **Assign course coaches** — For each course, assign a teacher (course coach)
-5. **Enroll learners** — Add individual users or classes of users
+4. **Enroll learners** — Add individual users or classes of users
+5. **Assign course coaches** — For each course, assign a teacher (course coach)
 6. Save
 
 ## Session Dates
@@ -36,8 +36,6 @@ The session list shows all sessions with:
 
 * Session name
 * Start and end dates
-* Number of courses
-* Number of enrolled learners
 * Status (active, upcoming, past)
 
 Use search and filters to find sessions by name, date, category, or status.

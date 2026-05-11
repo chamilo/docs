@@ -15,13 +15,15 @@ A **career** represents a structured training path — a sequence of training st
 3. Enter a **name** and **description**
 4. Save
 
-### Linking to Sessions
-
-After creating a career, you link sessions (or promotions) to it. This defines the sequence of training a learner must complete.
-
 ## Promotions
 
 A **promotion** represents a cohort or batch of learners progressing through a career. Think of it as a group of people going through the same career path at the same time.
+
+### Linking to Sessions
+
+After creating a promotion, you link sessions to it. This defines the sequence of training a learner must complete.
+
+You can later replicate promotions to help creating the next promotion with copies of the same sessions, so your next promotion can be built in an instant.
 
 ### Creating a Promotion
 

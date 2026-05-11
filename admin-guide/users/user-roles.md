@@ -54,3 +54,4 @@ Higher-privileged roles inherit the capabilities of lower-privileged roles:
 * **Use the principle of least privilege** — Assign users the minimum role they need to perform their tasks
 * **Use Sessions Administrators** for delegated management — If you have staff who need to manage training sessions but not the entire platform, give them the Sessions Administrator role instead of full administrator access
 * **Use HRM for supervisors** — Human Resources Managers can monitor training progress without having access to modify courses or platform settings
+* **Roles creation** — Chamilo 2.x has the internal structure ready for the creation of new roles, but the feature lacks more testing for wide release. It can be enabled through [Official providers of Chamilo](https://chamilo.org/providers).

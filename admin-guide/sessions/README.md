@@ -9,7 +9,9 @@ Sessions are one of Chamilo's most powerful features. They allow you to deliver 
 
 ## Understanding Sessions
 
-A **course** holds the content (documents, exercises, learning paths). A **session** assigns that course (or multiple courses) to a specific group of learners for a specific time period.
+Sessions are **optional**. You can make your portal work just by using courses, but we **really** recommend you consider the extra complexity of sessions as a way to save management work in the long run.
+
+A **course** holds the content (documents, exercises, learning paths). A **session** assigns that course (or multiple courses) to a specific group of learners *for a specific time period*.
 
 This architecture means:
 

@@ -28,7 +28,7 @@ In your identity provider's administration panel:
 
 ![The OAuth2 configuration page showing fields for client ID, client secret, and provider-specific settings](/.gitbook/assets/admin-oauth2-config.png)
 
-In the Chamilo platform settings or environment configuration:
+In the `config/authentication.yaml` file:
 
 1. Enable the desired OAuth2 provider
 2. Enter the **Client ID** and **Client Secret** from step 1

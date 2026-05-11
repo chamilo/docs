@@ -73,20 +73,13 @@ There are **39 configuration categories** in total, listed alphabetically below.
 * **[Tickets](ticket-settings.md)** (7) — Helpdesk system.
 * **[Web Services](webservice-settings.md)** (7) — Legacy SOAP/REST endpoints.
 
-## Cross-cutting topics
-
-These pages don't map to a single category — they collect settings from several categories around a topic.
-
-* **[Module Settings](module-settings.md)** — Enable/disable platform modules and features at a higher level.
-* **[Performance Tuning](performance-tuning.md)** — Caching and load-related settings.
-
 ## How Settings Work
 
 * Settings are stored in the database (`settings` table) and managed through the web interface
 * Some settings are **URL-locked** in multi-URL setups (their value applies platform-wide and cannot be overridden per URL - see `access_url_locked` and `access_url_changeable` columns in the `settings` table); others (most) can be overridden per access URL
 * Changes take effect immediately (no server restart required), although your user session might be keeping some of them in memory. If changes don't reflect immediately, logout and login to flush your session.
 * Some settings have dependencies — changing one may affect the behaviour of others
-* Variable names shown on each page (e.g. `2fa_enable`) match the row in the `settings` database table and the keys used in overrides (`config/settings_overrides.yaml`) where applicable.
+* Variable names shown on each page (e.g. `2fa_enable`) match the row in the `settings` database table (`variable` column) and the keys used in overrides (`config/settings_overrides.yaml`) where applicable.
 
 For more information, check [Configurations](https://github.com/chamilo/chamilo-lms/wiki/Configurations) on our wiki.
 

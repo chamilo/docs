@@ -1,28 +1,31 @@
-# User Groups
+# Classes / User Groups
 
-User groups in the administration panel are platform-wide groups used to organize users for management purposes. They are distinct from course-level groups (which are created by teachers within a course).
+Classes in the administration panel are platform-wide groups used to organize users for management purposes. They are distinct from course-level groups (which are created by teachers within a course).
 
-> User groups and [Classes](../../admin-guide/sessions/classes.md) share the same interface. The only difference is the **group type** setting: choose "Class" to create a class (used for bulk session enrollment), or "User group" for general organizational grouping. See [Classes](../../admin-guide/sessions/classes.md) for details on session enrollment.
+> User groups and [Classes](../../admin-guide/sessions/classes.md) share the same interface. The only difference is the **group type** setting: choose "Class" to create a class (used for bulk session enrollment), or "User group" for more social groups that can have their own space in the internal social network. See [Classes](../../admin-guide/sessions/classes.md) for details on session enrollment.
 
-## Creating a User Group
+## Creating a Group
 
 ![The user groups list showing available groups with name, description, and member count](/.gitbook/assets/admin-user-groups-list.png)
 
-1. From the administration panel, navigate to **User groups**
-2. Click **Create a group**
-3. Enter a **name** and optional **description**
-4. Choose the group **visibility**:
+1. From the administration panel, navigate to **Classes**
+2. Click **Add classes**
+3. Enter a **title** and optional **description**
+4. Check **Social group** if this will be a social group. Leave unchecked if it will be a class.
+5. Add an optionali reference URL and picture/logo.
+6. Choose the group **permissions**:
    * **Open** — Any user can join
    * **Closed** — Users must be added by an administrator
-5. Save
+7. Check if you want members to be able to leave the class by themselves.
+8. Save.
 
 ## Adding Members
 
-1. Open a user group
-2. Click **Add members**
-3. Search for users by name or email
-4. Select the users to add
-5. Save
+1. Open the list of classes/user groups
+2. Click the user icon **Subscribe users to class**
+3. Search for users by name, username or email
+4. Select the users to add, using the arrows to the right side
+5. Click the confirmation button to save
 
 ## Use Cases
 

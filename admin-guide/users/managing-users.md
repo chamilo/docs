@@ -8,14 +8,16 @@ This page covers the day-to-day tasks of creating, editing, and managing user ac
 
 From the administration panel, click **User list** to see all users on the platform. The list shows:
 
-* User name and avatar
+* Avatar
+* Name
+* Username
 * Email address
-* Role/status
-* Registration date
-* Last login
+* Roles
 * Active/inactive status
+* Registration date
+* Last login date
 
-Use the **search and filter** tools to find specific users by name, email, role, or other criteria.
+Use the **Advanced search** tool to find specific users by name, email, role, or other criteria.
 
 ## Creating a User
 
@@ -27,9 +29,10 @@ Use the **search and filter** tools to find specific users by name, email, role,
    * **Email** — Must be unique on the platform
    * **Username** — The login name (must be unique)
    * **Password** — Set an initial password
-   * **Role** — Select the user's platform role (student, teacher, admin, etc.)
+   * **Roles** — Select the user's platform role(s) (student, teacher, admin, etc.)
    * **Language** — The user's preferred interface language
 3. Optionally fill in additional fields:
+   * Official code (e.g. unique ID in the organization)
    * Phone number
    * Expiration date — Automatically deactivate the account after a date
    * Active/inactive status
@@ -50,6 +53,8 @@ For bulk user creation, you can import users from a file:
 
 The import file should contain columns for at least: first name, last name, email, username, and password.
 
+Note: The **Status** column is the legacy name for **Role** and only accepts a few values, like 1 for teacher, 5 for student. Further tuniing of the roles can only be done by hand later on, editing the user.
+
 ## Exporting Users
 
 Click **Export users** to download the user list as a CSV or XML file. You can filter which users to export by role, registration date, or other criteria.
@@ -59,20 +64,27 @@ Click **Export users** to download the user list as a CSV or XML file. You can f
 Click on a user's name in the user list to edit their account. You can modify:
 
 * Personal information (name, email, phone)
-* Role/status
+* Roles
 * Password (reset)
 * Active/inactive status
 * Expiration date
 * Extra profile fields
+
+## Deleting a User
+
+When deleting users (usually teachers) who have created content on the platform, the system might prevent you from deleting the users permanently, and will show a warning message explaining the user is still attached to some of the resources. If you confirm the deletion, the system will not delete the content itself but attach it to a neutral user (we call it the "Fallback user") for data consistency reasons.
+
+To avoid this, check the user details, delete each of their courses one by one, then delete the user.
 
 ## User Actions
 
 | Action | Description |
 |--------|-------------|
 | **Deactivate** | Disable a user's account without deleting it. The user cannot log in but their data is preserved. |
-| **Activate** | Re-enable a previously deactivated account |
-| **Delete** | Permanently remove the user account and associated data |
+| **Activate** | Re-enable a previously deactivated account. |
 | **Login as** | Log in to the platform as this user (impersonation). Useful for troubleshooting. |
+| **Anonymize** | Erase all of the account's personal information, as defined by the EU's GDPR. |
+| **Delete** | Soft delete the user account. Use the **Deleted users** tab to permanently delete the account and associated data. |
 
 > **Login as** is a powerful feature. Use it responsibly and only for legitimate support purposes.
 
