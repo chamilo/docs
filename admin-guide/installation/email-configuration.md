@@ -36,11 +36,7 @@ ses+smtp://ACCESS_KEY:SECRET_KEY@default?region=us-east-1
 ses+api://ACCESS_KEY:SECRET_KEY@default?region=us-east-1
 ```
 
-Install the Symfony Amazon Mailer transport:
-
-```bash
-composer require symfony/amazon-mailer
-```
+The Symfony Amazon Mailer transport comes embedded into Chamilo. No additional install required.
 
 ### Mailjet
 
@@ -48,11 +44,7 @@ composer require symfony/amazon-mailer
 mailjet+api://API_KEY:SECRET_KEY@default
 ```
 
-Install the transport:
-
-```bash
-composer require symfony/mailjet-mailer
-```
+The Symfony Mailjet transport comes embedded into Chamilo. No additional install required.
 
 ### Brevo (formerly Sendinblue)
 
@@ -60,7 +52,7 @@ composer require symfony/mailjet-mailer
 brevo+api://API_KEY@default
 ```
 
-The Brevo transport (`symfony/brevo-mailer`) is already in Chamilo's `composer.json`, so no extra `composer require` step is needed.
+The Symfony Brevo transport comes embedded into Chamilo. No additional install required.
 
 ### Gmail (Development/Small Platforms)
 
@@ -72,22 +64,16 @@ Use an App Password, not your regular Gmail password. This is suitable for small
 
 ## Platform Email Settings
 
-In addition to the transport, configure the sender identity in the administration panel under **Administration > Configuration settings > Portal**:
+In addition to the transport, configure the sender identity on the same page:
 
 | Setting | Description |
 |---------|-------------|
-| **Administrator email** | The "From" address for all system emails. Must be a valid address accepted by your mail transport. |
-| **Administrator name** | The display name associated with system emails. |
-| **No-reply email** | An optional separate address for automated notifications where replies are not expected. |
+| **Send all e-mails as originating from this (organizational) name** | The display name associated with system emails. |
+| **Send all e-mails from this e-mail address** | The "From" address for all system emails. Must be a valid address accepted by your mail transport. We recommend using a "no reply" address like `no-reply@yourdomain.com` to avoid getting pointless answers to automated e-mails. |
 
 ## Testing Email Delivery
 
-After configuring `MAILER_DSN`, test that emails are delivered:
-
-```bash
-# Send a test email using the Symfony console
-php bin/console mailer:test someone@example.com
-```
+After configuring `MAILER_DSN`, test that emails are delivered: Go to *Administration* > *System* > *E-mail tester*, specify a recipient, a subject and an e-mail body and click **Send test email**.
 
 If the command completes without errors but the email is not received:
 
@@ -95,6 +81,7 @@ If the command completes without errors but the email is not received:
 2. Verify that your sending domain has proper DNS records (SPF, DKIM, DMARC).
 3. Check your mail provider's sending logs for bounces or rejections.
 4. Review the Chamilo log at `var/log/prod.log` for mailer errors.
+5. In the E-mail configuration settings, enable *Mail: Debug* (not available in 2.0, will be soon).
 
 ## Experimental: Email Queue (Async Delivery)
 
@@ -121,5 +108,5 @@ Run this as a system service (e.g., via systemd or supervisord) so it stays runn
 ## Tips
 
 * **Use a dedicated email service** (SES, Mailjet, Brevo) for production platforms. Direct SMTP to your own mail server requires careful configuration to avoid deliverability issues.
-* **Configure SPF, DKIM, and DMARC** DNS records for your sending domain to maximize delivery rates and prevent emails from being marked as spam.
+* **Configure SPF, DKIM, and DMARC** DNS records for your sending domain to maximize delivery rates and prevent emails from being marked as spam. You can also configure DKIM headers from the e-mail settings page.
 * **Use async delivery** on platforms with more than a few dozen active users -- synchronous email sending can noticeably slow down web requests.

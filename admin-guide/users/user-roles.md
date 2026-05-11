@@ -6,15 +6,15 @@ Chamilo uses a role-based permission system. Each user is assigned a role that d
 
 These roles control access to platform-wide features:
 
-| Role | Level | Description |
-|------|-------|-------------|
-| **Learner (Student)** | 5 | The default role. Can enroll in courses, access learning content, submit assignments, and take exercises. |
-| **Teacher (Trainer)** | 1 | Can create and manage courses, add content, grade students, and view course-level reports. |
-| **Sessions Administrator** | 3 | Can create and manage sessions, enroll users in sessions, and assign coaches. Cannot access general platform settings. |
-| **Human Resources Manager (HRM)** | 4 | Can view tracking and reporting data for assigned users. Used for supervisors who need to monitor employee training. |
-| **Portal Administrator** | — | Full access to all platform administration features. Can manage users, courses, sessions, plugins, and all settings. |
-| **Global Administrator** | — | Same as Portal Administrator but with access across all access URLs in a multi-URL setup. |
-| **Anonymous** | 6 | A special role for visitors who are not logged in. Can access public courses and content if enabled. |
+| Role |  Description |
+|------|------------|
+| **Learner (Student)** | The default role. Can enroll in courses, access learning content, submit assignments, and take exercises. |
+| **Teacher (Trainer)** | Can create and manage courses, add content, grade students, and view course-level reports. |
+| **Sessions Administrator** | Can create and manage sessions (i.e. time-based course packages), enroll users in sessions, and assign coaches. Cannot access general platform settings. |
+| **Human Resources Manager (HRM)** | Can view tracking and reporting data for assigned users. Used for supervisors who need to monitor employee training but not manage content nor the platform. |
+| **Portal Administrator** | Full access to all platform administration features. Can manage users, courses, sessions, plugins, and all settings. |
+| **Global Administrator** | Same as Portal Administrator but with access across all access URLs in a multi-URL (i.e. multi-tenant) setup. |
+| **Anonymous** | A special role for visitors who are not logged in. Can access public courses and content if enabled. |
 
 ## Course-Level Roles
 
@@ -32,8 +32,10 @@ Within a session, additional roles exist:
 
 | Role | Description |
 |------|-------------|
-| **Session coach (Session tutor)** | Oversees all courses within a session. Can view tracking across all courses in the session. |
-| **Course coach** | Teaches a specific course within a session. Can manage content and track learners for that course in that session. |
+| **Session tutor** | Oversees all courses within a session. Can view tracking across all courses in the session. |
+| **Course tutor** | Teaches a specific course within a session. Can manage content and track learners for that course in that session. |
+
+Note: The coach and tutor names are very similar in meaning and are generally dependent on the organization. We use both terms interchangeably in Chamilo 2.0, but most of the time we mean tutor, a person that will help you learn from the course, not a personal coach. We might use "tutor" exclusively in the future.
 
 ## Assigning Roles
 
