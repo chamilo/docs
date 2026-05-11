@@ -8,11 +8,11 @@ Chamilo supports multiple AI providers:
 
 | Provider | Capabilities |
 |----------|-------------|
-| **OpenAI** | Text, image, video generation |
-| **Google Gemini** | Text, image, video generation |
-| **Mistral** | Text generation |
 | **DeepSeek** | Text generation |
+| **Google Gemini** | Text, image, video generation |
 | **Grok** | Text, image, video generation |
+| **Mistral** | Text generation |
+| **OpenAI** | Text, image, video generation |
 
 Each provider can be configured for different types of AI tasks:
 
@@ -27,10 +27,11 @@ Each provider can be configured for different types of AI tasks:
 
 Register for an account with your chosen AI provider and obtain an API key:
 
-* **OpenAI**: [platform.openai.com](https://platform.openai.com/)
-* **Google Gemini**: Google AI Studio or Google Cloud
-* **Mistral**: [console.mistral.ai](https://console.mistral.ai/)
 * **DeepSeek**: [platform.deepseek.com](https://platform.deepseek.com/)
+* **Google Gemini**: Google AI Studio or Google Cloud
+* **Grok**: [console.x.ai](https://console.x.ai/)
+* **Mistral**: [console.mistral.ai](https://console.mistral.ai/)
+* **OpenAI**: [platform.openai.com](https://platform.openai.com/)
 
 ### 2. Configure Providers in Chamilo
 
@@ -40,7 +41,7 @@ In the platform settings, navigate to the **AI Helpers** section:
 
 1. **Enable AI helpers** — Turn on the AI features globally
 2. **Configure AI providers** — Add one or more providers with:
-   * **Provider name** (openai, gemini, mistral, deepseek, grok)
+   * **Provider name** (deepseek, gemini, grok, mistral, openai)
    * **API key** — Your API key for the provider
    * **Model** — The specific model to use (e.g., `gpt-4`, `gemini-pro`, `mistral-large`)
    * **API URL** — The endpoint URL (pre-configured for standard providers)
@@ -52,8 +53,10 @@ You can configure multiple providers. The first provider in the configuration be
 AI features can be enabled or disabled at the course level. Teachers can toggle:
 
 * **AI Tutor chatbot** — The AI assistant for learners
+* **Assignment grader** — AI-generated grading recommendation
 * **Exercise generator** — AI-generated quiz questions
 * **Learning path generator** — AI-generated learning sequences
+* **Image/Video generator** — AI-generated images and videos in documents
 
 This allows different courses to use different AI configurations based on their needs.
 

@@ -11,11 +11,13 @@ Chamilo integrates with video conferencing platforms to enable live sessions wit
 #### Configuration
 
 1. Install BigBlueButton on a separate server (see [BigBlueButton documentation](https://docs.bigbluebutton.org/))
-2. In Chamilo platform settings, configure:
+2. Use bbb-conf --salt on the BBB server to get the integration details
+3. In Chamilo platform settings, **Plugins**, install the Videoconference plugin and enter its config to set:
    * **BBB server URL** — The address of your BBB server
    * **BBB salt/secret** — The API secret from your BBB server
-   * **Enable video conferencing** — Turn the feature on
-3. Save
+4. Save
+5. **Enable** the Videoconference plugin
+6. Some special features are available to admins, so make sure you enable it in the *admin_page* region
 
 #### Features Available in Chamilo
 
@@ -27,7 +29,7 @@ Chamilo integrates with video conferencing platforms to enable live sessions wit
 
 ### Zoom
 
-Chamilo can integrate with **Zoom** for video conferencing.
+Chamilo can also integrate with **Zoom** for video conferencing.
 
 #### Configuration
 
