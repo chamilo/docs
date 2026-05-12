@@ -2,6 +2,7 @@
 
 Access URLs allow a single Chamilo installation to serve multiple separate portals.
 
+
 ## Use Cases
 
 * **Multi-tenant deployments** — Host separate training portals for different organizations on a single server
@@ -48,6 +49,7 @@ Each access URL can have its own:
 
 ## Tips
 
+* **Decide early** — If choosing a multi-URL setup, you should do that at the start of your Chamilo project as it requires leaving the first URL relatively empty of content. Enabling multi-URL afterwards is more challenging (requires manual databases changes).
 * **Plan URL structure** — Decide on your URL scheme before creating access URLs, as changing URLs later affects all existing links and bookmarks
 * **DNS configuration** — Each access URL must resolve to the same Chamilo server. Configure DNS records accordingly.
 * **Global administrator** — Use the Global Administrator role to manage across all access URLs

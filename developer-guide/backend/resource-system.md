@@ -51,7 +51,13 @@ File storage is handled by Flysystem, so files can be on local disk, S3, Azure, 
 
 ### ResourceLink
 
-Controls visibility and access per context:
+Controls visibility and access per context. There are 3 main context types:
+
+1. Course
+2. Session
+3. Group (in a course)
+
+So the ResourceLink entity reflects the combination of those 3 context types and establishes a visibility for that complete context:
 
 | Field | Type | Description |
 |-------|------|-------------|
@@ -61,6 +67,10 @@ Controls visibility and access per context:
 | `visibility` | integer | Visible, invisible, or deleted |
 
 This allows the same ResourceNode to have different visibility in different contexts (e.g., visible in one session but hidden in another).
+
+This is set automatically when using the interface and deciding, for example, that a resource is a session-specific resource which will be visible for all groups in a given course in a given session, but invisible in the base course or in another session.
+
+By default, resources visible in a base course are also visible in all sessions of that course, but the course tutor can decide to hide a resource from a specific session. In this case, we will retrieve the specific visibility for this resource in this session and see that it has a visibility of 0, so the item will not appear to learners in this session, while a lack of session-specific visibility in other sessions will make the resource use the visibility of the base course (and the resource will show to learners).
 
 ## API Platform Integration
 

@@ -14,25 +14,18 @@ The Chamilo database contains all platform data: users, courses, tracking, grade
 mysqldump -u username -p chamilo_database > chamilo_backup_$(date +%Y%m%d).sql
 ```
 
-For PostgreSQL:
-
-```bash
-pg_dump -U username chamilo_database > chamilo_backup_$(date +%Y%m%d).sql
-```
-
 ### 2. Files
 
 Chamilo stores uploaded files (documents, images, SCORM packages) in the filesystem. The key directories to back up:
 
-* `var/upload/` — Uploaded files and resources
-* `var/courses/` — Course-specific files (legacy)
-* `public/plugin/` — Plugin files
+* `var/` — Uploaded files and resources
+* `public/plugin/` — Plugin files (only if you have added custom plugins)
 
 If you use cloud storage (S3, Azure Blob), ensure your cloud provider's backup/versioning is enabled.
 
 ### 3. Configuration
 
-* `.env.local` — Your environment configuration
+* `.env` — Your environment configuration
 * `config/` — Any custom configuration files
 
 ## Backup Schedule

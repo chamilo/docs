@@ -16,9 +16,10 @@ Each plugin has one of two states:
 ## Activating a Plugin
 
 1. Find the plugin in the list
-2. Click **Activate** or toggle it on
-3. Configure the plugin settings (if applicable)
+2. Click **Install**, then **Enable** or toggle it on
+3. Configure the plugin settings (if applicable, find the **Configure** button)
 4. Save
+5. If recommended in the README, enable it in a specific **region**
 
 Some plugins add tools to courses, new pages to the platform, or additional functionality to existing features.
 
@@ -26,28 +27,17 @@ Some plugins add tools to courses, new pages to the platform, or additional func
 
 Many plugins have configuration options. After activating a plugin:
 
-1. Click the **Settings** or **Configure** button next to the plugin
+1. Click the **Configure** button next to the plugin
 2. Fill in the required configuration (API keys, URLs, options, etc.)
 3. Save
 
 ## Deactivating a Plugin
 
 1. Find the plugin in the list
-2. Click **Deactivate** or toggle it off
-3. The plugin's features are immediately removed from the platform
+2. Click **Disable** or toggle it off
+3. The plugin's features are immediately removed from the platform, but the plugin is still installed and maintains its configuration until you **Uninstall** it
 
-Deactivating a plugin does not delete its data. If you reactivate it later, the data is still available.
-
-## Plugin Categories
-
-Plugins fall into several categories:
-
-| Category | Examples |
-|----------|---------|
-| **Course tools** | Add new tools to the course homepage (e.g., video conference, advanced chat) |
-| **Platform features** | Add new platform-wide functionality (e.g., custom pages, dashboard widgets) |
-| **Authentication** | Add authentication methods |
-| **Integration** | Connect to external services |
+Disabling a plugin does not delete its data. If you enable it later, the data is still available.
 
 ## Tips
 

@@ -1,6 +1,6 @@
 # Entities and Doctrine
 
-Chamilo 2.0 has 314 Doctrine entities across two bundles.
+Chamilo 2.0 has 314 Doctrine entities across two bundles. The following only mention the main ones.
 
 ## Entity Organization
 
@@ -44,9 +44,11 @@ Course content entities — all prefixed with `C`:
 * CoreBundle entities: standard PascalCase (e.g., `User`, `Course`, `Session`)
 * CourseBundle entities: prefixed with `C` (e.g., `CDocument`, `CQuiz`, `CLp`)
 
-This prefix distinguishes course-scoped content entities from platform-level entities.
+This prefix distinguishes course-scoped content entities from platform-level entities (in line with legacy database tables naming). This distinction might disappear in the long run as more tools are converted to global tools without a strong link to a specific course.
 
 ## Key Relationships
+
+Relationships are usually evidenced by the `Rel` separator.
 
 ### User ↔ Course
 
