@@ -1,69 +1,116 @@
 # OAuth2
 
-Chamilo 2.0 supports OAuth2 authentication, allowing users to log in using their accounts from external identity providers. This is the most common authentication method for enterprise deployments.
+OAuth2 authentication is configured in `config/authentication.yaml`. Chamilo includes built-in support for Azure AD, Keycloak, Facebook, and any generic OAuth2-compliant provider.
 
-## Supported Providers
+## Step 1 — Register Chamilo in your identity provider
 
-Chamilo includes built-in support for:
+Create an application in your provider's admin panel and set the **redirect URI** to:
 
-| Provider | Description |
-|----------|-------------|
-| **Azure AD (Microsoft)** | Azure Active Directory / Microsoft Entra ID |
-| **Keycloak** | Open-source identity and access management |
-| **Facebook** | Facebook login (typically for public-facing platforms) |
-| **Generic OAuth2** | Any OAuth2-compatible provider |
+```
+https://your-chamilo-url/connect/<provider>/check
+```
 
-## Configuration Steps
+Where `<provider>` is `azure`, `keycloak`, `facebook`, or the name you give a generic provider. Note the **Client ID** and **Client Secret**.
 
-### 1. Register Chamilo in Your Identity Provider
+## Step 2 — Configure authentication.yaml
 
-In your identity provider's administration panel:
+Enable the provider and supply its credentials. All providers share these common keys:
 
-1. Register a new application (client)
-2. Set the **redirect URI** to: `https://your-chamilo-url/connect/{provider}/check` (for example `/connect/azure/check`, `/connect/keycloak/check`, `/connect/facebook/check`, or `/connect/generic/check`)
-3. Note the **Client ID** and **Client Secret**
-4. Note the **Authorization URL**, **Token URL**, and **User Info URL** (for generic providers)
+| Key | Description |
+|-----|-------------|
+| `enabled` | `true` to activate |
+| `title` | Label shown on the login button |
+| `client_id` | From your identity provider |
+| `client_secret` | From your identity provider |
+| `allow_create_new_users` | Auto-create a Chamilo account on first login |
+| `allow_update_user_info` | Sync user data on each login |
+| `force_as_login_method` | Disable other methods and force this one |
 
-### 2. Configure Chamilo
+### Azure AD (Microsoft Entra ID)
 
-![The OAuth2 configuration page showing fields for client ID, client secret, and provider-specific settings](/.gitbook/assets/admin-oauth2-config.png)
+```yaml
+authentication:
+  1:
+    oauth2:
+      azure:
+        enabled: true
+        title: "Sign in with Microsoft"
+        client_id: "<application-client-id>"
+        client_secret: "<client-secret>"
+        tenant: "<tenant-id>"
+        url_login: "https://login.microsoftonline.com"
+        path_authorize: "/<tenant-id>/oauth2/v2.0/authorize"
+        path_token: "/<tenant-id>/oauth2/v2.0/token"
+        url_api: "https://graph.microsoft.com"
+        allow_create_new_users: true
+        allow_update_user_info: true
+```
 
-In the `config/authentication.yaml` file:
+Azure also supports group-based role mapping (mapping Azure group IDs to Chamilo roles such as teacher or admin), user delta sync commands, and certificate authentication instead of a client secret. See the [wiki](https://github.com/chamilo/chamilo-lms/wiki/External-Authentication-configuration) for those options.
 
-1. Enable the desired OAuth2 provider
-2. Enter the **Client ID** and **Client Secret** from step 1
-3. Configure provider-specific settings:
-   * **Azure**: Tenant ID
-   * **Keycloak**: Server URL, realm name
-   * **Generic**: Authorization URL, Token URL, User Info URL
-4. Configure **user mapping** — how provider fields (email, name) map to Chamilo user fields
-5. Configure **auto-registration** — whether new users are automatically created when they log in via OAuth2 for the first time
+### Keycloak
 
-### 3. Test
+```yaml
+authentication:
+  1:
+    oauth2:
+      keycloak:
+        enabled: true
+        title: "Sign in with Keycloak"
+        client_id: "<client-id>"
+        client_secret: "<client-secret>"
+        auth_server_url: "https://keycloak.yourorg.com"
+        realm: "your-realm"
+        allow_create_new_users: true
+```
 
-1. Log out of Chamilo
-2. On the login page, you should see a button for the configured provider
-3. Click it to test the login flow
-4. Verify that the user is correctly authenticated and their profile data is populated
+### Facebook
 
-## User Mapping
+```yaml
+authentication:
+  1:
+    oauth2:
+      facebook:
+        enabled: true
+        title: "Sign in with Facebook"
+        client_id: "<app-id>"
+        client_secret: "<app-secret>"
+        graph_api_version: "v20.0"
+        allow_create_new_users: true
+```
 
-When a user logs in via OAuth2, Chamilo needs to match them to an existing user or create a new account. The mapping is typically based on:
+### Generic OAuth2
 
-* **Email** — Most common identifier
-* **Username** — Matches the provider's username
-* **External ID** — A unique identifier from the provider
+Use this for Google, GitLab, or any OAuth2-compliant provider:
 
-## Auto-Registration
+```yaml
+authentication:
+  1:
+    oauth2:
+      myprovider:
+        enabled: true
+        title: "Sign in with MyProvider"
+        client_id: "<client-id>"
+        client_secret: "<client-secret>"
+        urlAuthorize: "https://provider.example.com/oauth/authorize"
+        urlAccessToken: "https://provider.example.com/oauth/token"
+        urlResourceOwnerDetails: "https://provider.example.com/api/user"
+        scopes: ["openid", "email", "profile"]
+        allow_create_new_users: true
+```
 
-When enabled, new users who log in via OAuth2 for the first time are automatically created in Chamilo with:
+Field mapping (how provider attributes map to Chamilo's `firstname`, `lastname`, `email`, etc.) and role mapping are also configurable. See the [wiki](https://github.com/chamilo/chamilo-lms/wiki/External-Authentication-configuration) for the full list of mapping keys.
 
-* Name and email from the provider
-* A default role (typically student)
-* An auto-generated or provider-supplied username
+## Step 3 — Clear cache and test
+
+```bash
+php bin/console cache:clear && php bin/console cache:warmup
+```
+
+Log out of Chamilo. The configured provider's button should appear on the login page. Test with a dedicated account before rolling out to all users.
 
 ## Tips
 
-* **Test with a dedicated account first** — Before rolling out to all users, test the configuration thoroughly
-* **Plan your user mapping** — Decide in advance how OAuth2 users map to Chamilo accounts, especially if you have existing users
-* **Configure role assignment** — Set up rules for automatically assigning roles based on provider attributes (e.g., group membership in Azure AD)
+* Keep the standard login form enabled so administrators can always log in if OAuth2 has issues.
+* When using Azure with existing users, configure `existing_user_verification_order` to control how Chamilo matches incoming users to existing accounts.
+* Role assignment defaults to student; use group mapping to promote users to teacher or admin roles automatically.

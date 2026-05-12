@@ -8,13 +8,14 @@ Frequently asked questions for Chamilo 2.0 administrators.
 A: PHP 8.2 or higher. PHP 8.3 is recommended. See [Server Requirements](../installation/server-requirements.md).
 
 **Q: Can I run Chamilo on shared hosting?**
-A: It is possible but not recommended. Chamilo 2.0 requires Composer, Node.js, and command-line access for installation and maintenance. A VPS or dedicated server provides a much better experience.
+A: It is possible but not recommended. Chamilo 2.0 requires Composer, Node.js in development mode, and command
+-line access for installation and maintenance. A VPS or dedicated server provides a much better experience.
 
 **Q: Which database should I use?**
-A: MySQL 8.0+ or MariaDB 10.4+ are the most commonly used and best tested. PostgreSQL 13+ is also supported.
+A: MySQL 8.0+ or MariaDB 10.4+ are the most commonly used and best tested.
 
 **Q: Can I install Chamilo without the command line?**
-A: No. You need the command line to install Composer dependencies, build frontend assets, and run database migrations. The web-based wizard handles the database setup and initial configuration, but the surrounding steps require shell access.
+A: Yes, if you use the packaged version (.zip or .tar.gz). Otherwise, you will need the command line to install Composer dependencies, build frontend assets, and run database migrations. The web-based wizard handles the database setup and initial configuration, but the surrounding steps require shell access in dev mode.
 
 ## Users and Authentication
 
@@ -39,21 +40,21 @@ A: Within the course, go to **Maintenance > Create a backup**. This generates a 
 A: Yes. Use **Administration > Copy course** or the course maintenance tool within the course. You can copy content between courses or create a new course from an existing one.
 
 **Q: What SCORM versions are supported?**
-A: Chamilo supports SCORM 1.2 and SCORM 2004 (editions 3 and 4). SCORM packages are imported as learning paths.
+A: Chamilo supports SCORM 1.2. SCORM packages are imported as learning paths.
 
 **Q: How do I limit who can create courses?**
-A: Go to **Administration > Configuration settings > Course** and disable **Allow non administrators (teachers) to create new courses** (`allow_users_to_create_courses`). When disabled, only administrators can create courses.
+A: Go to **Administration > Configuration settings > Course** and disable **Allow non administrators (teachers) to create new courses** (`allow_users_to_create_courses`). When disabled, only administrators can create courses. Alternatively, you can set a limit to the number of courses any teacher can create.
 
 ## Performance and Maintenance
 
 **Q: The platform is slow. What should I check first?**
-A: In order of impact: (1) Ensure `APP_ENV=prod` and `APP_DEBUG=0` in `.env.local`. (2) Verify PHP OPcache is enabled. (3) Check database performance. (4) See [Performance Tuning](../platform-settings/performance-tuning.md).
+A: In order of impact: (1) Ensure `APP_ENV=prod` and `APP_DEBUG=0` in `.env`. (2) Verify PHP OPcache is enabled. (3) Check database performance. (4) See [Performance Tuning](../platform-settings/performance-tuning.md).
 
 **Q: How do I clear the cache?**
 A: Run `php bin/console cache:clear --env=prod` from the command line. Do not delete the `var/cache/` directory manually while the application is running.
 
 **Q: How much disk space does Chamilo need?**
-A: The application itself needs about 1 GB. Total space depends on uploaded content (documents, videos, SCORM packages). Monitor disk usage and plan accordingly.
+A: The application itself needs about 2 GB uncompressed. Total space depends on uploaded content (documents, videos, SCORM packages). Monitor disk usage and plan accordingly.
 
 **Q: How do I set up automated backups?**
 A: See [Backups](../maintenance/backups.md). At minimum, schedule a daily database dump and regular file-level backups of the upload directory.
@@ -61,7 +62,7 @@ A: See [Backups](../maintenance/backups.md). At minimum, schedule a daily databa
 ## Email
 
 **Q: Users are not receiving emails. What should I check?**
-A: (1) Verify `MAILER_DSN` in `.env.local`. (2) Run `php bin/console mailer:test someone@example.com` to test. (3) Check spam folders. (4) Verify SPF/DKIM DNS records. See [Email Configuration](../installation/email-configuration.md).
+A: (1) Verify `MAILER_DSN` in `.env`. (2) Run `php bin/console mailer:test someone@example.com` to test. (3) Check spam folders. (4) Verify SPF/DKIM DNS records. See [Email Configuration](../installation/email-configuration.md).
 
 **Q: Can I use Gmail to send emails?**
 A: Yes, for small platforms or development. Use an App Password and be aware of Gmail's daily sending limits (500 emails/day for regular accounts).

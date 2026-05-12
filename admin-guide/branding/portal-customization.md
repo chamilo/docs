@@ -13,20 +13,6 @@ Configure the basic identity of your portal:
 * **Institution URL** — A link to your organization's website
 * **Platform logo** — Upload your organization's logo (displayed in the top bar)
 
-## Homepage Content
-
-Customize what users see on the home page:
-
-* **System announcements** — Post announcements visible to all users on the home page
-* **Hot courses** — Show or hide the "hot courses" block on the home page (controlled by the `show_hot_courses` setting)
-
-## Footer
-
-Configure the platform footer:
-
-* **Footer text** — Custom text displayed at the bottom of every page
-* **Copyright notice** — Your organization's copyright statement
-
 ## Tips
 
 * **Keep the homepage clean** — Too much content on the homepage can be overwhelming. Focus on essential announcements and course access.

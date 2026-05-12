@@ -26,7 +26,7 @@ Key terms used in Chamilo 2.0 administration.
 | **Human Resources Manager (HRM)** | Can view tracking and reporting data for assigned users. |
 | **Portal administrator** | Full access to all platform administration features. |
 | **Global administrator** | Portal administrator with access across all access URLs in a multi-URL setup. |
-| **Coach** | A session-level role. Session coaches oversee all courses in a session; course coaches manage a specific course within a session. |
+| **Coach/Tutor** | A session-level role. Session coaches oversee all courses in a session; course coaches manage a specific course within a session. All coaches references should be renamed to tutors in the long run. |
 
 ## Standards and Protocols
 

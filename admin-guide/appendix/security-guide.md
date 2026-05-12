@@ -6,7 +6,7 @@ This guide covers security best practices for running a Chamilo 2.0 platform in 
 
 The most important security practice is keeping your Chamilo installation up to date.
 
-* Subscribe to the Chamilo security mailing list or watch the GitHub repository for release announcements.
+* Subscribe to the Chamilo security X account (@chamilosecurity) or watch the GitHub repository for release announcements.
 * Apply security patches promptly. Minor updates within the 2.0 branch are designed to be safe to apply.
 * Follow the [upgrade process](../installation/upgrading.md) for each update.
 
@@ -22,8 +22,6 @@ Always serve Chamilo over HTTPS in production.
   Strict-Transport-Security: max-age=31536000; includeSubDomains
   ```
 
-* Set `APP_URL` in `.env.local` to an `https://` URL.
-
 Without HTTPS, login credentials, session cookies, and all user data are transmitted in plain text and can be intercepted on the network.
 
 ## File Permissions
@@ -33,10 +31,9 @@ Restrict file permissions to the minimum necessary.
 | Path | Owner | Permissions | Notes |
 |------|-------|-------------|-------|
 | Application files (source code) | root or deploy user | 755 (dirs), 644 (files) | Web server needs read-only access. |
-| `var/cache/` | web server user | 775 | Must be writable for Symfony cache. |
-| `var/log/` | web server user | 775 | Must be writable for logs. |
-| `var/upload/` | web server user | 775 | Must be writable for file uploads. |
-| `.env.local` | root or deploy user | 640 | Contains secrets. Web server needs read access only. |
+| `var/` | web server user | 775 | Must be writable for Symfony cache, logs and file uploads |
+| `.env` | root or deploy user | 640 | Contains secrets. Web server needs read access only during normal use, but needs write access during installation. |
+| `config/` | root or deploy user | 750 | Contains secrets. Web server needs read access only during normal use, but needs write access during installation. |
 
 Never set permissions to 777. Never run the web server as root.
 
@@ -120,10 +117,10 @@ add_header Referrer-Policy "strict-origin-when-cross-origin" always;
 ## File Upload Security
 
 * Block executable file extensions (exe, bat, sh, php, phtml, cgi) in [Security Settings](../platform-settings/security-settings.md).
-* Configure your web server to **never execute uploaded files**. For Apache, add to the upload directory:
+* Configure your web server to **never execute uploaded files**. For Apache, add to the entire var/ directory:
 
   ```apache
-  <Directory /path/to/chamilo/var/upload>
+  <Directory /path/to/chamilo/var>
       php_admin_flag engine off
       RemoveHandler .php .phtml .php3 .php5
   </Directory>
@@ -160,7 +157,7 @@ Use this checklist when deploying or auditing a Chamilo installation:
 
 - [ ] HTTPS enabled with valid certificate
 - [ ] HTTP to HTTPS redirect configured
-- [ ] `APP_ENV=prod` and `APP_DEBUG=0` in `.env.local`
+- [ ] `APP_ENV=prod` and `APP_DEBUG=0` in `.env`
 - [ ] Unique `APP_SECRET` generated
 - [ ] File permissions restricted (no 777)
 - [ ] Password policy configured
