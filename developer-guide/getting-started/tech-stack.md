@@ -1,5 +1,9 @@
 # Tech Stack
 
+The following describes the tech stack for Chamilo 2.0. All versions stated here are likely to change as new versions of Chamilo are released. Version numbers use [Composer's versions notation](https://getcomposer.org/doc/articles/versions.md) which set rules to allow for some flexibility around versions.
+
+Including hierarchical dependencies, Chamilo uses several hundred Free Software libraries. This list only includes the ones we use the most and that will likely affect the work of a Chamilo developer every week or so. We are greatful to all other Free Software developers out there making ou work easier, more maintainable and more secure.
+
 ## Backend
 
 | Technology | Version | Purpose |
@@ -8,10 +12,10 @@
 | Symfony | 6.4.* | Framework |
 | Doctrine ORM | ^2.16 | Database abstraction |
 | API Platform | ^3.0 | REST API framework |
-| lexik/jwt-authentication-bundle | ^2.20 | JWT authentication |
 | oneup/flysystem-bundle | ~4.0 | File storage abstraction |
 | vich/uploader-bundle | ^2.8 | File upload handling |
 | stof/doctrine-extensions-bundle | ^1.12 | Doctrine extensions (tree, timestampable, sluggable) |
+| lexik/jwt-authentication-bundle | ^2.20 | JWT authentication |
 | nelmio/cors-bundle | ^2.2 | CORS headers |
 | mpdf/mpdf | ~8.0 | PDF generation |
 | phpoffice/phpspreadsheet | ~1.16 | Excel/spreadsheet handling |
@@ -39,6 +43,7 @@
 
 | Technology | Version | Purpose |
 |-----------|---------|---------|
+| Composer | ^2.8 | PHP dependency manager |
 | Webpack | ^5.105 | Module bundler |
 | Symfony Webpack Encore | ^5.3 | Webpack wrapper for Symfony |
 | Tailwind CSS | ^3.4 | Utility-first CSS framework |
@@ -57,10 +62,8 @@
 
 Chamilo supports:
 
-* MySQL 8.0.32+
+* MySQL 5.7+
 * MariaDB 10.11.2+
-* PostgreSQL 16+
-* SQLite (for development/testing)
 
 ## Cloud Storage
 
