@@ -56,6 +56,8 @@ export const chamiloIconToClass = {
 
 Components use `BaseIcon` or reference `chamiloIconToClass` to render icons consistently.
 
+A browsable reference of all icons available in the platform can be found at `/admin/list-icons` in any running Chamilo instance.
+
 ## Component Patterns
 
 * **Composition API** — Components use Vue 3's `<script setup>` syntax
