@@ -46,7 +46,16 @@ $value = api_get_setting('platform.site_name');
 In templates:
 
 ```twig
-{{ chamilo_setting('platform.site_name') }}
+{# Read a single setting #}
+{{ chamilo_settings_get('platform.site_name') }}
+
+{# Check whether a setting exists #}
+{% if chamilo_settings_has('platform.allow_registration') %}
+    ...
+{% endif %}
+
+{# Get all settings as an array #}
+{% set settings = chamilo_settings_all() %}
 ```
 
 ## Setting Structure
