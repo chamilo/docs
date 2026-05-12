@@ -79,6 +79,8 @@ Some settings can be overridden at the course level. These are defined in `src/C
 
 In multi-URL setups, some settings can be customized per access URL, allowing different portal configurations from the same installation.
 
+Those settings will appear several times in the `settings` table, with different `access_url` values. By default, all settings are associated with `access_url=1`.
+
 ## Adding a New Setting
 
 1. Add the setting definition to the appropriate schema class
