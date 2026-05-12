@@ -49,7 +49,7 @@ This creates:
 * `config/jwt/private.pem` — Private key for signing tokens
 * `config/jwt/public.pem` — Public key for verifying tokens
 
-Configure the passphrase in `.env.local`:
+Configure the passphrase in `.env`:
 
 ```env
 JWT_PASSPHRASE=your-passphrase
