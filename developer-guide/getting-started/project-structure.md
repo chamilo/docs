@@ -176,11 +176,11 @@ Symfony automatically merges the base `packages/*.yaml` files with those in the 
 |------|---------|
 | `webpack.config.js` | Webpack Encore configuration (entries, loaders, plugins) |
 | `tailwind.config.js` | Tailwind CSS configuration (content paths, theme extensions, plugins) |
-| `postcss.config.js` | PostCSS plugins (autoprefixer, Tailwind) |
 | `tsconfig.json` | TypeScript configuration |
-| `.eslintrc.js` | ESLint rules |
+| `eslint.config.mjs` | ESLint rules (flat config) |
+| `.prettierrc.json` | Prettier formatting rules |
 
-All five files sit at the project root (`/var/www/chamilo/`). `webpack.config.js` reads `tailwind.config.js` indirectly via PostCSS, so changes to Tailwind's `content` or `theme` sections take effect on the next `yarn encore dev` / `yarn encore production` run.
+All files sit at the project root. PostCSS plugins (Tailwind + Autoprefixer) are configured inline inside `webpack.config.js` via `enablePostCssLoader()` — there is no standalone `postcss.config.js`. `webpack.config.js` reads `tailwind.config.js` indirectly through PostCSS, so changes to Tailwind's `content` or `theme` sections take effect on the next `yarn encore dev` / `yarn encore production` run.
 
 ## Webpack Entry Points
 

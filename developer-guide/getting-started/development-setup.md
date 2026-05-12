@@ -50,17 +50,17 @@ yarn encore dev
 yarn encore dev --watch
 ```
 
-### 5. Set Up the Database
-
-Run the web-based installation wizard by navigating to your Chamilo URL in a browser.
-
-### 6. Start the Development Server
+### 5. Start the Development Server
 
 ```bash
 symfony server:start
 ```
 
 Or use Apache/Nginx pointing to the `public/` directory.
+
+### 6. Set Up the Database
+
+Run the web-based installation wizard by navigating to your Chamilo URL in a browser.
 
 ### 7. Generate JWT Keys
 
