@@ -35,14 +35,13 @@ Not all operations are enabled for every resource — security constraints apply
 | Resource | Path | Description |
 |----------|------|-------------|
 | Documents | `/api/documents` | Course documents |
-| Quizzes | `/api/c_quizzes` | Exercises/tests |
-| Learning Paths | `/api/c_lps` | Learning paths |
-| Forums | `/api/c_forums` | Discussion forums |
-| Glossaries | `/api/c_glossaries` | Glossary terms |
-| Links | `/api/c_links` | External links |
-| Announcements | `/api/c_announcements` | Course announcements |
+| Learning Paths | `/api/learning_paths` | Learning paths |
+| Glossaries | `/api/glossaries` | Glossary terms |
+| Links | `/api/links` | External links |
 | Calendar Events | `/api/c_calendar_events` | Agenda events |
 | Student Publications | `/api/c_student_publications` | Assignments |
+| Blogs | `/api/c_blogs` | Course blogs |
+| Groups | `/api/c_groups` | Course groups |
 
 ### Tracking Resources
 

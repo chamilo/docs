@@ -6,7 +6,7 @@ Chamilo 2.0 uses a large number of controllers (in the order of dozens) organize
 
 ### Admin Controllers
 
-Located in `src/CoreBundle/Controller/`. Handle platform administration:
+Located in `src/CoreBundle/Controller/Admin/`. Handle platform administration:
 
 * `AdminController` — Dashboard, file info, email testing
 * `UserListController` — User CRUD

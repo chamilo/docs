@@ -25,13 +25,14 @@ composer install
 
 ### 3. Configure Environment
 
-Create an empty `.env` file:
+The repository ships `.env.dist` as a reference. Create an empty `.env` file that the web installer will populate — keeping it empty ensures upgrades never overwrite your local configuration:
 
 ```bash
 touch .env
 ```
 
-Set all permissions for the installer to write its configuration and cache:
+Then make `.env` and `config/` writable by the web server so the installer can write your local configuration:
+
 ```bash
 sudo chown -R www-data: .env config/ var/
 ```

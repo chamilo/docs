@@ -19,8 +19,8 @@ Platform-level entities:
 | **Tracking** | `TrackELogin`, `TrackEOnline`, `TrackEDefault` |
 | **Skills** | `Skill`, `SkillRelUser`, `SkillRelProfile` |
 | **AI** | `AiRequests` |
-| **Plugins** | `Plugin`, `PluginRepository` |
-| **Social** | `UserGroup`, `UsergroupRelUser` |
+| **Plugins** | `Plugin`, `AccessUrlRelPlugin` |
+| **Social** | `Usergroup`, `UsergroupRelUser` |
 | **xAPI** | `XApiObject`, `XApiResult`, `XApiActivityState` |
 
 ### CourseBundle Entities (101)
