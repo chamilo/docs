@@ -6,10 +6,10 @@ Plugins are stored in `public/plugin/`. Each plugin has its own directory:
 
 ```
 public/plugin/
-├── bbb/                    # BigBlueButton integration
-├── zoom/                   # Zoom integration
-├── onlyoffice/             # OnlyOffice document editing
-├── xapi/                   # xAPI/Tin Can
+├── Bbb/                    # BigBlueButton integration
+├── Zoom/                   # Zoom integration
+├── Onlyoffice/             # OnlyOffice document editing
+├── XApi/                   # xAPI/Tin Can
 ├── ...                     # bundled plugins ship under public/plugin/
 ```
 
@@ -95,6 +95,20 @@ Available regions: `content_bottom`, `content_top`, `course_tool_plugin`, `foote
 
 Files ending in `EventSubscriber.php` placed inside `src/EventSubscriber/` are auto-registered via `PluginEventSubscriberPass`. They implement `EventSubscriberInterface` and react to events defined in `src/CoreBundle/Event/Events.php`.
 
+Because the plugin class (`MyPluginPlugin`) is not a Symfony service, it cannot be autowired into the subscriber constructor. Use the `create()` singleton instead:
+
+```php
+class MyPluginEventSubscriber implements EventSubscriberInterface
+{
+    private MyPluginPlugin $plugin;
+
+    public function __construct()
+    {
+        $this->plugin = MyPluginPlugin::create();
+    }
+}
+```
+
 ### Doctrine Entities
 
 Doctrine entities placed in `src/Entity/` are auto-discovered by `PluginEntityPass`. Use PHP 8 attributes for mapping. The namespace must follow `Chamilo\PluginBundle\{PluginName}`. Use unique table name prefixes (e.g., `my_plugin_*`) to avoid collisions.
@@ -113,13 +127,20 @@ class SomeService
     public function doSomething(): void
     {
         if ($this->pluginHelper->isPluginEnabled('MyPlugin')) {
-            $value = $this->pluginHelper->getPluginConfigValue('MyPlugin', 'api_key');
+            $value = $this->pluginHelper->getPluginSetting('MyPlugin', 'api_key');
         }
     }
 }
 ```
 
-Available methods: `isPluginEnabled()`, `loadLegacyPlugin()`, `getPluginSetting()`, `getPluginConfiguration()`, `getPluginConfigValue()`.
+Available methods:
+
+| Method | Purpose |
+|--------|---------|
+| `isPluginEnabled(string $name): bool` | Check if a plugin is installed and active for the current access URL |
+| `loadLegacyPlugin(string $name): ?object` | Instantiate and return the plugin singleton |
+| `getPluginSetting(string $name, string $key): mixed` | Read a single plugin setting value |
+| `getPluginOverrides(string $name): array` | Get `plugin.yaml` overrides (defaults + access-URL-specific) for a plugin |
 
 ## Core File References
 

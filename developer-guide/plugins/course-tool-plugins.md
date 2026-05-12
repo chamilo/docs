@@ -66,8 +66,8 @@ $this->uninstall_course_fields(courseId: $courseId);
 
 Course tool plugins integrate through:
 
-* **`LegacyPluginCourseTool`** — Registers the plugin as a tool in the course
-* **`LegacyPluginCourseToolResolver`** — Resolves the tool for display on the course homepage
+* **`LegacyPluginCourseTool`** (`src/CoreBundle/Tool/LegacyPluginCourseTool.php`) — Registers the plugin as a tool in the course
+* **`CToolStateProvider`** (`src/CoreBundle/State/CToolStateProvider.php`) — Resolves which tools (including plugin tools) appear on the course homepage
 * The tool appears in the `CTool` collection for the course
 
 ## Course Context
@@ -83,6 +83,6 @@ When a learner clicks your plugin's tool, your plugin code runs within the cours
 
 Built-in course tool plugins:
 
-* **BigBlueButton** (`bbb/`) — Video conferencing within courses
-* **Zoom** (`zoom/`) — Zoom meetings within courses
-* **OnlyOffice** (`onlyoffice/`) — Document editing within courses
+* **BigBlueButton** (`Bbb/`) — Video conferencing within courses
+* **Zoom** (`Zoom/`) — Zoom meetings within courses
+* **OnlyOffice** (`Onlyoffice/`) — Document editing within courses

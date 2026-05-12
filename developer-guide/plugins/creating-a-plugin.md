@@ -140,7 +140,13 @@ use Symfony\Component\EventDispatcher\EventSubscriberInterface;
 
 class MyPluginEventSubscriber implements EventSubscriberInterface
 {
-    public function __construct(private readonly MyPluginPlugin $plugin) {}
+    private MyPluginPlugin $plugin;
+
+    public function __construct()
+    {
+        // Plugin classes are not Symfony services — use the create() singleton.
+        $this->plugin = MyPluginPlugin::create();
+    }
 
     public static function getSubscribedEvents(): array
     {
@@ -151,7 +157,7 @@ class MyPluginEventSubscriber implements EventSubscriberInterface
 
     public function onCourseCreated($event): void
     {
-        if (!$this->plugin->isEnabled(true)) {
+        if (!$this->plugin->isEnabled()) {
             return;
         }
         // your logic here
@@ -185,4 +191,4 @@ Log in as administrator, navigate to **Manage plugins**, find your plugin, and c
 * **Follow existing plugins as examples** — `public/plugin/HelloWorld/` and `public/plugin/TopLinks/` are good simple references
 * **Use translations** — Always use the `lang/` system for user-facing text
 * **Clean up on uninstall** — Remove database tables and settings in the uninstall script
-* **Check enabled state** — In event subscribers, always call `$this->plugin->isEnabled(true)` before executing logic
+* **Check enabled state** — In event subscribers, always call `$this->plugin->isEnabled()` before executing logic
