@@ -1,54 +1,48 @@
 # SSO Configuration
 
-This page covers general single sign-on settings and troubleshooting that apply across authentication methods.
+This page covers topics that apply across authentication methods.
 
-## Multiple Authentication Methods
+## Multiple providers
 
-![The login page showing SSO buttons for external authentication providers alongside the standard login form](/.gitbook/assets/login-page-sso-buttons.png)
+You can enable more than one authentication method at the same time. Each enabled provider shows its own button on the login page alongside the standard username/password form. Users choose their preferred method.
 
-Chamilo can have multiple authentication methods enabled simultaneously. When configured, the login page shows:
+Keep the standard form enabled so platform administrators can always log in, even if an external provider is misconfigured.
 
-* The standard username/password form
-* Buttons for each configured external provider (OAuth2, CAS)
+## Authentication priority
 
-Users choose their preferred method.
+When multiple methods are active, the system checks credentials in this order:
 
-## Session and Token Management
+1. LDAP (if `force_as_login_method` is set)
+2. OAuth2 providers (in the order they appear in `authentication.yaml`)
+3. Internal Chamilo database
 
-### Session Lifetime
+## JWT tokens for API access
 
-Configure how long user sessions last before requiring re-authentication. This is set in the platform security settings.
+Chamilo uses JWT (JSON Web Tokens) for its REST API. Token lifetime and refresh behaviour are configured in `config/packages/lexik_jwt_authentication.yaml`. This is separate from the SSO login flow and applies to API clients only.
 
-### JWT Tokens
+## Troubleshooting
 
-For API access, Chamilo uses JWT (JSON Web Tokens). Configure:
+### Login button does not appear after configuration
 
-* Token lifetime
-* Token refresh behavior
+The cache must be cleared after every change to `authentication.yaml`:
 
-## Common Issues and Troubleshooting
+```bash
+php bin/console cache:clear && php bin/console cache:warmup
+```
 
-### Users Cannot Log In via SSO
+### Users cannot log in via SSO
 
-1. **Check the redirect URI** — The redirect URI configured in your identity provider must exactly match what Chamilo expects
-2. **Check certificates** — For HTTPS-based SSO, ensure SSL certificates are valid and trusted
-3. **Check the clock** — SSO tokens are time-sensitive. Ensure your Chamilo server's clock is synchronized (use NTP)
-4. **Check logs** — Review Chamilo's logs (`var/log/`) and your identity provider's logs for error details
+* **Redirect URI mismatch** — The URI registered in your identity provider must exactly match `https://your-chamilo-url/connect/<provider>/check`.
+* **Clock drift** — SSO tokens are time-sensitive. Ensure your server clock is synchronized (NTP).
+* **SSL certificate** — Chamilo must trust the identity provider's certificate. Check for self-signed certificate issues.
+* **Logs** — Review `var/log/` and your identity provider's logs for specific error messages.
 
-### Users Are Created but Have Wrong Roles
+### Users are created with the wrong role
 
-Review the user mapping and auto-registration settings. Check whether role assignment rules are configured correctly in the authentication provider settings.
+Check the role mapping configuration for the provider. New users default to the student role unless a group or attribute mapping promotes them.
 
-### Users Exist in Provider but Cannot Access Chamilo
+### Users exist in the provider but cannot access Chamilo
 
-Verify that:
-
-* Auto-registration is enabled (if users should be created automatically)
-* The user's email or username matches an existing Chamilo account (if auto-registration is disabled)
-* The user is not deactivated in Chamilo
-
-## Tips
-
-* **Test each provider independently** — When multiple auth methods are configured, test each one separately
-* **Document your SSO setup** — Keep notes on Client IDs, redirect URIs, and attribute mappings for each provider. You will need them when troubleshooting or reconfiguring.
-* **Plan for fallback** — Keep the standard login form enabled so that administrators can always log in even if SSO has issues
+* If `allow_create_new_users` is false, the user must already have a Chamilo account whose email or username matches the provider's data.
+* Check that the user is not deactivated in Chamilo.
+* For Azure, review `existing_user_verification_order` to understand how Chamilo matches incoming users to existing accounts.
