@@ -188,3 +188,7 @@
   * [Appendix](developer-guide/appendix/database-schema.md)
     * [Database Schema](developer-guide/appendix/database-schema.md)
     * [Glossary](developer-guide/appendix/glossary.md)
+
+## About This Documentation
+
+* [Changelog](CHANGELOG.md)
