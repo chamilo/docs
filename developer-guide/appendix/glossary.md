@@ -12,7 +12,7 @@ Developer-focused terms used throughout this guide.
 | **Encore** | Symfony Webpack Encore — a wrapper around Webpack that simplifies frontend build configuration. |
 | **Flysystem** | A PHP filesystem abstraction library. Chamilo uses it to support local, S3, Azure, and GCS storage. |
 | **JWT** | JSON Web Token — the authentication mechanism for the REST API. |
-| **Pinia** | The state management library for Vue 3. Replaces Vuex. |
+| **Pinia** | The recommended state management library for Vue 3. Used for new stores in Chamilo; legacy Vuex stores remain alongside it. |
 | **PrimeVue** | The Vue 3 UI component library used by Chamilo. Provides buttons, tables, dialogs, etc. |
 | **ResourceNode** | The central entity in Chamilo's resource system. Every piece of course content has a ResourceNode. |
 | **ResourceFile** | An entity representing a file attached to a ResourceNode. Stored via Flysystem. |

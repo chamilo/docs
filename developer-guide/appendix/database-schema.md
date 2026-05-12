@@ -19,7 +19,7 @@ Chamilo 2.0 maps a large set of Doctrine entities to database tables. The exact 
 | `user` | User accounts |
 | `access_url` | Multi-URL portals |
 | `access_url_rel_user` | User-portal assignments |
-| `user_group` | Platform-wide user groups |
+| `usergroup` | Platform-wide user groups |
 
 ### Courses
 
@@ -81,7 +81,7 @@ Chamilo 2.0 maps a large set of Doctrine entities to database tables. The exact 
 
 | Table | Purpose |
 |-------|---------|
-| `settings_current` | Platform settings |
+| `settings` | Platform settings |
 | `settings_options` | Setting option definitions |
 
 ## Migrations
