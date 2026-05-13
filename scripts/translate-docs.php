@@ -642,7 +642,7 @@ foreach ($langCodes as $lang) {
 
 echo PHP_EOL;
 echo str_repeat('═', 60) . PHP_EOL;
-echo '  TRANSLATION REPORT' . PHP_EOL;
+echo '  ['.date('H:i:s').']  TRANSLATION REPORT' . PHP_EOL;
 echo str_repeat('═', 60) . PHP_EOL;
 
 foreach ($report as $lang => $data) {
