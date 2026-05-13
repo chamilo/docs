@@ -14,6 +14,8 @@ declare(strict_types=1);
  *   --force       Re-translate files that already exist in the output directory.
  *   --dry-run     Show what would be done without making any API calls.
  *   --test        Translate only the first file per language (for smoke-testing).
+ *   --single-file Translate the given file, not all others.
+ *                 Use with --force to force the re-translation from scratch.
  *
  * Language codes (same as Chamilo .po convention): fr_FR, es, de, pt_BR, etc.
  * If no language codes are given, the script looks for existing 2.x-?? branches.
