@@ -1,4 +1,3 @@
----
 # Visioconférence
 
 Chamilo s'intègre aux plateformes de visioconférence pour permettre des sessions en direct au sein des cours.

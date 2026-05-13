@@ -1,4 +1,3 @@
----
 # Architecture de Symfony
 
 ## Bundles

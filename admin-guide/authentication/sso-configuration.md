@@ -1,4 +1,3 @@
----
 # Configuration SSO
 
 Cette page traite des sujets qui s'appliquent à travers les différentes méthodes d'authentification.

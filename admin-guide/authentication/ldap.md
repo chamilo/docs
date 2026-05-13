@@ -1,4 +1,3 @@
----
 # LDAP
 
 Chamilo peut authentifier les utilisateurs via un serveur LDAP, y compris Microsoft Active Directory. LDAP est configuré dans `config/authentication.yaml`.

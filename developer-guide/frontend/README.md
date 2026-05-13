@@ -1,4 +1,3 @@
----
 # Frontend
 
 Le frontend de Chamilo 2.0 est une application monopage (SPA) développée avec Vue 3 qui communique avec le backend via l'API REST.

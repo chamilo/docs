@@ -1,4 +1,3 @@
----
 # Glossaire
 
 Termes clés utilisés tout au long de ce guide.

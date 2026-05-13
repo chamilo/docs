@@ -1,4 +1,3 @@
----
 # Ajout de contenu
 
 Cette section couvre les outils que vous utilisez pour ajouter du contenu d'apprentissage à votre cours. Chamilo offre plusieurs moyens de fournir du matériel à vos apprenants :

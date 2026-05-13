@@ -1,4 +1,3 @@
----
 # Glossaire
 
 Termes clés utilisés dans l'administration de Chamilo 2.0.

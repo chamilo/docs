@@ -1,4 +1,3 @@
----
 # Outils d'IA
 
 Chamilo 2.0 introduit des outils alimentés par l'intelligence artificielle qui vous aident à créer du contenu plus rapidement et à offrir un soutien personnalisé à vos apprenants. Ces fonctionnalités utilisent des modèles de langage de grande échelle (tels que GPT d'OpenAI, Google Gemini, Mistral, ou autres) pour générer du contenu éducatif et assister à l'évaluation.

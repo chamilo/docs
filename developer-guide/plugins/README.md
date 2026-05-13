@@ -1,4 +1,3 @@
----
 # Plugins
 
 Le système de plugins de Chamilo vous permet d'étendre la plateforme sans modifier le code principal. Un ensemble de plugins est fourni avec la distribution sous `public/plugin/`.

@@ -1,4 +1,3 @@
----
 # API
 
 Chamilo 2.0 expose une API REST construite sur **API Platform 3.0**. L'API offre un accès programmatique aux ressources de la plateforme et est la même API utilisée par l'interface frontend Vue.

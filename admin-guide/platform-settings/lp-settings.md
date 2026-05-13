@@ -1,4 +1,3 @@
----
 # Paramètres des Parcours d'Apprentissage
 
 Paramètres par défaut et comportement de l'outil **Parcours d'Apprentissage** — démarrage automatique, vue par défaut, prérequis, comportement SCORM et autres similaires.

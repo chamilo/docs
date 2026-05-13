@@ -1,4 +1,3 @@
----
 # Enquêtes
 
 L'outil d'enquête vous permet de créer des questionnaires pour recueillir les retours de vos apprenants. Les enquêtes sont utiles pour les évaluations de cours, les analyses de besoins et les sondages d'opinion.

@@ -1,4 +1,3 @@
----
 # CAS
 
 > **Statut dans Chamilo 2.x.** Les entrées de configuration CAS (`cas_activate`, `cas_server`, `cas_server_uri`, `cas_port`, `cas_protocol`, `cas_add_user_activate`) existent toujours dans les paramètres de la plateforme comme un héritage de Chamilo 1.x, et CAS apparaît encore comme une source d'authentification sélectionnable dans le formulaire utilisateur — mais il n'y a pas d'authentificateur CAS intégré dans le pipeline de sécurité de Chamilo 2.x. La connexion via CAS **ne fonctionne pas** actuellement de manière native. Si vous avez besoin d'une authentification unique (SSO) sur Chamilo 2.x, utilisez [OAuth2](oauth2.md) (Azure / Keycloak / Générique) ou [LDAP](ldap.md) à la place.

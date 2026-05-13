@@ -1,4 +1,3 @@
----
 # Paramètres CAS
 
 Configuration héritée de CAS (Central Authentication Service) provenant de Chamilo 1.x. Consultez [CAS](../authentication/cas.md) pour connaître l'état actuel de l'authentificateur CAS dans Chamilo 2.x.

@@ -1,4 +1,3 @@
----
 # Carrières et Promotions
 
 Chamilo inclut un système de gestion des carrières qui vous permet de définir des parcours de formation et de suivre la progression des apprenants à travers des programmes structurés.

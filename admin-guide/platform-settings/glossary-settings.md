@@ -1,4 +1,3 @@
----
 # Paramètres du glossaire
 
 Comportement de l'outil **Glossaire** du cours.

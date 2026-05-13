@@ -1,4 +1,3 @@
----
 # Paramètres de suivi
 
 Paramètres par défaut liés au suivi — ce qui est enregistré, quels rapports sont exposés, règles de calcul du temps.

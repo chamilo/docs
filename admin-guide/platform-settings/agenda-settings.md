@@ -1,4 +1,3 @@
----
 # Paramètres de l'Agenda
 
 Valeurs par défaut et comportement de l'outil **Agenda** (calendrier / événements).

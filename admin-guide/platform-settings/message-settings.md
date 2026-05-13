@@ -1,4 +1,3 @@
----
 # Paramètres de messagerie
 
 Comportement du système de **Messagerie / Boîte de réception**.

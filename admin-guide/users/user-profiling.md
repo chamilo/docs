@@ -1,4 +1,3 @@
----
 # Profilage des utilisateurs
 
 Chamilo vous permet de définir des champs de profil personnalisés (champs supplémentaires) pour recueillir des informations additionnelles sur les utilisateurs au-delà des données standard telles que le nom, l'adresse e-mail et le rôle.

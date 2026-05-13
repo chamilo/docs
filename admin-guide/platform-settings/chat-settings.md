@@ -1,4 +1,3 @@
----
 # Paramètres du Chat
 
 Comportement de l'outil **Chat** du cours.

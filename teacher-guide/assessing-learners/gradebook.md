@@ -1,4 +1,3 @@
----
 # Évaluations
 
 Les évaluations (anciennement *gradebook* ou carnet de notes) regroupent les scores des exercices, des devoirs et d'autres activités notées dans une vue unifiée de la performance de chaque apprenant. Elles contrôlent également la génération de certificats.

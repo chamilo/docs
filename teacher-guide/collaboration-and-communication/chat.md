@@ -1,4 +1,3 @@
----
 # Chat
 
 L'outil de chat permet des échanges de messages textuels en temps réel au sein d'un cours. Il est utile pour des communications rapides, des sessions de questions-réponses en direct ou des discussions informelles.

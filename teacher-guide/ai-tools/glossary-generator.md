@@ -1,4 +1,3 @@
----
 # Générateur de termes de glossaire
 
 Le Générateur de termes de glossaire par IA vous aide à construire plus rapidement le glossaire de votre cours en produisant automatiquement des définitions de termes à partir d'un sujet ou d'un domaine. Vous examinez chaque terme et définition suggérés avant de les ajouter au glossaire.

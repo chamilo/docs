@@ -1,4 +1,3 @@
----
 # Paramètres de recherche
 
 Configuration du système de recherche en texte intégral (Xapian).

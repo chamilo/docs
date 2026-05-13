@@ -1,4 +1,3 @@
----
 # Structure du Projet
 
 ## Répertoires de niveau supérieur

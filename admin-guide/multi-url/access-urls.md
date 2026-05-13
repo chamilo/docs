@@ -1,4 +1,3 @@
----
 # URLs d'accès
 
 Les URLs d'accès permettent à une seule installation de Chamilo de servir plusieurs portails distincts.

@@ -1,4 +1,3 @@
----
 # Paramètres d'identité de l'administrateur
 
 Identité et coordonnées de l'administrateur de la plateforme. Ces valeurs apparaissent dans le pied de page de la plateforme et dans certains courriels générés par le système.

@@ -1,4 +1,3 @@
----
 # OnlyOffice
 
 L'intégration de **OnlyOffice** permet aux utilisateurs de modifier des documents (Word, Excel, PowerPoint) directement dans le navigateur au sein de Chamilo, sans avoir à les télécharger.

@@ -1,4 +1,3 @@
----
 # Catégories de sessions
 
 Les catégories de sessions permettent d'organiser vos sessions, en particulier lorsque vous avez de nombreuses sessions en cours simultanément.

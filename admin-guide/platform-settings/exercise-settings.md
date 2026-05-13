@@ -1,4 +1,3 @@
----
 # Paramètres des exercices (tests)
 
 Paramètres par défaut et comportement de l'outil **Exercices (Tests)** — affichage des questions, notation, tentatives, et autres aspects similaires.

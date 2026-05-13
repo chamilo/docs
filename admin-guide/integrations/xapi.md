@@ -1,4 +1,3 @@
----
 # xAPI
 
 **xAPI** (Experience API, également connu sous le nom de Tin Can API) est une norme pour le suivi des expériences d'apprentissage. Chamilo peut à la fois générer et consommer des déclarations xAPI.

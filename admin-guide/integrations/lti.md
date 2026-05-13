@@ -1,4 +1,3 @@
----
 # LTI 1.3
 
 **LTI** (Learning Tools Interoperability) est une norme qui permet d'intégrer des outils d'apprentissage externes au sein de Chamilo. La version 1.3 est la plus récente et la plus sécurisée de cette norme.

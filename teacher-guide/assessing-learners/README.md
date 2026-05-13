@@ -1,4 +1,3 @@
----
 # Évaluer les apprenants
 
 Chamilo offre un ensemble complet d'outils pour évaluer les connaissances de vos apprenants et suivre leurs performances.

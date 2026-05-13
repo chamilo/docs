@@ -1,4 +1,3 @@
----
 # SCIM
 
 **SCIM** (System for Cross-domain Identity Management) automatise la gestion des utilisateurs — création, mise à jour et désactivation des comptes Chamilo en fonction des modifications dans votre fournisseur d'identité. Contrairement à OAuth2 ou LDAP, SCIM gère la provisionnement, et non la connexion.

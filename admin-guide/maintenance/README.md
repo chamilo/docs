@@ -1,4 +1,3 @@
----
 # Maintenance
 
 Un entretien régulier permet à votre plateforme Chamilo de fonctionner de manière optimale.

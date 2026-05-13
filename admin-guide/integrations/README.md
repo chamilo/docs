@@ -1,4 +1,3 @@
----
 # Intégrations
 
 Chamilo s'intègre à plusieurs services tiers pour étendre ses fonctionnalités.

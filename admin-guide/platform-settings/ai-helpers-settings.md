@@ -1,4 +1,3 @@
----
 # Paramètres des assistants IA
 
 Configuration des assistants IA (génération de texte, génération d'image, génération de vidéo, tuteur IA, évaluation IA). Chaque fournisseur peut être activé par type de tâche. Voir aussi [Configuration IA](../integrations/ai-configuration.md).

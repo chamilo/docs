@@ -1,4 +1,3 @@
----
 # Collaboration et Communication
 
 Chamilo propose plusieurs outils pour faciliter l'interaction entre vous et vos apprenants, ainsi qu'entre les apprenants eux-mêmes.

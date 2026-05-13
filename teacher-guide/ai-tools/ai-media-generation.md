@@ -1,4 +1,3 @@
----
 # Génération de médias par IA
 
 Lors de l'édition d'un document dans l'outil **Documents**, la fonctionnalité de génération de médias par IA vous permet de produire une **image** ou une **vidéo courte** pour illustrer un paragraphe — directement depuis l'éditeur de texte enrichi (WYSIWYG), sans quitter le document.

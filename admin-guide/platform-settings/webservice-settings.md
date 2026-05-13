@@ -1,4 +1,3 @@
----
 # Paramètres des services web
 
 Configuration des anciens services web SOAP / REST (distincts des points de terminaison modernes de l'API Platform).

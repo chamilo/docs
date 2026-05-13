@@ -1,4 +1,3 @@
----
 # Paramètres des annonces
 
 Comportement de l'outil **Annonces** du cours — comment les annonces sont envoyées et planifiées.

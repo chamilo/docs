@@ -1,4 +1,3 @@
----
 # Paramètres de Dropbox
 
 Comportement de l'outil d'échange de fichiers **Dropbox**.

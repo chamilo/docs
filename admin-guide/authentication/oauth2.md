@@ -1,4 +1,3 @@
----
 # OAuth2
 
 L'authentification OAuth2 est configurée dans `config/authentication.yaml`. Chamilo inclut un support intégré pour Azure AD, Keycloak, Facebook et tout fournisseur générique conforme à OAuth2.

@@ -1,4 +1,3 @@
----
 # Outils supplémentaires
 
 Au-delà des outils principaux de contenu, d'évaluation et de collaboration, Chamilo propose plusieurs outils supplémentaires qui peuvent enrichir votre cours.

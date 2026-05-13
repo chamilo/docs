@@ -1,4 +1,3 @@
----
 # Paramètres des tâches planifiées (Cron Jobs)
 
 Configuration des tâches planifiées (cron tasks) fournies avec Chamilo.

@@ -1,4 +1,3 @@
----
 # Thèmes de couleurs
 
 Chamilo 2.0 introduit un système de thèmes de couleurs qui vous permet de personnaliser l'apparence visuelle de la plateforme.
