@@ -14,6 +14,11 @@ declare(strict_types=1);
  *   --force       Re-translate files that already exist in the output directory.
  *   --dry-run     Show what would be done without making any API calls.
  *   --test        Translate only the first file per language (for smoke-testing).
+ *   --single-file  Translate the given file, not all others.
+ *                  Use with --force to force the re-translation from scratch.
+ *   --fix-wrappers Scan all already-translated files and remove any leading/trailing
+ *                  "---" wrapper lines that GitBook rejects. No API calls are made.
+ *                  Combine with --dry-run to preview what would be changed.
  *
  * Language codes (same as Chamilo .po convention): fr_FR, es, de, pt_BR, etc.
  * If no language codes are given, the script looks for existing 2.x-?? branches.
@@ -51,22 +56,24 @@ const MAX_ATTEMPTS = 2;
 
 // ── CLI argument parsing ──────────────────────────────────────────────────────
 
-$args       = array_slice($argv, 1);
-$dryRun     = false;
-$testMode   = false;
-$force      = false;
-$fromTag    = null;
-$singleFile = null;
-$langCodes  = [];
+$args         = array_slice($argv, 1);
+$dryRun       = false;
+$testMode     = false;
+$force        = false;
+$fromTag      = null;
+$singleFile   = null;
+$fixWrappers  = false;
+$langCodes    = [];
 
 for ($i = 0, $n = count($args); $i < $n; $i++) {
     switch ($args[$i]) {
-        case '--dry-run':     $dryRun     = true;                  break;
-        case '--test':        $testMode   = true;                  break;
-        case '--force':       $force      = true;                  break;
-        case '--from':        $fromTag    = $args[++$i] ?? null;   break;
-        case '--single-file': $singleFile = $args[++$i] ?? null;   break;
-        default:              $langCodes[] = $args[$i];            break;
+        case '--dry-run':      $dryRun      = true;                  break;
+        case '--test':         $testMode    = true;                  break;
+        case '--force':        $force       = true;                  break;
+        case '--from':         $fromTag     = $args[++$i] ?? null;   break;
+        case '--single-file':  $singleFile  = $args[++$i] ?? null;   break;
+        case '--fix-wrappers': $fixWrappers = true;                  break;
+        default:               $langCodes[] = $args[$i];             break;
     }
 }
 
@@ -202,6 +209,38 @@ function splitIntoChunks(string $content, int $target = CHUNK_TARGET): array
     }
 
     return $chunks;
+}
+
+/**
+ * Remove leading/trailing lines that consist only of dashes (e.g. "---"),
+ * which the model sometimes adds as wrapper separators and which GitBook rejects.
+ * Returns the cleaned text and a boolean indicating whether anything was removed.
+ */
+function stripDashWrappers(string $text): array
+{
+    $lines   = explode("\n", $text);
+    $changed = false;
+
+    // Strip leading dash-only lines (and any blank lines immediately after them)
+    while (!empty($lines) && preg_match('/^-+$/', ltrim($lines[0]))) {
+        array_shift($lines);
+        $changed = true;
+        // Also drop the blank line that typically follows
+        if (!empty($lines) && trim($lines[0]) === '') {
+            array_shift($lines);
+        }
+    }
+
+    // Strip trailing dash-only lines (and any blank lines immediately before them)
+    while (!empty($lines) && preg_match('/^-+$/', ltrim($lines[count($lines) - 1]))) {
+        array_pop($lines);
+        $changed = true;
+        if (!empty($lines) && trim($lines[count($lines) - 1]) === '') {
+            array_pop($lines);
+        }
+    }
+
+    return [implode("\n", $lines), $changed];
 }
 
 /**
@@ -480,6 +519,69 @@ function translatePage(
     ];
 }
 
+// ── --fix-wrappers: strip "---" wrapper lines from already-translated files ───
+
+if ($fixWrappers) {
+    $repoRoot = dirname(__DIR__);
+
+    // Resolve languages: explicit args, or scan translated/ subdirectories
+    if (empty($langCodes)) {
+        foreach (glob($repoRoot . '/translated/*/') ?: [] as $dir) {
+            $langCodes[] = basename($dir);
+        }
+    }
+    if (empty($langCodes)) {
+        eprintln('No languages specified and no translated/ subdirectories found.');
+        exit(1);
+    }
+
+    $totalFixed = 0;
+
+    foreach ($langCodes as $lang) {
+        $lang    = trim($lang);
+        $outDir  = $repoRoot . '/translated/' . $lang;
+        $fixedIn = 0;
+
+        if (!is_dir($outDir)) {
+            eprintln("{$lang}: translated/{$lang}/ not found — skipping.");
+            continue;
+        }
+
+        $iterator = new RecursiveIteratorIterator(new RecursiveDirectoryIterator($outDir));
+        foreach ($iterator as $file) {
+            if ($file->getExtension() !== 'md') {
+                continue;
+            }
+            $path = $file->getPathname();
+            $text = file_get_contents($path);
+            if ($text === false) {
+                continue;
+            }
+            [$cleaned, $changed] = stripDashWrappers($text);
+            if (!$changed) {
+                continue;
+            }
+            $rel = substr($path, strlen($repoRoot) + 1);
+            if ($dryRun) {
+                eprintln("  DRY-RUN  {$rel}");
+            } else {
+                file_put_contents($path, $cleaned);
+                eprintln("  FIXED    {$rel}");
+            }
+            $fixedIn++;
+        }
+
+        $label = $dryRun ? 'would fix' : 'fixed';
+        eprintln("{$lang}: {$label} {$fixedIn} file(s).");
+        $totalFixed += $fixedIn;
+    }
+
+    $label = $dryRun ? 'would be fixed' : 'fixed';
+    eprintln('');
+    eprintln("Done. {$totalFixed} file(s) {$label} across " . count($langCodes) . " language(s).");
+    exit(0);
+}
+
 // ── Detect languages ──────────────────────────────────────────────────────────
 
 if (empty($langCodes)) {
@@ -627,8 +729,13 @@ foreach ($langCodes as $lang) {
             eprintln('    OK');
         }
 
+        [$translatedText, $stripped] = stripDashWrappers($result['text']);
+        if ($stripped) {
+            eprintln('    NOTE: stripped leading/trailing "---" wrapper lines');
+        }
+
         @mkdir(dirname($dstPath), 0755, true);
-        file_put_contents($dstPath, $result['text']);
+        file_put_contents($dstPath, $translatedText);
         $report[$lang]['ok'][] = $relPath;
 
         // Polite pause between pages
