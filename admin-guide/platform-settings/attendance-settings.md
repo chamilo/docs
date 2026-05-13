@@ -1,4 +1,3 @@
----
 # Paramètres de présence
 
 Paramètres par défaut et comportement de l'outil **Présence**.
@@ -40,4 +39,3 @@ Active la prise de signatures pour confirmer sa présence.
 Permet d'évaluer la présence avec plusieurs niveaux au lieu d'un simple système présent/absent.
 
 *Par défaut : `false`*
----
