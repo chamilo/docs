@@ -1,4 +1,3 @@
----
 # Paramètres des Groupes
 
 Comportement de l'outil **Groupes** du cours.
@@ -32,4 +31,3 @@ Si aucun outil n'est disponible dans un groupe et que l'utilisateur n'est pas in
 Afficher les classes aux utilisateurs. Les classes sont une fonctionnalité qui permet d'inscrire/désinscrire des groupes d'utilisateurs à une session ou à un cours directement, réduisant ainsi les tâches administratives. Lorsque vous sélectionnez cette option, les apprenants pourront voir dans quelle classe ils se trouvent via leur interface de réseau social.
 
 *Par défaut : `false`*
----
