@@ -1,76 +1,76 @@
-# Understanding the Interface
+# Entendiendo la Interfaz
 
-Chamilo 2.0 has a clean, modern interface designed to keep navigation simple. This page explains each part of the interface in detail.
+Chamilo 2.0 cuenta con una interfaz limpia y moderna diseñada para mantener la navegación sencilla. Esta página explica cada parte de la interfaz en detalle.
 
-## The Top Bar
+## La Barra Superior
 
-![The top bar with annotated elements including logo, inbox, support ticket, and user avatar](/.gitbook/assets/top-bar-annotated.png)
+![La barra superior con elementos anotados incluyendo el logo, bandeja de entrada, ticket de soporte y avatar del usuario](/.gitbook/assets/top-bar-annotated.png)
 
-The top bar is always visible at the top of every page. It contains:
+La barra superior siempre está visible en la parte superior de cada página. Contiene:
 
-* **Platform logo** — Click it to return to the home page at any time.
-* **Inbox icon** <img src="/.gitbook/assets/icons/mdi-inbox.svg" alt="Inbox" data-size="line"> — Shows your messages. A red badge indicates unread messages. Click to open your inbox.
-* **Support ticket icon** <img src="/.gitbook/assets/icons/mdi-ticket-account.svg" alt="Support" data-size="line"> — If enabled by your administrator, this gives you access to the support ticket system.
-* **Your avatar** — A circular image in the top-right corner. Click it to open a dropdown menu with links to your profile, account settings, and sign-out.
+* **Logo de la plataforma** — Haz clic en él para volver a la página de inicio en cualquier momento.
+* **Ícono de bandeja de entrada** <img src="/.gitbook/assets/icons/mdi-inbox.svg" alt="Bandeja de entrada" data-size="line"> — Muestra tus mensajes. Una insignia roja indica mensajes no leídos. Haz clic para abrir tu bandeja de entrada.
+* **Ícono de ticket de soporte** <img src="/.gitbook/assets/icons/mdi-ticket-account.svg" alt="Soporte" data-size="line"> — Si está habilitado por tu administrador, esto te da acceso al sistema de tickets de soporte.
+* **Tu avatar** — Una imagen circular en la esquina superior derecha. Haz clic en ella para abrir un menú desplegable con enlaces a tu perfil, configuración de cuenta y cierre de sesión.
 
-## The Sidebar
+## La Barra Lateral
 
-The sidebar on the left is your main navigation. It can be collapsed to give more space to the content area. Click the toggle arrow at its right edge to expand or collapse it. Chamilo remembers your preference.
+La barra lateral a la izquierda es tu navegación principal. Puede colapsarse para dar más espacio al área de contenido. Haz clic en la flecha de alternancia en su borde derecho para expandirla o colapsarla. Chamilo recuerda tu preferencia.
 
-The sidebar contains the following links (some may be hidden depending on your platform's configuration):
+La barra lateral contiene los siguientes enlaces (algunos pueden estar ocultos dependiendo de la configuración de tu plataforma):
 
-![The sidebar navigation panel in its expanded state showing all menu items](/.gitbook/assets/sidebar-expanded.png)
+![El panel de navegación de la barra lateral en su estado expandido mostrando todos los elementos del menú](/.gitbook/assets/sidebar-expanded.png)
 
-| Menu item | Icon | Description |
-|-----------|------|-------------|
-| **Home** | <img src="/.gitbook/assets/icons/mdi-home.svg" alt="Home" data-size="line"> | Returns to the main dashboard |
-| **My courses** | <img src="/.gitbook/assets/icons/mdi-book-open-page-variant.svg" alt="Courses" data-size="line"> | Lists all courses you are enrolled in |
-| **My sessions** | <img src="/.gitbook/assets/icons/mdi-google-classroom.svg" alt="Sessions" data-size="line"> | Lists your training sessions (current, past, upcoming) |
-| **Explore more courses** | <img src="/.gitbook/assets/icons/mdi-bookmark-multiple.svg" alt="Catalogue" data-size="line"> | Browse the course catalog to find new courses |
-| **Agenda** | <img src="/.gitbook/assets/icons/mdi-calendar-text.svg" alt="Agenda" data-size="line"> | Your personal and course calendar |
-| **Reporting** | <img src="/.gitbook/assets/icons/mdi-chart-box.svg" alt="Reporting" data-size="line"> | Access learner tracking and course reports |
-| **Social network** | <img src="/.gitbook/assets/icons/mdi-sitemap-outline.svg" alt="Social network" data-size="line"> | Connect with other users, send messages, join groups |
-| **Videoconference** | <img src="/.gitbook/assets/icons/mdi-video.svg" alt="Video" data-size="line"> | Access live video sessions (if configured) |
-| **Administration** | <img src="/.gitbook/assets/icons/mdi-cogs.svg" alt="Admin" data-size="line"> | Platform administration (visible only to admins) |
+| Elemento del menú | Ícono | Descripción |
+|-------------------|-------|-------------|
+| **Inicio** | <img src="/.gitbook/assets/icons/mdi-home.svg" alt="Inicio" data-size="line"> | Regresa al panel principal |
+| **Mis cursos** | <img src="/.gitbook/assets/icons/mdi-book-open-page-variant.svg" alt="Cursos" data-size="line"> | Lista todos los cursos en los que estás inscrito |
+| **Mis sesiones** | <img src="/.gitbook/assets/icons/mdi-google-classroom.svg" alt="Sesiones" data-size="line"> | Lista tus sesiones de formación (actuales, pasadas, próximas) |
+| **Explorar más cursos** | <img src="/.gitbook/assets/icons/mdi-bookmark-multiple.svg" alt="Catálogo" data-size="line"> | Navega por el catálogo de cursos para encontrar nuevos cursos |
+| **Agenda** | <img src="/.gitbook/assets/icons/mdi-calendar-text.svg" alt="Agenda" data-size="line"> | Tu calendario personal y de cursos |
+| **Informes** | <img src="/.gitbook/assets/icons/mdi-chart-box.svg" alt="Informes" data-size="line"> | Accede al seguimiento de estudiantes e informes de cursos |
+| **Red social** | <img src="/.gitbook/assets/icons/mdi-sitemap-outline.svg" alt="Red social" data-size="line"> | Conéctate con otros usuarios, envía mensajes, únete a grupos |
+| **Videoconferencia** | <img src="/.gitbook/assets/icons/mdi-video.svg" alt="Video" data-size="line"> | Accede a sesiones de video en vivo (si está configurado) |
+| **Administración** | <img src="/.gitbook/assets/icons/mdi-cogs.svg" alt="Administración" data-size="line"> | Administración de la plataforma (visible solo para administradores) |
 
-At the very bottom of the sidebar, you will find a **Sign out** option to quickly sign out when you're done. This option is also available from your avatar icon's drop-down menu on the top-right corner.
-If the platform is managed through external authentication methods, these signing out options might not be available.
+En la parte inferior de la barra lateral, encontrarás una opción de **Cerrar sesión** para salir rápidamente cuando hayas terminado. Esta opción también está disponible en el menú desplegable del ícono de tu avatar en la esquina superior derecha.
+Si la plataforma se gestiona a través de métodos de autenticación externos, estas opciones de cierre de sesión podrían no estar disponibles.
 
-## The Main Content Area
+## El Área de Contenido Principal
 
-The central area of the screen displays the content of the current page. At the top, you will often see a **breadcrumb trail** showing your current location in the platform (for example: Home > Rock music > Documents). Use the breadcrumbs to navigate back to a parent page.
+El área central de la pantalla muestra el contenido de la página actual. En la parte superior, a menudo verás una **ruta de navegación** (breadcrumb trail) que muestra tu ubicación actual en la plataforma (por ejemplo: Inicio > Música rock > Documentos). Usa la ruta de navegación para volver a una página superior.
 
-## The Course Homepage
+## La Página Principal del Curso
 
-When you enter a course, you see the **course homepage**. This is covered in detail in the [Creating Your Course](../creating-your-course/) section, but here is a quick overview:
+Cuando ingresas a un curso, ves la **página principal del curso**. Esto se cubre en detalle en la sección [Creando Tu Curso](../creating-your-course/), pero aquí tienes una visión general rápida:
 
-* **Course title** — Displayed prominently at the top
-* **Course introduction** — An optional rich-text description that you can edit
-* **Tool grid** — A grid of icons representing the course tools (Documents, Exercises, Forums, etc.)
+* **Título del curso** — Mostrado de manera prominente en la parte superior
+* **Introducción del curso** — Una descripción opcional en texto enriquecido que puedes editar
+* **Cuadrícula de herramientas** — Una cuadrícula de íconos que representan las herramientas del curso (Documentos, Ejercicios, Foros, etc.)
 
-As a teacher, you will see additional controls:
+Como profesor, verás controles adicionales:
 
-* **Student view** <img src="/.gitbook/assets/icons/mdi-eye.svg" alt="Student view" data-size="line"> — Toggle this to see the course as a student would see it
-* **Edit introduction** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Edit" data-size="line"> — Edit the course introduction text
-* **Show all / Hide all** — Quickly change the visibility of all tools for students
-* **Sort** — Enable drag-and-drop to reorder the tools on the homepage
+* **Vista de estudiante** <img src="/.gitbook/assets/icons/mdi-eye.svg" alt="Vista de estudiante" data-size="line"> — Activa esto para ver el curso como lo vería un estudiante
+* **Editar introducción** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Editar" data-size="line"> — Edita el texto de introducción del curso
+* **Mostrar todo / Ocultar todo** — Cambia rápidamente la visibilidad de todas las herramientas para los estudiantes
+* **Ordenar** — Habilita arrastrar y soltar para reordenar las herramientas en la página principal
 
-## Icon colors
+## Colores de los iconos
 
-This is still experimental and not entirely complete in Chamilo 2.0, but we're trying to use the following rules for all buttons and action icons in the interface:
+Esto aún es experimental y no está completamente implementado en Chamilo 2.0, pero estamos intentando seguir las siguientes reglas para todos los botones e iconos de acción en la interfaz:
 
-* **Green** for creation actions. This includes adding, creating, importing, grading, saving and copying content.
-* **Blue** for view actions. This includes exporting, viewing, pre-viewing in lists or in detail views, searching and downloading.
-* **Orange** for editing actions. This includes editing, moving, configuring, enabling/disabling, hiding and showing.
-* **Red** for deletion/removal actions. This includes deleting, removing, unsubscribing.
-* **Grey** for cancelling actions. Just leaving things in the status quo.
+* **Verde** para acciones de creación. Esto incluye agregar, crear, importar, calificar, guardar y copiar contenido.
+* **Azul** para acciones de visualización. Esto incluye exportar, ver, previsualizar en listas o en vistas detalladas, buscar y descargar.
+* **Naranja** para acciones de edición. Esto incluye editar, mover, configurar, habilitar/deshabilitar, ocultar y mostrar.
+* **Rojo** para acciones de eliminación/remoción. Esto incluye eliminar, quitar, dar de baja.
+* **Gris** para acciones de cancelación. Simplemente dejar las cosas en el statu quo.
 
-## Responsive Design
+## Diseño Responsivo
 
-Chamilo 2.0 adapts to different screen sizes. On a mobile device or narrow browser window:
+Chamilo 2.0 se adapta a diferentes tamaños de pantalla. En un dispositivo móvil o en una ventana de navegador estrecha:
 
-* The sidebar is hidden by default and can be opened by tapping the menu icon
-* Course cards display in a single column instead of a grid
-* Tables become scrollable horizontally
+* La barra lateral está oculta por defecto y se puede abrir tocando el icono del menú.
+* Las tarjetas de los cursos se muestran en una sola columna en lugar de en una cuadrícula.
+* Las tablas se vuelven desplazables horizontalmente.
 
-This means you and your learners can access the platform from a phone, tablet, or computer, but you might experience the interface slightly differently.
+Esto significa que tanto usted como sus estudiantes pueden acceder a la plataforma desde un teléfono, tableta o computadora, aunque podrían experimentar la interfaz de manera ligeramente diferente.

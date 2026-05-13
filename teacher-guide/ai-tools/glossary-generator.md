@@ -1,40 +1,40 @@
-# Glossary Terms Generator
+# Generador de Términos de Glosario
 
-The AI Glossary Terms Generator helps you build your course glossary faster by automatically producing term definitions from a topic or subject area. You review each suggested term and definition before adding anything to the glossary.
+El Generador de Términos de Glosario con IA te ayuda a construir el glosario de tu curso más rápido al producir automáticamente definiciones de términos a partir de un tema o área de conocimiento. Revisas cada término y definición sugeridos antes de agregar algo al glosario.
 
-## Accessing the Glossary Terms Generator
+## Acceso al Generador de Términos de Glosario
 
-The generator is available from the **Glossary** tool, provided that:
+El generador está disponible desde la herramienta **Glosario**, siempre que:
 
-1. AI helpers are enabled at the platform level
-2. At least one AI text provider is configured
+1. Los asistentes de IA estén habilitados a nivel de la plataforma
+2. Al menos un proveedor de texto de IA esté configurado
 
-Open the **Glossary** <img src="/.gitbook/assets/icons/mdi-alphabetical.svg" alt="Glossary" data-size="line"> tool from the course homepage and look for the **Generate with AI** button in the toolbar.
+Abre la herramienta **Glosario** <img src="/.gitbook/assets/icons/mdi-alphabetical.svg" alt="Glosario" data-size="line"> desde la página principal del curso y busca el botón **Generar con IA** en la barra de herramientas.
 
-## How to Generate Terms
+## Cómo Generar Términos
 
-1. Click **Generate with AI**
-2. Enter a **topic or subject area** — describe the domain you want terms for (e.g. "introductory organic chemistry" or "project management methodologies")
-3. Optionally specify the **number of terms** to generate
-4. Select an **AI provider** if more than one is configured
-5. Click **Generate**
+1. Haz clic en **Generar con IA**
+2. Ingresa un **tema o área de conocimiento** — describe el dominio para el que deseas términos (por ejemplo, "química orgánica introductoria" o "metodologías de gestión de proyectos")
+3. Opcionalmente, especifica el **número de términos** a generar
+4. Selecciona un **proveedor de IA** si hay más de uno configurado
+5. Haz clic en **Generar**
 
-The AI produces a list of terms with definitions that you can then review.
+La IA produce una lista de términos con definiciones que luego puedes revisar.
 
-## Reviewing and Adding Terms
+## Revisión y Adición de Términos
 
-Generated terms are shown as suggestions. Before adding them to your glossary:
+Los términos generados se muestran como sugerencias. Antes de agregarlos a tu glosario:
 
-* **Check accuracy** — Verify that definitions are correct for your course level and context
-* **Edit wording** — Adjust the definition to match your teaching style or course conventions
-* **Remove duplicates** — Skip any terms already in your glossary or outside the scope of your course
-* **Select what to add** — Choose which terms to import; you do not have to accept all of them
+* **Verifica la precisión** — Confirma que las definiciones sean correctas para el nivel y contexto de tu curso
+* **Edita la redacción** — Ajusta la definición para que coincida con tu estilo de enseñanza o las convenciones del curso
+* **Elimina duplicados** — Omite cualquier término que ya esté en tu glosario o que esté fuera del alcance de tu curso
+* **Selecciona qué agregar** — Elige qué términos importar; no tienes que aceptar todos
 
-Once satisfied, confirm the selection and the terms are added to your glossary.
+Una vez que estés satisfecho, confirma la selección y los términos se agregarán a tu glosario.
 
-## Tips
+## Consejos
 
-* **Be specific with your topic** — Broad topics produce general definitions; a narrower topic gives you more course-relevant terms
-* **Always review** — AI definitions may be simplified or imprecise. Check each one before publishing to learners
-* **Edit after importing** — You can always update a term's definition later from the glossary management view
-* **Combine with manual entries** — Use the generator to get a starting set, then add discipline-specific terms manually
+* **Sé específico con tu tema** — Los temas amplios generan definiciones generales; un tema más específico te proporciona términos más relevantes para tu curso
+* **Revisa siempre** — Las definiciones de IA pueden ser simplificadas o imprecisas. Verifica cada una antes de publicarlas para los estudiantes
+* **Edita después de importar** — Siempre puedes actualizar la definición de un término más tarde desde la vista de gestión del glosario
+* **Combina con entradas manuales** — Usa el generador para obtener un conjunto inicial, luego agrega términos específicos de la disciplina de forma manual

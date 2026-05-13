@@ -1,10 +1,10 @@
 # Backend
 
-The Chamilo 2.0 backend is built on Symfony 6.4 with Doctrine ORM and API Platform.
+El backend de Chamilo 2.0 está construido sobre Symfony 6.4 con Doctrine ORM y API Platform.
 
-* **[Symfony Architecture](symfony-architecture.md)** — Bundles, services, and the overall backend structure
-* **[Entities and Doctrine](entities-and-doctrine.md)** — The Doctrine entity classes and how they relate
-* **[Resource System](resource-system.md)** — The ResourceNode/ResourceFile abstraction (key architectural concept)
-* **[Controllers](controllers.md)** — Controller organization and routing patterns
-* **[Events and Listeners](events-and-listeners.md)** — How Chamilo uses the Symfony event system
-* **[Settings System](settings-system.md)** — The settings schemas in `src/CoreBundle/Settings/` and how platform configuration works
+* **[Arquitectura de Symfony](symfony-architecture.md)** — Bundles, servicios y la estructura general del backend
+* **[Entidades y Doctrine](entities-and-doctrine.md)** — Las clases de entidades de Doctrine y cómo se relacionan
+* **[Sistema de Recursos](resource-system.md)** — La abstracción ResourceNode/ResourceFile (concepto arquitectónico clave)
+* **[Controladores](controllers.md)** — Organización de controladores y patrones de enrutamiento
+* **[Eventos y Listeners](events-and-listeners.md)** — Cómo Chamilo utiliza el sistema de eventos de Symfony
+* **[Sistema de Configuración](settings-system.md)** — Los esquemas de configuración en `src/CoreBundle/Settings/` y cómo funciona la configuración de la plataforma

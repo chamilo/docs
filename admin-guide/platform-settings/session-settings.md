@@ -1,571 +1,543 @@
-# Sessions Settings
+# Configuración de Sesiones
 
-Defaults and behaviour for **Sessions** — session lifecycle, coach access windows, course visibility within a session, and similar.
+Valores predeterminados y comportamiento para las **Sesiones** — ciclo de vida de la sesión, ventanas de acceso para entrenadores, visibilidad de cursos dentro de una sesión y similares.
 
-Access these settings under **Administration > Configuration settings > Sessions**. This category contains **68 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+Acceda a estas configuraciones en **Administración > Configuraciones de configuración > Sesiones**. Esta categoría contiene **68 configuraciones**, listadas a continuación con el título y el comentario incluidos en los datos de configuración de la plataforma (`SettingsCurrentFixtures.php`).
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> El nombre de la variable en el código se muestra en monospace. Úselo cuando programe a través de la API o cuando necesite cambiar estas configuraciones a nivel global editando [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
 
-## Settings
+## Configuraciones
 
 ### `add_users_by_coach`
 
-**Register users by Coach**
+**Registrar usuarios por Entrenador**
 
-Coach users may create users to the platform and subscribe users to a session.
+Los usuarios entrenadores pueden crear usuarios en la plataforma y suscribir usuarios a una sesión.
 
-*Default: `false`*
+*Predeterminado: `false`*
 
 ### `allow_career_diagram`
 
-**Enable career diagrams**
+**Habilitar diagramas de carreras**
 
-Career diagrams allow you to display diagrams of careers, skills and courses.
+Los diagramas de carreras permiten mostrar diagramas de carreras, habilidades y cursos.
 
-*Default: `false`*
-
+*Predeterminado: `false`*
 
 ### `allow_career_users`
 
-**Enable career diagrams for users**
+**Habilitar diagramas de carreras para usuarios**
 
-If career diagrams are enabled, users can only see them (and only the diagrams that correspond to their studies) if you enable this option.
+Si los diagramas de carreras están habilitados, los usuarios solo pueden verlos (y solo los diagramas que corresponden a sus estudios) si habilita esta opción.
 
-*Default: `false`*
+*Predeterminado: `false`*
 
 ### `allow_coach_to_edit_course_session`
 
-**Allow coaches to edit inside course sessions**
+**Permitir a los entrenadores editar dentro de las sesiones de cursos**
 
-Allow coaches to edit inside course sessions
+Permitir a los entrenadores editar dentro de las sesiones de cursos.
 
-*Default: `true`*
+*Predeterminado: `true`*
 
 ### `allow_delete_user_for_session_admin`
 
-**Session admins can delete users**
+**Los administradores de sesión pueden eliminar usuarios**
 
-Session administrators can remove users from the platform when managing their session(s).
+Los administradores de sesión pueden eliminar usuarios de la plataforma al gestionar sus sesiones.
 
-*Default: `false`*
-
+*Predeterminado: `false`*
 
 ### `allow_disable_user_for_session_admin`
 
-**Session admins can disable users**
+**Los administradores de sesión pueden deshabilitar usuarios**
 
-Session administrators can disable user accounts to prevent login while retaining enrollment records in their session(s).
+Los administradores de sesión pueden deshabilitar cuentas de usuario para evitar el inicio de sesión mientras se conservan los registros de inscripción en sus sesiones.
 
-*Default: `false`*
-
+*Predeterminado: `false`*
 
 ### `allow_edit_tool_visibility_in_session`
 
-**Allow tool visibility edition in sessions**
+**Permitir la edición de visibilidad de herramientas en sesiones**
 
-When using sessions, the default behaviour is to use the tool visibility defined in the base course. This setting changes that to allow coaches in session courses to adapt tool visibilities to their needs.
+Cuando se usan sesiones, el comportamiento predeterminado es usar la visibilidad de herramientas definida en el curso base. Esta configuración cambia eso para permitir a los entrenadores en cursos de sesión adaptar las visibilidades de herramientas a sus necesidades.
 
-*Default: `true`*
+*Predeterminado: `true`*
 
 ### `allow_redirect_to_session_after_inscription_about`
 
-**Redirect to session after registration in session's 'About' page**
+**Redirigir a la sesión después del registro en la página 'Acerca de' de la sesión**
 
-Automatically redirect new users to their session page after they complete registration through a session's About page.
+Redirigir automáticamente a los nuevos usuarios a su página de sesión después de que completen el registro a través de la página Acerca de de una sesión.
 
-*Default: `false`*
-
+*Predeterminado: `false`*
 
 ### `allow_search_diagnostic`
 
-**Enable sessions search diagnosis**
+**Habilitar diagnóstico de búsqueda de sesiones**
 
-Allow tutors to get a diagnosis that will allow them to search for the best sessions for learners.
+Permitir a los tutores obtener un diagnóstico que les permita buscar las mejores sesiones para los estudiantes.
 
-*Default: `false`*
-
+*Predeterminado: `false`*
 
 ### `allow_session_admin_extra_access`
 
-**Session admin can access batch user import, update and export**
+**El administrador de sesión puede acceder a la importación, actualización y exportación masiva de usuarios**
 
-Session administrators can access batch user import, update, and export functionality in addition to their standard permissions.
+Los administradores de sesión pueden acceder a la funcionalidad de importación, actualización y exportación masiva de usuarios además de sus permisos estándar.
 
-*Default: `false`*
-
+*Predeterminado: `false`*
 
 ### `allow_session_admin_login_as_teacher`
 
-**Session admins can 'login as' teachers**
+**Los administradores de sesión pueden 'iniciar sesión como' profesores**
 
-Session administrators can impersonate teacher accounts to preview course content and student experience within their session(s).
+Los administradores de sesión pueden impersonar cuentas de profesores para previsualizar el contenido del curso y la experiencia del estudiante dentro de sus sesiones.
 
-*Default: `false`*
-
+*Predeterminado: `false`*
 
 ### `allow_session_admin_read_careers`
 
-**Session admins can view careers**
+**Los administradores de sesión pueden ver carreras**
 
-[inferred] Session administrators can view and access career paths and promotion workflows linked to their managed sessions.
+[inferido] Los administradores de sesión pueden ver y acceder a las rutas de carrera y flujos de trabajo de promoción vinculados a las sesiones que gestionan.
 
-*Default: `false`*
-
+*Predeterminado: `false`*
 
 ### `allow_session_admins_to_manage_all_sessions`
 
-**Allow session administrators to see all sessions**
+**Permitir a los administradores de sesión ver todas las sesiones**
 
-When this option is not enabled (default), session administrators can only see the sessions they have created. This is confusing in an open environment where session administrators might need to share support time between two sessions.
+Cuando esta opción no está habilitada (predeterminada), los administradores de sesión solo pueden ver las sesiones que han creado. Esto es confuso en un entorno abierto donde los administradores de sesión podrían necesitar compartir tiempo de soporte entre dos sesiones.
 
-*Default: `false`*
+*Predeterminado: `false`*
 
 ### `allow_session_course_copy_for_teachers`
 
-**Allow session-to-session copy for teachers**
+**Permitir copia de sesión a sesión para profesores**
 
-Enable this option to let teachers copy their content from one course in a session to a course in another session. By default, this option is only available to platform administrators.
+Habilite esta opción para permitir a los profesores copiar su contenido de un curso en una sesión a un curso en otra sesión. Por defecto, esta opción solo está disponible para los administradores de la plataforma.
 
-*Default: `false`*
+*Predeterminado: `false`*
 
 ### `allow_teachers_to_create_sessions`
 
-**Allow teachers to create sessions**
+**Permitir a los profesores crear sesiones**
 
-Teachers can create, edit and delete their own sessions.
+Los profesores pueden crear, editar y eliminar sus propias sesiones.
 
-*Default: `false`*
+*Predeterminado: `false`*
 
 ### `allow_tutors_to_assign_students_to_session`
 
-**Tutors can assign students to sessions**
+**Los tutores pueden asignar estudiantes a sesiones**
 
-When enabled, course coaches/tutors in sessions can subscribe new users to their session. This option is otherwise only available to administrators and session administrators.
+Cuando está habilitado, los entrenadores/tutores de cursos en sesiones pueden suscribir nuevos usuarios a su sesión. Esta opción de lo contrario solo está disponible para administradores y administradores de sesión.
 
-*Default: `false`*
+*Predeterminado: `false`*
 
 ### `allow_user_session_collapsable`
 
-**Allow user to collapse sessions in My sessions**
+**Permitir al usuario colapsar sesiones en Mis sesiones**
 
-Users can collapse session cards or groups in the My sessions page to reduce visual clutter and improve navigation.
+Los usuarios pueden colapsar tarjetas o grupos de sesiones en la página Mis sesiones para reducir el desorden visual y mejorar la navegación.
 
-*Default: `false`*
-
+*Predeterminado: `false`*
 
 ### `assignment_base_course_teacher_access_to_all_session`
 
-**Base course teacher can see assignments from all sessions**
+**El profesor del curso base puede ver las tareas de todas las sesiones**
 
-Show all learner publications (from base course and from all sessions) in the work/pending.php page of the base course.
+Mostrar todas las publicaciones de los estudiantes (del curso base y de todas las sesiones) en la página work/pending.php del curso base.
 
-*Default: `false`*
+*Predeterminado: `false`*
 
+---
 ### `career_diagram_disclaimer`
 
-**Display a disclaimer below the career diagram**
+**Mostrar un descargo de responsabilidad debajo del diagrama de carrera**
 
-Add a disclaimer below the career diagram. A language variable called 'Career diagram disclaimer' must exist in your sub-language.
+Añade un descargo de responsabilidad debajo del diagrama de carrera. Debe existir una variable de idioma llamada 'Career diagram disclaimer' en tu subidioma.
 
-*Default: `false`*
+*Predeterminado: `false`*
 
 ### `career_diagram_legend`
 
-**Display a legend below the career diagram**
+**Mostrar una leyenda debajo del diagrama de carrera**
 
-Add a career legend below the career diagram. A language variable called 'Career diagram legend' must exist in your sub-language.
+Añade una leyenda de carrera debajo del diagrama de carrera. Debe existir una variable de idioma llamada 'Career diagram legend' en tu subidioma.
 
-*Default: `false`*
+*Predeterminado: `false`*
 
 ### `courses_list_session_title_link`
 
-**Type of link for the session title**
+**Tipo de enlace para el título de la sesión**
 
-On the courses/sessions page, the session title can be either of the following : 0 = no link (hide session title) ; 1 = link title to a special session page ; 2 = link to the course if there is only one course ; 3 = session title makes the courses list foldable ; 4 = no link (show session title).
+En la página de cursos/sesiones, el título de la sesión puede ser uno de los siguientes: 0 = sin enlace (ocultar el título de la sesión); 1 = enlazar el título a una página especial de la sesión; 2 = enlazar al curso si solo hay un curso; 3 = el título de la sesión hace que la lista de cursos sea plegable; 4 = sin enlace (mostrar el título de la sesión).
 
-*Default: `1`*
+*Predeterminado: `1`*
 
 ### `default_session_list_view`
 
-**Default sessions list view**
+**Vista predeterminada de la lista de sesiones**
 
-Select the default tab you want to see when opening the sessions list as admin.
+Selecciona la pestaña predeterminada que deseas ver al abrir la lista de sesiones como administrador.
 
-*Default: `all`*
-
+*Predeterminado: `all`*
 
 ### `drh_can_access_all_session_content`
 
-**HR directors access all session content**
+**Directores de recursos humanos acceden a todo el contenido de la sesión**
 
-If enabled, human resources directors will get access to all content and users from the sessions (s)he follows.
+Si está habilitado, los directores de recursos humanos tendrán acceso a todo el contenido y usuarios de las sesiones que sigan.
 
-*Default: `true`*
+*Predeterminado: `true`*
 
 ### `duplicate_specific_session_content_on_session_copy`
 
-**Enable the copy of session-specific content to another session**
+**Habilitar la copia de contenido específico de la sesión a otra sesión**
 
-Allows duplication of resources that were created in the session when duplicating the session.
+Permite la duplicación de recursos que fueron creados en la sesión al duplicar la sesión.
 
-*Default: `false`*
-
+*Predeterminado: `false`*
 
 ### `email_template_subscription_to_session_confirmation_lost_password`
 
-**Add reset password link to e-mail notification of subscription to session**
+**Añadir enlace de restablecimiento de contraseña a la notificación por correo electrónico de suscripción a la sesión**
 
-Include a password reset link in subscription confirmation emails sent to users when they are enrolled in a session.
+Incluye un enlace de restablecimiento de contraseña en los correos electrónicos de confirmación de suscripción enviados a los usuarios cuando se inscriben en una sesión.
 
-*Default: `false`*
-
+*Predeterminado: `false`*
 
 ### `email_template_subscription_to_session_confirmation_username`
 
-**Add username to e-mail notification of subscription to session**
+**Añadir nombre de usuario a la notificación por correo electrónico de suscripción a la sesión**
 
-Include the user's username in subscription confirmation emails sent when they are enrolled in a session.
+Incluye el nombre de usuario del usuario en los correos electrónicos de confirmación de suscripción enviados cuando se inscriben en una sesión.
 
-*Default: `false`*
-
+*Predeterminado: `false`*
 
 ### `enable_auto_reinscription`
 
-**Enable Automatic Reinscription**
+**Habilitar reinscripción automática**
 
-Enable or disable automatic reinscription when course validity expires. The related cron job must also be activated.
+Habilita o deshabilita la reinscripción automática cuando la validez del curso expira. También debe activarse el trabajo cron relacionado.
 
-*Default: `false`*
-
+*Predeterminado: `false`*
 
 ### `enable_session_replication`
 
-**Enable Session Replication**
+**Habilitar replicación de sesiones**
 
-Enable or disable automatic session replication. The related cron job must also be activated.
+Habilita o deshabilita la replicación automática de sesiones. También debe activarse el trabajo cron relacionado.
 
-*Default: `false`*
-
+*Predeterminado: `false`*
 
 ### `extend_rights_for_coach`
 
-**Extend rights for coach**
+**Ampliar derechos para el entrenador**
 
-Activate this option will give the coach the same permissions as the trainer on authoring tools
+Activar esta opción otorgará al entrenador los mismos permisos que al formador en las herramientas de autoría.
 
-*Default: `false`*
+*Predeterminado: `false`*
 
 ### `hide_courses_in_sessions`
 
-**Hide courses list in sessions**
+**Ocultar lista de cursos en sesiones**
 
-When showing the session block in your courses page, hide the list of courses inside that session (only show them inside the specific session screen).
+Al mostrar el bloque de sesión en tu página de cursos, oculta la lista de cursos dentro de esa sesión (solo muéstralos dentro de la pantalla específica de la sesión).
 
-*Default: `false`*
+*Predeterminado: `false`*
 
 ### `hide_reporting_session_list`
 
-**Hide sessions list in reporting tool**
+**Ocultar lista de sesiones en la herramienta de informes**
 
-Sessions that include the course are listed in the reporting tool inside the course itself, which can add considerable weight if the same course is used in hundreds of sessions. This option removes that list.
+Las sesiones que incluyen el curso se enumeran en la herramienta de informes dentro del propio curso, lo que puede añadir un peso considerable si el mismo curso se usa en cientos de sesiones. Esta opción elimina esa lista.
 
-*Default: `false`*
-
+*Predeterminado: `false`*
 
 ### `hide_search_form_in_session_list`
 
-**Hide search form in sessions list**
+**Ocultar formulario de búsqueda en la lista de sesiones**
 
-Remove the search input field from the session list view in the administration interface.
+Elimina el campo de entrada de búsqueda de la vista de lista de sesiones en la interfaz de administración.
 
-*Default: `false`*
-
+*Predeterminado: `false`*
 
 ### `hide_session_graph_in_my_progress`
 
-**Hide session chart in My progress**
+**Ocultar gráfico de sesión en Mi progreso**
 
-Conceal session progress charts and visualizations from the My progress page in learner dashboards.
+Oculta los gráficos y visualizaciones de progreso de la sesión en la página de Mi progreso en los paneles de control de los estudiantes.
 
-*Default: `false`*
-
+*Predeterminado: `false`*
 
 ### `hide_tab_list`
 
-**Hide tabs on the session page**
+**Ocultar pestañas en la página de la sesión**
 
-Remove navigation tabs from the session detail page to simplify the interface.
+Elimina las pestañas de navegación de la página de detalles de la sesión para simplificar la interfaz.
 
 ### `limit_session_admin_list_users`
 
-**Session admins are forbidden access to the users list**
+**Los administradores de sesión tienen prohibido acceder a la lista de usuarios**
 
-Prevent session administrators from accessing the global users list in the administration interface.
+Impide que los administradores de sesión accedan a la lista global de usuarios en la interfaz de administración.
 
-*Default: `false`*
-
+*Predeterminado: `false`*
 
 ### `limit_session_admin_role`
 
-**Limit session admins permissions**
+**Limitar permisos de los administradores de sesión**
 
-If enabled, the session administrators will only see the User block with the 'Add user' option and the Sessions block with the 'Sessions list' option.
+Si está habilitado, los administradores de sesión solo verán el bloque de Usuarios con la opción 'Añadir usuario' y el bloque de Sesiones con la opción 'Lista de sesiones'.
 
-*Default: `false`*
+*Predeterminado: `false`*
 
 ### `my_courses_session_order`
 
-**Change the default sorting of session in My sessions**
+**Cambiar el ordenamiento predeterminado de sesiones en Mis sesiones**
 
-By default, sessions are ordered by start date. Change this by providing an array of type ['field' => 'end_date', 'order' => 'desc'].
+Por defecto, las sesiones se ordenan por fecha de inicio. Cambia esto proporcionando un arreglo del tipo ['field' => 'end_date', 'order' => 'desc'].
 
 ### `my_courses_view_by_session`
 
-**View my courses by session**
+**Ver mis cursos por sesión**
 
-Enable an additional 'My courses' page where sessions appear as part of courses, rather than the opposite.
+Habilita una página adicional de 'Mis cursos' donde las sesiones aparecen como parte de los cursos, en lugar de lo contrario.
 
-*Default: `false`*
+*Predeterminado: `false`*
 
 ### `my_progress_session_show_all_courses`
 
-**My progress: show course details in session**
+**Mi progreso: mostrar detalles del curso en la sesión**
 
-Display all details of each course in session when clicking on session details.
+Muestra todos los detalles de cada curso en la sesión al hacer clic en los detalles de la sesión.
 
-*Default: `false`*
-
+*Predeterminado: `false`*
 
 ### `prevent_session_admins_to_manage_all_users`
 
-**Prevent session admins to manage all users**
+**Impedir que los administradores de sesión gestionen a todos los usuarios**
 
-By enabling this option, session admins will only be able to see, in the administration page, the users they created.
+Al habilitar esta opción, los administradores de sesión solo podrán ver, en la página de administración, los usuarios que ellos crearon.
 
-*Default: `false`*
+*Predeterminado: `false`*
 
+---
 ### `remove_session_url`
 
-**Hide link to session page**
+**Ocultar enlace a la página de sesión**
 
-Hide link to the session page from the sessions list.
+Oculta el enlace a la página de sesión en la lista de sesiones.
 
-*Default: `false`*
-
+*Predeterminado: `false`*
 
 ### `session_admins_access_all_content`
 
-**Session admins can access all course content**
+**Los administradores de sesión pueden acceder a todo el contenido del curso**
 
-Session administrators can view all course content within their sessions, including restricted or archived materials.
+Los administradores de sesión pueden ver todo el contenido del curso dentro de sus sesiones, incluidos los materiales restringidos o archivados.
 
-*Default: `false`*
+*Predeterminado: `false`*
 
 ### `session_admins_edit_courses_content`
 
-**Session admins can edit course content**
+**Los administradores de sesión pueden editar el contenido del curso**
 
-Session administrators can modify course content (documents, exercises, tools) in courses assigned to their sessions.
+Los administradores de sesión pueden modificar el contenido del curso (documentos, ejercicios, herramientas) en los cursos asignados a sus sesiones.
 
-*Default: `false`*
+*Predeterminado: `false`*
 
 ### `session_automatic_creation_user_id`
 
-**Auto-created session's creator ID**
+**ID del creador de sesiones creadas automáticamente**
 
-Set the user to use as creator of the automatically-created sessions (to avoid assigning every session to user '1' which is often the portal administrator).
+Establece el usuario que se utilizará como creador de las sesiones creadas automáticamente (para evitar asignar todas las sesiones al usuario '1', que a menudo es el administrador del portal).
 
-*Default: `1`*
-
+*Predeterminado: `1`*
 
 ### `session_classes_tab_disable`
 
-**Disable add class in session course for non-admin**
+**Desactivar la pestaña de agregar clase en el curso de sesión para no administradores**
 
-Disable tab to add classes in session course for non-admins.
+Desactiva la pestaña para agregar clases en el curso de sesión para usuarios que no sean administradores.
 
-*Default: `false`*
-
+*Predeterminado: `false`*
 
 ### `session_coach_access_after_duration_end`
 
-**Sessions by duration always available to coaches**
+**Sesiones por duración siempre disponibles para los tutores**
 
-Otherwise, session coaches only have access to sessions by duration during the active duration.
+De lo contrario, los tutores de sesión solo tienen acceso a las sesiones por duración durante el período activo.
 
-*Default: `false`*
-
+*Predeterminado: `false`*
 
 ### `session_course_ordering`
 
-**Session courses manual ordering**
+**Ordenamiento manual de cursos en sesión**
 
-Enable this option to allow the session administrators to order the courses inside a session manually. If disabled, courses are ordered alphabetically on course title.
+Habilita esta opción para permitir a los administradores de sesión ordenar manualmente los cursos dentro de una sesión. Si está desactivada, los cursos se ordenan alfabéticamente por título.
 
-*Default: `false`*
+*Predeterminado: `false`*
 
 ### `session_course_users_subscription_limited_to_session_users`
 
-**Limit subscriptions to course to only users of the session**
+**Limitar suscripciones al curso solo a usuarios de la sesión**
 
-Restrict the list of students to subscribe in the course session. And disable registration for users in all courses from Resume Session page.
+Restringe la lista de estudiantes que pueden suscribirse en la sesión del curso. Y desactiva el registro de usuarios en todos los cursos desde la página de Resumen de Sesión.
 
-*Default: `false`*
-
+*Predeterminado: `false`*
 
 ### `session_courses_read_only_mode`
 
-**Set course read-only in session**
+**Establecer curso en modo de solo lectura en sesión**
 
-Let teachers set some courses in read-only mode when opened through sessions. In the course properties, check the 'Lock course in session' option.
+Permite a los profesores establecer algunos cursos en modo de solo lectura cuando se abren a través de sesiones. En las propiedades del curso, marca la opción 'Bloquear curso en sesión'.
 
-*Default: `false`*
-
+*Predeterminado: `false`*
 
 ### `session_creation_form_set_extra_fields_mandatory`
 
-**Set mandatory extra fields in session creation form**
+**Establecer campos adicionales obligatorios en el formulario de creación de sesión**
 
-Require the listed fields during session creation.
+Requiere los campos listados durante la creación de la sesión.
 
 ### `session_creation_user_course_extra_field_relation_to_prefill`
 
-**Pre-fill session fields with user fields**
+**Rellenar previamente campos de sesión con campos de usuario**
 
-Array of relationships between user extra fields and session extra fields, so the session can be pre-filled with data matching the user's data.
+Arreglo de relaciones entre campos adicionales de usuario y campos adicionales de sesión, para que la sesión pueda ser rellenada previamente con datos que coincidan con los del usuario.
 
 ### `session_days_after_coach_access`
 
-**Default coach access days after session**
+**Días de acceso predeterminados para tutores después de la sesión**
 
-Default number of days a coach can access his session after the official session end date
+Número predeterminado de días que un tutor puede acceder a su sesión después de la fecha oficial de finalización de la sesión.
 
 ### `session_days_before_coach_access`
 
-**Default coach access days before session**
+**Días de acceso predeterminados para tutores antes de la sesión**
 
-Default number of days a coach can access his session before the official session start date
+Número predeterminado de días que un tutor puede acceder a su sesión antes de la fecha oficial de inicio de la sesión.
 
 ### `session_import_settings`
 
-**Options for session import**
+**Opciones para la importación de sesiones**
 
-Array of options to apply as default parameters in the CSV/XML session import.
+Arreglo de opciones para aplicar como parámetros predeterminados en la importación de sesiones CSV/XML.
 
 ### `session_list_order`
 
-**Sessions support manual sorting**
+**Las sesiones admiten ordenamiento manual**
 
-Enable manual reordering of sessions in the administration session list via drag-and-drop or similar mechanism.
+Habilita el reordenamiento manual de sesiones en la lista de administración de sesiones mediante arrastrar y soltar o un mecanismo similar.
 
-*Default: `false`*
-
+*Predeterminado: `false`*
 
 ### `session_list_show_count_users`
 
-**Show number of users in sessions list**
+**Mostrar número de usuarios en la lista de sesiones**
 
-The admin can see the number of users in each session. This adds additional weight to the sessions list, so if you use it often, consider carefully whether you want the extra waiting time.
+El administrador puede ver el número de usuarios en cada sesión. Esto agrega peso adicional a la lista de sesiones, por lo que si la usas con frecuencia, considera cuidadosamente si deseas el tiempo de espera adicional.
 
-*Default: `false`*
-
+*Predeterminado: `false`*
 
 ### `session_list_view_remaining_days`
 
-**Show remaining days in My Sessions**
+**Mostrar días restantes en Mis Sesiones**
 
-If enabled, the session dates on the "My Sessions" page will be replaced by the number of remaining days.
+Si está habilitado, las fechas de la sesión en la página "Mis Sesiones" serán reemplazadas por el número de días restantes.
 
-*Default: `false`*
+*Predeterminado: `false`*
 
 ### `session_model_list_field_ordered_by_id`
 
-**Sort session templates by id in session creation form**
+**Ordenar plantillas de sesión por ID en el formulario de creación de sesión**
 
-[inferred] Sort session templates by their numeric ID in the session creation form dropdown instead of alphabetically by name.
+Ordena las plantillas de sesión por su ID numérico en el menú desplegable del formulario de creación de sesión en lugar de alfabéticamente por nombre.
 
-*Default: `false`*
-
+*Predeterminado: `false`*
 
 ### `session_multiple_subscription_students_list_avoid_emptying`
 
-**Prevent emptying the subscribed users in session subscription**
+**Evitar vaciar los usuarios suscritos en la suscripción de sesión**
 
-When using the multiple learners subscription to a session, prevent the normal behaviour which is to unsubscribe users who are not in the right panel when clicking submit. Keep all users there.
+Cuando se utiliza la suscripción múltiple de estudiantes a una sesión, evita el comportamiento normal que consiste en desuscribir a los usuarios que no están en el panel derecho al hacer clic en enviar. Mantiene a todos los usuarios allí.
 
-*Default: `false`*
-
+*Predeterminado: `false`*
 
 ### `show_all_sessions_on_my_course_page`
 
-**Show all sessions on 'My courses' page**
+**Mostrar todas las sesiones en la página 'Mis cursos'**
 
-If enabled, this option show all sessions of the user in calendar-based view.
+Si está habilitada, esta opción muestra todas las sesiones del usuario en una vista basada en calendario.
 
-*Default: `true`*
-
+*Predeterminado: `true`*
 
 ### `show_session_coach`
 
-**Show session coach**
+**Mostrar tutor de sesión**
 
-Show the global session coach name in session title box in the courses list
+Muestra el nombre del tutor global de la sesión en el cuadro de título de la sesión en la lista de cursos.
 
-*Default: `false`*
+*Predeterminado: `false`*
 
 ### `show_session_data`
 
-**Show session data title**
+**Mostrar título de datos de sesión**
 
-Show session data comment
+Muestra el comentario de datos de sesión.
 
-*Default: `false`*
+*Predeterminado: `false`*
 
 ### `show_session_description`
 
-**Show session description**
+**Mostrar descripción de sesión**
 
-Show the session description wherever this option is implemented (sessions tracking pages, etc)
+Muestra la descripción de la sesión dondequiera que esta opción esté implementada (páginas de seguimiento de sesiones, etc.).
 
-*Default: `false`*
+*Predeterminado: `false`*
 
+---
 ### `show_simple_session_info`
 
-**Show simple session info**
+**Mostrar información simple de la sesión**
 
-Add coach and dates to the session's subtitle in the sessions' list.
+Añade el nombre del tutor y las fechas al subtítulo de la sesión en la lista de sesiones.
 
-*Default: `true`*
+*Predeterminado: `true`*
 
 
 ### `show_users_in_active_sessions_in_tracking`
 
-**Only display users from active sessions in tracking**
+**Mostrar solo usuarios de sesiones activas en el seguimiento**
 
-Display only users from currently active sessions in learner tracking and reporting views.
+Muestra únicamente a los usuarios de sesiones actualmente activas en las vistas de seguimiento y reportes de aprendices.
 
-*Default: `false`*
+*Predeterminado: `false`*
 
 
 ### `tracking_columns`
 
-**Customize course-session tracking columns**
+**Personalizar columnas de seguimiento de curso-sesión**
 
-Define an array of columns for the following reports: 'course_session', 'my_students_lp', 'my_progress_lp', 'my_progress_courses'.
+Define un arreglo de columnas para los siguientes informes: 'course_session', 'my_students_lp', 'my_progress_lp', 'my_progress_courses'.
 
 ### `user_s_session_duration`
 
-**Auto-created sessions duration**
+**Duración de sesiones creadas automáticamente**
 
-Duration (in days) of the single-user, auto-created sessions. After expiry, the user cannot register to the same course (no other session is created).
+Duración (en días) de las sesiones creadas automáticamente para un solo usuario. Después de la expiración, el usuario no puede registrarse en el mismo curso (no se crea otra sesión).
 
-*Default: `1095`*
+*Predeterminado: `1095`*
 
 
 ### `user_session_display_mode`
 
-**My Sessions display mode**
+**Modo de visualización de Mis Sesiones**
 
-Choose how the "My Sessions" page is displayed: as a modern visual block (card) view or the classic list style.
+Elige cómo se muestra la página de "Mis Sesiones": como una vista de bloques visuales modernos (tarjetas) o el estilo clásico de lista.
 
-*Default: `list`*
+*Predeterminado: `list`*

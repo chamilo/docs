@@ -1,36 +1,36 @@
-# Glossary
+# Glosario
 
-The glossary tool lets you define key terms for your course. Learners can browse the glossary to look up definitions while studying.
+La herramienta de glosario te permite definir términos clave para tu curso. Los estudiantes pueden consultar el glosario para buscar definiciones mientras estudian.
 
-## Adding a Term
+## Añadir un Término
 
-1. Open the **Glossary** <img src="/.gitbook/assets/icons/mdi-alphabetical.svg" alt="Glossary" data-size="line"> tool from the course homepage
-2. Click **Add new glossary term**
-3. Enter the **term** and its **definition** (the definition supports rich text formatting)
-4. Save
+1. Abre la herramienta **Glosario** <img src="/.gitbook/assets/icons/mdi-alphabetical.svg" alt="Glosario" data-size="line"> desde la página principal del curso
+2. Haz clic en **Añadir nuevo término al glosario**
+3. Ingresa el **término** y su **definición** (la definición admite formato de texto enriquecido)
+4. Guarda
 
-## Managing Terms
+## Gestionar Términos
 
-* **Edit** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Edit" data-size="line"> — Update a term or its definition
-* **Delete** <img src="/.gitbook/assets/icons/mdi-delete.svg" alt="Delete" data-size="line"> — Remove a term from the glossary
-* **Search** <img src="/.gitbook/assets/icons/mdi-magnify.svg" alt="Search" data-size="line"> — Use the search function to find specific terms quickly
+* **Editar** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Editar" data-size="line"> — Actualiza un término o su definición
+* **Eliminar** <img src="/.gitbook/assets/icons/mdi-delete.svg" alt="Eliminar" data-size="line"> — Borra un término del glosario
+* **Buscar** <img src="/.gitbook/assets/icons/mdi-magnify.svg" alt="Buscar" data-size="line"> — Usa la función de búsqueda para encontrar términos específicos rápidamente
 
-## Importing and Exporting
+## Importar y Exportar
 
-You can build your glossary faster using import/export:
+Puedes construir tu glosario más rápido utilizando las funciones de importación/exportación:
 
-* **Import** <img src="/.gitbook/assets/icons/mdi-database-import-outline.svg" alt="Import" data-size="line"> — Upload a list of terms and definitions from a CSV or XLS file. You can also tick "Update existing terms" to overwrite definitions for terms that are already in the glossary.
-* **Export** <img src="/.gitbook/assets/icons/mdi-file-export.svg" alt="Export" data-size="line"> — Download the glossary as CSV, Excel (XLS), or PDF for use in another course or for offline reference
+* **Importar** <img src="/.gitbook/assets/icons/mdi-database-import-outline.svg" alt="Importar" data-size="line"> — Sube una lista de términos y definiciones desde un archivo CSV o XLS. También puedes marcar "Actualizar términos existentes" para sobrescribir las definiciones de términos que ya están en el glosario.
+* **Exportar** <img src="/.gitbook/assets/icons/mdi-file-export.svg" alt="Exportar" data-size="line"> — Descarga el glosario como CSV, Excel (XLS) o PDF para usarlo en otro curso o como referencia offline
 
-## Display Options
+## Opciones de Visualización
 
-The glossary can be displayed in two formats, toggled from the toolbar:
+El glosario puede mostrarse en dos formatos, que se pueden alternar desde la barra de herramientas:
 
-* **Table view** — Terms listed in a table with their definitions
-* **List view** — Terms shown as individual panels stacked one after another
+* **Vista de tabla** — Términos listados en una tabla con sus definiciones
+* **Vista de lista** — Términos mostrados como paneles individuales apilados uno tras otro
 
-## Tips
+## Consejos
 
-* **Build it progressively** — Add terms as you introduce them in your course, rather than all at once
-* **Keep definitions concise** — Short, clear definitions are more useful than lengthy explanations
-* **Link from learning paths** — Reference glossary terms from your learning path content to encourage learners to use the glossary
+* **Constrúyelo progresivamente** — Añade términos a medida que los introduces en tu curso, en lugar de todos a la vez
+* **Mantén las definiciones concisas** — Definiciones cortas y claras son más útiles que explicaciones extensas
+* **Enlaza desde rutas de aprendizaje** — Referencia términos del glosario desde el contenido de tus rutas de aprendizaje para animar a los estudiantes a usar el glosario

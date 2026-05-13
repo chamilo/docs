@@ -1,31 +1,31 @@
-# Teacher Guide
+# Guía para Profesores
 
-Welcome to the Chamilo 2.0 Teacher Guide. This guide is designed for instructors, trainers, and anyone responsible for creating and delivering learning content through the Chamilo platform.
+Bienvenido a la Guía para Profesores de Chamilo 2.0. Esta guía está diseñada para instructores, formadores y cualquier persona responsable de crear y ofrecer contenido de aprendizaje a través de la plataforma Chamilo.
 
-Whether you are setting up your first online course or managing a complex training program, this guide will walk you through every feature available to you as a teacher.
+Ya sea que estés configurando tu primer curso en línea o gestionando un programa de formación complejo, esta guía te acompañará a través de cada funcionalidad disponible para ti como profesor.
 
-## What You Can Do with Chamilo
+## Qué Puedes Hacer con Chamilo
 
-As a teacher in Chamilo, you can:
+Como profesor en Chamilo, puedes:
 
-* **Create and organize courses** with a flexible homepage and customizable tools
-* **Add content** — upload documents, create learning paths, build glossaries, and link to external resources
-* **Assess your learners** — design exercises with multiple question types, collect assignments, run surveys, and manage grades
-* **Collaborate** — set up forums, group work, wikis, blogs, and live video sessions
-* **Track progress** — monitor learner activity, generate reports, and award certificates
-* **Use AI tools** — generate exercises and learning paths automatically, and get AI-assisted grading
+* **Crear y organizar cursos** con una página de inicio flexible y herramientas personalizables
+* **Agregar contenido** — subir documentos, crear rutas de aprendizaje, construir glosarios y enlazar a recursos externos
+* **Evaluar a tus estudiantes** — diseñar ejercicios con múltiples tipos de preguntas, recoger tareas, realizar encuestas y gestionar calificaciones
+* **Colaborar** — configurar foros, trabajos en grupo, wikis, blogs y sesiones de video en vivo
+* **Seguimiento del progreso** — monitorear la actividad de los estudiantes, generar informes y otorgar certificados
+* **Usar herramientas de IA** — generar ejercicios y rutas de aprendizaje automáticamente, y obtener calificaciones asistidas por IA
 
-## How This Guide Is Organized
+## Cómo Está Organizada Esta Guía
 
-This guide follows the natural workflow of building and running a course:
+Esta guía sigue el flujo de trabajo natural para construir y gestionar un curso:
 
-1. **Getting Started** — Log in, navigate the interface, and set up your profile
-2. **Creating Your Course** — Create a new course, configure its settings, and customize the homepage
-3. **Adding Content** — Upload documents, organize learning paths, and manage resources
-4. **Assessing Learners** — Build tests, collect assignments, run surveys, and set up the gradebook
-5. **Collaboration and Communication** — Enable forums, chat, groups, wiki, and video conferencing
-6. **Tracking and Reporting** — Monitor learner progress and generate reports
-7. **AI Tools** — Use AI-powered features to generate content and assist with grading
-8. **Additional Tools** — Agenda, notebook, portfolio, and more
+1. **Primeros Pasos** — Iniciar sesión, navegar por la interfaz y configurar tu perfil
+2. **Crear Tu Curso** — Crear un nuevo curso, configurar sus ajustes y personalizar la página de inicio
+3. **Agregar Contenido** — Subir documentos, organizar rutas de aprendizaje y gestionar recursos
+4. **Evaluar a los Estudiantes** — Construir pruebas, recoger tareas, realizar encuestas y configurar el libro de calificaciones
+5. **Colaboración y Comunicación** — Habilitar foros, chat, grupos, wiki y videoconferencias
+6. **Seguimiento e Informes** — Monitorear el progreso de los estudiantes y generar informes
+7. **Herramientas de IA** — Utilizar funciones impulsadas por IA para generar contenido y asistir en la calificación
+8. **Herramientas Adicionales** — Agenda, cuaderno, portafolio y más
 
-Let's get started.
+Comencemos.

@@ -1,30 +1,30 @@
-# Build System
+# Sistema de Construcción
 
-Chamilo uses **Webpack 5** via **Symfony Webpack Encore** for building frontend assets. The full build configuration is in `webpack.config.js` at the project root.
+Chamilo utiliza **Webpack 5** a través de **Symfony Webpack Encore** para construir los activos del frontend. La configuración completa de construcción se encuentra en `webpack.config.js` en la raíz del proyecto.
 
-Output is written to `public/build/`, served under the `/build` public path.
+La salida se escribe en `public/build/`, servida bajo la ruta pública `/build`.
 
-## Entry Points
+## Puntos de Entrada
 
 ### JavaScript
 
-| Entry | Source | Purpose |
-|-------|--------|---------|
-| `vue` | `assets/vue/main.js` | Main Vue 3 application |
-| `vue_installer` | `assets/vue/main_installer.js` | Installation wizard |
-| `legacy_app` | `assets/js/legacy/app.js` | Legacy JavaScript |
-| `legacy_exercise` | `assets/js/legacy/exercise.js` | Exercise player |
-| `legacy_lp` | `assets/js/legacy/lp.js` | Learning path player |
-| `legacy_document` | `assets/js/legacy/document.js` | Document viewer |
-| `legacy_free-jqgrid` | `assets/js/legacy/free-jqgrid.js` | Legacy grid widget |
-| `legacy_framereadyloader` | `assets/js/legacy/frameReadyLoader.js` | Frame-ready loader for legacy iframes |
-| `translatehtml` | `assets/js/translatehtml.js` | HTML translation helper |
-| `glossary_auto` | `assets/js/glossary-auto.js` | Automatic glossary term highlighting |
+| Entrada | Fuente | Propósito |
+|---------|--------|-----------|
+| `vue` | `assets/vue/main.js` | Aplicación principal de Vue 3 |
+| `vue_installer` | `assets/vue/main_installer.js` | Asistente de instalación |
+| `legacy_app` | `assets/js/legacy/app.js` | JavaScript heredado |
+| `legacy_exercise` | `assets/js/legacy/exercise.js` | Reproductor de ejercicios |
+| `legacy_lp` | `assets/js/legacy/lp.js` | Reproductor de rutas de aprendizaje |
+| `legacy_document` | `assets/js/legacy/document.js` | Visor de documentos |
+| `legacy_free-jqgrid` | `assets/js/legacy/free-jqgrid.js` | Widget de cuadrícula heredado |
+| `legacy_framereadyloader` | `assets/js/legacy/frameReadyLoader.js` | Cargador de frames listos para iframes heredados |
+| `translatehtml` | `assets/js/translatehtml.js` | Ayudante de traducción de HTML |
+| `glossary_auto` | `assets/js/glossary-auto.js` | Resaltado automático de términos de glosario |
 
 ### CSS
 
-| Entry | Source |
-|-------|--------|
+| Entrada | Fuente |
+|---------|--------|
 | `app` | `assets/css/app.scss` |
 | `css/chat` | `assets/css/chat.scss` |
 | `css/document` | `assets/css/document.scss` |
@@ -35,31 +35,31 @@ Output is written to `public/build/`, served under the `/build` public path.
 | `css/responsive` | `assets/css/responsive.scss` |
 | `css/scorm` | `assets/css/scorm.scss` |
 
-## Build Features
+## Características de Construcción
 
-* **Vue 3 SFC** — `.vue` single file components compiled by `vue-loader`; runtime compiler is disabled (`runtimeCompilerBuild: false`), so all templates must be pre-compiled
-* **TypeScript** — Transpile-only mode (`transpileOnly: true`) for fast builds, no type-checking during build
-* **Sass/SCSS** — Full SCSS support via `sass-loader`
-* **Tailwind CSS** — Utility-first CSS processed inline via PostCSS (configured inside `webpack.config.js`; there is no separate `postcss.config.js`)
-* **Babel** — ES6+ transpilation with `@babel/preset-env` and `core-js@3` polyfills (`useBuiltIns: "usage"`)
-* **jQuery auto-provision** — `autoProvidejQuery()` makes `$` and `jQuery` available globally without explicit imports, supporting legacy code
-* **Source maps** — Enabled in development only
-* **Single runtime chunk** — Shared runtime for all entries
-* **Filesystem cache** — Webpack's persistent filesystem cache is enabled to speed up incremental rebuilds
-* **Chunk namespacing** — `output.uniqueName` and `output.chunkLoadingGlobal` are set to `"chamilo"` / `"webpackChunkChamilo"` to avoid chunk-loading collisions when multiple Webpack bundles coexist on a page
+* **Vue 3 SFC** — Componentes de archivo único `.vue` compilados por `vue-loader`; el compilador en tiempo de ejecución está deshabilitado (`runtimeCompilerBuild: false`), por lo que todas las plantillas deben estar precompiladas
+* **TypeScript** — Modo de solo transpilación (`transpileOnly: true`) para construcciones rápidas, sin verificación de tipos durante la construcción
+* **Sass/SCSS** — Soporte completo para SCSS a través de `sass-loader`
+* **Tailwind CSS** — CSS basado en utilidades procesado en línea mediante PostCSS (configurado dentro de `webpack.config.js`; no hay un archivo separado `postcss.config.js`)
+* **Babel** — Transpilación de ES6+ con `@babel/preset-env` y polyfills de `core-js@3` (`useBuiltIns: "usage"`)
+* **jQuery auto-provision** — `autoProvidejQuery()` hace que `$` y `jQuery` estén disponibles globalmente sin importaciones explícitas, soportando código heredado
+* **Source maps** — Habilitados solo en desarrollo
+* **Single runtime chunk** — Runtime compartido para todas las entradas
+* **Filesystem cache** — La caché persistente del sistema de archivos de Webpack está habilitada para acelerar las reconstrucciones incrementales
+* **Chunk namespacing** — `output.uniqueName` y `output.chunkLoadingGlobal` están configurados como `"chamilo"` / `"webpackChunkChamilo"` para evitar colisiones de carga de fragmentos cuando múltiples paquetes de Webpack coexisten en una página
 
-## Production-Only Features
+## Características Solo para Producción
 
-* **Versioning** — Content-hash suffixes on all output filenames (`enableVersioning()`)
-* **Subresource Integrity** — `integrity` attributes on `<script>` and `<link>` tags (`enableIntegrityHashes()`)
-* **Output cleanup** — `public/build/` is wiped before each production build
+* **Versionado** — Sufijos de hash de contenido en todos los nombres de archivo de salida (`enableVersioning()`)
+* **Integridad de Subrecursos** — Atributos `integrity` en etiquetas `<script>` y `<link>` (`enableIntegrityHashes()`)
+* **Limpieza de Salida** — `public/build/` se borra antes de cada construcción de producción
 
-### Unhashed asset copies (`CopyUnhashedAssetsPlugin`)
+### Copias de activos sin hash (`CopyUnhashedAssetsPlugin`)
 
-Some legacy PHP pages reference assets by a fixed filename and cannot use the Webpack manifest. A custom `CopyUnhashedAssetsPlugin` (defined at the bottom of `webpack.config.js`) copies certain hashed production files to an additional unhashed path after each build:
+Algunas páginas PHP heredadas hacen referencia a activos por un nombre de archivo fijo y no pueden usar el manifiesto de Webpack. Un complemento personalizado `CopyUnhashedAssetsPlugin` (definido al final de `webpack.config.js`) copia ciertos archivos de producción con hash a una ruta adicional sin hash después de cada construcción:
 
-| Hashed file | Unhashed copy |
-|-------------|--------------|
+| Archivo con hash | Copia sin hash |
+|------------------|----------------|
 | `legacy_document.[hash].js` | `legacy_document.js` |
 | `legacy_exercise.[hash].js` | `legacy_exercise.js` |
 | `legacy_framereadyloader.[hash].js` / `.css` | `legacy_framereadyloader.js` / `.css` |
@@ -67,9 +67,9 @@ Some legacy PHP pages reference assets by a fixed filename and cannot use the We
 | `css/editor_content.[hash].css` | `css/editor_content.css` |
 | `glossary_auto.[hash].js` | `glossary_auto.js` |
 
-## Copied Library Assets
+## Activos de Bibliotecas Copiados
 
-`copyFiles()` copies a number of npm packages directly into `public/build/libs/` without bundling them, for use via `<script>` / `<link>` tags in legacy templates:
+`copyFiles()` copia una serie de paquetes npm directamente a `public/build/libs/` sin empaquetarlos, para su uso mediante etiquetas `<script>` / `<link>` en plantillas heredadas:
 
 * `flatpickr` (JS + CSS + locales)
 * `chart.js`
@@ -82,27 +82,28 @@ Some legacy PHP pages reference assets by a fixed filename and cannot use the We
 * `pwstrength-bootstrap`
 * `multiselect-two-sides`
 
-## Build Commands
+## Comandos de Construcción
 
 ```bash
-# Development build
+# Construcción de desarrollo
 yarn encore dev
 
-# Development build with file watching
+# Construcción de desarrollo con observación de archivos
 yarn encore dev --watch
 
-# Production build (minified, versioned, integrity hashes)
+# Construcción de producción (minificado, versionado, hashes de integridad)
 yarn encore production
 ```
 
-## Tailwind Configuration
+---
+## Configuración de Tailwind
 
-Tailwind is configured in `tailwind.config.js`. Key points:
+Tailwind está configurado en `tailwind.config.js`. Puntos clave:
 
-* **`important: true`** — All generated utilities include `!important`, allowing them to override PrimeVue component styles without extra specificity tricks
-* **Content paths** — Tailwind scans `assets/**/*.{js,vue}`, `public/main/**/*.{php,twig,tpl}`, `public/plugin/**/*.{php,twig,tpl}`, and `src/CoreBundle/Resources/views/**/*.html.twig` for class usage
-* **CSS-variable color system** — Every color token (primary, secondary, tertiary, success, info, warning, danger) is backed by a CSS custom property (e.g. `--color-primary-base`) defined per theme in `var/themes/[theme-name]/colors.css`. Values are space-separated RGB channel triplets, enabling Tailwind opacity utilities (`bg-primary/50`)
-* **Custom font scale** — `body-1`, `body-2`, `caption`, `tiny` size/line-height pairs are added via `theme.extend.fontSize`
-* **Plugins** — `@tailwindcss/forms` and `@tailwindcss/typography` are enabled
+* **`important: true`** — Todas las utilidades generadas incluyen `!important`, lo que les permite sobrescribir los estilos de los componentes de PrimeVue sin necesidad de trucos adicionales de especificidad
+* **Rutas de contenido** — Tailwind escanea `assets/**/*.{js,vue}`, `public/main/**/*.{php,twig,tpl}`, `public/plugin/**/*.{php,twig,tpl}` y `src/CoreBundle/Resources/views/**/*.html.twig` en busca de uso de clases
+* **Sistema de colores con variables CSS** — Cada token de color (primario, secundario, terciario, éxito, información, advertencia, peligro) está respaldado por una propiedad personalizada de CSS (por ejemplo, `--color-primary-base`) definida por tema en `var/themes/[theme-name]/colors.css`. Los valores son tripletas de canales RGB separadas por espacios, lo que habilita las utilidades de opacidad de Tailwind (`bg-primary/50`)
+* **Escala de fuente personalizada** — Se añaden pares de tamaño/altura de línea `body-1`, `body-2`, `caption`, `tiny` a través de `theme.extend.fontSize`
+* **Plugins** — `@tailwindcss/forms` y `@tailwindcss/typography` están habilitados
 
-PostCSS (Tailwind + Autoprefixer) is configured inline inside `webpack.config.js` via `enablePostCssLoader()` — there is no standalone `postcss.config.js` file.
+PostCSS (Tailwind + Autoprefixer) está configurado de manera inline dentro de `webpack.config.js` mediante `enablePostCssLoader()` — no existe un archivo independiente `postcss.config.js`.

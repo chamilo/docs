@@ -1,43 +1,43 @@
 # Agenda
 
-The agenda tool lets you schedule events and deadlines within your course. Events appear on a calendar that your learners can view.
+La herramienta de agenda le permite programar eventos y fechas límite dentro de su curso. Los eventos aparecen en un calendario que sus estudiantes pueden ver.
 
-## Viewing the Agenda
+## Visualización de la Agenda
 
-Open the **Agenda** <img src="/.gitbook/assets/icons/mdi-calendar-text.svg" alt="Agenda" data-size="line"> tool from the course homepage. You can view events in three modes:
+Abra la herramienta **Agenda** <img src="/.gitbook/assets/icons/mdi-calendar-text.svg" alt="Agenda" data-size="line"> desde la página principal del curso. Puede ver los eventos en tres modos:
 
-![The agenda in calendar view showing course events and deadlines](/.gitbook/assets/agenda-calendar-view.png)
+![La agenda en vista de calendario mostrando eventos y fechas límite del curso](/.gitbook/assets/agenda-calendar-view.png)
 
-* **Calendar view** — A visual monthly/weekly/daily calendar
-* **List view** — Events shown as a chronological list
-* **Personal events** — Filter to see only events relevant to you
+* **Vista de calendario** — Un calendario visual mensual/semanal/diario
+* **Vista de lista** — Eventos mostrados como una lista cronológica
+* **Eventos personales** — Filtrar para ver solo los eventos relevantes para usted
 
-## Creating an Event
+## Creación de un Evento
 
-1. Click **Add event** <img src="/.gitbook/assets/icons/mdi-calendar-plus.svg" alt="Add event" data-size="line">
-2. Fill in the event details:
-   * **Title** — A short name for the event
-   * **Start date and time**
-   * **End date and time**
-   * **Description** — Additional details (supports rich text)
-3. Choose the **audience**:
-   * **All learners** — Everyone enrolled in the course
-   * **Specific users or groups** — Select individual learners or groups
-4. Optionally set a **reminder** <img src="/.gitbook/assets/icons/mdi-alarm.svg" alt="Reminder" data-size="line"> to send email notifications before the event (*cron* setup for the portal required by an admin)
-5. Save
+1. Haga clic en **Agregar evento** <img src="/.gitbook/assets/icons/mdi-calendar-plus.svg" alt="Agregar evento" data-size="line">
+2. Complete los detalles del evento:
+   * **Título** — Un nombre corto para el evento
+   * **Fecha y hora de inicio**
+   * **Fecha y hora de finalización**
+   * **Descripción** — Detalles adicionales (admite texto enriquecido)
+3. Elija la **audiencia**:
+   * **Todos los estudiantes** — Todos los inscritos en el curso
+   * **Usuarios o grupos específicos** — Seleccione estudiantes o grupos individuales
+4. Opcionalmente, configure un **recordatorio** <img src="/.gitbook/assets/icons/mdi-alarm.svg" alt="Recordatorio" data-size="line"> para enviar notificaciones por correo electrónico antes del evento (se requiere configuración de *cron* para el portal por parte de un administrador)
+5. Guardar
 
-## Managing Events
+## Gestión de Eventos
 
-* **Edit** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Edit" data-size="line"> — Click on an event to modify its details
-* **Delete** <img src="/.gitbook/assets/icons/mdi-delete.svg" alt="Delete" data-size="line"> — Remove an event from the calendar
-* **Drag and drop** — In calendar view, drag events to reschedule them
+* **Editar** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Editar" data-size="line"> — Haga clic en un evento para modificar sus detalles
+* **Eliminar** <img src="/.gitbook/assets/icons/mdi-delete.svg" alt="Eliminar" data-size="line"> — Retire un evento del calendario
+* **Arrastrar y soltar** — En la vista de calendario, arrastre los eventos para reprogramarlos
 
-## Personal Agenda
+## Agenda Personal
 
-You also have a **personal agenda** accessible from the sidebar. The personal agenda aggregates events from all your courses into a single view. This is where learners see their combined schedule across all courses they are enrolled in.
+También tiene una **agenda personal** accesible desde la barra lateral. La agenda personal agrupa los eventos de todos sus cursos en una sola vista. Aquí es donde los estudiantes ven su horario combinado de todos los cursos en los que están inscritos.
 
-## Tips
+## Consejos
 
-* **Set deadlines** — Create events for assignment due dates and exercise deadlines so learners can see them in their calendar
-* **Use reminders** — Enable email reminders for important events to help learners stay on track
-* **Coordinate with sessions** — If you teach in multiple sessions, each session has its own events, visible only to that session's learners. Teachers have a feature to see the events (homeworks, excursions, etc) of other courses in their sessions to avoid overloading students.
+* **Establecer fechas límite** — Cree eventos para las fechas de entrega de tareas y plazos de ejercicios para que los estudiantes puedan verlos en su calendario
+* **Usar recordatorios** — Habilite recordatorios por correo electrónico para eventos importantes para ayudar a los estudiantes a mantenerse al día
+* **Coordinar con sesiones** — Si enseña en múltiples sesiones, cada sesión tiene sus propios eventos, visibles solo para los estudiantes de esa sesión. Los profesores tienen una función para ver los eventos (tareas, excursiones, etc.) de otros cursos en sus sesiones para evitar sobrecargar a los estudiantes.

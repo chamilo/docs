@@ -1,534 +1,531 @@
-# Exercises (Tests) Settings
+# Configuración de Ejercicios (Pruebas)
 
-Defaults and behaviour of the **Exercises (Tests)** tool — question display, scoring, attempts, and similar.
+Valores predeterminados y comportamiento de la herramienta **Ejercicios (Pruebas)** — visualización de preguntas, puntuación, intentos y similares.
 
-Access these settings under **Administration > Configuration settings > Exercises (Tests)**. This category contains **63 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+Acceda a estas configuraciones en **Administración > Configuraciones > Ejercicios (Pruebas)**. Esta categoría contiene **63 configuraciones**, listadas a continuación con el título y el comentario incluidos en los datos de configuración de la plataforma (`SettingsCurrentFixtures.php`).
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> El nombre de la variable en el código se muestra en monospace. Úselo cuando realice scripts a través de la API o cuando necesite cambiar estas configuraciones a nivel global editando [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
 
-## Settings
+## Configuraciones
 
 ### `add_exercise_best_attempt_in_report`
 
-**Enable display of best score attempt**
+**Habilitar la visualización del mejor intento de puntuación**
 
-Provide a list of courses and tests' IDs that will show the best score attempt for any learner in the reports.
+Proporcione una lista de identificadores de cursos y pruebas que mostrarán el mejor intento de puntuación para cualquier estudiante en los informes.
 
 ### `allow_coach_feedback_exercises`
 
-**Allow coaches to comment in review of exercises**
+**Permitir a los entrenadores comentar en la revisión de ejercicios**
 
-Allow coaches to edit feedback during review of exercises
+Permitir a los entrenadores editar comentarios durante la revisión de ejercicios.
 
-*Default: `true`*
+*Predeterminado: `true`*
 
 ### `allow_edit_exercise_in_lp`
 
-**Allow teachers to edit tests in learning paths**
+**Permitir a los profesores editar pruebas en rutas de aprendizaje**
 
-By default, Chamilo prevents you from editing tests that are included inside a learning path. This is to avoid changes that would affect learners (past and future) differently regarding the results and/or progress in the learning path. This option allows teachers to bypass this restriction.
-
+Por defecto, Chamilo impide editar pruebas que están incluidas dentro de una ruta de aprendizaje. Esto es para evitar cambios que afecten de manera diferente a los estudiantes (pasados y futuros) en cuanto a los resultados y/o el progreso en la ruta de aprendizaje. Esta opción permite a los profesores omitir esta restricción.
 
 ### `allow_exercise_categories`
 
-**Enable test categories**
+**Habilitar categorías de pruebas**
 
-Test categories are not enabled by default because they add a level of complexity. Enable this feature to show all test categories related management icons appear.
+Las categorías de pruebas no están habilitadas por defecto porque añaden un nivel de complejidad. Habilite esta función para que aparezcan todos los iconos de gestión relacionados con las categorías de pruebas.
 
-*Default: `false`*
+*Predeterminado: `false`*
 
 ### `allow_mandatory_question_in_category`
 
-**Enable selecting mandatory questions**
+**Habilitar la selección de preguntas obligatorias**
 
-Enable the selection of mandatory questions in a test when using random categories.
+Habilitar la selección de preguntas obligatorias en una prueba cuando se utilizan categorías aleatorias.
 
-*Default: `false`*
+*Predeterminado: `false`*
 
 ### `allow_notification_setting_per_exercise`
 
-**Test notification settings at test-level**
+**Configuraciones de notificación de pruebas a nivel de prueba**
 
-Enable the configuration of test submission notifications at the test level rather than the course level. Falls back to course-level settings if not defined at test-level.
+Habilitar la configuración de notificaciones de envío de pruebas a nivel de prueba en lugar de a nivel de curso. Si no se define a nivel de prueba, se recurre a las configuraciones a nivel de curso.
 
-*Default: `false`*
+*Predeterminado: `false`*
 
 ### `allow_quick_question_description_popup`
 
-**Quick image addition to question**
+**Adición rápida de imágenes a preguntas**
 
-Enable an additional icon in the test questions list to add an image as question description. This vastly accelerates question edition when the questions are in the title and the description only includes an image.
+Habilitar un icono adicional en la lista de preguntas de la prueba para añadir una imagen como descripción de la pregunta. Esto acelera enormemente la edición de preguntas cuando las preguntas están en el título y la descripción solo incluye una imagen.
 
-*Default: `false`*
+*Predeterminado: `false`*
 
 ### `allow_quiz_question_feedback`
 
-**Add question feedback if incorrect answer**
+**Añadir retroalimentación a la pregunta si la respuesta es incorrecta**
 
-By default, Chamilo allows you to show feedback on each answer in a question. With this option, an additional field is created to provide pre-defined feedback to the whole question. This feedback will only appear if the user answered incorrectly.
+Por defecto, Chamilo permite mostrar retroalimentación en cada respuesta de una pregunta. Con esta opción, se crea un campo adicional para proporcionar retroalimentación predefinida a toda la pregunta. Esta retroalimentación solo aparecerá si el usuario responde incorrectamente.
 
-*Default: `false`*
+*Predeterminado: `false`*
 
 ### `allow_quiz_results_page_config`
 
-**Enable test results page configuration**
+**Habilitar la configuración de la página de resultados de pruebas**
 
-Define an array of settings you want to apply to all tests results pages. Settings can be ‘hide_question_score’, ‘hide_expected_answer’, ‘hide_category_table’, ‘hide_correct_answered_questions’, ‘hide_total_score’ and possibly more in the future. Look for ‘getPageConfigurationAttribute’ in the code to see what’s in use.
+Defina un arreglo de configuraciones que desee aplicar a todas las páginas de resultados de pruebas. Las configuraciones pueden ser ‘hide_question_score’, ‘hide_expected_answer’, ‘hide_category_table’, ‘hide_correct_answered_questions’, ‘hide_total_score’ y posiblemente más en el futuro. Busque ‘getPageConfigurationAttribute’ en el código para ver qué se está utilizando.
 
-*Default: `false`*
+*Predeterminado: `false`*
 
 ### `allow_quiz_show_previous_button_setting`
 
-**Show 'previous' button in test to navigate questions**
+**Mostrar botón 'anterior' en la prueba para navegar por las preguntas**
 
-Set this to false to disable the 'previous' button when answering questions in a test, thus forcing users to always move ahead.
+Establezca esto en falso para deshabilitar el botón 'anterior' al responder preguntas en una prueba, obligando así a los usuarios a avanzar siempre.
 
-*Default: `false`*
+*Predeterminado: `false`*
 
 ### `allow_teacher_comment_audio`
 
-**Audio feedback to submitted answers**
+**Retroalimentación de audio para respuestas enviadas**
 
-Allow teachers to provide feedback to users through audio (alternatively to text) on each question in a test.
+Permitir a los profesores proporcionar retroalimentación a los usuarios a través de audio (alternativamente al texto) en cada pregunta de una prueba.
 
-*Default: `true`*
+*Predeterminado: `true`*
 
 ### `allow_time_per_question`
 
-**Enable time per question in tests**
+**Habilitar tiempo por pregunta en las pruebas**
 
-By default, it is only possible to limit the time per test. Limiting it per question adds an extra layer of possibilities, and you can (carefully) combine both.
+Por defecto, solo es posible limitar el tiempo por prueba. Limitarlo por pregunta añade una capa adicional de posibilidades, y puede (con cuidado) combinar ambos.
 
-*Default: `false`*
+*Predeterminado: `false`*
 
 ### `block_category_questions`
 
-**Lock questions of previous categories in a test**
+**Bloquear preguntas de categorías anteriores en una prueba**
 
-When using this option, an additional option will appear in the test's configuration. When using a test with multiple question categories and asking for a distribution by category, this will allow the user to navigate questions per category. Once a category is finished, (s)he moves to the next category and cannot return to the previous category.
+Al usar esta opción, aparecerá una opción adicional en la configuración de la prueba. Cuando se utiliza una prueba con múltiples categorías de preguntas y se solicita una distribución por categoría, esto permitirá al usuario navegar por las preguntas por categoría. Una vez que se termina una categoría, pasa a la siguiente categoría y no puede regresar a la categoría anterior.
 
-*Default: `false`*
+*Predeterminado: `false`*
 
 ### `block_quiz_mail_notification_general_coach`
 
-**Block sending test notifications to general coach**
+**Bloquear el envío de notificaciones de pruebas al entrenador general**
 
-Learners completing a test usually sends notifications to coaches, including the general session coach. Enable this option to omit the general coach from these notifications.
+Los estudiantes que completan una prueba suelen enviar notificaciones a los entrenadores, incluyendo al entrenador general de la sesión. Habilite esta opción para omitir al entrenador general de estas notificaciones.
 
-*Default: `false`*
+*Predeterminado: `false`*
 
+---
 ### `configure_exercise_visibility_in_course`
 
-**Enable to bypass the configuration of Exercise invisible in session at a base course level**
+**Habilitar para omitir la configuración de ejercicios invisibles en sesión a nivel de curso base**
 
-To enable the configuration of the exercise invisibility in session in the base course to by pass the global configuration. If not set the global parameter is used.
+Permite habilitar la configuración de invisibilidad de ejercicios en sesión en el curso base para anular la configuración global. Si no se establece, se utiliza el parámetro global.
 
-*Default: `false`*
+*Predeterminado: `false`*
 
 ### `disable_clean_exercise_results_for_teachers`
 
-**Disable 'clean results' for teachers**
+**Deshabilitar 'limpiar resultados' para profesores**
 
-Disable the option to delete test results from the tests list. This is often used when less-careful teachers manage courses, to avoid critical mistakes.
+Desactiva la opción de eliminar resultados de pruebas desde la lista de pruebas. Esto se utiliza a menudo cuando profesores menos cuidadosos gestionan cursos, para evitar errores críticos.
 
-*Default: `true`*
+*Predeterminado: `true`*
 
 ### `email_alert_manager_on_new_quiz`
 
-**Default e-mail alert setting on new quiz**
+**Configuración predeterminada de alerta por correo electrónico para nuevos cuestionarios**
 
-Whether you want course managers (teachers) to be notified by e-mail when a quiz is answered by a student. This is the default value to be given to all new courses, but each teacher can still change this setting in his/her own course.
+Define si deseas que los gestores de cursos (profesores) sean notificados por correo electrónico cuando un estudiante responde a un cuestionario. Este es el valor predeterminado para todos los cursos nuevos, pero cada profesor puede cambiar esta configuración en su propio curso.
 
-*Default: `true`*
+*Predeterminado: `true`*
 
 ### `enable_quiz_scenario`
 
-**Enable Quiz scenario**
+**Habilitar escenario de cuestionario**
 
-From here you will be able to create exercises that propose different questions depending in the user's answers.
+Desde aquí podrás crear ejercicios que propongan diferentes preguntas dependiendo de las respuestas del usuario.
 
-*Default: `true`*
+*Predeterminado: `true`*
 
 ### `exercise_additional_teacher_modify_actions`
 
-**Additional links for teachers in tests list**
+**Enlaces adicionales para profesores en la lista de pruebas**
 
-Configure callback elements to generate new action icons for teachers to the right side of the tests list, in the form of an array, e.g. ['myplugin' => ['MyPlugin', 'urlGeneratorCallback']]
+Configura elementos de devolución de llamada para generar nuevos íconos de acción para profesores en el lado derecho de la lista de pruebas, en forma de un arreglo, por ejemplo, ['myplugin' => ['MyPlugin', 'urlGeneratorCallback']]
 
 ### `exercise_attempts_report_show_username`
 
-**Show username in test results page**
+**Mostrar nombre de usuario en la página de resultados de pruebas**
 
-Show the username (instead or, or as well as, the user info) on the test results page.
+Muestra el nombre de usuario (en lugar de, o junto con, la información del usuario) en la página de resultados de pruebas.
 
-*Default: `false`*
+*Predeterminado: `false`*
 
 ### `exercise_category_report_user_extra_fields`
 
-**Add user extra fields in exercise category report**
+**Agregar campos adicionales de usuario en el informe de categoría de ejercicios**
 
-Define an array with the list of user extra fields to add to the report.
+Define un arreglo con la lista de campos adicionales de usuario para agregar al informe.
 
 ### `exercise_category_round_score_in_export`
 
-**Round score in test exports**
+**Redondear puntuación en exportaciones de pruebas**
 
-When enabled, test scores are rounded to the nearest integer when exporting exercise reports.
+Cuando está habilitado, las puntuaciones de las pruebas se redondean al entero más cercano al exportar informes de ejercicios.
 
-*Default: `false`*
+*Predeterminado: `false`*
 
 ### `exercise_embeddable_extra_types`
 
-**Embeddable question types**
+**Tipos de preguntas incrustables**
 
-By default, only single answer and multiple answer questions are considered when deciding whether a test can be embedded in a video or not. With this option, you can decide that more question types are available. Be aware that not all question types fit nicely in the space assigned to videos. Questions types are availalble in the code in question.class.php.
+Por defecto, solo las preguntas de respuesta única y múltiple se consideran al decidir si una prueba puede incrustarse en un video o no. Con esta opción, puedes decidir que más tipos de preguntas estén disponibles. Ten en cuenta que no todos los tipos de preguntas se ajustan bien al espacio asignado para videos. Los tipos de preguntas están disponibles en el código en question.class.php.
 
 ### `exercise_hide_ip`
 
-**Hide user IP from test reports**
+**Ocultar IP del usuario en informes de pruebas**
 
-By default, we show user information and its IP address, but this might be considered personal data, so this option allows you to remove this info from all test reports.
+Por defecto, mostramos la información del usuario y su dirección IP, pero esto podría considerarse datos personales, por lo que esta opción te permite eliminar esta información de todos los informes de pruebas.
 
-*Default: `false`*
+*Predeterminado: `false`*
 
 ### `exercise_hide_label`
 
-**Hide question ribbon (right/wrong) in test results**
+**Ocultar cinta de pregunta (correcto/incorrecto) en resultados de pruebas**
 
-In test results, a ribbon appears by default to indicate if the answer was right or wrong. Enable this option to remove the ribbon globally.
+En los resultados de pruebas, por defecto aparece una cinta para indicar si la respuesta fue correcta o incorrecta. Habilita esta opción para eliminar la cinta de forma global.
 
-*Default: `false`*
+*Predeterminado: `false`*
 
 ### `exercise_invisible_in_session`
 
-**Exercise invisible in Session**
+**Ejercicio invisible en sesión**
 
-If an exercise is visible in the base course then it appears invisible in the session. If an exercise is invisible in the base course then it does not appear in the session.
+Si un ejercicio es visible en el curso base, aparece como invisible en la sesión. Si un ejercicio es invisible en el curso base, no aparece en la sesión.
 
-*Default: `false`*
+*Predeterminado: `false`*
 
 ### `exercise_max_editors_in_page`
 
-**Max editors in exercise result screen**
+**Máximo de editores en la pantalla de resultados de ejercicios**
 
-Because of the sheer number of questions that might appear in an exercise, the correction screen, allowing the teacher to add comments to each answer, might be very slow to load. Set this number to 5 to ask the platform to only show WYSIWYG editors up to a certain number of answers on the screen. This will speed up the correction page loading time considerably, but will remove WYSIWYG editors and leave only a plain text editor.
+Debido a la gran cantidad de preguntas que pueden aparecer en un ejercicio, la pantalla de corrección, que permite al profesor agregar comentarios a cada respuesta, puede ser muy lenta para cargar. Establece este número en 5 para pedirle a la plataforma que solo muestre editores WYSIWYG hasta un cierto número de respuestas en la pantalla. Esto acelerará considerablemente el tiempo de carga de la página de corrección, pero eliminará los editores WYSIWYG y dejará solo un editor de texto simple.
 
-*Default: `0`*
-
+*Predeterminado: `0`*
 
 ### `exercise_max_score`
 
-**Maximum score of exercises**
+**Puntuación máxima de ejercicios**
 
-Define a maximum score (generally 10,20 or 100) for all the exercises on the platform. This will define how final results are shown to users and teachers.
+Define una puntuación máxima (generalmente 10, 20 o 100) para todos los ejercicios en la plataforma. Esto definirá cómo se muestran los resultados finales a los usuarios y profesores.
 
-*Default: `20`*
-
+*Predeterminado: `20`*
 
 ### `exercise_min_score`
 
-**Minimum score of exercises**
+**Puntuación mínima de ejercicios**
 
-Define a minimum score (generally 0) for all the exercises on the platform. This will define how final results are shown to users and teachers.
+Define una puntuación mínima (generalmente 0) para todos los ejercicios en la plataforma. Esto definirá cómo se muestran los resultados finales a los usuarios y profesores.
 
-*Default: `0`*
-
+*Predeterminado: `0`*
 
 ### `exercise_result_end_text_html_strict_filtering`
 
-**Bypass HTML filtering in test end messages**
+**Omitir filtrado HTML en mensajes finales de pruebas**
 
-Consider messages at the end of tests are always safe. Removing the filter makes it possible to use JavaScript there.
+Considera que los mensajes al final de las pruebas siempre son seguros. Eliminar el filtro hace posible usar JavaScript allí.
 
-*Default: `false`*
-
+*Predeterminado: `false`*
 
 ### `exercise_score_format`
 
-**Tests score format**
+**Formato de puntuación de pruebas**
 
-Select between the following forms for the display of users' score in various reports: 1 = SCORE_AVERAGE (5 / 10); 2 = SCORE_PERCENT (50%); 3 = SCORE_DIV_PERCENT (5 / 10 (50%)). Use the numerical ID of the form you want to use.
+Selecciona entre las siguientes formas para mostrar la puntuación de los usuarios en varios informes: 1 = SCORE_AVERAGE (5 / 10); 2 = SCORE_PERCENT (50%); 3 = SCORE_DIV_PERCENT (5 / 10 (50%)). Usa el ID numérico de la forma que deseas utilizar.
 
-*Default: `0`*
+*Predeterminado: `0`*
 
 ### `exercises_disable_new_attempts`
 
-**Disable new test attempts**
+**Deshabilitar nuevos intentos de prueba**
 
-Disable new test attempts globally. Usually used when there is a problem with tests in general and you want some time to analyse without blocking the whole platform.
+Desactiva nuevos intentos de prueba de forma global. Generalmente se usa cuando hay un problema con las pruebas en general y deseas algo de tiempo para analizar sin bloquear toda la plataforma.
 
-*Default: `false`*
+*Predeterminado: `false`*
 
-
+---
 ### `hide_free_question_score`
 
-**Hide open questions' score**
+**Ocultar la puntuación de preguntas abiertas**
 
-Hide the fact that open questions (including audio and annotations) have a score by hiding the score display in all learner-facing reports.
+Oculta el hecho de que las preguntas abiertas (incluyendo audio y anotaciones) tienen una puntuación al ocultar la visualización de la puntuación en todos los informes visibles para los estudiantes.
 
-*Default: `false`*
+*Predeterminado: `false`*
 
 
 ### `hide_user_info_in_quiz_result`
 
-**Hide user info on test results page**
+**Ocultar información del usuario en la página de resultados de la prueba**
 
-The default test results page shows a user datasheet (photo, name, etc) which might, in some contexts, be considered as pushing the limits of personal data treatment. Enable this option to remove user details from the test results.
+La página de resultados de la prueba predeterminada muestra una ficha de datos del usuario (foto, nombre, etc.), lo que, en algunos contextos, podría considerarse como un límite en el tratamiento de datos personales. Habilite esta opción para eliminar los detalles del usuario de los resultados de la prueba.
 
-*Default: `false`*
+*Predeterminado: `false`*
 
 
 ### `limit_exercise_teacher_access`
 
-**Limit teachers' permissions over tests**
+**Limitar los permisos de los profesores sobre las pruebas**
 
-When enabled, teachers cannot delete tests nor questions, change tests visibility, download to QTI, clean results, etc.
+Cuando está habilitado, los profesores no pueden eliminar pruebas ni preguntas, cambiar la visibilidad de las pruebas, descargar a QTI, limpiar resultados, etc.
 
-*Default: `false`*
+*Predeterminado: `false`*
 
 
 ### `my_courses_show_pending_exercise_attempts`
 
-**Global pending tests list**
+**Lista global de pruebas pendientes**
 
-Enable to display to the final user a page with the list of pending tests across all courses.
+Habilite esta opción para mostrar al usuario final una página con la lista de pruebas pendientes en todos los cursos.
 
-*Default: `false`*
+*Predeterminado: `false`*
 
 
 ### `question_exercise_html_strict_filtering`
 
-**Bypass HTML filtering in test questions**
+**Evitar el filtrado HTML en preguntas de prueba**
 
-Consider questions text in tests are always safe. Removing the filter makes it possible to use JavaScript there.
+Considera que el texto de las preguntas en las pruebas siempre es seguro. Eliminar el filtro permite usar JavaScript en ellas.
 
-*Default: `false`*
+*Predeterminado: `false`*
 
 
 ### `question_pagination_length`
 
-**Question pagination length for teachers**
+**Longitud de paginación de preguntas para profesores**
 
-Number of questions to show on every page when using the question pagination for teachers option.
+Número de preguntas a mostrar en cada página cuando se utiliza la opción de paginación de preguntas para profesores.
 
-*Default: `20`*
+*Predeterminado: `20`*
 
 
 ### `quiz_answer_extra_recording`
 
-**Enable extra test answers recording**
+**Habilitar grabación adicional de respuestas de prueba**
 
-Enable recording of all answers (even temporary) in the track_e_attempt_recording table. This feautre is experimentaland can create issues in the reporting pages when attempting to grade a test.
+Habilita la grabación de todas las respuestas (incluso las temporales) en la tabla track_e_attempt_recording. Esta función es experimental y puede causar problemas en las páginas de informes al intentar calificar una prueba.
 
-*Default: `false`*
+*Predeterminado: `false`*
 
 
 ### `quiz_check_all_answers_before_end_test`
 
-**Check all answers before submitting test**
+**Verificar todas las respuestas antes de enviar la prueba**
 
-Display a popup with the list of answered/unanswered questions before submitting the test.
+Muestra una ventana emergente con la lista de preguntas respondidas/no respondidas antes de enviar la prueba.
 
-*Default: `false`*
+*Predeterminado: `false`*
 
 
 ### `quiz_check_button_enable`
 
-**Add answer-saving process check before test**
+**Agregar verificación del proceso de guardado de respuestas antes de la prueba**
 
-Make sure users are all set to start the test by providing a simulation of the question-saving process before entering the test. This allows for early detection of some connection issues and reduces user experience frictions.
+Asegúrese de que los usuarios estén listos para comenzar la prueba proporcionando una simulación del proceso de guardado de preguntas antes de ingresar a la prueba. Esto permite la detección temprana de algunos problemas de conexión y reduce las fricciones en la experiencia del usuario.
 
-*Default: `false`*
+*Predeterminado: `false`*
 
 
 ### `quiz_confirm_saved_answers`
 
-**Add checkbox for answers count confirmation**
+**Agregar casilla de verificación para confirmar el conteo de respuestas**
 
-This option adds a checkbox at the end of each test asking the user to confirm the number of answers saved. This provides better auditing data for critical tests.
+Esta opción agrega una casilla de verificación al final de cada prueba pidiendo al usuario que confirme el número de respuestas guardadas. Esto proporciona mejores datos de auditoría para pruebas críticas.
 
-*Default: `false`*
+*Predeterminado: `false`*
 
 
 ### `quiz_discard_orphan_in_course_export`
 
-**Discard orphan questions in course export**
+**Descartar preguntas huérfanas en la exportación de cursos**
 
-When exporting a course, do not export the questions that are not part of any test.
+Al exportar un curso, no exportar las preguntas que no forman parte de ninguna prueba.
 
-*Default: `false`*
+*Predeterminado: `false`*
 
 
 ### `quiz_generate_certificate_ending`
 
-**Generate certificate on test end**
+**Generar certificado al finalizar la prueba**
 
-Generate certificate when ending a quiz. The quiz needs to be linked in the gradebook tool and have a pass percentage configured.
+Genera un certificado al finalizar un cuestionario. El cuestionario debe estar vinculado en la herramienta de libro de calificaciones y tener configurado un porcentaje de aprobación.
 
-*Default: `false`*
+*Predeterminado: `false`*
 
 
 ### `quiz_hide_attempts_table_on_start_page`
 
-**Hide test attempts table on test start page**
+**Ocultar tabla de intentos en la página de inicio de la prueba**
 
-Hide the table showing all previous attempts on the test start page.
+Oculta la tabla que muestra todos los intentos anteriores en la página de inicio de la prueba.
 
-*Default: `false`*
+*Predeterminado: `false`*
 
 
 ### `quiz_hide_question_number`
 
-**Hide question number**
+**Ocultar número de pregunta**
 
-Hide the question incremental numbering when taking a test.
+Oculta la numeración incremental de las preguntas al realizar una prueba.
 
-*Default: `false`*
+*Predeterminado: `false`*
 
 
 ### `quiz_image_zoom`
 
-**Enable test images zooming**
+**Habilitar zoom en imágenes de pruebas**
 
-Enable this feature to allow users to zoom on images used in the tests.
+Habilita esta función para permitir a los usuarios hacer zoom en las imágenes utilizadas en las pruebas.
+
 
 ### `quiz_keep_alive_ping_interval`
 
-**Keep session active in tests**
+**Mantener la sesión activa en las pruebas**
 
-Keep session active by maintaining a regular ping signal to the server every x seconds, define here. We recommend once every 300 seconds.
+Mantiene la sesión activa enviando una señal de ping regular al servidor cada x segundos, definidos aquí. Recomendamos una vez cada 300 segundos.
 
-*Default: `0`*
+*Predeterminado: `0`*
 
 
 ### `quiz_open_question_decimal_score`
 
-**Decimal score in open question types**
+**Puntuación decimal en tipos de preguntas abiertas**
 
-Allow the teacher to rate the open, oral expression and annotation question types with a decimal score.
+Permite al profesor calificar los tipos de preguntas abiertas, de expresión oral y de anotación con una puntuación decimal.
 
-*Default: `false`*
+*Predeterminado: `false`*
 
 
 ### `quiz_prevent_copy_paste`
 
-**Block copy-pasting in tests**
+**Bloquear copiar y pegar en las pruebas**
 
-Block copy/paste/save/print keys and right-clicks in exercises.
+Bloquea las teclas de copiar/pegar/guardar/imprimir y los clics derechos en los ejercicios.
 
-*Default: `false`*
+*Predeterminado: `false`*
 
 
 ### `quiz_question_delete_automatically_when_deleting_exercise`
 
-**Automatically delete questions when deleting test**
+**Eliminar automáticamente preguntas al eliminar una prueba**
 
-The default behaviour is to make questions orphan when the only test using them is deleted. When enabled, this option ensure that all questions that would otherwise end up orphan are deleted as well.
+El comportamiento predeterminado es dejar las preguntas huérfanas cuando se elimina la única prueba que las utiliza. Cuando está habilitada, esta opción asegura que todas las preguntas que de otro modo quedarían huérfanas también se eliminen.
 
-*Default: `false`*
+*Predeterminado: `false`*
 
 
 ### `quiz_results_answers_report`
 
-**Show link to download test results**
+**Mostrar enlace para descargar resultados de la prueba**
 
-On the test results page, display a link to download the results as a file.
+En la página de resultados de la prueba, muestra un enlace para descargar los resultados como un archivo.
 
-*Default: `false`*
+*Predeterminado: `false`*
 
 
 ### `quiz_show_description_on_results_page`
 
-**Always show test description on results page**
+**Mostrar siempre la descripción de la prueba en la página de resultados**
 
-When enabled, the test description is always displayed on the results page after test completion.
+Cuando está habilitado, la descripción de la prueba siempre se muestra en la página de resultados después de completar la prueba.
 
-*Default: `false`*
+*Predeterminado: `false`*
 
 
 ### `score_grade_model`
 
-**Score grades model**
+**Modelo de calificaciones por puntuación**
 
-Define an array of score ranges and colors to display reports using this model. This allows you to show colors rather than numerical grades.
+Define un arreglo de rangos de puntuación y colores para mostrar informes utilizando este modelo. Esto permite mostrar colores en lugar de calificaciones numéricas.
 
+---
 ### `send_score_in_exam_notification_mail_to_manager`
 
-**Add score in mail notification of test submission**
+**Agregar puntuación en la notificación por correo electrónico de la entrega de exámenes**
 
-Add the learner's score to the e-mail notification sent to the teacher after a test was submitted.
+Incluye la puntuación del estudiante en la notificación por correo electrónico enviada al profesor después de que se haya entregado un examen.
 
-*Default: `false`*
+*Predeterminado: `false`*
 
 
 ### `show_exercise_attempts_in_all_user_sessions`
 
-**Show test attempts from all sessions in pending tests report**
+**Mostrar intentos de examen de todas las sesiones en el informe de exámenes pendientes**
 
-Show test attempts from users in all sessions where the general coach has access in pending tests report.
+Muestra los intentos de examen de los usuarios en todas las sesiones a las que el entrenador general tiene acceso en el informe de exámenes pendientes.
 
-*Default: `false`*
+*Predeterminado: `false`*
 
 
 ### `show_exercise_expected_choice`
 
-**Show expected choice in test results**
+**Mostrar la opción esperada en los resultados del examen**
 
-Show the expected choice and a status (right/wrong) for each answer on the test results page (if the test has been configured to show results).
+Muestra la opción esperada y un estado (correcto/incorrecto) para cada respuesta en la página de resultados del examen (si el examen ha sido configurado para mostrar resultados).
 
-*Default: `false`*
+*Predeterminado: `false`*
 
 
 ### `show_exercise_question_certainty_ribbon_result`
 
-**Show score for certainty degree questions**
+**Mostrar puntuación para preguntas de grado de certeza**
 
-By default, Chamilo does not show a score for the certainty degree question types.
+Por defecto, Chamilo no muestra una puntuación para los tipos de preguntas de grado de certeza.
 
-*Default: `false`*
+*Predeterminado: `false`*
 
 
 ### `show_exercise_session_attempts_in_base_course`
 
-**Show test attempts from all sessions in base course**
+**Mostrar intentos de examen de todas las sesiones en el curso base**
 
-Show test attempts from users in all sessions to the teacher in the base course.
+Muestra los intentos de examen de los usuarios en todas las sesiones al profesor en el curso base.
 
-*Default: `false`*
+*Predeterminado: `false`*
 
 
 ### `show_official_code_exercise_result_list`
 
-**Display official code in exercises results**
+**Mostrar código oficial en los resultados de los ejercicios**
 
-Whether to show the students' official code in the exercises results reports
+Define si se debe mostrar el código oficial de los estudiantes en los informes de resultados de los ejercicios.
 
-*Default: `false`*
+*Predeterminado: `false`*
+
 
 ### `show_question_id`
 
-**Show question IDs in tests**
+**Mostrar IDs de preguntas en los exámenes**
 
-Show questions' internal IDs to let users take note of issues on specific questions and report them more efficiently.
+Muestra los IDs internos de las preguntas para permitir a los usuarios tomar nota de problemas en preguntas específicas y reportarlos de manera más eficiente.
 
-*Default: `false`*
+*Predeterminado: `false`*
 
 
 ### `show_question_pagination`
 
-**Show question pagination for teachers**
+**Mostrar paginación de preguntas para profesores**
 
-For tests with many questions, use pagination if the number of questions is higher than this setting. Set to 0 to prevent using pagination.
+Para exámenes con muchas preguntas, utiliza paginación si el número de preguntas es mayor que este valor. Establece en 0 para evitar el uso de paginación.
 
-*Default: `100`*
+*Predeterminado: `100`*
 
 
 ### `tracking_my_progress_show_deleted_exercises`
 
-**Show deleted tests in 'My progress'**
+**Mostrar exámenes eliminados en 'Mi progreso'**
 
-Enable this option to display, on the 'My progress' page, the results of all tests you have taken, even the ones that have been deleted.
+Habilita esta opción para mostrar, en la página 'Mi progreso', los resultados de todos los exámenes que hayas realizado, incluso los que han sido eliminados.
 
-*Default: `false`*
-
-
+*Predeterminado: `false`*

@@ -1,13 +1,13 @@
-# Tracking and Reporting
+# Seguimiento e Informes
 
-Chamilo tracks learner activity throughout the platform, giving you detailed insights into how your learners are progressing.
+Chamilo realiza un seguimiento de la actividad de los estudiantes a lo largo de la plataforma, proporcionándote información detallada sobre cómo están progresando tus alumnos.
 
-* **[Learner Tracking](learner-tracking.md)** — Monitor individual learner activity: login times, time spent, pages visited, and tool usage
-* **[Course Reports](course-reports.md)** — View aggregate data across all learners in a course
-* **[Certificates and Skills](certificates-and-skills.md)** — Award certificates based on gradebook scores and validate acquired skills
+* **[Seguimiento de Estudiantes](learner-tracking.md)** — Monitorea la actividad individual de los estudiantes: tiempos de inicio de sesión, tiempo dedicado, páginas visitadas y uso de herramientas
+* **[Informes de Cursos](course-reports.md)** — Visualiza datos agregados de todos los estudiantes en un curso
+* **[Certificados y Habilidades](certificates-and-skills.md)** — Otorga certificados basados en las puntuaciones del libro de calificaciones y valida las habilidades adquiridas
 
-## Accessing Reports
+## Acceso a los Informes
 
-From your course, click the **Tracking** <img src="/.gitbook/assets/icons/mdi-chart-box.svg" alt="Tracking" data-size="line"> tool on the course homepage. You can also access reporting from the **Reporting** link in the sidebar for a cross-course overview.
+Desde tu curso, haz clic en la herramienta **Seguimiento** <img src="/.gitbook/assets/icons/mdi-chart-box.svg" alt="Seguimiento" data-size="line"> en la página principal del curso. También puedes acceder a los informes desde el enlace **Informes** en la barra lateral para obtener una visión general de varios cursos.
 
-Teachers see reporting data for courses they teach. Session coaches see data across all courses within their session.
+Los profesores ven los datos de informes de los cursos que imparten. Los entrenadores de sesiones ven los datos de todos los cursos dentro de su sesión.

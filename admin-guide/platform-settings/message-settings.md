@@ -1,70 +1,65 @@
-# Messaging Settings
+# Configuración de Mensajería
 
-Behaviour of the **Messaging / Inbox** system.
+Comportamiento del sistema de **Mensajería / Bandeja de entrada**.
 
-Access these settings under **Administration > Configuration settings > Messaging**. This category contains **7 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+Accede a estas configuraciones en **Administración > Configuraciones > Mensajería**. Esta categoría contiene **7 configuraciones**, listadas a continuación con el título y el comentario incluidos en los ajustes predefinidos de la plataforma (`SettingsCurrentFixtures.php`).
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> El nombre de la variable en el código se muestra en monospace. Úsalo cuando realices scripts a través de la API o cuando necesites cambiar estas configuraciones a nivel global editando [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
 
-## Settings
+## Configuraciones
 
 ### `allow_message_tool`
 
-**Internal messaging tool**
+**Herramienta de mensajería interna**
 
-Enabling the internal messaging tool allows users to send messages to other users of the platform and to have a messaging inbox.
+Habilitar la herramienta de mensajería interna permite a los usuarios enviar mensajes a otros usuarios de la plataforma y tener una bandeja de entrada de mensajería.
 
-*Default: `true`*
+*Predeterminado: `true`*
 
 ### `allow_send_message_to_all_platform_users`
 
-**Allow sending messages to any platform user**
+**Permitir enviar mensajes a cualquier usuario de la plataforma**
 
-Allows you to send messages to any user of the platform, not just your friends or the people currently online.
+Permite enviar mensajes a cualquier usuario de la plataforma, no solo a tus amigos o a las personas que están actualmente en línea.
 
-*Default: `false`*
+*Predeterminado: `false`*
 
 ### `allow_user_message_tracking`
 
-**Admins can see personal messages**
+**Los administradores pueden ver mensajes personales**
 
-Allow administrators to see personal messages between a teacher and a learner. Please make sure you include a note in your terms and conditions as this might affect privacy protection.
+Permite a los administradores ver los mensajes personales entre un profesor y un estudiante. Asegúrate de incluir una nota en tus términos y condiciones, ya que esto podría afectar la protección de la privacidad.
 
-*Default: `false`*
-
+*Predeterminado: `false`*
 
 ### `filter_interactivity_messages`
 
-**Teachers can access learners messages only within session timeframe**
+**Los profesores pueden acceder a los mensajes de los estudiantes solo dentro del período de la sesión**
 
-Filter messages between a teacher and a learner between the session start end dates
+Filtra los mensajes entre un profesor y un estudiante entre las fechas de inicio y fin de la sesión.
 
-*Default: `false`*
-
+*Predeterminado: `false`*
 
 ### `message_max_upload_filesize`
 
-**Max upload file size in messages**
+**Tamaño máximo de archivo para subir en mensajes**
 
-Maximum size for file uploads in the messaging tool (in Bytes)
+Tamaño máximo para la carga de archivos en la herramienta de mensajería (en Bytes).
 
-*Default: `20971520`*
+*Predeterminado: `20971520`*
 
 ### `private_messages_about_user`
 
-**Allow private messages between teachers about a learner**
+**Permitir mensajes privados entre profesores sobre un estudiante**
 
-Allow exchange of messages from teachers/bosses about a user from the tracking page of that user.
+Permite el intercambio de mensajes entre profesores o superiores sobre un usuario desde la página de seguimiento de ese usuario.
 
-*Default: `false`*
-
+*Predeterminado: `false`*
 
 ### `private_messages_about_user_visible_to_user`
 
-**Allow learners to see messages about them between teachers**
+**Permitir a los estudiantes ver los mensajes sobre ellos entre profesores**
 
-If exchange of messages about a user are enabled, this option will allow the corresponding user to see the messages. This is to comply with rules of transparency the organization may need to comply to.
+Si el intercambio de mensajes sobre un usuario está habilitado, esta opción permitirá al usuario correspondiente ver los mensajes. Esto es para cumplir con las reglas de transparencia que la organización pueda necesitar cumplir.
 
-*Default: `false`*
-
-
+*Predeterminado: `false`*

@@ -1,59 +1,59 @@
-# Exercise Generator
+# Generador de Ejercicios
 
-The AI Exercise Generator helps you create quiz questions automatically using artificial intelligence. You provide a topic or content, and the AI generates questions that you can review, edit, and add to your exercises.
+El Generador de Ejercicios con IA te ayuda a crear preguntas para cuestionarios de manera automática utilizando inteligencia artificial. Proporcionas un tema o contenido, y la IA genera preguntas que puedes revisar, editar y agregar a tus ejercicios.
 
-## Accessing the Exercise Generator
+## Acceso al Generador de Ejercicios
 
-The Exercise Generator is available when creating or editing an exercise, provided that:
+El Generador de Ejercicios está disponible al crear o editar un ejercicio, siempre que:
 
-1. AI helpers are enabled at the platform level
-2. At least one AI text provider is configured
+1. Los asistentes de IA estén habilitados a nivel de la plataforma
+2. Al menos un proveedor de texto de IA esté configurado
 
-Look for the **AI Generator** button or section within the exercise creation interface.
+Busca el botón o sección **Generador de IA** dentro de la interfaz de creación de ejercicios.
 
-## How to Generate Questions
+## Cómo Generar Preguntas
 
-![The AI exercise generator form with fields for topic and number of questions](/.gitbook/assets/ai-exercise-generator.png)
+![Formulario del generador de ejercicios con IA con campos para el tema y el número de preguntas](/.gitbook/assets/ai-exercise-generator.png)
 
-The generator offers two modes, available as tabs:
+El generador ofrece dos modos, disponibles como pestañas:
 
-* **Test from topic** — Generate questions from a textual topic description
-* **Test from document** — Generate questions from a course document (only available when a document-capable provider is configured). When this mode is used, the topic field becomes optional and is treated as an extra hint.
+* **Prueba a partir de un tema** — Genera preguntas a partir de una descripción textual del tema
+* **Prueba a partir de un documento** — Genera preguntas a partir de un documento del curso (solo disponible cuando un proveedor compatible con documentos está configurado). Cuando se usa este modo, el campo de tema se vuelve opcional y se trata como una pista adicional.
 
-1. Open the AI Generator form within an exercise and pick the mode
-2. Configure the generation parameters:
-   * **Quiz title** — The title for the resulting exercise
-   * **Questions topic** — Describe what the questions should be about (or, in document mode, an optional hint)
-   * **Number of questions** — How many questions to generate (capped at 100)
-   * **Question type** — Currently only **Multiple answer** is offered
-   * **AI provider** — Select which AI provider to use (only shown when more than one is configured)
-3. Click **Generate**
-4. The AI produces a set of questions with answer options and correct answers marked. When AI disclosure is enabled, generated questions are prefixed with **\[AI-assisted\]**.
+1. Abre el formulario del Generador de IA dentro de un ejercicio y selecciona el modo
+2. Configura los parámetros de generación:
+   * **Título del cuestionario** — El título para el ejercicio resultante
+   * **Tema de las preguntas** — Describe de qué deberían tratar las preguntas (o, en modo documento, una pista opcional)
+   * **Número de preguntas** — Cuántas preguntas generar (limitado a 100)
+   * **Tipo de pregunta** — Actualmente solo se ofrece **Respuesta múltiple**
+   * **Proveedor de IA** — Selecciona qué proveedor de IA usar (solo se muestra cuando hay más de uno configurado)
+3. Haz clic en **Generar**
+4. La IA produce un conjunto de preguntas con opciones de respuesta y las respuestas correctas marcadas. Cuando la divulgación de IA está habilitada, las preguntas generadas se prefijan con **\[Asistido por IA\]**.
 
-## Reviewing and Editing
+## Revisión y Edición
 
-![AI-generated questions displayed for review with options to edit, accept, or remove each one](/.gitbook/assets/ai-exercise-generator-results.png)
+![Preguntas generadas por IA mostradas para revisión con opciones para editar, aceptar o eliminar cada una](/.gitbook/assets/ai-exercise-generator-results.png)
 
-Generated questions are presented as **suggestions**. You should:
+Las preguntas generadas se presentan como **sugerencias**. Deberías:
 
-* **Review each question** for accuracy and relevance
-* **Edit the wording** if needed — adjust questions, answer options, and feedback
-* **Verify correct answers** — make sure the AI has identified the right answers
-* **Remove unsuitable questions** — delete any that don't meet your standards
-* **Adjust scoring** — set appropriate point values for each question
+* **Revisar cada pregunta** para verificar su precisión y relevancia
+* **Editar la redacción** si es necesario — ajusta las preguntas, las opciones de respuesta y la retroalimentación
+* **Verificar las respuestas correctas** — asegúrate de que la IA haya identificado las respuestas correctas
+* **Eliminar preguntas inadecuadas** — borra las que no cumplan con tus estándares
+* **Ajustar la puntuación** — establece valores de puntos apropiados para cada pregunta
 
-Once you are satisfied, add the questions to your exercise.
+Una vez que estés satisfecho, agrega las preguntas a tu ejercicio.
 
-Note that despite our specific format requests, some models will return question titles prefixed by a number. We don't recommend leaving that number there as this will hinder the mix of questions in tests with randomly selected questions. Also, sometimes you don't get as many questions as you've asked, so make sure you check that and potentially generate more questions, or change model if you have that possibility.
+Ten en cuenta que, a pesar de nuestras solicitudes de formato específicas, algunos modelos devolverán títulos de preguntas con un número como prefijo. No recomendamos dejar ese número, ya que dificultará la mezcla de preguntas en pruebas con preguntas seleccionadas al azar. Además, a veces no obtienes tantas preguntas como solicitaste, así que asegúrate de verificarlo y, si es necesario, genera más preguntas o cambia de modelo si tienes esa posibilidad.
 
-## AI-Generated Content Disclosure
+## Divulgación de Contenido Generado por IA
 
-Content generated by AI is labeled with a disclosure notice, indicating that it was created using artificial intelligence. This transparency helps learners understand the origin of the material.
+El contenido generado por IA está etiquetado con un aviso de divulgación, indicando que fue creado utilizando inteligencia artificial. Esta transparencia ayuda a los estudiantes a comprender el origen del material.
 
-## Tips
+## Consejos
 
-* **Provide specific topics** — The more specific your topic description, the more relevant the generated questions will be.
-* **Always review** — AI-generated content may contain errors. Never publish questions without reviewing them first.
-* **Use as a starting point** — Generated questions are a time-saver, not a finished product. Edit them to match your teaching style and course content.
-* **Mix with manual questions** — Combine AI-generated questions with manually created ones for the best results.
-* **Try different providers** — If multiple AI providers are available, try different ones to see which produces the best questions for your subject area.
+* **Proporciona temas específicos** — Cuanto más específica sea la descripción de tu tema, más relevantes serán las preguntas generadas.
+* **Revisa siempre** — El contenido generado por IA puede contener errores. Nunca publiques preguntas sin revisarlas primero.
+* **Úsalo como punto de partida** — Las preguntas generadas son un ahorro de tiempo, no un producto terminado. Edítalas para que coincidan con tu estilo de enseñanza y el contenido del curso.
+* **Mezcla con preguntas manuales** — Combina preguntas generadas por IA con otras creadas manualmente para obtener los mejores resultados.
+* **Prueba diferentes proveedores** — Si hay varios proveedores de IA disponibles, prueba diferentes para ver cuál produce las mejores preguntas para tu área temática.

@@ -1,53 +1,53 @@
-# Social Network
+# Red Social
 
-Chamilo includes a built-in social network that lets you connect with other users on the platform. This feature may be enabled or disabled by your platform administrator.
+Chamilo incluye una red social integrada que te permite conectarte con otros usuarios en la plataforma. Esta funcionalidad puede estar habilitada o deshabilitada por el administrador de tu plataforma.
 
-## Accessing the Social Network
+## Acceder a la Red Social
 
-Click **Social network** in the sidebar to access the social features. If you do not see this option, your administrator may have disabled it.
+Haz clic en **Red social** en la barra lateral para acceder a las funciones sociales. Si no ves esta opción, es posible que tu administrador la haya deshabilitado.
 
-## Your Social Wall
+## Tu Muro Social
 
-![The social wall showing a feed of posts, likes, and comments from connections](/.gitbook/assets/social-wall.png)
+![El muro social mostrando un feed de publicaciones, me gusta y comentarios de tus conexiones](/.gitbook/assets/social-wall.png)
 
-The social wall shows a feed of activity from you and your connections. You can:
+El muro social muestra un feed de actividad tuya y de tus conexiones. Puedes:
 
-* **Post updates** — Share text and links with your connections
-* **Like and comment** — Interact with posts from other users
-* **View activity** — See recent posts from people you are connected with
+* **Publicar actualizaciones** — Compartir texto y enlaces con tus conexiones
+* **Dar me gusta y comentar** — Interactuar con las publicaciones de otros usuarios
+* **Ver actividad** — Ver publicaciones recientes de las personas con las que estás conectado
 
-## Connections
+## Conexiones
 
-You can connect with other users on the platform:
+Puedes conectarte con otros usuarios en la plataforma:
 
-* **Search for users** — Find colleagues and learners by name
-* **Send connection requests** — Invite other users to connect
-* **Manage connections** — Accept, decline, or remove connections
+* **Buscar usuarios** — Encontrar colegas y estudiantes por su nombre
+* **Enviar solicitudes de conexión** — Invitar a otros usuarios a conectarse
+* **Gestionar conexiones** — Aceptar, rechazar o eliminar conexiones
 
-> **Note:** Learners can only search for and add other learners as friends — they cannot send friend requests to teachers. As a teacher, however, you can search for learners and request to add them as friends.
+> **Nota:** Los estudiantes solo pueden buscar y agregar a otros estudiantes como amigos; no pueden enviar solicitudes de amistad a los profesores. Sin embargo, como profesor, puedes buscar estudiantes y solicitar agregarlos como amigos.
 
-## Messaging
+## Mensajería
 
-The social network integrates with the platform's messaging system:
+La red social se integra con el sistema de mensajería de la plataforma:
 
-* **Send messages** <img src="/.gitbook/assets/icons/mdi-email-plus-outline.svg" alt="New message" data-size="line"> — Write direct messages to other users
-* **Inbox** <img src="/.gitbook/assets/icons/mdi-inbox.svg" alt="Inbox" data-size="line"> — Read and reply to received messages
-* **Sent messages** <img src="/.gitbook/assets/icons/mdi-send-check.svg" alt="Sent" data-size="line"> — Review messages you have sent
+* **Enviar mensajes** <img src="/.gitbook/assets/icons/mdi-email-plus-outline.svg" alt="Nuevo mensaje" data-size="line"> — Escribir mensajes directos a otros usuarios
+* **Bandeja de entrada** <img src="/.gitbook/assets/icons/mdi-inbox.svg" alt="Bandeja de entrada" data-size="line"> — Leer y responder a los mensajes recibidos
+* **Mensajes enviados** <img src="/.gitbook/assets/icons/mdi-send-check.svg" alt="Enviados" data-size="line"> — Revisar los mensajes que has enviado
 
-### Composing and Replying
+### Redactar y Responder
 
-When composing a new message, you can address it to multiple recipients at once. Similarly, when replying to a message, you can include multiple users in your reply — useful for group coordination without a formal social group.
+Al redactar un nuevo mensaje, puedes dirigirlo a varios destinatarios a la vez. De manera similar, al responder a un mensaje, puedes incluir a varios usuarios en tu respuesta, lo cual es útil para coordinar grupos sin necesidad de un grupo social formal.
 
-### Message Tags
+### Etiquetas de Mensajes
 
-If your platform configuration uses message tags (typically managed at the platform level), your inbox shows a tag list you can click to filter messages by that tag, which makes locating related threads faster as your inbox grows.
+Si la configuración de tu plataforma utiliza etiquetas de mensajes (generalmente gestionadas a nivel de plataforma), tu bandeja de entrada mostrará una lista de etiquetas en las que puedes hacer clic para filtrar los mensajes por esa etiqueta, lo que facilita encontrar hilos relacionados a medida que tu bandeja de entrada crece.
 
-## Social Groups
+## Grupos Sociales
 
-Social groups allow users to gather around common interests or projects:
+Los grupos sociales permiten a los usuarios reunirse en torno a intereses o proyectos comunes:
 
-* **Join groups** — Browse and join existing groups
-* **Create groups** — Start a new social group (if permitted)
-* **Group discussions** — Share posts within a group context
+* **Unirse a grupos** — Explorar y unirse a grupos existentes
+* **Crear grupos** — Iniciar un nuevo grupo social (si está permitido)
+* **Discusiones en grupo** — Compartir publicaciones dentro del contexto de un grupo
 
-> Social groups are different from **course groups** (covered in the [Groups](collaboration-and-communication/groups.md) section). Course groups are tied to a specific course, while social groups are platform-wide.
+> Los grupos sociales son diferentes de los **grupos de curso** (tratados en la sección de [Grupos](collaboration-and-communication/groups.md)). Los grupos de curso están vinculados a un curso específico, mientras que los grupos sociales abarcan toda la plataforma.

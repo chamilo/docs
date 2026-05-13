@@ -1,39 +1,39 @@
-# Coding Conventions
+# Convenciones de Codificación
 
 ## PHP
 
-* **Standard**: PSR-12 coding style
-* **Type declarations**: Use PHP 8.2 type declarations (parameter types, return types, property types)
-* **Strict types**: All PHP files should declare `strict_types=1`
-* **Namespaces**: Follow PSR-4 autoloading (e.g., `Chamilo\CoreBundle\Entity\User`)
-* **Symfony standards**: Follow Symfony's coding standards and best practices
+* **Estándar**: Estilo de codificación PSR-12
+* **Declaraciones de tipo**: Utilizar declaraciones de tipo de PHP 8.2 (tipos de parámetros, tipos de retorno, tipos de propiedades)
+* **Tipos estrictos**: Todos los archivos PHP deben declarar `strict_types=1`
+* **Espacios de nombres**: Seguir la carga automática PSR-4 (por ejemplo, `Chamilo\CoreBundle\Entity\User`)
+* **Estándares de Symfony**: Seguir los estándares de codificación y las mejores prácticas de Symfony
 
 ## JavaScript/Vue
 
-* **ESLint + Prettier**: Code is linted with ESLint and formatted with Prettier; configuration is in `eslint.config.mjs` at the project root. `prettier-plugin-tailwindcss` is also enabled for automatic Tailwind class sorting.
-* **Composition API**: Use Vue 3's `<script setup>` syntax for new components
-* **TypeScript**: TypeScript is supported; use it for type-safe code
+* **ESLint + Prettier**: El código se verifica con ESLint y se formatea con Prettier; la configuración está en `eslint.config.mjs` en la raíz del proyecto. También está habilitado `prettier-plugin-tailwindcss` para la ordenación automática de clases Tailwind.
+* **Composition API**: Utilizar la sintaxis `<script setup>` de Vue 3 para nuevos componentes
+* **TypeScript**: TypeScript es compatible; úsalo para código seguro en cuanto a tipos
 
 ## CSS
 
-* **Tailwind CSS**: Prefer utility classes over custom CSS
-* **BEM naming**: When custom CSS is needed, use BEM naming convention
-* **SCSS**: Use SCSS for complex stylesheets
+* **Tailwind CSS**: Preferir clases de utilidad sobre CSS personalizado
+* **Nomenclatura BEM**: Cuando se necesite CSS personalizado, usar la convención de nomenclatura BEM
+* **SCSS**: Utilizar SCSS para hojas de estilo complejas
 
-## PHP Static Analysis and Refactoring Tools
+## Herramientas de Análisis Estático y Refactorización de PHP
 
-The project ships configuration for three additional tools:
+El proyecto incluye configuraciones para tres herramientas adicionales:
 
-| Tool | Config file | Purpose |
-|------|------------|---------|
-| **PHPStan** | `phpstan.neon` | Static analysis (level 5, scans `src/` and test directories) |
-| **Psalm** | `psalm.xml` | Second static analysis pass; runs in CI on every push |
-| **Rector** | `rector.php` | Automated code transformations and upgrades |
+| Herramienta | Archivo de configuración | Propósito |
+|-------------|--------------------------|-----------|
+| **PHPStan** | `phpstan.neon` | Análisis estático (nivel 5, escanea directorios `src/` y de pruebas) |
+| **Psalm** | `psalm.xml` | Segunda pasada de análisis estático; se ejecuta en CI en cada push |
+| **Rector** | `rector.php` | Transformaciones y actualizaciones de código automatizadas |
 
-Run them via composer shortcuts: `composer phpstan`, `composer psalm`. See [Testing](../contributing/testing.md) for full commands.
+Ejecútalas mediante accesos directos de Composer: `composer phpstan`, `composer psalm`. Consulta [Pruebas](../contributing/testing.md) para ver los comandos completos.
 
 ## General
 
-* **English**: All code comments, variable names, and documentation should be in English
-* **Translations**: All user-facing text should use the translation system (Vue I18n for frontend, Symfony Translator for backend)
-* **No magic values**: Use constants or enums instead of hardcoded values
+* **Inglés**: Todos los comentarios de código, nombres de variables y documentación deben estar en inglés
+* **Traducciones**: Todo el texto visible para el usuario debe usar el sistema de traducción (Vue I18n para el frontend, Symfony Translator para el backend)
+* **Sin valores mágicos**: Usar constantes o enumeraciones en lugar de valores codificados directamente

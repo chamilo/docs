@@ -1,8 +1,8 @@
 # API
 
-Chamilo 2.0 exposes a REST API built on **API Platform 3.0**. The API provides programmatic access to platform resources and is the same API used by the Vue frontend.
+Chamilo 2.0 expone una API REST construida sobre **API Platform 3.0**. La API proporciona acceso programático a los recursos de la plataforma y es la misma API utilizada por el frontend de Vue.
 
-* **[Authentication](authentication.md)** — JWT token-based authentication
-* **[Endpoints Reference](endpoints-reference.md)** — Overview of available API resources
-* **[Custom Actions](custom-actions.md)** — Specialized endpoints beyond standard CRUD
-* **[Webhooks](webhooks.md)** — Event-driven notifications to external systems
+* **[Autenticación](authentication.md)** — Autenticación basada en tokens JWT
+* **[Referencia de Endpoints](endpoints-reference.md)** — Resumen de los recursos de API disponibles
+* **[Acciones Personalizadas](custom-actions.md)** — Endpoints especializados más allá de CRUD estándar
+* **[Webhooks](webhooks.md)** — Notificaciones impulsadas por eventos a sistemas externos

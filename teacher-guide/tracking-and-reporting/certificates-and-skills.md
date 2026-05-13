@@ -1,50 +1,50 @@
-# Certificates and Skills
+# Certificados y Habilidades
 
-Chamilo allows you to award certificates to learners who meet specific achievement criteria, and to validate skills associated with those achievements.
+Chamilo permite otorgar certificados a los estudiantes que cumplan con criterios específicos de logro y validar las habilidades asociadas con esos logros.
 
-## How Certificates Work
+## Cómo Funcionan los Certificados
 
-Certificates are linked to the **Assessments** (also called Gradebook). When a learner's grade meets or exceeds the minimum threshold you define, a certificate becomes available for them to download.
+Los certificados están vinculados a las **Evaluaciones** (también conocidas como Gradebook). Cuando la calificación de un estudiante alcanza o supera el umbral mínimo que definas, un certificado estará disponible para que lo descarguen.
 
-The workflow is:
+El flujo de trabajo es el siguiente:
 
-1. Set up the [Assessments](../assessing-learners/gradebook.md) with your exercises, assignments, and other graded activities
-2. Define a **minimum certification score** (e.g., 70%)
-3. When a learner reaches that score, they can download their certificate (either within the Assessments tool itself, or from a learning path if you've configured the final step for that). As a teacher, you can also use the **Generate certificates** action in the gradebook to create the PDFs in batch for all eligible learners.
+1. Configura las [Evaluaciones](../assessing-learners/gradebook.md) con tus ejercicios, tareas y otras actividades calificadas
+2. Define una **puntuación mínima de certificación** (por ejemplo, 70%)
+3. Cuando un estudiante alcanza esa puntuación, puede descargar su certificado (ya sea dentro de la herramienta de Evaluaciones o desde un itinerario de aprendizaje si has configurado el paso final para ello). Como docente, también puedes usar la acción **Generar certificados** en el libro de calificaciones para crear los PDF en lote para todos los estudiantes elegibles.
 
-## Certificate Templates
+## Plantillas de Certificados
 
-Certificates use templates defined by the platform administrator. The template typically includes:
+Los certificados utilizan plantillas definidas por el administrador de la plataforma. La plantilla típicamente incluye:
 
-* The learner's name
-* The course name
-* The date of completion
-* The score achieved
-* A QR code or URL for online verification
+* El nombre del estudiante
+* El nombre del curso
+* La fecha de finalización
+* La puntuación obtenida
+* Un código QR o URL para verificación en línea
 
-## Skills
+## Habilidades
 
-Skills represent competencies that learners acquire. In Chamilo:
+Las habilidades representan competencias que los estudiantes adquieren. En Chamilo:
 
-* Skills can be linked to gradebook achievements
-* When a learner earns a certificate, any associated skills are automatically validated
-* Skills accumulate on the learner's profile, creating a competency record
-* Skills can be organized hierarchically (e.g., "Data Analysis" under "Research Methods")
-* Skills can be further evaluated by peers (360° evaluation)
+* Las habilidades pueden vincularse a logros en el libro de calificaciones
+* Cuando un estudiante obtiene un certificado, las habilidades asociadas se validan automáticamente
+* Las habilidades se acumulan en el perfil del estudiante, creando un registro de competencias
+* Las habilidades pueden organizarse jerárquicamente (por ejemplo, "Análisis de Datos" bajo "Métodos de Investigación")
+* Las habilidades pueden ser evaluadas adicionalmente por pares (evaluación 360°)
 
-## Viewing Certificate and Skill Status
+## Visualización del Estado de Certificados y Habilidades
 
-As a teacher, you can see:
+Como docente, puedes ver:
 
-* Which learners have earned certificates in your course
-* Which skills have been validated
-* Learners' progress toward the certification threshold
+* Qué estudiantes han obtenido certificados en tu curso
+* Qué habilidades han sido validadas
+* El progreso de los estudiantes hacia el umbral de certificación
 
-Learners can view their own certificates and validated skills from their profile, and can access the Skills Wheel to check what skills are in demand in their organisation.
+Los estudiantes pueden ver sus propios certificados y habilidades validadas desde su perfil, y pueden acceder a la Rueda de Habilidades para verificar qué habilidades están en demanda en su organización.
 
-## Tips
+## Consejos
 
-* **Set clear expectations** — Tell learners at the start of the course what they need to achieve to earn a certificate
-* **Use meaningful skill names** — Skills should describe what the learner can do, not just the course name
-* **Combine with portfolios** — Encourage learners to add their certificates to their portfolio
-* **Extend certificates** — Ask your admin to enable the Custom Certificate plugin to unleash even more certificate templating power 
+* **Establece expectativas claras** — Informa a los estudiantes al inicio del curso qué necesitan lograr para obtener un certificado
+* **Usa nombres de habilidades significativos** — Las habilidades deben describir lo que el estudiante puede hacer, no solo el nombre del curso
+* **Combina con portafolios** — Anima a los estudiantes a agregar sus certificados a su portafolio
+* **Amplía los certificados** — Pide a tu administrador que habilite el plugin de Certificado Personalizado para desbloquear aún más opciones de personalización de plantillas de certificados

@@ -1,120 +1,109 @@
-# Skills Settings
+# Configuración de Habilidades
 
-Behaviour of the **Skills** system — skills tree, awarding rules, profile integration.
+Comportamiento del sistema de **Habilidades** — árbol de habilidades, reglas de asignación, integración con el perfil.
 
-Access these settings under **Administration > Configuration settings > Skills**. This category contains **13 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+Acceda a estas configuraciones en **Administración > Configuraciones > Habilidades**. Esta categoría contiene **13 configuraciones**, listadas a continuación con el título y el comentario incluidos en los datos predefinidos de la plataforma (`SettingsCurrentFixtures.php`).
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> El nombre de la variable en el código se muestra en monospace. Úselo cuando realice scripts a través de la API o cuando necesite cambiar estas configuraciones a nivel global editando [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
 
-## Settings
+## Configuraciones
 
 ### `allow_hr_skills_management`
 
-**Allow HR skills management**
+**Permitir la gestión de habilidades por RRHH**
 
-Allows HR to manage skills
+Permite a Recursos Humanos gestionar habilidades.
 
-*Default: `true`*
-
+*Predeterminado: `true`*
 
 ### `allow_private_skills`
 
-**Hide skills from learners**
+**Ocultar habilidades a los estudiantes**
 
-If enabled, skills can only be visible for admins, teachers (related to a user via a course), and HRM users (if related to a user).
+Si está habilitado, las habilidades solo serán visibles para administradores, profesores (relacionados con un usuario a través de un curso) y usuarios de RRHH (si están relacionados con un usuario).
 
-*Default: `false`*
-
+*Predeterminado: `false`*
 
 ### `allow_skill_rel_items`
 
-**Enable linking skills to items**
+**Habilitar la vinculación de habilidades a elementos**
 
-This enables a major feature that enables any item to be linked to (and as such to allow acquisition of) a skill. The feature still requires the teacher to confirm the acquisition of the skill, so the acquisition is not automatic.
+Esto activa una función importante que permite vincular cualquier elemento a una habilidad (y, como tal, permitir su adquisición). La función aún requiere que el profesor confirme la adquisición de la habilidad, por lo que la adquisición no es automática.
 
-*Default: `false`*
-
+*Predeterminado: `false`*
 
 ### `allow_skills_tool`
 
-**Allow Skills tool**
+**Permitir la herramienta de Habilidades**
 
-Users can see their skills in the social network and in a block in the homepage.
+Los usuarios pueden ver sus habilidades en la red social y en un bloque en la página de inicio.
 
-*Default: `true`*
+*Predeterminado: `true`*
 
 ### `allow_teacher_access_student_skills`
 
-**Allow teachers to access learners' skills**
+**Permitir a los profesores acceder a las habilidades de los estudiantes**
 
-[inferred] Allow instructors to view and monitor skills acquired by learners in their courses.
+[inferido] Permite a los instructores ver y monitorear las habilidades adquiridas por los estudiantes en sus cursos.
 
-*Default: `false`*
-
+*Predeterminado: `false`*
 
 ### `badge_assignation_notification`
 
-**Send notification to learner when a skill/badge has been acquired**
+**Enviar notificación al estudiante cuando se adquiere una habilidad/insignia**
 
-[inferred] Send notifications to learners when they acquire a new skill or badge achievement.
+[inferido] Envía notificaciones a los estudiantes cuando adquieren una nueva habilidad o logro de insignia.
 
-*Default: `false`*
-
+*Predeterminado: `false`*
 
 ### `hide_skill_levels`
 
-**Hide skill levels feature**
+**Ocultar la función de niveles de habilidad**
 
-[inferred] Conceal the skill level hierarchy and level labels in skill-related views.
+[inferido] Oculta la jerarquía de niveles de habilidad y las etiquetas de nivel en las vistas relacionadas con habilidades.
 
-*Default: `false`*
-
+*Predeterminado: `false`*
 
 ### `manual_assignment_subskill_autoload`
 
-**Assigning skills to user: sub-skills auto-loading**
+**Asignación de habilidades a usuarios: carga automática de subhabilidades**
 
-When manually assigning skills to a user, the form can be set to automatically offer you to assign a sub-skill instead of the skill you selected.
+Al asignar manualmente habilidades a un usuario, el formulario puede configurarse para ofrecer automáticamente asignar una subhabilidad en lugar de la habilidad seleccionada.
 
-*Default: `false`*
-
+*Predeterminado: `false`*
 
 ### `openbadges_backpack`
 
-**OpenBadges backpack URL**
+**URL del mochila de OpenBadges**
 
-The URL of the OpenBadges backpack server that will be used by default for all users wanting to export their badges. This defaults to the open and free Mozilla Foundation backpack repository: https://backpack.openbadges.org/
+La URL del servidor de mochila de OpenBadges que se usará por defecto para todos los usuarios que deseen exportar sus insignias. Por defecto, se utiliza el repositorio gratuito y abierto de la Fundación Mozilla: https://backpack.openbadges.org/
 
 ### `show_full_skill_name_on_skill_wheel`
 
-**Show full skill name on skill wheel**
+**Mostrar el nombre completo de la habilidad en la rueda de habilidades**
 
-On the wheel of skills, it shows the name of the skill when it has short code.
+En la rueda de habilidades, muestra el nombre de la habilidad cuando tiene un código corto.
 
-*Default: `false`*
-
+*Predeterminado: `false`*
 
 ### `skill_levels_names`
 
-**Skill levels names**
+**Nombres de los niveles de habilidad**
 
-Define names for levels of skills as an array of id => name.
+Define nombres para los niveles de habilidades como un arreglo de id => nombre.
 
 ### `skills_hierarchical_view_in_user_tracking`
 
-**Show skills as a hierarchical table**
+**Mostrar habilidades como una tabla jerárquica**
 
-[inferred] Display learner skills as a hierarchical tree structure in progress and reporting pages.
+[inferido] Muestra las habilidades de los estudiantes como una estructura de árbol jerárquico en las páginas de progreso e informes.
 
-*Default: `false`*
-
+*Predeterminado: `false`*
 
 ### `skills_teachers_can_assign_skills`
 
-**Allow teachers to set which skills are acquired through their courses**
+**Permitir a los profesores definir qué habilidades se adquieren a través de sus cursos**
 
-By default, only admins can decide which skills can be acquired through which course.
+Por defecto, solo los administradores pueden decidir qué habilidades se pueden adquirir a través de qué curso.
 
-*Default: `false`*
-
-
+*Predeterminado: `false`*

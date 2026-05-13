@@ -1,79 +1,79 @@
-# Forums Settings
+# Configuración de Foros
 
-Behaviour of the course **Forums** tool.
+Comportamiento de la herramienta de **Foros** del curso.
 
-Access these settings under **Administration > Configuration settings > Forums**. This category contains **9 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+Accede a estas configuraciones en **Administración > Configuraciones > Foros**. Esta categoría contiene **9 configuraciones**, listadas a continuación con el título y comentario incluidos en los datos de configuración de la plataforma (`SettingsCurrentFixtures.php`).
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> El nombre de la variable en el código se muestra en monospace. Úsalo cuando hagas scripting a través de la API o cuando necesites cambiar estas configuraciones a nivel global editando [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
 
-## Settings
+## Configuraciones
 
 ### `allow_forum_category_language_filter`
 
-**Forum categories language filter**
+**Filtro de idioma para categorías de foro**
 
-Add a language filter to the forum view to only see categries configured in a specific language. Requires using the 'language' extra field on the 'forum_category' entity.
+Añade un filtro de idioma a la vista del foro para ver solo las categorías configuradas en un idioma específico. Requiere usar el campo adicional 'language' en la entidad 'forum_category'.
 
-*Default: `false`*
+*Predeterminado: `false`*
 
 ### `allow_forum_post_revisions`
 
-**Forum post review**
+**Revisión de publicaciones en el foro**
 
-Enable this option to allow asking for a review or a translation to one's post in a forum. When extensively configured, can be used to collaborate with other users in a language-learning forum.
+Habilita esta opción para permitir solicitar una revisión o traducción de una publicación en el foro. Cuando se configura de manera extensiva, puede usarse para colaborar con otros usuarios en un foro de aprendizaje de idiomas.
 
-*Default: `false`*
+*Predeterminado: `false`*
 
 ### `community_managers_user_list`
 
-**Community managers list**
+**Lista de gestores de comunidad**
 
-Provide an array of user IDs that will be considered community managers in the special course designated as global forum. Community managers have additional privileges on the global forum.
+Proporciona un arreglo de IDs de usuarios que serán considerados gestores de comunidad en el curso especial designado como foro global. Los gestores de comunidad tienen privilegios adicionales en el foro global.
 
 ### `default_forum_view`
 
-**Default forum view**
+**Vista predeterminada del foro**
 
-What should be the default option when creating a new forum. Any trainer can however choose a different view for every individual forum
+Cuál debería ser la opción predeterminada al crear un nuevo foro. Sin embargo, cualquier formador puede elegir una vista diferente para cada foro individual.
 
-*Default: `flat`*
+*Predeterminado: `flat`*
 
 ### `display_groups_forum_in_general_tool`
 
-**Display group forums in general forum**
+**Mostrar foros de grupo en el foro general**
 
-Display group forums in the forum tool at the course level. This option is enabled by default (in this case, group forum individual visibilities still act as an additional criteria). If disabled, group forums will only be visible through the group tool, be them public or not.
+Muestra los foros de grupo en la herramienta de foro a nivel del curso. Esta opción está habilitada por defecto (en este caso, las visibilidades individuales de los foros de grupo aún actúan como un criterio adicional). Si se desactiva, los foros de grupo solo serán visibles a través de la herramienta de grupos, sean públicos o no.
 
-*Default: `true`*
+*Predeterminado: `true`*
 
 ### `forum_fold_categories`
 
-**Fold forum categories**
+**Plegar categorías de foro**
 
-Visual effect to enable forum categories folding/unfolding.
+Efecto visual para habilitar el plegado/desplegado de categorías de foro.
 
-*Default: `false`*
+*Predeterminado: `false`*
 
 ### `global_forums_course_id`
 
-**Use course as global forum**
+**Usar curso como foro global**
 
-Set the course ID (numerical) of a course reserverd to use as a global forum. This replaces the 'Social groups' link in the social network by a link to the forum of that course.
+Establece el ID del curso (numérico) de un curso reservado para usar como foro global. Esto reemplaza el enlace de 'Grupos sociales' en la red social por un enlace al foro de ese curso.
 
-*Default: `0`*
+*Predeterminado: `0`*
 
 ### `hide_forum_post_revision_language`
 
-**Hide forum post review language**
+**Ocultar idioma de revisión de publicaciones en el foro**
 
-Hide the possibility to assign a language to a forum post review.
+Oculta la posibilidad de asignar un idioma a una revisión de publicación en el foro.
 
-*Default: `false`*
+*Predeterminado: `false`*
 
 ### `subscribe_users_to_forum_notifications_also_in_base_course`
 
-**Forum notifications from base course as well**
+**Notificaciones de foro también desde el curso base**
 
-Enable this option to enable notifications coming from the base course forum, even if following the course through a session.
+Habilita esta opción para permitir notificaciones provenientes del foro del curso base, incluso si se sigue el curso a través de una sesión.
 
-*Default: `false`*
+*Predeterminado: `false`*

@@ -1,78 +1,78 @@
-# Endpoints Reference
+# Referencia de Endpoints
 
-API Platform automatically generates REST endpoints for entities annotated with `#[ApiResource]`. Chamilo exposes 100+ resources.
+API Platform genera automáticamente endpoints REST para entidades anotadas con `#[ApiResource]`. Chamilo expone más de 100 recursos.
 
-## Standard Operations
+## Operaciones Estándar
 
-For each API resource, the following operations are typically available:
+Para cada recurso de la API, las siguientes operaciones suelen estar disponibles:
 
-| Method | Path | Description |
+| Método | Ruta | Descripción |
 |--------|------|-------------|
-| `GET` | `/api/{resources}` | List (collection) |
-| `POST` | `/api/{resources}` | Create |
-| `GET` | `/api/{resources}/{id}` | Read (single item) |
-| `PUT` | `/api/{resources}/{id}` | Full update |
-| `PATCH` | `/api/{resources}/{id}` | Partial update |
-| `DELETE` | `/api/{resources}/{id}` | Delete |
+| `GET` | `/api/{resources}` | Listar (colección) |
+| `POST` | `/api/{resources}` | Crear |
+| `GET` | `/api/{resources}/{id}` | Leer (elemento individual) |
+| `PUT` | `/api/{resources}/{id}` | Actualización completa |
+| `PATCH` | `/api/{resources}/{id}` | Actualización parcial |
+| `DELETE` | `/api/{resources}/{id}` | Eliminar |
 
-Not all operations are enabled for every resource — security constraints apply.
+No todas las operaciones están habilitadas para cada recurso — se aplican restricciones de seguridad.
 
-## Key API Resources
+## Recursos Clave de la API
 
-### Platform Resources
+### Recursos de la Plataforma
 
-| Resource | Path | Description |
+| Recurso | Ruta | Descripción |
 |----------|------|-------------|
-| Users | `/api/users` | User accounts |
-| Courses | `/api/courses` | Courses |
-| Sessions | `/api/sessions` | Training sessions |
-| Resource Nodes | `/api/resource_nodes` | Unified content nodes |
-| Access URLs | `/api/access_urls` | Multi-URL portals |
-| Messages | `/api/messages` | Platform messages |
+| Usuarios | `/api/users` | Cuentas de usuario |
+| Cursos | `/api/courses` | Cursos |
+| Sesiones | `/api/sessions` | Sesiones de formación |
+| Nodos de Recursos | `/api/resource_nodes` | Nodos de contenido unificado |
+| URLs de Acceso | `/api/access_urls` | Portales multi-URL |
+| Mensajes | `/api/messages` | Mensajes de la plataforma |
 
-### Course Content Resources
+### Recursos de Contenido de Cursos
 
-| Resource | Path | Description |
+| Recurso | Ruta | Descripción |
 |----------|------|-------------|
-| Documents | `/api/documents` | Course documents |
-| Learning Paths | `/api/learning_paths` | Learning paths |
-| Glossaries | `/api/glossaries` | Glossary terms |
-| Links | `/api/links` | External links |
-| Calendar Events | `/api/c_calendar_events` | Agenda events |
-| Student Publications | `/api/c_student_publications` | Assignments |
-| Blogs | `/api/c_blogs` | Course blogs |
-| Groups | `/api/c_groups` | Course groups |
+| Documentos | `/api/documents` | Documentos del curso |
+| Rutas de Aprendizaje | `/api/learning_paths` | Rutas de aprendizaje |
+| Glosarios | `/api/glossaries` | Términos de glosario |
+| Enlaces | `/api/links` | Enlaces externos |
+| Eventos de Calendario | `/api/c_calendar_events` | Eventos de agenda |
+| Publicaciones de Estudiantes | `/api/c_student_publications` | Tareas |
+| Blogs | `/api/c_blogs` | Blogs del curso |
+| Grupos | `/api/c_groups` | Grupos del curso |
 
-### Tracking Resources
+### Recursos de Seguimiento
 
-| Resource | Path | Description |
+| Recurso | Ruta | Descripción |
 |----------|------|-------------|
-| Gradebook Categories | `/api/gradebook_categories` | Gradebook setup |
-| Gradebook Results | `/api/gradebook_results` | Grades |
+| Categorías de Libro de Calificaciones | `/api/gradebook_categories` | Configuración del libro de calificaciones |
+| Resultados de Libro de Calificaciones | `/api/gradebook_results` | Calificaciones |
 
-## Filtering and Pagination
+## Filtrado y Paginación
 
-API Platform supports:
+API Platform soporta:
 
-* **Pagination**: `?page=2&itemsPerPage=30`
-* **Filtering**: `?title=Introduction` (depends on configured filters)
-* **Ordering**: `?order[title]=asc`
-* **Search**: Full-text search on configured fields
+* **Paginación**: `?page=2&itemsPerPage=30`
+* **Filtrado**: `?title=Introduction` (depende de los filtros configurados)
+* **Ordenamiento**: `?order[title]=asc`
+* **Búsqueda**: Búsqueda de texto completo en campos configurados
 
-## Content Negotiation
+## Negociación de Contenido
 
-The API supports multiple formats:
+La API soporta múltiples formatos:
 
-* `application/ld+json` (default — JSON-LD)
+* `application/ld+json` (predeterminado — JSON-LD)
 * `application/json`
-* `text/html` (API documentation)
+* `text/html` (documentación de la API)
 
-Set the `Accept` header to choose the response format.
+Establece el encabezado `Accept` para elegir el formato de respuesta.
 
-## Security
+## Seguridad
 
-Each endpoint enforces security through:
+Cada endpoint aplica seguridad a través de:
 
-* JWT authentication (required for most endpoints)
-* Symfony security voters (resource-level permissions)
-* Role-based access control (e.g., admin-only endpoints)
+* Autenticación JWT (requerida para la mayoría de los endpoints)
+* Votantes de seguridad de Symfony (permisos a nivel de recurso)
+* Control de acceso basado en roles (por ejemplo, endpoints exclusivos para administradores)

@@ -1,196 +1,182 @@
-# Workflows Settings
+# Configuración de Flujos de Trabajo
 
-Cross-cutting workflow toggles — course creation, enrollment validation, assignment workflows, and similar.
+Configuraciones transversales de flujos de trabajo: creación de cursos, validación de inscripción, flujos de trabajo de asignaciones y similares.
 
-Access these settings under **Administration > Configuration settings > Workflows**. This category contains **23 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+Acceda a estas configuraciones en **Administración > Configuraciones de sistema > Flujos de Trabajo**. Esta categoría contiene **23 configuraciones**, listadas a continuación con el título y el comentario incluidos en los datos predefinidos de la plataforma (`SettingsCurrentFixtures.php`).
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> El nombre de la variable en el código se muestra en fuente monoespaciada. Úselo cuando realice scripts a través de la API o cuando necesite cambiar estas configuraciones a nivel global editando [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
 
-## Settings
+## Configuraciones
 
 ### `allow_user_course_subscription_by_course_admin`
 
-**Allow User Course Subscription By Course Admininistrator**
+**Permitir la inscripción de usuarios en cursos por parte del administrador del curso**
 
-Activate this option will allow course administrator to subscribe users inside a course
+Activar esta opción permitirá al administrador del curso inscribir usuarios dentro de un curso.
 
-*Default: `true`*
-
+*Predeterminado: `true`*
 
 ### `allow_users_to_create_courses`
 
-**Allow non admin to create courses**
+**Permitir a no administradores crear cursos**
 
-Allow non administrators (teachers) to create new courses on the server
+Permitir a no administradores (profesores) crear nuevos cursos en el servidor.
 
-*Default: `false`*
-
+*Predeterminado: `false`*
 
 ### `allow_working_time_edition`
 
-**Enable edition of course work time**
+**Habilitar la edición del tiempo de trabajo en el curso**
 
-Enable this feature to let teachers manually update the time spent in the course by learners.
+Habilitar esta función para permitir a los profesores actualizar manualmente el tiempo dedicado al curso por parte de los estudiantes.
 
-*Default: `false`*
-
+*Predeterminado: `false`*
 
 ### `course_visibility_change_only_admin`
 
-**Course visibility changes for admins only**
+**Cambios de visibilidad de cursos solo para administradores**
 
-Remove the possibility for non-admins to change the course visibility. Visibility can be an issue when there are too many teachers to control directly. Forcing visibilities allows the organization to better manage courses catalogues.
+Eliminar la posibilidad de que los no administradores cambien la visibilidad del curso. La visibilidad puede ser un problema cuando hay demasiados profesores para controlar directamente. Forzar las visibilidades permite a la organización gestionar mejor los catálogos de cursos.
 
-*Default: `false`*
-
+*Predeterminado: `false`*
 
 ### `default_menu_entry_for_course_or_session`
 
-**Default menu entry for courses**
+**Entrada de menú predeterminada para cursos**
 
-Define the default sub-elements of the 'Courses' entry to display if user is not registered to any course nor session.
+Definir los subelementos predeterminados de la entrada 'Cursos' que se mostrarán si el usuario no está registrado en ningún curso ni sesión.
 
-*Default: `my_courses`*
-
+*Predeterminado: `my_courses`*
 
 ### `disable_user_conditions_sender_id`
 
-**Internal ID of the user used to send disabled account notifications**
+**ID interno del usuario utilizado para enviar notificaciones de cuentas desactivadas**
 
-Avoid being too personal with users by using a 'bot' account to send e-mails to users when their account is disabled for some reason.
+Evitar ser demasiado personal con los usuarios utilizando una cuenta 'bot' para enviar correos electrónicos a los usuarios cuando su cuenta se desactiva por alguna razón.
 
-*Default: `0`*
-
+*Predeterminado: `0`*
 
 ### `disabled_edit_session_coaches_course_editing_course`
 
-**Disable the ability to edit course coaches**
+**Desactivar la capacidad de editar entrenadores de cursos**
 
-When disabled, admins do not have a link to quickly assign coaches to session-courses on the course edition page.
+Cuando está desactivado, los administradores no tienen un enlace para asignar rápidamente entrenadores a cursos de sesión en la página de edición del curso.
 
-*Default: `false`*
-
+*Predeterminado: `false`*
 
 ### `drh_allow_access_to_all_students`
 
-**HRM can access all students from reporting pages**
+**El gestor de RRHH puede acceder a todos los estudiantes desde las páginas de informes**
 
-[inferred] Grant HR/DRH managers access to reporting pages for all learners across the platform.
+[Inferido] Otorgar a los gestores de RRHH/DRH acceso a las páginas de informes de todos los estudiantes en la plataforma.
 
-*Default: `false`*
-
+*Predeterminado: `false`*
 
 ### `gamification_mode`
 
-**Gamification mode**
+**Modo de gamificación**
 
-Activate the stars achievement in learning paths
+Activar el logro de estrellas en las rutas de aprendizaje.
 
 ### `go_to_course_after_login`
 
-**Go directly to the course after login**
+**Ir directamente al curso después del inicio de sesión**
 
-When a user is registered in one course, go directly to the course after login
+Cuando un usuario está registrado en un curso, ir directamente al curso después del inicio de sesión.
 
-*Default: `false`*
-
+*Predeterminado: `false`*
 
 ### `load_term_conditions_section`
 
-**Load term conditions section**
+**Cargar la sección de términos y condiciones**
 
-The legal agreement will appear during the login or when enter to a course.
+El acuerdo legal aparecerá durante el inicio de sesión o al entrar a un curso.
 
-*Default: `login`*
-
+*Predeterminado: `login`*
 
 ### `multiple_url_hide_disabled_settings`
 
-**Hide disabled settings in sub-URLs**
+**Ocultar configuraciones desactivadas en sub-URLs**
 
-Set to yes to hide settings completely in a sub-URL if the setting is disabled in the main URL (where the access_url_changeable field = 0)
+Establecer en sí para ocultar completamente las configuraciones en una sub-URL si la configuración está desactivada en la URL principal (donde el campo `access_url_changeable` = 0).
 
-*Default: `false`*
-
+*Predeterminado: `false`*
 
 ### `plugin_redirection_enabled`
 
-**Enable redirection plugin**
+**Habilitar el plugin de redirección**
 
-Enable only if you are using the Redirection plugin
+Habilitar solo si está utilizando el plugin de Redirección.
 
-*Default: `false`*
-
+*Predeterminado: `false`*
 
 ### `redirect_index_to_url_for_logged_users`
 
-**Redirect index.php to given URL for authenticated users**
+**Redirigir index.php a una URL dada para usuarios autenticados**
 
-If you do not want to use the index page (announcements, popular courses, etc), you can define here the script (from the document root) where users will be redirected when trying to load the index.
+Si no desea usar la página de índice (anuncios, cursos populares, etc.), puede definir aquí el script (desde la raíz del documento) a donde serán redirigidos los usuarios al intentar cargar el índice.
 
 ### `send_all_emails_to`
 
-**Send all e-mails to**
+**Enviar todos los correos electrónicos a**
 
-Give a list of e-mail addresses to whom *all* e-mails sent from the platform will be sent. The e-mails are sent to these addresses as a visible destination.
+Proporcione una lista de direcciones de correo electrónico a las que se enviarán *todos* los correos electrónicos enviados desde la plataforma. Los correos se envían a estas direcciones como destino visible.
 
 ### `session_admin_user_subscription_search_extra_field_to_search`
 
-**Extra user field used to search and name sessions**
+**Campo de usuario adicional utilizado para buscar y nombrar sesiones**
 
-This setting defines the extra user field key (e.g., "company") that will be used to search for users and to define the name of the session when registering students from /admin-dashboard/register.
+Esta configuración define la clave del campo de usuario adicional (por ejemplo, "company") que se utilizará para buscar usuarios y definir el nombre de la sesión al registrar estudiantes desde /admin-dashboard/register.
 
 ### `teacher_can_select_course_template`
 
-**Teacher can select a course as template**
+**El profesor puede seleccionar un curso como plantilla**
 
-Allow pick a course as template for the new course that teacher is creating
+Permitir elegir un curso como plantilla para el nuevo curso que el profesor está creando.
 
-*Default: `true`*
-
+*Predeterminado: `true`*
 
 ### `update_student_expiration_x_date`
 
-**Set expiration date on first login**
+**Establecer fecha de vencimiento en el primer inicio de sesión**
 
-Array defining the 'days' and 'months' to set the account expiration date when the user first logs in.
+Arreglo que define los 'días' y 'meses' para establecer la fecha de vencimiento de la cuenta cuando el usuario inicia sesión por primera vez.
 
 ### `user_edition_extra_field_to_check`
 
-**Set an extra field as trigger for registration as ex-learner**
+**Establecer un campo adicional como desencadenante para el registro como ex-alumno**
 
-Give an extra field label here. If this extra field is updated for any user, a process is triggered to check the access to this user to courses with the same given extra field.
+Proporcione aquí una etiqueta de campo adicional. Si este campo adicional se actualiza para cualquier usuario, se desencadena un proceso para verificar el acceso de este usuario a cursos con el mismo campo adicional dado.
 
+---
 ### `user_number_of_days_for_default_expiration_date_per_role`
 
-**Default expiration days by role**
+**Días de vencimiento predeterminados por rol**
 
-An array of role => number which represents the number of days an account has before expiration, depending on the role.
+Un arreglo de rol => número que representa la cantidad de días que una cuenta tiene antes de vencer, dependiendo del rol.
 
 ### `usergroup_do_not_unsubscribe_users_from_course_nor_session_on_user_unsubscribe`
 
-**Disable user unsubscription from course/session on user unsubscription from group/class**
+**Desactivar la cancelación de suscripción de usuarios de cursos/sesiones al cancelar la suscripción de un usuario de un grupo/clase**
 
-[inferred] When removing a user from a group/class, do not automatically unsubscribe them from associated courses or sessions.
+[inferido] Al eliminar a un usuario de un grupo/clase, no cancelar automáticamente su suscripción a los cursos o sesiones asociados.
 
-*Default: `false`*
+*Predeterminado: `false`*
 
 
 ### `usergroup_do_not_unsubscribe_users_from_course_on_course_unsubscribe`
 
-**Disable user unsubscription from course on course removal from group/class**
+**Desactivar la cancelación de suscripción de usuarios de un curso al eliminar el curso de un grupo/clase**
 
-[inferred] When a course is removed from a group/class, do not automatically unsubscribe users from that course.
+[inferido] Cuando se elimina un curso de un grupo/clase, no cancelar automáticamente la suscripción de los usuarios a ese curso.
 
-*Default: `false`*
+*Predeterminado: `false`*
 
 
 ### `usergroup_do_not_unsubscribe_users_from_session_on_session_unsubscribe`
 
-**Disable user unsubscription from session on session removal from group/class**
+**Desactivar la cancelación de suscripción de usuarios de una sesión al eliminar la sesión de un grupo/clase**
 
-[inferred] When a session is removed from a group/class, do not automatically unsubscribe users from that session.
+[inferido] Cuando se elimina una sesión de un grupo/clase, no cancelar automáticamente la suscripción de los usuarios a esa sesión.
 
-*Default: `false`*
-
-
+*Predeterminado: `false`*

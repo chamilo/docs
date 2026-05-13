@@ -1,53 +1,53 @@
-# Backups
+# Copias de seguridad
 
-Regular backups are essential for protecting your Chamilo data. This page covers what to back up and how.
+Las copias de seguridad regulares son esenciales para proteger los datos de Chamilo. Esta página cubre qué respaldar y cómo hacerlo.
 
-## What to Back Up
+## Qué respaldar
 
-### 1. Database
+### 1. Base de datos
 
-The Chamilo database contains all platform data: users, courses, tracking, grades, messages, and settings. This is the most critical component to back up.
+La base de datos de Chamilo contiene todos los datos de la plataforma: usuarios, cursos, seguimiento, calificaciones, mensajes y configuraciones. Este es el componente más crítico para respaldar.
 
-**How to back up:**
+**Cómo hacer una copia de seguridad:**
 
 ```bash
 mysqldump -u username -p chamilo_database > chamilo_backup_$(date +%Y%m%d).sql
 ```
 
-### 2. Files
+### 2. Archivos
 
-Chamilo stores uploaded files (documents, images, SCORM packages) in the filesystem. The key directories to back up:
+Chamilo almacena archivos subidos (documentos, imágenes, paquetes SCORM) en el sistema de archivos. Los directorios clave para respaldar son:
 
-* `var/` — Uploaded files and resources
-* `public/plugin/` — Plugin files (only if you have added custom plugins)
+* `var/` — Archivos y recursos subidos
+* `public/plugin/` — Archivos de complementos (solo si has añadido complementos personalizados)
 
-If you use cloud storage (S3, Azure Blob), ensure your cloud provider's backup/versioning is enabled.
+Si utilizas almacenamiento en la nube (S3, Azure Blob), asegúrate de que las opciones de copia de seguridad/versionado de tu proveedor de nube estén habilitadas.
 
-### 3. Configuration
+### 3. Configuración
 
-* `.env` — Your environment configuration
-* `config/` — Any custom configuration files
+* `.env` — Tu configuración de entorno
+* `config/` — Cualquier archivo de configuración personalizado
 
-## Backup Schedule
+## Programación de copias de seguridad
 
-| Component | Recommended frequency |
-|-----------|---------------------|
-| Database | Daily |
-| Files | Daily or weekly (depending on upload activity) |
-| Configuration | After any configuration change |
+| Componente | Frecuencia recomendada |
+|------------|------------------------|
+| Base de datos | Diaria |
+| Archivos | Diaria o semanal (dependiendo de la actividad de carga) |
+| Configuración | Después de cualquier cambio en la configuración |
 
-## Restoration
+## Restauración
 
-To restore from a backup:
+Para restaurar desde una copia de seguridad:
 
-1. Restore the database from the SQL dump
-2. Restore the file directories
-3. Restore the configuration files
-4. Clear the Symfony cache: `php bin/console cache:clear`
+1. Restaura la base de datos desde el volcado SQL
+2. Restaura los directorios de archivos
+3. Restaura los archivos de configuración
+4. Limpia la caché de Symfony: `php bin/console cache:clear`
 
-## Tips
+## Consejos
 
-* **Automate backups** — Use cron jobs to run backups automatically
-* **Store off-site** — Keep backup copies on a separate server or cloud storage
-* **Test restoration** — Periodically test that you can restore from a backup successfully
-* **Document your process** — Keep written instructions for the restoration process so anyone on the team can perform it
+* **Automatiza las copias de seguridad** — Usa tareas cron para ejecutar copias de seguridad automáticamente
+* **Almacena fuera del sitio** — Mantén copias de seguridad en un servidor separado o en almacenamiento en la nube
+* **Prueba la restauración** — Verifica periódicamente que puedes restaurar desde una copia de seguridad con éxito
+* **Documenta tu proceso** — Mantén instrucciones escritas para el proceso de restauración para que cualquier miembro del equipo pueda realizarlo

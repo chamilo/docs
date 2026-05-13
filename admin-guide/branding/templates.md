@@ -1,42 +1,42 @@
-# Templates
+# Plantillas
 
-Chamilo uses templates for certificates, documents, and emails. You can customize these templates to match your organization's branding and requirements.
+Chamilo utiliza plantillas para certificados, documentos y correos electrónicos. Puedes personalizar estas plantillas para que se ajusten a la imagen de marca y los requisitos de tu organización.
 
-## Certificate Templates
+## Plantillas de Certificados
 
-Certificate templates define the layout and content of certificates awarded to learners who meet gradebook thresholds.
+Las plantillas de certificados definen el diseño y el contenido de los certificados otorgados a los estudiantes que cumplen con los umbrales de calificación en el libro de calificaciones.
 
-### Customizing a Certificate Template
+### Personalización de una Plantilla de Certificado
 
-Certificate templates use HTML and CSS with placeholder variables:
+Las plantillas de certificados utilizan HTML y CSS con variables de marcador de posición:
 
-| Variable | Replaced with |
-|----------|-------------|
-| Student name | The learner's full name |
-| Course name | The name of the course |
-| Date | The date the certificate was earned |
-| Score | The learner's final score |
-| Barcode | A barcode placeholder (`((certificate_barcode))`) used for verification |
+| Variable | Reemplazado por |
+|----------|-----------------|
+| Nombre del estudiante | El nombre completo del estudiante |
+| Nombre del curso | El nombre del curso |
+| Fecha | La fecha en que se obtuvo el certificado |
+| Puntuación | La puntuación final del estudiante |
+| Código de barras | Un marcador de posición para código de barras (`((certificate_barcode))`) utilizado para verificación |
 
-### Uploading a Template
+### Carga de una Plantilla
 
-1. Navigate to certificate template management
-2. Upload or edit the HTML template
-3. Use the placeholder variables where dynamic content should appear
-4. Save
+1. Navega a la gestión de plantillas de certificados
+2. Carga o edita la plantilla HTML
+3. Utiliza las variables de marcador de posición donde debe aparecer el contenido dinámico
+4. Guarda
 
-## Document Templates
+## Plantillas de Documentos
 
-Teachers can use document templates when creating content in the Documents tool. Templates provide a starting layout for common document types.
+Los profesores pueden usar plantillas de documentos al crear contenido en la herramienta de Documentos. Las plantillas proporcionan un diseño inicial para tipos de documentos comunes.
 
-### Managing Document Templates
+### Gestión de Plantillas de Documentos
 
-1. Navigate to template management in the administration panel
-2. Add new templates by uploading HTML files
-3. Templates become available to teachers when they create new documents
+1. Navega a la gestión de plantillas en el panel de administración
+2. Añade nuevas plantillas subiendo archivos HTML
+3. Las plantillas estarán disponibles para los profesores cuando creen nuevos documentos
 
-## Tips
+## Consejos
 
-* **Include your logo** — Add your organization's logo to certificate templates for a professional look
-* **Test with real data** — Preview certificates with actual learner data before deploying the template
-* **Keep templates simple** — Simple designs print better and look professional
+* **Incluye tu logotipo** — Añade el logotipo de tu organización a las plantillas de certificados para un aspecto profesional
+* **Prueba con datos reales** — Previsualiza los certificados con datos reales de los estudiantes antes de implementar la plantilla
+* **Mantén las plantillas simples** — Los diseños simples se imprimen mejor y lucen profesionales

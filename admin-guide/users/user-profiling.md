@@ -1,75 +1,75 @@
-# User Profiling
+# Perfilado de Usuarios
 
-Chamilo allows you to define custom profile fields (extra fields) to capture additional information about users beyond the standard name, email, and role.
+Chamilo permite definir campos de perfil personalizados (campos adicionales) para capturar información adicional sobre los usuarios más allá del nombre, correo electrónico y rol estándar.
 
-## Extra Profile Fields
+## Campos de Perfil Adicionales
 
-![The extra profile fields list showing custom fields with name, type, and visibility settings](/.gitbook/assets/admin-extra-fields-list.png)
+![Lista de campos de perfil adicionales que muestra campos personalizados con nombre, tipo y configuraciones de visibilidad](/.gitbook/assets/admin-extra-fields-list.png)
 
-Extra fields let you store metadata specific to your organization, such as:
+Los campos adicionales te permiten almacenar metadatos específicos de tu organización, como:
 
-* Employee ID
-* Department
-* Job title
-* Location/office
-* Phone number
-* Custom identifiers
+* ID de empleado
+* Departamento
+* Cargo
+* Ubicación/oficina
+* Número de teléfono
+* Identificadores personalizados
 
-## Creating Extra Fields
+## Creación de Campos Adicionales
 
-1. From the administration panel, navigate to **Extra fields** or **Profile fields**
-2. Click **Add**
-3. Configure the field:
-   * **Name** — The field title shown to users
-   * **Description** — Optional description
-   * **Helper text** — To be shown under the field in any form including it
-   * **Field type** — Text, dropdown, date, checkbox, etc.
-   * **Field label** — The internal name of the field, for plugins integration 
-   * **Possible values** — If the field is a selector between those values 
-   * **Default value** — An optional default
-   * **Visible to self** — Whether the field is visible on the user profile by the user itself
-   * **Visible to others** — Whether the field is visible to other users of the platform
-   * **Can change** — Whether the user can change its own field by himself (or whether only the admins can)
-   * **Filter** — If this is a selector-type field, whether to include it as a filter in administrative pages (e.g. to subscribe users to courses or sessions)
-   * **Order** — If you want to manage the display order of the fields, you will have to give a numerical order to each field
-   * **Remove on anonymization** — Important for privacy rules & laws: If the user is anonymized but not deleted, should this field be considered as potential holder of personally identifiable data? 
-4. Save
+1. Desde el panel de administración, navega a **Campos adicionales** o **Campos de perfil**
+2. Haz clic en **Agregar**
+3. Configura el campo:
+   * **Nombre** — El título del campo que se muestra a los usuarios
+   * **Descripción** — Descripción opcional
+   * **Texto de ayuda** — Se muestra debajo del campo en cualquier formulario que lo incluya
+   * **Tipo de campo** — Texto, desplegable, fecha, casilla de verificación, etc.
+   * **Etiqueta del campo** — El nombre interno del campo, para la integración con plugins
+   * **Valores posibles** — Si el campo es un selector entre esos valores
+   * **Valor predeterminado** — Un valor predeterminado opcional
+   * **Visible para sí mismo** — Si el campo es visible en el perfil del usuario por el propio usuario
+   * **Visible para otros** — Si el campo es visible para otros usuarios de la plataforma
+   * **Puede cambiar** — Si el usuario puede cambiar su propio campo por sí mismo (o si solo los administradores pueden hacerlo)
+   * **Filtro** — Si este es un campo de tipo selector, si se debe incluir como filtro en las páginas administrativas (por ejemplo, para inscribir usuarios en cursos o sesiones)
+   * **Orden** — Si deseas gestionar el orden de visualización de los campos, deberás asignar un orden numérico a cada campo
+   * **Eliminar al anonimizar** — Importante para las normas y leyes de privacidad: Si el usuario es anonimizado pero no eliminado, ¿debería considerarse este campo como un posible contenedor de datos de identificación personal?
+4. Guardar
 
-## Field Types
+## Tipos de Campos
 
-The extra-field engine supports a broad set of input types. Common ones include:
+El motor de campos adicionales admite un amplio conjunto de tipos de entrada. Los más comunes incluyen:
 
-| Type | Description |
+| Tipo | Descripción |
 |------|-------------|
-| **Text** | A single-line text input |
-| **Textarea** | A multi-line text input |
-| **Radio** | A single-choice radio group |
-| **Dropdown / Dropdown multiple** | A list of predefined options (single or multi-select) |
-| **Double select** | Two dependent dropdowns (e.g., country → city) |
-| **Checkbox** | A yes/no toggle |
-| **Date / Date and time** | Date or date+time picker |
-| **Integer** | A numeric input |
-| **Tag** | Multiple free-form tag values |
-| **File** | File upload field |
-| **Video URL** | A URL pointing to a video |
-| **Mobile phone number** | A formatted phone number field |
-| **Timezone** | A timezone picker |
-| **Social profile** | A link to a social network profile |
-| **Divider** | A visual separator inside the form (no value) |
+| **Texto** | Entrada de texto de una sola línea |
+| **Área de texto** | Entrada de texto de varias líneas |
+| **Radio** | Grupo de opciones de selección única |
+| **Desplegable / Desplegable múltiple** | Una lista de opciones predefinidas (selección única o múltiple) |
+| **Selección doble** | Dos desplegables dependientes (por ejemplo, país → ciudad) |
+| **Casilla de verificación** | Un interruptor de sí/no |
+| **Fecha / Fecha y hora** | Selector de fecha o fecha+hora |
+| **Entero** | Entrada numérica |
+| **Etiqueta** | Múltiples valores de etiquetas de forma libre |
+| **Archivo** | Campo de carga de archivos |
+| **URL de video** | Una URL que apunta a un video |
+| **Número de teléfono móvil** | Un campo de número de teléfono formateado |
+| **Zona horaria** | Un selector de zona horaria |
+| **Perfil social** | Un enlace a un perfil de red social |
+| **Divisor** | Un separador visual dentro del formulario (sin valor) |
 
-The exact set of usable types depends on the Chamilo version; the field-type dropdown in the **Extra fields** admin page is the source of truth.
+El conjunto exacto de tipos utilizables depende de la versión de Chamilo; el desplegable de tipo de campo en la página de administración de **Campos adicionales** es la fuente de información definitiva.
 
-## Using Extra Fields
+## Uso de Campos Adicionales
 
-Extra fields appear:
+Los campos adicionales aparecen:
 
-* In the user creation (if visible to self) and edit forms
-* On user profile pages (if visible to self)
-* In user imports (you can include extra field values in CSV imports)
-* In exports and reports (filter or group by extra field values)
+* En los formularios de creación (si son visibles para sí mismo) y edición de usuarios
+* En las páginas de perfil de usuario (si son visibles para sí mismo)
+* En las importaciones de usuarios (puedes incluir valores de campos adicionales en importaciones CSV)
+* En exportaciones e informes (filtrar o agrupar por valores de campos adicionales)
 
-## Tips
+## Consejos
 
-* **Plan before creating** — Define what information you need before creating fields, as changing field types after data has been entered can be problematic
-* **Use dropdowns for consistency** — When a field has a known set of possible values, use a dropdown instead of free text to ensure data consistency
-* **Use for reporting** — Extra fields are useful for filtering reports (e.g., "show all users in Department X who completed Training Y")
+* **Planifica antes de crear** — Define qué información necesitas antes de crear campos, ya que cambiar los tipos de campo después de que se hayan ingresado datos puede ser problemático
+* **Usa desplegables para consistencia** — Cuando un campo tiene un conjunto conocido de valores posibles, usa un desplegable en lugar de texto libre para garantizar la consistencia de los datos
+* **Úsalos para informes** — Los campos adicionales son útiles para filtrar informes (por ejemplo, "mostrar todos los usuarios del Departamento X que completaron la Capacitación Y")

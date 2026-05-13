@@ -1,249 +1,234 @@
-# Security Settings
+# Configuraciones de Seguridad
 
-Login protection, password policy, content security headers, two-factor authentication, and the lightweight intrusion detection system.
+Protección de inicio de sesión, política de contraseñas, encabezados de seguridad de contenido, autenticación de dos factores y el sistema ligero de detección de intrusos.
 
-Access these settings under **Administration > Configuration settings > Security**. This category contains **31 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+Acceda a estas configuraciones en **Administración > Configuraciones de configuración > Seguridad**. Esta categoría contiene **31 configuraciones**, listadas a continuación con el título y el comentario incluidos en los datos predefinidos de la plataforma (`SettingsCurrentFixtures.php`).
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> El nombre de la variable en el código se muestra en monospace. Úselo cuando realice scripts a través de la API o cuando necesite cambiar estas configuraciones a nivel global editando [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
 
-## Settings
+## Configuraciones
 
 ### `2fa_enable`
 
-**Enable 2FA**
+**Habilitar 2FA**
 
-Add fields in the password update page to enable 2FA using a TOTP authenticator app. When disabled globally, users won't see 2FA fields and won't be prompted for 2FA at login, even if they had enabled it previously.
+Añade campos en la página de actualización de contraseña para habilitar 2FA usando una aplicación de autenticación TOTP. Cuando está deshabilitado globalmente, los usuarios no verán los campos de 2FA y no se les pedirá 2FA al iniciar sesión, incluso si lo habían habilitado previamente.
 
-*Default: `false`*
+*Predeterminado: `false`*
 
 ### `access_to_personal_file_for_all`
 
-**Access to personal file for all**
+**Acceso a archivos personales para todos**
 
-Allows access to all personal files without restriction
+Permite el acceso a todos los archivos personales sin restricciones.
 
-*Default: `false`*
-
+*Predeterminado: `false`*
 
 ### `admins_can_set_users_pass`
 
-**Admins can set users passwords manually**
+**Los administradores pueden establecer contraseñas de usuarios manualmente**
 
-[inferred] When enabled, administrators can manually set user passwords directly without requiring users to reset them.
+[Inferido] Cuando está habilitado, los administradores pueden establecer manualmente las contraseñas de los usuarios directamente sin requerir que los usuarios las restablezcan.
 
 ### `allow_captcha`
 
 **CAPTCHA**
 
-Enable a CAPTCHA on the login form, inscription form and lost password form to avoid password hammering
+Habilita un CAPTCHA en el formulario de inicio de sesión, formulario de inscripción y formulario de contraseña perdida para evitar ataques de fuerza bruta en contraseñas.
 
-*Default: `false`*
+*Predeterminado: `false`*
 
 ### `allow_online_users_by_status`
 
-**Filter users that can be seen as online**
+**Filtrar usuarios que pueden verse como conectados**
 
-Limits online user visibility to specific user roles.
+Limita la visibilidad de usuarios en línea a roles de usuario específicos.
 
 ### `allow_strength_pass_checker`
 
-**Password strength checker**
+**Comprobador de fortaleza de contraseña**
 
-Enable this option to add a visual indicator of password strength, when the user changes his/her password. This will NOT prevent bad passwords to be added, it only acts as a visual helper.
+Habilita esta opción para agregar un indicador visual de la fortaleza de la contraseña cuando el usuario cambia su contraseña. Esto NO evitará que se añadan contraseñas débiles, solo actúa como una ayuda visual.
 
-*Default: `true`*
-
+*Predeterminado: `true`*
 
 ### `anonymous_autoprovisioning`
 
-**Auto-provision more anonymous users**
+**Autoaprovisionamiento de más usuarios anónimos**
 
-Dynamically creates new anonymous users to support high visitor traffic.
+Crea dinámicamente nuevos usuarios anónimos para soportar un alto tráfico de visitantes.
 
-*Default: `false`*
-
+*Predeterminado: `false`*
 
 ### `captcha_number_mistakes_to_block_account`
 
-**CAPTCHA mistakes allowance**
+**Tolerancia de errores en CAPTCHA**
 
-The number of times a user can make a mistake on the CAPTCHA box before his account is locked out.
+El número de veces que un usuario puede equivocarse en el cuadro de CAPTCHA antes de que su cuenta sea bloqueada.
 
 ### `captcha_time_to_block`
 
-**CAPTCHA account locking time**
+**Tiempo de bloqueo de cuenta por CAPTCHA**
 
-If the user reaches the maximum allowance for login mistakes (when using the CAPTCHA), his/her account will be locked for this number of minutes.
+Si el usuario alcanza el máximo de errores permitidos en el inicio de sesión (cuando usa CAPTCHA), su cuenta será bloqueada durante este número de minutos.
 
 ### `check_password`
 
-**Check password requirements**
+**Verificar requisitos de contraseña**
 
-Enable validation of the password requirements defined above during password creation or password update.
+Habilita la validación de los requisitos de contraseña definidos anteriormente durante la creación o actualización de contraseñas.
 
-*Default: `false`*
-
+*Predeterminado: `false`*
 
 ### `filter_terms`
 
-**Filter terms**
+**Filtrar términos**
 
-Give a list of terms, one by line, to be filtered out of web pages and e-mails. These terms will be replaced by ***.
+Proporciona una lista de términos, uno por línea, que serán filtrados de las páginas web y correos electrónicos. Estos términos serán reemplazados por ***.
 
 ### `force_renew_password_at_first_login`
 
-**Force password renewal at first login**
+**Forzar renovación de contraseña en el primer inicio de sesión**
 
-This is one simple measure to increase the security of your portal by asking users to immediately change their password, so the one that was transfered by e-mail is no longer valid and they then will use one that they came up with and that they are the only person to know.
+Esta es una medida simple para aumentar la seguridad de tu portal al pedir a los usuarios que cambien inmediatamente su contraseña, de modo que la que fue transferida por correo electrónico ya no sea válida y utilicen una que ellos mismos hayan creado y que solo ellos conozcan.
 
-*Default: `false`*
-
+*Predeterminado: `false`*
 
 ### `hide_breadcrumb_if_not_allowed`
 
-**Hide breadcrumb if 'not allowed'**
+**Ocultar migajas de pan si 'no permitido'**
 
-If the user is not allowed to access a specific page, also hide the breadcrumb. This increases security by avoiding the display of unnecessary information.
+Si el usuario no tiene permitido acceder a una página específica, también se ocultan las migajas de pan. Esto aumenta la seguridad al evitar la visualización de información innecesaria.
 
-*Default: `false`*
-
+*Predeterminado: `false`*
 
 ### `login_max_attempt_before_blocking_account`
 
-**Max login attempts before lockdown**
+**Máximo de intentos de inicio de sesión antes del bloqueo**
 
-Number of failed login attempts to tolerate before the user account is locked and has to be unlocked by an admin.
+Número de intentos fallidos de inicio de sesión que se toleran antes de que la cuenta del usuario sea bloqueada y deba ser desbloqueada por un administrador.
 
-*Default: `0`*
+*Predeterminado: `0`*
 
 ### `password_requirements`
 
-**Minimal password syntax requirements**
+**Requisitos mínimos de sintaxis de contraseña**
 
-Defines the required structure for user passwords. Example: {"min":{"length":8,"lowercase":1,"uppercase":1,"numeric":1,"specials":1}}. Use "specials" (plural) to require special characters.
+Define la estructura requerida para las contraseñas de los usuarios. Ejemplo: {"min":{"length":8,"lowercase":1,"uppercase":1,"numeric":1,"specials":1}}. Usa "specials" (plural) para requerir caracteres especiales.
 
 ### `password_rotation_days`
 
-**Password rotation interval (days)**
+**Intervalo de rotación de contraseña (días)**
 
-Number of days before users must rotate their password (0 = disabled).
+Número de días antes de que los usuarios deban rotar su contraseña (0 = deshabilitado).
 
-*Default: `0`*
-
+*Predeterminado: `0`*
 
 ### `prevent_multiple_simultaneous_login`
 
-**Prevent simultaneous login**
+**Evitar inicio de sesión simultáneo**
 
-Prevent users connecting with the same account more than once. This is a good option on pay-per-access portals, but might be restrictive during testing as only one browser can connect with any given account.
+Impide que los usuarios se conecten con la misma cuenta más de una vez. Esta es una buena opción en portales de pago por acceso, pero puede ser restrictiva durante las pruebas, ya que solo un navegador puede conectarse con una cuenta dada.
 
-*Default: `false`*
-
+*Predeterminado: `false`*
 
 ### `proxy_settings`
 
-**Proxy settings**
+**Configuraciones de proxy**
 
-Some features of Chamilo will connect to the exterior from the server. For example to make sure an external content exists when creating a link or showing an embedded page in the learning path. If your Chamilo server uses a proxy to get out of its network, this would be the place to configure it.
+Algunas funcionalidades de Chamilo se conectan al exterior desde el servidor. Por ejemplo, para asegurarse de que un contenido externo existe al crear un enlace o mostrar una página incrustada en la ruta de aprendizaje. Si tu servidor Chamilo usa un proxy para salir de su red, este sería el lugar para configurarlo.
 
 ### `security_block_inactive_users_immediately`
 
-**Block disabled users immediately**
+**Bloquear usuarios desactivados inmediatamente**
 
-Immediately block users who have been disabled by the admin through users management. Otherwise, users who have been disabled will keep their previous privileges until they logout.
+Bloquea de inmediato a los usuarios que han sido desactivados por el administrador a través de la gestión de usuarios. De lo contrario, los usuarios desactivados mantendrán sus privilegios anteriores hasta que cierren sesión.
 
-*Default: `false`*
+*Predeterminado: `false`*
 
-
+---
 ### `security_content_policy`
 
-**Content Security Policy**
+**Política de Seguridad de Contenido**
 
-Content Security Policy is an effective measure to protect your site from XSS attacks. By whitelisting sources of approved content, you can prevent the browser from loading malicious assets. This setting is particularly complicated to set with WYSIWYG editors, but if you add all domains that you want to authorize for iframes inclusion in the child-src statement, this example should work for you. You can prevent JavaScript from executing from external sources (including inside SVG images) by using a strict list in the 'script-src' argument. Leave blank to disable. Example setting: default-src 'self'; script-src 'self' 'unsafe-eval' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; child-src 'self' *.youtube.com yt.be *.vimeo.com *.slideshare.com;
+La Política de Seguridad de Contenido es una medida efectiva para proteger su sitio de ataques XSS. Al incluir en una lista blanca las fuentes de contenido aprobadas, puede evitar que el navegador cargue activos maliciosos. Esta configuración es particularmente complicada de establecer con editores WYSIWYG, pero si agrega todos los dominios que desea autorizar para la inclusión de iframes en la declaración child-src, este ejemplo debería funcionar para usted. Puede prevenir que JavaScript se ejecute desde fuentes externas (incluyendo dentro de imágenes SVG) utilizando una lista estricta en el argumento 'script-src'. Déjelo en blanco para desactivar. Ejemplo de configuración: default-src 'self'; script-src 'self' 'unsafe-eval' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; child-src 'self' *.youtube.com yt.be *.vimeo.com *.slideshare.com;
 
 ### `security_content_policy_report_only`
 
-**Content Security Policy report only**
+**Política de Seguridad de Contenido solo en modo informe**
 
-This setting allows you to experiment by reporting but not enforcing some Content Security Policy.
+Esta configuración le permite experimentar reportando pero sin aplicar algunas Políticas de Seguridad de Contenido.
 
 ### `security_public_key_pins`
 
-**HTTP Public Key Pinning**
+**Anclaje de Clave Pública HTTP**
 
-HTTP Public Key Pinning protects your site from MiTM attacks using rogue X.509 certificates. By whitelisting only the identities that the browser should trust, your users are protected in the event a certificate authority is compromised.
+El Anclaje de Clave Pública HTTP protege su sitio de ataques MiTM que utilizan certificados X.509 falsos. Al incluir en una lista blanca solo las identidades en las que el navegador debería confiar, sus usuarios están protegidos en caso de que una autoridad de certificación sea comprometida.
 
 ### `security_public_key_pins_report_only`
 
-**HTTP Public Key Pinning report only**
+**Anclaje de Clave Pública HTTP solo en modo informe**
 
-This setting allows you to experiment by reporting but not enforcing some HTTP Public Key Pinning.
+Esta configuración le permite experimentar reportando pero sin aplicar algunos Anclajes de Clave Pública HTTP.
 
 ### `security_referrer_policy`
 
-**Security Referrer Policy**
+**Política de Referencia de Seguridad**
 
-Referrer Policy is a new header that allows a site to control how much information the browser includes with navigation away from a document and should be set by all sites.
+La Política de Referencia es un nuevo encabezado que permite a un sitio controlar cuánta información incluye el navegador al navegar fuera de un documento y debería ser configurada por todos los sitios.
 
-*Default: `origin-when-cross-origin`*
-
+*Predeterminado: `origin-when-cross-origin`*
 
 ### `security_session_cookie_samesite_none`
 
-**Session cookie samesite**
+**Cookie de sesión samesite**
 
-Enable samesite:None parameter for session cookie. More info: https://www.chromium.org/updates/same-site and https://developers.google.com/search/blog/2020/01/get-ready-for-new-samesitenone-secure
+Habilite el parámetro samesite:None para la cookie de sesión. Más información: https://www.chromium.org/updates/same-site y https://developers.google.com/search/blog/2020/01/get-ready-for-new-samesitenone-secure
 
-*Default: `false`*
+*Predeterminado: `false`*
 
 ### `security_strict_transport`
 
-**HTTP Strict Transport Security**
+**Seguridad de Transporte Estricta HTTP**
 
-HTTP Strict Transport Security is an excellent feature to support on your site and strengthens your implementation of TLS by getting the User Agent to enforce the use of HTTPS. Recommended value: 'strict-transport-security: max-age=63072000; includeSubDomains'. See https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Strict-Transport-Security. You can include the 'preload' suffix, but this has consequences on the top level domain (TLD), so probably not to be done lightly. See https://hstspreload.org/. Leave blank to disable.
+La Seguridad de Transporte Estricta HTTP es una excelente característica para implementar en su sitio y fortalece su implementación de TLS al hacer que el Agente de Usuario fuerce el uso de HTTPS. Valor recomendado: 'strict-transport-security: max-age=63072000; includeSubDomains'. Consulte https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Strict-Transport-Security. Puede incluir el sufijo 'preload', pero esto tiene consecuencias en el dominio de nivel superior (TLD), por lo que probablemente no debe hacerse a la ligera. Consulte https://hstspreload.org/. Déjelo en blanco para desactivar.
 
 ### `security_x_content_type_options`
 
-**X-Content-Type-Options**
+**Opciones de Tipo de Contenido X**
 
-X-Content-Type-Options stops a browser from trying to MIME-sniff the content type and forces it to stick with the declared content-type. The only valid value for this header is 'nosniff'.
+Las Opciones de Tipo de Contenido X impiden que un navegador intente detectar el tipo de contenido mediante MIME-sniffing y lo obligan a adherirse al tipo de contenido declarado. El único valor válido para este encabezado es 'nosniff'.
 
-*Default: `nosniff`*
-
+*Predeterminado: `nosniff`*
 
 ### `security_x_frame_options`
 
-**X-Frame-Options**
+**Opciones de Marco X**
 
-X-Frame-Options tells the browser whether you want to allow your site to be framed or not. By preventing a browser from framing your site you can defend against attacks like clickjacking. If defining a URL here, it should define the URL(s) from which your content should be visible, not the URLs from which your site accepts content. For example, if your main URL (root_web above) is https://11.chamilo.org/, then this setting should be: 'ALLOW-FROM https://11.chamilo.org'. These headers only apply to pages where Chamilo is responsible of the HTTP headers generation (i.e. '.php' files). It does not apply to static files. If playing with this feature, make sure you also update your web server configuration to add the right headers for static files. See CDN configuration documentation above (search for 'add_header') for more information. Recommended (strict) value for this setting, if enabled: 'SAMEORIGIN'.
+Las Opciones de Marco X indican al navegador si desea permitir que su sitio sea enmarcado o no. Al evitar que un navegador enmarque su sitio, puede defenderse contra ataques como el clickjacking. Si define una URL aquí, debería especificar la(s) URL(s) desde las cuales su contenido debería ser visible, no las URL desde las cuales su sitio acepta contenido. Por ejemplo, si su URL principal (root_web arriba) es https://11.chamilo.org/, entonces esta configuración debería ser: 'ALLOW-FROM https://11.chamilo.org'. Estos encabezados solo se aplican a páginas donde Chamilo es responsable de la generación de los encabezados HTTP (es decir, archivos '.php'). No se aplica a archivos estáticos. Si experimenta con esta característica, asegúrese de actualizar también la configuración de su servidor web para agregar los encabezados correctos para archivos estáticos. Consulte la documentación de configuración de CDN arriba (busque 'add_header') para más información. Valor recomendado (estricto) para esta configuración, si está habilitada: 'SAMEORIGIN'.
 
-*Default: `SAMEORIGIN`*
-
+*Predeterminado: `SAMEORIGIN`*
 
 ### `security_xss_protection`
 
-**X-XSS-Protection**
+**Protección contra XSS**
 
-X-XSS-Protection sets the configuration for the cross-site scripting filter built into most browsers. Recommended value '1; mode=block'.
+La Protección contra XSS configura el filtro de scripting entre sitios integrado en la mayoría de los navegadores. Valor recomendado: '1; mode=block'.
 
-*Default: `1; mode=block`*
-
+*Predeterminado: `1; mode=block`*
 
 ### `user_reset_password`
 
-**Enable password reset token**
+**Habilitar token de restablecimiento de contraseña**
 
-This option allows to generate a expiring single-use token sent by e-mail to the user to reset his/her password.
+Esta opción permite generar un token de uso único con vencimiento que se envía por correo electrónico al usuario para restablecer su contraseña.
 
-*Default: `false`*
-
+*Predeterminado: `false`*
 
 ### `user_reset_password_token_limit`
 
-**Time limit for password reset token**
+**Límite de tiempo para el token de restablecimiento de contraseña**
 
-The number of seconds before the generated token automatically expires and cannot be used anymore (a new token needs to be generated).
+El número de segundos antes de que el token generado expire automáticamente y no pueda ser usado más (se necesita generar un nuevo token).
 
-*Default: `3600`*
-
-
+*Predeterminado: `3600`*

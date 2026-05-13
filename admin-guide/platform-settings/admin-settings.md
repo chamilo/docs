@@ -1,96 +1,95 @@
-# Administrator Identity Settings
+# Configuración de Identidad del Administrador
 
-Identity and contact details of the platform administrator. These values appear in the platform footer and in some system-generated emails.
+Detalles de identidad y contacto del administrador de la plataforma. Estos valores aparecen en el pie de página de la plataforma y en algunos correos electrónicos generados por el sistema.
 
-Access these settings under **Administration > Configuration settings > Administrator Identity**. This category contains **12 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+Acceda a estas configuraciones en **Administración > Configuraciones > Identidad del Administrador**. Esta categoría contiene **12 configuraciones**, listadas a continuación con el título y el comentario incluidos en los datos predefinidos de configuración de la plataforma (`SettingsCurrentFixtures.php`).
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> El nombre de la variable en el código se muestra en fuente monoespaciada. Úselo cuando realice scripts a través de la API o cuando necesite cambiar estas configuraciones a nivel global editando [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
 
-## Settings
+## Configuraciones
 
 ### `administrator_email`
 
-**Portal Administrator: e-mail**
+**Administrador del Portal: Correo Electrónico**
 
-The e-mail address of the Platform Administrator (appears in the footer on the left)
+La dirección de correo electrónico del Administrador de la Plataforma (aparece en el pie de página a la izquierda)
 
 ### `administrator_name`
 
-**Portal Administrator: First Name**
+**Administrador del Portal: Nombre**
 
-The First Name of the Platform Administrator (appears in the footer on the left)
+El nombre del Administrador de la Plataforma (aparece en el pie de página a la izquierda)
 
 ### `administrator_phone`
 
-**Portal Administrator: Phone number**
+**Administrador del Portal: Número de Teléfono**
 
-The phone number of the Platform Administrator (appears in the footer on the left)
+El número de teléfono del Administrador de la Plataforma (aparece en el pie de página a la izquierda)
 
 ### `administrator_surname`
 
-**Portal Administrator: Last Name**
+**Administrador del Portal: Apellido**
 
-The Family Name of the Platform Administrator (appears in the footer on the left)
+El apellido del Administrador de la Plataforma (aparece en el pie de página a la izquierda)
 
 ### `chamilo_latest_news`
 
-**Latest news**
+**Últimas noticias**
 
-Get the latest news from Chamilo, including security vulnerabilities and events, directly inside your administration panel. These pieces of news will be checked on the Chamilo news server every time you load the administration page and are only visible to administrators.
+Obtenga las últimas noticias de Chamilo, incluidas vulnerabilidades de seguridad y eventos, directamente en su panel de administración. Estas noticias se verificarán en el servidor de noticias de Chamilo cada vez que cargue la página de administración y solo son visibles para los administradores.
 
-*Default: `true`*
+*Predeterminado: `true`*
 
 ### `chamilo_support`
 
-**Chamilo support block**
+**Bloque de soporte de Chamilo**
 
-Get pro tips and an easy way to contact official service providers for professional support, directly from the makers of Chamilo. This block appears on your administration page, is only visible by administrators, and refreshes every time you load the administration page.
+Obtenga consejos profesionales y una forma fácil de contactar a los proveedores de servicios oficiales para soporte profesional, directamente de los creadores de Chamilo. Este bloque aparece en su página de administración, es visible solo para administradores y se actualiza cada vez que carga la página de administración.
 
-*Default: `true`*
+*Predeterminado: `true`*
 
 ### `max_anonymous_users`
 
-**Multiple anonymous users**
+**Múltiples usuarios anónimos**
 
-Enable this option to allow multiple system users for anonymous users. This is useful when using this platform as a public showroom for some courses. Having multiple anonymous users will let tracking work for the duration of the experience for several users without mixing their data (which could otherwise confuse them).
+Habilite esta opción para permitir múltiples usuarios del sistema para usuarios anónimos. Esto es útil cuando se utiliza esta plataforma como un escaparate público para algunos cursos. Tener múltiples usuarios anónimos permitirá que el seguimiento funcione durante la duración de la experiencia para varios usuarios sin mezclar sus datos (lo que de otra manera podría confundirlos).
 
-*Default: `0`*
+*Predeterminado: `0`*
 
 ### `redirect_admin_to_courses_list`
 
-**Redirect admin to courses list**
+**Redirigir al administrador a la lista de cursos**
 
-The default behaviour is to send administrators directly to the administration panel (while teachers and students are sent to the courses list or the platform homepage). Enable to redirect the administrator also to his/her courses list.
+El comportamiento predeterminado es enviar a los administradores directamente al panel de administración (mientras que los profesores y estudiantes son enviados a la lista de cursos o a la página de inicio de la plataforma). Habilite esta opción para redirigir también al administrador a su lista de cursos.
 
-*Default: `false`*
+*Predeterminado: `false`*
 
 ### `send_inscription_notification_to_general_admin_only`
 
-**Notify global admin only of new users**
+**Notificar solo al administrador global sobre nuevos usuarios**
 
-When enabled, only the global administrator receives email notifications about new user registrations instead of all administrators.
+Cuando está habilitado, solo el administrador global recibe notificaciones por correo electrónico sobre nuevos registros de usuarios en lugar de todos los administradores.
 
-*Default: `false`*
+*Predeterminado: `false`*
 
 ### `show_link_request_hrm_user`
 
-**Show link to request bond between user and HRM**
+**Mostrar enlace para solicitar vínculo entre usuario y HRM**
 
-Display a link on the profile page allowing Human Resources directors to request to be linked with a user account.
+Muestra un enlace en la página de perfil que permite a los directores de Recursos Humanos solicitar vincularse con una cuenta de usuario.
 
-*Default: `false`*
+*Predeterminado: `false`*
 
 ### `user_status_option_only_for_admin_enabled`
 
-**Hide role from normal users**
+**Ocultar rol a usuarios normales**
 
-Allows hiding users' role when this option is set to true and the following array sets the corresponding role to 'true'.
+Permite ocultar el rol de los usuarios cuando esta opción está configurada como verdadera y el siguiente arreglo establece el rol correspondiente como 'true'.
 
-*Default: `false`*
+*Predeterminado: `false`*
 
 ### `user_status_option_show_only_for_admin`
 
-**Define which roles are hidden to normal users**
+**Definir qué roles están ocultos para usuarios normales**
 
-The roles set to 'true' will only appear to administrators. Other users will not be able to see them.
-
+Los roles configurados como 'true' solo aparecerán para los administradores. Otros usuarios no podrán verlos.

@@ -1,46 +1,46 @@
-# Careers and Promotions
+# Carreras y Promociones
 
-Chamilo includes a career management system that lets you define training paths and track learner progression through structured programs.
+Chamilo incluye un sistema de gestión de carreras que permite definir trayectorias de formación y realizar un seguimiento del progreso de los estudiantes a través de programas estructurados.
 
-## Careers
+## Carreras
 
-![The careers list showing defined career paths with name and description](/.gitbook/assets/admin-careers-list.png)
+![Lista de carreras mostrando las trayectorias definidas con nombre y descripción](/.gitbook/assets/admin-careers-list.png)
 
-A **career** represents a structured training path — a sequence of training steps that a learner follows to achieve a professional goal.
+Una **carrera** representa una trayectoria de formación estructurada, es decir, una secuencia de pasos de formación que un estudiante sigue para alcanzar un objetivo profesional.
 
-### Creating a Career
+### Crear una Carrera
 
-1. From the administration panel, navigate to **Careers**
-2. Click **Create a career**
-3. Enter a **name** and **description**
-4. Save
+1. Desde el panel de administración, navega a **Carreras**
+2. Haz clic en **Crear una carrera**
+3. Ingresa un **nombre** y una **descripción**
+4. Guarda
 
-## Promotions
+## Promociones
 
-A **promotion** represents a cohort or batch of learners progressing through a career. Think of it as a group of people going through the same career path at the same time.
+Una **promoción** representa un cohorte o grupo de estudiantes que progresan a través de una carrera. Piensa en ello como un grupo de personas que recorren la misma trayectoria de carrera al mismo tiempo.
 
-### Linking to Sessions
+### Vinculación a Sesiones
 
-After creating a promotion, you link sessions to it. This defines the sequence of training a learner must complete.
+Después de crear una promoción, vinculas sesiones a ella. Esto define la secuencia de formación que un estudiante debe completar.
 
-You can later replicate promotions to help creating the next promotion with copies of the same sessions, so your next promotion can be built in an instant.
+Posteriormente, puedes replicar promociones para facilitar la creación de la próxima promoción con copias de las mismas sesiones, de modo que tu próxima promoción pueda configurarse en un instante.
 
-### Creating a Promotion
+### Crear una Promoción
 
-1. Navigate to **Promotions**
-2. Click **Create a promotion**
-3. Enter a **name** and **description**
-4. Link it to a **career**
-5. Assign **sessions** to the promotion
-6. Save
+1. Navega a **Promociones**
+2. Haz clic en **Crear una promoción**
+3. Ingresa un **nombre** y una **descripción**
+4. Vincúlala a una **carrera**
+5. Asigna **sesiones** a la promoción
+6. Guarda
 
-## How It Fits Together
+## Cómo se Integra Todo
 
-* A **career** defines the path (e.g., "Junior Developer Certification")
-* A **promotion** represents a cohort (e.g., "Class of March 2026")
-* **Sessions** within the promotion deliver the actual training content
+* Una **carrera** define la trayectoria (por ejemplo, "Certificación de Desarrollador Junior")
+* Una **promoción** representa un cohorte (por ejemplo, "Clase de marzo de 2026")
+* Las **sesiones** dentro de la promoción entregan el contenido de formación real
 
-## Tips
+## Consejos
 
-* **Use for structured programs** — Careers and promotions are most useful for multi-stage training programs where learners progress through a defined sequence
-* **Track completion** — Use the reporting tools to monitor how promotions are progressing through their career paths
+* **Úsalo para programas estructurados** — Las carreras y promociones son más útiles para programas de formación de múltiples etapas donde los estudiantes progresan a través de una secuencia definida
+* **Seguimiento de finalización** — Utiliza las herramientas de informes para monitorear cómo las promociones avanzan a través de sus trayectorias de carrera

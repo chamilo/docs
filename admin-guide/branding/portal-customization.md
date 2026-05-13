@@ -1,20 +1,20 @@
-# Portal Customization
+# Personalización del Portal
 
-Customize how your Chamilo platform looks and what information is displayed to users.
+Personaliza cómo se ve tu plataforma Chamilo y qué información se muestra a los usuarios.
 
-## Platform Identity
+## Identidad de la Plataforma
 
-![The portal customization page showing platform identity settings for name, logo, and institution](/.gitbook/assets/admin-portal-customization.png)
+![Página de personalización del portal mostrando configuraciones de identidad de la plataforma para nombre, logotipo e institución](/.gitbook/assets/admin-portal-customization.png)
 
-Configure the basic identity of your portal:
+Configura la identidad básica de tu portal:
 
-* **Platform name** — The name shown in the browser title and throughout the interface
-* **Institution name** — Your organization's name
-* **Institution URL** — A link to your organization's website
-* **Platform logo** — Upload your organization's logo (displayed in the top bar)
+* **Nombre de la plataforma** — El nombre que se muestra en el título del navegador y a lo largo de la interfaz
+* **Nombre de la institución** — El nombre de tu organización
+* **URL de la institución** — Un enlace al sitio web de tu organización
+* **Logotipo de la plataforma** — Sube el logotipo de tu organización (se muestra en la barra superior)
 
-## Tips
+## Consejos
 
-* **Keep the homepage clean** — Too much content on the homepage can be overwhelming. Focus on essential announcements and course access.
-* **Update regularly** — Keep system announcements current and remove outdated ones
-* **Upload a high-quality logo** — The logo is one of the most visible branding elements. Use a crisp, appropriately sized image.
+* **Mantén la página de inicio limpia** — Demasiado contenido en la página de inicio puede ser abrumador. Enfócate en anuncios esenciales y acceso a cursos.
+* **Actualiza regularmente** — Mantén los anuncios del sistema actualizados y elimina los obsoletos
+* **Sube un logotipo de alta calidad** — El logotipo es uno de los elementos de marca más visibles. Usa una imagen nítida y de tamaño adecuado.

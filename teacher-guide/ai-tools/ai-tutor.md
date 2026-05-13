@@ -1,53 +1,53 @@
-# AI Tutor
+# Tutor de IA
 
-The AI Tutor is a chatbot integrated into Chamilo that learners can interact with to ask course-related questions. It provides instant, context-aware responses powered by a large language model.
+El Tutor de IA es un chatbot integrado en Chamilo con el que los estudiantes pueden interactuar para hacer preguntas relacionadas con el curso. Proporciona respuestas instantáneas y contextuales impulsadas por un modelo de lenguaje de gran escala.
 
-## How It Works
+## Cómo Funciona
 
-When the AI Tutor is enabled for a course, learners see a chat interface where they can:
+Cuando el Tutor de IA está habilitado para un curso, los estudiantes ven una interfaz de chat donde pueden:
 
-* **Ask questions** about course content
-* **Get explanations** of concepts covered in the course
-* **Receive guidance** without waiting for the teacher to respond
+* **Hacer preguntas** sobre el contenido del curso
+* **Obtener explicaciones** de los conceptos tratados en el curso
+* **Recibir orientación** sin tener que esperar la respuesta del profesor
 
-The AI Tutor uses the course context to provide relevant answers. It is designed to supplement your teaching, not replace it.
+El Tutor de IA utiliza el contexto del curso para proporcionar respuestas relevantes. Está diseñado para complementar tu enseñanza, no para reemplazarla.
 
-## Enabling the AI Tutor
+## Habilitar el Tutor de IA
 
-The AI Tutor requires two levels of configuration:
+El Tutor de IA requiere dos niveles de configuración:
 
-1. **Platform level** — The administrator must enable AI helpers and configure at least one AI provider (see [AI Configuration](../../admin-guide/integrations/ai-configuration.md))
-2. **Course level** — The AI Tutor must be enabled in the course settings (a simple on/off toggle). The provider used for the chat is the one configured by the administrator.
+1. **Nivel de plataforma** — El administrador debe habilitar los asistentes de IA y configurar al menos un proveedor de IA (consulta [Configuración de IA](../../admin-guide/integrations/ai-configuration.md))
+2. **Nivel de curso** — El Tutor de IA debe estar habilitado en la configuración del curso (un simple interruptor de encendido/apagado). El proveedor utilizado para el chat es el configurado por el administrador.
 
-## The Chat Interface
+## La Interfaz de Chat
 
-![The AI Tutor chat interface showing a conversation between a learner and the AI](/.gitbook/assets/ai-tutor-chat.png)
+![La interfaz de chat del Tutor de IA mostrando una conversación entre un estudiante y la IA](/.gitbook/assets/ai-tutor-chat.png)
 
-The AI Tutor appears as a **docked chat panel** within the course. Learners can:
+El Tutor de IA aparece como un **panel de chat anclado** dentro del curso. Los estudiantes pueden:
 
-* Type messages and receive AI-generated responses
-* View their conversation history
-* Reset the conversation to start fresh
+* Escribir mensajes y recibir respuestas generadas por la IA
+* Ver el historial de sus conversaciones
+* Restablecer la conversación para empezar de nuevo
 
-The chat interface shows the exchange between the learner and the AI in a familiar messaging format.
+La interfaz de chat muestra el intercambio entre el estudiante y la IA en un formato de mensajería familiar.
 
-## Important Behavior
+## Comportamiento Importante
 
-* **Course context only** — The AI Tutor is only available inside a course, not on the general platform
-* **Disabled during exams** — The AI Tutor is automatically disabled when a learner is taking an exercise, to prevent cheating
-* **Conversation per learner** — Each learner has their own private conversation with the AI Tutor, and the prompt context only includes the most recent messages
-* **Provider failover** — If the configured provider fails, Chamilo falls back to another available provider so the chat keeps working
+* **Solo en el contexto del curso** — El Tutor de IA solo está disponible dentro de un curso, no en la plataforma general
+* **Deshabilitado durante exámenes** — El Tutor de IA se desactiva automáticamente cuando un estudiante está realizando un ejercicio, para evitar trampas
+* **Conversación por estudiante** — Cada estudiante tiene su propia conversación privada con el Tutor de IA, y el contexto del prompt solo incluye los mensajes más recientes
+* **Recurso alternativo de proveedor** — Si el proveedor configurado falla, Chamilo recurre a otro proveedor disponible para que el chat siga funcionando
 
-## As a Teacher
+## Como Profesor
 
-You should be aware that:
+Debes tener en cuenta que:
 
-* The AI Tutor may not always give perfect answers — encourage learners to verify important information
-* You can review AI Tutor usage through platform tracking
-* The AI Tutor is a complement to your teaching, not a substitute. Use it alongside forums, announcements, and direct messaging for comprehensive learner support.
+* El Tutor de IA no siempre dará respuestas perfectas — anima a los estudiantes a verificar la información importante
+* Puedes revisar el uso del Tutor de IA a través del seguimiento de la plataforma
+* El Tutor de IA es un complemento de tu enseñanza, no un sustituto. Úsalo junto con foros, anuncios y mensajería directa para ofrecer un soporte integral a los estudiantes.
 
-## Tips
+## Consejos
 
-* **Set expectations** — Tell learners at the start of the course that an AI Tutor is available and explain how to use it appropriately
-* **Encourage critical thinking** — Remind learners to think critically about AI-generated answers
-* **Use for frequently asked questions** — The AI Tutor is especially useful for handling common questions that you would otherwise answer repeatedly
+* **Establece expectativas** — Informa a los estudiantes al inicio del curso que hay un Tutor de IA disponible y explica cómo usarlo adecuadamente
+* **Fomenta el pensamiento crítico** — Recuerda a los estudiantes que piensen de manera crítica sobre las respuestas generadas por la IA
+* **Úsalo para preguntas frecuentes** — El Tutor de IA es especialmente útil para manejar preguntas comunes que de otro modo tendrías que responder repetidamente

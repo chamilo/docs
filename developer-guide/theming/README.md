@@ -1,7 +1,7 @@
-# Theming
+# Personalización de Temas
 
-Chamilo 2.0 supports visual customization through color themes, CSS/Tailwind, and Twig templates.
+Chamilo 2.0 permite la personalización visual a través de temas de color, CSS/Tailwind y plantillas Twig.
 
-* **[Color Themes](color-themes.md)** — The color theme system
-* **[CSS and Tailwind](css-and-tailwind.md)** — Styling architecture
-* **[Twig Templates](twig-templates.md)** — Server-side template structure
+* **[Temas de Color](color-themes.md)** — El sistema de temas de color
+* **[CSS y Tailwind](css-and-tailwind.md)** — Arquitectura de estilos
+* **[Plantillas Twig](twig-templates.md)** — Estructura de plantillas del lado del servidor

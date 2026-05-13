@@ -1,80 +1,79 @@
-# Announcements Settings
+# Configuración de Anuncios
 
-Behaviour of the course **Announcements** tool — how announcements are sent and scheduled.
+Comportamiento de la herramienta de **Anuncios** del curso: cómo se envían y programan los anuncios.
 
-Access these settings under **Administration > Configuration settings > Announcements**. This category contains **9 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+Accede a estas configuraciones en **Administración > Configuraciones de configuración > Anuncios**. Esta categoría contiene **9 configuraciones**, listadas a continuación con el título y el comentario incluidos en los datos predefinidos de configuración de la plataforma (`SettingsCurrentFixtures.php`).
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> El nombre de la variable en el código se muestra en monospace. Úsalo cuando hagas scripts a través de la API o cuando necesites cambiar estas configuraciones a nivel global editando [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
 
-## Settings
+## Configuraciones
 
 ### `allow_careers_in_global_announcements`
 
-**Link global announcements with careers and promotions**
+**Vincular anuncios globales con carreras y promociones**
 
-When enabled, global announcements can be associated with careers and promotions for targeted distribution.
+Cuando está habilitado, los anuncios globales pueden asociarse con carreras y promociones para una distribución dirigida.
 
-*Default: `false`*
+*Predeterminado: `false`*
 
 ### `allow_coach_to_edit_announcements`
 
-**Allow coaches to always edit announcements**
+**Permitir a los entrenadores editar siempre los anuncios**
 
-Allow coaches to always edit announcements inside active or past sessions.
+Permite a los entrenadores editar siempre los anuncios dentro de sesiones activas o pasadas.
 
-*Default: `false`*
+*Predeterminado: `false`*
 
 ### `allow_scheduled_announcements`
 
-**Enable scheduled announcements in sessions**
+**Habilitar anuncios programados en sesiones**
 
-Allows the sessions managers to set announcements that will be triggered on specific dates or after/before a number of days of start/end of the session. Enabling this feature requires you to setup a cron task.
+Permite a los gestores de sesiones configurar anuncios que se activarán en fechas específicas o después/antes de un número de días del inicio/fin de la sesión. Habilitar esta función requiere configurar una tarea cron.
 
-*Default: `false`*
+*Predeterminado: `false`*
 
 ### `announcements_hide_send_to_hrm_users`
 
-**Hide option to send announcements to HR users**
+**Ocultar la opción de enviar anuncios a usuarios de RRHH**
 
-Remove the checkbox to enable sending announcements to users with HR roles (still requires to confirm in the announcements tool).
+Elimina la casilla de verificación para habilitar el envío de anuncios a usuarios con roles de RRHH (aún requiere confirmación en la herramienta de anuncios).
 
-*Default: `true`*
+*Predeterminado: `true`*
 
 ### `course_announcement_scheduled_by_date`
 
-**Date-based announcements**
+**Anuncios basados en fechas**
 
-Allow teachers to configure announcements that will be sent at specific dates. This requires you to setup a cron task on cron/course_announcement.php running at least once daily.
+Permite a los profesores configurar anuncios que se enviarán en fechas específicas. Esto requiere configurar una tarea cron en cron/course_announcement.php que se ejecute al menos una vez al día.
 
-*Default: `false`*
+*Predeterminado: `false`*
 
 ### `disable_announcement_attachment`
 
-**Disable attachment to announcements**
+**Deshabilitar adjuntos en anuncios**
 
-Even though attachments in this version are dealt in an elegant way and do not multiply on disk, you might want to disable attachments altogether if you want to avoid excesses.
+Aunque en esta versión los adjuntos se manejan de manera elegante y no se multiplican en el disco, podrías querer deshabilitar los adjuntos por completo si deseas evitar excesos.
 
-*Default: `false`*
+*Predeterminado: `false`*
 
 ### `disable_delete_all_announcements`
 
-**Disable button to delete all announcements**
+**Deshabilitar el botón para eliminar todos los anuncios**
 
-Select 'Yes' to remove the button to delete all announcements, as this can be used by mistake by teachers.
+Selecciona 'Sí' para eliminar el botón que permite borrar todos los anuncios, ya que los profesores podrían usarlo por error.
 
-*Default: `false`*
+*Predeterminado: `false`*
 
 ### `hide_announcement_sent_to_users_info`
 
-**Hide 'sent to' in announcements**
+**Ocultar 'enviado a' en los anuncios**
 
-Select 'Yes' to avoid showing to whom an announcement has been sent.
+Selecciona 'Sí' para evitar mostrar a quién se ha enviado un anuncio.
 
-*Default: `false`*
+*Predeterminado: `false`*
 
 ### `hide_send_to_hrm_users`
 
-**Hide the option to send an announcement copy to HRM**
+**Ocultar la opción de enviar una copia del anuncio a RRHH**
 
-In the announcements form, an option normally appears to allow teachers to send a copy of the announcement to the user's HRM. Set this to 'Yes' to remote the option (and *not* send the copy).
-
+En el formulario de anuncios, normalmente aparece una opción que permite a los profesores enviar una copia del anuncio al RRHH del usuario. Configura esto en 'Sí' para eliminar la opción (y *no* enviar la copia).

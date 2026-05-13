@@ -1,22 +1,22 @@
-# Chamilo 2.0 Documentation
+# Documentación de Chamilo 2.0
 
-Welcome to the official documentation for **Chamilo 2.0**, the open-source e-learning platform.
+Bienvenido a la documentación oficial de **Chamilo 2.0**, la plataforma de e-learning de código abierto.
 
-This documentation is organized into three guides, each tailored to a specific audience:
+Esta documentación está organizada en tres guías, cada una adaptada a una audiencia específica:
 
-* [**Teacher Guide**](teacher-guide/) — For instructors and trainers: create courses, add content, assess learners, and track progress.
-* [**Administration Guide**](admin-guide/) — For platform administrators: install, configure, and manage the Chamilo platform.
-* [**Developer Guide**](developer-guide/) — For developers: understand the architecture, build plugins, use the API, and contribute to the project.
+* [**Guía para Profesores**](teacher-guide/) — Para instructores y formadores: crear cursos, agregar contenido, evaluar a los estudiantes y seguir su progreso.
+* [**Guía de Administración**](admin-guide/) — Para administradores de la plataforma: instalar, configurar y gestionar la plataforma Chamilo.
+* [**Guía para Desarrolladores**](developer-guide/) — Para desarrolladores: comprender la arquitectura, crear complementos, usar la API y contribuir al proyecto.
 
-## What's New in Chamilo 2.0
+## Novedades en Chamilo 2.0
 
-Chamilo 2.0 is a major release with a completely redesigned interface and many new features:
+Chamilo 2.0 es una versión importante con una interfaz completamente rediseñada y muchas nuevas funcionalidades:
 
-* **Modern interface** — Built with Vue 3 and PrimeVue for a faster, more responsive experience
-* **AI-powered tools** — Generate exercises, learning paths, and get AI-assisted grading
-* **REST API** — Full API Platform-based REST API with JWT authentication
-* **New authentication options** — OAuth2 (Azure, Keycloak, Facebook), SCIM user provisioning
-* **LTI 1.3** — Connect external learning tools seamlessly
-* **Cloud storage** — Native support for Azure Blob, AWS S3, and Google Cloud Storage
-* **Color themes** — Customizable platform branding with theme support
-* **OnlyOffice integration** — Edit documents collaboratively within the platform
+* **Interfaz moderna** — Construida con Vue 3 y PrimeVue para una experiencia más rápida y receptiva
+* **Herramientas impulsadas por IA** — Generar ejercicios, rutas de aprendizaje y obtener calificaciones asistidas por IA
+* **REST API** — API REST completa basada en API Platform con autenticación JWT
+* **Nuevas opciones de autenticación** — OAuth2 (Azure, Keycloak, Facebook), aprovisionamiento de usuarios SCIM
+* **LTI 1.3** — Conectar herramientas de aprendizaje externas de manera fluida
+* **Almacenamiento en la nube** — Soporte nativo para Azure Blob, AWS S3 y Google Cloud Storage
+* **Temas de color** — Personalización de la marca de la plataforma con soporte para temas
+* **Integración con OnlyOffice** — Editar documentos de forma colaborativa dentro de la plataforma

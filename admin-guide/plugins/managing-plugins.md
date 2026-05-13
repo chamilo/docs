@@ -1,46 +1,46 @@
-# Managing Plugins
+# Gestión de Complementos
 
-## Accessing the Plugin Manager
+## Acceso al Gestor de Complementos
 
-![The plugin manager showing a list of available plugins with activation toggles and configuration options](/.gitbook/assets/admin-plugin-manager.png)
+![El gestor de complementos mostrando una lista de complementos disponibles con interruptores de activación y opciones de configuración](/.gitbook/assets/admin-plugin-manager.png)
 
-From the administration panel, click **Manage plugins** to see the list of available plugins.
+Desde el panel de administración, haz clic en **Gestionar complementos** para ver la lista de complementos disponibles.
 
-## Plugin States
+## Estados de los Complementos
 
-Each plugin has one of two states:
+Cada complemento tiene uno de dos estados:
 
-* **Active** — The plugin is enabled and its features are available on the platform
-* **Inactive** — The plugin is installed but disabled
+* **Activo** — El complemento está habilitado y sus funciones están disponibles en la plataforma
+* **Inactivo** — El complemento está instalado pero deshabilitado
 
-## Activating a Plugin
+## Activación de un Complemento
 
-1. Find the plugin in the list
-2. Click **Install**, then **Enable** or toggle it on
-3. Configure the plugin settings (if applicable, find the **Configure** button)
-4. Save
-5. If recommended in the README, enable it in a specific **region**
+1. Encuentra el complemento en la lista
+2. Haz clic en **Instalar**, luego en **Habilitar** o actívalo mediante el interruptor
+3. Configura los ajustes del complemento (si aplica, busca el botón **Configurar**)
+4. Guarda los cambios
+5. Si se recomienda en el README, habilítalo en una **región** específica
 
-Some plugins add tools to courses, new pages to the platform, or additional functionality to existing features.
+Algunos complementos añaden herramientas a los cursos, nuevas páginas a la plataforma o funcionalidades adicionales a características existentes.
 
-## Configuring a Plugin
+## Configuración de un Complemento
 
-Many plugins have configuration options. After activating a plugin:
+Muchos complementos tienen opciones de configuración. Después de activar un complemento:
 
-1. Click the **Configure** button next to the plugin
-2. Fill in the required configuration (API keys, URLs, options, etc.)
-3. Save
+1. Haz clic en el botón **Configurar** junto al complemento
+2. Completa la configuración requerida (claves API, URLs, opciones, etc.)
+3. Guarda los cambios
 
-## Deactivating a Plugin
+## Desactivación de un Complemento
 
-1. Find the plugin in the list
-2. Click **Disable** or toggle it off
-3. The plugin's features are immediately removed from the platform, but the plugin is still installed and maintains its configuration until you **Uninstall** it
+1. Encuentra el complemento en la lista
+2. Haz clic en **Deshabilitar** o desactívalo mediante el interruptor
+3. Las funciones del complemento se eliminan de inmediato de la plataforma, pero el complemento sigue instalado y mantiene su configuración hasta que lo **Desinstales**
 
-Disabling a plugin does not delete its data. If you enable it later, the data is still available.
+Deshabilitar un complemento no elimina sus datos. Si lo habilitas más tarde, los datos seguirán estando disponibles.
 
-## Tips
+## Consejos
 
-* **Only activate what you need** — Each active plugin adds some overhead. Keep unused plugins deactivated.
-* **Test before production** — Activate new plugins in a test environment first
-* **Check compatibility** — After upgrading Chamilo, verify that all active plugins still work correctly
+* **Activa solo lo que necesites** — Cada complemento activo añade cierta carga adicional. Mantén los complementos no utilizados desactivados.
+* **Prueba antes de producción** — Activa nuevos complementos en un entorno de prueba primero
+* **Verifica la compatibilidad** — Después de actualizar Chamilo, asegúrate de que todos los complementos activos sigan funcionando correctamente

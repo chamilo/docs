@@ -1,31 +1,31 @@
-# Developer Guide
+# Guía para Desarrolladores
 
-Welcome to the Chamilo 2.0 Developer Guide. This guide is for developers who want to understand the Chamilo architecture, extend the platform with plugins, use the API, customize the interface, or contribute to the project.
+Bienvenido a la Guía para Desarrolladores de Chamilo 2.0. Esta guía está dirigida a desarrolladores que desean comprender la arquitectura de Chamilo, extender la plataforma con complementos, utilizar la API, personalizar la interfaz o contribuir al proyecto.
 
-## Architecture at a Glance
+## Arquitectura de un Vistazo
 
-Chamilo 2.0 is built on:
+Chamilo 2.0 está construido sobre:
 
-* **Backend**: Symfony 6.4 (PHP 8.2+) with Doctrine ORM and API Platform 3.0
-* **Frontend**: Vue 3 with PrimeVue, Pinia state management, and Vue Router
-* **Build system**: Webpack 5 via Symfony Webpack Encore, with Tailwind CSS
-* **Authentication**: JWT tokens (lexik/jwt-authentication-bundle)
-* **File storage**: Flysystem (supports local, AWS S3, Azure Blob, Google Cloud)
+* **Backend**: Symfony 6.4 (PHP 8.2+) con Doctrine ORM y API Platform 3.0
+* **Frontend**: Vue 3 con PrimeVue, gestión de estado con Pinia y Vue Router
+* **Sistema de compilación**: Webpack 5 a través de Symfony Webpack Encore, con Tailwind CSS
+* **Autenticación**: Tokens JWT (lexik/jwt-authentication-bundle)
+* **Almacenamiento de archivos**: Flysystem (soporta local, AWS S3, Azure Blob, Google Cloud)
 
-The codebase is organized into three Symfony bundles:
+El código base está organizado en tres bundles de Symfony:
 
-| Bundle | Purpose |
-|--------|---------|
-| **CoreBundle** | Platform core: users, settings, resources, admin, AI providers, security |
-| **CourseBundle** | Course-specific features: documents, exercises, learning paths, forums, etc. |
-| **LtiBundle** | LTI 1.3 integration for external learning tools |
+| Bundle | Propósito |
+|--------|-----------|
+| **CoreBundle** | Núcleo de la plataforma: usuarios, configuraciones, recursos, administración, proveedores de IA, seguridad |
+| **CourseBundle** | Funcionalidades específicas de cursos: documentos, ejercicios, rutas de aprendizaje, foros, etc. |
+| **LtiBundle** | Integración de LTI 1.3 para herramientas de aprendizaje externas |
 
-## How This Guide Is Organized
+## Cómo Está Organizada Esta Guía
 
-1. **Getting Started** — Tech stack, development setup, project structure
-2. **Backend** — Symfony architecture, entities, resource system, controllers, settings
-3. **API** — REST API via API Platform, JWT authentication, custom actions
-4. **Frontend** — Vue components, views, routing, state management, build system
-5. **Theming** — Color themes, CSS/Tailwind, Twig templates
-6. **Plugins** — Plugin architecture and development
-7. **Contributing** — Coding conventions, git workflow, testing
+1. **Primeros Pasos** — Pila tecnológica, configuración de desarrollo, estructura del proyecto
+2. **Backend** — Arquitectura de Symfony, entidades, sistema de recursos, controladores, configuraciones
+3. **API** — API REST a través de API Platform, autenticación JWT, acciones personalizadas
+4. **Frontend** — Componentes de Vue, vistas, enrutamiento, gestión de estado, sistema de compilación
+5. **Temas** — Temas de color, CSS/Tailwind, plantillas Twig
+6. **Complementos** — Arquitectura y desarrollo de complementos
+7. **Contribuir** — Convenciones de codificación, flujo de trabajo con git, pruebas

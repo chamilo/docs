@@ -1,58 +1,58 @@
-# Forums
+# Foros
 
-The forum tool allows you to host structured discussions within your course. Learners can post messages, reply to each other, and engage in threaded conversations.
+La herramienta de foros le permite albergar discusiones estructuradas dentro de su curso. Los estudiantes pueden publicar mensajes, responderse entre sí y participar en conversaciones encadenadas.
 
-## Forum Structure
+## Estructura del Foro
 
-![The forum category list showing categories, forums, and topic counts](/.gitbook/assets/forum-category-list.png)
+![Lista de categorías de foros que muestra categorías, foros y conteos de temas](/.gitbook/assets/forum-category-list.png)
 
-Forums in Chamilo are organized in three levels:
+Los foros en Chamilo están organizados en tres niveles:
 
-1. **Forum categories** — Top-level groupings (e.g., "General Discussions", "Module 1 Questions")
-2. **Forums** — Individual discussion boards within a category
-3. **Topics (threads)** — Individual discussion topics within a forum, each with a chain of replies
+1. **Categorías de foros** — Agrupaciones de nivel superior (por ejemplo, "Discusiones Generales", "Preguntas del Módulo 1")
+2. **Foros** — Tableros de discusión individuales dentro de una categoría
+3. **Temas (hilos)** — Temas de discusión individuales dentro de un foro, cada uno con una cadena de respuestas
 
-## Creating a Forum Category
+## Crear una Categoría de Foro
 
-1. Open the **Forums** <img src="/.gitbook/assets/icons/mdi-comment-quote.svg" alt="Forums" data-size="line"> tool from your course homepage
-2. Click **Add a forum category**
-3. Enter a **Category name** and optional description
-4. Save
+1. Abra la herramienta **Foros** <img src="/.gitbook/assets/icons/mdi-comment-quote.svg" alt="Foros" data-size="line"> desde la página principal de su curso
+2. Haga clic en **Agregar una categoría de foro**
+3. Ingrese un **Nombre de categoría** y una descripción opcional
+4. Guarde
 
-## Creating a Forum
+## Crear un Foro
 
-You can only add a forum once at least one category exists.
+Solo puede agregar un foro una vez que exista al menos una categoría.
 
-1. Within a category, click **Add a forum**
-2. Fill in the basic details:
-   * **Title** — The name of this discussion board
-   * **Description** — An optional description of the forum's purpose
-   * **Create in category** — The category this forum belongs to
-3. Open **Advanced settings** to configure:
-   * **Publication date** / **Closing date** — Optional time window during which the forum is open
-   * **Moderated forum** — Require new posts to be approved by a teacher before they become visible
-   * **Can learners edit their own posts?** — Allow or prevent learners from editing posts after submitting
-   * **Allow users to start new threads** — When set to No, learners can only reply to existing threads
-   * **Default view type** — Choose how posts are displayed: **Flat**, **Threaded**, or **Nested**
-   * **For Group** — Attach this forum to a course group
-   * **Public access / Private access** — For group forums, decide whether any course member can read it or only group members
-4. Save
+1. Dentro de una categoría, haga clic en **Agregar un foro**
+2. Complete los detalles básicos:
+   * **Título** — El nombre de este tablero de discusión
+   * **Descripción** — Una descripción opcional del propósito del foro
+   * **Crear en categoría** — La categoría a la que pertenece este foro
+3. Abra **Configuraciones avanzadas** para configurar:
+   * **Fecha de publicación** / **Fecha de cierre** — Ventana de tiempo opcional durante la cual el foro está abierto
+   * **Foro moderado** — Requiere que las nuevas publicaciones sean aprobadas por un profesor antes de que sean visibles
+   * **¿Pueden los estudiantes editar sus propias publicaciones?** — Permitir o impedir que los estudiantes editen publicaciones después de enviarlas
+   * **Permitir a los usuarios iniciar nuevos hilos** — Cuando se establece en No, los estudiantes solo pueden responder a hilos existentes
+   * **Tipo de vista predeterminada** — Elija cómo se muestran las publicaciones: **Plana**, **Encadenada** o **Anidada**
+   * **Para Grupo** — Vincule este foro a un grupo del curso
+   * **Acceso público / Acceso privado** — Para foros de grupo, decida si cualquier miembro del curso puede leerlo o solo los miembros del grupo
+4. Guarde
 
-If the course visibility is set to "Open to the world", the form also shows an **Allow anonymous posts?** option. This option is hidden in courses with restricted visibility.
+Si la visibilidad del curso está configurada como "Abierto al mundo", el formulario también muestra una opción de **¿Permitir publicaciones anónimas?**. Esta opción está oculta en cursos con visibilidad restringida.
 
-## Managing Topics
+## Gestionar Temas
 
-Learners (and you) can create new topics within a forum. As a teacher, you can:
+Los estudiantes (y usted) pueden crear nuevos temas dentro de un foro. Como profesor, puede:
 
-* **Pin a topic (sticky message)** — Mark a thread as sticky when you create or edit it so it always appears at the top
-* **Lock a topic** — Prevent further replies
-* **Edit or delete posts** — Moderate the discussion
-* **Move a topic** — Transfer a topic to a different forum
+* **Fijar un tema (mensaje destacado)** — Marcar un hilo como destacado al crearlo o editarlo para que siempre aparezca en la parte superior
+* **Bloquear un tema** — Impedir más respuestas
+* **Editar o eliminar publicaciones** — Moderar la discusión
+* **Mover un tema** — Transferir un tema a un foro diferente
 
-## Forum Scoring
+## Puntuación de Foros
 
-When creating a new thread as a teacher, you can enable **Grade this thread** under Advanced settings. You then set a maximum score, a column header for the gradebook, and a weight in the report. You can also enable **Thread scored by peers**, which requires each learner to qualify at least two other learners before their own score counts.
+Al crear un nuevo hilo como profesor, puede habilitar **Calificar este hilo** bajo Configuraciones avanzadas. Luego, establece una puntuación máxima, un encabezado de columna para el libro de calificaciones y un peso en el informe. También puede habilitar **Hilo calificado por pares**, lo que requiere que cada estudiante califique al menos a dos otros estudiantes antes de que su propia puntuación cuente.
 
-## Notifications
+## Notificaciones
 
-Each forum and thread has a **Notify me** toggle that you and your learners can use to subscribe to email notifications about new posts. Notifications are a per-user subscription and are not configured when creating the forum.
+Cada foro y hilo tiene un interruptor de **Notificarme** que usted y sus estudiantes pueden usar para suscribirse a notificaciones por correo electrónico sobre nuevas publicaciones. Las notificaciones son una suscripción por usuario y no se configuran al crear el foro.

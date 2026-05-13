@@ -1,42 +1,41 @@
-# Attendance Settings
+# Configuración de Asistencia
 
-Defaults and behaviour of the **Attendance** tool.
+Valores predeterminados y comportamiento de la herramienta de **Asistencia**.
 
-Access these settings under **Administration > Configuration settings > Attendance**. This category contains **4 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+Acceda a estas configuraciones en **Administración > Configuraciones de configuración > Asistencia**. Esta categoría contiene **4 configuraciones**, enumeradas a continuación con el título y el comentario incluidos en los datos de configuración de la plataforma (`SettingsCurrentFixtures.php`).
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> El nombre de la variable en el código se muestra en fuente monoespaciada. Úselo cuando realice scripts a través de la API o cuando necesite cambiar estas configuraciones a nivel global editando [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
 
-## Settings
+## Configuraciones
 
 ### `allow_delete_attendance`
 
-**Attendances: enable deletion**
+**Asistencias: habilitar eliminación**
 
-The default behaviour in Chamilo is to hide attendance sheets instead of deleting them, just in case the teacher would do it by mistake. Enable this option to allow teachers to *really* delete attendance sheets.
+El comportamiento predeterminado en Chamilo es ocultar las hojas de asistencia en lugar de eliminarlas, por si el profesor lo hiciera por error. Habilite esta opción para permitir que los profesores *realmente* eliminen las hojas de asistencia.
 
-*Default: `true`*
+*Predeterminado: `true`*
 
 ### `attendance_allow_comments`
 
-**Allow comments in attendance sheets**
+**Permitir comentarios en hojas de asistencia**
 
-Teachers and students can comment on each individual attendance (to justify).
+Los profesores y estudiantes pueden comentar sobre cada asistencia individual (para justificarla).
 
-*Default: `false`*
+*Predeterminado: `false`*
 
 ### `enable_sign_attendance_sheet`
 
-**Attendance signing**
+**Firma de asistencia**
 
-Enable taking signatures to confirm one's attendance.
+Habilite la toma de firmas para confirmar la asistencia de una persona.
 
-*Default: `false`*
+*Predeterminado: `false`*
 
 ### `multilevel_grading`
 
-**Enable Multi-Level Attendance Grading**
+**Habilitar calificación de asistencia multinivel**
 
-Allows grading attendance with multiple levels instead of a simple present/absent system.
+Permite calificar la asistencia con múltiples niveles en lugar de un simple sistema de presente/ausente.
 
-*Default: `false`*
-
+*Predeterminado: `false`*

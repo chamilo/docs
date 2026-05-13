@@ -1,23 +1,23 @@
-# Notebook
+# Cuaderno de Notas
 
-The notebook is a personal note-taking tool for learners. Each learner has their own private notebook within the course.
+El cuaderno de notas es una herramienta personal para que los estudiantes tomen apuntes. Cada estudiante tiene su propio cuaderno privado dentro del curso.
 
-## How It Works
+## Cómo Funciona
 
-The notebook is a simple tool where learners can:
+El cuaderno de notas es una herramienta sencilla donde los estudiantes pueden:
 
-* **Create notes** — Write and save personal notes related to the course content
-* **Organize notes** — Review, edit, and delete their notes
-* **Keep them private** — Notes are visible only to the learner who created them
+* **Crear notas** — Escribir y guardar notas personales relacionadas con el contenido del curso
+* **Organizar notas** — Revisar, editar y eliminar sus notas
+* **Mantenerlas privadas** — Las notas solo son visibles para el estudiante que las creó
 
-## As a Teacher
+## Como Docente
 
-As a teacher, you should be aware that:
+Como docente, debes tener en cuenta que:
 
-* The notebook is a **personal tool** — you cannot see your learners' notes
-* It is useful as a **reflection tool** — encourage learners to take notes while studying
-* Notes are stored within the course — they are not shared across courses
+* El cuaderno de notas es una **herramienta personal** — no puedes ver las notas de tus estudiantes
+* Es útil como **herramienta de reflexión** — anima a los estudiantes a tomar notas mientras estudian
+* Las notas se almacenan dentro del curso — no se comparten entre diferentes cursos
 
-## Enabling the Notebook
+## Habilitar el Cuaderno de Notas
 
-The notebook tool appears on the course homepage if it is enabled. If you do not see it, check that it is not hidden (look for hidden tools on the course homepage).
+La herramienta de cuaderno de notas aparece en la página principal del curso si está habilitada. Si no la ves, verifica que no esté oculta (busca herramientas ocultas en la página principal del curso).

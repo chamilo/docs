@@ -1,50 +1,49 @@
-# Chat Settings
+# Configuración del Chat
 
-Behaviour of the course **Chat** tool.
+Comportamiento de la herramienta de **Chat** del curso.
 
-Access these settings under **Administration > Configuration settings > Chat**. This category contains **5 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+Acceda a estas configuraciones en **Administración > Configuraciones de configuración > Chat**. Esta categoría contiene **5 configuraciones**, enumeradas a continuación con el título y el comentario incluidos en los datos de configuración de la plataforma (`SettingsCurrentFixtures.php`).
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> El nombre de la variable en el código se muestra en monospace. Úselo cuando programe a través de la API o cuando necesite cambiar estas configuraciones a nivel global editando [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
 
-## Settings
+## Configuraciones
 
 ### `allow_global_chat`
 
-**Allow global chat**
+**Permitir chat global**
 
-Users can chat with each other
+Los usuarios pueden chatear entre sí
 
-*Default: `false`*
+*Predeterminado: `false`*
 
 ### `course_chat_restrict_to_coach`
 
-**Restrict course chat to coaches**
+**Restringir el chat del curso a los tutores**
 
-Only allow students to talk to the tutors in the course (not other students).
+Solo permite a los estudiantes hablar con los tutores del curso (no con otros estudiantes).
 
-*Default: `false`*
+*Predeterminado: `false`*
 
 ### `hide_chat_video`
 
-**Hide videochat option in global chat**
+**Ocultar la opción de videochat en el chat global**
 
-When enabled, video chat functionality is disabled and unavailable in the global chat tool.
+Cuando está habilitada, la funcionalidad de videochat se desactiva y no está disponible en la herramienta de chat global.
 
-*Default: `true`*
+*Predeterminado: `true`*
 
 ### `save_private_conversations_in_documents`
 
-**Save private conversations in documents**
+**Guardar conversaciones privadas en documentos**
 
-If enabled, 1:1 private chat messages will be mirrored in the course chat history documents. Recommended to keep disabled for privacy.
+Si está habilitado, los mensajes de chat privado 1:1 se reflejarán en los documentos del historial de chat del curso. Se recomienda mantenerlo desactivado por privacidad.
 
-*Default: `false`*
+*Predeterminado: `false`*
 
 ### `show_chat_folder`
 
-**Show the history folder of chat conversations**
+**Mostrar la carpeta de historial de conversaciones de chat**
 
-This will show to theacher the folder that contains all sessions that have been made in the chat, the teacher can make them visible or not learners and use them as a resource
+Esto mostrará al profesor la carpeta que contiene todas las sesiones realizadas en el chat; el profesor puede hacerlas visibles o no a los estudiantes y usarlas como recurso.
 
-*Default: `true`*
-
+*Predeterminado: `true`*

@@ -1,50 +1,50 @@
-# Course Reports
+# Informes del Curso
 
-Course reports give you an aggregate view of activity and performance across all learners in your course.
+Los informes del curso te ofrecen una visión agregada de la actividad y el rendimiento de todos los estudiantes en tu curso.
 
-## Accessing Course Reports
+## Acceso a los Informes del Curso
 
-Open the **Tracking** <img src="/.gitbook/assets/icons/mdi-chart-box.svg" alt="Tracking" data-size="line"> tool from the course homepage and select the course-level reports view.
+Abre la herramienta **Seguimiento** <img src="/.gitbook/assets/icons/mdi-chart-box.svg" alt="Seguimiento" data-size="line"> desde la página principal del curso y selecciona la vista de informes a nivel de curso.
 
-![The course tracking overview showing engagement metrics and learner activity summary](/.gitbook/assets/tracking-course-overview.png)
+![La visión general de seguimiento del curso mostrando métricas de participación y resumen de actividad de los estudiantes](/.gitbook/assets/tracking-course-overview.png)
 
-## Available Reports
+## Informes Disponibles
 
-### Activity Overview
+### Resumen de Actividad
 
-A summary of overall course engagement, including enrolled learners, time spent in the course, course progress, exercise progress and average score, and assignment activity.
+Un resumen del compromiso general con el curso, que incluye estudiantes inscritos, tiempo dedicado al curso, progreso del curso, progreso en ejercicios y puntuación promedio, y actividad de tareas.
 
-Separate detail views are available from the tracking section for **resources** (per-resource access counts), **tools** (per-tool usage), and **events** (raw event log).
+Vistas detalladas separadas están disponibles desde la sección de seguimiento para **recursos** (conteos de acceso por recurso), **herramientas** (uso por herramienta) y **eventos** (registro de eventos sin procesar).
 
-### Exercise Reports
+### Informes de Ejercicios
 
-For each exercise in the course:
+Para cada ejercicio en el curso:
 
-* Number of learners who attempted it
-* Average score
-* Score distribution
-* Number of learners who passed (based on the pass threshold you set)
+* Número de estudiantes que lo intentaron
+* Puntuación promedio
+* Distribución de puntuaciones
+* Número de estudiantes que aprobaron (basado en el umbral de aprobación que estableciste)
 
-### Learning Path Reports
+### Informes de Rutas de Aprendizaje
 
-For each learning path:
+Para cada ruta de aprendizaje:
 
-* Completion rates across all learners
-* Average progress percentage
-* Time spent per item
-* Learners who have completed the path vs. those still in progress
+* Tasas de finalización entre todos los estudiantes
+* Porcentaje de progreso promedio
+* Tiempo dedicado por elemento
+* Estudiantes que han completado la ruta frente a los que aún están en progreso
 
-### Assignment Reports
+### Informes de Tareas
 
-For each assignment:
+Para cada tarea:
 
-* Number of submissions received
-* Number of pending reviews
+* Número de entregas recibidas
+* Número de revisiones pendientes
 
-## Exporting Data
+## Exportación de Datos
 
-You can export tracking and report data for further analysis. Look for the **Export** <img src="/.gitbook/assets/icons/mdi-export.svg" alt="Export" data-size="line"> option to download data in a spreadsheet-compatible format.
+Puedes exportar datos de seguimiento e informes para un análisis más detallado. Busca la opción **Exportar** <img src="/.gitbook/assets/icons/mdi-export.svg" alt="Exportar" data-size="line"> para descargar los datos en un formato compatible con hojas de cálculo.
 
-## Session Reports
+## Informes de Sesión
 
-If you teach within a session, reports are scoped to the session's learners. Session coaches have access to reports across all courses in their session. A global configuration setting can also allows teachers to see assignments through all sessions using their course (ask your admin).
+Si enseñas dentro de una sesión, los informes se limitan a los estudiantes de esa sesión. Los entrenadores de sesión tienen acceso a informes de todos los cursos en su sesión. Una configuración global también puede permitir a los profesores ver las tareas a través de todas las sesiones que usan su curso (consulta con tu administrador).

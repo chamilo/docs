@@ -1,117 +1,105 @@
-# Languages Settings
+# Configuración de Idiomas
 
-Available languages, default language, and how Chamilo resolves which language to display.
+Idiomas disponibles, idioma predeterminado y cómo Chamilo determina qué idioma mostrar.
 
-Access these settings under **Administration > Configuration settings > Languages**. This category contains **12 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+Acceda a estas configuraciones en **Administración > Configuraciones > Idiomas**. Esta categoría contiene **12 configuraciones**, enumeradas a continuación con el título y el comentario incluidos en los datos predefinidos de la plataforma (`SettingsCurrentFixtures.php`).
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> El nombre de la variable en el código se muestra en fuente monoespaciada. Úselo cuando realice scripts a través de la API o cuando necesite cambiar estas configuraciones a nivel global editando [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
 
-## Settings
+## Configuraciones
 
 ### `allow_course_multiple_languages`
 
-**Multiple-language courses**
+**Cursos en múltiples idiomas**
 
-Enable courses managed in more than one language. This option adds a language selector within the course page to let users switch easily, and adds a 'multiple_language' extra field to courses which allows for remote management procedures.
+Habilita cursos gestionados en más de un idioma. Esta opción agrega un selector de idioma dentro de la página del curso para permitir a los usuarios cambiar fácilmente, y añade un campo extra 'multiple_language' a los cursos que permite procedimientos de gestión remota.
 
-*Default: `false`*
-
+*Predeterminado: `false`*
 
 ### `allow_use_sub_language`
 
-**Allow definition and use of sub-languages**
+**Permitir definición y uso de subidiomas**
 
-By enabling this option, you will be able to define variations for each of the language terms used in the platform's interface, in the form of a new language based on and extending an existing language. You'll find this option in the languages section of the administration panel.
+Al habilitar esta opción, podrá definir variaciones para cada uno de los términos de idioma utilizados en la interfaz de la plataforma, en forma de un nuevo idioma basado en y que extiende un idioma existente. Encontrará esta opción en la sección de idiomas del panel de administración.
 
-*Default: `false`*
+*Predeterminado: `false`*
 
 ### `auto_detect_language_custom_pages`
 
-**Enable language auto-detect in custom pages**
+**Habilitar detección automática de idioma en páginas personalizadas**
 
-If you use custom pages, enable this if you want to have a language detector there present the page in the user's browser language, or disable to force the language to be the default platform language.
+Si utiliza páginas personalizadas, habilite esta opción si desea que un detector de idioma presente la página en el idioma del navegador del usuario, o desactívela para forzar que el idioma sea el idioma predeterminado de la plataforma.
 
-*Default: `true`*
-
+*Predeterminado: `true`*
 
 ### `language_flags_by_country`
 
-**Language flags**
+**Banderas de idioma**
 
-Use country flags for languages. This is not enabled by default because some languages are not strictly attached to a country, which can lead to frustration for some users.
+Usar banderas de países para los idiomas. Esto no está habilitado por defecto porque algunos idiomas no están estrictamente vinculados a un país, lo que puede generar frustración en algunos usuarios.
 
-*Default: `false`*
-
+*Predeterminado: `false`*
 
 ### `language_priority_1`
 
-**Highest priority language**
+**Idioma de mayor prioridad**
 
-Primary language selected when multiple language contexts are set.
+Idioma principal seleccionado cuando se establecen múltiples contextos de idioma.
 
-*Default: `course_lang`*
-
+*Predeterminado: `course_lang`*
 
 ### `language_priority_2`
 
-**Secondary priority language**
+**Idioma de prioridad secundaria**
 
-Secondary fallback language if first priority is unavailable or out of context.
+Idioma de respaldo secundario si el de primera prioridad no está disponible o está fuera de contexto.
 
-*Default: `user_profil_lang`*
-
+*Predeterminado: `user_profil_lang`*
 
 ### `language_priority_3`
 
-**Third priority language**
+**Idioma de tercera prioridad**
 
-Tertiary language fallback if higher priorities fail.
+Idioma de respaldo terciario si las prioridades superiores fallan.
 
-*Default: `user_selected_lang`*
-
+*Predeterminado: `user_selected_lang`*
 
 ### `language_priority_4`
 
-**Fourth priority language**
+**Idioma de cuarta prioridad**
 
-Last language fallback option by order of priority.
+Última opción de idioma de respaldo por orden de prioridad.
 
-*Default: `platform_lang`*
-
+*Predeterminado: `platform_lang`*
 
 ### `platform_language`
 
-**Default platform language**
+**Idioma predeterminado de la plataforma**
 
-Main language, used by default when no user language is set.
+Idioma principal, utilizado por defecto cuando no se ha establecido un idioma para el usuario.
 
-*Default: `en`*
-
+*Predeterminado: `en`*
 
 ### `show_different_course_language`
 
-**Show course languages**
+**Mostrar idiomas de los cursos**
 
-Show the language each course is in, next to the course title, on the homepage courses list
+Mostrar el idioma en el que está cada curso, junto al título del curso, en la lista de cursos de la página de inicio.
 
-*Default: `true`*
-
+*Predeterminado: `true`*
 
 ### `show_language_selector_in_menu`
 
-**Language switcher in main menu**
+**Selector de idioma en el menú principal**
 
-Display a language selector in the main menu that immediately updates the language preference of the user. This can be useful in multilingual portals where learners have to switch from one language to another for their learning.
+Mostrar un selector de idioma en el menú principal que actualiza de inmediato la preferencia de idioma del usuario. Esto puede ser útil en portales multilingües donde los estudiantes necesitan cambiar de un idioma a otro para su aprendizaje.
 
-*Default: `true`*
-
+*Predeterminado: `true`*
 
 ### `template_activate_language_filter`
 
-**Multiple-language document templates**
+**Plantillas de documentos en múltiples idiomas**
 
-Enable document templates (at the platform or course level) to be configured for specific languages.
+Habilitar que las plantillas de documentos (a nivel de plataforma o curso) se configuren para idiomas específicos.
 
-*Default: `false`*
-
-
+*Predeterminado: `false`*

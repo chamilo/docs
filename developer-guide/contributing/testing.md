@@ -1,12 +1,12 @@
-# Testing
+# Pruebas
 
-## PHP Testing
+## Pruebas en PHP
 
-Chamilo uses **PHPUnit** for backend testing.
+Chamilo utiliza **PHPUnit** para las pruebas del backend.
 
-### Test Database Setup
+### Configuración de la Base de Datos de Pruebas
 
-Tests require a dedicated database. Create `.env.test.local` with your test database credentials:
+Las pruebas requieren una base de datos dedicada. Crea el archivo `.env.test.local` con las credenciales de tu base de datos de pruebas:
 
 ```ini
 DATABASE_HOST='127.0.0.1'
@@ -16,7 +16,7 @@ DATABASE_USER='root'
 DATABASE_PASSWORD='root'
 ```
 
-Then initialise the test database:
+Luego, inicializa la base de datos de pruebas:
 
 ```bash
 php bin/console --env=test cache:clear
@@ -25,28 +25,28 @@ php bin/console --env=test doctrine:schema:create
 php bin/console --env=test doctrine:fixtures:load --no-interaction
 ```
 
-To reset after schema changes:
+Para restablecer después de cambios en el esquema:
 
 ```bash
 php bin/console --env=test doctrine:schema:update --force --complete
 ```
 
-### Running Tests
+### Ejecución de Pruebas
 
 ```bash
-# Run all tests
+# Ejecutar todas las pruebas
 php bin/phpunit
 
-# Run a specific test file
+# Ejecutar un archivo de prueba específico
 php bin/phpunit tests/CoreBundle/Repository/UserRepositoryTest.php
 
-# Run tests with HTML coverage report
+# Ejecutar pruebas con informe de cobertura en HTML
 php bin/phpunit --coverage-html var/coverage
 ```
 
-### Test Location
+### Ubicación de las Pruebas
 
-Tests are in the `tests/` directory:
+Las pruebas se encuentran en el directorio `tests/`:
 
 ```
 tests/
@@ -64,82 +64,82 @@ tests/
 ├── CourseBundle/
 │   ├── Repository/
 │   └── Settings/
-├── behat/               # Behat end-to-end tests
-├── fixtures/            # Alice fixture files
-├── AbstractApiTest.php  # Base class for API tests
-└── ChamiloTestTrait.php # Shared test helpers
+├── behat/               # Pruebas de extremo a extremo con Behat
+├── fixtures/            # Archivos de fixtures de Alice
+├── AbstractApiTest.php  # Clase base para pruebas de API
+└── ChamiloTestTrait.php # Ayudantes compartidos para pruebas
 ```
 
-### Test Types
+### Tipos de Pruebas
 
-* **Unit/Integration tests** — PHPUnit tests in `CoreBundle/` and `CourseBundle/`; most hit a real database (via `dama/doctrine-test-bundle`)
-* **Functional (API) tests** — Extend `AbstractApiTest` and test HTTP endpoints end-to-end
-* **Behat tests** — Browser-level acceptance tests in `tests/behat/features/` (see below)
+* **Pruebas unitarias/integración** — Pruebas de PHPUnit en `CoreBundle/` y `CourseBundle/`; la mayoría interactúan con una base de datos real (a través de `dama/doctrine-test-bundle`)
+* **Pruebas funcionales (API)** — Extienden `AbstractApiTest` y prueban endpoints HTTP de extremo a extremo
+* **Pruebas Behat** — Pruebas de aceptación a nivel de navegador en `tests/behat/features/` (ver más abajo)
 
-## Behat (End-to-End) Tests
+## Pruebas Behat (de Extremo a Extremo)
 
-Chamilo has a Behat test suite for browser-level acceptance testing. It requires a running Chamilo instance, Chrome, and ChromeDriver.
+Chamilo cuenta con un conjunto de pruebas Behat para pruebas de aceptación a nivel de navegador. Requiere una instancia de Chamilo en ejecución, Chrome y ChromeDriver.
 
 ```bash
-# From the tests/behat/ directory:
+# Desde el directorio tests/behat/:
 ../../vendor/behat/behat/bin/behat features/actionInstall.feature
 ../../vendor/behat/behat/bin/behat features/createUser.feature
 ../../vendor/behat/behat/bin/behat features/createCourse.feature
 
-# Or run all features:
+# O ejecutar todas las características:
 ../../vendor/behat/behat/bin/behat
 ```
 
-Configure the base URL in `tests/behat/behat.yml` before running.
+Configura la URL base en `tests/behat/behat.yml` antes de ejecutar las pruebas.
 
-## Frontend Checks
+## Verificaciones del Frontend
 
 ```bash
-# Lint JavaScript/Vue (ESLint with Prettier)
+# Revisar JavaScript/Vue (ESLint con Prettier)
 yarn eslint assets/vue/
 
-# Type-check TypeScript
+# Verificar tipos en TypeScript
 yarn tsc --noEmit
 
-# Build production assets (verifies the entire build compiles)
+# Construir activos de producción (verifica que todo el build se compile)
 yarn build
 ```
 
-## PHP Code Quality
+## Calidad del Código PHP
 
-Chamilo uses **ECS** (Easy Coding Standard), **PHPStan**, and **Psalm** for code quality. Composer shortcuts are available for each:
+Chamilo utiliza **ECS** (Easy Coding Standard), **PHPStan** y **Psalm** para la calidad del código. Hay accesos directos de Composer disponibles para cada uno:
 
 ```bash
-# Check code style (ECS — Easy Coding Standard)
+# Verificar estilo de código (ECS — Easy Coding Standard)
 composer phpcs
-# or directly:
+# o directamente:
 vendor/bin/ecs check
 
-# Auto-fix code style violations
+# Corregir automáticamente violaciones de estilo de código
 composer phpcs-fix
-# or directly:
+# o directamente:
 vendor/bin/ecs check --fix
 
-# Static analysis with PHPStan (level 5, scans src/ and tests/)
+# Análisis estático con PHPStan (nivel 5, escanea src/ y tests/)
 composer phpstan
-# or directly:
+# o directamente:
 vendor/bin/phpstan analyse
 
-# Static analysis with Psalm
+# Análisis estático con Psalm
 composer psalm
-# or directly:
+# o directamente:
 vendor/bin/psalm --show-info=false
 ```
 
-Note: there is no `php-cs-fixer` in this project. ECS (`symplify/easy-coding-standard`) is the code style tool.
+Nota: no hay `php-cs-fixer` en este proyecto. ECS (`symplify/easy-coding-standard`) es la herramienta de estilo de código.
 
-## Continuous Integration
+## Integración Continua
 
-Pull requests are automatically checked by four GitHub Actions workflows:
+Las solicitudes de extracción (pull requests) son verificadas automáticamente por cuatro flujos de trabajo de GitHub Actions:
 
-| Workflow | What it runs |
-|----------|-------------|
-| `phpunit.yml` | PHPUnit test suite |
-| `format_code.yml` | ECS code style check |
-| `php_analysis.yml` | Psalm, Doctrine schema validation, security checker |
-| `behat.yml` | Behat end-to-end tests |
+| Flujo de Trabajo | Qué ejecuta |
+|------------------|-------------|
+| `phpunit.yml` | Conjunto de pruebas de PHPUnit |
+| `format_code.yml` | Verificación de estilo de código con ECS |
+| `php_analysis.yml` | Psalm, validación de esquema de Doctrine, verificador de seguridad |
+| `behat.yml` | Pruebas de extremo a extremo con Behat |

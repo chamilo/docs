@@ -1,7 +1,7 @@
-# Getting Started
+# Primeros Pasos
 
-This section helps you set up a development environment and understand the Chamilo 2.0 project structure.
+Esta sección te ayuda a configurar un entorno de desarrollo y a comprender la estructura del proyecto Chamilo 2.0.
 
-* **[Tech Stack](tech-stack.md)** — All technologies and their versions
-* **[Development Setup](development-setup.md)** — How to get Chamilo running locally
-* **[Project Structure](project-structure.md)** — Where things live in the codebase
+* **[Pila Tecnológica](tech-stack.md)** — Todas las tecnologías y sus versiones
+* **[Configuración de Desarrollo](development-setup.md)** — Cómo ejecutar Chamilo localmente
+* **[Estructura del Proyecto](project-structure.md)** — Dónde se encuentran las cosas en la base de código

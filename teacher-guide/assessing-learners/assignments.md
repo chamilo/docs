@@ -1,93 +1,94 @@
-# Assignments
+# Tareas
 
-The assignments tool (also called "student publications") lets you collect work from learners — essays, projects, reports, or any file-based submission — and grade it.
+La herramienta de tareas (también conocida como "publicaciones de estudiantes") le permite recopilar trabajos de los estudiantes —ensayos, proyectos, informes o cualquier envío basado en archivos— y calificarlos.
 
-## Creating an Assignment
+## Crear una Tarea
 
-1. Open the **Assignments** <img src="/.gitbook/assets/icons/mdi-inbox-full.svg" alt="Assignments" data-size="line"> tool from the course homepage
-2. Click **Create an assignment**
-3. Fill in the details:
-   * **Assignment name** — The name of the assignment (e.g., "Final Project Report")
-   * **Description** — Instructions for learners, including what to submit and how it will be evaluated (supports rich text)
-   * **Maximum score** — On what total will the assignment be graded
-   * **Add to gradebook** — Add as an evaluated item in the assessment (gradebook) tool, so it can be part of reaching the course's goals
-   * **Deadline** — The official (published) date and time after which submissions are flagged as late (uploads are still accepted)
-   * **Ends at (completely closed)** — The hard cutoff date and time after which no upload is possible
-   * **Add to calendar** — Create an event to reference this assignment submission date
-   * **Submission type** — Choose between **Allow only text**, **Allow only files**, or **Allow files or online text**
-4. Save
+1. Abra la herramienta **Tareas** <img src="/.gitbook/assets/icons/mdi-inbox-full.svg" alt="Tareas" data-size="line"> desde la página principal del curso.
+2. Haga clic en **Crear una tarea**.
+3. Complete los detalles:
+   * **Nombre de la tarea** — El nombre de la tarea (por ejemplo, "Informe de Proyecto Final").
+   * **Descripción** — Instrucciones para los estudiantes, incluyendo qué deben enviar y cómo será evaluado (admite texto enriquecido).
+   * **Puntuación máxima** — Sobre qué total se calificará la tarea.
+   * **Añadir al libro de calificaciones** — Añadir como un elemento evaluado en la herramienta de evaluación (libro de calificaciones), para que forme parte de los objetivos del curso.
+   * **Fecha límite** — La fecha y hora oficiales (publicadas) después de las cuales los envíos se marcan como tardíos (aún se aceptan subidas).
+   * **Finaliza en (cierre completo)** — La fecha y hora límite estricta después de la cual no es posible subir archivos.
+   * **Añadir al calendario** — Crear un evento para referenciar la fecha de envío de esta tarea.
+   * **Tipo de envío** — Elija entre **Permitir solo texto**, **Permitir solo archivos** o **Permitir archivos o texto en línea**.
+4. Guarde los cambios.
 
-Once you have created an assignment, you can also:
-* Upload template documents from inside the assignment detail page
-* Assign the assignment to specific users (rather than all users of the course)
+Una vez que haya creado una tarea, también puede:
+* Subir documentos de plantilla desde la página de detalles de la tarea.
+* Asignar la tarea a usuarios específicos (en lugar de a todos los usuarios del curso).
 
-And once learners have submitted their assignments, you can:
-* Export a PDF list of submissions
-* Show a list of only the learners who have not submitted their assignment
-* Download all assignments in a big ZIP
-* Upload all corrections in a big ZIP
-* Delete all corrections you submitted (this doesn't delete the learners' submissions)
+Y una vez que los estudiantes hayan enviado sus tareas, puede:
+* Exportar una lista en PDF de los envíos.
+* Mostrar una lista de solo los estudiantes que no han enviado su tarea.
+* Descargar todas las tareas en un archivo ZIP grande.
+* Subir todas las correcciones en un archivo ZIP grande.
+* Eliminar todas las correcciones que haya enviado (esto no elimina los envíos de los estudiantes).
 
-## How Learners Submit
+## Cómo Envían los Estudiantes
 
-Learners open the assignment and:
+Los estudiantes abren la tarea y:
 
-1. Click **Upload file** or the submission button
-2. Select a file from their computer (or write text directly, depending on configuration)
-3. Add an optional comment
-4. Submit
+1. Hacen clic en **Subir archivo** o en el botón de envío.
+2. Seleccionan un archivo desde su computadora (o escriben texto directamente, dependiendo de la configuración).
+3. Añaden un comentario opcional.
+4. Envían.
 
-Learners can see whether they have already submitted and, if allowed, update their submission.
+Los estudiantes pueden ver si ya han enviado su tarea y, si está permitido, actualizar su envío.
 
-## Reviewing Submissions
+## Revisar Envíos
 
-![The assignment submissions list showing student names, dates, files, and grading status](/.gitbook/assets/assignments-submissions-list.png)
+![Lista de envíos de tareas mostrando nombres de estudiantes, fechas, archivos y estado de calificación](/.gitbook/assets/assignments-submissions-list.png)
 
-As a teacher, open an assignment to see the list of all submissions:
+Como profesor, abra una tarea para ver la lista de todos los envíos:
 
-* **Student name** — Who submitted
-* **Submission date** — When the work was submitted
-* **File** — Download the submitted file
-* **Status** — Whether the submission has been graded
-* **Comments** — Any comments left by the learner or by you
+* **Nombre del estudiante** — Quién envió el trabajo.
+* **Fecha de envío** — Cuándo se envió el trabajo.
+* **Archivo** — Descargar el archivo enviado.
+* **Estado** — Si el envío ha sido calificado.
+* **Comentarios** — Cualquier comentario dejado por el estudiante o por usted.
 
-### Grading a Submission
+### Calificar un Envío
 
-![The assignment grading view with score input, feedback field, and corrected file upload](/.gitbook/assets/assignment-grading-view.png)
+![Vista de calificación de tareas con entrada de puntuación, campo de retroalimentación y subida de archivo corregido](/.gitbook/assets/assignment-grading-view.png)
 
-1. Click on a submission to open it
-2. Review the submitted file
-3. Enter a **score**
-4. Write **feedback comments** for the learner
-5. Optionally upload a **corrected file** as an attachment
-6. Save
+1. Haga clic en un envío para abrirlo.
+2. Revise el archivo enviado.
+3. Ingrese una **puntuación**.
+4. Escriba **comentarios de retroalimentación** para el estudiante.
+5. Opcionalmente, suba un **archivo corregido** como adjunto.
+6. Guarde los cambios.
 
-### AI-Assisted Grading
+### Calificación Asistida por IA
 
-If AI tools are configured on your platform, you may see an **AI grading** option when reviewing submissions. This uses an AI model to suggest a score and feedback for open-ended work. See [AI Grading](../ai-tools/ai-grading.md) for details.
+Si las herramientas de IA están configuradas en su plataforma, es posible que vea una opción de **calificación con IA** al revisar los envíos. Esto utiliza un modelo de IA para sugerir una puntuación y retroalimentación para trabajos abiertos. Consulte [Calificación con IA](../ai-tools/ai-grading.md) para más detalles.
 
-## Managing Submissions
+## Gestionar Envíos
 
-Group actions:
-* **Download assignments package** — Download all submissions as a single ZIP file for offline review
-* **Upload corrections package** — If you downloaded all submissions in a single ZIP file, edited the files in place on your computer and zipped them again, you can send the zip as a package of corrections. Do not change filenames or it will not work.
-* **Late submissions** — Submissions after the deadline are flagged but may still be accepted depending on your settings
+Acciones grupales:
+* **Descargar paquete de tareas** — Descargar todos los envíos como un solo archivo ZIP para revisarlos sin conexión.
+* **Subir paquete de correcciones** — Si descargó todos los envíos en un solo archivo ZIP, editó los archivos en su computadora y los comprimió nuevamente, puede enviar el ZIP como un paquete de correcciones. No cambie los nombres de los archivos o no funcionará.
+* **Envíos tardíos** — Los envíos después de la fecha límite se marcan, pero pueden seguir siendo aceptados dependiendo de su configuración.
 
-Individual submission actions:
-* **Upload correction** — Upload a correction for one learner 
-* **Download** — Download the submission of one learner
-* **Correct and grade** — Add a correction and a grade to the learner's submission 
-* **Edit** — Edit the document title or the previous feedback on the submission
-* **Move** — Transfer a submission between assignment folders (e.g. if the student submitted in the wrong assignment)
-* **Visibility** — Control whether learners can see each other's submissions
+Acciones individuales de envío:
+* **Subir corrección** — Subir una corrección para un estudiante.
+* **Descargar** — Descargar el envío de un estudiante.
+* **Corregir y calificar** — Añadir una corrección y una calificación al envío del estudiante.
+* **Editar** — Editar el título del documento o la retroalimentación previa sobre el envío.
+* **Mover** — Transferir un envío entre carpetas de tareas (por ejemplo, si el estudiante envió en la tarea incorrecta).
+* **Visibilidad** — Controlar si los estudiantes pueden ver los envíos de los demás.
 
-## Linking to the Gradebook
+## Vincular al Libro de Calificaciones
 
-Assignment scores can be included in the course gradebook ("Assessments" tool). This allows assignment grades to contribute to the learner's overall course grade and certificate eligibility. See [Gradebook](gradebook.md) for details.
+Las puntuaciones de las tareas pueden incluirse en el libro de calificaciones del curso (herramienta "Evaluaciones"). Esto permite que las calificaciones de las tareas contribuyan a la calificación general del curso y a la elegibilidad para certificados. Consulte [Libro de Calificaciones](gradebook.md) para más detalles.
 
-## Tips
+---
+## Consejos
 
-* **Be specific in instructions** — Clearly describe what learners should submit, the expected format, and evaluation criteria
-* **Set realistic deadlines** — Use the Agenda tool to make deadlines visible in the course calendar
-* **Use the corrected file feature** — Upload annotated versions of student work so they can see your specific corrections
-* **Enable peer visibility carefully** — Allowing learners to see each other's work can encourage learning but may not be appropriate for all assignments
+* **Sea específico en las instrucciones** — Describa claramente qué deben entregar los estudiantes, el formato esperado y los criterios de evaluación
+* **Establezca plazos realistas** — Utilice la herramienta Agenda para hacer visibles los plazos en el calendario del curso
+* **Utilice la función de archivo corregido** — Suba versiones anotadas del trabajo de los estudiantes para que puedan ver sus correcciones específicas
+* **Habilite la visibilidad entre pares con precaución** — Permitir que los estudiantes vean el trabajo de sus compañeros puede fomentar el aprendizaje, pero no siempre es apropiado para todas las tareas
