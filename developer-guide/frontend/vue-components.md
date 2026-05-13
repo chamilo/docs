@@ -129,7 +129,7 @@ Situés dans `components/layout/` :
 |------------|------------|----------|
 | `course/` | Cartes de cours, filtres de catalogue, formulaires de cours | Liste et gestion des cours |
 | `session/` | Cartes de session, catalogue | Liste des sessions |
-| `assignments/` | Listes de soumissions, modales de notation, formulaires | Flux de travail des devoirs |
+| `assignments/` | Listes de soumissions, modales de notation, formulaires | Flux de travail des travaux |
 | `chat/` | DockedChat, messages de chat | Chat en temps réel et tuteur IA |
 | `filemanager/` | CourseDocuments, PersonalFiles | Navigateur et gestion de fichiers |
 | `installer/` | Step1-Step7, EmailSettings | Assistant d'installation |

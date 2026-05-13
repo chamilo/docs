@@ -16,7 +16,7 @@ Pour chaque apprenant, Chamilo enregistre (dans la vue principale de suivi par a
 * **Progression dans le cours** — Pourcentage de progression global à travers le cours
 * **Résultats des exercices** — Scores et tentatives pour chaque exercice
 * **Progression dans le parcours d'apprentissage** — Pourcentage de complétion et temps passé sur chaque parcours d'apprentissage
-* **Soumissions de devoirs** — Quels devoirs ont été soumis et notés
+* **Soumissions de travaux** — Quels travaux ont été soumis et notés
 
 Les détails d'accès par ressource (quels documents ou pages spécifiques un apprenant a ouverts) et l'activité au niveau des outils sont disponibles via les vues dédiées **Ressources**, **Outils** et **Événements** dans la section de suivi, plutôt que dans la ligne principale de l'apprenant.
 
@@ -29,7 +29,7 @@ Cliquez sur le nom d'un apprenant pour voir son rapport d'activité détaillé. 
 * Un résumé de son engagement global
 * La progression à travers chaque parcours d'apprentissage
 * Les scores des exercices et l'historique des tentatives
-* L'état de soumission des devoirs
+* L'état de soumission des travaux
 
 ## Vues de suivi
 

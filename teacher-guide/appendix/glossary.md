@@ -5,7 +5,7 @@ Termes clés utilisés tout au long de ce guide.
 | Terme | Définition |
 |------|-----------|
 | **Évaluation** | Voir **Carnet de notes** ci-dessous |
-| **Devoir** | Une tâche où les apprenants soumettent des fichiers ou du texte pour examen et notation par l'enseignant. Également appelé "publication étudiante" ou "travail". |
+| **Travail** | Une tâche où les apprenants soumettent des fichiers ou du texte pour examen et notation par l'enseignant. Également appelé "publication étudiante" ou "travail". |
 | **Lancement automatique** | Une fonctionnalité qui ouvre automatiquement un outil spécifique lorsqu'un apprenant entre dans un cours. |
 | **Certificat** | Un document généré automatiquement lorsqu'un apprenant atteint le score minimum défini dans le carnet de notes. |
 | **Cours** | Un conteneur pour le contenu d'apprentissage et les outils. Un cours peut inclure des documents, des exercices, des forums, des parcours d'apprentissage, et plus encore. |
@@ -14,7 +14,7 @@ Termes clés utilisés tout au long de ce guide.
 | **Inscription** | Le processus d'enregistrement d'un utilisateur dans un cours ou une session, lui donnant accès à son contenu. Également appelé "abonnement". |
 | **Exercice** | Un quiz ou un test contenant une ou plusieurs questions. Également appelé "test" dans certains contextes. |
 | **Forum** | Un outil de discussion avec des conversations organisées en catégories et sujets. |
-| **Carnet de notes** | Un outil qui regroupe les scores des exercices, devoirs et autres activités en une note unifiée pour chaque apprenant. |
+| **Carnet de notes** | Un outil qui regroupe les scores des exercices, travaux et autres activités en une note unifiée pour chaque apprenant. |
 | **Parcours d'apprentissage** | Une séquence structurée d'activités d'apprentissage (documents, exercices, liens) que les apprenants suivent dans un ordre défini, éventuellement avec des prérequis. |
 | **LTI** | Learning Tools Interoperability — une norme qui permet d'intégrer des outils d'apprentissage externes dans Chamilo. |
 | **SCORM** | Sharable Content Object Reference Model — une norme pour les packages de contenu e-learning. Chamilo peut importer et lire des packages SCORM dans les parcours d'apprentissage. |

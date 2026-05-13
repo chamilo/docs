@@ -1,12 +1,12 @@
 # Évaluations
 
-Les évaluations (anciennement *gradebook* ou carnet de notes) regroupent les scores des exercices, des devoirs et d'autres activités notées dans une vue unifiée de la performance de chaque apprenant. Elles contrôlent également la génération de certificats.
+Les évaluations (anciennement *gradebook* ou carnet de notes) regroupent les scores des exercices, des travaux et d'autres activités notées dans une vue unifiée de la performance de chaque apprenant. Elles contrôlent également la génération de certificats.
 
 ## Fonctionnement des Évaluations
 
 Les évaluations sont des systèmes de notation pondérée. Vous définissez :
 
-1. **Quelles activités** contribuent à la note (exercices, devoirs, présence, etc.)
+1. **Quelles activités** contribuent à la note (exercices, travaux, présence, etc.)
 2. **Le poids** de chaque activité (sa contribution à la note finale)
 3. **Le score minimum de certification** (le seuil pour obtenir un certificat)
 4. **Un score minimum par activité** — Chaque activité dans le carnet de notes peut avoir son propre **score minimum**. Les apprenants qui obtiennent un score inférieur à ce minimum pour une activité clé peuvent être empêchés d'atteindre les objectifs et d'obtenir le certificat, même si leur total pondéré global est suffisamment élevé.
@@ -27,7 +27,7 @@ Chamilo calcule la note globale de chaque apprenant en fonction de ces poids.
 1. Cliquez sur **Ajouter une activité en ligne**
 2. Choisissez le type :
    * **Test** — Lier un exercice spécifique du cours
-   * **Devoir** — Lier un dossier de publications des étudiants
+   * **Travail** — Lier un dossier de publications des étudiants
    * **Parcours d'apprentissage** — Lier l'achèvement d'un parcours d'apprentissage
    * **Présence** — Lier une feuille de présence
    * **Fil de discussion du forum** — Lier un fil de discussion du forum (qui doit être noté manuellement)
@@ -43,7 +43,7 @@ Le poids total de toutes les activités doit atteindre 100 %.
 
 Pour des schémas de notation complexes, vous pouvez créer des **sous-catégories** pour regrouper des activités connexes :
 
-* **Exemple** : Une sous-catégorie "Devoirs" (poids : 30 %) contenant cinq devoirs individuels valant chacun 20 % de la sous-catégorie
+* **Exemple** : Une sous-catégorie "Travaux" (poids : 30 %) contenant cinq travaux individuels valant chacun 20 % de la sous-catégorie
 * Les sous-catégories vous permettent d'organiser l'évaluation de manière hiérarchique tout en simplifiant le calcul global
 
 ## Consultation des Notes
@@ -84,6 +84,6 @@ Cliquez sur le bouton **Exporter** <img src="/.gitbook/assets/icons/mdi-export.s
 ## Conseils
 
 * **Planifiez vos poids dès le début** — Définissez le schéma de notation au début du cours pour que les apprenants sachent à quoi s'attendre
-* **Utilisez des sous-catégories pour les cours complexes** — Regroupez les devoirs, les quiz et la participation dans des catégories claires
+* **Utilisez des sous-catégories pour les cours complexes** — Regroupez les travaux, les quiz et la participation dans des catégories claires
 * **Définissez des seuils de réussite significatifs** — Le score de certification doit refléter une compétence réelle, et pas seulement une participation
 * **Vérifiez régulièrement** — Consultez périodiquement le carnet de notes pour vous assurer que toutes les activités sont correctement liées et que les scores sont bien enregistrés

@@ -32,7 +32,7 @@ Les routes sont modulaires — organisées en fichiers de routes par fonctionnal
 | `room` | Pages des salles virtuelles |
 | `buycourses` | Pages d'achat de cours |
 | `documents` | Gestion des documents |
-| `assignments` | Flux de travail des devoirs |
+| `assignments` | Flux de travail des travaux |
 | `links` | Gestion des liens externes |
 | `glossary` | Gestion du glossaire |
 | `attendance` | Suivi de la présence |
@@ -76,7 +76,7 @@ Les vues se trouvent dans `assets/vue/views/`, organisées par fonctionnalité :
 views/
 ├── account/          # Profil utilisateur et paramètres
 ├── admin/            # Pages d'administration
-├── assignments/      # Soumission et notation des devoirs
+├── assignments/      # Soumission et notation des travaux
 ├── attendance/       # Feuilles de présence
 ├── blog/             # Articles de blog et commentaires
 ├── branch/           # Gestion des campus de réseau

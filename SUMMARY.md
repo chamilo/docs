@@ -19,7 +19,7 @@
     * [Annonces](teacher-guide/adding-content/announcements.md)
   * [Évaluer les apprenants](teacher-guide/assessing-learners/README.md)
     * [Exercices](teacher-guide/assessing-learners/exercises.md)
-    * [Devoirs](teacher-guide/assessing-learners/assignments.md)
+    * [Travaux](teacher-guide/assessing-learners/assignments.md)
     * [Sondages](teacher-guide/assessing-learners/surveys.md)
     * [Présence](teacher-guide/assessing-learners/attendance.md)
     * [Carnet de notes](teacher-guide/assessing-learners/gradebook.md)

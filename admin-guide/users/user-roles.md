@@ -8,7 +8,7 @@ Ces rôles contrôlent l'accès aux fonctionnalités globales de la plateforme :
 
 | Rôle | Description |
 |------|-------------|
-| **Apprenant (Étudiant)** | Rôle par défaut. Peut s'inscrire à des cours, accéder au contenu d'apprentissage, soumettre des devoirs et passer des exercices. |
+| **Apprenant (Étudiant)** | Rôle par défaut. Peut s'inscrire à des cours, accéder au contenu d'apprentissage, soumettre des travaux et passer des exercices. |
 | **Enseignant (Formateur)** | Peut créer et gérer des cours, ajouter du contenu, noter les étudiants et consulter les rapports au niveau des cours. |
 | **Administrateur de sessions** | Peut créer et gérer des sessions (c'est-à-dire des ensembles de cours basés sur le temps), inscrire des utilisateurs aux sessions et assigner des tuteurs. Ne peut pas accéder aux paramètres généraux de la plateforme. |
 | **Gestionnaire des ressources humaines (GRH)** | Peut consulter les données de suivi et de rapport pour les utilisateurs assignés. Utilisé pour les superviseurs qui doivent suivre la formation des employés sans gérer le contenu ni la plateforme. |
@@ -22,7 +22,7 @@ Au sein d'un cours, les utilisateurs ont des rôles spécifiques :
 
 | Rôle | Description |
 |------|-------------|
-| **Étudiant** | Rôle par défaut dans un cours. Peut accéder au contenu, passer des exercices et soumettre des devoirs. |
+| **Étudiant** | Rôle par défaut dans un cours. Peut accéder au contenu, passer des exercices et soumettre des travaux. |
 | **Assistant de cours** | Dispose de permissions de gestion limitées au sein du cours. Peut aider à gérer le contenu et modérer les forums. |
 | **Enseignant** | Contrôle total sur le cours : gérer le contenu, les outils, les paramètres et les inscriptions. |
 

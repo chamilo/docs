@@ -21,7 +21,7 @@ Le plus grand bundle, gérant toutes les préoccupations à l'échelle de la pla
 
 Tout ce qui est spécifique au contenu des cours :
 
-- **Entités de contenu** — 101 entités pour les documents, exercices, parcours d'apprentissage, forums, glossaires, sondages, présences, blogs, devoirs, et plus encore
+- **Entités de contenu** — 101 entités pour les documents, exercices, parcours d'apprentissage, forums, glossaires, sondages, présences, blogs, travaux, et plus encore
 - **Copie de cours** — Import/export avec prise en charge des formats Common Cartridge 1.3 et Moodle
 - **Paramètres de cours** — Schémas de paramètres au niveau des cours
 

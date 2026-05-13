@@ -75,10 +75,10 @@ Configurez comment les messages d'avancement thématique apparaîtront sur la pa
 
 Contrôlez le comportement dans l'outil de forum de ce cours.
 
-### Paramètres des devoirs
+### Paramètres des travaux
 
 * **Paramètre par défaut pour la visibilité des fichiers nouvellement publiés** — Décidez si les nouveaux documents téléchargés par les apprenants dans l'outil **Devoirs** sont partagés avec tous les autres apprenants (Non par défaut)
-* **Autoriser les apprenants à supprimer leurs propres publications** — Permettre aux apprenants de supprimer les devoirs qu'ils ont déjà téléchargés (au cas où ils voudraient téléverser une correction).
+* **Autoriser les apprenants à supprimer leurs propres publications** — Permettre aux apprenants de supprimer les travaux qu'ils ont déjà téléchargés (au cas où ils voudraient téléverser une correction).
 
 ### Paramètres de lancement automatique
 

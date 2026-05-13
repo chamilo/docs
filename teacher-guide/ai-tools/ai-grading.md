@@ -1,13 +1,13 @@
 # Évaluation par IA
 
-L'évaluation par IA vous aide à évaluer les soumissions ouvertes des étudiants — essais, réponses écrites et devoirs téléchargés — en fournissant des suggestions de scores et des commentaires générés par l'IA.
+L'évaluation par IA vous aide à évaluer les soumissions ouvertes des étudiants — essais, réponses écrites et travaux téléchargés — en fournissant des suggestions de scores et des commentaires générés par l'IA.
 
 ## Où apparaît l'évaluation par IA
 
 L'évaluation par IA est disponible dans deux contextes :
 
 * **Questions d'exercice ouvertes** — Lorsque vous notez manuellement des questions à réponse libre dans un exercice
-* **Soumissions de devoirs** — Lorsque vous examinez et notez les publications des étudiants dans l'outil Devoirs
+* **Soumissions de travaux** — Lorsque vous examinez et notez les publications des étudiants dans l'outil Travaux
 
 Recherchez le bouton **Évaluation par IA** (indiqué par une icône de robot <img src="/.gitbook/assets/icons/mdi-robot.svg" alt="IA" data-size="line">) dans l'interface de notation.
 
@@ -28,7 +28,7 @@ Recherchez le bouton **Évaluation par IA** (indiqué par une icône de robot <i
 
 * **L'évaluation par IA est une suggestion** — Vous avez toujours le dernier mot. L'IA fournit un point de départ que vous pouvez ajuster en fonction de votre jugement professionnel.
 * **L'examen est essentiel** — L'IA peut mal interpréter le contexte, manquer des nuances ou attribuer un score incorrect. Examinez toujours la note suggérée avant de la confirmer.
-* **Fonctionne mieux avec des critères clairs** — Plus les instructions de votre devoir et votre grille d'évaluation sont spécifiques, meilleures seront les suggestions de l'IA.
+* **Fonctionne mieux avec des critères clairs** — Plus les instructions de votre travail et votre grille d'évaluation sont spécifiques, meilleures seront les suggestions de l'IA.
 
 ## Divulgation de contenu généré par IA
 
@@ -37,6 +37,6 @@ Les commentaires générés par l'IA sont accompagnés d'une note de divulgation
 ## Conseils
 
 * **Utilisez pour les grandes classes** — L'évaluation par IA est particulièrement utile lorsque vous avez de nombreuses soumissions à examiner, car elle accélère l'évaluation initiale
-* **Fournissez des descriptions détaillées des devoirs** — Des instructions claires aident l'IA à comprendre à quoi ressemble une bonne réponse
+* **Fournissez des descriptions détaillées des travaux** — Des instructions claires aident l'IA à comprendre à quoi ressemble une bonne réponse
 * **Calibrez vos attentes** — Notez quelques soumissions manuellement d'abord pour établir vos standards, puis utilisez l'évaluation par IA pour vous aider avec le reste
 * **Utilisez les commentaires** — Les commentaires générés par l'IA peuvent être un point de départ utile pour vos propres remarques, même si vous ajustez le score

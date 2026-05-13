@@ -88,9 +88,9 @@ Génère des parcours d'apprentissage personnalisés en utilisant des suggestion
 
 ### `task_grader`
 
-**Évaluateur de devoirs**
+**Évaluateur de travaux**
 
-Utilise l'IA pour évaluer et noter les devoirs téléversés.
+Utilise l'IA pour évaluer et noter les travaux téléversés.
 
 *Par défaut : `false`*
 

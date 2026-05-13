@@ -10,7 +10,7 @@ Termes clés utilisés dans l'administration de Chamilo 2.0.
 | **Cours** | Le conteneur de contenu fondamental dans Chamilo. Un cours contient des matériels d'apprentissage, des exercices, des forums et d'autres outils. Les cours peuvent exister indépendamment ou être assignés à des sessions. |
 | **Session** | Une instance limitée dans le temps d'un ou plusieurs cours. Les sessions permettent de diffuser le même contenu de cours à différents groupes d'apprenants avec un suivi séparé et des formateurs indépendants. |
 | **Parcours d'apprentissage** | Une séquence structurée d'éléments de contenu (documents, exercices, liens, modules SCORM) qui guide les apprenants à travers le matériel dans un ordre défini. |
-| **Carnet de notes** | Un outil d'agrégation qui combine les scores des exercices, des devoirs et d'autres activités en une note finale pondérée pour un cours. |
+| **Carnet de notes** | Un outil d'agrégation qui combine les scores des exercices, des travaux et d'autres activités en une note finale pondérée pour un cours. |
 | **Compétence** | Une compétence ou un badge qui peut être attribué aux apprenants après avoir complété des cours spécifiques, des exercices ou atteint des seuils dans le carnet de notes. |
 | **Champ supplémentaire** | Un champ de données personnalisé ajouté par les administrateurs aux utilisateurs, cours ou sessions pour capturer des métadonnées spécifiques à l'organisation. |
 | **Plugin** | Une extension qui ajoute des fonctionnalités à Chamilo sans modifier le code principal. Les plugins peuvent ajouter des pages, des outils ou des intégrations. |

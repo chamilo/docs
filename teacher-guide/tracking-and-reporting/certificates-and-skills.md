@@ -8,7 +8,7 @@ Les certificats sont liés aux **Évaluations** (également appelées Carnet de 
 
 Le processus est le suivant :
 
-1. Configurez les [Évaluations](../assessing-learners/gradebook.md) avec vos exercices, devoirs et autres activités notées
+1. Configurez les [Évaluations](../assessing-learners/gradebook.md) avec vos exercices, travaux et autres activités notées
 2. Définissez un **score minimum de certification** (par exemple, 70 %)
 3. Lorsqu'un apprenant atteint ce score, il peut télécharger son certificat (soit directement dans l'outil Évaluations, soit à partir d'un parcours d'apprentissage si vous avez configuré l'étape finale pour cela). En tant qu'enseignant, vous pouvez également utiliser l'action **Générer des certificats** dans le carnet de notes pour créer les PDF en lot pour tous les apprenants éligibles.
 

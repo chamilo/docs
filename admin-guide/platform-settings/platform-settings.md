@@ -174,7 +174,7 @@ Le nom de votre portail Chamilo (apparaît dans l'en-tête)
 
 **Incrément du sélecteur de temps**
 
-Incrément de temps minimal (en minutes) lors de la sélection d'une date et d'une heure avec le widget timepicker. Par exemple, il peut ne pas être utile d'avoir des incréments inférieurs à 5 ou 15 minutes pour parler de la soumission d'un devoir, de la disponibilité d'un test, de l'heure de début d'une session, etc.
+Incrément de temps minimal (en minutes) lors de la sélection d'une date et d'une heure avec le widget timepicker. Par exemple, il peut ne pas être utile d'avoir des incréments inférieurs à 5 ou 15 minutes pour parler de la soumission d'un travail, de la disponibilité d'un test, de l'heure de début d'une session, etc.
 
 *Par défaut : `15`*
 

@@ -82,7 +82,7 @@ Les actions personnalisées se trouvent dans `src/CoreBundle/Controller/Api/`.
 
 | Contrôleur | Objectif |
 |-----------|----------|
-| `CreateStudentPublicationFileAction` | Soumettre un fichier de devoir |
+| `CreateStudentPublicationFileAction` | Soumettre un fichier de travail |
 | `CreateStudentPublicationCommentAction` | Ajouter un commentaire à une soumission |
 | `CreateStudentPublicationCorrectionFileAction` | Téléverser un fichier de correction pour une soumission |
 

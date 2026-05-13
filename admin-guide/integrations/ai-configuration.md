@@ -53,7 +53,7 @@ Vous pouvez configurer plusieurs fournisseurs. Le premier fournisseur dans la co
 Les fonctionnalités IA peuvent être activées ou désactivées au niveau de chaque cours. Les enseignants peuvent activer ou désactiver :
 
 * **Chatbot Tuteur IA** — L'assistant IA pour les apprenants
-* **Évaluateur de devoirs** — Recommandation d'évaluation générée par IA
+* **Évaluateur de travaux** — Recommandation d'évaluation générée par IA
 * **Générateur d'exercices** — Questions de quiz générées par IA
 * **Générateur de parcours d'apprentissage** — Séquences d'apprentissage générées par IA
 * **Générateur d'images/vidéos** — Images et vidéos générées par IA dans les documents

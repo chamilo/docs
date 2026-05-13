@@ -72,7 +72,7 @@ Chaque paramètre possède :
 Certains paramètres peuvent être redéfinis au niveau des cours. Ces derniers sont définis dans `src/CourseBundle/Settings/` et incluent :
 
 * Paramètres des exercices par cours
-* Paramètres des devoirs par cours
+* Paramètres des travaux par cours
 * Activation/désactivation des fonctionnalités d'IA par cours
 
 ## Paramètres Multi-URL

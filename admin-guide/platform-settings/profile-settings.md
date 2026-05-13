@@ -184,7 +184,7 @@ Sur les portails à forte charge, où de nombreux utilisateurs sont inscrits et 
 
 **Activer les fuseaux horaires des utilisateurs**
 
-Permettre aux utilisateurs de sélectionner leur propre fuseau horaire. Une fois configuré, les utilisateurs pourront voir les délais des devoirs et autres références temporelles dans leur propre fuseau horaire, ce qui réduira les erreurs lors de la livraison.
+Permettre aux utilisateurs de sélectionner leur propre fuseau horaire. Une fois configuré, les utilisateurs pourront voir les délais des travaux et autres références temporelles dans leur propre fuseau horaire, ce qui réduira les erreurs lors de la livraison.
 
 *Par défaut : `true`*
 

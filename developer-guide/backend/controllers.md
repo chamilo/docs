@@ -24,7 +24,7 @@ Actions personnalisées de la plateforme API dans `src/CoreBundle/Controller/Api
 Ces contrôleurs étendent les fonctionnalités CRUD intégrées de la plateforme API avec une logique métier personnalisée. Exemples :
 
 * `CreateDocumentFileAction` — Téléversement de fichiers pour les documents
-* `CreateStudentPublicationFileAction` — Téléversement de soumissions pour les devoirs
+* `CreateStudentPublicationFileAction` — Téléversement de soumissions pour les travaux
 * `UpdateVisibilityDocument` — Basculer la visibilité d'un document
 * `ExportCGlossaryAction` — Exporter le glossaire
 * `MoveDocumentAction` — Déplacer un document vers un autre dossier

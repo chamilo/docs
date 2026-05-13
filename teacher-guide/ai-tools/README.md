@@ -19,7 +19,7 @@ Lorsque les outils d'IA sont activés, ils apparaissent dans les contextes perti
 
 * Le **Générateur d'Exercices** apparaît lors de la création ou de la modification d'exercices, ainsi que comme une action rapide sur les documents dans l'outil Documents
 * Le **Générateur de Parcours d'Apprentissage** apparaît lors de la création de parcours d'apprentissage
-* L'option **Évaluation par IA** apparaît dans le flux de correction des devoirs
+* L'option **Évaluation par IA** apparaît dans le flux de correction des travaux
 * Le **Tuteur IA** est disponible pour les apprenants au sein du cours
 * Le **Générateur de Termes de Glossaire** apparaît dans la barre d'outils de l'outil Glossaire
 * La boîte de dialogue **Génération de Médias par IA** apparaît dans l'éditeur de texte enrichi lors de la création ou de la modification de documents

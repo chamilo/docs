@@ -76,7 +76,7 @@ assets/vue/
 ├── components/          # Composants Vue réutilisables
 │   ├── accessurl/       # Composants multi-URL (portail)
 │   ├── admin/           # Composants spécifiques à l'administration
-│   ├── assignments/     # Formulaires et listes de devoirs
+│   ├── assignments/     # Formulaires et listes de travaux
 │   ├── attendance/      # Composants de feuille de présence
 │   ├── basecomponents/  # Composants de base partagés (BaseButton, BaseIcon, BaseTable, BaseTinyEditor, etc.) et ChamiloIcons.js
 │   ├── blog/            # Composants de blog
