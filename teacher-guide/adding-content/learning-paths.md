@@ -1,115 +1,115 @@
-# Learning Paths
+# Parcours d'apprentissage
 
-Learning paths let you create structured sequences of learning activities. A learning path guides your learners through a specific order of documents, exercises, links, and other resources, with optional prerequisites and progress tracking.
+Les parcours d'apprentissage vous permettent de créer des séquences structurées d'activités d'apprentissage. Un parcours d'apprentissage guide vos apprenants à travers un ordre spécifique de documents, d'exercices, de liens et d'autres ressources, avec des prérequis optionnels et un suivi de progression.
 
-This tool is arguably the most used course tool, because it acts as a composer for many other tools and can very much be the ***only*** tool facing learners.
+Cet outil est sans doute le plus utilisé parmi les outils de cours, car il agit comme un compositeur pour de nombreux autres outils et peut très bien être le ***seul*** outil visible pour les apprenants.
 
-## Why Use Learning Paths?
+## Pourquoi utiliser les parcours d'apprentissage ?
 
-Learning paths are useful when you want to:
+Les parcours d'apprentissage sont utiles lorsque vous souhaitez :
 
-* **Control the order** of content consumption — ensure learners complete foundational material before advancing
-* **Track progress** — see exactly where each learner is in the sequence
-* **Set prerequisites** — require learners to pass an exercise before accessing the next section
-* **Award completion** — link learning path completion to the gradebook and certificates
-* **Package content** — create self-contained learning modules that learners can work through at their own pace
+* **Contrôler l'ordre** de consommation du contenu — s'assurer que les apprenants complètent le matériel de base avant de passer à la suite
+* **Suivre la progression** — voir exactement où chaque apprenant se situe dans la séquence
+* **Définir des prérequis** — exiger que les apprenants réussissent un exercice avant d'accéder à la section suivante
+* **Récompenser l'achèvement** — lier l'achèvement du parcours d'apprentissage au carnet de notes et aux certificats
+* **Regrouper le contenu** — créer des modules d'apprentissage autonomes que les apprenants peuvent suivre à leur propre rythme
 
-## Creating a Learning Path
+## Créer un parcours d'apprentissage
 
-1. Open the **Learning paths** <img src="/.gitbook/assets/icons/mdi-map-marker-path.svg" alt="Learning paths" data-size="line"> tool from the course homepage
-2. Click **Create a learning path**
-3. Enter a **title** and optional description
-4. Save — you will be taken to the learning path editor
+1. Ouvrez l'outil **Parcours d'apprentissage** <img src="/.gitbook/assets/icons/mdi-map-marker-path.svg" alt="Parcours d'apprentissage" data-size="line"> depuis la page d'accueil du cours
+2. Cliquez sur **Créer un parcours d'apprentissage**
+3. Entrez un **titre** et une description optionnelle
+4. Enregistrez — vous serez redirigé vers l'éditeur de parcours d'apprentissage
 
-## The Learning Path Editor
+## L'éditeur de parcours d'apprentissage
 
-![The learning path editor with the item tree on the left and content preview on the right](/.gitbook/assets/learning-path-editor.png)
+![L'éditeur de parcours d'apprentissage avec l'arborescence des éléments à gauche et l'aperçu du contenu à droite](/.gitbook/assets/learning-path-editor.png)
 
-The editor has two main areas:
+L'éditeur comporte deux zones principales :
 
-* **Left panel** — The list of items (steps) in the learning path, shown as a tree structure
-* **Right panel** — The content of the selected item
+* **Panneau de gauche** — La liste des éléments (étapes) du parcours d'apprentissage, affichée sous forme d'arborescence
+* **Panneau de droite** — Le contenu de l'élément sélectionné
 
-### Adding Items
+### Ajouter des éléments
 
-Click **Add an item** and choose what to add:
+Cliquez sur **Ajouter un élément** et choisissez ce que vous voulez ajouter :
 
-| Item type | Description |
+| Type d'élément | Description |
+|----------------|-------------|
+| **Section** | Un titre qui regroupe des éléments connexes (comme un titre de chapitre). Les sections ne contiennent pas de contenu elles-mêmes. |
+| **Document** | Un fichier ou une page web provenant de l'outil Documents de votre cours |
+| **Exercice** | Un quiz ou un test provenant de l'outil Exercices |
+| **Lien** | Une URL externe |
+| **Devoir** | Une publication d'étudiant provenant de l'outil Devoirs |
+| **Forum** | Un lien vers un forum du cours |
+| **Sondage** | Un lien vers un sondage |
+| **Certificat** | Une page spéciale pour déclencher la génération d'un certificat d'achèvement ou l'attribution de compétences |
+
+### Organiser les éléments
+
+* **Glisser-déposer** les éléments pour les réorganiser
+* **Imbriquer les éléments** sous des sections en les déplaçant vers la droite
+* **Supprimer** les éléments dont vous n'avez plus besoin
+
+### Définir des prérequis
+
+Les prérequis garantissent que les apprenants complètent certaines étapes avant d'accéder à d'autres :
+
+1. Sélectionnez un élément dans le parcours d'apprentissage
+2. Ouvrez ses paramètres de **prérequis**
+3. Choisissez quel(s) élément(s) précédent(s) doivent être complétés en premier
+4. Pour les exercices, vous pouvez exiger un **score minimum** (par exemple, "Doit obtenir au moins 70 % au Quiz 1 avant d'accéder au Module 2")
+
+## Expérience de l'apprenant
+
+Lorsqu'un apprenant ouvre un parcours d'apprentissage :
+
+* Il voit la liste des éléments dans le panneau de gauche
+* Les éléments complétés sont marqués d'une coche
+* Les éléments avec des prérequis non satisfaits sont verrouillés
+* La progression est suivie automatiquement — si un apprenant quitte et revient, il reprend là où il s'était arrêté
+* Une barre de progression affiche le pourcentage d'achèvement global
+
+## Contenu SCORM
+
+L'outil de parcours d'apprentissage de Chamilo peut importer des packages **SCORM 1.2** — la norme d'e-learning la plus largement utilisée. Téléchargez un fichier ZIP SCORM et Chamilo créera un parcours d'apprentissage à partir de celui-ci, en suivant la progression et les scores conformément à la spécification SCORM.
+
+Pour importer un package SCORM :
+
+1. Dans l'outil Parcours d'apprentissage, ouvrez le menu des actions et cliquez sur **Télécharger**
+2. Téléchargez le fichier ZIP
+3. Chamilo décompresse et crée le parcours d'apprentissage automatiquement
+
+### Packages CMI5 / xAPI
+
+Les packages CMI5 (le successeur moderne de SCORM basé sur xAPI) sont pris en charge via le plugin **XApi**. Une fois le plugin activé par votre administrateur, vous pouvez importer un package CMI5 et les apprenants peuvent le lancer depuis le cours ; leurs déclarations sont transmises au Learning Record Store configuré.
+
+## Paramètres du parcours d'apprentissage
+
+Configurez le comportement du parcours d'apprentissage :
+
+| Paramètre | Description |
 |-----------|-------------|
-| **Section** | A heading that groups related items (like a chapter title). Sections do not contain content themselves. |
-| **Document** | A file or web page from your course's Documents tool |
-| **Exercise** | A quiz or test from the Exercises tool |
-| **Link** | An external URL |
-| **Assignment** | A student publication from the Assignments tool |
-| **Forum** | A link to a course forum |
-| **Survey** | A link to a survey |
-| **Certificate** | A special page to trigger the generation of a completion certificate or the awarding of skills |
+| **Visibilité** | Masquer ou afficher le parcours d'apprentissage aux apprenants |
+| **Prérequis** | Exiger l'achèvement d'autres parcours d'apprentissage avant celui-ci |
+| **Lancement automatique** | Ouvrir automatiquement ce parcours d'apprentissage lorsque les apprenants entrent dans le cours |
+| **Temps SCORM accumulé** | Indiquer si le temps doit être accumulé sur plusieurs sessions |
 
-### Organizing Items
+## Lier au carnet de notes
 
-* **Drag and drop** items to reorder them
-* **Nest items** under sections by dragging them to the right
-* **Delete** items you no longer need
+Vous pouvez inclure l'achèvement du parcours d'apprentissage comme une activité notée dans le carnet de notes. Cela permet à la progression dans le parcours d'apprentissage de contribuer à la note globale du cours de l'apprenant et à son éligibilité au certificat.
 
-### Setting Prerequisites
+## Utiliser l'IA
 
-Prerequisites ensure learners complete certain steps before accessing others:
+Si l'administrateur a activé la génération de parcours d'apprentissage assistée par IA, vous trouverez une option de générateur IA dans le menu déroulant des actions. Fournissez à l'IA un contexte aussi précis que possible pour votre parcours d'apprentissage, demandez un nombre de pages et un nombre approximatif de mots par page, puis indiquez si vous souhaitez le remplir de tests et le lancer. Quelques minutes plus tard, vous aurez sous les yeux un parcours d'apprentissage complet basé sur du texte.
 
-1. Select an item in the learning path
-2. Open its **prerequisites** settings
-3. Choose which preceding item(s) must be completed first
-4. For exercises, you can require a **minimum score** (e.g., "Must score at least 70% on Quiz 1 before accessing Module 2")
+Modifiez les documents pour générer des illustrations avec davantage d'IA, et il ne vous restera plus qu'à effectuer une révision avant de le partager avec vos apprenants.
 
-## Learner Experience
+## Conseils
 
-When a learner opens a learning path:
-
-* They see the list of items in the left panel
-* Completed items are marked with a checkmark
-* Items with unmet prerequisites are locked
-* Progress is tracked automatically — if a learner leaves and comes back, they resume where they left off
-* A progress bar shows overall completion percentage
-
-## SCORM Content
-
-Chamilo's learning path tool can import **SCORM 1.2** packages — the most widely used e-learning standard. Upload a SCORM ZIP file and Chamilo will create a learning path from it, tracking progress and scores according to the SCORM specification.
-
-To import a SCORM package:
-
-1. In the Learning paths tool, open the actions menu and click **Upload**
-2. Upload the ZIP file
-3. Chamilo unpacks and creates the learning path automatically
-
-### CMI5 / xAPI packages
-
-CMI5 packages (the modern xAPI-based successor to SCORM) are supported through the **XApi** plugin. Once the plugin is enabled by your administrator, you can import a CMI5 package and learners can launch it from the course; their statements are forwarded to the configured Learning Record Store.
-
-## Learning Path Settings
-
-Configure how the learning path behaves:
-
-| Setting | Description |
-|---------|-------------|
-| **Visibility** | Hide or show the learning path to learners |
-| **Prerequisites** | Require completion of other learning paths before this one |
-| **Auto-launch** | Automatically open this learning path when learners enter the course |
-| **Accumulated SCORM time** | Whether to accumulate time across multiple sessions |
-
-## Linking to the Gradebook
-
-You can include learning path completion as a graded activity in the Gradebook. This allows learning path progress to contribute to the learner's overall course grade and certificate eligibility.
-
-## Using AI
-
-If the administrator has enabled AI-assisted learning path generation, you will find an AI generator option in the drop-down actions menu. Give the AI as precise a context as you want your learning path, ask for a number of pages and an approximate number of words per page, then tell it if you want to populate it with tests and launch. A few minutes later, you are looking down at a complete, text-based learning path.
-
-Edit the documents to generate illustrations with more AI and you only have some review to do before you can share it with your learners.
-
-## Tips
-
-* **Start with an outline** — Plan your sections and items before building the path
-* **Use sections as chapters** — Group related items under section headings for clarity
-* **Set prerequisites for assessments** — Require learners to study the content before taking a quiz
-* **Mix content types** — Combine reading materials, videos, interactive exercises, and external resources for an engaging learning experience
-* **Check the learner view** — Use the Student View feature to experience the learning path as a learner would
-* **Use SCORM for interactivity** — If you have access to SCORM authoring tools (like Articulate, iSpring, or similar), create rich interactive content and import it into Chamilo
+* **Commencez par un plan** — Planifiez vos sections et éléments avant de construire le parcours
+* **Utilisez les sections comme des chapitres** — Regroupez les éléments connexes sous des titres de section pour plus de clarté
+* **Définissez des prérequis pour les évaluations** — Exigez des apprenants qu'ils étudient le contenu avant de passer un quiz
+* **Mélangez les types de contenu** — Combinez des supports de lecture, des vidéos, des exercices interactifs et des ressources externes pour une expérience d'apprentissage engageante
+* **Vérifiez la vue apprenant** — Utilisez la fonctionnalité Vue Étudiant pour expérimenter le parcours d'apprentissage comme le ferait un apprenant
+* **Utilisez SCORM pour l'interactivité** — Si vous avez accès à des outils de création SCORM (comme Articulate, iSpring ou similaires), créez du contenu interactif riche et importez-le dans Chamilo

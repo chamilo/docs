@@ -1,52 +1,52 @@
-# CAS Settings
+---
+# Paramètres CAS
 
-Legacy CAS (Central Authentication Service) configuration carried over from Chamilo 1.x. See [CAS](../authentication/cas.md) for the current status of the CAS authenticator in Chamilo 2.x.
+Configuration héritée de CAS (Central Authentication Service) provenant de Chamilo 1.x. Consultez [CAS](../authentication/cas.md) pour connaître l'état actuel de l'authentificateur CAS dans Chamilo 2.x.
 
-Access these settings under **Administration > Configuration settings > CAS**. This category contains **7 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+Accédez à ces paramètres sous **Administration > Paramètres de configuration > CAS**. Cette catégorie contient **7 paramètres**, listés ci-dessous avec le titre et le commentaire fournis dans les fixtures de paramètres de la plateforme (`SettingsCurrentFixtures.php`).
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> Le nom de la variable dans le code est affiché en monospace. Utilisez-le lors de la création de scripts via l'API ou lorsque vous devez modifier ces paramètres à un niveau global en éditant [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
 
-## Settings
+## Paramètres
 
 ### `cas_activate`
 
-**Enable CAS authentication**
+**Activer l'authentification CAS**
 
-Enabling CAS authentication will allow users to authenticate with their CAS credentials.<br/>Go to <a href='settings.php?category=CAS'>Plugin</a> to add a configurable 'CAS Login' button for your Chamilo campus. Or you can force CAS authentication by setting cas[force_redirect] in app/config/auth.conf.php.
+L'activation de l'authentification CAS permettra aux utilisateurs de s'authentifier avec leurs identifiants CAS.<br/>Rendez-vous sur <a href='settings.php?category=CAS'>Plugin</a> pour ajouter un bouton configurable 'Connexion CAS' pour votre campus Chamilo. Vous pouvez également forcer l'authentification CAS en définissant cas[force_redirect] dans app/config/auth.conf.php.
 
 ### `cas_add_user_activate`
 
-**Enable CAS user addition**
+**Activer l'ajout d'utilisateurs CAS**
 
-Enable CAS user addition. To create the user account from the LDAP directory, the extldap_config and extldap_user_correspondance tables must be filled in in app/config/auth.conf.php
+Activez l'ajout d'utilisateurs CAS. Pour créer le compte utilisateur à partir de l'annuaire LDAP, les tables extldap_config et extldap_user_correspondance doivent être remplies dans app/config/auth.conf.php.
 
 ### `cas_port`
 
-**Main CAS server port**
+**Port du serveur CAS principal**
 
-The port on which to connect to the main CAS server
+Le port sur lequel se connecter au serveur CAS principal.
 
 ### `cas_protocol`
 
-**Main CAS server protocol**
+**Protocole du serveur CAS principal**
 
-The protocol with which we connect to the CAS server
+Le protocole avec lequel nous nous connectons au serveur CAS.
 
 ### `cas_server`
 
-**Main CAS server**
+**Serveur CAS principal**
 
-This is the main CAS server which will be used for the authentication (IP address or hostname)
+Ceci est le serveur CAS principal qui sera utilisé pour l'authentification (adresse IP ou nom d'hôte).
 
 ### `cas_server_uri`
 
-**Main CAS server URI**
+**URI du serveur CAS principal**
 
-The path to the CAS service
+Le chemin vers le service CAS.
 
 ### `update_user_info_cas_with_ldap`
 
-**Update CAS-authenticated user account information from LDAP**
+**Mettre à jour les informations du compte utilisateur authentifié par CAS à partir de LDAP**
 
-Makes sure the user firstname, lastname and email address are the same as current values in the LDAP directory
-
+Assure que le prénom, le nom et l'adresse e-mail de l'utilisateur sont identiques aux valeurs actuelles dans l'annuaire LDAP.

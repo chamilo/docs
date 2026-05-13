@@ -1,32 +1,32 @@
-# Cron Jobs Settings
+---
+# Paramètres des tâches planifiées (Cron Jobs)
 
-Configuration of scheduled jobs (cron tasks) shipped with Chamilo.
+Configuration des tâches planifiées (cron tasks) fournies avec Chamilo.
 
-Access these settings under **Administration > Configuration settings > Cron Jobs**. This category contains **3 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+Accédez à ces paramètres sous **Administration > Paramètres de configuration > Tâches planifiées (Cron Jobs)**. Cette catégorie contient **3 paramètres**, listés ci-dessous avec le titre et le commentaire fournis dans les fixtures de paramètres de la plateforme (`SettingsCurrentFixtures.php`).
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> Le nom de la variable dans le code est affiché en monospace. Utilisez-le lors de la création de scripts via l'API ou lorsque vous devez modifier ces paramètres à un niveau global en éditant [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
 
-## Settings
+## Paramètres
 
 ### `cron_remind_course_expiration_activate`
 
-**Remind Course Expiration cron**
+**Rappel de l'expiration des cours (cron)**
 
-Enable the Remind Course Expiration cron
+Activer le cron de rappel de l'expiration des cours
 
-*Default: `false`*
+*Par défaut : `false`*
 
 ### `cron_remind_course_expiration_frequency`
 
-**Frequency for the Remind Course Expiration cron**
+**Fréquence du cron de rappel de l'expiration des cours**
 
-Number of days before the expiration of the course to consider to send reminder mail
+Nombre de jours avant l'expiration du cours à prendre en compte pour envoyer un courriel de rappel
 
 ### `cron_remind_course_finished_activate`
 
-**Send course finished notification**
+**Envoyer une notification de fin de cours**
 
-Whether to send an e-mail to students when their course (session) is finished. This requires cron tasks to be configured (see main/cron/ directory).
+Détermine si un courriel doit être envoyé aux étudiants lorsque leur cours (session) est terminé. Cela nécessite que les tâches cron soient configurées (voir le répertoire main/cron/).
 
-*Default: `false`*
-
+*Par défaut : `false`*

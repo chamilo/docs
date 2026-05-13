@@ -1,202 +1,202 @@
-# Display Settings
+# Paramètres d'affichage
 
-How the platform is displayed to users — homepage layout, gravatar, menus, branding behaviour and similar visual preferences.
+Comment la plateforme est affichée aux utilisateurs — mise en page de la page d'accueil, gravatar, menus, comportement de la marque et autres préférences visuelles similaires.
 
-Access these settings under **Administration > Configuration settings > Display**. This category contains **24 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+Accédez à ces paramètres sous **Administration > Paramètres de configuration > Affichage**. Cette catégorie contient **24 paramètres**, listés ci-dessous avec le titre et le commentaire fournis dans les fixtures de paramètres de la plateforme (`SettingsCurrentFixtures.php`).
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> Le nom de la variable dans le code est affiché en monospace. Utilisez-le lors de la création de scripts via l'API ou lorsque vous devez modifier ces paramètres à un niveau global en éditant [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
 
-## Settings
+## Paramètres
 
 ### `accessibility_font_resize`
 
-**Font resize accessibility feature**
+**Fonctionnalité d'accessibilité pour le redimensionnement de la police**
 
-Enable this option to show a set of font resize options on the top-right side of your campus. This will allow visually impaired to read their course contents more easily.
+Activez cette option pour afficher un ensemble d'options de redimensionnement de la police en haut à droite de votre campus. Cela permettra aux personnes malvoyantes de lire plus facilement le contenu de leurs cours.
 
-*Default: `false`*
+*Par défaut : `false`*
 
 ### `display_categories_on_homepage`
 
-**Display categories on home page**
+**Afficher les catégories sur la page d'accueil**
 
-This option will display or hide courses categories on the portal home page
+Cette option affichera ou masquera les catégories de cours sur la page d'accueil du portail.
 
-*Default: `false`*
+*Par défaut : `false`*
 
 ### `enable_help_link`
 
-**Enable help link**
+**Activer le lien d'aide**
 
-The Help link is located in the top right part of the screen
+Le lien d'aide est situé dans la partie supérieure droite de l'écran.
 
-*Default: `true`*
+*Par défaut : `true`*
 
 ### `gravatar_enabled`
 
-**Gravatar user pictures**
+**Photos d'utilisateur Gravatar**
 
-Enable this option to search into the Gravatar repository for pictures of the current user, if the user hasn't defined a picture locally. This is great to auto-fill pictures on your site, in particular if your users are active internet users. Gravatar pictures can be configured easily, based on the e-mail address of a user, at http://en.gravatar.com/
+Activez cette option pour rechercher dans le répertoire Gravatar des photos de l'utilisateur actuel, si l'utilisateur n'a pas défini de photo localement. Cela permet de remplir automatiquement les photos sur votre site, en particulier si vos utilisateurs sont des internautes actifs. Les photos Gravatar peuvent être configurées facilement, en fonction de l'adresse e-mail d'un utilisateur, sur http://en.gravatar.com/
 
-*Default: `false`*
+*Par défaut : `false`*
 
 ### `gravatar_type`
 
-**Gravatar avatar type**
+**Type d'avatar Gravatar**
 
-If the Gravatar option is enabled and the user doesn't have a picture configured on Gravatar, this option allows you to choose the type of avatar that Gravatar will generate for each user. Check <a href='http://en.gravatar.com/site/implement/images#default-image'>http://en.gravatar.com/site/implement/images#default-image</a> for avatar types examples.
+Si l'option Gravatar est activée et que l'utilisateur n'a pas de photo configurée sur Gravatar, cette option vous permet de choisir le type d'avatar que Gravatar générera pour chaque utilisateur. Consultez <a href='http://en.gravatar.com/site/implement/images#default-image'>http://en.gravatar.com/site/implement/images#default-image</a> pour des exemples de types d'avatar.
 
-*Default: `mm`*
+*Par défaut : `mm`*
 
 ### `hide_complete_name_in_whoisonline`
 
-**Hide the complete username in 'who is online'**
+**Masquer le nom complet dans 'qui est en ligne'**
 
-The 'who is online' page (if enabled) will show a picture and a name for each user currently online. Enable this option to hide the names.
+La page 'qui est en ligne' (si activée) affichera une photo et un nom pour chaque utilisateur actuellement en ligne. Activez cette option pour masquer les noms.
 
-*Default: `false`*
+*Par défaut : `false`*
 
 ### `hide_logout_button`
 
-**Hide logout button**
+**Masquer le bouton de déconnexion**
 
-Hide the logout button. This is usually only interesting when using an external login/logout method, for example when using Single Sign On of some sort.
+Masquez le bouton de déconnexion. Cela n'est généralement intéressant que lorsque vous utilisez une méthode de connexion/déconnexion externe, par exemple avec un système de Single Sign On.
 
-*Default: `false`*
+*Par défaut : `false`*
 
 ### `hide_main_navigation_menu`
 
-**Hide main navigation menu**
+**Masquer le menu de navigation principal**
 
-When using Chamilo for a specific purpose (like one massive online exam), you might want to reduce distraction even more by removing the side menu.
+Lorsque vous utilisez Chamilo pour un objectif spécifique (comme un examen en ligne massif), vous pourriez vouloir réduire davantage les distractions en supprimant le menu latéral.
 
-*Default: `false`*
+*Par défaut : `false`*
 
 ### `hide_social_media_links`
 
-**Hide social media links**
+**Masquer les liens vers les réseaux sociaux**
 
-Some pages allow you to promote the portal or a course on social networks. Enable this setting to remove the links.
+Certaines pages vous permettent de promouvoir le portail ou un cours sur les réseaux sociaux. Activez ce paramètre pour supprimer les liens.
 
-*Default: `false`*
+*Par défaut : `false`*
 
 ### `order_user_list_by_official_code`
 
-**Order users by official code**
+**Trier les utilisateurs par code officiel**
 
-Use the 'official code' to sort most students list on the platform, instead of their lastname or firstname.
+Utilisez le 'code officiel' pour trier la plupart des listes d'étudiants sur la plateforme, au lieu de leur nom de famille ou prénom.
 
-*Default: `false`*
+*Par défaut : `false`*
 
 ### `pdf_logo_header`
 
-**PDF header logo**
+**Logo d'en-tête PDF**
 
-Whether to use the image at var/themes/[your-theme]/images/pdf_logo_header.png as the PDF header logo for all PDF exports (instead of the normal portal logo)
+Utiliser l'image située à var/themes/[votre-thème]/images/pdf_logo_header.png comme logo d'en-tête PDF pour toutes les exportations PDF (au lieu du logo habituel du portail).
 
 ### `show_admin_toolbar`
 
-**Show admin toolbar**
+**Afficher la barre d'outils d'administration**
 
-Shows a global toolbar on top of the page to the designated user roles. This toolbar, very similar to Wordpress and Google's black toolbars, can really speed up complicated actions and improve the space you have available for the learning content, but it might be confusing for some users
+Affiche une barre d'outils globale en haut de la page pour les rôles d'utilisateur désignés. Cette barre d'outils, très similaire à celles de Wordpress et de Google, peut vraiment accélérer les actions complexes et améliorer l'espace disponible pour le contenu d'apprentissage, mais elle peut être déroutante pour certains utilisateurs.
 
-*Default: `do_not_show`*
+*Par défaut : `do_not_show`*
 
 ### `show_back_link_on_top_of_tree`
 
-**Show back links from categories/courses**
+**Afficher les liens de retour depuis les catégories/cours**
 
-Show a link to go back in the courses hierarchy. A link is available at the bottom of the list anyway.
+Affiche un lien pour revenir en arrière dans la hiérarchie des cours. Un lien est de toute façon disponible en bas de la liste.
 
-*Default: `false`*
+*Par défaut : `false`*
 
 ### `show_closed_courses`
 
-**Display closed courses on login page and portal start page?**
+**Afficher les cours fermés sur la page de connexion et la page de démarrage du portail ?**
 
-Display closed courses on the login page and courses start page? On the portal start page an icon will appear next to the courses to quickly subscribe to each courses. This will only appear on the portal's start page when the user is logged in and when the user is not subscribed to the portal yet.
+Afficher les cours fermés sur la page de connexion et la page de démarrage des cours ? Sur la page de démarrage du portail, une icône apparaîtra à côté des cours pour s'inscrire rapidement à chaque cours. Cela n'apparaîtra sur la page de démarrage du portail que lorsque l'utilisateur est connecté et qu'il n'est pas encore inscrit au portail.
 
-*Default: `false`*
+*Par défaut : `false`*
 
 ### `show_email_addresses`
 
-**Show email addresses**
+**Afficher les adresses e-mail**
 
-Show email addresses to users
+Afficher les adresses e-mail aux utilisateurs.
 
-*Default: `false`*
+*Par défaut : `false`*
 
 ### `show_empty_course_categories`
 
-**Show empty courses categories**
+**Afficher les catégories de cours vides**
 
-Show the categories of courses on the homepage, even if they're empty
+Afficher les catégories de cours sur la page d'accueil, même si elles sont vides.
 
-*Default: `true`*
+*Par défaut : `true`*
 
 ### `show_hot_courses`
 
-**Show hot courses**
+**Afficher les cours populaires**
 
-The hot courses list will be added in the index page
+La liste des cours populaires sera ajoutée à la page d'index.
 
-*Default: `true`*
+*Par défaut : `true`*
 
 ### `show_number_of_courses`
 
-**Show courses number**
+**Afficher le nombre de cours**
 
-Show the number of courses in each category in the courses categories on the homepage
+Afficher le nombre de cours dans chaque catégorie dans les catégories de cours sur la page d'accueil.
 
-*Default: `false`*
+*Par défaut : `false`*
 
 ### `show_tabs`
 
-**Main menu entries**
+**Entrées du menu principal**
 
-Check the entrie you want to see appear in the main menu
+Cochez les entrées que vous souhaitez voir apparaître dans le menu principal.
 
-*Default:*
+*Par défaut :*
 ```json
 {"menu":{"campus_homepage":true,"my_courses":true,"reporting":true,"platform_administration":true,"my_agenda":true,"social":true,"videoconference":false,"diagnostics":false,"catalogue":true,"session_admin":true,"search":true,"question_manager":false},"topbar":{"topbar_my_certificates":true,"topbar_my_custom_certificate":false,"topbar_skills":true}}
 ```
 
 ### `show_tabs_per_role`
 
-**Main menu entries per role**
+**Entrées du menu principal par rôle**
 
-Define header tabs visibility per role.
+Définir la visibilité des onglets d'en-tête par rôle.
 
-*Default: `{}`*
+*Par défaut : `{}`*
 
 ### `showonline`
 
-**Who's Online**
+**Qui est en ligne**
 
-Display the number of persons that are online?
+Afficher le nombre de personnes actuellement en ligne ?
 
-*Default: `world`*
+*Par défaut : `world`*
 
 ### `table_default_row`
 
-**Default number of table rows**
+**Nombre de lignes par défaut dans les tableaux**
 
-How many rows should be shown in all tables by default.
+Combien de lignes doivent être affichées par défaut dans tous les tableaux.
 
-*Default: `20`*
+*Par défaut : `20`*
 
 ### `table_row_list`
 
-**Default offered pagination numbers in tables**
+**Nombres de pagination par défaut proposés dans les tableaux**
 
-Set the options you want to appear in the navigation around a table to show less or more rows on one page. e.g. [50, 100, 200, 500].
+Définissez les options que vous souhaitez voir apparaître dans la navigation autour d'un tableau pour afficher moins ou plus de lignes sur une page. Par exemple [50, 100, 200, 500].
 
-*Default: `[10,20,50,100]`*
+*Par défaut : `[10,20,50,100]`*
 
 ### `time_limit_whosonline`
 
-**Time limit on Who Is Online**
+**Limite de temps pour Qui est en ligne**
 
-This time limit defines for how many minutes after his last action a user will be considered *online*
+Cette limite de temps définit pendant combien de minutes après sa dernière action un utilisateur sera considéré comme *en ligne*.
 
-*Default: `30`*
+*Par défaut : `30`*

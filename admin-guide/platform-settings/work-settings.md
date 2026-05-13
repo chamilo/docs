@@ -1,103 +1,103 @@
-# Assignments (Work) Settings
+# Paramètres des devoirs (Travaux)
 
-Defaults and behaviour of the **Assignments (Student Publications)** tool.
+Paramètres par défaut et comportement de l'outil **Devoirs (Publications des étudiants)**.
 
-Access these settings under **Administration > Configuration settings > Assignments (Work)**. This category contains **12 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+Accédez à ces paramètres sous **Administration > Paramètres de configuration > Devoirs (Travaux)**. Cette catégorie contient **12 paramètres**, listés ci-dessous avec le titre et le commentaire fournis dans les fixtures de paramètres de la plateforme (`SettingsCurrentFixtures.php`).
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> Le nom de la variable dans le code est affiché en monospace. Utilisez-le lors de la création de scripts via l'API ou lorsque vous devez modifier ces paramètres à un niveau global en éditant [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
 
-## Settings
+## Paramètres
 
 ### `allow_compilatio_tool`
 
-**Enable Compilatio**
+**Activer Compilatio**
 
-Compilatio is an anti-cheating service that compares text between two submissions and reports if there is a high probability the content (usually assignments) is not genuine.
+Compilatio est un service anti-triche qui compare le texte entre deux soumissions et signale s'il y a une forte probabilité que le contenu (généralement des devoirs) ne soit pas authentique.
 
-*Default: `false`*
+*Par défaut : `false`*
 
 ### `allow_my_student_publication_page`
 
-**Enable My assignments page**
+**Activer la page Mes devoirs**
 
-[inferred] Enable a dedicated page for learners to view and manage their own submitted assignments.
+[inféré] Active une page dédiée permettant aux apprenants de voir et de gérer leurs devoirs soumis.
 
-*Default: `false`*
+*Par défaut : `false`*
 
 ### `allow_only_one_student_publication_per_user`
 
-**Students can only upload one assignment**
+**Les étudiants ne peuvent soumettre qu'un seul devoir**
 
-[inferred] Restrict learners to submitting only one assignment per activity, preventing multiple submissions.
+[inféré] Restreint les apprenants à soumettre un seul devoir par activité, empêchant les soumissions multiples.
 
-*Default: `false`*
+*Par défaut : `false`*
 
 ### `allow_redirect_to_main_page_after_work_upload`
 
-**Redirect to assigment tool homepage after upload or comment**
+**Rediriger vers la page d'accueil de l'outil devoirs après téléversement ou commentaire**
 
-Redirect to assignments list after uploading an assignment or a adding a comment
+Redirige vers la liste des devoirs après le téléversement d'un devoir ou l'ajout d'un commentaire.
 
-*Default: `false`*
+*Par défaut : `false`*
 
 ### `assignment_prevent_duplicate_upload`
 
-**Prevent duplicate uploads in assignments**
+**Empêcher les téléversements en double dans les devoirs**
 
-[inferred] Block learners from uploading identical files for the same assignment submission.
+[inféré] Empêche les apprenants de téléverser des fichiers identiques pour la même soumission de devoir.
 
-*Default: `false`*
+*Par défaut : `false`*
 
 ### `block_student_publication_add_documents`
 
-**Prevent adding documents to assignments**
+**Empêcher l'ajout de documents aux devoirs**
 
-[inferred] Prevent learners from adding or attaching documents when submitting assignments.
+[inféré] Empêche les apprenants d'ajouter ou de joindre des documents lors de la soumission de devoirs.
 
-*Default: `false`*
+*Par défaut : `false`*
 
 ### `block_student_publication_edition`
 
-**Prevent assignments edition**
+**Empêcher la modification des devoirs**
 
-[inferred] Prevent learners from modifying or updating their submitted assignments after initial submission.
+[inféré] Empêche les apprenants de modifier ou de mettre à jour leurs devoirs soumis après la soumission initiale.
 
-*Default: `false`*
+*Par défaut : `false`*
 
 ### `block_student_publication_score_edition`
 
-**Prevent teacher from modifying assignment scores**
+**Empêcher l'enseignant de modifier les scores des devoirs**
 
-[inferred] Prevent instructors from changing assignment scores after they have been recorded.
+[inféré] Empêche les formateurs de modifier les scores des devoirs après leur enregistrement.
 
-*Default: `false`*
+*Par défaut : `false`*
 
 ### `compilatio_tool`
 
-**Compilatio settings**
+**Paramètres de Compilatio**
 
-Configure the Compilatio connection details here.
+Configurez ici les détails de connexion à Compilatio.
 
 ### `considered_working_time`
 
-**Enable time effort for assignments**
+**Activer l'effort de temps pour les devoirs**
 
-This will allow teachers to give an estimated time effort (in hh:mm:ss format) to complete the assignment. Upon submission of the assignment and approval by the teacher (the assignment is given a score), the learner will automatically be assigned the corresponding time.
+Cela permettra aux enseignants d'indiquer une estimation de l'effort de temps (au format hh:mm:ss) nécessaire pour compléter le devoir. Lors de la soumission du devoir et de l'approbation par l'enseignant (le devoir reçoit une note), l'apprenant se verra automatiquement attribuer le temps correspondant.
 
-*Default: `work_time`*
+*Par défaut : `work_time`*
 
 ### `force_download_doc_before_upload_work`
 
-**Force download of document before assignment upload**
+**Forcer le téléchargement du document avant le téléversement du devoir**
 
-Force users to download the provided document in the assignment definition before they can upload their assignment.
+Oblige les utilisateurs à télécharger le document fourni dans la définition du devoir avant de pouvoir téléverser leur devoir.
 
-*Default: `true`*
+*Par défaut : `true`*
 
 ### `my_courses_show_pending_work`
 
-**Display link to 'pending' assignments from My courses page**
+**Afficher un lien vers les devoirs 'en attente' depuis la page Mes cours**
 
-[inferred] Display a link or count of pending assignments on the learner's My Courses page for quick access.
+[inféré] Affiche un lien ou un compteur des devoirs en attente sur la page Mes cours de l'apprenant pour un accès rapide.
 
-*Default: `false`*
+*Par défaut : `false`*

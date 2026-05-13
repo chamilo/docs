@@ -1,28 +1,28 @@
-# CSS and Tailwind
+# CSS et Tailwind
 
-## Stylesheet Architecture
+## Architecture des feuilles de style
 
-Chamilo's styles are layered in this order:
+Les styles de Chamilo sont organisés dans cet ordre :
 
-1. **Tailwind CSS** — Utility classes for layout, spacing, and color. Configured with `important: true` so utilities override PrimeVue component defaults.
-2. **SCSS** — Custom styles in `assets/css/scss/`, organized into atoms, molecules, organisms, layout, and components layers.
-3. **PrimeVue component styles** — Overridden per-component inside `assets/css/scss/atoms/`.
-4. **Theme `colors.css`** — CSS custom properties for the active color theme, loaded last so they cascade over everything else.
+1. **Tailwind CSS** — Classes utilitaires pour la mise en page, l'espacement et la couleur. Configuré avec `important: true` pour que les utilitaires surchargent les styles par défaut des composants PrimeVue.
+2. **SCSS** — Styles personnalisés dans `assets/css/scss/`, organisés en couches d'atomes, de molécules, d'organismes, de mise en page et de composants.
+3. **Styles des composants PrimeVue** — Surchargés par composant dans `assets/css/scss/atoms/`.
+4. **Thème `colors.css`** — Propriétés CSS personnalisées pour le thème de couleur actif, chargées en dernier pour qu'elles prévalent sur tout le reste.
 
-PrimeFlex is listed in `package.json` but is not imported — Tailwind covers all utility needs.
+PrimeFlex est listé dans `package.json` mais n'est pas importé — Tailwind couvre tous les besoins en utilitaires.
 
-## Main Stylesheet (`assets/css/app.scss`)
+## Feuille de style principale (`assets/css/app.scss`)
 
-`app.scss` is the Webpack entry point for the main stylesheet. It imports:
+`app.scss` est le point d'entrée Webpack pour la feuille de style principale. Elle importe :
 
-1. `_tailwind.scss` — Tailwind's `@tailwind base / components / utilities` directives
-2. `scss/index.scss` — Barrel file that imports all SCSS partials
-3. Third-party CSS (cropper, select2, daterangepicker, TinyMCE skin, fancybox, timepicker, qtip)
-4. `editor_content.scss` — Styles injected into the TinyMCE editor iframe body
+1. `_tailwind.scss` — Directives `@tailwind base / components / utilities` de Tailwind
+2. `scss/index.scss` — Fichier baril qui importe tous les fichiers partiels SCSS
+3. CSS tiers (cropper, select2, daterangepicker, skin TinyMCE, fancybox, timepicker, qtip)
+4. `editor_content.scss` — Styles injectés dans le corps de l'iframe de l'éditeur TinyMCE
 
-## Tailwind Configuration (`tailwind.config.js`)
+## Configuration de Tailwind (`tailwind.config.js`)
 
-Key settings:
+Paramètres clés :
 
 ```javascript
 module.exports = {
@@ -37,11 +37,11 @@ module.exports = {
 }
 ```
 
-Content paths scan Vue components, legacy PHP pages, plugin files, and Twig templates so unused utilities are purged on production builds.
+Les chemins de contenu scannent les composants Vue, les pages PHP héritées, les fichiers de plugins et les modèles Twig afin que les utilitaires inutilisés soient purgés lors des builds de production.
 
-### CSS-Variable Color System
+### Système de couleurs basé sur des variables CSS
 
-All color tokens are backed by CSS custom properties rather than hardcoded values:
+Tous les jetons de couleur sont soutenus par des propriétés CSS personnalisées plutôt que par des valeurs codées en dur :
 
 ```javascript
 theme: {
@@ -56,18 +56,18 @@ theme: {
 }
 ```
 
-The `colorWithOpacity` helper emits `rgb(var(--color-primary-base) / <opacity>)`, enabling opacity variants such as `bg-primary/50`. The actual RGB values are defined per theme in `var/themes/{slug}/colors.css` and loaded at runtime — see [Color Themes](color-themes.md).
+L'aide `colorWithOpacity` génère `rgb(var(--color-primary-base) / <opacity>)`, permettant des variantes d'opacité telles que `bg-primary/50`. Les valeurs RGB réelles sont définies par thème dans `var/themes/{slug}/colors.css` et chargées au moment de l'exécution — voir [Thèmes de couleur](color-themes.md).
 
-### Tailwind Plugins
+### Plugins Tailwind
 
-`@tailwindcss/forms` and `@tailwindcss/typography` are enabled.
+`@tailwindcss/forms` et `@tailwindcss/typography` sont activés.
 
-### Custom Type Scale
+### Échelle typographique personnalisée
 
-Four extra font-size/line-height pairs are added via `theme.extend.fontSize`:
+Quatre paires supplémentaires de taille de police et d'interligne sont ajoutées via `theme.extend.fontSize` :
 
-| Class | Size / Line-height |
-|-------|--------------------|
+| Classe | Taille / Interligne |
+|-------|---------------------|
 | `text-body-1` | 16px / 24px |
 | `text-body-2` | 14px / 16px |
 | `text-caption` | 13px / 16px |
@@ -75,38 +75,38 @@ Four extra font-size/line-height pairs are added via `theme.extend.fontSize`:
 
 ## PostCSS
 
-PostCSS (Tailwind + Autoprefixer) is configured inline inside `webpack.config.js` via `enablePostCssLoader()`. There is no standalone `postcss.config.js` file.
+PostCSS (Tailwind + Autoprefixer) est configuré directement dans `webpack.config.js` via `enablePostCssLoader()`. Il n'y a pas de fichier autonome `postcss.config.js`.
 
-## Specialized Stylesheets
+## Feuilles de style spécialisées
 
-| File | Webpack entry | Purpose |
-|------|--------------|---------|
-| `assets/css/app.scss` | `app` | Main application styles |
-| `assets/css/chat.scss` | `css/chat` | Chat interface styles |
-| `assets/css/document.scss` | `css/document` | Document viewer styles |
-| `assets/css/editor.scss` | `css/editor` | TinyMCE editor shell styles |
-| `assets/css/editor_content.scss` | `css/editor_content` | Styles injected into the editor iframe body |
-| `assets/css/markdown.scss` | `css/markdown` | Markdown-rendered content |
-| `assets/css/print.scss` | `css/print` | Print stylesheet |
-| `assets/css/responsive.scss` | `css/responsive` | Responsive overrides |
-| `assets/css/scorm.scss` | `css/scorm` | SCORM player styles |
+| Fichier | Point d'entrée Webpack | Objectif |
+|------|-----------------------|----------|
+| `assets/css/app.scss` | `app` | Styles principaux de l'application |
+| `assets/css/chat.scss` | `css/chat` | Styles de l'interface de chat |
+| `assets/css/document.scss` | `css/document` | Styles du visualiseur de documents |
+| `assets/css/editor.scss` | `css/editor` | Styles de l'enveloppe de l'éditeur TinyMCE |
+| `assets/css/editor_content.scss` | `css/editor_content` | Styles injectés dans le corps de l'iframe de l'éditeur |
+| `assets/css/markdown.scss` | `css/markdown` | Contenu rendu en Markdown |
+| `assets/css/print.scss` | `css/print` | Feuille de style pour l'impression |
+| `assets/css/responsive.scss` | `css/responsive` | Surcharges responsives |
+| `assets/css/scorm.scss` | `css/scorm` | Styles du lecteur SCORM |
 
-## SCSS Module Structure (`assets/css/scss/`)
+## Structure des modules SCSS (`assets/css/scss/`)
 
 ```
 scss/
-├── index.scss        # Barrel — imports everything below
-├── abstracts/        # Mixins and shared functions
-├── settings/         # Design tokens (typography, component base)
-├── atoms/            # Per-component PrimeVue overrides
-├── molecules/        # Small composed patterns (chips, toolbars, empty states)
-├── organisms/        # Larger areas (sidebar, datatable, dialog, LP panel)
-├── layout/           # Page skeleton (topbar, main container, breadcrumb)
-├── components/       # Feature-specific styles (blog, exercise, social, skill, …)
-└── libs/             # Third-party overrides (FullCalendar, MediaElement.js)
+├── index.scss        # Baril — importe tout ce qui suit
+├── abstracts/        # Mixins et fonctions partagées
+├── settings/         # Jetons de design (typographie, base des composants)
+├── atoms/            # Surcharges PrimeVue par composant
+├── molecules/        # Petits motifs composés (puces, barres d'outils, états vides)
+├── organisms/        # Zones plus larges (barre latérale, tableau de données, dialogue, panneau LP)
+├── layout/           # Squelette de page (barre supérieure, conteneur principal, fil d'Ariane)
+├── components/       # Styles spécifiques aux fonctionnalités (blog, exercice, social, compétence, …)
+└── libs/             # Surcharges tierces (FullCalendar, MediaElement.js)
 ```
 
-## Using Tailwind in Vue Components
+## Utilisation de Tailwind dans les composants Vue
 
 ```vue
 <template>
@@ -116,4 +116,4 @@ scss/
 </template>
 ```
 
-Because `important: true` is set in `tailwind.config.js`, Tailwind utilities reliably override PrimeVue component styles without needing extra specificity.
+Puisque `important: true` est défini dans `tailwind.config.js`, les utilitaires Tailwind surchargent de manière fiable les styles des composants PrimeVue sans nécessiter de spécificité supplémentaire.

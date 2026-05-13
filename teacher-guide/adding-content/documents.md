@@ -1,103 +1,103 @@
 # Documents
 
-The documents tool is your course's file repository. You can upload files, create documents in HTML format, organize content into folders, and give learners access to all the materials they need.
+L'outil Documents est le répertoire de fichiers de votre cours. Vous pouvez téléverser des fichiers, créer des documents au format HTML, organiser le contenu dans des dossiers et donner aux apprenants accès à tous les matériels dont ils ont besoin.
 
-## Accessing the Documents Tool
+## Accéder à l'outil Documents
 
-Open the **Documents** <img src="/.gitbook/assets/icons/mdi-bookshelf.svg" alt="Documents" data-size="line"> tool from the course homepage. You will see a file browser showing the root folder of your course's document library.
+Ouvrez l'outil **Documents** <img src="/.gitbook/assets/icons/mdi-bookshelf.svg" alt="Documents" data-size="line"> depuis la page d'accueil du cours. Vous verrez un explorateur de fichiers affichant le dossier racine de la bibliothèque de documents de votre cours.
 
-![The documents file browser showing folders and files with action icons](/.gitbook/assets/documents-file-browser.png)
+![L'explorateur de fichiers des documents affichant les dossiers et fichiers avec des icônes d'action](/.gitbook/assets/documents-file-browser.png)
 
-## Uploading Files
+## Téléverser des fichiers
 
-1. Click the **Upload** <img src="/.gitbook/assets/icons/mdi-upload.svg" alt="Upload" data-size="line"> button
-2. Select one or more files from your computer (you can drag and drop files into the upload area)
-3. The files are uploaded and appear in the current folder
+1. Cliquez sur le bouton **Téléverser** <img src="/.gitbook/assets/icons/mdi-upload.svg" alt="Téléverser" data-size="line">
+2. Sélectionnez un ou plusieurs fichiers depuis votre ordinateur (vous pouvez glisser-déposer les fichiers dans la zone de téléversement)
+3. Les fichiers sont téléversés et apparaissent dans le dossier actuel
 
-Chamilo supports most common file types: PDF, office documents (.docx, .odt), presentations (.pptx, .odp), spreadsheets (.xlsx, .ods), images (PNG, JPG, SVG, GIF), audio files, video files (including WEBM), HTML files, and more.
+Chamilo prend en charge la plupart des types de fichiers courants : PDF, documents bureautiques (.docx, .odt), présentations (.pptx, .odp), feuilles de calcul (.xlsx, .ods), images (PNG, JPG, SVG, GIF), fichiers audio, fichiers vidéo (y compris WEBM), fichiers HTML, et bien plus encore.
 
-Some formats might be forbidden by the portal administrator through a whitelist/blacklist filtering setting in the security section of the administration.
+Certains formats peuvent être interdits par l'administrateur du portail via un réglage de filtrage par liste blanche/liste noire dans la section sécurité de l'administration.
 
-For better readability by learners, we do recommend uploading files a browser can view or open without additional tools. This makes your course more portable and, as such, more accessible to mobile devices and more readable for people with special abilities.
+Pour une meilleure lisibilité par les apprenants, nous recommandons de téléverser des fichiers qu'un navigateur peut afficher ou ouvrir sans outils supplémentaires. Cela rend votre cours plus portable et, par conséquent, plus accessible sur les appareils mobiles et plus lisible pour les personnes ayant des besoins spécifiques.
 
-## Creating Content
+## Créer du contenu
 
-In addition to uploading files, you can create content directly in Chamilo:
+En plus de téléverser des fichiers, vous pouvez créer du contenu directement dans Chamilo :
 
-### Web Pages
+### Pages web
 
-1. Click **New document**
-2. Use the rich-text editor to write your content with formatting, images, tables, and links
-3. Enter a **title** for the page
-4. Save
+1. Cliquez sur **Nouveau document**
+2. Utilisez l'éditeur de texte enrichi pour rédiger votre contenu avec mise en forme, images, tableaux et liens
+3. Entrez un **titre** pour la page
+4. Enregistrez
 
-The rich-text editor (TinyMCE) provides word-processor-like features including:
+L'éditeur de texte enrichi (TinyMCE) offre des fonctionnalités similaires à celles d'un traitement de texte, notamment :
 
-* Text formatting (bold, italic, headings, lists)
-* Tables
-* Images (upload or link to existing images)
-* Embedded videos and audio
-* Links to other resources
-* HTML source editing for advanced users
+* Mise en forme du texte (gras, italique, titres, listes)
+* Tableaux
+* Images (téléversement ou lien vers des images existantes)
+* Vidéos et audio intégrés
+* Liens vers d'autres ressources
+* Édition de la source HTML pour les utilisateurs avancés
 
-### AI media generation
+### Génération de médias par IA
 
-When AI helpers are enabled on the platform, you can ask the AI to generate an **image** or a **short video** to illustrate a paragraph in the document you are editing. Select a paragraph, open the **Generate AI media** dialog, and the AI will produce a media item that you can review and insert. The dialog respects course-level permissions and only appears in courses where AI media generation is allowed.
+Lorsque les assistants IA sont activés sur la plateforme, vous pouvez demander à l'IA de générer une **image** ou une **courte vidéo** pour illustrer un paragraphe dans le document que vous éditez. Sélectionnez un paragraphe, ouvrez la boîte de dialogue **Générer un média IA**, et l'IA produira un élément multimédia que vous pourrez examiner et insérer. La boîte de dialogue respecte les permissions au niveau du cours et n'apparaît que dans les cours où la génération de médias par IA est autorisée.
 
-### Audio Recording
+### Enregistrement audio
 
-If your browser supports it, you can record audio directly within the documents tool — useful for creating audio instructions or language learning content. This requires an HTTPS configuration for Chamilo, as audio recording uses technology that the browser only allows if the connection is secure.
+Si votre navigateur le permet, vous pouvez enregistrer de l'audio directement dans l'outil Documents — utile pour créer des instructions audio ou du contenu pour l'apprentissage des langues. Cela nécessite une configuration HTTPS pour Chamilo, car l'enregistrement audio utilise une technologie que le navigateur n'autorise que si la connexion est sécurisée.
 
-## Organizing with Folders
+## Organiser avec des dossiers
 
-Keep your document library organized using folders:
+Maintenez votre bibliothèque de documents organisée en utilisant des dossiers :
 
-1. Click **New folder** <img src="/.gitbook/assets/icons/mdi-folder-plus.svg" alt="New folder" data-size="line">
-2. Enter a folder name
-3. Save
+1. Cliquez sur **Nouveau dossier** <img src="/.gitbook/assets/icons/mdi-folder-plus.svg" alt="Nouveau dossier" data-size="line">
+2. Entrez un nom pour le dossier
+3. Enregistrez
 
-You can create nested folders to build a logical content hierarchy (e.g., `Module 1 > Week 1 > Readings`).
+Vous pouvez créer des dossiers imbriqués pour construire une hiérarchie de contenu logique (par exemple, `Module 1 > Semaine 1 > Lectures`).
 
-### Moving Files
+### Déplacer des fichiers
 
-* Locate your file in the list
-* Click **Move** <img src="/.gitbook/assets/icons/mdi-folder-move.svg" alt="Move" data-size="line">
-* Select the destination folder
-* Confirm
+* Localisez votre fichier dans la liste
+* Cliquez sur **Déplacer** <img src="/.gitbook/assets/icons/mdi-folder-move.svg" alt="Déplacer" data-size="line">
+* Sélectionnez le dossier de destination
+* Confirmez
 
-## Managing Documents
+## Gérer les documents
 
-For each file or folder, you can:
+Pour chaque fichier ou dossier, vous pouvez :
 
-| Action | Icon | Description |
-|--------|------|-------------|
-| **Edit** | <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Edit" data-size="line"> | Rename the file or edit its content (for web pages) |
-| **Delete** | <img src="/.gitbook/assets/icons/mdi-delete.svg" alt="Delete" data-size="line"> | Remove the file or folder |
-| **Download** | <img src="/.gitbook/assets/icons/mdi-download-box.svg" alt="Download" data-size="line"> | Download the file to your computer |
-| **Visibility** | <img src="/.gitbook/assets/icons/mdi-eye.svg" alt="Visibility" data-size="line"> | Hide or show the file to learners |
-| **Replace** | <img src="/.gitbook/assets/icons/mdi-file-replace.svg" alt="Replace" data-size="line"> | Replace the file with an updated version |
-| **Move** | <img src="/.gitbook/assets/icons/mdi-folder-move.svg" alt="Move" data-size="line"> | Move to a different folder |
+| Action | Icône | Description |
+|--------|-------|-------------|
+| **Modifier** | <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Modifier" data-size="line"> | Renommer le fichier ou modifier son contenu (pour les pages web) |
+| **Supprimer** | <img src="/.gitbook/assets/icons/mdi-delete.svg" alt="Supprimer" data-size="line"> | Supprimer le fichier ou le dossier |
+| **Télécharger** | <img src="/.gitbook/assets/icons/mdi-download-box.svg" alt="Télécharger" data-size="line"> | Télécharger le fichier sur votre ordinateur |
+| **Visibilité** | <img src="/.gitbook/assets/icons/mdi-eye.svg" alt="Visibilité" data-size="line"> | Masquer ou afficher le fichier aux apprenants |
+| **Remplacer** | <img src="/.gitbook/assets/icons/mdi-file-replace.svg" alt="Remplacer" data-size="line"> | Remplacer le fichier par une version mise à jour |
+| **Déplacer** | <img src="/.gitbook/assets/icons/mdi-folder-move.svg" alt="Déplacer" data-size="line"> | Déplacer vers un autre dossier |
 
-Replacing a file is an important feature when you use documents to build learning paths, as replacing the document will allow the document to be refreshed without learners loosing the progress saved for that document.
+Remplacer un fichier est une fonctionnalité importante lorsque vous utilisez des documents pour construire des parcours d'apprentissage, car remplacer le document permettra de le rafraîchir sans que les apprenants perdent la progression enregistrée pour ce document.
 
-### Bulk Actions
+### Actions en masse
 
-Select multiple files using checkboxes, then use the toolbar to delete or download all selected items at once.
+Sélectionnez plusieurs fichiers en utilisant les cases à cocher, puis utilisez la barre d'outils pour supprimer ou télécharger tous les éléments sélectionnés en une seule fois.
 
-## OnlyOffice Integration
+## Intégration OnlyOffice
 
-If your administrator has configured the **OnlyOffice** plugin, you can edit Word, Excel, and PowerPoint (or LibreOffice) files directly in the browser without downloading them. Look for the **Edit with OnlyOffice** <img src="/.gitbook/assets/icons/mdi-file-document-edit-outline.svg" alt="OnlyOffice" data-size="line"> option when viewing a supported file.
+Si votre administrateur a configuré le plugin **OnlyOffice**, vous pouvez modifier des fichiers Word, Excel et PowerPoint (ou LibreOffice) directement dans le navigateur sans les télécharger. Recherchez l'option **Modifier avec OnlyOffice** <img src="/.gitbook/assets/icons/mdi-file-document-edit-outline.svg" alt="OnlyOffice" data-size="line"> lorsque vous consultez un fichier pris en charge.
 
-Documents are stored in Chamilo, OnlyOffice is only used to **view** or edit the documents in the browser, without the need for any additional tool.
+Les documents sont stockés dans Chamilo, OnlyOffice est uniquement utilisé pour **visualiser** ou modifier les documents dans le navigateur, sans besoin d'outil supplémentaire.
 
-## Cloud Files
+## Fichiers dans le cloud
 
-If you use cloud storage (Azure Blob, AWS S3, or Google Cloud) for your files, these are stored in the cloud but you can link them from here. This is transparent to you and your learners — the document tool works the same way regardless of the storage backend.
+Si vous utilisez un stockage cloud (Azure Blob, AWS S3 ou Google Cloud) pour vos fichiers, ceux-ci sont stockés dans le cloud mais vous pouvez les lier depuis ici. Cela est transparent pour vous et vos apprenants — l'outil Documents fonctionne de la même manière quel que soit le backend de stockage.
 
-## Tips
+## Conseils
 
-* **Organize early** — Create your folder structure before uploading content so you don't have to reorganize later. If you have created other courses with the right structure, you can use those courses as template later on
-* **Use descriptive file names** — Help learners find what they need with clear, meaningful names
-* **Hide work-in-progress** — Use the visibility toggle to hide documents you are still preparing
-* **Link from learning paths** — Reference documents within your learning paths to create guided learning sequences
-* **Check the disk quota** — If your course has a storage limit, remove outdated files to free up space
+* **Organisez dès le départ** — Créez votre structure de dossiers avant de téléverser du contenu pour ne pas avoir à réorganiser plus tard. Si vous avez créé d'autres cours avec la bonne structure, vous pouvez les utiliser comme modèle par la suite
+* **Utilisez des noms de fichiers descriptifs** — Aidez les apprenants à trouver ce dont ils ont besoin avec des noms clairs et significatifs
+* **Masquez les travaux en cours** — Utilisez l'interrupteur de visibilité pour masquer les documents que vous êtes encore en train de préparer
+* **Liez depuis les parcours d'apprentissage** — Référencez des documents dans vos parcours d'apprentissage pour créer des séquences d'apprentissage guidées
+* **Vérifiez le quota de disque** — Si votre cours a une limite de stockage, supprimez les fichiers obsolètes pour libérer de l'espace

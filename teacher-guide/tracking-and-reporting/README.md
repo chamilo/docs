@@ -1,13 +1,13 @@
-# Tracking and Reporting
+# Suivi et Rapports
 
-Chamilo tracks learner activity throughout the platform, giving you detailed insights into how your learners are progressing.
+Chamilo suit l'activité des apprenants à travers la plateforme, vous offrant des informations détaillées sur la progression de vos apprenants.
 
-* **[Learner Tracking](learner-tracking.md)** — Monitor individual learner activity: login times, time spent, pages visited, and tool usage
-* **[Course Reports](course-reports.md)** — View aggregate data across all learners in a course
-* **[Certificates and Skills](certificates-and-skills.md)** — Award certificates based on gradebook scores and validate acquired skills
+* **[Suivi des Apprenants](learner-tracking.md)** — Surveillez l'activité individuelle des apprenants : heures de connexion, temps passé, pages visitées et utilisation des outils
+* **[Rapports de Cours](course-reports.md)** — Consultez les données agrégées de tous les apprenants d'un cours
+* **[Certificats et Compétences](certificates-and-skills.md)** — Attribuez des certificats en fonction des scores du carnet de notes et validez les compétences acquises
 
-## Accessing Reports
+## Accéder aux Rapports
 
-From your course, click the **Tracking** <img src="/.gitbook/assets/icons/mdi-chart-box.svg" alt="Tracking" data-size="line"> tool on the course homepage. You can also access reporting from the **Reporting** link in the sidebar for a cross-course overview.
+Depuis votre cours, cliquez sur l'outil **Suivi** <img src="/.gitbook/assets/icons/mdi-chart-box.svg" alt="Suivi" data-size="line"> sur la page d'accueil du cours. Vous pouvez également accéder aux rapports via le lien **Rapports** dans la barre latérale pour une vue d'ensemble multi-cours.
 
-Teachers see reporting data for courses they teach. Session coaches see data across all courses within their session.
+Les enseignants voient les données de rapport pour les cours qu'ils dispensent. Les coachs de session voient les données de tous les cours au sein de leur session.

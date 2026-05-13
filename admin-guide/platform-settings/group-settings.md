@@ -1,37 +1,35 @@
-# Groups Settings
+---
+# Paramètres des Groupes
 
-Behaviour of the course **Groups** tool.
+Comportement de l'outil **Groupes** du cours.
 
-Access these settings under **Administration > Configuration settings > Groups**. This category contains **3 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+Accédez à ces paramètres sous **Administration > Paramètres de configuration > Groupes**. Cette catégorie contient **3 paramètres**, listés ci-dessous avec le titre et le commentaire fournis dans les fixtures de paramètres de la plateforme (`SettingsCurrentFixtures.php`).
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> Le nom de la variable dans le code est affiché en monospace. Utilisez-le lors de la création de scripts via l'API ou lorsque vous devez modifier ces paramètres à un niveau global en éditant [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
 
-## Settings
+## Paramètres
 
 ### `allow_group_categories`
 
-**Group categories**
+**Catégories de groupes**
 
-Allow teachers to create categories in the Groups tool?
+Permettre aux enseignants de créer des catégories dans l'outil Groupes ?
 
-*Default: `false`*
-
+*Par défaut : `false`*
 
 ### `hide_course_group_if_no_tools_available`
 
-**Hide course group if no tool**
+**Masquer le groupe de cours si aucun outil n'est disponible**
 
-If no tool is available in a group and the user is not registered to the group itself, hide the group completely in the groups list.
+Si aucun outil n'est disponible dans un groupe et que l'utilisateur n'est pas inscrit au groupe lui-même, masquer complètement le groupe dans la liste des groupes.
 
-*Default: `false`*
-
+*Par défaut : `false`*
 
 ### `show_groups_to_users`
 
-**Show classes to users**
+**Afficher les classes aux utilisateurs**
 
-Show the classes to users. Classes are a feature that allow you to register/unregister groups of users into a session or a course directly, reducing the administrative hassle. When you pick this option, learners will be able to see in which class they are through their social network interface.
+Afficher les classes aux utilisateurs. Les classes sont une fonctionnalité qui permet d'inscrire/désinscrire des groupes d'utilisateurs à une session ou à un cours directement, réduisant ainsi les tâches administratives. Lorsque vous sélectionnez cette option, les apprenants pourront voir dans quelle classe ils se trouvent via leur interface de réseau social.
 
-*Default: `false`*
-
-
+*Par défaut : `false`*
+---

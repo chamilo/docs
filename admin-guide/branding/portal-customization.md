@@ -1,20 +1,20 @@
-# Portal Customization
+# Personnalisation du Portail
 
-Customize how your Chamilo platform looks and what information is displayed to users.
+Personnalisez l'apparence de votre plateforme Chamilo et les informations affichées aux utilisateurs.
 
-## Platform Identity
+## Identité de la Plateforme
 
-![The portal customization page showing platform identity settings for name, logo, and institution](/.gitbook/assets/admin-portal-customization.png)
+![Page de personnalisation du portail affichant les paramètres d'identité de la plateforme pour le nom, le logo et l'institution](/.gitbook/assets/admin-portal-customization.png)
 
-Configure the basic identity of your portal:
+Configurez l'identité de base de votre portail :
 
-* **Platform name** — The name shown in the browser title and throughout the interface
-* **Institution name** — Your organization's name
-* **Institution URL** — A link to your organization's website
-* **Platform logo** — Upload your organization's logo (displayed in the top bar)
+* **Nom de la plateforme** — Le nom affiché dans le titre du navigateur et à travers l'interface
+* **Nom de l'institution** — Le nom de votre organisation
+* **URL de l'institution** — Un lien vers le site web de votre organisation
+* **Logo de la plateforme** — Téléchargez le logo de votre organisation (affiché dans la barre supérieure)
 
-## Tips
+## Conseils
 
-* **Keep the homepage clean** — Too much content on the homepage can be overwhelming. Focus on essential announcements and course access.
-* **Update regularly** — Keep system announcements current and remove outdated ones
-* **Upload a high-quality logo** — The logo is one of the most visible branding elements. Use a crisp, appropriately sized image.
+* **Gardez la page d'accueil épurée** — Trop de contenu sur la page d'accueil peut être accablant. Concentrez-vous sur les annonces essentielles et l'accès aux cours.
+* **Mettez à jour régulièrement** — Maintenez les annonces du système à jour et supprimez celles qui sont obsolètes.
+* **Téléchargez un logo de haute qualité** — Le logo est l'un des éléments de marque les plus visibles. Utilisez une image nette et de taille appropriée.

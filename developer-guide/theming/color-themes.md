@@ -1,35 +1,35 @@
-# Color Themes
+# Thèmes de Couleurs
 
-Chamilo 2.0 uses a database-driven color theme system. Themes are managed through the admin UI, stored in the database, and written to disk as CSS files. They can be customized per access URL, allowing multi-URL installations to have different visual identities.
+Chamilo 2.0 utilise un système de thèmes de couleurs piloté par base de données. Les thèmes sont gérés via l'interface d'administration, stockés dans la base de données et écrits sur le disque sous forme de fichiers CSS. Ils peuvent être personnalisés par URL d'accès, permettant aux installations multi-URL d'avoir des identités visuelles distinctes.
 
-## Data Model
+## Modèle de Données
 
-Two entities drive the theme system:
+Deux entités pilotent le système de thèmes :
 
 **`ColorTheme`** (`src/CoreBundle/Entity/ColorTheme.php`)
 
-| Field | Type | Description |
+| Champ | Type | Description |
 |-------|------|-------------|
-| `id` | int | Primary key |
-| `title` | string | Human-readable name |
-| `slug` | string | Auto-generated from `title` (e.g. `"My Theme"` → `my-theme`); used as the directory name in `var/themes/` |
-| `variables` | array (JSON) | Map of CSS custom property name → value (e.g. `{"--color-primary-base": "46 117 163"}`) |
+| `id` | int | Clé primaire |
+| `title` | string | Nom lisible par l'humain |
+| `slug` | string | Généré automatiquement à partir de `title` (par exemple `"Mon Thème"` → `mon-theme`) ; utilisé comme nom de répertoire dans `var/themes/` |
+| `variables` | array (JSON) | Correspondance entre le nom de la propriété CSS personnalisée et sa valeur (par exemple `{"--color-primary-base": "46 117 163"}`) |
 
 **`AccessUrlRelColorTheme`** (`src/CoreBundle/Entity/AccessUrlRelColorTheme.php`)
 
-Associates a `ColorTheme` with an `AccessUrl`. The `active` boolean flag marks which theme is currently active for that URL. Only one theme can be active per access URL at a time.
+Associe un `ColorTheme` à une `AccessUrl`. Le drapeau booléen `active` indique quel thème est actuellement actif pour cette URL. Un seul thème peut être actif par URL d'accès à la fois.
 
-## How Themes Are Stored
+## Comment les Thèmes Sont Stockés
 
-When a theme is created or updated via the API, `ColorThemeStateProcessor` generates the CSS file and writes it to the Flysystem `themes_filesystem` (backed by `var/themes/`):
+Lorsqu'un thème est créé ou mis à jour via l'API, `ColorThemeStateProcessor` génère le fichier CSS et l'écrit dans le `themes_filesystem` de Flysystem (soutenu par `var/themes/`) :
 
 ```
 var/themes/
 └── {slug}/
-    └── colors.css   ← generated from ColorTheme.variables
+    └── colors.css   ← généré à partir de ColorTheme.variables
 ```
 
-The generated `colors.css` wraps all variables in a `:root` block:
+Le fichier `colors.css` généré encapsule toutes les variables dans un bloc `:root` :
 
 ```css
 :root {
@@ -40,77 +40,77 @@ The generated `colors.css` wraps all variables in a `:root` block:
 }
 ```
 
-Values are space-separated RGB channel triplets (not `rgb()`), which allows Tailwind to compose opacity variants such as `bg-primary/50` without additional configuration.
+Les valeurs sont des triplets de canaux RGB séparés par des espaces (et non `rgb()`), ce qui permet à Tailwind de composer des variantes d'opacité telles que `bg-primary/50` sans configuration supplémentaire.
 
-## Theme Resolution Precedence
+## Priorité de Résolution des Thèmes
 
-`ThemeHelper::getVisualTheme()` resolves which theme slug to apply on any given page, in this order:
+`ThemeHelper::getVisualTheme()` détermine quel slug de thème appliquer sur une page donnée, dans cet ordre :
 
-1. **Active theme for the current AccessUrl** — the `AccessUrlRelColorTheme` record with `active = true`
-2. **User-selected theme** — the theme stored on the `User` entity, if the `profile.user_selected_theme` platform setting is enabled
-3. **Course theme** — the `course_theme` course setting, if the `course.allow_course_theme` platform setting is enabled
-4. **Learning path theme** — the LP's `$lp_theme_css` value, if the `allow_learning_path_theme` course setting is enabled
-5. **`THEME_FALLBACK` env var** — set in `.env` as `THEME_FALLBACK='chamilo'`
-6. **Default** — `chamilo` (hardcoded as `ThemeHelper::DEFAULT_THEME`)
+1. **Thème actif pour l'AccessUrl actuelle** — l'enregistrement `AccessUrlRelColorTheme` avec `active = true`
+2. **Thème sélectionné par l'utilisateur** — le thème stocké dans l'entité `User`, si le paramètre de plateforme `profile.user_selected_theme` est activé
+3. **Thème du cours** — le paramètre de cours `course_theme`, si le paramètre de plateforme `course.allow_course_theme` est activé
+4. **Thème du parcours d'apprentissage** — la valeur `$lp_theme_css` du parcours d'apprentissage, si le paramètre de cours `allow_learning_path_theme` est activé
+5. **Variable d'environnement `THEME_FALLBACK`** — définie dans `.env` comme `THEME_FALLBACK='chamilo'`
+6. **Par défaut** — `chamilo` (codé en dur comme `ThemeHelper::DEFAULT_THEME`)
 
-## Asset Serving
+## Distribution des Ressources
 
-Theme assets are served by `ThemeController` (`src/CoreBundle/Controller/ThemeController.php`) under the `/themes` prefix.
+Les ressources des thèmes sont servies par `ThemeController` (`src/CoreBundle/Controller/ThemeController.php`) sous le préfixe `/themes`.
 
-| Route | Purpose |
-|-------|---------|
-| `GET /themes/{name}/{path}` | Serve any theme asset (CSS, JS, images); falls back to `chamilo` theme if not found in the requested theme |
-| `GET /themes/{slug}/logo/{type}` | Serve the preferred logo (`header` or `email`), with SVG → PNG fallback |
-| `POST /themes/{slug}/logos` | Upload header/email logos (SVG and/or PNG) |
-| `DELETE /themes/{slug}/logos/{type}` | Delete a specific logo |
+| Route | Objectif |
+|-------|----------|
+| `GET /themes/{name}/{path}` | Servir n'importe quelle ressource de thème (CSS, JS, images) ; revient au thème `chamilo` si non trouvé dans le thème demandé |
+| `GET /themes/{slug}/logo/{type}` | Servir le logo préféré (`header` ou `email`), avec un repli SVG → PNG |
+| `POST /themes/{slug}/logos` | Téléverser des logos d'en-tête ou d'e-mail (SVG et/ou PNG) |
+| `DELETE /themes/{slug}/logos/{type}` | Supprimer un logo spécifique |
 
-The general asset route (`/{name}/{path}`) automatically falls back to the `chamilo` default theme when a file is missing from the requested theme, so themes only need to include files they actually override.
+La route générale des ressources (`/{name}/{path}`) revient automatiquement au thème par défaut `chamilo` lorsqu'un fichier est absent du thème demandé, donc les thèmes n'ont besoin d'inclure que les fichiers qu'ils surchargent réellement.
 
-## How Themes Are Loaded in Templates
+## Comment les Thèmes Sont Chargés dans les Modèles
 
-The `head.html.twig` layout template loads the active theme's assets via Twig helper functions:
+Le modèle de mise en page `head.html.twig` charge les ressources du thème actif via des fonctions d'aide Twig :
 
 ```twig
-{# Inject the theme's color variables #}
+{# Injecter les variables de couleur du thème #}
 {{ theme_asset_link_tag('colors.css') }}
 
-{# Inject TinyMCE color palette #}
+{# Injecter la palette de couleurs TinyMCE #}
 {{ theme_asset_script_tag('tiny-settings.js') }}
 
-{# Reference other theme assets #}
+{# Référencer d'autres ressources du thème #}
 <link rel="shortcut icon" href="{{ theme_asset('images/favicon.ico') }}" type="image/x-icon" />
 ```
 
-The three Twig functions (registered in `ChamiloExtension`) resolve the asset path through `ThemeHelper`, applying the same fallback chain as above:
+Les trois fonctions Twig (enregistrées dans `ChamiloExtension`) résolvent le chemin des ressources via `ThemeHelper`, en appliquant la même chaîne de repli que ci-dessus :
 
-| Function | Returns |
+| Fonction | Retourne |
 |----------|---------|
-| `theme_asset('path')` | URL to the asset in the resolved theme |
-| `theme_asset_link_tag('path')` | Full `<link rel="stylesheet">` tag |
-| `theme_asset_script_tag('path')` | Full `<script src="...">` tag |
-| `theme_asset_base64('path')` | Base64-encoded data URI of the asset |
-| `theme_logo('header'\|'email')` | URL to the best available logo |
+| `theme_asset('path')` | URL vers la ressource dans le thème résolu |
+| `theme_asset_link_tag('path')` | Balise complète `<link rel="stylesheet">` |
+| `theme_asset_script_tag('path')` | Balise complète `<script src="...">` |
+| `theme_asset_base64('path')` | URI de données encodées en Base64 de la ressource |
+| `theme_logo('header'\|'email')` | URL vers le meilleur logo disponible |
 
-## API Endpoints
+## Points de Terminaison API
 
-Theme management is exposed via the API Platform REST API (admin-only):
+La gestion des thèmes est exposée via l'API REST de la plateforme API (réservée aux administrateurs) :
 
-| Method | Endpoint | Purpose |
+| Méthode | Point de terminaison | Objectif |
 |--------|----------|---------|
-| `POST` | `/api/color_themes` | Create a new theme |
-| `PUT` | `/api/color_themes/{id}` | Update an existing theme |
-| `POST` | `/api/access_url_rel_color_themes` | Associate/activate a theme for an access URL |
-| `GET` | `/api/access_url_rel_color_themes` | List theme associations for the current access URL |
+| `POST` | `/api/color_themes` | Créer un nouveau thème |
+| `PUT` | `/api/color_themes/{id}` | Mettre à jour un thème existant |
+| `POST` | `/api/access_url_rel_color_themes` | Associer/activer un thème pour une URL d'accès |
+| `GET` | `/api/access_url_rel_color_themes` | Lister les associations de thèmes pour l'URL d'accès actuelle |
 
-## Creating a Custom Theme
+## Création d'un Thème Personnalisé
 
-The standard workflow is through the admin UI (**Admin → Color Themes**), which calls the API endpoints above. To create a theme programmatically:
+Le flux de travail standard passe par l'interface d'administration (**Admin → Thèmes de Couleurs**), qui appelle les points de terminaison API ci-dessus. Pour créer un thème par programmation :
 
-1. `POST /api/color_themes` with a JSON body:
+1. `POST /api/color_themes` avec un corps JSON :
 
 ```json
 {
-  "title": "My Theme",
+  "title": "Mon Thème",
   "variables": {
     "--color-primary-base": "30 90 140",
     "--color-primary-gradient": "20 60 100",
@@ -123,9 +123,9 @@ The standard workflow is through the admin UI (**Admin → Color Themes**), whic
 }
 ```
 
-This persists the entity and writes `var/themes/my-theme/colors.css`.
+Cela persiste l'entité et écrit `var/themes/mon-theme/colors.css`.
 
-2. `POST /api/access_url_rel_color_themes` to associate and activate it for the current access URL:
+2. `POST /api/access_url_rel_color_themes` pour l'associer et l'activer pour l'URL d'accès actuelle :
 
 ```json
 {
@@ -133,34 +133,34 @@ This persists the entity and writes `var/themes/my-theme/colors.css`.
 }
 ```
 
-To add custom images (logo, favicon, backgrounds), upload them via `POST /themes/{slug}/logos` or place them directly in `var/themes/{slug}/images/`.
+Pour ajouter des images personnalisées (logo, favicon, arrière-plans), téléversez-les via `POST /themes/{slug}/logos` ou placez-les directement dans `var/themes/{slug}/images/`.
 
-## Color Variable Reference
+## Référence des Variables de Couleur
 
-All variables expected by the default Tailwind configuration:
+Toutes les variables attendues par la configuration Tailwind par défaut :
 
-| Variable | Purpose |
+| Variable | Objectif |
 |----------|---------|
-| `--color-primary-base` | Primary brand color |
-| `--color-primary-gradient` | Darker gradient stop for primary |
-| `--color-primary-button-text` | Text color on primary buttons |
-| `--color-primary-button-alternative-text` | Alternative text color on primary buttons |
-| `--color-secondary-base` | Secondary accent color |
-| `--color-secondary-gradient` | Gradient stop for secondary |
-| `--color-secondary-button-text` | Text color on secondary buttons |
-| `--color-tertiary-base` | Tertiary color |
-| `--color-tertiary-gradient` | Gradient stop for tertiary |
-| `--color-tertiary-button-text` | Text color on tertiary buttons |
-| `--color-success-base` | Success state color |
-| `--color-success-gradient` | Gradient stop for success |
-| `--color-success-button-text` | Text color on success buttons |
-| `--color-info-base` | Info state color |
-| `--color-info-gradient` | Gradient stop for info |
-| `--color-info-button-text` | Text color on info buttons |
-| `--color-warning-base` | Warning state color |
-| `--color-warning-gradient` | Gradient stop for warning |
-| `--color-warning-button-text` | Text color on warning buttons |
-| `--color-danger-base` | Danger/error state color |
-| `--color-danger-gradient` | Gradient stop for danger |
-| `--color-danger-button-text` | Text color on danger buttons |
-| `--color-form-base` | Form element accent color |
+| `--color-primary-base` | Couleur de marque principale |
+| `--color-primary-gradient` | Arrêt de dégradé plus foncé pour le principal |
+| `--color-primary-button-text` | Couleur du texte sur les boutons principaux |
+| `--color-primary-button-alternative-text` | Couleur alternative du texte sur les boutons principaux |
+| `--color-secondary-base` | Couleur d'accent secondaire |
+| `--color-secondary-gradient` | Arrêt de dégradé pour le secondaire |
+| `--color-secondary-button-text` | Couleur du texte sur les boutons secondaires |
+| `--color-tertiary-base` | Couleur tertiaire |
+| `--color-tertiary-gradient` | Arrêt de dégradé pour le tertiaire |
+| `--color-tertiary-button-text` | Couleur du texte sur les boutons tertiaires |
+| `--color-success-base` | Couleur d'état de succès |
+| `--color-success-gradient` | Arrêt de dégradé pour le succès |
+| `--color-success-button-text` | Couleur du texte sur les boutons de succès |
+| `--color-info-base` | Couleur d'état d'information |
+| `--color-info-gradient` | Arrêt de dégradé pour l'information |
+| `--color-info-button-text` | Couleur du texte sur les boutons d'information |
+| `--color-warning-base` | Couleur d'état d'avertissement |
+| `--color-warning-gradient` | Arrêt de dégradé pour l'avertissement |
+| `--color-warning-button-text` | Couleur du texte sur les boutons d'avertissement |
+| `--color-danger-base` | Couleur d'état de danger/erreur |
+| `--color-danger-gradient` | Arrêt de dégradé pour le danger |
+| `--color-danger-button-text` | Couleur du texte sur les boutons de danger |
+| `--color-form-base` | Couleur d'accent des éléments de formulaire |

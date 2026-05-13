@@ -1,40 +1,40 @@
-# Getting Started
+# Premiers pas
 
-This section helps you get oriented with Chamilo 2.0. You will learn how to log in, navigate the main interface, and configure your profile.
+Cette section vous aide à vous familiariser avec Chamilo 2.0. Vous apprendrez comment vous connecter, naviguer dans l'interface principale et configurer votre profil.
 
-## Logging In
+## Connexion
 
-To access Chamilo, open your browser and navigate to the URL provided by your institution (for example, `https://chamilo.yourschool.edu`). Enter your username and password on the login page and click **Sign in**.
+Pour accéder à Chamilo, ouvrez votre navigateur et rendez-vous à l'URL fournie par votre institution (par exemple, `https://chamilo.yourschool.edu`). Saisissez votre nom d'utilisateur et votre mot de passe sur la page de connexion, puis cliquez sur **Se connecter**.
 
-If your institution uses external authentication (such as Azure, Keycloak, or a university single sign-on system), you may see additional login buttons below the standard login form. Click the appropriate button to authenticate through your institution's identity provider.
+Si votre institution utilise une authentification externe (comme Azure, Keycloak ou un système de connexion unique universitaire), vous pourriez voir des boutons de connexion supplémentaires sous le formulaire de connexion standard. Cliquez sur le bouton approprié pour vous authentifier via le fournisseur d'identité de votre institution.
 
-> If you have forgotten your password, click the **Forgot password?** link on the login page. You will receive an email with instructions to reset it.
+> Si vous avez oublié votre mot de passe, cliquez sur le lien **Mot de passe oublié ?** sur la page de connexion. Vous recevrez un courriel avec des instructions pour le réinitialiser.
 
-## First Look
+## Premier aperçu
 
-After logging in, you will see the Chamilo home page. The interface is organized into three main areas:
+Après vous être connecté, vous verrez la page d'accueil de Chamilo. L'interface est organisée en trois zones principales :
 
-![The Chamilo home page showing system announcements and course cards](/.gitbook/assets/home-page-teacher.png)
+![La page d'accueil de Chamilo affichant les annonces du système et les cartes de cours](/.gitbook/assets/home-page-teacher.png)
 
-* **Top bar** — Displays the platform logo, your message inbox (with a badge showing unread messages), and your user avatar. Click your avatar to access your profile and account settings.
-* **Sidebar** — The left navigation panel gives you quick access to your courses, sessions, agenda, social network, and more. You can collapse it by clicking the toggle at its edge.
-* **Main content area** — This is where the current page content is displayed. On the home page, you will see system announcements and your featured courses.
+* **Barre supérieure** — Affiche le logo de la plateforme, votre boîte de réception de messages (avec un badge indiquant les messages non lus) et votre avatar d'utilisateur. Cliquez sur votre avatar pour accéder à votre profil et aux paramètres de votre compte.
+* **Barre latérale** — Le panneau de navigation à gauche vous donne un accès rapide à vos cours, sessions, agenda, réseau social, et plus encore. Vous pouvez la réduire en cliquant sur l'icône de bascule à son bord.
+* **Zone de contenu principale** — C'est ici que le contenu de la page actuelle est affiché. Sur la page d'accueil, vous verrez les annonces du système et vos cours mis en avant.
 
-## Your Courses
+## Vos cours
 
-From the sidebar, click **My courses** to see all the courses you are enrolled in as a teacher or student. Each course appears as a card showing:
+Depuis la barre latérale, cliquez sur **Mes cours** pour voir tous les cours auxquels vous êtes inscrit en tant qu'enseignant ou étudiant. Chaque cours apparaît sous forme de carte indiquant :
 
-![The My Courses page displaying course cards with thumbnails and quick-access actions](/.gitbook/assets/my-courses-list.png)
+![La page Mes cours affichant les cartes de cours avec des vignettes et des actions d'accès rapide](/.gitbook/assets/my-courses-list.png)
 
-* The course image or thumbnail
-* The course title
-* Quick-access actions
+* L'image ou la vignette du cours
+* Le titre du cours
+* Les actions d'accès rapide
 
-If your institution uses **sessions** (time-bound training periods), you will also see a **My sessions** link in the sidebar, organized into current, past, and upcoming sessions.
+Si votre institution utilise des **sessions** (périodes de formation limitées dans le temps), vous verrez également un lien **Mes sessions** dans la barre latérale, organisé en sessions actuelles, passées et à venir.
 
-Sessions in Chamilo are a way to deliver the same course to different groups of learners at different times, without duplicating the course content. Think of a session as a scheduled edition or cohort of a course. More on that topic later.
+Les sessions dans Chamilo sont un moyen de proposer le même cours à différents groupes d'apprenants à des moments différents, sans dupliquer le contenu du cours. Considérez une session comme une édition ou une cohorte programmée d'un cours. Plus de détails sur ce sujet ultérieurement.
 
-## Next Steps
+## Prochaines étapes
 
-* [Understanding the Interface](understanding-the-interface.md) — A detailed look at every part of the Chamilo interface
-* [Your Profile](your-profile.md) — How to manage your personal information and preferences
+* [Comprendre l'interface](understanding-the-interface.md) — Un examen détaillé de chaque partie de l'interface de Chamilo
+* [Votre profil](your-profile.md) — Comment gérer vos informations personnelles et vos préférences

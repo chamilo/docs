@@ -1,59 +1,59 @@
 # Wiki
 
-The wiki tool lets you and your learners collaboratively create and edit web pages within the course. It is useful for group projects, shared knowledge bases, and collaborative writing exercises.
+L'outil wiki vous permet, ainsi qu'à vos apprenants, de créer et de modifier collaborativement des pages web au sein du cours. Il est utile pour les projets de groupe, les bases de connaissances partagées et les exercices d'écriture collaborative.
 
-## How the Wiki Works
+## Fonctionnement du Wiki
 
-A wiki is a collection of interlinked web pages that anyone with permission can edit. In Chamilo:
+Un wiki est une collection de pages web interconnectées que toute personne ayant les autorisations peut modifier. Dans Chamilo :
 
-* Each course has its own wiki
-* Pages can be linked to each other using wiki-style links
-* All edits are tracked with a revision history
-* Previous versions can be compared and restored
+* Chaque cours possède son propre wiki
+* Les pages peuvent être liées les unes aux autres à l'aide de liens de style wiki
+* Toutes les modifications sont suivies dans un historique des révisions
+* Les versions précédentes peuvent être comparées et restaurées
 
-## Creating a Wiki Page
+## Création d'une Page Wiki
 
-1. Open the **Wiki** tool from the course homepage
-2. Click **Add a new page**
-3. Enter a **page title**
-4. Write the page content using the rich-text editor
-5. Save
+1. Ouvrez l'outil **Wiki** depuis la page d'accueil du cours
+2. Cliquez sur **Ajouter une nouvelle page**
+3. Saisissez un **titre de page**
+4. Rédigez le contenu de la page à l'aide de l'éditeur de texte enrichi
+5. Enregistrez
 
-To link to another wiki page from within the editor, create a link using the target page's title.
+Pour créer un lien vers une autre page wiki depuis l'éditeur, insérez un lien en utilisant le titre de la page cible.
 
-## Editing Pages
+## Modification des Pages
 
-Anyone with edit permissions can modify a wiki page:
+Toute personne disposant des autorisations de modification peut éditer une page wiki :
 
-1. Open the page you want to edit
-2. Click the **Edit** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Edit" data-size="line"> button
-3. Make your changes in the editor
-4. Add an optional **Comments** entry describing what you changed
-5. Save
+1. Ouvrez la page que vous souhaitez modifier
+2. Cliquez sur le bouton **Modifier** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Modifier" data-size="line">
+3. Apportez vos modifications dans l'éditeur
+4. Ajoutez une entrée optionnelle dans **Commentaires** pour décrire ce que vous avez modifié
+5. Enregistrez
 
-## Revision History
+## Historique des Révisions
 
-Every edit creates a new revision. You can:
+Chaque modification crée une nouvelle révision. Vous pouvez :
 
-* **View history** — See a list of all revisions with timestamps and authors
-* **Compare versions** — See what changed between two revisions
-* **Restore a version** — Revert the page to a previous revision if needed
+* **Voir l'historique** — Consulter une liste de toutes les révisions avec les horodatages et les auteurs
+* **Comparer les versions** — Voir ce qui a changé entre deux révisions
+* **Restaurer une version** — Revenir à une révision précédente si nécessaire
 
-## Managing the Wiki
+## Gestion du Wiki
 
-As the course teacher, you can:
+En tant qu'enseignant du cours, vous pouvez :
 
-* **View all pages** — See a list of all wiki pages in the course
-* **Find orphan pages** — Identify pages that are not linked from any other page
-* **Find wanted pages** — See pages that are linked to but do not yet exist
-* **Lock a page for editing** — Block all edits on a page while you finalise it
-* **Toggle visibility** — Hide a page from learners
-* **Delete pages** — Remove pages that are no longer needed
-* **Monitor contributions** — Review per-user statistics: most active editors, most edited pages, most visited pages
-* **Export** — Export a wiki page to PDF, or send it into the Documents tool
+* **Voir toutes les pages** — Consulter une liste de toutes les pages wiki du cours
+* **Trouver les pages orphelines** — Identifier les pages qui ne sont liées à aucune autre page
+* **Trouver les pages recherchées** — Voir les pages qui sont liées mais n'existent pas encore
+* **Verrouiller une page pour modification** — Bloquer toutes les modifications sur une page pendant que vous la finalisez
+* **Basculer la visibilité** — Masquer une page aux apprenants
+* **Supprimer des pages** — Supprimer les pages qui ne sont plus nécessaires
+* **Suivre les contributions** — Examiner les statistiques par utilisateur : éditeurs les plus actifs, pages les plus modifiées, pages les plus visitées
+* **Exporter** — Exporter une page wiki en PDF ou l'envoyer dans l'outil Documents
 
-## Tips
+## Conseils
 
-* **Use the wiki for group projects** — Assign each group a wiki page to collaboratively build their deliverable
-* **Create a course knowledge base** — Build a reference wiki with key concepts, and encourage learners to contribute
-* **Review edit history** — The revision history lets you assess individual contributions in collaborative work
+* **Utilisez le wiki pour des projets de groupe** — Attribuez à chaque groupe une page wiki pour construire collaborativement leur livrable
+* **Créez une base de connaissances pour le cours** — Construisez un wiki de référence avec les concepts clés et encouragez les apprenants à contribuer
+* **Consultez l'historique des modifications** — L'historique des révisions vous permet d'évaluer les contributions individuelles dans les travaux collaboratifs

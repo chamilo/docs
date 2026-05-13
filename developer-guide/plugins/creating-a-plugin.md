@@ -1,18 +1,18 @@
-# Creating a Plugin
+# Création d'un Plugin
 
-This guide walks through creating a basic Chamilo plugin. For additional detail, see the [Plugin development wiki page](https://github.com/chamilo/chamilo-lms/wiki/Plugin-development).
+Ce guide vous accompagne dans la création d'un plugin de base pour Chamilo. Pour plus de détails, consultez la [page wiki sur le développement de plugins](https://github.com/chamilo/chamilo-lms/wiki/Plugin-development).
 
-## Step 1: Create the Plugin Directory
+## Étape 1 : Créer le Répertoire du Plugin
 
-Create a directory in `public/plugin/`. The directory name should match your plugin's identifier:
+Créez un répertoire dans `public/plugin/`. Le nom du répertoire doit correspondre à l'identifiant de votre plugin :
 
 ```
 public/plugin/MyPlugin/
 ```
 
-## Step 2: Define the Plugin Class
+## Étape 2 : Définir la Classe du Plugin
 
-Create `src/MyPluginPlugin.php`. The class extends `Plugin` and follows the singleton pattern:
+Créez `src/MyPluginPlugin.php`. La classe étend `Plugin` et suit le modèle singleton :
 
 ```php
 <?php
@@ -36,19 +36,19 @@ class MyPluginPlugin extends Plugin
 }
 ```
 
-### Available Setting Types
+### Types de Paramètres Disponibles
 
 | Type | Description |
 |------|-------------|
-| `boolean` | Checkbox on/off |
-| `text` | Single-line text input |
-| `select` | Dropdown (provide `options` array) |
-| `wysiwyg` | Rich text editor |
-| `html` | Raw HTML field |
-| `checkbox` | Checkbox |
-| `user` | User selector |
+| `boolean` | Case à cocher activé/désactivé |
+| `text` | Champ de texte sur une seule ligne |
+| `select` | Liste déroulante (fournir un tableau `options`) |
+| `wysiwyg` | Éditeur de texte enrichi |
+| `html` | Champ HTML brut |
+| `checkbox` | Case à cocher |
+| `user` | Sélecteur d'utilisateur |
 
-For `select` settings:
+Pour les paramètres de type `select` :
 
 ```php
 $settings = [
@@ -60,44 +60,44 @@ $settings = [
 ];
 ```
 
-Access settings at runtime:
+Accéder aux paramètres lors de l'exécution :
 
 ```php
 $plugin = MyPluginPlugin::create();
-$key  = $plugin->get('api_key');       // single value
-$all  = $plugin->get_settings();       // all settings
+$key  = $plugin->get('api_key');       // valeur unique
+$all  = $plugin->get_settings();       // tous les paramètres
 ```
 
-## Step 3: Create plugin.php
+## Étape 3 : Créer plugin.php
 
-`plugin.php` at the plugin root is **required**. It must assign `$plugin_info`:
+Le fichier `plugin.php` à la racine du plugin est **obligatoire**. Il doit assigner `$plugin_info` :
 
 ```php
 <?php
 $plugin_info = MyPluginPlugin::create()->get_info();
 ```
 
-## Step 4: Create Install and Uninstall Scripts
+## Étape 4 : Créer les Scripts d'Installation et de Désinstallation
 
-`install.php`:
+`install.php` :
 
 ```php
 <?php
 MyPluginPlugin::create()->install();
 ```
 
-`uninstall.php`:
+`uninstall.php` :
 
 ```php
 <?php
 MyPluginPlugin::create()->uninstall();
 ```
 
-Implement the actual schema creation/deletion inside the class using Doctrine's `SchemaTool`.
+Implémentez la création/suppression du schéma dans la classe en utilisant `SchemaTool` de Doctrine.
 
-## Step 5: Add Translations
+## Étape 5 : Ajouter des Traductions
 
-Create language files in `lang/` using locale codes (e.g., `en_US.php`, `fr_FR.php`, `es_ES.php`). The fallback is `en_US.php`.
+Créez des fichiers de langue dans `lang/` en utilisant les codes de locale (par exemple, `en_US.php`, `fr_FR.php`, `es_ES.php`). Le fichier de secours est `en_US.php`.
 
 ```php
 <?php
@@ -109,11 +109,11 @@ $strings['api_key']        = 'API Key';
 $strings['api_key_help']   = 'Enter the API key from your account.';
 ```
 
-Access translations via `$plugin->get_lang('key')`.
+Accédez aux traductions via `$plugin->get_lang('key')`.
 
-## Step 6: Inject Content via Display Regions
+## Étape 6 : Injecter du Contenu via les Régions d'Affichage
 
-Plugins can inject HTML into 18 predefined regions of the Vue frontend. Override `renderRegion()` in your class:
+Les plugins peuvent injecter du HTML dans 18 régions prédéfinies de l'interface frontend Vue. Surchargez `renderRegion()` dans votre classe :
 
 ```php
 public function renderRegion(string $region): string
@@ -125,11 +125,11 @@ public function renderRegion(string $region): string
 }
 ```
 
-Available regions include: `content_bottom`, `content_top`, `course_tool_plugin`, `footer_center`, `footer_left`, `footer_right`, `header_center`, `header_left`, `header_main`, `header_right`, `login_bottom`, `login_top`, `main_bottom`, `main_top`, `menu_administrator`, `menu_bottom`, `menu_top`, `pre_footer`.
+Les régions disponibles incluent : `content_bottom`, `content_top`, `course_tool_plugin`, `footer_center`, `footer_left`, `footer_right`, `header_center`, `header_left`, `header_main`, `header_right`, `login_bottom`, `login_top`, `main_bottom`, `main_top`, `menu_administrator`, `menu_bottom`, `menu_top`, `pre_footer`.
 
-## Step 7: React to Platform Events (Optional)
+## Étape 7 : Réagir aux Événements de la Plateforme (Optionnel)
 
-Plugins can react to platform events using Symfony event subscribers. Create a file ending in `EventSubscriber.php` inside `src/EventSubscriber/` — it is auto-registered via `PluginEventSubscriberPass`.
+Les plugins peuvent réagir aux événements de la plateforme en utilisant les abonnés aux événements de Symfony. Créez un fichier se terminant par `EventSubscriber.php` dans `src/EventSubscriber/` — il est automatiquement enregistré via `PluginEventSubscriberPass`.
 
 ```php
 <?php
@@ -144,7 +144,7 @@ class MyPluginEventSubscriber implements EventSubscriberInterface
 
     public function __construct()
     {
-        // Plugin classes are not Symfony services — use the create() singleton.
+        // Les classes de plugin ne sont pas des services Symfony — utilisez le singleton create().
         $this->plugin = MyPluginPlugin::create();
     }
 
@@ -160,35 +160,35 @@ class MyPluginEventSubscriber implements EventSubscriberInterface
         if (!$this->plugin->isEnabled()) {
             return;
         }
-        // your logic here
+        // votre logique ici
     }
 }
 ```
 
-See `src/CoreBundle/Event/Events.php` for the full list of available events (user, course, session, LP, exercise, portfolio, authentication, and more).
+Consultez `src/CoreBundle/Event/Events.php` pour la liste complète des événements disponibles (utilisateur, cours, session, LP, exercice, portfolio, authentification, et plus encore).
 
-## Step 8: Lifecycle Hooks
+## Étape 8 : Crochets de Cycle de Vie
 
-Override these methods in your plugin class to respond to platform actions:
+Surchargez ces méthodes dans votre classe de plugin pour répondre aux actions de la plateforme :
 
-| Method | Triggered when |
-|--------|----------------|
-| `install()` | Plugin is activated |
-| `uninstall()` | Plugin is removed |
-| `performActionsAfterConfigure()` | Admin saves the config form |
-| `course_settings_updated(array $values)` | Course-level settings change |
-| `validateCourseSetting(string $variable)` | Course setting saved (return `false` to reject) |
-| `doWhenDeletingUser(int $userId)` | A user is deleted |
-| `doWhenDeletingCourse(int $courseId)` | A course is deleted |
-| `doWhenDeletingSession(int $sessionId)` | A session is deleted |
+| Méthode | Déclenchée lorsque |
+|--------|---------------------|
+| `install()` | Le plugin est activé |
+| `uninstall()` | Le plugin est supprimé |
+| `performActionsAfterConfigure()` | L'administrateur enregistre le formulaire de configuration |
+| `course_settings_updated(array $values)` | Les paramètres au niveau du cours changent |
+| `validateCourseSetting(string $variable)` | Un paramètre de cours est enregistré (retournez `false` pour rejeter) |
+| `doWhenDeletingUser(int $userId)` | Un utilisateur est supprimé |
+| `doWhenDeletingCourse(int $courseId)` | Un cours est supprimé |
+| `doWhenDeletingSession(int $sessionId)` | Une session est supprimée |
 
-## Step 9: Activate
+## Étape 9 : Activer
 
-Log in as administrator, navigate to **Manage plugins**, find your plugin, and click **Activate**.
+Connectez-vous en tant qu'administrateur, accédez à **Gérer les plugins**, trouvez votre plugin et cliquez sur **Activer**.
 
-## Tips
+## Conseils
 
-* **Follow existing plugins as examples** — `public/plugin/HelloWorld/` and `public/plugin/TopLinks/` are good simple references
-* **Use translations** — Always use the `lang/` system for user-facing text
-* **Clean up on uninstall** — Remove database tables and settings in the uninstall script
-* **Check enabled state** — In event subscribers, always call `$this->plugin->isEnabled()` before executing logic
+* **Suivez les plugins existants comme exemples** — `public/plugin/HelloWorld/` et `public/plugin/TopLinks/` sont de bonnes références simples
+* **Utilisez les traductions** — Utilisez toujours le système `lang/` pour les textes visibles par l'utilisateur
+* **Nettoyez lors de la désinstallation** — Supprimez les tables de base de données et les paramètres dans le script de désinstallation
+* **Vérifiez l'état d'activation** — Dans les abonnés aux événements, appelez toujours `$this->plugin->isEnabled()` avant d'exécuter une logique

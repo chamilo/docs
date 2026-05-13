@@ -1,34 +1,34 @@
 # Dropbox
 
-The dropbox is a file exchange tool that allows you and your learners to share files with each other within the course.
+La Dropbox est un outil d'échange de fichiers qui vous permet, ainsi qu'à vos apprenants, de partager des fichiers entre vous au sein du cours.
 
-> For collecting graded student work, the [Assignments](../assessing-learners/assignments.md) tool is usually more appropriate, as it includes grading and feedback features. The dropbox is better suited for informal file sharing.
+> Pour collecter des travaux d'étudiants notés, l'outil [Devoirs](../assessing-learners/assignments.md) est généralement plus approprié, car il inclut des fonctionnalités d'évaluation et de retour. La Dropbox est mieux adaptée pour un partage de fichiers informel.
 
-## Sending a File
+## Envoyer un fichier
 
-1. Open the **Dropbox** tool from the course homepage
-2. Click **Share a new file**
-3. Select the file to upload
-4. Choose the **recipient(s)** — one or more enrolled users or course groups
-5. Send
+1. Ouvrez l'outil **Dropbox** depuis la page d'accueil du cours
+2. Cliquez sur **Partager un nouveau fichier**
+3. Sélectionnez le fichier à téléverser
+4. Choisissez le(s) **destinataire(s)** — un ou plusieurs utilisateurs inscrits ou groupes du cours
+5. Envoyez
 
-## Receiving Files
+## Recevoir des fichiers
 
-When someone sends you a file, it appears in your dropbox inbox. You can:
+Lorsqu'une personne vous envoie un fichier, il apparaît dans votre boîte de réception Dropbox. Vous pouvez :
 
-* **Download** the file
-* **Add a comment** to the file (after it has been received)
-* **Move** the file into one of your categories
-* **Delete** the file from your inbox
+* **Télécharger** le fichier
+* **Ajouter un commentaire** au fichier (après l'avoir reçu)
+* **Déplacer** le fichier dans l'une de vos catégories
+* **Supprimer** le fichier de votre boîte de réception
 
-## Organizing files
+## Organiser les fichiers
 
-Both sent and received files can be organized into custom **categories** (folders). Use the category controls in the dropbox toolbar to create a category, then move files into it. If the platform setting "allow overwrite" is enabled, re-sending a file with the same name lets you overwrite the previous version.
+Les fichiers envoyés et reçus peuvent être organisés dans des **catégories** personnalisées (dossiers). Utilisez les contrôles de catégorie dans la barre d'outils de la Dropbox pour créer une catégorie, puis déplacez-y les fichiers. Si le paramètre de la plateforme "autoriser l'écrasement" est activé, renvoyer un fichier portant le même nom vous permet d'écraser la version précédente.
 
-You can also batch-download selected files as a ZIP.
+Vous pouvez également télécharger par lots les fichiers sélectionnés sous forme de ZIP.
 
-## As a Teacher
+## En tant qu'enseignant
 
-* You can send files to individual learners, groups of learners, or all enrolled users
-* You can view files sent to you by learners
-* This tool is useful for sharing supplementary materials, providing individual feedback documents, or receiving informal submissions
+* Vous pouvez envoyer des fichiers à des apprenants individuels, à des groupes d'apprenants ou à tous les utilisateurs inscrits
+* Vous pouvez voir les fichiers qui vous ont été envoyés par les apprenants
+* Cet outil est utile pour partager des matériaux supplémentaires, fournir des documents de retour individuel ou recevoir des soumissions informelles

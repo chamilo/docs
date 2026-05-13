@@ -1,59 +1,60 @@
-# Video Conferencing
+---
+# Visioconférence
 
-Chamilo integrates with video conferencing platforms to enable live sessions within courses.
+Chamilo s'intègre aux plateformes de visioconférence pour permettre des sessions en direct au sein des cours.
 
-## Supported Platforms
+## Plateformes prises en charge
 
 ### BigBlueButton
 
-**BigBlueButton** (BBB) is an open-source web conferencing system designed for online learning. It is the most commonly used video conferencing solution with Chamilo.
+**BigBlueButton** (BBB) est un système de conférence web open-source conçu pour l'apprentissage en ligne. C'est la solution de visioconférence la plus couramment utilisée avec Chamilo.
 
 #### Configuration
 
-1. Install BigBlueButton on a separate server (see [BigBlueButton documentation](https://docs.bigbluebutton.org/))
-2. Use bbb-conf --salt on the BBB server to get the integration details
-3. In Chamilo platform settings, **Plugins**, install the Videoconference plugin and enter its config to set:
-   * **BBB server URL** — The address of your BBB server
-   * **BBB salt/secret** — The API secret from your BBB server
-4. Save
-5. **Enable** the Videoconference plugin
-6. Some special features are available to admins, so make sure you enable it in the *admin_page* region
+1. Installez BigBlueButton sur un serveur distinct (voir la [documentation BigBlueButton](https://docs.bigbluebutton.org/))
+2. Utilisez la commande bbb-conf --salt sur le serveur BBB pour obtenir les détails d'intégration
+3. Dans les paramètres de la plateforme Chamilo, sous **Plugins**, installez le plugin Visioconférence et saisissez sa configuration pour définir :
+   * **URL du serveur BBB** — L'adresse de votre serveur BBB
+   * **Sel/secret BBB** — Le secret API de votre serveur BBB
+4. Enregistrez
+5. **Activez** le plugin Visioconférence
+6. Certaines fonctionnalités spéciales sont disponibles pour les administrateurs, assurez-vous donc de l'activer dans la région *admin_page*
 
-#### Features Available in Chamilo
+#### Fonctionnalités disponibles dans Chamilo
 
-* Start/join meetings from within a course
-* Automatic room creation per course
-* Meeting recordings (if enabled)
-* Screen sharing, whiteboard, breakout rooms
-* Chat alongside video
+* Démarrer/rejoindre des réunions depuis un cours
+* Création automatique de salles par cours
+* Enregistrements de réunions (si activés)
+* Partage d'écran, tableau blanc, salles de sous-groupes
+* Chat en parallèle de la vidéo
 
 ### Zoom
 
-Chamilo can also integrate with **Zoom** for video conferencing.
+Chamilo peut également s'intégrer à **Zoom** pour la visioconférence.
 
 #### Configuration
 
-1. Create a Zoom app in the Zoom Marketplace
-2. In Chamilo, configure the Zoom API credentials
-3. Enable the Zoom integration
+1. Créez une application Zoom dans le Zoom Marketplace
+2. Dans Chamilo, configurez les identifiants API de Zoom
+3. Activez l'intégration Zoom
 
-#### How It Works
+#### Fonctionnement
 
-When Zoom is configured, teachers can create and launch Zoom meetings from within their course. Learners join through the Chamilo interface.
+Lorsque Zoom est configuré, les enseignants peuvent créer et lancer des réunions Zoom directement depuis leur cours. Les apprenants rejoignent les réunions via l'interface Chamilo.
 
-## Choosing Between BBB and Zoom
+## Choisir entre BBB et Zoom
 
-| Feature | BigBlueButton | Zoom |
-|---------|--------------|------|
-| Cost | Free (open-source), but requires your own server | Requires a Zoom subscription |
-| Hosting | Self-hosted | Cloud-hosted by Zoom |
-| Integration depth | Deep (built for LMS use) | Standard |
-| Recording | Server-side, stored on your infrastructure | Zoom cloud or local |
-| Whiteboard | Built-in | Built-in |
-| Breakout rooms | Yes | Yes |
+| Fonctionnalité | BigBlueButton | Zoom |
+|---------------|--------------|------|
+| Coût | Gratuit (open-source), mais nécessite votre propre serveur | Nécessite un abonnement Zoom |
+| Hébergement | Auto-hébergé | Hébergé dans le cloud par Zoom |
+| Profondeur d'intégration | Profonde (conçu pour une utilisation avec LMS) | Standard |
+| Enregistrement | Côté serveur, stocké sur votre infrastructure | Cloud Zoom ou local |
+| Tableau blanc | Intégré | Intégré |
+| Salles de sous-groupes | Oui | Oui |
 
-## Tips
+## Conseils
 
-* **Separate server for BBB** — BigBlueButton should run on its own dedicated server for best performance, not on the same server as Chamilo
-* **Test before classes** — Always test the video conferencing setup before a live session
-* **Check bandwidth** — Ensure your server and network can handle the expected number of concurrent users
+* **Serveur séparé pour BBB** — BigBlueButton devrait fonctionner sur un serveur dédié pour une performance optimale, et non sur le même serveur que Chamilo
+* **Testez avant les cours** — Testez toujours la configuration de la visioconférence avant une session en direct
+* **Vérifiez la bande passante** — Assurez-vous que votre serveur et votre réseau peuvent gérer le nombre attendu d'utilisateurs simultanés

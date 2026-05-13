@@ -1,23 +1,23 @@
-# Notebook
+# Carnet de notes
 
-The notebook is a personal note-taking tool for learners. Each learner has their own private notebook within the course.
+Le carnet de notes est un outil personnel de prise de notes pour les apprenants. Chaque apprenant dispose de son propre carnet privé au sein du cours.
 
-## How It Works
+## Fonctionnement
 
-The notebook is a simple tool where learners can:
+Le carnet de notes est un outil simple qui permet aux apprenants de :
 
-* **Create notes** — Write and save personal notes related to the course content
-* **Organize notes** — Review, edit, and delete their notes
-* **Keep them private** — Notes are visible only to the learner who created them
+* **Créer des notes** — Écrire et sauvegarder des notes personnelles liées au contenu du cours
+* **Organiser les notes** — Consulter, modifier et supprimer leurs notes
+* **Les garder privées** — Les notes ne sont visibles que par l'apprenant qui les a créées
 
-## As a Teacher
+## En tant qu'enseignant
 
-As a teacher, you should be aware that:
+En tant qu'enseignant, vous devez savoir que :
 
-* The notebook is a **personal tool** — you cannot see your learners' notes
-* It is useful as a **reflection tool** — encourage learners to take notes while studying
-* Notes are stored within the course — they are not shared across courses
+* Le carnet de notes est un **outil personnel** — vous ne pouvez pas voir les notes de vos apprenants
+* Il est utile comme **outil de réflexion** — encouragez les apprenants à prendre des notes pendant leurs études
+* Les notes sont stockées dans le cours — elles ne sont pas partagées entre différents cours
 
-## Enabling the Notebook
+## Activation du carnet de notes
 
-The notebook tool appears on the course homepage if it is enabled. If you do not see it, check that it is not hidden (look for hidden tools on the course homepage).
+L'outil carnet de notes apparaît sur la page d'accueil du cours s'il est activé. Si vous ne le voyez pas, vérifiez qu'il n'est pas masqué (recherchez les outils cachés sur la page d'accueil du cours).

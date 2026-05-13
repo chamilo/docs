@@ -1,99 +1,99 @@
 # Configuration
 
-Chamilo 2.0 uses environment variables and Symfony configuration files for its core settings. This page covers the key configuration files and variables.
+Chamilo 2.0 utilise des variables d'environnement et des fichiers de configuration Symfony pour ses paramètres principaux. Cette page couvre les fichiers de configuration clés et les variables associées.
 
-## Environment Variables (.env)
+## Variables d'Environnement (.env)
 
-The primary configuration file is `.env` in the Chamilo root directory. This file contains environment-specific settings that should not be committed to version control.
+Le fichier de configuration principal est `.env`, situé dans le répertoire racine de Chamilo. Ce fichier contient des paramètres spécifiques à l'environnement qui ne doivent pas être inclus dans le contrôle de version.
 
-A default `.env.dist` file ships with Chamilo and contains documented defaults. Create `.env` (required to start the installation) to override values for your environment.
+Un fichier par défaut `.env.dist` est fourni avec Chamilo et contient des valeurs par défaut documentées. Créez un fichier `.env` (requis pour démarrer l'installation) afin de surcharger les valeurs pour votre environnement.
 
-### Key Variables
+### Variables Clés
 
-| Variable | Description | Example |
+| Variable | Description | Exemple |
 |----------|-------------|---------|
-| `APP_ENV` | The application environment, at the Symfony level. Use `prod` for production, `dev` for development, 'test' for testing. | `prod` |
-| `APP_SECRET` | A random string used for CSRF tokens, cookie signing, and other cryptographic operations. Chamilo generates a unique value for each installation. Don't modify it. | `a1b2c3d4e5f6...` |
-| `DATABASE_HOST` | The database host. Defaults to localhost | `localhost` |
-| `DATABASE_PORT` | The database port. Defaults to 3306 for MySQL/MariaDB | `3306` |
-| `DATABASE_NAME` | The database name, as given by you to the installation wizard. | See below. |
-| `DATABASE_USER` | The database username, as given by you to the installation wizard. | See below. |
-| `DATABASE_PASSWORD` | The database user's password, as given by you to the installation wizard. | See below. |
-| `TRUSTED_PROXIES` | (Optional) If you are hosting Chamilo behind a reverse proxy, you need to provide the IP(s) of the reverse proxy here for Chamilo to be able to interpret calls and generate responses correctly. | |
+| `APP_ENV` | L'environnement de l'application, au niveau de Symfony. Utilisez `prod` pour la production, `dev` pour le développement, `test` pour les tests. | `prod` |
+| `APP_SECRET` | Une chaîne aléatoire utilisée pour les jetons CSRF, la signature des cookies et d'autres opérations cryptographiques. Chamilo génère une valeur unique pour chaque installation. Ne la modifiez pas. | `a1b2c3d4e5f6...` |
+| `DATABASE_HOST` | L'hôte de la base de données. Par défaut, localhost. | `localhost` |
+| `DATABASE_PORT` | Le port de la base de données. Par défaut, 3306 pour MySQL/MariaDB. | `3306` |
+| `DATABASE_NAME` | Le nom de la base de données, tel que fourni par vous à l'assistant d'installation. | Voir ci-dessous. |
+| `DATABASE_USER` | Le nom d'utilisateur de la base de données, tel que fourni par vous à l'assistant d'installation. | Voir ci-dessous. |
+| `DATABASE_PASSWORD` | Le mot de passe de l'utilisateur de la base de données, tel que fourni par vous à l'assistant d'installation. | Voir ci-dessous. |
+| `TRUSTED_PROXIES` | (Optionnel) Si vous hébergez Chamilo derrière un proxy inverse, vous devez fournir ici l'adresse IP ou les adresses IP du proxy inverse pour que Chamilo puisse interpréter correctement les appels et générer des réponses adaptées. | |
 
-Other settings in .env are relatively rarely modified.
+D'autres paramètres dans `.env` sont relativement rarement modifiés.
 
-Note that, in future versions, the DATABASE_* settings will be combined into one single `DATABASE_URL` variable.
+Notez que, dans les versions futures, les paramètres `DATABASE_*` seront combinés en une seule variable `DATABASE_URL`.
 
-E-mail sending configuration is presented during installation, but can be modified later on in the `Platform settings` section of the administration dashboard.
+La configuration de l'envoi d'e-mails est présentée lors de l'installation, mais peut être modifiée ultérieurement dans la section `Paramètres de la plateforme` du tableau de bord d'administration.
 
-## Symfony Configuration (config/ Directory)
+## Configuration Symfony (Répertoire config/)
 
-Symfony-level configuration lives in the `config/` directory. These YAML files control framework behavior, service definitions, and package-specific settings.
+La configuration au niveau de Symfony se trouve dans le répertoire `config/`. Ces fichiers YAML contrôlent le comportement du framework, les définitions de services et les paramètres spécifiques aux packages.
 
-It is not frequent to have to modify those files, and changing them can render your portal inoperative, so please do not attempt to modify those if you must ensure the system's availability.
+Il est rare de devoir modifier ces fichiers, et les changer peut rendre votre portail inopérant. Veuillez donc ne pas tenter de les modifier si vous devez garantir la disponibilité du système.
 
-### Key Configuration Files
+### Fichiers de Configuration Clés
 
-| File | Purpose |
+| Fichier | Objectif |
 |------|---------|
-| `config/authentication.yaml` | Authentication methods configuration. |
-| `config/packages/doctrine.yaml` | Database and ORM configuration. |
-| `config/packages/security.yaml` | Authentication, firewalls, access control, and role hierarchies. |
-| `config/packages/cache.yaml` | Cache adapter configuration (filesystem, APCu, Redis). |
-| `config/packages/framework.yaml` | General Symfony framework settings (session, CSRF, router, HTTP caching). |
-| `config/packages/twig.yaml` | Template engine configuration. |
-| `config/services.yaml` | Application service definitions and dependency injection. |
+| `config/authentication.yaml` | Configuration des méthodes d'authentification. |
+| `config/packages/doctrine.yaml` | Configuration de la base de données et de l'ORM. |
+| `config/packages/security.yaml` | Authentification, pare-feu, contrôle d'accès et hiérarchies de rôles. |
+| `config/packages/cache.yaml` | Configuration de l'adaptateur de cache (système de fichiers, APCu, Redis). |
+| `config/packages/framework.yaml` | Paramètres généraux du framework Symfony (session, CSRF, routeur, mise en cache HTTP). |
+| `config/packages/twig.yaml` | Configuration du moteur de templates. |
+| `config/services.yaml` | Définitions des services de l'application et injection de dépendances. |
 
-### Environment-Specific Overrides
+### Surcharges Spécifiques à l'Environnement
 
-Symfony supports per-environment configuration. Files in `config/packages/prod/` override the defaults when `APP_ENV=prod`, and `config/packages/dev/` overrides when `APP_ENV=dev`.
+Symfony prend en charge la configuration par environnement. Les fichiers dans `config/packages/prod/` surchargent les valeurs par défaut lorsque `APP_ENV=prod`, et `config/packages/dev/` surchargent lorsque `APP_ENV=dev`.
 
-For example, `config/packages/prod/monolog.yaml` typically configures less verbose logging than the development equivalent.
+Par exemple, `config/packages/prod/monolog.yaml` configure généralement un journalisation moins verbeuse que l'équivalent en mode développement.
 
-Chamilo does not define any configuration in `config/packages/prod/` in the software itself, so if you want to customize setting from `config/packages/*.yaml`, just create a copy of the yaml file inside that directory and change the settings there.
+Chamilo ne définit aucune configuration dans `config/packages/prod/` dans le logiciel lui-même. Si vous souhaitez personnaliser les paramètres de `config/packages/*.yaml`, créez simplement une copie du fichier YAML dans ce répertoire et modifiez les paramètres à cet endroit.
 
-## File Permissions
+## Permissions des Fichiers
 
-We made efforts in 2.0+ to ensure that a single directory needed permissions. This is the `var/` directory, and to avoid complex issues, just setting the whole folder as writeable by the web server system user is enough.
+Nous avons fait des efforts dans la version 2.0+ pour garantir qu'un seul répertoire nécessite des permissions. Il s'agit du répertoire `var/`, et pour éviter des problèmes complexes, il suffit de rendre l'ensemble du dossier accessible en écriture par l'utilisateur système du serveur web.
 
-Set permissions appropriately under Debian-based systems:
+Définissez les permissions appropriées sous les systèmes basés sur Debian :
 
 ```bash
-# For systems where the web server runs as www-data
+# Pour les systèmes où le serveur web fonctionne sous www-data
 chown -R www-data:www-data var/
 chmod -R 775 var/
 ```
 
-## Common Configuration Tasks
+## Tâches de Configuration Courantes
 
-### Switch to Production Mode
+### Passer en Mode Production
 
 ```bash
-# In .env
+# Dans .env
 APP_ENV=prod
 APP_DEBUG=0
 ```
 
-Then clear and warm the cache:
+Ensuite, videz et préchauffez le cache :
 
 ```bash
 php bin/console cache:clear --env=prod
 php bin/console cache:warmup --env=prod
 ```
 
-### Configure Trusted Proxies
+### Configurer les Proxies de Confiance
 
-If Chamilo runs behind a reverse proxy or load balancer, configure trusted proxies so that HTTPS detection and client IP resolution work correctly:
+Si Chamilo fonctionne derrière un proxy inverse ou un équilibreur de charge, configurez les proxies de confiance pour que la détection HTTPS et la résolution de l'IP client fonctionnent correctement :
 
 ```yaml
 # .env
 TRUSTED_PROXIES='127.0.0.1,PROXY_IP'
 ```
 
-### Configure Session Storage
+### Configurer le Stockage des Sessions
 
-By default, sessions are stored on the filesystem. For multi-server deployments, configure Redis or database-backed sessions:
+Par défaut, les sessions sont stockées sur le système de fichiers. Pour les déploiements multi-serveurs, configurez des sessions basées sur Redis ou une base de données :
 
 ```yaml
 # config/packages/framework.yaml
@@ -102,8 +102,8 @@ framework:
         handler_id: 'redis://localhost:6379'
 ```
 
-## Tips
+## Conseils
 
-* **Never edit `.env.dist` directly** -- Always use `.env` for your overrides. The `.env.dist` file may be overwritten during upgrades.
-* **Keep `APP_DEBUG=0` in production** -- Debug mode exposes sensitive information in error pages.
-* **Back up `.env`** separately from the codebase since it contains credentials and is excluded from version control.
+* **Ne modifiez jamais `.env.dist` directement** -- Utilisez toujours `.env` pour vos surcharges. Le fichier `.env.dist` peut être écrasé lors des mises à jour.
+* **Maintenez `APP_DEBUG=0` en production** -- Le mode débogage expose des informations sensibles dans les pages d'erreur.
+* **Sauvegardez `.env`** séparément du code source, car il contient des identifiants et est exclu du contrôle de version.

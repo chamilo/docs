@@ -1,123 +1,122 @@
-# Git Workflow
+# Flux de travail Git
 
-## Repository
+## Dépôt
 
-The Chamilo source code is hosted on GitHub: [github.com/chamilo/chamilo-lms](https://github.com/chamilo/chamilo-lms)
+Le code source de Chamilo est hébergé sur GitHub : [github.com/chamilo/chamilo-lms](https://github.com/chamilo/chamilo-lms)
 
-## Branching
+## Gestion des branches
 
-* **`master`** — Main development branch
-* Feature branches are created from `master` for new development
-* Release branches are created for stable releases
+* **`master`** — Branche principale de développement
+* Les branches de fonctionnalités sont créées à partir de `master` pour les nouveaux développements
+* Les branches de version sont créées pour les versions stables
 
-## Contributing a Change
+## Contribuer à une modification
 
-1. **Fork** the repository on GitHub
-2. **Clone** your fork locally
-3. **Create a branch** for your change: `git checkout -b feature/my-feature`
-4. **Make your changes** following the coding conventions
-5. **Commit** with clear, descriptive commit messages
-6. **Push** to your fork: `git push origin feature/my-feature`
-7. **Create a pull request** against the `master` branch
+1. **Forkez** le dépôt sur GitHub
+2. **Clonez** votre fork localement
+3. **Créez une branche** pour votre modification : `git checkout -b feature/my-feature`
+4. **Effectuez vos modifications** en respectant les conventions de codage
+5. **Validez** avec des messages de commit clairs et descriptifs
+6. **Poussez** vers votre fork : `git push origin feature/my-feature`
+7. **Créez une pull request** vers la branche `master`
 
-## Commit Messages
+## Messages de commit
 
-Write clear commit messages that explain **what** and **why**:
-
-```
-Glossary: Add AI-assisted term generation
-
-Teachers can now generate glossary terms using configured AI
-providers. Supports configurable prompt and term count.
-```
-
-### Tool prefix convention
-
-The subject line is prefixed with the **tool or area** that the change touches, followed by a colon. We use a short shared terminology so that the changelog and `git log --oneline` can be skimmed by tool. The prefix is always the **singular** form of the tool's canonical name.
-
-Format: `<Prefix>: <Imperative summary in the present tense>`
-
-Examples:
+Rédigez des messages de commit clairs qui expliquent **quoi** et **pourquoi** :
 
 ```
-Document: Fix list for student view
-Exercise: Prevent duplicate question titles within a quiz
-Learnpath: Allow reordering chapters via drag and drop
-Internal: Refactor ResourceNode hydration in the API normalizer
-CI: Cache Composer downloads in the GitHub Actions workflow
+Glossaire : Ajout de la génération de termes assistée par IA
+
+Les enseignants peuvent désormais générer des termes de glossaire en utilisant les fournisseurs d'IA configurés. Prend en charge un prompt configurable et un nombre de termes.
 ```
 
-If a change spans several tools, pick the one most affected; truly cross-cutting changes that only touch code structure (no end-user tool) go under `Internal`. Documentation-only changes (this site, the changelog, inline docblocks meant purely as reference) go under `Documentation`.
+### Convention de préfixe d'outil
 
-#### Allowed prefixes
+La ligne de sujet est préfixée par l'**outil ou la zone** concernée par la modification, suivie d'un deux-points. Nous utilisons une terminologie courte et partagée afin que le journal des modifications et `git log --oneline` puissent être parcourus rapidement par outil. Le préfixe est toujours sous la forme **singulière** du nom canonique de l'outil.
 
-| Prefix               | Scope / notes                                                                        |
+Format : `<Préfixe> : <Résumé impératif au présent>`
+
+Exemples :
+
+```
+Document : Correction de la liste pour la vue étudiant
+Exercice : Empêcher les titres de questions en double dans un quiz
+Learnpath : Permettre le réordonnancement des chapitres par glisser-déposer
+Internal : Refactorisation de l'hydratation de ResourceNode dans le normaliseur API
+CI : Mise en cache des téléchargements Composer dans le workflow GitHub Actions
+```
+
+Si une modification concerne plusieurs outils, choisissez celui qui est le plus impacté ; les modifications véritablement transversales qui ne touchent que la structure du code (sans impact sur un outil utilisateur final) sont classées sous `Internal`. Les modifications uniquement liées à la documentation (ce site, le journal des modifications, les docblocks en ligne purement destinés à la référence) sont classées sous `Documentation`.
+
+#### Préfixes autorisés
+
+| Préfixe              | Portée / notes                                                                       |
 |----------------------|--------------------------------------------------------------------------------------|
 | `Admin`              |                                                                                      |
-| `Announcement`       |                                                                                      |
-| `Attendance`         |                                                                                      |
-| `Authentication`     |                                                                                      |
-| `Blog`               |                                                                                      |
-| `Calendar`           | Not "Agenda"                                                                         |
-| `Career`             |                                                                                      |
-| `Catalogue`          | Courses and sessions catalogue, including "hot courses" on the homepage              |
-| `Chat`               |                                                                                      |
-| `CI`                 | Continuous Integration, automated tests, etc.                                        |
-| `Course description` |                                                                                      |
-| `Course Progress`    | Not "Thematic advance"                                                               |
-| `Course settings`    |                                                                                      |
-| `Cron`               |                                                                                      |
-| `Dashboard`          |                                                                                      |
-| `Display`            |                                                                                      |
-| `Document`           |                                                                                      |
-| `Documentation`      | Anything related exclusively to documenting Chamilo or the code, the changelog, etc. |
-| `Dropbox`            |                                                                                      |
-| `Exercise`           | Not "Quiz"                                                                           |
-| `Extra Fields`       |                                                                                      |
-| `Forum`              |                                                                                      |
-| `Glossary`           |                                                                                      |
-| `Gradebook`          | Includes Certificates                                                                |
-| `Group`              | Includes course groups, global groups, and classes                                   |
-| `Help`               |                                                                                      |
-| `Hook`               | For the internal hook mechanism                                                      |
-| `Install`            | Includes upgrade stuff                                                               |
-| `Internal`           | For changes and fixes that mostly affect code itself or are very global by nature    |
-| `Language`           |                                                                                      |
-| `Link`               |                                                                                      |
-| `Learnpath`          | For LP / Learning Paths                                                              |
-| `Maintenance`        | The course maintenance tool: course copies, backup, restore, etc.                    |
-| `Message`            |                                                                                      |
-| `Notebook`           |                                                                                      |
-| `Optimization`       |                                                                                      |
-| `Portfolio`          |                                                                                      |
-| `Privacy`            |                                                                                      |
-| `Script`             | For what lives in `tests/scripts/`                                                   |
-| `Search`             | Full-text search                                                                     |
-| `Security`           |                                                                                      |
-| `Session`            |                                                                                      |
-| `Skill`              |                                                                                      |
-| `Social`             | Social network                                                                       |
-| `SSO`                | Single Sign-On methods                                                               |
-| `Survey`             |                                                                                      |
-| `System`             | Things that have mostly to do with hosting and fine-tuning at server level           |
-| `Template`           |                                                                                      |
-| `Ticket`             |                                                                                      |
-| `Tracking`           |                                                                                      |
-| `User`               |                                                                                      |
-| `Webservice`         |                                                                                      |
-| `Wiki`               |                                                                                      |
-| `Work`               |                                                                                      |
-| `WYSIWYG`            |                                                                                      |
-| `XAPI`               |                                                                                      |
+| `Announcement`       | Annonce                                                                              |
+| `Attendance`         | Présence                                                                             |
+| `Authentication`     | Authentification                                                                     |
+| `Blog`               | Blog                                                                                 |
+| `Calendar`           | Calendrier (pas "Agenda")                                                            |
+| `Career`             | Carrière                                                                             |
+| `Catalogue`          | Catalogue de cours et de sessions, y compris les "cours populaires" sur la page d'accueil |
+| `Chat`               | Chat                                                                                 |
+| `CI`                 | Intégration Continue, tests automatisés, etc.                                        |
+| `Course description` | Description de cours                                                                 |
+| `Course Progress`    | Progression de cours (pas "Avancement thématique")                                   |
+| `Course settings`    | Paramètres de cours                                                                  |
+| `Cron`               | Tâches planifiées                                                                    |
+| `Dashboard`          | Tableau de bord                                                                      |
+| `Display`            | Affichage                                                                            |
+| `Document`           | Document                                                                             |
+| `Documentation`      | Tout ce qui concerne exclusivement la documentation de Chamilo ou du code, le journal des modifications, etc. |
+| `Dropbox`            | Dropbox                                                                              |
+| `Exercise`           | Exercice (pas "Quiz")                                                                |
+| `Extra Fields`       | Champs supplémentaires                                                               |
+| `Forum`              | Forum                                                                                |
+| `Glossary`           | Glossaire                                                                            |
+| `Gradebook`          | Carnet de notes (inclut les certificats)                                             |
+| `Group`              | Groupe (inclut les groupes de cours, les groupes globaux et les classes)             |
+| `Help`               | Aide                                                                                 |
+| `Hook`               | Pour le mécanisme interne de hook                                                    |
+| `Install`            | Inclut les éléments liés à la mise à jour                                            |
+| `Internal`           | Pour les modifications et corrections qui affectent principalement le code lui-même ou qui sont très globales par nature |
+| `Language`           | Langue                                                                               |
+| `Link`               | Lien                                                                                 |
+| `Learnpath`          | Pour LP / Parcours d'apprentissage                                                   |
+| `Maintenance`        | Outil de maintenance de cours : copies de cours, sauvegarde, restauration, etc.      |
+| `Message`            | Message                                                                              |
+| `Notebook`           | Carnet de notes                                                                      |
+| `Optimization`       | Optimisation                                                                         |
+| `Portfolio`          | Portfolio                                                                            |
+| `Privacy`            | Confidentialité                                                                      |
+| `Script`             | Pour ce qui se trouve dans `tests/scripts/`                                          |
+| `Search`             | Recherche en texte intégral                                                         |
+| `Security`           | Sécurité                                                                             |
+| `Session`            | Session                                                                              |
+| `Skill`              | Compétence                                                                           |
+| `Social`             | Réseau social                                                                        |
+| `SSO`                | Méthodes de Single Sign-On                                                           |
+| `Survey`             | Sondage                                                                              |
+| `System`             | Éléments liés principalement à l'hébergement et à l'ajustement fin au niveau serveur  |
+| `Template`           | Modèle                                                                               |
+| `Ticket`             | Ticket                                                                               |
+| `Tracking`           | Suivi                                                                                |
+| `User`               | Utilisateur                                                                          |
+| `Webservice`         | Service web                                                                          |
+| `Wiki`               | Wiki                                                                                 |
+| `Work`               | Travail                                                                              |
+| `WYSIWYG`            | Éditeur WYSIWYG                                                                      |
+| `XAPI`               | XAPI                                                                                 |
 
-## Code Review
+## Revue de code
 
-Pull requests are reviewed by the maintainer team. Be prepared to:
+Les pull requests sont examinées par l'équipe de maintenance. Soyez prêt à :
 
-* Address feedback and make revisions
-* Keep your branch up to date with `master`
-* Ensure tests pass
+* Répondre aux retours et effectuer des révisions
+* Maintenir votre branche à jour avec `master`
+* Vous assurer que les tests passent
 
-## Reporting Issues
+## Signalement de problèmes
 
-Report bugs and feature requests on the GitHub issue tracker.
+Signalez les bugs et les demandes de fonctionnalités sur le suivi des problèmes GitHub.

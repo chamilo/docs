@@ -1,6 +1,7 @@
+---
 # LDAP
 
-Chamilo can authenticate users against an LDAP server, including Microsoft Active Directory. LDAP is configured in `config/authentication.yaml`.
+Chamilo peut authentifier les utilisateurs via un serveur LDAP, y compris Microsoft Active Directory. LDAP est configuré dans `config/authentication.yaml`.
 
 ## Configuration
 
@@ -10,24 +11,24 @@ authentication:
     ldap:
       main:
         enabled: true
-        title: "Sign in with LDAP"
+        title: "Se connecter avec LDAP"
         connection_string: "ldap://ldap.yourorg.com:389"
         protocol_version: 3
         referrals: false
         force_as_login_method: false
 ```
 
-### Bind and search
+### Liaison et recherche
 
-Two approaches for locating the user in the directory:
+Deux approches pour localiser l'utilisateur dans l'annuaire :
 
-**Direct bind** — constructs the DN from the username directly:
+**Liaison directe** — construit le DN directement à partir du nom d'utilisateur :
 
 ```yaml
         dn_string: "uid=%s,ou=people,dc=yourorg,dc=com"
 ```
 
-**Search bind** — searches the directory with a service account first, then binds as the found user:
+**Liaison par recherche** — recherche d'abord dans l'annuaire avec un compte de service, puis se lie en tant qu'utilisateur trouvé :
 
 ```yaml
         base_dn: "dc=yourorg,dc=com"
@@ -37,28 +38,28 @@ Two approaches for locating the user in the directory:
         uid_key: "uid"
 ```
 
-For Active Directory, use `sAMAccountName` as `uid_key` and adjust `query_string` to `(sAMAccountName=%s)`.
+Pour Active Directory, utilisez `sAMAccountName` comme `uid_key` et ajustez `query_string` à `(sAMAccountName=%s)`.
 
-### Attribute mapping
+### Correspondance des attributs
 
-Map LDAP attributes to Chamilo user fields under `data_correspondence`:
+Associez les attributs LDAP aux champs utilisateur de Chamilo sous `data_correspondence` :
 
 ```yaml
         data_correspondence:
           firstname: givenName
           lastname: sn
           email: mail
-          phone: telephoneNumber   # optional
-          locale: preferredLanguage  # optional
+          phone: telephoneNumber   # optionnel
+          locale: preferredLanguage  # optionnel
 ```
 
-`firstname`, `lastname`, and `email` are required. The user is matched to an existing Chamilo account by email or username; if no match is found and `allow_create_new_users` is true, a new account is created.
+`firstname`, `lastname` et `email` sont obligatoires. L'utilisateur est associé à un compte Chamilo existant par email ou nom d'utilisateur ; si aucune correspondance n'est trouvée et que `allow_create_new_users` est défini sur true, un nouveau compte est créé.
 
-## Tips
+## Conseils
 
-* **Use LDAPS in production** — switch `ldap://` to `ldaps://` (port 636) for encrypted connections.
-* **Service account** — the search bind account needs only read access to user entries.
-* **Test first** — verify your connection string and query with `ldapsearch` before configuring Chamilo.
-* **`force_as_login_method: true`** — hides other login methods and forces all users through LDAP. Leave it `false` while testing so you can still log in as an admin via the standard form.
+* **Utilisez LDAPS en production** — remplacez `ldap://` par `ldaps://` (port 636) pour des connexions chiffrées.
+* **Compte de service** — le compte de liaison par recherche n'a besoin que d'un accès en lecture aux entrées utilisateur.
+* **Testez d'abord** — vérifiez votre chaîne de connexion et votre requête avec `ldapsearch` avant de configurer Chamilo.
+* **`force_as_login_method: true`** — masque les autres méthodes de connexion et force tous les utilisateurs à passer par LDAP. Laissez-le à `false` pendant les tests afin de pouvoir toujours vous connecter en tant qu'administrateur via le formulaire standard.
 
-For the full parameter reference, see the [wiki](https://github.com/chamilo/chamilo-lms/wiki/External-Authentication-configuration).
+Pour la référence complète des paramètres, consultez le [wiki](https://github.com/chamilo/chamilo-lms/wiki/External-Authentication-configuration).

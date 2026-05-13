@@ -1,75 +1,76 @@
-# User Profiling
+---
+# Profilage des utilisateurs
 
-Chamilo allows you to define custom profile fields (extra fields) to capture additional information about users beyond the standard name, email, and role.
+Chamilo vous permet de définir des champs de profil personnalisés (champs supplémentaires) pour recueillir des informations additionnelles sur les utilisateurs au-delà des données standard telles que le nom, l'adresse e-mail et le rôle.
 
-## Extra Profile Fields
+## Champs de profil supplémentaires
 
-![The extra profile fields list showing custom fields with name, type, and visibility settings](/.gitbook/assets/admin-extra-fields-list.png)
+![Liste des champs de profil supplémentaires affichant les champs personnalisés avec le nom, le type et les paramètres de visibilité](/.gitbook/assets/admin-extra-fields-list.png)
 
-Extra fields let you store metadata specific to your organization, such as:
+Les champs supplémentaires vous permettent de stocker des métadonnées spécifiques à votre organisation, telles que :
 
-* Employee ID
-* Department
-* Job title
-* Location/office
-* Phone number
-* Custom identifiers
+* Identifiant d'employé
+* Département
+* Poste occupé
+* Lieu/bureau
+* Numéro de téléphone
+* Identifiants personnalisés
 
-## Creating Extra Fields
+## Création de champs supplémentaires
 
-1. From the administration panel, navigate to **Extra fields** or **Profile fields**
-2. Click **Add**
-3. Configure the field:
-   * **Name** — The field title shown to users
-   * **Description** — Optional description
-   * **Helper text** — To be shown under the field in any form including it
-   * **Field type** — Text, dropdown, date, checkbox, etc.
-   * **Field label** — The internal name of the field, for plugins integration 
-   * **Possible values** — If the field is a selector between those values 
-   * **Default value** — An optional default
-   * **Visible to self** — Whether the field is visible on the user profile by the user itself
-   * **Visible to others** — Whether the field is visible to other users of the platform
-   * **Can change** — Whether the user can change its own field by himself (or whether only the admins can)
-   * **Filter** — If this is a selector-type field, whether to include it as a filter in administrative pages (e.g. to subscribe users to courses or sessions)
-   * **Order** — If you want to manage the display order of the fields, you will have to give a numerical order to each field
-   * **Remove on anonymization** — Important for privacy rules & laws: If the user is anonymized but not deleted, should this field be considered as potential holder of personally identifiable data? 
-4. Save
+1. Depuis le panneau d'administration, accédez à **Champs supplémentaires** ou **Champs de profil**
+2. Cliquez sur **Ajouter**
+3. Configurez le champ :
+   * **Nom** — Le titre du champ affiché aux utilisateurs
+   * **Description** — Description optionnelle
+   * **Texte d'aide** — À afficher sous le champ dans tout formulaire l'incluant
+   * **Type de champ** — Texte, liste déroulante, date, case à cocher, etc.
+   * **Étiquette du champ** — Le nom interne du champ, pour l'intégration avec des plugins
+   * **Valeurs possibles** — Si le champ est un sélecteur parmi ces valeurs
+   * **Valeur par défaut** — Une valeur par défaut optionnelle
+   * **Visible pour soi** — Si le champ est visible sur le profil de l'utilisateur par l'utilisateur lui-même
+   * **Visible pour les autres** — Si le champ est visible pour les autres utilisateurs de la plateforme
+   * **Modifiable** — Si l'utilisateur peut modifier son propre champ lui-même (ou si seuls les administrateurs le peuvent)
+   * **Filtre** — Si c'est un champ de type sélecteur, s'il doit être inclus comme filtre dans les pages administratives (par exemple, pour inscrire des utilisateurs à des cours ou des sessions)
+   * **Ordre** — Si vous souhaitez gérer l'ordre d'affichage des champs, vous devrez attribuer un ordre numérique à chaque champ
+   * **Supprimer lors de l'anonymisation** — Important pour les règles et lois sur la confidentialité : Si l'utilisateur est anonymisé mais non supprimé, ce champ doit-il être considéré comme pouvant contenir des données personnellement identifiables ?
+4. Enregistrez
 
-## Field Types
+## Types de champs
 
-The extra-field engine supports a broad set of input types. Common ones include:
+Le moteur de champs supplémentaires prend en charge un large éventail de types d'entrée. Les plus courants incluent :
 
 | Type | Description |
 |------|-------------|
-| **Text** | A single-line text input |
-| **Textarea** | A multi-line text input |
-| **Radio** | A single-choice radio group |
-| **Dropdown / Dropdown multiple** | A list of predefined options (single or multi-select) |
-| **Double select** | Two dependent dropdowns (e.g., country → city) |
-| **Checkbox** | A yes/no toggle |
-| **Date / Date and time** | Date or date+time picker |
-| **Integer** | A numeric input |
-| **Tag** | Multiple free-form tag values |
-| **File** | File upload field |
-| **Video URL** | A URL pointing to a video |
-| **Mobile phone number** | A formatted phone number field |
-| **Timezone** | A timezone picker |
-| **Social profile** | A link to a social network profile |
-| **Divider** | A visual separator inside the form (no value) |
+| **Texte** | Une entrée de texte sur une seule ligne |
+| **Zone de texte** | Une entrée de texte sur plusieurs lignes |
+| **Bouton radio** | Un groupe de choix unique avec des boutons radio |
+| **Liste déroulante / Liste déroulante multiple** | Une liste d'options prédéfinies (sélection unique ou multiple) |
+| **Double sélection** | Deux listes déroulantes dépendantes (par exemple, pays → ville) |
+| **Case à cocher** | Un interrupteur oui/non |
+| **Date / Date et heure** | Sélecteur de date ou de date et heure |
+| **Entier** | Une entrée numérique |
+| **Étiquette** | Plusieurs valeurs d'étiquettes libres |
+| **Fichier** | Champ de téléversement de fichier |
+| **URL de vidéo** | Une URL pointant vers une vidéo |
+| **Numéro de téléphone mobile** | Un champ de numéro de téléphone formaté |
+| **Fuseau horaire** | Un sélecteur de fuseau horaire |
+| **Profil social** | Un lien vers un profil de réseau social |
+| **Séparateur** | Un séparateur visuel dans le formulaire (sans valeur) |
 
-The exact set of usable types depends on the Chamilo version; the field-type dropdown in the **Extra fields** admin page is the source of truth.
+L'ensemble exact des types utilisables dépend de la version de Chamilo ; la liste déroulante des types de champs dans la page d'administration **Champs supplémentaires** est la source de référence.
 
-## Using Extra Fields
+## Utilisation des champs supplémentaires
 
-Extra fields appear:
+Les champs supplémentaires apparaissent :
 
-* In the user creation (if visible to self) and edit forms
-* On user profile pages (if visible to self)
-* In user imports (you can include extra field values in CSV imports)
-* In exports and reports (filter or group by extra field values)
+* Dans les formulaires de création (si visibles pour soi) et de modification des utilisateurs
+* Sur les pages de profil des utilisateurs (si visibles pour soi)
+* Lors des importations d'utilisateurs (vous pouvez inclure des valeurs de champs supplémentaires dans les importations CSV)
+* Dans les exportations et rapports (filtrer ou regrouper par valeurs de champs supplémentaires)
 
-## Tips
+## Conseils
 
-* **Plan before creating** — Define what information you need before creating fields, as changing field types after data has been entered can be problematic
-* **Use dropdowns for consistency** — When a field has a known set of possible values, use a dropdown instead of free text to ensure data consistency
-* **Use for reporting** — Extra fields are useful for filtering reports (e.g., "show all users in Department X who completed Training Y")
+* **Planifiez avant de créer** — Définissez les informations dont vous avez besoin avant de créer des champs, car modifier les types de champs après la saisie de données peut poser problème
+* **Utilisez des listes déroulantes pour la cohérence** — Lorsqu'un champ a un ensemble connu de valeurs possibles, utilisez une liste déroulante au lieu d'un texte libre pour garantir la cohérence des données
+* **Utilisez pour les rapports** — Les champs supplémentaires sont utiles pour filtrer les rapports (par exemple, "afficher tous les utilisateurs du département X ayant complété la formation Y")

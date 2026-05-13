@@ -1,239 +1,233 @@
-# Platform Settings
+# Paramètres de la plateforme
 
-Platform-level identity and behaviour — institution name, time zone, registration policy, online users, performance flags.
+Identité et comportement au niveau de la plateforme — nom de l'institution, fuseau horaire, politique d'inscription, utilisateurs en ligne, indicateurs de performance.
 
-Access these settings under **Administration > Configuration settings > Platform**. This category contains **29 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+Accédez à ces paramètres sous **Administration > Paramètres de configuration > Plateforme**. Cette catégorie contient **29 paramètres**, listés ci-dessous avec le titre et le commentaire fournis dans les fixtures de paramètres de la plateforme (`SettingsCurrentFixtures.php`).
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> Le nom de la variable dans le code est affiché en monospace. Utilisez-le lors de la création de scripts via l'API ou lorsque vous devez modifier ces paramètres à un niveau global en éditant [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
 
-## Settings
+## Paramètres
 
 ### `allow_my_files`
 
-**Enable 'My Files' section**
+**Activer la section 'Mes Fichiers'**
 
-Allow users to upload files to a personal space on the platform.
+Permet aux utilisateurs de téléverser des fichiers dans un espace personnel sur la plateforme.
 
-*Default: `true`*
+*Par défaut : `true`*
 
 ### `chamilo_database_version`
 
-**Current version of the database schema used by Chamilo**
+**Version actuelle du schéma de la base de données utilisé par Chamilo**
 
-Displays the current DB version to match the Chamilo core version.
+Affiche la version actuelle de la base de données pour correspondre à la version du noyau de Chamilo.
 
 ### `cookie_warning`
 
-**Cookie privacy notification**
+**Notification de confidentialité des cookies**
 
-If enabled, this option shows a banner on top of your platform that asks users to acknowledge that the platform is using cookies necessary to provide the user experience. The banner can easily be acknowledged and hidden by the user. This allows Chamilo to comply with EU web cookies regulations.
+Si activée, cette option affiche une bannière en haut de votre plateforme qui demande aux utilisateurs de reconnaître que la plateforme utilise des cookies nécessaires pour fournir l'expérience utilisateur. La bannière peut être facilement acceptée et masquée par l'utilisateur. Cela permet à Chamilo de se conformer aux réglementations européennes sur les cookies web.
 
-*Default: `false`*
+*Par défaut : `false`*
 
 ### `disable_copy_paste`
 
-**Disable copy-pasting**
+**Désactiver le copier-coller**
 
-When enabled, this option disables as well as possible the copy-pasting mechanisms. Useful in restrictive exams setups.
+Lorsque cette option est activée, elle désactive autant que possible les mécanismes de copier-coller. Utile dans des configurations d'examens restrictifs.
 
-*Default: `false`*
+*Par défaut : `false`*
 
 ### `donotlistcampus`
 
-**Do not list this campus on chamilo.org**
+**Ne pas lister ce campus sur chamilo.org**
 
-By default, Chamilo portals are automatically registered in a public list at chamilo.org, just using the title you gave to this portal (not the URL nor any private data). Check this box to avoid having the title of your portal appear.
+Par défaut, les portails Chamilo sont automatiquement enregistrés dans une liste publique sur chamilo.org, en utilisant uniquement le titre que vous avez donné à ce portail (pas l'URL ni aucune donnée privée). Cochez cette case pour éviter que le titre de votre portail n'apparaisse.
 
-*Default: `false`*
+*Par défaut : `false`*
 
 ### `generate_random_login`
 
-**Generate random username**
+**Générer un nom d'utilisateur aléatoire**
 
-When importing users (batch processes), automatically generate a random string for username. Otherwise, the username will be generated on the basis of the firstname and lastname, or the prefix of the e-mail.
+Lors de l'importation d'utilisateurs (processus par lots), génère automatiquement une chaîne aléatoire pour le nom d'utilisateur. Sinon, le nom d'utilisateur sera généré sur la base du prénom et du nom de famille, ou du préfixe de l'e-mail.
 
-*Default: `false`*
+*Par défaut : `false`*
 
 ### `hosting_limit_identical_email`
 
-**Limit identical email usage**
+**Limiter l'utilisation d'e-mails identiques**
 
-Maximum number of accounts allowed to share the same e-mail address. Set to 0 to disable this limit.
+Nombre maximum de comptes autorisés à partager la même adresse e-mail. Définissez à 0 pour désactiver cette limite.
 
-*Default: `0`*
+*Par défaut : `0`*
 
 ### `hosting_limit_users_per_course`
 
-**Global limit of users per course**
+**Limite globale d'utilisateurs par cours**
 
-Defines a global maximum number of users (teachers included) allowed to be subscribed to any single course in the platform. Set this value to 0 to disable the limit. This helps avoid courses being overloaded in open portals.
+Définit un nombre maximum global d'utilisateurs (enseignants inclus) autorisés à être inscrits à un seul cours sur la plateforme. Définissez cette valeur à 0 pour désactiver la limite. Cela aide à éviter la surcharge des cours dans les portails ouverts.
 
-*Default: `0`*
+*Par défaut : `0`*
 
 ### `institution`
 
-**Organization name**
+**Nom de l'organisation**
 
-The name of the organization (appears in the header on the right)
+Le nom de l'organisation (apparaît dans l'en-tête à droite)
 
-*Default: `Chamilo.org`*
-
+*Par défaut : `Chamilo.org`*
 
 ### `institution_address`
 
-**Institution address**
+**Adresse de l'institution**
 
-Address
+Adresse
 
 ### `institution_url`
 
-**Organization URL (web address)**
+**URL de l'organisation (adresse web)**
 
-The URL of the institutions (the link that appears in the header on the right)
+L'URL des institutions (le lien qui apparaît dans l'en-tête à droite)
 
-*Default: `http://www.chamilo.org`*
-
+*Par défaut : `http://www.chamilo.org`*
 
 ### `max_courses_per_user`
 
-**Maximum courses per user**
+**Nombre maximum de cours par utilisateur**
 
-Maximum number of courses a teacher/trainer can create. Set to 0 to disable the limit. Can be overridden per user via a BuyCourses service purchase.
+Nombre maximum de cours qu'un enseignant/formateur peut créer. Définissez à 0 pour désactiver la limite. Peut être outrepassé par utilisateur via un achat de service BuyCourses.
 
-*Default: `0`*
+*Par défaut : `0`*
 
 ### `notification_event`
 
-**Enable the notification tool for a more impactful communication channel with students**
+**Activer l'outil de notification pour un canal de communication plus impactant avec les étudiants**
 
-Activates popup or system notifications for important platform events.
+Active les notifications contextuelles ou système pour les événements importants de la plateforme.
 
-*Default: `false`*
+*Par défaut : `false`*
 
 ### `pdf_img_dpi`
 
-**PDF export resolution**
+**Résolution d'exportation PDF**
 
-This represents the resolution of generated PDF files (in dot per inch, or dpi). The default is 96. Increasing it will give you better resolution PDF files but will also increase the weight and generation time of the files.
+Représente la résolution des fichiers PDF générés (en points par pouce, ou dpi). La valeur par défaut est 96. L'augmenter améliorera la résolution des fichiers PDF, mais augmentera également leur poids et le temps de génération.
 
-*Default: `96`*
+*Par défaut : `96`*
 
 ### `platform_logo_url`
 
-**URL for alternative platform logo**
+**URL pour un logo alternatif de la plateforme**
 
-Replaces the Chamilo logo by loading a (possibly remote) URL. Make sure this is allowed by your security policies.
+Remplace le logo Chamilo en chargeant une URL (éventuellement distante). Assurez-vous que cela est autorisé par vos politiques de sécurité.
 
-*Default: `https://chamilo.org`*
-
+*Par défaut : `https://chamilo.org`*
 
 ### `portfolio_advanced_sharing`
 
-**Enable portfolio advanced sharing**
+**Activer le partage avancé du portfolio**
 
-Decide who can view the posts and comments of the portfolio.
+Décidez qui peut voir les publications et commentaires du portfolio.
 
-*Default: `false`*
+*Par défaut : `false`*
 
 ### `portfolio_show_base_course_post_in_sessions`
 
-**Show base course posts in session course**
+**Afficher les publications des cours de base dans les cours de session**
 
-Decide who can view the posts and comments of the portfolio.
+Décidez qui peut voir les publications et commentaires du portfolio.
 
-*Default: `false`*
+*Par défaut : `false`*
 
 ### `push_notification_settings`
 
-**Push notification settings (JSON)**
+**Paramètres de notification push (JSON)**
 
-JSON configuration for Push notifications integration.
+Configuration JSON pour l'intégration des notifications push.
 
 ### `server_type`
 
-**Server Type**
+**Type de serveur**
 
-Defines the environment type: "prod" (normal production), "validation" (like production but without reporting statistics), or "test" (debug mode with developer tools such as untranslated string indicators).
+Définit le type d'environnement : "prod" (production normale), "validation" (comme la production mais sans rapport de statistiques), ou "test" (mode débogage avec outils pour développeurs tels que des indicateurs de chaînes non traduites).
 
-*Default: `prod`*
+*Par défaut : `prod`*
 
 ### `session_admin_access_to_all_users_on_all_urls`
 
-**Allow session admins to see all users on all URLs**
+**Permettre aux administrateurs de session de voir tous les utilisateurs sur toutes les URL**
 
-If enabled, session admins can search and list users from all access URLs, regardless of their current URL.
+Si activé, les administrateurs de session peuvent rechercher et lister les utilisateurs de toutes les URL d'accès, indépendamment de leur URL actuelle.
 
-*Default: `false`*
+*Par défaut : `false`*
 
 ### `site_name`
 
-**E-learning portal name**
+**Nom du portail e-learning**
 
-The Name of your Chamilo Portal (appears in the header)
+Le nom de votre portail Chamilo (apparaît dans l'en-tête)
 
-*Default: `Chamilo site`*
-
+*Par défaut : `Chamilo site`*
 
 ### `timepicker_increment`
 
-**Timepicker increment**
+**Incrément du sélecteur de temps**
 
-Minimal time increment (in minutes) when selecting a date and time with the timepicker widget. For example, it might not be useful to have less than 5 or 15 minutes increments when talking about assignment submission, availability of a test, start time of a session, etc.
+Incrément de temps minimal (en minutes) lors de la sélection d'une date et d'une heure avec le widget timepicker. Par exemple, il peut ne pas être utile d'avoir des incréments inférieurs à 5 ou 15 minutes pour parler de la soumission d'un devoir, de la disponibilité d'un test, de l'heure de début d'une session, etc.
 
-*Default: `15`*
+*Par défaut : `15`*
 
 ### `timezone`
 
-**Default timezone**
+**Fuseau horaire par défaut**
 
-Select the default timezone for this portal. This will help set the timezone (if the feature is enabled) for each new user or for any user that has not set a specific timezone yet. Timezones help show all time-related information on screen in the specific timezone of each user.
+Sélectionnez le fuseau horaire par défaut pour ce portail. Cela aidera à définir le fuseau horaire (si la fonctionnalité est activée) pour chaque nouvel utilisateur ou pour tout utilisateur qui n'a pas encore défini un fuseau horaire spécifique. Les fuseaux horaires permettent d'afficher toutes les informations liées au temps à l'écran dans le fuseau horaire spécifique de chaque utilisateur.
 
-*Default: `Europe/Paris`*
-
+*Par défaut : `Europe/Paris`*
 
 ### `unoconv_binaries`
 
-**UNO converter binaries**
+**Binaires du convertisseur UNO**
 
-Give the system path to the UNO converter library to enable some extra exporting features.
+Indiquez le chemin système vers la bibliothèque de conversion UNO pour activer certaines fonctionnalités d'exportation supplémentaires.
 
-*Default: `/usr/bin/unoconv`*
-
+*Par défaut : `/usr/bin/unoconv`*
 
 ### `use_career_external_id_as_identifier_in_diagrams`
 
-**Use external career ID in diagrams**
+**Utiliser l'ID de carrière externe dans les diagrammes**
 
-If using career diagrams, show an extra field instead of the internal career ID.
+Si vous utilisez des diagrammes de carrière, affichez un champ supplémentaire au lieu de l'ID de carrière interne.
 
-*Default: `false`*
+*Par défaut : `false`*
 
 ### `use_custom_pages`
 
-**Use custom pages**
+**Utiliser des pages personnalisées**
 
-Enable this feature to configure specific login pages by role
+Activez cette fonctionnalité pour configurer des pages de connexion spécifiques par rôle.
 
-*Default: `false`*
+*Par défaut : `false`*
 
 ### `use_virtual_keyboard`
 
-**Use virtual keyboard**
+**Utiliser un clavier virtuel**
 
-Make a virtual keyboard appear. This is useful when setting up restrictive exams in a physical room where students have no keyboard to limit their ability to cheat.
+Fait apparaître un clavier virtuel. Cela est utile lors de la mise en place d'examens restrictifs dans une salle physique où les étudiants n'ont pas de clavier pour limiter leur capacité à tricher.
 
-*Default: `false`*
+*Par défaut : `false`*
 
 ### `user_status_show_option`
 
-**Roles display options**
+**Options d'affichage des rôles**
 
-An array of role => true/false that defines whether that role should be shown or hidden.
+Un tableau de rôle => vrai/faux qui définit si ce rôle doit être affiché ou masqué.
 
 ### `user_status_show_options_enabled`
 
-**Selective display of roles**
+**Affichage sélectif des rôles**
 
-Enable to use an array to define which roles should be clearly displayed and which should be hidden.
+Activez pour utiliser un tableau afin de définir quels rôles doivent être clairement affichés et lesquels doivent être masqués.
 
-*Default: `false`*
+*Par défaut : `false`*

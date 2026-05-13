@@ -1,293 +1,269 @@
-# Gradebook (Assessments) Settings
+# Paramètres du Carnet de notes (Évaluations)
 
-Defaults applied across the **Gradebook (Assessments)** tool — score display, decimal precision, certificate score thresholds, and aggregation.
+Paramètres par défaut appliqués à l'outil **Carnet de notes (Évaluations)** — affichage des scores, précision décimale, seuils de score pour les certificats et agrégation.
 
-Access these settings under **Administration > Configuration settings > Gradebook (Assessments)**. This category contains **34 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+Accédez à ces paramètres sous **Administration > Paramètres de configuration > Carnet de notes (Évaluations)**. Cette catégorie contient **34 paramètres**, listés ci-dessous avec le titre et le commentaire fournis dans les fixtures de paramètres de la plateforme (`SettingsCurrentFixtures.php`).
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> Le nom de la variable dans le code est affiché en monospace. Utilisez-le lors de la création de scripts via l'API ou lorsque vous devez modifier ces paramètres à un niveau global en éditant [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
 
-## Settings
+## Paramètres
 
 ### `allow_gradebook_comments`
 
-**Gradebook comments**
+**Commentaires dans le carnet de notes**
 
-Enable gradebook comments so teachers can add a comment to the overall performance of the learner in this course. The comment will appear in the PDF export for the learner.
+Active les commentaires dans le carnet de notes afin que les enseignants puissent ajouter un commentaire sur la performance globale de l'apprenant dans ce cours. Le commentaire apparaîtra dans l'export PDF pour l'apprenant.
 
-*Default: `false`*
-
+*Par défaut : `false`*
 
 ### `allow_gradebook_stats`
 
-**Cache results in the gradebook**
+**Mettre en cache les résultats dans le carnet de notes**
 
-Put some of the large calculations of averages in cached fields for the links and evaluations to increase speed (considerably). The potential negative impact is that it can take some time to refresh the gradebook results tables.
+Place certaines des calculs lourds des moyennes dans des champs mis en cache pour les liens et les évaluations afin d'augmenter la vitesse (considérablement). L'impact négatif potentiel est que cela peut prendre du temps pour actualiser les tableaux de résultats du carnet de notes.
 
-*Default: `false`*
+*Par défaut : `false`*
 
 ### `gradebook_badge_sidebar`
 
-**Gradebook badges sidebar**
+**Barre latérale des badges du carnet de notes**
 
-Generate a block inside the side menu where a few badges can be shown as pending approval. Requires gradebooks to be listed here, by (numerical) ID.
+Génère un bloc dans le menu latéral où quelques badges peuvent être affichés comme en attente d'approbation. Nécessite que les carnets de notes soient listés ici, par ID (numérique).
 
 ### `gradebook_default_grade_model_id`
 
-**Default grade model**
+**Modèle de notation par défaut**
 
-This value will be selected by default when creating a course
+Cette valeur sera sélectionnée par défaut lors de la création d'un cours.
 
 ### `gradebook_default_weight`
 
-**Default weight in Gradebook**
+**Poids par défaut dans le carnet de notes**
 
-This weight will be use in all courses by default
+Ce poids sera utilisé par défaut dans tous les cours.
 
-*Default: `100`*
+*Par défaut : `100`*
 
 ### `gradebook_dependency`
 
-**Inter-gradebook dependencies**
+**Dépendances inter-carnets de notes**
 
-Enables a mechanism of gradebook dependencies that lets people know which other items they need to go through first in order to complete the gradebook.
+Active un mécanisme de dépendances entre carnets de notes qui informe les utilisateurs des autres éléments qu'ils doivent compléter en premier pour finaliser le carnet de notes.
 
-*Default: `false`*
-
+*Par défaut : `false`*
 
 ### `gradebook_dependency_mandatory_courses`
 
-**Mandatory courses for gradebook dependencies**
+**Cours obligatoires pour les dépendances du carnet de notes**
 
-When using inter-gradebook dependencies, you can choose a list of mandatory courses that will be required before approving any gradebook that has dependencies.
+Lors de l'utilisation des dépendances inter-carnets de notes, vous pouvez choisir une liste de cours obligatoires qui seront requis avant d'approuver tout carnet de notes ayant des dépendances.
 
 ### `gradebook_detailed_admin_view`
 
-**Show additional columns in gradebook**
+**Afficher des colonnes supplémentaires dans le carnet de notes**
 
-Show additional columns in the student view of the gradebook with the best score of all students, the relative position of the student looking at the report and the average score of the whole group of students.
+Affiche des colonnes supplémentaires dans la vue étudiant du carnet de notes avec le meilleur score de tous les étudiants, la position relative de l'étudiant consultant le rapport et le score moyen de l'ensemble du groupe d'étudiants.
 
-*Default: `false`*
-
+*Par défaut : `false`*
 
 ### `gradebook_display_extra_stats`
 
-**Gradebook extra statistics**
+**Statistiques supplémentaires du carnet de notes**
 
-Add additional columns to the gradebook's main report (1 = ranking, 2 = best score, 3 = average).
+Ajoute des colonnes supplémentaires au rapport principal du carnet de notes (1 = classement, 2 = meilleur score, 3 = moyenne).
 
 ### `gradebook_enable`
 
-**Assessments tool activation**
+**Activation de l'outil Évaluations**
 
-The Assessments tool allows you to assess competences in your organization by merging classroom and online activities evaluations into Performance reports. Do you want to activate it?
+L'outil Évaluations vous permet d'évaluer les compétences dans votre organisation en fusionnant les évaluations des activités en classe et en ligne dans des rapports de performance. Souhaitez-vous l'activer ?
 
-*Default: `true`*
-
+*Par défaut : `true`*
 
 ### `gradebook_enable_grade_model`
 
-**Enable Gradebook model**
+**Activer le modèle de carnet de notes**
 
-Enables the auto creation of gradebook categories inside a course depending of the gradebook models.
+Permet la création automatique de catégories de carnet de notes dans un cours en fonction des modèles de carnet de notes.
 
-*Default: `false`*
+*Par défaut : `false`*
 
 ### `gradebook_enable_subcategory_skills_independant_assignement`
 
-**Enable skills by gradebook's subcategory**
+**Activer les compétences par sous-catégorie du carnet de notes**
 
-Skills are normally attributed for completing a whole gradebook. By enabling this option, you allow skills to be attached to sub-sections of gradebooks.
+Les compétences sont normalement attribuées pour la complétion d'un carnet de notes entier. En activant cette option, vous permettez aux compétences d'être attachées à des sous-sections des carnets de notes.
 
-*Default: `false`*
-
+*Par défaut : `false`*
 
 ### `gradebook_flatview_extrafields_columns`
 
-**User extra fields in gradebook flat view**
+**Champs supplémentaires utilisateur dans la vue plate du carnet de notes**
 
-Add the given columns ('variables' array) to the main results table in the gradebook.
+Ajoute les colonnes données (tableau 'variables') au tableau principal des résultats dans le carnet de notes.
 
 ### `gradebook_hide_graph`
 
-**Hide gradebook charts**
+**Masquer les graphiques du carnet de notes**
 
-If your portal is resources-limited, reducing the generation of the dynamic gradebok charts with potentially thousands of results is a good option.
+Si votre portail a des ressources limitées, réduire la génération des graphiques dynamiques du carnet de notes avec potentiellement des milliers de résultats est une bonne option.
 
-*Default: `false`*
-
+*Par défaut : `false`*
 
 ### `gradebook_hide_link_to_item_for_student`
 
-**Hide item links for learners in gradebook**
+**Masquer les liens vers les éléments pour les apprenants dans le carnet de notes**
 
-Avoid learners clicking on items from the gradebook by removing the links on the items.
+Évite que les apprenants cliquent sur les éléments du carnet de notes en supprimant les liens sur les éléments.
 
-*Default: `false`*
-
+*Par défaut : `false`*
 
 ### `gradebook_hide_pdf_report_button`
 
-**Hide gradebook button 'download PDF report'**
+**Masquer le bouton 'télécharger le rapport PDF' du carnet de notes**
 
-Removes the PDF export button from gradebook views for learners.
+Supprime le bouton d'export PDF des vues du carnet de notes pour les apprenants.
 
-*Default: `false`*
-
+*Par défaut : `false`*
 
 ### `gradebook_hide_table`
 
-**Hide gradebook table for learners**
+**Masquer le tableau du carnet de notes pour les apprenants**
 
-Reduce gradebook load time by hiding the results table (but still giving access to certificates, skills, etc).
+Réduit le temps de chargement du carnet de notes en masquant le tableau des résultats (tout en donnant accès aux certificats, compétences, etc.).
 
-*Default: `false`*
-
+*Par défaut : `false`*
 
 ### `gradebook_locking_enabled`
 
-**Enable locking of assessments by teachers**
+**Activer le verrouillage des évaluations par les enseignants**
 
-Once enabled, this option will enable locking of any assessment by the teachers of the corresponding course. This, in turn, will prevent any modification of results by the teacher inside the resources used in the assessment: exams, learning paths, tasks, etc. The only role authorized to unlock a locked assessment is the administrator. The teacher will be informed of this possibility. The locking and unlocking of gradebooks will be registered in the system's report of important activities
+Une fois activée, cette option permettra le verrouillage de toute évaluation par les enseignants du cours correspondant. Cela empêchera toute modification des résultats par l'enseignant dans les ressources utilisées pour l'évaluation : examens, parcours d'apprentissage, tâches, etc. Le seul rôle autorisé à déverrouiller une évaluation verrouillée est l'administrateur. L'enseignant sera informé de cette possibilité. Le verrouillage et le déverrouillage des carnets de notes seront enregistrés dans le rapport des activités importantes du système.
 
-*Default: `false`*
+*Par défaut : `false`*
 
 ### `gradebook_multiple_evaluation_attempts`
 
-**Allow multiple evaluation attempts in gradebook**
+**Autoriser plusieurs tentatives d'évaluation dans le carnet de notes**
 
-Allows adding comments to multiple evaluation attempts in gradebook and result tables.
+Permet d'ajouter des commentaires à plusieurs tentatives d'évaluation dans le carnet de notes et les tableaux de résultats.
 
-*Default: `false`*
-
+*Par défaut : `false`*
 
 ### `gradebook_number_decimals`
 
-**Number of decimals**
+**Nombre de décimales**
 
-Allows you to set the number of decimals allowed in a score
+Permet de définir le nombre de décimales autorisées dans un score.
 
-*Default: `0`*
+*Par défaut : `0`*
 
 ### `gradebook_pdf_export_settings`
 
-**Gradebook PDF export options**
+**Options d'export PDF du carnet de notes**
 
-Change the PDF export for learners based on the provided settings ('hide_score_weight', 'hide_feedback_textarea', ...)
+Modifie l'export PDF pour les apprenants en fonction des paramètres fournis ('hide_score_weight', 'hide_feedback_textarea', ...).
 
 ### `gradebook_report_score_style`
 
-**Gradebook reports score style**
+**Style de score des rapports du carnet de notes**
 
-Add gradebook score style configuration in the flat view. See api.lib.php in order to find the options: examples SCORE_DIV = 1, SCORE_PERCENT = 2, etc
+Ajoute une configuration de style de score du carnet de notes dans la vue plate. Consultez api.lib.php pour trouver les options : exemples SCORE_DIV = 1, SCORE_PERCENT = 2, etc.
 
-*Default: `1`*
-
+*Par défaut : `1`*
 
 ### `gradebook_score_display_colorsplit`
 
-**Threshold**
+**Seuil**
 
-The threshold (in %) under which scores will be colored red
+Le seuil (en %) en dessous duquel les scores seront colorés en rouge.
 
-*Default: `50`*
-
+*Par défaut : `50`*
 
 ### `gradebook_score_display_custom`
 
-**Competence levels labelling**
+**Étiquetage des niveaux de compétence**
 
-Tick the box to enable Competence levels labelling
+Cochez la case pour activer l'étiquetage des niveaux de compétence.
 
-*Default: `false`*
-
+*Par défaut : `false`*
 
 ### `gradebook_score_display_custom_standalone`
 
-**Custom score display in gradebook's standalone column**
+**Affichage personnalisé des scores dans une colonne indépendante du carnet de notes**
 
-Shows custom competence level values in a separate column in gradebook flatview when using custom score display.
+Affiche les valeurs de niveau de compétence personnalisées dans une colonne séparée dans la vue plate du carnet de notes lors de l'utilisation de l'affichage personnalisé des scores.
 
-*Default: `false`*
-
+*Par défaut : `false`*
 
 ### `gradebook_score_display_upperlimit`
 
-**Display score upper limit**
+**Afficher la limite supérieure du score**
 
-Tick the box to show the score's upper limit
+Cochez la case pour afficher la limite supérieure du score.
 
-*Default: `false`*
-
+*Par défaut : `false`*
 
 ### `gradebook_use_apcu_cache`
 
-**Use APCu caching to speed up gradebok**
+**Utiliser le cache APCu pour accélérer le carnet de notes**
 
-Improve speed when rendering gradebook student reports using Doctrine APCU cache. APCu is an optional but recommended PHP extension.
+Améliore la vitesse lors du rendu des rapports d'étudiants du carnet de notes en utilisant le cache Doctrine APCu. APCu est une extension PHP optionnelle mais recommandée.
 
-*Default: `true`*
-
+*Par défaut : `true`*
 
 ### `gradebook_use_exercise_score_settings_in_categories`
 
-**Use test settings for grades display**
+**Utiliser les paramètres de test pour l'affichage des notes**
 
-Applies exercise score display settings (percentage vs. points) to category scores in gradebook.
+Applique les paramètres d'affichage des scores d'exercice (pourcentage vs points) aux scores des catégories dans le carnet de notes.
 
-*Default: `true`*
-
+*Par défaut : `true`*
 
 ### `gradebook_use_exercise_score_settings_in_total`
 
-**Use global score display setting in gradebook**
+**Utiliser le paramètre d'affichage global des scores dans le carnet de notes**
 
-Applies global exercise score display settings to total score calculations in gradebook.
+Applique les paramètres globaux d'affichage des scores d'exercice aux calculs de score total dans le carnet de notes.
 
-*Default: `false`*
-
+*Par défaut : `false`*
 
 ### `hide_gradebook_percentage_user_result`
 
-**Hide percentage in best/average gradebook results**
+**Masquer le pourcentage dans les résultats meilleur/moyen du carnet de notes**
 
-Removes percentage display from best/average score results shown to learners in gradebook.
+Supprime l'affichage du pourcentage des résultats de score meilleur/moyen montrés aux apprenants dans le carnet de notes.
 
-*Default: `true`*
-
+*Par défaut : `true`*
 
 ### `my_display_coloring`
 
-**Display colors for scores in the gradebook**
+**Afficher des couleurs pour les scores dans le carnet de notes**
 
-Enables color coding for better score visibility in the gradebook.
+Active le codage couleur pour une meilleure visibilité des scores dans le carnet de notes.
 
-*Default: `false`*
-
+*Par défaut : `false`*
 
 ### `student_publication_to_take_in_gradebook`
 
-**Assignment considered for gradebook**
+**Devoir pris en compte pour le carnet de notes**
 
-In the assignments tool, students can upload more than one file. In case there is more than one for a single assignment, which one should be considered when ranking them in the gradebook? This depends on your methodology. Use 'first' to put the accent on attention to detail (like handling in time and handling the right work first). Use 'last' to highlight collaborative and adaptative work.
+Dans l'outil de devoirs, les étudiants peuvent téléverser plus d'un fichier. S'il y en a plus d'un pour un seul devoir, lequel doit être pris en compte lors de leur classement dans le carnet de notes ? Cela dépend de votre méthodologie. Utilisez 'first' pour mettre l'accent sur l'attention aux détails (comme rendre à temps et rendre le bon travail en premier). Utilisez 'last' pour mettre en avant le travail collaboratif et adaptatif.
 
-*Default: `first`*
-
+*Par défaut : `first`*
 
 ### `teachers_can_change_grade_model_settings`
 
-**Teachers can change the Gradebook model settings**
+**Les enseignants peuvent modifier les paramètres du modèle de carnet de notes**
 
-When editing a Gradebook
+Lors de l'édition d'un carnet de notes.
 
-*Default: `true`*
-
+*Par défaut : `true`*
 
 ### `teachers_can_change_score_settings`
 
-**Teachers can change the Gradebook score settings**
+**Les enseignants peuvent modifier les paramètres de score du carnet de notes**
 
-When editing the Gradebook settings
+Lors de l'édition des paramètres du carnet de notes.
 
-*Default: `true`*
-
-
+*Par défaut : `true`*

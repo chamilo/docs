@@ -1,47 +1,47 @@
-# Course Categories
+# Catégories de cours
 
-Course categories help organize your course catalog, making it easier for learners to find relevant courses.
+Les catégories de cours permettent d'organiser votre catalogue de cours, facilitant ainsi la recherche de cours pertinents pour les apprenants.
 
-## Creating a Category
+## Créer une catégorie
 
-1. From the administration panel, navigate to **Course categories**
-2. Click **Add category**
-3. Enter:
-   * **Category code** — A short unique identifier
-   * **Category name** — The display name (e.g., "Information Technology", "Management Skills")
-   * **Allow adding courses in this category?** — Whether it allows courses to set this as a category, or it just serves as an intermediate level in a hierarchy 
-   * **Parent category** — (Optional) Place this category under another category to create a hierarchy
-   * **Description** — (Optional)
-   * **Image** — (Optional) Will represent this category, although it almost doesn't show anywhere
-4. Press *Add category*
+1. Depuis le panneau d'administration, accédez à **Catégories de cours**
+2. Cliquez sur **Ajouter une catégorie**
+3. Saisissez :
+   * **Code de la catégorie** — Un identifiant court et unique
+   * **Nom de la catégorie** — Le nom affiché (par exemple, "Technologies de l'information", "Compétences en gestion")
+   * **Autoriser l'ajout de cours dans cette catégorie ?** — Indique si cette catégorie peut être attribuée à des cours ou si elle sert uniquement de niveau intermédiaire dans une hiérarchie
+   * **Catégorie parente** — (Facultatif) Placez cette catégorie sous une autre pour créer une hiérarchie
+   * **Description** — (Facultatif)
+   * **Image** — (Facultatif) Représentera cette catégorie, bien qu'elle ne soit presque jamais affichée
+4. Appuyez sur *Ajouter une catégorie*
 
-Chamilo creates 3 categories by default: *Language skills*, *PC Skills* and *Projects*. These can be renamed, removed or kept, depending on your needs.
+Chamilo crée par défaut 3 catégories : *Compétences linguistiques*, *Compétences informatiques* et *Projets*. Ces catégories peuvent être renommées, supprimées ou conservées selon vos besoins.
 
-## Category Hierarchy
+## Hiérarchie des catégories
 
-![The course categories management page showing a nested tree of categories](/.gitbook/assets/admin-course-categories.png)
+![Page de gestion des catégories de cours affichant un arbre imbriqué de catégories](/.gitbook/assets/admin-course-categories.png)
 
-Categories can be nested to create a tree structure:
+Les catégories peuvent être imbriquées pour créer une structure arborescente :
 
-* Business
-  * Management
+* Affaires
+  * Gestion
   * Marketing
   * Finance
-* Technology
-  * Programming
-  * Networking
-  * Cybersecurity
+* Technologie
+  * Programmation
+  * Réseaux
+  * Cybersécurité
 
-Learners browsing the course catalog can navigate through this hierarchy to find courses.
+Les apprenants qui parcourent le catalogue de cours peuvent naviguer à travers cette hiérarchie pour trouver des cours.
 
-## Managing Categories
+## Gérer les catégories
 
-* **Edit** — Change the category name, code, or parent
-* **Move** — Change the position of a category in the list
-* **Delete** — Remove a category. Courses in a deleted category are moved to "uncategorized."
+* **Modifier** — Changer le nom, le code ou la catégorie parente
+* **Déplacer** — Modifier la position d'une catégorie dans la liste
+* **Supprimer** — Supprimer une catégorie. Les cours d'une catégorie supprimée sont déplacés vers "non catégorisé".
 
-## Tips
+## Conseils
 
-* **Keep it simple** — Use broad categories that learners can understand at a glance
-* **Limit depth** — Avoid deeply nested categories. Two or three levels are usually sufficient.
-* **Assign categories during course creation** — Encourage teachers to select a category when creating courses, so the catalog stays organized
+* **Restez simple** — Utilisez des catégories générales que les apprenants peuvent comprendre d'un coup d'œil
+* **Limitez la profondeur** — Évitez les catégories trop imbriquées. Deux ou trois niveaux sont généralement suffisants.
+* **Attribuez des catégories lors de la création de cours** — Encouragez les enseignants à sélectionner une catégorie lors de la création de cours, afin que le catalogue reste organisé

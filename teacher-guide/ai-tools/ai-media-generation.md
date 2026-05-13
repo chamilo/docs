@@ -1,26 +1,27 @@
-# AI Media Generation
+---
+# Génération de médias par IA
 
-When editing a document in the **Documents** tool, the AI media generation feature lets you produce an **image** or a **short video** to illustrate a paragraph — directly from the rich-text editor (WYSIWYG), without leaving the document.
+Lors de l'édition d'un document dans l'outil **Documents**, la fonctionnalité de génération de médias par IA vous permet de produire une **image** ou une **vidéo courte** pour illustrer un paragraphe — directement depuis l'éditeur de texte enrichi (WYSIWYG), sans quitter le document.
 
-## Requirements
+## Prérequis
 
-* AI helpers are enabled at the platform level
-* At least one AI media provider (image or video) is configured by the administrator
-* The feature is allowed in your course (course-level permission must be enabled)
+* Les assistants IA sont activés au niveau de la plateforme
+* Au moins un fournisseur de médias IA (image ou vidéo) est configuré par l'administrateur
+* La fonctionnalité est autorisée dans votre cours (la permission au niveau du cours doit être activée)
 
-## How to Generate an Image or Video
+## Comment générer une image ou une vidéo
 
-1. Open a document in the **Documents** <img src="/.gitbook/assets/icons/mdi-bookshelf.svg" alt="Documents" data-size="line"> tool (create a new one or edit an existing one)
-2. In the rich-text editor, place your cursor in or near the paragraph you want to illustrate
-3. Open the **Generate AI media** dialog from the editor toolbar
-4. Describe what you want the media to show, or use the selected paragraph as the prompt
-5. Choose whether to generate an **image** or a **video**
-6. Click **Generate** and wait for the AI to produce the result
-7. Preview the generated media and, if satisfied, click **Insert** to embed it in the document
+1. Ouvrez un document dans l'outil **Documents** <img src="/.gitbook/assets/icons/mdi-bookshelf.svg" alt="Documents" data-size="line"> (créez-en un nouveau ou modifiez-en un existant)
+2. Dans l'éditeur de texte enrichi, placez votre curseur dans ou à proximité du paragraphe que vous souhaitez illustrer
+3. Ouvrez la boîte de dialogue **Générer un média par IA** depuis la barre d'outils de l'éditeur
+4. Décrivez ce que vous voulez que le média montre, ou utilisez le paragraphe sélectionné comme instruction
+5. Choisissez de générer une **image** ou une **vidéo**
+6. Cliquez sur **Générer** et attendez que l'IA produise le résultat
+7. Prévisualisez le média généré et, si vous êtes satisfait, cliquez sur **Insérer** pour l'intégrer dans le document
 
-## Tips
+## Conseils
 
-* **Write a clear prompt** — The more specific your description, the more relevant the output. Include style cues (e.g. "diagram", "illustration", "realistic photo") if the provider supports them
-* **Always review before inserting** — Generated media may not perfectly match your intent; regenerate or adjust the prompt if needed
-* **Keep file sizes in mind** — Generated images and videos count against the course storage quota. Remove unused media from the document library if space is limited
-* **Video generation takes longer** — Short video generation can take significantly more time than image generation; plan accordingly if you are near a deadline
+* **Rédigez une instruction claire** — Plus votre description est précise, plus le résultat sera pertinent. Incluez des indications de style (par exemple, "diagramme", "illustration", "photo réaliste") si le fournisseur les prend en charge
+* **Vérifiez toujours avant d'insérer** — Les médias générés peuvent ne pas correspondre parfaitement à votre intention ; régénérez ou ajustez l'instruction si nécessaire
+* **Gardez à l'esprit la taille des fichiers** — Les images et vidéos générées comptent dans le quota de stockage du cours. Supprimez les médias inutilisés de la bibliothèque de documents si l'espace est limité
+* **La génération de vidéos prend plus de temps** — La génération de courtes vidéos peut prendre beaucoup plus de temps que la génération d'images ; planifiez en conséquence si vous êtes proche d'une échéance

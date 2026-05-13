@@ -1,53 +1,53 @@
-# Social Network
+# Réseau Social
 
-Chamilo includes a built-in social network that lets you connect with other users on the platform. This feature may be enabled or disabled by your platform administrator.
+Chamilo intègre un réseau social qui vous permet de vous connecter avec d'autres utilisateurs de la plateforme. Cette fonctionnalité peut être activée ou désactivée par l'administrateur de votre plateforme.
 
-## Accessing the Social Network
+## Accéder au Réseau Social
 
-Click **Social network** in the sidebar to access the social features. If you do not see this option, your administrator may have disabled it.
+Cliquez sur **Réseau social** dans la barre latérale pour accéder aux fonctionnalités sociales. Si vous ne voyez pas cette option, il est possible que votre administrateur l'ait désactivée.
 
-## Your Social Wall
+## Votre Mur Social
 
-![The social wall showing a feed of posts, likes, and comments from connections](/.gitbook/assets/social-wall.png)
+![Le mur social affichant un flux de publications, de mentions J'aime et de commentaires de vos relations](/.gitbook/assets/social-wall.png)
 
-The social wall shows a feed of activity from you and your connections. You can:
+Le mur social affiche un flux d'activité de vous et de vos relations. Vous pouvez :
 
-* **Post updates** — Share text and links with your connections
-* **Like and comment** — Interact with posts from other users
-* **View activity** — See recent posts from people you are connected with
+* **Publier des mises à jour** — Partager du texte et des liens avec vos relations
+* **Aimer et commenter** — Interagir avec les publications d'autres utilisateurs
+* **Voir l'activité** — Consulter les publications récentes des personnes avec lesquelles vous êtes connecté
 
-## Connections
+## Relations
 
-You can connect with other users on the platform:
+Vous pouvez vous connecter avec d'autres utilisateurs de la plateforme :
 
-* **Search for users** — Find colleagues and learners by name
-* **Send connection requests** — Invite other users to connect
-* **Manage connections** — Accept, decline, or remove connections
+* **Rechercher des utilisateurs** — Trouver des collègues et des apprenants par leur nom
+* **Envoyer des demandes de connexion** — Inviter d'autres utilisateurs à se connecter
+* **Gérer les relations** — Accepter, refuser ou supprimer des connexions
 
-> **Note:** Learners can only search for and add other learners as friends — they cannot send friend requests to teachers. As a teacher, however, you can search for learners and request to add them as friends.
+> **Remarque :** Les apprenants ne peuvent rechercher et ajouter que d'autres apprenants comme amis — ils ne peuvent pas envoyer de demandes d'amitié aux enseignants. En tant qu'enseignant, cependant, vous pouvez rechercher des apprenants et demander à les ajouter comme amis.
 
-## Messaging
+## Messagerie
 
-The social network integrates with the platform's messaging system:
+Le réseau social est intégré au système de messagerie de la plateforme :
 
-* **Send messages** <img src="/.gitbook/assets/icons/mdi-email-plus-outline.svg" alt="New message" data-size="line"> — Write direct messages to other users
-* **Inbox** <img src="/.gitbook/assets/icons/mdi-inbox.svg" alt="Inbox" data-size="line"> — Read and reply to received messages
-* **Sent messages** <img src="/.gitbook/assets/icons/mdi-send-check.svg" alt="Sent" data-size="line"> — Review messages you have sent
+* **Envoyer des messages** <img src="/.gitbook/assets/icons/mdi-email-plus-outline.svg" alt="Nouveau message" data-size="line"> — Écrire des messages directs à d'autres utilisateurs
+* **Boîte de réception** <img src="/.gitbook/assets/icons/mdi-inbox.svg" alt="Boîte de réception" data-size="line"> — Lire et répondre aux messages reçus
+* **Messages envoyés** <img src="/.gitbook/assets/icons/mdi-send-check.svg" alt="Envoyés" data-size="line"> — Consulter les messages que vous avez envoyés
 
-### Composing and Replying
+### Rédaction et Réponse
 
-When composing a new message, you can address it to multiple recipients at once. Similarly, when replying to a message, you can include multiple users in your reply — useful for group coordination without a formal social group.
+Lors de la rédaction d'un nouveau message, vous pouvez l'adresser à plusieurs destinataires à la fois. De même, lorsque vous répondez à un message, vous pouvez inclure plusieurs utilisateurs dans votre réponse — utile pour coordonner un groupe sans créer un groupe social formel.
 
-### Message Tags
+### Étiquettes de Messages
 
-If your platform configuration uses message tags (typically managed at the platform level), your inbox shows a tag list you can click to filter messages by that tag, which makes locating related threads faster as your inbox grows.
+Si la configuration de votre plateforme utilise des étiquettes de messages (généralement gérées au niveau de la plateforme), votre boîte de réception affiche une liste d'étiquettes sur lesquelles vous pouvez cliquer pour filtrer les messages par cette étiquette, ce qui facilite la localisation des fils de discussion associés à mesure que votre boîte de réception se remplit.
 
-## Social Groups
+## Groupes Sociaux
 
-Social groups allow users to gather around common interests or projects:
+Les groupes sociaux permettent aux utilisateurs de se rassembler autour d'intérêts ou de projets communs :
 
-* **Join groups** — Browse and join existing groups
-* **Create groups** — Start a new social group (if permitted)
-* **Group discussions** — Share posts within a group context
+* **Rejoindre des groupes** — Parcourir et rejoindre des groupes existants
+* **Créer des groupes** — Lancer un nouveau groupe social (si autorisé)
+* **Discussions de groupe** — Partager des publications dans le contexte d'un groupe
 
-> Social groups are different from **course groups** (covered in the [Groups](collaboration-and-communication/groups.md) section). Course groups are tied to a specific course, while social groups are platform-wide.
+> Les groupes sociaux sont différents des **groupes de cours** (abordés dans la section [Groupes](collaboration-and-communication/groups.md)). Les groupes de cours sont liés à un cours spécifique, tandis que les groupes sociaux s'étendent à l'ensemble de la plateforme.

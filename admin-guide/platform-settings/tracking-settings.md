@@ -1,73 +1,74 @@
-# Tracking Settings
+---
+# Paramètres de suivi
 
-Tracking-related defaults — what is recorded, what reports are exposed, time computation rules.
+Paramètres par défaut liés au suivi — ce qui est enregistré, quels rapports sont exposés, règles de calcul du temps.
 
-Access these settings under **Administration > Configuration settings > Tracking**. This category contains **10 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+Accédez à ces paramètres sous **Administration > Paramètres de configuration > Suivi**. Cette catégorie contient **10 paramètres**, listés ci-dessous avec le titre et le commentaire fournis dans les fixtures de paramètres de la plateforme (`SettingsCurrentFixtures.php`).
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> Le nom de la variable dans le code est affiché en monospace. Utilisez-le lors de la création de scripts via l'API ou lorsque vous devez modifier ces paramètres à un niveau global en éditant [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
 
-## Settings
+## Paramètres
 
 ### `block_my_progress_page`
 
-**Prevent access to 'My progress'**
+**Empêcher l'accès à la page 'Mon progression'**
 
-In specific implementations like online exams, you might want to prevent user access to the 'My progress' page.
+Dans des implémentations spécifiques comme les examens en ligne, vous pourriez vouloir empêcher l'accès des utilisateurs à la page 'Mon progression'.
 
-*Default: `false`*
+*Par défaut : `false`*
 
 ### `footer_extra_content`
 
-**Extra content in footer**
+**Contenu supplémentaire dans le pied de page**
 
-You can add HTML code like meta tags
+Vous pouvez ajouter du code HTML comme des balises meta.
 
 ### `header_extra_content`
 
-**Extra content in header**
+**Contenu supplémentaire dans l'en-tête**
 
-You can add HTML code like meta tags
+Vous pouvez ajouter du code HTML comme des balises meta.
 
 ### `meta_description`
 
-**Meta description**
+**Description meta**
 
-This will show an OpenGraph Description meta (og:description) in your site's headers
+Cela affichera une balise meta de description OpenGraph (og:description) dans les en-têtes de votre site.
 
 ### `meta_image_path`
 
-**Meta image path**
+**Chemin de l'image meta**
 
-This Meta Image path is the path to a file inside your Chamilo directory (e.g. home/image.png) that should show in a Twitter card or a OpenGraph card when showing a link to your LMS. Twitter recommends an image of 120 x 120 pixels, which might sometimes be cropped to 120x90.
+Ce chemin d'image meta est le chemin vers un fichier dans votre répertoire Chamilo (par exemple, home/image.png) qui devrait apparaître dans une carte Twitter ou une carte OpenGraph lors de l'affichage d'un lien vers votre LMS. Twitter recommande une image de 120 x 120 pixels, qui peut parfois être recadrée à 120x90.
 
 ### `meta_title`
 
-**OpenGraph meta title**
+**Titre meta OpenGraph**
 
-This will show an OpenGraph Title meta (og:title) in your site's headers
+Cela affichera une balise meta de titre OpenGraph (og:title) dans les en-têtes de votre site.
 
 ### `meta_twitter_creator`
 
-**Twitter Creator account**
+**Compte Twitter du créateur**
 
-The Twitter Creator is a Twitter account (e.g. @ywarnier) that represents the *person* that created the site. This field is optional.
+Le créateur Twitter est un compte Twitter (par exemple, @ywarnier) qui représente la *personne* ayant créé le site. Ce champ est facultatif.
 
 ### `meta_twitter_site`
 
-**Twitter Site account**
+**Compte Twitter du site**
 
-The Twitter site is a Twitter account (e.g. @chamilo_news) that is related to your site. It is usually a more temporary account than the Twitter creator account, or represents an entity (instead of a person). This field is required if you want the Twitter card meta fields to show.
+Le site Twitter est un compte Twitter (par exemple, @chamilo_news) lié à votre site. Il s'agit généralement d'un compte plus temporaire que le compte du créateur Twitter, ou il représente une entité (au lieu d'une personne). Ce champ est requis si vous souhaitez que les champs meta de la carte Twitter s'affichent.
 
 ### `my_progress_course_tools_order`
 
-**Order of tools on 'My progress' page**
+**Ordre des outils sur la page 'Mon progression'**
 
-Change the order of tools shown on the 'My progress' page for learners. Options include 'quizzes', 'learning_paths' and 'skills'.
+Modifiez l'ordre des outils affichés sur la page 'Mon progression' pour les apprenants. Les options incluent 'quizzes', 'learning_paths' et 'skills'.
 
 ### `tracking_skip_generic_data`
 
-**Skip generic data in learner self-tracking page**
+**Ignorer les données génériques sur la page de suivi personnel de l'apprenant**
 
-If the 'My progress' page takes too long to load, you might want to remove the processing of generic statistics for the user. In this case enable this setting.
+Si la page 'Mon progression' met trop de temps à se charger, vous pourriez vouloir supprimer le traitement des statistiques génériques pour l'utilisateur. Dans ce cas, activez ce paramètre.
 
-*Default: `false`*
+*Par défaut : `false`*

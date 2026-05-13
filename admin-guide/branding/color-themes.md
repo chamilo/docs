@@ -1,26 +1,27 @@
-# Color Themes
+---
+# Thèmes de couleurs
 
-Chamilo 2.0 introduces a color theme system that lets you customize the visual appearance of the platform.
+Chamilo 2.0 introduit un système de thèmes de couleurs qui vous permet de personnaliser l'apparence visuelle de la plateforme.
 
-## How Themes Work
+## Fonctionnement des thèmes
 
-Color themes define the palette used across the Chamilo interface — primary colors, accent colors, backgrounds, and text colors. A theme is associated to an access URL: in a single-URL portal it effectively becomes the global theme, and in a multi-URL setup each URL can have its own.
+Les thèmes de couleurs définissent la palette utilisée dans l'interface de Chamilo — couleurs principales, couleurs d'accentuation, arrière-plans et couleurs de texte. Un thème est associé à une URL d'accès : dans un portail à URL unique, il devient effectivement le thème global, et dans une configuration multi-URL, chaque URL peut avoir son propre thème.
 
-## Applying a Theme
+## Appliquer un thème
 
-![The color themes page showing available themes with preview swatches and an Apply button](/.gitbook/assets/admin-color-themes.png)
+![La page des thèmes de couleurs affichant les thèmes disponibles avec des échantillons de prévisualisation et un bouton Appliquer](/.gitbook/assets/admin-color-themes.png)
 
-1. From the administration panel, navigate to **Color themes**
-2. Browse the available themes
-3. Select a theme and click **Apply**
-4. The theme is immediately applied to the platform
+1. Depuis le panneau d'administration, accédez à **Thèmes de couleurs**
+2. Parcourez les thèmes disponibles
+3. Sélectionnez un thème et cliquez sur **Appliquer**
+4. Le thème est immédiatement appliqué à la plateforme
 
-## Per-URL Themes
+## Thèmes par URL
 
-In a multi-URL setup, each access URL can have its own color theme. This allows different portals to have distinct visual identities while sharing the same Chamilo installation.
+Dans une configuration multi-URL, chaque URL d'accès peut avoir son propre thème de couleurs. Cela permet à différents portails d'avoir des identités visuelles distinctes tout en partageant la même installation de Chamilo.
 
-## Tips
+## Conseils
 
-* **Match your brand** — Choose or customize a theme that matches your organization's brand colors
-* **Test readability** — After applying a theme, check that text is readable against background colors, especially in high-contrast situations
-* **Consider accessibility** — Ensure sufficient color contrast for users with visual impairments
+* **Correspondance avec votre marque** — Choisissez ou personnalisez un thème qui correspond aux couleurs de la marque de votre organisation
+* **Testez la lisibilité** — Après avoir appliqué un thème, vérifiez que le texte est lisible sur les couleurs d'arrière-plan, en particulier dans des situations de fort contraste
+* **Tenez compte de l'accessibilité** — Assurez-vous d'un contraste de couleurs suffisant pour les utilisateurs ayant des déficiences visuelles

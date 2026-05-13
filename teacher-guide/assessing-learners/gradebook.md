@@ -1,89 +1,90 @@
-# Assessments
+---
+# Évaluations
 
-The assessments (previously *gradebook*) aggregates scores from exercises, assignments, and other graded activities into a unified view of each learner's performance. It also controls certificate generation.
+Les évaluations (anciennement *gradebook* ou carnet de notes) regroupent les scores des exercices, des devoirs et d'autres activités notées dans une vue unifiée de la performance de chaque apprenant. Elles contrôlent également la génération de certificats.
 
-## How the Assessments Work
+## Fonctionnement des Évaluations
 
-The assessments are weighted scoring systems. You define:
+Les évaluations sont des systèmes de notation pondérée. Vous définissez :
 
-1. **Which activities** contribute to the grade (exercises, assignments, attendance, etc.)
-2. **The weight** of each activity (how much it counts toward the final grade)
-3. **The minimum certification score** (the threshold for earning a certificate)
-4. **A minimum score per activity** — Each activity in the gradebook can have its own **Minimum score**. Learners who score below that minimum on a key activity can be prevented from achieving the objectives and earning the certificate, even if their overall weighted total is otherwise high enough.
+1. **Quelles activités** contribuent à la note (exercices, devoirs, présence, etc.)
+2. **Le poids** de chaque activité (sa contribution à la note finale)
+3. **Le score minimum de certification** (le seuil pour obtenir un certificat)
+4. **Un score minimum par activité** — Chaque activité dans le carnet de notes peut avoir son propre **score minimum**. Les apprenants qui obtiennent un score inférieur à ce minimum pour une activité clé peuvent être empêchés d'atteindre les objectifs et d'obtenir le certificat, même si leur total pondéré global est suffisamment élevé.
 
-Activities can be of 2 types:
-* **Classroom activity** (or in-person activity), where grades have to be imported from some other source
-* **Online activity** selected from the course, where grades are obtained through the fulfilling of the activity in the course
+Les activités peuvent être de 2 types :
+* **Activité en classe** (ou activité en présentiel), où les notes doivent être importées depuis une autre source
+* **Activité en ligne** sélectionnée dans le cours, où les notes sont obtenues par la réalisation de l'activité dans le cours
 
-Chamilo calculates each learner's overall grade based on these weights.
+Chamilo calcule la note globale de chaque apprenant en fonction de ces poids.
 
-## Setting Up the Assessment
+## Configuration des Évaluations
 
-1. Open the **Assessments** <img src="/.gitbook/assets/icons/mdi-certificate.svg" alt="Gradebook" data-size="line"> tool from the course homepage
-2. You will see the assessments overview, initially empty
+1. Ouvrez l'outil **Évaluations** <img src="/.gitbook/assets/icons/mdi-certificate.svg" alt="Carnet de notes" data-size="line"> depuis la page d'accueil du cours
+2. Vous verrez un aperçu des évaluations, initialement vide
 
-### Adding Activities
+### Ajout d'Activités
 
-1. Click **Add online activity**
-2. Choose the type:
-   * **Test** — Link a specific exercise from the course
-   * **Assignment** — Link a student publication folder
-   * **Learning path** — Link learning path completion
-   * **Attendance** — Link an attendance sheet
-   * **Forum thread** — Link a forum thread (which has to be graded manually)
-   * **Survey** — Link a survey
-3. Select the specific activity within the chosen type
-4. Set the **Weight** for this activity (e.g., 30% for the midterm exam, 40% for the final project)
-5. Set the **Minimum score** if applicable
-6. Save
+1. Cliquez sur **Ajouter une activité en ligne**
+2. Choisissez le type :
+   * **Test** — Lier un exercice spécifique du cours
+   * **Devoir** — Lier un dossier de publications des étudiants
+   * **Parcours d'apprentissage** — Lier l'achèvement d'un parcours d'apprentissage
+   * **Présence** — Lier une feuille de présence
+   * **Fil de discussion du forum** — Lier un fil de discussion du forum (qui doit être noté manuellement)
+   * **Sondage** — Lier un sondage
+3. Sélectionnez l'activité spécifique dans le type choisi
+4. Définissez le **Poids** de cette activité (par exemple, 30 % pour l'examen de mi-parcours, 40 % pour le projet final)
+5. Définissez le **Score minimum** si applicable
+6. Enregistrez
 
-The total weight of all activities should add up to 100%.
+Le poids total de toutes les activités doit atteindre 100 %.
 
-### Sub-Categories
+### Sous-catégories
 
-For complex grading schemes, you can create **sub-categories** to group related activities:
+Pour des schémas de notation complexes, vous pouvez créer des **sous-catégories** pour regrouper des activités connexes :
 
-* **Example**: A "Homework" sub-category (weight: 30%) containing five individual assignments each worth 20% of the sub-category
-* Sub-categories let you organize the assessment hierarchically while keeping the overall calculation simple
+* **Exemple** : Une sous-catégorie "Devoirs" (poids : 30 %) contenant cinq devoirs individuels valant chacun 20 % de la sous-catégorie
+* Les sous-catégories vous permettent d'organiser l'évaluation de manière hiérarchique tout en simplifiant le calcul global
 
-## Viewing Grades
+## Consultation des Notes
 
-![The gradebook overview table showing learner names, activity scores, and weighted totals](/.gitbook/assets/gradebook-overview.png)
+![Tableau d'aperçu du carnet de notes affichant les noms des apprenants, les scores des activités et les totaux pondérés](/.gitbook/assets/gradebook-overview.png)
 
-The assessment shows a table with:
+L'évaluation affiche un tableau avec :
 
-* Each learner's name
-* Scores for each activity
-* The weighted total
-* Whether the learner qualifies for a certificate
+* Le nom de chaque apprenant
+* Les scores pour chaque activité
+* Le total pondéré
+* Si l'apprenant est éligible pour un certificat
 
-You can sort by any column to quickly identify top performers or struggling learners.
+Vous pouvez trier par n'importe quelle colonne pour identifier rapidement les meilleurs performeurs ou les apprenants en difficulté.
 
-## Certificates
+## Certificats
 
-To enable certificate generation:
+Pour activer la génération de certificats :
 
-1. In the assessment settings, set a **minimum certification score** (e.g., 70%)
-2. When a learner's weighted total meets or exceeds this threshold (and they have not failed any per-activity minimum score), they can download their certificate
-3. The certificate is generated from a template configured by the platform administrator
+1. Dans les paramètres d'évaluation, définissez un **score minimum de certification** (par exemple, 70 %)
+2. Lorsqu'un apprenant atteint ou dépasse ce seuil avec son total pondéré (et qu'il n'a échoué à aucun score minimum par activité), il peut télécharger son certificat
+3. Le certificat est généré à partir d'un modèle configuré par l'administrateur de la plateforme
 
-See [Certificates and Skills](../tracking-and-reporting/certificates-and-skills.md) for more details.
+Voir [Certificats et Compétences](../tracking-and-reporting/certificates-and-skills.md) pour plus de détails.
 
-## Linking to Skills
+## Liaison avec les Compétences
 
-You can associate **skills** with the assessment. When a learner reaches the set objectives to complete the assessment, they can either get a certificate, get a skill or both. Skills are visible on their profile in the social network space. This builds a competency record over time.
+Vous pouvez associer des **compétences** à l'évaluation. Lorsqu'un apprenant atteint les objectifs fixés pour compléter l'évaluation, il peut obtenir un certificat, une compétence, ou les deux. Les compétences sont visibles sur son profil dans l'espace de réseau social. Cela permet de constituer un dossier de compétences au fil du temps.
 
-## Exporting Grades
+## Exportation des Notes
 
-Click the **Export** <img src="/.gitbook/assets/icons/mdi-export.svg" alt="Export" data-size="line"> button to download grades as a spreadsheet. This is useful for:
+Cliquez sur le bouton **Exporter** <img src="/.gitbook/assets/icons/mdi-export.svg" alt="Exporter" data-size="line"> pour télécharger les notes sous forme de feuille de calcul. Cela est utile pour :
 
-* Sharing grades with administrative systems
-* Performing additional analysis outside Chamilo
-* Keeping offline records
+* Partager les notes avec des systèmes administratifs
+* Effectuer des analyses supplémentaires en dehors de Chamilo
+* Conserver des archives hors ligne
 
-## Tips
+## Conseils
 
-* **Plan your weights early** — Define the grading scheme at the start of the course so learners know what to expect
-* **Use sub-categories for complex courses** — Group assignments, quizzes, and participation into clear categories
-* **Set meaningful pass thresholds** — The certification score should reflect actual competency, not just participation
-* **Check regularly** — Review the gradebook periodically to ensure all activities are properly linked and scores are being recorded
+* **Planifiez vos poids dès le début** — Définissez le schéma de notation au début du cours pour que les apprenants sachent à quoi s'attendre
+* **Utilisez des sous-catégories pour les cours complexes** — Regroupez les devoirs, les quiz et la participation dans des catégories claires
+* **Définissez des seuils de réussite significatifs** — Le score de certification doit refléter une compétence réelle, et pas seulement une participation
+* **Vérifiez régulièrement** — Consultez périodiquement le carnet de notes pour vous assurer que toutes les activités sont correctement liées et que les scores sont bien enregistrés

@@ -1,75 +1,75 @@
-# Managing Sessions
+# Gestion des sessions
 
-## Creating a Session
+## Création d'une session
 
-![The session creation form with fields for name, dates, coach, category, and visibility](/.gitbook/assets/admin-session-create-form.png)
+![Formulaire de création de session avec les champs pour le nom, les dates, le formateur, la catégorie et la visibilité](/.gitbook/assets/admin-session-create-form.png)
 
-1. From the administration panel, click **Create a session**
-2. Fill in the session details:
-   * **Session name** — A descriptive name (e.g., "Spring 2026 Onboarding")
-   * **Start and end dates** — When the session runs (optional — sessions can be open-ended). There are 3 sets of dates: Dates to display, dates to limit learners access and dates to limit coaches access
-   * **Session coach** — The person overseeing the entire session
-   * **Category** — Assign to a session category for organization
-   * **Visibility** — Control access and listing behavior
-3. **Add courses** — Select one or more courses to include in the session
-4. **Enroll learners** — Add individual users or classes of users
-5. **Assign course coaches** — For each course, assign a teacher (course coach)
-6. Save
+1. Depuis le panneau d'administration, cliquez sur **Créer une session**
+2. Remplissez les détails de la session :
+   * **Nom de la session** — Un nom descriptif (par exemple, "Intégration Printemps 2026")
+   * **Dates de début et de fin** — Période de déroulement de la session (facultatif — les sessions peuvent être sans fin). Il existe 3 ensembles de dates : dates d'affichage, dates de limitation d'accès pour les apprenants et dates de limitation d'accès pour les formateurs
+   * **Formateur de la session** — La personne supervisant l'ensemble de la session
+   * **Catégorie** — Assignez à une catégorie de session pour l'organisation
+   * **Visibilité** — Contrôlez le comportement d'accès et d'affichage
+3. **Ajouter des cours** — Sélectionnez un ou plusieurs cours à inclure dans la session
+4. **Inscrire des apprenants** — Ajoutez des utilisateurs individuels ou des classes d'utilisateurs
+5. **Assigner des formateurs de cours** — Pour chaque cours, assignez un enseignant (formateur de cours)
+6. Enregistrez
 
-## Session Dates
+## Dates des sessions
 
-Sessions support flexible date configuration:
+Les sessions permettent une configuration flexible des dates :
 
-| Date | Purpose |
-|------|---------|
-| **Display start/end** | When the session appears in learner listings |
-| **Access start/end** | When learners can actually access the session content |
-| **Coach access start/end** | When coaches can access the session (often starts before and ends after learner access) |
+| Date | Objectif |
+|------|----------|
+| **Début/fin d'affichage** | Quand la session apparaît dans les listes des apprenants |
+| **Début/fin d'accès** | Quand les apprenants peuvent réellement accéder au contenu de la session |
+| **Début/fin d'accès formateur** | Quand les formateurs peuvent accéder à la session (souvent commence avant et se termine après l'accès des apprenants) |
 
-This allows you to prepare the session before learners arrive and keep coach access open after the session ends for grading and reporting.
+Cela vous permet de préparer la session avant l'arrivée des apprenants et de maintenir l'accès des formateurs ouvert après la fin de la session pour l'évaluation et les rapports.
 
-## Session List
+## Liste des sessions
 
-![The session list showing all sessions with name, dates, course count, learner count, and status](/.gitbook/assets/admin-session-list.png)
+![Liste des sessions affichant toutes les sessions avec le nom, les dates, le nombre de cours, le nombre d'apprenants et le statut](/.gitbook/assets/admin-session-list.png)
 
-The session list shows all sessions with:
+La liste des sessions affiche toutes les sessions avec :
 
-* Session name
-* Start and end dates
-* Status (active, upcoming, past)
+* Nom de la session
+* Dates de début et de fin
+* Statut (active, à venir, passée)
 
-Use search and filters to find sessions by name, date, category, or status.
+Utilisez la recherche et les filtres pour trouver des sessions par nom, date, catégorie ou statut.
 
-## Editing a Session
+## Modification d'une session
 
-Click on a session to edit:
+Cliquez sur une session pour la modifier :
 
-* Change dates, name, or category
-* Add or remove courses
-* Change course coaches
-* Add or remove learners
-* View tracking data for the session
+* Modifier les dates, le nom ou la catégorie
+* Ajouter ou supprimer des cours
+* Changer les formateurs de cours
+* Ajouter ou supprimer des apprenants
+* Voir les données de suivi pour la session
 
-## Enrolling Users
+## Inscription des utilisateurs
 
-![The session enrollment interface for adding individual users, classes, or importing via CSV](/.gitbook/assets/admin-session-enrollment.png)
+![Interface d'inscription à la session pour ajouter des utilisateurs individuels, des classes ou importer via CSV](/.gitbook/assets/admin-session-enrollment.png)
 
-You can enroll users in a session by:
+Vous pouvez inscrire des utilisateurs à une session par :
 
-* **Individual enrollment** — Search for and add individual users
-* **Class enrollment** — Add an entire class (group of pre-defined users) at once
-* **CSV import** — Upload a file with user-session assignments
+* **Inscription individuelle** — Recherchez et ajoutez des utilisateurs individuels
+* **Inscription de classe** — Ajoutez une classe entière (groupe d'utilisateurs prédéfinis) en une seule fois
+* **Importation CSV** — Téléchargez un fichier avec les affectations utilisateur-session
 
-## Session Access
+## Accès à la session
 
-Learners access their sessions through **My sessions** in the sidebar. Sessions are organized into:
+Les apprenants accèdent à leurs sessions via **Mes sessions** dans la barre latérale. Les sessions sont organisées en :
 
-* **Current sessions** — Currently active
-* **Past sessions** — Ended
-* **Upcoming sessions** — Not yet started
+* **Sessions actuelles** — Actuellement actives
+* **Sessions passées** — Terminées
+* **Sessions à venir** — Pas encore commencées
 
-## Tips
+## Conseils
 
-* **Plan dates carefully** — Make sure coach access dates extend beyond learner dates so coaches can set up and follow up
-* **Use classes for recurring enrollment** — If you frequently enroll the same groups, create classes and assign them to sessions
-* **Keep sessions organized** — Use categories and clear naming conventions for easy management
+* **Planifiez les dates avec soin** — Assurez-vous que les dates d'accès des formateurs s'étendent au-delà des dates des apprenants pour que les formateurs puissent préparer et faire le suivi
+* **Utilisez des classes pour les inscriptions récurrentes** — Si vous inscrivez fréquemment les mêmes groupes, créez des classes et assignez-les aux sessions
+* **Gardez les sessions organisées** — Utilisez des catégories et des conventions de nommage claires pour une gestion facile

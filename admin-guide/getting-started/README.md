@@ -1,25 +1,25 @@
-# Getting Started
+# Premiers pas
 
-This section introduces the Chamilo 2.0 administration interface and helps you get oriented.
+Cette section présente l'interface d'administration de Chamilo 2.0 et vous aide à vous orienter.
 
-## Who Is an Administrator?
+## Qui est un administrateur ?
 
-Chamilo has several levels of administrative roles:
+Chamilo propose plusieurs niveaux de rôles administratifs :
 
-| Role | Access |
+| Rôle | Accès |
 |------|--------|
-| **Administrator** | Full access to all administration features for the platform. Also known as **Portal Administrator** |
-| **Global Administrator** | Same as Portal Administrator, with access across all access URLs in a multi-URL (multi-tenant) setup |
-| **Sessions Administrator** | Can manage sessions, enroll users in sessions, and access session-related settings |
-| **Human Resources Manager** | Can view learner progress and tracking data for assigned users |
-| **Questions Manager** | Less of an administrator than a content curator, question managers have access to a global question bank to review questions' quality |
+| **Administrateur** | Accès complet à toutes les fonctionnalités d'administration de la plateforme. Également appelé **Administrateur du portail** |
+| **Administrateur global** | Identique à l'Administrateur du portail, avec un accès à toutes les URL d'accès dans une configuration multi-URL (multi-tenant) |
+| **Administrateur de sessions** | Peut gérer les sessions, inscrire des utilisateurs aux sessions et accéder aux paramètres liés aux sessions |
+| **Gestionnaire des ressources humaines** | Peut consulter les progrès des apprenants et les données de suivi pour les utilisateurs assignés |
+| **Gestionnaire de questions** | Moins un administrateur qu'un curateur de contenu, les gestionnaires de questions ont accès à une banque de questions globale pour évaluer la qualité des questions |
 
-This guide focuses primarily on the **Portal Administrator** role, which has the broadest access.
+Ce guide se concentre principalement sur le rôle d’**Administrateur du portail**, qui dispose de l’accès le plus large.
 
-## Logging In
+## Connexion
 
-Administrators log in through the same login page as all other users. After entering your credentials, you will be sent (in the absence of other configuration) to the **Administration** page. A notable difference from other user roles is the **Administration** section in the sidebar (not visible to other roles).
+Les administrateurs se connectent via la même page de connexion que tous les autres utilisateurs. Après avoir saisi vos identifiants, vous serez dirigé (en l'absence d'une autre configuration) vers la page **Administration**. Une différence notable par rapport aux autres rôles d'utilisateur est la section **Administration** dans la barre latérale (non visible pour les autres rôles).
 
-## Next Steps
+## Prochaines étapes
 
-* [Admin Interface Overview](admin-interface-overview.md) — A tour of the administration panel and its sections
+* [Aperçu de l'interface d'administration](admin-interface-overview.md) — Une visite guidée du panneau d'administration et de ses sections

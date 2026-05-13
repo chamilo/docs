@@ -1,23 +1,23 @@
-# Glossary
+# Glossaire
 
-Developer-focused terms used throughout this guide.
+Termes axés sur les développeurs utilisés tout au long de ce guide.
 
-| Term | Definition |
-|------|-----------|
-| **API Platform** | A PHP framework for building REST and GraphQL APIs, integrated with Symfony. Chamilo uses it to auto-generate API endpoints from Doctrine entities. |
-| **Bundle** | A Symfony organizational unit similar to a plugin or module. Chamilo has three: CoreBundle, CourseBundle, LtiBundle. |
-| **Composable** | A Vue 3 pattern for extracting and reusing reactive logic. Stored in `assets/vue/composables/`. |
-| **Doctrine ORM** | The PHP object-relational mapper used by Chamilo. Maps PHP entity classes to database tables. |
-| **Entity** | A PHP class annotated with Doctrine attributes that maps to a database table. |
-| **Encore** | Symfony Webpack Encore — a wrapper around Webpack that simplifies frontend build configuration. |
-| **Flysystem** | A PHP filesystem abstraction library. Chamilo uses it to support local, S3, Azure, and GCS storage. |
-| **JWT** | JSON Web Token — the authentication mechanism for the REST API. |
-| **Pinia** | The recommended state management library for Vue 3. Used for new stores in Chamilo; legacy Vuex stores remain alongside it. |
-| **PrimeVue** | The Vue 3 UI component library used by Chamilo. Provides buttons, tables, dialogs, etc. |
-| **ResourceNode** | The central entity in Chamilo's resource system. Every piece of course content has a ResourceNode. |
-| **ResourceFile** | An entity representing a file attached to a ResourceNode. Stored via Flysystem. |
-| **ResourceLink** | An entity controlling visibility and access per course/session/group context. |
-| **SCORM** | Sharable Content Object Reference Model. An e-learning standard for packaging content. |
-| **Settings Schema** | A PHP class defining a category of platform settings (e.g., SecuritySettingsSchema). |
-| **Voter** | A Symfony security component that decides whether a user can perform an action on a resource. |
-| **Webpack** | The JavaScript module bundler that compiles Vue components, SCSS, and TypeScript into browser-ready bundles. |
+| Terme | Définition |
+|-------|------------|
+| **API Platform** | Un framework PHP pour la création d'API REST et GraphQL, intégré à Symfony. Chamilo l'utilise pour générer automatiquement des points de terminaison API à partir des entités Doctrine. |
+| **Bundle** | Une unité organisationnelle de Symfony similaire à un plugin ou un module. Chamilo en possède trois : CoreBundle, CourseBundle, LtiBundle. |
+| **Composable** | Un modèle de Vue 3 pour extraire et réutiliser la logique réactive. Stocké dans `assets/vue/composables/`. |
+| **Doctrine ORM** | Le mappeur objet-relationnel PHP utilisé par Chamilo. Il associe les classes d'entités PHP aux tables de la base de données. |
+| **Entity** | Une classe PHP annotée avec des attributs Doctrine qui correspond à une table de base de données. |
+| **Encore** | Symfony Webpack Encore — un wrapper autour de Webpack qui simplifie la configuration de la construction frontend. |
+| **Flysystem** | Une bibliothèque d'abstraction de système de fichiers PHP. Chamilo l'utilise pour prendre en charge le stockage local, S3, Azure et GCS. |
+| **JWT** | JSON Web Token — le mécanisme d'authentification pour l'API REST. |
+| **Pinia** | La bibliothèque de gestion d'état recommandée pour Vue 3. Utilisée pour les nouveaux stores dans Chamilo ; les anciens stores Vuex coexistent avec elle. |
+| **PrimeVue** | La bibliothèque de composants d'interface utilisateur Vue 3 utilisée par Chamilo. Fournit des boutons, des tableaux, des boîtes de dialogue, etc. |
+| **ResourceNode** | L'entité centrale du système de ressources de Chamilo. Chaque élément de contenu de cours possède un ResourceNode. |
+| **ResourceFile** | Une entité représentant un fichier attaché à un ResourceNode. Stocké via Flysystem. |
+| **ResourceLink** | Une entité contrôlant la visibilité et l'accès par contexte de cours/session/groupe. |
+| **SCORM** | Sharable Content Object Reference Model. Une norme d'e-learning pour l'empaquetage de contenu. |
+| **Settings Schema** | Une classe PHP définissant une catégorie de paramètres de la plateforme (par exemple, SecuritySettingsSchema). |
+| **Voter** | Un composant de sécurité Symfony qui décide si un utilisateur peut effectuer une action sur une ressource. |
+| **Webpack** | Le bundler de modules JavaScript qui compile les composants Vue, SCSS et TypeScript en bundles prêts pour le navigateur. |

@@ -1,26 +1,26 @@
-# Branches and Rooms
+# Branches et Salles
 
-Chamilo includes a basic physical location system built around two concepts: **branches** and **rooms**.
+Chamilo intègre un système de localisation physique de base construit autour de deux concepts : les **branches** et les **salles**.
 
-A **branch** represents a physical site or campus — for example, a main office, a regional training centre, or a university building. Branches can be nested (a building can contain departments, a city can contain buildings). Each branch can contain one or more **rooms**, which represent individual classrooms or lab spaces within that branch.
+Une **branche** représente un site physique ou un campus — par exemple, un bureau principal, un centre de formation régional ou un bâtiment universitaire. Les branches peuvent être imbriquées (un bâtiment peut contenir des départements, une ville peut contenir des bâtiments). Chaque branche peut contenir une ou plusieurs **salles**, qui représentent des salles de classe ou des espaces de laboratoire individuels au sein de cette branche.
 
-This feature is still in early stages. At this point its main practical use is letting you attach a physical location marker to a course.
+Cette fonctionnalité est encore à ses débuts. Pour le moment, son principal usage pratique est de permettre d’associer un marqueur de localisation physique à un cours.
 
-## Assigning a Room to a Course
+## Attribution d’une Salle à un Cours
 
-When creating a course, if your administrator has already set up rooms, a **Default room** field appears in the course creation form. Select the room where the course takes place.
+Lors de la création d’un cours, si votre administrateur a déjà configuré des salles, un champ **Salle par défaut** apparaît dans le formulaire de création de cours. Sélectionnez la salle où le cours aura lieu.
 
-This information is informational — it does not affect course behaviour or access control. It simply records where the course is physically held, which can help administrators manage room scheduling and view room occupation across courses.
+Cette information est purement indicative — elle n’affecte ni le comportement du cours ni le contrôle d’accès. Elle enregistre simplement le lieu physique où le cours se déroule, ce qui peut aider les administrateurs à gérer la planification des salles et à visualiser l’occupation des salles à travers les cours.
 
-If no rooms have been configured on your platform, the field will not appear.
+Si aucune salle n’a été configurée sur votre plateforme, ce champ n’apparaîtra pas.
 
-## What Administrators Can Do
+## Ce que les Administrateurs Peuvent Faire
 
-Branch and room management is handled entirely by administrators. They can:
+La gestion des branches et des salles est entièrement prise en charge par les administrateurs. Ils peuvent :
 
-- Create and organise branches in a tree hierarchy
-- Add rooms to branches, with optional geolocation and IP range data
-- View which courses are assigned to each room
-- View a room's occupation calendar based on attendance entries
+- Créer et organiser les branches dans une hiérarchie arborescente
+- Ajouter des salles aux branches, avec des données optionnelles de géolocalisation et de plage d’adresses IP
+- Voir quels cours sont attribués à chaque salle
+- Consulter le calendrier d’occupation d’une salle basé sur les entrées de présence
 
-If you need a room created or need your course moved to a different room, contact your platform administrator.
+Si vous avez besoin qu’une salle soit créée ou que votre cours soit déplacé vers une autre salle, contactez l’administrateur de votre plateforme.
