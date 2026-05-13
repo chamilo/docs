@@ -40,10 +40,11 @@ $apiKey  = $translationAPIKey      ?? '';
 $apiUrl  = $translationAPIEndpoint ?? 'https://api.x.ai/v1/chat/completions';
 $model   = $translationModel       ?? 'grok-3';
 
-// Characters above which a page is split at H2 boundaries before translating.
-// Keeps individual API requests to a manageable response size while preserving
-// full-page context for the majority of pages (which are under 10 KB).
-const CHUNK_THRESHOLD = 12_000;
+// Target size (bytes) for each API request chunk.
+// Pages are split at heading boundaries so no line or section is ever broken.
+// Adjacent small sections are greedily batched together up to this limit.
+// A single section that already exceeds this size is sent as its own chunk.
+const CHUNK_TARGET = 5_000;
 
 // Max attempts per page (or chunk) before giving up and keeping original English.
 const MAX_ATTEMPTS = 2;
@@ -159,15 +160,46 @@ function guideContext(string $relPath): array
 }
 
 /**
- * Split a large Markdown page into chunks at H2 (## ) boundaries.
- * The first chunk contains any content before the first H2 (including the H1).
- * Each subsequent chunk starts with its own H2.
+ * Split Markdown content into chunks that target CHUNK_TARGET bytes each,
+ * without ever breaking a line or a heading section.
+ *
+ * Strategy:
+ * 1. Split the content at every heading boundary (any level, H1–H6) using a
+ *    lookahead so each section starts with its own heading.
+ * 2. Greedily accumulate adjacent sections into a chunk until adding the next
+ *    section would exceed the target. Then flush and start a new chunk.
+ * 3. A single section that already exceeds the target is emitted as-is — we
+ *    never break within a section, as the user requires.
  */
-function splitAtH2(string $content): array
+function splitIntoChunks(string $content, int $target = CHUNK_TARGET): array
 {
-    // Lookahead keeps the ## delimiter with the chunk that follows it.
-    $parts = preg_split('/(?=^## )/m', $content) ?: [$content];
-    return array_values(array_filter($parts, fn($p) => trim($p) !== ''));
+    // Any heading at the start of a line starts a new section (lookahead keeps it)
+    $sections = preg_split('/(?=^#{1,6} )/m', $content) ?: [$content];
+    $sections = array_values(array_filter($sections, fn($s) => trim($s) !== ''));
+
+    if (empty($sections)) {
+        return [$content];
+    }
+
+    $chunks  = [];
+    $current = '';
+
+    foreach ($sections as $section) {
+        if ($current === '') {
+            $current = $section;
+        } elseif (strlen($current) + strlen($section) <= $target) {
+            $current .= $section;
+        } else {
+            $chunks[] = $current;
+            $current  = $section;
+        }
+    }
+
+    if ($current !== '') {
+        $chunks[] = $current;
+    }
+
+    return $chunks;
 }
 
 /**
@@ -354,7 +386,7 @@ function callGrokTranslateChunk(
 }
 
 /**
- * Translate a full Markdown page, splitting at H2 if the page exceeds CHUNK_THRESHOLD.
+ * Translate a full Markdown page, chunked to ~CHUNK_TARGET bytes per request.
  *
  * Returns ['text' => string, 'warnings' => string[], 'chunks' => int, 'error' => string|null].
  */
@@ -370,9 +402,7 @@ function translatePage(
     ['type' => $guideType, 'audience' => $audience] = guideContext($relPath);
     $filename = basename($relPath);
 
-    $chunks = strlen($content) > CHUNK_THRESHOLD
-        ? splitAtH2($content)
-        : [$content];
+    $chunks = splitIntoChunks($content);
 
     $translatedChunks = [];
     $allWarnings      = [];
@@ -548,8 +578,8 @@ foreach ($langCodes as $lang) {
             continue;
         }
 
-        $sizeKB = round(strlen($source) / 1024, 1);
-        $chunks = strlen($source) > CHUNK_THRESHOLD ? count(splitAtH2($source)) : 1;
+        $sizeKB    = round(strlen($source) / 1024, 1);
+        $chunks    = count(splitIntoChunks($source));
         $chunkNote = $chunks > 1 ? " → {$chunks} chunks" : '';
         eprintln("  {$progress} {$relPath}  ({$sizeKB} KB{$chunkNote})", true);
 
@@ -633,7 +663,7 @@ foreach ($report as $lang => $data) {
         $outDir = 'translated/' . $lang;
         $branch = '2.x-' . strtolower(explode('_', $lang)[0]);
         echo PHP_EOL . "Output: {$outDir}/" . PHP_EOL;
-        echo "Apply:  git checkout {$branch} && rsync -av {$outDir}/ ./ && git add -A" . PHP_EOL;
+        echo "Apply:  git checkout {$branch} && rsync -av {$outDir}/ ./ && git add -A -- ':!translated/'" . PHP_EOL;
     }
 }
 
