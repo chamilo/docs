@@ -51,20 +51,22 @@ const MAX_ATTEMPTS = 2;
 
 // ── CLI argument parsing ──────────────────────────────────────────────────────
 
-$args      = array_slice($argv, 1);
-$dryRun    = false;
-$testMode  = false;
-$force     = false;
-$fromTag   = null;
-$langCodes = [];
+$args       = array_slice($argv, 1);
+$dryRun     = false;
+$testMode   = false;
+$force      = false;
+$fromTag    = null;
+$singleFile = null;
+$langCodes  = [];
 
 for ($i = 0, $n = count($args); $i < $n; $i++) {
     switch ($args[$i]) {
-        case '--dry-run': $dryRun   = true;            break;
-        case '--test':    $testMode = true;            break;
-        case '--force':   $force    = true;            break;
-        case '--from':    $fromTag  = $args[++$i] ?? null; break;
-        default:          $langCodes[] = $args[$i];   break;
+        case '--dry-run':     $dryRun     = true;                  break;
+        case '--test':        $testMode   = true;                  break;
+        case '--force':       $force      = true;                  break;
+        case '--from':        $fromTag    = $args[++$i] ?? null;   break;
+        case '--single-file': $singleFile = $args[++$i] ?? null;   break;
+        default:              $langCodes[] = $args[$i];            break;
     }
 }
 
@@ -521,6 +523,22 @@ if ($fromTag !== null) {
 }
 
 $files = array_values($files);
+
+if ($singleFile !== null) {
+    // Normalise: strip leading ./ if the user typed it
+    $singleFile = ltrim($singleFile, './');
+    if (!in_array($singleFile, $files, true)) {
+        eprintln("Error: '{$singleFile}' not found in the file list (check the path is relative to the repo root).");
+        eprintln('Known files matching that name:');
+        foreach ($files as $f) {
+            if (str_contains($f, basename($singleFile))) {
+                eprintln("  {$f}");
+            }
+        }
+        exit(1);
+    }
+    $files = [$singleFile];
+}
 
 if (empty($files)) {
     eprintln($fromTag ? "No Markdown files changed since {$fromTag}." : 'No Markdown files found.');
