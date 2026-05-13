@@ -1,5 +1,22 @@
 # Documentation Changelog
 
+## 2.x-v2 -- 2026-05-13
+
+**5 page(s) updated (since 2.x-v1)**
+
+### Pages changed
+- developer-guide/backend/controllers.md
+- developer-guide/contributing/git-workflow.md
+- developer-guide/frontend/vue-components.md
+- developer-guide/getting-started/development-setup.md
+- developer-guide/getting-started/project-structure.md
+
+### Commits
+- fa43723 Add tool prefix convention to commit message guidelines
+- 8ddfb70 Expand and reorganize Base components documentation
+- a08f8ad Document API Platform State Providers and Processors usage
+- b122747 Reorganize setup steps and update project structure documentation
+
 This changelog tracks significant updates to the Chamilo 2.0 documentation.
 Each entry corresponds to a Git tag on the `2.x` branch (e.g. `2.x-v1`).
 Translation branches (`2.x-fr`, `2.x-es`, …) carry matching tags to indicate which version they are synced to.
