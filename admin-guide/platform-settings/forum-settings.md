@@ -1,4 +1,3 @@
----
 # Paramètres des Forums
 
 Comportement de l'outil **Forums** du cours.
@@ -78,4 +77,3 @@ Masque la possibilité d'attribuer une langue à une révision de publication da
 Activez cette option pour permettre les notifications provenant du forum du cours de base, même si le cours est suivi via une session.
 
 *Valeur par défaut : `false`*
----
