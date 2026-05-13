@@ -21,7 +21,7 @@
     * [Exercices](teacher-guide/assessing-learners/exercises.md)
     * [Travaux](teacher-guide/assessing-learners/assignments.md)
     * [Sondages](teacher-guide/assessing-learners/surveys.md)
-    * [Présence](teacher-guide/assessing-learners/attendance.md)
+    * [Présences](teacher-guide/assessing-learners/attendance.md)
     * [Carnet de notes](teacher-guide/assessing-learners/gradebook.md)
   * [Collaboration et communication](teacher-guide/collaboration-and-communication/README.md)
     * [Forums](teacher-guide/collaboration-and-communication/forums.md)

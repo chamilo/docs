@@ -1,10 +1,10 @@
-# Présence
+# Présences
 
-L'outil de présence vous permet de suivre la participation des apprenants aux sessions de cours prévues, qu'elles soient en présentiel ou en ligne.
+L'outil de présences vous permet de suivre la participation des apprenants aux sessions de cours prévues, qu'elles soient en présentiel ou en ligne.
 
 ## Créer une feuille de présence
 
-1. Ouvrez l'outil **Présence** depuis la page d'accueil du cours
+1. Ouvrez l'outil **Présences** depuis la page d'accueil du cours
 2. Cliquez sur **Ajouter une présence** pour créer une feuille de présence
 3. Saisissez un **Titre** pour la feuille de présence (par exemple, "Semaine 1 - Introduction")
 4. Saisissez une **Description** (celle-ci est principalement à votre usage - les apprenants ne verront pas la description)
