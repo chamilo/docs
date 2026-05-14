@@ -1,13 +1,13 @@
-# Tracking and Reporting
+# 追跡とレポート
 
-Chamilo tracks learner activity throughout the platform, giving you detailed insights into how your learners are progressing.
+Chamiloはプラットフォーム全体で学習者の活動を追跡し、学習者の進捗状況に関する詳細な洞察を提供します。
 
-* **[Learner Tracking](learner-tracking.md)** — Monitor individual learner activity: login times, time spent, pages visited, and tool usage
-* **[Course Reports](course-reports.md)** — View aggregate data across all learners in a course
-* **[Certificates and Skills](certificates-and-skills.md)** — Award certificates based on gradebook scores and validate acquired skills
+* **[学習者追跡](learner-tracking.md)** — 個々の学習者の活動を監視：ログイン時間、費やした時間、訪問したページ、ツールの使用状況
+* **[コースレポート](course-reports.md)** — コース内のすべての学習者の集計データを表示
+* **[証明書とスキル](certificates-and-skills.md)** — 成績表のスコアに基づいて証明書を授与し、習得したスキルを検証
 
-## Accessing Reports
+## レポートへのアクセス
 
-From your course, click the **Tracking** <img src="/.gitbook/assets/icons/mdi-chart-box.svg" alt="Tracking" data-size="line"> tool on the course homepage. You can also access reporting from the **Reporting** link in the sidebar for a cross-course overview.
+コース内から、コースホームページの**追跡** <img src="/.gitbook/assets/icons/mdi-chart-box.svg" alt="追跡" data-size="line"> ツールをクリックしてください。また、サイドバーの**レポート**リンクから、コースを横断した概要を確認することもできます。
 
-Teachers see reporting data for courses they teach. Session coaches see data across all courses within their session.
+教師は自分が教えているコースのレポートデータを確認できます。セッションコーチは、セッション内のすべてのコースのデータを確認できます。

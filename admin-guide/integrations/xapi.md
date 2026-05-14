@@ -1,37 +1,37 @@
 # xAPI
 
-**xAPI** (Experience API, also known as Tin Can API) is a standard for tracking learning experiences. Chamilo can both generate and consume xAPI statements.
+**xAPI**（Experience API、Tin Can APIとも呼ばれる）は、学習体験を追跡するための標準規格です。ChamiloはxAPIステートメントを生成し、消費することができます。
 
-## What xAPI Does
+## xAPIの機能
 
-xAPI tracks learning activities as **statements** in the format: "Actor did Verb on Object." For example:
+xAPIは学習活動を「アクターがオブジェクトに対して動詞を行った」という形式の**ステートメント**として追跡します。例として以下のようなものがあります：
 
-* "Jane completed Module 1"
-* "John scored 85% on the Final Exam"
-* "Maria watched the Introduction Video"
+* 「ジェーンがモジュール1を完了した」
+* 「ジョンが最終試験で85%のスコアを獲得した」
+* 「マリアがイントロダクションビデオを視聴した」
 
-These statements are stored in a **Learning Record Store (LRS)**, providing a comprehensive record of learning activity.
+これらのステートメントは**Learning Record Store (LRS)**に保存され、学習活動の包括的な記録を提供します。
 
-## Configuration
+## 設定
 
-1. In the platform settings, configure the **LRS endpoint**:
-   * **LRS URL** — The address of your Learning Record Store
-   * **LRS authentication** — Credentials for sending data to the LRS
-2. Enable xAPI tracking for the desired activities
+1. プラットフォーム設定で、**LRSエンドポイント**を構成します：
+   * **LRS URL** — Learning Record Storeのアドレス
+   * **LRS認証** — LRSにデータを送信するための認証情報
+2. 希望する活動に対してxAPI追跡を有効にします
 
-## What Chamilo Tracks via xAPI
+## ChamiloがxAPIを通じて追跡する内容
 
-Chamilo can generate xAPI statements for:
+Chamiloは以下の内容についてxAPIステートメントを生成できます：
 
-* Course access and completion
-* Exercise attempts and scores
-* Learning path item progress
-* Portfolio items
+* コースへのアクセスおよび完了
+* 演習の試行とスコア
+* 学習パスの項目の進捗
+* ポートフォリオ項目
 
-Other tools (such as Documents and Forums) are not currently emitted as xAPI events by the plugin.
+他のツール（ドキュメントやフォーラムなど）は、現在のところプラグインによってxAPIイベントとして出力されていません。
 
-## Use Cases
+## ユースケース
 
-* **Cross-platform tracking** — Track learning activity across multiple tools and platforms in a single LRS
-* **Advanced analytics** — Use LRS analytics tools to generate insights that go beyond Chamilo's built-in reporting
-* **Compliance reporting** — Generate audit trails of training completion for regulatory requirements
+* **クロスプラットフォーム追跡** — 複数のツールやプラットフォームでの学習活動を単一のLRSで追跡
+* **高度な分析** — LRSの分析ツールを使用して、Chamiloの組み込みレポートを超える洞察を生成
+* **コンプライアンスレポート** — 規制要件のためのトレーニング完了の監査証跡を生成

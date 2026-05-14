@@ -1,46 +1,46 @@
-# Managing Plugins
+# プラグインの管理
 
-## Accessing the Plugin Manager
+## プラグインマネージャーへのアクセス
 
-![The plugin manager showing a list of available plugins with activation toggles and configuration options](/.gitbook/assets/admin-plugin-manager.png)
+![利用可能なプラグインの一覧とアクティベーショントグルおよび設定オプションを表示するプラグインマネージャー](/.gitbook/assets/admin-plugin-manager.png)
 
-From the administration panel, click **Manage plugins** to see the list of available plugins.
+管理パネルから **プラグインの管理** をクリックして、利用可能なプラグインの一覧を表示します。
 
-## Plugin States
+## プラグインの状態
 
-Each plugin has one of two states:
+各プラグインには以下の2つの状態があります：
 
-* **Active** — The plugin is enabled and its features are available on the platform
-* **Inactive** — The plugin is installed but disabled
+* **アクティブ** — プラグインが有効になっており、プラットフォーム上でその機能が利用可能です
+* **非アクティブ** — プラグインはインストールされていますが無効になっています
 
-## Activating a Plugin
+## プラグインの有効化
 
-1. Find the plugin in the list
-2. Click **Install**, then **Enable** or toggle it on
-3. Configure the plugin settings (if applicable, find the **Configure** button)
-4. Save
-5. If recommended in the README, enable it in a specific **region**
+1. 一覧からプラグインを見つけます
+2. **インストール** をクリックし、続いて **有効化** をクリックするか、トグルをオンにします
+3. プラグインの設定を行います（該当する場合、**設定** ボタンを見つけます）
+4. 保存します
+5. READMEで推奨されている場合は、特定の **リージョン** で有効化します
 
-Some plugins add tools to courses, new pages to the platform, or additional functionality to existing features.
+一部のプラグインはコースにツールを追加したり、プラットフォームに新しいページを追加したり、既存の機能に追加の機能を提供したりします。
 
-## Configuring a Plugin
+## プラグインの設定
 
-Many plugins have configuration options. After activating a plugin:
+多くのプラグインには設定オプションがあります。プラグインを有効化した後：
 
-1. Click the **Configure** button next to the plugin
-2. Fill in the required configuration (API keys, URLs, options, etc.)
-3. Save
+1. プラグインの横にある **設定** ボタンをクリックします
+2. 必要な設定（APIキー、URL、オプションなど）を入力します
+3. 保存します
 
-## Deactivating a Plugin
+## プラグインの無効化
 
-1. Find the plugin in the list
-2. Click **Disable** or toggle it off
-3. The plugin's features are immediately removed from the platform, but the plugin is still installed and maintains its configuration until you **Uninstall** it
+1. 一覧からプラグインを見つけます
+2. **無効化** をクリックするか、トグルをオフにします
+3. プラグインの機能は直ちにプラットフォームから削除されますが、プラグイン自体はまだインストールされており、**アンインストール** するまで設定が保持されます
 
-Disabling a plugin does not delete its data. If you enable it later, the data is still available.
+プラグインを無効化してもデータは削除されません。後で有効化した場合、データは引き続き利用可能です。
 
-## Tips
+## ヒント
 
-* **Only activate what you need** — Each active plugin adds some overhead. Keep unused plugins deactivated.
-* **Test before production** — Activate new plugins in a test environment first
-* **Check compatibility** — After upgrading Chamilo, verify that all active plugins still work correctly
+* **必要なものだけを有効化する** — アクティブなプラグインはそれぞれオーバーヘッドを追加します。使用しないプラグインは無効化しておいてください。
+* **本番環境前にテストする** — 新しいプラグインはまずテスト環境で有効化してください
+* **互換性の確認** — Chamiloをアップグレードした後、すべてのアクティブなプラグインが正しく動作していることを確認してください

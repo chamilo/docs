@@ -1,20 +1,20 @@
-# Portal Customization
+# ポータルのカスタマイズ
 
-Customize how your Chamilo platform looks and what information is displayed to users.
+Chamiloプラットフォームの外観やユーザーに表示される情報をカスタマイズします。
 
-## Platform Identity
+## プラットフォームのアイデンティティ
 
-![The portal customization page showing platform identity settings for name, logo, and institution](/.gitbook/assets/admin-portal-customization.png)
+![プラットフォームのアイデンティティ設定を示すポータルカスタマイズページ。名前、ロゴ、機関の設定が表示されています](/.gitbook/assets/admin-portal-customization.png)
 
-Configure the basic identity of your portal:
+ポータルの基本的なアイデンティティを設定します：
 
-* **Platform name** — The name shown in the browser title and throughout the interface
-* **Institution name** — Your organization's name
-* **Institution URL** — A link to your organization's website
-* **Platform logo** — Upload your organization's logo (displayed in the top bar)
+* **プラットフォーム名** — ブラウザのタイトルやインターフェース全体に表示される名前
+* **機関名** — あなたの組織の名前
+* **機関URL** — あなたの組織のウェブサイトへのリンク
+* **プラットフォームロゴ** — あなたの組織のロゴをアップロード（上部バーに表示されます）
 
-## Tips
+## ヒント
 
-* **Keep the homepage clean** — Too much content on the homepage can be overwhelming. Focus on essential announcements and course access.
-* **Update regularly** — Keep system announcements current and remove outdated ones
-* **Upload a high-quality logo** — The logo is one of the most visible branding elements. Use a crisp, appropriately sized image.
+* **ホームページをシンプルに保つ** — ホームページにコンテンツが多すぎると圧倒されることがあります。重要なアナウンスやコースへのアクセスに焦点を当てましょう。
+* **定期的に更新する** — システムアナウンスを最新の状態に保ち、古くなったものは削除してください。
+* **高品質なロゴをアップロードする** — ロゴは最も目立つブランディング要素の一つです。鮮明で適切なサイズの画像を使用してください。

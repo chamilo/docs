@@ -1,35 +1,35 @@
-# Administration Guide
+# 管理ガイド
 
-Welcome to the Chamilo 2.0 Administration Guide. This guide is designed for platform administrators responsible for installing, configuring, and managing a Chamilo instance.
+Chamilo 2.0 管理ガイドへようこそ。このガイドは、Chamilo インスタンスのインストール、設定、管理を担当するプラットフォーム管理者向けに設計されています。
 
-## What you can do as an Administrator
+## 管理者としてできること
 
-As a Chamilo administrator, you manage:
+Chamilo の管理者として、以下の管理を行います：
 
-* **Installation and configuration** — Set up Chamilo on your server, configure storage, email, and environment settings
-* **Users** — Create, import, and manage user accounts, roles, and permissions
-* **Courses and sessions** — Oversee course creation, manage the course catalog, and configure training sessions
-* **Platform settings** — Configure portal behavior, security, performance, and feature availability
-* **Authentication** — Set up external login systems (OAuth2, LDAP, CAS, SCIM)
-* **Integrations** — Connect Chamilo to video conferencing, LTI tools, AI providers, and more
-* **Branding** — Customize the look and feel of the platform with themes and visual settings
-* **Maintenance** — Perform backups, monitor system health, and manage storage
+* **インストールと設定** — サーバーへの Chamilo のセットアップ、ストレージ、メール、環境設定の構成
+* **ユーザー** — ユーザーアカウント、役割、権限の作成、インポート、管理
+* **コースとセッション** — コース作成の監督、コースカタログの管理、トレーニングセッションの設定
+* **プラットフォーム設定** — ポータルの動作、セキュリティ、パフォーマンス、機能の利用可能性の構成
+* **認証** — 外部ログインシステム（OAuth2、LDAP、CAS、SCIM）の設定
+* **統合** — Chamilo をビデオ会議、LTI ツール、AI プロバイダーなどに接続
+* **ブランディング** — テーマや視覚設定でプラットフォームの外観をカスタマイズ
+* **メンテナンス** — バックアップの実行、システムの健全性の監視、ストレージの管理
 
-## How this guide is organized
+## このガイドの構成
 
-1. **Getting Started** — An overview of the administration interface
-2. **Installation** — Server requirements, installation wizard, and initial configuration
-3. **Users** — Managing user accounts, roles, groups, and profiles
-4. **Courses** — Managing courses, categories, and import/export
-5. **Sessions** — Organizing time-bound training cohorts
-6. **Platform Settings** — Configuring every aspect of the platform
-7. **Authentication** — Setting up external authentication providers
-8. **Integrations** — Connecting third-party services
-9. **Plugins** — Managing platform extensions
-10. **Multi-URL** — Running multiple portals from a single installation
-11. **Maintenance** — Backups, system status, and cleanup
-12. **Branding** — Customizing the platform appearance
+1. **はじめに** — 管理インターフェースの概要
+2. **インストール** — サーバー要件、インストールウィザード、初期設定
+3. **ユーザー** — ユーザーアカウント、役割、グループ、プロファイルの管理
+4. **コース** — コース、カテゴリ、インポート/エクスポートの管理
+5. **セッション** — 期間限定のトレーニングコホートの編成
+6. **プラットフォーム設定** — プラットフォームのあらゆる側面の構成
+7. **認証** — 外部認証プロバイダーの設定
+8. **統合** — サードパーティサービスの接続
+9. **プラグイン** — プラットフォーム拡張機能の管理
+10. **マルチURL** — 単一のインストールから複数のポータルを運用
+11. **メンテナンス** — バックアップ、システムステータス、クリーンアップ
+12. **ブランディング** — プラットフォームの外観のカスタマイズ
 
-## Accessing the Administration Panel
+## 管理パネルへのアクセス
 
-After logging in as an administrator, click **Administration** <img src="/.gitbook/assets/icons/mdi-cogs.svg" alt="Admin" data-size="line"> in the sidebar to access the administration panel.
+管理者としてログイン後、サイドバーの **Administration** <img src="/.gitbook/assets/icons/mdi-cogs.svg" alt="管理者" data-size="line"> をクリックして管理パネルにアクセスします。

@@ -1,96 +1,95 @@
-# Administrator Identity Settings
+# 管理者アイデンティティ設定
 
-Identity and contact details of the platform administrator. These values appear in the platform footer and in some system-generated emails.
+プラットフォーム管理者のアイデンティティおよび連絡先情報。これらの値はプラットフォームのフッターや一部のシステム生成メールに表示されます。
 
-Access these settings under **Administration > Configuration settings > Administrator Identity**. This category contains **12 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+これらの設定には、**管理 > 設定 > 管理者アイデンティティ** からアクセスできます。このカテゴリには **12の設定** が含まれており、以下にプラットフォームの設定フィクスチャ（`SettingsCurrentFixtures.php`）に含まれるタイトルとコメントとともにリストアップされています。
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> コード内の変数名は等幅フォントで表示されています。APIを通じてスクリプトを作成する場合や、[`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml) を編集してこれらの設定をグローバルレベルで変更する際に使用してください。
 
-## Settings
+## 設定
 
 ### `administrator_email`
 
-**Portal Administrator: e-mail**
+**ポータル管理者: メールアドレス**
 
-The e-mail address of the Platform Administrator (appears in the footer on the left)
+プラットフォーム管理者のメールアドレス（フッターの左側に表示されます）
 
 ### `administrator_name`
 
-**Portal Administrator: First Name**
+**ポータル管理者: 名**
 
-The First Name of the Platform Administrator (appears in the footer on the left)
+プラットフォーム管理者の名（フッターの左側に表示されます）
 
 ### `administrator_phone`
 
-**Portal Administrator: Phone number**
+**ポータル管理者: 電話番号**
 
-The phone number of the Platform Administrator (appears in the footer on the left)
+プラットフォーム管理者の電話番号（フッターの左側に表示されます）
 
 ### `administrator_surname`
 
-**Portal Administrator: Last Name**
+**ポータル管理者: 姓**
 
-The Family Name of the Platform Administrator (appears in the footer on the left)
+プラットフォーム管理者の姓（フッターの左側に表示されます）
 
 ### `chamilo_latest_news`
 
-**Latest news**
+**最新ニュース**
 
-Get the latest news from Chamilo, including security vulnerabilities and events, directly inside your administration panel. These pieces of news will be checked on the Chamilo news server every time you load the administration page and are only visible to administrators.
+Chamiloの最新ニュース（セキュリティの脆弱性やイベントを含む）を管理パネル内で直接取得します。これらのニュースは管理ページを読み込むたびにChamiloニュースサーバーでチェックされ、管理者にのみ表示されます。
 
-*Default: `true`*
+*デフォルト: `true`*
 
 ### `chamilo_support`
 
-**Chamilo support block**
+**Chamiloサポートブロック**
 
-Get pro tips and an easy way to contact official service providers for professional support, directly from the makers of Chamilo. This block appears on your administration page, is only visible by administrators, and refreshes every time you load the administration page.
+Chamiloの制作者から直接、プロフェッショナルなサポートのためのヒントや公式サービスプロバイダーへの簡単な連絡方法を取得します。このブロックは管理ページに表示され、管理者にのみ見え、管理ページを読み込むたびに更新されます。
 
-*Default: `true`*
+*デフォルト: `true`*
 
 ### `max_anonymous_users`
 
-**Multiple anonymous users**
+**複数の匿名ユーザー**
 
-Enable this option to allow multiple system users for anonymous users. This is useful when using this platform as a public showroom for some courses. Having multiple anonymous users will let tracking work for the duration of the experience for several users without mixing their data (which could otherwise confuse them).
+匿名ユーザーに対して複数のシステムユーザーを許可するオプションを有効にします。このプラットフォームを一部のコースの公開ショールームとして使用する場合に便利です。複数の匿名ユーザーを設定することで、データを混在させることなく（それによってユーザーが混乱する可能性を防ぎ）、複数のユーザーの体験期間中トラッキングが可能になります。
 
-*Default: `0`*
+*デフォルト: `0`*
 
 ### `redirect_admin_to_courses_list`
 
-**Redirect admin to courses list**
+**管理者をコースリストにリダイレクト**
 
-The default behaviour is to send administrators directly to the administration panel (while teachers and students are sent to the courses list or the platform homepage). Enable to redirect the administrator also to his/her courses list.
+デフォルトの動作では、管理者は直接管理パネルに送られ（教師や学生はコースリストまたはプラットフォームのホームページに送られます）、このオプションを有効にすると管理者も自身のコースリストにリダイレクトされます。
 
-*Default: `false`*
+*デフォルト: `false`*
 
 ### `send_inscription_notification_to_general_admin_only`
 
-**Notify global admin only of new users**
+**新規ユーザーの通知をグローバル管理者のみに送信**
 
-When enabled, only the global administrator receives email notifications about new user registrations instead of all administrators.
+有効にすると、新規ユーザー登録に関するメール通知はすべての管理者ではなく、グローバル管理者のみが受け取ります。
 
-*Default: `false`*
+*デフォルト: `false`*
 
 ### `show_link_request_hrm_user`
 
-**Show link to request bond between user and HRM**
+**ユーザーとHRMの紐付けをリクエストするリンクを表示**
 
-Display a link on the profile page allowing Human Resources directors to request to be linked with a user account.
+プロフィールページに、人事ディレクターがユーザーアカウントとの紐付けをリクエストできるリンクを表示します。
 
-*Default: `false`*
+*デフォルト: `false`*
 
 ### `user_status_option_only_for_admin_enabled`
 
-**Hide role from normal users**
+**通常ユーザーから役割を隠す**
 
-Allows hiding users' role when this option is set to true and the following array sets the corresponding role to 'true'.
+このオプションをtrueに設定し、以下の配列で対応する役割を'true'に設定すると、ユーザーの役割を隠すことができます。
 
-*Default: `false`*
+*デフォルト: `false`*
 
 ### `user_status_option_show_only_for_admin`
 
-**Define which roles are hidden to normal users**
+**通常ユーザーに隠す役割を定義**
 
-The roles set to 'true' will only appear to administrators. Other users will not be able to see them.
-
+'true'に設定された役割は管理者にのみ表示されます。他のユーザーはそれらを見ることができません。

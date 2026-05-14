@@ -1,115 +1,115 @@
-# Project Structure
+# プロジェクト構造
 
-## Top-Level Directories
+## トップレベルディレクトリ
 
 ```
 chamilo/
-├── assets/          # Frontend source code
-│   ├── vue/         # Vue 3 application (components, views, router, stores)
-│   ├── css/         # SCSS stylesheets
-│   └── js/          # Legacy JavaScript
-├── config/          # Symfony configuration (routes, services, packages)
-├── public/          # Web root (index.php, legacy PHP pages, plugins)
-│   ├── main/        # Legacy PHP modules (one subdirectory per tool)
-│   └── plugin/      # Bundled and custom plugins
-├── src/             # PHP source code (Symfony bundles)
-│   ├── CoreBundle/  # Core platform logic
-│   ├── CourseBundle/# Course-specific features
-│   └── LtiBundle/   # LTI 1.3 integration
-├── templates/       # Twig templates
-├── var/             # Cache, logs, uploads (generated)
-├── vendor/          # Composer dependencies (generated)
-├── node_modules/    # npm dependencies (generated)
-└── translations/    # Translation files
+├── assets/          # フロントエンドのソースコード
+│   ├── vue/         # Vue 3 アプリケーション（コンポーネント、ビュー、ルーター、ストア）
+│   ├── css/         # SCSS スタイルシート
+│   └── js/          # レガシー JavaScript
+├── config/          # Symfony の設定（ルート、サービス、パッケージ）
+├── public/          # ウェブルート（index.php、レガシー PHP ページ、プラグイン）
+│   ├── main/        # レガシー PHP モジュール（ツールごとにサブディレクトリ）
+│   └── plugin/      # 組み込みおよびカスタムプラグイン
+├── src/             # PHP ソースコード（Symfony バンドル）
+│   ├── CoreBundle/  # プラットフォームの中核ロジック
+│   ├── CourseBundle/# コース固有の機能
+│   └── LtiBundle/   # LTI 1.3 統合
+├── templates/       # Twig テンプレート
+├── var/             # キャッシュ、ログ、アップロード（生成される）
+├── vendor/          # Composer 依存関係（生成される）
+├── node_modules/    # npm 依存関係（生成される）
+└── translations/    # 翻訳ファイル
 ```
 
-## Source Code (`src/`)
+## ソースコード (`src/`)
 
 ### CoreBundle
 
-The largest bundle. Notable subdirectories:
+最大のバンドル。注目すべきサブディレクトリ：
 
-| Directory | Contents |
+| ディレクトリ | 内容 |
 |-----------|----------|
-| `Entity/` | Doctrine entities (User, Course, Session, ResourceNode, etc.) |
-| `Controller/` | Admin, API action, and page controllers (the Api/ subfolder holds custom API Platform actions) |
-| `Settings/` | Settings schema files (platform configuration) |
-| `Repository/` | Doctrine repositories |
-| `AiProvider/` | AI provider implementations (OpenAI, Gemini, Mistral, DeepSeek, Grok) |
-| `Tool/` | Course tool definitions |
-| `Security/` | Voters, authenticators, authorization |
-| `EventListener/` | Event listeners |
-| `EventSubscriber/` | Event subscribers |
-| `Command/` | Symfony console commands |
-| `Migrations/` | Database migrations |
-| `Twig/` | Twig extensions |
-| `Storage/` | Flysystem storage adapters |
+| `Entity/` | Doctrine エンティティ（User, Course, Session, ResourceNode など） |
+| `Controller/` | 管理コントローラー、API アクション、ページ（サブフォルダ Api/ には API Platform のカスタムアクションが含まれる） |
+| `Settings/` | 設定スキーマファイル（プラットフォーム設定） |
+| `Repository/` | Doctrine リポジトリ |
+| `AiProvider/` | AI プロバイダーの実装（OpenAI, Gemini, Mistral, DeepSeek, Grok） |
+| `Tool/` | コースツールの定義 |
+| `Security/` | Voters、認証器、認可 |
+| `EventListener/` | イベントリスナー |
+| `EventSubscriber/` | イベントサブスクライバー |
+| `Command/` | Symfony コンソールコマンド |
+| `Migrations/` | データベースマイグレーション |
+| `Twig/` | Twig 拡張 |
+| `Storage/` | Flysystem ストレージアダプター |
 
 ### CourseBundle
 
-Course-specific entities and logic:
+コース固有のエンティティとロジック：
 
-| Directory | Contents |
+| ディレクトリ | 内容 |
 |-----------|----------|
-| `Entity/` | Course-content entities (CDocument, CQuiz, CLp, CForum, CStudentPublication, etc.) |
-| `Controller/` | Course controllers |
-| `Settings/` | Course-level settings schemas |
-| `Component/CourseCopy/` | Course import/export (Common Cartridge, Moodle) |
+| `Entity/` | コースコンテンツのエンティティ（CDocument, CQuiz, CLp, CForum, CStudentPublication など） |
+| `Controller/` | コースコントローラー |
+| `Settings/` | コースレベルの設定スキーマ |
+| `Component/CourseCopy/` | コースのインポート/エクスポート（Common Cartridge, Moodle） |
 
 ### LtiBundle
 
-LTI 1.3 integration:
+LTI 1.3 統合：
 
-| Directory | Contents |
+| ディレクトリ | 内容 |
 |-----------|----------|
-| `Entity/` | LTI platform, tool, and deployment entities |
-| `Controller/` | LTI launch and configuration endpoints |
+| `Entity/` | LTI プラットフォーム、ツール、デプロイメントのエンティティ |
+| `Controller/` | LTI 起動および設定エンドポイント |
 
-## Frontend (`assets/vue/`)
+## フロントエンド (`assets/vue/`)
 
 ```
 assets/vue/
-├── main.js              # Application entry point
-├── main_installer.js    # Installer entry point
-├── components/          # Reusable Vue components
-│   ├── accessurl/       # Multi-URL (portal) components
-│   ├── admin/           # Admin-specific components
-│   ├── assignments/     # Assignment forms and lists
-│   ├── attendance/      # Attendance sheet components
-│   ├── basecomponents/  # Shared base components (BaseButton, BaseIcon, BaseTable, BaseTinyEditor, etc.) and ChamiloIcons.js
-│   ├── blog/            # Blog components
-│   ├── branch/          # Branch/network campus components
-│   ├── ccalendarevent/  # Course calendar event components
-│   ├── chat/            # Chat and AI tutor
-│   ├── course/          # Course cards, catalogs, forms
-│   ├── coursecategory/  # Course category components
-│   ├── coursemaintenance/ # Course backup/restore components
-│   ├── ctoolintro/      # Course tool introduction components
-│   ├── documents/       # Document management components
-│   ├── dropbox/         # Dropbox (file exchange) components
-│   ├── filemanager/     # File browser components
-│   ├── glossary/        # Glossary components
-│   ├── installer/       # Installation wizard
-│   ├── layout/          # Sidebar, Topbar, shell layout
-│   ├── links/           # External links components
-│   ├── login/           # Login form components
-│   ├── lp/              # Learning path components
-│   ├── message/         # Messaging components
-│   ├── page/            # Static page components
-│   ├── pageLayout/      # Page layout wrapper components
-│   ├── personalfile/    # Personal file space components
-│   ├── platform/        # Platform-level UI components
-│   ├── resource_links/  # Resource link management components
-│   ├── room/            # Virtual room components
-│   ├── session/         # Session (learning campaign) components
-│   ├── sessionadmin/    # Session administration components
-│   ├── skill/           # Skills and competencies components
-│   ├── social/          # Social network components
-│   ├── systemannouncement/ # System announcement components
-│   ├── user/            # User profile and management components
-│   ├── usergroup/       # User group (class) components
-│   └── userreluser/     # User relationship (friend/follow) components
-├── views/               # Page-level Vue views (mirrors components/ structure)
+├── main.js              # アプリケーションのエントリーポイント
+├── main_installer.js    # インストーラーのエントリーポイント
+├── components/          # 再利用可能なVueコンポーネント
+│   ├── accessurl/       # マルチURL（ポータル）コンポーネント
+│   ├── admin/           # 管理者向けの特定コンポーネント
+│   ├── assignments/     # 課題のフォームとリスト
+│   ├── attendance/      # 出欠確認シートコンポーネント
+│   ├── basecomponents/  # 共有ベースコンポーネント（BaseButton, BaseIcon, BaseTable, BaseTinyEditorなど）およびChamiloIcons.js
+│   ├── blog/            # ブログコンポーネント
+│   ├── branch/          # ネットワークの支店/キャンパスコンポーネント
+│   ├── ccalendarevent/  # コースカレンダーイベントコンポーネント
+│   ├── chat/            # チャットおよびAIチューター
+│   ├── course/          # コースカード、カタログ、フォーム
+│   ├── coursecategory/  # コースカテゴリコンポーネント
+│   ├── coursemaintenance/ # コースのバックアップ/復元コンポーネント
+│   ├── ctoolintro/      # コースツール紹介コンポーネント
+│   ├── documents/       # ドキュメント管理コンポーネント
+│   ├── dropbox/         # Dropbox（ファイル交換）コンポーネント
+│   ├── filemanager/     # ファイルブラウザコンポーネント
+│   ├── glossary/        # 用語集コンポーネント
+│   ├── installer/       # インストールウィザード
+│   ├── layout/          # サイドバー、トップバー、シェルレイアウト
+│   ├── links/           # 外部リンクコンポーネント
+│   ├── login/           # ログインフォームコンポーネント
+│   ├── lp/              # 学習パスコンポーネント
+│   ├── message/         # メッセージコンポーネント
+│   ├── page/            # 静的ページコンポーネント
+│   ├── pageLayout/      # ページレイアウトのラッパーコンポーネント
+│   ├── personalfile/    # 個人ファイルスペースコンポーネント
+│   ├── platform/        # プラットフォームレベルのUIコンポーネント
+│   ├── resource_links/  # リソースリンク管理コンポーネント
+│   ├── room/            # 仮想ルームコンポーネント
+│   ├── session/         # セッション（学習キャンペーン）コンポーネント
+│   ├── sessionadmin/    # セッション管理コンポーネント
+│   ├── skill/           # スキルおよび能力コンポーネント
+│   ├── social/          # ソーシャルネットワークコンポーネント
+│   ├── systemannouncement/ # システムアナウンスメントコンポーネント
+│   ├── user/            # ユーザー管理およびプロフィールコンポーネント
+│   ├── usergroup/       # ユーザーグループ（クラス）コンポーネント
+│   └── userreluser/     # ユーザー関係（友達/フォロー）コンポーネント
+├── views/               # ページレベルのVueビュー（components/の構造を反映）
 │   ├── accessurl/       ├── account/         ├── admin/
 │   ├── assignments/     ├── attendance/      ├── blog/
 │   ├── branch/          ├── buycourses/      ├── ccalendarevent/
@@ -121,132 +121,135 @@ assets/vue/
 │   ├── sessionadmin/    ├── skill/           ├── social/
 │   ├── terms/           ├── user/            ├── usergroup/
 │   └── userreluser/
-├── router/              # Vue Router (index.js + one module per feature area)
-├── store/               # Pinia stores
+├── router/              # Vue Router (index.js + 機能エリアごとのモジュール)
+├── store/               # Piniaストア
 │   └── modules/         # crud.js, notifications.js, ux.js
-├── composables/         # Shared composition functions (per-feature subdirectories)
-├── services/            # API service layer (one file per entity/domain)
-├── utils/               # Utility helpers (dates, hydra, fetch, sanitizeHtml, etc.)
-├── config/              # Runtime configuration (api.js, env.js)
-├── constants/           # Shared constants
-│   └── entity/          # Entity-specific constants (session, message, extrafield, etc.)
-├── layouts/             # Top-level layout components (MyCourses.vue)
-├── pages/               # Standalone page components (Home, Login, Faq, Demo)
-├── mixins/              # Legacy Vue 2-style mixins (ListMixin, CreateMixin, etc.)
-├── hooks/               # Composable hooks (useSidebar, useState)
-├── plugins/             # Vue plugin registrations (httpErrors, vuetify)
-├── validators/          # Vuelidate custom validators
-└── error/               # Error boundary components
+├── composables/         # 共有コンポジション関数（機能ごとのサブディレクトリ）
+├── services/            # APIサービスレイヤー（エンティティ/ドメインごとのファイル）
+├── utils/               # ユーティリティヘルパー（日付、hydra、fetch、sanitizeHtmlなど）
+├── config/              # 実行時設定（api.js, env.js）
+├── constants/           # 共有定数
+│   └── entity/          # エンティティ固有の定数（セッション、メッセージ、追加フィールドなど）
+├── layouts/             # 高レベルレイアウトコンポーネント（MyCourses.vue）
+├── pages/               # 独立したページコンポーネント（Home, Login, Faq, Demo）
+├── mixins/              # 従来のVue 2スタイルのミックスイン（ListMixin, CreateMixinなど）
+├── hooks/               # コンポーザブルフック（useSidebar, useState）
+├── plugins/             # Vueプラグイン登録（httpErrors, vuetify）
+├── validators/          # カスタムVuelidateバリデーター
+└── error/               # エラーバウンダリコンポーネント
 ```
 
-## Configuration (`config/`)
+---
+## 設定 (`config/`)
 
 ```
 config/
-├── packages/            # Bundle and framework configuration (one YAML file per package)
-│   ├── security.yaml    # Role hierarchy, firewalls, access control
-│   ├── doctrine.yaml    # Doctrine ORM and DBAL settings
-│   ├── api_platform.yaml# API Platform configuration
-│   ├── framework.yaml   # Core Symfony settings
-│   ├── lexik_jwt_authentication.yaml  # JWT token settings
-│   ├── nelmio_cors.yaml # CORS headers for API consumers
-│   ├── oneup_flysystem.yaml  # Cloud storage adapters
-│   ├── webpack_encore.yaml   # Webpack Encore integration
-│   ├── ... (30+ package files)
-│   ├── dev/             # Development-only overrides (web profiler, debug, routing)
-│   ├── prod/            # Production-only overrides (currently empty placeholder)
-│   └── test/            # Test-environment overrides (JWT, validator, web profiler)
-├── routes/              # Route definitions
-│   ├── api_platform.yaml     # API Platform route prefix
-│   ├── attributes.yaml       # Controller annotation-based routes
-│   ├── fos_js_routing.yaml   # FOS JS Routing exposure
-│   ├── legacy.yaml           # Routes for legacy PHP pages under public/main/
-│   ├── security.yaml         # Login/logout/OAuth2 routes
-│   ├── dev/                  # Development-only routes (profiler, Maker bundle)
-│   └── test/                 # Test-only route overrides
-├── jwt/                 # JWT key pair (private/public keys)
-└── jwt-test/            # JWT keys for the test environment
+├── packages/            # パッケージおよびフレームワークの設定（パッケージごとに1つのYAMLファイル）
+│   ├── security.yaml    # ロール階層、ファイアウォール、アクセス制御
+│   ├── doctrine.yaml    # Doctrine ORMおよびDBALの設定
+│   ├── api_platform.yaml# API Platformの設定
+│   ├── framework.yaml   # Symfonyの主要設定
+│   ├── lexik_jwt_authentication.yaml  # JWTトークンの設定
+│   ├── nelmio_cors.yaml # APIコンシューマ向けのCORSヘッダー
+│   ├── oneup_flysystem.yaml  # クラウドストレージアダプター
+│   ├── webpack_encore.yaml   # Webpack Encoreとの統合
+│   ├── ... (30以上のパッケージファイル)
+│   ├── dev/             # 開発環境専用の上書き（ウェブプロファイラー、デバッグ、ルーティング）
+│   ├── prod/            # 本番環境専用の上書き（現在は空のプレースホルダー）
+│   └── test/            # テスト環境用の上書き（JWT、バリデーター、ウェブプロファイラー）
+├── routes/              # ルート定義
+│   ├── api_platform.yaml     # API Platformのルートプレフィックス
+│   ├── attributes.yaml       # コントローラーのアノテーションに基づくルート
+│   ├── fos_js_routing.yaml   # FOS JSルーティングの公開
+│   ├── legacy.yaml           # public/main/内のレガシーPHPページ用のルート
+│   ├── security.yaml         # ログイン/ログアウト/OAuth2のルート
+│   ├── dev/                  # 開発環境専用のルート（プロファイラー、Makerバンドル）
+│   └── test/                 # テスト環境専用のルート上書き
+├── jwt/                 # JWTキーペア（秘密鍵/公開鍵）
+└── jwt-test/            # テスト環境用のJWTキー
 ```
 
-Symfony automatically merges the base `packages/*.yaml` files with those in the matching environment subdirectory (`dev/`, `prod/`, or `test/`), so environment-specific files only need to override the values that differ.
+Symfonyは、ベースファイル `packages/*.yaml` を対応する環境サブディレクトリ（`dev/`、`prod/`、または `test/`）内のファイルと自動的にマージするため、環境固有のファイルは異なる値のみを上書きすれば済みます。
 
-## Build Configuration
+## ビルド設定
 
-| File | Purpose |
+| ファイル | 目的 |
 |------|---------|
-| `webpack.config.js` | Webpack Encore configuration (entries, loaders, plugins) |
-| `tailwind.config.js` | Tailwind CSS configuration (content paths, theme extensions, plugins) |
-| `tsconfig.json` | TypeScript configuration |
-| `eslint.config.mjs` | ESLint rules (flat config) |
-| `.prettierrc.json` | Prettier formatting rules |
+| `webpack.config.js` | Webpack Encoreの設定（エントリーポイント、ローダー、プラグイン） |
+| `tailwind.config.js` | Tailwind CSSの設定（コンテンツパス、テーマ拡張、プラグイン） |
+| `tsconfig.json` | TypeScriptの設定 |
+| `eslint.config.mjs` | ESLintのルール（フラット設定） |
+| `.prettierrc.json` | Prettierのフォーマットルール |
 
-All files sit at the project root. PostCSS plugins (Tailwind + Autoprefixer) are configured inline inside `webpack.config.js` via `enablePostCssLoader()` — there is no standalone `postcss.config.js`. `webpack.config.js` reads `tailwind.config.js` indirectly through PostCSS, so changes to Tailwind's `content` or `theme` sections take effect on the next `yarn encore dev` / `yarn encore production` run.
+すべてのファイルはプロジェクトのルートにあります。PostCSSプラグイン（Tailwind + Autoprefixer）は、`webpack.config.js` 内で `enablePostCssLoader()` を通じてインラインで設定されており、独立した `postcss.config.js` ファイルはありません。`webpack.config.js` はPostCSSを通じて間接的に `tailwind.config.js` を読み込むため、Tailwindの `content` または `theme` セクションの変更は、次回の `yarn encore dev` / `yarn encore production` の実行時に反映されます。
 
-## Webpack Entry Points
+## Webpackのエントリーポイント
 
-The build produces these bundles:
+ビルドでは以下のバンドルが生成されます：
 
 **JavaScript:**
-* `vue` — Main Vue 3 application (`assets/vue/main.js`)
-* `vue_installer` — Installation wizard (`assets/vue/main_installer.js`)
-* `legacy_app`, `legacy_exercise`, `legacy_lp`, `legacy_document` — Legacy JS for pages not yet migrated to Vue
+* `vue` — メインのVue 3アプリケーション（`assets/vue/main.js`）
+* `vue_installer` — インストールウィザード（`assets/vue/main_installer.js`）
+* `legacy_app`, `legacy_exercise`, `legacy_lp`, `legacy_document` — Vueに移行していないページ用のレガシーJS
 
 **CSS:**
-* `app` — Main stylesheet (`assets/css/app.scss`)
-* Plus specialized sheets: `chat`, `document`, `editor`, `editor_content`, `markdown`, `print`, `responsive`, `scorm`
+* `app` — メインスタイルシート（`assets/css/app.scss`）
+* および特化スタイルシート：`chat`, `document`, `editor`, `editor_content`, `markdown`, `print`, `responsive`, `scorm`
 
-## CSS Structure (`assets/css/`)
+---
+## CSSの構造 (`assets/css/`)
 
 ```
 assets/css/
-├── app.scss             # Entry point — imports Tailwind, the SCSS index, and third-party CSS
-├── _tailwind.scss       # Tailwind directives (@tailwind base / components / utilities)
-├── chat.scss            # Chat and AI tutor panel styles
-├── document.scss        # Document viewer styles
-├── editor.scss          # TinyMCE editor shell styles
-├── editor_content.scss  # Styles injected into the editor iframe body
-├── markdown.scss        # Markdown-rendered content styles
-├── print.scss           # Print stylesheet
-├── responsive.scss      # Responsive overrides
-├── scorm.scss           # SCORM player styles
-├── legacy/              # Styles for legacy PHP pages (e.g. frameReadyLoader.scss)
-└── scss/                # Modular SCSS partials
-    ├── index.scss           # Barrel file — imports all partials below
-    ├── abstracts/           # Mixins and shared functions
-    ├── settings/            # Design tokens (typography, component base)
-    ├── atoms/               # Per-component PrimeVue overrides (buttons, inputs, calendar, etc.)
-    ├── molecules/           # Small composed UI patterns (chips, toolbars, empty states)
-    ├── organisms/           # Larger feature areas (sidebar, datatable, dialog, LP panel, etc.)
-    ├── layout/              # Page skeleton partials (topbar, main container, breadcrumb)
-    ├── components/          # Legacy component-specific files (blog, exercise, social, skill, etc.)
-    └── libs/                # Third-party library overrides (FullCalendar, MediaElement.js)
+├── app.scss             # エントリーポイント — Tailwind、SCSSインデックス、サードパーティCSSをインポート
+├── _tailwind.scss       # Tailwindディレクティブ (@tailwind base / components / utilities)
+├── chat.scss            # チャットパネルおよびAIチューターのスタイル
+├── document.scss        # ドキュメントビューアのスタイル
+├── editor.scss          # TinyMCEエディタインターフェースのスタイル
+├── editor_content.scss  # エディタのiframe本体に注入されるスタイル
+├── markdown.scss        # Markdownでレンダリングされたコンテンツのスタイル
+├── print.scss           # 印刷用のスタイルシート
+├── responsive.scss      # レスポンシブな上書き
+├── scorm.scss           # SCORMプレイヤーのスタイル
+├── legacy/              # 古いPHPページ用のスタイル (例: frameReadyLoader.scss)
+└── scss/                # SCSSのモジュール部分
+    ├── index.scss           # バレルファイル — 以下のすべての部分をインポート
+    ├── abstracts/           # 共有ミックスインと関数
+    ├── settings/            # デザイントークン (タイポグラフィ、コンポーネントベース)
+    ├── atoms/               # PrimeVueのコンポーネントごとの上書き (ボタン、入力、カレンダーなど)
+    ├── molecules/           # 小さなUIパターン (チップ、ツールバー、空の状態)
+    ├── organisms/           # 大きな機能エリア (サイドバー、データテーブル、ダイアログ、LPパネルなど)
+    ├── layout/              # ページの骨組み部分 (トップバー、メインコンテナ、ブレッドクラム)
+    ├── components/          # 古いコンポーネント固有のファイル (ブログ、演習、ソーシャル、スキルなど)
+    └── libs/                # サードパーティライブラリの上書き (FullCalendar, MediaElement.js)
 ```
 
+---
 ### Tailwind CSS
 
-Tailwind is integrated via PostCSS. `assets/css/_tailwind.scss` emits the base, component, and utility layers; `assets/css/app.scss` imports it first so Tailwind utilities are available throughout all other partials. The Tailwind configuration — content paths for purging, theme extensions, and plugins — lives in `tailwind.config.js` at the project root (`/var/www/chamilo/tailwind.config.js`).
+TailwindはPostCSSを介して統合されています。ファイル `assets/css/_tailwind.scss` はベース、コンポーネント、ユーティリティの各レイヤーを出力し、ファイル `assets/css/app.scss` が最初にこれをインポートすることで、Tailwindのユーティリティが他のすべての部分ファイルで利用可能になります。Tailwindの設定 — コンテンツパスのパージ、テーマの拡張、プラグイン — はプロジェクトのルートにある `tailwind.config.js` (`/var/www/chamilo/tailwind.config.js`) に配置されています。
 
-Custom utility classes and component classes defined with `@layer` (visible in `app.scss`) follow Tailwind's layering convention so that user-defined classes respect the same specificity rules as the generated utilities.
+カスタムユーティリティクラスおよび `@layer` で定義されたコンポーネントクラス ( `app.scss` で確認可能) は、Tailwindのレイヤー規約に従い、ユーザー定義のクラスが生成されたユーティリティと同じ特異度ルールを尊重するようになっています。
 
-### Color Themes
+### カラーテーマ
 
-Chamilo supports a color theming system that can be configured directly from the admin interface (**Admin > Color Themes**). Each saved theme writes its files into a dedicated directory under `var/themes/`:
+Chamiloは、管理インターフェース (**管理者 > カラーテーマ**) から直接設定可能なカラーテーマシステムをサポートしています。保存された各テーマは、`var/themes/` の下に専用のディレクトリにファイルとして記録されます：
 
 ```
 var/themes/
-└── [theme-name]/
-    ├── colors.css       # CSS custom properties for the full color palette
-    ├── default.css      # Optional additional custom CSS rules
-    ├── learnpath.css    # Learning path-specific overrides
-    ├── tiny-settings.js # TinyMCE editor color palette settings
-    └── images/          # Theme images (logo, favicon, backgrounds, PWA icons)
+└── [テーマ名]/
+    ├── colors.css       # 完全なカラーパレット用のカスタムCSSプロパティ
+    ├── default.css      # オプションのカスタムCSSルール
+    ├── learnpath.css    # 学習パスの固有の上書き
+    ├── tiny-settings.js # TinyMCEエディタのカラーパレット設定
+    └── images/          # テーマの画像 (ロゴ、ファビコン、背景、PWAアイコン)
         ├── header-logo.png / header-logo.svg
         ├── favicon.ico
         ├── pwa-icons/   # icon-192.png, icon-512.png
-        └── ...          # Background images, admin block images, etc.
+        └── ...          # 背景画像、管理ブロックの画像など
 ```
 
-`colors.css` defines CSS custom properties as space-separated RGB channel triplets rather than `rgb()` values, which allows Tailwind to compose opacity variants (e.g. `bg-primary/50`) without additional configuration:
+ファイル `colors.css` は、CSSカスタムプロパティを `rgb()` 値ではなく、スペースで区切られたRGBチャンネルのトリプレットとして定義しており、これによりTailwindが追加の設定なしで不透明度のバリエーション (例: `bg-primary/50`) を構成できるようになっています：
 
 ```css
 :root {
@@ -256,4 +259,4 @@ var/themes/
 }
 ```
 
-The theme layer sits on top of the compiled Tailwind/SCSS bundle: the browser loads `colors.css` after the main stylesheet, so theme changes take effect immediately without a build step.
+テーマレイヤーは、コンパイルされたTailwind/SCSSパッケージの上に位置します。ブラウザはメインストylesheetの後に `colors.css` を読み込むため、テーマの変更はコンパイルステップを必要とせずに即座に有効になります。

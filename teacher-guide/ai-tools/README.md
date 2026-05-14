@@ -1,27 +1,27 @@
-# AI Tools
+# AIツール
 
-Chamilo 2.0 introduces AI-powered tools that help you create content faster and provide personalized support to your learners. These features use large language models (such as OpenAI's GPT, Google Gemini, Mistral, or others) to generate educational content and assist with grading.
+Chamilo 2.0では、コンテンツをより迅速に作成し、学生にパーソナライズされたサポートを提供するためのAIを活用したツールが導入されています。これらの機能は、OpenAIのGPT、Google Gemini、Mistralなどの高度な言語モデルを利用して、教育コンテンツの生成や評価の支援を行います。
 
-> AI tools must be configured by your platform administrator before they become available. See the [AI Configuration](../../admin-guide/integrations/ai-configuration.md) section of the Administration Guide for setup details.
+> AIツールは、プラットフォームの管理者によって設定される必要があります。設定の詳細については、管理者ガイドの[AI設定](../../admin-guide/integrations/ai-configuration.md)セクションを参照してください。
 
-## Available AI Tools
+## 利用可能なAIツール
 
-* **[AI Tutor](ai-tutor.md)** — An AI chatbot that learners can interact with for course-related questions
-* **[Exercise Generator](exercise-generator.md)** — Automatically generate quiz questions from your course content or a topic description
-* **[Learning Path Generator](learning-path-generator.md)** — Create structured learning sequences from a topic or set of objectives
-* **[AI Grading](ai-grading.md)** — Get AI-assisted evaluation of open-ended answers and student submissions
-* **[Glossary Terms Generator](glossary-generator.md)** — Automatically generate term definitions for your course glossary
-* **[AI Media Generation](ai-media-generation.md)** — Generate images and short videos from the rich-text editor while creating documents
+* **[AIチューター](ai-tutor.md)** — 学生がコース関連の質問をするために対話できるAIチャットボット
+* **[演習ジェネレーター](exercise-generator.md)** — コースコンテンツやトピックの説明からテスト問題を自動生成
+* **[学習パスジェネレーター](learning-path-generator.md)** — トピックや一連の目標から構造化された学習シーケンスを作成
+* **[AIによる評価](ai-grading.md)** — 自由回答や学生の提出物に対するAI支援評価を取得
+* **[用語集ジェネレーター](glossary-generator.md)** — コースの用語集のための用語定義を自動生成
+* **[AIによるメディア生成](ai-media-generation.md)** — ドキュメント作成時にリッチテキストエディターから画像や短い動画を生成
 
-## How AI Tools Work
+## AIツールの仕組み
 
-When AI tools are enabled, they appear in the relevant contexts:
+AIツールが有効になっている場合、関連するコンテキストで表示されます：
 
-* The **Exercise Generator** appears when creating or editing exercises, and also as a quick action on documents in the Documents tool
-* The **Learning Path Generator** appears when creating learning paths
-* The **AI Grading** option appears in the assignment correction workflow
-* The **AI Tutor** is available to learners within the course
-* The **Glossary Terms Generator** appears in the Glossary tool toolbar
-* The **AI Media Generation** dialog appears in the rich-text editor when creating or editing documents
+* **演習ジェネレーター**は、演習の作成または編集時、およびドキュメントツール内のドキュメントでのクイックアクションとして表示されます
+* **学習パスジェネレーター**は、学習パスの作成時に表示されます
+* **AIによる評価**オプションは、課題の採点ワークフロー内に表示されます
+* **AIチューター**は、コース内で学生が利用可能です
+* **用語集ジェネレーター**は、用語集ツールのツールバーに表示されます
+* **AIによるメディア生成**ダイアログは、ドキュメントの作成または編集時にリッチテキストエディター内に表示されます
 
-All AI-generated content is presented as a **suggestion** that you can review, edit, and modify before publishing. You always have the final say on what your learners see.
+AIによって生成されたすべてのコンテンツは、公開前に確認、編集、修正が可能な**提案**として提示されます。学生に見せる内容については、常にあなたが最終的な決定権を持っています。

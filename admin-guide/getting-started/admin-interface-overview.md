@@ -1,51 +1,51 @@
-# Admin Interface Overview
+# 管理者インターフェースの概要
 
-The administration panel is your command center for managing the Chamilo platform. Access it by clicking **Administration** <img src="/.gitbook/assets/icons/mdi-cogs.svg" alt="Admin" data-size="line"> in the sidebar.
+管理パネルはChamiloプラットフォームを管理するための司令塔です。サイドバーの**管理者** <img src="/.gitbook/assets/icons/mdi-cogs.svg" alt="管理者" data-size="line">をクリックしてアクセスしてください。
 
-## Administration Dashboard
+## 管理者ダッシュボード
 
-![The administration dashboard showing functional blocks for Users, Courses, Sessions, and Settings](/.gitbook/assets/admin-dashboard-overview.png)
+![ユーザー、コース、セッション、設定の機能ブロックを表示する管理者ダッシュボード](/.gitbook/assets/admin-dashboard-overview.png)
 
-The admin dashboard is organized into functional blocks. Each block groups related management tools:
+管理者ダッシュボードは機能ブロックに整理されています。各ブロックは関連する管理ツールをグループ化しています：
 
-### Users
+### ユーザー
 
-* **User list** — View, search, edit, and manage all users on the platform
-* **Add a user** — Create individual user accounts
-* **User groups** — Manage groups of users for organizational purposes
-* **Classes** — Manage user classes for bulk session enrollment
+* **ユーザーリスト** — プラットフォーム上のすべてのユーザーを表示、検索、編集、管理する
+* **ユーザーの追加** — 個別のユーザーアカウントを作成する
+* **ユーザーグループ** — 組織目的のためのユーザーグループを管理する
+* **クラス** — 一括セッション登録のためのユーザークラスを管理する
 
-### Courses
+### コース
 
-* **Course list** — View and manage all courses on the platform
-* **Create a course** — Create a new course
-* **Course categories** — Organize courses into categories for the catalog
+* **コースリスト** — プラットフォーム上のすべてのコースを表示および管理する
+* **コースの作成** — 新しいコースを作成する
+* **コースカテゴリ** — カタログ用のコースをカテゴリに整理する
 
-### Sessions
+### セッション
 
-* **Session list** — View and manage training sessions
-* **Create a session** — Set up a new session with courses and enrollment
-* **Session categories** — Organize sessions into categories
-* **Careers and promotions** — Manage career paths and promotion workflows
+* **セッションリスト** — トレーニングセッションを表示および管理する
+* **セッションの作成** — コースと登録を含む新しいセッションを設定する
+* **セッションカテゴリ** — セッションをカテゴリに整理する
+* **キャリアと昇進** — キャリアパスと昇進ワークフローを管理する
 
-### Platform Settings
+### プラットフォーム設定
 
-* **Configuration settings** — Access the comprehensive platform settings panel with categories for portal, courses, sessions, users, security, and more
+* **設定** — ポータル、コース、セッション、ユーザー、セキュリティなどのカテゴリを含む包括的なプラットフォーム設定パネルにアクセスする
 
-### Plugins
+### プラグイン
 
-* **Manage plugins** — Install, activate, configure, and deactivate platform plugins
+* **プラグインの管理** — プラットフォームプラグインのインストール、アクティベーション、設定、無効化を行う
 
-### System
+### システム
 
-* **System status** — Check PHP configuration, database status, and server health
-* **Archive cleanup** — Manage temporary files and caches
+* **システムステータス** — PHP設定、データベースの状態、サーバーの健全性を確認する
+* **アーカイブのクリーンアップ** — 一時ファイルやキャッシュを管理する
 
-### Branding
+### ブランディング
 
-* **Colors** — Customize the platform's visual appearance
-* **Portal customization** — Configure portal homepage, news, and branding elements
+* **色** — プラットフォームの視覚的な外観をカスタマイズする
+* **ポータルのカスタマイズ** — ポータルのホームページ、ニュース、ブランディング要素を設定する
 
-Each section is covered in detail in its corresponding chapter of this guide.
+各セクションは、このガイドの対応する章で詳細に説明されています。
 
-Authentication methods like OAuth2, LDAP, CAS, and other external authentication providers are not configured in the administration dashboard but in `config/authentication.yaml`.
+OAuth2、LDAP、CAS、その他の外部認証プロバイダーなどの認証方法は、管理者ダッシュボードではなく、`config/authentication.yaml`で設定されます。

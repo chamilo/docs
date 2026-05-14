@@ -1,31 +1,31 @@
-# Developer Guide
+# 開発者ガイド
 
-Welcome to the Chamilo 2.0 Developer Guide. This guide is for developers who want to understand the Chamilo architecture, extend the platform with plugins, use the API, customize the interface, or contribute to the project.
+Chamilo 2.0 開発者ガイドへようこそ。このガイドは、Chamilo のアーキテクチャを理解し、プラグインでプラットフォームを拡張したり、API を使用したり、インターフェースをカスタマイズしたり、プロジェクトに貢献したいと考えている開発者向けに作成されています。
 
-## Architecture at a Glance
+## アーキテクチャの概要
 
-Chamilo 2.0 is built on:
+Chamilo 2.0 は以下の技術に基づいて構築されています：
 
-* **Backend**: Symfony 6.4 (PHP 8.2+) with Doctrine ORM and API Platform 3.0
-* **Frontend**: Vue 3 with PrimeVue, Pinia state management, and Vue Router
-* **Build system**: Webpack 5 via Symfony Webpack Encore, with Tailwind CSS
-* **Authentication**: JWT tokens (lexik/jwt-authentication-bundle)
-* **File storage**: Flysystem (supports local, AWS S3, Azure Blob, Google Cloud)
+* **バックエンド**: Symfony 6.4 (PHP 8.2+) と Doctrine ORM、API Platform 3.0
+* **フロントエンド**: Vue 3 と PrimeVue、Pinia ステート管理、Vue Router
+* **ビルドシステム**: Symfony Webpack Encore を介した Webpack 5、Tailwind CSS を使用
+* **認証**: JWT トークン (lexik/jwt-authentication-bundle)
+* **ファイルストレージ**: Flysystem (ローカル、AWS S3、Azure Blob、Google Cloud をサポート)
 
-The codebase is organized into three Symfony bundles:
+コードベースは、3 つの Symfony バンドルに整理されています：
 
-| Bundle | Purpose |
+| バンドル | 目的 |
 |--------|---------|
-| **CoreBundle** | Platform core: users, settings, resources, admin, AI providers, security |
-| **CourseBundle** | Course-specific features: documents, exercises, learning paths, forums, etc. |
-| **LtiBundle** | LTI 1.3 integration for external learning tools |
+| **CoreBundle** | プラットフォームの中核：ユーザー、設定、リソース、管理、AI プロバイダー、セキュリティ |
+| **CourseBundle** | コース固有の機能：ドキュメント、演習、学習パス、フォーラムなど |
+| **LtiBundle** | 外部学習ツールのための LTI 1.3 統合 |
 
-## How This Guide Is Organized
+## このガイドの構成
 
-1. **Getting Started** — Tech stack, development setup, project structure
-2. **Backend** — Symfony architecture, entities, resource system, controllers, settings
-3. **API** — REST API via API Platform, JWT authentication, custom actions
-4. **Frontend** — Vue components, views, routing, state management, build system
-5. **Theming** — Color themes, CSS/Tailwind, Twig templates
-6. **Plugins** — Plugin architecture and development
-7. **Contributing** — Coding conventions, git workflow, testing
+1. **はじめに** — 技術スタック、開発環境のセットアップ、プロジェクト構造
+2. **バックエンド** — Symfony アーキテクチャ、エンティティ、リソースシステム、コントローラー、設定
+3. **API** — API Platform を介した REST API、JWT 認証、カスタムアクション
+4. **フロントエンド** — Vue コンポーネント、ビュー、ルーティング、ステート管理、ビルドシステム
+5. **テーマ設定** — カラーテーマ、CSS/Tailwind、Twig テンプレート
+6. **プラグイン** — プラグインアーキテクチャと開発
+7. **貢献** — コーディング規約、git ワークフロー、テスト

@@ -1,46 +1,46 @@
-# Sessions
+# セッション
 
-Sessions in Chamilo are a way to deliver the same course to different groups of learners at different times, without duplicating the course content. Think of a session as a scheduled edition or cohort of a course.
+Chamiloのセッションは、コース内容を複製することなく、異なる学習者グループに異なるタイミングで同じコースを提供する方法です。セッションをコースのスケジュールされた版やコホートと考えることができます。
 
-## How Sessions Work
+## セッションの仕組み
 
-A **course** is a container of content and tools. A **session** assigns that course to a specific group of learners for a specific time period. This means:
+**コース**はコンテンツとツールのコンテナです。**セッション**はそのコースを特定の学習者グループに特定の期間割り当てます。これは以下のことを意味します：
 
-* The same course can be reused across multiple sessions
-* Each session has its own enrolled learners and its own start/end dates
-* Each session has its own results — grades, progress, and tracking data are kept separate per session
-* The base course content is shared, but teachers can customize certain elements per session
+* 同じコースを複数のセッションで再利用可能
+* 各セッションには独自の登録学習者と開始/終了日があります
+* 各セッションには独自の結果があり、成績、進捗状況、追跡データがセッションごとに分離されています
+* 基本的なコース内容は共有されますが、教師はセッションごとに特定の要素をカスタマイズできます
 
-## Your Sessions
+## あなたのセッション
 
-From the sidebar, click **My sessions** to see your sessions. They are organized into three views:
+サイドバーから**マイセッション**をクリックして、あなたのセッションを確認してください。セッションは3つのビューに整理されています：
 
-![The My Sessions page showing current, past, and upcoming session views](/.gitbook/assets/my-sessions-list.png)
+![マイセッションページで現在、過去、未来のセッションビューを表示](/.gitbook/assets/my-sessions-list.png)
 
-* **Current sessions** — Sessions that are currently active
-* **Past sessions** — Sessions that have ended
-* **Upcoming sessions** — Sessions that have not started yet
+* **現在のセッション** — 現在アクティブなセッション
+* **過去のセッション** — 終了したセッション
+* **今後のセッション** — まだ開始していないセッション
 
-Each session shows the courses it contains. Click on a course within a session to access it.
+各セッションには含まれているコースが表示されます。セッション内のコースをクリックしてアクセスしてください。
 
-## Teaching in a Session
+## セッションでの指導
 
-When you enter a course through a session, the experience is similar to a regular course, with a few differences:
+セッションを通じてコースに入ると、通常のコースと似た体験が得られますが、いくつかの違いがあります：
 
-* The **session name** appears alongside the course title, so you always know which session you are working in
-* Learner data (progress, grades, submissions) is specific to this session
-* Some settings (like the ability to change the visibility of tools) may be locked by the session administrator
+* **セッション名**がコースタイトルの横に表示されるため、どのセッションで作業しているかが常にわかります
+* 学習者データ（進捗状況、成績、提出物）はこのセッションに固有です
+* 一部の設定（ツールの表示/非表示を変更する機能など）はセッション管理者によってロックされている場合があります
 
-## Session Roles
+## セッションの役割
 
-Sessions introduce additional roles:
+セッションには追加の役割が導入されています：
 
-| Role | Description |
+| 役割 | 説明 |
 |------|-------------|
-| **Session administrator** | Manages the creation and configuration of sessions |
-| **Session coach** | Oversees all courses within a session (can access tracking across courses) |
-| **Course coach** | Teaches a specific course within a session |
+| **セッション管理者** | セッションの作成と設定を管理します |
+| **セッションコーチ** | セッション内のすべてのコースを監督します（コースを越えた追跡にアクセス可能） |
+| **コースコーチ** | セッション内の特定のコースを教えます |
 
-If you are assigned as a **course coach** in a session, you can manage that course's content and track learner progress for the session's learners.
+セッション内で**コースコーチ**として割り当てられている場合、そのコースのコンテンツを管理し、セッションの学習者の進捗状況を追跡することができます。
 
-> Sessions are typically managed by administrators. If you need to create or modify a session, contact your platform administrator or session administrator.
+> セッションは通常、管理者によって管理されます。セッションを作成または変更する必要がある場合は、プラットフォーム管理者またはセッション管理者に連絡してください。

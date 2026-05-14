@@ -1,13 +1,13 @@
-# Assessing Learners
+# 学生の評価
 
-Chamilo provides a comprehensive set of tools for evaluating your learners' knowledge and tracking their performance.
+Chamiloは、学生の知識を評価し、そのパフォーマンスを追跡するための包括的なツールセットを提供しています。
 
-* **[Exercises](exercises.md)** — Create quizzes and tests with a variety of question types, automatic grading, and detailed feedback
-* **[Assignments](assignments.md)** — Collect homework and projects from learners, with support for file uploads, peer review, and manual or AI-assisted grading
-* **[Surveys](surveys.md)** — Gather feedback from learners through customizable questionnaires
-* **[Attendance](attendance.md)** — Track learner presence in class sessions
-* **[Gradebook](gradebook.md)** — Combine scores from exercises, assignments, and other activities into a unified grade, and award certificates
+* **[演習](exercises.md)** — 多様な質問タイプ、自動採点、詳細なフィードバックを含むクイズやテストを作成
+* **[課題](assignments.md)** — 学生の宿題やプロジェクトを収集し、ファイルのアップロード、ピアレビュー、AI支援または手動での採点をサポート
+* **[アンケート](surveys.md)** — カスタマイズ可能なアンケートを通じて学生からのフィードバックを収集
+* **[出席](attendance.md)** — 授業セッションでの学生の出席を記録
+* **[成績簿](gradebook.md)** — 演習、課題、その他の活動のスコアを統合して統一された成績を作成し、証明書を発行
 
-The **Reporting** tool is still present but moved to the top of the course homepage for the teacher, as a small chart icon. This is the central place to access progress information for the whole course and its students.
+**レポート**ツールは依然として存在しますが、教師向けのコースホームページの上部に小さなグラフのアイコンとして移動しました。ここは、コース全体および学生の進捗情報を確認するための中心的な場所です。
 
-These tools work together: exercise scores and assignment grades can feed into the Gradebook, which can be linked to certificate generation and skill validation.
+これらのツールは連携して機能します：演習のスコアや課題の成績は成績簿に統合でき、証明書の発行やスキルの検証にリンクすることができます。

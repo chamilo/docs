@@ -1,196 +1,180 @@
-# Workflows Settings
+# ワークフロー設定
 
-Cross-cutting workflow toggles — course creation, enrollment validation, assignment workflows, and similar.
+コース作成、登録検証、課題ワークフローなど、横断的なワークフローの切り替え設定。
 
-Access these settings under **Administration > Configuration settings > Workflows**. This category contains **23 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+これらの設定には **管理 > 設定 > ワークフロー** からアクセスできます。このカテゴリには **23の設定** が含まれており、以下にプラットフォームの設定フィクスチャ（`SettingsCurrentFixtures.php`）に含まれるタイトルとコメントを記載しています。
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> コード内の変数名は等幅フォントで表示されています。APIを通じてスクリプトを作成する場合や、[`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml) を編集してグローバルレベルでこれらの設定を変更する必要がある場合に使用してください。
 
-## Settings
+## 設定
 
 ### `allow_user_course_subscription_by_course_admin`
 
-**Allow User Course Subscription By Course Admininistrator**
+**コース管理者によるユーザーのコース登録を許可**
 
-Activate this option will allow course administrator to subscribe users inside a course
+このオプションを有効にすると、コース管理者がコース内にユーザーを登録できるようになります。
 
-*Default: `true`*
-
+*デフォルト: `true`*
 
 ### `allow_users_to_create_courses`
 
-**Allow non admin to create courses**
+**管理者以外によるコース作成を許可**
 
-Allow non administrators (teachers) to create new courses on the server
+管理者以外のユーザー（教師）がサーバー上で新しいコースを作成できるようにします。
 
-*Default: `false`*
-
+*デフォルト: `false`*
 
 ### `allow_working_time_edition`
 
-**Enable edition of course work time**
+**コース作業時間の編集を有効化**
 
-Enable this feature to let teachers manually update the time spent in the course by learners.
+この機能を有効にすると、教師が学習者のコースでの作業時間を手動で更新できるようになります。
 
-*Default: `false`*
-
+*デフォルト: `false`*
 
 ### `course_visibility_change_only_admin`
 
-**Course visibility changes for admins only**
+**コースの公開設定変更を管理者のみに制限**
 
-Remove the possibility for non-admins to change the course visibility. Visibility can be an issue when there are too many teachers to control directly. Forcing visibilities allows the organization to better manage courses catalogues.
+管理者以外のユーザーがコースの公開設定を変更する可能性を排除します。教師が多すぎて直接管理できない場合、公開設定が問題になることがあります。公開設定を強制することで、組織はコースカタログをより適切に管理できます。
 
-*Default: `false`*
-
+*デフォルト: `false`*
 
 ### `default_menu_entry_for_course_or_session`
 
-**Default menu entry for courses**
+**コースのデフォルトメニューエントリ**
 
-Define the default sub-elements of the 'Courses' entry to display if user is not registered to any course nor session.
+ユーザーがどのコースやセッションにも登録していない場合に表示する「コース」エントリのデフォルトのサブ要素を定義します。
 
-*Default: `my_courses`*
-
+*デフォルト: `my_courses`*
 
 ### `disable_user_conditions_sender_id`
 
-**Internal ID of the user used to send disabled account notifications**
+**無効化されたアカウント通知を送信するユーザーの内部ID**
 
-Avoid being too personal with users by using a 'bot' account to send e-mails to users when their account is disabled for some reason.
+アカウントが何らかの理由で無効化された際にユーザーにメールを送信する際に、個人情報を避けるために「ボット」アカウントを使用します。
 
-*Default: `0`*
-
+*デフォルト: `0`*
 
 ### `disabled_edit_session_coaches_course_editing_course`
 
-**Disable the ability to edit course coaches**
+**コースコーチの編集機能を無効化**
 
-When disabled, admins do not have a link to quickly assign coaches to session-courses on the course edition page.
+無効にすると、管理者はコース編集ページでセッションコースにコーチを迅速に割り当てるリンクを利用できなくなります。
 
-*Default: `false`*
-
+*デフォルト: `false`*
 
 ### `drh_allow_access_to_all_students`
 
-**HRM can access all students from reporting pages**
+**HRMがレポートページからすべての学生にアクセス可能**
 
-[inferred] Grant HR/DRH managers access to reporting pages for all learners across the platform.
+[推定] HR/DRHマネージャーに、プラットフォーム全体のすべての学習者のレポートページへのアクセス権を付与します。
 
-*Default: `false`*
-
+*デフォルト: `false`*
 
 ### `gamification_mode`
 
-**Gamification mode**
+**ゲーミフィケーションモード**
 
-Activate the stars achievement in learning paths
+学習パスでのスター達成機能を有効化します。
 
 ### `go_to_course_after_login`
 
-**Go directly to the course after login**
+**ログイン後に直接コースへ移動**
 
-When a user is registered in one course, go directly to the course after login
+ユーザーが1つのコースに登録している場合、ログイン後に直接そのコースに移動します。
 
-*Default: `false`*
-
+*デフォルト: `false`*
 
 ### `load_term_conditions_section`
 
-**Load term conditions section**
+**利用規約セクションの読み込み**
 
-The legal agreement will appear during the login or when enter to a course.
+ログイン時またはコースに入る際に法的な同意書が表示されます。
 
-*Default: `login`*
-
+*デフォルト: `login`*
 
 ### `multiple_url_hide_disabled_settings`
 
-**Hide disabled settings in sub-URLs**
+**サブURLで無効化された設定を非表示**
 
-Set to yes to hide settings completely in a sub-URL if the setting is disabled in the main URL (where the access_url_changeable field = 0)
+メインURL（access_url_changeableフィールド = 0）で設定が無効化されている場合、サブURLでその設定を完全に非表示にするには「はい」に設定します。
 
-*Default: `false`*
-
+*デフォルト: `false`*
 
 ### `plugin_redirection_enabled`
 
-**Enable redirection plugin**
+**リダイレクションプラグインを有効化**
 
-Enable only if you are using the Redirection plugin
+リダイレクションプラグインを使用している場合のみ有効にします。
 
-*Default: `false`*
-
+*デフォルト: `false`*
 
 ### `redirect_index_to_url_for_logged_users`
 
-**Redirect index.php to given URL for authenticated users**
+**認証済みユーザーのindex.phpを指定URLにリダイレクト**
 
-If you do not want to use the index page (announcements, popular courses, etc), you can define here the script (from the document root) where users will be redirected when trying to load the index.
+インデックスページ（お知らせ、人気コースなど）を使用したくない場合、ここでユーザーがインデックスを読み込もうとした際にリダイレクトされるスクリプト（ドキュメントルートからのパス）を定義できます。
 
 ### `send_all_emails_to`
 
-**Send all e-mails to**
+**すべてのメールを送信**
 
-Give a list of e-mail addresses to whom *all* e-mails sent from the platform will be sent. The e-mails are sent to these addresses as a visible destination.
+プラットフォームから送信されるすべてのメールが送信されるメールアドレスのリストを指定します。メールはこれらのアドレスに見える宛先として送信されます。
 
 ### `session_admin_user_subscription_search_extra_field_to_search`
 
-**Extra user field used to search and name sessions**
+**セッションの検索および命名に使用する追加ユーザー項目**
 
-This setting defines the extra user field key (e.g., "company") that will be used to search for users and to define the name of the session when registering students from /admin-dashboard/register.
+この設定は、/admin-dashboard/register から学生を登録する際に、ユーザーを検索し、セッション名を定義するために使用される追加ユーザー項目のキー（例：「company」）を定義します。
 
 ### `teacher_can_select_course_template`
 
-**Teacher can select a course as template**
+**教師がコースをテンプレートとして選択可能**
 
-Allow pick a course as template for the new course that teacher is creating
+教師が作成する新しいコースのテンプレートとしてコースを選択できるようにします。
 
-*Default: `true`*
-
+*デフォルト: `true`*
 
 ### `update_student_expiration_x_date`
 
-**Set expiration date on first login**
+**初回ログイン時に有効期限を設定**
 
-Array defining the 'days' and 'months' to set the account expiration date when the user first logs in.
+ユーザーが初めてログインした際にアカウントの有効期限を設定するための「日数」と「月数」を定義する配列。
 
 ### `user_edition_extra_field_to_check`
 
-**Set an extra field as trigger for registration as ex-learner**
+**元学習者としての登録トリガーとなる追加項目を設定**
 
-Give an extra field label here. If this extra field is updated for any user, a process is triggered to check the access to this user to courses with the same given extra field.
+ここに追加項目のラベルを指定します。この追加項目がユーザーに対して更新されると、同じ追加項目を持つコースへのこのユーザーのアクセスを確認するプロセスがトリガーされます。
 
+---
 ### `user_number_of_days_for_default_expiration_date_per_role`
 
-**Default expiration days by role**
+**ロールごとのデフォルト有効期限日数**
 
-An array of role => number which represents the number of days an account has before expiration, depending on the role.
+ロールに応じてアカウントが有効期限切れになるまでの日数を表す、ロール => 数値の配列。
 
 ### `usergroup_do_not_unsubscribe_users_from_course_nor_session_on_user_unsubscribe`
 
-**Disable user unsubscription from course/session on user unsubscription from group/class**
+**グループ/クラスからのユーザー解除時にコース/セッションからの自動解除を無効にする**
 
-[inferred] When removing a user from a group/class, do not automatically unsubscribe them from associated courses or sessions.
+[推定] ユーザーをグループ/クラスから削除する際に、関連するコースやセッションから自動的に解除しない。
 
-*Default: `false`*
-
+*デフォルト: `false`*
 
 ### `usergroup_do_not_unsubscribe_users_from_course_on_course_unsubscribe`
 
-**Disable user unsubscription from course on course removal from group/class**
+**グループ/クラスからのコース削除時にコースからのユーザー解除を無効にする**
 
-[inferred] When a course is removed from a group/class, do not automatically unsubscribe users from that course.
+[推定] コースがグループ/クラスから削除された際に、そのコースからユーザーを自動的に解除しない。
 
-*Default: `false`*
-
+*デフォルト: `false`*
 
 ### `usergroup_do_not_unsubscribe_users_from_session_on_session_unsubscribe`
 
-**Disable user unsubscription from session on session removal from group/class**
+**グループ/クラスからのセッション削除時にセッションからのユーザー解除を無効にする**
 
-[inferred] When a session is removed from a group/class, do not automatically unsubscribe users from that session.
+[推定] セッションがグループ/クラスから削除された際に、そのセッションからユーザーを自動的に解除しない。
 
-*Default: `false`*
-
-
+*デフォルト: `false`*

@@ -1,31 +1,31 @@
-# Teacher Guide
+# 教師ガイド
 
-Welcome to the Chamilo 2.0 Teacher Guide. This guide is designed for instructors, trainers, and anyone responsible for creating and delivering learning content through the Chamilo platform.
+Chamilo 2.0の教師ガイドへようこそ。このガイドは、Chamiloプラットフォームを通じて学習コンテンツを作成し提供する責任を持つインストラクターやトレーナー、またはその他の関係者を対象に設計されています。
 
-Whether you are setting up your first online course or managing a complex training program, this guide will walk you through every feature available to you as a teacher.
+初めてのオンラインコースを設定する場合でも、複雑なトレーニングプログラムを管理する場合でも、このガイドは教師として利用可能なすべての機能についてご案内します。
 
-## What You Can Do with Chamilo
+## Chamiloでできること
 
-As a teacher in Chamilo, you can:
+Chamiloの教師として、以下のことができます：
 
-* **Create and organize courses** with a flexible homepage and customizable tools
-* **Add content** — upload documents, create learning paths, build glossaries, and link to external resources
-* **Assess your learners** — design exercises with multiple question types, collect assignments, run surveys, and manage grades
-* **Collaborate** — set up forums, group work, wikis, blogs, and live video sessions
-* **Track progress** — monitor learner activity, generate reports, and award certificates
-* **Use AI tools** — generate exercises and learning paths automatically, and get AI-assisted grading
+* **コースの作成と整理** — 柔軟なホームページとカスタマイズ可能なツールを使用してコースを作成・整理
+* **コンテンツの追加** — ドキュメントのアップロード、学習パスの作成、用語集の構築、外部リソースへのリンク
+* **生徒の評価** — さまざまな種類の問題を含む演習の作成、課題の収集、アンケートの実施、成績の管理
+* **コラボレーション** — フォーラム、グループワーク、Wiki、ブログ、ライブビデオセッションの設定
+* **進捗の追跡** — 生徒の活動を監視し、レポートを生成し、証明書を授与
+* **AIツールの使用** — 演習や学習パスを自動生成し、AIによる採点支援を受ける
 
-## How This Guide Is Organized
+## このガイドの構成
 
-This guide follows the natural workflow of building and running a course:
+このガイドは、コースの構築と管理の自然な流れに沿って構成されています：
 
-1. **Getting Started** — Log in, navigate the interface, and set up your profile
-2. **Creating Your Course** — Create a new course, configure its settings, and customize the homepage
-3. **Adding Content** — Upload documents, organize learning paths, and manage resources
-4. **Assessing Learners** — Build tests, collect assignments, run surveys, and set up the gradebook
-5. **Collaboration and Communication** — Enable forums, chat, groups, wiki, and video conferencing
-6. **Tracking and Reporting** — Monitor learner progress and generate reports
-7. **AI Tools** — Use AI-powered features to generate content and assist with grading
-8. **Additional Tools** — Agenda, notebook, portfolio, and more
+1. **最初のステップ** — ログイン、インターフェースの操作、プロフィールの設定
+2. **コースの作成** — 新しいコースの作成、オプションの設定、ホームページのカスタマイズ
+3. **コンテンツの追加** — ドキュメントのアップロード、学習パスの整理、リソースの管理
+4. **生徒の評価** — テストの作成、課題の収集、アンケートの実施、成績簿の設定
+5. **コラボレーションとコミュニケーション** — フォーラム、チャット、グループ、Wiki、ビデオ会議の有効化
+6. **追跡とレポート** — 生徒の進捗を監視し、レポートを生成
+7. **AIツール** — コンテンツ生成や採点支援のためのAI機能を活用
+8. **追加ツール** — カレンダー、ノート、ポートフォリオなど
 
-Let's get started.
+さあ、始めましょう。

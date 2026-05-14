@@ -1,18 +1,18 @@
-# Creating a Plugin
+# プラグインの作成
 
-This guide walks through creating a basic Chamilo plugin. For additional detail, see the [Plugin development wiki page](https://github.com/chamilo/chamilo-lms/wiki/Plugin-development).
+このガイドでは、Chamilo用の基本的なプラグインの作成について説明します。詳細については、[プラグイン開発に関するWikiページ](https://github.com/chamilo/chamilo-lms/wiki/Plugin-development)を参照してください。
 
-## Step 1: Create the Plugin Directory
+## ステップ1：プラグインディレクトリの作成
 
-Create a directory in `public/plugin/`. The directory name should match your plugin's identifier:
+`public/plugin/`内にディレクトリを作成します。ディレクトリ名はプラグインの識別子と一致する必要があります：
 
 ```
 public/plugin/MyPlugin/
 ```
 
-## Step 2: Define the Plugin Class
+## ステップ2：プラグインクラスの定義
 
-Create `src/MyPluginPlugin.php`. The class extends `Plugin` and follows the singleton pattern:
+`src/MyPluginPlugin.php`ファイルを作成します。このクラスは`Plugin`を継承し、シングルトンパターンに従います：
 
 ```php
 <?php
@@ -36,19 +36,19 @@ class MyPluginPlugin extends Plugin
 }
 ```
 
-### Available Setting Types
+### 利用可能な設定タイプ
 
-| Type | Description |
-|------|-------------|
-| `boolean` | Checkbox on/off |
-| `text` | Single-line text input |
-| `select` | Dropdown (provide `options` array) |
-| `wysiwyg` | Rich text editor |
-| `html` | Raw HTML field |
-| `checkbox` | Checkbox |
-| `user` | User selector |
+| タイプ       | 説明                          |
+|------------|-------------------------------|
+| `boolean`  | オン/オフのチェックボックス       |
+| `text`     | 1行のテキスト入力               |
+| `select`   | ドロップダウンメニュー（`options`配列を提供） |
+| `wysiwyg`  | リッチテキストエディタ          |
+| `html`     | 生のHTMLフィールド             |
+| `checkbox` | チェックボックス              |
+| `user`     | ユーザーセレクター            |
 
-For `select` settings:
+`select`タイプの設定の場合：
 
 ```php
 $settings = [
@@ -60,44 +60,44 @@ $settings = [
 ];
 ```
 
-Access settings at runtime:
+実行時に設定にアクセス：
 
 ```php
 $plugin = MyPluginPlugin::create();
-$key  = $plugin->get('api_key');       // single value
-$all  = $plugin->get_settings();       // all settings
+$key  = $plugin->get('api_key');       // 単一の値
+$all  = $plugin->get_settings();       // すべての設定
 ```
 
-## Step 3: Create plugin.php
+## ステップ3：plugin.phpファイルの作成
 
-`plugin.php` at the plugin root is **required**. It must assign `$plugin_info`:
+プラグインのルートにある`plugin.php`ファイルは**必須**です。このファイルでは`$plugin_info`を割り当てる必要があります：
 
 ```php
 <?php
 $plugin_info = MyPluginPlugin::create()->get_info();
 ```
 
-## Step 4: Create Install and Uninstall Scripts
+## ステップ4：インストールおよびアンインストールスクリプトの作成
 
-`install.php`:
+`install.php`：
 
 ```php
 <?php
 MyPluginPlugin::create()->install();
 ```
 
-`uninstall.php`:
+`uninstall.php`：
 
 ```php
 <?php
 MyPluginPlugin::create()->uninstall();
 ```
 
-Implement the actual schema creation/deletion inside the class using Doctrine's `SchemaTool`.
+Doctrineの`SchemaTool`を使用して、クラス内でスキーマの作成/削除を実装します。
 
-## Step 5: Add Translations
+## ステップ5：翻訳の追加
 
-Create language files in `lang/` using locale codes (e.g., `en_US.php`, `fr_FR.php`, `es_ES.php`). The fallback is `en_US.php`.
+`lang/`内に言語ファイルを作成し、ロケールコードを使用します（例：`en_US.php`、`fr_FR.php`、`es_ES.php`）。フォールバックは`en_US.php`です。
 
 ```php
 <?php
@@ -109,11 +109,11 @@ $strings['api_key']        = 'API Key';
 $strings['api_key_help']   = 'Enter the API key from your account.';
 ```
 
-Access translations via `$plugin->get_lang('key')`.
+翻訳には`$plugin->get_lang('key')`を介してアクセスします。
 
-## Step 6: Inject Content via Display Regions
+## ステップ6：表示領域を介したコンテンツの注入
 
-Plugins can inject HTML into 18 predefined regions of the Vue frontend. Override `renderRegion()` in your class:
+プラグインは、Vueフロントエンドの18の定義済み領域にHTMLを注入できます。クラス内で`renderRegion()`をオーバーライドします：
 
 ```php
 public function renderRegion(string $region): string
@@ -125,11 +125,11 @@ public function renderRegion(string $region): string
 }
 ```
 
-Available regions include: `content_bottom`, `content_top`, `course_tool_plugin`, `footer_center`, `footer_left`, `footer_right`, `header_center`, `header_left`, `header_main`, `header_right`, `login_bottom`, `login_top`, `main_bottom`, `main_top`, `menu_administrator`, `menu_bottom`, `menu_top`, `pre_footer`.
+利用可能な領域には以下が含まれます：`content_bottom`、`content_top`、`course_tool_plugin`、`footer_center`、`footer_left`、`footer_right`、`header_center`、`header_left`、`header_main`、`header_right`、`login_bottom`、`login_top`、`main_bottom`、`main_top`、`menu_administrator`、`menu_bottom`、`menu_top`、`pre_footer`。
 
-## Step 7: React to Platform Events (Optional)
+## ステップ7：プラットフォームイベントへの反応（オプション）
 
-Plugins can react to platform events using Symfony event subscribers. Create a file ending in `EventSubscriber.php` inside `src/EventSubscriber/` — it is auto-registered via `PluginEventSubscriberPass`.
+プラグインは、Symfonyのイベントサブスクライバを使用してプラットフォームイベントに反応できます。`src/EventSubscriber/`内に`EventSubscriber.php`で終わるファイルを作成すると、`PluginEventSubscriberPass`を介して自動的に登録されます。
 
 ```php
 <?php
@@ -144,7 +144,7 @@ class MyPluginEventSubscriber implements EventSubscriberInterface
 
     public function __construct()
     {
-        // Plugin classes are not Symfony services — use the create() singleton.
+        // プラグインクラスはSymfonyサービスではありません — create()シングルトンを使用します。
         $this->plugin = MyPluginPlugin::create();
     }
 
@@ -160,35 +160,35 @@ class MyPluginEventSubscriber implements EventSubscriberInterface
         if (!$this->plugin->isEnabled()) {
             return;
         }
-        // your logic here
+        // ここにロジックを記述
     }
 }
 ```
 
-See `src/CoreBundle/Event/Events.php` for the full list of available events (user, course, session, LP, exercise, portfolio, authentication, and more).
+利用可能なイベントの完全なリストについては、`src/CoreBundle/Event/Events.php`を参照してください（ユーザー、コース、セッション、LP、演習、ポートフォリオ、認証など）。
 
-## Step 8: Lifecycle Hooks
+## ステップ8：ライフサイクルフック
 
-Override these methods in your plugin class to respond to platform actions:
+プラットフォームのアクションに応答するために、プラグインクラス内で以下のメソッドをオーバーライドしてください：
 
-| Method | Triggered when |
-|--------|----------------|
-| `install()` | Plugin is activated |
-| `uninstall()` | Plugin is removed |
-| `performActionsAfterConfigure()` | Admin saves the config form |
-| `course_settings_updated(array $values)` | Course-level settings change |
-| `validateCourseSetting(string $variable)` | Course setting saved (return `false` to reject) |
-| `doWhenDeletingUser(int $userId)` | A user is deleted |
-| `doWhenDeletingCourse(int $courseId)` | A course is deleted |
-| `doWhenDeletingSession(int $sessionId)` | A session is deleted |
+| メソッド | トリガーされるタイミング |
+|--------|------------------|
+| `install()` | プラグインが有効化されたとき |
+| `uninstall()` | プラグインが削除されたとき |
+| `performActionsAfterConfigure()` | 管理者が設定フォームを保存したとき |
+| `course_settings_updated(array $values)` | コースレベルの設定が変更されたとき |
+| `validateCourseSetting(string $variable)` | コース設定が保存されたとき（拒否する場合は `false` を返す） |
+| `doWhenDeletingUser(int $userId)` | ユーザーが削除されたとき |
+| `doWhenDeletingCourse(int $courseId)` | コースが削除されたとき |
+| `doWhenDeletingSession(int $sessionId)` | セッションが削除されたとき |
 
-## Step 9: Activate
+## ステップ9：有効化
 
-Log in as administrator, navigate to **Manage plugins**, find your plugin, and click **Activate**.
+管理者としてログインし、**プラグイン管理**に移動して、作成したプラグインを見つけ、**有効化**をクリックしてください。
 
-## Tips
+## ヒント
 
-* **Follow existing plugins as examples** — `public/plugin/HelloWorld/` and `public/plugin/TopLinks/` are good simple references
-* **Use translations** — Always use the `lang/` system for user-facing text
-* **Clean up on uninstall** — Remove database tables and settings in the uninstall script
-* **Check enabled state** — In event subscribers, always call `$this->plugin->isEnabled()` before executing logic
+* **既存のプラグインを参考にする** — `public/plugin/HelloWorld/` や `public/plugin/TopLinks/` はシンプルな参考例として役立ちます
+* **翻訳を使用する** — ユーザー向けのテキストには常に `lang/` システムを利用してください
+* **アンインストール時にクリーンアップする** — アンインストールスクリプトでデータベーステーブルや設定を削除してください
+* **有効化状態を確認する** — イベントサブスクライバーでは、常に `$this->plugin->isEnabled()` を呼び出してロジックを実行する前に確認してください

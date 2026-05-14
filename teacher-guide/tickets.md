@@ -1,78 +1,78 @@
-# Support Tickets
+# サポートチケット
 
-The **Tickets** tool is a built-in helpdesk system that lets users submit support requests and track their resolution. Depending on how your platform is configured, you may use it as a **requester** (submitting tickets on behalf of yourself or your learners) or as a **support agent** (responding to tickets assigned to your category).
+**チケット**ツールは、ユーザーがサポートリクエストを送信し、その解決状況を追跡できる組み込みのヘルプデスクシステムです。プラットフォームの設定によっては、**リクエスター**（自分自身または学習者の代わりにチケットを送信する）または**サポートエージェント**（担当カテゴリのチケットに対応する）として使用することができます。
 
-## How the System Is Organized
+## システムの構成
 
-Tickets belong to **projects**, which are further divided into **categories**. Each category can have one or more support agents assigned to it. When a ticket is submitted, it is automatically routed to an available agent in the selected category.
+チケットは**プロジェクト**に属し、さらに**カテゴリ**に分類されます。各カテゴリには1人以上のサポートエージェントが割り当てられることがあります。チケットが送信されると、選択したカテゴリの利用可能なエージェントに自動的にルーティングされます。
 
-Default categories include:
+デフォルトのカテゴリには以下が含まれます：
 
-| Category | Description |
+| カテゴリ | 説明 |
 |----------|-------------|
-| Enrollment | Questions and issues about course or session enrollment |
-| General information | General platform questions |
-| Requests and paperwork | Administrative requests and documentation |
-| Academic Incidents | Issues related to exams, assignments, or tasks |
-| Virtual campus | Technical issues with the platform |
-| Online evaluation | Issues with a specific course assessment (requires selecting a course) |
+| 登録 | コースまたはセッションの登録に関する質問や問題 |
+| 一般情報 | プラットフォームに関する一般的な質問 |
+| リクエストおよび書類 | 管理上のリクエストや書類 |
+| 学務関連のインシデント | 試験、課題、タスクに関する問題 |
+| バーチャルキャンパス | プラットフォームの技術的な問題 |
+| オンライン評価 | 特定のコース評価に関する問題（コースの選択が必要） |
 
-## Accessing the Ticket Tool
+## チケットツールへのアクセス
 
-If your administrator has enabled the ticket link, a ticket icon <img src="/.gitbook/assets/icons/mdi-ticket-account.svg" alt="Ticket" data-size="line"> appears in the top navigation bar. Click it to go directly to the ticket submission form.
+管理者がチケットリンクを有効にしている場合、トップナビゲーションバーにチケットアイコン <img src="/.gitbook/assets/icons/mdi-ticket-account.svg" alt="チケット" data-size="line"> が表示されます。これをクリックすると、チケット送信フォームに直接移動します。
 
-You can also access your tickets from the main menu under **Support** or **Tickets**, depending on your platform configuration.
+また、プラットフォームの設定に応じて、メインメニュー内の**サポート**または**チケット**からもチケットにアクセスできます。
 
-## Submitting a Ticket
+## チケットの送信
 
-To open a new support request:
+新しいサポートリクエストを開くには：
 
-1. Click **New ticket** (or the ticket icon in the top bar).
-2. Select the **category** that best matches your issue.
-3. If the category requires it (for example, Online evaluation), select the relevant **course**.
-4. Enter a **subject** — a short summary of the issue.
-5. Write your **message** describing the problem in detail.
-6. Optionally attach files (screenshots, documents) to help the support agent understand the issue.
-7. Click **Submit**.
+1. **新しいチケット**（またはトップバーのチケットアイコン）をクリックします。
+2. 問題に最も適した**カテゴリ**を選択します。
+3. カテゴリが必要とする場合（たとえば、オンライン評価）、関連する**コース**を選択します。
+4. 問題の簡単な概要を**件名**に入力します。
+5. 問題を詳細に説明する**メッセージ**を記述します。
+6. 必要に応じて、サポートエージェントが問題を理解するのに役立つファイル（スクリーンショット、ドキュメント）を添付します。
+7. **送信**をクリックします。
 
-The ticket is assigned an ID and routed to a support agent. You will receive a notification when the agent responds.
+チケットにはIDが割り当てられ、サポートエージェントにルーティングされます。エージェントが返信すると通知が届きます。
 
-## Tracking Your Tickets
+## チケットの追跡
 
-From the ticket list, you can see all tickets you have submitted and their current status:
+チケットリストから、送信したすべてのチケットとその現在のステータスを確認できます：
 
-| Status | Meaning |
-|--------|---------|
-| New | Just submitted, not yet reviewed |
-| Pending | Being reviewed by a support agent |
-| Unconfirmed | Awaiting confirmation or additional information |
-| Forwarded | Transferred to another team or agent |
-| Closed | Resolved |
+| ステータス | 意味 |
+|------------|-------|
+| 新規 | 送信されたばかりで、まだ確認されていない |
+| 保留中 | サポートエージェントによる確認中 |
+| 未確認 | 確認または追加情報待ち |
+| 転送済み | 別のチームまたはエージェントに転送された |
+| 終了 | 解決済み |
 
-Click any ticket to read the full conversation thread and add a reply.
+任意のチケットをクリックすると、会話スレッド全体を読み、返信を追加できます。
 
-## Replying to a Ticket
+## チケットへの返信
 
-Once a ticket is open, you and the support agent exchange messages within the same thread. To add a reply:
+チケットが開かれた後、あなたとサポートエージェントは同じスレッド内でメッセージをやり取りします。返信を追加するには：
 
-1. Open the ticket from your list.
-2. Scroll to the reply field at the bottom.
-3. Write your response and attach files if needed.
-4. Click **Send**.
+1. リストからチケットを開きます。
+2. 下部にある返信フィールドまでスクロールします。
+3. 返信を記述し、必要に応じてファイルを添付します。
+4. **送信**をクリックします。
 
-Both parties receive notifications when a new message is added to the thread.
+スレッドに新しいメッセージが追加されると、両者に通知が届きます。
 
-## Handling Tickets as a Support Agent
+## サポートエージェントとしてのチケット対応
 
-If your administrator has assigned you to one or more ticket categories, you will see incoming tickets from learners or colleagues in your queue.
+管理者があなたを1つ以上のチケットカテゴリに割り当てている場合、学習者や同僚からの受信チケットがキューに表示されます。
 
-To respond to an assigned ticket:
+割り当てられたチケットに対応するには：
 
-1. Open your ticket list — assigned tickets appear alongside tickets you have submitted.
-2. Click a ticket to read the requester's message.
-3. Write a reply and click **Send**. The ticket status updates automatically.
-4. When the issue is resolved, change the status to **Closed**.
+1. チケットリストを開きます — 割り当てられたチケットは、送信したチケットと一緒に表示されます。
+2. チケットをクリックしてリクエスターのメッセージを読みます。
+3. 返信を記述し、**送信**をクリックします。チケットのステータスは自動的に更新されます。
+4. 問題が解決したら、ステータスを**終了**に変更します。
 
-You can also change the **priority** of a ticket (Low, Normal, High) to help triage your queue.
+また、キューの優先順位を管理するために、チケットの**優先度**（低、通常、高）を変更することもできます。
 
-> Access to ticket categories is controlled by the platform administrator. If you need to be added as a support agent for a category, contact your administrator. See the Admin Guide's [Tickets Settings](../admin-guide/platform-settings/ticket-settings.md) for configuration options.
+> チケットカテゴリへのアクセスはプラットフォーム管理者によって制御されています。カテゴリのサポートエージェントとして追加する必要がある場合は、管理者に連絡してください。設定オプションについては、管理者ガイドの[チケット設定](../admin-guide/platform-settings/ticket-settings.md)を参照してください。

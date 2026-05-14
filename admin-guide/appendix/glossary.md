@@ -1,74 +1,75 @@
-# Glossary
+# 用語集
 
-Key terms used in Chamilo 2.0 administration.
+Chamilo 2.0 管理で使用される主要な用語。
 
-## Platform Concepts
+## プラットフォームの概念
 
-| Term | Definition |
+| 用語 | 定義 |
 |------|------------|
-| **Access URL** | In a multi-URL setup, each access URL is a separate virtual portal sharing the same Chamilo installation and database. Each URL can have its own branding, users, courses, and settings. |
-| **Course** | The fundamental content container in Chamilo. A course holds learning materials, exercises, forums, and other tools. Courses can exist independently or be assigned to sessions. |
-| **Session** | A time-bound instance of one or more courses. Sessions allow the same course content to be delivered to different groups of learners with separate tracking and independent coaches. |
-| **Learning path** | A structured sequence of content items (documents, exercises, links, SCORM modules) that guides learners through material in a defined order. |
-| **Gradebook** | An aggregation tool that combines scores from exercises, assignments, and other activities into a weighted final grade for a course. |
-| **Skill** | A competency or badge that can be awarded to learners upon completing specific courses, exercises, or achieving gradebook thresholds. |
-| **Extra field** | A custom data field added by administrators to users, courses, or sessions to capture organization-specific metadata. |
-| **Plugin** | An extension that adds functionality to Chamilo without modifying core code. Plugins can add pages, tools, or integrations. |
-| **Catalog** | A browsable listing of available courses where users can view descriptions and self-enroll. |
+| **アクセスURL** | マルチURL設定では、各アクセスURLは同じChamiloインストールとデータベースを共有する別々の仮想ポータルです。各URLは独自のブランディング、ユーザー、コース、設定を持つことができます。 |
+| **コース** | Chamiloにおける基本的なコンテンツコンテナです。コースには学習資料、演習、フォーラム、その他のツールが含まれます。コースは独立して存在するか、セッションに割り当てることができます。 |
+| **セッション** | 1つ以上のコースの時間限定のインスタンスです。セッションを使用すると、同じコースコンテンツを異なる学習者グループに別々の追跡と独立したコーチで提供できます。 |
+| **学習パス** | コンテンツアイテム（ドキュメント、演習、リンク、SCORMモジュール）の構造化されたシーケンスで、学習者を定義された順序で資料に導きます。 |
+| **成績簿** | 演習、課題、その他の活動のスコアをコースの加重最終成績にまとめる集計ツールです。 |
+| **スキル** | 特定のコース、演習を修了したり、成績簿の閾値に達したりすることで学習者に授与される能力またはバッジです。 |
+| **追加フィールド** | 管理者によってユーザー、コース、またはセッションに追加されるカスタムデータフィールドで、組織固有のメタデータを取得します。 |
+| **プラグイン** | コアコードを変更せずにChamiloに機能を追加する拡張機能です。プラグインはページ、ツール、または統合を追加できます。 |
+| **カタログ** | 利用可能なコースの閲覧可能なリストで、ユーザーは説明を表示し、自己登録できます。 |
 
-## User Roles
+## ユーザーロール
 
-| Term | Definition |
+| 用語 | 定義 |
 |------|------------|
-| **Learner (Student)** | The default user role. Can enroll in courses and consume content. |
-| **Teacher (Trainer)** | Can create and manage courses, add content, and grade learners. |
-| **Session administrator** | Can create and manage sessions and enrollments. |
-| **Human Resources Manager (HRM)** | Can view tracking and reporting data for assigned users. |
-| **Portal administrator** | Full access to all platform administration features. |
-| **Global administrator** | Portal administrator with access across all access URLs in a multi-URL setup. |
-| **Coach/Tutor** | A session-level role. Session coaches oversee all courses in a session; course coaches manage a specific course within a session. All coaches references should be renamed to tutors in the long run. |
+| **学習者（学生）** | デフォルトのユーザーロール。コースに登録し、コンテンツを利用できます。 |
+| **教師（トレーナー）** | コースを作成および管理し、コンテンツを追加し、学習者を評価できます。 |
+| **セッション管理者** | セッションと登録を作成および管理できます。 |
+| **人事マネージャー（HRM）** | 割り当てられたユーザーの追跡およびレポートデータを閲覧できます。 |
+| **ポータル管理者** | プラットフォームのすべての管理機能にフルアクセスできます。 |
+| **グローバル管理者** | マルチURL設定ですべてのアクセスURLにアクセスできるポータル管理者。 |
+| **コーチ/チューター** | セッションレベルのロール。セッションコーチはセッション内のすべてのコースを監督し、コースコーチはセッション内の特定のコースを管理します。すべてのコーチの参照は長期的にはチューターに改名されるべきです。 |
 
-## Standards and Protocols
+## 標準とプロトコル
 
-| Term | Definition |
+| 用語 | 定義 |
 |------|------------|
-| **SCORM** | Sharable Content Object Reference Model. An e-learning packaging standard that allows courses to be imported and tracked. Chamilo supports SCORM 1.2 and 2004. |
-| **xAPI (Tin Can API)** | An e-learning specification for tracking learning experiences. Broader than SCORM, it can record activities that happen outside the LMS. xAPI statements are stored in a Learning Record Store (LRS). |
-| **LTI** | Learning Tools Interoperability. An IMS Global standard that allows external tools and content to be embedded within an LMS. Chamilo supports LTI 1.1 and 1.3 as both a consumer and provider. |
-| **SCIM** | System for Cross-domain Identity Management. A standard for automating user provisioning and deprovisioning between identity providers and applications. |
-| **OAuth2** | An authorization framework that allows third-party applications to access Chamilo on behalf of a user without sharing passwords. Used for API access and SSO integrations. |
-| **LDAP** | Lightweight Directory Access Protocol. A protocol for accessing directory services (e.g., Active Directory) to authenticate users and synchronize account data. |
-| **CAS** | Central Authentication Service. A single sign-on protocol that allows users to authenticate once and access multiple applications. |
-| **JWT** | JSON Web Token. A compact, signed token format used for API authentication and session management. |
-| **SAML** | Security Assertion Markup Language. An XML-based standard for exchanging authentication data between an identity provider and a service provider. |
+| **SCORM** | Sharable Content Object Reference Model。コースをインポートして追跡できるeラーニングパッケージング標準。ChamiloはSCORM 1.2および2004をサポートしています。 |
+| **xAPI (Tin Can API)** | 学習体験を追跡するためのeラーニング仕様。SCORMよりも広範で、LMS外で行われる活動を記録できます。xAPIステートメントはLearning Record Store (LRS)に保存されます。 |
+| **LTI** | Learning Tools Interoperability。外部ツールやコンテンツをLMS内に埋め込むことを可能にするIMS Global標準。ChamiloはLTI 1.1および1.3を消費者およびプロバイダーとしてサポートしています。 |
+| **SCIM** | System for Cross-domain Identity Management。アイデンティティプロバイダーとアプリケーション間でユーザー提供および解除を自動化する標準。 |
+| **OAuth2** | 第三者アプリケーションがパスワードを共有せずにユーザーに代わってChamiloにアクセスできるようにする認可フレームワーク。APIアクセスおよびSSO統合に使用されます。 |
+| **LDAP** | Lightweight Directory Access Protocol。ディレクトリサービス（例：Active Directory）にアクセスしてユーザーを認証し、アカウントデータを同期するためのプロトコル。 |
+| **CAS** | Central Authentication Service。ユーザーが一度認証するだけで複数のアプリケーションにアクセスできるシングルサインオンプロトコル。 |
+| **JWT** | JSON Web Token。API認証およびセッション管理に使用されるコンパクトな署名付きトークン形式。 |
+| **SAML** | Security Assertion Markup Language。アイデンティティプロバイダーとサービスプロバイダー間で認証データを交換するためのXMLベースの標準。 |
 
-## Technical Terms
+---
+## 技術用語
 
-| Term | Definition |
+| 用語 | 定義 |
 |------|------------|
-| **Symfony** | The PHP framework on which Chamilo 2.0 is built. Symfony provides routing, dependency injection, ORM (Doctrine), templating (Twig), and other infrastructure. |
-| **Doctrine** | The object-relational mapper (ORM) used by Chamilo to interact with the database. Doctrine maps PHP objects to database tables. |
-| **Twig** | The template engine used by Symfony and Chamilo for rendering HTML. |
-| **Flysystem** | A PHP filesystem abstraction layer. Chamilo uses Flysystem to support local storage, Amazon S3, Azure Blob, and Google Cloud Storage interchangeably. |
-| **Composer** | The PHP dependency manager. Used to install and update Chamilo's PHP libraries. |
-| **Mailer DSN** | Data Source Name for the email transport. A connection string that tells Symfony how to send emails (e.g., via SMTP, Amazon SES, or Mailjet). |
-| **OPcache** | PHP's built-in opcode cache. Compiles PHP scripts into bytecode and caches them in memory, significantly improving performance. |
-| **APCu** | A PHP extension providing a user-level in-memory cache. Used by Symfony for caching metadata and configuration. |
+| **Symfony** | Chamilo 2.0が構築されているPHPフレームワーク。Symfonyはルーティング、依存性注入、ORM（Doctrine）、テンプレート（Twig）、その他のインフラストラクチャを提供します。 |
+| **Doctrine** | Chamiloがデータベースとやり取りするために使用するオブジェクトリレーショナルマッパー（ORM）。DoctrineはPHPオブジェクトをデータベーステーブルにマッピングします。 |
+| **Twig** | SymfonyおよびChamiloがHTMLをレンダリングするために使用するテンプレートエンジン。 |
+| **Flysystem** | PHPのファイルシステム抽象化レイヤー。ChamiloはFlysystemを使用して、ローカルストレージ、Amazon S3、Azure Blob、Google Cloud Storageを相互に利用可能にしています。 |
+| **Composer** | PHPの依存性管理ツール。ChamiloのPHPライブラリをインストールおよび更新するために使用されます。 |
+| **Mailer DSN** | メールトランスポート用のデータソース名。Symfonyにメールの送信方法（例：SMTP、Amazon SES、Mailjet経由）を指示する接続文字列。 |
+| **OPcache** | PHPに組み込まれたオペコードキャッシュ。PHPスクリプトをバイトコードにコンパイルし、メモリにキャッシュすることでパフォーマンスを大幅に向上させます。 |
+| **APCu** | ユーザーレベルのメモリ内キャッシュを提供するPHP拡張機能。Symfonyがメタデータや設定をキャッシュするために使用します。 |
 
-## Acronyms
+## 略語
 
-| Acronym | Full Form |
+| 略語 | 完全形 |
 |---------|-----------|
-| **LMS** | Learning Management System |
-| **LRS** | Learning Record Store (for xAPI statements) |
-| **SSO** | Single Sign-On |
-| **CSV** | Comma-Separated Values (used for user/course imports) |
-| **API** | Application Programming Interface |
-| **REST** | Representational State Transfer (API architecture style) |
-| **GDPR** | General Data Protection Regulation (EU data privacy law) |
-| **HSTS** | HTTP Strict Transport Security |
-| **CDN** | Content Delivery Network |
-| **DNS** | Domain Name System |
-| **SPF** | Sender Policy Framework (email authentication) |
-| **DKIM** | DomainKeys Identified Mail (email authentication) |
-| **DMARC** | Domain-based Message Authentication, Reporting, and Conformance |
+| **LMS** | 学習管理システム (Learning Management System) |
+| **LRS** | 学習記録ストア (Learning Record Store、xAPIステートメント用) |
+| **SSO** | シングルサインオン (Single Sign-On) |
+| **CSV** | カンマ区切り値 (Comma-Separated Values、ユーザー/コースのインポートに使用) |
+| **API** | アプリケーション・プログラミング・インターフェース (Application Programming Interface) |
+| **REST** | 表現状態転送 (Representational State Transfer、APIアーキテクチャスタイル) |
+| **GDPR** | 一般データ保護規則 (General Data Protection Regulation、EUのデータプライバシー法) |
+| **HSTS** | HTTP厳格トランスポートセキュリティ (HTTP Strict Transport Security) |
+| **CDN** | コンテンツ配信ネットワーク (Content Delivery Network) |
+| **DNS** | ドメイン名システム (Domain Name System) |
+| **SPF** | 送信者ポリシーフレームワーク (Sender Policy Framework、メール認証) |
+| **DKIM** | ドメインキー識別メール (DomainKeys Identified Mail、メール認証) |
+| **DMARC** | ドメインベースのメッセージ認証、報告、適合 (Domain-based Message Authentication, Reporting, and Conformance) |

@@ -1,22 +1,22 @@
-# Session Categories
+# セッションカテゴリ
 
-Session categories help organize your sessions, especially when you have many sessions running simultaneously.
+セッションカテゴリは、特に多くのセッションが同時に進行している場合に、セッションを整理するのに役立ちます。
 
-## Creating a Category
+## カテゴリの作成
 
-1. From the administration panel, navigate to **Session categories**
-2. Click **Add a category**
-3. Enter a **name** and optional start/end dates
-4. Save
+1. 管理パネルから、**セッションカテゴリ**に移動します。
+2. **カテゴリを追加**をクリックします。
+3. **名前**と、必要に応じて開始日/終了日を入力します。
+4. 保存します。
 
-## Use Cases
+## ユースケース
 
-* **By program** — "Leadership Development", "Technical Training", "Onboarding"
-* **By period** — "Q1 2026", "Spring Semester", "July Batch"
-* **By department** — "Engineering", "Sales", "Human Resources"
+* **プログラム別** — 「リーダーシップ開発」、「技術トレーニング」、「オンボーディング」
+* **期間別** — 「2026年第1四半期」、「春学期」、「7月バッチ」
+* **部門別** — 「エンジニアリング」、「営業」、「人事」
 
-## Managing Categories
+## カテゴリの管理
 
-* **Edit** — Change the category name or dates
-* **Assign sessions** — When creating or editing a session, select its category
-* **Delete** — Remove a category (sessions in the category become uncategorized)
+* **編集** — カテゴリ名や日付を変更します。
+* **セッションの割り当て** — セッションを作成または編集する際に、カテゴリを選択します。
+* **削除** — カテゴリを削除します（カテゴリ内のセッションはカテゴリなしの状態になります）。

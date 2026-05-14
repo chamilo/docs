@@ -1,47 +1,47 @@
-# Course Categories
+# コースカテゴリ
 
-Course categories help organize your course catalog, making it easier for learners to find relevant courses.
+コースカテゴリは、コースカタログを整理するのに役立ち、学習者が関連するコースを見つけやすくします。
 
-## Creating a Category
+## カテゴリの作成
 
-1. From the administration panel, navigate to **Course categories**
-2. Click **Add category**
-3. Enter:
-   * **Category code** — A short unique identifier
-   * **Category name** — The display name (e.g., "Information Technology", "Management Skills")
-   * **Allow adding courses in this category?** — Whether it allows courses to set this as a category, or it just serves as an intermediate level in a hierarchy 
-   * **Parent category** — (Optional) Place this category under another category to create a hierarchy
-   * **Description** — (Optional)
-   * **Image** — (Optional) Will represent this category, although it almost doesn't show anywhere
-4. Press *Add category*
+1. 管理パネルから **コースカテゴリ** に移動します。
+2. **カテゴリの追加** をクリックします。
+3. 以下の情報を入力します：
+   * **カテゴリコード** — 短い一意の識別子
+   * **カテゴリ名** — 表示名（例：「情報技術」、「マネジメントスキル」）
+   * **このカテゴリにコースを追加することを許可しますか？** — コースがこのカテゴリを設定できるかどうか、または単に階層の中間レベルとして機能するだけか
+   * **親カテゴリ** — （任意）このカテゴリを別のカテゴリの下に配置して階層を作成
+   * **説明** — （任意）
+   * **画像** — （任意）このカテゴリを表す画像ですが、ほとんど表示されません
+4. *カテゴリの追加* を押します。
 
-Chamilo creates 3 categories by default: *Language skills*, *PC Skills* and *Projects*. These can be renamed, removed or kept, depending on your needs.
+Chamiloではデフォルトで3つのカテゴリが作成されます：*言語スキル*、*PCスキル*、*プロジェクト*。これらは必要に応じて名前を変更したり、削除したり、保持したりすることができます。
 
-## Category Hierarchy
+## カテゴリ階層
 
-![The course categories management page showing a nested tree of categories](/.gitbook/assets/admin-course-categories.png)
+![コースカテゴリ管理ページでネストされたカテゴリのツリーを表示](/.gitbook/assets/admin-course-categories.png)
 
-Categories can be nested to create a tree structure:
+カテゴリはネストしてツリー構造を作成することができます：
 
-* Business
-  * Management
-  * Marketing
-  * Finance
-* Technology
-  * Programming
-  * Networking
-  * Cybersecurity
+* ビジネス
+  * マネジメント
+  * マーケティング
+  * ファイナンス
+* テクノロジー
+  * プログラミング
+  * ネットワーキング
+  * サイバーセキュリティ
 
-Learners browsing the course catalog can navigate through this hierarchy to find courses.
+コースカタログを閲覧する学習者は、この階層を移動してコースを見つけることができます。
 
-## Managing Categories
+## カテゴリの管理
 
-* **Edit** — Change the category name, code, or parent
-* **Move** — Change the position of a category in the list
-* **Delete** — Remove a category. Courses in a deleted category are moved to "uncategorized."
+* **編集** — カテゴリ名、コード、または親カテゴリを変更
+* **移動** — リスト内のカテゴリの位置を変更
+* **削除** — カテゴリを削除。削除されたカテゴリ内のコースは「未分類」に移動されます。
 
-## Tips
+## ヒント
 
-* **Keep it simple** — Use broad categories that learners can understand at a glance
-* **Limit depth** — Avoid deeply nested categories. Two or three levels are usually sufficient.
-* **Assign categories during course creation** — Encourage teachers to select a category when creating courses, so the catalog stays organized
+* **シンプルに保つ** — 学習者が一目で理解できる広範なカテゴリを使用
+* **深さを制限する** — 深くネストされたカテゴリを避ける。2〜3レベルで通常十分です。
+* **コース作成時にカテゴリを割り当てる** — 教師がコース作成時にカテゴリを選択するよう促し、カタログを整理された状態に保つ

@@ -1,227 +1,220 @@
-# User Profile Settings
+# ユーザープロフィール設定
 
-Which fields appear on the user profile, which ones the user can edit, and related preferences.
+ユーザープロフィールに表示されるフィールド、ユーザーが編集可能なフィールド、および関連する設定。
 
-Access these settings under **Administration > Configuration settings > User Profile**. This category contains **29 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+これらの設定には **管理 > 設定 > ユーザープロフィール** からアクセスできます。このカテゴリには **29の設定** が含まれており、以下にプラットフォームの設定フィクスチャ（`SettingsCurrentFixtures.php`）に含まれるタイトルとコメントとともにリストアップされています。
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> コード内の変数名は等幅フォントで表示されています。APIを通じてスクリプトを作成する場合や、`config/settings_override.yaml`（[リンク](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml)）を編集してこれらの設定をグローバルレベルで変更する必要がある場合に使用してください。
 
-## Settings
+## 設定
 
 ### `account_valid_duration`
 
-**Account validity**
+**アカウントの有効期間**
 
-A user account is valid for this number of days after creation
+ユーザーアカウントは作成後、この日数間有効です。
 
-*Default: `3660`*
-
+*デフォルト: `3660`*
 
 ### `add_user_course_information_in_mailto`
 
-**Pre-fill the mail with user and course info in footer contact**
+**フッターの連絡先にユーザーおよびコース情報を事前入力**
 
-Add subject and body in the mailto: footer.
+mailto: フッターに件名と本文を追加します。
 
-*Default: `false`*
-
+*デフォルト: `false`*
 
 ### `allow_show_linkedin_url`
 
-**Allow show the user LinkedIn URL**
+**ユーザーのLinkedIn URLの表示を許可**
 
-Add a link on the user social block, allowing visit the user's LinkedIn profile
+ユーザーのソーシャルブロックにリンクを追加し、ユーザーのLinkedInプロフィールにアクセスできるようにします。
 
 ### `allow_show_skype_account`
 
-**Allow show the user Skype account**
+**ユーザーのSkypeアカウントの表示を許可**
 
-Add a link on the user social block allowing start a chat by Skype
+ユーザーのソーシャルブロックにリンクを追加し、Skypeでチャットを開始できるようにします。
 
 ### `allow_social_map_fields`
 
-**Users geolocation on a map**
+**ユーザーの地図上での位置情報**
 
-Enable the display of a map in the social network allowing you to locate other users. This includes several positions (current and destination) which have to be defined as addresses or coordinates in separate extra fields. The extra fields must be set as an array here.
+ソーシャルネットワーク内で他のユーザーの位置を表示する地図の表示を有効にします。これには、現在の位置や目的地など、複数の位置が含まれ、別々の追加フィールドで住所または座標として定義する必要があります。追加フィールドはここで配列として設定する必要があります。
 
 ### `allow_teachers_to_classes`
 
-**Allow teachers to manage classes**
+**教師がクラスを管理することを許可**
 
-Enables teachers to manage class groups and their membership within the system.
+教師がシステム内でクラスグループとそのメンバーシップを管理できるようにします。
 
-*Default: `false`*
-
+*デフォルト: `false`*
 
 ### `allow_user_headings`
 
-**Allow users profiling inside courses**
+**コース内でのユーザープロファイリングを許可**
 
-Can a teacher define learner profile fields to retrieve additional information?
+教師が学習者のプロフィールフィールドを定義して追加情報を取得できるようにします。
 
 ### `allow_users_to_change_email_with_no_password`
 
-**Allow users to change e-mail without password**
+**パスワードなしでメールアドレスを変更することを許可**
 
-When changing the account information
+アカウント情報を変更する際。
 
-*Default: `false`*
+*デフォルト: `false`*
 
 ### `changeable_options`
 
-**Fields users are allowed to change in their profile**
+**ユーザーがプロフィールで変更可能なフィールド**
 
-Select the fields users will be able to change on their profile page.
-
+ユーザーがプロフィールページで変更できるフィールドを選択します。
 
 ### `enable_profile_user_address_geolocalization`
 
-**Enable user's geolocalization**
+**ユーザーの位置情報を有効化**
 
-Enable user's address field and show it on a map using geolocalization features
+ユーザーの住所フィールドを有効にし、位置情報機能を使用して地図上に表示します。
 
 ### `extended_profile`
 
-**Portfolio**
+**ポートフォリオ**
 
-If this setting is on, a user can fill in the following (optional) fields: 'My personal open area', 'My competences', 'My diplomas', 'What I am able to teach'
+この設定が有効の場合、ユーザーは以下の（任意の）フィールドを入力できます：'私の個人的なオープンエリア'、'私の能力'、'私の学位'、'私が教えることができること'
 
-*Default: `false`*
+*デフォルト: `false`*
 
 ### `hide_username_in_course_chat`
 
-**Hide username in course chat**
+**コースチャットでユーザー名を非表示**
 
-In the course chat, hide the username. Only display people's names.
+コースチャットでユーザー名を非表示にします。人の名前のみを表示します。
 
-*Default: `false`*
-
+*デフォルト: `false`*
 
 ### `hide_username_with_complete_name`
 
-**Hide username when already showing complete name**
+**完全な名前を表示する際にユーザー名を非表示**
 
-Some internal functions will return the username when returning the user's complete name. With this option enabled, you ensure the username will not appear.
+一部の内部機能では、ユーザーの完全な名前を返す際にユーザー名も返します。このオプションを有効にすると、ユーザー名が表示されないようにします。
 
-*Default: `false`*
-
+*デフォルト: `false`*
 
 ### `linkedin_organization_id`
 
-**LinkedIn Orgnization ID**
+**LinkedIn組織ID**
 
-When sharing a badge on LinkedIn, LinkedIn allows you to set an organization ID that will link to the LinkedIn's page of your organization (to link the organization attributing the badge).
+バッジをLinkedInで共有する際、LinkedInでは組織IDを設定することで、バッジを授与する組織のLinkedInページにリンクすることができます。
 
-*Default: `false`*
-
+*デフォルト: `false`*
 
 ### `login_is_email`
 
-**Use the email as username**
+**メールアドレスをユーザー名として使用**
 
-Use the email in order to login to the system
+システムにログインするためにメールアドレスを使用します。
 
-*Default: `false`*
+*デフォルト: `false`*
 
 ### `my_space_users_items_per_page`
 
-**Default number of items per page in mySpace**
+**MySpaceでのページごとのデフォルトアイテム数**
 
-Number of records displayed per page in MySpace tracking sections (users, work statistics, student list).
+MySpaceのトラッキングセクション（ユーザー、作業統計、学生リスト）でページごとに表示されるレコード数。
 
-*Default: `10`*
-
+*デフォルト: `10`*
 
 ### `pass_reminder_custom_link`
 
-**Custom page for password reminder**
+**パスワードリマインダーのカスタムページ**
 
-Set your own URL to a password reset page. Useful when using a federated account management system.
+パスワードリセットページへの独自のURLを設定します。フェデレーテッドアカウント管理システムを使用している場合に便利です。
 
 ### `profile_fields_visibility`
 
-**Fields visible on profile page**
+**プロフィールページで表示されるフィールド**
 
-Array of fields and whether (boolean) they are visible or not on the user's profile page (also works with extra fields labels).
+ユーザーのプロフィールページで表示されるかどうか（ブール値）を示すフィールドの配列（追加フィールドのラベルにも対応）。
 
 ### `registration_add_helptext_for_2_names`
 
-**Add helper to add two names in registration**
+**登録時に2つの名前を入力するためのヘルプを追加**
 
-Add help text for users to enter two names in the registration form when double lastnames are common.
+ダブル姓が一般的な場合、登録フォームでユーザーが2つの名前を入力するためのヘルプテキストを追加します。
 
-*Default: `false`*
-
+*デフォルト: `false`*
 
 ### `send_notification_when_user_added`
 
-**Send mail to admin when user created**
+**ユーザーが作成されたときに管理者にメールを送信**
 
-Send email notification to admin when a user is created.
+ユーザーが作成されたときに管理者にメール通知を送信します。
 
 ### `show_conditions_to_user`
 
-**Show specific registration conditions**
+**特定の登録条件を表示**
 
-Show multiple conditions to user during sign up process. Provide an array with each element containing 'variable' (internal extra field name), 'display_text' (simple text for a checkbox), 'text_area' (long text of conditions).
+サインアッププロセス中にユーザーに複数の条件を表示します。各要素に 'variable'（内部の追加フィールド名）、'display_text'（チェックボックスの簡単なテキスト）、'text_area'（条件の長いテキスト）を含む配列を提供します。
 
 ### `show_official_code_whoisonline`
 
-**Official code on 'Who is online'**
+**「オンライン中のユーザー」に公式コードを表示**
 
-Show official code on the 'Who is online' page, below the username.
+「オンライン中のユーザー」ページでユーザー名の下に公式コードを表示します。
 
-*Default: `false`*
+*デフォルト: `false`*
 
+---
 ### `show_terms_if_profile_completed`
 
-**Terms and conditions only if profile complete**
+**プロフィールが完成した場合のみ利用規約を表示**
 
-By enabling this option, terms and conditions will be available to the user only when the extra profile fields that start with 'terms_' and set to visible are completed.
+このオプションを有効にすると、利用規約は、'terms_' で始まり、表示設定がされている追加のプロフィールフィールドがすべて入力された場合にのみ、ユーザーに表示されます。
 
-*Default: `false`*
+*デフォルト: `false`*
 
 
 ### `split_users_upload_directory`
 
-**Split users' upload directory**
+**ユーザーのアップロードディレクトリを分割**
 
-On high-load portals, where a lot of users are registered and send their pictures, the upload directory (main/upload/users/) might contain too many files for the filesystem to handle (it has been reported with more than 36000 files on a Debian server). Changing this option will enable a one-level splitting of the directories in the upload directory. 9 directories will be used in the base directory and all subsequent users' directories will be stored into one of these 9 directories. The change of this option will not affect the directories structure on disk, but will affect the behaviour of the Chamilo code, so if you change this option, you have to create the new directories and move the existing directories by yourself on te server. Be aware that when creating and moving those directories, you will have to move the directories of users 1 to 9 into subdirectories of the same name. If you are not sure about this option, it is best not to activate it.
+高負荷のポータルでは、多数のユーザーが登録し、画像を送信するため、アップロードディレクトリ（main/upload/users/）にファイルが多すぎてファイルシステムが処理できない場合があります（Debianサーバーで36,000ファイル以上で問題が報告されています）。このオプションを変更すると、アップロードディレクトリ内のディレクトリを1レベル分割する機能が有効になります。ベースディレクトリ内に9つのディレクトリが使用され、以降のすべてのユーザーディレクトリはその9つのディレクトリのうちの1つに保存されます。このオプションの変更はディスク上のディレクトリ構造には影響を与えませんが、Chamiloのコードの動作に影響を与えるため、このオプションを変更する場合は、サーバー上で新しいディレクトリを作成し、既存のディレクトリを自分で移動する必要があります。ディレクトリを作成および移動する際には、ユーザー1から9までのディレクトリを同名のサブディレクトリに移動する必要があることに注意してください。このオプションについて確信が持てない場合は、アクティブにしないことをお勧めします。
 
-*Default: `true`*
+*デフォルト: `true`*
+
 
 ### `use_users_timezone`
 
-**Enable users timezones**
+**ユーザーのタイムゾーンを有効にする**
 
-Enable the possibility for users to select their own timezone. Once configured, users will be able to see assignment deadlines and other time references in their own timezone, which will reduce errors at delivery time.
+ユーザーが自分のタイムゾーンを選択できるようにするオプションを有効にします。設定が完了すると、ユーザーは課題の締め切りやその他の時間参照を自分のタイムゾーンで確認できるようになり、提出時のエラーが減少します。
 
-*Default: `true`*
+*デフォルト: `true`*
+
 
 ### `user_import_settings`
 
-**Options for user import**
+**ユーザーインポートのオプション**
 
-Array of options to apply as default parameters in the CSV/XML user import.
+CSV/XMLユーザーインポート時にデフォルトパラメータとして適用するオプションの配列。
 
 ### `user_search_on_extra_fields`
 
-**Search users by extra fields in users list for admins**
+**管理者のユーザーリストで追加フィールドによるユーザー検索**
 
-Naturally include the given extra fields (array of extra fields labels) in the user searches.
+指定された追加フィールド（追加フィールドラベルの配列）をユーザー検索に自然に含めます。
 
 ### `user_selected_theme`
 
-**User theme selection**
+**ユーザーのテーマ選択**
 
-Allow users to select their own visual theme in their profile. This will change the look of Chamilo for them, but will leave the default style of the portal intact. If a specific course or session has a specific theme assigned, it will have priority over user-defined themes.
+ユーザーがプロフィールで独自のビジュアルテーマを選択できるようにします。これにより、ユーザーのChamiloの外観が変更されますが、ポータルのデフォルトスタイルはそのまま残ります。特定のコースまたはセッションに特定のテーマが割り当てられている場合、ユーザー定義のテーマよりも優先されます。
 
-*Default: `false`*
+*デフォルト: `false`*
+
 
 ### `visible_options`
 
-**List of visible fields in profile**
+**プロフィール内の表示フィールドのリスト**
 
-Controls which profile fields are visible to users and others.
-
-
+ユーザーや他の人に表示されるプロフィールフィールドを制御します。

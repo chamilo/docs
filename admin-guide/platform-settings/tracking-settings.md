@@ -1,73 +1,73 @@
-# Tracking Settings
+# トラッキング設定
 
-Tracking-related defaults — what is recorded, what reports are exposed, time computation rules.
+トラッキング関連のデフォルト設定 — 記録される内容、公開されるレポート、時間計算ルール。
 
-Access these settings under **Administration > Configuration settings > Tracking**. This category contains **10 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+これらの設定には **管理 > 設定 > トラッキング** からアクセスできます。このカテゴリには **10個の設定** が含まれており、以下にプラットフォームの設定フィクスチャ (`SettingsCurrentFixtures.php`) に含まれるタイトルとコメントを記載しています。
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> コード内の変数名は等幅フォントで表示されています。APIを通じてスクリプトを作成する場合や、[`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml) を編集してこれらの設定をグローバルレベルで変更する必要がある場合に使用してください。
 
-## Settings
+## 設定
 
 ### `block_my_progress_page`
 
-**Prevent access to 'My progress'**
+**「マイプログレス」ページへのアクセスを防止**
 
-In specific implementations like online exams, you might want to prevent user access to the 'My progress' page.
+オンライン試験などの特定の実施形態では、ユーザーが「マイプログレス」ページにアクセスできないようにしたい場合があります。
 
-*Default: `false`*
+*デフォルト: `false`*
 
 ### `footer_extra_content`
 
-**Extra content in footer**
+**フッターに追加するコンテンツ**
 
-You can add HTML code like meta tags
+メタタグなどのHTMLコードを追加できます。
 
 ### `header_extra_content`
 
-**Extra content in header**
+**ヘッダーに追加するコンテンツ**
 
-You can add HTML code like meta tags
+メタタグなどのHTMLコードを追加できます。
 
 ### `meta_description`
 
-**Meta description**
+**メタ記述**
 
-This will show an OpenGraph Description meta (og:description) in your site's headers
+サイトのヘッダーにOpenGraph Descriptionメタタグ (og:description) が表示されます。
 
 ### `meta_image_path`
 
-**Meta image path**
+**メタ画像パス**
 
-This Meta Image path is the path to a file inside your Chamilo directory (e.g. home/image.png) that should show in a Twitter card or a OpenGraph card when showing a link to your LMS. Twitter recommends an image of 120 x 120 pixels, which might sometimes be cropped to 120x90.
+このメタ画像パスは、Chamiloディレクトリ内にあるファイル（例: home/image.png）へのパスで、LMSへのリンクを表示する際にTwitterカードやOpenGraphカードに表示されるべきものです。Twitterは120 x 120ピクセルの画像を推奨しており、場合によっては120x90にトリミングされることがあります。
 
 ### `meta_title`
 
-**OpenGraph meta title**
+**OpenGraphメタタイトル**
 
-This will show an OpenGraph Title meta (og:title) in your site's headers
+サイトのヘッダーにOpenGraph Titleメタタグ (og:title) が表示されます。
 
 ### `meta_twitter_creator`
 
-**Twitter Creator account**
+**Twitterクリエイターアカウント**
 
-The Twitter Creator is a Twitter account (e.g. @ywarnier) that represents the *person* that created the site. This field is optional.
+Twitterクリエイターは、サイトを作成した*個人*を表すTwitterアカウント（例: @ywarnier）です。このフィールドは任意です。
 
 ### `meta_twitter_site`
 
-**Twitter Site account**
+**Twitterサイトアカウント**
 
-The Twitter site is a Twitter account (e.g. @chamilo_news) that is related to your site. It is usually a more temporary account than the Twitter creator account, or represents an entity (instead of a person). This field is required if you want the Twitter card meta fields to show.
+Twitterサイトは、サイトに関連するTwitterアカウント（例: @chamilo_news）です。通常、Twitterクリエイターアカウントよりも一時的なアカウントであるか、個人ではなくエンティティを表します。Twitterカードのメタフィールドを表示させたい場合は、このフィールドが必須です。
 
 ### `my_progress_course_tools_order`
 
-**Order of tools on 'My progress' page**
+**「マイプログレス」ページのツールの順序**
 
-Change the order of tools shown on the 'My progress' page for learners. Options include 'quizzes', 'learning_paths' and 'skills'.
+学習者の「マイプログレス」ページに表示されるツールの順序を変更します。オプションには 'quizzes'、'learning_paths'、'skills' があります。
 
 ### `tracking_skip_generic_data`
 
-**Skip generic data in learner self-tracking page**
+**学習者の自己トラッキングページで汎用データをスキップ**
 
-If the 'My progress' page takes too long to load, you might want to remove the processing of generic statistics for the user. In this case enable this setting.
+「マイプログレス」ページの読み込みに時間がかかりすぎる場合、ユーザーの汎用統計情報の処理を削除したいことがあります。その場合はこの設定を有効にしてください。
 
-*Default: `false`*
+*デフォルト: `false`*

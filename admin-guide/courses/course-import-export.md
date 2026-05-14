@@ -1,78 +1,78 @@
-# Course Import and Export
+# コースのインポートとエクスポート
 
-Chamilo supports importing and exporting courses for backup, migration, and content sharing purposes.
+Chamiloは、バックアップ、移行、コンテンツ共有の目的でコースのインポートとエクスポートをサポートしています。
 
-These features are located inside the course, in the **Maintenance** tool located under the cog icon at the top of the course homepage.
+これらの機能は、コース内にあるコースホームページ上部の歯車アイコン下にある**メンテナンス**ツール内にあります。
 
-## Exporting a Course
+## コースのエクスポート
 
-Teachers can export their own courses from the course Maintenance tool. As an administrator, you can export any course:
+教師はコースメンテナンスツールから自分のコースをエクスポートすることができます。管理者として、任意のコースをエクスポートすることができます：
 
-1. Enter the course
-2. Access the **Course maintenance** tool
-3. Select **Create a backup**
-4. Choose what to include (content, user data, etc.)
-5. Download the export file
+1. コースに入る
+2. **コースメンテナンス**ツールにアクセスする
+3. **バックアップを作成**を選択する
+4. 含める内容（コンテンツ、ユーザーデータなど）を選択する
+5. エクスポートファイルをダウンロードする
 
-The export creates a package containing the course's documents, exercises, forums, learning paths, and configuration.
+エクスポートでは、コースのドキュメント、演習、フォーラム、学習パス、設定を含むパッケージが作成されます。
 
-## Importing a Course
+## コースのインポート
 
-To import a course from a Chamilo export file:
+Chamiloのエクスポートファイルからコースをインポートするには：
 
-1. Enter the course
-2. Access the **Course maintenance** tool
-3. In the **Import backup** section, upload the export file
-4. Choose what to include (content, user data, etc.)
-5. Configure import options:
-   * Whether to overwrite existing content
-   * Whether to include user data
-6. Run the import
+1. コースに入る
+2. **コースメンテナンス**ツールにアクセスする
+3. **バックアップのインポート**セクションで、エクスポートファイルをアップロードする
+4. 含める内容（コンテンツ、ユーザーデータなど）を選択する
+5. インポートオプションを設定する：
+   * 既存のコンテンツを上書きするかどうか
+   * ユーザーデータを含めるかどうか
+6. インポートを実行する
 
-## Copying a Course
+## コースのコピー
 
-To copy the contents from another course into your course, you will need a source course and a destination course to be created first.
+別のコースから内容を自分のコースにコピーするには、まずソースコースと宛先コースを作成する必要があります。
 
-1. Enter the destination course
-2. Access the **Course maintenance** tool
-3. In the **Copy course** section, select the **Source** course
-4. Validate the options
-5. Click **Continue** and follow the instructions
+1. 宛先コースに入る
+2. **コースメンテナンス**ツールにアクセスする
+3. **コースのコピー**セクションで、**ソース**コースを選択する
+4. オプションを確認する
+5. **続行**をクリックし、指示に従う
 
-## Common Cartridge
+## コモンカートリッジ
 
-Chamilo supports the **IMS Common Cartridge 1.3** (IMS CC 1.3) standard for interoperability with other learning management systems. You can:
+Chamiloは、他の学習管理システムとの相互運用性のために**IMS Common Cartridge 1.3** (IMS CC 1.3) 標準をサポートしています。以下のことができます：
 
-* **Import** Common Cartridge packages (.imscc files)
-* **Export** course content in Common Cartridge format
+* コモンカートリッジパッケージ（.imsccファイル）を**インポート**する
+* コースコンテンツをコモンカートリッジ形式で**エクスポート**する
 
-This allows content exchange with other platforms that support the Common Cartridge standard (Moodle, Canvas, Blackboard, etc.).
+これにより、Moodle、Canvas、Blackboardなど、コモンカートリッジ標準をサポートする他のプラットフォームとのコンテンツ交換が可能になります。
 
-## Recycling a course
+## コースのリサイクル
 
-The course recycling feature simply allows you to keep the shell of the course but to erase its content.
+コースのリサイクル機能は、コースの枠組みを保持しつつ、その内容を消去することを可能にします。
 
-## Deleting a course
+## コースの削除
 
-This will completely erase your course, including all its contents and the user activity in it.
+これにより、コースの内容やユーザーの活動を含むすべてのデータが完全に消去されます。
 
-To delete a course permanently:
+コースを完全に削除するには：
 
-1. Enter the destination course
-2. Access the **Course maintenance** tool
-3. In the **Completely delete this course** section, enter the code of the course manually to confirm your intention
-4. Validate
+1. 宛先コースに入る
+2. **コースメンテナンス**ツールにアクセスする
+3. **このコースを完全に削除**セクションで、意図を確認するためにコースのコードを手動で入力する
+4. 確認する
 
-You then get redirected to the portal homepage, because the course does not exist anymore.
+その後、コースが存在しなくなるため、ポータルのホームページにリダイレクトされます。
 
-## Moodle Import
+## Moodleのインポート
 
-Chamilo can import course backups from **Moodle**. The importer converts Moodle's content structure to Chamilo's format, including quizzes, documents, and course settings.
+Chamiloは**Moodle**からのコースバックアップをインポートすることができます。インポーターは、クイズ、ドキュメント、コース設定を含むMoodleのコンテンツ構造をChamiloの形式に変換します。
 
-> **Work in progress.** Although it already covers a wide base, the Moodle importer does not currently cover every Moodle activity type and content format. Treat it as a starting point that may still require manual adjustment after the import completes. If you detect any failing/missing element in the import or export, please report it to us through our [Github space](https://github.com/chamilo/chamilo-lms/issues) by clicking **New issue** at the top and giving as much details as possible (including the course backup itself if it's not confidential).
+> **作業中。** すでに広範囲をカバーしていますが、Moodleインポーターは現在、すべてのMoodleアクティビティタイプやコンテンツ形式をカバーしていません。インポートが完了した後、手動での調整が必要な場合がある出発点として扱ってください。インポートまたはエクスポートで失敗した要素や欠けている要素を見つけた場合は、[Github space](https://github.com/chamilo/chamilo-lms/issues) を通じて私たちに報告してください。上部の**New issue**をクリックし、可能な限り詳細（機密でない場合はコースバックアップ自体を含む）を記載してください。
 
-## Tips
+## ヒント
 
-* **Regular backups** — Encourage teachers to export their courses periodically as a backup
-* **Test imports** — When importing content from another platform, test the import in a trial course first to verify that everything transferred correctly
-* **Content portability** — Use Common Cartridge format when you need to share content with other LMS platforms
+* **定期的なバックアップ** — 教師にコースを定期的にバックアップとしてエクスポートするよう促してください
+* **インポートのテスト** — 他のプラットフォームからコンテンツをインポートする際は、まず試用コースでインポートをテストし、すべてが正しく転送されたことを確認してください
+* **コンテンツのポータビリティ** — 他のLMSプラットフォームとコンテンツを共有する必要がある場合は、コモンカートリッジ形式を使用してください

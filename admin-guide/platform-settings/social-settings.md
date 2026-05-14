@@ -1,70 +1,65 @@
-# Social Network Settings
+# ソーシャルネットワーク設定
 
-Behaviour of the **Social Network** — friends, groups, wall posts, photo albums.
+**ソーシャルネットワーク**の動作 — 友達、グループ、ウォール投稿、フォトアルバム。
 
-Access these settings under **Administration > Configuration settings > Social Network**. This category contains **7 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+これらの設定には、**管理 > 設定 > ソーシャルネットワーク**からアクセスできます。このカテゴリには**7つの設定**が含まれており、以下にプラットフォームの設定フィクスチャ（`SettingsCurrentFixtures.php`）に記載されているタイトルとコメントを記載しています。
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> コード内の変数名は等幅フォントで表示されています。APIを通じてスクリプトを作成する場合や、[`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml)を編集してこれらの設定をグローバルレベルで変更する必要がある場合に使用してください。
 
-## Settings
+## 設定
 
 ### `allow_social_tool`
 
-**Social network tool (Facebook-like)**
+**ソーシャルネットワークツール（Facebook風）**
 
-The social network tool allows users to define relations with other users and, by doing so, to define groups of friends. Combined with the internal messaging tool, this tool allows tight communication with friends, inside the portal environment.
+ソーシャルネットワークツールを使用すると、ユーザーは他のユーザーとの関係を定義し、友達グループを作成することができます。内部メッセージングツールと組み合わせることで、ポータル環境内で友達との密接なコミュニケーションが可能になります。
 
-*Default: `true`*
+*デフォルト: `true`*
 
 ### `allow_students_to_create_groups_in_social`
 
-**Allow learners to create groups in social network**
+**学習者がソーシャルネットワークでグループを作成することを許可**
 
-Allow learners to create groups in social network
+学習者がソーシャルネットワーク内でグループを作成することを許可します。
 
-*Default: `false`*
-
+*デフォルト: `false`*
 
 ### `disable_dislike_option`
 
-**Disable 'dislike' for social posts**
+**ソーシャル投稿の「嫌い」オプションを無効化**
 
-Remove the thumb down option for social posts feedback. Only keep thumb up (like).
+ソーシャル投稿のフィードバックから「嫌い」（サムダウン）オプションを削除します。「いいね」（サムアップ）のみを残します。
 
-*Default: `false`*
+*デフォルト: `false`*
 
 ### `hide_social_groups_block`
 
-**Hide groups block in social network**
+**ソーシャルネットワークでグループブロックを非表示**
 
-Removes the groups section from the social network view.
+ソーシャルネットワークビューからグループセクションを削除します。
 
-*Default: `false`*
-
+*デフォルト: `false`*
 
 ### `social_enable_messages_feedback`
 
-**Like/Dislike for social posts**
+**ソーシャル投稿への「いいね/嫌い」**
 
-Allows users to add feedback (likes or dislikes) to posts in social wall.
+ユーザーがソーシャルウォールの投稿にフィードバック（いいねまたは嫌い）を追加できるようにします。
 
-*Default: `false`*
+*デフォルト: `false`*
 
 ### `social_make_teachers_friend_all`
 
-**Teachers and admins see students as friends on social network**
+**教師と管理者がソーシャルネットワーク上で学生を友達として表示**
 
-Automatically makes instructors and administrators appear as friends to all students in the social network module.
+ソーシャルネットワークモジュール内で、講師や管理者がすべての学生に対して自動的に友達として表示されるようにします。
 
-*Default: `false`*
-
+*デフォルト: `false`*
 
 ### `social_show_language_flag_in_profile`
 
-**Show language flag next to avatar in social network**
+**ソーシャルネットワークのプロフィールでアバターの横に言語フラグを表示**
 
-Displays the user's language preference as a flag icon next to their avatar in social network profiles.
+ソーシャルネットワークのプロフィールで、ユーザーの言語設定をアバターの横にフラグアイコンとして表示します。
 
-*Default: `false`*
-
-
+*デフォルト: `false`*

@@ -1,26 +1,26 @@
-# Color Themes
+# カラーテーマ
 
-Chamilo 2.0 introduces a color theme system that lets you customize the visual appearance of the platform.
+Chamilo 2.0では、プラットフォームの視覚的な外観をカスタマイズできるカラーテーマシステムが導入されています。
 
-## How Themes Work
+## テーマの仕組み
 
-Color themes define the palette used across the Chamilo interface — primary colors, accent colors, backgrounds, and text colors. A theme is associated to an access URL: in a single-URL portal it effectively becomes the global theme, and in a multi-URL setup each URL can have its own.
+カラーテーマは、Chamiloのインターフェース全体で使用されるパレットを定義します。プライマリーカラー、アクセントカラー、背景色、テキストカラーが含まれます。テーマはアクセスURLに関連付けられており、単一URLポータルでは実質的にグローバルテーマとなり、複数URL設定では各URLが独自のテーマを持つことができます。
 
-## Applying a Theme
+## テーマの適用
 
-![The color themes page showing available themes with preview swatches and an Apply button](/.gitbook/assets/admin-color-themes.png)
+![利用可能なテーマをプレビュー見本と適用ボタンとともに表示するカラーテーマページ](/.gitbook/assets/admin-color-themes.png)
 
-1. From the administration panel, navigate to **Color themes**
-2. Browse the available themes
-3. Select a theme and click **Apply**
-4. The theme is immediately applied to the platform
+1. 管理パネルから**カラーテーマ**に移動します
+2. 利用可能なテーマを閲覧します
+3. テーマを選択し、**適用**をクリックします
+4. テーマが即座にプラットフォームに適用されます
 
-## Per-URL Themes
+## URLごとのテーマ
 
-In a multi-URL setup, each access URL can have its own color theme. This allows different portals to have distinct visual identities while sharing the same Chamilo installation.
+複数URL設定では、各アクセスURLが独自のカラーテーマを持つことができます。これにより、同じChamiloインストールを共有しながら、異なるポータルが独自の視覚的アイデンティティを持つことが可能になります。
 
-## Tips
+## ヒント
 
-* **Match your brand** — Choose or customize a theme that matches your organization's brand colors
-* **Test readability** — After applying a theme, check that text is readable against background colors, especially in high-contrast situations
-* **Consider accessibility** — Ensure sufficient color contrast for users with visual impairments
+* **ブランドに合わせる** — 組織のブランドカラーに合ったテーマを選択またはカスタマイズしてください
+* **読みやすさをテストする** — テーマを適用した後、特に高コントラストの状況で、背景色に対してテキストが読みやすいか確認してください
+* **アクセシビリティを考慮する** — 視覚障害を持つユーザーのために、十分な色のコントラストを確保してください

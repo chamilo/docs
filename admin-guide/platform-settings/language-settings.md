@@ -1,117 +1,105 @@
-# Languages Settings
+# 言語設定
 
-Available languages, default language, and how Chamilo resolves which language to display.
+利用可能な言語、デフォルト言語、およびChamiloが表示する言語をどのように決定するかについて説明します。
 
-Access these settings under **Administration > Configuration settings > Languages**. This category contains **12 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+これらの設定には、**管理 > 設定 > 言語**からアクセスできます。このカテゴリには**12の設定**が含まれており、以下にプラットフォームの設定フィクスチャ（`SettingsCurrentFixtures.php`）に含まれるタイトルとコメントを記載しています。
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> コード内の変数名は等幅フォントで表示されています。APIを通じてスクリプトを作成する場合や、[`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml)を編集してこれらの設定をグローバルレベルで変更する必要がある場合に使用してください。
 
-## Settings
+## 設定
 
 ### `allow_course_multiple_languages`
 
-**Multiple-language courses**
+**多言語コース**
 
-Enable courses managed in more than one language. This option adds a language selector within the course page to let users switch easily, and adds a 'multiple_language' extra field to courses which allows for remote management procedures.
+複数の言語で管理されるコースを有効にします。このオプションを有効にすると、コースページ内に言語セレクターが追加され、ユーザーが簡単に言語を切り替えることができるようになります。また、コースに'multiple_language'という追加フィールドが加わり、リモート管理手順が可能になります。
 
-*Default: `false`*
-
+*デフォルト: `false`*
 
 ### `allow_use_sub_language`
 
-**Allow definition and use of sub-languages**
+**サブラングの定義と使用を許可**
 
-By enabling this option, you will be able to define variations for each of the language terms used in the platform's interface, in the form of a new language based on and extending an existing language. You'll find this option in the languages section of the administration panel.
+このオプションを有効にすると、プラットフォームのインターフェースで使用される各言語用語のバリエーションを、既存の言語に基づいて拡張した新しい言語の形で定義することができます。このオプションは管理パネルの言語セクションにあります。
 
-*Default: `false`*
+*デフォルト: `false`*
 
 ### `auto_detect_language_custom_pages`
 
-**Enable language auto-detect in custom pages**
+**カスタムページでの言語自動検出を有効にする**
 
-If you use custom pages, enable this if you want to have a language detector there present the page in the user's browser language, or disable to force the language to be the default platform language.
+カスタムページを使用している場合、ユーザーのブラウザ言語でページを表示する言語検出機能を有効にする場合はこれをオンにし、デフォルトのプラットフォーム言語を強制する場合はオフにします。
 
-*Default: `true`*
-
+*デフォルト: `true`*
 
 ### `language_flags_by_country`
 
-**Language flags**
+**言語フラグ**
 
-Use country flags for languages. This is not enabled by default because some languages are not strictly attached to a country, which can lead to frustration for some users.
+言語に対して国旗を使用します。この設定はデフォルトでは有効になっていません。なぜなら、一部の言語は特定の国に厳密に結びついていないため、一部のユーザーにとって不満を引き起こす可能性があるからです。
 
-*Default: `false`*
-
+*デフォルト: `false`*
 
 ### `language_priority_1`
 
-**Highest priority language**
+**最優先言語**
 
-Primary language selected when multiple language contexts are set.
+複数の言語コンテキストが設定されている場合に選択される主要な言語。
 
-*Default: `course_lang`*
-
+*デフォルト: `course_lang`*
 
 ### `language_priority_2`
 
-**Secondary priority language**
+**第二優先言語**
 
-Secondary fallback language if first priority is unavailable or out of context.
+第一優先が利用できない場合やコンテキスト外の場合の第二のフォールバック言語。
 
-*Default: `user_profil_lang`*
-
+*デフォルト: `user_profil_lang`*
 
 ### `language_priority_3`
 
-**Third priority language**
+**第三優先言語**
 
-Tertiary language fallback if higher priorities fail.
+より高い優先順位が失敗した場合の第三のフォールバック言語。
 
-*Default: `user_selected_lang`*
-
+*デフォルト: `user_selected_lang`*
 
 ### `language_priority_4`
 
-**Fourth priority language**
+**第四優先言語**
 
-Last language fallback option by order of priority.
+優先順位の最後のフォールバック言語オプション。
 
-*Default: `platform_lang`*
-
+*デフォルト: `platform_lang`*
 
 ### `platform_language`
 
-**Default platform language**
+**デフォルトプラットフォーム言語**
 
-Main language, used by default when no user language is set.
+ユーザーの言語が設定されていない場合にデフォルトで使用される主要言語。
 
-*Default: `en`*
-
+*デフォルト: `en`*
 
 ### `show_different_course_language`
 
-**Show course languages**
+**コース言語を表示**
 
-Show the language each course is in, next to the course title, on the homepage courses list
+ホームページのコースリストで、コースタイトルの横に各コースの言語を表示します。
 
-*Default: `true`*
-
+*デフォルト: `true`*
 
 ### `show_language_selector_in_menu`
 
-**Language switcher in main menu**
+**メインメニューに言語スイッチャーを表示**
 
-Display a language selector in the main menu that immediately updates the language preference of the user. This can be useful in multilingual portals where learners have to switch from one language to another for their learning.
+メインメニューに言語セレクターを表示し、ユーザーの言語設定を即座に更新します。これは、学習者が学習のために言語を切り替える必要がある多言語ポータルで役立ちます。
 
-*Default: `true`*
-
+*デフォルト: `true`*
 
 ### `template_activate_language_filter`
 
-**Multiple-language document templates**
+**多言語ドキュメントテンプレート**
 
-Enable document templates (at the platform or course level) to be configured for specific languages.
+プラットフォームまたはコースレベルでのドキュメントテンプレートを特定の言語向けに設定できるようにします。
 
-*Default: `false`*
-
-
+*デフォルト: `false`*

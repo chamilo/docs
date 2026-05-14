@@ -1,12 +1,12 @@
-# Testing
+# テスト
 
-## PHP Testing
+## PHPでのテスト
 
-Chamilo uses **PHPUnit** for backend testing.
+Chamiloはバックエンドテストに **PHPUnit** を使用しています。
 
-### Test Database Setup
+### テストデータベースの設定
 
-Tests require a dedicated database. Create `.env.test.local` with your test database credentials:
+テストには専用のデータベースが必要です。テストデータベースの認証情報を含む `.env.test.local` ファイルを作成してください：
 
 ```ini
 DATABASE_HOST='127.0.0.1'
@@ -16,7 +16,7 @@ DATABASE_USER='root'
 DATABASE_PASSWORD='root'
 ```
 
-Then initialise the test database:
+次に、テストデータベースを初期化します：
 
 ```bash
 php bin/console --env=test cache:clear
@@ -25,28 +25,28 @@ php bin/console --env=test doctrine:schema:create
 php bin/console --env=test doctrine:fixtures:load --no-interaction
 ```
 
-To reset after schema changes:
+スキーマに変更を加えた後にリセットするには：
 
 ```bash
 php bin/console --env=test doctrine:schema:update --force --complete
 ```
 
-### Running Tests
+### テストの実行
 
 ```bash
-# Run all tests
+# すべてのテストを実行
 php bin/phpunit
 
-# Run a specific test file
+# 特定のテストファイルを実行
 php bin/phpunit tests/CoreBundle/Repository/UserRepositoryTest.php
 
-# Run tests with HTML coverage report
+# HTML形式のカバレッジレポート付きでテストを実行
 php bin/phpunit --coverage-html var/coverage
 ```
 
-### Test Location
+### テストの場所
 
-Tests are in the `tests/` directory:
+テストは `tests/` ディレクトリにあります：
 
 ```
 tests/
@@ -64,82 +64,82 @@ tests/
 ├── CourseBundle/
 │   ├── Repository/
 │   └── Settings/
-├── behat/               # Behat end-to-end tests
-├── fixtures/            # Alice fixture files
-├── AbstractApiTest.php  # Base class for API tests
-└── ChamiloTestTrait.php # Shared test helpers
+├── behat/               # Behatを使用したエンドツーエンドテスト
+├── fixtures/            # Aliceのフィクスチャファイル
+├── AbstractApiTest.php  # APIテストのベースクラス
+└── ChamiloTestTrait.php # テスト用の共有ヘルパー
 ```
 
-### Test Types
+### テストの種類
 
-* **Unit/Integration tests** — PHPUnit tests in `CoreBundle/` and `CourseBundle/`; most hit a real database (via `dama/doctrine-test-bundle`)
-* **Functional (API) tests** — Extend `AbstractApiTest` and test HTTP endpoints end-to-end
-* **Behat tests** — Browser-level acceptance tests in `tests/behat/features/` (see below)
+* **単体テスト/統合テスト** — `CoreBundle/` および `CourseBundle/` 内のPHPUnitテスト。ほとんどが実際のデータベースにアクセスします（`dama/doctrine-test-bundle` を介して）
+* **機能テスト（API）** — `AbstractApiTest` を拡張し、HTTPエンドポイントをエンドツーエンドでテストします
+* **Behatテスト** — ブラウザレベルの受け入れテストで、`tests/behat/features/` にあります（以下参照）
 
-## Behat (End-to-End) Tests
+## Behatテスト（エンドツーエンド）
 
-Chamilo has a Behat test suite for browser-level acceptance testing. It requires a running Chamilo instance, Chrome, and ChromeDriver.
+Chamiloには、ブラウザレベルの受け入れテスト用のBehatテストスイートがあります。Chamiloのインスタンスが実行中であること、またChromeおよびChromeDriverが必要です。
 
 ```bash
-# From the tests/behat/ directory:
+# tests/behat/ ディレクトリから：
 ../../vendor/behat/behat/bin/behat features/actionInstall.feature
 ../../vendor/behat/behat/bin/behat features/createUser.feature
 ../../vendor/behat/behat/bin/behat features/createCourse.feature
 
-# Or run all features:
+# またはすべてのフィーチャを実行：
 ../../vendor/behat/behat/bin/behat
 ```
 
-Configure the base URL in `tests/behat/behat.yml` before running.
+実行前に `tests/behat/behat.yml` でベースURLを設定してください。
 
-## Frontend Checks
+## フロントエンドのチェック
 
 ```bash
-# Lint JavaScript/Vue (ESLint with Prettier)
+# JavaScript/Vueのチェック（ESLintとPrettierを使用）
 yarn eslint assets/vue/
 
-# Type-check TypeScript
+# TypeScriptの型チェック
 yarn tsc --noEmit
 
-# Build production assets (verifies the entire build compiles)
+# 本番アセットのビルド（すべてのビルドが成功するか確認）
 yarn build
 ```
 
-## PHP Code Quality
+## PHPコードの品質
 
-Chamilo uses **ECS** (Easy Coding Standard), **PHPStan**, and **Psalm** for code quality. Composer shortcuts are available for each:
+Chamiloはコード品質のために **ECS** (Easy Coding Standard)、**PHPStan**、および **Psalm** を使用しています。それぞれにComposerのショートカットが用意されています：
 
 ```bash
-# Check code style (ECS — Easy Coding Standard)
+# コードスタイルのチェック（ECS — Easy Coding Standard）
 composer phpcs
-# or directly:
+# または直接：
 vendor/bin/ecs check
 
-# Auto-fix code style violations
+# コードスタイル違反の自動修正
 composer phpcs-fix
-# or directly:
+# または直接：
 vendor/bin/ecs check --fix
 
-# Static analysis with PHPStan (level 5, scans src/ and tests/)
+# PHPStanによる静的解析（レベル5、src/ と tests/ をスキャン）
 composer phpstan
-# or directly:
+# または直接：
 vendor/bin/phpstan analyse
 
-# Static analysis with Psalm
+# Psalmによる静的解析
 composer psalm
-# or directly:
+# または直接：
 vendor/bin/psalm --show-info=false
 ```
 
-Note: there is no `php-cs-fixer` in this project. ECS (`symplify/easy-coding-standard`) is the code style tool.
+注意：このプロジェクトには `php-cs-fixer` はありません。ECS (`symplify/easy-coding-standard`) がコードスタイルツールです。
 
-## Continuous Integration
+## 継続的インテグレーション
 
-Pull requests are automatically checked by four GitHub Actions workflows:
+プルリクエストは、GitHub Actionsの4つのワークフローによって自動的にチェックされます：
 
-| Workflow | What it runs |
-|----------|-------------|
-| `phpunit.yml` | PHPUnit test suite |
-| `format_code.yml` | ECS code style check |
-| `php_analysis.yml` | Psalm, Doctrine schema validation, security checker |
-| `behat.yml` | Behat end-to-end tests |
+| ワークフロー | 実行内容 |
+|--------------|----------|
+| `phpunit.yml` | PHPUnitテストスイート |
+| `format_code.yml` | ECSによるコードスタイルチェック |
+| `php_analysis.yml` | Psalm、Doctrineスキーマ検証、セキュリティチェッカー |
+| `behat.yml` | Behatによるエンドツーエンドテスト |

@@ -1,8 +1,8 @@
-# Frontend
+# フロントエンド
 
-The Chamilo 2.0 frontend is a Vue 3 single-page application (SPA) that communicates with the backend via the REST API.
+Chamilo 2.0 のフロントエンドは、Vue 3 を使用したシングルページアプリケーション (SPA) であり、REST API を通じてバックエンドと通信します。
 
-* **[Vue Components](vue-components.md)** — The reusable components in `assets/vue/components/`
-* **[Views and Routing](views-and-routing.md)** — Page views in `assets/vue/views/` and the Vue Router setup
-* **[State Management](state-management.md)** — Pinia stores for application state
-* **[Build System](build-system.md)** — Webpack Encore, Tailwind, and the build pipeline
+* **[Vue コンポーネント](vue-components.md)** — `assets/vue/components/` にある再利用可能なコンポーネント
+* **[ビューとルーティング](views-and-routing.md)** — `assets/vue/views/` にあるページビューと Vue Router の設定
+* **[状態管理](state-management.md)** — アプリケーションの状態を管理するための Pinia ストア
+* **[ビルドシステム](build-system.md)** — Webpack Encore、Tailwind、およびビルドパイプライン

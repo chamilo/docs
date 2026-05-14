@@ -1,8 +1,8 @@
 # LDAP
 
-Chamilo can authenticate users against an LDAP server, including Microsoft Active Directory. LDAP is configured in `config/authentication.yaml`.
+Chamiloは、Microsoft Active Directoryを含むLDAPサーバーに対してユーザーを認証することができます。LDAPは`config/authentication.yaml`で設定されます。
 
-## Configuration
+## 設定
 
 ```yaml
 authentication:
@@ -10,24 +10,24 @@ authentication:
     ldap:
       main:
         enabled: true
-        title: "Sign in with LDAP"
+        title: "LDAPでサインイン"
         connection_string: "ldap://ldap.yourorg.com:389"
         protocol_version: 3
         referrals: false
         force_as_login_method: false
 ```
 
-### Bind and search
+### バインドと検索
 
-Two approaches for locating the user in the directory:
+ディレクトリ内でユーザーを見つけるための2つのアプローチ：
 
-**Direct bind** — constructs the DN from the username directly:
+**直接バインド** — ユーザー名から直接DNを構築します：
 
 ```yaml
         dn_string: "uid=%s,ou=people,dc=yourorg,dc=com"
 ```
 
-**Search bind** — searches the directory with a service account first, then binds as the found user:
+**検索バインド** — 最初にサービスアカウントでディレクトリを検索し、見つかったユーザーとしてバインドします：
 
 ```yaml
         base_dn: "dc=yourorg,dc=com"
@@ -37,28 +37,28 @@ Two approaches for locating the user in the directory:
         uid_key: "uid"
 ```
 
-For Active Directory, use `sAMAccountName` as `uid_key` and adjust `query_string` to `(sAMAccountName=%s)`.
+Active Directoryの場合、`uid_key`として`sAMAccountName`を使用し、`query_string`を`(sAMAccountName=%s)`に調整してください。
 
-### Attribute mapping
+### 属性マッピング
 
-Map LDAP attributes to Chamilo user fields under `data_correspondence`:
+LDAP属性をChamiloのユーザーフィールドにマッピングするには、`data_correspondence`の下に設定します：
 
 ```yaml
         data_correspondence:
           firstname: givenName
           lastname: sn
           email: mail
-          phone: telephoneNumber   # optional
-          locale: preferredLanguage  # optional
+          phone: telephoneNumber   # 任意
+          locale: preferredLanguage  # 任意
 ```
 
-`firstname`, `lastname`, and `email` are required. The user is matched to an existing Chamilo account by email or username; if no match is found and `allow_create_new_users` is true, a new account is created.
+`firstname`、`lastname`、および`email`は必須です。ユーザーはメールアドレスまたはユーザー名によって既存のChamiloアカウントと照合されます。一致するアカウントが見つからず、`allow_create_new_users`がtrueの場合、新しいアカウントが作成されます。
 
-## Tips
+## ヒント
 
-* **Use LDAPS in production** — switch `ldap://` to `ldaps://` (port 636) for encrypted connections.
-* **Service account** — the search bind account needs only read access to user entries.
-* **Test first** — verify your connection string and query with `ldapsearch` before configuring Chamilo.
-* **`force_as_login_method: true`** — hides other login methods and forces all users through LDAP. Leave it `false` while testing so you can still log in as an admin via the standard form.
+* **本番環境ではLDAPSを使用** — 暗号化された接続のために`ldap://`を`ldaps://`（ポート636）に切り替えてください。
+* **サービスアカウント** — 検索バインドアカウントには、ユーザーエントリへの読み取りアクセス権のみが必要です。
+* **最初にテスト** — Chamiloを設定する前に、`ldapsearch`を使用して接続文字列とクエリを確認してください。
+* **`force_as_login_method: true`** — 他のログインメソッドを非表示にし、すべてのユーザーをLDAP経由で強制的にログインさせます。テスト中は`false`のままにしておくと、標準フォームを介して管理者としてログインできます。
 
-For the full parameter reference, see the [wiki](https://github.com/chamilo/chamilo-lms/wiki/External-Authentication-configuration).
+完全なパラメータリファレンスについては、[wiki](https://github.com/chamilo/chamilo-lms/wiki/External-Authentication-configuration)をご覧ください。

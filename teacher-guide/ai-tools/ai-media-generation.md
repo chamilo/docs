@@ -1,26 +1,26 @@
-# AI Media Generation
+# AIによるメディア生成
 
-When editing a document in the **Documents** tool, the AI media generation feature lets you produce an **image** or a **short video** to illustrate a paragraph — directly from the rich-text editor (WYSIWYG), without leaving the document.
+**ドキュメント**ツールでドキュメントを編集する際、AIによるメディア生成機能を使用すると、リッチテキストエディタ（WYSIWYG）から直接、ドキュメントを離れることなく、段落を説明するための**画像**や**短い動画**を生成することができます。
 
-## Requirements
+## 必要条件
 
-* AI helpers are enabled at the platform level
-* At least one AI media provider (image or video) is configured by the administrator
-* The feature is allowed in your course (course-level permission must be enabled)
+* プラットフォームレベルでAIアシスタントが有効になっている
+* 管理者によって少なくとも1つのAIメディアプロバイダ（画像または動画）が設定されている
+* コースレベルでこの機能が許可されている（コースレベルの権限が有効になっている必要がある）
 
-## How to Generate an Image or Video
+## 画像または動画を生成する方法
 
-1. Open a document in the **Documents** <img src="/.gitbook/assets/icons/mdi-bookshelf.svg" alt="Documents" data-size="line"> tool (create a new one or edit an existing one)
-2. In the rich-text editor, place your cursor in or near the paragraph you want to illustrate
-3. Open the **Generate AI media** dialog from the editor toolbar
-4. Describe what you want the media to show, or use the selected paragraph as the prompt
-5. Choose whether to generate an **image** or a **video**
-6. Click **Generate** and wait for the AI to produce the result
-7. Preview the generated media and, if satisfied, click **Insert** to embed it in the document
+1. **ドキュメント**ツールでドキュメントを開く <img src="/.gitbook/assets/icons/mdi-bookshelf.svg" alt="ドキュメント" data-size="line"> （新しいドキュメントを作成するか、既存のものを編集する）
+2. リッチテキストエディタ内で、説明したい段落の中または近くにカーソルを置く
+3. エディタのツールバーから**AIによるメディア生成**ダイアログを開く
+4. メディアに表示したい内容を記述するか、選択した段落をプロンプトとして使用する
+5. **画像**または**動画**のどちらを生成するかを選択する
+6. **生成**をクリックし、AIが生成する結果を待つ
+7. 生成されたメディアをプレビューし、満足したら**挿入**をクリックしてドキュメントに組み込む
 
-## Tips
+## ヒント
 
-* **Write a clear prompt** — The more specific your description, the more relevant the output. Include style cues (e.g. "diagram", "illustration", "realistic photo") if the provider supports them
-* **Always review before inserting** — Generated media may not perfectly match your intent; regenerate or adjust the prompt if needed
-* **Keep file sizes in mind** — Generated images and videos count against the course storage quota. Remove unused media from the document library if space is limited
-* **Video generation takes longer** — Short video generation can take significantly more time than image generation; plan accordingly if you are near a deadline
+* **明確なプロンプトを書く** — 記述が具体的であればあるほど、結果はより関連性が高くなります。プロバイダがサポートしている場合は、スタイルの指示（例：「ダイアグラム」「イラスト」「フォトリアリスティック」）を含める
+* **挿入前に必ず確認する** — 生成されたメディアが意図と完全に一致しない場合があります。必要に応じて再生成するか、プロンプトを調整する
+* **ファイルサイズを考慮する** — 生成された画像や動画はコースのストレージ容量にカウントされます。スペースが限られている場合は、ドキュメントライブラリから未使用のメディアを削除する
+* **動画の生成には時間がかかる** — 短い動画の生成は画像の生成よりもかなり時間がかかることがあります。締め切りに近い場合は適切に計画する

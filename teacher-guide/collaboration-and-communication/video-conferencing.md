@@ -1,38 +1,38 @@
-# Video Conferencing
+# ビデオ会議
 
-Chamilo integrates with video conferencing platforms to let you run live sessions directly from your course. Supported platforms include **BigBlueButton** and **Zoom**.
+Chamiloは、ビデオ会議プラットフォームと統合しており、コース内から直接ライブセッションを実施することができます。対応しているプラットフォームには、**BigBlueButton**と**Zoom**があります。
 
-> Video conferencing must be configured by your platform administrator. If you do not see the video conferencing tool in your course, contact your administrator.
+> ビデオ会議はプラットフォーム管理者によって設定される必要があります。コース内にビデオ会議ツールが表示されない場合は、管理者に連絡してください。
 
-## Starting a Video Session
+## ビデオセッションの開始
 
-1. Open the **Video conference** <img src="/.gitbook/assets/icons/mdi-video.svg" alt="Video" data-size="line"> tool from the course homepage (or from the sidebar)
-2. Click **Start a meeting** (or a similar button depending on the configured platform)
-3. A new video conferencing room will open in a new browser tab
+1. コースのホームページ（またはサイドバー）から**ビデオ会議** <img src="/.gitbook/assets/icons/mdi-video.svg" alt="ビデオ" data-size="line"> ツールを開きます
+2. **会議を開始**（または設定されているプラットフォームに応じた同様のボタン）をクリックします
+3. 新しいブラウザタブでビデオ会議ルームが開きます
 
-## Inviting Learners
+## 学習者の招待
 
-Once a meeting is running, enrolled learners can join it by:
+会議が開始されると、登録済みの学習者は以下の方法で参加できます：
 
-* Clicking the same **Video conference** tool in their course homepage
-* Clicking the join link in an announcement or message you send them
+* コースのホームページにある同じ**ビデオ会議**ツールをクリックする
+* あなたが送信したアナウンスやメッセージ内の参加リンクをクリックする
 
 ## BigBlueButton
 
-If your platform uses the BigBlueButton plugin, the meeting itself runs in BigBlueButton, where the usual conference features (audio/video, screen sharing, whiteboard, in-meeting chat, breakout rooms) are available. The Chamilo plugin specifically adds:
+プラットフォームがBigBlueButtonプラグインを使用している場合、会議自体はBigBlueButton内で実行され、通常の会議機能（音声/ビデオ、画面共有、ホワイトボード、会議内チャット、ブレイクアウトルーム）が利用可能です。Chamiloプラグインは特に以下の機能を提供します：
 
-* **Recording management** — If recording is enabled by the administrator, recordings made during the session are listed inside the course so learners can replay them
-* **Pre-upload presentation documents** — Attach a presentation file to a meeting so it is loaded into BigBlueButton when the room opens
-* **Calendar integration** — Scheduled meetings are surfaced in the course agenda
-* **Course / group / global rooms** — Run a single course-wide room, separate group rooms, or a platform-wide room
+* **録画管理** — 管理者が録画を有効にしている場合、セッション中に作成された録画はコース内に一覧表示され、学習者が再生できます
+* **プレゼンテーション資料の事前アップロード** — 会議にプレゼンテーションファイルを添付することで、ルームが開いた際にBigBlueButtonに読み込まれます
+* **カレンダー統合** — 予定された会議はコースのアジェンダに表示されます
+* **コース/グループ/グローバルルーム** — コース全体の単一ルーム、グループごとの別々のルーム、またはプラットフォーム全体のルームを実行できます
 
-## Zoom Integration
+## Zoom統合
 
-If your platform uses Zoom, meetings are created and managed through Zoom's interface. Chamilo provides the integration point for launching and joining meetings from within the course.
+プラットフォームがZoomを使用している場合、会議はZoomのインターフェースを通じて作成および管理されます。Chamiloは、コース内から会議を開始および参加するための統合ポイントを提供します。
 
-## Tips
+## ヒント
 
-* **Schedule in advance** — Use the Agenda tool to schedule video sessions and send reminders
-* **Test your setup** — Check your microphone and camera before the session
-* **Record for absent learners** — If recording is enabled, share the recording link after the session for learners who could not attend
-* **Combine with other tools** — Share presentation files in Documents before the session, and follow up with a Forum discussion afterward
+* **事前にスケジュールを立てる** — アジェンダツールを使用してビデオセッションをスケジュールし、リマインダーを送信します
+* **セットアップをテストする** — セッション前にマイクとカメラを確認してください
+* **欠席した学習者のために録画する** — 録画が有効になっている場合、セッション後に録画リンクを共有して、参加できなかった学習者が視聴できるようにします
+* **他のツールと組み合わせる** — セッション前にドキュメントでプレゼンテーションファイルを共有し、セッション後にフォーラムでディスカッションを続けることができます

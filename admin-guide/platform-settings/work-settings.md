@@ -1,103 +1,103 @@
-# Assignments (Work) Settings
+# 課題（ワーク）設定
 
-Defaults and behaviour of the **Assignments (Student Publications)** tool.
+**課題（学生の公開物）** ツールのデフォルト設定と動作について。
 
-Access these settings under **Administration > Configuration settings > Assignments (Work)**. This category contains **12 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+これらの設定には、**管理 > 設定 > 課題（ワーク）** からアクセスできます。このカテゴリには **12の設定** が含まれており、以下にプラットフォームの設定フィクスチャ（`SettingsCurrentFixtures.php`）に記載されているタイトルとコメントを記載しています。
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> コード内の変数名は等幅フォントで表示されています。APIを通じてスクリプトを作成する場合や、[`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml) を編集してこれらの設定をグローバルレベルで変更する際に使用してください。
 
-## Settings
+## 設定
 
 ### `allow_compilatio_tool`
 
-**Enable Compilatio**
+**Compilatioを有効にする**
 
-Compilatio is an anti-cheating service that compares text between two submissions and reports if there is a high probability the content (usually assignments) is not genuine.
+Compilatioは、2つの提出物間のテキストを比較し、内容（通常は課題）が本物でない可能性が高い場合に報告する不正防止サービスです。
 
-*Default: `false`*
+*デフォルト: `false`*
 
 ### `allow_my_student_publication_page`
 
-**Enable My assignments page**
+**マイ課題ページを有効にする**
 
-[inferred] Enable a dedicated page for learners to view and manage their own submitted assignments.
+[推定] 学習者が自分の提出した課題を表示および管理するための専用ページを有効にします。
 
-*Default: `false`*
+*デフォルト: `false`*
 
 ### `allow_only_one_student_publication_per_user`
 
-**Students can only upload one assignment**
+**学生は1つの課題のみアップロード可能**
 
-[inferred] Restrict learners to submitting only one assignment per activity, preventing multiple submissions.
+[推定] 学習者が1つの活動に対して1つの課題のみ提出できるように制限し、複数回の提出を防ぎます。
 
-*Default: `false`*
+*デフォルト: `false`*
 
 ### `allow_redirect_to_main_page_after_work_upload`
 
-**Redirect to assigment tool homepage after upload or comment**
+**アップロードまたはコメント後に課題ツールのホームページにリダイレクト**
 
-Redirect to assignments list after uploading an assignment or a adding a comment
+課題をアップロードした後やコメントを追加した後に課題リストにリダイレクトします。
 
-*Default: `false`*
+*デフォルト: `false`*
 
 ### `assignment_prevent_duplicate_upload`
 
-**Prevent duplicate uploads in assignments**
+**課題での重複アップロードを防止**
 
-[inferred] Block learners from uploading identical files for the same assignment submission.
+[推定] 学習者が同じ課題提出に対して同一のファイルをアップロードすることを防ぎます。
 
-*Default: `false`*
+*デフォルト: `false`*
 
 ### `block_student_publication_add_documents`
 
-**Prevent adding documents to assignments**
+**課題へのドキュメント追加を防止**
 
-[inferred] Prevent learners from adding or attaching documents when submitting assignments.
+[推定] 学習者が課題を提出する際にドキュメントを追加または添付することを防ぎます。
 
-*Default: `false`*
+*デフォルト: `false`*
 
 ### `block_student_publication_edition`
 
-**Prevent assignments edition**
+**課題の編集を防止**
 
-[inferred] Prevent learners from modifying or updating their submitted assignments after initial submission.
+[推定] 学習者が初回提出後に提出した課題を修正または更新することを防ぎます。
 
-*Default: `false`*
+*デフォルト: `false`*
 
 ### `block_student_publication_score_edition`
 
-**Prevent teacher from modifying assignment scores**
+**教師による課題スコアの変更を防止**
 
-[inferred] Prevent instructors from changing assignment scores after they have been recorded.
+[推定] インストラクターが記録した課題スコアを後から変更することを防ぎます。
 
-*Default: `false`*
+*デフォルト: `false`*
 
 ### `compilatio_tool`
 
-**Compilatio settings**
+**Compilatio設定**
 
-Configure the Compilatio connection details here.
+ここでCompilatioの接続情報を設定します。
 
 ### `considered_working_time`
 
-**Enable time effort for assignments**
+**課題の所要時間を有効にする**
 
-This will allow teachers to give an estimated time effort (in hh:mm:ss format) to complete the assignment. Upon submission of the assignment and approval by the teacher (the assignment is given a score), the learner will automatically be assigned the corresponding time.
+これにより、教師が課題を完了するのに必要な推定所要時間（hh:mm:ss形式）を設定できるようになります。課題が提出され、教師によって承認（課題にスコアが与えられる）されると、学習者に自動的に対応する時間が割り当てられます。
 
-*Default: `work_time`*
+*デフォルト: `work_time`*
 
 ### `force_download_doc_before_upload_work`
 
-**Force download of document before assignment upload**
+**課題アップロード前にドキュメントのダウンロードを強制**
 
-Force users to download the provided document in the assignment definition before they can upload their assignment.
+課題定義に提供されているドキュメントをダウンロードするまで、ユーザーが課題をアップロードできないようにします。
 
-*Default: `true`*
+*デフォルト: `true`*
 
 ### `my_courses_show_pending_work`
 
-**Display link to 'pending' assignments from My courses page**
+**マイコースページから「保留中」の課題へのリンクを表示**
 
-[inferred] Display a link or count of pending assignments on the learner's My Courses page for quick access.
+[推定] 学習者のマイコースページに保留中の課題へのリンクまたは数を表示し、迅速にアクセスできるようにします。
 
-*Default: `false`*
+*デフォルト: `false`*

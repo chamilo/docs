@@ -1,5 +1,5 @@
-# Plugins
+# プラグイン
 
-Plugins extend Chamilo's functionality without modifying the core code. Chamilo 2.0 comes with over 50 plugins that can be activated as needed.
+プラグインは、Chamiloの機能をコアコードを変更せずに拡張します。Chamilo 2.0には、必要に応じて有効化できる50以上のプラグインが付属しています。
 
-* **[Managing Plugins](managing-plugins.md)** — Install, activate, configure, and deactivate plugins
+* **[プラグインの管理](managing-plugins.md)** — プラグインのインストール、有効化、設定、無効化を行う

@@ -1,53 +1,53 @@
-# Social Network
+# ソーシャルネットワーク
 
-Chamilo includes a built-in social network that lets you connect with other users on the platform. This feature may be enabled or disabled by your platform administrator.
+Chamiloには、プラットフォーム上の他のユーザーとつながることができる組み込みのソーシャルネットワーク機能が含まれています。この機能は、プラットフォーム管理者によって有効または無効にされる場合があります。
 
-## Accessing the Social Network
+## ソーシャルネットワークへのアクセス
 
-Click **Social network** in the sidebar to access the social features. If you do not see this option, your administrator may have disabled it.
+サイドバーの**ソーシャルネットワーク**をクリックして、ソーシャル機能にアクセスします。このオプションが表示されない場合は、管理者が無効にしている可能性があります。
 
-## Your Social Wall
+## あなたのソーシャルウォール
 
-![The social wall showing a feed of posts, likes, and comments from connections](/.gitbook/assets/social-wall.png)
+![つながりのあるユーザーからの投稿、いいね、コメントのフィードを表示するソーシャルウォール](/.gitbook/assets/social-wall.png)
 
-The social wall shows a feed of activity from you and your connections. You can:
+ソーシャルウォールには、あなたとあなたのつながりからの活動のフィードが表示されます。以下のことができます：
 
-* **Post updates** — Share text and links with your connections
-* **Like and comment** — Interact with posts from other users
-* **View activity** — See recent posts from people you are connected with
+* **更新を投稿する** — つながりのあるユーザーとテキストやリンクを共有する
+* **いいねやコメントをする** — 他のユーザーの投稿に反応する
+* **活動を見る** — つながりのある人々の最近の投稿を見る
 
-## Connections
+## つながり
 
-You can connect with other users on the platform:
+プラットフォーム上の他のユーザーとつながることができます：
 
-* **Search for users** — Find colleagues and learners by name
-* **Send connection requests** — Invite other users to connect
-* **Manage connections** — Accept, decline, or remove connections
+* **ユーザーを検索する** — 名前で同僚や学習者を見つける
+* **つながりリクエストを送信する** — 他のユーザーをつながりに招待する
+* **つながりを管理する** — つながりの承認、拒否、削除を行う
 
-> **Note:** Learners can only search for and add other learners as friends — they cannot send friend requests to teachers. As a teacher, however, you can search for learners and request to add them as friends.
+> **注意：** 学習者は他の学習者を検索して友達として追加することしかできません。教師に友達リクエストを送信することはできません。ただし、教師として、学習者を検索し、友達として追加するリクエストを送ることができます。
 
-## Messaging
+## メッセージング
 
-The social network integrates with the platform's messaging system:
+ソーシャルネットワークは、プラットフォームのメッセージングシステムと統合されています：
 
-* **Send messages** <img src="/.gitbook/assets/icons/mdi-email-plus-outline.svg" alt="New message" data-size="line"> — Write direct messages to other users
-* **Inbox** <img src="/.gitbook/assets/icons/mdi-inbox.svg" alt="Inbox" data-size="line"> — Read and reply to received messages
-* **Sent messages** <img src="/.gitbook/assets/icons/mdi-send-check.svg" alt="Sent" data-size="line"> — Review messages you have sent
+* **メッセージを送信する** <img src="/.gitbook/assets/icons/mdi-email-plus-outline.svg" alt="新しいメッセージ" data-size="line"> — 他のユーザーに直接メッセージを書く
+* **受信トレイ** <img src="/.gitbook/assets/icons/mdi-inbox.svg" alt="受信トレイ" data-size="line"> — 受信したメッセージを読み、返信する
+* **送信済みメッセージ** <img src="/.gitbook/assets/icons/mdi-send-check.svg" alt="送信済み" data-size="line"> — 送信したメッセージを確認する
 
-### Composing and Replying
+### 作成と返信
 
-When composing a new message, you can address it to multiple recipients at once. Similarly, when replying to a message, you can include multiple users in your reply — useful for group coordination without a formal social group.
+新しいメッセージを作成する際、一度に複数の受信者に宛てることができます。同様に、メッセージに返信する際、複数のユーザーを返信に含めることができます。これは、正式なソーシャルグループを作成せずにグループでの調整を行う際に便利です。
 
-### Message Tags
+### メッセージタグ
 
-If your platform configuration uses message tags (typically managed at the platform level), your inbox shows a tag list you can click to filter messages by that tag, which makes locating related threads faster as your inbox grows.
+プラットフォームの設定でメッセージタグが使用されている場合（通常はプラットフォームレベルで管理されます）、受信トレイにはタグリストが表示され、クリックすることでそのタグでメッセージをフィルタリングできます。これにより、受信トレイが膨大になった場合に関連するスレッドを素早く見つけることができます。
 
-## Social Groups
+## ソーシャルグループ
 
-Social groups allow users to gather around common interests or projects:
+ソーシャルグループは、共通の興味やプロジェクトを中心にユーザーが集まることを可能にします：
 
-* **Join groups** — Browse and join existing groups
-* **Create groups** — Start a new social group (if permitted)
-* **Group discussions** — Share posts within a group context
+* **グループに参加する** — 既存のグループを閲覧して参加する
+* **グループを作成する** — 新しいソーシャルグループを開始する（許可されている場合）
+* **グループディスカッション** — グループ内で投稿を共有する
 
-> Social groups are different from **course groups** (covered in the [Groups](collaboration-and-communication/groups.md) section). Course groups are tied to a specific course, while social groups are platform-wide.
+> ソーシャルグループは、**コースグループ**（[グループ](collaboration-and-communication/groups.md)セクションで説明）とは異なります。コースグループは特定のコースに紐づけられていますが、ソーシャルグループはプラットフォーム全体にわたるものです。

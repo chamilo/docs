@@ -1,35 +1,35 @@
-# Webhooks
+# ウェブフック
 
-Chamilo's webhook support is currently scoped to the **BigBlueButton (BBB) plugin**. Rather than sending webhooks to external systems, Chamilo acts as a webhook *receiver*: it exposes endpoints that BigBlueButton calls when room events occur, and uses those events to build per-participant activity metrics.
+Chamiloのウェブフックサポートは現在、**BigBlueButton (BBB) プラグイン**に限定されています。外部システムにウェブフックを送信するのではなく、Chamiloはウェブフックの*受信者*として機能します。BigBlueButtonがルームイベントが発生した際に呼び出すエンドポイントを公開し、それらのイベントを利用して参加者ごとのアクティビティメトリクスを構築します。
 
-## How It Works
+## 仕組み
 
-When a BBB meeting takes place, the BBB server pushes real-time event notifications to a signed callback URL on your Chamilo installation. Chamilo processes each event and stores aggregated metrics (talk time, camera time, messages, reactions, hand raises) in the `conference_activity` database table.
+BBBミーティングが行われる際、BBBサーバーはChamiloインストール上の署名付きコールバックURLにリアルタイムのイベント通知をプッシュします。Chamiloは各イベントを処理し、集計されたメトリクス（発言時間、カメラ時間、メッセージ、リアクション、手を挙げる）を`conference_activity`データベーステーブルに保存します。
 
 ```
-BigBlueButton server
-        │  POST (signed)
+BigBlueButtonサーバー
+        │  POST (署名付き)
         ▼
-Chamilo webhook endpoint
+Chamiloウェブフックエンドポイント
         │
         ▼
-conference_activity (metrics JSON)
+conference_activity (メトリクスJSON)
         │
         ▼
-Webhook dashboard (/plugin/Bbb/webhook_dashboard.php)
+ウェブフックダッシュボード (/plugin/Bbb/webhook_dashboard.php)
 ```
 
-## Endpoints
+## エンドポイント
 
-### Legacy PHP endpoint
+### レガシーPHPエンドポイント
 
 ```
 POST /plugin/Bbb/webhook.php?au={accessUrlId}&mid={meetingId}&ts={timestamp}&sig={hmac}
 ```
 
-Handles all BBB room events. Validates the HMAC signature, then upserts a `ConferenceActivity` row and updates the metrics JSON field.
+すべてのBBBルームイベントを処理します。HMAC署名を検証し、`ConferenceActivity`行を更新または挿入し、メトリクスJSONフィールドを更新します。
 
-### Modern Symfony endpoint
+### モダンSymfonyエンドポイント
 
 ```
 POST /api/videoconference/callback
@@ -38,45 +38,45 @@ Headers:
   X-Chamilo-Signature: <hmac-sha256>
 ```
 
-Defined via API Platform on the `ConferenceActivity` entity. Requires the signature headers for activity recording; requests without a valid signature are accepted but no activity row is written.
+`ConferenceActivity`エンティティ上でAPI Platformを通じて定義されています。アクティビティ記録には署名ヘッダーが必要です。有効な署名がないリクエストは受け入れられますが、アクティビティ行は書き込まれません。
 
-## Configuration (BBB Plugin)
+## 設定 (BBBプラグイン)
 
-In **Administration → Plugins → BigBlueButton**, the following webhook settings are available:
+**管理 → プラグイン → BigBlueButton**で、以下のウェブフック設定が利用可能です：
 
-| Setting | Values | Description |
+| 設定 | 値 | 説明 |
 |---|---|---|
-| `webhooks_enabled` | `true` / `false` | Enable or disable webhook registration |
-| `webhooks_scope` | `per_meeting` / `global` | Register one hook per meeting or a single global hook for all meetings |
-| `webhooks_hash_algo` | `sha256` / `sha1` | HMAC algorithm for signature verification |
-| `webhooks_event_filter` | comma-separated string | Optional list of BBB event names to receive (empty = all events) |
+| `webhooks_enabled` | `true` / `false` | ウェブフック登録を有効または無効にする |
+| `webhooks_scope` | `per_meeting` / `global` | ミーティングごとに1つのフックを登録するか、すべてのミーティングに対して単一のグローバルフックを登録するか |
+| `webhooks_hash_algo` | `sha256` / `sha1` | 署名検証のためのHMACアルゴリズム |
+| `webhooks_event_filter` | カンマ区切りの文字列 | 受信するBBBイベント名のオプションリスト（空の場合＝すべてのイベント） |
 
-When a meeting is created and webhooks are enabled, Chamilo calls the BBB `hooks/create` API to register the callback URL. The URL includes a time-bound HMAC signature.
+ミーティングが作成され、ウェブフックが有効になっている場合、ChamiloはBBBの`hooks/create` APIを呼び出してコールバックURLを登録します。URLには時間制限付きのHMAC署名が含まれます。
 
-## Signature Validation
+## 署名検証
 
-The legacy endpoint uses query-string parameters:
+レガシーエンドポイントはクエリ文字列パラメータを使用します：
 
 ```
 sig = HMAC-{algo}("{accessUrlId}|{meetingId}|{timestamp}", salt)
 ```
 
-- The `salt` is the BBB plugin's configured salt value.
-- Requests older than **15 minutes** are rejected to limit replay attacks.
+- `salt`はBBBプラグインで設定されたsalt値です。
+- リプレイ攻撃を制限するため、**15分**を超える古いリクエストは拒否されます。
 
-The modern endpoint uses headers:
+モダンエンドポイントはヘッダーを使用します：
 
 ```
 sig = HMAC-SHA256("{timestamp}\n{rawBody}", kernelSecret)
 ```
 
-- Requests older than **5 minutes** are rejected.
+- **5分**を超える古いリクエストは拒否されます。
 
-## Example: BigBlueButton Webhook Event
+## 例：BigBlueButtonウェブフックイベント
 
-BBB posts a JSON body containing an array of events. Each event has an `data.id` (event name) and a `data.attributes` object.
+BBBはイベントの配列を含むJSONボディを投稿します。各イベントには`data.id`（イベント名）と`data.attributes`オブジェクトが含まれます。
 
-**Request from BBB:**
+**BBBからのリクエスト：**
 
 ```http
 POST /plugin/Bbb/webhook.php?au=1&mid=chamilo-meeting-abc123&ts=1715520000&sig=e3b0c44298fc
@@ -101,32 +101,33 @@ Content-Type: application/json
 }
 ```
 
-**What Chamilo does:**
+**Chamiloの処理：**
 
-1. Validates the HMAC signature and timestamp.
-2. Looks up the `ConferenceMeeting` by `remote_id`.
-3. Looks up (or creates) an open `ConferenceActivity` row for that meeting + user.
-4. Records `temp.talk_started_at = 1715520123` in the metrics JSON.
+1. HMAC署名とタイムスタンプを検証します。
+2. `remote_id`で`ConferenceMeeting`を検索します。
+3. そのミーティングとユーザーに対してオープンな`ConferenceActivity`行を検索（または作成）します。
+4. メトリクスJSONに`temp.talk_started_at = 1715520123`を記録します。
 
-When the matching `user-talking-stopped` event arrives, Chamilo computes the elapsed seconds and adds them to `totals.talk_seconds`.
+対応する`user-talking-stopped`イベントが到着すると、Chamiloは経過秒数を計算し、`totals.talk_seconds`に加算します。
 
-## Tracked Events and Metrics
+## 追跡されるイベントとメトリクス
 
-| BBB event(s) | Metric updated |
+| BBBイベント | 更新されるメトリクス |
 |---|---|
-| `user-joined` / `participantjoined` | Activity row created |
-| `user-talking-started` / `uservoiceactivated` | Timer started for `totals.talk_seconds` |
-| `user-talking-stopped` / `uservoicedeactivated` | `totals.talk_seconds` incremented |
-| `camera-share-started` / `webcamsharestarted` | Timer started for `totals.camera_seconds` |
-| `camera-share-stopped` / `webcamsharestopped` | `totals.camera_seconds` incremented |
-| `chat-message-posted` / `publicchatmessageposted` | `counts.messages` incremented |
-| `user-reaction-changed` / `useremojichanged` | `counts.reactions` + per-emoji breakdown |
-| `user-hand-raised` / `userraisedhand` | `counts.hands` incremented |
-| `user-left` / `participantleft` | Open timers flushed, activity row closed |
+| `user-joined` / `participantjoined` | アクティビティ行が作成される |
+| `user-talking-started` / `uservoiceactivated` | `totals.talk_seconds`のタイマーが開始 |
+| `user-talking-stopped` / `uservoicedeactivated` | `totals.talk_seconds`が増加 |
+| `camera-share-started` / `webcamsharestarted` | `totals.camera_seconds`のタイマーが開始 |
+| `camera-share-stopped` / `webcamsharestopped` | `totals.camera_seconds`が増加 |
+| `chat-message-posted` / `publicchatmessageposted` | `counts.messages`が増加 |
+| `user-reaction-changed` / `useremojichanged` | `counts.reactions`と絵文字ごとの内訳が増加 |
+| `user-hand-raised` / `userraisedhand` | `counts.hands`が増加 |
+| `user-left` / `participantleft` | オープンなタイマーがフラッシュされ、アクティビティ行が閉じられる |
 
-## Metrics Data Structure
+---
+## メトリクスデータ構造
 
-Metrics are stored as a JSON column on `ConferenceActivity`:
+メトリクスは `ConferenceActivity` の JSON カラムとして保存されます：
 
 ```json
 {
@@ -150,26 +151,26 @@ Metrics are stored as a JSON column on `ConferenceActivity`:
 }
 ```
 
-The `temp` fields hold in-progress timer start timestamps; they are cleared when the corresponding stop event arrives or when the participant leaves.
+`temp` フィールドには進行中のタイマーの開始タイムスタンプが保持されます。これらは対応する停止イベントが到着したとき、または参加者が退出したときにクリアされます。
 
-## Webhook Dashboard
+## ウェブフックダッシュボード
 
-An admin dashboard is available at `/plugin/Bbb/webhook_dashboard.php`. It shows real-time and historical metrics per participant for a given meeting: connection time, talk time, camera time, message count, reaction count, and hand raises. Data can be exported as CSV.
+管理ダッシュボードは `/plugin/Bbb/webhook_dashboard.php` で利用可能です。このダッシュボードでは、特定の会議における参加者ごとのリアルタイムおよび過去のメトリクス（接続時間、発言時間、カメラ時間、メッセージ数、リアクション数、手を挙げる回数）を表示します。データは CSV 形式でエクスポート可能です。
 
-## Registering and Cleaning Up Hooks
+## フックの登録とクリーンアップ
 
-The `BbbLib` class provides methods for managing hook registration on the BBB server:
+`BbbLib` クラスは、BBB サーバー上でのフック登録を管理するためのメソッドを提供します：
 
-| Method | Description |
+| メソッド | 説明 |
 |---|---|
-| `ensureHookForMeeting($remoteId)` | Register (or confirm) a per-meeting hook after a user joins |
-| `ensureGlobalWebhook()` | Register a single global hook covering all meetings |
-| `cleanupWebhooks($meetingId)` | Delete Chamilo-registered hooks from the BBB server |
-| `BbbPlugin::checkWebhooksHealth()` | Validate that the BBB `hooks/list` endpoint is reachable |
+| `ensureHookForMeeting($remoteId)` | ユーザーが参加した後に会議ごとのフックを登録（または確認）する |
+| `ensureGlobalWebhook()` | すべての会議を対象とする単一のグローバルフックを登録する |
+| `cleanupWebhooks($meetingId)` | BBB サーバーから Chamilo によって登録されたフックを削除する |
+| `BbbPlugin::checkWebhooksHealth()` | BBB の `hooks/list` エンドポイントが到達可能であることを検証する |
 
-## Extending to Other Event Sources
+## 他のイベントソースへの拡張
 
-There is currently no generic outbound webhook system in Chamilo (i.e., no built-in way to POST to an external URL when a user enrolls or completes a course). If you need that behaviour, options include:
+現在、Chamilo には汎用のアウトバウンドウェブフックシステムはありません（つまり、ユーザーがコースに登録したり、コースを修了したりした際に外部 URL に POST する組み込みの方法はありません）。そのような動作が必要な場合のオプションには以下が含まれます：
 
-- Writing a plugin that listens to Symfony events and dispatches HTTP calls (see [Plugins](../plugins/README.md) and [Event System](../events.md)).
-- Using the REST API to poll for state changes from an external system.
+- Symfony イベントをリッスンし、HTTP 呼び出しをディスパッチするプラグインを作成する（[プラグイン](../plugins/README.md) および [イベントシステム](../events.md) を参照）。
+- REST API を使用して、外部システムから状態変化をポーリングする。

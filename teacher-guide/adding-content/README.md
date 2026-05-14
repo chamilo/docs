@@ -1,11 +1,11 @@
-# Adding Content
+# コンテンツの追加
 
-This section covers the tools you use to add learning content to your course. Chamilo provides several ways to deliver material to your learners:
+このセクションでは、コースに学習コンテンツを追加するために使用するツールについて説明します。Chamiloでは、学生に教材を提供するためのいくつかの方法が用意されています：
 
-* **[Documents](documents.md)** — Upload files, create web pages, and organize your content library
-* **[Links](links.md)** — Share URLs to external resources, organized by category
-* **[Learning Paths](learning-paths.md)** — Build structured sequences of content with prerequisites and progress tracking
-* **[Glossary](glossary.md)** — Define key terms that learners can reference throughout the course
-* **[Announcements](announcements.md)** — Send messages and updates to your enrolled learners
+* **[ドキュメント](documents.md)** — ファイルをアップロードし、ウェブページを作成し、コンテンツライブラリを整理します
+* **[リンク](links.md)** — 外部リソースのURLをカテゴリ別に整理して共有します
+* **[学習パス](learning-paths.md)** — 前提条件や進捗追跡を含む構造化されたコンテンツのシーケンスを構築します
+* **[用語集](glossary.md)** — コースを通じて学生が参照できる重要な用語を定義します
+* **[お知らせ](announcements.md)** — 登録している学生にメッセージや更新情報を送信します
 
-Each tool is accessible from the course homepage tool grid. Click the tool's icon to open it.
+各ツールは、コースのホームページにあるツールグリッドからアクセスできます。ツールのアイコンをクリックして開いてください。

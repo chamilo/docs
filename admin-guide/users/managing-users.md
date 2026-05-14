@@ -1,103 +1,103 @@
-# Managing Users
+# ユーザーの管理
 
-This page covers the day-to-day tasks of creating, editing, and managing user accounts.
+このページでは、ユーザーアカウントの作成、編集、管理に関する日常的なタスクについて説明します。
 
-## User List
+## ユーザーリスト
 
-![The user list showing accounts with name, email, role, and status columns](/.gitbook/assets/admin-user-list.png)
+![ユーザーリストには、名前、メールアドレス、役割、ステータスの列が表示されています](/.gitbook/assets/admin-user-list.png)
 
-From the administration panel, click **User list** to see all users on the platform. The list shows:
+管理パネルから**ユーザーリスト**をクリックすると、プラットフォーム上のすべてのユーザーを確認できます。リストには以下の情報が表示されます：
 
-* Avatar
-* Name
-* Username
-* Email address
-* Roles
-* Active/inactive status
-* Registration date
-* Last login date
+* アバター
+* 名前
+* ユーザー名
+* メールアドレス
+* 役割
+* アクティブ/非アクティブのステータス
+* 登録日
+* 最終ログイン日
 
-Use the **Advanced search** tool to find specific users by name, email, role, or other criteria.
+**高度な検索**ツールを使用して、名前、メールアドレス、役割、その他の条件で特定のユーザーを検索できます。
 
-## Creating a User
+## ユーザーの作成
 
-![The user creation form with fields for name, email, username, password, role, and language](/.gitbook/assets/admin-user-create-form.png)
+![名前、メールアドレス、ユーザー名、パスワード、役割、言語のフィールドを持つユーザー作成フォーム](/.gitbook/assets/admin-user-create-form.png)
 
-1. Click **Add a user** from the administration panel
-2. Fill in the required fields:
-   * **First name** and **Last name**
-   * **Email** — Must be unique on the platform
-   * **Username** — The login name (must be unique)
-   * **Password** — Set an initial password
-   * **Roles** — Select the user's platform role(s) (student, teacher, admin, etc.)
-   * **Language** — The user's preferred interface language
-3. Optionally fill in additional fields:
-   * Official code (e.g. unique ID in the organization)
-   * Phone number
-   * Expiration date — Automatically deactivate the account after a date
-   * Active/inactive status
-   * Extra profile fields (if configured)
-4. Save
+1. 管理パネルから**ユーザーを追加**をクリックします
+2. 必須フィールドに入力します：
+   * **名**および**姓**
+   * **メールアドレス** — プラットフォーム上で一意である必要があります
+   * **ユーザー名** — ログイン名（一意である必要があります）
+   * **パスワード** — 初期パスワードを設定します
+   * **役割** — ユーザーのプラットフォーム役割を選択します（学生、教師、管理者など）
+   * **言語** — ユーザーが希望するインターフェース言語
+3. 必要に応じて追加フィールドに入力します：
+   * 公式コード（例：組織内の一意なID）
+   * 電話番号
+   * 有効期限日 — 指定した日付以降にアカウントを自動的に非アクティブ化
+   * アクティブ/非アクティブのステータス
+   * 追加のプロフィールフィールド（設定されている場合）
+4. 保存します
 
-## Importing Users
+## ユーザーのインポート
 
-![The user import interface for uploading CSV or XML files with user data](/.gitbook/assets/admin-user-import.png)
+![ユーザー情報を含むCSVまたはXMLファイルをアップロードするためのユーザーインポートインターフェース](/.gitbook/assets/admin-user-import.png)
 
-For bulk user creation, you can import users from a file:
+一括でユーザーを作成するために、ファイルからユーザーをインポートできます：
 
-1. Click **Import users** from the administration panel
-2. Upload a **CSV** or **XML** file with user data
-3. Map the file columns to Chamilo user fields
-4. Choose how to handle existing users (update or skip)
-5. Import
+1. 管理パネルから**ユーザーをインポート**をクリックします
+2. ユーザー情報が含まれた**CSV**または**XML**ファイルをアップロードします
+3. ファイルの列をChamiloのユーザーフィールドにマッピングします
+4. 既存のユーザーの処理方法を選択します（更新またはスキップ）
+5. インポートします
 
-The import file should contain columns for at least: first name, last name, email, username, and password.
+インポートファイルには、少なくとも以下の列が含まれている必要があります：名、姓、メールアドレス、ユーザー名、パスワード。
 
-Note: The **Status** column is the legacy name for **Role** and only accepts a few values, like 1 for teacher, 5 for student. Further tuniing of the roles can only be done by hand later on, editing the user.
+注意：**ステータス**列は**役割**の古い名称であり、教師の場合は1、学生の場合は5など、いくつかの値しか受け付けません。役割の詳細な調整は後で手動で編集する必要があります。
 
-## Exporting Users
+## ユーザーのエクスポート
 
-Click **Export users** to download the user list as a CSV or XML file. You can filter which users to export by role, registration date, or other criteria.
+**ユーザーをエクスポート**をクリックすると、ユーザーリストをCSVまたはXMLファイルとしてダウンロードできます。役割、登録日、その他の条件でエクスポートするユーザーをフィルタリングできます。
 
-## Editing a User
+## ユーザーの編集
 
-Click on a user's name in the user list to edit their account. You can modify:
+ユーザーリストでユーザー名をクリックすると、アカウントを編集できます。以下の項目を変更できます：
 
-* Personal information (name, email, phone)
-* Roles
-* Password (reset)
-* Active/inactive status
-* Expiration date
-* Extra profile fields
+* 個人情報（名前、メールアドレス、電話番号）
+* 役割
+* パスワード（リセット）
+* アクティブ/非アクティブのステータス
+* 有効期限日
+* 追加のプロフィールフィールド
 
-## Deleting a User
+## ユーザーの削除
 
-When deleting users (usually teachers) who have created content on the platform, the system might prevent you from deleting the users permanently, and will show a warning message explaining the user is still attached to some of the resources. If you confirm the deletion, the system will not delete the content itself but attach it to a neutral user (we call it the "Fallback user") for data consistency reasons.
+プラットフォーム上でコンテンツを作成したユーザー（通常は教師）を削除する場合、システムがユーザーを完全に削除するのを防ぎ、ユーザーが一部のリソースにまだ関連付けられていることを説明する警告メッセージが表示されることがあります。削除を確認した場合、システムはコンテンツ自体を削除せず、データの一貫性を保つために中立的なユーザー（「フォールバックユーザー」と呼びます）にコンテンツを関連付けます。
 
-To avoid this, check the user details, delete each of their courses one by one, then delete the user.
+これを避けるには、ユーザーの詳細を確認し、コースを1つずつ削除してからユーザーを削除してください。
 
-## User Actions
+## ユーザーアクション
 
-| Action | Description |
+| アクション | 説明 |
 |--------|-------------|
-| **Deactivate** | Disable a user's account without deleting it. The user cannot log in but their data is preserved. |
-| **Activate** | Re-enable a previously deactivated account. |
-| **Login as** | Log in to the platform as this user (impersonation). Useful for troubleshooting. |
-| **Anonymize** | Erase all of the account's personal information, as defined by the EU's GDPR. |
-| **Delete** | Soft delete the user account. Use the **Deleted users** tab to permanently delete the account and associated data. |
+| **非アクティブ化** | ユーザーアカウントを削除せずに無効にします。ユーザーはログインできませんが、データは保持されます。 |
+| **アクティブ化** | 以前に非アクティブ化されたアカウントを再有効化します。 |
+| **としてログイン** | このユーザーとしてプラットフォームにログインします（なりすまし）。トラブルシューティングに役立ちます。 |
+| **匿名化** | EUのGDPRで定義されているように、アカウントのすべての個人情報を消去します。 |
+| **削除** | ユーザーアカウントをソフト削除します。**削除されたユーザー**タブを使用して、アカウントと関連データを完全に削除します。 |
 
-> **Login as** is a powerful feature. Use it responsibly and only for legitimate support purposes.
+> **としてログイン**は強力な機能です。責任を持って、正当なサポート目的でのみ使用してください。
 
-## Batch Operations
+## 一括操作
 
-Select multiple users in the user list to perform batch actions:
+ユーザーリストで複数のユーザーを選択して一括操作を実行できます：
 
-* Activate or deactivate multiple users at once
-* Delete multiple users
-* Assign users to a course or session
+* 複数のユーザーを一度にアクティブ化または非アクティブ化
+* 複数のユーザーを削除
+* ユーザーをコースまたはセッションに割り当て
 
-## Tips
+## ヒント
 
-* **Use CSV import for large enrollments** — When onboarding many users at the start of a training program, prepare a CSV file and import in bulk
-* **Set expiration dates** — For temporary users (workshop participants, trial users), set an expiration date to automatically deactivate their accounts
-* **Deactivate rather than delete** — When a user leaves, deactivate their account first. This preserves their training records. Only delete if you are sure the data is no longer needed.
+* **大規模な登録にはCSVインポートを使用** — トレーニングプログラムの開始時に多くのユーザーを登録する場合は、CSVファイルを準備して一括インポートします
+* **有効期限日を設定** — 一時的なユーザー（ワークショップ参加者、トライアルユーザー）の場合、有効期限日を設定してアカウントを自動的に非アクティブ化します
+* **削除ではなく非アクティブ化を優先** — ユーザーが退職する場合、まずアカウントを非アクティブ化します。これによりトレーニング記録が保持されます。データが不要であると確信した場合のみ削除してください。

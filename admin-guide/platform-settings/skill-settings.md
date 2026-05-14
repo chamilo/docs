@@ -1,120 +1,109 @@
-# Skills Settings
+# スキル設定
 
-Behaviour of the **Skills** system — skills tree, awarding rules, profile integration.
+**スキル**システムの動作 — スキルツリー、授与ルール、プロフィール統合。
 
-Access these settings under **Administration > Configuration settings > Skills**. This category contains **13 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+これらの設定には、**管理 > 設定 > スキル**からアクセスできます。このカテゴリには**13の設定**が含まれており、以下にプラットフォームの設定フィクスチャ（`SettingsCurrentFixtures.php`）に含まれるタイトルとコメントを記載しています。
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> コード内の変数名は等幅フォントで表示されています。APIを通じてスクリプトを作成する場合や、[`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml)を編集してこれらの設定をグローバルレベルで変更する必要がある場合に使用してください。
 
-## Settings
+## 設定
 
 ### `allow_hr_skills_management`
 
-**Allow HR skills management**
+**HRによるスキル管理を許可**
 
-Allows HR to manage skills
+HRがスキルを管理することを許可します。
 
-*Default: `true`*
-
+*デフォルト: `true`*
 
 ### `allow_private_skills`
 
-**Hide skills from learners**
+**学習者からスキルを非表示**
 
-If enabled, skills can only be visible for admins, teachers (related to a user via a course), and HRM users (if related to a user).
+有効にすると、スキルは管理者、教師（ユーザーとコースを通じて関連している場合）、およびHRMユーザー（ユーザーと関連している場合）のみに表示されます。
 
-*Default: `false`*
-
+*デフォルト: `false`*
 
 ### `allow_skill_rel_items`
 
-**Enable linking skills to items**
+**アイテムへのスキルリンクを有効化**
 
-This enables a major feature that enables any item to be linked to (and as such to allow acquisition of) a skill. The feature still requires the teacher to confirm the acquisition of the skill, so the acquisition is not automatic.
+この設定を有効にすると、任意のアイテムをスキルにリンクすることができ（その結果、スキルの取得を許可する）、主要な機能が利用可能になります。ただし、スキルの取得は教師による確認が必要であり、自動的には行われません。
 
-*Default: `false`*
-
+*デフォルト: `false`*
 
 ### `allow_skills_tool`
 
-**Allow Skills tool**
+**スキルツールを許可**
 
-Users can see their skills in the social network and in a block in the homepage.
+ユーザーはソーシャルネットワークやホームページのブロック内で自分のスキルを確認できます。
 
-*Default: `true`*
+*デフォルト: `true`*
 
 ### `allow_teacher_access_student_skills`
 
-**Allow teachers to access learners' skills**
+**教師が学習者のスキルにアクセスすることを許可**
 
-[inferred] Allow instructors to view and monitor skills acquired by learners in their courses.
+[推定] 教師が自分のコース内で学習者が取得したスキルを閲覧および監視することを許可します。
 
-*Default: `false`*
-
+*デフォルト: `false`*
 
 ### `badge_assignation_notification`
 
-**Send notification to learner when a skill/badge has been acquired**
+**スキル/バッジ取得時に学習者に通知を送信**
 
-[inferred] Send notifications to learners when they acquire a new skill or badge achievement.
+[推定] 学習者が新しいスキルまたはバッジを取得した際に通知を送信します。
 
-*Default: `false`*
-
+*デフォルト: `false`*
 
 ### `hide_skill_levels`
 
-**Hide skill levels feature**
+**スキルレベル機能を非表示**
 
-[inferred] Conceal the skill level hierarchy and level labels in skill-related views.
+[推定] スキル関連のビューでスキルレベルの階層やレベルラベルを隠します。
 
-*Default: `false`*
-
+*デフォルト: `false`*
 
 ### `manual_assignment_subskill_autoload`
 
-**Assigning skills to user: sub-skills auto-loading**
+**ユーザーにスキルを割り当てる：サブスキルの自動読み込み**
 
-When manually assigning skills to a user, the form can be set to automatically offer you to assign a sub-skill instead of the skill you selected.
+ユーザーに手動でスキルを割り当てる際、選択したスキルの代わりにサブスキルを割り当てることを自動的に提案するようにフォームを設定できます。
 
-*Default: `false`*
-
+*デフォルト: `false`*
 
 ### `openbadges_backpack`
 
-**OpenBadges backpack URL**
+**OpenBadgesバックパックURL**
 
-The URL of the OpenBadges backpack server that will be used by default for all users wanting to export their badges. This defaults to the open and free Mozilla Foundation backpack repository: https://backpack.openbadges.org/
+バッジをエクスポートしたいすべてのユーザーがデフォルトで使用するOpenBadgesバックパックサーバーのURL。デフォルトでは、Mozilla Foundationのオープンで無料のバックパックリポジトリ（https://backpack.openbadges.org/）が設定されています。
 
 ### `show_full_skill_name_on_skill_wheel`
 
-**Show full skill name on skill wheel**
+**スキルホイールに完全なスキル名を表示**
 
-On the wheel of skills, it shows the name of the skill when it has short code.
+スキルホイール上で、短いコードがある場合にスキルの名前を表示します。
 
-*Default: `false`*
-
+*デフォルト: `false`*
 
 ### `skill_levels_names`
 
-**Skill levels names**
+**スキルレベルの名前**
 
-Define names for levels of skills as an array of id => name.
+スキルレベルの名前をid => nameの配列として定義します。
 
 ### `skills_hierarchical_view_in_user_tracking`
 
-**Show skills as a hierarchical table**
+**スキルを階層的なテーブルとして表示**
 
-[inferred] Display learner skills as a hierarchical tree structure in progress and reporting pages.
+[推定] 進捗状況やレポートページで学習者のスキルを階層的なツリー構造として表示します。
 
-*Default: `false`*
-
+*デフォルト: `false`*
 
 ### `skills_teachers_can_assign_skills`
 
-**Allow teachers to set which skills are acquired through their courses**
+**教師がコースを通じて取得可能なスキルを設定することを許可**
 
-By default, only admins can decide which skills can be acquired through which course.
+デフォルトでは、管理者のみがどのコースを通じてどのスキルを習得できるかを決定できます。
 
-*Default: `false`*
-
-
+*デフォルト: `false`*

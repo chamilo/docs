@@ -1,50 +1,49 @@
-# Privacy Settings
+# プライバシー設定
 
-Privacy and data-protection (GDPR-style) controls — consent, data export, account deletion requests, and similar.
+プライバシーおよびデータ保護（GDPRスタイル）の管理 — 同意、データエクスポート、アカウント削除リクエストなど。
 
-Access these settings under **Administration > Configuration settings > Privacy**. This category contains **6 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+これらの設定には、**管理 > 設定 > プライバシー** からアクセスできます。このカテゴリには **6つの設定** が含まれており、以下にプラットフォームの設定フィクスチャ（`SettingsCurrentFixtures.php`）に含まれるタイトルとコメントを記載しています。
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> コード内の変数名は等幅フォントで表示されています。APIを通じてスクリプトを作成する場合や、[`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml) を編集してこれらの設定をグローバルレベルで変更する必要がある場合に使用してください。
 
-## Settings
+## 設定
 
 ### `data_protection_officer_email`
 
-**Data protection officer e-mail address**
+**データ保護責任者のメールアドレス**
 
-Email address for the designated data protection officer, displayed in GDPR/privacy sections.
+GDPR/プライバシーセクションに表示される、指定されたデータ保護責任者のメールアドレス。
 
 ### `data_protection_officer_name`
 
-**Data protection officer name**
+**データ保護責任者の名前**
 
-Full name of the designated data protection officer, displayed in personal data and privacy pages.
+個人データおよびプライバシーページに表示される、指定されたデータ保護責任者のフルネーム。
 
 ### `data_protection_officer_role`
 
-**Data protection officer role**
+**データ保護責任者の役割**
 
-Job title or role of the designated data protection officer, displayed alongside their name in privacy information.
+プライバシー情報に名前と一緒に表示される、指定されたデータ保護責任者の職名または役割。
 
 ### `disable_change_user_visibility_for_public_courses`
 
-**Disable making tool users visible in public courses**
+**公開コースでのツールユーザーの可視化を無効にする**
 
-Avoid anyone making the 'users' tool visible in a public course.
+公開コースで「ユーザー」ツールを誰かが可視化することを防ぎます。
 
-*Default: `true`*
+*デフォルト: `true`*
 
 ### `disable_gdpr`
 
-**Disable GDPR features**
+**GDPR機能を無効にする**
 
-If you already manage your personal data protection declaration to users elsewhere, you can safely disable this feature.
+すでに他の場所で個人データ保護宣言をユーザーに管理している場合、この機能を安全に無効にすることができます。
 
-*Default: `true`*
+*デフォルト: `true`*
 
 ### `hide_user_field_from_list`
 
-**Hide fields from users list in course**
+**コース内のユーザーリストからフィールドを非表示にする**
 
-By default, we show all data from users in the users tool in the course. This array allows you to specify which fields you do not want to display. Only affects main fields (not extra fields).
-
+デフォルトでは、コース内のユーザーツールにユーザーのすべてのデータが表示されます。この配列を使用すると、表示したくないフィールドを指定できます。メインフィールドにのみ影響し、追加フィールドには影響しません。

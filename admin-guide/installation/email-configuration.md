@@ -1,42 +1,42 @@
-# Email Configuration
+# メール設定
 
-Chamilo now manages the emails sending configuration from the administration dashboard, platform settings section (there is a specific entry for emails). Emails are sent for account creations, password resets, course notifications, message alerts, and other platform events. Email delivery is configured through a `MAILER_DSN` configuration setting.
+Chamiloでは、メール送信の設定を管理ダッシュボードのプラットフォーム設定セクション（メール専用の項目があります）から管理できるようになりました。メールはアカウント作成、パスワードリセット、コース通知、メッセージアラート、その他のプラットフォームイベントのために送信されます。メール配信は`MAILER_DSN`設定を通じて構成されます。
 
-## Configuration
+## 設定方法
 
-Set the `Mail DSN` option in the /admin/settings/mail section. The format depends on your email transport.
+/admin/settings/mailセクションで`Mail DSN`オプションを設定します。形式は使用するメールトランスポートによって異なります。
 
 ### SMTP
 
-The most common configuration, suitable for any SMTP server:
+最も一般的な設定で、任意のSMTPサーバーに適しています：
 
 ```bash
-# Let the system decide
+# システムに任せる
 native://default
 
-# Basic SMTP
+# 基本的なSMTP
 smtp://username:password@smtp.example.com:587
 
-# SMTP with TLS (most providers)
+# TLSを使用したSMTP（ほとんどのプロバイダ）
 smtp://username:password@smtp.example.com:587?encryption=tls
 
-# SMTP without authentication (local relay)
+# 認証なしのSMTP（ローカルリレー）
 smtp://localhost:25
 ```
 
-Replace `username`, `password`, and the host with your SMTP server credentials.
+`username`、`password`、およびホストをSMTPサーバーの認証情報に置き換えてください。
 
 ### Amazon SES
 
 ```bash
-# Using SMTP interface
+# SMTPインターフェースを使用
 ses+smtp://ACCESS_KEY:SECRET_KEY@default?region=us-east-1
 
-# Using API
+# APIを使用
 ses+api://ACCESS_KEY:SECRET_KEY@default?region=us-east-1
 ```
 
-The Symfony Amazon Mailer transport comes embedded into Chamilo. No additional install required.
+Symfony Amazon MailerトランスポートはChamiloに組み込まれています。追加のインストールは不要です。
 
 ### Mailjet
 
@@ -44,48 +44,48 @@ The Symfony Amazon Mailer transport comes embedded into Chamilo. No additional i
 mailjet+api://API_KEY:SECRET_KEY@default
 ```
 
-The Symfony Mailjet transport comes embedded into Chamilo. No additional install required.
+Symfony MailjetトランスポートはChamiloに組み込まれています。追加のインストールは不要です。
 
-### Brevo (formerly Sendinblue)
+### Brevo（旧Sendinblue）
 
 ```bash
 brevo+api://API_KEY@default
 ```
 
-The Symfony Brevo transport comes embedded into Chamilo. No additional install required.
+Symfony BrevoトランスポートはChamiloに組み込まれています。追加のインストールは不要です。
 
-### Gmail (Development/Small Platforms)
+### Gmail（開発/小規模プラットフォーム向け）
 
 ```bash
 gmail+smtp://your-email@gmail.com:app-password@default
 ```
 
-Use an App Password, not your regular Gmail password. This is suitable for small platforms or development only, as Gmail has sending limits.
+通常のGmailパスワードではなく、アプリパスワードを使用してください。これは小規模なプラットフォームや開発環境にのみ適しており、Gmailには送信制限があります。
 
-## Platform Email Settings
+## プラットフォームのメール設定
 
-In addition to the transport, configure the sender identity on the same page:
+トランスポートに加えて、同じページで送信者の識別情報を設定します：
 
-| Setting | Description |
+| 設定項目 | 説明 |
 |---------|-------------|
-| **Send all e-mails as originating from this (organizational) name** | The display name associated with system emails. |
-| **Send all e-mails from this e-mail address** | The "From" address for all system emails. Must be a valid address accepted by your mail transport. We recommend using a "no reply" address like `no-reply@yourdomain.com` to avoid getting pointless answers to automated e-mails. |
+| **すべてのメールをこの（組織の）名前で送信元として送信する** | システムメールに関連付けられる表示名。 |
+| **すべてのメールをこのメールアドレスから送信する** | すべてのシステムメールの「送信元」アドレス。メールトランスポートで受け入れられる有効なアドレスである必要があります。自動送信メールへの無意味な返信を避けるため、`no-reply@yourdomain.com`のような「返信不要」アドレスを使用することをお勧めします。 |
 
-## Testing Email Delivery
+## メール配信のテスト
 
-After configuring `MAILER_DSN`, test that emails are delivered: Go to *Administration* > *System* > *E-mail tester*, specify a recipient, a subject and an e-mail body and click **Send test email**.
+`MAILER_DSN`を設定した後、メールが配信されるかテストします：*管理* > *システム* > *メールテスター*に移動し、受信者、件名、メール本文を指定して**テストメールを送信**をクリックします。
 
-If the command completes without errors but the email is not received:
+コマンドがエラーなく完了したがメールが届かない場合：
 
-1. Check the recipient's spam/junk folder.
-2. Verify that your sending domain has proper DNS records (SPF, DKIM, DMARC).
-3. Check your mail provider's sending logs for bounces or rejections.
-4. Review the Chamilo log at `var/log/prod.log` for mailer errors.
-5. In the E-mail configuration settings, enable *Mail: Debug* (not available in 2.0, will be soon).
+1. 受信者のスパム/ジャンクフォルダを確認してください。
+2. 送信ドメインに適切なDNSレコード（SPF、DKIM、DMARC）があるか確認してください。
+3. メールプロバイダの送信ログでバウンスや拒否がないか確認してください。
+4. Chamiloのログ`var/log/prod.log`でメーラーエラーを確認してください。
+5. メール設定で*Mail: Debug*を有効にしてください（2.0では利用できませんが、近日中に利用可能になります）。
 
-## Experimental: Email Queue (Async Delivery)
+## 実験的：メールキュー（非同期配信）
 
-By default, emails are sent synchronously during the web request. For better performance, configure asynchronous delivery using Symfony Messenger:
+デフォルトでは、メールはウェブリクエスト中に同期的に送信されます。パフォーマンスを向上させるために、Symfony Messengerを使用して非同期配信を設定できます：
 
 ```yaml
 # config/packages/messenger.yaml
@@ -97,16 +97,16 @@ framework:
             'Symfony\Component\Mailer\Messenger\SendEmailMessage': async
 ```
 
-With async delivery, emails are queued and sent by a background worker:
+非同期配信では、メールはキューに溜まり、バックグラウンドワーカーによって送信されます：
 
 ```bash
 php bin/console messenger:consume async
 ```
 
-Run this as a system service (e.g., via systemd or supervisord) so it stays running.
+これをシステムサービス（例：systemdやsupervisord経由）として実行し、常時稼働するようにしてください。
 
-## Tips
+## ヒント
 
-* **Use a dedicated email service** (SES, Mailjet, Brevo) for production platforms. Direct SMTP to your own mail server requires careful configuration to avoid deliverability issues.
-* **Configure SPF, DKIM, and DMARC** DNS records for your sending domain to maximize delivery rates and prevent emails from being marked as spam. You can also configure DKIM headers from the e-mail settings page.
-* **Use async delivery** on platforms with more than a few dozen active users -- synchronous email sending can noticeably slow down web requests.
+* **本番環境のプラットフォームでは専用のメールサービス**（SES、Mailjet、Brevo）を使用してください。独自のメールサーバーへの直接SMTPは、配信性の問題を避けるために慎重な設定が必要です。
+* 送信ドメインの**SPF、DKIM、DMARC** DNSレコードを設定して、配信率を最大化し、メールがスパムとしてマークされるのを防ぎます。メール設定ページからDKIMヘッダーも設定できます。
+* 数十人以上のアクティブユーザーがいるプラットフォームでは**非同期配信**を使用してください。同期的なメール送信はウェブリクエストを顕著に遅くする可能性があります。

@@ -1,115 +1,116 @@
-# Learning Paths
+# 学習パス
 
-Learning paths let you create structured sequences of learning activities. A learning path guides your learners through a specific order of documents, exercises, links, and other resources, with optional prerequisites and progress tracking.
+学習パスは、構造化された学習アクティビティのシーケンスを作成するための機能です。学習パスは、特定の順序でドキュメント、演習、リンク、その他のリソースを生徒に案内し、オプションで前提条件を設定したり、進捗状況を追跡したりすることができます。
 
-This tool is arguably the most used course tool, because it acts as a composer for many other tools and can very much be the ***only*** tool facing learners.
+このツールは、コース内で最もよく使用されるツールであり、他の多くのツールを統合する役割を果たし、実際には生徒向けの***唯一***のツールとなる可能性があります。
 
-## Why Use Learning Paths?
+## 学習パスを使用する理由
 
-Learning paths are useful when you want to:
+学習パスは以下のような場合に役立ちます：
 
-* **Control the order** of content consumption — ensure learners complete foundational material before advancing
-* **Track progress** — see exactly where each learner is in the sequence
-* **Set prerequisites** — require learners to pass an exercise before accessing the next section
-* **Award completion** — link learning path completion to the gradebook and certificates
-* **Package content** — create self-contained learning modules that learners can work through at their own pace
+* **コンテンツの消費順序を制御する** — 生徒が基本的な教材を完了してから次のステップに進むことを保証する
+* **進捗状況を追跡する** — 各生徒がシーケンスのどこにいるかを正確に確認する
+* **前提条件を設定する** — 次のセクションにアクセスする前に演習に合格することを生徒に求める
+* **完了を付与する** — 学習パスの完了を成績表や証明書にリンクする
+* **コンテンツをパッケージ化する** — 生徒が自分のペースで取り組むことができる独立した学習モジュールを作成する
 
-## Creating a Learning Path
+## 学習パスの作成
 
-1. Open the **Learning paths** <img src="/.gitbook/assets/icons/mdi-map-marker-path.svg" alt="Learning paths" data-size="line"> tool from the course homepage
-2. Click **Create a learning path**
-3. Enter a **title** and optional description
-4. Save — you will be taken to the learning path editor
+1. コースのホームページで**学習パス**ツール <img src="/.gitbook/assets/icons/mdi-map-marker-path.svg" alt="学習パス" data-size="line"> を開く
+2. **学習パスを作成**をクリックする
+3. **タイトル**と任意の説明を入力する
+4. 保存する — 学習パスエディタに移動します
 
-## The Learning Path Editor
+## 学習パスエディタ
 
-![The learning path editor with the item tree on the left and content preview on the right](/.gitbook/assets/learning-path-editor.png)
+![学習パスエディタ。左側にアイテムのツリー、右側にコンテンツのプレビューが表示されています](/.gitbook/assets/learning-path-editor.png)
 
-The editor has two main areas:
+エディタには2つの主要なエリアがあります：
 
-* **Left panel** — The list of items (steps) in the learning path, shown as a tree structure
-* **Right panel** — The content of the selected item
+* **左側のパネル** — 学習パス内のアイテム（ステップ）のリストで、ツリー構造として表示されます
+* **右側のパネル** — 選択したアイテムのコンテンツ
 
-### Adding Items
+### アイテムの追加
 
-Click **Add an item** and choose what to add:
+**アイテムを追加**をクリックし、追加するものを選択します：
 
-| Item type | Description |
-|-----------|-------------|
-| **Section** | A heading that groups related items (like a chapter title). Sections do not contain content themselves. |
-| **Document** | A file or web page from your course's Documents tool |
-| **Exercise** | A quiz or test from the Exercises tool |
-| **Link** | An external URL |
-| **Assignment** | A student publication from the Assignments tool |
-| **Forum** | A link to a course forum |
-| **Survey** | A link to a survey |
-| **Certificate** | A special page to trigger the generation of a completion certificate or the awarding of skills |
+| アイテムの種類 | 説明 |
+|--------------|-----------|
+| **セクション** | 関連するアイテムをグループ化する見出し（章のタイトルなど）。セクション自体にはコンテンツは含まれません。 |
+| **ドキュメント** | コースのドキュメントツールからのファイルまたはウェブページ |
+| **演習** | 演習ツールからのクイズまたはテスト |
+| **リンク** | 外部URL |
+| **課題** | 課題ツールからの生徒の投稿 |
+| **フォーラム** | コースのフォーラムへのリンク |
+| **アンケート** | アンケートへのリンク |
+| **証明書** | 修了証明書の生成やスキルの付与をトリガーする特別なページ |
 
-### Organizing Items
+### アイテムの整理
 
-* **Drag and drop** items to reorder them
-* **Nest items** under sections by dragging them to the right
-* **Delete** items you no longer need
+* アイテムを**ドラッグ＆ドロップ**して並べ替える
+* アイテムを右にドラッグしてセクションの下に**ネスト**する
+* 不要になったアイテムを**削除**する
 
-### Setting Prerequisites
+### 前提条件の設定
 
-Prerequisites ensure learners complete certain steps before accessing others:
+前提条件は、生徒が特定のステップを完了しないと他のステップにアクセスできないようにします：
 
-1. Select an item in the learning path
-2. Open its **prerequisites** settings
-3. Choose which preceding item(s) must be completed first
-4. For exercises, you can require a **minimum score** (e.g., "Must score at least 70% on Quiz 1 before accessing Module 2")
+1. 学習パス内のアイテムを選択する
+2. **前提条件**の設定を開く
+3. 最初に完了する必要がある前のアイテムを選択する
+4. 演習の場合、**最低スコア**を要求することができます（例：「クイズ1で少なくとも70％を取得しないとモジュール2にアクセスできない」）
 
-## Learner Experience
+## 生徒の体験
 
-When a learner opens a learning path:
+生徒が学習パスを開くと：
 
-* They see the list of items in the left panel
-* Completed items are marked with a checkmark
-* Items with unmet prerequisites are locked
-* Progress is tracked automatically — if a learner leaves and comes back, they resume where they left off
-* A progress bar shows overall completion percentage
+* 左側のパネルにアイテムのリストが表示される
+* 完了したアイテムにはチェックマークが付く
+* 前提条件を満たしていないアイテムはロックされる
+* 進捗状況は自動的に追跡される — 生徒が途中で終了して戻った場合、中断したところから再開する
+* 進捗バーに全体の完了率が表示される
 
-## SCORM Content
+## SCORMコンテンツ
 
-Chamilo's learning path tool can import **SCORM 1.2** packages — the most widely used e-learning standard. Upload a SCORM ZIP file and Chamilo will create a learning path from it, tracking progress and scores according to the SCORM specification.
+Chamiloの学習パスツールは、**SCORM 1.2**パッケージをインポートすることができます。これは最も広く使用されているeラーニング標準です。SCORMのZIPファイルをアップロードすると、Chamiloが学習パスを作成し、SCORM仕様に従って進捗状況やスコアを追跡します。
 
-To import a SCORM package:
+SCORMパッケージをインポートするには：
 
-1. In the Learning paths tool, open the actions menu and click **Upload**
-2. Upload the ZIP file
-3. Chamilo unpacks and creates the learning path automatically
+1. 学習パスツールでアクションメニューを開き、**アップロード**をクリックする
+2. ZIPファイルをアップロードする
+3. Chamiloが自動的に解凍し、学習パスを作成する
 
-### CMI5 / xAPI packages
+### CMI5 / xAPIパッケージ
 
-CMI5 packages (the modern xAPI-based successor to SCORM) are supported through the **XApi** plugin. Once the plugin is enabled by your administrator, you can import a CMI5 package and learners can launch it from the course; their statements are forwarded to the configured Learning Record Store.
+CMI5パッケージ（SCORMのxAPIベースの現代的な後継）は、**XApi**プラグインを通じてサポートされています。管理者がプラグインを有効にすると、CMI5パッケージをインポートでき、生徒はコースから開始することができます。生徒のステートメントは設定されたLearning Record Storeに転送されます。
 
-## Learning Path Settings
+---
+## 学習パスの設定
 
-Configure how the learning path behaves:
+学習パスの動作を設定します：
 
-| Setting | Description |
-|---------|-------------|
-| **Visibility** | Hide or show the learning path to learners |
-| **Prerequisites** | Require completion of other learning paths before this one |
-| **Auto-launch** | Automatically open this learning path when learners enter the course |
-| **Accumulated SCORM time** | Whether to accumulate time across multiple sessions |
+| 設定 | 説明 |
+|------|------|
+| **表示設定** | 学習パスを生徒に非表示または表示する |
+| **前提条件** | この学習パスの前に他の学習パスを完了することを要求する |
+| **自動開始** | 生徒がコースに入った際にこの学習パスを自動的に開く |
+| **SCORM累積時間** | 複数のセッションにわたって時間を累積するかどうか |
 
-## Linking to the Gradebook
+## 成績簿へのリンク
 
-You can include learning path completion as a graded activity in the Gradebook. This allows learning path progress to contribute to the learner's overall course grade and certificate eligibility.
+学習パスの完了を成績簿に評価対象の活動として含めることができます。これにより、学習パスでの進捗が生徒のコース全体の成績や証明書の取得資格に反映されます。
 
-## Using AI
+## AIの活用
 
-If the administrator has enabled AI-assisted learning path generation, you will find an AI generator option in the drop-down actions menu. Give the AI as precise a context as you want your learning path, ask for a number of pages and an approximate number of words per page, then tell it if you want to populate it with tests and launch. A few minutes later, you are looking down at a complete, text-based learning path.
+管理者がAI支援による学習パスの生成を有効にしている場合、アクションドロップダウンメニューにAIジェネレーターのオプションが表示されます。学習パスに対してできるだけ正確なコンテキストをAIに提供し、ページ数と1ページあたりのおおよその単語数を指定します。その後、テストを追加して公開するかどうかを指示してください。数分後、テキストベースの完全な学習パスが完成します。
 
-Edit the documents to generate illustrations with more AI and you only have some review to do before you can share it with your learners.
+ドキュメントを編集してさらにAIでイラストを生成すれば、生徒と共有する前にわずかな修正を行うだけで済みます。
 
-## Tips
+## ヒント
 
-* **Start with an outline** — Plan your sections and items before building the path
-* **Use sections as chapters** — Group related items under section headings for clarity
-* **Set prerequisites for assessments** — Require learners to study the content before taking a quiz
-* **Mix content types** — Combine reading materials, videos, interactive exercises, and external resources for an engaging learning experience
-* **Check the learner view** — Use the Student View feature to experience the learning path as a learner would
-* **Use SCORM for interactivity** — If you have access to SCORM authoring tools (like Articulate, iSpring, or similar), create rich interactive content and import it into Chamilo
+* **概要から始める** — セクションや項目を計画してから学習パスを構築する
+* **セクションを章として使う** — 関連する項目をセクションの見出しの下にグループ化して明確にする
+* **評価の前提条件を設定する** — 生徒にテストを受ける前にコンテンツを学習することを要求する
+* **コンテンツの種類を組み合わせる** — 読み物、ビデオ、インタラクティブな演習、外部リソースを組み合わせて魅力的な学習体験を提供する
+* **生徒の視点を確認する** — 生徒プレビュー機能を使用して、生徒として学習パスを体験する
+* **SCORMをインタラクティブに活用する** — SCORMオーサリングツール（Articulate、iSpringなど）にアクセスできる場合、豊富なインタラクティブコンテンツを作成し、Chamiloにインポートする

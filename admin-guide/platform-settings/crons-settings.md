@@ -1,32 +1,31 @@
-# Cron Jobs Settings
+# クロンジョブ設定
 
-Configuration of scheduled jobs (cron tasks) shipped with Chamilo.
+Chamiloに同梱されているスケジュールされたジョブ（クロンタスク）の設定。
 
-Access these settings under **Administration > Configuration settings > Cron Jobs**. This category contains **3 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+これらの設定には、**管理 > 設定 > クロンジョブ**からアクセスできます。このカテゴリには**3つの設定**が含まれており、以下にプラットフォームの設定フィクスチャ（`SettingsCurrentFixtures.php`）に記載されているタイトルとコメントとともにリストされています。
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> コード内の変数名は等幅フォントで表示されています。APIを介してスクリプトを作成する場合や、[`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml)を編集してこれらの設定をグローバルレベルで変更する必要がある場合に使用してください。
 
-## Settings
+## 設定
 
 ### `cron_remind_course_expiration_activate`
 
-**Remind Course Expiration cron**
+**コース有効期限リマインダークロン**
 
-Enable the Remind Course Expiration cron
+コース有効期限リマインダークロンを有効にする
 
-*Default: `false`*
+*デフォルト: `false`*
 
 ### `cron_remind_course_expiration_frequency`
 
-**Frequency for the Remind Course Expiration cron**
+**コース有効期限リマインダークロンの頻度**
 
-Number of days before the expiration of the course to consider to send reminder mail
+リマインダーメールを送信する対象となる、コースの有効期限までの日数
 
 ### `cron_remind_course_finished_activate`
 
-**Send course finished notification**
+**コース終了通知の送信**
 
-Whether to send an e-mail to students when their course (session) is finished. This requires cron tasks to be configured (see main/cron/ directory).
+コース（セッション）が終了した際に学生にメールを送信するかどうか。この機能を利用するには、クロンタスクの設定が必要です（main/cron/ディレクトリを参照）。
 
-*Default: `false`*
-
+*デフォルト: `false`*

@@ -1,26 +1,26 @@
 # SCIM
 
-**SCIM** (System for Cross-domain Identity Management) automates user provisioning — creating, updating, and deactivating Chamilo accounts based on changes in your identity provider. Unlike OAuth2 or LDAP, SCIM handles provisioning, not login.
+**SCIM** (System for Cross-domain Identity Management、クロスドメインID管理システム) は、ユーザーのプロビジョニングを自動化します。Chamilo アカウントの作成、更新、無効化を、アイデンティティプロバイダーの変更に基づいて行います。OAuth2 や LDAP とは異なり、SCIM はプロビジョニングを扱い、ログインは扱いません。
 
-| Scenario | SCIM action |
+| シナリオ | SCIM のアクション |
 |----------|-------------|
-| A new employee joins | Creates a Chamilo account |
-| An employee's name or role changes | Updates the Chamilo account |
-| An employee leaves | Deactivates or deletes the Chamilo account |
+| 新しい従業員が入社する | Chamilo アカウントを作成する |
+| 従業員の名前や役割が変更される | Chamilo アカウントを更新する |
+| 従業員が退職する | Chamilo アカウントを無効化または削除する |
 
-## Configuration
+## 設定
 
-### 1. Set the SCIM token
+### 1. SCIM トークンの設定
 
-In your `.env` (or `.env.local`) file, define a secure random token:
+`.env`（または `.env.local`）ファイルに、安全なランダムトークンを定義します：
 
 ```
 SCIM_TOKEN=your-secure-random-token
 ```
 
-This token is used by your identity provider to authenticate its requests to Chamilo's SCIM endpoints.
+このトークンは、アイデンティティプロバイダーが Chamilo の SCIM エンドポイントへのリクエストを認証するために使用されます。
 
-### 2. Enable SCIM in authentication.yaml
+### 2. authentication.yaml で SCIM を有効化する
 
 ```yaml
 authentication:
@@ -31,37 +31,37 @@ authentication:
         auth_source: platform
 ```
 
-Clear and warm the cache after editing:
+編集後にキャッシュをクリアし、ウォームアップします：
 
 ```bash
 php bin/console cache:clear && php bin/console cache:warmup
 ```
 
-### 3. Configure your identity provider
+### 3. アイデンティティプロバイダーの設定
 
-In your identity provider (Azure AD, Okta, etc.):
+アイデンティティプロバイダー（Azure AD、Okta など）で以下の手順を行います：
 
-1. Add Chamilo as a SCIM application
-2. Set the SCIM base URL to `https://your-chamilo-url/scim/v2/`
-3. Enter the token from step 1 as the bearer token
-4. Map provider attributes to SCIM standard fields (userName, name.givenName, name.familyName, emails)
-5. Enable automatic provisioning
+1. Chamilo を SCIM アプリケーションとして追加する
+2. SCIM ベース URL を `https://your-chamilo-url/scim/v2/` に設定する
+3. 手順 1 で設定したトークンをベアラートークンとして入力する
+4. プロバイダーの属性を SCIM 標準フィールド（userName、name.givenName、name.familyName、emails）にマッピングする
+5. 自動プロビジョニングを有効化する
 
-## SCIM endpoints
+## SCIM エンドポイント
 
-Chamilo implements SCIM 2.0:
+Chamilo は SCIM 2.0 を実装しています：
 
-| Endpoint | Method | Action |
+| エンドポイント | メソッド | アクション |
 |----------|--------|--------|
-| `/scim/v2/Users` | GET | List users |
-| `/scim/v2/Users` | POST | Create a user |
-| `/scim/v2/Users/{id}` | GET | Get a user |
-| `/scim/v2/Users/{id}` | PUT | Replace a user |
-| `/scim/v2/Users/{id}` | PATCH | Update a user |
-| `/scim/v2/Users/{id}` | DELETE | Remove a user |
+| `/scim/v2/Users` | GET | ユーザーを一覧表示する |
+| `/scim/v2/Users` | POST | ユーザーを作成する |
+| `/scim/v2/Users/{id}` | GET | ユーザーを取得する |
+| `/scim/v2/Users/{id}` | PUT | ユーザーを置き換える |
+| `/scim/v2/Users/{id}` | PATCH | ユーザーを更新する |
+| `/scim/v2/Users/{id}` | DELETE | ユーザーを削除する |
 
-## Tips
+## ヒント
 
-* **Start with a test group** — provision a small set of users before enabling SCIM for the whole organization.
-* **Combine with OAuth2** — a common setup uses Azure AD OAuth2 for login and Azure AD SCIM for provisioning.
-* **Monitor logs** — check both Chamilo (`var/log/`) and your identity provider's provisioning logs for errors.
+* **テストグループから始める** — 組織全体に SCIM を有効化する前に、少数のユーザーをプロビジョニングしてテストしてください。
+* **OAuth2 と組み合わせる** — 一般的な設定として、Azure AD OAuth2 をログインに、Azure AD SCIM をプロビジョニングに使用することがあります。
+* **ログを監視する** — エラーがないか、Chamilo（`var/log/`）とアイデンティティプロバイダーのプロビジョニングログの両方を確認してください。

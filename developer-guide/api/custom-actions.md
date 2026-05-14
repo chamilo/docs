@@ -1,140 +1,141 @@
-# Custom Actions
+# カスタムアクション
 
-Beyond standard CRUD operations, Chamilo has a number of custom API action controllers (in the order of dozens) that handle specialized operations. The exact count varies between releases — list `src/CoreBundle/Controller/Api/` for the current set.
+Chamiloでは、標準的なCRUD操作を超えて、特殊な操作を処理するカスタムAPIアクションコントローラが多数（数十程度）存在します。正確な数はリリースごとに異なります。現在のセットを確認するには、`src/CoreBundle/Controller/Api/` をリストアップしてください。
 
-## Location
+## 場所
 
-Custom actions are in `src/CoreBundle/Controller/Api/`.
+カスタムアクションは `src/CoreBundle/Controller/Api/` にあります。
 
-## Notable Custom Actions
+## 注目すべきカスタムアクション
 
-### Documents
+### ドキュメント
 
-| Controller | Purpose |
+| コントローラ | 目的 |
 |-----------|---------|
-| `CreateDocumentFileAction` | Upload a file or create a folder/link document |
-| `UpdateDocumentFileAction` | Replace a document's file |
-| `ReplaceDocumentFileAction` | Replace a document file, preserving its IDs |
-| `MoveDocumentAction` | Move a document to a different folder |
-| `UpdateVisibilityDocument` | Toggle document visibility for learners |
-| `DownloadAllDocumentsAction` | Download all documents in a folder as a ZIP |
-| `DownloadSelectedDocumentsAction` | Download a selected set of documents as a ZIP |
-| `DocumentUsageAction` | List courses/sessions where a document is used |
-| `DocumentLearningPathUsageAction` | List learning paths where a document is used |
+| `CreateDocumentFileAction` | ファイルのアップロードまたはフォルダ/リンクドキュメントの作成 |
+| `UpdateDocumentFileAction` | ドキュメントファイルの置き換え |
+| `ReplaceDocumentFileAction` | ドキュメントファイルを置き換え、IDを保持 |
+| `MoveDocumentAction` | ドキュメントを別のフォルダに移動 |
+| `UpdateVisibilityDocument` | 学習者に対するドキュメントの表示/非表示を切り替え |
+| `DownloadAllDocumentsAction` | フォルダ内のすべてのドキュメントをZIPとしてダウンロード |
+| `DownloadSelectedDocumentsAction` | 選択したドキュメントセットをZIPとしてダウンロード |
+| `DocumentUsageAction` | ドキュメントが使用されているコース/セッションを一覧表示 |
+| `DocumentLearningPathUsageAction` | ドキュメントが使用されている学習パスを一覧表示 |
 
-### Glossary
+### 用語集
 
-| Controller | Purpose |
+| コントローラ | 目的 |
 |-----------|---------|
-| `CreateCGlossaryAction` | Create a glossary term |
-| `UpdateCGlossaryAction` | Update a glossary term |
-| `ExportCGlossaryAction` | Export glossary to file |
-| `ImportCGlossaryAction` | Import glossary from file |
-| `ExportGlossaryToDocumentsAction` | Export glossary as a document in the course |
-| `GetGlossaryCollectionController` | Get glossary collection with custom filtering |
+| `CreateCGlossaryAction` | 用語集の用語を作成 |
+| `UpdateCGlossaryAction` | 用語集の用語を更新 |
+| `ExportCGlossaryAction` | 用語集をファイルにエクスポート |
+| `ImportCGlossaryAction` | 用語集をファイルからインポート |
+| `ExportGlossaryToDocumentsAction` | 用語集をコース内のドキュメントとしてエクスポート |
+| `GetGlossaryCollectionController` | カスタムフィルタリングを適用した用語集コレクションを取得 |
 
-### Links
+### リンク
 
-| Controller | Purpose |
+| コントローラ | 目的 |
 |-----------|---------|
-| `CreateCLinkAction` | Create an external link |
-| `UpdateCLinkAction` | Update an external link |
-| `CreateCLinkCategoryAction` | Create a link category |
-| `UpdateCLinkCategoryAction` | Update a link category |
-| `CheckCLinkAction` | Check whether a link URL is reachable |
-| `ExportCLinksAction` | Export links to file |
-| `CLinkDetailsController` | Get link details |
-| `CLinkImageController` | Get or set a link's preview image |
-| `GetLinksCollectionController` | Get links collection with custom filtering |
-| `UpdateVisibilityLink` | Toggle link visibility |
-| `UpdateVisibilityLinkCategory` | Toggle link category visibility |
-| `UpdatePositionLink` | Reorder links |
+| `CreateCLinkAction` | 外部リンクを作成 |
+| `UpdateCLinkAction` | 外部リンクを更新 |
+| `CreateCLinkCategoryAction` | リンクカテゴリを作成 |
+| `UpdateCLinkCategoryAction` | リンクカテゴリを更新 |
+| `CheckCLinkAction` | リンクURLが到達可能かどうかを確認 |
+| `ExportCLinksAction` | リンクをファイルにエクスポート |
+| `CLinkDetailsController` | リンクの詳細を取得 |
+| `CLinkImageController` | リンクのプレビュー画像を取得または設定 |
+| `GetLinksCollectionController` | カスタムフィルタリングを適用したリンクコレクションを取得 |
+| `UpdateVisibilityLink` | リンクの表示/非表示を切り替え |
+| `UpdateVisibilityLinkCategory` | リンクカテゴリの表示/非表示を切り替え |
+| `UpdatePositionLink` | リンクの順序を変更 |
 
-### Learning Paths
+### 学習パス
 
-| Controller | Purpose |
+| コントローラ | 目的 |
 |-----------|---------|
-| `CreateCLpAction` | Create a learning path |
-| `LpReorderController` | Reorder learning path items |
+| `CreateCLpAction` | 学習パスを作成 |
+| `LpReorderController` | 学習パスアイテムの順序を変更 |
 
-### Calendar
+### カレンダー
 
-| Controller | Purpose |
+| コントローラ | 目的 |
 |-----------|---------|
-| `UpdateCCalendarEventAction` | Update a course calendar event |
-| `CalendarMyStudentsScheduleAction` | Get the schedule of a teacher's students |
+| `UpdateCCalendarEventAction` | コースカレンダーイベントを更新 |
+| `CalendarMyStudentsScheduleAction` | 教師の生徒のスケジュールを取得 |
 
-### Blog
+### ブログ
 
-| Controller | Purpose |
+| コントローラ | 目的 |
 |-----------|---------|
-| `CreateCBlogAction` | Create a blog post |
-| `CreateBlogAttachmentAction` | Attach a file to a blog post |
-| `UpdateVisibilityBlog` | Toggle blog visibility |
+| `CreateCBlogAction` | ブログ投稿を作成 |
+| `CreateBlogAttachmentAction` | ブログ投稿にファイルを添付 |
+| `UpdateVisibilityBlog` | ブログの表示/非表示を切り替え |
 
-### Dropbox
+### ドロップボックス
 
-| Controller | Purpose |
+| コントローラ | 目的 |
 |-----------|---------|
-| `CreateDropboxFileAction` | Upload a file to the dropbox (file exchange tool) |
+| `CreateDropboxFileAction` | ドロップボックス（ファイル交換ツール）にファイルをアップロード |
 
-### Student Work (Assignments)
+### 学生の課題（アサインメント）
 
-| Controller | Purpose |
+| コントローラ | 目的 |
 |-----------|---------|
-| `CreateStudentPublicationFileAction` | Submit an assignment file |
-| `CreateStudentPublicationCommentAction` | Add a comment to a submission |
-| `CreateStudentPublicationCorrectionFileAction` | Upload a correction file for a submission |
+| `CreateStudentPublicationFileAction` | 課題ファイルを提出 |
+| `CreateStudentPublicationCommentAction` | 提出物にコメントを追加 |
+| `CreateStudentPublicationCorrectionFileAction` | 提出物の修正ファイルをアップロード |
 
-### Personal Files
+### 個人ファイル
 
-| Controller | Purpose |
+| コントローラ | 目的 |
 |-----------|---------|
-| `CreatePersonalFileAction` | Upload a file to the user's personal file space |
-| `UpdatePersonalFileAction` | Update a personal file |
+| `CreatePersonalFileAction` | ユーザーの個人ファイルスペースにファイルをアップロード |
+| `UpdatePersonalFileAction` | 個人ファイルを更新 |
 
-### Social
+### ソーシャル
 
-| Controller | Purpose |
+| コントローラ | 目的 |
 |-----------|---------|
-| `LikeSocialPostController` | Like a social post |
-| `DislikeSocialPostController` | Unlike a social post |
-| `CreateSocialPostAttachmentAction` | Attach a file to a social post |
-| `SocialPostAttachmentsController` | List attachments on a social post |
-| `AbstractFeedbackSocialPostController` | Base class for social post feedback actions |
+| `LikeSocialPostController` | ソーシャル投稿に「いいね」を付ける |
+| `DislikeSocialPostController` | ソーシャル投稿の「いいね」を取り消す |
+| `CreateSocialPostAttachmentAction` | ソーシャル投稿にファイルを添付 |
+| `SocialPostAttachmentsController` | ソーシャル投稿の添付ファイル一覧を表示 |
+| `AbstractFeedbackSocialPostController` | ソーシャル投稿フィードバックアクションのベースクラス |
 
-### Sessions
+### セッション
 
-| Controller | Purpose |
+| コントローラ | 目的 |
 |-----------|---------|
-| `CreateSessionWithUsersAndCoursesAction` | Create a session and enrol users and courses in one call |
+| `CreateSessionWithUsersAndCoursesAction` | セッションを作成し、ユーザーとコースを一括で登録 |
 
-### Users & Access URLs
+### ユーザーとアクセスURL
 
-| Controller | Purpose |
+| コントローラ | 目的 |
 |-----------|---------|
-| `CreateUserOnAccessUrlAction` | Create a user and associate them with an access URL |
-| `UserAccessUrlsController` | List access URLs a user belongs to |
-| `UserSkillsController` | List skills awarded to a user |
+| `CreateUserOnAccessUrlAction` | ユーザーを作成し、アクセスURLに関連付ける |
+| `UserAccessUrlsController` | ユーザーが所属するアクセスURLを一覧表示 |
+| `UserSkillsController` | ユーザーに授与されたスキルを一覧表示 |
 
-### Video Conference
+### ビデオ会議
 
-| Controller | Purpose |
+| コントローラ | 目的 |
 |-----------|---------|
-| `VideoConferenceCallbackController` | Handle callbacks from external video conference providers |
+| `VideoConferenceCallbackController` | 外部ビデオ会議プロバイダからのコールバックを処理 |
 
-### Base Classes
+### ベースクラス
 
-| Class | Purpose |
+| クラス | 目的 |
 |-------|---------|
-| `BaseResourceFileAction` | Base class for file-upload actions; handles multipart parsing, resource node creation, and storage |
+| `BaseResourceFileAction` | ファイルアップロードアクションのベースクラス。マルチパート解析、リソースノード作成、ストレージを処理 |
 
-## Implementing a Custom Action
+---
+## カスタムアクションの実装
 
-Custom actions are standard Symfony controllers referenced in API Platform operation definitions. The `#[ApiResource]` attribute lives on the **entity**, and each operation's `controller:` parameter points to the action class:
+カスタムアクションは、API Platformの操作定義で参照される標準的なSymfonyコントローラーです。`#[ApiResource]`属性は**エンティティ**に存在し、各操作の`controller:`パラメータはアクションクラスを指します：
 
 ```php
-// On the entity class (e.g. src/CourseBundle/Entity/CDocument.php):
+// エンティティクラス（例：src/CourseBundle/Entity/CDocument.php）：
 #[ApiResource(
     shortName: 'Document',
     operations: [
@@ -152,7 +153,7 @@ Custom actions are standard Symfony controllers referenced in API Platform opera
 class CDocument extends AbstractResource { ... }
 ```
 
-The action class itself is a plain invokable controller — services are injected via `__invoke()` method arguments:
+アクションクラス自体は、単純な呼び出し可能なコントローラーであり、サービスは`__invoke()`メソッドの引数を介して注入されます：
 
 ```php
 namespace Chamilo\CoreBundle\Controller\Api;
@@ -165,14 +166,14 @@ final class CreateDocumentFileAction extends BaseResourceFileAction
     public function __invoke(
         Request $request,
         CDocumentRepository $repo,
-        // ... other injected services
+        // ... 他の注入されたサービス
     ): CDocument {
-        // Handle the upload and return the entity
+        // アップロードを処理し、エンティティを返す
     }
 }
 ```
 
-Key points:
-- `deserialize: false` is set when the action reads the request directly (e.g. multipart file uploads) instead of letting API Platform deserialize a JSON body.
-- File-upload actions typically extend `BaseResourceFileAction`, which handles multipart parsing and resource node wiring.
-- Security is enforced via the `security:` parameter on the operation, not inside the controller.
+重要なポイント：
+- `deserialize: false`は、アクションがリクエストを直接読み取る場合（例：マルチパートファイルのアップロード）に設定され、API PlatformがJSONボディをデシリアライズするのを防ぎます。
+- ファイルアップロードアクションは通常、`BaseResourceFileAction`を拡張しており、これはマルチパートの解析とリソースノードの配線を処理します。
+- セキュリティは、コントローラー内ではなく、操作の`security:`パラメータを介して強制されます。

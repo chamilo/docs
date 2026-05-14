@@ -1,8 +1,8 @@
-# Users
+# ユーザー
 
-This section covers how to manage user accounts on your Chamilo platform — creating users, assigning roles, organizing users into groups, and managing profiles.
+このセクションでは、Chamiloプラットフォーム上でのユーザーアカウントの管理方法について説明します。ユーザーの作成、役割の割り当て、ユーザーをグループに整理する方法、プロフィールの管理などが含まれます。
 
-* **[User Roles](user-roles.md)** — Understanding the different user roles and their permissions
-* **[Managing Users](managing-users.md)** — Creating, editing, importing, and exporting user accounts
-* **[User Groups](user-groups.md)** — Organizing users into platform-wide groups
-* **[User Profiling](user-profiling.md)** — Configuring extra profile fields and user metadata
+* **[ユーザーロール](user-roles.md)** — さまざまなユーザーロールとその権限の理解
+* **[ユーザーの管理](managing-users.md)** — ユーザーアカウントの作成、編集、インポート、エクスポート
+* **[ユーザーグループ](user-groups.md)** — ユーザーをプラットフォーム全体のグループに整理
+* **[ユーザープロファイリング](user-profiling.md)** — 追加のプロフィールフィールドとユーザーメタデータの設定

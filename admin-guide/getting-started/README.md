@@ -1,25 +1,25 @@
-# Getting Started
+# はじめに
 
-This section introduces the Chamilo 2.0 administration interface and helps you get oriented.
+このセクションでは、Chamilo 2.0 の管理インターフェースを紹介し、基本的な操作に慣れるための手助けをします。
 
-## Who Is an Administrator?
+## 管理者とは誰か？
 
-Chamilo has several levels of administrative roles:
+Chamilo にはいくつかの管理役割のレベルがあります：
 
-| Role | Access |
+| 役割 | アクセス権限 |
 |------|--------|
-| **Administrator** | Full access to all administration features for the platform. Also known as **Portal Administrator** |
-| **Global Administrator** | Same as Portal Administrator, with access across all access URLs in a multi-URL (multi-tenant) setup |
-| **Sessions Administrator** | Can manage sessions, enroll users in sessions, and access session-related settings |
-| **Human Resources Manager** | Can view learner progress and tracking data for assigned users |
-| **Questions Manager** | Less of an administrator than a content curator, question managers have access to a global question bank to review questions' quality |
+| **管理者** | プラットフォームのすべての管理機能への完全なアクセス権を持ちます。**ポータル管理者**とも呼ばれます |
+| **グローバル管理者** | ポータル管理者と同じ権限を持ち、複数のURL（マルチテナント）設定でのすべてのアクセスURLにアクセス可能です |
+| **セッション管理者** | セッションの管理、ユーザーのセッションへの登録、セッション関連の設定へのアクセスが可能です |
+| **人事マネージャー** | 割り当てられたユーザーの学習進捗や追跡データを閲覧できます |
+| **質問マネージャー** | 管理者というよりコンテンツキュレーターに近く、質問の品質をレビューするためのグローバルな質問バンクへのアクセス権を持ちます |
 
-This guide focuses primarily on the **Portal Administrator** role, which has the broadest access.
+このガイドでは、主に最も広範なアクセス権を持つ **ポータル管理者** 役割に焦点を当てています。
 
-## Logging In
+## ログイン方法
 
-Administrators log in through the same login page as all other users. After entering your credentials, you will be sent (in the absence of other configuration) to the **Administration** page. A notable difference from other user roles is the **Administration** section in the sidebar (not visible to other roles).
+管理者は他のすべてのユーザーと同じログインページからログインします。認証情報を入力すると、（他の設定がない場合）**管理**ページに移動します。他のユーザーロールと異なる顕著な点は、サイドバーに表示される **管理** セクションです（他のロールには表示されません）。
 
-## Next Steps
+## 次のステップ
 
-* [Admin Interface Overview](admin-interface-overview.md) — A tour of the administration panel and its sections
+* [管理インターフェースの概要](admin-interface-overview.md) — 管理パネルとそのセクションのツアー

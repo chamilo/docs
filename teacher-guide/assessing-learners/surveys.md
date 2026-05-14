@@ -1,85 +1,85 @@
-# Surveys
+# アンケート
 
-The survey tool lets you create questionnaires to collect feedback from your learners. Surveys are useful for course evaluations, needs assessments, and opinion polls.
+アンケートツールを使用すると、学習者からのフィードバックを収集するための質問票を作成できます。アンケートは、コース評価、ニーズアセスメント、意見調査などに役立ちます。
 
-## Creating a Survey
+## アンケートの作成
 
-1. Open the **Surveys** <img src="/.gitbook/assets/icons/mdi-form-dropdown.svg" alt="Surveys" data-size="line"> tool from the course homepage
-2. Click **Create survey**
-3. Fill in the survey details:
-   * **Code** — This is a unique code for the survey. It will be used in mails and links.
-   * **Title** — The name of the survey
-   * **Subtitle** — An optional secondary heading
-   * **Start date** — From when this survey will be open to participation
-   * **End date** — Until when this survey will be open to participation
-   * **Anonymous** — Whether responses are anonymous or linked to individual learners
-   * **Results visibility** — Who can see the results (only coach, coach and students, everyone)
-   * **Introduction** — A message shown to learners before they start the survey
-   * **Thank you message** — A message shown after submission
-4. Save
+1. コースのホームページから**アンケート** <img src="/.gitbook/assets/icons/mdi-form-dropdown.svg" alt="アンケート" data-size="line"> ツールを開きます
+2. **アンケートを作成**をクリックします
+3. アンケートの詳細を入力します：
+   * **コード** — アンケートの固有コードです。メールやリンクで使用されます。
+   * **タイトル** — アンケートの名前
+   * **サブタイトル** — 任意の副見出し
+   * **開始日** — このアンケートが参加可能になる日時
+   * **終了日** — このアンケートが参加可能でなくなる日時
+   * **匿名** — 回答が匿名か、個々の学習者に紐づけられるか
+   * **結果の公開範囲** — 結果を誰が見ることができるか（コーチのみ、コーチと生徒、すべての人）
+   * **イントロダクション** — 学習者がアンケートを開始する前に表示されるメッセージ
+   * **感謝のメッセージ** — 提出後に表示されるメッセージ
+4. 保存します
 
-### Advanced settings
+### 詳細設定
 
-* **Grade in the assessment tool** — Whether to include this survey's answer state in the assessment tool (gradebook). Anyone having completed the survey gets 100%, anyone else get 0%
-* **Parent survey** — Not really used at this point (legacy feature)
-* **One question per page** — Presentation style for the questions
-* **Enable shuffle mode** — Whether to shuffle questions
-* **Show question number** — Whether to show (auto-generated) question numbers
+* **評価ツールでの採点** — このアンケートの回答状況を評価ツール（成績簿）に含めるかどうか。アンケートを完了した人は100%、それ以外の人は0%となります
+* **親アンケート** — 現在はあまり使用されていません（レガシー機能）
+* **1ページに1つの質問** — 質問の表示スタイル
+* **シャッフルモードを有効にする** — 質問をランダムに並べ替えるかどうか
+* **質問番号を表示** — 自動生成された質問番号を表示するかどうか
 
-## Adding Questions
+## 質問の追加
 
-Once the survey is created, add questions:
+アンケートを作成したら、質問を追加します：
 
-1. Choose the question type:
-   * **Yes/No** — A simple binary choice
-   * **Multiple choice** — Select one answer from several options
-   * **Multiple answer** — Select one or more answers from several options
-   * **Open-ended** — Free text response
-   * **Dropdown** — Select from a dropdown list
-   * **Percentage** — Choose a percentage value
-   * **Score** — Rate on a numeric scale
-   * **Comment** — A text block (not a question) for adding instructions between questions
-   * **Multiple choice with "other" option** — Select one answer from several options, with an alternative choice
-   * **Selective display** — Special type allowing you to adapt the flow of questions based on previous answers
-   * **Page break** — Add page breaks in the questions flow. Only useful if "One question per page" was **not** selected in the previous step
-2. Configure the question text and answer options
-3. Save
+1. 質問の種類を選択します：
+   * **はい/いいえ** — 単純な二択
+   * **単一選択** — 複数の選択肢から1つの回答を選ぶ
+   * **複数回答** — 複数の選択肢から1つ以上の回答を選ぶ
+   * **自由記述** — 自由なテキスト回答
+   * **ドロップダウン** — ドロップダウンリストから選択
+   * **パーセンテージ** — パーセンテージ値を選択
+   * **スコア** — 数値スケールで評価
+   * **コメント** — 質問間の指示を追加するためのテキストブロック（質問ではありません）
+   * **「その他」オプション付きの単一選択** — 複数の選択肢から1つの回答を選び、代替選択肢を設ける
+   * **選択的表示** — 前の回答に基づいて質問の流れを調整できる特別なタイプ
+   * **ページ区切り** — 質問の流れにページ区切りを追加。前のステップで「1ページに1つの質問」が選択されていない場合にのみ有用
+2. 質問のテキストと回答オプションを設定します
+3. 保存します
 
-Each question can be marked as mandatory. If you don't, skipping any question will be acceptable behaviour.
+各質問は必須としてマークすることができます。マークしない場合、質問をスキップすることが許容される動作となります。
 
-## Publishing a Survey
+## アンケートの公開
 
-After adding all questions:
+すべての質問を追加した後：
 
-1. Click **Publish**
-2. Choose the recipients — Select specific learners or groups (you select them). The **Add learners** button adds all the learners in one single push and leaves the teachers behind
-3. Add additional users — Lets you invite users from outside Chamilo to participate in the survey. They will receive an e-mail with a link and will appear by their e-mail address in the survey details
-4. Mail subject
-5. Mail text — Explain what the survey is about and when/how to answer
-6. Different options for repeat invitations are available
-7. Confirm
+1. **公開**をクリックします
+2. 受信者を選択します — 特定の学習者またはグループを選択します（あなたが選択します）。**学習者を追加**ボタンは、すべての学習者を一括で追加し、教師を除外します
+3. 追加のユーザーを招待 — Chamilo外のユーザーをアンケートに参加させることができます。彼らはリンク付きのメールを受け取り、アンケートの詳細にメールアドレスで表示されます
+4. メールの件名
+5. メールの本文 — アンケートの内容や回答の時期・方法を説明します
+6. 再招待のためのさまざまなオプションが利用可能です
+7. 確認します
 
-Learners receive an invitation (as an email) to complete the survey.
+学習者はアンケートを完了するための招待状（メールとして）を受け取ります。
 
-A link is available at the bottom of the publication page to invite even more external users to participate. Participants using this link will not be identified and appear as anonymous in the survey results.
+公開ページの下部には、さらに多くの外部ユーザーを招待するためのリンクが用意されています。このリンクを使用する参加者は特定されず、アンケート結果では匿名として表示されます。
 
-## Viewing Results
+## 結果の確認
 
-![Survey results with charts and percentage breakdowns for each question](/.gitbook/assets/survey-results-charts.png)
+![各質問ごとのチャートとパーセンテージ内訳を含むアンケート結果](/.gitbook/assets/survey-results-charts.png)
 
-After learners have responded:
+学習者が回答した後：
 
-1. Open the survey
-2. Click **Results** or **Report**
-3. View response summaries:
-   * Charts and percentages for closed questions
-   * Individual text responses for open-ended questions
-   * Completion rate (how many invitees responded)
+1. アンケートを開きます
+2. **結果**または**レポート**をクリックします
+3. 回答の概要を確認します：
+   * クローズド質問のチャートとパーセンテージ
+   * 自由記述質問の個々のテキスト回答
+   * 完了率（招待者のうち何人が回答したか）
 
-You can export results to a spreadsheet for further analysis.
+結果をスプレッドシートにエクスポートしてさらに分析することができます。
 
-## Tips
+## ヒント
 
-* **Keep it short** — Learners are more likely to complete shorter surveys
-* **Use anonymous mode** — For honest feedback, enable anonymous responses
-* **Time it right** — Send mid-course surveys to make adjustments, not just end-of-course evaluations
+* **短くする** — 学習者は短いアンケートを完了する可能性が高いです
+* **匿名モードを使用する** — 正直なフィードバックを得るために、匿名回答を有効にします
+* **タイミングを適切に** — コースの途中でアンケートを送り、調整を行うようにします。コース終了時の評価だけではありません

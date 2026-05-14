@@ -1,111 +1,101 @@
-# Surveys Settings
+# アンケート設定
 
-Defaults and behaviour of the **Surveys** tool.
+**アンケート**ツールのデフォルト設定と動作について。
 
-Access these settings under **Administration > Configuration settings > Surveys**. This category contains **12 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+これらの設定には、**管理 > 設定 > アンケート**からアクセスできます。このカテゴリには**12の設定**が含まれており、以下にプラットフォームの設定フィクスチャ（`SettingsCurrentFixtures.php`）に記載されているタイトルとコメントを記載しています。
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> コード内の変数名は等幅フォントで表示されています。APIを通じてスクリプトを作成する場合や、[`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml)を編集してグローバルレベルでこれらの設定を変更する際に使用してください。
 
-## Settings
+## 設定
 
 ### `extend_rights_for_coach_on_survey`
 
-**Extend rights for coachs on surveys**
+**コーチのアンケート権限を拡張する**
 
-Activate this option will allow the coachs to create and edit surveys
+このオプションを有効にすると、コーチがアンケートを作成および編集できるようになります。
 
-*Default: `true`*
-
+*デフォルト: `true`*
 
 ### `hide_survey_edition`
 
-**Prevent survey edition**
+**アンケートの編集を禁止する**
 
-Prevent editing surveys for all surveys listed here (by code). Use * to prevent edition of all surveys.
+ここにリストされているすべてのアンケート（コード別）の編集を禁止します。すべてのアンケートの編集を禁止するには * を使用します。
 
 ### `hide_survey_reporting_button`
 
-**Hide survey reporting button**
+**アンケートレポートボタンを非表示にする**
 
-Allows admins to hide survey reporting button if surveys are used to survey teachers.
+アンケートが教師の評価に使用される場合、管理者がアンケートレポートボタンを非表示にすることができます。
 
-*Default: `false`*
-
+*デフォルト: `false`*
 
 ### `show_pending_survey_in_menu`
 
-**Show "Pending surveys" in menu**
+**メニューに「未回答のアンケート」を表示する**
 
-Display a menu item that lets users access their pending surveys.
+ユーザーが未回答のアンケートにアクセスできるメニュー項目を表示します。
 
-*Default: `false`*
-
+*デフォルト: `false`*
 
 ### `show_surveys_base_in_sessions`
 
-**Display surveys from base course in all session courses**
+**すべてのセッションコースでベースコースのアンケートを表示する**
 
-[inferred] Make surveys from the base course visible and available to learners in all related session courses.
+ベースコースのアンケートを、関連するすべてのセッションコースの学習者に見えるようにし、利用可能にします。
 
-*Default: `false`*
-
+*デフォルト: `false`*
 
 ### `survey_additional_teacher_modify_actions`
 
-**Add additional actions (as links) to survey lists for teachers**
+**教師向けアンケートリストに追加のアクション（リンクとして）を加える**
 
-Add actions (usually connected to plugins) in the list of surveys. Use array syntax ['myplugin' => ['MyPlugin', 'urlGeneratorCallback']].
+アンケートリストにアクション（通常はプラグインに関連）を追加します。配列構文 ['myplugin' => ['MyPlugin', 'urlGeneratorCallback']] を使用します。
 
 ### `survey_allow_answered_question_edit`
 
-**Allow teachers to edit survey questions after students answered**
+**学生が回答した後に教師がアンケート質問を編集することを許可する**
 
-[inferred] Allow instructors to modify survey questions even after learners have submitted responses.
+学習者が回答を提出した後でも、教師がアンケート質問を変更できるようにします。
 
-*Default: `false`*
-
+*デフォルト: `false`*
 
 ### `survey_anonymous_show_answered`
 
-**Allow teachers to see who answered in anonymous surveys**
+**匿名アンケートで誰が回答したかを教師が見ることを許可する**
 
-Allow teachers to see which learners have already answered an anonymous survey. This only appears once more than one user has answered, so it remains difficult to identify who answered what.
+教師が匿名アンケートにすでに回答した学習者を確認できるようにします。この機能は、複数のユーザーが回答した後にのみ表示されるため、誰が何に回答したかを特定することは困難です。
 
-*Default: `false`*
-
+*デフォルト: `false`*
 
 ### `survey_backwards_enable`
 
-**Enable 'previous question' button in surveys**
+**アンケートで「前の質問」ボタンを有効にする**
 
-[inferred] Enable a "previous question" navigation button to allow learners to review earlier survey questions.
+学習者が以前のアンケート質問を確認できるように、「前の質問」ナビゲーションボタンを有効にします。
 
-*Default: `false`*
-
+*デフォルト: `false`*
 
 ### `survey_duplicate_order_by_name`
 
-**Order by student name when using survey duplication feature**
+**アンケート複製機能を使用する際に学生名で並べ替える**
 
-The survey duplication feature is oriented towards teachers and is meant to ask teachers to give their appreciation about each student in order. This option will order the questions by learner's lastname.
+アンケート複製機能は教師向けであり、教師が各学生について順番に評価を行うことを目的としています。このオプションは、質問を学習者の姓で並べ替えます。
 
-*Default: `true`*
-
+*デフォルト: `true`*
 
 ### `survey_email_sender_noreply`
 
-**Survey e-mail sender (no-reply)**
+**アンケートメール送信者（noreply）**
 
-Should the survey invitations use the coach e-mail address or the no-reply address defined in the main configuration section?
+アンケート招待メールにコーチのメールアドレスを使用するか、メイン設定セクションで定義されたnoreplyアドレスを使用するかを選択します。
 
-*Default: `coach`*
-
+*デフォルト: `coach`*
 
 ### `survey_mark_question_as_required`
 
-**Mark all survey questions as 'required' by default**
+**すべてのアンケート質問をデフォルトで「必須」としてマークする**
 
-[inferred] Automatically mark all newly created survey questions as required responses by default.
+新しく作成されたすべてのアンケート質問をデフォルトで必須回答として自動的にマークします。
 
-*Default: `false`*
-
+*デフォルト: `false`*

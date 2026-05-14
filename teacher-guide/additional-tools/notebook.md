@@ -1,23 +1,23 @@
-# Notebook
+# ノートブック
 
-The notebook is a personal note-taking tool for learners. Each learner has their own private notebook within the course.
+ノートブックは、生徒が個人的なメモを取るためのツールです。各生徒はコース内に自分専用のプライベートなノートブックを持っています。
 
-## How It Works
+## 仕組み
 
-The notebook is a simple tool where learners can:
+ノートブックはシンプルなツールで、生徒は以下のようなことができます：
 
-* **Create notes** — Write and save personal notes related to the course content
-* **Organize notes** — Review, edit, and delete their notes
-* **Keep them private** — Notes are visible only to the learner who created them
+* **メモを作成する** — コース内容に関連する個人的なメモを書き、保存する
+* **メモを整理する** — 自分のメモを確認、編集、削除する
+* **プライベートに保つ** — メモは作成した生徒本人にのみ表示される
 
-## As a Teacher
+## 教師として
 
-As a teacher, you should be aware that:
+教師として、以下の点に留意してください：
 
-* The notebook is a **personal tool** — you cannot see your learners' notes
-* It is useful as a **reflection tool** — encourage learners to take notes while studying
-* Notes are stored within the course — they are not shared across courses
+* ノートブックは**個人的なツール**です — 生徒のメモを見ることはできません
+* **振り返りのツール**として役立ちます — 生徒が学習中にメモを取るよう促してください
+* メモはコース内に保存されます — 異なるコース間で共有されることはありません
 
-## Enabling the Notebook
+## ノートブックの有効化
 
-The notebook tool appears on the course homepage if it is enabled. If you do not see it, check that it is not hidden (look for hidden tools on the course homepage).
+ノートブックのツールは、有効化されている場合、コースのホームページに表示されます。表示されていない場合は、非表示になっていないか確認してください（コースのホームページで非表示のツールを探してください）。

@@ -1,93 +1,95 @@
-# Assignments
+# 課題
 
-The assignments tool (also called "student publications") lets you collect work from learners — essays, projects, reports, or any file-based submission — and grade it.
+課題ツール（「学生の提出物」とも呼ばれる）は、学生の課題（エッセイ、プロジェクト、レポート、またはファイルベースの提出物）を収集し、評価するための機能です。
 
-## Creating an Assignment
+## 課題の作成
 
-1. Open the **Assignments** <img src="/.gitbook/assets/icons/mdi-inbox-full.svg" alt="Assignments" data-size="line"> tool from the course homepage
-2. Click **Create an assignment**
-3. Fill in the details:
-   * **Assignment name** — The name of the assignment (e.g., "Final Project Report")
-   * **Description** — Instructions for learners, including what to submit and how it will be evaluated (supports rich text)
-   * **Maximum score** — On what total will the assignment be graded
-   * **Add to gradebook** — Add as an evaluated item in the assessment (gradebook) tool, so it can be part of reaching the course's goals
-   * **Deadline** — The official (published) date and time after which submissions are flagged as late (uploads are still accepted)
-   * **Ends at (completely closed)** — The hard cutoff date and time after which no upload is possible
-   * **Add to calendar** — Create an event to reference this assignment submission date
-   * **Submission type** — Choose between **Allow only text**, **Allow only files**, or **Allow files or online text**
-4. Save
+1. コースのホームページで**課題**ツール <img src="/.gitbook/assets/icons/mdi-inbox-full.svg" alt="課題" data-size="line"> を開く
+2. **課題を作成**をクリック
+3. 以下の詳細を入力：
+   * **課題名** — 課題の名前（例：「最終プロジェクトレポート」）
+   * **説明** — 学生への指示。提出物や評価基準などを含む（書式付きテキスト対応）
+   * **最高点数** — 課題の評価基準となる合計点数
+   * **成績表に追加** — 評価ツール（成績表）に評価項目として追加し、コースの目標に含める
+   * **提出期限** — 公式な提出期限（公開）。この日時を過ぎると提出物は遅延としてマークされる（提出は引き続き可能）
+   * **終了日時（完全終了）** — この日時以降は提出が一切不可能となる期限
+   * **カレンダーに追加** — この課題の提出日を参照するイベントを作成
+   * **提出タイプ** — **テキストのみ許可**、**ファイルのみ許可**、または**ファイルまたはオンラインテキストを許可**から選択
+4. 保存
 
-Once you have created an assignment, you can also:
-* Upload template documents from inside the assignment detail page
-* Assign the assignment to specific users (rather than all users of the course)
+課題を作成した後、以下の操作も可能です：
+* 課題の詳細ページからテンプレート文書をアップロード
+* 課題を特定のユーザーに割り当て（コースの全ユーザーではなく）
 
-And once learners have submitted their assignments, you can:
-* Export a PDF list of submissions
-* Show a list of only the learners who have not submitted their assignment
-* Download all assignments in a big ZIP
-* Upload all corrections in a big ZIP
-* Delete all corrections you submitted (this doesn't delete the learners' submissions)
+また、学生が課題を提出した後には以下の操作が可能です：
+* 提出物リストをPDFでエクスポート
+* 提出していない学生のみのリストを表示
+* すべての課題を1つのZIPファイルでダウンロード
+* すべての修正を1つのZIPファイルでアップロード
+* 自分がアップロードしたすべての修正を削除（学生の提出物は削除されません）
 
-## How Learners Submit
+## 学生の提出方法
 
-Learners open the assignment and:
+学生は課題を開き、以下の手順で提出します：
 
-1. Click **Upload file** or the submission button
-2. Select a file from their computer (or write text directly, depending on configuration)
-3. Add an optional comment
-4. Submit
+1. **ファイルを送信**または提出ボタンをクリック
+2. コンピュータからファイルを選択（または設定に応じて直接テキストを入力）
+3. 任意でコメントを追加
+4. 送信
 
-Learners can see whether they have already submitted and, if allowed, update their submission.
+学生は自分が提出済みかどうかを確認でき、許可されている場合は提出物を更新することも可能です。
 
-## Reviewing Submissions
+## 提出物の確認
 
-![The assignment submissions list showing student names, dates, files, and grading status](/.gitbook/assets/assignments-submissions-list.png)
+![課題提出リスト。学生名、提出日、ファイル、評価ステータスを表示](/.gitbook/assets/assignments-submissions-list.png)
 
-As a teacher, open an assignment to see the list of all submissions:
+教員として、課題を開くとすべての提出物のリストが表示されます：
 
-* **Student name** — Who submitted
-* **Submission date** — When the work was submitted
-* **File** — Download the submitted file
-* **Status** — Whether the submission has been graded
-* **Comments** — Any comments left by the learner or by you
+* **学生名** — 提出者
+* **提出日** — 課題が提出された日時
+* **ファイル** — 提出されたファイルをダウンロード
+* **ステータス** — 提出物が評価済みかどうか
+* **コメント** — 学生または教員が残したコメント
 
-### Grading a Submission
+### 提出物の評価
 
-![The assignment grading view with score input, feedback field, and corrected file upload](/.gitbook/assets/assignment-grading-view.png)
+![課題評価画面。点数入力、フィードバック欄、修正ファイルのアップロードを含む](/.gitbook/assets/assignment-grading-view.png)
 
-1. Click on a submission to open it
-2. Review the submitted file
-3. Enter a **score**
-4. Write **feedback comments** for the learner
-5. Optionally upload a **corrected file** as an attachment
-6. Save
+1. 提出物をクリックして開く
+2. 提出されたファイルを確認
+3. **点数**を入力
+4. 学生への**フィードバックコメント**を記述
+5. 任意で**修正ファイル**を添付としてアップロード
+6. 保存
 
-### AI-Assisted Grading
+### AI支援評価
 
-If AI tools are configured on your platform, you may see an **AI grading** option when reviewing submissions. This uses an AI model to suggest a score and feedback for open-ended work. See [AI Grading](../ai-tools/ai-grading.md) for details.
+プラットフォームでAIツールが設定されている場合、提出物を確認する際に**AIによる評価**オプションが表示されることがあります。これはAIモデルを使用して、公開課題の点数やフィードバックを提案する機能です。詳細は[AIによる評価](../ai-tools/ai-grading.md)を参照してください。
 
-## Managing Submissions
+## 提出物の管理
 
-Group actions:
-* **Download assignments package** — Download all submissions as a single ZIP file for offline review
-* **Upload corrections package** — If you downloaded all submissions in a single ZIP file, edited the files in place on your computer and zipped them again, you can send the zip as a package of corrections. Do not change filenames or it will not work.
-* **Late submissions** — Submissions after the deadline are flagged but may still be accepted depending on your settings
+グループアクション：
+* **課題パッケージをダウンロード** — すべての提出物を1つのZIPファイルとしてダウンロードし、オフラインで確認
+* **修正パッケージを送信** — すべての提出物を1つのZIPファイルとしてダウンロードし、コンピュータ上で直接ファイルを編集して再度圧縮した場合、そのZIPを修正パッケージとして送信可能。ファイル名を変更すると機能しないので注意。
+* **遅延提出** — 期限後の提出物にはフラグが付けられますが、設定によっては受け入れ可能
 
-Individual submission actions:
-* **Upload correction** — Upload a correction for one learner 
-* **Download** — Download the submission of one learner
-* **Correct and grade** — Add a correction and a grade to the learner's submission 
-* **Edit** — Edit the document title or the previous feedback on the submission
-* **Move** — Transfer a submission between assignment folders (e.g. if the student submitted in the wrong assignment)
-* **Visibility** — Control whether learners can see each other's submissions
+個別提出物のアクション：
+* **修正を送信** — 学生に修正を送信
+* **ダウンロード** — 学生の提出物をダウンロード
+* **修正と評価** — 学生の提出物に修正と点数を追加
+* **編集** — 提出物のタイトルや以前のフィードバックを編集
+* **移動** — 提出物を課題フォルダ間で移動（例：学生が間違った課題に提出した場合）
+* **公開設定** — 学生が互いの提出物を見ることができるかどうかを制御
 
-## Linking to the Gradebook
+---
+## 成績表へのリンク
 
-Assignment scores can be included in the course gradebook ("Assessments" tool). This allows assignment grades to contribute to the learner's overall course grade and certificate eligibility. See [Gradebook](gradebook.md) for details.
+課題の点数はコースの成績表（「評価」ツール）に含めることができます。これにより、課題の点数が学生のコース全体の成績や証明書の取得資格に反映されます。詳細については、[成績表](gradebook.md) を参照してください。
 
-## Tips
+---
+## ヒント
 
-* **Be specific in instructions** — Clearly describe what learners should submit, the expected format, and evaluation criteria
-* **Set realistic deadlines** — Use the Agenda tool to make deadlines visible in the course calendar
-* **Use the corrected file feature** — Upload annotated versions of student work so they can see your specific corrections
-* **Enable peer visibility carefully** — Allowing learners to see each other's work can encourage learning but may not be appropriate for all assignments
+* **指示を具体的にする** — 学生が提出すべき内容、期待される形式、評価基準を明確に説明してください。
+* **現実的な締め切りを設定する** — カレンダーツールを使用して、締め切りをコースカレンダーに表示してください。
+* **修正済みファイルの機能を使用する** — 学生の課題に注釈を付けたバージョンをアップロードして、学生が具体的な修正内容を確認できるようにしてください。
+* **ピア間の可視性を慎重に有効にする** — 学生がお互いの課題を見ることができるようにすると学習が促進される場合がありますが、すべての課題に適しているわけではありません。

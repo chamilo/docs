@@ -1,23 +1,23 @@
-# Glossary
+# 用語集
 
-Developer-focused terms used throughout this guide.
+このガイド全体で使用される開発者向けの用語。
 
-| Term | Definition |
+| 用語 | 定義 |
 |------|-----------|
-| **API Platform** | A PHP framework for building REST and GraphQL APIs, integrated with Symfony. Chamilo uses it to auto-generate API endpoints from Doctrine entities. |
-| **Bundle** | A Symfony organizational unit similar to a plugin or module. Chamilo has three: CoreBundle, CourseBundle, LtiBundle. |
-| **Composable** | A Vue 3 pattern for extracting and reusing reactive logic. Stored in `assets/vue/composables/`. |
-| **Doctrine ORM** | The PHP object-relational mapper used by Chamilo. Maps PHP entity classes to database tables. |
-| **Entity** | A PHP class annotated with Doctrine attributes that maps to a database table. |
-| **Encore** | Symfony Webpack Encore — a wrapper around Webpack that simplifies frontend build configuration. |
-| **Flysystem** | A PHP filesystem abstraction library. Chamilo uses it to support local, S3, Azure, and GCS storage. |
-| **JWT** | JSON Web Token — the authentication mechanism for the REST API. |
-| **Pinia** | The recommended state management library for Vue 3. Used for new stores in Chamilo; legacy Vuex stores remain alongside it. |
-| **PrimeVue** | The Vue 3 UI component library used by Chamilo. Provides buttons, tables, dialogs, etc. |
-| **ResourceNode** | The central entity in Chamilo's resource system. Every piece of course content has a ResourceNode. |
-| **ResourceFile** | An entity representing a file attached to a ResourceNode. Stored via Flysystem. |
-| **ResourceLink** | An entity controlling visibility and access per course/session/group context. |
-| **SCORM** | Sharable Content Object Reference Model. An e-learning standard for packaging content. |
-| **Settings Schema** | A PHP class defining a category of platform settings (e.g., SecuritySettingsSchema). |
-| **Voter** | A Symfony security component that decides whether a user can perform an action on a resource. |
-| **Webpack** | The JavaScript module bundler that compiles Vue components, SCSS, and TypeScript into browser-ready bundles. |
+| **API Platform** | RESTおよびGraphQL APIを構築するためのPHPフレームワークで、Symfonyと統合されています。Chamiloでは、DoctrineエンティティからAPIエンドポイントを自動生成するために使用されています。 |
+| **Bundle** | Symfonyの組織単位で、プラグインやモジュールに似ています。ChamiloにはCoreBundle、CourseBundle、LtiBundleの3つがあります。 |
+| **Composable** | Vue 3のパターンで、リアクティブなロジックを抽出して再利用するためのものです。`assets/vue/composables/`に保存されています。 |
+| **Doctrine ORM** | Chamiloで使用されているPHPのオブジェクトリレーショナルマッパー。PHPエンティティクラスをデータベーステーブルにマッピングします。 |
+| **Entity** | Doctrine属性で注釈が付けられたPHPクラスで、データベーステーブルにマッピングされます。 |
+| **Encore** | Symfony Webpack Encore — Webpackをラップしたもので、フロントエンドのビルド設定を簡素化します。 |
+| **Flysystem** | PHPのファイルシステム抽象化ライブラリ。Chamiloでは、ローカル、S3、Azure、GCSストレージをサポートするために使用されています。 |
+| **JWT** | JSON Web Token — REST APIの認証メカニズム。 |
+| **Pinia** | Vue 3の推奨状態管理ライブラリ。Chamiloの新しいストアに使用されており、従来のVuexストアと共存しています。 |
+| **PrimeVue** | Chamiloで使用されているVue 3のUIコンポーネントライブラリ。ボタン、テーブル、ダイアログなどを提供します。 |
+| **ResourceNode** | Chamiloのリソースシステムの中心的なエンティティ。コースコンテンツのすべてのピースにはResourceNodeがあります。 |
+| **ResourceFile** | ResourceNodeに添付されたファイルを表すエンティティ。Flysystemを介して保存されます。 |
+| **ResourceLink** | コース/セッション/グループのコンテキストごとに可視性とアクセスを制御するエンティティ。 |
+| **SCORM** | Sharable Content Object Reference Model。コンテンツをパッケージ化するためのeラーニング標準。 |
+| **Settings Schema** | プラットフォーム設定のカテゴリを定義するPHPクラス（例：SecuritySettingsSchema）。 |
+| **Voter** | Symfonyのセキュリティコンポーネントで、ユーザーがリソースに対してアクションを実行できるかどうかを決定します。 |
+| **Webpack** | JavaScriptモジュールバンドラーで、Vueコンポーネント、SCSS、TypeScriptをブラウザ対応のバンドルにコンパイルします。 |

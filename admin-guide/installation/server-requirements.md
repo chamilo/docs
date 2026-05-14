@@ -1,93 +1,93 @@
-# Server Requirements
+# サーバー要件
 
-Before installing Chamilo 2.0, verify that your server meets the following requirements.
+Chamilo 2.0をインストールする前に、サーバーが以下の要件を満たしていることを確認してください。
 
-## Software Requirements
+## ソフトウェア要件
 
 ### PHP
 
-| Requirement | Minimum | Recommended |
+| 要件 | 最小 | 推奨 |
 |-------------|---------|-------------|
-| **PHP version** | 8.2 | 8.3 or later |
+| **PHPバージョン** | 8.2 | 8.3以降 |
 
-### Required PHP Extensions
+### 必要なPHP拡張機能
 
-| Extension | Purpose |
+| 拡張機能 | 目的 |
 |-----------|---------|
-| **curl** | HTTP requests (API integrations, external services) |
-| **fileinfo** | MIME type detection for uploaded files |
-| **gd** | Image processing (thumbnails, CAPTCHA) |
-| **intl** | Internationalization (date, number, and string formatting) |
-| **json** | JSON encoding/decoding |
-| **ldap** | LDAP connector. Although you will probably not use LDAP, Chamilo requires it |
-| **mbstring** | Multibyte string handling (UTF-8 support) |
-| **openssl** | Cryptographic operations (HTTPS, password hashing, tokens) |
-| **pdo_mysql** or **pdo_pgsql** | Database connectivity (install the one matching your database) |
-| **xml** | XML parsing (SCORM, RSS, SOAP) |
-| **zip** | Handling ZIP archives (SCORM packages, bulk imports/exports) |
-| **apcu** | User-level caching (recommended) |
-| **opcache** | Opcode caching (strongly recommended for performance) |
-| **xapian** | Full-text search (optional, only if you use search) |
+| **curl** | HTTPリクエスト（API統合、外部サービス） |
+| **fileinfo** | アップロードファイルのMIMEタイプ検出 |
+| **gd** | 画像処理（サムネイル、CAPTCHA） |
+| **intl** | 国際化（日付、数値、文字列のフォーマット） |
+| **json** | JSONのエンコード/デコード |
+| **ldap** | LDAPコネクタ。LDAPを使用しない場合でも、Chamiloには必要です |
+| **mbstring** | マルチバイト文字列処理（UTF-8サポート） |
+| **openssl** | 暗号化操作（HTTPS、パスワードハッシュ、トークン） |
+| **pdo_mysql** または **pdo_pgsql** | データベース接続（使用するデータベースに合ったものをインストール） |
+| **xml** | XML解析（SCORM、RSS、SOAP） |
+| **zip** | ZIPアーカイブの処理（SCORMパッケージ、一括インポート/エクスポート） |
+| **apcu** | ユーザーレベルキャッシュ（推奨） |
+| **opcache** | オペコードキャッシュ（パフォーマンス向上のため強く推奨） |
+| **xapian** | 全文検索（検索機能を使用する場合のみ、オプション） |
 
-### Database
+### データベース
 
-| Database | Minimum Version |
+| データベース | 最小バージョン |
 |----------|----------------|
 | **MySQL** | 8.0 |
 | **MariaDB** | 10.4 |
 
-### Web Server
+### ウェブサーバー
 
-| Server | Notes |
+| サーバー | 備考 |
 |--------|-------|
-| **Apache** | Requires `mod_rewrite` enabled. |
-| **Nginx** | Requires manual configuration for URL rewriting. See the Symfony Nginx documentation for a reference configuration. |
+| **Apache** | `mod_rewrite` を有効にする必要があります。 |
+| **Nginx** | URLリライトのための手動設定が必要です。参考設定についてはSymfonyのNginxドキュメントを参照してください。 |
 
-### Build Tools
+### ビルドツール
 
-| Tool | Purpose |
+| ツール | 目的 |
 |------|---------|
-| **Composer** | PHP dependency management. Required to install Chamilo's PHP libraries. |
-| **Node.js** (18+) | JavaScript runtime. Required to build frontend assets. |
-| **npm** | JavaScript package manager. Installed with Node.js. |
+| **Composer** | PHP依存関係管理。ChamiloのPHPライブラリをインストールするために必要です。 |
+| **Node.js** (18+) | JavaScriptランタイム。フロントエンドアセットをビルドするために必要です。 |
+| **npm** | JavaScriptパッケージマネージャ。Node.jsと一緒にインストールされます。 |
 
-## Hardware Requirements
+## ハードウェア要件
 
-| Resource | Minimum | Recommended |
+| リソース | 最小 | 推奨 |
 |----------|---------|-------------|
-| **RAM** | 2 GB | 4 GB or more |
-| **CPU** | 1 core | 2+ cores |
-| **Disk space** | 2 GB (application only) | 20+ GB (including uploaded content) |
-| **Disk type** | HDD | SSD (significantly improves database and cache performance) |
+| **RAM** | 2 GB | 4 GB以上 |
+| **CPU** | 1コア | 2コア以上 |
+| **ディスク容量** | 2 GB（アプリケーションのみ） | 20 GB以上（アップロードコンテンツを含む） |
+| **ディスクタイプ** | HDD | SSD（データベースおよびキャッシュのパフォーマンスが大幅に向上） |
 
-These are baseline figures. Actual requirements depend on the number of concurrent users and the volume of content hosted.
+これらは基本的な数値です。実際の要件は、同時接続ユーザー数やホストするコンテンツの量によって異なります。
 
-## Operating System
+## オペレーティングシステム
 
-| OS | Notes |
+| OS | 備考 |
 |----|-------|
-| **Linux** | Recommended. Ubuntu 22.04+, Debian 12+, AlmaLinux 9+, or equivalent. |
-| **Windows** | Possible but not thoroughly tested. Use WSL2 for development. |
-| **macOS** | Development only / untested. |
+| **Linux** | 推奨。Ubuntu 22.04+、Debian 12+、AlmaLinux 9+、または同等。 |
+| **Windows** | 可能ですが十分にテストされていません。開発にはWSL2を使用してください。 |
+| **macOS** | 開発専用 / 未テスト。 |
 
-## Network Requirements
+## ネットワーク要件
 
-* A domain name pointing to your server.
-* An SSL/TLS certificate for HTTPS (Let's Encrypt provides free certificates).
-* Outbound SMTP access if sending emails directly (or use a third-party email service).
-* Port 443 (HTTPS) and optionally port 80 (HTTP, for redirect to HTTPS).
+* サーバーを指すドメイン名。
+* HTTPS用のSSL/TLS証明書（Let's Encryptは無料の証明書を提供しています）。
+* メールを直接送信する場合のアウトバウンドSMTPアクセス（またはサードパーティのメールサービスを使用）。
+* ポート443（HTTPS）、およびオプションでポート80（HTTP、HTTPSへのリダイレクト用）。
 
-## Checking Requirements
+## 要件の確認
 
-After placing the Chamilo source on your server, you can check your PHP configuration directly:
+Chamiloのソースをサーバーに配置した後、PHPの設定を直接確認できます：
 
 ```bash
-php -m          # List installed extensions
-php -i          # Full PHP info
+php -m          # インストールされている拡張機能の一覧
+php -i          # 完全なPHP情報
 ```
 
-## Tips
+## ヒント
 
-* **Use PHP-FPM** with Apache or Nginx for better performance than mod_php.
-* **Separate your database** onto a dedicated server for platforms expecting more than 500 concurrent users.
-* **Use SSD storage** -- Database-heavy applications like Chamilo benefit significantly from fast disk I/O.
+* **PHP-FPMを使用** することで、ApacheまたはNginxでのパフォーマンスがmod_phpよりも向上します。
+* 500人以上の同時接続ユーザーが予想されるプラットフォームでは、**データベースを専用サーバーに分離** してください。
+* **SSDストレージを使用** してください。Chamiloのようなデータベース依存のアプリケーションは、高速なディスクI/Oから大きな恩恵を受けます。

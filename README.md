@@ -1,22 +1,22 @@
-# Chamilo 2.0 Documentation
+# Chamilo 2.0 ドキュメント
 
-Welcome to the official documentation for **Chamilo 2.0**, the open-source e-learning platform.
+**Chamilo 2.0** の公式ドキュメントへようこそ。Chamilo 2.0 はオープンソースのeラーニングプラットフォームです。
 
-This documentation is organized into three guides, each tailored to a specific audience:
+このドキュメントは、特定の対象読者向けに3つのガイドに分かれています：
 
-* [**Teacher Guide**](teacher-guide/) — For instructors and trainers: create courses, add content, assess learners, and track progress.
-* [**Administration Guide**](admin-guide/) — For platform administrators: install, configure, and manage the Chamilo platform.
-* [**Developer Guide**](developer-guide/) — For developers: understand the architecture, build plugins, use the API, and contribute to the project.
+* [**教師ガイド**](teacher-guide/) — 講師やトレーナー向け：コースの作成、コンテンツの追加、学習者の評価、進捗の追跡。
+* [**管理者ガイド**](admin-guide/) — プラットフォーム管理者向け：Chamiloプラットフォームのインストール、設定、管理。
+* [**開発者ガイド**](developer-guide/) — 開発者向け：アーキテクチャの理解、プラグインの構築、APIの使用、プロジェクトへの貢献。
 
-## What's New in Chamilo 2.0
+## Chamilo 2.0 の新機能
 
-Chamilo 2.0 is a major release with a completely redesigned interface and many new features:
+Chamilo 2.0 は、完全に再設計されたインターフェースと多くの新機能を備えたメジャーリリースです：
 
-* **Modern interface** — Built with Vue 3 and PrimeVue for a faster, more responsive experience
-* **AI-powered tools** — Generate exercises, learning paths, and get AI-assisted grading
-* **REST API** — Full API Platform-based REST API with JWT authentication
-* **New authentication options** — OAuth2 (Azure, Keycloak, Facebook), SCIM user provisioning
-* **LTI 1.3** — Connect external learning tools seamlessly
-* **Cloud storage** — Native support for Azure Blob, AWS S3, and Google Cloud Storage
-* **Color themes** — Customizable platform branding with theme support
-* **OnlyOffice integration** — Edit documents collaboratively within the platform
+* **モダンなインターフェース** — Vue 3 と PrimeVue を使用して構築され、より高速で応答性の高い体験を提供
+* **AIを活用したツール** — 演習や学習パスの生成、AI支援による採点
+* **REST API** — JWT認証を備えたAPI Platformベースの完全なREST API
+* **新しい認証オプション** — OAuth2 (Azure, Keycloak, Facebook)、SCIMユーザープロビジョニング
+* **LTI 1.3** — 外部学習ツールをシームレスに接続
+* **クラウドストレージ** — Azure Blob、AWS S3、Google Cloud Storage のネイティブサポート
+* **カラーテーマ** — テーマサポートによるカスタマイズ可能なプラットフォームブランディング
+* **OnlyOffice統合** — プラットフォーム内でドキュメントを共同編集

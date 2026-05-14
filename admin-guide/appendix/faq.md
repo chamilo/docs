@@ -1,87 +1,87 @@
 # FAQ
 
-Frequently asked questions for Chamilo 2.0 administrators.
+Chamilo 2.0 管理者向けのよくある質問。
 
-## Installation and Setup
+## インストールとセットアップ
 
-**Q: What PHP version does Chamilo 2.0 require?**
-A: PHP 8.2 or higher. PHP 8.3 is recommended. See [Server Requirements](../installation/server-requirements.md).
+**Q: Chamilo 2.0 に必要な PHP バージョンは何ですか？**
+A: PHP 8.2 以上が必要です。PHP 8.3 を推奨します。詳細は[サーバー要件](../installation/server-requirements.md)を参照してください。
 
-**Q: Can I run Chamilo on shared hosting?**
-A: It is possible but not recommended. Chamilo 2.0 requires Composer, Node.js in development mode, and command
--line access for installation and maintenance. A VPS or dedicated server provides a much better experience.
+**Q: 共有ホスティングで Chamilo を実行できますか？**
+A: 可能ですが、推奨されません。Chamilo 2.0 では Composer や開発モードでの Node.js、インストールおよびメンテナンスのためのコマンドラインアクセスが必要です。VPS または専用サーバーを使用することで、はるかに優れた体験が得られます。
 
-**Q: Which database should I use?**
-A: MySQL 8.0+ or MariaDB 10.4+ are the most commonly used and best tested.
+**Q: どのデータベースを使用すべきですか？**
+A: MySQL 8.0+ または MariaDB 10.4+ が最も一般的に使用されており、十分にテストされています。
 
-**Q: Can I install Chamilo without the command line?**
-A: Yes, if you use the packaged version (.zip or .tar.gz). Otherwise, you will need the command line to install Composer dependencies, build frontend assets, and run database migrations. The web-based wizard handles the database setup and initial configuration, but the surrounding steps require shell access in dev mode.
+**Q: コマンドラインなしで Chamilo をインストールできますか？**
+A: はい、パッケージ版（.zip または .tar.gz）を使用する場合は可能です。それ以外の場合は、Composer の依存関係のインストール、フロントエンドアセットのビルド、データベースマイグレーションの実行にコマンドラインが必要です。ウェブベースのウィザードでデータベースのセットアップと初期設定を行えますが、開発モードでは周辺のステップでシェルアクセスが必要です。
 
-## Users and Authentication
+## ユーザーと認証
 
-**Q: How do I reset a user's password?**
-A: Go to **Administration > User list**, find the user, click edit, and set a new password. Alternatively, the user can use the "Forgot password" link on the login page (if email is configured).
+**Q: ユーザーのパスワードをリセットするにはどうすればよいですか？**
+A: **管理 > ユーザーリスト**に移動し、該当するユーザーを見つけ、編集をクリックして新しいパスワードを設定します。または、ユーザーがログインページの「パスワードを忘れた」リンクを使用することもできます（メールが設定されている場合）。
 
-**Q: Can I import users in bulk?**
-A: Yes. Go to **Administration > Import users** and upload a CSV or XML file with user data. The import supports creating new users and updating existing ones.
+**Q: ユーザーを一括でインポートできますか？**
+A: はい。**管理 > ユーザーのインポート**に移動し、ユーザー データを含む CSV または XML ファイルをアップロードしてください。インポートでは新規ユーザーの作成と既存ユーザーの更新がサポートされています。
 
-**Q: How do I integrate with LDAP or Active Directory?**
-A: Configure LDAP settings in the authentication configuration. See [LDAP](../authentication/ldap.md). Users are synchronized on login or via scheduled sync.
+**Q: LDAP や Active Directory と統合するにはどうすればよいですか？**
+A: 認証設定で LDAP 設定を構成してください。詳細は[LDAP](../authentication/ldap.md)を参照してください。ユーザーはログイン時またはスケジュールされた同期によって同期されます。
 
-**Q: Can users belong to multiple sessions at the same time?**
-A: Yes. Users can be enrolled in any number of sessions simultaneously. Each session tracks progress independently.
+**Q: ユーザーは同時に複数のセッションに所属できますか？**
+A: はい。ユーザーは同時に任意の数のセッションに登録できます。各セッションは進捗を独立して追跡します。
 
-## Courses and Content
+## コースとコンテンツ
 
-**Q: How do I back up a single course?**
-A: Within the course, go to **Maintenance > Create a backup**. This generates a downloadable archive of course content and settings. You can restore it on the same or a different Chamilo instance.
+**Q: 単一のコースをバックアップするにはどうすればよいですか？**
+A: コース内で**メンテナンス > バックアップの作成**に移動します。これにより、コースのコンテンツと設定を含むダウンロード可能なアーカイブが生成されます。同じまたは別の Chamilo インスタンスで復元できます。
 
-**Q: Can I copy a course?**
-A: Yes. Use **Administration > Copy course** or the course maintenance tool within the course. You can copy content between courses or create a new course from an existing one.
+**Q: コースをコピーできますか？**
+A: はい。**管理 > コースのコピー**またはコース内のメンテナンスツールを使用してください。コース間でコンテンツをコピーしたり、既存のコースから新しいコースを作成したりできます。
 
-**Q: What SCORM versions are supported?**
-A: Chamilo supports SCORM 1.2. SCORM packages are imported as learning paths.
+**Q: どの SCORM バージョンがサポートされていますか？**
+A: Chamilo は SCORM 1.2 をサポートしています。SCORM パッケージは学習パスとしてインポートされます。
 
-**Q: How do I limit who can create courses?**
-A: Go to **Administration > Configuration settings > Course** and disable **Allow non administrators (teachers) to create new courses** (`allow_users_to_create_courses`). When disabled, only administrators can create courses. Alternatively, you can set a limit to the number of courses any teacher can create.
+**Q: コースを作成できる人を制限するにはどうすればよいですか？**
+A: **管理 > 設定 > コース**に移動し、**管理者以外（教師）が新しいコースを作成することを許可する**（`allow_users_to_create_courses`）を無効にしてください。無効にすると、管理者のみがコースを作成できます。また、教師が作成できるコースの数を制限することもできます。
 
-## Performance and Maintenance
+## パフォーマンスとメンテナンス
 
-**Q: The platform is slow. What should I check first?**
-A: In order of impact: (1) Ensure `APP_ENV=prod` and `APP_DEBUG=0` in `.env`. (2) Verify PHP OPcache is enabled. (3) Check database performance. (4) See [Performance Tuning](../platform-settings/performance-tuning.md).
+**Q: プラットフォームが遅い場合、最初に何を確認すべきですか？**
+A: 影響の大きい順に：(1) `.env` で `APP_ENV=prod` および `APP_DEBUG=0` を確認する。(2) PHP OPcache が有効になっていることを確認する。(3) データベースのパフォーマンスを確認する。(4) [パフォーマンスチューニング](../platform-settings/performance-tuning.md)を参照する。
 
-**Q: How do I clear the cache?**
-A: Run `php bin/console cache:clear --env=prod` from the command line. Do not delete the `var/cache/` directory manually while the application is running.
+**Q: キャッシュをクリアするにはどうすればよいですか？**
+A: コマンドラインから `php bin/console cache:clear --env=prod` を実行してください。アプリケーションが実行中に `var/cache/` ディレクトリを手動で削除しないでください。
 
-**Q: How much disk space does Chamilo need?**
-A: The application itself needs about 2 GB uncompressed. Total space depends on uploaded content (documents, videos, SCORM packages). Monitor disk usage and plan accordingly.
+**Q: Chamilo に必要なディスク容量はどのくらいですか？**
+A: アプリケーション自体は圧縮解除状態で約 2 GB 必要です。総容量はアップロードされたコンテンツ（ドキュメント、ビデオ、SCORM パッケージ）によって異なります。ディスク使用量を監視し、適切に計画してください。
 
-**Q: How do I set up automated backups?**
-A: See [Backups](../maintenance/backups.md). At minimum, schedule a daily database dump and regular file-level backups of the upload directory.
+**Q: 自動バックアップを設定するにはどうすればよいですか？**
+A: [バックアップ](../maintenance/backups.md)を参照してください。最低限、毎日データベースのダンプをスケジュールし、アップロードディレクトリの定期的なファイルレベルのバックアップを行ってください。
 
-## Email
+## メール
 
-**Q: Users are not receiving emails. What should I check?**
-A: (1) Verify `MAILER_DSN` in `.env`. (2) Run `php bin/console mailer:test someone@example.com` to test. (3) Check spam folders. (4) Verify SPF/DKIM DNS records. See [Email Configuration](../installation/email-configuration.md).
+**Q: ユーザーがメールを受信できない場合、何を確認すべきですか？**
+A: (1) `.env` の `MAILER_DSN` を確認する。(2) `php bin/console mailer:test someone@example.com` を実行してテストする。(3) スパムフォルダを確認する。(4) SPF/DKIM DNS レコードを確認する。詳細は[メール設定](../installation/email-configuration.md)を参照してください。
 
-**Q: Can I use Gmail to send emails?**
-A: Yes, for small platforms or development. Use an App Password and be aware of Gmail's daily sending limits (500 emails/day for regular accounts).
+**Q: Gmail を使用してメールを送信できますか？**
+A: はい、小規模なプラットフォームや開発用には可能です。アプリパスワードを使用し、Gmail の1日あたりの送信制限（通常アカウントでは500通/日）に注意してください。
 
-## Security
+## セキュリティ
 
-**Q: How do I force HTTPS?**
-A: Configure your web server to redirect HTTP to HTTPS. Additionally, enable the "Force HTTPS" setting in **Administration > Configuration settings > Security**. See [Security Settings](../platform-settings/security-settings.md).
+**Q: HTTPS を強制するにはどうすればよいですか？**
+A: ウェブサーバーを設定して HTTP から HTTPS へのリダイレクトを行います。さらに、**管理 > 設定 > セキュリティ**で「HTTPS を強制する」設定を有効にしてください。詳細は[セキュリティ設定](../platform-settings/security-settings.md)を参照してください。
 
-**Q: How do I block brute-force login attacks?**
-A: Configure max login attempts and CAPTCHA in security settings. Consider also using fail2ban at the server level for additional protection.
+**Q: ブルートフォースログイン攻撃を防ぐにはどうすればよいですか？**
+A: セキュリティ設定で最大ログイン試行回数と CAPTCHA を設定してください。サーバーレベルで fail2ban を使用することも追加の保護として検討してください。
 
-**Q: A user forgot their password and email is not working. How do I help them?**
-A: As an administrator, edit the user account directly and set a new password. Go to **Administration > User list**, find the account, and update the password field.
+**Q: ユーザーがパスワードを忘れ、メールが機能しない場合、どうすれば助けられますか？**
+A: 管理者として、ユーザーアカウントを直接編集し、新しいパスワードを設定してください。**管理 > ユーザーリスト**に移動し、アカウントを見つけ、パスワードフィールドを更新してください。
 
-## Upgrades
+---
+## アップグレード
 
-**Q: Can I upgrade directly from Chamilo 1.11.x to 2.0?**
-A: Yes, but it is a major migration, not a simple update. See [Upgrading](../installation/upgrading.md). Always test on a staging server first.
+**Q: Chamilo 1.11.x から 2.0 に直接アップグレードできますか？**
+A: はい、可能です。ただし、これは単純な更新ではなく、大規模な移行作業となります。詳細は[アップグレード](../installation/upgrading.md)を参照してください。必ず最初にステージングサーバーでテストを行ってください。
 
-**Q: Will my plugins work after upgrading to 2.0?**
-A: No. Plugins from 1.11.x are not compatible with 2.0 and must be rewritten or replaced with equivalent 2.0 functionality.
+**Q: 2.0 にアップグレードした後、プラグインは動作しますか？**
+A: いいえ。1.11.x のプラグインは 2.0 と互換性がなく、書き直すか、2.0 に対応する機能に置き換える必要があります。

@@ -1,73 +1,73 @@
-# Entities and Doctrine
+# エンティティとDoctrine
 
-Chamilo 2.0 has 314 Doctrine entities across two bundles. The following only mention the main ones.
+Chamilo 2.0には、2つのバンドルにわたって314のDoctrineエンティティがあります。以下では主なもののみを紹介します。
 
-## Entity Organization
+## エンティティの構成
 
-### CoreBundle Entities (213)
+### CoreBundle エンティティ (213)
 
-Platform-level entities:
+プラットフォームレベルのエンティティ：
 
-| Category | Examples |
+| カテゴリ | 例 |
 |----------|---------|
-| **Users** | `User`, `UserRelUser`, `AccessUrl`, `AccessUrlRelUser` |
-| **Courses** | `Course`, `CourseCategory`, `CourseRelUser` |
-| **Sessions** | `Session`, `SessionRelUser`, `SessionRelCourse`, `SessionRelCourseRelUser` |
-| **Resources** | `ResourceNode`, `ResourceFile`, `ResourceLink`, `ResourceType` |
-| **Settings** | `SettingsCurrent`, `SettingsOptions` |
-| **Messages** | `Message`, `MessageRelUser`, `MessageAttachment` |
-| **Tracking** | `TrackELogin`, `TrackEOnline`, `TrackEDefault` |
-| **Skills** | `Skill`, `SkillRelUser`, `SkillRelProfile` |
+| **ユーザー** | `User`, `UserRelUser`, `AccessUrl`, `AccessUrlRelUser` |
+| **コース** | `Course`, `CourseCategory`, `CourseRelUser` |
+| **セッション** | `Session`, `SessionRelUser`, `SessionRelCourse`, `SessionRelCourseRelUser` |
+| **リソース** | `ResourceNode`, `ResourceFile`, `ResourceLink`, `ResourceType` |
+| **設定** | `SettingsCurrent`, `SettingsOptions` |
+| **メッセージ** | `Message`, `MessageRelUser`, `MessageAttachment` |
+| **トラッキング** | `TrackELogin`, `TrackEOnline`, `TrackEDefault` |
+| **スキル** | `Skill`, `SkillRelUser`, `SkillRelProfile` |
 | **AI** | `AiRequests` |
-| **Plugins** | `Plugin`, `AccessUrlRelPlugin` |
-| **Social** | `Usergroup`, `UsergroupRelUser` |
+| **プラグイン** | `Plugin`, `AccessUrlRelPlugin` |
+| **ソーシャル** | `Usergroup`, `UsergroupRelUser` |
 | **xAPI** | `XApiObject`, `XApiResult`, `XApiActivityState` |
 
-### CourseBundle Entities (101)
+### CourseBundle エンティティ (101)
 
-Course content entities — all prefixed with `C`:
+コースコンテンツエンティティ — すべて「C」で始まります：
 
-| Category | Examples |
+| カテゴリ | 例 |
 |----------|---------|
-| **Documents** | `CDocument` |
-| **Exercises** | `CQuiz`, `CQuizQuestion`, `CQuizAnswer`, `CQuizQuestionCategory` |
-| **Learning paths** | `CLp`, `CLpItem`, `CLpView`, `CLpItemView`, `CLpCategory` |
-| **Forums** | `CForum`, `CForumCategory`, `CForumThread`, `CForumPost` |
-| **Assignments** | `CStudentPublication`, `CStudentPublicationAssignment`, `CStudentPublicationComment` |
-| **Surveys** | `CSurvey`, `CSurveyQuestion`, `CSurveyAnswer`, `CSurveyInvitation` |
-| **Attendance** | `CAttendance`, `CAttendanceCalendar`, `CAttendanceResult` |
-| **Blogs** | `CBlog`, `CBlogPost`, `CBlogComment`, `CBlogTask` |
-| **Other** | `CCalendarEvent`, `CGlossary`, `CLink`, `CLinkCategory`, `CNotebook`, `CWiki` |
+| **ドキュメント** | `CDocument` |
+| **演習** | `CQuiz`, `CQuizQuestion`, `CQuizAnswer`, `CQuizQuestionCategory` |
+| **学習パス** | `CLp`, `CLpItem`, `CLpView`, `CLpItemView`, `CLpCategory` |
+| **フォーラム** | `CForum`, `CForumCategory`, `CForumThread`, `CForumPost` |
+| **課題** | `CStudentPublication`, `CStudentPublicationAssignment`, `CStudentPublicationComment` |
+| **アンケート** | `CSurvey`, `CSurveyQuestion`, `CSurveyAnswer`, `CSurveyInvitation` |
+| **出席** | `CAttendance`, `CAttendanceCalendar`, `CAttendanceResult` |
+| **ブログ** | `CBlog`, `CBlogPost`, `CBlogComment`, `CBlogTask` |
+| **その他** | `CCalendarEvent`, `CGlossary`, `CLink`, `CLinkCategory`, `CNotebook`, `CWiki` |
 
-## Naming Convention
+## 命名規則
 
-* CoreBundle entities: standard PascalCase (e.g., `User`, `Course`, `Session`)
-* CourseBundle entities: prefixed with `C` (e.g., `CDocument`, `CQuiz`, `CLp`)
+* CoreBundle エンティティ：標準的なPascalCase（例：`User`, `Course`, `Session`）
+* CourseBundle エンティティ：`C`で始まる（例：`CDocument`, `CQuiz`, `CLp`）
 
-This prefix distinguishes course-scoped content entities from platform-level entities (in line with legacy database tables naming). This distinction might disappear in the long run as more tools are converted to global tools without a strong link to a specific course.
+このプレフィックスは、コース範囲のコンテンツエンティティをプラットフォームレベルのエンティティと区別するために使用されます（従来のデータベーステーブルの命名に準拠）。この区別は、将来的に多くのツールが特定のコースに強く結びつかないグローバルツールに変換されるにつれて、なくなる可能性があります。
 
-## Key Relationships
+## 主要な関係性
 
-Relationships are usually evidenced by the `Rel` separator.
+関係性は通常、`Rel`セパレーターによって示されます。
 
-### User ↔ Course
+### ユーザー ↔ コース
 
 ```
 User --[CourseRelUser]--> Course
 ```
 
-`CourseRelUser` stores the enrollment status (TEACHER = 1, STUDENT = 5).
+`CourseRelUser`には登録ステータスが保存されます（TEACHER = 1, STUDENT = 5）。
 
-### User ↔ Session ↔ Course
+### ユーザー ↔ セッション ↔ コース
 
 ```
 User --[SessionRelUser]--> Session --[SessionRelCourse]--> Course
 User --[SessionRelCourseRelUser]--> (Session + Course)
 ```
 
-### ResourceNode (Content Abstraction)
+### ResourceNode (コンテンツ抽象化)
 
-All course content entities connect to the resource system through `ResourceNode`:
+すべてのコースコンテンツエンティティは、`ResourceNode`を通じてリソースシステムに接続されています：
 
 ```
 CDocument --> ResourceNode --> ResourceFile
@@ -75,13 +75,13 @@ CQuiz ------> ResourceNode
 CLp --------> ResourceNode
 ```
 
-See [Resource System](resource-system.md) for details.
+詳細については、[リソースシステム](resource-system.md)を参照してください。
 
-## Doctrine Extensions
+## Doctrine拡張機能
 
-Chamilo uses Gedmo Doctrine Extensions (via `stof/doctrine-extensions-bundle`):
+ChamiloはGedmo Doctrine Extensions（`stof/doctrine-extensions-bundle`経由）を使用しています：
 
-* **Tree** — Hierarchical data (ResourceNode uses materialized path)
-* **Timestampable** — Automatic `createdAt`/`updatedAt` fields
-* **Sluggable** — URL-friendly slugs
-* **Sortable** — Orderable collections
+* **Tree** — 階層データ（ResourceNodeはマテリアライズドパスを使用）
+* **Timestampable** — 自動的な`createdAt`/`updatedAt`フィールド
+* **Sluggable** — URLフレンドリーなスラッグ
+* **Sortable** — 順序付け可能なコレクション

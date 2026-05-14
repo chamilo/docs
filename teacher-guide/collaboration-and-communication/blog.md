@@ -1,46 +1,46 @@
-# Blog
+# ブログ
 
-The blog tool lets you create a shared blog within your course. Learners can write posts, leave comments, and engage in structured writing activities.
+ブログツールを使用すると、コース内に共有ブログを作成することができます。学習者は投稿を書き、コメントを残し、構造化されたライティング活動に参加することができます。
 
-## Creating a Blog
+## ブログの作成
 
-1. Open the **Blog** tool from the course homepage (under the cog icon at the top)
-2. Click **New project**
-3. Enter a **title** and optional subtitle
-4. Save
-5. Decide when you want to make it available to students by clicking the **Show** (eye) icon
+1. コースのホームページから**ブログ**ツールを開きます（上部の歯車アイコンの下にあります）
+2. **新しいプロジェクト**をクリックします
+3. **タイトル**と任意のサブタイトルを入力します
+4. 保存します
+5. **表示**（目のアイコン）をクリックして、学生に公開するタイミングを決定します
 
-You can create multiple blogs within a single course (e.g., one per topic or one per group).
+1つのコース内に複数のブログを作成することができます（例：トピックごとやグループごとに1つ）。
 
-## Writing Blog Posts
+## ブログ投稿の作成
 
-1. Open a blog
-2. Click **New post**
-3. Enter a **title** and write the post content using the rich-text editor
-4. Save
+1. ブログを開きます
+2. **新しい投稿**をクリックします
+3. **タイトル**を入力し、リッチテキストエディターを使用して投稿内容を記述します
+4. 保存します
 
-Both teachers and learners (depending on permissions) can create posts.
+教師と学習者の両方が（権限に応じて）投稿を作成することができます。
 
-## Comments and Ratings
+## コメントと評価
 
-Readers can interact with blog posts through:
+読者はブログ投稿に対して以下の方法で交流することができます：
 
-* **Comments** — Leave feedback or start a discussion under a post (comments can also be threaded as replies to other comments)
-* **Ratings** — Rate posts to highlight the most valued contributions
-* **Attachments** — Both posts and comments can carry file attachments
+* **コメント** — 投稿の下にフィードバックを残したり、ディスカッションを開始したりできます（コメントは他のコメントへの返信としてスレッド化することも可能です）
+* **評価** — 最も価値のある投稿を強調するために投稿を評価できます
+* **添付ファイル** — 投稿とコメントの両方にファイル添付が可能です
 
-## Blog Tasks
+## ブログタスク
 
-You can create **tasks** within a blog — specific writing assignments that learners must complete as blog posts. This is useful for:
+ブログ内に**タスク**を作成することができます。これは、学習者がブログ投稿として完成させるべき特定のライティング課題です。これは以下のような場合に役立ちます：
 
-* Reflective journals
-* Weekly writing assignments
-* Project update reports
+* 振り返りジャーナル
+* 毎週のライティング課題
+* プロジェクト更新レポート
 
-## Managing the Blog
+## ブログの管理
 
-As the teacher, you can:
+教師として、以下のことができます：
 
-* **Edit or delete** posts and comments (post deletion is restricted to the post author or to teachers)
-* **Toggle blog visibility** to show or hide the blog from learners
-* **Define tasks** — Add specific writing assignments learners are expected to complete as posts. Tasks can be color-coded for easier visual grouping.
+* 投稿やコメントを**編集または削除**する（投稿の削除は投稿作成者または教師に制限されています）
+* ブログの**表示/非表示を切り替える**ことで、学習者からブログを見せるか隠すかを設定する
+* **タスクを定義する** — 学習者が投稿として完成させるべき特定のライティング課題を追加する。タスクは視覚的なグループ分けを容易にするために色分けすることができます。

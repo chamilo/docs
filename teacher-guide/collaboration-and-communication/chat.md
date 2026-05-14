@@ -1,34 +1,34 @@
-# Chat
+# チャット
 
-The chat tool provides real-time text messaging within a course. It is useful for quick communication, live Q&A sessions, or informal discussions.
+チャットツールは、コース内でのリアルタイムのテキストメッセージングを提供します。迅速なコミュニケーション、ライブQ&Aセッション、またはカジュアルなディスカッションに役立ちます。
 
-## Using the Chat
+## チャットの使い方
 
-1. Open the **Chat** tool from the course homepage
-2. Type your message in the text field at the bottom
-3. Press **Enter** or click the send button to post
+1. コースのホームページから**チャット**ツールを開きます
+2. 下部のテキストフィールドにメッセージを入力します
+3. **Enter**キーを押すか、送信ボタンをクリックして投稿します
 
-All enrolled users who are currently in the chat room can see messages in real time.
+現在チャットルームにいるすべての登録ユーザーは、メッセージをリアルタイムで確認できます。
 
-## Chat Features
+## チャットの機能
 
-* **Real-time messaging** — Messages appear instantly for all participants
-* **Message history** — Previous messages are visible when you enter the chat
-* **User presence** — See who is currently in the chat room
+* **リアルタイムメッセージング** — メッセージはすべての参加者に即座に表示されます
+* **メッセージ履歴** — チャットに入ると、以前のメッセージを確認できます
+* **ユーザーの在室状況** — 現在チャットルームに誰がいるかを確認できます
 
-## As a Teacher
+## 教師として
 
-As the course teacher, you can:
+コースの教師として、以下のことができます：
 
-* **Monitor discussions** — Review chat history to track learner engagement
-* **Find chat archives in Documents** — The chat tool automatically mirrors messages into HTML files in the Documents tool, organised by day and by scope (course / session / group), so the conversation persists beyond the live session
+* **ディスカッションの監視** — チャット履歴を確認して学習者の参加状況を追跡します
+* **ドキュメント内のチャットアーカイブを確認** — チャットツールはメッセージを自動的にHTMLファイルとしてドキュメントツールにミラーリングし、日付および範囲（コース/セッション/グループ）ごとに整理されるため、ライブセッション後も会話が保存されます
 
-If the platform setting "restrict chat to coach" is enabled by the administrator, only coaches can chat with learners; otherwise everyone enrolled in the course can participate.
+プラットフォーム設定で「コーチにチャットを制限する」が管理者によって有効にされている場合、コーチのみが学習者とチャットできます。それ以外の場合は、コースに登録している全員が参加可能です。
 
-## Tips for Using Chat Effectively
+## チャットを効果的に使うためのヒント
 
-* **Schedule chat sessions** — Let learners know in advance when you will be available for live chat (use the Agenda tool)
-* **Set ground rules** — Establish expectations for respectful communication
-* **Use for quick questions** — Chat works best for short exchanges; use the Forum for longer, structured discussions
+* **チャットセッションのスケジュールを設定** — ライブチャットが可能な時間を事前に学習者に知らせます（アジェンダツールを使用）
+* **基本ルールを設定** — 敬意を持ったコミュニケーションのための期待値を設定します
+* **簡単な質問に使用** — チャットは短いやり取りに最適です。長く構造化されたディスカッションにはフォーラムを使用してください
 
-> If your platform has video conferencing configured (BigBlueButton or Zoom), consider using that for live sessions where voice and video would be more effective. See [Video Conferencing](video-conferencing.md).
+> プラットフォームにビデオ会議が設定されている場合（BigBlueButtonまたはZoom）、音声やビデオがより効果的なライブセッションにはそれを使用することを検討してください。詳細は[ビデオ会議](video-conferencing.md)を参照してください。

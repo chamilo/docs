@@ -1,185 +1,180 @@
-# Editor Settings
+# エディター設定
 
-Configuration of the rich-text editor (TinyMCE) used across the platform — toolbars, plugins, AI helpers in the editor.
+プラットフォーム全体で使用されるリッチテキストエディター（TinyMCE）の設定 — ツールバー、プラグイン、エディター内のAIヘルパー。
 
-Access these settings under **Administration > Configuration settings > Editor**. This category contains **26 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+これらの設定には **管理 > 設定 > エディター** からアクセスできます。このカテゴリには **26の設定** が含まれており、以下にプラットフォームの設定フィクスチャ（`SettingsCurrentFixtures.php`）に含まれるタイトルとコメントを記載しています。
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> コード内の変数名は等幅フォントで表示されています。APIを通じてスクリプトを作成する場合や、[`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml) を編集してこれらの設定をグローバルレベルで変更する必要がある場合に使用してください。
 
-## Settings
+## 設定
 
 ### `allow_email_editor`
 
-**Online e-mail editor enabled**
+**オンラインEメールエディターの有効化**
 
-If this option is activated, clicking on an e-mail address will open an online editor.
+このオプションを有効にすると、Eメールアドレスをクリックした際にオンラインエディターが開きます。
 
 ### `allow_spellcheck`
 
-**Spell check**
+**スペルチェック**
 
-Enable spell check
+スペルチェックを有効にする
 
 ### `block_copy_paste_for_students`
 
-**Block learners copy and paste**
+**学習者のコピー＆ペーストをブロック**
 
-Block learners the ability to copy and paste into the WYSIWYG editor
+学習者がWYSIWYGエディターでコピー＆ペーストする機能をブロックする
 
 ### `editor_block_image_copy_paste`
 
-**Prevent copy-pasting images in WYSIWYG editor**
+**WYSIWYGエディターでの画像のコピー＆ペーストを防止**
 
-Prevent the use of images copy-paste as base64 in the editor to avoid filling the database with images.
+エディター内で画像をbase64としてコピー＆ペーストする使用を防止し、データベースが画像で埋まるのを防ぐ。
 
-*Default: `false`*
-
+*デフォルト: `false`*
 
 ### `editor_driver_list`
 
-**List of WYSIWYG files drivers**
+**WYSIWYGファイルドライバーのリスト**
 
-Array containing the names of the drivers for files access from the WYSIWYG editor.
+WYSIWYGエディターからファイルにアクセスするためのドライバーの名前を含む配列。
 
 ### `editor_settings`
 
-**WYSIWYG editor settings**
+**WYSIWYGエディター設定**
 
-Generic configuration array to reconfigure the WYSIWYG editor globally.
+WYSIWYGエディターをグローバルに再設定するための汎用設定配列。
 
 ### `enable_iframe_inclusion`
 
-**Allow iframes in HTML Editor**
+**HTMLエディターでのiframeの許可**
 
-Allowing arbitrary iframes in the HTML Editor will enhance the edition capabilities of the users, but it can represent a security risk. Please make sure you can rely on your users (i.e. you know who they are) before enabling this feature.
+HTMLエディターで任意のiframeを許可すると、ユーザーの編集機能が向上しますが、セキュリティリスクを伴う可能性があります。この機能を有効にする前に、ユーザーが信頼できる（つまり、誰であるかを把握している）ことを確認してください。
 
 ### `enable_uploadimage_editor`
 
-**Allow images drag&drop in WYSIWYG editor**
+**WYSIWYGエディターでの画像のドラッグ＆ドロップを許可**
 
-Enable image upload as file when doing a copy in the content or a drag and drop.
+コンテンツ内でのコピーやドラッグ＆ドロップ時に画像をファイルとしてアップロードする機能を有効にする。
 
-*Default: `false`*
-
+*デフォルト: `false`*
 
 ### `enabled_asciisvg`
 
-**Enable AsciiSVG**
+**AsciiSVGの有効化**
 
-Enable the AsciiSVG plugin in the WYSIWYG editor to draw charts from mathematical functions.
+WYSIWYGエディターでAsciiSVGプラグインを有効にし、数学関数からグラフを描画する。
 
 ### `enabled_googlemaps`
 
-**Activate Google maps**
+**Googleマップの有効化**
 
-Activate the button to insert Google maps. Activation is not fully realized if not previously edited the file main/inc/lib/fckeditor/myconfig.php and added a Google maps API key.
+Googleマップを挿入するボタンを有効にする。事前にファイル main/inc/lib/fckeditor/myconfig.php を編集し、GoogleマップAPIキーを追加していない場合は、完全な有効化は実現されません。
 
 ### `enabled_imgmap`
 
-**Activate Image maps**
+**イメージマップの有効化**
 
-Activate the button to insert Image maps. This allows you to associate URLs to areas of an image, creating hotspots.
+イメージマップを挿入するボタンを有効にする。これにより、画像の特定の領域にURLを関連付け、ホットスポットを作成できます。
 
 ### `enabled_insertHtml`
 
-**Allow insertion of widgets**
+**ウィジェットの挿入を許可**
 
-This allows you to embed on your webpages your favorite videos and applications such as vimeo or slideshare and all sorts of widgets and gadgets
+これにより、VimeoやSlideShareなどのお気に入りの動画やアプリケーション、さまざまなウィジェットやガジェットをウェブページに埋め込むことができます。
 
 ### `enabled_mathjax`
 
-**Enable MathJax**
+**MathJaxの有効化**
 
-Enable the MathJax library to visualize mathematical formulas. This is only useful if either ASCIIMathML or ASCIISVG settings are enabled.
+数学的な式を視覚化するためにMathJaxライブラリを有効にする。これはASCIIMathMLまたはASCIISVG設定のいずれかが有効になっている場合にのみ有用です。
 
 ### `enabled_support_svg`
 
-**Create and edit SVG files**
+**SVGファイルの作成と編集**
 
-This option allows you to create and edit SVG (Scalable Vector Graphics) multilayer online, as well as export them to png format images.
+このオプションを使用すると、SVG（スケーラブルベクターグラフィックス）の多層ファイルをオンラインで作成および編集し、PNG形式の画像としてエクスポートすることができます。
 
 ### `enabled_wiris`
 
-**WIRIS mathematical editor**
+**WIRIS数学エディター**
 
-Enable WIRIS mathematical editor. Installing this plugin you get WIRIS editor and WIRIS CAS.<br/>This activation is not fully realized unless it has been previously downloaded the <a href='http://www.wiris.com/es/plugins3/ckeditor/download' target='_blank'>PHP plugin for CKeditor WIRIS</a> and unzipped its contents in the Chamilo's directory main/inc/lib/javascript/ckeditor/plugins/.<br/>This is necessary because Wiris is proprietary software and his services are <a href='http://www.wiris.com/store/who-pays' target='_blank'>commercial</a>. To make adjustments to the plugin, edit configuration.ini file or replace his content by the file configuration.ini.default shipped with Chamilo.
+WIRIS数学エディターを有効にする。このプラグインをインストールすると、WIRISエディターとWIRIS CASが利用可能になります。<br/>この有効化は、事前に<a href='http://www.wiris.com/es/plugins3/ckeditor/download' target='_blank'>CKeditor用のWIRIS PHPプラグイン</a>をダウンロードし、Chamiloのディレクトリ main/inc/lib/javascript/ckeditor/plugins/ にその内容を解凍していない限り、完全には実現されません。<br/>これはWirisがプロプライエタリソフトウェアであり、そのサービスが<a href='http://www.wiris.com/store/who-pays' target='_blank'>商用</a>であるため必要です。プラグインの調整を行うには、configuration.iniファイルを編集するか、Chamiloに同梱されているconfiguration.ini.defaultファイルの内容に置き換えてください。
 
 ### `force_wiki_paste_as_plain_text`
 
-**Forcing pasting as plain text in the wiki**
+**Wikiでのプレーンテキストとしての貼り付けを強制**
 
-This will prevent many hidden tags, incorrect or non-standard, copied from other texts to stop corrupting the text of the Wiki after many issues; but will lose some features while editing.
+これにより、他のテキストからコピーされた多くの隠しタグや不正確または非標準のタグがWikiのテキストを破壊するのを防ぎますが、編集時の一部の機能が失われます。
 
 ### `full_editor_toolbar_set`
 
-**Full WYSIWYG editor toolbar**
+**完全なWYSIWYGエディターツールバー**
 
-Show the full toolbar in all WYSIWYG editor boxes around the platform.
+プラットフォーム全体のすべてのWYSIWYGエディターボックスで完全なツールバーを表示する。
 
-*Default: `false`*
-
+*デフォルト: `false`*
 
 ### `htmlpurifier_wiki`
 
-**HTMLPurifier in Wiki**
+**WikiでのHTMLPurifier**
 
-Enable HTML purifier in the wiki tool (will increase security but reduce style features)
+WikiツールでHTML purifierを有効にする（セキュリティが向上しますが、スタイル機能が減少します）
 
 ### `include_asciimathml_script`
 
-**Load the Mathjax library in all the system pages**
+**システムのすべてのページでMathJaxライブラリを読み込む**
 
-Activate this setting if you want to show MathML-based mathematical formulas and ASCIIsvg-based mathematical graphics not only in the 'Documents' tool, but elsewhere in the system.
+MathMLベースの数学式やASCIIsvgベースの数学グラフィックを「ドキュメント」ツールだけでなく、システムの他の場所でも表示したい場合にこの設定を有効にしてください。
 
 ### `math_asciimathML`
 
-**ASCIIMathML mathematical editor**
+**ASCIIMathML数学エディター**
 
-Enable ASCIIMathML mathematical editor
+ASCIIMathML数学エディターを有効にする
 
 ### `more_buttons_maximized_mode`
 
-**Buttons bar extended**
+**ボタンバーの拡張**
 
-Enable button bars extended when the WYSIWYG editor is maximized
+WYSIWYGエディターが最大化されているときにボタンバーを拡張する機能を有効にする
 
-*Default: `true`*
+*デフォルト: `true`*
 
+---
 ### `save_titles_as_html`
 
-**Save titles as HTML**
+**タイトルをHTMLとして保存**
 
-Allow users to include HTML in title fields in several places. This allows for some styling of titles, notably in test questions.
+ユーザーがいくつかの場所でタイトルフィールドにHTMLを含めることを許可します。これにより、特にテストの質問などでタイトルのスタイルをある程度設定することができます。
 
-*Default: `false`*
+*デフォルト: `false`*
 
 ### `translate_html`
 
-**Support multi-language HTML content**
+**多言語HTMLコンテンツのサポート**
 
-If enabled, this option allows users to use a ‘lang’ attribute in HTML elements to define the langage the content of that element is written in. Enable multiple elements with different ‘lang’ attributes and Chamilo will display the content in the langage of the user only.
+有効にすると、このオプションはユーザーがHTML要素に‘lang’属性を使用して、その要素のコンテンツが書かれている言語を定義することを許可します。異なる‘lang’属性を持つ複数の要素を有効にすると、Chamiloはユーザーの言語でのみコンテンツを表示します。
 
-*Default: `false`*
-
+*デフォルト: `false`*
 
 ### `video_context_menu_hidden`
 
-**Hide the context menu on video player**
+**ビデオプレーヤーのコンテキストメニューを非表示にする**
 
-When enabled, the right-click context menu on HTML5 video players is disabled.
+有効にすると、HTML5ビデオプレーヤーでの右クリックコンテキストメニューが無効になります。
 
-*Default: `false`*
-
+*デフォルト: `false`*
 
 ### `video_player_renderers`
 
-**Video player renderers**
+**ビデオプレーヤーレンダラー**
 
-Enable player renderers for YouTube, Vimeo, Facebook, DailyMotion, Twitch medias
+YouTube、Vimeo、Facebook、DailyMotion、Twitchメディア用のプレーヤーレンダラーを有効にします。
 
 ### `youtube_for_students`
 
-**Allow learners to insert videos from YouTube**
+**学習者がYouTubeからビデオを挿入することを許可する**
 
-Enable the possibility that learners can insert Youtube videos
-
+学習者がYouTubeビデオを挿入できる可能性を有効にします。

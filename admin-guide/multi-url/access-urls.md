@@ -1,55 +1,54 @@
-# Access URLs
+# アクセスURL
 
-Access URLs allow a single Chamilo installation to serve multiple separate portals.
+アクセスURLを使用すると、1つのChamiloインストールで複数の独立したポータルを運用することができます。
 
+## ユースケース
 
-## Use Cases
+* **マルチテナント展開** — 1つのサーバー上で異なる組織向けに別々のトレーニングポータルをホストする
+* **部門別ポータル** — 各部門に独自のブランドポータルを提供する（例：`hr.training.company.com`、`it.training.company.com`）
+* **地域別ポータル** — 異なる地域や言語向けに別々のポータルを用意する
 
-* **Multi-tenant deployments** — Host separate training portals for different organizations on a single server
-* **Departmental portals** — Give each department its own branded portal (e.g., `hr.training.company.com`, `it.training.company.com`)
-* **Regional portals** — Separate portals for different regions or languages
+## 仕組み
 
-## How It Works
+各アクセスURLは、同じChamiloインストールへの独立したエントリーポイントです：
 
-Each access URL is a separate entry point to the same Chamilo installation:
+* ユーザーは1つ以上のアクセスURLに割り当てることができます
+* コースやセッションは特定のアクセスURLに属します
+* プラットフォーム設定はアクセスURLごとにカスタマイズ可能です
+* ブランディングやテーマはURLごとに異なることができます
+* あるポータルのユーザーは、別のポータルのユーザーやコースを見ることができません（明示的に共有されていない限り）
 
-* Users can be assigned to one or more access URLs
-* Courses and sessions belong to specific access URLs
-* Platform settings can be customized per access URL
-* Branding and themes can differ per URL
-* Users on one portal cannot see users or courses on another (unless explicitly shared)
+## 設定
 
-## Configuration
+### マルチURLの有効化
 
-### Enabling Multi-URL
+マルチURLはChamiloの設定（通常は環境設定）で有効にする必要があります。これは通常、初期セットアップ時に行われます。
 
-Multi-URL must be enabled in the Chamilo configuration (typically in the environment settings). This is usually done during initial setup.
+### アクセスURLの作成
 
-### Creating an Access URL
+1. 管理パネルから**アクセスURL**に移動します
+2. **URLを追加**をクリックします
+3. URLを入力します（例：`https://portal2.yoursite.com`）
+4. このURLに特有の設定を行います
+5. 保存します
 
-1. From the administration panel, navigate to **Access URLs**
-2. Click **Add a URL**
-3. Enter the URL (e.g., `https://portal2.yoursite.com`)
-4. Configure settings specific to this URL
-5. Save
+### ユーザーとコースの割り当て
 
-### Assigning Users and Courses
+* **ユーザー** — ユーザーを特定のアクセスURLに割り当てます。ユーザーは複数のURLに属することができます。
+* **コース** — コースを特定のアクセスURLに割り当てます
+* **セッション** — セッションを特定のアクセスURLに割り当てます
 
-* **Users** — Assign users to specific access URLs. A user can belong to multiple URLs.
-* **Courses** — Assign courses to specific access URLs
-* **Sessions** — Assign sessions to specific access URLs
+### URLごとの設定
 
-### Per-URL Settings
+各アクセスURLは以下を独自に設定できます：
 
-Each access URL can have its own:
+* **カラーテーマ** — 異なる視覚的ブランディング
+* **プラットフォーム名とロゴ** — カスタムアイデンティティ
+* **設定の上書き** — 特定のプラットフォーム設定をURLごとにカスタマイズ可能
 
-* **Color theme** — Different visual branding
-* **Platform name and logo** — Custom identity
-* **Settings overrides** — Certain platform settings can be customized per URL
+## ヒント
 
-## Tips
-
-* **Decide early** — If choosing a multi-URL setup, you should do that at the start of your Chamilo project as it requires leaving the first URL relatively empty of content. Enabling multi-URL afterwards is more challenging (requires manual databases changes).
-* **Plan URL structure** — Decide on your URL scheme before creating access URLs, as changing URLs later affects all existing links and bookmarks
-* **DNS configuration** — Each access URL must resolve to the same Chamilo server. Configure DNS records accordingly.
-* **Global administrator** — Use the Global Administrator role to manage across all access URLs
+* **早めに決定する** — マルチURL設定を選択する場合、Chamiloプロジェクトの開始時に行うべきです。最初のURLにはほとんどコンテンツを入れないようにする必要があります。後からマルチURLを有効にするのはより困難です（手動でのデータベース変更が必要です）。
+* **URL構造を計画する** — アクセスURLを作成する前にURLスキームを決定してください。後でURLを変更すると、既存のすべてのリンクやブックマークに影響を与えます。
+* **DNS設定** — 各アクセスURLは同じChamiloサーバーに解決される必要があります。DNSレコードを適切に設定してください。
+* **グローバル管理者** — グローバル管理者ロールを使用して、すべてのアクセスURLを管理します

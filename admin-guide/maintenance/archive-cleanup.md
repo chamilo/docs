@@ -1,34 +1,34 @@
-# Archive Cleanup
+# アーカイブのクリーンアップ
 
-Over time, Chamilo accumulates temporary files in its cache and archive directories. Regular cleanup prevents disk space issues.
+時間が経つにつれて、Chamiloはそのキャッシュおよびアーカイブディレクトリに一時ファイルを蓄積します。定期的なクリーンアップを行うことで、ディスク容量の問題を防ぐことができます。
 
-## What Can Be Cleaned
+## クリーンアップ可能なもの
 
-* **Symfony cache** — Compiled templates, cached configuration, and routing data
-* **Temporary files** — Files generated during export, import, and other operations
-* **Session data** — Expired PHP session files
-* **Log files** — Old log files that are no longer needed
+* **Symfonyキャッシュ** — コンパイルされたテンプレート、キャッシュされた設定、ルーティングデータ
+* **一時ファイル** — エクスポート、インポート、その他の操作中に生成されたファイル
+* **セッションデータ** — 期限切れのPHPセッションファイル
+* **ログファイル** — 不要になった古いログファイル
 
-## Performing Cleanup
+## クリーンアップの実行
 
-### From the Administration Panel
+### 管理パネルから
 
-Navigate to **Archive cleanup** in the administration panel. Click the cleanup button to remove temporary files.
+管理パネル内の**アーカイブのクリーンアップ**に移動します。一時ファイルを削除するためにクリーンアップボタンをクリックしてください。
 
-### From the Command Line
+### コマンドラインから
 
-For more control, use Symfony console commands:
+より詳細な制御を行うには、Symfonyコンソールコマンドを使用します：
 
 ```bash
-# Clear the Symfony cache
+# Symfonyキャッシュをクリアする
 php bin/console cache:clear
 
-# Clear only the production cache
+# 本番環境のキャッシュのみをクリアする
 php bin/console cache:clear --env=prod
 ```
 
-## Tips
+## ヒント
 
-* **Schedule regular cleanups** — Set up a weekly or monthly cron job to clear temporary files
-* **Monitor disk usage** — Keep an eye on the `var/` directory size, as it grows with cache and log files
-* **Be careful with logs** — Before deleting log files, check if they contain information you might need for troubleshooting
+* **定期的なクリーンアップをスケジュールする** — 一時ファイルをクリアするために、週次または月次のcronジョブを設定してください
+* **ディスク使用量を監視する** — キャッシュやログファイルが増えるにつれて大きくなる`var/`ディレクトリのサイズに注意してください
+* **ログファイルには注意する** — ログファイルを削除する前に、トラブルシューティングに必要な情報が含まれていないか確認してください

@@ -1,247 +1,232 @@
-# Documents Settings
+# ドキュメント設定
 
-Behaviour of the course **Documents** tool — uploads, allowed extensions, sharing, and templates.
+コースの**ドキュメント**ツールの動作 — アップロード、許可される拡張子、共有、テンプレート。
 
-Access these settings under **Administration > Configuration settings > Documents**. This category contains **29 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+これらの設定には、**管理 > 設定 > ドキュメント**からアクセスできます。このカテゴリには**29の設定**が含まれており、以下にプラットフォームの設定フィクスチャ（`SettingsCurrentFixtures.php`）に含まれるタイトルとコメントを記載しています。
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> コード内の変数名は等幅フォントで表示されています。APIを通じてスクリプトを作成する場合や、`config/settings_override.yaml`（[リンク](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml)）を編集してグローバルレベルでこれらの設定を変更する際に使用してください。
 
-## Settings
+## 設定
 
 ### `access_url_specific_files`
 
-**Enable URL-specific files**
+**URL固有のファイルを有効にする**
 
-When this feature is enabled on a multi-URL configuration, you can go to the main URL and provide URL-specific versions of any file (in the documents tool). The original file will be replaced by the alternative whenever seeing it from a different URL. This allows you to customize each URL even further, while enjoying the advantage of re-using the same courses many times.
+マルチURL構成でこの機能を有効にすると、メインURLにアクセスし、ドキュメントツール内の任意のファイルに対してURL固有のバージョンを提供できます。異なるURLから見る際には、元のファイルが代替ファイルに置き換えられます。これにより、同じコースを何度も再利用する利点を享受しながら、各URLをさらにカスタマイズすることができます。
 
-*Default: `false`*
+*デフォルト: `false`*
 
 ### `default_document_quotum`
 
-**Default hard disk space**
+**デフォルトのハードディスク容量**
 
-What is the available disk space for a course? You can override the quota for specific course through: platform administration > Courses > modify
+コースで利用可能なディスク容量はどれくらいですか？特定のコースのクォータは、プラットフォーム管理 > コース > 編集から上書きできます。
 
-*Default: `1000`*
-
+*デフォルト: `1000`*
 
 ### `default_group_quotum`
 
-**Group disk space available**
+**グループの利用可能なディスク容量**
 
-What is the default hard disk spacde available for a groups documents tool?
+グループのドキュメントツールで利用可能なデフォルトのハードディスク容量はどれくらいですか？
 
-*Default: `250`*
-
+*デフォルト: `250`*
 
 ### `documents_custom_cloud_link_list`
 
-**Set strict hosts list for cloud links**
+**クラウドリンクの厳密なホストリストを設定する**
 
-The documents tool can integrate links to files in the cloud. The list of cloud services is limited to a hardcoded list, but you can define the ‘links’ array that will contain a list of your own list of services/URLs. The list defined here will replace the default list.
+ドキュメントツールはクラウド内のファイルへのリンクを統合できます。クラウドサービスのリストはハードコードされたリストに制限されていますが、独自のサービス/URLのリストを含む‘links’配列を定義できます。ここで定義したリストはデフォルトのリストを置き換えます。
 
 ### `documents_default_visibility_defined_in_course`
 
-**Document visibility defined in course**
+**コース内で定義されたドキュメントの可視性**
 
-The default document visibility for all courses
+すべてのコースにおけるデフォルトのドキュメントの可視性。
 
-*Default: `false`*
+*デフォルト: `false`*
 
 ### `documents_hide_download_icon`
 
-**Hide documents download icon**
+**ドキュメントのダウンロードアイコンを非表示にする**
 
-In the documents tool, hide the download icon from users.
+ドキュメントツール内で、ユーザーからダウンロードアイコンを非表示にします。
 
-*Default: `false`*
-
+*デフォルト: `false`*
 
 ### `enable_x_sendfile_headers`
 
-**Enable X-sendfile headers**
+**X-sendfileヘッダーを有効にする**
 
-Enable this if you have X-sendfile enabled at the web server level and you want to add the required headers for browsers to pick it up.
+ウェブサーバーレベルでX-sendfileが有効になっており、ブラウザがそれを認識するために必要なヘッダーを追加したい場合にこれを有効にしてください。
 
-*Default: `false`*
+*デフォルト: `false`*
 
 ### `group_category_document_access`
 
-**Enable sharing options for document inside group category**
+**グループカテゴリ内のドキュメントの共有オプションを有効にする**
 
-When enabled, administrators can set document access and sharing permissions for document groups by category.
+有効にすると、管理者はカテゴリごとにドキュメントグループのアクセスおよび共有権限を設定できます。
 
-*Default: `false`*
-
+*デフォルト: `false`*
 
 ### `group_document_access`
 
-**Enable sharing options for group document**
+**グループドキュメントの共有オプションを有効にする**
 
-When enabled, document sharing and access permissions can be configured at the group level.
+有効にすると、グループレベルでドキュメントの共有およびアクセス権限を設定できます。
 
-*Default: `false`*
-
+*デフォルト: `false`*
 
 ### `pdf_export_watermark_by_course`
 
-**Enable watermark definition by course**
+**コースごとの透かし定義を有効にする**
 
-When this option is enabled, teachers can define their own watermark for the documents in their courses.
+このオプションを有効にすると、教師は自分のコース内のドキュメントに対して独自の透かしを定義できます。
 
-*Default: `false`*
-
+*デフォルト: `false`*
 
 ### `pdf_export_watermark_enable`
 
-**Enable watermark in PDF export**
+**PDFエクスポートでの透かしを有効にする**
 
-By enabling this option, you can upload an image or a text that will be automatically added as watermark to all PDF exports of documents on the system.
+このオプションを有効にすると、システム上のすべてのドキュメントのPDFエクスポートに自動的に透かしとして追加される画像またはテキストをアップロードできます。
 
-*Default: `false`*
+*デフォルト: `false`*
 
 ### `pdf_export_watermark_text`
 
-**PDF watermark text**
+**PDF透かしのテキスト**
 
-This text will be added as a watermark to the documents exports as PDF.
+このテキストは、PDFとしてエクスポートされるドキュメントに透かしとして追加されます。
 
 ### `permanently_remove_deleted_files`
 
-**Deleted files cannot be restored**
+**削除されたファイルは復元できない**
 
-Deleting a file in the documents tool permanently deletes it. The file cannot be restored
+ドキュメントツールでファイルを削除すると、永久に削除されます。ファイルは復元できません。
 
-*Default: `false`*
+*デフォルト: `false`*
 
 ### `permissions_for_new_directories`
 
-**Permissions for new directories**
+**新しいディレクトリの権限**
 
-The ability to define the permissions settings to assign to every newly created directory lets you improve security against attacks by hackers uploading dangerous content to your portal. The default setting (0770) should be enough to give your server a reasonable protection level. The given format uses the UNIX terminology of Owner-Group-Others with Read-Write-Execute permissions.
+新しく作成されるすべてのディレクトリに割り当てる権限設定を定義する機能により、ポータルに危険なコンテンツをアップロードするハッカーからの攻撃に対するセキュリティを向上させることができます。デフォルト設定（0770）は、サーバーに合理的な保護レベルを提供するのに十分であるはずです。指定された形式は、所有者-グループ-その他に対する読み取り-書き込み-実行権限のUNIX用語を使用しています。
 
-*Default: `0770`*
-
+*デフォルト: `0770`*
 
 ### `permissions_for_new_files`
 
-**Permissions for new files**
+**新しいファイルの権限**
 
-The ability to define the permissions settings to assign to every newly-created file lets you improve security against attacks by hackers uploading dangerous content to your portal. The default setting (0550) should be enough to give your server a reasonable protection level. The given format uses the UNIX terminology of Owner-Group-Others with Read-Write-Execute permissions. If you use Oogie, take care that the user who launch LibreOffice can write files in the course folder.
+新しく作成されるすべてのファイルに割り当てる権限設定を定義する機能により、ポータルに危険なコンテンツをアップロードするハッカーからの攻撃に対するセキュリティを向上させることができます。デフォルト設定（0550）は、サーバーに合理的な保護レベルを提供するのに十分であるはずです。指定された形式は、所有者-グループ-その他に対する読み取り-書き込み-実行権限のUNIX用語を使用しています。Oogieを使用する場合、LibreOfficeを起動するユーザーがコースフォルダにファイルを書き込めるように注意してください。
 
-*Default: `0660`*
-
+*デフォルト: `0660`*
 
 ### `send_notification_when_document_added`
 
-**Send notification to students when document added**
+**ドキュメントが追加されたときに学生に通知を送信する**
 
-Whenever someone creates a new item in the documents tool, send a notification to users.
+ドキュメントツールで新しいアイテムが作成されるたびに、ユーザーに通知を送信します。
 
-*Default: `false`*
+*デフォルト: `false`*
 
-
+---
 ### `show_default_folders`
 
-**Show in documents tool all folders containing multimedia resources supplied by default**
+**ドキュメントツールにデフォルトで提供されるマルチメディアリソースを含むすべてのフォルダを表示する**
 
-Multimedia file folders containing files supplied by default organized in categories of video, audio, image and flash animations to use in their courses. Although you make it invisible into the document tool, you can still use these resources in the platform web editor.
+デフォルトで提供されるファイルをカテゴリ別に整理したマルチメディアファイルフォルダ（ビデオ、オーディオ、画像、フラッシュアニメーション）をコースで使用するために表示します。ドキュメントツール内で非表示にしても、プラットフォームのウェブエディタではこれらのリソースを引き続き使用できます。
 
-*Default: `true`*
+*デフォルト: `true`*
 
 ### `show_documents_preview`
 
-**Show document preview**
+**ドキュメントのプレビューを表示する**
 
-Showing previews of the documents in the documents tool will avoid loading a new page just to show a document, but can result unstable with some older browsers or smaller width screens.
+ドキュメントツール内でドキュメントのプレビューを表示することで、ドキュメントを表示するために新しいページを読み込む手間を省くことができますが、古いブラウザや画面幅が小さい場合には不安定になる可能性があります。
 
-*Default: `false`*
+*デフォルト: `false`*
 
 ### `show_users_folders`
 
-**Show users folders in the documents tool**
+**ドキュメントツールにユーザーフォルダを表示する**
 
-This option allows you to show or hide to teachers the folders that the system generates for each user who visits the tool documents or send a file through the web editor. If you display these folders to the teachers, they may make visible or not the learners and allow each learner to have a specific place on the course where not only store documents, but where they can also create and edit web pages and to export to pdf, make drawings, make personal web templates, send files, as well as create, move and delete directories and files and make security copies from their folders. Each user of course have a complete document manager. Also, remember that any user can copy a file that is visible from any folder in the documents tool (whether or not the owner) to his/her portfolios or personal documents area of social network, which will be available for his/her can use it in other courses.
+このオプションを使用すると、ドキュメントツールを訪れたりウェブエディタを通じてファイルを送信したりする各ユーザーのためにシステムが生成するフォルダを教師に表示または非表示にすることができます。これらのフォルダを教師に表示する場合、教師は学習者に対して表示または非表示を選択でき、各学習者がコース内に特定の場所を持つことが可能になります。そこではドキュメントを保存するだけでなく、ウェブページを作成・編集しPDFにエクスポートしたり、図面を作成したり、個人のウェブテンプレートを作成したり、ファイルを送信したり、ディレクトリやファイルの作成、移動、削除を行ったり、フォルダからセキュリティコピーを取ったりすることができます。コースの各ユーザーは完全なドキュメントマネージャを持つことになります。また、どのユーザーでも、ドキュメントツール内のどのフォルダ（所有者かどうかに関係なく）からでも見えるファイルを自分のポートフォリオやソーシャルネットワークの個人ドキュメントエリアにコピーでき、他のコースで使用することが可能です。
 
-*Default: `true`*
+*デフォルト: `true`*
 
 ### `students_download_folders`
 
-**Allow learners to download directories**
+**学習者がディレクトリをダウンロードすることを許可する**
 
-Allow learners to pack and download a complete directory from the document tool
+学習者がドキュメントツールから完全なディレクトリをパックしてダウンロードすることを許可します。
 
-*Default: `true`*
-
+*デフォルト: `true`*
 
 ### `students_export2pdf`
 
-**Allow learners to export web documents to PDF format in the documents and wiki tools**
+**学習者がドキュメントおよびWikiツールでウェブドキュメントをPDF形式にエクスポートすることを許可する**
 
-This feature is enabled by default, but in case of server overload abuse it, or specific learning environments, might want to disable it for all courses.
+この機能はデフォルトで有効になっていますが、サーバーの過負荷や特定の学習環境での悪用の場合、すべてのコースで無効にしたい場合があります。
 
-*Default: `true`*
+*デフォルト: `true`*
 
 ### `thematic_pdf_orientation`
 
-**PDF orientation for course progress**
+**コース進捗のPDF向き**
 
-In the course progress tool, you can print a PDF of the different elements. Set ‘portrait’ or ‘landscape’ (technical terms) to change it.
+コース進捗ツールでは、さまざまな要素のPDFを印刷することができます。向きを変更するには「portrait」または「landscape」（技術用語）を設定してください。
 
-*Default: `landscape`*
-
+*デフォルト: `landscape`*
 
 ### `upload_extensions_blacklist`
 
-**Blacklist - setting**
+**ブラックリスト - 設定**
 
-The blacklist is used to filter the files extensions by removing (or renaming) any file which extension figures in the blacklist below. The extensions should figure without the leading dot (.) and separated by semi-column (;) like the following:  exe;com;bat;scr;php. Files without extension are accepted. Letter casing (uppercase/lowercase) doesn't matter.
+ブラックリストは、以下のブラックリストに記載されている拡張子を持つファイルを削除（または名前変更）することでファイル拡張子をフィルタリングするために使用されます。拡張子は先頭のドット（.）なしで、セミコロン（;）で区切って記載する必要があります。例：exe;com;bat;scr;php。拡張子がないファイルは受け入れられます。大文字小文字は関係ありません。
 
 ### `upload_extensions_list_type`
 
-**Type of filtering on document uploads**
+**ドキュメントアップロード時のフィルタリングの種類**
 
-Whether you want to use the blacklist or whitelist filtering. See blacklist or whitelist description below for more details.
+ブラックリストまたはホワイトリストのフィルタリングを使用するかどうかを選択します。詳細については、以下のブラックリストまたはホワイトリストの説明を参照してください。
 
-*Default: `blacklist`*
-
+*デフォルト: `blacklist`*
 
 ### `upload_extensions_replace_by`
 
-**Replacement extension**
+**置換拡張子**
 
-Enter the extension that you want to use to replace the dangerous extensions detected by the filter. Only needed if you have selected a filter by replacement.
+フィルタで検出された危険な拡張子を置き換えるために使用したい拡張子を入力します。置換によるフィルタを選択した場合にのみ必要です。
 
-*Default: `dangerous`*
-
+*デフォルト: `dangerous`*
 
 ### `upload_extensions_skip`
 
-**Filtering behaviour (skip/rename)**
+**フィルタリングの動作（スキップ/名前変更）**
 
-If you choose to skip, the files filtered through the blacklist or whitelist will not be uploaded to the system. If you choose to rename them, their extension will be replaced by the one defined in the extension replacement setting. Beware that renaming doesn't really protect you, and may cause name collision if several files of the same name but different extensions exist.
+スキップを選択した場合、ブラックリストまたはホワイトリストでフィルタリングされたファイルはシステムにアップロードされません。名前変更を選択した場合、拡張子は拡張子置換設定で定義されたものに置き換えられます。名前変更は実際には保護を提供しないことに注意してください。また、同じ名前だが異なる拡張子のファイルが複数存在する場合、名前の衝突を引き起こす可能性があります。
 
-*Default: `true`*
-
+*デフォルト: `true`*
 
 ### `upload_extensions_whitelist`
 
-**Whitelist - setting**
+**ホワイトリスト - 設定**
 
-The whitelist is used to filter the file extensions by removing (or renaming) any file whose extension does *NOT* figure in the whitelist below. It is generally considered as a safer but more restrictive approach to filtering. The extensions should figure without the leading dot (.) and separated by semi-column (;) such as the following:  htm;html;txt;doc;xls;ppt;jpg;jpeg;gif;sxw. Files without extension are accepted. Letter casing (uppercase/lowercase) doesn't matter.
+ホワイトリストは、以下のホワイトリストに記載されていない拡張子を持つファイルを削除（または名前変更）することでファイル拡張子をフィルタリングするために使用されます。一般的に、フィルタリングに対してより安全だが制限の多いアプローチとされています。拡張子は先頭のドット（.）なしで、セミコロン（;）で区切って記載する必要があります。例：htm;html;txt;doc;xls;ppt;jpg;jpeg;gif;sxw。拡張子がないファイルは受け入れられます。大文字小文字は関係ありません。
 
 ### `users_copy_files`
 
-**Allow users to copy files from a course in your personal file area**
+**ユーザーがコースから個人ファイルエリアにファイルをコピーすることを許可する**
 
-Allows users to copy files from a course in your personal file area, visible through the Social Network or through the HTML editor when they are out of a course
+ユーザーがコースから個人ファイルエリアにファイルをコピーすることを許可し、ソーシャルネットワークを通じて、またはコース外でHTMLエディタを通じて表示できるようにします。
 
-*Default: `true`*
-
+*デフォルト: `true`*
 
 ### `video_features`
 
-**Video features**
+**ビデオ機能**
 
-Array of extra features you can enable for the video player in Chamilo. Options include 'speed', which allows you to change the playback speed of a video.
-
+Chamiloのビデオプレーヤーで有効にできる追加機能の配列。オプションには、ビデオの再生速度を変更できる「speed」などがあります。

@@ -1,108 +1,108 @@
-# Registration Settings
+# 登録設定
 
-Self-registration policy and post-registration redirects — what new users are asked for and where they land.
+セルフ登録ポリシーと登録後のリダイレクト — 新規ユーザーに求められる情報と到着先。
 
-Access these settings under **Administration > Configuration settings > Registration**. This category contains **20 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+これらの設定には **Administration > Configuration settings > Registration** からアクセスします。このカテゴリには **20 settings** が含まれており、以下にプラットフォームの設定フィクスチャ (`SettingsCurrentFixtures.php`) に含まれるタイトルとコメントとともに記載します。
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> コード内の変数名は等幅フォントで表示されます。API を経由したスクリプト作成時や、[`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml) を編集してグローバルレベルでこれらの設定を変更する必要がある場合に使用してください。
 
-## Settings
+## 設定
 
 ### `allow_double_validation_in_registration`
 
-**Double validation for registration process**
+**登録プロセスの二重検証**
 
-Simply display a confirmation request on the registration page before going forward with the user creation.
+ユーザー作成を進める前に、登録ページに確認リクエストを表示するだけです。
 
 *Default: `false`*
 
 
 ### `allow_fields_inscription`
 
-**Restrict fields shown during registration**
+**登録時に表示するフィールドの制限**
 
-If you only want to show some of the available profile field, your can complete the array here with sub-elements 'fields' and 'extra_fields' containing arrays with a list of the fields to show.
+利用可能なプロフィールフィールドの一部のみを表示したい場合、ここに 'fields' と 'extra_fields' のサブ要素を含む配列を完成させ、各配列に表示するフィールドのリストを指定できます。
 
 ### `allow_lostpassword`
 
-**Lost password**
+**パスワード紛失**
 
-Are users allowed to request their lost password?
+ユーザーがパスワードの再発行をリクエストできるかどうか？
 
 *Default: `true`*
 
 ### `allow_registration`
 
-**Registration**
+**登録**
 
-Is registration as a new user allowed? Can users create new accounts?
+新規ユーザーとしての登録を許可するか？ ユーザーが新しいアカウントを作成できるか？
 
 *Default: `false`*
 
 ### `allow_registration_as_teacher`
 
-**Registration as teacher**
+**教師としての登録**
 
-Can one register as a teacher (with the ability to create courses)?
+教師として登録可能か（コース作成能力付き）？
 
 *Default: `false`*
 
 ### `allow_terms_conditions`
 
-**Enable terms and conditions**
+**利用規約の有効化**
 
-This option will display the Terms and Conditions in the register form for new users. Need to be configured first in the portal administration page.
+このオプションを有効にすると、新規ユーザーの登録フォームに利用規約が表示されます。まずポータル管理ページで設定する必要があります。
 
 *Default: `false`*
 
 
 ### `drh_autosubscribe`
 
-**Human resources director autosubscribe**
+**人事ディレクターの自動購読**
 
-Human resources director autosubscribe - not yet available
+人事ディレクターの自動購読 - まだ利用できません
 
 ### `extendedprofile_registration`
 
-**Portfolio fields at registration**
+**登録時のポートフォリオフィールド**
 
-Which of the following fields of the portfolio have to be available in the user registration process? This requires that the portfolio option be enabled (see above).
+以下のポートフォリオフィールドのうち、ユーザー登録プロセスで利用可能にするものはどれですか？ これにはポートフォリオオプションが有効になっている必要があります（上記参照）。
 
 ### `extendedprofile_registrationrequired`
 
-**Required portfolio fields in registration**
+**登録時の必須ポートフォリオフィールド**
 
-Which of the following fields of the portfolio are *required* in the user registration process? This requires that the portfolio option be enabled and that the field be also available in the registration form (see above).
+以下のポートフォリオフィールドのうち、ユーザー登録プロセスで*必須*なものはどれですか？ これにはポートフォリオオプションが有効になっており、かつフィールドが登録フォームでも利用可能である必要があります（上記参照）。
 
 ### `extldap_config`
 
-**LDAP connection configuration**
+**LDAP 接続設定**
 
-Array defining host and port for the LDAP server.
+LDAP サーバーのホストとポートを定義する配列です。
 
 ### `hide_legal_accept_checkbox`
 
-**Hide legal accept checkbox in Terms and Conditions page**
+**利用規約ページの法的同意チェックボックスの非表示**
 
-If set to true, removes the "I have read and accept" checkbox in the Terms and Conditions page flow.
+true に設定すると、利用規約ページのフローの「読みましたおよび同意します」チェックボックスを削除します。
 
 *Default: `false`*
 
 
 ### `platform_unsubscribe_allowed`
 
-**Allow unsubscription from platform**
+**プラットフォームからの退会許可**
 
-By enabling this option, you allow any user to definitively remove his own account and all data related to it from the platform. This is quite a radical action, but it is necessary for portals opened to the public where users can auto-register. An additional entry will appear in the user profile to unsubscribe after confirmation.
+このオプションを有効にすると、任意のユーザーが自分のアカウントおよび関連するすべてのデータをプラットフォームから永久に削除できるようになります。これはかなり過激な操作ですが、公開ポータルでユーザーが自己登録できる場合に必要です。確認後に退会するための追加エントリがユーザー プロフィールに表示されます。
 
 *Default: `false`*
 
 
 ### `redirect_after_login`
 
-**Redirect after login (per profile)**
+**ログイン後のリダイレクト（プロフィールごと）**
 
-Define redirection per profile after login using a JSON object like {"STUDENT":"", "ADMIN":"admin-dashboard"}
+ログイン後にプロフィールごとにリダイレクトを定義します。{"STUDENT":"", "ADMIN":"admin-dashboard"} のような JSON オブジェクトを使用します。
 
 *Default:*
 ```json
@@ -119,49 +119,47 @@ Define redirection per profile after login using a JSON object like {"STUDENT":"
 
 ### `required_extra_fields_in_inscription`
 
-**Required extra fields during registration**
+**登録時の必須追加フィールド**
 
-Array of extra field identifiers that must be completed during user registration.
+ユーザー登録時に完了させる必要がある追加フィールド識別子の配列です。
 
 ### `required_profile_fields`
 
-**Required fields during registration**
+**登録時の必須フィールド**
 
-Array of profile field names (email, phone, language, official_code) that must be provided during registration.
+登録時に提供する必要があるプロフィールフィールド名（email, phone, language, official_code）の配列です。
 
 ### `send_inscription_msg_to_inbox`
 
-**Send the welcome message to e-mail and inbox**
+**ウェルカム メッセージをメールと受信ボックスに送信**
 
-By default, the welcome message (with credentials) is sent only by e-mail. Enable this option to send it to the user's Chamilo inbox as well.
+デフォルトでは、ウェルカム メッセージ（認証情報付き）はメールのみで送信されます。このオプションを有効にすると、ユーザーの Chamilo 受信ボックスにも送信されます。
 
 *Default: `false`*
 
 
 ### `sessionadmin_autosubscribe`
 
-**Session admin autosubscribe**
+**セッション管理者自動購読**
 
-Session administrator autosubscribe - not available yet
+セッション管理者の自動購読 - まだ利用できません
 
 ### `student_autosubscribe`
 
-**Learner autosubscribe**
+**学習者自動購読**
 
-Learner autosubscribe - not yet available
+学習者の自動購読 - まだ利用できません
 
 ### `teacher_autosubscribe`
 
-**Teacher autosubscribe**
+**教師自動購読**
 
-Teacher autosubscribe - not yet available
+教師の自動購読 - まだ利用できません
 
 ### `user_hide_never_expire_option`
 
-**Hide 'never expires' option for users**
+**ユーザーの「期限切れなし」オプションの非表示**
 
-Remove the option 'never expires' when creating/editing a user account.
+ユーザー アカウントの作成/編集時に「期限切れなし」オプションを削除します。
 
 *Default: `false`*
-
-

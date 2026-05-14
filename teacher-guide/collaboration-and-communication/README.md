@@ -1,12 +1,12 @@
-# Collaboration and Communication
+# コラボレーションとコミュニケーション
 
-Chamilo provides several tools to enable interaction between you and your learners, and among learners themselves.
+Chamiloは、あなたと学習者、さらには学習者同士の交流を可能にするいくつかのツールを提供しています。
 
-* **[Forums](forums.md)** — Threaded discussions organized by category and topic
-* **[Chat](chat.md)** — Real-time text messaging within a course
-* **[Groups](groups.md)** — Divide learners into working groups with their own shared tools
-* **[Wiki](wiki.md)** — Collaborative document editing
-* **[Blog](blog.md)** — Shared blogging within the course
-* **[Video Conferencing](video-conferencing.md)** — Live video sessions using BigBlueButton or Zoom
+* **[フォーラム](forums.md)** — カテゴリとトピックごとに整理されたスレッド形式のディスカッション
+* **[チャット](chat.md)** — コース内でのリアルタイムのテキストメッセージング
+* **[グループ](groups.md)** — 学習者を独自の共有ツールを持つ作業グループに分ける
+* **[Wiki](wiki.md)** — 共同ドキュメント編集
+* **[ブログ](blog.md)** — コース内での共有ブログ
+* **[ビデオ会議](video-conferencing.md)** — BigBlueButtonまたはZoomを使用したライブビデオセッション
 
-These tools are available from the course homepage. Some may be hidden by default — you can make them visible from the tool grid (see [Course Homepage](../creating-your-course/course-homepage.md)).
+これらのツールはコースのホームページから利用可能です。一部はデフォルトで非表示になっている場合があります — ツールグリッドから表示にすることができます（[コースホームページ](../creating-your-course/course-homepage.md)を参照）。

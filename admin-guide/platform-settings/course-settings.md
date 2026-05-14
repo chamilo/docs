@@ -1,361 +1,358 @@
-# Course Settings
+# コース設定
 
-Defaults and policies that apply to courses across the platform — visibility, creation rights, allowed tools, learner permissions, and similar.
+プラットフォーム全体のコースに適用されるデフォルト設定とポリシー — 公開性、作成権限、許可されるツール、学習者の権限など。
 
-Access these settings under **Administration > Configuration settings > Course**. This category contains **45 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+これらの設定には **管理 > 設定 > コース** からアクセスできます。このカテゴリには **45の設定** が含まれており、以下にプラットフォームの設定フィクスチャ（`SettingsCurrentFixtures.php`）に含まれるタイトルとコメントとともにリストされています。
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> コード内の変数名は等幅フォントで表示されています。APIを通じてスクリプトを作成する場合や、[`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml) を編集してこれらの設定をグローバルレベルで変更する必要がある場合に使用してください。
 
-## Settings
+## 設定
 
 ### `active_tools_on_create`
 
-**Active tools on course creation**
+**コース作成時のアクティブなツール**
 
-Select the tools that will be *active* after the creation of a course.
+コース作成後に *アクティブ* になるツールを選択します。
 
-*Default:*
+*デフォルト:*
 ```
 agenda,announcement,attendance,bbb,blog,chat,course_description,course_progress,customcertificate,document,dropbox,forum,global,glossary,gradebook,group,learnpath,link,mobidico,notebook,notebookteacher,portfolio,positioning,quiz,student_publication,survey,test2pdf,tracking,user,wiki,zoom
 ```
 
 ### `allow_base_course_category`
 
-**Use course categories from top URL**
+**トップURLからのコースカテゴリの使用を許可**
 
-In multi-URL settings, allow admins and teachers to assign categories from the top URL to courses in the children URLs.
+マルチURL設定において、管理者や教師がトップURLのカテゴリを子URLのコースに割り当てることを許可します。
 
-*Default: `false`*
+*デフォルト: `false`*
 
 ### `allow_course_theme`
 
-**Allow course themes**
+**コーステーマを許可**
 
-Allows course graphical themes and makes it possible to change the style sheet used by a course to any of the possible style sheets available to Chamilo. When a user enters the course, the style sheet of the course will have priority over the user's own style sheet and the platform's default style sheet.
+コースのグラフィックテーマを許可し、Chamiloで利用可能な任意のスタイルシートにコースが使用するスタイルシートを変更できるようにします。ユーザーがコースに入ると、コースのスタイルシートがユーザーのスタイルシートやプラットフォームのデフォルトスタイルシートよりも優先されます。
 
-*Default: `true`*
+*デフォルト: `true`*
 
 ### `allow_public_course_with_no_terms_conditions`
 
-**Access public courses with terms and conditions**
+**利用規約付きの公開コースへのアクセス**
 
-With this option enabled, if a course has public visibility and terms and conditions, those terms are disabled while the course is public.
+このオプションを有効にすると、コースが公開状態で利用規約がある場合、コースが公開されている間は利用規約が無効になります。
 
-*Default: `false`*
+*デフォルト: `false`*
 
 ### `block_registered_users_access_to_open_course_contents`
 
-**Block public courses access to authenticated users**
+**認証済みユーザーへの公開コースアクセスの制限**
 
-Only show public courses. Do not allow registered users to access courses with 'open' visibility unless they are subscribed to each of these courses.
+公開コースのみを表示します。登録ユーザーが「公開」状態のコースにアクセスすることは、各コースに登録していない限り許可されません。
 
-*Default: `false`*
+*デフォルト: `false`*
 
 ### `breadcrumbs_course_homepage`
 
-**Course homepage breadcrumb**
+**コースホームページのパンくずリスト**
 
-The breadcrumb is the horizontal links navigation system usually in the top left of your page. This option selects what you want to appear in the breadcrumb on courses' homepages
+パンくずリストは通常、ページの左上に表示される水平リンクナビゲーションシステムです。このオプションは、コースのホームページに表示されるパンくずリストの内容を選択します。
 
-*Default: `course_title`*
+*デフォルト: `course_title`*
 
 ### `course_about_teacher_name_hide`
 
-**Hide course teacher info on course details page**
+**コース詳細ページでの教師情報の非表示**
 
-On the course details page, hide the teacher information.
+コース詳細ページで教師情報を非表示にします。
 
-*Default: `false`*
+*デフォルト: `false`*
 
 ### `course_category_code_to_use_as_model`
 
-**Restrict course templates to one course category**
+**コーステンプレートを1つのコースカテゴリに制限**
 
-Give a category code to use as course templates. Only those courses will show in the drop-down at course creation time, and users won’t see the courses in this category from the courses catalogue.
+コーステンプレートとして使用するカテゴリコードを指定します。このカテゴリのコースのみがコース作成時のドロップダウンに表示され、ユーザーはコースカタログからこのカテゴリのコースを見ることができません。
 
 ### `course_configuration_tool_extra_fields_to_show_and_edit`
 
-**Extra fields to show in course settings**
+**コース設定に表示および編集する追加フィールド**
 
-The fields defined in this array will appear on the course settings page.
+この配列で定義されたフィールドは、コース設定ページに表示されます。
 
 ### `course_creation_by_teacher_extra_fields_to_show`
 
-**Extra fields to show on course creation form**
+**コース作成フォームに表示する追加フィールド**
 
-The fields defined in this array will appear as additional fields in the course creation form.
+この配列で定義されたフィールドは、コース作成フォームに追加フィールドとして表示されます。
 
 ### `course_creation_donate_link`
 
-**Donation link on course creation page**
+**コース作成ページの寄付リンク**
 
-The page the donation message should link to (full URL).
+寄付メッセージがリンクするページ（完全なURL）。
 
 ### `course_creation_donate_message_show`
 
-**Show donate message on course creation page**
+**コース作成ページに寄付メッセージを表示**
 
-Add a message box in the course creation page for teachers, asking them to donate to the project.
+コース作成ページに教師向けのメッセージボックスを追加し、プロジェクトへの寄付を依頼します。
 
-*Default: `false`*
+*デフォルト: `false`*
 
 ### `course_creation_form_hide_course_code`
 
-**Remove course code field from course creation form**
+**コース作成フォームからコースコードフィールドを削除**
 
-If not provided, the course code is generated by default based on the course title, so enable this option to remove the code field from the course creation form altogether.
+提供されない場合、コースコードはデフォルトでコースタイトルに基づいて生成されるため、このオプションを有効にするとコース作成フォームからコードフィールドを完全に削除できます。
 
-*Default: `false`*
+*デフォルト: `false`*
 
 ### `course_creation_form_set_course_category_mandatory`
 
-**Set course category mandatory**
+**コースカテゴリを必須に設定**
 
-When creating a course, make the course category a required setting.
+コース作成時にコースカテゴリを必須設定にします。
 
-*Default: `false`*
+*デフォルト: `false`*
 
 ### `course_creation_form_set_extra_fields_mandatory`
 
-**Extra fields to require on course creation form**
+**コース作成フォームで必須とする追加フィールド**
 
-The fields defined in this array will be mandatory in the course creation form.
+この配列で定義されたフィールドは、コース作成フォームで必須となります。
 
 ### `course_creation_splash_screen`
 
-**Splash screen for courses**
+**コースのスプラッシュスクリーン**
 
-Show a splash screen when creating a new course.
+新しいコースを作成する際にスプラッシュスクリーンを表示します。
 
-*Default: `true`*
+*デフォルト: `true`*
 
+---
 ### `course_creation_use_template`
 
-**Use template course for new courses**
+**新しいコースにテンプレートコースを使用する**
 
-Set this to use the same template course (identified by its course numeric ID in the database) for all new courses that will be created on the platform. Please note that, if not properly planned, this setting might have a massive impact on space usage. The template course will be used as if the teacher did a copy of the course with the course backup tools, so no user content is copied, only teacher material. All other course-backup rules apply. Leave empty (or set to 0) to disable.
+この設定を有効にすると、プラットフォーム上で作成されるすべての新しいコースに同じテンプレートコース（データベース内のコースの数値IDで識別される）が使用されます。適切に計画されていない場合、この設定はストレージ使用量に大きな影響を与える可能性があることに注意してください。テンプレートコースは、教師がコースバックアップツールを使用してコースをコピーしたかのように使用されるため、ユーザーのコンテンツはコピーされず、教師の教材のみがコピーされます。コースバックアップの他のすべてのルールが適用されます。無効にする場合は空欄のままにするか、0に設定してください。
 
 ### `course_creation_user_course_extra_field_relation_to_prefill`
 
-**Prefill course fields with fields from user**
+**ユーザーのフィールドからコースフィールドを事前入力する**
 
-If not empty, the course creation process will look for some fields in the user profile and auto-fill them for the course. For example, a teacher specialized in digital marketing could automatically set a « digital marketing » flag on each course (s)he creates.
+空欄でない場合、コース作成プロセスはユーザープロファイル内のいくつかのフィールドを探し、コース用に自動入力します。たとえば、デジタルマーケティングを専門とする教師は、作成する各コースに自動的に「デジタルマーケティング」フラグを設定することができます。
 
 ### `course_hide_tools`
 
-**Hide tools from teachers**
+**教師からツールを非表示にする**
 
-Check the tools you want to hide from teachers. This will prohibit access to the tool.
+教師から非表示にしたいツールにチェックを入れてください。これにより、そのツールへのアクセスが禁止されます。
 
 ### `course_images_in_courses_list`
 
-**Courses custom icons**
+**コースのカスタムアイコン**
 
-Use course images as the course icon in courses lists (instead of the default green blackboard icon).
+コースリスト内でコース画像をコースアイコンとして使用します（デフォルトの緑色の黒板アイコンの代わりに）。
 
-*Default: `true`*
+*デフォルト: `true`*
 
 ### `course_log_default_extra_fields`
 
-**User extra fields by default in course stats page**
+**コース統計ページにデフォルトで表示するユーザーの追加フィールド**
 
-Configure this array with the internal IDs of the extra fields you want to show by default in the main course stats page.
+メインのコース統計ページにデフォルトで表示したい追加フィールドの内部IDをこの配列に設定してください。
 
 ### `course_log_hide_columns`
 
-**Hide columns from course logs**
+**コースログから列を非表示にする**
 
-This array gives you the possibility to configure which columns to hide in the main course stats page and in the total time report.
+この配列を使用すると、メインのコース統計ページおよび合計時間レポートで非表示にする列を設定することができます。
 
 ### `course_sequence_valid_only_in_same_session`
 
-**Validate prerequisites only within the same session**
+**同一セッション内でのみ前提条件を検証する**
 
-When enabled, a course will be considered validated only if passed within the current session. If disabled, courses passed in other sessions will also unlock dependent courses.
+有効にすると、コースは現在のセッション内で合格した場合にのみ検証済みとみなされます。無効にすると、他のセッションで合格したコースも依存するコースのロックを解除します。
 
-*Default: `false`*
-
+*デフォルト: `false`*
 
 ### `course_student_info`
 
-**Course student info display**
+**コースの学生情報表示**
 
-On the ‘My courses’/’My sessions’ pages, show additional information regarding the score, progress and/or certificate acquisition by the student.
+「マイコース」/「マイセッション」ページで、学生のスコア、進捗状況、または証明書取得に関する追加情報を表示します。
 
 ### `course_validation`
 
-**Courses validation**
+**コースの検証**
 
-When the 'Courses validation' feature is enabled, a teacher is not able to create a course alone. He/she fills a course request. The platform administrator reviews the request and approves it or rejects it.<br />This feature relies on automated e-mail messaging; set Chamilo to access an e-mail server and to use a dedicated an e-mail account.
+「コースの検証」機能が有効になっている場合、教師は単独でコースを作成することができません。教師はコースリクエストを記入し、プラットフォーム管理者がリクエストを確認して承認または拒否します。<br />この機能は自動化された電子メールメッセージングに依存しています。Chamiloが電子メールサーバーにアクセスできるように設定し、専用の電子メールアカウントを使用するようにしてください。
 
-*Default: `false`*
-
+*デフォルト: `false`*
 
 ### `course_validation_terms_and_conditions_url`
 
-**Course validation - a link to the terms and conditions**
+**コース検証 - 利用規約へのリンク**
 
-This is the URL to the 'Terms and Conditions' document that is valid for making a course request. If the address is set here, the user should read and agree with these terms and conditions before sending a course request.<br />If you enable Chamilo's 'Terms and Conditions' module and if you want its URL to be used, then leave this setting empty.
+これは、コースリクエストを行う際に有効な「利用規約」ドキュメントへのURLです。ここにアドレスが設定されている場合、ユーザーはコースリクエストを送信する前にこれらの利用規約を読み、同意する必要があります。<br />Chamiloの「利用規約」モジュールを有効にし、そのURLを使用したい場合は、この設定を空欄のままにしてください。
 
 ### `courses_default_creation_visibility`
 
-**Default course visibility**
+**デフォルトのコース公開設定**
 
-Default course visibility while creating a new course
+新しいコースを作成する際のデフォルトのコース公開設定
 
-*Default: `2`*
-
+*デフォルト: `2`*
 
 ### `display_coursecode_in_courselist`
 
-**Display Code in Course name**
+**コース名にコードを表示する**
 
-Display Course Code in courses list
+コースリストにコースコードを表示する
 
-*Default: `false`*
-
+*デフォルト: `false`*
 
 ### `display_teacher_in_courselist`
 
-**Display teacher in course name**
+**コース名に教師を表示する**
 
-Display teacher in courses list
+コースリストに教師を表示する
 
-*Default: `true`*
-
+*デフォルト: `true`*
 
 ### `enable_tool_introduction`
 
-**Enable tool introduction**
+**ツールの紹介を有効にする**
 
-Enable introductions on each tool's homepage
+各ツールのホームページで紹介を有効にする
 
-*Default: `false`*
-
+*デフォルト: `false`*
 
 ### `enable_unsubscribe_button_on_my_course_page`
 
-**Show unsubscribe button in ‘My courses’**
+**「マイコース」に登録解除ボタンを表示する**
 
-Add a button to unsubscribe from a course on the ‘My courses’ page.
+「マイコース」ページにコースから登録解除するボタンを追加する
 
-*Default: `false`*
+*デフォルト: `false`*
 
 ### `example_material_course_creation`
 
-**Example material on course creation**
+**コース作成時のサンプル教材**
 
-Create example material automatically when creating a new course
+新しいコースを作成する際にサンプル教材を自動的に作成する
 
-*Default: `true`*
-
+*デフォルト: `true`*
 
 ### `hide_course_rating`
 
-**Hide course rating**
+**コース評価を非表示にする**
 
-The course rating feature comes by default in different places. If you don’t want it, enable this option.
+コース評価機能はデフォルトでさまざまな場所に表示されます。表示したくない場合は、このオプションを有効にしてください。
 
-*Default: `false`*
+*デフォルト: `false`*
 
 ### `hide_course_sidebar`
 
-**Hide courses block in the sidebar**
+**サイドバーのコースブロックを非表示にする**
 
-When on screens where the left menu is visible, do not display the « Courses » section.
+左メニューが表示される画面で「コース」セクションを表示しない
 
-*Default: `true`*
+*デフォルト: `true`*
 
 ### `multiple_access_url_show_shared_course_marker`
 
-**Show multi-URL shared course marker**
+**マルチURL共有コースマーカーを表示する**
 
-Adds a link icon to courses that are shared between URLs, so users (in particular teachers) know they have to take special care when editing the course content.
+URL間で共有されているコースにリンクアイコンを追加し、ユーザー（特に教師）がコースコンテンツを編集する際に特別な注意が必要であることを知らせます。
 
-*Default: `false`*
+*デフォルト: `false`*
 
 ### `my_courses_show_courses_in_user_language_only`
 
-**Only show courses in the user’s language**
+**ユーザーの言語のコースのみを表示する**
 
-If enabled, this option will hide all courses not set in the user’s language.
+有効にすると、ユーザーの言語に設定されていないすべてのコースが非表示になります。
 
-*Default: `false`*
+*デフォルト: `false`*
 
+---
 ### `profiling_filter_adding_users`
 
-**Filter users on profile fields on subscription to course**
+**コースへの登録時にプロフィールフィールドでユーザーをフィルタリング**
 
-Allow teachers to filter the users based on extra fields on the page to subscribe users to their course.
+教師がコースにユーザーを登録するページで、追加フィールドに基づいてユーザーをフィルタリングできるようにします。
 
-*Default: `false`*
+*デフォルト: `false`*
 
 
 ### `resource_sequence_show_dependency_in_course_intro`
 
-**Show dependencies in course intro**
+**コースのイントロに依存関係を表示**
 
-When using resources sequencing with courses or sessions, show the dependencies of the course on the course’s homepage.
+コースまたはセッションでリソースの順序付けを使用する場合、コースのホームページにコースの依存関係を表示します。
 
-*Default: `false`*
+*デフォルト: `false`*
+
 
 ### `scorm_cumulative_session_time`
 
-**Cumulative session time for SCORM**
+**SCORMの累積セッション時間**
 
-When enabled, the session time for SCORM Learning Paths will be cumulative, otherwise, it will only be counted from the last update time. This is a global setting. It is used when creating a new Learning Path but can then be redefined for each one.
+有効にすると、SCORM学習パスのセッション時間は累積されます。無効の場合、最後の更新時間からのみカウントされます。これはグローバル設定です。新しい学習パスを作成する際に使用されますが、その後各学習パスごとに再定義することができます。
 
-*Default: `true`*
+*デフォルト: `true`*
 
 
 ### `send_email_to_admin_when_create_course`
 
-**E-mail alert on course creation**
+**コース作成時のメールアラート**
 
-Send an email to the platform administrator each time a teacher creates a new course
+教師が新しいコースを作成するたびに、プラットフォーム管理者にメールを送信します。
 
-*Default: `false`*
+*デフォルト: `false`*
 
 
 ### `show_course_duration`
 
-**Show courses duration**
+**コースの期間を表示**
 
-Display the course duration next to the course title in the course catalogue and the courses list.
+コースカタログおよびコースリストで、コースタイトルの横にコースの期間を表示します。
 
-*Default: `false`*
+*デフォルト: `false`*
+
 
 ### `show_navigation_menu`
 
-**Display course navigation menu**
+**コースナビゲーションメニューを表示**
 
-Display a navigation menu that quickens access to the tools
+ツールへのアクセスを迅速化するナビゲーションメニューを表示します。
 
-*Default: `false`*
+*デフォルト: `false`*
 
 
 ### `show_toolshortcuts`
 
-**Tools shortcuts**
+**ツールのショートカット**
 
-Show the tool shortcuts in the banner?
+バナーにツールのショートカットを表示しますか？
 
-*Default: `false`*
+*デフォルト: `false`*
+
 
 ### `student_view_enabled`
 
-**Enable learner view**
+**学習者ビューを有効にする**
 
-Enable the learner view, which allows a teacher or admin to see a course as a learner would see it
+学習者ビューを有効にすると、教師または管理者が学習者としてコースを見ることができます。
 
-*Default: `true`*
+*デフォルト: `true`*
 
 
 ### `view_grid_courses`
 
-**View courses in a grid layout**
+**コースをグリッドレイアウトで表示**
 
-View courses in a layout with several courses per line. Otherwise, the layout will show one course per line.
+コースを1行に複数のコースを表示するレイアウトで表示します。無効の場合、レイアウトは1行に1つのコースを表示します。
 
-*Default: `true`*
-
+*デフォルト: `true`*

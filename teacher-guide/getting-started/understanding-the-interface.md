@@ -1,76 +1,76 @@
-# Understanding the Interface
+# インターフェースの理解
 
-Chamilo 2.0 has a clean, modern interface designed to keep navigation simple. This page explains each part of the interface in detail.
+Chamilo 2.0は、ナビゲーションをシンプルに保つために設計された、クリーンでモダンなインターフェースを備えています。このページでは、インターフェースの各部分を詳細に説明します。
 
-## The Top Bar
+## トップバー
 
-![The top bar with annotated elements including logo, inbox, support ticket, and user avatar](/.gitbook/assets/top-bar-annotated.png)
+![トップバーに注釈が付いた要素（ロゴ、受信トレイ、サポートチケット、ユーザーのアバター）](/.gitbook/assets/top-bar-annotated.png)
 
-The top bar is always visible at the top of every page. It contains:
+トップバーはすべてのページの上部に常に表示されています。以下の内容が含まれています：
 
-* **Platform logo** — Click it to return to the home page at any time.
-* **Inbox icon** <img src="/.gitbook/assets/icons/mdi-inbox.svg" alt="Inbox" data-size="line"> — Shows your messages. A red badge indicates unread messages. Click to open your inbox.
-* **Support ticket icon** <img src="/.gitbook/assets/icons/mdi-ticket-account.svg" alt="Support" data-size="line"> — If enabled by your administrator, this gives you access to the support ticket system.
-* **Your avatar** — A circular image in the top-right corner. Click it to open a dropdown menu with links to your profile, account settings, and sign-out.
+* **プラットフォームロゴ** — クリックすると、いつでもホームページに戻ることができます。
+* **受信トレイアイコン** <img src="/.gitbook/assets/icons/mdi-inbox.svg" alt="受信トレイ" data-size="line"> — メッセージを表示します。赤いバッジは未読メッセージを示します。クリックすると受信トレイが開きます。
+* **サポートチケットアイコン** <img src="/.gitbook/assets/icons/mdi-ticket-account.svg" alt="サポート" data-size="line"> — 管理者によって有効にされている場合、サポートチケットシステムにアクセスできます。
+* **あなたのアバター** — 右上隅にある円形の画像です。クリックすると、プロフィール、アカウント設定、サインアウトへのリンクが含まれたドロップダウンメニューが開きます。
 
-## The Sidebar
+## サイドバー
 
-The sidebar on the left is your main navigation. It can be collapsed to give more space to the content area. Click the toggle arrow at its right edge to expand or collapse it. Chamilo remembers your preference.
+左側のサイドバーは主要なナビゲーションです。コンテンツエリアにスペースを確保するために折り畳むことができます。右端のトグル矢印をクリックすると、展開または折り畳みが可能です。Chamiloはあなたの設定を記憶します。
 
-The sidebar contains the following links (some may be hidden depending on your platform's configuration):
+サイドバーには以下のリンクが含まれています（プラットフォームの設定によっては一部が非表示になる場合があります）：
 
-![The sidebar navigation panel in its expanded state showing all menu items](/.gitbook/assets/sidebar-expanded.png)
+![展開状態のサイドバーナビゲーションパネルにすべてのメニュー項目が表示されている](/.gitbook/assets/sidebar-expanded.png)
 
-| Menu item | Icon | Description |
+| メニュー項目 | アイコン | 説明 |
 |-----------|------|-------------|
-| **Home** | <img src="/.gitbook/assets/icons/mdi-home.svg" alt="Home" data-size="line"> | Returns to the main dashboard |
-| **My courses** | <img src="/.gitbook/assets/icons/mdi-book-open-page-variant.svg" alt="Courses" data-size="line"> | Lists all courses you are enrolled in |
-| **My sessions** | <img src="/.gitbook/assets/icons/mdi-google-classroom.svg" alt="Sessions" data-size="line"> | Lists your training sessions (current, past, upcoming) |
-| **Explore more courses** | <img src="/.gitbook/assets/icons/mdi-bookmark-multiple.svg" alt="Catalogue" data-size="line"> | Browse the course catalog to find new courses |
-| **Agenda** | <img src="/.gitbook/assets/icons/mdi-calendar-text.svg" alt="Agenda" data-size="line"> | Your personal and course calendar |
-| **Reporting** | <img src="/.gitbook/assets/icons/mdi-chart-box.svg" alt="Reporting" data-size="line"> | Access learner tracking and course reports |
-| **Social network** | <img src="/.gitbook/assets/icons/mdi-sitemap-outline.svg" alt="Social network" data-size="line"> | Connect with other users, send messages, join groups |
-| **Videoconference** | <img src="/.gitbook/assets/icons/mdi-video.svg" alt="Video" data-size="line"> | Access live video sessions (if configured) |
-| **Administration** | <img src="/.gitbook/assets/icons/mdi-cogs.svg" alt="Admin" data-size="line"> | Platform administration (visible only to admins) |
+| **ホーム** | <img src="/.gitbook/assets/icons/mdi-home.svg" alt="ホーム" data-size="line"> | メインダッシュボードに戻ります |
+| **マイコース** | <img src="/.gitbook/assets/icons/mdi-book-open-page-variant.svg" alt="コース" data-size="line"> | 登録しているすべてのコースを一覧表示します |
+| **マイセッション** | <img src="/.gitbook/assets/icons/mdi-google-classroom.svg" alt="セッション" data-size="line"> | トレーニングセッション（現在、過去、予定）を一覧表示します |
+| **さらにコースを探す** | <img src="/.gitbook/assets/icons/mdi-bookmark-multiple.svg" alt="カタログ" data-size="line"> | コースカタログを閲覧して新しいコースを見つけます |
+| **アジェンダ** | <img src="/.gitbook/assets/icons/mdi-calendar-text.svg" alt="アジェンダ" data-size="line"> | 個人およびコースのカレンダー |
+| **レポート** | <img src="/.gitbook/assets/icons/mdi-chart-box.svg" alt="レポート" data-size="line"> | 学習者の追跡やコースレポートにアクセスします |
+| **ソーシャルネットワーク** | <img src="/.gitbook/assets/icons/mdi-sitemap-outline.svg" alt="ソーシャルネットワーク" data-size="line"> | 他のユーザーとつながり、メッセージを送信し、グループに参加します |
+| **ビデオ会議** | <img src="/.gitbook/assets/icons/mdi-video.svg" alt="ビデオ" data-size="line"> | ライブビデオセッションにアクセスします（設定されている場合） |
+| **管理** | <img src="/.gitbook/assets/icons/mdi-cogs.svg" alt="管理者" data-size="line"> | プラットフォームの管理（管理者のみに表示） |
 
-At the very bottom of the sidebar, you will find a **Sign out** option to quickly sign out when you're done. This option is also available from your avatar icon's drop-down menu on the top-right corner.
-If the platform is managed through external authentication methods, these signing out options might not be available.
+サイドバーの一番下には、作業が終了した際に素早くサインアウトするための**サインアウト**オプションがあります。このオプションは、右上隅のアバターアイコンのドロップダウンメニューからも利用可能です。
+プラットフォームが外部認証方式で管理されている場合、これらのサインアウトオプションが利用できない場合があります。
 
-## The Main Content Area
+## メインコンテンツエリア
 
-The central area of the screen displays the content of the current page. At the top, you will often see a **breadcrumb trail** showing your current location in the platform (for example: Home > Rock music > Documents). Use the breadcrumbs to navigate back to a parent page.
+画面の中央エリアには、現在のページのコンテンツが表示されます。上部には、プラットフォーム内での現在位置を示す**パンくずリスト**がよく表示されます（例：ホーム > ロックミュージック > ドキュメント）。パンくずリストを使用して、親ページに戻ることができます。
 
-## The Course Homepage
+## コースホームページ
 
-When you enter a course, you see the **course homepage**. This is covered in detail in the [Creating Your Course](../creating-your-course/) section, but here is a quick overview:
+コースに入ると、**コースホームページ**が表示されます。これは[コースの作成](../creating-your-course/)セクションで詳しく説明されていますが、簡単な概要を以下に示します：
 
-* **Course title** — Displayed prominently at the top
-* **Course introduction** — An optional rich-text description that you can edit
-* **Tool grid** — A grid of icons representing the course tools (Documents, Exercises, Forums, etc.)
+* **コースタイトル** — 上部に目立つように表示されます
+* **コース紹介** — 編集可能なオプションのリッチテキスト説明
+* **ツールグリッド** — コースツール（ドキュメント、演習、フォーラムなど）を表すアイコンのグリッド
 
-As a teacher, you will see additional controls:
+教師として、以下の追加のコントロールが表示されます：
 
-* **Student view** <img src="/.gitbook/assets/icons/mdi-eye.svg" alt="Student view" data-size="line"> — Toggle this to see the course as a student would see it
-* **Edit introduction** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Edit" data-size="line"> — Edit the course introduction text
-* **Show all / Hide all** — Quickly change the visibility of all tools for students
-* **Sort** — Enable drag-and-drop to reorder the tools on the homepage
+* **学生ビュー** <img src="/.gitbook/assets/icons/mdi-eye.svg" alt="学生ビュー" data-size="line"> — これを切り替えると、学生が見るコースの表示を確認できます
+* **紹介の編集** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="編集" data-size="line"> — コース紹介テキストを編集します
+* **すべて表示 / すべて非表示** — 学生に対するすべてのツールの表示/非表示を素早く変更します
+* **並べ替え** — ドラッグアンドドロップを有効にして、ホームページ上のツールを並べ替えます
 
-## Icon colors
+## アイコンの色
 
-This is still experimental and not entirely complete in Chamilo 2.0, but we're trying to use the following rules for all buttons and action icons in the interface:
+これはまだ実験的なもので、Chamilo 2.0 では完全には完成していませんが、インターフェース内のすべてのボタンやアクションアイコンに対して以下のルールを適用しようとしています：
 
-* **Green** for creation actions. This includes adding, creating, importing, grading, saving and copying content.
-* **Blue** for view actions. This includes exporting, viewing, pre-viewing in lists or in detail views, searching and downloading.
-* **Orange** for editing actions. This includes editing, moving, configuring, enabling/disabling, hiding and showing.
-* **Red** for deletion/removal actions. This includes deleting, removing, unsubscribing.
-* **Grey** for cancelling actions. Just leaving things in the status quo.
+* **緑色**：作成アクション用。追加、作成、インポート、採点、保存、コンテンツのコピーなどが含まれます。
+* **青色**：閲覧アクション用。エクスポート、閲覧、リストや詳細ビューでのプレビュー、検索、ダウンロードなどが含まれます。
+* **オレンジ色**：編集アクション用。編集、移動、設定、有効化/無効化、非表示/表示などが含まれます。
+* **赤色**：削除/除去アクション用。削除、除去、登録解除などが含まれます。
+* **灰色**：キャンセルアクション用。現状を維持するだけの操作です。
 
-## Responsive Design
+## レスポンシブデザイン
 
-Chamilo 2.0 adapts to different screen sizes. On a mobile device or narrow browser window:
+Chamilo 2.0 は異なる画面サイズに適応します。モバイルデバイスや狭いブラウザウィンドウでは：
 
-* The sidebar is hidden by default and can be opened by tapping the menu icon
-* Course cards display in a single column instead of a grid
-* Tables become scrollable horizontally
+* サイドバーはデフォルトで非表示になっており、メニューアイコンをタップすることで開くことができます
+* コースカードはグリッドではなく単一の列で表示されます
+* テーブルは水平方向にスクロール可能になります
 
-This means you and your learners can access the platform from a phone, tablet, or computer, but you might experience the interface slightly differently.
+これは、あなたや学習者がスマートフォン、タブレット、コンピュータからプラットフォームにアクセスできることを意味しますが、インターフェースの体験が若干異なる場合があります。

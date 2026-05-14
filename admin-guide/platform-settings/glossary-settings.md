@@ -1,32 +1,31 @@
-# Glossary Settings
+# 用語集設定
 
-Behaviour of the course **Glossary** tool.
+コースの**用語集**ツールの動作設定。
 
-Access these settings under **Administration > Configuration settings > Glossary**. This category contains **3 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+これらの設定には、**管理 > 設定 > 用語集**からアクセスできます。このカテゴリには**3つの設定**が含まれており、以下にプラットフォームの設定フィクスチャ（`SettingsCurrentFixtures.php`）に記載されているタイトルとコメントとともにリストアップされています。
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> コード内の変数名は等幅フォントで表示されています。APIを通じてスクリプトを作成する場合や、[`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml)を編集してこれらの設定をグローバルレベルで変更する必要がある場合に使用してください。
 
-## Settings
+## 設定
 
 ### `allow_remove_tags_in_glossary_export`
 
-**Remove HTML tags in glossary export**
+**用語集エクスポート時にHTMLタグを削除**
 
-When enabled, HTML tags are removed from glossary term definitions when exporting.
+有効にすると、用語集の用語定義からHTMLタグがエクスポート時に削除されます。
 
-*Default: `false`*
+*デフォルト: `false`*
 
 ### `default_glossary_view`
 
-**Default glossary view**
+**デフォルトの用語集表示**
 
-Choose which view ('table' or 'list') will be used by default in the glossary tool.
+用語集ツールでデフォルトとして使用される表示形式（'table' または 'list'）を選択します。
 
-*Default: `table`*
+*デフォルト: `table`*
 
 ### `show_glossary_in_extra_tools`
 
-**Show the glossary terms in extra tools**
+**追加ツールで用語集の用語を表示**
 
-From here you can configure how to add the glossary terms in extra tools as learning path and exercice tool
-
+ここから、学習パスや演習ツールなどの追加ツールに用語集の用語を追加する方法を設定できます。

@@ -1,43 +1,43 @@
-# Agenda
+# アジェンダ
 
-The agenda tool lets you schedule events and deadlines within your course. Events appear on a calendar that your learners can view.
+アジェンダツールを使用すると、コース内でイベントや締め切りをスケジュールすることができます。イベントは生徒が閲覧可能なカレンダーに表示されます。
 
-## Viewing the Agenda
+## アジェンダの表示
 
-Open the **Agenda** <img src="/.gitbook/assets/icons/mdi-calendar-text.svg" alt="Agenda" data-size="line"> tool from the course homepage. You can view events in three modes:
+コースのホームページから**アジェンダ**ツール <img src="/.gitbook/assets/icons/mdi-calendar-text.svg" alt="アジェンダ" data-size="line"> を開きます。イベントは以下の3つのモードで表示できます：
 
-![The agenda in calendar view showing course events and deadlines](/.gitbook/assets/agenda-calendar-view.png)
+![コースのイベントと締め切りを示すカレンダー表示のアジェンダ](/.gitbook/assets/agenda-calendar-view.png)
 
-* **Calendar view** — A visual monthly/weekly/daily calendar
-* **List view** — Events shown as a chronological list
-* **Personal events** — Filter to see only events relevant to you
+* **カレンダー表示** — 月間/週間/日間の視覚的なカレンダー
+* **リスト表示** — 時系列のリストとして表示されるイベント
+* **個人イベント** — 自分に関連するイベントのみをフィルタリングして表示
 
-## Creating an Event
+## イベントの作成
 
-1. Click **Add event** <img src="/.gitbook/assets/icons/mdi-calendar-plus.svg" alt="Add event" data-size="line">
-2. Fill in the event details:
-   * **Title** — A short name for the event
-   * **Start date and time**
-   * **End date and time**
-   * **Description** — Additional details (supports rich text)
-3. Choose the **audience**:
-   * **All learners** — Everyone enrolled in the course
-   * **Specific users or groups** — Select individual learners or groups
-4. Optionally set a **reminder** <img src="/.gitbook/assets/icons/mdi-alarm.svg" alt="Reminder" data-size="line"> to send email notifications before the event (*cron* setup for the portal required by an admin)
-5. Save
+1. **イベントを追加** <img src="/.gitbook/assets/icons/mdi-calendar-plus.svg" alt="イベントを追加" data-size="line"> をクリックします
+2. イベントの詳細を入力します：
+   * **タイトル** — イベントの短い名前
+   * **開始日時**
+   * **終了日時**
+   * **説明** — 追加の詳細（リッチテキスト対応）
+3. **対象者**を選択します：
+   * **すべての生徒** — コースに登録している全員
+   * **特定のユーザーまたはグループ** — 個々の生徒またはグループを選択
+4. 必要に応じて、**リマインダー** <img src="/.gitbook/assets/icons/mdi-alarm.svg" alt="リマインダー" data-size="line"> を設定し、イベント前にメール通知を送信します（ポータルの管理者による*cron*設定が必要です）
+5. 保存します
 
-## Managing Events
+## イベントの管理
 
-* **Edit** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Edit" data-size="line"> — Click on an event to modify its details
-* **Delete** <img src="/.gitbook/assets/icons/mdi-delete.svg" alt="Delete" data-size="line"> — Remove an event from the calendar
-* **Drag and drop** — In calendar view, drag events to reschedule them
+* **編集** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="編集" data-size="line"> — イベントをクリックして詳細を変更します
+* **削除** <img src="/.gitbook/assets/icons/mdi-delete.svg" alt="削除" data-size="line"> — カレンダーからイベントを削除します
+* **ドラッグ＆ドロップ** — カレンダー表示でイベントをドラッグして再スケジュールします
 
-## Personal Agenda
+## 個人アジェンダ
 
-You also have a **personal agenda** accessible from the sidebar. The personal agenda aggregates events from all your courses into a single view. This is where learners see their combined schedule across all courses they are enrolled in.
+サイドバーからアクセスできる**個人アジェンダ**もあります。個人アジェンダは、すべてのコースのイベントを1つのビューに集約します。生徒はここで、登録しているすべてのコースのスケジュールをまとめて確認できます。
 
-## Tips
+## ヒント
 
-* **Set deadlines** — Create events for assignment due dates and exercise deadlines so learners can see them in their calendar
-* **Use reminders** — Enable email reminders for important events to help learners stay on track
-* **Coordinate with sessions** — If you teach in multiple sessions, each session has its own events, visible only to that session's learners. Teachers have a feature to see the events (homeworks, excursions, etc) of other courses in their sessions to avoid overloading students.
+* **締め切りを設定する** — 課題の提出期限や演習の締め切りをイベントとして作成し、生徒がカレンダーで確認できるようにします
+* **リマインダーを活用する** — 重要なイベントにメールリマインダーを有効にして、生徒が予定通りに進めるようサポートします
+* **セッションと調整する** — 複数のセッションで教えている場合、各セッションには独自のイベントがあり、そのセッションの生徒のみが閲覧可能です。教師には、他のコースのイベント（課題、遠足など）をセッション内で確認する機能があり、生徒に過剰な負担をかけないように調整できます

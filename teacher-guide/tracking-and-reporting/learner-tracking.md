@@ -1,46 +1,46 @@
-# Learner Tracking
+# 学習者追跡
 
-Chamilo tracks learner activity throughout the platform, giving you detailed insights into how each learner is engaging with your course.
+Chamiloはプラットフォーム全体で学習者の活動を追跡し、各学習者がコースにどのように関与しているかについての詳細な洞察を提供します。
 
-## Accessing Learner Tracking
+## 学習者追跡へのアクセス
 
-Open the **Tracking** <img src="/.gitbook/assets/icons/mdi-chart-box.svg" alt="Tracking" data-size="line"> tool from the course homepage, or click **Reporting** in the sidebar.
+コースのホームページから**追跡** <img src="/.gitbook/assets/icons/mdi-chart-box.svg" alt="追跡" data-size="line"> ツールを開くか、サイドバーの**レポート**をクリックしてください。
 
-## What Is Tracked
+## 追跡される内容
 
-For each learner, Chamilo records (in the main per-learner tracking view):
+各学習者について、Chamiloは（主な学習者ごとの追跡ビューで）以下を記録します：
 
-* **Login activity** — When the learner last logged in and their total login time
-* **Time spent in the course** — Total time the learner has spent in your course
-* **First and last access** — When the learner first entered and last visited the course
-* **Course progress** — Aggregate progress percentage across the course
-* **Exercise results** — Scores and attempts for each exercise
-* **Learning path progress** — Completion percentage and time spent on each learning path
-* **Assignment submissions** — Which assignments have been submitted and graded
+* **ログイン活動** — 学習者が最後にログインした時刻と総ログイン時間
+* **コースでの滞在時間** — 学習者がコースに費やした総時間
+* **初回および最終アクセス** — 学習者が最初にコースに入った時刻と最後に訪れた時刻
+* **コースの進捗状況** — コース全体の進捗率の集計
+* **演習結果** — 各演習のスコアと試行回数
+* **学習パスの進捗状況** — 各学習パスの完了率と費やした時間
+* **課題の提出状況** — 提出および評価された課題
 
-Per-resource access details (which specific documents or pages a learner opened) and tool-level activity are available through the dedicated **Resources**, **Tools**, and **Events** views in the tracking section, rather than in the main learner row.
+リソースごとのアクセス詳細（学習者が開いた特定のドキュメントやページ）やツールレベルの活動は、メインの学習者行ではなく、追跡セクションの専用ビューである**リソース**、**ツール**、および**イベント**を通じて確認できます。
 
-## Viewing Individual Learner Data
+## 個々の学習者データの表示
 
-![Detailed learner tracking view showing progress, scores, and activity timeline](/.gitbook/assets/tracking-learner-detail.png)
+![進捗状況、スコア、活動タイムラインを示す詳細な学習者追跡ビュー](/.gitbook/assets/tracking-learner-detail.png)
 
-Click on a learner's name to see their detailed activity report. This shows:
+学習者の名前をクリックすると、詳細な活動レポートが表示されます。これには以下が含まれます：
 
-* A summary of their overall engagement
-* Progress through each learning path
-* Exercise scores and attempt history
-* Assignment submission status
+* 全体的な関与の概要
+* 各学習パスの進捗状況
+* 演習のスコアと試行履歴
+* 課題の提出状況
 
-## Tracking Views
+## 追跡ビュー
 
-You can view tracking data from different perspectives:
+追跡データを異なる視点から見ることができます：
 
-* **By learner** — Select a learner to see all their activity
-* **By resource** — Select a document, exercise, or learning path to see how all learners interacted with it
-* **By tool** — See aggregate usage for each course tool
+* **学習者別** — 学習者を選択してすべての活動を確認
+* **リソース別** — ドキュメント、演習、または学習パスを選択して、すべての学習者がどのように関与したかを確認
+* **ツール別** — 各コースツールの集計使用状況を確認
 
-## Tips
+## ヒント
 
-* **Identify struggling learners** — Look for learners with low engagement, multiple failed exercise attempts, or incomplete learning paths
-* **Monitor progress regularly** — Check tracking data weekly to spot issues early
-* **Use data for feedback** — Share relevant tracking data with learners to help them understand their own progress
+* **苦戦している学習者を特定する** — 関与が低い、演習の試行に何度も失敗している、または学習パスが未完了の学習者を探す
+* **進捗状況を定期的に監視する** — 問題を早期に発見するために、追跡データを毎週確認する
+* **フィードバックにデータを使用する** — 学習者自身の進捗状況を理解する手助けとして、関連する追跡データを学習者と共有する

@@ -1,50 +1,50 @@
-# Certificates and Skills
+# 証明書とスキル
 
-Chamilo allows you to award certificates to learners who meet specific achievement criteria, and to validate skills associated with those achievements.
+Chamiloでは、特定の達成基準を満たした学習者に証明書を授与し、それらの達成に関連するスキルを検証することができます。
 
-## How Certificates Work
+## 証明書の仕組み
 
-Certificates are linked to the **Assessments** (also called Gradebook). When a learner's grade meets or exceeds the minimum threshold you define, a certificate becomes available for them to download.
+証明書は**評価（Gradebookとも呼ばれる）**にリンクされています。学習者の成績があなたが定義した最低基準を満たすか超えると、証明書がダウンロード可能になります。
 
-The workflow is:
+ワークフローは以下の通りです：
 
-1. Set up the [Assessments](../assessing-learners/gradebook.md) with your exercises, assignments, and other graded activities
-2. Define a **minimum certification score** (e.g., 70%)
-3. When a learner reaches that score, they can download their certificate (either within the Assessments tool itself, or from a learning path if you've configured the final step for that). As a teacher, you can also use the **Generate certificates** action in the gradebook to create the PDFs in batch for all eligible learners.
+1. 演習、課題、その他の採点対象の活動を含む[評価](../assessing-learners/gradebook.md)を設定する
+2. **最低認定スコア**（例：70%）を定義する
+3. 学習者がそのスコアに達すると、証明書をダウンロードできるようになります（評価ツール内、または学習パスで最終ステップを設定している場合はそこから）。教師としては、Gradebookで**証明書を生成**アクションを使用して、対象となるすべての学習者のPDFを一括で作成することもできます。
 
-## Certificate Templates
+## 証明書テンプレート
 
-Certificates use templates defined by the platform administrator. The template typically includes:
+証明書はプラットフォーム管理者によって定義されたテンプレートを使用します。テンプレートには通常以下が含まれます：
 
-* The learner's name
-* The course name
-* The date of completion
-* The score achieved
-* A QR code or URL for online verification
+* 学習者の名前
+* コース名
+* 完了日
+* 達成したスコア
+* オンライン検証用のQRコードまたはURL
 
-## Skills
+## スキル
 
-Skills represent competencies that learners acquire. In Chamilo:
+スキルは学習者が習得した能力を表します。Chamiloでは：
 
-* Skills can be linked to gradebook achievements
-* When a learner earns a certificate, any associated skills are automatically validated
-* Skills accumulate on the learner's profile, creating a competency record
-* Skills can be organized hierarchically (e.g., "Data Analysis" under "Research Methods")
-* Skills can be further evaluated by peers (360° evaluation)
+* スキルはGradebookの達成とリンクすることができます
+* 学習者が証明書を取得すると、関連するスキルが自動的に検証されます
+* スキルは学習者のプロフィールに蓄積され、能力の記録が作成されます
+* スキルは階層的に整理できます（例：「研究方法」の下に「データ分析」）
+* スキルはさらにピア（360度評価）によって評価されることがあります
 
-## Viewing Certificate and Skill Status
+## 証明書とスキルの状況の確認
 
-As a teacher, you can see:
+教師として、以下を確認できます：
 
-* Which learners have earned certificates in your course
-* Which skills have been validated
-* Learners' progress toward the certification threshold
+* コース内で証明書を取得した学習者は誰か
+* どのスキルが検証されたか
+* 認定基準に向けた学習者の進捗状況
 
-Learners can view their own certificates and validated skills from their profile, and can access the Skills Wheel to check what skills are in demand in their organisation.
+学習者は自分のプロフィールから自身の証明書と検証済みのスキルを確認でき、スキルのホイールにアクセスして組織内で需要のあるスキルをチェックすることができます。
 
-## Tips
+## ヒント
 
-* **Set clear expectations** — Tell learners at the start of the course what they need to achieve to earn a certificate
-* **Use meaningful skill names** — Skills should describe what the learner can do, not just the course name
-* **Combine with portfolios** — Encourage learners to add their certificates to their portfolio
-* **Extend certificates** — Ask your admin to enable the Custom Certificate plugin to unleash even more certificate templating power 
+* **明確な期待を設定する** — コースの開始時に、証明書を取得するために何を達成する必要があるかを学習者に伝えてください
+* **意味のあるスキル名を使用する** — スキルは学習者が何ができるかを記述するもので、単なるコース名であってはなりません
+* **ポートフォリオと組み合わせる** — 学習者に証明書をポートフォリオに追加するよう促してください
+* **証明書を拡張する** — 管理者に対してCustom Certificateプラグインを有効にするよう依頼し、さらに多くの証明書テンプレートの力を引き出してください

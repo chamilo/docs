@@ -1,103 +1,105 @@
-# Documents
+# ドキュメント
 
-The documents tool is your course's file repository. You can upload files, create documents in HTML format, organize content into folders, and give learners access to all the materials they need.
+ドキュメントツールは、コースのファイルリポジトリです。ファイルをアップロードしたり、HTML形式のドキュメントを作成したり、フォルダでコンテンツを整理したり、学生が必要なすべての教材にアクセスできるようにすることができます。
 
-## Accessing the Documents Tool
+## ドキュメントツールへのアクセス
 
-Open the **Documents** <img src="/.gitbook/assets/icons/mdi-bookshelf.svg" alt="Documents" data-size="line"> tool from the course homepage. You will see a file browser showing the root folder of your course's document library.
+コースのホームページで**ドキュメント** <img src="/.gitbook/assets/icons/mdi-bookshelf.svg" alt="ドキュメント" data-size="line"> ツールを開きます。コースのドキュメントライブラリのルートフォルダを表示するファイルブラウザが表示されます。
 
-![The documents file browser showing folders and files with action icons](/.gitbook/assets/documents-file-browser.png)
+![フォルダとファイルをアクションアイコンとともに表示するドキュメントファイルブラウザ](/.gitbook/assets/documents-file-browser.png)
 
-## Uploading Files
+## ファイルのアップロード
 
-1. Click the **Upload** <img src="/.gitbook/assets/icons/mdi-upload.svg" alt="Upload" data-size="line"> button
-2. Select one or more files from your computer (you can drag and drop files into the upload area)
-3. The files are uploaded and appear in the current folder
+1. **アップロード** ボタンをクリックします <img src="/.gitbook/assets/icons/mdi-upload.svg" alt="アップロード" data-size="line">
+2. コンピュータから1つまたは複数のファイルを選択します（ファイルをアップロードエリアにドラッグ＆ドロップすることも可能です）
+3. ファイルがアップロードされ、現在のフォルダに表示されます
 
-Chamilo supports most common file types: PDF, office documents (.docx, .odt), presentations (.pptx, .odp), spreadsheets (.xlsx, .ods), images (PNG, JPG, SVG, GIF), audio files, video files (including WEBM), HTML files, and more.
+Chamiloは、PDF、オフィスドキュメント（.docx、.odt）、プレゼンテーション（.pptx、.odp）、スプレッドシート（.xlsx、.ods）、画像（PNG、JPG、SVG、GIF）、音声ファイル、動画ファイル（WEBMを含む）、HTMLファイルなど、ほとんどの一般的なファイル形式をサポートしています。
 
-Some formats might be forbidden by the portal administrator through a whitelist/blacklist filtering setting in the security section of the administration.
+ポータル管理者が管理セクションのセキュリティ設定でホワイトリスト/ブラックリストフィルターを設定することで、一部の形式が禁止される場合があります。
 
-For better readability by learners, we do recommend uploading files a browser can view or open without additional tools. This makes your course more portable and, as such, more accessible to mobile devices and more readable for people with special abilities.
+学生にとって読みやすさを向上させるため、ブラウザで追加のツールなしに表示または開くことができるファイルをアップロードすることをお勧めします。これにより、コースのポータビリティが向上し、モバイルデバイスでのアクセスが容易になり、特別なニーズを持つ人々にとっても読みやすくなります。
 
-## Creating Content
+## コンテンツの作成
 
-In addition to uploading files, you can create content directly in Chamilo:
+ファイルをアップロードするだけでなく、Chamilo内で直接コンテンツを作成することもできます：
 
-### Web Pages
+### ウェブページ
 
-1. Click **New document**
-2. Use the rich-text editor to write your content with formatting, images, tables, and links
-3. Enter a **title** for the page
-4. Save
+1. **新しいドキュメント** をクリックします
+2. リッチテキストエディタを使用して、書式設定、画像、表、リンクを含むコンテンツを作成します
+3. ページの**タイトル**を入力します
+4. 保存します
 
-The rich-text editor (TinyMCE) provides word-processor-like features including:
+リッチテキストエディタ（TinyMCE）は、ワードプロセッサに似た機能を提供します。以下が含まれます：
 
-* Text formatting (bold, italic, headings, lists)
-* Tables
-* Images (upload or link to existing images)
-* Embedded videos and audio
-* Links to other resources
-* HTML source editing for advanced users
+* テキストの書式設定（太字、斜体、見出し、リスト）
+* 表
+* 画像（アップロードまたは既存の画像へのリンク）
+* 埋め込み動画および音声
+* 他のリソースへのリンク
+* 上級ユーザー向けのHTMLソースコード編集
 
-### AI media generation
+### AIによるメディア生成
 
-When AI helpers are enabled on the platform, you can ask the AI to generate an **image** or a **short video** to illustrate a paragraph in the document you are editing. Select a paragraph, open the **Generate AI media** dialog, and the AI will produce a media item that you can review and insert. The dialog respects course-level permissions and only appears in courses where AI media generation is allowed.
+プラットフォームでAIアシスタントが有効になっている場合、編集中のドキュメント内の段落を説明するための**画像**や**短い動画**をAIに生成するようリクエストできます。段落を選択し、**AIによるメディア生成**ダイアログを開くと、AIがメディアアイテムを生成し、確認して挿入することができます。このダイアログはコースレベルの権限を尊重し、AIによるメディア生成が許可されているコースでのみ表示されます。
 
-### Audio Recording
+### 音声録音
 
-If your browser supports it, you can record audio directly within the documents tool — useful for creating audio instructions or language learning content. This requires an HTTPS configuration for Chamilo, as audio recording uses technology that the browser only allows if the connection is secure.
+ブラウザが対応している場合、ドキュメントツール内で直接音声を録音することができます。これは、音声指示や言語学習用のコンテンツを作成する際に便利です。音声録音にはChamiloがHTTPS設定されている必要があります。録音機能は、ブラウザが安全な接続でのみ許可する技術を使用しているためです。
 
-## Organizing with Folders
+## フォルダでの整理
 
-Keep your document library organized using folders:
+ドキュメントライブラリを整理するためにフォルダを使用してください：
 
-1. Click **New folder** <img src="/.gitbook/assets/icons/mdi-folder-plus.svg" alt="New folder" data-size="line">
-2. Enter a folder name
-3. Save
+1. **新しいフォルダ** をクリックします <img src="/.gitbook/assets/icons/mdi-folder-plus.svg" alt="新しいフォルダ" data-size="line">
+2. フォルダ名を入力します
+3. 保存します
 
-You can create nested folders to build a logical content hierarchy (e.g., `Module 1 > Week 1 > Readings`).
+コンテンツの論理的な階層を構築するために、ネストしたフォルダを作成することができます（例：`モジュール1 > 週1 > 読み物`）。
 
-### Moving Files
+### ファイルの移動
 
-* Locate your file in the list
-* Click **Move** <img src="/.gitbook/assets/icons/mdi-folder-move.svg" alt="Move" data-size="line">
-* Select the destination folder
-* Confirm
+* リスト内でファイルを見つけます
+* **移動** をクリックします <img src="/.gitbook/assets/icons/mdi-folder-move.svg" alt="移動" data-size="line">
+* 移動先のフォルダを選択します
+* 確認します
 
-## Managing Documents
+---
+## ドキュメントの管理
 
-For each file or folder, you can:
+各ファイルまたはフォルダに対して、以下の操作が可能です：
 
-| Action | Icon | Description |
-|--------|------|-------------|
-| **Edit** | <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Edit" data-size="line"> | Rename the file or edit its content (for web pages) |
-| **Delete** | <img src="/.gitbook/assets/icons/mdi-delete.svg" alt="Delete" data-size="line"> | Remove the file or folder |
-| **Download** | <img src="/.gitbook/assets/icons/mdi-download-box.svg" alt="Download" data-size="line"> | Download the file to your computer |
-| **Visibility** | <img src="/.gitbook/assets/icons/mdi-eye.svg" alt="Visibility" data-size="line"> | Hide or show the file to learners |
-| **Replace** | <img src="/.gitbook/assets/icons/mdi-file-replace.svg" alt="Replace" data-size="line"> | Replace the file with an updated version |
-| **Move** | <img src="/.gitbook/assets/icons/mdi-folder-move.svg" alt="Move" data-size="line"> | Move to a different folder |
+| アクション | アイコン | 説明 |
+|------|-------|-----------|
+| **編集** | <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="編集" data-size="line"> | ファイル名を変更したり、内容を編集したりします（ウェブページの場合） |
+| **削除** | <img src="/.gitbook/assets/icons/mdi-delete.svg" alt="削除" data-size="line"> | ファイルまたはフォルダを削除します |
+| **ダウンロード** | <img src="/.gitbook/assets/icons/mdi-download-box.svg" alt="ダウンロード" data-size="line"> | ファイルをコンピュータにダウンロードします |
+| **表示設定** | <img src="/.gitbook/assets/icons/mdi-eye.svg" alt="表示設定" data-size="line"> | ファイルを生徒に表示または非表示にします |
+| **置換** | <img src="/.gitbook/assets/icons/mdi-file-replace.svg" alt="置換" data-size="line"> | ファイルを更新版に置き換えます |
+| **移動** | <img src="/.gitbook/assets/icons/mdi-folder-move.svg" alt="移動" data-size="line"> | 別のフォルダに移動します |
 
-Replacing a file is an important feature when you use documents to build learning paths, as replacing the document will allow the document to be refreshed without learners loosing the progress saved for that document.
+ファイルを置換する機能は、学習パスを構築するためにドキュメントを使用している場合に重要な機能です。ドキュメントを置換することで、生徒がそのドキュメントに対して保存した進捗を失うことなく更新が可能です。
 
-### Bulk Actions
+### 一括操作
 
-Select multiple files using checkboxes, then use the toolbar to delete or download all selected items at once.
+チェックボックスを使用して複数のファイルを選択し、ツールバーを使用して選択したすべてのアイテムを一度に削除またはダウンロードすることができます。
 
-## OnlyOffice Integration
+---
+## OnlyOfficeとの統合
 
-If your administrator has configured the **OnlyOffice** plugin, you can edit Word, Excel, and PowerPoint (or LibreOffice) files directly in the browser without downloading them. Look for the **Edit with OnlyOffice** <img src="/.gitbook/assets/icons/mdi-file-document-edit-outline.svg" alt="OnlyOffice" data-size="line"> option when viewing a supported file.
+管理者が**OnlyOffice**プラグインを設定している場合、Word、Excel、PowerPoint（またはLibreOffice）のファイルをダウンロードせずにブラウザ内で直接編集することができます。対応するファイルを表示する際に、**OnlyOfficeで編集**オプション <img src="/.gitbook/assets/icons/mdi-file-document-edit-outline.svg" alt="OnlyOffice" data-size="line"> を探してください。
 
-Documents are stored in Chamilo, OnlyOffice is only used to **view** or edit the documents in the browser, without the need for any additional tool.
+ドキュメントはChamiloに保存されており、OnlyOfficeはブラウザ内での**表示**や編集にのみ使用され、追加のツールを必要としません。
 
-## Cloud Files
+## クラウド上のファイル
 
-If you use cloud storage (Azure Blob, AWS S3, or Google Cloud) for your files, these are stored in the cloud but you can link them from here. This is transparent to you and your learners — the document tool works the same way regardless of the storage backend.
+ファイルの保存にクラウドストレージ（Azure Blob、AWS S3、またはGoogle Cloud）を使用している場合、ファイルはクラウドに保存されますが、ここからリンクすることができます。これはあなたや生徒にとって透過的であり、ストレージのバックエンドに関係なく、ドキュメントツールは同じように機能します。
 
-## Tips
+## ヒント
 
-* **Organize early** — Create your folder structure before uploading content so you don't have to reorganize later. If you have created other courses with the right structure, you can use those courses as template later on
-* **Use descriptive file names** — Help learners find what they need with clear, meaningful names
-* **Hide work-in-progress** — Use the visibility toggle to hide documents you are still preparing
-* **Link from learning paths** — Reference documents within your learning paths to create guided learning sequences
-* **Check the disk quota** — If your course has a storage limit, remove outdated files to free up space
+* **最初から整理する** — コンテンツをアップロードする前にフォルダ構造を作成して、後で再整理する手間を省きます。すでに正しい構造を持つ他のコースを作成している場合は、それをテンプレートとして後で使用できます
+* **わかりやすいファイル名を使用する** — 生徒が必要なものを見つけやすくするために、明確で意味のある名前を付けます
+* **準備中の作業を非表示にする** — 準備中のドキュメントを非表示にするために表示設定の切り替えを使用します
+* **学習パスからリンクする** — 学習パス内にドキュメントを参照して、ガイド付きの学習シーケンスを作成します
+* **ディスク容量を確認する** — コースにストレージ制限がある場合は、古いファイルを削除してスペースを確保します

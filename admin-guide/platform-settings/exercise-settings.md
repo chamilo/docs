@@ -1,534 +1,529 @@
-# Exercises (Tests) Settings
+# 演習（テスト）設定
 
-Defaults and behaviour of the **Exercises (Tests)** tool — question display, scoring, attempts, and similar.
+**演習（テスト）** ツールのデフォルト設定と動作 — 質問の表示、採点、試行回数など。
 
-Access these settings under **Administration > Configuration settings > Exercises (Tests)**. This category contains **63 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+これらの設定には、**管理 > 設定 > 演習（テスト）** からアクセスできます。このカテゴリには **63の設定** が含まれており、以下にプラットフォームの設定フィクスチャ（`SettingsCurrentFixtures.php`）に含まれるタイトルとコメントを記載しています。
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> コード内の変数名は等幅フォントで表示されています。APIを介してスクリプトを作成する場合や、[`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml) を編集してこれらの設定をグローバルレベルで変更する必要がある場合に使用してください。
 
-## Settings
+## 設定
 
 ### `add_exercise_best_attempt_in_report`
 
-**Enable display of best score attempt**
+**最高得点の試行を表示する機能を有効にする**
 
-Provide a list of courses and tests' IDs that will show the best score attempt for any learner in the reports.
+レポート内で、学習者の最高得点の試行を表示するコースとテストのIDリストを提供します。
 
 ### `allow_coach_feedback_exercises`
 
-**Allow coaches to comment in review of exercises**
+**コーチが演習のレビューにコメントを追加することを許可する**
 
-Allow coaches to edit feedback during review of exercises
+コーチが演習のレビュー中にフィードバックを編集することを許可します。
 
-*Default: `true`*
+*デフォルト: `true`*
 
 ### `allow_edit_exercise_in_lp`
 
-**Allow teachers to edit tests in learning paths**
+**教師が学習パス内のテストを編集することを許可する**
 
-By default, Chamilo prevents you from editing tests that are included inside a learning path. This is to avoid changes that would affect learners (past and future) differently regarding the results and/or progress in the learning path. This option allows teachers to bypass this restriction.
-
+デフォルトでは、Chamiloは学習パスに含まれるテストの編集を禁止しています。これは、学習者（過去および将来）の結果や学習パスの進捗に異なる影響を与える変更を避けるためです。このオプションを有効にすると、教師はこの制限を回避できます。
 
 ### `allow_exercise_categories`
 
-**Enable test categories**
+**テストカテゴリを有効にする**
 
-Test categories are not enabled by default because they add a level of complexity. Enable this feature to show all test categories related management icons appear.
+テストカテゴリはデフォルトでは有効になっていません。これは、複雑さが増すためです。この機能を有効にすると、テストカテゴリに関連する管理アイコンがすべて表示されます。
 
-*Default: `false`*
+*デフォルト: `false`*
 
 ### `allow_mandatory_question_in_category`
 
-**Enable selecting mandatory questions**
+**必須質問の選択を有効にする**
 
-Enable the selection of mandatory questions in a test when using random categories.
+ランダムカテゴリを使用する際に、テスト内で必須質問を選択できるようにします。
 
-*Default: `false`*
+*デフォルト: `false`*
 
 ### `allow_notification_setting_per_exercise`
 
-**Test notification settings at test-level**
+**テストレベルのテスト通知設定**
 
-Enable the configuration of test submission notifications at the test level rather than the course level. Falls back to course-level settings if not defined at test-level.
+テスト提出通知をコースレベルではなくテストレベルで設定できるようにします。テストレベルで定義されていない場合は、コースレベルの設定にフォールバックします。
 
-*Default: `false`*
+*デフォルト: `false`*
 
 ### `allow_quick_question_description_popup`
 
-**Quick image addition to question**
+**質問への画像の迅速な追加**
 
-Enable an additional icon in the test questions list to add an image as question description. This vastly accelerates question edition when the questions are in the title and the description only includes an image.
+テストの質問リストに、質問の説明として画像を追加するための追加アイコンを有効にします。質問がタイトルにあり、説明が画像のみの場合、質問の編集が大幅に高速化されます。
 
-*Default: `false`*
+*デフォルト: `false`*
 
 ### `allow_quiz_question_feedback`
 
-**Add question feedback if incorrect answer**
+**間違った回答に対する質問フィードバックの追加**
 
-By default, Chamilo allows you to show feedback on each answer in a question. With this option, an additional field is created to provide pre-defined feedback to the whole question. This feedback will only appear if the user answered incorrectly.
+デフォルトでは、Chamiloは質問内の各回答にフィードバックを表示することができます。このオプションを有効にすると、質問全体に対して事前に定義されたフィードバックを提供する追加フィールドが作成されます。このフィードバックは、ユーザーが間違った回答をした場合にのみ表示されます。
 
-*Default: `false`*
+*デフォルト: `false`*
 
 ### `allow_quiz_results_page_config`
 
-**Enable test results page configuration**
+**テスト結果ページの設定を有効にする**
 
-Define an array of settings you want to apply to all tests results pages. Settings can be ‘hide_question_score’, ‘hide_expected_answer’, ‘hide_category_table’, ‘hide_correct_answered_questions’, ‘hide_total_score’ and possibly more in the future. Look for ‘getPageConfigurationAttribute’ in the code to see what’s in use.
+すべてのテスト結果ページに適用する設定の配列を定義します。設定には 'hide_question_score'、'hide_expected_answer'、'hide_category_table'、'hide_correct_answered_questions'、'hide_total_score' などがあり、将来的にさらに追加される可能性があります。使用中の設定を確認するには、コード内で 'getPageConfigurationAttribute' を参照してください。
 
-*Default: `false`*
+*デフォルト: `false`*
 
 ### `allow_quiz_show_previous_button_setting`
 
-**Show 'previous' button in test to navigate questions**
+**テストで質問をナビゲートするための「前へ」ボタンを表示する**
 
-Set this to false to disable the 'previous' button when answering questions in a test, thus forcing users to always move ahead.
+テストで質問に回答する際に「前へ」ボタンを無効にするためにこれを false に設定すると、ユーザーは常に先に進むことを強制されます。
 
-*Default: `false`*
+*デフォルト: `false`*
 
 ### `allow_teacher_comment_audio`
 
-**Audio feedback to submitted answers**
+**提出された回答への音声フィードバック**
 
-Allow teachers to provide feedback to users through audio (alternatively to text) on each question in a test.
+教師がテストの各質問に対して、テキストの代わりに音声を通じてユーザーにフィードバックを提供することを許可します。
 
-*Default: `true`*
+*デフォルト: `true`*
 
 ### `allow_time_per_question`
 
-**Enable time per question in tests**
+**テストの質問ごとの時間を有効にする**
 
-By default, it is only possible to limit the time per test. Limiting it per question adds an extra layer of possibilities, and you can (carefully) combine both.
+デフォルトでは、テストごとの時間制限のみが可能です。質問ごとの制限を追加することで、さらなる可能性が広がり、両方を（慎重に）組み合わせることができます。
 
-*Default: `false`*
+*デフォルト: `false`*
 
 ### `block_category_questions`
 
-**Lock questions of previous categories in a test**
+**テスト内の前のカテゴリの質問をロックする**
 
-When using this option, an additional option will appear in the test's configuration. When using a test with multiple question categories and asking for a distribution by category, this will allow the user to navigate questions per category. Once a category is finished, (s)he moves to the next category and cannot return to the previous category.
+このオプションを使用すると、テストの設定に追加のオプションが表示されます。複数の質問カテゴリを持つテストを使用し、カテゴリごとの分布を要求する場合、このオプションを有効にすると、ユーザーはカテゴリごとに質問をナビゲートできます。カテゴリが終了すると、次のカテゴリに進み、前のカテゴリに戻ることはできません。
 
-*Default: `false`*
+*デフォルト: `false`*
 
 ### `block_quiz_mail_notification_general_coach`
 
-**Block sending test notifications to general coach**
+**一般コーチへのテスト通知の送信をブロックする**
 
-Learners completing a test usually sends notifications to coaches, including the general session coach. Enable this option to omit the general coach from these notifications.
+テストを完了した学習者からの通知は通常、コーチに送信されますが、一般セッションコーチも含まれます。このオプションを有効にすると、一般コーチをこれらの通知から除外します。
 
-*Default: `false`*
+*デフォルト: `false`*
 
 ### `configure_exercise_visibility_in_course`
 
-**Enable to bypass the configuration of Exercise invisible in session at a base course level**
+**ベースコースレベルでのセッション内エクササイズの非表示設定をバイパスする機能を有効にする**
 
-To enable the configuration of the exercise invisibility in session in the base course to by pass the global configuration. If not set the global parameter is used.
+ベースコースでのセッション内エクササイズの非表示設定を有効にし、グローバル設定をバイパスします。設定されていない場合は、グローバルパラメータが使用されます。
 
-*Default: `false`*
+*デフォルト: `false`*
 
 ### `disable_clean_exercise_results_for_teachers`
 
-**Disable 'clean results' for teachers**
+**教師向けの「結果をクリア」機能を無効にする**
 
-Disable the option to delete test results from the tests list. This is often used when less-careful teachers manage courses, to avoid critical mistakes.
+テストリストからテスト結果を削除するオプションを無効にします。これは、注意が不足しがちな教師がコースを管理する際に、重大なミスを防ぐためによく使用されます。
 
-*Default: `true`*
+*デフォルト: `true`*
 
 ### `email_alert_manager_on_new_quiz`
 
-**Default e-mail alert setting on new quiz**
+**新しいクイズに対するデフォルトのメール通知設定**
 
-Whether you want course managers (teachers) to be notified by e-mail when a quiz is answered by a student. This is the default value to be given to all new courses, but each teacher can still change this setting in his/her own course.
+学生がクイズに回答した際に、コース管理者（教師）にメールで通知するかどうかを設定します。これは新しいコースに適用されるデフォルト値ですが、各教師は自分のコース内でこの設定を変更できます。
 
-*Default: `true`*
+*デフォルト: `true`*
 
 ### `enable_quiz_scenario`
 
-**Enable Quiz scenario**
+**クイズシナリオを有効にする**
 
-From here you will be able to create exercises that propose different questions depending in the user's answers.
+ここから、ユーザーの回答に応じて異なる質問を提示するエクササイズを作成することができます。
 
-*Default: `true`*
+*デフォルト: `true`*
 
 ### `exercise_additional_teacher_modify_actions`
 
-**Additional links for teachers in tests list**
+**テストリストでの教師向けの追加リンク**
 
-Configure callback elements to generate new action icons for teachers to the right side of the tests list, in the form of an array, e.g. ['myplugin' => ['MyPlugin', 'urlGeneratorCallback']]
+教師向けにテストリストの右側に新しいアクションアイコンを生成するためのコールバック要素を設定します。配列の形式で、例：['myplugin' => ['MyPlugin', 'urlGeneratorCallback']]。
 
 ### `exercise_attempts_report_show_username`
 
-**Show username in test results page**
+**テスト結果ページにユーザー名を表示する**
 
-Show the username (instead or, or as well as, the user info) on the test results page.
+テスト結果ページにユーザー名を表示します（ユーザー情報の代わりに、またはユーザー情報と一緒に）。
 
-*Default: `false`*
+*デフォルト: `false`*
 
 ### `exercise_category_report_user_extra_fields`
 
-**Add user extra fields in exercise category report**
+**エクササイズカテゴリレポートにユーザーの追加フィールドを追加する**
 
-Define an array with the list of user extra fields to add to the report.
+レポートに追加するユーザーの追加フィールドのリストを含む配列を定義します。
 
 ### `exercise_category_round_score_in_export`
 
-**Round score in test exports**
+**テストエクスポート時のスコアを丸める**
 
-When enabled, test scores are rounded to the nearest integer when exporting exercise reports.
+有効にすると、エクササイズレポートをエクスポートする際にテストスコアが最も近い整数に丸められます。
 
-*Default: `false`*
+*デフォルト: `false`*
 
 ### `exercise_embeddable_extra_types`
 
-**Embeddable question types**
+**埋め込み可能な質問タイプ**
 
-By default, only single answer and multiple answer questions are considered when deciding whether a test can be embedded in a video or not. With this option, you can decide that more question types are available. Be aware that not all question types fit nicely in the space assigned to videos. Questions types are availalble in the code in question.class.php.
+デフォルトでは、単一回答および複数回答の質問のみが、テストをビデオに埋め込むことができるかどうかを決定する際に考慮されます。このオプションを使用すると、より多くの質問タイプを利用可能にすることができます。ただし、すべての質問タイプがビデオに割り当てられたスペースに適切に収まるわけではないことに注意してください。質問タイプは、question.class.php のコード内で確認できます。
 
 ### `exercise_hide_ip`
 
-**Hide user IP from test reports**
+**テストレポートからユーザーのIPを非表示にする**
 
-By default, we show user information and its IP address, but this might be considered personal data, so this option allows you to remove this info from all test reports.
+デフォルトでは、ユーザー情報とそのIPアドレスが表示されますが、これが個人データと見なされる可能性があるため、このオプションを使用するとすべてのテストレポートからこの情報を削除できます。
 
-*Default: `false`*
+*デフォルト: `false`*
 
 ### `exercise_hide_label`
 
-**Hide question ribbon (right/wrong) in test results**
+**テスト結果の質問リボン（正誤）を非表示にする**
 
-In test results, a ribbon appears by default to indicate if the answer was right or wrong. Enable this option to remove the ribbon globally.
+テスト結果では、デフォルトで回答が正しいか間違っているかを示すリボンが表示されます。このオプションを有効にすると、リボンをグローバルに削除できます。
 
-*Default: `false`*
+*デフォルト: `false`*
 
 ### `exercise_invisible_in_session`
 
-**Exercise invisible in Session**
+**セッション内でエクササイズを非表示にする**
 
-If an exercise is visible in the base course then it appears invisible in the session. If an exercise is invisible in the base course then it does not appear in the session.
+ベースコースでエクササイズが表示されている場合、セッション内では非表示になります。ベースコースでエクササイズが非表示の場合、セッション内には表示されません。
 
-*Default: `false`*
+*デフォルト: `false`*
 
 ### `exercise_max_editors_in_page`
 
-**Max editors in exercise result screen**
+**エクササイズ結果画面での最大エディター数**
 
-Because of the sheer number of questions that might appear in an exercise, the correction screen, allowing the teacher to add comments to each answer, might be very slow to load. Set this number to 5 to ask the platform to only show WYSIWYG editors up to a certain number of answers on the screen. This will speed up the correction page loading time considerably, but will remove WYSIWYG editors and leave only a plain text editor.
+エクササイズに含まれる質問の数が非常に多い場合、教師が各回答にコメントを追加できる修正画面の読み込みが非常に遅くなることがあります。この数を5に設定すると、プラットフォームは画面上の特定の回答数までしかWYSIWYGエディターを表示しないようになります。これにより、修正ページの読み込み時間が大幅に短縮されますが、WYSIWYGエディターが削除され、プレーンテキストエディターのみが残ります。
 
-*Default: `0`*
-
+*デフォルト: `0`*
 
 ### `exercise_max_score`
 
-**Maximum score of exercises**
+**エクササイズの最大スコア**
 
-Define a maximum score (generally 10,20 or 100) for all the exercises on the platform. This will define how final results are shown to users and teachers.
+プラットフォーム上のすべてのエクササイズに対して最大スコア（通常は10、20、または100）を定義します。これにより、最終結果がユーザーや教師にどのように表示されるかが決まります。
 
-*Default: `20`*
-
+*デフォルト: `20`*
 
 ### `exercise_min_score`
 
-**Minimum score of exercises**
+**エクササイズの最小スコア**
 
-Define a minimum score (generally 0) for all the exercises on the platform. This will define how final results are shown to users and teachers.
+プラットフォーム上のすべてのエクササイズに対して最小スコア（通常は0）を定義します。これにより、最終結果がユーザーや教師にどのように表示されるかが決まります。
 
-*Default: `0`*
-
+*デフォルト: `0`*
 
 ### `exercise_result_end_text_html_strict_filtering`
 
-**Bypass HTML filtering in test end messages**
+**テスト終了メッセージでのHTMLフィルタリングをバイパスする**
 
-Consider messages at the end of tests are always safe. Removing the filter makes it possible to use JavaScript there.
+テストの終了メッセージは常に安全であると見なします。フィルターを削除すると、そこでJavaScriptを使用することが可能になります。
 
-*Default: `false`*
-
+*デフォルト: `false`*
 
 ### `exercise_score_format`
 
-**Tests score format**
+**テストスコアの形式**
 
-Select between the following forms for the display of users' score in various reports: 1 = SCORE_AVERAGE (5 / 10); 2 = SCORE_PERCENT (50%); 3 = SCORE_DIV_PERCENT (5 / 10 (50%)). Use the numerical ID of the form you want to use.
+さまざまなレポートでのユーザースコアの表示形式を以下から選択します：1 = SCORE_AVERAGE (5 / 10); 2 = SCORE_PERCENT (50%); 3 = SCORE_DIV_PERCENT (5 / 10 (50%))。使用したい形式の数値IDを使用してください。
 
-*Default: `0`*
+*デフォルト: `0`*
 
 ### `exercises_disable_new_attempts`
 
-**Disable new test attempts**
+**新しいテストの試行を無効にする**
 
-Disable new test attempts globally. Usually used when there is a problem with tests in general and you want some time to analyse without blocking the whole platform.
+新しいテストの試行をグローバルに無効にします。通常、テスト全般に問題がある場合に、プラットフォーム全体をブロックせずに分析する時間を確保するために使用されます。
 
-*Default: `false`*
+*デフォルト: `false`*
 
-
+---
 ### `hide_free_question_score`
 
-**Hide open questions' score**
+**自由形式の質問のスコアを非表示にする**
 
-Hide the fact that open questions (including audio and annotations) have a score by hiding the score display in all learner-facing reports.
+自由形式の質問（音声や注釈を含む）のスコア表示を学習者向けのすべてのレポートで非表示にすることで、スコアがあることを隠します。
 
-*Default: `false`*
+*デフォルト: `false`*
 
 
 ### `hide_user_info_in_quiz_result`
 
-**Hide user info on test results page**
+**テスト結果ページでユーザー情報を非表示にする**
 
-The default test results page shows a user datasheet (photo, name, etc) which might, in some contexts, be considered as pushing the limits of personal data treatment. Enable this option to remove user details from the test results.
+デフォルトのテスト結果ページには、ユーザーデータシート（写真、名前など）が表示されますが、一部の状況では個人データの取り扱いの限界を超えていると見なされる可能性があります。このオプションを有効にすると、テスト結果からユーザーの詳細が削除されます。
 
-*Default: `false`*
+*デフォルト: `false`*
 
 
 ### `limit_exercise_teacher_access`
 
-**Limit teachers' permissions over tests**
+**教師のテストに対する権限を制限する**
 
-When enabled, teachers cannot delete tests nor questions, change tests visibility, download to QTI, clean results, etc.
+有効にすると、教師はテストや質問を削除したり、テストの表示設定を変更したり、QTI形式でダウンロードしたり、結果をクリアしたりすることができなくなります。
 
-*Default: `false`*
+*デフォルト: `false`*
 
 
 ### `my_courses_show_pending_exercise_attempts`
 
-**Global pending tests list**
+**グローバルな未完了テストリスト**
 
-Enable to display to the final user a page with the list of pending tests across all courses.
+すべてのコースにわたる未完了のテストリストを最終ユーザーに表示するページを有効にします。
 
-*Default: `false`*
+*デフォルト: `false`*
 
 
 ### `question_exercise_html_strict_filtering`
 
-**Bypass HTML filtering in test questions**
+**テスト質問のHTMLフィルタリングをバイパスする**
 
-Consider questions text in tests are always safe. Removing the filter makes it possible to use JavaScript there.
+テストの質問テキストは常に安全であると見なします。フィルターを削除することで、そこでJavaScriptを使用することが可能になります。
 
-*Default: `false`*
+*デフォルト: `false`*
 
 
 ### `question_pagination_length`
 
-**Question pagination length for teachers**
+**教師向けの質問ページネーションの長さ**
 
-Number of questions to show on every page when using the question pagination for teachers option.
+教師向けの質問ページネーションオプションを使用する際に、1ページに表示する質問の数を指定します。
 
-*Default: `20`*
+*デフォルト: `20`*
 
 
 ### `quiz_answer_extra_recording`
 
-**Enable extra test answers recording**
+**追加のテスト回答記録を有効にする**
 
-Enable recording of all answers (even temporary) in the track_e_attempt_recording table. This feautre is experimentaland can create issues in the reporting pages when attempting to grade a test.
+`track_e_attempt_recording` テーブルにすべての回答（一時的なものも含む）を記録することを有効にします。この機能は実験的であり、テストの採点時にレポートページで問題を引き起こす可能性があります。
 
-*Default: `false`*
+*デフォルト: `false`*
 
 
 ### `quiz_check_all_answers_before_end_test`
 
-**Check all answers before submitting test**
+**テスト提出前にすべての回答を確認する**
 
-Display a popup with the list of answered/unanswered questions before submitting the test.
+テストを提出する前に、回答済み/未回答の質問リストを表示するポップアップを表示します。
 
-*Default: `false`*
+*デフォルト: `false`*
 
 
 ### `quiz_check_button_enable`
 
-**Add answer-saving process check before test**
+**テスト前に回答保存プロセスの確認を追加する**
 
-Make sure users are all set to start the test by providing a simulation of the question-saving process before entering the test. This allows for early detection of some connection issues and reduces user experience frictions.
+テストを開始する前に、質問保存プロセスのシミュレーションを提供することで、ユーザーがテストを開始する準備が整っていることを確認します。これにより、一部の接続問題を早期に検出し、ユーザーエクスペリエンスの摩擦を軽減できます。
 
-*Default: `false`*
+*デフォルト: `false`*
 
 
 ### `quiz_confirm_saved_answers`
 
-**Add checkbox for answers count confirmation**
+**回答数確認用のチェックボックスを追加する**
 
-This option adds a checkbox at the end of each test asking the user to confirm the number of answers saved. This provides better auditing data for critical tests.
+このオプションは、各テストの最後にチェックボックスを追加し、保存された回答の数をユーザーに確認させます。これにより、重要なテストの監査データが向上します。
 
-*Default: `false`*
+*デフォルト: `false`*
 
 
 ### `quiz_discard_orphan_in_course_export`
 
-**Discard orphan questions in course export**
+**コースエクスポート時に孤立した質問を破棄する**
 
-When exporting a course, do not export the questions that are not part of any test.
+コースをエクスポートする際に、どのテストにも属していない質問をエクスポートしないようにします。
 
-*Default: `false`*
+*デフォルト: `false`*
 
 
 ### `quiz_generate_certificate_ending`
 
-**Generate certificate on test end**
+**テスト終了時に証明書を生成する**
 
-Generate certificate when ending a quiz. The quiz needs to be linked in the gradebook tool and have a pass percentage configured.
+クイズ終了時に証明書を生成します。クイズは成績簿ツールにリンクされており、合格率が設定されている必要があります。
 
-*Default: `false`*
+*デフォルト: `false`*
 
 
 ### `quiz_hide_attempts_table_on_start_page`
 
-**Hide test attempts table on test start page**
+**テスト開始ページで試行回数テーブルを非表示にする**
 
-Hide the table showing all previous attempts on the test start page.
+テスト開始ページで以前のすべての試行を表示するテーブルを非表示にします。
 
-*Default: `false`*
+*デフォルト: `false`*
 
 
 ### `quiz_hide_question_number`
 
-**Hide question number**
+**質問番号を非表示にする**
 
-Hide the question incremental numbering when taking a test.
+テスト受験時に質問の連番を非表示にします。
 
-*Default: `false`*
+*デフォルト: `false`*
 
 
 ### `quiz_image_zoom`
 
-**Enable test images zooming**
+**テスト画像のズームを有効にする**
 
-Enable this feature to allow users to zoom on images used in the tests.
+この機能を有効にすると、テストで使用される画像をユーザーがズームできるようになります。
 
 ### `quiz_keep_alive_ping_interval`
 
-**Keep session active in tests**
+**テスト中にセッションをアクティブに保つ**
 
-Keep session active by maintaining a regular ping signal to the server every x seconds, define here. We recommend once every 300 seconds.
+ここで定義したx秒ごとにサーバーに定期的なping信号を送信することで、セッションをアクティブに保ちます。300秒ごとに1回を推奨します。
 
-*Default: `0`*
+*デフォルト: `0`*
 
 
 ### `quiz_open_question_decimal_score`
 
-**Decimal score in open question types**
+**自由形式の質問タイプで小数点スコアを許可する**
 
-Allow the teacher to rate the open, oral expression and annotation question types with a decimal score.
+教師が自由形式、口頭表現、注釈の質問タイプを小数点付きのスコアで評価することを許可します。
 
-*Default: `false`*
+*デフォルト: `false`*
 
 
 ### `quiz_prevent_copy_paste`
 
-**Block copy-pasting in tests**
+**テストでのコピー＆ペーストをブロックする**
 
-Block copy/paste/save/print keys and right-clicks in exercises.
+テスト中にコピー/ペースト/保存/印刷キーおよび右クリックをブロックします。
 
-*Default: `false`*
+*デフォルト: `false`*
 
 
 ### `quiz_question_delete_automatically_when_deleting_exercise`
 
-**Automatically delete questions when deleting test**
+**テスト削除時に質問を自動的に削除する**
 
-The default behaviour is to make questions orphan when the only test using them is deleted. When enabled, this option ensure that all questions that would otherwise end up orphan are deleted as well.
+デフォルトの動作では、唯一使用しているテストが削除されると質問が孤立します。このオプションを有効にすると、孤立する可能性のあるすべての質問も一緒に削除されます。
 
-*Default: `false`*
+*デフォルト: `false`*
 
 
 ### `quiz_results_answers_report`
 
-**Show link to download test results**
+**テスト結果のダウンロードリンクを表示する**
 
-On the test results page, display a link to download the results as a file.
+テスト結果ページで、結果をファイルとしてダウンロードするためのリンクを表示します。
 
-*Default: `false`*
+*デフォルト: `false`*
 
 
 ### `quiz_show_description_on_results_page`
 
-**Always show test description on results page**
+**結果ページで常にテストの説明を表示する**
 
-When enabled, the test description is always displayed on the results page after test completion.
+有効にすると、テスト完了後の結果ページに常にテストの説明が表示されます。
 
-*Default: `false`*
+*デフォルト: `false`*
 
 
 ### `score_grade_model`
 
-**Score grades model**
+**スコアグレードモデル**
 
-Define an array of score ranges and colors to display reports using this model. This allows you to show colors rather than numerical grades.
+スコア範囲と色を定義する配列を設定し、このモデルを使用してレポートを表示します。これにより、数値グレードの代わりに色を表示することができます。
 
+---
 ### `send_score_in_exam_notification_mail_to_manager`
 
-**Add score in mail notification of test submission**
+**テスト提出のメール通知にスコアを追加**
 
-Add the learner's score to the e-mail notification sent to the teacher after a test was submitted.
+テストが提出された後に教師に送信されるメール通知に学習者のスコアを追加します。
 
-*Default: `false`*
+*デフォルト: `false`*
 
 
 ### `show_exercise_attempts_in_all_user_sessions`
 
-**Show test attempts from all sessions in pending tests report**
+**保留中のテストレポートにすべてのセッションのテスト試行を表示**
 
-Show test attempts from users in all sessions where the general coach has access in pending tests report.
+一般コーチがアクセス可能なすべてのセッションのユーザーのテスト試行を保留中のテストレポートに表示します。
 
-*Default: `false`*
+*デフォルト: `false`*
 
 
 ### `show_exercise_expected_choice`
 
-**Show expected choice in test results**
+**テスト結果に期待される選択肢を表示**
 
-Show the expected choice and a status (right/wrong) for each answer on the test results page (if the test has been configured to show results).
+テスト結果ページで各回答に対して期待される選択肢とステータス（正解/不正解）を表示します（テストが結果を表示するように設定されている場合）。
 
-*Default: `false`*
+*デフォルト: `false`*
 
 
 ### `show_exercise_question_certainty_ribbon_result`
 
-**Show score for certainty degree questions**
+**確信度質問のスコアを表示**
 
-By default, Chamilo does not show a score for the certainty degree question types.
+デフォルトでは、Chamiloは確信度質問タイプのスコアを表示しません。
 
-*Default: `false`*
+*デフォルト: `false`*
 
 
 ### `show_exercise_session_attempts_in_base_course`
 
-**Show test attempts from all sessions in base course**
+**ベースコースにすべてのセッションのテスト試行を表示**
 
-Show test attempts from users in all sessions to the teacher in the base course.
+ベースコースの教師に、すべてのセッションのユーザーのテスト試行を表示します。
 
-*Default: `false`*
+*デフォルト: `false`*
 
 
 ### `show_official_code_exercise_result_list`
 
-**Display official code in exercises results**
+**演習結果に公式コードを表示**
 
-Whether to show the students' official code in the exercises results reports
+演習結果レポートに学生の公式コードを表示するかどうかを設定します。
 
-*Default: `false`*
+*デフォルト: `false`*
+
 
 ### `show_question_id`
 
-**Show question IDs in tests**
+**テストに質問IDを表示**
 
-Show questions' internal IDs to let users take note of issues on specific questions and report them more efficiently.
+質問の内部IDを表示して、ユーザーが特定の質問に関する問題を記録し、より効率的に報告できるようにします。
 
-*Default: `false`*
+*デフォルト: `false`*
 
 
 ### `show_question_pagination`
 
-**Show question pagination for teachers**
+**教師向けの質問ページネーションを表示**
 
-For tests with many questions, use pagination if the number of questions is higher than this setting. Set to 0 to prevent using pagination.
+質問数が多いテストの場合、この設定値を超える質問数がある場合にページネーションを使用します。ページネーションを使用しない場合は0に設定します。
 
-*Default: `100`*
+*デフォルト: `100`*
 
 
 ### `tracking_my_progress_show_deleted_exercises`
 
-**Show deleted tests in 'My progress'**
+**「マイプログレス」に削除されたテストを表示**
 
-Enable this option to display, on the 'My progress' page, the results of all tests you have taken, even the ones that have been deleted.
+このオプションを有効にすると、「マイプログレス」ページに、削除されたテストを含む、受講したすべてのテストの結果が表示されます。
 
-*Default: `false`*
-
-
+*デフォルト: `false`*

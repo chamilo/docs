@@ -1,42 +1,42 @@
-# Templates
+# テンプレート
 
-Chamilo uses templates for certificates, documents, and emails. You can customize these templates to match your organization's branding and requirements.
+Chamiloでは、証明書、ドキュメント、メールにテンプレートを使用しています。これらのテンプレートは、組織のブランディングや要件に合わせてカスタマイズすることができます。
 
-## Certificate Templates
+## 証明書テンプレート
 
-Certificate templates define the layout and content of certificates awarded to learners who meet gradebook thresholds.
+証明書テンプレートは、成績表の基準を満たした学習者に授与される証明書のレイアウトと内容を定義します。
 
-### Customizing a Certificate Template
+### 証明書テンプレートのカスタマイズ
 
-Certificate templates use HTML and CSS with placeholder variables:
+証明書テンプレートは、プレースホルダ変数を使用してHTMLとCSSで作成されます：
 
-| Variable | Replaced with |
+| 変数 | 置き換えられる内容 |
 |----------|-------------|
-| Student name | The learner's full name |
-| Course name | The name of the course |
-| Date | The date the certificate was earned |
-| Score | The learner's final score |
-| Barcode | A barcode placeholder (`((certificate_barcode))`) used for verification |
+| 学生名 | 学習者のフルネーム |
+| コース名 | コースの名前 |
+| 日付 | 証明書を取得した日付 |
+| スコア | 学習者の最終スコア |
+| バーコード | 検証用のバーコードプレースホルダ（`((certificate_barcode))`） |
 
-### Uploading a Template
+### テンプレートのアップロード
 
-1. Navigate to certificate template management
-2. Upload or edit the HTML template
-3. Use the placeholder variables where dynamic content should appear
-4. Save
+1. 証明書テンプレート管理に移動します
+2. HTMLテンプレートをアップロードまたは編集します
+3. 動的な内容を表示する場所にプレースホルダ変数を使用します
+4. 保存します
 
-## Document Templates
+## ドキュメントテンプレート
 
-Teachers can use document templates when creating content in the Documents tool. Templates provide a starting layout for common document types.
+教師は、ドキュメントツールでコンテンツを作成する際にドキュメントテンプレートを使用できます。テンプレートは、一般的なドキュメントタイプの初期レイアウトを提供します。
 
-### Managing Document Templates
+### ドキュメントテンプレートの管理
 
-1. Navigate to template management in the administration panel
-2. Add new templates by uploading HTML files
-3. Templates become available to teachers when they create new documents
+1. 管理パネル内のテンプレート管理に移動します
+2. HTMLファイルをアップロードして新しいテンプレートを追加します
+3. テンプレートは、教師が新しいドキュメントを作成する際に利用可能になります
 
-## Tips
+## ヒント
 
-* **Include your logo** — Add your organization's logo to certificate templates for a professional look
-* **Test with real data** — Preview certificates with actual learner data before deploying the template
-* **Keep templates simple** — Simple designs print better and look professional
+* **ロゴを含める** — 証明書テンプレートに組織のロゴを追加して、プロフェッショナルな外観にしましょう
+* **実際のデータでテストする** — テンプレートを展開する前に、実際の学習者データで証明書をプレビューしてください
+* **テンプレートをシンプルに保つ** — シンプルなデザインは印刷がしやすく、プロフェッショナルに見えます

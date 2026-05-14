@@ -1,79 +1,79 @@
-# Forums Settings
+# フォーラム設定
 
-Behaviour of the course **Forums** tool.
+コースの**フォーラム**ツールの動作について。
 
-Access these settings under **Administration > Configuration settings > Forums**. This category contains **9 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+これらの設定には、**管理 > 設定 > フォーラム**からアクセスできます。このカテゴリには**9つの設定**が含まれており、以下にプラットフォームの設定フィクスチャ（`SettingsCurrentFixtures.php`）に記載されているタイトルとコメントを記載しています。
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> コード内の変数名は等幅フォントで表示されています。APIを通じてスクリプトを作成する場合や、[`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml)を編集してグローバルレベルでこれらの設定を変更する必要がある場合に使用してください。
 
-## Settings
+## 設定
 
 ### `allow_forum_category_language_filter`
 
-**Forum categories language filter**
+**フォーラムカテゴリの言語フィルター**
 
-Add a language filter to the forum view to only see categries configured in a specific language. Requires using the 'language' extra field on the 'forum_category' entity.
+フォーラムビューに言語フィルターを追加して、特定の言語で設定されたカテゴリのみを表示します。`forum_category`エンティティに`language`の追加フィールドを使用する必要があります。
 
-*Default: `false`*
+*デフォルト: `false`*
 
 ### `allow_forum_post_revisions`
 
-**Forum post review**
+**フォーラム投稿のレビュー**
 
-Enable this option to allow asking for a review or a translation to one's post in a forum. When extensively configured, can be used to collaborate with other users in a language-learning forum.
+このオプションを有効にすると、フォーラム投稿のレビューや翻訳を求めることが可能になります。詳細に設定することで、言語学習フォーラムで他のユーザーと協力するために使用できます。
 
-*Default: `false`*
+*デフォルト: `false`*
 
 ### `community_managers_user_list`
 
-**Community managers list**
+**コミュニティマネージャーのリスト**
 
-Provide an array of user IDs that will be considered community managers in the special course designated as global forum. Community managers have additional privileges on the global forum.
+グローバルフォーラムとして指定された特別なコース内でコミュニティマネージャーと見なされるユーザーIDの配列を提供します。コミュニティマネージャーはグローバルフォーラムで追加の権限を持ちます。
 
 ### `default_forum_view`
 
-**Default forum view**
+**デフォルトのフォーラムビュー**
 
-What should be the default option when creating a new forum. Any trainer can however choose a different view for every individual forum
+新しいフォーラムを作成する際のデフォルトオプションを指定します。ただし、トレーナーは個々のフォーラムごとに異なるビューを選択することができます。
 
-*Default: `flat`*
+*デフォルト: `flat`*
 
 ### `display_groups_forum_in_general_tool`
 
-**Display group forums in general forum**
+**一般フォーラムツールでのグループフォーラムの表示**
 
-Display group forums in the forum tool at the course level. This option is enabled by default (in this case, group forum individual visibilities still act as an additional criteria). If disabled, group forums will only be visible through the group tool, be them public or not.
+コースレベルでのフォーラムツールにグループフォーラムを表示します。このオプションはデフォルトで有効になっています（この場合、グループフォーラムの個別の可視性は追加の基準として機能します）。無効にすると、グループフォーラムは公開か非公開かに関わらず、グループツールを通じてのみ表示されます。
 
-*Default: `true`*
+*デフォルト: `true`*
 
 ### `forum_fold_categories`
 
-**Fold forum categories**
+**フォーラムカテゴリの折り畳み**
 
-Visual effect to enable forum categories folding/unfolding.
+フォーラムカテゴリの折り畳み/展開を可能にする視覚効果。
 
-*Default: `false`*
+*デフォルト: `false`*
 
 ### `global_forums_course_id`
 
-**Use course as global forum**
+**コースをグローバルフォーラムとして使用**
 
-Set the course ID (numerical) of a course reserverd to use as a global forum. This replaces the 'Social groups' link in the social network by a link to the forum of that course.
+グローバルフォーラムとして使用するために予約されたコースのコースID（数値）を設定します。これにより、ソーシャルネットワーク内の「ソーシャルグループ」リンクがそのコースのフォーラムへのリンクに置き換えられます。
 
-*Default: `0`*
+*デフォルト: `0`*
 
 ### `hide_forum_post_revision_language`
 
-**Hide forum post review language**
+**フォーラム投稿レビューの言語を非表示**
 
-Hide the possibility to assign a language to a forum post review.
+フォーラム投稿レビューに言語を割り当てる可能性を非表示にします。
 
-*Default: `false`*
+*デフォルト: `false`*
 
 ### `subscribe_users_to_forum_notifications_also_in_base_course`
 
-**Forum notifications from base course as well**
+**ベースコースからのフォーラム通知も有効**
 
-Enable this option to enable notifications coming from the base course forum, even if following the course through a session.
+このオプションを有効にすると、セッションを通じてコースをフォローしている場合でも、ベースコースのフォーラムからの通知を受け取ることができます。
 
-*Default: `false`*
+*デフォルト: `false`*

@@ -1,38 +1,38 @@
-# Announcements
+# お知らせ
 
-The announcements tool lets you send messages to all learners enrolled in your course, or to specific individuals or groups.
+お知らせツールを使用すると、コースに登録しているすべての学生、または特定の個人やグループにメッセージを送信することができます。
 
-Messages sent through announcements are sent to the learners both by e-mail *and* to their Chamilo inbox.
+お知らせを通じて送信されたメッセージは、学生にメールとChamiloの受信トレイの両方で送信されます。
 
-## Creating an Announcement
+## お知らせの作成
 
-1. Open the **Announcements** <img src="/.gitbook/assets/icons/mdi-bullhorn.svg" alt="Announcements" data-size="line"> tool from the course homepage
-2. Click the **Add an announcement** icon <img src="/.gitbook/assets/icons/mdi-bullhorn.svg" alt="Announcements" data-size="line"> again
-3. Fill in:
-   * **Recipients** — Choose who receives the announcement:
-     * All enrolled learners
-     * Specific learners
-     * Specific groups
-   * **Subject** — A subject line for the announcement
-   * **Description** — The message body (supports rich text with formatting, links, and images)
-   * **Attachment** — An optional attachment sent along with the e-mail
-   * **Sending options** — Announcements will be sent by e-mail by default, but you can also choose (if you have the permissions) to send it through all sessions that include this course, to send a copy to yourself or to attach this announcement to a calendar event for the course.
-4. Save
+1. コースのホームページで **お知らせ** ツール <img src="/.gitbook/assets/icons/mdi-bullhorn.svg" alt="お知らせ" data-size="line"> を開きます
+2. もう一度 **お知らせを追加** アイコン <img src="/.gitbook/assets/icons/mdi-bullhorn.svg" alt="お知らせ" data-size="line"> をクリックします
+3. 以下の内容を入力します：
+   * **宛先** — お知らせを受け取る対象を選択します：
+     * 登録しているすべての学生
+     * 特定の学生
+     * 特定のグループ
+   * **件名** — お知らせの件名
+   * **説明** — メッセージ本文（書式設定、リンク、画像を含むリッチテキストをサポート）
+   * **添付ファイル** — メールと一緒に送信する任意の添付ファイル
+   * **送信オプション** — お知らせはデフォルトでメールで送信されますが、権限がある場合は、このコースを含むすべてのセッションに送信する、自分自身にコピーを送信する、またはこのお知らせをコースカレンダーのイベントにリンクするオプションも選択できます。
+4. 保存
 
-The **Tags** button lets you identify a series of markers that will be dynamically replaced in the announcement **Content**. These are relatively intuitive, so we'll let you guess what they do.
+**タグ** ボタンを使用すると、お知らせの **コンテンツ** 内で動的に置き換えられる一連のマーカーを識別できます。これらは比較的直感的ですので、各自でその機能を試してみてください。
 
-The **Preview** button is not very intuitive: it allows you to see whom this announcement will be sent to. This acts as a confirmation of the selection of recipients you made above.
+**プレビュー** ボタンはあまり直感的ではありません：このお知らせが誰に送信されるかを確認することができます。これは上記で選択した宛先の確認として機能します。
 
-## Managing Announcements
+## お知らせの管理
 
-* **Edit** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Edit" data-size="line"> — Modify an existing announcement
-* **Delete** <img src="/.gitbook/assets/icons/mdi-delete.svg" alt="Delete" data-size="line"> — Remove an announcement
-* **Visibility** <img src="/.gitbook/assets/icons/mdi-eye.svg" alt="Visibility" data-size="line"> — Hide or show announcements
+* **編集** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="編集" data-size="line"> — 既存のお知らせを変更する
+* **削除** <img src="/.gitbook/assets/icons/mdi-delete.svg" alt="削除" data-size="line"> — お知らせを削除する
+* **表示設定** <img src="/.gitbook/assets/icons/mdi-eye.svg" alt="表示設定" data-size="line"> — お知らせを非表示または表示する
 
-Announcements are displayed in reverse chronological order (newest first).
+お知らせは逆時系列（最新のものが最初）で表示されます。
 
-## Tips
+## ヒント
 
-* **Welcome message** — Create an announcement at the start of the course to welcome learners and provide orientation
-* **Use email delivery** — For time-sensitive announcements, enable the email option so learners receive the message even if they are not currently logged into the platform
-* **Targeted announcements** — Send specific announcements to groups or individuals when the message is not relevant to the entire class
+* **ウェルカムメッセージ** — コースの開始時にお知らせを作成して、学生に歓迎の意を表し、ガイダンスを提供する
+* **メール送信を活用する** — 時間に敏感なお知らせの場合、学生がプラットフォームにログインしていないときでもメッセージを受け取れるように、メール送信オプションを有効にする
+* **ターゲットお知らせ** — メッセージがクラス全体に関連しない場合、特定のグループや個人に特化したお知らせを送信する

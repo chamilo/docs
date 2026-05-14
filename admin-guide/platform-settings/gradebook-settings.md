@@ -1,293 +1,270 @@
-# Gradebook (Assessments) Settings
+# 成績簿（評価）設定
 
-Defaults applied across the **Gradebook (Assessments)** tool — score display, decimal precision, certificate score thresholds, and aggregation.
+**成績簿（評価）**ツールに適用されるデフォルト設定 — スコア表示、小数点の精度、証明書のスコア閾値、集計方法など。
 
-Access these settings under **Administration > Configuration settings > Gradebook (Assessments)**. This category contains **34 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+これらの設定には、**管理 > 設定 > 成績簿（評価）**からアクセスできます。このカテゴリには**34の設定**が含まれており、以下にプラットフォームの設定フィクスチャ（`SettingsCurrentFixtures.php`）に含まれるタイトルとコメントとともにリストアップされています。
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> コード内の変数名は等幅フォントで表示されています。APIを通じてスクリプトを作成する場合や、[`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml)を編集してこれらの設定をグローバルレベルで変更する必要がある場合に使用してください。
 
-## Settings
+## 設定
 
 ### `allow_gradebook_comments`
 
-**Gradebook comments**
+**成績簿コメント**
 
-Enable gradebook comments so teachers can add a comment to the overall performance of the learner in this course. The comment will appear in the PDF export for the learner.
+成績簿コメントを有効にすることで、教師はこのコースにおける学習者の全体的なパフォーマンスに関するコメントを追加できます。コメントは学習者向けのPDFエクスポートに表示されます。
 
-*Default: `false`*
-
+*デフォルト: `false`*
 
 ### `allow_gradebook_stats`
 
-**Cache results in the gradebook**
+**成績簿の結果をキャッシュする**
 
-Put some of the large calculations of averages in cached fields for the links and evaluations to increase speed (considerably). The potential negative impact is that it can take some time to refresh the gradebook results tables.
+リンクや評価の平均値計算の一部をキャッシュフィールドに保存することで、速度を大幅に向上させます。潜在的なマイナスの影響として、成績簿の結果テーブルの更新に時間がかかることがあります。
 
-*Default: `false`*
+*デフォルト: `false`*
 
 ### `gradebook_badge_sidebar`
 
-**Gradebook badges sidebar**
+**成績簿バッジサイドバー**
 
-Generate a block inside the side menu where a few badges can be shown as pending approval. Requires gradebooks to be listed here, by (numerical) ID.
+サイドメニュー内に、承認待ちのバッジをいくつか表示するブロックを生成します。成績簿をここに（数値の）IDでリストアップする必要があります。
 
 ### `gradebook_default_grade_model_id`
 
-**Default grade model**
+**デフォルトの成績モデル**
 
-This value will be selected by default when creating a course
+コース作成時にデフォルトで選択される値です。
 
 ### `gradebook_default_weight`
 
-**Default weight in Gradebook**
+**成績簿のデフォルト重み**
 
-This weight will be use in all courses by default
+この重みはすべてのコースでデフォルトとして使用されます。
 
-*Default: `100`*
+*デフォルト: `100`*
 
 ### `gradebook_dependency`
 
-**Inter-gradebook dependencies**
+**成績簿間の依存関係**
 
-Enables a mechanism of gradebook dependencies that lets people know which other items they need to go through first in order to complete the gradebook.
+成績簿の依存関係メカニズムを有効にし、成績簿を完了するために最初に通過する必要がある他の項目を人々に知らせることができます。
 
-*Default: `false`*
-
+*デフォルト: `false`*
 
 ### `gradebook_dependency_mandatory_courses`
 
-**Mandatory courses for gradebook dependencies**
+**成績簿依存関係のための必須コース**
 
-When using inter-gradebook dependencies, you can choose a list of mandatory courses that will be required before approving any gradebook that has dependencies.
+成績簿間の依存関係を使用する場合、依存関係を持つ成績簿を承認する前に必須となるコースのリストを選択できます。
 
 ### `gradebook_detailed_admin_view`
 
-**Show additional columns in gradebook**
+**成績簿に追加の列を表示**
 
-Show additional columns in the student view of the gradebook with the best score of all students, the relative position of the student looking at the report and the average score of the whole group of students.
+成績簿の学生ビューに、すべての学生の最高スコア、報告書を見ている学生の相対的な位置、学生全体の平均スコアを示す追加の列を表示します。
 
-*Default: `false`*
-
+*デフォルト: `false`*
 
 ### `gradebook_display_extra_stats`
 
-**Gradebook extra statistics**
+**成績簿の追加統計**
 
-Add additional columns to the gradebook's main report (1 = ranking, 2 = best score, 3 = average).
+成績簿のメインレポートに追加の列を加えます（1 = ランキング、2 = 最高スコア、3 = 平均）。
 
 ### `gradebook_enable`
 
-**Assessments tool activation**
+**評価ツールの有効化**
 
-The Assessments tool allows you to assess competences in your organization by merging classroom and online activities evaluations into Performance reports. Do you want to activate it?
+評価ツールを使用すると、教室やオンライン活動の評価をパフォーマンスレポートに統合することで、組織内の能力を評価できます。有効にしますか？
 
-*Default: `true`*
-
+*デフォルト: `true`*
 
 ### `gradebook_enable_grade_model`
 
-**Enable Gradebook model**
+**成績簿モデルの有効化**
 
-Enables the auto creation of gradebook categories inside a course depending of the gradebook models.
+成績簿モデルに基づいてコース内に成績簿カテゴリを自動作成する機能を有効にします。
 
-*Default: `false`*
+*デフォルト: `false`*
 
 ### `gradebook_enable_subcategory_skills_independant_assignement`
 
-**Enable skills by gradebook's subcategory**
+**成績簿のサブカテゴリによるスキルの有効化**
 
-Skills are normally attributed for completing a whole gradebook. By enabling this option, you allow skills to be attached to sub-sections of gradebooks.
+通常、スキルは成績簿全体を完了することで付与されます。このオプションを有効にすると、成績簿のサブセクションにスキルを付けることができます。
 
-*Default: `false`*
-
+*デフォルト: `false`*
 
 ### `gradebook_flatview_extrafields_columns`
 
-**User extra fields in gradebook flat view**
+**成績簿フラットビューでのユーザー追加フィールド**
 
-Add the given columns ('variables' array) to the main results table in the gradebook.
+成績簿のメイン結果テーブルに指定された列（'variables' 配列）を追加します。
 
 ### `gradebook_hide_graph`
 
-**Hide gradebook charts**
+**成績簿チャートの非表示**
 
-If your portal is resources-limited, reducing the generation of the dynamic gradebok charts with potentially thousands of results is a good option.
+ポータルのリソースが限られている場合、潜在的に数千の結果を持つ動的な成績簿チャートの生成を減らすことは良い選択肢です。
 
-*Default: `false`*
-
+*デフォルト: `false`*
 
 ### `gradebook_hide_link_to_item_for_student`
 
-**Hide item links for learners in gradebook**
+**学習者向け成績簿のアイテムリンクを非表示**
 
-Avoid learners clicking on items from the gradebook by removing the links on the items.
+成績簿からアイテムへのリンクを削除することで、学習者がアイテムをクリックするのを防ぎます。
 
-*Default: `false`*
-
+*デフォルト: `false`*
 
 ### `gradebook_hide_pdf_report_button`
 
-**Hide gradebook button 'download PDF report'**
+**成績簿の「PDFレポートをダウンロード」ボタンを非表示**
 
-Removes the PDF export button from gradebook views for learners.
+学習者向けの成績簿ビューからPDFエクスポートボタンを削除します。
 
-*Default: `false`*
-
+*デフォルト: `false`*
 
 ### `gradebook_hide_table`
 
-**Hide gradebook table for learners**
+**学習者向け成績簿テーブルを非表示**
 
-Reduce gradebook load time by hiding the results table (but still giving access to certificates, skills, etc).
+結果テーブルを非表示にすることで成績簿の読み込み時間を短縮します（ただし、証明書やスキルなどへのアクセスは依然として可能です）。
 
-*Default: `false`*
+*デフォルト: `false`*
 
-
+---
 ### `gradebook_locking_enabled`
 
-**Enable locking of assessments by teachers**
+**教師による評価のロックを有効にする**
 
-Once enabled, this option will enable locking of any assessment by the teachers of the corresponding course. This, in turn, will prevent any modification of results by the teacher inside the resources used in the assessment: exams, learning paths, tasks, etc. The only role authorized to unlock a locked assessment is the administrator. The teacher will be informed of this possibility. The locking and unlocking of gradebooks will be registered in the system's report of important activities
+このオプションを有効にすると、対応するコースの教師が評価をロックできるようになります。これにより、評価に使用されるリソース（試験、ラーニングパス、タスクなど）内の結果を教師が変更できなくなります。ロックされた評価を解除できるのは管理者のみです。教師にはこの可能性が通知されます。成績簿のロックおよび解除は、システムの重要な活動レポートに記録されます。
 
-*Default: `false`*
+*デフォルト: `false`*
 
 ### `gradebook_multiple_evaluation_attempts`
 
-**Allow multiple evaluation attempts in gradebook**
+**成績簿での複数回の評価試行を許可する**
 
-Allows adding comments to multiple evaluation attempts in gradebook and result tables.
+成績簿および結果表に複数回の評価試行に関するコメントを追加することを許可します。
 
-*Default: `false`*
-
+*デフォルト: `false`*
 
 ### `gradebook_number_decimals`
 
-**Number of decimals**
+**小数点以下の桁数**
 
-Allows you to set the number of decimals allowed in a score
+スコアで許可される小数点以下の桁数を設定できます。
 
-*Default: `0`*
+*デフォルト: `0`*
 
 ### `gradebook_pdf_export_settings`
 
-**Gradebook PDF export options**
+**成績簿のPDFエクスポートオプション**
 
-Change the PDF export for learners based on the provided settings ('hide_score_weight', 'hide_feedback_textarea', ...)
+提供された設定（'hide_score_weight'、'hide_feedback_textarea' など）に基づいて、学習者向けのPDFエクスポートを変更します。
 
 ### `gradebook_report_score_style`
 
-**Gradebook reports score style**
+**成績簿レポートのスコアスタイル**
 
-Add gradebook score style configuration in the flat view. See api.lib.php in order to find the options: examples SCORE_DIV = 1, SCORE_PERCENT = 2, etc
+フラットビューで成績簿のスコアスタイル設定を追加します。オプションについては api.lib.php を参照してください。例: SCORE_DIV = 1, SCORE_PERCENT = 2 など。
 
-*Default: `1`*
-
+*デフォルト: `1`*
 
 ### `gradebook_score_display_colorsplit`
 
-**Threshold**
+**閾値**
 
-The threshold (in %) under which scores will be colored red
+スコアが赤く表示される閾値（%単位）。
 
-*Default: `50`*
-
+*デフォルト: `50`*
 
 ### `gradebook_score_display_custom`
 
-**Competence levels labelling**
+**コンピテンシーレベルのラベル付け**
 
-Tick the box to enable Competence levels labelling
+コンピテンシーレベルのラベル付けを有効にするにはチェックボックスをオンにします。
 
-*Default: `false`*
-
+*デフォルト: `false`*
 
 ### `gradebook_score_display_custom_standalone`
 
-**Custom score display in gradebook's standalone column**
+**成績簿の独立した列でのカスタムスコア表示**
 
-Shows custom competence level values in a separate column in gradebook flatview when using custom score display.
+カスタムスコア表示を使用する際に、成績簿のフラットビューでカスタムコンピテンシーレベルの値を別の列に表示します。
 
-*Default: `false`*
-
+*デフォルト: `false`*
 
 ### `gradebook_score_display_upperlimit`
 
-**Display score upper limit**
+**スコアの上限表示**
 
-Tick the box to show the score's upper limit
+スコアの上限を表示するにはチェックボックスをオンにします。
 
-*Default: `false`*
-
+*デフォルト: `false`*
 
 ### `gradebook_use_apcu_cache`
 
-**Use APCu caching to speed up gradebok**
+**成績簿の高速化のためにAPCuキャッシュを使用する**
 
-Improve speed when rendering gradebook student reports using Doctrine APCU cache. APCu is an optional but recommended PHP extension.
+Doctrine APCUキャッシュを使用して成績簿の学生レポートのレンダリング速度を向上させます。APCuはオプションですが、推奨されるPHP拡張機能です。
 
-*Default: `true`*
-
+*デフォルト: `true`*
 
 ### `gradebook_use_exercise_score_settings_in_categories`
 
-**Use test settings for grades display**
+**成績表示のためのテスト設定を使用する**
 
-Applies exercise score display settings (percentage vs. points) to category scores in gradebook.
+成績簿のカテゴリスコアに演習スコア表示設定（パーセンテージまたはポイント）を適用します。
 
-*Default: `true`*
-
+*デフォルト: `true`*
 
 ### `gradebook_use_exercise_score_settings_in_total`
 
-**Use global score display setting in gradebook**
+**成績簿でのグローバルスコア表示設定を使用する**
 
-Applies global exercise score display settings to total score calculations in gradebook.
+成績簿の合計スコア計算にグローバルな演習スコア表示設定を適用します。
 
-*Default: `false`*
-
+*デフォルト: `false`*
 
 ### `hide_gradebook_percentage_user_result`
 
-**Hide percentage in best/average gradebook results**
+**最高/平均成績簿結果でのパーセンテージを非表示にする**
 
-Removes percentage display from best/average score results shown to learners in gradebook.
+学習者に表示される成績簿の最高/平均スコア結果からパーセンテージ表示を削除します。
 
-*Default: `true`*
-
+*デフォルト: `true`*
 
 ### `my_display_coloring`
 
-**Display colors for scores in the gradebook**
+**成績簿でのスコアの色表示**
 
-Enables color coding for better score visibility in the gradebook.
+成績簿でのスコアの見やすさを向上させるために色分けを有効にします。
 
-*Default: `false`*
-
+*デフォルト: `false`*
 
 ### `student_publication_to_take_in_gradebook`
 
-**Assignment considered for gradebook**
+**成績簿で考慮される課題**
 
-In the assignments tool, students can upload more than one file. In case there is more than one for a single assignment, which one should be considered when ranking them in the gradebook? This depends on your methodology. Use 'first' to put the accent on attention to detail (like handling in time and handling the right work first). Use 'last' to highlight collaborative and adaptative work.
+課題ツールでは、学生が複数のファイルをアップロードできます。1つの課題に対して複数のファイルがある場合、成績簿でランク付けする際にどのファイルを考慮すべきですか？これはあなたの方法論によります。期限内に提出し、最初に正しい作業を処理するなどの細部への注意を重視する場合は 'first' を使用します。協力的で適応的な作業を強調する場合は 'last' を使用します。
 
-*Default: `first`*
-
+*デフォルト: `first`*
 
 ### `teachers_can_change_grade_model_settings`
 
-**Teachers can change the Gradebook model settings**
+**教師が成績簿モデル設定を変更できる**
 
-When editing a Gradebook
+成績簿を編集する際。
 
-*Default: `true`*
-
+*デフォルト: `true`*
 
 ### `teachers_can_change_score_settings`
 
-**Teachers can change the Gradebook score settings**
+**教師が成績簿スコア設定を変更できる**
 
-When editing the Gradebook settings
+成績簿設定を編集する際。
 
-*Default: `true`*
-
-
+*デフォルト: `true`*

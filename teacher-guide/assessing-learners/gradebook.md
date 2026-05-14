@@ -1,89 +1,89 @@
-# Assessments
+# 評価
 
-The assessments (previously *gradebook*) aggregates scores from exercises, assignments, and other graded activities into a unified view of each learner's performance. It also controls certificate generation.
+評価（以前は *gradebook* と呼ばれていました）は、演習、課題、その他の採点対象の活動から得たスコアを統合し、各学習者のパフォーマンスを一元的に表示します。また、証明書の生成も管理します。
 
-## How the Assessments Work
+## 評価の仕組み
 
-The assessments are weighted scoring systems. You define:
+評価は重み付けされた採点システムです。以下を定義します：
 
-1. **Which activities** contribute to the grade (exercises, assignments, attendance, etc.)
-2. **The weight** of each activity (how much it counts toward the final grade)
-3. **The minimum certification score** (the threshold for earning a certificate)
-4. **A minimum score per activity** — Each activity in the gradebook can have its own **Minimum score**. Learners who score below that minimum on a key activity can be prevented from achieving the objectives and earning the certificate, even if their overall weighted total is otherwise high enough.
+1. **どの活動**が成績に貢献するか（演習、課題、出席など）
+2. 各活動の**重み**（最終成績に対する貢献度）
+3. **最低認定スコア**（証明書を取得するための閾値）
+4. **活動ごとの最低スコア** — 評価に含まれる各活動には独自の**最低スコア**を設定できます。重要な活動で最低スコアを下回った学習者は、全体の加重合計が十分に高くても、目標を達成できず証明書を取得できない場合があります。
 
-Activities can be of 2 types:
-* **Classroom activity** (or in-person activity), where grades have to be imported from some other source
-* **Online activity** selected from the course, where grades are obtained through the fulfilling of the activity in the course
+活動には2つのタイプがあります：
+* **教室活動**（または対面活動）：成績を他のソースからインポートする必要があります
+* **オンライン活動**：コースから選択され、コース内での活動の達成を通じて成績が取得されます
 
-Chamilo calculates each learner's overall grade based on these weights.
+Chamiloはこれらの重みに基づいて各学習者の総合成績を計算します。
 
-## Setting Up the Assessment
+## 評価の設定
 
-1. Open the **Assessments** <img src="/.gitbook/assets/icons/mdi-certificate.svg" alt="Gradebook" data-size="line"> tool from the course homepage
-2. You will see the assessments overview, initially empty
+1. コースのホームページから**評価** <img src="/.gitbook/assets/icons/mdi-certificate.svg" alt="評価" data-size="line"> ツールを開きます
+2. 最初は空の評価概要が表示されます
 
-### Adding Activities
+### 活動の追加
 
-1. Click **Add online activity**
-2. Choose the type:
-   * **Test** — Link a specific exercise from the course
-   * **Assignment** — Link a student publication folder
-   * **Learning path** — Link learning path completion
-   * **Attendance** — Link an attendance sheet
-   * **Forum thread** — Link a forum thread (which has to be graded manually)
-   * **Survey** — Link a survey
-3. Select the specific activity within the chosen type
-4. Set the **Weight** for this activity (e.g., 30% for the midterm exam, 40% for the final project)
-5. Set the **Minimum score** if applicable
-6. Save
+1. **オンライン活動を追加**をクリックします
+2. タイプを選択します：
+   * **テスト** — コース内の特定の演習をリンク
+   * **課題** — 学生の公開フォルダをリンク
+   * **学習パス** — 学習パスの完了をリンク
+   * **出席** — 出席シートをリンク
+   * **フォーラムスレッド** — フォーラムスレッドをリンク（手動で採点する必要があります）
+   * **アンケート** — アンケートをリンク
+3. 選択したタイプ内の特定の活動を選択します
+4. この活動の**重み**を設定します（例：中間試験で30%、最終プロジェクトで40%）
+5. 該当する場合、**最低スコア**を設定します
+6. 保存します
 
-The total weight of all activities should add up to 100%.
+すべての活動の重みの合計は100%になる必要があります。
 
-### Sub-Categories
+### サブカテゴリ
 
-For complex grading schemes, you can create **sub-categories** to group related activities:
+複雑な採点スキームの場合、関連する活動をグループ化するために**サブカテゴリ**を作成できます：
 
-* **Example**: A "Homework" sub-category (weight: 30%) containing five individual assignments each worth 20% of the sub-category
-* Sub-categories let you organize the assessment hierarchically while keeping the overall calculation simple
+* **例**：5つの個別課題を含む「宿題」サブカテゴリ（重み：30%）、各課題はサブカテゴリの20%の価値があります
+* サブカテゴリを使用すると、全体の計算をシンプルに保ちながら、評価を階層的に整理できます
 
-## Viewing Grades
+## 成績の確認
 
-![The gradebook overview table showing learner names, activity scores, and weighted totals](/.gitbook/assets/gradebook-overview.png)
+![学習者の名前、活動のスコア、加重合計を表示する評価概要テーブル](/.gitbook/assets/gradebook-overview.png)
 
-The assessment shows a table with:
+評価には以下の内容を含むテーブルが表示されます：
 
-* Each learner's name
-* Scores for each activity
-* The weighted total
-* Whether the learner qualifies for a certificate
+* 各学習者の名前
+* 各活動のスコア
+* 加重合計
+* 学習者が証明書の取得資格を満たしているかどうか
 
-You can sort by any column to quickly identify top performers or struggling learners.
+任意の列で並べ替えることで、優秀な学習者や苦戦している学習者を素早く特定できます。
 
-## Certificates
+## 証明書
 
-To enable certificate generation:
+証明書の生成を有効にするには：
 
-1. In the assessment settings, set a **minimum certification score** (e.g., 70%)
-2. When a learner's weighted total meets or exceeds this threshold (and they have not failed any per-activity minimum score), they can download their certificate
-3. The certificate is generated from a template configured by the platform administrator
+1. 評価設定で**最低認定スコア**を設定します（例：70%）
+2. 学習者の加重合計がこの閾値以上（かつ活動ごとの最低スコアを下回っていない場合）、証明書をダウンロードできます
+3. 証明書はプラットフォーム管理者によって設定されたテンプレートから生成されます
 
-See [Certificates and Skills](../tracking-and-reporting/certificates-and-skills.md) for more details.
+詳細については、[証明書とスキル](../tracking-and-reporting/certificates-and-skills.md) を参照してください。
 
-## Linking to Skills
+## スキルとの関連付け
 
-You can associate **skills** with the assessment. When a learner reaches the set objectives to complete the assessment, they can either get a certificate, get a skill or both. Skills are visible on their profile in the social network space. This builds a competency record over time.
+評価に**スキル**を関連付けることができます。学習者が評価を完了するための目標を達成すると、証明書を取得するか、スキルを取得するか、またはその両方を得ることができます。スキルはソーシャルネットワークスペースのプロフィールに表示されます。これにより、時間の経過とともに能力の記録が構築されます。
 
-## Exporting Grades
+## 成績のエクスポート
 
-Click the **Export** <img src="/.gitbook/assets/icons/mdi-export.svg" alt="Export" data-size="line"> button to download grades as a spreadsheet. This is useful for:
+**エクスポート** <img src="/.gitbook/assets/icons/mdi-export.svg" alt="エクスポート" data-size="line"> ボタンをクリックして、成績をスプレッドシートとしてダウンロードします。これは以下に役立ちます：
 
-* Sharing grades with administrative systems
-* Performing additional analysis outside Chamilo
-* Keeping offline records
+* 管理システムと成績を共有する
+* Chamilo外で追加の分析を行う
+* オフラインの記録を保持する
 
-## Tips
+## ヒント
 
-* **Plan your weights early** — Define the grading scheme at the start of the course so learners know what to expect
-* **Use sub-categories for complex courses** — Group assignments, quizzes, and participation into clear categories
-* **Set meaningful pass thresholds** — The certification score should reflect actual competency, not just participation
-* **Check regularly** — Review the gradebook periodically to ensure all activities are properly linked and scores are being recorded
+* **重みを早めに計画する** — コースの開始時に採点スキームを定義して、学習者が何を期待すべきかを知らせる
+* **複雑なコースにはサブカテゴリを使用する** — 課題、クイズ、参加を明確なカテゴリにグループ化する
+* **意味のある合格閾値を設定する** — 認定スコアは実際の能力を反映するものであり、単なる参加ではない
+* **定期的に確認する** — すべての活動が正しくリンクされ、スコアが記録されていることを確認するために、評価を定期的に確認する

@@ -1,11 +1,12 @@
 # CAS
 
-> **Status in Chamilo 2.x.** CAS configuration entries (`cas_activate`, `cas_server`, `cas_server_uri`, `cas_port`, `cas_protocol`, `cas_add_user_activate`) still exist in the platform settings as a legacy carry-over from Chamilo 1.x, and CAS still appears as a selectable authentication source on the user form — but there is no CAS authenticator wired into the Chamilo 2.x security pipeline. Logging in through CAS does **not** currently work out of the box. If you need SSO on Chamilo 2.x, use [OAuth2](oauth2.md) (Azure / Keycloak / Generic) or [LDAP](ldap.md) instead.
+> **Chamilo 2.x での状況**  
+> CAS 設定項目（`cas_activate`、`cas_server`、`cas_server_uri`、`cas_port`、`cas_protocol`、`cas_add_user_activate`）は、Chamilo 1.x からのレガシーとしてプラットフォーム設定に残っています。また、CAS はユーザー形式の認証ソースとして選択可能に表示されていますが、Chamilo 2.x のセキュリティパイプラインには CAS 認証機能が組み込まれていません。CAS を通じたログインは現在、初期設定のままでは**動作しません**。Chamilo 2.x で SSO が必要な場合は、代わりに [OAuth2](oauth2.md)（Azure / Keycloak / 汎用）または [LDAP](ldap.md) を使用してください。
 
-## What CAS would do (1.x behaviour)
+## CAS が果たしていた役割（1.x の動作）
 
-CAS (Central Authentication Service) is a single sign-on protocol commonly used in universities and research institutions. In Chamilo 1.x, clicking "Log in with CAS" would redirect the user to a CAS server, validate the returned ticket, and create or match a local account from CAS attributes.
+CAS（Central Authentication Service）は、大学や研究機関で一般的に使用されるシングルサインオンプロトコルです。Chamilo 1.x では、「CAS でログイン」をクリックすると、ユーザーは CAS サーバーにリダイレクトされ、返されたチケットを検証し、CAS 属性からローカルアカウントを作成または一致させる機能がありました。
 
-## Migration note
+## 移行に関する注意
 
-If you are upgrading a Chamilo 1.x portal that used CAS, plan to re-implement that login flow on top of OAuth2 or LDAP for the time being, until the CAS authenticator is restored in a future 2.x release.
+CAS を使用していた Chamilo 1.x ポータルをアップグレードする場合、CAS 認証機能が将来の 2.x リリースで復元されるまでの間、OAuth2 または LDAP を基盤にしてログインフローを再実装する計画を立ててください。

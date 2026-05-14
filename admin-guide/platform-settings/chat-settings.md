@@ -1,50 +1,49 @@
-# Chat Settings
+# チャット設定
 
-Behaviour of the course **Chat** tool.
+コースの**チャット**ツールの動作について。
 
-Access these settings under **Administration > Configuration settings > Chat**. This category contains **5 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+これらの設定には、**管理 > 設定 > チャット**からアクセスできます。このカテゴリには**5つの設定**が含まれており、以下にプラットフォームの設定フィクスチャ（`SettingsCurrentFixtures.php`）に含まれるタイトルとコメントを記載しています。
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> コード内の変数名は等幅フォントで表示されています。APIを通じてスクリプトを作成する場合や、[`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml)を編集してこれらの設定をグローバルレベルで変更する必要がある場合に使用してください。
 
-## Settings
+## 設定
 
 ### `allow_global_chat`
 
-**Allow global chat**
+**グローバルチャットを許可する**
 
-Users can chat with each other
+ユーザーが互いにチャットできるようにします。
 
-*Default: `false`*
+*デフォルト: `false`*
 
 ### `course_chat_restrict_to_coach`
 
-**Restrict course chat to coaches**
+**コースチャットをコーチに制限する**
 
-Only allow students to talk to the tutors in the course (not other students).
+学生がコース内のチューターとだけ会話できるようにし、他の学生との会話を禁止します。
 
-*Default: `false`*
+*デフォルト: `false`*
 
 ### `hide_chat_video`
 
-**Hide videochat option in global chat**
+**グローバルチャットでビデオチャットオプションを非表示にする**
 
-When enabled, video chat functionality is disabled and unavailable in the global chat tool.
+有効にすると、グローバルチャットツールでビデオチャット機能が無効になり、利用できなくなります。
 
-*Default: `true`*
+*デフォルト: `true`*
 
 ### `save_private_conversations_in_documents`
 
-**Save private conversations in documents**
+**プライベートな会話をドキュメントに保存する**
 
-If enabled, 1:1 private chat messages will be mirrored in the course chat history documents. Recommended to keep disabled for privacy.
+有効にすると、1対1のプライベートチャットメッセージがコースのチャット履歴ドキュメントに反映されます。プライバシーの観点から無効にしておくことを推奨します。
 
-*Default: `false`*
+*デフォルト: `false`*
 
 ### `show_chat_folder`
 
-**Show the history folder of chat conversations**
+**チャット会話の履歴フォルダを表示する**
 
-This will show to theacher the folder that contains all sessions that have been made in the chat, the teacher can make them visible or not learners and use them as a resource
+これにより、教師にチャットで行われたすべてのセッションを含むフォルダが表示されます。教師はこれを学習者に見せるか否かを選択し、リソースとして利用することができます。
 
-*Default: `true`*
-
+*デフォルト: `true`*

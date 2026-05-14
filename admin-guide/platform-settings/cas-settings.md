@@ -1,52 +1,51 @@
-# CAS Settings
+# CAS設定
 
-Legacy CAS (Central Authentication Service) configuration carried over from Chamilo 1.x. See [CAS](../authentication/cas.md) for the current status of the CAS authenticator in Chamilo 2.x.
+Chamilo 1.xから引き継がれた従来のCAS（Central Authentication Service）設定。Chamilo 2.xでのCAS認証機能の現在の状況については、[CAS](../authentication/cas.md)を参照してください。
 
-Access these settings under **Administration > Configuration settings > CAS**. This category contains **7 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+これらの設定には、**管理 > 設定 > CAS**からアクセスできます。このカテゴリには**7つの設定**が含まれており、以下にプラットフォームの設定フィクスチャ（`SettingsCurrentFixtures.php`）に記載されているタイトルとコメントを記載しています。
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> コード内の変数名は等幅フォントで表示されています。APIを通じてスクリプトを作成する場合や、[`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml)を編集してこれらの設定をグローバルレベルで変更する必要がある場合に使用してください。
 
-## Settings
+## 設定
 
 ### `cas_activate`
 
-**Enable CAS authentication**
+**CAS認証を有効にする**
 
-Enabling CAS authentication will allow users to authenticate with their CAS credentials.<br/>Go to <a href='settings.php?category=CAS'>Plugin</a> to add a configurable 'CAS Login' button for your Chamilo campus. Or you can force CAS authentication by setting cas[force_redirect] in app/config/auth.conf.php.
+CAS認証を有効にすると、ユーザーはCAS認証情報を使用して認証を行うことができます。<br/>Chamiloキャンパスに設定可能な「CASログイン」ボタンを追加するには、<a href='settings.php?category=CAS'>プラグイン</a>に移動してください。または、app/config/auth.conf.phpでcas[force_redirect]を設定することで、CAS認証を強制することもできます。
 
 ### `cas_add_user_activate`
 
-**Enable CAS user addition**
+**CASユーザー追加を有効にする**
 
-Enable CAS user addition. To create the user account from the LDAP directory, the extldap_config and extldap_user_correspondance tables must be filled in in app/config/auth.conf.php
+CASユーザー追加を有効にします。LDAPディレクトリからユーザーアカウントを作成するには、app/config/auth.conf.php内のextldap_configおよびextldap_user_correspondanceテーブルにデータを入力する必要があります。
 
 ### `cas_port`
 
-**Main CAS server port**
+**メインCASサーバーのポート**
 
-The port on which to connect to the main CAS server
+メインCASサーバーに接続するためのポート
 
 ### `cas_protocol`
 
-**Main CAS server protocol**
+**メインCASサーバーのプロトコル**
 
-The protocol with which we connect to the CAS server
+CASサーバーに接続する際に使用するプロトコル
 
 ### `cas_server`
 
-**Main CAS server**
+**メインCASサーバー**
 
-This is the main CAS server which will be used for the authentication (IP address or hostname)
+認証に使用されるメインCASサーバー（IPアドレスまたはホスト名）
 
 ### `cas_server_uri`
 
-**Main CAS server URI**
+**メインCASサーバーのURI**
 
-The path to the CAS service
+CASサービスへのパス
 
 ### `update_user_info_cas_with_ldap`
 
-**Update CAS-authenticated user account information from LDAP**
+**LDAPからCAS認証ユーザーのアカウント情報を更新する**
 
-Makes sure the user firstname, lastname and email address are the same as current values in the LDAP directory
-
+ユーザーの名、姓、メールアドレスがLDAPディレクトリの現在の値と同じであることを確認します。

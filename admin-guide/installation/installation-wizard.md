@@ -1,136 +1,136 @@
-# Installation Wizard
+# インストールウィザード
 
-Chamilo 2.0 includes a web-based installation wizard that guides you through the initial setup. The wizard runs automatically when you access the platform for the first time.
+Chamilo 2.0には、初期設定をガイドするウェブベースのインストールウィザードが含まれています。初めてプラットフォームにアクセスすると、ウィザードが自動的に実行されます。
 
-## Before You Start
+## 開始する前に
 
-Ensure the following prerequisites are met:
+以下の前提条件が満たされていることを確認してください：
 
-1. Your server meets all [server requirements](server-requirements.md).
-2. You have downloaded a packaged (zip or tar.gz) version of Chamilo.
-3. Your web server is configured to serve the `public/` directory as the document root.
-4. Your `.env` file exists and is empty (the wizard will guide database setup).
+1. サーバーがすべての[サーバー要件](server-requirements.md)を満たしている。
+2. Chamiloのパッケージ版（zipまたはtar.gz）をダウンロードしている。
+3. ウェブサーバーが`public/`ディレクトリをドキュメントルートとして提供するように設定されている。
+4. `.env`ファイルが存在し、空である（ウィザードがデータベース設定をガイドします）。
 
-## Step 1: Installation Language
+## ステップ1：インストール言語
 
-![Installation wizard Step 1 — language selection](/.gitbook/assets/install-step1-language.png)
+![インストールウィザード ステップ1 — 言語選択](/.gitbook/assets/install-step1-language.png)
 
-The first step lets you select the language for the installation process. Choose your preferred language from the dropdown.
+最初のステップでは、インストールプロセスの言語を選択できます。ドロップダウンから希望する言語を選んでください。
 
-If Chamilo detects an existing installation (for an upgrade), it will display the migration status and offer an upgrade path instead of a fresh install.
+Chamiloが既存のインストールを検出した場合（アップグレードの場合）、移行ステータスを表示し、新規インストールの代わりにアップグレードパスを提供します。
 
-## Step 2: Requirements Check
+## ステップ2：要件チェック
 
-![Installation wizard Step 2 — requirements check showing PHP version, extensions, and directory permissions](/.gitbook/assets/install-step2-requirements.png)
+![インストールウィザード ステップ2 — PHPバージョン、拡張機能、ディレクトリ権限を示す要件チェック](/.gitbook/assets/install-step2-requirements.png)
 
-The wizard checks your server environment:
+ウィザードはサーバー環境をチェックします：
 
-* **PHP version** is 8.2 or superior
-* **Required PHP extensions** are installed (intl, gd, curl, zip, mbstring, xml, etc.)
-* **Recommended PHP settings** — `date.timezone` is configured, adequate upload/memory limits
-* **Directory and file permissions** — `var/`, `config/`, and `public/upload/` are writable by the web server
+* **PHPバージョン**が8.2以上である
+* **必要なPHP拡張機能**がインストールされている（intl, gd, curl, zip, mbstring, xmlなど）
+* **推奨されるPHP設定** — `date.timezone`が設定されており、適切なアップロード/メモリ制限がある
+* **ディレクトリおよびファイルの権限** — `var/`, `config/`, および`public/upload/`がウェブサーバーによって書き込み可能である
 
-If any requirements are not met, the wizard displays warnings or errors. Resolve them before proceeding.
+要件が満たされていない場合、ウィザードは警告またはエラーを表示します。進む前にこれらを解決してください。
 
-## Step 3: License
+## ステップ3：ライセンス
 
-![Installation wizard Step 3 — license acceptance](/.gitbook/assets/install-step3-license.png)
+![インストールウィザード ステップ3 — ライセンスの承諾](/.gitbook/assets/install-step3-license.png)
 
-This step displays the GNU/GPLv3 license. You must check the **"I accept"** checkbox to proceed.
+このステップでは、GNU/GPLv3ライセンスが表示されます。進むには**「承諾します」**チェックボックスをオンにする必要があります。
 
-Optionally, you can expand the **Contact information** section to provide details about your organization (name, email, company, country). This is voluntary and helps the Chamilo community understand who uses the platform, but will also allow us to contact you *very rarely* about events happening close to you.
+オプションとして、**連絡先情報**セクションを展開して、組織の詳細（名前、メール、会社、国）を入力できます。これは任意であり、Chamiloコミュニティがプラットフォームを使用している人を理解するのに役立ちますが、非常にまれに近隣で開催されるイベントについて連絡を取ることも可能になります。
 
-## Step 4: Database Settings
+## ステップ4：データベース設定
 
-![Installation wizard Step 4 — database connection configuration](/.gitbook/assets/install-step4-database.png)
+![インストールウィザード ステップ4 — データベース接続の設定](/.gitbook/assets/install-step4-database.png)
 
-Enter your database connection details:
+データベース接続の詳細を入力してください：
 
-| Field | Description |
+| フィールド | 説明 |
 |-------|-------------|
-| **Database host** | The hostname or IP of your database server (e.g., `localhost` or `127.0.0.1`) |
-| **Database port** | Default: 3306 for MySQL/MariaDB |
-| **Database name** | The name of the database to use (alphanumeric and underscores only) |
-| **Database user** | A database user with full privileges on the specified database |
-| **Database password** | The password for the database user |
+| **データベースホスト** | データベースサーバーのホスト名またはIP（例：`localhost`または`127.0.0.1`） |
+| **データベースポート** | デフォルト：MySQL/MariaDBの場合は3306 |
+| **データベース名** | 使用するデータベースの名前（英数字とアンダースコアのみ） |
+| **データベースユーザー** | 指定したデータベースに対する完全な権限を持つデータベースユーザー |
+| **データベースパスワード** | データベースユーザーのパスワード |
 
-Click **Check database connection** to test. The wizard will not let you proceed until the connection is successful. If the database already exists, a warning is displayed.
+**データベース接続を確認**をクリックしてテストします。接続が成功するまでウィザードは先に進めません。データベースがすでに存在する場合、警告が表示されます。
 
-## Step 5: Configuration Settings
+## ステップ5：構成設定
 
-![Installation wizard Step 5 — administrator account, portal settings, and email configuration](/.gitbook/assets/install-step5-config.png)
+![インストールウィザード ステップ5 — 管理者アカウント、ポータル設定、メール設定](/.gitbook/assets/install-step5-config.png)
 
-This step combines administrator account creation, portal settings, and email configuration.
+このステップでは、管理者アカウントの作成、ポータル設定、メール設定を組み合わせています。
 
-### Administrator Account
+### 管理者アカウント
 
-| Field | Description |
+| フィールド | 説明 |
 |-------|-------------|
-| **Login** | The administrator username |
-| **Password** | Choose a strong password — this account has full platform access |
-| **First name** | The administrator's first name |
-| **Last name** | The administrator's last name |
-| **Email** | Used for system notifications and password resets |
-| **Phone** | Optional contact number |
+| **ログイン** | 管理者ユーザー名 |
+| **パスワード** | 強力なパスワードを選択してください — このアカウントはプラットフォームへの完全なアクセス権を持っています |
+| **名** | 管理者の名 |
+| **姓** | 管理者の姓 |
+| **メール** | システム通知やパスワードリセットに使用されます |
+| **電話** | 任意の連絡先番号 |
 
-These admin details will also be used by Chamilo to populate the support contact details, so make sure you go reconfigure that in the settings after the installation concluded.
+これらの管理者情報は、Chamiloがサポート連絡先情報を入力するためにも使用されるため、インストールが完了した後に設定で再構成することを確認してください。
 
-### Portal Settings
+### ポータル設定
 
-| Field | Description |
+| フィールド | 説明 |
 |-------|-------------|
-| **Language** | The default interface language |
-| **Portal name** | The name of your platform (e.g., "My Organization LMS") |
-| **Company short name** | Your organization's abbreviated name |
-| **Company URL** | Your organization's website |
-| **Encryption method** | Password hashing algorithm — **bcrypt** is recommended |
-| **Allow self-registration** | Yes / No / After approval |
-| **Allow self-registration as trainer** | Yes / No |
+| **言語** | デフォルトのインターフェース言語 |
+| **ポータル名** | プラットフォームの名前（例：「私の組織LMS」） |
+| **会社略称** | 組織の略称 |
+| **会社URL** | 組織のウェブサイト |
+| **暗号化方法** | パスワードハッシュアルゴリズム — **bcrypt**が推奨されます |
+| **自己登録を許可** | はい / いいえ / 承認後 |
+| **トレーナーとしての自己登録を許可** | はい / いいえ |
 
-### Email Configuration
+### メール設定
 
-The email settings section lets you configure the mail transport (SMTP, Amazon SES, Mailjet, etc.) and test email delivery. See [Email Configuration](email-configuration.md) for details.
+メール設定セクションでは、メール送信方法（SMTP、Amazon SES、Mailjetなど）を設定し、メール配信をテストできます。詳細は[メール設定](email-configuration.md)を参照してください。
 
-All these settings can be changed later from the administration panel.
+これらの設定は、後から管理パネルから変更できます。
 
-## Step 6: Last Check Before Install
+## ステップ6：インストール前の最終確認
 
-![Installation wizard Step 6 — review of all settings before installation](/.gitbook/assets/install-step6-review.png)
+![インストールウィザード ステップ6 — インストール前のすべての設定の確認](/.gitbook/assets/install-step6-review.png)
 
-This step displays a summary of everything you entered for review:
+このステップでは、入力したすべての内容の概要が表示され、確認することができます：
 
-* Administrator credentials (password is hidden by default — click the eye icon to reveal)
-* Portal settings
-* Database connection details
+* 管理者認証情報（パスワードはデフォルトで非表示 — 目のアイコンをクリックすると表示されます）
+* ポータル設定
+* データベース接続の詳細
 
-Review carefully, then click **Install Chamilo** to execute the installation. The wizard creates all database tables, populates initial data, and configures the platform.
+慎重に確認した後、**Chamiloをインストール**をクリックしてインストールを実行します。ウィザードはすべてのデータベーステーブルを作成し、初期データを入力し、プラットフォームを設定します。
 
-## Step 7: Installation Complete
+## ステップ7：インストール完了
 
-![Installation wizard Step 7 — completion with security advice and portal link](/.gitbook/assets/install-step7-complete.png)
+![インストールウィザード ステップ7 — セキュリティアドバイスとポータルリンクを含む完了画面](/.gitbook/assets/install-step7-complete.png)
 
-After installation completes successfully, the wizard shows:
+インストールが正常に完了すると、ウィザードは以下の内容を表示します：
 
-* **Getting started advice** — Suggests creating your first course to explore the platform (as admin, you need to do this from the admin panel)
-* **Security recommendations**:
-  * Make the `config/` directory read-only (`chmod 0555`)
-  * Delete the `public/main/install/` directory
-* A **link to your portal** to log in with the administrator credentials you just created
+* **開始のためのアドバイス** — プラットフォームを探索するために最初のコースを作成することを提案します（管理者として、管理パネルからこれを行う必要があります）
+* **セキュリティに関する推奨事項**：
+  * `config/` ディレクトリを読み取り専用に設定する（`chmod 0555`）
+  * `public/main/install/` ディレクトリを削除する
+* 作成した管理者認証情報でログインするための**ポータルへのリンク**
 
-## Post-Installation
+## インストール後
 
-After completing the wizard:
+ウィザードを完了した後：
 
-* **Remove or restrict access to the installer** -- The wizard should not be accessible after installation. Chamilo typically locks it automatically, but verify that re-visiting the install URL redirects to the login page.
-* **Configure email delivery** -- See [Email Configuration](email-configuration.md).
-* **Set up backups** -- Before adding content, configure automated database and file backups (Chamilo does not provide a solution for this, but copying the var/ folder and the database are the 2 most important elements).
-* **Review security settings** -- See [Security Settings](../platform-settings/security-settings.md).
+* **インストーラーへのアクセスを削除または制限する** -- インストール後、ウィザードにはアクセスできないようにする必要があります。Chamiloは通常これを自動的にロックしますが、インストールURLに再訪問してもログインページにリダイレクトされることを確認してください。
+* **メール配信を設定する** -- [メール設定](email-configuration.md) を参照してください。
+* **バックアップを設定する** -- コンテンツを追加する前に、データベースとファイルの自動バックアップを設定してください（Chamiloはこのためのソリューションを提供していませんが、var/フォルダとデータベースをコピーすることが最も重要な2つの要素です）。
+* **セキュリティ設定を確認する** -- [セキュリティ設定](../platform-settings/security-settings.md) を参照してください。
 
-## Troubleshooting
+## トラブルシューティング
 
-| Problem | Solution |
+| 問題 | 解決策 |
 |---------|----------|
-| Blank page at install URL | Check PHP error logs. Change to `APP_ENV=dev` in .env temporarily to see errors in the browser. |
-| Database connection fails | Verify credentials, confirm the database exists, check that the database server allows connections from the web server host. |
-| Permission denied errors | Ensure `var/` is writable by the web server user. |
-| Assets not loading (no CSS/JS) | Run `yarn install && yarn build` to compile frontend assets. |
+| インストールURLで空白のページが表示される | PHPエラーログを確認してください。一時的に .env ファイルで `APP_ENV=dev` に変更すると、ブラウザでエラーが表示されます。 |
+| データベース接続が失敗する | 認証情報を確認し、データベースが存在することを確認し、データベースサーバーがウェブサーバーホストからの接続を許可していることを確認してください。 |
+| 権限が拒否されるエラー | `var/` がウェブサーバーユーザーによって書き込み可能であることを確認してください。 |
+| アセットが読み込まれない（CSS/JSがない） | `yarn install && yarn build` を実行してフロントエンドアセットをコンパイルしてください。 |

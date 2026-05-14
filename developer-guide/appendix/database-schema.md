@@ -1,92 +1,92 @@
-# Database Schema
+# データベーススキーマ
 
-Chamilo 2.0 maps a large set of Doctrine entities to database tables. The exact counts drift between releases — read the entity directories listed below for the current state.
+Chamilo 2.0 は、多数の Doctrine エンティティをデータベーステーブルにマッピングしています。正確な数はリリースごとに変動します。現在の状態については、以下にリストされているエンティティディレクトリを参照してください。
 
-## Entity locations
+## エンティティの場所
 
-| Bundle | Where | Prefix |
+| バンドル | 場所 | プレフィックス |
 |--------|-------|--------|
-| CoreBundle | `src/CoreBundle/Entity/` | None (e.g., `user`, `course`, `session`) |
-| CourseBundle | `src/CourseBundle/Entity/` | `c_` (e.g., `c_document`, `c_quiz`, `c_lp`) |
+| CoreBundle | `src/CoreBundle/Entity/` | なし（例：`user`, `course`, `session`） |
+| CourseBundle | `src/CourseBundle/Entity/` | `c_` （例：`c_document`, `c_quiz`, `c_lp`） |
 | LtiBundle | `src/LtiBundle/Entity/` | `lti_` |
 
-## Key Tables
+## 主要なテーブル
 
-### User and Authentication
+### ユーザーと認証
 
-| Table | Purpose |
+| テーブル | 目的 |
 |-------|---------|
-| `user` | User accounts |
-| `access_url` | Multi-URL portals |
-| `access_url_rel_user` | User-portal assignments |
-| `usergroup` | Platform-wide user groups |
+| `user` | ユーザーアカウント |
+| `access_url` | マルチURLポータル |
+| `access_url_rel_user` | ユーザーとポータルの割り当て |
+| `usergroup` | プラットフォーム全体のユーザーグループ |
 
-### Courses
+### コース
 
-| Table | Purpose |
+| テーブル | 目的 |
 |-------|---------|
-| `course` | Courses |
-| `course_category` | Course categories |
-| `course_rel_user` | Course enrollments |
+| `course` | コース |
+| `course_category` | コースカテゴリ |
+| `course_rel_user` | コースへの登録 |
 
-### Sessions
+### セッション
 
-| Table | Purpose |
+| テーブル | 目的 |
 |-------|---------|
-| `session` | Training sessions |
-| `session_rel_user` | Session enrollments |
-| `session_rel_course` | Courses in sessions |
-| `session_rel_course_rel_user` | User enrollment per session-course |
+| `session` | トレーニングセッション |
+| `session_rel_user` | セッションへの登録 |
+| `session_rel_course` | セッション内のコース |
+| `session_rel_course_rel_user` | セッションごとのコースへのユーザー登録 |
 
-### Resource System
+### リソースシステム
 
-| Table | Purpose |
+| テーブル | 目的 |
 |-------|---------|
-| `resource_node` | Unified content abstraction |
-| `resource_file` | File attachments |
-| `resource_link` | Visibility/access per context |
-| `resource_type` | Resource type registry |
+| `resource_node` | 統一されたコンテンツ抽象化 |
+| `resource_file` | ファイル添付 |
+| `resource_link` | コンテキストごとの表示/アクセス |
+| `resource_type` | リソースタイプのレジストリ |
 
-### Course Content (c_ prefix)
+### コースコンテンツ（c_ プレフィックス）
 
-| Table | Purpose |
+| テーブル | 目的 |
 |-------|---------|
-| `c_document` | Documents |
-| `c_quiz` | Exercises/tests |
-| `c_quiz_question` | Quiz questions |
-| `c_quiz_answer` | Question answers |
-| `c_lp` | Learning paths |
-| `c_lp_item` | Learning path items |
-| `c_forum_category` | Forum categories |
-| `c_forum_forum` | Forums |
-| `c_forum_thread` | Forum threads |
-| `c_forum_post` | Forum posts |
-| `c_student_publication` | Assignments/submissions |
-| `c_survey` | Surveys |
-| `c_glossary` | Glossary terms |
-| `c_calendar_event` | Calendar events |
-| `c_attendance` | Attendance sheets |
+| `c_document` | ドキュメント |
+| `c_quiz` | 演習/テスト |
+| `c_quiz_question` | クイズの質問 |
+| `c_quiz_answer` | 質問の回答 |
+| `c_lp` | 学習パス |
+| `c_lp_item` | 学習パスアイテム |
+| `c_forum_category` | フォーラムカテゴリ |
+| `c_forum_forum` | フォーラム |
+| `c_forum_thread` | フォーラムスレッド |
+| `c_forum_post` | フォーラム投稿 |
+| `c_student_publication` | 課題/提出物 |
+| `c_survey` | アンケート |
+| `c_glossary` | 用語集 |
+| `c_calendar_event` | カレンダーイベント |
+| `c_attendance` | 出欠シート |
 
-### Tracking
+### 追跡
 
-| Table | Purpose |
+| テーブル | 目的 |
 |-------|---------|
-| `track_e_login` | Login tracking |
-| `track_e_online` | Online user tracking |
-| `track_e_default` | Generic activity tracking |
-| `gradebook_category` | Gradebook categories |
-| `gradebook_result` | Grades |
+| `track_e_login` | ログイント追跡 |
+| `track_e_online` | オンラインユーザー追跡 |
+| `track_e_default` | 一般的な活動追跡 |
+| `gradebook_category` | 成績簿カテゴリ |
+| `gradebook_result` | 成績 |
 
-### Settings
+### 設定
 
-| Table | Purpose |
+| テーブル | 目的 |
 |-------|---------|
-| `settings` | Platform settings |
-| `settings_options` | Setting option definitions |
+| `settings` | プラットフォーム設定 |
+| `settings_options` | 設定オプションの定義 |
 
-## Migrations
+## マイグレーション
 
-Database schema changes are managed through Doctrine Migrations in `src/CoreBundle/Migrations/`. Run migrations with:
+データベーススキーマの変更は、`src/CoreBundle/Migrations/` 内の Doctrine Migrations を通じて管理されています。マイグレーションを実行するには以下を使用してください：
 
 ```bash
 php bin/console doctrine:migrations:migrate

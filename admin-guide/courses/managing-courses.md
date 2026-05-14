@@ -1,57 +1,57 @@
-# Managing Courses
+# コースの管理
 
-As an administrator, you can manage all courses on the platform regardless of who created them.
+管理者として、プラットフォーム上のすべてのコースを、作成者に関係なく管理することができます。
 
-## Course List
+## コース一覧
 
-![The course list showing all courses with title, code, category, enrolled users, and visibility status](/.gitbook/assets/admin-course-list.png)
+![コース一覧には、タイトル、コード、カテゴリ、登録ユーザー数、公開状態が表示されます](/.gitbook/assets/admin-course-list.png)
 
-From the administration panel, click **Course list** to see all courses. The list shows:
+管理パネルから**コース一覧**をクリックすると、すべてのコースが表示されます。一覧には以下の情報が含まれます：
 
-* Course title and code
-* Language
-* Categories
-* Visibility status
+* コースのタイトルとコード
+* 言語
+* カテゴリ
+* 公開状態
 
-Use the **Advanced search** tool to find specific courses.
+特定のコースを見つけるには、**詳細検索**ツールを使用してください。
 
-## Creating a Course
+## コースの作成
 
-As an administrator, you can create courses and assign them to any teacher:
+管理者として、コースを作成し、任意の教師に割り当てることができます：
 
-1. Click **Add course** from the administration panel
-2. Fill in the course details (title, code, category, language)
-3. Assign a teacher to the course
-4. Save
+1. 管理パネルから**コースを追加**をクリックします
+2. コースの詳細（タイトル、コード、カテゴリ、言語）を入力します
+3. コースに教師を割り当てます
+4. 保存します
 
-Note: In Chamilo 1.11.x, the course code was shown as part of the course URL, and was impossible to change after the creation of the course. This behaviour is changing in 2.x. The course code is not visible in the URL anymore, and future versions might allow teachers to modify the course code afterwards as it become less essential to the platform.
+注意：Chamilo 1.11.xでは、コースコードがコースURLの一部として表示され、コース作成後に変更することはできませんでした。この動作は2.xで変更されています。コースコードはURLに表示されなくなり、将来的なバージョンでは、プラットフォームにとって重要性が低下するため、教師が後からコースコードを変更できるようになる可能性があります。
 
-## Managing an Existing Course
+## 既存のコースの管理
 
-Find a course in the list to access management options in the *Actions* column:
+一覧からコースを見つけて、*アクション*列にある管理オプションにアクセスします：
 
-* **Information** — Show information about the course 
-* **Course home** — Sends you directly to the course's homepage 
-* **Reporting** — See engagement and performance data
-* **Edit** — Change course title, category, visibility, and other settings
-* **Create a backup** — Go to the maintenance section of the course, where you can create copies and do other things
-* **Add to catalogue** — Add this course to the course catalogue
-* **Delete** — Permanently remove the course and all its content
+* **情報** — コースに関する情報を表示します
+* **コースホーム** — コースのホームページに直接移動します
+* **レポート** — エンゲージメントやパフォーマンスデータを確認します
+* **編集** — コースのタイトル、カテゴリ、公開状態、その他の設定を変更します
+* **バックアップを作成** — コースのメンテナンスセクションに移動し、コピーを作成したり他の操作を行ったりできます
+* **カタログに追加** — このコースをコースカタログに追加します
+* **削除** — コースとそのすべてのコンテンツを永久に削除します
 
-> Deleting a course removes all content, learner data, grades, and tracking information permanently. Consider exporting the course first as a backup.
+> コースを削除すると、すべてのコンテンツ、学習者データ、成績、追跡情報が永久に削除されます。まずコースをバックアップとしてエクスポートすることを検討してください。
 
-## Bulk Operations
+## 一括操作
 
-Select multiple courses in the list to perform batch actions such as deleting them. To export a course, enter the course and use the **Maintenance** tool — there is no bulk export action on the admin course list.
+一覧から複数のコースを選択して、削除などの一括操作を実行できます。コースをエクスポートするには、コースに入り、**メンテナンス**ツールを使用してください。管理者のコース一覧には一括エクスポートの操作はありません。
 
-## Course Visibility Settings
+## コースの公開設定
 
-Administrators can override the visibility set by teachers:
+管理者は、教師が設定した公開状態を上書きすることができます：
 
-| Visibility | Effect |
+| 公開状態 | 効果 |
 |-----------|--------|
-| **Public** | Accessible to everyone, including anonymous visitors |
-| **Open** | Accessible to all logged-in users |
-| **Private** | Only enrolled users can access the course |
-| **Closed** | No one can access the course (except the teacher and admins) |
-| **Hidden** | No one can view or access the course (except the admins) |
+| **公開** | 匿名訪問者を含むすべての人がアクセス可能です |
+| **オープン** | ログインしているすべてのユーザーがアクセス可能です |
+| **プライベート** | 登録しているユーザーのみがコースにアクセス可能です |
+| **クローズド** | 教師と管理者以外は誰もアクセスできません |
+| **非表示** | 管理者以外は誰も閲覧またはアクセスできません |

@@ -1,41 +1,41 @@
-# Classes / User Groups
+# クラス / ユーザーグループ
 
-Classes in the administration panel are platform-wide groups used to organize users for management purposes. They are distinct from course-level groups (which are created by teachers within a course).
+管理パネル内のクラスは、プラットフォーム全体でユーザーを管理目的で整理するためのグループです。コースレベルのグループ（教師がコース内で作成するもの）とは異なります。
 
-> User groups and [Classes](../../admin-guide/sessions/classes.md) share the same interface. The only difference is the **group type** setting: choose "Class" to create a class (used for bulk session enrollment), or "User group" for more social groups that can have their own space in the internal social network. See [Classes](../../admin-guide/sessions/classes.md) for details on session enrollment.
+> ユーザーグループと[クラス](../../admin-guide/sessions/classes.md)は同じインターフェースを共有しています。唯一の違いは**グループタイプ**の設定です：一括セッション登録に使用するクラスを作成する場合は「クラス」を選択し、内部ソーシャルネットワークで独自のスペースを持つことができるより社交的なグループを作成する場合は「ユーザーグループ」を選択します。セッション登録の詳細については、[クラス](../../admin-guide/sessions/classes.md)を参照してください。
 
-## Creating a Group
+## グループの作成
 
-![The user groups list showing available groups with name, description, and member count](/.gitbook/assets/admin-user-groups-list.png)
+![利用可能なグループのリストを表示し、名前、説明、メンバー数を確認できるユーザーグループリスト](/.gitbook/assets/admin-user-groups-list.png)
 
-1. From the administration panel, navigate to **Classes**
-2. Click **Add classes**
-3. Enter a **title** and optional **description**
-4. Check **Social group** if this will be a social group. Leave unchecked if it will be a class.
-5. Add an optionali reference URL and picture/logo.
-6. Choose the group **permissions**:
-   * **Open** — Any user can join
-   * **Closed** — Users must be added by an administrator
-7. Check if you want members to be able to leave the class by themselves.
-8. Save.
+1. 管理パネルから**クラス**に移動します。
+2. **クラスの追加**をクリックします。
+3. **タイトル**と任意の**説明**を入力します。
+4. ソーシャルグループにする場合は**ソーシャルグループ**にチェックを入れます。クラスにする場合はチェックを外してください。
+5. 任意で参照URLや画像/ロゴを追加します。
+6. グループの**権限**を選択します：
+   * **オープン** — どのユーザーでも参加可能
+   * **クローズド** — 管理者がユーザーを追加する必要があります
+7. メンバーが自分でクラスを退出できるようにする場合はチェックを入れます。
+8. 保存します。
 
-## Adding Members
+## メンバーの追加
 
-1. Open the list of classes/user groups
-2. Click the user icon **Subscribe users to class**
-3. Search for users by name, username or email
-4. Select the users to add, using the arrows to the right side
-5. Click the confirmation button to save
+1. クラス/ユーザーグループのリストを開きます。
+2. ユーザーアイコン**クラスにユーザーを登録**をクリックします。
+3. 名前、ユーザー名、またはメールでユーザーを検索します。
+4. 右側の矢印を使用して追加するユーザーを選択します。
+5. 保存するために確認ボタンをクリックします。
 
-## Use Cases
+## ユースケース
 
-* **Department organization** — Group users by department or team
-* **Bulk enrollment** — Add all members of a group to a course or session at once
-* **Targeted communication** — Send announcements to specific groups
-* **Reporting** — View training progress filtered by group
+* **部門の組織化** — 部門やチームごとにユーザーをグループ化
+* **一括登録** — グループの全メンバーを一度にコースまたはセッションに追加
+* **ターゲットコミュニケーション** — 特定のグループにアナウンスを送信
+* **レポート** — グループごとにフィルタリングされたトレーニングの進捗状況を確認
 
-## Managing Groups
+## グループの管理
 
-* **Edit** — Change the group name, description, or visibility
-* **Manage members** — Add or remove members
-* **Delete** — Remove the group (does not delete the member accounts)
+* **編集** — グループ名、説明、または可視性を変更
+* **メンバーの管理** — メンバーの追加または削除
+* **削除** — グループを削除（メンバーアカウントは削除されません）

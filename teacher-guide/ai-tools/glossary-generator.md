@@ -1,40 +1,40 @@
-# Glossary Terms Generator
+# グロッサリー用語ジェネレーター
 
-The AI Glossary Terms Generator helps you build your course glossary faster by automatically producing term definitions from a topic or subject area. You review each suggested term and definition before adding anything to the glossary.
+AIを活用したグロッサリー用語ジェネレーターは、トピックや主題領域から用語の定義を自動生成することで、コースのグロッサリーをより迅速に構築するのに役立ちます。提案された各用語と定義を確認し、グロッサリーに追加する前に内容を精査することができます。
 
-## Accessing the Glossary Terms Generator
+## グロッサリー用語ジェネレーターへのアクセス
 
-The generator is available from the **Glossary** tool, provided that:
+ジェネレーターは以下の条件を満たしている場合に、**グロッサリー**ツール内で利用可能です：
 
-1. AI helpers are enabled at the platform level
-2. At least one AI text provider is configured
+1. プラットフォームレベルでAIアシスタントが有効になっている
+2. 少なくとも1つのAIテキストプロバイダーが設定されている
 
-Open the **Glossary** <img src="/.gitbook/assets/icons/mdi-alphabetical.svg" alt="Glossary" data-size="line"> tool from the course homepage and look for the **Generate with AI** button in the toolbar.
+コースのホームページで**グロッサリー**ツール <img src="/.gitbook/assets/icons/mdi-alphabetical.svg" alt="グロッサリー" data-size="line"> を開き、ツールバーにある**AIで生成**ボタンを探してください。
 
-## How to Generate Terms
+## 用語の生成方法
 
-1. Click **Generate with AI**
-2. Enter a **topic or subject area** — describe the domain you want terms for (e.g. "introductory organic chemistry" or "project management methodologies")
-3. Optionally specify the **number of terms** to generate
-4. Select an **AI provider** if more than one is configured
-5. Click **Generate**
+1. **AIで生成**をクリックします
+2. **トピックまたは主題領域**を入力します — 用語を生成したいドメインを記述します（例：「入門有機化学」や「プロジェクト管理方法論」）
+3. 必要に応じて、生成する**用語の数**を指定します
+4. 複数のAIプロバイダーが設定されている場合は、**AIプロバイダー**を選択します
+5. **生成**をクリックします
 
-The AI produces a list of terms with definitions that you can then review.
+AIが定義付きの用語リストを生成し、確認することができます。
 
-## Reviewing and Adding Terms
+## 用語の確認と追加
 
-Generated terms are shown as suggestions. Before adding them to your glossary:
+生成された用語は提案として表示されます。グロッサリーに追加する前に以下の点を確認してください：
 
-* **Check accuracy** — Verify that definitions are correct for your course level and context
-* **Edit wording** — Adjust the definition to match your teaching style or course conventions
-* **Remove duplicates** — Skip any terms already in your glossary or outside the scope of your course
-* **Select what to add** — Choose which terms to import; you do not have to accept all of them
+* **正確性の確認** — 定義がコースのレベルや文脈に合っているか確認します
+* **文言の編集** — 定義を自分の指導スタイルやコースの慣例に合わせて調整します
+* **重複の削除** — すでにグロッサリーに含まれている用語やコースの範囲外の用語は無視します
+* **追加する用語の選択** — インポートする用語を選びます。すべてを受け入れる必要はありません
 
-Once satisfied, confirm the selection and the terms are added to your glossary.
+満足したら選択を確認し、用語がグロッサリーに追加されます。
 
-## Tips
+## ヒント
 
-* **Be specific with your topic** — Broad topics produce general definitions; a narrower topic gives you more course-relevant terms
-* **Always review** — AI definitions may be simplified or imprecise. Check each one before publishing to learners
-* **Edit after importing** — You can always update a term's definition later from the glossary management view
-* **Combine with manual entries** — Use the generator to get a starting set, then add discipline-specific terms manually
+* **トピックを具体的にする** — 広範なトピックでは一般的な定義が生成されます。より狭いトピックを指定すると、コースに関連性の高い用語が得られます
+* **必ず確認する** — AIが生成した定義は簡略化されていたり不正確な場合があります。学生に公開する前に必ず一つ一つ確認してください
+* **インポート後に編集する** — グロッサリー管理ビューで後から用語の定義を更新することも可能です
+* **手動入力と組み合わせる** — ジェネレーターで初期セットを取得した後、学科特有の用語を手動で追加してください

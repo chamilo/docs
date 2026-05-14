@@ -1,30 +1,30 @@
-# Sessions
+# セッション
 
-Sessions are one of Chamilo's most powerful features. They allow you to deliver the same courses to different groups of learners at different times, without duplicating course content.
+セッションはChamiloの最も強力な機能の一つです。コース内容を複製することなく、異なる学習者グループに異なるタイミングで同じコースを提供することができます。
 
-* **[Managing Sessions](managing-sessions.md)** — Create, configure, and manage training sessions
-* **[Session Categories](session-categories.md)** — Organize sessions into categories
-* **[Careers and Promotions](careers-and-promotions.md)** — Define career paths and promotion workflows
-* **[Classes](classes.md)** — Manage learner classes for bulk enrollment
+* **[セッションの管理](managing-sessions.md)** — トレーニングセッションの作成、設定、管理
+* **[セッションカテゴリ](session-categories.md)** — セッションをカテゴリに整理
+* **[キャリアと昇進](careers-and-promotions.md)** — キャリアパスと昇進のワークフローを定義
+* **[クラス](classes.md)** — 一括登録のための学習者クラスの管理
 
-## Understanding Sessions
+## セッションの理解
 
-Sessions are **optional**. You can make your portal work just by using courses, but we **really** recommend you consider the extra complexity of sessions as a way to save management work in the long run.
+セッションは**任意**です。コースだけを使用してポータルを運用することも可能ですが、長期的には管理作業を節約する方法として、セッションの追加の複雑さを検討することを**強く**お勧めします。
 
-A **course** holds the content (documents, exercises, learning paths). A **session** assigns that course (or multiple courses) to a specific group of learners *for a specific time period*.
+**コース**にはコンテンツ（ドキュメント、演習、学習パス）が含まれています。**セッション**は、特定の学習者グループに*特定の期間*、そのコース（または複数のコース）を割り当てます。
 
-This architecture means:
+このアーキテクチャは以下のことを意味します：
 
-* Teachers create content once in the course
-* Administrators create sessions to deliver that content to different cohorts
-* Each session has its own enrollment, tracking data, and results
-* The base course content is shared, but session coaches can customize certain elements
+* 教師はコース内でコンテンツを一度作成します
+* 管理者はセッションを作成して、異なるグループにそのコンテンツを提供します
+* 各セッションには独自の登録、追跡データ、結果があります
+* 基本的なコースコンテンツは共有されますが、セッションのコーチは特定の要素をカスタマイズできます
 
-## When to Use Sessions
+## セッションを使用するタイミング
 
-Use sessions when:
+セッションを使用する場面：
 
-* You deliver the same training multiple times (e.g., monthly onboarding sessions)
-* You have cohort-based programs (e.g., semester-based classes)
-* You need separate tracking per group of learners
-* You want different coaches to manage different editions of the same course
+* 同じトレーニングを複数回提供する場合（例：毎月のオンボーディングセッション）
+* コホートベースのプログラムがある場合（例：学期制のクラス）
+* 学習者グループごとに個別の追跡が必要な場合
+* 同じコースの異なる版を異なるコーチが管理したい場合

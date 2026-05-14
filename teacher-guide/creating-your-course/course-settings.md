@@ -1,99 +1,100 @@
-# Course Settings
+# コース設定
 
-Course settings allow you to control how your course behaves — who can access it, how it appears, and what features are enabled.
+コース設定では、コースの動作を制御することができます。誰がアクセスできるか、どのように表示されるか、どの機能が有効になるかを設定できます。
 
-To access course settings, enter your course and click the **Settings** <img src="/.gitbook/assets/icons/mdi-cog.svg" alt="Settings" data-size="line"> icon next to the **Switch to student view** button.
+コース設定にアクセスするには、コースに入り、**学生ビューに切り替え**ボタンの横にある**設定** <img src="/.gitbook/assets/icons/mdi-cog.svg" alt="設定" data-size="line"> アイコンをクリックしてください。
 
-## General Settings
+## 一般設定
 
-### Course Information
+### コース情報
 
-* **Course title** — The display name of your course
-* **Course language** — The primary language for the course interface
-* **Course category** — The category under which the course appears in the catalog
-* **Course picture** — Upload a thumbnail that represents your course in course listings (will be resized depending on context)
+* **コースタイトル** — コースの表示名
+* **コース言語** — コースインターフェースの主要言語
+* **コースカテゴリ** — コースがカタログに表示されるカテゴリ
+* **コース画像** — コース一覧でコースを表すサムネイルをアップロード（コンテキストに応じてサイズが変更されます）
 
-The course code (the short unique identifier) is set when the course is created and is not editable from this page.
+コースコード（短い一意の識別子）は、コース作成時に設定され、このページからは編集できません。
 
-By default, all users entering your course will see the whole Chamilo interface in the language of your course. This is an immersive feature. Administrators can change this behaviour, but you can also change it with one of the first options: **Show course in user's language** (set to No by default) if you believe this makes it too hard for your users.
+デフォルトでは、コースに入るすべてのユーザーは、コースの言語でChamiloインターフェース全体を見ることができます。これは没入型の機能です。管理者はこの動作を変更できますが、最初のオプションである**ユーザーの言語でコースを表示**（デフォルトでは「いいえ」に設定）を変更することで、ユーザーにとって難しすぎると感じる場合に調整することもできます。
 
-The department and department URL are deprecated fields. They are only maintained for legacy support reasons.
+部門および部門URLは非推奨のフィールドです。これらはレガシーサポートのためだけに維持されています。
 
-If enabled, you can switch the style inside your course with the **Style sheets** option, using existing stylesheets on your portal. This option is often disabled by admins, for a more integrated global design.
+有効にされている場合、ポータル上の既存のスタイルシートを使用して、**スタイルシート**オプションでコース内のスタイルを切り替えることができます。このオプションは、統合されたグローバルデザインのために管理者によって無効にされることがよくあります。
 
-### Disk Quota
+### ディスククォータ
 
-Each course has a storage limit (disk quota) for uploaded files. The quota is set by the platform administrator. You can see your current limit in the course settings, and the current usage in the **Documents** tool.
+各コースには、アップロードファイル用のストレージ制限（ディスククォータ）があります。クォータはプラットフォーム管理者によって設定されます。現在の制限はコース設定で確認でき、現在の使用量は**ドキュメント**ツールで確認できます。
 
-> If you are running out of space, contact your platform administrator to request a quota increase, or remove unused files from the Documents tool.
+> 容量が不足している場合は、プラットフォーム管理者にクォータの増加を依頼するか、ドキュメントツールから不要なファイルを削除してください。
 
-### Course Visibility
+### コースの公開設定
 
-![The course visibility settings showing public, open, registered, and closed options](/.gitbook/assets/course-settings-visibility.png)
+![公開、オープン、登録済み、クローズドのオプションを示すコース公開設定](/.gitbook/assets/course-settings-visibility.png)
 
-Control who can access your course:
+コースにアクセスできる人を制御します：
 
-| Setting | Description |
+| 設定 | 説明 |
 |---------|-------------|
-| **Public** | Anyone, including anonymous visitors, can access the course |
-| **Open to platform** | All registered users on the platform can access the course |
-| **Private — access granted by privileged users** | Only users explicitly enrolled in the course can access it |
-| **Closed** | The course is locked; no one can access it except the teacher |
+| **公開** | 匿名訪問者を含む誰でもコースにアクセスできます |
+| **プラットフォームに公開** | プラットフォームに登録されているすべてのユーザーがコースにアクセスできます |
+| **プライベート — 特権ユーザーによるアクセス許可** | コースに明示的に登録されたユーザーのみがアクセスできます |
+| **クローズド** | コースはロックされており、教師以外は誰もアクセスできません |
 
-#### Enrollment Settings
+#### 登録設定
 
-Depending on your platform configuration, you may be able to control:
+プラットフォームの設定によっては、以下を制御できる場合があります：
 
-* **Allow self-enrollment** — Whether learners can subscribe themselves through the course catalog
-* **Allow self-unsubscription** — Whether learners can leave the course on their own
-* **Enrollment password** — Require a password for self-enrollment (useful for restricting access to a specific group) but the security level is low as the same course-access password is shared between all users.
+* **自己登録を許可** — 学習者がコースカタログを通じて自分で登録できるかどうか
+* **自己退会を許可** — 学習者が自分でコースを退会できるかどうか
+* **登録パスワード** — 自己登録にパスワードを要求（特定のグループへのアクセスを制限するのに便利）ただし、セキュリティレベルは低く、同一のコースアクセスパスワードがすべてのユーザー間で共有されます。
 
-### Document Settings
+### ドキュメント設定
 
-Choose whether to show or hide the system folders in the **Documents** tool (hidden by default, you don't really need them in most cases and showing them might cause issues with hidden content and learners).
+**ドキュメント**ツールでシステムフォルダを表示するか非表示にするかを選択します（デフォルトでは非表示、ほとんどの場合必要ありません。表示すると、非表示のコンテンツや学習者に関する問題が発生する可能性があります）。
 
-### E-mail Notification Settings
+### メール通知設定
 
-Configure how course activity triggers notifications:
+コースの活動が通知をトリガーする方法を設定します：
 
-* **Email notifications for new content** — Notify enrolled users when you add new documents, announcements, or other content
+* **新しいコンテンツのメール通知** — 新しいドキュメント、告知、その他のコンテンツを追加した際に登録ユーザーに通知する
 
-### Chat Settings
+### チャット設定
 
-Control how the **Chat** tool will show.
+**チャット**ツールの表示方法を制御します。
 
-### Learning path Settings
+### 学習パス設定
 
-* **Enable course themes** — Allow learning paths to change appearance (not recommended for integrated user experience)
-* **Learning path return link** — Decide where users land when they click the **Home** icon in a learning path: the learning paths list, the course home, *My courses*, *My sessions*, or the portal home
+* **コーステーマを有効にする** — 学習パスの外観を変更できるようにする（統合されたユーザーエクスペリエンスには推奨されません）
+* **学習パスの戻りリンク** — 学習パス内で**ホーム**アイコンをクリックした際にユーザーが移動する場所を決定：学習パスリスト、コースホーム、*マイコース*、*マイセッション*、またはポータルホーム
 
-### Thematic Advance Settings
+### テーマ進行設定
 
-Configure how the thematic advance messages will appear on the course homepage.
+コースホームページでのテーマ進行メッセージの表示方法を設定します。
 
-### Forum Settings
+### フォーラム設定
 
-Control behaviour in the forum tool of this course.
+このコースのフォーラムツールの動作を制御します。
 
-### Assignment Settings
+### 課題設定
 
-* **Default setting for the visibility of newly posted files** — Decide whether new documents uploaded by learners in the **Assignments** tool are shared with all other learners (No by default)
-* **Allow learners to delete their own publications** — Allow learners to delete the assignments they have already uploaded (in case they want to upload a correction).
+* **新しく投稿されたファイルのデフォルト公開設定** — **課題**ツールで学習者がアップロードした新しいドキュメントを他のすべての学習者と共有するかどうかを決定（デフォルトでは「いいえ」）
+* **学習者が自分の公開物を削除することを許可** — 学習者がすでにアップロードした課題を削除できるようにする（修正版をアップロードしたい場合など）。
 
-### Autolaunch Settings
+---
+### 自動起動設定
 
-A course can be set to have an auto-launch behaviour, which will shorten the path of learners to get to the important parts of your course. If enabled, the learners entering your course will be sent directly to the selected tool and will not see the course homepage as an intermediate step. You can even select specific learning paths or exercises to launch on arrival to the course. In this case, you need to select the option here, then go to the learning paths or exercises list and clic the rocket <img src="/.gitbook/assets/icons/mdi-rocket-launch.svg" alt="Auto-launch" data-size="line"> icon on the selected item.
+コースには自動起動の動作を設定することができ、これにより学習者がコースの重要な部分に到達するまでの経路を短縮することができます。この機能が有効になっている場合、コースに入った学習者は選択したツールに直接送られ、コースのホームページを中間ステップとして見ることはありません。特定の学習パスや演習をコース到着時に起動するように選択することも可能です。この場合、ここでオプションを選択し、その後、学習パスまたは演習のリストに移動して、選択したアイテムのロケット <img src="/.gitbook/assets/icons/mdi-rocket-launch.svg" alt="自動起動" data-size="line"> アイコンをクリックする必要があります。
 
-### AI Helpers Settings
+### AIヘルパー設定
 
-This section only appears if your administrator has enabled AI tools on the platform. It allows you to refine the selection of AI helper services available through different tools of your Chamilo platform. Disable them if you don't want to use them, but that would probably be a bad idea as these are very powerful.
+このセクションは、管理者がプラットフォーム上でAIツールを有効にしている場合にのみ表示されます。このセクションでは、Chamiloプラットフォームのさまざまなツールを通じて利用可能なAIヘルパーサービスの選択を調整することができます。使用したくない場合は無効にすることもできますが、これらのツールは非常に強力であるため、無効にするのはおそらく良い考えではないでしょう。
 
-These features are explained in the **AI Tools** section of this guide.
+これらの機能については、このガイドの**AIツール**セクションで説明されています。
 
-### External Tools (LTI)
+### 外部ツール (LTI)
 
-If enabled on your platform, Learning Tools Integration allows you to integrate external, compatible activities to this course, as individual icons on the course homepage. Discussing LTI is out of the scope of this guide, but this is a powerful integration system for teachers.
+プラットフォームで有効になっている場合、Learning Tools Integration（学習ツール統合）を使用すると、外部の互換性のあるアクティビティをこのコースに統合し、コースのホームページ上で個別のアイコンとして表示することができます。LTIについての詳細な説明はこのガイドの範囲外ですが、これは教師にとって強力な統合システムです。
 
-### Others
+### その他
 
-Additional sections or options might appear on this page depending on options and versions of Chamilo.
+Chamiloのオプションやバージョンによっては、このページに追加のセクションやオプションが表示される場合があります。

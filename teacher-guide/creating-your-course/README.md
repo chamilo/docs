@@ -1,55 +1,55 @@
-# Creating Your Course
+# コースの作成
 
-This section explains how to create a new course in Chamilo and configure it for your needs.
+このセクションでは、Chamiloで新しいコースを作成し、ニーズに合わせて設定する方法を説明します。
 
-## Creating a New Course
+## 新しいコースの作成
 
-To create a course:
+コースを作成するには：
 
-1. Click **My courses** in the sidebar
-2. Click the **Create course** button (usually a green book <img src="/.gitbook/assets/icons/mdi-book-open-page-variant.svg" alt="Courses" data-size="line"> icon with a + sign)
-3. Fill in the course creation form:
+1. サイドバーの **My courses** をクリックします
+2. **Create course** ボタン（通常は緑色の本 <img src="/.gitbook/assets/icons/mdi-book-open-page-variant.svg" alt="コース" data-size="line"> アイコンに+記号が付いたもの）をクリックします
+3. コース作成フォームに必要事項を入力します：
 
-![The course creation form with fields for name, category, code, and language](/.gitbook/assets/course-creation-form.png)
+![コース名、カテゴリ、コード、言語のフィールドがあるコース作成フォーム](/.gitbook/assets/course-creation-form.png)
 
-| Field | Required | Description |
-|-------|----------|-------------|
-| **Course name** | Yes | A short, descriptive title for your course (e.g., "Innovation Management") |
-| **Course category** | No | Select a category to help organize courses on the platform |
-| **Course code** | No | A short code using only letters and numbers (max 40 characters). If left blank, one is generated automatically from the course name |
-| **Language** | No | The primary language of the course. Defaults to your current language |
+| フィールド | 必須 | 説明 |
+|-----------|------|------|
+| **コース名** | はい | コースの短くわかりやすいタイトル（例：「イノベーション管理」） |
+| **コースカテゴリ** | いいえ | プラットフォーム上でコースを整理するためにカテゴリを選択します |
+| **コースコード** | いいえ | 字母と数字のみを使用した短いコード（最大40文字）。空欄の場合、コース名から自動的に生成されます |
+| **言語** | いいえ | コースの主要言語。デフォルトは現在の言語になります |
 
-If enabled, you might also find a **Default room** setting and the possibility to use a **Course template** to avoid creating your course entirely from scratch.
+有効になっている場合、**デフォルトのルーム** 設定や、コースを一から作成する手間を省くための **コーステンプレート** を使用するオプションが見つかるかもしれません。
 
-4. Click **Create this course**
+4. **Create this course** をクリックします
 
-You will be redirected to your new course's homepage. A confirmation message will appear: "Course created successfully."
+新しいコースのホームページにリダイレクトされます。確認メッセージが表示されます：「コースが正常に作成されました。」
 
-## The Course Homepage
+## コースのホームページ
 
-Once your course is created, you land on its homepage. This is the central hub for your course, where you and your learners access all tools and content.
+コースが作成されると、ホームページに移動します。ここはコースの中心的なハブであり、あなたと学習者がすべてのツールやコンテンツにアクセスする場所です。
 
-![The course homepage tool grid showing available course tools with icons and visibility toggles](/.gitbook/assets/course-homepage-tool-grid.png)
+![利用可能なコースツールをアイコンと表示切り替えとともに示すコースホームページのツールグリッド](/.gitbook/assets/course-homepage-tool-grid.png)
 
-The homepage displays:
+ホームページには以下が表示されます：
 
-* **Course title** — The name of your course, shown at the top.
-* **Course introduction** — An optional description or welcome message. Click the **+ Course introduction** button to add one, or the **Edit introduction** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Edit" data-size="line"> button at the top to modify it. This supports rich text with images, links, and formatting.
-* **Tool grid** — A grid of all available course tools, each shown as a card with an icon and name.
+* **コースタイトル** — コース名が上部に表示されます。
+* **コース紹介** — 任意の説明や歓迎メッセージ。**+ Course introduction** ボタンをクリックして追加するか、上部の **Edit introduction** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="編集" data-size="line"> ボタンをクリックして変更します。画像、リンク、書式設定を含むリッチテキストをサポートしています。
+* **ツールグリッド** — 利用可能なすべてのコースツールがアイコンと名前を持つカードとして表示されるグリッド。
 
-### Managing Tool Visibility
+### ツールの表示管理
 
-As a teacher, you can control which tools your learners can see:
+教師として、学習者に見せるツールを制御できます：
 
-* Click the **eye icon** <img src="/.gitbook/assets/icons/mdi-eye.svg" alt="Visible" data-size="line"> next to any tool to hide it from learners. Hidden tools show a **crossed-out eye** <img src="/.gitbook/assets/icons/mdi-eye-off.svg" alt="Hidden" data-size="line"> and are still accessible to you.
-* Use the **Show all** and **Hide all** buttons to change all tools at once
-* Click **Sort** to enable drag-and-drop reordering of the tool grid
+* 任意のツールの横にある **目のアイコン** <img src="/.gitbook/assets/icons/mdi-eye.svg" alt="表示" data-size="line"> をクリックして、学習者から非表示にします。非表示のツールは **斜線が入った目のアイコン** <img src="/.gitbook/assets/icons/mdi-eye-off.svg" alt="非表示" data-size="line"> で表示され、あなたには引き続きアクセス可能です。
+* **Show all** および **Hide all** ボタンを使用して、すべてのツールを一括で変更します
+* **Sort** をクリックして、ツールグリッドのドラッグ＆ドロップによる並べ替えを有効にします
 
-### Student View
+### 学生ビュー
 
-Click the **Student view** button to see the course homepage exactly as a learner would see it. This is useful to verify that hidden tools and unpublished content are not visible. Click the button again to return to the teacher view.
+**Student view** ボタンをクリックすると、学習者が見るのと全く同じコースホームページを確認できます。これは、非表示のツールや未公開のコンテンツが表示されていないことを確認するのに役立ちます。もう一度ボタンをクリックすると、教師ビューに戻ります。
 
-## Next Steps
+## 次のステップ
 
-* [Course Settings](course-settings.md) — Configure access, enrollment, and other course-level options
-* [Course Homepage](course-homepage.md) — Detailed guide to customizing your course homepage
+* [コース設定](course-settings.md) — アクセス、登録、その他のコースレベルのオプションを設定します
+* [コースホームページ](course-homepage.md) — コースホームページのカスタマイズに関する詳細ガイド

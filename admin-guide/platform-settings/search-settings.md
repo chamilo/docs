@@ -1,33 +1,32 @@
-# Search Settings
+# 検索設定
 
-Configuration of the full-text search system (Xapian).
+全文検索システム（Xapian）の設定。
 
-Access these settings under **Administration > Configuration settings > Search**. This category contains **3 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+これらの設定には、**管理 > 設定 > 検索** からアクセスできます。このカテゴリには **3つの設定** が含まれており、以下にプラットフォームの設定フィクスチャ（`SettingsCurrentFixtures.php`）に含まれるタイトルとコメントを記載しています。
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> コード内の変数名は等幅フォントで表示されています。APIを通じてスクリプトを作成する場合や、[`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml) を編集してこれらの設定をグローバルレベルで変更する必要がある場合に使用してください。
 
-## Settings
+## 設定
 
 ### `search_enabled`
 
-**Full-text search feature**
+**全文検索機能**
 
-Select 'Yes' to enable this feature. It is highly dependent on the Xapian extension for PHP, so this will not work if this extension is not installed on your server, in version 1.x at minimum.
+この機能を有効にするには「はい」を選択してください。この機能はPHP用のXapian拡張機能に大きく依存しているため、サーバーにこの拡張機能がインストールされていない場合、またはバージョン1.x以上がインストールされていない場合は動作しません。
 
-*Default: `false`*
+*デフォルト: `false`*
 
 
 ### `search_prefilter_prefix`
 
-**Specific Field for prefilter**
+**プリフィルター用の特定フィールド**
 
-This option let you choose the Specific field to use on prefilter search type.
+このオプションでは、プリフィルター検索タイプで使用する特定フィールドを選択できます。
 
 ### `search_show_unlinked_results`
 
-**Full-text search: show unlinked results**
+**全文検索：リンクされていない結果を表示**
 
-When showing the results of a full-text search, what should be done with the results that are not accessible to the current user?
+全文検索の結果を表示する際、現在のユーザーがアクセスできない結果をどのように扱うかを設定します。
 
-*Default: `true`*
-
+*デフォルト: `true`*

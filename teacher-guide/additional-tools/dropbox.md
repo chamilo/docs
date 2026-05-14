@@ -1,34 +1,34 @@
 # Dropbox
 
-The dropbox is a file exchange tool that allows you and your learners to share files with each other within the course.
+Dropboxは、コース内であなたと生徒が互いにファイルを共有できるファイル交換ツールです。
 
-> For collecting graded student work, the [Assignments](../assessing-learners/assignments.md) tool is usually more appropriate, as it includes grading and feedback features. The dropbox is better suited for informal file sharing.
+> 評価対象となる生徒の課題を収集する場合は、評価やフィードバックの機能が含まれている[課題](../assessing-learners/assignments.md)ツールが通常より適しています。Dropboxは、非公式なファイル共有に適しています。
 
-## Sending a File
+## ファイルの送信
 
-1. Open the **Dropbox** tool from the course homepage
-2. Click **Share a new file**
-3. Select the file to upload
-4. Choose the **recipient(s)** — one or more enrolled users or course groups
-5. Send
+1. コースのホームページで**Dropbox**ツールを開きます
+2. **新しいファイルを共有**をクリックします
+3. 送信するファイルを選択します
+4. **受信者**を選択します — コースに登録されている1人または複数のユーザー、またはグループ
+5. 送信します
 
-## Receiving Files
+## ファイルの受信
 
-When someone sends you a file, it appears in your dropbox inbox. You can:
+誰かがあなたにファイルを送信すると、そのファイルはDropboxの受信ボックスに表示されます。以下の操作が可能です：
 
-* **Download** the file
-* **Add a comment** to the file (after it has been received)
-* **Move** the file into one of your categories
-* **Delete** the file from your inbox
+* ファイルを**ダウンロード**する
+* ファイルに**コメントを追加**する（受信後）
+* ファイルを自分のカテゴリの一つに**移動**する
+* 受信ボックスからファイルを**削除**する
 
-## Organizing files
+## ファイルの整理
 
-Both sent and received files can be organized into custom **categories** (folders). Use the category controls in the dropbox toolbar to create a category, then move files into it. If the platform setting "allow overwrite" is enabled, re-sending a file with the same name lets you overwrite the previous version.
+送信したファイルと受信したファイルの両方を、**カテゴリ**（フォルダ）でカスタマイズして整理することができます。Dropboxのツールバーにあるカテゴリ管理機能を使用してカテゴリを作成し、ファイルをそこに移動します。プラットフォームの設定で「上書きを許可」が有効になっている場合、同じ名前のファイルを再送信することで以前のバージョンを上書きすることができます。
 
-You can also batch-download selected files as a ZIP.
+また、選択した複数のファイルをZIPファイルとして一括ダウンロードすることも可能です。
 
-## As a Teacher
+## 教師として
 
-* You can send files to individual learners, groups of learners, or all enrolled users
-* You can view files sent to you by learners
-* This tool is useful for sharing supplementary materials, providing individual feedback documents, or receiving informal submissions
+* 個々の生徒、生徒のグループ、またはすべての登録ユーザーにファイルを送信できます
+* 生徒から送信されたファイルを閲覧できます
+* このツールは、補足資料の共有、個別のフィードバック文書の提供、または非公式な提出物の受け取りに役立ちます

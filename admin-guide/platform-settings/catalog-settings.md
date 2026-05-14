@@ -1,108 +1,107 @@
-# Course Catalog Settings
+# コースカタログ設定
 
-Behaviour of the course catalog (the public list where users can browse and self-enroll).
+コースカタログ（ユーザーが閲覧し自己登録できる公開リスト）の動作について。
 
-Access these settings under **Administration > Configuration settings > Course Catalog**. This category contains **13 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+これらの設定には、**管理者 > 設定 > コースカタログ** からアクセスできます。このカテゴリには **13の設定** が含まれており、以下にプラットフォームの設定フィクスチャ（`SettingsCurrentFixtures.php`）に含まれるタイトルとコメントを記載しています。
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> コード内の変数名は等幅フォントで表示されています。APIを通じてスクリプトを作成する場合や、[`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml) を編集してこれらの設定をグローバルレベルで変更する際に使用してください。
 
-## Settings
+## 設定
 
 ### `allow_session_auto_subscription`
 
-**Auto Session Subscription**
+**自動セッション登録**
 
-Enable automatic subscription to sessions for users.
+ユーザーのセッションへの自動登録を有効にします。
 
-*Default: `false`*
+*デフォルト: `false`*
 
 ### `allow_students_to_browse_courses`
 
-**Allow Student Browsing**
+**学生の閲覧許可**
 
-Permit students to browse and filter the course catalog.
+学生がコースカタログを閲覧し、フィルタリングすることを許可します。
 
-*Default: `true`*
+*デフォルト: `true`*
 
 ### `course_catalog_display_in_home`
 
-**Display Catalog on Homepage**
+**ホームページでのカタログ表示**
 
-Show the course catalog block on the platform homepage.
+プラットフォームのホームページにコースカタログブロックを表示します。
 
-*Default: `false`*
+*デフォルト: `false`*
 
 ### `course_catalog_hide_private`
 
-**Hide Private Courses**
+**非公開コースの非表示**
 
-Exclude private courses from the catalog display.
+カタログ表示から非公開コースを除外します。
 
-*Default: `true`*
+*デフォルト: `true`*
 
 ### `course_catalog_published`
 
-**Publish course catalogue**
+**コースカタログの公開**
 
-Make the courses catalogue available to anonymous users (the general public) without the need to login.
+ログインせずに匿名ユーザー（一般公開）に対してコースカタログを利用可能にします。
 
-*Default: `false`*
+*デフォルト: `false`*
 
 ### `course_catalog_settings`
 
-**Course catalogue settings**
+**コースカタログ設定**
 
-JSON configuration for course catalog: link settings, filters, sort options, and more.
+コースカタログのJSON設定：リンク設定、フィルター、並べ替えオプションなど。
 
 ### `course_subscription_in_user_s_session`
 
-**Subscription in Session View**
+**セッションビューでの登録**
 
-Allow users to subscribe to courses directly from their session page.
+ユーザーがセッションページから直接コースに登録することを許可します。
 
-*Default: `false`*
+*デフォルト: `false`*
 
 ### `hide_public_link`
 
-**Hide Public Link**
+**公開リンクの非表示**
 
-Remove the public URL link from course cards.
+コースカードから公開URLリンクを削除します。
 
-*Default: `false`*
+*デフォルト: `false`*
 
 ### `only_show_course_from_selected_category`
 
-**Only show matching categories in courses catalogue**
+**コースカタログで一致するカテゴリのみを表示**
 
-When not empty, only the courses from the given categories will appear in the courses catalogue.
+空でない場合、指定されたカテゴリのコースのみがコースカタログに表示されます。
 
 ### `only_show_selected_courses`
 
-**Only Selected Courses**
+**選択したコースのみ表示**
 
-Show only manually selected courses in the catalog.
+カタログに手動で選択したコースのみを表示します。
 
-*Default: `false`*
+*デフォルト: `false`*
 
 ### `session_catalog_settings`
 
-**Session Catalog Settings**
+**セッションカタログ設定**
 
-JSON configuration for session catalog: filters and display options.
+セッションカタログのJSON設定：フィルターおよび表示オプション。
 
 ### `show_courses_descriptions_in_catalog`
 
-**Show Course Descriptions**
+**コース説明の表示**
 
-Display course descriptions within the catalog listing.
+カタログリスト内にコースの説明を表示します。
 
-*Default: `false`*
+*デフォルト: `false`*
 
 ### `show_courses_sessions`
 
-**Show Courses & Sessions**
+**コースとセッションの表示**
 
-Include both courses and sessions in catalog results.
+カタログの結果にコースとセッションの両方を含めます。
 
-*Default: `0`*
-
+*デフォルト: `0`*

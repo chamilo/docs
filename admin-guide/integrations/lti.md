@@ -1,57 +1,57 @@
 # LTI 1.3
 
-**LTI** (Learning Tools Interoperability) is a standard that allows external learning tools to be embedded within Chamilo. Version 1.3 is the latest and most secure version of the standard.
+**LTI**（Learning Tools Interoperability、学習ツール相互運用性）は、外部の学習ツールをChamilo内に埋め込むことを可能にする標準規格です。バージョン1.3は、この標準の最新かつ最も安全なバージョンです。
 
-## What LTI Allows
+## LTIが実現すること
 
-With LTI, you can embed external tools within Chamilo courses. Examples:
+LTIを使用すると、Chamiloのコース内に外部ツールを埋め込むことができます。例として以下のようなものがあります：
 
-* Interactive simulations
-* Specialized assessment tools
-* Content authoring tools
-* Virtual labs
-* Third-party content libraries
+* インタラクティブなシミュレーション
+* 専門的な評価ツール
+* コンテンツ作成ツール
+* 仮想ラボ
+* サードパーティのコンテンツライブラリ
 
-The external tool appears seamlessly within the Chamilo interface.
+外部ツールはChamiloのインターフェース内でシームレスに表示されます。
 
-## Configuring an LTI Tool
+## LTIツールの設定
 
-### As an Administrator
+### 管理者として
 
-1. Navigate to the LTI settings in the administration panel
-2. **Register the external tool** by providing:
-   * **Tool name** — A descriptive name
-   * **Login URL** — The OIDC login initiation URL of the external tool
-   * **Redirect URL** — The launch URL the tool returns to after login
-   * **Client ID** — Provided by the tool vendor
-   * **Public keyset URL (JWKS URL)** — The tool's JWKS endpoint for security key exchange
-3. Configure **grade passback** — Whether the tool can send grades back to Chamilo
-4. Save
+1. 管理パネル内のLTI設定に移動します
+2. 外部ツールを**登録**し、以下の情報を提供します：
+   * **ツール名** — わかりやすい名前
+   * **ログインURL** — 外部ツールのOIDCログイン開始URL
+   * **リダイレクトURL** — ログイン後にツールが戻る起動URL
+   * **クライアントID** — ツールベンダーから提供される
+   * **公開鍵セットURL（JWKS URL）** — セキュリティ鍵交換のためのツールのJWKSエンドポイント
+3. **成績の返送**を設定する — ツールがChamiloに成績を返送できるかどうか
+4. 保存する
 
-### As a Teacher
+### 教師として
 
-Once an LTI tool is registered by the administrator, teachers can add it to their courses:
+管理者がLTIツールを登録すると、教師は自分のコースにそのツールを追加できます：
 
-1. In the course, look for the option to add an external tool
-2. Select from the registered LTI tools
-3. The tool appears as a course tool on the homepage
+1. コース内で、外部ツールを追加するオプションを探します
+2. 登録済みのLTIツールから選択します
+3. ツールがコースのホームページにコースツールとして表示されます
 
-## Security
+## セキュリティ
 
-LTI 1.3 uses:
+LTI 1.3は以下を使用しています：
 
-* **OAuth 2.0** for authentication
-* **JSON Web Tokens (JWT)** for message signing
-* **Public/private key pairs** for verification
+* 認証のための**OAuth 2.0**
+* メッセージ署名のための**JSON Web Tokens (JWT)**
+* 検証のための**公開/秘密鍵ペア**
 
-This means credentials are never shared directly between Chamilo and the external tool.
+これは、Chamiloと外部ツール間で直接認証情報が共有されないことを意味します。
 
-## Grade Passback
+## 成績の返送
 
-LTI tools can send grades back to Chamilo, which can be integrated into the course gradebook. This is configured per tool during registration.
+LTIツールはChamiloに成績を返送することができ、コースの成績簿に統合することが可能です。これは登録時にツールごとに設定されます。
 
-## Tips
+## ヒント
 
-* **Verify tool compatibility** — Ensure the external tool supports LTI 1.3 (not just older versions)
-* **Test in a sandbox** — Test the LTI integration in a test course before using it in production
-* **Monitor performance** — External tools add network dependencies. Ensure the tool is responsive and reliable.
+* **ツールの互換性を確認する** — 外部ツールがLTI 1.3をサポートしていることを確認してください（古いバージョンのみ対応していないか）
+* **サンドボックスでテストする** — 本番環境で使用する前に、テストコースでLTI統合をテストしてください
+* **パフォーマンスを監視する** — 外部ツールはネットワーク依存性を追加します。ツールが応答性と信頼性を備えていることを確認してください。

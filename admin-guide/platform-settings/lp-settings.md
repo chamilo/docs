@@ -1,418 +1,409 @@
-# Learning Paths Settings
+# 学習パスの設定
 
-Defaults and behaviour of the **Learning Paths** tool — autostart, default view, prerequisites, SCORM behaviour and similar.
+**学習パス**ツールのデフォルト設定と動作 — 自動開始、デフォルトビュー、前提条件、SCORMの動作など。
 
-Access these settings under **Administration > Configuration settings > Learning Paths**. This category contains **51 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+これらの設定には、**管理者 > 設定 > 学習パス**からアクセスできます。このカテゴリには**51の設定**が含まれており、以下にプラットフォームの設定フィクスチャ（`SettingsCurrentFixtures.php`）に記載されているタイトルとコメントを記載しています。
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> コード内の変数名は等幅フォントで表示されています。APIを通じてスクリプトを作成する場合や、[`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml)を編集してこれらの設定をグローバルレベルで変更する際に使用してください。
 
-## Settings
+## 設定
 
 ### `add_all_files_in_lp_export`
 
-**Export all files when exporting a learning path**
+**学習パスをエクスポートする際にすべてのファイルをエクスポートする**
 
-When exporting a LP, all files and folders in the same path of an html will be exported too.
+学習パスをエクスポートする際、HTMLと同じパスにあるすべてのファイルとフォルダもエクスポートされます。
 
-*Default: `false`*
-
+*デフォルト: `false`*
 
 ### `allow_htaccess_import_from_scorm`
 
-**Allow .htaccess from SCORM packages**
+**SCORMパッケージからの.htaccessを許可する**
 
-Normally, all .htaccess files are filtered and removed when importing content in Chamilo. This feature allows .htaccess to be imported if it is present in a SCORM package.
+通常、Chamiloにコンテンツをインポートする際、すべての.htaccessファイルはフィルタリングされ、削除されます。この機能は、SCORMパッケージに.htaccessが存在する場合にインポートを許可します。
 
-*Default: `false`*
-
+*デフォルト: `false`*
 
 ### `allow_import_scorm_package_in_course_builder`
 
-**SCORM import within course import**
+**コースインポート内でのSCORMインポート**
 
-Enable to copy the directory structure of SCORM packages when restoring a course (from the course maintenance tool).
+コースを復元する際（コースメンテナンスツールから）、SCORMパッケージのディレクトリ構造をコピーすることを有効にします。
 
-*Default: `false`*
-
+*デフォルト: `false`*
 
 ### `allow_lp_chamilo_export`
 
-**Export learning paths in the Chamilo backup format**
+**Chamiloバックアップ形式で学習パスをエクスポートする**
 
-Enable the possibility to export any of your learning paths in a Chamilo course backup format.
+学習パスをChamiloコースバックアップ形式でエクスポートする可能性を有効にします。
 
-*Default: `false`*
-
+*デフォルト: `false`*
 
 ### `allow_lp_return_link`
 
-**Show learning paths return link**
+**学習パスの戻るリンクを表示する**
 
-Disable this option to hide the 'Return to homepage' button in the learning paths
+このオプションを無効にすると、学習パス内の「ホームページに戻る」ボタンが非表示になります。
 
-*Default: `true`*
-
+*デフォルト: `true`*
 
 ### `allow_lp_subscription_to_usergroups`
 
-**Learning paths subscription for classes**
+**クラス向けの学習パス購読**
 
-Enable subscription to learning paths and learning path categories to groups/classes.
+グループ/クラスに対して学習パスおよび学習パスカテゴリの購読を有効にします。
 
-*Default: `false`*
-
+*デフォルト: `false`*
 
 ### `allow_session_lp_category`
 
-**Learning paths categories can be managed in sessions**
+**セッション内で学習パスカテゴリを管理可能にする**
 
-[inferred] Enable learners and instructors to organize and manage learning paths by categories within session courses.
+セッションコース内で学習者や講師が学習パスをカテゴリ別に整理および管理できるようにします。
 
-*Default: `false`*
-
+*デフォルト: `false`*
 
 ### `allow_teachers_to_access_blocked_lp_by_prerequisite`
 
-**Teachers can access blocked learning paths**
+**教師がブロックされた学習パスにアクセス可能**
 
-Teachers do not need to pass complete learning paths to have access to a prerequisites-blocked learning path.
+教師は、前提条件でブロックされた学習パスにアクセスするために、完全な学習パスを通過する必要はありません。
 
-*Default: `false`*
-
+*デフォルト: `false`*
 
 ### `disable_js_in_lp_view`
 
-**Disable JS in learning paths view**
+**学習パスビューでJSを無効にする**
 
-Disable JS files that Chamilo usually adds to HTML files in the learning path (while displaying them).
+学習パス内でHTMLファイルにChamiloが通常追加するJSファイルを無効にします（表示中）。
 
-*Default: `false`*
-
+*デフォルト: `false`*
 
 ### `disable_my_lps_page`
 
-**Hide 'My learning paths' page**
+**「マイ学習パス」ページを非表示にする**
 
-The page 'My learning path' was added in 1.11. Use this option to hide it.
+「マイ学習パス」ページは1.11で追加されました。このオプションを使用して非表示にします。
 
-*Default: `false`*
+*デフォルト: `false`*
 
 ### `download_files_after_all_lp_finished`
 
-**Download button after finishing learning paths**
+**すべての学習パス完了後にダウンロードボタンを表示**
 
-Show download files button after finishing all LP. Example: if ABC is the course code, and 1 and 100 are the doc id, choose: ['courses' => ['ABC' => [1, 100]]].
+すべての学習パスが終了した後にファイルダウンロードボタンを表示します。例：コースコードがABCで、ドキュメントIDが1と100の場合、['courses' => ['ABC' => [1, 100]]]を選択します。
 
 ### `force_edit_exercise_in_lp`
 
-**Edition of tests included in learning paths**
+**学習パスに含まれるテストの編集**
 
-Enable editing tests even if they have been included in a learning path. The default is to prevent edition if the test is in a learning path, because that can affect consistency of tracking among many learners if test modifications are significant.
+学習パスに含まれているテストであっても編集を有効にします。デフォルトでは、テストが学習パスに含まれている場合、編集が防止されます。これは、テストの変更が大きければ多くの学習者の追跡の一貫性に影響を与える可能性があるためです。
 
-*Default: `false`*
+*デフォルト: `false`*
 
 ### `hide_accessibility_label_on_lp_item`
 
-**Hide requirements label in learning paths**
+**学習パスアイテムの要件ラベルを非表示にする**
 
-Hide the pre-requisites tooltip on learning path items. This is mostly an estaethic choice.
+学習パスアイテムの前提条件ツールチップを非表示にします。これは主に美観上の選択です。
 
-*Default: `true`*
+*デフォルト: `true`*
 
 ### `hide_lp_time`
 
-**Hide time from learning paths records**
+**学習パスの記録から時間を非表示にする**
 
-Hide learning paths time spent in reports in general.
+一般的なレポートで学習パスに費やした時間を非表示にします。
 
-*Default: `false`*
+*デフォルト: `false`*
 
 ### `hide_scorm_copy_link`
 
-**Hide SCORM Copy**
+**SCORMコピーを非表示にする**
 
-Hide the Learning Path Copy icon from the Learning Paths list
+学習パスリストから学習パスコピーアイコンを非表示にします。
 
-*Default: `false`*
+*デフォルト: `false`*
 
 ### `hide_scorm_export_link`
 
-**Hide SCORM Export**
+**SCORMエクスポートを非表示にする**
 
-Hide the SCORM Export icon from the Learning Paths list
+学習パスリストからSCORMエクスポートアイコンを非表示にします。
 
-*Default: `false`*
+*デフォルト: `false`*
 
 ### `hide_scorm_pdf_link`
 
-**Hide Learning Path PDF export**
+**学習パスPDFエクスポートを非表示にする**
 
-Hide the Learning Path PDF Export icon from the Learning Paths list
+学習パスリストから学習パスPDFエクスポートアイコンを非表示にします。
 
-*Default: `true`*
+*デフォルト: `true`*
 
 ### `lp_allow_export_to_students`
 
-**Learners can export learning paths**
+**学習者が学習パスをエクスポート可能**
 
-Enable this to allow learners to download the learning paths as SCORM packages.
+学習者が学習パスをSCORMパッケージとしてダウンロードできるようにします。
 
-*Default: `false`*
+*デフォルト: `false`*
 
 ### `lp_enable_flow`
 
-**Navigate between learning paths**
+**学習パス間を移動する**
 
-Add the possibility to select a 'next' learning path and show buttons inside the learning path to move from one to the next.
+「次の」学習パスを選択する可能性を追加し、学習パス内を移動するためのボタンを表示します。
 
-*Default: `false`*
+*デフォルト: `false`*
 
 ### `lp_fixed_encoding`
 
-**Fixed encoding in learning path**
+**学習パスでの固定エンコーディング**
 
-Reduce resource usage by ignoring a check on the text encoding in imported learning paths.
+インポートされた学習パスのテキストエンコーディングチェックを無視することで、リソース使用量を削減します。
 
-*Default: `false`*
+*デフォルト: `false`*
 
 ### `lp_item_prerequisite_dates`
 
-**Date-based learning path items prerequisites**
+**日付ベースの学習パスアイテムの前提条件**
 
-Adds the option to define prerequisites with start and end dates for learnpath items.
+学習パスアイテムの開始日と終了日を定義する前提条件のオプションを追加します。
 
-*Default: `false`*
+*デフォルト: `false`*
 
+---
 ### `lp_menu_location`
 
-**Learning path menu location**
+**学習パスのメニュー位置**
 
-Set this to 'left' or 'right' to change the side of the learning path menu.
+学習パスのメニューの位置を「左」または「右」に設定して変更します。
 
-*Default: `left`*
+*デフォルト: `left`*
 
 ### `lp_minimum_time`
 
-**Minimum time to complete learning path**
+**学習パスを完了するための最小時間**
 
-Add a minimum time field to learning paths. If the user has not spent that much time on the learning path, the last item of the learning path cannot be completed.
+学習パスに最小時間フィールドを追加します。ユーザーが学習パスにその時間を費やしていない場合、学習パスの最後の項目を完了することはできません。
 
-*Default: `false`*
+*デフォルト: `false`*
 
 ### `lp_prerequisit_on_quiz_unblock_if_max_attempt_reached`
 
-**Unlock learning path item if max attempt is reached for test prerequisite**
+**テストの前提条件で最大試行回数に達した場合に学習パス項目を解除**
 
-[inferred] Automatically unlock subsequent learning path items when a learner exhausts maximum quiz attempts for a prerequisite test.
-
+[推定] 前提条件テストの最大試行回数を学習者が使い切った場合、後続の学習パス項目を自動的に解除します。
 
 ### `lp_prerequisite_on_quiz_unblock_if_max_attempt_reached`
 
-**Unlock prerequisites after last test attempt**
+**最後のテスト試行後に前提条件を解除**
 
-Allows users to continue in a learning path after using all quiz attempts of a test used as prerequisite for other items.
+ユーザーが他の項目の前提条件として使用されるテストのすべての試行回数を使い切った後、学習パスを続行できるようにします。
 
-*Default: `false`*
+*デフォルト: `false`*
 
 ### `lp_prerequisite_use_last_attempt_only`
 
-**Use last score in learning path test prerequisites**
+**学習パステストの前提条件で最後の試行のみを使用**
 
-When a test is used as prerequisite for an item in the learning path, use the last attempt of the test only as validation for the prerequisite (default is to use best attempt).
+学習パスの項目の前提条件としてテストが使用される場合、前提条件の検証としてテストの最後の試行のみを使用します（デフォルトは最高の試行を使用）。
 
-*Default: `false`*
+*デフォルト: `false`*
 
 ### `lp_prevents_beforeunload`
 
-**Prevent beforeunload JS event in learning path**
+**学習パスでのbeforeunload JSイベントを防止**
 
-This helps with browser compatibility by preventing tricky JS events to execute.
+ブラウザの互換性を向上させるために、厄介なJSイベントの実行を防止します。
 
-*Default: `false`*
+*デフォルト: `false`*
 
 ### `lp_score_as_progress_enable`
 
-**Use learning path score as progress**
+**学習パスのスコアを進捗として使用**
 
-This is useful when using SCORM content with only one large SCO. SCORM does not communicate progress, so this is a trick to use the score as progress. Enabling this option will let you configure this on a per-learning path basis.
+これは、1つの大きなSCOのみを含むSCORMコンテンツを使用する場合に便利です。SCORMは進捗を伝達しないため、スコアを進捗として使用するトリックです。このオプションを有効にすると、学習パスごとにこの設定を構成できます。
 
-*Default: `false`*
+*デフォルト: `false`*
 
 ### `lp_show_max_progress_instead_of_average`
 
-**Show max progress instead of average for learning paths reporting**
+**学習パスレポートで平均の代わりに最大進捗を表示**
 
-[inferred] Calculate learning path progress based on maximum item completion rather than averaging all items.
+[推定] すべての項目の平均を取るのではなく、最大項目の完了に基づいて学習パスの進捗を計算します。
 
-*Default: `false`*
+*デフォルト: `false`*
 
 ### `lp_show_max_progress_or_average_enable_course_level_redefinition`
 
-**Select max progress vs average for learning paths at course level**
+**コースレベルで学習パスの最大進捗と平均を選択**
 
-Enable redefinition of the setting to show the best progress instead of averages in reporting of learnpaths at a course level.
+コースレベルでの学習パスレポートにおいて、平均の代わりに最高の進捗を表示する設定の再定義を有効にします。
 
-*Default: `false`*
+*デフォルト: `false`*
 
 ### `lp_show_reduced_report`
 
-**Learning paths: show reduced report**
+**学習パス：簡略化されたレポートを表示**
 
-Inside the learning paths tool, when a user reviews his own progress (through the stats icon), show a shorten (less detailed) version of the progress report.
+学習パスツール内で、ユーザーが自分の進捗を確認する際（統計アイコンを通じて）、進捗レポートの短縮版（詳細が少ない）を表示します。
 
-*Default: `false`*
+*デフォルト: `false`*
 
 ### `lp_start_and_end_date_visible_in_student_view`
 
-**Display learning path availability to learners**
+**学習者ビューで学習パスの利用可能期間を表示**
 
-Show learning paths to learners with their availability dates, rather than hiding them until the date comes.
+学習者に利用可能期間とともに学習パスを表示し、日付が来るまで非表示にしないようにします。
 
-*Default: `false`*
+*デフォルト: `false`*
 
 ### `lp_subscription_settings`
 
-**Learning paths subscription settings**
+**学習パスの購読設定**
 
-Configure additional options for the learning paths subscription feature. Options include 'allow_add_users_to_lp' and 'allow_add_users_to_lp_category'.
+学習パスの購読機能に関する追加オプションを設定します。オプションには 'allow_add_users_to_lp' および 'allow_add_users_to_lp_category' が含まれます。
 
 ### `lp_view_accordion`
 
-**Foldable learning paths' items**
+**折り畳み可能な学習パス項目**
 
-[inferred] Display learning path items in collapsible accordion format for improved navigation and content organization.
+[推定] ナビゲーションとコンテンツの整理を改善するために、学習パス項目を折り畳み可能なアコーディオン形式で表示します。
 
-*Default: `false`*
+*デフォルト: `false`*
 
 ### `lp_view_settings`
 
-**Learning path display settings**
+**学習パスの表示設定**
 
-Configure additional options for the learning paths display. Options include 'show_reporting_icon', 'hide_lp_arrow_navigation', 'show_toolbar_by_default', 'navigation_in_the_middle' and 'add_extra_quit_to_home_icon'.
+学習パスの表示に関する追加オプションを設定します。オプションには 'show_reporting_icon'、'hide_lp_arrow_navigation'、'show_toolbar_by_default'、'navigation_in_the_middle'、および 'add_extra_quit_to_home_icon' が含まれます。
 
 ### `scorm_api_extrafield_to_use_as_student_id`
 
-**Use extra field as student\_id in SCORM communication**
+**SCORM通信でstudent_idとして使用する追加フィールド**
 
-Give the name of the extra field to be used as student_id for all SCORM communication.
+すべてのSCORM通信でstudent_idとして使用する追加フィールドの名前を指定します。
 
 ### `scorm_api_username_as_student_id`
 
-**Use username as student\_id in SCORM communication**
+**SCORM通信でユーザー名をstudent_idとして使用**
 
-[inferred] Use learner username as the student identifier in SCORM API communication instead of learner ID.
+[推定] 学習者IDの代わりに学習者のユーザー名をSCORM API通信の学生識別子として使用します。
 
-*Default: `false`*
+*デフォルト: `false`*
 
 ### `scorm_lms_update_sco_status_all_time`
 
-**Update SCO status autonomously**
+**SCOステータスを自律的に更新**
 
-If the SCO is not sending a status, take over and update the status based on what can be observed in Chamilo.
+SCOがステータスを送信しない場合、Chamiloで観察できる内容に基づいてステータスを更新します。
 
-*Default: `false`*
+*デフォルト: `false`*
 
 ### `scorm_upload_from_cache`
 
-**Upload SCORM from cache dir**
+**キャッシュディレクトリからSCORMをアップロード**
 
-Allow admins to upload a SCORM package (in zip form) into the cache directory and to use it as import source on the SCORM upload page.
+管理者がキャッシュディレクトリにSCORMパッケージ（zip形式）をアップロードし、SCORMアップロードページでインポートソースとして使用できるようにします。
 
-*Default: `false`*
+*デフォルト: `false`*
 
 ### `show_hidden_exercise_added_to_lp`
 
-**Display tests from learning paths even if invisible**
+**非表示のテストを学習パスに追加しても表示**
 
-Show hidden exercises that were added to a LP in the exercise list. If we are in a session, the test is invisible in the base course, it is included in a LP and the setting to show it is not specifically set to true, then hide it.
+学習パスに追加された非表示の演習を演習リストに表示します。セッション内にある場合、テストがベースコースで非表示であり、学習パスに含まれており、表示する設定が明示的にtrueに設定されていない場合は非表示にします。
 
-*Default: `true`*
+*デフォルト: `true`*
 
 ### `show_invisible_exercise_in_lp_list`
 
-**Display tests in list of learning path tests even if invisible**
+**非表示のテストを学習パステストのリストに表示**
 
-[inferred] Include hidden tests in the list of available tests when viewing learning path contents.
+[推定] 学習パスの内容を表示する際に、利用可能なテストのリストに非表示のテストを含めます。
 
-*Default: `false`*
+*デフォルト: `false`*
 
+---
 ### `show_invisible_exercise_in_lp_toc`
 
-**Invisible tests visible in learning paths**
+**学習パス内で非表示のテストを表示**
 
-Make tests marked as 'invisible' in the tests tool appear when they are included in a learning path.
+テストツールで「非表示」に設定されているテストを、学習パスに含まれる場合に表示します。
 
-*Default: `false`*
+*デフォルト: `false`*
 
 ### `show_invisible_lp_in_course_home`
 
-**Display link to learning path on course home when invisible**
+**非表示の学習パスをコースホームに表示**
 
-If a learning path is set to invisible but the teacher/coach decided to make it available from the course homepage, this option prevents Chamilo from hiding the link on the course homepage.
+学習パスが非表示に設定されている場合でも、教師やコーチがコースホームページから利用可能に設定した場合、このオプションによりChamiloがコースホームページ上のリンクを隠すことを防ぎます。
 
-*Default: `false`*
+*デフォルト: `false`*
 
 ### `show_prerequisite_as_blocked`
 
-**Learning path's prerequisites**
+**学習パスの前提条件**
 
-On the learning paths lists, display a visual element to show that other learning paths are currently blocked by some prerequisites rule.
+学習パス一覧で、他の学習パスが前提条件ルールによって現在ブロックされていることを示す視覚的な要素を表示します。
 
-*Default: `false`*
+*デフォルト: `false`*
 
 ### `student_follow_page_add_LP_acquisition_info`
 
-**Add acquisition column in learner follow-up**
+**学習者フォローアップに取得状況列を追加**
 
-Add column to learner follow-up page to show acquisition status by a learner on a learning path.
+学習者フォローアップページに、学習パスにおける学習者の取得状況を示す列を追加します。
 
-*Default: `false`*
+*デフォルト: `false`*
 
 ### `student_follow_page_add_LP_invisible_checkbox`
 
-**Add visibility information for learning paths on learner follow-up page**
+**学習者フォローアップページに学習パスの可視性情報を追加**
 
-[inferred] Display visibility status indicator for learning paths on the learner progress tracking page.
+学習進捗追跡ページに学習パスの可視性ステータスインジケーターを表示します。
 
-*Default: `false`*
+*デフォルト: `false`*
 
 ### `student_follow_page_add_LP_subscription_info`
 
-**Unlocked information in learning paths list**
+**学習パス一覧に解除情報を追加**
 
-This adds an 'unlocked' column in the learning paths list if the learner is subscribed to the given learning path and has access to it.
+学習者が特定の学習パスに登録しており、アクセス権を持っている場合、学習パス一覧に「解除済み」列を追加します。
 
-*Default: `false`*
+*デフォルト: `false`*
 
 ### `student_follow_page_hide_lp_tests_average`
 
-**Hide percentage sign in average of tests in learning paths in learner follow-up**
+**学習者フォローアップで学習パスのテスト平均値のパーセント記号を非表示**
 
-Hides the icon of percentage in 'Average of tests in Learning Paths' indication on a student tracking
+学習者追跡の「学習パスのテスト平均値」表示でパーセントアイコンを非表示にします。
 
-*Default: `false`*
+*デフォルト: `false`*
 
 ### `student_follow_page_include_not_subscribed_lp_students`
 
-**Include learning paths not subscribed to on learner follow-up page**
+**学習者フォローアップページに未登録の学習パスを含める**
 
-[inferred] Show learning paths on progress pages even when learners are not subscribed to them.
+学習者が登録していない学習パスを進捗ページに表示します。
 
-*Default: `false`*
+*デフォルト: `false`*
 
 ### `ticket_lp_quiz_info_add`
 
-**Add learning paths and tests info to ticket reporting**
+**チケットレポートに学習パスとテスト情報を追加**
 
-[inferred] Include learning path and test information in support ticket reporting for better issue tracking.
+サポートチケットレポートに学習パスとテスト情報を含め、問題追跡を改善します。
 
-*Default: `false`*
+*デフォルト: `false`*
 
 ### `validate_lp_prerequisite_from_other_session`
 
-**Use learning path item status from other sessions**
+**他のセッションからの学習パスアイテムのステータスを使用**
 
-Allow users to complete prerequisites in a learning path if the corresponding item was already completed in another session.
+ユーザーが他のセッションで対応するアイテムをすでに完了している場合、学習パスの前提条件を満たすことを許可します。
 
-*Default: `false`*
-
+*デフォルト: `false`*

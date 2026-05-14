@@ -1,57 +1,57 @@
 # FAQ
 
-## General Questions
+## 一般的な質問
 
-**How do I access my course?**
+**コースにアクセスするにはどうすればよいですか？**
 
-Click **My courses** in the sidebar, then click on the course you want to open. If your course is part of a session, click **My sessions** first, then select the session and course.
+サイドバーの **マイコース** をクリックし、開きたいコースをクリックしてください。コースがセッションの一部である場合は、まず **マイセッション** をクリックし、セッションとコースを選択してください。
 
-**Can my learners access the course from a mobile phone?**
+**生徒は携帯電話からコースにアクセスできますか？**
 
-Yes. Chamilo 2.0 has a responsive interface that adapts to all screen sizes. Learners can use any modern web browser on a phone, tablet, or computer.
+はい。Chamilo 2.0 はレスポンシブなインターフェースを備えており、すべての画面サイズに適応します。生徒は携帯電話、タブレット、またはコンピューターで最新のウェブブラウザを使用できます。
 
-**What browsers are supported?**
+**どのブラウザがサポートされていますか？**
 
-Chamilo 2.0 works with all major modern browsers: Chrome, Firefox, Safari, and Edge. For the best experience, use the latest version of your browser.
+Chamilo 2.0 は主要な最新ブラウザすべてで動作します：Chrome、Firefox、Safari、Edge。最適な体験のために、ブラウザの最新バージョンを使用してください。
 
-## Content and Courses
+## コンテンツとコース
 
-**How do I create a backup of my course?**
+**コースのバックアップを作成するにはどうすればよいですか？**
 
-Go to the **Maintenance** tool in your course (accessible from the settings menu on the course homepage). You will find options to export your course content.
+コース内の **メンテナンス** ツールにアクセスしてください（コースのホームページの設定メニュー内にあります）。そこでコースコンテンツをエクスポートするオプションが見つかります。
 
-**Can I copy content from one course to another?**
+**あるコースから別のコースにコンテンツをコピーできますか？**
 
-Yes. Use the course import/export features in the Maintenance tool to copy content between courses. You will need to create an empty *destination* course first.
+はい。メンテナンスツールのコースのインポート/エクスポート機能を使用して、コース間でコンテンツをコピーできます。まず、空の *宛先* コースを作成する必要があります。
 
-**What file formats can I upload?**
+**アップロードできるファイル形式は何ですか？**
 
-Chamilo supports most common file formats: PDF, Word documents, PowerPoint presentations, images (PNG, JPG, SVG, GIF), audio files, video files, and many more. Your administrator may restrict certain file types for security reasons.
+Chamilo は一般的なファイル形式のほとんどをサポートしています：PDF、Word 文書、PowerPoint プレゼンテーション、画像（PNG、JPG、SVG、GIF）、音声ファイル、動画ファイルなど。セキュリティ上の理由から、管理者が特定のファイルタイプを制限する場合があります。
 
-**What is the maximum file upload size?**
+**ファイルアップロードの最大サイズはいくらですか？**
 
-This depends on your server configuration. Your administrator sets the upload limit. If you encounter a limit, contact your administrator.
+これはサーバーの設定に依存します。アップロード制限は管理者によって設定されています。制限に遭遇した場合は、プラットフォームの管理者に連絡してください。
 
-## Assessment
+## 評価
 
-**Can exercises be graded automatically?**
+**演習は自動的に採点されますか？**
 
-Yes. Most question types (multiple choice, true/false, fill in the blanks, matching) are graded automatically. Open-ended questions require manual grading, or you can use AI-assisted grading if configured.
+はい。ほとんどの質問タイプ（多肢選択、真偽、穴埋め、マッチング）は自動的に採点されます。自由記述問題は手動での採点が必要ですが、設定されている場合はAI支援採点を使用することもできます。
 
-**Can I set a time limit on exercises?**
+**演習に時間制限を設定できますか？**
 
-Yes. When creating or editing an exercise, you can set a time limit in minutes. Learners will see a countdown timer.
+はい。演習を作成または編集する際に、分単位で時間制限を設定できます。生徒にはカウントダウンタイマーが表示されます。
 
-**Can learners retake an exercise?**
+**生徒は演習を再受験できますか？**
 
-Yes. You control the number of allowed attempts in the exercise settings. You can allow unlimited attempts or set a specific maximum, but this maximum applies to all users in your course (you can *free* new attempts by deleting previous ones, but this is not recommended as it results in unequal chances between users and it is registered for audit at the platform level).
+はい。演習の設定で許可する受験回数を制御できます。無制限の受験を許可するか、特定の最大回数を設定できますが、この最大回数はコース内のすべてのユーザーに適用されます（以前の受験を削除して新しい受験を *解放* することも可能ですが、これはユーザー間で不平等な機会を生じるため推奨されず、プラットフォームレベルでの監査のために記録されます）。
 
-## Technical Issues
+## 技術的な問題
 
-**I cannot see a tool on my course homepage. Where is it?**
+**コースのホームページでツールが見つかりません。どこにありますか？**
 
-Some tools may be hidden. As a teacher, you can show hidden tools by looking for tools with a crossed-out eye icon. If you cannot find a specific tool at all, your platform administrator may have disabled it at the platform level.
+一部のツールは非表示になっている場合があります。教師として、非表示のツールを表示するには、斜線が引かれた目のアイコンが付いているツールを探してください。特定のツールが見つからない場合、プラットフォームの管理者がプラットフォームレベルでそれを無効にしている可能性があります。
 
-**My learners say they cannot access the course.**
+**生徒がコースにアクセスできないと言っています。**
 
-Check the course visibility settings (Course Settings > Course Visibility). If set to "Registered only," learners must be explicitly enrolled. Also verify they have an active account on the platform.
+コースの表示設定を確認してください（コース設定 > コースの表示設定）。「登録者のみ」に設定されている場合、生徒は明示的に登録されている必要があります。また、プラットフォーム上で有効なアカウントを持っていることを確認してください。

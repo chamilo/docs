@@ -1,90 +1,90 @@
-# Platform Settings
+# プラットフォーム設定
 
-Chamilo has an extensive configuration system with settings organized into categories. The full set of categories below mirrors the **Configuration settings** page in the admin panel — and the underlying `SettingsCurrentFixtures.php` in the source code, which is the source of truth for variable names, titles, and descriptions.
+Chamiloには、設定がカテゴリに整理された広範な構成システムがあります。以下のカテゴリ一式は、管理パネルの**構成設定**ページを反映しており、ソースコード内の`SettingsCurrentFixtures.php`が変数名、タイトル、説明の真実のソースとなっています。
 
-Access platform settings from the administration panel by clicking **Configuration settings**.
+管理パネルからプラットフォーム設定にアクセスするには、**構成設定**をクリックしてください。
 
-![The platform settings page showing configuration categories organized by functional area](/.gitbook/assets/admin-settings-categories.png)
+![機能エリアごとに整理された構成カテゴリを表示するプラットフォーム設定ページ](/.gitbook/assets/admin-settings-categories.png)
 
-## All categories
+## すべてのカテゴリ
 
-There are **39 configuration categories** in total, listed alphabetically below. The number after each link is the count of settings in that category.
+合計で**39の構成カテゴリ**があり、以下にアルファベット順にリストされています。各リンクの後の数字は、そのカテゴリ内の設定の数を示しています。
 
-### Platform-wide
+### プラットフォーム全体
 
-* **[Administrator Identity](admin-settings.md)** (12) — Identity and contact details of the platform administrator.
-* **[Platform](platform-settings.md)** (29) — Platform-level identity, time zone, registration policy, online users, performance flags.
-* **[Display](display-settings.md)** (24) — Homepage layout, gravatar, menus, branding behaviour.
-* **[Editor](editor-settings.md)** (26) — Rich-text editor (TinyMCE) toolbars, plugins, AI helpers.
-* **[Languages](language-settings.md)** (12) — Available languages, default language, fallbacks.
-* **[Mail](mail-settings.md)** (18) — Outgoing-mail layout, sender identity, signature.
-* **[Workflows](workflows-settings.md)** (23) — Cross-cutting workflow toggles (course creation, enrollment validation…).
+* **[管理者情報](admin-settings.md)** (12) — プラットフォーム管理者の身元および連絡先情報。
+* **[プラットフォーム](platform-settings.md)** (29) — プラットフォームレベルの身元、タイムゾーン、登録ポリシー、オンラインユーザー、パフォーマンスフラグ。
+* **[表示](display-settings.md)** (24) — ホームページのレイアウト、Gravatar、メニュー、ブランディングの動作。
+* **[エディタ](editor-settings.md)** (26) — リッチテキストエディタ（TinyMCE）のツールバー、プラグイン、AIヘルパー。
+* **[言語](language-settings.md)** (12) — 利用可能な言語、デフォルト言語、フォールバック。
+* **[メール](mail-settings.md)** (18) — 送信メールのレイアウト、送信者情報、署名。
+* **[ワークフロー](workflows-settings.md)** (23) — コース作成や登録検証などのクロスカッティングワークフローのトグル。
 
-### Authentication, security & privacy
+### 認証、セキュリティ、プライバシー
 
-* **[Security](security-settings.md)** (31) — Login protection, password policy, headers, 2FA, IDS.
-* **[Registration](registration-settings.md)** (20) — Self-registration policy and post-registration redirects.
-* **[Privacy](privacy-settings.md)** (6) — Consent, data export, account-deletion requests.
-* **[CAS](cas-settings.md)** (7) — Legacy CAS configuration carried over from 1.x.
+* **[セキュリティ](security-settings.md)** (31) — ログインプロテクション、パスワードポリシー、ヘッダー、2FA、IDS。
+* **[登録](registration-settings.md)** (20) — 自己登録ポリシーおよび登録後のリダイレクト。
+* **[プライバシー](privacy-settings.md)** (6) — 同意、データエクスポート、アカウント削除リクエスト。
+* **[CAS](cas-settings.md)** (7) — 1.xから引き継がれたレガシーCAS設定。
 
-### Course and session lifecycle
+### コースおよびセッションのライフサイクル
 
-* **[Course](course-settings.md)** (45) — Defaults and policies that apply to courses platform-wide.
-* **[Sessions](session-settings.md)** (68) — Session lifecycle, coach access windows, visibility.
-* **[Course Catalog](catalog-settings.md)** (13) — Behaviour of the public course catalog.
-* **[Profile](profile-settings.md)** (29) — Which fields appear on the user profile.
+* **[コース](course-settings.md)** (45) — プラットフォーム全体のコースに適用されるデフォルトおよびポリシー。
+* **[セッション](session-settings.md)** (68) — セッションのライフサイクル、コーチのアクセス期間、表示設定。
+* **[コースカタログ](catalog-settings.md)** (13) — 公開コースカタログの動作。
+* **[プロフィール](profile-settings.md)** (29) — ユーザープロフィールに表示されるフィールド。
 
-### Course tools
+### コースツール
 
-* **[Agenda](agenda-settings.md)** (11)
-* **[Announcements](announcement-settings.md)** (9)
-* **[Assignments (Work)](work-settings.md)** (12)
-* **[Attendance](attendance-settings.md)** (4)
-* **[Chat](chat-settings.md)** (5)
-* **[Documents](document-settings.md)** (29)
+* **[アジェンダ](agenda-settings.md)** (11)
+* **[お知らせ](announcement-settings.md)** (9)
+* **[課題（ワーク）](work-settings.md)** (12)
+* **[出席](attendance-settings.md)** (4)
+* **[チャット](chat-settings.md)** (5)
+* **[ドキュメント](document-settings.md)** (29)
 * **[Dropbox](dropbox-settings.md)** (8)
-* **[Exercises (Tests)](exercise-settings.md)** (63)
-* **[Forums](forum-settings.md)** (9)
-* **[Glossary](glossary-settings.md)** (3)
-* **[Groups](group-settings.md)** (3)
-* **[Learning Paths](lp-settings.md)** (51)
-* **[Surveys](survey-settings.md)** (12)
+* **[演習（テスト）](exercise-settings.md)** (63)
+* **[フォーラム](forum-settings.md)** (9)
+* **[用語集](glossary-settings.md)** (3)
+* **[グループ](group-settings.md)** (3)
+* **[学習パス](lp-settings.md)** (51)
+* **[アンケート](survey-settings.md)** (12)
 
-### Assessment & recognition
+### 評価と認定
 
-* **[Gradebook (Assessments)](gradebook-settings.md)** (34) — Score display, decimals, certificate thresholds.
-* **[Certificates](certificate-settings.md)** (9) — Defaults applied when a learner earns a certificate.
-* **[Skills](skill-settings.md)** (13) — Skills tree, awarding rules, profile integration.
-* **[Tracking](tracking-settings.md)** (10) — What is recorded, what reports are exposed.
+* **[成績簿（評価）](gradebook-settings.md)** (34) — スコア表示、小数点、証明書の閾値。
+* **[証明書](certificate-settings.md)** (9) — 学習者が証明書を取得した際に適用されるデフォルト。
+* **[スキル](skill-settings.md)** (13) — スキルのツリー、授与ルール、プロフィール統合。
+* **[追跡](tracking-settings.md)** (10) — 記録される内容、公開されるレポート。
 
-### Communication & community
+### コミュニケーションとコミュニティ
 
-* **[Messaging](message-settings.md)** (7)
-* **[Social Network](social-settings.md)** (7)
+* **[メッセージング](message-settings.md)** (7)
+* **[ソーシャルネットワーク](social-settings.md)** (7)
 
 ### AI
 
-* **[AI Helpers](ai-helpers-settings.md)** (13) — Providers per task type (text, image, video, tutor, grading).
+* **[AIヘルパー](ai-helpers-settings.md)** (13) — タスクタイプ（テキスト、画像、ビデオ、チューター、採点）ごとのプロバイダ。
 
-### Operations & integration
+### 運用と統合
 
-* **[Cron Jobs](crons-settings.md)** (3)
-* **[Search](search-settings.md)** (3) — Xapian full-text search configuration.
-* **[Tickets](ticket-settings.md)** (7) — Helpdesk system.
-* **[Web Services](webservice-settings.md)** (7) — Legacy SOAP/REST endpoints.
+* **[Cronジョブ](crons-settings.md)** (3)
+* **[検索](search-settings.md)** (3) — Xapian全文検索の設定。
+* **[チケット](ticket-settings.md)** (7) — ヘルプデスクシステム。
+* **[ウェブサービス](webservice-settings.md)** (7) — レガシーSOAP/RESTエンドポイント。
 
-## How Settings Work
+## 設定の仕組み
 
-* Settings are stored in the database (`settings` table) and managed through the web interface
-* Some settings are **URL-locked** in multi-URL setups (their value applies platform-wide and cannot be overridden per URL - see `access_url_locked` and `access_url_changeable` columns in the `settings` table); others (most) can be overridden per access URL
-* Changes take effect immediately (no server restart required), although your user session might be keeping some of them in memory. If changes don't reflect immediately, logout and login to flush your session.
-* Some settings have dependencies — changing one may affect the behaviour of others
-* Variable names shown on each page (e.g. `2fa_enable`) match the row in the `settings` database table (`variable` column) and the keys used in overrides (`config/settings_overrides.yaml`) where applicable.
+* 設定はデータベース（`settings`テーブル）に保存され、ウェブインターフェースを通じて管理されます。
+* 一部の設定はマルチURLセットアップで**URLロック**されています（その値はプラットフォーム全体に適用され、URLごとに上書きできません - `settings`テーブルの`access_url_locked`および`access_url_changeable`列を参照）。他の設定（大多数）はアクセスURLごとに上書き可能です。
+* 変更は即座に反映されます（サーバーの再起動は不要）が、ユーザーセッションが一部の設定をメモリに保持している場合があります。変更が即座に反映されない場合は、ログアウトしてログインし直し、セッションをフラッシュしてください。
+* 一部の設定には依存関係があり、1つを変更すると他の動作に影響を与える場合があります。
+* 各ページに表示される変数名（例：`2fa_enable`）は、`settings`データベーステーブルの行（`variable`列）およびオーバーライドで使用されるキー（`config/settings_overrides.yaml`）と一致します（該当する場合）。
 
-For more information, check [Configurations](https://github.com/chamilo/chamilo-lms/wiki/Configurations) on our wiki.
+詳細については、Wikiの[Configurations](https://github.com/chamilo/chamilo-lms/wiki/Configurations)を確認してください。
 
-## Tips
+## ヒント
 
-* **Document your settings** — Keep a record of non-default settings and why you changed them
-* **Change one thing at a time** — When troubleshooting, modify one setting at a time so you can identify the effect
-* **Test in a staging environment** — For significant setting changes, test on a staging server first
+* **設定を記録する** — デフォルト以外の設定とその変更理由を記録しておく
+* **一度に一つの変更を行う** — トラブルシューティングの際は、一度に一つの設定のみを変更し、その影響を確認する
+* **ステージング環境でテストする** — 重要な設定変更を行う場合は、まずステージングサーバーでテストする

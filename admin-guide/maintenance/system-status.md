@@ -1,40 +1,40 @@
-# System Status
+# システムステータス
 
-The system status page helps you verify that your Chamilo server is correctly configured and identify potential issues.
+システムステータスページは、Chamiloサーバーが正しく設定されていることを確認し、潜在的な問題を特定するのに役立ちます。
 
-## Accessing System Status
+## システムステータスへのアクセス
 
-From the administration panel, click **System status** (or **System information**).
+管理パネルから、**システムステータス**（または**システム情報**）をクリックします。
 
-## What It Shows
+## 表示される内容
 
-![The system status page showing PHP configuration, database status, file permissions, and server information](/.gitbook/assets/admin-system-status.png)
+![PHP設定、データベースステータス、ファイル権限、サーバー情報を表示するシステムステータスページ](/.gitbook/assets/admin-system-status.png)
 
-### PHP Configuration
+### PHP設定
 
-* **PHP version** — Chamilo 2.0 requires PHP 8.2 or higher
-* **Required extensions** — Checks that all necessary PHP extensions are installed
-* **PHP settings** — Verifies important PHP settings like memory limit, upload limits, and execution time
+* **PHPバージョン** — Chamilo 2.0ではPHP 8.2以上が必要です
+* **必要な拡張機能** — 必要なPHP拡張機能がすべてインストールされているかを確認します
+* **PHP設定** — メモリ制限、アップロード制限、実行時間などの重要なPHP設定を確認します
 
-### Database Status
+### データベースステータス
 
-* **Database connection** — Confirms the database is accessible
-* **Database version** — Shows the database server version
+* **データベース接続** — データベースにアクセス可能であることを確認します
+* **データベースバージョン** — データベースサーバーのバージョンを表示します
 
-### File Permissions
+### ファイル権限
 
-* **Writable directories** — Checks that Chamilo can write to required directories (cache, uploads, logs)
+* **書き込み可能なディレクトリ** — Chamiloが必要なディレクトリ（キャッシュ、アップロード、ログ）に書き込み可能であるかを確認します
 
-### Server Information
+### サーバー情報
 
-* **Operating system** — Server OS details
-* **Web server** — Apache, Nginx, or other
-* **Disk space** — Available storage
+* **オペレーティングシステム** — サーバーのOSの詳細
+* **ウェブサーバー** — Apache、Nginx、またはその他
+* **ディスク容量** — 利用可能なストレージ
 
-## Recommended Checks
+## 推奨される確認事項
 
-Perform these checks regularly:
+以下の確認を定期的に行うことをお勧めします：
 
-* **After installation** — Verify all requirements are met
-* **After upgrades** — Ensure PHP version and extensions are still compatible
-* **When issues arise** — Check system status first when troubleshooting problems
+* **インストール後** — すべての要件が満たされていることを確認します
+* **アップグレード後** — PHPバージョンと拡張機能が引き続き互換性があることを確認します
+* **問題が発生した際** — 問題のトラブルシューティングを行う際に、最初にシステムステータスを確認します

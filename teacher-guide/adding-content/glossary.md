@@ -1,36 +1,36 @@
-# Glossary
+# 用語集
 
-The glossary tool lets you define key terms for your course. Learners can browse the glossary to look up definitions while studying.
+用語集ツールを使用すると、コースの重要な用語を定義することができます。学生は学習中に用語集を参照して定義を確認することができます。
 
-## Adding a Term
+## 用語の追加
 
-1. Open the **Glossary** <img src="/.gitbook/assets/icons/mdi-alphabetical.svg" alt="Glossary" data-size="line"> tool from the course homepage
-2. Click **Add new glossary term**
-3. Enter the **term** and its **definition** (the definition supports rich text formatting)
-4. Save
+1. コースのホームページで**用語集**ツール <img src="/.gitbook/assets/icons/mdi-alphabetical.svg" alt="用語集" data-size="line"> を開く
+2. **用語集に新しい用語を追加**をクリックする
+3. **用語**とその**定義**を入力する（定義はリッチテキスト形式をサポートしています）
+4. 保存する
 
-## Managing Terms
+## 用語の管理
 
-* **Edit** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Edit" data-size="line"> — Update a term or its definition
-* **Delete** <img src="/.gitbook/assets/icons/mdi-delete.svg" alt="Delete" data-size="line"> — Remove a term from the glossary
-* **Search** <img src="/.gitbook/assets/icons/mdi-magnify.svg" alt="Search" data-size="line"> — Use the search function to find specific terms quickly
+* **編集** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="編集" data-size="line"> — 用語またはその定義を更新する
+* **削除** <img src="/.gitbook/assets/icons/mdi-delete.svg" alt="削除" data-size="line"> — 用語集から用語を削除する
+* **検索** <img src="/.gitbook/assets/icons/mdi-magnify.svg" alt="検索" data-size="line"> — 検索機能を使用して特定の用語をすばやく見つける
 
-## Importing and Exporting
+## インポートとエクスポート
 
-You can build your glossary faster using import/export:
+インポート/エクスポートを使用して、用語集をより迅速に構築することができます：
 
-* **Import** <img src="/.gitbook/assets/icons/mdi-database-import-outline.svg" alt="Import" data-size="line"> — Upload a list of terms and definitions from a CSV or XLS file. You can also tick "Update existing terms" to overwrite definitions for terms that are already in the glossary.
-* **Export** <img src="/.gitbook/assets/icons/mdi-file-export.svg" alt="Export" data-size="line"> — Download the glossary as CSV, Excel (XLS), or PDF for use in another course or for offline reference
+* **インポート** <img src="/.gitbook/assets/icons/mdi-database-import-outline.svg" alt="インポート" data-size="line"> — CSVまたはXLSファイルから用語と定義のリストをアップロードします。既存の用語を更新するために「既存の用語を更新する」をマークすることもできます。
+* **エクスポート** <img src="/.gitbook/assets/icons/mdi-file-export.svg" alt="エクスポート" data-size="line"> — 用語集をCSV、Excel（XLS）、またはPDFとしてダウンロードし、別のコースで使用したり、オフラインで参照したりすることができます
 
-## Display Options
+## 表示オプション
 
-The glossary can be displayed in two formats, toggled from the toolbar:
+用語集はツールバーから切り替えることができる2つの形式で表示されます：
 
-* **Table view** — Terms listed in a table with their definitions
-* **List view** — Terms shown as individual panels stacked one after another
+* **テーブルビュー** — 用語とその定義がテーブル形式で一覧表示されます
+* **リストビュー** — 用語が個々のパネルとして順番に積み重ねられて表示されます
 
-## Tips
+## ヒント
 
-* **Build it progressively** — Add terms as you introduce them in your course, rather than all at once
-* **Keep definitions concise** — Short, clear definitions are more useful than lengthy explanations
-* **Link from learning paths** — Reference glossary terms from your learning path content to encourage learners to use the glossary
+* **段階的に構築する** — すべての用語を一度に追加するのではなく、コースで紹介するたびに用語を追加する
+* **定義を簡潔に保つ** — 短く明確な定義が、長い説明よりも役立ちます
+* **学習パスからリンクする** — 学習パスのコンテンツ内で用語集の用語を参照し、学生が用語集を使用するよう促す

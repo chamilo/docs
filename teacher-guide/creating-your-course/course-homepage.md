@@ -1,77 +1,77 @@
-# Course Homepage
+# コースホームページ
 
-The course homepage is the first page your learners see when they enter a course. This page describes how to customize it to create an engaging entry point.
+コースホームページは、学習者がコースに入った際に最初に目にするページです。このページでは、魅力的なエントリーポイントを作成するためにコースホームページをカスタマイズする方法を説明します。
 
-## Course Introduction
+## コース紹介
 
-The course introduction is a rich-text area displayed at the top of the homepage, above the tool grid. Use it to:
+コース紹介は、ホームページの上部、ツールグリッドの上に表示されるリッチテキストエリアです。以下のような目的で使用してください：
 
-* Welcome your learners
-* Describe the course objectives
-* Provide instructions for getting started
-* Embed images, videos, or links
+* 学習者を歓迎する
+* コースの目標を説明する
+* 開始のための指示を提供する
+* 画像、ビデオ、またはリンクを埋め込む
 
-To edit the introduction:
+紹介を編集するには：
 
-1. Click the **Edit introduction** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Edit" data-size="line"> button
-2. Use the rich-text editor to write your content
-3. Save your changes
+1. **紹介を編集** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="編集" data-size="line"> ボタンをクリックします
+2. リッチテキストエディターを使用してコンテンツを記述します
+3. 変更を保存します
 
-If no introduction has been created yet, you will see a button to **Create an introduction**.
+まだ紹介が作成されていない場合は、**紹介を作成** ボタンが表示されます。
 
-## Tool Grid
+## ツールグリッド
 
-![The course homepage tool grid showing available course tools with icons and visibility toggles](/.gitbook/assets/course-homepage-tool-grid.png)
+![利用可能なコースツールをアイコンと表示切り替えとともに示すコースホームページのツールグリッド](/.gitbook/assets/course-homepage-tool-grid.png)
 
-Below the introduction, the course tools are displayed in a grid layout. Each tool appears as a card with:
+紹介の下には、コースツールがグリッドレイアウトで表示されます。各ツールはカードとして表示され、以下の要素を含みます：
 
-* An icon representing the tool
-* The tool name
+* ツールを表すアイコン
+* ツール名
 
-The tools available in your course may include:
+コースで利用可能なツールには以下が含まれる場合があります：
 
-| Tool | Icon | Purpose |
+| ツール | アイコン | 目的 |
 |------|------|---------|
-| Agenda | <img src="/.gitbook/assets/icons/mdi-calendar-text.svg" alt="Agenda" data-size="line"> | Schedule events and deadlines |
-| Announcements | <img src="/.gitbook/assets/icons/mdi-bullhorn.svg" alt="Announcements" data-size="line"> | Send messages to enrolled learners |
-| Assignments | <img src="/.gitbook/assets/icons/mdi-inbox-full.svg" alt="Assignments" data-size="line"> | Collect and grade student work |
-| Documents | <img src="/.gitbook/assets/icons/mdi-bookshelf.svg" alt="Documents" data-size="line"> | Upload and organize files and content |
-| Tests | <img src="/.gitbook/assets/icons/mdi-order-bool-ascending-variant.svg" alt="Exercises" data-size="line"> | Create quizzes and tests |
-| Forum | <img src="/.gitbook/assets/icons/mdi-comment-quote.svg" alt="Forums" data-size="line"> | Host discussions |
-| Glossary | <img src="/.gitbook/assets/icons/mdi-alphabetical.svg" alt="Glossary" data-size="line"> | Define key terms |
-| Assessments | <img src="/.gitbook/assets/icons/mdi-certificate.svg" alt="Gradebook" data-size="line"> | Manage grades and certificates |
-| Learning paths | <img src="/.gitbook/assets/icons/mdi-map-marker-path.svg" alt="Learning paths" data-size="line"> | Build structured learning sequences |
-| Links | <img src="/.gitbook/assets/icons/mdi-link.svg" alt="Links" data-size="line"> | Share useful URLs |
-| Users | <img src="/.gitbook/assets/icons/mdi-account.svg" alt="Members" data-size="line"> | View and manage enrolled users |
-| Surveys | <img src="/.gitbook/assets/icons/mdi-form-dropdown.svg" alt="Surveys" data-size="line"> | Create and distribute surveys |
+| アジェンダ | <img src="/.gitbook/assets/icons/mdi-calendar-text.svg" alt="アジェンダ" data-size="line"> | イベントや締め切りをスケジュールする |
+| お知らせ | <img src="/.gitbook/assets/icons/mdi-bullhorn.svg" alt="お知らせ" data-size="line"> | 登録している学習者にメッセージを送信する |
+| 課題 | <img src="/.gitbook/assets/icons/mdi-inbox-full.svg" alt="課題" data-size="line"> | 学生の作品を収集し、評価する |
+| ドキュメント | <img src="/.gitbook/assets/icons/mdi-bookshelf.svg" alt="ドキュメント" data-size="line"> | ファイルやコンテンツをアップロードし、整理する |
+| テスト | <img src="/.gitbook/assets/icons/mdi-order-bool-ascending-variant.svg" alt="演習" data-size="line"> | クイズやテストを作成する |
+| フォーラム | <img src="/.gitbook/assets/icons/mdi-comment-quote.svg" alt="フォーラム" data-size="line"> | ディスカッションを開催する |
+| 用語集 | <img src="/.gitbook/assets/icons/mdi-alphabetical.svg" alt="用語集" data-size="line"> | 重要な用語を定義する |
+| 評価 | <img src="/.gitbook/assets/icons/mdi-certificate.svg" alt="成績簿" data-size="line"> | 成績や証明書を管理する |
+| 学習パス | <img src="/.gitbook/assets/icons/mdi-map-marker-path.svg" alt="学習パス" data-size="line"> | 構造化された学習シーケンスを構築する |
+| リンク | <img src="/.gitbook/assets/icons/mdi-link.svg" alt="リンク" data-size="line"> | 役立つURLを共有する |
+| ユーザー | <img src="/.gitbook/assets/icons/mdi-account.svg" alt="メンバー" data-size="line"> | 登録ユーザーを表示および管理する |
+| アンケート | <img src="/.gitbook/assets/icons/mdi-form-dropdown.svg" alt="アンケート" data-size="line"> | アンケートを作成および配布する |
 
-> Some tools may not appear if your administrator has disabled them at the platform level or if you have hidden them.
+> 一部のツールは、プラットフォームレベルで管理者が無効にしている場合や、教師が非表示にしている場合には表示されないことがあります。
 
-A notable change from Chamilo 1.* is that we don't split the tools in 3 different sections anymore. This gives full control to the teachers on what tools to show in what order.
+Chamilo 1.* からの注目すべき変更点として、ツールを3つの異なるセクションに分割することはもうありません。これにより、教師はどのツールをどの順序で表示するかを完全に制御できます。
 
-Also, the **Tracking** and **Maintenance** tools have been moved to the top of the page under the stats and cog icons to remove tools that are never shown to the learners from the list.
+また、**トラッキング** および **メンテナンス** ツールは、学習者に決して表示されないツールをリストから削除するために、ページの上部にある統計と歯車アイコンの下に移動されました。
 
-## Organizing Tools
+## ツールの整理
 
-### Reordering
+### 並べ替え
 
-1. Click the **Sort** button at the top of the tool grid
-2. Drag and drop tools to rearrange their order
-3. The new order is saved automatically
+1. ツールグリッドの上部にある **並べ替え** ボタンをクリックします
+2. ツールをドラッグ＆ドロップして順序を変更します
+3. 新しい順序は自動的に保存されます
 
-### Hiding and Showing
+### 表示と非表示
 
-* Click the **visibility icon** on any tool to toggle it between visible and hidden for learners
-* Use **Show all** or **Hide all** for bulk changes
-* Hidden tools remain accessible to you as the teacher — they are only hidden from learners
+* ツールの **表示アイコン** をクリックして、学習者に対して表示または非表示を切り替えます
+* 一括変更には **すべて表示** または **すべて非表示** を使用します
+* 非表示のツールは、教師であるあなたには引き続きアクセス可能であり、学習者からのみ非表示になります
 
-![The course homepage as seen by a student, with hidden tools not visible](/.gitbook/assets/course-homepage-student-view.png)
+![学生が見るコースホームページ。非表示のツールは表示されない](/.gitbook/assets/course-homepage-student-view.png)
 
-## Auto-Launch Features
+## 自動起動機能
 
-You may configure certain tools to launch automatically when a learner enters the course. If enabled, a notification appears at the top of the course homepage indicating which auto-launch is active:
+学習者がコースに入った際に特定のツールを自動的に起動するように設定することができます。有効にすると、コースホームページの上部にどの自動起動が有効になっているかを示す通知が表示されます：
 
-* Document auto-launch — Opens a specific document automatically
-* Exercise auto-launch — Launches a test immediately
-* Learning path auto-launch — Starts a learning path upon course entry
-* Forum auto-launch — Opens the forum directly
+* ドキュメント自動起動 — 特定のドキュメントを自動的に開く
+* 演習自動起動 — テストを即座に起動する
+* 学習パス自動起動 — コース入場時に学習パスを開始する
+* フォーラム自動起動 — フォーラムを直接開く

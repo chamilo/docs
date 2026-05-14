@@ -1,239 +1,242 @@
-# Platform Settings
+# プラットフォーム設定
 
-Platform-level identity and behaviour — institution name, time zone, registration policy, online users, performance flags.
+プラットフォームレベルのアイデンティティと動作 — 機関名、タイムゾーン、登録ポリシー、オンラインユーザー、パフォーマンスフラグ。
 
-Access these settings under **Administration > Configuration settings > Platform**. This category contains **29 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+これらの設定には **管理 > 設定 > プラットフォーム** からアクセスできます。このカテゴリには **29の設定** が含まれており、以下にプラットフォームの設定フィクスチャ (`SettingsCurrentFixtures.php`) に含まれるタイトルとコメントとともにリストされています。
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> コード内の変数名は等幅フォントで表示されています。APIを通じてスクリプトを作成する場合や、[`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml) を編集してこれらの設定をグローバルレベルで変更する必要がある場合に使用してください。
 
-## Settings
+## 設定
 
 ### `allow_my_files`
 
-**Enable 'My Files' section**
+**「マイファイル」セクションを有効にする**
 
-Allow users to upload files to a personal space on the platform.
+ユーザーがプラットフォーム上の個人スペースにファイルをアップロードできるようにします。
 
-*Default: `true`*
+*デフォルト: `true`*
 
 ### `chamilo_database_version`
 
-**Current version of the database schema used by Chamilo**
+**Chamiloが使用するデータベーススキーマの現在のバージョン**
 
-Displays the current DB version to match the Chamilo core version.
+Chamiloコアバージョンに一致する現在のDBバージョンを表示します。
 
 ### `cookie_warning`
 
-**Cookie privacy notification**
+**クッキープライバシー通知**
 
-If enabled, this option shows a banner on top of your platform that asks users to acknowledge that the platform is using cookies necessary to provide the user experience. The banner can easily be acknowledged and hidden by the user. This allows Chamilo to comply with EU web cookies regulations.
+有効にすると、プラットフォームの上部にバナーが表示され、ユーザーエクスペリエンスを提供するために必要なクッキーを使用していることをユーザーに認識させるよう促します。バナーはユーザーが簡単に承認して非表示にすることができます。これにより、ChamiloはEUのウェブクッキー規制に準拠することができます。
 
-*Default: `false`*
+*デフォルト: `false`*
 
 ### `disable_copy_paste`
 
-**Disable copy-pasting**
+**コピー＆ペーストを無効にする**
 
-When enabled, this option disables as well as possible the copy-pasting mechanisms. Useful in restrictive exams setups.
+有効にすると、コピー＆ペーストの仕組みを可能な限り無効にします。制限付きの試験設定で役立ちます。
 
-*Default: `false`*
+*デフォルト: `false`*
 
 ### `donotlistcampus`
 
-**Do not list this campus on chamilo.org**
+**このキャンパスをchamilo.orgにリストしない**
 
-By default, Chamilo portals are automatically registered in a public list at chamilo.org, just using the title you gave to this portal (not the URL nor any private data). Check this box to avoid having the title of your portal appear.
+デフォルトでは、Chamiloポータルはこのポータルに付けたタイトル（URLや個人データは含まれません）を使用して、chamilo.orgの公開リストに自動的に登録されます。このポータルのタイトルが表示されないようにするには、このボックスをチェックしてください。
 
-*Default: `false`*
+*デフォルト: `false`*
 
 ### `generate_random_login`
 
-**Generate random username**
+**ランダムなユーザー名を生成する**
 
-When importing users (batch processes), automatically generate a random string for username. Otherwise, the username will be generated on the basis of the firstname and lastname, or the prefix of the e-mail.
+ユーザーをインポートする際（バッチ処理）に、ユーザー名としてランダムな文字列を自動生成します。そうでない場合、ユーザー名は名と姓、またはメールのプレフィックスに基づいて生成されます。
 
-*Default: `false`*
+*デフォルト: `false`*
 
 ### `hosting_limit_identical_email`
 
-**Limit identical email usage**
+**同一メールアドレスの使用制限**
 
-Maximum number of accounts allowed to share the same e-mail address. Set to 0 to disable this limit.
+同一のメールアドレスを共有できるアカウントの最大数。制限を無効にするには0に設定します。
 
-*Default: `0`*
+*デフォルト: `0`*
 
 ### `hosting_limit_users_per_course`
 
-**Global limit of users per course**
+**コースごとのユーザーのグローバル制限**
 
-Defines a global maximum number of users (teachers included) allowed to be subscribed to any single course in the platform. Set this value to 0 to disable the limit. This helps avoid courses being overloaded in open portals.
+プラットフォーム内の単一のコースに登録できるユーザー（教師を含む）の最大数をグローバルに定義します。制限を無効にするにはこの値を0に設定します。オープンなポータルでコースが過負荷になるのを防ぐのに役立ちます。
 
-*Default: `0`*
+*デフォルト: `0`*
 
 ### `institution`
 
-**Organization name**
+**組織名**
 
-The name of the organization (appears in the header on the right)
+組織の名前（ヘッダーの右側に表示されます）
 
-*Default: `Chamilo.org`*
-
+*デフォルト: `Chamilo.org`*
 
 ### `institution_address`
 
-**Institution address**
+**機関の住所**
 
-Address
+住所
 
 ### `institution_url`
 
-**Organization URL (web address)**
+**組織のURL（ウェブアドレス）**
 
-The URL of the institutions (the link that appears in the header on the right)
+機関のURL（ヘッダーの右側に表示されるリンク）
 
-*Default: `http://www.chamilo.org`*
-
+*デフォルト: `http://www.chamilo.org`*
 
 ### `max_courses_per_user`
 
-**Maximum courses per user**
+**ユーザーごとの最大コース数**
 
-Maximum number of courses a teacher/trainer can create. Set to 0 to disable the limit. Can be overridden per user via a BuyCourses service purchase.
+教師/トレーナーが作成できるコースの最大数。制限を無効にするには0に設定します。BuyCoursesサービスの購入を通じてユーザーごとに上書き可能です。
 
-*Default: `0`*
+*デフォルト: `0`*
 
 ### `notification_event`
 
-**Enable the notification tool for a more impactful communication channel with students**
+**学生とのより効果的なコミュニケーション手段のための通知ツールを有効にする**
 
-Activates popup or system notifications for important platform events.
+重要なプラットフォームイベントに対してポップアップまたはシステム通知を有効にします。
 
-*Default: `false`*
+*デフォルト: `false`*
 
 ### `pdf_img_dpi`
 
-**PDF export resolution**
+**PDFエクスポートの解像度**
 
-This represents the resolution of generated PDF files (in dot per inch, or dpi). The default is 96. Increasing it will give you better resolution PDF files but will also increase the weight and generation time of the files.
+生成されるPDFファイルの解像度を表します（ドットパーインチ、またはdpi）。デフォルトは96です。これを増やすとPDFファイルの解像度が向上しますが、ファイルの重量と生成時間も増加します。
 
-*Default: `96`*
+*デフォルト: `96`*
 
 ### `platform_logo_url`
 
-**URL for alternative platform logo**
+**代替プラットフォームロゴのURL**
 
-Replaces the Chamilo logo by loading a (possibly remote) URL. Make sure this is allowed by your security policies.
+Chamiloロゴを（リモートの可能性がある）URLを読み込むことで置き換えます。セキュリティポリシーでこれが許可されていることを確認してください。
 
-*Default: `https://chamilo.org`*
-
+*デフォルト: `https://chamilo.org`*
 
 ### `portfolio_advanced_sharing`
 
-**Enable portfolio advanced sharing**
+**ポートフォリオの高度な共有を有効にする**
 
-Decide who can view the posts and comments of the portfolio.
+ポートフォリオの投稿やコメントを誰が見ることができるかを決定します。
 
-*Default: `false`*
+*デフォルト: `false`*
 
 ### `portfolio_show_base_course_post_in_sessions`
 
-**Show base course posts in session course**
+**セッションコースでベースコースの投稿を表示する**
 
-Decide who can view the posts and comments of the portfolio.
+ポートフォリオの投稿やコメントを誰が見ることができるかを決定します。
 
-*Default: `false`*
+*デフォルト: `false`*
 
 ### `push_notification_settings`
 
-**Push notification settings (JSON)**
+**プッシュ通知設定（JSON）**
 
-JSON configuration for Push notifications integration.
+プッシュ通知統合のためのJSON設定。
 
 ### `server_type`
 
-**Server Type**
+**サーバータイプ**
 
-Defines the environment type: "prod" (normal production), "validation" (like production but without reporting statistics), or "test" (debug mode with developer tools such as untranslated string indicators).
+環境タイプを定義します：「prod」（通常の運用環境）、「validation」（統計報告なしの運用環境に似たもの）、または「test」（未翻訳文字列インジケーターなどの開発者ツールを含むデバッグモード）。
 
-*Default: `prod`*
+*デフォルト: `prod`*
 
 ### `session_admin_access_to_all_users_on_all_urls`
 
-**Allow session admins to see all users on all URLs**
+**セッション管理者がすべてのURLで全ユーザーを見ることができるようにする**
 
-If enabled, session admins can search and list users from all access URLs, regardless of their current URL.
+有効にすると、セッション管理者は現在のURLに関係なく、すべてのアクセスURLからユーザーを検索およびリストできます。
 
-*Default: `false`*
+*デフォルト: `false`*
 
+---
 ### `site_name`
 
-**E-learning portal name**
+**eラーニングポータルの名前**
 
-The Name of your Chamilo Portal (appears in the header)
+Chamiloポータルの名前（ヘッダーに表示されます）
 
-*Default: `Chamilo site`*
+*デフォルト: `Chamilo site`*
 
 
 ### `timepicker_increment`
 
-**Timepicker increment**
+**タイムピッカーの増分**
 
-Minimal time increment (in minutes) when selecting a date and time with the timepicker widget. For example, it might not be useful to have less than 5 or 15 minutes increments when talking about assignment submission, availability of a test, start time of a session, etc.
+タイムピッカウィジェットで日時を選択する際の最小時間増分（分単位）。たとえば、課題の提出、テストの利用可能性、セッションの開始時間などについて話す場合、5分や15分未満の増分は有用でない場合があります。
 
-*Default: `15`*
+*デフォルト: `15`*
+
 
 ### `timezone`
 
-**Default timezone**
+**デフォルトのタイムゾーン**
 
-Select the default timezone for this portal. This will help set the timezone (if the feature is enabled) for each new user or for any user that has not set a specific timezone yet. Timezones help show all time-related information on screen in the specific timezone of each user.
+このポータルのデフォルトのタイムゾーンを選択します。これにより、各新規ユーザーや特定のタイムゾーンを設定していないユーザーにタイムゾーンを設定する機能（有効化されている場合）を支援します。タイムゾーンは、各ユーザーの特定のタイムゾーンで画面上のすべての時間関連情報を表示するのに役立ちます。
 
-*Default: `Europe/Paris`*
+*デフォルト: `Europe/Paris`*
 
 
 ### `unoconv_binaries`
 
-**UNO converter binaries**
+**UNOコンバータバイナリ**
 
-Give the system path to the UNO converter library to enable some extra exporting features.
+いくつかの追加のエクスポート機能を有効にするために、UNOコンバータライブラリへのシステムパスを指定します。
 
-*Default: `/usr/bin/unoconv`*
+*デフォルト: `/usr/bin/unoconv`*
 
 
 ### `use_career_external_id_as_identifier_in_diagrams`
 
-**Use external career ID in diagrams**
+**ダイアグラムで外部キャリアIDを使用**
 
-If using career diagrams, show an extra field instead of the internal career ID.
+キャリアダイアグラムを使用する場合、内部キャリアIDの代わりに追加のフィールドを表示します。
 
-*Default: `false`*
+*デフォルト: `false`*
+
 
 ### `use_custom_pages`
 
-**Use custom pages**
+**カスタムページの使用**
 
-Enable this feature to configure specific login pages by role
+ロールごとに特定のログインページを設定する機能を有効にします。
 
-*Default: `false`*
+*デフォルト: `false`*
+
 
 ### `use_virtual_keyboard`
 
-**Use virtual keyboard**
+**仮想キーボードの使用**
 
-Make a virtual keyboard appear. This is useful when setting up restrictive exams in a physical room where students have no keyboard to limit their ability to cheat.
+仮想キーボードを表示します。これは、学生がキーボードを持たない物理的な部屋で制限付きの試験を設定する際に、カンニングの可能性を制限するために役立ちます。
 
-*Default: `false`*
+*デフォルト: `false`*
+
 
 ### `user_status_show_option`
 
-**Roles display options**
+**ロール表示オプション**
 
-An array of role => true/false that defines whether that role should be shown or hidden.
+ロール => true/false の配列で、そのロールを表示するか非表示にするかを定義します。
+
 
 ### `user_status_show_options_enabled`
 
-**Selective display of roles**
+**ロールの選択的表示**
 
-Enable to use an array to define which roles should be clearly displayed and which should be hidden.
+どのロールを明確に表示し、どのロールを非表示にするかを定義する配列を使用する機能を有効にします。
 
-*Default: `false`*
+*デフォルト: `false`*

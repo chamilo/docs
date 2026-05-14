@@ -1,105 +1,105 @@
-# Git Workflow
+# Git ワークフロー
 
-## Repository
+## リポジトリ
 
-The Chamilo source code is hosted on GitHub: [github.com/chamilo/chamilo-lms](https://github.com/chamilo/chamilo-lms)
+Chamilo のソースコードは GitHub でホスティングされています：[github.com/chamilo/chamilo-lms](https://github.com/chamilo/chamilo-lms)
 
-## Branching
+## ブランチング
 
-* **`master`** — Main development branch
-* Feature branches are created from `master` for new development
-* Release branches are created for stable releases
+* **`master`** — 主要な開発ブランチ
+* 機能ブランチは新しい開発のために `master` から作成されます
+* リリースブランチは安定版リリースのために作成されます
 
-## Contributing a Change
+## 変更の貢献
 
-1. **Fork** the repository on GitHub
-2. **Clone** your fork locally
-3. **Create a branch** for your change: `git checkout -b feature/my-feature`
-4. **Make your changes** following the coding conventions
-5. **Commit** with clear, descriptive commit messages
-6. **Push** to your fork: `git push origin feature/my-feature`
-7. **Create a pull request** against the `master` branch
+1. GitHub 上でリポジトリを**フォーク**する
+2. フォークをローカルに**クローン**する
+3. 変更用の**ブランチを作成**する：`git checkout -b feature/my-feature`
+4. コーディング規約に従って**変更を加える**
+5. 明確で説明的なコミットメッセージとともに**コミット**する
+6. フォークに**プッシュ**する：`git push origin feature/my-feature`
+7. `master` ブランチに対して**プルリクエストを作成**する
 
-## Commit Messages
+## コミットメッセージ
 
-Write clear commit messages that explain **what** and **why**:
-
-```
-Glossary: Add AI-assisted term generation
-
-Teachers can now generate glossary terms using configured AI
-providers. Supports configurable prompt and term count.
-```
-
-### Tool prefix convention
-
-The subject line is prefixed with the **tool or area** that the change touches, followed by a colon. We use a short shared terminology so that the changelog and `git log --oneline` can be skimmed by tool. The prefix is always the **singular** form of the tool's canonical name.
-
-Format: `<Prefix>: <Imperative summary in the present tense>`
-
-Examples:
+**何を**、**なぜ**行ったのかを説明する明確なコミットメッセージを書いてください：
 
 ```
-Document: Fix list for student view
-Exercise: Prevent duplicate question titles within a quiz
-Learnpath: Allow reordering chapters via drag and drop
-Internal: Refactor ResourceNode hydration in the API normalizer
-CI: Cache Composer downloads in the GitHub Actions workflow
+Glossary: AI支援による用語生成の追加
+
+教師は設定されたAIプロバイダーを使用して用語集の用語を生成できるようになりました。
+設定可能なプロンプトと用語数をサポートしています。
 ```
 
-If a change spans several tools, pick the one most affected; truly cross-cutting changes that only touch code structure (no end-user tool) go under `Internal`. Documentation-only changes (this site, the changelog, inline docblocks meant purely as reference) go under `Documentation`.
+### ツールプレフィックス規約
 
-#### Allowed prefixes
+件名行には、変更が影響する**ツールまたは領域**をプレフィックスとして付け、その後にコロンを続けます。ツールごとに変更ログや `git log --oneline` をざっと見ることができるように、短い共通の用語を使用します。プレフィックスは常にツールの正規名の**単数形**を使用します。
 
-| Prefix               | Scope / notes                                                                        |
+形式：`<Prefix>: <現在形で命令形の要約>`
+
+例：
+
+```
+Document: 学生ビューでのリストの修正
+Exercise: クイズ内での質問タイトルの重複を防止
+Learnpath: ドラッグアンドドロップによる章の並べ替えを許可
+Internal: API ノーマライザーでの ResourceNode ハイドレーションのリファクタリング
+CI: GitHub Actions ワークフローでの Composer ダウンロードのキャッシュ
+```
+
+変更が複数のツールにまたがる場合は、最も影響を受けるものを選択してください。コード構造のみに影響し、エンドユーザーツールに影響しない真に横断的な変更は `Internal` に分類されます。ドキュメントのみの変更（このサイト、変更ログ、純粋に参照用のインラインドキュメントブロック）は `Documentation` に分類されます。
+
+#### 許可されるプレフィックス
+
+| プレフィックス        | 範囲 / 備考                                                                          |
 |----------------------|--------------------------------------------------------------------------------------|
 | `Admin`              |                                                                                      |
 | `Announcement`       |                                                                                      |
 | `Attendance`         |                                                                                      |
 | `Authentication`     |                                                                                      |
 | `Blog`               |                                                                                      |
-| `Calendar`           | Not "Agenda"                                                                         |
+| `Calendar`           | 「Agenda」ではなく「Calendar」                                                       |
 | `Career`             |                                                                                      |
-| `Catalogue`          | Courses and sessions catalogue, including "hot courses" on the homepage              |
+| `Catalogue`          | コースおよびセッションのカタログ、ホームページの「注目のコース」を含む                |
 | `Chat`               |                                                                                      |
-| `CI`                 | Continuous Integration, automated tests, etc.                                        |
+| `CI`                 | 継続的インテグレーション、自動テストなど                                             |
 | `Course description` |                                                                                      |
-| `Course Progress`    | Not "Thematic advance"                                                               |
+| `Course Progress`    | 「Thematic advance」ではなく「Course Progress」                                      |
 | `Course settings`    |                                                                                      |
 | `Cron`               |                                                                                      |
 | `Dashboard`          |                                                                                      |
 | `Display`            |                                                                                      |
 | `Document`           |                                                                                      |
-| `Documentation`      | Anything related exclusively to documenting Chamilo or the code, the changelog, etc. |
+| `Documentation`      | Chamiloやコードのドキュメント、変更ログなど、ドキュメント関連に限定されるもの         |
 | `Dropbox`            |                                                                                      |
-| `Exercise`           | Not "Quiz"                                                                           |
+| `Exercise`           | 「Quiz」ではなく「Exercise」                                                         |
 | `Extra Fields`       |                                                                                      |
 | `Forum`              |                                                                                      |
 | `Glossary`           |                                                                                      |
-| `Gradebook`          | Includes Certificates                                                                |
-| `Group`              | Includes course groups, global groups, and classes                                   |
+| `Gradebook`          | 証明書を含む                                                                         |
+| `Group`              | コースグループ、グローバルグループ、クラスを含む                                     |
 | `Help`               |                                                                                      |
-| `Hook`               | For the internal hook mechanism                                                      |
-| `Install`            | Includes upgrade stuff                                                               |
-| `Internal`           | For changes and fixes that mostly affect code itself or are very global by nature    |
+| `Hook`               | 内部フックメカニズム用                                                               |
+| `Install`            | アップグレード関連を含む                                                             |
+| `Internal`           | コード自体や非常に広範な性質の変更および修正に主に関連するもの                       |
 | `Language`           |                                                                                      |
 | `Link`               |                                                                                      |
-| `Learnpath`          | For LP / Learning Paths                                                              |
-| `Maintenance`        | The course maintenance tool: course copies, backup, restore, etc.                    |
+| `Learnpath`          | LP / 学習パス用                                                                      |
+| `Maintenance`        | コースメンテナンスツール：コースのコピー、バックアップ、復元など                     |
 | `Message`            |                                                                                      |
 | `Notebook`           |                                                                                      |
 | `Optimization`       |                                                                                      |
 | `Portfolio`          |                                                                                      |
 | `Privacy`            |                                                                                      |
-| `Script`             | For what lives in `tests/scripts/`                                                   |
-| `Search`             | Full-text search                                                                     |
+| `Script`             | `tests/scripts/` にあるもの用                                                        |
+| `Search`             | 全文検索                                                                             |
 | `Security`           |                                                                                      |
 | `Session`            |                                                                                      |
 | `Skill`              |                                                                                      |
-| `Social`             | Social network                                                                       |
-| `SSO`                | Single Sign-On methods                                                               |
+| `Social`             | ソーシャルネットワーク                                                               |
+| `SSO`                | シングルサインオン方式                                                               |
 | `Survey`             |                                                                                      |
-| `System`             | Things that have mostly to do with hosting and fine-tuning at server level           |
+| `System`             | ホスティングやサーバーレベルでの微調整に主に関連するもの                             |
 | `Template`           |                                                                                      |
 | `Ticket`             |                                                                                      |
 | `Tracking`           |                                                                                      |
@@ -110,14 +110,14 @@ If a change spans several tools, pick the one most affected; truly cross-cutting
 | `WYSIWYG`            |                                                                                      |
 | `XAPI`               |                                                                                      |
 
-## Code Review
+## コードレビュー
 
-Pull requests are reviewed by the maintainer team. Be prepared to:
+プルリクエストはメンテナーチームによってレビューされます。以下の点に備えてください：
 
-* Address feedback and make revisions
-* Keep your branch up to date with `master`
-* Ensure tests pass
+- フィードバックに対応し、修正を行う
+- ブランチを`master`と最新の状態に保つ
+- テストが通過することを確認する
 
-## Reporting Issues
+## 問題の報告
 
-Report bugs and feature requests on the GitHub issue tracker.
+バグや機能リクエストはGitHubのイシュートラッカーで報告してください。

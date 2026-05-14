@@ -1,59 +1,59 @@
-# Wiki
+# ウィキ
 
-The wiki tool lets you and your learners collaboratively create and edit web pages within the course. It is useful for group projects, shared knowledge bases, and collaborative writing exercises.
+ウィキツールを使用すると、コース内であなたや学習者が共同でウェブページを作成および編集することができます。グループプロジェクト、共有ナレッジベース、共同ライティングの演習に役立ちます。
 
-## How the Wiki Works
+## ウィキの仕組み
 
-A wiki is a collection of interlinked web pages that anyone with permission can edit. In Chamilo:
+ウィキは、許可を持つ人が誰でも編集できる相互リンクされたウェブページの集合です。Chamiloでは：
 
-* Each course has its own wiki
-* Pages can be linked to each other using wiki-style links
-* All edits are tracked with a revision history
-* Previous versions can be compared and restored
+* 各コースには独自のウィキがあります
+* ページはウィキ形式のリンクを使用して互いにリンクできます
+* すべての編集はリビジョン履歴で追跡されます
+* 以前のバージョンを比較したり、復元したりすることができます
 
-## Creating a Wiki Page
+## ウィキページの作成
 
-1. Open the **Wiki** tool from the course homepage
-2. Click **Add a new page**
-3. Enter a **page title**
-4. Write the page content using the rich-text editor
-5. Save
+1. コースホームページから**ウィキ**ツールを開きます
+2. **新しいページを追加**をクリックします
+3. **ページタイトル**を入力します
+4. リッチテキストエディタを使用してページの内容を記述します
+5. 保存します
 
-To link to another wiki page from within the editor, create a link using the target page's title.
+エディタ内から別のウィキページにリンクするには、リンク先ページのタイトルを使用してリンクを作成します。
 
-## Editing Pages
+## ページの編集
 
-Anyone with edit permissions can modify a wiki page:
+編集権限を持つ人は誰でもウィキページを変更できます：
 
-1. Open the page you want to edit
-2. Click the **Edit** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Edit" data-size="line"> button
-3. Make your changes in the editor
-4. Add an optional **Comments** entry describing what you changed
-5. Save
+1. 編集したいページを開きます
+2. **編集** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="編集" data-size="line"> ボタンをクリックします
+3. エディタで変更を行います
+4. 変更内容を説明する**コメント**を任意で追加します
+5. 保存します
 
-## Revision History
+## リビジョン履歴
 
-Every edit creates a new revision. You can:
+編集するたびに新しいリビジョンが作成されます。以下のことができます：
 
-* **View history** — See a list of all revisions with timestamps and authors
-* **Compare versions** — See what changed between two revisions
-* **Restore a version** — Revert the page to a previous revision if needed
+* **履歴を表示** — タイムスタンプと作成者を含むすべてのリビジョンのリストを確認する
+* **バージョンを比較** — 2つのリビジョン間で何が変更されたかを確認する
+* **バージョンを復元** — 必要に応じてページを以前のリビジョンに戻す
 
-## Managing the Wiki
+## ウィキの管理
 
-As the course teacher, you can:
+コースの教師として、以下のことができます：
 
-* **View all pages** — See a list of all wiki pages in the course
-* **Find orphan pages** — Identify pages that are not linked from any other page
-* **Find wanted pages** — See pages that are linked to but do not yet exist
-* **Lock a page for editing** — Block all edits on a page while you finalise it
-* **Toggle visibility** — Hide a page from learners
-* **Delete pages** — Remove pages that are no longer needed
-* **Monitor contributions** — Review per-user statistics: most active editors, most edited pages, most visited pages
-* **Export** — Export a wiki page to PDF, or send it into the Documents tool
+* **すべてのページを表示** — コース内のすべてのウィキページのリストを確認する
+* **孤立したページを見つける** — 他のページからリンクされていないページを特定する
+* **必要なページを見つける** — リンクされているがまだ存在しないページを確認する
+* **ページの編集をロックする** — ページを最終化している間、すべての編集をブロックする
+* **表示/非表示を切り替える** — 学習者からページを非表示にする
+* **ページを削除する** — 不要になったページを削除する
+* **貢献を監視する** — ユーザーごとの統計を確認する：最もアクティブな編集者、最も編集されたページ、最も訪問されたページ
+* **エクスポート** — ウィキページをPDFにエクスポートする、またはドキュメントツールに送信する
 
-## Tips
+## ヒント
 
-* **Use the wiki for group projects** — Assign each group a wiki page to collaboratively build their deliverable
-* **Create a course knowledge base** — Build a reference wiki with key concepts, and encourage learners to contribute
-* **Review edit history** — The revision history lets you assess individual contributions in collaborative work
+* **グループプロジェクトにウィキを使用する** — 各グループにウィキページを割り当て、共同で成果物を作成させる
+* **コースのナレッジベースを作成する** — 主要な概念を含む参照ウィキを構築し、学習者が貢献するよう促す
+* **編集履歴を確認する** — リビジョン履歴を使用して、共同作業における個々の貢献を評価する

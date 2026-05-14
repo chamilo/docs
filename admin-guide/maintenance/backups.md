@@ -1,53 +1,53 @@
-# Backups
+# バックアップ
 
-Regular backups are essential for protecting your Chamilo data. This page covers what to back up and how.
+定期的なバックアップは、Chamiloのデータを保護するために不可欠です。このページでは、バックアップすべき内容とその方法について説明します。
 
-## What to Back Up
+## バックアップ対象
 
-### 1. Database
+### 1. データベース
 
-The Chamilo database contains all platform data: users, courses, tracking, grades, messages, and settings. This is the most critical component to back up.
+Chamiloのデータベースには、プラットフォームのすべてのデータが含まれています：ユーザー、コース、追跡情報、成績、メッセージ、設定など。これが最も重要なバックアップ対象です。
 
-**How to back up:**
+**バックアップ方法：**
 
 ```bash
 mysqldump -u username -p chamilo_database > chamilo_backup_$(date +%Y%m%d).sql
 ```
 
-### 2. Files
+### 2. ファイル
 
-Chamilo stores uploaded files (documents, images, SCORM packages) in the filesystem. The key directories to back up:
+Chamiloはアップロードされたファイル（ドキュメント、画像、SCORMパッケージ）をファイルシステムに保存します。バックアップすべき主要なディレクトリは以下の通りです：
 
-* `var/` — Uploaded files and resources
-* `public/plugin/` — Plugin files (only if you have added custom plugins)
+* `var/` — アップロードされたファイルとリソース
+* `public/plugin/` — プラグインファイル（カスタムプラグインを追加した場合のみ）
 
-If you use cloud storage (S3, Azure Blob), ensure your cloud provider's backup/versioning is enabled.
+クラウドストレージ（S3、Azure Blob）を使用している場合は、クラウドプロバイダのバックアップ/バージョン管理が有効になっていることを確認してください。
 
-### 3. Configuration
+### 3. 設定
 
-* `.env` — Your environment configuration
-* `config/` — Any custom configuration files
+* `.env` — 環境設定ファイル
+* `config/` — カスタム設定ファイル
 
-## Backup Schedule
+## バックアップスケジュール
 
-| Component | Recommended frequency |
+| コンポーネント | 推奨頻度 |
 |-----------|---------------------|
-| Database | Daily |
-| Files | Daily or weekly (depending on upload activity) |
-| Configuration | After any configuration change |
+| データベース | 毎日 |
+| ファイル | 毎日または毎週（アップロードの頻度による） |
+| 設定 | 設定変更後 |
 
-## Restoration
+## 復元
 
-To restore from a backup:
+バックアップから復元する手順：
 
-1. Restore the database from the SQL dump
-2. Restore the file directories
-3. Restore the configuration files
-4. Clear the Symfony cache: `php bin/console cache:clear`
+1. SQLダンプからデータベースを復元する
+2. ファイルディレクトリを復元する
+3. 設定ファイルを復元する
+4. Symfonyのキャッシュをクリアする：`php bin/console cache:clear`
 
-## Tips
+## ヒント
 
-* **Automate backups** — Use cron jobs to run backups automatically
-* **Store off-site** — Keep backup copies on a separate server or cloud storage
-* **Test restoration** — Periodically test that you can restore from a backup successfully
-* **Document your process** — Keep written instructions for the restoration process so anyone on the team can perform it
+* **バックアップの自動化** — cronジョブを使用してバックアップを自動的に実行する
+* **オフサイト保存** — バックアップのコピーを別のサーバーまたはクラウドストレージに保存する
+* **復元テスト** — 定期的にバックアップから正常に復元できるかテストする
+* **プロセスの文書化** — 復元プロセスの手順を書面で残し、チームの誰でも実行できるようにする

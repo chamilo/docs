@@ -1,89 +1,89 @@
-# Settings System
+# 設定システム
 
-Chamilo's configuration is managed through a set of settings schemas (around 40 of them, varying between releases) that define every configurable aspect of the platform. They live in `src/CoreBundle/Settings/` — the exact list there is the source of truth.
+Chamiloの設定は、プラットフォームのあらゆる設定可能な側面を定義する一連の設定スキーマ（リリースによって異なる約40個）を通じて管理されています。これらは `src/CoreBundle/Settings/` に存在し、そこにある正確なリストが真実の情報源です。
 
-## How It Works
+## 仕組み
 
-Settings are:
+設定は以下の通りです：
 
-1. **Defined** in schema classes (`src/CoreBundle/Settings/*SettingsSchema.php`)
-2. **Stored** in the database (`settings_current` table)
-3. **Accessed** via the `SettingsManager` service
-4. **Managed** through the administration web interface
+1. スキーマクラス（`src/CoreBundle/Settings/*SettingsSchema.php`）で**定義**される
+2. データベース（`settings_current` テーブル）に**保存**される
+3. `SettingsManager` サービスを通じて**アクセス**される
+4. 管理ウェブインターフェースを通じて**管理**される
 
-## Settings Schemas
+## 設定スキーマ
 
-Each schema file defines a category of settings. Key schemas:
+各スキーマファイルは設定のカテゴリを定義します。主なスキーマは以下の通りです：
 
-| Schema | Purpose |
+| スキーマ | 目的 |
 |--------|---------|
-| `PlatformSettingsSchema` | Institution info, timezone, server type, portal features |
-| `SecuritySettingsSchema` | Login attempts, CAPTCHA, password policy, HTTP headers, 2FA |
-| `RegistrationSettingsSchema` | Self-registration, required fields, auto-subscribe |
-| `CourseSettingsSchema` | Course creation defaults, tools, catalog |
-| `SessionSettingsSchema` | Session defaults, visibility |
-| `MailSettingsSchema` | Email configuration, DKIM, notifications |
-| `AiHelpersSettingsSchema` | AI providers, feature toggles per AI tool |
-| `ExerciseSettingsSchema` | Quiz scoring, feedback, question options |
-| `LearningPathSettingsSchema` | LP display, prerequisites, SCORM settings |
-| `DocumentSettingsSchema` | Upload limits, allowed file types, storage |
-| `DisplaySettingsSchema` | UI tabs, sidebar items, theme |
-| `LanguageSettingsSchema` | Available languages, default locale |
-| `AdminSettingsSchema` | Admin email, admin-specific options |
+| `PlatformSettingsSchema` | 機関情報、タイムゾーン、サーバータイプ、ポータル機能 |
+| `SecuritySettingsSchema` | ログイン試行回数、CAPTCHA、パスワードポリシー、HTTPヘッダー、2FA |
+| `RegistrationSettingsSchema` | 自己登録、必須フィールド、自動購読 |
+| `CourseSettingsSchema` | コース作成のデフォルト、ツール、カタログ |
+| `SessionSettingsSchema` | セッションのデフォルト、表示設定 |
+| `MailSettingsSchema` | メール設定、DKIM、通知 |
+| `AiHelpersSettingsSchema` | AIプロバイダ、AIツールごとの機能トグル |
+| `ExerciseSettingsSchema` | クイズの採点、フィードバック、質問オプション |
+| `LearningPathSettingsSchema` | 学習パスの表示、前提条件、SCORM設定 |
+| `DocumentSettingsSchema` | アップロード制限、許可されるファイルタイプ、ストレージ |
+| `DisplaySettingsSchema` | UIタブ、サイドバー項目、テーマ |
+| `LanguageSettingsSchema` | 利用可能な言語、デフォルトのロケール |
+| `AdminSettingsSchema` | 管理者メール、管理者固有のオプション |
 
-## Accessing Settings
+## 設定へのアクセス
 
-In PHP code:
+PHPコード内では：
 
 ```php
-// Via SettingsManager service
+// SettingsManagerサービス経由
 $value = $settingsManager->getSetting('platform.site_name');
 
-// In legacy code
+// 従来のコードでは
 $value = api_get_setting('platform.site_name');
 ```
 
-In templates:
+テンプレート内では：
 
 ```twig
-{# Read a single setting #}
+{# 単一の設定を読み込む #}
 {{ chamilo_settings_get('platform.site_name') }}
 
-{# Check whether a setting exists #}
+{# 設定が存在するかどうかを確認する #}
 {% if chamilo_settings_has('platform.allow_registration') %}
     ...
 {% endif %}
 
-{# Get all settings as an array #}
+{# すべての設定を配列として取得する #}
 {% set settings = chamilo_settings_all() %}
 ```
 
-## Setting Structure
+## 設定の構造
 
-Each setting has:
+各設定には以下の要素があります：
 
-* **Namespace** — The schema category (e.g., `platform`, `security`, `ai_helpers`)
-* **Variable** — The setting name (e.g., `site_name`, `allow_registration`)
-* **Value** — The current value
-* **Type** — Data type (string, boolean, array, etc.)
+* **名前空間** — スキーマカテゴリ（例：`platform`、`security`、`ai_helpers`）
+* **変数** — 設定名（例：`site_name`、`allow_registration`）
+* **値** — 現在の値
+* **タイプ** — データ型（文字列、ブール値、配列など）
 
-## Course-Level Settings
+## コースレベルの設定
 
-Some settings can be overridden at the course level. These are defined in `src/CourseBundle/Settings/` and include:
+一部の設定はコースレベルで上書き可能です。これらは `src/CourseBundle/Settings/` に定義されており、以下が含まれます：
 
-* Exercise settings per course
-* Assignment settings per course
-* AI feature toggles per course
+* コースごとの演習設定
+* コースごとの課題設定
+* コースごとのAI機能トグル
 
-## Multi-URL Settings
+## マルチURL設定
 
-In multi-URL setups, some settings can be customized per access URL, allowing different portal configurations from the same installation.
+マルチURL設定では、一部の設定をアクセスURLごとにカスタマイズでき、同じインストールから異なるポータル設定を可能にします。
 
-Those settings will appear several times in the `settings` table, with different `access_url` values. By default, all settings are associated with `access_url=1`.
+これらの設定は `settings` テーブルに複数回表示され、異なる `access_url` 値が関連付けられます。デフォルトでは、すべての設定は `access_url=1` に関連付けられています。
 
-## Adding a New Setting
+## 新しい設定の追加
 
-1. Add the setting definition to the appropriate schema class
-2. Provide a default value
-3. Run database migrations if needed
-4. Access the setting via `SettingsManager`
+1. 適切なスキーマクラスに設定定義を追加する
+2. デフォルト値を指定する
+3. 必要に応じてデータベースマイグレーションを実行する
+4. `SettingsManager` を通じて設定にアクセスする

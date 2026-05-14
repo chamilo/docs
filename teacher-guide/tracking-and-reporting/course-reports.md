@@ -1,50 +1,50 @@
-# Course Reports
+# コースレポート
 
-Course reports give you an aggregate view of activity and performance across all learners in your course.
+コースレポートは、コース内のすべての学習者の活動とパフォーマンスを総合的に把握できるビューを提供します。
 
-## Accessing Course Reports
+## コースレポートへのアクセス
 
-Open the **Tracking** <img src="/.gitbook/assets/icons/mdi-chart-box.svg" alt="Tracking" data-size="line"> tool from the course homepage and select the course-level reports view.
+コースのホームページから **トラッキング** <img src="/.gitbook/assets/icons/mdi-chart-box.svg" alt="トラッキング" data-size="line"> ツールを開き、コースレベルのレポートビューを選択します。
 
-![The course tracking overview showing engagement metrics and learner activity summary](/.gitbook/assets/tracking-course-overview.png)
+![エンゲージメント指標と学習者活動の概要を示すコーストラッキングの概要](/.gitbook/assets/tracking-course-overview.png)
 
-## Available Reports
+## 利用可能なレポート
 
-### Activity Overview
+### 活動概要
 
-A summary of overall course engagement, including enrolled learners, time spent in the course, course progress, exercise progress and average score, and assignment activity.
+コース全体のエンゲージメントの概要で、登録されている学習者数、コースに費やした時間、コースの進捗状況、演習の進捗状況と平均スコア、課題の活動状況が含まれます。
 
-Separate detail views are available from the tracking section for **resources** (per-resource access counts), **tools** (per-tool usage), and **events** (raw event log).
+トラッキングセクションからは、**リソース**（リソースごとのアクセス数）、**ツール**（ツールごとの使用状況）、**イベント**（生のイベントログ）の詳細ビューが別途利用可能です。
 
-### Exercise Reports
+### 演習レポート
 
-For each exercise in the course:
+コース内の各演習について：
 
-* Number of learners who attempted it
-* Average score
-* Score distribution
-* Number of learners who passed (based on the pass threshold you set)
+* 試みた学習者の数
+* 平均スコア
+* スコアの分布
+* 合格した学習者の数（設定した合格基準に基づく）
 
-### Learning Path Reports
+### 学習パスレポート
 
-For each learning path:
+各学習パスについて：
 
-* Completion rates across all learners
-* Average progress percentage
-* Time spent per item
-* Learners who have completed the path vs. those still in progress
+* 全学習者の完了率
+* 平均進捗率
+* アイテムごとの所要時間
+* 学習パスを完了した学習者と進行中の学習者の比較
 
-### Assignment Reports
+### 課題レポート
 
-For each assignment:
+各課題について：
 
-* Number of submissions received
-* Number of pending reviews
+* 提出された数
+* レビュー待ちの数
 
-## Exporting Data
+## データのエクスポート
 
-You can export tracking and report data for further analysis. Look for the **Export** <img src="/.gitbook/assets/icons/mdi-export.svg" alt="Export" data-size="line"> option to download data in a spreadsheet-compatible format.
+トラッキングおよびレポートデータをさらに分析するためにエクスポートすることができます。**エクスポート** <img src="/.gitbook/assets/icons/mdi-export.svg" alt="エクスポート" data-size="line"> オプションを探して、データをスプレッドシート互換の形式でダウンロードしてください。
 
-## Session Reports
+## セッションレポート
 
-If you teach within a session, reports are scoped to the session's learners. Session coaches have access to reports across all courses in their session. A global configuration setting can also allows teachers to see assignments through all sessions using their course (ask your admin).
+セッション内で教えている場合、レポートはセッションの学習者に限定されます。セッションコーチは、セッション内のすべてのコースのレポートにアクセスできます。グローバル設定により、教師が自分のコースを使用しているすべてのセッションを通じて課題を確認することも可能になります（管理者にお問い合わせください）。

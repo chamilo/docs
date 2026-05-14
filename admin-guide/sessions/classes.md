@@ -1,34 +1,34 @@
-# Classes
+# クラス
 
-Classes in Chamilo are predefined groups of users that can be enrolled in sessions as a unit. They simplify the enrollment process when you regularly train the same groups of people.
+Chamiloのクラスは、ユーザーグループを事前に定義したもので、セッションに一括して登録することができます。同じグループの人々を定期的にトレーニングする場合、登録プロセスを簡略化します。
 
-> Classes and [User Groups](../../admin-guide/users/user-groups.md) share the same interface. The only difference is the **group type** setting: choose "Class" when creating the group. Everything else — member management, visibility, and the interface itself — works identically.
+> クラスと[ユーザーグループ](../../admin-guide/users/user-groups.md)は同じインターフェースを共有しています。唯一の違いは**グループタイプ**の設定です。グループを作成する際に「クラス」を選択してください。それ以外のこと——メンバー管理、可視性、インターフェース自体——はすべて同じように機能します。
 
-## Creating a Class
+## クラスの作成
 
-1. From the administration panel, navigate to **Classes** (or User Groups and select the "Class" type)
-2. Click **Create a class**
-3. Enter a **name** (e.g., "Engineering Team", "New Hires March 2026")
-4. Add **members** — search for and select users
-5. Save
+1. 管理パネルから**クラス**（またはユーザーグループを選択し、「クラス」タイプを選択）に移動します
+2. **クラスの作成**をクリックします
+3. **名前**を入力します（例：「エンジニアリングチーム」、「2026年3月新入社員」）
+4. **メンバー**を追加します——ユーザーを検索して選択します
+5. 保存します
 
-## Using Classes for Enrollment
+## 登録のためのクラスの使用
 
-When creating or editing a session, you can enroll an entire class at once instead of adding users individually:
+セッションを作成または編集する際、個々のユーザーを追加する代わりに、クラス全体を一度に登録することができます：
 
-1. Open the session enrollment settings
-2. Click **Add a class**
-3. Select the class
-4. All members of the class are enrolled in the session
+1. セッションの登録設定を開きます
+2. **クラスの追加**をクリックします
+3. クラスを選択します
+4. クラスのすべてのメンバーがセッションに登録されます
 
-## Managing Classes
+## クラスの管理
 
-* **Edit** — Change the class name or update membership
-* **Add/remove members** — Keep the class roster up to date
-* **Delete** — Remove the class (does not affect the member accounts or their existing enrollments)
+* **編集** — クラス名を変更したり、メンバーを更新したりします
+* **メンバーの追加/削除** — クラスの名簿を最新の状態に保ちます
+* **削除** — クラスを削除します（メンバーアカウントや既存の登録には影響しません）
 
-## Tips
+## ヒント
 
-* **Create classes for recurring cohorts** — If you run the same training for different teams, create a class for each team
-* **Update before each session** — Review class membership before enrolling a class in a new session to ensure the roster is current
-* **Combine with CSV import** — Import class membership from a CSV file for large groups
+* **定期的なコホートのためのクラスを作成する** — 異なるチームに対して同じトレーニングを実施する場合、各チームごとにクラスを作成します
+* **各セッション前に更新する** — 新しいセッションにクラスを登録する前に、クラスのメンバーを確認して名簿が最新であることを確実にします
+* **CSVインポートと組み合わせる** — 大規模なグループの場合、CSVファイルからクラスのメンバーをインポートします

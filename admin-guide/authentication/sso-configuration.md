@@ -1,48 +1,48 @@
-# SSO Configuration
+# SSO設定
 
-This page covers topics that apply across authentication methods.
+このページでは、認証方法全般に適用されるトピックを扱います。
 
-## Multiple providers
+## 複数のプロバイダ
 
-You can enable more than one authentication method at the same time. Each enabled provider shows its own button on the login page alongside the standard username/password form. Users choose their preferred method.
+同時に複数の認証方法を有効にすることができます。有効にした各プロバイダは、ログインページに標準のユーザー名/パスワードフォームと並んで独自のボタンとして表示されます。ユーザーは好みの方法を選択できます。
 
-Keep the standard form enabled so platform administrators can always log in, even if an external provider is misconfigured.
+外部プロバイダが誤って設定されている場合でもプラットフォーム管理者が常にログインできるように、標準フォームを有効にしておいてください。
 
-## Authentication priority
+## 認証の優先順位
 
-When multiple methods are active, the system checks credentials in this order:
+複数の方法が有効になっている場合、システムは以下の順序で認証情報を確認します：
 
-1. LDAP (if `force_as_login_method` is set)
-2. OAuth2 providers (in the order they appear in `authentication.yaml`)
-3. Internal Chamilo database
+1. LDAP（`force_as_login_method` が設定されている場合）
+2. OAuth2プロバイダ（`authentication.yaml` に記載されている順序）
+3. 内部のChamiloデータベース
 
-## JWT tokens for API access
+## APIアクセスのためのJWTトークン
 
-Chamilo uses JWT (JSON Web Tokens) for its REST API. Token lifetime and refresh behaviour are configured in `config/packages/lexik_jwt_authentication.yaml`. This is separate from the SSO login flow and applies to API clients only.
+ChamiloはREST APIにJWT（JSON Web Tokens）を使用します。トークンの有効期間やリフレッシュの動作は、`config/packages/lexik_jwt_authentication.yaml` で設定されます。これはSSOログインフローとは別のもので、APIクライアントにのみ適用されます。
 
-## Troubleshooting
+## トラブルシューティング
 
-### Login button does not appear after configuration
+### 設定後にログインボタンが表示されない
 
-The cache must be cleared after every change to `authentication.yaml`:
+`authentication.yaml` を変更するたびにキャッシュをクリアする必要があります：
 
 ```bash
 php bin/console cache:clear && php bin/console cache:warmup
 ```
 
-### Users cannot log in via SSO
+### ユーザーがSSO経由でログインできない
 
-* **Redirect URI mismatch** — The URI registered in your identity provider must exactly match `https://your-chamilo-url/connect/<provider>/check`.
-* **Clock drift** — SSO tokens are time-sensitive. Ensure your server clock is synchronized (NTP).
-* **SSL certificate** — Chamilo must trust the identity provider's certificate. Check for self-signed certificate issues.
-* **Logs** — Review `var/log/` and your identity provider's logs for specific error messages.
+* **リダイレクトURIの不一致** — アイデンティティプロバイダに登録されているURIは、`https://your-chamilo-url/connect/<provider>/check` と完全に一致する必要があります。
+* **時計のずれ** — SSOトークンは時間に敏感です。サーバーの時計が同期されていることを確認してください（NTP）。
+* **SSL証明書** — Chamiloはアイデンティティプロバイダの証明書を信頼する必要があります。自己署名証明書の問題がないか確認してください。
+* **ログ** — 具体的なエラーメッセージを確認するために、`var/log/` およびアイデンティティプロバイダのログを確認してください。
 
-### Users are created with the wrong role
+### ユーザーが間違った役割で作成される
 
-Check the role mapping configuration for the provider. New users default to the student role unless a group or attribute mapping promotes them.
+プロバイダの役割マッピング設定を確認してください。新しいユーザーは、グループまたは属性マッピングで昇格されない限り、デフォルトで学生の役割になります。
 
-### Users exist in the provider but cannot access Chamilo
+### プロバイダにユーザーが存在するがChamiloにアクセスできない
 
-* If `allow_create_new_users` is false, the user must already have a Chamilo account whose email or username matches the provider's data.
-* Check that the user is not deactivated in Chamilo.
-* For Azure, review `existing_user_verification_order` to understand how Chamilo matches incoming users to existing accounts.
+* `allow_create_new_users` がfalseの場合、ユーザーはプロバイダのデータと一致するメールアドレスまたはユーザー名を持つChamiloアカウントをすでに持っている必要があります。
+* ユーザーがChamiloで無効化されていないことを確認してください。
+* Azureの場合、Chamiloが受信したユーザーを既存のアカウントとどのように一致させるかを理解するために、`existing_user_verification_order` を確認してください。

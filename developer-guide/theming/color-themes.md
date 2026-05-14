@@ -1,35 +1,35 @@
-# Color Themes
+# カラーテーマ
 
-Chamilo 2.0 uses a database-driven color theme system. Themes are managed through the admin UI, stored in the database, and written to disk as CSS files. They can be customized per access URL, allowing multi-URL installations to have different visual identities.
+Chamilo 2.0 では、データベース駆動型のカラーテーマシステムを採用しています。テーマは管理UIを通じて管理され、データベースに保存され、CSSファイルとしてディスクに書き込まれます。アクセスURLごとにカスタマイズが可能で、複数のURLを持つインストール環境では異なる視覚的アイデンティティを持つことができます。
 
-## Data Model
+## データモデル
 
-Two entities drive the theme system:
+テーマシステムを駆動する2つのエンティティがあります：
 
 **`ColorTheme`** (`src/CoreBundle/Entity/ColorTheme.php`)
 
-| Field | Type | Description |
+| フィールド | タイプ | 説明 |
 |-------|------|-------------|
-| `id` | int | Primary key |
-| `title` | string | Human-readable name |
-| `slug` | string | Auto-generated from `title` (e.g. `"My Theme"` → `my-theme`); used as the directory name in `var/themes/` |
-| `variables` | array (JSON) | Map of CSS custom property name → value (e.g. `{"--color-primary-base": "46 117 163"}`) |
+| `id` | int | 主キー |
+| `title` | string | 人間が読める名前 |
+| `slug` | string | `title` から自動生成（例：`"My Theme"` → `my-theme`）；`var/themes/` 内のディレクトリ名として使用 |
+| `variables` | array (JSON) | CSSカスタムプロパティ名と値のマップ（例：`{"--color-primary-base": "46 117 163"}`） |
 
 **`AccessUrlRelColorTheme`** (`src/CoreBundle/Entity/AccessUrlRelColorTheme.php`)
 
-Associates a `ColorTheme` with an `AccessUrl`. The `active` boolean flag marks which theme is currently active for that URL. Only one theme can be active per access URL at a time.
+`ColorTheme` と `AccessUrl` を関連付けます。`active` ブールフラグは、そのURLに対して現在アクティブなテーマを示します。1つのアクセスURLに対して同時にアクティブにできるテーマは1つだけです。
 
-## How Themes Are Stored
+## テーマの保存方法
 
-When a theme is created or updated via the API, `ColorThemeStateProcessor` generates the CSS file and writes it to the Flysystem `themes_filesystem` (backed by `var/themes/`):
+テーマがAPIを通じて作成または更新されると、`ColorThemeStateProcessor` がCSSファイルを生成し、Flysystem の `themes_filesystem`（`var/themes/` に裏付けられる）に書き込みます：
 
 ```
 var/themes/
 └── {slug}/
-    └── colors.css   ← generated from ColorTheme.variables
+    └── colors.css   ← ColorTheme.variables から生成
 ```
 
-The generated `colors.css` wraps all variables in a `:root` block:
+生成された `colors.css` はすべての変数を `:root` ブロックでラップします：
 
 ```css
 :root {
@@ -40,73 +40,73 @@ The generated `colors.css` wraps all variables in a `:root` block:
 }
 ```
 
-Values are space-separated RGB channel triplets (not `rgb()`), which allows Tailwind to compose opacity variants such as `bg-primary/50` without additional configuration.
+値はスペースで区切られたRGBチャンネルトリプレット（`rgb()` ではない）で、Tailwind が追加の設定なしで `bg-primary/50` のような不透明度のバリエーションを構成できるようにしています。
 
-## Theme Resolution Precedence
+## テーマ解決の優先順位
 
-`ThemeHelper::getVisualTheme()` resolves which theme slug to apply on any given page, in this order:
+`ThemeHelper::getVisualTheme()` は、任意のページに適用するテーマスラグを以下の順序で解決します：
 
-1. **Active theme for the current AccessUrl** — the `AccessUrlRelColorTheme` record with `active = true`
-2. **User-selected theme** — the theme stored on the `User` entity, if the `profile.user_selected_theme` platform setting is enabled
-3. **Course theme** — the `course_theme` course setting, if the `course.allow_course_theme` platform setting is enabled
-4. **Learning path theme** — the LP's `$lp_theme_css` value, if the `allow_learning_path_theme` course setting is enabled
-5. **`THEME_FALLBACK` env var** — set in `.env` as `THEME_FALLBACK='chamilo'`
-6. **Default** — `chamilo` (hardcoded as `ThemeHelper::DEFAULT_THEME`)
+1. **現在の AccessUrl のアクティブなテーマ** — `active = true` の `AccessUrlRelColorTheme` レコード
+2. **ユーザーが選択したテーマ** — `profile.user_selected_theme` プラットフォーム設定が有効な場合、`User` エンティティに保存されたテーマ
+3. **コーステーマ** — `course.allow_course_theme` プラットフォーム設定が有効な場合、`course_theme` コース設定
+4. **学習パステーマ** — `allow_learning_path_theme` コース設定が有効な場合、LP の `$lp_theme_css` 値
+5. **`THEME_FALLBACK` 環境変数** — `.env` で `THEME_FALLBACK='chamilo'` として設定
+6. **デフォルト** — `chamilo`（`ThemeHelper::DEFAULT_THEME` としてハードコード）
 
-## Asset Serving
+## アセットの提供
 
-Theme assets are served by `ThemeController` (`src/CoreBundle/Controller/ThemeController.php`) under the `/themes` prefix.
+テーマアセットは `ThemeController`（`src/CoreBundle/Controller/ThemeController.php`）によって `/themes` プレフィックス下で提供されます。
 
-| Route | Purpose |
+| ルート | 目的 |
 |-------|---------|
-| `GET /themes/{name}/{path}` | Serve any theme asset (CSS, JS, images); falls back to `chamilo` theme if not found in the requested theme |
-| `GET /themes/{slug}/logo/{type}` | Serve the preferred logo (`header` or `email`), with SVG → PNG fallback |
-| `POST /themes/{slug}/logos` | Upload header/email logos (SVG and/or PNG) |
-| `DELETE /themes/{slug}/logos/{type}` | Delete a specific logo |
+| `GET /themes/{name}/{path}` | 任意のテーマアセット（CSS、JS、画像）を提供；リクエストされたテーマに見つからない場合は `chamilo` テーマにフォールバック |
+| `GET /themes/{slug}/logo/{type}` | 優先ロゴ（`header` または `email`）を提供、SVG → PNG フォールバック付き |
+| `POST /themes/{slug}/logos` | ヘッダー/メールロゴ（SVG および/または PNG）をアップロード |
+| `DELETE /themes/{slug}/logos/{type}` | 特定のロゴを削除 |
 
-The general asset route (`/{name}/{path}`) automatically falls back to the `chamilo` default theme when a file is missing from the requested theme, so themes only need to include files they actually override.
+一般的なアセットルート（`/{name}/{path}`）は、要求されたテーマからファイルが見つからない場合に自動的に `chamilo` デフォルトテーマにフォールバックするため、テーマは実際にオーバーライドするファイルのみを含める必要があります。
 
-## How Themes Are Loaded in Templates
+## テンプレートでのテーマの読み込み方法
 
-The `head.html.twig` layout template loads the active theme's assets via Twig helper functions:
+`head.html.twig` レイアウトテンプレートは、Twig ヘルパー関数を介してアクティブなテーマのアセットを読み込みます：
 
 ```twig
-{# Inject the theme's color variables #}
+{# テーマのカラーバリエーションを注入 #}
 {{ theme_asset_link_tag('colors.css') }}
 
-{# Inject TinyMCE color palette #}
+{# TinyMCE カラーパレットを注入 #}
 {{ theme_asset_script_tag('tiny-settings.js') }}
 
-{# Reference other theme assets #}
+{# 他のテーマアセットを参照 #}
 <link rel="shortcut icon" href="{{ theme_asset('images/favicon.ico') }}" type="image/x-icon" />
 ```
 
-The three Twig functions (registered in `ChamiloExtension`) resolve the asset path through `ThemeHelper`, applying the same fallback chain as above:
+3つの Twig 関数（`ChamiloExtension` に登録）は、`ThemeHelper` を通じてアセットパスを解決し、上記と同じフォールバックチェインを適用します：
 
-| Function | Returns |
+| 関数 | 戻り値 |
 |----------|---------|
-| `theme_asset('path')` | URL to the asset in the resolved theme |
-| `theme_asset_link_tag('path')` | Full `<link rel="stylesheet">` tag |
-| `theme_asset_script_tag('path')` | Full `<script src="...">` tag |
-| `theme_asset_base64('path')` | Base64-encoded data URI of the asset |
-| `theme_logo('header'\|'email')` | URL to the best available logo |
+| `theme_asset('path')` | 解決されたテーマ内のアセットへのURL |
+| `theme_asset_link_tag('path')` | 完全な `<link rel="stylesheet">` タグ |
+| `theme_asset_script_tag('path')` | 完全な `<script src="...">` タグ |
+| `theme_asset_base64('path')` | アセットのBase64エンコードされたデータURI |
+| `theme_logo('header'\|'email')` | 利用可能な最良のロゴへのURL |
 
-## API Endpoints
+## APIエンドポイント
 
-Theme management is exposed via the API Platform REST API (admin-only):
+テーマ管理は API Platform REST API（管理者専用）を介して公開されています：
 
-| Method | Endpoint | Purpose |
+| メソッド | エンドポイント | 目的 |
 |--------|----------|---------|
-| `POST` | `/api/color_themes` | Create a new theme |
-| `PUT` | `/api/color_themes/{id}` | Update an existing theme |
-| `POST` | `/api/access_url_rel_color_themes` | Associate/activate a theme for an access URL |
-| `GET` | `/api/access_url_rel_color_themes` | List theme associations for the current access URL |
+| `POST` | `/api/color_themes` | 新しいテーマを作成 |
+| `PUT` | `/api/color_themes/{id}` | 既存のテーマを更新 |
+| `POST` | `/api/access_url_rel_color_themes` | アクセスURLに対してテーマを関連付け/アクティブ化 |
+| `GET` | `/api/access_url_rel_color_themes` | 現在のアクセスURLのテーマ関連を一覧表示 |
 
-## Creating a Custom Theme
+## カスタムテーマの作成
 
-The standard workflow is through the admin UI (**Admin → Color Themes**), which calls the API endpoints above. To create a theme programmatically:
+標準的なワークフローは、管理者UI（**管理者 → カラーテーマ**）を通じて行われ、上記のAPIエンドポイントを呼び出します。プログラムでテーマを作成するには：
 
-1. `POST /api/color_themes` with a JSON body:
+1. JSONボディを含む `POST /api/color_themes` を使用：
 
 ```json
 {
@@ -123,9 +123,9 @@ The standard workflow is through the admin UI (**Admin → Color Themes**), whic
 }
 ```
 
-This persists the entity and writes `var/themes/my-theme/colors.css`.
+これによりエンティティが保存され、`var/themes/my-theme/colors.css` が書き込まれます。
 
-2. `POST /api/access_url_rel_color_themes` to associate and activate it for the current access URL:
+2. 現在のアクセスURLに関連付け、アクティベートするために `POST /api/access_url_rel_color_themes` を使用：
 
 ```json
 {
@@ -133,34 +133,34 @@ This persists the entity and writes `var/themes/my-theme/colors.css`.
 }
 ```
 
-To add custom images (logo, favicon, backgrounds), upload them via `POST /themes/{slug}/logos` or place them directly in `var/themes/{slug}/images/`.
+カスタム画像（ロゴ、ファビコン、背景）を追加するには、`POST /themes/{slug}/logos` を介してアップロードするか、`var/themes/{slug}/images/` に直接配置してください。
 
-## Color Variable Reference
+## カラーバリエーブルのリファレンス
 
-All variables expected by the default Tailwind configuration:
+デフォルトのTailwind設定で期待されるすべての変数：
 
-| Variable | Purpose |
+| 変数 | 目的 |
 |----------|---------|
-| `--color-primary-base` | Primary brand color |
-| `--color-primary-gradient` | Darker gradient stop for primary |
-| `--color-primary-button-text` | Text color on primary buttons |
-| `--color-primary-button-alternative-text` | Alternative text color on primary buttons |
-| `--color-secondary-base` | Secondary accent color |
-| `--color-secondary-gradient` | Gradient stop for secondary |
-| `--color-secondary-button-text` | Text color on secondary buttons |
-| `--color-tertiary-base` | Tertiary color |
-| `--color-tertiary-gradient` | Gradient stop for tertiary |
-| `--color-tertiary-button-text` | Text color on tertiary buttons |
-| `--color-success-base` | Success state color |
-| `--color-success-gradient` | Gradient stop for success |
-| `--color-success-button-text` | Text color on success buttons |
-| `--color-info-base` | Info state color |
-| `--color-info-gradient` | Gradient stop for info |
-| `--color-info-button-text` | Text color on info buttons |
-| `--color-warning-base` | Warning state color |
-| `--color-warning-gradient` | Gradient stop for warning |
-| `--color-warning-button-text` | Text color on warning buttons |
-| `--color-danger-base` | Danger/error state color |
-| `--color-danger-gradient` | Gradient stop for danger |
-| `--color-danger-button-text` | Text color on danger buttons |
-| `--color-form-base` | Form element accent color |
+| `--color-primary-base` | 主要なブランドカラー |
+| `--color-primary-gradient` | 主要カラーの濃いグラデーションストップ |
+| `--color-primary-button-text` | 主要ボタンのテキストカラー |
+| `--color-primary-button-alternative-text` | 主要ボタンの代替テキストカラー |
+| `--color-secondary-base` | 二次的なアクセントカラー |
+| `--color-secondary-gradient` | 二次カラーのグラデーションストップ |
+| `--color-secondary-button-text` | 二次ボタンのテキストカラー |
+| `--color-tertiary-base` | 三次カラー |
+| `--color-tertiary-gradient` | 三次カラーのグラデーションストップ |
+| `--color-tertiary-button-text` | 三次ボタンのテキストカラー |
+| `--color-success-base` | 成功状態の色 |
+| `--color-success-gradient` | 成功状態のグラデーションストップ |
+| `--color-success-button-text` | 成功ボタンのテキストカラー |
+| `--color-info-base` | 情報状態の色 |
+| `--color-info-gradient` | 情報状態のグラデーションストップ |
+| `--color-info-button-text` | 情報ボタンのテキストカラー |
+| `--color-warning-base` | 警告状態の色 |
+| `--color-warning-gradient` | 警告状態のグラデーションストップ |
+| `--color-warning-button-text` | 警告ボタンのテキストカラー |
+| `--color-danger-base` | 危険/エラー状態の色 |
+| `--color-danger-gradient` | 危険状態のグラデーションストップ |
+| `--color-danger-button-text` | 危険ボタンのテキストカラー |
+| `--color-form-base` | フォーム要素のアクセントカラー |

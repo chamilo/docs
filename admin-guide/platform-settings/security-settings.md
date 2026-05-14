@@ -1,249 +1,233 @@
-# Security Settings
+# セキュリティ設定
 
-Login protection, password policy, content security headers, two-factor authentication, and the lightweight intrusion detection system.
+ログイン保護、パスワードポリシー、コンテンツセキュリティヘッダー、2要素認証、軽量な侵入検知システム。
 
-Access these settings under **Administration > Configuration settings > Security**. This category contains **31 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+これらの設定には、**管理 > 設定 > セキュリティ** からアクセスできます。このカテゴリには **31の設定** が含まれており、以下にプラットフォームの設定フィクスチャ（`SettingsCurrentFixtures.php`）に記載されているタイトルとコメントを記載しています。
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> コード内の変数名は等幅フォントで表示されています。APIを通じてスクリプトを作成する場合や、[`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml) を編集してこれらの設定をグローバルレベルで変更する必要がある場合に使用してください。
 
-## Settings
+## 設定
 
 ### `2fa_enable`
 
-**Enable 2FA**
+**2FAの有効化**
 
-Add fields in the password update page to enable 2FA using a TOTP authenticator app. When disabled globally, users won't see 2FA fields and won't be prompted for 2FA at login, even if they had enabled it previously.
+パスワード更新ページにフィールドを追加し、TOTP認証アプリを使用して2FAを有効にします。グローバルで無効にすると、ユーザーは2FAフィールドを表示できず、以前に有効にしていた場合でもログイン時に2FAの入力を求められません。
 
-*Default: `false`*
+*デフォルト: `false`*
 
 ### `access_to_personal_file_for_all`
 
-**Access to personal file for all**
+**すべての個人ファイルへのアクセス**
 
-Allows access to all personal files without restriction
+制限なしですべての個人ファイルへのアクセスを許可します。
 
-*Default: `false`*
-
+*デフォルト: `false`*
 
 ### `admins_can_set_users_pass`
 
-**Admins can set users passwords manually**
+**管理者がユーザーパスワードを手動で設定可能**
 
-[inferred] When enabled, administrators can manually set user passwords directly without requiring users to reset them.
+[推定] 有効にすると、管理者はユーザーがリセットする必要なく、直接ユーザーパスワードを手動で設定できます。
 
 ### `allow_captcha`
 
 **CAPTCHA**
 
-Enable a CAPTCHA on the login form, inscription form and lost password form to avoid password hammering
+ログインフォーム、登録フォーム、紛失パスワードフォームにCAPTCHAを有効にし、パスワードの総当たり攻撃を防ぎます。
 
-*Default: `false`*
+*デフォルト: `false`*
 
 ### `allow_online_users_by_status`
 
-**Filter users that can be seen as online**
+**オンラインとして表示されるユーザーのフィルタリング**
 
-Limits online user visibility to specific user roles.
+オンラインのユーザーの可視性を特定のユーザーロールに制限します。
 
 ### `allow_strength_pass_checker`
 
-**Password strength checker**
+**パスワード強度チェッカー**
 
-Enable this option to add a visual indicator of password strength, when the user changes his/her password. This will NOT prevent bad passwords to be added, it only acts as a visual helper.
+このオプションを有効にすると、ユーザーがパスワードを変更する際にパスワード強度の視覚的なインジケーターを追加します。これは弱いパスワードの追加を防ぐものではなく、視覚的な補助としてのみ機能します。
 
-*Default: `true`*
-
+*デフォルト: `true`*
 
 ### `anonymous_autoprovisioning`
 
-**Auto-provision more anonymous users**
+**匿名ユーザーの自動プロビジョニング**
 
-Dynamically creates new anonymous users to support high visitor traffic.
+訪問者トラフィックの多い場合をサポートするために、新しい匿名ユーザーを動的に作成します。
 
-*Default: `false`*
-
+*デフォルト: `false`*
 
 ### `captcha_number_mistakes_to_block_account`
 
-**CAPTCHA mistakes allowance**
+**CAPTCHAの誤入力許容回数**
 
-The number of times a user can make a mistake on the CAPTCHA box before his account is locked out.
+ユーザーがCAPTCHAボックスで間違えることができる回数を超えると、アカウントがロックされます。
 
 ### `captcha_time_to_block`
 
-**CAPTCHA account locking time**
+**CAPTCHAアカウントロック時間**
 
-If the user reaches the maximum allowance for login mistakes (when using the CAPTCHA), his/her account will be locked for this number of minutes.
+ユーザーがログインエラーの最大許容回数（CAPTCHA使用時）に達した場合、アカウントはこの分数間ロックされます。
 
 ### `check_password`
 
-**Check password requirements**
+**パスワード要件の確認**
 
-Enable validation of the password requirements defined above during password creation or password update.
+パスワード作成時または更新時に、上記で定義されたパスワード要件の検証を有効にします。
 
-*Default: `false`*
-
+*デフォルト: `false`*
 
 ### `filter_terms`
 
-**Filter terms**
+**フィルタリング用語**
 
-Give a list of terms, one by line, to be filtered out of web pages and e-mails. These terms will be replaced by ***.
+ウェブページやメールからフィルタリングする用語を1行ずつリストで指定します。これらの用語は *** に置き換えられます。
 
 ### `force_renew_password_at_first_login`
 
-**Force password renewal at first login**
+**初回ログイン時のパスワード更新の強制**
 
-This is one simple measure to increase the security of your portal by asking users to immediately change their password, so the one that was transfered by e-mail is no longer valid and they then will use one that they came up with and that they are the only person to know.
+ユーザーに即座にパスワードを変更させることで、ポータルのセキュリティを向上させる簡単な手段です。これにより、メールで送信されたパスワードが無効になり、ユーザーが自分で考えた、自身だけが知っているパスワードを使用するようになります。
 
-*Default: `false`*
-
+*デフォルト: `false`*
 
 ### `hide_breadcrumb_if_not_allowed`
 
-**Hide breadcrumb if 'not allowed'**
+**許可されていない場合にパンくずリストを非表示**
 
-If the user is not allowed to access a specific page, also hide the breadcrumb. This increases security by avoiding the display of unnecessary information.
+ユーザーが特定のページにアクセスする権限がない場合、パンくずリストも非表示にします。これにより、不要な情報の表示を避け、セキュリティを向上させます。
 
-*Default: `false`*
-
+*デフォルト: `false`*
 
 ### `login_max_attempt_before_blocking_account`
 
-**Max login attempts before lockdown**
+**ロックダウン前の最大ログイン試行回数**
 
-Number of failed login attempts to tolerate before the user account is locked and has to be unlocked by an admin.
+ユーザーアカウントがロックされ、管理者による解除が必要になるまでの、失敗したログイン試行の許容回数。
 
-*Default: `0`*
+*デフォルト: `0`*
 
 ### `password_requirements`
 
-**Minimal password syntax requirements**
+**最小パスワード構文要件**
 
-Defines the required structure for user passwords. Example: {"min":{"length":8,"lowercase":1,"uppercase":1,"numeric":1,"specials":1}}. Use "specials" (plural) to require special characters.
+ユーザーパスワードに必要な構造を定義します。例: {"min":{"length":8,"lowercase":1,"uppercase":1,"numeric":1,"specials":1}}。特殊文字を要求する場合は "specials"（複数形）を使用します。
 
 ### `password_rotation_days`
 
-**Password rotation interval (days)**
+**パスワードローテーション間隔（日数）**
 
-Number of days before users must rotate their password (0 = disabled).
+ユーザーがパスワードをローテーションする必要があるまでの日数（0 = 無効）。
 
-*Default: `0`*
-
+*デフォルト: `0`*
 
 ### `prevent_multiple_simultaneous_login`
 
-**Prevent simultaneous login**
+**同時ログインの防止**
 
-Prevent users connecting with the same account more than once. This is a good option on pay-per-access portals, but might be restrictive during testing as only one browser can connect with any given account.
+同じアカウントで複数の接続を防ぎます。これはアクセスごとの支払いポータルでは良いオプションですが、テスト中は制限があるため、1つのブラウザのみが特定のアカウントで接続可能です。
 
-*Default: `false`*
-
+*デフォルト: `false`*
 
 ### `proxy_settings`
 
-**Proxy settings**
+**プロキシ設定**
 
-Some features of Chamilo will connect to the exterior from the server. For example to make sure an external content exists when creating a link or showing an embedded page in the learning path. If your Chamilo server uses a proxy to get out of its network, this would be the place to configure it.
+Chamiloの一部の機能はサーバーから外部に接続します。たとえば、リンクを作成したり、ラーニングパスに埋め込みページを表示する際に外部コンテンツが存在することを確認するためです。Chamiloサーバーがネットワーク外に出るためにプロキシを使用している場合、ここで設定を行います。
 
 ### `security_block_inactive_users_immediately`
 
-**Block disabled users immediately**
+**無効化されたユーザーを即座にブロック**
 
-Immediately block users who have been disabled by the admin through users management. Otherwise, users who have been disabled will keep their previous privileges until they logout.
+ユーザー管理を通じて管理者が無効化したユーザーを即座にブロックします。無効化されたユーザーは、そうでない場合、ログアウトするまで以前の権限を保持します。
 
-*Default: `false`*
-
+*デフォルト: `false`*
 
 ### `security_content_policy`
 
-**Content Security Policy**
+**コンテンツセキュリティポリシー**
 
-Content Security Policy is an effective measure to protect your site from XSS attacks. By whitelisting sources of approved content, you can prevent the browser from loading malicious assets. This setting is particularly complicated to set with WYSIWYG editors, but if you add all domains that you want to authorize for iframes inclusion in the child-src statement, this example should work for you. You can prevent JavaScript from executing from external sources (including inside SVG images) by using a strict list in the 'script-src' argument. Leave blank to disable. Example setting: default-src 'self'; script-src 'self' 'unsafe-eval' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; child-src 'self' *.youtube.com yt.be *.vimeo.com *.slideshare.com;
+コンテンツセキュリティポリシー（Content Security Policy）は、XSS攻撃からサイトを保護するための効果的な手段です。承認されたコンテンツのソースをホワイトリストに登録することで、ブラウザが悪意のある資産を読み込むのを防ぐことができます。この設定はWYSIWYGエディタを使用する場合には特に複雑ですが、iframeのインクルードを許可したいすべてのドメインをchild-srcステートメントに追加すれば、この例が機能するはずです。'script-src'引数に厳密なリストを使用することで、外部ソース（SVG画像内を含む）からのJavaScriptの実行を防ぐことができます。無効にする場合は空欄のままにしてください。設定例：default-src 'self'; script-src 'self' 'unsafe-eval' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; child-src 'self' *.youtube.com yt.be *.vimeo.com *.slideshare.com;
 
 ### `security_content_policy_report_only`
 
-**Content Security Policy report only**
+**コンテンツセキュリティポリシーのレポートのみ**
 
-This setting allows you to experiment by reporting but not enforcing some Content Security Policy.
+この設定を使用すると、コンテンツセキュリティポリシーを強制せずにレポートすることで実験を行うことができます。
 
 ### `security_public_key_pins`
 
-**HTTP Public Key Pinning**
+**HTTP公開鍵ピニング**
 
-HTTP Public Key Pinning protects your site from MiTM attacks using rogue X.509 certificates. By whitelisting only the identities that the browser should trust, your users are protected in the event a certificate authority is compromised.
+HTTP公開鍵ピニング（HTTP Public Key Pinning）は、偽のX.509証明書を使用したMiTM攻撃からサイトを保護します。ブラウザが信頼すべきアイデンティティのみをホワイトリストに登録することで、証明機関が侵害された場合でもユーザーを保護することができます。
 
 ### `security_public_key_pins_report_only`
 
-**HTTP Public Key Pinning report only**
+**HTTP公開鍵ピニングのレポートのみ**
 
-This setting allows you to experiment by reporting but not enforcing some HTTP Public Key Pinning.
+この設定を使用すると、HTTP公開鍵ピニングを強制せずにレポートすることで実験を行うことができます。
 
 ### `security_referrer_policy`
 
-**Security Referrer Policy**
+**セキュリティリファラーポリシー**
 
-Referrer Policy is a new header that allows a site to control how much information the browser includes with navigation away from a document and should be set by all sites.
+リファラーポリシー（Referrer Policy）は、サイトがドキュメントから離れる際のナビゲーションにブラウザが含める情報の量を制御できる新しいヘッダーで、すべてのサイトで設定する必要があります。
 
-*Default: `origin-when-cross-origin`*
-
+*デフォルト: `origin-when-cross-origin`*
 
 ### `security_session_cookie_samesite_none`
 
-**Session cookie samesite**
+**セッションクッキーのSameSite**
 
-Enable samesite:None parameter for session cookie. More info: https://www.chromium.org/updates/same-site and https://developers.google.com/search/blog/2020/01/get-ready-for-new-samesitenone-secure
+セッションクッキーにSameSite:Noneパラメータを有効にします。詳細情報：https://www.chromium.org/updates/same-site および https://developers.google.com/search/blog/2020/01/get-ready-for-new-samesitenone-secure
 
-*Default: `false`*
+*デフォルト: `false`*
 
 ### `security_strict_transport`
 
 **HTTP Strict Transport Security**
 
-HTTP Strict Transport Security is an excellent feature to support on your site and strengthens your implementation of TLS by getting the User Agent to enforce the use of HTTPS. Recommended value: 'strict-transport-security: max-age=63072000; includeSubDomains'. See https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Strict-Transport-Security. You can include the 'preload' suffix, but this has consequences on the top level domain (TLD), so probably not to be done lightly. See https://hstspreload.org/. Leave blank to disable.
+HTTP Strict Transport Securityは、サイトでサポートすべき優れた機能であり、ユーザーエージェントにHTTPSの使用を強制させることでTLSの実装を強化します。推奨値：'strict-transport-security: max-age=63072000; includeSubDomains'。詳細はhttps://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Strict-Transport-Securityを参照してください。'preload'サフィックスを含めることができますが、これはトップレベルドメイン（TLD）に影響を及ぼすため、軽々しく行うべきではありません。詳細はhttps://hstspreload.org/を参照してください。無効にする場合は空欄のままにしてください。
 
 ### `security_x_content_type_options`
 
 **X-Content-Type-Options**
 
-X-Content-Type-Options stops a browser from trying to MIME-sniff the content type and forces it to stick with the declared content-type. The only valid value for this header is 'nosniff'.
+X-Content-Type-Optionsは、ブラウザがコンテンツタイプをMIMEスニッフィングするのを防ぎ、宣言されたコンテンツタイプに固執するよう強制します。このヘッダーの有効な値は'nosniff'のみです。
 
-*Default: `nosniff`*
-
+*デフォルト: `nosniff`*
 
 ### `security_x_frame_options`
 
 **X-Frame-Options**
 
-X-Frame-Options tells the browser whether you want to allow your site to be framed or not. By preventing a browser from framing your site you can defend against attacks like clickjacking. If defining a URL here, it should define the URL(s) from which your content should be visible, not the URLs from which your site accepts content. For example, if your main URL (root_web above) is https://11.chamilo.org/, then this setting should be: 'ALLOW-FROM https://11.chamilo.org'. These headers only apply to pages where Chamilo is responsible of the HTTP headers generation (i.e. '.php' files). It does not apply to static files. If playing with this feature, make sure you also update your web server configuration to add the right headers for static files. See CDN configuration documentation above (search for 'add_header') for more information. Recommended (strict) value for this setting, if enabled: 'SAMEORIGIN'.
+X-Frame-Optionsは、サイトをフレームに表示するかどうかをブラウザに指示します。サイトをフレームに表示させないことで、クリックジャッキングなどの攻撃から防御することができます。ここでURLを定義する場合、コンテンツが表示されるべきURLを指定し、サイトがコンテンツを受け入れるURLを指定するのではありません。たとえば、メインURL（上記のroot_web）がhttps://11.chamilo.org/の場合、この設定は'ALLOW-FROM https://11.chamilo.org'であるべきです。これらのヘッダーは、ChamiloがHTTPヘッダーの生成を担当するページ（つまり'.php'ファイル）にのみ適用されます。静的ファイルには適用されません。この機能を試す場合は、静的ファイルに対して適切なヘッダーを追加するためにWebサーバーの設定も更新してください。詳細については、上記のCDN設定ドキュメント（'add_header'を検索）を参照してください。この設定を有効にする場合の推奨（厳格な）値：'SAMEORIGIN'。
 
-*Default: `SAMEORIGIN`*
-
+*デフォルト: `SAMEORIGIN`*
 
 ### `security_xss_protection`
 
 **X-XSS-Protection**
 
-X-XSS-Protection sets the configuration for the cross-site scripting filter built into most browsers. Recommended value '1; mode=block'.
+X-XSS-Protectionは、ほとんどのブラウザに組み込まれているクロスサイトスクリプティングフィルターの設定を行います。推奨値 '1; mode=block'。
 
-*Default: `1; mode=block`*
-
+*デフォルト: `1; mode=block`*
 
 ### `user_reset_password`
 
-**Enable password reset token**
+**パスワードリセットトークンの有効化**
 
-This option allows to generate a expiring single-use token sent by e-mail to the user to reset his/her password.
+このオプションを有効にすると、ユーザーがパスワードをリセットするために、期限付きの使い捨てトークンを生成し、メールで送信することができます。
 
-*Default: `false`*
-
+*デフォルト: `false`*
 
 ### `user_reset_password_token_limit`
 
-**Time limit for password reset token**
+**パスワードリセットトークンの有効期限**
 
-The number of seconds before the generated token automatically expires and cannot be used anymore (a new token needs to be generated).
+生成されたトークンが自動的に期限切れになり、使用できなくなるまでの秒数（新しいトークンを生成する必要があります）。
 
-*Default: `3600`*
-
-
+*デフォルト: `3600`*

@@ -1,42 +1,42 @@
-# Plugin Architecture
+# プラグインアーキテクチャ
 
-## Plugin Location
+## プラグインの場所
 
-Plugins are stored in `public/plugin/`. Each plugin has its own directory:
+プラグインは `public/plugin/` に保存されています。各プラグインは独自のディレクトリを持っています：
 
 ```
 public/plugin/
-├── Bbb/                    # BigBlueButton integration
-├── Zoom/                   # Zoom integration
-├── Onlyoffice/             # OnlyOffice document editing
+├── Bbb/                    # BigBlueButtonとの統合
+├── Zoom/                   # Zoomとの統合
+├── Onlyoffice/             # OnlyOfficeでのドキュメント編集
 ├── XApi/                   # xAPI/Tin Can
-├── ...                     # bundled plugins ship under public/plugin/
+├── ...                     # 含まれているプラグインは public/plugin/ に提供されています
 ```
 
-## Plugin Structure
+## プラグインの構造
 
-A typical plugin directory contains:
+典型的なプラグインディレクトリには以下が含まれます：
 
 ```
 public/plugin/MyPlugin/
-├── plugin.php              # REQUIRED — assigns $plugin_info
-├── install.php             # Installation script
-├── uninstall.php           # Uninstallation script
-├── index.php               # Region rendering entry point (if applicable)
-├── admin.php               # Admin interface (optional)
-├── lang/                   # Translation files (locale codes: en_US.php, fr_FR.php, …)
+├── plugin.php              # 必須 — $plugin_info を定義
+├── install.php             # インストールスクリプト
+├── uninstall.php           # アンインストールスクリプト
+├── index.php               # 地域のレンダリングのためのエントリーポイント（該当する場合）
+├── admin.php               # 管理インターフェース（オプション）
+├── lang/                   # 翻訳ファイル（ロケールコード：en_US.php, fr_FR.php, …）
 ├── src/
-│   ├── MyPluginPlugin.php        # Main plugin class (extends Plugin)
-│   ├── Entity/                   # Doctrine entities (auto-discovered)
-│   ├── Repository/               # Doctrine repositories
-│   └── EventSubscriber/          # Symfony event subscribers (auto-registered)
-├── templates/              # Twig templates
-└── resources/              # CSS/JS assets
+│   ├── MyPluginPlugin.php        # プラグインのメインクラス（Pluginを拡張）
+│   ├── Entity/                   # Doctrineエンティティ（自動的に検出）
+│   ├── Repository/               # Doctrineリポジトリ
+│   └── EventSubscriber/          # Symfonyイベントサブスクライバー（自動的に登録）
+├── templates/              # Twigテンプレート
+└── resources/              # CSS/JSアセット
 ```
 
-## Plugin Class
+## プラグインクラス
 
-Each plugin extends the `Plugin` base class (`public/main/inc/lib/plugin.class.php`) and follows the singleton pattern:
+各プラグインはベースクラス `Plugin`（`public/main/inc/lib/plugin.class.php`）を拡張し、シングルトンパターンに従います：
 
 ```php
 class MyPluginPlugin extends Plugin
@@ -55,27 +55,27 @@ class MyPluginPlugin extends Plugin
 }
 ```
 
-### Key Class Properties
+### クラスの主要プロパティ
 
-| Property | Type | Effect |
-|----------|------|--------|
-| `$isCoursePlugin` | bool | Registers the plugin as a course tool |
-| `$isAdminPlugin` | bool | Adds an admin interface page |
-| `$isMailPlugin` | bool | Integrates with the mail system |
-| `$addCourseTool` | bool | Adds an icon to the course homepage |
-| `$course_settings` | array | Defines per-course configuration fields |
+| プロパティ | タイプ | 効果 |
+|-------------|------|--------|
+| `$isCoursePlugin` | bool | プラグインをコースツールとして登録 |
+| `$isAdminPlugin` | bool | 管理インターフェースページを追加 |
+| `$isMailPlugin` | bool | メールシステムと統合 |
+| `$addCourseTool` | bool | コースのホームページにアイコンを追加 |
+| `$course_settings` | array | コースごとの設定フィールドを定義 |
 
-## Plugin Lifecycle
+## プラグインのライフサイクル
 
-1. **Installation** — The admin activates the plugin, which runs `install.php`
-2. **Configuration** — Settings are defined and managed through the admin panel; stored in `access_url_rel_plugin` (supports multi-tenant)
-3. **Execution** — The plugin injects content into display regions or reacts to platform events
-4. **Deactivation** — The plugin is disabled but its data is preserved
-5. **Uninstallation** — Runs `uninstall.php` to clean up data and tables
+1. **インストール** — 管理者がプラグインを有効化し、`install.php` を実行
+2. **設定** — 設定は管理パネルで定義および管理され、`access_url_rel_plugin` に保存（マルチテナント対応）
+3. **実行** — プラグインは表示領域にコンテンツを注入するか、プラットフォームのイベントに反応
+4. **無効化** — プラグインは無効化されるが、データは保持される
+5. **アンインストール** — `uninstall.php` を実行してデータとテーブルをクリア
 
-## Display Regions
+## 表示領域
 
-Plugins inject HTML into 18 predefined regions of the Vue frontend by overriding `renderRegion()`:
+プラグインは `renderRegion()` をオーバーライドすることで、Vueフロントエンドの18の定義済み領域にHTMLを注入します：
 
 ```php
 public function renderRegion(string $region): string
@@ -83,19 +83,19 @@ public function renderRegion(string $region): string
     if ('footer_left' !== $region) {
         return '';
     }
-    return '<p>My Plugin footer content</p>';
+    return '<p>私のプラグインのフッターコンテンツ</p>';
 }
 ```
 
-Available regions: `content_bottom`, `content_top`, `course_tool_plugin`, `footer_center`, `footer_left`, `footer_right`, `header_center`, `header_left`, `header_main`, `header_right`, `login_bottom`, `login_top`, `main_bottom`, `main_top`, `menu_administrator`, `menu_bottom`, `menu_top`, `pre_footer`.
+利用可能な領域：`content_bottom`, `content_top`, `course_tool_plugin`, `footer_center`, `footer_left`, `footer_right`, `header_center`, `header_left`, `header_main`, `header_right`, `login_bottom`, `login_top`, `main_bottom`, `main_top`, `menu_administrator`, `menu_bottom`, `menu_top`, `pre_footer`。
 
-## Symfony Integration
+## Symfonyとの統合
 
-### Event Subscribers
+### イベントサブスクライバー
 
-Files ending in `EventSubscriber.php` placed inside `src/EventSubscriber/` are auto-registered via `PluginEventSubscriberPass`. They implement `EventSubscriberInterface` and react to events defined in `src/CoreBundle/Event/Events.php`.
+`src/EventSubscriber/` 内に配置された `EventSubscriber.php` で終わるファイルは、`PluginEventSubscriberPass` を介して自動的に登録されます。これらは `EventSubscriberInterface` を実装し、`src/CoreBundle/Event/Events.php` で定義されたイベントに反応します。
 
-Because the plugin class (`MyPluginPlugin`) is not a Symfony service, it cannot be autowired into the subscriber constructor. Use the `create()` singleton instead:
+プラグインクラス（`MyPluginPlugin`）はSymfonyサービスではないため、サブスクライバーのコンストラクタに自動的に注入できません。代わりにシングルトン `create()` を使用してください：
 
 ```php
 class MyPluginEventSubscriber implements EventSubscriberInterface
@@ -109,13 +109,14 @@ class MyPluginEventSubscriber implements EventSubscriberInterface
 }
 ```
 
-### Doctrine Entities
+### Doctrineエンティティ
 
-Doctrine entities placed in `src/Entity/` are auto-discovered by `PluginEntityPass`. Use PHP 8 attributes for mapping. The namespace must follow `Chamilo\PluginBundle\{PluginName}`. Use unique table name prefixes (e.g., `my_plugin_*`) to avoid collisions.
+`src/Entity/` に配置されたDoctrineエンティティは、`PluginEntityPass` によって自動的に検出されます。マッピングにはPHP 8の属性を使用してください。名前空間は `Chamilo\PluginBundle\{PluginName}` に従う必要があります。衝突を避けるために、テーブル名には一意のプレフィックス（例：`my_plugin_*`）を使用してください。
 
-### PluginHelper Service
+---
+### PluginHelper サービス
 
-For accessing plugin state from core Symfony services, inject `PluginHelper` rather than instantiating the plugin class directly:
+Symfony の主要サービスからプラグインの状態にアクセスするには、プラグインクラスを直接インスタンス化するのではなく、`PluginHelper` を注入してください：
 
 ```php
 use Chamilo\CoreBundle\Helpers\PluginHelper;
@@ -133,23 +134,23 @@ class SomeService
 }
 ```
 
-Available methods:
+利用可能なメソッド：
 
-| Method | Purpose |
-|--------|---------|
-| `isPluginEnabled(string $name): bool` | Check if a plugin is installed and active for the current access URL |
-| `loadLegacyPlugin(string $name): ?object` | Instantiate and return the plugin singleton |
-| `getPluginSetting(string $name, string $key): mixed` | Read a single plugin setting value |
-| `getPluginOverrides(string $name): array` | Get `plugin.yaml` overrides (defaults + access-URL-specific) for a plugin |
+| メソッド | 目的 |
+|--------|------------|
+| `isPluginEnabled(string $name): bool` | 現在のアクセスURLに対してプラグインがインストールされ、アクティブであるかを確認します |
+| `loadLegacyPlugin(string $name): ?object` | プラグインのシングルトンをインスタンス化して返します |
+| `getPluginSetting(string $name, string $key): mixed` | プラグインの単一の設定値を読み取ります |
+| `getPluginOverrides(string $name): array` | プラグインの `plugin.yaml` からの上書き設定（デフォルト＋アクセスURL固有）を取得します |
 
-## Core File References
+## 主要ファイルの参照
 
-| File | Purpose |
-|------|---------|
-| `public/main/inc/lib/plugin.class.php` | Plugin base class |
-| `public/main/inc/lib/plugin.lib.php` | Plugin manager |
-| `src/CoreBundle/Entity/Plugin.php` | Plugin Doctrine entity |
-| `src/CoreBundle/Helpers/PluginHelper.php` | PluginHelper service |
-| `src/CoreBundle/Event/Events.php` | Event constants |
-| `public/plugin/HelloWorld/` | Minimal example plugin |
-| `public/plugin/TopLinks/` | Simple example plugin |
+| ファイル | 目的 |
+|------|------------|
+| `public/main/inc/lib/plugin.class.php` | プラグインのベースクラス |
+| `public/main/inc/lib/plugin.lib.php` | プラグインマネージャ |
+| `src/CoreBundle/Entity/Plugin.php` | プラグインのDoctrineエンティティ |
+| `src/CoreBundle/Helpers/PluginHelper.php` | PluginHelper サービス |
+| `src/CoreBundle/Event/Events.php` | イベント定数 |
+| `public/plugin/HelloWorld/` | 最小限のプラグイン例 |
+| `public/plugin/TopLinks/` | シンプルなプラグイン例 |

@@ -1,78 +1,78 @@
-# Endpoints Reference
+# エンドポイントリファレンス
 
-API Platform automatically generates REST endpoints for entities annotated with `#[ApiResource]`. Chamilo exposes 100+ resources.
+API Platformは、`#[ApiResource]`で注釈が付けられたエンティティに対してRESTエンドポイントを自動的に生成します。Chamiloは100以上のリソースを公開しています。
 
-## Standard Operations
+## 標準操作
 
-For each API resource, the following operations are typically available:
+各APIリソースに対して、通常以下の操作が利用可能です：
 
-| Method | Path | Description |
+| メソッド | パス | 説明 |
 |--------|------|-------------|
-| `GET` | `/api/{resources}` | List (collection) |
-| `POST` | `/api/{resources}` | Create |
-| `GET` | `/api/{resources}/{id}` | Read (single item) |
-| `PUT` | `/api/{resources}/{id}` | Full update |
-| `PATCH` | `/api/{resources}/{id}` | Partial update |
-| `DELETE` | `/api/{resources}/{id}` | Delete |
+| `GET` | `/api/{resources}` | 一覧（コレクション） |
+| `POST` | `/api/{resources}` | 作成 |
+| `GET` | `/api/{resources}/{id}` | 読み取り（単一アイテム） |
+| `PUT` | `/api/{resources}/{id}` | 完全更新 |
+| `PATCH` | `/api/{resources}/{id}` | 部分更新 |
+| `DELETE` | `/api/{resources}/{id}` | 削除 |
 
-Not all operations are enabled for every resource — security constraints apply.
+すべての操作がすべてのリソースで有効になっているわけではありません。セキュリティ制約が適用されます。
 
-## Key API Resources
+## 主要なAPIリソース
 
-### Platform Resources
+### プラットフォームリソース
 
-| Resource | Path | Description |
+| リソース | パス | 説明 |
 |----------|------|-------------|
-| Users | `/api/users` | User accounts |
-| Courses | `/api/courses` | Courses |
-| Sessions | `/api/sessions` | Training sessions |
-| Resource Nodes | `/api/resource_nodes` | Unified content nodes |
-| Access URLs | `/api/access_urls` | Multi-URL portals |
-| Messages | `/api/messages` | Platform messages |
+| ユーザー | `/api/users` | ユーザーアカウント |
+| コース | `/api/courses` | コース |
+| セッション | `/api/sessions` | トレーニングセッション |
+| リソースノード | `/api/resource_nodes` | 統一されたコンテンツノード |
+| アクセスURL | `/api/access_urls` | マルチURLポータル |
+| メッセージ | `/api/messages` | プラットフォームメッセージ |
 
-### Course Content Resources
+### コースコンテンツリソース
 
-| Resource | Path | Description |
+| リソース | パス | 説明 |
 |----------|------|-------------|
-| Documents | `/api/documents` | Course documents |
-| Learning Paths | `/api/learning_paths` | Learning paths |
-| Glossaries | `/api/glossaries` | Glossary terms |
-| Links | `/api/links` | External links |
-| Calendar Events | `/api/c_calendar_events` | Agenda events |
-| Student Publications | `/api/c_student_publications` | Assignments |
-| Blogs | `/api/c_blogs` | Course blogs |
-| Groups | `/api/c_groups` | Course groups |
+| ドキュメント | `/api/documents` | コースドキュメント |
+| 学習パス | `/api/learning_paths` | 学習パス |
+| 用語集 | `/api/glossaries` | 用語集の用語 |
+| リンク | `/api/links` | 外部リンク |
+| カレンダーイベント | `/api/c_calendar_events` | アジェンダイベント |
+| 学生の公開物 | `/api/c_student_publications` | 課題 |
+| ブログ | `/api/c_blogs` | コースブログ |
+| グループ | `/api/c_groups` | コースグループ |
 
-### Tracking Resources
+### 追跡リソース
 
-| Resource | Path | Description |
+| リソース | パス | 説明 |
 |----------|------|-------------|
-| Gradebook Categories | `/api/gradebook_categories` | Gradebook setup |
-| Gradebook Results | `/api/gradebook_results` | Grades |
+| 成績簿カテゴリ | `/api/gradebook_categories` | 成績簿の設定 |
+| 成績簿結果 | `/api/gradebook_results` | 成績 |
 
-## Filtering and Pagination
+## フィルタリングとページネーション
 
-API Platform supports:
+API Platformは以下をサポートしています：
 
-* **Pagination**: `?page=2&itemsPerPage=30`
-* **Filtering**: `?title=Introduction` (depends on configured filters)
-* **Ordering**: `?order[title]=asc`
-* **Search**: Full-text search on configured fields
+* **ページネーション**: `?page=2&itemsPerPage=30`
+* **フィルタリング**: `?title=Introduction` （設定されたフィルターに依存）
+* **並べ替え**: `?order[title]=asc`
+* **検索**: 設定されたフィールドでの全文検索
 
-## Content Negotiation
+## コンテンツネゴシエーション
 
-The API supports multiple formats:
+APIは複数のフォーマットをサポートしています：
 
-* `application/ld+json` (default — JSON-LD)
+* `application/ld+json` （デフォルト — JSON-LD）
 * `application/json`
-* `text/html` (API documentation)
+* `text/html` （APIドキュメント）
 
-Set the `Accept` header to choose the response format.
+レスポンス形式を選択するには、`Accept`ヘッダーを設定してください。
 
-## Security
+## セキュリティ
 
-Each endpoint enforces security through:
+各エンドポイントは以下の方法でセキュリティを強制します：
 
-* JWT authentication (required for most endpoints)
-* Symfony security voters (resource-level permissions)
-* Role-based access control (e.g., admin-only endpoints)
+* JWT認証（ほとんどのエンドポイントで必須）
+* Symfonyセキュリティボーター（リソースレベルの権限）
+* ロールベースのアクセス制御（例：管理者専用エンドポイント）

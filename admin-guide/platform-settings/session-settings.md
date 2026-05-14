@@ -1,571 +1,560 @@
-# Sessions Settings
+# セッション設定
 
-Defaults and behaviour for **Sessions** — session lifecycle, coach access windows, course visibility within a session, and similar.
+**セッション**のデフォルト設定と動作 — セッションのライフサイクル、コーチのアクセス期間、セッション内でのコースの可視性など。
 
-Access these settings under **Administration > Configuration settings > Sessions**. This category contains **68 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+これらの設定には、**管理 > 設定 > セッション**からアクセスできます。このカテゴリには**68の設定**が含まれており、以下にプラットフォームの設定フィクスチャ（`SettingsCurrentFixtures.php`）に記載されているタイトルとコメントを記載しています。
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> コード内の変数名は等幅フォントで表示されています。API経由でスクリプトを作成する場合や、[`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml)を編集してこれらの設定をグローバルレベルで変更する必要がある場合に使用してください。
 
-## Settings
+## 設定
 
 ### `add_users_by_coach`
 
-**Register users by Coach**
+**コーチによるユーザー登録**
 
-Coach users may create users to the platform and subscribe users to a session.
+コーチユーザーはプラットフォームにユーザーを追加し、セッションにユーザーを登録することができます。
 
-*Default: `false`*
+*デフォルト: `false`*
 
 ### `allow_career_diagram`
 
-**Enable career diagrams**
+**キャリアダイアグラムの有効化**
 
-Career diagrams allow you to display diagrams of careers, skills and courses.
+キャリアダイアグラムを使用すると、キャリア、スキル、コースのダイアグラムを表示することができます。
 
-*Default: `false`*
-
+*デフォルト: `false`*
 
 ### `allow_career_users`
 
-**Enable career diagrams for users**
+**ユーザー向けキャリアダイアグラムの有効化**
 
-If career diagrams are enabled, users can only see them (and only the diagrams that correspond to their studies) if you enable this option.
+キャリアダイアグラムが有効になっている場合、このオプションを有効にするとユーザーはそれらを閲覧することができます（ただし、自分の学習に対応するダイアグラムのみ）。
 
-*Default: `false`*
+*デフォルト: `false`*
 
 ### `allow_coach_to_edit_course_session`
 
-**Allow coaches to edit inside course sessions**
+**コーチによるコースセッション内の編集を許可**
 
-Allow coaches to edit inside course sessions
+コーチがコースセッション内を編集できるようにします。
 
-*Default: `true`*
+*デフォルト: `true`*
 
 ### `allow_delete_user_for_session_admin`
 
-**Session admins can delete users**
+**セッション管理者がユーザーを削除可能**
 
-Session administrators can remove users from the platform when managing their session(s).
+セッション管理者は、セッションを管理する際にプラットフォームからユーザーを削除することができます。
 
-*Default: `false`*
-
+*デフォルト: `false`*
 
 ### `allow_disable_user_for_session_admin`
 
-**Session admins can disable users**
+**セッション管理者がユーザーを無効化可能**
 
-Session administrators can disable user accounts to prevent login while retaining enrollment records in their session(s).
+セッション管理者は、セッション内の登録記録を保持したまま、ログインを防ぐためにユーザーアカウントを無効化することができます。
 
-*Default: `false`*
-
+*デフォルト: `false`*
 
 ### `allow_edit_tool_visibility_in_session`
 
-**Allow tool visibility edition in sessions**
+**セッション内でのツール可視性の編集を許可**
 
-When using sessions, the default behaviour is to use the tool visibility defined in the base course. This setting changes that to allow coaches in session courses to adapt tool visibilities to their needs.
+セッションを使用する場合、デフォルトの動作では基本コースで定義されたツールの可視性が使用されます。この設定を変更すると、セッションコース内のコーチがツールの可視性をニーズに合わせて調整できるようになります。
 
-*Default: `true`*
+*デフォルト: `true`*
 
 ### `allow_redirect_to_session_after_inscription_about`
 
-**Redirect to session after registration in session's 'About' page**
+**セッションの「概要」ページでの登録後にセッションへリダイレクト**
 
-Automatically redirect new users to their session page after they complete registration through a session's About page.
+セッションの概要ページを通じて登録を完了した新しいユーザーを自動的にセッションページにリダイレクトします。
 
-*Default: `false`*
-
+*デフォルト: `false`*
 
 ### `allow_search_diagnostic`
 
-**Enable sessions search diagnosis**
+**セッション検索診断の有効化**
 
-Allow tutors to get a diagnosis that will allow them to search for the best sessions for learners.
+チューターが学習者に最適なセッションを検索するための診断を取得できるようにします。
 
-*Default: `false`*
-
+*デフォルト: `false`*
 
 ### `allow_session_admin_extra_access`
 
-**Session admin can access batch user import, update and export**
+**セッション管理者の一括ユーザーインポート、更新、エクスポートへのアクセスを許可**
 
-Session administrators can access batch user import, update, and export functionality in addition to their standard permissions.
+セッション管理者は、標準の権限に加えて、一括ユーザーインポート、更新、エクスポート機能にアクセスすることができます。
 
-*Default: `false`*
-
+*デフォルト: `false`*
 
 ### `allow_session_admin_login_as_teacher`
 
-**Session admins can 'login as' teachers**
+**セッション管理者が教師としてログイン可能**
 
-Session administrators can impersonate teacher accounts to preview course content and student experience within their session(s).
+セッション管理者は、セッション内のコースコンテンツや学生の体験をプレビューするために教師アカウントを模倣することができます。
 
-*Default: `false`*
-
+*デフォルト: `false`*
 
 ### `allow_session_admin_read_careers`
 
-**Session admins can view careers**
+**セッション管理者がキャリアを閲覧可能**
 
-[inferred] Session administrators can view and access career paths and promotion workflows linked to their managed sessions.
+セッション管理者は、管理しているセッションにリンクされたキャリアパスや昇進ワークフローを閲覧およびアクセスすることができます。
 
-*Default: `false`*
-
+*デフォルト: `false`*
 
 ### `allow_session_admins_to_manage_all_sessions`
 
-**Allow session administrators to see all sessions**
+**セッション管理者がすべてのセッションを閲覧可能**
 
-When this option is not enabled (default), session administrators can only see the sessions they have created. This is confusing in an open environment where session administrators might need to share support time between two sessions.
+このオプションが有効になっていない場合（デフォルト）、セッション管理者は自分が作成したセッションのみを閲覧することができます。オープンな環境では、セッション管理者が2つのセッション間でサポート時間を共有する必要がある場合に混乱を招く可能性があります。
 
-*Default: `false`*
+*デフォルト: `false`*
 
 ### `allow_session_course_copy_for_teachers`
 
-**Allow session-to-session copy for teachers**
+**教師向けセッション間コピーの許可**
 
-Enable this option to let teachers copy their content from one course in a session to a course in another session. By default, this option is only available to platform administrators.
+このオプションを有効にすると、教師がセッション内の1つのコースから別のセッションのコースにコンテンツをコピーできるようになります。デフォルトでは、このオプションはプラットフォーム管理者のみに利用可能です。
 
-*Default: `false`*
+*デフォルト: `false`*
 
 ### `allow_teachers_to_create_sessions`
 
-**Allow teachers to create sessions**
+**教師によるセッション作成の許可**
 
-Teachers can create, edit and delete their own sessions.
+教師は自分のセッションを作成、編集、削除することができます。
 
-*Default: `false`*
+*デフォルト: `false`*
 
 ### `allow_tutors_to_assign_students_to_session`
 
-**Tutors can assign students to sessions**
+**チューターが学生をセッションに割り当て可能**
 
-When enabled, course coaches/tutors in sessions can subscribe new users to their session. This option is otherwise only available to administrators and session administrators.
+有効にすると、セッション内のコースコーチ/チューターが新しいユーザーをセッションに登録することができます。このオプションは通常、管理者およびセッション管理者のみに利用可能です。
 
-*Default: `false`*
+*デフォルト: `false`*
 
 ### `allow_user_session_collapsable`
 
-**Allow user to collapse sessions in My sessions**
+**「マイセッション」でセッションを折りたたむことをユーザーに許可**
 
-Users can collapse session cards or groups in the My sessions page to reduce visual clutter and improve navigation.
+ユーザーは、「マイセッション」ページでセッションカードやグループを折りたたむことで、視覚的な混乱を減らし、ナビゲーションを改善することができます。
 
-*Default: `false`*
-
+*デフォルト: `false`*
 
 ### `assignment_base_course_teacher_access_to_all_session`
 
-**Base course teacher can see assignments from all sessions**
+**基本コースの教師がすべてのセッションの課題を閲覧可能**
 
-Show all learner publications (from base course and from all sessions) in the work/pending.php page of the base course.
+基本コースのwork/pending.phpページで、基本コースおよびすべてのセッションからの学習者の公開物をすべて表示します。
 
-*Default: `false`*
+*デフォルト: `false`*
 
+---
 ### `career_diagram_disclaimer`
 
-**Display a disclaimer below the career diagram**
+**キャリアダイアグラムの下に免責事項を表示する**
 
-Add a disclaimer below the career diagram. A language variable called 'Career diagram disclaimer' must exist in your sub-language.
+キャリアダイアグラムの下に免責事項を追加します。サブラングエージに「Career diagram disclaimer」という言語変数が存在する必要があります。
 
-*Default: `false`*
+*デフォルト: `false`*
 
 ### `career_diagram_legend`
 
-**Display a legend below the career diagram**
+**キャリアダイアグラムの下に凡例を表示する**
 
-Add a career legend below the career diagram. A language variable called 'Career diagram legend' must exist in your sub-language.
+キャリアダイアグラムの下にキャリア凡例を追加します。サブラングエージに「Career diagram legend」という言語変数が存在する必要があります。
 
-*Default: `false`*
+*デフォルト: `false`*
 
 ### `courses_list_session_title_link`
 
-**Type of link for the session title**
+**セッションタイトルのリンクタイプ**
 
-On the courses/sessions page, the session title can be either of the following : 0 = no link (hide session title) ; 1 = link title to a special session page ; 2 = link to the course if there is only one course ; 3 = session title makes the courses list foldable ; 4 = no link (show session title).
+コース/セッションページで、セッションタイトルは以下のいずれかになります：0 = リンクなし（セッションタイトルを非表示）；1 = 特別なセッションページにリンク；2 = コースが1つだけの場合にコースにリンク；3 = セッションタイトルでコースリストを折り畳み可能にする；4 = リンクなし（セッションタイトルを表示）。
 
-*Default: `1`*
+*デフォルト: `1`*
 
 ### `default_session_list_view`
 
-**Default sessions list view**
+**デフォルトのセッションリストビュー**
 
-Select the default tab you want to see when opening the sessions list as admin.
+管理者としてセッションリストを開いたときに表示するデフォルトのタブを選択します。
 
-*Default: `all`*
-
+*デフォルト: `all`*
 
 ### `drh_can_access_all_session_content`
 
-**HR directors access all session content**
+**人事ディレクターがすべてのセッションコンテンツにアクセス可能**
 
-If enabled, human resources directors will get access to all content and users from the sessions (s)he follows.
+有効にすると、人事ディレクターは自分がフォローしているセッションのすべてのコンテンツとユーザーにアクセスできるようになります。
 
-*Default: `true`*
+*デフォルト: `true`*
 
 ### `duplicate_specific_session_content_on_session_copy`
 
-**Enable the copy of session-specific content to another session**
+**セッション固有のコンテンツを別のセッションにコピーする機能を有効にする**
 
-Allows duplication of resources that were created in the session when duplicating the session.
+セッションを複製する際に、セッション内で作成されたリソースの複製を許可します。
 
-*Default: `false`*
-
+*デフォルト: `false`*
 
 ### `email_template_subscription_to_session_confirmation_lost_password`
 
-**Add reset password link to e-mail notification of subscription to session**
+**セッション登録確認メールにパスワードリセットリンクを追加する**
 
-Include a password reset link in subscription confirmation emails sent to users when they are enrolled in a session.
+ユーザーがセッションに登録された際に送信される登録確認メールにパスワードリセットリンクを含めます。
 
-*Default: `false`*
-
+*デフォルト: `false`*
 
 ### `email_template_subscription_to_session_confirmation_username`
 
-**Add username to e-mail notification of subscription to session**
+**セッション登録確認メールにユーザー名を追加する**
 
-Include the user's username in subscription confirmation emails sent when they are enrolled in a session.
+ユーザーがセッションに登録された際に送信される登録確認メールにユーザーのユーザー名を含めます。
 
-*Default: `false`*
-
+*デフォルト: `false`*
 
 ### `enable_auto_reinscription`
 
-**Enable Automatic Reinscription**
+**自動再登録を有効にする**
 
-Enable or disable automatic reinscription when course validity expires. The related cron job must also be activated.
+コースの有効期限が切れた際に自動再登録を有効または無効にします。関連するcronジョブも有効にする必要があります。
 
-*Default: `false`*
-
+*デフォルト: `false`*
 
 ### `enable_session_replication`
 
-**Enable Session Replication**
+**セッション複製を有効にする**
 
-Enable or disable automatic session replication. The related cron job must also be activated.
+自動セッション複製を有効または無効にします。関連するcronジョブも有効にする必要があります。
 
-*Default: `false`*
-
+*デフォルト: `false`*
 
 ### `extend_rights_for_coach`
 
-**Extend rights for coach**
+**コーチの権限を拡張する**
 
-Activate this option will give the coach the same permissions as the trainer on authoring tools
+このオプションを有効にすると、コーチにトレーナーと同じオーサリングツールの権限が与えられます。
 
-*Default: `false`*
+*デフォルト: `false`*
 
 ### `hide_courses_in_sessions`
 
-**Hide courses list in sessions**
+**セッション内のコースリストを非表示にする**
 
-When showing the session block in your courses page, hide the list of courses inside that session (only show them inside the specific session screen).
+コースページのセッションブロックを表示する際に、セッション内のコースリストを非表示にします（特定のセッション画面内でのみ表示）。
 
-*Default: `false`*
+*デフォルト: `false`*
 
 ### `hide_reporting_session_list`
 
-**Hide sessions list in reporting tool**
+**レポートツールでセッションリストを非表示にする**
 
-Sessions that include the course are listed in the reporting tool inside the course itself, which can add considerable weight if the same course is used in hundreds of sessions. This option removes that list.
+コース内に含まれるセッションがレポートツール内でリスト表示されると、同一コースが数百のセッションで使用されている場合に大きな負荷がかかることがあります。このオプションはそのリストを削除します。
 
-*Default: `false`*
-
+*デフォルト: `false`*
 
 ### `hide_search_form_in_session_list`
 
-**Hide search form in sessions list**
+**セッションリストで検索フォームを非表示にする**
 
-Remove the search input field from the session list view in the administration interface.
+管理インターフェースのセッションリストビューから検索入力フィールドを削除します。
 
-*Default: `false`*
-
+*デフォルト: `false`*
 
 ### `hide_session_graph_in_my_progress`
 
-**Hide session chart in My progress**
+**「マイプログレス」でセッショングラフを非表示にする**
 
-Conceal session progress charts and visualizations from the My progress page in learner dashboards.
+学習者ダッシュボードの「マイプログレス」ページからセッションの進捗グラフやビジュアライゼーションを非表示にします。
 
-*Default: `false`*
-
+*デフォルト: `false`*
 
 ### `hide_tab_list`
 
-**Hide tabs on the session page**
+**セッションページのタブを非表示にする**
 
-Remove navigation tabs from the session detail page to simplify the interface.
+セッション詳細ページからナビゲーションタブを削除してインターフェースを簡素化します。
 
 ### `limit_session_admin_list_users`
 
-**Session admins are forbidden access to the users list**
+**セッション管理者がユーザーリストにアクセスすることを禁止する**
 
-Prevent session administrators from accessing the global users list in the administration interface.
+セッション管理者が管理インターフェースでグローバルユーザーリストにアクセスするのを防ぎます。
 
-*Default: `false`*
-
+*デフォルト: `false`*
 
 ### `limit_session_admin_role`
 
-**Limit session admins permissions**
+**セッション管理者の権限を制限する**
 
-If enabled, the session administrators will only see the User block with the 'Add user' option and the Sessions block with the 'Sessions list' option.
+有効にすると、セッション管理者は「ユーザー」ブロックで「ユーザーの追加」オプションと、「セッション」ブロックで「セッションリスト」オプションのみを表示できます。
 
-*Default: `false`*
+*デフォルト: `false`*
 
 ### `my_courses_session_order`
 
-**Change the default sorting of session in My sessions**
+**「マイセッション」のデフォルトソートを変更する**
 
-By default, sessions are ordered by start date. Change this by providing an array of type ['field' => 'end_date', 'order' => 'desc'].
+デフォルトでは、セッションは開始日でソートされます。これを変更するには、['field' => 'end_date', 'order' => 'desc'] のような配列を指定します。
 
 ### `my_courses_view_by_session`
 
-**View my courses by session**
+**セッションごとにマイコースを表示する**
 
-Enable an additional 'My courses' page where sessions appear as part of courses, rather than the opposite.
+コースの一部としてセッションが表示される追加の「マイコース」ページを有効にします（逆ではありません）。
 
-*Default: `false`*
+*デフォルト: `false`*
 
 ### `my_progress_session_show_all_courses`
 
-**My progress: show course details in session**
+**「マイプログレス」：セッション内でコースの詳細を表示する**
 
-Display all details of each course in session when clicking on session details.
+セッションの詳細をクリックした際に、セッション内の各コースのすべての詳細を表示します。
 
-*Default: `false`*
-
+*デフォルト: `false`*
 
 ### `prevent_session_admins_to_manage_all_users`
 
-**Prevent session admins to manage all users**
+**セッション管理者がすべてのユーザーを管理するのを防ぐ**
 
-By enabling this option, session admins will only be able to see, in the administration page, the users they created.
+このオプションを有効にすると、セッション管理者は管理ページで自分が作成したユーザーのみを見ることができます。
 
-*Default: `false`*
+*デフォルト: `false`*
 
+---
 ### `remove_session_url`
 
-**Hide link to session page**
+**セッションページへのリンクを非表示にする**
 
-Hide link to the session page from the sessions list.
+セッションリストからセッションページへのリンクを非表示にします。
 
-*Default: `false`*
+*デフォルト: `false`*
 
 
 ### `session_admins_access_all_content`
 
-**Session admins can access all course content**
+**セッション管理者がすべてのコースコンテンツにアクセス可能**
 
-Session administrators can view all course content within their sessions, including restricted or archived materials.
+セッション管理者は、制限されたものやアーカイブされたものを含む、セッション内のすべてのコースコンテンツを閲覧できます。
 
-*Default: `false`*
+*デフォルト: `false`*
+
 
 ### `session_admins_edit_courses_content`
 
-**Session admins can edit course content**
+**セッション管理者がコースコンテンツを編集可能**
 
-Session administrators can modify course content (documents, exercises, tools) in courses assigned to their sessions.
+セッション管理者は、セッションに割り当てられたコース内のコンテンツ（ドキュメント、演習、ツール）を変更できます。
 
-*Default: `false`*
+*デフォルト: `false`*
+
 
 ### `session_automatic_creation_user_id`
 
-**Auto-created session's creator ID**
+**自動作成セッションの作成者ID**
 
-Set the user to use as creator of the automatically-created sessions (to avoid assigning every session to user '1' which is often the portal administrator).
+自動作成されたセッションの作成者として使用するユーザーを設定します（すべてのセッションをポータル管理者であるユーザー '1' に割り当てるのを避けるため）。
 
-*Default: `1`*
+*デフォルト: `1`*
 
 
 ### `session_classes_tab_disable`
 
-**Disable add class in session course for non-admin**
+**非管理者向けのセッションコースへのクラス追加タブを無効化**
 
-Disable tab to add classes in session course for non-admins.
+非管理者向けに、セッションコースにクラスを追加するタブを無効化します。
 
-*Default: `false`*
+*デフォルト: `false`*
 
 
 ### `session_coach_access_after_duration_end`
 
-**Sessions by duration always available to coaches**
+**期間指定のセッションをコーチが常に利用可能**
 
-Otherwise, session coaches only have access to sessions by duration during the active duration.
+この設定が無効の場合、セッションコーチは有効期間中のみ期間指定のセッションにアクセスできます。
 
-*Default: `false`*
+*デフォルト: `false`*
 
 
 ### `session_course_ordering`
 
-**Session courses manual ordering**
+**セッションコースの手動並べ替え**
 
-Enable this option to allow the session administrators to order the courses inside a session manually. If disabled, courses are ordered alphabetically on course title.
+このオプションを有効にすると、セッション管理者がセッション内のコースを手動で並べ替えることができます。無効の場合、コースはコースタイトルのアルファベット順に並べられます。
 
-*Default: `false`*
+*デフォルト: `false`*
+
 
 ### `session_course_users_subscription_limited_to_session_users`
 
-**Limit subscriptions to course to only users of the session**
+**コースへの登録をセッションのユーザーのみに制限**
 
-Restrict the list of students to subscribe in the course session. And disable registration for users in all courses from Resume Session page.
+コースセッションに登録する学生のリストを制限します。また、「セッション再開」ページからすべてのコースへのユーザー登録を無効化します。
 
-*Default: `false`*
+*デフォルト: `false`*
 
 
 ### `session_courses_read_only_mode`
 
-**Set course read-only in session**
+**セッションでコースを読み取り専用に設定**
 
-Let teachers set some courses in read-only mode when opened through sessions. In the course properties, check the 'Lock course in session' option.
+教師がセッションを通じて開いたコースを読み取り専用モードに設定できるようにします。コースのプロパティで「セッションでコースをロック」オプションをチェックしてください。
 
-*Default: `false`*
+*デフォルト: `false`*
 
 
 ### `session_creation_form_set_extra_fields_mandatory`
 
-**Set mandatory extra fields in session creation form**
+**セッション作成フォームで必須の追加フィールドを設定**
 
-Require the listed fields during session creation.
+セッション作成時に指定されたフィールドを必須にします。
 
 ### `session_creation_user_course_extra_field_relation_to_prefill`
 
-**Pre-fill session fields with user fields**
+**ユーザーフィールドでセッションフィールドを事前入力**
 
-Array of relationships between user extra fields and session extra fields, so the session can be pre-filled with data matching the user's data.
+ユーザーの追加フィールドとセッションの追加フィールドの関係の配列を設定し、セッションをユーザーのデータに一致するデータで事前入力できるようにします。
 
 ### `session_days_after_coach_access`
 
-**Default coach access days after session**
+**セッション終了後のコーチアクセス日数のデフォルト**
 
-Default number of days a coach can access his session after the official session end date
+公式のセッション終了日後にコーチがセッションにアクセスできるデフォルトの日数。
 
 ### `session_days_before_coach_access`
 
-**Default coach access days before session**
+**セッション開始前のコーチアクセス日数のデフォルト**
 
-Default number of days a coach can access his session before the official session start date
+公式のセッション開始日前にコーチがセッションにアクセスできるデフォルトの日数。
 
 ### `session_import_settings`
 
-**Options for session import**
+**セッションインポートのオプション**
 
-Array of options to apply as default parameters in the CSV/XML session import.
+CSV/XMLセッションインポート時のデフォルトパラメータとして適用するオプションの配列。
 
 ### `session_list_order`
 
-**Sessions support manual sorting**
+**セッションの手動並べ替えをサポート**
 
-Enable manual reordering of sessions in the administration session list via drag-and-drop or similar mechanism.
+管理セッションリストでドラッグアンドドロップなどの仕組みを介してセッションを手動で並べ替える機能を有効にします。
 
-*Default: `false`*
+*デフォルト: `false`*
 
 
 ### `session_list_show_count_users`
 
-**Show number of users in sessions list**
+**セッションリストにユーザー数を表示**
 
-The admin can see the number of users in each session. This adds additional weight to the sessions list, so if you use it often, consider carefully whether you want the extra waiting time.
+管理者は各セッションのユーザー数を見ることができます。この設定はセッションリストに追加の負荷をかけるため、頻繁に使用する場合は待機時間の増加を考慮してください。
 
-*Default: `false`*
+*デフォルト: `false`*
 
 
 ### `session_list_view_remaining_days`
 
-**Show remaining days in My Sessions**
+**「マイセッション」に残り日数を表示**
 
-If enabled, the session dates on the "My Sessions" page will be replaced by the number of remaining days.
+有効にすると、「マイセッション」ページのセッション日付が残り日数に置き換えられます。
 
-*Default: `false`*
+*デフォルト: `false`*
+
 
 ### `session_model_list_field_ordered_by_id`
 
-**Sort session templates by id in session creation form**
+**セッション作成フォームでテンプレートをID順に並べ替え**
 
-[inferred] Sort session templates by their numeric ID in the session creation form dropdown instead of alphabetically by name.
+セッション作成フォームのドロップダウンで、セッションテンプレートを名前順ではなく数値ID順に並べ替えます。
 
-*Default: `false`*
+*デフォルト: `false`*
 
 
 ### `session_multiple_subscription_students_list_avoid_emptying`
 
-**Prevent emptying the subscribed users in session subscription**
+**セッション登録での登録ユーザー削除を防止**
 
-When using the multiple learners subscription to a session, prevent the normal behaviour which is to unsubscribe users who are not in the right panel when clicking submit. Keep all users there.
+複数の学習者をセッションに登録する際に、送信ボタンをクリックしたときに右パネルにいないユーザーの登録を解除する通常の動作を防止し、すべてのユーザーを保持します。
 
-*Default: `false`*
+*デフォルト: `false`*
 
 
 ### `show_all_sessions_on_my_course_page`
 
-**Show all sessions on 'My courses' page**
+**「マイコース」ページにすべてのセッションを表示**
 
-If enabled, this option show all sessions of the user in calendar-based view.
+有効にすると、このオプションはカレンダーベースのビューでユーザーのすべてのセッションを表示します。
 
-*Default: `true`*
+*デフォルト: `true`*
 
 
 ### `show_session_coach`
 
-**Show session coach**
+**セッションコーチを表示**
 
-Show the global session coach name in session title box in the courses list
+コースリストのセッションタイトルボックスにグローバルセッションコーチの名前を表示します。
 
-*Default: `false`*
+*デフォルト: `false`*
+
 
 ### `show_session_data`
 
-**Show session data title**
+**セッションデータのタイトルを表示**
 
-Show session data comment
+セッションデータのコメントを表示します。
 
-*Default: `false`*
+*デフォルト: `false`*
+
 
 ### `show_session_description`
 
-**Show session description**
+**セッションの説明を表示**
 
-Show the session description wherever this option is implemented (sessions tracking pages, etc)
+このオプションが実装されている場所（セッショントラッキングページなど）でセッションの説明を表示します。
 
-*Default: `false`*
+*デフォルト: `false`*
 
+---
 ### `show_simple_session_info`
 
-**Show simple session info**
+**セッションの簡単な情報を表示**
 
-Add coach and dates to the session's subtitle in the sessions' list.
+セッションリストのセッションサブタイトルにコーチと日付を追加します。
 
-*Default: `true`*
+*デフォルト: `true`*
 
 
 ### `show_users_in_active_sessions_in_tracking`
 
-**Only display users from active sessions in tracking**
+**追跡でアクティブなセッションのユーザーのみを表示**
 
-Display only users from currently active sessions in learner tracking and reporting views.
+学習者の追跡およびレポートビューで、現在アクティブなセッションのユーザーのみを表示します。
 
-*Default: `false`*
+*デフォルト: `false`*
 
 
 ### `tracking_columns`
 
-**Customize course-session tracking columns**
+**コースセッションの追跡列をカスタマイズ**
 
-Define an array of columns for the following reports: 'course_session', 'my_students_lp', 'my_progress_lp', 'my_progress_courses'.
+以下のレポートに対して列の配列を定義します：'course_session', 'my_students_lp', 'my_progress_lp', 'my_progress_courses'。
 
 ### `user_s_session_duration`
 
-**Auto-created sessions duration**
+**自動作成セッションの期間**
 
-Duration (in days) of the single-user, auto-created sessions. After expiry, the user cannot register to the same course (no other session is created).
+単一ユーザーの自動作成セッションの期間（日数）。期限が切れると、ユーザーは同じコースに登録できなくなります（他のセッションは作成されません）。
 
-*Default: `1095`*
+*デフォルト: `1095`*
 
 
 ### `user_session_display_mode`
 
-**My Sessions display mode**
+**マイセッションの表示モード**
 
-Choose how the "My Sessions" page is displayed: as a modern visual block (card) view or the classic list style.
+「マイセッション」ページの表示方法を選択します：モダンなビジュアルブロック（カード）ビュー、またはクラシックなリストスタイル。
 
-*Default: `list`*
+*デフォルト: `list`*

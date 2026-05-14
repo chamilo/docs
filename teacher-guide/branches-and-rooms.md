@@ -1,26 +1,26 @@
-# Branches and Rooms
+# 支部と部屋
 
-Chamilo includes a basic physical location system built around two concepts: **branches** and **rooms**.
+Chamiloには、**支部**と**部屋**という2つの概念を中心に構築された基本的な物理的な場所管理システムが含まれています。
 
-A **branch** represents a physical site or campus — for example, a main office, a regional training centre, or a university building. Branches can be nested (a building can contain departments, a city can contain buildings). Each branch can contain one or more **rooms**, which represent individual classrooms or lab spaces within that branch.
+**支部**は、物理的なサイトやキャンパスを表します。たとえば、メインオフィス、地域のトレーニングセンター、大学の建物などが該当します。支部はネスト（入れ子）することができ、建物内に部門を含めたり、都市内に建物を含めたりすることが可能です。各支部には1つ以上の**部屋**を含めることができ、これはその支部内の個々の教室や実験室のスペースを表します。
 
-This feature is still in early stages. At this point its main practical use is letting you attach a physical location marker to a course.
+この機能はまだ初期段階にあります。現時点での主な実用的な用途は、コースに物理的な場所のマーカーを付けることができる点です。
 
-## Assigning a Room to a Course
+## コースへの部屋の割り当て
 
-When creating a course, if your administrator has already set up rooms, a **Default room** field appears in the course creation form. Select the room where the course takes place.
+コースを作成する際、もし管理者が必要な部屋をすでに設定している場合、コース作成フォームに**デフォルトの部屋**フィールドが表示されます。コースが行われる部屋を選択してください。
 
-This information is informational — it does not affect course behaviour or access control. It simply records where the course is physically held, which can help administrators manage room scheduling and view room occupation across courses.
+この情報は参考のためのものであり、コースの動作やアクセス制御には影響を与えません。単にコースが物理的にどこで行われるかを記録するもので、管理者が部屋のスケジュール管理を行ったり、コースごとの部屋の占有状況を確認したりするのに役立ちます。
 
-If no rooms have been configured on your platform, the field will not appear.
+プラットフォームに部屋が設定されていない場合、このフィールドは表示されません。
 
-## What Administrators Can Do
+## 管理者ができること
 
-Branch and room management is handled entirely by administrators. They can:
+支部と部屋の管理はすべて管理者によって行われます。管理者は以下のことができます：
 
-- Create and organise branches in a tree hierarchy
-- Add rooms to branches, with optional geolocation and IP range data
-- View which courses are assigned to each room
-- View a room's occupation calendar based on attendance entries
+- ツリーヒエラルキー内で支部を作成および整理する
+- 支部に部屋を追加し、オプションでジオロケーションやIP範囲のデータを設定する
+- 各部屋に割り当てられているコースを確認する
+- 出席エントリに基づく部屋の占有カレンダーを確認する
 
-If you need a room created or need your course moved to a different room, contact your platform administrator.
+部屋の作成が必要な場合や、コースを別の部屋に移動する必要がある場合は、プラットフォームの管理者にお問い合わせください。

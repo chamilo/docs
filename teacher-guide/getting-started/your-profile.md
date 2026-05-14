@@ -1,43 +1,43 @@
-# Your Profile
+# あなたのプロフィール
 
-Your profile in Chamilo contains your personal information and preferences. Other users on the platform can see parts of your profile depending on your visibility settings.
+Chamiloのプロフィールには、あなたの個人情報や設定が含まれています。プラットフォーム上の他のユーザーは、あなたの公開設定に応じてプロフィールの一部を閲覧することができます。
 
-## Accessing Your Profile
+## プロフィールへのアクセス
 
-Click your **avatar** in the top-right corner of the top bar, then select **Profile** from the dropdown menu. You can also access it from the **Social network** section of the sidebar.
+上部バーの右上にあるあなたの**アバター**をクリックし、ドロップダウンメニューから**プロフィール**を選択します。また、サイドバーの**ソーシャルネットワーク**セクションからもアクセス可能です。
 
-![The user avatar dropdown menu showing profile, account settings, and sign-out options](/.gitbook/assets/user-avatar-dropdown.png)
+![ユーザーアバタードロップダウンメニューにプロフィール、アカウント設定、ログアウトオプションが表示されています](/.gitbook/assets/user-avatar-dropdown.png)
 
-## Profile Information
+## プロフィール情報
 
-Your profile page might show (depending on configuration):
+プロフィールページには、設定に応じて以下の内容が表示される場合があります：
 
-* **Avatar** — Your profile picture. Click **Edit profile** to change it.
-* **Full name** — Your first and last name as registered on the platform.
-* **Email** — Your email address. Other users can click it to send you a message within Chamilo.
-* **Language** — Your preferred language.
-* **Additional fields** — Depending on your platform's configuration, you may see fields such as phone number, Skype handle, LinkedIn profile link, or custom fields defined by your administrator.
+* **アバター** — あなたのプロフィール画像。**プロフィールを編集**をクリックして変更できます。
+* **フルネーム** — プラットフォームに登録されているあなたの姓名。
+* **メールアドレス** — あなたのメールアドレス。他のユーザーはこれをクリックしてChamilo内でメッセージを送信できます。
+* **言語** — あなたの優先言語。
+* **追加フィールド** — プラットフォームの設定によっては、電話番号、Skypeハンドル、LinkedInプロフィールリンク、または管理者によって定義されたカスタムフィールドが表示される場合があります。
 
-## Editing Your Profile
+## プロフィールの編集
 
-To update your profile information, click **Edit profile**. Here you can:
+プロフィール情報を更新するには、**プロフィールを編集**をクリックします。ここでは以下の操作が可能です：
 
-* Change your name, email, and password
-* Upload or change your avatar/picture
-* Update your preferred language
-* Fill in additional profile fields (Skype, LinkedIn, etc.)
-* Configure notification preferences
+* 名前、メールアドレス、パスワードの変更
+* アバター/画像のアップロードまたは変更
+* 優先言語の更新
+* 追加のプロフィールフィールド（Skype、LinkedInなど）の入力
+* 通知設定の構成
 
-To change your password, click **Change Password**. For security reasons, you will need to give your current password and your new password twice.
+パスワードを変更するには、**パスワードの変更**をクリックします。セキュリティ上の理由から、現在のパスワードと新しいパスワードを2回入力する必要があります。
 
-If your administrator has enabled the **two-factor authentication** option (`2fa_enable`) for the platform, your profile will let you turn on 2FA for your own account using a TOTP authenticator app (Google Authenticator, Authy, 1Password, etc.). Once enabled, the login flow will ask for the time-based 6-digit code in addition to your password.
+管理者がプラットフォームに対して**二要素認証**オプション（`2fa_enable`）を有効にしている場合、プロフィールから自分のアカウントに対して2FAを有効にすることができます。この場合、TOTP認証アプリ（Google Authenticator、Authy、1Passwordなど）を使用します。有効にすると、ログイン時にパスワードに加えて時間ベースの6桁のコードが求められます。
 
-## Personal Data
+## 個人データ
 
-Under **Social network** > **Personal Data**, you can review all the information Chamilo stores about you. This section includes:
+**ソーシャルネットワーク** > **個人データ**の下で、Chamiloがあなたについて保存しているすべての情報を確認できます。このセクションには以下が含まれます：
 
-* A summary of all data collected, organized by category
-* If enabled by your organization, your acceptance status for the platform's **Terms and Conditions**
-* If enabled by your organization, an option to **withdraw your consent** or **delete account**, which will trigger an account deletion request that your administrator will process
+* 収集されたすべてのデータの概要（カテゴリ別に整理）
+* 組織が有効にしている場合、プラットフォームの**利用規約**に対する同意状況
+* 組織が有効にしている場合、**同意の撤回**または**アカウントの削除**のオプション。これを選択すると、アカウント削除リクエストが送信され、管理者が処理を行います
 
-> This feature is provided to comply with data protection regulations. Contact your administrator if you have questions about how your data is handled.
+> この機能は、データ保護規制を遵守するために提供されています。データの取り扱いについて質問がある場合は、管理者にお問い合わせください。

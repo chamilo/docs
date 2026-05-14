@@ -1,40 +1,40 @@
-# Getting Started
+# はじめに
 
-This section helps you get oriented with Chamilo 2.0. You will learn how to log in, navigate the main interface, and configure your profile.
+このセクションでは、Chamilo 2.0 の基本的な使い方をご案内します。ログイン方法、メインインターフェースの操作方法、プロフィールの設定方法を学びます。
 
-## Logging In
+## ログイン
 
-To access Chamilo, open your browser and navigate to the URL provided by your institution (for example, `https://chamilo.yourschool.edu`). Enter your username and password on the login page and click **Sign in**.
+Chamilo にアクセスするには、ブラウザを開き、所属機関から提供された URL（例: `https://chamilo.yourschool.edu`）にアクセスしてください。ログインページでユーザー名とパスワードを入力し、**サインイン** をクリックします。
 
-If your institution uses external authentication (such as Azure, Keycloak, or a university single sign-on system), you may see additional login buttons below the standard login form. Click the appropriate button to authenticate through your institution's identity provider.
+所属機関が外部認証（Azure、Keycloak、または大学のシングルサインオンシステムなど）を使用している場合、標準のログインフォームの下に追加のログインボタンが表示されることがあります。所属機関のアイデンティティプロバイダーを通じて認証するには、適切なボタンをクリックしてください。
 
-> If you have forgotten your password, click the **Forgot password?** link on the login page. You will receive an email with instructions to reset it.
+> パスワードを忘れた場合は、ログインページの **パスワードを忘れましたか？** リンクをクリックしてください。パスワードをリセットするための手順が記載されたメールが送信されます。
 
-## First Look
+## 最初の画面
 
-After logging in, you will see the Chamilo home page. The interface is organized into three main areas:
+ログインすると、Chamilo のホームページが表示されます。インターフェースは主に3つのエリアに分かれています：
 
-![The Chamilo home page showing system announcements and course cards](/.gitbook/assets/home-page-teacher.png)
+![Chamilo のホームページ。システムのお知らせやコースカードが表示されています](/.gitbook/assets/home-page-teacher.png)
 
-* **Top bar** — Displays the platform logo, your message inbox (with a badge showing unread messages), and your user avatar. Click your avatar to access your profile and account settings.
-* **Sidebar** — The left navigation panel gives you quick access to your courses, sessions, agenda, social network, and more. You can collapse it by clicking the toggle at its edge.
-* **Main content area** — This is where the current page content is displayed. On the home page, you will see system announcements and your featured courses.
+* **トップバー** — プラットフォームのロゴ、メッセージ受信箱（未読メッセージを示すバッジ付き）、およびユーザーアバターが表示されます。アバターをクリックすると、プロフィールやアカウント設定にアクセスできます。
+* **サイドバー** — 左側のナビゲーションパネルでは、コース、セッション、アジェンダ、ソーシャルネットワークなどに素早くアクセスできます。端にあるトグルをクリックすると折り畳むことができます。
+* **メインコンテンツエリア** — 現在のページ内容が表示される場所です。ホームページでは、システムのお知らせやおすすめのコースが表示されます。
 
-## Your Courses
+## あなたのコース
 
-From the sidebar, click **My courses** to see all the courses you are enrolled in as a teacher or student. Each course appears as a card showing:
+サイドバーから **マイコース** をクリックすると、教師または学生として登録しているすべてのコースを確認できます。各コースはカード形式で表示され、以下の情報が含まれています：
 
-![The My Courses page displaying course cards with thumbnails and quick-access actions](/.gitbook/assets/my-courses-list.png)
+![マイコースページ。サムネイルとクイックアクセスアクション付きのコースカードが表示されています](/.gitbook/assets/my-courses-list.png)
 
-* The course image or thumbnail
-* The course title
-* Quick-access actions
+* コースの画像またはサムネイル
+* コースのタイトル
+* クイックアクセスアクション
 
-If your institution uses **sessions** (time-bound training periods), you will also see a **My sessions** link in the sidebar, organized into current, past, and upcoming sessions.
+所属機関が **セッション**（期間限定のトレーニング期間）を使用している場合、サイドバーには **マイセッション** リンクも表示され、現在のセッション、過去のセッション、予定されているセッションに分けて整理されています。
 
-Sessions in Chamilo are a way to deliver the same course to different groups of learners at different times, without duplicating the course content. Think of a session as a scheduled edition or cohort of a course. More on that topic later.
+Chamilo のセッションは、コース内容を複製せずに、異なる学習者グループに異なるタイミングで同じコースを提供する方法です。セッションをコースのスケジュールされたエディションやコホートと考えることができます。このトピックについては後ほど詳しく説明します。
 
-## Next Steps
+## 次のステップ
 
-* [Understanding the Interface](understanding-the-interface.md) — A detailed look at every part of the Chamilo interface
-* [Your Profile](your-profile.md) — How to manage your personal information and preferences
+* [インターフェースの理解](understanding-the-interface.md) — Chamilo インターフェースの各部分を詳しく見る
+* [あなたのプロフィール](your-profile.md) — 個人情報や設定の管理方法

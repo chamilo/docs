@@ -1,43 +1,43 @@
-# Links
+# リンク
 
-The links tool lets you share useful URLs with your learners, organized by category.
+リンクツールを使用すると、役立つURLをカテゴリ別に整理して生徒と共有することができます。
 
-## Adding a Link
+## リンクの追加
 
-1. Open the **Links** <img src="/.gitbook/assets/icons/mdi-link.svg" alt="Links" data-size="line"> tool from the course homepage
-2. Click **Add a link** <img src="/.gitbook/assets/icons/mdi-link-plus.svg" alt="Add link" data-size="line">
-3. Fill in the details:
-   * **URL** — The web address (e.g., `https://example.com/resource`)
-   * **Link name** — A descriptive name for the link
-   * **Description** — An optional explanation of what the resource is about
-   * **Category** — Assign the link to a category for organization
-   * **Target** — Where the link opens: `_self` (same window), `_blank` (new tab), `_parent`, or `_top`
-   * **Show link on course homepage** — Whether you want to show it as a tool icon on the course homepage
-4. Save
+1. コースのホームページで**リンク**ツール <img src="/.gitbook/assets/icons/mdi-link.svg" alt="リンク" data-size="line"> を開きます
+2. **リンクを追加** <img src="/.gitbook/assets/icons/mdi-link-plus.svg" alt="リンクを追加" data-size="line"> をクリックします
+3. 以下の詳細を入力します：
+   * **URL** — ウェブアドレス（例：`https://example.com/resource`）
+   * **リンク名** — リンクのわかりやすい名前
+   * **説明** — リソースについての任意の説明
+   * **カテゴリ** — 整理のためにリンクをカテゴリに割り当てます
+   * **ターゲット** — リンクを開く場所：`_self`（同じウィンドウ）、`_blank`（新しいタブ）、`_parent` または `_top`
+   * **コースのホームページにリンクを表示** — コースのホームページにツールアイコンとして表示するかどうか
+4. 保存します
 
-## Organizing with Categories
+## カテゴリでの整理
 
-Categories help you group related links together:
+カテゴリは関連するリンクをグループ化するのに役立ちます：
 
-1. Click **Add a category**
-2. Enter a **category name** and optional description
-3. Save
+1. **カテゴリを追加**をクリックします
+2. **カテゴリ名**と任意の説明を入力します
+3. 保存します
 
-Links within a category are displayed together, making it easy for learners to find relevant resources.
+カテゴリ内のリンクはまとめて表示されるため、生徒が関連リソースを見つけやすくなります。
 
-## Managing Links
+## リンクの管理
 
-* **Link checking** <img src="/.gitbook/assets/icons/mdi-check-circle.svg" alt="Validity" data-size="line">  — Chamilo can verify whether links are still active or broken
-* **Edit** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Edit" data-size="line"> — Update the link's URL, title, or description
-* **Visibility** <img src="/.gitbook/assets/icons/mdi-eye.svg" alt="Visibility" data-size="line"> — Hide or show the link to learners
-* **Delete** <img src="/.gitbook/assets/icons/mdi-delete.svg" alt="Delete" data-size="line"> — Remove the link
+* **リンクの確認** <img src="/.gitbook/assets/icons/mdi-check-circle.svg" alt="有効性" data-size="line"> — Chamiloはリンクがまだ有効か、または壊れているかを確認できます
+* **編集** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="編集" data-size="line"> — URL、タイトル、またはリンクの説明を更新します
+* **表示設定** <img src="/.gitbook/assets/icons/mdi-eye.svg" alt="表示設定" data-size="line"> — リンクを生徒に表示または非表示にします
+* **削除** <img src="/.gitbook/assets/icons/mdi-delete.svg" alt="削除" data-size="line"> — リンクを削除します
 
-## Exporting Links
+## リンクのエクスポート
 
-You can export your link collection to PDF. Look for the **Export** option in the links tool.
+リンクのコレクションをPDFにエクスポートすることができます。リンクツール内で**エクスポート**オプションを探してください。
 
-## Tips
+## ヒント
 
-* **Categorize by topic** — Create a category for each module or week of your course
-* **Add descriptions** — Help learners understand why a link is relevant before they click it
-* **Check regularly** — Web links can become outdated or broken over time
+* **トピック別にカテゴリ分け** — コースの各モジュールや週ごとにカテゴリを作成します
+* **説明を追加** — 生徒がリンクをクリックする前にその関連性を理解できるようにします
+* **定期的に確認** — ウェブリンクは時間とともに古くなったり壊れたりすることがあります

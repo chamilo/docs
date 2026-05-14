@@ -1,37 +1,33 @@
-# Groups Settings
+# グループ設定
 
-Behaviour of the course **Groups** tool.
+コースの**グループ**ツールの動作について。
 
-Access these settings under **Administration > Configuration settings > Groups**. This category contains **3 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+これらの設定には、**管理 > 設定 > グループ**からアクセスできます。このカテゴリには**3つの設定**が含まれており、以下にプラットフォームの設定フィクスチャ（`SettingsCurrentFixtures.php`）に記載されているタイトルとコメントとともにリストアップされています。
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> コード内の変数名は等幅フォントで表示されています。APIを通じてスクリプトを作成する場合や、[`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml)を編集してこれらの設定をグローバルレベルで変更する必要がある場合に使用してください。
 
-## Settings
+## 設定
 
 ### `allow_group_categories`
 
-**Group categories**
+**グループカテゴリ**
 
-Allow teachers to create categories in the Groups tool?
+教師がグループツール内でカテゴリを作成することを許可しますか？
 
-*Default: `false`*
-
+*デフォルト: `false`*
 
 ### `hide_course_group_if_no_tools_available`
 
-**Hide course group if no tool**
+**ツールがない場合はコースグループを非表示**
 
-If no tool is available in a group and the user is not registered to the group itself, hide the group completely in the groups list.
+グループ内に利用可能なツールがなく、ユーザーがそのグループ自体に登録されていない場合、グループリストからそのグループを完全に非表示にします。
 
-*Default: `false`*
-
+*デフォルト: `false`*
 
 ### `show_groups_to_users`
 
-**Show classes to users**
+**ユーザーにクラスを表示**
 
-Show the classes to users. Classes are a feature that allow you to register/unregister groups of users into a session or a course directly, reducing the administrative hassle. When you pick this option, learners will be able to see in which class they are through their social network interface.
+ユーザーにクラスを表示します。クラスは、ユーザーのグループをセッションやコースに直接登録/登録解除できる機能で、管理の手間を軽減します。このオプションを選択すると、学習者はソーシャルネットワークインターフェースを通じて自分がどのクラスに属しているかを確認できるようになります。
 
-*Default: `false`*
-
-
+*デフォルト: `false`*

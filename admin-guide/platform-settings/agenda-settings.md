@@ -1,90 +1,89 @@
-# Agenda Settings
+# アジェンダ設定
 
-Defaults and behaviour of the **Agenda** tool (calendar / events).
+**アジェンダ**ツール（カレンダー/イベント）のデフォルト設定と動作。
 
-Access these settings under **Administration > Configuration settings > Agenda**. This category contains **11 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+これらの設定には、**管理 > 設定 > アジェンダ**からアクセスできます。このカテゴリには**11の設定**が含まれており、以下にプラットフォームの設定フィクスチャ（`SettingsCurrentFixtures.php`）に記載されているタイトルとコメントを記載しています。
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> コード内の変数名は等幅フォントで表示されています。APIを通じてスクリプトを作成する場合や、[`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml)を編集してこれらの設定をグローバルレベルで変更する必要がある場合に使用してください。
 
-## Settings
+## 設定
 
 ### `agenda_colors`
 
-**Agenda colours**
+**アジェンダの色**
 
-Set HTML-code colours for each type of event to change the colour when displaying the event.
+イベントの種類ごとにHTMLコードの色を設定し、イベント表示時の色を変更します。
 
 ### `agenda_legend`
 
-**Agenda colour legends**
+**アジェンダの色凡例**
 
-Add a small text as legend describing the colours used for the events.
+イベントに使用される色を説明する凡例として短いテキストを追加します。
 
 ### `agenda_on_hover_info`
 
-**Agenda hover info**
+**アジェンダのホバー情報**
 
-Customize the agenda on cursor hovering. Show agenda comment and/or description.
+カーソルを合わせた際のアジェンダをカスタマイズします。アジェンダのコメントや説明を表示します。
 
 ### `agenda_reminders_sender_id`
 
-**ID of the user who officially sends the agenda reminders**
+**アジェンダリマインダーを公式に送信するユーザーのID**
 
-Sets which user appears as the sender of agenda reminder emails.
+アジェンダリマインダーメールの送信者として表示されるユーザーを設定します。
 
-*Default: `0`*
+*デフォルト: `0`*
 
 ### `allow_agenda_edit_for_hrm`
 
-**Allow HRM role to edit or delete agenda events**
+**HRMロールにアジェンダイベントの編集または削除を許可する**
 
-This gives the HRM a little more power by allowing them to edit/delete agenda events in the course-session.
+HRMにコースセッション内のアジェンダイベントを編集/削除する権限を与えることで、少し多くの権限を付与します。
 
-*Default: `false`*
+*デフォルト: `false`*
 
 ### `allow_careers_in_global_agenda`
 
-**Link global calendar events with careers and promotions**
+**グローバルカレンダーイベントをキャリアとプロモーションにリンクする**
 
-When enabled, global calendar events can be associated with careers and promotions, allowing targeted scheduling.
+有効にすると、グローバルカレンダーイベントをキャリアやプロモーションに関連付けることができ、ターゲットを絞ったスケジューリングが可能になります。
 
-*Default: `false`*
+*デフォルト: `false`*
 
 ### `allow_personal_agenda`
 
-**Personal Agenda**
+**個人アジェンダ**
 
-Can the learner add personal events to the Agenda?
+学習者がアジェンダに個人イベントを追加できるようにしますか？
 
-*Default: `true`*
+*デフォルト: `true`*
 
 ### `default_calendar_view`
 
-**Default calendar display mode**
+**デフォルトのカレンダー表示モード**
 
-Set this to dayGridMonth, basicWeek, agendaWeek or agendaDay to change the default view of the calendar.
+カレンダーのデフォルトビューを変更するために、dayGridMonth、basicWeek、agendaWeek、またはagendaDayに設定します。
 
-*Default: `month`*
+*デフォルト: `month`*
 
 ### `fullcalendar_settings`
 
-**Calendar customization**
+**カレンダーのカスタマイズ**
 
-Extra settings for the agenda, allowing you to configure the specific calendar library we use.
+アジェンダの追加設定で、使用している特定のカレンダーライブラリを構成できます。
 
 ### `personal_agenda_show_all_session_events`
 
-**Display all agenda events in personal agenda**
+**個人アジェンダにすべてのアジェンダイベントを表示する**
 
-Do not hide events from expired sessions.
+期限切れのセッションからのイベントを非表示にしない。
 
-*Default: `false`*
+*デフォルト: `false`*
 
 ### `personal_calendar_show_sessions_occupation`
 
-**Display sessions occupations in personal agenda**
+**個人アジェンダにセッションの占有状況を表示する**
 
-When enabled, session schedules and occupations are displayed in users' personal calendars.
+有効にすると、セッションのスケジュールと占有状況がユーザーの個人カレンダーに表示されます。
 
-*Default: `false`*
-
+*デフォルト: `false`*

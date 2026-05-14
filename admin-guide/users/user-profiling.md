@@ -1,75 +1,75 @@
-# User Profiling
+# ユーザープロファイリング
 
-Chamilo allows you to define custom profile fields (extra fields) to capture additional information about users beyond the standard name, email, and role.
+Chamiloでは、標準の名前、メールアドレス、役割を超えて、ユーザーに関する追加情報を収集するためにカスタムプロファイルフィールド（追加フィールド）を定義することができます。
 
-## Extra Profile Fields
+## 追加プロファイルフィールド
 
-![The extra profile fields list showing custom fields with name, type, and visibility settings](/.gitbook/assets/admin-extra-fields-list.png)
+![名前、タイプ、表示設定を持つカスタムフィールドを示す追加プロファイルフィールドリスト](/.gitbook/assets/admin-extra-fields-list.png)
 
-Extra fields let you store metadata specific to your organization, such as:
+追加フィールドを使用すると、組織特有のメタデータを保存することができます。例として以下のようなものがあります：
 
-* Employee ID
-* Department
-* Job title
-* Location/office
-* Phone number
-* Custom identifiers
+* 従業員ID
+* 部署
+* 職位
+* 所在地/オフィス
+* 電話番号
+* カスタム識別子
 
-## Creating Extra Fields
+## 追加フィールドの作成
 
-1. From the administration panel, navigate to **Extra fields** or **Profile fields**
-2. Click **Add**
-3. Configure the field:
-   * **Name** — The field title shown to users
-   * **Description** — Optional description
-   * **Helper text** — To be shown under the field in any form including it
-   * **Field type** — Text, dropdown, date, checkbox, etc.
-   * **Field label** — The internal name of the field, for plugins integration 
-   * **Possible values** — If the field is a selector between those values 
-   * **Default value** — An optional default
-   * **Visible to self** — Whether the field is visible on the user profile by the user itself
-   * **Visible to others** — Whether the field is visible to other users of the platform
-   * **Can change** — Whether the user can change its own field by himself (or whether only the admins can)
-   * **Filter** — If this is a selector-type field, whether to include it as a filter in administrative pages (e.g. to subscribe users to courses or sessions)
-   * **Order** — If you want to manage the display order of the fields, you will have to give a numerical order to each field
-   * **Remove on anonymization** — Important for privacy rules & laws: If the user is anonymized but not deleted, should this field be considered as potential holder of personally identifiable data? 
-4. Save
+1. 管理パネルから、**追加フィールド**または**プロファイルフィールド**に移動します。
+2. **追加**をクリックします。
+3. フィールドを設定します：
+   * **名前** — ユーザーに表示されるフィールドのタイトル
+   * **説明** — 任意の説明
+   * **ヘルプテキスト** — フィールドを含むフォームの下に表示されるテキスト
+   * **フィールドタイプ** — テキスト、ドロップダウン、日付、チェックボックスなど
+   * **フィールドラベル** — プラグイン統合用のフィールドの内部名
+   * **可能な値** — フィールドがこれらの値から選択するセレクターの場合
+   * **デフォルト値** — 任意のデフォルト値
+   * **自己に表示** — ユーザープロファイル上でユーザー自身にフィールドが表示されるかどうか
+   * **他者に表示** — プラットフォームの他のユーザーにフィールドが表示されるかどうか
+   * **変更可能** — ユーザーが自分でフィールドを変更できるかどうか（または管理者のみ変更可能かどうか）
+   * **フィルター** — セレクタータイプのフィールドの場合、管理ページでフィルターとして含めるかどうか（例：ユーザーをコースやセッションに登録する際）
+   * **順序** — フィールドの表示順序を管理したい場合、各フィールドに数値の順序を指定する必要があります
+   * **匿名化時に削除** — プライバシー規則と法律にとって重要：ユーザーが匿名化されるが削除されない場合、このフィールドが個人を特定可能なデータの潜在的な保持者と見なされるべきかどうか
+4. 保存します。
 
-## Field Types
+## フィールドタイプ
 
-The extra-field engine supports a broad set of input types. Common ones include:
+追加フィールドエンジンは、幅広い入力タイプをサポートしています。一般的なものは以下の通りです：
 
-| Type | Description |
+| タイプ | 説明 |
 |------|-------------|
-| **Text** | A single-line text input |
-| **Textarea** | A multi-line text input |
-| **Radio** | A single-choice radio group |
-| **Dropdown / Dropdown multiple** | A list of predefined options (single or multi-select) |
-| **Double select** | Two dependent dropdowns (e.g., country → city) |
-| **Checkbox** | A yes/no toggle |
-| **Date / Date and time** | Date or date+time picker |
-| **Integer** | A numeric input |
-| **Tag** | Multiple free-form tag values |
-| **File** | File upload field |
-| **Video URL** | A URL pointing to a video |
-| **Mobile phone number** | A formatted phone number field |
-| **Timezone** | A timezone picker |
-| **Social profile** | A link to a social network profile |
-| **Divider** | A visual separator inside the form (no value) |
+| **テキスト** | 1行のテキスト入力 |
+| **テキストエリア** | 複数行のテキスト入力 |
+| **ラジオ** | 単一選択のラジオグループ |
+| **ドロップダウン / 複数選択ドロップダウン** | 事前に定義されたオプションのリスト（単一選択または複数選択） |
+| **ダブルセレクト** | 2つの依存するドロップダウン（例：国 → 都市） |
+| **チェックボックス** | はい/いいえのトグル |
+| **日付 / 日付と時間** | 日付または日付+時間のピッカー |
+| **整数** | 数値入力 |
+| **タグ** | 複数の自由形式のタグ値 |
+| **ファイル** | ファイルアップロードフィールド |
+| **ビデオURL** | ビデオを指すURL |
+| **携帯電話番号** | フォーマットされた電話番号フィールド |
+| **タイムゾーン** | タイムゾーンピッカー |
+| **ソーシャルプロファイル** | ソーシャルネットワークプロファイルへのリンク |
+| **区切り線** | フォーム内の視覚的な区切り（値なし） |
 
-The exact set of usable types depends on the Chamilo version; the field-type dropdown in the **Extra fields** admin page is the source of truth.
+使用可能なタイプの正確なセットはChamiloのバージョンに依存します。**追加フィールド**管理ページのフィールドタイプドロップダウンが真実の情報源です。
 
-## Using Extra Fields
+## 追加フィールドの使用
 
-Extra fields appear:
+追加フィールドは以下の場所に表示されます：
 
-* In the user creation (if visible to self) and edit forms
-* On user profile pages (if visible to self)
-* In user imports (you can include extra field values in CSV imports)
-* In exports and reports (filter or group by extra field values)
+* ユーザー作成（自己に表示されている場合）および編集フォーム
+* ユーザープロファイルページ（自己に表示されている場合）
+* ユーザーインポート（CSVインポートに追加フィールドの値を含めることができます）
+* エクスポートおよびレポート（追加フィールドの値でフィルタリングまたはグループ化）
 
-## Tips
+## ヒント
 
-* **Plan before creating** — Define what information you need before creating fields, as changing field types after data has been entered can be problematic
-* **Use dropdowns for consistency** — When a field has a known set of possible values, use a dropdown instead of free text to ensure data consistency
-* **Use for reporting** — Extra fields are useful for filtering reports (e.g., "show all users in Department X who completed Training Y")
+* **作成前に計画する** — フィールドを作成する前に必要な情報を定義してください。データが入力された後にフィールドタイプを変更すると問題が生じる可能性があります。
+* **一貫性のためのドロップダウンを使用する** — フィールドに既知の可能な値のセットがある場合、データの整合性を確保するために自由テキストではなくドロップダウンを使用してください。
+* **レポートに活用する** — 追加フィールドはレポートのフィルタリングに役立ちます（例：「部署XのすべてのユーザーでトレーニングYを完了したものを表示」）。

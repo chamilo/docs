@@ -1,29 +1,29 @@
-# Portfolio
+# ポートフォリオ
 
-The portfolio tool lets learners collect and showcase their work throughout the course. It serves as a digital portfolio where learners can compile their best work, reflections, and achievements.
+ポートフォリオツールは、学生がコースを通じて自分の作品を集め、展示することを可能にします。これはデジタルポートフォリオとして機能し、学生は自分の最高の作品、振り返り、達成した成果をまとめることができます。
 
-## How Portfolios Work
+## ポートフォリオの仕組み
 
-Each learner has a personal portfolio within the course where they can:
+各学生はコース内に個人のポートフォリオを持ち、以下のことができます：
 
-* **Add items** — Write text entries with the rich-text editor and attach one or more files to each item
-* **Organize content** — Tag items so they can be filtered by topic
-* **Share selectively** — Set the visibility of each item: hidden, visible to the course, hidden except for the teacher, or shared with selected users when advanced sharing is enabled
+* **アイテムの追加** — リッチテキストエディターを使用してテキストエントリーを書き、各アイテムに1つ以上のファイルを添付する
+* **コンテンツの整理** — アイテムにタグを付けて、テーマごとにフィルタリングできるようにする
+* **選択的な共有** — 各アイテムの公開範囲を設定する：非公開、コース内で公開、教師以外には非公開、または高度な共有が有効な場合に選択したユーザーと共有
 
-## As a Teacher
+## 教師として
 
-You can use portfolios for:
+ポートフォリオを以下のように活用できます：
 
-* **Reflective learning** — Ask learners to maintain a portfolio of reflections on their learning journey
-* **Competency demonstration** — Have learners collect evidence of skills and knowledge
-* **Assessment** — Review portfolio contents as part of your evaluation
+* **リフレクティブ・ラーニング** — 学生に学習の旅についての振り返りをポートフォリオとして記録するよう求める
+* **スキルの実証** — 学生にスキルや知識の証拠を集めさせる
+* **評価** — ポートフォリオの内容を評価の一部としてレビューする
 
-To view a learner's portfolio, open the portfolio tool and filter the items list by user.
+学生のポートフォリオを表示するには、ポートフォリオツールを開き、アイテムリストをユーザーごとにフィルタリングします。
 
-If the course is configured to allow it, you can score portfolio items and individual comments — these scores can then feed into the gradebook. You can also **highlight** items you want to draw attention to, and mark items or comments as **templates** so you (or learners) can reuse them as a starting point for new entries. Portfolios can be exported as **PDF** or **ZIP**.
+コースが許可するように設定されている場合、ポートフォリオのアイテムや個々のコメントに点数を付けることができ、これらの点数は成績表に統合することができます。また、注目したいアイテムを**ハイライト**したり、アイテムやコメントを**テンプレート**としてマークして、あなた（または学生）が新しいエントリーの出発点として再利用できるようにすることも可能です。ポートフォリオは**PDF**または**ZIP**としてエクスポートできます。
 
-## Tips
+## ヒント
 
-* **Define expectations** — Tell learners what kinds of items to include and how to organize their portfolio
-* **Review regularly** — Check portfolios periodically rather than only at the end of the course
-* **Combine with skills** — Use portfolios alongside the skills/certificates system to create a comprehensive competency record
+* **期待値を設定する** — 学生にどのような種類のアイテムを含めるべきか、ポートフォリオをどのように整理すべきかを伝える
+* **定期的に確認する** — コースの最後だけでなく、定期的にポートフォリオを確認する
+* **スキルと組み合わせる** — スキル/証明書システムとポートフォリオを組み合わせて、包括的な能力の記録を作成する

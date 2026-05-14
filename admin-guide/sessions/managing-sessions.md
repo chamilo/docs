@@ -1,75 +1,75 @@
-# Managing Sessions
+# セッションの管理
 
-## Creating a Session
+## セッションの作成
 
-![The session creation form with fields for name, dates, coach, category, and visibility](/.gitbook/assets/admin-session-create-form.png)
+![セッション作成フォーム。名前、日付、コーチ、カテゴリ、表示設定のフィールドが含まれています](/.gitbook/assets/admin-session-create-form.png)
 
-1. From the administration panel, click **Create a session**
-2. Fill in the session details:
-   * **Session name** — A descriptive name (e.g., "Spring 2026 Onboarding")
-   * **Start and end dates** — When the session runs (optional — sessions can be open-ended). There are 3 sets of dates: Dates to display, dates to limit learners access and dates to limit coaches access
-   * **Session coach** — The person overseeing the entire session
-   * **Category** — Assign to a session category for organization
-   * **Visibility** — Control access and listing behavior
-3. **Add courses** — Select one or more courses to include in the session
-4. **Enroll learners** — Add individual users or classes of users
-5. **Assign course coaches** — For each course, assign a teacher (course coach)
-6. Save
+1. 管理パネルから **セッションを作成** をクリックします。
+2. セッションの詳細を入力します：
+   * **セッション名** — 説明的な名前（例：「2026年春のオンボーディング」）
+   * **開始日と終了日** — セッションの実施期間（任意 — セッションは終了日を設定せずに開放することも可能）。日付には3つのセットがあります：表示用の日付、学習者のアクセスを制限する日付、コーチのアクセスを制限する日付
+   * **セッションコーチ** — セッション全体を監督する担当者
+   * **カテゴリ** — 整理のためにセッションカテゴリに割り当て
+   * **表示設定** — アクセスと一覧表示の動作を制御
+3. **コースを追加** — セッションに含めるコースを1つ以上選択
+4. **学習者を登録** — 個々のユーザーまたはユーザーのクラスを追加
+5. **コースコーチを割り当て** — 各コースに教師（コースコーチ）を割り当て
+6. 保存
 
-## Session Dates
+## セッションの日付
 
-Sessions support flexible date configuration:
+セッションでは柔軟な日付設定が可能です：
 
-| Date | Purpose |
+| 日付 | 目的 |
 |------|---------|
-| **Display start/end** | When the session appears in learner listings |
-| **Access start/end** | When learners can actually access the session content |
-| **Coach access start/end** | When coaches can access the session (often starts before and ends after learner access) |
+| **表示開始/終了** | セッションが学習者一覧に表示される期間 |
+| **アクセス開始/終了** | 学習者がセッションコンテンツに実際にアクセスできる期間 |
+| **コーチアクセス開始/終了** | コーチがセッションにアクセスできる期間（通常、学習者のアクセス期間の前後に設定される） |
 
-This allows you to prepare the session before learners arrive and keep coach access open after the session ends for grading and reporting.
+これにより、学習者が参加する前にセッションを準備したり、セッション終了後にコーチが採点やレポートのためにアクセスを継続したりすることが可能になります。
 
-## Session List
+## セッション一覧
 
-![The session list showing all sessions with name, dates, course count, learner count, and status](/.gitbook/assets/admin-session-list.png)
+![セッション一覧。名前、日付、コース数、学習者数、ステータスを含むすべてのセッションが表示されています](/.gitbook/assets/admin-session-list.png)
 
-The session list shows all sessions with:
+セッション一覧には以下の情報が表示されます：
 
-* Session name
-* Start and end dates
-* Status (active, upcoming, past)
+* セッション名
+* 開始日と終了日
+* ステータス（アクティブ、近日開始、過去）
 
-Use search and filters to find sessions by name, date, category, or status.
+検索やフィルターを使用して、名前、日付、カテゴリ、またはステータスでセッションを検索できます。
 
-## Editing a Session
+## セッションの編集
 
-Click on a session to edit:
+セッションをクリックして編集します：
 
-* Change dates, name, or category
-* Add or remove courses
-* Change course coaches
-* Add or remove learners
-* View tracking data for the session
+* 日付、名前、またはカテゴリを変更
+* コースの追加または削除
+* コースコーチの変更
+* 学習者の追加または削除
+* セッションの追跡データを表示
 
-## Enrolling Users
+## ユーザーの登録
 
-![The session enrollment interface for adding individual users, classes, or importing via CSV](/.gitbook/assets/admin-session-enrollment.png)
+![個々のユーザー、クラスを追加、またはCSVでインポートするためのセッション登録インターフェース](/.gitbook/assets/admin-session-enrollment.png)
 
-You can enroll users in a session by:
+セッションにユーザーを登録する方法：
 
-* **Individual enrollment** — Search for and add individual users
-* **Class enrollment** — Add an entire class (group of pre-defined users) at once
-* **CSV import** — Upload a file with user-session assignments
+* **個別登録** — 個々のユーザーを検索して追加
+* **クラス登録** — クラス（事前に定義されたユーザーのグループ）を一度に追加
+* **CSVインポート** — ユーザーとセッションの割り当てを含むファイルをアップロード
 
-## Session Access
+## セッションへのアクセス
 
-Learners access their sessions through **My sessions** in the sidebar. Sessions are organized into:
+学習者はサイドバーの **マイセッション** からセッションにアクセスします。セッションは以下のように整理されています：
 
-* **Current sessions** — Currently active
-* **Past sessions** — Ended
-* **Upcoming sessions** — Not yet started
+* **現在のセッション** — 現在アクティブなセッション
+* **過去のセッション** — 終了したセッション
+* **近日開始のセッション** — まだ開始していないセッション
 
-## Tips
+## ヒント
 
-* **Plan dates carefully** — Make sure coach access dates extend beyond learner dates so coaches can set up and follow up
-* **Use classes for recurring enrollment** — If you frequently enroll the same groups, create classes and assign them to sessions
-* **Keep sessions organized** — Use categories and clear naming conventions for easy management
+* **日付を慎重に計画する** — コーチのアクセス日が学習者の日付を超えるように設定し、コーチが準備やフォローアップを行えるようにする
+* **繰り返し登録にはクラスを使用する** — 同じグループを頻繁に登録する場合は、クラスを作成してセッションに割り当てる
+* **セッションを整理する** — カテゴリと明確な命名規則を使用して管理を容易にする

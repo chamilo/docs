@@ -1,80 +1,80 @@
-# Resource System
+# リソースシステム
 
-The resource system is one of the most important architectural concepts in Chamilo 2.0. It provides a unified abstraction for all course content — documents, exercises, learning paths, forum posts, and more.
+リソースシステムは、Chamilo 2.0 における最も重要なアーキテクチャ概念の一つです。コースコンテンツ（ドキュメント、演習、学習パス、フォーラム投稿など）を統一的に抽象化する仕組みを提供します。
 
-## Core Concept
+## コアコンセプト
 
-Every piece of course content is represented by a **ResourceNode**. This gives all content types a common set of capabilities:
+コースコンテンツの各要素は **ResourceNode** によって表現されます。これにより、すべてのコンテンツタイプに共通の機能が提供されます：
 
-* **Visibility control** — Show/hide from learners
-* **Access control** — Security voters check permissions via the ResourceNode
-* **File storage** — Attached files are stored via ResourceFile
-* **Tree structure** — ResourceNodes form a tree (parent-child relationships)
-* **Audit trail** — Creator, creation date, modification tracking
+- **表示制御** — 学習者に対する表示/非表示の設定
+- **アクセス制御** — ResourceNode を通じてセキュリティ投票者が権限を確認
+- **ファイルストレージ** — 添付ファイルは ResourceFile を介して保存
+- **ツリー構造** — ResourceNode はツリー（親子関係）を形成
+- **監査証跡** — 作成者、作成日、変更履歴の追跡
 
-## Key Entities
+## 主要エンティティ
 
 ### ResourceNode (`src/CoreBundle/Entity/ResourceNode.php`)
 
-The central entity. Every content entity has a one-to-one relationship with a ResourceNode.
+中心的なエンティティです。すべてのコンテンツエンティティは ResourceNode と一対一の関係を持ちます。
 
-Key fields:
+主要フィールド：
 
-| Field | Type | Description |
+| フィールド | タイプ | 説明 |
 |-------|------|-------------|
-| `id` | integer | Primary key |
-| `uuid` | UUID v4 | Unique identifier for API use |
-| `title` | string | Display title |
-| `creator` | User | The user who created this resource |
-| `resourceFile` | ResourceFile | The attached file (if any) |
-| `resourceType` | ResourceType | The type of resource (document, quiz, etc.) |
-| `parent` | ResourceNode | Parent in the resource tree |
-| `children` | Collection | Child ResourceNodes |
-| `resourceLinks` | Collection | Visibility and access links |
+| `id` | integer | 主キー |
+| `uuid` | UUID v4 | API 使用のためのユニーク識別子 |
+| `title` | string | 表示タイトル |
+| `creator` | User | このリソースを作成したユーザー |
+| `resourceFile` | ResourceFile | 添付ファイル（存在する場合） |
+| `resourceType` | ResourceType | リソースの種類（ドキュメント、クイズなど） |
+| `parent` | ResourceNode | リソースツリー内の親 |
+| `children` | Collection | 子 ResourceNode |
+| `resourceLinks` | Collection | 表示およびアクセスリンク |
 
-The tree uses Gedmo's **materialized path** strategy for efficient hierarchical queries.
+ツリーは Gedmo の **materialized path** 戦略を使用して、効率的な階層クエリを実現しています。
 
 ### ResourceFile (`src/CoreBundle/Entity/ResourceFile.php`)
 
-Stores the actual file data for a resource:
+リソースの実際のファイルデータを保存します：
 
-| Field | Type | Description |
+| フィールド | タイプ | 説明 |
 |-------|------|-------------|
-| `id` | integer | Primary key |
-| `title` | string | Original filename |
-| `mimeType` | string | MIME type |
-| `originalName` | string | Original upload name |
-| `size` | integer | File size in bytes |
-| `crop` | string | Crop data (for images) |
+| `id` | integer | 主キー |
+| `title` | string | 元のファイル名 |
+| `mimeType` | string | MIME タイプ |
+| `originalName` | string | アップロード時の元の名前 |
+| `size` | integer | ファイルサイズ（バイト単位） |
+| `crop` | string | クロップデータ（画像用） |
 
-File storage is handled by Flysystem, so files can be on local disk, S3, Azure, or GCS depending on configuration.
+ファイルストレージは Flysystem によって処理され、設定に応じてローカルディスク、S3、Azure、または GCS に保存されます。
 
 ### ResourceLink
 
-Controls visibility and access per context. There are 3 main context types:
+コンテキストごとの表示とアクセスを制御します。主なコンテキストタイプは以下の 3 つです：
 
-1. Course
-2. Session
-3. Group (in a course)
+1. コース
+2. セッション
+3. グループ（コース内）
 
-So the ResourceLink entity reflects the combination of those 3 context types and establishes a visibility for that complete context:
+ResourceLink エンティティは、これら 3 つのコンテキストタイプの組み合わせを反映し、その完全なコンテキストに対して表示設定を確立します：
 
-| Field | Type | Description |
+| フィールド | タイプ | 説明 |
 |-------|------|-------------|
-| `course` | Course | Which course the resource belongs to |
-| `session` | Session | Which session (null for base course) |
-| `group` | CGroup | Which group (null for whole course) |
-| `visibility` | integer | Visible, invisible, or deleted |
+| `course` | Course | リソースが属するコース |
+| `session` | Session | どのセッションか（ベースコースの場合は null） |
+| `group` | CGroup | どのグループか（コース全体の場合は null） |
+| `visibility` | integer | 表示、非表示、または削除済み |
 
-This allows the same ResourceNode to have different visibility in different contexts (e.g., visible in one session but hidden in another).
+これにより、同じ ResourceNode が異なるコンテキストで異なる表示設定を持つことができます（例：あるセッションでは表示されるが別のセッションでは非表示）。
 
-This is set automatically when using the interface and deciding, for example, that a resource is a session-specific resource which will be visible for all groups in a given course in a given session, but invisible in the base course or in another session.
+これは、インターフェースを使用し、たとえばリソースがセッション固有のリソースであると決定した場合に自動的に設定されます。この場合、指定されたコース内の指定されたセッションのすべてのグループに対して表示されますが、ベースコースや別のセッションでは非表示になります。
 
-By default, resources visible in a base course are also visible in all sessions of that course, but the course tutor can decide to hide a resource from a specific session. In this case, we will retrieve the specific visibility for this resource in this session and see that it has a visibility of 0, so the item will not appear to learners in this session, while a lack of session-specific visibility in other sessions will make the resource use the visibility of the base course (and the resource will show to learners).
+デフォルトでは、ベースコースで表示可能なリソースは、そのコースのすべてのセッションでも表示されますが、コースのチューターは特定のセッションでリソースを非表示にすることを決定できます。この場合、このセッションでのこのリソースの特定の表示設定を取得し、表示設定が 0 であることを確認することで、このセッションの学習者にはアイテムが表示されないようにします。一方、他のセッションでセッション固有の表示設定がない場合、リソースはベースコースの表示設定を使用し、学習者に表示されます。
 
-## API Platform Integration
+## API Platform 統合
 
-ResourceNode is exposed as an API Platform resource with security:
+ResourceNode はセキュリティ付きの API Platform リソースとして公開されています：
 
 ```php
 #[ApiResource(
@@ -87,9 +87,9 @@ ResourceNode is exposed as an API Platform resource with security:
 )]
 ```
 
-## How Content Entities Connect
+## コンテンツエンティティの接続方法
 
-Course content entities (CDocument, CQuiz, CLp, etc.) extend `AbstractResource` or implement `ResourceInterface`, which gives them a `resourceNode` relationship:
+コースコンテンツエンティティ（CDocument、CQuiz、CLp など）は `AbstractResource` を拡張するか、`ResourceInterface` を実装することで、`resourceNode` 関係を取得します：
 
 ```php
 // In CDocument entity:
@@ -97,14 +97,14 @@ Course content entities (CDocument, CQuiz, CLp, etc.) extend `AbstractResource` 
 private ResourceNode $resourceNode;
 ```
 
-When you create a CDocument, a ResourceNode is automatically created alongside it, providing unified resource management.
+CDocument を作成すると、ResourceNode が自動的に一緒に作成され、統一されたリソース管理が提供されます。
 
-## Practical Implications
+## 実用的な影響
 
-When working with course content:
+コースコンテンツを扱う際の注意点：
 
-1. **Creating content** — Create both the content entity AND its ResourceNode
-2. **Checking permissions** — Use the ResourceNode's security voters
-3. **Managing files** — Attach files through ResourceFile
-4. **Controlling visibility** — Create/modify ResourceLinks
-5. **Building trees** — Use the parent-child relationship on ResourceNode for folder structures (e.g., document folders)
+1. **コンテンツの作成** — コンテンツエンティティとその ResourceNode の両方を作成
+2. **権限の確認** — ResourceNode のセキュリティ投票者を使用
+3. **ファイルの管理** — ResourceFile を通じてファイルを添付
+4. **表示の制御** — ResourceLink を作成/変更
+5. **ツリーの構築** — フォルダ構造（例：ドキュメントフォルダ）のために ResourceNode の親子関係を使用

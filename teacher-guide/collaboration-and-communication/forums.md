@@ -1,58 +1,58 @@
-# Forums
+# フォーラム
 
-The forum tool allows you to host structured discussions within your course. Learners can post messages, reply to each other, and engage in threaded conversations.
+フォーラムツールを使用すると、コース内で構造化されたディスカッションを開催することができます。学習者はメッセージを投稿したり、互いに返信したり、スレッド形式の会話に参加したりすることができます。
 
-## Forum Structure
+## フォーラムの構造
 
-![The forum category list showing categories, forums, and topic counts](/.gitbook/assets/forum-category-list.png)
+![フォーラムカテゴリリスト。カテゴリ、フォーラム、トピック数が表示されています](/.gitbook/assets/forum-category-list.png)
 
-Forums in Chamilo are organized in three levels:
+Chamiloのフォーラムは3つのレベルで構成されています：
 
-1. **Forum categories** — Top-level groupings (e.g., "General Discussions", "Module 1 Questions")
-2. **Forums** — Individual discussion boards within a category
-3. **Topics (threads)** — Individual discussion topics within a forum, each with a chain of replies
+1. **フォーラムカテゴリ** — 最上位のグループ（例：「一般的なディスカッション」、「モジュール1の質問」）
+2. **フォーラム** — カテゴリ内の個別の掲示板
+3. **トピック（スレッド）** — フォーラム内の個別のディスカッショントピックで、それぞれに返信の連鎖があります
 
-## Creating a Forum Category
+## フォーラムカテゴリの作成
 
-1. Open the **Forums** <img src="/.gitbook/assets/icons/mdi-comment-quote.svg" alt="Forums" data-size="line"> tool from your course homepage
-2. Click **Add a forum category**
-3. Enter a **Category name** and optional description
-4. Save
+1. コースのホームページから**フォーラム** <img src="/.gitbook/assets/icons/mdi-comment-quote.svg" alt="フォーラム" data-size="line"> ツールを開きます
+2. **フォーラムカテゴリを追加**をクリックします
+3. **カテゴリ名**と任意の説明を入力します
+4. 保存します
 
-## Creating a Forum
+## フォーラムの作成
 
-You can only add a forum once at least one category exists.
+フォーラムを追加するには、少なくとも1つのカテゴリが存在している必要があります。
 
-1. Within a category, click **Add a forum**
-2. Fill in the basic details:
-   * **Title** — The name of this discussion board
-   * **Description** — An optional description of the forum's purpose
-   * **Create in category** — The category this forum belongs to
-3. Open **Advanced settings** to configure:
-   * **Publication date** / **Closing date** — Optional time window during which the forum is open
-   * **Moderated forum** — Require new posts to be approved by a teacher before they become visible
-   * **Can learners edit their own posts?** — Allow or prevent learners from editing posts after submitting
-   * **Allow users to start new threads** — When set to No, learners can only reply to existing threads
-   * **Default view type** — Choose how posts are displayed: **Flat**, **Threaded**, or **Nested**
-   * **For Group** — Attach this forum to a course group
-   * **Public access / Private access** — For group forums, decide whether any course member can read it or only group members
-4. Save
+1. カテゴリ内で**フォーラムを追加**をクリックします
+2. 基本情報を入力します：
+   * **タイトル** — この掲示板の名前
+   * **説明** — フォーラムの目的に関する任意の説明
+   * **カテゴリ内で作成** — このフォーラムが属するカテゴリ
+3. **詳細設定**を開いて設定を行います：
+   * **公開日** / **終了日** — フォーラムが開放される任意の期間
+   * **モデレートされたフォーラム** — 新しい投稿が表示される前に教師による承認を必要とする
+   * **学習者は自分の投稿を編集できますか？** — 投稿後に学習者が投稿を編集することを許可または禁止する
+   * **ユーザーが新しいスレッドを開始することを許可する** — 「いいえ」に設定すると、学習者は既存のスレッドにのみ返信できます
+   * **デフォルトの表示タイプ** — 投稿の表示方法を選択：**フラット**、**スレッド**、または**ネスト**
+   * **グループ用** — このフォーラムをコースグループに紐づける
+   * **公開アクセス / プライベートアクセス** — グループフォーラムの場合、コースの全メンバーが読めるか、グループメンバーのみ読めるかを決定する
+4. 保存します
 
-If the course visibility is set to "Open to the world", the form also shows an **Allow anonymous posts?** option. This option is hidden in courses with restricted visibility.
+コースの公開設定が「世界に公開」に設定されている場合、フォームには**匿名投稿を許可する？**オプションも表示されます。このオプションは、公開が制限されているコースでは非表示になります。
 
-## Managing Topics
+## トピックの管理
 
-Learners (and you) can create new topics within a forum. As a teacher, you can:
+学習者（およびあなた）はフォーラム内で新しいトピックを作成できます。教師として、以下の操作が可能です：
 
-* **Pin a topic (sticky message)** — Mark a thread as sticky when you create or edit it so it always appears at the top
-* **Lock a topic** — Prevent further replies
-* **Edit or delete posts** — Moderate the discussion
-* **Move a topic** — Transfer a topic to a different forum
+* **トピックをピン留めする（固定メッセージ）** — トピックを作成または編集する際に固定としてマークすると、常に上部に表示されます
+* **トピックをロックする** — それ以上の返信を禁止する
+* **投稿を編集または削除する** — ディスカッションを管理する
+* **トピックを移動する** — トピックを別のフォーラムに移す
 
-## Forum Scoring
+## フォーラムの採点
 
-When creating a new thread as a teacher, you can enable **Grade this thread** under Advanced settings. You then set a maximum score, a column header for the gradebook, and a weight in the report. You can also enable **Thread scored by peers**, which requires each learner to qualify at least two other learners before their own score counts.
+教師として新しいスレッドを作成する際、詳細設定で**このスレッドを採点する**を有効にすることができます。その後、最大スコア、成績簿の列ヘッダー、レポートでの重みを設定します。また、**ピアによるスレッド採点**を有効にすることもでき、これにより各学習者が自分のスコアがカウントされる前に少なくとも2人の他の学習者を評価する必要があります。
 
-## Notifications
+## 通知
 
-Each forum and thread has a **Notify me** toggle that you and your learners can use to subscribe to email notifications about new posts. Notifications are a per-user subscription and are not configured when creating the forum.
+各フォーラムおよびスレッドには、**通知を受け取る**トグルがあり、あなたや学習者が新しい投稿に関するメール通知を購読するために使用できます。通知はユーザーごとの購読設定であり、フォーラム作成時に設定されるものではありません。

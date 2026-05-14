@@ -1,42 +1,41 @@
-# Attendance Settings
+# 出欠設定
 
-Defaults and behaviour of the **Attendance** tool.
+**出欠**ツールのデフォルト設定と動作について。
 
-Access these settings under **Administration > Configuration settings > Attendance**. This category contains **4 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+これらの設定には、**管理 > 設定 > 出欠**からアクセスできます。このカテゴリには**4つの設定**が含まれており、以下にプラットフォームの設定フィクスチャ（`SettingsCurrentFixtures.php`）に記載されているタイトルとコメントを記載しています。
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> コード内の変数名は等幅フォントで表示されています。APIを通じてスクリプトを作成する場合や、[`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml)を編集してこれらの設定をグローバルレベルで変更する必要がある場合に使用してください。
 
-## Settings
+## 設定
 
 ### `allow_delete_attendance`
 
-**Attendances: enable deletion**
+**出欠：削除を有効にする**
 
-The default behaviour in Chamilo is to hide attendance sheets instead of deleting them, just in case the teacher would do it by mistake. Enable this option to allow teachers to *really* delete attendance sheets.
+Chamiloのデフォルトの動作では、教師が誤って削除するのを防ぐため、出欠シートを削除するのではなく非表示にします。このオプションを有効にすると、教師が本当に出欠シートを*削除*できるようになります。
 
-*Default: `true`*
+*デフォルト：`true`*
 
 ### `attendance_allow_comments`
 
-**Allow comments in attendance sheets**
+**出欠シートでのコメントを許可する**
 
-Teachers and students can comment on each individual attendance (to justify).
+教師と生徒が個々の出欠に対してコメントを残すことができます（理由を説明するため）。
 
-*Default: `false`*
+*デフォルト：`false`*
 
 ### `enable_sign_attendance_sheet`
 
-**Attendance signing**
+**出欠の署名**
 
-Enable taking signatures to confirm one's attendance.
+出欠を確認するために署名を取る機能を有効にします。
 
-*Default: `false`*
+*デフォルト：`false`*
 
 ### `multilevel_grading`
 
-**Enable Multi-Level Attendance Grading**
+**多段階出欠評価を有効にする**
 
-Allows grading attendance with multiple levels instead of a simple present/absent system.
+単純な出席/欠席のシステムではなく、複数のレベルで出欠を評価することを可能にします。
 
-*Default: `false`*
-
+*デフォルト：`false`*

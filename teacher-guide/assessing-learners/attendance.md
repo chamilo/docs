@@ -1,66 +1,66 @@
-# Attendance
+# 出欠管理
 
-The attendance tool lets you track learner presence for scheduled class sessions, whether in-person or online.
+出欠管理ツールを使用すると、対面またはオンラインでの予定された授業セッションにおける学習者の出席状況を追跡することができます。
 
-## Creating an Attendance Sheet
+## 出欠シートの作成
 
-1. Open the **Attendance** tool from the course homepage
-2. Click **Add attendance** to create an attendance sheet
-3. Enter a **Title** for the attendance sheet (e.g., "Week 1 - Introduction")
-4. Enter a **Description** (this is mostly for your use - learners will not see the description)
-5. Save
+1. コースのホームページから**出欠管理**ツールを開きます
+2. **出欠を追加**をクリックして出欠シートを作成します
+3. 出欠シートの**タイトル**を入力します（例：「第1週 - イントロダクション」）
+4. **説明**を入力します（これは主にあなた自身のためのもので、学習者には表示されません）
+5. 保存します
 
-### Advanced settings
+### 詳細設定
 
-1. **Require unique presence** allows you to consider a learner as fully present if he/she participated even to only one date of the attendance sheet
-2. **Gradebook options** lets you decide to qualify the attendance sheet in the assessement tool (gradebook).
+1. **一意の出席を要求**を設定すると、学習者が出欠シートの1つの日付にのみ参加した場合でも、完全に出席したとみなすことができます
+2. **成績簿オプション**を使用すると、出欠シートを評価ツール（成績簿）で評価するかどうかを決定できます
 
-## Adding dates
+## 日付の追加
 
-Each attendance sheet contains one or more dates (sessions) where you record presence:
+各出欠シートには、出席を記録する1つ以上の日付（セッション）が含まれています：
 
-1. Open an attendance sheet or continue with the creation process
-2. Click **Add a date** <img src="/.gitbook/assets/icons/mdi-calendar-plus.svg" alt="Add date" data-size="line">
-3. Select the date and time
-4. Optionally, check **Repeat date** to choose a repetition logic
-5. Give a **Duration** in minutes for the event (defaults to 60 minutes)
-6. Optionally, select a **Group** if this attendance date only applies to one group of learners
-7. Save
+1. 出欠シートを開くか、作成プロセスを続けます
+2. **日付を追加**をクリックします <img src="/.gitbook/assets/icons/mdi-calendar-plus.svg" alt="日付を追加" data-size="line">
+3. 日付と時刻を選択します
+4. 必要に応じて、**日付を繰り返す**をチェックして繰り返しロジックを選択します
+5. イベントの**期間**を分単位で指定します（デフォルトは60分）
+6. 必要に応じて、この出欠日付が特定の学習者グループにのみ適用される場合は**グループ**を選択します
+7. 保存します
 
-You can add multiple dates to the same attendance sheet (e.g., all sessions for a month).
+同じ出欠シートに複数の日付を追加することができます（例：1か月分のすべてのセッション）。
 
-## Recording Attendance
+## 出欠の記録
 
-For each date, mark each learner as:
+各日付ごとに、学習者を以下のようにマークします：
 
-* **Present** — The learner attended (default value for all learners)
-* **Absent** — The learner did not attend
+* **出席** — 学習者が出席しました（すべての学習者のデフォルト値）
+* **欠席** — 学習者が出席しませんでした
 
-Click on the status cell next to each learner's name to toggle between present and absent.
+各学習者の名前の横にあるステータスセルをクリックして、出席と欠席を切り替えます。
 
-By default, all learners are marked present, as we consider that chances are you have more people present than absent.
+デフォルトでは、すべての学習者が出席としてマークされています。これは、欠席者よりも出席者の方が多い可能性が高いと考えるためです。
 
-Note: Admins can modify the portal configuration to allow you to choose more extended attendance types (late, absent with justification, etc), which can better reflect your procedures. In this case, just clicking the presence input will toggle between all the presence types.
+注意：管理者はポータルの設定を変更して、より詳細な出欠タイプ（遅刻、正当な理由のある欠席など）を選択できるようにすることができ、これにより手順をより正確に反映させることが可能です。この場合、出席入力欄をクリックするだけで、すべての出席タイプを切り替えることができます。
 
-## Viewing Attendance Reports
+## 出欠レポートの表示
 
-![The attendance sheet showing a summary table with learners, dates, and presence indicators](/.gitbook/assets/attendance-sheet.png)
+![学習者、日付、出席状況を示す概要表が表示された出欠シート](/.gitbook/assets/attendance-sheet.png)
 
-The attendance tool shows:
+出欠管理ツールでは以下が表示されます：
 
-* A summary table with all learners and all dates
-* Each learner's attendance percentage (present sessions / total sessions)
-* Color-coded indicators for easy scanning
+* すべての学習者とすべての日付を含む概要表
+* 各学習者の出席率（出席セッション数 / 総セッション数）
+* 簡単に確認できる色分けされたインジケーター
 
-## Extra
+## 追加機能
 
-Attendances have a few extended features that are not visible straight away:
-* **Signatures** can be enabled so that learners can sign their attendance in-class through a tablet handled by the teacher
-* **Comments** can be added by the teacher on each student attendance
-* **PDF reports** can be extracted to comply with regulation
+出欠管理には、すぐには見えないいくつかの拡張機能があります：
+* **署名**を有効にすることで、学習者が教師が扱うタブレットを通じて授業中に出席を署名することができます
+* **コメント**を教師が各生徒の出欠に追加することができます
+* **PDFレポート**を抽出して規制に準拠することができます
 
-## Tips
+## ヒント
 
-* **Link to course progress** — Use attendance data alongside the Course Progress tool to correlate presence with topic coverage
-* **Export data** — Export the attendance sheet for administrative records
-* **Set expectations** — If attendance is mandatory, communicate the policy clearly in your course introduction or announcements
+* **コースの進捗との連携** — 出欠データとコース進捗ツールを併用して、出席とトピックの進捗を関連付けます
+* **データのエクスポート** — 管理記録用に出欠シートをエクスポートします
+* **期待値を設定** — 出席が必須の場合、コースのイントロダクションやお知らせでポリシーを明確に伝えます

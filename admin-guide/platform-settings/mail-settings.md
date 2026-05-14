@@ -1,148 +1,137 @@
-# Mail Settings
+# メール設定
 
-How outgoing mail is built — sender identity, layout, signature, and special-purpose addresses.
+送信メールの作成方法 — 送信者の識別情報、レイアウト、署名、特別な目的のアドレス。
 
-Access these settings under **Administration > Configuration settings > Mail**. This category contains **18 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+これらの設定には、**管理 > 設定 > メール** からアクセスできます。このカテゴリには **18の設定** が含まれており、以下にプラットフォームの設定フィクスチャ (`SettingsCurrentFixtures.php`) に含まれるタイトルとコメントを記載しています。
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> コード内の変数名は等幅フォントで表示されています。APIを通じてスクリプトを作成する場合や、[`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml) を編集してこれらの設定をグローバルレベルで変更する必要がある場合に使用してください。
 
-## Settings
+## 設定
 
 ### `allow_email_editor_for_anonymous`
 
-**E-mail editor for anonymous**
+**匿名ユーザー向けメールエディタ**
 
-Allow anonymous users to send e-mails from the platform. In this day and age of information security this is not a recommended option.
+匿名ユーザーがプラットフォームからメールを送信できるようにします。情報セキュリティの観点から、現代では推奨されないオプションです。
 
-*Default: `true`*
-
+*デフォルト: `true`*
 
 ### `cron_notification_help_desk`
 
-**E-mail addresses to send cronjobs execution reports**
+**cronジョブ実行レポートを送信するメールアドレス**
 
-Given as array of e-mail addresses. Does not work for all cronjobs yet.
+メールアドレスの配列として指定します。すべてのcronジョブにはまだ対応していません。
 
 ### `mail_content_style`
 
-**Extra e-mail HTML body attributes**
+**追加のメールHTMLボディ属性**
 
-Extra HTML attributes to apply to the body tag of generated notification emails.
+生成される通知メールのbodyタグに適用する追加のHTML属性。
 
 ### `mail_header_style`
 
-**Extra e-mail HTML header attributes**
+**追加のメールHTMLヘッダー属性**
 
-Extra HTML attributes to apply to the header section of generated notification emails.
+生成される通知メールのヘッダーセクションに適用する追加のHTML属性。
 
 ### `mailer_debug_enable`
 
-**Mail: Debug**
+**メール：デバッグ**
 
-Select whether you want to enable the e-mail sending debug logs. These will give you more information on what is happening when connecting to the mail service, but are not elegant and might break page design. Only use when there is not user activity.
+メール送信のデバッグログを有効にするかどうかを選択します。これにより、メールサービスに接続する際の詳細な情報が得られますが、表示が乱雑になり、ページデザインが崩れる可能性があります。ユーザーアクティビティがない場合にのみ使用してください。
 
-*Default: `false`*
-
+*デフォルト: `false`*
 
 ### `mailer_dkim`
 
-**Mail: DKIM headers**
+**メール：DKIMヘッダー**
 
-Enter a JSON array of your DKIM configuration settings (see example).
+DKIM設定のJSON配列を入力してください（例を参照）。
 
 ### `mailer_dsn`
 
-**Mail DSN**
+**メールDSN**
 
-The DSN fully includes all parameters needed to connect to the mail service. You can learn more at https://symfony.com/doc/6.4/mailer.html#using-built-in-transports. Here are a few examples of supported DSN syntaxes: https://symfony.com/doc/6.4/mailer.html#using-a-3rd-party-transport
+DSNには、メールサービスに接続するために必要なすべてのパラメータが完全に含まれています。詳細は https://symfony.com/doc/6.4/mailer.html#using-built-in-transports を参照してください。サポートされているDSN構文の例がいくつか掲載されています：https://symfony.com/doc/6.4/mailer.html#using-a-3rd-party-transport
 
-*Default: `null://null`*
-
+*デフォルト: `null://null`*
 
 ### `mailer_exclude_json`
 
-**Mail: Avoid using LD+JSON**
+**メール：LD+JSONの使用を避ける**
 
-Some e-mail clients do not understand the descriptive LD+JSON format, showing it as a loose JSON string to the final user. If this is your case, you might want to set the variable below to 'false' to disable this header.
+一部のメールクライアントは、記述的なLD+JSON形式を理解できず、最終ユーザーにJSON文字列として表示してしまう場合があります。この場合、以下の変数を「false」に設定してこのヘッダーを無効にすることができます。
 
-*Default: `false`*
-
+*デフォルト: `false`*
 
 ### `mailer_from_email`
 
-**Send all e-mails from this e-mail address**
+**すべてのメールをこのメールアドレスから送信**
 
-Sets the default email address used in the "from" field of emails.
+メールの「送信元」フィールドに使用されるデフォルトのメールアドレスを設定します。
 
 ### `mailer_from_name`
 
-**Send all e-mails as originating from this (organizational) name**
+**すべてのメールをこの（組織）名から送信**
 
-Sets the default display name used for sending platform emails. e.g. "Support team".
+プラットフォームメールを送信する際に使用されるデフォルトの表示名を設定します。例：「サポートチーム」。
 
 ### `mailer_mails_charset`
 
-**Mail: character set**
+**メール：文字セット**
 
-In case you need to define the charset to use when sending those e-mails. Leave empty if you're not sure.
+メール送信時に使用する文字セットを定義する必要がある場合に設定します。不明な場合は空のままにしてください。
 
-*Default: `UTF-8`*
-
+*デフォルト: `UTF-8`*
 
 ### `mailer_xoauth2`
 
-**Mail: XOAuth2 options**
+**メール：XOAuth2オプション**
 
-If you use some XOAuth2-based e-mail service, use this setting in JSON to save your specific configuration (see example) and select XOAuth2 in the mail service setting.
+XOAuth2ベースのメールサービスを使用する場合、この設定をJSONで使用して特定の構成を保存し（例を参照）、メールサービス設定でXOAuth2を選択してください。
 
 ### `messages_hide_mail_content`
 
-**Hide e-mail content to bring users to platform**
+**ユーザーをプラットフォームに誘導するためにメール内容を非表示にする**
 
-Prefer short e-mail versions with a link to the messaging space on the platform to increase platform-based engagement.
+プラットフォーム上のメッセージングスペースへのリンクを含む短いバージョンのメールを優先し、プラットフォーム内でのエンゲージメントを高めます。
 
-*Default: `false`*
-
+*デフォルト: `false`*
 
 ### `notifications_extended_footer_message`
 
-**Extended notifications footer**
+**拡張通知フッター**
 
-Add a custom extra footer for notifications emails for a specific language, for example for privacy policy notices. Multiple languages and paragraphs can be added.
+プライバシーポリシー通知など、特定の言語向けに通知メールのカスタム追加フッターを追加します。複数の言語や段落を追加することができます。
 
 ### `send_notification_score_in_percentage`
 
-**Send score in percentage in test results notification**
+**テスト結果通知でスコアをパーセンテージで送信**
 
-Sends exercise scores as percentages instead of points in test result notification emails.
+テスト結果通知メールで、点数ではなくパーセンテージとして演習スコアを送信します。
 
-*Default: `false`*
-
+*デフォルト: `false`*
 
 ### `send_two_inscription_confirmation_mail`
 
-**Send 2 registration e-mails**
+**登録時に2つのメールを送信**
 
-Send two separate e-mails on registration. One for the username, another one for the password.
+登録時に2つの別々のメールを送信します。1つはユーザー名用、もう1つはパスワード用です。
 
-*Default: `false`*
-
+*デフォルト: `false`*
 
 ### `show_user_email_in_notification`
 
-**Show sender's e-mail address in notifications**
+**通知に送信者のメールアドレスを表示**
 
-Includes the sender's email address with their name in personal message and notification emails.
+個人メッセージや通知メールに送信者の名前とともにメールアドレスを含めます。
 
-*Default: `false`*
-
+*デフォルト: `false`*
 
 ### `update_users_email_to_dummy_except_admins`
 
-**Update users e-mail to dummy value during imports**
+**インポート時にユーザーのメールをダミー値に更新**
 
-During special CSV cron imports of users, automatically replace e-mails with dummy e-mail username@example.com.
+特別なCSV cronインポート時に、ユーザーのメールを自動的にダミーメール username@example.com に置き換えます。
 
-*Default: `false`*
-
-
+*デフォルト: `false`*

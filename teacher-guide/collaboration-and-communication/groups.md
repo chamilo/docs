@@ -1,53 +1,53 @@
-# Groups
+# グループ
 
-Groups allow you to divide your learners into smaller teams for collaborative work. Each group can have its own shared tools, such as documents, forums, and a wiki.
+グループ機能を使用すると、学習者を小さなチームに分けて共同作業を行うことができます。各グループには、ドキュメント、フォーラム、Wikiなどの独自の共有ツールを設定できます。
 
-## Creating Groups
+## グループの作成
 
-1. Open the **Groups** tool from the course homepage
-2. Click **Create groups**
-3. Configure the group settings:
-   * **Number of groups** — How many groups to create
-   * **Maximum members per group** — The size limit for each group (0 for unlimited)
-   * **Self-registration** — Whether learners can join groups on their own
-   * **Self-unregistration** — Whether learners can leave a group on their own
+1. コースのホームページから**グループ**ツールを開きます
+2. **グループを作成**をクリックします
+3. グループの設定を行います：
+   * **グループ数** — 作成するグループの数
+   * **グループごとの最大メンバー数** — 各グループの人数制限（0で無制限）
+   * **自己登録** — 学習者が自分でグループに参加できるかどうか
+   * **自己退会** — 学習者が自分でグループを退会できるかどうか
 
-## Group Tools
+## グループツール
 
-![The groups overview showing available group tools and member counts](/.gitbook/assets/groups-overview.png)
+![利用可能なグループツールとメンバー数を表示するグループ概要](/.gitbook/assets/groups-overview.png)
 
-Each group can have access to a subset of course tools that are shared only among group members:
+各グループは、グループメンバー間でのみ共有されるコースツールの一部にアクセスできます：
 
-* **Documents** — A shared file space for the group
-* **Forum** — A group-specific discussion forum
-* **Wiki** — A collaborative wiki for the group
-* **Chat** — A chat space for the group
-* **Agenda** — Group-scoped calendar events
-* **Announcements** — Send announcements to group members only
-* **Assignments** — Collect work from the group
+* **ドキュメント** — グループ用の共有ファイルスペース
+* **フォーラム** — グループ専用のディスカッションフォーラム
+* **Wiki** — グループ用の共同編集Wiki
+* **チャット** — グループ用のチャットスペース
+* **アジェンダ** — グループ限定のカレンダーイベント
+* **お知らせ** — グループメンバーにのみお知らせを送信
+* **課題** — グループから提出物を収集
 
-For each tool you can choose its access level: **Not available**, **Public** (any course member), or **Private** (group members only). These settings can be applied at the group category level, so multiple groups in the same category share the same tool configuration.
+各ツールのアクセスレベルを選択できます：**利用不可**、**公開**（コースメンバー全員）、または**非公開**（グループメンバーのみ）。これらの設定はグループカテゴリレベルで適用でき、同じカテゴリ内の複数のグループが同じツール構成を共有します。
 
-## Managing Group Members
+## グループメンバーの管理
 
-You can manage group membership in several ways:
+グループメンバーの管理は以下の方法で行えます：
 
-* **Manual assignment** — Add specific learners to each group
-* **Fill selected groups** — Automatically distribute unsubscribed learners across the selected groups, respecting each group's capacity and the per-user group limit
-* **Self-registration** — Allow learners to choose their own group
-* **Import from classes** — Auto-create groups from the classes already enrolled in the course
+* **手動割り当て** — 特定の学習者を各グループに追加
+* **選択したグループを埋める** — 未登録の学習者を選択したグループに自動的に分配し、各グループの定員とユーザーごとのグループ制限を尊重
+* **自己登録** — 学習者が自分でグループを選択できるようにする
+* **クラスからのインポート** — コースにすでに登録されているクラスからグループを自動作成
 
-To manually manage members, click on a group name, then use the **Members** section to add or remove learners.
+メンバーを手動で管理するには、グループ名をクリックし、**メンバー**セクションを使用して学習者を追加または削除します。
 
-## Group Tutors
+## グループチューター
 
-You can assign **tutors** to groups. A tutor is typically a learner or assistant who helps manage the group's work. Tutors may have additional permissions within the group, such as moderating the group forum.
+グループに**チューター**を割り当てることができます。チューターは通常、グループの作業を管理する手助けをする学習者またはアシスタントです。チューターには、グループフォーラムのモデレーションなど、グループ内での追加の権限が与えられる場合があります。
 
-## Monitoring Group Work
+## グループ作業の監視
 
-As the course teacher, you can access all groups and their shared tools regardless of membership. This allows you to:
+コースの教師として、メンバーシップに関係なくすべてのグループとその共有ツールにアクセスできます。これにより、以下のことが可能です：
 
-* Review documents uploaded by each group
-* Read group forum discussions
-* Check wiki contributions
-* Assess group collaboration
+* 各グループがアップロードしたドキュメントを確認
+* グループフォーラムのディスカッションを読む
+* Wikiへの貢献を確認
+* グループのコラボレーションを評価

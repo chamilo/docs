@@ -1,7 +1,7 @@
-# Courses
+# コース
 
-This section covers course management from an administrator perspective: overseeing the course catalog, managing categories, and handling imports and exports.
+このセクションでは、管理者視点からのコース管理について説明します：コースカタログの監督、カテゴリの管理、インポートおよびエクスポートの処理。
 
-* **[Managing Courses](managing-courses.md)** — View, create, edit, and delete courses
-* **[Course Categories](course-categories.md)** — Organize the course catalog with categories
-* **[Course Import and Export](course-import-export.md)** — Import and export courses between platforms
+* **[コースの管理](managing-courses.md)** — コースの表示、作成、編集、削除
+* **[コースカテゴリ](course-categories.md)** — カテゴリを使用してコースカタログを整理
+* **[コースのインポートとエクスポート](course-import-export.md)** — プラットフォーム間でのコースのインポートとエクスポート

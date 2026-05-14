@@ -1,71 +1,71 @@
-# Controllers
+# コントローラー
 
-Chamilo 2.0 uses a large number of controllers (in the order of dozens) organized across the bundles. The exact count drifts version to version — treat the names below as illustrative, not exhaustive.
+Chamilo 2.0では、バンドル全体にわたって多数のコントローラー（数十のオーダー）が使用されています。正確な数はバージョンによって変動します。以下の名前は例示的なものであり、網羅的なものではありません。
 
-## Controller Types
+## コントローラーの種類
 
-### Admin Controllers
+### 管理者コントローラー
 
-Located in `src/CoreBundle/Controller/Admin/`. Handle platform administration:
+`src/CoreBundle/Controller/Admin/` に配置されています。プラットフォームの管理を処理します：
 
-* `AdminController` — Dashboard, file info, email testing
-* `UserListController` — User CRUD
-* `CourseListController` — Course management
-* `SessionAdminController` — Session management
-* `SettingsController` — Platform settings
-* `SecurityController` — Login attempts, IDS events
-* `PluginsController` — Plugin management
-* `RoomController` — Room management
+* `AdminController` — ダッシュボード、ファイル情報、メールテスト
+* `UserListController` — ユーザーのCRUD操作
+* `CourseListController` — コース管理
+* `SessionAdminController` — セッション管理
+* `SettingsController` — プラットフォーム設定
+* `SecurityController` — ログイン試行、IDSイベント
+* `PluginsController` — プラグイン管理
+* `RoomController` — ルーム管理
 
-### API Action Controllers
+### APIアクションコントローラー
 
-Custom API Platform actions in `src/CoreBundle/Controller/Api/`:
+`src/CoreBundle/Controller/Api/` にあるカスタムAPI Platformアクション：
 
-These extend API Platform's built-in CRUD with custom business logic. Examples:
+これらはAPI Platformの組み込みCRUDをカスタムビジネスロジックで拡張します。例：
 
-* `CreateDocumentFileAction` — File upload for documents
-* `CreateStudentPublicationFileAction` — Assignment submission upload
-* `UpdateVisibilityDocument` — Toggle document visibility
-* `ExportCGlossaryAction` — Export glossary
-* `MoveDocumentAction` — Move a document to a different folder
+* `CreateDocumentFileAction` — ドキュメント用のファイルアップロード
+* `CreateStudentPublicationFileAction` — 課題提出のアップロード
+* `UpdateVisibilityDocument` — ドキュメントの可視性切り替え
+* `ExportCGlossaryAction` — 用語集のエクスポート
+* `MoveDocumentAction` — ドキュメントを別のフォルダに移動
 
-For read/write operations that don't need a dedicated HTTP controller — i.e. when you only want to change *how* an item or collection is fetched or persisted — prefer a **State Provider** or **State Processor** (see below). API Action Controllers are best reserved for endpoints that genuinely need request-level logic (file uploads, custom response formats, multi-step flows).
+専用のHTTPコントローラーが不要な読み書き操作、つまりアイテムやコレクションの取得や保存方法を変更するだけの場合は、**State Provider** または **State Processor** を優先してください（以下参照）。APIアクションコントローラーは、リクエストレベルのロジック（ファイルアップロード、カスタムレスポンス形式、複数ステップのフロー）が必要なエンドポイントに最適です。
 
-### AI Controller
+### AIコントローラー
 
-`src/CoreBundle/Controller/AiController.php` is the entry point for AI-related endpoints (Aiken question generation, learning-path generation, image/video generation, open-answer grading, document analysis…). The exact set of routes evolves quickly — read the controller's `#[Route]` attributes for the current list rather than relying on a copy here.
+`src/CoreBundle/Controller/AiController.php` は、AI関連のエンドポイント（Aiken形式の質問生成、ラーニングパスの生成、画像/動画生成、自由回答の採点、ドキュメント分析など）のエントリーポイントです。ルートの正確なセットは急速に進化します。ここにコピーを頼るのではなく、コントローラーの `#[Route]` 属性を参照して最新のリストを確認してください。
 
-### Chat Controller
+### チャットコントローラー
 
-`src/CoreBundle/Controller/ChatController.php` handles real-time chat and AI tutor:
+`src/CoreBundle/Controller/ChatController.php` は、リアルタイムチャットとAIチューターを処理します：
 
-* User-to-user messaging
-* AI tutor chat (docked chat panel)
-* Message history and polling
+* ユーザー間メッセージング
+* AIチューターチャット（ドッキングされたチャットパネル）
+* メッセージ履歴とポーリング
 
-## API Platform State Providers & Processors
+## API PlatformのState ProviderとProcessor
 
-Not every API endpoint is backed by a controller. API Platform 3 splits the work between two interfaces:
+すべてのAPIエンドポイントがコントローラーに裏打ちされているわけではありません。API Platform 3では、作業が2つのインターフェースに分割されています：
 
-* **State Providers** (`ApiPlatform\State\ProviderInterface`) — return data for `GET` operations (a single item or a collection).
-* **State Processors** (`ApiPlatform\State\ProcessorInterface`) — handle writes for `POST`, `PUT`, `PATCH`, and `DELETE` operations.
+* **State Providers** (`ApiPlatform\State\ProviderInterface`) — `GET` 操作（単一アイテムまたはコレクション）のデータを返します。
+* **State Processors** (`ApiPlatform\State\ProcessorInterface`) — `POST`、`PUT`、`PATCH`、`DELETE` 操作の書き込みを処理します。
 
-Chamilo's implementations live in `src/CoreBundle/State/` (around 35+ classes). They are wired to entities via the `provider:` and `processor:` arguments of `#[ApiResource]` operations rather than via routes.
+Chamiloの実装は `src/CoreBundle/State/` に存在し（約35以上のクラス）、ルートではなく `#[ApiResource]` 操作の `provider:` および `processor:` 引数を介してエンティティに結び付けられています。
 
-### When to use them
+### 使用するタイミング
 
-Reach for a provider/processor — instead of an API Action Controller — when:
+以下の場合に、APIアクションコントローラーの代わりにプロバイダー/プロセッサーを使用してください：
 
-* The endpoint follows the standard REST shape (list / read / create / update / delete) but needs custom data assembly or persistence logic.
-* You need to filter, denormalize, or enrich the result of a collection or item read (e.g. respecting the current Access URL, course context, or visibility rules).
-* You need to run side effects on write (audit logs, file generation, related-entity updates) while keeping API Platform's normalization, validation, and pagination pipeline.
-* You want to keep the operation discoverable in the OpenAPI / Hydra schema without registering a custom route.
+* エンドポイントが標準的なREST形状（リスト/読み取り/作成/更新/削除）に従うが、カスタムデータ組み立てや永続化ロジックが必要な場合。
+* コレクションやアイテムの読み取り結果をフィルタリング、正規化、または充実させる必要がある場合（例：現在のアクセスURL、コースコンテキスト、または可視性ルールを尊重する）。
+* 書き込み時に副作用（監査ログ、ファイル生成、関連エンティティの更新）を実行する必要があるが、API Platformの正規化、検証、ページネーションパイプラインを維持したい場合。
+* カスタムルートを登録せずに、操作をOpenAPI / Hydraスキーマで発見可能に保ちたい場合。
 
-If the endpoint instead needs raw `Request` access, returns a non-resource payload (file download, CSV, redirect), or orchestrates a multi-step flow, an API Action Controller in `src/CoreBundle/Controller/Api/` is a better fit.
+一方で、エンドポイントが生の `Request` アクセスを必要とする、非リソースペイロード（ファイルダウンロード、CSV、リダイレクト）を返す、または複数ステップのフローを調整する場合、`src/CoreBundle/Controller/Api/` にあるAPIアクションコントローラーがより適しています。
 
-### Wiring on the entity
+### エンティティへの結び付け
 
-Reference the class on the operation:
+操作上でクラスを参照します：
 
 ```php
 #[ApiResource(
@@ -77,9 +77,9 @@ Reference the class on the operation:
 class ColorTheme { ... }
 ```
 
-### Provider example
+### プロバイダーの例
 
-`src/CoreBundle/State/DocumentProvider.php` resolves a `CDocument` by URI variable and throws `NotFoundHttpException` when missing:
+`src/CoreBundle/State/DocumentProvider.php` はURI変数によって `CDocument` を解決し、見つからない場合は `NotFoundHttpException` をスローします：
 
 ```php
 final class DocumentProvider implements ProviderInterface
@@ -99,9 +99,9 @@ final class DocumentProvider implements ProviderInterface
 }
 ```
 
-### Processor example
+### プロセッサの例
 
-`src/CoreBundle/State/ColorThemeStateProcessor.php` delegates to the default Doctrine `persistProcessor`, then runs side effects (generates a CSS file on the themes Flysystem filesystem, links the theme to the current Access URL):
+`src/CoreBundle/State/ColorThemeStateProcessor.php` はデフォルトの Doctrine `persistProcessor` に処理を委譲し、その後で副作用を実行します（テーマの Flysystem ファイルシステム上に CSS ファイルを生成し、テーマを現在のアクセス URL にリンクします）：
 
 ```php
 final readonly class ColorThemeStateProcessor implements ProcessorInterface
@@ -127,16 +127,16 @@ final readonly class ColorThemeStateProcessor implements ProcessorInterface
 }
 ```
 
-### Patterns to know
+### 知っておくべきパターン
 
-* **Compose with the default processor.** Decorate `ProcessorInterface $persistProcessor` (Doctrine's built-in) so Chamilo-specific logic runs *around* the standard persist, not instead of it.
-* **Collection providers do their own pagination.** When a collection provider builds a custom query, it must respect `?page`, `?itemsPerPage`, and search filters — API Platform's automatic paginator only kicks in for the default Doctrine collection provider.
-* **One class per resource + operation kind is common**, but a provider can serve several operations (see `UsergroupStateProvider`, reused across four operations on `Usergroup`).
-* **Naming convention**: `<Entity>StateProvider` / `<Entity>StateProcessor` for resource-wide handlers; `<Entity><Action>Processor` (e.g. `CBlogAssignAuthorProcessor`, `CStudentPublicationDeleteProcessor`) for narrower operations.
+* **デフォルトプロセッサとの連携**：`ProcessorInterface $persistProcessor`（Doctrine の組み込み）をデコレートすることで、Chamilo 固有のロジックが標準の永続化処理の「周囲」で実行されるようにし、標準処理を置き換えるのではなく連携します。
+* **コレクションプロバイダは独自のページネーションを行う**：コレクションプロバイダがカスタムクエリを構築する場合、`?page`、`?itemsPerPage`、および検索フィルタを尊重する必要があります。API Platform の自動ページネーターはデフォルトの Doctrine コレクションプロバイダでのみ機能します。
+* **リソース＋操作種別ごとに1つのクラスが一般的**：ただし、プロバイダは複数の操作を提供することも可能です（`UsergroupStateProvider` を参照。これは `Usergroup` に対する4つの操作で再利用されています）。
+* **命名規則**：リソース全体のハンドラには `<Entity>StateProvider` / `<Entity>StateProcessor` を使用し、特定の操作には `<Entity><Action>Processor`（例：`CBlogAssignAuthorProcessor`、`CStudentPublicationDeleteProcessor`）を使用します。
 
-## Routing
+## ルーティング
 
-Controllers use **PHP 8 attributes** for route definitions:
+コントローラはルート定義に **PHP 8 の属性** を使用します：
 
 ```php
 #[Route('/admin/user-list')]
@@ -147,12 +147,12 @@ class UserListController extends AbstractController
 }
 ```
 
-API Platform resources use `#[ApiResource]` attributes on entities, with custom operations pointing to controller actions.
+API Platform のリソースはエンティティに `#[ApiResource]` 属性を使用し、カスタム操作はコントローラのアクションを指します。
 
-## Traits
+## トレイト
 
-Controllers use shared traits for common functionality:
+コントローラは共通の機能のために共有トレイトを使用します：
 
-* `ControllerTrait` — Access to settings, serializer, and common services
-* `CourseControllerTrait` — Course context helpers
-* `ResourceControllerTrait` — Resource node operations
+* `ControllerTrait` — 設定、シリアライザ、および共通サービスへのアクセス
+* `CourseControllerTrait` — コースコンテキストのヘルパー
+* `ResourceControllerTrait` — リソースノードの操作

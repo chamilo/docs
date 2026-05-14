@@ -1,61 +1,61 @@
-# Symfony Architecture
+# Symfonyアーキテクチャ
 
-## Bundles
+## バンドル
 
-Chamilo 2.0 is structured into three Symfony bundles:
+Chamilo 2.0は、3つのSymfonyバンドルで構成されています：
 
 ### CoreBundle (`src/CoreBundle/`)
 
-The largest bundle, handling all platform-wide concerns:
+最大のバンドルで、プラットフォーム全体に関するすべての事項を扱います：
 
-* **Users and authentication** — User entity, roles, JWT tokens, OAuth2 providers
-* **Resource system** — ResourceNode and ResourceFile (the unified content abstraction)
-* **Platform settings** — settings schemas in `src/CoreBundle/Settings/` covering every configurable aspect
-* **Administration** — Admin controllers for user, course, session, and plugin management
-* **AI providers** — Factory pattern for OpenAI, Gemini, Mistral, DeepSeek, Grok
-* **File storage** — Flysystem-based storage adapters (local, S3, Azure, GCS)
-* **Security** — Voters, access control, role hierarchy
-* **Tools** — course tool definitions registered through the tool system
+- **ユーザーと認証** — ユーザーエンティティ、ロール、JWTトークン、OAuth2プロバイダ
+- **リソースシステム** — ResourceNodeおよびResourceFile（統一されたコンテンツ抽象化）
+- **プラットフォーム設定** — `src/CoreBundle/Settings/`にある設定スキーマで、すべての設定可能な側面をカバー
+- **管理** — ユーザー、コース、セッション、プラグイン管理のための管理者コントローラ
+- **AIプロバイダ** — OpenAI、Gemini、Mistral、DeepSeek、Grokのためのファクトリーパターン
+- **ファイルストレージ** — Flysystemベースのストレージアダプター（ローカル、S3、Azure、GCS）
+- **セキュリティ** — 投票者、アクセス制御、ロール階層
+- **ツール** — ツールシステムを通じて登録されるコースツール定義
 
 ### CourseBundle (`src/CourseBundle/`)
 
-Everything specific to course content:
+コースコンテンツに特化したすべての内容：
 
-* **Content entities** — 101 entities for documents, exercises, learning paths, forums, glossaries, surveys, attendance, blogs, assignments, and more
-* **Course copy** — Import/export with Common Cartridge 1.3 and Moodle format support
-* **Course settings** — Course-level setting schemas
+- **コンテンツエンティティ** — ドキュメント、演習、学習パス、フォーラム、用語集、アンケート、出席、ブログ、課題などに関する101のエンティティ
+- **コースコピー** — Common Cartridge 1.3およびMoodle形式のサポートを伴うインポート/エクスポート
+- **コース設定** — コースレベルの設定スキーマ
 
 ### LtiBundle (`src/LtiBundle/`)
 
-LTI 1.3 standard implementation:
+LTI 1.3標準の実装：
 
-* **Platform and tool registration** — Manage external tool connections
-* **Launch handling** — LTI launch flow controllers
-* **Grade passback** — Return grades from external tools to Chamilo
+- **プラットフォームおよびツール登録** — 外部ツール接続の管理
+- **起動処理** — LTI起動フローコントローラ
+- **成績返却** — 外部ツールからChamiloへの成績返却
 
-## Service Container
+## サービスコンテナ
 
-Chamilo uses Symfony's dependency injection container. Services are configured in:
+ChamiloはSymfonyの依存性注入コンテナを使用しています。サービスは以下で設定されています：
 
-* `config/services.yaml` — Global service definitions
-* Each bundle's `DependencyInjection/` directory — Bundle-specific services
+- `config/services.yaml` — グローバルサービス定義
+- 各バンドルの`DependencyInjection/`ディレクトリ — バンドル固有のサービス
 
-## Security Architecture
+## セキュリティアーキテクチャ
 
-The security system is configured in `config/packages/security.yaml`:
+セキュリティシステムは`config/packages/security.yaml`で設定されています：
 
-* **Password hashing** — Supports bcrypt (default), with migration from legacy SHA1 and MD5
-* **Role hierarchy** — 18 roles organized hierarchically (ROLE_GLOBAL_ADMIN > ROLE_ADMIN > ROLE_TEACHER > ROLE_STUDENT > ROLE_USER; additional roles include ROLE_HR, ROLE_INVITEE, ROLE_STUDENT_BOSS, ROLE_SESSION_MANAGER, ROLE_QUESTION_MANAGER)
-* **Context-sensitive roles** — Course-level roles (ROLE_CURRENT_COURSE_TEACHER, ROLE_CURRENT_COURSE_STUDENT) are computed per-request based on enrollment
-* **Firewall** — JWT authentication for API, session-based for web interface
-* **Voters** — Resource-level access control through Symfony voters
+- **パスワードハッシュ** — bcrypt（デフォルト）をサポートし、従来のSHA1およびMD5からの移行も可能
+- **ロール階層** — 18のロールが階層的に組織化（ROLE_GLOBAL_ADMIN > ROLE_ADMIN > ROLE_TEACHER > ROLE_STUDENT > ROLE_USER; 追加のロールにはROLE_HR、ROLE_INVITEE、ROLE_STUDENT_BOSS、ROLE_SESSION_MANAGER、ROLE_QUESTION_MANAGERが含まれる）
+- **コンテキスト依存のロール** — コースレベルのロール（ROLE_CURRENT_COURSE_TEACHER、ROLE_CURRENT_COURSE_STUDENT）は、登録に基づいてリクエストごとに計算される
+- **ファイアウォール** — API用のJWT認証、ウェブインターフェース用のセッションベース
+- **投票者** — Symfony投票者を通じたリソースレベルのアクセス制御
 
-## Legacy Code
+## レガシーコード
 
-Some features still use legacy PHP code in `public/main/`:
+一部の機能は依然として`public/main/`内のレガシーPHPコードを使用しています：
 
-* Exercise rendering and interaction
-* Learning path player
-* Some admin tools
+- 演習のレンダリングとインタラクション
+- 学習パスプレイヤー
+- 一部の管理ツール
 
-These are progressively being migrated to the Symfony+Vue architecture. Legacy pages are served through a compatibility layer that bootstraps the Symfony kernel.
+これらは徐々にSymfony+Vueアーキテクチャに移行されています。レガシーページは、Symfonyカーネルをブートストラップする互換性レイヤーを通じて提供されています。

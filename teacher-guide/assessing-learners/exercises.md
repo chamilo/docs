@@ -1,164 +1,165 @@
-# Exercises
+# 演習
 
-The exercises tool (also called "tests") lets you create quizzes and exams with automatic grading. Chamilo supports a wide variety of question types, from simple multiple choice to interactive hotspot questions.
+演習ツール（「テスト」とも呼ばれる）は、自動採点付きのクイズや試験を作成できる機能です。Chamiloでは、単純な多肢選択問題からインタラクティブなホットスポット問題まで、さまざまな種類の問題をサポートしています。
 
-## Creating an Exercise
+## 演習の作成
 
-1. Open the **Exercises** <img src="/.gitbook/assets/icons/mdi-order-bool-ascending-variant.svg" alt="Exercises" data-size="line"> tool from the course homepage
-2. Click **New exercise**
-3. Enter a **title** and optional **description**
-4. Configure the exercise settings (see below)
-5. Save, then add questions
+1. コースのホームページから**演習** <img src="/.gitbook/assets/icons/mdi-order-bool-ascending-variant.svg" alt="演習" data-size="line"> ツールを開く
+2. **新しい演習**をクリック
+3. **タイトル**と任意の**説明**を入力
+4. 演習の設定を構成（以下参照）
+5. 保存し、問題を追加
 
-## Exercise Settings
+## 演習の設定
 
-![The exercise settings panel with options for display, time, attempts, and feedback](/.gitbook/assets/exercise-settings.png)
+![表示、時間、試行回数、フィードバックのオプションが含まれる演習設定パネル](/.gitbook/assets/exercise-settings.png)
 
-### Display and Navigation
+### 表示とナビゲーション
 
-| Setting | Options | Description |
+| 設定 | オプション | 説明 |
 |---------|---------|-------------|
-| **Question layout** | All on one page / One per page | Show all questions at once or one at a time |
-| **Hide question titles** | Yes / No | Whether to show question titles to learners |
-| **Show previous button** | Yes / No | Allow learners to go back to previous questions |
-| **Prevent backwards navigation** | Yes / No | Force learners to answer in order without going back |
+| **問題のレイアウト** | すべて1ページに表示 / 1ページに1問 | すべての問題を一度に表示するか、1問ずつ表示するか |
+| **問題タイトルの非表示** | はい / いいえ | 学習者に問題のタイトルを表示するかどうか |
+| **前のボタンを表示** | はい / いいえ | 学習者が前の問題に戻ることを許可するかどうか |
+| **逆方向ナビゲーションの防止** | はい / いいえ | 学習者が順番に回答し、戻ることを禁止するかどうか |
 
-### Time and Availability
+### 時間と利用可能性
 
-| Setting | Description |
+| 設定 | 説明 |
 |---------|-------------|
-| **Time limit** | Maximum time (in minutes) to complete the exercise. A countdown timer is shown to the learner |
-| **Start date** | When the exercise becomes available to learners |
-| **End date** | When the exercise stops being available |
+| **時間制限** | 演習を完了するための最大時間（分単位）。学習者にカウントダウンタイマーが表示されます |
+| **開始日** | 演習が学習者に利用可能になる日時 |
+| **終了日** | 演習が利用できなくなる日時 |
 
-### Attempts and Scoring
+### 試行回数と採点
 
-| Setting | Description |
+| 設定 | 説明 |
 |---------|-------------|
-| **Maximum attempts** | How many times a learner can take the exercise (0 = unlimited) |
-| **Pass percentage** | The minimum score to pass (e.g., 70%). Learners who do not reach this threshold see a failure message |
-| **Propagate negative scoring** | Whether negative points on individual questions reduce the total score below zero |
+| **最大試行回数** | 学習者が演習を受けられる回数（0 = 無制限） |
+| **合格基準** | 合格するための最低スコア（例：70%）。この基準に達しない学習者には不合格メッセージが表示されます |
+| **マイナス点の伝播** | 個々の問題でのマイナス点が合計スコアをゼロ以下に減らすかどうか |
 
-### Feedback
+### フィードバック
 
-| Setting | Options |
+| 設定 | オプション |
 |---------|---------|
-| **At the end** | Show results and correct answers after the learner submits |
-| **Immediate** | Show feedback after each question (useful for learning exercises) |
-| **Exam mode** | Do not show any feedback or results |
+| **終了時** | 学習者が提出後に結果と正解を表示 |
+| **即時** | 各問題後にフィードバックを表示（学習用演習に便利） |
+| **試験モード** | フィードバックや結果を一切表示しない |
 
-### Results Display
+### 結果の表示
 
-Control what learners see after completing the exercise:
+演習完了後に学習者が見る内容を制御します：
 
-* Show score and expected answers
-* Show score only
-* Show score with category breakdown
-* Show ranking among other learners
-* Show only on last attempt
-* Show radar chart visualization
+* スコアと期待される回答を表示
+* スコアのみを表示
+* カテゴリ別の内訳付きでスコアを表示
+* 他の学習者とのランキングを表示
+* 最後の試行時のみ表示
+* レーダーチャートの可視化を表示
 
-### Completion Messages
+### 完了メッセージ
 
-* **Success message** — Custom text shown when the learner passes
-* **Failure message** — Custom text shown when the learner does not reach the pass percentage
+* **成功メッセージ** — 学習者が合格した際に表示されるカスタムテキスト
+* **不合格メッセージ** — 学習者が合格基準に達しなかった際に表示されるカスタムテキスト
 
-### Question Randomization
+### 問題のランダム化
 
-| Setting | Description |
+| 設定 | 説明 |
 |---------|-------------|
-| **Random question order** | Shuffle the order of questions for each attempt |
-| **Random answers** | Shuffle answer options within each question |
-| **Random by category** | Select random questions from each question category |
+| **問題の順序をランダム化** | 試行ごとに問題の順序をシャッフルする |
+| **回答をランダム化** | 各問題内の回答オプションをシャッフルする |
+| **カテゴリ別ランダム化** | 各問題カテゴリからランダムに問題を選択する |
 
-You can also configure advanced selection strategies that combine categories and randomization.
+カテゴリとランダム化を組み合わせた高度な選択戦略も設定可能です。
 
-## Question Types
+## 問題の種類
 
-![Overview of available question types in the exercise creation interface](/.gitbook/assets/exercise-question-types.png)
+![演習作成インターフェースで利用可能な問題タイプの概要](/.gitbook/assets/exercise-question-types.png)
 
-Chamilo offers a rich set of question types organized into several categories:
+Chamiloでは、複数のカテゴリに分類された豊富な問題タイプを提供しています：
 
-### Single Choice
+### 単一選択
 
-* **Multiple choice (single answer)** — Learner selects one correct answer from a list of options
-* **Single answer with images** — Same as above, but answer options are displayed as images
+* **多肢選択（単一回答）** — 学習者がオプションのリストから1つの正解を選択
+* **画像付き単一回答** — 上記と同じだが、回答オプションが画像として表示される
 
-### Multiple Choice
+### 複数選択
 
-* **Multiple answer** — Learner selects one or more correct answers
-* **Multiple answer (dropdown)** — Answer options are presented as dropdown menus
-* **True/False** — A series of statements that the learner marks as true or false
-* **True/False with degree of certainty** — True/false with an additional confidence level, enabling more nuanced scoring
+* **複数回答** — 学習者が1つ以上の正解を選択
+* **複数回答（ドロップダウン）** — 回答オプションがドロップダウンメニューとして表示される
+* **真偽問題** — 学習者が真または偽としてマークする一連の陳述
+* **確信度付き真偽問題** — 真偽問題に追加の確信度レベルを加え、より細かい採点が可能
 
-### Fill in the Blanks
+### 空欄補充
 
-* **Fill in the blanks** — Learner completes missing words in a text. You define the blanks and accepted answers when creating the question.
+* **空欄補充** — 学習者がテキスト内の欠けている単語を補充。問題作成時に空欄と受け入れ可能な回答を定義します。
 
-### Matching
+### マッチング
 
-* **Matching** — Learner connects items from two columns
-* **Matching (draggable)** — Same concept, but with a drag-and-drop interface
-* **Draggable** — Drag items into the correct positions
+* **マッチング** — 学習者が2つの列のアイテムを結びつける
+* **マッチング（ドラッグ可能）** — 同じ概念だが、ドラッグ＆ドロップインターフェースを使用
+* **ドラッグ可能** — アイテムを正しい位置にドラッグする
 
-### Open-Ended
+### 自由記述
 
-* **Free answer (essay)** — Learner writes a text response. Requires manual grading (or AI-assisted grading if configured)
-* **Oral expression** — Learner records an audio response using their microphone
-* **Upload answer** — Learner uploads a file as their answer
+* **自由回答（エッセイ）** — 学習者がテキストで回答を記述。手動採点が必要（設定済みの場合、AI支援採点も可能）
+* **口頭表現** — 学習者がマイクを使用して音声回答を録音
+* **回答のアップロード** — 学習者がファイルとして回答をアップロード
 
-### Hotspot
+### ホットスポット
 
-* **Hotspot** — Learner clicks on specific areas of an image to answer
-* **Hotspot delineation** — Learner draws boundaries around areas on an image
+* **ホットスポット** — 学習者が画像の特定の領域をクリックして回答
+* **ホットスポット境界線** — 学習者が画像上の領域に境界線を描く
 
-### Calculated
+### 計算問題
 
-* **Calculated answer** — Numerical questions with a formula and tolerance range. Useful for math and science courses.
+* **計算回答** — 数式と許容範囲を持つ数値問題。数学や科学のコースに便利です。
 
-### Special
+---
+### 特別な形式
 
-* **Reading comprehension** — Tests based on reading a passage
-* **Annotation** — Teacher uploads an image and the learner annotates it
-* **Answer in Office document** — When the OnlyOffice plugin is enabled, the learner answers the question by editing an embedded Office document (Word, Excel, PowerPoint). Their response is saved as a separate file under the exercise so it can be reviewed alongside the rest of their attempt.
+* **読解問題** — 文章を読んで答えるテスト
+* **注釈** — 教師が画像をアップロードし、学習者がそれに注釈を付ける
+* **Officeドキュメントでの回答** — OnlyOfficeプラグインが有効になっている場合、学習者は埋め込まれたOfficeドキュメント（Word、Excel、PowerPoint）を編集して質問に回答します。回答は演習の下に個別のファイルとして保存され、他の試行結果と一緒にレビューすることができます。
 
-## Adding Questions to an Exercise
+## 演習に質問を追加する
 
-1. Open the exercise and click **Add a question**
-2. Select the question type
-3. Enter the **question text** (supports rich text with images and formatting)
-4. Define the **answers** and their scoring:
-   * For each answer option, specify whether it is correct and how many points it is worth
-   * You can assign negative points to wrong answers to discourage guessing
-5. Optionally add **feedback** — explanations shown to the learner after answering
-6. Set the **difficulty level** and **category** (useful for random selection and reporting)
-7. Save
+1. 演習を開き、**質問を追加**をクリックします
+2. 質問の種類を選択します
+3. **質問文**を入力します（画像や書式を含むリッチテキストに対応しています）
+4. **回答**とその得点を定義します：
+   * 各回答オプションについて、正しいかどうかとその点数を指定します
+   * 間違った回答にはマイナスの点数を割り当てて、推測を抑止することができます
+5. 必要に応じて**フィードバック**を追加します — 学習者が回答後に表示される説明
+6. **難易度レベル**と**カテゴリ**を設定します（ランダム選択やレポート作成に役立ちます）
+7. 保存します
 
-## Question Categories
+## 質問カテゴリ
 
-You can organize questions into categories (e.g., "Module 1", "Vocabulary", "Advanced"). Categories are useful for:
+質問をカテゴリ（例：「モジュール1」、「語彙」、「上級」）に整理することができます。カテゴリは以下に役立ちます：
 
-* Organizing large question banks
-* Enabling random selection by category (e.g., "5 questions from Module 1, 3 from Module 2")
-* Viewing scores broken down by category in reports
+* 大量の質問バンクを整理する
+* カテゴリごとのランダム選択を有効にする（例：「モジュール1から5問、モジュール2から3問」）
+* レポートでカテゴリごとにスコアを分けて確認する
 
-## Question Reuse
+## 質問の再利用
 
-Questions can be reused across exercises within the same course. When adding a question, you can choose to create a new one or select an existing question from the question bank.
+質問は同じコース内の複数の演習で再利用することができます。質問を追加する際、新しく作成するか、質問バンクから既存の質問を選択することができます。
 
-## Importing Exercises
+## 演習のインポート
 
-Chamilo supports importing exercises from external formats:
+Chamiloは外部形式からの演習のインポートをサポートしています：
 
-* **IMS QTI / Common Cartridge** — The standard e-learning quiz format
-* **Moodle format** — Import quizzes from Moodle exports
+* **IMS QTI / Common Cartridge** — 標準的なeラーニングクイズ形式
+* **Moodle形式** — Moodleのエクスポートからクイズをインポート
 
-To import, look for the **Import** option in the exercises tool and upload your file.
+インポートするには、演習ツール内で**インポート**オプションを探し、ファイルをアップロードしてください。
 
-## Tips
+## ヒント
 
-* **Mix question types** — Combine multiple choice, fill-in-the-blanks, and open-ended questions for a comprehensive assessment
-* **Use categories** — Organize questions by topic to enable targeted random selection
-* **Set a pass percentage** — Give learners a clear target and link it to certificate generation via the Gradebook
-* **Use immediate feedback for practice** — Create ungraded practice exercises with immediate feedback to help learners learn from their mistakes
-* **Randomize for integrity** — Enable random question order and random answers to reduce the chance of copying
+* **質問の種類を混ぜる** — 多肢選択、穴埋め、自由記述の質問を組み合わせて包括的な評価を行う
+* **カテゴリを使用する** — トピックごとに質問を整理して、ターゲットを絞ったランダム選択を可能にする
+* **合格率を設定する** — 学習者に明確な目標を与え、成績表を通じて証明書発行にリンクする
+* **練習用に即時フィードバックを使用する** — 学習者が間違いから学べるよう、即時フィードバック付きの無評価の練習演習を作成する
+* **公正さを保つためにランダム化する** — 質問の順序や回答をランダムにすることで、コピーの可能性を減らす

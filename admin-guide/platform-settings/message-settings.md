@@ -1,70 +1,65 @@
-# Messaging Settings
+# メッセージ設定
 
-Behaviour of the **Messaging / Inbox** system.
+**メッセージング / 受信箱** システムの動作について。
 
-Access these settings under **Administration > Configuration settings > Messaging**. This category contains **7 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+これらの設定には、**管理 > 設定 > メッセージング** からアクセスできます。このカテゴリには **7つの設定** が含まれており、以下にプラットフォームの設定フィクスチャ (`SettingsCurrentFixtures.php`) に記載されているタイトルとコメントを記載しています。
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> コード内の変数名は等幅フォントで表示されています。API を介してスクリプトを作成する場合や、[`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml) を編集してこれらの設定をグローバルレベルで変更する必要がある場合に使用してください。
 
-## Settings
+## 設定
 
 ### `allow_message_tool`
 
-**Internal messaging tool**
+**内部メッセージツール**
 
-Enabling the internal messaging tool allows users to send messages to other users of the platform and to have a messaging inbox.
+内部メッセージツールを有効にすると、ユーザーはプラットフォームの他のユーザーにメッセージを送信したり、メッセージの受信箱を持つことができます。
 
-*Default: `true`*
+*デフォルト: `true`*
 
 ### `allow_send_message_to_all_platform_users`
 
-**Allow sending messages to any platform user**
+**すべてのプラットフォームユーザーにメッセージを送信することを許可**
 
-Allows you to send messages to any user of the platform, not just your friends or the people currently online.
+プラットフォームのすべてのユーザーにメッセージを送信できるようにします。友達や現在オンライン中の人に限定されません。
 
-*Default: `false`*
+*デフォルト: `false`*
 
 ### `allow_user_message_tracking`
 
-**Admins can see personal messages**
+**管理者が個人メッセージを閲覧可能**
 
-Allow administrators to see personal messages between a teacher and a learner. Please make sure you include a note in your terms and conditions as this might affect privacy protection.
+管理者に対して、教師と学習者間の個人メッセージを閲覧することを許可します。この設定がプライバシー保護に影響を与える可能性があるため、利用規約にその旨を記載してください。
 
-*Default: `false`*
-
+*デフォルト: `false`*
 
 ### `filter_interactivity_messages`
 
-**Teachers can access learners messages only within session timeframe**
+**教師はセッション期間内のみ学習者のメッセージにアクセス可能**
 
-Filter messages between a teacher and a learner between the session start end dates
+教師と学習者間のメッセージを、セッションの開始日と終了日の間に限定してフィルタリングします。
 
-*Default: `false`*
-
+*デフォルト: `false`*
 
 ### `message_max_upload_filesize`
 
-**Max upload file size in messages**
+**メッセージ内の最大アップロードファイルサイズ**
 
-Maximum size for file uploads in the messaging tool (in Bytes)
+メッセージツールでのファイルアップロードの最大サイズ（バイト単位）
 
-*Default: `20971520`*
+*デフォルト: `20971520`*
 
 ### `private_messages_about_user`
 
-**Allow private messages between teachers about a learner**
+**学習者に関する教師間のプライベートメッセージを許可**
 
-Allow exchange of messages from teachers/bosses about a user from the tracking page of that user.
+教師や上司が、特定のユーザーの追跡ページからそのユーザーに関するメッセージを交換することを許可します。
 
-*Default: `false`*
-
+*デフォルト: `false`*
 
 ### `private_messages_about_user_visible_to_user`
 
-**Allow learners to see messages about them between teachers**
+**学習者が教師間の自分に関するメッセージを閲覧可能**
 
-If exchange of messages about a user are enabled, this option will allow the corresponding user to see the messages. This is to comply with rules of transparency the organization may need to comply to.
+ユーザーに関するメッセージの交換が有効になっている場合、このオプションを有効にすると、該当するユーザーがそのメッセージを閲覧できるようになります。これは、組織が遵守する必要がある透明性のルールに対応するためのものです。
 
-*Default: `false`*
-
-
+*デフォルト: `false`*

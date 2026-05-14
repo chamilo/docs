@@ -1,46 +1,46 @@
-# Careers and Promotions
+# キャリアと昇進
 
-Chamilo includes a career management system that lets you define training paths and track learner progression through structured programs.
+Chamiloには、トレーニングパスを定義し、構造化されたプログラムを通じて学習者の進捗を追跡できるキャリア管理システムが含まれています。
 
-## Careers
+## キャリア
 
-![The careers list showing defined career paths with name and description](/.gitbook/assets/admin-careers-list.png)
+![名前と説明が記載された定義済みのキャリアパスのリストを表示するキャリアリスト](/.gitbook/assets/admin-careers-list.png)
 
-A **career** represents a structured training path — a sequence of training steps that a learner follows to achieve a professional goal.
+**キャリア**は、構造化されたトレーニングパスを表します。学習者が職業目標を達成するためにたどる一連のトレーニングステップです。
 
-### Creating a Career
+### キャリアの作成
 
-1. From the administration panel, navigate to **Careers**
-2. Click **Create a career**
-3. Enter a **name** and **description**
-4. Save
+1. 管理パネルから**キャリア**に移動します
+2. **キャリアを作成**をクリックします
+3. **名前**と**説明**を入力します
+4. 保存します
 
-## Promotions
+## 昇進
 
-A **promotion** represents a cohort or batch of learners progressing through a career. Think of it as a group of people going through the same career path at the same time.
+**昇進**は、キャリアを通じて進む学習者のコホートまたはバッチを表します。同じキャリアパスを同時に進む人々のグループと考えてください。
 
-### Linking to Sessions
+### セッションへのリンク
 
-After creating a promotion, you link sessions to it. This defines the sequence of training a learner must complete.
+昇進を作成した後、それにセッションをリンクします。これにより、学習者が完了する必要のあるトレーニングの順序が定義されます。
 
-You can later replicate promotions to help creating the next promotion with copies of the same sessions, so your next promotion can be built in an instant.
+後で昇進を複製することで、次の昇進を同じセッションのコピーとともに瞬時に構築するのに役立ちます。
 
-### Creating a Promotion
+### 昇進の作成
 
-1. Navigate to **Promotions**
-2. Click **Create a promotion**
-3. Enter a **name** and **description**
-4. Link it to a **career**
-5. Assign **sessions** to the promotion
-6. Save
+1. **昇進**に移動します
+2. **昇進を作成**をクリックします
+3. **名前**と**説明**を入力します
+4. **キャリア**にリンクします
+5. 昇進に**セッション**を割り当てます
+6. 保存します
 
-## How It Fits Together
+## 全体の仕組み
 
-* A **career** defines the path (e.g., "Junior Developer Certification")
-* A **promotion** represents a cohort (e.g., "Class of March 2026")
-* **Sessions** within the promotion deliver the actual training content
+* **キャリア**はパスを定義します（例：「ジュニアデベロッパー認定」）
+* **昇進**はコホートを表します（例：「2026年3月クラス」）
+* 昇進内の**セッション**が実際のトレーニングコンテンツを提供します
 
-## Tips
+## ヒント
 
-* **Use for structured programs** — Careers and promotions are most useful for multi-stage training programs where learners progress through a defined sequence
-* **Track completion** — Use the reporting tools to monitor how promotions are progressing through their career paths
+* **構造化されたプログラムに使用する** — キャリアと昇進は、学習者が定義された順序で進む多段階のトレーニングプログラムに最も役立ちます
+* **完了状況を追跡する** — レポートツールを使用して、昇進がキャリアパスをどのように進んでいるかを監視します

@@ -1,66 +1,61 @@
-# Web Services Settings
+# ウェブサービス設定
 
-Configuration of the legacy SOAP / REST web services (separate from the modern API Platform endpoints).
+レガシーなSOAP / RESTウェブサービス（最新のAPI Platformエンドポイントとは別）の設定。
 
-Access these settings under **Administration > Configuration settings > Web Services**. This category contains **7 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+これらの設定には、**管理 > 設定 > ウェブサービス**からアクセスできます。このカテゴリには**7つの設定**が含まれており、以下にプラットフォームの設定フィクスチャ（`SettingsCurrentFixtures.php`）に含まれるタイトルとコメントを記載しています。
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> コード内の変数名は等幅フォントで表示されています。APIを通じてスクリプトを作成する場合や、[`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml)を編集してこれらの設定をグローバルレベルで変更する必要がある場合に使用してください。
 
-## Settings
+## 設定
 
 ### `allow_download_documents_by_api_key`
 
-**Allow download course documents by API Key**
+**APIキーによるコース資料のダウンロードを許可**
 
-Download documents verifying the REST API key for a user
+ユーザーのREST APIキーを検証して資料をダウンロードする
 
-*Default: `false`*
-
+*デフォルト: `false`*
 
 ### `disable_webservices`
 
-**Disable web services**
+**ウェブサービスを無効化**
 
-If you do not use web services, enable this to avoid any unnecessary security risk.
+ウェブサービスを使用しない場合は、不要なセキュリティリスクを避けるためにこれを有効にしてください。
 
-*Default: `false`*
-
+*デフォルト: `false`*
 
 ### `messaging_allow_send_push_notification`
 
-**Allow Push Notifications to the Chamilo Messaging mobile app**
+**Chamilo Messagingモバイルアプリへのプッシュ通知を許可**
 
-Send Push Notifications by Google's Firebase Console
+GoogleのFirebase Consoleを通じてプッシュ通知を送信する
 
-*Default: `false`*
-
+*デフォルト: `false`*
 
 ### `messaging_gdc_api_key`
 
-**Server key of Firebase Console for Cloud Messaging**
+**クラウドメッセージング用のFirebase Consoleのサーバーキー**
 
-Server key (legacy token) from project credentials
+プロジェクトの認証情報からのサーバーキー（レガシートークン）
 
 ### `messaging_gdc_project_number`
 
-**Sender ID of Firebase Console for Cloud Messaging**
+**クラウドメッセージング用のFirebase Consoleの送信者ID**
 
-You need register a project on <a href='https://console.firebase.google.com/'>Google Firebase Console</a>
+プロジェクトを<a href='https://console.firebase.google.com/'>Google Firebase Console</a>に登録する必要があります
 
 ### `webservice_enable_adminonly_api`
 
-**Enable admin-only web services**
+**管理者専用のウェブサービスを有効化**
 
-Some REST web services are marked for admins only and are disabled by default. Enable this feature to give access to these web services (to users with admin credentials, obviously).
+一部のRESTウェブサービスは管理者専用としてマークされており、デフォルトでは無効になっています。この機能を有効にすると、これらのウェブサービスへのアクセスが許可されます（当然ながら管理者権限を持つユーザーに限ります）。
 
-*Default: `false`*
+*デフォルト: `false`*
 
 ### `webservice_return_user_field`
 
-**Webservices return user field**
+**ウェブサービスが返すユーザーフィールド**
 
-Ask REST webservices (v2.php) to return another identifier for fields related to user ID. This is useful if the external system doesn't really deal with user IDs as they are in Chamilo, as it helps the external system match the user data return with some external data that is know to Chamilo. For example, if you use an external authentication system, you can return the extra field used to match the user with the external authentication system rather than user.id.
+RESTウェブサービス（v2.php）に、ユーザーIDに関連するフィールドの別の識別子を返すよう要求します。これは、外部システムがChamilo内のユーザーIDをそのまま扱わない場合に役立ちます。外部システムがユーザーデータの返却をChamiloが認識している外部データと一致させるのに役立ちます。たとえば、外部認証システムを使用している場合、ユーザーIDの代わりに外部認証システムとユーザーを一致させるために使用される追加フィールドを返すことができます。
 
-*Default: `oauth2_id`*
-
-
+*デフォルト: `oauth2_id`*

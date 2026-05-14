@@ -1,29 +1,29 @@
-# Installation
+# インストール
 
-This section covers everything you need to install and configure Chamilo 2.0 on your server.
+このセクションでは、Chamilo 2.0 をサーバーにインストールおよび設定するために必要なすべての情報を提供します。
 
-Chamilo 2.0 is a PHP application built on the Symfony framework. It can run on most Linux-based servers, has been installed and runs on Windows Server with IIS, and supports MySQL and MariaDB backends.
+Chamilo 2.0 は、Symfony フレームワーク上に構築された PHP アプリケーションです。ほとんどの Linux ベースのサーバーで動作し、IIS を使用した Windows Server でのインストールおよび実行が確認されています。また、MySQL および MariaDB のバックエンドをサポートしています。
 
-## Installation Steps
+## インストール手順
 
-1. **[Server Requirements](server-requirements.md)** — Verify your server meets the minimum requirements
-2. **[Installation Wizard](installation-wizard.md)** — Run the web-based installation wizard
-3. **[Configuration](configuration.md)** — Configure environment variables and Symfony settings
-4. **[Cloud Storage](cloud-storage.md)** — Set up cloud storage backends (optional)
-5. **[Email Configuration](email-configuration.md)** — Configure email delivery
-6. **[Upgrading](upgrading.md)** — Upgrade from a previous version
+1. **[サーバー要件](server-requirements.md)** — サーバーが最小要件を満たしていることを確認する
+2. **[インストールウィザード](installation-wizard.md)** — Web ベースのインストールウィザードを実行する
+3. **[設定](configuration.md)** — 環境変数および Symfony の設定を行う
+4. **[クラウドストレージ](cloud-storage.md)** — クラウドストレージバックエンドを設定する（オプション）
+5. **[メール設定](email-configuration.md)** — メール配信を設定する
+6. **[アップグレード](upgrading.md)** — 以前のバージョンからアップグレードする
 
-## Quick Overview
+## 簡単な概要
 
-The basic installation process is:
+基本的なインストールプロセスは以下の通りです：
 
-1. Download or clone the Chamilo source code
-2. Install PHP dependencies with Composer if preparing from source
-3. Install JavaScript dependencies with npm/yarn and build frontend assets
-4. Create an empty `.env` file to store your database credentials and other settings later on
-5. Change permissions (writeable by the web server) on *var/*, *config/* and *.env*
-6. Run the web-based installation wizard
-7. Connect with your first administrator account
-8. Change permissions back on *config/* and *.env*
+1. Chamilo のソースコードをダウンロードまたはクローンする
+2. ソースから準備する場合は、Composer を使用して PHP の依存関係をインストールする
+3. npm/yarn を使用して JavaScript の依存関係をインストールし、フロントエンドアセットをビルドする
+4. データベースの認証情報やその他の設定を後で保存するための空の `.env` ファイルを作成する
+5. *var/*、*config/*、および *.env* のパーミッションを変更する（Web サーバーによる書き込みが可能）
+6. Web ベースのインストールウィザードを実行する
+7. 最初の管理者アカウントで接続する
+8. *config/* および *.env* のパーミッションを元に戻す
 
-Detailed instructions for each step are in the pages linked above.
+各手順の詳細な説明は、上記でリンクされているページに記載されています。

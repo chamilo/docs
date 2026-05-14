@@ -1,57 +1,57 @@
-# User Roles
+# ユーザーロール
 
-Chamilo uses a role-based permission system. Each user is assigned a role that determines what they can see and do on the platform.
+Chamiloはロールベースの権限システムを使用しています。各ユーザーに割り当てられたロールによって、プラットフォーム上で見たり行ったりできることが決まります。
 
-## Platform-Level Roles
+## プラットフォームレベルのロール
 
-These roles control access to platform-wide features:
+これらのロールは、プラットフォーム全体の機能へのアクセスを制御します：
 
-| Role |  Description |
+| ロール | 説明 |
 |------|------------|
-| **Learner (Student)** | The default role. Can enroll in courses, access learning content, submit assignments, and take exercises. |
-| **Teacher (Trainer)** | Can create and manage courses, add content, grade students, and view course-level reports. |
-| **Sessions Administrator** | Can create and manage sessions (i.e. time-based course packages), enroll users in sessions, and assign coaches. Cannot access general platform settings. |
-| **Human Resources Manager (HRM)** | Can view tracking and reporting data for assigned users. Used for supervisors who need to monitor employee training but not manage content nor the platform. |
-| **Portal Administrator** | Full access to all platform administration features. Can manage users, courses, sessions, plugins, and all settings. |
-| **Global Administrator** | Same as Portal Administrator but with access across all access URLs in a multi-URL (i.e. multi-tenant) setup. |
-| **Anonymous** | A special role for visitors who are not logged in. Can access public courses and content if enabled. |
+| **学習者（学生）** | デフォルトのロール。コースに登録し、学習コンテンツにアクセスし、課題を提出し、演習を受けることができます。 |
+| **教師（トレーナー）** | コースを作成および管理し、コンテンツを追加し、学生を評価し、コースレベルのレポートを表示することができます。 |
+| **セッション管理者** | セッション（時間ベースのコースパッケージ）を作成および管理し、ユーザーをセッションに登録し、コーチを割り当てることができます。一般的なプラットフォーム設定にはアクセスできません。 |
+| **人事マネージャー（HRM）** | 割り当てられたユーザーの追跡およびレポートデータを表示することができます。従業員のトレーニングを監視する必要があるが、コンテンツやプラットフォームを管理する必要がない監督者向けに使用されます。 |
+| **ポータル管理者** | プラットフォームのすべての管理機能にフルアクセスできます。ユーザー、コース、セッション、プラグイン、すべての設定を管理できます。 |
+| **グローバル管理者** | ポータル管理者と同じですが、マルチURL（マルチテナント）設定ですべてのアクセスURLにアクセスできます。 |
+| **匿名** | ログインしていない訪問者のための特別なロール。公開コースやコンテンツが有効になっている場合にアクセスできます。 |
 
-## Course-Level Roles
+## コースレベルのロール
 
-Within a course, users have specific roles:
+コース内では、ユーザーは特定のロールを持ちます：
 
-| Role | Description |
+| ロール | 説明 |
 |------|-------------|
-| **Student** | Default course role. Can access content, take exercises, submit assignments. |
-| **Course assistant** | Has limited management permissions within the course. Can help manage content and moderate forums. |
-| **Teacher** | Full control over the course: manage content, tools, settings, and enrollment. |
+| **学生** | デフォルトのコースロール。コンテンツにアクセスし、演習を受け、課題を提出できます。 |
+| **コースアシスタント** | コース内での管理権限が制限されています。コンテンツの管理やフォーラムのモデレーションを支援できます。 |
+| **教師** | コースの完全な制御権：コンテンツ、ツール、設定、登録を管理できます。 |
 
-## Session-Level Roles
+## セッションレベルのロール
 
-Within a session, additional roles exist:
+セッション内では、追加のロールが存在します：
 
-| Role | Description |
+| ロール | 説明 |
 |------|-------------|
-| **Session tutor** | Oversees all courses within a session. Can view tracking across all courses in the session. |
-| **Course tutor** | Teaches a specific course within a session. Can manage content and track learners for that course in that session. |
+| **セッションチューター** | セッション内のすべてのコースを監督します。セッション内のすべてのコースの追跡を表示できます。 |
+| **コースチューター** | セッション内の特定のコースを教えます。そのセッション内のそのコースのコンテンツを管理し、学習者を追跡できます。 |
 
-Note: The coach and tutor names are very similar in meaning and are generally dependent on the organization. We use both terms interchangeably in Chamilo 2.0, but most of the time we mean tutor, a person that will help you learn from the course, not a personal coach. We might use "tutor" exclusively in the future.
+注：コーチとチューターという名称は意味が非常に似ており、通常は組織によって異なります。Chamilo 2.0ではこれらの用語を interchangeable に使用していますが、ほとんどの場合、チューターを指し、コースから学ぶのを助ける人を意味し、個人コーチではありません。将来的には「チューター」のみを独占的に使用する可能性があります。
 
-## Assigning Roles
+## ロールの割り当て
 
-When creating or editing a user account in the administration panel, you select their platform-level role. Course and session roles are assigned when enrolling users in courses or sessions.
+管理パネルでユーザーアカウントを作成または編集する際に、プラットフォームレベルのロールを選択します。コースおよびセッションのロールは、ユーザーをコースまたはセッションに登録する際に割り当てられます。
 
-## Role Hierarchy
+## ロールの階層
 
-Higher-privileged roles inherit the capabilities of lower-privileged roles:
+権限の高いロールは、権限の低いロールの機能を継承します：
 
-* An administrator can do everything a teacher can do
-* A teacher can do everything a student can do
-* Session-level roles (coach) provide additional capabilities only within their assigned session
+* 管理者は教師ができるすべてのことを行うことができます
+* 教師は学生ができるすべてのことを行うことができます
+* セッションレベルのロール（コーチ）は、割り当てられたセッション内でのみ追加の機能を提供します
 
-## Tips
+## ヒント
 
-* **Use the principle of least privilege** — Assign users the minimum role they need to perform their tasks
-* **Use Sessions Administrators** for delegated management — If you have staff who need to manage training sessions but not the entire platform, give them the Sessions Administrator role instead of full administrator access
-* **Use HRM for supervisors** — Human Resources Managers can monitor training progress without having access to modify courses or platform settings
-* **Roles creation** — Chamilo 2.x has the internal structure ready for the creation of new roles, but the feature lacks more testing for wide release. It can be enabled through [Official providers of Chamilo](https://chamilo.org/providers).
+* **最小権限の原則を使用する** — ユーザーにタスクを実行するために必要な最小限のロールを割り当てます
+* **委任管理にセッション管理者を使用する** — トレーニングセッションを管理する必要があるがプラットフォーム全体を管理する必要がないスタッフがいる場合、フル管理者アクセスではなくセッション管理者ロールを付与します
+* **監督者にはHRMを使用する** — 人事マネージャーは、コースやプラットフォーム設定を変更するアクセス権を持たずにトレーニングの進捗を監視できます
+* **ロールの作成** — Chamilo 2.xには新しいロールを作成するための内部構造が用意されていますが、この機能は広くリリースするためのさらなるテストが必要です。[Official providers of Chamilo](https://chamilo.org/providers)を通じて有効にすることができます。

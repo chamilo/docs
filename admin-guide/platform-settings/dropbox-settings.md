@@ -1,75 +1,73 @@
-# Dropbox Settings
+# Dropbox設定
 
-Behaviour of the **Dropbox** file-exchange tool.
+**Dropbox**ファイル交換ツールの動作設定。
 
-Access these settings under **Administration > Configuration settings > Dropbox**. This category contains **8 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+これらの設定には、**管理 > 設定 > Dropbox**からアクセスできます。このカテゴリには**8つの設定**が含まれており、以下にプラットフォームの設定フィクスチャ（`SettingsCurrentFixtures.php`）に記載されているタイトルとコメントを記載しています。
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> コード内の変数名は等幅フォントで表示されています。APIを介してスクリプトを作成する場合や、[`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml)を編集してこれらの設定をグローバルレベルで変更する必要がある場合に使用してください。
 
-## Settings
+## 設定
 
 ### `dropbox_allow_group`
 
-**Dropbox: allow group**
+**Dropbox：グループを許可**
 
-Users can send files to groups
+ユーザーがグループにファイルを送信できるようにする
 
-*Default: `true`*
+*デフォルト：`true`*
 
 ### `dropbox_allow_just_upload`
 
-**Dropbox: Upload to own dropbox space?**
+**Dropbox：自分のDropboxスペースにアップロード？**
 
-Allow trainers and users to upload documents to their dropbox without sending  the documents to themselves
+トレーナーやユーザーが、自分自身にドキュメントを送信せずに、自分のDropboxにドキュメントをアップロードすることを許可する
 
-*Default: `true`*
+*デフォルト：`true`*
 
 ### `dropbox_allow_mailing`
 
-**Dropbox: Allow mailing**
+**Dropbox：メール送信を許可**
 
-With the mailing functionality you can send each learner a personal document
+メール機能を使用して、各学習者に個別のドキュメントを送信できる
 
-*Default: `false`*
+*デフォルト：`false`*
 
 ### `dropbox_allow_overwrite`
 
-**Dropbox: Can documents be overwritten**
+**Dropbox：ドキュメントの上書きを許可**
 
-Can the original document be overwritten when a user or trainer uploads a document with the name of a document that already exist? If you answer yes then you loose the versioning mechanism.
+ユーザーまたはトレーナーが、すでに存在するドキュメントと同じ名前のドキュメントをアップロードした際に、元のドキュメントを上書きできるか？「はい」と答えると、バージョニング機能が失われます。
 
-*Default: `true`*
+*デフォルト：`true`*
 
 ### `dropbox_allow_student_to_student`
 
-**Dropbox: Learner <-> Learner**
+**Dropbox：学習者 <-> 学習者**
 
-Allow users to send documents to other users (peer 2 peer). Users might use this for less relevant documents also (mp3, tests solutions, ...). If you disable this then the users can send documents to the trainer only.
+ユーザーが他のユーザーにドキュメントを送信することを許可する（ピアツーピア）。ユーザーはこの機能を使用して、重要度の低いドキュメント（mp3、テストの解答など）も送信できます。この機能を無効にすると、ユーザーはトレーナーにのみドキュメントを送信できるようになります。
 
-*Default: `true`*
+*デフォルト：`true`*
 
 ### `dropbox_hide_course_coach`
 
-**Dropbox: hide course coach**
+**Dropbox：コースコーチを非表示**
 
-Hide session course coach in dropbox when a document is sent by the coach to students
+コーチが学生にドキュメントを送信した際に、Dropbox内でセッションコースコーチを非表示にする
 
-*Default: `false`*
+*デフォルト：`false`*
 
 ### `dropbox_hide_general_coach`
 
-**Hide general coach in dropbox**
+**Dropbox：一般コーチを非表示**
 
-Hide general coach name in the dropbox tool when the general coach uploaded the file
+一般コーチがファイルをアップロードした際に、Dropboxツール内で一般コーチの名前を非表示にする
 
-*Default: `false`*
-
+*デフォルト：`false`*
 
 ### `dropbox_max_filesize`
 
-**Dropbox: Maximum file size of a document**
+**Dropbox：ドキュメントの最大ファイルサイズ**
 
-How big (in MB) can a dropbox document be?
+Dropboxのドキュメントの最大サイズ（MB単位）はどのくらいか？
 
-*Default: `100000000`*
-
+*デフォルト：`100000000`*

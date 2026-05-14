@@ -1,80 +1,79 @@
-# Announcements Settings
+# お知らせ設定
 
-Behaviour of the course **Announcements** tool — how announcements are sent and scheduled.
+コースの**お知らせ**ツールの動作 — お知らせの送信方法やスケジュール設定について。
 
-Access these settings under **Administration > Configuration settings > Announcements**. This category contains **9 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+これらの設定には、**管理 > 設定 > お知らせ**からアクセスできます。このカテゴリには**9つの設定**が含まれており、以下にプラットフォームの設定フィクスチャ（`SettingsCurrentFixtures.php`）に記載されているタイトルとコメントを記載しています。
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> コード内の変数名は等幅フォントで表示されています。APIを通じてスクリプトを作成する場合や、[`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml)を編集してグローバルレベルでこれらの設定を変更する際に使用してください。
 
-## Settings
+## 設定
 
 ### `allow_careers_in_global_announcements`
 
-**Link global announcements with careers and promotions**
+**グローバルお知らせをキャリアやプロモーションとリンクする**
 
-When enabled, global announcements can be associated with careers and promotions for targeted distribution.
+有効にすると、グローバルお知らせをキャリアやプロモーションに関連付けて、ターゲットを絞った配信が可能になります。
 
-*Default: `false`*
+*デフォルト: `false`*
 
 ### `allow_coach_to_edit_announcements`
 
-**Allow coaches to always edit announcements**
+**コーチが常にお知らせを編集できるようにする**
 
-Allow coaches to always edit announcements inside active or past sessions.
+コーチがアクティブまたは過去のセッション内でお知らせを常に編集できるようにします。
 
-*Default: `false`*
+*デフォルト: `false`*
 
 ### `allow_scheduled_announcements`
 
-**Enable scheduled announcements in sessions**
+**セッション内でのスケジュールされたお知らせを有効にする**
 
-Allows the sessions managers to set announcements that will be triggered on specific dates or after/before a number of days of start/end of the session. Enabling this feature requires you to setup a cron task.
+セッション管理者が、特定の日にちやセッションの開始/終了から一定日数後/前にトリガーされるお知らせを設定できるようにします。この機能を有効にするには、cronタスクを設定する必要があります。
 
-*Default: `false`*
+*デフォルト: `false`*
 
 ### `announcements_hide_send_to_hrm_users`
 
-**Hide option to send announcements to HR users**
+**HRユーザーにお知らせを送信するオプションを非表示にする**
 
-Remove the checkbox to enable sending announcements to users with HR roles (still requires to confirm in the announcements tool).
+HRロールを持つユーザーにお知らせを送信するチェックボックスを削除します（お知らせツールでの確認は依然として必要です）。
 
-*Default: `true`*
+*デフォルト: `true`*
 
 ### `course_announcement_scheduled_by_date`
 
-**Date-based announcements**
+**日付ベースのお知らせ**
 
-Allow teachers to configure announcements that will be sent at specific dates. This requires you to setup a cron task on cron/course_announcement.php running at least once daily.
+教師が特定の日に送信されるお知らせを設定できるようにします。この機能を使用するには、cronタスクを`cron/course_announcement.php`に設定し、少なくとも1日1回実行する必要があります。
 
-*Default: `false`*
+*デフォルト: `false`*
 
 ### `disable_announcement_attachment`
 
-**Disable attachment to announcements**
+**お知らせへの添付ファイルを無効にする**
 
-Even though attachments in this version are dealt in an elegant way and do not multiply on disk, you might want to disable attachments altogether if you want to avoid excesses.
+このバージョンでは添付ファイルがエレガントに処理され、ディスク上で増殖することはありませんが、過剰な使用を避けたい場合は添付ファイルを完全に無効にすることができます。
 
-*Default: `false`*
+*デフォルト: `false`*
 
 ### `disable_delete_all_announcements`
 
-**Disable button to delete all announcements**
+**すべてのお知らせを削除するボタンを無効にする**
 
-Select 'Yes' to remove the button to delete all announcements, as this can be used by mistake by teachers.
+教師が誤って使用する可能性があるため、すべてのお知らせを削除するボタンを削除するには「はい」を選択します。
 
-*Default: `false`*
+*デフォルト: `false`*
 
 ### `hide_announcement_sent_to_users_info`
 
-**Hide 'sent to' in announcements**
+**お知らせの「送信先」を非表示にする**
 
-Select 'Yes' to avoid showing to whom an announcement has been sent.
+お知らせが誰に送信されたかを表示しないようにするには「はい」を選択します。
 
-*Default: `false`*
+*デフォルト: `false`*
 
 ### `hide_send_to_hrm_users`
 
-**Hide the option to send an announcement copy to HRM**
+**HRMにコピーを送信するオプションを非表示にする**
 
-In the announcements form, an option normally appears to allow teachers to send a copy of the announcement to the user's HRM. Set this to 'Yes' to remote the option (and *not* send the copy).
-
+お知らせフォームには通常、教師がユーザーのHRMにお知らせのコピーを送信できるオプションが表示されます。このオプションを削除し（コピーを送信しない）、するには「はい」に設定します。

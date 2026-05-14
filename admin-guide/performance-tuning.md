@@ -1,92 +1,92 @@
-# Performance Tuning
+# パフォーマンスチューニング
 
-Performance settings help optimize Chamilo for faster page loads and better resource utilization, especially on platforms with many concurrent users.
+パフォーマンス設定は、Chamilo のページ読み込み速度を向上させ、リソースの利用効率を高めるのに役立ちます。特に多くの同時ユーザーがいるプラットフォームで効果を発揮します。
 
-> **Additional reference**: Your Chamilo installation includes an extended optimization guide. Open `/documentation/optimization.html` in a browser (e.g. `https://your-chamilo-site/documentation/optimization.html`) for server-level recommendations specific to your version.
+> **追加の参考資料**: Chamilo のインストールには、拡張された最適化ガイドが含まれています。ブラウザで `/documentation/optimization.html` を開く（例: `https://your-chamilo-site/documentation/optimization.html`）と、お使いのバージョンに特化したサーバーレベルの推奨事項を確認できます。
 
-## Symfony Cache
+## Symfony キャッシュ
 
-Chamilo 2.0 is built on Symfony, which uses a compiled cache for routing, dependency injection, and templates. Managing this cache is essential for performance.
+Chamilo 2.0 は Symfony を基盤として構築されており、ルーティング、依存性注入、テンプレートのためのコンパイル済みキャッシュを使用しています。このキャッシュの管理はパフォーマンスにとって重要です。
 
-### Clearing the Cache
+### キャッシュのクリア
 
-After configuration changes, deployment, or upgrades, clear the Symfony cache:
+設定の変更、デプロイ、またはアップグレード後に、Symfony キャッシュをクリアしてください：
 
 ```bash
-# Clear cache for the current environment
+# 現在の環境のキャッシュをクリア
 php bin/console cache:clear
 
-# For production environments specifically
+# 本番環境向けに特化
 php bin/console cache:clear --env=prod
 ```
 
-In production, always ensure `APP_ENV=prod` is set in your `.env.local` file. The development environment (`APP_ENV=dev`) includes extensive debugging overhead and should never be used in production.
+本番環境では、`.env.local` ファイルで常に `APP_ENV=prod` が設定されていることを確認してください。開発環境（`APP_ENV=dev`）には広範なデバッグオーバーヘッドが含まれており、本番環境では絶対に使用しないでください。
 
-### Cache Warmup
+### キャッシュのウォームアップ
 
-After clearing cache, warm it up to pre-compile templates and configuration:
+キャッシュをクリアした後、テンプレートと設定を事前にコンパイルするためにウォームアップを行います：
 
 ```bash
 php bin/console cache:warmup --env=prod
 ```
 
-## Caching Strategies
+## キャッシュ戦略
 
-| Strategy | Description |
+| 戦略 | 説明 |
 |----------|-------------|
-| **OPcache** | PHP's built-in opcode cache. Ensure it is enabled in your `php.ini` with adequate memory (`opcache.memory_consumption=256`). This is the single most impactful performance optimization. |
-| **APCu** | An in-memory key-value cache used by Symfony for storing metadata. Install the APCu PHP extension and configure it in your Symfony cache configuration. |
-| **Redis / Memcached** | For high-traffic platforms, configure an external cache backend. Set the cache adapter in `config/packages/cache.yaml`. |
+| **OPcache** | PHP に組み込まれたオペコードキャッシュ。`php.ini` で有効にし、十分なメモリ（`opcache.memory_consumption=256`）を割り当ててください。パフォーマンス最適化において最も効果的な手段です。 |
+| **APCu** | Symfony がメタデータを保存するために使用するインメモリキー値キャッシュ。APCu PHP 拡張機能をインストールし、Symfony キャッシュ設定で構成してください。 |
+| **Redis / Memcached** | 高トラフィックのプラットフォームでは、外部キャッシュバックエンドを設定します。`config/packages/cache.yaml` でキャッシュアダプターを設定してください。 |
 
-### Recommended OPcache Settings
+### 推奨される OPcache 設定
 
 ```ini
 opcache.enable=1
 opcache.memory_consumption=256
 opcache.max_accelerated_files=20000
-opcache.validate_timestamps=0   ; Set to 0 in production for best performance
+opcache.validate_timestamps=0   ; 本番環境では最高のパフォーマンスを得るために 0 に設定
 opcache.revalidate_freq=0
 ```
 
-When `validate_timestamps` is set to 0, you must clear OPcache after deploying new code (restart PHP-FPM or call `opcache_reset()`).
+`validate_timestamps` が 0 に設定されている場合、新しいコードをデプロイした後に OPcache をクリアする必要があります（PHP-FPM を再起動するか、`opcache_reset()` を呼び出してください）。
 
-## Lazy Loading
+## 遅延読み込み
 
-| Setting | Description |
+| 設定 | 説明 |
 |---------|-------------|
-| **Lazy-load images** | Enables the `loading="lazy"` attribute on images so that off-screen images load only when scrolled into view. Reduces initial page load time. |
-| **Deferred JavaScript loading** | Load non-critical JavaScript files asynchronously to avoid blocking page rendering. |
+| **画像の遅延読み込み** | 画像に `loading="lazy"` 属性を有効にし、画面外の画像が表示領域に入ったときにのみ読み込むようにします。初期ページ読み込み時間を短縮します。 |
+| **JavaScript の遅延読み込み** | 重要でない JavaScript ファイルを非同期で読み込み、ページのレンダリングをブロックしないようにします。 |
 
-## CDN (Content Delivery Network)
+## CDN（コンテンツ配信ネットワーク）
 
-For platforms serving users across multiple geographic regions, a CDN can significantly improve load times for static assets (CSS, JavaScript, images).
+複数の地理的地域にわたるユーザーにサービスを提供するプラットフォームでは、CDN を使用することで、静的アセット（CSS、JavaScript、画像）の読み込み時間を大幅に改善できます。
 
-To configure a CDN:
+CDN を設定するには：
 
-1. Set up a CDN distribution (e.g., CloudFront, Cloudflare, or another provider) pointing to your Chamilo server.
-2. Configure the asset base URL in your environment or Symfony configuration so that static assets are served through the CDN.
-3. Set appropriate cache headers for static files (long expiry for versioned assets).
+1. Chamilo サーバーを指す CDN ディストリビューション（例：CloudFront、Cloudflare、または他のプロバイダ）を設定します。
+2. 環境または Symfony 設定でアセットのベース URL を設定し、静的アセットが CDN を通じて提供されるようにします。
+3. 静的ファイルに適切なキャッシュヘッダーを設定します（バージョン管理されたアセットには長い有効期限を設定）。
 
-## Database Optimization
+## データベースの最適化
 
-| Action | Description |
+| アクション | 説明 |
 |--------|-------------|
-| **Use database connection pooling** | For high-concurrency platforms, configure connection pooling to reduce overhead of establishing database connections. |
-| **Optimize queries** | Chamilo includes database indexes for common queries. Run `ANALYZE TABLE` periodically on MySQL/MariaDB to keep query planner statistics current. |
-| **Separate database server** | For large installations, run the database on a dedicated server rather than sharing resources with the web server. |
+| **データベース接続プールの使用** | 高同時接続のプラットフォームでは、データベース接続の確立に伴うオーバーヘッドを減らすために接続プールを設定します。 |
+| **クエリの最適化** | Chamilo には一般的なクエリ用のデータベースインデックスが含まれています。MySQL/MariaDB で定期的に `ANALYZE TABLE` を実行し、クエリプランナーの統計情報を最新に保ちます。 |
+| **データベースサーバーの分離** | 大規模なインストールでは、データベースをウェブサーバーとリソースを共有せず、専用のサーバーで実行します。 |
 
-## Web Server Configuration
+## ウェブサーバーの設定
 
-| Optimization | Description |
+| 最適化 | 説明 |
 |--------------|-------------|
-| **Enable gzip/brotli compression** | Compress HTML, CSS, and JavaScript responses. Most web servers support this natively. |
-| **Static file caching** | Set long `Cache-Control` and `Expires` headers for static assets. |
-| **PHP-FPM tuning** | Adjust `pm.max_children`, `pm.start_servers`, and `pm.max_requests` based on available RAM and expected concurrency. |
-| **HTTP/2** | Enable HTTP/2 in your web server for multiplexed connections and header compression. |
+| **gzip/brotli 圧縮の有効化** | HTML、CSS、JavaScript のレスポンスを圧縮します。ほとんどのウェブサーバーはこれをネイティブでサポートしています。 |
+| **静的ファイルのキャッシュ** | 静的アセットに長い `Cache-Control` および `Expires` ヘッダーを設定します。 |
+| **PHP-FPM のチューニング** | 利用可能な RAM と予想される同時接続数に基づいて、`pm.max_children`、`pm.start_servers`、`pm.max_requests` を調整します。 |
+| **HTTP/2** | ウェブサーバーで HTTP/2 を有効にし、多重化接続とヘッダー圧縮を利用します。 |
 
-## Tips
+## ヒント
 
-* **OPcache is the single biggest win** -- Ensure it is enabled and properly sized before pursuing other optimizations.
-* **Never run production with `APP_ENV=dev`** -- The debug toolbar and profiler add significant overhead to every request.
-* **Monitor before tuning** -- Use tools like New Relic, Blackfire, or Symfony's built-in profiler (in dev mode) to identify actual bottlenecks rather than guessing.
-* **Warm the cache after every deployment** to avoid the first user hitting a slow uncached request.
+* **OPcache が最大の効果を発揮** -- 他の最適化を試みる前に、OPcache が有効で適切なサイズに設定されていることを確認してください。
+* **本番環境で `APP_ENV=dev` を使用しない** -- デバッグツールバーとプロファイラはすべてのリクエストに大きなオーバーヘッドを追加します。
+* **チューニング前にモニタリング** -- New Relic、Blackfire、または Symfony の組み込みプロファイラ（開発モード時）などのツールを使用して、推測ではなく実際のボトルネックを特定します。
+* **デプロイごとにキャッシュをウォームアップ** -- 最初のユーザーがキャッシュされていない遅いリクエストに遭遇しないようにします。

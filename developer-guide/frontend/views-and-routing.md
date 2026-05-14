@@ -1,107 +1,108 @@
-# Views and Routing
+# ビューとルーティング
 
-Chamilo has a large set of Vue views (page-level components) connected via Vue Router. The actual files live under `assets/vue/views/`.
+Chamiloには、Vue Routerを介して接続された多数のVueビュー（ページレベルのコンポーネント）が用意されています。実際のファイルは `assets/vue/views/` に配置されています。
 
-## Router Architecture
+## ルーターのアーキテクチャ
 
-The router is defined in `assets/vue/router/index.js` using `createWebHistory` for clean URLs.
+ルーターは `assets/vue/router/index.js` で定義されており、クリーンなURLを実現するために `createWebHistory` を使用しています。
 
-Routes are modular — organized into per-feature route files imported into the main router:
+ルートはモジュール化されており、機能ごとにルートファイルに整理され、メインルーターにインポートされています：
 
-| Route module | Pages |
-|-------------|-------|
-| `admin` | Administration panel pages |
-| `sessionAdmin` | Session administration pages |
-| `course` | Course list, creation, home, catalog |
-| `account` | User profile and settings |
-| `personalfile` | Personal file space |
-| `message` | Messaging / inbox |
-| `user` | User management pages |
-| `usergroup` | User group (class) pages |
-| `userreluser` | User relationship (friend/follow) pages |
-| `ccalendarevent` | Course calendar and agenda |
-| `ctoolintro` | Course tool introduction pages |
-| `page` | Static CMS pages |
-| `pageLayout` | Page layout wrappers |
-| `publicPage` | Publicly accessible pages |
-| `social` | Social network pages |
-| `filemanager` | File manager (course documents browser) |
-| `skill` | Skills and competencies pages |
-| `accessurl` | Multi-URL (portal) management pages |
-| `branch` | Branch / network campus pages |
-| `room` | Virtual room pages |
-| `buycourses` | Course purchase pages |
-| `documents` | Document management |
-| `assignments` | Assignment workflow |
-| `links` | External links management |
-| `glossary` | Glossary management |
-| `attendance` | Attendance tracking |
-| `lp` | Learning path player and editor |
-| `dropbox` | Dropbox / file exchange |
-| `blog` | Blog pages |
-| `blogAdmin` | Blog administration |
-| `coursemaintenance` | Course backup and restore |
-| `catalogue` | Course and session catalogs |
+| ルートモジュール | ページ |
+|----------------|---------|
+| `admin` | 管理ダッシュボードのページ |
+| `sessionAdmin` | セッション管理のページ |
+| `course` | コース一覧、作成、ホームページ、カタログ |
+| `account` | ユーザープロフィールと設定 |
+| `personalfile` | 個人ファイルスペース |
+| `message` | メッセージ / 受信トレイ |
+| `user` | ユーザー管理のページ |
+| `usergroup` | ユーザーグループ（クラス）のページ |
+| `userreluser` | ユーザー間の関係（友達/フォロワー）のページ |
+| `ccalendarevent` | コースカレンダーとスケジュール |
+| `ctoolintro` | コースツールの紹介ページ |
+| `page` | CMSの静的ページ |
+| `pageLayout` | ページレイアウトのラッパー |
+| `publicPage` | 公開アクセス可能なページ |
+| `social` | ソーシャルネットワークのページ |
+| `filemanager` | ファイルマネージャー（コースドキュメントブラウザ） |
+| `skill` | スキルと能力のページ |
+| `accessurl` | マルチURL（ポータル）管理のページ |
+| `branch` | ネットワークの支店 / キャンパスのページ |
+| `room` | 仮想ルームのページ |
+| `buycourses` | コース購入のページ |
+| `documents` | ドキュメント管理 |
+| `assignments` | 課題のワークフロー |
+| `links` | 外部リンクの管理 |
+| `glossary` |  glossaryの管理 |
+| `attendance` | 出席追跡 |
+| `lp` | 学習パスのプレイヤーおよびエディター |
+| `dropbox` | Dropbox / ファイル交換 |
+| `blog` | ブログのページ |
+| `blogAdmin` | ブログ管理 |
+| `coursemaintenance` | コースのバックアップと復元 |
+| `catalogue` | コースおよびセッションのカタログ |
 
-## Key Routes
+## 主要なルート
 
-| Path | View | Description |
-|------|------|-------------|
-| `/` | `AppIndex.vue` (or custom) | Application entry point |
-| `/home` | `pages/Home.vue` | Platform home page |
-| `/login` | `pages/Login.vue` | Login page |
-| `/courses` | `views/user/courses/List.vue` | User's enrolled courses |
-| `/sessions` | `views/user/sessions/SessionsCurrent.vue` | Current sessions |
-| `/sessions/past` | `views/user/sessions/SessionsPast.vue` | Past sessions |
-| `/sessions/upcoming` | `views/user/sessions/SessionsUpcoming.vue` | Upcoming sessions |
-| `/course/:id/home` | `views/course/CourseHome.vue` | Course homepage |
-| `/account/home` | `views/account/Home.vue` | User profile |
-| `/admin` | Admin views | Administration panel |
-| `/faq` | `pages/Faq.vue` | FAQ page |
+| パス | ビュー | 説明 |
+|---------|--------------|-----------|
+| `/` | `AppIndex.vue` (またはカスタム) | アプリケーションのエントリーポイント |
+| `/home` | `pages/Home.vue` | プラットフォームのホームページ |
+| `/login` | `pages/Login.vue` | ログインページ |
+| `/courses` | `views/user/courses/List.vue` | ユーザーが登録しているコース |
+| `/sessions` | `views/user/sessions/SessionsCurrent.vue` | 現在のセッション |
+| `/sessions/past` | `views/user/sessions/SessionsPast.vue` | 過去のセッション |
+| `/sessions/upcoming` | `views/user/sessions/SessionsUpcoming.vue` | 今後のセッション |
+| `/course/:id/home` | `views/course/CourseHome.vue` | コースのホームページ |
+| `/account/home` | `views/account/Home.vue` | ユーザープロフィール |
+| `/admin` | 管理者ビュー | 管理ダッシュボード |
+| `/faq` | `pages/Faq.vue` | よくある質問（FAQ）ページ |
 
-## Route Guards
+## ルートガード
 
-The router uses navigation guards (declared with `beforeEach` and `afterEach`) to:
+ルーターはナビゲーションガード（`beforeEach` および `afterEach` で宣言）を使用して以下の機能を提供します：
 
-* Check authentication status via `useSecurityStore` and redirect unauthenticated users to `/login`
-* Verify course context via `useCidReqStore`
-* Apply page-type CSS classes during SPA navigation (replacing what Twig's `PageHelper` would do on a full page load)
-* Support custom Vue template overrides — the entry component at `/` is swapped for a custom `AppIndex.vue` when a custom Vue template is enabled (`var/vue_templates/pages/AppIndex.vue`)
+* `useSecurityStore` を通じて認証ステータスを確認し、未認証ユーザーを `/login` にリダイレクトする
+* `useCidReqStore` を通じてコースコンテキストを確認する
+* SPAナビゲーション中にページタイプのCSSクラスを適用する（Twigの `PageHelper` が完全なページ読み込みで行うことを代替）
+* カスタムVueテンプレートのオーバーライドをサポートする — カスタムVueテンプレートが有効になっている場合（`var/vue_templates/pages/AppIndex.vue`）、`/` のエントリーコンポーネントがカスタムの `AppIndex.vue` に置き換えられる
 
-## View Organization
+---
+## ビューの構成
 
-Views are in `assets/vue/views/`, organized by feature:
+ビューは `assets/vue/views/` 内に機能ごとに整理されています：
 
 ```
 views/
-├── account/          # User profile and settings
-├── admin/            # Admin pages
-├── assignments/      # Assignment submission and grading
-├── attendance/       # Attendance sheets
-├── blog/             # Blog posts and comments
-├── branch/           # Network campus management
-├── buycourses/       # Course purchase flow
-├── ccalendarevent/   # Course calendar
-├── course/           # Course list, home, creation, catalog
-├── coursecategory/   # Course category management
-├── coursemaintenance/# Course backup/restore
-├── ctoolintro/       # Tool introduction pages
-├── documents/        # Document list, creation, media generation
-├── dropbox/          # Dropbox / file exchange
-├── filemanager/      # File browser
-├── glossary/         # Glossary list and term management
-├── links/            # External links
-├── lp/               # Learning path player and editor
-├── message/          # Inbox and messaging
-├── page/             # CMS static pages
-├── pageLayout/       # Page layout wrappers
-├── personalfile/     # Personal file space
-├── room/             # Virtual rooms
-├── sessionadmin/     # Session administration
-├── skill/            # Skills and competencies
-├── social/           # Social network
-├── terms/            # Terms of service
-├── user/             # User management and course/session lists
-├── usergroup/        # User groups (classes)
-└── userreluser/      # User relationships (friends/follows)
+├── account/          # ユーザープロフィールと設定
+├── admin/            # 管理ページ
+├── assignments/      # 課題の提出と評価
+├── attendance/       # 出席簿
+├── blog/             # ブログの投稿とコメント
+├── branch/           # ネットワークキャンパスの管理
+├── buycourses/       # コース購入のフロー
+├── ccalendarevent/   # コースカレンダー
+├── course/           # コース一覧、ホームページ、作成、カタログ
+├── coursecategory/   # コースカテゴリーの管理
+├── coursemaintenance/# コースのバックアップ/復元
+├── ctoolintro/       # ツール紹介ページ
+├── documents/        # ドキュメント一覧、作成、メディア生成
+├── dropbox/          # Dropbox / ファイル交換
+├── filemanager/      # ファイルブラウザ
+├── glossary/         #  glossary 一覧と用語管理
+├── links/            # 外部リンク
+├── lp/               # 学習パスのプレイヤーとエディター
+├── message/          # 受信トレイとメッセージ
+├── page/             # CMSの静的ページ
+├── pageLayout/       # ページレイアウトのラッパー
+├── personalfile/     # 個人ファイルスペース
+├── room/             # 仮想ルーム
+├── sessionadmin/     # セッション管理
+├── skill/            # スキルと能力
+├── social/           # ソーシャルネットワーク
+├── terms/            # 利用規約
+├── user/             # ユーザー管理とコース/セッション一覧
+├── usergroup/        # ユーザーグループ（クラス）
+└── userreluser/      # ユーザー間の関係（友達/フォロワー）
 ```

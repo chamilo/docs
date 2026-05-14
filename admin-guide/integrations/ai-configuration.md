@@ -1,76 +1,76 @@
-# AI Configuration
+# AI設定
 
-Chamilo 2.0 includes AI-powered features that require configuration before they become available to teachers and learners.
+Chamilo 2.0には、教師や学習者が利用可能になる前に設定が必要なAI搭載機能が含まれています。
 
-## Supported AI Providers
+## サポートされているAIプロバイダ
 
-Chamilo supports multiple AI providers:
+Chamiloは複数のAIプロバイダをサポートしています：
 
-| Provider | Capabilities |
+| プロバイダ | 機能 |
 |----------|-------------|
-| **DeepSeek** | Text generation |
-| **Google Gemini** | Text, image, video generation |
-| **Grok** | Text, image, video generation |
-| **Mistral** | Text generation |
-| **OpenAI** | Text, image, video generation |
+| **DeepSeek** | テキスト生成 |
+| **Google Gemini** | テキスト、画像、動画生成 |
+| **Grok** | テキスト、画像、動画生成 |
+| **Mistral** | テキスト生成 |
+| **OpenAI** | テキスト、画像、動画生成 |
 
-Each provider can be configured for different types of AI tasks:
+各プロバイダは、さまざまな種類のAIタスク用に設定可能です：
 
-* **Text** — Used for exercise generation, learning path generation, AI grading, and the AI tutor
-* **Image** — Used for AI image generation
-* **Video** — Used for AI video generation (where supported)
-* **Document** — Used for AI document analysis
+* **テキスト** — 演習生成、学習パス生成、AI採点、AIチューターに使用
+* **画像** — AI画像生成に使用
+* **動画** — AI動画生成に使用（対応している場合）
+* **ドキュメント** — AIドキュメント分析に使用
 
-## Configuration Steps
+## 設定手順
 
-### 1. Obtain API Keys
+### 1. APIキーの取得
 
-Register for an account with your chosen AI provider and obtain an API key:
+選択したAIプロバイダにアカウントを登録し、APIキーを取得してください：
 
 * **DeepSeek**: [platform.deepseek.com](https://platform.deepseek.com/)
-* **Google Gemini**: Google AI Studio or Google Cloud
+* **Google Gemini**: Google AI StudioまたはGoogle Cloud
 * **Grok**: [console.x.ai](https://console.x.ai/)
 * **Mistral**: [console.mistral.ai](https://console.mistral.ai/)
 * **OpenAI**: [platform.openai.com](https://platform.openai.com/)
 
-### 2. Configure Providers in Chamilo
+### 2. Chamiloでのプロバイダ設定
 
-![The AI helpers configuration page showing provider settings with API key, model, and endpoint fields](/.gitbook/assets/admin-ai-helpers-config.png)
+![AIヘルパー設定ページ。APIキー、モデル、エンドポイントフィールドを含むプロバイダ設定が表示されています](/.gitbook/assets/admin-ai-helpers-config.png)
 
-In the platform settings, navigate to the **AI Helpers** section:
+プラットフォーム設定で、**AIヘルパー**セクションに移動します：
 
-1. **Enable AI helpers** — Turn on the AI features globally
-2. **Configure AI providers** — Add one or more providers with:
-   * **Provider name** (deepseek, gemini, grok, mistral, openai)
-   * **API key** — Your API key for the provider
-   * **Model** — The specific model to use (e.g., `gpt-4`, `gemini-pro`, `mistral-large`)
-   * **API URL** — The endpoint URL (pre-configured for standard providers)
+1. **AIヘルパーを有効にする** — AI機能をグローバルにオンにします
+2. **AIプロバイダを設定する** — 以下の内容で1つ以上のプロバイダを追加します：
+   * **プロバイダ名** (deepseek, gemini, grok, mistral, openai)
+   * **APIキー** — プロバイダ用のAPIキー
+   * **モデル** — 使用する特定のモデル（例：`gpt-4`, `gemini-pro`, `mistral-large`）
+   * **API URL** — エンドポイントURL（標準プロバイダ用に事前設定済み）
 
-You can configure multiple providers. The first provider in the configuration becomes the default.
+複数のプロバイダを設定できます。設定内の最初のプロバイダがデフォルトになります。
 
-### 3. Enable Features Per Course
+### 3. コースごとの機能の有効化
 
-AI features can be enabled or disabled at the course level. Teachers can toggle:
+AI機能はコースレベルで有効または無効にできます。教師は以下を切り替えることができます：
 
-* **AI Tutor chatbot** — The AI assistant for learners
-* **Assignment grader** — AI-generated grading recommendation
-* **Exercise generator** — AI-generated quiz questions
-* **Learning path generator** — AI-generated learning sequences
-* **Image/Video generator** — AI-generated images and videos in documents
+* **AIチューター・チャットボット** — 学習者向けのAIアシスタント
+* **課題採点者** — AI生成の採点推奨
+* **演習ジェネレーター** — AI生成のクイズ問題
+* **学習パスジェネレーター** — AI生成の学習シーケンス
+* **画像/動画ジェネレーター** — ドキュメント内のAI生成画像および動画
 
-This allows different courses to use different AI configurations based on their needs.
+これにより、異なるコースがニーズに応じて異なるAI設定を使用できます。
 
-## Cost Considerations
+## コストに関する考慮事項
 
-AI API calls have costs associated with them. Consider:
+AI APIの呼び出しにはコストがかかります。以下の点を考慮してください：
 
-* **Setting usage limits** — Monitor and limit AI API usage to control costs
-* **Choosing models wisely** — Smaller, less expensive models may be sufficient for many educational tasks
-* **Tracking usage** — Chamilo logs AI requests to help you monitor consumption
+* **使用制限の設定** — コストを管理するためにAI APIの使用を監視し制限する
+* **モデルを賢く選択する** — 多くの教育タスクには、小規模で安価なモデルで十分な場合があります
+* **使用状況の追跡** — ChamiloはAIリクエストを記録し、消費量の監視を支援します
 
-## Tips
+## ヒント
 
-* **Start with one provider** — Configure and test one provider before adding more
-* **Test with a course** — Enable AI features in a test course first to verify they work as expected
-* **Communicate with teachers** — Let teachers know which AI features are available and how to use them
-* **Monitor quality** — Regularly review AI-generated content to ensure it meets your educational standards
+* **1つのプロバイダから始める** — 複数のプロバイダを追加する前に、1つのプロバイダを設定してテストする
+* **コースでテストする** — 期待通りに動作することを確認するために、最初にテストコースでAI機能を有効にする
+* **教師とのコミュニケーション** — 利用可能なAI機能とその使用方法を教師に知らせる
+* **品質の監視** — AI生成コンテンツが教育基準を満たしていることを確認するために定期的にレビューする

@@ -1,59 +1,59 @@
-# Video Conferencing
+# ビデオ会議
 
-Chamilo integrates with video conferencing platforms to enable live sessions within courses.
+Chamiloは、コース内でライブセッションを可能にするために、ビデオ会議プラットフォームと統合されています。
 
-## Supported Platforms
+## 対応プラットフォーム
 
 ### BigBlueButton
 
-**BigBlueButton** (BBB) is an open-source web conferencing system designed for online learning. It is the most commonly used video conferencing solution with Chamilo.
+**BigBlueButton** (BBB) は、オンライン学習向けに設計されたオープンソースのウェブ会議システムです。Chamiloで最も一般的に使用されるビデオ会議ソリューションです。
 
-#### Configuration
+#### 設定方法
 
-1. Install BigBlueButton on a separate server (see [BigBlueButton documentation](https://docs.bigbluebutton.org/))
-2. Use bbb-conf --salt on the BBB server to get the integration details
-3. In Chamilo platform settings, **Plugins**, install the Videoconference plugin and enter its config to set:
-   * **BBB server URL** — The address of your BBB server
-   * **BBB salt/secret** — The API secret from your BBB server
-4. Save
-5. **Enable** the Videoconference plugin
-6. Some special features are available to admins, so make sure you enable it in the *admin_page* region
+1. 別のサーバーにBigBlueButtonをインストールします（[BigBlueButtonドキュメント](https://docs.bigbluebutton.org/)を参照）
+2. BBBサーバーで`bbb-conf --salt`を使用して統合の詳細を取得します
+3. Chamiloのプラットフォーム設定で、**プラグイン**からVideoconferenceプラグインをインストールし、以下の設定を行います：
+   * **BBBサーバーURL** — BBBサーバーのアドレス
+   * **BBB salt/secret** — BBBサーバーからのAPIシークレット
+4. 保存します
+5. Videoconferenceプラグインを**有効化**します
+6. 管理者向けの特別な機能が利用可能なので、*admin_page*リージョンで有効化してください
 
-#### Features Available in Chamilo
+#### Chamiloで利用可能な機能
 
-* Start/join meetings from within a course
-* Automatic room creation per course
-* Meeting recordings (if enabled)
-* Screen sharing, whiteboard, breakout rooms
-* Chat alongside video
+* コース内から会議を開始/参加
+* コースごとに自動的に部屋を作成
+* 会議の録画（有効化されている場合）
+* 画面共有、ホワイトボード、ブレイクアウトルーム
+* ビデオと並行してチャット
 
 ### Zoom
 
-Chamilo can also integrate with **Zoom** for video conferencing.
+Chamiloは、ビデオ会議のために**Zoom**とも統合可能です。
 
-#### Configuration
+#### 設定方法
 
-1. Create a Zoom app in the Zoom Marketplace
-2. In Chamilo, configure the Zoom API credentials
-3. Enable the Zoom integration
+1. Zoom MarketplaceでZoomアプリを作成します
+2. Chamilo内でZoom APIの認証情報を設定します
+3. Zoom統合を有効化します
 
-#### How It Works
+#### 動作の仕組み
 
-When Zoom is configured, teachers can create and launch Zoom meetings from within their course. Learners join through the Chamilo interface.
+Zoomが設定されると、教師はコース内からZoom会議を作成および開始できます。学習者はChamiloのインターフェースを通じて参加します。
 
-## Choosing Between BBB and Zoom
+## BBBとZoomの選択
 
-| Feature | BigBlueButton | Zoom |
+| 機能 | BigBlueButton | Zoom |
 |---------|--------------|------|
-| Cost | Free (open-source), but requires your own server | Requires a Zoom subscription |
-| Hosting | Self-hosted | Cloud-hosted by Zoom |
-| Integration depth | Deep (built for LMS use) | Standard |
-| Recording | Server-side, stored on your infrastructure | Zoom cloud or local |
-| Whiteboard | Built-in | Built-in |
-| Breakout rooms | Yes | Yes |
+| コスト | 無料（オープンソース）、ただし独自のサーバーが必要 | Zoomのサブスクリプションが必要 |
+| ホスティング | セルフホスティング | Zoomによるクラウドホスティング |
+| 統合の深さ | 深い（LMS用に構築） | 標準 |
+| 録画 | サーバー側、自身のインフラストラクチャに保存 | Zoomクラウドまたはローカル |
+| ホワイトボード | 組み込み | 組み込み |
+| ブレイクアウトルーム | あり | あり |
 
-## Tips
+## ヒント
 
-* **Separate server for BBB** — BigBlueButton should run on its own dedicated server for best performance, not on the same server as Chamilo
-* **Test before classes** — Always test the video conferencing setup before a live session
-* **Check bandwidth** — Ensure your server and network can handle the expected number of concurrent users
+* **BBB用の別サーバー** — BigBlueButtonは最高のパフォーマンスを得るために、Chamiloと同じサーバーではなく、専用のサーバーで実行する必要があります
+* **授業前のテスト** — ライブセッションの前に必ずビデオ会議の設定をテストしてください
+* **帯域幅の確認** — サーバーとネットワークが予想される同時ユーザー数を処理できることを確認してください

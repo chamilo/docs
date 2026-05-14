@@ -1,33 +1,33 @@
-# Course Progress
+# コースの進捗
 
-The course progress tool helps you define the thematic structure of your course and track how much of the planned content has been delivered.
+コースの進捗ツールは、コースのテーマ構造を定義し、計画したコンテンツがどの程度提供されたかを追跡するのに役立ちます。
 
-To students, it is a useful tool for those who have been sick for a few days and could not attend class, as they will known what topics have been talked about and how far the rest of the class has progressed in their absence.
+生徒にとっては、数日間病気で授業に出席できなかった場合に、どのトピックが議論され、クラスの他の生徒がどの程度進んでいるかを知ることができる便利なツールです。
 
-## How It Works
+## 仕組み
 
-Course progress is organized into three layers:
+コースの進捗は3つの層で構成されています：
 
-* **Thematic sections** — The main topics or modules of your course
-* **Thematic plan** — For each section, what you intend to cover. Each plan entry is one of a fixed set of types: **Objectives**, **Skills to acquire**, **Methodology**, **Infrastructure**, **Assessment**, or **Others**.
-* **Thematic advance** — Discrete delivery records under each section, each with a start date and a duration in hours. Mark advances as **done** as you deliver them to track real progress against the plan.
+* **テーマセクション** — コースの主要なトピックまたはモジュール
+* **テーマ計画** — 各セクションで何を扱う予定かを記述します。計画の各エントリは固定されたタイプに分類されます：**目標**、**習得すべきスキル**、**方法論**、**インフラストラクチャ**、**評価**、または**その他**。
+* **テーマ進捗** — 各セクションの下に、開始日と時間（時間単位）の離散的な配信記録を追加します。配信した進捗を**完了**としてマークすることで、計画に対する実際の進捗を追跡できます。
 
-## Setting Up Course Progress
+## コースの進捗を設定する
 
-1. Open the **Course progress** tool from the course homepage
-2. Create **thematic sections** that correspond to your course's main topics or modules
-3. Within each section, add **plan** entries by type to describe what you intend to cover
-4. As you deliver the content, add **thematic advances** with their date and duration, and mark them as done
-5. Decide the visibility of that information on the course homepage by changing the related settings in the **Course settings** section (cog icon at the top of the course homepage)
+1. コースのホームページで**コースの進捗**ツールを開きます
+2. コースの主要なトピックまたはモジュールに対応する**テーマセクション**を作成します
+3. 各セクション内で、扱う予定の内容をタイプ別に記述する**計画**エントリを追加します
+4. コンテンツを配信する際に、開始日と時間を指定した**テーマ進捗**を追加し、完了としてマークします
+5. コースのホームページでのこれらの情報の表示設定を、**コース設定**セクション（コースホームページ上部のギアアイコン）で変更して決定します
 
-You can optionally link a thematic advance to an attendance sheet so its start date is pulled from your attendance records. Sections (with their plan and advances) can also be **copied** within the same course/session.
+オプションとして、テーマ進捗を出席シートにリンクさせ、開始日を出席記録から抽出することができます。セクション（その計画と進捗を含む）は、同じコース/セッション内で**コピー**することも可能です。
 
-## Use Cases
+## ユースケース
 
-* **Track your teaching plan** — Monitor which parts of the course have been delivered and which remain
-* **Attendance integration** — Course progress can work alongside the attendance tool to correlate presence with topics covered
-* **Reporting** — Get a clear view of course delivery status over time
+* **授業計画の追跡** — コースのどの部分が配信され、どの部分がまだ残っているかを監視します
+* **出席との統合** — コースの進捗は出席ツールと連携して、出席と扱われたトピックを関連付けることができます
+* **レポート** — 時間の経過に伴うコースの配信状況を明確に把握できます
 
-## For Learners
+## 生徒向け
 
-Learners can view the course progress to understand the course structure and see what topics have been covered so far. This is particularly useful for learners who join late or miss sessions.
+生徒はコースの進捗を確認することで、コースの構造を理解し、これまでにどのトピックが扱われたかを確認できます。これは、遅れて参加した生徒やセッションを欠席した生徒にとって特に役立ちます。
