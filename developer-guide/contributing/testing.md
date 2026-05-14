@@ -1,12 +1,12 @@
 # Testing
 
-## PHP Testing
+## Testing PHP
 
-Chamilo uses **PHPUnit** for backend testing.
+Chamilo utilizza **PHPUnit** per il testing del backend.
 
-### Test Database Setup
+### Configurazione del Database di Test
 
-Tests require a dedicated database. Create `.env.test.local` with your test database credentials:
+I test richiedono un database dedicato. Crea il file `.env.test.local` con le credenziali del tuo database di test:
 
 ```ini
 DATABASE_HOST='127.0.0.1'
@@ -16,7 +16,7 @@ DATABASE_USER='root'
 DATABASE_PASSWORD='root'
 ```
 
-Then initialise the test database:
+Quindi inizializza il database di test:
 
 ```bash
 php bin/console --env=test cache:clear
@@ -25,28 +25,28 @@ php bin/console --env=test doctrine:schema:create
 php bin/console --env=test doctrine:fixtures:load --no-interaction
 ```
 
-To reset after schema changes:
+Per resettare dopo modifiche allo schema:
 
 ```bash
 php bin/console --env=test doctrine:schema:update --force --complete
 ```
 
-### Running Tests
+### Esecuzione dei Test
 
 ```bash
-# Run all tests
+# Esegui tutti i test
 php bin/phpunit
 
-# Run a specific test file
+# Esegui un file di test specifico
 php bin/phpunit tests/CoreBundle/Repository/UserRepositoryTest.php
 
-# Run tests with HTML coverage report
+# Esegui i test con report di copertura HTML
 php bin/phpunit --coverage-html var/coverage
 ```
 
-### Test Location
+### Posizione dei Test
 
-Tests are in the `tests/` directory:
+I test si trovano nella directory `tests/`:
 
 ```
 tests/
@@ -64,82 +64,82 @@ tests/
 ├── CourseBundle/
 │   ├── Repository/
 │   └── Settings/
-├── behat/               # Behat end-to-end tests
-├── fixtures/            # Alice fixture files
-├── AbstractApiTest.php  # Base class for API tests
-└── ChamiloTestTrait.php # Shared test helpers
+├── behat/               # Test end-to-end Behat
+├── fixtures/            # File di fixture Alice
+├── AbstractApiTest.php  # Classe base per test API
+└── ChamiloTestTrait.php # Helper condivisi per i test
 ```
 
-### Test Types
+### Tipi di Test
 
-* **Unit/Integration tests** — PHPUnit tests in `CoreBundle/` and `CourseBundle/`; most hit a real database (via `dama/doctrine-test-bundle`)
-* **Functional (API) tests** — Extend `AbstractApiTest` and test HTTP endpoints end-to-end
-* **Behat tests** — Browser-level acceptance tests in `tests/behat/features/` (see below)
+* **Test di unità/integrazione** — Test PHPUnit in `CoreBundle/` e `CourseBundle/`; la maggior parte accede a un database reale (tramite `dama/doctrine-test-bundle`)
+* **Test funzionali (API)** — Estendono `AbstractApiTest` e testano gli endpoint HTTP end-to-end
+* **Test Behat** — Test di accettazione a livello di browser in `tests/behat/features/` (vedi sotto)
 
-## Behat (End-to-End) Tests
+## Test Behat (End-to-End)
 
-Chamilo has a Behat test suite for browser-level acceptance testing. It requires a running Chamilo instance, Chrome, and ChromeDriver.
+Chamilo dispone di una suite di test Behat per il testing di accettazione a livello di browser. Richiede un'istanza di Chamilo in esecuzione, Chrome e ChromeDriver.
 
 ```bash
-# From the tests/behat/ directory:
+# Dalla directory tests/behat/:
 ../../vendor/behat/behat/bin/behat features/actionInstall.feature
 ../../vendor/behat/behat/bin/behat features/createUser.feature
 ../../vendor/behat/behat/bin/behat features/createCourse.feature
 
-# Or run all features:
+# Oppure esegui tutte le funzionalità:
 ../../vendor/behat/behat/bin/behat
 ```
 
-Configure the base URL in `tests/behat/behat.yml` before running.
+Configura l'URL di base in `tests/behat/behat.yml` prima di eseguire i test.
 
-## Frontend Checks
+## Controlli Frontend
 
 ```bash
-# Lint JavaScript/Vue (ESLint with Prettier)
+# Lint JavaScript/Vue (ESLint con Prettier)
 yarn eslint assets/vue/
 
-# Type-check TypeScript
+# Controllo tipi TypeScript
 yarn tsc --noEmit
 
-# Build production assets (verifies the entire build compiles)
+# Costruisci asset di produzione (verifica che l'intera build si compili)
 yarn build
 ```
 
-## PHP Code Quality
+## Qualità del Codice PHP
 
-Chamilo uses **ECS** (Easy Coding Standard), **PHPStan**, and **Psalm** for code quality. Composer shortcuts are available for each:
+Chamilo utilizza **ECS** (Easy Coding Standard), **PHPStan** e **Psalm** per la qualità del codice. Sono disponibili scorciatoie Composer per ciascuno:
 
 ```bash
-# Check code style (ECS — Easy Coding Standard)
+# Controlla lo stile del codice (ECS — Easy Coding Standard)
 composer phpcs
-# or directly:
+# oppure direttamente:
 vendor/bin/ecs check
 
-# Auto-fix code style violations
+# Correggi automaticamente le violazioni dello stile del codice
 composer phpcs-fix
-# or directly:
+# oppure direttamente:
 vendor/bin/ecs check --fix
 
-# Static analysis with PHPStan (level 5, scans src/ and tests/)
+# Analisi statica con PHPStan (livello 5, scansiona src/ e tests/)
 composer phpstan
-# or directly:
+# oppure direttamente:
 vendor/bin/phpstan analyse
 
-# Static analysis with Psalm
+# Analisi statica con Psalm
 composer psalm
-# or directly:
+# oppure direttamente:
 vendor/bin/psalm --show-info=false
 ```
 
-Note: there is no `php-cs-fixer` in this project. ECS (`symplify/easy-coding-standard`) is the code style tool.
+Nota: in questo progetto non è presente `php-cs-fixer`. ECS (`symplify/easy-coding-standard`) è lo strumento per lo stile del codice.
 
-## Continuous Integration
+## Integrazione Continua
 
-Pull requests are automatically checked by four GitHub Actions workflows:
+Le pull request vengono automaticamente controllate da quattro workflow di GitHub Actions:
 
-| Workflow | What it runs |
+| Workflow | Cosa esegue |
 |----------|-------------|
-| `phpunit.yml` | PHPUnit test suite |
-| `format_code.yml` | ECS code style check |
-| `php_analysis.yml` | Psalm, Doctrine schema validation, security checker |
-| `behat.yml` | Behat end-to-end tests |
+| `phpunit.yml` | Suite di test PHPUnit |
+| `format_code.yml` | Controllo stile codice ECS |
+| `php_analysis.yml` | Psalm, validazione schema Doctrine, controllo sicurezza |
+| `behat.yml` | Test end-to-end Behat |

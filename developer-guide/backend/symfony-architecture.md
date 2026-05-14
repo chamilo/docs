@@ -1,61 +1,61 @@
-# Symfony Architecture
+# Architettura di Symfony
 
-## Bundles
+## Bundle
 
-Chamilo 2.0 is structured into three Symfony bundles:
+Chamilo 2.0 è strutturato in tre bundle Symfony:
 
 ### CoreBundle (`src/CoreBundle/`)
 
-The largest bundle, handling all platform-wide concerns:
+Il bundle più grande, che gestisce tutte le questioni a livello di piattaforma:
 
-* **Users and authentication** — User entity, roles, JWT tokens, OAuth2 providers
-* **Resource system** — ResourceNode and ResourceFile (the unified content abstraction)
-* **Platform settings** — settings schemas in `src/CoreBundle/Settings/` covering every configurable aspect
-* **Administration** — Admin controllers for user, course, session, and plugin management
-* **AI providers** — Factory pattern for OpenAI, Gemini, Mistral, DeepSeek, Grok
-* **File storage** — Flysystem-based storage adapters (local, S3, Azure, GCS)
-* **Security** — Voters, access control, role hierarchy
-* **Tools** — course tool definitions registered through the tool system
+* **Utenti e autenticazione** — Entità Utente, ruoli, token JWT, provider OAuth2
+* **Sistema di risorse** — ResourceNode e ResourceFile (l'astrazione unificata dei contenuti)
+* **Impostazioni della piattaforma** — Schemi di impostazioni in `src/CoreBundle/Settings/` che coprono ogni aspetto configurabile
+* **Amministrazione** — Controller di amministrazione per la gestione di utenti, corsi, sessioni e plugin
+* **Provider AI** — Pattern Factory per OpenAI, Gemini, Mistral, DeepSeek, Grok
+* **Archiviazione file** — Adattatori di archiviazione basati su Flysystem (locale, S3, Azure, GCS)
+* **Sicurezza** — Voters, controllo degli accessi, gerarchia dei ruoli
+* **Strumenti** — Definizioni degli strumenti del corso registrati tramite il sistema degli strumenti
 
 ### CourseBundle (`src/CourseBundle/`)
 
-Everything specific to course content:
+Tutto ciò che riguarda specificamente i contenuti del corso:
 
-* **Content entities** — 101 entities for documents, exercises, learning paths, forums, glossaries, surveys, attendance, blogs, assignments, and more
-* **Course copy** — Import/export with Common Cartridge 1.3 and Moodle format support
-* **Course settings** — Course-level setting schemas
+* **Entità dei contenuti** — 101 entità per documenti, esercizi, percorsi di apprendimento, forum, glossari, sondaggi, presenze, blog, compiti e altro ancora
+* **Copia del corso** — Importazione/esportazione con supporto per Common Cartridge 1.3 e formato Moodle
+* **Impostazioni del corso** — Schemi di impostazioni a livello di corso
 
 ### LtiBundle (`src/LtiBundle/`)
 
-LTI 1.3 standard implementation:
+Implementazione dello standard LTI 1.3:
 
-* **Platform and tool registration** — Manage external tool connections
-* **Launch handling** — LTI launch flow controllers
-* **Grade passback** — Return grades from external tools to Chamilo
+* **Registrazione di piattaforma e strumenti** — Gestione delle connessioni con strumenti esterni
+* **Gestione del lancio** — Controller per il flusso di lancio LTI
+* **Restituzione dei voti** — Restituzione dei voti da strumenti esterni a Chamilo
 
-## Service Container
+## Container dei Servizi
 
-Chamilo uses Symfony's dependency injection container. Services are configured in:
+Chamilo utilizza il container di dependency injection di Symfony. I servizi sono configurati in:
 
-* `config/services.yaml` — Global service definitions
-* Each bundle's `DependencyInjection/` directory — Bundle-specific services
+* `config/services.yaml` — Definizioni dei servizi globali
+* Directory `DependencyInjection/` di ciascun bundle — Servizi specifici del bundle
 
-## Security Architecture
+## Architettura di Sicurezza
 
-The security system is configured in `config/packages/security.yaml`:
+Il sistema di sicurezza è configurato in `config/packages/security.yaml`:
 
-* **Password hashing** — Supports bcrypt (default), with migration from legacy SHA1 and MD5
-* **Role hierarchy** — 18 roles organized hierarchically (ROLE_GLOBAL_ADMIN > ROLE_ADMIN > ROLE_TEACHER > ROLE_STUDENT > ROLE_USER; additional roles include ROLE_HR, ROLE_INVITEE, ROLE_STUDENT_BOSS, ROLE_SESSION_MANAGER, ROLE_QUESTION_MANAGER)
-* **Context-sensitive roles** — Course-level roles (ROLE_CURRENT_COURSE_TEACHER, ROLE_CURRENT_COURSE_STUDENT) are computed per-request based on enrollment
-* **Firewall** — JWT authentication for API, session-based for web interface
-* **Voters** — Resource-level access control through Symfony voters
+* **Hashing delle password** — Supporta bcrypt (predefinito), con migrazione da SHA1 e MD5 legacy
+* **Gerarchia dei ruoli** — 18 ruoli organizzati gerarchicamente (ROLE_GLOBAL_ADMIN > ROLE_ADMIN > ROLE_TEACHER > ROLE_STUDENT > ROLE_USER; ruoli aggiuntivi includono ROLE_HR, ROLE_INVITEE, ROLE_STUDENT_BOSS, ROLE_SESSION_MANAGER, ROLE_QUESTION_MANAGER)
+* **Ruoli sensibili al contesto** — Ruoli a livello di corso (ROLE_CURRENT_COURSE_TEACHER, ROLE_CURRENT_COURSE_STUDENT) calcolati per richiesta in base all'iscrizione
+* **Firewall** — Autenticazione JWT per API, basata su sessione per l'interfaccia web
+* **Voters** — Controllo degli accessi a livello di risorsa tramite i voters di Symfony
 
-## Legacy Code
+## Codice Legacy
 
-Some features still use legacy PHP code in `public/main/`:
+Alcune funzionalità utilizzano ancora codice PHP legacy in `public/main/`:
 
-* Exercise rendering and interaction
-* Learning path player
-* Some admin tools
+* Rendering e interazione degli esercizi
+* Player dei percorsi di apprendimento
+* Alcuni strumenti di amministrazione
 
-These are progressively being migrated to the Symfony+Vue architecture. Legacy pages are served through a compatibility layer that bootstraps the Symfony kernel.
+Queste funzionalità vengono progressivamente migrate all'architettura Symfony+Vue. Le pagine legacy vengono servite tramite un livello di compatibilità che avvia il kernel di Symfony.

@@ -1,120 +1,109 @@
-# Skills Settings
+# Impostazioni delle Competenze
 
-Behaviour of the **Skills** system — skills tree, awarding rules, profile integration.
+Comportamento del sistema **Competenze** — albero delle competenze, regole di assegnazione, integrazione nel profilo.
 
-Access these settings under **Administration > Configuration settings > Skills**. This category contains **13 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+Accedi a queste impostazioni tramite **Amministrazione > Impostazioni di configurazione > Competenze**. Questa categoria contiene **13 impostazioni**, elencate di seguito con il titolo e il commento forniti nei dati predefiniti delle impostazioni della piattaforma (`SettingsCurrentFixtures.php`).
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> Il nome della variabile nel codice è mostrato in monospace. Utilizzalo quando scrivi script tramite l'API o quando devi modificare queste impostazioni a livello globale editando [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
 
-## Settings
+## Impostazioni
 
 ### `allow_hr_skills_management`
 
-**Allow HR skills management**
+**Consenti la gestione delle competenze da parte delle Risorse Umane**
 
-Allows HR to manage skills
+Permette alle Risorse Umane di gestire le competenze.
 
-*Default: `true`*
-
+*Predefinito: `true`*
 
 ### `allow_private_skills`
 
-**Hide skills from learners**
+**Nascondi le competenze agli studenti**
 
-If enabled, skills can only be visible for admins, teachers (related to a user via a course), and HRM users (if related to a user).
+Se abilitato, le competenze saranno visibili solo per amministratori, insegnanti (collegati a un utente tramite un corso) e utenti delle Risorse Umane (se collegati a un utente).
 
-*Default: `false`*
-
+*Predefinito: `false`*
 
 ### `allow_skill_rel_items`
 
-**Enable linking skills to items**
+**Abilita il collegamento delle competenze agli elementi**
 
-This enables a major feature that enables any item to be linked to (and as such to allow acquisition of) a skill. The feature still requires the teacher to confirm the acquisition of the skill, so the acquisition is not automatic.
+Questa opzione attiva una funzionalità importante che consente di collegare qualsiasi elemento a una competenza (e quindi di permetterne l'acquisizione). La funzionalità richiede comunque che l'insegnante confermi l'acquisizione della competenza, quindi l'acquisizione non è automatica.
 
-*Default: `false`*
-
+*Predefinito: `false`*
 
 ### `allow_skills_tool`
 
-**Allow Skills tool**
+**Consenti lo strumento Competenze**
 
-Users can see their skills in the social network and in a block in the homepage.
+Gli utenti possono vedere le loro competenze nella rete sociale e in un blocco nella homepage.
 
-*Default: `true`*
+*Predefinito: `true`*
 
 ### `allow_teacher_access_student_skills`
 
-**Allow teachers to access learners' skills**
+**Consenti agli insegnanti di accedere alle competenze degli studenti**
 
-[inferred] Allow instructors to view and monitor skills acquired by learners in their courses.
+[dedotto] Permette agli insegnanti di visualizzare e monitorare le competenze acquisite dagli studenti nei loro corsi.
 
-*Default: `false`*
-
+*Predefinito: `false`*
 
 ### `badge_assignation_notification`
 
-**Send notification to learner when a skill/badge has been acquired**
+**Invia una notifica allo studente quando una competenza/badge è stata acquisita**
 
-[inferred] Send notifications to learners when they acquire a new skill or badge achievement.
+[dedotto] Invia notifiche agli studenti quando acquisiscono una nuova competenza o un badge.
 
-*Default: `false`*
-
+*Predefinito: `false`*
 
 ### `hide_skill_levels`
 
-**Hide skill levels feature**
+**Nascondi la funzionalità dei livelli di competenza**
 
-[inferred] Conceal the skill level hierarchy and level labels in skill-related views.
+[dedotto] Nasconde la gerarchia dei livelli di competenza e le etichette dei livelli nelle viste relative alle competenze.
 
-*Default: `false`*
-
+*Predefinito: `false`*
 
 ### `manual_assignment_subskill_autoload`
 
-**Assigning skills to user: sub-skills auto-loading**
+**Assegnazione manuale delle competenze a un utente: caricamento automatico delle sotto-competenze**
 
-When manually assigning skills to a user, the form can be set to automatically offer you to assign a sub-skill instead of the skill you selected.
+Quando si assegna manualmente una competenza a un utente, il modulo può essere impostato per offrire automaticamente l'assegnazione di una sotto-competenza invece della competenza selezionata.
 
-*Default: `false`*
-
+*Predefinito: `false`*
 
 ### `openbadges_backpack`
 
-**OpenBadges backpack URL**
+**URL del backpack OpenBadges**
 
-The URL of the OpenBadges backpack server that will be used by default for all users wanting to export their badges. This defaults to the open and free Mozilla Foundation backpack repository: https://backpack.openbadges.org/
+L'URL del server backpack OpenBadges che verrà utilizzato come predefinito per tutti gli utenti che desiderano esportare i loro badge. Di default, punta al repository gratuito e aperto della Mozilla Foundation: https://backpack.openbadges.org/
 
 ### `show_full_skill_name_on_skill_wheel`
 
-**Show full skill name on skill wheel**
+**Mostra il nome completo della competenza nella ruota delle competenze**
 
-On the wheel of skills, it shows the name of the skill when it has short code.
+Nella ruota delle competenze, mostra il nome completo della competenza quando ha un codice abbreviato.
 
-*Default: `false`*
-
+*Predefinito: `false`*
 
 ### `skill_levels_names`
 
-**Skill levels names**
+**Nomi dei livelli di competenza**
 
-Define names for levels of skills as an array of id => name.
+Definisci i nomi per i livelli di competenza come un array di id => nome.
 
 ### `skills_hierarchical_view_in_user_tracking`
 
-**Show skills as a hierarchical table**
+**Mostra le competenze come tabella gerarchica**
 
-[inferred] Display learner skills as a hierarchical tree structure in progress and reporting pages.
+[dedotto] Visualizza le competenze degli studenti come una struttura ad albero gerarchica nelle pagine di progresso e report.
 
-*Default: `false`*
-
+*Predefinito: `false`*
 
 ### `skills_teachers_can_assign_skills`
 
-**Allow teachers to set which skills are acquired through their courses**
+**Consenti agli insegnanti di stabilire quali competenze sono acquisite tramite i loro corsi**
 
-By default, only admins can decide which skills can be acquired through which course.
+Di default, solo gli amministratori possono decidere quali competenze possono essere acquisite tramite quale corso.
 
-*Default: `false`*
-
-
+*Predefinito: `false`*

@@ -1,42 +1,42 @@
-# Templates
+# Modelli
 
-Chamilo uses templates for certificates, documents, and emails. You can customize these templates to match your organization's branding and requirements.
+Chamilo utilizza modelli per certificati, documenti ed email. Puoi personalizzare questi modelli per adattarli al branding e alle esigenze della tua organizzazione.
 
-## Certificate Templates
+## Modelli di Certificati
 
-Certificate templates define the layout and content of certificates awarded to learners who meet gradebook thresholds.
+I modelli di certificati definiscono il layout e il contenuto dei certificati assegnati agli studenti che raggiungono le soglie di valutazione nel registro dei voti.
 
-### Customizing a Certificate Template
+### Personalizzazione di un Modello di Certificato
 
-Certificate templates use HTML and CSS with placeholder variables:
+I modelli di certificati utilizzano HTML e CSS con variabili segnaposto:
 
-| Variable | Replaced with |
+| Variabile | Sostituito con |
 |----------|-------------|
-| Student name | The learner's full name |
-| Course name | The name of the course |
-| Date | The date the certificate was earned |
-| Score | The learner's final score |
-| Barcode | A barcode placeholder (`((certificate_barcode))`) used for verification |
+| Nome dello studente | Il nome completo dello studente |
+| Nome del corso | Il nome del corso |
+| Data | La data in cui il certificato è stato conseguito |
+| Punteggio | Il punteggio finale dello studente |
+| Codice a barre | Un segnaposto per il codice a barre (`((certificate_barcode))`) utilizzato per la verifica |
 
-### Uploading a Template
+### Caricamento di un Modello
 
-1. Navigate to certificate template management
-2. Upload or edit the HTML template
-3. Use the placeholder variables where dynamic content should appear
-4. Save
+1. Vai alla gestione dei modelli di certificati
+2. Carica o modifica il modello HTML
+3. Utilizza le variabili segnaposto dove deve apparire il contenuto dinamico
+4. Salva
 
-## Document Templates
+## Modelli di Documenti
 
-Teachers can use document templates when creating content in the Documents tool. Templates provide a starting layout for common document types.
+Gli insegnanti possono utilizzare modelli di documenti quando creano contenuti nello strumento Documenti. I modelli forniscono un layout di partenza per tipi di documenti comuni.
 
-### Managing Document Templates
+### Gestione dei Modelli di Documenti
 
-1. Navigate to template management in the administration panel
-2. Add new templates by uploading HTML files
-3. Templates become available to teachers when they create new documents
+1. Vai alla gestione dei modelli nel pannello di amministrazione
+2. Aggiungi nuovi modelli caricando file HTML
+3. I modelli diventano disponibili per gli insegnanti quando creano nuovi documenti
 
-## Tips
+## Suggerimenti
 
-* **Include your logo** — Add your organization's logo to certificate templates for a professional look
-* **Test with real data** — Preview certificates with actual learner data before deploying the template
-* **Keep templates simple** — Simple designs print better and look professional
+* **Includi il tuo logo** — Aggiungi il logo della tua organizzazione ai modelli di certificati per un aspetto professionale
+* **Testa con dati reali** — Visualizza l'anteprima dei certificati con dati reali degli studenti prima di distribuire il modello
+* **Mantieni i modelli semplici** — Design semplici si stampano meglio e appaiono professionali

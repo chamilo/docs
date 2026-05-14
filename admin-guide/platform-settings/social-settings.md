@@ -1,70 +1,65 @@
-# Social Network Settings
+# Impostazioni della Rete Sociale
 
-Behaviour of the **Social Network** — friends, groups, wall posts, photo albums.
+Comportamento della **Rete Sociale** — amici, gruppi, post sul muro, album fotografici.
 
-Access these settings under **Administration > Configuration settings > Social Network**. This category contains **7 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+Accedi a queste impostazioni tramite **Amministrazione > Impostazioni di configurazione > Rete Sociale**. Questa categoria contiene **7 impostazioni**, elencate di seguito con il titolo e il commento forniti nei dati di configurazione della piattaforma (`SettingsCurrentFixtures.php`).
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> Il nome della variabile nel codice è mostrato in monospace. Utilizzalo quando scrivi script tramite l'API o quando devi modificare queste impostazioni a livello globale editando [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
 
-## Settings
+## Impostazioni
 
 ### `allow_social_tool`
 
-**Social network tool (Facebook-like)**
+**Strumento di rete sociale (simile a Facebook)**
 
-The social network tool allows users to define relations with other users and, by doing so, to define groups of friends. Combined with the internal messaging tool, this tool allows tight communication with friends, inside the portal environment.
+Lo strumento di rete sociale consente agli utenti di definire relazioni con altri utenti e, così facendo, di creare gruppi di amici. Combinato con lo strumento di messaggistica interna, questo strumento permette una comunicazione stretta con gli amici all'interno dell'ambiente del portale.
 
-*Default: `true`*
+*Predefinito: `true`*
 
 ### `allow_students_to_create_groups_in_social`
 
-**Allow learners to create groups in social network**
+**Consenti agli studenti di creare gruppi nella rete sociale**
 
-Allow learners to create groups in social network
+Permette agli studenti di creare gruppi nella rete sociale.
 
-*Default: `false`*
-
+*Predefinito: `false`*
 
 ### `disable_dislike_option`
 
-**Disable 'dislike' for social posts**
+**Disabilita l'opzione 'non mi piace' per i post sociali**
 
-Remove the thumb down option for social posts feedback. Only keep thumb up (like).
+Rimuove l'opzione del pollice in giù per il feedback sui post sociali. Mantiene solo il pollice in su (mi piace).
 
-*Default: `false`*
+*Predefinito: `false`*
 
 ### `hide_social_groups_block`
 
-**Hide groups block in social network**
+**Nascondi il blocco dei gruppi nella rete sociale**
 
-Removes the groups section from the social network view.
+Rimuove la sezione dei gruppi dalla visualizzazione della rete sociale.
 
-*Default: `false`*
-
+*Predefinito: `false`*
 
 ### `social_enable_messages_feedback`
 
-**Like/Dislike for social posts**
+**Mi piace/Non mi piace per i post sociali**
 
-Allows users to add feedback (likes or dislikes) to posts in social wall.
+Consente agli utenti di aggiungere feedback (mi piace o non mi piace) ai post sul muro sociale.
 
-*Default: `false`*
+*Predefinito: `false`*
 
 ### `social_make_teachers_friend_all`
 
-**Teachers and admins see students as friends on social network**
+**Docenti e amministratori appaiono come amici degli studenti nella rete sociale**
 
-Automatically makes instructors and administrators appear as friends to all students in the social network module.
+Fa apparire automaticamente gli istruttori e gli amministratori come amici di tutti gli studenti nel modulo della rete sociale.
 
-*Default: `false`*
-
+*Predefinito: `false`*
 
 ### `social_show_language_flag_in_profile`
 
-**Show language flag next to avatar in social network**
+**Mostra la bandiera della lingua accanto all'avatar nella rete sociale**
 
-Displays the user's language preference as a flag icon next to their avatar in social network profiles.
+Mostra la preferenza linguistica dell'utente come icona di una bandiera accanto al suo avatar nei profili della rete sociale.
 
-*Default: `false`*
-
-
+*Predefinito: `false`*

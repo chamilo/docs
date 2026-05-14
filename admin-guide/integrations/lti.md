@@ -1,57 +1,57 @@
 # LTI 1.3
 
-**LTI** (Learning Tools Interoperability) is a standard that allows external learning tools to be embedded within Chamilo. Version 1.3 is the latest and most secure version of the standard.
+**LTI** (Learning Tools Interoperability) è uno standard che consente di integrare strumenti di apprendimento esterni all'interno di Chamilo. La versione 1.3 è l'ultima e la più sicura versione dello standard.
 
-## What LTI Allows
+## Cosa permette LTI
 
-With LTI, you can embed external tools within Chamilo courses. Examples:
+Con LTI, è possibile integrare strumenti esterni nei corsi di Chamilo. Esempi:
 
-* Interactive simulations
-* Specialized assessment tools
-* Content authoring tools
-* Virtual labs
-* Third-party content libraries
+* Simulazioni interattive
+* Strumenti di valutazione specializzati
+* Strumenti per la creazione di contenuti
+* Laboratori virtuali
+* Librerie di contenuti di terze parti
 
-The external tool appears seamlessly within the Chamilo interface.
+Lo strumento esterno appare in modo fluido all'interno dell'interfaccia di Chamilo.
 
-## Configuring an LTI Tool
+## Configurazione di uno strumento LTI
 
-### As an Administrator
+### Come Amministratore
 
-1. Navigate to the LTI settings in the administration panel
-2. **Register the external tool** by providing:
-   * **Tool name** — A descriptive name
-   * **Login URL** — The OIDC login initiation URL of the external tool
-   * **Redirect URL** — The launch URL the tool returns to after login
-   * **Client ID** — Provided by the tool vendor
-   * **Public keyset URL (JWKS URL)** — The tool's JWKS endpoint for security key exchange
-3. Configure **grade passback** — Whether the tool can send grades back to Chamilo
-4. Save
+1. Accedi alle impostazioni LTI nel pannello di amministrazione
+2. **Registra lo strumento esterno** fornendo:
+   * **Nome dello strumento** — Un nome descrittivo
+   * **URL di accesso** — L'URL di avvio del login OIDC dello strumento esterno
+   * **URL di reindirizzamento** — L'URL di lancio a cui lo strumento ritorna dopo il login
+   * **Client ID** — Fornito dal fornitore dello strumento
+   * **URL del set di chiavi pubbliche (JWKS URL)** — L'endpoint JWKS dello strumento per lo scambio di chiavi di sicurezza
+3. Configura il **passaggio dei voti** — Se lo strumento può inviare i voti a Chamilo
+4. Salva
 
-### As a Teacher
+### Come Docente
 
-Once an LTI tool is registered by the administrator, teachers can add it to their courses:
+Una volta che uno strumento LTI è stato registrato dall'amministratore, i docenti possono aggiungerlo ai loro corsi:
 
-1. In the course, look for the option to add an external tool
-2. Select from the registered LTI tools
-3. The tool appears as a course tool on the homepage
+1. Nel corso, cerca l'opzione per aggiungere uno strumento esterno
+2. Seleziona tra gli strumenti LTI registrati
+3. Lo strumento appare come strumento del corso nella homepage
 
-## Security
+## Sicurezza
 
-LTI 1.3 uses:
+LTI 1.3 utilizza:
 
-* **OAuth 2.0** for authentication
-* **JSON Web Tokens (JWT)** for message signing
-* **Public/private key pairs** for verification
+* **OAuth 2.0** per l'autenticazione
+* **JSON Web Tokens (JWT)** per la firma dei messaggi
+* **Coppie di chiavi pubbliche/private** per la verifica
 
-This means credentials are never shared directly between Chamilo and the external tool.
+Ciò significa che le credenziali non vengono mai condivise direttamente tra Chamilo e lo strumento esterno.
 
-## Grade Passback
+## Passaggio dei voti
 
-LTI tools can send grades back to Chamilo, which can be integrated into the course gradebook. This is configured per tool during registration.
+Gli strumenti LTI possono inviare i voti a Chamilo, che possono essere integrati nel registro dei voti del corso. Questo viene configurato per ogni strumento durante la registrazione.
 
-## Tips
+## Suggerimenti
 
-* **Verify tool compatibility** — Ensure the external tool supports LTI 1.3 (not just older versions)
-* **Test in a sandbox** — Test the LTI integration in a test course before using it in production
-* **Monitor performance** — External tools add network dependencies. Ensure the tool is responsive and reliable.
+* **Verifica la compatibilità dello strumento** — Assicurati che lo strumento esterno supporti LTI 1.3 (non solo versioni precedenti)
+* **Test in un ambiente di prova** — Prova l'integrazione LTI in un corso di test prima di utilizzarlo in produzione
+* **Monitora le prestazioni** — Gli strumenti esterni aggiungono dipendenze di rete. Assicurati che lo strumento sia reattivo e affidabile.

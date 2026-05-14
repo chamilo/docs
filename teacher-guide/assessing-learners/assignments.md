@@ -1,93 +1,94 @@
-# Assignments
+# Compiti
 
-The assignments tool (also called "student publications") lets you collect work from learners — essays, projects, reports, or any file-based submission — and grade it.
+Lo strumento dei compiti (chiamato anche "pubblicazioni degli studenti") consente di raccogliere lavori dagli studenti — saggi, progetti, relazioni o qualsiasi invio basato su file — e di valutarli.
 
-## Creating an Assignment
+## Creazione di un Compito
 
-1. Open the **Assignments** <img src="/.gitbook/assets/icons/mdi-inbox-full.svg" alt="Assignments" data-size="line"> tool from the course homepage
-2. Click **Create an assignment**
-3. Fill in the details:
-   * **Assignment name** — The name of the assignment (e.g., "Final Project Report")
-   * **Description** — Instructions for learners, including what to submit and how it will be evaluated (supports rich text)
-   * **Maximum score** — On what total will the assignment be graded
-   * **Add to gradebook** — Add as an evaluated item in the assessment (gradebook) tool, so it can be part of reaching the course's goals
-   * **Deadline** — The official (published) date and time after which submissions are flagged as late (uploads are still accepted)
-   * **Ends at (completely closed)** — The hard cutoff date and time after which no upload is possible
-   * **Add to calendar** — Create an event to reference this assignment submission date
-   * **Submission type** — Choose between **Allow only text**, **Allow only files**, or **Allow files or online text**
-4. Save
+1. Apri lo strumento **Compiti** <img src="/.gitbook/assets/icons/mdi-inbox-full.svg" alt="Compiti" data-size="line"> dalla homepage del corso
+2. Fai clic su **Crea un compito**
+3. Compila i dettagli:
+   * **Nome del compito** — Il nome del compito (ad esempio, "Relazione del Progetto Finale")
+   * **Descrizione** — Istruzioni per gli studenti, inclusi cosa sottoporre e come verrà valutato (supporta testo formattato)
+   * **Punteggio massimo** — Su quale totale verrà valutato il compito
+   * **Aggiungi al registro dei voti** — Aggiungi come elemento valutato nello strumento di valutazione (registro dei voti), in modo che possa contribuire al raggiungimento degli obiettivi del corso
+   * **Scadenza** — La data e l'ora ufficiali (pubblicate) dopo le quali gli invii vengono contrassegnati come in ritardo (gli upload sono comunque accettati)
+   * **Termina il (chiusura definitiva)** — La data e l'ora limite dopo le quali non è possibile alcun upload
+   * **Aggiungi al calendario** — Crea un evento per fare riferimento alla data di consegna di questo compito
+   * **Tipo di invio** — Scegli tra **Consenti solo testo**, **Consenti solo file** o **Consenti file o testo online**
+4. Salva
 
-Once you have created an assignment, you can also:
-* Upload template documents from inside the assignment detail page
-* Assign the assignment to specific users (rather than all users of the course)
+Una volta creato un compito, puoi anche:
+* Caricare documenti modello dalla pagina dei dettagli del compito
+* Assegnare il compito a utenti specifici (anziché a tutti gli utenti del corso)
 
-And once learners have submitted their assignments, you can:
-* Export a PDF list of submissions
-* Show a list of only the learners who have not submitted their assignment
-* Download all assignments in a big ZIP
-* Upload all corrections in a big ZIP
-* Delete all corrections you submitted (this doesn't delete the learners' submissions)
+E una volta che gli studenti hanno inviato i loro compiti, puoi:
+* Esportare un elenco PDF degli invii
+* Mostrare un elenco solo degli studenti che non hanno inviato il loro compito
+* Scaricare tutti i compiti in un grande file ZIP
+* Caricare tutte le correzioni in un grande file ZIP
+* Eliminare tutte le correzioni che hai inviato (questo non elimina gli invii degli studenti)
 
-## How Learners Submit
+## Come gli Studenti Inviano i Compiti
 
-Learners open the assignment and:
+Gli studenti aprono il compito e:
 
-1. Click **Upload file** or the submission button
-2. Select a file from their computer (or write text directly, depending on configuration)
-3. Add an optional comment
-4. Submit
+1. Fanno clic su **Carica file** o sul pulsante di invio
+2. Selezionano un file dal loro computer (o scrivono direttamente del testo, a seconda della configurazione)
+3. Aggiungono un commento opzionale
+4. Inviano
 
-Learners can see whether they have already submitted and, if allowed, update their submission.
+Gli studenti possono vedere se hanno già inviato il compito e, se permesso, aggiornare il loro invio.
 
-## Reviewing Submissions
+## Revisione degli Invii
 
-![The assignment submissions list showing student names, dates, files, and grading status](/.gitbook/assets/assignments-submissions-list.png)
+![Elenco degli invii dei compiti che mostra i nomi degli studenti, le date, i file e lo stato della valutazione](/.gitbook/assets/assignments-submissions-list.png)
 
-As a teacher, open an assignment to see the list of all submissions:
+Come insegnante, apri un compito per vedere l'elenco di tutti gli invii:
 
-* **Student name** — Who submitted
-* **Submission date** — When the work was submitted
-* **File** — Download the submitted file
-* **Status** — Whether the submission has been graded
-* **Comments** — Any comments left by the learner or by you
+* **Nome dello studente** — Chi ha inviato
+* **Data di invio** — Quando è stato inviato il lavoro
+* **File** — Scarica il file inviato
+* **Stato** — Se l'invio è stato valutato
+* **Commenti** — Eventuali commenti lasciati dallo studente o da te
 
-### Grading a Submission
+### Valutazione di un Invio
 
-![The assignment grading view with score input, feedback field, and corrected file upload](/.gitbook/assets/assignment-grading-view.png)
+![Vista di valutazione del compito con inserimento del punteggio, campo di feedback e caricamento del file corretto](/.gitbook/assets/assignment-grading-view.png)
 
-1. Click on a submission to open it
-2. Review the submitted file
-3. Enter a **score**
-4. Write **feedback comments** for the learner
-5. Optionally upload a **corrected file** as an attachment
-6. Save
+1. Fai clic su un invio per aprirlo
+2. Rivedi il file inviato
+3. Inserisci un **punteggio**
+4. Scrivi **commenti di feedback** per lo studente
+5. Facoltativamente, carica un **file corretto** come allegato
+6. Salva
 
-### AI-Assisted Grading
+### Valutazione Assistita da IA
 
-If AI tools are configured on your platform, you may see an **AI grading** option when reviewing submissions. This uses an AI model to suggest a score and feedback for open-ended work. See [AI Grading](../ai-tools/ai-grading.md) for details.
+Se gli strumenti di IA sono configurati sulla tua piattaforma, potresti vedere un'opzione di **valutazione IA** durante la revisione degli invii. Questo utilizza un modello di IA per suggerire un punteggio e un feedback per lavori aperti. Consulta [Valutazione IA](../ai-tools/ai-grading.md) per i dettagli.
 
-## Managing Submissions
+## Gestione degli Invii
 
-Group actions:
-* **Download assignments package** — Download all submissions as a single ZIP file for offline review
-* **Upload corrections package** — If you downloaded all submissions in a single ZIP file, edited the files in place on your computer and zipped them again, you can send the zip as a package of corrections. Do not change filenames or it will not work.
-* **Late submissions** — Submissions after the deadline are flagged but may still be accepted depending on your settings
+Azioni di gruppo:
+* **Scarica pacchetto di compiti** — Scarica tutti gli invii come un unico file ZIP per la revisione offline
+* **Carica pacchetto di correzioni** — Se hai scaricato tutti gli invii in un unico file ZIP, modificato i file sul tuo computer e zippato nuovamente, puoi inviare lo zip come pacchetto di correzioni. Non modificare i nomi dei file o non funzionerà.
+* **Invii in ritardo** — Gli invii dopo la scadenza sono contrassegnati ma possono comunque essere accettati a seconda delle tue impostazioni
 
-Individual submission actions:
-* **Upload correction** — Upload a correction for one learner 
-* **Download** — Download the submission of one learner
-* **Correct and grade** — Add a correction and a grade to the learner's submission 
-* **Edit** — Edit the document title or the previous feedback on the submission
-* **Move** — Transfer a submission between assignment folders (e.g. if the student submitted in the wrong assignment)
-* **Visibility** — Control whether learners can see each other's submissions
+Azioni su invii individuali:
+* **Carica correzione** — Carica una correzione per uno studente
+* **Scarica** — Scarica l'invio di uno studente
+* **Correggi e valuta** — Aggiungi una correzione e un voto all'invio dello studente
+* **Modifica** — Modifica il titolo del documento o il feedback precedente sull'invio
+* **Sposta** — Trasferisci un invio tra cartelle di compiti (ad esempio, se lo studente ha inviato nel compito sbagliato)
+* **Visibilità** — Controlla se gli studenti possono vedere gli invii degli altri
 
-## Linking to the Gradebook
+## Collegamento al Registro dei Voti
 
-Assignment scores can be included in the course gradebook ("Assessments" tool). This allows assignment grades to contribute to the learner's overall course grade and certificate eligibility. See [Gradebook](gradebook.md) for details.
+I punteggi dei compiti possono essere inclusi nel registro dei voti del corso (strumento "Valutazioni"). Questo consente ai voti dei compiti di contribuire al voto complessivo del corso dello studente e all'idoneità al certificato. Consulta [Registro dei Voti](gradebook.md) per i dettagli.
 
-## Tips
+---
+## Suggerimenti
 
-* **Be specific in instructions** — Clearly describe what learners should submit, the expected format, and evaluation criteria
-* **Set realistic deadlines** — Use the Agenda tool to make deadlines visible in the course calendar
-* **Use the corrected file feature** — Upload annotated versions of student work so they can see your specific corrections
-* **Enable peer visibility carefully** — Allowing learners to see each other's work can encourage learning but may not be appropriate for all assignments
+* **Sii specifico nelle istruzioni** — Descrivi chiaramente cosa gli studenti devono consegnare, il formato atteso e i criteri di valutazione
+* **Imposta scadenze realistiche** — Utilizza lo strumento Agenda per rendere visibili le scadenze nel calendario del corso
+* **Usa la funzione del file corretto** — Carica versioni annotate del lavoro degli studenti in modo che possano vedere le tue correzioni specifiche
+* **Abilita la visibilità tra pari con attenzione** — Consentire agli studenti di vedere il lavoro degli altri può favorire l'apprendimento, ma potrebbe non essere appropriato per tutti i compiti

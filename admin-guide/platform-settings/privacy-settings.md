@@ -1,50 +1,49 @@
-# Privacy Settings
+# Impostazioni sulla Privacy
 
-Privacy and data-protection (GDPR-style) controls — consent, data export, account deletion requests, and similar.
+Controlli relativi alla privacy e alla protezione dei dati (in stile GDPR) — consenso, esportazione dei dati, richieste di cancellazione dell'account e simili.
 
-Access these settings under **Administration > Configuration settings > Privacy**. This category contains **6 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+Accedi a queste impostazioni tramite **Amministrazione > Impostazioni di configurazione > Privacy**. Questa categoria contiene **6 impostazioni**, elencate di seguito con il titolo e il commento forniti nei dati di configurazione della piattaforma (`SettingsCurrentFixtures.php`).
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> Il nome della variabile nel codice è mostrato in monospace. Utilizzalo quando scrivi script tramite l'API o quando devi modificare queste impostazioni a livello globale editando [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
 
-## Settings
+## Impostazioni
 
 ### `data_protection_officer_email`
 
-**Data protection officer e-mail address**
+**Indirizzo e-mail del responsabile della protezione dei dati**
 
-Email address for the designated data protection officer, displayed in GDPR/privacy sections.
+Indirizzo e-mail del responsabile designato per la protezione dei dati, visualizzato nelle sezioni relative a GDPR/privacy.
 
 ### `data_protection_officer_name`
 
-**Data protection officer name**
+**Nome del responsabile della protezione dei dati**
 
-Full name of the designated data protection officer, displayed in personal data and privacy pages.
+Nome completo del responsabile designato per la protezione dei dati, visualizzato nelle pagine relative ai dati personali e alla privacy.
 
 ### `data_protection_officer_role`
 
-**Data protection officer role**
+**Ruolo del responsabile della protezione dei dati**
 
-Job title or role of the designated data protection officer, displayed alongside their name in privacy information.
+Titolo o ruolo del responsabile designato per la protezione dei dati, visualizzato accanto al suo nome nelle informazioni sulla privacy.
 
 ### `disable_change_user_visibility_for_public_courses`
 
-**Disable making tool users visible in public courses**
+**Disabilita la possibilità di rendere visibili gli utenti negli strumenti dei corsi pubblici**
 
-Avoid anyone making the 'users' tool visible in a public course.
+Impedisci a chiunque di rendere visibile lo strumento 'utenti' in un corso pubblico.
 
 *Default: `true`*
 
 ### `disable_gdpr`
 
-**Disable GDPR features**
+**Disabilita le funzionalità GDPR**
 
-If you already manage your personal data protection declaration to users elsewhere, you can safely disable this feature.
+Se gestisci già la dichiarazione sulla protezione dei dati personali degli utenti altrove, puoi disabilitare questa funzionalità in sicurezza.
 
 *Default: `true`*
 
 ### `hide_user_field_from_list`
 
-**Hide fields from users list in course**
+**Nascondi campi dall'elenco degli utenti nel corso**
 
-By default, we show all data from users in the users tool in the course. This array allows you to specify which fields you do not want to display. Only affects main fields (not extra fields).
-
+Per impostazione predefinita, mostriamo tutti i dati degli utenti nello strumento utenti del corso. Questo array ti consente di specificare quali campi non desideri visualizzare. Riguarda solo i campi principali (non i campi extra).

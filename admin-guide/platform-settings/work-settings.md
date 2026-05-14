@@ -1,103 +1,103 @@
-# Assignments (Work) Settings
+# Impostazioni degli Incarichi (Lavori)
 
-Defaults and behaviour of the **Assignments (Student Publications)** tool.
+Impostazioni predefinite e comportamento dello strumento **Incarichi (Pubblicazioni degli Studenti)**.
 
-Access these settings under **Administration > Configuration settings > Assignments (Work)**. This category contains **12 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+Accedi a queste impostazioni tramite **Amministrazione > Impostazioni di configurazione > Incarichi (Lavori)**. Questa categoria contiene **12 impostazioni**, elencate di seguito con il titolo e il commento forniti nei dati di configurazione della piattaforma (`SettingsCurrentFixtures.php`).
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> Il nome della variabile nel codice è mostrato in monospace. Utilizzalo quando scrivi script tramite l'API o quando devi modificare queste impostazioni a livello globale editando [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
 
-## Settings
+## Impostazioni
 
 ### `allow_compilatio_tool`
 
-**Enable Compilatio**
+**Abilita Compilatio**
 
-Compilatio is an anti-cheating service that compares text between two submissions and reports if there is a high probability the content (usually assignments) is not genuine.
+Compilatio è un servizio anti-plagio che confronta il testo tra due consegne e segnala se esiste un'alta probabilità che il contenuto (di solito incarichi) non sia autentico.
 
-*Default: `false`*
+*Predefinito: `false`*
 
 ### `allow_my_student_publication_page`
 
-**Enable My assignments page**
+**Abilita la pagina I miei incarichi**
 
-[inferred] Enable a dedicated page for learners to view and manage their own submitted assignments.
+[dedotto] Abilita una pagina dedicata per gli studenti per visualizzare e gestire i propri incarichi consegnati.
 
-*Default: `false`*
+*Predefinito: `false`*
 
 ### `allow_only_one_student_publication_per_user`
 
-**Students can only upload one assignment**
+**Gli studenti possono caricare solo un incarico**
 
-[inferred] Restrict learners to submitting only one assignment per activity, preventing multiple submissions.
+[dedotto] Limita gli studenti a consegnare un solo incarico per attività, impedendo consegne multiple.
 
-*Default: `false`*
+*Predefinito: `false`*
 
 ### `allow_redirect_to_main_page_after_work_upload`
 
-**Redirect to assigment tool homepage after upload or comment**
+**Reindirizza alla homepage dello strumento incarichi dopo il caricamento o un commento**
 
-Redirect to assignments list after uploading an assignment or a adding a comment
+Reindirizza all'elenco degli incarichi dopo aver caricato un incarico o aggiunto un commento.
 
-*Default: `false`*
+*Predefinito: `false`*
 
 ### `assignment_prevent_duplicate_upload`
 
-**Prevent duplicate uploads in assignments**
+**Impedisci caricamenti duplicati negli incarichi**
 
-[inferred] Block learners from uploading identical files for the same assignment submission.
+[dedotto] Impedisci agli studenti di caricare file identici per la stessa consegna di un incarico.
 
-*Default: `false`*
+*Predefinito: `false`*
 
 ### `block_student_publication_add_documents`
 
-**Prevent adding documents to assignments**
+**Impedisci l'aggiunta di documenti agli incarichi**
 
-[inferred] Prevent learners from adding or attaching documents when submitting assignments.
+[dedotto] Impedisci agli studenti di aggiungere o allegare documenti durante la consegna degli incarichi.
 
-*Default: `false`*
+*Predefinito: `false`*
 
 ### `block_student_publication_edition`
 
-**Prevent assignments edition**
+**Impedisci la modifica degli incarichi**
 
-[inferred] Prevent learners from modifying or updating their submitted assignments after initial submission.
+[dedotto] Impedisci agli studenti di modificare o aggiornare i propri incarichi consegnati dopo la consegna iniziale.
 
-*Default: `false`*
+*Predefinito: `false`*
 
 ### `block_student_publication_score_edition`
 
-**Prevent teacher from modifying assignment scores**
+**Impedisci agli insegnanti di modificare i punteggi degli incarichi**
 
-[inferred] Prevent instructors from changing assignment scores after they have been recorded.
+[dedotto] Impedisci agli insegnanti di modificare i punteggi degli incarichi dopo che sono stati registrati.
 
-*Default: `false`*
+*Predefinito: `false`*
 
 ### `compilatio_tool`
 
-**Compilatio settings**
+**Impostazioni di Compilatio**
 
-Configure the Compilatio connection details here.
+Configura qui i dettagli di connessione a Compilatio.
 
 ### `considered_working_time`
 
-**Enable time effort for assignments**
+**Abilita il tempo di impegno per gli incarichi**
 
-This will allow teachers to give an estimated time effort (in hh:mm:ss format) to complete the assignment. Upon submission of the assignment and approval by the teacher (the assignment is given a score), the learner will automatically be assigned the corresponding time.
+Questo permetterà agli insegnanti di fornire una stima del tempo di impegno (nel formato hh:mm:ss) per completare l'incarico. Una volta consegnato l'incarico e approvato dall'insegnante (l'incarico riceve un punteggio), allo studente verrà automaticamente assegnato il tempo corrispondente.
 
-*Default: `work_time`*
+*Predefinito: `work_time`*
 
 ### `force_download_doc_before_upload_work`
 
-**Force download of document before assignment upload**
+**Forza il download del documento prima del caricamento dell'incarico**
 
-Force users to download the provided document in the assignment definition before they can upload their assignment.
+Obbliga gli utenti a scaricare il documento fornito nella definizione dell'incarico prima di poter caricare il proprio incarico.
 
-*Default: `true`*
+*Predefinito: `true`*
 
 ### `my_courses_show_pending_work`
 
-**Display link to 'pending' assignments from My courses page**
+**Mostra il collegamento agli incarichi 'in sospeso' dalla pagina I miei corsi**
 
-[inferred] Display a link or count of pending assignments on the learner's My Courses page for quick access.
+[dedotto] Mostra un collegamento o un conteggio degli incarichi in sospeso nella pagina I miei corsi dello studente per un accesso rapido.
 
-*Default: `false`*
+*Predefinito: `false`*

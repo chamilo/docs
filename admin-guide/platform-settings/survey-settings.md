@@ -1,111 +1,101 @@
-# Surveys Settings
+# Impostazioni dei Sondaggi
 
-Defaults and behaviour of the **Surveys** tool.
+Impostazioni predefinite e comportamento dello strumento **Sondaggi**.
 
-Access these settings under **Administration > Configuration settings > Surveys**. This category contains **12 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+Accedi a queste impostazioni tramite **Amministrazione > Impostazioni di configurazione > Sondaggi**. Questa categoria contiene **12 impostazioni**, elencate di seguito con il titolo e il commento forniti nei dati di configurazione della piattaforma (`SettingsCurrentFixtures.php`).
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> Il nome della variabile nel codice è mostrato in monospace. Utilizzalo quando scrivi script tramite l'API o quando devi modificare queste impostazioni a livello globale editando [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
 
-## Settings
+## Impostazioni
 
 ### `extend_rights_for_coach_on_survey`
 
-**Extend rights for coachs on surveys**
+**Estendi i diritti per i coach sui sondaggi**
 
-Activate this option will allow the coachs to create and edit surveys
+Attivando questa opzione, i coach potranno creare e modificare sondaggi.
 
-*Default: `true`*
-
+*Predefinito: `true`*
 
 ### `hide_survey_edition`
 
-**Prevent survey edition**
+**Impedisci la modifica dei sondaggi**
 
-Prevent editing surveys for all surveys listed here (by code). Use * to prevent edition of all surveys.
+Impedisce la modifica di tutti i sondaggi elencati qui (per codice). Usa * per impedire la modifica di tutti i sondaggi.
 
 ### `hide_survey_reporting_button`
 
-**Hide survey reporting button**
+**Nascondi il pulsante di report dei sondaggi**
 
-Allows admins to hide survey reporting button if surveys are used to survey teachers.
+Consente agli amministratori di nascondere il pulsante di report dei sondaggi se i sondaggi vengono utilizzati per valutare gli insegnanti.
 
-*Default: `false`*
-
+*Predefinito: `false`*
 
 ### `show_pending_survey_in_menu`
 
-**Show "Pending surveys" in menu**
+**Mostra "Sondaggi in attesa" nel menu**
 
-Display a menu item that lets users access their pending surveys.
+Mostra una voce di menu che consente agli utenti di accedere ai propri sondaggi in attesa.
 
-*Default: `false`*
-
+*Predefinito: `false`*
 
 ### `show_surveys_base_in_sessions`
 
-**Display surveys from base course in all session courses**
+**Mostra i sondaggi del corso base in tutti i corsi di sessione**
 
-[inferred] Make surveys from the base course visible and available to learners in all related session courses.
+[inferito] Rende i sondaggi del corso base visibili e disponibili agli studenti in tutti i corsi di sessione correlati.
 
-*Default: `false`*
-
+*Predefinito: `false`*
 
 ### `survey_additional_teacher_modify_actions`
 
-**Add additional actions (as links) to survey lists for teachers**
+**Aggiungi azioni aggiuntive (come link) agli elenchi di sondaggi per gli insegnanti**
 
-Add actions (usually connected to plugins) in the list of surveys. Use array syntax ['myplugin' => ['MyPlugin', 'urlGeneratorCallback']].
+Aggiunge azioni (di solito collegate a plugin) nell'elenco dei sondaggi. Usa la sintassi array ['myplugin' => ['MyPlugin', 'urlGeneratorCallback']].
 
 ### `survey_allow_answered_question_edit`
 
-**Allow teachers to edit survey questions after students answered**
+**Consenti agli insegnanti di modificare le domande dei sondaggi dopo che gli studenti hanno risposto**
 
-[inferred] Allow instructors to modify survey questions even after learners have submitted responses.
+[inferito] Consente agli istruttori di modificare le domande dei sondaggi anche dopo che gli studenti hanno inviato le risposte.
 
-*Default: `false`*
-
+*Predefinito: `false`*
 
 ### `survey_anonymous_show_answered`
 
-**Allow teachers to see who answered in anonymous surveys**
+**Consenti agli insegnanti di vedere chi ha risposto nei sondaggi anonimi**
 
-Allow teachers to see which learners have already answered an anonymous survey. This only appears once more than one user has answered, so it remains difficult to identify who answered what.
+Consente agli insegnanti di vedere quali studenti hanno già risposto a un sondaggio anonimo. Questo appare solo quando più di un utente ha risposto, rendendo difficile identificare chi ha risposto cosa.
 
-*Default: `false`*
-
+*Predefinito: `false`*
 
 ### `survey_backwards_enable`
 
-**Enable 'previous question' button in surveys**
+**Abilita il pulsante 'domanda precedente' nei sondaggi**
 
-[inferred] Enable a "previous question" navigation button to allow learners to review earlier survey questions.
+[inferito] Abilita un pulsante di navigazione "domanda precedente" per consentire agli studenti di rivedere le domande precedenti del sondaggio.
 
-*Default: `false`*
-
+*Predefinito: `false`*
 
 ### `survey_duplicate_order_by_name`
 
-**Order by student name when using survey duplication feature**
+**Ordina per nome dello studente quando si utilizza la funzione di duplicazione del sondaggio**
 
-The survey duplication feature is oriented towards teachers and is meant to ask teachers to give their appreciation about each student in order. This option will order the questions by learner's lastname.
+La funzione di duplicazione del sondaggio è orientata agli insegnanti ed è pensata per chiedere agli insegnanti di esprimere il loro apprezzamento su ogni studente in ordine. Questa opzione ordinerà le domande in base al cognome dello studente.
 
-*Default: `true`*
-
+*Predefinito: `true`*
 
 ### `survey_email_sender_noreply`
 
-**Survey e-mail sender (no-reply)**
+**Mittente email del sondaggio (no-reply)**
 
-Should the survey invitations use the coach e-mail address or the no-reply address defined in the main configuration section?
+Le inviti ai sondaggi devono utilizzare l'indirizzo email del coach o l'indirizzo no-reply definito nella sezione di configurazione principale?
 
-*Default: `coach`*
-
+*Predefinito: `coach`*
 
 ### `survey_mark_question_as_required`
 
-**Mark all survey questions as 'required' by default**
+**Segna tutte le domande del sondaggio come 'obbligatorie' per impostazione predefinita**
 
-[inferred] Automatically mark all newly created survey questions as required responses by default.
+[inferito] Segna automaticamente tutte le domande dei sondaggi appena create come risposte obbligatorie per impostazione predefinita.
 
-*Default: `false`*
-
+*Predefinito: `false`*

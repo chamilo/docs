@@ -1,27 +1,27 @@
-# AI Tools
+# Strumenti di Intelligenza Artificiale
 
-Chamilo 2.0 introduces AI-powered tools that help you create content faster and provide personalized support to your learners. These features use large language models (such as OpenAI's GPT, Google Gemini, Mistral, or others) to generate educational content and assist with grading.
+Chamilo 2.0 introduce strumenti basati sull'intelligenza artificiale che ti aiutano a creare contenuti più rapidamente e a fornire supporto personalizzato ai tuoi studenti. Queste funzionalità utilizzano modelli linguistici di grandi dimensioni (come GPT di OpenAI, Google Gemini, Mistral o altri) per generare contenuti educativi e assistere nella valutazione.
 
-> AI tools must be configured by your platform administrator before they become available. See the [AI Configuration](../../admin-guide/integrations/ai-configuration.md) section of the Administration Guide for setup details.
+> Gli strumenti di intelligenza artificiale devono essere configurati dall'amministratore della piattaforma prima di essere disponibili. Consulta la sezione [Configurazione AI](../../admin-guide/integrations/ai-configuration.md) della Guida per l'Amministrazione per i dettagli sulla configurazione.
 
-## Available AI Tools
+## Strumenti di Intelligenza Artificiale Disponibili
 
-* **[AI Tutor](ai-tutor.md)** — An AI chatbot that learners can interact with for course-related questions
-* **[Exercise Generator](exercise-generator.md)** — Automatically generate quiz questions from your course content or a topic description
-* **[Learning Path Generator](learning-path-generator.md)** — Create structured learning sequences from a topic or set of objectives
-* **[AI Grading](ai-grading.md)** — Get AI-assisted evaluation of open-ended answers and student submissions
-* **[Glossary Terms Generator](glossary-generator.md)** — Automatically generate term definitions for your course glossary
-* **[AI Media Generation](ai-media-generation.md)** — Generate images and short videos from the rich-text editor while creating documents
+* **[Tutor AI](ai-tutor.md)** — Un chatbot AI con cui gli studenti possono interagire per domande relative al corso
+* **[Generatore di Esercizi](exercise-generator.md)** — Genera automaticamente domande per quiz a partire dai contenuti del corso o da una descrizione di un argomento
+* **[Generatore di Percorsi di Apprendimento](learning-path-generator.md)** — Crea sequenze di apprendimento strutturate a partire da un argomento o da un insieme di obiettivi
+* **[Valutazione AI](ai-grading.md)** — Ottieni una valutazione assistita dall'AI per risposte aperte e consegne degli studenti
+* **[Generatore di Termini per il Glossario](glossary-generator.md)** — Genera automaticamente definizioni di termini per il glossario del corso
+* **[Generazione di Media con AI](ai-media-generation.md)** — Genera immagini e brevi video dall'editor di testo ricco durante la creazione di documenti
 
-## How AI Tools Work
+## Come Funzionano gli Strumenti di Intelligenza Artificiale
 
-When AI tools are enabled, they appear in the relevant contexts:
+Quando gli strumenti di intelligenza artificiale sono abilitati, appaiono nei contesti pertinenti:
 
-* The **Exercise Generator** appears when creating or editing exercises, and also as a quick action on documents in the Documents tool
-* The **Learning Path Generator** appears when creating learning paths
-* The **AI Grading** option appears in the assignment correction workflow
-* The **AI Tutor** is available to learners within the course
-* The **Glossary Terms Generator** appears in the Glossary tool toolbar
-* The **AI Media Generation** dialog appears in the rich-text editor when creating or editing documents
+* Il **Generatore di Esercizi** appare durante la creazione o la modifica di esercizi, e anche come azione rapida sui documenti nello strumento Documenti
+* Il **Generatore di Percorsi di Apprendimento** appare durante la creazione di percorsi di apprendimento
+* L'opzione **Valutazione AI** appare nel flusso di lavoro di correzione degli incarichi
+* Il **Tutor AI** è disponibile per gli studenti all'interno del corso
+* Il **Generatore di Termini per il Glossario** appare nella barra degli strumenti dello strumento Glossario
+* La finestra di dialogo **Generazione di Media con AI** appare nell'editor di testo ricco durante la creazione o la modifica di documenti
 
-All AI-generated content is presented as a **suggestion** that you can review, edit, and modify before publishing. You always have the final say on what your learners see.
+Tutti i contenuti generati dall'AI sono presentati come **suggerimenti** che puoi rivedere, modificare e adattare prima della pubblicazione. Hai sempre l'ultima parola su ciò che i tuoi studenti vedono.

@@ -1,293 +1,270 @@
-# Gradebook (Assessments) Settings
+# Impostazioni del Registro delle Valutazioni (Valutazioni)
 
-Defaults applied across the **Gradebook (Assessments)** tool — score display, decimal precision, certificate score thresholds, and aggregation.
+Impostazioni predefinite applicate allo strumento **Registro delle Valutazioni (Valutazioni)** — visualizzazione dei punteggi, precisione decimale, soglie di punteggio per i certificati e aggregazione.
 
-Access these settings under **Administration > Configuration settings > Gradebook (Assessments)**. This category contains **34 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+Accedi a queste impostazioni tramite **Amministrazione > Impostazioni di configurazione > Registro delle Valutazioni (Valutazioni)**. Questa categoria contiene **34 impostazioni**, elencate di seguito con il titolo e il commento forniti nei dati predefiniti della piattaforma (`SettingsCurrentFixtures.php`).
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> Il nome della variabile nel codice è mostrato in monospace. Utilizzalo quando scrivi script tramite l'API o quando devi modificare queste impostazioni a livello globale editando [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
 
-## Settings
+## Impostazioni
 
 ### `allow_gradebook_comments`
 
-**Gradebook comments**
+**Commenti nel Registro delle Valutazioni**
 
-Enable gradebook comments so teachers can add a comment to the overall performance of the learner in this course. The comment will appear in the PDF export for the learner.
+Abilita i commenti nel registro delle valutazioni affinché i docenti possano aggiungere un commento sulle prestazioni complessive dello studente in questo corso. Il commento apparirà nell'esportazione PDF per lo studente.
 
-*Default: `false`*
-
+*Predefinito: `false`*
 
 ### `allow_gradebook_stats`
 
-**Cache results in the gradebook**
+**Memorizza i risultati nella cache del Registro delle Valutazioni**
 
-Put some of the large calculations of averages in cached fields for the links and evaluations to increase speed (considerably). The potential negative impact is that it can take some time to refresh the gradebook results tables.
+Inserisci alcuni dei calcoli complessi delle medie in campi memorizzati nella cache per i collegamenti e le valutazioni, al fine di aumentare la velocità (notevolmente). L'impatto negativo potenziale è che potrebbe richiedere del tempo per aggiornare le tabelle dei risultati del registro delle valutazioni.
 
-*Default: `false`*
+*Predefinito: `false`*
 
 ### `gradebook_badge_sidebar`
 
-**Gradebook badges sidebar**
+**Barra laterale dei badge nel Registro delle Valutazioni**
 
-Generate a block inside the side menu where a few badges can be shown as pending approval. Requires gradebooks to be listed here, by (numerical) ID.
+Genera un blocco nel menu laterale dove possono essere mostrati alcuni badge in attesa di approvazione. Richiede che i registri delle valutazioni siano elencati qui, tramite ID (numerico).
 
 ### `gradebook_default_grade_model_id`
 
-**Default grade model**
+**Modello di valutazione predefinito**
 
-This value will be selected by default when creating a course
+Questo valore sarà selezionato per impostazione predefinita durante la creazione di un corso.
 
 ### `gradebook_default_weight`
 
-**Default weight in Gradebook**
+**Peso predefinito nel Registro delle Valutazioni**
 
-This weight will be use in all courses by default
+Questo peso sarà utilizzato per impostazione predefinita in tutti i corsi.
 
-*Default: `100`*
+*Predefinito: `100`*
 
 ### `gradebook_dependency`
 
-**Inter-gradebook dependencies**
+**Dipendenze tra Registri delle Valutazioni**
 
-Enables a mechanism of gradebook dependencies that lets people know which other items they need to go through first in order to complete the gradebook.
+Abilita un meccanismo di dipendenze tra registri delle valutazioni che informa gli utenti su quali altri elementi devono completare prima per poter completare il registro delle valutazioni.
 
-*Default: `false`*
-
+*Predefinito: `false`*
 
 ### `gradebook_dependency_mandatory_courses`
 
-**Mandatory courses for gradebook dependencies**
+**Corsi obbligatori per le dipendenze del Registro delle Valutazioni**
 
-When using inter-gradebook dependencies, you can choose a list of mandatory courses that will be required before approving any gradebook that has dependencies.
+Quando si utilizzano dipendenze tra registri delle valutazioni, è possibile scegliere un elenco di corsi obbligatori che saranno richiesti prima di approvare qualsiasi registro delle valutazioni che presenta dipendenze.
 
 ### `gradebook_detailed_admin_view`
 
-**Show additional columns in gradebook**
+**Mostra colonne aggiuntive nel Registro delle Valutazioni**
 
-Show additional columns in the student view of the gradebook with the best score of all students, the relative position of the student looking at the report and the average score of the whole group of students.
+Mostra colonne aggiuntive nella vista studente del registro delle valutazioni con il miglior punteggio di tutti gli studenti, la posizione relativa dello studente che visualizza il rapporto e il punteggio medio dell'intero gruppo di studenti.
 
-*Default: `false`*
-
+*Predefinito: `false`*
 
 ### `gradebook_display_extra_stats`
 
-**Gradebook extra statistics**
+**Statistiche aggiuntive nel Registro delle Valutazioni**
 
-Add additional columns to the gradebook's main report (1 = ranking, 2 = best score, 3 = average).
+Aggiungi colonne aggiuntive al rapporto principale del registro delle valutazioni (1 = classifica, 2 = miglior punteggio, 3 = media).
 
 ### `gradebook_enable`
 
-**Assessments tool activation**
+**Attivazione dello strumento Valutazioni**
 
-The Assessments tool allows you to assess competences in your organization by merging classroom and online activities evaluations into Performance reports. Do you want to activate it?
+Lo strumento Valutazioni consente di valutare le competenze nella tua organizzazione combinando valutazioni di attività in aula e online in rapporti sulle prestazioni. Desideri attivarlo?
 
-*Default: `true`*
-
+*Predefinito: `true`*
 
 ### `gradebook_enable_grade_model`
 
-**Enable Gradebook model**
+**Abilita modello di Registro delle Valutazioni**
 
-Enables the auto creation of gradebook categories inside a course depending of the gradebook models.
+Abilita la creazione automatica di categorie del registro delle valutazioni all'interno di un corso in base ai modelli di registro delle valutazioni.
 
-*Default: `false`*
+*Predefinito: `false`*
 
 ### `gradebook_enable_subcategory_skills_independant_assignement`
 
-**Enable skills by gradebook's subcategory**
+**Abilita competenze per sottocategorie del Registro delle Valutazioni**
 
-Skills are normally attributed for completing a whole gradebook. By enabling this option, you allow skills to be attached to sub-sections of gradebooks.
+Le competenze sono normalmente attribuite per il completamento di un intero registro delle valutazioni. Abilitando questa opzione, consenti di associare competenze a sottosezioni dei registri delle valutazioni.
 
-*Default: `false`*
-
+*Predefinito: `false`*
 
 ### `gradebook_flatview_extrafields_columns`
 
-**User extra fields in gradebook flat view**
+**Campi extra utente nella vista piatta del Registro delle Valutazioni**
 
-Add the given columns ('variables' array) to the main results table in the gradebook.
+Aggiungi le colonne specificate (array 'variables') alla tabella dei risultati principali nel registro delle valutazioni.
 
 ### `gradebook_hide_graph`
 
-**Hide gradebook charts**
+**Nascondi grafici del Registro delle Valutazioni**
 
-If your portal is resources-limited, reducing the generation of the dynamic gradebok charts with potentially thousands of results is a good option.
+Se il tuo portale ha risorse limitate, ridurre la generazione dei grafici dinamici del registro delle valutazioni con potenzialmente migliaia di risultati è una buona opzione.
 
-*Default: `false`*
-
+*Predefinito: `false`*
 
 ### `gradebook_hide_link_to_item_for_student`
 
-**Hide item links for learners in gradebook**
+**Nascondi collegamenti agli elementi per gli studenti nel Registro delle Valutazioni**
 
-Avoid learners clicking on items from the gradebook by removing the links on the items.
+Impedisci agli studenti di fare clic sugli elementi dal registro delle valutazioni rimuovendo i collegamenti agli elementi.
 
-*Default: `false`*
-
+*Predefinito: `false`*
 
 ### `gradebook_hide_pdf_report_button`
 
-**Hide gradebook button 'download PDF report'**
+**Nascondi pulsante 'scarica rapporto PDF' nel Registro delle Valutazioni**
 
-Removes the PDF export button from gradebook views for learners.
+Rimuove il pulsante di esportazione PDF dalle viste del registro delle valutazioni per gli studenti.
 
-*Default: `false`*
-
+*Predefinito: `false`*
 
 ### `gradebook_hide_table`
 
-**Hide gradebook table for learners**
+**Nascondi tabella del Registro delle Valutazioni per gli studenti**
 
-Reduce gradebook load time by hiding the results table (but still giving access to certificates, skills, etc).
+Riduci il tempo di caricamento del registro delle valutazioni nascondendo la tabella dei risultati (ma consentendo comunque l'accesso a certificati, competenze, ecc.).
 
-*Default: `false`*
+*Predefinito: `false`*
 
-
+---
 ### `gradebook_locking_enabled`
 
-**Enable locking of assessments by teachers**
+**Abilita il blocco delle valutazioni da parte dei docenti**
 
-Once enabled, this option will enable locking of any assessment by the teachers of the corresponding course. This, in turn, will prevent any modification of results by the teacher inside the resources used in the assessment: exams, learning paths, tasks, etc. The only role authorized to unlock a locked assessment is the administrator. The teacher will be informed of this possibility. The locking and unlocking of gradebooks will be registered in the system's report of important activities
+Una volta abilitata, questa opzione permetterà ai docenti del corso corrispondente di bloccare qualsiasi valutazione. Questo, a sua volta, impedirà qualsiasi modifica dei risultati da parte del docente all'interno delle risorse utilizzate nella valutazione: esami, percorsi di apprendimento, compiti, ecc. L'unico ruolo autorizzato a sbloccare una valutazione bloccata è l'amministratore. Il docente sarà informato di questa possibilità. Il blocco e lo sblocco dei registri di valutazione saranno registrati nel rapporto delle attività importanti del sistema.
 
 *Default: `false`*
 
 ### `gradebook_multiple_evaluation_attempts`
 
-**Allow multiple evaluation attempts in gradebook**
+**Consenti più tentativi di valutazione nel registro di valutazione**
 
-Allows adding comments to multiple evaluation attempts in gradebook and result tables.
+Permette di aggiungere commenti a più tentativi di valutazione nel registro di valutazione e nelle tabelle dei risultati.
 
 *Default: `false`*
 
-
 ### `gradebook_number_decimals`
 
-**Number of decimals**
+**Numero di decimali**
 
-Allows you to set the number of decimals allowed in a score
+Consente di impostare il numero di decimali consentiti in un punteggio.
 
 *Default: `0`*
 
 ### `gradebook_pdf_export_settings`
 
-**Gradebook PDF export options**
+**Opzioni di esportazione PDF del registro di valutazione**
 
-Change the PDF export for learners based on the provided settings ('hide_score_weight', 'hide_feedback_textarea', ...)
+Modifica l'esportazione in PDF per gli studenti in base alle impostazioni fornite ('hide_score_weight', 'hide_feedback_textarea', ...)
 
 ### `gradebook_report_score_style`
 
-**Gradebook reports score style**
+**Stile dei punteggi nei rapporti del registro di valutazione**
 
-Add gradebook score style configuration in the flat view. See api.lib.php in order to find the options: examples SCORE_DIV = 1, SCORE_PERCENT = 2, etc
+Aggiunge la configurazione dello stile dei punteggi del registro di valutazione nella vista piatta. Consulta api.lib.php per trovare le opzioni: esempi SCORE_DIV = 1, SCORE_PERCENT = 2, ecc.
 
 *Default: `1`*
 
-
 ### `gradebook_score_display_colorsplit`
 
-**Threshold**
+**Soglia**
 
-The threshold (in %) under which scores will be colored red
+La soglia (in %) al di sotto della quale i punteggi saranno colorati di rosso.
 
 *Default: `50`*
 
-
 ### `gradebook_score_display_custom`
 
-**Competence levels labelling**
+**Etichettatura dei livelli di competenza**
 
-Tick the box to enable Competence levels labelling
+Seleziona la casella per abilitare l'etichettatura dei livelli di competenza.
 
 *Default: `false`*
-
 
 ### `gradebook_score_display_custom_standalone`
 
-**Custom score display in gradebook's standalone column**
+**Visualizzazione personalizzata dei punteggi in una colonna separata del registro di valutazione**
 
-Shows custom competence level values in a separate column in gradebook flatview when using custom score display.
+Mostra i valori personalizzati dei livelli di competenza in una colonna separata nella vista piatta del registro di valutazione quando si utilizza la visualizzazione personalizzata dei punteggi.
 
 *Default: `false`*
-
 
 ### `gradebook_score_display_upperlimit`
 
-**Display score upper limit**
+**Mostra il limite superiore del punteggio**
 
-Tick the box to show the score's upper limit
+Seleziona la casella per mostrare il limite superiore del punteggio.
 
 *Default: `false`*
-
 
 ### `gradebook_use_apcu_cache`
 
-**Use APCu caching to speed up gradebok**
+**Utilizza la cache APCu per velocizzare il registro di valutazione**
 
-Improve speed when rendering gradebook student reports using Doctrine APCU cache. APCu is an optional but recommended PHP extension.
+Migliora la velocità durante la generazione dei rapporti degli studenti nel registro di valutazione utilizzando la cache Doctrine APCU. APCu è un'estensione PHP opzionale ma consigliata.
 
 *Default: `true`*
-
 
 ### `gradebook_use_exercise_score_settings_in_categories`
 
-**Use test settings for grades display**
+**Utilizza le impostazioni dei test per la visualizzazione dei voti**
 
-Applies exercise score display settings (percentage vs. points) to category scores in gradebook.
+Applica le impostazioni di visualizzazione dei punteggi degli esercizi (percentuale vs. punti) ai punteggi delle categorie nel registro di valutazione.
 
 *Default: `true`*
-
 
 ### `gradebook_use_exercise_score_settings_in_total`
 
-**Use global score display setting in gradebook**
+**Utilizza l'impostazione globale di visualizzazione dei punteggi nel registro di valutazione**
 
-Applies global exercise score display settings to total score calculations in gradebook.
+Applica le impostazioni globali di visualizzazione dei punteggi degli esercizi ai calcoli del punteggio totale nel registro di valutazione.
 
 *Default: `false`*
-
 
 ### `hide_gradebook_percentage_user_result`
 
-**Hide percentage in best/average gradebook results**
+**Nascondi la percentuale nei risultati migliori/medi del registro di valutazione**
 
-Removes percentage display from best/average score results shown to learners in gradebook.
+Rimuove la visualizzazione della percentuale dai risultati dei punteggi migliori/medi mostrati agli studenti nel registro di valutazione.
 
 *Default: `true`*
-
 
 ### `my_display_coloring`
 
-**Display colors for scores in the gradebook**
+**Visualizza colori per i punteggi nel registro di valutazione**
 
-Enables color coding for better score visibility in the gradebook.
+Abilita la codifica a colori per una migliore visibilità dei punteggi nel registro di valutazione.
 
 *Default: `false`*
 
-
 ### `student_publication_to_take_in_gradebook`
 
-**Assignment considered for gradebook**
+**Compito considerato per il registro di valutazione**
 
-In the assignments tool, students can upload more than one file. In case there is more than one for a single assignment, which one should be considered when ranking them in the gradebook? This depends on your methodology. Use 'first' to put the accent on attention to detail (like handling in time and handling the right work first). Use 'last' to highlight collaborative and adaptative work.
+Nello strumento dei compiti, gli studenti possono caricare più di un file. Nel caso in cui ce ne sia più di uno per un singolo compito, quale dovrebbe essere considerato per la classificazione nel registro di valutazione? Questo dipende dalla tua metodologia. Usa 'first' per porre l'accento sull'attenzione ai dettagli (come la consegna tempestiva e la gestione del lavoro corretto per primo). Usa 'last' per evidenziare il lavoro collaborativo e adattativo.
 
 *Default: `first`*
 
-
 ### `teachers_can_change_grade_model_settings`
 
-**Teachers can change the Gradebook model settings**
+**I docenti possono modificare le impostazioni del modello del registro di valutazione**
 
-When editing a Gradebook
+Durante la modifica di un registro di valutazione.
 
 *Default: `true`*
-
 
 ### `teachers_can_change_score_settings`
 
-**Teachers can change the Gradebook score settings**
+**I docenti possono modificare le impostazioni dei punteggi del registro di valutazione**
 
-When editing the Gradebook settings
+Durante la modifica delle impostazioni del registro di valutazione.
 
 *Default: `true`*
-
-

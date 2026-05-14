@@ -1,32 +1,31 @@
-# Cron Jobs Settings
+# Impostazioni dei Cron Jobs
 
-Configuration of scheduled jobs (cron tasks) shipped with Chamilo.
+Configurazione dei lavori pianificati (attività cron) forniti con Chamilo.
 
-Access these settings under **Administration > Configuration settings > Cron Jobs**. This category contains **3 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+Accedi a queste impostazioni tramite **Amministrazione > Impostazioni di configurazione > Cron Jobs**. Questa categoria contiene **3 impostazioni**, elencate di seguito con il titolo e il commento forniti nei dati di configurazione della piattaforma (`SettingsCurrentFixtures.php`).
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> Il nome della variabile nel codice è mostrato in monospace. Utilizzalo quando scrivi script tramite l'API o quando devi modificare queste impostazioni a livello globale editando [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
 
-## Settings
+## Impostazioni
 
 ### `cron_remind_course_expiration_activate`
 
-**Remind Course Expiration cron**
+**Cron di Promemoria Scadenza Corso**
 
-Enable the Remind Course Expiration cron
+Abilita il cron di Promemoria Scadenza Corso
 
 *Default: `false`*
 
 ### `cron_remind_course_expiration_frequency`
 
-**Frequency for the Remind Course Expiration cron**
+**Frequenza per il cron di Promemoria Scadenza Corso**
 
-Number of days before the expiration of the course to consider to send reminder mail
+Numero di giorni prima della scadenza del corso da considerare per l'invio di un'e-mail di promemoria
 
 ### `cron_remind_course_finished_activate`
 
-**Send course finished notification**
+**Invia notifica di corso completato**
 
-Whether to send an e-mail to students when their course (session) is finished. This requires cron tasks to be configured (see main/cron/ directory).
+Indica se inviare un'e-mail agli studenti quando il loro corso (sessione) è terminato. Questo richiede che le attività cron siano configurate (vedi directory main/cron/).
 
 *Default: `false`*
-

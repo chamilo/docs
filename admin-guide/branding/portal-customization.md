@@ -1,20 +1,20 @@
-# Portal Customization
+# Personalizzazione del Portale
 
-Customize how your Chamilo platform looks and what information is displayed to users.
+Personalizza l'aspetto della tua piattaforma Chamilo e le informazioni mostrate agli utenti.
 
-## Platform Identity
+## Identità della Piattaforma
 
-![The portal customization page showing platform identity settings for name, logo, and institution](/.gitbook/assets/admin-portal-customization.png)
+![La pagina di personalizzazione del portale che mostra le impostazioni di identità della piattaforma per nome, logo e istituzione](/.gitbook/assets/admin-portal-customization.png)
 
-Configure the basic identity of your portal:
+Configura l'identità di base del tuo portale:
 
-* **Platform name** — The name shown in the browser title and throughout the interface
-* **Institution name** — Your organization's name
-* **Institution URL** — A link to your organization's website
-* **Platform logo** — Upload your organization's logo (displayed in the top bar)
+* **Nome della piattaforma** — Il nome mostrato nel titolo del browser e in tutta l'interfaccia
+* **Nome dell'istituzione** — Il nome della tua organizzazione
+* **URL dell'istituzione** — Un collegamento al sito web della tua organizzazione
+* **Logo della piattaforma** — Carica il logo della tua organizzazione (visualizzato nella barra superiore)
 
-## Tips
+## Suggerimenti
 
-* **Keep the homepage clean** — Too much content on the homepage can be overwhelming. Focus on essential announcements and course access.
-* **Update regularly** — Keep system announcements current and remove outdated ones
-* **Upload a high-quality logo** — The logo is one of the most visible branding elements. Use a crisp, appropriately sized image.
+* **Mantieni la homepage pulita** — Troppi contenuti sulla homepage possono risultare eccessivi. Concentrati su annunci essenziali e sull'accesso ai corsi.
+* **Aggiorna regolarmente** — Mantieni gli annunci di sistema aggiornati e rimuovi quelli obsoleti
+* **Carica un logo di alta qualità** — Il logo è uno degli elementi di branding più visibili. Usa un'immagine nitida e di dimensioni appropriate.

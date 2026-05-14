@@ -1,43 +1,43 @@
-# Links
+# Collegamenti
 
-The links tool lets you share useful URLs with your learners, organized by category.
+Lo strumento dei collegamenti ti permette di condividere URL utili con i tuoi studenti, organizzati per categoria.
 
-## Adding a Link
+## Aggiungere un Collegamento
 
-1. Open the **Links** <img src="/.gitbook/assets/icons/mdi-link.svg" alt="Links" data-size="line"> tool from the course homepage
-2. Click **Add a link** <img src="/.gitbook/assets/icons/mdi-link-plus.svg" alt="Add link" data-size="line">
-3. Fill in the details:
-   * **URL** — The web address (e.g., `https://example.com/resource`)
-   * **Link name** — A descriptive name for the link
-   * **Description** — An optional explanation of what the resource is about
-   * **Category** — Assign the link to a category for organization
-   * **Target** — Where the link opens: `_self` (same window), `_blank` (new tab), `_parent`, or `_top`
-   * **Show link on course homepage** — Whether you want to show it as a tool icon on the course homepage
-4. Save
+1. Apri lo strumento **Collegamenti** <img src="/.gitbook/assets/icons/mdi-link.svg" alt="Collegamenti" data-size="line"> dalla homepage del corso
+2. Clicca su **Aggiungi un collegamento** <img src="/.gitbook/assets/icons/mdi-link-plus.svg" alt="Aggiungi collegamento" data-size="line">
+3. Compila i dettagli:
+   * **URL** — L'indirizzo web (ad esempio, `https://example.com/resource`)
+   * **Nome del collegamento** — Un nome descrittivo per il collegamento
+   * **Descrizione** — Una spiegazione opzionale di cosa tratta la risorsa
+   * **Categoria** — Assegna il collegamento a una categoria per l'organizzazione
+   * **Target** — Dove si apre il collegamento: `_self` (stessa finestra), `_blank` (nuova scheda), `_parent` o `_top`
+   * **Mostra collegamento sulla homepage del corso** — Se desideri mostrarlo come icona dello strumento sulla homepage del corso
+4. Salva
 
-## Organizing with Categories
+## Organizzare con le Categorie
 
-Categories help you group related links together:
+Le categorie ti aiutano a raggruppare i collegamenti correlati:
 
-1. Click **Add a category**
-2. Enter a **category name** and optional description
-3. Save
+1. Clicca su **Aggiungi una categoria**
+2. Inserisci un **nome della categoria** e una descrizione opzionale
+3. Salva
 
-Links within a category are displayed together, making it easy for learners to find relevant resources.
+I collegamenti all'interno di una categoria vengono visualizzati insieme, rendendo più facile per gli studenti trovare risorse pertinenti.
 
-## Managing Links
+## Gestire i Collegamenti
 
-* **Link checking** <img src="/.gitbook/assets/icons/mdi-check-circle.svg" alt="Validity" data-size="line">  — Chamilo can verify whether links are still active or broken
-* **Edit** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Edit" data-size="line"> — Update the link's URL, title, or description
-* **Visibility** <img src="/.gitbook/assets/icons/mdi-eye.svg" alt="Visibility" data-size="line"> — Hide or show the link to learners
-* **Delete** <img src="/.gitbook/assets/icons/mdi-delete.svg" alt="Delete" data-size="line"> — Remove the link
+* **Verifica dei collegamenti** <img src="/.gitbook/assets/icons/mdi-check-circle.svg" alt="Validità" data-size="line"> — Chamilo può verificare se i collegamenti sono ancora attivi o non funzionanti
+* **Modifica** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Modifica" data-size="line"> — Aggiorna l'URL, il titolo o la descrizione del collegamento
+* **Visibilità** <img src="/.gitbook/assets/icons/mdi-eye.svg" alt="Visibilità" data-size="line"> — Nascondi o mostra il collegamento agli studenti
+* **Elimina** <img src="/.gitbook/assets/icons/mdi-delete.svg" alt="Elimina" data-size="line"> — Rimuovi il collegamento
 
-## Exporting Links
+## Esportare i Collegamenti
 
-You can export your link collection to PDF. Look for the **Export** option in the links tool.
+Puoi esportare la tua raccolta di collegamenti in formato PDF. Cerca l'opzione **Esporta** nello strumento dei collegamenti.
 
-## Tips
+## Suggerimenti
 
-* **Categorize by topic** — Create a category for each module or week of your course
-* **Add descriptions** — Help learners understand why a link is relevant before they click it
-* **Check regularly** — Web links can become outdated or broken over time
+* **Categorizza per argomento** — Crea una categoria per ogni modulo o settimana del tuo corso
+* **Aggiungi descrizioni** — Aiuta gli studenti a capire perché un collegamento è rilevante prima di cliccarci sopra
+* **Controlla regolarmente** — I collegamenti web possono diventare obsoleti o non funzionanti nel tempo

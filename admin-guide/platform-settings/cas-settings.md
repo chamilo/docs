@@ -1,52 +1,51 @@
-# CAS Settings
+# Impostazioni CAS
 
-Legacy CAS (Central Authentication Service) configuration carried over from Chamilo 1.x. See [CAS](../authentication/cas.md) for the current status of the CAS authenticator in Chamilo 2.x.
+Configurazione legacy di CAS (Central Authentication Service) ereditata da Chamilo 1.x. Consulta [CAS](../authentication/cas.md) per lo stato attuale dell'autenticatore CAS in Chamilo 2.x.
 
-Access these settings under **Administration > Configuration settings > CAS**. This category contains **7 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+Accedi a queste impostazioni tramite **Amministrazione > Impostazioni di configurazione > CAS**. Questa categoria contiene **7 impostazioni**, elencate di seguito con il titolo e il commento forniti nei dati di configurazione della piattaforma (`SettingsCurrentFixtures.php`).
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> Il nome della variabile nel codice è mostrato in monospace. Utilizzalo quando scrivi script tramite l'API o quando devi modificare queste impostazioni a livello globale editando [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
 
-## Settings
+## Impostazioni
 
 ### `cas_activate`
 
-**Enable CAS authentication**
+**Abilita autenticazione CAS**
 
-Enabling CAS authentication will allow users to authenticate with their CAS credentials.<br/>Go to <a href='settings.php?category=CAS'>Plugin</a> to add a configurable 'CAS Login' button for your Chamilo campus. Or you can force CAS authentication by setting cas[force_redirect] in app/config/auth.conf.php.
+Abilitare l'autenticazione CAS consentirà agli utenti di autenticarsi con le loro credenziali CAS.<br/>Vai su <a href='settings.php?category=CAS'>Plugin</a> per aggiungere un pulsante configurabile 'Login CAS' per il tuo campus Chamilo. Oppure puoi forzare l'autenticazione CAS impostando cas[force_redirect] in app/config/auth.conf.php.
 
 ### `cas_add_user_activate`
 
-**Enable CAS user addition**
+**Abilita aggiunta utenti CAS**
 
-Enable CAS user addition. To create the user account from the LDAP directory, the extldap_config and extldap_user_correspondance tables must be filled in in app/config/auth.conf.php
+Abilita l'aggiunta di utenti CAS. Per creare l'account utente dalla directory LDAP, le tabelle extldap_config e extldap_user_correspondance devono essere compilate in app/config/auth.conf.php.
 
 ### `cas_port`
 
-**Main CAS server port**
+**Porta del server CAS principale**
 
-The port on which to connect to the main CAS server
+La porta su cui connettersi al server CAS principale.
 
 ### `cas_protocol`
 
-**Main CAS server protocol**
+**Protocollo del server CAS principale**
 
-The protocol with which we connect to the CAS server
+Il protocollo con cui ci connettiamo al server CAS.
 
 ### `cas_server`
 
-**Main CAS server**
+**Server CAS principale**
 
-This is the main CAS server which will be used for the authentication (IP address or hostname)
+Questo è il server CAS principale che verrà utilizzato per l'autenticazione (indirizzo IP o nome host).
 
 ### `cas_server_uri`
 
-**Main CAS server URI**
+**URI del server CAS principale**
 
-The path to the CAS service
+Il percorso del servizio CAS.
 
 ### `update_user_info_cas_with_ldap`
 
-**Update CAS-authenticated user account information from LDAP**
+**Aggiorna le informazioni dell'account utente autenticato CAS da LDAP**
 
-Makes sure the user firstname, lastname and email address are the same as current values in the LDAP directory
-
+Assicura che il nome, il cognome e l'indirizzo email dell'utente siano gli stessi dei valori attuali nella directory LDAP.

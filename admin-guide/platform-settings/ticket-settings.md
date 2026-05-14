@@ -1,68 +1,63 @@
-# Tickets Settings
+# Impostazioni dei Ticket
 
-Behaviour of the **Tickets** (helpdesk) system.
+Comportamento del sistema di **Ticket** (helpdesk).
 
-Access these settings under **Administration > Configuration settings > Tickets**. This category contains **7 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+Accedi a queste impostazioni tramite **Amministrazione > Impostazioni di configurazione > Ticket**. Questa categoria contiene **7 impostazioni**, elencate di seguito con il titolo e il commento forniti nei dati di configurazione della piattaforma (`SettingsCurrentFixtures.php`).
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> Il nome della variabile nel codice è mostrato in monospace. Utilizzalo quando scrivi script tramite l'API o quando devi modificare queste impostazioni a livello globale editando [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
 
-## Settings
+## Impostazioni
 
 ### `show_link_bug_notification`
 
-**Show link to report bug**
+**Mostra link per segnalare un bug**
 
-Show a link in the header to report a bug inside of our support platform (http://support.chamilo.org). When clicking on the link, the user is sent to the support platform, on a wiki page that describes the bug reporting process.
+Mostra un link nell'intestazione per segnalare un bug all'interno della nostra piattaforma di supporto (http://support.chamilo.org). Cliccando sul link, l'utente viene reindirizzato alla piattaforma di supporto, su una pagina wiki che descrive il processo di segnalazione dei bug.
 
-*Default: `false`*
-
+*Predefinito: `false`*
 
 ### `show_link_ticket_notification`
 
-**Show ticket creation link**
+**Mostra link per la creazione di ticket**
 
-Show the ticket creation link to users on the right side of the portal
+Mostra il link per la creazione di ticket agli utenti sul lato destro del portale.
 
-*Default: `false`*
-
+*Predefinito: `false`*
 
 ### `ticket_allow_category_edition`
 
-**Allow tickets categories edition**
+**Consenti modifica delle categorie dei ticket**
 
-Allow category edition by administrators.
+Consenti la modifica delle categorie da parte degli amministratori.
 
-*Default: `false`*
+*Predefinito: `false`*
 
 ### `ticket_allow_student_add`
 
-**Allow users to add tickets**
+**Consenti agli utenti di aggiungere ticket**
 
-Allows all users to add tickets not only the administrators.
+Consente a tutti gli utenti di aggiungere ticket, non solo agli amministratori.
 
-*Default: `false`*
+*Predefinito: `false`*
 
 ### `ticket_project_user_roles`
 
-**Access by role to ticket projects**
+**Accesso per ruolo ai progetti di ticket**
 
-Allow ticket projects to be accesses by specific user roles. Example: ['permissions' => [1 => [17]] where project_id = 1, STUDENT_BOSS = 17.
+Consenti l'accesso ai progetti di ticket da parte di ruoli utente specifici. Esempio: ['permissions' => [1 => [17]] dove project_id = 1, STUDENT_BOSS = 17.
 
 ### `ticket_send_warning_to_all_admins`
 
-**Send ticket warning messages to administrators**
+**Invia messaggi di avviso agli amministratori per i ticket**
 
-Send a message if a ticket was created without a category or if a category doesn't have any administrator assigned.
+Invia un messaggio se un ticket è stato creato senza una categoria o se una categoria non ha un amministratore assegnato.
 
-*Default: `false`*
-
+*Predefinito: `false`*
 
 ### `ticket_warn_admin_no_user_in_category`
 
-**Send alert to administrators if tickets category has no one in charge**
+**Invia avviso agli amministratori se una categoria di ticket non ha un responsabile**
 
-Send a warning message (e-mail and Chamilo message) to all administrators if there's not a user assigned to a category.
+Invia un messaggio di avviso (e-mail e messaggio Chamilo) a tutti gli amministratori se non c'è un utente assegnato a una categoria.
 
-*Default: `false`*
-
-
+*Predefinito: `false`*

@@ -1,78 +1,78 @@
-# Support Tickets
+# Ticket di Supporto
 
-The **Tickets** tool is a built-in helpdesk system that lets users submit support requests and track their resolution. Depending on how your platform is configured, you may use it as a **requester** (submitting tickets on behalf of yourself or your learners) or as a **support agent** (responding to tickets assigned to your category).
+Lo strumento **Ticket** è un sistema di helpdesk integrato che consente agli utenti di inviare richieste di supporto e monitorarne la risoluzione. A seconda di come è configurata la tua piattaforma, potresti utilizzarlo come **richiedente** (inviando ticket per conto tuo o dei tuoi studenti) o come **agente di supporto** (rispondendo ai ticket assegnati alla tua categoria).
 
-## How the System Is Organized
+## Come è Organizzato il Sistema
 
-Tickets belong to **projects**, which are further divided into **categories**. Each category can have one or more support agents assigned to it. When a ticket is submitted, it is automatically routed to an available agent in the selected category.
+I ticket appartengono a **progetti**, che sono ulteriormente suddivisi in **categorie**. Ogni categoria può avere uno o più agenti di supporto assegnati. Quando un ticket viene inviato, viene automaticamente instradato a un agente disponibile nella categoria selezionata.
 
-Default categories include:
+Le categorie predefinite includono:
 
-| Category | Description |
-|----------|-------------|
-| Enrollment | Questions and issues about course or session enrollment |
-| General information | General platform questions |
-| Requests and paperwork | Administrative requests and documentation |
-| Academic Incidents | Issues related to exams, assignments, or tasks |
-| Virtual campus | Technical issues with the platform |
-| Online evaluation | Issues with a specific course assessment (requires selecting a course) |
+| Categoria | Descrizione |
+|-----------|-------------|
+| Iscrizione | Domande e problemi relativi all'iscrizione a corsi o sessioni |
+| Informazioni generali | Domande generali sulla piattaforma |
+| Richieste e documentazione | Richieste amministrative e documentazione |
+| Incidenti accademici | Problemi relativi a esami, compiti o attività |
+| Campus virtuale | Problemi tecnici con la piattaforma |
+| Valutazione online | Problemi con una specifica valutazione di un corso (richiede la selezione di un corso) |
 
-## Accessing the Ticket Tool
+## Accesso allo Strumento Ticket
 
-If your administrator has enabled the ticket link, a ticket icon <img src="/.gitbook/assets/icons/mdi-ticket-account.svg" alt="Ticket" data-size="line"> appears in the top navigation bar. Click it to go directly to the ticket submission form.
+Se l'amministratore ha abilitato il collegamento ai ticket, un'icona del ticket <img src="/.gitbook/assets/icons/mdi-ticket-account.svg" alt="Ticket" data-size="line"> appare nella barra di navigazione superiore. Cliccaci sopra per accedere direttamente al modulo di invio del ticket.
 
-You can also access your tickets from the main menu under **Support** or **Tickets**, depending on your platform configuration.
+Puoi anche accedere ai tuoi ticket dal menu principale sotto **Supporto** o **Ticket**, a seconda della configurazione della tua piattaforma.
 
-## Submitting a Ticket
+## Invio di un Ticket
 
-To open a new support request:
+Per aprire una nuova richiesta di supporto:
 
-1. Click **New ticket** (or the ticket icon in the top bar).
-2. Select the **category** that best matches your issue.
-3. If the category requires it (for example, Online evaluation), select the relevant **course**.
-4. Enter a **subject** — a short summary of the issue.
-5. Write your **message** describing the problem in detail.
-6. Optionally attach files (screenshots, documents) to help the support agent understand the issue.
-7. Click **Submit**.
+1. Clicca su **Nuovo ticket** (o sull'icona del ticket nella barra superiore).
+2. Seleziona la **categoria** che meglio corrisponde al tuo problema.
+3. Se la categoria lo richiede (ad esempio, Valutazione online), seleziona il **corso** pertinente.
+4. Inserisci un **oggetto** — un breve riassunto del problema.
+5. Scrivi il tuo **messaggio** descrivendo il problema in dettaglio.
+6. Facoltativamente, allega file (screenshot, documenti) per aiutare l'agente di supporto a comprendere il problema.
+7. Clicca su **Invia**.
 
-The ticket is assigned an ID and routed to a support agent. You will receive a notification when the agent responds.
+Al ticket viene assegnato un ID e viene instradato a un agente di supporto. Riceverai una notifica quando l'agente risponderà.
 
-## Tracking Your Tickets
+## Monitoraggio dei Tuoi Ticket
 
-From the ticket list, you can see all tickets you have submitted and their current status:
+Dall'elenco dei ticket, puoi vedere tutti i ticket che hai inviato e il loro stato attuale:
 
-| Status | Meaning |
-|--------|---------|
-| New | Just submitted, not yet reviewed |
-| Pending | Being reviewed by a support agent |
-| Unconfirmed | Awaiting confirmation or additional information |
-| Forwarded | Transferred to another team or agent |
-| Closed | Resolved |
+| Stato | Significato |
+|-------|-------------|
+| Nuovo | Appena inviato, non ancora esaminato |
+| In attesa | In fase di revisione da parte di un agente di supporto |
+| Non confermato | In attesa di conferma o informazioni aggiuntive |
+| Inoltrato | Trasferito a un altro team o agente |
+| Chiuso | Risolto |
 
-Click any ticket to read the full conversation thread and add a reply.
+Clicca su qualsiasi ticket per leggere l'intero thread della conversazione e aggiungere una risposta.
 
-## Replying to a Ticket
+## Rispondere a un Ticket
 
-Once a ticket is open, you and the support agent exchange messages within the same thread. To add a reply:
+Una volta aperto un ticket, tu e l'agente di supporto scambiate messaggi all'interno dello stesso thread. Per aggiungere una risposta:
 
-1. Open the ticket from your list.
-2. Scroll to the reply field at the bottom.
-3. Write your response and attach files if needed.
-4. Click **Send**.
+1. Apri il ticket dalla tua lista.
+2. Scorri fino al campo di risposta in fondo.
+3. Scrivi la tua risposta e allega file se necessario.
+4. Clicca su **Invia**.
 
-Both parties receive notifications when a new message is added to the thread.
+Entrambe le parti ricevono notifiche quando viene aggiunto un nuovo messaggio al thread.
 
-## Handling Tickets as a Support Agent
+## Gestione dei Ticket come Agente di Supporto
 
-If your administrator has assigned you to one or more ticket categories, you will see incoming tickets from learners or colleagues in your queue.
+Se l'amministratore ti ha assegnato a una o più categorie di ticket, vedrai i ticket in arrivo da studenti o colleghi nella tua coda.
 
-To respond to an assigned ticket:
+Per rispondere a un ticket assegnato:
 
-1. Open your ticket list — assigned tickets appear alongside tickets you have submitted.
-2. Click a ticket to read the requester's message.
-3. Write a reply and click **Send**. The ticket status updates automatically.
-4. When the issue is resolved, change the status to **Closed**.
+1. Apri la tua lista di ticket — i ticket assegnati appaiono insieme ai ticket che hai inviato.
+2. Clicca su un ticket per leggere il messaggio del richiedente.
+3. Scrivi una risposta e clicca su **Invia**. Lo stato del ticket si aggiorna automaticamente.
+4. Quando il problema è risolto, cambia lo stato in **Chiuso**.
 
-You can also change the **priority** of a ticket (Low, Normal, High) to help triage your queue.
+Puoi anche modificare la **priorità** di un ticket (Bassa, Normale, Alta) per aiutare a organizzare la tua coda.
 
-> Access to ticket categories is controlled by the platform administrator. If you need to be added as a support agent for a category, contact your administrator. See the Admin Guide's [Tickets Settings](../admin-guide/platform-settings/ticket-settings.md) for configuration options.
+> L'accesso alle categorie di ticket è controllato dall'amministratore della piattaforma. Se hai bisogno di essere aggiunto come agente di supporto per una categoria, contatta il tuo amministratore. Consulta la Guida per l'Amministratore alle [Impostazioni dei Ticket](../admin-guide/platform-settings/ticket-settings.md) per le opzioni di configurazione.

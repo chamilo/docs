@@ -1,23 +1,23 @@
-# Notebook
+# Blocco Note
 
-The notebook is a personal note-taking tool for learners. Each learner has their own private notebook within the course.
+Il blocco note è uno strumento personale per prendere appunti dedicato agli studenti. Ogni studente dispone di un proprio blocco note privato all'interno del corso.
 
-## How It Works
+## Come Funziona
 
-The notebook is a simple tool where learners can:
+Il blocco note è uno strumento semplice che permette agli studenti di:
 
-* **Create notes** — Write and save personal notes related to the course content
-* **Organize notes** — Review, edit, and delete their notes
-* **Keep them private** — Notes are visible only to the learner who created them
+* **Creare appunti** — Scrivere e salvare appunti personali relativi al contenuto del corso
+* **Organizzare gli appunti** — Rivedere, modificare ed eliminare i propri appunti
+* **Mantenere la privacy** — Gli appunti sono visibili solo allo studente che li ha creati
 
-## As a Teacher
+## Come Insegnante
 
-As a teacher, you should be aware that:
+Come insegnante, dovresti sapere che:
 
-* The notebook is a **personal tool** — you cannot see your learners' notes
-* It is useful as a **reflection tool** — encourage learners to take notes while studying
-* Notes are stored within the course — they are not shared across courses
+* Il blocco note è uno **strumento personale** — non puoi vedere gli appunti dei tuoi studenti
+* È utile come **strumento di riflessione** — incoraggia gli studenti a prendere appunti durante lo studio
+* Gli appunti sono memorizzati all'interno del corso — non vengono condivisi tra corsi diversi
 
-## Enabling the Notebook
+## Attivazione del Blocco Note
 
-The notebook tool appears on the course homepage if it is enabled. If you do not see it, check that it is not hidden (look for hidden tools on the course homepage).
+Lo strumento blocco note appare sulla homepage del corso se è abilitato. Se non lo vedi, verifica che non sia nascosto (cerca gli strumenti nascosti sulla homepage del corso).

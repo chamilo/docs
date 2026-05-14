@@ -1,48 +1,48 @@
-# SSO Configuration
+# Configurazione SSO
 
-This page covers topics that apply across authentication methods.
+Questa pagina tratta argomenti che si applicano a diversi metodi di autenticazione.
 
-## Multiple providers
+## Provider multipli
 
-You can enable more than one authentication method at the same time. Each enabled provider shows its own button on the login page alongside the standard username/password form. Users choose their preferred method.
+È possibile abilitare più metodi di autenticazione contemporaneamente. Ogni provider abilitato mostra il proprio pulsante nella pagina di accesso accanto al modulo standard di nome utente e password. Gli utenti possono scegliere il metodo preferito.
 
-Keep the standard form enabled so platform administrators can always log in, even if an external provider is misconfigured.
+Mantieni abilitato il modulo standard in modo che gli amministratori della piattaforma possano sempre effettuare l'accesso, anche se un provider esterno è configurato in modo errato.
 
-## Authentication priority
+## Priorità di autenticazione
 
-When multiple methods are active, the system checks credentials in this order:
+Quando sono attivi più metodi, il sistema verifica le credenziali in quest'ordine:
 
-1. LDAP (if `force_as_login_method` is set)
-2. OAuth2 providers (in the order they appear in `authentication.yaml`)
-3. Internal Chamilo database
+1. LDAP (se `force_as_login_method` è impostato)
+2. Provider OAuth2 (nell'ordine in cui appaiono in `authentication.yaml`)
+3. Database interno di Chamilo
 
-## JWT tokens for API access
+## Token JWT per l'accesso API
 
-Chamilo uses JWT (JSON Web Tokens) for its REST API. Token lifetime and refresh behaviour are configured in `config/packages/lexik_jwt_authentication.yaml`. This is separate from the SSO login flow and applies to API clients only.
+Chamilo utilizza JWT (JSON Web Tokens) per la sua API REST. La durata del token e il comportamento di aggiornamento sono configurati in `config/packages/lexik_jwt_authentication.yaml`. Questo è separato dal flusso di accesso SSO e si applica solo ai client API.
 
-## Troubleshooting
+## Risoluzione dei problemi
 
-### Login button does not appear after configuration
+### Il pulsante di accesso non appare dopo la configurazione
 
-The cache must be cleared after every change to `authentication.yaml`:
+La cache deve essere svuotata dopo ogni modifica a `authentication.yaml`:
 
 ```bash
 php bin/console cache:clear && php bin/console cache:warmup
 ```
 
-### Users cannot log in via SSO
+### Gli utenti non riescono ad accedere tramite SSO
 
-* **Redirect URI mismatch** — The URI registered in your identity provider must exactly match `https://your-chamilo-url/connect/<provider>/check`.
-* **Clock drift** — SSO tokens are time-sensitive. Ensure your server clock is synchronized (NTP).
-* **SSL certificate** — Chamilo must trust the identity provider's certificate. Check for self-signed certificate issues.
-* **Logs** — Review `var/log/` and your identity provider's logs for specific error messages.
+* **Mismatch dell'URI di reindirizzamento** — L'URI registrato nel tuo provider di identità deve corrispondere esattamente a `https://your-chamilo-url/connect/<provider>/check`.
+* **Deriva dell'orologio** — I token SSO sono sensibili al tempo. Assicurati che l'orologio del server sia sincronizzato (NTP).
+* **Certificato SSL** — Chamilo deve fidarsi del certificato del provider di identità. Verifica eventuali problemi con certificati autofirmati.
+* **Log** — Esamina `var/log/` e i log del tuo provider di identità per messaggi di errore specifici.
 
-### Users are created with the wrong role
+### Gli utenti vengono creati con il ruolo sbagliato
 
-Check the role mapping configuration for the provider. New users default to the student role unless a group or attribute mapping promotes them.
+Controlla la configurazione di mappatura dei ruoli per il provider. I nuovi utenti vengono assegnati di default al ruolo di studente, a meno che una mappatura di gruppo o attributo non li promuova.
 
-### Users exist in the provider but cannot access Chamilo
+### Gli utenti esistono nel provider ma non possono accedere a Chamilo
 
-* If `allow_create_new_users` is false, the user must already have a Chamilo account whose email or username matches the provider's data.
-* Check that the user is not deactivated in Chamilo.
-* For Azure, review `existing_user_verification_order` to understand how Chamilo matches incoming users to existing accounts.
+* Se `allow_create_new_users` è impostato su false, l'utente deve già avere un account Chamilo il cui email o nome utente corrisponda ai dati del provider.
+* Verifica che l'utente non sia disattivato in Chamilo.
+* Per Azure, rivedi `existing_user_verification_order` per capire come Chamilo associa gli utenti in arrivo agli account esistenti.

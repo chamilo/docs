@@ -1,80 +1,80 @@
-# Resource System
+# Sistema delle Risorse
 
-The resource system is one of the most important architectural concepts in Chamilo 2.0. It provides a unified abstraction for all course content — documents, exercises, learning paths, forum posts, and more.
+Il sistema delle risorse è uno dei concetti architettonici più importanti in Chamilo 2.0. Fornisce un'astrazione unificata per tutti i contenuti del corso: documenti, esercizi, percorsi di apprendimento, post nei forum e altro ancora.
 
-## Core Concept
+## Concetto Fondamentale
 
-Every piece of course content is represented by a **ResourceNode**. This gives all content types a common set of capabilities:
+Ogni elemento di contenuto del corso è rappresentato da un **ResourceNode**. Questo conferisce a tutti i tipi di contenuto un insieme comune di funzionalità:
 
-* **Visibility control** — Show/hide from learners
-* **Access control** — Security voters check permissions via the ResourceNode
-* **File storage** — Attached files are stored via ResourceFile
-* **Tree structure** — ResourceNodes form a tree (parent-child relationships)
-* **Audit trail** — Creator, creation date, modification tracking
+* **Controllo della visibilità** — Mostra/nascondi agli studenti
+* **Controllo degli accessi** — I votanti di sicurezza verificano i permessi tramite il ResourceNode
+* **Archiviazione dei file** — I file allegati sono memorizzati tramite ResourceFile
+* **Struttura ad albero** — I ResourceNode formano un albero (relazioni genitore-figlio)
+* **Tracciamento delle modifiche** — Creatore, data di creazione, monitoraggio delle modifiche
 
-## Key Entities
+## Entità Chiave
 
 ### ResourceNode (`src/CoreBundle/Entity/ResourceNode.php`)
 
-The central entity. Every content entity has a one-to-one relationship with a ResourceNode.
+L'entità centrale. Ogni entità di contenuto ha una relazione uno-a-uno con un ResourceNode.
 
-Key fields:
+Campi principali:
 
-| Field | Type | Description |
+| Campo | Tipo | Descrizione |
 |-------|------|-------------|
-| `id` | integer | Primary key |
-| `uuid` | UUID v4 | Unique identifier for API use |
-| `title` | string | Display title |
-| `creator` | User | The user who created this resource |
-| `resourceFile` | ResourceFile | The attached file (if any) |
-| `resourceType` | ResourceType | The type of resource (document, quiz, etc.) |
-| `parent` | ResourceNode | Parent in the resource tree |
-| `children` | Collection | Child ResourceNodes |
-| `resourceLinks` | Collection | Visibility and access links |
+| `id` | integer | Chiave primaria |
+| `uuid` | UUID v4 | Identificatore univoco per l'uso API |
+| `title` | string | Titolo visualizzato |
+| `creator` | User | L'utente che ha creato questa risorsa |
+| `resourceFile` | ResourceFile | Il file allegato (se presente) |
+| `resourceType` | ResourceType | Il tipo di risorsa (documento, quiz, ecc.) |
+| `parent` | ResourceNode | Genitore nell'albero delle risorse |
+| `children` | Collection | ResourceNode figli |
+| `resourceLinks` | Collection | Collegamenti per visibilità e accesso |
 
-The tree uses Gedmo's **materialized path** strategy for efficient hierarchical queries.
+L'albero utilizza la strategia **materialized path** di Gedmo per query gerarchiche efficienti.
 
 ### ResourceFile (`src/CoreBundle/Entity/ResourceFile.php`)
 
-Stores the actual file data for a resource:
+Memorizza i dati effettivi del file per una risorsa:
 
-| Field | Type | Description |
+| Campo | Tipo | Descrizione |
 |-------|------|-------------|
-| `id` | integer | Primary key |
-| `title` | string | Original filename |
-| `mimeType` | string | MIME type |
-| `originalName` | string | Original upload name |
-| `size` | integer | File size in bytes |
-| `crop` | string | Crop data (for images) |
+| `id` | integer | Chiave primaria |
+| `title` | string | Nome del file originale |
+| `mimeType` | string | Tipo MIME |
+| `originalName` | string | Nome originale del caricamento |
+| `size` | integer | Dimensione del file in byte |
+| `crop` | string | Dati di ritaglio (per immagini) |
 
-File storage is handled by Flysystem, so files can be on local disk, S3, Azure, or GCS depending on configuration.
+L'archiviazione dei file è gestita da Flysystem, quindi i file possono trovarsi su disco locale, S3, Azure o GCS a seconda della configurazione.
 
 ### ResourceLink
 
-Controls visibility and access per context. There are 3 main context types:
+Controlla la visibilità e l'accesso per contesto. Esistono 3 tipi principali di contesto:
 
-1. Course
-2. Session
-3. Group (in a course)
+1. Corso
+2. Sessione
+3. Gruppo (in un corso)
 
-So the ResourceLink entity reflects the combination of those 3 context types and establishes a visibility for that complete context:
+Quindi l'entità ResourceLink riflette la combinazione di questi 3 tipi di contesto e stabilisce una visibilità per quel contesto completo:
 
-| Field | Type | Description |
+| Campo | Tipo | Descrizione |
 |-------|------|-------------|
-| `course` | Course | Which course the resource belongs to |
-| `session` | Session | Which session (null for base course) |
-| `group` | CGroup | Which group (null for whole course) |
-| `visibility` | integer | Visible, invisible, or deleted |
+| `course` | Course | A quale corso appartiene la risorsa |
+| `session` | Session | A quale sessione (null per il corso base) |
+| `group` | CGroup | A quale gruppo (null per l'intero corso) |
+| `visibility` | integer | Visibile, invisibile o eliminato |
 
-This allows the same ResourceNode to have different visibility in different contexts (e.g., visible in one session but hidden in another).
+Questo consente allo stesso ResourceNode di avere una visibilità diversa in contesti diversi (ad esempio, visibile in una sessione ma nascosto in un'altra).
 
-This is set automatically when using the interface and deciding, for example, that a resource is a session-specific resource which will be visible for all groups in a given course in a given session, but invisible in the base course or in another session.
+Questo viene impostato automaticamente quando si utilizza l'interfaccia e si decide, ad esempio, che una risorsa è specifica di una sessione e sarà visibile per tutti i gruppi in un dato corso in una data sessione, ma invisibile nel corso base o in un'altra sessione.
 
-By default, resources visible in a base course are also visible in all sessions of that course, but the course tutor can decide to hide a resource from a specific session. In this case, we will retrieve the specific visibility for this resource in this session and see that it has a visibility of 0, so the item will not appear to learners in this session, while a lack of session-specific visibility in other sessions will make the resource use the visibility of the base course (and the resource will show to learners).
+Per impostazione predefinita, le risorse visibili in un corso base sono visibili anche in tutte le sessioni di quel corso, ma il tutor del corso può decidere di nascondere una risorsa da una specifica sessione. In questo caso, recupereremo la visibilità specifica per questa risorsa in questa sessione e vedremo che ha una visibilità di 0, quindi l'elemento non apparirà agli studenti in questa sessione, mentre l'assenza di una visibilità specifica per sessione in altre sessioni farà sì che la risorsa utilizzi la visibilità del corso base (e la risorsa sarà visibile agli studenti).
 
-## API Platform Integration
+## Integrazione con API Platform
 
-ResourceNode is exposed as an API Platform resource with security:
+ResourceNode è esposto come risorsa di API Platform con sicurezza:
 
 ```php
 #[ApiResource(
@@ -87,9 +87,9 @@ ResourceNode is exposed as an API Platform resource with security:
 )]
 ```
 
-## How Content Entities Connect
+## Come si Collegano le Entità di Contenuto
 
-Course content entities (CDocument, CQuiz, CLp, etc.) extend `AbstractResource` or implement `ResourceInterface`, which gives them a `resourceNode` relationship:
+Le entità di contenuto del corso (CDocument, CQuiz, CLp, ecc.) estendono `AbstractResource` o implementano `ResourceInterface`, il che conferisce loro una relazione `resourceNode`:
 
 ```php
 // In CDocument entity:
@@ -97,14 +97,14 @@ Course content entities (CDocument, CQuiz, CLp, etc.) extend `AbstractResource` 
 private ResourceNode $resourceNode;
 ```
 
-When you create a CDocument, a ResourceNode is automatically created alongside it, providing unified resource management.
+Quando si crea un CDocument, un ResourceNode viene automaticamente creato insieme ad esso, fornendo una gestione unificata delle risorse.
 
-## Practical Implications
+## Implicazioni Pratiche
 
-When working with course content:
+Quando si lavora con i contenuti del corso:
 
-1. **Creating content** — Create both the content entity AND its ResourceNode
-2. **Checking permissions** — Use the ResourceNode's security voters
-3. **Managing files** — Attach files through ResourceFile
-4. **Controlling visibility** — Create/modify ResourceLinks
-5. **Building trees** — Use the parent-child relationship on ResourceNode for folder structures (e.g., document folders)
+1. **Creazione di contenuti** — Creare sia l'entità di contenuto CHE il suo ResourceNode
+2. **Verifica dei permessi** — Utilizzare i votanti di sicurezza del ResourceNode
+3. **Gestione dei file** — Allegare file tramite ResourceFile
+4. **Controllo della visibilità** — Creare/modificare ResourceLinks
+5. **Costruzione di alberi** — Utilizzare la relazione genitore-figlio su ResourceNode per strutture di cartelle (ad esempio, cartelle di documenti)

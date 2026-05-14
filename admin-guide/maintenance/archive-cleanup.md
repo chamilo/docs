@@ -1,34 +1,34 @@
-# Archive Cleanup
+# Pulizia dell'Archivio
 
-Over time, Chamilo accumulates temporary files in its cache and archive directories. Regular cleanup prevents disk space issues.
+Nel tempo, Chamilo accumula file temporanei nelle sue directory di cache e archivio. Una pulizia regolare previene problemi di spazio su disco.
 
-## What Can Be Cleaned
+## Cosa Può Essere Pulito
 
-* **Symfony cache** — Compiled templates, cached configuration, and routing data
-* **Temporary files** — Files generated during export, import, and other operations
-* **Session data** — Expired PHP session files
-* **Log files** — Old log files that are no longer needed
+* **Cache di Symfony** — Modelli compilati, configurazione in cache e dati di instradamento
+* **File temporanei** — File generati durante l'esportazione, l'importazione e altre operazioni
+* **Dati di sessione** — File di sessione PHP scaduti
+* **File di log** — Vecchi file di log che non sono più necessari
 
-## Performing Cleanup
+## Esecuzione della Pulizia
 
-### From the Administration Panel
+### Dal Pannello di Amministrazione
 
-Navigate to **Archive cleanup** in the administration panel. Click the cleanup button to remove temporary files.
+Naviga su **Pulizia dell'archivio** nel pannello di amministrazione. Fai clic sul pulsante di pulizia per rimuovere i file temporanei.
 
-### From the Command Line
+### Dalla Riga di Comando
 
-For more control, use Symfony console commands:
+Per un maggiore controllo, utilizza i comandi della console di Symfony:
 
 ```bash
-# Clear the Symfony cache
+# Cancella la cache di Symfony
 php bin/console cache:clear
 
-# Clear only the production cache
+# Cancella solo la cache di produzione
 php bin/console cache:clear --env=prod
 ```
 
-## Tips
+## Suggerimenti
 
-* **Schedule regular cleanups** — Set up a weekly or monthly cron job to clear temporary files
-* **Monitor disk usage** — Keep an eye on the `var/` directory size, as it grows with cache and log files
-* **Be careful with logs** — Before deleting log files, check if they contain information you might need for troubleshooting
+* **Pianifica pulizie regolari** — Imposta un lavoro cron settimanale o mensile per cancellare i file temporanei
+* **Monitora l'uso del disco** — Tieni d'occhio la dimensione della directory `var/`, poiché cresce con i file di cache e di log
+* **Fai attenzione ai log** — Prima di eliminare i file di log, verifica se contengono informazioni che potrebbero essere utili per la risoluzione dei problemi

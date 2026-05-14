@@ -1,53 +1,53 @@
-# Groups
+# Gruppi
 
-Groups allow you to divide your learners into smaller teams for collaborative work. Each group can have its own shared tools, such as documents, forums, and a wiki.
+I gruppi consentono di dividere i tuoi studenti in squadre più piccole per il lavoro collaborativo. Ogni gruppo può avere i propri strumenti condivisi, come documenti, forum e un wiki.
 
-## Creating Groups
+## Creazione di Gruppi
 
-1. Open the **Groups** tool from the course homepage
-2. Click **Create groups**
-3. Configure the group settings:
-   * **Number of groups** — How many groups to create
-   * **Maximum members per group** — The size limit for each group (0 for unlimited)
-   * **Self-registration** — Whether learners can join groups on their own
-   * **Self-unregistration** — Whether learners can leave a group on their own
+1. Apri lo strumento **Gruppi** dalla homepage del corso
+2. Fai clic su **Crea gruppi**
+3. Configura le impostazioni del gruppo:
+   * **Numero di gruppi** — Quanti gruppi creare
+   * **Numero massimo di membri per gruppo** — Il limite di dimensione per ogni gruppo (0 per illimitato)
+   * **Auto-registrazione** — Se gli studenti possono unirsi ai gruppi autonomamente
+   * **Auto-cancellazione** — Se gli studenti possono lasciare un gruppo autonomamente
 
-## Group Tools
+## Strumenti del Gruppo
 
-![The groups overview showing available group tools and member counts](/.gitbook/assets/groups-overview.png)
+![Panoramica dei gruppi che mostra gli strumenti disponibili e il conteggio dei membri](/.gitbook/assets/groups-overview.png)
 
-Each group can have access to a subset of course tools that are shared only among group members:
+Ogni gruppo può avere accesso a un sottoinsieme di strumenti del corso condivisi solo tra i membri del gruppo:
 
-* **Documents** — A shared file space for the group
-* **Forum** — A group-specific discussion forum
-* **Wiki** — A collaborative wiki for the group
-* **Chat** — A chat space for the group
-* **Agenda** — Group-scoped calendar events
-* **Announcements** — Send announcements to group members only
-* **Assignments** — Collect work from the group
+* **Documenti** — Uno spazio file condiviso per il gruppo
+* **Forum** — Un forum di discussione specifico per il gruppo
+* **Wiki** — Un wiki collaborativo per il gruppo
+* **Chat** — Uno spazio di chat per il gruppo
+* **Agenda** — Eventi del calendario specifici per il gruppo
+* **Annunci** — Invia annunci solo ai membri del gruppo
+* **Compiti** — Raccogli lavori dal gruppo
 
-For each tool you can choose its access level: **Not available**, **Public** (any course member), or **Private** (group members only). These settings can be applied at the group category level, so multiple groups in the same category share the same tool configuration.
+Per ogni strumento puoi scegliere il livello di accesso: **Non disponibile**, **Pubblico** (qualsiasi membro del corso) o **Privato** (solo membri del gruppo). Queste impostazioni possono essere applicate a livello di categoria di gruppo, quindi più gruppi nella stessa categoria condividono la stessa configurazione degli strumenti.
 
-## Managing Group Members
+## Gestione dei Membri del Gruppo
 
-You can manage group membership in several ways:
+Puoi gestire l'appartenenza ai gruppi in diversi modi:
 
-* **Manual assignment** — Add specific learners to each group
-* **Fill selected groups** — Automatically distribute unsubscribed learners across the selected groups, respecting each group's capacity and the per-user group limit
-* **Self-registration** — Allow learners to choose their own group
-* **Import from classes** — Auto-create groups from the classes already enrolled in the course
+* **Assegnazione manuale** — Aggiungi specifici studenti a ciascun gruppo
+* **Riempi i gruppi selezionati** — Distribuisci automaticamente gli studenti non iscritti tra i gruppi selezionati, rispettando la capacità di ciascun gruppo e il limite di gruppi per utente
+* **Auto-registrazione** — Consenti agli studenti di scegliere il proprio gruppo
+* **Importa dalle classi** — Crea automaticamente gruppi dalle classi già iscritte al corso
 
-To manually manage members, click on a group name, then use the **Members** section to add or remove learners.
+Per gestire manualmente i membri, fai clic sul nome di un gruppo, quindi utilizza la sezione **Membri** per aggiungere o rimuovere studenti.
 
-## Group Tutors
+## Tutor dei Gruppi
 
-You can assign **tutors** to groups. A tutor is typically a learner or assistant who helps manage the group's work. Tutors may have additional permissions within the group, such as moderating the group forum.
+Puoi assegnare **tutor** ai gruppi. Un tutor è generalmente uno studente o un assistente che aiuta a gestire il lavoro del gruppo. I tutor possono avere permessi aggiuntivi all'interno del gruppo, come moderare il forum del gruppo.
 
-## Monitoring Group Work
+## Monitoraggio del Lavoro di Gruppo
 
-As the course teacher, you can access all groups and their shared tools regardless of membership. This allows you to:
+Come insegnante del corso, puoi accedere a tutti i gruppi e ai loro strumenti condivisi indipendentemente dall'appartenenza. Questo ti consente di:
 
-* Review documents uploaded by each group
-* Read group forum discussions
-* Check wiki contributions
-* Assess group collaboration
+* Rivedere i documenti caricati da ciascun gruppo
+* Leggere le discussioni nei forum di gruppo
+* Controllare i contributi al wiki
+* Valutare la collaborazione di gruppo

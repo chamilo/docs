@@ -1,196 +1,182 @@
-# Workflows Settings
+# Impostazioni dei Flussi di Lavoro
 
-Cross-cutting workflow toggles — course creation, enrollment validation, assignment workflows, and similar.
+Interruttori trasversali per i flussi di lavoro — creazione di corsi, validazione delle iscrizioni, flussi di lavoro per i compiti e simili.
 
-Access these settings under **Administration > Configuration settings > Workflows**. This category contains **23 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+Accedi a queste impostazioni sotto **Amministrazione > Impostazioni di configurazione > Flussi di lavoro**. Questa categoria contiene **23 impostazioni**, elencate di seguito con il titolo e il commento forniti nei dati di configurazione della piattaforma (`SettingsCurrentFixtures.php`).
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> Il nome della variabile nel codice è mostrato in monospace. Usalo quando scrivi script tramite l'API o quando devi modificare queste impostazioni a livello globale editando [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
 
-## Settings
+## Impostazioni
 
 ### `allow_user_course_subscription_by_course_admin`
 
-**Allow User Course Subscription By Course Admininistrator**
+**Consenti l'iscrizione degli utenti al corso da parte dell'amministratore del corso**
 
-Activate this option will allow course administrator to subscribe users inside a course
+Attivando questa opzione, l'amministratore del corso potrà iscrivere utenti all'interno di un corso.
 
 *Default: `true`*
-
 
 ### `allow_users_to_create_courses`
 
-**Allow non admin to create courses**
+**Consenti ai non amministratori di creare corsi**
 
-Allow non administrators (teachers) to create new courses on the server
+Permetti ai non amministratori (docenti) di creare nuovi corsi sul server.
 
 *Default: `false`*
-
 
 ### `allow_working_time_edition`
 
-**Enable edition of course work time**
+**Abilita la modifica del tempo di lavoro del corso**
 
-Enable this feature to let teachers manually update the time spent in the course by learners.
+Attiva questa funzionalità per consentire ai docenti di aggiornare manualmente il tempo trascorso nel corso dagli studenti.
 
 *Default: `false`*
-
 
 ### `course_visibility_change_only_admin`
 
-**Course visibility changes for admins only**
+**Modifiche alla visibilità del corso solo per gli amministratori**
 
-Remove the possibility for non-admins to change the course visibility. Visibility can be an issue when there are too many teachers to control directly. Forcing visibilities allows the organization to better manage courses catalogues.
+Rimuovi la possibilità per i non amministratori di modificare la visibilità del corso. La visibilità può essere un problema quando ci sono troppi docenti da controllare direttamente. Forzare le visibilità consente all'organizzazione di gestire meglio i cataloghi dei corsi.
 
 *Default: `false`*
-
 
 ### `default_menu_entry_for_course_or_session`
 
-**Default menu entry for courses**
+**Voce di menu predefinita per i corsi**
 
-Define the default sub-elements of the 'Courses' entry to display if user is not registered to any course nor session.
+Definisci gli elementi secondari predefiniti della voce 'Corsi' da mostrare se l'utente non è iscritto a nessun corso o sessione.
 
 *Default: `my_courses`*
 
-
 ### `disable_user_conditions_sender_id`
 
-**Internal ID of the user used to send disabled account notifications**
+**ID interno dell'utente utilizzato per inviare notifiche di account disabilitati**
 
-Avoid being too personal with users by using a 'bot' account to send e-mails to users when their account is disabled for some reason.
+Evita di essere troppo personale con gli utenti utilizzando un account 'bot' per inviare e-mail agli utenti quando il loro account viene disabilitato per qualche motivo.
 
 *Default: `0`*
 
-
 ### `disabled_edit_session_coaches_course_editing_course`
 
-**Disable the ability to edit course coaches**
+**Disabilita la possibilità di modificare i coach del corso**
 
-When disabled, admins do not have a link to quickly assign coaches to session-courses on the course edition page.
+Quando disabilitato, gli amministratori non avranno un link per assegnare rapidamente coach alle sessioni-corsi nella pagina di modifica del corso.
 
 *Default: `false`*
-
 
 ### `drh_allow_access_to_all_students`
 
-**HRM can access all students from reporting pages**
+**HRM può accedere a tutti gli studenti dalle pagine di report**
 
-[inferred] Grant HR/DRH managers access to reporting pages for all learners across the platform.
+[dedotto] Concedi ai manager HR/DRH l'accesso alle pagine di report per tutti gli studenti sulla piattaforma.
 
 *Default: `false`*
-
 
 ### `gamification_mode`
 
-**Gamification mode**
+**Modalità di gamification**
 
-Activate the stars achievement in learning paths
+Attiva il conseguimento di stelle nei percorsi di apprendimento.
 
 ### `go_to_course_after_login`
 
-**Go directly to the course after login**
+**Vai direttamente al corso dopo il login**
 
-When a user is registered in one course, go directly to the course after login
+Quando un utente è iscritto a un corso, vai direttamente al corso dopo il login.
 
 *Default: `false`*
-
 
 ### `load_term_conditions_section`
 
-**Load term conditions section**
+**Carica la sezione dei termini e condizioni**
 
-The legal agreement will appear during the login or when enter to a course.
+L'accordo legale apparirà durante il login o quando si accede a un corso.
 
 *Default: `login`*
 
-
 ### `multiple_url_hide_disabled_settings`
 
-**Hide disabled settings in sub-URLs**
+**Nascondi le impostazioni disabilitate negli URL secondari**
 
-Set to yes to hide settings completely in a sub-URL if the setting is disabled in the main URL (where the access_url_changeable field = 0)
+Imposta su sì per nascondere completamente le impostazioni in un URL secondario se l'impostazione è disabilitata nell'URL principale (dove il campo access_url_changeable = 0).
 
 *Default: `false`*
-
 
 ### `plugin_redirection_enabled`
 
-**Enable redirection plugin**
+**Abilita il plugin di reindirizzamento**
 
-Enable only if you are using the Redirection plugin
+Abilita solo se stai utilizzando il plugin Redirection.
 
 *Default: `false`*
 
-
 ### `redirect_index_to_url_for_logged_users`
 
-**Redirect index.php to given URL for authenticated users**
+**Reindirizza index.php a un URL specifico per gli utenti autenticati**
 
-If you do not want to use the index page (announcements, popular courses, etc), you can define here the script (from the document root) where users will be redirected when trying to load the index.
+Se non desideri utilizzare la pagina indice (annunci, corsi popolari, ecc.), puoi definire qui lo script (dalla radice del documento) dove gli utenti verranno reindirizzati quando tentano di caricare l'indice.
 
 ### `send_all_emails_to`
 
-**Send all e-mails to**
+**Invia tutte le e-mail a**
 
-Give a list of e-mail addresses to whom *all* e-mails sent from the platform will be sent. The e-mails are sent to these addresses as a visible destination.
+Fornisci un elenco di indirizzi e-mail a cui verranno inviate *tutte* le e-mail spedite dalla piattaforma. Le e-mail vengono inviate a questi indirizzi come destinazione visibile.
 
 ### `session_admin_user_subscription_search_extra_field_to_search`
 
-**Extra user field used to search and name sessions**
+**Campo utente extra utilizzato per cercare e nominare le sessioni**
 
-This setting defines the extra user field key (e.g., "company") that will be used to search for users and to define the name of the session when registering students from /admin-dashboard/register.
+Questa impostazione definisce la chiave del campo utente extra (ad esempio, "company") che verrà utilizzata per cercare utenti e definire il nome della sessione quando si registrano studenti da /admin-dashboard/register.
 
 ### `teacher_can_select_course_template`
 
-**Teacher can select a course as template**
+**Il docente può selezionare un corso come modello**
 
-Allow pick a course as template for the new course that teacher is creating
+Consenti di scegliere un corso come modello per il nuovo corso che il docente sta creando.
 
 *Default: `true`*
 
-
 ### `update_student_expiration_x_date`
 
-**Set expiration date on first login**
+**Imposta la data di scadenza al primo login**
 
-Array defining the 'days' and 'months' to set the account expiration date when the user first logs in.
+Array che definisce i 'giorni' e i 'mesi' per impostare la data di scadenza dell'account quando l'utente effettua il primo login.
 
 ### `user_edition_extra_field_to_check`
 
-**Set an extra field as trigger for registration as ex-learner**
+**Imposta un campo extra come trigger per la registrazione come ex-studente**
 
-Give an extra field label here. If this extra field is updated for any user, a process is triggered to check the access to this user to courses with the same given extra field.
+Inserisci qui un'etichetta di campo extra. Se questo campo extra viene aggiornato per qualsiasi utente, viene avviato un processo per verificare l'accesso di questo utente ai corsi con lo stesso campo extra specificato.
 
+---
 ### `user_number_of_days_for_default_expiration_date_per_role`
 
-**Default expiration days by role**
+**Giorni di scadenza predefiniti per ruolo**
 
-An array of role => number which represents the number of days an account has before expiration, depending on the role.
+Un array di ruolo => numero che rappresenta il numero di giorni che un account ha prima della scadenza, a seconda del ruolo.
 
 ### `usergroup_do_not_unsubscribe_users_from_course_nor_session_on_user_unsubscribe`
 
-**Disable user unsubscription from course/session on user unsubscription from group/class**
+**Disabilita la cancellazione dell'iscrizione dell'utente da corso/sessione quando l'utente viene rimosso da un gruppo/classe**
 
-[inferred] When removing a user from a group/class, do not automatically unsubscribe them from associated courses or sessions.
+[inferito] Quando si rimuove un utente da un gruppo/classe, non cancellare automaticamente la sua iscrizione dai corsi o dalle sessioni associate.
 
 *Default: `false`*
 
 
 ### `usergroup_do_not_unsubscribe_users_from_course_on_course_unsubscribe`
 
-**Disable user unsubscription from course on course removal from group/class**
+**Disabilita la cancellazione dell'iscrizione dell'utente da un corso quando il corso viene rimosso da un gruppo/classe**
 
-[inferred] When a course is removed from a group/class, do not automatically unsubscribe users from that course.
+[inferito] Quando un corso viene rimosso da un gruppo/classe, non cancellare automaticamente l'iscrizione degli utenti a quel corso.
 
 *Default: `false`*
 
 
 ### `usergroup_do_not_unsubscribe_users_from_session_on_session_unsubscribe`
 
-**Disable user unsubscription from session on session removal from group/class**
+**Disabilita la cancellazione dell'iscrizione dell'utente da una sessione quando la sessione viene rimossa da un gruppo/classe**
 
-[inferred] When a session is removed from a group/class, do not automatically unsubscribe users from that session.
+[inferito] Quando una sessione viene rimossa da un gruppo/classe, non cancellare automaticamente l'iscrizione degli utenti a quella sessione.
 
 *Default: `false`*
-
-

@@ -1,115 +1,116 @@
-# Project Structure
+# Struttura del Progetto
 
-## Top-Level Directories
+## Directory di Livello Superiore
 
 ```
 chamilo/
-├── assets/          # Frontend source code
-│   ├── vue/         # Vue 3 application (components, views, router, stores)
-│   ├── css/         # SCSS stylesheets
-│   └── js/          # Legacy JavaScript
-├── config/          # Symfony configuration (routes, services, packages)
-├── public/          # Web root (index.php, legacy PHP pages, plugins)
-│   ├── main/        # Legacy PHP modules (one subdirectory per tool)
-│   └── plugin/      # Bundled and custom plugins
-├── src/             # PHP source code (Symfony bundles)
-│   ├── CoreBundle/  # Core platform logic
-│   ├── CourseBundle/# Course-specific features
-│   └── LtiBundle/   # LTI 1.3 integration
-├── templates/       # Twig templates
-├── var/             # Cache, logs, uploads (generated)
-├── vendor/          # Composer dependencies (generated)
-├── node_modules/    # npm dependencies (generated)
-└── translations/    # Translation files
+├── assets/          # Codice sorgente frontend
+│   ├── vue/         # Applicazione Vue 3 (componenti, viste, router, store)
+│   ├── css/         # Fogli di stile SCSS
+│   └── js/          # JavaScript legacy
+├── config/          # Configurazione Symfony (rotte, servizi, pacchetti)
+├── public/          # Radice web (index.php, pagine PHP legacy, plugin)
+│   ├── main/        # Moduli PHP legacy (una sottodirectory per strumento)
+│   └── plugin/      # Plugin integrati e personalizzati
+├── src/             # Codice sorgente PHP (bundle Symfony)
+│   ├── CoreBundle/  # Logica della piattaforma principale
+│   ├── CourseBundle/# Funzionalità specifiche dei corsi
+│   └── LtiBundle/   # Integrazione LTI 1.3
+├── templates/       # Template Twig
+├── var/             # Cache, log, upload (generati)
+├── vendor/          # Dipendenze Composer (generate)
+├── node_modules/    # Dipendenze npm (generate)
+└── translations/    # File di traduzione
 ```
 
-## Source Code (`src/`)
+## Codice Sorgente (`src/`)
 
 ### CoreBundle
 
-The largest bundle. Notable subdirectories:
+Il bundle più grande. Sottodirectory degne di nota:
 
-| Directory | Contents |
-|-----------|----------|
-| `Entity/` | Doctrine entities (User, Course, Session, ResourceNode, etc.) |
-| `Controller/` | Admin, API action, and page controllers (the Api/ subfolder holds custom API Platform actions) |
-| `Settings/` | Settings schema files (platform configuration) |
-| `Repository/` | Doctrine repositories |
-| `AiProvider/` | AI provider implementations (OpenAI, Gemini, Mistral, DeepSeek, Grok) |
-| `Tool/` | Course tool definitions |
-| `Security/` | Voters, authenticators, authorization |
-| `EventListener/` | Event listeners |
-| `EventSubscriber/` | Event subscribers |
-| `Command/` | Symfony console commands |
-| `Migrations/` | Database migrations |
-| `Twig/` | Twig extensions |
-| `Storage/` | Flysystem storage adapters |
+| Directory | Contenuti |
+|-----------|-----------|
+| `Entity/` | Entità Doctrine (User, Course, Session, ResourceNode, ecc.) |
+| `Controller/` | Controller per amministrazione, azioni API e pagine (la sottocartella Api/ contiene azioni personalizzate di API Platform) |
+| `Settings/` | File di schema delle impostazioni (configurazione della piattaforma) |
+| `Repository/` | Repository Doctrine |
+| `AiProvider/` | Implementazioni di provider AI (OpenAI, Gemini, Mistral, DeepSeek, Grok) |
+| `Tool/` | Definizioni degli strumenti del corso |
+| `Security/` | Voter, autenticatori, autorizzazioni |
+| `EventListener/` | Listener di eventi |
+| `EventSubscriber/` | Sottoscrittori di eventi |
+| `Command/` | Comandi della console Symfony |
+| `Migrations/` | Migrazioni del database |
+| `Twig/` | Estensioni Twig |
+| `Storage/` | Adattatori di storage Flysystem |
 
 ### CourseBundle
 
-Course-specific entities and logic:
+Entità e logica specifiche dei corsi:
 
-| Directory | Contents |
-|-----------|----------|
-| `Entity/` | Course-content entities (CDocument, CQuiz, CLp, CForum, CStudentPublication, etc.) |
-| `Controller/` | Course controllers |
-| `Settings/` | Course-level settings schemas |
-| `Component/CourseCopy/` | Course import/export (Common Cartridge, Moodle) |
+| Directory | Contenuti |
+|-----------|-----------|
+| `Entity/` | Entità dei contenuti del corso (CDocument, CQuiz, CLp, CForum, CStudentPublication, ecc.) |
+| `Controller/` | Controller dei corsi |
+| `Settings/` | Schemi delle impostazioni a livello di corso |
+| `Component/CourseCopy/` | Importazione/esportazione dei corsi (Common Cartridge, Moodle) |
 
 ### LtiBundle
 
-LTI 1.3 integration:
+Integrazione LTI 1.3:
 
-| Directory | Contents |
-|-----------|----------|
-| `Entity/` | LTI platform, tool, and deployment entities |
-| `Controller/` | LTI launch and configuration endpoints |
+| Directory | Contenuti |
+|-----------|-----------|
+| `Entity/` | Entità di piattaforma, strumento e distribuzione LTI |
+| `Controller/` | Endpoint di avvio e configurazione LTI |
 
+---
 ## Frontend (`assets/vue/`)
 
 ```
 assets/vue/
-├── main.js              # Application entry point
-├── main_installer.js    # Installer entry point
-├── components/          # Reusable Vue components
-│   ├── accessurl/       # Multi-URL (portal) components
-│   ├── admin/           # Admin-specific components
-│   ├── assignments/     # Assignment forms and lists
-│   ├── attendance/      # Attendance sheet components
-│   ├── basecomponents/  # Shared base components (BaseButton, BaseIcon, BaseTable, BaseTinyEditor, etc.) and ChamiloIcons.js
-│   ├── blog/            # Blog components
-│   ├── branch/          # Branch/network campus components
-│   ├── ccalendarevent/  # Course calendar event components
-│   ├── chat/            # Chat and AI tutor
-│   ├── course/          # Course cards, catalogs, forms
-│   ├── coursecategory/  # Course category components
-│   ├── coursemaintenance/ # Course backup/restore components
-│   ├── ctoolintro/      # Course tool introduction components
-│   ├── documents/       # Document management components
-│   ├── dropbox/         # Dropbox (file exchange) components
-│   ├── filemanager/     # File browser components
-│   ├── glossary/        # Glossary components
-│   ├── installer/       # Installation wizard
-│   ├── layout/          # Sidebar, Topbar, shell layout
-│   ├── links/           # External links components
-│   ├── login/           # Login form components
-│   ├── lp/              # Learning path components
-│   ├── message/         # Messaging components
-│   ├── page/            # Static page components
-│   ├── pageLayout/      # Page layout wrapper components
-│   ├── personalfile/    # Personal file space components
-│   ├── platform/        # Platform-level UI components
-│   ├── resource_links/  # Resource link management components
-│   ├── room/            # Virtual room components
-│   ├── session/         # Session (learning campaign) components
-│   ├── sessionadmin/    # Session administration components
-│   ├── skill/           # Skills and competencies components
-│   ├── social/          # Social network components
-│   ├── systemannouncement/ # System announcement components
-│   ├── user/            # User profile and management components
-│   ├── usergroup/       # User group (class) components
-│   └── userreluser/     # User relationship (friend/follow) components
-├── views/               # Page-level Vue views (mirrors components/ structure)
+├── main.js              # Punto di ingresso dell'applicazione
+├── main_installer.js    # Punto di ingresso dell'installatore
+├── components/          # Componenti Vue riutilizzabili
+│   ├── accessurl/       # Componenti multi-URL (portale)
+│   ├── admin/           # Componenti specifici per l'amministratore
+│   ├── assignments/     # Moduli e elenchi per i compiti
+│   ├── attendance/      # Componenti per il foglio di presenza
+│   ├── basecomponents/  # Componenti di base condivisi (BaseButton, BaseIcon, BaseTable, BaseTinyEditor, ecc.) e ChamiloIcons.js
+│   ├── blog/            # Componenti per il blog
+│   ├── branch/          # Componenti per campus di rete/filiale
+│   ├── ccalendarevent/  # Componenti per eventi del calendario del corso
+│   ├── chat/            # Chat e tutor AI
+│   ├── course/          # Schede corso, cataloghi, moduli
+│   ├── coursecategory/  # Componenti per categorie di corsi
+│   ├── coursemaintenance/ # Componenti per backup/ripristino del corso
+│   ├── ctoolintro/      # Componenti per l'introduzione agli strumenti del corso
+│   ├── documents/       # Componenti per la gestione dei documenti
+│   ├── dropbox/         # Componenti per Dropbox (scambio file)
+│   ├── filemanager/     # Componenti per il browser di file
+│   ├── glossary/        # Componenti per il glossario
+│   ├── installer/       # Procedura guidata di installazione
+│   ├── layout/          # Sidebar, Topbar, layout della shell
+│   ├── links/           # Componenti per collegamenti esterni
+│   ├── login/           # Componenti per il modulo di accesso
+│   ├── lp/              # Componenti per il percorso di apprendimento
+│   ├── message/         # Componenti per la messaggistica
+│   ├── page/            # Componenti per pagine statiche
+│   ├── pageLayout/      # Componenti wrapper per il layout di pagina
+│   ├── personalfile/    # Componenti per lo spazio file personale
+│   ├── platform/        # Componenti UI a livello di piattaforma
+│   ├── resource_links/  # Componenti per la gestione dei collegamenti alle risorse
+│   ├── room/            # Componenti per stanze virtuali
+│   ├── session/         # Componenti per sessioni (campagne di apprendimento)
+│   ├── sessionadmin/    # Componenti per l'amministrazione delle sessioni
+│   ├── skill/           # Componenti per competenze e abilità
+│   ├── social/          # Componenti per il social network
+│   ├── systemannouncement/ # Componenti per annunci di sistema
+│   ├── user/            # Componenti per il profilo e la gestione degli utenti
+│   ├── usergroup/       # Componenti per gruppi di utenti (classi)
+│   └── userreluser/     # Componenti per relazioni tra utenti (amico/segui)
+├── views/               # Viste Vue a livello di pagina (rispecchia la struttura di components/)
 │   ├── accessurl/       ├── account/         ├── admin/
 │   ├── assignments/     ├── attendance/      ├── blog/
 │   ├── branch/          ├── buycourses/      ├── ccalendarevent/
@@ -121,132 +122,133 @@ assets/vue/
 │   ├── sessionadmin/    ├── skill/           ├── social/
 │   ├── terms/           ├── user/            ├── usergroup/
 │   └── userreluser/
-├── router/              # Vue Router (index.js + one module per feature area)
-├── store/               # Pinia stores
+├── router/              # Vue Router (index.js + un modulo per area funzionale)
+├── store/               # Store Pinia
 │   └── modules/         # crud.js, notifications.js, ux.js
-├── composables/         # Shared composition functions (per-feature subdirectories)
-├── services/            # API service layer (one file per entity/domain)
-├── utils/               # Utility helpers (dates, hydra, fetch, sanitizeHtml, etc.)
-├── config/              # Runtime configuration (api.js, env.js)
-├── constants/           # Shared constants
-│   └── entity/          # Entity-specific constants (session, message, extrafield, etc.)
-├── layouts/             # Top-level layout components (MyCourses.vue)
-├── pages/               # Standalone page components (Home, Login, Faq, Demo)
-├── mixins/              # Legacy Vue 2-style mixins (ListMixin, CreateMixin, etc.)
-├── hooks/               # Composable hooks (useSidebar, useState)
-├── plugins/             # Vue plugin registrations (httpErrors, vuetify)
-├── validators/          # Vuelidate custom validators
-└── error/               # Error boundary components
+├── composables/         # Funzioni di composizione condivise (sottodirectory per funzionalità)
+├── services/            # Livello di servizio API (un file per entità/dominio)
+├── utils/               # Helper di utilità (date, hydra, fetch, sanitizeHtml, ecc.)
+├── config/              # Configurazione runtime (api.js, env.js)
+├── constants/           # Costanti condivise
+│   └── entity/          # Costanti specifiche per entità (sessione, messaggio, campo extra, ecc.)
+├── layouts/             # Componenti di layout di alto livello (MyCourses.vue)
+├── pages/               # Componenti di pagina standalone (Home, Login, Faq, Demo)
+├── mixins/              # Mixin in stile Vue 2 legacy (ListMixin, CreateMixin, ecc.)
+├── hooks/               # Hook componibili (useSidebar, useState)
+├── plugins/             # Registrazioni di plugin Vue (httpErrors, vuetify)
+├── validators/          # Validatori personalizzati Vuelidate
+└── error/               # Componenti per la gestione degli errori
 ```
 
-## Configuration (`config/`)
+## Configurazione (`config/`)
 
 ```
 config/
-├── packages/            # Bundle and framework configuration (one YAML file per package)
-│   ├── security.yaml    # Role hierarchy, firewalls, access control
-│   ├── doctrine.yaml    # Doctrine ORM and DBAL settings
-│   ├── api_platform.yaml# API Platform configuration
-│   ├── framework.yaml   # Core Symfony settings
-│   ├── lexik_jwt_authentication.yaml  # JWT token settings
-│   ├── nelmio_cors.yaml # CORS headers for API consumers
-│   ├── oneup_flysystem.yaml  # Cloud storage adapters
-│   ├── webpack_encore.yaml   # Webpack Encore integration
-│   ├── ... (30+ package files)
-│   ├── dev/             # Development-only overrides (web profiler, debug, routing)
-│   ├── prod/            # Production-only overrides (currently empty placeholder)
-│   └── test/            # Test-environment overrides (JWT, validator, web profiler)
-├── routes/              # Route definitions
-│   ├── api_platform.yaml     # API Platform route prefix
-│   ├── attributes.yaml       # Controller annotation-based routes
-│   ├── fos_js_routing.yaml   # FOS JS Routing exposure
-│   ├── legacy.yaml           # Routes for legacy PHP pages under public/main/
-│   ├── security.yaml         # Login/logout/OAuth2 routes
-│   ├── dev/                  # Development-only routes (profiler, Maker bundle)
-│   └── test/                 # Test-only route overrides
-├── jwt/                 # JWT key pair (private/public keys)
-└── jwt-test/            # JWT keys for the test environment
+├── packages/            # Configurazione di bundle e framework (un file YAML per pacchetto)
+│   ├── security.yaml    # Gerarchia dei ruoli, firewall, controllo accessi
+│   ├── doctrine.yaml    # Impostazioni di Doctrine ORM e DBAL
+│   ├── api_platform.yaml# Configurazione di API Platform
+│   ├── framework.yaml   # Impostazioni principali di Symfony
+│   ├── lexik_jwt_authentication.yaml  # Impostazioni dei token JWT
+│   ├── nelmio_cors.yaml # Intestazioni CORS per i consumatori API
+│   ├── oneup_flysystem.yaml  # Adattatori per l'archiviazione cloud
+│   ├── webpack_encore.yaml   # Integrazione con Webpack Encore
+│   ├── ... (oltre 30 file di pacchetto)
+│   ├── dev/             # Sovrascritture solo per lo sviluppo (web profiler, debug, routing)
+│   ├── prod/            # Sovrascritture solo per la produzione (attualmente placeholder vuoto)
+│   └── test/            # Sovrascritture per l'ambiente di test (JWT, validatore, web profiler)
+├── routes/              # Definizioni dei percorsi
+│   ├── api_platform.yaml     # Prefisso dei percorsi di API Platform
+│   ├── attributes.yaml       # Percorsi basati su annotazioni dei controller
+│   ├── fos_js_routing.yaml   # Esposizione di FOS JS Routing
+│   ├── legacy.yaml           # Percorsi per pagine PHP legacy sotto public/main/
+│   ├── security.yaml         # Percorsi per login/logout/OAuth2
+│   ├── dev/                  # Percorsi solo per lo sviluppo (profiler, bundle Maker)
+│   └── test/                 # Sovrascritture dei percorsi solo per i test
+├── jwt/                 # Coppia di chiavi JWT (chiavi private/pubbliche)
+└── jwt-test/            # Chiavi JWT per l'ambiente di test
 ```
 
-Symfony automatically merges the base `packages/*.yaml` files with those in the matching environment subdirectory (`dev/`, `prod/`, or `test/`), so environment-specific files only need to override the values that differ.
+Symfony unisce automaticamente i file di base `packages/*.yaml` con quelli nella sottodirectory dell'ambiente corrispondente (`dev/`, `prod/` o `test/`), quindi i file specifici per ambiente devono solo sovrascrivere i valori che differiscono.
 
-## Build Configuration
+## Configurazione della Build
 
-| File | Purpose |
-|------|---------|
-| `webpack.config.js` | Webpack Encore configuration (entries, loaders, plugins) |
-| `tailwind.config.js` | Tailwind CSS configuration (content paths, theme extensions, plugins) |
-| `tsconfig.json` | TypeScript configuration |
-| `eslint.config.mjs` | ESLint rules (flat config) |
-| `.prettierrc.json` | Prettier formatting rules |
+| File | Scopo |
+|------|-------|
+| `webpack.config.js` | Configurazione di Webpack Encore (entry point, loader, plugin) |
+| `tailwind.config.js` | Configurazione di Tailwind CSS (percorsi dei contenuti, estensioni del tema, plugin) |
+| `tsconfig.json` | Configurazione di TypeScript |
+| `eslint.config.mjs` | Regole di ESLint (configurazione flat) |
+| `.prettierrc.json` | Regole di formattazione di Prettier |
 
-All files sit at the project root. PostCSS plugins (Tailwind + Autoprefixer) are configured inline inside `webpack.config.js` via `enablePostCssLoader()` — there is no standalone `postcss.config.js`. `webpack.config.js` reads `tailwind.config.js` indirectly through PostCSS, so changes to Tailwind's `content` or `theme` sections take effect on the next `yarn encore dev` / `yarn encore production` run.
+Tutti i file si trovano alla radice del progetto. I plugin PostCSS (Tailwind + Autoprefixer) sono configurati inline all'interno di `webpack.config.js` tramite `enablePostCssLoader()` — non esiste un file standalone `postcss.config.js`. `webpack.config.js` legge `tailwind.config.js` indirettamente tramite PostCSS, quindi le modifiche alle sezioni `content` o `theme` di Tailwind avranno effetto al successivo avvio di `yarn encore dev` / `yarn encore production`.
 
-## Webpack Entry Points
+## Entry Point di Webpack
 
-The build produces these bundles:
+La build produce questi bundle:
 
 **JavaScript:**
-* `vue` — Main Vue 3 application (`assets/vue/main.js`)
-* `vue_installer` — Installation wizard (`assets/vue/main_installer.js`)
-* `legacy_app`, `legacy_exercise`, `legacy_lp`, `legacy_document` — Legacy JS for pages not yet migrated to Vue
+* `vue` — Applicazione principale Vue 3 (`assets/vue/main.js`)
+* `vue_installer` — Wizard di installazione (`assets/vue/main_installer.js`)
+* `legacy_app`, `legacy_exercise`, `legacy_lp`, `legacy_document` — JS legacy per pagine non ancora migrate a Vue
 
 **CSS:**
-* `app` — Main stylesheet (`assets/css/app.scss`)
-* Plus specialized sheets: `chat`, `document`, `editor`, `editor_content`, `markdown`, `print`, `responsive`, `scorm`
+* `app` — Foglio di stile principale (`assets/css/app.scss`)
+* Più fogli specializzati: `chat`, `document`, `editor`, `editor_content`, `markdown`, `print`, `responsive`, `scorm`
 
-## CSS Structure (`assets/css/`)
+## Struttura CSS (`assets/css/`)
 
 ```
 assets/css/
-├── app.scss             # Entry point — imports Tailwind, the SCSS index, and third-party CSS
-├── _tailwind.scss       # Tailwind directives (@tailwind base / components / utilities)
-├── chat.scss            # Chat and AI tutor panel styles
-├── document.scss        # Document viewer styles
-├── editor.scss          # TinyMCE editor shell styles
-├── editor_content.scss  # Styles injected into the editor iframe body
-├── markdown.scss        # Markdown-rendered content styles
-├── print.scss           # Print stylesheet
-├── responsive.scss      # Responsive overrides
-├── scorm.scss           # SCORM player styles
-├── legacy/              # Styles for legacy PHP pages (e.g. frameReadyLoader.scss)
-└── scss/                # Modular SCSS partials
-    ├── index.scss           # Barrel file — imports all partials below
-    ├── abstracts/           # Mixins and shared functions
-    ├── settings/            # Design tokens (typography, component base)
-    ├── atoms/               # Per-component PrimeVue overrides (buttons, inputs, calendar, etc.)
-    ├── molecules/           # Small composed UI patterns (chips, toolbars, empty states)
-    ├── organisms/           # Larger feature areas (sidebar, datatable, dialog, LP panel, etc.)
-    ├── layout/              # Page skeleton partials (topbar, main container, breadcrumb)
-    ├── components/          # Legacy component-specific files (blog, exercise, social, skill, etc.)
-    └── libs/                # Third-party library overrides (FullCalendar, MediaElement.js)
+├── app.scss             # Punto di ingresso — importa Tailwind, l'indice SCSS e CSS di terze parti
+├── _tailwind.scss       # Direttive Tailwind (@tailwind base / components / utilities)
+├── chat.scss            # Stili per il pannello di chat e tutor AI
+├── document.scss        # Stili per il visualizzatore di documenti
+├── editor.scss          # Stili della shell dell'editor TinyMCE
+├── editor_content.scss  # Stili iniettati nel corpo dell'iframe dell'editor
+├── markdown.scss        # Stili per contenuti renderizzati in Markdown
+├── print.scss           # Foglio di stile per la stampa
+├── responsive.scss      # Sovrascritture responsive
+├── scorm.scss           # Stili per il player SCORM
+├── legacy/              # Stili per pagine PHP legacy (ad esempio frameReadyLoader.scss)
+└── scss/                # Parziali SCSS modulari
+    ├── index.scss           # File barrel — importa tutti i parziali sottostanti
+    ├── abstracts/           # Mixin e funzioni condivise
+    ├── settings/            # Token di design (tipografia, base dei componenti)
+    ├── atoms/               # Sovrascritture di PrimeVue per componente (pulsanti, input, calendario, ecc.)
+    ├── molecules/           # Piccoli pattern UI composti (chip, barre degli strumenti, stati vuoti)
+    ├── organisms/           # Aree di funzionalità più grandi (sidebar, datatable, dialog, pannello LP, ecc.)
+    ├── layout/              # Parziali dello scheletro della pagina (topbar, contenitore principale, breadcrumb)
+    ├── components/          # File specifici per componenti legacy (blog, esercizio, social, skill, ecc.)
+    └── libs/                # Sovrascritture di librerie di terze parti (FullCalendar, MediaElement.js)
 ```
 
+---
 ### Tailwind CSS
 
-Tailwind is integrated via PostCSS. `assets/css/_tailwind.scss` emits the base, component, and utility layers; `assets/css/app.scss` imports it first so Tailwind utilities are available throughout all other partials. The Tailwind configuration — content paths for purging, theme extensions, and plugins — lives in `tailwind.config.js` at the project root (`/var/www/chamilo/tailwind.config.js`).
+Tailwind è integrato tramite PostCSS. Il file `assets/css/_tailwind.scss` genera i livelli base, componenti e utilità; `assets/css/app.scss` lo importa per primo, rendendo così le utilità di Tailwind disponibili in tutti gli altri file parziali. La configurazione di Tailwind — i percorsi dei contenuti per il purging, le estensioni del tema e i plugin — si trova in `tailwind.config.js` nella radice del progetto (`/var/www/chamilo/tailwind.config.js`).
 
-Custom utility classes and component classes defined with `@layer` (visible in `app.scss`) follow Tailwind's layering convention so that user-defined classes respect the same specificity rules as the generated utilities.
+Le classi di utilità personalizzate e le classi di componenti definite con `@layer` (visibili in `app.scss`) seguono la convenzione di stratificazione di Tailwind, in modo che le classi definite dall'utente rispettino le stesse regole di specificità delle utilità generate.
 
-### Color Themes
+### Temi di Colore
 
-Chamilo supports a color theming system that can be configured directly from the admin interface (**Admin > Color Themes**). Each saved theme writes its files into a dedicated directory under `var/themes/`:
+Chamilo supporta un sistema di temi di colore che può essere configurato direttamente dall'interfaccia di amministrazione (**Admin > Temi di Colore**). Ogni tema salvato scrive i suoi file in una directory dedicata sotto `var/themes/`:
 
 ```
 var/themes/
-└── [theme-name]/
-    ├── colors.css       # CSS custom properties for the full color palette
-    ├── default.css      # Optional additional custom CSS rules
-    ├── learnpath.css    # Learning path-specific overrides
-    ├── tiny-settings.js # TinyMCE editor color palette settings
-    └── images/          # Theme images (logo, favicon, backgrounds, PWA icons)
+└── [nome-tema]/
+    ├── colors.css       # Proprietà CSS personalizzate per la palette di colori completa
+    ├── default.css      # Regole CSS personalizzate aggiuntive opzionali
+    ├── learnpath.css    # Sovrascritture specifiche per i percorsi di apprendimento
+    ├── tiny-settings.js # Impostazioni della palette di colori per l'editor TinyMCE
+    └── images/          # Immagini del tema (logo, favicon, sfondi, icone PWA)
         ├── header-logo.png / header-logo.svg
         ├── favicon.ico
         ├── pwa-icons/   # icon-192.png, icon-512.png
-        └── ...          # Background images, admin block images, etc.
+        └── ...          # Immagini di sfondo, immagini dei blocchi admin, ecc.
 ```
 
-`colors.css` defines CSS custom properties as space-separated RGB channel triplets rather than `rgb()` values, which allows Tailwind to compose opacity variants (e.g. `bg-primary/50`) without additional configuration:
+Il file `colors.css` definisce le proprietà CSS personalizzate come triplette di canali RGB separate da spazi anziché valori `rgb()`, il che consente a Tailwind di comporre varianti di opacità (ad esempio `bg-primary/50`) senza configurazione aggiuntiva:
 
 ```css
 :root {
@@ -256,4 +258,4 @@ var/themes/
 }
 ```
 
-The theme layer sits on top of the compiled Tailwind/SCSS bundle: the browser loads `colors.css` after the main stylesheet, so theme changes take effect immediately without a build step.
+Il livello del tema si trova sopra il bundle Tailwind/SCSS compilato: il browser carica `colors.css` dopo il foglio di stile principale, quindi le modifiche al tema hanno effetto immediato senza necessità di un passaggio di build.

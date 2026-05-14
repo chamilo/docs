@@ -1,18 +1,18 @@
-# Course Tool Plugins
+# Plugin per Strumenti del Corso
 
-Course tool plugins add new tools to the course homepage alongside built-in tools like Documents, Exercises, and Forums.
+I plugin per strumenti del corso aggiungono nuovi strumenti alla homepage del corso insieme agli strumenti integrati come Documenti, Esercizi e Forum.
 
-## How Course Tool Plugins Work
+## Come Funzionano i Plugin per Strumenti del Corso
 
-When a plugin registers itself as a course tool:
+Quando un plugin si registra come strumento del corso:
 
-1. It appears in the course homepage tool grid
-2. Teachers can show/hide it like any other tool
-3. Clicking the tool opens the plugin's interface within the course context
+1. Appare nella griglia degli strumenti sulla homepage del corso
+2. I docenti possono mostrarlo o nasconderlo come qualsiasi altro strumento
+3. Cliccando sullo strumento si apre l'interfaccia del plugin all'interno del contesto del corso
 
-## Registering as a Course Tool
+## Registrazione come Strumento del Corso
 
-In your plugin class, set `$isCoursePlugin = true`. To automatically add a tool icon to the course homepage, also set `$addCourseTool = true`:
+Nella classe del tuo plugin, imposta `$isCoursePlugin = true`. Per aggiungere automaticamente un'icona dello strumento alla homepage del corso, imposta anche `$addCourseTool = true`:
 
 ```php
 class MyToolPlugin extends Plugin
@@ -26,9 +26,9 @@ class MyToolPlugin extends Plugin
 }
 ```
 
-## Per-Course Settings
+## Impostazioni per Corso
 
-Define course-level configuration fields via the `$course_settings` property:
+Definisci i campi di configurazione a livello di corso tramite la proprietà `$course_settings`:
 
 ```php
 public array $course_settings = [
@@ -37,11 +37,11 @@ public array $course_settings = [
 ];
 ```
 
-These appear in the course settings panel and can be validated by overriding `validateCourseSetting(string $variable)` (return `false` to reject a value) or acted on via `course_settings_updated(array $values)`.
+Questi appaiono nel pannello delle impostazioni del corso e possono essere validati sovrascrivendo `validateCourseSetting(string $variable)` (restituisci `false` per rifiutare un valore) o gestiti tramite `course_settings_updated(array $values)`.
 
-## Installation and Uninstallation
+## Installazione e Disinstallazione
 
-To register the plugin fields across all existing courses on install:
+Per registrare i campi del plugin in tutti i corsi esistenti durante l'installazione:
 
 ```php
 public function install(): void
@@ -50,39 +50,39 @@ public function install(): void
 }
 ```
 
-To install into a single course (e.g., when a new course is created):
+Per installare in un singolo corso (ad esempio, quando viene creato un nuovo corso):
 
 ```php
 $this->course_install(courseId: $courseId, addToolLink: true);
 ```
 
-To remove fields from a specific course:
+Per rimuovere i campi da un corso specifico:
 
 ```php
 $this->uninstall_course_fields(courseId: $courseId);
 ```
 
-## Integration Points
+## Punti di Integrazione
 
-Course tool plugins integrate through:
+I plugin per strumenti del corso si integrano tramite:
 
-* **`LegacyPluginCourseTool`** (`src/CoreBundle/Tool/LegacyPluginCourseTool.php`) — Registers the plugin as a tool in the course
-* **`CToolStateProvider`** (`src/CoreBundle/State/CToolStateProvider.php`) — Resolves which tools (including plugin tools) appear on the course homepage
-* The tool appears in the `CTool` collection for the course
+* **`LegacyPluginCourseTool`** (`src/CoreBundle/Tool/LegacyPluginCourseTool.php`) — Registra il plugin come strumento nel corso
+* **`CToolStateProvider`** (`src/CoreBundle/State/CToolStateProvider.php`) — Determina quali strumenti (inclusi i plugin) appaiono sulla homepage del corso
+* Lo strumento appare nella collezione `CTool` per il corso
 
-## Course Context
+## Contesto del Corso
 
-When a learner clicks your plugin's tool, your plugin code runs within the course context. You can access:
+Quando un apprendente clicca sullo strumento del tuo plugin, il codice del plugin viene eseguito nel contesto del corso. Puoi accedere a:
 
-* The current course (via `api_get_course_id()` or the CID request store)
-* The current session (if applicable)
-* The current user
-* Course-level plugin settings
+* Il corso corrente (tramite `api_get_course_id()` o il negozio di richieste CID)
+* La sessione corrente (se applicabile)
+* L'utente corrente
+* Le impostazioni del plugin a livello di corso
 
-## Examples
+## Esempi
 
-Built-in course tool plugins:
+Plugin per strumenti del corso integrati:
 
-* **BigBlueButton** (`Bbb/`) — Video conferencing within courses
-* **Zoom** (`Zoom/`) — Zoom meetings within courses
-* **OnlyOffice** (`Onlyoffice/`) — Document editing within courses
+* **BigBlueButton** (`Bbb/`) — Videoconferenza all'interno dei corsi
+* **Zoom** (`Zoom/`) — Riunioni Zoom all'interno dei corsi
+* **OnlyOffice** (`Onlyoffice/`) — Modifica di documenti all'interno dei corsi

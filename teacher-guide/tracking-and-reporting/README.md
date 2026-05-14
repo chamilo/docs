@@ -1,13 +1,13 @@
-# Tracking and Reporting
+# Monitoraggio e Report
 
-Chamilo tracks learner activity throughout the platform, giving you detailed insights into how your learners are progressing.
+Chamilo tiene traccia dell'attività degli studenti su tutta la piattaforma, fornendo informazioni dettagliate sui progressi dei tuoi studenti.
 
-* **[Learner Tracking](learner-tracking.md)** — Monitor individual learner activity: login times, time spent, pages visited, and tool usage
-* **[Course Reports](course-reports.md)** — View aggregate data across all learners in a course
-* **[Certificates and Skills](certificates-and-skills.md)** — Award certificates based on gradebook scores and validate acquired skills
+* **[Monitoraggio degli Studenti](learner-tracking.md)** — Monitora l'attività individuale degli studenti: orari di accesso, tempo trascorso, pagine visitate e utilizzo degli strumenti
+* **[Report dei Corsi](course-reports.md)** — Visualizza dati aggregati di tutti gli studenti in un corso
+* **[Certificati e Competenze](certificates-and-skills.md)** — Assegna certificati in base ai punteggi del registro voti e convalida le competenze acquisite
 
-## Accessing Reports
+## Accesso ai Report
 
-From your course, click the **Tracking** <img src="/.gitbook/assets/icons/mdi-chart-box.svg" alt="Tracking" data-size="line"> tool on the course homepage. You can also access reporting from the **Reporting** link in the sidebar for a cross-course overview.
+Dal tuo corso, clicca sullo strumento **Monitoraggio** <img src="/.gitbook/assets/icons/mdi-chart-box.svg" alt="Monitoraggio" data-size="line"> nella homepage del corso. Puoi anche accedere ai report tramite il link **Reporting** nella barra laterale per una panoramica trasversale sui corsi.
 
-Teachers see reporting data for courses they teach. Session coaches see data across all courses within their session.
+Gli insegnanti vedono i dati di report per i corsi che insegnano. I coach di sessione vedono i dati di tutti i corsi all'interno della loro sessione.

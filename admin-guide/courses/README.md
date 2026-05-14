@@ -1,7 +1,7 @@
-# Courses
+# Corsi
 
-This section covers course management from an administrator perspective: overseeing the course catalog, managing categories, and handling imports and exports.
+Questa sezione tratta la gestione dei corsi dal punto di vista di un amministratore: supervisione del catalogo dei corsi, gestione delle categorie e gestione di importazioni ed esportazioni.
 
-* **[Managing Courses](managing-courses.md)** — View, create, edit, and delete courses
-* **[Course Categories](course-categories.md)** — Organize the course catalog with categories
-* **[Course Import and Export](course-import-export.md)** — Import and export courses between platforms
+* **[Gestione dei Corsi](managing-courses.md)** — Visualizza, crea, modifica ed elimina corsi
+* **[Categorie dei Corsi](course-categories.md)** — Organizza il catalogo dei corsi con categorie
+* **[Importazione ed Esportazione dei Corsi](course-import-export.md)** — Importa ed esporta corsi tra piattaforme

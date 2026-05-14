@@ -1,22 +1,22 @@
-# Session Categories
+# Categorie di Sessione
 
-Session categories help organize your sessions, especially when you have many sessions running simultaneously.
+Le categorie di sessione aiutano a organizzare le tue sessioni, specialmente quando hai molte sessioni in esecuzione contemporaneamente.
 
-## Creating a Category
+## Creazione di una Categoria
 
-1. From the administration panel, navigate to **Session categories**
-2. Click **Add a category**
-3. Enter a **name** and optional start/end dates
-4. Save
+1. Dal pannello di amministrazione, vai a **Categorie di sessione**
+2. Fai clic su **Aggiungi una categoria**
+3. Inserisci un **nome** e, facoltativamente, le date di inizio/fine
+4. Salva
 
-## Use Cases
+## Casi d'Uso
 
-* **By program** — "Leadership Development", "Technical Training", "Onboarding"
-* **By period** — "Q1 2026", "Spring Semester", "July Batch"
-* **By department** — "Engineering", "Sales", "Human Resources"
+* **Per programma** — "Sviluppo della Leadership", "Formazione Tecnica", "Onboarding"
+* **Per periodo** — "Q1 2026", "Semestre Primaverile", "Gruppo di Luglio"
+* **Per dipartimento** — "Ingegneria", "Vendite", "Risorse Umane"
 
-## Managing Categories
+## Gestione delle Categorie
 
-* **Edit** — Change the category name or dates
-* **Assign sessions** — When creating or editing a session, select its category
-* **Delete** — Remove a category (sessions in the category become uncategorized)
+* **Modifica** — Cambia il nome della categoria o le date
+* **Assegna sessioni** — Durante la creazione o la modifica di una sessione, seleziona la sua categoria
+* **Elimina** — Rimuovi una categoria (le sessioni nella categoria diventano non categorizzate)

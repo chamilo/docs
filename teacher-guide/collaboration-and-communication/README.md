@@ -1,12 +1,12 @@
-# Collaboration and Communication
+# Collaborazione e Comunicazione
 
-Chamilo provides several tools to enable interaction between you and your learners, and among learners themselves.
+Chamilo offre diversi strumenti per consentire l'interazione tra te e i tuoi studenti, e tra gli studenti stessi.
 
-* **[Forums](forums.md)** — Threaded discussions organized by category and topic
-* **[Chat](chat.md)** — Real-time text messaging within a course
-* **[Groups](groups.md)** — Divide learners into working groups with their own shared tools
-* **[Wiki](wiki.md)** — Collaborative document editing
-* **[Blog](blog.md)** — Shared blogging within the course
-* **[Video Conferencing](video-conferencing.md)** — Live video sessions using BigBlueButton or Zoom
+* **[Forum](forums.md)** — Discussioni organizzate per categoria e argomento
+* **[Chat](chat.md)** — Messaggistica testuale in tempo reale all'interno di un corso
+* **[Gruppi](groups.md)** — Dividi gli studenti in gruppi di lavoro con i propri strumenti condivisi
+* **[Wiki](wiki.md)** — Modifica collaborativa di documenti
+* **[Blog](blog.md)** — Blogging condiviso all'interno del corso
+* **[Videoconferenza](video-conferencing.md)** — Sessioni video dal vivo utilizzando BigBlueButton o Zoom
 
-These tools are available from the course homepage. Some may be hidden by default — you can make them visible from the tool grid (see [Course Homepage](../creating-your-course/course-homepage.md)).
+Questi strumenti sono disponibili dalla homepage del corso. Alcuni potrebbero essere nascosti per impostazione predefinita — puoi renderli visibili dalla griglia degli strumenti (vedi [Homepage del Corso](../creating-your-course/course-homepage.md)).

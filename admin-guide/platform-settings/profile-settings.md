@@ -1,227 +1,222 @@
-# User Profile Settings
+# Impostazioni del Profilo Utente
 
-Which fields appear on the user profile, which ones the user can edit, and related preferences.
+Quali campi appaiono nel profilo utente, quali possono essere modificati dall'utente e le preferenze correlate.
 
-Access these settings under **Administration > Configuration settings > User Profile**. This category contains **29 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+Accedi a queste impostazioni tramite **Amministrazione > Impostazioni di configurazione > Profilo Utente**. Questa categoria contiene **29 impostazioni**, elencate di seguito con il titolo e il commento forniti nei dati di configurazione della piattaforma (`SettingsCurrentFixtures.php`).
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> Il nome della variabile nel codice è mostrato in monospace. Utilizzalo quando scrivi script tramite l'API o quando devi modificare queste impostazioni a livello globale editando [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
 
-## Settings
+## Impostazioni
 
 ### `account_valid_duration`
 
-**Account validity**
+**Validità dell'account**
 
-A user account is valid for this number of days after creation
+Un account utente è valido per questo numero di giorni dopo la creazione
 
 *Default: `3660`*
 
-
 ### `add_user_course_information_in_mailto`
 
-**Pre-fill the mail with user and course info in footer contact**
+**Precompila l'email con informazioni su utente e corso nel contatto del footer**
 
-Add subject and body in the mailto: footer.
+Aggiunge oggetto e corpo nel mailto: del footer.
 
 *Default: `false`*
-
 
 ### `allow_show_linkedin_url`
 
-**Allow show the user LinkedIn URL**
+**Consenti di mostrare l'URL LinkedIn dell'utente**
 
-Add a link on the user social block, allowing visit the user's LinkedIn profile
+Aggiunge un link nel blocco sociale dell'utente, permettendo di visitare il profilo LinkedIn dell'utente
 
 ### `allow_show_skype_account`
 
-**Allow show the user Skype account**
+**Consenti di mostrare l'account Skype dell'utente**
 
-Add a link on the user social block allowing start a chat by Skype
+Aggiunge un link nel blocco sociale dell'utente permettendo di avviare una chat tramite Skype
 
 ### `allow_social_map_fields`
 
-**Users geolocation on a map**
+**Geolocalizzazione degli utenti su una mappa**
 
-Enable the display of a map in the social network allowing you to locate other users. This includes several positions (current and destination) which have to be defined as addresses or coordinates in separate extra fields. The extra fields must be set as an array here.
+Abilita la visualizzazione di una mappa nella rete sociale che permette di localizzare altri utenti. Include diverse posizioni (attuale e di destinazione) che devono essere definite come indirizzi o coordinate in campi extra separati. I campi extra devono essere impostati come un array qui.
 
 ### `allow_teachers_to_classes`
 
-**Allow teachers to manage classes**
+**Consenti agli insegnanti di gestire le classi**
 
-Enables teachers to manage class groups and their membership within the system.
+Abilita gli insegnanti a gestire i gruppi di classi e la loro appartenenza all'interno del sistema.
 
 *Default: `false`*
 
-
 ### `allow_user_headings`
 
-**Allow users profiling inside courses**
+**Consenti la profilazione degli utenti all'interno dei corsi**
 
-Can a teacher define learner profile fields to retrieve additional information?
+Un insegnante può definire campi del profilo dello studente per raccogliere informazioni aggiuntive?
 
 ### `allow_users_to_change_email_with_no_password`
 
-**Allow users to change e-mail without password**
+**Consenti agli utenti di cambiare l'email senza password**
 
-When changing the account information
+Quando si modificano le informazioni dell'account
 
 *Default: `false`*
 
 ### `changeable_options`
 
-**Fields users are allowed to change in their profile**
+**Campi che gli utenti possono modificare nel loro profilo**
 
-Select the fields users will be able to change on their profile page.
-
+Seleziona i campi che gli utenti potranno modificare nella pagina del loro profilo.
 
 ### `enable_profile_user_address_geolocalization`
 
-**Enable user's geolocalization**
+**Abilita la geolocalizzazione dell'utente**
 
-Enable user's address field and show it on a map using geolocalization features
+Abilita il campo dell'indirizzo dell'utente e mostralo su una mappa utilizzando le funzionalità di geolocalizzazione
 
 ### `extended_profile`
 
 **Portfolio**
 
-If this setting is on, a user can fill in the following (optional) fields: 'My personal open area', 'My competences', 'My diplomas', 'What I am able to teach'
+Se questa impostazione è attiva, un utente può compilare i seguenti campi (opzionali): 'La mia area aperta personale', 'Le mie competenze', 'I miei diplomi', 'Cosa sono in grado di insegnare'
 
 *Default: `false`*
 
 ### `hide_username_in_course_chat`
 
-**Hide username in course chat**
+**Nascondi il nome utente nella chat del corso**
 
-In the course chat, hide the username. Only display people's names.
+Nella chat del corso, nascondi il nome utente. Mostra solo i nomi delle persone.
 
 *Default: `false`*
-
 
 ### `hide_username_with_complete_name`
 
-**Hide username when already showing complete name**
+**Nascondi il nome utente quando si mostra già il nome completo**
 
-Some internal functions will return the username when returning the user's complete name. With this option enabled, you ensure the username will not appear.
+Alcune funzioni interne restituiscono il nome utente quando restituiscono il nome completo dell'utente. Con questa opzione abilitata, ti assicuri che il nome utente non appaia.
 
 *Default: `false`*
-
 
 ### `linkedin_organization_id`
 
-**LinkedIn Orgnization ID**
+**ID Organizzazione LinkedIn**
 
-When sharing a badge on LinkedIn, LinkedIn allows you to set an organization ID that will link to the LinkedIn's page of your organization (to link the organization attributing the badge).
+Quando si condivide un badge su LinkedIn, LinkedIn permette di impostare un ID organizzazione che si collegherà alla pagina LinkedIn della tua organizzazione (per collegare l'organizzazione che attribuisce il badge).
 
 *Default: `false`*
 
-
 ### `login_is_email`
 
-**Use the email as username**
+**Usa l'email come nome utente**
 
-Use the email in order to login to the system
+Utilizza l'email per effettuare il login al sistema
 
 *Default: `false`*
 
 ### `my_space_users_items_per_page`
 
-**Default number of items per page in mySpace**
+**Numero predefinito di elementi per pagina in MySpace**
 
-Number of records displayed per page in MySpace tracking sections (users, work statistics, student list).
+Numero di record visualizzati per pagina nelle sezioni di monitoraggio di MySpace (utenti, statistiche di lavoro, elenco studenti).
 
 *Default: `10`*
 
-
 ### `pass_reminder_custom_link`
 
-**Custom page for password reminder**
+**Pagina personalizzata per il promemoria della password**
 
-Set your own URL to a password reset page. Useful when using a federated account management system.
+Imposta il tuo URL per una pagina di reimpostazione della password. Utile quando si utilizza un sistema di gestione degli account federato.
 
 ### `profile_fields_visibility`
 
-**Fields visible on profile page**
+**Campi visibili nella pagina del profilo**
 
-Array of fields and whether (boolean) they are visible or not on the user's profile page (also works with extra fields labels).
+Array di campi e se (booleano) sono visibili o meno nella pagina del profilo dell'utente (funziona anche con le etichette dei campi extra).
 
 ### `registration_add_helptext_for_2_names`
 
-**Add helper to add two names in registration**
+**Aggiungi aiuto per inserire due nomi nella registrazione**
 
-Add help text for users to enter two names in the registration form when double lastnames are common.
+Aggiunge un testo di aiuto per gli utenti per inserire due nomi nel modulo di registrazione quando i doppi cognomi sono comuni.
 
 *Default: `false`*
-
 
 ### `send_notification_when_user_added`
 
-**Send mail to admin when user created**
+**Invia email all'amministratore quando viene creato un utente**
 
-Send email notification to admin when a user is created.
+Invia una notifica email all'amministratore quando viene creato un utente.
 
 ### `show_conditions_to_user`
 
-**Show specific registration conditions**
+**Mostra condizioni di registrazione specifiche**
 
-Show multiple conditions to user during sign up process. Provide an array with each element containing 'variable' (internal extra field name), 'display_text' (simple text for a checkbox), 'text_area' (long text of conditions).
+Mostra molteplici condizioni all'utente durante il processo di registrazione. Fornisci un array con ogni elemento contenente 'variable' (nome interno del campo extra), 'display_text' (testo semplice per una casella di controllo), 'text_area' (testo lungo delle condizioni).
 
 ### `show_official_code_whoisonline`
 
-**Official code on 'Who is online'**
+**Codice ufficiale su 'Chi è online'**
 
-Show official code on the 'Who is online' page, below the username.
+Mostra il codice ufficiale nella pagina 'Chi è online', sotto il nome utente.
 
 *Default: `false`*
 
+---
 ### `show_terms_if_profile_completed`
 
-**Terms and conditions only if profile complete**
+**Termini e condizioni solo se il profilo è completo**
 
-By enabling this option, terms and conditions will be available to the user only when the extra profile fields that start with 'terms_' and set to visible are completed.
+Abilitando questa opzione, i termini e le condizioni saranno disponibili per l'utente solo quando i campi aggiuntivi del profilo che iniziano con 'terms_' e impostati come visibili saranno completati.
 
 *Default: `false`*
 
 
 ### `split_users_upload_directory`
 
-**Split users' upload directory**
+**Suddivisione della directory di upload degli utenti**
 
-On high-load portals, where a lot of users are registered and send their pictures, the upload directory (main/upload/users/) might contain too many files for the filesystem to handle (it has been reported with more than 36000 files on a Debian server). Changing this option will enable a one-level splitting of the directories in the upload directory. 9 directories will be used in the base directory and all subsequent users' directories will be stored into one of these 9 directories. The change of this option will not affect the directories structure on disk, but will affect the behaviour of the Chamilo code, so if you change this option, you have to create the new directories and move the existing directories by yourself on te server. Be aware that when creating and moving those directories, you will have to move the directories of users 1 to 9 into subdirectories of the same name. If you are not sure about this option, it is best not to activate it.
+Nei portali ad alto carico, dove molti utenti sono registrati e inviano le loro immagini, la directory di upload (main/upload/users/) potrebbe contenere troppi file per essere gestita dal filesystem (è stato segnalato con oltre 36000 file su un server Debian). Modificando questa opzione, si abiliterà una suddivisione a un livello delle directory nella directory di upload. Verranno utilizzate 9 directory nella directory di base e tutte le directory degli utenti successivi saranno memorizzate in una di queste 9 directory. La modifica di questa opzione non influenzerà la struttura delle directory sul disco, ma influenzerà il comportamento del codice di Chamilo, quindi se cambi questa opzione, dovrai creare le nuove directory e spostare le directory esistenti manualmente sul server. Tieni presente che, durante la creazione e lo spostamento di queste directory, dovrai spostare le directory degli utenti da 1 a 9 in sottodirectory con lo stesso nome. Se non sei sicuro di questa opzione, è meglio non attivarla.
 
 *Default: `true`*
+
 
 ### `use_users_timezone`
 
-**Enable users timezones**
+**Abilita i fusi orari degli utenti**
 
-Enable the possibility for users to select their own timezone. Once configured, users will be able to see assignment deadlines and other time references in their own timezone, which will reduce errors at delivery time.
+Abilita la possibilità per gli utenti di selezionare il proprio fuso orario. Una volta configurato, gli utenti potranno vedere le scadenze degli incarichi e altri riferimenti temporali nel loro fuso orario, riducendo così gli errori al momento della consegna.
 
 *Default: `true`*
 
+
 ### `user_import_settings`
 
-**Options for user import**
+**Opzioni per l'importazione degli utenti**
 
-Array of options to apply as default parameters in the CSV/XML user import.
+Array di opzioni da applicare come parametri predefiniti nell'importazione di utenti tramite CSV/XML.
+
 
 ### `user_search_on_extra_fields`
 
-**Search users by extra fields in users list for admins**
+**Ricerca utenti tramite campi aggiuntivi nell'elenco utenti per gli amministratori**
 
-Naturally include the given extra fields (array of extra fields labels) in the user searches.
+Include naturalmente i campi aggiuntivi specificati (array di etichette dei campi aggiuntivi) nelle ricerche degli utenti.
+
 
 ### `user_selected_theme`
 
-**User theme selection**
+**Selezione del tema da parte dell'utente**
 
-Allow users to select their own visual theme in their profile. This will change the look of Chamilo for them, but will leave the default style of the portal intact. If a specific course or session has a specific theme assigned, it will have priority over user-defined themes.
+Consenti agli utenti di selezionare il proprio tema visivo nel loro profilo. Questo cambierà l'aspetto di Chamilo per loro, ma lascerà intatto lo stile predefinito del portale. Se un corso o una sessione specifica ha un tema specifico assegnato, questo avrà la priorità sui temi definiti dall'utente.
 
 *Default: `false`*
 
+
 ### `visible_options`
 
-**List of visible fields in profile**
+**Elenco dei campi visibili nel profilo**
 
-Controls which profile fields are visible to users and others.
-
-
+Controlla quali campi del profilo sono visibili agli utenti e ad altri.

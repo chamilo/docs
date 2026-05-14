@@ -1,33 +1,31 @@
-# Search Settings
+# Impostazioni di Ricerca
 
-Configuration of the full-text search system (Xapian).
+Configurazione del sistema di ricerca full-text (Xapian).
 
-Access these settings under **Administration > Configuration settings > Search**. This category contains **3 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+Accedi a queste impostazioni tramite **Amministrazione > Impostazioni di configurazione > Ricerca**. Questa categoria contiene **3 impostazioni**, elencate di seguito con il titolo e il commento forniti nei dati di configurazione della piattaforma (`SettingsCurrentFixtures.php`).
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> Il nome della variabile nel codice è mostrato in monospace. Utilizzalo quando scrivi script tramite l'API o quando devi modificare queste impostazioni a livello globale editando [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
 
-## Settings
+## Impostazioni
 
 ### `search_enabled`
 
-**Full-text search feature**
+**Funzionalità di ricerca full-text**
 
-Select 'Yes' to enable this feature. It is highly dependent on the Xapian extension for PHP, so this will not work if this extension is not installed on your server, in version 1.x at minimum.
+Seleziona 'Sì' per abilitare questa funzionalità. Dipende fortemente dall'estensione Xapian per PHP, quindi non funzionerà se questa estensione non è installata sul tuo server, nella versione 1.x come minimo.
 
 *Default: `false`*
 
-
 ### `search_prefilter_prefix`
 
-**Specific Field for prefilter**
+**Campo specifico per il pre-filtro**
 
-This option let you choose the Specific field to use on prefilter search type.
+Questa opzione ti consente di scegliere il campo specifico da utilizzare per il tipo di ricerca con pre-filtro.
 
 ### `search_show_unlinked_results`
 
-**Full-text search: show unlinked results**
+**Ricerca full-text: mostra risultati non collegati**
 
-When showing the results of a full-text search, what should be done with the results that are not accessible to the current user?
+Quando si mostrano i risultati di una ricerca full-text, cosa dovrebbe essere fatto con i risultati che non sono accessibili all'utente corrente?
 
 *Default: `true`*
-

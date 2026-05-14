@@ -1,34 +1,34 @@
 # Chat
 
-The chat tool provides real-time text messaging within a course. It is useful for quick communication, live Q&A sessions, or informal discussions.
+Lo strumento di chat offre messaggistica testuale in tempo reale all'interno di un corso. È utile per comunicazioni rapide, sessioni di domande e risposte dal vivo o discussioni informali.
 
-## Using the Chat
+## Utilizzo della Chat
 
-1. Open the **Chat** tool from the course homepage
-2. Type your message in the text field at the bottom
-3. Press **Enter** or click the send button to post
+1. Apri lo strumento **Chat** dalla homepage del corso
+2. Digita il tuo messaggio nel campo di testo in basso
+3. Premi **Invio** o fai clic sul pulsante di invio per pubblicare
 
-All enrolled users who are currently in the chat room can see messages in real time.
+Tutti gli utenti iscritti che si trovano attualmente nella stanza di chat possono vedere i messaggi in tempo reale.
 
-## Chat Features
+## Funzionalità della Chat
 
-* **Real-time messaging** — Messages appear instantly for all participants
-* **Message history** — Previous messages are visible when you enter the chat
-* **User presence** — See who is currently in the chat room
+* **Messaggistica in tempo reale** — I messaggi appaiono istantaneamente per tutti i partecipanti
+* **Cronologia dei messaggi** — I messaggi precedenti sono visibili quando entri nella chat
+* **Presenza degli utenti** — Visualizza chi è attualmente nella stanza di chat
 
-## As a Teacher
+## Come Docente
 
-As the course teacher, you can:
+In qualità di docente del corso, puoi:
 
-* **Monitor discussions** — Review chat history to track learner engagement
-* **Find chat archives in Documents** — The chat tool automatically mirrors messages into HTML files in the Documents tool, organised by day and by scope (course / session / group), so the conversation persists beyond the live session
+* **Monitorare le discussioni** — Esaminare la cronologia della chat per monitorare il coinvolgimento degli studenti
+* **Trovare gli archivi della chat in Documenti** — Lo strumento di chat duplica automaticamente i messaggi in file HTML nello strumento Documenti, organizzati per giorno e per ambito (corso / sessione / gruppo), così la conversazione persiste oltre la sessione dal vivo
 
-If the platform setting "restrict chat to coach" is enabled by the administrator, only coaches can chat with learners; otherwise everyone enrolled in the course can participate.
+Se l'impostazione della piattaforma "restringi chat al coach" è abilitata dall'amministratore, solo i coach possono chattare con gli studenti; altrimenti, tutti gli iscritti al corso possono partecipare.
 
-## Tips for Using Chat Effectively
+## Suggerimenti per Utilizzare la Chat in Modo Efficace
 
-* **Schedule chat sessions** — Let learners know in advance when you will be available for live chat (use the Agenda tool)
-* **Set ground rules** — Establish expectations for respectful communication
-* **Use for quick questions** — Chat works best for short exchanges; use the Forum for longer, structured discussions
+* **Programma sessioni di chat** — Informa gli studenti in anticipo quando sarai disponibile per la chat dal vivo (usa lo strumento Agenda)
+* **Stabilisci regole di base** — Definisci aspettative per una comunicazione rispettosa
+* **Usa per domande rapide** — La chat funziona meglio per scambi brevi; utilizza il Forum per discussioni più lunghe e strutturate
 
-> If your platform has video conferencing configured (BigBlueButton or Zoom), consider using that for live sessions where voice and video would be more effective. See [Video Conferencing](video-conferencing.md).
+> Se la tua piattaforma ha configurato la videoconferenza (BigBlueButton o Zoom), considera di utilizzarla per sessioni dal vivo in cui voce e video sarebbero più efficaci. Consulta [Videoconferenza](video-conferencing.md).

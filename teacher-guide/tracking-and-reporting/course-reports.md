@@ -1,50 +1,50 @@
-# Course Reports
+# Rapporti del Corso
 
-Course reports give you an aggregate view of activity and performance across all learners in your course.
+I rapporti del corso offrono una visione aggregata dell'attività e delle prestazioni di tutti gli studenti nel tuo corso.
 
-## Accessing Course Reports
+## Accesso ai Rapporti del Corso
 
-Open the **Tracking** <img src="/.gitbook/assets/icons/mdi-chart-box.svg" alt="Tracking" data-size="line"> tool from the course homepage and select the course-level reports view.
+Apri lo strumento **Monitoraggio** <img src="/.gitbook/assets/icons/mdi-chart-box.svg" alt="Monitoraggio" data-size="line"> dalla homepage del corso e seleziona la vista dei rapporti a livello di corso.
 
-![The course tracking overview showing engagement metrics and learner activity summary](/.gitbook/assets/tracking-course-overview.png)
+![Panoramica del monitoraggio del corso che mostra metriche di coinvolgimento e riepilogo dell'attività degli studenti](/.gitbook/assets/tracking-course-overview.png)
 
-## Available Reports
+## Rapporti Disponibili
 
-### Activity Overview
+### Panoramica dell'Attività
 
-A summary of overall course engagement, including enrolled learners, time spent in the course, course progress, exercise progress and average score, and assignment activity.
+Un riepilogo del coinvolgimento complessivo nel corso, che include il numero di studenti iscritti, il tempo trascorso nel corso, l'avanzamento del corso, l'avanzamento degli esercizi e il punteggio medio, nonché l'attività relativa ai compiti.
 
-Separate detail views are available from the tracking section for **resources** (per-resource access counts), **tools** (per-tool usage), and **events** (raw event log).
+Sono disponibili viste dettagliate separate dalla sezione di monitoraggio per **risorse** (conteggi di accesso per risorsa), **strumenti** (utilizzo per strumento) ed **eventi** (registro eventi grezzo).
 
-### Exercise Reports
+### Rapporti sugli Esercizi
 
-For each exercise in the course:
+Per ogni esercizio nel corso:
 
-* Number of learners who attempted it
-* Average score
-* Score distribution
-* Number of learners who passed (based on the pass threshold you set)
+* Numero di studenti che lo hanno tentato
+* Punteggio medio
+* Distribuzione dei punteggi
+* Numero di studenti che hanno superato l'esercizio (in base alla soglia di superamento impostata)
 
-### Learning Path Reports
+### Rapporti sui Percorsi di Apprendimento
 
-For each learning path:
+Per ogni percorso di apprendimento:
 
-* Completion rates across all learners
-* Average progress percentage
-* Time spent per item
-* Learners who have completed the path vs. those still in progress
+* Tassi di completamento tra tutti gli studenti
+* Percentuale di avanzamento media
+* Tempo trascorso per elemento
+* Studenti che hanno completato il percorso rispetto a quelli ancora in corso
 
-### Assignment Reports
+### Rapporti sui Compiti
 
-For each assignment:
+Per ogni compito:
 
-* Number of submissions received
-* Number of pending reviews
+* Numero di consegne ricevute
+* Numero di revisioni in sospeso
 
-## Exporting Data
+## Esportazione dei Dati
 
-You can export tracking and report data for further analysis. Look for the **Export** <img src="/.gitbook/assets/icons/mdi-export.svg" alt="Export" data-size="line"> option to download data in a spreadsheet-compatible format.
+Puoi esportare i dati di monitoraggio e i rapporti per ulteriori analisi. Cerca l'opzione **Esporta** <img src="/.gitbook/assets/icons/mdi-export.svg" alt="Esporta" data-size="line"> per scaricare i dati in un formato compatibile con i fogli di calcolo.
 
-## Session Reports
+## Rapporti di Sessione
 
-If you teach within a session, reports are scoped to the session's learners. Session coaches have access to reports across all courses in their session. A global configuration setting can also allows teachers to see assignments through all sessions using their course (ask your admin).
+Se insegni all'interno di una sessione, i rapporti sono limitati agli studenti della sessione. I coach della sessione hanno accesso ai rapporti di tutti i corsi nella loro sessione. Un'impostazione di configurazione globale può anche consentire agli insegnanti di visualizzare i compiti attraverso tutte le sessioni che utilizzano il loro corso (chiedi al tuo amministratore).

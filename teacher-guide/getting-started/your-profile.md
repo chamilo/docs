@@ -1,43 +1,43 @@
-# Your Profile
+# Il Tuo Profilo
 
-Your profile in Chamilo contains your personal information and preferences. Other users on the platform can see parts of your profile depending on your visibility settings.
+Il tuo profilo su Chamilo contiene le tue informazioni personali e le tue preferenze. Altri utenti della piattaforma possono vedere parti del tuo profilo in base alle impostazioni di visibilità.
 
-## Accessing Your Profile
+## Accedere al Tuo Profilo
 
-Click your **avatar** in the top-right corner of the top bar, then select **Profile** from the dropdown menu. You can also access it from the **Social network** section of the sidebar.
+Clicca sul tuo **avatar** nell'angolo in alto a destra della barra superiore, quindi seleziona **Profilo** dal menu a tendina. Puoi anche accedervi dalla sezione **Rete sociale** della barra laterale.
 
-![The user avatar dropdown menu showing profile, account settings, and sign-out options](/.gitbook/assets/user-avatar-dropdown.png)
+![Il menu a tendina dell'avatar utente che mostra le opzioni profilo, impostazioni account e disconnessione](/.gitbook/assets/user-avatar-dropdown.png)
 
-## Profile Information
+## Informazioni del Profilo
 
-Your profile page might show (depending on configuration):
+La pagina del tuo profilo potrebbe mostrare (a seconda della configurazione):
 
-* **Avatar** — Your profile picture. Click **Edit profile** to change it.
-* **Full name** — Your first and last name as registered on the platform.
-* **Email** — Your email address. Other users can click it to send you a message within Chamilo.
-* **Language** — Your preferred language.
-* **Additional fields** — Depending on your platform's configuration, you may see fields such as phone number, Skype handle, LinkedIn profile link, or custom fields defined by your administrator.
+* **Avatar** — La tua immagine del profilo. Clicca su **Modifica profilo** per cambiarla.
+* **Nome completo** — Il tuo nome e cognome come registrati sulla piattaforma.
+* **Email** — Il tuo indirizzo email. Altri utenti possono cliccarci sopra per inviarti un messaggio all'interno di Chamilo.
+* **Lingua** — La tua lingua preferita.
+* **Campi aggiuntivi** — A seconda della configurazione della tua piattaforma, potresti vedere campi come numero di telefono, nome utente Skype, link al profilo LinkedIn o campi personalizzati definiti dal tuo amministratore.
 
-## Editing Your Profile
+## Modificare il Tuo Profilo
 
-To update your profile information, click **Edit profile**. Here you can:
+Per aggiornare le informazioni del tuo profilo, clicca su **Modifica profilo**. Qui puoi:
 
-* Change your name, email, and password
-* Upload or change your avatar/picture
-* Update your preferred language
-* Fill in additional profile fields (Skype, LinkedIn, etc.)
-* Configure notification preferences
+* Modificare il tuo nome, email e password
+* Caricare o cambiare il tuo avatar/immagine
+* Aggiornare la tua lingua preferita
+* Compilare campi aggiuntivi del profilo (Skype, LinkedIn, ecc.)
+* Configurare le preferenze di notifica
 
-To change your password, click **Change Password**. For security reasons, you will need to give your current password and your new password twice.
+Per cambiare la tua password, clicca su **Cambia Password**. Per motivi di sicurezza, dovrai inserire la tua password attuale e la nuova password due volte.
 
-If your administrator has enabled the **two-factor authentication** option (`2fa_enable`) for the platform, your profile will let you turn on 2FA for your own account using a TOTP authenticator app (Google Authenticator, Authy, 1Password, etc.). Once enabled, the login flow will ask for the time-based 6-digit code in addition to your password.
+Se il tuo amministratore ha abilitato l'opzione di **autenticazione a due fattori** (`2fa_enable`) per la piattaforma, il tuo profilo ti permetterà di attivare la 2FA per il tuo account utilizzando un'app di autenticazione TOTP (Google Authenticator, Authy, 1Password, ecc.). Una volta abilitata, il processo di accesso richiederà un codice a 6 cifre basato sul tempo oltre alla tua password.
 
-## Personal Data
+## Dati Personali
 
-Under **Social network** > **Personal Data**, you can review all the information Chamilo stores about you. This section includes:
+Nella sezione **Rete sociale** > **Dati Personali**, puoi rivedere tutte le informazioni che Chamilo memorizza su di te. Questa sezione include:
 
-* A summary of all data collected, organized by category
-* If enabled by your organization, your acceptance status for the platform's **Terms and Conditions**
-* If enabled by your organization, an option to **withdraw your consent** or **delete account**, which will trigger an account deletion request that your administrator will process
+* Un riepilogo di tutti i dati raccolti, organizzati per categoria
+* Se abilitato dalla tua organizzazione, lo stato di accettazione dei **Termini e Condizioni** della piattaforma
+* Se abilitato dalla tua organizzazione, un'opzione per **ritirare il consenso** o **eliminare l'account**, che attiverà una richiesta di eliminazione dell'account che il tuo amministratore elaborerà
 
-> This feature is provided to comply with data protection regulations. Contact your administrator if you have questions about how your data is handled.
+> Questa funzionalità è fornita per conformarsi alle normative sulla protezione dei dati. Contatta il tuo amministratore se hai domande su come vengono gestiti i tuoi dati.

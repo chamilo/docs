@@ -1,57 +1,57 @@
-# Managing Courses
+# Gestione dei Corsi
 
-As an administrator, you can manage all courses on the platform regardless of who created them.
+In qualità di amministratore, puoi gestire tutti i corsi sulla piattaforma indipendentemente da chi li ha creati.
 
-## Course List
+## Elenco dei Corsi
 
-![The course list showing all courses with title, code, category, enrolled users, and visibility status](/.gitbook/assets/admin-course-list.png)
+![L'elenco dei corsi che mostra tutti i corsi con titolo, codice, categoria, utenti iscritti e stato di visibilità](/.gitbook/assets/admin-course-list.png)
 
-From the administration panel, click **Course list** to see all courses. The list shows:
+Dal pannello di amministrazione, clicca su **Elenco dei corsi** per visualizzare tutti i corsi. L'elenco mostra:
 
-* Course title and code
-* Language
-* Categories
-* Visibility status
+* Titolo e codice del corso
+* Lingua
+* Categorie
+* Stato di visibilità
 
-Use the **Advanced search** tool to find specific courses.
+Utilizza lo strumento **Ricerca avanzata** per trovare corsi specifici.
 
-## Creating a Course
+## Creazione di un Corso
 
-As an administrator, you can create courses and assign them to any teacher:
+In qualità di amministratore, puoi creare corsi e assegnarli a qualsiasi docente:
 
-1. Click **Add course** from the administration panel
-2. Fill in the course details (title, code, category, language)
-3. Assign a teacher to the course
-4. Save
+1. Clicca su **Aggiungi corso** dal pannello di amministrazione
+2. Compila i dettagli del corso (titolo, codice, categoria, lingua)
+3. Assegna un docente al corso
+4. Salva
 
-Note: In Chamilo 1.11.x, the course code was shown as part of the course URL, and was impossible to change after the creation of the course. This behaviour is changing in 2.x. The course code is not visible in the URL anymore, and future versions might allow teachers to modify the course code afterwards as it become less essential to the platform.
+Nota: In Chamilo 1.11.x, il codice del corso veniva mostrato come parte dell'URL del corso ed era impossibile modificarlo dopo la creazione del corso. Questo comportamento sta cambiando nella versione 2.x. Il codice del corso non è più visibile nell'URL e le versioni future potrebbero consentire ai docenti di modificare il codice del corso successivamente, poiché diventa meno essenziale per la piattaforma.
 
-## Managing an Existing Course
+## Gestione di un Corso Esistente
 
-Find a course in the list to access management options in the *Actions* column:
+Trova un corso nell'elenco per accedere alle opzioni di gestione nella colonna *Azioni*:
 
-* **Information** — Show information about the course 
-* **Course home** — Sends you directly to the course's homepage 
-* **Reporting** — See engagement and performance data
-* **Edit** — Change course title, category, visibility, and other settings
-* **Create a backup** — Go to the maintenance section of the course, where you can create copies and do other things
-* **Add to catalogue** — Add this course to the course catalogue
-* **Delete** — Permanently remove the course and all its content
+* **Informazioni** — Mostra informazioni sul corso
+* **Homepage del corso** — Ti porta direttamente alla homepage del corso
+* **Rapporti** — Visualizza dati su coinvolgimento e prestazioni
+* **Modifica** — Cambia titolo, categoria, visibilità e altre impostazioni del corso
+* **Crea un backup** — Vai alla sezione di manutenzione del corso, dove puoi creare copie e fare altre operazioni
+* **Aggiungi al catalogo** — Aggiungi questo corso al catalogo dei corsi
+* **Elimina** — Rimuovi permanentemente il corso e tutto il suo contenuto
 
-> Deleting a course removes all content, learner data, grades, and tracking information permanently. Consider exporting the course first as a backup.
+> L'eliminazione di un corso rimuove permanentemente tutti i contenuti, i dati degli studenti, i voti e le informazioni di tracciamento. Considera di esportare il corso prima come backup.
 
-## Bulk Operations
+## Operazioni in Blocco
 
-Select multiple courses in the list to perform batch actions such as deleting them. To export a course, enter the course and use the **Maintenance** tool — there is no bulk export action on the admin course list.
+Seleziona più corsi nell'elenco per eseguire azioni in blocco, come eliminarli. Per esportare un corso, entra nel corso e utilizza lo strumento **Manutenzione** — non esiste un'azione di esportazione in blocco nell'elenco dei corsi dell'amministratore.
 
-## Course Visibility Settings
+## Impostazioni di Visibilità del Corso
 
-Administrators can override the visibility set by teachers:
+Gli amministratori possono sovrascrivere la visibilità impostata dai docenti:
 
-| Visibility | Effect |
-|-----------|--------|
-| **Public** | Accessible to everyone, including anonymous visitors |
-| **Open** | Accessible to all logged-in users |
-| **Private** | Only enrolled users can access the course |
-| **Closed** | No one can access the course (except the teacher and admins) |
-| **Hidden** | No one can view or access the course (except the admins) |
+| Visibilità | Effetto |
+|------------|---------|
+| **Pubblico** | Accessibile a tutti, inclusi i visitatori anonimi |
+| **Aperto** | Accessibile a tutti gli utenti autenticati |
+| **Privato** | Solo gli utenti iscritti possono accedere al corso |
+| **Chiuso** | Nessuno può accedere al corso (tranne il docente e gli amministratori) |
+| **Nascosto** | Nessuno può visualizzare o accedere al corso (tranne gli amministratori) |

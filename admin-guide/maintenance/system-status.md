@@ -1,40 +1,40 @@
-# System Status
+# Stato del Sistema
 
-The system status page helps you verify that your Chamilo server is correctly configured and identify potential issues.
+La pagina di stato del sistema ti aiuta a verificare che il tuo server Chamilo sia configurato correttamente e a identificare eventuali problemi.
 
-## Accessing System Status
+## Accesso allo Stato del Sistema
 
-From the administration panel, click **System status** (or **System information**).
+Dal pannello di amministrazione, clicca su **Stato del sistema** (o **Informazioni di sistema**).
 
-## What It Shows
+## Cosa Mostra
 
-![The system status page showing PHP configuration, database status, file permissions, and server information](/.gitbook/assets/admin-system-status.png)
+![La pagina di stato del sistema che mostra la configurazione PHP, lo stato del database, i permessi dei file e le informazioni sul server](/.gitbook/assets/admin-system-status.png)
 
-### PHP Configuration
+### Configurazione PHP
 
-* **PHP version** — Chamilo 2.0 requires PHP 8.2 or higher
-* **Required extensions** — Checks that all necessary PHP extensions are installed
-* **PHP settings** — Verifies important PHP settings like memory limit, upload limits, and execution time
+* **Versione PHP** — Chamilo 2.0 richiede PHP 8.2 o superiore
+* **Estensioni richieste** — Verifica che tutte le estensioni PHP necessarie siano installate
+* **Impostazioni PHP** — Controlla impostazioni PHP importanti come il limite di memoria, i limiti di caricamento e il tempo di esecuzione
 
-### Database Status
+### Stato del Database
 
-* **Database connection** — Confirms the database is accessible
-* **Database version** — Shows the database server version
+* **Connessione al database** — Conferma che il database sia accessibile
+* **Versione del database** — Mostra la versione del server del database
 
-### File Permissions
+### Permessi dei File
 
-* **Writable directories** — Checks that Chamilo can write to required directories (cache, uploads, logs)
+* **Directory scrivibili** — Verifica che Chamilo possa scrivere nelle directory richieste (cache, upload, log)
 
-### Server Information
+### Informazioni sul Server
 
-* **Operating system** — Server OS details
-* **Web server** — Apache, Nginx, or other
-* **Disk space** — Available storage
+* **Sistema operativo** — Dettagli sul sistema operativo del server
+* **Server web** — Apache, Nginx o altro
+* **Spazio su disco** — Spazio di archiviazione disponibile
 
-## Recommended Checks
+## Controlli Raccomandati
 
-Perform these checks regularly:
+Esegui questi controlli regolarmente:
 
-* **After installation** — Verify all requirements are met
-* **After upgrades** — Ensure PHP version and extensions are still compatible
-* **When issues arise** — Check system status first when troubleshooting problems
+* **Dopo l'installazione** — Verifica che tutti i requisiti siano soddisfatti
+* **Dopo gli aggiornamenti** — Assicurati che la versione di PHP e le estensioni siano ancora compatibili
+* **Quando sorgono problemi** — Controlla prima lo stato del sistema quando risolvi problemi

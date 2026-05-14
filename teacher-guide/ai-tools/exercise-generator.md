@@ -1,59 +1,59 @@
-# Exercise Generator
+# Generatore di Esercizi
 
-The AI Exercise Generator helps you create quiz questions automatically using artificial intelligence. You provide a topic or content, and the AI generates questions that you can review, edit, and add to your exercises.
+Il Generatore di Esercizi con IA ti aiuta a creare automaticamente domande per quiz utilizzando l'intelligenza artificiale. Fornisci un argomento o un contenuto, e l'IA genera domande che puoi rivedere, modificare e aggiungere ai tuoi esercizi.
 
-## Accessing the Exercise Generator
+## Accesso al Generatore di Esercizi
 
-The Exercise Generator is available when creating or editing an exercise, provided that:
+Il Generatore di Esercizi è disponibile durante la creazione o la modifica di un esercizio, a condizione che:
 
-1. AI helpers are enabled at the platform level
-2. At least one AI text provider is configured
+1. Gli assistenti IA siano abilitati a livello di piattaforma
+2. Sia configurato almeno un fornitore di testi IA
 
-Look for the **AI Generator** button or section within the exercise creation interface.
+Cerca il pulsante o la sezione **Generatore IA** all'interno dell'interfaccia di creazione degli esercizi.
 
-## How to Generate Questions
+## Come Generare Domande
 
-![The AI exercise generator form with fields for topic and number of questions](/.gitbook/assets/ai-exercise-generator.png)
+![Il modulo del generatore di esercizi con IA con campi per argomento e numero di domande](/.gitbook/assets/ai-exercise-generator.png)
 
-The generator offers two modes, available as tabs:
+Il generatore offre due modalità, disponibili come schede:
 
-* **Test from topic** — Generate questions from a textual topic description
-* **Test from document** — Generate questions from a course document (only available when a document-capable provider is configured). When this mode is used, the topic field becomes optional and is treated as an extra hint.
+* **Test da argomento** — Genera domande a partire da una descrizione testuale di un argomento
+* **Test da documento** — Genera domande a partire da un documento del corso (disponibile solo quando è configurato un fornitore compatibile con i documenti). Quando si utilizza questa modalità, il campo dell'argomento diventa opzionale e viene trattato come un suggerimento aggiuntivo.
 
-1. Open the AI Generator form within an exercise and pick the mode
-2. Configure the generation parameters:
-   * **Quiz title** — The title for the resulting exercise
-   * **Questions topic** — Describe what the questions should be about (or, in document mode, an optional hint)
-   * **Number of questions** — How many questions to generate (capped at 100)
-   * **Question type** — Currently only **Multiple answer** is offered
-   * **AI provider** — Select which AI provider to use (only shown when more than one is configured)
-3. Click **Generate**
-4. The AI produces a set of questions with answer options and correct answers marked. When AI disclosure is enabled, generated questions are prefixed with **\[AI-assisted\]**.
+1. Apri il modulo Generatore IA all'interno di un esercizio e scegli la modalità
+2. Configura i parametri di generazione:
+   * **Titolo del quiz** — Il titolo per l'esercizio risultante
+   * **Argomento delle domande** — Descrivi di cosa dovrebbero trattare le domande (o, in modalità documento, un suggerimento opzionale)
+   * **Numero di domande** — Quante domande generare (limitate a 100)
+   * **Tipo di domanda** — Attualmente è offerto solo **Risposta multipla**
+   * **Fornitore IA** — Seleziona quale fornitore IA utilizzare (mostrato solo quando più di uno è configurato)
+3. Clicca su **Genera**
+4. L'IA produce un insieme di domande con opzioni di risposta e risposte corrette contrassegnate. Quando la divulgazione IA è abilitata, le domande generate sono precedute da **\[Assistito da IA\]**.
 
-## Reviewing and Editing
+## Revisione e Modifica
 
-![AI-generated questions displayed for review with options to edit, accept, or remove each one](/.gitbook/assets/ai-exercise-generator-results.png)
+![Domande generate dall'IA mostrate per la revisione con opzioni per modificare, accettare o rimuovere ciascuna di esse](/.gitbook/assets/ai-exercise-generator-results.png)
 
-Generated questions are presented as **suggestions**. You should:
+Le domande generate sono presentate come **suggerimenti**. Dovresti:
 
-* **Review each question** for accuracy and relevance
-* **Edit the wording** if needed — adjust questions, answer options, and feedback
-* **Verify correct answers** — make sure the AI has identified the right answers
-* **Remove unsuitable questions** — delete any that don't meet your standards
-* **Adjust scoring** — set appropriate point values for each question
+* **Rivedere ogni domanda** per verificarne l'accuratezza e la pertinenza
+* **Modificare il testo** se necessario — regola le domande, le opzioni di risposta e il feedback
+* **Verificare le risposte corrette** — assicurati che l'IA abbia identificato le risposte giuste
+* **Rimuovere domande non idonee** — elimina quelle che non soddisfano i tuoi standard
+* **Regolare il punteggio** — imposta valori di punteggio appropriati per ogni domanda
 
-Once you are satisfied, add the questions to your exercise.
+Una volta soddisfatto, aggiungi le domande al tuo esercizio.
 
-Note that despite our specific format requests, some models will return question titles prefixed by a number. We don't recommend leaving that number there as this will hinder the mix of questions in tests with randomly selected questions. Also, sometimes you don't get as many questions as you've asked, so make sure you check that and potentially generate more questions, or change model if you have that possibility.
+Nota che, nonostante le nostre richieste di formato specifiche, alcuni modelli restituiscono titoli di domande preceduti da un numero. Non consigliamo di lasciare quel numero, poiché ciò potrebbe ostacolare la miscelazione delle domande nei test con domande selezionate casualmente. Inoltre, a volte non ottieni il numero di domande richiesto, quindi assicurati di verificarlo e, se necessario, genera altre domande o cambia modello se hai questa possibilità.
 
-## AI-Generated Content Disclosure
+## Divulgazione di Contenuti Generati dall'IA
 
-Content generated by AI is labeled with a disclosure notice, indicating that it was created using artificial intelligence. This transparency helps learners understand the origin of the material.
+I contenuti generati dall'IA sono etichettati con un avviso di divulgazione, che indica che sono stati creati utilizzando l'intelligenza artificiale. Questa trasparenza aiuta gli studenti a comprendere l'origine del materiale.
 
-## Tips
+## Suggerimenti
 
-* **Provide specific topics** — The more specific your topic description, the more relevant the generated questions will be.
-* **Always review** — AI-generated content may contain errors. Never publish questions without reviewing them first.
-* **Use as a starting point** — Generated questions are a time-saver, not a finished product. Edit them to match your teaching style and course content.
-* **Mix with manual questions** — Combine AI-generated questions with manually created ones for the best results.
-* **Try different providers** — If multiple AI providers are available, try different ones to see which produces the best questions for your subject area.
+* **Fornisci argomenti specifici** — Più specifica è la descrizione del tuo argomento, più pertinenti saranno le domande generate.
+* **Rivedi sempre** — I contenuti generati dall'IA possono contenere errori. Non pubblicare mai domande senza prima rivederle.
+* **Usa come punto di partenza** — Le domande generate sono un risparmio di tempo, non un prodotto finito. Modificale per adattarle al tuo stile di insegnamento e al contenuto del corso.
+* **Mescola con domande manuali** — Combina domande generate dall'IA con quelle create manualmente per ottenere i migliori risultati.
+* **Prova diversi fornitori** — Se sono disponibili più fornitori IA, provane diversi per vedere quale produce le migliori domande per la tua area disciplinare.

@@ -1,53 +1,53 @@
-# AI Tutor
+# Tutor AI
 
-The AI Tutor is a chatbot integrated into Chamilo that learners can interact with to ask course-related questions. It provides instant, context-aware responses powered by a large language model.
+Il Tutor AI è un chatbot integrato in Chamilo con cui gli studenti possono interagire per porre domande relative al corso. Fornisce risposte immediate e contestualizzate, supportate da un modello linguistico di grandi dimensioni.
 
-## How It Works
+## Come Funziona
 
-When the AI Tutor is enabled for a course, learners see a chat interface where they can:
+Quando il Tutor AI è abilitato per un corso, gli studenti vedono un'interfaccia di chat dove possono:
 
-* **Ask questions** about course content
-* **Get explanations** of concepts covered in the course
-* **Receive guidance** without waiting for the teacher to respond
+* **Porre domande** sui contenuti del corso
+* **Ottenere spiegazioni** dei concetti trattati nel corso
+* **Ricevere orientamento** senza dover aspettare la risposta dell'insegnante
 
-The AI Tutor uses the course context to provide relevant answers. It is designed to supplement your teaching, not replace it.
+Il Tutor AI utilizza il contesto del corso per fornire risposte pertinenti. È progettato per integrare il tuo insegnamento, non per sostituirlo.
 
-## Enabling the AI Tutor
+## Abilitazione del Tutor AI
 
-The AI Tutor requires two levels of configuration:
+Il Tutor AI richiede due livelli di configurazione:
 
-1. **Platform level** — The administrator must enable AI helpers and configure at least one AI provider (see [AI Configuration](../../admin-guide/integrations/ai-configuration.md))
-2. **Course level** — The AI Tutor must be enabled in the course settings (a simple on/off toggle). The provider used for the chat is the one configured by the administrator.
+1. **Livello piattaforma** — L'amministratore deve abilitare gli assistenti AI e configurare almeno un fornitore di AI (vedi [Configurazione AI](../../admin-guide/integrations/ai-configuration.md))
+2. **Livello corso** — Il Tutor AI deve essere abilitato nelle impostazioni del corso (un semplice interruttore on/off). Il fornitore utilizzato per la chat è quello configurato dall'amministratore.
 
-## The Chat Interface
+## L'Interfaccia di Chat
 
-![The AI Tutor chat interface showing a conversation between a learner and the AI](/.gitbook/assets/ai-tutor-chat.png)
+![L'interfaccia di chat del Tutor AI che mostra una conversazione tra uno studente e l'AI](/.gitbook/assets/ai-tutor-chat.png)
 
-The AI Tutor appears as a **docked chat panel** within the course. Learners can:
+Il Tutor AI appare come un **pannello di chat ancorato** all'interno del corso. Gli studenti possono:
 
-* Type messages and receive AI-generated responses
-* View their conversation history
-* Reset the conversation to start fresh
+* Digitare messaggi e ricevere risposte generate dall'AI
+* Visualizzare la cronologia delle loro conversazioni
+* Reimpostare la conversazione per iniziare da capo
 
-The chat interface shows the exchange between the learner and the AI in a familiar messaging format.
+L'interfaccia di chat mostra lo scambio tra lo studente e l'AI in un formato di messaggistica familiare.
 
-## Important Behavior
+## Comportamenti Importanti
 
-* **Course context only** — The AI Tutor is only available inside a course, not on the general platform
-* **Disabled during exams** — The AI Tutor is automatically disabled when a learner is taking an exercise, to prevent cheating
-* **Conversation per learner** — Each learner has their own private conversation with the AI Tutor, and the prompt context only includes the most recent messages
-* **Provider failover** — If the configured provider fails, Chamilo falls back to another available provider so the chat keeps working
+* **Solo contesto del corso** — Il Tutor AI è disponibile solo all'interno di un corso, non sulla piattaforma generale
+* **Disabilitato durante gli esami** — Il Tutor AI viene automaticamente disabilitato quando uno studente sta svolgendo un esercizio, per prevenire imbrogli
+* **Conversazione per studente** — Ogni studente ha una propria conversazione privata con il Tutor AI, e il contesto del prompt include solo i messaggi più recenti
+* **Fallback del fornitore** — Se il fornitore configurato non funziona, Chamilo passa a un altro fornitore disponibile per garantire il funzionamento della chat
 
-## As a Teacher
+## Come Insegnante
 
-You should be aware that:
+Dovresti essere consapevole che:
 
-* The AI Tutor may not always give perfect answers — encourage learners to verify important information
-* You can review AI Tutor usage through platform tracking
-* The AI Tutor is a complement to your teaching, not a substitute. Use it alongside forums, announcements, and direct messaging for comprehensive learner support.
+* Il Tutor AI potrebbe non fornire sempre risposte perfette — incoraggia gli studenti a verificare le informazioni importanti
+* Puoi monitorare l'uso del Tutor AI attraverso il tracciamento della piattaforma
+* Il Tutor AI è un complemento al tuo insegnamento, non un sostituto. Usalo insieme a forum, annunci e messaggistica diretta per un supporto completo agli studenti.
 
-## Tips
+## Consigli
 
-* **Set expectations** — Tell learners at the start of the course that an AI Tutor is available and explain how to use it appropriately
-* **Encourage critical thinking** — Remind learners to think critically about AI-generated answers
-* **Use for frequently asked questions** — The AI Tutor is especially useful for handling common questions that you would otherwise answer repeatedly
+* **Stabilisci aspettative** — Comunica agli studenti all'inizio del corso che è disponibile un Tutor AI e spiega come utilizzarlo in modo appropriato
+* **Incoraggia il pensiero critico** — Ricorda agli studenti di valutare criticamente le risposte generate dall'AI
+* **Usalo per domande frequenti** — Il Tutor AI è particolarmente utile per gestire domande comuni che altrimenti dovresti rispondere ripetutamente

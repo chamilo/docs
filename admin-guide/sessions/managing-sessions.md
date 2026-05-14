@@ -1,75 +1,75 @@
-# Managing Sessions
+# Gestione delle Sessioni
 
-## Creating a Session
+## Creazione di una Sessione
 
-![The session creation form with fields for name, dates, coach, category, and visibility](/.gitbook/assets/admin-session-create-form.png)
+![Il modulo di creazione della sessione con campi per nome, date, coach, categoria e visibilità](/.gitbook/assets/admin-session-create-form.png)
 
-1. From the administration panel, click **Create a session**
-2. Fill in the session details:
-   * **Session name** — A descriptive name (e.g., "Spring 2026 Onboarding")
-   * **Start and end dates** — When the session runs (optional — sessions can be open-ended). There are 3 sets of dates: Dates to display, dates to limit learners access and dates to limit coaches access
-   * **Session coach** — The person overseeing the entire session
-   * **Category** — Assign to a session category for organization
-   * **Visibility** — Control access and listing behavior
-3. **Add courses** — Select one or more courses to include in the session
-4. **Enroll learners** — Add individual users or classes of users
-5. **Assign course coaches** — For each course, assign a teacher (course coach)
-6. Save
+1. Dal pannello di amministrazione, clicca su **Crea una sessione**
+2. Compila i dettagli della sessione:
+   * **Nome della sessione** — Un nome descrittivo (ad esempio, "Onboarding Primavera 2026")
+   * **Date di inizio e fine** — Periodo in cui la sessione si svolge (opzionale — le sessioni possono essere senza scadenza). Ci sono 3 set di date: date da visualizzare, date per limitare l'accesso agli studenti e date per limitare l'accesso ai coach
+   * **Coach della sessione** — La persona che supervisiona l'intera sessione
+   * **Categoria** — Assegna a una categoria di sessione per l'organizzazione
+   * **Visibilità** — Controlla il comportamento di accesso e visualizzazione
+3. **Aggiungi corsi** — Seleziona uno o più corsi da includere nella sessione
+4. **Iscrivi studenti** — Aggiungi utenti individuali o classi di utenti
+5. **Assegna coach ai corsi** — Per ogni corso, assegna un insegnante (coach del corso)
+6. Salva
 
-## Session Dates
+## Date della Sessione
 
-Sessions support flexible date configuration:
+Le sessioni supportano una configurazione flessibile delle date:
 
-| Date | Purpose |
-|------|---------|
-| **Display start/end** | When the session appears in learner listings |
-| **Access start/end** | When learners can actually access the session content |
-| **Coach access start/end** | When coaches can access the session (often starts before and ends after learner access) |
+| Data | Scopo |
+|------|-------|
+| **Inizio/fine visualizzazione** | Quando la sessione appare negli elenchi degli studenti |
+| **Inizio/fine accesso** | Quando gli studenti possono effettivamente accedere ai contenuti della sessione |
+| **Inizio/fine accesso coach** | Quando i coach possono accedere alla sessione (spesso inizia prima e termina dopo l'accesso degli studenti) |
 
-This allows you to prepare the session before learners arrive and keep coach access open after the session ends for grading and reporting.
+Questo ti permette di preparare la sessione prima dell'arrivo degli studenti e di mantenere l'accesso aperto ai coach dopo la fine della sessione per valutazioni e report.
 
-## Session List
+## Elenco delle Sessioni
 
-![The session list showing all sessions with name, dates, course count, learner count, and status](/.gitbook/assets/admin-session-list.png)
+![L'elenco delle sessioni che mostra tutte le sessioni con nome, date, numero di corsi, numero di studenti e stato](/.gitbook/assets/admin-session-list.png)
 
-The session list shows all sessions with:
+L'elenco delle sessioni mostra tutte le sessioni con:
 
-* Session name
-* Start and end dates
-* Status (active, upcoming, past)
+* Nome della sessione
+* Date di inizio e fine
+* Stato (attiva, in arrivo, passata)
 
-Use search and filters to find sessions by name, date, category, or status.
+Utilizza la ricerca e i filtri per trovare sessioni per nome, data, categoria o stato.
 
-## Editing a Session
+## Modifica di una Sessione
 
-Click on a session to edit:
+Clicca su una sessione per modificarla:
 
-* Change dates, name, or category
-* Add or remove courses
-* Change course coaches
-* Add or remove learners
-* View tracking data for the session
+* Cambia date, nome o categoria
+* Aggiungi o rimuovi corsi
+* Cambia i coach dei corsi
+* Aggiungi o rimuovi studenti
+* Visualizza i dati di monitoraggio della sessione
 
-## Enrolling Users
+## Iscrizione degli Utenti
 
-![The session enrollment interface for adding individual users, classes, or importing via CSV](/.gitbook/assets/admin-session-enrollment.png)
+![L'interfaccia di iscrizione alla sessione per aggiungere utenti individuali, classi o importare tramite CSV](/.gitbook/assets/admin-session-enrollment.png)
 
-You can enroll users in a session by:
+Puoi iscrivere utenti a una sessione tramite:
 
-* **Individual enrollment** — Search for and add individual users
-* **Class enrollment** — Add an entire class (group of pre-defined users) at once
-* **CSV import** — Upload a file with user-session assignments
+* **Iscrizione individuale** — Cerca e aggiungi utenti singoli
+* **Iscrizione di classe** — Aggiungi un'intera classe (gruppo di utenti predefiniti) in una sola volta
+* **Importazione CSV** — Carica un file con le assegnazioni utente-sessione
 
-## Session Access
+## Accesso alla Sessione
 
-Learners access their sessions through **My sessions** in the sidebar. Sessions are organized into:
+Gli studenti accedono alle loro sessioni tramite **Le mie sessioni** nella barra laterale. Le sessioni sono organizzate in:
 
-* **Current sessions** — Currently active
-* **Past sessions** — Ended
-* **Upcoming sessions** — Not yet started
+* **Sessioni correnti** — Attualmente attive
+* **Sessioni passate** — Terminate
+* **Sessioni in arrivo** — Non ancora iniziate
 
-## Tips
+## Suggerimenti
 
-* **Plan dates carefully** — Make sure coach access dates extend beyond learner dates so coaches can set up and follow up
-* **Use classes for recurring enrollment** — If you frequently enroll the same groups, create classes and assign them to sessions
-* **Keep sessions organized** — Use categories and clear naming conventions for easy management
+* **Pianifica attentamente le date** — Assicurati che le date di accesso dei coach siano più ampie rispetto a quelle degli studenti, così i coach possono preparare e seguire la sessione
+* **Usa le classi per iscrizioni ricorrenti** — Se iscrivi spesso gli stessi gruppi, crea classi e assegnali alle sessioni
+* **Mantieni le sessioni organizzate** — Usa categorie e convenzioni di denominazione chiare per una gestione più semplice

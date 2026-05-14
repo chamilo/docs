@@ -1,22 +1,22 @@
-# Chamilo 2.0 Documentation
+# Documentazione di Chamilo 2.0
 
-Welcome to the official documentation for **Chamilo 2.0**, the open-source e-learning platform.
+Benvenuti alla documentazione ufficiale di **Chamilo 2.0**, la piattaforma di e-learning open-source.
 
-This documentation is organized into three guides, each tailored to a specific audience:
+Questa documentazione è organizzata in tre guide, ciascuna pensata per un pubblico specifico:
 
-* [**Teacher Guide**](teacher-guide/) — For instructors and trainers: create courses, add content, assess learners, and track progress.
-* [**Administration Guide**](admin-guide/) — For platform administrators: install, configure, and manage the Chamilo platform.
-* [**Developer Guide**](developer-guide/) — For developers: understand the architecture, build plugins, use the API, and contribute to the project.
+* [**Guida per gli Insegnanti**](teacher-guide/) — Per istruttori e formatori: creare corsi, aggiungere contenuti, valutare gli studenti e monitorare i progressi.
+* [**Guida per gli Amministratori**](admin-guide/) — Per gli amministratori della piattaforma: installare, configurare e gestire la piattaforma Chamilo.
+* [**Guida per gli Sviluppatori**](developer-guide/) — Per gli sviluppatori: comprendere l'architettura, creare plugin, utilizzare l'API e contribuire al progetto.
 
-## What's New in Chamilo 2.0
+## Novità in Chamilo 2.0
 
-Chamilo 2.0 is a major release with a completely redesigned interface and many new features:
+Chamilo 2.0 è una versione principale con un'interfaccia completamente ridisegnata e molte nuove funzionalità:
 
-* **Modern interface** — Built with Vue 3 and PrimeVue for a faster, more responsive experience
-* **AI-powered tools** — Generate exercises, learning paths, and get AI-assisted grading
-* **REST API** — Full API Platform-based REST API with JWT authentication
-* **New authentication options** — OAuth2 (Azure, Keycloak, Facebook), SCIM user provisioning
-* **LTI 1.3** — Connect external learning tools seamlessly
-* **Cloud storage** — Native support for Azure Blob, AWS S3, and Google Cloud Storage
-* **Color themes** — Customizable platform branding with theme support
-* **OnlyOffice integration** — Edit documents collaboratively within the platform
+* **Interfaccia moderna** — Realizzata con Vue 3 e PrimeVue per un'esperienza più veloce e reattiva
+* **Strumenti basati sull'IA** — Genera esercizi, percorsi di apprendimento e ottieni valutazioni assistite dall'IA
+* **REST API** — API REST completa basata su API Platform con autenticazione JWT
+* **Nuove opzioni di autenticazione** — OAuth2 (Azure, Keycloak, Facebook), provisioning utenti SCIM
+* **LTI 1.3** — Collega strumenti di apprendimento esterni in modo fluido
+* **Archiviazione cloud** — Supporto nativo per Azure Blob, AWS S3 e Google Cloud Storage
+* **Temi di colore** — Personalizzazione del branding della piattaforma con supporto per i temi
+* **Integrazione con OnlyOffice** — Modifica documenti in modo collaborativo all'interno della piattaforma

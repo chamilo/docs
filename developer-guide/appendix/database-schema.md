@@ -1,92 +1,92 @@
-# Database Schema
+# Schema del Database
 
-Chamilo 2.0 maps a large set of Doctrine entities to database tables. The exact counts drift between releases — read the entity directories listed below for the current state.
+Chamilo 2.0 mappa un ampio insieme di entità Doctrine a tabelle del database. I conteggi esatti variano tra le versioni — consulta le directory delle entità elencate di seguito per lo stato attuale.
 
-## Entity locations
+## Posizioni delle Entità
 
-| Bundle | Where | Prefix |
+| Bundle | Dove | Prefisso |
 |--------|-------|--------|
-| CoreBundle | `src/CoreBundle/Entity/` | None (e.g., `user`, `course`, `session`) |
-| CourseBundle | `src/CourseBundle/Entity/` | `c_` (e.g., `c_document`, `c_quiz`, `c_lp`) |
+| CoreBundle | `src/CoreBundle/Entity/` | Nessuno (ad esempio, `user`, `course`, `session`) |
+| CourseBundle | `src/CourseBundle/Entity/` | `c_` (ad esempio, `c_document`, `c_quiz`, `c_lp`) |
 | LtiBundle | `src/LtiBundle/Entity/` | `lti_` |
 
-## Key Tables
+## Tabelle Principali
 
-### User and Authentication
+### Utenti e Autenticazione
 
-| Table | Purpose |
+| Tabella | Scopo |
 |-------|---------|
-| `user` | User accounts |
-| `access_url` | Multi-URL portals |
-| `access_url_rel_user` | User-portal assignments |
-| `usergroup` | Platform-wide user groups |
+| `user` | Account utente |
+| `access_url` | Portali multi-URL |
+| `access_url_rel_user` | Assegnazioni utente-portale |
+| `usergroup` | Gruppi utente a livello di piattaforma |
 
-### Courses
+### Corsi
 
-| Table | Purpose |
+| Tabella | Scopo |
 |-------|---------|
-| `course` | Courses |
-| `course_category` | Course categories |
-| `course_rel_user` | Course enrollments |
+| `course` | Corsi |
+| `course_category` | Categorie di corsi |
+| `course_rel_user` | Iscrizioni ai corsi |
 
-### Sessions
+### Sessioni
 
-| Table | Purpose |
+| Tabella | Scopo |
 |-------|---------|
-| `session` | Training sessions |
-| `session_rel_user` | Session enrollments |
-| `session_rel_course` | Courses in sessions |
-| `session_rel_course_rel_user` | User enrollment per session-course |
+| `session` | Sessioni di formazione |
+| `session_rel_user` | Iscrizioni alle sessioni |
+| `session_rel_course` | Corsi nelle sessioni |
+| `session_rel_course_rel_user` | Iscrizione utente per sessione-corso |
 
-### Resource System
+### Sistema delle Risorse
 
-| Table | Purpose |
+| Tabella | Scopo |
 |-------|---------|
-| `resource_node` | Unified content abstraction |
-| `resource_file` | File attachments |
-| `resource_link` | Visibility/access per context |
-| `resource_type` | Resource type registry |
+| `resource_node` | Astrazione unificata dei contenuti |
+| `resource_file` | Allegati file |
+| `resource_link` | Visibilità/accesso per contesto |
+| `resource_type` | Registro dei tipi di risorsa |
 
-### Course Content (c_ prefix)
+### Contenuti del Corso (prefisso c_)
 
-| Table | Purpose |
+| Tabella | Scopo |
 |-------|---------|
-| `c_document` | Documents |
-| `c_quiz` | Exercises/tests |
-| `c_quiz_question` | Quiz questions |
-| `c_quiz_answer` | Question answers |
-| `c_lp` | Learning paths |
-| `c_lp_item` | Learning path items |
-| `c_forum_category` | Forum categories |
-| `c_forum_forum` | Forums |
-| `c_forum_thread` | Forum threads |
-| `c_forum_post` | Forum posts |
-| `c_student_publication` | Assignments/submissions |
-| `c_survey` | Surveys |
-| `c_glossary` | Glossary terms |
-| `c_calendar_event` | Calendar events |
-| `c_attendance` | Attendance sheets |
+| `c_document` | Documenti |
+| `c_quiz` | Esercizi/test |
+| `c_quiz_question` | Domande dei quiz |
+| `c_quiz_answer` | Risposte alle domande |
+| `c_lp` | Percorsi di apprendimento |
+| `c_lp_item` | Elementi dei percorsi di apprendimento |
+| `c_forum_category` | Categorie del forum |
+| `c_forum_forum` | Forum |
+| `c_forum_thread` | Discussioni del forum |
+| `c_forum_post` | Post del forum |
+| `c_student_publication` | Compiti/consegne |
+| `c_survey` | Sondaggi |
+| `c_glossary` | Termini del glossario |
+| `c_calendar_event` | Eventi del calendario |
+| `c_attendance` | Fogli di presenza |
 
-### Tracking
+### Monitoraggio
 
-| Table | Purpose |
+| Tabella | Scopo |
 |-------|---------|
-| `track_e_login` | Login tracking |
-| `track_e_online` | Online user tracking |
-| `track_e_default` | Generic activity tracking |
-| `gradebook_category` | Gradebook categories |
-| `gradebook_result` | Grades |
+| `track_e_login` | Monitoraggio degli accessi |
+| `track_e_online` | Monitoraggio degli utenti online |
+| `track_e_default` | Monitoraggio generico delle attività |
+| `gradebook_category` | Categorie del registro dei voti |
+| `gradebook_result` | Voti |
 
-### Settings
+### Impostazioni
 
-| Table | Purpose |
+| Tabella | Scopo |
 |-------|---------|
-| `settings` | Platform settings |
-| `settings_options` | Setting option definitions |
+| `settings` | Impostazioni della piattaforma |
+| `settings_options` | Definizioni delle opzioni di impostazione |
 
-## Migrations
+## Migrazioni
 
-Database schema changes are managed through Doctrine Migrations in `src/CoreBundle/Migrations/`. Run migrations with:
+Le modifiche allo schema del database sono gestite tramite Doctrine Migrations in `src/CoreBundle/Migrations/`. Esegui le migrazioni con:
 
 ```bash
 php bin/console doctrine:migrations:migrate

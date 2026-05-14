@@ -1,32 +1,31 @@
-# Glossary Settings
+# Impostazioni del Glossario
 
-Behaviour of the course **Glossary** tool.
+Comportamento dello strumento **Glossario** del corso.
 
-Access these settings under **Administration > Configuration settings > Glossary**. This category contains **3 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+Accedi a queste impostazioni tramite **Amministrazione > Impostazioni di configurazione > Glossario**. Questa categoria contiene **3 impostazioni**, elencate di seguito con il titolo e il commento forniti nei dati di configurazione della piattaforma (`SettingsCurrentFixtures.php`).
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> Il nome della variabile nel codice è mostrato in monospace. Utilizzalo quando scrivi script tramite l'API o quando devi modificare queste impostazioni a livello globale editando [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
 
-## Settings
+## Impostazioni
 
 ### `allow_remove_tags_in_glossary_export`
 
-**Remove HTML tags in glossary export**
+**Rimuovi i tag HTML nell'esportazione del glossario**
 
-When enabled, HTML tags are removed from glossary term definitions when exporting.
+Quando abilitato, i tag HTML vengono rimossi dalle definizioni dei termini del glossario durante l'esportazione.
 
 *Default: `false`*
 
 ### `default_glossary_view`
 
-**Default glossary view**
+**Visualizzazione predefinita del glossario**
 
-Choose which view ('table' or 'list') will be used by default in the glossary tool.
+Scegli quale visualizzazione ('table' o 'list') verrà utilizzata come predefinita nello strumento glossario.
 
 *Default: `table`*
 
 ### `show_glossary_in_extra_tools`
 
-**Show the glossary terms in extra tools**
+**Mostra i termini del glossario negli strumenti extra**
 
-From here you can configure how to add the glossary terms in extra tools as learning path and exercice tool
-
+Da qui puoi configurare come aggiungere i termini del glossario negli strumenti extra come il percorso di apprendimento e lo strumento per gli esercizi.

@@ -1,31 +1,31 @@
-# Teacher Guide
+# Guida per gli Insegnanti
 
-Welcome to the Chamilo 2.0 Teacher Guide. This guide is designed for instructors, trainers, and anyone responsible for creating and delivering learning content through the Chamilo platform.
+Benvenuti alla Guida per gli Insegnanti di Chamilo 2.0. Questa guida è pensata per istruttori, formatori e chiunque sia responsabile della creazione e della distribuzione di contenuti formativi attraverso la piattaforma Chamilo.
 
-Whether you are setting up your first online course or managing a complex training program, this guide will walk you through every feature available to you as a teacher.
+Che tu stia configurando il tuo primo corso online o gestendo un programma di formazione complesso, questa guida ti accompagnerà attraverso ogni funzionalità disponibile per te come insegnante.
 
-## What You Can Do with Chamilo
+## Cosa Puoi Fare con Chamilo
 
-As a teacher in Chamilo, you can:
+Come insegnante in Chamilo, puoi:
 
-* **Create and organize courses** with a flexible homepage and customizable tools
-* **Add content** — upload documents, create learning paths, build glossaries, and link to external resources
-* **Assess your learners** — design exercises with multiple question types, collect assignments, run surveys, and manage grades
-* **Collaborate** — set up forums, group work, wikis, blogs, and live video sessions
-* **Track progress** — monitor learner activity, generate reports, and award certificates
-* **Use AI tools** — generate exercises and learning paths automatically, and get AI-assisted grading
+* **Creare e organizzare corsi** con una homepage flessibile e strumenti personalizzabili
+* **Aggiungere contenuti** — caricare documenti, creare percorsi di apprendimento, costruire glossari e collegare risorse esterne
+* **Valutare i tuoi studenti** — progettare esercizi con diversi tipi di domande, raccogliere compiti, condurre sondaggi e gestire i voti
+* **Collaborare** — impostare forum, lavori di gruppo, wiki, blog e sessioni video dal vivo
+* **Monitorare i progressi** — seguire l'attività degli studenti, generare report e assegnare certificati
+* **Utilizzare strumenti di intelligenza artificiale** — generare esercizi e percorsi di apprendimento automaticamente e ottenere assistenza nella valutazione tramite AI
 
-## How This Guide Is Organized
+## Come è Organizzata Questa Guida
 
-This guide follows the natural workflow of building and running a course:
+Questa guida segue il flusso di lavoro naturale per costruire e gestire un corso:
 
-1. **Getting Started** — Log in, navigate the interface, and set up your profile
-2. **Creating Your Course** — Create a new course, configure its settings, and customize the homepage
-3. **Adding Content** — Upload documents, organize learning paths, and manage resources
-4. **Assessing Learners** — Build tests, collect assignments, run surveys, and set up the gradebook
-5. **Collaboration and Communication** — Enable forums, chat, groups, wiki, and video conferencing
-6. **Tracking and Reporting** — Monitor learner progress and generate reports
-7. **AI Tools** — Use AI-powered features to generate content and assist with grading
-8. **Additional Tools** — Agenda, notebook, portfolio, and more
+1. **Primi Passi** — Accedi, naviga nell'interfaccia e configura il tuo profilo
+2. **Creazione del Tuo Corso** — Crea un nuovo corso, configura le sue impostazioni e personalizza la homepage
+3. **Aggiunta di Contenuti** — Carica documenti, organizza percorsi di apprendimento e gestisci le risorse
+4. **Valutazione degli Studenti** — Costruisci test, raccogli compiti, conduci sondaggi e imposta il registro dei voti
+5. **Collaborazione e Comunicazione** — Abilita forum, chat, gruppi, wiki e videoconferenze
+6. **Monitoraggio e Report** — Segui i progressi degli studenti e genera report
+7. **Strumenti di Intelligenza Artificiale** — Utilizza funzionalità basate su AI per generare contenuti e assistere nella valutazione
+8. **Strumenti Aggiuntivi** — Agenda, blocco note, portfolio e altro ancora
 
-Let's get started.
+Iniziamo.

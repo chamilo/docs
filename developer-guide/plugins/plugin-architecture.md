@@ -1,42 +1,42 @@
-# Plugin Architecture
+# Architettura dei Plugin
 
-## Plugin Location
+## Posizione dei Plugin
 
-Plugins are stored in `public/plugin/`. Each plugin has its own directory:
+I plugin sono memorizzati in `public/plugin/`. Ogni plugin ha la propria directory:
 
 ```
 public/plugin/
-├── Bbb/                    # BigBlueButton integration
-├── Zoom/                   # Zoom integration
-├── Onlyoffice/             # OnlyOffice document editing
+├── Bbb/                    # Integrazione con BigBlueButton
+├── Zoom/                   # Integrazione con Zoom
+├── Onlyoffice/             # Modifica documenti con OnlyOffice
 ├── XApi/                   # xAPI/Tin Can
-├── ...                     # bundled plugins ship under public/plugin/
+├── ...                     # i plugin inclusi sono forniti sotto public/plugin/
 ```
 
-## Plugin Structure
+## Struttura dei Plugin
 
-A typical plugin directory contains:
+Una tipica directory di un plugin contiene:
 
 ```
 public/plugin/MyPlugin/
-├── plugin.php              # REQUIRED — assigns $plugin_info
-├── install.php             # Installation script
-├── uninstall.php           # Uninstallation script
-├── index.php               # Region rendering entry point (if applicable)
-├── admin.php               # Admin interface (optional)
-├── lang/                   # Translation files (locale codes: en_US.php, fr_FR.php, …)
+├── plugin.php              # OBBLIGATORIO — assegna $plugin_info
+├── install.php             # Script di installazione
+├── uninstall.php           # Script di disinstallazione
+├── index.php               # Punto di ingresso per il rendering della regione (se applicabile)
+├── admin.php               # Interfaccia di amministrazione (opzionale)
+├── lang/                   # File di traduzione (codici locali: en_US.php, fr_FR.php, …)
 ├── src/
-│   ├── MyPluginPlugin.php        # Main plugin class (extends Plugin)
-│   ├── Entity/                   # Doctrine entities (auto-discovered)
-│   ├── Repository/               # Doctrine repositories
-│   └── EventSubscriber/          # Symfony event subscribers (auto-registered)
-├── templates/              # Twig templates
-└── resources/              # CSS/JS assets
+│   ├── MyPluginPlugin.php        # Classe principale del plugin (estende Plugin)
+│   ├── Entity/                   # Entità Doctrine (rilevate automaticamente)
+│   ├── Repository/               # Repository Doctrine
+│   └── EventSubscriber/          # Sottoscrittori di eventi Symfony (registrati automaticamente)
+├── templates/              # Template Twig
+└── resources/              # Risorse CSS/JS
 ```
 
-## Plugin Class
+## Classe del Plugin
 
-Each plugin extends the `Plugin` base class (`public/main/inc/lib/plugin.class.php`) and follows the singleton pattern:
+Ogni plugin estende la classe base `Plugin` (`public/main/inc/lib/plugin.class.php`) e segue il pattern singleton:
 
 ```php
 class MyPluginPlugin extends Plugin
@@ -55,27 +55,27 @@ class MyPluginPlugin extends Plugin
 }
 ```
 
-### Key Class Properties
+### Proprietà Chiave della Classe
 
-| Property | Type | Effect |
-|----------|------|--------|
-| `$isCoursePlugin` | bool | Registers the plugin as a course tool |
-| `$isAdminPlugin` | bool | Adds an admin interface page |
-| `$isMailPlugin` | bool | Integrates with the mail system |
-| `$addCourseTool` | bool | Adds an icon to the course homepage |
-| `$course_settings` | array | Defines per-course configuration fields |
+| Proprietà | Tipo | Effetto |
+|-----------|------|---------|
+| `$isCoursePlugin` | bool | Registra il plugin come strumento del corso |
+| `$isAdminPlugin` | bool | Aggiunge una pagina di interfaccia di amministrazione |
+| `$isMailPlugin` | bool | Si integra con il sistema di posta |
+| `$addCourseTool` | bool | Aggiunge un'icona alla homepage del corso |
+| `$course_settings` | array | Definisce i campi di configurazione per corso |
 
-## Plugin Lifecycle
+## Ciclo di Vita del Plugin
 
-1. **Installation** — The admin activates the plugin, which runs `install.php`
-2. **Configuration** — Settings are defined and managed through the admin panel; stored in `access_url_rel_plugin` (supports multi-tenant)
-3. **Execution** — The plugin injects content into display regions or reacts to platform events
-4. **Deactivation** — The plugin is disabled but its data is preserved
-5. **Uninstallation** — Runs `uninstall.php` to clean up data and tables
+1. **Installazione** — L'amministratore attiva il plugin, che esegue `install.php`
+2. **Configurazione** — Le impostazioni sono definite e gestite tramite il pannello di amministrazione; memorizzate in `access_url_rel_plugin` (supporta multi-tenant)
+3. **Esecuzione** — Il plugin inserisce contenuti nelle regioni di visualizzazione o reagisce agli eventi della piattaforma
+4. **Disattivazione** — Il plugin viene disabilitato ma i suoi dati vengono conservati
+5. **Disinstallazione** — Esegue `uninstall.php` per ripulire dati e tabelle
 
-## Display Regions
+## Regioni di Visualizzazione
 
-Plugins inject HTML into 18 predefined regions of the Vue frontend by overriding `renderRegion()`:
+I plugin inseriscono HTML in 18 regioni predefinite del frontend Vue sovrascrivendo `renderRegion()`:
 
 ```php
 public function renderRegion(string $region): string
@@ -83,19 +83,19 @@ public function renderRegion(string $region): string
     if ('footer_left' !== $region) {
         return '';
     }
-    return '<p>My Plugin footer content</p>';
+    return '<p>Contenuto del footer del mio plugin</p>';
 }
 ```
 
-Available regions: `content_bottom`, `content_top`, `course_tool_plugin`, `footer_center`, `footer_left`, `footer_right`, `header_center`, `header_left`, `header_main`, `header_right`, `login_bottom`, `login_top`, `main_bottom`, `main_top`, `menu_administrator`, `menu_bottom`, `menu_top`, `pre_footer`.
+Regioni disponibili: `content_bottom`, `content_top`, `course_tool_plugin`, `footer_center`, `footer_left`, `footer_right`, `header_center`, `header_left`, `header_main`, `header_right`, `login_bottom`, `login_top`, `main_bottom`, `main_top`, `menu_administrator`, `menu_bottom`, `menu_top`, `pre_footer`.
 
-## Symfony Integration
+## Integrazione con Symfony
 
-### Event Subscribers
+### Sottoscrittori di Eventi
 
-Files ending in `EventSubscriber.php` placed inside `src/EventSubscriber/` are auto-registered via `PluginEventSubscriberPass`. They implement `EventSubscriberInterface` and react to events defined in `src/CoreBundle/Event/Events.php`.
+I file che terminano con `EventSubscriber.php` collocati in `src/EventSubscriber/` vengono registrati automaticamente tramite `PluginEventSubscriberPass`. Implementano `EventSubscriberInterface` e reagiscono agli eventi definiti in `src/CoreBundle/Event/Events.php`.
 
-Because the plugin class (`MyPluginPlugin`) is not a Symfony service, it cannot be autowired into the subscriber constructor. Use the `create()` singleton instead:
+Poiché la classe del plugin (`MyPluginPlugin`) non è un servizio Symfony, non può essere iniettata automaticamente nel costruttore del sottoscrittore. Utilizzare invece il singleton `create()`:
 
 ```php
 class MyPluginEventSubscriber implements EventSubscriberInterface
@@ -109,13 +109,13 @@ class MyPluginEventSubscriber implements EventSubscriberInterface
 }
 ```
 
-### Doctrine Entities
+### Entità Doctrine
 
-Doctrine entities placed in `src/Entity/` are auto-discovered by `PluginEntityPass`. Use PHP 8 attributes for mapping. The namespace must follow `Chamilo\PluginBundle\{PluginName}`. Use unique table name prefixes (e.g., `my_plugin_*`) to avoid collisions.
+Le entità Doctrine collocate in `src/Entity/` vengono rilevate automaticamente da `PluginEntityPass`. Utilizzare gli attributi di PHP 8 per il mapping. Il namespace deve seguire `Chamilo\PluginBundle\{PluginName}`. Utilizzare prefissi univoci per i nomi delle tabelle (ad esempio, `my_plugin_*`) per evitare collisioni.
 
-### PluginHelper Service
+### Servizio PluginHelper
 
-For accessing plugin state from core Symfony services, inject `PluginHelper` rather than instantiating the plugin class directly:
+Per accedere allo stato dei plugin dai servizi core di Symfony, iniettare `PluginHelper` anziché istanziare direttamente la classe del plugin:
 
 ```php
 use Chamilo\CoreBundle\Helpers\PluginHelper;
@@ -133,23 +133,23 @@ class SomeService
 }
 ```
 
-Available methods:
+Metodi disponibili:
 
-| Method | Purpose |
-|--------|---------|
-| `isPluginEnabled(string $name): bool` | Check if a plugin is installed and active for the current access URL |
-| `loadLegacyPlugin(string $name): ?object` | Instantiate and return the plugin singleton |
-| `getPluginSetting(string $name, string $key): mixed` | Read a single plugin setting value |
-| `getPluginOverrides(string $name): array` | Get `plugin.yaml` overrides (defaults + access-URL-specific) for a plugin |
+| Metodo | Scopo |
+|--------|-------|
+| `isPluginEnabled(string $name): bool` | Verifica se un plugin è installato e attivo per l'URL di accesso corrente |
+| `loadLegacyPlugin(string $name): ?object` | Istanzia e restituisce il singleton del plugin |
+| `getPluginSetting(string $name, string $key): mixed` | Legge un singolo valore di impostazione del plugin |
+| `getPluginOverrides(string $name): array` | Ottiene le override di `plugin.yaml` (predefinite + specifiche per URL di accesso) per un plugin |
 
-## Core File References
+## Riferimenti ai File Core
 
-| File | Purpose |
-|------|---------|
-| `public/main/inc/lib/plugin.class.php` | Plugin base class |
-| `public/main/inc/lib/plugin.lib.php` | Plugin manager |
-| `src/CoreBundle/Entity/Plugin.php` | Plugin Doctrine entity |
-| `src/CoreBundle/Helpers/PluginHelper.php` | PluginHelper service |
-| `src/CoreBundle/Event/Events.php` | Event constants |
-| `public/plugin/HelloWorld/` | Minimal example plugin |
-| `public/plugin/TopLinks/` | Simple example plugin |
+| File | Scopo |
+|------|-------|
+| `public/main/inc/lib/plugin.class.php` | Classe base del plugin |
+| `public/main/inc/lib/plugin.lib.php` | Gestore dei plugin |
+| `src/CoreBundle/Entity/Plugin.php` | Entità Doctrine del plugin |
+| `src/CoreBundle/Helpers/PluginHelper.php` | Servizio PluginHelper |
+| `src/CoreBundle/Event/Events.php` | Costanti degli eventi |
+| `public/plugin/HelloWorld/` | Esempio minimo di plugin |
+| `public/plugin/TopLinks/` | Esempio semplice di plugin |
