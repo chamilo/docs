@@ -1,43 +1,43 @@
-# Your Profile
+# Uw Profiel
 
-Your profile in Chamilo contains your personal information and preferences. Other users on the platform can see parts of your profile depending on your visibility settings.
+Uw profiel in Chamilo bevat uw persoonlijke informatie en voorkeuren. Andere gebruikers op het platform kunnen delen van uw profiel zien, afhankelijk van uw zichtbaarheidsinstellingen.
 
-## Accessing Your Profile
+## Toegang tot Uw Profiel
 
-Click your **avatar** in the top-right corner of the top bar, then select **Profile** from the dropdown menu. You can also access it from the **Social network** section of the sidebar.
+Klik op uw **avatar** in de rechterbovenhoek van de bovenste balk en selecteer vervolgens **Profiel** uit het vervolgkeuzemenu. U kunt er ook toegang toe krijgen via de sectie **Sociaal netwerk** in de zijbalk.
 
-![The user avatar dropdown menu showing profile, account settings, and sign-out options](/.gitbook/assets/user-avatar-dropdown.png)
+![Het vervolgkeuzemenu van de gebruikersavatar met opties voor profiel, accountinstellingen en afmelden](/.gitbook/assets/user-avatar-dropdown.png)
 
-## Profile Information
+## Profielinformatie
 
-Your profile page might show (depending on configuration):
+Uw profielpagina kan het volgende tonen (afhankelijk van de configuratie):
 
-* **Avatar** — Your profile picture. Click **Edit profile** to change it.
-* **Full name** — Your first and last name as registered on the platform.
-* **Email** — Your email address. Other users can click it to send you a message within Chamilo.
-* **Language** — Your preferred language.
-* **Additional fields** — Depending on your platform's configuration, you may see fields such as phone number, Skype handle, LinkedIn profile link, or custom fields defined by your administrator.
+* **Avatar** — Uw profielfoto. Klik op **Profiel bewerken** om deze te wijzigen.
+* **Volledige naam** — Uw voor- en achternaam zoals geregistreerd op het platform.
+* **E-mail** — Uw e-mailadres. Andere gebruikers kunnen erop klikken om u een bericht te sturen binnen Chamilo.
+* **Taal** — Uw voorkeurstaal.
+* **Aanvullende velden** — Afhankelijk van de configuratie van uw platform kunt u velden zien zoals telefoonnummer, Skype-gebruikersnaam, LinkedIn-profiel-link of aangepaste velden die door uw beheerder zijn gedefinieerd.
 
-## Editing Your Profile
+## Uw Profiel Bewerken
 
-To update your profile information, click **Edit profile**. Here you can:
+Om uw profielinformatie bij te werken, klikt u op **Profiel bewerken**. Hier kunt u:
 
-* Change your name, email, and password
-* Upload or change your avatar/picture
-* Update your preferred language
-* Fill in additional profile fields (Skype, LinkedIn, etc.)
-* Configure notification preferences
+* Uw naam, e-mailadres en wachtwoord wijzigen
+* Uw avatar/foto uploaden of wijzigen
+* Uw voorkeurstaal bijwerken
+* Aanvullende profielvelden invullen (Skype, LinkedIn, enz.)
+* Notificatievoorkeuren configureren
 
-To change your password, click **Change Password**. For security reasons, you will need to give your current password and your new password twice.
+Om uw wachtwoord te wijzigen, klikt u op **Wachtwoord wijzigen**. Om veiligheidsredenen moet u uw huidige wachtwoord opgeven en uw nieuwe wachtwoord tweemaal invoeren.
 
-If your administrator has enabled the **two-factor authentication** option (`2fa_enable`) for the platform, your profile will let you turn on 2FA for your own account using a TOTP authenticator app (Google Authenticator, Authy, 1Password, etc.). Once enabled, the login flow will ask for the time-based 6-digit code in addition to your password.
+Als uw beheerder de optie voor **tweestapsverificatie** (`2fa_enable`) voor het platform heeft ingeschakeld, kunt u in uw profiel 2FA voor uw eigen account activeren met een TOTP-authenticatie-app (Google Authenticator, Authy, 1Password, enz.). Eenmaal ingeschakeld, zal het inlogproces naast uw wachtwoord ook om een tijdgebonden 6-cijferige code vragen.
 
-## Personal Data
+## Persoonlijke Gegevens
 
-Under **Social network** > **Personal Data**, you can review all the information Chamilo stores about you. This section includes:
+Onder **Sociaal netwerk** > **Persoonlijke Gegevens** kunt u alle informatie bekijken die Chamilo over u opslaat. Deze sectie omvat:
 
-* A summary of all data collected, organized by category
-* If enabled by your organization, your acceptance status for the platform's **Terms and Conditions**
-* If enabled by your organization, an option to **withdraw your consent** or **delete account**, which will trigger an account deletion request that your administrator will process
+* Een overzicht van alle verzamelde gegevens, georganiseerd per categorie
+* Indien ingeschakeld door uw organisatie, uw acceptatiestatus voor de **Algemene Voorwaarden** van het platform
+* Indien ingeschakeld door uw organisatie, een optie om **uw toestemming in te trekken** of **account te verwijderen**, wat een verzoek tot accountverwijdering activeert dat uw beheerder zal verwerken
 
-> This feature is provided to comply with data protection regulations. Contact your administrator if you have questions about how your data is handled.
+> Deze functie is voorzien om te voldoen aan regelgeving inzake gegevensbescherming. Neem contact op met uw beheerder als u vragen heeft over hoe uw gegevens worden behandeld.

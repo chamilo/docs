@@ -1,79 +1,79 @@
-# Forums Settings
+# Forum Instellingen
 
-Behaviour of the course **Forums** tool.
+Gedrag van de cursus **Forums** tool.
 
-Access these settings under **Administration > Configuration settings > Forums**. This category contains **9 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+Toegang tot deze instellingen via **Beheer > Configuratie-instellingen > Forums**. Deze categorie bevat **9 instellingen**, hieronder opgesomd met de titel en opmerking zoals meegeleverd in de platforminstellingen fixtures (`SettingsCurrentFixtures.php`).
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> De variabelenaam in code wordt weergegeven in monospace. Gebruik deze bij het scripten via de API of wanneer u deze instellingen op globaal niveau wilt wijzigen door [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml) te bewerken.
 
-## Settings
+## Instellingen
 
 ### `allow_forum_category_language_filter`
 
-**Forum categories language filter**
+**Taal filter voor forumcategorieën**
 
-Add a language filter to the forum view to only see categries configured in a specific language. Requires using the 'language' extra field on the 'forum_category' entity.
+Voeg een taalfilter toe aan de forumweergave om alleen categorieën te zien die zijn geconfigureerd in een specifieke taal. Vereist het gebruik van het 'language' extra veld op de 'forum_category' entiteit.
 
-*Default: `false`*
+*Standaard: `false`*
 
 ### `allow_forum_post_revisions`
 
-**Forum post review**
+**Beoordeling van forumberichten**
 
-Enable this option to allow asking for a review or a translation to one's post in a forum. When extensively configured, can be used to collaborate with other users in a language-learning forum.
+Schakel deze optie in om het aanvragen van een beoordeling of vertaling van een eigen bericht in een forum mogelijk te maken. Bij uitgebreide configuratie kan dit worden gebruikt om samen te werken met andere gebruikers in een taal leerforum.
 
-*Default: `false`*
+*Standaard: `false`*
 
 ### `community_managers_user_list`
 
-**Community managers list**
+**Lijst van community managers**
 
-Provide an array of user IDs that will be considered community managers in the special course designated as global forum. Community managers have additional privileges on the global forum.
+Geef een array van gebruikers-ID's die worden beschouwd als community managers in de speciale cursus die is aangewezen als globaal forum. Community managers hebben extra privileges op het globale forum.
 
 ### `default_forum_view`
 
-**Default forum view**
+**Standaard forumweergave**
 
-What should be the default option when creating a new forum. Any trainer can however choose a different view for every individual forum
+Wat moet de standaardoptie zijn bij het aanmaken van een nieuw forum. Elke trainer kan echter een andere weergave kiezen voor elk individueel forum.
 
-*Default: `flat`*
+*Standaard: `flat`*
 
 ### `display_groups_forum_in_general_tool`
 
-**Display group forums in general forum**
+**Groepsforums weergeven in algemeen forum**
 
-Display group forums in the forum tool at the course level. This option is enabled by default (in this case, group forum individual visibilities still act as an additional criteria). If disabled, group forums will only be visible through the group tool, be them public or not.
+Toon groepsforums in de forumtool op cursusniveau. Deze optie is standaard ingeschakeld (in dit geval fungeren individuele zichtbaarheden van groepsforums nog steeds als extra criterium). Indien uitgeschakeld, zijn groepsforums alleen zichtbaar via de groepstool, ongeacht of ze openbaar zijn of niet.
 
-*Default: `true`*
+*Standaard: `true`*
 
 ### `forum_fold_categories`
 
-**Fold forum categories**
+**Forumcategorieën inklappen**
 
-Visual effect to enable forum categories folding/unfolding.
+Visueel effect om het inklappen/uitklappen van forumcategorieën mogelijk te maken.
 
-*Default: `false`*
+*Standaard: `false`*
 
 ### `global_forums_course_id`
 
-**Use course as global forum**
+**Cursus gebruiken als globaal forum**
 
-Set the course ID (numerical) of a course reserverd to use as a global forum. This replaces the 'Social groups' link in the social network by a link to the forum of that course.
+Stel de cursus-ID (numeriek) in van een cursus die gereserveerd is om te gebruiken als globaal forum. Dit vervangt de 'Sociale groepen' link in het sociale netwerk door een link naar het forum van die cursus.
 
-*Default: `0`*
+*Standaard: `0`*
 
 ### `hide_forum_post_revision_language`
 
-**Hide forum post review language**
+**Taal van forumberichtbeoordeling verbergen**
 
-Hide the possibility to assign a language to a forum post review.
+Verberg de mogelijkheid om een taal toe te wijzen aan een forumberichtbeoordeling.
 
-*Default: `false`*
+*Standaard: `false`*
 
 ### `subscribe_users_to_forum_notifications_also_in_base_course`
 
-**Forum notifications from base course as well**
+**Forum notificaties ook van basiscursus**
 
-Enable this option to enable notifications coming from the base course forum, even if following the course through a session.
+Schakel deze optie in om notificaties van het basiscursusforum mogelijk te maken, zelfs als de cursus via een sessie wordt gevolgd.
 
-*Default: `false`*
+*Standaard: `false`*

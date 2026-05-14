@@ -1,418 +1,409 @@
-# Learning Paths Settings
+# Instellingen voor Leertrajecten
 
-Defaults and behaviour of the **Learning Paths** tool — autostart, default view, prerequisites, SCORM behaviour and similar.
+Standaardinstellingen en gedrag van de **Leertrajecten**-tool — automatisch starten, standaardweergave, vereisten, SCORM-gedrag en vergelijkbare opties.
 
-Access these settings under **Administration > Configuration settings > Learning Paths**. This category contains **51 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+Ga naar deze instellingen via **Beheer > Configuratie-instellingen > Leertrajecten**. Deze categorie bevat **51 instellingen**, hieronder opgesomd met de titel en opmerking zoals meegeleverd in de platforminstellingen (`SettingsCurrentFixtures.php`).
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> De variabelenaam in de code wordt in monospace weergegeven. Gebruik deze bij het scripten via de API of wanneer u deze instellingen op globaal niveau wilt wijzigen door [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml) te bewerken.
 
-## Settings
+## Instellingen
 
 ### `add_all_files_in_lp_export`
 
-**Export all files when exporting a learning path**
+**Exporteer alle bestanden bij het exporteren van een leertraject**
 
-When exporting a LP, all files and folders in the same path of an html will be exported too.
+Bij het exporteren van een leertraject worden ook alle bestanden en mappen in hetzelfde pad van een HTML-bestand geëxporteerd.
 
-*Default: `false`*
-
+*Standaard: `false`*
 
 ### `allow_htaccess_import_from_scorm`
 
-**Allow .htaccess from SCORM packages**
+**Sta .htaccess toe vanuit SCORM-pakketten**
 
-Normally, all .htaccess files are filtered and removed when importing content in Chamilo. This feature allows .htaccess to be imported if it is present in a SCORM package.
+Normaal gesproken worden alle .htaccess-bestanden gefilterd en verwijderd bij het importeren van inhoud in Chamilo. Deze functie maakt het mogelijk om .htaccess te importeren als deze aanwezig is in een SCORM-pakket.
 
-*Default: `false`*
-
+*Standaard: `false`*
 
 ### `allow_import_scorm_package_in_course_builder`
 
-**SCORM import within course import**
+**SCORM-import bij cursusimport**
 
-Enable to copy the directory structure of SCORM packages when restoring a course (from the course maintenance tool).
+Schakel in om de mapstructuur van SCORM-pakketten te kopiëren bij het herstellen van een cursus (via de cursusonderhoudstool).
 
-*Default: `false`*
-
+*Standaard: `false`*
 
 ### `allow_lp_chamilo_export`
 
-**Export learning paths in the Chamilo backup format**
+**Exporteer leertrajecten in het Chamilo-back-upformaat**
 
-Enable the possibility to export any of your learning paths in a Chamilo course backup format.
+Schakel de mogelijkheid in om uw leertrajecten te exporteren in een Chamilo-cursusback-upformaat.
 
-*Default: `false`*
-
+*Standaard: `false`*
 
 ### `allow_lp_return_link`
 
-**Show learning paths return link**
+**Toon terugkeerlink voor leertrajecten**
 
-Disable this option to hide the 'Return to homepage' button in the learning paths
+Schakel deze optie uit om de knop 'Terug naar startpagina' in de leertrajecten te verbergen.
 
-*Default: `true`*
-
+*Standaard: `true`*
 
 ### `allow_lp_subscription_to_usergroups`
 
-**Learning paths subscription for classes**
+**Abonnement op leertrajecten voor klassen**
 
-Enable subscription to learning paths and learning path categories to groups/classes.
+Schakel abonnementen op leertrajecten en leertrajectcategorieën in voor groepen/klassen.
 
-*Default: `false`*
-
+*Standaard: `false`*
 
 ### `allow_session_lp_category`
 
-**Learning paths categories can be managed in sessions**
+**Leertrajectcategorieën kunnen worden beheerd in sessies**
 
-[inferred] Enable learners and instructors to organize and manage learning paths by categories within session courses.
+[afgeleid] Schakel in dat leerlingen en docenten leertrajecten per categorie kunnen organiseren en beheren binnen sessiecursussen.
 
-*Default: `false`*
-
+*Standaard: `false`*
 
 ### `allow_teachers_to_access_blocked_lp_by_prerequisite`
 
-**Teachers can access blocked learning paths**
+**Docenten hebben toegang tot geblokkeerde leertrajecten**
 
-Teachers do not need to pass complete learning paths to have access to a prerequisites-blocked learning path.
+Docenten hoeven geen volledige leertrajecten te voltooien om toegang te krijgen tot een leertraject dat door vereisten is geblokkeerd.
 
-*Default: `false`*
-
+*Standaard: `false`*
 
 ### `disable_js_in_lp_view`
 
-**Disable JS in learning paths view**
+**Schakel JS uit in de weergave van leertrajecten**
 
-Disable JS files that Chamilo usually adds to HTML files in the learning path (while displaying them).
+Schakel JS-bestanden uit die Chamilo normaal toevoegt aan HTML-bestanden in het leertraject (tijdens weergave).
 
-*Default: `false`*
-
+*Standaard: `false`*
 
 ### `disable_my_lps_page`
 
-**Hide 'My learning paths' page**
+**Verberg de pagina 'Mijn leertrajecten'**
 
-The page 'My learning path' was added in 1.11. Use this option to hide it.
+De pagina 'Mijn leertraject' is toegevoegd in versie 1.11. Gebruik deze optie om deze te verbergen.
 
-*Default: `false`*
+*Standaard: `false`*
 
 ### `download_files_after_all_lp_finished`
 
-**Download button after finishing learning paths**
+**Downloadknop na afronding van leertrajecten**
 
-Show download files button after finishing all LP. Example: if ABC is the course code, and 1 and 100 are the doc id, choose: ['courses' => ['ABC' => [1, 100]]].
+Toon de downloadknop voor bestanden na het afronden van alle leertrajecten. Voorbeeld: als ABC de cursuscode is, en 1 en 100 de document-ID's zijn, kies dan: ['courses' => ['ABC' => [1, 100]]].
 
 ### `force_edit_exercise_in_lp`
 
-**Edition of tests included in learning paths**
+**Bewerking van tests in leertrajecten**
 
-Enable editing tests even if they have been included in a learning path. The default is to prevent edition if the test is in a learning path, because that can affect consistency of tracking among many learners if test modifications are significant.
+Schakel het bewerken van tests in, zelfs als ze zijn opgenomen in een leertraject. Standaard wordt bewerking voorkomen als de test in een leertraject zit, omdat dit de consistentie van tracking bij veel leerlingen kan beïnvloeden bij significante wijzigingen.
 
-*Default: `false`*
+*Standaard: `false`*
 
 ### `hide_accessibility_label_on_lp_item`
 
-**Hide requirements label in learning paths**
+**Verberg vereistenlabel in leertrajecten**
 
-Hide the pre-requisites tooltip on learning path items. This is mostly an estaethic choice.
+Verberg de tooltip voor vereisten op leertrajectitems. Dit is voornamelijk een esthetische keuze.
 
-*Default: `true`*
+*Standaard: `true`*
 
 ### `hide_lp_time`
 
-**Hide time from learning paths records**
+**Verberg tijd van leertrajectrecords**
 
-Hide learning paths time spent in reports in general.
+Verberg de tijd die aan leertrajecten is besteed in rapportages in het algemeen.
 
-*Default: `false`*
+*Standaard: `false`*
 
 ### `hide_scorm_copy_link`
 
-**Hide SCORM Copy**
+**Verberg SCORM-kopie**
 
-Hide the Learning Path Copy icon from the Learning Paths list
+Verberg het kopieerpictogram voor leertrajecten in de lijst met leertrajecten.
 
-*Default: `false`*
+*Standaard: `false`*
 
 ### `hide_scorm_export_link`
 
-**Hide SCORM Export**
+**Verberg SCORM-export**
 
-Hide the SCORM Export icon from the Learning Paths list
+Verberg het exportpictogram voor SCORM in de lijst met leertrajecten.
 
-*Default: `false`*
+*Standaard: `false`*
 
 ### `hide_scorm_pdf_link`
 
-**Hide Learning Path PDF export**
+**Verberg PDF-export van leertrajecten**
 
-Hide the Learning Path PDF Export icon from the Learning Paths list
+Verberg het PDF-exportpictogram voor leertrajecten in de lijst met leertrajecten.
 
-*Default: `true`*
+*Standaard: `true`*
 
 ### `lp_allow_export_to_students`
 
-**Learners can export learning paths**
+**Leerlingen kunnen leertrajecten exporteren**
 
-Enable this to allow learners to download the learning paths as SCORM packages.
+Schakel dit in om leerlingen toe te staan leertrajecten als SCORM-pakketten te downloaden.
 
-*Default: `false`*
+*Standaard: `false`*
 
 ### `lp_enable_flow`
 
-**Navigate between learning paths**
+**Navigeer tussen leertrajecten**
 
-Add the possibility to select a 'next' learning path and show buttons inside the learning path to move from one to the next.
+Voeg de mogelijkheid toe om een 'volgend' leertraject te selecteren en toon knoppen binnen het leertraject om van het ene naar het andere te gaan.
 
-*Default: `false`*
+*Standaard: `false`*
 
 ### `lp_fixed_encoding`
 
-**Fixed encoding in learning path**
+**Vaste codering in leertraject**
 
-Reduce resource usage by ignoring a check on the text encoding in imported learning paths.
+Verminder het gebruik van bronnen door een controle op de tekstcodering in geïmporteerde leertrajecten te negeren.
 
-*Default: `false`*
+*Standaard: `false`*
 
 ### `lp_item_prerequisite_dates`
 
-**Date-based learning path items prerequisites**
+**Datumgebaseerde vereisten voor leertrajectitems**
 
-Adds the option to define prerequisites with start and end dates for learnpath items.
+Voegt de optie toe om vereisten met start- en einddatums te definiëren voor leertrajectitems.
 
-*Default: `false`*
+*Standaard: `false`*
 
+---
 ### `lp_menu_location`
 
-**Learning path menu location**
+**Locatie van het leerpadmenu**
 
-Set this to 'left' or 'right' to change the side of the learning path menu.
+Stel dit in op 'left' of 'right' om de kant van het leerpadmenu te wijzigen.
 
-*Default: `left`*
+*Standaard: `left`*
 
 ### `lp_minimum_time`
 
-**Minimum time to complete learning path**
+**Minimale tijd om een leerpad te voltooien**
 
-Add a minimum time field to learning paths. If the user has not spent that much time on the learning path, the last item of the learning path cannot be completed.
+Voeg een veld voor minimale tijd toe aan leerpaden. Als de gebruiker niet zoveel tijd aan het leerpad heeft besteed, kan het laatste item van het leerpad niet worden voltooid.
 
-*Default: `false`*
+*Standaard: `false`*
 
 ### `lp_prerequisit_on_quiz_unblock_if_max_attempt_reached`
 
-**Unlock learning path item if max attempt is reached for test prerequisite**
+**Leerpaditem ontgrendelen als het maximale aantal pogingen voor een toetsvereiste is bereikt**
 
-[inferred] Automatically unlock subsequent learning path items when a learner exhausts maximum quiz attempts for a prerequisite test.
-
+[inferred] Automatisch volgende leerpaditems ontgrendelen wanneer een leerling het maximale aantal toetspogingen voor een vereiste toets heeft uitgeput.
 
 ### `lp_prerequisite_on_quiz_unblock_if_max_attempt_reached`
 
-**Unlock prerequisites after last test attempt**
+**Vereisten ontgrendelen na de laatste toetspoging**
 
-Allows users to continue in a learning path after using all quiz attempts of a test used as prerequisite for other items.
+Hiermee kunnen gebruikers doorgaan in een leerpad nadat ze alle toetspogingen voor een toets, die als vereiste voor andere items wordt gebruikt, hebben opgebruikt.
 
-*Default: `false`*
+*Standaard: `false`*
 
 ### `lp_prerequisite_use_last_attempt_only`
 
-**Use last score in learning path test prerequisites**
+**Alleen de laatste poging gebruiken voor toetsvereisten in leerpaden**
 
-When a test is used as prerequisite for an item in the learning path, use the last attempt of the test only as validation for the prerequisite (default is to use best attempt).
+Wanneer een toets als vereiste voor een item in het leerpad wordt gebruikt, alleen de laatste poging van de toets gebruiken als validatie voor de vereiste (standaard is de beste poging).
 
-*Default: `false`*
+*Standaard: `false`*
 
 ### `lp_prevents_beforeunload`
 
-**Prevent beforeunload JS event in learning path**
+**Voorkom beforeunload JS-event in leerpad**
 
-This helps with browser compatibility by preventing tricky JS events to execute.
+Dit helpt bij browsercompatibiliteit door te voorkomen dat lastige JS-events worden uitgevoerd.
 
-*Default: `false`*
+*Standaard: `false`*
 
 ### `lp_score_as_progress_enable`
 
-**Use learning path score as progress**
+**Leerpadscore gebruiken als voortgang**
 
-This is useful when using SCORM content with only one large SCO. SCORM does not communicate progress, so this is a trick to use the score as progress. Enabling this option will let you configure this on a per-learning path basis.
+Dit is nuttig bij het gebruik van SCORM-inhoud met slechts één grote SCO. SCORM communiceert geen voortgang, dus dit is een truc om de score als voortgang te gebruiken. Het inschakelen van deze optie stelt u in staat dit per leerpad te configureren.
 
-*Default: `false`*
+*Standaard: `false`*
 
 ### `lp_show_max_progress_instead_of_average`
 
-**Show max progress instead of average for learning paths reporting**
+**Maximale voortgang tonen in plaats van gemiddelde voor leerpadrapportage**
 
-[inferred] Calculate learning path progress based on maximum item completion rather than averaging all items.
+[inferred] Bereken de voortgang van het leerpad op basis van de maximale voltooiing van items in plaats van het gemiddelde van alle items.
 
-*Default: `false`*
+*Standaard: `false`*
 
 ### `lp_show_max_progress_or_average_enable_course_level_redefinition`
 
-**Select max progress vs average for learning paths at course level**
+**Maximale voortgang versus gemiddelde selecteren voor leerpaden op cursusniveau**
 
-Enable redefinition of the setting to show the best progress instead of averages in reporting of learnpaths at a course level.
+Schakel de mogelijkheid in om de instelling voor het tonen van de beste voortgang in plaats van gemiddelden in rapportages van leerpaden op cursusniveau opnieuw te definiëren.
 
-*Default: `false`*
+*Standaard: `false`*
 
 ### `lp_show_reduced_report`
 
-**Learning paths: show reduced report**
+**Leerpaden: toon verkort rapport**
 
-Inside the learning paths tool, when a user reviews his own progress (through the stats icon), show a shorten (less detailed) version of the progress report.
+Binnen de leerpadtool, wanneer een gebruiker zijn eigen voortgang bekijkt (via het statistiekenpictogram), toon een verkorte (minder gedetailleerde) versie van het voortgangsrapport.
 
-*Default: `false`*
+*Standaard: `false`*
 
 ### `lp_start_and_end_date_visible_in_student_view`
 
-**Display learning path availability to learners**
+**Beschikbaarheid van leerpad tonen aan leerlingen**
 
-Show learning paths to learners with their availability dates, rather than hiding them until the date comes.
+Toon leerpaden aan leerlingen met hun beschikbaarheidsdata, in plaats van ze te verbergen tot de datum aanbreekt.
 
-*Default: `false`*
+*Standaard: `false`*
 
 ### `lp_subscription_settings`
 
-**Learning paths subscription settings**
+**Inschrijvingsinstellingen voor leerpaden**
 
-Configure additional options for the learning paths subscription feature. Options include 'allow_add_users_to_lp' and 'allow_add_users_to_lp_category'.
+Configureer aanvullende opties voor de inschrijvingsfunctie van leerpaden. Opties omvatten 'allow_add_users_to_lp' en 'allow_add_users_to_lp_category'.
 
 ### `lp_view_accordion`
 
-**Foldable learning paths' items**
+**Opvouwbare leerpaditems**
 
-[inferred] Display learning path items in collapsible accordion format for improved navigation and content organization.
+[inferred] Toon leerpaditems in een opvouwbaar accordeonformaat voor verbeterde navigatie en inhoudsorganisatie.
 
-*Default: `false`*
+*Standaard: `false`*
 
 ### `lp_view_settings`
 
-**Learning path display settings**
+**Weergave-instellingen voor leerpaden**
 
-Configure additional options for the learning paths display. Options include 'show_reporting_icon', 'hide_lp_arrow_navigation', 'show_toolbar_by_default', 'navigation_in_the_middle' and 'add_extra_quit_to_home_icon'.
+Configureer aanvullende opties voor de weergave van leerpaden. Opties omvatten 'show_reporting_icon', 'hide_lp_arrow_navigation', 'show_toolbar_by_default', 'navigation_in_the_middle' en 'add_extra_quit_to_home_icon'.
 
 ### `scorm_api_extrafield_to_use_as_student_id`
 
-**Use extra field as student\_id in SCORM communication**
+**Extra veld gebruiken als student_id in SCORM-communicatie**
 
-Give the name of the extra field to be used as student_id for all SCORM communication.
+Geef de naam van het extra veld dat gebruikt moet worden als student_id voor alle SCORM-communicatie.
 
 ### `scorm_api_username_as_student_id`
 
-**Use username as student\_id in SCORM communication**
+**Gebruikersnaam gebruiken als student_id in SCORM-communicatie**
 
-[inferred] Use learner username as the student identifier in SCORM API communication instead of learner ID.
+[inferred] Gebruik de gebruikersnaam van de leerling als de studentidentificatie in SCORM API-communicatie in plaats van de leerling-ID.
 
-*Default: `false`*
+*Standaard: `false`*
 
 ### `scorm_lms_update_sco_status_all_time`
 
-**Update SCO status autonomously**
+**SCO-status autonoom bijwerken**
 
-If the SCO is not sending a status, take over and update the status based on what can be observed in Chamilo.
+Als de SCO geen status verzendt, neem het over en werk de status bij op basis van wat in Chamilo kan worden waargenomen.
 
-*Default: `false`*
+*Standaard: `false`*
 
 ### `scorm_upload_from_cache`
 
-**Upload SCORM from cache dir**
+**SCORM uploaden vanuit cachemap**
 
-Allow admins to upload a SCORM package (in zip form) into the cache directory and to use it as import source on the SCORM upload page.
+Sta beheerders toe om een SCORM-pakket (in zip-vorm) te uploaden naar de cachemap en dit te gebruiken als importbron op de SCORM-uploadpagina.
 
-*Default: `false`*
+*Standaard: `false`*
 
 ### `show_hidden_exercise_added_to_lp`
 
-**Display tests from learning paths even if invisible**
+**Toetsen uit leerpaden tonen, zelfs als ze onzichtbaar zijn**
 
-Show hidden exercises that were added to a LP in the exercise list. If we are in a session, the test is invisible in the base course, it is included in a LP and the setting to show it is not specifically set to true, then hide it.
+Toon verborgen oefeningen die aan een leerpad zijn toegevoegd in de oefeningenlijst. Als we in een sessie zijn, de toets onzichtbaar is in de basiscursus, deze is opgenomen in een leerpad en de instelling om deze te tonen niet specifiek op true is ingesteld, verberg deze dan.
 
-*Default: `true`*
+*Standaard: `true`*
 
 ### `show_invisible_exercise_in_lp_list`
 
-**Display tests in list of learning path tests even if invisible**
+**Toetsen tonen in de lijst met leerpadtoetsen, zelfs als ze onzichtbaar zijn**
 
-[inferred] Include hidden tests in the list of available tests when viewing learning path contents.
+[inferred] Voeg verborgen toetsen toe aan de lijst met beschikbare toetsen bij het bekijken van de inhoud van leerpaden.
 
-*Default: `false`*
+*Standaard: `false`*
 
+---
 ### `show_invisible_exercise_in_lp_toc`
 
-**Invisible tests visible in learning paths**
+**Onzichtbare tests zichtbaar in leerpaden**
 
-Make tests marked as 'invisible' in the tests tool appear when they are included in a learning path.
+Maak tests die als 'onzichtbaar' zijn gemarkeerd in de testtool zichtbaar wanneer ze zijn opgenomen in een leerpad.
 
-*Default: `false`*
+*Standaard: `false`*
 
 ### `show_invisible_lp_in_course_home`
 
-**Display link to learning path on course home when invisible**
+**Link naar leerpad weergeven op cursusstartpagina wanneer onzichtbaar**
 
-If a learning path is set to invisible but the teacher/coach decided to make it available from the course homepage, this option prevents Chamilo from hiding the link on the course homepage.
+Als een leerpad is ingesteld als onzichtbaar, maar de docent/coach heeft besloten om het beschikbaar te maken vanaf de cursusstartpagina, voorkomt deze optie dat Chamilo de link op de cursusstartpagina verbergt.
 
-*Default: `false`*
+*Standaard: `false`*
 
 ### `show_prerequisite_as_blocked`
 
-**Learning path's prerequisites**
+**Voorwaarden voor leerpaden**
 
-On the learning paths lists, display a visual element to show that other learning paths are currently blocked by some prerequisites rule.
+Toon op de lijst met leerpaden een visueel element om aan te geven dat andere leerpaden momenteel geblokkeerd zijn door een voorwaardelijke regel.
 
-*Default: `false`*
+*Standaard: `false`*
 
 ### `student_follow_page_add_LP_acquisition_info`
 
-**Add acquisition column in learner follow-up**
+**Kolom voor acquisitiestatus toevoegen aan leerlingopvolging**
 
-Add column to learner follow-up page to show acquisition status by a learner on a learning path.
+Voeg een kolom toe aan de leerlingopvolgingspagina om de acquisitiestatus van een leerling op een leerpad weer te geven.
 
-*Default: `false`*
+*Standaard: `false`*
 
 ### `student_follow_page_add_LP_invisible_checkbox`
 
-**Add visibility information for learning paths on learner follow-up page**
+**Zichtbaarheidsinformatie voor leerpaden toevoegen aan leerlingopvolgingspagina**
 
-[inferred] Display visibility status indicator for learning paths on the learner progress tracking page.
+[afgeleid] Toon een indicator voor de zichtbaarheidsstatus van leerpaden op de voortgangsvolgpagina van de leerling.
 
-*Default: `false`*
+*Standaard: `false`*
 
 ### `student_follow_page_add_LP_subscription_info`
 
-**Unlocked information in learning paths list**
+**Informatie over ontgrendeling in leerpadenlijst**
 
-This adds an 'unlocked' column in the learning paths list if the learner is subscribed to the given learning path and has access to it.
+Dit voegt een kolom 'ontgrendeld' toe aan de leerpadenlijst als de leerling is ingeschreven voor het betreffende leerpad en er toegang toe heeft.
 
-*Default: `false`*
+*Standaard: `false`*
 
 ### `student_follow_page_hide_lp_tests_average`
 
-**Hide percentage sign in average of tests in learning paths in learner follow-up**
+**Procentteken verbergen in gemiddelde van tests in leerpaden op leerlingopvolging**
 
-Hides the icon of percentage in 'Average of tests in Learning Paths' indication on a student tracking
+Verbergt het procentteken in de aanduiding 'Gemiddelde van tests in leerpaden' op de volgpagina van een leerling.
 
-*Default: `false`*
+*Standaard: `false`*
 
 ### `student_follow_page_include_not_subscribed_lp_students`
 
-**Include learning paths not subscribed to on learner follow-up page**
+**Leerpaden opnemen waarvoor niet is ingeschreven op leerlingopvolgingspagina**
 
-[inferred] Show learning paths on progress pages even when learners are not subscribed to them.
+[afgeleid] Toon leerpaden op voortgangspagina's, zelfs als leerlingen er niet voor zijn ingeschreven.
 
-*Default: `false`*
+*Standaard: `false`*
 
 ### `ticket_lp_quiz_info_add`
 
-**Add learning paths and tests info to ticket reporting**
+**Informatie over leerpaden en tests toevoegen aan ticketrapportage**
 
-[inferred] Include learning path and test information in support ticket reporting for better issue tracking.
+[afgeleid] Voeg informatie over leerpaden en tests toe aan de rapportage van ondersteuningstickets voor betere probleemopvolging.
 
-*Default: `false`*
+*Standaard: `false`*
 
 ### `validate_lp_prerequisite_from_other_session`
 
-**Use learning path item status from other sessions**
+**Status van leerpaditem uit andere sessies gebruiken**
 
-Allow users to complete prerequisites in a learning path if the corresponding item was already completed in another session.
+Sta gebruikers toe om voorwaarden in een leerpad te voltooien als het overeenkomstige item al in een andere sessie is voltooid.
 
-*Default: `false`*
-
+*Standaard: `false`*

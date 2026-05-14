@@ -1,75 +1,75 @@
-# Managing Sessions
+# Sessies beheren
 
-## Creating a Session
+## Een sessie aanmaken
 
-![The session creation form with fields for name, dates, coach, category, and visibility](/.gitbook/assets/admin-session-create-form.png)
+![Het formulier voor het aanmaken van een sessie met velden voor naam, datums, coach, categorie en zichtbaarheid](/.gitbook/assets/admin-session-create-form.png)
 
-1. From the administration panel, click **Create a session**
-2. Fill in the session details:
-   * **Session name** — A descriptive name (e.g., "Spring 2026 Onboarding")
-   * **Start and end dates** — When the session runs (optional — sessions can be open-ended). There are 3 sets of dates: Dates to display, dates to limit learners access and dates to limit coaches access
-   * **Session coach** — The person overseeing the entire session
-   * **Category** — Assign to a session category for organization
-   * **Visibility** — Control access and listing behavior
-3. **Add courses** — Select one or more courses to include in the session
-4. **Enroll learners** — Add individual users or classes of users
-5. **Assign course coaches** — For each course, assign a teacher (course coach)
-6. Save
+1. Klik in het beheerderspaneel op **Een sessie aanmaken**
+2. Vul de sessiegegevens in:
+   * **Sessienaam** — Een beschrijvende naam (bijv. "Voorjaar 2026 Introductie")
+   * **Start- en einddatums** — Wanneer de sessie plaatsvindt (optioneel — sessies kunnen open-ended zijn). Er zijn 3 sets datums: datums om weer te geven, datums om de toegang van leerlingen te beperken en datums om de toegang van coaches te beperken
+   * **Sessiecoach** — De persoon die de hele sessie overziet
+   * **Categorie** — Wijs toe aan een sessiecategorie voor organisatie
+   * **Zichtbaarheid** — Beheer de toegang en het weergavegedrag
+3. **Cursussen toevoegen** — Selecteer een of meer cursussen om in de sessie op te nemen
+4. **Leerlingen inschrijven** — Voeg individuele gebruikers of klassen van gebruikers toe
+5. **Cursuscoaches toewijzen** — Wijs voor elke cursus een docent (cursuscoach) toe
+6. Opslaan
 
-## Session Dates
+## Sessiedatums
 
-Sessions support flexible date configuration:
+Sessies ondersteunen flexibele datumconfiguratie:
 
-| Date | Purpose |
-|------|---------|
-| **Display start/end** | When the session appears in learner listings |
-| **Access start/end** | When learners can actually access the session content |
-| **Coach access start/end** | When coaches can access the session (often starts before and ends after learner access) |
+| Datum | Doel |
+|-------|------|
+| **Weergave start/einde** | Wanneer de sessie verschijnt in de lijst voor leerlingen |
+| **Toegang start/einde** | Wanneer leerlingen daadwerkelijk toegang hebben tot de sessie-inhoud |
+| **Coach toegang start/einde** | Wanneer coaches toegang hebben tot de sessie (vaak begint eerder en eindigt later dan de toegang voor leerlingen) |
 
-This allows you to prepare the session before learners arrive and keep coach access open after the session ends for grading and reporting.
+Dit stelt u in staat om de sessie voor te bereiden voordat leerlingen arriveren en de toegang voor coaches open te houden na afloop van de sessie voor beoordeling en rapportage.
 
-## Session List
+## Sessielijst
 
-![The session list showing all sessions with name, dates, course count, learner count, and status](/.gitbook/assets/admin-session-list.png)
+![De sessielijst met alle sessies, inclusief naam, datums, aantal cursussen, aantal leerlingen en status](/.gitbook/assets/admin-session-list.png)
 
-The session list shows all sessions with:
+De sessielijst toont alle sessies met:
 
-* Session name
-* Start and end dates
-* Status (active, upcoming, past)
+* Sessienaam
+* Start- en einddatums
+* Status (actief, aankomend, afgelopen)
 
-Use search and filters to find sessions by name, date, category, or status.
+Gebruik zoekfuncties en filters om sessies te vinden op naam, datum, categorie of status.
 
-## Editing a Session
+## Een sessie bewerken
 
-Click on a session to edit:
+Klik op een sessie om te bewerken:
 
-* Change dates, name, or category
-* Add or remove courses
-* Change course coaches
-* Add or remove learners
-* View tracking data for the session
+* Wijzig datums, naam of categorie
+* Voeg cursussen toe of verwijder ze
+* Wijzig cursuscoaches
+* Voeg leerlingen toe of verwijder ze
+* Bekijk trackinggegevens voor de sessie
 
-## Enrolling Users
+## Gebruikers inschrijven
 
-![The session enrollment interface for adding individual users, classes, or importing via CSV](/.gitbook/assets/admin-session-enrollment.png)
+![De interface voor sessie-inschrijving om individuele gebruikers, klassen toe te voegen of te importeren via CSV](/.gitbook/assets/admin-session-enrollment.png)
 
-You can enroll users in a session by:
+U kunt gebruikers inschrijven voor een sessie door:
 
-* **Individual enrollment** — Search for and add individual users
-* **Class enrollment** — Add an entire class (group of pre-defined users) at once
-* **CSV import** — Upload a file with user-session assignments
+* **Individuele inschrijving** — Zoek en voeg individuele gebruikers toe
+* **Klasinschrijving** — Voeg een hele klas (groep van vooraf gedefinieerde gebruikers) in één keer toe
+* **CSV-import** — Upload een bestand met gebruikers-sessie toewijzingen
 
-## Session Access
+## Sessietoegang
 
-Learners access their sessions through **My sessions** in the sidebar. Sessions are organized into:
+Leerlingen krijgen toegang tot hun sessies via **Mijn sessies** in de zijbalk. Sessies zijn onderverdeeld in:
 
-* **Current sessions** — Currently active
-* **Past sessions** — Ended
-* **Upcoming sessions** — Not yet started
+* **Huidige sessies** — Momenteel actief
+* **Afgelopen sessies** — Beëindigd
+* **Aankomende sessies** — Nog niet gestart
 
 ## Tips
 
-* **Plan dates carefully** — Make sure coach access dates extend beyond learner dates so coaches can set up and follow up
-* **Use classes for recurring enrollment** — If you frequently enroll the same groups, create classes and assign them to sessions
-* **Keep sessions organized** — Use categories and clear naming conventions for easy management
+* **Plan datums zorgvuldig** — Zorg ervoor dat de toegangdatums voor coaches verder reiken dan die voor leerlingen, zodat coaches kunnen voorbereiden en opvolgen
+* **Gebruik klassen voor terugkerende inschrijvingen** — Als u vaak dezelfde groepen inschrijft, maak dan klassen aan en wijs deze toe aan sessies
+* **Houd sessies georganiseerd** — Gebruik categorieën en duidelijke naamconventies voor eenvoudig beheer

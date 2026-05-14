@@ -1,20 +1,20 @@
-# Portal Customization
+# Portaalpersonalisatie
 
-Customize how your Chamilo platform looks and what information is displayed to users.
+Pas aan hoe uw Chamilo-platform eruitziet en welke informatie aan gebruikers wordt getoond.
 
-## Platform Identity
+## Platformidentiteit
 
-![The portal customization page showing platform identity settings for name, logo, and institution](/.gitbook/assets/admin-portal-customization.png)
+![De portaalpersonalisatiepagina met platformidentiteitsinstellingen voor naam, logo en instelling](/.gitbook/assets/admin-portal-customization.png)
 
-Configure the basic identity of your portal:
+Configureer de basisidentiteit van uw portaal:
 
-* **Platform name** — The name shown in the browser title and throughout the interface
-* **Institution name** — Your organization's name
-* **Institution URL** — A link to your organization's website
-* **Platform logo** — Upload your organization's logo (displayed in the top bar)
+* **Platformnaam** — De naam die wordt weergegeven in de browsertitel en door de hele interface
+* **Instellingsnaam** — De naam van uw organisatie
+* **Instellings-URL** — Een link naar de website van uw organisatie
+* **Platformlogo** — Upload het logo van uw organisatie (weergegeven in de bovenste balk)
 
 ## Tips
 
-* **Keep the homepage clean** — Too much content on the homepage can be overwhelming. Focus on essential announcements and course access.
-* **Update regularly** — Keep system announcements current and remove outdated ones
-* **Upload a high-quality logo** — The logo is one of the most visible branding elements. Use a crisp, appropriately sized image.
+* **Houd de startpagina overzichtelijk** — Te veel inhoud op de startpagina kan overweldigend zijn. Focus op essentiële aankondigingen en toegang tot cursussen.
+* **Werk regelmatig bij** — Houd systeemaankondigingen actueel en verwijder verouderde berichten.
+* **Upload een logo van hoge kwaliteit** — Het logo is een van de meest zichtbare merkelementen. Gebruik een scherpe, passend formaat afbeelding.

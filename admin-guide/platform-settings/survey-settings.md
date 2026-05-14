@@ -1,111 +1,101 @@
-# Surveys Settings
+# Enquête-instellingen
 
-Defaults and behaviour of the **Surveys** tool.
+Standaardinstellingen en gedrag van de **Enquêtes**-tool.
 
-Access these settings under **Administration > Configuration settings > Surveys**. This category contains **12 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+Deze instellingen zijn toegankelijk via **Beheer > Configuratie-instellingen > Enquêtes**. Deze categorie bevat **12 instellingen**, hieronder opgesomd met de titel en opmerking zoals meegeleverd in de platforminstellingen (`SettingsCurrentFixtures.php`).
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> De variabelenaam in de code wordt weergegeven in monospace. Gebruik deze bij het scripten via de API of wanneer u deze instellingen op globaal niveau wilt wijzigen door [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml) te bewerken.
 
-## Settings
+## Instellingen
 
 ### `extend_rights_for_coach_on_survey`
 
-**Extend rights for coachs on surveys**
+**Uitbreiden van rechten voor coaches bij enquêtes**
 
-Activate this option will allow the coachs to create and edit surveys
+Het activeren van deze optie stelt coaches in staat om enquêtes aan te maken en te bewerken.
 
-*Default: `true`*
-
+*Standaard: `true`*
 
 ### `hide_survey_edition`
 
-**Prevent survey edition**
+**Enquêtebewerking voorkomen**
 
-Prevent editing surveys for all surveys listed here (by code). Use * to prevent edition of all surveys.
+Voorkom het bewerken van enquêtes voor alle hier vermelde enquêtes (op basis van code). Gebruik * om het bewerken van alle enquêtes te voorkomen.
 
 ### `hide_survey_reporting_button`
 
-**Hide survey reporting button**
+**Enquêterapportageknop verbergen**
 
-Allows admins to hide survey reporting button if surveys are used to survey teachers.
+Stelt beheerders in staat om de rapportageknop voor enquêtes te verbergen als enquêtes worden gebruikt om docenten te beoordelen.
 
-*Default: `false`*
-
+*Standaard: `false`*
 
 ### `show_pending_survey_in_menu`
 
-**Show "Pending surveys" in menu**
+**"Openstaande enquêtes" in menu weergeven**
 
-Display a menu item that lets users access their pending surveys.
+Toon een menu-item waarmee gebruikers toegang krijgen tot hun openstaande enquêtes.
 
-*Default: `false`*
-
+*Standaard: `false`*
 
 ### `show_surveys_base_in_sessions`
 
-**Display surveys from base course in all session courses**
+**Enquêtes van basiscursus weergeven in alle sessiecursussen**
 
-[inferred] Make surveys from the base course visible and available to learners in all related session courses.
+[inferred] Maak enquêtes van de basiscursus zichtbaar en beschikbaar voor leerlingen in alle gerelateerde sessiecursussen.
 
-*Default: `false`*
-
+*Standaard: `false`*
 
 ### `survey_additional_teacher_modify_actions`
 
-**Add additional actions (as links) to survey lists for teachers**
+**Extra acties (als links) toevoegen aan enquêtelijsten voor docenten**
 
-Add actions (usually connected to plugins) in the list of surveys. Use array syntax ['myplugin' => ['MyPlugin', 'urlGeneratorCallback']].
+Voeg acties toe (meestal verbonden met plugins) aan de lijst met enquêtes. Gebruik de array-syntaxis ['myplugin' => ['MyPlugin', 'urlGeneratorCallback']].
 
 ### `survey_allow_answered_question_edit`
 
-**Allow teachers to edit survey questions after students answered**
+**Docenten toestaan enquêtevragen te bewerken nadat studenten hebben geantwoord**
 
-[inferred] Allow instructors to modify survey questions even after learners have submitted responses.
+[inferred] Sta docenten toe om enquêtevragen te wijzigen, zelfs nadat leerlingen antwoorden hebben ingediend.
 
-*Default: `false`*
-
+*Standaard: `false`*
 
 ### `survey_anonymous_show_answered`
 
-**Allow teachers to see who answered in anonymous surveys**
+**Docenten toestaan te zien wie heeft geantwoord bij anonieme enquêtes**
 
-Allow teachers to see which learners have already answered an anonymous survey. This only appears once more than one user has answered, so it remains difficult to identify who answered what.
+Sta docenten toe om te zien welke leerlingen al hebben geantwoord op een anonieme enquête. Dit wordt pas weergegeven als meer dan één gebruiker heeft geantwoord, zodat het moeilijk blijft om te identificeren wie wat heeft geantwoord.
 
-*Default: `false`*
-
+*Standaard: `false`*
 
 ### `survey_backwards_enable`
 
-**Enable 'previous question' button in surveys**
+**Knop 'vorige vraag' inschakelen in enquêtes**
 
-[inferred] Enable a "previous question" navigation button to allow learners to review earlier survey questions.
+[inferred] Schakel een navigatieknop "vorige vraag" in om leerlingen in staat te stellen eerdere enquêtevragen te bekijken.
 
-*Default: `false`*
-
+*Standaard: `false`*
 
 ### `survey_duplicate_order_by_name`
 
-**Order by student name when using survey duplication feature**
+**Sorteren op studentnaam bij gebruik van enquête-duplicatiefunctie**
 
-The survey duplication feature is oriented towards teachers and is meant to ask teachers to give their appreciation about each student in order. This option will order the questions by learner's lastname.
+De enquête-duplicatiefunctie is gericht op docenten en is bedoeld om docenten te vragen hun waardering over elke student in volgorde te geven. Deze optie sorteert de vragen op de achternaam van de leerling.
 
-*Default: `true`*
-
+*Standaard: `true`*
 
 ### `survey_email_sender_noreply`
 
-**Survey e-mail sender (no-reply)**
+**Enquête e-mailafzender (no-reply)**
 
-Should the survey invitations use the coach e-mail address or the no-reply address defined in the main configuration section?
+Moeten de enquête-uitnodigingen het e-mailadres van de coach gebruiken of het no-reply-adres dat is gedefinieerd in de hoofdconfiguratiesectie?
 
-*Default: `coach`*
-
+*Standaard: `coach`*
 
 ### `survey_mark_question_as_required`
 
-**Mark all survey questions as 'required' by default**
+**Alle enquêtevragen standaard als 'verplicht' markeren**
 
-[inferred] Automatically mark all newly created survey questions as required responses by default.
+[inferred] Markeer automatisch alle nieuw aangemaakte enquêtevragen standaard als verplichte antwoorden.
 
-*Default: `false`*
-
+*Standaard: `false`*

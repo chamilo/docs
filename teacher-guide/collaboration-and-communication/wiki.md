@@ -1,59 +1,59 @@
 # Wiki
 
-The wiki tool lets you and your learners collaboratively create and edit web pages within the course. It is useful for group projects, shared knowledge bases, and collaborative writing exercises.
+De wiki-tool stelt u en uw leerlingen in staat om gezamenlijk webpagina's binnen de cursus te maken en te bewerken. Het is nuttig voor groepsprojecten, gedeelde kennisbanken en gezamenlijke schrijfoefeningen.
 
-## How the Wiki Works
+## Hoe de Wiki Werkt
 
-A wiki is a collection of interlinked web pages that anyone with permission can edit. In Chamilo:
+Een wiki is een verzameling van onderling verbonden webpagina's die door iedereen met toestemming bewerkt kunnen worden. In Chamilo:
 
-* Each course has its own wiki
-* Pages can be linked to each other using wiki-style links
-* All edits are tracked with a revision history
-* Previous versions can be compared and restored
+* Heeft elke cursus zijn eigen wiki
+* Kunnen pagina's aan elkaar worden gekoppeld met wiki-stijl links
+* Worden alle bewerkingen bijgehouden in een revisiegeschiedenis
+* Kunnen eerdere versies worden vergeleken en hersteld
 
-## Creating a Wiki Page
+## Een Wiki-pagina Maken
 
-1. Open the **Wiki** tool from the course homepage
-2. Click **Add a new page**
-3. Enter a **page title**
-4. Write the page content using the rich-text editor
-5. Save
+1. Open de **Wiki**-tool vanaf de cursusstartpagina
+2. Klik op **Nieuwe pagina toevoegen**
+3. Voer een **paginatitel** in
+4. Schrijf de inhoud van de pagina met behulp van de rich-text editor
+5. Sla op
 
-To link to another wiki page from within the editor, create a link using the target page's title.
+Om vanuit de editor naar een andere wiki-pagina te linken, maak een link met de titel van de doelpagina.
 
-## Editing Pages
+## Pagina's Bewerken
 
-Anyone with edit permissions can modify a wiki page:
+Iedereen met bewerkingsrechten kan een wiki-pagina aanpassen:
 
-1. Open the page you want to edit
-2. Click the **Edit** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Edit" data-size="line"> button
-3. Make your changes in the editor
-4. Add an optional **Comments** entry describing what you changed
-5. Save
+1. Open de pagina die u wilt bewerken
+2. Klik op de **Bewerken** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Bewerken" data-size="line"> knop
+3. Breng uw wijzigingen aan in de editor
+4. Voeg een optionele **Opmerkingen**-vermelding toe waarin u beschrijft wat u hebt gewijzigd
+5. Sla op
 
-## Revision History
+## Revisiegeschiedenis
 
-Every edit creates a new revision. You can:
+Elke bewerking creëert een nieuwe revisie. U kunt:
 
-* **View history** — See a list of all revisions with timestamps and authors
-* **Compare versions** — See what changed between two revisions
-* **Restore a version** — Revert the page to a previous revision if needed
+* **Geschiedenis bekijken** — Bekijk een lijst van alle revisies met tijdstempels en auteurs
+* **Versies vergelijken** — Zie wat er is veranderd tussen twee revisies
+* **Een versie herstellen** — Zet de pagina terug naar een eerdere revisie indien nodig
 
-## Managing the Wiki
+## De Wiki Beheren
 
-As the course teacher, you can:
+Als cursusdocent kunt u:
 
-* **View all pages** — See a list of all wiki pages in the course
-* **Find orphan pages** — Identify pages that are not linked from any other page
-* **Find wanted pages** — See pages that are linked to but do not yet exist
-* **Lock a page for editing** — Block all edits on a page while you finalise it
-* **Toggle visibility** — Hide a page from learners
-* **Delete pages** — Remove pages that are no longer needed
-* **Monitor contributions** — Review per-user statistics: most active editors, most edited pages, most visited pages
-* **Export** — Export a wiki page to PDF, or send it into the Documents tool
+* **Alle pagina's bekijken** — Bekijk een lijst van alle wiki-pagina's in de cursus
+* **Weespagina's vinden** — Identificeer pagina's die niet vanaf een andere pagina zijn gelinkt
+* **Gewenste pagina's vinden** — Zie pagina's waarnaar wordt gelinkt maar die nog niet bestaan
+* **Een pagina vergrendelen voor bewerking** — Blokkeer alle bewerkingen op een pagina terwijl u deze afrondt
+* **Zichtbaarheid aanpassen** — Verberg een pagina voor leerlingen
+* **Pagina's verwijderen** — Verwijder pagina's die niet langer nodig zijn
+* **Bijdragen monitoren** — Bekijk statistieken per gebruiker: meest actieve bewerkers, meest bewerkte pagina's, meest bezochte pagina's
+* **Exporteren** — Exporteer een wiki-pagina naar PDF, of stuur deze naar de Documenten-tool
 
 ## Tips
 
-* **Use the wiki for group projects** — Assign each group a wiki page to collaboratively build their deliverable
-* **Create a course knowledge base** — Build a reference wiki with key concepts, and encourage learners to contribute
-* **Review edit history** — The revision history lets you assess individual contributions in collaborative work
+* **Gebruik de wiki voor groepsprojecten** — Wijs elke groep een wiki-pagina toe om gezamenlijk hun eindproduct op te bouwen
+* **Maak een cursuskennisbank** — Bouw een referentie-wiki met kernconcepten en moedig leerlingen aan om bij te dragen
+* **Bekijk de bewerkingsgeschiedenis** — De revisiegeschiedenis stelt u in staat om individuele bijdragen in samenwerkingsprojecten te beoordelen

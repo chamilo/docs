@@ -1,33 +1,33 @@
-# Course Progress
+# Cursusvoortgang
 
-The course progress tool helps you define the thematic structure of your course and track how much of the planned content has been delivered.
+De tool voor cursusvoortgang helpt u bij het definiëren van de thematische structuur van uw cursus en het bijhouden van hoeveel van de geplande inhoud is behandeld.
 
-To students, it is a useful tool for those who have been sick for a few days and could not attend class, as they will known what topics have been talked about and how far the rest of the class has progressed in their absence.
+Voor studenten is het een nuttig hulpmiddel voor degenen die een paar dagen ziek zijn geweest en niet naar de les konden komen, omdat zij zullen weten welke onderwerpen zijn besproken en hoe ver de rest van de klas is gevorderd in hun afwezigheid.
 
-## How It Works
+## Hoe Het Werkt
 
-Course progress is organized into three layers:
+Cursusvoortgang is georganiseerd in drie lagen:
 
-* **Thematic sections** — The main topics or modules of your course
-* **Thematic plan** — For each section, what you intend to cover. Each plan entry is one of a fixed set of types: **Objectives**, **Skills to acquire**, **Methodology**, **Infrastructure**, **Assessment**, or **Others**.
-* **Thematic advance** — Discrete delivery records under each section, each with a start date and a duration in hours. Mark advances as **done** as you deliver them to track real progress against the plan.
+* **Thematische secties** — De belangrijkste onderwerpen of modules van uw cursus
+* **Thematisch plan** — Voor elke sectie, wat u van plan bent te behandelen. Elk planitem is een van een vaste set typen: **Doelstellingen**, **Te verwerven vaardigheden**, **Methodologie**, **Infrastructuur**, **Beoordeling**, of **Overige**.
+* **Thematische voortgang** — Afzonderlijke leveringsrecords onder elke sectie, elk met een startdatum en een duur in uren. Markeer voortgangen als **voltooid** terwijl u ze levert om de daadwerkelijke voortgang ten opzichte van het plan bij te houden.
 
-## Setting Up Course Progress
+## Cursusvoortgang Instellen
 
-1. Open the **Course progress** tool from the course homepage
-2. Create **thematic sections** that correspond to your course's main topics or modules
-3. Within each section, add **plan** entries by type to describe what you intend to cover
-4. As you deliver the content, add **thematic advances** with their date and duration, and mark them as done
-5. Decide the visibility of that information on the course homepage by changing the related settings in the **Course settings** section (cog icon at the top of the course homepage)
+1. Open de tool **Cursusvoortgang** vanaf de cursusstartpagina
+2. Maak **thematische secties** aan die overeenkomen met de belangrijkste onderwerpen of modules van uw cursus
+3. Voeg binnen elke sectie **planitems** toe per type om te beschrijven wat u van plan bent te behandelen
+4. Voeg, terwijl u de inhoud levert, **thematische voortgangen** toe met hun datum en duur, en markeer ze als voltooid
+5. Bepaal de zichtbaarheid van die informatie op de cursusstartpagina door de gerelateerde instellingen te wijzigen in de sectie **Cursusinstellingen** (tandwielpictogram bovenaan de cursusstartpagina)
 
-You can optionally link a thematic advance to an attendance sheet so its start date is pulled from your attendance records. Sections (with their plan and advances) can also be **copied** within the same course/session.
+U kunt optioneel een thematische voortgang koppelen aan een aanwezigheidslijst zodat de startdatum wordt overgenomen uit uw aanwezigheidsrecords. Secties (met hun plan en voortgangen) kunnen ook worden **gekopieerd** binnen dezelfde cursus/sessie.
 
-## Use Cases
+## Gebruiksscenario's
 
-* **Track your teaching plan** — Monitor which parts of the course have been delivered and which remain
-* **Attendance integration** — Course progress can work alongside the attendance tool to correlate presence with topics covered
-* **Reporting** — Get a clear view of course delivery status over time
+* **Volg uw lesplan** — Houd bij welke delen van de cursus zijn behandeld en welke nog moeten worden gedaan
+* **Integratie met aanwezigheid** — Cursusvoortgang kan samenwerken met de aanwezigheidstool om aanwezigheid te correleren met behandelde onderwerpen
+* **Rapportage** — Krijg een duidelijk overzicht van de status van cursuslevering in de loop van de tijd
 
-## For Learners
+## Voor Leerlingen
 
-Learners can view the course progress to understand the course structure and see what topics have been covered so far. This is particularly useful for learners who join late or miss sessions.
+Leerlingen kunnen de cursusvoortgang bekijken om de cursusstructuur te begrijpen en te zien welke onderwerpen tot nu toe zijn behandeld. Dit is bijzonder nuttig voor leerlingen die later instromen of sessies missen.

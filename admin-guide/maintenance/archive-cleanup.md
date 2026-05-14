@@ -1,23 +1,23 @@
-# Archive Cleanup
+# Archiefopruiming
 
-Over time, Chamilo accumulates temporary files in its cache and archive directories. Regular cleanup prevents disk space issues.
+Na verloop van tijd verzamelt Chamilo tijdelijke bestanden in de cache- en archiefmappen. Regelmatige opruiming voorkomt problemen met schijfruimte.
 
-## What Can Be Cleaned
+## Wat Kan Worden Opgeruimd
 
-* **Symfony cache** — Compiled templates, cached configuration, and routing data
-* **Temporary files** — Files generated during export, import, and other operations
-* **Session data** — Expired PHP session files
-* **Log files** — Old log files that are no longer needed
+* **Symfony cache** — Gecompileerde sjablonen, gecachte configuratie en routeringsgegevens
+* **Tijdelijke bestanden** — Bestanden die worden gegenereerd tijdens export, import en andere bewerkingen
+* **Sessiedata** — Verlopen PHP-sessiebestanden
+* **Logbestanden** — Oude logbestanden die niet langer nodig zijn
 
-## Performing Cleanup
+## Opruiming Uitvoeren
 
-### From the Administration Panel
+### Via het Beheerderspaneel
 
-Navigate to **Archive cleanup** in the administration panel. Click the cleanup button to remove temporary files.
+Navigeer naar **Archiefopruiming** in het beheerderspaneel. Klik op de opruimknop om tijdelijke bestanden te verwijderen.
 
-### From the Command Line
+### Via de Opdrachtregel
 
-For more control, use Symfony console commands:
+Voor meer controle kunt u Symfony-consolecommando's gebruiken:
 
 ```bash
 # Clear the Symfony cache
@@ -29,6 +29,6 @@ php bin/console cache:clear --env=prod
 
 ## Tips
 
-* **Schedule regular cleanups** — Set up a weekly or monthly cron job to clear temporary files
-* **Monitor disk usage** — Keep an eye on the `var/` directory size, as it grows with cache and log files
-* **Be careful with logs** — Before deleting log files, check if they contain information you might need for troubleshooting
+* **Plan regelmatige opruimingen** — Stel een wekelijkse of maandelijkse cron-taak in om tijdelijke bestanden op te ruimen
+* **Houd schijfgebruik in de gaten** — Let op de grootte van de map `var/`, aangezien deze groeit met cache- en logbestanden
+* **Wees voorzichtig met logs** — Controleer voordat u logbestanden verwijdert of ze informatie bevatten die u mogelijk nodig heeft voor probleemoplossing

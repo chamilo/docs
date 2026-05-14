@@ -1,10 +1,10 @@
-# Authentication
+# Authenticatie
 
-The Chamilo API uses **JWT (JSON Web Tokens)** for authentication, implemented via `lexik/jwt-authentication-bundle`.
+De Chamilo API gebruikt **JWT (JSON Web Tokens)** voor authenticatie, geïmplementeerd via `lexik/jwt-authentication-bundle`.
 
-## Obtaining a Token
+## Een Token Verkrijgen
 
-Send a POST request to the authentication endpoint:
+Stuur een POST-verzoek naar het authenticatie-eindpunt:
 
 ```
 POST /api/authentication_token
@@ -16,7 +16,7 @@ Content-Type: application/json
 }
 ```
 
-Response:
+Antwoord:
 
 ```json
 {
@@ -24,37 +24,37 @@ Response:
 }
 ```
 
-## Using the Token
+## Het Token Gebruiken
 
-Include the token in the `Authorization` header of subsequent requests:
+Voeg het token toe aan de `Authorization`-header van volgende verzoeken:
 
 ```
 GET /api/users
 Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9...
 ```
 
-## Token Lifecycle
+## Levenscyclus van het Token
 
-* Tokens have a configurable expiration time
-* When a token expires, the client must request a new one
-* JWT keys are stored in `config/jwt/` (private and public keys)
+* Tokens hebben een configureerbare vervaltijd
+* Wanneer een token verloopt, moet de client een nieuwe aanvragen
+* JWT-sleutels worden opgeslagen in `config/jwt/` (privé- en publieke sleutels)
 
-## Generating JWT Keys
+## JWT-sleutels Genereren
 
 ```bash
 php bin/console lexik:jwt:generate-keypair
 ```
 
-This creates:
-* `config/jwt/private.pem` — Private key for signing tokens
-* `config/jwt/public.pem` — Public key for verifying tokens
+Dit creëert:
+* `config/jwt/private.pem` — Privésleutel voor het ondertekenen van tokens
+* `config/jwt/public.pem` — Publieke sleutel voor het verifiëren van tokens
 
-Configure the passphrase in `.env`:
+Configureer de wachtwoordzin in `.env`:
 
 ```env
 JWT_PASSPHRASE=your-passphrase
 ```
 
-## API Documentation
+## API-documentatie
 
-When `APP_ENABLE_API_ENTRYPOINT=1` is set in the environment, the API documentation is available at `/api`. This provides an interactive Swagger/OpenAPI interface for exploring and testing endpoints.
+Wanneer `APP_ENABLE_API_ENTRYPOINT=1` is ingesteld in de omgeving, is de API-documentatie beschikbaar op `/api`. Dit biedt een interactieve Swagger/OpenAPI-interface voor het verkennen en testen van eindpunten.

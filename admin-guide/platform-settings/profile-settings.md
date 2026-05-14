@@ -1,227 +1,216 @@
-# User Profile Settings
+# Gebruikersprofielinstellingen
 
-Which fields appear on the user profile, which ones the user can edit, and related preferences.
+Welke velden verschijnen op het gebruikersprofiel, welke de gebruiker kan bewerken en gerelateerde voorkeuren.
 
-Access these settings under **Administration > Configuration settings > User Profile**. This category contains **29 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+Toegang tot deze instellingen vindt u onder **Beheer > Configuratie-instellingen > Gebruikersprofiel**. Deze categorie bevat **29 instellingen**, hieronder opgesomd met de titel en opmerking zoals meegeleverd in de platforminstellingen (`SettingsCurrentFixtures.php`).
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> De variabelenaam in de code wordt in monospace weergegeven. Gebruik deze bij het scripten via de API of wanneer u deze instellingen op globaal niveau wilt wijzigen door [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml) te bewerken.
 
-## Settings
+## Instellingen
 
 ### `account_valid_duration`
 
-**Account validity**
+**Geldigheidsduur account**
 
-A user account is valid for this number of days after creation
+Een gebruikersaccount is geldig voor dit aantal dagen na aanmaak
 
-*Default: `3660`*
-
+*Standaard: `3660`*
 
 ### `add_user_course_information_in_mailto`
 
-**Pre-fill the mail with user and course info in footer contact**
+**Vooraf invullen van e-mail met gebruikers- en cursusinformatie in voettekstcontact**
 
-Add subject and body in the mailto: footer.
+Voeg onderwerp en inhoud toe aan de mailto: voettekst.
 
-*Default: `false`*
-
+*Standaard: `false`*
 
 ### `allow_show_linkedin_url`
 
-**Allow show the user LinkedIn URL**
+**Toestaan om de LinkedIn-URL van de gebruiker te tonen**
 
-Add a link on the user social block, allowing visit the user's LinkedIn profile
+Voeg een link toe aan het sociale blok van de gebruiker, waarmee het LinkedIn-profiel van de gebruiker kan worden bezocht
 
 ### `allow_show_skype_account`
 
-**Allow show the user Skype account**
+**Toestaan om het Skype-account van de gebruiker te tonen**
 
-Add a link on the user social block allowing start a chat by Skype
+Voeg een link toe aan het sociale blok van de gebruiker waarmee een chat via Skype kan worden gestart
 
 ### `allow_social_map_fields`
 
-**Users geolocation on a map**
+**Geolocatie van gebruikers op een kaart**
 
-Enable the display of a map in the social network allowing you to locate other users. This includes several positions (current and destination) which have to be defined as addresses or coordinates in separate extra fields. The extra fields must be set as an array here.
+Schakel de weergave van een kaart in het sociale netwerk in, waarmee u andere gebruikers kunt lokaliseren. Dit omvat verschillende posities (huidige en bestemming) die moeten worden gedefinieerd als adressen of coördinaten in afzonderlijke extra velden. De extra velden moeten hier als een array worden ingesteld.
 
 ### `allow_teachers_to_classes`
 
-**Allow teachers to manage classes**
+**Docenten toestaan om klassen te beheren**
 
-Enables teachers to manage class groups and their membership within the system.
+Stelt docenten in staat om klasgroepen en hun lidmaatschap binnen het systeem te beheren.
 
-*Default: `false`*
-
+*Standaard: `false`*
 
 ### `allow_user_headings`
 
-**Allow users profiling inside courses**
+**Gebruikersprofilering binnen cursussen toestaan**
 
-Can a teacher define learner profile fields to retrieve additional information?
+Kan een docent profielvelden voor leerlingen definiëren om aanvullende informatie op te halen?
 
 ### `allow_users_to_change_email_with_no_password`
 
-**Allow users to change e-mail without password**
+**Gebruikers toestaan om e-mail te wijzigen zonder wachtwoord**
 
-When changing the account information
+Bij het wijzigen van accountinformatie
 
-*Default: `false`*
+*Standaard: `false`*
 
 ### `changeable_options`
 
-**Fields users are allowed to change in their profile**
+**Velden die gebruikers mogen wijzigen in hun profiel**
 
-Select the fields users will be able to change on their profile page.
-
+Selecteer de velden die gebruikers kunnen wijzigen op hun profielpagina.
 
 ### `enable_profile_user_address_geolocalization`
 
-**Enable user's geolocalization**
+**Geolocatie van gebruiker inschakelen**
 
-Enable user's address field and show it on a map using geolocalization features
+Schakel het adresveld van de gebruiker in en toon dit op een kaart met behulp van geolocatiefuncties
 
 ### `extended_profile`
 
 **Portfolio**
 
-If this setting is on, a user can fill in the following (optional) fields: 'My personal open area', 'My competences', 'My diplomas', 'What I am able to teach'
+Als deze instelling is ingeschakeld, kan een gebruiker de volgende (optionele) velden invullen: 'Mijn persoonlijke open ruimte', 'Mijn competenties', 'Mijn diploma's', 'Wat ik kan onderwijzen'
 
-*Default: `false`*
+*Standaard: `false`*
 
 ### `hide_username_in_course_chat`
 
-**Hide username in course chat**
+**Gebruikersnaam verbergen in cursuschat**
 
-In the course chat, hide the username. Only display people's names.
+Verberg de gebruikersnaam in de cursuschat. Toon alleen de namen van personen.
 
-*Default: `false`*
-
+*Standaard: `false`*
 
 ### `hide_username_with_complete_name`
 
-**Hide username when already showing complete name**
+**Gebruikersnaam verbergen wanneer de volledige naam al wordt getoond**
 
-Some internal functions will return the username when returning the user's complete name. With this option enabled, you ensure the username will not appear.
+Sommige interne functies retourneren de gebruikersnaam bij het weergeven van de volledige naam van de gebruiker. Met deze optie ingeschakeld, zorgt u ervoor dat de gebruikersnaam niet verschijnt.
 
-*Default: `false`*
-
+*Standaard: `false`*
 
 ### `linkedin_organization_id`
 
-**LinkedIn Orgnization ID**
+**LinkedIn Organisatie-ID**
 
-When sharing a badge on LinkedIn, LinkedIn allows you to set an organization ID that will link to the LinkedIn's page of your organization (to link the organization attributing the badge).
+Bij het delen van een badge op LinkedIn kunt u een organisatie-ID instellen die linkt naar de LinkedIn-pagina van uw organisatie (om de organisatie die de badge toekent te koppelen).
 
-*Default: `false`*
-
+*Standaard: `false`*
 
 ### `login_is_email`
 
-**Use the email as username**
+**E-mail gebruiken als gebruikersnaam**
 
-Use the email in order to login to the system
+Gebruik de e-mail om in te loggen op het systeem
 
-*Default: `false`*
+*Standaard: `false`*
 
 ### `my_space_users_items_per_page`
 
-**Default number of items per page in mySpace**
+**Standaard aantal items per pagina in mijnRuimte**
 
-Number of records displayed per page in MySpace tracking sections (users, work statistics, student list).
+Aantal records dat per pagina wordt weergegeven in de trackingsecties van mijnRuimte (gebruikers, werkstatistieken, studentenlijst).
 
-*Default: `10`*
-
+*Standaard: `10`*
 
 ### `pass_reminder_custom_link`
 
-**Custom page for password reminder**
+**Aangepaste pagina voor wachtwoordherinnering**
 
-Set your own URL to a password reset page. Useful when using a federated account management system.
+Stel uw eigen URL in voor een pagina voor het opnieuw instellen van een wachtwoord. Handig bij gebruik van een gefedereerd accountbeheersysteem.
 
 ### `profile_fields_visibility`
 
-**Fields visible on profile page**
+**Velden zichtbaar op profielpagina**
 
-Array of fields and whether (boolean) they are visible or not on the user's profile page (also works with extra fields labels).
+Array van velden en of (boolean) ze zichtbaar zijn of niet op de profielpagina van de gebruiker (werkt ook met labels van extra velden).
 
 ### `registration_add_helptext_for_2_names`
 
-**Add helper to add two names in registration**
+**Hulptekst toevoegen voor het invoeren van twee namen bij registratie**
 
-Add help text for users to enter two names in the registration form when double lastnames are common.
+Voeg hulptekst toe voor gebruikers om twee namen in te voeren in het registratieformulier wanneer dubbele achternamen gebruikelijk zijn.
 
-*Default: `false`*
-
+*Standaard: `false`*
 
 ### `send_notification_when_user_added`
 
-**Send mail to admin when user created**
+**E-mail sturen naar beheerder bij aanmaak gebruiker**
 
-Send email notification to admin when a user is created.
+Stuur een e-mailmelding naar de beheerder wanneer een gebruiker wordt aangemaakt.
 
 ### `show_conditions_to_user`
 
-**Show specific registration conditions**
+**Specifieke registratievoorwaarden tonen**
 
-Show multiple conditions to user during sign up process. Provide an array with each element containing 'variable' (internal extra field name), 'display_text' (simple text for a checkbox), 'text_area' (long text of conditions).
+Toon meerdere voorwaarden aan de gebruiker tijdens het aanmeldproces. Geef een array met elk element dat 'variable' (interne naam van extra veld), 'display_text' (eenvoudige tekst voor een selectievakje), 'text_area' (lange tekst van voorwaarden) bevat.
 
 ### `show_official_code_whoisonline`
 
-**Official code on 'Who is online'**
+**Officiële code op 'Wie is online'**
 
-Show official code on the 'Who is online' page, below the username.
+Toon de officiële code op de pagina 'Wie is online', onder de gebruikersnaam.
 
-*Default: `false`*
+*Standaard: `false`*
 
+---
 ### `show_terms_if_profile_completed`
 
-**Terms and conditions only if profile complete**
+**Algemene voorwaarden alleen als profiel voltooid**
 
-By enabling this option, terms and conditions will be available to the user only when the extra profile fields that start with 'terms_' and set to visible are completed.
+Door deze optie in te schakelen, worden de algemene voorwaarden pas beschikbaar voor de gebruiker wanneer de extra profielvelden die beginnen met 'terms_' en zijn ingesteld als zichtbaar, zijn ingevuld.
 
-*Default: `false`*
-
+*Standaard: `false`*
 
 ### `split_users_upload_directory`
 
-**Split users' upload directory**
+**Uploadmap van gebruikers splitsen**
 
-On high-load portals, where a lot of users are registered and send their pictures, the upload directory (main/upload/users/) might contain too many files for the filesystem to handle (it has been reported with more than 36000 files on a Debian server). Changing this option will enable a one-level splitting of the directories in the upload directory. 9 directories will be used in the base directory and all subsequent users' directories will be stored into one of these 9 directories. The change of this option will not affect the directories structure on disk, but will affect the behaviour of the Chamilo code, so if you change this option, you have to create the new directories and move the existing directories by yourself on te server. Be aware that when creating and moving those directories, you will have to move the directories of users 1 to 9 into subdirectories of the same name. If you are not sure about this option, it is best not to activate it.
+Op portals met een hoge belasting, waar veel gebruikers zijn geregistreerd en hun foto's uploaden, kan de uploadmap (main/upload/users/) te veel bestanden bevatten voor het bestandssysteem om te verwerken (er zijn meldingen geweest van meer dan 36.000 bestanden op een Debian-server). Het wijzigen van deze optie activeert een splitsing op één niveau van de mappen in de uploadmap. Er worden 9 mappen gebruikt in de basismap en alle daaropvolgende gebruikersmappen worden opgeslagen in een van deze 9 mappen. Het wijzigen van deze optie heeft geen invloed op de mappenstructuur op de schijf, maar wel op het gedrag van de Chamilo-code. Als u deze optie wijzigt, moet u zelf de nieuwe mappen aanmaken en de bestaande mappen op de server verplaatsen. Houd er rekening mee dat bij het aanmaken en verplaatsen van deze mappen, u de mappen van gebruikers 1 tot 9 moet verplaatsen naar submappen met dezelfde naam. Als u niet zeker bent over deze optie, is het beter om deze niet te activeren.
 
-*Default: `true`*
+*Standaard: `true`*
 
 ### `use_users_timezone`
 
-**Enable users timezones**
+**Tijdzones van gebruikers inschakelen**
 
-Enable the possibility for users to select their own timezone. Once configured, users will be able to see assignment deadlines and other time references in their own timezone, which will reduce errors at delivery time.
+Maak het mogelijk voor gebruikers om hun eigen tijdzone te selecteren. Eenmaal geconfigureerd, kunnen gebruikers deadlines voor opdrachten en andere tijdreferenties in hun eigen tijdzone zien, wat fouten bij het inleveren zal verminderen.
 
-*Default: `true`*
+*Standaard: `true`*
 
 ### `user_import_settings`
 
-**Options for user import**
+**Opties voor gebruikersimport**
 
-Array of options to apply as default parameters in the CSV/XML user import.
+Array van opties die als standaardparameters worden toegepast bij het importeren van gebruikers via CSV/XML.
 
 ### `user_search_on_extra_fields`
 
-**Search users by extra fields in users list for admins**
+**Gebruikers zoeken op extra velden in gebruikerslijst voor beheerders**
 
-Naturally include the given extra fields (array of extra fields labels) in the user searches.
+Voeg de opgegeven extra velden (array van labels van extra velden) standaard toe aan de zoekopdrachten naar gebruikers.
 
 ### `user_selected_theme`
 
-**User theme selection**
+**Themakeuze door gebruiker**
 
-Allow users to select their own visual theme in their profile. This will change the look of Chamilo for them, but will leave the default style of the portal intact. If a specific course or session has a specific theme assigned, it will have priority over user-defined themes.
+Sta gebruikers toe om hun eigen visuele thema te selecteren in hun profiel. Dit verandert het uiterlijk van Chamilo voor hen, maar laat de standaardstijl van het portaal intact. Als een specifieke cursus of sessie een specifiek thema heeft toegewezen, heeft dit voorrang op door de gebruiker gedefinieerde thema's.
 
-*Default: `false`*
+*Standaard: `false`*
 
 ### `visible_options`
 
-**List of visible fields in profile**
+**Lijst van zichtbare velden in profiel**
 
-Controls which profile fields are visible to users and others.
-
-
+Bepaalt welke profielvelden zichtbaar zijn voor gebruikers en anderen.

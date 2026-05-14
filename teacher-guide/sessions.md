@@ -1,46 +1,46 @@
-# Sessions
+# Sessies
 
-Sessions in Chamilo are a way to deliver the same course to different groups of learners at different times, without duplicating the course content. Think of a session as a scheduled edition or cohort of a course.
+Sessies in Chamilo zijn een manier om dezelfde cursus aan verschillende groepen leerlingen op verschillende momenten aan te bieden, zonder de cursusinhoud te dupliceren. Beschouw een sessie als een geplande editie of cohort van een cursus.
 
-## How Sessions Work
+## Hoe Sessies Werken
 
-A **course** is a container of content and tools. A **session** assigns that course to a specific group of learners for a specific time period. This means:
+Een **cursus** is een container van inhoud en hulpmiddelen. Een **sessie** wijst die cursus toe aan een specifieke groep leerlingen voor een bepaalde periode. Dit betekent:
 
-* The same course can be reused across multiple sessions
-* Each session has its own enrolled learners and its own start/end dates
-* Each session has its own results — grades, progress, and tracking data are kept separate per session
-* The base course content is shared, but teachers can customize certain elements per session
+* Dezelfde cursus kan worden hergebruikt over meerdere sessies
+* Elke sessie heeft zijn eigen ingeschreven leerlingen en eigen start- en einddatums
+* Elke sessie heeft zijn eigen resultaten — cijfers, voortgang en trackinggegevens worden per sessie apart gehouden
+* De basisinhoud van de cursus wordt gedeeld, maar docenten kunnen bepaalde elementen per sessie aanpassen
 
-## Your Sessions
+## Jouw Sessies
 
-From the sidebar, click **My sessions** to see your sessions. They are organized into three views:
+Klik in de zijbalk op **Mijn sessies** om jouw sessies te bekijken. Ze zijn georganiseerd in drie weergaven:
 
-![The My Sessions page showing current, past, and upcoming session views](/.gitbook/assets/my-sessions-list.png)
+![De pagina Mijn Sessies met weergaven van huidige, afgelopen en aankomende sessies](/.gitbook/assets/my-sessions-list.png)
 
-* **Current sessions** — Sessions that are currently active
-* **Past sessions** — Sessions that have ended
-* **Upcoming sessions** — Sessions that have not started yet
+* **Huidige sessies** — Sessies die momenteel actief zijn
+* **Afgelopen sessies** — Sessies die zijn beëindigd
+* **Aankomende sessies** — Sessies die nog niet zijn begonnen
 
-Each session shows the courses it contains. Click on a course within a session to access it.
+Elke sessie toont de cursussen die deze bevat. Klik op een cursus binnen een sessie om toegang te krijgen.
 
-## Teaching in a Session
+## Lesgeven in een Sessie
 
-When you enter a course through a session, the experience is similar to a regular course, with a few differences:
+Wanneer je een cursus betreedt via een sessie, is de ervaring vergelijkbaar met een reguliere cursus, met een paar verschillen:
 
-* The **session name** appears alongside the course title, so you always know which session you are working in
-* Learner data (progress, grades, submissions) is specific to this session
-* Some settings (like the ability to change the visibility of tools) may be locked by the session administrator
+* De **sessienaam** verschijnt naast de cursustitel, zodat je altijd weet in welke sessie je werkt
+* Gegevens van leerlingen (voortgang, cijfers, inzendingen) zijn specifiek voor deze sessie
+* Sommige instellingen (zoals de mogelijkheid om de zichtbaarheid van hulpmiddelen te wijzigen) kunnen door de sessiebeheerder zijn vergrendeld
 
-## Session Roles
+## Sessierollen
 
-Sessions introduce additional roles:
+Sessies introduceren aanvullende rollen:
 
-| Role | Description |
+| Rol | Beschrijving |
 |------|-------------|
-| **Session administrator** | Manages the creation and configuration of sessions |
-| **Session coach** | Oversees all courses within a session (can access tracking across courses) |
-| **Course coach** | Teaches a specific course within a session |
+| **Sessiebeheerder** | Beheert het aanmaken en configureren van sessies |
+| **Sessiecoach** | Houdt toezicht op alle cursussen binnen een sessie (kan tracking over cursussen heen bekijken) |
+| **Cursuscoach** | Geeft les in een specifieke cursus binnen een sessie |
 
-If you are assigned as a **course coach** in a session, you can manage that course's content and track learner progress for the session's learners.
+Als je bent toegewezen als **cursuscoach** in een sessie, kun je de inhoud van die cursus beheren en de voortgang van leerlingen voor de leerlingen van die sessie volgen.
 
-> Sessions are typically managed by administrators. If you need to create or modify a session, contact your platform administrator or session administrator.
+> Sessies worden doorgaans beheerd door beheerders. Als je een sessie wilt aanmaken of wijzigen, neem dan contact op met je platformbeheerder of sessiebeheerder.

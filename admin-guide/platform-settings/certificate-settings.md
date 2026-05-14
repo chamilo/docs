@@ -1,82 +1,81 @@
-# Certificates Settings
+# Certificaat instellingen
 
-Defaults applied when a learner earns a certificate from the gradebook.
+Standaardinstellingen die worden toegepast wanneer een leerling een certificaat behaalt via het cijferboek.
 
-Access these settings under **Administration > Configuration settings > Certificates**. This category contains **9 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+Toegang tot deze instellingen vindt u onder **Beheer > Configuratie-instellingen > Certificaten**. Deze categorie bevat **9 instellingen**, hieronder opgesomd met de titel en opmerking zoals meegeleverd in de platforminstellingen (`SettingsCurrentFixtures.php`).
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> De variabelenaam in de code wordt weergegeven in monospace. Gebruik deze bij het scripten via de API of wanneer u deze instellingen op globaal niveau wilt wijzigen door [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml) te bewerken.
 
-## Settings
+## Instellingen
 
 ### `add_certificate_pdf_footer`
 
-**Add footer to PDF certificate exports**
+**Voettekst toevoegen aan PDF-certificaatexport**
 
-When enabled, a footer is added to PDF exports of certificates.
+Indien ingeschakeld, wordt een voettekst toegevoegd aan PDF-export van certificaten.
 
-*Default: `false`*
+*Standaard: `false`*
 
 ### `allow_general_certificate`
 
-**Enable general certificate**
+**Algemeen certificaat inschakelen**
 
-A general certificate is a certificate grouping all the accomplishments by the user in the courses (s)he followed.
+Een algemeen certificaat is een certificaat dat alle prestaties van de gebruiker in de gevolgde cursussen groepeert.
 
-*Default: `false`*
+*Standaard: `false`*
 
 ### `allow_public_certificates`
 
-**Allow public certificates**
+**Publieke certificaten toestaan**
 
-User certificates can be view by unregistered users.
+Certificaten van gebruikers kunnen worden bekeken door niet-geregistreerde gebruikers.
 
-*Default: `false`*
+*Standaard: `false`*
 
 ### `certificate_filter_by_official_code`
 
-**Certificates filter by official code**
+**Certificaten filteren op officiële code**
 
-Add a filter on the students official code to the certificates list.
+Voeg een filter toe op de officiële code van studenten aan de certificatenlijst.
 
-*Default: `false`*
+*Standaard: `false`*
 
 ### `certificate_pdf_orientation`
 
-**PDF orientation for certificates**
+**PDF-oriëntatie voor certificaten**
 
-Set ‘portrait’ or ‘landscape’ (technical terms) for PDF certificates.
+Stel ‘portrait’ of ‘landscape’ (technische termen) in voor PDF-certificaten.
 
-*Default: `landscape`*
+*Standaard: `landscape`*
 
 ### `hide_certificate_export_link`
 
-**Certificates: hide PDF export link for all**
+**Certificaten: PDF-exportlink voor iedereen verbergen**
 
-Enable to completely remove the possibility to export certificates to PDF (for all users). If enabled, this includes hiding it from students.
+Schakel in om de mogelijkheid om certificaten naar PDF te exporteren volledig te verwijderen (voor alle gebruikers). Indien ingeschakeld, wordt deze ook voor studenten verborgen.
 
-*Default: `false`*
+*Standaard: `false`*
 
 ### `hide_certificate_export_link_students`
 
-**Certificates: hide export link from students**
+**Certificaten: exportlink verbergen voor studenten**
 
-If enabled, students won’t be able to export their certificates to PDF. This option is available because, depending on the precise HTML structure of the certificate template, the PDF export might be of low quality. In this case, it is best to only show the HTML certificate to students.
+Indien ingeschakeld, kunnen studenten hun certificaten niet naar PDF exporteren. Deze optie is beschikbaar omdat, afhankelijk van de exacte HTML-structuur van het certificaatsjabloon, de PDF-export van lage kwaliteit kan zijn. In dat geval is het beter om studenten alleen het HTML-certificaat te tonen.
 
-*Default: `false`*
+*Standaard: `false`*
 
 ### `hide_my_certificate_link`
 
-**Hide ‘my certificate’ link**
+**‘Mijn certificaat’-link verbergen**
 
-Hide the certificates page for non-admin users.
+Verberg de certificatenpagina voor niet-beheerder gebruikers.
 
-*Default: `false`*
+*Standaard: `false`*
 
 ### `session_admin_can_download_all_certificates`
 
-**Allow session admins to download private certificates**
+**Sessiebeheerders toestaan om privé-certificaten te downloaden**
 
-If enabled, session administrators can download certificates even if they are not publicly published.
+Indien ingeschakeld, kunnen sessiebeheerders certificaten downloaden, zelfs als deze niet openbaar zijn gepubliceerd.
 
-*Default: `false`*
-
+*Standaard: `false`*

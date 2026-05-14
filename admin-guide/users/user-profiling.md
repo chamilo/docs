@@ -1,75 +1,75 @@
-# User Profiling
+# Gebruikersprofilering
 
-Chamilo allows you to define custom profile fields (extra fields) to capture additional information about users beyond the standard name, email, and role.
+Chamilo stelt u in staat om aangepaste profielvelden (extra velden) te definiëren om aanvullende informatie over gebruikers vast te leggen, naast de standaard naam, e-mailadres en rol.
 
-## Extra Profile Fields
+## Extra Profielvelden
 
-![The extra profile fields list showing custom fields with name, type, and visibility settings](/.gitbook/assets/admin-extra-fields-list.png)
+![De lijst met extra profielvelden toont aangepaste velden met naam, type en zichtbaarheidsinstellingen](/.gitbook/assets/admin-extra-fields-list.png)
 
-Extra fields let you store metadata specific to your organization, such as:
+Extra velden stellen u in staat om metadata op te slaan die specifiek zijn voor uw organisatie, zoals:
 
-* Employee ID
-* Department
-* Job title
-* Location/office
-* Phone number
-* Custom identifiers
+* Werknemer-ID
+* Afdeling
+* Functietitel
+* Locatie/kantoor
+* Telefoonnummer
+* Aangepaste identificatoren
 
-## Creating Extra Fields
+## Extra Velden Aanmaken
 
-1. From the administration panel, navigate to **Extra fields** or **Profile fields**
-2. Click **Add**
-3. Configure the field:
-   * **Name** — The field title shown to users
-   * **Description** — Optional description
-   * **Helper text** — To be shown under the field in any form including it
-   * **Field type** — Text, dropdown, date, checkbox, etc.
-   * **Field label** — The internal name of the field, for plugins integration 
-   * **Possible values** — If the field is a selector between those values 
-   * **Default value** — An optional default
-   * **Visible to self** — Whether the field is visible on the user profile by the user itself
-   * **Visible to others** — Whether the field is visible to other users of the platform
-   * **Can change** — Whether the user can change its own field by himself (or whether only the admins can)
-   * **Filter** — If this is a selector-type field, whether to include it as a filter in administrative pages (e.g. to subscribe users to courses or sessions)
-   * **Order** — If you want to manage the display order of the fields, you will have to give a numerical order to each field
-   * **Remove on anonymization** — Important for privacy rules & laws: If the user is anonymized but not deleted, should this field be considered as potential holder of personally identifiable data? 
-4. Save
+1. Navigeer vanuit het beheerpaneel naar **Extra velden** of **Profielvelden**
+2. Klik op **Toevoegen**
+3. Configureer het veld:
+   * **Naam** — De veldtitel die aan gebruikers wordt getoond
+   * **Beschrijving** — Optionele beschrijving
+   * **Hulptekst** — Wordt weergegeven onder het veld in elk formulier dat dit veld bevat
+   * **Veldtype** — Tekst, dropdown, datum, selectievakje, enz.
+   * **Veldlabel** — De interne naam van het veld, voor integratie met plugins
+   * **Mogelijke waarden** — Als het veld een selectie tussen deze waarden betreft
+   * **Standaardwaarde** — Een optionele standaardwaarde
+   * **Zichtbaar voor zichzelf** — Of het veld zichtbaar is op het gebruikersprofiel voor de gebruiker zelf
+   * **Zichtbaar voor anderen** — Of het veld zichtbaar is voor andere gebruikers van het platform
+   * **Kan wijzigen** — Of de gebruiker zijn eigen veld zelf kan wijzigen (of dat alleen beheerders dit kunnen)
+   * **Filter** — Als dit een selectieveld is, of het als filter moet worden opgenomen op administratieve pagina's (bijv. om gebruikers in te schrijven voor cursussen of sessies)
+   * **Volgorde** — Als u de weergavevolgorde van de velden wilt beheren, moet u elk veld een numerieke volgorde geven
+   * **Verwijderen bij anonimisering** — Belangrijk voor privacyregels en wetten: Als de gebruiker wordt geanonimiseerd maar niet verwijderd, moet dit veld dan worden beschouwd als een mogelijke houder van persoonlijk identificeerbare gegevens?
+4. Opslaan
 
-## Field Types
+## Veldtypen
 
-The extra-field engine supports a broad set of input types. Common ones include:
+De extra-veldengine ondersteunt een breed scala aan invoertypen. Veelvoorkomende typen zijn onder andere:
 
-| Type | Description |
-|------|-------------|
-| **Text** | A single-line text input |
-| **Textarea** | A multi-line text input |
-| **Radio** | A single-choice radio group |
-| **Dropdown / Dropdown multiple** | A list of predefined options (single or multi-select) |
-| **Double select** | Two dependent dropdowns (e.g., country → city) |
-| **Checkbox** | A yes/no toggle |
-| **Date / Date and time** | Date or date+time picker |
-| **Integer** | A numeric input |
-| **Tag** | Multiple free-form tag values |
-| **File** | File upload field |
-| **Video URL** | A URL pointing to a video |
-| **Mobile phone number** | A formatted phone number field |
-| **Timezone** | A timezone picker |
-| **Social profile** | A link to a social network profile |
-| **Divider** | A visual separator inside the form (no value) |
+| Type | Beschrijving |
+|------|--------------|
+| **Tekst** | Een invoerveld voor één regel tekst |
+| **Tekstgebied** | Een invoerveld voor meerdere regels tekst |
+| **Radio** | Een groep met keuzerondjes voor één keuze |
+| **Dropdown / Dropdown meervoudig** | Een lijst met vooraf gedefinieerde opties (enkele of meervoudige selectie) |
+| **Dubbele selectie** | Twee afhankelijke dropdowns (bijv. land → stad) |
+| **Selectievakje** | Een ja/nee-schakelaar |
+| **Datum / Datum en tijd** | Kiezer voor datum of datum+tijd |
+| **Geheel getal** | Een numeriek invoerveld |
+| **Tag** | Meerdere vrije tagwaarden |
+| **Bestand** | Veld voor het uploaden van bestanden |
+| **Video-URL** | Een URL die verwijst naar een video |
+| **Mobiel telefoonnummer** | Een geformatteerd veld voor telefoonnummers |
+| **Tijdzone** | Een kiezer voor tijdzones |
+| **Sociaal profiel** | Een link naar een sociaal netwerkprofiel |
+| **Scheidingslijn** | Een visuele scheidingslijn in het formulier (geen waarde) |
 
-The exact set of usable types depends on the Chamilo version; the field-type dropdown in the **Extra fields** admin page is the source of truth.
+De exacte set bruikbare typen hangt af van de Chamilo-versie; de dropdown voor veldtypen op de beheerderspagina **Extra velden** is de bron van waarheid.
 
-## Using Extra Fields
+## Extra Velden Gebruiken
 
-Extra fields appear:
+Extra velden verschijnen:
 
-* In the user creation (if visible to self) and edit forms
-* On user profile pages (if visible to self)
-* In user imports (you can include extra field values in CSV imports)
-* In exports and reports (filter or group by extra field values)
+* In formulieren voor het aanmaken (indien zichtbaar voor zichzelf) en bewerken van gebruikers
+* Op gebruikersprofielpagina's (indien zichtbaar voor zichzelf)
+* Bij gebruikersimports (u kunt extra veldwaarden opnemen in CSV-imports)
+* In exports en rapportages (filteren of groeperen op extra veldwaarden)
 
 ## Tips
 
-* **Plan before creating** — Define what information you need before creating fields, as changing field types after data has been entered can be problematic
-* **Use dropdowns for consistency** — When a field has a known set of possible values, use a dropdown instead of free text to ensure data consistency
-* **Use for reporting** — Extra fields are useful for filtering reports (e.g., "show all users in Department X who completed Training Y")
+* **Plan voordat u aanmaakt** — Bepaal welke informatie u nodig heeft voordat u velden aanmaakt, aangezien het wijzigen van veldtypen nadat gegevens zijn ingevoerd problematisch kan zijn
+* **Gebruik dropdowns voor consistentie** — Wanneer een veld een bekende set mogelijke waarden heeft, gebruik dan een dropdown in plaats van vrije tekst om gegevensconsistentie te waarborgen
+* **Gebruik voor rapportages** — Extra velden zijn nuttig voor het filteren van rapportages (bijv. "toon alle gebruikers in Afdeling X die Training Y hebben voltooid")

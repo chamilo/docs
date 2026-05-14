@@ -1,28 +1,28 @@
-# CSS and Tailwind
+# CSS en Tailwind
 
-## Stylesheet Architecture
+## Stijlbladarchitectuur
 
-Chamilo's styles are layered in this order:
+De stijlen van Chamilo zijn opgebouwd in deze volgorde:
 
-1. **Tailwind CSS** — Utility classes for layout, spacing, and color. Configured with `important: true` so utilities override PrimeVue component defaults.
-2. **SCSS** — Custom styles in `assets/css/scss/`, organized into atoms, molecules, organisms, layout, and components layers.
-3. **PrimeVue component styles** — Overridden per-component inside `assets/css/scss/atoms/`.
-4. **Theme `colors.css`** — CSS custom properties for the active color theme, loaded last so they cascade over everything else.
+1. **Tailwind CSS** — Utility-klassen voor lay-out, spacing en kleur. Geconfigureerd met `important: true` zodat utilities de standaardinstellingen van PrimeVue-componenten overschrijven.
+2. **SCSS** — Aangepaste stijlen in `assets/css/scss/`, georganiseerd in lagen voor atomen, moleculen, organismen, lay-out en componenten.
+3. **PrimeVue-componentstijlen** — Overschreven per component in `assets/css/scss/atoms/`.
+4. **Thema `colors.css`** — CSS aangepaste eigenschappen voor het actieve kleurenthema, als laatste geladen zodat ze over alles heen cascaderen.
 
-PrimeFlex is listed in `package.json` but is not imported — Tailwind covers all utility needs.
+PrimeFlex staat vermeld in `package.json` maar wordt niet geïmporteerd — Tailwind dekt alle utility-behoeften.
 
-## Main Stylesheet (`assets/css/app.scss`)
+## Hoofdstijlblad (`assets/css/app.scss`)
 
-`app.scss` is the Webpack entry point for the main stylesheet. It imports:
+`app.scss` is het Webpack-invoerpunt voor het hoofdstijlblad. Het importeert:
 
-1. `_tailwind.scss` — Tailwind's `@tailwind base / components / utilities` directives
-2. `scss/index.scss` — Barrel file that imports all SCSS partials
-3. Third-party CSS (cropper, select2, daterangepicker, TinyMCE skin, fancybox, timepicker, qtip)
-4. `editor_content.scss` — Styles injected into the TinyMCE editor iframe body
+1. `_tailwind.scss` — Tailwind's `@tailwind base / components / utilities` richtlijnen
+2. `scss/index.scss` — Barrel-bestand dat alle SCSS-partials importeert
+3. CSS van derden (cropper, select2, daterangepicker, TinyMCE skin, fancybox, timepicker, qtip)
+4. `editor_content.scss` — Stijlen die worden geïnjecteerd in de body van de TinyMCE-editor iframe
 
-## Tailwind Configuration (`tailwind.config.js`)
+## Tailwind Configuratie (`tailwind.config.js`)
 
-Key settings:
+Belangrijke instellingen:
 
 ```javascript
 module.exports = {
@@ -37,11 +37,11 @@ module.exports = {
 }
 ```
 
-Content paths scan Vue components, legacy PHP pages, plugin files, and Twig templates so unused utilities are purged on production builds.
+Inhoudspaden scannen Vue-componenten, legacy PHP-pagina's, pluginbestanden en Twig-templates zodat ongebruikte utilities worden verwijderd bij productie-builds.
 
-### CSS-Variable Color System
+### CSS-Variabele Kleursysteem
 
-All color tokens are backed by CSS custom properties rather than hardcoded values:
+Alle kleurtokens worden ondersteund door CSS aangepaste eigenschappen in plaats van hardcoded waarden:
 
 ```javascript
 theme: {
@@ -56,18 +56,18 @@ theme: {
 }
 ```
 
-The `colorWithOpacity` helper emits `rgb(var(--color-primary-base) / <opacity>)`, enabling opacity variants such as `bg-primary/50`. The actual RGB values are defined per theme in `var/themes/{slug}/colors.css` and loaded at runtime — see [Color Themes](color-themes.md).
+De `colorWithOpacity` helper genereert `rgb(var(--color-primary-base) / <opacity>)`, wat opacity-varianten mogelijk maakt zoals `bg-primary/50`. De daadwerkelijke RGB-waarden worden per thema gedefinieerd in `var/themes/{slug}/colors.css` en worden tijdens runtime geladen — zie [Kleurenthema's](color-themes.md).
 
 ### Tailwind Plugins
 
-`@tailwindcss/forms` and `@tailwindcss/typography` are enabled.
+`@tailwindcss/forms` en `@tailwindcss/typography` zijn ingeschakeld.
 
-### Custom Type Scale
+### Aangepaste Typografie Schaal
 
-Four extra font-size/line-height pairs are added via `theme.extend.fontSize`:
+Vier extra lettergrootte/lijnafstand paren zijn toegevoegd via `theme.extend.fontSize`:
 
-| Class | Size / Line-height |
-|-------|--------------------|
+| Klasse | Grootte / Lijnafstand |
+|-------|-----------------------|
 | `text-body-1` | 16px / 24px |
 | `text-body-2` | 14px / 16px |
 | `text-caption` | 13px / 16px |
@@ -75,38 +75,38 @@ Four extra font-size/line-height pairs are added via `theme.extend.fontSize`:
 
 ## PostCSS
 
-PostCSS (Tailwind + Autoprefixer) is configured inline inside `webpack.config.js` via `enablePostCssLoader()`. There is no standalone `postcss.config.js` file.
+PostCSS (Tailwind + Autoprefixer) is inline geconfigureerd in `webpack.config.js` via `enablePostCssLoader()`. Er is geen apart `postcss.config.js` bestand.
 
-## Specialized Stylesheets
+## Gespecialiseerde Stijlbladen
 
-| File | Webpack entry | Purpose |
-|------|--------------|---------|
-| `assets/css/app.scss` | `app` | Main application styles |
-| `assets/css/chat.scss` | `css/chat` | Chat interface styles |
-| `assets/css/document.scss` | `css/document` | Document viewer styles |
-| `assets/css/editor.scss` | `css/editor` | TinyMCE editor shell styles |
-| `assets/css/editor_content.scss` | `css/editor_content` | Styles injected into the editor iframe body |
-| `assets/css/markdown.scss` | `css/markdown` | Markdown-rendered content |
-| `assets/css/print.scss` | `css/print` | Print stylesheet |
-| `assets/css/responsive.scss` | `css/responsive` | Responsive overrides |
-| `assets/css/scorm.scss` | `css/scorm` | SCORM player styles |
+| Bestand | Webpack-invoerpunt | Doel |
+|------|-------------------|-------|
+| `assets/css/app.scss` | `app` | Hoofdtoepassingsstijlen |
+| `assets/css/chat.scss` | `css/chat` | Chatinterface stijlen |
+| `assets/css/document.scss` | `css/document` | Documentviewer stijlen |
+| `assets/css/editor.scss` | `css/editor` | TinyMCE-editor shell stijlen |
+| `assets/css/editor_content.scss` | `css/editor_content` | Stijlen geïnjecteerd in de editor iframe body |
+| `assets/css/markdown.scss` | `css/markdown` | Markdown-gerenderde inhoud |
+| `assets/css/print.scss` | `css/print` | Afdrukstijlblad |
+| `assets/css/responsive.scss` | `css/responsive` | Responsieve overschrijvingen |
+| `assets/css/scorm.scss` | `css/scorm` | SCORM-speler stijlen |
 
-## SCSS Module Structure (`assets/css/scss/`)
+## SCSS Module Structuur (`assets/css/scss/`)
 
 ```
 scss/
-├── index.scss        # Barrel — imports everything below
-├── abstracts/        # Mixins and shared functions
-├── settings/         # Design tokens (typography, component base)
-├── atoms/            # Per-component PrimeVue overrides
-├── molecules/        # Small composed patterns (chips, toolbars, empty states)
-├── organisms/        # Larger areas (sidebar, datatable, dialog, LP panel)
-├── layout/           # Page skeleton (topbar, main container, breadcrumb)
-├── components/       # Feature-specific styles (blog, exercise, social, skill, …)
-└── libs/             # Third-party overrides (FullCalendar, MediaElement.js)
+├── index.scss        # Barrel — importeert alles hieronder
+├── abstracts/        # Mixins en gedeelde functies
+├── settings/         # Ontwerptokens (typografie, componentbasis)
+├── atoms/            # Per-component PrimeVue overschrijvingen
+├── molecules/        # Kleine samengestelde patronen (chips, werkbalken, lege staten)
+├── organisms/        # Grotere gebieden (zijbalk, datatabel, dialoog, LP-paneel)
+├── layout/           # Paginaskelet (bovenbalk, hoofdcontainer, breadcrumb)
+├── components/       # Functie-specifieke stijlen (blog, oefening, sociaal, vaardigheid, …)
+└── libs/             # Overschrijvingen van derden (FullCalendar, MediaElement.js)
 ```
 
-## Using Tailwind in Vue Components
+## Tailwind Gebruiken in Vue Componenten
 
 ```vue
 <template>
@@ -116,4 +116,4 @@ scss/
 </template>
 ```
 
-Because `important: true` is set in `tailwind.config.js`, Tailwind utilities reliably override PrimeVue component styles without needing extra specificity.
+Omdat `important: true` is ingesteld in `tailwind.config.js`, overschrijven Tailwind utilities betrouwbaar de PrimeVue-componentstijlen zonder extra specificiteit nodig te hebben.

@@ -1,34 +1,34 @@
 # Chat
 
-The chat tool provides real-time text messaging within a course. It is useful for quick communication, live Q&A sessions, or informal discussions.
+De chattool biedt real-time tekstberichten binnen een cursus. Het is nuttig voor snelle communicatie, live vraag- en antwoordsessies of informele discussies.
 
-## Using the Chat
+## De Chat Gebruiken
 
-1. Open the **Chat** tool from the course homepage
-2. Type your message in the text field at the bottom
-3. Press **Enter** or click the send button to post
+1. Open de **Chat**-tool vanaf de cursusstartpagina
+2. Typ uw bericht in het tekstveld onderaan
+3. Druk op **Enter** of klik op de verzendknop om te posten
 
-All enrolled users who are currently in the chat room can see messages in real time.
+Alle ingeschreven gebruikers die momenteel in de chatroom zijn, kunnen berichten in real-time zien.
 
-## Chat Features
+## Chatfuncties
 
-* **Real-time messaging** — Messages appear instantly for all participants
-* **Message history** — Previous messages are visible when you enter the chat
-* **User presence** — See who is currently in the chat room
+* **Real-time berichten** — Berichten verschijnen direct voor alle deelnemers
+* **Berichtengeschiedenis** — Eerdere berichten zijn zichtbaar wanneer u de chat betreedt
+* **Aanwezigheid van gebruikers** — Zie wie er momenteel in de chatroom is
 
-## As a Teacher
+## Als Docent
 
-As the course teacher, you can:
+Als cursusdocent kunt u:
 
-* **Monitor discussions** — Review chat history to track learner engagement
-* **Find chat archives in Documents** — The chat tool automatically mirrors messages into HTML files in the Documents tool, organised by day and by scope (course / session / group), so the conversation persists beyond the live session
+* **Discussies volgen** — Bekijk de chatgeschiedenis om de betrokkenheid van leerlingen te volgen
+* **Chatarchieven vinden in Documenten** — De chattool spiegelt automatisch berichten naar HTML-bestanden in de Documententool, georganiseerd per dag en per bereik (cursus / sessie / groep), zodat het gesprek blijft bestaan na de live sessie
 
-If the platform setting "restrict chat to coach" is enabled by the administrator, only coaches can chat with learners; otherwise everyone enrolled in the course can participate.
+Als de platforminstelling "chat beperken tot coach" door de beheerder is ingeschakeld, kunnen alleen coaches chatten met leerlingen; anders kan iedereen die is ingeschreven voor de cursus deelnemen.
 
-## Tips for Using Chat Effectively
+## Tips voor Effectief Gebruik van Chat
 
-* **Schedule chat sessions** — Let learners know in advance when you will be available for live chat (use the Agenda tool)
-* **Set ground rules** — Establish expectations for respectful communication
-* **Use for quick questions** — Chat works best for short exchanges; use the Forum for longer, structured discussions
+* **Plan chatsessies** — Laat leerlingen van tevoren weten wanneer u beschikbaar bent voor live chat (gebruik de Agenda-tool)
+* **Stel basisregels op** — Leg verwachtingen vast voor respectvolle communicatie
+* **Gebruik voor snelle vragen** — Chat werkt het beste voor korte uitwisselingen; gebruik het Forum voor langere, gestructureerde discussies
 
-> If your platform has video conferencing configured (BigBlueButton or Zoom), consider using that for live sessions where voice and video would be more effective. See [Video Conferencing](video-conferencing.md).
+> Als uw platform videoconferenties heeft geconfigureerd (BigBlueButton of Zoom), overweeg dan om dat te gebruiken voor live sessies waarbij stem en video effectiever zouden zijn. Zie [Videoconferenties](video-conferencing.md).

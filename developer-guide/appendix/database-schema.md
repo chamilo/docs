@@ -1,92 +1,92 @@
 # Database Schema
 
-Chamilo 2.0 maps a large set of Doctrine entities to database tables. The exact counts drift between releases — read the entity directories listed below for the current state.
+Chamilo 2.0 koppelt een grote set Doctrine-entiteiten aan databasetabellen. Het exacte aantal varieert tussen releases — raadpleeg de onderstaande entiteitmappen voor de huidige stand van zaken.
 
-## Entity locations
+## Locaties van Entiteiten
 
-| Bundle | Where | Prefix |
-|--------|-------|--------|
-| CoreBundle | `src/CoreBundle/Entity/` | None (e.g., `user`, `course`, `session`) |
-| CourseBundle | `src/CourseBundle/Entity/` | `c_` (e.g., `c_document`, `c_quiz`, `c_lp`) |
+| Bundle | Waar | Voorvoegsel |
+|--------|------|-------------|
+| CoreBundle | `src/CoreBundle/Entity/` | Geen (bijv. `user`, `course`, `session`) |
+| CourseBundle | `src/CourseBundle/Entity/` | `c_` (bijv. `c_document`, `c_quiz`, `c_lp`) |
 | LtiBundle | `src/LtiBundle/Entity/` | `lti_` |
 
-## Key Tables
+## Belangrijke Tabellen
 
-### User and Authentication
+### Gebruiker en Authenticatie
 
-| Table | Purpose |
-|-------|---------|
-| `user` | User accounts |
-| `access_url` | Multi-URL portals |
-| `access_url_rel_user` | User-portal assignments |
-| `usergroup` | Platform-wide user groups |
+| Tabel | Doel |
+|-------|------|
+| `user` | Gebruikersaccounts |
+| `access_url` | Multi-URL-portalen |
+| `access_url_rel_user` | Gebruiker-portaaltoewijzingen |
+| `usergroup` | Platformbrede gebruikersgroepen |
 
-### Courses
+### Cursussen
 
-| Table | Purpose |
-|-------|---------|
-| `course` | Courses |
-| `course_category` | Course categories |
-| `course_rel_user` | Course enrollments |
+| Tabel | Doel |
+|-------|------|
+| `course` | Cursussen |
+| `course_category` | Cursuscategorieën |
+| `course_rel_user` | Cursusinschrijvingen |
 
-### Sessions
+### Sessies
 
-| Table | Purpose |
-|-------|---------|
-| `session` | Training sessions |
-| `session_rel_user` | Session enrollments |
-| `session_rel_course` | Courses in sessions |
-| `session_rel_course_rel_user` | User enrollment per session-course |
+| Tabel | Doel |
+|-------|------|
+| `session` | Trainingssessies |
+| `session_rel_user` | Sessie-inschrijvingen |
+| `session_rel_course` | Cursussen in sessies |
+| `session_rel_course_rel_user` | Gebruikersinschrijving per sessie-cursus |
 
-### Resource System
+### Bronnensysteem
 
-| Table | Purpose |
-|-------|---------|
-| `resource_node` | Unified content abstraction |
-| `resource_file` | File attachments |
-| `resource_link` | Visibility/access per context |
-| `resource_type` | Resource type registry |
+| Tabel | Doel |
+|-------|------|
+| `resource_node` | Uniforme inhoudsabstractie |
+| `resource_file` | Bestandsbijlagen |
+| `resource_link` | Zichtbaarheid/toegang per context |
+| `resource_type` | Register van brontypen |
 
-### Course Content (c_ prefix)
+### Cursusinhoud (c_ voorvoegsel)
 
-| Table | Purpose |
-|-------|---------|
-| `c_document` | Documents |
-| `c_quiz` | Exercises/tests |
-| `c_quiz_question` | Quiz questions |
-| `c_quiz_answer` | Question answers |
-| `c_lp` | Learning paths |
-| `c_lp_item` | Learning path items |
-| `c_forum_category` | Forum categories |
+| Tabel | Doel |
+|-------|------|
+| `c_document` | Documenten |
+| `c_quiz` | Oefeningen/tests |
+| `c_quiz_question` | Quizvragen |
+| `c_quiz_answer` | Antwoorden op vragen |
+| `c_lp` | Leertrajecten |
+| `c_lp_item` | Items in leertrajecten |
+| `c_forum_category` | Forumcategorieën |
 | `c_forum_forum` | Forums |
-| `c_forum_thread` | Forum threads |
-| `c_forum_post` | Forum posts |
-| `c_student_publication` | Assignments/submissions |
-| `c_survey` | Surveys |
-| `c_glossary` | Glossary terms |
-| `c_calendar_event` | Calendar events |
-| `c_attendance` | Attendance sheets |
+| `c_forum_thread` | Forumthreads |
+| `c_forum_post` | Forumberichten |
+| `c_student_publication` | Opdrachten/inzendingen |
+| `c_survey` | Enquêtes |
+| `c_glossary` | Woordenlijsttermen |
+| `c_calendar_event` | Kalendergebeurtenissen |
+| `c_attendance` | Aanwezigheidslijsten |
 
 ### Tracking
 
-| Table | Purpose |
-|-------|---------|
-| `track_e_login` | Login tracking |
-| `track_e_online` | Online user tracking |
-| `track_e_default` | Generic activity tracking |
-| `gradebook_category` | Gradebook categories |
-| `gradebook_result` | Grades |
+| Tabel | Doel |
+|-------|------|
+| `track_e_login` | Inlogtracking |
+| `track_e_online` | Tracking van online gebruikers |
+| `track_e_default` | Algemene activiteitstracking |
+| `gradebook_category` | Categorieën in cijferboek |
+| `gradebook_result` | Cijfers |
 
-### Settings
+### Instellingen
 
-| Table | Purpose |
-|-------|---------|
-| `settings` | Platform settings |
-| `settings_options` | Setting option definitions |
+| Tabel | Doel |
+|-------|------|
+| `settings` | Platforminstellingen |
+| `settings_options` | Definitie van instellingsopties |
 
-## Migrations
+## Migraties
 
-Database schema changes are managed through Doctrine Migrations in `src/CoreBundle/Migrations/`. Run migrations with:
+Wijzigingen in het databaseschema worden beheerd via Doctrine Migrations in `src/CoreBundle/Migrations/`. Voer migraties uit met:
 
 ```bash
 php bin/console doctrine:migrations:migrate

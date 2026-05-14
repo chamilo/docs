@@ -1,164 +1,165 @@
-# Exercises
+# Oefeningen
 
-The exercises tool (also called "tests") lets you create quizzes and exams with automatic grading. Chamilo supports a wide variety of question types, from simple multiple choice to interactive hotspot questions.
+De tool voor oefeningen (ook wel "tests" genoemd) stelt u in staat om quizzes en examens te maken met automatische beoordeling. Chamilo ondersteunt een breed scala aan vraagtypen, van eenvoudige meerkeuzevragen tot interactieve hotspot-vragen.
 
-## Creating an Exercise
+## Een Oefening Maken
 
-1. Open the **Exercises** <img src="/.gitbook/assets/icons/mdi-order-bool-ascending-variant.svg" alt="Exercises" data-size="line"> tool from the course homepage
-2. Click **New exercise**
-3. Enter a **title** and optional **description**
-4. Configure the exercise settings (see below)
-5. Save, then add questions
+1. Open de tool **Oefeningen** <img src="/.gitbook/assets/icons/mdi-order-bool-ascending-variant.svg" alt="Oefeningen" data-size="line"> vanaf de cursusstartpagina
+2. Klik op **Nieuwe oefening**
+3. Voer een **titel** en optioneel een **beschrijving** in
+4. Configureer de instellingen van de oefening (zie hieronder)
+5. Sla op en voeg vervolgens vragen toe
 
-## Exercise Settings
+## Instellingen voor Oefeningen
 
-![The exercise settings panel with options for display, time, attempts, and feedback](/.gitbook/assets/exercise-settings.png)
+![Het instellingenpaneel voor oefeningen met opties voor weergave, tijd, pogingen en feedback](/.gitbook/assets/exercise-settings.png)
 
-### Display and Navigation
+### Weergave en Navigatie
 
-| Setting | Options | Description |
-|---------|---------|-------------|
-| **Question layout** | All on one page / One per page | Show all questions at once or one at a time |
-| **Hide question titles** | Yes / No | Whether to show question titles to learners |
-| **Show previous button** | Yes / No | Allow learners to go back to previous questions |
-| **Prevent backwards navigation** | Yes / No | Force learners to answer in order without going back |
+| Instelling | Opties | Beschrijving |
+|------------|--------|--------------|
+| **Vragenindeling** | Alles op één pagina / Eén per pagina | Toon alle vragen tegelijk of één tegelijk |
+| **Vragetitels verbergen** | Ja / Nee | Of de titels van vragen aan leerlingen worden getoond |
+| **Vorige-knop tonen** | Ja / Nee | Leerlingen toestaan om terug te gaan naar vorige vragen |
+| **Terugnavigatie voorkomen** | Ja / Nee | Leerlingen dwingen om in volgorde te antwoorden zonder terug te gaan |
 
-### Time and Availability
+### Tijd en Beschikbaarheid
 
-| Setting | Description |
-|---------|-------------|
-| **Time limit** | Maximum time (in minutes) to complete the exercise. A countdown timer is shown to the learner |
-| **Start date** | When the exercise becomes available to learners |
-| **End date** | When the exercise stops being available |
+| Instelling | Beschrijving |
+|------------|--------------|
+| **Tijdslimiet** | Maximale tijd (in minuten) om de oefening te voltooien. Een afteltimer wordt aan de leerling getoond |
+| **Startdatum** | Wanneer de oefening beschikbaar wordt voor leerlingen |
+| **Einddatum** | Wanneer de oefening niet langer beschikbaar is |
 
-### Attempts and Scoring
+### Pogingen en Beoordeling
 
-| Setting | Description |
-|---------|-------------|
-| **Maximum attempts** | How many times a learner can take the exercise (0 = unlimited) |
-| **Pass percentage** | The minimum score to pass (e.g., 70%). Learners who do not reach this threshold see a failure message |
-| **Propagate negative scoring** | Whether negative points on individual questions reduce the total score below zero |
+| Instelling | Beschrijving |
+|------------|--------------|
+| **Maximale pogingen** | Hoe vaak een leerling de oefening kan maken (0 = onbeperkt) |
+| **Slagingspercentage** | De minimale score om te slagen (bijv. 70%). Leerlingen die deze drempel niet halen, zien een faalbericht |
+| **Negatieve beoordeling doorvoeren** | Of negatieve punten op individuele vragen het totaal onder nul brengen |
 
 ### Feedback
 
-| Setting | Options |
-|---------|---------|
-| **At the end** | Show results and correct answers after the learner submits |
-| **Immediate** | Show feedback after each question (useful for learning exercises) |
-| **Exam mode** | Do not show any feedback or results |
+| Instelling | Opties |
+|------------|--------|
+| **Aan het einde** | Toon resultaten en juiste antwoorden nadat de leerling heeft ingediend |
+| **Onmiddellijk** | Toon feedback na elke vraag (handig voor leeroefeningen) |
+| **Examenmodus** | Toon geen feedback of resultaten |
 
-### Results Display
+### Resultatenweergave
 
-Control what learners see after completing the exercise:
+Bepaal wat leerlingen zien na het voltooien van de oefening:
 
-* Show score and expected answers
-* Show score only
-* Show score with category breakdown
-* Show ranking among other learners
-* Show only on last attempt
-* Show radar chart visualization
+* Toon score en verwachte antwoorden
+* Toon alleen score
+* Toon score met uitsplitsing per categorie
+* Toon rangschikking onder andere leerlingen
+* Toon alleen bij laatste poging
+* Toon radargrafiekvisualisatie
 
-### Completion Messages
+### Voltooiingsberichten
 
-* **Success message** — Custom text shown when the learner passes
-* **Failure message** — Custom text shown when the learner does not reach the pass percentage
+* **Succesbericht** — Aangepaste tekst die wordt getoond wanneer de leerling slaagt
+* **Faalbericht** — Aangepaste tekst die wordt getoond wanneer de leerling het slagingspercentage niet haalt
 
-### Question Randomization
+### Willekeurige Vragenvolgorde
 
-| Setting | Description |
-|---------|-------------|
-| **Random question order** | Shuffle the order of questions for each attempt |
-| **Random answers** | Shuffle answer options within each question |
-| **Random by category** | Select random questions from each question category |
+| Instelling | Beschrijving |
+|------------|--------------|
+| **Willekeurige vragenvolgorde** | Schud de volgorde van vragen bij elke poging |
+| **Willekeurige antwoorden** | Schud de antwoordopties binnen elke vraag |
+| **Willekeurig per categorie** | Selecteer willekeurige vragen uit elke vraagcategorie |
 
-You can also configure advanced selection strategies that combine categories and randomization.
+U kunt ook geavanceerde selectiestrategieën configureren die categorieën en willekeur combineren.
 
-## Question Types
+## Vraagtypen
 
-![Overview of available question types in the exercise creation interface](/.gitbook/assets/exercise-question-types.png)
+![Overzicht van beschikbare vraagtypen in de interface voor het maken van oefeningen](/.gitbook/assets/exercise-question-types.png)
 
-Chamilo offers a rich set of question types organized into several categories:
+Chamilo biedt een uitgebreide set vraagtypen, georganiseerd in verschillende categorieën:
 
-### Single Choice
+### Enkele Keuze
 
-* **Multiple choice (single answer)** — Learner selects one correct answer from a list of options
-* **Single answer with images** — Same as above, but answer options are displayed as images
+* **Meerkeuze (één antwoord)** — Leerling selecteert één juist antwoord uit een lijst met opties
+* **Enkel antwoord met afbeeldingen** — Hetzelfde als hierboven, maar antwoordopties worden als afbeeldingen weergegeven
 
-### Multiple Choice
+### Meerkeuze
 
-* **Multiple answer** — Learner selects one or more correct answers
-* **Multiple answer (dropdown)** — Answer options are presented as dropdown menus
-* **True/False** — A series of statements that the learner marks as true or false
-* **True/False with degree of certainty** — True/false with an additional confidence level, enabling more nuanced scoring
+* **Meerdere antwoorden** — Leerling selecteert een of meer juiste antwoorden
+* **Meerdere antwoorden (dropdown)** — Antwoordopties worden als dropdownmenu's weergegeven
+* **Waar/Onwaar** — Een reeks stellingen die de leerling als waar of onwaar markeert
+* **Waar/Onwaar met zekerheidsgraad** — Waar/onwaar met een extra zekerheidsniveau, wat een meer genuanceerde beoordeling mogelijk maakt
 
-### Fill in the Blanks
+### Invuloefeningen
 
-* **Fill in the blanks** — Learner completes missing words in a text. You define the blanks and accepted answers when creating the question.
+* **Invullen van de blanco ruimtes** — Leerling vult ontbrekende woorden in een tekst in. U definieert de blanco ruimtes en geaccepteerde antwoorden bij het maken van de vraag.
 
-### Matching
+### Koppelen
 
-* **Matching** — Learner connects items from two columns
-* **Matching (draggable)** — Same concept, but with a drag-and-drop interface
-* **Draggable** — Drag items into the correct positions
+* **Koppelen** — Leerling verbindt items uit twee kolommen
+* **Koppelen (versleepbaar)** — Zelfde concept, maar met een drag-and-drop-interface
+* **Versleepbaar** — Sleep items naar de juiste posities
 
-### Open-Ended
+### Open Vragen
 
-* **Free answer (essay)** — Learner writes a text response. Requires manual grading (or AI-assisted grading if configured)
-* **Oral expression** — Learner records an audio response using their microphone
-* **Upload answer** — Learner uploads a file as their answer
+* **Vrij antwoord (essay)** — Leerling schrijft een tekstantwoord. Vereist handmatige beoordeling (of AI-ondersteunde beoordeling indien geconfigureerd)
+* **Mondelinge expressie** — Leerling neemt een audio-antwoord op met hun microfoon
+* **Antwoord uploaden** — Leerling uploadt een bestand als antwoord
 
 ### Hotspot
 
-* **Hotspot** — Learner clicks on specific areas of an image to answer
-* **Hotspot delineation** — Learner draws boundaries around areas on an image
+* **Hotspot** — Leerling klikt op specifieke gebieden van een afbeelding om te antwoorden
+* **Hotspot-afbakening** — Leerling tekent grenzen rond gebieden op een afbeelding
 
-### Calculated
+### Berekend
 
-* **Calculated answer** — Numerical questions with a formula and tolerance range. Useful for math and science courses.
+* **Berekend antwoord** — Numerieke vragen met een formule en tolerantiebereik. Handig voor wiskunde- en wetenschapsvakken.
 
-### Special
+---
+### Speciaal
 
-* **Reading comprehension** — Tests based on reading a passage
-* **Annotation** — Teacher uploads an image and the learner annotates it
-* **Answer in Office document** — When the OnlyOffice plugin is enabled, the learner answers the question by editing an embedded Office document (Word, Excel, PowerPoint). Their response is saved as a separate file under the exercise so it can be reviewed alongside the rest of their attempt.
+* **Leesbegrip** — Tests gebaseerd op het lezen van een passage
+* **Annotatie** — De docent uploadt een afbeelding en de leerling annoteert deze
+* **Antwoord in Office-document** — Wanneer de OnlyOffice-plugin is ingeschakeld, beantwoordt de leerling de vraag door een ingebed Office-document (Word, Excel, PowerPoint) te bewerken. Hun antwoord wordt opgeslagen als een apart bestand onder de oefening, zodat het samen met de rest van hun poging kan worden beoordeeld.
 
-## Adding Questions to an Exercise
+## Vragen toevoegen aan een oefening
 
-1. Open the exercise and click **Add a question**
-2. Select the question type
-3. Enter the **question text** (supports rich text with images and formatting)
-4. Define the **answers** and their scoring:
-   * For each answer option, specify whether it is correct and how many points it is worth
-   * You can assign negative points to wrong answers to discourage guessing
-5. Optionally add **feedback** — explanations shown to the learner after answering
-6. Set the **difficulty level** and **category** (useful for random selection and reporting)
-7. Save
+1. Open de oefening en klik op **Een vraag toevoegen**
+2. Selecteer het vraagtype
+3. Voer de **vraagtekst** in (ondersteunt rijk opgemaakte tekst met afbeeldingen en opmaak)
+4. Definieer de **antwoorden** en hun score:
+   * Geef voor elke antwoordoptie aan of deze correct is en hoeveel punten deze waard is
+   * Je kunt negatieve punten toekennen aan verkeerde antwoorden om gokken te ontmoedigen
+5. Voeg optioneel **feedback** toe — uitleg die aan de leerling wordt getoond na het beantwoorden
+6. Stel het **moeilijkheidsniveau** en de **categorie** in (handig voor willekeurige selectie en rapportage)
+7. Sla op
 
-## Question Categories
+## Vraagcategorieën
 
-You can organize questions into categories (e.g., "Module 1", "Vocabulary", "Advanced"). Categories are useful for:
+Je kunt vragen indelen in categorieën (bijvoorbeeld "Module 1", "Woordenschat", "Gevorderd"). Categorieën zijn nuttig voor:
 
-* Organizing large question banks
-* Enabling random selection by category (e.g., "5 questions from Module 1, 3 from Module 2")
-* Viewing scores broken down by category in reports
+* Het organiseren van grote vraagbanken
+* Het inschakelen van willekeurige selectie per categorie (bijvoorbeeld "5 vragen uit Module 1, 3 uit Module 2")
+* Het bekijken van scores uitgesplitst per categorie in rapporten
 
-## Question Reuse
+## Hergebruik van vragen
 
-Questions can be reused across exercises within the same course. When adding a question, you can choose to create a new one or select an existing question from the question bank.
+Vragen kunnen worden hergebruikt in verschillende oefeningen binnen dezelfde cursus. Bij het toevoegen van een vraag kun je ervoor kiezen om een nieuwe vraag te maken of een bestaande vraag uit de vraagbank te selecteren.
 
-## Importing Exercises
+## Oefeningen importeren
 
-Chamilo supports importing exercises from external formats:
+Chamilo ondersteunt het importeren van oefeningen vanuit externe formaten:
 
-* **IMS QTI / Common Cartridge** — The standard e-learning quiz format
-* **Moodle format** — Import quizzes from Moodle exports
+* **IMS QTI / Common Cartridge** — Het standaardformaat voor e-learningquizzen
+* **Moodle-formaat** — Importeer quizzen vanuit Moodle-exportbestanden
 
-To import, look for the **Import** option in the exercises tool and upload your file.
+Om te importeren, zoek je naar de optie **Importeren** in de oefeningentool en upload je jouw bestand.
 
 ## Tips
 
-* **Mix question types** — Combine multiple choice, fill-in-the-blanks, and open-ended questions for a comprehensive assessment
-* **Use categories** — Organize questions by topic to enable targeted random selection
-* **Set a pass percentage** — Give learners a clear target and link it to certificate generation via the Gradebook
-* **Use immediate feedback for practice** — Create ungraded practice exercises with immediate feedback to help learners learn from their mistakes
-* **Randomize for integrity** — Enable random question order and random answers to reduce the chance of copying
+* **Combineer vraagtypen** — Combineer meerkeuzevragen, invuloefeningen en open vragen voor een uitgebreide beoordeling
+* **Gebruik categorieën** — Organiseer vragen per onderwerp om gerichte willekeurige selectie mogelijk te maken
+* **Stel een slagingspercentage in** — Geef leerlingen een duidelijk doel en koppel dit aan het genereren van certificaten via het Gradebook
+* **Gebruik directe feedback voor oefening** — Maak onbeoordeelde oefenoefeningen met directe feedback om leerlingen te helpen leren van hun fouten
+* **Randomiseer voor integriteit** — Schakel willekeurige vraagvolgorde en willekeurige antwoorden in om de kans op afkijken te verkleinen

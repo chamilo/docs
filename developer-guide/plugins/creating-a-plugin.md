@@ -1,18 +1,18 @@
-# Creating a Plugin
+# Een Plugin Maken
 
-This guide walks through creating a basic Chamilo plugin. For additional detail, see the [Plugin development wiki page](https://github.com/chamilo/chamilo-lms/wiki/Plugin-development).
+Deze handleiding leidt u door het proces van het maken van een eenvoudige Chamilo-plugin. Voor meer details, zie de [Plugin development wiki-pagina](https://github.com/chamilo/chamilo-lms/wiki/Plugin-development).
 
-## Step 1: Create the Plugin Directory
+## Stap 1: Maak de Plugin-map
 
-Create a directory in `public/plugin/`. The directory name should match your plugin's identifier:
+Maak een map in `public/plugin/`. De mapnaam moet overeenkomen met de identifier van uw plugin:
 
 ```
 public/plugin/MyPlugin/
 ```
 
-## Step 2: Define the Plugin Class
+## Stap 2: Definieer de Plugin-klasse
 
-Create `src/MyPluginPlugin.php`. The class extends `Plugin` and follows the singleton pattern:
+Maak `src/MyPluginPlugin.php` aan. De klasse erft van `Plugin` en volgt het singleton-patroon:
 
 ```php
 <?php
@@ -36,19 +36,19 @@ class MyPluginPlugin extends Plugin
 }
 ```
 
-### Available Setting Types
+### Beschikbare Instellingstypen
 
-| Type | Description |
-|------|-------------|
-| `boolean` | Checkbox on/off |
-| `text` | Single-line text input |
-| `select` | Dropdown (provide `options` array) |
-| `wysiwyg` | Rich text editor |
-| `html` | Raw HTML field |
-| `checkbox` | Checkbox |
-| `user` | User selector |
+| Type      | Beschrijving                |
+|-----------|-----------------------------|
+| `boolean` | Aan/uit-vinkvakje          |
+| `text`    | Tekstinvoer op één regel   |
+| `select`  | Dropdown (lever een `options`-array) |
+| `wysiwyg` | Rich text editor           |
+| `html`    | Ruw HTML-veld              |
+| `checkbox`| Vinkvakje                 |
+| `user`    | Gebruikersselector         |
 
-For `select` settings:
+Voor `select`-instellingen:
 
 ```php
 $settings = [
@@ -60,24 +60,24 @@ $settings = [
 ];
 ```
 
-Access settings at runtime:
+Toegang tot instellingen tijdens runtime:
 
 ```php
 $plugin = MyPluginPlugin::create();
-$key  = $plugin->get('api_key');       // single value
-$all  = $plugin->get_settings();       // all settings
+$key  = $plugin->get('api_key');       // enkele waarde
+$all  = $plugin->get_settings();       // alle instellingen
 ```
 
-## Step 3: Create plugin.php
+## Stap 3: Maak plugin.php
 
-`plugin.php` at the plugin root is **required**. It must assign `$plugin_info`:
+`plugin.php` in de hoofdmap van de plugin is **vereist**. Het moet `$plugin_info` toewijzen:
 
 ```php
 <?php
 $plugin_info = MyPluginPlugin::create()->get_info();
 ```
 
-## Step 4: Create Install and Uninstall Scripts
+## Stap 4: Maak Installatie- en De-installatiescripts
 
 `install.php`:
 
@@ -93,11 +93,11 @@ MyPluginPlugin::create()->install();
 MyPluginPlugin::create()->uninstall();
 ```
 
-Implement the actual schema creation/deletion inside the class using Doctrine's `SchemaTool`.
+Implementeer de daadwerkelijke schema-aanmaak/verwijdering binnen de klasse met behulp van Doctrine's `SchemaTool`.
 
-## Step 5: Add Translations
+## Stap 5: Voeg Vertalingen Toe
 
-Create language files in `lang/` using locale codes (e.g., `en_US.php`, `fr_FR.php`, `es_ES.php`). The fallback is `en_US.php`.
+Maak taalbestanden in `lang/` met behulp van locale-codes (bijv. `en_US.php`, `fr_FR.php`, `es_ES.php`). De fallback is `en_US.php`.
 
 ```php
 <?php
@@ -109,11 +109,11 @@ $strings['api_key']        = 'API Key';
 $strings['api_key_help']   = 'Enter the API key from your account.';
 ```
 
-Access translations via `$plugin->get_lang('key')`.
+Toegang tot vertalingen via `$plugin->get_lang('key')`.
 
-## Step 6: Inject Content via Display Regions
+## Stap 6: Injecteer Inhoud via Weergavegebieden
 
-Plugins can inject HTML into 18 predefined regions of the Vue frontend. Override `renderRegion()` in your class:
+Plugins kunnen HTML injecteren in 18 vooraf gedefinieerde gebieden van de Vue-frontend. Overschrijf `renderRegion()` in uw klasse:
 
 ```php
 public function renderRegion(string $region): string
@@ -125,11 +125,11 @@ public function renderRegion(string $region): string
 }
 ```
 
-Available regions include: `content_bottom`, `content_top`, `course_tool_plugin`, `footer_center`, `footer_left`, `footer_right`, `header_center`, `header_left`, `header_main`, `header_right`, `login_bottom`, `login_top`, `main_bottom`, `main_top`, `menu_administrator`, `menu_bottom`, `menu_top`, `pre_footer`.
+Beschikbare gebieden zijn onder andere: `content_bottom`, `content_top`, `course_tool_plugin`, `footer_center`, `footer_left`, `footer_right`, `header_center`, `header_left`, `header_main`, `header_right`, `login_bottom`, `login_top`, `main_bottom`, `main_top`, `menu_administrator`, `menu_bottom`, `menu_top`, `pre_footer`.
 
-## Step 7: React to Platform Events (Optional)
+## Stap 7: Reageer op Platformgebeurtenissen (Optioneel)
 
-Plugins can react to platform events using Symfony event subscribers. Create a file ending in `EventSubscriber.php` inside `src/EventSubscriber/` — it is auto-registered via `PluginEventSubscriberPass`.
+Plugins kunnen reageren op platformgebeurtenissen met behulp van Symfony event subscribers. Maak een bestand aan dat eindigt op `EventSubscriber.php` in `src/EventSubscriber/` — het wordt automatisch geregistreerd via `PluginEventSubscriberPass`.
 
 ```php
 <?php
@@ -144,7 +144,7 @@ class MyPluginEventSubscriber implements EventSubscriberInterface
 
     public function __construct()
     {
-        // Plugin classes are not Symfony services — use the create() singleton.
+        // Plugin-klassen zijn geen Symfony-services — gebruik de create() singleton.
         $this->plugin = MyPluginPlugin::create();
     }
 
@@ -160,35 +160,35 @@ class MyPluginEventSubscriber implements EventSubscriberInterface
         if (!$this->plugin->isEnabled()) {
             return;
         }
-        // your logic here
+        // uw logica hier
     }
 }
 ```
 
-See `src/CoreBundle/Event/Events.php` for the full list of available events (user, course, session, LP, exercise, portfolio, authentication, and more).
+Zie `src/CoreBundle/Event/Events.php` voor de volledige lijst van beschikbare gebeurtenissen (gebruiker, cursus, sessie, LP, oefening, portfolio, authenticatie en meer).
 
-## Step 8: Lifecycle Hooks
+## Stap 8: Levenscyclus-hooks
 
-Override these methods in your plugin class to respond to platform actions:
+ Overschrijf deze methoden in je plugin-klasse om te reageren op platformacties:
 
-| Method | Triggered when |
-|--------|----------------|
-| `install()` | Plugin is activated |
-| `uninstall()` | Plugin is removed |
-| `performActionsAfterConfigure()` | Admin saves the config form |
-| `course_settings_updated(array $values)` | Course-level settings change |
-| `validateCourseSetting(string $variable)` | Course setting saved (return `false` to reject) |
-| `doWhenDeletingUser(int $userId)` | A user is deleted |
-| `doWhenDeletingCourse(int $courseId)` | A course is deleted |
-| `doWhenDeletingSession(int $sessionId)` | A session is deleted |
+| Methode | Getriggerd wanneer |
+|--------|---------------------|
+| `install()` | Plugin wordt geactiveerd |
+| `uninstall()` | Plugin wordt verwijderd |
+| `performActionsAfterConfigure()` | Beheerder slaat het configuratieformulier op |
+| `course_settings_updated(array $values)` | Instellingen op cursusniveau wijzigen |
+| `validateCourseSetting(string $variable)` | Cursusinstelling opgeslagen (retourneer `false` om te weigeren) |
+| `doWhenDeletingUser(int $userId)` | Een gebruiker wordt verwijderd |
+| `doWhenDeletingCourse(int $courseId)` | Een cursus wordt verwijderd |
+| `doWhenDeletingSession(int $sessionId)` | Een sessie wordt verwijderd |
 
-## Step 9: Activate
+## Stap 9: Activeren
 
-Log in as administrator, navigate to **Manage plugins**, find your plugin, and click **Activate**.
+Log in als beheerder, navigeer naar **Plugins beheren**, zoek je plugin en klik op **Activeren**.
 
 ## Tips
 
-* **Follow existing plugins as examples** — `public/plugin/HelloWorld/` and `public/plugin/TopLinks/` are good simple references
-* **Use translations** — Always use the `lang/` system for user-facing text
-* **Clean up on uninstall** — Remove database tables and settings in the uninstall script
-* **Check enabled state** — In event subscribers, always call `$this->plugin->isEnabled()` before executing logic
+* **Volg bestaande plugins als voorbeeld** — `public/plugin/HelloWorld/` en `public/plugin/TopLinks/` zijn goede eenvoudige referenties
+* **Gebruik vertalingen** — Gebruik altijd het `lang/`-systeem voor tekst die gebruikers zien
+* **Ruim op bij de-installatie** — Verwijder databasetabellen en instellingen in het de-installatiescript
+* **Controleer de ingeschakelde status** — Roep in gebeurtenisabonnees altijd `$this->plugin->isEnabled()` aan voordat je logica uitvoert

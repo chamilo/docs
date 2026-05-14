@@ -1,26 +1,26 @@
-# Branches and Rooms
+# Vestigingen en Ruimtes
 
-Chamilo includes a basic physical location system built around two concepts: **branches** and **rooms**.
+Chamilo bevat een eenvoudig systeem voor fysieke locaties dat is opgebouwd rond twee concepten: **vestigingen** en **ruimtes**.
 
-A **branch** represents a physical site or campus — for example, a main office, a regional training centre, or a university building. Branches can be nested (a building can contain departments, a city can contain buildings). Each branch can contain one or more **rooms**, which represent individual classrooms or lab spaces within that branch.
+Een **vestiging** vertegenwoordigt een fysieke locatie of campus — bijvoorbeeld een hoofdkantoor, een regionaal trainingscentrum of een universiteitsgebouw. Vestigingen kunnen genest zijn (een gebouw kan afdelingen bevatten, een stad kan gebouwen bevatten). Elke vestiging kan een of meer **ruimtes** bevatten, die individuele klaslokalen of laboratoriumruimtes binnen die vestiging vertegenwoordigen.
 
-This feature is still in early stages. At this point its main practical use is letting you attach a physical location marker to a course.
+Deze functie bevindt zich nog in een vroeg stadium. Op dit moment is het belangrijkste praktische nut dat u een fysieke locatiemarkering aan een cursus kunt koppelen.
 
-## Assigning a Room to a Course
+## Een Ruimte Toewijzen aan een Cursus
 
-When creating a course, if your administrator has already set up rooms, a **Default room** field appears in the course creation form. Select the room where the course takes place.
+Bij het aanmaken van een cursus, als uw beheerder al ruimtes heeft ingesteld, verschijnt er een veld **Standaardruimte** in het cursusaanmaakformulier. Selecteer de ruimte waar de cursus plaatsvindt.
 
-This information is informational — it does not affect course behaviour or access control. It simply records where the course is physically held, which can help administrators manage room scheduling and view room occupation across courses.
+Deze informatie is puur informatief — het heeft geen invloed op het gedrag van de cursus of toegangscontrole. Het registreert simpelweg waar de cursus fysiek wordt gehouden, wat beheerders kan helpen bij het beheren van ruimteschema's en het bekijken van de bezetting van ruimtes over cursussen heen.
 
-If no rooms have been configured on your platform, the field will not appear.
+Als er geen ruimtes zijn geconfigureerd op uw platform, zal dit veld niet verschijnen.
 
-## What Administrators Can Do
+## Wat Beheerders Kunnen Doen
 
-Branch and room management is handled entirely by administrators. They can:
+Het beheer van vestigingen en ruimtes wordt volledig door beheerders afgehandeld. Zij kunnen:
 
-- Create and organise branches in a tree hierarchy
-- Add rooms to branches, with optional geolocation and IP range data
-- View which courses are assigned to each room
-- View a room's occupation calendar based on attendance entries
+- Vestigingen aanmaken en organiseren in een boomstructuur
+- Ruimtes toevoegen aan vestigingen, met optionele geolocatie- en IP-bereikgegevens
+- Bekijken welke cursussen aan elke ruimte zijn toegewezen
+- Een bezettingskalender van een ruimte bekijken op basis van aanwezigheidsregistraties
 
-If you need a room created or need your course moved to a different room, contact your platform administrator.
+Als u een ruimte wilt laten aanmaken of uw cursus naar een andere ruimte wilt verplaatsen, neem dan contact op met uw platformbeheerder.

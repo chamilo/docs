@@ -1,57 +1,57 @@
-# User Roles
+# Gebruikersrollen
 
-Chamilo uses a role-based permission system. Each user is assigned a role that determines what they can see and do on the platform.
+Chamilo maakt gebruik van een op rollen gebaseerd toestemmingssysteem. Elke gebruiker krijgt een rol toegewezen die bepaalt wat zij kunnen zien en doen op het platform.
 
-## Platform-Level Roles
+## Platformniveau-rollen
 
-These roles control access to platform-wide features:
+Deze rollen bepalen de toegang tot platformbrede functies:
 
-| Role |  Description |
+| Rol | Beschrijving |
 |------|------------|
-| **Learner (Student)** | The default role. Can enroll in courses, access learning content, submit assignments, and take exercises. |
-| **Teacher (Trainer)** | Can create and manage courses, add content, grade students, and view course-level reports. |
-| **Sessions Administrator** | Can create and manage sessions (i.e. time-based course packages), enroll users in sessions, and assign coaches. Cannot access general platform settings. |
-| **Human Resources Manager (HRM)** | Can view tracking and reporting data for assigned users. Used for supervisors who need to monitor employee training but not manage content nor the platform. |
-| **Portal Administrator** | Full access to all platform administration features. Can manage users, courses, sessions, plugins, and all settings. |
-| **Global Administrator** | Same as Portal Administrator but with access across all access URLs in a multi-URL (i.e. multi-tenant) setup. |
-| **Anonymous** | A special role for visitors who are not logged in. Can access public courses and content if enabled. |
+| **Leerling (Student)** | De standaardrol. Kan zich inschrijven voor cursussen, toegang krijgen tot leermateriaal, opdrachten indienen en oefeningen maken. |
+| **Docent (Trainer)** | Kan cursussen aanmaken en beheren, inhoud toevoegen, leerlingen beoordelen en cursusrapportages bekijken. |
+| **Sessiesbeheerder** | Kan sessies aanmaken en beheren (d.w.z. tijdgebonden cursuspakketten), gebruikers inschrijven voor sessies en coaches toewijzen. Heeft geen toegang tot algemene platforminstellingen. |
+| **Personeelsmanager (HRM)** | Kan tracking- en rapportagegegevens bekijken voor toegewezen gebruikers. Wordt gebruikt voor supervisors die de training van medewerkers moeten volgen, maar geen inhoud of platform hoeven te beheren. |
+| **Portaalbeheerder** | Volledige toegang tot alle beheerdersfuncties van het platform. Kan gebruikers, cursussen, sessies, plugins en alle instellingen beheren. |
+| **Globale Beheerder** | Hetzelfde als Portaalbeheerder, maar met toegang tot alle toegang-URL's in een multi-URL (d.w.z. multi-tenant) opstelling. |
+| **Anoniem** | Een speciale rol voor bezoekers die niet zijn ingelogd. Kan toegang krijgen tot openbare cursussen en inhoud als dit is ingeschakeld. |
 
-## Course-Level Roles
+## Cursusniveau-rollen
 
-Within a course, users have specific roles:
+Binnen een cursus hebben gebruikers specifieke rollen:
 
-| Role | Description |
+| Rol | Beschrijving |
 |------|-------------|
-| **Student** | Default course role. Can access content, take exercises, submit assignments. |
-| **Course assistant** | Has limited management permissions within the course. Can help manage content and moderate forums. |
-| **Teacher** | Full control over the course: manage content, tools, settings, and enrollment. |
+| **Student** | Standaard cursusrol. Kan inhoud bekijken, oefeningen maken en opdrachten indienen. |
+| **Cursusassistent** | Heeft beperkte beheermogelijkheden binnen de cursus. Kan helpen met het beheren van inhoud en het modereren van forums. |
+| **Docent** | Volledige controle over de cursus: inhoud, tools, instellingen en inschrijvingen beheren. |
 
-## Session-Level Roles
+## Sessieniveau-rollen
 
-Within a session, additional roles exist:
+Binnen een sessie bestaan aanvullende rollen:
 
-| Role | Description |
+| Rol | Beschrijving |
 |------|-------------|
-| **Session tutor** | Oversees all courses within a session. Can view tracking across all courses in the session. |
-| **Course tutor** | Teaches a specific course within a session. Can manage content and track learners for that course in that session. |
+| **Sessietutor** | Houdt toezicht op alle cursussen binnen een sessie. Kan tracking bekijken voor alle cursussen in de sessie. |
+| **Cursustutor** | Geeft les in een specifieke cursus binnen een sessie. Kan inhoud beheren en leerlingen volgen voor die cursus in die sessie. |
 
-Note: The coach and tutor names are very similar in meaning and are generally dependent on the organization. We use both terms interchangeably in Chamilo 2.0, but most of the time we mean tutor, a person that will help you learn from the course, not a personal coach. We might use "tutor" exclusively in the future.
+Opmerking: De termen coach en tutor zijn qua betekenis zeer vergelijkbaar en zijn over het algemeen afhankelijk van de organisatie. We gebruiken beide termen door elkaar in Chamilo 2.0, maar meestal bedoelen we tutor, een persoon die je helpt leren van de cursus, geen persoonlijke coach. Mogelijk gebruiken we in de toekomst uitsluitend "tutor".
 
-## Assigning Roles
+## Rollen toewijzen
 
-When creating or editing a user account in the administration panel, you select their platform-level role. Course and session roles are assigned when enrolling users in courses or sessions.
+Bij het aanmaken of bewerken van een gebruikersaccount in het beheerpaneel selecteer je hun platformniveau-rol. Cursus- en sessierollen worden toegewezen bij het inschrijven van gebruikers in cursussen of sessies.
 
-## Role Hierarchy
+## Rolhiërarchie
 
-Higher-privileged roles inherit the capabilities of lower-privileged roles:
+Rollen met hogere privileges erven de mogelijkheden van rollen met lagere privileges:
 
-* An administrator can do everything a teacher can do
-* A teacher can do everything a student can do
-* Session-level roles (coach) provide additional capabilities only within their assigned session
+* Een beheerder kan alles doen wat een docent kan doen
+* Een docent kan alles doen wat een student kan doen
+* Sessieniveau-rollen (coach) bieden extra mogelijkheden alleen binnen hun toegewezen sessie
 
 ## Tips
 
-* **Use the principle of least privilege** — Assign users the minimum role they need to perform their tasks
-* **Use Sessions Administrators** for delegated management — If you have staff who need to manage training sessions but not the entire platform, give them the Sessions Administrator role instead of full administrator access
-* **Use HRM for supervisors** — Human Resources Managers can monitor training progress without having access to modify courses or platform settings
-* **Roles creation** — Chamilo 2.x has the internal structure ready for the creation of new roles, but the feature lacks more testing for wide release. It can be enabled through [Official providers of Chamilo](https://chamilo.org/providers).
+* **Gebruik het principe van minimale privileges** — Wijs gebruikers de minimale rol toe die ze nodig hebben om hun taken uit te voeren
+* **Gebruik Sessiesbeheerders voor gedelegeerd beheer** — Als je personeel hebt dat trainingssessies moet beheren maar niet het hele platform, geef ze dan de rol van Sessiesbeheerder in plaats van volledige beheerdersrechten
+* **Gebruik HRM voor supervisors** — Personeelsmanagers kunnen de voortgang van trainingen volgen zonder toegang te hebben tot het wijzigen van cursussen of platforminstellingen
+* **Rollen aanmaken** — Chamilo 2.x heeft de interne structuur klaar voor het aanmaken van nieuwe rollen, maar de functie behoeft nog meer testen voor brede release. Het kan worden ingeschakeld via [Official providers of Chamilo](https://chamilo.org/providers).

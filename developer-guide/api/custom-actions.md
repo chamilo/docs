@@ -1,137 +1,138 @@
-# Custom Actions
+# Aangepaste Acties
 
-Beyond standard CRUD operations, Chamilo has a number of custom API action controllers (in the order of dozens) that handle specialized operations. The exact count varies between releases — list `src/CoreBundle/Controller/Api/` for the current set.
+Naast standaard CRUD-operaties heeft Chamilo een aantal aangepaste API-actiecontrollers (in de orde van tientallen) die gespecialiseerde operaties afhandelen. Het exacte aantal varieert tussen releases — bekijk `src/CoreBundle/Controller/Api/` voor de huidige set.
 
-## Location
+## Locatie
 
-Custom actions are in `src/CoreBundle/Controller/Api/`.
+Aangepaste acties bevinden zich in `src/CoreBundle/Controller/Api/`.
 
-## Notable Custom Actions
+## Opmerkelijke Aangepaste Acties
 
-### Documents
+### Documenten
 
-| Controller | Purpose |
-|-----------|---------|
-| `CreateDocumentFileAction` | Upload a file or create a folder/link document |
-| `UpdateDocumentFileAction` | Replace a document's file |
-| `ReplaceDocumentFileAction` | Replace a document file, preserving its IDs |
-| `MoveDocumentAction` | Move a document to a different folder |
-| `UpdateVisibilityDocument` | Toggle document visibility for learners |
-| `DownloadAllDocumentsAction` | Download all documents in a folder as a ZIP |
-| `DownloadSelectedDocumentsAction` | Download a selected set of documents as a ZIP |
-| `DocumentUsageAction` | List courses/sessions where a document is used |
-| `DocumentLearningPathUsageAction` | List learning paths where a document is used |
+| Controller | Doel |
+|-----------|------|
+| `CreateDocumentFileAction` | Een bestand uploaden of een map/linkdocument aanmaken |
+| `UpdateDocumentFileAction` | Het bestand van een document vervangen |
+| `ReplaceDocumentFileAction` | Een documentbestand vervangen, met behoud van de ID's |
+| `MoveDocumentAction` | Een document naar een andere map verplaatsen |
+| `UpdateVisibilityDocument` | De zichtbaarheid van een document voor leerlingen in- of uitschakelen |
+| `DownloadAllDocumentsAction` | Alle documenten in een map als ZIP downloaden |
+| `DownloadSelectedDocumentsAction` | Een geselecteerde set documenten als ZIP downloaden |
+| `DocumentUsageAction` | Lijst van cursussen/sessies waar een document wordt gebruikt |
+| `DocumentLearningPathUsageAction` | Lijst van leerpaden waar een document wordt gebruikt |
 
-### Glossary
+### Woordenlijst
 
-| Controller | Purpose |
-|-----------|---------|
-| `CreateCGlossaryAction` | Create a glossary term |
-| `UpdateCGlossaryAction` | Update a glossary term |
-| `ExportCGlossaryAction` | Export glossary to file |
-| `ImportCGlossaryAction` | Import glossary from file |
-| `ExportGlossaryToDocumentsAction` | Export glossary as a document in the course |
-| `GetGlossaryCollectionController` | Get glossary collection with custom filtering |
+| Controller | Doel |
+|-----------|------|
+| `CreateCGlossaryAction` | Een woordenlijstterm aanmaken |
+| `UpdateCGlossaryAction` | Een woordenlijstterm bijwerken |
+| `ExportCGlossaryAction` | Woordenlijst exporteren naar een bestand |
+| `ImportCGlossaryAction` | Woordenlijst importeren uit een bestand |
+| `ExportGlossaryToDocumentsAction` | Woordenlijst exporteren als document in de cursus |
+| `GetGlossaryCollectionController` | Woordenlijstverzameling ophalen met aangepaste filtering |
 
 ### Links
 
-| Controller | Purpose |
-|-----------|---------|
-| `CreateCLinkAction` | Create an external link |
-| `UpdateCLinkAction` | Update an external link |
-| `CreateCLinkCategoryAction` | Create a link category |
-| `UpdateCLinkCategoryAction` | Update a link category |
-| `CheckCLinkAction` | Check whether a link URL is reachable |
-| `ExportCLinksAction` | Export links to file |
-| `CLinkDetailsController` | Get link details |
-| `CLinkImageController` | Get or set a link's preview image |
-| `GetLinksCollectionController` | Get links collection with custom filtering |
-| `UpdateVisibilityLink` | Toggle link visibility |
-| `UpdateVisibilityLinkCategory` | Toggle link category visibility |
-| `UpdatePositionLink` | Reorder links |
+| Controller | Doel |
+|-----------|------|
+| `CreateCLinkAction` | Een externe link aanmaken |
+| `UpdateCLinkAction` | Een externe link bijwerken |
+| `CreateCLinkCategoryAction` | Een linkcategorie aanmaken |
+| `UpdateCLinkCategoryAction` | Een linkcategorie bijwerken |
+| `CheckCLinkAction` | Controleren of een link-URL bereikbaar is |
+| `ExportCLinksAction` | Links exporteren naar een bestand |
+| `CLinkDetailsController` | Linkdetails ophalen |
+| `CLinkImageController` | Een voorbeeldafbeelding van een link ophalen of instellen |
+| `GetLinksCollectionController` | Linkverzameling ophalen met aangepaste filtering |
+| `UpdateVisibilityLink` | Zichtbaarheid van een link in- of uitschakelen |
+| `UpdateVisibilityLinkCategory` | Zichtbaarheid van een linkcategorie in- of uitschakelen |
+| `UpdatePositionLink` | Links opnieuw ordenen |
 
-### Learning Paths
+### Leerpaden
 
-| Controller | Purpose |
-|-----------|---------|
-| `CreateCLpAction` | Create a learning path |
-| `LpReorderController` | Reorder learning path items |
+| Controller | Doel |
+|-----------|------|
+| `CreateCLpAction` | Een leerpad aanmaken |
+| `LpReorderController` | Items in een leerpad opnieuw ordenen |
 
-### Calendar
+### Kalender
 
-| Controller | Purpose |
-|-----------|---------|
-| `UpdateCCalendarEventAction` | Update a course calendar event |
-| `CalendarMyStudentsScheduleAction` | Get the schedule of a teacher's students |
+| Controller | Doel |
+|-----------|------|
+| `UpdateCCalendarEventAction` | Een cursuskalendergebeurtenis bijwerken |
+| `CalendarMyStudentsScheduleAction` | Het rooster van de studenten van een docent ophalen |
 
 ### Blog
 
-| Controller | Purpose |
-|-----------|---------|
-| `CreateCBlogAction` | Create a blog post |
-| `CreateBlogAttachmentAction` | Attach a file to a blog post |
-| `UpdateVisibilityBlog` | Toggle blog visibility |
+| Controller | Doel |
+|-----------|------|
+| `CreateCBlogAction` | Een blogbericht aanmaken |
+| `CreateBlogAttachmentAction` | Een bestand aan een blogbericht koppelen |
+| `UpdateVisibilityBlog` | Zichtbaarheid van een blog in- of uitschakelen |
 
 ### Dropbox
 
-| Controller | Purpose |
-|-----------|---------|
-| `CreateDropboxFileAction` | Upload a file to the dropbox (file exchange tool) |
+| Controller | Doel |
+|-----------|------|
+| `CreateDropboxFileAction` | Een bestand uploaden naar de dropbox (bestandsuitwisselingstool) |
 
-### Student Work (Assignments)
+### Studentenwerk (Opdrachten)
 
-| Controller | Purpose |
-|-----------|---------|
-| `CreateStudentPublicationFileAction` | Submit an assignment file |
-| `CreateStudentPublicationCommentAction` | Add a comment to a submission |
-| `CreateStudentPublicationCorrectionFileAction` | Upload a correction file for a submission |
+| Controller | Doel |
+|-----------|------|
+| `CreateStudentPublicationFileAction` | Een opdrachtbestand indienen |
+| `CreateStudentPublicationCommentAction` | Een opmerking toevoegen aan een inzending |
+| `CreateStudentPublicationCorrectionFileAction` | Een correctiebestand uploaden voor een inzending |
 
-### Personal Files
+### Persoonlijke Bestanden
 
-| Controller | Purpose |
-|-----------|---------|
-| `CreatePersonalFileAction` | Upload a file to the user's personal file space |
-| `UpdatePersonalFileAction` | Update a personal file |
+| Controller | Doel |
+|-----------|------|
+| `CreatePersonalFileAction` | Een bestand uploaden naar de persoonlijke bestandsruimte van de gebruiker |
+| `UpdatePersonalFileAction` | Een persoonlijk bestand bijwerken |
 
-### Social
+### Sociaal
 
-| Controller | Purpose |
-|-----------|---------|
-| `LikeSocialPostController` | Like a social post |
-| `DislikeSocialPostController` | Unlike a social post |
-| `CreateSocialPostAttachmentAction` | Attach a file to a social post |
-| `SocialPostAttachmentsController` | List attachments on a social post |
-| `AbstractFeedbackSocialPostController` | Base class for social post feedback actions |
+| Controller | Doel |
+|-----------|------|
+| `LikeSocialPostController` | Een sociaal bericht liken |
+| `DislikeSocialPostController` | Een sociaal bericht niet meer liken |
+| `CreateSocialPostAttachmentAction` | Een bestand aan een sociaal bericht koppelen |
+| `SocialPostAttachmentsController` | Bijlagen bij een sociaal bericht weergeven |
+| `AbstractFeedbackSocialPostController` | Basisklasse voor feedbackacties op sociale berichten |
 
-### Sessions
+### Sessies
 
-| Controller | Purpose |
-|-----------|---------|
-| `CreateSessionWithUsersAndCoursesAction` | Create a session and enrol users and courses in one call |
+| Controller | Doel |
+|-----------|------|
+| `CreateSessionWithUsersAndCoursesAction` | Een sessie aanmaken en gebruikers en cursussen in één oproep inschrijven |
 
-### Users & Access URLs
+### Gebruikers & Toegangs-URL's
 
-| Controller | Purpose |
-|-----------|---------|
-| `CreateUserOnAccessUrlAction` | Create a user and associate them with an access URL |
-| `UserAccessUrlsController` | List access URLs a user belongs to |
-| `UserSkillsController` | List skills awarded to a user |
+| Controller | Doel |
+|-----------|------|
+| `CreateUserOnAccessUrlAction` | Een gebruiker aanmaken en koppelen aan een toegangs-URL |
+| `UserAccessUrlsController` | Lijst van toegangs-URL's waartoe een gebruiker behoort |
+| `UserSkillsController` | Lijst van vaardigheden die aan een gebruiker zijn toegekend |
 
-### Video Conference
+### Videoconferentie
 
-| Controller | Purpose |
-|-----------|---------|
-| `VideoConferenceCallbackController` | Handle callbacks from external video conference providers |
+| Controller | Doel |
+|-----------|------|
+| `VideoConferenceCallbackController` | Callbacks van externe videoconferentieproviders afhandelen |
 
-### Base Classes
+### Basisklassen
 
-| Class | Purpose |
-|-------|---------|
-| `BaseResourceFileAction` | Base class for file-upload actions; handles multipart parsing, resource node creation, and storage |
+| Klasse | Doel |
+|-------|------|
+| `BaseResourceFileAction` | Basisklasse voor bestand-uploadacties; behandelt multipart parsing, aanmaken van resource nodes en opslag |
 
-## Implementing a Custom Action
+---
+## Een Aangepaste Actie Implementeren
 
-Custom actions are standard Symfony controllers referenced in API Platform operation definitions. The `#[ApiResource]` attribute lives on the **entity**, and each operation's `controller:` parameter points to the action class:
+Aangepaste acties zijn standaard Symfony-controllers die worden gerefereerd in de operationele definities van API Platform. Het `#[ApiResource]`-attribuut bevindt zich op de **entiteit**, en de `controller:`-parameter van elke operatie verwijst naar de actieklasse:
 
 ```php
 // On the entity class (e.g. src/CourseBundle/Entity/CDocument.php):
@@ -152,7 +153,7 @@ Custom actions are standard Symfony controllers referenced in API Platform opera
 class CDocument extends AbstractResource { ... }
 ```
 
-The action class itself is a plain invokable controller — services are injected via `__invoke()` method arguments:
+De actieklasse zelf is een eenvoudige aanroepbare controller — services worden geïnjecteerd via argumenten van de `__invoke()`-methode:
 
 ```php
 namespace Chamilo\CoreBundle\Controller\Api;
@@ -172,7 +173,7 @@ final class CreateDocumentFileAction extends BaseResourceFileAction
 }
 ```
 
-Key points:
-- `deserialize: false` is set when the action reads the request directly (e.g. multipart file uploads) instead of letting API Platform deserialize a JSON body.
-- File-upload actions typically extend `BaseResourceFileAction`, which handles multipart parsing and resource node wiring.
-- Security is enforced via the `security:` parameter on the operation, not inside the controller.
+Belangrijke punten:
+- `deserialize: false` wordt ingesteld wanneer de actie de aanvraag direct leest (bijvoorbeeld bij multipart-bestandsuploads) in plaats van API Platform een JSON-body te laten deserialiseren.
+- Acties voor bestandsuploads erven doorgaans van `BaseResourceFileAction`, dat multipart-parsing en resource node-koppeling afhandelt.
+- Beveiliging wordt afgedwongen via de `security:`-parameter op de operatie, niet binnen de controller.

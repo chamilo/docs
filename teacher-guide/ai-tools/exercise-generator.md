@@ -1,59 +1,59 @@
-# Exercise Generator
+# Oefeningengenerator
 
-The AI Exercise Generator helps you create quiz questions automatically using artificial intelligence. You provide a topic or content, and the AI generates questions that you can review, edit, and add to your exercises.
+De AI Oefeningengenerator helpt u om automatisch quizvragen te maken met behulp van kunstmatige intelligentie. U geeft een onderwerp of inhoud op, en de AI genereert vragen die u kunt bekijken, bewerken en toevoegen aan uw oefeningen.
 
-## Accessing the Exercise Generator
+## Toegang tot de Oefeningengenerator
 
-The Exercise Generator is available when creating or editing an exercise, provided that:
+De Oefeningengenerator is beschikbaar bij het maken of bewerken van een oefening, op voorwaarde dat:
 
-1. AI helpers are enabled at the platform level
-2. At least one AI text provider is configured
+1. AI-helpers op platformniveau zijn ingeschakeld
+2. Ten minste één AI-tekstprovider is geconfigureerd
 
-Look for the **AI Generator** button or section within the exercise creation interface.
+Zoek naar de knop of sectie **AI Generator** binnen de interface voor het maken van oefeningen.
 
-## How to Generate Questions
+## Hoe vragen genereren
 
-![The AI exercise generator form with fields for topic and number of questions](/.gitbook/assets/ai-exercise-generator.png)
+![Het formulier van de AI-oefeningengenerator met velden voor onderwerp en aantal vragen](/.gitbook/assets/ai-exercise-generator.png)
 
-The generator offers two modes, available as tabs:
+De generator biedt twee modi, beschikbaar als tabbladen:
 
-* **Test from topic** — Generate questions from a textual topic description
-* **Test from document** — Generate questions from a course document (only available when a document-capable provider is configured). When this mode is used, the topic field becomes optional and is treated as an extra hint.
+* **Test vanuit onderwerp** — Genereer vragen vanuit een tekstuele beschrijving van een onderwerp
+* **Test vanuit document** — Genereer vragen vanuit een cursusdocument (alleen beschikbaar wanneer een provider die documenten ondersteunt is geconfigureerd). In deze modus wordt het onderwerpsveld optioneel en wordt het behandeld als een extra hint.
 
-1. Open the AI Generator form within an exercise and pick the mode
-2. Configure the generation parameters:
-   * **Quiz title** — The title for the resulting exercise
-   * **Questions topic** — Describe what the questions should be about (or, in document mode, an optional hint)
-   * **Number of questions** — How many questions to generate (capped at 100)
-   * **Question type** — Currently only **Multiple answer** is offered
-   * **AI provider** — Select which AI provider to use (only shown when more than one is configured)
-3. Click **Generate**
-4. The AI produces a set of questions with answer options and correct answers marked. When AI disclosure is enabled, generated questions are prefixed with **\[AI-assisted\]**.
+1. Open het AI Generator-formulier binnen een oefening en kies de modus
+2. Configureer de generatieparameters:
+   * **Quiztitel** — De titel voor de resulterende oefening
+   * **Onderwerp van vragen** — Beschrijf waar de vragen over moeten gaan (of, in documentmodus, een optionele hint)
+   * **Aantal vragen** — Hoeveel vragen moeten worden gegenereerd (beperkt tot 100)
+   * **Vraagtype** — Momenteel wordt alleen **Meerkeuze** aangeboden
+   * **AI-provider** — Selecteer welke AI-provider u wilt gebruiken (alleen weergegeven wanneer er meer dan één is geconfigureerd)
+3. Klik op **Genereren**
+4. De AI produceert een set vragen met antwoordopties en gemarkeerde juiste antwoorden. Wanneer AI-openbaarmaking is ingeschakeld, worden gegenereerde vragen voorafgegaan door **\[AI-ondersteund\]**.
 
-## Reviewing and Editing
+## Beoordelen en bewerken
 
-![AI-generated questions displayed for review with options to edit, accept, or remove each one](/.gitbook/assets/ai-exercise-generator-results.png)
+![AI-gegenereerde vragen weergegeven ter beoordeling met opties om elke vraag te bewerken, accepteren of verwijderen](/.gitbook/assets/ai-exercise-generator-results.png)
 
-Generated questions are presented as **suggestions**. You should:
+Gegenereerde vragen worden gepresenteerd als **suggesties**. U dient:
 
-* **Review each question** for accuracy and relevance
-* **Edit the wording** if needed — adjust questions, answer options, and feedback
-* **Verify correct answers** — make sure the AI has identified the right answers
-* **Remove unsuitable questions** — delete any that don't meet your standards
-* **Adjust scoring** — set appropriate point values for each question
+* **Elke vraag te beoordelen** op nauwkeurigheid en relevantie
+* **De formulering aan te passen** indien nodig — pas vragen, antwoordopties en feedback aan
+* **Juiste antwoorden te verifiëren** — zorg ervoor dat de AI de juiste antwoorden heeft geïdentificeerd
+* **Ongeschikte vragen te verwijderen** — verwijder vragen die niet aan uw normen voldoen
+* **De puntentoekenning aan te passen** — stel geschikte puntwaarden in voor elke vraag
 
-Once you are satisfied, add the questions to your exercise.
+Zodra u tevreden bent, voegt u de vragen toe aan uw oefening.
 
-Note that despite our specific format requests, some models will return question titles prefixed by a number. We don't recommend leaving that number there as this will hinder the mix of questions in tests with randomly selected questions. Also, sometimes you don't get as many questions as you've asked, so make sure you check that and potentially generate more questions, or change model if you have that possibility.
+Houd er rekening mee dat, ondanks onze specifieke formaatverzoeken, sommige modellen vraagtitels retourneren die voorafgegaan worden door een nummer. We raden af om dat nummer te laten staan, omdat dit de mix van vragen in tests met willekeurig geselecteerde vragen kan belemmeren. Soms krijgt u ook niet zoveel vragen als u heeft gevraagd, dus controleer dit en genereer eventueel meer vragen, of wijzig de provider als u die mogelijkheid heeft.
 
-## AI-Generated Content Disclosure
+## Openbaarmaking van AI-gegenereerde inhoud
 
-Content generated by AI is labeled with a disclosure notice, indicating that it was created using artificial intelligence. This transparency helps learners understand the origin of the material.
+Inhoud die door AI is gegenereerd, wordt gelabeld met een openbaarmakingsbericht, waarin wordt aangegeven dat deze is gemaakt met behulp van kunstmatige intelligentie. Deze transparantie helpt leerlingen de oorsprong van het materiaal te begrijpen.
 
 ## Tips
 
-* **Provide specific topics** — The more specific your topic description, the more relevant the generated questions will be.
-* **Always review** — AI-generated content may contain errors. Never publish questions without reviewing them first.
-* **Use as a starting point** — Generated questions are a time-saver, not a finished product. Edit them to match your teaching style and course content.
-* **Mix with manual questions** — Combine AI-generated questions with manually created ones for the best results.
-* **Try different providers** — If multiple AI providers are available, try different ones to see which produces the best questions for your subject area.
+* **Geef specifieke onderwerpen op** — Hoe specifieker uw onderwerpbeschrijving, hoe relevanter de gegenereerde vragen zullen zijn.
+* **Altijd beoordelen** — AI-gegenereerde inhoud kan fouten bevatten. Publiceer nooit vragen zonder ze eerst te controleren.
+* **Gebruik als startpunt** — Gegenereerde vragen besparen tijd, maar zijn geen afgewerkt product. Bewerk ze om ze aan te passen aan uw lesstijl en cursusinhoud.
+* **Combineer met handmatige vragen** — Combineer AI-gegenereerde vragen met handmatig gemaakte vragen voor de beste resultaten.
+* **Probeer verschillende providers** — Als er meerdere AI-providers beschikbaar zijn, probeer dan verschillende om te zien welke de beste vragen produceert voor uw vakgebied.

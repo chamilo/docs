@@ -1,74 +1,75 @@
-# Glossary
+# Woordenlijst
 
-Key terms used in Chamilo 2.0 administration.
+Belangrijke termen die worden gebruikt in de administratie van Chamilo 2.0.
 
-## Platform Concepts
+## Platformconcepten
 
-| Term | Definition |
-|------|------------|
-| **Access URL** | In a multi-URL setup, each access URL is a separate virtual portal sharing the same Chamilo installation and database. Each URL can have its own branding, users, courses, and settings. |
-| **Course** | The fundamental content container in Chamilo. A course holds learning materials, exercises, forums, and other tools. Courses can exist independently or be assigned to sessions. |
-| **Session** | A time-bound instance of one or more courses. Sessions allow the same course content to be delivered to different groups of learners with separate tracking and independent coaches. |
-| **Learning path** | A structured sequence of content items (documents, exercises, links, SCORM modules) that guides learners through material in a defined order. |
-| **Gradebook** | An aggregation tool that combines scores from exercises, assignments, and other activities into a weighted final grade for a course. |
-| **Skill** | A competency or badge that can be awarded to learners upon completing specific courses, exercises, or achieving gradebook thresholds. |
-| **Extra field** | A custom data field added by administrators to users, courses, or sessions to capture organization-specific metadata. |
-| **Plugin** | An extension that adds functionality to Chamilo without modifying core code. Plugins can add pages, tools, or integrations. |
-| **Catalog** | A browsable listing of available courses where users can view descriptions and self-enroll. |
+| Term | Definitie |
+|------|-----------|
+| **Toegangs-URL** | In een multi-URL-opstelling is elke toegangs-URL een afzonderlijke virtuele portal die dezelfde Chamilo-installatie en database deelt. Elke URL kan zijn eigen branding, gebruikers, cursussen en instellingen hebben. |
+| **Cursus** | De fundamentele inhoudscontainer in Chamilo. Een cursus bevat leermaterialen, oefeningen, forums en andere hulpmiddelen. Cursussen kunnen onafhankelijk bestaan of worden toegewezen aan sessies. |
+| **Sessie** | Een tijdgebonden instantie van een of meer cursussen. Sessies maken het mogelijk om dezelfde cursusinhoud aan verschillende groepen leerlingen aan te bieden met afzonderlijke tracking en onafhankelijke coaches. |
+| **Leerpad** | Een gestructureerde reeks inhoudsitems (documenten, oefeningen, links, SCORM-modules) die leerlingen in een bepaalde volgorde door het materiaal leidt. |
+| **Cijferboek** | Een aggregatietool die scores van oefeningen, opdrachten en andere activiteiten combineert tot een gewogen eindcijfer voor een cursus. |
+| **Vaardigheid** | Een competentie of badge die aan leerlingen kan worden toegekend na het voltooien van specifieke cursussen, oefeningen of het behalen van drempels in het cijferboek. |
+| **Extra veld** | Een aangepast gegevensveld dat door beheerders wordt toegevoegd aan gebruikers, cursussen of sessies om organisatiespecifieke metadata vast te leggen. |
+| **Plugin** | Een uitbreiding die functionaliteit toevoegt aan Chamilo zonder de kerncode te wijzigen. Plugins kunnen pagina's, tools of integraties toevoegen. |
+| **Catalogus** | Een doorbladerbare lijst van beschikbare cursussen waar gebruikers beschrijvingen kunnen bekijken en zich zelf kunnen inschrijven. |
 
-## User Roles
+## Gebruikersrollen
 
-| Term | Definition |
-|------|------------|
-| **Learner (Student)** | The default user role. Can enroll in courses and consume content. |
-| **Teacher (Trainer)** | Can create and manage courses, add content, and grade learners. |
-| **Session administrator** | Can create and manage sessions and enrollments. |
-| **Human Resources Manager (HRM)** | Can view tracking and reporting data for assigned users. |
-| **Portal administrator** | Full access to all platform administration features. |
-| **Global administrator** | Portal administrator with access across all access URLs in a multi-URL setup. |
-| **Coach/Tutor** | A session-level role. Session coaches oversee all courses in a session; course coaches manage a specific course within a session. All coaches references should be renamed to tutors in the long run. |
+| Term | Definitie |
+|------|-----------|
+| **Leerling (Student)** | De standaard gebruikersrol. Kan zich inschrijven voor cursussen en inhoud consumeren. |
+| **Docent (Trainer)** | Kan cursussen maken en beheren, inhoud toevoegen en leerlingen beoordelen. |
+| **Sessiebeheerder** | Kan sessies en inschrijvingen maken en beheren. |
+| **Human Resources Manager (HRM)** | Kan tracking- en rapportagegegevens bekijken voor toegewezen gebruikers. |
+| **Portaalbeheerder** | Volledige toegang tot alle platformbeheermogelijkheden. |
+| **Globale beheerder** | Portaalbeheerder met toegang tot alle toegangs-URL's in een multi-URL-opstelling. |
+| **Coach/Tutor** | Een rol op sessieniveau. Sessiecoaches houden toezicht op alle cursussen in een sessie; cursuscoaches beheren een specifieke cursus binnen een sessie. Alle verwijzingen naar coaches moeten op lange termijn worden hernoemd naar tutors. |
 
-## Standards and Protocols
+## Standaarden en Protocollen
 
-| Term | Definition |
-|------|------------|
-| **SCORM** | Sharable Content Object Reference Model. An e-learning packaging standard that allows courses to be imported and tracked. Chamilo supports SCORM 1.2 and 2004. |
-| **xAPI (Tin Can API)** | An e-learning specification for tracking learning experiences. Broader than SCORM, it can record activities that happen outside the LMS. xAPI statements are stored in a Learning Record Store (LRS). |
-| **LTI** | Learning Tools Interoperability. An IMS Global standard that allows external tools and content to be embedded within an LMS. Chamilo supports LTI 1.1 and 1.3 as both a consumer and provider. |
-| **SCIM** | System for Cross-domain Identity Management. A standard for automating user provisioning and deprovisioning between identity providers and applications. |
-| **OAuth2** | An authorization framework that allows third-party applications to access Chamilo on behalf of a user without sharing passwords. Used for API access and SSO integrations. |
-| **LDAP** | Lightweight Directory Access Protocol. A protocol for accessing directory services (e.g., Active Directory) to authenticate users and synchronize account data. |
-| **CAS** | Central Authentication Service. A single sign-on protocol that allows users to authenticate once and access multiple applications. |
-| **JWT** | JSON Web Token. A compact, signed token format used for API authentication and session management. |
-| **SAML** | Security Assertion Markup Language. An XML-based standard for exchanging authentication data between an identity provider and a service provider. |
+| Term | Definitie |
+|------|-----------|
+| **SCORM** | Sharable Content Object Reference Model. Een e-learning verpakkingsstandaard die het importeren en volgen van cursussen mogelijk maakt. Chamilo ondersteunt SCORM 1.2 en 2004. |
+| **xAPI (Tin Can API)** | Een e-learning specificatie voor het volgen van leerervaringen. Breder dan SCORM, kan het activiteiten vastleggen die buiten het LMS plaatsvinden. xAPI-statements worden opgeslagen in een Learning Record Store (LRS). |
+| **LTI** | Learning Tools Interoperability. Een IMS Global-standaard die het mogelijk maakt om externe tools en inhoud in een LMS in te bedden. Chamilo ondersteunt LTI 1.1 en 1.3 als zowel consument als aanbieder. |
+| **SCIM** | System for Cross-domain Identity Management. Een standaard voor het automatiseren van gebruikersvoorziening en -deactivering tussen identiteitsproviders en toepassingen. |
+| **OAuth2** | Een autorisatieframework dat derde partijstoepassingen toegang geeft tot Chamilo namens een gebruiker zonder wachtwoorden te delen. Gebruikt voor API-toegang en SSO-integraties. |
+| **LDAP** | Lightweight Directory Access Protocol. Een protocol voor toegang tot directoryservices (bijv. Active Directory) om gebruikers te authenticeren en accountgegevens te synchroniseren. |
+| **CAS** | Central Authentication Service. Een single sign-on protocol dat gebruikers in staat stelt om één keer te authenticeren en toegang te krijgen tot meerdere toepassingen. |
+| **JWT** | JSON Web Token. Een compact, ondertekend tokenformaat dat wordt gebruikt voor API-authenticatie en sessiebeheer. |
+| **SAML** | Security Assertion Markup Language. Een op XML gebaseerde standaard voor het uitwisselen van authenticatiegegevens tussen een identiteitsprovider en een dienstverlener. |
 
-## Technical Terms
+---
+## Technische Termen
 
-| Term | Definition |
-|------|------------|
-| **Symfony** | The PHP framework on which Chamilo 2.0 is built. Symfony provides routing, dependency injection, ORM (Doctrine), templating (Twig), and other infrastructure. |
-| **Doctrine** | The object-relational mapper (ORM) used by Chamilo to interact with the database. Doctrine maps PHP objects to database tables. |
-| **Twig** | The template engine used by Symfony and Chamilo for rendering HTML. |
-| **Flysystem** | A PHP filesystem abstraction layer. Chamilo uses Flysystem to support local storage, Amazon S3, Azure Blob, and Google Cloud Storage interchangeably. |
-| **Composer** | The PHP dependency manager. Used to install and update Chamilo's PHP libraries. |
-| **Mailer DSN** | Data Source Name for the email transport. A connection string that tells Symfony how to send emails (e.g., via SMTP, Amazon SES, or Mailjet). |
-| **OPcache** | PHP's built-in opcode cache. Compiles PHP scripts into bytecode and caches them in memory, significantly improving performance. |
-| **APCu** | A PHP extension providing a user-level in-memory cache. Used by Symfony for caching metadata and configuration. |
+| Term | Definitie |
+|------|-----------|
+| **Symfony** | Het PHP-framework waarop Chamilo 2.0 is gebouwd. Symfony biedt routing, dependency injection, ORM (Doctrine), templating (Twig) en andere infrastructuur. |
+| **Doctrine** | De object-relationele mapper (ORM) die door Chamilo wordt gebruikt om met de database te communiceren. Doctrine koppelt PHP-objecten aan databasetabellen. |
+| **Twig** | De template-engine die door Symfony en Chamilo wordt gebruikt voor het renderen van HTML. |
+| **Flysystem** | Een PHP-bestandssysteemabstractielaag. Chamilo gebruikt Flysystem om lokale opslag, Amazon S3, Azure Blob en Google Cloud Storage uitwisselbaar te ondersteunen. |
+| **Composer** | De PHP-dependency manager. Wordt gebruikt om PHP-bibliotheken van Chamilo te installeren en bij te werken. |
+| **Mailer DSN** | Data Source Name voor het e-mailtransport. Een verbindingsreeks die Symfony instrueert hoe e-mails te verzenden (bijv. via SMTP, Amazon SES of Mailjet). |
+| **OPcache** | De ingebouwde opcode-cache van PHP. Compileert PHP-scripts naar bytecode en slaat deze op in het geheugen, wat de prestaties aanzienlijk verbetert. |
+| **APCu** | Een PHP-extensie die een gebruikersniveau in-memory cache biedt. Wordt door Symfony gebruikt voor het cachen van metadata en configuratie. |
 
-## Acronyms
+## Afkortingen
 
-| Acronym | Full Form |
-|---------|-----------|
+| Afkorting | Volledige Vorm |
+|-----------|----------------|
 | **LMS** | Learning Management System |
-| **LRS** | Learning Record Store (for xAPI statements) |
+| **LRS** | Learning Record Store (voor xAPI-statements) |
 | **SSO** | Single Sign-On |
-| **CSV** | Comma-Separated Values (used for user/course imports) |
+| **CSV** | Comma-Separated Values (gebruikt voor import van gebruikers/cursussen) |
 | **API** | Application Programming Interface |
-| **REST** | Representational State Transfer (API architecture style) |
-| **GDPR** | General Data Protection Regulation (EU data privacy law) |
+| **REST** | Representational State Transfer (API-architectuurstijl) |
+| **GDPR** | General Data Protection Regulation (EU-wetgeving inzake gegevensbescherming) |
 | **HSTS** | HTTP Strict Transport Security |
 | **CDN** | Content Delivery Network |
 | **DNS** | Domain Name System |
-| **SPF** | Sender Policy Framework (email authentication) |
-| **DKIM** | DomainKeys Identified Mail (email authentication) |
+| **SPF** | Sender Policy Framework (e-mailauthenticatie) |
+| **DKIM** | DomainKeys Identified Mail (e-mailauthenticatie) |
 | **DMARC** | Domain-based Message Authentication, Reporting, and Conformance |

@@ -1,34 +1,34 @@
 # Dropbox
 
-The dropbox is a file exchange tool that allows you and your learners to share files with each other within the course.
+De Dropbox is een hulpmiddel voor bestandsuitwisseling waarmee u en uw leerlingen bestanden met elkaar kunnen delen binnen de cursus.
 
-> For collecting graded student work, the [Assignments](../assessing-learners/assignments.md) tool is usually more appropriate, as it includes grading and feedback features. The dropbox is better suited for informal file sharing.
+> Voor het verzamelen van beoordeeld werk van studenten is de tool [Opdrachten](../assessing-learners/assignments.md) meestal geschikter, omdat deze beoordelings- en feedbackfuncties bevat. De Dropbox is beter geschikt voor informele bestandsuitwisseling.
 
-## Sending a File
+## Een bestand verzenden
 
-1. Open the **Dropbox** tool from the course homepage
-2. Click **Share a new file**
-3. Select the file to upload
-4. Choose the **recipient(s)** — one or more enrolled users or course groups
-5. Send
+1. Open de **Dropbox**-tool vanaf de cursusstartpagina
+2. Klik op **Een nieuw bestand delen**
+3. Selecteer het bestand dat u wilt uploaden
+4. Kies de **ontvanger(s)** — een of meer ingeschreven gebruikers of cursusgroepen
+5. Verzenden
 
-## Receiving Files
+## Bestanden ontvangen
 
-When someone sends you a file, it appears in your dropbox inbox. You can:
+Wanneer iemand u een bestand stuurt, verschijnt dit in uw Dropbox-inbox. U kunt:
 
-* **Download** the file
-* **Add a comment** to the file (after it has been received)
-* **Move** the file into one of your categories
-* **Delete** the file from your inbox
+* Het bestand **downloaden**
+* Een **opmerking toevoegen** aan het bestand (nadat het is ontvangen)
+* Het bestand **verplaatsen** naar een van uw categorieën
+* Het bestand **verwijderen** uit uw inbox
 
-## Organizing files
+## Bestanden organiseren
 
-Both sent and received files can be organized into custom **categories** (folders). Use the category controls in the dropbox toolbar to create a category, then move files into it. If the platform setting "allow overwrite" is enabled, re-sending a file with the same name lets you overwrite the previous version.
+Zowel verzonden als ontvangen bestanden kunnen worden georganiseerd in aangepaste **categorieën** (mappen). Gebruik de categorie-instellingen in de Dropbox-werkbalk om een categorie aan te maken en verplaats vervolgens bestanden ernaartoe. Als de platforminstelling "overschrijven toestaan" is ingeschakeld, kunt u door een bestand met dezelfde naam opnieuw te verzenden de vorige versie overschrijven.
 
-You can also batch-download selected files as a ZIP.
+U kunt ook geselecteerde bestanden in één keer downloaden als een ZIP-bestand.
 
-## As a Teacher
+## Als docent
 
-* You can send files to individual learners, groups of learners, or all enrolled users
-* You can view files sent to you by learners
-* This tool is useful for sharing supplementary materials, providing individual feedback documents, or receiving informal submissions
+* U kunt bestanden verzenden naar individuele leerlingen, groepen leerlingen of alle ingeschreven gebruikers
+* U kunt bestanden bekijken die door leerlingen naar u zijn verzonden
+* Deze tool is nuttig voor het delen van aanvullend materiaal, het verstrekken van individuele feedbackdocumenten of het ontvangen van informele inzendingen

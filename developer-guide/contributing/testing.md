@@ -1,12 +1,12 @@
-# Testing
+# Testen
 
-## PHP Testing
+## PHP Testen
 
-Chamilo uses **PHPUnit** for backend testing.
+Chamilo gebruikt **PHPUnit** voor backend-testen.
 
-### Test Database Setup
+### Testdatabase Instellen
 
-Tests require a dedicated database. Create `.env.test.local` with your test database credentials:
+Tests vereisen een speciale database. Maak een `.env.test.local` aan met de inloggegevens van je testdatabase:
 
 ```ini
 DATABASE_HOST='127.0.0.1'
@@ -16,7 +16,7 @@ DATABASE_USER='root'
 DATABASE_PASSWORD='root'
 ```
 
-Then initialise the test database:
+Initialiseer vervolgens de testdatabase:
 
 ```bash
 php bin/console --env=test cache:clear
@@ -25,28 +25,28 @@ php bin/console --env=test doctrine:schema:create
 php bin/console --env=test doctrine:fixtures:load --no-interaction
 ```
 
-To reset after schema changes:
+Om te resetten na schema-aanpassingen:
 
 ```bash
 php bin/console --env=test doctrine:schema:update --force --complete
 ```
 
-### Running Tests
+### Tests Uitvoeren
 
 ```bash
-# Run all tests
+# Alle tests uitvoeren
 php bin/phpunit
 
-# Run a specific test file
+# Een specifiek testbestand uitvoeren
 php bin/phpunit tests/CoreBundle/Repository/UserRepositoryTest.php
 
-# Run tests with HTML coverage report
+# Tests uitvoeren met HTML-dekkingsrapport
 php bin/phpunit --coverage-html var/coverage
 ```
 
-### Test Location
+### Testlocatie
 
-Tests are in the `tests/` directory:
+Tests bevinden zich in de map `tests/`:
 
 ```
 tests/
@@ -65,81 +65,81 @@ tests/
 │   ├── Repository/
 │   └── Settings/
 ├── behat/               # Behat end-to-end tests
-├── fixtures/            # Alice fixture files
-├── AbstractApiTest.php  # Base class for API tests
-└── ChamiloTestTrait.php # Shared test helpers
+├── fixtures/            # Alice fixture-bestanden
+├── AbstractApiTest.php  # Basisklasse voor API-tests
+└── ChamiloTestTrait.php # Gedeelde testhelpers
 ```
 
-### Test Types
+### Testtypen
 
-* **Unit/Integration tests** — PHPUnit tests in `CoreBundle/` and `CourseBundle/`; most hit a real database (via `dama/doctrine-test-bundle`)
-* **Functional (API) tests** — Extend `AbstractApiTest` and test HTTP endpoints end-to-end
-* **Behat tests** — Browser-level acceptance tests in `tests/behat/features/` (see below)
+* **Unit/Integratietests** — PHPUnit-tests in `CoreBundle/` en `CourseBundle/`; de meeste maken gebruik van een echte database (via `dama/doctrine-test-bundle`)
+* **Functionele (API) tests** — Breid `AbstractApiTest` uit en test HTTP-eindpunten van begin tot eind
+* **Behat-tests** — Acceptatietests op browserniveau in `tests/behat/features/` (zie hieronder)
 
 ## Behat (End-to-End) Tests
 
-Chamilo has a Behat test suite for browser-level acceptance testing. It requires a running Chamilo instance, Chrome, and ChromeDriver.
+Chamilo heeft een Behat-testsuite voor acceptatietesten op browserniveau. Hiervoor is een draaiende Chamilo-instantie, Chrome en ChromeDriver vereist.
 
 ```bash
-# From the tests/behat/ directory:
+# Vanuit de map tests/behat/:
 ../../vendor/behat/behat/bin/behat features/actionInstall.feature
 ../../vendor/behat/behat/bin/behat features/createUser.feature
 ../../vendor/behat/behat/bin/behat features/createCourse.feature
 
-# Or run all features:
+# Of voer alle features uit:
 ../../vendor/behat/behat/bin/behat
 ```
 
-Configure the base URL in `tests/behat/behat.yml` before running.
+Configureer de basis-URL in `tests/behat/behat.yml` voordat je de tests uitvoert.
 
-## Frontend Checks
+## Frontend Controles
 
 ```bash
-# Lint JavaScript/Vue (ESLint with Prettier)
+# Lint JavaScript/Vue (ESLint met Prettier)
 yarn eslint assets/vue/
 
-# Type-check TypeScript
+# Typecontrole voor TypeScript
 yarn tsc --noEmit
 
-# Build production assets (verifies the entire build compiles)
+# Productie-assets bouwen (controleert of de hele build compileert)
 yarn build
 ```
 
-## PHP Code Quality
+## PHP Codekwaliteit
 
-Chamilo uses **ECS** (Easy Coding Standard), **PHPStan**, and **Psalm** for code quality. Composer shortcuts are available for each:
+Chamilo gebruikt **ECS** (Easy Coding Standard), **PHPStan** en **Psalm** voor codekwaliteit. Composer-snelkoppelingen zijn beschikbaar voor elk:
 
 ```bash
-# Check code style (ECS — Easy Coding Standard)
+# Codestijl controleren (ECS — Easy Coding Standard)
 composer phpcs
-# or directly:
+# of direct:
 vendor/bin/ecs check
 
-# Auto-fix code style violations
+# Codestijlproblemen automatisch corrigeren
 composer phpcs-fix
-# or directly:
+# of direct:
 vendor/bin/ecs check --fix
 
-# Static analysis with PHPStan (level 5, scans src/ and tests/)
+# Statische analyse met PHPStan (niveau 5, scant src/ en tests/)
 composer phpstan
-# or directly:
+# of direct:
 vendor/bin/phpstan analyse
 
-# Static analysis with Psalm
+# Statische analyse met Psalm
 composer psalm
-# or directly:
+# of direct:
 vendor/bin/psalm --show-info=false
 ```
 
-Note: there is no `php-cs-fixer` in this project. ECS (`symplify/easy-coding-standard`) is the code style tool.
+Let op: er is geen `php-cs-fixer` in dit project. ECS (`symplify/easy-coding-standard`) is het hulpmiddel voor codestijl.
 
-## Continuous Integration
+## Continue Integratie
 
-Pull requests are automatically checked by four GitHub Actions workflows:
+Pull requests worden automatisch gecontroleerd door vier GitHub Actions-workflows:
 
-| Workflow | What it runs |
-|----------|-------------|
-| `phpunit.yml` | PHPUnit test suite |
-| `format_code.yml` | ECS code style check |
-| `php_analysis.yml` | Psalm, Doctrine schema validation, security checker |
+| Workflow | Wat het uitvoert |
+|----------|------------------|
+| `phpunit.yml` | PHPUnit-testsuite |
+| `format_code.yml` | ECS codestijlcontrole |
+| `php_analysis.yml` | Psalm, Doctrine schema-validatie, beveiligingscontrole |
 | `behat.yml` | Behat end-to-end tests |

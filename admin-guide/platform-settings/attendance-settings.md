@@ -1,42 +1,41 @@
-# Attendance Settings
+# Aanwezigheidsinstellingen
 
-Defaults and behaviour of the **Attendance** tool.
+Standaardinstellingen en gedrag van de **Aanwezigheidstool**.
 
-Access these settings under **Administration > Configuration settings > Attendance**. This category contains **4 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+Ga naar deze instellingen via **Beheer > Configuratie-instellingen > Aanwezigheid**. Deze categorie bevat **4 instellingen**, hieronder opgesomd met de titel en opmerking zoals meegeleverd in de instellingenfixtures van het platform (`SettingsCurrentFixtures.php`).
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> De variabelenaam in de code wordt weergegeven in monospace. Gebruik deze bij het scripten via de API of wanneer u deze instellingen op globaal niveau wilt wijzigen door [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml) te bewerken.
 
-## Settings
+## Instellingen
 
 ### `allow_delete_attendance`
 
-**Attendances: enable deletion**
+**Aanwezigheden: verwijderen toestaan**
 
-The default behaviour in Chamilo is to hide attendance sheets instead of deleting them, just in case the teacher would do it by mistake. Enable this option to allow teachers to *really* delete attendance sheets.
+Het standaardgedrag in Chamilo is om aanwezigheidslijsten te verbergen in plaats van ze te verwijderen, voor het geval een docent dit per ongeluk zou doen. Schakel deze optie in om docenten toe te staan aanwezigheidslijsten *echt* te verwijderen.
 
-*Default: `true`*
+*Standaard: `true`*
 
 ### `attendance_allow_comments`
 
-**Allow comments in attendance sheets**
+**Opmerkingen toestaan in aanwezigheidslijsten**
 
-Teachers and students can comment on each individual attendance (to justify).
+Docenten en studenten kunnen opmerkingen plaatsen bij elke individuele aanwezigheid (ter rechtvaardiging).
 
-*Default: `false`*
+*Standaard: `false`*
 
 ### `enable_sign_attendance_sheet`
 
-**Attendance signing**
+**Aanwezigheid ondertekenen**
 
-Enable taking signatures to confirm one's attendance.
+Schakel het nemen van handtekeningen in om iemands aanwezigheid te bevestigen.
 
-*Default: `false`*
+*Standaard: `false`*
 
 ### `multilevel_grading`
 
-**Enable Multi-Level Attendance Grading**
+**Multi-niveau beoordeling van aanwezigheid inschakelen**
 
-Allows grading attendance with multiple levels instead of a simple present/absent system.
+Maakt het mogelijk om aanwezigheid te beoordelen met meerdere niveaus in plaats van een eenvoudig aanwezig/afwezig-systeem.
 
-*Default: `false`*
-
+*Standaard: `false`*

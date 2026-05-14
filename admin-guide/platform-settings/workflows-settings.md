@@ -1,196 +1,182 @@
-# Workflows Settings
+# Workflow-instellingen
 
-Cross-cutting workflow toggles — course creation, enrollment validation, assignment workflows, and similar.
+Cross-functionele workflow-schakelaars — cursuscreatie, inschrijvingsvalidatie, opdrachtworkflows en vergelijkbare functies.
 
-Access these settings under **Administration > Configuration settings > Workflows**. This category contains **23 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+Toegang tot deze instellingen vindt u onder **Beheer > Configuratie-instellingen > Workflows**. Deze categorie bevat **23 instellingen**, hieronder opgesomd met de titel en opmerking zoals meegeleverd in de platforminstellingen (`SettingsCurrentFixtures.php`).
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> De variabelenaam in de code wordt in monospace weergegeven. Gebruik deze bij het scripten via de API of wanneer u deze instellingen op globaal niveau wilt wijzigen door [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml) te bewerken.
 
-## Settings
+## Instellingen
 
 ### `allow_user_course_subscription_by_course_admin`
 
-**Allow User Course Subscription By Course Admininistrator**
+**Gebruikersinschrijving in cursus toestaan door cursusbeheerder**
 
-Activate this option will allow course administrator to subscribe users inside a course
+Activeer deze optie om cursusbeheerders toe te staan gebruikers in een cursus in te schrijven.
 
-*Default: `true`*
-
+*Standaard: `true`*
 
 ### `allow_users_to_create_courses`
 
-**Allow non admin to create courses**
+**Niet-beheerders toestaan cursussen te maken**
 
-Allow non administrators (teachers) to create new courses on the server
+Sta niet-beheerders (docenten) toe om nieuwe cursussen op de server aan te maken.
 
-*Default: `false`*
-
+*Standaard: `false`*
 
 ### `allow_working_time_edition`
 
-**Enable edition of course work time**
+**Bewerking van cursuswerktijd inschakelen**
 
-Enable this feature to let teachers manually update the time spent in the course by learners.
+Schakel deze functie in om docenten handmatig de tijd die leerlingen in de cursus doorbrengen te laten bijwerken.
 
-*Default: `false`*
-
+*Standaard: `false`*
 
 ### `course_visibility_change_only_admin`
 
-**Course visibility changes for admins only**
+**Cursuszichtbaarheid wijzigen alleen voor beheerders**
 
-Remove the possibility for non-admins to change the course visibility. Visibility can be an issue when there are too many teachers to control directly. Forcing visibilities allows the organization to better manage courses catalogues.
+Verwijder de mogelijkheid voor niet-beheerders om de cursuszichtbaarheid te wijzigen. Zichtbaarheid kan een probleem zijn wanneer er te veel docenten zijn om direct te controleren. Het forceren van zichtbaarheid stelt de organisatie in staat om cursuscatalogi beter te beheren.
 
-*Default: `false`*
-
+*Standaard: `false`*
 
 ### `default_menu_entry_for_course_or_session`
 
-**Default menu entry for courses**
+**Standaard menu-item voor cursussen**
 
-Define the default sub-elements of the 'Courses' entry to display if user is not registered to any course nor session.
+Definieer de standaard subelementen van het menu-item 'Cursussen' die worden weergegeven als de gebruiker niet is ingeschreven voor een cursus of sessie.
 
-*Default: `my_courses`*
-
+*Standaard: `my_courses`*
 
 ### `disable_user_conditions_sender_id`
 
-**Internal ID of the user used to send disabled account notifications**
+**Interne ID van de gebruiker die wordt gebruikt om meldingen over uitgeschakelde accounts te verzenden**
 
-Avoid being too personal with users by using a 'bot' account to send e-mails to users when their account is disabled for some reason.
+Voorkom dat u te persoonlijk wordt met gebruikers door een 'bot'-account te gebruiken om e-mails te verzenden naar gebruikers wanneer hun account om een bepaalde reden is uitgeschakeld.
 
-*Default: `0`*
-
+*Standaard: `0`*
 
 ### `disabled_edit_session_coaches_course_editing_course`
 
-**Disable the ability to edit course coaches**
+**Mogelijkheid om cursuscoaches te bewerken uitschakelen**
 
-When disabled, admins do not have a link to quickly assign coaches to session-courses on the course edition page.
+Wanneer uitgeschakeld, hebben beheerders geen link om snel coaches toe te wijzen aan sessie-cursussen op de cursusbewerkingspagina.
 
-*Default: `false`*
-
+*Standaard: `false`*
 
 ### `drh_allow_access_to_all_students`
 
-**HRM can access all students from reporting pages**
+**HRM heeft toegang tot alle studenten via rapportagepagina's**
 
-[inferred] Grant HR/DRH managers access to reporting pages for all learners across the platform.
+[afgeleid] Geef HR/DRH-managers toegang tot rapportagepagina's voor alle leerlingen op het platform.
 
-*Default: `false`*
-
+*Standaard: `false`*
 
 ### `gamification_mode`
 
-**Gamification mode**
+**Gamificatiemodus**
 
-Activate the stars achievement in learning paths
+Activeer de sterrenprestaties in leerpaden.
 
 ### `go_to_course_after_login`
 
-**Go directly to the course after login**
+**Direct naar de cursus gaan na inloggen**
 
-When a user is registered in one course, go directly to the course after login
+Wanneer een gebruiker is ingeschreven voor één cursus, ga dan direct naar de cursus na het inloggen.
 
-*Default: `false`*
-
+*Standaard: `false`*
 
 ### `load_term_conditions_section`
 
-**Load term conditions section**
+**Sectie met gebruiksvoorwaarden laden**
 
-The legal agreement will appear during the login or when enter to a course.
+De juridische overeenkomst verschijnt tijdens het inloggen of bij het betreden van een cursus.
 
-*Default: `login`*
-
+*Standaard: `login`*
 
 ### `multiple_url_hide_disabled_settings`
 
-**Hide disabled settings in sub-URLs**
+**Uitgeschakelde instellingen verbergen in sub-URL's**
 
-Set to yes to hide settings completely in a sub-URL if the setting is disabled in the main URL (where the access_url_changeable field = 0)
+Stel in op ja om instellingen volledig te verbergen in een sub-URL als de instelling is uitgeschakeld in de hoofd-URL (waar het veld `access_url_changeable` = 0).
 
-*Default: `false`*
-
+*Standaard: `false`*
 
 ### `plugin_redirection_enabled`
 
-**Enable redirection plugin**
+**Omleidingsplugin inschakelen**
 
-Enable only if you are using the Redirection plugin
+Schakel alleen in als u de Redirection-plugin gebruikt.
 
-*Default: `false`*
-
+*Standaard: `false`*
 
 ### `redirect_index_to_url_for_logged_users`
 
-**Redirect index.php to given URL for authenticated users**
+**Index.php omleiden naar opgegeven URL voor ingelogde gebruikers**
 
-If you do not want to use the index page (announcements, popular courses, etc), you can define here the script (from the document root) where users will be redirected when trying to load the index.
+Als u de indexpagina (aankondigingen, populaire cursussen, enz.) niet wilt gebruiken, kunt u hier het script (vanaf de documentroot) definiëren waarnaar gebruikers worden omgeleid wanneer ze de index proberen te laden.
 
 ### `send_all_emails_to`
 
-**Send all e-mails to**
+**Alle e-mails verzenden naar**
 
-Give a list of e-mail addresses to whom *all* e-mails sent from the platform will be sent. The e-mails are sent to these addresses as a visible destination.
+Geef een lijst met e-mailadressen op aan wie *alle* e-mails die vanaf het platform worden verzonden, zullen worden gestuurd. De e-mails worden naar deze adressen verzonden als een zichtbare bestemming.
 
 ### `session_admin_user_subscription_search_extra_field_to_search`
 
-**Extra user field used to search and name sessions**
+**Extra gebruikersveld gebruikt om sessies te zoeken en te benoemen**
 
-This setting defines the extra user field key (e.g., "company") that will be used to search for users and to define the name of the session when registering students from /admin-dashboard/register.
+Deze instelling definieert de sleutel van het extra gebruikersveld (bijv. "bedrijf") dat wordt gebruikt om gebruikers te zoeken en om de naam van de sessie te definiëren bij het registreren van studenten via /admin-dashboard/register.
 
 ### `teacher_can_select_course_template`
 
-**Teacher can select a course as template**
+**Docent kan een cursus als sjabloon selecteren**
 
-Allow pick a course as template for the new course that teacher is creating
+Sta toe om een cursus als sjabloon te kiezen voor de nieuwe cursus die de docent aanmaakt.
 
-*Default: `true`*
-
+*Standaard: `true`*
 
 ### `update_student_expiration_x_date`
 
-**Set expiration date on first login**
+**Vervaldatum instellen bij eerste inloggen**
 
-Array defining the 'days' and 'months' to set the account expiration date when the user first logs in.
+Array die de 'dagen' en 'maanden' definieert om de vervaldatum van het account in te stellen wanneer de gebruiker voor het eerst inlogt.
 
 ### `user_edition_extra_field_to_check`
 
-**Set an extra field as trigger for registration as ex-learner**
+**Extra veld instellen als trigger voor registratie als ex-leerling**
 
-Give an extra field label here. If this extra field is updated for any user, a process is triggered to check the access to this user to courses with the same given extra field.
+Geef hier een extra veldlabel op. Als dit extra veld voor een gebruiker wordt bijgewerkt, wordt een proces gestart om de toegang van deze gebruiker tot cursussen met hetzelfde opgegeven extra veld te controleren.
 
+---
 ### `user_number_of_days_for_default_expiration_date_per_role`
 
-**Default expiration days by role**
+**Standaard vervaldagen per rol**
 
-An array of role => number which represents the number of days an account has before expiration, depending on the role.
+Een array van rol => aantal, die het aantal dagen vertegenwoordigt dat een account heeft voordat het verloopt, afhankelijk van de rol.
 
 ### `usergroup_do_not_unsubscribe_users_from_course_nor_session_on_user_unsubscribe`
 
-**Disable user unsubscription from course/session on user unsubscription from group/class**
+**Gebruikers niet uitschrijven uit cursus/sessie bij uitschrijving uit groep/klas**
 
-[inferred] When removing a user from a group/class, do not automatically unsubscribe them from associated courses or sessions.
+[afgeleid] Bij het verwijderen van een gebruiker uit een groep/klas, deze niet automatisch uitschrijven uit gerelateerde cursussen of sessies.
 
-*Default: `false`*
+*Standaard: `false`*
 
 
 ### `usergroup_do_not_unsubscribe_users_from_course_on_course_unsubscribe`
 
-**Disable user unsubscription from course on course removal from group/class**
+**Gebruikers niet uitschrijven uit cursus bij verwijdering van cursus uit groep/klas**
 
-[inferred] When a course is removed from a group/class, do not automatically unsubscribe users from that course.
+[afgeleid] Wanneer een cursus wordt verwijderd uit een groep/klas, gebruikers niet automatisch uitschrijven uit die cursus.
 
-*Default: `false`*
+*Standaard: `false`*
 
 
 ### `usergroup_do_not_unsubscribe_users_from_session_on_session_unsubscribe`
 
-**Disable user unsubscription from session on session removal from group/class**
+**Gebruikers niet uitschrijven uit sessie bij verwijdering van sessie uit groep/klas**
 
-[inferred] When a session is removed from a group/class, do not automatically unsubscribe users from that session.
+[afgeleid] Wanneer een sessie wordt verwijderd uit een groep/klas, gebruikers niet automatisch uitschrijven uit die sessie.
 
-*Default: `false`*
-
-
+*Standaard: `false`*

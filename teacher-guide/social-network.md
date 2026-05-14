@@ -1,53 +1,53 @@
-# Social Network
+# Sociaal Netwerk
 
-Chamilo includes a built-in social network that lets you connect with other users on the platform. This feature may be enabled or disabled by your platform administrator.
+Chamilo bevat een ingebouwd sociaal netwerk waarmee u kunt verbinden met andere gebruikers op het platform. Deze functie kan door uw platformbeheerder worden in- of uitgeschakeld.
 
-## Accessing the Social Network
+## Toegang tot het Sociaal Netwerk
 
-Click **Social network** in the sidebar to access the social features. If you do not see this option, your administrator may have disabled it.
+Klik op **Sociaal netwerk** in de zijbalk om toegang te krijgen tot de sociale functies. Als u deze optie niet ziet, heeft uw beheerder deze mogelijk uitgeschakeld.
 
-## Your Social Wall
+## Uw Sociale Muur
 
-![The social wall showing a feed of posts, likes, and comments from connections](/.gitbook/assets/social-wall.png)
+![De sociale muur toont een feed van berichten, likes en reacties van connecties](/.gitbook/assets/social-wall.png)
 
-The social wall shows a feed of activity from you and your connections. You can:
+De sociale muur toont een feed van activiteiten van uzelf en uw connecties. U kunt:
 
-* **Post updates** — Share text and links with your connections
-* **Like and comment** — Interact with posts from other users
-* **View activity** — See recent posts from people you are connected with
+* **Updates plaatsen** — Deel tekst en links met uw connecties
+* **Liken en reageren** — Interageer met berichten van andere gebruikers
+* **Activiteit bekijken** — Bekijk recente berichten van mensen met wie u verbonden bent
 
-## Connections
+## Connecties
 
-You can connect with other users on the platform:
+U kunt verbinden met andere gebruikers op het platform:
 
-* **Search for users** — Find colleagues and learners by name
-* **Send connection requests** — Invite other users to connect
-* **Manage connections** — Accept, decline, or remove connections
+* **Gebruikers zoeken** — Vind collega's en leerlingen op naam
+* **Verbindingsverzoeken verzenden** — Nodig andere gebruikers uit om te verbinden
+* **Connecties beheren** — Accepteer, weiger of verwijder connecties
 
-> **Note:** Learners can only search for and add other learners as friends — they cannot send friend requests to teachers. As a teacher, however, you can search for learners and request to add them as friends.
+> **Opmerking:** Leerlingen kunnen alleen andere leerlingen zoeken en als vrienden toevoegen — ze kunnen geen vriendschapsverzoeken sturen naar docenten. Als docent kunt u echter leerlingen zoeken en een verzoek sturen om hen als vrienden toe te voegen.
 
-## Messaging
+## Berichten
 
-The social network integrates with the platform's messaging system:
+Het sociale netwerk is geïntegreerd met het berichtensysteem van het platform:
 
-* **Send messages** <img src="/.gitbook/assets/icons/mdi-email-plus-outline.svg" alt="New message" data-size="line"> — Write direct messages to other users
-* **Inbox** <img src="/.gitbook/assets/icons/mdi-inbox.svg" alt="Inbox" data-size="line"> — Read and reply to received messages
-* **Sent messages** <img src="/.gitbook/assets/icons/mdi-send-check.svg" alt="Sent" data-size="line"> — Review messages you have sent
+* **Berichten verzenden** <img src="/.gitbook/assets/icons/mdi-email-plus-outline.svg" alt="Nieuw bericht" data-size="line"> — Schrijf directe berichten naar andere gebruikers
+* **Postvak IN** <img src="/.gitbook/assets/icons/mdi-inbox.svg" alt="Postvak IN" data-size="line"> — Lees en beantwoord ontvangen berichten
+* **Verzonden berichten** <img src="/.gitbook/assets/icons/mdi-send-check.svg" alt="Verzonden" data-size="line"> — Bekijk berichten die u hebt verzonden
 
-### Composing and Replying
+### Berichten opstellen en beantwoorden
 
-When composing a new message, you can address it to multiple recipients at once. Similarly, when replying to a message, you can include multiple users in your reply — useful for group coordination without a formal social group.
+Bij het opstellen van een nieuw bericht kunt u het aan meerdere ontvangers tegelijk richten. Evenzo kunt u bij het beantwoorden van een bericht meerdere gebruikers in uw antwoord opnemen — handig voor groepsafstemming zonder een formele sociale groep.
 
-### Message Tags
+### Berichtentags
 
-If your platform configuration uses message tags (typically managed at the platform level), your inbox shows a tag list you can click to filter messages by that tag, which makes locating related threads faster as your inbox grows.
+Als uw platformconfiguratie gebruikmaakt van berichtentags (meestal beheerd op platformniveau), toont uw postvak IN een lijst met tags waarop u kunt klikken om berichten op die tag te filteren, wat het vinden van gerelateerde conversaties sneller maakt naarmate uw postvak groeit.
 
-## Social Groups
+## Sociale Groepen
 
-Social groups allow users to gather around common interests or projects:
+Sociale groepen stellen gebruikers in staat om samen te komen rond gemeenschappelijke interesses of projecten:
 
-* **Join groups** — Browse and join existing groups
-* **Create groups** — Start a new social group (if permitted)
-* **Group discussions** — Share posts within a group context
+* **Deelnemen aan groepen** — Blader door en sluit aan bij bestaande groepen
+* **Groepen aanmaken** — Start een nieuwe sociale groep (indien toegestaan)
+* **Groepsdiscussies** — Deel berichten binnen de context van een groep
 
-> Social groups are different from **course groups** (covered in the [Groups](collaboration-and-communication/groups.md) section). Course groups are tied to a specific course, while social groups are platform-wide.
+> Sociale groepen verschillen van **cursusgroepen** (behandeld in de sectie [Groepen](collaboration-and-communication/groups.md)). Cursusgroepen zijn gekoppeld aan een specifieke cursus, terwijl sociale groepen platformbreed zijn.

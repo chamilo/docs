@@ -1,25 +1,25 @@
-# Getting Started
+# Aan de slag
 
-This section introduces the Chamilo 2.0 administration interface and helps you get oriented.
+Deze sectie introduceert de Chamilo 2.0 beheerdersinterface en helpt u om u te oriënteren.
 
-## Who Is an Administrator?
+## Wie is een Beheerder?
 
-Chamilo has several levels of administrative roles:
+Chamilo heeft verschillende niveaus van beheerdersrollen:
 
-| Role | Access |
+| Rol | Toegang |
 |------|--------|
-| **Administrator** | Full access to all administration features for the platform. Also known as **Portal Administrator** |
-| **Global Administrator** | Same as Portal Administrator, with access across all access URLs in a multi-URL (multi-tenant) setup |
-| **Sessions Administrator** | Can manage sessions, enroll users in sessions, and access session-related settings |
-| **Human Resources Manager** | Can view learner progress and tracking data for assigned users |
-| **Questions Manager** | Less of an administrator than a content curator, question managers have access to a global question bank to review questions' quality |
+| **Beheerder** | Volledige toegang tot alle beheerdersfuncties van het platform. Ook bekend als **Portaalbeheerder** |
+| **Globale Beheerder** | Hetzelfde als Portaalbeheerder, met toegang tot alle toegang-URL's in een multi-URL (multi-tenant) opstelling |
+| **Sessiesbeheerder** | Kan sessies beheren, gebruikers inschrijven voor sessies en toegang krijgen tot sessiegerelateerde instellingen |
+| **Personeelsmanager** | Kan de voortgang en trackinggegevens van toegewezen gebruikers bekijken |
+| **Vragenbeheerder** | Minder een beheerder dan een inhoudsbeheerder; vragenbeheerders hebben toegang tot een globale vragenbank om de kwaliteit van vragen te beoordelen |
 
-This guide focuses primarily on the **Portal Administrator** role, which has the broadest access.
+Deze handleiding richt zich voornamelijk op de rol van **Portaalbeheerder**, die de breedste toegang heeft.
 
-## Logging In
+## Inloggen
 
-Administrators log in through the same login page as all other users. After entering your credentials, you will be sent (in the absence of other configuration) to the **Administration** page. A notable difference from other user roles is the **Administration** section in the sidebar (not visible to other roles).
+Beheerders loggen in via dezelfde inlogpagina als alle andere gebruikers. Na het invoeren van uw gegevens wordt u (bij afwezigheid van andere configuratie) doorgestuurd naar de **Beheer** pagina. Een opvallend verschil met andere gebruikersrollen is de **Beheer** sectie in de zijbalk (niet zichtbaar voor andere rollen).
 
-## Next Steps
+## Volgende Stappen
 
-* [Admin Interface Overview](admin-interface-overview.md) — A tour of the administration panel and its sections
+* [Overzicht Beheerdersinterface](admin-interface-overview.md) — Een rondleiding door het beheerderspaneel en de bijbehorende secties

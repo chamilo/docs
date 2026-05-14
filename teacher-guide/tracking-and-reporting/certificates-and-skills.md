@@ -1,50 +1,50 @@
-# Certificates and Skills
+# Certificaten en Vaardigheden
 
-Chamilo allows you to award certificates to learners who meet specific achievement criteria, and to validate skills associated with those achievements.
+Chamilo stelt u in staat om certificaten toe te kennen aan leerlingen die voldoen aan specifieke prestatiecriteria en om vaardigheden te valideren die aan die prestaties zijn gekoppeld.
 
-## How Certificates Work
+## Hoe Certificaten Werken
 
-Certificates are linked to the **Assessments** (also called Gradebook). When a learner's grade meets or exceeds the minimum threshold you define, a certificate becomes available for them to download.
+Certificaten zijn gekoppeld aan de **Beoordelingen** (ook wel Gradebook genoemd). Wanneer de score van een leerling gelijk is aan of hoger is dan de door u vastgestelde minimumdrempel, wordt een certificaat beschikbaar voor hen om te downloaden.
 
-The workflow is:
+De workflow is als volgt:
 
-1. Set up the [Assessments](../assessing-learners/gradebook.md) with your exercises, assignments, and other graded activities
-2. Define a **minimum certification score** (e.g., 70%)
-3. When a learner reaches that score, they can download their certificate (either within the Assessments tool itself, or from a learning path if you've configured the final step for that). As a teacher, you can also use the **Generate certificates** action in the gradebook to create the PDFs in batch for all eligible learners.
+1. Stel de [Beoordelingen](../assessing-learners/gradebook.md) in met uw oefeningen, opdrachten en andere beoordeelde activiteiten
+2. Definieer een **minimum certificeringsscore** (bijvoorbeeld 70%)
+3. Wanneer een leerling die score bereikt, kunnen zij hun certificaat downloaden (ofwel binnen de Beoordelingstool zelf, of vanuit een leerpad als u de laatste stap daarvoor hebt geconfigureerd). Als docent kunt u ook de actie **Certificaten genereren** in het gradebook gebruiken om de PDF's in bulk te maken voor alle in aanmerking komende leerlingen.
 
-## Certificate Templates
+## Certificaatsjablonen
 
-Certificates use templates defined by the platform administrator. The template typically includes:
+Certificaten maken gebruik van sjablonen die door de platformbeheerder zijn gedefinieerd. Het sjabloon bevat doorgaans:
 
-* The learner's name
-* The course name
-* The date of completion
-* The score achieved
-* A QR code or URL for online verification
+* De naam van de leerling
+* De naam van de cursus
+* De datum van voltooiing
+* De behaalde score
+* Een QR-code of URL voor online verificatie
 
-## Skills
+## Vaardigheden
 
-Skills represent competencies that learners acquire. In Chamilo:
+Vaardigheden vertegenwoordigen competenties die leerlingen verwerven. In Chamilo:
 
-* Skills can be linked to gradebook achievements
-* When a learner earns a certificate, any associated skills are automatically validated
-* Skills accumulate on the learner's profile, creating a competency record
-* Skills can be organized hierarchically (e.g., "Data Analysis" under "Research Methods")
-* Skills can be further evaluated by peers (360° evaluation)
+* Vaardigheden kunnen worden gekoppeld aan prestaties in het gradebook
+* Wanneer een leerling een certificaat behaalt, worden alle gekoppelde vaardigheden automatisch gevalideerd
+* Vaardigheden worden verzameld in het profiel van de leerling, waardoor een competentiedossier ontstaat
+* Vaardigheden kunnen hiërarchisch worden georganiseerd (bijvoorbeeld "Gegevensanalyse" onder "Onderzoeksmethoden")
+* Vaardigheden kunnen verder worden beoordeeld door peers (360°-evaluatie)
 
-## Viewing Certificate and Skill Status
+## Status van Certificaten en Vaardigheden Bekijken
 
-As a teacher, you can see:
+Als docent kunt u zien:
 
-* Which learners have earned certificates in your course
-* Which skills have been validated
-* Learners' progress toward the certification threshold
+* Welke leerlingen certificaten hebben behaald in uw cursus
+* Welke vaardigheden zijn gevalideerd
+* De voortgang van leerlingen richting de certificeringsdrempel
 
-Learners can view their own certificates and validated skills from their profile, and can access the Skills Wheel to check what skills are in demand in their organisation.
+Leerlingen kunnen hun eigen certificaten en gevalideerde vaardigheden bekijken vanuit hun profiel en hebben toegang tot de Vaardighedenwiel om te zien welke vaardigheden gevraagd zijn binnen hun organisatie.
 
 ## Tips
 
-* **Set clear expectations** — Tell learners at the start of the course what they need to achieve to earn a certificate
-* **Use meaningful skill names** — Skills should describe what the learner can do, not just the course name
-* **Combine with portfolios** — Encourage learners to add their certificates to their portfolio
-* **Extend certificates** — Ask your admin to enable the Custom Certificate plugin to unleash even more certificate templating power 
+* **Stel duidelijke verwachtingen** — Vertel leerlingen aan het begin van de cursus wat ze moeten bereiken om een certificaat te behalen
+* **Gebruik betekenisvolle vaardigheidsnamen** — Vaardigheden moeten beschrijven wat de leerling kan doen, niet alleen de naam van de cursus
+* **Combineer met portfolio's** — Moedig leerlingen aan om hun certificaten toe te voegen aan hun portfolio
+* **Breid certificaten uit** — Vraag uw beheerder om de Custom Certificate-plugin in te schakelen om nog meer mogelijkheden voor certificaatsjablonen te ontsluiten

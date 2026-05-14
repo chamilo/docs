@@ -1,39 +1,39 @@
-# Coding Conventions
+# Codeerconventies
 
 ## PHP
 
-* **Standard**: PSR-12 coding style
-* **Type declarations**: Use PHP 8.2 type declarations (parameter types, return types, property types)
-* **Strict types**: All PHP files should declare `strict_types=1`
-* **Namespaces**: Follow PSR-4 autoloading (e.g., `Chamilo\CoreBundle\Entity\User`)
-* **Symfony standards**: Follow Symfony's coding standards and best practices
+* **Standaard**: PSR-12 coderingsstijl
+* **Typeverklaringen**: Gebruik PHP 8.2 typeverklaringen (parametertypes, retourtypes, eigenschapstypes)
+* **Strikte types**: Alle PHP-bestanden moeten `strict_types=1` declareren
+* **Namespaces**: Volg PSR-4 autoloading (bijv. `Chamilo\CoreBundle\Entity\User`)
+* **Symfony-standaarden**: Volg de coderingsstandaarden en best practices van Symfony
 
 ## JavaScript/Vue
 
-* **ESLint + Prettier**: Code is linted with ESLint and formatted with Prettier; configuration is in `eslint.config.mjs` at the project root. `prettier-plugin-tailwindcss` is also enabled for automatic Tailwind class sorting.
-* **Composition API**: Use Vue 3's `<script setup>` syntax for new components
-* **TypeScript**: TypeScript is supported; use it for type-safe code
+* **ESLint + Prettier**: Code wordt gelint met ESLint en geformatteerd met Prettier; configuratie bevindt zich in `eslint.config.mjs` in de projectroot. `prettier-plugin-tailwindcss` is ook ingeschakeld voor automatische sortering van Tailwind-klassen.
+* **Composition API**: Gebruik Vue 3's `<script setup>` syntaxis voor nieuwe componenten
+* **TypeScript**: TypeScript wordt ondersteund; gebruik het voor typeveilige code
 
 ## CSS
 
-* **Tailwind CSS**: Prefer utility classes over custom CSS
-* **BEM naming**: When custom CSS is needed, use BEM naming convention
-* **SCSS**: Use SCSS for complex stylesheets
+* **Tailwind CSS**: Geef de voorkeur aan utility-klassen boven aangepaste CSS
+* **BEM-naamgeving**: Gebruik bij aangepaste CSS de BEM-naamgevingsconventie
+* **SCSS**: Gebruik SCSS voor complexe stylesheets
 
-## PHP Static Analysis and Refactoring Tools
+## PHP Statische Analyse- en Refactoringtools
 
-The project ships configuration for three additional tools:
+Het project wordt geleverd met configuratie voor drie aanvullende tools:
 
-| Tool | Config file | Purpose |
-|------|------------|---------|
-| **PHPStan** | `phpstan.neon` | Static analysis (level 5, scans `src/` and test directories) |
-| **Psalm** | `psalm.xml` | Second static analysis pass; runs in CI on every push |
-| **Rector** | `rector.php` | Automated code transformations and upgrades |
+| Tool | Configuratiebestand | Doel |
+|------|---------------------|------|
+| **PHPStan** | `phpstan.neon` | Statische analyse (niveau 5, scant `src/` en testmappen) |
+| **Psalm** | `psalm.xml` | Tweede statische analyse; wordt uitgevoerd in CI bij elke push |
+| **Rector** | `rector.php` | Geautomatiseerde codetransformaties en upgrades |
 
-Run them via composer shortcuts: `composer phpstan`, `composer psalm`. See [Testing](../contributing/testing.md) for full commands.
+Voer ze uit via Composer-snelkoppelingen: `composer phpstan`, `composer psalm`. Zie [Testen](../contributing/testing.md) voor volledige commando's.
 
-## General
+## Algemeen
 
-* **English**: All code comments, variable names, and documentation should be in English
-* **Translations**: All user-facing text should use the translation system (Vue I18n for frontend, Symfony Translator for backend)
-* **No magic values**: Use constants or enums instead of hardcoded values
+* **Engels**: Alle codecommentaar, variabelenamen en documentatie moeten in het Engels zijn
+* **Vertalingen**: Alle tekst die zichtbaar is voor gebruikers moet gebruikmaken van het vertalingssysteem (Vue I18n voor frontend, Symfony Translator voor backend)
+* **Geen magische waarden**: Gebruik constanten of enums in plaats van hardcoded waarden

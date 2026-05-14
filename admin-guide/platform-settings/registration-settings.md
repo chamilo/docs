@@ -1,110 +1,106 @@
-# Registration Settings
+# Registratie-instellingen
 
-Self-registration policy and post-registration redirects — what new users are asked for and where they land.
+Beleid voor zelfregistratie en doorverwijzingen na registratie — wat wordt aan nieuwe gebruikers gevraagd en waar komen ze terecht.
 
-Access these settings under **Administration > Configuration settings > Registration**. This category contains **20 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+Deze instellingen zijn te vinden onder **Beheer > Configuratie-instellingen > Registratie**. Deze categorie bevat **20 instellingen**, hieronder opgesomd met de titel en opmerking zoals meegeleverd in de platforminstellingen (`SettingsCurrentFixtures.php`).
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> De variabelenaam in de code wordt in monospace weergegeven. Gebruik deze bij het scripten via de API of wanneer u deze instellingen op globaal niveau wilt wijzigen door [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml) te bewerken.
 
-## Settings
+## Instellingen
 
 ### `allow_double_validation_in_registration`
 
-**Double validation for registration process**
+**Dubbele validatie voor registratieproces**
 
-Simply display a confirmation request on the registration page before going forward with the user creation.
+Toon eenvoudigweg een bevestigingsverzoek op de registratiepagina voordat de gebruikersaanmaak wordt voortgezet.
 
-*Default: `false`*
-
+*Standaard: `false`*
 
 ### `allow_fields_inscription`
 
-**Restrict fields shown during registration**
+**Beperk velden die worden getoond tijdens registratie**
 
-If you only want to show some of the available profile field, your can complete the array here with sub-elements 'fields' and 'extra_fields' containing arrays with a list of the fields to show.
+Als u slechts enkele van de beschikbare profielvelden wilt tonen, kunt u hier de array aanvullen met subelementen 'fields' en 'extra_fields' die arrays bevatten met een lijst van de weer te geven velden.
 
 ### `allow_lostpassword`
 
-**Lost password**
+**Verloren wachtwoord**
 
-Are users allowed to request their lost password?
+Mogen gebruikers hun verloren wachtwoord opvragen?
 
-*Default: `true`*
+*Standaard: `true`*
 
 ### `allow_registration`
 
-**Registration**
+**Registratie**
 
-Is registration as a new user allowed? Can users create new accounts?
+Is registratie als nieuwe gebruiker toegestaan? Kunnen gebruikers nieuwe accounts aanmaken?
 
-*Default: `false`*
+*Standaard: `false`*
 
 ### `allow_registration_as_teacher`
 
-**Registration as teacher**
+**Registratie als docent**
 
-Can one register as a teacher (with the ability to create courses)?
+Kan men zich registreren als docent (met de mogelijkheid om cursussen aan te maken)?
 
-*Default: `false`*
+*Standaard: `false`*
 
 ### `allow_terms_conditions`
 
-**Enable terms and conditions**
+**Algemene voorwaarden inschakelen**
 
-This option will display the Terms and Conditions in the register form for new users. Need to be configured first in the portal administration page.
+Met deze optie worden de Algemene Voorwaarden weergegeven in het registratieformulier voor nieuwe gebruikers. Dit moet eerst worden geconfigureerd op de beheerpagina van het portaal.
 
-*Default: `false`*
-
+*Standaard: `false`*
 
 ### `drh_autosubscribe`
 
-**Human resources director autosubscribe**
+**Automatische inschrijving voor personeelsdirecteur**
 
-Human resources director autosubscribe - not yet available
+Automatische inschrijving voor personeelsdirecteur - nog niet beschikbaar
 
 ### `extendedprofile_registration`
 
-**Portfolio fields at registration**
+**Portfoliovelden bij registratie**
 
-Which of the following fields of the portfolio have to be available in the user registration process? This requires that the portfolio option be enabled (see above).
+Welke van de volgende portfoliovelden moeten beschikbaar zijn in het registratieproces van gebruikers? Dit vereist dat de portfolio-optie is ingeschakeld (zie hierboven).
 
 ### `extendedprofile_registrationrequired`
 
-**Required portfolio fields in registration**
+**Verplichte portfoliovelden bij registratie**
 
-Which of the following fields of the portfolio are *required* in the user registration process? This requires that the portfolio option be enabled and that the field be also available in the registration form (see above).
+Welke van de volgende portfoliovelden zijn *verplicht* in het registratieproces van gebruikers? Dit vereist dat de portfolio-optie is ingeschakeld en dat het veld ook beschikbaar is in het registratieformulier (zie hierboven).
 
 ### `extldap_config`
 
-**LDAP connection configuration**
+**LDAP-verbindingsconfiguratie**
 
-Array defining host and port for the LDAP server.
+Array die host en poort voor de LDAP-server definieert.
 
 ### `hide_legal_accept_checkbox`
 
-**Hide legal accept checkbox in Terms and Conditions page**
+**Verberg acceptatievinkje op pagina Algemene Voorwaarden**
 
-If set to true, removes the "I have read and accept" checkbox in the Terms and Conditions page flow.
+Indien ingesteld op true, wordt het vinkje "Ik heb gelezen en accepteer" verwijderd in de flow van de pagina Algemene Voorwaarden.
 
-*Default: `false`*
-
+*Standaard: `false`*
 
 ### `platform_unsubscribe_allowed`
 
-**Allow unsubscription from platform**
+**Uitschrijving van platform toestaan**
 
-By enabling this option, you allow any user to definitively remove his own account and all data related to it from the platform. This is quite a radical action, but it is necessary for portals opened to the public where users can auto-register. An additional entry will appear in the user profile to unsubscribe after confirmation.
+Door deze optie in te schakelen, laat u gebruikers toe om hun eigen account en alle gerelateerde gegevens definitief van het platform te verwijderen. Dit is een vrij radicale actie, maar noodzakelijk voor portalen die open zijn voor het publiek waar gebruikers zich automatisch kunnen registreren. Een extra optie verschijnt in het gebruikersprofiel om na bevestiging uit te schrijven.
 
-*Default: `false`*
-
+*Standaard: `false`*
 
 ### `redirect_after_login`
 
-**Redirect after login (per profile)**
+**Doorverwijzing na inloggen (per profiel)**
 
-Define redirection per profile after login using a JSON object like {"STUDENT":"", "ADMIN":"admin-dashboard"}
+Definieer doorverwijzing per profiel na inloggen met een JSON-object zoals {"STUDENT":"", "ADMIN":"admin-dashboard"}
 
-*Default:*
+*Standaard:*
 ```json
 {
   "COURSEMANAGER": "courses",
@@ -119,49 +115,46 @@ Define redirection per profile after login using a JSON object like {"STUDENT":"
 
 ### `required_extra_fields_in_inscription`
 
-**Required extra fields during registration**
+**Verplichte extra velden tijdens registratie**
 
-Array of extra field identifiers that must be completed during user registration.
+Array van extra veldidentificatoren die tijdens de gebruikersregistratie moeten worden ingevuld.
 
 ### `required_profile_fields`
 
-**Required fields during registration**
+**Verplichte velden tijdens registratie**
 
-Array of profile field names (email, phone, language, official_code) that must be provided during registration.
+Array van profielveldnamen (email, phone, language, official_code) die tijdens de registratie moeten worden opgegeven.
 
 ### `send_inscription_msg_to_inbox`
 
-**Send the welcome message to e-mail and inbox**
+**Stuur het welkomstbericht naar e-mail en inbox**
 
-By default, the welcome message (with credentials) is sent only by e-mail. Enable this option to send it to the user's Chamilo inbox as well.
+Standaard wordt het welkomstbericht (met inloggegevens) alleen per e-mail verzonden. Schakel deze optie in om het ook naar de Chamilo-inbox van de gebruiker te sturen.
 
-*Default: `false`*
-
+*Standaard: `false`*
 
 ### `sessionadmin_autosubscribe`
 
-**Session admin autosubscribe**
+**Automatische inschrijving voor sessiebeheerder**
 
-Session administrator autosubscribe - not available yet
+Automatische inschrijving voor sessiebeheerder - nog niet beschikbaar
 
 ### `student_autosubscribe`
 
-**Learner autosubscribe**
+**Automatische inschrijving voor leerling**
 
-Learner autosubscribe - not yet available
+Automatische inschrijving voor leerling - nog niet beschikbaar
 
 ### `teacher_autosubscribe`
 
-**Teacher autosubscribe**
+**Automatische inschrijving voor docent**
 
-Teacher autosubscribe - not yet available
+Automatische inschrijving voor docent - nog niet beschikbaar
 
 ### `user_hide_never_expire_option`
 
-**Hide 'never expires' option for users**
+**Verberg 'nooit verlopen' optie voor gebruikers**
 
-Remove the option 'never expires' when creating/editing a user account.
+Verwijder de optie 'nooit verlopen' bij het aanmaken/bewerken van een gebruikersaccount.
 
-*Default: `false`*
-
-
+*Standaard: `false`*

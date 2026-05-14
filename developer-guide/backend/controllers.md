@@ -1,71 +1,71 @@
 # Controllers
 
-Chamilo 2.0 uses a large number of controllers (in the order of dozens) organized across the bundles. The exact count drifts version to version — treat the names below as illustrative, not exhaustive.
+Chamilo 2.0 maakt gebruik van een groot aantal controllers (in de orde van tientallen), georganiseerd over de verschillende bundles. Het exacte aantal varieert per versie — beschouw de onderstaande namen als illustratief, niet als uitputtend.
 
-## Controller Types
+## Soorten Controllers
 
-### Admin Controllers
+### Beheerderscontrollers
 
-Located in `src/CoreBundle/Controller/Admin/`. Handle platform administration:
+Gelegen in `src/CoreBundle/Controller/Admin/`. Behandelen platformbeheer:
 
-* `AdminController` — Dashboard, file info, email testing
-* `UserListController` — User CRUD
-* `CourseListController` — Course management
-* `SessionAdminController` — Session management
-* `SettingsController` — Platform settings
-* `SecurityController` — Login attempts, IDS events
-* `PluginsController` — Plugin management
-* `RoomController` — Room management
+* `AdminController` — Dashboard, bestandsinformatie, e-mailtesten
+* `UserListController` — Gebruikers CRUD
+* `CourseListController` — Cursusbeheer
+* `SessionAdminController` — Sessiebeheer
+* `SettingsController` — Platforminstellingen
+* `SecurityController` — Inlogpogingen, IDS-gebeurtenissen
+* `PluginsController` — Pluginbeheer
+* `RoomController` — Ruimtebeheer
 
-### API Action Controllers
+### API Actiecontrollers
 
-Custom API Platform actions in `src/CoreBundle/Controller/Api/`:
+Aangepaste API Platform-acties in `src/CoreBundle/Controller/Api/`:
 
-These extend API Platform's built-in CRUD with custom business logic. Examples:
+Deze breiden de ingebouwde CRUD van API Platform uit met aangepaste bedrijfslogica. Voorbeelden:
 
-* `CreateDocumentFileAction` — File upload for documents
-* `CreateStudentPublicationFileAction` — Assignment submission upload
-* `UpdateVisibilityDocument` — Toggle document visibility
-* `ExportCGlossaryAction` — Export glossary
-* `MoveDocumentAction` — Move a document to a different folder
+* `CreateDocumentFileAction` — Bestandsupload voor documenten
+* `CreateStudentPublicationFileAction` — Upload van opdrachtinzendingen
+* `UpdateVisibilityDocument` — Zichtbaarheid van documenten aanpassen
+* `ExportCGlossaryAction` — Woordenlijst exporteren
+* `MoveDocumentAction` — Een document naar een andere map verplaatsen
 
-For read/write operations that don't need a dedicated HTTP controller — i.e. when you only want to change *how* an item or collection is fetched or persisted — prefer a **State Provider** or **State Processor** (see below). API Action Controllers are best reserved for endpoints that genuinely need request-level logic (file uploads, custom response formats, multi-step flows).
+Voor lees-/schrijfbewerkingen die geen speciale HTTP-controller nodig hebben — dat wil zeggen, wanneer je alleen wilt wijzigen *hoe* een item of verzameling wordt opgehaald of opgeslagen — geef de voorkeur aan een **State Provider** of **State Processor** (zie hieronder). API Actiecontrollers zijn het best gereserveerd voor endpoints die echt logica op verzoekniveau nodig hebben (bestandsuploads, aangepaste antwoordformaten, meerstapsstromen).
 
 ### AI Controller
 
-`src/CoreBundle/Controller/AiController.php` is the entry point for AI-related endpoints (Aiken question generation, learning-path generation, image/video generation, open-answer grading, document analysis…). The exact set of routes evolves quickly — read the controller's `#[Route]` attributes for the current list rather than relying on a copy here.
+`src/CoreBundle/Controller/AiController.php` is het toegangspunt voor AI-gerelateerde endpoints (Aiken-vraaggeneratie, leerpadgeneratie, beeld-/videogeneratie, open-antwoordbeoordeling, documentanalyse…). De exacte set routes evolueert snel — lees de `#[Route]`-attributen van de controller voor de huidige lijst in plaats van te vertrouwen op een kopie hier.
 
 ### Chat Controller
 
-`src/CoreBundle/Controller/ChatController.php` handles real-time chat and AI tutor:
+`src/CoreBundle/Controller/ChatController.php` behandelt real-time chat en AI-tutor:
 
-* User-to-user messaging
-* AI tutor chat (docked chat panel)
-* Message history and polling
+* Gebruiker-tot-gebruiker berichten
+* AI-tutor chat (vastgezette chatpaneel)
+* Berichtgeschiedenis en polling
 
 ## API Platform State Providers & Processors
 
-Not every API endpoint is backed by a controller. API Platform 3 splits the work between two interfaces:
+Niet elk API-endpoint wordt ondersteund door een controller. API Platform 3 splitst het werk tussen twee interfaces:
 
-* **State Providers** (`ApiPlatform\State\ProviderInterface`) — return data for `GET` operations (a single item or a collection).
-* **State Processors** (`ApiPlatform\State\ProcessorInterface`) — handle writes for `POST`, `PUT`, `PATCH`, and `DELETE` operations.
+* **State Providers** (`ApiPlatform\State\ProviderInterface`) — leveren gegevens voor `GET`-bewerkingen (een enkel item of een verzameling).
+* **State Processors** (`ApiPlatform\State\ProcessorInterface`) — behandelen schrijfbewerkingen voor `POST`, `PUT`, `PATCH` en `DELETE`-bewerkingen.
 
-Chamilo's implementations live in `src/CoreBundle/State/` (around 35+ classes). They are wired to entities via the `provider:` and `processor:` arguments of `#[ApiResource]` operations rather than via routes.
+Chamilo's implementaties bevinden zich in `src/CoreBundle/State/` (ongeveer 35+ klassen). Ze zijn verbonden met entiteiten via de `provider:` en `processor:` argumenten van `#[ApiResource]`-bewerkingen in plaats van via routes.
 
-### When to use them
+### Wanneer te gebruiken
 
-Reach for a provider/processor — instead of an API Action Controller — when:
+Kies voor een provider/processor — in plaats van een API Actiecontroller — wanneer:
 
-* The endpoint follows the standard REST shape (list / read / create / update / delete) but needs custom data assembly or persistence logic.
-* You need to filter, denormalize, or enrich the result of a collection or item read (e.g. respecting the current Access URL, course context, or visibility rules).
-* You need to run side effects on write (audit logs, file generation, related-entity updates) while keeping API Platform's normalization, validation, and pagination pipeline.
-* You want to keep the operation discoverable in the OpenAPI / Hydra schema without registering a custom route.
+* Het endpoint de standaard REST-vorm volgt (lijst / lezen / aanmaken / bijwerken / verwijderen) maar aangepaste gegevenssamenstelling of persistentielogica nodig heeft.
+* Je de resultaten van een verzameling of item-lezing moet filteren, denormaliseren of verrijken (bijvoorbeeld met respect voor de huidige Access URL, cursuscontext of zichtbaarheidsregels).
+* Je neveneffecten moet uitvoeren bij schrijven (auditlogs, bestandsgeneratie, updates van gerelateerde entiteiten) terwijl je de normalisatie-, validatie- en paginatiepijplijn van API Platform behoudt.
+* Je de bewerking vindbaar wilt houden in het OpenAPI / Hydra-schema zonder een aangepaste route te registreren.
 
-If the endpoint instead needs raw `Request` access, returns a non-resource payload (file download, CSV, redirect), or orchestrates a multi-step flow, an API Action Controller in `src/CoreBundle/Controller/Api/` is a better fit.
+Als het endpoint daarentegen directe toegang tot `Request` nodig heeft, een niet-bronpayload retourneert (bestandsdownload, CSV, omleiding), of een meerstapsstroom orkestreert, is een API Actiecontroller in `src/CoreBundle/Controller/Api/` een betere keuze.
 
-### Wiring on the entity
+### Koppeling aan de entiteit
 
-Reference the class on the operation:
+Verwijs naar de klasse bij de bewerking:
 
 ```php
 #[ApiResource(
@@ -77,9 +77,9 @@ Reference the class on the operation:
 class ColorTheme { ... }
 ```
 
-### Provider example
+### Voorbeeld van een Provider
 
-`src/CoreBundle/State/DocumentProvider.php` resolves a `CDocument` by URI variable and throws `NotFoundHttpException` when missing:
+`src/CoreBundle/State/DocumentProvider.php` lost een `CDocument` op aan de hand van een URI-variabele en gooit een `NotFoundHttpException` wanneer deze ontbreekt:
 
 ```php
 final class DocumentProvider implements ProviderInterface
@@ -99,9 +99,10 @@ final class DocumentProvider implements ProviderInterface
 }
 ```
 
-### Processor example
+---
+### Voorbeeld van een processor
 
-`src/CoreBundle/State/ColorThemeStateProcessor.php` delegates to the default Doctrine `persistProcessor`, then runs side effects (generates a CSS file on the themes Flysystem filesystem, links the theme to the current Access URL):
+`src/CoreBundle/State/ColorThemeStateProcessor.php` delegeert naar de standaard Doctrine `persistProcessor` en voert vervolgens neveneffecten uit (genereert een CSS-bestand op het Flysystem-bestandssysteem voor thema's, koppelt het thema aan de huidige Access URL):
 
 ```php
 final readonly class ColorThemeStateProcessor implements ProcessorInterface
@@ -120,23 +121,23 @@ final readonly class ColorThemeStateProcessor implements ProcessorInterface
 
         $colorTheme = $this->persistProcessor->process($data, $operation, $uriVariables, $context);
 
-        // …generate colors.css, link to current AccessUrl, flush…
+        // …genereer colors.css, koppel aan huidige AccessUrl, flush…
 
         return $colorTheme;
     }
 }
 ```
 
-### Patterns to know
+### Patronen om te kennen
 
-* **Compose with the default processor.** Decorate `ProcessorInterface $persistProcessor` (Doctrine's built-in) so Chamilo-specific logic runs *around* the standard persist, not instead of it.
-* **Collection providers do their own pagination.** When a collection provider builds a custom query, it must respect `?page`, `?itemsPerPage`, and search filters — API Platform's automatic paginator only kicks in for the default Doctrine collection provider.
-* **One class per resource + operation kind is common**, but a provider can serve several operations (see `UsergroupStateProvider`, reused across four operations on `Usergroup`).
-* **Naming convention**: `<Entity>StateProvider` / `<Entity>StateProcessor` for resource-wide handlers; `<Entity><Action>Processor` (e.g. `CBlogAssignAuthorProcessor`, `CStudentPublicationDeleteProcessor`) for narrower operations.
+* **Samenstellen met de standaard processor.** Decoreer `ProcessorInterface $persistProcessor` (de ingebouwde van Doctrine) zodat Chamilo-specifieke logica *rondom* de standaard persist wordt uitgevoerd, niet in plaats daarvan.
+* **Collectieproviders beheren hun eigen paginering.** Wanneer een collectieprovider een aangepaste query bouwt, moet deze rekening houden met `?page`, `?itemsPerPage` en zoekfilters — de automatische paginator van API Platform treedt alleen in werking voor de standaard Doctrine collectieprovider.
+* **Eén klasse per bron + type operatie is gebruikelijk**, maar een provider kan meerdere operaties bedienen (zie `UsergroupStateProvider`, hergebruikt voor vier operaties op `Usergroup`).
+* **Naamconventie**: `<Entity>StateProvider` / `<Entity>StateProcessor` voor resourcebrede handlers; `<Entity><Action>Processor` (bijv. `CBlogAssignAuthorProcessor`, `CStudentPublicationDeleteProcessor`) voor specifiekere operaties.
 
 ## Routing
 
-Controllers use **PHP 8 attributes** for route definitions:
+Controllers gebruiken **PHP 8 attributen** voor routedefinities:
 
 ```php
 #[Route('/admin/user-list')]
@@ -147,12 +148,12 @@ class UserListController extends AbstractController
 }
 ```
 
-API Platform resources use `#[ApiResource]` attributes on entities, with custom operations pointing to controller actions.
+API Platform-bronnen gebruiken `#[ApiResource]` attributen op entiteiten, met aangepaste operaties die verwijzen naar controlleracties.
 
 ## Traits
 
-Controllers use shared traits for common functionality:
+Controllers maken gebruik van gedeelde traits voor gemeenschappelijke functionaliteit:
 
-* `ControllerTrait` — Access to settings, serializer, and common services
-* `CourseControllerTrait` — Course context helpers
-* `ResourceControllerTrait` — Resource node operations
+* `ControllerTrait` — Toegang tot instellingen, serializer en algemene services
+* `CourseControllerTrait` — Hulpmiddelen voor cursuscontext
+* `ResourceControllerTrait` — Operaties voor resourceknooppunten

@@ -1,23 +1,23 @@
-# Notebook
+# Notitieboek
 
-The notebook is a personal note-taking tool for learners. Each learner has their own private notebook within the course.
+Het notitieboek is een persoonlijke tool voor het maken van aantekeningen voor leerlingen. Elke leerling heeft zijn eigen privénotitieboek binnen de cursus.
 
-## How It Works
+## Hoe Het Werkt
 
-The notebook is a simple tool where learners can:
+Het notitieboek is een eenvoudige tool waarmee leerlingen:
 
-* **Create notes** — Write and save personal notes related to the course content
-* **Organize notes** — Review, edit, and delete their notes
-* **Keep them private** — Notes are visible only to the learner who created them
+* **Aantekeningen maken** — Persoonlijke aantekeningen schrijven en opslaan met betrekking tot de cursusinhoud
+* **Aantekeningen organiseren** — Hun aantekeningen bekijken, bewerken en verwijderen
+* **Privé houden** — Aantekeningen zijn alleen zichtbaar voor de leerling die ze heeft gemaakt
 
-## As a Teacher
+## Als Docent
 
-As a teacher, you should be aware that:
+Als docent moet u zich bewust zijn van het volgende:
 
-* The notebook is a **personal tool** — you cannot see your learners' notes
-* It is useful as a **reflection tool** — encourage learners to take notes while studying
-* Notes are stored within the course — they are not shared across courses
+* Het notitieboek is een **persoonlijke tool** — u kunt de aantekeningen van uw leerlingen niet zien
+* Het is nuttig als een **reflectietool** — moedig leerlingen aan om aantekeningen te maken tijdens het studeren
+* Aantekeningen worden opgeslagen binnen de cursus — ze worden niet gedeeld tussen cursussen
 
-## Enabling the Notebook
+## Het Notitieboek Inschakelen
 
-The notebook tool appears on the course homepage if it is enabled. If you do not see it, check that it is not hidden (look for hidden tools on the course homepage).
+De tool voor het notitieboek verschijnt op de cursusstartpagina als deze is ingeschakeld. Als u deze niet ziet, controleer dan of deze niet verborgen is (zoek naar verborgen tools op de cursusstartpagina).

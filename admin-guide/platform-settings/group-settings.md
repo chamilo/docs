@@ -1,37 +1,33 @@
-# Groups Settings
+# Groepsinstellingen
 
-Behaviour of the course **Groups** tool.
+Gedrag van de cursus **Groepen** tool.
 
-Access these settings under **Administration > Configuration settings > Groups**. This category contains **3 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+Ga naar deze instellingen via **Beheer > Configuratie-instellingen > Groepen**. Deze categorie bevat **3 instellingen**, hieronder vermeld met de titel en opmerking zoals meegeleverd in de platforminstellingen (`SettingsCurrentFixtures.php`).
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> De variabelenaam in de code wordt in monospace weergegeven. Gebruik deze bij het scripten via de API of wanneer u deze instellingen op globaal niveau wilt wijzigen door [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml) te bewerken.
 
-## Settings
+## Instellingen
 
 ### `allow_group_categories`
 
-**Group categories**
+**Groepscategorieën**
 
-Allow teachers to create categories in the Groups tool?
+Toestaan dat docenten categorieën aanmaken in de Groepen tool?
 
-*Default: `false`*
-
+*Standaard: `false`*
 
 ### `hide_course_group_if_no_tools_available`
 
-**Hide course group if no tool**
+**Cursusgroep verbergen als geen tool beschikbaar**
 
-If no tool is available in a group and the user is not registered to the group itself, hide the group completely in the groups list.
+Als er geen tool beschikbaar is in een groep en de gebruiker is niet geregistreerd in de groep zelf, verberg de groep dan volledig in de groepenlijst.
 
-*Default: `false`*
-
+*Standaard: `false`*
 
 ### `show_groups_to_users`
 
-**Show classes to users**
+**Klassen tonen aan gebruikers**
 
-Show the classes to users. Classes are a feature that allow you to register/unregister groups of users into a session or a course directly, reducing the administrative hassle. When you pick this option, learners will be able to see in which class they are through their social network interface.
+Toon de klassen aan gebruikers. Klassen zijn een functie waarmee u groepen gebruikers direct kunt inschrijven/uitschrijven voor een sessie of cursus, wat administratieve rompslomp vermindert. Wanneer u deze optie selecteert, kunnen leerlingen via hun sociale netwerkinterface zien in welke klas ze zitten.
 
-*Default: `false`*
-
-
+*Standaard: `false`*

@@ -1,50 +1,49 @@
-# Chat Settings
+# Chat-instellingen
 
-Behaviour of the course **Chat** tool.
+Gedrag van de cursus **Chat**-tool.
 
-Access these settings under **Administration > Configuration settings > Chat**. This category contains **5 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+Ga naar deze instellingen via **Beheer > Configuratie-instellingen > Chat**. Deze categorie bevat **5 instellingen**, hieronder vermeld met de titel en opmerking zoals meegeleverd in de instellingenfixtures van het platform (`SettingsCurrentFixtures.php`).
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> De variabelenaam in de code wordt in monospace weergegeven. Gebruik deze bij het scripten via de API of wanneer u deze instellingen op globaal niveau wilt wijzigen door [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml) te bewerken.
 
-## Settings
+## Instellingen
 
 ### `allow_global_chat`
 
-**Allow global chat**
+**Globale chat toestaan**
 
-Users can chat with each other
+Gebruikers kunnen met elkaar chatten
 
-*Default: `false`*
+*Standaard: `false`*
 
 ### `course_chat_restrict_to_coach`
 
-**Restrict course chat to coaches**
+**Cursuschat beperken tot coaches**
 
-Only allow students to talk to the tutors in the course (not other students).
+Alleen studenten toestaan om met de tutors in de cursus te praten (niet met andere studenten).
 
-*Default: `false`*
+*Standaard: `false`*
 
 ### `hide_chat_video`
 
-**Hide videochat option in global chat**
+**Videochatoptie in globale chat verbergen**
 
-When enabled, video chat functionality is disabled and unavailable in the global chat tool.
+Wanneer ingeschakeld, wordt de videochatfunctionaliteit uitgeschakeld en is deze niet beschikbaar in de globale chat-tool.
 
-*Default: `true`*
+*Standaard: `true`*
 
 ### `save_private_conversations_in_documents`
 
-**Save private conversations in documents**
+**Privégesprekken opslaan in documenten**
 
-If enabled, 1:1 private chat messages will be mirrored in the course chat history documents. Recommended to keep disabled for privacy.
+Indien ingeschakeld, worden 1:1 privégesprekken gespiegeld in de cursuschatgeschiedenisdocumenten. Aanbevolen om uitgeschakeld te laten voor privacy.
 
-*Default: `false`*
+*Standaard: `false`*
 
 ### `show_chat_folder`
 
-**Show the history folder of chat conversations**
+**Map met chatgesprekgeschiedenis weergeven**
 
-This will show to theacher the folder that contains all sessions that have been made in the chat, the teacher can make them visible or not learners and use them as a resource
+Hiermee wordt aan de docent de map getoond die alle sessies bevat die in de chat zijn gemaakt. De docent kan deze zichtbaar maken of niet voor leerlingen en ze als bron gebruiken.
 
-*Default: `true`*
-
+*Standaard: `true`*

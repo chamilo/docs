@@ -1,73 +1,73 @@
-# Tracking Settings
+# Trackinginstellingen
 
-Tracking-related defaults — what is recorded, what reports are exposed, time computation rules.
+Standaardinstellingen met betrekking tot tracking — wat wordt geregistreerd, welke rapporten worden weergegeven, regels voor tijdsberekening.
 
-Access these settings under **Administration > Configuration settings > Tracking**. This category contains **10 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+Ga naar deze instellingen via **Beheer > Configuratie-instellingen > Tracking**. Deze categorie bevat **10 instellingen**, hieronder vermeld met de titel en opmerking zoals meegeleverd in de instellingenfixtures van het platform (`SettingsCurrentFixtures.php`).
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> De variabelenaam in de code wordt weergegeven in monospace. Gebruik deze bij het scripten via de API of wanneer u deze instellingen op globaal niveau wilt wijzigen door [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml) te bewerken.
 
-## Settings
+## Instellingen
 
 ### `block_my_progress_page`
 
-**Prevent access to 'My progress'**
+**Toegang tot 'Mijn voortgang' blokkeren**
 
-In specific implementations like online exams, you might want to prevent user access to the 'My progress' page.
+In specifieke implementaties zoals online examens wilt u mogelijk de toegang van gebruikers tot de pagina 'Mijn voortgang' voorkomen.
 
-*Default: `false`*
+*Standaard: `false`*
 
 ### `footer_extra_content`
 
-**Extra content in footer**
+**Extra inhoud in voettekst**
 
-You can add HTML code like meta tags
+U kunt HTML-code toevoegen, zoals metatags.
 
 ### `header_extra_content`
 
-**Extra content in header**
+**Extra inhoud in koptekst**
 
-You can add HTML code like meta tags
+U kunt HTML-code toevoegen, zoals metatags.
 
 ### `meta_description`
 
-**Meta description**
+**Meta-omschrijving**
 
-This will show an OpenGraph Description meta (og:description) in your site's headers
+Dit toont een OpenGraph Description meta (og:description) in de headers van uw site.
 
 ### `meta_image_path`
 
-**Meta image path**
+**Pad naar meta-afbeelding**
 
-This Meta Image path is the path to a file inside your Chamilo directory (e.g. home/image.png) that should show in a Twitter card or a OpenGraph card when showing a link to your LMS. Twitter recommends an image of 120 x 120 pixels, which might sometimes be cropped to 120x90.
+Dit pad naar de meta-afbeelding is het pad naar een bestand in uw Chamilo-map (bijv. home/image.png) dat moet worden weergegeven in een Twitter-kaart of een OpenGraph-kaart wanneer een link naar uw LMS wordt getoond. Twitter beveelt een afbeelding van 120 x 120 pixels aan, die soms kan worden bijgesneden tot 120x90.
 
 ### `meta_title`
 
-**OpenGraph meta title**
+**OpenGraph meta-titel**
 
-This will show an OpenGraph Title meta (og:title) in your site's headers
+Dit toont een OpenGraph Title meta (og:title) in de headers van uw site.
 
 ### `meta_twitter_creator`
 
-**Twitter Creator account**
+**Twitter Creator-account**
 
-The Twitter Creator is a Twitter account (e.g. @ywarnier) that represents the *person* that created the site. This field is optional.
+De Twitter Creator is een Twitter-account (bijv. @ywarnier) dat de *persoon* vertegenwoordigt die de site heeft gemaakt. Dit veld is optioneel.
 
 ### `meta_twitter_site`
 
-**Twitter Site account**
+**Twitter Site-account**
 
-The Twitter site is a Twitter account (e.g. @chamilo_news) that is related to your site. It is usually a more temporary account than the Twitter creator account, or represents an entity (instead of a person). This field is required if you want the Twitter card meta fields to show.
+De Twitter Site is een Twitter-account (bijv. @chamilo_news) dat gerelateerd is aan uw site. Het is meestal een meer tijdelijk account dan de Twitter Creator-account, of vertegenwoordigt een entiteit (in plaats van een persoon). Dit veld is verplicht als u wilt dat de Twitter-kaart meta-velden worden weergegeven.
 
 ### `my_progress_course_tools_order`
 
-**Order of tools on 'My progress' page**
+**Volgorde van tools op de pagina 'Mijn voortgang'**
 
-Change the order of tools shown on the 'My progress' page for learners. Options include 'quizzes', 'learning_paths' and 'skills'.
+Wijzig de volgorde van de tools die worden weergegeven op de pagina 'Mijn voortgang' voor leerlingen. Opties zijn onder andere 'quizzes', 'learning_paths' en 'skills'.
 
 ### `tracking_skip_generic_data`
 
-**Skip generic data in learner self-tracking page**
+**Generieke gegevens overslaan op de zelf-trackingpagina van de leerling**
 
-If the 'My progress' page takes too long to load, you might want to remove the processing of generic statistics for the user. In this case enable this setting.
+Als de pagina 'Mijn voortgang' te lang duurt om te laden, wilt u mogelijk de verwerking van generieke statistieken voor de gebruiker verwijderen. Schakel in dat geval deze instelling in.
 
-*Default: `false`*
+*Standaard: `false`*

@@ -1,40 +1,40 @@
-# Getting Started
+# Aan de slag
 
-This section helps you get oriented with Chamilo 2.0. You will learn how to log in, navigate the main interface, and configure your profile.
+Deze sectie helpt u om vertrouwd te raken met Chamilo 2.0. U leert hoe u kunt inloggen, de hoofdinterface kunt navigeren en uw profiel kunt configureren.
 
-## Logging In
+## Inloggen
 
-To access Chamilo, open your browser and navigate to the URL provided by your institution (for example, `https://chamilo.yourschool.edu`). Enter your username and password on the login page and click **Sign in**.
+Om toegang te krijgen tot Chamilo, opent u uw browser en navigeert u naar de URL die door uw instelling is verstrekt (bijvoorbeeld `https://chamilo.yourschool.edu`). Voer uw gebruikersnaam en wachtwoord in op de inlogpagina en klik op **Inloggen**.
 
-If your institution uses external authentication (such as Azure, Keycloak, or a university single sign-on system), you may see additional login buttons below the standard login form. Click the appropriate button to authenticate through your institution's identity provider.
+Als uw instelling gebruikmaakt van externe authenticatie (zoals Azure, Keycloak of een single sign-on-systeem van een universiteit), ziet u mogelijk extra inlogknoppen onder het standaard inlogformulier. Klik op de juiste knop om te authenticeren via de identiteitsprovider van uw instelling.
 
-> If you have forgotten your password, click the **Forgot password?** link on the login page. You will receive an email with instructions to reset it.
+> Als u uw wachtwoord bent vergeten, klik dan op de link **Wachtwoord vergeten?** op de inlogpagina. U ontvangt een e-mail met instructies om uw wachtwoord opnieuw in te stellen.
 
-## First Look
+## Eerste indruk
 
-After logging in, you will see the Chamilo home page. The interface is organized into three main areas:
+Na het inloggen ziet u de startpagina van Chamilo. De interface is onderverdeeld in drie hoofdgebieden:
 
-![The Chamilo home page showing system announcements and course cards](/.gitbook/assets/home-page-teacher.png)
+![De startpagina van Chamilo met systeemmeldingen en cursuskaarten](/.gitbook/assets/home-page-teacher.png)
 
-* **Top bar** — Displays the platform logo, your message inbox (with a badge showing unread messages), and your user avatar. Click your avatar to access your profile and account settings.
-* **Sidebar** — The left navigation panel gives you quick access to your courses, sessions, agenda, social network, and more. You can collapse it by clicking the toggle at its edge.
-* **Main content area** — This is where the current page content is displayed. On the home page, you will see system announcements and your featured courses.
+* **Bovenbalk** — Toont het platformlogo, uw berichteninbox (met een badge die ongelezen berichten aangeeft) en uw gebruikersavatar. Klik op uw avatar om toegang te krijgen tot uw profiel en accountinstellingen.
+* **Zijbalk** — Het navigatiepaneel aan de linkerkant geeft u snelle toegang tot uw cursussen, sessies, agenda, sociaal netwerk en meer. U kunt het inklappen door op de schakelaar aan de rand te klikken.
+* **Hoofdinhoudsgebied** — Hier wordt de inhoud van de huidige pagina weergegeven. Op de startpagina ziet u systeemmeldingen en uw uitgelichte cursussen.
 
-## Your Courses
+## Uw cursussen
 
-From the sidebar, click **My courses** to see all the courses you are enrolled in as a teacher or student. Each course appears as a card showing:
+Klik in de zijbalk op **Mijn cursussen** om alle cursussen te zien waarin u bent ingeschreven als docent of student. Elke cursus wordt weergegeven als een kaart met:
 
-![The My Courses page displaying course cards with thumbnails and quick-access actions](/.gitbook/assets/my-courses-list.png)
+![De pagina Mijn cursussen met cursuskaarten, miniaturen en snelle toegang acties](/.gitbook/assets/my-courses-list.png)
 
-* The course image or thumbnail
-* The course title
-* Quick-access actions
+* De cursusafbeelding of miniatuur
+* De cursustitel
+* Snelle toegang acties
 
-If your institution uses **sessions** (time-bound training periods), you will also see a **My sessions** link in the sidebar, organized into current, past, and upcoming sessions.
+Als uw instelling gebruikmaakt van **sessies** (tijdgebonden trainingsperiodes), ziet u ook een link **Mijn sessies** in de zijbalk, onderverdeeld in huidige, afgelopen en aankomende sessies.
 
-Sessions in Chamilo are a way to deliver the same course to different groups of learners at different times, without duplicating the course content. Think of a session as a scheduled edition or cohort of a course. More on that topic later.
+Sessies in Chamilo zijn een manier om dezelfde cursus aan verschillende groepen leerlingen op verschillende momenten aan te bieden, zonder de cursusinhoud te dupliceren. Beschouw een sessie als een geplande editie of cohort van een cursus. Meer over dit onderwerp later.
 
-## Next Steps
+## Volgende stappen
 
-* [Understanding the Interface](understanding-the-interface.md) — A detailed look at every part of the Chamilo interface
-* [Your Profile](your-profile.md) — How to manage your personal information and preferences
+* [De interface begrijpen](understanding-the-interface.md) — Een gedetailleerde blik op elk onderdeel van de Chamilo-interface
+* [Uw profiel](your-profile.md) — Hoe u uw persoonlijke informatie en voorkeuren kunt beheren

@@ -1,7 +1,7 @@
-# Courses
+# Cursussen
 
-This section covers course management from an administrator perspective: overseeing the course catalog, managing categories, and handling imports and exports.
+Deze sectie behandelt het beheer van cursussen vanuit het perspectief van een beheerder: het overzien van de cursuscatalogus, het beheren van categorieën en het afhandelen van import- en exportprocessen.
 
-* **[Managing Courses](managing-courses.md)** — View, create, edit, and delete courses
-* **[Course Categories](course-categories.md)** — Organize the course catalog with categories
-* **[Course Import and Export](course-import-export.md)** — Import and export courses between platforms
+* **[Cursussen Beheren](managing-courses.md)** — Cursussen bekijken, aanmaken, bewerken en verwijderen
+* **[Cursuscategorieën](course-categories.md)** — De cursuscatalogus organiseren met categorieën
+* **[Cursus Import en Export](course-import-export.md)** — Cursussen importeren en exporteren tussen platforms

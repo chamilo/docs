@@ -1,46 +1,46 @@
 # Blog
 
-The blog tool lets you create a shared blog within your course. Learners can write posts, leave comments, and engage in structured writing activities.
+De blogtool stelt u in staat om een gedeelde blog te maken binnen uw cursus. Leerlingen kunnen berichten schrijven, reacties achterlaten en deelnemen aan gestructureerde schrijfactiviteiten.
 
-## Creating a Blog
+## Een Blog Maken
 
-1. Open the **Blog** tool from the course homepage (under the cog icon at the top)
-2. Click **New project**
-3. Enter a **title** and optional subtitle
-4. Save
-5. Decide when you want to make it available to students by clicking the **Show** (eye) icon
+1. Open de **Blog**-tool vanaf de cursusstartpagina (onder het tandwielpictogram bovenaan)
+2. Klik op **Nieuw project**
+3. Voer een **titel** in en eventueel een ondertitel
+4. Sla op
+5. Bepaal wanneer u de blog beschikbaar wilt maken voor studenten door op het **Weergeven** (oog)-pictogram te klikken
 
-You can create multiple blogs within a single course (e.g., one per topic or one per group).
+U kunt meerdere blogs maken binnen één cursus (bijvoorbeeld één per onderwerp of één per groep).
 
-## Writing Blog Posts
+## Blogberichten Schrijven
 
-1. Open a blog
-2. Click **New post**
-3. Enter a **title** and write the post content using the rich-text editor
-4. Save
+1. Open een blog
+2. Klik op **Nieuw bericht**
+3. Voer een **titel** in en schrijf de inhoud van het bericht met behulp van de rich-text editor
+4. Sla op
 
-Both teachers and learners (depending on permissions) can create posts.
+Zowel docenten als leerlingen (afhankelijk van de rechten) kunnen berichten maken.
 
-## Comments and Ratings
+## Reacties en Beoordelingen
 
-Readers can interact with blog posts through:
+Lezers kunnen interageren met blogberichten via:
 
-* **Comments** — Leave feedback or start a discussion under a post (comments can also be threaded as replies to other comments)
-* **Ratings** — Rate posts to highlight the most valued contributions
-* **Attachments** — Both posts and comments can carry file attachments
+* **Reacties** — Geef feedback of start een discussie onder een bericht (reacties kunnen ook als antwoorden op andere reacties worden genest)
+* **Beoordelingen** — Beoordeel berichten om de meest gewaardeerde bijdragen te benadrukken
+* **Bijlagen** — Zowel berichten als reacties kunnen bestandsbijlagen bevatten
 
-## Blog Tasks
+## Blogtaken
 
-You can create **tasks** within a blog — specific writing assignments that learners must complete as blog posts. This is useful for:
+U kunt **taken** maken binnen een blog — specifieke schrijfopdrachten die leerlingen moeten voltooien als blogberichten. Dit is nuttig voor:
 
-* Reflective journals
-* Weekly writing assignments
-* Project update reports
+* Reflectieve dagboeken
+* Wekelijkse schrijfopdrachten
+* Rapportages over projectupdates
 
-## Managing the Blog
+## De Blog Beheren
 
-As the teacher, you can:
+Als docent kunt u:
 
-* **Edit or delete** posts and comments (post deletion is restricted to the post author or to teachers)
-* **Toggle blog visibility** to show or hide the blog from learners
-* **Define tasks** — Add specific writing assignments learners are expected to complete as posts. Tasks can be color-coded for easier visual grouping.
+* Berichten en reacties **bewerken of verwijderen** (het verwijderen van berichten is beperkt tot de auteur van het bericht of tot docenten)
+* **Blogzichtbaarheid in- of uitschakelen** om de blog te tonen of te verbergen voor leerlingen
+* **Taken definiëren** — Voeg specifieke schrijfopdrachten toe die leerlingen als berichten moeten voltooien. Taken kunnen kleurgecodeerd worden voor een eenvoudiger visuele groepering.

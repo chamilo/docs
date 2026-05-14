@@ -1,247 +1,232 @@
-# Documents Settings
+# Documentinstellingen
 
-Behaviour of the course **Documents** tool — uploads, allowed extensions, sharing, and templates.
+Gedrag van de cursus **Documenten**-tool — uploads, toegestane extensies, delen en sjablonen.
 
-Access these settings under **Administration > Configuration settings > Documents**. This category contains **29 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+Toegang tot deze instellingen via **Beheer > Configuratie-instellingen > Documenten**. Deze categorie bevat **29 instellingen**, hieronder vermeld met de titel en opmerking zoals meegeleverd in de platforminstellingen (`SettingsCurrentFixtures.php`).
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> De variabelenaam in de code wordt weergegeven in monospace. Gebruik deze bij het scripten via de API of wanneer u deze instellingen op globaal niveau wilt wijzigen door [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml) te bewerken.
 
-## Settings
+## Instellingen
 
 ### `access_url_specific_files`
 
-**Enable URL-specific files**
+**URL-specifieke bestanden inschakelen**
 
-When this feature is enabled on a multi-URL configuration, you can go to the main URL and provide URL-specific versions of any file (in the documents tool). The original file will be replaced by the alternative whenever seeing it from a different URL. This allows you to customize each URL even further, while enjoying the advantage of re-using the same courses many times.
+Wanneer deze functie is ingeschakeld op een multi-URL-configuratie, kunt u naar de hoofd-URL gaan en URL-specifieke versies van elk bestand (in de documententool) aanbieden. Het originele bestand wordt vervangen door de alternatieve versie wanneer het vanaf een andere URL wordt bekeken. Dit stelt u in staat om elke URL verder aan te passen, terwijl u profiteert van het hergebruik van dezelfde cursussen.
 
-*Default: `false`*
+*Standaard: `false`*
 
 ### `default_document_quotum`
 
-**Default hard disk space**
+**Standaard harde schijfruimte**
 
-What is the available disk space for a course? You can override the quota for specific course through: platform administration > Courses > modify
+Wat is de beschikbare schijfruimte voor een cursus? U kunt de quota voor een specifieke cursus overschrijven via: platformbeheer > Cursussen > wijzigen
 
-*Default: `1000`*
-
+*Standaard: `1000`*
 
 ### `default_group_quotum`
 
-**Group disk space available**
+**Beschikbare schijfruimte voor groepen**
 
-What is the default hard disk spacde available for a groups documents tool?
+Wat is de standaard beschikbare harde schijfruimte voor de documententool van groepen?
 
-*Default: `250`*
-
+*Standaard: `250`*
 
 ### `documents_custom_cloud_link_list`
 
-**Set strict hosts list for cloud links**
+**Strikte hostlijst instellen voor cloudlinks**
 
-The documents tool can integrate links to files in the cloud. The list of cloud services is limited to a hardcoded list, but you can define the ‘links’ array that will contain a list of your own list of services/URLs. The list defined here will replace the default list.
+De documententool kan links naar bestanden in de cloud integreren. De lijst met cloudservices is beperkt tot een hardcoded lijst, maar u kunt de ‘links’-array definiëren die een lijst met uw eigen services/URL's zal bevatten. De hier gedefinieerde lijst vervangt de standaardlijst.
 
 ### `documents_default_visibility_defined_in_course`
 
-**Document visibility defined in course**
+**Documentzichtbaarheid gedefinieerd in cursus**
 
-The default document visibility for all courses
+De standaard documentzichtbaarheid voor alle cursussen
 
-*Default: `false`*
+*Standaard: `false`*
 
 ### `documents_hide_download_icon`
 
-**Hide documents download icon**
+**Downloadpictogram voor documenten verbergen**
 
-In the documents tool, hide the download icon from users.
+Verberg het downloadpictogram voor gebruikers in de documententool.
 
-*Default: `false`*
-
+*Standaard: `false`*
 
 ### `enable_x_sendfile_headers`
 
-**Enable X-sendfile headers**
+**X-sendfile-headers inschakelen**
 
-Enable this if you have X-sendfile enabled at the web server level and you want to add the required headers for browsers to pick it up.
+Schakel dit in als u X-sendfile op webserverniveau hebt ingeschakeld en u de benodigde headers wilt toevoegen zodat browsers deze oppikken.
 
-*Default: `false`*
+*Standaard: `false`*
 
 ### `group_category_document_access`
 
-**Enable sharing options for document inside group category**
+**Deelopties inschakelen voor documenten binnen groepscategorie**
 
-When enabled, administrators can set document access and sharing permissions for document groups by category.
+Wanneer ingeschakeld, kunnen beheerders toegangs- en deelrechten voor documentgroepen per categorie instellen.
 
-*Default: `false`*
-
+*Standaard: `false`*
 
 ### `group_document_access`
 
-**Enable sharing options for group document**
+**Deelopties inschakelen voor groepsdocumenten**
 
-When enabled, document sharing and access permissions can be configured at the group level.
+Wanneer ingeschakeld, kunnen deel- en toegangsrechten op groepsniveau worden geconfigureerd.
 
-*Default: `false`*
-
+*Standaard: `false`*
 
 ### `pdf_export_watermark_by_course`
 
-**Enable watermark definition by course**
+**Watermerkdefinitie per cursus inschakelen**
 
-When this option is enabled, teachers can define their own watermark for the documents in their courses.
+Wanneer deze optie is ingeschakeld, kunnen docenten hun eigen watermerk definiëren voor de documenten in hun cursussen.
 
-*Default: `false`*
-
+*Standaard: `false`*
 
 ### `pdf_export_watermark_enable`
 
-**Enable watermark in PDF export**
+**Watermerk inschakelen bij PDF-export**
 
-By enabling this option, you can upload an image or a text that will be automatically added as watermark to all PDF exports of documents on the system.
+Door deze optie in te schakelen, kunt u een afbeelding of tekst uploaden die automatisch als watermerk wordt toegevoegd aan alle PDF-exports van documenten op het systeem.
 
-*Default: `false`*
+*Standaard: `false`*
 
 ### `pdf_export_watermark_text`
 
-**PDF watermark text**
+**PDF-watermerktekst**
 
-This text will be added as a watermark to the documents exports as PDF.
+Deze tekst wordt als watermerk toegevoegd aan de documenten die als PDF worden geëxporteerd.
 
 ### `permanently_remove_deleted_files`
 
-**Deleted files cannot be restored**
+**Verwijderde bestanden kunnen niet worden hersteld**
 
-Deleting a file in the documents tool permanently deletes it. The file cannot be restored
+Het verwijderen van een bestand in de documententool verwijdert het permanent. Het bestand kan niet worden hersteld.
 
-*Default: `false`*
+*Standaard: `false`*
 
 ### `permissions_for_new_directories`
 
-**Permissions for new directories**
+**Rechten voor nieuwe mappen**
 
-The ability to define the permissions settings to assign to every newly created directory lets you improve security against attacks by hackers uploading dangerous content to your portal. The default setting (0770) should be enough to give your server a reasonable protection level. The given format uses the UNIX terminology of Owner-Group-Others with Read-Write-Execute permissions.
+De mogelijkheid om de rechteninstellingen te definiëren die aan elke nieuw aangemaakte map worden toegewezen, helpt u de beveiliging te verbeteren tegen aanvallen van hackers die gevaarlijke inhoud naar uw portaal uploaden. De standaardinstelling (0770) zou voldoende moeten zijn om uw server een redelijk beschermingsniveau te bieden. Het opgegeven formaat gebruikt de UNIX-terminologie van Eigenaar-Groep-Anderen met Lees-Schrijf-Uitvoer-rechten.
 
-*Default: `0770`*
-
+*Standaard: `0770`*
 
 ### `permissions_for_new_files`
 
-**Permissions for new files**
+**Rechten voor nieuwe bestanden**
 
-The ability to define the permissions settings to assign to every newly-created file lets you improve security against attacks by hackers uploading dangerous content to your portal. The default setting (0550) should be enough to give your server a reasonable protection level. The given format uses the UNIX terminology of Owner-Group-Others with Read-Write-Execute permissions. If you use Oogie, take care that the user who launch LibreOffice can write files in the course folder.
+De mogelijkheid om de rechteninstellingen te definiëren die aan elk nieuw aangemaakt bestand worden toegewezen, helpt u de beveiliging te verbeteren tegen aanvallen van hackers die gevaarlijke inhoud naar uw portaal uploaden. De standaardinstelling (0550) zou voldoende moeten zijn om uw server een redelijk beschermingsniveau te bieden. Het opgegeven formaat gebruikt de UNIX-terminologie van Eigenaar-Groep-Anderen met Lees-Schrijf-Uitvoer-rechten. Als u Oogie gebruikt, zorg er dan voor dat de gebruiker die LibreOffice start, bestanden kan schrijven in de cursusmap.
 
-*Default: `0660`*
-
+*Standaard: `0660`*
 
 ### `send_notification_when_document_added`
 
-**Send notification to students when document added**
+**Melding sturen naar studenten bij toevoeging van document**
 
-Whenever someone creates a new item in the documents tool, send a notification to users.
+Stuur een melding naar gebruikers telkens wanneer iemand een nieuw item aanmaakt in de documententool.
 
-*Default: `false`*
+*Standaard: `false`*
 
-
+---
 ### `show_default_folders`
 
-**Show in documents tool all folders containing multimedia resources supplied by default**
+**Toon in de documententool alle mappen met standaard meegeleverde multimediamiddelen**
 
-Multimedia file folders containing files supplied by default organized in categories of video, audio, image and flash animations to use in their courses. Although you make it invisible into the document tool, you can still use these resources in the platform web editor.
+Mappen met multimediabestanden die standaard worden meegeleverd, georganiseerd in categorieën zoals video, audio, afbeelding en flash-animaties, om te gebruiken in hun cursussen. Hoewel u deze mappen onzichtbaar kunt maken in de documententool, kunt u deze bronnen nog steeds gebruiken in de web-editor van het platform.
 
-*Default: `true`*
+*Standaard: `true`*
 
 ### `show_documents_preview`
 
-**Show document preview**
+**Toon documentvoorvertoning**
 
-Showing previews of the documents in the documents tool will avoid loading a new page just to show a document, but can result unstable with some older browsers or smaller width screens.
+Het tonen van voorvertoningen van documenten in de documententool voorkomt dat een nieuwe pagina wordt geladen om een document te bekijken, maar kan instabiliteit veroorzaken bij sommige oudere browsers of schermen met een kleinere breedte.
 
-*Default: `false`*
+*Standaard: `false`*
 
 ### `show_users_folders`
 
-**Show users folders in the documents tool**
+**Toon gebruikersmappen in de documententool**
 
-This option allows you to show or hide to teachers the folders that the system generates for each user who visits the tool documents or send a file through the web editor. If you display these folders to the teachers, they may make visible or not the learners and allow each learner to have a specific place on the course where not only store documents, but where they can also create and edit web pages and to export to pdf, make drawings, make personal web templates, send files, as well as create, move and delete directories and files and make security copies from their folders. Each user of course have a complete document manager. Also, remember that any user can copy a file that is visible from any folder in the documents tool (whether or not the owner) to his/her portfolios or personal documents area of social network, which will be available for his/her can use it in other courses.
+Met deze optie kunt u bepalen of docenten de mappen zien die het systeem genereert voor elke gebruiker die de documententool bezoekt of een bestand verzendt via de web-editor. Als u deze mappen aan docenten toont, kunnen zij deze al dan niet zichtbaar maken voor de leerlingen en elke leerling een specifieke plek in de cursus geven waar ze niet alleen documenten kunnen opslaan, maar ook webpagina's kunnen maken en bewerken, exporteren naar pdf, tekeningen maken, persoonlijke websjablonen maken, bestanden verzenden, en mappen en bestanden aanmaken, verplaatsen, verwijderen en beveiligingskopieën maken van hun mappen. Elke cursusgebruiker heeft een volledige documentbeheerder. Houd er ook rekening mee dat elke gebruiker een bestand dat zichtbaar is in een map in de documententool (ongeacht de eigenaar) kan kopiëren naar zijn/haar portfolio of persoonlijke documentengebied in het sociale netwerk, waardoor het beschikbaar wordt voor gebruik in andere cursussen.
 
-*Default: `true`*
+*Standaard: `true`*
 
 ### `students_download_folders`
 
-**Allow learners to download directories**
+**Sta leerlingen toe om mappen te downloaden**
 
-Allow learners to pack and download a complete directory from the document tool
+Sta leerlingen toe om een volledige map uit de documententool te verpakken en te downloaden.
 
-*Default: `true`*
-
+*Standaard: `true`*
 
 ### `students_export2pdf`
 
-**Allow learners to export web documents to PDF format in the documents and wiki tools**
+**Sta leerlingen toe om webdocumenten naar PDF-formaat te exporteren in de documenten- en wiki-tools**
 
-This feature is enabled by default, but in case of server overload abuse it, or specific learning environments, might want to disable it for all courses.
+Deze functie is standaard ingeschakeld, maar in geval van overbelasting van de server of misbruik, of in specifieke leeromgevingen, wilt u deze mogelijk uitschakelen voor alle cursussen.
 
-*Default: `true`*
+*Standaard: `true`*
 
 ### `thematic_pdf_orientation`
 
-**PDF orientation for course progress**
+**PDF-oriëntatie voor cursusvoortgang**
 
-In the course progress tool, you can print a PDF of the different elements. Set ‘portrait’ or ‘landscape’ (technical terms) to change it.
+In de tool voor cursusvoortgang kunt u een PDF afdrukken van de verschillende elementen. Stel ‘portrait’ of ‘landscape’ (technische termen) in om dit te wijzigen.
 
-*Default: `landscape`*
-
+*Standaard: `landscape`*
 
 ### `upload_extensions_blacklist`
 
-**Blacklist - setting**
+**Zwarte lijst - instelling**
 
-The blacklist is used to filter the files extensions by removing (or renaming) any file which extension figures in the blacklist below. The extensions should figure without the leading dot (.) and separated by semi-column (;) like the following:  exe;com;bat;scr;php. Files without extension are accepted. Letter casing (uppercase/lowercase) doesn't matter.
+De zwarte lijst wordt gebruikt om bestandsextensies te filteren door bestanden te verwijderen (of hernoemen) waarvan de extensie voorkomt in de onderstaande zwarte lijst. De extensies moeten worden vermeld zonder de voorafgaande punt (.) en gescheiden door een puntkomma (;) zoals in het volgende voorbeeld: exe;com;bat;scr;php. Bestanden zonder extensie worden geaccepteerd. Hoofdlettergebruik (hoofdletters/kleine letters) maakt geen verschil.
 
 ### `upload_extensions_list_type`
 
-**Type of filtering on document uploads**
+**Type filtering bij het uploaden van documenten**
 
-Whether you want to use the blacklist or whitelist filtering. See blacklist or whitelist description below for more details.
+Of u nu de zwarte lijst of witte lijst filtering wilt gebruiken. Zie de beschrijving van de zwarte lijst of witte lijst hieronder voor meer details.
 
-*Default: `blacklist`*
-
+*Standaard: `blacklist`*
 
 ### `upload_extensions_replace_by`
 
-**Replacement extension**
+**Vervangende extensie**
 
-Enter the extension that you want to use to replace the dangerous extensions detected by the filter. Only needed if you have selected a filter by replacement.
+Voer de extensie in die u wilt gebruiken om gevaarlijke extensies die door het filter worden gedetecteerd te vervangen. Alleen nodig als u een filter met vervanging hebt geselecteerd.
 
-*Default: `dangerous`*
-
+*Standaard: `dangerous`*
 
 ### `upload_extensions_skip`
 
-**Filtering behaviour (skip/rename)**
+**Filtergedrag (overslaan/hernoemen)**
 
-If you choose to skip, the files filtered through the blacklist or whitelist will not be uploaded to the system. If you choose to rename them, their extension will be replaced by the one defined in the extension replacement setting. Beware that renaming doesn't really protect you, and may cause name collision if several files of the same name but different extensions exist.
+Als u ervoor kiest om over te slaan, worden de bestanden die door de zwarte lijst of witte lijst worden gefilterd niet geüpload naar het systeem. Als u ervoor kiest om ze te hernoemen, wordt hun extensie vervangen door de extensie die is gedefinieerd in de instelling voor extensievervanging. Houd er rekening mee dat hernoemen u niet echt beschermt en naamconflicten kan veroorzaken als er meerdere bestanden met dezelfde naam maar verschillende extensies bestaan.
 
-*Default: `true`*
-
+*Standaard: `true`*
 
 ### `upload_extensions_whitelist`
 
-**Whitelist - setting**
+**Witte lijst - instelling**
 
-The whitelist is used to filter the file extensions by removing (or renaming) any file whose extension does *NOT* figure in the whitelist below. It is generally considered as a safer but more restrictive approach to filtering. The extensions should figure without the leading dot (.) and separated by semi-column (;) such as the following:  htm;html;txt;doc;xls;ppt;jpg;jpeg;gif;sxw. Files without extension are accepted. Letter casing (uppercase/lowercase) doesn't matter.
+De witte lijst wordt gebruikt om bestandsextensies te filteren door bestanden te verwijderen (of hernoemen) waarvan de extensie *NIET* voorkomt in de onderstaande witte lijst. Dit wordt over het algemeen beschouwd als een veiligere maar meer beperkende benadering van filtering. De extensies moeten worden vermeld zonder de voorafgaande punt (.) en gescheiden door een puntkomma (;) zoals in het volgende voorbeeld: htm;html;txt;doc;xls;ppt;jpg;jpeg;gif;sxw. Bestanden zonder extensie worden geaccepteerd. Hoofdlettergebruik (hoofdletters/kleine letters) maakt geen verschil.
 
 ### `users_copy_files`
 
-**Allow users to copy files from a course in your personal file area**
+**Sta gebruikers toe om bestanden van een cursus te kopiëren naar hun persoonlijke bestandsgebied**
 
-Allows users to copy files from a course in your personal file area, visible through the Social Network or through the HTML editor when they are out of a course
+Hiermee kunnen gebruikers bestanden van een cursus kopiëren naar hun persoonlijke bestandsgebied, zichtbaar via het sociale netwerk of via de HTML-editor wanneer ze zich buiten een cursus bevinden.
 
-*Default: `true`*
-
+*Standaard: `true`*
 
 ### `video_features`
 
-**Video features**
+**Videofuncties**
 
-Array of extra features you can enable for the video player in Chamilo. Options include 'speed', which allows you to change the playback speed of a video.
-
+Array van extra functies die u kunt inschakelen voor de videospeler in Chamilo. Opties omvatten 'speed', waarmee u de afspeelsnelheid van een video kunt wijzigen.

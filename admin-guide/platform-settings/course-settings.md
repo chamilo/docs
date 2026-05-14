@@ -1,361 +1,358 @@
-# Course Settings
+# Cursusinstellingen
 
-Defaults and policies that apply to courses across the platform — visibility, creation rights, allowed tools, learner permissions, and similar.
+Standaardinstellingen en beleidsregels die van toepassing zijn op cursussen over het hele platform — zichtbaarheid, rechten voor aanmaken, toegestane tools, rechten van leerlingen en vergelijkbare zaken.
 
-Access these settings under **Administration > Configuration settings > Course**. This category contains **45 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+Toegang tot deze instellingen vindt u onder **Beheer > Configuratie-instellingen > Cursus**. Deze categorie bevat **45 instellingen**, hieronder vermeld met de titel en opmerking zoals meegeleverd in de instellingenfixtures van het platform (`SettingsCurrentFixtures.php`).
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> De variabelenaam in de code wordt weergegeven in monospace. Gebruik deze bij het scripten via de API of wanneer u deze instellingen op globaal niveau wilt wijzigen door [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml) te bewerken.
 
-## Settings
+## Instellingen
 
 ### `active_tools_on_create`
 
-**Active tools on course creation**
+**Actieve tools bij het aanmaken van een cursus**
 
-Select the tools that will be *active* after the creation of a course.
+Selecteer de tools die *actief* zullen zijn na het aanmaken van een cursus.
 
-*Default:*
+*Standaard:*
 ```
 agenda,announcement,attendance,bbb,blog,chat,course_description,course_progress,customcertificate,document,dropbox,forum,global,glossary,gradebook,group,learnpath,link,mobidico,notebook,notebookteacher,portfolio,positioning,quiz,student_publication,survey,test2pdf,tracking,user,wiki,zoom
 ```
 
 ### `allow_base_course_category`
 
-**Use course categories from top URL**
+**Gebruik cursuscategorieën van de bovenste URL**
 
-In multi-URL settings, allow admins and teachers to assign categories from the top URL to courses in the children URLs.
+Bij multi-URL-instellingen kunnen beheerders en docenten categorieën van de bovenste URL toewijzen aan cursussen in de onderliggende URL's.
 
-*Default: `false`*
+*Standaard: `false`*
 
 ### `allow_course_theme`
 
-**Allow course themes**
+**Cursusthema's toestaan**
 
-Allows course graphical themes and makes it possible to change the style sheet used by a course to any of the possible style sheets available to Chamilo. When a user enters the course, the style sheet of the course will have priority over the user's own style sheet and the platform's default style sheet.
+Maakt cursusthema's mogelijk en biedt de mogelijkheid om het stijlblad dat door een cursus wordt gebruikt te wijzigen naar een van de beschikbare stijlbladen in Chamilo. Wanneer een gebruiker de cursus betreedt, heeft het stijlblad van de cursus voorrang op het eigen stijlblad van de gebruiker en het standaard stijlblad van het platform.
 
-*Default: `true`*
+*Standaard: `true`*
 
 ### `allow_public_course_with_no_terms_conditions`
 
-**Access public courses with terms and conditions**
+**Toegang tot openbare cursussen met algemene voorwaarden**
 
-With this option enabled, if a course has public visibility and terms and conditions, those terms are disabled while the course is public.
+Met deze optie ingeschakeld, worden de algemene voorwaarden uitgeschakeld zolang de cursus openbaar is, als een cursus openbare zichtbaarheid heeft en algemene voorwaarden bevat.
 
-*Default: `false`*
+*Standaard: `false`*
 
 ### `block_registered_users_access_to_open_course_contents`
 
-**Block public courses access to authenticated users**
+**Toegang tot openbare cursussen blokkeren voor geregistreerde gebruikers**
 
-Only show public courses. Do not allow registered users to access courses with 'open' visibility unless they are subscribed to each of these courses.
+Toon alleen openbare cursussen. Sta geregistreerde gebruikers niet toe om toegang te krijgen tot cursussen met 'open' zichtbaarheid, tenzij ze zijn ingeschreven voor elk van deze cursussen.
 
-*Default: `false`*
+*Standaard: `false`*
 
 ### `breadcrumbs_course_homepage`
 
-**Course homepage breadcrumb**
+**Broodkruimel op cursusstartpagina**
 
-The breadcrumb is the horizontal links navigation system usually in the top left of your page. This option selects what you want to appear in the breadcrumb on courses' homepages
+De broodkruimel is het horizontale navigatiesysteem met links, meestal linksboven op uw pagina. Deze optie bepaalt wat u wilt weergeven in de broodkruimel op de startpagina's van cursussen.
 
-*Default: `course_title`*
+*Standaard: `course_title`*
 
 ### `course_about_teacher_name_hide`
 
-**Hide course teacher info on course details page**
+**Verberg docentinformatie op cursusdetailpagina**
 
-On the course details page, hide the teacher information.
+Verberg de docentinformatie op de cursusdetailpagina.
 
-*Default: `false`*
+*Standaard: `false`*
 
 ### `course_category_code_to_use_as_model`
 
-**Restrict course templates to one course category**
+**Beperk cursussjablonen tot één cursuscategorie**
 
-Give a category code to use as course templates. Only those courses will show in the drop-down at course creation time, and users won’t see the courses in this category from the courses catalogue.
+Geef een categoriecode op om te gebruiken als cursussjablonen. Alleen die cursussen worden weergegeven in de vervolgkeuzelijst bij het aanmaken van een cursus, en gebruikers zien de cursussen in deze categorie niet in de cursuscatalogus.
 
 ### `course_configuration_tool_extra_fields_to_show_and_edit`
 
-**Extra fields to show in course settings**
+**Extra velden om te tonen in cursusinstellingen**
 
-The fields defined in this array will appear on the course settings page.
+De velden die in deze array zijn gedefinieerd, verschijnen op de pagina met cursusinstellingen.
 
 ### `course_creation_by_teacher_extra_fields_to_show`
 
-**Extra fields to show on course creation form**
+**Extra velden om te tonen op cursusaanmaakformulier**
 
-The fields defined in this array will appear as additional fields in the course creation form.
+De velden die in deze array zijn gedefinieerd, verschijnen als aanvullende velden in het cursusaanmaakformulier.
 
 ### `course_creation_donate_link`
 
-**Donation link on course creation page**
+**Donatielink op cursusaanmaakpagina**
 
-The page the donation message should link to (full URL).
+De pagina waarnaar het donatiebericht moet linken (volledige URL).
 
 ### `course_creation_donate_message_show`
 
-**Show donate message on course creation page**
+**Toon donatiebericht op cursusaanmaakpagina**
 
-Add a message box in the course creation page for teachers, asking them to donate to the project.
+Voeg een berichtvenster toe op de cursusaanmaakpagina voor docenten, waarin hen wordt gevraagd om te doneren aan het project.
 
-*Default: `false`*
+*Standaard: `false`*
 
 ### `course_creation_form_hide_course_code`
 
-**Remove course code field from course creation form**
+**Verwijder cursuscodeveld uit cursusaanmaakformulier**
 
-If not provided, the course code is generated by default based on the course title, so enable this option to remove the code field from the course creation form altogether.
+Als dit niet wordt opgegeven, wordt de cursuscode standaard gegenereerd op basis van de cursustitel. Schakel deze optie in om het codeveld volledig uit het cursusaanmaakformulier te verwijderen.
 
-*Default: `false`*
+*Standaard: `false`*
 
 ### `course_creation_form_set_course_category_mandatory`
 
-**Set course category mandatory**
+**Maak cursuscategorie verplicht**
 
-When creating a course, make the course category a required setting.
+Maak bij het aanmaken van een cursus de cursuscategorie een verplichte instelling.
 
-*Default: `false`*
+*Standaard: `false`*
 
 ### `course_creation_form_set_extra_fields_mandatory`
 
-**Extra fields to require on course creation form**
+**Extra velden verplicht stellen op cursusaanmaakformulier**
 
-The fields defined in this array will be mandatory in the course creation form.
+De velden die in deze array zijn gedefinieerd, worden verplicht in het cursusaanmaakformulier.
 
 ### `course_creation_splash_screen`
 
-**Splash screen for courses**
+**Welkomstscherm voor cursussen**
 
-Show a splash screen when creating a new course.
+Toon een welkomstscherm bij het aanmaken van een nieuwe cursus.
 
-*Default: `true`*
+*Standaard: `true`*
 
+---
 ### `course_creation_use_template`
 
-**Use template course for new courses**
+**Sjablooncursus gebruiken voor nieuwe cursussen**
 
-Set this to use the same template course (identified by its course numeric ID in the database) for all new courses that will be created on the platform. Please note that, if not properly planned, this setting might have a massive impact on space usage. The template course will be used as if the teacher did a copy of the course with the course backup tools, so no user content is copied, only teacher material. All other course-backup rules apply. Leave empty (or set to 0) to disable.
+Stel dit in om dezelfde sjablooncursus (geïdentificeerd door het numerieke cursus-ID in de database) te gebruiken voor alle nieuwe cursussen die op het platform worden aangemaakt. Houd er rekening mee dat, indien niet goed gepland, deze instelling een enorme impact kan hebben op het ruimtegebruik. De sjablooncursus wordt gebruikt alsof de docent een kopie van de cursus heeft gemaakt met de back-uptools voor cursussen, dus er wordt geen gebruikersinhoud gekopieerd, alleen materiaal van de docent. Alle andere regels voor cursusback-ups zijn van toepassing. Laat dit leeg (of stel in op 0) om uit te schakelen.
 
 ### `course_creation_user_course_extra_field_relation_to_prefill`
 
-**Prefill course fields with fields from user**
+**Cursusvelden vooraf invullen met velden van de gebruiker**
 
-If not empty, the course creation process will look for some fields in the user profile and auto-fill them for the course. For example, a teacher specialized in digital marketing could automatically set a « digital marketing » flag on each course (s)he creates.
+Indien niet leeg, zal het proces voor het aanmaken van een cursus bepaalde velden in het gebruikersprofiel opzoeken en deze automatisch invullen voor de cursus. Bijvoorbeeld, een docent die gespecialiseerd is in digitale marketing kan automatisch een vlag "digitale marketing" instellen voor elke cursus die hij/zij aanmaakt.
 
 ### `course_hide_tools`
 
-**Hide tools from teachers**
+**Tools verbergen voor docenten**
 
-Check the tools you want to hide from teachers. This will prohibit access to the tool.
+Vink de tools aan die u wilt verbergen voor docenten. Dit zal de toegang tot de tool verbieden.
 
 ### `course_images_in_courses_list`
 
-**Courses custom icons**
+**Aangepaste pictogrammen voor cursussen**
 
-Use course images as the course icon in courses lists (instead of the default green blackboard icon).
+Gebruik cursusafbeeldingen als het cursus pictogram in cursuslijsten (in plaats van het standaard groene schoolbordpictogram).
 
-*Default: `true`*
+*Standaard: `true`*
 
 ### `course_log_default_extra_fields`
 
-**User extra fields by default in course stats page**
+**Standaard extra velden van gebruikers in cursusstatistiekenpagina**
 
-Configure this array with the internal IDs of the extra fields you want to show by default in the main course stats page.
+Configureer deze array met de interne ID's van de extra velden die u standaard wilt tonen op de hoofdpagina met cursusstatistieken.
 
 ### `course_log_hide_columns`
 
-**Hide columns from course logs**
+**Kolommen verbergen in cursuslogs**
 
-This array gives you the possibility to configure which columns to hide in the main course stats page and in the total time report.
+Met deze array kunt u configureren welke kolommen u wilt verbergen op de hoofdpagina met cursusstatistieken en in het rapport over de totale tijd.
 
 ### `course_sequence_valid_only_in_same_session`
 
-**Validate prerequisites only within the same session**
+**Voorwaarden alleen valideren binnen dezelfde sessie**
 
-When enabled, a course will be considered validated only if passed within the current session. If disabled, courses passed in other sessions will also unlock dependent courses.
+Wanneer ingeschakeld, wordt een cursus alleen als gevalideerd beschouwd als deze binnen de huidige sessie is voltooid. Indien uitgeschakeld, zullen cursussen die in andere sessies zijn voltooid ook afhankelijke cursussen ontgrendelen.
 
-*Default: `false`*
-
+*Standaard: `false`*
 
 ### `course_student_info`
 
-**Course student info display**
+**Weergave van cursusinformatie voor studenten**
 
-On the ‘My courses’/’My sessions’ pages, show additional information regarding the score, progress and/or certificate acquisition by the student.
+Toon op de pagina's 'Mijn cursussen'/'Mijn sessies' aanvullende informatie over de score, voortgang en/of het behalen van een certificaat door de student.
 
 ### `course_validation`
 
-**Courses validation**
+**Cursusvalidatie**
 
-When the 'Courses validation' feature is enabled, a teacher is not able to create a course alone. He/she fills a course request. The platform administrator reviews the request and approves it or rejects it.<br />This feature relies on automated e-mail messaging; set Chamilo to access an e-mail server and to use a dedicated an e-mail account.
+Wanneer de functie 'Cursusvalidatie' is ingeschakeld, kan een docent niet zelfstandig een cursus aanmaken. Hij/zij vult een cursusaanvraag in. De platformbeheerder beoordeelt de aanvraag en keurt deze goed of wijst deze af.<br />Deze functie is afhankelijk van geautomatiseerde e-mailberichten; stel Chamilo in om toegang te krijgen tot een e-mailserver en gebruik een speciaal e-mailaccount.
 
-*Default: `false`*
-
+*Standaard: `false`*
 
 ### `course_validation_terms_and_conditions_url`
 
-**Course validation - a link to the terms and conditions**
+**Cursusvalidatie - een link naar de algemene voorwaarden**
 
-This is the URL to the 'Terms and Conditions' document that is valid for making a course request. If the address is set here, the user should read and agree with these terms and conditions before sending a course request.<br />If you enable Chamilo's 'Terms and Conditions' module and if you want its URL to be used, then leave this setting empty.
+Dit is de URL naar het document 'Algemene Voorwaarden' dat geldig is voor het indienen van een cursusaanvraag. Als het adres hier is ingesteld, moet de gebruiker deze algemene voorwaarden lezen en ermee akkoord gaan voordat hij/zij een cursusaanvraag indient.<br />Als u de module 'Algemene Voorwaarden' van Chamilo inschakelt en de URL ervan wilt gebruiken, laat deze instelling dan leeg.
 
 ### `courses_default_creation_visibility`
 
-**Default course visibility**
+**Standaard zichtbaarheid van cursussen**
 
-Default course visibility while creating a new course
+Standaard zichtbaarheid van een cursus bij het aanmaken van een nieuwe cursus.
 
-*Default: `2`*
-
+*Standaard: `2`*
 
 ### `display_coursecode_in_courselist`
 
-**Display Code in Course name**
+**Cursuscode weergeven in cursusnaam**
 
-Display Course Code in courses list
+Toon de cursuscode in de cursuslijst.
 
-*Default: `false`*
-
+*Standaard: `false`*
 
 ### `display_teacher_in_courselist`
 
-**Display teacher in course name**
+**Docent weergeven in cursusnaam**
 
-Display teacher in courses list
+Toon de docent in de cursuslijst.
 
-*Default: `true`*
-
+*Standaard: `true`*
 
 ### `enable_tool_introduction`
 
-**Enable tool introduction**
+**Introductie van tools inschakelen**
 
-Enable introductions on each tool's homepage
+Schakel introducties in op de startpagina van elke tool.
 
-*Default: `false`*
-
+*Standaard: `false`*
 
 ### `enable_unsubscribe_button_on_my_course_page`
 
-**Show unsubscribe button in ‘My courses’**
+**Knop voor uitschrijven tonen op 'Mijn cursussen'**
 
-Add a button to unsubscribe from a course on the ‘My courses’ page.
+Voeg een knop toe om uit te schrijven van een cursus op de pagina 'Mijn cursussen'.
 
-*Default: `false`*
+*Standaard: `false`*
 
 ### `example_material_course_creation`
 
-**Example material on course creation**
+**Voorbeeldmateriaal bij het aanmaken van een cursus**
 
-Create example material automatically when creating a new course
+Maak automatisch voorbeeldmateriaal aan bij het creëren van een nieuwe cursus.
 
-*Default: `true`*
-
+*Standaard: `true`*
 
 ### `hide_course_rating`
 
-**Hide course rating**
+**Cursusbeoordeling verbergen**
 
-The course rating feature comes by default in different places. If you don’t want it, enable this option.
+De functie voor cursusbeoordeling is standaard op verschillende plaatsen beschikbaar. Als u dit niet wilt, schakel dan deze optie in.
 
-*Default: `false`*
+*Standaard: `false`*
 
 ### `hide_course_sidebar`
 
-**Hide courses block in the sidebar**
+**Cursusblok in de zijbalk verbergen**
 
-When on screens where the left menu is visible, do not display the « Courses » section.
+Verberg de sectie "Cursussen" op schermen waar het linkermenu zichtbaar is.
 
-*Default: `true`*
+*Standaard: `true`*
 
 ### `multiple_access_url_show_shared_course_marker`
 
-**Show multi-URL shared course marker**
+**Marker voor gedeelde cursussen met meerdere URL's tonen**
 
-Adds a link icon to courses that are shared between URLs, so users (in particular teachers) know they have to take special care when editing the course content.
+Voegt een linkpictogram toe aan cursussen die worden gedeeld tussen URL's, zodat gebruikers (met name docenten) weten dat ze extra voorzichtig moeten zijn bij het bewerken van de cursusinhoud.
 
-*Default: `false`*
+*Standaard: `false`*
 
 ### `my_courses_show_courses_in_user_language_only`
 
-**Only show courses in the user’s language**
+**Alleen cursussen in de taal van de gebruiker tonen**
 
-If enabled, this option will hide all courses not set in the user’s language.
+Als deze optie is ingeschakeld, worden alle cursussen die niet in de taal van de gebruiker zijn ingesteld, verborgen.
 
-*Default: `false`*
+*Standaard: `false`*
 
+---
 ### `profiling_filter_adding_users`
 
-**Filter users on profile fields on subscription to course**
+**Gebruikers filteren op profielvelden bij inschrijving voor cursus**
 
-Allow teachers to filter the users based on extra fields on the page to subscribe users to their course.
+Sta docenten toe om gebruikers te filteren op basis van extra velden op de pagina voor het inschrijven van gebruikers voor hun cursus.
 
-*Default: `false`*
+*Standaard: `false`*
 
 
 ### `resource_sequence_show_dependency_in_course_intro`
 
-**Show dependencies in course intro**
+**Afhankelijkheden tonen in cursusintroductie**
 
-When using resources sequencing with courses or sessions, show the dependencies of the course on the course’s homepage.
+Bij het gebruik van bronsequenties met cursussen of sessies, toon de afhankelijkheden van de cursus op de startpagina van de cursus.
 
-*Default: `false`*
+*Standaard: `false`*
+
 
 ### `scorm_cumulative_session_time`
 
-**Cumulative session time for SCORM**
+**Cumulatieve sessietijd voor SCORM**
 
-When enabled, the session time for SCORM Learning Paths will be cumulative, otherwise, it will only be counted from the last update time. This is a global setting. It is used when creating a new Learning Path but can then be redefined for each one.
+Wanneer ingeschakeld, zal de sessietijd voor SCORM-leertrajecten cumulatief zijn; anders wordt alleen de tijd vanaf de laatste update meegeteld. Dit is een globale instelling. Het wordt gebruikt bij het aanmaken van een nieuw leertraject, maar kan vervolgens per traject opnieuw worden gedefinieerd.
 
-*Default: `true`*
+*Standaard: `true`*
 
 
 ### `send_email_to_admin_when_create_course`
 
-**E-mail alert on course creation**
+**E-mailwaarschuwing bij cursusaanmaak**
 
-Send an email to the platform administrator each time a teacher creates a new course
+Stuur een e-mail naar de platformbeheerder telkens wanneer een docent een nieuwe cursus aanmaakt.
 
-*Default: `false`*
+*Standaard: `false`*
 
 
 ### `show_course_duration`
 
-**Show courses duration**
+**Cursusduur tonen**
 
-Display the course duration next to the course title in the course catalogue and the courses list.
+Toon de cursusduur naast de cursustitel in de cursuscatalogus en de cursuslijst.
 
-*Default: `false`*
+*Standaard: `false`*
+
 
 ### `show_navigation_menu`
 
-**Display course navigation menu**
+**Navigatiemenu voor cursus weergeven**
 
-Display a navigation menu that quickens access to the tools
+Toon een navigatiemenu dat snelle toegang tot de tools mogelijk maakt.
 
-*Default: `false`*
+*Standaard: `false`*
 
 
 ### `show_toolshortcuts`
 
-**Tools shortcuts**
+**Snelkoppelingen naar tools**
 
-Show the tool shortcuts in the banner?
+Toon de snelkoppelingen naar tools in de banner?
 
-*Default: `false`*
+*Standaard: `false`*
+
 
 ### `student_view_enabled`
 
-**Enable learner view**
+**Leerlingweergave inschakelen**
 
-Enable the learner view, which allows a teacher or admin to see a course as a learner would see it
+Schakel de leerlingweergave in, waarmee een docent of beheerder een cursus kan zien zoals een leerling deze zou zien.
 
-*Default: `true`*
+*Standaard: `true`*
 
 
 ### `view_grid_courses`
 
-**View courses in a grid layout**
+**Cursussen in rasterweergave bekijken**
 
-View courses in a layout with several courses per line. Otherwise, the layout will show one course per line.
+Bekijk cursussen in een lay-out met meerdere cursussen per regel. Anders toont de lay-out één cursus per regel.
 
-*Default: `true`*
-
+*Standaard: `true`*

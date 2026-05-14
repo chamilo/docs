@@ -1,78 +1,78 @@
-# Course Import and Export
+# Cursus importeren en exporteren
 
-Chamilo supports importing and exporting courses for backup, migration, and content sharing purposes.
+Chamilo ondersteunt het importeren en exporteren van cursussen voor back-up, migratie en het delen van inhoud.
 
-These features are located inside the course, in the **Maintenance** tool located under the cog icon at the top of the course homepage.
+Deze functies bevinden zich binnen de cursus, in de tool **Onderhoud** die te vinden is onder het tandwielpictogram bovenaan de cursusstartpagina.
 
-## Exporting a Course
+## Een cursus exporteren
 
-Teachers can export their own courses from the course Maintenance tool. As an administrator, you can export any course:
+Docenten kunnen hun eigen cursussen exporteren via de tool voor cursusonderhoud. Als beheerder kunt u elke cursus exporteren:
 
-1. Enter the course
-2. Access the **Course maintenance** tool
-3. Select **Create a backup**
-4. Choose what to include (content, user data, etc.)
-5. Download the export file
+1. Ga naar de cursus
+2. Open de tool **Cursusonderhoud**
+3. Selecteer **Een back-up maken**
+4. Kies wat u wilt opnemen (inhoud, gebruikersgegevens, enz.)
+5. Download het exportbestand
 
-The export creates a package containing the course's documents, exercises, forums, learning paths, and configuration.
+De export creëert een pakket met de documenten, oefeningen, forums, leerpaden en configuratie van de cursus.
 
-## Importing a Course
+## Een cursus importeren
 
-To import a course from a Chamilo export file:
+Om een cursus te importeren vanuit een Chamilo-exportbestand:
 
-1. Enter the course
-2. Access the **Course maintenance** tool
-3. In the **Import backup** section, upload the export file
-4. Choose what to include (content, user data, etc.)
-5. Configure import options:
-   * Whether to overwrite existing content
-   * Whether to include user data
-6. Run the import
+1. Ga naar de cursus
+2. Open de tool **Cursusonderhoud**
+3. Upload het exportbestand in de sectie **Back-up importeren**
+4. Kies wat u wilt opnemen (inhoud, gebruikersgegevens, enz.)
+5. Configureer de importopties:
+   * Of bestaande inhoud moet worden overschreven
+   * Of gebruikersgegevens moeten worden opgenomen
+6. Voer de import uit
 
-## Copying a Course
+## Een cursus kopiëren
 
-To copy the contents from another course into your course, you will need a source course and a destination course to be created first.
+Om de inhoud van een andere cursus naar uw cursus te kopiëren, moet u eerst een broncursus en een doelcursus hebben aangemaakt.
 
-1. Enter the destination course
-2. Access the **Course maintenance** tool
-3. In the **Copy course** section, select the **Source** course
-4. Validate the options
-5. Click **Continue** and follow the instructions
+1. Ga naar de doelcursus
+2. Open de tool **Cursusonderhoud**
+3. Selecteer in de sectie **Cursus kopiëren** de **Bron**-cursus
+4. Valideer de opties
+5. Klik op **Doorgaan** en volg de instructies
 
 ## Common Cartridge
 
-Chamilo supports the **IMS Common Cartridge 1.3** (IMS CC 1.3) standard for interoperability with other learning management systems. You can:
+Chamilo ondersteunt de **IMS Common Cartridge 1.3** (IMS CC 1.3) standaard voor interoperabiliteit met andere leerbeheersystemen. U kunt:
 
-* **Import** Common Cartridge packages (.imscc files)
-* **Export** course content in Common Cartridge format
+* **Importeren** van Common Cartridge-pakketten (.imscc-bestanden)
+* **Exporteren** van cursusinhoud in Common Cartridge-formaat
 
-This allows content exchange with other platforms that support the Common Cartridge standard (Moodle, Canvas, Blackboard, etc.).
+Dit maakt het mogelijk om inhoud uit te wisselen met andere platforms die de Common Cartridge-standaard ondersteunen (Moodle, Canvas, Blackboard, enz.).
 
-## Recycling a course
+## Een cursus recyclen
 
-The course recycling feature simply allows you to keep the shell of the course but to erase its content.
+De functie voor het recyclen van een cursus stelt u in staat om de structuur van de cursus te behouden, maar de inhoud ervan te wissen.
 
-## Deleting a course
+## Een cursus verwijderen
 
-This will completely erase your course, including all its contents and the user activity in it.
+Hiermee verwijdert u uw cursus volledig, inclusief alle inhoud en gebruikersactiviteit erin.
 
-To delete a course permanently:
+Om een cursus permanent te verwijderen:
 
-1. Enter the destination course
-2. Access the **Course maintenance** tool
-3. In the **Completely delete this course** section, enter the code of the course manually to confirm your intention
-4. Validate
+1. Ga naar de doelcursus
+2. Open de tool **Cursusonderhoud**
+3. Voer in de sectie **Deze cursus volledig verwijderen** handmatig de code van de cursus in om uw intentie te bevestigen
+4. Valideer
 
-You then get redirected to the portal homepage, because the course does not exist anymore.
+U wordt vervolgens doorgestuurd naar de startpagina van het portaal, omdat de cursus niet meer bestaat.
 
-## Moodle Import
+## Moodle-import
 
-Chamilo can import course backups from **Moodle**. The importer converts Moodle's content structure to Chamilo's format, including quizzes, documents, and course settings.
+Chamilo kan cursusback-ups van **Moodle** importeren. De importfunctie converteert de inhoudsstructuur van Moodle naar het formaat van Chamilo, inclusief quizzes, documenten en cursusinstellingen.
 
-> **Work in progress.** Although it already covers a wide base, the Moodle importer does not currently cover every Moodle activity type and content format. Treat it as a starting point that may still require manual adjustment after the import completes. If you detect any failing/missing element in the import or export, please report it to us through our [Github space](https://github.com/chamilo/chamilo-lms/issues) by clicking **New issue** at the top and giving as much details as possible (including the course backup itself if it's not confidential).
+> **Werk in uitvoering.** Hoewel het al een breed scala dekt, ondersteunt de Moodle-importfunctie momenteel niet elk type Moodle-activiteit en inhoudsformaat. Beschouw het als een startpunt dat mogelijk nog handmatige aanpassingen vereist na voltooiing van de import. Als u een ontbrekend of falend element opmerkt bij het importeren of exporteren, meld dit dan aan ons via onze [Github-ruimte](https://github.com/chamilo/chamilo-lms/issues) door bovenaan op **New issue** te klikken en zoveel mogelijk details te geven (inclusief de cursusback-up zelf als deze niet vertrouwelijk is).
 
 ## Tips
 
-* **Regular backups** — Encourage teachers to export their courses periodically as a backup
-* **Test imports** — When importing content from another platform, test the import in a trial course first to verify that everything transferred correctly
-* **Content portability** — Use Common Cartridge format when you need to share content with other LMS platforms
+* **Regelmatige back-ups** — Moedig docenten aan om hun cursussen periodiek te exporteren als back-up
+* **Testimports** — Bij het importeren van inhoud van een ander platform, test de import eerst in een proefcursus om te controleren of alles correct is overgedragen
+* **Inhoudscompatibiliteit** — Gebruik het Common Cartridge-formaat wanneer u inhoud wilt delen met andere LMS-platforms

@@ -1,43 +1,43 @@
 # Links
 
-The links tool lets you share useful URLs with your learners, organized by category.
+Met de tool Links kunt u nuttige URL's delen met uw leerlingen, georganiseerd per categorie.
 
-## Adding a Link
+## Een link toevoegen
 
-1. Open the **Links** <img src="/.gitbook/assets/icons/mdi-link.svg" alt="Links" data-size="line"> tool from the course homepage
-2. Click **Add a link** <img src="/.gitbook/assets/icons/mdi-link-plus.svg" alt="Add link" data-size="line">
-3. Fill in the details:
-   * **URL** — The web address (e.g., `https://example.com/resource`)
-   * **Link name** — A descriptive name for the link
-   * **Description** — An optional explanation of what the resource is about
-   * **Category** — Assign the link to a category for organization
-   * **Target** — Where the link opens: `_self` (same window), `_blank` (new tab), `_parent`, or `_top`
-   * **Show link on course homepage** — Whether you want to show it as a tool icon on the course homepage
-4. Save
+1. Open de tool **Links** <img src="/.gitbook/assets/icons/mdi-link.svg" alt="Links" data-size="line"> vanaf de cursusstartpagina
+2. Klik op **Een link toevoegen** <img src="/.gitbook/assets/icons/mdi-link-plus.svg" alt="Link toevoegen" data-size="line">
+3. Vul de details in:
+   * **URL** — Het webadres (bijv. `https://example.com/resource`)
+   * **Linknaam** — Een beschrijvende naam voor de link
+   * **Beschrijving** — Een optionele uitleg over wat de bron inhoudt
+   * **Categorie** — Wijs de link toe aan een categorie voor organisatie
+   * **Doel** — Waar de link opent: `_self` (zelfde venster), `_blank` (nieuw tabblad), `_parent`, of `_top`
+   * **Link weergeven op cursusstartpagina** — Of u deze als toolpictogram op de cursusstartpagina wilt tonen
+4. Opslaan
 
-## Organizing with Categories
+## Organiseren met categorieën
 
-Categories help you group related links together:
+Categorieën helpen u om gerelateerde links te groeperen:
 
-1. Click **Add a category**
-2. Enter a **category name** and optional description
-3. Save
+1. Klik op **Een categorie toevoegen**
+2. Voer een **categorienaam** en optionele beschrijving in
+3. Opslaan
 
-Links within a category are displayed together, making it easy for learners to find relevant resources.
+Links binnen een categorie worden samen weergegeven, waardoor het voor leerlingen gemakkelijk is om relevante bronnen te vinden.
 
-## Managing Links
+## Links beheren
 
-* **Link checking** <img src="/.gitbook/assets/icons/mdi-check-circle.svg" alt="Validity" data-size="line">  — Chamilo can verify whether links are still active or broken
-* **Edit** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Edit" data-size="line"> — Update the link's URL, title, or description
-* **Visibility** <img src="/.gitbook/assets/icons/mdi-eye.svg" alt="Visibility" data-size="line"> — Hide or show the link to learners
-* **Delete** <img src="/.gitbook/assets/icons/mdi-delete.svg" alt="Delete" data-size="line"> — Remove the link
+* **Linkcontrole** <img src="/.gitbook/assets/icons/mdi-check-circle.svg" alt="Geldigheid" data-size="line"> — Chamilo kan controleren of links nog actief zijn of niet werken
+* **Bewerken** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Bewerken" data-size="line"> — Werk de URL, titel of beschrijving van de link bij
+* **Zichtbaarheid** <img src="/.gitbook/assets/icons/mdi-eye.svg" alt="Zichtbaarheid" data-size="line"> — Verberg of toon de link voor leerlingen
+* **Verwijderen** <img src="/.gitbook/assets/icons/mdi-delete.svg" alt="Verwijderen" data-size="line"> — Verwijder de link
 
-## Exporting Links
+## Links exporteren
 
-You can export your link collection to PDF. Look for the **Export** option in the links tool.
+U kunt uw verzameling links exporteren naar PDF. Zoek naar de optie **Exporteren** in de tool Links.
 
 ## Tips
 
-* **Categorize by topic** — Create a category for each module or week of your course
-* **Add descriptions** — Help learners understand why a link is relevant before they click it
-* **Check regularly** — Web links can become outdated or broken over time
+* **Categoriseer per onderwerp** — Maak een categorie voor elk module of elke week van uw cursus
+* **Voeg beschrijvingen toe** — Help leerlingen begrijpen waarom een link relevant is voordat ze erop klikken
+* **Controleer regelmatig** — Weblinks kunnen na verloop van tijd verouderd of niet meer werken

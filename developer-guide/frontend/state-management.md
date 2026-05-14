@@ -1,103 +1,103 @@
-# State Management
+# Staatbeheer
 
-Chamilo uses two state management libraries side by side:
+Chamilo gebruikt twee bibliotheken voor staatbeheer naast elkaar:
 
-* **Pinia** — the current standard for all new stores. The majority of the codebase uses Pinia.
-* **Vuex** — legacy store, still present and used by older views. New code should use Pinia.
+- **Pinia** — de huidige standaard voor alle nieuwe stores. Het merendeel van de codebase gebruikt Pinia.
+- **Vuex** — verouderde store, nog steeds aanwezig en gebruikt door oudere weergaven. Nieuwe code moet Pinia gebruiken.
 
 ## Pinia Stores
 
-The Pinia stores live directly in `assets/vue/store/`:
+De Pinia stores bevinden zich direct in `assets/vue/store/`:
 
-| Store file | Composable | Purpose |
-|-----------|-----------|---------|
-| `securityStore.js` | `useSecurityStore` | Authenticated user, login/logout, session check |
-| `cidReq.js` | `useCidReqStore` | Current course/session context (course ID, session ID) |
-| `courseSettingStore.js` | `useCourseSettings` | Course-level settings cache |
-| `enrolledStore.js` | `useEnrolledStore` | User enrollment data |
-| `platformConfig.js` | `usePlatformConfig` | Platform configuration, plugins, theme, OAuth2 providers |
-| `messageRelUserStore.js` | `useMessageRelUserStore` | Messaging state |
-| `socialStore.js` | `useSocialStore` | Social network state |
+| Storebestand | Composable | Doel |
+|--------------|------------|------|
+| `securityStore.js` | `useSecurityStore` | Geauthenticeerde gebruiker, inloggen/uitloggen, sessiecontrole |
+| `cidReq.js` | `useCidReqStore` | Huidige cursus/sessiecontext (cursus-ID, sessie-ID) |
+| `courseSettingStore.js` | `useCourseSettings` | Cache voor cursusniveau-instellingen |
+| `enrolledStore.js` | `useEnrolledStore` | Gegevens over inschrijvingen van gebruikers |
+| `platformConfig.js` | `usePlatformConfig` | Platformconfiguratie, plugins, thema, OAuth2-providers |
+| `messageRelUserStore.js` | `useMessageRelUserStore` | Berichtenstatus |
+| `socialStore.js` | `useSocialStore` | Status van sociale netwerken |
 
-### Security Store
+### Beveiligingsstore
 
 ```javascript
 const securityStore = useSecurityStore()
 
-// Check if user is logged in
+// Controleren of de gebruiker is ingelogd
 if (securityStore.isAuthenticated) { ... }
 
-// Access current user object
+// Toegang tot het huidige gebruikersobject
 const user = securityStore.user
 ```
 
-### CID Request Store
+### CID Verzoekstore
 
-Tracks the current course/session context — required for any course-scoped API operation:
+Volgt de huidige cursus/sessiecontext — vereist voor elke cursusgebonden API-operatie:
 
 ```javascript
 const cidReqStore = useCidReqStore()
 
-// Current course and session objects
+// Huidige cursus- en sessieobjecten
 const course = cidReqStore.course
 const session = cidReqStore.session
 ```
 
-### Course Settings Store
+### Cursusinstellingenstore
 
-Caches course-level settings to avoid repeated API calls:
+Slaat cursusniveau-instellingen op in de cache om herhaalde API-aanroepen te vermijden:
 
 ```javascript
 const courseSettings = useCourseSettings()
 const value = courseSettings.getSetting('exercise_generator')
 ```
 
-### Platform Config Store
+### Platformconfiguratiestore
 
-Holds platform-wide configuration fetched from `/platform-config/list`:
+Bevat platformbrede configuratie opgehaald van `/platform-config/list`:
 
 ```javascript
 const platformConfig = usePlatformConfig()
 
-// Loaded settings array, active theme, enabled plugins, OAuth2 providers
+// Geladen instellingenarray, actief thema, ingeschakelde plugins, OAuth2-providers
 const theme = platformConfig.visualTheme
 const plugins = platformConfig.plugins
 ```
 
-## Vuex Store (Legacy)
+## Vuex Store (Verouderd)
 
-The Vuex store is defined in `assets/vue/store/index.js` and contains:
+De Vuex store is gedefinieerd in `assets/vue/store/index.js` en bevat:
 
-| Module | Purpose |
-|--------|---------|
-| `modules/crud.js` | Factory (`makeCrudModule`) that generates a full CRUD Vuex module for a given service — used by older list/create/update views |
-| `modules/notifications.js` | Toast notification state (show, color, text, timeout) |
-| `modules/ux.js` | UX state (forbidden-access message) |
-| `security.js` | Legacy Vuex security module (superseded by `securityStore.js`) |
+| Module | Doel |
+|--------|------|
+| `modules/crud.js` | Fabriek (`makeCrudModule`) die een volledige CRUD Vuex-module genereert voor een bepaalde service — gebruikt door oudere lijst/aanmaken/bijwerken weergaven |
+| `modules/notifications.js` | Status van toastmeldingen (weergeven, kleur, tekst, time-out) |
+| `modules/ux.js` | UX-status (bericht over verboden toegang) |
+| `security.js` | Verouderde Vuex-beveiligingsmodule (vervangen door `securityStore.js`) |
 
-Avoid adding new Vuex modules. Use Pinia for any new state.
+Vermijd het toevoegen van nieuwe Vuex-modules. Gebruik Pinia voor nieuwe statussen.
 
 ## Composables
 
-In addition to stores, `assets/vue/composables/` contains shared composition functions. Notable examples:
+Naast stores bevat `assets/vue/composables/` gedeelde compositiefuncties. Opmerkelijke voorbeelden:
 
-| File | Purpose |
-|------|---------|
-| `useFileManager.js` | File browser state and operations |
-| `useTopbarLoggedIn.js` / `useTopbarNotLoggedIn.js` | Top-bar menu wiring |
-| `useTopbarTour.js` | Guided tour for the top bar |
-| `useDocumentCreate.js` / `useDocumentUpdate.js` / `useDocumentTemplates.js` | Document tool helpers |
-| `useCertificateTags.js` | Certificate-template tag helpers |
-| `sidebarMenu.js` | Sidebar navigation tree |
-| `theme.js` | Theme loading and switching |
-| `pluginRegion.js` | Plugin-injected UI region rendering |
-| `userPermissions.js` | Permission checks for the current user |
-| `notification.js` | Push notification helpers |
-| `locale.js` | Locale detection and switching |
-| `datatableList.js` / `datatableCreate.js` / `datatableUpdate.js` | Reusable datatable CRUD patterns |
-| `useSocialInfo.js` / `useSocialMenuItems.js` | Social network helpers |
-| `usePushSubscription.js` | Web Push subscription management |
-| `upload.js` | File upload helpers |
-| `useConfirmation.js` | Confirmation dialog helper |
+| Bestand | Doel |
+|---------|------|
+| `useFileManager.js` | Bestandsbrowserstatus en -operaties |
+| `useTopbarLoggedIn.js` / `useTopbarNotLoggedIn.js` | Bedrading van het bovenbalkmenu |
+| `useTopbarTour.js` | Begeleide tour voor de bovenbalk |
+| `useDocumentCreate.js` / `useDocumentUpdate.js` / `useDocumentTemplates.js` | Hulpmiddelen voor documenttools |
+| `useCertificateTags.js` | Hulpmiddelen voor certificaat-sjabloontags |
+| `sidebarMenu.js` | Navigatieboom voor zijbalk |
+| `theme.js` | Laden en wisselen van thema |
+| `pluginRegion.js` | Rendering van door plugins geïnjecteerde UI-regio's |
+| `userPermissions.js` | Controle van rechten voor de huidige gebruiker |
+| `notification.js` | Hulpmiddelen voor pushmeldingen |
+| `locale.js` | Detectie en wisseling van taalinstellingen |
+| `datatableList.js` / `datatableCreate.js` / `datatableUpdate.js` | Herbruikbare CRUD-patronen voor datatabellen |
+| `useSocialInfo.js` / `useSocialMenuItems.js` | Hulpmiddelen voor sociale netwerken |
+| `usePushSubscription.js` | Beheer van Web Push-abonnementen |
+| `upload.js` | Hulpmiddelen voor bestandsuploads |
+| `useConfirmation.js` | Hulpmiddel voor bevestigingsdialoog |
 
-Composables are also organized into feature subdirectories (`course/`, `session/`, `document/`, `calendar/`, `admin/`, `auth/`, `message/`, `skill/`, etc.). The full list is in `assets/vue/composables/`.
+Composables zijn ook georganiseerd in functie-submappen (`course/`, `session/`, `document/`, `calendar/`, `admin/`, `auth/`, `message/`, `skill/`, enz.). De volledige lijst bevindt zich in `assets/vue/composables/`.

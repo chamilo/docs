@@ -1,55 +1,55 @@
-# Creating Your Course
+# Een cursus aanmaken
 
-This section explains how to create a new course in Chamilo and configure it for your needs.
+Deze sectie legt uit hoe u een nieuwe cursus in Chamilo kunt aanmaken en configureren naar uw behoeften.
 
-## Creating a New Course
+## Een nieuwe cursus aanmaken
 
-To create a course:
+Om een cursus aan te maken:
 
-1. Click **My courses** in the sidebar
-2. Click the **Create course** button (usually a green book <img src="/.gitbook/assets/icons/mdi-book-open-page-variant.svg" alt="Courses" data-size="line"> icon with a + sign)
-3. Fill in the course creation form:
+1. Klik op **Mijn cursussen** in de zijbalk
+2. Klik op de knop **Cursus aanmaken** (meestal een groen boek <img src="/.gitbook/assets/icons/mdi-book-open-page-variant.svg" alt="Cursussen" data-size="line"> pictogram met een + teken)
+3. Vul het formulier voor het aanmaken van een cursus in:
 
-![The course creation form with fields for name, category, code, and language](/.gitbook/assets/course-creation-form.png)
+![Het formulier voor het aanmaken van een cursus met velden voor naam, categorie, code en taal](/.gitbook/assets/course-creation-form.png)
 
-| Field | Required | Description |
+| Veld | Verplicht | Beschrijving |
 |-------|----------|-------------|
-| **Course name** | Yes | A short, descriptive title for your course (e.g., "Innovation Management") |
-| **Course category** | No | Select a category to help organize courses on the platform |
-| **Course code** | No | A short code using only letters and numbers (max 40 characters). If left blank, one is generated automatically from the course name |
-| **Language** | No | The primary language of the course. Defaults to your current language |
+| **Cursusnaam** | Ja | Een korte, beschrijvende titel voor uw cursus (bijv. "Innovatiemanagement") |
+| **Cursuscategorie** | Nee | Selecteer een categorie om cursussen op het platform te ordenen |
+| **Cursuscode** | Nee | Een korte code met alleen letters en cijfers (max. 40 tekens). Indien leeg gelaten, wordt automatisch een code gegenereerd op basis van de cursusnaam |
+| **Taal** | Nee | De primaire taal van de cursus. Standaard ingesteld op uw huidige taal |
 
-If enabled, you might also find a **Default room** setting and the possibility to use a **Course template** to avoid creating your course entirely from scratch.
+Indien ingeschakeld, kunt u ook een instelling voor **Standaardruimte** vinden en de mogelijkheid om een **Cursussjabloon** te gebruiken om te voorkomen dat u uw cursus helemaal vanaf nul moet opbouwen.
 
-4. Click **Create this course**
+4. Klik op **Deze cursus aanmaken**
 
-You will be redirected to your new course's homepage. A confirmation message will appear: "Course created successfully."
+U wordt doorgestuurd naar de startpagina van uw nieuwe cursus. Er verschijnt een bevestigingsbericht: "Cursus succesvol aangemaakt."
 
-## The Course Homepage
+## De startpagina van de cursus
 
-Once your course is created, you land on its homepage. This is the central hub for your course, where you and your learners access all tools and content.
+Zodra uw cursus is aangemaakt, komt u terecht op de startpagina ervan. Dit is het centrale punt van uw cursus, waar u en uw leerlingen toegang hebben tot alle tools en inhoud.
 
-![The course homepage tool grid showing available course tools with icons and visibility toggles](/.gitbook/assets/course-homepage-tool-grid.png)
+![Het raster met tools op de startpagina van de cursus, met beschikbare cursustools, pictogrammen en zichtbaarheidsschakelaars](/.gitbook/assets/course-homepage-tool-grid.png)
 
-The homepage displays:
+De startpagina toont:
 
-* **Course title** — The name of your course, shown at the top.
-* **Course introduction** — An optional description or welcome message. Click the **+ Course introduction** button to add one, or the **Edit introduction** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Edit" data-size="line"> button at the top to modify it. This supports rich text with images, links, and formatting.
-* **Tool grid** — A grid of all available course tools, each shown as a card with an icon and name.
+* **Cursustitel** — De naam van uw cursus, bovenaan weergegeven.
+* **Cursusintroductie** — Een optionele beschrijving of welkomstbericht. Klik op de knop **+ Cursusintroductie** om er een toe te voegen, of op de knop **Introductie bewerken** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Bewerken" data-size="line"> bovenaan om deze aan te passen. Dit ondersteunt rijk opgemaakte tekst met afbeeldingen, links en opmaak.
+* **Toolraster** — Een raster van alle beschikbare cursustools, elk weergegeven als een kaart met een pictogram en naam.
 
-### Managing Tool Visibility
+### Zichtbaarheid van tools beheren
 
-As a teacher, you can control which tools your learners can see:
+Als docent kunt u bepalen welke tools uw leerlingen kunnen zien:
 
-* Click the **eye icon** <img src="/.gitbook/assets/icons/mdi-eye.svg" alt="Visible" data-size="line"> next to any tool to hide it from learners. Hidden tools show a **crossed-out eye** <img src="/.gitbook/assets/icons/mdi-eye-off.svg" alt="Hidden" data-size="line"> and are still accessible to you.
-* Use the **Show all** and **Hide all** buttons to change all tools at once
-* Click **Sort** to enable drag-and-drop reordering of the tool grid
+* Klik op het **oogpictogram** <img src="/.gitbook/assets/icons/mdi-eye.svg" alt="Zichtbaar" data-size="line"> naast een tool om deze te verbergen voor leerlingen. Verborgen tools tonen een **doorgestreept oog** <img src="/.gitbook/assets/icons/mdi-eye-off.svg" alt="Verborgen" data-size="line"> en blijven voor u toegankelijk.
+* Gebruik de knoppen **Alles tonen** en **Alles verbergen** om alle tools in één keer aan te passen
+* Klik op **Sorteren** om het raster van tools te kunnen herschikken via slepen en neerzetten
 
-### Student View
+### Leerlingweergave
 
-Click the **Student view** button to see the course homepage exactly as a learner would see it. This is useful to verify that hidden tools and unpublished content are not visible. Click the button again to return to the teacher view.
+Klik op de knop **Leerlingweergave** om de startpagina van de cursus te zien zoals een leerling deze zou zien. Dit is handig om te controleren of verborgen tools en niet-gepubliceerde inhoud niet zichtbaar zijn. Klik nogmaals op de knop om terug te keren naar de docentweergave.
 
-## Next Steps
+## Volgende stappen
 
-* [Course Settings](course-settings.md) — Configure access, enrollment, and other course-level options
-* [Course Homepage](course-homepage.md) — Detailed guide to customizing your course homepage
+* [Cursusinstellingen](course-settings.md) — Configureer toegang, inschrijving en andere cursusniveau-opties
+* [Startpagina van de cursus](course-homepage.md) — Gedetailleerde handleiding voor het aanpassen van uw cursusstartpagina

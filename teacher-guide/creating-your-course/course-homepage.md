@@ -1,77 +1,77 @@
-# Course Homepage
+# Cursushomepage
 
-The course homepage is the first page your learners see when they enter a course. This page describes how to customize it to create an engaging entry point.
+De cursushomepage is de eerste pagina die uw leerlingen zien wanneer ze een cursus betreden. Deze pagina beschrijft hoe u deze kunt aanpassen om een aantrekkelijk startpunt te creëren.
 
-## Course Introduction
+## Cursusintroductie
 
-The course introduction is a rich-text area displayed at the top of the homepage, above the tool grid. Use it to:
+De cursusintroductie is een gebied met opgemaakte tekst dat bovenaan de homepage wordt weergegeven, boven het raster met hulpmiddelen. Gebruik het om:
 
-* Welcome your learners
-* Describe the course objectives
-* Provide instructions for getting started
-* Embed images, videos, or links
+* Uw leerlingen te verwelkomen
+* De cursusdoelen te beschrijven
+* Instructies te geven voor het starten
+* Afbeeldingen, video's of links in te sluiten
 
-To edit the introduction:
+Om de introductie te bewerken:
 
-1. Click the **Edit introduction** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Edit" data-size="line"> button
-2. Use the rich-text editor to write your content
-3. Save your changes
+1. Klik op de knop **Introductie bewerken** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Bewerken" data-size="line">
+2. Gebruik de editor voor opgemaakte tekst om uw inhoud te schrijven
+3. Sla uw wijzigingen op
 
-If no introduction has been created yet, you will see a button to **Create an introduction**.
+Als er nog geen introductie is gemaakt, ziet u een knop om **Een introductie te maken**.
 
-## Tool Grid
+## Hulpmiddelenraster
 
-![The course homepage tool grid showing available course tools with icons and visibility toggles](/.gitbook/assets/course-homepage-tool-grid.png)
+![Het hulpmiddelenraster van de cursushomepage met beschikbare cursus hulpmiddelen, iconen en zichtbaarheidsschakelaars](/.gitbook/assets/course-homepage-tool-grid.png)
 
-Below the introduction, the course tools are displayed in a grid layout. Each tool appears as a card with:
+Onder de introductie worden de cursushulpmiddelen weergegeven in een rasterindeling. Elk hulpmiddel verschijnt als een kaart met:
 
-* An icon representing the tool
-* The tool name
+* Een pictogram dat het hulpmiddel vertegenwoordigt
+* De naam van het hulpmiddel
 
-The tools available in your course may include:
+De hulpmiddelen die beschikbaar zijn in uw cursus kunnen onder meer omvatten:
 
-| Tool | Icon | Purpose |
-|------|------|---------|
-| Agenda | <img src="/.gitbook/assets/icons/mdi-calendar-text.svg" alt="Agenda" data-size="line"> | Schedule events and deadlines |
-| Announcements | <img src="/.gitbook/assets/icons/mdi-bullhorn.svg" alt="Announcements" data-size="line"> | Send messages to enrolled learners |
-| Assignments | <img src="/.gitbook/assets/icons/mdi-inbox-full.svg" alt="Assignments" data-size="line"> | Collect and grade student work |
-| Documents | <img src="/.gitbook/assets/icons/mdi-bookshelf.svg" alt="Documents" data-size="line"> | Upload and organize files and content |
-| Tests | <img src="/.gitbook/assets/icons/mdi-order-bool-ascending-variant.svg" alt="Exercises" data-size="line"> | Create quizzes and tests |
-| Forum | <img src="/.gitbook/assets/icons/mdi-comment-quote.svg" alt="Forums" data-size="line"> | Host discussions |
-| Glossary | <img src="/.gitbook/assets/icons/mdi-alphabetical.svg" alt="Glossary" data-size="line"> | Define key terms |
-| Assessments | <img src="/.gitbook/assets/icons/mdi-certificate.svg" alt="Gradebook" data-size="line"> | Manage grades and certificates |
-| Learning paths | <img src="/.gitbook/assets/icons/mdi-map-marker-path.svg" alt="Learning paths" data-size="line"> | Build structured learning sequences |
-| Links | <img src="/.gitbook/assets/icons/mdi-link.svg" alt="Links" data-size="line"> | Share useful URLs |
-| Users | <img src="/.gitbook/assets/icons/mdi-account.svg" alt="Members" data-size="line"> | View and manage enrolled users |
-| Surveys | <img src="/.gitbook/assets/icons/mdi-form-dropdown.svg" alt="Surveys" data-size="line"> | Create and distribute surveys |
+| Hulpmiddel | Pictogram | Doel |
+|------------|-----------|------|
+| Agenda | <img src="/.gitbook/assets/icons/mdi-calendar-text.svg" alt="Agenda" data-size="line"> | Evenementen en deadlines plannen |
+| Aankondigingen | <img src="/.gitbook/assets/icons/mdi-bullhorn.svg" alt="Aankondigingen" data-size="line"> | Berichten sturen naar ingeschreven leerlingen |
+| Opdrachten | <img src="/.gitbook/assets/icons/mdi-inbox-full.svg" alt="Opdrachten" data-size="line"> | Werk van leerlingen verzamelen en beoordelen |
+| Documenten | <img src="/.gitbook/assets/icons/mdi-bookshelf.svg" alt="Documenten" data-size="line"> | Bestanden en inhoud uploaden en organiseren |
+| Toetsen | <img src="/.gitbook/assets/icons/mdi-order-bool-ascending-variant.svg" alt="Oefeningen" data-size="line"> | Quizzen en toetsen maken |
+| Forum | <img src="/.gitbook/assets/icons/mdi-comment-quote.svg" alt="Forums" data-size="line"> | Discussies hosten |
+| Woordenlijst | <img src="/.gitbook/assets/icons/mdi-alphabetical.svg" alt="Woordenlijst" data-size="line"> | Belangrijke termen definiëren |
+| Beoordelingen | <img src="/.gitbook/assets/icons/mdi-certificate.svg" alt="Cijferlijst" data-size="line"> | Cijfers en certificaten beheren |
+| Leertrajecten | <img src="/.gitbook/assets/icons/mdi-map-marker-path.svg" alt="Leertrajecten" data-size="line"> | Gestructureerde leervolgordes opbouwen |
+| Links | <img src="/.gitbook/assets/icons/mdi-link.svg" alt="Links" data-size="line"> | Nuttige URL's delen |
+| Gebruikers | <img src="/.gitbook/assets/icons/mdi-account.svg" alt="Leden" data-size="line"> | Ingeschreven gebruikers bekijken en beheren |
+| Enquêtes | <img src="/.gitbook/assets/icons/mdi-form-dropdown.svg" alt="Enquêtes" data-size="line"> | Enquêtes maken en verspreiden |
 
-> Some tools may not appear if your administrator has disabled them at the platform level or if you have hidden them.
+> Sommige hulpmiddelen verschijnen mogelijk niet als uw beheerder deze op platformniveau heeft uitgeschakeld of als u ze hebt verborgen.
 
-A notable change from Chamilo 1.* is that we don't split the tools in 3 different sections anymore. This gives full control to the teachers on what tools to show in what order.
+Een opmerkelijke verandering ten opzichte van Chamilo 1.* is dat we de hulpmiddelen niet langer in 3 verschillende secties splitsen. Dit geeft docenten volledige controle over welke hulpmiddelen in welke volgorde worden getoond.
 
-Also, the **Tracking** and **Maintenance** tools have been moved to the top of the page under the stats and cog icons to remove tools that are never shown to the learners from the list.
+Daarnaast zijn de hulpmiddelen **Tracking** en **Onderhoud** verplaatst naar de bovenkant van de pagina onder de statistieken- en tandwielpictogrammen, om hulpmiddelen die nooit aan leerlingen worden getoond uit de lijst te verwijderen.
 
-## Organizing Tools
+## Hulpmiddelen ordenen
 
-### Reordering
+### Herschikken
 
-1. Click the **Sort** button at the top of the tool grid
-2. Drag and drop tools to rearrange their order
-3. The new order is saved automatically
+1. Klik op de knop **Sorteren** bovenaan het hulpmiddelenraster
+2. Sleep en laat hulpmiddelen vallen om hun volgorde te wijzigen
+3. De nieuwe volgorde wordt automatisch opgeslagen
 
-### Hiding and Showing
+### Verbergen en tonen
 
-* Click the **visibility icon** on any tool to toggle it between visible and hidden for learners
-* Use **Show all** or **Hide all** for bulk changes
-* Hidden tools remain accessible to you as the teacher — they are only hidden from learners
+* Klik op het **zichtbaarheidspictogram** van een hulpmiddel om het te schakelen tussen zichtbaar en verborgen voor leerlingen
+* Gebruik **Alles tonen** of **Alles verbergen** voor bulkwijzigingen
+* Verborgen hulpmiddelen blijven voor u als docent toegankelijk — ze zijn alleen verborgen voor leerlingen
 
-![The course homepage as seen by a student, with hidden tools not visible](/.gitbook/assets/course-homepage-student-view.png)
+![De cursushomepage zoals gezien door een leerling, met verborgen hulpmiddelen niet zichtbaar](/.gitbook/assets/course-homepage-student-view.png)
 
-## Auto-Launch Features
+## Automatische startfuncties
 
-You may configure certain tools to launch automatically when a learner enters the course. If enabled, a notification appears at the top of the course homepage indicating which auto-launch is active:
+U kunt bepaalde hulpmiddelen zo instellen dat ze automatisch starten wanneer een leerling de cursus betreedt. Indien ingeschakeld, verschijnt er een melding bovenaan de cursushomepage die aangeeft welke automatische start actief is:
 
-* Document auto-launch — Opens a specific document automatically
-* Exercise auto-launch — Launches a test immediately
-* Learning path auto-launch — Starts a learning path upon course entry
-* Forum auto-launch — Opens the forum directly
+* Automatische start van document — Opent automatisch een specifiek document
+* Automatische start van oefening — Start direct een toets
+* Automatische start van leertraject — Start een leertraject bij het betreden van de cursus
+* Automatische start van forum — Opent direct het forum

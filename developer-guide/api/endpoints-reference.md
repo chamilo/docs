@@ -1,78 +1,78 @@
-# Endpoints Reference
+# Eindpunten Referentie
 
-API Platform automatically generates REST endpoints for entities annotated with `#[ApiResource]`. Chamilo exposes 100+ resources.
+API Platform genereert automatisch REST-eindpunten voor entiteiten die zijn geannoteerd met `#[ApiResource]`. Chamilo biedt meer dan 100 bronnen aan.
 
-## Standard Operations
+## Standaardbewerkingen
 
-For each API resource, the following operations are typically available:
+Voor elke API-bron zijn doorgaans de volgende bewerkingen beschikbaar:
 
-| Method | Path | Description |
+| Methode | Pad | Beschrijving |
 |--------|------|-------------|
-| `GET` | `/api/{resources}` | List (collection) |
-| `POST` | `/api/{resources}` | Create |
-| `GET` | `/api/{resources}/{id}` | Read (single item) |
-| `PUT` | `/api/{resources}/{id}` | Full update |
-| `PATCH` | `/api/{resources}/{id}` | Partial update |
-| `DELETE` | `/api/{resources}/{id}` | Delete |
+| `GET` | `/api/{resources}` | Lijst (collectie) |
+| `POST` | `/api/{resources}` | Aanmaken |
+| `GET` | `/api/{resources}/{id}` | Lezen (enkel item) |
+| `PUT` | `/api/{resources}/{id}` | Volledige update |
+| `PATCH` | `/api/{resources}/{id}` | Gedeeltelijke update |
+| `DELETE` | `/api/{resources}/{id}` | Verwijderen |
 
-Not all operations are enabled for every resource — security constraints apply.
+Niet alle bewerkingen zijn voor elke bron ingeschakeld — beveiligingsbeperkingen zijn van toepassing.
 
-## Key API Resources
+## Belangrijke API-bronnen
 
-### Platform Resources
+### Platformbronnen
 
-| Resource | Path | Description |
+| Bron | Pad | Beschrijving |
 |----------|------|-------------|
-| Users | `/api/users` | User accounts |
-| Courses | `/api/courses` | Courses |
-| Sessions | `/api/sessions` | Training sessions |
-| Resource Nodes | `/api/resource_nodes` | Unified content nodes |
-| Access URLs | `/api/access_urls` | Multi-URL portals |
-| Messages | `/api/messages` | Platform messages |
+| Gebruikers | `/api/users` | Gebruikersaccounts |
+| Cursussen | `/api/courses` | Cursussen |
+| Sessies | `/api/sessions` | Trainingssessies |
+| Bronknooppunten | `/api/resource_nodes` | Uniforme inhoudsknooppunten |
+| Toegangs-URL's | `/api/access_urls` | Multi-URL-portalen |
+| Berichten | `/api/messages` | Platformberichten |
 
-### Course Content Resources
+### Cursusinhoudbronnen
 
-| Resource | Path | Description |
+| Bron | Pad | Beschrijving |
 |----------|------|-------------|
-| Documents | `/api/documents` | Course documents |
-| Learning Paths | `/api/learning_paths` | Learning paths |
-| Glossaries | `/api/glossaries` | Glossary terms |
-| Links | `/api/links` | External links |
-| Calendar Events | `/api/c_calendar_events` | Agenda events |
-| Student Publications | `/api/c_student_publications` | Assignments |
-| Blogs | `/api/c_blogs` | Course blogs |
-| Groups | `/api/c_groups` | Course groups |
+| Documenten | `/api/documents` | Cursusdocumenten |
+| Leertrajecten | `/api/learning_paths` | Leertrajecten |
+| Woordenlijsten | `/api/glossaries` | Woordenlijsttermen |
+| Links | `/api/links` | Externe links |
+| Agenda-evenementen | `/api/c_calendar_events` | Agenda-evenementen |
+| Studentpublicaties | `/api/c_student_publications` | Opdrachten |
+| Blogs | `/api/c_blogs` | Cursusblogs |
+| Groepen | `/api/c_groups` | Cursusgroepen |
 
-### Tracking Resources
+### Trackingbronnen
 
-| Resource | Path | Description |
+| Bron | Pad | Beschrijving |
 |----------|------|-------------|
-| Gradebook Categories | `/api/gradebook_categories` | Gradebook setup |
-| Gradebook Results | `/api/gradebook_results` | Grades |
+| Cijferboekcategorieën | `/api/gradebook_categories` | Cijferboekinstellingen |
+| Cijferboekresultaten | `/api/gradebook_results` | Cijfers |
 
-## Filtering and Pagination
+## Filteren en Paginering
 
-API Platform supports:
+API Platform ondersteunt:
 
-* **Pagination**: `?page=2&itemsPerPage=30`
-* **Filtering**: `?title=Introduction` (depends on configured filters)
-* **Ordering**: `?order[title]=asc`
-* **Search**: Full-text search on configured fields
+* **Paginering**: `?page=2&itemsPerPage=30`
+* **Filteren**: `?title=Introduction` (afhankelijk van geconfigureerde filters)
+* **Sorteren**: `?order[title]=asc`
+* **Zoeken**: Volledige tekstzoekopdracht op geconfigureerde velden
 
-## Content Negotiation
+## Inhoudsonderhandeling
 
-The API supports multiple formats:
+De API ondersteunt meerdere formaten:
 
-* `application/ld+json` (default — JSON-LD)
+* `application/ld+json` (standaard — JSON-LD)
 * `application/json`
-* `text/html` (API documentation)
+* `text/html` (API-documentatie)
 
-Set the `Accept` header to choose the response format.
+Stel de `Accept`-header in om het antwoordformaat te kiezen.
 
-## Security
+## Beveiliging
 
-Each endpoint enforces security through:
+Elk eindpunt handhaaft beveiliging door middel van:
 
-* JWT authentication (required for most endpoints)
-* Symfony security voters (resource-level permissions)
-* Role-based access control (e.g., admin-only endpoints)
+* JWT-authenticatie (vereist voor de meeste eindpunten)
+* Symfony beveiligingsstemmers (toestemmingen op bron-niveau)
+* Rolgebaseerde toegangscontrole (bijv. eindpunten alleen voor beheerders)

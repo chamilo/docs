@@ -1,37 +1,37 @@
 # xAPI
 
-**xAPI** (Experience API, also known as Tin Can API) is a standard for tracking learning experiences. Chamilo can both generate and consume xAPI statements.
+**xAPI** (Experience API, ook bekend als Tin Can API) is een standaard voor het volgen van leerervaringen. Chamilo kan zowel xAPI-statements genereren als consumeren.
 
-## What xAPI Does
+## Wat xAPI doet
 
-xAPI tracks learning activities as **statements** in the format: "Actor did Verb on Object." For example:
+xAPI volgt leeractiviteiten als **statements** in het formaat: "Actor deed Werkwoord op Object." Bijvoorbeeld:
 
-* "Jane completed Module 1"
-* "John scored 85% on the Final Exam"
-* "Maria watched the Introduction Video"
+* "Jane voltooide Module 1"
+* "John scoorde 85% op het Eindtentamen"
+* "Maria bekeek de Introductievideo"
 
-These statements are stored in a **Learning Record Store (LRS)**, providing a comprehensive record of learning activity.
+Deze statements worden opgeslagen in een **Learning Record Store (LRS)**, wat een uitgebreid overzicht biedt van leeractiviteiten.
 
-## Configuration
+## Configuratie
 
-1. In the platform settings, configure the **LRS endpoint**:
-   * **LRS URL** — The address of your Learning Record Store
-   * **LRS authentication** — Credentials for sending data to the LRS
-2. Enable xAPI tracking for the desired activities
+1. Configureer in de platforminstellingen het **LRS-eindpunt**:
+   * **LRS URL** — Het adres van uw Learning Record Store
+   * **LRS-authenticatie** — Inloggegevens voor het verzenden van gegevens naar de LRS
+2. Schakel xAPI-tracking in voor de gewenste activiteiten
 
-## What Chamilo Tracks via xAPI
+## Wat Chamilo volgt via xAPI
 
-Chamilo can generate xAPI statements for:
+Chamilo kan xAPI-statements genereren voor:
 
-* Course access and completion
-* Exercise attempts and scores
-* Learning path item progress
-* Portfolio items
+* Toegang tot en voltooiing van cursussen
+* Pogingen en scores bij oefeningen
+* Voortgang van leerpaditems
+* Portfolio-items
 
-Other tools (such as Documents and Forums) are not currently emitted as xAPI events by the plugin.
+Andere tools (zoals Documenten en Forums) worden momenteel niet als xAPI-gebeurtenissen uitgezonden door de plugin.
 
-## Use Cases
+## Gebruiksscenario's
 
-* **Cross-platform tracking** — Track learning activity across multiple tools and platforms in a single LRS
-* **Advanced analytics** — Use LRS analytics tools to generate insights that go beyond Chamilo's built-in reporting
-* **Compliance reporting** — Generate audit trails of training completion for regulatory requirements
+* **Cross-platform tracking** — Volg leeractiviteiten over meerdere tools en platforms in één LRS
+* **Geavanceerde analyses** — Gebruik LRS-analysetools om inzichten te genereren die verder gaan dan de ingebouwde rapportages van Chamilo
+* **Nalevingsrapportage** — Genereer audittrails van trainingsvoltooiing voor regelgevende vereisten

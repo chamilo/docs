@@ -1,57 +1,57 @@
 # LTI 1.3
 
-**LTI** (Learning Tools Interoperability) is a standard that allows external learning tools to be embedded within Chamilo. Version 1.3 is the latest and most secure version of the standard.
+**LTI** (Learning Tools Interoperability) is een standaard die het mogelijk maakt om externe leermiddelen in Chamilo te integreren. Versie 1.3 is de nieuwste en meest veilige versie van deze standaard.
 
-## What LTI Allows
+## Wat LTI mogelijk maakt
 
-With LTI, you can embed external tools within Chamilo courses. Examples:
+Met LTI kunt u externe tools integreren in Chamilo-cursussen. Voorbeelden:
 
-* Interactive simulations
-* Specialized assessment tools
-* Content authoring tools
-* Virtual labs
-* Third-party content libraries
+- Interactieve simulaties
+- Gespecialiseerde beoordelingshulpmiddelen
+- Hulpmiddelen voor het maken van inhoud
+- Virtuele laboratoria
+- Inhoudsbibliotheken van derden
 
-The external tool appears seamlessly within the Chamilo interface.
+De externe tool verschijnt naadloos binnen de Chamilo-interface.
 
-## Configuring an LTI Tool
+## Een LTI-tool configureren
 
-### As an Administrator
+### Als beheerder
 
-1. Navigate to the LTI settings in the administration panel
-2. **Register the external tool** by providing:
-   * **Tool name** — A descriptive name
-   * **Login URL** — The OIDC login initiation URL of the external tool
-   * **Redirect URL** — The launch URL the tool returns to after login
-   * **Client ID** — Provided by the tool vendor
-   * **Public keyset URL (JWKS URL)** — The tool's JWKS endpoint for security key exchange
-3. Configure **grade passback** — Whether the tool can send grades back to Chamilo
-4. Save
+1. Navigeer naar de LTI-instellingen in het beheerderspaneel
+2. **Registreer de externe tool** door het volgende op te geven:
+   - **Toolnaam** — Een beschrijvende naam
+   - **Login-URL** — De OIDC-login initiatie-URL van de externe tool
+   - **Redirect-URL** — De start-URL waarnaar de tool terugkeert na inloggen
+   - **Client-ID** — Verstrekt door de leverancier van de tool
+   - **Public keyset URL (JWKS URL)** — Het JWKS-eindpunt van de tool voor uitwisseling van beveiligingssleutels
+3. Configureer **terugkoppeling van cijfers** — Of de tool cijfers terug kan sturen naar Chamilo
+4. Opslaan
 
-### As a Teacher
+### Als docent
 
-Once an LTI tool is registered by the administrator, teachers can add it to their courses:
+Zodra een LTI-tool door de beheerder is geregistreerd, kunnen docenten deze toevoegen aan hun cursussen:
 
-1. In the course, look for the option to add an external tool
-2. Select from the registered LTI tools
-3. The tool appears as a course tool on the homepage
+1. Zoek in de cursus naar de optie om een externe tool toe te voegen
+2. Selecteer uit de geregistreerde LTI-tools
+3. De tool verschijnt als een cursustool op de startpagina
 
-## Security
+## Beveiliging
 
-LTI 1.3 uses:
+LTI 1.3 maakt gebruik van:
 
-* **OAuth 2.0** for authentication
-* **JSON Web Tokens (JWT)** for message signing
-* **Public/private key pairs** for verification
+- **OAuth 2.0** voor authenticatie
+- **JSON Web Tokens (JWT)** voor het ondertekenen van berichten
+- **Publieke/private sleutelparen** voor verificatie
 
-This means credentials are never shared directly between Chamilo and the external tool.
+Dit betekent dat inloggegevens nooit direct worden gedeeld tussen Chamilo en de externe tool.
 
-## Grade Passback
+## Terugkoppeling van cijfers
 
-LTI tools can send grades back to Chamilo, which can be integrated into the course gradebook. This is configured per tool during registration.
+LTI-tools kunnen cijfers terugsturen naar Chamilo, die kunnen worden geïntegreerd in het cijferboek van de cursus. Dit wordt per tool geconfigureerd tijdens de registratie.
 
 ## Tips
 
-* **Verify tool compatibility** — Ensure the external tool supports LTI 1.3 (not just older versions)
-* **Test in a sandbox** — Test the LTI integration in a test course before using it in production
-* **Monitor performance** — External tools add network dependencies. Ensure the tool is responsive and reliable.
+- **Controleer compatibiliteit van de tool** — Zorg ervoor dat de externe tool LTI 1.3 ondersteunt (niet alleen oudere versies)
+- **Test in een sandbox** — Test de LTI-integratie in een testcursus voordat u deze in productie gebruikt
+- **Monitor prestaties** — Externe tools voegen netwerkafhankelijkheden toe. Zorg ervoor dat de tool responsief en betrouwbaar is.

@@ -1,85 +1,85 @@
-# Surveys
+# Enquêtes
 
-The survey tool lets you create questionnaires to collect feedback from your learners. Surveys are useful for course evaluations, needs assessments, and opinion polls.
+Met de enquête-tool kunt u vragenlijsten maken om feedback van uw leerlingen te verzamelen. Enquêtes zijn nuttig voor cursusbeoordelingen, behoeftenanalyses en opiniepeilingen.
 
-## Creating a Survey
+## Een enquête maken
 
-1. Open the **Surveys** <img src="/.gitbook/assets/icons/mdi-form-dropdown.svg" alt="Surveys" data-size="line"> tool from the course homepage
-2. Click **Create survey**
-3. Fill in the survey details:
-   * **Code** — This is a unique code for the survey. It will be used in mails and links.
-   * **Title** — The name of the survey
-   * **Subtitle** — An optional secondary heading
-   * **Start date** — From when this survey will be open to participation
-   * **End date** — Until when this survey will be open to participation
-   * **Anonymous** — Whether responses are anonymous or linked to individual learners
-   * **Results visibility** — Who can see the results (only coach, coach and students, everyone)
-   * **Introduction** — A message shown to learners before they start the survey
-   * **Thank you message** — A message shown after submission
-4. Save
+1. Open de **Enquêtes** <img src="/.gitbook/assets/icons/mdi-form-dropdown.svg" alt="Enquêtes" data-size="line"> tool vanaf de cursusstartpagina
+2. Klik op **Enquête maken**
+3. Vul de enquêtegegevens in:
+   * **Code** — Dit is een unieke code voor de enquête. Deze wordt gebruikt in e-mails en links.
+   * **Titel** — De naam van de enquête
+   * **Ondertitel** — Een optionele secundaire kop
+   * **Startdatum** — Vanaf wanneer deze enquête openstaat voor deelname
+   * **Einddatum** — Tot wanneer deze enquête openstaat voor deelname
+   * **Anoniem** — Of de antwoorden anoniem zijn of gekoppeld aan individuele leerlingen
+   * **Zichtbaarheid van resultaten** — Wie de resultaten kan zien (alleen coach, coach en studenten, iedereen)
+   * **Introductie** — Een bericht dat aan leerlingen wordt getoond voordat ze de enquête starten
+   * **Bedankbericht** — Een bericht dat wordt getoond na het indienen
+4. Opslaan
 
-### Advanced settings
+### Geavanceerde instellingen
 
-* **Grade in the assessment tool** — Whether to include this survey's answer state in the assessment tool (gradebook). Anyone having completed the survey gets 100%, anyone else get 0%
-* **Parent survey** — Not really used at this point (legacy feature)
-* **One question per page** — Presentation style for the questions
-* **Enable shuffle mode** — Whether to shuffle questions
-* **Show question number** — Whether to show (auto-generated) question numbers
+* **Beoordeling in de beoordelingstool** — Of de antwoordstatus van deze enquête moet worden opgenomen in de beoordelingstool (cijferboek). Iedereen die de enquête heeft voltooid krijgt 100%, alle anderen krijgen 0%
+* **Hoofdenquête** — Wordt momenteel niet echt gebruikt (verouderde functie)
+* **Eén vraag per pagina** — Presentatiestijl voor de vragen
+* **Schudmodus inschakelen** — Of de vragen moeten worden geschud
+* **Vraagnummer tonen** — Of automatisch gegenereerde vraagnummers moeten worden getoond
 
-## Adding Questions
+## Vragen toevoegen
 
-Once the survey is created, add questions:
+Nadat de enquête is gemaakt, voegt u vragen toe:
 
-1. Choose the question type:
-   * **Yes/No** — A simple binary choice
-   * **Multiple choice** — Select one answer from several options
-   * **Multiple answer** — Select one or more answers from several options
-   * **Open-ended** — Free text response
-   * **Dropdown** — Select from a dropdown list
-   * **Percentage** — Choose a percentage value
-   * **Score** — Rate on a numeric scale
-   * **Comment** — A text block (not a question) for adding instructions between questions
-   * **Multiple choice with "other" option** — Select one answer from several options, with an alternative choice
-   * **Selective display** — Special type allowing you to adapt the flow of questions based on previous answers
-   * **Page break** — Add page breaks in the questions flow. Only useful if "One question per page" was **not** selected in the previous step
-2. Configure the question text and answer options
-3. Save
+1. Kies het vraagtype:
+   * **Ja/Nee** — Een eenvoudige binaire keuze
+   * **Meerkeuze** — Selecteer één antwoord uit meerdere opties
+   * **Meerdere antwoorden** — Selecteer één of meer antwoorden uit meerdere opties
+   * **Open vraag** — Vrije tekstreactie
+   * **Keuzelijst** — Selecteer uit een vervolgkeuzelijst
+   * **Percentage** — Kies een percentagewaarde
+   * **Score** — Beoordeel op een numerieke schaal
+   * **Opmerking** — Een tekstblok (geen vraag) voor het toevoegen van instructies tussen vragen
+   * **Meerkeuze met "overige" optie** — Selecteer één antwoord uit meerdere opties, met een alternatieve keuze
+   * **Selectieve weergave** — Speciaal type waarmee u de stroom van vragen kunt aanpassen op basis van eerdere antwoorden
+   * **Paginascheiding** — Voeg paginascheidingen toe in de vragenstroom. Alleen nuttig als "Eén vraag per pagina" in de vorige stap **niet** is geselecteerd
+2. Configureer de vraagtekst en antwoordopties
+3. Opslaan
 
-Each question can be marked as mandatory. If you don't, skipping any question will be acceptable behaviour.
+Elke vraag kan als verplicht worden gemarkeerd. Als u dit niet doet, is het overslaan van een vraag acceptabel gedrag.
 
-## Publishing a Survey
+## Een enquête publiceren
 
-After adding all questions:
+Nadat alle vragen zijn toegevoegd:
 
-1. Click **Publish**
-2. Choose the recipients — Select specific learners or groups (you select them). The **Add learners** button adds all the learners in one single push and leaves the teachers behind
-3. Add additional users — Lets you invite users from outside Chamilo to participate in the survey. They will receive an e-mail with a link and will appear by their e-mail address in the survey details
-4. Mail subject
-5. Mail text — Explain what the survey is about and when/how to answer
-6. Different options for repeat invitations are available
-7. Confirm
+1. Klik op **Publiceren**
+2. Kies de ontvangers — Selecteer specifieke leerlingen of groepen (u selecteert ze). De knop **Leerlingen toevoegen** voegt alle leerlingen in één keer toe en laat de docenten achterwege
+3. Voeg extra gebruikers toe — Hiermee kunt u gebruikers van buiten Chamilo uitnodigen om deel te nemen aan de enquête. Ze ontvangen een e-mail met een link en verschijnen met hun e-mailadres in de enquêtegegevens
+4. Onderwerp van de e-mail
+5. Tekst van de e-mail — Leg uit waar de enquête over gaat en wanneer/hoe te antwoorden
+6. Verschillende opties voor herhaalde uitnodigingen zijn beschikbaar
+7. Bevestigen
 
-Learners receive an invitation (as an email) to complete the survey.
+Leerlingen ontvangen een uitnodiging (via e-mail) om de enquête in te vullen.
 
-A link is available at the bottom of the publication page to invite even more external users to participate. Participants using this link will not be identified and appear as anonymous in the survey results.
+Onderaan de publicatiepagina is een link beschikbaar om nog meer externe gebruikers uit te nodigen om deel te nemen. Deelnemers die deze link gebruiken, worden niet geïdentificeerd en verschijnen als anoniem in de enquêteresultaten.
 
-## Viewing Results
+## Resultaten bekijken
 
-![Survey results with charts and percentage breakdowns for each question](/.gitbook/assets/survey-results-charts.png)
+![Enquêteresultaten met grafieken en procentuele uitsplitsingen per vraag](/.gitbook/assets/survey-results-charts.png)
 
-After learners have responded:
+Nadat leerlingen hebben gereageerd:
 
-1. Open the survey
-2. Click **Results** or **Report**
-3. View response summaries:
-   * Charts and percentages for closed questions
-   * Individual text responses for open-ended questions
-   * Completion rate (how many invitees responded)
+1. Open de enquête
+2. Klik op **Resultaten** of **Rapport**
+3. Bekijk samenvattingen van de antwoorden:
+   * Grafieken en percentages voor gesloten vragen
+   * Individuele tekstreacties voor open vragen
+   * Voltooiingspercentage (hoeveel genodigden hebben gereageerd)
 
-You can export results to a spreadsheet for further analysis.
+U kunt de resultaten exporteren naar een spreadsheet voor verdere analyse.
 
 ## Tips
 
-* **Keep it short** — Learners are more likely to complete shorter surveys
-* **Use anonymous mode** — For honest feedback, enable anonymous responses
-* **Time it right** — Send mid-course surveys to make adjustments, not just end-of-course evaluations
+* **Houd het kort** — Leerlingen vullen kortere enquêtes eerder in
+* **Gebruik anonieme modus** — Voor eerlijke feedback, schakel anonieme antwoorden in
+* **Kies het juiste moment** — Stuur enquêtes halverwege de cursus om aanpassingen te doen, niet alleen eindevaluaties van de cursus

@@ -1,120 +1,109 @@
-# Skills Settings
+# Vaardigheidsinstellingen
 
-Behaviour of the **Skills** system — skills tree, awarding rules, profile integration.
+Gedrag van het **Vaardigheden**-systeem — vaardigheidsboom, toekenningsregels, integratie in profielen.
 
-Access these settings under **Administration > Configuration settings > Skills**. This category contains **13 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+Toegang tot deze instellingen vindt u onder **Beheer > Configuratie-instellingen > Vaardigheden**. Deze categorie bevat **13 instellingen**, hieronder opgesomd met de titel en opmerking zoals meegeleverd in de instellingenfixtures van het platform (`SettingsCurrentFixtures.php`).
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> De variabelenaam in de code wordt weergegeven in monospace. Gebruik deze bij het scripten via de API of wanneer u deze instellingen op globaal niveau wilt wijzigen door [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml) te bewerken.
 
-## Settings
+## Instellingen
 
 ### `allow_hr_skills_management`
 
-**Allow HR skills management**
+**HR-vaardigheidsbeheer toestaan**
 
-Allows HR to manage skills
+Staat HR toe om vaardigheden te beheren.
 
-*Default: `true`*
-
+*Standaard: `true`*
 
 ### `allow_private_skills`
 
-**Hide skills from learners**
+**Vaardigheden verbergen voor leerlingen**
 
-If enabled, skills can only be visible for admins, teachers (related to a user via a course), and HRM users (if related to a user).
+Indien ingeschakeld, zijn vaardigheden alleen zichtbaar voor beheerders, docenten (gerelateerd aan een gebruiker via een cursus) en HRM-gebruikers (indien gerelateerd aan een gebruiker).
 
-*Default: `false`*
-
+*Standaard: `false`*
 
 ### `allow_skill_rel_items`
 
-**Enable linking skills to items**
+**Koppelen van vaardigheden aan items inschakelen**
 
-This enables a major feature that enables any item to be linked to (and as such to allow acquisition of) a skill. The feature still requires the teacher to confirm the acquisition of the skill, so the acquisition is not automatic.
+Dit activeert een belangrijke functie waarmee elk item gekoppeld kan worden aan (en zo de verwerving van) een vaardigheid mogelijk maakt. De functie vereist nog steeds dat de docent de verwerving van de vaardigheid bevestigt, dus de verwerving is niet automatisch.
 
-*Default: `false`*
-
+*Standaard: `false`*
 
 ### `allow_skills_tool`
 
-**Allow Skills tool**
+**Vaardighedentool toestaan**
 
-Users can see their skills in the social network and in a block in the homepage.
+Gebruikers kunnen hun vaardigheden zien in het sociale netwerk en in een blok op de startpagina.
 
-*Default: `true`*
+*Standaard: `true`*
 
 ### `allow_teacher_access_student_skills`
 
-**Allow teachers to access learners' skills**
+**Docenten toegang geven tot vaardigheden van leerlingen**
 
-[inferred] Allow instructors to view and monitor skills acquired by learners in their courses.
+[afgeleid] Sta docenten toe om de vaardigheden van leerlingen in hun cursussen te bekijken en te volgen.
 
-*Default: `false`*
-
+*Standaard: `false`*
 
 ### `badge_assignation_notification`
 
-**Send notification to learner when a skill/badge has been acquired**
+**Melding sturen naar leerling bij het behalen van een vaardigheid/badge**
 
-[inferred] Send notifications to learners when they acquire a new skill or badge achievement.
+[afgeleid] Stuur meldingen naar leerlingen wanneer ze een nieuwe vaardigheid of badge behalen.
 
-*Default: `false`*
-
+*Standaard: `false`*
 
 ### `hide_skill_levels`
 
-**Hide skill levels feature**
+**Vaardigheidsniveausfunctie verbergen**
 
-[inferred] Conceal the skill level hierarchy and level labels in skill-related views.
+[afgeleid] Verberg de hiërarchie van vaardigheidsniveaus en niveau-labels in weergaven gerelateerd aan vaardigheden.
 
-*Default: `false`*
-
+*Standaard: `false`*
 
 ### `manual_assignment_subskill_autoload`
 
-**Assigning skills to user: sub-skills auto-loading**
+**Vaardigheden toewijzen aan gebruiker: automatisch laden van subvaardigheden**
 
-When manually assigning skills to a user, the form can be set to automatically offer you to assign a sub-skill instead of the skill you selected.
+Bij het handmatig toewijzen van vaardigheden aan een gebruiker kan het formulier worden ingesteld om automatisch voor te stellen een subvaardigheid toe te wijzen in plaats van de geselecteerde vaardigheid.
 
-*Default: `false`*
-
+*Standaard: `false`*
 
 ### `openbadges_backpack`
 
 **OpenBadges backpack URL**
 
-The URL of the OpenBadges backpack server that will be used by default for all users wanting to export their badges. This defaults to the open and free Mozilla Foundation backpack repository: https://backpack.openbadges.org/
+De URL van de OpenBadges backpack-server die standaard wordt gebruikt voor alle gebruikers die hun badges willen exporteren. Dit is standaard de open en gratis backpack-repository van de Mozilla Foundation: https://backpack.openbadges.org/
 
 ### `show_full_skill_name_on_skill_wheel`
 
-**Show full skill name on skill wheel**
+**Volledige vaardigheidsnaam tonen op vaardigheidsrad**
 
-On the wheel of skills, it shows the name of the skill when it has short code.
+Op het vaardigheidsrad wordt de naam van de vaardigheid getoond wanneer deze een korte code heeft.
 
-*Default: `false`*
-
+*Standaard: `false`*
 
 ### `skill_levels_names`
 
-**Skill levels names**
+**Namen van vaardigheidsniveaus**
 
-Define names for levels of skills as an array of id => name.
+Definieer namen voor niveaus van vaardigheden als een array van id => naam.
 
 ### `skills_hierarchical_view_in_user_tracking`
 
-**Show skills as a hierarchical table**
+**Vaardigheden weergeven als hiërarchische tabel**
 
-[inferred] Display learner skills as a hierarchical tree structure in progress and reporting pages.
+[afgeleid] Toon vaardigheden van leerlingen als een hiërarchische boomstructuur op voortgangs- en rapportagepagina's.
 
-*Default: `false`*
-
+*Standaard: `false`*
 
 ### `skills_teachers_can_assign_skills`
 
-**Allow teachers to set which skills are acquired through their courses**
+**Docenten toestaan om te bepalen welke vaardigheden via hun cursussen worden behaald**
 
-By default, only admins can decide which skills can be acquired through which course.
+Standaard kunnen alleen beheerders bepalen welke vaardigheden via welke cursus kunnen worden behaald.
 
-*Default: `false`*
-
-
+*Standaard: `false`*

@@ -1,66 +1,66 @@
-# Attendance
+# Aanwezigheid
 
-The attendance tool lets you track learner presence for scheduled class sessions, whether in-person or online.
+De aanwezigheidstool stelt u in staat om de aanwezigheid van leerlingen te volgen voor geplande lessen, zowel fysiek als online.
 
-## Creating an Attendance Sheet
+## Een Aanwezigheidslijst Maken
 
-1. Open the **Attendance** tool from the course homepage
-2. Click **Add attendance** to create an attendance sheet
-3. Enter a **Title** for the attendance sheet (e.g., "Week 1 - Introduction")
-4. Enter a **Description** (this is mostly for your use - learners will not see the description)
-5. Save
+1. Open de **Aanwezigheid**-tool vanaf de cursusstartpagina
+2. Klik op **Aanwezigheid toevoegen** om een aanwezigheidslijst aan te maken
+3. Voer een **Titel** in voor de aanwezigheidslijst (bijv. "Week 1 - Introductie")
+4. Voer een **Beschrijving** in (dit is voornamelijk voor uw eigen gebruik - leerlingen zien de beschrijving niet)
+5. Opslaan
 
-### Advanced settings
+### Geavanceerde instellingen
 
-1. **Require unique presence** allows you to consider a learner as fully present if he/she participated even to only one date of the attendance sheet
-2. **Gradebook options** lets you decide to qualify the attendance sheet in the assessement tool (gradebook).
+1. **Unieke aanwezigheid vereisen** stelt u in staat om een leerling als volledig aanwezig te beschouwen als hij/zij zelfs maar aan één datum van de aanwezigheidslijst heeft deelgenomen
+2. **Cijferlijstopties** laten u beslissen om de aanwezigheidslijst te kwalificeren in de beoordelingstool (cijferlijst).
 
-## Adding dates
+## Datums Toevoegen
 
-Each attendance sheet contains one or more dates (sessions) where you record presence:
+Elke aanwezigheidslijst bevat een of meer datums (sessies) waarop u aanwezigheid registreert:
 
-1. Open an attendance sheet or continue with the creation process
-2. Click **Add a date** <img src="/.gitbook/assets/icons/mdi-calendar-plus.svg" alt="Add date" data-size="line">
-3. Select the date and time
-4. Optionally, check **Repeat date** to choose a repetition logic
-5. Give a **Duration** in minutes for the event (defaults to 60 minutes)
-6. Optionally, select a **Group** if this attendance date only applies to one group of learners
-7. Save
+1. Open een aanwezigheidslijst of ga verder met het aanmaakproces
+2. Klik op **Een datum toevoegen** <img src="/.gitbook/assets/icons/mdi-calendar-plus.svg" alt="Datum toevoegen" data-size="line">
+3. Selecteer de datum en tijd
+4. Optioneel, vink **Datum herhalen** aan om een herhalingslogica te kiezen
+5. Geef een **Duur** in minuten voor het evenement (standaard ingesteld op 60 minuten)
+6. Optioneel, selecteer een **Groep** als deze aanwezigheidsdatum alleen van toepassing is op een specifieke groep leerlingen
+7. Opslaan
 
-You can add multiple dates to the same attendance sheet (e.g., all sessions for a month).
+U kunt meerdere datums toevoegen aan dezelfde aanwezigheidslijst (bijv. alle sessies voor een maand).
 
-## Recording Attendance
+## Aanwezigheid Registreren
 
-For each date, mark each learner as:
+Voor elke datum markeert u elke leerling als:
 
-* **Present** — The learner attended (default value for all learners)
-* **Absent** — The learner did not attend
+* **Aanwezig** — De leerling was aanwezig (standaardwaarde voor alle leerlingen)
+* **Afwezig** — De leerling was niet aanwezig
 
-Click on the status cell next to each learner's name to toggle between present and absent.
+Klik op de statuscel naast de naam van elke leerling om te schakelen tussen aanwezig en afwezig.
 
-By default, all learners are marked present, as we consider that chances are you have more people present than absent.
+Standaard worden alle leerlingen als aanwezig gemarkeerd, omdat we ervan uitgaan dat de kans groter is dat er meer mensen aanwezig zijn dan afwezig.
 
-Note: Admins can modify the portal configuration to allow you to choose more extended attendance types (late, absent with justification, etc), which can better reflect your procedures. In this case, just clicking the presence input will toggle between all the presence types.
+Opmerking: Beheerders kunnen de portalconfiguratie aanpassen om u meer uitgebreide aanwezigheidstypen te laten kiezen (te laat, afwezig met rechtvaardiging, enz.), wat uw procedures beter kan weerspiegelen. In dit geval schakelt u door alle aanwezigheidstypen door simpelweg op de aanwezigheidsinvoer te klikken.
 
-## Viewing Attendance Reports
+## Aanwezigheidsrapporten Bekijken
 
-![The attendance sheet showing a summary table with learners, dates, and presence indicators](/.gitbook/assets/attendance-sheet.png)
+![De aanwezigheidslijst toont een samenvattingstabel met leerlingen, datums en aanwezigheidsindicatoren](/.gitbook/assets/attendance-sheet.png)
 
-The attendance tool shows:
+De aanwezigheidstool toont:
 
-* A summary table with all learners and all dates
-* Each learner's attendance percentage (present sessions / total sessions)
-* Color-coded indicators for easy scanning
+* Een samenvattingstabel met alle leerlingen en alle datums
+* Het aanwezigheidspercentage van elke leerling (aanwezige sessies / totale sessies)
+* Kleurgecodeerde indicatoren voor eenvoudige scanning
 
 ## Extra
 
-Attendances have a few extended features that are not visible straight away:
-* **Signatures** can be enabled so that learners can sign their attendance in-class through a tablet handled by the teacher
-* **Comments** can be added by the teacher on each student attendance
-* **PDF reports** can be extracted to comply with regulation
+Aanwezigheidslijsten hebben enkele uitgebreide functies die niet direct zichtbaar zijn:
+* **Handtekeningen** kunnen worden ingeschakeld zodat leerlingen hun aanwezigheid in de klas kunnen ondertekenen via een tablet die door de docent wordt beheerd
+* **Opmerkingen** kunnen door de docent worden toegevoegd aan de aanwezigheid van elke leerling
+* **PDF-rapporten** kunnen worden geëxporteerd om te voldoen aan regelgeving
 
 ## Tips
 
-* **Link to course progress** — Use attendance data alongside the Course Progress tool to correlate presence with topic coverage
-* **Export data** — Export the attendance sheet for administrative records
-* **Set expectations** — If attendance is mandatory, communicate the policy clearly in your course introduction or announcements
+* **Koppelen aan cursusvoortgang** — Gebruik aanwezigheidsgegevens samen met de Cursusvoortgang-tool om aanwezigheid te correleren met de dekking van onderwerpen
+* **Gegevens exporteren** — Exporteer de aanwezigheidslijst voor administratieve archieven
+* **Verwachtingen stellen** — Als aanwezigheid verplicht is, communiceer het beleid duidelijk in uw cursusintroductie of aankondigingen

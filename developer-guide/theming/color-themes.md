@@ -1,35 +1,35 @@
-# Color Themes
+# Kleurenthema's
 
-Chamilo 2.0 uses a database-driven color theme system. Themes are managed through the admin UI, stored in the database, and written to disk as CSS files. They can be customized per access URL, allowing multi-URL installations to have different visual identities.
+Chamilo 2.0 maakt gebruik van een databasegestuurd kleurenthemasysteem. Thema's worden beheerd via de beheerdersinterface, opgeslagen in de database en als CSS-bestanden naar de schijf geschreven. Ze kunnen worden aangepast per toegang-URL, waardoor installaties met meerdere URL's verschillende visuele identiteiten kunnen hebben.
 
-## Data Model
+## Gegevensmodel
 
-Two entities drive the theme system:
+Twee entiteiten sturen het themasysteem aan:
 
 **`ColorTheme`** (`src/CoreBundle/Entity/ColorTheme.php`)
 
-| Field | Type | Description |
+| Veld | Type | Beschrijving |
 |-------|------|-------------|
-| `id` | int | Primary key |
-| `title` | string | Human-readable name |
-| `slug` | string | Auto-generated from `title` (e.g. `"My Theme"` → `my-theme`); used as the directory name in `var/themes/` |
-| `variables` | array (JSON) | Map of CSS custom property name → value (e.g. `{"--color-primary-base": "46 117 163"}`) |
+| `id` | int | Primaire sleutel |
+| `title` | string | Menselijk leesbare naam |
+| `slug` | string | Automatisch gegenereerd uit `title` (bijv. `"Mijn Thema"` → `mijn-thema`); gebruikt als mapnaam in `var/themes/` |
+| `variables` | array (JSON) | Kaart van CSS-eigendomsnaam → waarde (bijv. `{"--color-primary-base": "46 117 163"}`) |
 
 **`AccessUrlRelColorTheme`** (`src/CoreBundle/Entity/AccessUrlRelColorTheme.php`)
 
-Associates a `ColorTheme` with an `AccessUrl`. The `active` boolean flag marks which theme is currently active for that URL. Only one theme can be active per access URL at a time.
+Koppelt een `ColorTheme` aan een `AccessUrl`. De `active` boolean-vlag markeert welk thema momenteel actief is voor die URL. Slechts één thema kan tegelijkertijd actief zijn per toegang-URL.
 
-## How Themes Are Stored
+## Hoe Thema's Worden Opgeslagen
 
-When a theme is created or updated via the API, `ColorThemeStateProcessor` generates the CSS file and writes it to the Flysystem `themes_filesystem` (backed by `var/themes/`):
+Wanneer een thema wordt aangemaakt of bijgewerkt via de API, genereert `ColorThemeStateProcessor` het CSS-bestand en schrijft dit naar de Flysystem `themes_filesystem` (ondersteund door `var/themes/`):
 
 ```
 var/themes/
 └── {slug}/
-    └── colors.css   ← generated from ColorTheme.variables
+    └── colors.css   ← gegenereerd uit ColorTheme.variables
 ```
 
-The generated `colors.css` wraps all variables in a `:root` block:
+Het gegenereerde `colors.css` omvat alle variabelen in een `:root`-blok:
 
 ```css
 :root {
@@ -40,77 +40,77 @@ The generated `colors.css` wraps all variables in a `:root` block:
 }
 ```
 
-Values are space-separated RGB channel triplets (not `rgb()`), which allows Tailwind to compose opacity variants such as `bg-primary/50` without additional configuration.
+Waarden zijn spatiegescheiden RGB-kanaal-tripletten (niet `rgb()`), wat Tailwind in staat stelt om opaciteitsvarianten zoals `bg-primary/50` samen te stellen zonder extra configuratie.
 
-## Theme Resolution Precedence
+## Prioriteit bij Themaresolutie
 
-`ThemeHelper::getVisualTheme()` resolves which theme slug to apply on any given page, in this order:
+`ThemeHelper::getVisualTheme()` bepaalt welk thema-slug op een bepaalde pagina wordt toegepast, in deze volgorde:
 
-1. **Active theme for the current AccessUrl** — the `AccessUrlRelColorTheme` record with `active = true`
-2. **User-selected theme** — the theme stored on the `User` entity, if the `profile.user_selected_theme` platform setting is enabled
-3. **Course theme** — the `course_theme` course setting, if the `course.allow_course_theme` platform setting is enabled
-4. **Learning path theme** — the LP's `$lp_theme_css` value, if the `allow_learning_path_theme` course setting is enabled
-5. **`THEME_FALLBACK` env var** — set in `.env` as `THEME_FALLBACK='chamilo'`
-6. **Default** — `chamilo` (hardcoded as `ThemeHelper::DEFAULT_THEME`)
+1. **Actief thema voor de huidige AccessUrl** — het `AccessUrlRelColorTheme`-record met `active = true`
+2. **Door de gebruiker geselecteerd thema** — het thema dat is opgeslagen in de `User`-entiteit, als de platforminstelling `profile.user_selected_theme` is ingeschakeld
+3. **Cursusthema** — de cursusinstelling `course_theme`, als de platforminstelling `course.allow_course_theme` is ingeschakeld
+4. **Thema voor leerpad** — de `$lp_theme_css`-waarde van het leerpad, als de cursusinstelling `allow_learning_path_theme` is ingeschakeld
+5. **`THEME_FALLBACK` omgevingsvariabele** — ingesteld in `.env` als `THEME_FALLBACK='chamilo'`
+6. **Standaard** — `chamilo` (hardcoded als `ThemeHelper::DEFAULT_THEME`)
 
-## Asset Serving
+## Levering van Assets
 
-Theme assets are served by `ThemeController` (`src/CoreBundle/Controller/ThemeController.php`) under the `/themes` prefix.
+Thema-assets worden geleverd door `ThemeController` (`src/CoreBundle/Controller/ThemeController.php`) onder het voorvoegsel `/themes`.
 
-| Route | Purpose |
+| Route | Doel |
 |-------|---------|
-| `GET /themes/{name}/{path}` | Serve any theme asset (CSS, JS, images); falls back to `chamilo` theme if not found in the requested theme |
-| `GET /themes/{slug}/logo/{type}` | Serve the preferred logo (`header` or `email`), with SVG → PNG fallback |
-| `POST /themes/{slug}/logos` | Upload header/email logos (SVG and/or PNG) |
-| `DELETE /themes/{slug}/logos/{type}` | Delete a specific logo |
+| `GET /themes/{name}/{path}` | Levert een thema-asset (CSS, JS, afbeeldingen); valt terug op het `chamilo`-thema als het niet wordt gevonden in het gevraagde thema |
+| `GET /themes/{slug}/logo/{type}` | Levert het voorkeur-logo (`header` of `email`), met SVG → PNG fallback |
+| `POST /themes/{slug}/logos` | Upload header/email-logo's (SVG en/of PNG) |
+| `DELETE /themes/{slug}/logos/{type}` | Verwijdert een specifiek logo |
 
-The general asset route (`/{name}/{path}`) automatically falls back to the `chamilo` default theme when a file is missing from the requested theme, so themes only need to include files they actually override.
+De algemene asset-route (`/{name}/{path}`) valt automatisch terug op het standaard `chamilo`-thema wanneer een bestand ontbreekt in het gevraagde thema, zodat thema's alleen bestanden hoeven te bevatten die ze daadwerkelijk overschrijven.
 
-## How Themes Are Loaded in Templates
+## Hoe Thema's Worden Geladen in Sjablonen
 
-The `head.html.twig` layout template loads the active theme's assets via Twig helper functions:
+Het `head.html.twig`-lay-outsjabloon laadt de assets van het actieve thema via Twig-helperfuncties:
 
 ```twig
-{# Inject the theme's color variables #}
+{# Injecteer de kleurvariabelen van het thema #}
 {{ theme_asset_link_tag('colors.css') }}
 
-{# Inject TinyMCE color palette #}
+{# Injecteer TinyMCE-kleurenpalet #}
 {{ theme_asset_script_tag('tiny-settings.js') }}
 
-{# Reference other theme assets #}
+{# Verwijs naar andere thema-assets #}
 <link rel="shortcut icon" href="{{ theme_asset('images/favicon.ico') }}" type="image/x-icon" />
 ```
 
-The three Twig functions (registered in `ChamiloExtension`) resolve the asset path through `ThemeHelper`, applying the same fallback chain as above:
+De drie Twig-functies (geregistreerd in `ChamiloExtension`) lossen het assetpad op via `ThemeHelper`, waarbij dezelfde fallback-keten als hierboven wordt toegepast:
 
-| Function | Returns |
+| Functie | Retourneert |
 |----------|---------|
-| `theme_asset('path')` | URL to the asset in the resolved theme |
-| `theme_asset_link_tag('path')` | Full `<link rel="stylesheet">` tag |
-| `theme_asset_script_tag('path')` | Full `<script src="...">` tag |
-| `theme_asset_base64('path')` | Base64-encoded data URI of the asset |
-| `theme_logo('header'\|'email')` | URL to the best available logo |
+| `theme_asset('path')` | URL naar de asset in het opgeloste thema |
+| `theme_asset_link_tag('path')` | Volledige `<link rel="stylesheet">`-tag |
+| `theme_asset_script_tag('path')` | Volledige `<script src="...">`-tag |
+| `theme_asset_base64('path')` | Base64-gecodeerde data-URI van de asset |
+| `theme_logo('header'\|'email')` | URL naar het best beschikbare logo |
 
-## API Endpoints
+## API-eindpunten
 
-Theme management is exposed via the API Platform REST API (admin-only):
+Thema-beheer is beschikbaar via de API Platform REST API (alleen voor beheerders):
 
-| Method | Endpoint | Purpose |
+| Methode | Eindpunt | Doel |
 |--------|----------|---------|
-| `POST` | `/api/color_themes` | Create a new theme |
-| `PUT` | `/api/color_themes/{id}` | Update an existing theme |
-| `POST` | `/api/access_url_rel_color_themes` | Associate/activate a theme for an access URL |
-| `GET` | `/api/access_url_rel_color_themes` | List theme associations for the current access URL |
+| `POST` | `/api/color_themes` | Maak een nieuw thema aan |
+| `PUT` | `/api/color_themes/{id}` | Werk een bestaand thema bij |
+| `POST` | `/api/access_url_rel_color_themes` | Koppel/activeer een thema voor een toegang-URL |
+| `GET` | `/api/access_url_rel_color_themes` | Lijst thema-associaties voor de huidige toegang-URL |
 
-## Creating a Custom Theme
+## Een Aangepast Thema Maken
 
-The standard workflow is through the admin UI (**Admin → Color Themes**), which calls the API endpoints above. To create a theme programmatically:
+De standaard workflow verloopt via de beheerdersinterface (**Beheer → Kleurenthema's**), die de bovenstaande API-eindpunten aanroept. Om programmatisch een thema te maken:
 
-1. `POST /api/color_themes` with a JSON body:
+1. `POST /api/color_themes` met een JSON-body:
 
 ```json
 {
-  "title": "My Theme",
+  "title": "Mijn Thema",
   "variables": {
     "--color-primary-base": "30 90 140",
     "--color-primary-gradient": "20 60 100",
@@ -123,9 +123,9 @@ The standard workflow is through the admin UI (**Admin → Color Themes**), whic
 }
 ```
 
-This persists the entity and writes `var/themes/my-theme/colors.css`.
+Dit slaat de entiteit op en schrijft `var/themes/my-theme/colors.css`.
 
-2. `POST /api/access_url_rel_color_themes` to associate and activate it for the current access URL:
+2. `POST /api/access_url_rel_color_themes` om het thema te koppelen en te activeren voor de huidige toegang-URL:
 
 ```json
 {
@@ -133,34 +133,34 @@ This persists the entity and writes `var/themes/my-theme/colors.css`.
 }
 ```
 
-To add custom images (logo, favicon, backgrounds), upload them via `POST /themes/{slug}/logos` or place them directly in `var/themes/{slug}/images/`.
+Om aangepaste afbeeldingen (logo, favicon, achtergronden) toe te voegen, upload ze via `POST /themes/{slug}/logos` of plaats ze direct in `var/themes/{slug}/images/`.
 
-## Color Variable Reference
+## Referentie voor Kleurvariabelen
 
-All variables expected by the default Tailwind configuration:
+Alle variabelen die worden verwacht door de standaard Tailwind-configuratie:
 
-| Variable | Purpose |
+| Variabele | Doel |
 |----------|---------|
-| `--color-primary-base` | Primary brand color |
-| `--color-primary-gradient` | Darker gradient stop for primary |
-| `--color-primary-button-text` | Text color on primary buttons |
-| `--color-primary-button-alternative-text` | Alternative text color on primary buttons |
-| `--color-secondary-base` | Secondary accent color |
-| `--color-secondary-gradient` | Gradient stop for secondary |
-| `--color-secondary-button-text` | Text color on secondary buttons |
-| `--color-tertiary-base` | Tertiary color |
-| `--color-tertiary-gradient` | Gradient stop for tertiary |
-| `--color-tertiary-button-text` | Text color on tertiary buttons |
-| `--color-success-base` | Success state color |
-| `--color-success-gradient` | Gradient stop for success |
-| `--color-success-button-text` | Text color on success buttons |
-| `--color-info-base` | Info state color |
-| `--color-info-gradient` | Gradient stop for info |
-| `--color-info-button-text` | Text color on info buttons |
-| `--color-warning-base` | Warning state color |
-| `--color-warning-gradient` | Gradient stop for warning |
-| `--color-warning-button-text` | Text color on warning buttons |
-| `--color-danger-base` | Danger/error state color |
-| `--color-danger-gradient` | Gradient stop for danger |
-| `--color-danger-button-text` | Text color on danger buttons |
-| `--color-form-base` | Form element accent color |
+| `--color-primary-base` | Primaire merkkleur |
+| `--color-primary-gradient` | Donkerdere gradiëntstop voor primair |
+| `--color-primary-button-text` | Tekstkleur op primaire knoppen |
+| `--color-primary-button-alternative-text` | Alternatieve tekstkleur op primaire knoppen |
+| `--color-secondary-base` | Secundaire accentkleur |
+| `--color-secondary-gradient` | Gradiëntstop voor secundair |
+| `--color-secondary-button-text` | Tekstkleur op secundaire knoppen |
+| `--color-tertiary-base` | Tertiaire kleur |
+| `--color-tertiary-gradient` | Gradiëntstop voor tertiair |
+| `--color-tertiary-button-text` | Tekstkleur op tertiaire knoppen |
+| `--color-success-base` | Kleur voor successtatus |
+| `--color-success-gradient` | Gradiëntstop voor succes |
+| `--color-success-button-text` | Tekstkleur op succesknoppen |
+| `--color-info-base` | Kleur voor informatietoestand |
+| `--color-info-gradient` | Gradiëntstop voor info |
+| `--color-info-button-text` | Tekstkleur op infoknoppen |
+| `--color-warning-base` | Kleur voor waarschuwingstoestand |
+| `--color-warning-gradient` | Gradiëntstop voor waarschuwing |
+| `--color-warning-button-text` | Tekstkleur op waarschuwingsknoppen |
+| `--color-danger-base` | Kleur voor gevaar/foutstatus |
+| `--color-danger-gradient` | Gradiëntstop voor gevaar |
+| `--color-danger-button-text` | Tekstkleur op gevaarknoppen |
+| `--color-form-base` | Accentkleur voor formulierelementen |

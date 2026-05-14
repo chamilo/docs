@@ -1,32 +1,31 @@
-# Cron Jobs Settings
+# Instellingen voor Cron Jobs
 
-Configuration of scheduled jobs (cron tasks) shipped with Chamilo.
+Configuratie van geplande taken (cron-taken) die met Chamilo worden meegeleverd.
 
-Access these settings under **Administration > Configuration settings > Cron Jobs**. This category contains **3 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+Deze instellingen zijn toegankelijk via **Beheer > Configuratie-instellingen > Cron Jobs**. Deze categorie bevat **3 instellingen**, hieronder vermeld met de titel en opmerking zoals opgenomen in de instellingenfixtures van het platform (`SettingsCurrentFixtures.php`).
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> De variabelenaam in de code wordt weergegeven in monospace. Gebruik deze bij het scripten via de API of wanneer u deze instellingen op globaal niveau wilt wijzigen door [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml) te bewerken.
 
-## Settings
+## Instellingen
 
 ### `cron_remind_course_expiration_activate`
 
-**Remind Course Expiration cron**
+**Herinnering aan cursusverloop cron**
 
-Enable the Remind Course Expiration cron
+Schakel de Herinnering aan cursusverloop cron in
 
-*Default: `false`*
+*Standaard: `false`*
 
 ### `cron_remind_course_expiration_frequency`
 
-**Frequency for the Remind Course Expiration cron**
+**Frequentie voor de Herinnering aan cursusverloop cron**
 
-Number of days before the expiration of the course to consider to send reminder mail
+Aantal dagen vóór het verlopen van de cursus om een herinneringsmail te sturen
 
 ### `cron_remind_course_finished_activate`
 
-**Send course finished notification**
+**Melding cursus voltooid verzenden**
 
-Whether to send an e-mail to students when their course (session) is finished. This requires cron tasks to be configured (see main/cron/ directory).
+Of een e-mail naar studenten moet worden verzonden wanneer hun cursus (sessie) is voltooid. Hiervoor moeten cron-taken worden geconfigureerd (zie de map main/cron/).
 
-*Default: `false`*
-
+*Standaard: `false`*

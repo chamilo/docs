@@ -1,249 +1,240 @@
-# Security Settings
+# Beveiligingsinstellingen
 
-Login protection, password policy, content security headers, two-factor authentication, and the lightweight intrusion detection system.
+Loginbescherming, wachtwoordbeleid, beveiligingsheaders voor inhoud, tweestapsverificatie en het lichtgewicht inbraakdetectiesysteem.
 
-Access these settings under **Administration > Configuration settings > Security**. This category contains **31 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+Toegang tot deze instellingen vindt u onder **Beheer > Configuratie-instellingen > Beveiliging**. Deze categorie bevat **31 instellingen**, hieronder opgesomd met de titel en opmerking zoals meegeleverd in de platforminstellingen (`SettingsCurrentFixtures.php`).
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> De variabelenaam in de code wordt weergegeven in monospace. Gebruik deze bij het scripten via de API of wanneer u deze instellingen op globaal niveau wilt wijzigen door [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml) te bewerken.
 
-## Settings
+## Instellingen
 
 ### `2fa_enable`
 
-**Enable 2FA**
+**Tweestapsverificatie inschakelen**
 
-Add fields in the password update page to enable 2FA using a TOTP authenticator app. When disabled globally, users won't see 2FA fields and won't be prompted for 2FA at login, even if they had enabled it previously.
+Voegt velden toe aan de pagina voor wachtwoordupdates om tweestapsverificatie in te schakelen met een TOTP-authenticatie-app. Wanneer dit globaal is uitgeschakeld, zien gebruikers geen tweestapsverificatievelden en worden ze niet gevraagd om tweestapsverificatie bij het inloggen, zelfs als ze dit eerder hadden ingeschakeld.
 
-*Default: `false`*
+*Standaard: `false`*
 
 ### `access_to_personal_file_for_all`
 
-**Access to personal file for all**
+**Toegang tot persoonlijke bestanden voor iedereen**
 
-Allows access to all personal files without restriction
+Geeft onbeperkte toegang tot alle persoonlijke bestanden.
 
-*Default: `false`*
-
+*Standaard: `false`*
 
 ### `admins_can_set_users_pass`
 
-**Admins can set users passwords manually**
+**Beheerders kunnen gebruikerswachtwoorden handmatig instellen**
 
-[inferred] When enabled, administrators can manually set user passwords directly without requiring users to reset them.
+[afgeleid] Wanneer ingeschakeld, kunnen beheerders handmatig gebruikerswachtwoorden instellen zonder dat gebruikers deze hoeven te resetten.
 
 ### `allow_captcha`
 
 **CAPTCHA**
 
-Enable a CAPTCHA on the login form, inscription form and lost password form to avoid password hammering
+Schakel een CAPTCHA in op het inlogformulier, inschrijfformulier en formulier voor vergeten wachtwoord om wachtwoordkraken te voorkomen.
 
-*Default: `false`*
+*Standaard: `false`*
 
 ### `allow_online_users_by_status`
 
-**Filter users that can be seen as online**
+**Filter gebruikers die als online worden gezien**
 
-Limits online user visibility to specific user roles.
+Beperkt de zichtbaarheid van online gebruikers tot specifieke gebruikersrollen.
 
 ### `allow_strength_pass_checker`
 
-**Password strength checker**
+**Wachtwoordsterktecontrole**
 
-Enable this option to add a visual indicator of password strength, when the user changes his/her password. This will NOT prevent bad passwords to be added, it only acts as a visual helper.
+Schakel deze optie in om een visuele indicator van wachtwoordsterkte toe te voegen wanneer de gebruiker zijn/haar wachtwoord wijzigt. Dit voorkomt NIET dat zwakke wachtwoorden worden toegevoegd, het dient alleen als visuele hulp.
 
-*Default: `true`*
-
+*Standaard: `true`*
 
 ### `anonymous_autoprovisioning`
 
-**Auto-provision more anonymous users**
+**Automatisch meer anonieme gebruikers aanmaken**
 
-Dynamically creates new anonymous users to support high visitor traffic.
+Creëert dynamisch nieuwe anonieme gebruikers om een hoge bezoekersstroom te ondersteunen.
 
-*Default: `false`*
-
+*Standaard: `false`*
 
 ### `captcha_number_mistakes_to_block_account`
 
-**CAPTCHA mistakes allowance**
+**Toegestane CAPTCHA-fouten**
 
-The number of times a user can make a mistake on the CAPTCHA box before his account is locked out.
+Het aantal keren dat een gebruiker een fout mag maken in de CAPTCHA-box voordat zijn account wordt geblokkeerd.
 
 ### `captcha_time_to_block`
 
-**CAPTCHA account locking time**
+**Blokkeringstijd voor CAPTCHA-account**
 
-If the user reaches the maximum allowance for login mistakes (when using the CAPTCHA), his/her account will be locked for this number of minutes.
+Als de gebruiker het maximale aantal toegestane inlogfouten bereikt (bij gebruik van CAPTCHA), wordt zijn/haar account voor dit aantal minuten geblokkeerd.
 
 ### `check_password`
 
-**Check password requirements**
+**Controleer wachtwoordvereisten**
 
-Enable validation of the password requirements defined above during password creation or password update.
+Schakel validatie van de hierboven gedefinieerde wachtwoordvereisten in tijdens het aanmaken of bijwerken van een wachtwoord.
 
-*Default: `false`*
-
+*Standaard: `false`*
 
 ### `filter_terms`
 
-**Filter terms**
+**Filtertermen**
 
-Give a list of terms, one by line, to be filtered out of web pages and e-mails. These terms will be replaced by ***.
+Geef een lijst van termen, één per regel, die uit webpagina's en e-mails moeten worden gefilterd. Deze termen worden vervangen door ***.
 
 ### `force_renew_password_at_first_login`
 
-**Force password renewal at first login**
+**Wachtwoordvernieuwing forceren bij eerste inloggen**
 
-This is one simple measure to increase the security of your portal by asking users to immediately change their password, so the one that was transfered by e-mail is no longer valid and they then will use one that they came up with and that they are the only person to know.
+Dit is een eenvoudige maatregel om de beveiliging van uw portaal te verhogen door gebruikers te vragen hun wachtwoord onmiddellijk te wijzigen, zodat het wachtwoord dat per e-mail is verzonden niet langer geldig is en ze een wachtwoord gebruiken dat ze zelf hebben bedacht en dat alleen zij kennen.
 
-*Default: `false`*
-
+*Standaard: `false`*
 
 ### `hide_breadcrumb_if_not_allowed`
 
-**Hide breadcrumb if 'not allowed'**
+**Broodkruimel verbergen bij 'geen toegang'**
 
-If the user is not allowed to access a specific page, also hide the breadcrumb. This increases security by avoiding the display of unnecessary information.
+Als de gebruiker geen toegang heeft tot een specifieke pagina, wordt ook de broodkruimel verborgen. Dit verhoogt de beveiliging door het tonen van onnodige informatie te vermijden.
 
-*Default: `false`*
-
+*Standaard: `false`*
 
 ### `login_max_attempt_before_blocking_account`
 
-**Max login attempts before lockdown**
+**Maximaal aantal inlogpogingen voor vergrendeling**
 
-Number of failed login attempts to tolerate before the user account is locked and has to be unlocked by an admin.
+Aantal mislukte inlogpogingen dat wordt getolereerd voordat het gebruikersaccount wordt vergrendeld en door een beheerder moet worden ontgrendeld.
 
-*Default: `0`*
+*Standaard: `0`*
 
 ### `password_requirements`
 
-**Minimal password syntax requirements**
+**Minimale syntactische vereisten voor wachtwoorden**
 
-Defines the required structure for user passwords. Example: {"min":{"length":8,"lowercase":1,"uppercase":1,"numeric":1,"specials":1}}. Use "specials" (plural) to require special characters.
+Definieert de vereiste structuur voor gebruikerswachtwoorden. Voorbeeld: {"min":{"length":8,"lowercase":1,"uppercase":1,"numeric":1,"specials":1}}. Gebruik "specials" (meervoud) om speciale tekens te vereisen.
 
 ### `password_rotation_days`
 
-**Password rotation interval (days)**
+**Interval voor wachtwoordrotatie (dagen)**
 
-Number of days before users must rotate their password (0 = disabled).
+Aantal dagen voordat gebruikers hun wachtwoord moeten wijzigen (0 = uitgeschakeld).
 
-*Default: `0`*
-
+*Standaard: `0`*
 
 ### `prevent_multiple_simultaneous_login`
 
-**Prevent simultaneous login**
+**Gelijktijdig inloggen voorkomen**
 
-Prevent users connecting with the same account more than once. This is a good option on pay-per-access portals, but might be restrictive during testing as only one browser can connect with any given account.
+Voorkomt dat gebruikers meer dan één keer met hetzelfde account inloggen. Dit is een goede optie voor portals met betaalde toegang, maar kan beperkend zijn tijdens testen omdat slechts één browser met een bepaald account kan verbinden.
 
-*Default: `false`*
-
+*Standaard: `false`*
 
 ### `proxy_settings`
 
-**Proxy settings**
+**Proxy-instellingen**
 
-Some features of Chamilo will connect to the exterior from the server. For example to make sure an external content exists when creating a link or showing an embedded page in the learning path. If your Chamilo server uses a proxy to get out of its network, this would be the place to configure it.
+Sommige functies van Chamilo maken verbinding met externe bronnen vanaf de server. Bijvoorbeeld om te controleren of externe inhoud bestaat bij het maken van een link of het tonen van een ingebedde pagina in het leerpad. Als uw Chamilo-server een proxy gebruikt om buiten het netwerk te komen, kunt u dit hier configureren.
 
 ### `security_block_inactive_users_immediately`
 
-**Block disabled users immediately**
+**Uitgeschakelde gebruikers onmiddellijk blokkeren**
 
-Immediately block users who have been disabled by the admin through users management. Otherwise, users who have been disabled will keep their previous privileges until they logout.
+Blokkeert onmiddellijk gebruikers die door de beheerder zijn uitgeschakeld via gebruikersbeheer. Anders behouden uitgeschakelde gebruikers hun eerdere rechten totdat ze uitloggen.
 
-*Default: `false`*
+*Standaard: `false`*
 
-
+---
 ### `security_content_policy`
 
 **Content Security Policy**
 
-Content Security Policy is an effective measure to protect your site from XSS attacks. By whitelisting sources of approved content, you can prevent the browser from loading malicious assets. This setting is particularly complicated to set with WYSIWYG editors, but if you add all domains that you want to authorize for iframes inclusion in the child-src statement, this example should work for you. You can prevent JavaScript from executing from external sources (including inside SVG images) by using a strict list in the 'script-src' argument. Leave blank to disable. Example setting: default-src 'self'; script-src 'self' 'unsafe-eval' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; child-src 'self' *.youtube.com yt.be *.vimeo.com *.slideshare.com;
+Content Security Policy is een effectieve maatregel om uw site te beschermen tegen XSS-aanvallen. Door bronnen van goedgekeurde inhoud op een witte lijst te zetten, kunt u voorkomen dat de browser schadelijke assets laadt. Deze instelling is bijzonder ingewikkeld om in te stellen met WYSIWYG-editors, maar als u alle domeinen die u wilt autoriseren voor het insluiten van iframes toevoegt aan de child-src-verklaring, zou dit voorbeeld voor u moeten werken. U kunt voorkomen dat JavaScript wordt uitgevoerd vanaf externe bronnen (inclusief binnen SVG-afbeeldingen) door een strikte lijst te gebruiken in het 'script-src'-argument. Laat leeg om uit te schakelen. Voorbeeldinstelling: default-src 'self'; script-src 'self' 'unsafe-eval' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; child-src 'self' *.youtube.com yt.be *.vimeo.com *.slideshare.com;
 
 ### `security_content_policy_report_only`
 
-**Content Security Policy report only**
+**Content Security Policy alleen rapportage**
 
-This setting allows you to experiment by reporting but not enforcing some Content Security Policy.
+Met deze instelling kunt u experimenteren door te rapporteren zonder sommige Content Security Policy-regels af te dwingen.
 
 ### `security_public_key_pins`
 
 **HTTP Public Key Pinning**
 
-HTTP Public Key Pinning protects your site from MiTM attacks using rogue X.509 certificates. By whitelisting only the identities that the browser should trust, your users are protected in the event a certificate authority is compromised.
+HTTP Public Key Pinning beschermt uw site tegen MiTM-aanvallen met behulp van valse X.509-certificaten. Door alleen de identiteiten op een witte lijst te zetten die de browser moet vertrouwen, zijn uw gebruikers beschermd in het geval dat een certificeringsinstantie wordt gecompromitteerd.
 
 ### `security_public_key_pins_report_only`
 
-**HTTP Public Key Pinning report only**
+**HTTP Public Key Pinning alleen rapportage**
 
-This setting allows you to experiment by reporting but not enforcing some HTTP Public Key Pinning.
+Met deze instelling kunt u experimenteren door te rapporteren zonder sommige HTTP Public Key Pinning-regels af te dwingen.
 
 ### `security_referrer_policy`
 
-**Security Referrer Policy**
+**Beleid voor verwijzende bronnen**
 
-Referrer Policy is a new header that allows a site to control how much information the browser includes with navigation away from a document and should be set by all sites.
+Referrer Policy is een nieuwe header die een site in staat stelt te bepalen hoeveel informatie de browser meeneemt bij navigatie weg van een document en zou door alle sites moeten worden ingesteld.
 
-*Default: `origin-when-cross-origin`*
+*Standaard: `origin-when-cross-origin`*
 
 
 ### `security_session_cookie_samesite_none`
 
-**Session cookie samesite**
+**Sessie-cookie samesite**
 
-Enable samesite:None parameter for session cookie. More info: https://www.chromium.org/updates/same-site and https://developers.google.com/search/blog/2020/01/get-ready-for-new-samesitenone-secure
+Schakel de samesite:None-parameter in voor de sessie-cookie. Meer informatie: https://www.chromium.org/updates/same-site en https://developers.google.com/search/blog/2020/01/get-ready-for-new-samesitenone-secure
 
-*Default: `false`*
+*Standaard: `false`*
+
 
 ### `security_strict_transport`
 
 **HTTP Strict Transport Security**
 
-HTTP Strict Transport Security is an excellent feature to support on your site and strengthens your implementation of TLS by getting the User Agent to enforce the use of HTTPS. Recommended value: 'strict-transport-security: max-age=63072000; includeSubDomains'. See https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Strict-Transport-Security. You can include the 'preload' suffix, but this has consequences on the top level domain (TLD), so probably not to be done lightly. See https://hstspreload.org/. Leave blank to disable.
+HTTP Strict Transport Security is een uitstekende functie om op uw site te ondersteunen en versterkt uw implementatie van TLS door de User Agent te dwingen HTTPS te gebruiken. Aanbevolen waarde: 'strict-transport-security: max-age=63072000; includeSubDomains'. Zie https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Strict-Transport-Security. U kunt het 'preload'-achtervoegsel toevoegen, maar dit heeft consequenties voor het topniveaudomein (TLD), dus waarschijnlijk niet lichtzinnig te doen. Zie https://hstspreload.org/. Laat leeg om uit te schakelen.
 
 ### `security_x_content_type_options`
 
 **X-Content-Type-Options**
 
-X-Content-Type-Options stops a browser from trying to MIME-sniff the content type and forces it to stick with the declared content-type. The only valid value for this header is 'nosniff'.
+X-Content-Type-Options voorkomt dat een browser probeert de inhoudstype te MIME-sniffen en dwingt deze om vast te houden aan het gedeclareerde inhoudstype. De enige geldige waarde voor deze header is 'nosniff'.
 
-*Default: `nosniff`*
+*Standaard: `nosniff`*
 
 
 ### `security_x_frame_options`
 
 **X-Frame-Options**
 
-X-Frame-Options tells the browser whether you want to allow your site to be framed or not. By preventing a browser from framing your site you can defend against attacks like clickjacking. If defining a URL here, it should define the URL(s) from which your content should be visible, not the URLs from which your site accepts content. For example, if your main URL (root_web above) is https://11.chamilo.org/, then this setting should be: 'ALLOW-FROM https://11.chamilo.org'. These headers only apply to pages where Chamilo is responsible of the HTTP headers generation (i.e. '.php' files). It does not apply to static files. If playing with this feature, make sure you also update your web server configuration to add the right headers for static files. See CDN configuration documentation above (search for 'add_header') for more information. Recommended (strict) value for this setting, if enabled: 'SAMEORIGIN'.
+X-Frame-Options vertelt de browser of u wilt toestaan dat uw site wordt ingesloten in een frame of niet. Door te voorkomen dat een browser uw site in een frame plaatst, kunt u zich verdedigen tegen aanvallen zoals clickjacking. Als u hier een URL definieert, moet deze de URL(s) specificeren van waaruit uw inhoud zichtbaar moet zijn, niet de URL's van waaruit uw site inhoud accepteert. Bijvoorbeeld, als uw hoofd-URL (root_web hierboven) https://11.chamilo.org/ is, dan zou deze instelling moeten zijn: 'ALLOW-FROM https://11.chamilo.org'. Deze headers zijn alleen van toepassing op pagina's waar Chamilo verantwoordelijk is voor het genereren van de HTTP-headers (d.w.z. '.php'-bestanden). Het geldt niet voor statische bestanden. Als u met deze functie speelt, zorg er dan voor dat u ook uw webserverconfiguratie bijwerkt om de juiste headers voor statische bestanden toe te voegen. Zie de CDN-configuratiedocumentatie hierboven (zoek naar 'add_header') voor meer informatie. Aanbevolen (strikte) waarde voor deze instelling, indien ingeschakeld: 'SAMEORIGIN'.
 
-*Default: `SAMEORIGIN`*
+*Standaard: `SAMEORIGIN`*
 
 
 ### `security_xss_protection`
 
 **X-XSS-Protection**
 
-X-XSS-Protection sets the configuration for the cross-site scripting filter built into most browsers. Recommended value '1; mode=block'.
+X-XSS-Protection stelt de configuratie in voor het cross-site scripting-filter dat in de meeste browsers is ingebouwd. Aanbevolen waarde '1; mode=block'.
 
-*Default: `1; mode=block`*
+*Standaard: `1; mode=block`*
 
 
 ### `user_reset_password`
 
-**Enable password reset token**
+**Wachtwoordreset-token inschakelen**
 
-This option allows to generate a expiring single-use token sent by e-mail to the user to reset his/her password.
+Met deze optie kan een eenmalig bruikbaar token worden gegenereerd dat per e-mail naar de gebruiker wordt gestuurd om zijn/haar wachtwoord te resetten.
 
-*Default: `false`*
+*Standaard: `false`*
 
 
 ### `user_reset_password_token_limit`
 
-**Time limit for password reset token**
+**Tijdslimiet voor wachtwoordreset-token**
 
-The number of seconds before the generated token automatically expires and cannot be used anymore (a new token needs to be generated).
+Het aantal seconden voordat het gegenereerde token automatisch verloopt en niet meer kan worden gebruikt (een nieuw token moet worden gegenereerd).
 
-*Default: `3600`*
-
-
+*Standaard: `3600`*

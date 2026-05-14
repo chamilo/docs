@@ -1,13 +1,13 @@
-# Assessing Learners
+# Beoordeling van Leerlingen
 
-Chamilo provides a comprehensive set of tools for evaluating your learners' knowledge and tracking their performance.
+Chamilo biedt een uitgebreide set hulpmiddelen voor het evalueren van de kennis van uw leerlingen en het volgen van hun prestaties.
 
-* **[Exercises](exercises.md)** — Create quizzes and tests with a variety of question types, automatic grading, and detailed feedback
-* **[Assignments](assignments.md)** — Collect homework and projects from learners, with support for file uploads, peer review, and manual or AI-assisted grading
-* **[Surveys](surveys.md)** — Gather feedback from learners through customizable questionnaires
-* **[Attendance](attendance.md)** — Track learner presence in class sessions
-* **[Gradebook](gradebook.md)** — Combine scores from exercises, assignments, and other activities into a unified grade, and award certificates
+* **[Oefeningen](exercises.md)** — Maak quizzen en toetsen met verschillende vraagtypen, automatische beoordeling en gedetailleerde feedback
+* **[Opdrachten](assignments.md)** — Verzamel huiswerk en projecten van leerlingen, met ondersteuning voor het uploaden van bestanden, peerbeoordeling en handmatige of AI-ondersteunde beoordeling
+* **[Enquêtes](surveys.md)** — Verzamel feedback van leerlingen via aanpasbare vragenlijsten
+* **[Aanwezigheid](attendance.md)** — Volg de aanwezigheid van leerlingen tijdens lessen
+* **[Cijferlijst](gradebook.md)** — Combineer scores van oefeningen, opdrachten en andere activiteiten in een uniforme beoordeling en ken certificaten toe
 
-The **Reporting** tool is still present but moved to the top of the course homepage for the teacher, as a small chart icon. This is the central place to access progress information for the whole course and its students.
+Het hulpmiddel **Rapportage** is nog steeds aanwezig, maar is verplaatst naar de bovenkant van de cursusstartpagina voor de docent, als een klein grafiekpictogram. Dit is de centrale plek om voortgangsinformatie voor de hele cursus en de studenten te raadplegen.
 
-These tools work together: exercise scores and assignment grades can feed into the Gradebook, which can be linked to certificate generation and skill validation.
+Deze hulpmiddelen werken samen: scores van oefeningen en cijfers van opdrachten kunnen worden opgenomen in de Cijferlijst, die gekoppeld kan worden aan het genereren van certificaten en het valideren van vaardigheden.

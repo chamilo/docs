@@ -1,70 +1,65 @@
-# Messaging Settings
+# Berichtinstellingen
 
-Behaviour of the **Messaging / Inbox** system.
+Gedrag van het **Berichten / Inbox**-systeem.
 
-Access these settings under **Administration > Configuration settings > Messaging**. This category contains **7 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+Deze instellingen zijn toegankelijk via **Beheer > Configuratie-instellingen > Berichten**. Deze categorie bevat **7 instellingen**, hieronder opgesomd met de titel en opmerking zoals meegeleverd in de platforminstellingen (`SettingsCurrentFixtures.php`).
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> De variabelenaam in de code wordt weergegeven in monospace. Gebruik deze bij het scripten via de API of wanneer u deze instellingen op globaal niveau wilt wijzigen door [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml) te bewerken.
 
-## Settings
+## Instellingen
 
 ### `allow_message_tool`
 
-**Internal messaging tool**
+**Interne berichtentool**
 
-Enabling the internal messaging tool allows users to send messages to other users of the platform and to have a messaging inbox.
+Het inschakelen van de interne berichtentool stelt gebruikers in staat om berichten te verzenden naar andere gebruikers van het platform en om een berichteninbox te hebben.
 
-*Default: `true`*
+*Standaard: `true`*
 
 ### `allow_send_message_to_all_platform_users`
 
-**Allow sending messages to any platform user**
+**Toestaan om berichten te verzenden naar alle platformgebruikers**
 
-Allows you to send messages to any user of the platform, not just your friends or the people currently online.
+Hiermee kunt u berichten verzenden naar elke gebruiker van het platform, niet alleen naar uw vrienden of de mensen die momenteel online zijn.
 
-*Default: `false`*
+*Standaard: `false`*
 
 ### `allow_user_message_tracking`
 
-**Admins can see personal messages**
+**Beheerders kunnen persoonlijke berichten bekijken**
 
-Allow administrators to see personal messages between a teacher and a learner. Please make sure you include a note in your terms and conditions as this might affect privacy protection.
+Hiermee kunnen beheerders persoonlijke berichten tussen een docent en een leerling bekijken. Zorg ervoor dat u een opmerking opneemt in uw algemene voorwaarden, aangezien dit invloed kan hebben op de privacybescherming.
 
-*Default: `false`*
-
+*Standaard: `false`*
 
 ### `filter_interactivity_messages`
 
-**Teachers can access learners messages only within session timeframe**
+**Docenten hebben alleen toegang tot berichten van leerlingen binnen de sessietijdframe**
 
-Filter messages between a teacher and a learner between the session start end dates
+Filter berichten tussen een docent en een leerling tussen de start- en einddatums van de sessie.
 
-*Default: `false`*
-
+*Standaard: `false`*
 
 ### `message_max_upload_filesize`
 
-**Max upload file size in messages**
+**Maximale uploadbestandsgrootte in berichten**
 
-Maximum size for file uploads in the messaging tool (in Bytes)
+Maximale grootte voor bestandsuploads in de berichtentool (in Bytes).
 
-*Default: `20971520`*
+*Standaard: `20971520`*
 
 ### `private_messages_about_user`
 
-**Allow private messages between teachers about a learner**
+**Privéberichten tussen docenten over een leerling toestaan**
 
-Allow exchange of messages from teachers/bosses about a user from the tracking page of that user.
+Sta uitwisseling van berichten toe tussen docenten/leidinggevenden over een gebruiker vanaf de trackingpagina van die gebruiker.
 
-*Default: `false`*
-
+*Standaard: `false`*
 
 ### `private_messages_about_user_visible_to_user`
 
-**Allow learners to see messages about them between teachers**
+**Leerlingen toestaan om berichten over hen tussen docenten te zien**
 
-If exchange of messages about a user are enabled, this option will allow the corresponding user to see the messages. This is to comply with rules of transparency the organization may need to comply to.
+Als de uitwisseling van berichten over een gebruiker is ingeschakeld, zal deze optie de betreffende gebruiker in staat stellen om de berichten te zien. Dit is om te voldoen aan regels van transparantie waaraan de organisatie mogelijk moet voldoen.
 
-*Default: `false`*
-
-
+*Standaard: `false`*

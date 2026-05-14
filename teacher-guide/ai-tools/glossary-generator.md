@@ -1,40 +1,40 @@
-# Glossary Terms Generator
+# Generator voor Woordenlijsttermen
 
-The AI Glossary Terms Generator helps you build your course glossary faster by automatically producing term definitions from a topic or subject area. You review each suggested term and definition before adding anything to the glossary.
+De AI Generator voor Woordenlijsttermen helpt u om sneller uw cursuswoordenlijst op te bouwen door automatisch definities van termen te genereren op basis van een onderwerp of vakgebied. U bekijkt elke voorgestelde term en definitie voordat u iets aan de woordenlijst toevoegt.
 
-## Accessing the Glossary Terms Generator
+## Toegang tot de Generator voor Woordenlijsttermen
 
-The generator is available from the **Glossary** tool, provided that:
+De generator is beschikbaar via de **Woordenlijst**-tool, mits:
 
-1. AI helpers are enabled at the platform level
-2. At least one AI text provider is configured
+1. AI-helpers op platformniveau zijn ingeschakeld
+2. Ten minste één AI-tekstprovider is geconfigureerd
 
-Open the **Glossary** <img src="/.gitbook/assets/icons/mdi-alphabetical.svg" alt="Glossary" data-size="line"> tool from the course homepage and look for the **Generate with AI** button in the toolbar.
+Open de **Woordenlijst** <img src="/.gitbook/assets/icons/mdi-alphabetical.svg" alt="Woordenlijst" data-size="line">-tool vanaf de cursusstartpagina en zoek naar de knop **Genereren met AI** in de werkbalk.
 
-## How to Generate Terms
+## Hoe Termen te Genereren
 
-1. Click **Generate with AI**
-2. Enter a **topic or subject area** — describe the domain you want terms for (e.g. "introductory organic chemistry" or "project management methodologies")
-3. Optionally specify the **number of terms** to generate
-4. Select an **AI provider** if more than one is configured
-5. Click **Generate**
+1. Klik op **Genereren met AI**
+2. Voer een **onderwerp of vakgebied** in — beschrijf het domein waarvoor u termen wilt (bijv. "inleidende organische chemie" of "projectmanagementmethodologieën")
+3. Specificeer optioneel het **aantal termen** dat u wilt genereren
+4. Selecteer een **AI-provider** als er meer dan één is geconfigureerd
+5. Klik op **Genereren**
 
-The AI produces a list of terms with definitions that you can then review.
+De AI produceert een lijst met termen en definities die u vervolgens kunt beoordelen.
 
-## Reviewing and Adding Terms
+## Termen Beoordelen en Toevoegen
 
-Generated terms are shown as suggestions. Before adding them to your glossary:
+Gegenereerde termen worden als suggesties weergegeven. Voordat u ze aan uw woordenlijst toevoegt:
 
-* **Check accuracy** — Verify that definitions are correct for your course level and context
-* **Edit wording** — Adjust the definition to match your teaching style or course conventions
-* **Remove duplicates** — Skip any terms already in your glossary or outside the scope of your course
-* **Select what to add** — Choose which terms to import; you do not have to accept all of them
+* **Controleer nauwkeurigheid** — Verifieer of de definities correct zijn voor het niveau en de context van uw cursus
+* **Pas formulering aan** — Wijzig de definitie zodat deze overeenkomt met uw onderwijsstijl of cursusconventies
+* **Verwijder duplicaten** — Sla termen over die al in uw woordenlijst staan of buiten de scope van uw cursus vallen
+* **Selecteer wat u wilt toevoegen** — Kies welke termen u wilt importeren; u hoeft niet alle termen te accepteren
 
-Once satisfied, confirm the selection and the terms are added to your glossary.
+Zodra u tevreden bent, bevestigt u de selectie en worden de termen aan uw woordenlijst toegevoegd.
 
 ## Tips
 
-* **Be specific with your topic** — Broad topics produce general definitions; a narrower topic gives you more course-relevant terms
-* **Always review** — AI definitions may be simplified or imprecise. Check each one before publishing to learners
-* **Edit after importing** — You can always update a term's definition later from the glossary management view
-* **Combine with manual entries** — Use the generator to get a starting set, then add discipline-specific terms manually
+* **Wees specifiek met uw onderwerp** — Brede onderwerpen leveren algemene definities op; een smaller onderwerp geeft u termen die relevanter zijn voor uw cursus
+* **Altijd beoordelen** — AI-definities kunnen vereenvoudigd of onnauwkeurig zijn. Controleer elke definitie voordat u deze publiceert voor leerlingen
+* **Bewerk na importeren** — U kunt altijd later de definitie van een term bijwerken vanuit de beheerweergave van de woordenlijst
+* **Combineer met handmatige invoer** — Gebruik de generator om een startset te krijgen en voeg vervolgens disciplinespecifieke termen handmatig toe

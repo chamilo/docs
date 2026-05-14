@@ -1,43 +1,43 @@
 # Agenda
 
-The agenda tool lets you schedule events and deadlines within your course. Events appear on a calendar that your learners can view.
+De agenda-tool stelt u in staat om evenementen en deadlines binnen uw cursus te plannen. Evenementen worden weergegeven op een kalender die uw leerlingen kunnen bekijken.
 
-## Viewing the Agenda
+## De Agenda Bekijken
 
-Open the **Agenda** <img src="/.gitbook/assets/icons/mdi-calendar-text.svg" alt="Agenda" data-size="line"> tool from the course homepage. You can view events in three modes:
+Open de **Agenda** <img src="/.gitbook/assets/icons/mdi-calendar-text.svg" alt="Agenda" data-size="line"> tool vanaf de cursusstartpagina. U kunt evenementen in drie modi bekijken:
 
-![The agenda in calendar view showing course events and deadlines](/.gitbook/assets/agenda-calendar-view.png)
+![De agenda in kalenderweergave met cursus-evenementen en deadlines](/.gitbook/assets/agenda-calendar-view.png)
 
-* **Calendar view** — A visual monthly/weekly/daily calendar
-* **List view** — Events shown as a chronological list
-* **Personal events** — Filter to see only events relevant to you
+* **Kalenderweergave** — Een visuele maandelijkse/wekelijkse/dagelijkse kalender
+* **Lijstweergave** — Evenementen weergegeven als een chronologische lijst
+* **Persoonlijke evenementen** — Filter om alleen evenementen te zien die voor u relevant zijn
 
-## Creating an Event
+## Een Evenement Aanmaken
 
-1. Click **Add event** <img src="/.gitbook/assets/icons/mdi-calendar-plus.svg" alt="Add event" data-size="line">
-2. Fill in the event details:
-   * **Title** — A short name for the event
-   * **Start date and time**
-   * **End date and time**
-   * **Description** — Additional details (supports rich text)
-3. Choose the **audience**:
-   * **All learners** — Everyone enrolled in the course
-   * **Specific users or groups** — Select individual learners or groups
-4. Optionally set a **reminder** <img src="/.gitbook/assets/icons/mdi-alarm.svg" alt="Reminder" data-size="line"> to send email notifications before the event (*cron* setup for the portal required by an admin)
-5. Save
+1. Klik op **Evenement toevoegen** <img src="/.gitbook/assets/icons/mdi-calendar-plus.svg" alt="Evenement toevoegen" data-size="line">
+2. Vul de details van het evenement in:
+   * **Titel** — Een korte naam voor het evenement
+   * **Startdatum en -tijd**
+   * **Einddatum en -tijd**
+   * **Beschrijving** — Aanvullende details (ondersteunt rich text)
+3. Kies het **publiek**:
+   * **Alle leerlingen** — Iedereen die is ingeschreven voor de cursus
+   * **Specifieke gebruikers of groepen** — Selecteer individuele leerlingen of groepen
+4. Stel optioneel een **herinnering** in <img src="/.gitbook/assets/icons/mdi-alarm.svg" alt="Herinnering" data-size="line"> om e-mailmeldingen te verzenden vóór het evenement (hiervoor is een *cron*-instelling voor het portaal vereist door een beheerder)
+5. Opslaan
 
-## Managing Events
+## Evenementen Beheren
 
-* **Edit** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Edit" data-size="line"> — Click on an event to modify its details
-* **Delete** <img src="/.gitbook/assets/icons/mdi-delete.svg" alt="Delete" data-size="line"> — Remove an event from the calendar
-* **Drag and drop** — In calendar view, drag events to reschedule them
+* **Bewerken** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Bewerken" data-size="line"> — Klik op een evenement om de details aan te passen
+* **Verwijderen** <img src="/.gitbook/assets/icons/mdi-delete.svg" alt="Verwijderen" data-size="line"> — Verwijder een evenement uit de kalender
+* **Slepen en neerzetten** — In kalenderweergave kunt u evenementen slepen om ze opnieuw in te plannen
 
-## Personal Agenda
+## Persoonlijke Agenda
 
-You also have a **personal agenda** accessible from the sidebar. The personal agenda aggregates events from all your courses into a single view. This is where learners see their combined schedule across all courses they are enrolled in.
+U heeft ook een **persoonlijke agenda** die toegankelijk is via de zijbalk. De persoonlijke agenda verzamelt evenementen uit al uw cursussen in één overzicht. Dit is waar leerlingen hun gecombineerde schema zien van alle cursussen waarin ze zijn ingeschreven.
 
 ## Tips
 
-* **Set deadlines** — Create events for assignment due dates and exercise deadlines so learners can see them in their calendar
-* **Use reminders** — Enable email reminders for important events to help learners stay on track
-* **Coordinate with sessions** — If you teach in multiple sessions, each session has its own events, visible only to that session's learners. Teachers have a feature to see the events (homeworks, excursions, etc) of other courses in their sessions to avoid overloading students.
+* **Deadlines instellen** — Maak evenementen aan voor inleverdata van opdrachten en deadlines van oefeningen, zodat leerlingen deze in hun kalender kunnen zien
+* **Herinneringen gebruiken** — Schakel e-mailherinneringen in voor belangrijke evenementen om leerlingen op koers te houden
+* **Coördineren met sessies** — Als u lesgeeft in meerdere sessies, heeft elke sessie zijn eigen evenementen, die alleen zichtbaar zijn voor de leerlingen van die sessie. Docenten hebben een functie om de evenementen (huiswerk, excursies, enz.) van andere cursussen in hun sessies te bekijken om overbelasting van studenten te voorkomen.

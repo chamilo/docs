@@ -1,51 +1,51 @@
-# Admin Interface Overview
+# Overzicht van de Beheerdersinterface
 
-The administration panel is your command center for managing the Chamilo platform. Access it by clicking **Administration** <img src="/.gitbook/assets/icons/mdi-cogs.svg" alt="Admin" data-size="line"> in the sidebar.
+Het beheerderspaneel is uw controlecentrum voor het beheren van het Chamilo-platform. U krijgt toegang door te klikken op **Beheer** <img src="/.gitbook/assets/icons/mdi-cogs.svg" alt="Beheer" data-size="line"> in de zijbalk.
 
-## Administration Dashboard
+## Beheerdersdashboard
 
-![The administration dashboard showing functional blocks for Users, Courses, Sessions, and Settings](/.gitbook/assets/admin-dashboard-overview.png)
+![Het beheerdersdashboard met functionele blokken voor Gebruikers, Cursussen, Sessies en Instellingen](/.gitbook/assets/admin-dashboard-overview.png)
 
-The admin dashboard is organized into functional blocks. Each block groups related management tools:
+Het beheerdersdashboard is georganiseerd in functionele blokken. Elk blok groepeert gerelateerde beheertools:
 
-### Users
+### Gebruikers
 
-* **User list** — View, search, edit, and manage all users on the platform
-* **Add a user** — Create individual user accounts
-* **User groups** — Manage groups of users for organizational purposes
-* **Classes** — Manage user classes for bulk session enrollment
+* **Gebruikerslijst** — Bekijk, zoek, bewerk en beheer alle gebruikers op het platform
+* **Gebruiker toevoegen** — Maak individuele gebruikersaccounts aan
+* **Gebruikersgroepen** — Beheer groepen gebruikers voor organisatorische doeleinden
+* **Klassen** — Beheer gebruikersklassen voor bulkinschrijving in sessies
 
-### Courses
+### Cursussen
 
-* **Course list** — View and manage all courses on the platform
-* **Create a course** — Create a new course
-* **Course categories** — Organize courses into categories for the catalog
+* **Cursuslijst** — Bekijk en beheer alle cursussen op het platform
+* **Cursus aanmaken** — Maak een nieuwe cursus aan
+* **Cursuscategorieën** — Organiseer cursussen in categorieën voor de catalogus
 
-### Sessions
+### Sessies
 
-* **Session list** — View and manage training sessions
-* **Create a session** — Set up a new session with courses and enrollment
-* **Session categories** — Organize sessions into categories
-* **Careers and promotions** — Manage career paths and promotion workflows
+* **Sessielijst** — Bekijk en beheer trainingssessies
+* **Sessie aanmaken** — Stel een nieuwe sessie in met cursussen en inschrijvingen
+* **Sessiecategorieën** — Organiseer sessies in categorieën
+* **Carrières en promoties** — Beheer loopbaanpaden en promotieworkflows
 
-### Platform Settings
+### Platforminstellingen
 
-* **Configuration settings** — Access the comprehensive platform settings panel with categories for portal, courses, sessions, users, security, and more
+* **Configuratie-instellingen** — Toegang tot het uitgebreide instellingenpaneel van het platform met categorieën voor portaal, cursussen, sessies, gebruikers, beveiliging en meer
 
 ### Plugins
 
-* **Manage plugins** — Install, activate, configure, and deactivate platform plugins
+* **Plugins beheren** — Installeer, activeer, configureer en deactiveer platformplugins
 
-### System
+### Systeem
 
-* **System status** — Check PHP configuration, database status, and server health
-* **Archive cleanup** — Manage temporary files and caches
+* **Systeemstatus** — Controleer de PHP-configuratie, databasestatus en servergezondheid
+* **Archiefopruiming** — Beheer tijdelijke bestanden en caches
 
 ### Branding
 
-* **Colors** — Customize the platform's visual appearance
-* **Portal customization** — Configure portal homepage, news, and branding elements
+* **Kleuren** — Pas het visuele uiterlijk van het platform aan
+* **Portaalaanpassing** — Configureer de startpagina van het portaal, nieuws en brandingelementen
 
-Each section is covered in detail in its corresponding chapter of this guide.
+Elk onderdeel wordt in detail behandeld in het bijbehorende hoofdstuk van deze handleiding.
 
-Authentication methods like OAuth2, LDAP, CAS, and other external authentication providers are not configured in the administration dashboard but in `config/authentication.yaml`.
+Authenticatiemethoden zoals OAuth2, LDAP, CAS en andere externe authenticatieproviders worden niet geconfigureerd in het beheerdersdashboard, maar in `config/authentication.yaml`.

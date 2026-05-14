@@ -1,46 +1,46 @@
-# Managing Plugins
+# Beheer van Plugins
 
-## Accessing the Plugin Manager
+## Toegang tot de Pluginbeheerder
 
-![The plugin manager showing a list of available plugins with activation toggles and configuration options](/.gitbook/assets/admin-plugin-manager.png)
+![De pluginbeheerder toont een lijst met beschikbare plugins met activeringsknoppen en configuratie-opties](/.gitbook/assets/admin-plugin-manager.png)
 
-From the administration panel, click **Manage plugins** to see the list of available plugins.
+Klik vanuit het beheerderspaneel op **Plugins beheren** om de lijst met beschikbare plugins te bekijken.
 
-## Plugin States
+## Status van Plugins
 
-Each plugin has one of two states:
+Elke plugin heeft een van de volgende twee statussen:
 
-* **Active** — The plugin is enabled and its features are available on the platform
-* **Inactive** — The plugin is installed but disabled
+* **Actief** — De plugin is ingeschakeld en de functies zijn beschikbaar op het platform
+* **Inactief** — De plugin is geïnstalleerd maar uitgeschakeld
 
-## Activating a Plugin
+## Een Plugin Activeren
 
-1. Find the plugin in the list
-2. Click **Install**, then **Enable** or toggle it on
-3. Configure the plugin settings (if applicable, find the **Configure** button)
-4. Save
-5. If recommended in the README, enable it in a specific **region**
+1. Zoek de plugin in de lijst
+2. Klik op **Installeren**, vervolgens op **Inschakelen** of schakel deze in via de toggle
+3. Configureer de plugin-instellingen (indien van toepassing, zoek de knop **Configureren**)
+4. Sla op
+5. Indien aanbevolen in de README, schakel de plugin in voor een specifieke **regio**
 
-Some plugins add tools to courses, new pages to the platform, or additional functionality to existing features.
+Sommige plugins voegen tools toe aan cursussen, nieuwe pagina's aan het platform, of extra functionaliteit aan bestaande functies.
 
-## Configuring a Plugin
+## Een Plugin Configureren
 
-Many plugins have configuration options. After activating a plugin:
+Veel plugins hebben configuratie-opties. Na het activeren van een plugin:
 
-1. Click the **Configure** button next to the plugin
-2. Fill in the required configuration (API keys, URLs, options, etc.)
-3. Save
+1. Klik op de knop **Configureren** naast de plugin
+2. Vul de vereiste configuratie in (API-sleutels, URL's, opties, enz.)
+3. Sla op
 
-## Deactivating a Plugin
+## Een Plugin Deactiveren
 
-1. Find the plugin in the list
-2. Click **Disable** or toggle it off
-3. The plugin's features are immediately removed from the platform, but the plugin is still installed and maintains its configuration until you **Uninstall** it
+1. Zoek de plugin in de lijst
+2. Klik op **Uitschakelen** of schakel deze uit via de toggle
+3. De functies van de plugin worden onmiddellijk van het platform verwijderd, maar de plugin blijft geïnstalleerd en behoudt zijn configuratie totdat je deze **Verwijdert**
 
-Disabling a plugin does not delete its data. If you enable it later, the data is still available.
+Het uitschakelen van een plugin verwijdert de gegevens niet. Als je de plugin later weer inschakelt, zijn de gegevens nog steeds beschikbaar.
 
 ## Tips
 
-* **Only activate what you need** — Each active plugin adds some overhead. Keep unused plugins deactivated.
-* **Test before production** — Activate new plugins in a test environment first
-* **Check compatibility** — After upgrading Chamilo, verify that all active plugins still work correctly
+* **Activeer alleen wat je nodig hebt** — Elke actieve plugin voegt enige overhead toe. Houd ongebruikte plugins gedeactiveerd.
+* **Test vóór productie** — Activeer nieuwe plugins eerst in een testomgeving
+* **Controleer compatibiliteit** — Na het upgraden van Chamilo, controleer of alle actieve plugins nog steeds correct werken

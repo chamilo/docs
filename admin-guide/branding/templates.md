@@ -1,42 +1,42 @@
-# Templates
+# Sjablonen
 
-Chamilo uses templates for certificates, documents, and emails. You can customize these templates to match your organization's branding and requirements.
+Chamilo gebruikt sjablonen voor certificaten, documenten en e-mails. U kunt deze sjablonen aanpassen aan de huisstijl en vereisten van uw organisatie.
 
-## Certificate Templates
+## Certificaatsjablonen
 
-Certificate templates define the layout and content of certificates awarded to learners who meet gradebook thresholds.
+Certificaatsjablonen bepalen de lay-out en inhoud van certificaten die worden toegekend aan leerlingen die voldoen aan de drempels in het cijferboek.
 
-### Customizing a Certificate Template
+### Een Certificaatsjabloon Aanpassen
 
-Certificate templates use HTML and CSS with placeholder variables:
+Certificaatsjablonen maken gebruik van HTML en CSS met placeholder-variabelen:
 
-| Variable | Replaced with |
-|----------|-------------|
-| Student name | The learner's full name |
-| Course name | The name of the course |
-| Date | The date the certificate was earned |
-| Score | The learner's final score |
-| Barcode | A barcode placeholder (`((certificate_barcode))`) used for verification |
+| Variabele | Vervangen door |
+|-----------|----------------|
+| Naam student | De volledige naam van de leerling |
+| Cursusnaam | De naam van de cursus |
+| Datum | De datum waarop het certificaat is behaald |
+| Score | De eindscore van de leerling |
+| Barcode | Een placeholder voor een barcode (`((certificate_barcode))`) gebruikt voor verificatie |
 
-### Uploading a Template
+### Een Sjabloon Uploaden
 
-1. Navigate to certificate template management
-2. Upload or edit the HTML template
-3. Use the placeholder variables where dynamic content should appear
-4. Save
+1. Navigeer naar het beheer van certificaatsjablonen
+2. Upload of bewerk het HTML-sjabloon
+3. Gebruik de placeholder-variabelen waar dynamische inhoud moet verschijnen
+4. Opslaan
 
-## Document Templates
+## Documentsjablonen
 
-Teachers can use document templates when creating content in the Documents tool. Templates provide a starting layout for common document types.
+Docenten kunnen documentsjablonen gebruiken bij het maken van inhoud in de Documenten-tool. Sjablonen bieden een startlay-out voor veelvoorkomende documenttypen.
 
-### Managing Document Templates
+### Documentsjablonen Beheren
 
-1. Navigate to template management in the administration panel
-2. Add new templates by uploading HTML files
-3. Templates become available to teachers when they create new documents
+1. Navigeer naar sjabloonbeheer in het administratiepaneel
+2. Voeg nieuwe sjablonen toe door HTML-bestanden te uploaden
+3. Sjablonen worden beschikbaar voor docenten wanneer zij nieuwe documenten maken
 
 ## Tips
 
-* **Include your logo** — Add your organization's logo to certificate templates for a professional look
-* **Test with real data** — Preview certificates with actual learner data before deploying the template
-* **Keep templates simple** — Simple designs print better and look professional
+* **Voeg uw logo toe** — Voeg het logo van uw organisatie toe aan certificaatsjablonen voor een professionele uitstraling
+* **Test met echte gegevens** — Bekijk een voorbeeld van certificaten met echte leerlinggegevens voordat u het sjabloon implementeert
+* **Houd sjablonen eenvoudig** — Eenvoudige ontwerpen printen beter en zien er professioneel uit

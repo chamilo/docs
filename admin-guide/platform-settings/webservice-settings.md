@@ -1,66 +1,61 @@
-# Web Services Settings
+# Instellingen voor Webservices
 
-Configuration of the legacy SOAP / REST web services (separate from the modern API Platform endpoints).
+Configuratie van de verouderde SOAP / REST webservices (los van de moderne API Platform endpoints).
 
-Access these settings under **Administration > Configuration settings > Web Services**. This category contains **7 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+Toegang tot deze instellingen vindt u onder **Beheer > Configuratie-instellingen > Webservices**. Deze categorie bevat **7 instellingen**, hieronder opgesomd met de titel en opmerking zoals meegeleverd in de instellingenfixtures van het platform (`SettingsCurrentFixtures.php`).
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> De variabelenaam in de code wordt weergegeven in monospace. Gebruik deze bij het scripten via de API of wanneer u deze instellingen op globaal niveau wilt wijzigen door [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml) te bewerken.
 
-## Settings
+## Instellingen
 
 ### `allow_download_documents_by_api_key`
 
-**Allow download course documents by API Key**
+**Toestaan om cursusdocumenten te downloaden met API-sleutel**
 
-Download documents verifying the REST API key for a user
+Documenten downloaden door de REST API-sleutel voor een gebruiker te verifiëren
 
-*Default: `false`*
-
+*Standaard: `false`*
 
 ### `disable_webservices`
 
-**Disable web services**
+**Webservices uitschakelen**
 
-If you do not use web services, enable this to avoid any unnecessary security risk.
+Als u geen gebruik maakt van webservices, schakel dit in om onnodige beveiligingsrisico's te vermijden.
 
-*Default: `false`*
-
+*Standaard: `false`*
 
 ### `messaging_allow_send_push_notification`
 
-**Allow Push Notifications to the Chamilo Messaging mobile app**
+**Pushmeldingen toestaan voor de Chamilo Messaging mobiele app**
 
-Send Push Notifications by Google's Firebase Console
+Pushmeldingen verzenden via Google's Firebase Console
 
-*Default: `false`*
-
+*Standaard: `false`*
 
 ### `messaging_gdc_api_key`
 
-**Server key of Firebase Console for Cloud Messaging**
+**Server sleutel van Firebase Console voor Cloud Messaging**
 
-Server key (legacy token) from project credentials
+Server sleutel (verouderd token) van projectreferenties
 
 ### `messaging_gdc_project_number`
 
-**Sender ID of Firebase Console for Cloud Messaging**
+**Verzender-ID van Firebase Console voor Cloud Messaging**
 
-You need register a project on <a href='https://console.firebase.google.com/'>Google Firebase Console</a>
+U moet een project registreren op <a href='https://console.firebase.google.com/'>Google Firebase Console</a>
 
 ### `webservice_enable_adminonly_api`
 
-**Enable admin-only web services**
+**Alleen-beheerder webservices inschakelen**
 
-Some REST web services are marked for admins only and are disabled by default. Enable this feature to give access to these web services (to users with admin credentials, obviously).
+Sommige REST webservices zijn gemarkeerd als alleen voor beheerders en zijn standaard uitgeschakeld. Schakel deze functie in om toegang te geven tot deze webservices (uiteraard alleen voor gebruikers met beheerdersreferenties).
 
-*Default: `false`*
+*Standaard: `false`*
 
 ### `webservice_return_user_field`
 
-**Webservices return user field**
+**Webservices retourneren gebruikersveld**
 
-Ask REST webservices (v2.php) to return another identifier for fields related to user ID. This is useful if the external system doesn't really deal with user IDs as they are in Chamilo, as it helps the external system match the user data return with some external data that is know to Chamilo. For example, if you use an external authentication system, you can return the extra field used to match the user with the external authentication system rather than user.id.
+Vraag REST webservices (v2.php) om een andere identificator te retourneren voor velden die gerelateerd zijn aan gebruikers-ID. Dit is nuttig als het externe systeem niet echt omgaat met gebruikers-ID's zoals ze in Chamilo zijn, omdat het het externe systeem helpt om de geretourneerde gebruikersgegevens te koppelen aan externe gegevens die bekend zijn bij Chamilo. Bijvoorbeeld, als u een extern authenticatiesysteem gebruikt, kunt u het extra veld retourneren dat wordt gebruikt om de gebruiker te koppelen aan het externe authenticatiesysteem in plaats van user.id.
 
-*Default: `oauth2_id`*
-
-
+*Standaard: `oauth2_id`*

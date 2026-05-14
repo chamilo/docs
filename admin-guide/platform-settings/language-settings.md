@@ -1,117 +1,105 @@
-# Languages Settings
+# Taalinstellingen
 
-Available languages, default language, and how Chamilo resolves which language to display.
+Beschikbare talen, standaardtaal en hoe Chamilo bepaalt welke taal wordt weergegeven.
 
-Access these settings under **Administration > Configuration settings > Languages**. This category contains **12 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+Ga naar deze instellingen via **Beheer > Configuratie-instellingen > Talen**. Deze categorie bevat **12 instellingen**, hieronder opgesomd met de titel en opmerking zoals meegeleverd in de platforminstellingen (`SettingsCurrentFixtures.php`).
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> De variabelenaam in de code wordt in monospace weergegeven. Gebruik deze bij het scripten via de API of wanneer u deze instellingen op globaal niveau wilt wijzigen door [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml) te bewerken.
 
-## Settings
+## Instellingen
 
 ### `allow_course_multiple_languages`
 
-**Multiple-language courses**
+**Meertalige cursussen**
 
-Enable courses managed in more than one language. This option adds a language selector within the course page to let users switch easily, and adds a 'multiple_language' extra field to courses which allows for remote management procedures.
+Schakel cursussen in die in meer dan één taal worden beheerd. Deze optie voegt een taalkiezer toe aan de cursuspagina zodat gebruikers eenvoudig kunnen wisselen, en voegt een extra veld 'multiple_language' toe aan cursussen, wat externe beheerprocedures mogelijk maakt.
 
-*Default: `false`*
-
+*Standaard: `false`*
 
 ### `allow_use_sub_language`
 
-**Allow definition and use of sub-languages**
+**Definitie en gebruik van subtalen toestaan**
 
-By enabling this option, you will be able to define variations for each of the language terms used in the platform's interface, in the form of a new language based on and extending an existing language. You'll find this option in the languages section of the administration panel.
+Door deze optie in te schakelen, kunt u variaties definiëren voor elk van de taalterminologieën die in de interface van het platform worden gebruikt, in de vorm van een nieuwe taal gebaseerd op en als uitbreiding van een bestaande taal. U vindt deze optie in de talensectie van het beheerpaneel.
 
-*Default: `false`*
+*Standaard: `false`*
 
 ### `auto_detect_language_custom_pages`
 
-**Enable language auto-detect in custom pages**
+**Taalautodetectie inschakelen op aangepaste pagina's**
 
-If you use custom pages, enable this if you want to have a language detector there present the page in the user's browser language, or disable to force the language to be the default platform language.
+Als u aangepaste pagina's gebruikt, schakel dit in als u wilt dat een taaldetector de pagina weergeeft in de browsertaal van de gebruiker, of schakel het uit om de standaard platformtaal af te dwingen.
 
-*Default: `true`*
-
+*Standaard: `true`*
 
 ### `language_flags_by_country`
 
-**Language flags**
+**Taalvlaggen**
 
-Use country flags for languages. This is not enabled by default because some languages are not strictly attached to a country, which can lead to frustration for some users.
+Gebruik landvlaggen voor talen. Dit is standaard niet ingeschakeld omdat sommige talen niet strikt aan een land zijn gekoppeld, wat bij sommige gebruikers frustratie kan veroorzaken.
 
-*Default: `false`*
-
+*Standaard: `false`*
 
 ### `language_priority_1`
 
-**Highest priority language**
+**Hoogste prioriteitstaal**
 
-Primary language selected when multiple language contexts are set.
+Primaire taal die wordt geselecteerd wanneer meerdere taalcontexten zijn ingesteld.
 
-*Default: `course_lang`*
-
+*Standaard: `course_lang`*
 
 ### `language_priority_2`
 
-**Secondary priority language**
+**Secundaire prioriteitstaal**
 
-Secondary fallback language if first priority is unavailable or out of context.
+Secundaire reservetaal als de eerste prioriteit niet beschikbaar is of buiten de context valt.
 
-*Default: `user_profil_lang`*
-
+*Standaard: `user_profil_lang`*
 
 ### `language_priority_3`
 
-**Third priority language**
+**Derde prioriteitstaal**
 
-Tertiary language fallback if higher priorities fail.
+Tertiaire reservetaal als hogere prioriteiten niet beschikbaar zijn.
 
-*Default: `user_selected_lang`*
-
+*Standaard: `user_selected_lang`*
 
 ### `language_priority_4`
 
-**Fourth priority language**
+**Vierde prioriteitstaal**
 
-Last language fallback option by order of priority.
+Laatste reservetaaloptie in volgorde van prioriteit.
 
-*Default: `platform_lang`*
-
+*Standaard: `platform_lang`*
 
 ### `platform_language`
 
-**Default platform language**
+**Standaard platformtaal**
 
-Main language, used by default when no user language is set.
+Hoofdtaal, standaard gebruikt wanneer geen gebruikerstaal is ingesteld.
 
-*Default: `en`*
-
+*Standaard: `en`*
 
 ### `show_different_course_language`
 
-**Show course languages**
+**Cursustalen weergeven**
 
-Show the language each course is in, next to the course title, on the homepage courses list
+Toon de taal waarin elke cursus is, naast de cursustitel, op de cursuslijst op de startpagina.
 
-*Default: `true`*
-
+*Standaard: `true`*
 
 ### `show_language_selector_in_menu`
 
-**Language switcher in main menu**
+**Taalkiezer in hoofdmenu**
 
-Display a language selector in the main menu that immediately updates the language preference of the user. This can be useful in multilingual portals where learners have to switch from one language to another for their learning.
+Toon een taalkiezer in het hoofdmenu die direct de taalvoorkeur van de gebruiker bijwerkt. Dit kan nuttig zijn in meertalige portals waar leerlingen van de ene naar de andere taal moeten overschakelen voor hun leerproces.
 
-*Default: `true`*
-
+*Standaard: `true`*
 
 ### `template_activate_language_filter`
 
-**Multiple-language document templates**
+**Meertalige documentsjablonen**
 
-Enable document templates (at the platform or course level) to be configured for specific languages.
+Schakel documentsjablonen (op platform- of cursusniveau) in om voor specifieke talen te worden geconfigureerd.
 
-*Default: `false`*
-
-
+*Standaard: `false`*

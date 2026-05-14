@@ -1,40 +1,40 @@
-# System Status
+# Systeemstatus
 
-The system status page helps you verify that your Chamilo server is correctly configured and identify potential issues.
+De systeemstatuspagina helpt u te controleren of uw Chamilo-server correct is geconfigureerd en mogelijke problemen te identificeren.
 
-## Accessing System Status
+## Toegang tot Systeemstatus
 
-From the administration panel, click **System status** (or **System information**).
+Klik in het beheerpaneel op **Systeemstatus** (of **Systeeminformatie**).
 
-## What It Shows
+## Wat Wordt Weergegeven
 
-![The system status page showing PHP configuration, database status, file permissions, and server information](/.gitbook/assets/admin-system-status.png)
+![De systeemstatuspagina met PHP-configuratie, databasestatus, bestandsrechten en serverinformatie](/.gitbook/assets/admin-system-status.png)
 
-### PHP Configuration
+### PHP-Configuratie
 
-* **PHP version** — Chamilo 2.0 requires PHP 8.2 or higher
-* **Required extensions** — Checks that all necessary PHP extensions are installed
-* **PHP settings** — Verifies important PHP settings like memory limit, upload limits, and execution time
+* **PHP-versie** — Chamilo 2.0 vereist PHP 8.2 of hoger
+* **Vereiste extensies** — Controleert of alle benodigde PHP-extensies zijn geïnstalleerd
+* **PHP-instellingen** — Verifieert belangrijke PHP-instellingen zoals geheugenlimiet, uploadlimieten en uitvoeringstijd
 
-### Database Status
+### Databasestatus
 
-* **Database connection** — Confirms the database is accessible
-* **Database version** — Shows the database server version
+* **Databaseverbinding** — Bevestigt dat de database toegankelijk is
+* **Databaseversie** — Toont de versie van de databaseserver
 
-### File Permissions
+### Bestandsrechten
 
-* **Writable directories** — Checks that Chamilo can write to required directories (cache, uploads, logs)
+* **Schrijfbare mappen** — Controleert of Chamilo kan schrijven naar vereiste mappen (cache, uploads, logs)
 
-### Server Information
+### Serverinformatie
 
-* **Operating system** — Server OS details
-* **Web server** — Apache, Nginx, or other
-* **Disk space** — Available storage
+* **Besturingssysteem** — Details van het serverbesturingssysteem
+* **Webserver** — Apache, Nginx of andere
+* **Schijfruimte** — Beschikbare opslagruimte
 
-## Recommended Checks
+## Aanbevolen Controles
 
-Perform these checks regularly:
+Voer deze controles regelmatig uit:
 
-* **After installation** — Verify all requirements are met
-* **After upgrades** — Ensure PHP version and extensions are still compatible
-* **When issues arise** — Check system status first when troubleshooting problems
+* **Na installatie** — Controleer of aan alle vereisten is voldaan
+* **Na upgrades** — Zorg ervoor dat de PHP-versie en extensies nog steeds compatibel zijn
+* **Bij problemen** — Controleer eerst de systeemstatus bij het oplossen van problemen

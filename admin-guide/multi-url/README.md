@@ -1,5 +1,5 @@
 # Multi-URL
 
-Chamilo's multi-URL feature (also called multi-tenant) allows you to run multiple virtual portals from a single Chamilo installation. Each portal has its own URL, branding, users, courses, and settings, but they all share the same database and codebase.
+De multi-URL-functie van Chamilo (ook wel multi-tenant genoemd) stelt u in staat om meerdere virtuele portalen te draaien vanuit één Chamilo-installatie. Elke portal heeft zijn eigen URL, branding, gebruikers, cursussen en instellingen, maar ze delen allemaal dezelfde database en codebase.
 
-* **[Access URLs](access-urls.md)** — Configure and manage multiple access URLs
+* **[Toegangs-URL's](access-urls.md)** — Configureer en beheer meerdere toegangs-URL's

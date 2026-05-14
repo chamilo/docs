@@ -1,50 +1,49 @@
-# Privacy Settings
+# Privacy-instellingen
 
-Privacy and data-protection (GDPR-style) controls — consent, data export, account deletion requests, and similar.
+Privacy- en gegevensbeschermingscontroles (in de stijl van GDPR) — toestemming, gegevens-export, verzoeken tot accountverwijdering en vergelijkbare zaken.
 
-Access these settings under **Administration > Configuration settings > Privacy**. This category contains **6 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+Ga naar deze instellingen via **Beheer > Configuratie-instellingen > Privacy**. Deze categorie bevat **6 instellingen**, hieronder opgesomd met de titel en opmerking zoals meegeleverd in de instellingenfixtures van het platform (`SettingsCurrentFixtures.php`).
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> De variabelenaam in de code wordt weergegeven in monospace. Gebruik deze bij het scripten via de API of wanneer u deze instellingen op globaal niveau wilt wijzigen door [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml) te bewerken.
 
-## Settings
+## Instellingen
 
 ### `data_protection_officer_email`
 
-**Data protection officer e-mail address**
+**E-mailadres van de functionaris voor gegevensbescherming**
 
-Email address for the designated data protection officer, displayed in GDPR/privacy sections.
+E-mailadres van de aangewezen functionaris voor gegevensbescherming, weergegeven in GDPR/privacy-secties.
 
 ### `data_protection_officer_name`
 
-**Data protection officer name**
+**Naam van de functionaris voor gegevensbescherming**
 
-Full name of the designated data protection officer, displayed in personal data and privacy pages.
+Volledige naam van de aangewezen functionaris voor gegevensbescherming, weergegeven op pagina's over persoonlijke gegevens en privacy.
 
 ### `data_protection_officer_role`
 
-**Data protection officer role**
+**Rol van de functionaris voor gegevensbescherming**
 
-Job title or role of the designated data protection officer, displayed alongside their name in privacy information.
+Functietitel of rol van de aangewezen functionaris voor gegevensbescherming, weergegeven naast hun naam in privacy-informatie.
 
 ### `disable_change_user_visibility_for_public_courses`
 
-**Disable making tool users visible in public courses**
+**Voorkomen dat gebruikers van tools zichtbaar worden gemaakt in openbare cursussen**
 
-Avoid anyone making the 'users' tool visible in a public course.
+Voorkom dat iemand de 'gebruikers'-tool zichtbaar maakt in een openbare cursus.
 
-*Default: `true`*
+*Standaard: `true`*
 
 ### `disable_gdpr`
 
-**Disable GDPR features**
+**GDPR-functies uitschakelen**
 
-If you already manage your personal data protection declaration to users elsewhere, you can safely disable this feature.
+Als u elders al een verklaring over de bescherming van persoonlijke gegevens aan gebruikers beheert, kunt u deze functie veilig uitschakelen.
 
-*Default: `true`*
+*Standaard: `true`*
 
 ### `hide_user_field_from_list`
 
-**Hide fields from users list in course**
+**Velden verbergen in gebruikerslijst van cursus**
 
-By default, we show all data from users in the users tool in the course. This array allows you to specify which fields you do not want to display. Only affects main fields (not extra fields).
-
+Standaard tonen we alle gegevens van gebruikers in de gebruikers-tool binnen de cursus. Met deze array kunt u specificeren welke velden u niet wilt weergeven. Dit heeft alleen invloed op hoofdvelden (niet op extra velden).

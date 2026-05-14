@@ -1,38 +1,38 @@
-# Announcements
+# Aankondigingen
 
-The announcements tool lets you send messages to all learners enrolled in your course, or to specific individuals or groups.
+Met de tool voor aankondigingen kunt u berichten sturen naar alle cursisten die zijn ingeschreven voor uw cursus, of naar specifieke individuen of groepen.
 
-Messages sent through announcements are sent to the learners both by e-mail *and* to their Chamilo inbox.
+Berichten die via aankondigingen worden verzonden, worden zowel per e-mail als naar de Chamilo-inbox van de cursisten gestuurd.
 
-## Creating an Announcement
+## Een aankondiging maken
 
-1. Open the **Announcements** <img src="/.gitbook/assets/icons/mdi-bullhorn.svg" alt="Announcements" data-size="line"> tool from the course homepage
-2. Click the **Add an announcement** icon <img src="/.gitbook/assets/icons/mdi-bullhorn.svg" alt="Announcements" data-size="line"> again
-3. Fill in:
-   * **Recipients** — Choose who receives the announcement:
-     * All enrolled learners
-     * Specific learners
-     * Specific groups
-   * **Subject** — A subject line for the announcement
-   * **Description** — The message body (supports rich text with formatting, links, and images)
-   * **Attachment** — An optional attachment sent along with the e-mail
-   * **Sending options** — Announcements will be sent by e-mail by default, but you can also choose (if you have the permissions) to send it through all sessions that include this course, to send a copy to yourself or to attach this announcement to a calendar event for the course.
-4. Save
+1. Open de tool **Aankondigingen** <img src="/.gitbook/assets/icons/mdi-bullhorn.svg" alt="Aankondigingen" data-size="line"> vanaf de cursusstartpagina
+2. Klik opnieuw op het pictogram **Een aankondiging toevoegen** <img src="/.gitbook/assets/icons/mdi-bullhorn.svg" alt="Aankondigingen" data-size="line">
+3. Vul in:
+   * **Ontvangers** — Kies wie de aankondiging ontvangt:
+     * Alle ingeschreven cursisten
+     * Specifieke cursisten
+     * Specifieke groepen
+   * **Onderwerp** — Een onderwerpregel voor de aankondiging
+   * **Beschrijving** — De inhoud van het bericht (ondersteunt opgemaakte tekst met opmaak, links en afbeeldingen)
+   * **Bijlage** — Een optionele bijlage die met de e-mail wordt meegezonden
+   * **Verzendopties** — Aankondigingen worden standaard per e-mail verzonden, maar u kunt ook kiezen (mits u de benodigde rechten heeft) om deze te verzenden naar alle sessies die deze cursus omvatten, om een kopie naar uzelf te sturen of om deze aankondiging te koppelen aan een agenda-evenement voor de cursus.
+4. Opslaan
 
-The **Tags** button lets you identify a series of markers that will be dynamically replaced in the announcement **Content**. These are relatively intuitive, so we'll let you guess what they do.
+Met de knop **Tags** kunt u een reeks markeringen identificeren die dynamisch worden vervangen in de **Inhoud** van de aankondiging. Deze zijn vrij intuïtief, dus we laten u raden wat ze doen.
 
-The **Preview** button is not very intuitive: it allows you to see whom this announcement will be sent to. This acts as a confirmation of the selection of recipients you made above.
+De knop **Voorbeeld** is niet erg intuïtief: hiermee kunt u zien naar wie deze aankondiging wordt verzonden. Dit dient als een bevestiging van de selectie van ontvangers die u hierboven heeft gemaakt.
 
-## Managing Announcements
+## Aankondigingen beheren
 
-* **Edit** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Edit" data-size="line"> — Modify an existing announcement
-* **Delete** <img src="/.gitbook/assets/icons/mdi-delete.svg" alt="Delete" data-size="line"> — Remove an announcement
-* **Visibility** <img src="/.gitbook/assets/icons/mdi-eye.svg" alt="Visibility" data-size="line"> — Hide or show announcements
+* **Bewerken** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Bewerken" data-size="line"> — Een bestaande aankondiging wijzigen
+* **Verwijderen** <img src="/.gitbook/assets/icons/mdi-delete.svg" alt="Verwijderen" data-size="line"> — Een aankondiging verwijderen
+* **Zichtbaarheid** <img src="/.gitbook/assets/icons/mdi-eye.svg" alt="Zichtbaarheid" data-size="line"> — Aankondigingen verbergen of tonen
 
-Announcements are displayed in reverse chronological order (newest first).
+Aankondigingen worden in omgekeerde chronologische volgorde weergegeven (nieuwste eerst).
 
 ## Tips
 
-* **Welcome message** — Create an announcement at the start of the course to welcome learners and provide orientation
-* **Use email delivery** — For time-sensitive announcements, enable the email option so learners receive the message even if they are not currently logged into the platform
-* **Targeted announcements** — Send specific announcements to groups or individuals when the message is not relevant to the entire class
+* **Welkomstbericht** — Maak aan het begin van de cursus een aankondiging om cursisten te verwelkomen en hen te oriënteren
+* **Gebruik e-mailbezorging** — Voor tijdgevoelige aankondigingen kunt u de e-mailoptie inschakelen, zodat cursisten het bericht ontvangen, zelfs als ze momenteel niet zijn ingelogd op het platform
+* **Gerichte aankondigingen** — Stuur specifieke aankondigingen naar groepen of individuen wanneer het bericht niet relevant is voor de hele klas

@@ -1,46 +1,46 @@
-# Careers and Promotions
+# Carrières en Promoties
 
-Chamilo includes a career management system that lets you define training paths and track learner progression through structured programs.
+Chamilo bevat een systeem voor carrièrebeheer waarmee u opleidingswegen kunt definiëren en de voortgang van leerlingen door gestructureerde programma's kunt volgen.
 
-## Careers
+## Carrières
 
-![The careers list showing defined career paths with name and description](/.gitbook/assets/admin-careers-list.png)
+![De lijst met carrières die gedefinieerde carrièrepaden toont met naam en beschrijving](/.gitbook/assets/admin-careers-list.png)
 
-A **career** represents a structured training path — a sequence of training steps that a learner follows to achieve a professional goal.
+Een **carrière** vertegenwoordigt een gestructureerd opleidings pad — een reeks opleidingsstappen die een leerling volgt om een professioneel doel te bereiken.
 
-### Creating a Career
+### Een Carrière Aanmaken
 
-1. From the administration panel, navigate to **Careers**
-2. Click **Create a career**
-3. Enter a **name** and **description**
-4. Save
+1. Navigeer vanuit het beheerpaneel naar **Carrières**
+2. Klik op **Een carrière aanmaken**
+3. Voer een **naam** en **beschrijving** in
+4. Sla op
 
-## Promotions
+## Promoties
 
-A **promotion** represents a cohort or batch of learners progressing through a career. Think of it as a group of people going through the same career path at the same time.
+Een **promotie** vertegenwoordigt een cohort of groep leerlingen die tegelijkertijd door een carrièrepad heen gaat. Zie het als een groep mensen die op hetzelfde moment hetzelfde carrièrepad volgt.
 
-### Linking to Sessions
+### Koppelen aan Sessies
 
-After creating a promotion, you link sessions to it. This defines the sequence of training a learner must complete.
+Na het aanmaken van een promotie koppelt u sessies eraan. Dit definieert de reeks trainingen die een leerling moet voltooien.
 
-You can later replicate promotions to help creating the next promotion with copies of the same sessions, so your next promotion can be built in an instant.
+U kunt later promoties repliceren om de volgende promotie te helpen creëren met kopieën van dezelfde sessies, zodat uw volgende promotie in een oogwenk kan worden opgebouwd.
 
-### Creating a Promotion
+### Een Promotie Aanmaken
 
-1. Navigate to **Promotions**
-2. Click **Create a promotion**
-3. Enter a **name** and **description**
-4. Link it to a **career**
-5. Assign **sessions** to the promotion
-6. Save
+1. Navigeer naar **Promoties**
+2. Klik op **Een promotie aanmaken**
+3. Voer een **naam** en **beschrijving** in
+4. Koppel het aan een **carrière**
+5. Wijs **sessies** toe aan de promotie
+6. Sla op
 
-## How It Fits Together
+## Hoe Het Samenkomt
 
-* A **career** defines the path (e.g., "Junior Developer Certification")
-* A **promotion** represents a cohort (e.g., "Class of March 2026")
-* **Sessions** within the promotion deliver the actual training content
+* Een **carrière** definieert het pad (bijv. "Junior Developer Certificering")
+* Een **promotie** vertegenwoordigt een cohort (bijv. "Klas van maart 2026")
+* **Sessies** binnen de promotie leveren de daadwerkelijke trainingsinhoud
 
 ## Tips
 
-* **Use for structured programs** — Careers and promotions are most useful for multi-stage training programs where learners progress through a defined sequence
-* **Track completion** — Use the reporting tools to monitor how promotions are progressing through their career paths
+* **Gebruik voor gestructureerde programma's** — Carrières en promoties zijn het meest nuttig voor meerfasige trainingsprogramma's waarbij leerlingen door een gedefinieerde reeks stappen vooruitgang boeken
+* **Volg de voltooiing** — Gebruik de rapportagetools om te monitoren hoe promoties vooruitgang boeken door hun carrièrepaden

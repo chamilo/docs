@@ -1,32 +1,31 @@
-# Glossary Settings
+# Woordenlijstinstellingen
 
-Behaviour of the course **Glossary** tool.
+Gedrag van de cursus **Woordenlijst**-tool.
 
-Access these settings under **Administration > Configuration settings > Glossary**. This category contains **3 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+Ga naar deze instellingen via **Beheer > Configuratie-instellingen > Woordenlijst**. Deze categorie bevat **3 instellingen**, hieronder vermeld met de titel en opmerking zoals meegeleverd in de instellingenfixtures van het platform (`SettingsCurrentFixtures.php`).
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> De variabelenaam in de code wordt weergegeven in monospace. Gebruik deze bij het scripten via de API of wanneer u deze instellingen op globaal niveau wilt wijzigen door [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml) te bewerken.
 
-## Settings
+## Instellingen
 
 ### `allow_remove_tags_in_glossary_export`
 
-**Remove HTML tags in glossary export**
+**HTML-tags verwijderen bij woordenlijstexport**
 
-When enabled, HTML tags are removed from glossary term definitions when exporting.
+Wanneer ingeschakeld, worden HTML-tags verwijderd uit de definities van woordenlijsttermen bij het exporteren.
 
-*Default: `false`*
+*Standaard: `false`*
 
 ### `default_glossary_view`
 
-**Default glossary view**
+**Standaardweergave woordenlijst**
 
-Choose which view ('table' or 'list') will be used by default in the glossary tool.
+Kies welke weergave ('tabel' of 'lijst') standaard wordt gebruikt in de woordenlijsttool.
 
-*Default: `table`*
+*Standaard: `table`*
 
 ### `show_glossary_in_extra_tools`
 
-**Show the glossary terms in extra tools**
+**Woordenlijsttermen weergeven in extra tools**
 
-From here you can configure how to add the glossary terms in extra tools as learning path and exercice tool
-
+Vanuit hier kunt u configureren hoe woordenlijsttermen worden toegevoegd aan extra tools zoals leerpad en oefeningentool.

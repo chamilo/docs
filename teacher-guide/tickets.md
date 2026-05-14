@@ -1,78 +1,78 @@
-# Support Tickets
+# Ondersteuningstickets
 
-The **Tickets** tool is a built-in helpdesk system that lets users submit support requests and track their resolution. Depending on how your platform is configured, you may use it as a **requester** (submitting tickets on behalf of yourself or your learners) or as a **support agent** (responding to tickets assigned to your category).
+De tool **Tickets** is een ingebouwd helpdesksysteem waarmee gebruikers ondersteuningsverzoeken kunnen indienen en de afhandeling ervan kunnen volgen. Afhankelijk van hoe uw platform is geconfigureerd, kunt u het gebruiken als **aanvrager** (tickets indienen namens uzelf of uw leerlingen) of als **ondersteuningsmedewerker** (reageren op tickets die aan uw categorie zijn toegewezen).
 
-## How the System Is Organized
+## Hoe het systeem is georganiseerd
 
-Tickets belong to **projects**, which are further divided into **categories**. Each category can have one or more support agents assigned to it. When a ticket is submitted, it is automatically routed to an available agent in the selected category.
+Tickets behoren tot **projecten**, die verder zijn onderverdeeld in **categorieën**. Elke categorie kan een of meer ondersteuningsmedewerkers hebben die eraan zijn toegewezen. Wanneer een ticket wordt ingediend, wordt het automatisch doorgestuurd naar een beschikbare medewerker in de geselecteerde categorie.
 
-Default categories include:
+Standaardcategorieën omvatten:
 
-| Category | Description |
-|----------|-------------|
-| Enrollment | Questions and issues about course or session enrollment |
-| General information | General platform questions |
-| Requests and paperwork | Administrative requests and documentation |
-| Academic Incidents | Issues related to exams, assignments, or tasks |
-| Virtual campus | Technical issues with the platform |
-| Online evaluation | Issues with a specific course assessment (requires selecting a course) |
+| Categorie | Beschrijving |
+|-----------|--------------|
+| Inschrijving | Vragen en problemen over cursus- of sessie-inschrijving |
+| Algemene informatie | Algemene vragen over het platform |
+| Verzoeken en papierwerk | Administratieve verzoeken en documentatie |
+| Academische incidenten | Problemen met betrekking tot examens, opdrachten of taken |
+| Virtuele campus | Technische problemen met het platform |
+| Online evaluatie | Problemen met een specifieke cursusbeoordeling (vereist selectie van een cursus) |
 
-## Accessing the Ticket Tool
+## Toegang tot de Ticket-tool
 
-If your administrator has enabled the ticket link, a ticket icon <img src="/.gitbook/assets/icons/mdi-ticket-account.svg" alt="Ticket" data-size="line"> appears in the top navigation bar. Click it to go directly to the ticket submission form.
+Als uw beheerder de ticketlink heeft ingeschakeld, verschijnt er een ticketpictogram <img src="/.gitbook/assets/icons/mdi-ticket-account.svg" alt="Ticket" data-size="line"> in de bovenste navigatiebalk. Klik erop om direct naar het ticketindieningsformulier te gaan.
 
-You can also access your tickets from the main menu under **Support** or **Tickets**, depending on your platform configuration.
+U kunt ook toegang krijgen tot uw tickets via het hoofdmenu onder **Ondersteuning** of **Tickets**, afhankelijk van uw platformconfiguratie.
 
-## Submitting a Ticket
+## Een ticket indienen
 
-To open a new support request:
+Om een nieuw ondersteuningsverzoek te openen:
 
-1. Click **New ticket** (or the ticket icon in the top bar).
-2. Select the **category** that best matches your issue.
-3. If the category requires it (for example, Online evaluation), select the relevant **course**.
-4. Enter a **subject** — a short summary of the issue.
-5. Write your **message** describing the problem in detail.
-6. Optionally attach files (screenshots, documents) to help the support agent understand the issue.
-7. Click **Submit**.
+1. Klik op **Nieuw ticket** (of het ticketpictogram in de bovenste balk).
+2. Selecteer de **categorie** die het beste bij uw probleem past.
+3. Als de categorie dit vereist (bijvoorbeeld Online evaluatie), selecteer dan de relevante **cursus**.
+4. Voer een **onderwerp** in — een korte samenvatting van het probleem.
+5. Schrijf uw **bericht** waarin u het probleem gedetailleerd beschrijft.
+6. Voeg optioneel bestanden toe (schermafbeeldingen, documenten) om de ondersteuningsmedewerker te helpen het probleem te begrijpen.
+7. Klik op **Indienen**.
 
-The ticket is assigned an ID and routed to a support agent. You will receive a notification when the agent responds.
+Het ticket krijgt een ID toegewezen en wordt doorgestuurd naar een ondersteuningsmedewerker. U ontvangt een melding wanneer de medewerker reageert.
 
-## Tracking Your Tickets
+## Uw tickets volgen
 
-From the ticket list, you can see all tickets you have submitted and their current status:
+Vanuit de ticketlijst kunt u alle tickets zien die u hebt ingediend en hun huidige status:
 
-| Status | Meaning |
-|--------|---------|
-| New | Just submitted, not yet reviewed |
-| Pending | Being reviewed by a support agent |
-| Unconfirmed | Awaiting confirmation or additional information |
-| Forwarded | Transferred to another team or agent |
-| Closed | Resolved |
+| Status | Betekenis |
+|--------|-----------|
+| Nieuw | Net ingediend, nog niet beoordeeld |
+| In behandeling | Wordt beoordeeld door een ondersteuningsmedewerker |
+| Onbevestigd | Wacht op bevestiging of aanvullende informatie |
+| Doorgestuurd | Overgedragen aan een ander team of medewerker |
+| Gesloten | Opgelost |
 
-Click any ticket to read the full conversation thread and add a reply.
+Klik op een ticket om de volledige conversatiedraad te lezen en een antwoord toe te voegen.
 
-## Replying to a Ticket
+## Reageren op een ticket
 
-Once a ticket is open, you and the support agent exchange messages within the same thread. To add a reply:
+Zodra een ticket is geopend, wisselen u en de ondersteuningsmedewerker berichten uit binnen dezelfde draad. Om een antwoord toe te voegen:
 
-1. Open the ticket from your list.
-2. Scroll to the reply field at the bottom.
-3. Write your response and attach files if needed.
-4. Click **Send**.
+1. Open het ticket vanuit uw lijst.
+2. Scroll naar het antwoordveld onderaan.
+3. Schrijf uw reactie en voeg indien nodig bestanden toe.
+4. Klik op **Verzenden**.
 
-Both parties receive notifications when a new message is added to the thread.
+Beide partijen ontvangen meldingen wanneer een nieuw bericht aan de draad wordt toegevoegd.
 
-## Handling Tickets as a Support Agent
+## Tickets afhandelen als ondersteuningsmedewerker
 
-If your administrator has assigned you to one or more ticket categories, you will see incoming tickets from learners or colleagues in your queue.
+Als uw beheerder u heeft toegewezen aan een of meer ticketcategorieën, ziet u inkomende tickets van leerlingen of collega's in uw wachtrij.
 
-To respond to an assigned ticket:
+Om te reageren op een toegewezen ticket:
 
-1. Open your ticket list — assigned tickets appear alongside tickets you have submitted.
-2. Click a ticket to read the requester's message.
-3. Write a reply and click **Send**. The ticket status updates automatically.
-4. When the issue is resolved, change the status to **Closed**.
+1. Open uw ticketlijst — toegewezen tickets verschijnen naast de tickets die u zelf hebt ingediend.
+2. Klik op een ticket om het bericht van de aanvrager te lezen.
+3. Schrijf een antwoord en klik op **Verzenden**. De ticketstatus wordt automatisch bijgewerkt.
+4. Wanneer het probleem is opgelost, wijzig de status naar **Gesloten**.
 
-You can also change the **priority** of a ticket (Low, Normal, High) to help triage your queue.
+U kunt ook de **prioriteit** van een ticket wijzigen (Laag, Normaal, Hoog) om uw wachtrij te helpen prioriteren.
 
-> Access to ticket categories is controlled by the platform administrator. If you need to be added as a support agent for a category, contact your administrator. See the Admin Guide's [Tickets Settings](../admin-guide/platform-settings/ticket-settings.md) for configuration options.
+> Toegang tot ticketcategorieën wordt beheerd door de platformbeheerder. Als u wilt worden toegevoegd als ondersteuningsmedewerker voor een categorie, neem dan contact op met uw beheerder. Zie de Beheerdershandleiding [Tickets Instellingen](../admin-guide/platform-settings/ticket-settings.md) voor configuratieopties.

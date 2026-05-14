@@ -1,534 +1,530 @@
-# Exercises (Tests) Settings
+# Instellingen voor Oefeningen (Tests)
 
-Defaults and behaviour of the **Exercises (Tests)** tool — question display, scoring, attempts, and similar.
+Standaardinstellingen en gedrag van de **Oefeningen (Tests)** tool — weergave van vragen, scoring, pogingen en vergelijkbare instellingen.
 
-Access these settings under **Administration > Configuration settings > Exercises (Tests)**. This category contains **63 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+Ga naar deze instellingen via **Beheer > Configuratie-instellingen > Oefeningen (Tests)**. Deze categorie bevat **63 instellingen**, hieronder opgesomd met de titel en opmerking zoals meegeleverd in de platforminstellingen (`SettingsCurrentFixtures.php`).
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> De variabelenaam in de code wordt weergegeven in monospace. Gebruik deze bij het scripten via de API of wanneer je deze instellingen op globaal niveau wilt wijzigen door [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml) te bewerken.
 
-## Settings
+## Instellingen
 
 ### `add_exercise_best_attempt_in_report`
 
-**Enable display of best score attempt**
+**Weergave van beste scorepoging inschakelen**
 
-Provide a list of courses and tests' IDs that will show the best score attempt for any learner in the reports.
+Geef een lijst van cursus- en test-ID's die de beste scorepoging van elke leerling in de rapporten zullen tonen.
 
 ### `allow_coach_feedback_exercises`
 
-**Allow coaches to comment in review of exercises**
+**Coaches toestaan om opmerkingen te maken bij beoordeling van oefeningen**
 
-Allow coaches to edit feedback during review of exercises
+Sta coaches toe om feedback te bewerken tijdens de beoordeling van oefeningen.
 
-*Default: `true`*
+*Standaard: `true`*
 
 ### `allow_edit_exercise_in_lp`
 
-**Allow teachers to edit tests in learning paths**
+**Docenten toestaan om tests in leerpaden te bewerken**
 
-By default, Chamilo prevents you from editing tests that are included inside a learning path. This is to avoid changes that would affect learners (past and future) differently regarding the results and/or progress in the learning path. This option allows teachers to bypass this restriction.
-
+Standaard voorkomt Chamilo dat je tests bewerkt die zijn opgenomen in een leerpad. Dit is om wijzigingen te vermijden die leerlingen (verleden en toekomst) verschillend zouden beïnvloeden met betrekking tot resultaten en/of voortgang in het leerpad. Met deze optie kunnen docenten deze beperking omzeilen.
 
 ### `allow_exercise_categories`
 
-**Enable test categories**
+**Testcategorieën inschakelen**
 
-Test categories are not enabled by default because they add a level of complexity. Enable this feature to show all test categories related management icons appear.
+Testcategorieën zijn standaard niet ingeschakeld omdat ze een extra laag complexiteit toevoegen. Schakel deze functie in om alle beheericonen voor testcategorieën te tonen.
 
-*Default: `false`*
+*Standaard: `false`*
 
 ### `allow_mandatory_question_in_category`
 
-**Enable selecting mandatory questions**
+**Selectie van verplichte vragen inschakelen**
 
-Enable the selection of mandatory questions in a test when using random categories.
+Schakel de selectie van verplichte vragen in een test in bij gebruik van willekeurige categorieën.
 
-*Default: `false`*
+*Standaard: `false`*
 
 ### `allow_notification_setting_per_exercise`
 
-**Test notification settings at test-level**
+**Testmeldingsinstellingen op testniveau**
 
-Enable the configuration of test submission notifications at the test level rather than the course level. Falls back to course-level settings if not defined at test-level.
+Schakel de configuratie van meldingen voor testinzendingen in op testniveau in plaats van op cursusniveau. Valt terug op cursusniveau-instellingen als deze niet op testniveau zijn gedefinieerd.
 
-*Default: `false`*
+*Standaard: `false`*
 
 ### `allow_quick_question_description_popup`
 
-**Quick image addition to question**
+**Snelle toevoeging van afbeeldingen aan vragen**
 
-Enable an additional icon in the test questions list to add an image as question description. This vastly accelerates question edition when the questions are in the title and the description only includes an image.
+Schakel een extra pictogram in de lijst met testvragen in om een afbeelding als vraagbeschrijving toe te voegen. Dit versnelt het bewerken van vragen aanzienlijk wanneer de vragen in de titel staan en de beschrijving alleen een afbeelding bevat.
 
-*Default: `false`*
+*Standaard: `false`*
 
 ### `allow_quiz_question_feedback`
 
-**Add question feedback if incorrect answer**
+**Vraagfeedback toevoegen bij fout antwoord**
 
-By default, Chamilo allows you to show feedback on each answer in a question. With this option, an additional field is created to provide pre-defined feedback to the whole question. This feedback will only appear if the user answered incorrectly.
+Standaard laat Chamilo toe om feedback te tonen op elk antwoord in een vraag. Met deze optie wordt een extra veld gecreëerd om vooraf gedefinieerde feedback te geven op de hele vraag. Deze feedback verschijnt alleen als de gebruiker fout heeft geantwoord.
 
-*Default: `false`*
+*Standaard: `false`*
 
 ### `allow_quiz_results_page_config`
 
-**Enable test results page configuration**
+**Configuratie van testresultatenpagina inschakelen**
 
-Define an array of settings you want to apply to all tests results pages. Settings can be ‘hide_question_score’, ‘hide_expected_answer’, ‘hide_category_table’, ‘hide_correct_answered_questions’, ‘hide_total_score’ and possibly more in the future. Look for ‘getPageConfigurationAttribute’ in the code to see what’s in use.
+Definieer een reeks instellingen die je wilt toepassen op alle resultatenpagina's van tests. Instellingen kunnen zijn: ‘hide_question_score’, ‘hide_expected_answer’, ‘hide_category_table’, ‘hide_correct_answered_questions’, ‘hide_total_score’ en mogelijk meer in de toekomst. Zoek naar ‘getPageConfigurationAttribute’ in de code om te zien wat er wordt gebruikt.
 
-*Default: `false`*
+*Standaard: `false`*
 
 ### `allow_quiz_show_previous_button_setting`
 
-**Show 'previous' button in test to navigate questions**
+**Knop 'vorige' tonen in test om door vragen te navigeren**
 
-Set this to false to disable the 'previous' button when answering questions in a test, thus forcing users to always move ahead.
+Zet dit op false om de knop 'vorige' uit te schakelen bij het beantwoorden van vragen in een test, waardoor gebruikers altijd vooruit moeten gaan.
 
-*Default: `false`*
+*Standaard: `false`*
 
 ### `allow_teacher_comment_audio`
 
-**Audio feedback to submitted answers**
+**Audiofeedback op ingediende antwoorden**
 
-Allow teachers to provide feedback to users through audio (alternatively to text) on each question in a test.
+Sta docenten toe om feedback aan gebruikers te geven via audio (als alternatief voor tekst) op elke vraag in een test.
 
-*Default: `true`*
+*Standaard: `true`*
 
 ### `allow_time_per_question`
 
-**Enable time per question in tests**
+**Tijd per vraag in tests inschakelen**
 
-By default, it is only possible to limit the time per test. Limiting it per question adds an extra layer of possibilities, and you can (carefully) combine both.
+Standaard is het alleen mogelijk om de tijd per test te beperken. Het beperken per vraag voegt een extra laag mogelijkheden toe, en je kunt (voorzichtig) beide combineren.
 
-*Default: `false`*
+*Standaard: `false`*
 
 ### `block_category_questions`
 
-**Lock questions of previous categories in a test**
+**Vragen van eerdere categorieën in een test vergrendelen**
 
-When using this option, an additional option will appear in the test's configuration. When using a test with multiple question categories and asking for a distribution by category, this will allow the user to navigate questions per category. Once a category is finished, (s)he moves to the next category and cannot return to the previous category.
+Bij gebruik van deze optie verschijnt een extra optie in de configuratie van de test. Bij gebruik van een test met meerdere vraAGCategorieën en het vragen om een verdeling per categorie, stelt dit de gebruiker in staat om vragen per categorie te navigeren. Zodra een categorie is voltooid, gaat hij/zij naar de volgende categorie en kan niet terugkeren naar de vorige categorie.
 
-*Default: `false`*
+*Standaard: `false`*
 
 ### `block_quiz_mail_notification_general_coach`
 
-**Block sending test notifications to general coach**
+**Verzending van testmeldingen naar algemene coach blokkeren**
 
-Learners completing a test usually sends notifications to coaches, including the general session coach. Enable this option to omit the general coach from these notifications.
+Leerlingen die een test voltooien, sturen meestal meldingen naar coaches, inclusief de algemene sessiecoach. Schakel deze optie in om de algemene coach uit te sluiten van deze meldingen.
 
-*Default: `false`*
+*Standaard: `false`*
 
+---
 ### `configure_exercise_visibility_in_course`
 
-**Enable to bypass the configuration of Exercise invisible in session at a base course level**
+**Inschakelen om de configuratie van onzichtbare oefeningen in een sessie op basiscursusniveau te omzeilen**
 
-To enable the configuration of the exercise invisibility in session in the base course to by pass the global configuration. If not set the global parameter is used.
+Hiermee kan de configuratie van de onzichtbaarheid van oefeningen in een sessie op basiscursusniveau worden ingeschakeld om de globale configuratie te omzeilen. Als dit niet is ingesteld, wordt de globale parameter gebruikt.
 
-*Default: `false`*
+*Standaard: `false`*
 
 ### `disable_clean_exercise_results_for_teachers`
 
-**Disable 'clean results' for teachers**
+**'Resultaten opschonen' uitschakelen voor docenten**
 
-Disable the option to delete test results from the tests list. This is often used when less-careful teachers manage courses, to avoid critical mistakes.
+Schakel de optie uit om testresultaten uit de testlijst te verwijderen. Dit wordt vaak gebruikt wanneer minder zorgvuldige docenten cursussen beheren, om kritieke fouten te voorkomen.
 
-*Default: `true`*
+*Standaard: `true`*
 
 ### `email_alert_manager_on_new_quiz`
 
-**Default e-mail alert setting on new quiz**
+**Standaard e-mailwaarschuwingsinstelling bij nieuwe quiz**
 
-Whether you want course managers (teachers) to be notified by e-mail when a quiz is answered by a student. This is the default value to be given to all new courses, but each teacher can still change this setting in his/her own course.
+Of u wilt dat cursusbeheerders (docenten) per e-mail op de hoogte worden gesteld wanneer een quiz door een student wordt beantwoord. Dit is de standaardwaarde voor alle nieuwe cursussen, maar elke docent kan deze instelling nog steeds aanpassen in zijn/haar eigen cursus.
 
-*Default: `true`*
+*Standaard: `true`*
 
 ### `enable_quiz_scenario`
 
-**Enable Quiz scenario**
+**Quizscenario inschakelen**
 
-From here you will be able to create exercises that propose different questions depending in the user's answers.
+Vanaf hier kunt u oefeningen maken die verschillende vragen stellen afhankelijk van de antwoorden van de gebruiker.
 
-*Default: `true`*
+*Standaard: `true`*
 
 ### `exercise_additional_teacher_modify_actions`
 
-**Additional links for teachers in tests list**
+**Extra links voor docenten in testlijst**
 
-Configure callback elements to generate new action icons for teachers to the right side of the tests list, in the form of an array, e.g. ['myplugin' => ['MyPlugin', 'urlGeneratorCallback']]
+Configureer callback-elementen om nieuwe actie-iconen voor docenten aan de rechterkant van de testlijst te genereren, in de vorm van een array, bijvoorbeeld ['myplugin' => ['MyPlugin', 'urlGeneratorCallback']]
 
 ### `exercise_attempts_report_show_username`
 
-**Show username in test results page**
+**Gebruikersnaam tonen op testresultatenpagina**
 
-Show the username (instead or, or as well as, the user info) on the test results page.
+Toon de gebruikersnaam (in plaats van, of naast, de gebruikersinformatie) op de testresultatenpagina.
 
-*Default: `false`*
+*Standaard: `false`*
 
 ### `exercise_category_report_user_extra_fields`
 
-**Add user extra fields in exercise category report**
+**Extra gebruikersvelden toevoegen aan oefencategorierapport**
 
-Define an array with the list of user extra fields to add to the report.
+Definieer een array met de lijst van extra gebruikersvelden die aan het rapport moeten worden toegevoegd.
 
 ### `exercise_category_round_score_in_export`
 
-**Round score in test exports**
+**Score afronden bij export van tests**
 
-When enabled, test scores are rounded to the nearest integer when exporting exercise reports.
+Wanneer ingeschakeld, worden testscores afgerond naar het dichtstbijzijnde gehele getal bij het exporteren van oefenrapporten.
 
-*Default: `false`*
+*Standaard: `false`*
 
 ### `exercise_embeddable_extra_types`
 
-**Embeddable question types**
+**Insluitbare vraagtypen**
 
-By default, only single answer and multiple answer questions are considered when deciding whether a test can be embedded in a video or not. With this option, you can decide that more question types are available. Be aware that not all question types fit nicely in the space assigned to videos. Questions types are availalble in the code in question.class.php.
+Standaard worden alleen vragen met één antwoord en meerdere antwoorden in overweging genomen bij het bepalen of een test in een video kan worden ingesloten. Met deze optie kunt u beslissen dat meer vraagtypen beschikbaar zijn. Houd er rekening mee dat niet alle vraagtypen goed passen in de ruimte die aan video's is toegewezen. Vraagtypen zijn beschikbaar in de code in question.class.php.
 
 ### `exercise_hide_ip`
 
-**Hide user IP from test reports**
+**Gebruikers-IP verbergen in testrapporten**
 
-By default, we show user information and its IP address, but this might be considered personal data, so this option allows you to remove this info from all test reports.
+Standaard tonen we gebruikersinformatie en het bijbehorende IP-adres, maar dit kan als persoonlijke gegevens worden beschouwd. Met deze optie kunt u deze informatie uit alle testrapporten verwijderen.
 
-*Default: `false`*
+*Standaard: `false`*
 
 ### `exercise_hide_label`
 
-**Hide question ribbon (right/wrong) in test results**
+**Vraaglint (juist/fout) verbergen in testresultaten**
 
-In test results, a ribbon appears by default to indicate if the answer was right or wrong. Enable this option to remove the ribbon globally.
+In testresultaten verschijnt standaard een lint om aan te geven of het antwoord juist of fout was. Schakel deze optie in om het lint globaal te verwijderen.
 
-*Default: `false`*
+*Standaard: `false`*
 
 ### `exercise_invisible_in_session`
 
-**Exercise invisible in Session**
+**Oefening onzichtbaar in sessie**
 
-If an exercise is visible in the base course then it appears invisible in the session. If an exercise is invisible in the base course then it does not appear in the session.
+Als een oefening zichtbaar is in de basiscursus, verschijnt deze als onzichtbaar in de sessie. Als een oefening onzichtbaar is in de basiscursus, verschijnt deze niet in de sessie.
 
-*Default: `false`*
+*Standaard: `false`*
 
 ### `exercise_max_editors_in_page`
 
-**Max editors in exercise result screen**
+**Maximaal aantal editors op oefenresultatenscherm**
 
-Because of the sheer number of questions that might appear in an exercise, the correction screen, allowing the teacher to add comments to each answer, might be very slow to load. Set this number to 5 to ask the platform to only show WYSIWYG editors up to a certain number of answers on the screen. This will speed up the correction page loading time considerably, but will remove WYSIWYG editors and leave only a plain text editor.
+Vanwege het grote aantal vragen dat in een oefening kan voorkomen, kan het correctiescherm, waarmee de docent opmerkingen kan toevoegen aan elk antwoord, erg langzaam laden. Stel dit aantal in op 5 om de platform alleen WYSIWYG-editors te laten tonen tot een bepaald aantal antwoorden op het scherm. Dit versnelt de laadtijd van de correctiepagina aanzienlijk, maar verwijdert WYSIWYG-editors en laat alleen een eenvoudige teksteditor over.
 
-*Default: `0`*
-
+*Standaard: `0`*
 
 ### `exercise_max_score`
 
-**Maximum score of exercises**
+**Maximale score van oefeningen**
 
-Define a maximum score (generally 10,20 or 100) for all the exercises on the platform. This will define how final results are shown to users and teachers.
+Definieer een maximale score (meestal 10, 20 of 100) voor alle oefeningen op het platform. Dit bepaalt hoe de eindresultaten worden getoond aan gebruikers en docenten.
 
-*Default: `20`*
-
+*Standaard: `20`*
 
 ### `exercise_min_score`
 
-**Minimum score of exercises**
+**Minimale score van oefeningen**
 
-Define a minimum score (generally 0) for all the exercises on the platform. This will define how final results are shown to users and teachers.
+Definieer een minimale score (meestal 0) voor alle oefeningen op het platform. Dit bepaalt hoe de eindresultaten worden getoond aan gebruikers en docenten.
 
-*Default: `0`*
-
+*Standaard: `0`*
 
 ### `exercise_result_end_text_html_strict_filtering`
 
-**Bypass HTML filtering in test end messages**
+**HTML-filtering omzeilen in test-eindberichten**
 
-Consider messages at the end of tests are always safe. Removing the filter makes it possible to use JavaScript there.
+Beschouw berichten aan het einde van tests altijd als veilig. Het verwijderen van de filter maakt het mogelijk om daar JavaScript te gebruiken.
 
-*Default: `false`*
-
+*Standaard: `false`*
 
 ### `exercise_score_format`
 
-**Tests score format**
+**Scoreformaat van tests**
 
-Select between the following forms for the display of users' score in various reports: 1 = SCORE_AVERAGE (5 / 10); 2 = SCORE_PERCENT (50%); 3 = SCORE_DIV_PERCENT (5 / 10 (50%)). Use the numerical ID of the form you want to use.
+Kies tussen de volgende vormen voor de weergave van de score van gebruikers in verschillende rapporten: 1 = SCORE_AVERAGE (5 / 10); 2 = SCORE_PERCENT (50%); 3 = SCORE_DIV_PERCENT (5 / 10 (50%)). Gebruik de numerieke ID van de gewenste vorm.
 
-*Default: `0`*
+*Standaard: `0`*
 
 ### `exercises_disable_new_attempts`
 
-**Disable new test attempts**
+**Nieuwe testpogingen uitschakelen**
 
-Disable new test attempts globally. Usually used when there is a problem with tests in general and you want some time to analyse without blocking the whole platform.
+Schakel nieuwe testpogingen globaal uit. Meestal gebruikt wanneer er een probleem is met tests in het algemeen en u enige tijd wilt analyseren zonder het hele platform te blokkeren.
 
-*Default: `false`*
+*Standaard: `false`*
 
-
+---
 ### `hide_free_question_score`
 
-**Hide open questions' score**
+**Score van open vragen verbergen**
 
-Hide the fact that open questions (including audio and annotations) have a score by hiding the score display in all learner-facing reports.
+Verberg het feit dat open vragen (inclusief audio en annotaties) een score hebben door de scoreweergave te verbergen in alle rapporten die zichtbaar zijn voor leerlingen.
 
-*Default: `false`*
+*Standaard: `false`*
 
 
 ### `hide_user_info_in_quiz_result`
 
-**Hide user info on test results page**
+**Gebruikersinformatie verbergen op de resultaatpagina van de test**
 
-The default test results page shows a user datasheet (photo, name, etc) which might, in some contexts, be considered as pushing the limits of personal data treatment. Enable this option to remove user details from the test results.
+De standaard resultaatpagina van de test toont een gebruikersgegevensblad (foto, naam, enz.) wat in sommige contexten als een inbreuk op de verwerking van persoonsgegevens kan worden beschouwd. Schakel deze optie in om gebruikersgegevens uit de testresultaten te verwijderen.
 
-*Default: `false`*
+*Standaard: `false`*
 
 
 ### `limit_exercise_teacher_access`
 
-**Limit teachers' permissions over tests**
+**Beperk de rechten van docenten over tests**
 
-When enabled, teachers cannot delete tests nor questions, change tests visibility, download to QTI, clean results, etc.
+Wanneer ingeschakeld, kunnen docenten geen tests of vragen verwijderen, de zichtbaarheid van tests wijzigen, exporteren naar QTI, resultaten opschonen, enz.
 
-*Default: `false`*
+*Standaard: `false`*
 
 
 ### `my_courses_show_pending_exercise_attempts`
 
-**Global pending tests list**
+**Globale lijst van openstaande tests**
 
-Enable to display to the final user a page with the list of pending tests across all courses.
+Schakel in om de eindgebruiker een pagina te tonen met een lijst van openstaande tests in alle cursussen.
 
-*Default: `false`*
+*Standaard: `false`*
 
 
 ### `question_exercise_html_strict_filtering`
 
-**Bypass HTML filtering in test questions**
+**HTML-filtering in testvragen omzeilen**
 
-Consider questions text in tests are always safe. Removing the filter makes it possible to use JavaScript there.
+Beschouw de tekst van vragen in tests altijd als veilig. Het verwijderen van de filter maakt het mogelijk om daar JavaScript te gebruiken.
 
-*Default: `false`*
+*Standaard: `false`*
 
 
 ### `question_pagination_length`
 
-**Question pagination length for teachers**
+**Paginatielengte van vragen voor docenten**
 
-Number of questions to show on every page when using the question pagination for teachers option.
+Aantal vragen dat per pagina wordt getoond bij gebruik van de paginatie-optie voor vragen voor docenten.
 
-*Default: `20`*
+*Standaard: `20`*
 
 
 ### `quiz_answer_extra_recording`
 
-**Enable extra test answers recording**
+**Extra opname van testantwoorden inschakelen**
 
-Enable recording of all answers (even temporary) in the track_e_attempt_recording table. This feautre is experimentaland can create issues in the reporting pages when attempting to grade a test.
+Schakel de opname in van alle antwoorden (ook tijdelijke) in de tabel track_e_attempt_recording. Deze functie is experimenteel en kan problemen veroorzaken op de rapportagepagina's bij het beoordelen van een test.
 
-*Default: `false`*
+*Standaard: `false`*
 
 
 ### `quiz_check_all_answers_before_end_test`
 
-**Check all answers before submitting test**
+**Controleer alle antwoorden voordat de test wordt ingediend**
 
-Display a popup with the list of answered/unanswered questions before submitting the test.
+Toon een pop-up met de lijst van beantwoorde/onbeantwoorde vragen voordat de test wordt ingediend.
 
-*Default: `false`*
+*Standaard: `false`*
 
 
 ### `quiz_check_button_enable`
 
-**Add answer-saving process check before test**
+**Voeg controle van het opslagproces toe vóór de test**
 
-Make sure users are all set to start the test by providing a simulation of the question-saving process before entering the test. This allows for early detection of some connection issues and reduces user experience frictions.
+Zorg ervoor dat gebruikers klaar zijn om de test te starten door een simulatie van het opslagproces van vragen te bieden voordat de test begint. Dit maakt vroege detectie van sommige verbindingsproblemen mogelijk en vermindert wrijving in de gebruikerservaring.
 
-*Default: `false`*
+*Standaard: `false`*
 
 
 ### `quiz_confirm_saved_answers`
 
-**Add checkbox for answers count confirmation**
+**Voeg een selectievakje toe voor bevestiging van het aantal antwoorden**
 
-This option adds a checkbox at the end of each test asking the user to confirm the number of answers saved. This provides better auditing data for critical tests.
+Deze optie voegt een selectievakje toe aan het einde van elke test waarin de gebruiker wordt gevraagd het aantal opgeslagen antwoorden te bevestigen. Dit biedt betere auditgegevens voor cruciale tests.
 
-*Default: `false`*
+*Standaard: `false`*
 
 
 ### `quiz_discard_orphan_in_course_export`
 
-**Discard orphan questions in course export**
+**Verweesde vragen negeren bij cursusexport**
 
-When exporting a course, do not export the questions that are not part of any test.
+Bij het exporteren van een cursus worden vragen die geen deel uitmaken van een test niet geëxporteerd.
 
-*Default: `false`*
+*Standaard: `false`*
 
 
 ### `quiz_generate_certificate_ending`
 
-**Generate certificate on test end**
+**Certificaat genereren bij afronding van de test**
 
-Generate certificate when ending a quiz. The quiz needs to be linked in the gradebook tool and have a pass percentage configured.
+Genereer een certificaat bij het afronden van een quiz. De quiz moet gekoppeld zijn aan het cijferboek en een slagingspercentage hebben ingesteld.
 
-*Default: `false`*
+*Standaard: `false`*
 
 
 ### `quiz_hide_attempts_table_on_start_page`
 
-**Hide test attempts table on test start page**
+**Tabel met eerdere pogingen verbergen op de startpagina van de test**
 
-Hide the table showing all previous attempts on the test start page.
+Verberg de tabel met alle eerdere pogingen op de startpagina van de test.
 
-*Default: `false`*
+*Standaard: `false`*
 
 
 ### `quiz_hide_question_number`
 
-**Hide question number**
+**Vraagnummer verbergen**
 
-Hide the question incremental numbering when taking a test.
+Verberg de oplopende nummering van vragen tijdens het maken van een test.
 
-*Default: `false`*
+*Standaard: `false`*
 
 
 ### `quiz_image_zoom`
 
-**Enable test images zooming**
+**Zoomen op testafbeeldingen inschakelen**
 
-Enable this feature to allow users to zoom on images used in the tests.
+Schakel deze functie in om gebruikers in staat te stellen in te zoomen op afbeeldingen die in tests worden gebruikt.
 
 ### `quiz_keep_alive_ping_interval`
 
-**Keep session active in tests**
+**Sessie actief houden tijdens tests**
 
-Keep session active by maintaining a regular ping signal to the server every x seconds, define here. We recommend once every 300 seconds.
+Houd de sessie actief door regelmatig een ping-signaal naar de server te sturen, hier te definiëren. We raden aan om dit elke 300 seconden te doen.
 
-*Default: `0`*
+*Standaard: `0`*
 
 
 ### `quiz_open_question_decimal_score`
 
-**Decimal score in open question types**
+**Decimale score bij open vraagtypen**
 
-Allow the teacher to rate the open, oral expression and annotation question types with a decimal score.
+Sta docenten toe om open, mondelinge expressie- en annotatievraagtypen te beoordelen met een decimale score.
 
-*Default: `false`*
+*Standaard: `false`*
 
 
 ### `quiz_prevent_copy_paste`
 
-**Block copy-pasting in tests**
+**Kopiëren en plakken blokkeren in tests**
 
-Block copy/paste/save/print keys and right-clicks in exercises.
+Blokkeer kopieer/plak/opslag/afdruktoetsen en rechtermuisklikken in oefeningen.
 
-*Default: `false`*
+*Standaard: `false`*
 
 
 ### `quiz_question_delete_automatically_when_deleting_exercise`
 
-**Automatically delete questions when deleting test**
+**Vragen automatisch verwijderen bij het verwijderen van een test**
 
-The default behaviour is to make questions orphan when the only test using them is deleted. When enabled, this option ensure that all questions that would otherwise end up orphan are deleted as well.
+Het standaardgedrag is om vragen wees te maken wanneer de enige test die ze gebruikt wordt verwijderd. Wanneer ingeschakeld, zorgt deze optie ervoor dat alle vragen die anders wees zouden worden, ook worden verwijderd.
 
-*Default: `false`*
+*Standaard: `false`*
 
 
 ### `quiz_results_answers_report`
 
-**Show link to download test results**
+**Link tonen om testresultaten te downloaden**
 
-On the test results page, display a link to download the results as a file.
+Toon op de resultaatpagina van de test een link om de resultaten als bestand te downloaden.
 
-*Default: `false`*
+*Standaard: `false`*
 
 
 ### `quiz_show_description_on_results_page`
 
-**Always show test description on results page**
+**Testbeschrijving altijd tonen op resultaatpagina**
 
-When enabled, the test description is always displayed on the results page after test completion.
+Wanneer ingeschakeld, wordt de testbeschrijving altijd weergegeven op de resultaatpagina na afronding van de test.
 
-*Default: `false`*
+*Standaard: `false`*
 
 
 ### `score_grade_model`
 
-**Score grades model**
+**Model voor cijferbereik**
 
-Define an array of score ranges and colors to display reports using this model. This allows you to show colors rather than numerical grades.
+Definieer een reeks scorebereiken en kleuren om rapporten weer te geven met dit model. Hiermee kunt u kleuren tonen in plaats van numerieke cijfers.
 
+---
 ### `send_score_in_exam_notification_mail_to_manager`
 
-**Add score in mail notification of test submission**
+**Score toevoegen aan e-mailnotificatie van testinzending**
 
-Add the learner's score to the e-mail notification sent to the teacher after a test was submitted.
+Voeg de score van de leerling toe aan de e-mailnotificatie die naar de docent wordt gestuurd na het indienen van een test.
 
-*Default: `false`*
+*Standaard: `false`*
 
 
 ### `show_exercise_attempts_in_all_user_sessions`
 
-**Show test attempts from all sessions in pending tests report**
+**Toon testpogingen van alle sessies in rapport openstaande tests**
 
-Show test attempts from users in all sessions where the general coach has access in pending tests report.
+Toon testpogingen van gebruikers in alle sessies waartoe de algemene coach toegang heeft in het rapport van openstaande tests.
 
-*Default: `false`*
+*Standaard: `false`*
 
 
 ### `show_exercise_expected_choice`
 
-**Show expected choice in test results**
+**Toon verwachte keuze in testresultaten**
 
-Show the expected choice and a status (right/wrong) for each answer on the test results page (if the test has been configured to show results).
+Toon de verwachte keuze en een status (juist/fout) voor elk antwoord op de pagina met testresultaten (als de test is ingesteld om resultaten te tonen).
 
-*Default: `false`*
+*Standaard: `false`*
 
 
 ### `show_exercise_question_certainty_ribbon_result`
 
-**Show score for certainty degree questions**
+**Toon score voor vragen over zekerheidsgraad**
 
-By default, Chamilo does not show a score for the certainty degree question types.
+Standaard toont Chamilo geen score voor vraagtypen over zekerheidsgraad.
 
-*Default: `false`*
+*Standaard: `false`*
 
 
 ### `show_exercise_session_attempts_in_base_course`
 
-**Show test attempts from all sessions in base course**
+**Toon testpogingen van alle sessies in basiscursus**
 
-Show test attempts from users in all sessions to the teacher in the base course.
+Toon testpogingen van gebruikers in alle sessies aan de docent in de basiscursus.
 
-*Default: `false`*
+*Standaard: `false`*
 
 
 ### `show_official_code_exercise_result_list`
 
-**Display official code in exercises results**
+**Toon officiële code in oefeningsresultaten**
 
-Whether to show the students' official code in the exercises results reports
+Bepaal of de officiële code van studenten wordt getoond in de rapporten met oefeningsresultaten.
 
-*Default: `false`*
+*Standaard: `false`*
+
 
 ### `show_question_id`
 
-**Show question IDs in tests**
+**Toon vraag-ID's in tests**
 
-Show questions' internal IDs to let users take note of issues on specific questions and report them more efficiently.
+Toon de interne ID's van vragen zodat gebruikers problemen met specifieke vragen kunnen noteren en efficiënter kunnen rapporteren.
 
-*Default: `false`*
+*Standaard: `false`*
 
 
 ### `show_question_pagination`
 
-**Show question pagination for teachers**
+**Toon paginering van vragen voor docenten**
 
-For tests with many questions, use pagination if the number of questions is higher than this setting. Set to 0 to prevent using pagination.
+Gebruik paginering voor tests met veel vragen als het aantal vragen hoger is dan deze instelling. Stel in op 0 om paginering te voorkomen.
 
-*Default: `100`*
+*Standaard: `100`*
 
 
 ### `tracking_my_progress_show_deleted_exercises`
 
-**Show deleted tests in 'My progress'**
+**Toon verwijderde tests in 'Mijn voortgang'**
 
-Enable this option to display, on the 'My progress' page, the results of all tests you have taken, even the ones that have been deleted.
+Schakel deze optie in om op de pagina 'Mijn voortgang' de resultaten van alle tests die je hebt gemaakt te tonen, zelfs de tests die zijn verwijderd.
 
-*Default: `false`*
-
-
+*Standaard: `false`*

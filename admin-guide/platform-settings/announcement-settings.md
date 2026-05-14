@@ -1,80 +1,79 @@
-# Announcements Settings
+# Instellingen voor Aankondigingen
 
-Behaviour of the course **Announcements** tool — how announcements are sent and scheduled.
+Gedrag van de cursus **Aankondigingen**-tool — hoe aankondigingen worden verzonden en ingepland.
 
-Access these settings under **Administration > Configuration settings > Announcements**. This category contains **9 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+Ga naar deze instellingen via **Beheer > Configuratie-instellingen > Aankondigingen**. Deze categorie bevat **9 instellingen**, hieronder opgesomd met de titel en opmerking zoals meegeleverd in de platforminstellingen (`SettingsCurrentFixtures.php`).
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> De variabelenaam in de code wordt weergegeven in monospace. Gebruik deze bij het scripten via de API of wanneer u deze instellingen op globaal niveau wilt wijzigen door [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml) te bewerken.
 
-## Settings
+## Instellingen
 
 ### `allow_careers_in_global_announcements`
 
-**Link global announcements with careers and promotions**
+**Koppel globale aankondigingen aan carrières en promoties**
 
-When enabled, global announcements can be associated with careers and promotions for targeted distribution.
+Indien ingeschakeld, kunnen globale aankondigingen worden gekoppeld aan carrières en promoties voor gerichte distributie.
 
-*Default: `false`*
+*Standaard: `false`*
 
 ### `allow_coach_to_edit_announcements`
 
-**Allow coaches to always edit announcements**
+**Sta coaches toe om altijd aankondigingen te bewerken**
 
-Allow coaches to always edit announcements inside active or past sessions.
+Sta coaches toe om altijd aankondigingen te bewerken binnen actieve of afgelopen sessies.
 
-*Default: `false`*
+*Standaard: `false`*
 
 ### `allow_scheduled_announcements`
 
-**Enable scheduled announcements in sessions**
+**Schakel geplande aankondigingen in sessies in**
 
-Allows the sessions managers to set announcements that will be triggered on specific dates or after/before a number of days of start/end of the session. Enabling this feature requires you to setup a cron task.
+Hiermee kunnen sessiebeheerders aankondigingen instellen die op specifieke data worden geactiveerd of na/voor een aantal dagen na het begin/einde van de sessie. Het inschakelen van deze functie vereist dat u een cron-taak instelt.
 
-*Default: `false`*
+*Standaard: `false`*
 
 ### `announcements_hide_send_to_hrm_users`
 
-**Hide option to send announcements to HR users**
+**Verberg de optie om aankondigingen naar HR-gebruikers te sturen**
 
-Remove the checkbox to enable sending announcements to users with HR roles (still requires to confirm in the announcements tool).
+Verwijder het selectievakje om het verzenden van aankondigingen naar gebruikers met HR-rollen mogelijk te maken (vereist nog steeds bevestiging in de aankondigingentool).
 
-*Default: `true`*
+*Standaard: `true`*
 
 ### `course_announcement_scheduled_by_date`
 
-**Date-based announcements**
+**Datumgebaseerde aankondigingen**
 
-Allow teachers to configure announcements that will be sent at specific dates. This requires you to setup a cron task on cron/course_announcement.php running at least once daily.
+Sta docenten toe om aankondigingen te configureren die op specifieke data worden verzonden. Dit vereist dat u een cron-taak instelt op cron/course_announcement.php die minstens eenmaal per dag wordt uitgevoerd.
 
-*Default: `false`*
+*Standaard: `false`*
 
 ### `disable_announcement_attachment`
 
-**Disable attachment to announcements**
+**Schakel bijlagen bij aankondigingen uit**
 
-Even though attachments in this version are dealt in an elegant way and do not multiply on disk, you might want to disable attachments altogether if you want to avoid excesses.
+Hoewel bijlagen in deze versie op een elegante manier worden behandeld en niet worden vermenigvuldigd op schijf, wilt u misschien bijlagen volledig uitschakelen om excessen te vermijden.
 
-*Default: `false`*
+*Standaard: `false`*
 
 ### `disable_delete_all_announcements`
 
-**Disable button to delete all announcements**
+**Schakel de knop om alle aankondigingen te verwijderen uit**
 
-Select 'Yes' to remove the button to delete all announcements, as this can be used by mistake by teachers.
+Selecteer 'Ja' om de knop voor het verwijderen van alle aankondigingen te verwijderen, aangezien deze per ongeluk door docenten kan worden gebruikt.
 
-*Default: `false`*
+*Standaard: `false`*
 
 ### `hide_announcement_sent_to_users_info`
 
-**Hide 'sent to' in announcements**
+**Verberg 'verzonden naar' in aankondigingen**
 
-Select 'Yes' to avoid showing to whom an announcement has been sent.
+Selecteer 'Ja' om te voorkomen dat wordt weergegeven aan wie een aankondiging is verzonden.
 
-*Default: `false`*
+*Standaard: `false`*
 
 ### `hide_send_to_hrm_users`
 
-**Hide the option to send an announcement copy to HRM**
+**Verberg de optie om een kopie van de aankondiging naar HRM te sturen**
 
-In the announcements form, an option normally appears to allow teachers to send a copy of the announcement to the user's HRM. Set this to 'Yes' to remote the option (and *not* send the copy).
-
+In het aankondigingenformulier verschijnt normaal gesproken een optie waarmee docenten een kopie van de aankondiging naar de HRM van de gebruiker kunnen sturen. Stel dit in op 'Ja' om de optie te verwijderen (en *geen* kopie te verzenden).

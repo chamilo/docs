@@ -1,93 +1,93 @@
-# Server Requirements
+# Serververeisten
 
-Before installing Chamilo 2.0, verify that your server meets the following requirements.
+Voordat u Chamilo 2.0 installeert, controleer of uw server voldoet aan de volgende vereisten.
 
-## Software Requirements
+## Softwarevereisten
 
 ### PHP
 
-| Requirement | Minimum | Recommended |
-|-------------|---------|-------------|
-| **PHP version** | 8.2 | 8.3 or later |
+| Vereiste | Minimum | Aanbevolen |
+|----------|---------|------------|
+| **PHP-versie** | 8.2 | 8.3 of hoger |
 
-### Required PHP Extensions
+### Vereiste PHP-extensies
 
-| Extension | Purpose |
-|-----------|---------|
-| **curl** | HTTP requests (API integrations, external services) |
-| **fileinfo** | MIME type detection for uploaded files |
-| **gd** | Image processing (thumbnails, CAPTCHA) |
-| **intl** | Internationalization (date, number, and string formatting) |
-| **json** | JSON encoding/decoding |
-| **ldap** | LDAP connector. Although you will probably not use LDAP, Chamilo requires it |
-| **mbstring** | Multibyte string handling (UTF-8 support) |
-| **openssl** | Cryptographic operations (HTTPS, password hashing, tokens) |
-| **pdo_mysql** or **pdo_pgsql** | Database connectivity (install the one matching your database) |
-| **xml** | XML parsing (SCORM, RSS, SOAP) |
-| **zip** | Handling ZIP archives (SCORM packages, bulk imports/exports) |
-| **apcu** | User-level caching (recommended) |
-| **opcache** | Opcode caching (strongly recommended for performance) |
-| **xapian** | Full-text search (optional, only if you use search) |
+| Extensie | Doel |
+|----------|------|
+| **curl** | HTTP-verzoeken (API-integraties, externe diensten) |
+| **fileinfo** | MIME-type detectie voor geüploade bestanden |
+| **gd** | Beeldverwerking (miniaturen, CAPTCHA) |
+| **intl** | Internationalisering (datum-, getal- en tekenreeksopmaak) |
+| **json** | JSON coderen/decoderen |
+| **ldap** | LDAP-connector. Hoewel u waarschijnlijk geen LDAP zult gebruiken, vereist Chamilo dit |
+| **mbstring** | Behandeling van multibyte-tekenreeksen (UTF-8 ondersteuning) |
+| **openssl** | Cryptografische bewerkingen (HTTPS, wachtwoordhashing, tokens) |
+| **pdo_mysql** of **pdo_pgsql** | Databaseconnectiviteit (installeer degene die overeenkomt met uw database) |
+| **xml** | XML-parsing (SCORM, RSS, SOAP) |
+| **zip** | Behandeling van ZIP-archieven (SCORM-pakketten, bulkimport/export) |
+| **apcu** | Gebruikersniveau caching (aanbevolen) |
+| **opcache** | Opcode caching (sterk aanbevolen voor prestaties) |
+| **xapian** | Volledige tekstzoekfunctie (optioneel, alleen als u zoekfuncties gebruikt) |
 
 ### Database
 
-| Database | Minimum Version |
-|----------|----------------|
+| Database | Minimale versie |
+|----------|-----------------|
 | **MySQL** | 8.0 |
 | **MariaDB** | 10.4 |
 
-### Web Server
+### Webserver
 
-| Server | Notes |
-|--------|-------|
-| **Apache** | Requires `mod_rewrite` enabled. |
-| **Nginx** | Requires manual configuration for URL rewriting. See the Symfony Nginx documentation for a reference configuration. |
+| Server | Opmerkingen |
+|--------|-------------|
+| **Apache** | Vereist dat `mod_rewrite` is ingeschakeld. |
+| **Nginx** | Vereist handmatige configuratie voor URL-herschrijving. Zie de Symfony Nginx-documentatie voor een referentieconfiguratie. |
 
-### Build Tools
+### Bouwtools
 
-| Tool | Purpose |
-|------|---------|
-| **Composer** | PHP dependency management. Required to install Chamilo's PHP libraries. |
-| **Node.js** (18+) | JavaScript runtime. Required to build frontend assets. |
-| **npm** | JavaScript package manager. Installed with Node.js. |
+| Tool | Doel |
+|------|------|
+| **Composer** | PHP-afhankelijkheidsbeheer. Vereist om Chamilo's PHP-bibliotheken te installeren. |
+| **Node.js** (18+) | JavaScript-runtime. Vereist om frontend-assets te bouwen. |
+| **npm** | JavaScript-pakketbeheerder. Geïnstalleerd met Node.js. |
 
-## Hardware Requirements
+## Hardwarevereisten
 
-| Resource | Minimum | Recommended |
-|----------|---------|-------------|
-| **RAM** | 2 GB | 4 GB or more |
-| **CPU** | 1 core | 2+ cores |
-| **Disk space** | 2 GB (application only) | 20+ GB (including uploaded content) |
-| **Disk type** | HDD | SSD (significantly improves database and cache performance) |
+| Middel | Minimum | Aanbevolen |
+|--------|---------|------------|
+| **RAM** | 2 GB | 4 GB of meer |
+| **CPU** | 1 kern | 2+ kernen |
+| **Schijfruimte** | 2 GB (alleen applicatie) | 20+ GB (inclusief geüploade inhoud) |
+| **Schijftype** | HDD | SSD (verbetert database- en cacheprestaties aanzienlijk) |
 
-These are baseline figures. Actual requirements depend on the number of concurrent users and the volume of content hosted.
+Dit zijn basiscijfers. De werkelijke vereisten hangen af van het aantal gelijktijdige gebruikers en de hoeveelheid gehoste inhoud.
 
-## Operating System
+## Besturingssysteem
 
-| OS | Notes |
-|----|-------|
-| **Linux** | Recommended. Ubuntu 22.04+, Debian 12+, AlmaLinux 9+, or equivalent. |
-| **Windows** | Possible but not thoroughly tested. Use WSL2 for development. |
-| **macOS** | Development only / untested. |
+| OS | Opmerkingen |
+|----|-------------|
+| **Linux** | Aanbevolen. Ubuntu 22.04+, Debian 12+, AlmaLinux 9+, of gelijkwaardig. |
+| **Windows** | Mogelijk, maar niet grondig getest. Gebruik WSL2 voor ontwikkeling. |
+| **macOS** | Alleen voor ontwikkeling / niet getest. |
 
-## Network Requirements
+## Netwerkvereisten
 
-* A domain name pointing to your server.
-* An SSL/TLS certificate for HTTPS (Let's Encrypt provides free certificates).
-* Outbound SMTP access if sending emails directly (or use a third-party email service).
-* Port 443 (HTTPS) and optionally port 80 (HTTP, for redirect to HTTPS).
+* Een domeinnaam die naar uw server verwijst.
+* Een SSL/TLS-certificaat voor HTTPS (Let's Encrypt biedt gratis certificaten).
+* Uitgaande SMTP-toegang als u direct e-mails verstuurt (of gebruik een externe e-maildienst).
+* Poort 443 (HTTPS) en optioneel poort 80 (HTTP, voor doorverwijzing naar HTTPS).
 
-## Checking Requirements
+## Vereisten controleren
 
-After placing the Chamilo source on your server, you can check your PHP configuration directly:
+Nadat u de Chamilo-broncode op uw server hebt geplaatst, kunt u uw PHP-configuratie direct controleren:
 
 ```bash
-php -m          # List installed extensions
-php -i          # Full PHP info
+php -m          # Lijst met geïnstalleerde extensies
+php -i          # Volledige PHP-informatie
 ```
 
 ## Tips
 
-* **Use PHP-FPM** with Apache or Nginx for better performance than mod_php.
-* **Separate your database** onto a dedicated server for platforms expecting more than 500 concurrent users.
-* **Use SSD storage** -- Database-heavy applications like Chamilo benefit significantly from fast disk I/O.
+* **Gebruik PHP-FPM** met Apache of Nginx voor betere prestaties dan mod_php.
+* **Scheid uw database** naar een dedicated server voor platforms die meer dan 500 gelijktijdige gebruikers verwachten.
+* **Gebruik SSD-opslag** -- Database-intensieve toepassingen zoals Chamilo profiteren aanzienlijk van snelle schijf-I/O.

@@ -1,103 +1,103 @@
-# Managing Users
+# Gebruikers beheren
 
-This page covers the day-to-day tasks of creating, editing, and managing user accounts.
+Deze pagina behandelt de dagelijkse taken voor het aanmaken, bewerken en beheren van gebruikersaccounts.
 
-## User List
+## Gebruikerslijst
 
-![The user list showing accounts with name, email, role, and status columns](/.gitbook/assets/admin-user-list.png)
+![De gebruikerslijst met accounts, inclusief kolommen voor naam, e-mail, rol en status](/.gitbook/assets/admin-user-list.png)
 
-From the administration panel, click **User list** to see all users on the platform. The list shows:
+Klik in het beheerderspaneel op **Gebruikerslijst** om alle gebruikers op het platform te bekijken. De lijst toont:
 
 * Avatar
-* Name
-* Username
-* Email address
-* Roles
-* Active/inactive status
-* Registration date
-* Last login date
+* Naam
+* Gebruikersnaam
+* E-mailadres
+* Rollen
+* Actieve/inactieve status
+* Registratiedatum
+* Datum van laatste aanmelding
 
-Use the **Advanced search** tool to find specific users by name, email, role, or other criteria.
+Gebruik de **Geavanceerd zoeken**-tool om specifieke gebruikers te vinden op basis van naam, e-mail, rol of andere criteria.
 
-## Creating a User
+## Een gebruiker aanmaken
 
-![The user creation form with fields for name, email, username, password, role, and language](/.gitbook/assets/admin-user-create-form.png)
+![Het formulier voor het aanmaken van een gebruiker met velden voor naam, e-mail, gebruikersnaam, wachtwoord, rol en taal](/.gitbook/assets/admin-user-create-form.png)
 
-1. Click **Add a user** from the administration panel
-2. Fill in the required fields:
-   * **First name** and **Last name**
-   * **Email** — Must be unique on the platform
-   * **Username** — The login name (must be unique)
-   * **Password** — Set an initial password
-   * **Roles** — Select the user's platform role(s) (student, teacher, admin, etc.)
-   * **Language** — The user's preferred interface language
-3. Optionally fill in additional fields:
-   * Official code (e.g. unique ID in the organization)
-   * Phone number
-   * Expiration date — Automatically deactivate the account after a date
-   * Active/inactive status
-   * Extra profile fields (if configured)
-4. Save
+1. Klik op **Gebruiker toevoegen** in het beheerderspaneel
+2. Vul de verplichte velden in:
+   * **Voornaam** en **Achternaam**
+   * **E-mail** — Moet uniek zijn op het platform
+   * **Gebruikersnaam** — De inlognaam (moet uniek zijn)
+   * **Wachtwoord** — Stel een initieel wachtwoord in
+   * **Rollen** — Selecteer de platformrol(len) van de gebruiker (student, docent, beheerder, enz.)
+   * **Taal** — De voorkeurstaal van de gebruiker voor de interface
+3. Vul optioneel aanvullende velden in:
+   * Officiële code (bijv. unieke ID binnen de organisatie)
+   * Telefoonnummer
+   * Vervaldatum — Deactiveer het account automatisch na een bepaalde datum
+   * Actieve/inactieve status
+   * Extra profielvelden (indien geconfigureerd)
+4. Opslaan
 
-## Importing Users
+## Gebruikers importeren
 
-![The user import interface for uploading CSV or XML files with user data](/.gitbook/assets/admin-user-import.png)
+![De interface voor het importeren van gebruikers door CSV- of XML-bestanden met gebruikersgegevens te uploaden](/.gitbook/assets/admin-user-import.png)
 
-For bulk user creation, you can import users from a file:
+Voor het aanmaken van meerdere gebruikers tegelijk kunt u gebruikers importeren vanuit een bestand:
 
-1. Click **Import users** from the administration panel
-2. Upload a **CSV** or **XML** file with user data
-3. Map the file columns to Chamilo user fields
-4. Choose how to handle existing users (update or skip)
-5. Import
+1. Klik op **Gebruikers importeren** in het beheerderspaneel
+2. Upload een **CSV**- of **XML**-bestand met gebruikersgegevens
+3. Koppel de kolommen van het bestand aan de gebruikersvelden van Chamilo
+4. Kies hoe bestaande gebruikers moeten worden behandeld (bijwerken of overslaan)
+5. Importeren
 
-The import file should contain columns for at least: first name, last name, email, username, and password.
+Het importbestand moet minimaal kolommen bevatten voor: voornaam, achternaam, e-mail, gebruikersnaam en wachtwoord.
 
-Note: The **Status** column is the legacy name for **Role** and only accepts a few values, like 1 for teacher, 5 for student. Further tuniing of the roles can only be done by hand later on, editing the user.
+Opmerking: De kolom **Status** is de oude benaming voor **Rol** en accepteert slechts enkele waarden, zoals 1 voor docent, 5 voor student. Verdere aanpassing van de rollen kan later alleen handmatig worden gedaan door de gebruiker te bewerken.
 
-## Exporting Users
+## Gebruikers exporteren
 
-Click **Export users** to download the user list as a CSV or XML file. You can filter which users to export by role, registration date, or other criteria.
+Klik op **Gebruikers exporteren** om de gebruikerslijst te downloaden als CSV- of XML-bestand. U kunt filteren welke gebruikers u wilt exporteren op basis van rol, registratiedatum of andere criteria.
 
-## Editing a User
+## Een gebruiker bewerken
 
-Click on a user's name in the user list to edit their account. You can modify:
+Klik op de naam van een gebruiker in de gebruikerslijst om hun account te bewerken. U kunt het volgende aanpassen:
 
-* Personal information (name, email, phone)
-* Roles
-* Password (reset)
-* Active/inactive status
-* Expiration date
-* Extra profile fields
+* Persoonlijke informatie (naam, e-mail, telefoon)
+* Rollen
+* Wachtwoord (resetten)
+* Actieve/inactieve status
+* Vervaldatum
+* Extra profielvelden
 
-## Deleting a User
+## Een gebruiker verwijderen
 
-When deleting users (usually teachers) who have created content on the platform, the system might prevent you from deleting the users permanently, and will show a warning message explaining the user is still attached to some of the resources. If you confirm the deletion, the system will not delete the content itself but attach it to a neutral user (we call it the "Fallback user") for data consistency reasons.
+Bij het verwijderen van gebruikers (meestal docenten) die inhoud op het platform hebben aangemaakt, kan het systeem voorkomen dat u de gebruikers permanent verwijdert. Er wordt dan een waarschuwingsbericht weergegeven dat de gebruiker nog steeds aan bepaalde bronnen is gekoppeld. Als u de verwijdering bevestigt, zal het systeem de inhoud niet verwijderen, maar deze koppelen aan een neutrale gebruiker (de zogenaamde "Fallback user") om de consistentie van gegevens te waarborgen.
 
-To avoid this, check the user details, delete each of their courses one by one, then delete the user.
+Om dit te vermijden, controleert u de gebruikersdetails, verwijdert u hun cursussen een voor een en verwijdert u vervolgens de gebruiker.
 
-## User Actions
+## Gebruikersacties
 
-| Action | Description |
-|--------|-------------|
-| **Deactivate** | Disable a user's account without deleting it. The user cannot log in but their data is preserved. |
-| **Activate** | Re-enable a previously deactivated account. |
-| **Login as** | Log in to the platform as this user (impersonation). Useful for troubleshooting. |
-| **Anonymize** | Erase all of the account's personal information, as defined by the EU's GDPR. |
-| **Delete** | Soft delete the user account. Use the **Deleted users** tab to permanently delete the account and associated data. |
+| Actie | Beschrijving |
+|-------|--------------|
+| **Deactiveren** | Schakel een gebruikersaccount uit zonder deze te verwijderen. De gebruiker kan niet inloggen, maar de gegevens blijven behouden. |
+| **Activeren** | Activeer een eerder gedeactiveerd account opnieuw. |
+| **Inloggen als** | Log in op het platform als deze gebruiker (imitatie). Handig voor het oplossen van problemen. |
+| **Anonimiseren** | Verwijder alle persoonlijke informatie van het account, zoals gedefinieerd door de GDPR van de EU. |
+| **Verwijderen** | Voer een zachte verwijdering van het gebruikersaccount uit. Gebruik het tabblad **Verwijderde gebruikers** om het account en de bijbehorende gegevens permanent te verwijderen. |
 
-> **Login as** is a powerful feature. Use it responsibly and only for legitimate support purposes.
+> **Inloggen als** is een krachtige functie. Gebruik deze verantwoordelijk en alleen voor legitieme ondersteuningsdoeleinden.
 
-## Batch Operations
+## Batchbewerkingen
 
-Select multiple users in the user list to perform batch actions:
+Selecteer meerdere gebruikers in de gebruikerslijst om batchacties uit te voeren:
 
-* Activate or deactivate multiple users at once
-* Delete multiple users
-* Assign users to a course or session
+* Activeer of deactiveer meerdere gebruikers tegelijk
+* Verwijder meerdere gebruikers
+* Wijs gebruikers toe aan een cursus of sessie
 
 ## Tips
 
-* **Use CSV import for large enrollments** — When onboarding many users at the start of a training program, prepare a CSV file and import in bulk
-* **Set expiration dates** — For temporary users (workshop participants, trial users), set an expiration date to automatically deactivate their accounts
-* **Deactivate rather than delete** — When a user leaves, deactivate their account first. This preserves their training records. Only delete if you are sure the data is no longer needed.
+* **Gebruik CSV-import voor grote inschrijvingen** — Bij het onboarden van veel gebruikers aan het begin van een trainingsprogramma, bereid een CSV-bestand voor en importeer in bulk
+* **Stel vervaldata in** — Voor tijdelijke gebruikers (workshopdeelnemers, proefgebruikers), stel een vervaldatum in om hun accounts automatisch te deactiveren
+* **Deactiveer in plaats van verwijderen** — Wanneer een gebruiker vertrekt, deactiveer eerst hun account. Dit behoudt hun trainingsgegevens. Verwijder alleen als u zeker weet dat de gegevens niet langer nodig zijn.

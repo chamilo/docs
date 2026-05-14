@@ -1,29 +1,29 @@
 # Portfolio
 
-The portfolio tool lets learners collect and showcase their work throughout the course. It serves as a digital portfolio where learners can compile their best work, reflections, and achievements.
+De portfolio-tool stelt leerlingen in staat om hun werk gedurende de cursus te verzamelen en te presenteren. Het dient als een digitaal portfolio waarin leerlingen hun beste werk, reflecties en prestaties kunnen samenstellen.
 
-## How Portfolios Work
+## Hoe Portfolios Werken
 
-Each learner has a personal portfolio within the course where they can:
+Elke leerling heeft een persoonlijk portfolio binnen de cursus waarin ze:
 
-* **Add items** — Write text entries with the rich-text editor and attach one or more files to each item
-* **Organize content** — Tag items so they can be filtered by topic
-* **Share selectively** — Set the visibility of each item: hidden, visible to the course, hidden except for the teacher, or shared with selected users when advanced sharing is enabled
+* **Items toevoegen** — Tekstvermeldingen schrijven met de rich-text editor en een of meer bestanden aan elk item koppelen
+* **Inhoud organiseren** — Items taggen zodat ze kunnen worden gefilterd op onderwerp
+* **Selectief delen** — De zichtbaarheid van elk item instellen: verborgen, zichtbaar voor de cursus, verborgen behalve voor de docent, of gedeeld met geselecteerde gebruikers wanneer geavanceerd delen is ingeschakeld
 
-## As a Teacher
+## Als Docent
 
-You can use portfolios for:
+U kunt portfolios gebruiken voor:
 
-* **Reflective learning** — Ask learners to maintain a portfolio of reflections on their learning journey
-* **Competency demonstration** — Have learners collect evidence of skills and knowledge
-* **Assessment** — Review portfolio contents as part of your evaluation
+* **Reflectief leren** — Vraag leerlingen om een portfolio bij te houden met reflecties op hun leertraject
+* **Demonstratie van competenties** — Laat leerlingen bewijs verzamelen van vaardigheden en kennis
+* **Beoordeling** — Bekijk de inhoud van het portfolio als onderdeel van uw evaluatie
 
-To view a learner's portfolio, open the portfolio tool and filter the items list by user.
+Om het portfolio van een leerling te bekijken, opent u de portfolio-tool en filtert u de lijst met items op gebruiker.
 
-If the course is configured to allow it, you can score portfolio items and individual comments — these scores can then feed into the gradebook. You can also **highlight** items you want to draw attention to, and mark items or comments as **templates** so you (or learners) can reuse them as a starting point for new entries. Portfolios can be exported as **PDF** or **ZIP**.
+Als de cursus zo is geconfigureerd dat dit mogelijk is, kunt u portfolio-items en individuele opmerkingen beoordelen met een score — deze scores kunnen vervolgens worden opgenomen in het cijferboek. U kunt ook items **markeren** om er de aandacht op te vestigen, en items of opmerkingen als **sjablonen** markeren zodat u (of leerlingen) ze kunnen hergebruiken als startpunt voor nieuwe vermeldingen. Portfolios kunnen worden geëxporteerd als **PDF** of **ZIP**.
 
 ## Tips
 
-* **Define expectations** — Tell learners what kinds of items to include and how to organize their portfolio
-* **Review regularly** — Check portfolios periodically rather than only at the end of the course
-* **Combine with skills** — Use portfolios alongside the skills/certificates system to create a comprehensive competency record
+* **Verwachtingen definiëren** — Vertel leerlingen welke soorten items ze moeten opnemen en hoe ze hun portfolio moeten organiseren
+* **Regelmatig controleren** — Bekijk portfolios periodiek in plaats van alleen aan het einde van de cursus
+* **Combineren met vaardigheden** — Gebruik portfolios samen met het vaardigheden/certificaten-systeem om een uitgebreid competentiedossier op te bouwen

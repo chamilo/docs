@@ -1,53 +1,53 @@
 # Backups
 
-Regular backups are essential for protecting your Chamilo data. This page covers what to back up and how.
+Regelmatige back-ups zijn essentieel voor het beschermen van uw Chamilo-gegevens. Deze pagina behandelt wat u moet back-uppen en hoe u dat doet.
 
-## What to Back Up
+## Wat te back-uppen
 
 ### 1. Database
 
-The Chamilo database contains all platform data: users, courses, tracking, grades, messages, and settings. This is the most critical component to back up.
+De Chamilo-database bevat alle platformgegevens: gebruikers, cursussen, tracking, cijfers, berichten en instellingen. Dit is het meest cruciale onderdeel om te back-uppen.
 
-**How to back up:**
+**Hoe te back-uppen:**
 
 ```bash
 mysqldump -u username -p chamilo_database > chamilo_backup_$(date +%Y%m%d).sql
 ```
 
-### 2. Files
+### 2. Bestanden
 
-Chamilo stores uploaded files (documents, images, SCORM packages) in the filesystem. The key directories to back up:
+Chamilo slaat geüploade bestanden (documenten, afbeeldingen, SCORM-pakketten) op in het bestandssysteem. De belangrijkste mappen om te back-uppen zijn:
 
-* `var/` — Uploaded files and resources
-* `public/plugin/` — Plugin files (only if you have added custom plugins)
+* `var/` — Geüploade bestanden en bronnen
+* `public/plugin/` — Pluginbestanden (alleen als u aangepaste plugins hebt toegevoegd)
 
-If you use cloud storage (S3, Azure Blob), ensure your cloud provider's backup/versioning is enabled.
+Als u cloudopslag gebruikt (S3, Azure Blob), zorg er dan voor dat de back-up-/versiebeheerfunctie van uw cloudprovider is ingeschakeld.
 
-### 3. Configuration
+### 3. Configuratie
 
-* `.env` — Your environment configuration
-* `config/` — Any custom configuration files
+* `.env` — Uw omgevingsconfiguratie
+* `config/` — Eventuele aangepaste configuratiebestanden
 
-## Backup Schedule
+## Back-upschema
 
-| Component | Recommended frequency |
-|-----------|---------------------|
-| Database | Daily |
-| Files | Daily or weekly (depending on upload activity) |
-| Configuration | After any configuration change |
+| Component | Aanbevolen frequentie |
+|-----------|-----------------------|
+| Database | Dagelijks |
+| Bestanden | Dagelijks of wekelijks (afhankelijk van uploadactiviteit) |
+| Configuratie | Na elke configuratiewijziging |
 
-## Restoration
+## Herstel
 
-To restore from a backup:
+Om te herstellen vanuit een back-up:
 
-1. Restore the database from the SQL dump
-2. Restore the file directories
-3. Restore the configuration files
-4. Clear the Symfony cache: `php bin/console cache:clear`
+1. Herstel de database vanuit de SQL-dump
+2. Herstel de bestandsmappen
+3. Herstel de configuratiebestanden
+4. Leeg de Symfony-cache: `php bin/console cache:clear`
 
 ## Tips
 
-* **Automate backups** — Use cron jobs to run backups automatically
-* **Store off-site** — Keep backup copies on a separate server or cloud storage
-* **Test restoration** — Periodically test that you can restore from a backup successfully
-* **Document your process** — Keep written instructions for the restoration process so anyone on the team can perform it
+* **Automatiseer back-ups** — Gebruik cron-jobs om back-ups automatisch uit te voeren
+* **Sla op buiten de locatie** — Bewaar back-upkopieën op een aparte server of in cloudopslag
+* **Test het herstel** — Test regelmatig of u succesvol kunt herstellen vanuit een back-up
+* **Documenteer uw proces** — Houd schriftelijke instructies voor het herstelproces bij, zodat iedereen in het team dit kan uitvoeren

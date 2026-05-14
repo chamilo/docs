@@ -1,108 +1,107 @@
-# Course Catalog Settings
+# Cursuscatalogusinstellingen
 
-Behaviour of the course catalog (the public list where users can browse and self-enroll).
+Gedrag van de cursuscatalogus (de openbare lijst waar gebruikers cursussen kunnen bekijken en zich zelfstandig kunnen inschrijven).
 
-Access these settings under **Administration > Configuration settings > Course Catalog**. This category contains **13 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+Ga naar deze instellingen via **Beheer > Configuratie-instellingen > Cursuscatalogus**. Deze categorie bevat **13 instellingen**, hieronder opgesomd met de titel en opmerking zoals meegeleverd in de platforminstellingen (`SettingsCurrentFixtures.php`).
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> De variabelenaam in de code wordt weergegeven in monospace. Gebruik deze bij het scripten via de API of wanneer u deze instellingen op globaal niveau wilt wijzigen door [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml) te bewerken.
 
-## Settings
+## Instellingen
 
 ### `allow_session_auto_subscription`
 
-**Auto Session Subscription**
+**Automatische Sessie-inschrijving**
 
-Enable automatic subscription to sessions for users.
+Schakel automatische inschrijving voor sessies in voor gebruikers.
 
-*Default: `false`*
+*Standaard: `false`*
 
 ### `allow_students_to_browse_courses`
 
-**Allow Student Browsing**
+**Studenten Toestaan om te Bladeren**
 
-Permit students to browse and filter the course catalog.
+Sta studenten toe om de cursuscatalogus te bekijken en te filteren.
 
-*Default: `true`*
+*Standaard: `true`*
 
 ### `course_catalog_display_in_home`
 
-**Display Catalog on Homepage**
+**Catalogus Weergeven op Startpagina**
 
-Show the course catalog block on the platform homepage.
+Toon het cursuscatalogusblok op de startpagina van het platform.
 
-*Default: `false`*
+*Standaard: `false`*
 
 ### `course_catalog_hide_private`
 
-**Hide Private Courses**
+**Privécursussen Verbergen**
 
-Exclude private courses from the catalog display.
+Sluit privécursussen uit van weergave in de catalogus.
 
-*Default: `true`*
+*Standaard: `true`*
 
 ### `course_catalog_published`
 
-**Publish course catalogue**
+**Cursuscatalogus Publiceren**
 
-Make the courses catalogue available to anonymous users (the general public) without the need to login.
+Maak de cursuscatalogus beschikbaar voor anonieme gebruikers (het algemene publiek) zonder dat inloggen nodig is.
 
-*Default: `false`*
+*Standaard: `false`*
 
 ### `course_catalog_settings`
 
-**Course catalogue settings**
+**Cursuscatalogusinstellingen**
 
-JSON configuration for course catalog: link settings, filters, sort options, and more.
+JSON-configuratie voor de cursuscatalogus: koppelingsinstellingen, filters, sorteeropties en meer.
 
 ### `course_subscription_in_user_s_session`
 
-**Subscription in Session View**
+**Inschrijving in Sessieweergave**
 
-Allow users to subscribe to courses directly from their session page.
+Sta gebruikers toe om zich rechtstreeks vanuit hun sessiepagina in te schrijven voor cursussen.
 
-*Default: `false`*
+*Standaard: `false`*
 
 ### `hide_public_link`
 
-**Hide Public Link**
+**Publieke Link Verbergen**
 
-Remove the public URL link from course cards.
+Verwijder de publieke URL-link van cursuskaarten.
 
-*Default: `false`*
+*Standaard: `false`*
 
 ### `only_show_course_from_selected_category`
 
-**Only show matching categories in courses catalogue**
+**Alleen Overeenkomende Categorieën Tonen in Cursuscatalogus**
 
-When not empty, only the courses from the given categories will appear in the courses catalogue.
+Indien niet leeg, worden alleen cursussen uit de opgegeven categorieën weergegeven in de cursuscatalogus.
 
 ### `only_show_selected_courses`
 
-**Only Selected Courses**
+**Alleen Geselecteerde Cursussen**
 
-Show only manually selected courses in the catalog.
+Toon alleen handmatig geselecteerde cursussen in de catalogus.
 
-*Default: `false`*
+*Standaard: `false`*
 
 ### `session_catalog_settings`
 
-**Session Catalog Settings**
+**Sessie-catalogusinstellingen**
 
-JSON configuration for session catalog: filters and display options.
+JSON-configuratie voor de sessiecatalogus: filters en weergave-opties.
 
 ### `show_courses_descriptions_in_catalog`
 
-**Show Course Descriptions**
+**Cursusbeschrijvingen Tonen**
 
-Display course descriptions within the catalog listing.
+Toon cursusbeschrijvingen binnen de cataloguslijst.
 
-*Default: `false`*
+*Standaard: `false`*
 
 ### `show_courses_sessions`
 
-**Show Courses & Sessions**
+**Cursussen en Sessies Tonen**
 
-Include both courses and sessions in catalog results.
+Neem zowel cursussen als sessies op in de catalogusresultaten.
 
-*Default: `0`*
-
+*Standaard: `0`*

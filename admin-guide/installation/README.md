@@ -1,29 +1,29 @@
-# Installation
+# Installatie
 
-This section covers everything you need to install and configure Chamilo 2.0 on your server.
+Deze sectie behandelt alles wat u nodig heeft om Chamilo 2.0 op uw server te installeren en te configureren.
 
-Chamilo 2.0 is a PHP application built on the Symfony framework. It can run on most Linux-based servers, has been installed and runs on Windows Server with IIS, and supports MySQL and MariaDB backends.
+Chamilo 2.0 is een PHP-applicatie gebouwd op het Symfony-framework. Het kan draaien op de meeste Linux-gebaseerde servers, is geïnstalleerd en werkt op Windows Server met IIS, en ondersteunt MySQL- en MariaDB-backends.
 
-## Installation Steps
+## Installatiestappen
 
-1. **[Server Requirements](server-requirements.md)** — Verify your server meets the minimum requirements
-2. **[Installation Wizard](installation-wizard.md)** — Run the web-based installation wizard
-3. **[Configuration](configuration.md)** — Configure environment variables and Symfony settings
-4. **[Cloud Storage](cloud-storage.md)** — Set up cloud storage backends (optional)
-5. **[Email Configuration](email-configuration.md)** — Configure email delivery
-6. **[Upgrading](upgrading.md)** — Upgrade from a previous version
+1. **[Serververeisten](server-requirements.md)** — Controleer of uw server voldoet aan de minimale vereisten
+2. **[Installatiewizard](installation-wizard.md)** — Voer de webgebaseerde installatiewizard uit
+3. **[Configuratie](configuration.md)** — Configureer omgevingsvariabelen en Symfony-instellingen
+4. **[Cloudopslag](cloud-storage.md)** — Stel cloudopslag-backends in (optioneel)
+5. **[E-mailconfiguratie](email-configuration.md)** — Configureer e-mailbezorging
+6. **[Upgraden](upgrading.md)** — Upgrade vanaf een eerdere versie
 
-## Quick Overview
+## Snel Overzicht
 
-The basic installation process is:
+Het basisinstallatieproces is als volgt:
 
-1. Download or clone the Chamilo source code
-2. Install PHP dependencies with Composer if preparing from source
-3. Install JavaScript dependencies with npm/yarn and build frontend assets
-4. Create an empty `.env` file to store your database credentials and other settings later on
-5. Change permissions (writeable by the web server) on *var/*, *config/* and *.env*
-6. Run the web-based installation wizard
-7. Connect with your first administrator account
-8. Change permissions back on *config/* and *.env*
+1. Download of kloon de Chamilo-broncode
+2. Installeer PHP-afhankelijkheden met Composer als u vanaf de bron voorbereidt
+3. Installeer JavaScript-afhankelijkheden met npm/yarn en bouw frontend-assets
+4. Maak een leeg `.env`-bestand aan om later uw databasegegevens en andere instellingen op te slaan
+5. Wijzig de rechten (beschrijfbaar door de webserver) op *var/*, *config/* en *.env*
+6. Voer de webgebaseerde installatiewizard uit
+7. Maak verbinding met uw eerste beheerdersaccount
+8. Wijzig de rechten terug op *config/* en *.env*
 
-Detailed instructions for each step are in the pages linked above.
+Gedetailleerde instructies voor elke stap vindt u in de bovenstaande gelinkte pagina's.

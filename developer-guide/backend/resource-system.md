@@ -1,80 +1,80 @@
-# Resource System
+# Resource Systeem
 
-The resource system is one of the most important architectural concepts in Chamilo 2.0. It provides a unified abstraction for all course content — documents, exercises, learning paths, forum posts, and more.
+Het resource systeem is een van de belangrijkste architecturale concepten in Chamilo 2.0. Het biedt een uniforme abstractie voor alle cursusinhoud — documenten, oefeningen, leerpaden, forumposts en meer.
 
-## Core Concept
+## Kernconcept
 
-Every piece of course content is represented by a **ResourceNode**. This gives all content types a common set of capabilities:
+Elk stuk cursusinhoud wordt vertegenwoordigd door een **ResourceNode**. Dit geeft alle inhoudstypen een gemeenschappelijke set van mogelijkheden:
 
-* **Visibility control** — Show/hide from learners
-* **Access control** — Security voters check permissions via the ResourceNode
-* **File storage** — Attached files are stored via ResourceFile
-* **Tree structure** — ResourceNodes form a tree (parent-child relationships)
-* **Audit trail** — Creator, creation date, modification tracking
+* **Zichtbaarheidscontrole** — Tonen/verbergen voor leerlingen
+* **Toegangscontrole** — Beveiligingsstemmers controleren rechten via de ResourceNode
+* **Bestandsopslag** — Bijgevoegde bestanden worden opgeslagen via ResourceFile
+* **Boomstructuur** — ResourceNodes vormen een boom (ouder-kind relaties)
+* **Audittrail** — Maker, aanmaakdatum, wijzigingsregistratie
 
-## Key Entities
+## Belangrijke Entiteiten
 
 ### ResourceNode (`src/CoreBundle/Entity/ResourceNode.php`)
 
-The central entity. Every content entity has a one-to-one relationship with a ResourceNode.
+De centrale entiteit. Elke inhoudsentiteit heeft een een-op-een relatie met een ResourceNode.
 
-Key fields:
+Belangrijke velden:
 
-| Field | Type | Description |
+| Veld | Type | Beschrijving |
 |-------|------|-------------|
-| `id` | integer | Primary key |
-| `uuid` | UUID v4 | Unique identifier for API use |
-| `title` | string | Display title |
-| `creator` | User | The user who created this resource |
-| `resourceFile` | ResourceFile | The attached file (if any) |
-| `resourceType` | ResourceType | The type of resource (document, quiz, etc.) |
-| `parent` | ResourceNode | Parent in the resource tree |
-| `children` | Collection | Child ResourceNodes |
-| `resourceLinks` | Collection | Visibility and access links |
+| `id` | integer | Primaire sleutel |
+| `uuid` | UUID v4 | Unieke identificator voor API-gebruik |
+| `title` | string | Weergavetitel |
+| `creator` | User | De gebruiker die deze resource heeft gemaakt |
+| `resourceFile` | ResourceFile | Het bijgevoegde bestand (indien aanwezig) |
+| `resourceType` | ResourceType | Het type resource (document, quiz, enz.) |
+| `parent` | ResourceNode | Ouder in de resourceboom |
+| `children` | Collection | Kind ResourceNodes |
+| `resourceLinks` | Collection | Zichtbaarheids- en toegangslinks |
 
-The tree uses Gedmo's **materialized path** strategy for efficient hierarchical queries.
+De boom gebruikt Gedmo's **materialized path** strategie voor efficiënte hiërarchische queries.
 
 ### ResourceFile (`src/CoreBundle/Entity/ResourceFile.php`)
 
-Stores the actual file data for a resource:
+Slaat de daadwerkelijke bestandsgegevens op voor een resource:
 
-| Field | Type | Description |
+| Veld | Type | Beschrijving |
 |-------|------|-------------|
-| `id` | integer | Primary key |
-| `title` | string | Original filename |
-| `mimeType` | string | MIME type |
-| `originalName` | string | Original upload name |
-| `size` | integer | File size in bytes |
-| `crop` | string | Crop data (for images) |
+| `id` | integer | Primaire sleutel |
+| `title` | string | Originele bestandsnaam |
+| `mimeType` | string | MIME-type |
+| `originalName` | string | Originele uploadnaam |
+| `size` | integer | Bestandsgrootte in bytes |
+| `crop` | string | Bijsnijdgegevens (voor afbeeldingen) |
 
-File storage is handled by Flysystem, so files can be on local disk, S3, Azure, or GCS depending on configuration.
+Bestandsopslag wordt afgehandeld door Flysystem, dus bestanden kunnen op lokale schijf, S3, Azure of GCS staan, afhankelijk van de configuratie.
 
 ### ResourceLink
 
-Controls visibility and access per context. There are 3 main context types:
+Beheert zichtbaarheid en toegang per context. Er zijn 3 hoofdcontexttypen:
 
-1. Course
-2. Session
-3. Group (in a course)
+1. Cursus
+2. Sessie
+3. Groep (in een cursus)
 
-So the ResourceLink entity reflects the combination of those 3 context types and establishes a visibility for that complete context:
+De ResourceLink-entiteit weerspiegelt de combinatie van deze 3 contexttypen en stelt een zichtbaarheid vast voor die volledige context:
 
-| Field | Type | Description |
+| Veld | Type | Beschrijving |
 |-------|------|-------------|
-| `course` | Course | Which course the resource belongs to |
-| `session` | Session | Which session (null for base course) |
-| `group` | CGroup | Which group (null for whole course) |
-| `visibility` | integer | Visible, invisible, or deleted |
+| `course` | Course | Bij welke cursus de resource hoort |
+| `session` | Session | Bij welke sessie (null voor basiscursus) |
+| `group` | CGroup | Bij welke groep (null voor hele cursus) |
+| `visibility` | integer | Zichtbaar, onzichtbaar of verwijderd |
 
-This allows the same ResourceNode to have different visibility in different contexts (e.g., visible in one session but hidden in another).
+Dit maakt het mogelijk dat dezelfde ResourceNode verschillende zichtbaarheid heeft in verschillende contexten (bijvoorbeeld zichtbaar in één sessie maar verborgen in een andere).
 
-This is set automatically when using the interface and deciding, for example, that a resource is a session-specific resource which will be visible for all groups in a given course in a given session, but invisible in the base course or in another session.
+Dit wordt automatisch ingesteld bij gebruik van de interface en het beslissen, bijvoorbeeld, dat een resource een sessie-specifieke resource is die zichtbaar zal zijn voor alle groepen in een bepaalde cursus in een bepaalde sessie, maar onzichtbaar in de basiscursus of in een andere sessie.
 
-By default, resources visible in a base course are also visible in all sessions of that course, but the course tutor can decide to hide a resource from a specific session. In this case, we will retrieve the specific visibility for this resource in this session and see that it has a visibility of 0, so the item will not appear to learners in this session, while a lack of session-specific visibility in other sessions will make the resource use the visibility of the base course (and the resource will show to learners).
+Standaard zijn resources die zichtbaar zijn in een basiscursus ook zichtbaar in alle sessies van die cursus, maar de cursusbegeleider kan beslissen om een resource te verbergen voor een specifieke sessie. In dit geval zullen we de specifieke zichtbaarheid voor deze resource in deze sessie ophalen en zien dat deze een zichtbaarheid van 0 heeft, waardoor het item niet aan leerlingen in deze sessie wordt getoond, terwijl een gebrek aan sessie-specifieke zichtbaarheid in andere sessies ervoor zorgt dat de resource de zichtbaarheid van de basiscursus gebruikt (en de resource aan leerlingen wordt getoond).
 
-## API Platform Integration
+## API Platform Integratie
 
-ResourceNode is exposed as an API Platform resource with security:
+ResourceNode wordt blootgesteld als een API Platform resource met beveiliging:
 
 ```php
 #[ApiResource(
@@ -87,9 +87,9 @@ ResourceNode is exposed as an API Platform resource with security:
 )]
 ```
 
-## How Content Entities Connect
+## Hoe Inhoudsentiteiten Verbinden
 
-Course content entities (CDocument, CQuiz, CLp, etc.) extend `AbstractResource` or implement `ResourceInterface`, which gives them a `resourceNode` relationship:
+Cursusinhoudsentiteiten (CDocument, CQuiz, CLp, enz.) breiden `AbstractResource` uit of implementeren `ResourceInterface`, wat hen een `resourceNode` relatie geeft:
 
 ```php
 // In CDocument entity:
@@ -97,14 +97,14 @@ Course content entities (CDocument, CQuiz, CLp, etc.) extend `AbstractResource` 
 private ResourceNode $resourceNode;
 ```
 
-When you create a CDocument, a ResourceNode is automatically created alongside it, providing unified resource management.
+Wanneer je een CDocument aanmaakt, wordt automatisch een ResourceNode naast deze aangemaakt, wat uniform resourcebeheer biedt.
 
-## Practical Implications
+## Praktische Implicaties
 
-When working with course content:
+Bij het werken met cursusinhoud:
 
-1. **Creating content** — Create both the content entity AND its ResourceNode
-2. **Checking permissions** — Use the ResourceNode's security voters
-3. **Managing files** — Attach files through ResourceFile
-4. **Controlling visibility** — Create/modify ResourceLinks
-5. **Building trees** — Use the parent-child relationship on ResourceNode for folder structures (e.g., document folders)
+1. **Inhoud aanmaken** — Maak zowel de inhoudsentiteit ALS de bijbehorende ResourceNode aan
+2. **Rechten controleren** — Gebruik de beveiligingsstemmers van de ResourceNode
+3. **Bestanden beheren** — Voeg bestanden toe via ResourceFile
+4. **Zichtbaarheid beheren** — Maak/wijzig ResourceLinks
+5. **Boomstructuren bouwen** — Gebruik de ouder-kind relatie op ResourceNode voor mapstructuren (bijvoorbeeld documentmappen)

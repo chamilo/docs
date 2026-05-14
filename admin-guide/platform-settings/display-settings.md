@@ -1,202 +1,203 @@
-# Display Settings
+# Weergave-instellingen
 
-How the platform is displayed to users — homepage layout, gravatar, menus, branding behaviour and similar visual preferences.
+Hoe het platform aan gebruikers wordt weergegeven — lay-out van de startpagina, gravatar, menu's, brandinggedrag en vergelijkbare visuele voorkeuren.
 
-Access these settings under **Administration > Configuration settings > Display**. This category contains **24 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+Ga naar deze instellingen via **Beheer > Configuratie-instellingen > Weergave**. Deze categorie bevat **24 instellingen**, hieronder opgesomd met de titel en opmerking zoals meegeleverd in de instellingenfixtures van het platform (`SettingsCurrentFixtures.php`).
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> De variabelenaam in de code wordt in monospace weergegeven. Gebruik deze bij het scripten via de API of wanneer u deze instellingen op globaal niveau wilt wijzigen door [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml) te bewerken.
 
-## Settings
+## Instellingen
 
 ### `accessibility_font_resize`
 
-**Font resize accessibility feature**
+**Lettergrootte aanpassen voor toegankelijkheid**
 
-Enable this option to show a set of font resize options on the top-right side of your campus. This will allow visually impaired to read their course contents more easily.
+Schakel deze optie in om een set opties voor het aanpassen van de lettergrootte rechtsboven op uw campus weer te geven. Dit helpt visueel beperkte gebruikers om de inhoud van hun cursussen gemakkelijker te lezen.
 
-*Default: `false`*
+*Standaard: `false`*
 
 ### `display_categories_on_homepage`
 
-**Display categories on home page**
+**Categorieën weergeven op de startpagina**
 
-This option will display or hide courses categories on the portal home page
+Met deze optie kunt u cursusCategorieën op de startpagina van het portaal weergeven of verbergen.
 
-*Default: `false`*
+*Standaard: `false`*
 
 ### `enable_help_link`
 
-**Enable help link**
+**Hulplink inschakelen**
 
-The Help link is located in the top right part of the screen
+De hulplink bevindt zich in de rechterbovenhoek van het scherm.
 
-*Default: `true`*
+*Standaard: `true`*
 
 ### `gravatar_enabled`
 
-**Gravatar user pictures**
+**Gravatar gebruikersafbeeldingen**
 
-Enable this option to search into the Gravatar repository for pictures of the current user, if the user hasn't defined a picture locally. This is great to auto-fill pictures on your site, in particular if your users are active internet users. Gravatar pictures can be configured easily, based on the e-mail address of a user, at http://en.gravatar.com/
+Schakel deze optie in om in de Gravatar-repository te zoeken naar afbeeldingen van de huidige gebruiker, als de gebruiker lokaal geen afbeelding heeft ingesteld. Dit is ideaal om automatisch afbeeldingen op uw site in te vullen, vooral als uw gebruikers actieve internetgebruikers zijn. Gravatar-afbeeldingen kunnen eenvoudig worden geconfigureerd op basis van het e-mailadres van een gebruiker via http://en.gravatar.com/
 
-*Default: `false`*
+*Standaard: `false`*
 
 ### `gravatar_type`
 
-**Gravatar avatar type**
+**Gravatar avatar-type**
 
-If the Gravatar option is enabled and the user doesn't have a picture configured on Gravatar, this option allows you to choose the type of avatar that Gravatar will generate for each user. Check <a href='http://en.gravatar.com/site/implement/images#default-image'>http://en.gravatar.com/site/implement/images#default-image</a> for avatar types examples.
+Als de Gravatar-optie is ingeschakeld en de gebruiker heeft geen afbeelding ingesteld op Gravatar, kunt u met deze optie het type avatar kiezen dat Gravatar voor elke gebruiker zal genereren. Bekijk voorbeelden van avatar-types op <a href='http://en.gravatar.com/site/implement/images#default-image'>http://en.gravatar.com/site/implement/images#default-image</a>.
 
-*Default: `mm`*
+*Standaard: `mm`*
 
 ### `hide_complete_name_in_whoisonline`
 
-**Hide the complete username in 'who is online'**
+**Volledige gebruikersnaam verbergen in 'wie is online'**
 
-The 'who is online' page (if enabled) will show a picture and a name for each user currently online. Enable this option to hide the names.
+De pagina 'wie is online' (indien ingeschakeld) toont een afbeelding en een naam voor elke momenteel online gebruiker. Schakel deze optie in om de namen te verbergen.
 
-*Default: `false`*
+*Standaard: `false`*
 
 ### `hide_logout_button`
 
-**Hide logout button**
+**Uitlogknop verbergen**
 
-Hide the logout button. This is usually only interesting when using an external login/logout method, for example when using Single Sign On of some sort.
+Verberg de uitlogknop. Dit is meestal alleen interessant bij gebruik van een externe in- en uitlogmethode, bijvoorbeeld bij gebruik van Single Sign On.
 
-*Default: `false`*
+*Standaard: `false`*
 
 ### `hide_main_navigation_menu`
 
-**Hide main navigation menu**
+**Hoofdnavigatiemenu verbergen**
 
-When using Chamilo for a specific purpose (like one massive online exam), you might want to reduce distraction even more by removing the side menu.
+Bij gebruik van Chamilo voor een specifiek doel (zoals een groot online examen), wilt u mogelijk afleiding verder verminderen door het zijmenu te verwijderen.
 
-*Default: `false`*
+*Standaard: `false`*
 
 ### `hide_social_media_links`
 
-**Hide social media links**
+**Links naar sociale media verbergen**
 
-Some pages allow you to promote the portal or a course on social networks. Enable this setting to remove the links.
+Sommige pagina's stellen u in staat om het portaal of een cursus te promoten op sociale netwerken. Schakel deze instelling in om de links te verwijderen.
 
-*Default: `false`*
+*Standaard: `false`*
 
 ### `order_user_list_by_official_code`
 
-**Order users by official code**
+**Gebruikers sorteren op officiële code**
 
-Use the 'official code' to sort most students list on the platform, instead of their lastname or firstname.
+Gebruik de 'officiële code' om de meeste studentenlijsten op het platform te sorteren, in plaats van op achternaam of voornaam.
 
-*Default: `false`*
+*Standaard: `false`*
 
 ### `pdf_logo_header`
 
-**PDF header logo**
+**PDF-headerlogo**
 
-Whether to use the image at var/themes/[your-theme]/images/pdf_logo_header.png as the PDF header logo for all PDF exports (instead of the normal portal logo)
+Of de afbeelding op var/themes/[uw-thema]/images/pdf_logo_header.png moet worden gebruikt als PDF-headerlogo voor alle PDF-exporten (in plaats van het normale portaallogo).
 
 ### `show_admin_toolbar`
 
-**Show admin toolbar**
+**Beheerderstoolbar weergeven**
 
-Shows a global toolbar on top of the page to the designated user roles. This toolbar, very similar to Wordpress and Google's black toolbars, can really speed up complicated actions and improve the space you have available for the learning content, but it might be confusing for some users
+Toont een globale toolbar bovenaan de pagina voor de aangewezen gebruikersrollen. Deze toolbar, vergelijkbaar met die van Wordpress en Google, kan complexe acties versnellen en de beschikbare ruimte voor leerinhoud vergroten, maar kan voor sommige gebruikers verwarrend zijn.
 
-*Default: `do_not_show`*
+*Standaard: `do_not_show`*
 
 ### `show_back_link_on_top_of_tree`
 
-**Show back links from categories/courses**
+**Teruglinks weergeven vanuit categorieën/cursussen**
 
-Show a link to go back in the courses hierarchy. A link is available at the bottom of the list anyway.
+Toon een link om terug te gaan in de cursushiërarchie. Er is sowieso een link beschikbaar onderaan de lijst.
 
-*Default: `false`*
+*Standaard: `false`*
 
 ### `show_closed_courses`
 
-**Display closed courses on login page and portal start page?**
+**Gesloten cursussen weergeven op inlogpagina en startpagina van het portaal?**
 
-Display closed courses on the login page and courses start page? On the portal start page an icon will appear next to the courses to quickly subscribe to each courses. This will only appear on the portal's start page when the user is logged in and when the user is not subscribed to the portal yet.
+Gesloten cursussen weergeven op de inlogpagina en de startpagina van cursussen? Op de startpagina van het portaal verschijnt een pictogram naast de cursussen om snel in te schrijven voor elke cursus. Dit verschijnt alleen op de startpagina van het portaal wanneer de gebruiker is ingelogd en nog niet is ingeschreven voor het portaal.
 
-*Default: `false`*
+*Standaard: `false`*
 
 ### `show_email_addresses`
 
-**Show email addresses**
+**E-mailadressen weergeven**
 
-Show email addresses to users
+E-mailadressen tonen aan gebruikers.
 
-*Default: `false`*
+*Standaard: `false`*
 
 ### `show_empty_course_categories`
 
-**Show empty courses categories**
+**Lege cursusCategorieën weergeven**
 
-Show the categories of courses on the homepage, even if they're empty
+Toon de categorieën van cursussen op de startpagina, zelfs als ze leeg zijn.
 
-*Default: `true`*
+*Standaard: `true`*
 
 ### `show_hot_courses`
 
-**Show hot courses**
+**Populaire cursussen weergeven**
 
-The hot courses list will be added in the index page
+De lijst met populaire cursussen wordt toegevoegd aan de indexpagina.
 
-*Default: `true`*
+*Standaard: `true`*
 
 ### `show_number_of_courses`
 
-**Show courses number**
+**Aantal cursussen weergeven**
 
-Show the number of courses in each category in the courses categories on the homepage
+Toon het aantal cursussen in elke categorie in de cursusCategorieën op de startpagina.
 
-*Default: `false`*
+*Standaard: `false`*
 
+---
 ### `show_tabs`
 
-**Main menu entries**
+**Hoofdmenu-items**
 
-Check the entrie you want to see appear in the main menu
+Vink de items aan die u in het hoofdmenu wilt laten verschijnen.
 
-*Default:*
+*Standaard:*
 ```json
 {"menu":{"campus_homepage":true,"my_courses":true,"reporting":true,"platform_administration":true,"my_agenda":true,"social":true,"videoconference":false,"diagnostics":false,"catalogue":true,"session_admin":true,"search":true,"question_manager":false},"topbar":{"topbar_my_certificates":true,"topbar_my_custom_certificate":false,"topbar_skills":true}}
 ```
 
 ### `show_tabs_per_role`
 
-**Main menu entries per role**
+**Hoofdmenu-items per rol**
 
-Define header tabs visibility per role.
+Definieer de zichtbaarheid van kopteksten per rol.
 
-*Default: `{}`*
+*Standaard: `{}`*
 
 ### `showonline`
 
-**Who's Online**
+**Wie is online**
 
-Display the number of persons that are online?
+Toon het aantal personen dat momenteel online is?
 
-*Default: `world`*
+*Standaard: `world`*
 
 ### `table_default_row`
 
-**Default number of table rows**
+**Standaard aantal tabelrijen**
 
-How many rows should be shown in all tables by default.
+Hoeveel rijen moeten standaard in alle tabellen worden weergegeven.
 
-*Default: `20`*
+*Standaard: `20`*
 
 ### `table_row_list`
 
-**Default offered pagination numbers in tables**
+**Standaard aangeboden pagineringsnummers in tabellen**
 
-Set the options you want to appear in the navigation around a table to show less or more rows on one page. e.g. [50, 100, 200, 500].
+Stel de opties in die u wilt laten verschijnen in de navigatie rond een tabel om minder of meer rijen op één pagina te tonen, bijv. [50, 100, 200, 500].
 
-*Default: `[10,20,50,100]`*
+*Standaard: `[10,20,50,100]`*
 
 ### `time_limit_whosonline`
 
-**Time limit on Who Is Online**
+**Tijdslimiet voor Wie is online**
 
-This time limit defines for how many minutes after his last action a user will be considered *online*
+Deze tijdslimiet bepaalt hoeveel minuten na zijn laatste actie een gebruiker als *online* wordt beschouwd.
 
-*Default: `30`*
+*Standaard: `30`*

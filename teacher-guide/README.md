@@ -1,31 +1,31 @@
-# Teacher Guide
+# Docentenhandleiding
 
-Welcome to the Chamilo 2.0 Teacher Guide. This guide is designed for instructors, trainers, and anyone responsible for creating and delivering learning content through the Chamilo platform.
+Welkom bij de Chamilo 2.0 Docentenhandleiding. Deze handleiding is bedoeld voor docenten, trainers en iedereen die verantwoordelijk is voor het creëren en aanbieden van leermateriaal via het Chamilo-platform.
 
-Whether you are setting up your first online course or managing a complex training program, this guide will walk you through every feature available to you as a teacher.
+Of u nu uw eerste online cursus opzet of een complex trainingsprogramma beheert, deze handleiding leidt u door alle functies die voor u als docent beschikbaar zijn.
 
-## What You Can Do with Chamilo
+## Wat u kunt doen met Chamilo
 
-As a teacher in Chamilo, you can:
+Als docent in Chamilo kunt u:
 
-* **Create and organize courses** with a flexible homepage and customizable tools
-* **Add content** — upload documents, create learning paths, build glossaries, and link to external resources
-* **Assess your learners** — design exercises with multiple question types, collect assignments, run surveys, and manage grades
-* **Collaborate** — set up forums, group work, wikis, blogs, and live video sessions
-* **Track progress** — monitor learner activity, generate reports, and award certificates
-* **Use AI tools** — generate exercises and learning paths automatically, and get AI-assisted grading
+* **Cursussen maken en organiseren** met een flexibele startpagina en aanpasbare tools
+* **Inhoud toevoegen** — documenten uploaden, leerpaden maken, woordenlijsten opstellen en koppelen naar externe bronnen
+* **Uw leerlingen beoordelen** — oefeningen ontwerpen met verschillende vraagtypen, opdrachten verzamelen, enquêtes uitvoeren en cijfers beheren
+* **Samenwerken** — fora, groepswerk, wiki's, blogs en live videosessies opzetten
+* **Voortgang volgen** — leerlingactiviteit monitoren, rapporten genereren en certificaten toekennen
+* **AI-tools gebruiken** — automatisch oefeningen en leerpaden genereren en AI-ondersteunde beoordeling ontvangen
 
-## How This Guide Is Organized
+## Hoe deze handleiding is opgebouwd
 
-This guide follows the natural workflow of building and running a course:
+Deze handleiding volgt de natuurlijke workflow van het opbouwen en beheren van een cursus:
 
-1. **Getting Started** — Log in, navigate the interface, and set up your profile
-2. **Creating Your Course** — Create a new course, configure its settings, and customize the homepage
-3. **Adding Content** — Upload documents, organize learning paths, and manage resources
-4. **Assessing Learners** — Build tests, collect assignments, run surveys, and set up the gradebook
-5. **Collaboration and Communication** — Enable forums, chat, groups, wiki, and video conferencing
-6. **Tracking and Reporting** — Monitor learner progress and generate reports
-7. **AI Tools** — Use AI-powered features to generate content and assist with grading
-8. **Additional Tools** — Agenda, notebook, portfolio, and more
+1. **Aan de slag** — Inloggen, de interface verkennen en uw profiel instellen
+2. **Uw cursus maken** — Een nieuwe cursus aanmaken, de instellingen configureren en de startpagina aanpassen
+3. **Inhoud toevoegen** — Documenten uploaden, leerpaden organiseren en bronnen beheren
+4. **Leerlingen beoordelen** — Toetsen opstellen, opdrachten verzamelen, enquêtes uitvoeren en het cijferboek instellen
+5. **Samenwerking en communicatie** — Fora, chat, groepen, wiki en videoconferenties inschakelen
+6. **Volgen en rapporteren** — Voortgang van leerlingen monitoren en rapporten genereren
+7. **AI-tools** — Gebruik AI-gestuurde functies om inhoud te genereren en te helpen bij beoordeling
+8. **Aanvullende tools** — Agenda, notitieblok, portfolio en meer
 
-Let's get started.
+Laten we beginnen.

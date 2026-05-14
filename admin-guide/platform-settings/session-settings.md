@@ -1,571 +1,565 @@
-# Sessions Settings
+# Sessie-instellingen
 
-Defaults and behaviour for **Sessions** — session lifecycle, coach access windows, course visibility within a session, and similar.
+Standaardinstellingen en gedrag voor **Sessies** — levenscyclus van sessies, toegangsmomenten voor coaches, cursuszichtbaarheid binnen een sessie en vergelijkbare zaken.
 
-Access these settings under **Administration > Configuration settings > Sessions**. This category contains **68 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+Ga naar deze instellingen via **Beheer > Configuratie-instellingen > Sessies**. Deze categorie bevat **68 instellingen**, hieronder opgesomd met de titel en opmerking zoals meegeleverd in de instellingenfixtures van het platform (`SettingsCurrentFixtures.php`).
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> De variabelenaam in de code wordt weergegeven in monospace. Gebruik deze bij het scripten via de API of wanneer u deze instellingen op globaal niveau wilt wijzigen door [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml) te bewerken.
 
-## Settings
+## Instellingen
 
 ### `add_users_by_coach`
 
-**Register users by Coach**
+**Gebruikers registreren door Coach**
 
-Coach users may create users to the platform and subscribe users to a session.
+Coach-gebruikers mogen gebruikers aanmaken op het platform en gebruikers inschrijven voor een sessie.
 
-*Default: `false`*
+*Standaard: `false`*
 
 ### `allow_career_diagram`
 
-**Enable career diagrams**
+**Carrièrediagrammen inschakelen**
 
-Career diagrams allow you to display diagrams of careers, skills and courses.
+Carrièrediagrammen stellen u in staat om diagrammen van carrières, vaardigheden en cursussen weer te geven.
 
-*Default: `false`*
-
+*Standaard: `false`*
 
 ### `allow_career_users`
 
-**Enable career diagrams for users**
+**Carrièrediagrammen inschakelen voor gebruikers**
 
-If career diagrams are enabled, users can only see them (and only the diagrams that correspond to their studies) if you enable this option.
+Als carrièrediagrammen zijn ingeschakeld, kunnen gebruikers deze alleen zien (en alleen de diagrammen die overeenkomen met hun studies) als u deze optie inschakelt.
 
-*Default: `false`*
+*Standaard: `false`*
 
 ### `allow_coach_to_edit_course_session`
 
-**Allow coaches to edit inside course sessions**
+**Coaches toestaan om binnen cursussessies te bewerken**
 
-Allow coaches to edit inside course sessions
+Coaches toestaan om binnen cursussessies te bewerken.
 
-*Default: `true`*
+*Standaard: `true`*
 
 ### `allow_delete_user_for_session_admin`
 
-**Session admins can delete users**
+**Sessiebeheerders kunnen gebruikers verwijderen**
 
-Session administrators can remove users from the platform when managing their session(s).
+Sessiebeheerders kunnen gebruikers van het platform verwijderen bij het beheren van hun sessie(s).
 
-*Default: `false`*
-
+*Standaard: `false`*
 
 ### `allow_disable_user_for_session_admin`
 
-**Session admins can disable users**
+**Sessiebeheerders kunnen gebruikers uitschakelen**
 
-Session administrators can disable user accounts to prevent login while retaining enrollment records in their session(s).
+Sessiebeheerders kunnen gebruikersaccounts uitschakelen om inloggen te voorkomen terwijl inschrijvingsgegevens in hun sessie(s) behouden blijven.
 
-*Default: `false`*
-
+*Standaard: `false`*
 
 ### `allow_edit_tool_visibility_in_session`
 
-**Allow tool visibility edition in sessions**
+**Bewerking van toolzichtbaarheid in sessies toestaan**
 
-When using sessions, the default behaviour is to use the tool visibility defined in the base course. This setting changes that to allow coaches in session courses to adapt tool visibilities to their needs.
+Bij het gebruik van sessies is het standaardgedrag om de toolzichtbaarheid te gebruiken zoals gedefinieerd in de basiscursus. Deze instelling wijzigt dat zodat coaches in sessiecursussen de toolzichtbaarheid aan hun behoeften kunnen aanpassen.
 
-*Default: `true`*
+*Standaard: `true`*
 
 ### `allow_redirect_to_session_after_inscription_about`
 
-**Redirect to session after registration in session's 'About' page**
+**Doorverwijzen naar sessie na registratie op de 'Over'-pagina van de sessie**
 
-Automatically redirect new users to their session page after they complete registration through a session's About page.
+Nieuwe gebruikers automatisch doorverwijzen naar hun sessiepagina nadat ze de registratie hebben voltooid via de 'Over'-pagina van een sessie.
 
-*Default: `false`*
-
+*Standaard: `false`*
 
 ### `allow_search_diagnostic`
 
-**Enable sessions search diagnosis**
+**Diagnose voor sessiezoekopdrachten inschakelen**
 
-Allow tutors to get a diagnosis that will allow them to search for the best sessions for learners.
+Tutoren toestaan om een diagnose te krijgen waarmee ze de beste sessies voor leerlingen kunnen zoeken.
 
-*Default: `false`*
-
+*Standaard: `false`*
 
 ### `allow_session_admin_extra_access`
 
-**Session admin can access batch user import, update and export**
+**Sessiebeheerder kan toegang krijgen tot batchgebruikersimport, -update en -export**
 
-Session administrators can access batch user import, update, and export functionality in addition to their standard permissions.
+Sessiebeheerders kunnen toegang krijgen tot functionaliteit voor batchgebruikersimport, -update en -export naast hun standaardrechten.
 
-*Default: `false`*
-
+*Standaard: `false`*
 
 ### `allow_session_admin_login_as_teacher`
 
-**Session admins can 'login as' teachers**
+**Sessiebeheerders kunnen 'inloggen als' docenten**
 
-Session administrators can impersonate teacher accounts to preview course content and student experience within their session(s).
+Sessiebeheerders kunnen docentaccounts imiteren om cursusinhoud en de studentenervaring binnen hun sessie(s) te bekijken.
 
-*Default: `false`*
-
+*Standaard: `false`*
 
 ### `allow_session_admin_read_careers`
 
-**Session admins can view careers**
+**Sessiebeheerders kunnen carrières bekijken**
 
-[inferred] Session administrators can view and access career paths and promotion workflows linked to their managed sessions.
+[afgeleid] Sessiebeheerders kunnen carrièrepaden en promotieworkflows bekijken en openen die gekoppeld zijn aan de door hen beheerde sessies.
 
-*Default: `false`*
-
+*Standaard: `false`*
 
 ### `allow_session_admins_to_manage_all_sessions`
 
-**Allow session administrators to see all sessions**
+**Sessiebeheerders toestaan om alle sessies te zien**
 
-When this option is not enabled (default), session administrators can only see the sessions they have created. This is confusing in an open environment where session administrators might need to share support time between two sessions.
+Wanneer deze optie niet is ingeschakeld (standaard), kunnen sessiebeheerders alleen de sessies zien die ze zelf hebben aangemaakt. Dit is verwarrend in een open omgeving waar sessiebeheerders mogelijk ondersteuningstijd moeten delen tussen twee sessies.
 
-*Default: `false`*
+*Standaard: `false`*
 
 ### `allow_session_course_copy_for_teachers`
 
-**Allow session-to-session copy for teachers**
+**Kopiëren van sessie naar sessie toestaan voor docenten**
 
-Enable this option to let teachers copy their content from one course in a session to a course in another session. By default, this option is only available to platform administrators.
+Schakel deze optie in om docenten hun inhoud van een cursus in een sessie naar een cursus in een andere sessie te laten kopiëren. Standaard is deze optie alleen beschikbaar voor platformbeheerders.
 
-*Default: `false`*
+*Standaard: `false`*
 
 ### `allow_teachers_to_create_sessions`
 
-**Allow teachers to create sessions**
+**Docenten toestaan om sessies aan te maken**
 
-Teachers can create, edit and delete their own sessions.
+Docenten kunnen hun eigen sessies aanmaken, bewerken en verwijderen.
 
-*Default: `false`*
+*Standaard: `false`*
 
 ### `allow_tutors_to_assign_students_to_session`
 
-**Tutors can assign students to sessions**
+**Tutoren kunnen studenten toewijzen aan sessies**
 
-When enabled, course coaches/tutors in sessions can subscribe new users to their session. This option is otherwise only available to administrators and session administrators.
+Wanneer ingeschakeld, kunnen cursuscoaches/tutoren in sessies nieuwe gebruikers inschrijven voor hun sessie. Deze optie is anders alleen beschikbaar voor beheerders en sessiebeheerders.
 
-*Default: `false`*
+*Standaard: `false`*
 
 ### `allow_user_session_collapsable`
 
-**Allow user to collapse sessions in My sessions**
+**Gebruiker toestaan om sessies in te klappen in Mijn sessies**
 
-Users can collapse session cards or groups in the My sessions page to reduce visual clutter and improve navigation.
+Gebruikers kunnen sessiekaarten of -groepen inklappen op de pagina Mijn sessies om visuele rommel te verminderen en de navigatie te verbeteren.
 
-*Default: `false`*
-
+*Standaard: `false`*
 
 ### `assignment_base_course_teacher_access_to_all_session`
 
-**Base course teacher can see assignments from all sessions**
+**Basiscursusdocent kan opdrachten van alle sessies zien**
 
-Show all learner publications (from base course and from all sessions) in the work/pending.php page of the base course.
+Toon alle publicaties van leerlingen (van de basiscursus en van alle sessies) op de werk/pending.php-pagina van de basiscursus.
 
-*Default: `false`*
+*Standaard: `false`*
 
+---
 ### `career_diagram_disclaimer`
 
-**Display a disclaimer below the career diagram**
+**Een disclaimer weergeven onder het loopbaandiagram**
 
-Add a disclaimer below the career diagram. A language variable called 'Career diagram disclaimer' must exist in your sub-language.
+Voeg een disclaimer toe onder het loopbaandiagram. Er moet een taalvariabele genaamd 'Career diagram disclaimer' bestaan in uw subtaal.
 
-*Default: `false`*
+*Standaard: `false`*
 
 ### `career_diagram_legend`
 
-**Display a legend below the career diagram**
+**Een legenda weergeven onder het loopbaandiagram**
 
-Add a career legend below the career diagram. A language variable called 'Career diagram legend' must exist in your sub-language.
+Voeg een loopbaanlegenda toe onder het loopbaandiagram. Er moet een taalvariabele genaamd 'Career diagram legend' bestaan in uw subtaal.
 
-*Default: `false`*
+*Standaard: `false`*
 
 ### `courses_list_session_title_link`
 
-**Type of link for the session title**
+**Type link voor de sessietitel**
 
-On the courses/sessions page, the session title can be either of the following : 0 = no link (hide session title) ; 1 = link title to a special session page ; 2 = link to the course if there is only one course ; 3 = session title makes the courses list foldable ; 4 = no link (show session title).
+Op de cursus-/sessiepagina kan de sessietitel een van de volgende zijn: 0 = geen link (sessietitel verbergen); 1 = titel linken naar een speciale sessiepagina; 2 = linken naar de cursus als er slechts één cursus is; 3 = sessietitel maakt de cursuslijst inklapbaar; 4 = geen link (sessietitel tonen).
 
-*Default: `1`*
+*Standaard: `1`*
 
 ### `default_session_list_view`
 
-**Default sessions list view**
+**Standaardweergave van sessielijst**
 
-Select the default tab you want to see when opening the sessions list as admin.
+Selecteer het standaardtabblad dat u wilt zien bij het openen van de sessielijst als beheerder.
 
-*Default: `all`*
-
+*Standaard: `all`*
 
 ### `drh_can_access_all_session_content`
 
-**HR directors access all session content**
+**HR-directeuren hebben toegang tot alle sessie-inhoud**
 
-If enabled, human resources directors will get access to all content and users from the sessions (s)he follows.
+Indien ingeschakeld, krijgen human resources-directeuren toegang tot alle inhoud en gebruikers van de sessies die zij volgen.
 
-*Default: `true`*
+*Standaard: `true`*
 
 ### `duplicate_specific_session_content_on_session_copy`
 
-**Enable the copy of session-specific content to another session**
+**Kopiëren van sessie-specifieke inhoud naar een andere sessie inschakelen**
 
-Allows duplication of resources that were created in the session when duplicating the session.
+Maakt het mogelijk om bronnen die in de sessie zijn gemaakt te dupliceren bij het kopiëren van de sessie.
 
-*Default: `false`*
-
+*Standaard: `false`*
 
 ### `email_template_subscription_to_session_confirmation_lost_password`
 
-**Add reset password link to e-mail notification of subscription to session**
+**Link voor wachtwoordherstel toevoegen aan e-mailmelding van inschrijving voor sessie**
 
-Include a password reset link in subscription confirmation emails sent to users when they are enrolled in a session.
+Voeg een link voor wachtwoordherstel toe aan de bevestigingsmails voor inschrijving die naar gebruikers worden gestuurd wanneer zij zich inschrijven voor een sessie.
 
-*Default: `false`*
-
+*Standaard: `false`*
 
 ### `email_template_subscription_to_session_confirmation_username`
 
-**Add username to e-mail notification of subscription to session**
+**Gebruikersnaam toevoegen aan e-mailmelding van inschrijving voor sessie**
 
-Include the user's username in subscription confirmation emails sent when they are enrolled in a session.
+Voeg de gebruikersnaam van de gebruiker toe aan de bevestigingsmails voor inschrijving die worden gestuurd wanneer zij zich inschrijven voor een sessie.
 
-*Default: `false`*
-
+*Standaard: `false`*
 
 ### `enable_auto_reinscription`
 
-**Enable Automatic Reinscription**
+**Automatische herinschrijving inschakelen**
 
-Enable or disable automatic reinscription when course validity expires. The related cron job must also be activated.
+Schakel automatische herinschrijving in of uit wanneer de geldigheidsduur van de cursus verloopt. De bijbehorende cron-taak moet ook worden geactiveerd.
 
-*Default: `false`*
-
+*Standaard: `false`*
 
 ### `enable_session_replication`
 
-**Enable Session Replication**
+**Sessie-replicatie inschakelen**
 
-Enable or disable automatic session replication. The related cron job must also be activated.
+Schakel automatische sessie-replicatie in of uit. De bijbehorende cron-taak moet ook worden geactiveerd.
 
-*Default: `false`*
-
+*Standaard: `false`*
 
 ### `extend_rights_for_coach`
 
-**Extend rights for coach**
+**Rechten voor coach uitbreiden**
 
-Activate this option will give the coach the same permissions as the trainer on authoring tools
+Het activeren van deze optie geeft de coach dezelfde rechten als de trainer op authoring tools.
 
-*Default: `false`*
+*Standaard: `false`*
 
 ### `hide_courses_in_sessions`
 
-**Hide courses list in sessions**
+**Cursuslijst in sessies verbergen**
 
-When showing the session block in your courses page, hide the list of courses inside that session (only show them inside the specific session screen).
+Verberg de lijst met cursussen binnen een sessie wanneer het sessieblok op uw cursuspagina wordt weergegeven (toon ze alleen op het specifieke sessiescherm).
 
-*Default: `false`*
+*Standaard: `false`*
 
 ### `hide_reporting_session_list`
 
-**Hide sessions list in reporting tool**
+**Sessielijst in rapportagetool verbergen**
 
-Sessions that include the course are listed in the reporting tool inside the course itself, which can add considerable weight if the same course is used in hundreds of sessions. This option removes that list.
+Sessies die de cursus bevatten, worden in de rapportagetool binnen de cursus zelf weergegeven, wat aanzienlijk zwaar kan zijn als dezelfde cursus in honderden sessies wordt gebruikt. Deze optie verwijdert die lijst.
 
-*Default: `false`*
-
+*Standaard: `false`*
 
 ### `hide_search_form_in_session_list`
 
-**Hide search form in sessions list**
+**Zoekformulier in sessielijst verbergen**
 
-Remove the search input field from the session list view in the administration interface.
+Verwijder het zoekveld uit de sessielijstweergave in de beheerinterface.
 
-*Default: `false`*
-
+*Standaard: `false`*
 
 ### `hide_session_graph_in_my_progress`
 
-**Hide session chart in My progress**
+**Sessie grafiek verbergen in Mijn voortgang**
 
-Conceal session progress charts and visualizations from the My progress page in learner dashboards.
+Verberg sessievoortgangsgrafieken en visualisaties op de Mijn voortgang-pagina in de dashboards van leerlingen.
 
-*Default: `false`*
-
+*Standaard: `false`*
 
 ### `hide_tab_list`
 
-**Hide tabs on the session page**
+**Tabbladen op de sessiepagina verbergen**
 
-Remove navigation tabs from the session detail page to simplify the interface.
+Verwijder navigatietabbladen van de sessiedetailpagina om de interface te vereenvoudigen.
 
 ### `limit_session_admin_list_users`
 
-**Session admins are forbidden access to the users list**
+**Sessiebeheerders toegang tot gebruikerslijst verbieden**
 
-Prevent session administrators from accessing the global users list in the administration interface.
+Voorkom dat sessiebeheerders toegang krijgen tot de globale gebruikerslijst in de beheerinterface.
 
-*Default: `false`*
-
+*Standaard: `false`*
 
 ### `limit_session_admin_role`
 
-**Limit session admins permissions**
+**Rechten van sessiebeheerders beperken**
 
-If enabled, the session administrators will only see the User block with the 'Add user' option and the Sessions block with the 'Sessions list' option.
+Indien ingeschakeld, zien sessiebeheerders alleen het Gebruikersblok met de optie 'Gebruiker toevoegen' en het Sessieblok met de optie 'Sessielijst'.
 
-*Default: `false`*
+*Standaard: `false`*
 
 ### `my_courses_session_order`
 
-**Change the default sorting of session in My sessions**
+**Standaard sortering van sessies in Mijn sessies wijzigen**
 
-By default, sessions are ordered by start date. Change this by providing an array of type ['field' => 'end_date', 'order' => 'desc'].
+Standaard worden sessies gesorteerd op startdatum. Wijzig dit door een array op te geven van het type ['field' => 'end_date', 'order' => 'desc'].
 
 ### `my_courses_view_by_session`
 
-**View my courses by session**
+**Mijn cursussen weergeven per sessie**
 
-Enable an additional 'My courses' page where sessions appear as part of courses, rather than the opposite.
+Schakel een extra 'Mijn cursussen'-pagina in waar sessies worden weergegeven als onderdeel van cursussen, in plaats van andersom.
 
-*Default: `false`*
+*Standaard: `false`*
 
 ### `my_progress_session_show_all_courses`
 
-**My progress: show course details in session**
+**Mijn voortgang: toon cursusdetails in sessie**
 
-Display all details of each course in session when clicking on session details.
+Toon alle details van elke cursus in een sessie bij het klikken op sessiedetails.
 
-*Default: `false`*
-
+*Standaard: `false`*
 
 ### `prevent_session_admins_to_manage_all_users`
 
-**Prevent session admins to manage all users**
+**Voorkom dat sessiebeheerders alle gebruikers beheren**
 
-By enabling this option, session admins will only be able to see, in the administration page, the users they created.
+Door deze optie in te schakelen, kunnen sessiebeheerders op de beheerpagina alleen de gebruikers zien die zij zelf hebben aangemaakt.
 
-*Default: `false`*
+*Standaard: `false`*
 
+---
 ### `remove_session_url`
 
-**Hide link to session page**
+**Link naar sessiepagina verbergen**
 
-Hide link to the session page from the sessions list.
+Verberg de link naar de sessiepagina in de lijst met sessies.
 
-*Default: `false`*
+*Standaard: `false`*
 
 
 ### `session_admins_access_all_content`
 
-**Session admins can access all course content**
+**Sessiebeheerders hebben toegang tot alle cursusinhoud**
 
-Session administrators can view all course content within their sessions, including restricted or archived materials.
+Sessiebeheerders kunnen alle cursusinhoud binnen hun sessies bekijken, inclusief beperkte of gearchiveerde materialen.
 
-*Default: `false`*
+*Standaard: `false`*
+
 
 ### `session_admins_edit_courses_content`
 
-**Session admins can edit course content**
+**Sessiebeheerders kunnen cursusinhoud bewerken**
 
-Session administrators can modify course content (documents, exercises, tools) in courses assigned to their sessions.
+Sessiebeheerders kunnen cursusinhoud (documenten, oefeningen, tools) bewerken in cursussen die aan hun sessies zijn toegewezen.
 
-*Default: `false`*
+*Standaard: `false`*
+
 
 ### `session_automatic_creation_user_id`
 
-**Auto-created session's creator ID**
+**Gebruikers-ID van maker van automatisch aangemaakte sessie**
 
-Set the user to use as creator of the automatically-created sessions (to avoid assigning every session to user '1' which is often the portal administrator).
+Stel de gebruiker in die wordt gebruikt als maker van de automatisch aangemaakte sessies (om te voorkomen dat elke sessie wordt toegewezen aan gebruiker '1', wat vaak de portaalbeheerder is).
 
-*Default: `1`*
+*Standaard: `1`*
 
 
 ### `session_classes_tab_disable`
 
-**Disable add class in session course for non-admin**
+**Tabblad voor toevoegen van klassen in sessiecursus uitschakelen voor niet-beheerders**
 
-Disable tab to add classes in session course for non-admins.
+Schakel het tabblad uit om klassen toe te voegen in een sessiecursus voor niet-beheerders.
 
-*Default: `false`*
+*Standaard: `false`*
 
 
 ### `session_coach_access_after_duration_end`
 
-**Sessions by duration always available to coaches**
+**Sessies op basis van duur altijd beschikbaar voor coaches**
 
-Otherwise, session coaches only have access to sessions by duration during the active duration.
+Anders hebben sessiecoaches alleen toegang tot sessies op basis van duur tijdens de actieve duur.
 
-*Default: `false`*
+*Standaard: `false`*
 
 
 ### `session_course_ordering`
 
-**Session courses manual ordering**
+**Handmatige ordening van cursussen in sessie**
 
-Enable this option to allow the session administrators to order the courses inside a session manually. If disabled, courses are ordered alphabetically on course title.
+Schakel deze optie in om sessiebeheerders in staat te stellen de cursussen binnen een sessie handmatig te ordenen. Indien uitgeschakeld, worden cursussen alfabetisch gesorteerd op cursustitel.
 
-*Default: `false`*
+*Standaard: `false`*
+
 
 ### `session_course_users_subscription_limited_to_session_users`
 
-**Limit subscriptions to course to only users of the session**
+**Inschrijvingen voor cursus beperken tot alleen gebruikers van de sessie**
 
-Restrict the list of students to subscribe in the course session. And disable registration for users in all courses from Resume Session page.
+Beperk de lijst van studenten die zich kunnen inschrijven voor de cursussessie. Schakel ook registratie uit voor gebruikers in alle cursussen vanaf de pagina 'Sessie hervatten'.
 
-*Default: `false`*
+*Standaard: `false`*
 
 
 ### `session_courses_read_only_mode`
 
-**Set course read-only in session**
+**Cursus in alleen-lezen modus zetten in sessie**
 
-Let teachers set some courses in read-only mode when opened through sessions. In the course properties, check the 'Lock course in session' option.
+Laat docenten sommige cursussen in alleen-lezen modus zetten wanneer deze via sessies worden geopend. Vink in de cursusinstellingen de optie 'Cursus vergrendelen in sessie' aan.
 
-*Default: `false`*
+*Standaard: `false`*
 
 
 ### `session_creation_form_set_extra_fields_mandatory`
 
-**Set mandatory extra fields in session creation form**
+**Verplichte extra velden instellen in sessie-aanmaakformulier**
 
-Require the listed fields during session creation.
+Vereis de vermelde velden tijdens het aanmaken van een sessie.
+
 
 ### `session_creation_user_course_extra_field_relation_to_prefill`
 
-**Pre-fill session fields with user fields**
+**Sessievelden vooraf invullen met gebruikersvelden**
 
-Array of relationships between user extra fields and session extra fields, so the session can be pre-filled with data matching the user's data.
+Array van relaties tussen extra gebruikersvelden en extra sessievelden, zodat de sessie vooraf kan worden ingevuld met gegevens die overeenkomen met de gebruikersgegevens.
+
 
 ### `session_days_after_coach_access`
 
-**Default coach access days after session**
+**Standaard aantal dagen toegang voor coach na sessie**
 
-Default number of days a coach can access his session after the official session end date
+Standaard aantal dagen dat een coach toegang heeft tot zijn sessie na de officiële einddatum van de sessie.
+
 
 ### `session_days_before_coach_access`
 
-**Default coach access days before session**
+**Standaard aantal dagen toegang voor coach vóór sessie**
 
-Default number of days a coach can access his session before the official session start date
+Standaard aantal dagen dat een coach toegang heeft tot zijn sessie vóór de officiële startdatum van de sessie.
+
 
 ### `session_import_settings`
 
-**Options for session import**
+**Opties voor sessie-import**
 
-Array of options to apply as default parameters in the CSV/XML session import.
+Array van opties die als standaardparameters worden toegepast bij het importeren van sessies via CSV/XML.
+
 
 ### `session_list_order`
 
-**Sessions support manual sorting**
+**Sessies ondersteunen handmatige sortering**
 
-Enable manual reordering of sessions in the administration session list via drag-and-drop or similar mechanism.
+Schakel handmatige herschikking van sessies in de beheerderssessielijst in via drag-and-drop of een vergelijkbaar mechanisme.
 
-*Default: `false`*
+*Standaard: `false`*
 
 
 ### `session_list_show_count_users`
 
-**Show number of users in sessions list**
+**Aantal gebruikers tonen in sessielijst**
 
-The admin can see the number of users in each session. This adds additional weight to the sessions list, so if you use it often, consider carefully whether you want the extra waiting time.
+De beheerder kan het aantal gebruikers in elke sessie zien. Dit voegt extra belasting toe aan de sessielijst, dus overweeg zorgvuldig of je de extra wachttijd wilt als je dit vaak gebruikt.
 
-*Default: `false`*
+*Standaard: `false`*
 
 
 ### `session_list_view_remaining_days`
 
-**Show remaining days in My Sessions**
+**Resterende dagen tonen in Mijn Sessies**
 
-If enabled, the session dates on the "My Sessions" page will be replaced by the number of remaining days.
+Indien ingeschakeld, worden de sessiedata op de pagina "Mijn Sessies" vervangen door het aantal resterende dagen.
 
-*Default: `false`*
+*Standaard: `false`*
+
 
 ### `session_model_list_field_ordered_by_id`
 
-**Sort session templates by id in session creation form**
+**Sessiesjablonen sorteren op ID in sessie-aanmaakformulier**
 
-[inferred] Sort session templates by their numeric ID in the session creation form dropdown instead of alphabetically by name.
+Sorteer sessiesjablonen op hun numerieke ID in de dropdown van het sessie-aanmaakformulier in plaats van alfabetisch op naam.
 
-*Default: `false`*
+*Standaard: `false`*
 
 
 ### `session_multiple_subscription_students_list_avoid_emptying`
 
-**Prevent emptying the subscribed users in session subscription**
+**Voorkomen dat lijst met ingeschreven gebruikers wordt geleegd bij sessie-inschrijving**
 
-When using the multiple learners subscription to a session, prevent the normal behaviour which is to unsubscribe users who are not in the right panel when clicking submit. Keep all users there.
+Bij gebruik van meerdere inschrijvingen van leerlingen voor een sessie, voorkom het normale gedrag waarbij gebruikers die niet in het rechterpaneel staan, worden uitgeschreven bij het indienen. Houd alle gebruikers daar.
 
-*Default: `false`*
+*Standaard: `false`*
 
 
 ### `show_all_sessions_on_my_course_page`
 
-**Show all sessions on 'My courses' page**
+**Alle sessies tonen op 'Mijn cursussen' pagina**
 
-If enabled, this option show all sessions of the user in calendar-based view.
+Indien ingeschakeld, toont deze optie alle sessies van de gebruiker in een kalenderweergave.
 
-*Default: `true`*
+*Standaard: `true`*
 
 
 ### `show_session_coach`
 
-**Show session coach**
+**Sessiecoach tonen**
 
-Show the global session coach name in session title box in the courses list
+Toon de naam van de globale sessiecoach in het sessietitelvak in de cursuslijst.
 
-*Default: `false`*
+*Standaard: `false`*
+
 
 ### `show_session_data`
 
-**Show session data title**
+**Sessiedata titel tonen**
 
-Show session data comment
+Toon opmerkingen bij sessiedata.
 
-*Default: `false`*
+*Standaard: `false`*
+
 
 ### `show_session_description`
 
-**Show session description**
+**Sessiebeschrijving tonen**
 
-Show the session description wherever this option is implemented (sessions tracking pages, etc)
+Toon de sessiebeschrijving overal waar deze optie is geïmplementeerd (sessievolgpagina's, enz.).
 
-*Default: `false`*
+*Standaard: `false`*
 
+---
 ### `show_simple_session_info`
 
-**Show simple session info**
+**Toon eenvoudige sessie-informatie**
 
-Add coach and dates to the session's subtitle in the sessions' list.
+Voeg de coach en datums toe aan de ondertitel van de sessie in de sessielijst.
 
-*Default: `true`*
+*Standaard: `true`*
 
 
 ### `show_users_in_active_sessions_in_tracking`
 
-**Only display users from active sessions in tracking**
+**Toon alleen gebruikers van actieve sessies in tracking**
 
-Display only users from currently active sessions in learner tracking and reporting views.
+Toon alleen gebruikers van momenteel actieve sessies in de tracking- en rapportageweergaven van leerlingen.
 
-*Default: `false`*
+*Standaard: `false`*
 
 
 ### `tracking_columns`
 
-**Customize course-session tracking columns**
+**Pas trackingkolommen voor cursus-sessies aan**
 
-Define an array of columns for the following reports: 'course_session', 'my_students_lp', 'my_progress_lp', 'my_progress_courses'.
+Definieer een array van kolommen voor de volgende rapporten: 'course_session', 'my_students_lp', 'my_progress_lp', 'my_progress_courses'.
 
 ### `user_s_session_duration`
 
-**Auto-created sessions duration**
+**Duur van automatisch aangemaakte sessies**
 
-Duration (in days) of the single-user, auto-created sessions. After expiry, the user cannot register to the same course (no other session is created).
+Duur (in dagen) van de automatisch aangemaakte sessies voor één gebruiker. Na afloop kan de gebruiker zich niet opnieuw inschrijven voor dezelfde cursus (er wordt geen andere sessie aangemaakt).
 
-*Default: `1095`*
+*Standaard: `1095`*
 
 
 ### `user_session_display_mode`
 
-**My Sessions display mode**
+**Weergavemodus van Mijn Sessies**
 
-Choose how the "My Sessions" page is displayed: as a modern visual block (card) view or the classic list style.
+Kies hoe de pagina "Mijn Sessies" wordt weergegeven: als een moderne visuele blokweergave (kaartweergave) of als de klassieke lijststijl.
 
-*Default: `list`*
+*Standaard: `list`*

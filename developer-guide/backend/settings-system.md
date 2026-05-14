@@ -1,39 +1,39 @@
-# Settings System
+# Instellingensysteem
 
-Chamilo's configuration is managed through a set of settings schemas (around 40 of them, varying between releases) that define every configurable aspect of the platform. They live in `src/CoreBundle/Settings/` — the exact list there is the source of truth.
+De configuratie van Chamilo wordt beheerd via een reeks instellingenschema's (ongeveer 40, afhankelijk van de release) die elk configureerbaar aspect van het platform definiëren. Deze bevinden zich in `src/CoreBundle/Settings/` — de exacte lijst daar is de bron van waarheid.
 
-## How It Works
+## Hoe het werkt
 
-Settings are:
+Instellingen worden:
 
-1. **Defined** in schema classes (`src/CoreBundle/Settings/*SettingsSchema.php`)
-2. **Stored** in the database (`settings_current` table)
-3. **Accessed** via the `SettingsManager` service
-4. **Managed** through the administration web interface
+1. **Gedefinieerd** in schemaklassen (`src/CoreBundle/Settings/*SettingsSchema.php`)
+2. **Opgeslagen** in de database (tabel `settings_current`)
+3. **Benaderd** via de `SettingsManager`-service
+4. **Beheerd** via de administratieve webinterface
 
-## Settings Schemas
+## Instellingenschema's
 
-Each schema file defines a category of settings. Key schemas:
+Elk schemabestand definieert een categorie van instellingen. Belangrijke schema's:
 
-| Schema | Purpose |
-|--------|---------|
-| `PlatformSettingsSchema` | Institution info, timezone, server type, portal features |
-| `SecuritySettingsSchema` | Login attempts, CAPTCHA, password policy, HTTP headers, 2FA |
-| `RegistrationSettingsSchema` | Self-registration, required fields, auto-subscribe |
-| `CourseSettingsSchema` | Course creation defaults, tools, catalog |
-| `SessionSettingsSchema` | Session defaults, visibility |
-| `MailSettingsSchema` | Email configuration, DKIM, notifications |
-| `AiHelpersSettingsSchema` | AI providers, feature toggles per AI tool |
-| `ExerciseSettingsSchema` | Quiz scoring, feedback, question options |
-| `LearningPathSettingsSchema` | LP display, prerequisites, SCORM settings |
-| `DocumentSettingsSchema` | Upload limits, allowed file types, storage |
-| `DisplaySettingsSchema` | UI tabs, sidebar items, theme |
-| `LanguageSettingsSchema` | Available languages, default locale |
-| `AdminSettingsSchema` | Admin email, admin-specific options |
+| Schema | Doel |
+|--------|------|
+| `PlatformSettingsSchema` | Instellingsinformatie, tijdzone, servertype, portaalfuncties |
+| `SecuritySettingsSchema` | Inlogpogingen, CAPTCHA, wachtwoordbeleid, HTTP-headers, 2FA |
+| `RegistrationSettingsSchema` | Zelfregistratie, verplichte velden, automatische inschrijving |
+| `CourseSettingsSchema` | Standaardinstellingen voor cursuscreatie, tools, catalogus |
+| `SessionSettingsSchema` | Standaardinstellingen voor sessies, zichtbaarheid |
+| `MailSettingsSchema` | E-mailconfiguratie, DKIM, meldingen |
+| `AiHelpersSettingsSchema` | AI-aanbieders, functietoggles per AI-tool |
+| `ExerciseSettingsSchema` | Quizscoring, feedback, vraagopties |
+| `LearningPathSettingsSchema` | Weergave van leerpaden, vereisten, SCORM-instellingen |
+| `DocumentSettingsSchema` | Uploadlimieten, toegestane bestandstypen, opslag |
+| `DisplaySettingsSchema` | UI-tabbladen, zijbalkitems, thema |
+| `LanguageSettingsSchema` | Beschikbare talen, standaardtaal |
+| `AdminSettingsSchema` | E-mail van beheerder, beheerderspecifieke opties |
 
-## Accessing Settings
+## Toegang tot instellingen
 
-In PHP code:
+In PHP-code:
 
 ```php
 // Via SettingsManager service
@@ -43,47 +43,47 @@ $value = $settingsManager->getSetting('platform.site_name');
 $value = api_get_setting('platform.site_name');
 ```
 
-In templates:
+In sjablonen:
 
 ```twig
-{# Read a single setting #}
+{# Een enkele instelling lezen #}
 {{ chamilo_settings_get('platform.site_name') }}
 
-{# Check whether a setting exists #}
+{# Controleren of een instelling bestaat #}
 {% if chamilo_settings_has('platform.allow_registration') %}
     ...
 {% endif %}
 
-{# Get all settings as an array #}
+{# Alle instellingen als een array ophalen #}
 {% set settings = chamilo_settings_all() %}
 ```
 
-## Setting Structure
+## Structuur van instellingen
 
-Each setting has:
+Elke instelling heeft:
 
-* **Namespace** — The schema category (e.g., `platform`, `security`, `ai_helpers`)
-* **Variable** — The setting name (e.g., `site_name`, `allow_registration`)
-* **Value** — The current value
-* **Type** — Data type (string, boolean, array, etc.)
+* **Namespace** — De schemacategorie (bijv. `platform`, `security`, `ai_helpers`)
+* **Variabele** — De naam van de instelling (bijv. `site_name`, `allow_registration`)
+* **Waarde** — De huidige waarde
+* **Type** — Gegevenstype (string, boolean, array, enz.)
 
-## Course-Level Settings
+## Instellingen op cursusniveau
 
-Some settings can be overridden at the course level. These are defined in `src/CourseBundle/Settings/` and include:
+Sommige instellingen kunnen op cursusniveau worden overschreven. Deze worden gedefinieerd in `src/CourseBundle/Settings/` en omvatten:
 
-* Exercise settings per course
-* Assignment settings per course
-* AI feature toggles per course
+* Oefeninstellingen per cursus
+* Opdrachtinstellingen per cursus
+* AI-functietoggles per cursus
 
-## Multi-URL Settings
+## Multi-URL-instellingen
 
-In multi-URL setups, some settings can be customized per access URL, allowing different portal configurations from the same installation.
+In multi-URL-opstellingen kunnen sommige instellingen per toegang-URL worden aangepast, waardoor verschillende portaalconfiguraties mogelijk zijn vanuit dezelfde installatie.
 
-Those settings will appear several times in the `settings` table, with different `access_url` values. By default, all settings are associated with `access_url=1`.
+Deze instellingen verschijnen meerdere keren in de `settings`-tabel, met verschillende `access_url`-waarden. Standaard zijn alle instellingen gekoppeld aan `access_url=1`.
 
-## Adding a New Setting
+## Een nieuwe instelling toevoegen
 
-1. Add the setting definition to the appropriate schema class
-2. Provide a default value
-3. Run database migrations if needed
-4. Access the setting via `SettingsManager`
+1. Voeg de instellingsdefinitie toe aan de juiste schemaklasse
+2. Geef een standaardwaarde op
+3. Voer database-migraties uit indien nodig
+4. Benader de instelling via `SettingsManager`

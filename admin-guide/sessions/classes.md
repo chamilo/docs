@@ -1,34 +1,34 @@
-# Classes
+# Klassen
 
-Classes in Chamilo are predefined groups of users that can be enrolled in sessions as a unit. They simplify the enrollment process when you regularly train the same groups of people.
+Klassen in Chamilo zijn vooraf gedefinieerde groepen gebruikers die als een eenheid kunnen worden ingeschreven in sessies. Ze vereenvoudigen het inschrijvingsproces wanneer u regelmatig dezelfde groepen mensen traint.
 
-> Classes and [User Groups](../../admin-guide/users/user-groups.md) share the same interface. The only difference is the **group type** setting: choose "Class" when creating the group. Everything else — member management, visibility, and the interface itself — works identically.
+> Klassen en [Gebruikersgroepen](../../admin-guide/users/user-groups.md) delen dezelfde interface. Het enige verschil is de instelling voor **groeptype**: kies "Klas" bij het aanmaken van de groep. Verder werkt alles — ledenbeheer, zichtbaarheid en de interface zelf — identiek.
 
-## Creating a Class
+## Een Klas Aanmaken
 
-1. From the administration panel, navigate to **Classes** (or User Groups and select the "Class" type)
-2. Click **Create a class**
-3. Enter a **name** (e.g., "Engineering Team", "New Hires March 2026")
-4. Add **members** — search for and select users
-5. Save
+1. Ga vanuit het beheerpaneel naar **Klassen** (of Gebruikersgroepen en selecteer het type "Klas")
+2. Klik op **Een klas aanmaken**
+3. Voer een **naam** in (bijv. "Technisch Team", "Nieuwe Medewerkers Maart 2026")
+4. Voeg **leden** toe — zoek en selecteer gebruikers
+5. Sla op
 
-## Using Classes for Enrollment
+## Klassen Gebruiken voor Inschrijving
 
-When creating or editing a session, you can enroll an entire class at once instead of adding users individually:
+Bij het aanmaken of bewerken van een sessie kunt u een hele klas in één keer inschrijven in plaats van gebruikers individueel toe te voegen:
 
-1. Open the session enrollment settings
-2. Click **Add a class**
-3. Select the class
-4. All members of the class are enrolled in the session
+1. Open de inschrijvingsinstellingen van de sessie
+2. Klik op **Een klas toevoegen**
+3. Selecteer de klas
+4. Alle leden van de klas worden ingeschreven in de sessie
 
-## Managing Classes
+## Klassen Beheren
 
-* **Edit** — Change the class name or update membership
-* **Add/remove members** — Keep the class roster up to date
-* **Delete** — Remove the class (does not affect the member accounts or their existing enrollments)
+* **Bewerken** — Wijzig de naam van de klas of werk het lidmaatschap bij
+* **Leden toevoegen/verwijderen** — Houd de lijst van de klas up-to-date
+* **Verwijderen** — Verwijder de klas (heeft geen invloed op de accounts van leden of hun bestaande inschrijvingen)
 
 ## Tips
 
-* **Create classes for recurring cohorts** — If you run the same training for different teams, create a class for each team
-* **Update before each session** — Review class membership before enrolling a class in a new session to ensure the roster is current
-* **Combine with CSV import** — Import class membership from a CSV file for large groups
+* **Maak klassen aan voor terugkerende cohorten** — Als u dezelfde training voor verschillende teams organiseert, maak dan een klas aan voor elk team
+* **Werk bij voor elke sessie** — Controleer het lidmaatschap van de klas voordat u een klas inschrijft voor een nieuwe sessie om ervoor te zorgen dat de lijst actueel is
+* **Combineer met CSV-import** — Importeer het lidmaatschap van een klas vanuit een CSV-bestand voor grote groepen

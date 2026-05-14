@@ -1,30 +1,30 @@
 # OAuth2
 
-OAuth2 authentication is configured in `config/authentication.yaml`. Chamilo includes built-in support for Azure AD, Keycloak, Facebook, and any generic OAuth2-compliant provider.
+OAuth2-authenticatie wordt geconfigureerd in `config/authentication.yaml`. Chamilo biedt ingebouwde ondersteuning voor Azure AD, Keycloak, Facebook en elke generieke OAuth2-compatibele provider.
 
-## Step 1 — Register Chamilo in your identity provider
+## Stap 1 — Registreer Chamilo bij uw identiteitsprovider
 
-Create an application in your provider's admin panel and set the **redirect URI** to:
+Maak een toepassing aan in het beheerpaneel van uw provider en stel de **redirect URI** in op:
 
 ```
-https://your-chamilo-url/connect/<provider>/check
+https://uw-chamilo-url/connect/<provider>/check
 ```
 
-Where `<provider>` is `azure`, `keycloak`, `facebook`, or the name you give a generic provider. Note the **Client ID** and **Client Secret**.
+Waarbij `<provider>` gelijk is aan `azure`, `keycloak`, `facebook` of de naam die u geeft aan een generieke provider. Noteer de **Client ID** en **Client Secret**.
 
-## Step 2 — Configure authentication.yaml
+## Stap 2 — Configureer authentication.yaml
 
-Enable the provider and supply its credentials. All providers share these common keys:
+Schakel de provider in en voeg de benodigde inloggegevens toe. Alle providers delen deze gemeenschappelijke sleutels:
 
-| Key | Description |
-|-----|-------------|
-| `enabled` | `true` to activate |
-| `title` | Label shown on the login button |
-| `client_id` | From your identity provider |
-| `client_secret` | From your identity provider |
-| `allow_create_new_users` | Auto-create a Chamilo account on first login |
-| `allow_update_user_info` | Sync user data on each login |
-| `force_as_login_method` | Disable other methods and force this one |
+| Sleutel | Beschrijving |
+|---------|--------------|
+| `enabled` | `true` om te activeren |
+| `title` | Label dat wordt weergegeven op de inlogknop |
+| `client_id` | Van uw identiteitsprovider |
+| `client_secret` | Van uw identiteitsprovider |
+| `allow_create_new_users` | Automatisch een Chamilo-account aanmaken bij eerste inlog |
+| `allow_update_user_info` | Gebruikersgegevens synchroniseren bij elke inlog |
+| `force_as_login_method` | Andere methoden uitschakelen en deze forceren |
 
 ### Azure AD (Microsoft Entra ID)
 
@@ -46,7 +46,7 @@ authentication:
         allow_update_user_info: true
 ```
 
-Azure also supports group-based role mapping (mapping Azure group IDs to Chamilo roles such as teacher or admin), user delta sync commands, and certificate authentication instead of a client secret. See the [wiki](https://github.com/chamilo/chamilo-lms/wiki/External-Authentication-configuration) for those options.
+Azure ondersteunt ook groepgebaseerde roltoewijzing (het koppelen van Azure-groep-ID's aan Chamilo-rollen zoals docent of beheerder), commando's voor gebruikers-delta-synchronisatie en certificaat-authenticatie in plaats van een clientgeheim. Zie de [wiki](https://github.com/chamilo/chamilo-lms/wiki/External-Authentication-configuration) voor deze opties.
 
 ### Keycloak
 
@@ -79,9 +79,9 @@ authentication:
         allow_create_new_users: true
 ```
 
-### Generic OAuth2
+### Generieke OAuth2
 
-Use this for Google, GitLab, or any OAuth2-compliant provider:
+Gebruik dit voor Google, GitLab of een andere OAuth2-compatibele provider:
 
 ```yaml
 authentication:
@@ -99,18 +99,18 @@ authentication:
         allow_create_new_users: true
 ```
 
-Field mapping (how provider attributes map to Chamilo's `firstname`, `lastname`, `email`, etc.) and role mapping are also configurable. See the [wiki](https://github.com/chamilo/chamilo-lms/wiki/External-Authentication-configuration) for the full list of mapping keys.
+Veldtoewijzing (hoe provider-attributen worden gekoppeld aan Chamilo's `firstname`, `lastname`, `email`, enz.) en roltoewijzing zijn ook configureerbaar. Zie de [wiki](https://github.com/chamilo/chamilo-lms/wiki/External-Authentication-configuration) voor de volledige lijst met toewijzingssleutels.
 
-## Step 3 — Clear cache and test
+## Stap 3 — Cache legen en testen
 
 ```bash
 php bin/console cache:clear && php bin/console cache:warmup
 ```
 
-Log out of Chamilo. The configured provider's button should appear on the login page. Test with a dedicated account before rolling out to all users.
+Log uit bij Chamilo. De knop van de geconfigureerde provider zou moeten verschijnen op de inlogpagina. Test met een speciaal account voordat u dit uitrolt naar alle gebruikers.
 
 ## Tips
 
-* Keep the standard login form enabled so administrators can always log in if OAuth2 has issues.
-* When using Azure with existing users, configure `existing_user_verification_order` to control how Chamilo matches incoming users to existing accounts.
-* Role assignment defaults to student; use group mapping to promote users to teacher or admin roles automatically.
+* Houd het standaard inlogformulier ingeschakeld zodat beheerders altijd kunnen inloggen als er problemen zijn met OAuth2.
+* Bij gebruik van Azure met bestaande gebruikers, configureer `existing_user_verification_order` om te bepalen hoe Chamilo inkomende gebruikers koppelt aan bestaande accounts.
+* Roltoewijzing is standaard ingesteld op student; gebruik groepstoewijzing om gebruikers automatisch te promoveren naar docent- of beheerdersrollen.

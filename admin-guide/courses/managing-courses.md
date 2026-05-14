@@ -1,57 +1,57 @@
-# Managing Courses
+# Cursussen beheren
 
-As an administrator, you can manage all courses on the platform regardless of who created them.
+Als beheerder kunt u alle cursussen op het platform beheren, ongeacht wie ze heeft aangemaakt.
 
-## Course List
+## Cursuslijst
 
-![The course list showing all courses with title, code, category, enrolled users, and visibility status](/.gitbook/assets/admin-course-list.png)
+![De cursuslijst met alle cursussen, inclusief titel, code, categorie, ingeschreven gebruikers en zichtbaarheidsstatus](/.gitbook/assets/admin-course-list.png)
 
-From the administration panel, click **Course list** to see all courses. The list shows:
+Klik in het beheerderspaneel op **Cursuslijst** om alle cursussen te bekijken. De lijst toont:
 
-* Course title and code
-* Language
-* Categories
-* Visibility status
+* Cursustitel en code
+* Taal
+* Categorieën
+* Zichtbaarheidsstatus
 
-Use the **Advanced search** tool to find specific courses.
+Gebruik de **Geavanceerd zoeken**-tool om specifieke cursussen te vinden.
 
-## Creating a Course
+## Een cursus aanmaken
 
-As an administrator, you can create courses and assign them to any teacher:
+Als beheerder kunt u cursussen aanmaken en toewijzen aan elke docent:
 
-1. Click **Add course** from the administration panel
-2. Fill in the course details (title, code, category, language)
-3. Assign a teacher to the course
-4. Save
+1. Klik op **Cursus toevoegen** in het beheerderspaneel
+2. Vul de cursusdetails in (titel, code, categorie, taal)
+3. Wijs een docent toe aan de cursus
+4. Sla op
 
-Note: In Chamilo 1.11.x, the course code was shown as part of the course URL, and was impossible to change after the creation of the course. This behaviour is changing in 2.x. The course code is not visible in the URL anymore, and future versions might allow teachers to modify the course code afterwards as it become less essential to the platform.
+Opmerking: In Chamilo 1.11.x werd de cursuscode weergegeven als onderdeel van de cursus-URL en kon deze na het aanmaken van de cursus niet worden gewijzigd. Dit gedrag verandert in 2.x. De cursuscode is niet langer zichtbaar in de URL en toekomstige versies kunnen docenten mogelijk toestaan om de cursuscode achteraf te wijzigen, aangezien deze minder essentieel wordt voor het platform.
 
-## Managing an Existing Course
+## Een bestaande cursus beheren
 
-Find a course in the list to access management options in the *Actions* column:
+Zoek een cursus in de lijst om toegang te krijgen tot beheeropties in de kolom *Acties*:
 
-* **Information** — Show information about the course 
-* **Course home** — Sends you directly to the course's homepage 
-* **Reporting** — See engagement and performance data
-* **Edit** — Change course title, category, visibility, and other settings
-* **Create a backup** — Go to the maintenance section of the course, where you can create copies and do other things
-* **Add to catalogue** — Add this course to the course catalogue
-* **Delete** — Permanently remove the course and all its content
+* **Informatie** — Toon informatie over de cursus
+* **Cursushomepage** — Brengt u direct naar de startpagina van de cursus
+* **Rapportage** — Bekijk betrokkenheids- en prestatiegegevens
+* **Bewerken** — Wijzig de cursustitel, categorie, zichtbaarheid en andere instellingen
+* **Back-up maken** — Ga naar de onderhoudssectie van de cursus, waar u kopieën kunt maken en andere acties kunt uitvoeren
+* **Toevoegen aan catalogus** — Voeg deze cursus toe aan de cursuscatalogus
+* **Verwijderen** — Verwijder de cursus en alle inhoud permanent
 
-> Deleting a course removes all content, learner data, grades, and tracking information permanently. Consider exporting the course first as a backup.
+> Het verwijderen van een cursus verwijdert permanent alle inhoud, gegevens van leerlingen, cijfers en trackinginformatie. Overweeg om de cursus eerst als back-up te exporteren.
 
-## Bulk Operations
+## Bulkoperaties
 
-Select multiple courses in the list to perform batch actions such as deleting them. To export a course, enter the course and use the **Maintenance** tool — there is no bulk export action on the admin course list.
+Selecteer meerdere cursussen in de lijst om batchacties uit te voeren, zoals het verwijderen ervan. Om een cursus te exporteren, ga naar de cursus en gebruik de **Onderhoud**-tool — er is geen bulkexportactie beschikbaar in de beheerderscursuslijst.
 
-## Course Visibility Settings
+## Zichtbaarheidsinstellingen voor cursussen
 
-Administrators can override the visibility set by teachers:
+Beheerders kunnen de zichtbaarheid die door docenten is ingesteld, overschrijven:
 
-| Visibility | Effect |
-|-----------|--------|
-| **Public** | Accessible to everyone, including anonymous visitors |
-| **Open** | Accessible to all logged-in users |
-| **Private** | Only enrolled users can access the course |
-| **Closed** | No one can access the course (except the teacher and admins) |
-| **Hidden** | No one can view or access the course (except the admins) |
+| Zichtbaarheid | Effect |
+|---------------|--------|
+| **Openbaar** | Toegankelijk voor iedereen, inclusief anonieme bezoekers |
+| **Open** | Toegankelijk voor alle ingelogde gebruikers |
+| **Privé** | Alleen ingeschreven gebruikers hebben toegang tot de cursus |
+| **Gesloten** | Niemand heeft toegang tot de cursus (behalve de docent en beheerders) |
+| **Verborgen** | Niemand kan de cursus bekijken of openen (behalve de beheerders) |

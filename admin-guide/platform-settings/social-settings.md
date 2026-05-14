@@ -1,70 +1,65 @@
-# Social Network Settings
+# Instellingen voor Sociaal Netwerk
 
-Behaviour of the **Social Network** — friends, groups, wall posts, photo albums.
+Gedrag van het **Sociaal Netwerk** — vrienden, groepen, muurberichten, fotoalbums.
 
-Access these settings under **Administration > Configuration settings > Social Network**. This category contains **7 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+Ga naar deze instellingen via **Beheer > Configuratie-instellingen > Sociaal Netwerk**. Deze categorie bevat **7 instellingen**, hieronder opgesomd met de titel en opmerking zoals meegeleverd in de instellingenfixtures van het platform (`SettingsCurrentFixtures.php`).
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> De variabelenaam in de code wordt weergegeven in monospace. Gebruik deze bij het scripten via de API of wanneer u deze instellingen op globaal niveau wilt wijzigen door [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml) te bewerken.
 
-## Settings
+## Instellingen
 
 ### `allow_social_tool`
 
-**Social network tool (Facebook-like)**
+**Sociaal netwerktool (vergelijkbaar met Facebook)**
 
-The social network tool allows users to define relations with other users and, by doing so, to define groups of friends. Combined with the internal messaging tool, this tool allows tight communication with friends, inside the portal environment.
+De sociaal netwerktool stelt gebruikers in staat om relaties met andere gebruikers te definiëren en zo vriendengroepen te vormen. In combinatie met de interne berichtentool maakt deze tool nauwe communicatie met vrienden mogelijk binnen de portaalomgeving.
 
-*Default: `true`*
+*Standaard: `true`*
 
 ### `allow_students_to_create_groups_in_social`
 
-**Allow learners to create groups in social network**
+**Leerlingen toestaan om groepen te maken in sociaal netwerk**
 
-Allow learners to create groups in social network
+Sta leerlingen toe om groepen te maken in het sociaal netwerk.
 
-*Default: `false`*
-
+*Standaard: `false`*
 
 ### `disable_dislike_option`
 
-**Disable 'dislike' for social posts**
+**'Dislike'-optie uitschakelen voor sociale berichten**
 
-Remove the thumb down option for social posts feedback. Only keep thumb up (like).
+Verwijder de duim-omlaag-optie voor feedback op sociale berichten. Behoud alleen de duim-omhoog (like).
 
-*Default: `false`*
+*Standaard: `false`*
 
 ### `hide_social_groups_block`
 
-**Hide groups block in social network**
+**Groepenblok verbergen in sociaal netwerk**
 
-Removes the groups section from the social network view.
+Verwijder de groepensectie uit de weergave van het sociaal netwerk.
 
-*Default: `false`*
-
+*Standaard: `false`*
 
 ### `social_enable_messages_feedback`
 
-**Like/Dislike for social posts**
+**Like/Dislike voor sociale berichten**
 
-Allows users to add feedback (likes or dislikes) to posts in social wall.
+Stelt gebruikers in staat om feedback (likes of dislikes) toe te voegen aan berichten op de sociale muur.
 
-*Default: `false`*
+*Standaard: `false`*
 
 ### `social_make_teachers_friend_all`
 
-**Teachers and admins see students as friends on social network**
+**Docenten en beheerders worden gezien als vrienden van studenten op sociaal netwerk**
 
-Automatically makes instructors and administrators appear as friends to all students in the social network module.
+Maakt docenten en beheerders automatisch vrienden van alle studenten in de sociaal netwerkmodule.
 
-*Default: `false`*
-
+*Standaard: `false`*
 
 ### `social_show_language_flag_in_profile`
 
-**Show language flag next to avatar in social network**
+**Taalvlag weergeven naast avatar in sociaal netwerk**
 
-Displays the user's language preference as a flag icon next to their avatar in social network profiles.
+Toont de taalvoorkeur van de gebruiker als een vlagpictogram naast hun avatar in sociaal netwerkprofielen.
 
-*Default: `false`*
-
-
+*Standaard: `false`*

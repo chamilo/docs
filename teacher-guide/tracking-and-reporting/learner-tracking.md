@@ -1,46 +1,46 @@
-# Learner Tracking
+# Leerlingvolgsysteem
 
-Chamilo tracks learner activity throughout the platform, giving you detailed insights into how each learner is engaging with your course.
+Chamilo volgt de activiteiten van leerlingen op het hele platform, waardoor u gedetailleerde inzichten krijgt in hoe elke leerling omgaat met uw cursus.
 
-## Accessing Learner Tracking
+## Toegang tot Leerlingvolgsysteem
 
-Open the **Tracking** <img src="/.gitbook/assets/icons/mdi-chart-box.svg" alt="Tracking" data-size="line"> tool from the course homepage, or click **Reporting** in the sidebar.
+Open de **Volgen** <img src="/.gitbook/assets/icons/mdi-chart-box.svg" alt="Volgen" data-size="line"> tool vanaf de cursusstartpagina, of klik op **Rapportage** in de zijbalk.
 
-## What Is Tracked
+## Wat Wordt Bijgehouden
 
-For each learner, Chamilo records (in the main per-learner tracking view):
+Voor elke leerling registreert Chamilo (in de hoofdweergave per leerling):
 
-* **Login activity** — When the learner last logged in and their total login time
-* **Time spent in the course** — Total time the learner has spent in your course
-* **First and last access** — When the learner first entered and last visited the course
-* **Course progress** — Aggregate progress percentage across the course
-* **Exercise results** — Scores and attempts for each exercise
-* **Learning path progress** — Completion percentage and time spent on each learning path
-* **Assignment submissions** — Which assignments have been submitted and graded
+* **Inlogactiviteit** — Wanneer de leerling voor het laatst heeft ingelogd en de totale inlogtijd
+* **Tijd besteed aan de cursus** — Totale tijd die de leerling in uw cursus heeft doorgebracht
+* **Eerste en laatste toegang** — Wanneer de leerling voor het eerst de cursus betrad en voor het laatst bezocht
+* **Cursusvoortgang** — Geaggregeerd voortgangspercentage over de hele cursus
+* **Resultaten van oefeningen** — Scores en pogingen voor elke oefening
+* **Voortgang in leerpaden** — Voltooiingspercentage en tijd besteed aan elk leerpad
+* **Inleveringen van opdrachten** — Welke opdrachten zijn ingeleverd en beoordeeld
 
-Per-resource access details (which specific documents or pages a learner opened) and tool-level activity are available through the dedicated **Resources**, **Tools**, and **Events** views in the tracking section, rather than in the main learner row.
+Details over toegang per bron (welke specifieke documenten of pagina's een leerling heeft geopend) en activiteit op toolniveau zijn beschikbaar via de specifieke **Bronnen**, **Tools** en **Gebeurtenissen** weergaven in de volgsysteemsectie, in plaats van in de hoofdrij van de leerling.
 
-## Viewing Individual Learner Data
+## Individuele Leerlinggegevens Bekijken
 
-![Detailed learner tracking view showing progress, scores, and activity timeline](/.gitbook/assets/tracking-learner-detail.png)
+![Gedetailleerde weergave van leerlingvolgsysteem met voortgang, scores en activiteitstijdlijn](/.gitbook/assets/tracking-learner-detail.png)
 
-Click on a learner's name to see their detailed activity report. This shows:
+Klik op de naam van een leerling om hun gedetailleerde activiteitenrapport te bekijken. Dit toont:
 
-* A summary of their overall engagement
-* Progress through each learning path
-* Exercise scores and attempt history
-* Assignment submission status
+* Een samenvatting van hun algemene betrokkenheid
+* Voortgang door elk leerpad
+* Scores en pogingengeschiedenis van oefeningen
+* Status van inlevering van opdrachten
 
-## Tracking Views
+## Volgweergaven
 
-You can view tracking data from different perspectives:
+U kunt volggegevens vanuit verschillende perspectieven bekijken:
 
-* **By learner** — Select a learner to see all their activity
-* **By resource** — Select a document, exercise, or learning path to see how all learners interacted with it
-* **By tool** — See aggregate usage for each course tool
+* **Per leerling** — Selecteer een leerling om al hun activiteiten te zien
+* **Per bron** — Selecteer een document, oefening of leerpad om te zien hoe alle leerlingen ermee hebben geïnterageerd
+* **Per tool** — Bekijk geaggregeerd gebruik voor elke cursustool
 
 ## Tips
 
-* **Identify struggling learners** — Look for learners with low engagement, multiple failed exercise attempts, or incomplete learning paths
-* **Monitor progress regularly** — Check tracking data weekly to spot issues early
-* **Use data for feedback** — Share relevant tracking data with learners to help them understand their own progress
+* **Identificeer leerlingen met moeite** — Zoek naar leerlingen met lage betrokkenheid, meerdere mislukte pogingen bij oefeningen of onvoltooide leerpaden
+* **Volg voortgang regelmatig** — Controleer wekelijks de volggegevens om problemen vroegtijdig op te sporen
+* **Gebruik gegevens voor feedback** — Deel relevante volggegevens met leerlingen om hen te helpen hun eigen voortgang te begrijpen

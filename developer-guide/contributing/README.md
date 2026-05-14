@@ -1,7 +1,7 @@
-# Contributing
+# Bijdragen
 
-Chamilo is an open-source project that welcomes contributions. This section covers how to contribute effectively.
+Chamilo is een open-source project dat bijdragen verwelkomt. Deze sectie behandelt hoe je effectief kunt bijdragen.
 
-* **[Coding Conventions](coding-conventions.md)** — Code style and standards
-* **[Git Workflow](git-workflow.md)** — Branching, commits, and pull requests
-* **[Testing](testing.md)** — Testing strategy and tools
+* **[Coderingsconventies](coding-conventions.md)** — Codeerstijl en standaarden
+* **[Git Workflow](git-workflow.md)** — Vertakkingen, commits en pull requests
+* **[Testen](testing.md)** — Teststrategie en tools

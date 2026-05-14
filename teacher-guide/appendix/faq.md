@@ -1,57 +1,57 @@
-# FAQ
+# Veelgestelde vragen
 
-## General Questions
+## Algemene vragen
 
-**How do I access my course?**
+**Hoe krijg ik toegang tot mijn cursus?**
 
-Click **My courses** in the sidebar, then click on the course you want to open. If your course is part of a session, click **My sessions** first, then select the session and course.
+Klik op **Mijn cursussen** in de zijbalk en klik vervolgens op de cursus die je wilt openen. Als je cursus deel uitmaakt van een sessie, klik dan eerst op **Mijn sessies**, selecteer de sessie en daarna de cursus.
 
-**Can my learners access the course from a mobile phone?**
+**Kunnen mijn leerlingen de cursus vanaf een mobiele telefoon benaderen?**
 
-Yes. Chamilo 2.0 has a responsive interface that adapts to all screen sizes. Learners can use any modern web browser on a phone, tablet, or computer.
+Ja. Chamilo 2.0 heeft een responsieve interface die zich aanpast aan alle schermformaten. Leerlingen kunnen elke moderne webbrowser gebruiken op een telefoon, tablet of computer.
 
-**What browsers are supported?**
+**Welke browsers worden ondersteund?**
 
-Chamilo 2.0 works with all major modern browsers: Chrome, Firefox, Safari, and Edge. For the best experience, use the latest version of your browser.
+Chamilo 2.0 werkt met alle belangrijke moderne browsers: Chrome, Firefox, Safari en Edge. Voor de beste ervaring raden we aan de nieuwste versie van je browser te gebruiken.
 
-## Content and Courses
+## Inhoud en cursussen
 
-**How do I create a backup of my course?**
+**Hoe maak ik een back-up van mijn cursus?**
 
-Go to the **Maintenance** tool in your course (accessible from the settings menu on the course homepage). You will find options to export your course content.
+Ga naar het hulpmiddel **Onderhoud** in je cursus (toegankelijk via het instellingenmenu op de cursusstartpagina). Daar vind je opties om je cursusinhoud te exporteren.
 
-**Can I copy content from one course to another?**
+**Kan ik inhoud van de ene cursus naar een andere kopiëren?**
 
-Yes. Use the course import/export features in the Maintenance tool to copy content between courses. You will need to create an empty *destination* course first.
+Ja. Gebruik de import-/exportfuncties in het hulpmiddel Onderhoud om inhoud tussen cursussen te kopiëren. Je moet eerst een lege *doelcursus* aanmaken.
 
-**What file formats can I upload?**
+**Welke bestandsformaten kan ik uploaden?**
 
-Chamilo supports most common file formats: PDF, Word documents, PowerPoint presentations, images (PNG, JPG, SVG, GIF), audio files, video files, and many more. Your administrator may restrict certain file types for security reasons.
+Chamilo ondersteunt de meeste gangbare bestandsformaten: PDF, Word-documenten, PowerPoint-presentaties, afbeeldingen (PNG, JPG, SVG, GIF), audiobestanden, videobestanden en nog veel meer. Je beheerder kan bepaalde bestandstypen om veiligheidsredenen beperken.
 
-**What is the maximum file upload size?**
+**Wat is de maximale grootte voor het uploaden van bestanden?**
 
-This depends on your server configuration. Your administrator sets the upload limit. If you encounter a limit, contact your administrator.
+Dit hangt af van je serverconfiguratie. Je beheerder stelt de uploadlimiet in. Als je een limiet tegenkomt, neem dan contact op met je beheerder.
 
-## Assessment
+## Beoordeling
 
-**Can exercises be graded automatically?**
+**Kunnen oefeningen automatisch worden beoordeeld?**
 
-Yes. Most question types (multiple choice, true/false, fill in the blanks, matching) are graded automatically. Open-ended questions require manual grading, or you can use AI-assisted grading if configured.
+Ja. De meeste vraagtypen (meerkeuze, waar/onwaar, invuloefeningen, koppeloefeningen) worden automatisch beoordeeld. Open vragen vereisen handmatige beoordeling, of je kunt AI-ondersteunde beoordeling gebruiken als dit is geconfigureerd.
 
-**Can I set a time limit on exercises?**
+**Kan ik een tijdslimiet instellen voor oefeningen?**
 
-Yes. When creating or editing an exercise, you can set a time limit in minutes. Learners will see a countdown timer.
+Ja. Bij het aanmaken of bewerken van een oefening kun je een tijdslimiet in minuten instellen. Leerlingen zien dan een afteltimer.
 
-**Can learners retake an exercise?**
+**Kunnen leerlingen een oefening opnieuw maken?**
 
-Yes. You control the number of allowed attempts in the exercise settings. You can allow unlimited attempts or set a specific maximum, but this maximum applies to all users in your course (you can *free* new attempts by deleting previous ones, but this is not recommended as it results in unequal chances between users and it is registered for audit at the platform level).
+Ja. Je kunt het aantal toegestane pogingen beheren in de instellingen van de oefening. Je kunt onbeperkte pogingen toestaan of een specifiek maximum instellen, maar dit maximum geldt voor alle gebruikers in je cursus (je kunt nieuwe pogingen *vrijgeven* door eerdere pogingen te verwijderen, maar dit wordt niet aanbevolen omdat het ongelijke kansen tussen gebruikers oplevert en het wordt geregistreerd voor audit op platformniveau).
 
-## Technical Issues
+## Technische problemen
 
-**I cannot see a tool on my course homepage. Where is it?**
+**Ik zie een hulpmiddel niet op mijn cursusstartpagina. Waar is het?**
 
-Some tools may be hidden. As a teacher, you can show hidden tools by looking for tools with a crossed-out eye icon. If you cannot find a specific tool at all, your platform administrator may have disabled it at the platform level.
+Sommige hulpmiddelen kunnen verborgen zijn. Als docent kun je verborgen hulpmiddelen zichtbaar maken door te zoeken naar hulpmiddelen met een doorgestreept oogpictogram. Als je een specifiek hulpmiddel helemaal niet kunt vinden, heeft je platformbeheerder dit mogelijk uitgeschakeld op platformniveau.
 
-**My learners say they cannot access the course.**
+**Mijn leerlingen zeggen dat ze geen toegang hebben tot de cursus.**
 
-Check the course visibility settings (Course Settings > Course Visibility). If set to "Registered only," learners must be explicitly enrolled. Also verify they have an active account on the platform.
+Controleer de instellingen voor cursuszichtbaarheid (Cursusinstellingen > Cursuszichtbaarheid). Als deze is ingesteld op "Alleen geregistreerd", moeten leerlingen expliciet worden ingeschreven. Controleer ook of ze een actief account hebben op het platform.

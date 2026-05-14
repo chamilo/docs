@@ -1,103 +1,104 @@
-# Documents
+# Documenten
 
-The documents tool is your course's file repository. You can upload files, create documents in HTML format, organize content into folders, and give learners access to all the materials they need.
+De documententool is de bestandsopslag van uw cursus. U kunt bestanden uploaden, documenten in HTML-formaat maken, inhoud in mappen organiseren en leerlingen toegang geven tot alle benodigde materialen.
 
-## Accessing the Documents Tool
+## Toegang tot de Documententool
 
-Open the **Documents** <img src="/.gitbook/assets/icons/mdi-bookshelf.svg" alt="Documents" data-size="line"> tool from the course homepage. You will see a file browser showing the root folder of your course's document library.
+Open de **Documenten** <img src="/.gitbook/assets/icons/mdi-bookshelf.svg" alt="Documenten" data-size="line"> tool vanaf de cursusstartpagina. U ziet een bestandsbrowser die de hoofdfolder van de documentbibliotheek van uw cursus weergeeft.
 
-![The documents file browser showing folders and files with action icons](/.gitbook/assets/documents-file-browser.png)
+![De documentenbestandsbrowser met mappen en bestanden met actie-iconen](/.gitbook/assets/documents-file-browser.png)
 
-## Uploading Files
+## Bestanden Uploaden
 
-1. Click the **Upload** <img src="/.gitbook/assets/icons/mdi-upload.svg" alt="Upload" data-size="line"> button
-2. Select one or more files from your computer (you can drag and drop files into the upload area)
-3. The files are uploaded and appear in the current folder
+1. Klik op de **Upload** <img src="/.gitbook/assets/icons/mdi-upload.svg" alt="Upload" data-size="line"> knop
+2. Selecteer een of meer bestanden van uw computer (u kunt bestanden naar het uploadgebied slepen en neerzetten)
+3. De bestanden worden geüpload en verschijnen in de huidige map
 
-Chamilo supports most common file types: PDF, office documents (.docx, .odt), presentations (.pptx, .odp), spreadsheets (.xlsx, .ods), images (PNG, JPG, SVG, GIF), audio files, video files (including WEBM), HTML files, and more.
+Chamilo ondersteunt de meeste gangbare bestandstypen: PDF, kantoordocumenten (.docx, .odt), presentaties (.pptx, .odp), spreadsheets (.xlsx, .ods), afbeeldingen (PNG, JPG, SVG, GIF), audiobestanden, videobestanden (inclusief WEBM), HTML-bestanden en meer.
 
-Some formats might be forbidden by the portal administrator through a whitelist/blacklist filtering setting in the security section of the administration.
+Sommige formaten kunnen door de portaalbeheerder worden verboden via een whitelist/blacklist-filterinstelling in de beveiligingssectie van de administratie.
 
-For better readability by learners, we do recommend uploading files a browser can view or open without additional tools. This makes your course more portable and, as such, more accessible to mobile devices and more readable for people with special abilities.
+Voor een betere leesbaarheid door leerlingen raden we aan om bestanden te uploaden die een browser kan bekijken of openen zonder extra tools. Dit maakt uw cursus draagbaarder en daardoor toegankelijker voor mobiele apparaten en beter leesbaar voor mensen met speciale behoeften.
 
-## Creating Content
+## Inhoud Maken
 
-In addition to uploading files, you can create content directly in Chamilo:
+Naast het uploaden van bestanden kunt u ook direct inhoud maken in Chamilo:
 
-### Web Pages
+### Webpagina's
 
-1. Click **New document**
-2. Use the rich-text editor to write your content with formatting, images, tables, and links
-3. Enter a **title** for the page
-4. Save
+1. Klik op **Nieuw document**
+2. Gebruik de rich-text editor om uw inhoud te schrijven met opmaak, afbeeldingen, tabellen en links
+3. Voer een **titel** in voor de pagina
+4. Sla op
 
-The rich-text editor (TinyMCE) provides word-processor-like features including:
+De rich-text editor (TinyMCE) biedt functies vergelijkbaar met een tekstverwerker, waaronder:
 
-* Text formatting (bold, italic, headings, lists)
-* Tables
-* Images (upload or link to existing images)
-* Embedded videos and audio
-* Links to other resources
-* HTML source editing for advanced users
+* Tekstopmaak (vet, cursief, koppen, lijsten)
+* Tabellen
+* Afbeeldingen (uploaden of koppelen aan bestaande afbeeldingen)
+* Ingebedde video's en audio
+* Links naar andere bronnen
+* HTML-bronbewerking voor gevorderde gebruikers
 
-### AI media generation
+### AI-mediageneratie
 
-When AI helpers are enabled on the platform, you can ask the AI to generate an **image** or a **short video** to illustrate a paragraph in the document you are editing. Select a paragraph, open the **Generate AI media** dialog, and the AI will produce a media item that you can review and insert. The dialog respects course-level permissions and only appears in courses where AI media generation is allowed.
+Wanneer AI-helpers zijn ingeschakeld op het platform, kunt u de AI vragen om een **afbeelding** of een **korte video** te genereren om een alinea in het document dat u bewerkt te illustreren. Selecteer een alinea, open het dialoogvenster **AI-media genereren**, en de AI zal een media-item produceren dat u kunt bekijken en invoegen. Het dialoogvenster respecteert de cursusrechten en verschijnt alleen in cursussen waar AI-mediageneratie is toegestaan.
 
-### Audio Recording
+### Audio-opname
 
-If your browser supports it, you can record audio directly within the documents tool — useful for creating audio instructions or language learning content. This requires an HTTPS configuration for Chamilo, as audio recording uses technology that the browser only allows if the connection is secure.
+Als uw browser dit ondersteunt, kunt u direct audio opnemen binnen de documententool — handig voor het maken van audio-instructies of inhoud voor taalonderwijs. Dit vereist een HTTPS-configuratie voor Chamilo, aangezien audio-opname gebruikmaakt van technologie die de browser alleen toestaat als de verbinding beveiligd is.
 
-## Organizing with Folders
+## Organiseren met Mappen
 
-Keep your document library organized using folders:
+Houd uw documentbibliotheek georganiseerd met behulp van mappen:
 
-1. Click **New folder** <img src="/.gitbook/assets/icons/mdi-folder-plus.svg" alt="New folder" data-size="line">
-2. Enter a folder name
-3. Save
+1. Klik op **Nieuwe map** <img src="/.gitbook/assets/icons/mdi-folder-plus.svg" alt="Nieuwe map" data-size="line">
+2. Voer een mapnaam in
+3. Sla op
 
-You can create nested folders to build a logical content hierarchy (e.g., `Module 1 > Week 1 > Readings`).
+U kunt geneste mappen maken om een logische inhoudshiërarchie op te bouwen (bijvoorbeeld `Module 1 > Week 1 > Lezingen`).
 
-### Moving Files
+### Bestanden Verplaatsen
 
-* Locate your file in the list
-* Click **Move** <img src="/.gitbook/assets/icons/mdi-folder-move.svg" alt="Move" data-size="line">
-* Select the destination folder
-* Confirm
+* Zoek uw bestand in de lijst
+* Klik op **Verplaatsen** <img src="/.gitbook/assets/icons/mdi-folder-move.svg" alt="Verplaatsen" data-size="line">
+* Selecteer de doelmap
+* Bevestig
 
-## Managing Documents
+## Documenten Beheren
 
-For each file or folder, you can:
+Voor elk bestand of elke map kunt u:
 
-| Action | Icon | Description |
-|--------|------|-------------|
-| **Edit** | <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Edit" data-size="line"> | Rename the file or edit its content (for web pages) |
-| **Delete** | <img src="/.gitbook/assets/icons/mdi-delete.svg" alt="Delete" data-size="line"> | Remove the file or folder |
-| **Download** | <img src="/.gitbook/assets/icons/mdi-download-box.svg" alt="Download" data-size="line"> | Download the file to your computer |
-| **Visibility** | <img src="/.gitbook/assets/icons/mdi-eye.svg" alt="Visibility" data-size="line"> | Hide or show the file to learners |
-| **Replace** | <img src="/.gitbook/assets/icons/mdi-file-replace.svg" alt="Replace" data-size="line"> | Replace the file with an updated version |
-| **Move** | <img src="/.gitbook/assets/icons/mdi-folder-move.svg" alt="Move" data-size="line"> | Move to a different folder |
+| Actie | Icoon | Beschrijving |
+|-------|-------|--------------|
+| **Bewerken** | <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Bewerken" data-size="line"> | Hernoem het bestand of bewerk de inhoud (voor webpagina's) |
+| **Verwijderen** | <img src="/.gitbook/assets/icons/mdi-delete.svg" alt="Verwijderen" data-size="line"> | Verwijder het bestand of de map |
+| **Downloaden** | <img src="/.gitbook/assets/icons/mdi-download-box.svg" alt="Downloaden" data-size="line"> | Download het bestand naar uw computer |
+| **Zichtbaarheid** | <img src="/.gitbook/assets/icons/mdi-eye.svg" alt="Zichtbaarheid" data-size="line"> | Verberg of toon het bestand voor leerlingen |
+| **Vervangen** | <img src="/.gitbook/assets/icons/mdi-file-replace.svg" alt="Vervangen" data-size="line"> | Vervang het bestand door een bijgewerkte versie |
+| **Verplaatsen** | <img src="/.gitbook/assets/icons/mdi-folder-move.svg" alt="Verplaatsen" data-size="line"> | Verplaats naar een andere map |
 
-Replacing a file is an important feature when you use documents to build learning paths, as replacing the document will allow the document to be refreshed without learners loosing the progress saved for that document.
+Het vervangen van een bestand is een belangrijke functie wanneer u documenten gebruikt om leerpaden te bouwen, omdat het vervangen van het document ervoor zorgt dat het document kan worden vernieuwd zonder dat leerlingen de voortgang die voor dat document is opgeslagen, verliezen.
 
-### Bulk Actions
+### Bulkacties
 
-Select multiple files using checkboxes, then use the toolbar to delete or download all selected items at once.
+Selecteer meerdere bestanden met behulp van selectievakjes en gebruik vervolgens de werkbalk om alle geselecteerde items in één keer te verwijderen of te downloaden.
 
-## OnlyOffice Integration
+---
+## OnlyOffice Integratie
 
-If your administrator has configured the **OnlyOffice** plugin, you can edit Word, Excel, and PowerPoint (or LibreOffice) files directly in the browser without downloading them. Look for the **Edit with OnlyOffice** <img src="/.gitbook/assets/icons/mdi-file-document-edit-outline.svg" alt="OnlyOffice" data-size="line"> option when viewing a supported file.
+Als uw beheerder de **OnlyOffice** plugin heeft geconfigureerd, kunt u Word-, Excel- en PowerPoint-bestanden (of LibreOffice-bestanden) rechtstreeks in de browser bewerken zonder ze te downloaden. Zoek naar de optie **Bewerken met OnlyOffice** <img src="/.gitbook/assets/icons/mdi-file-document-edit-outline.svg" alt="OnlyOffice" data-size="line"> wanneer u een ondersteund bestand bekijkt.
 
-Documents are stored in Chamilo, OnlyOffice is only used to **view** or edit the documents in the browser, without the need for any additional tool.
+Documenten worden opgeslagen in Chamilo, OnlyOffice wordt alleen gebruikt om de documenten in de browser te **bekijken** of te bewerken, zonder dat er extra hulpmiddelen nodig zijn.
 
-## Cloud Files
+## Cloudbestanden
 
-If you use cloud storage (Azure Blob, AWS S3, or Google Cloud) for your files, these are stored in the cloud but you can link them from here. This is transparent to you and your learners — the document tool works the same way regardless of the storage backend.
+Als u cloudopslag gebruikt (Azure Blob, AWS S3 of Google Cloud) voor uw bestanden, worden deze in de cloud opgeslagen, maar u kunt ze vanaf hier koppelen. Dit is transparant voor u en uw leerlingen — het documentgereedschap werkt op dezelfde manier, ongeacht de opslagbackend.
 
 ## Tips
 
-* **Organize early** — Create your folder structure before uploading content so you don't have to reorganize later. If you have created other courses with the right structure, you can use those courses as template later on
-* **Use descriptive file names** — Help learners find what they need with clear, meaningful names
-* **Hide work-in-progress** — Use the visibility toggle to hide documents you are still preparing
-* **Link from learning paths** — Reference documents within your learning paths to create guided learning sequences
-* **Check the disk quota** — If your course has a storage limit, remove outdated files to free up space
+* **Organiseer vroegtijdig** — Maak uw mapstructuur aan voordat u inhoud uploadt, zodat u later niet hoeft te reorganiseren. Als u andere cursussen hebt gemaakt met de juiste structuur, kunt u die cursussen later als sjabloon gebruiken
+* **Gebruik beschrijvende bestandsnamen** — Help leerlingen om te vinden wat ze nodig hebben met duidelijke, betekenisvolle namen
+* **Verberg werk in uitvoering** — Gebruik de zichtbaarheidsschakelaar om documenten die u nog aan het voorbereiden bent te verbergen
+* **Koppel vanuit leerpaden** — Verwijs naar documenten binnen uw leerpaden om begeleide leervolgordes te creëren
+* **Controleer de schijfquota** — Als uw cursus een opslaglimiet heeft, verwijder dan verouderde bestanden om ruimte vrij te maken

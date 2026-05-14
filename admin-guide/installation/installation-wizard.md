@@ -1,136 +1,136 @@
-# Installation Wizard
+# Installatiewizard
 
-Chamilo 2.0 includes a web-based installation wizard that guides you through the initial setup. The wizard runs automatically when you access the platform for the first time.
+Chamilo 2.0 bevat een webgebaseerde installatiewizard die u door de initiële configuratie leidt. De wizard start automatisch wanneer u voor de eerste keer toegang krijgt tot het platform.
 
-## Before You Start
+## Voordat u begint
 
-Ensure the following prerequisites are met:
+Zorg ervoor dat aan de volgende voorwaarden is voldaan:
 
-1. Your server meets all [server requirements](server-requirements.md).
-2. You have downloaded a packaged (zip or tar.gz) version of Chamilo.
-3. Your web server is configured to serve the `public/` directory as the document root.
-4. Your `.env` file exists and is empty (the wizard will guide database setup).
+1. Uw server voldoet aan alle [serververeisten](server-requirements.md).
+2. U hebt een verpakte (zip of tar.gz) versie van Chamilo gedownload.
+3. Uw webserver is geconfigureerd om de map `public/` als documentroot te gebruiken.
+4. Uw `.env`-bestand bestaat en is leeg (de wizard zal u begeleiden bij het instellen van de database).
 
-## Step 1: Installation Language
+## Stap 1: Installatietaal
 
-![Installation wizard Step 1 — language selection](/.gitbook/assets/install-step1-language.png)
+![Installatiewizard Stap 1 — taalkeuze](/.gitbook/assets/install-step1-language.png)
 
-The first step lets you select the language for the installation process. Choose your preferred language from the dropdown.
+In de eerste stap kunt u de taal voor het installatieproces selecteren. Kies uw voorkeurstaal uit het dropdownmenu.
 
-If Chamilo detects an existing installation (for an upgrade), it will display the migration status and offer an upgrade path instead of a fresh install.
+Als Chamilo een bestaande installatie detecteert (voor een upgrade), wordt de migratiestatus weergegeven en wordt een upgrade-pad aangeboden in plaats van een nieuwe installatie.
 
-## Step 2: Requirements Check
+## Stap 2: Controle van vereisten
 
-![Installation wizard Step 2 — requirements check showing PHP version, extensions, and directory permissions](/.gitbook/assets/install-step2-requirements.png)
+![Installatiewizard Stap 2 — controle van vereisten met PHP-versie, extensies en maprechten](/.gitbook/assets/install-step2-requirements.png)
 
-The wizard checks your server environment:
+De wizard controleert uw serveromgeving:
 
-* **PHP version** is 8.2 or superior
-* **Required PHP extensions** are installed (intl, gd, curl, zip, mbstring, xml, etc.)
-* **Recommended PHP settings** — `date.timezone` is configured, adequate upload/memory limits
-* **Directory and file permissions** — `var/`, `config/`, and `public/upload/` are writable by the web server
+* **PHP-versie** is 8.2 of hoger
+* **Vereiste PHP-extensies** zijn geïnstalleerd (intl, gd, curl, zip, mbstring, xml, enz.)
+* **Aanbevolen PHP-instellingen** — `date.timezone` is geconfigureerd, voldoende upload-/geheugenlimieten
+* **Map- en bestandsrechten** — `var/`, `config/` en `public/upload/` zijn beschrijfbaar door de webserver
 
-If any requirements are not met, the wizard displays warnings or errors. Resolve them before proceeding.
+Als niet aan alle vereisten wordt voldaan, toont de wizard waarschuwingen of fouten. Los deze op voordat u verdergaat.
 
-## Step 3: License
+## Stap 3: Licentie
 
-![Installation wizard Step 3 — license acceptance](/.gitbook/assets/install-step3-license.png)
+![Installatiewizard Stap 3 — acceptatie van de licentie](/.gitbook/assets/install-step3-license.png)
 
-This step displays the GNU/GPLv3 license. You must check the **"I accept"** checkbox to proceed.
+In deze stap wordt de GNU/GPLv3-licentie weergegeven. U moet het vakje **"Ik accepteer"** aanvinken om verder te gaan.
 
-Optionally, you can expand the **Contact information** section to provide details about your organization (name, email, company, country). This is voluntary and helps the Chamilo community understand who uses the platform, but will also allow us to contact you *very rarely* about events happening close to you.
+Optioneel kunt u de sectie **Contactinformatie** uitklappen om gegevens over uw organisatie te verstrekken (naam, e-mail, bedrijf, land). Dit is vrijwillig en helpt de Chamilo-gemeenschap te begrijpen wie het platform gebruikt, maar stelt ons ook in staat om u *zeer zelden* te contacteren over evenementen in uw buurt.
 
-## Step 4: Database Settings
+## Stap 4: Database-instellingen
 
-![Installation wizard Step 4 — database connection configuration](/.gitbook/assets/install-step4-database.png)
+![Installatiewizard Stap 4 — configuratie van de databaseverbinding](/.gitbook/assets/install-step4-database.png)
 
-Enter your database connection details:
+Voer uw databaseverbindingsgegevens in:
 
-| Field | Description |
+| Veld | Beschrijving |
 |-------|-------------|
-| **Database host** | The hostname or IP of your database server (e.g., `localhost` or `127.0.0.1`) |
-| **Database port** | Default: 3306 for MySQL/MariaDB |
-| **Database name** | The name of the database to use (alphanumeric and underscores only) |
-| **Database user** | A database user with full privileges on the specified database |
-| **Database password** | The password for the database user |
+| **Databasehost** | De hostnaam of het IP-adres van uw databaseserver (bijv. `localhost` of `127.0.0.1`) |
+| **Databasepoort** | Standaard: 3306 voor MySQL/MariaDB |
+| **Databasenaam** | De naam van de te gebruiken database (alleen alfanumerieke tekens en underscores) |
+| **Databasegebruiker** | Een databasegebruiker met volledige rechten op de opgegeven database |
+| **Databasewachtwoord** | Het wachtwoord voor de databasegebruiker |
 
-Click **Check database connection** to test. The wizard will not let you proceed until the connection is successful. If the database already exists, a warning is displayed.
+Klik op **Controleer databaseverbinding** om te testen. De wizard laat u niet verdergaan totdat de verbinding succesvol is. Als de database al bestaat, wordt een waarschuwing weergegeven.
 
-## Step 5: Configuration Settings
+## Stap 5: Configuratie-instellingen
 
-![Installation wizard Step 5 — administrator account, portal settings, and email configuration](/.gitbook/assets/install-step5-config.png)
+![Installatiewizard Stap 5 — beheerdersaccount, portaalinstellingen en e-mailconfiguratie](/.gitbook/assets/install-step5-config.png)
 
-This step combines administrator account creation, portal settings, and email configuration.
+Deze stap combineert het aanmaken van een beheerdersaccount, portaalinstellingen en e-mailconfiguratie.
 
-### Administrator Account
+### Beheerdersaccount
 
-| Field | Description |
+| Veld | Beschrijving |
 |-------|-------------|
-| **Login** | The administrator username |
-| **Password** | Choose a strong password — this account has full platform access |
-| **First name** | The administrator's first name |
-| **Last name** | The administrator's last name |
-| **Email** | Used for system notifications and password resets |
-| **Phone** | Optional contact number |
+| **Inlognaam** | De gebruikersnaam van de beheerder |
+| **Wachtwoord** | Kies een sterk wachtwoord — dit account heeft volledige toegang tot het platform |
+| **Voornaam** | De voornaam van de beheerder |
+| **Achternaam** | De achternaam van de beheerder |
+| **E-mail** | Gebruikt voor systeemmeldingen en wachtwoordherstel |
+| **Telefoon** | Optioneel contactnummer |
 
-These admin details will also be used by Chamilo to populate the support contact details, so make sure you go reconfigure that in the settings after the installation concluded.
+Deze beheerdersgegevens worden door Chamilo ook gebruikt om de ondersteuningscontactgegevens in te vullen, dus zorg ervoor dat u deze na de installatie opnieuw configureert in de instellingen.
 
-### Portal Settings
+### Portaalinstellingen
 
-| Field | Description |
+| Veld | Beschrijving |
 |-------|-------------|
-| **Language** | The default interface language |
-| **Portal name** | The name of your platform (e.g., "My Organization LMS") |
-| **Company short name** | Your organization's abbreviated name |
-| **Company URL** | Your organization's website |
-| **Encryption method** | Password hashing algorithm — **bcrypt** is recommended |
-| **Allow self-registration** | Yes / No / After approval |
-| **Allow self-registration as trainer** | Yes / No |
+| **Taal** | De standaard interfacetaal |
+| **Portaalnaam** | De naam van uw platform (bijv. "Mijn Organisatie LMS") |
+| **Korte bedrijfsnaam** | De afgekorte naam van uw organisatie |
+| **Bedrijfs-URL** | De website van uw organisatie |
+| **Versleutelingsmethode** | Algoritme voor wachtwoordhashing — **bcrypt** wordt aanbevolen |
+| **Zelfregistratie toestaan** | Ja / Nee / Na goedkeuring |
+| **Zelfregistratie als trainer toestaan** | Ja / Nee |
 
-### Email Configuration
+### E-mailconfiguratie
 
-The email settings section lets you configure the mail transport (SMTP, Amazon SES, Mailjet, etc.) and test email delivery. See [Email Configuration](email-configuration.md) for details.
+In de sectie voor e-mailinstellingen kunt u het e-mailtransport configureren (SMTP, Amazon SES, Mailjet, enz.) en de e-mailbezorging testen. Zie [E-mailconfiguratie](email-configuration.md) voor meer informatie.
 
-All these settings can be changed later from the administration panel.
+Al deze instellingen kunnen later worden gewijzigd via het beheerderspaneel.
 
-## Step 6: Last Check Before Install
+## Stap 6: Laatste Controle Voor Installatie
 
-![Installation wizard Step 6 — review of all settings before installation](/.gitbook/assets/install-step6-review.png)
+![Installatiewizard Stap 6 — overzicht van alle instellingen voor installatie](/.gitbook/assets/install-step6-review.png)
 
-This step displays a summary of everything you entered for review:
+Deze stap toont een samenvatting van alles wat u hebt ingevoerd ter controle:
 
-* Administrator credentials (password is hidden by default — click the eye icon to reveal)
-* Portal settings
-* Database connection details
+* Beheerdersgegevens (wachtwoord is standaard verborgen — klik op het oogpictogram om het te tonen)
+* Portaalinstellingen
+* Databaseverbindingsgegevens
 
-Review carefully, then click **Install Chamilo** to execute the installation. The wizard creates all database tables, populates initial data, and configures the platform.
+Controleer alles zorgvuldig en klik vervolgens op **Chamilo Installeren** om de installatie uit te voeren. De wizard maakt alle databasetabellen aan, vult de initiële gegevens in en configureert het platform.
 
-## Step 7: Installation Complete
+## Stap 7: Installatie Voltooid
 
-![Installation wizard Step 7 — completion with security advice and portal link](/.gitbook/assets/install-step7-complete.png)
+![Installatiewizard Stap 7 — voltooiing met beveiligingsadvies en portaallink](/.gitbook/assets/install-step7-complete.png)
 
-After installation completes successfully, the wizard shows:
+Nadat de installatie succesvol is voltooid, toont de wizard:
 
-* **Getting started advice** — Suggests creating your first course to explore the platform (as admin, you need to do this from the admin panel)
-* **Security recommendations**:
-  * Make the `config/` directory read-only (`chmod 0555`)
-  * Delete the `public/main/install/` directory
-* A **link to your portal** to log in with the administrator credentials you just created
+* **Aan de slag-advies** — Stelt voor om uw eerste cursus aan te maken om het platform te verkennen (als beheerder moet u dit doen via het beheerderspaneel)
+* **Beveiligingsaanbevelingen**:
+  * Maak de map `config/` alleen-lezen (`chmod 0555`)
+  * Verwijder de map `public/main/install/`
+* Een **link naar uw portaal** om in te loggen met de beheerdersgegevens die u zojuist hebt aangemaakt
 
-## Post-Installation
+## Na de Installatie
 
-After completing the wizard:
+Na het voltooien van de wizard:
 
-* **Remove or restrict access to the installer** -- The wizard should not be accessible after installation. Chamilo typically locks it automatically, but verify that re-visiting the install URL redirects to the login page.
-* **Configure email delivery** -- See [Email Configuration](email-configuration.md).
-* **Set up backups** -- Before adding content, configure automated database and file backups (Chamilo does not provide a solution for this, but copying the var/ folder and the database are the 2 most important elements).
-* **Review security settings** -- See [Security Settings](../platform-settings/security-settings.md).
+* **Verwijder of beperk toegang tot de installer** -- De wizard mag na de installatie niet meer toegankelijk zijn. Chamilo vergrendelt deze normaal gesproken automatisch, maar controleer of het opnieuw bezoeken van de installatie-URL doorverwijst naar de inlogpagina.
+* **Configureer e-mailbezorging** -- Zie [E-mailconfiguratie](email-configuration.md).
+* **Stel back-ups in** -- Voordat u inhoud toevoegt, configureert u automatische back-ups van de database en bestanden (Chamilo biedt hiervoor geen oplossing, maar het kopiëren van de map var/ en de database zijn de 2 belangrijkste elementen).
+* **Controleer beveiligingsinstellingen** -- Zie [Beveiligingsinstellingen](../platform-settings/security-settings.md).
 
-## Troubleshooting
+## Probleemoplossing
 
-| Problem | Solution |
-|---------|----------|
-| Blank page at install URL | Check PHP error logs. Change to `APP_ENV=dev` in .env temporarily to see errors in the browser. |
-| Database connection fails | Verify credentials, confirm the database exists, check that the database server allows connections from the web server host. |
-| Permission denied errors | Ensure `var/` is writable by the web server user. |
-| Assets not loading (no CSS/JS) | Run `yarn install && yarn build` to compile frontend assets. |
+| Probleem | Oplossing |
+|---------|-----------|
+| Lege pagina op installatie-URL | Controleer de PHP-foutlogboeken. Wijzig tijdelijk naar `APP_ENV=dev` in .env om fouten in de browser te zien. |
+| Databaseverbinding mislukt | Controleer de inloggegevens, bevestig dat de database bestaat, controleer of de databaseserver verbindingen toestaat vanaf de webserverhost. |
+| Toestemming geweigerd-fouten | Zorg ervoor dat `var/` schrijfbaar is door de webservergebruiker. |
+| Assets laden niet (geen CSS/JS) | Voer `yarn install && yarn build` uit om frontend-assets te compileren. |

@@ -1,75 +1,73 @@
-# Dropbox Settings
+# Dropbox-instellingen
 
-Behaviour of the **Dropbox** file-exchange tool.
+Gedrag van de **Dropbox** tool voor bestandsuitwisseling.
 
-Access these settings under **Administration > Configuration settings > Dropbox**. This category contains **8 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+Deze instellingen zijn te vinden onder **Beheer > Configuratie-instellingen > Dropbox**. Deze categorie bevat **8 instellingen**, hieronder vermeld met de titel en opmerking zoals opgenomen in de standaardinstellingen van het platform (`SettingsCurrentFixtures.php`).
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> De variabelenaam in de code wordt weergegeven in monospace. Gebruik deze bij het scripten via de API of wanneer u deze instellingen op globaal niveau wilt wijzigen door [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml) te bewerken.
 
-## Settings
+## Instellingen
 
 ### `dropbox_allow_group`
 
-**Dropbox: allow group**
+**Dropbox: groep toestaan**
 
-Users can send files to groups
+Gebruikers kunnen bestanden naar groepen sturen
 
-*Default: `true`*
+*Standaard: `true`*
 
 ### `dropbox_allow_just_upload`
 
-**Dropbox: Upload to own dropbox space?**
+**Dropbox: Uploaden naar eigen dropbox-ruimte?**
 
-Allow trainers and users to upload documents to their dropbox without sending  the documents to themselves
+Trainers en gebruikers toestaan om documenten te uploaden naar hun dropbox zonder de documenten naar zichzelf te sturen
 
-*Default: `true`*
+*Standaard: `true`*
 
 ### `dropbox_allow_mailing`
 
-**Dropbox: Allow mailing**
+**Dropbox: Mailing toestaan**
 
-With the mailing functionality you can send each learner a personal document
+Met de mailingfunctionaliteit kunt u elke leerling een persoonlijk document sturen
 
-*Default: `false`*
+*Standaard: `false`*
 
 ### `dropbox_allow_overwrite`
 
-**Dropbox: Can documents be overwritten**
+**Dropbox: Kunnen documenten worden overschreven**
 
-Can the original document be overwritten when a user or trainer uploads a document with the name of a document that already exist? If you answer yes then you loose the versioning mechanism.
+Kan het oorspronkelijke document worden overschreven wanneer een gebruiker of trainer een document uploadt met de naam van een reeds bestaand document? Als u ja antwoordt, verliest u het versiebeheermechanisme.
 
-*Default: `true`*
+*Standaard: `true`*
 
 ### `dropbox_allow_student_to_student`
 
-**Dropbox: Learner <-> Learner**
+**Dropbox: Leerling <-> Leerling**
 
-Allow users to send documents to other users (peer 2 peer). Users might use this for less relevant documents also (mp3, tests solutions, ...). If you disable this then the users can send documents to the trainer only.
+Gebruikers toestaan om documenten naar andere gebruikers te sturen (peer-to-peer). Gebruikers kunnen dit ook gebruiken voor minder relevante documenten (mp3, oplossingen voor tests, ...). Als u dit uitschakelt, kunnen gebruikers alleen documenten naar de trainer sturen.
 
-*Default: `true`*
+*Standaard: `true`*
 
 ### `dropbox_hide_course_coach`
 
-**Dropbox: hide course coach**
+**Dropbox: cursuscoach verbergen**
 
-Hide session course coach in dropbox when a document is sent by the coach to students
+De cursuscoach van de sessie verbergen in dropbox wanneer een document door de coach naar studenten wordt gestuurd
 
-*Default: `false`*
+*Standaard: `false`*
 
 ### `dropbox_hide_general_coach`
 
-**Hide general coach in dropbox**
+**Algemene coach verbergen in dropbox**
 
-Hide general coach name in the dropbox tool when the general coach uploaded the file
+De naam van de algemene coach verbergen in de dropbox-tool wanneer de algemene coach het bestand heeft geüpload
 
-*Default: `false`*
-
+*Standaard: `false`*
 
 ### `dropbox_max_filesize`
 
-**Dropbox: Maximum file size of a document**
+**Dropbox: Maximale bestandsgrootte van een document**
 
-How big (in MB) can a dropbox document be?
+Hoe groot (in MB) mag een dropbox-document zijn?
 
-*Default: `100000000`*
-
+*Standaard: `100000000`*

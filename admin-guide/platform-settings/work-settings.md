@@ -1,103 +1,103 @@
-# Assignments (Work) Settings
+# Instellingen voor Opdrachten (Werk)
 
-Defaults and behaviour of the **Assignments (Student Publications)** tool.
+Standaardinstellingen en gedrag van de tool **Opdrachten (Studentenpublicaties)**.
 
-Access these settings under **Administration > Configuration settings > Assignments (Work)**. This category contains **12 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+Deze instellingen zijn toegankelijk via **Beheer > Configuratie-instellingen > Opdrachten (Werk)**. Deze categorie bevat **12 instellingen**, hieronder opgesomd met de titel en opmerking zoals meegeleverd in de instellingenfixtures van het platform (`SettingsCurrentFixtures.php`).
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> De variabelenaam in de code wordt weergegeven in monospace. Gebruik deze bij het scripten via de API of wanneer u deze instellingen op globaal niveau wilt wijzigen door [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml) te bewerken.
 
-## Settings
+## Instellingen
 
 ### `allow_compilatio_tool`
 
-**Enable Compilatio**
+**Compilatio inschakelen**
 
-Compilatio is an anti-cheating service that compares text between two submissions and reports if there is a high probability the content (usually assignments) is not genuine.
+Compilatio is een anti-spiekdienst die tekst tussen twee inzendingen vergelijkt en rapporteert of er een hoge kans is dat de inhoud (meestal opdrachten) niet authentiek is.
 
-*Default: `false`*
+*Standaard: `false`*
 
 ### `allow_my_student_publication_page`
 
-**Enable My assignments page**
+**Pagina Mijn opdrachten inschakelen**
 
-[inferred] Enable a dedicated page for learners to view and manage their own submitted assignments.
+[afgeleid] Schakel een speciale pagina in voor leerlingen om hun eigen ingediende opdrachten te bekijken en te beheren.
 
-*Default: `false`*
+*Standaard: `false`*
 
 ### `allow_only_one_student_publication_per_user`
 
-**Students can only upload one assignment**
+**Studenten kunnen slechts één opdracht uploaden**
 
-[inferred] Restrict learners to submitting only one assignment per activity, preventing multiple submissions.
+[afgeleid] Beperk leerlingen tot het indienen van slechts één opdracht per activiteit, waardoor meerdere inzendingen worden voorkomen.
 
-*Default: `false`*
+*Standaard: `false`*
 
 ### `allow_redirect_to_main_page_after_work_upload`
 
-**Redirect to assigment tool homepage after upload or comment**
+**Doorverwijzen naar startpagina van opdrachtentool na upload of opmerking**
 
-Redirect to assignments list after uploading an assignment or a adding a comment
+Doorverwijzen naar de opdrachtenlijst na het uploaden van een opdracht of het toevoegen van een opmerking.
 
-*Default: `false`*
+*Standaard: `false`*
 
 ### `assignment_prevent_duplicate_upload`
 
-**Prevent duplicate uploads in assignments**
+**Dubbele uploads in opdrachten voorkomen**
 
-[inferred] Block learners from uploading identical files for the same assignment submission.
+[afgeleid] Voorkom dat leerlingen identieke bestanden uploaden voor dezelfde opdrachtinzending.
 
-*Default: `false`*
+*Standaard: `false`*
 
 ### `block_student_publication_add_documents`
 
-**Prevent adding documents to assignments**
+**Toevoegen van documenten aan opdrachten blokkeren**
 
-[inferred] Prevent learners from adding or attaching documents when submitting assignments.
+[afgeleid] Voorkom dat leerlingen documenten toevoegen of bijvoegen bij het indienen van opdrachten.
 
-*Default: `false`*
+*Standaard: `false`*
 
 ### `block_student_publication_edition`
 
-**Prevent assignments edition**
+**Bewerken van opdrachten blokkeren**
 
-[inferred] Prevent learners from modifying or updating their submitted assignments after initial submission.
+[afgeleid] Voorkom dat leerlingen hun ingediende opdrachten wijzigen of bijwerken na de initiële inzending.
 
-*Default: `false`*
+*Standaard: `false`*
 
 ### `block_student_publication_score_edition`
 
-**Prevent teacher from modifying assignment scores**
+**Voorkomen dat docenten opdrachtscores wijzigen**
 
-[inferred] Prevent instructors from changing assignment scores after they have been recorded.
+[afgeleid] Voorkom dat docenten opdrachtscores wijzigen nadat deze zijn vastgelegd.
 
-*Default: `false`*
+*Standaard: `false`*
 
 ### `compilatio_tool`
 
-**Compilatio settings**
+**Compilatio-instellingen**
 
-Configure the Compilatio connection details here.
+Configureer hier de verbindingsdetails voor Compilatio.
 
 ### `considered_working_time`
 
-**Enable time effort for assignments**
+**Tijdsinspanning voor opdrachten inschakelen**
 
-This will allow teachers to give an estimated time effort (in hh:mm:ss format) to complete the assignment. Upon submission of the assignment and approval by the teacher (the assignment is given a score), the learner will automatically be assigned the corresponding time.
+Hiermee kunnen docenten een geschatte tijdsinspanning (in hh:mm:ss-formaat) opgeven om de opdracht te voltooien. Bij het indienen van de opdracht en goedkeuring door de docent (de opdracht krijgt een score), wordt de leerling automatisch de overeenkomstige tijd toegewezen.
 
-*Default: `work_time`*
+*Standaard: `work_time`*
 
 ### `force_download_doc_before_upload_work`
 
-**Force download of document before assignment upload**
+**Downloaden van document afdwingen vóór uploaden van opdracht**
 
-Force users to download the provided document in the assignment definition before they can upload their assignment.
+Dwing gebruikers om het verstrekte document in de opdrachtdefinitie te downloaden voordat ze hun opdracht kunnen uploaden.
 
-*Default: `true`*
+*Standaard: `true`*
 
 ### `my_courses_show_pending_work`
 
-**Display link to 'pending' assignments from My courses page**
+**Link naar 'openstaande' opdrachten weergeven op Mijn cursussen-pagina**
 
-[inferred] Display a link or count of pending assignments on the learner's My Courses page for quick access.
+[afgeleid] Toon een link of telling van openstaande opdrachten op de Mijn cursussen-pagina van de leerling voor snelle toegang.
 
-*Default: `false`*
+*Standaard: `false`*

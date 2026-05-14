@@ -1,89 +1,89 @@
-# Assessments
+# Beoordelingen
 
-The assessments (previously *gradebook*) aggregates scores from exercises, assignments, and other graded activities into a unified view of each learner's performance. It also controls certificate generation.
+De beoordelingen (voorheen *gradebook*) verzamelen scores van oefeningen, opdrachten en andere beoordeelde activiteiten in een overzicht van de prestaties van elke leerling. Het beheert ook de generatie van certificaten.
 
-## How the Assessments Work
+## Hoe de Beoordelingen Werken
 
-The assessments are weighted scoring systems. You define:
+De beoordelingen zijn gewogen scoresystemen. U bepaalt:
 
-1. **Which activities** contribute to the grade (exercises, assignments, attendance, etc.)
-2. **The weight** of each activity (how much it counts toward the final grade)
-3. **The minimum certification score** (the threshold for earning a certificate)
-4. **A minimum score per activity** — Each activity in the gradebook can have its own **Minimum score**. Learners who score below that minimum on a key activity can be prevented from achieving the objectives and earning the certificate, even if their overall weighted total is otherwise high enough.
+1. **Welke activiteiten** bijdragen aan het cijfer (oefeningen, opdrachten, aanwezigheid, enz.)
+2. **Het gewicht** van elke activiteit (hoeveel deze meetelt voor het eindcijfer)
+3. **De minimale certificeringsscore** (de drempel voor het behalen van een certificaat)
+4. **Een minimale score per activiteit** — Elke activiteit in het beoordelingssysteem kan een eigen **minimale score** hebben. Leerlingen die onder deze minimumscore scoren op een belangrijke activiteit, kunnen worden verhinderd om de doelstellingen te behalen en het certificaat te verdienen, zelfs als hun totale gewogen score anders hoog genoeg zou zijn.
 
-Activities can be of 2 types:
-* **Classroom activity** (or in-person activity), where grades have to be imported from some other source
-* **Online activity** selected from the course, where grades are obtained through the fulfilling of the activity in the course
+Activiteiten kunnen van 2 typen zijn:
+* **Klasactiviteit** (of persoonlijke activiteit), waarbij cijfers uit een andere bron moeten worden geïmporteerd
+* **Online activiteit** geselecteerd uit de cursus, waarbij cijfers worden verkregen door het voltooien van de activiteit in de cursus
 
-Chamilo calculates each learner's overall grade based on these weights.
+Chamilo berekent het totale cijfer van elke leerling op basis van deze gewichten.
 
-## Setting Up the Assessment
+## Het Instellen van de Beoordeling
 
-1. Open the **Assessments** <img src="/.gitbook/assets/icons/mdi-certificate.svg" alt="Gradebook" data-size="line"> tool from the course homepage
-2. You will see the assessments overview, initially empty
+1. Open het **Beoordelingen** <img src="/.gitbook/assets/icons/mdi-certificate.svg" alt="Beoordeling" data-size="line"> hulpmiddel vanaf de cursusstartpagina
+2. U ziet het beoordelingsoverzicht, aanvankelijk leeg
 
-### Adding Activities
+### Activiteiten Toevoegen
 
-1. Click **Add online activity**
-2. Choose the type:
-   * **Test** — Link a specific exercise from the course
-   * **Assignment** — Link a student publication folder
-   * **Learning path** — Link learning path completion
-   * **Attendance** — Link an attendance sheet
-   * **Forum thread** — Link a forum thread (which has to be graded manually)
-   * **Survey** — Link a survey
-3. Select the specific activity within the chosen type
-4. Set the **Weight** for this activity (e.g., 30% for the midterm exam, 40% for the final project)
-5. Set the **Minimum score** if applicable
-6. Save
+1. Klik op **Online activiteit toevoegen**
+2. Kies het type:
+   * **Test** — Koppel een specifieke oefening uit de cursus
+   * **Opdracht** — Koppel een map voor studentenpublicaties
+   * **Leerpad** — Koppel de voltooiing van een leerpad
+   * **Aanwezigheid** — Koppel een aanwezigheidslijst
+   * **Forumthread** — Koppel een forumthread (die handmatig moet worden beoordeeld)
+   * **Enquête** — Koppel een enquête
+3. Selecteer de specifieke activiteit binnen het gekozen type
+4. Stel het **Gewicht** in voor deze activiteit (bijv. 30% voor het tussentijdse examen, 40% voor het eindproject)
+5. Stel de **Minimale score** in indien van toepassing
+6. Sla op
 
-The total weight of all activities should add up to 100%.
+Het totale gewicht van alle activiteiten moet optellen tot 100%.
 
-### Sub-Categories
+### Subcategorieën
 
-For complex grading schemes, you can create **sub-categories** to group related activities:
+Voor complexe beoordelingsschema's kunt u **subcategorieën** maken om gerelateerde activiteiten te groeperen:
 
-* **Example**: A "Homework" sub-category (weight: 30%) containing five individual assignments each worth 20% of the sub-category
-* Sub-categories let you organize the assessment hierarchically while keeping the overall calculation simple
+* **Voorbeeld**: Een subcategorie "Huiswerk" (gewicht: 30%) met vijf individuele opdrachten die elk 20% van de subcategorie waard zijn
+* Subcategorieën helpen u de beoordeling hiërarchisch te organiseren terwijl de totale berekening eenvoudig blijft
 
-## Viewing Grades
+## Cijfers Bekijken
 
-![The gradebook overview table showing learner names, activity scores, and weighted totals](/.gitbook/assets/gradebook-overview.png)
+![Het beoordelingsoverzichtstabel met namen van leerlingen, scores per activiteit en gewogen totalen](/.gitbook/assets/gradebook-overview.png)
 
-The assessment shows a table with:
+De beoordeling toont een tabel met:
 
-* Each learner's name
-* Scores for each activity
-* The weighted total
-* Whether the learner qualifies for a certificate
+* De naam van elke leerling
+* Scores voor elke activiteit
+* Het gewogen totaal
+* Of de leerling in aanmerking komt voor een certificaat
 
-You can sort by any column to quickly identify top performers or struggling learners.
+U kunt op elke kolom sorteren om snel toppresteerders of leerlingen met moeite te identificeren.
 
-## Certificates
+## Certificaten
 
-To enable certificate generation:
+Om het genereren van certificaten in te schakelen:
 
-1. In the assessment settings, set a **minimum certification score** (e.g., 70%)
-2. When a learner's weighted total meets or exceeds this threshold (and they have not failed any per-activity minimum score), they can download their certificate
-3. The certificate is generated from a template configured by the platform administrator
+1. Stel in de beoordelingsinstellingen een **minimale certificeringsscore** in (bijv. 70%)
+2. Wanneer het gewogen totaal van een leerling deze drempel bereikt of overschrijdt (en ze geen minimale score per activiteit hebben gemist), kunnen ze hun certificaat downloaden
+3. Het certificaat wordt gegenereerd vanuit een sjabloon dat door de platformbeheerder is geconfigureerd
 
-See [Certificates and Skills](../tracking-and-reporting/certificates-and-skills.md) for more details.
+Zie [Certificaten en Vaardigheden](../tracking-and-reporting/certificates-and-skills.md) voor meer details.
 
-## Linking to Skills
+## Koppelen aan Vaardigheden
 
-You can associate **skills** with the assessment. When a learner reaches the set objectives to complete the assessment, they can either get a certificate, get a skill or both. Skills are visible on their profile in the social network space. This builds a competency record over time.
+U kunt **vaardigheden** koppelen aan de beoordeling. Wanneer een leerling de gestelde doelstellingen behaalt om de beoordeling te voltooien, kunnen ze een certificaat, een vaardigheid of beide ontvangen. Vaardigheden zijn zichtbaar op hun profiel in de sociale netwerkruimte. Dit bouwt na verloop van tijd een competentiedossier op.
 
-## Exporting Grades
+## Cijfers Exporteren
 
-Click the **Export** <img src="/.gitbook/assets/icons/mdi-export.svg" alt="Export" data-size="line"> button to download grades as a spreadsheet. This is useful for:
+Klik op de **Exporteren** <img src="/.gitbook/assets/icons/mdi-export.svg" alt="Exporteren" data-size="line"> knop om cijfers als spreadsheet te downloaden. Dit is nuttig voor:
 
-* Sharing grades with administrative systems
-* Performing additional analysis outside Chamilo
-* Keeping offline records
+* Het delen van cijfers met administratieve systemen
+* Het uitvoeren van aanvullende analyses buiten Chamilo
+* Het bijhouden van offline records
 
 ## Tips
 
-* **Plan your weights early** — Define the grading scheme at the start of the course so learners know what to expect
-* **Use sub-categories for complex courses** — Group assignments, quizzes, and participation into clear categories
-* **Set meaningful pass thresholds** — The certification score should reflect actual competency, not just participation
-* **Check regularly** — Review the gradebook periodically to ensure all activities are properly linked and scores are being recorded
+* **Plan uw gewichten vroegtijdig** — Definieer het beoordelingsschema aan het begin van de cursus zodat leerlingen weten wat ze kunnen verwachten
+* **Gebruik subcategorieën voor complexe cursussen** — Groepeer opdrachten, quizzes en deelname in duidelijke categorieën
+* **Stel betekenisvolle slagingsdrempels in** — De certificeringsscore moet echte competentie weerspiegelen, niet alleen deelname
+* **Controleer regelmatig** — Bekijk het beoordelingssysteem periodiek om ervoor te zorgen dat alle activiteiten correct zijn gekoppeld en scores worden geregistreerd

@@ -1,33 +1,31 @@
-# Search Settings
+# Zoekinstellingen
 
-Configuration of the full-text search system (Xapian).
+Configuratie van het full-text zoek systeem (Xapian).
 
-Access these settings under **Administration > Configuration settings > Search**. This category contains **3 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+Toegang tot deze instellingen vindt u onder **Beheer > Configuratie-instellingen > Zoeken**. Deze categorie bevat **3 instellingen**, hieronder vermeld met de titel en opmerking zoals meegeleverd in de platforminstellingen fixtures (`SettingsCurrentFixtures.php`).
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> De variabelenaam in de code wordt weergegeven in monospace. Gebruik deze bij het scripten via de API of wanneer u deze instellingen op globaal niveau wilt wijzigen door [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml) te bewerken.
 
-## Settings
+## Instellingen
 
 ### `search_enabled`
 
-**Full-text search feature**
+**Full-text zoekfunctie**
 
-Select 'Yes' to enable this feature. It is highly dependent on the Xapian extension for PHP, so this will not work if this extension is not installed on your server, in version 1.x at minimum.
+Selecteer 'Ja' om deze functie in te schakelen. Deze functie is sterk afhankelijk van de Xapian-extensie voor PHP, dus dit zal niet werken als deze extensie niet is geïnstalleerd op uw server, minimaal in versie 1.x.
 
-*Default: `false`*
-
+*Standaard: `false`*
 
 ### `search_prefilter_prefix`
 
-**Specific Field for prefilter**
+**Specifiek veld voor voorfilter**
 
-This option let you choose the Specific field to use on prefilter search type.
+Met deze optie kunt u het specifieke veld kiezen dat gebruikt wordt voor het voorfilter zoektype.
 
 ### `search_show_unlinked_results`
 
-**Full-text search: show unlinked results**
+**Full-text zoeken: toon niet-gekoppelde resultaten**
 
-When showing the results of a full-text search, what should be done with the results that are not accessible to the current user?
+Wat moet er gebeuren met de resultaten die niet toegankelijk zijn voor de huidige gebruiker bij het weergeven van de resultaten van een full-text zoekopdracht?
 
-*Default: `true`*
-
+*Standaard: `true`*

@@ -1,27 +1,27 @@
-# AI Tools
+# AI-tools
 
-Chamilo 2.0 introduces AI-powered tools that help you create content faster and provide personalized support to your learners. These features use large language models (such as OpenAI's GPT, Google Gemini, Mistral, or others) to generate educational content and assist with grading.
+Chamilo 2.0 introduceert AI-gestuurde tools die u helpen om sneller inhoud te creëren en gepersonaliseerde ondersteuning te bieden aan uw leerlingen. Deze functies maken gebruik van grote taalmodellen (zoals OpenAI's GPT, Google Gemini, Mistral of anderen) om educatieve inhoud te genereren en te helpen bij het beoordelen.
 
-> AI tools must be configured by your platform administrator before they become available. See the [AI Configuration](../../admin-guide/integrations/ai-configuration.md) section of the Administration Guide for setup details.
+> AI-tools moeten door uw platformbeheerder worden geconfigureerd voordat ze beschikbaar worden. Zie de sectie [AI-configuratie](../../admin-guide/integrations/ai-configuration.md) van de Beheerdershandleiding voor instellingsdetails.
 
-## Available AI Tools
+## Beschikbare AI-tools
 
-* **[AI Tutor](ai-tutor.md)** — An AI chatbot that learners can interact with for course-related questions
-* **[Exercise Generator](exercise-generator.md)** — Automatically generate quiz questions from your course content or a topic description
-* **[Learning Path Generator](learning-path-generator.md)** — Create structured learning sequences from a topic or set of objectives
-* **[AI Grading](ai-grading.md)** — Get AI-assisted evaluation of open-ended answers and student submissions
-* **[Glossary Terms Generator](glossary-generator.md)** — Automatically generate term definitions for your course glossary
-* **[AI Media Generation](ai-media-generation.md)** — Generate images and short videos from the rich-text editor while creating documents
+* **[AI Tutor](ai-tutor.md)** — Een AI-chatbot waarmee leerlingen kunnen interageren voor cursusgerelateerde vragen
+* **[Oefeningengenerator](exercise-generator.md)** — Automatisch quizvragen genereren uit uw cursusinhoud of een onderwerpbeschrijving
+* **[Leerpadgenerator](learning-path-generator.md)** — Gestructureerde leervolgordes maken op basis van een onderwerp of een reeks doelstellingen
+* **[AI-beoordeling](ai-grading.md)** — AI-ondersteunde evaluatie van open vragen en inzendingen van leerlingen
+* **[Woordenlijsttermen Generator](glossary-generator.md)** — Automatisch definities van termen genereren voor uw cursuswoordenlijst
+* **[AI Mediageneratie](ai-media-generation.md)** — Afbeeldingen en korte video's genereren vanuit de rich-text editor tijdens het maken van documenten
 
-## How AI Tools Work
+## Hoe AI-tools werken
 
-When AI tools are enabled, they appear in the relevant contexts:
+Wanneer AI-tools zijn ingeschakeld, verschijnen ze in de relevante contexten:
 
-* The **Exercise Generator** appears when creating or editing exercises, and also as a quick action on documents in the Documents tool
-* The **Learning Path Generator** appears when creating learning paths
-* The **AI Grading** option appears in the assignment correction workflow
-* The **AI Tutor** is available to learners within the course
-* The **Glossary Terms Generator** appears in the Glossary tool toolbar
-* The **AI Media Generation** dialog appears in the rich-text editor when creating or editing documents
+* De **Oefeningengenerator** verschijnt bij het maken of bewerken van oefeningen, en ook als een snelle actie op documenten in de Documententool
+* De **Leerpadgenerator** verschijnt bij het maken van leerpaden
+* De optie **AI-beoordeling** verschijnt in de workflow voor het corrigeren van opdrachten
+* De **AI Tutor** is beschikbaar voor leerlingen binnen de cursus
+* De **Woordenlijsttermen Generator** verschijnt in de werkbalk van de Woordenlijsttool
+* Het dialoogvenster **AI Mediageneratie** verschijnt in de rich-text editor bij het maken of bewerken van documenten
 
-All AI-generated content is presented as a **suggestion** that you can review, edit, and modify before publishing. You always have the final say on what your learners see.
+Alle door AI gegenereerde inhoud wordt gepresenteerd als een **suggestie** die u kunt bekijken, bewerken en aanpassen voordat u deze publiceert. U heeft altijd het laatste woord over wat uw leerlingen zien.

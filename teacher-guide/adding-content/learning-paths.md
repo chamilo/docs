@@ -1,115 +1,116 @@
-# Learning Paths
+# Leertrajecten
 
-Learning paths let you create structured sequences of learning activities. A learning path guides your learners through a specific order of documents, exercises, links, and other resources, with optional prerequisites and progress tracking.
+Leertrajecten stellen u in staat om gestructureerde reeksen van leeractiviteiten te creëren. Een leertraject leidt uw leerlingen door een specifieke volgorde van documenten, oefeningen, links en andere bronnen, met optionele voorwaarden en voortgangsregistratie.
 
-This tool is arguably the most used course tool, because it acts as a composer for many other tools and can very much be the ***only*** tool facing learners.
+Dit hulpmiddel is waarschijnlijk het meest gebruikte cursusinstrument, omdat het fungeert als een samensteller voor veel andere tools en vaak de ***enige*** tool kan zijn die leerlingen zien.
 
-## Why Use Learning Paths?
+## Waarom Leertrajecten Gebruiken?
 
-Learning paths are useful when you want to:
+Leertrajecten zijn nuttig wanneer u wilt:
 
-* **Control the order** of content consumption — ensure learners complete foundational material before advancing
-* **Track progress** — see exactly where each learner is in the sequence
-* **Set prerequisites** — require learners to pass an exercise before accessing the next section
-* **Award completion** — link learning path completion to the gradebook and certificates
-* **Package content** — create self-contained learning modules that learners can work through at their own pace
+* **De volgorde controleren** van inhoudsconsumptie — zorg ervoor dat leerlingen basismateriaal voltooien voordat ze verdergaan
+* **Voortgang bijhouden** — zie precies waar elke leerling zich in de reeks bevindt
+* **Voorwaarden instellen** — vereis dat leerlingen een oefening afronden voordat ze toegang krijgen tot de volgende sectie
+* **Voltooiing belonen** — koppel de voltooiing van het leertraject aan het cijferboek en certificaten
+* **Inhoud bundelen** — creëer zelfstandige leermodules die leerlingen in hun eigen tempo kunnen doorlopen
 
-## Creating a Learning Path
+## Een Leertraject Maken
 
-1. Open the **Learning paths** <img src="/.gitbook/assets/icons/mdi-map-marker-path.svg" alt="Learning paths" data-size="line"> tool from the course homepage
-2. Click **Create a learning path**
-3. Enter a **title** and optional description
-4. Save — you will be taken to the learning path editor
+1. Open het hulpmiddel **Leertrajecten** <img src="/.gitbook/assets/icons/mdi-map-marker-path.svg" alt="Leertrajecten" data-size="line"> vanaf de cursusstartpagina
+2. Klik op **Een leertraject maken**
+3. Voer een **titel** en optionele beschrijving in
+4. Sla op — u wordt doorgestuurd naar de leertrajecteditor
 
-## The Learning Path Editor
+## De Leertrajecteditor
 
-![The learning path editor with the item tree on the left and content preview on the right](/.gitbook/assets/learning-path-editor.png)
+![De leertrajecteditor met de itemstructuur aan de linkerkant en een inhoudsvoorbeeld aan de rechterkant](/.gitbook/assets/learning-path-editor.png)
 
-The editor has two main areas:
+De editor heeft twee hoofdgebieden:
 
-* **Left panel** — The list of items (steps) in the learning path, shown as a tree structure
-* **Right panel** — The content of the selected item
+* **Linkerpaneel** — De lijst met items (stappen) in het leertraject, weergegeven als een boomstructuur
+* **Rechterpaneel** — De inhoud van het geselecteerde item
 
-### Adding Items
+### Items Toevoegen
 
-Click **Add an item** and choose what to add:
+Klik op **Een item toevoegen** en kies wat u wilt toevoegen:
 
-| Item type | Description |
+| Itemtype | Beschrijving |
 |-----------|-------------|
-| **Section** | A heading that groups related items (like a chapter title). Sections do not contain content themselves. |
-| **Document** | A file or web page from your course's Documents tool |
-| **Exercise** | A quiz or test from the Exercises tool |
-| **Link** | An external URL |
-| **Assignment** | A student publication from the Assignments tool |
-| **Forum** | A link to a course forum |
-| **Survey** | A link to a survey |
-| **Certificate** | A special page to trigger the generation of a completion certificate or the awarding of skills |
+| **Sectie** | Een kop die gerelateerde items groepeert (zoals een hoofdstuktitel). Secties bevatten zelf geen inhoud. |
+| **Document** | Een bestand of webpagina uit het hulpmiddel Documenten van uw cursus |
+| **Oefening** | Een quiz of test uit het hulpmiddel Oefeningen |
+| **Link** | Een externe URL |
+| **Opdracht** | Een publicatie van een student uit het hulpmiddel Opdrachten |
+| **Forum** | Een link naar een cursusforum |
+| **Enquête** | Een link naar een enquête |
+| **Certificaat** | Een speciale pagina om de generatie van een voltooiingscertificaat te activeren of vaardigheden toe te kennen |
 
-### Organizing Items
+### Items Organiseren
 
-* **Drag and drop** items to reorder them
-* **Nest items** under sections by dragging them to the right
-* **Delete** items you no longer need
+* **Slepen en neerzetten** om items te herschikken
+* **Items nesten** onder secties door ze naar rechts te slepen
+* **Verwijderen** van items die u niet langer nodig heeft
 
-### Setting Prerequisites
+### Voorwaarden Instellen
 
-Prerequisites ensure learners complete certain steps before accessing others:
+Voorwaarden zorgen ervoor dat leerlingen bepaalde stappen voltooien voordat ze toegang krijgen tot andere:
 
-1. Select an item in the learning path
-2. Open its **prerequisites** settings
-3. Choose which preceding item(s) must be completed first
-4. For exercises, you can require a **minimum score** (e.g., "Must score at least 70% on Quiz 1 before accessing Module 2")
+1. Selecteer een item in het leertraject
+2. Open de **voorwaarden**-instellingen
+3. Kies welke voorgaande item(s) eerst voltooid moeten worden
+4. Voor oefeningen kunt u een **minimumscore** vereisen (bijv. "Moet minimaal 70% scoren op Quiz 1 voordat Module 2 toegankelijk is")
 
-## Learner Experience
+## Ervaring van de Leerling
 
-When a learner opens a learning path:
+Wanneer een leerling een leertraject opent:
 
-* They see the list of items in the left panel
-* Completed items are marked with a checkmark
-* Items with unmet prerequisites are locked
-* Progress is tracked automatically — if a learner leaves and comes back, they resume where they left off
-* A progress bar shows overall completion percentage
+* Ze zien de lijst met items in het linkerpaneel
+* Voltooide items worden gemarkeerd met een vinkje
+* Items met niet-voldane voorwaarden zijn vergrendeld
+* Voortgang wordt automatisch bijgehouden — als een leerling vertrekt en terugkomt, hervatten ze waar ze waren gebleven
+* Een voortgangsbalk toont het totale voltooiingspercentage
 
-## SCORM Content
+## SCORM-Inhoud
 
-Chamilo's learning path tool can import **SCORM 1.2** packages — the most widely used e-learning standard. Upload a SCORM ZIP file and Chamilo will create a learning path from it, tracking progress and scores according to the SCORM specification.
+Het leertrajecthulpmiddel van Chamilo kan **SCORM 1.2**-pakketten importeren — de meest gebruikte e-learningstandaard. Upload een SCORM ZIP-bestand en Chamilo zal er een leertraject van maken, waarbij voortgang en scores worden bijgehouden volgens de SCORM-specificatie.
 
-To import a SCORM package:
+Om een SCORM-pakket te importeren:
 
-1. In the Learning paths tool, open the actions menu and click **Upload**
-2. Upload the ZIP file
-3. Chamilo unpacks and creates the learning path automatically
+1. Open in het hulpmiddel Leertrajecten het actiemenu en klik op **Uploaden**
+2. Upload het ZIP-bestand
+3. Chamilo pakt het uit en maakt automatisch het leertraject aan
 
-### CMI5 / xAPI packages
+### CMI5 / xAPI-pakketten
 
-CMI5 packages (the modern xAPI-based successor to SCORM) are supported through the **XApi** plugin. Once the plugin is enabled by your administrator, you can import a CMI5 package and learners can launch it from the course; their statements are forwarded to the configured Learning Record Store.
+CMI5-pakketten (de moderne opvolger van SCORM gebaseerd op xAPI) worden ondersteund via de **XApi**-plugin. Zodra de plugin door uw beheerder is ingeschakeld, kunt u een CMI5-pakket importeren en kunnen leerlingen het starten vanuit de cursus; hun verklaringen worden doorgestuurd naar de geconfigureerde Learning Record Store.
 
-## Learning Path Settings
+## Instellingen voor Leertrajecten
 
-Configure how the learning path behaves:
+Configureer hoe het leertraject zich gedraagt:
 
-| Setting | Description |
+| Instelling | Beschrijving |
 |---------|-------------|
-| **Visibility** | Hide or show the learning path to learners |
-| **Prerequisites** | Require completion of other learning paths before this one |
-| **Auto-launch** | Automatically open this learning path when learners enter the course |
-| **Accumulated SCORM time** | Whether to accumulate time across multiple sessions |
+| **Zichtbaarheid** | Verberg of toon het leertraject voor leerlingen |
+| **Voorwaarden** | Vereis voltooiing van andere leertrajecten voordat dit traject toegankelijk is |
+| **Automatisch starten** | Open dit leertraject automatisch wanneer leerlingen de cursus betreden |
+| **Gecumuleerde SCORM-tijd** | Of de tijd over meerdere sessies heen moet worden gecumuleerd |
 
-## Linking to the Gradebook
+## Koppelen aan het Cijferboek
 
-You can include learning path completion as a graded activity in the Gradebook. This allows learning path progress to contribute to the learner's overall course grade and certificate eligibility.
+U kunt de voltooiing van een leertraject opnemen als een beoordeelde activiteit in het Cijferboek. Dit stelt de voortgang van het leertraject in staat om bij te dragen aan de totale cursuscijfers van de leerling en de geschiktheid voor een certificaat.
 
-## Using AI
+---
+## AI gebruiken
 
-If the administrator has enabled AI-assisted learning path generation, you will find an AI generator option in the drop-down actions menu. Give the AI as precise a context as you want your learning path, ask for a number of pages and an approximate number of words per page, then tell it if you want to populate it with tests and launch. A few minutes later, you are looking down at a complete, text-based learning path.
+Als de beheerder de AI-ondersteunde generatie van leerpaden heeft ingeschakeld, vindt u een AI-generatoroptie in het vervolgkeuzemenu met acties. Geef de AI een zo nauwkeurig mogelijke context voor uw leerpad, vraag om een bepaald aantal pagina's en een geschat aantal woorden per pagina, en geef aan of u het wilt vullen met tests en wilt starten. Een paar minuten later kijkt u naar een volledig, op tekst gebaseerd leerpad.
 
-Edit the documents to generate illustrations with more AI and you only have some review to do before you can share it with your learners.
+Bewerk de documenten om illustraties te genereren met meer AI en u hoeft alleen nog maar wat revisiewerk te doen voordat u het met uw leerlingen kunt delen.
 
 ## Tips
 
-* **Start with an outline** — Plan your sections and items before building the path
-* **Use sections as chapters** — Group related items under section headings for clarity
-* **Set prerequisites for assessments** — Require learners to study the content before taking a quiz
-* **Mix content types** — Combine reading materials, videos, interactive exercises, and external resources for an engaging learning experience
-* **Check the learner view** — Use the Student View feature to experience the learning path as a learner would
-* **Use SCORM for interactivity** — If you have access to SCORM authoring tools (like Articulate, iSpring, or similar), create rich interactive content and import it into Chamilo
+* **Begin met een overzicht** — Plan uw secties en items voordat u het pad opbouwt
+* **Gebruik secties als hoofdstukken** — Groepeer gerelateerde items onder sectiekoppen voor duidelijkheid
+* **Stel voorwaarden voor beoordelingen in** — Vereis dat leerlingen de inhoud bestuderen voordat ze een quiz maken
+* **Combineer verschillende inhoudstypen** — Combineer leesmateriaal, video's, interactieve oefeningen en externe bronnen voor een boeiende leerervaring
+* **Controleer de leerlingweergave** — Gebruik de functie Studentweergave om het leerpad te ervaren zoals een leerling dat zou doen
+* **Gebruik SCORM voor interactiviteit** — Als u toegang heeft tot SCORM-authoringtools (zoals Articulate, iSpring of vergelijkbaar), maak dan rijke interactieve inhoud en importeer deze in Chamilo

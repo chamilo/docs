@@ -1,68 +1,63 @@
-# Tickets Settings
+# Ticketinstellingen
 
-Behaviour of the **Tickets** (helpdesk) system.
+Gedrag van het **Tickets** (helpdesk) systeem.
 
-Access these settings under **Administration > Configuration settings > Tickets**. This category contains **7 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+Toegang tot deze instellingen via **Beheer > Configuratie-instellingen > Tickets**. Deze categorie bevat **7 instellingen**, hieronder vermeld met de titel en opmerking zoals meegeleverd in de platforminstellingen (`SettingsCurrentFixtures.php`).
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> De variabelenaam in de code wordt weergegeven in monospace. Gebruik deze bij het scripten via de API of wanneer u deze instellingen op globaal niveau wilt wijzigen door [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml) te bewerken.
 
-## Settings
+## Instellingen
 
 ### `show_link_bug_notification`
 
-**Show link to report bug**
+**Link tonen om een bug te melden**
 
-Show a link in the header to report a bug inside of our support platform (http://support.chamilo.org). When clicking on the link, the user is sent to the support platform, on a wiki page that describes the bug reporting process.
+Toon een link in de koptekst om een bug te melden op ons ondersteuningsplatform (http://support.chamilo.org). Bij het klikken op de link wordt de gebruiker doorgestuurd naar het ondersteuningsplatform, naar een wikipagina die het proces van bugmelding beschrijft.
 
-*Default: `false`*
-
+*Standaard: `false`*
 
 ### `show_link_ticket_notification`
 
-**Show ticket creation link**
+**Link voor het aanmaken van tickets tonen**
 
-Show the ticket creation link to users on the right side of the portal
+Toon de link voor het aanmaken van tickets aan gebruikers aan de rechterkant van het portaal.
 
-*Default: `false`*
-
+*Standaard: `false`*
 
 ### `ticket_allow_category_edition`
 
-**Allow tickets categories edition**
+**Bewerken van ticketcategorieën toestaan**
 
-Allow category edition by administrators.
+Sta het bewerken van categorieën toe door beheerders.
 
-*Default: `false`*
+*Standaard: `false`*
 
 ### `ticket_allow_student_add`
 
-**Allow users to add tickets**
+**Gebruikers toestaan om tickets toe te voegen**
 
-Allows all users to add tickets not only the administrators.
+Sta alle gebruikers toe om tickets toe te voegen, niet alleen beheerders.
 
-*Default: `false`*
+*Standaard: `false`*
 
 ### `ticket_project_user_roles`
 
-**Access by role to ticket projects**
+**Toegang per rol tot ticketprojecten**
 
-Allow ticket projects to be accesses by specific user roles. Example: ['permissions' => [1 => [17]] where project_id = 1, STUDENT_BOSS = 17.
+Sta toe dat ticketprojecten toegankelijk zijn voor specifieke gebruikersrollen. Voorbeeld: ['permissions' => [1 => [17]] waarbij project_id = 1, STUDENT_BOSS = 17.
 
 ### `ticket_send_warning_to_all_admins`
 
-**Send ticket warning messages to administrators**
+**Waarschuwingsberichten voor tickets naar beheerders sturen**
 
-Send a message if a ticket was created without a category or if a category doesn't have any administrator assigned.
+Stuur een bericht als een ticket is aangemaakt zonder categorie of als een categorie geen toegewezen beheerder heeft.
 
-*Default: `false`*
-
+*Standaard: `false`*
 
 ### `ticket_warn_admin_no_user_in_category`
 
-**Send alert to administrators if tickets category has no one in charge**
+**Waarschuwing sturen naar beheerders als een ticketcategorie geen verantwoordelijke heeft**
 
-Send a warning message (e-mail and Chamilo message) to all administrators if there's not a user assigned to a category.
+Stuur een waarschuwingsbericht (e-mail en Chamilo-bericht) naar alle beheerders als er geen gebruiker is toegewezen aan een categorie.
 
-*Default: `false`*
-
-
+*Standaard: `false`*

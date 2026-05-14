@@ -1,22 +1,22 @@
-# Session Categories
+# Sessiecategorieën
 
-Session categories help organize your sessions, especially when you have many sessions running simultaneously.
+Sessiecategorieën helpen bij het organiseren van uw sessies, vooral wanneer u veel sessies tegelijkertijd heeft lopen.
 
-## Creating a Category
+## Een categorie aanmaken
 
-1. From the administration panel, navigate to **Session categories**
-2. Click **Add a category**
-3. Enter a **name** and optional start/end dates
-4. Save
+1. Navigeer vanuit het beheerpaneel naar **Sessiecategorieën**
+2. Klik op **Een categorie toevoegen**
+3. Voer een **naam** in en optioneel start- en einddatums
+4. Sla op
 
-## Use Cases
+## Gebruiksscenario's
 
-* **By program** — "Leadership Development", "Technical Training", "Onboarding"
-* **By period** — "Q1 2026", "Spring Semester", "July Batch"
-* **By department** — "Engineering", "Sales", "Human Resources"
+* **Per programma** — "Leiderschapsontwikkeling", "Technische Training", "Onboarding"
+* **Per periode** — "Q1 2026", "Lentesemester", "Juli-groep"
+* **Per afdeling** — "Techniek", "Verkoop", "Personeelszaken"
 
-## Managing Categories
+## Categorieën beheren
 
-* **Edit** — Change the category name or dates
-* **Assign sessions** — When creating or editing a session, select its category
-* **Delete** — Remove a category (sessions in the category become uncategorized)
+* **Bewerken** — Wijzig de categorienaam of datums
+* **Sessies toewijzen** — Selecteer bij het aanmaken of bewerken van een sessie de bijbehorende categorie
+* **Verwijderen** — Verwijder een categorie (sessies in de categorie worden dan niet-gecategoriseerd)

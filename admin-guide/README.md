@@ -1,35 +1,35 @@
-# Administration Guide
+# Beheerdershandleiding
 
-Welcome to the Chamilo 2.0 Administration Guide. This guide is designed for platform administrators responsible for installing, configuring, and managing a Chamilo instance.
+Welkom bij de Chamilo 2.0 Beheerdershandleiding. Deze handleiding is bedoeld voor platformbeheerders die verantwoordelijk zijn voor het installeren, configureren en beheren van een Chamilo-instantie.
 
-## What you can do as an Administrator
+## Wat u kunt doen als beheerder
 
-As a Chamilo administrator, you manage:
+Als Chamilo-beheerder bent u verantwoordelijk voor:
 
-* **Installation and configuration** — Set up Chamilo on your server, configure storage, email, and environment settings
-* **Users** — Create, import, and manage user accounts, roles, and permissions
-* **Courses and sessions** — Oversee course creation, manage the course catalog, and configure training sessions
-* **Platform settings** — Configure portal behavior, security, performance, and feature availability
-* **Authentication** — Set up external login systems (OAuth2, LDAP, CAS, SCIM)
-* **Integrations** — Connect Chamilo to video conferencing, LTI tools, AI providers, and more
-* **Branding** — Customize the look and feel of the platform with themes and visual settings
-* **Maintenance** — Perform backups, monitor system health, and manage storage
+* **Installatie en configuratie** — Het opzetten van Chamilo op uw server, het configureren van opslag, e-mail en omgevingsinstellingen
+* **Gebruikers** — Het aanmaken, importeren en beheren van gebruikersaccounts, rollen en rechten
+* **Cursussen en sessies** — Het toezicht houden op het aanmaken van cursussen, het beheren van de cursuscatalogus en het configureren van trainingssessies
+* **Platforminstellingen** — Het configureren van het gedrag van het portaal, beveiliging, prestaties en beschikbaarheid van functies
+* **Authenticatie** — Het instellen van externe inlogsystemen (OAuth2, LDAP, CAS, SCIM)
+* **Integraties** — Het koppelen van Chamilo aan videoconferenties, LTI-tools, AI-aanbieders en meer
+* **Branding** — Het aanpassen van het uiterlijk van het platform met thema's en visuele instellingen
+* **Onderhoud** — Het uitvoeren van back-ups, het monitoren van de systeemstatus en het beheren van opslag
 
-## How this guide is organized
+## Hoe deze handleiding is opgebouwd
 
-1. **Getting Started** — An overview of the administration interface
-2. **Installation** — Server requirements, installation wizard, and initial configuration
-3. **Users** — Managing user accounts, roles, groups, and profiles
-4. **Courses** — Managing courses, categories, and import/export
-5. **Sessions** — Organizing time-bound training cohorts
-6. **Platform Settings** — Configuring every aspect of the platform
-7. **Authentication** — Setting up external authentication providers
-8. **Integrations** — Connecting third-party services
-9. **Plugins** — Managing platform extensions
-10. **Multi-URL** — Running multiple portals from a single installation
-11. **Maintenance** — Backups, system status, and cleanup
-12. **Branding** — Customizing the platform appearance
+1. **Aan de slag** — Een overzicht van de beheerdersinterface
+2. **Installatie** — Serververeisten, installatiewizard en initiële configuratie
+3. **Gebruikers** — Het beheren van gebruikersaccounts, rollen, groepen en profielen
+4. **Cursussen** — Het beheren van cursussen, categorieën en import/export
+5. **Sessies** — Het organiseren van tijdgebonden trainingscohorten
+6. **Platforminstellingen** — Het configureren van elk aspect van het platform
+7. **Authenticatie** — Het instellen van externe authenticatieproviders
+8. **Integraties** — Het koppelen van diensten van derden
+9. **Plugins** — Het beheren van platformuitbreidingen
+10. **Multi-URL** — Het draaien van meerdere portalen vanuit één installatie
+11. **Onderhoud** — Back-ups, systeemstatus en opschoning
+12. **Branding** — Het aanpassen van het uiterlijk van het platform
 
-## Accessing the Administration Panel
+## Toegang tot het beheerderspaneel
 
-After logging in as an administrator, click **Administration** <img src="/.gitbook/assets/icons/mdi-cogs.svg" alt="Admin" data-size="line"> in the sidebar to access the administration panel.
+Nadat u bent ingelogd als beheerder, klikt u op **Beheer** <img src="/.gitbook/assets/icons/mdi-cogs.svg" alt="Beheer" data-size="line"> in de zijbalk om toegang te krijgen tot het beheerderspaneel.

@@ -1,58 +1,58 @@
 # Forums
 
-The forum tool allows you to host structured discussions within your course. Learners can post messages, reply to each other, and engage in threaded conversations.
+De forumtool stelt u in staat om gestructureerde discussies binnen uw cursus te hosten. Leerlingen kunnen berichten plaatsen, op elkaar reageren en deelnemen aan threaded gesprekken.
 
-## Forum Structure
+## Forumstructuur
 
-![The forum category list showing categories, forums, and topic counts](/.gitbook/assets/forum-category-list.png)
+![De lijst met forumcategorieën met categorieën, forums en aantallen onderwerpen](/.gitbook/assets/forum-category-list.png)
 
-Forums in Chamilo are organized in three levels:
+Forums in Chamilo zijn georganiseerd in drie niveaus:
 
-1. **Forum categories** — Top-level groupings (e.g., "General Discussions", "Module 1 Questions")
-2. **Forums** — Individual discussion boards within a category
-3. **Topics (threads)** — Individual discussion topics within a forum, each with a chain of replies
+1. **Forumcategorieën** — Groeperingen op het hoogste niveau (bijv. "Algemene Discussies", "Vragen Module 1")
+2. **Forums** — Individuele discussieborden binnen een categorie
+3. **Onderwerpen (threads)** — Individuele discussieonderwerpen binnen een forum, elk met een reeks antwoorden
 
-## Creating a Forum Category
+## Een Forumcategorie Aanmaken
 
-1. Open the **Forums** <img src="/.gitbook/assets/icons/mdi-comment-quote.svg" alt="Forums" data-size="line"> tool from your course homepage
-2. Click **Add a forum category**
-3. Enter a **Category name** and optional description
-4. Save
+1. Open de **Forums** <img src="/.gitbook/assets/icons/mdi-comment-quote.svg" alt="Forums" data-size="line"> tool vanaf de startpagina van uw cursus
+2. Klik op **Een forumcategorie toevoegen**
+3. Voer een **Categorienaam** en optioneel een beschrijving in
+4. Sla op
 
-## Creating a Forum
+## Een Forum Aanmaken
 
-You can only add a forum once at least one category exists.
+U kunt pas een forum toevoegen als er minstens één categorie bestaat.
 
-1. Within a category, click **Add a forum**
-2. Fill in the basic details:
-   * **Title** — The name of this discussion board
-   * **Description** — An optional description of the forum's purpose
-   * **Create in category** — The category this forum belongs to
-3. Open **Advanced settings** to configure:
-   * **Publication date** / **Closing date** — Optional time window during which the forum is open
-   * **Moderated forum** — Require new posts to be approved by a teacher before they become visible
-   * **Can learners edit their own posts?** — Allow or prevent learners from editing posts after submitting
-   * **Allow users to start new threads** — When set to No, learners can only reply to existing threads
-   * **Default view type** — Choose how posts are displayed: **Flat**, **Threaded**, or **Nested**
-   * **For Group** — Attach this forum to a course group
-   * **Public access / Private access** — For group forums, decide whether any course member can read it or only group members
-4. Save
+1. Klik binnen een categorie op **Een forum toevoegen**
+2. Vul de basisgegevens in:
+   * **Titel** — De naam van dit discussiebord
+   * **Beschrijving** — Een optionele beschrijving van het doel van het forum
+   * **Aanmaken in categorie** — De categorie waartoe dit forum behoort
+3. Open **Geavanceerde instellingen** om te configureren:
+   * **Publicatiedatum** / **Sluitingsdatum** — Optioneel tijdsvenster waarin het forum open is
+   * **Gemodereerd forum** — Vereis dat nieuwe berichten door een docent worden goedgekeurd voordat ze zichtbaar worden
+   * **Kunnen leerlingen hun eigen berichten bewerken?** — Sta toe of voorkom dat leerlingen berichten bewerken na het indienen
+   * **Gebruikers toestaan om nieuwe threads te starten** — Indien ingesteld op Nee, kunnen leerlingen alleen reageren op bestaande threads
+   * **Standaard weergavetype** — Kies hoe berichten worden weergegeven: **Plat**, **Threaded**, of **Genest**
+   * **Voor Groep** — Koppel dit forum aan een cursusgroep
+   * **Publieke toegang / Privétoegang** — Voor groepsforums, beslis of elk cursuslid het kan lezen of alleen groepsleden
+4. Sla op
 
-If the course visibility is set to "Open to the world", the form also shows an **Allow anonymous posts?** option. This option is hidden in courses with restricted visibility.
+Als de cursuszichtbaarheid is ingesteld op "Open voor de wereld", toont het formulier ook een optie **Anonieme berichten toestaan?**. Deze optie is verborgen in cursussen met beperkte zichtbaarheid.
 
-## Managing Topics
+## Onderwerpen Beheren
 
-Learners (and you) can create new topics within a forum. As a teacher, you can:
+Leerlingen (en u) kunnen nieuwe onderwerpen aanmaken binnen een forum. Als docent kunt u:
 
-* **Pin a topic (sticky message)** — Mark a thread as sticky when you create or edit it so it always appears at the top
-* **Lock a topic** — Prevent further replies
-* **Edit or delete posts** — Moderate the discussion
-* **Move a topic** — Transfer a topic to a different forum
+* **Een onderwerp vastpinnen (sticky bericht)** — Markeer een thread als sticky bij het aanmaken of bewerken, zodat deze altijd bovenaan verschijnt
+* **Een onderwerp vergrendelen** — Voorkom verdere reacties
+* **Berichten bewerken of verwijderen** — Modereer de discussie
+* **Een onderwerp verplaatsen** — Verplaats een onderwerp naar een ander forum
 
-## Forum Scoring
+## Forumbeoordeling
 
-When creating a new thread as a teacher, you can enable **Grade this thread** under Advanced settings. You then set a maximum score, a column header for the gradebook, and a weight in the report. You can also enable **Thread scored by peers**, which requires each learner to qualify at least two other learners before their own score counts.
+Bij het aanmaken van een nieuwe thread als docent kunt u onder Geavanceerde instellingen **Deze thread beoordelen** inschakelen. U stelt dan een maximumscore in, een kolomkop voor het cijferboek en een gewicht in het rapport. U kunt ook **Thread beoordeeld door peers** inschakelen, wat vereist dat elke leerling minstens twee andere leerlingen beoordeelt voordat hun eigen score meetelt.
 
-## Notifications
+## Meldingen
 
-Each forum and thread has a **Notify me** toggle that you and your learners can use to subscribe to email notifications about new posts. Notifications are a per-user subscription and are not configured when creating the forum.
+Elk forum en elke thread heeft een **Houd mij op de hoogte** schakelaar die u en uw leerlingen kunnen gebruiken om zich te abonneren op e-mailmeldingen over nieuwe berichten. Meldingen zijn een per-gebruiker abonnement en worden niet geconfigureerd bij het aanmaken van het forum.

@@ -1,73 +1,73 @@
-# Entities and Doctrine
+# Entiteiten en Doctrine
 
-Chamilo 2.0 has 314 Doctrine entities across two bundles. The following only mention the main ones.
+Chamilo 2.0 heeft 314 Doctrine-entiteiten verdeeld over twee bundles. Hieronder worden alleen de belangrijkste genoemd.
 
-## Entity Organization
+## Organisatie van Entiteiten
 
-### CoreBundle Entities (213)
+### CoreBundle Entiteiten (213)
 
-Platform-level entities:
+Entiteiten op platformniveau:
 
-| Category | Examples |
+| Categorie | Voorbeelden |
 |----------|---------|
-| **Users** | `User`, `UserRelUser`, `AccessUrl`, `AccessUrlRelUser` |
-| **Courses** | `Course`, `CourseCategory`, `CourseRelUser` |
-| **Sessions** | `Session`, `SessionRelUser`, `SessionRelCourse`, `SessionRelCourseRelUser` |
-| **Resources** | `ResourceNode`, `ResourceFile`, `ResourceLink`, `ResourceType` |
-| **Settings** | `SettingsCurrent`, `SettingsOptions` |
-| **Messages** | `Message`, `MessageRelUser`, `MessageAttachment` |
+| **Gebruikers** | `User`, `UserRelUser`, `AccessUrl`, `AccessUrlRelUser` |
+| **Cursussen** | `Course`, `CourseCategory`, `CourseRelUser` |
+| **Sessies** | `Session`, `SessionRelUser`, `SessionRelCourse`, `SessionRelCourseRelUser` |
+| **Bronnen** | `ResourceNode`, `ResourceFile`, `ResourceLink`, `ResourceType` |
+| **Instellingen** | `SettingsCurrent`, `SettingsOptions` |
+| **Berichten** | `Message`, `MessageRelUser`, `MessageAttachment` |
 | **Tracking** | `TrackELogin`, `TrackEOnline`, `TrackEDefault` |
-| **Skills** | `Skill`, `SkillRelUser`, `SkillRelProfile` |
+| **Vaardigheden** | `Skill`, `SkillRelUser`, `SkillRelProfile` |
 | **AI** | `AiRequests` |
 | **Plugins** | `Plugin`, `AccessUrlRelPlugin` |
-| **Social** | `Usergroup`, `UsergroupRelUser` |
+| **Sociaal** | `Usergroup`, `UsergroupRelUser` |
 | **xAPI** | `XApiObject`, `XApiResult`, `XApiActivityState` |
 
-### CourseBundle Entities (101)
+### CourseBundle Entiteiten (101)
 
-Course content entities — all prefixed with `C`:
+Entiteiten voor cursusinhoud — allemaal met het voorvoegsel `C`:
 
-| Category | Examples |
+| Categorie | Voorbeelden |
 |----------|---------|
-| **Documents** | `CDocument` |
-| **Exercises** | `CQuiz`, `CQuizQuestion`, `CQuizAnswer`, `CQuizQuestionCategory` |
-| **Learning paths** | `CLp`, `CLpItem`, `CLpView`, `CLpItemView`, `CLpCategory` |
+| **Documenten** | `CDocument` |
+| **Oefeningen** | `CQuiz`, `CQuizQuestion`, `CQuizAnswer`, `CQuizQuestionCategory` |
+| **Leertrajecten** | `CLp`, `CLpItem`, `CLpView`, `CLpItemView`, `CLpCategory` |
 | **Forums** | `CForum`, `CForumCategory`, `CForumThread`, `CForumPost` |
-| **Assignments** | `CStudentPublication`, `CStudentPublicationAssignment`, `CStudentPublicationComment` |
-| **Surveys** | `CSurvey`, `CSurveyQuestion`, `CSurveyAnswer`, `CSurveyInvitation` |
-| **Attendance** | `CAttendance`, `CAttendanceCalendar`, `CAttendanceResult` |
+| **Opdrachten** | `CStudentPublication`, `CStudentPublicationAssignment`, `CStudentPublicationComment` |
+| **Enquêtes** | `CSurvey`, `CSurveyQuestion`, `CSurveyAnswer`, `CSurveyInvitation` |
+| **Aanwezigheid** | `CAttendance`, `CAttendanceCalendar`, `CAttendanceResult` |
 | **Blogs** | `CBlog`, `CBlogPost`, `CBlogComment`, `CBlogTask` |
-| **Other** | `CCalendarEvent`, `CGlossary`, `CLink`, `CLinkCategory`, `CNotebook`, `CWiki` |
+| **Overig** | `CCalendarEvent`, `CGlossary`, `CLink`, `CLinkCategory`, `CNotebook`, `CWiki` |
 
-## Naming Convention
+## Naamconventie
 
-* CoreBundle entities: standard PascalCase (e.g., `User`, `Course`, `Session`)
-* CourseBundle entities: prefixed with `C` (e.g., `CDocument`, `CQuiz`, `CLp`)
+* CoreBundle-entiteiten: standaard PascalCase (bijv. `User`, `Course`, `Session`)
+* CourseBundle-entiteiten: met voorvoegsel `C` (bijv. `CDocument`, `CQuiz`, `CLp`)
 
-This prefix distinguishes course-scoped content entities from platform-level entities (in line with legacy database tables naming). This distinction might disappear in the long run as more tools are converted to global tools without a strong link to a specific course.
+Dit voorvoegsel onderscheidt inhoudsentiteiten op cursusniveau van entiteiten op platformniveau (in lijn met de naamgeving van oudere databasetabellen). Dit onderscheid kan op lange termijn verdwijnen naarmate meer tools worden omgezet naar globale tools zonder een sterke koppeling aan een specifieke cursus.
 
-## Key Relationships
+## Belangrijke Relaties
 
-Relationships are usually evidenced by the `Rel` separator.
+Relaties worden meestal aangeduid met de scheidingsteken `Rel`.
 
-### User ↔ Course
+### Gebruiker ↔ Cursus
 
 ```
 User --[CourseRelUser]--> Course
 ```
 
-`CourseRelUser` stores the enrollment status (TEACHER = 1, STUDENT = 5).
+`CourseRelUser` slaat de inschrijvingsstatus op (TEACHER = 1, STUDENT = 5).
 
-### User ↔ Session ↔ Course
+### Gebruiker ↔ Sessie ↔ Cursus
 
 ```
 User --[SessionRelUser]--> Session --[SessionRelCourse]--> Course
 User --[SessionRelCourseRelUser]--> (Session + Course)
 ```
 
-### ResourceNode (Content Abstraction)
+### ResourceNode (Inhoudsabstractie)
 
-All course content entities connect to the resource system through `ResourceNode`:
+Alle inhoudsentiteiten van cursussen zijn verbonden met het bronnensysteem via `ResourceNode`:
 
 ```
 CDocument --> ResourceNode --> ResourceFile
@@ -75,13 +75,13 @@ CQuiz ------> ResourceNode
 CLp --------> ResourceNode
 ```
 
-See [Resource System](resource-system.md) for details.
+Zie [Bronsysteem](resource-system.md) voor meer informatie.
 
-## Doctrine Extensions
+## Doctrine Uitbreidingen
 
-Chamilo uses Gedmo Doctrine Extensions (via `stof/doctrine-extensions-bundle`):
+Chamilo gebruikt Gedmo Doctrine Extensions (via `stof/doctrine-extensions-bundle`):
 
-* **Tree** — Hierarchical data (ResourceNode uses materialized path)
-* **Timestampable** — Automatic `createdAt`/`updatedAt` fields
-* **Sluggable** — URL-friendly slugs
-* **Sortable** — Orderable collections
+* **Tree** — Hiërarchische gegevens (ResourceNode gebruikt materialized path)
+* **Timestampable** — Automatische `createdAt`/`updatedAt` velden
+* **Sluggable** — URL-vriendelijke slugs
+* **Sortable** — Sorteerbare collecties

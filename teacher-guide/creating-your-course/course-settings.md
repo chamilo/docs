@@ -1,99 +1,100 @@
-# Course Settings
+# Cursusinstellingen
 
-Course settings allow you to control how your course behaves — who can access it, how it appears, and what features are enabled.
+Cursusinstellingen stellen u in staat om te bepalen hoe uw cursus zich gedraagt — wie er toegang toe heeft, hoe deze eruitziet en welke functies zijn ingeschakeld.
 
-To access course settings, enter your course and click the **Settings** <img src="/.gitbook/assets/icons/mdi-cog.svg" alt="Settings" data-size="line"> icon next to the **Switch to student view** button.
+Om toegang te krijgen tot de cursusinstellingen, gaat u naar uw cursus en klikt u op het pictogram **Instellingen** <img src="/.gitbook/assets/icons/mdi-cog.svg" alt="Instellingen" data-size="line"> naast de knop **Schakelen naar studentweergave**.
 
-## General Settings
+## Algemene Instellingen
 
-### Course Information
+### Cursusinformatie
 
-* **Course title** — The display name of your course
-* **Course language** — The primary language for the course interface
-* **Course category** — The category under which the course appears in the catalog
-* **Course picture** — Upload a thumbnail that represents your course in course listings (will be resized depending on context)
+* **Cursustitel** — De weergavenaam van uw cursus
+* **Cursustaal** — De primaire taal voor de cursusinterface
+* **Cursuscategorie** — De categorie waaronder de cursus in de catalogus verschijnt
+* **Cursusafbeelding** — Upload een miniatuur die uw cursus vertegenwoordigt in cursuslijsten (wordt afhankelijk van de context aangepast in grootte)
 
-The course code (the short unique identifier) is set when the course is created and is not editable from this page.
+De cursuscode (de korte unieke identificatie) wordt ingesteld bij het aanmaken van de cursus en kan niet vanaf deze pagina worden bewerkt.
 
-By default, all users entering your course will see the whole Chamilo interface in the language of your course. This is an immersive feature. Administrators can change this behaviour, but you can also change it with one of the first options: **Show course in user's language** (set to No by default) if you believe this makes it too hard for your users.
+Standaard zien alle gebruikers die uw cursus betreden de volledige Chamilo-interface in de taal van uw cursus. Dit is een immersieve functie. Beheerders kunnen dit gedrag aanpassen, maar u kunt dit ook wijzigen met een van de eerste opties: **Cursus weergeven in de taal van de gebruiker** (standaard ingesteld op Nee) als u denkt dat dit te moeilijk is voor uw gebruikers.
 
-The department and department URL are deprecated fields. They are only maintained for legacy support reasons.
+De velden voor afdeling en afdelings-URL zijn verouderd. Ze worden alleen nog onderhouden om legacy-redenen.
 
-If enabled, you can switch the style inside your course with the **Style sheets** option, using existing stylesheets on your portal. This option is often disabled by admins, for a more integrated global design.
+Indien ingeschakeld, kunt u de stijl binnen uw cursus aanpassen met de optie **Stijlbladen**, waarbij u bestaande stijlbladen op uw portaal gebruikt. Deze optie wordt vaak door beheerders uitgeschakeld voor een meer geïntegreerd globaal ontwerp.
 
-### Disk Quota
+### Schijfquota
 
-Each course has a storage limit (disk quota) for uploaded files. The quota is set by the platform administrator. You can see your current limit in the course settings, and the current usage in the **Documents** tool.
+Elke cursus heeft een opslaglimiet (schijfquota) voor geüploade bestanden. Het quota wordt ingesteld door de platformbeheerder. U kunt uw huidige limiet zien in de cursusinstellingen en het huidige gebruik in het hulpmiddel **Documenten**.
 
-> If you are running out of space, contact your platform administrator to request a quota increase, or remove unused files from the Documents tool.
+> Als u ruimte tekortkomt, neem dan contact op met uw platformbeheerder om een verhoging van het quota aan te vragen, of verwijder ongebruikte bestanden uit het hulpmiddel Documenten.
 
-### Course Visibility
+### Cursuszichtbaarheid
 
-![The course visibility settings showing public, open, registered, and closed options](/.gitbook/assets/course-settings-visibility.png)
+![De instellingen voor cursuszichtbaarheid met opties voor openbaar, open, geregistreerd en gesloten](/.gitbook/assets/course-settings-visibility.png)
 
-Control who can access your course:
+Bepaal wie toegang heeft tot uw cursus:
 
-| Setting | Description |
-|---------|-------------|
-| **Public** | Anyone, including anonymous visitors, can access the course |
-| **Open to platform** | All registered users on the platform can access the course |
-| **Private — access granted by privileged users** | Only users explicitly enrolled in the course can access it |
-| **Closed** | The course is locked; no one can access it except the teacher |
+| Instelling | Beschrijving |
+|------------|--------------|
+| **Openbaar** | Iedereen, inclusief anonieme bezoekers, kan de cursus bekijken |
+| **Open voor platform** | Alle geregistreerde gebruikers op het platform hebben toegang tot de cursus |
+| **Privé — toegang verleend door bevoegde gebruikers** | Alleen gebruikers die expliciet zijn ingeschreven voor de cursus hebben toegang |
+| **Gesloten** | De cursus is vergrendeld; niemand heeft toegang behalve de docent |
 
-#### Enrollment Settings
+#### Inschrijvingsinstellingen
 
-Depending on your platform configuration, you may be able to control:
+Afhankelijk van uw platformconfiguratie kunt u mogelijk het volgende beheren:
 
-* **Allow self-enrollment** — Whether learners can subscribe themselves through the course catalog
-* **Allow self-unsubscription** — Whether learners can leave the course on their own
-* **Enrollment password** — Require a password for self-enrollment (useful for restricting access to a specific group) but the security level is low as the same course-access password is shared between all users.
+* **Zelfinschrijving toestaan** — Of leerlingen zichzelf kunnen inschrijven via de cursuscatalogus
+* **Zelfuitschrijving toestaan** — Of leerlingen zichzelf kunnen uitschrijven uit de cursus
+* **Inschrijvingswachtwoord** — Vereis een wachtwoord voor zelfinschrijving (handig om toegang te beperken tot een specifieke groep), maar het beveiligingsniveau is laag omdat hetzelfde cursus-toegangswachtwoord wordt gedeeld tussen alle gebruikers.
 
-### Document Settings
+### Documentinstellingen
 
-Choose whether to show or hide the system folders in the **Documents** tool (hidden by default, you don't really need them in most cases and showing them might cause issues with hidden content and learners).
+Kies of u de systeemmappen in het hulpmiddel **Documenten** wilt tonen of verbergen (standaard verborgen, u hebt ze in de meeste gevallen niet echt nodig en het tonen ervan kan problemen veroorzaken met verborgen inhoud en leerlingen).
 
-### E-mail Notification Settings
+### E-mailnotificatie-instellingen
 
-Configure how course activity triggers notifications:
+Configureer hoe cursusactiviteiten notificaties activeren:
 
-* **Email notifications for new content** — Notify enrolled users when you add new documents, announcements, or other content
+* **E-mailnotificaties voor nieuwe inhoud** — Stel ingeschreven gebruikers op de hoogte wanneer u nieuwe documenten, aankondigingen of andere inhoud toevoegt
 
-### Chat Settings
+### Chat-instellingen
 
-Control how the **Chat** tool will show.
+Bepaal hoe het hulpmiddel **Chat** wordt weergegeven.
 
-### Learning path Settings
+### Leerpadinstellingen
 
-* **Enable course themes** — Allow learning paths to change appearance (not recommended for integrated user experience)
-* **Learning path return link** — Decide where users land when they click the **Home** icon in a learning path: the learning paths list, the course home, *My courses*, *My sessions*, or the portal home
+* **Cursusthema's inschakelen** — Sta toe dat leerpaden van uiterlijk veranderen (niet aanbevolen voor een geïntegreerde gebruikerservaring)
+* **Terugkeerlink voor leerpad** — Bepaal waar gebruikers terechtkomen wanneer ze op het pictogram **Home** klikken in een leerpad: de lijst met leerpaden, de cursusstartpagina, *Mijn cursussen*, *Mijn sessies*, of de startpagina van het portaal
 
-### Thematic Advance Settings
+### Thematische Voortgangsinstellingen
 
-Configure how the thematic advance messages will appear on the course homepage.
+Configureer hoe de berichten over thematische voortgang op de cursusstartpagina worden weergegeven.
 
-### Forum Settings
+### Forum-instellingen
 
-Control behaviour in the forum tool of this course.
+Beheer het gedrag in het forumhulpmiddel van deze cursus.
 
-### Assignment Settings
+### Opdrachtinstellingen
 
-* **Default setting for the visibility of newly posted files** — Decide whether new documents uploaded by learners in the **Assignments** tool are shared with all other learners (No by default)
-* **Allow learners to delete their own publications** — Allow learners to delete the assignments they have already uploaded (in case they want to upload a correction).
+* **Standaardinstelling voor de zichtbaarheid van nieuw geüploade bestanden** — Bepaal of nieuwe documenten die door leerlingen worden geüpload in het hulpmiddel **Opdrachten** worden gedeeld met alle andere leerlingen (standaard Nee)
+* **Leerlingen toestaan hun eigen publicaties te verwijderen** — Sta leerlingen toe om de opdrachten die ze al hebben geüpload te verwijderen (voor het geval ze een correctie willen uploaden).
 
-### Autolaunch Settings
+---
+### Instellingen voor Automatisch Starten
 
-A course can be set to have an auto-launch behaviour, which will shorten the path of learners to get to the important parts of your course. If enabled, the learners entering your course will be sent directly to the selected tool and will not see the course homepage as an intermediate step. You can even select specific learning paths or exercises to launch on arrival to the course. In this case, you need to select the option here, then go to the learning paths or exercises list and clic the rocket <img src="/.gitbook/assets/icons/mdi-rocket-launch.svg" alt="Auto-launch" data-size="line"> icon on the selected item.
+Een cursus kan worden ingesteld met een automatisch startgedrag, waardoor de weg voor leerlingen naar de belangrijke onderdelen van uw cursus wordt verkort. Indien ingeschakeld, worden leerlingen die uw cursus betreden direct naar het geselecteerde hulpmiddel gestuurd en zien ze de cursusstartpagina niet als tussenstap. U kunt zelfs specifieke leerpaden of oefeningen selecteren om bij aankomst in de cursus te starten. In dit geval moet u hier de optie selecteren, vervolgens naar de lijst met leerpaden of oefeningen gaan en op het raketpictogram <img src="/.gitbook/assets/icons/mdi-rocket-launch.svg" alt="Automatisch starten" data-size="line"> klikken bij het geselecteerde item.
 
-### AI Helpers Settings
+### Instellingen voor AI-Hulpmiddelen
 
-This section only appears if your administrator has enabled AI tools on the platform. It allows you to refine the selection of AI helper services available through different tools of your Chamilo platform. Disable them if you don't want to use them, but that would probably be a bad idea as these are very powerful.
+Deze sectie verschijnt alleen als uw beheerder AI-tools op het platform heeft ingeschakeld. Hiermee kunt u de selectie van beschikbare AI-hulpdiensten verfijnen via verschillende hulpmiddelen van uw Chamilo-platform. Schakel ze uit als u ze niet wilt gebruiken, maar dat zou waarschijnlijk geen goed idee zijn, aangezien deze tools zeer krachtig zijn.
 
-These features are explained in the **AI Tools** section of this guide.
+Deze functies worden uitgelegd in de sectie **AI-Tools** van deze handleiding.
 
-### External Tools (LTI)
+### Externe Hulpmiddelen (LTI)
 
-If enabled on your platform, Learning Tools Integration allows you to integrate external, compatible activities to this course, as individual icons on the course homepage. Discussing LTI is out of the scope of this guide, but this is a powerful integration system for teachers.
+Indien ingeschakeld op uw platform, stelt Learning Tools Integration u in staat om externe, compatibele activiteiten te integreren in deze cursus, als individuele pictogrammen op de cursusstartpagina. Het bespreken van LTI valt buiten de scope van deze handleiding, maar dit is een krachtig integratiesysteem voor docenten.
 
-### Others
+### Overige
 
-Additional sections or options might appear on this page depending on options and versions of Chamilo.
+Afhankelijk van de opties en versies van Chamilo kunnen er aanvullende secties of opties op deze pagina verschijnen.

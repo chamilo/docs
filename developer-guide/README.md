@@ -1,31 +1,31 @@
-# Developer Guide
+# Ontwikkelaarsgids
 
-Welcome to the Chamilo 2.0 Developer Guide. This guide is for developers who want to understand the Chamilo architecture, extend the platform with plugins, use the API, customize the interface, or contribute to the project.
+Welkom bij de Chamilo 2.0 Ontwikkelaarsgids. Deze gids is bedoeld voor ontwikkelaars die de Chamilo-architectuur willen begrijpen, het platform willen uitbreiden met plugins, de API willen gebruiken, de interface willen aanpassen of willen bijdragen aan het project.
 
-## Architecture at a Glance
+## Architectuur in een Oogopslag
 
-Chamilo 2.0 is built on:
+Chamilo 2.0 is gebouwd op:
 
-* **Backend**: Symfony 6.4 (PHP 8.2+) with Doctrine ORM and API Platform 3.0
-* **Frontend**: Vue 3 with PrimeVue, Pinia state management, and Vue Router
-* **Build system**: Webpack 5 via Symfony Webpack Encore, with Tailwind CSS
-* **Authentication**: JWT tokens (lexik/jwt-authentication-bundle)
-* **File storage**: Flysystem (supports local, AWS S3, Azure Blob, Google Cloud)
+* **Backend**: Symfony 6.4 (PHP 8.2+) met Doctrine ORM en API Platform 3.0
+* **Frontend**: Vue 3 met PrimeVue, Pinia state management en Vue Router
+* **Buildsysteem**: Webpack 5 via Symfony Webpack Encore, met Tailwind CSS
+* **Authenticatie**: JWT tokens (lexik/jwt-authentication-bundle)
+* **Bestandsopslag**: Flysystem (ondersteunt lokaal, AWS S3, Azure Blob, Google Cloud)
 
-The codebase is organized into three Symfony bundles:
+De codebase is georganiseerd in drie Symfony-bundles:
 
-| Bundle | Purpose |
-|--------|---------|
-| **CoreBundle** | Platform core: users, settings, resources, admin, AI providers, security |
-| **CourseBundle** | Course-specific features: documents, exercises, learning paths, forums, etc. |
-| **LtiBundle** | LTI 1.3 integration for external learning tools |
+| Bundle | Doel |
+|--------|------|
+| **CoreBundle** | Kern van het platform: gebruikers, instellingen, bronnen, beheer, AI-providers, beveiliging |
+| **CourseBundle** | Cursusspecifieke functies: documenten, oefeningen, leerpaden, forums, enz. |
+| **LtiBundle** | LTI 1.3 integratie voor externe leermiddelen |
 
-## How This Guide Is Organized
+## Hoe Deze Gids Is Georganiseerd
 
-1. **Getting Started** — Tech stack, development setup, project structure
-2. **Backend** — Symfony architecture, entities, resource system, controllers, settings
-3. **API** — REST API via API Platform, JWT authentication, custom actions
-4. **Frontend** — Vue components, views, routing, state management, build system
-5. **Theming** — Color themes, CSS/Tailwind, Twig templates
-6. **Plugins** — Plugin architecture and development
-7. **Contributing** — Coding conventions, git workflow, testing
+1. **Aan de Slag** — Technologie-stack, ontwikkelomgeving, projectstructuur
+2. **Backend** — Symfony-architectuur, entiteiten, bronnensysteem, controllers, instellingen
+3. **API** — REST API via API Platform, JWT-authenticatie, aangepaste acties
+4. **Frontend** — Vue-componenten, weergaven, routing, state management, buildsysteem
+5. **Thema's** — Kleurenthema's, CSS/Tailwind, Twig-templates
+6. **Plugins** — Plugin-architectuur en ontwikkeling
+7. **Bijdragen** — Codeerconventies, git-workflow, testen

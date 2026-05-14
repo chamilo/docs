@@ -1,96 +1,95 @@
-# Administrator Identity Settings
+# Identiteitsinstellingen Beheerder
 
-Identity and contact details of the platform administrator. These values appear in the platform footer and in some system-generated emails.
+Identiteit en contactgegevens van de platformbeheerder. Deze waarden verschijnen in de voettekst van het platform en in sommige door het systeem gegenereerde e-mails.
 
-Access these settings under **Administration > Configuration settings > Administrator Identity**. This category contains **12 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+Toegang tot deze instellingen vindt u onder **Beheer > Configuratie-instellingen > Identiteit Beheerder**. Deze categorie bevat **12 instellingen**, hieronder opgesomd met de titel en opmerking zoals meegeleverd in de instellingenfixtures van het platform (`SettingsCurrentFixtures.php`).
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> De variabelenaam in de code wordt weergegeven in monospace. Gebruik deze bij het scripten via de API of wanneer u deze instellingen op globaal niveau wilt wijzigen door [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml) te bewerken.
 
-## Settings
+## Instellingen
 
 ### `administrator_email`
 
-**Portal Administrator: e-mail**
+**Portaalbeheerder: e-mail**
 
-The e-mail address of the Platform Administrator (appears in the footer on the left)
+Het e-mailadres van de Platformbeheerder (verschijnt in de voettekst aan de linkerkant)
 
 ### `administrator_name`
 
-**Portal Administrator: First Name**
+**Portaalbeheerder: Voornaam**
 
-The First Name of the Platform Administrator (appears in the footer on the left)
+De voornaam van de Platformbeheerder (verschijnt in de voettekst aan de linkerkant)
 
 ### `administrator_phone`
 
-**Portal Administrator: Phone number**
+**Portaalbeheerder: Telefoonnummer**
 
-The phone number of the Platform Administrator (appears in the footer on the left)
+Het telefoonnummer van de Platformbeheerder (verschijnt in de voettekst aan de linkerkant)
 
 ### `administrator_surname`
 
-**Portal Administrator: Last Name**
+**Portaalbeheerder: Achternaam**
 
-The Family Name of the Platform Administrator (appears in the footer on the left)
+De achternaam van de Platformbeheerder (verschijnt in de voettekst aan de linkerkant)
 
 ### `chamilo_latest_news`
 
-**Latest news**
+**Laatste nieuws**
 
-Get the latest news from Chamilo, including security vulnerabilities and events, directly inside your administration panel. These pieces of news will be checked on the Chamilo news server every time you load the administration page and are only visible to administrators.
+Ontvang het laatste nieuws van Chamilo, inclusief beveiligingslekken en evenementen, direct in uw beheerpaneel. Dit nieuws wordt telkens gecontroleerd op de Chamilo-nieuwsserver wanneer u de beheerpagina laadt en is alleen zichtbaar voor beheerders.
 
-*Default: `true`*
+*Standaard: `true`*
 
 ### `chamilo_support`
 
-**Chamilo support block**
+**Chamilo ondersteuningsblok**
 
-Get pro tips and an easy way to contact official service providers for professional support, directly from the makers of Chamilo. This block appears on your administration page, is only visible by administrators, and refreshes every time you load the administration page.
+Ontvang professionele tips en een eenvoudige manier om contact op te nemen met officiële dienstverleners voor professionele ondersteuning, rechtstreeks van de makers van Chamilo. Dit blok verschijnt op uw beheerpagina, is alleen zichtbaar voor beheerders en wordt vernieuwd telkens wanneer u de beheerpagina laadt.
 
-*Default: `true`*
+*Standaard: `true`*
 
 ### `max_anonymous_users`
 
-**Multiple anonymous users**
+**Meerdere anonieme gebruikers**
 
-Enable this option to allow multiple system users for anonymous users. This is useful when using this platform as a public showroom for some courses. Having multiple anonymous users will let tracking work for the duration of the experience for several users without mixing their data (which could otherwise confuse them).
+Schakel deze optie in om meerdere systeemgebruikers toe te staan voor anonieme gebruikers. Dit is nuttig wanneer u dit platform gebruikt als een openbare vitrine voor sommige cursussen. Het hebben van meerdere anonieme gebruikers maakt het mogelijk om tracking te laten werken gedurende de ervaring van meerdere gebruikers zonder hun gegevens te vermengen (wat hen anders in verwarring zou kunnen brengen).
 
-*Default: `0`*
+*Standaard: `0`*
 
 ### `redirect_admin_to_courses_list`
 
-**Redirect admin to courses list**
+**Beheerder doorverwijzen naar cursuslijst**
 
-The default behaviour is to send administrators directly to the administration panel (while teachers and students are sent to the courses list or the platform homepage). Enable to redirect the administrator also to his/her courses list.
+Het standaardgedrag is om beheerders direct naar het beheerpaneel te sturen (terwijl docenten en studenten naar de cursuslijst of de startpagina van het platform worden gestuurd). Schakel in om de beheerder ook door te verwijzen naar zijn/haar cursuslijst.
 
-*Default: `false`*
+*Standaard: `false`*
 
 ### `send_inscription_notification_to_general_admin_only`
 
-**Notify global admin only of new users**
+**Alleen globale beheerder informeren over nieuwe gebruikers**
 
-When enabled, only the global administrator receives email notifications about new user registrations instead of all administrators.
+Wanneer ingeschakeld, ontvangt alleen de globale beheerder e-mailmeldingen over nieuwe gebruikersregistraties in plaats van alle beheerders.
 
-*Default: `false`*
+*Standaard: `false`*
 
 ### `show_link_request_hrm_user`
 
-**Show link to request bond between user and HRM**
+**Link tonen om koppeling tussen gebruiker en HRM aan te vragen**
 
-Display a link on the profile page allowing Human Resources directors to request to be linked with a user account.
+Toon een link op de profielpagina waarmee directeuren van personeelszaken kunnen verzoeken om gekoppeld te worden aan een gebruikersaccount.
 
-*Default: `false`*
+*Standaard: `false`*
 
 ### `user_status_option_only_for_admin_enabled`
 
-**Hide role from normal users**
+**Rol verbergen voor gewone gebruikers**
 
-Allows hiding users' role when this option is set to true and the following array sets the corresponding role to 'true'.
+Maakt het mogelijk om de rol van gebruikers te verbergen wanneer deze optie op true is ingesteld en de volgende array de bijbehorende rol op 'true' zet.
 
-*Default: `false`*
+*Standaard: `false`*
 
 ### `user_status_option_show_only_for_admin`
 
-**Define which roles are hidden to normal users**
+**Bepaal welke rollen verborgen zijn voor gewone gebruikers**
 
-The roles set to 'true' will only appear to administrators. Other users will not be able to see them.
-
+De rollen die op 'true' zijn ingesteld, verschijnen alleen voor beheerders. Andere gebruikers kunnen deze niet zien.

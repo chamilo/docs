@@ -1,76 +1,76 @@
-# AI Configuration
+# AI-configuratie
 
-Chamilo 2.0 includes AI-powered features that require configuration before they become available to teachers and learners.
+Chamilo 2.0 bevat AI-gestuurde functies die geconfigureerd moeten worden voordat ze beschikbaar zijn voor docenten en leerlingen.
 
-## Supported AI Providers
+## Ondersteunde AI-aanbieders
 
-Chamilo supports multiple AI providers:
+Chamilo ondersteunt meerdere AI-aanbieders:
 
-| Provider | Capabilities |
-|----------|-------------|
-| **DeepSeek** | Text generation |
-| **Google Gemini** | Text, image, video generation |
-| **Grok** | Text, image, video generation |
-| **Mistral** | Text generation |
-| **OpenAI** | Text, image, video generation |
+| Aanbieder | Mogelijkheden |
+|-----------|---------------|
+| **DeepSeek** | Tekstgeneratie |
+| **Google Gemini** | Tekst-, afbeelding- en videgeneratie |
+| **Grok** | Tekst-, afbeelding- en videgeneratie |
+| **Mistral** | Tekstgeneratie |
+| **OpenAI** | Tekst-, afbeelding- en videgeneratie |
 
-Each provider can be configured for different types of AI tasks:
+Elke aanbieder kan worden geconfigureerd voor verschillende soorten AI-taken:
 
-* **Text** — Used for exercise generation, learning path generation, AI grading, and the AI tutor
-* **Image** — Used for AI image generation
-* **Video** — Used for AI video generation (where supported)
-* **Document** — Used for AI document analysis
+* **Tekst** — Gebruikt voor het genereren van oefeningen, leerpaden, AI-beoordeling en de AI-tutor
+* **Afbeelding** — Gebruikt voor het genereren van AI-afbeeldingen
+* **Video** — Gebruikt voor het genereren van AI-video's (indien ondersteund)
+* **Document** — Gebruikt voor AI-documentanalyse
 
-## Configuration Steps
+## Configuratiestappen
 
-### 1. Obtain API Keys
+### 1. API-sleutels verkrijgen
 
-Register for an account with your chosen AI provider and obtain an API key:
+Registreer een account bij de door u gekozen AI-aanbieder en verkrijg een API-sleutel:
 
 * **DeepSeek**: [platform.deepseek.com](https://platform.deepseek.com/)
-* **Google Gemini**: Google AI Studio or Google Cloud
+* **Google Gemini**: Google AI Studio of Google Cloud
 * **Grok**: [console.x.ai](https://console.x.ai/)
 * **Mistral**: [console.mistral.ai](https://console.mistral.ai/)
 * **OpenAI**: [platform.openai.com](https://platform.openai.com/)
 
-### 2. Configure Providers in Chamilo
+### 2. Aanbieders configureren in Chamilo
 
-![The AI helpers configuration page showing provider settings with API key, model, and endpoint fields](/.gitbook/assets/admin-ai-helpers-config.png)
+![De configuratiepagina voor AI-helpers met instellingen voor aanbieders, inclusief velden voor API-sleutel, model en endpoint](/.gitbook/assets/admin-ai-helpers-config.png)
 
-In the platform settings, navigate to the **AI Helpers** section:
+Navigeer in de platforminstellingen naar de sectie **AI Helpers**:
 
-1. **Enable AI helpers** — Turn on the AI features globally
-2. **Configure AI providers** — Add one or more providers with:
-   * **Provider name** (deepseek, gemini, grok, mistral, openai)
-   * **API key** — Your API key for the provider
-   * **Model** — The specific model to use (e.g., `gpt-4`, `gemini-pro`, `mistral-large`)
-   * **API URL** — The endpoint URL (pre-configured for standard providers)
+1. **AI-helpers inschakelen** — Schakel de AI-functies globaal in
+2. **AI-aanbieders configureren** — Voeg een of meer aanbieders toe met:
+   * **Naam van de aanbieder** (deepseek, gemini, grok, mistral, openai)
+   * **API-sleutel** — Uw API-sleutel voor de aanbieder
+   * **Model** — Het specifieke model dat u wilt gebruiken (bijv. `gpt-4`, `gemini-pro`, `mistral-large`)
+   * **API-URL** — De endpoint-URL (vooraf geconfigureerd voor standaardaanbieders)
 
-You can configure multiple providers. The first provider in the configuration becomes the default.
+U kunt meerdere aanbieders configureren. De eerste aanbieder in de configuratie wordt de standaard.
 
-### 3. Enable Features Per Course
+### 3. Functies per cursus inschakelen
 
-AI features can be enabled or disabled at the course level. Teachers can toggle:
+AI-functies kunnen op cursusniveau worden in- of uitgeschakeld. Docenten kunnen schakelen tussen:
 
-* **AI Tutor chatbot** — The AI assistant for learners
-* **Assignment grader** — AI-generated grading recommendation
-* **Exercise generator** — AI-generated quiz questions
-* **Learning path generator** — AI-generated learning sequences
-* **Image/Video generator** — AI-generated images and videos in documents
+* **AI Tutor-chatbot** — De AI-assistent voor leerlingen
+* **Opdrachtbeoordelaar** — Door AI gegenereerde beoordelingsaanbevelingen
+* **Oefeningengenerator** — Door AI gegenereerde quizvragen
+* **Leerpadgenerator** — Door AI gegenereerde leervolgordes
+* **Afbeelding-/videogenerator** — Door AI gegenereerde afbeeldingen en video's in documenten
 
-This allows different courses to use different AI configurations based on their needs.
+Dit maakt het mogelijk dat verschillende cursussen verschillende AI-configuraties gebruiken op basis van hun behoeften.
 
-## Cost Considerations
+## Kostenoverwegingen
 
-AI API calls have costs associated with them. Consider:
+AI API-aanroepen brengen kosten met zich mee. Overweeg het volgende:
 
-* **Setting usage limits** — Monitor and limit AI API usage to control costs
-* **Choosing models wisely** — Smaller, less expensive models may be sufficient for many educational tasks
-* **Tracking usage** — Chamilo logs AI requests to help you monitor consumption
+* **Gebruikslimieten instellen** — Monitor en beperk het gebruik van AI API's om kosten te beheersen
+* **Modellen verstandig kiezen** — Kleinere, goedkopere modellen kunnen voldoende zijn voor veel educatieve taken
+* **Gebruik bijhouden** — Chamilo logt AI-verzoeken om u te helpen het verbruik te monitoren
 
 ## Tips
 
-* **Start with one provider** — Configure and test one provider before adding more
-* **Test with a course** — Enable AI features in a test course first to verify they work as expected
-* **Communicate with teachers** — Let teachers know which AI features are available and how to use them
-* **Monitor quality** — Regularly review AI-generated content to ensure it meets your educational standards
+* **Begin met één aanbieder** — Configureer en test één aanbieder voordat u er meer toevoegt
+* **Test met een cursus** — Schakel AI-functies eerst in een testcursus in om te controleren of ze werken zoals verwacht
+* **Communiceer met docenten** — Laat docenten weten welke AI-functies beschikbaar zijn en hoe ze deze kunnen gebruiken
+* **Kwaliteit monitoren** — Controleer regelmatig door AI gegenereerde inhoud om ervoor te zorgen dat deze voldoet aan uw educatieve normen

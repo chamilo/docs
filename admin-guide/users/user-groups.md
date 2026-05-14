@@ -1,41 +1,41 @@
-# Classes / User Groups
+# Klassen / Gebruikersgroepen
 
-Classes in the administration panel are platform-wide groups used to organize users for management purposes. They are distinct from course-level groups (which are created by teachers within a course).
+Klassen in het beheerpaneel zijn platformbrede groepen die worden gebruikt om gebruikers te organiseren voor beheersdoeleinden. Ze verschillen van groepen op cursusniveau (die door docenten binnen een cursus worden aangemaakt).
 
-> User groups and [Classes](../../admin-guide/sessions/classes.md) share the same interface. The only difference is the **group type** setting: choose "Class" to create a class (used for bulk session enrollment), or "User group" for more social groups that can have their own space in the internal social network. See [Classes](../../admin-guide/sessions/classes.md) for details on session enrollment.
+> Gebruikersgroepen en [Klassen](../../admin-guide/sessions/classes.md) delen dezelfde interface. Het enige verschil is de instelling voor **groeptype**: kies "Klas" om een klas aan te maken (gebruikt voor bulkinschrijving in sessies), of "Gebruikersgroep" voor meer sociale groepen die hun eigen ruimte kunnen hebben in het interne sociale netwerk. Zie [Klassen](../../admin-guide/sessions/classes.md) voor details over sessie-inschrijving.
 
-## Creating a Group
+## Een Groep Aanmaken
 
-![The user groups list showing available groups with name, description, and member count](/.gitbook/assets/admin-user-groups-list.png)
+![De lijst met gebruikersgroepen toont beschikbare groepen met naam, beschrijving en aantal leden](/.gitbook/assets/admin-user-groups-list.png)
 
-1. From the administration panel, navigate to **Classes**
-2. Click **Add classes**
-3. Enter a **title** and optional **description**
-4. Check **Social group** if this will be a social group. Leave unchecked if it will be a class.
-5. Add an optionali reference URL and picture/logo.
-6. Choose the group **permissions**:
-   * **Open** — Any user can join
-   * **Closed** — Users must be added by an administrator
-7. Check if you want members to be able to leave the class by themselves.
-8. Save.
+1. Navigeer vanuit het beheerpaneel naar **Klassen**
+2. Klik op **Klassen toevoegen**
+3. Voer een **titel** en optioneel een **beschrijving** in
+4. Vink **Sociale groep** aan als dit een sociale groep wordt. Laat dit uitgeschakeld als het een klas betreft.
+5. Voeg een optionele referentie-URL en afbeelding/logo toe.
+6. Kies de **toegangsrechten** van de groep:
+   * **Open** — Elke gebruiker kan lid worden
+   * **Gesloten** — Gebruikers moeten door een beheerder worden toegevoegd
+7. Vink aan of je wilt dat leden zelf de klas kunnen verlaten.
+8. Sla op.
 
-## Adding Members
+## Leden Toevoegen
 
-1. Open the list of classes/user groups
-2. Click the user icon **Subscribe users to class**
-3. Search for users by name, username or email
-4. Select the users to add, using the arrows to the right side
-5. Click the confirmation button to save
+1. Open de lijst met klassen/gebruikersgroepen
+2. Klik op het gebruikerspictogram **Gebruikers inschrijven in klas**
+3. Zoek gebruikers op naam, gebruikersnaam of e-mailadres
+4. Selecteer de gebruikers die je wilt toevoegen, gebruikmakend van de pijlen aan de rechterkant
+5. Klik op de bevestigingsknop om op te slaan
 
-## Use Cases
+## Gebruiksscenario's
 
-* **Department organization** — Group users by department or team
-* **Bulk enrollment** — Add all members of a group to a course or session at once
-* **Targeted communication** — Send announcements to specific groups
-* **Reporting** — View training progress filtered by group
+* **Afdelingsorganisatie** — Groepeer gebruikers per afdeling of team
+* **Bulkinschrijving** — Voeg alle leden van een groep in één keer toe aan een cursus of sessie
+* **Gerichte communicatie** — Stuur aankondigingen naar specifieke groepen
+* **Rapportage** — Bekijk de voortgang van trainingen gefilterd per groep
 
-## Managing Groups
+## Groepen Beheren
 
-* **Edit** — Change the group name, description, or visibility
-* **Manage members** — Add or remove members
-* **Delete** — Remove the group (does not delete the member accounts)
+* **Bewerken** — Wijzig de groepsnaam, beschrijving of zichtbaarheid
+* **Leden beheren** — Voeg leden toe of verwijder ze
+* **Verwijderen** — Verwijder de groep (hiermee worden de ledenaccounts niet verwijderd)
