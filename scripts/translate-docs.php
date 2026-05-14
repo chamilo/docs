@@ -43,7 +43,8 @@ require_once $configFile;
 
 $apiKey  = $translationAPIKey      ?? '';
 $apiUrl  = $translationAPIEndpoint ?? 'https://api.x.ai/v1/chat/completions';
-$model   = $translationModel       ?? 'grok-3';
+//$model   = $translationModel       ?? 'grok-3';
+$model   = $translationModel       ?? 'grok-4-1-fast-non-reasoning';
 
 // Target size (bytes) for each API request chunk.
 // Pages are split at heading boundaries so no line or section is ever broken.
