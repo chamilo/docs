@@ -1,85 +1,85 @@
-# Surveys
+# 調查
 
-The survey tool lets you create questionnaires to collect feedback from your learners. Surveys are useful for course evaluations, needs assessments, and opinion polls.
+調查工具讓您建立問卷，以收集學生的回饋意見。調查非常適合用於課程評估、需求分析和意見調查。
 
-## Creating a Survey
+## 建立調查
 
-1. Open the **Surveys** <img src="/.gitbook/assets/icons/mdi-form-dropdown.svg" alt="Surveys" data-size="line"> tool from the course homepage
-2. Click **Create survey**
-3. Fill in the survey details:
-   * **Code** — This is a unique code for the survey. It will be used in mails and links.
-   * **Title** — The name of the survey
-   * **Subtitle** — An optional secondary heading
-   * **Start date** — From when this survey will be open to participation
-   * **End date** — Until when this survey will be open to participation
-   * **Anonymous** — Whether responses are anonymous or linked to individual learners
-   * **Results visibility** — Who can see the results (only coach, coach and students, everyone)
-   * **Introduction** — A message shown to learners before they start the survey
-   * **Thank you message** — A message shown after submission
-4. Save
+1. 在課程首頁開啟 **調查** 工具 <img src="/.gitbook/assets/icons/mdi-form-dropdown.svg" alt="調查" data-size="line">
+2. 點選 **建立調查**
+3. 填寫調查詳細資訊：
+   * **代碼** — 這是調查的唯一代碼，將用於電子郵件和連結。
+   * **標題** — 調查名稱
+   * **副標題** — 選填的副標題
+   * **開始日期** — 調查開始接受參與的時間
+   * **結束日期** — 調查停止接受參與的時間
+   * **匿名** — 回答是否為匿名，或與特定學生相關聯
+   * **結果可見性** — 誰可以看到結果（僅教師、教師與學生、所有人）
+   * **前言** — 在學生開始調查前顯示的訊息
+   * **感謝訊息** — 提交後顯示的訊息
+4. 儲存
 
-### Advanced settings
+### 進階設定
 
-* **Grade in the assessment tool** — Whether to include this survey's answer state in the assessment tool (gradebook). Anyone having completed the survey gets 100%, anyone else get 0%
-* **Parent survey** — Not really used at this point (legacy feature)
-* **One question per page** — Presentation style for the questions
-* **Enable shuffle mode** — Whether to shuffle questions
-* **Show question number** — Whether to show (auto-generated) question numbers
+* **在評估工具中計分** — 調查回答狀態是否納入評估工具（成績單）。完成調查的學生獲得 100%，未完成的學生獲得 0%
+* **父調查** — 目前未積極使用（舊功能）
+* **每頁一題** — 問題呈現樣式
+* **啟用隨機模式** — 問題是否隨機排序
+* **顯示問題編號** — 是否顯示自動產生的問題編號
 
-## Adding Questions
+## 新增問題
 
-Once the survey is created, add questions:
+建立調查後，新增問題：
 
-1. Choose the question type:
-   * **Yes/No** — A simple binary choice
-   * **Multiple choice** — Select one answer from several options
-   * **Multiple answer** — Select one or more answers from several options
-   * **Open-ended** — Free text response
-   * **Dropdown** — Select from a dropdown list
-   * **Percentage** — Choose a percentage value
-   * **Score** — Rate on a numeric scale
-   * **Comment** — A text block (not a question) for adding instructions between questions
-   * **Multiple choice with "other" option** — Select one answer from several options, with an alternative choice
-   * **Selective display** — Special type allowing you to adapt the flow of questions based on previous answers
-   * **Page break** — Add page breaks in the questions flow. Only useful if "One question per page" was **not** selected in the previous step
-2. Configure the question text and answer options
-3. Save
+1. 選擇問題類型：
+   * **是/否** — 簡單二元選擇
+   * **單選** — 從多個選項中選擇一個答案
+   * **複選** — 從多個選項中選擇一個或多個答案
+   * **開放問題** — 自由文字回答
+   * **下拉清單** — 從下拉清單中選擇
+   * **百分比** — 選擇百分比數值
+   * **評分** — 在數值範圍內給分
+   * **註解** — 文字區塊（非問題），用於在問題之間新增說明
+   * **單選含「其他」選項** — 從多個選項中選擇一個答案，並有替代選項
+   * **選擇性呈現** — 特殊類型，允許根據先前回答調整問題流程
+   * **分頁符** — 在問題流程中新增分頁符。只有在先前未選擇「每頁一題」選項時才有用
+2. 設定問題文字與回答選項
+3. 儲存
 
-Each question can be marked as mandatory. If you don't, skipping any question will be acceptable behaviour.
+每個問題都可以標記為必答。若非必答，則略過任何問題皆視為可接受行為。
 
-## Publishing a Survey
+## 發佈調查
 
-After adding all questions:
+新增所有問題後：
 
-1. Click **Publish**
-2. Choose the recipients — Select specific learners or groups (you select them). The **Add learners** button adds all the learners in one single push and leaves the teachers behind
-3. Add additional users — Lets you invite users from outside Chamilo to participate in the survey. They will receive an e-mail with a link and will appear by their e-mail address in the survey details
-4. Mail subject
-5. Mail text — Explain what the survey is about and when/how to answer
-6. Different options for repeat invitations are available
-7. Confirm
+1. 點選 **發佈**
+2. 選擇收件人 — 選擇特定學生或群組（依您選擇）。**新增學生** 按鈕將一次新增所有學生並排除教師
+3. 新增額外使用者 — 允許邀請 Chamilo 外部使用者參與調查。他們將收到含連結的電子郵件，並在調查詳細資訊中以電子郵件地址顯示
+4. 電子郵件主旨
+5. 電子郵件內容 — 說明調查內容以及何時/如何回答
+6. 提供不同的重新邀請選項
+7. 確認
 
-Learners receive an invitation (as an email) to complete the survey.
+學生將收到邀請（透過電子郵件）以完成調查。
 
-A link is available at the bottom of the publication page to invite even more external users to participate. Participants using this link will not be identified and appear as anonymous in the survey results.
+在發佈頁面底部有可供邀請更多外部使用者的連結。使用此連結的參與者無法被識別，並將在調查結果中顯示為匿名。
 
-## Viewing Results
+## 查看結果
 
-![Survey results with charts and percentage breakdowns for each question](/.gitbook/assets/survey-results-charts.png)
+![調查結果，包含每個問題的圖表與百分比](/.gitbook/assets/survey-results-charts.png)
 
-After learners have responded:
+學生回答後：
 
-1. Open the survey
-2. Click **Results** or **Report**
-3. View response summaries:
-   * Charts and percentages for closed questions
-   * Individual text responses for open-ended questions
-   * Completion rate (how many invitees responded)
+1. 開啟調查
+2. 點選 **結果** 或 **報告**
+3. 查看回答摘要：
+   * 封閉問題的圖表與百分比
+   * 開放問題的個別文字回答
+   * 完成率（多少邀請已回答）
 
-You can export results to a spreadsheet for further analysis.
+您可以將結果匯出至試算表以進行更深入分析。
 
-## Tips
+## 提示
 
-* **Keep it short** — Learners are more likely to complete shorter surveys
-* **Use anonymous mode** — For honest feedback, enable anonymous responses
-* **Time it right** — Send mid-course surveys to make adjustments, not just end-of-course evaluations
+* **保持簡短** — 學生更可能完成簡短的調查
+* **使用匿名模式** — 為獲得誠實回饋，啟用匿名回答
+* **選擇適當時機** — 在課程中段發送調查以進行調整，而非僅在課程結束時評估

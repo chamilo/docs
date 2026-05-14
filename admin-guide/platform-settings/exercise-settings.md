@@ -1,534 +1,534 @@
-# Exercises (Tests) Settings
+# 測驗（考試）設定
 
-Defaults and behaviour of the **Exercises (Tests)** tool — question display, scoring, attempts, and similar.
+**測驗（考試）** 工具的預設值與行為 — 題目顯示、計分、嘗試次數等。
 
-Access these settings under **Administration > Configuration settings > Exercises (Tests)**. This category contains **63 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+在 **管理 > 設定 > 測驗（考試）** 下存取這些設定。此類別包含 **63 個設定**，以下列出平台設定預設資料 (`SettingsCurrentFixtures.php`) 中提供的標題與註解。
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> 程式碼中的變數名稱以等寬字體顯示。使用 API 進行腳本編寫或需要透過編輯 [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml) 在全域層級變更這些設定時，請使用它。
 
-## Settings
+## 設定
 
 ### `add_exercise_best_attempt_in_report`
 
-**Enable display of best score attempt**
+**啟用顯示最佳分數嘗試**
 
-Provide a list of courses and tests' IDs that will show the best score attempt for any learner in the reports.
+提供課程與測驗 ID 清單，在報告中為任何學習者顯示最佳分數嘗試。
 
 ### `allow_coach_feedback_exercises`
 
-**Allow coaches to comment in review of exercises**
+**允許教師在測驗檢閱中評論**
 
-Allow coaches to edit feedback during review of exercises
+允許教師在測驗檢閱期間編輯回饋
 
-*Default: `true`*
+*預設值：`true`*
 
 ### `allow_edit_exercise_in_lp`
 
-**Allow teachers to edit tests in learning paths**
+**允許教師編輯學習路徑中的測驗**
 
-By default, Chamilo prevents you from editing tests that are included inside a learning path. This is to avoid changes that would affect learners (past and future) differently regarding the results and/or progress in the learning path. This option allows teachers to bypass this restriction.
-
+預設情況下，Chamilo 會防止您編輯包含在學習路徑中的測驗。這是為了避免變更對學習者（過去與未來）在學習路徑的結果和/或進度產生不同影響。此選項允許教師繞過此限制。
 
 ### `allow_exercise_categories`
 
-**Enable test categories**
+**啟用測驗類別**
 
-Test categories are not enabled by default because they add a level of complexity. Enable this feature to show all test categories related management icons appear.
+測驗類別預設未啟用，因為它們增加了複雜度。啟用此功能以顯示所有相關的測驗類別管理圖示。
 
-*Default: `false`*
+*預設值：`false`*
 
 ### `allow_mandatory_question_in_category`
 
-**Enable selecting mandatory questions**
+**啟用選擇必答題目**
 
-Enable the selection of mandatory questions in a test when using random categories.
+在測驗中使用隨機類別時，啟用選擇必答題目。
 
-*Default: `false`*
+*預設值：`false`*
 
 ### `allow_notification_setting_per_exercise`
 
-**Test notification settings at test-level**
+**測驗層級的通知設定**
 
-Enable the configuration of test submission notifications at the test level rather than the course level. Falls back to course-level settings if not defined at test-level.
+啟用在測驗層級而非課程層級設定測驗提交通知。若未在測驗層級定義，則回退至課程層級設定。
 
-*Default: `false`*
+*預設值：`false`*
 
 ### `allow_quick_question_description_popup`
 
-**Quick image addition to question**
+**快速新增題目圖片**
 
-Enable an additional icon in the test questions list to add an image as question description. This vastly accelerates question edition when the questions are in the title and the description only includes an image.
+在測驗題目清單中啟用額外圖示，以將圖片新增為題目描述。這大幅加速題目編輯，當題目位於標題且描述僅包含圖片時特別有效。
 
-*Default: `false`*
+*預設值：`false`*
 
 ### `allow_quiz_question_feedback`
 
-**Add question feedback if incorrect answer**
+**錯誤答案時新增題目回饋**
 
-By default, Chamilo allows you to show feedback on each answer in a question. With this option, an additional field is created to provide pre-defined feedback to the whole question. This feedback will only appear if the user answered incorrectly.
+預設情況下，Chamilo 允許您在題目中顯示每個答案的回饋。啟用此選項會建立額外欄位，為整個題目提供預定義回饋。此回饋僅在使用者答錯時顯示。
 
-*Default: `false`*
+*預設值：`false`*
 
 ### `allow_quiz_results_page_config`
 
-**Enable test results page configuration**
+**啟用測驗結果頁面設定**
 
-Define an array of settings you want to apply to all tests results pages. Settings can be ‘hide_question_score’, ‘hide_expected_answer’, ‘hide_category_table’, ‘hide_correct_answered_questions’, ‘hide_total_score’ and possibly more in the future. Look for ‘getPageConfigurationAttribute’ in the code to see what’s in use.
+定義您要套用至所有測驗結果頁面的設定陣列。設定可包括 ‘hide_question_score’、‘hide_expected_answer’、‘hide_category_table’、‘hide_correct_answered_questions’、‘hide_total_score’，未來可能新增更多。在程式碼中搜尋 ‘getPageConfigurationAttribute’ 以查看目前使用的設定。
 
-*Default: `false`*
+*預設值：`false`*
 
 ### `allow_quiz_show_previous_button_setting`
 
-**Show 'previous' button in test to navigate questions**
+**在測驗中顯示「上一個」按鈕以瀏覽題目**
 
-Set this to false to disable the 'previous' button when answering questions in a test, thus forcing users to always move ahead.
+將此設定為 false 以停用測驗中回答題目時的「上一個」按鈕，從而強制使用者始終向前移動。
 
-*Default: `false`*
+*預設值：`false`*
 
 ### `allow_teacher_comment_audio`
 
-**Audio feedback to submitted answers**
+**對提交答案提供音訊回饋**
 
-Allow teachers to provide feedback to users through audio (alternatively to text) on each question in a test.
+允許教師透過音訊（替代文字）為測驗中每個題目提供使用者回饋。
 
-*Default: `true`*
+*預設值：`true`*
 
 ### `allow_time_per_question`
 
-**Enable time per question in tests**
+**在測驗中啟用每題時間限制**
 
-By default, it is only possible to limit the time per test. Limiting it per question adds an extra layer of possibilities, and you can (carefully) combine both.
+預設情況下，只能限制每個測驗的時間。限制每題時間會增加額外可能性，且您可以（小心地）結合兩者。
 
-*Default: `false`*
+*預設值：`false`*
 
 ### `block_category_questions`
 
-**Lock questions of previous categories in a test**
+**鎖定測驗中先前類別的題目**
 
-When using this option, an additional option will appear in the test's configuration. When using a test with multiple question categories and asking for a distribution by category, this will allow the user to navigate questions per category. Once a category is finished, (s)he moves to the next category and cannot return to the previous category.
+使用此選項時，測驗設定中會出現額外選項。當測驗使用多個題目類別並要求依類別分配時，此功能允許使用者依類別瀏覽題目。完成一個類別後，使用者將移至下一個類別，且無法返回先前類別。
 
-*Default: `false`*
+*預設值：`false`*
 
 ### `block_quiz_mail_notification_general_coach`
 
-**Block sending test notifications to general coach**
+**停用向一般教師發送測驗通知**
 
-Learners completing a test usually sends notifications to coaches, including the general session coach. Enable this option to omit the general coach from these notifications.
+學習者完成測驗通常會向教師發送通知，包括一般課程教師。啟用此選項以從這些通知中排除一般教師。
 
-*Default: `false`*
+*預設值：`false`*
 
+---
 ### `configure_exercise_visibility_in_course`
 
-**Enable to bypass the configuration of Exercise invisible in session at a base course level**
+**啟用以繞過基底課程層級的課程中練習不可見於工作區的設定**
 
-To enable the configuration of the exercise invisibility in session in the base course to by pass the global configuration. If not set the global parameter is used.
+啟用基底課程中工作區練習不可見的設定，以繞過全域設定。若未設定，則使用全域參數。
 
-*Default: `false`*
+*預設值：`false`*
 
 ### `disable_clean_exercise_results_for_teachers`
 
-**Disable 'clean results' for teachers**
+**停用教師的「清除結果」功能**
 
-Disable the option to delete test results from the tests list. This is often used when less-careful teachers manage courses, to avoid critical mistakes.
+停用從測驗清單中刪除測驗結果的選項。此設定常用於管理課程時較不謹慎的教師，以避免嚴重錯誤。
 
-*Default: `true`*
+*預設值：`true`*
 
 ### `email_alert_manager_on_new_quiz`
 
-**Default e-mail alert setting on new quiz**
+**新測驗的預設電子郵件警示設定**
 
-Whether you want course managers (teachers) to be notified by e-mail when a quiz is answered by a student. This is the default value to be given to all new courses, but each teacher can still change this setting in his/her own course.
+決定是否在學生回答測驗時，以電子郵件通知課程管理員（教師）。這是提供給所有新課程的預設值，但每位教師仍可在自己的課程中變更此設定。
 
-*Default: `true`*
+*預設值：`true`*
 
 ### `enable_quiz_scenario`
 
-**Enable Quiz scenario**
+**啟用測驗情境**
 
-From here you will be able to create exercises that propose different questions depending in the user's answers.
+從此處您可以建立根據使用者答案提出不同問題的練習。
 
-*Default: `true`*
+*預設值：`true`*
 
 ### `exercise_additional_teacher_modify_actions`
 
-**Additional links for teachers in tests list**
+**測驗清單中教師的額外連結**
 
-Configure callback elements to generate new action icons for teachers to the right side of the tests list, in the form of an array, e.g. ['myplugin' => ['MyPlugin', 'urlGeneratorCallback']]
+設定回呼元素，以在測驗清單右側為教師產生新的動作圖示，以陣列形式，例如 ['myplugin' => ['MyPlugin', 'urlGeneratorCallback']]。
 
 ### `exercise_attempts_report_show_username`
 
-**Show username in test results page**
+**在測驗結果頁面顯示使用者名稱**
 
-Show the username (instead or, or as well as, the user info) on the test results page.
+在測驗結果頁面顯示使用者名稱（取代或連同使用者資訊）。
 
-*Default: `false`*
+*預設值：`false`*
 
 ### `exercise_category_report_user_extra_fields`
 
-**Add user extra fields in exercise category report**
+**在練習類別報告中新增使用者額外欄位**
 
-Define an array with the list of user extra fields to add to the report.
+定義一個陣列，列出要新增至報告的使用者額外欄位清單。
 
 ### `exercise_category_round_score_in_export`
 
-**Round score in test exports**
+**在測驗匯出中四捨五入分數**
 
-When enabled, test scores are rounded to the nearest integer when exporting exercise reports.
+啟用時，匯出練習報告時會將測驗分數四捨五入至最近整數。
 
-*Default: `false`*
+*預設值：`false`*
 
 ### `exercise_embeddable_extra_types`
 
-**Embeddable question types**
+**可嵌入題目類型**
 
-By default, only single answer and multiple answer questions are considered when deciding whether a test can be embedded in a video or not. With this option, you can decide that more question types are available. Be aware that not all question types fit nicely in the space assigned to videos. Questions types are availalble in the code in question.class.php.
+預設情況下，僅單選題和多選題在決定測驗是否可嵌入影片時被考慮。透過此選項，您可以決定更多題目類型可用。請注意，並非所有題目類型都適合影片分配的空間。題目類型可在 question.class.php 的程式碼中取得。
 
 ### `exercise_hide_ip`
 
-**Hide user IP from test reports**
+**在測驗報告中隱藏使用者 IP**
 
-By default, we show user information and its IP address, but this might be considered personal data, so this option allows you to remove this info from all test reports.
+預設顯示使用者資訊及其 IP 位址，但這可能被視為個人資料，因此此選項允許您從所有測驗報告中移除此資訊。
 
-*Default: `false`*
+*預設值：`false`*
 
 ### `exercise_hide_label`
 
-**Hide question ribbon (right/wrong) in test results**
+**在測驗結果中隱藏題目標籤（正確/錯誤）**
 
-In test results, a ribbon appears by default to indicate if the answer was right or wrong. Enable this option to remove the ribbon globally.
+在測驗結果中，預設會顯示標籤以指示答案是否正確。啟用此選項可全域移除標籤。
 
-*Default: `false`*
+*預設值：`false`*
 
 ### `exercise_invisible_in_session`
 
-**Exercise invisible in Session**
+**練習在工作區中不可見**
 
-If an exercise is visible in the base course then it appears invisible in the session. If an exercise is invisible in the base course then it does not appear in the session.
+若練習在基底課程中為可見，則在工作區中顯示為不可見。若練習在基底課程中為不可見，則不在工作區中顯示。
 
-*Default: `false`*
+*預設值：`false`*
 
 ### `exercise_max_editors_in_page`
 
-**Max editors in exercise result screen**
+**練習結果畫面中的最大編輯器數量**
 
-Because of the sheer number of questions that might appear in an exercise, the correction screen, allowing the teacher to add comments to each answer, might be very slow to load. Set this number to 5 to ask the platform to only show WYSIWYG editors up to a certain number of answers on the screen. This will speed up the correction page loading time considerably, but will remove WYSIWYG editors and leave only a plain text editor.
+由於練習可能包含大量題目，允許教師為每個答案新增註解的批改畫面可能載入緩慢。將此數字設為 5，可要求平台僅在畫面上顯示最多一定數量的 WYSIWYG 編輯器答案。這將大幅加速批改頁面載入時間，但會移除 WYSIWYG 編輯器並僅保留純文字編輯器。
 
-*Default: `0`*
+*預設值：`0`*
 
 
 ### `exercise_max_score`
 
-**Maximum score of exercises**
+**練習的最大分數**
 
-Define a maximum score (generally 10,20 or 100) for all the exercises on the platform. This will define how final results are shown to users and teachers.
+為平台上所有練習定義最大分數（通常為 10、20 或 100）。這將定義最終結果如何顯示給使用者和教師。
 
-*Default: `20`*
+*預設值：`20`*
 
 
 ### `exercise_min_score`
 
-**Minimum score of exercises**
+**練習的最小分數**
 
-Define a minimum score (generally 0) for all the exercises on the platform. This will define how final results are shown to users and teachers.
+為平台上所有練習定義最小分數（通常為 0）。這將定義最終結果如何顯示給使用者和教師。
 
-*Default: `0`*
+*預設值：`0`*
 
 
 ### `exercise_result_end_text_html_strict_filtering`
 
-**Bypass HTML filtering in test end messages**
+**繞過測驗結束訊息中的 HTML 篩選**
 
-Consider messages at the end of tests are always safe. Removing the filter makes it possible to use JavaScript there.
+視測驗結束訊息始終為安全的。移除篩選可讓您在其中使用 JavaScript。
 
-*Default: `false`*
+*預設值：`false`*
 
 
 ### `exercise_score_format`
 
-**Tests score format**
+**測驗分數格式**
 
-Select between the following forms for the display of users' score in various reports: 1 = SCORE_AVERAGE (5 / 10); 2 = SCORE_PERCENT (50%); 3 = SCORE_DIV_PERCENT (5 / 10 (50%)). Use the numerical ID of the form you want to use.
+在各種報告中選擇使用者分數顯示格式：1 = SCORE_AVERAGE (5 / 10)；2 = SCORE_PERCENT (50%)；3 = SCORE_DIV_PERCENT (5 / 10 (50%))。使用您想要格式的數字 ID。
 
-*Default: `0`*
+*預設值：`0`*
 
 ### `exercises_disable_new_attempts`
 
-**Disable new test attempts**
+**停用新測驗嘗試**
 
-Disable new test attempts globally. Usually used when there is a problem with tests in general and you want some time to analyse without blocking the whole platform.
+全域停用新測驗嘗試。通常在測驗整體出現問題時使用，讓您有時間分析而不需封鎖整個平台。
 
-*Default: `false`*
+*預設值：`false`*
 
-
+---
 ### `hide_free_question_score`
 
-**Hide open questions' score**
+**隱藏開放題的分數**
 
-Hide the fact that open questions (including audio and annotations) have a score by hiding the score display in all learner-facing reports.
+隱藏開放題（包括音頻和註解）的分數事實，透過在所有面向學習者的報告中隱藏分數顯示。
 
-*Default: `false`*
+*預設：`false`*
 
 
 ### `hide_user_info_in_quiz_result`
 
-**Hide user info on test results page**
+**在測驗結果頁面隱藏使用者資訊**
 
-The default test results page shows a user datasheet (photo, name, etc) which might, in some contexts, be considered as pushing the limits of personal data treatment. Enable this option to remove user details from the test results.
+預設的測驗結果頁面會顯示使用者資料表（照片、姓名等），在某些情境下，這可能被視為個人資料處理的極限。啟用此選項可從測驗結果中移除使用者詳細資訊。
 
-*Default: `false`*
+*預設：`false`*
 
 
 ### `limit_exercise_teacher_access`
 
-**Limit teachers' permissions over tests**
+**限制教師對測驗的權限**
 
-When enabled, teachers cannot delete tests nor questions, change tests visibility, download to QTI, clean results, etc.
+啟用時，教師無法刪除測驗或題目、變更測驗可見性、下載至 QTI、清空結果等。
 
-*Default: `false`*
+*預設：`false`*
 
 
 ### `my_courses_show_pending_exercise_attempts`
 
-**Global pending tests list**
+**全域待處理測驗清單**
 
-Enable to display to the final user a page with the list of pending tests across all courses.
+啟用後，向最終使用者顯示跨所有課程的待處理測驗清單頁面。
 
-*Default: `false`*
+*預設：`false`*
 
 
 ### `question_exercise_html_strict_filtering`
 
-**Bypass HTML filtering in test questions**
+**繞過測驗題目中的 HTML 篩選**
 
-Consider questions text in tests are always safe. Removing the filter makes it possible to use JavaScript there.
+視測驗中的題目文字為永遠安全。移除篩選可讓其使用 JavaScript。
 
-*Default: `false`*
+*預設：`false`*
 
 
 ### `question_pagination_length`
 
-**Question pagination length for teachers**
+**教師題目分頁長度**
 
-Number of questions to show on every page when using the question pagination for teachers option.
+使用教師題目分頁選項時，每頁顯示的題目數量。
 
-*Default: `20`*
+*預設：`20`*
 
 
 ### `quiz_answer_extra_recording`
 
-**Enable extra test answers recording**
+**啟用額外測驗答案記錄**
 
-Enable recording of all answers (even temporary) in the track_e_attempt_recording table. This feautre is experimentaland can create issues in the reporting pages when attempting to grade a test.
+啟用在 `track_e_attempt_recording` 資料表中記錄所有答案（即使是暫時的）。此功能為實驗性，可能在嘗試評分測驗時於報告頁面造成問題。
 
-*Default: `false`*
+*預設：`false`*
 
 
 ### `quiz_check_all_answers_before_end_test`
 
-**Check all answers before submitting test**
+**提交測驗前檢查所有答案**
 
-Display a popup with the list of answered/unanswered questions before submitting the test.
+在提交測驗前顯示彈出視窗，列出已回答/未回答的題目。
 
-*Default: `false`*
+*預設：`false`*
 
 
 ### `quiz_check_button_enable`
 
-**Add answer-saving process check before test**
+**在測驗前新增答案儲存程序檢查**
 
-Make sure users are all set to start the test by providing a simulation of the question-saving process before entering the test. This allows for early detection of some connection issues and reduces user experience frictions.
+透過在進入測驗前提供題目儲存程序的模擬，確保使用者已準備好開始測驗。這可及早偵測某些連線問題並減少使用者體驗摩擦。
 
-*Default: `false`*
+*預設：`false`*
 
 
 ### `quiz_confirm_saved_answers`
 
-**Add checkbox for answers count confirmation**
+**新增答案數量確認核取方塊**
 
-This option adds a checkbox at the end of each test asking the user to confirm the number of answers saved. This provides better auditing data for critical tests.
+此選項在每個測驗結束時新增一個核取方塊，要求使用者確認已儲存的答案數量。這可為關鍵測驗提供更好的稽核資料。
 
-*Default: `false`*
+*預設：`false`*
 
 
 ### `quiz_discard_orphan_in_course_export`
 
-**Discard orphan questions in course export**
+**在課程匯出時捨棄孤立題目**
 
-When exporting a course, do not export the questions that are not part of any test.
+匯出課程時，不匯出不屬於任何測驗的題目。
 
-*Default: `false`*
+*預設：`false`*
 
 
 ### `quiz_generate_certificate_ending`
 
-**Generate certificate on test end**
+**測驗結束時產生證書**
 
-Generate certificate when ending a quiz. The quiz needs to be linked in the gradebook tool and have a pass percentage configured.
+在結束測驗時產生證書。測驗需連結至成績簿工具並設定及格百分比。
 
-*Default: `false`*
+*預設：`false`*
 
 
 ### `quiz_hide_attempts_table_on_start_page`
 
-**Hide test attempts table on test start page**
+**在測驗起始頁面隱藏嘗試表格**
 
-Hide the table showing all previous attempts on the test start page.
+隱藏測驗起始頁面顯示所有先前嘗試的表格。
 
-*Default: `false`*
+*預設：`false`*
 
 
 ### `quiz_hide_question_number`
 
-**Hide question number**
+**隱藏題目編號**
 
-Hide the question incremental numbering when taking a test.
+在進行測驗時隱藏題目的遞增編號。
 
-*Default: `false`*
+*預設：`false`*
 
 
 ### `quiz_image_zoom`
 
-**Enable test images zooming**
+**啟用測驗圖片縮放**
 
-Enable this feature to allow users to zoom on images used in the tests.
+啟用此功能，讓使用者可縮放測驗中使用的圖片。
 
 ### `quiz_keep_alive_ping_interval`
 
-**Keep session active in tests**
+**在測驗中保持工作階段活躍**
 
-Keep session active by maintaining a regular ping signal to the server every x seconds, define here. We recommend once every 300 seconds.
+透過每 x 秒向伺服器發送定期 ping 訊號來保持工作階段活躍，在此定義。我們建議每 300 秒一次。
 
-*Default: `0`*
+*預設：`0`*
 
 
 ### `quiz_open_question_decimal_score`
 
-**Decimal score in open question types**
+**開放題類型的小數分數**
 
-Allow the teacher to rate the open, oral expression and annotation question types with a decimal score.
+允許教師以小數分數評分開放題、口語表達和註解題類型。
 
-*Default: `false`*
+*預設：`false`*
 
 
 ### `quiz_prevent_copy_paste`
 
-**Block copy-pasting in tests**
+**在測驗中封鎖複製貼上**
 
-Block copy/paste/save/print keys and right-clicks in exercises.
+在測驗中封鎖複製/貼上/儲存/列印按鍵及右鍵點擊。
 
-*Default: `false`*
+*預設：`false`*
 
 
 ### `quiz_question_delete_automatically_when_deleting_exercise`
 
-**Automatically delete questions when deleting test**
+**刪除測驗時自動刪除題目**
 
-The default behaviour is to make questions orphan when the only test using them is deleted. When enabled, this option ensure that all questions that would otherwise end up orphan are deleted as well.
+預設行為是在刪除唯一使用這些題目的測驗時，使題目成為孤立。啟用此選項可確保所有原本會成為孤立的題目一併刪除。
 
-*Default: `false`*
+*預設：`false`*
 
 
 ### `quiz_results_answers_report`
 
-**Show link to download test results**
+**顯示下載測驗結果連結**
 
-On the test results page, display a link to download the results as a file.
+在測驗結果頁面顯示下載結果為檔案的連結。
 
-*Default: `false`*
+*預設：`false`*
 
 
 ### `quiz_show_description_on_results_page`
 
-**Always show test description on results page**
+**在結果頁面始終顯示測驗描述**
 
-When enabled, the test description is always displayed on the results page after test completion.
+啟用時，測驗完成後的結果頁面始終顯示測驗描述。
 
-*Default: `false`*
+*預設：`false`*
 
 
 ### `score_grade_model`
 
-**Score grades model**
+**分數等級模型**
 
-Define an array of score ranges and colors to display reports using this model. This allows you to show colors rather than numerical grades.
+定義分數範圍和顏色的陣列，用以使用此模型顯示報告。這可讓您顯示顏色而非數值等級。
 
+---
 ### `send_score_in_exam_notification_mail_to_manager`
 
-**Add score in mail notification of test submission**
+**在測驗提交的郵件通知中新增分數**
 
-Add the learner's score to the e-mail notification sent to the teacher after a test was submitted.
+在測驗提交後發送給教師的電子郵件通知中，加入學習者的分數。
 
-*Default: `false`*
+*預設值：`false`*
 
 
 ### `show_exercise_attempts_in_all_user_sessions`
 
-**Show test attempts from all sessions in pending tests report**
+**在待處理測驗報告中顯示所有工作坊的測驗嘗試**
 
-Show test attempts from users in all sessions where the general coach has access in pending tests report.
+在待處理測驗報告中，顯示一般導師有權存取的所有工作坊中的使用者測驗嘗試。
 
-*Default: `false`*
+*預設值：`false`*
 
 
 ### `show_exercise_expected_choice`
 
-**Show expected choice in test results**
+**在測驗結果中顯示預期選項**
 
-Show the expected choice and a status (right/wrong) for each answer on the test results page (if the test has been configured to show results).
+在測驗結果頁面（如果測驗已設定顯示結果）中，顯示每個答案的預期選項以及狀態（正確/錯誤）。
 
-*Default: `false`*
+*預設值：`false`*
 
 
 ### `show_exercise_question_certainty_ribbon_result`
 
-**Show score for certainty degree questions**
+**顯示確定度題目分數**
 
-By default, Chamilo does not show a score for the certainty degree question types.
+預設情況下，Chamilo 不會顯示確定度題目類型的分數。
 
-*Default: `false`*
+*預設值：`false`*
 
 
 ### `show_exercise_session_attempts_in_base_course`
 
-**Show test attempts from all sessions in base course**
+**在基礎課程中顯示所有工作坊的測驗嘗試**
 
-Show test attempts from users in all sessions to the teacher in the base course.
+向基礎課程中的教師顯示所有工作坊中，使用者的測驗嘗試。
 
-*Default: `false`*
+*預設值：`false`*
 
 
 ### `show_official_code_exercise_result_list`
 
-**Display official code in exercises results**
+**在測驗結果中顯示官方代碼**
 
-Whether to show the students' official code in the exercises results reports
+是否在測驗結果報告中顯示學生的官方代碼
 
-*Default: `false`*
+*預設值：`false`*
+
 
 ### `show_question_id`
 
-**Show question IDs in tests**
+**在測驗中顯示題目 ID**
 
-Show questions' internal IDs to let users take note of issues on specific questions and report them more efficiently.
+顯示題目的內部 ID，讓使用者記錄特定題目的問題並更有效地回報。
 
-*Default: `false`*
+*預設值：`false`*
 
 
 ### `show_question_pagination`
 
-**Show question pagination for teachers**
+**為教師顯示題目分頁**
 
-For tests with many questions, use pagination if the number of questions is higher than this setting. Set to 0 to prevent using pagination.
+對於題目數量眾多的測驗，如果題目數量超過此設定值，則使用分頁。設為 0 以停用分頁。
 
-*Default: `100`*
+*預設值：`100`*
 
 
 ### `tracking_my_progress_show_deleted_exercises`
 
-**Show deleted tests in 'My progress'**
+**在「我的進度」中顯示已刪除測驗**
 
-Enable this option to display, on the 'My progress' page, the results of all tests you have taken, even the ones that have been deleted.
+啟用此選項，即可在「我的進度」頁面顯示您已參與的所有測驗結果，即使是已刪除的測驗。
 
-*Default: `false`*
-
-
+*預設值：`false`*

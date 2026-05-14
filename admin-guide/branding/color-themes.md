@@ -1,26 +1,26 @@
-# Color Themes
+# 色彩主題
 
-Chamilo 2.0 introduces a color theme system that lets you customize the visual appearance of the platform.
+Chamilo 2.0 引入了色彩主題系統，讓您可以自訂平台的視覺外觀。
 
-## How Themes Work
+## 主題如何運作
 
-Color themes define the palette used across the Chamilo interface — primary colors, accent colors, backgrounds, and text colors. A theme is associated to an access URL: in a single-URL portal it effectively becomes the global theme, and in a multi-URL setup each URL can have its own.
+色彩主題定義了 Chamilo 介面中使用的調色板，包括主要顏色、強調顏色、背景色和文字顏色。一個主題與一個存取 URL 相關聯：在單一 URL 入口網站中，它實際上成為全局主題；而在多 URL 設置中，每個 URL 可以擁有自己的主題。
 
-## Applying a Theme
+## 套用主題
 
-![The color themes page showing available themes with preview swatches and an Apply button](/.gitbook/assets/admin-color-themes.png)
+![色彩主題頁面顯示可用主題，包含預覽色樣和套用按鈕](/.gitbook/assets/admin-color-themes.png)
 
-1. From the administration panel, navigate to **Color themes**
-2. Browse the available themes
-3. Select a theme and click **Apply**
-4. The theme is immediately applied to the platform
+1. 從管理面板中，導航至 **色彩主題**
+2. 瀏覽可用的主題
+3. 選擇一個主題並點擊 **套用**
+4. 主題將立即套用至平台
 
-## Per-URL Themes
+## 按 URL 設定的主題
 
-In a multi-URL setup, each access URL can have its own color theme. This allows different portals to have distinct visual identities while sharing the same Chamilo installation.
+在多 URL 設置中，每個存取 URL 可以擁有自己的色彩主題。這允許不同的入口網站在共享同一 Chamilo 安裝的同時，擁有獨特的視覺識別。
 
-## Tips
+## 小提示
 
-* **Match your brand** — Choose or customize a theme that matches your organization's brand colors
-* **Test readability** — After applying a theme, check that text is readable against background colors, especially in high-contrast situations
-* **Consider accessibility** — Ensure sufficient color contrast for users with visual impairments
+* **符合您的品牌** — 選擇或自訂一個與您組織品牌顏色相符的主題
+* **測試可讀性** — 套用主題後，檢查文字在背景顏色上的可讀性，特別是在高對比度的情況下
+* **考慮無障礙性** — 確保顏色對比度足夠，以便視覺障礙的使用者也能使用

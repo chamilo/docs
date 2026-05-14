@@ -1,202 +1,205 @@
-# Display Settings
+# 顯示設定
 
-How the platform is displayed to users — homepage layout, gravatar, menus, branding behaviour and similar visual preferences.
+平台向使用者顯示的方式 — 首頁版面配置、Gravatar、選單、品牌行為以及類似的視覺偏好。
 
-Access these settings under **Administration > Configuration settings > Display**. This category contains **24 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+在 **管理 > 設定值 > 顯示** 下存取這些設定。此類別包含 **24 個設定**，以下列出平台設定預設值 (`SettingsCurrentFixtures.php`) 中提供的標題與註解。
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> 程式碼中的變數名稱以等寬字體顯示。使用 API 進行腳本編寫，或需透過編輯 [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml) 在全域層級變更這些設定時，請使用該名稱。
 
-## Settings
+## 設定
 
 ### `accessibility_font_resize`
 
-**Font resize accessibility feature**
+**字體大小調整無障礙功能**
 
-Enable this option to show a set of font resize options on the top-right side of your campus. This will allow visually impaired to read their course contents more easily.
+啟用此選項可在校園頂端右側顯示一組字體大小調整選項。這將讓視覺障礙使用者更容易閱讀課程內容。
 
-*Default: `false`*
+*預設值：`false`*
 
 ### `display_categories_on_homepage`
 
-**Display categories on home page**
+**在首頁顯示分類**
 
-This option will display or hide courses categories on the portal home page
+此選項將顯示或隱藏入口網站首頁上的課程分類
 
-*Default: `false`*
+*預設值：`false`*
 
 ### `enable_help_link`
 
-**Enable help link**
+**啟用說明連結**
 
-The Help link is located in the top right part of the screen
+說明連結位於螢幕頂端右側
 
-*Default: `true`*
+*預設值：`true`*
 
 ### `gravatar_enabled`
 
-**Gravatar user pictures**
+**Gravatar 使用者圖片**
 
-Enable this option to search into the Gravatar repository for pictures of the current user, if the user hasn't defined a picture locally. This is great to auto-fill pictures on your site, in particular if your users are active internet users. Gravatar pictures can be configured easily, based on the e-mail address of a user, at http://en.gravatar.com/
+啟用此選項以在 Gravatar 儲存庫中搜尋目前使用者的圖片（如果使用者未在本機定義圖片）。這非常適合自動填入網站上的圖片，特別是當您的使用者為活躍的網際網路使用者時。Gravatar 圖片可輕鬆根據使用者的電子郵件地址在 http://en.gravatar.com/ 配置。
 
-*Default: `false`*
+*預設值：`false`*
 
 ### `gravatar_type`
 
-**Gravatar avatar type**
+**Gravatar 頭像類型**
 
-If the Gravatar option is enabled and the user doesn't have a picture configured on Gravatar, this option allows you to choose the type of avatar that Gravatar will generate for each user. Check <a href='http://en.gravatar.com/site/implement/images#default-image'>http://en.gravatar.com/site/implement/images#default-image</a> for avatar types examples.
+如果啟用 Gravatar 選項且使用者未在 Gravatar 上配置圖片，此選項可讓您選擇 Gravatar 為每個使用者產生的頭像類型。請參閱 <a href='http://en.gravatar.com/site/implement/images#default-image'>http://en.gravatar.com/site/implement/images#default-image</a> 查看頭像類型範例。
 
-*Default: `mm`*
+*預設值：`mm`*
 
 ### `hide_complete_name_in_whoisonline`
 
-**Hide the complete username in 'who is online'**
+**在「誰在線上」中隱藏完整使用者名稱**
 
-The 'who is online' page (if enabled) will show a picture and a name for each user currently online. Enable this option to hide the names.
+「誰在線上」頁面（如果啟用）將顯示目前線上每個使用者的圖片與名稱。啟用此選項以隱藏名稱。
 
-*Default: `false`*
+*預設值：`false`*
 
 ### `hide_logout_button`
 
-**Hide logout button**
+**隱藏登出按鈕**
 
-Hide the logout button. This is usually only interesting when using an external login/logout method, for example when using Single Sign On of some sort.
+隱藏登出按鈕。這通常僅在使用外部登入/登出方法時才有意義，例如使用某種單一登入。
 
-*Default: `false`*
+*預設值：`false`*
 
 ### `hide_main_navigation_menu`
 
-**Hide main navigation menu**
+**隱藏主要導覽選單**
 
-When using Chamilo for a specific purpose (like one massive online exam), you might want to reduce distraction even more by removing the side menu.
+當使用 Chamilo 進行特定目的（例如一次大型線上考試）時，您可能希望透過移除側邊選單進一步減少干擾。
 
-*Default: `false`*
+*預設值：`false`*
 
 ### `hide_social_media_links`
 
-**Hide social media links**
+**隱藏社群媒體連結**
 
-Some pages allow you to promote the portal or a course on social networks. Enable this setting to remove the links.
+某些頁面允許您在社群網路推廣入口網站或課程。啟用此設定以移除這些連結。
 
-*Default: `false`*
+*預設值：`false`*
 
 ### `order_user_list_by_official_code`
 
-**Order users by official code**
+**依官方代碼排序使用者**
 
-Use the 'official code' to sort most students list on the platform, instead of their lastname or firstname.
+使用「官方代碼」排序平台上大多數學生清單，而非姓氏或名字。
 
-*Default: `false`*
+*預設值：`false`*
 
 ### `pdf_logo_header`
 
-**PDF header logo**
+**PDF 標頭圖示**
 
-Whether to use the image at var/themes/[your-theme]/images/pdf_logo_header.png as the PDF header logo for all PDF exports (instead of the normal portal logo)
+是否使用 var/themes/[your-theme]/images/pdf_logo_header.png 圖像作為所有 PDF 匯出的 PDF 標頭圖示（而非一般入口網站圖示）
 
 ### `show_admin_toolbar`
 
-**Show admin toolbar**
+**顯示管理員工具列**
 
-Shows a global toolbar on top of the page to the designated user roles. This toolbar, very similar to Wordpress and Google's black toolbars, can really speed up complicated actions and improve the space you have available for the learning content, but it might be confusing for some users
+向指定使用者角色顯示頁面頂端的全球工具列。此工具列類似 Wordpress 和 Google 的黑色工具列，能真正加速複雜動作並改善學習內容可用空間，但可能會讓某些使用者感到困惑
 
-*Default: `do_not_show`*
+*預設值：`do_not_show`*
 
 ### `show_back_link_on_top_of_tree`
 
-**Show back links from categories/courses**
+**顯示分類/課程的返回連結**
 
-Show a link to go back in the courses hierarchy. A link is available at the bottom of the list anyway.
+顯示返回課程階層的連結。清單底部無論如何都有一個連結可用。
 
-*Default: `false`*
+*預設值：`false`*
 
 ### `show_closed_courses`
 
-**Display closed courses on login page and portal start page?**
+**在登入頁面和入口網站首頁顯示已關閉課程？**
 
-Display closed courses on the login page and courses start page? On the portal start page an icon will appear next to the courses to quickly subscribe to each courses. This will only appear on the portal's start page when the user is logged in and when the user is not subscribed to the portal yet.
+在登入頁面和課程首頁顯示已關閉課程？在入口網站首頁，課程旁將出現圖示以快速訂閱每個課程。此功能僅在使用已登入且尚未訂閱入口網站時於入口網站首頁顯示。
 
-*Default: `false`*
+*預設值：`false`*
 
 ### `show_email_addresses`
 
-**Show email addresses**
+**顯示電子郵件地址**
 
-Show email addresses to users
+向使用者顯示電子郵件地址
 
-*Default: `false`*
+*預設值：`false`*
 
 ### `show_empty_course_categories`
 
-**Show empty courses categories**
+**顯示空的課程分類**
 
-Show the categories of courses on the homepage, even if they're empty
+即使分類為空，也在首頁顯示課程分類
 
-*Default: `true`*
+*預設值：`true`*
 
 ### `show_hot_courses`
 
-**Show hot courses**
+**顯示熱門課程**
 
-The hot courses list will be added in the index page
+熱門課程清單將新增至首頁
 
-*Default: `true`*
+*預設值：`true`*
 
 ### `show_number_of_courses`
 
-**Show courses number**
+**顯示課程數量**
 
-Show the number of courses in each category in the courses categories on the homepage
+在首頁的課程分類中顯示每個分類的課程數量
 
-*Default: `false`*
+*預設值：`false`*
 
+###
+
+---
 ### `show_tabs`
 
-**Main menu entries**
+**主要選單項目**
 
-Check the entrie you want to see appear in the main menu
+勾選您希望在主要選單中顯示的項目
 
-*Default:*
+*預設值：*
 ```json
 {"menu":{"campus_homepage":true,"my_courses":true,"reporting":true,"platform_administration":true,"my_agenda":true,"social":true,"videoconference":false,"diagnostics":false,"catalogue":true,"session_admin":true,"search":true,"question_manager":false},"topbar":{"topbar_my_certificates":true,"topbar_my_custom_certificate":false,"topbar_skills":true}}
 ```
 
 ### `show_tabs_per_role`
 
-**Main menu entries per role**
+**依角色設定的主要選單項目**
 
-Define header tabs visibility per role.
+依角色定義標頭分頁的顯示狀態。
 
-*Default: `{}`*
+*預設值：`{}`*
 
 ### `showonline`
 
-**Who's Online**
+**誰在線上**
 
-Display the number of persons that are online?
+顯示目前在線上的人數嗎？
 
-*Default: `world`*
+*預設值：`world`*
 
 ### `table_default_row`
 
-**Default number of table rows**
+**表格預設行數**
 
-How many rows should be shown in all tables by default.
+所有表格預設應顯示多少行。
 
-*Default: `20`*
+*預設值：`20`*
 
 ### `table_row_list`
 
-**Default offered pagination numbers in tables**
+**表格預設提供的分頁選項數字**
 
-Set the options you want to appear in the navigation around a table to show less or more rows on one page. e.g. [50, 100, 200, 500].
+設定您希望在表格周圍的導覽中顯示的選項，以在單頁顯示更少或更多的行。例如 [50, 100, 200, 500]。
 
-*Default: `[10,20,50,100]`*
+*預設值：`[10,20,50,100]`*
 
 ### `time_limit_whosonline`
 
-**Time limit on Who Is Online**
+**誰在線上的時間限制**
 
-This time limit defines for how many minutes after his last action a user will be considered *online*
+此時間限制定義使用者在其最後動作後多少分鐘內仍被視為*在線上*
 
-*Default: `30`*
+*預設值：`30`*

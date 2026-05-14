@@ -1,10 +1,10 @@
-# Tech Stack
+# 技術堆疊
 
-The following describes the tech stack for Chamilo 2.0. All versions stated here are likely to change as new versions of Chamilo are released. Version numbers use [Composer's versions notation](https://getcomposer.org/doc/articles/versions.md) which set rules to allow for some flexibility around versions.
+以下描述 Chamilo 2.0 的技術堆疊。此處列出的所有版本隨著新版 Chamilo 的發佈可能會有所變更。版本號碼使用 [Composer's versions notation](https://getcomposer.org/doc/articles/versions.md)，該註記法設定了允許版本周圍某些彈性的規則。
 
-Including hierarchical dependencies, Chamilo uses several hundred Free Software libraries. This list only includes the ones we use the most and that will likely affect the work of a Chamilo developer every week or so. We are greatful to all other Free Software developers out there making ou work easier, more maintainable and more secure.
+包含階層式依賴關係，Chamilo 使用數百個自由軟體程式庫。此清單僅包含我們最常使用且可能每週左右影響 Chamilo 開發者工作的程式庫。我們感謝所有其他自由軟體開發者，讓我們的工作更容易維護且更安全。
 
-## Backend
+## 後端
 
 | Technology | Version | Purpose |
 |-----------|---------|---------|
@@ -23,7 +23,7 @@ Including hierarchical dependencies, Chamilo uses several hundred Free Software 
 | bigbluebutton/bigbluebutton-api-php | ^2.0 | BigBlueButton integration |
 | packbackbooks/lti-1p3-tool | ^6.4 | LTI 1.3 implementation |
 
-## Frontend
+## 前端
 
 | Technology | Version | Purpose |
 |-----------|---------|---------|
@@ -39,7 +39,7 @@ Including hierarchical dependencies, Chamilo uses several hundred Free Software 
 | Uppy | ^4.5 | File upload widget |
 | PrimeFlex | ^4.0 | CSS utility framework |
 
-## Build Tools
+## 建置工具
 
 | Technology | Version | Purpose |
 |-----------|---------|---------|
@@ -52,24 +52,24 @@ Including hierarchical dependencies, Chamilo uses several hundred Free Software 
 | ESLint | ^10.0 | Linting |
 | Prettier | 3.8 | Code formatting |
 
-## Icons
+## 圖示
 
 | Library | Version | Usage |
 |---------|---------|-------|
 | @mdi/font | 7.4.47 | Material Design Icons (CSS classes `mdi mdi-*`) |
 
-## Database
+## 資料庫
 
-Chamilo supports:
+Chamilo 支援：
 
 * MySQL 5.7+
 * MariaDB 10.11.2+
 
-## Cloud Storage
+## 雲端儲存
 
-Via Flysystem adapters:
+透過 Flysystem 適配器：
 
-* Local filesystem (default)
+* 本地檔案系統 (預設)
 * AWS S3 (`league/flysystem-aws-s3-v3`)
 * Azure Blob Storage (`league/flysystem-azure-blob-storage`)
 * Google Cloud Storage (`league/flysystem-google-cloud-storage`)

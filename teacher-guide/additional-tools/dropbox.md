@@ -1,34 +1,34 @@
 # Dropbox
 
-The dropbox is a file exchange tool that allows you and your learners to share files with each other within the course.
+Dropbox 是一個檔案交換工具，允許您與學習者在課程內互相分享檔案。
 
-> For collecting graded student work, the [Assignments](../assessing-learners/assignments.md) tool is usually more appropriate, as it includes grading and feedback features. The dropbox is better suited for informal file sharing.
+> 對於收集有評分的學生作業，[作業](../assessing-learners/assignments.md) 工具通常更合適，因為它包含評分和回饋功能。Dropbox 更適合非正式的檔案分享。
 
-## Sending a File
+## 發送檔案
 
-1. Open the **Dropbox** tool from the course homepage
-2. Click **Share a new file**
-3. Select the file to upload
-4. Choose the **recipient(s)** — one or more enrolled users or course groups
-5. Send
+1. 從課程首頁開啟 **Dropbox** 工具
+2. 點擊 **分享新檔案**
+3. 選擇要上傳的檔案
+4. 選擇 **收件人** — 一名或多名已註冊使用者或課程群組
+5. 發送
 
-## Receiving Files
+## 接收檔案
 
-When someone sends you a file, it appears in your dropbox inbox. You can:
+當有人發送檔案給您時，它會出現在您的 Dropbox 收件匣中。您可以：
 
-* **Download** the file
-* **Add a comment** to the file (after it has been received)
-* **Move** the file into one of your categories
-* **Delete** the file from your inbox
+* **下載** 檔案
+* **新增留言** 到檔案（在檔案收到後）
+* **移動** 檔案到您的分類之一
+* **從收件匣刪除** 檔案
 
-## Organizing files
+## 組織檔案
 
-Both sent and received files can be organized into custom **categories** (folders). Use the category controls in the dropbox toolbar to create a category, then move files into it. If the platform setting "allow overwrite" is enabled, re-sending a file with the same name lets you overwrite the previous version.
+已發送和已接收的檔案都可以組織到自訂的 **分類**（資料夾）中。使用 Dropbox 工具列中的分類控制項來建立分類，然後將檔案移動到其中。如果平台設定「允許覆寫」已啟用，則重新發送同名檔案可以覆寫先前的版本。
 
-You can also batch-download selected files as a ZIP.
+您也可以批次下載選取的檔案為 ZIP 檔。
 
-## As a Teacher
+## 身為教師
 
-* You can send files to individual learners, groups of learners, or all enrolled users
-* You can view files sent to you by learners
-* This tool is useful for sharing supplementary materials, providing individual feedback documents, or receiving informal submissions
+* 您可以將檔案發送給個別學習者、學習者群組或所有已註冊使用者
+* 您可以檢視學習者發送給您的檔案
+* 此工具可用於分享補充教材、提供個別回饋文件，或接收非正式提交

@@ -1,53 +1,53 @@
-# Backups
+# 備份
 
-Regular backups are essential for protecting your Chamilo data. This page covers what to back up and how.
+定期備份對於保護您的 Chamilo 資料至關重要。本頁涵蓋要備份的內容以及如何進行備份。
 
-## What to Back Up
+## 要備份的內容
 
-### 1. Database
+### 1. 資料庫
 
-The Chamilo database contains all platform data: users, courses, tracking, grades, messages, and settings. This is the most critical component to back up.
+Chamilo 資料庫包含所有平台資料：使用者、課程、追蹤、成績、訊息以及設定。這是最關鍵的備份元件。
 
-**How to back up:**
+**備份方式：**
 
 ```bash
 mysqldump -u username -p chamilo_database > chamilo_backup_$(date +%Y%m%d).sql
 ```
 
-### 2. Files
+### 2. 檔案
 
-Chamilo stores uploaded files (documents, images, SCORM packages) in the filesystem. The key directories to back up:
+Chamilo 將上傳的檔案（文件、圖像、SCORM 套件）儲存在檔案系統中。要備份的關鍵目錄：
 
-* `var/` — Uploaded files and resources
-* `public/plugin/` — Plugin files (only if you have added custom plugins)
+* `var/` — 上傳的檔案和資源
+* `public/plugin/` — 外掛檔案（僅在您新增自訂外掛時）
 
-If you use cloud storage (S3, Azure Blob), ensure your cloud provider's backup/versioning is enabled.
+如果您使用雲端儲存（S3、Azure Blob），請確保您的雲端提供者的備份/版本控制已啟用。
 
-### 3. Configuration
+### 3. 設定
 
-* `.env` — Your environment configuration
-* `config/` — Any custom configuration files
+* `.env` — 您的環境設定
+* `config/` — 任何自訂設定檔案
 
-## Backup Schedule
+## 備份排程
 
-| Component | Recommended frequency |
-|-----------|---------------------|
-| Database | Daily |
-| Files | Daily or weekly (depending on upload activity) |
-| Configuration | After any configuration change |
+| 元件 | 建議頻率 |
+|------|----------|
+| 資料庫 | 每日 |
+| 檔案 | 每日或每週（視上傳活動而定） |
+| 設定 | 任何設定變更後 |
 
-## Restoration
+## 還原
 
-To restore from a backup:
+要從備份還原：
 
-1. Restore the database from the SQL dump
-2. Restore the file directories
-3. Restore the configuration files
-4. Clear the Symfony cache: `php bin/console cache:clear`
+1. 從 SQL 傾印還原資料庫
+2. 還原檔案目錄
+3. 還原設定檔案
+4. 清空 Symfony 快取：`php bin/console cache:clear`
 
-## Tips
+## 提示
 
-* **Automate backups** — Use cron jobs to run backups automatically
-* **Store off-site** — Keep backup copies on a separate server or cloud storage
-* **Test restoration** — Periodically test that you can restore from a backup successfully
-* **Document your process** — Keep written instructions for the restoration process so anyone on the team can perform it
+* **自動化備份** — 使用 cron 工作自動執行備份
+* **異地儲存** — 在獨立的伺服器或雲端儲存中保留備份副本
+* **測試還原** — 定期測試您是否能夠成功從備份還原
+* **記錄您的程序** — 保留還原程序的書面指示，以便團隊中的任何人皆可執行

@@ -1,27 +1,27 @@
-# Cloud Storage
+# 雲端儲存
 
-Chamilo 2.0 supports cloud storage backends for user-uploaded files through **Flysystem**, a PHP filesystem abstraction library integrated into Symfony. This allows you to store files on cloud services instead of (or in addition to) the local filesystem.
+Chamilo 2.0 支援透過 **Flysystem**（一個整合於 Symfony 的 PHP 檔案系統抽象庫）將使用者上傳的檔案儲存於雲端儲存後端。這讓您可以將檔案儲存在雲端服務上，而不僅限於（或除了）本地檔案系統之外。
 
-## Why Use Cloud Storage?
+## 為什麼使用雲端儲存？
 
-* **Scalability** -- Cloud storage grows with your platform without managing disk space.
-* **Multi-server deployments** -- When running multiple web servers behind a load balancer, cloud storage ensures all servers access the same files.
-* **Durability** -- Cloud providers offer built-in redundancy and backup.
-* **Cost** -- Object storage is often cheaper per gigabyte than block storage attached to servers.
+* **可擴展性** -- 雲端儲存能隨著您的平台成長，而無需管理磁碟空間。
+* **多伺服器部署** -- 當在負載平衡器後運行多個網頁伺服器時，雲端儲存確保所有伺服器都能存取相同的檔案。
+* **耐久性** -- 雲端服務提供商提供內建的冗餘和備份。
+* **成本** -- 物件儲存通常比附加到伺服器的區塊儲存每 GB 更便宜。
 
-## Supported Providers
+## 支援的提供商
 
-| Provider | Flysystem Adapter |
+| 提供商 | Flysystem 適配器 |
 |----------|-------------------|
 | **Amazon S3** | `league/flysystem-aws-s3-v3` |
 | **Google Cloud Storage** | `league/flysystem-google-cloud-storage` |
 | **Azure Blob Storage** | `league/flysystem-azure-blob-storage` |
-| **MinIO** (S3-compatible) | Uses the S3 adapter with a custom endpoint |
-| **Local filesystem** | Default, no additional packages needed |
+| **MinIO** (S3 相容) | 使用 S3 適配器並設定自訂端點 |
+| **本地檔案系統** | 預設，無需額外套件 |
 
-## Installation
+## 安裝
 
-Chamilo already comes with the following pre-installed providers:
+Chamilo 已預裝以下提供商：
 
 ```bash
 # Amazon S3
@@ -34,20 +34,20 @@ league/flysystem-google-cloud-storage
 league/flysystem-azure-blob-storage
 ```
 
-## Configuration
+## 設定
 
-Chamilo splits its files across several Flysystem mounts — **assets**, **assets cache**, **resources**, **resources cache**, **themes**, and **plugins**. Each mount can target a different bucket or container. The cloud configuration in `config/packages/oneup_flysystem.yaml` is selected by environment using `when@` conditions and reads the variables you set in `.env`.
+Chamilo 將其檔案分散在多個 Flysystem 掛載點中 — **assets**、**assets cache**、**resources**、**resources cache**、**themes** 和 **plugins**。每個掛載點可以指向不同的儲存桶或容器。雲端設定位於 `config/packages/oneup_flysystem.yaml` 中，會根據環境使用 `when@` 條件選擇，並讀取您在 `.env` 中設定的變數。
 
 ### Amazon S3
 
 ```bash
-# .env — common credentials
+# .env — 通用憑證
 AWS_S3_STORAGE_VERSION=latest
 AWS_S3_STORAGE_REGION=eu-central-1
 AWS_S3_STORAGE_ACCESS_KEY=your-access-key
 AWS_S3_STORAGE_ACCESS_SECRET=your-secret-key
 
-# Per-mount buckets (each mount can be a different bucket)
+# 每個掛載點的儲存桶（每個掛載點可以是不同的儲存桶）
 AWS_S3_STORAGE_ASSET_BUCKET=chamilo-assets
 AWS_S3_STORAGE_ASSET_CACHE_BUCKET=chamilo-asset-cache
 AWS_S3_STORAGE_RESOURCE_BUCKET=chamilo-resources
@@ -55,7 +55,7 @@ AWS_S3_STORAGE_RESOURCE_CACHE_BUCKET=chamilo-resource-cache
 AWS_S3_STORAGE_THEMES_BUCKET=chamilo-themes
 AWS_S3_STORAGE_PLUGINS_BUCKET=chamilo-plugins
 
-# Optional path prefixes inside a bucket — useful to share buckets across portals
+# 儲存桶內的可選路徑前綴 — 適用於跨入口網站共享儲存桶
 AWS_S3_STORAGE_ASSET_PREFIX=portal1/assets
 AWS_S3_STORAGE_RESOURCE_PREFIX=portal1/resources
 ```
@@ -70,36 +70,36 @@ AZURE_STORAGE_ASSET_CACHE_CONTAINER=asset-cache-container
 AZURE_STORAGE_RESOURCE_CONTAINER=resources-container
 AZURE_STORAGE_RESOURCE_CACHE_CONTAINER=resources-cache-container
 AZURE_STORAGE_THEMES_CONTAINER=themes-container
-# Optional prefixes
+# 可選前綴
 AZURE_STORAGE_ASSET_PREFIX=optional/prefix
 ```
 
 ### Google Cloud Storage
 
-Configure GCS the same way as S3, using GCS-specific environment variables and one bucket per mount. Refer to the `oneup_flysystem.yaml` shipped with your release for the exact variable names — they are also documented in `.env`.
+以與 S3 相同的方式設定 GCS，使用 GCS 專屬的環境變數，並為每個掛載點設定一個儲存桶。請參考您版本中提供的 `oneup_flysystem.yaml` 以獲取確切的變數名稱 — 這些變數也在 `.env` 中有記載。
 
-### MinIO (S3-Compatible)
+### MinIO (S3 相容)
 
-MinIO works through the S3 adapter with a custom endpoint and path-style addressing — set `AWS_S3_STORAGE_*` as for S3 and add the MinIO endpoint and path-style flags supported by the bundle.
+MinIO 透過 S3 適配器運作，並使用自訂端點和路徑樣式定址 — 如同設定 S3 一樣設定 `AWS_S3_STORAGE_*`，並新增 MinIO 端點和套件支援的路徑樣式標誌。
 
-> The full set of variable names is listed in the `.env.dist` file shipped with Chamilo. Copy only the lines for the provider you actually use into your `.env` and uncomment them.
+> 完整的變數名稱列表可在 Chamilo 提供的 `.env.dist` 檔案中找到。僅將您實際使用的提供商相關行複製到您的 `.env` 中並取消註釋。
 
-## Migrating Existing Files
+## 遷移現有檔案
 
-If you are switching from local storage to cloud storage on an existing platform, you must migrate the existing files:
+如果您在現有平台上從本地儲存切換到雲端儲存，必須遷移現有檔案：
 
-1. Configure the new storage adapter as described above.
-2. Copy existing files from the local `var/upload/` directory to your cloud storage bucket, preserving the directory structure.
-3. Verify that files are accessible through the platform after migration.
+1. 如上所述設定新的儲存適配器。
+2. 將現有檔案從本地 `var/upload/` 目錄複製到您的雲端儲存桶，保留目錄結構。
+3. 確認遷移後檔案可透過平台存取。
 
-## Permissions and Access
+## 權限與存取
 
-Ensure your cloud storage bucket is **not publicly accessible** unless you explicitly need public file URLs. Chamilo serves files through its own access control layer, so direct public access to the bucket is unnecessary and a security risk.
+確保您的雲端儲存桶**不公開存取**，除非您明確需要公開檔案 URL。Chamilo 透過自身的存取控制層提供檔案，因此直接公開存取儲存桶是不必要的，且存在安全風險。
 
-For S3, use a bucket policy that restricts access to the IAM credentials configured above.
+對於 S3，使用限制存取至上述設定的 IAM 憑證的儲存桶政策。
 
-## Tips
+## 小貼士
 
-* **Test with MinIO locally** before deploying to a cloud provider -- MinIO is a free, S3-compatible server you can run on your own machine.
-* **Use a dedicated bucket** for Chamilo rather than sharing a bucket with other applications.
-* **Set up lifecycle policies** on your cloud bucket to manage storage costs (e.g., move old files to cheaper storage tiers).
+* **在部署到雲端提供商之前，先在本地使用 MinIO 測試** -- MinIO 是一個免費的、S3 相容的伺服器，您可以在自己的機器上運行。
+* **為 Chamilo 使用專用儲存桶**，而非與其他應用程式共享儲存桶。
+* **在雲端儲存桶上設定生命週期政策**，以管理儲存成本（例如，將舊檔案移至更便宜的儲存層級）。

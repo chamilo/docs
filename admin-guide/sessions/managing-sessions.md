@@ -1,75 +1,75 @@
-# Managing Sessions
+# 管理課程會期
 
-## Creating a Session
+## 建立課程會期
 
-![The session creation form with fields for name, dates, coach, category, and visibility](/.gitbook/assets/admin-session-create-form.png)
+![顯示名稱、日期、導師、類別和可見性欄位的課程會期建立表單](/.gitbook/assets/admin-session-create-form.png)
 
-1. From the administration panel, click **Create a session**
-2. Fill in the session details:
-   * **Session name** — A descriptive name (e.g., "Spring 2026 Onboarding")
-   * **Start and end dates** — When the session runs (optional — sessions can be open-ended). There are 3 sets of dates: Dates to display, dates to limit learners access and dates to limit coaches access
-   * **Session coach** — The person overseeing the entire session
-   * **Category** — Assign to a session category for organization
-   * **Visibility** — Control access and listing behavior
-3. **Add courses** — Select one or more courses to include in the session
-4. **Enroll learners** — Add individual users or classes of users
-5. **Assign course coaches** — For each course, assign a teacher (course coach)
-6. Save
+1. 從管理面板點擊 **建立課程會期**
+2. 填寫課程會期詳細資料：
+   * **課程會期名稱** — 描述性名稱（例如「2026 年春季入職訓練」）
+   * **開始和結束日期** — 課程會期運行的時間（選填 — 課程會期可以無限期開放）。有 3 組日期：顯示日期、限制學習者存取的日期和限制導師存取的日期
+   * **課程會期導師** — 監督整個課程會期的負責人
+   * **類別** — 指派至課程會期類別以進行組織
+   * **可見性** — 控制存取和清單行為
+3. **新增課程** — 選擇一門或多門要包含在課程會期中的課程
+4. **註冊學習者** — 新增個別使用者或使用者類別
+5. **指派課程導師** — 為每門課程指派教師（課程導師）
+6. 儲存
 
-## Session Dates
+## 課程會期日期
 
-Sessions support flexible date configuration:
+課程會期支援彈性的日期設定：
 
-| Date | Purpose |
+| 日期 | 用途 |
 |------|---------|
-| **Display start/end** | When the session appears in learner listings |
-| **Access start/end** | When learners can actually access the session content |
-| **Coach access start/end** | When coaches can access the session (often starts before and ends after learner access) |
+| **顯示開始/結束** | 課程會期在學習者清單中出現的時間 |
+| **存取開始/結束** | 學習者實際可存取課程會期內容的時間 |
+| **導師存取開始/結束** | 導師可存取課程會期的時間（通常在學習者存取前開始並在後結束） |
 
-This allows you to prepare the session before learners arrive and keep coach access open after the session ends for grading and reporting.
+這可讓您在學習者到達前準備課程會期，並在課程會期結束後保持導師存取開放以進行評分和報告。
 
-## Session List
+## 課程會期清單
 
-![The session list showing all sessions with name, dates, course count, learner count, and status](/.gitbook/assets/admin-session-list.png)
+![顯示所有課程會期名稱、日期、課程數量、學習者數量和狀態的課程會期清單](/.gitbook/assets/admin-session-list.png)
 
-The session list shows all sessions with:
+課程會期清單顯示所有課程會期，包括：
 
-* Session name
-* Start and end dates
-* Status (active, upcoming, past)
+* 課程會期名稱
+* 開始和結束日期
+* 狀態（活躍中、即將開始、已結束）
 
-Use search and filters to find sessions by name, date, category, or status.
+使用搜尋和篩選器依名稱、日期、類別或狀態尋找課程會期。
 
-## Editing a Session
+## 編輯課程會期
 
-Click on a session to edit:
+點擊課程會期以編輯：
 
-* Change dates, name, or category
-* Add or remove courses
-* Change course coaches
-* Add or remove learners
-* View tracking data for the session
+* 變更日期、名稱或類別
+* 新增或移除課程
+* 變更課程導師
+* 新增或移除學習者
+* 查看課程會期的追蹤資料
 
-## Enrolling Users
+## 註冊使用者
 
-![The session enrollment interface for adding individual users, classes, or importing via CSV](/.gitbook/assets/admin-session-enrollment.png)
+![用於新增個別使用者、類別或透過 CSV 匯入的課程會期註冊介面](/.gitbook/assets/admin-session-enrollment.png)
 
-You can enroll users in a session by:
+您可以透過以下方式將使用者註冊至課程會期：
 
-* **Individual enrollment** — Search for and add individual users
-* **Class enrollment** — Add an entire class (group of pre-defined users) at once
-* **CSV import** — Upload a file with user-session assignments
+* **個別註冊** — 搜尋並新增個別使用者
+* **類別註冊** — 一次新增整個類別（預定義使用者的群組）
+* **CSV 匯入** — 上傳包含使用者-課程會期指派的文件
 
-## Session Access
+## 課程會期存取
 
-Learners access their sessions through **My sessions** in the sidebar. Sessions are organized into:
+學習者透過側邊欄的 **我的課程會期** 存取其課程會期。課程會期組織為：
 
-* **Current sessions** — Currently active
-* **Past sessions** — Ended
-* **Upcoming sessions** — Not yet started
+* **目前課程會期** — 目前活躍中
+* **過去課程會期** — 已結束
+* **即將開始課程會期** — 尚未開始
 
-## Tips
+## 提示
 
-* **Plan dates carefully** — Make sure coach access dates extend beyond learner dates so coaches can set up and follow up
-* **Use classes for recurring enrollment** — If you frequently enroll the same groups, create classes and assign them to sessions
-* **Keep sessions organized** — Use categories and clear naming conventions for easy management
+* **仔細規劃日期** — 確保導師存取日期超出學習者日期範圍，以便導師設定和後續追蹤
+* **使用類別進行重複註冊** — 如果經常註冊相同群組，請建立類別並將其指派至課程會期
+* **保持課程會期組織** — 使用類別和明確的名稱慣例以便輕鬆管理

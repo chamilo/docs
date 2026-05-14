@@ -1,66 +1,65 @@
-# Web Services Settings
+# Web 服務設定
 
-Configuration of the legacy SOAP / REST web services (separate from the modern API Platform endpoints).
+傳統 SOAP / REST web 服務的設定（與現代 API Platform 端點分開）。
 
-Access these settings under **Administration > Configuration settings > Web Services**. This category contains **7 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+在 **管理 > 設定 > Web 服務** 下存取這些設定。此類別包含 **7 個設定**，以下列出平台設定預設值（`SettingsCurrentFixtures.php`）中提供的標題和註解。
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> 程式碼中的變數名稱以等寬字體顯示。透過 API 撰寫腳本或需要透過編輯 [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml) 在全域層級變更這些設定時，請使用它。
 
-## Settings
+## 設定
 
 ### `allow_download_documents_by_api_key`
 
-**Allow download course documents by API Key**
+**允許透過 API 金鑰下載課程文件**
 
-Download documents verifying the REST API key for a user
+透過使用者的 REST API 金鑰驗證下載文件
 
-*Default: `false`*
+*預設值：`false`*
 
 
 ### `disable_webservices`
 
-**Disable web services**
+**停用 web 服務**
 
-If you do not use web services, enable this to avoid any unnecessary security risk.
+如果您不使用 web 服務，請啟用此選項以避免不必要的資安風險。
 
-*Default: `false`*
+*預設值：`false`*
 
 
 ### `messaging_allow_send_push_notification`
 
-**Allow Push Notifications to the Chamilo Messaging mobile app**
+**允許推播通知至 Chamilo Messaging 行動應用程式**
 
-Send Push Notifications by Google's Firebase Console
+透過 Google 的 Firebase Console 發送推播通知
 
-*Default: `false`*
+*預設值：`false`*
 
 
 ### `messaging_gdc_api_key`
 
-**Server key of Firebase Console for Cloud Messaging**
+**Firebase Console 用於 Cloud Messaging 的伺服器金鑰**
 
-Server key (legacy token) from project credentials
+來自專案憑證的伺服器金鑰（舊版 token）
 
 ### `messaging_gdc_project_number`
 
-**Sender ID of Firebase Console for Cloud Messaging**
+**Firebase Console 用於 Cloud Messaging 的發送者 ID**
 
-You need register a project on <a href='https://console.firebase.google.com/'>Google Firebase Console</a>
+您需要在 <a href='https://console.firebase.google.com/'>Google Firebase Console</a> 註冊一個專案
 
 ### `webservice_enable_adminonly_api`
 
-**Enable admin-only web services**
+**啟用僅限管理員的 web 服務**
 
-Some REST web services are marked for admins only and are disabled by default. Enable this feature to give access to these web services (to users with admin credentials, obviously).
+某些 REST web 服務標記為僅限管理員使用，並預設停用。啟用此功能以授予存取這些 web 服務的權限（顯然僅限具有管理員憑證的使用者）。
 
-*Default: `false`*
+*預設值：`false`*
+
 
 ### `webservice_return_user_field`
 
-**Webservices return user field**
+**Web 服務回傳使用者欄位**
 
-Ask REST webservices (v2.php) to return another identifier for fields related to user ID. This is useful if the external system doesn't really deal with user IDs as they are in Chamilo, as it helps the external system match the user data return with some external data that is know to Chamilo. For example, if you use an external authentication system, you can return the extra field used to match the user with the external authentication system rather than user.id.
+要求 REST web 服務（v2.php）回傳與使用者 ID 相關欄位的另一個識別碼。這對於外部系統不直接處理 Chamilo 中的使用者 ID 很有用，因為它有助於外部系統將使用者資料回傳與 Chamilo 已知的一些外部資料進行比對。例如，如果您使用外部認證系統，您可以回傳用於將使用者與外部認證系統比對的額外欄位，而不是 user.id。
 
-*Default: `oauth2_id`*
-
-
+*預設值：`oauth2_id`*

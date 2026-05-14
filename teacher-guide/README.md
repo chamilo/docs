@@ -1,31 +1,31 @@
-# Teacher Guide
+# 教師指南
 
-Welcome to the Chamilo 2.0 Teacher Guide. This guide is designed for instructors, trainers, and anyone responsible for creating and delivering learning content through the Chamilo platform.
+歡迎來到 Chamilo 2.0 教師指南。本指南專為教師、培訓師以及任何負責透過 Chamilo 平臺建立和傳遞學習內容的人士設計。
 
-Whether you are setting up your first online course or managing a complex training program, this guide will walk you through every feature available to you as a teacher.
+無論您是設定第一個線上課程，還是管理複雜的培訓計劃，本指南將引導您逐步了解作為教師可使用的所有功能。
 
-## What You Can Do with Chamilo
+## 在 Chamilo 中能做什麼
 
-As a teacher in Chamilo, you can:
+作為 Chamilo 中的教師，您可以：
 
-* **Create and organize courses** with a flexible homepage and customizable tools
-* **Add content** — upload documents, create learning paths, build glossaries, and link to external resources
-* **Assess your learners** — design exercises with multiple question types, collect assignments, run surveys, and manage grades
-* **Collaborate** — set up forums, group work, wikis, blogs, and live video sessions
-* **Track progress** — monitor learner activity, generate reports, and award certificates
-* **Use AI tools** — generate exercises and learning paths automatically, and get AI-assisted grading
+* **建立並組織課程**，具備彈性首頁和可自訂工具
+* **新增內容** — 上傳文件、建立學習路徑、建置詞彙表，並連結外部資源
+* **評估學習者** — 設計多種題型練習、收集作業、執行調查，並管理成績
+* **協作** — 設定論壇、小組作業、wiki、部落格，以及即時視訊會議
+* **追蹤進度** — 監控學習者活動、產生報告，並頒發證書
+* **使用 AI 工具** — 自動產生練習和學習路徑，並取得 AI 輔助評分
 
-## How This Guide Is Organized
+## 本指南的組織方式
 
-This guide follows the natural workflow of building and running a course:
+本指南遵循建立和執行課程的自然工作流程：
 
-1. **Getting Started** — Log in, navigate the interface, and set up your profile
-2. **Creating Your Course** — Create a new course, configure its settings, and customize the homepage
-3. **Adding Content** — Upload documents, organize learning paths, and manage resources
-4. **Assessing Learners** — Build tests, collect assignments, run surveys, and set up the gradebook
-5. **Collaboration and Communication** — Enable forums, chat, groups, wiki, and video conferencing
-6. **Tracking and Reporting** — Monitor learner progress and generate reports
-7. **AI Tools** — Use AI-powered features to generate content and assist with grading
-8. **Additional Tools** — Agenda, notebook, portfolio, and more
+1. **入門** — 登入、瀏覽介面，並設定您的個人檔案
+2. **建立您的課程** — 建立新課程、設定其選項，並自訂首頁
+3. **新增內容** — 上傳文件、組織學習路徑，並管理資源
+4. **評估學習者** — 建置測驗、收集作業、執行調查，並設定成績簿
+5. **協作與溝通** — 啟用論壇、聊天、小組、wiki 和視訊會議
+6. **追蹤與報告** — 監控學習者進度並產生報告
+7. **AI 工具** — 使用 AI 驅動功能產生內容並輔助評分
+8. **其他工具** — 議程、筆記本、作品集等
 
-Let's get started.
+讓我們開始吧。

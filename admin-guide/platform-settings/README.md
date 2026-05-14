@@ -1,40 +1,40 @@
-# Platform Settings
+# 平台設定
 
-Chamilo has an extensive configuration system with settings organized into categories. The full set of categories below mirrors the **Configuration settings** page in the admin panel — and the underlying `SettingsCurrentFixtures.php` in the source code, which is the source of truth for variable names, titles, and descriptions.
+Chamilo 擁有廣泛的設定系統，將設定組織成類別。下列完整類別清單反映管理面板中的 **Configuration settings** 頁面 — 以及原始碼中的底層 `SettingsCurrentFixtures.php`，這是變數名稱、標題和描述的真相來源。
 
-Access platform settings from the administration panel by clicking **Configuration settings**.
+從管理面板點擊 **Configuration settings** 來存取平台設定。
 
-![The platform settings page showing configuration categories organized by functional area](/.gitbook/assets/admin-settings-categories.png)
+![顯示依功能區域組織的設定類別的平台設定頁面](/.gitbook/assets/admin-settings-categories.png)
 
-## All categories
+## 所有類別
 
-There are **39 configuration categories** in total, listed alphabetically below. The number after each link is the count of settings in that category.
+總共有 **39 個設定類別**，下列依字母順序列出。每個連結後的數字是該類別中的設定數量。
 
-### Platform-wide
+### 平台範圍
 
-* **[Administrator Identity](admin-settings.md)** (12) — Identity and contact details of the platform administrator.
-* **[Platform](platform-settings.md)** (29) — Platform-level identity, time zone, registration policy, online users, performance flags.
-* **[Display](display-settings.md)** (24) — Homepage layout, gravatar, menus, branding behaviour.
-* **[Editor](editor-settings.md)** (26) — Rich-text editor (TinyMCE) toolbars, plugins, AI helpers.
-* **[Languages](language-settings.md)** (12) — Available languages, default language, fallbacks.
-* **[Mail](mail-settings.md)** (18) — Outgoing-mail layout, sender identity, signature.
-* **[Workflows](workflows-settings.md)** (23) — Cross-cutting workflow toggles (course creation, enrollment validation…).
+* **[Administrator Identity](admin-settings.md)** (12) — 平台管理員的身分和聯絡資訊。
+* **[Platform](platform-settings.md)** (29) — 平台層級身分、時區、註冊政策、線上使用者、效能旗標。
+* **[Display](display-settings.md)** (24) — 首頁版面配置、gravatar、選單、品牌行為。
+* **[Editor](editor-settings.md)** (26) — 富文字編輯器 (TinyMCE) 工具列、外掛、AI 助手。
+* **[Languages](language-settings.md)** (12) — 可用語言、預設語言、後備語言。
+* **[Mail](mail-settings.md)** (18) — 寄出郵件版面配置、寄件者身分、簽名。
+* **[Workflows](workflows-settings.md)** (23) — 跨領域工作流程切換（課程建立、註冊驗證…）。
 
-### Authentication, security & privacy
+### 驗證、安全與隱私
 
-* **[Security](security-settings.md)** (31) — Login protection, password policy, headers, 2FA, IDS.
-* **[Registration](registration-settings.md)** (20) — Self-registration policy and post-registration redirects.
-* **[Privacy](privacy-settings.md)** (6) — Consent, data export, account-deletion requests.
-* **[CAS](cas-settings.md)** (7) — Legacy CAS configuration carried over from 1.x.
+* **[Security](security-settings.md)** (31) — 登入保護、密碼政策、標頭、2FA、IDS。
+* **[Registration](registration-settings.md)** (20) — 自行註冊政策及註冊後重新導向。
+* **[Privacy](privacy-settings.md)** (6) — 同意、資料匯出、帳戶刪除請求。
+* **[CAS](cas-settings.md)** (7) — 從 1.x 延續的舊版 CAS 設定。
 
-### Course and session lifecycle
+### 課程與工作階段生命週期
 
-* **[Course](course-settings.md)** (45) — Defaults and policies that apply to courses platform-wide.
-* **[Sessions](session-settings.md)** (68) — Session lifecycle, coach access windows, visibility.
-* **[Course Catalog](catalog-settings.md)** (13) — Behaviour of the public course catalog.
-* **[Profile](profile-settings.md)** (29) — Which fields appear on the user profile.
+* **[Course](course-settings.md)** (45) — 平台範圍適用於課程的預設值和政策。
+* **[Sessions](session-settings.md)** (68) — 工作階段生命週期、導師存取時間窗、可见性。
+* **[Course Catalog](catalog-settings.md)** (13) — 公開課程目錄的行為。
+* **[Profile](profile-settings.md)** (29) — 使用者個人檔案中顯示的欄位。
 
-### Course tools
+### 課程工具
 
 * **[Agenda](agenda-settings.md)** (11)
 * **[Announcements](announcement-settings.md)** (9)
@@ -50,41 +50,43 @@ There are **39 configuration categories** in total, listed alphabetically below.
 * **[Learning Paths](lp-settings.md)** (51)
 * **[Surveys](survey-settings.md)** (12)
 
-### Assessment & recognition
+### 評量與認證
 
-* **[Gradebook (Assessments)](gradebook-settings.md)** (34) — Score display, decimals, certificate thresholds.
-* **[Certificates](certificate-settings.md)** (9) — Defaults applied when a learner earns a certificate.
-* **[Skills](skill-settings.md)** (13) — Skills tree, awarding rules, profile integration.
-* **[Tracking](tracking-settings.md)** (10) — What is recorded, what reports are exposed.
+* **[Gradebook (Assessments)](gradebook-settings.md)** (34) — 分數顯示、小數位、證書門檻。
+* **[Certificates](certificate-settings.md)** (9) — 學習者獲得證書時應用的預設值。
+* **[Skills](skill-settings.md)** (13) — 技能樹、頒發規則、個人檔案整合。
+* **[Tracking](tracking-settings.md)** (10) — 記錄的內容、公開的報告。
 
-### Communication & community
+### 通訊與社群
 
 * **[Messaging](message-settings.md)** (7)
 * **[Social Network](social-settings.md)** (7)
 
 ### AI
 
-* **[AI Helpers](ai-helpers-settings.md)** (13) — Providers per task type (text, image, video, tutor, grading).
+* **[AI Helpers](ai-helpers-settings.md)** (13) — 依任務類型（文字、影像、影片、導師、評分）的提供者。
 
-### Operations & integration
+### 營運與整合
 
 * **[Cron Jobs](crons-settings.md)** (3)
-* **[Search](search-settings.md)** (3) — Xapian full-text search configuration.
-* **[Tickets](ticket-settings.md)** (7) — Helpdesk system.
-* **[Web Services](webservice-settings.md)** (7) — Legacy SOAP/REST endpoints.
+* **[Search](search-settings.md)** (3) — Xapian 全文搜尋設定。
+* **[Tickets](ticket-settings.md)** (7) — 求助台系統。
+* **[Web Services](webservice-settings.md)** (7) — 舊版 SOAP/REST 端點。
 
-## How Settings Work
+## 設定運作方式
 
-* Settings are stored in the database (`settings` table) and managed through the web interface
-* Some settings are **URL-locked** in multi-URL setups (their value applies platform-wide and cannot be overridden per URL - see `access_url_locked` and `access_url_changeable` columns in the `settings` table); others (most) can be overridden per access URL
-* Changes take effect immediately (no server restart required), although your user session might be keeping some of them in memory. If changes don't reflect immediately, logout and login to flush your session.
-* Some settings have dependencies — changing one may affect the behaviour of others
-* Variable names shown on each page (e.g. `2fa_enable`) match the row in the `settings` database table (`variable` column) and the keys used in overrides (`config/settings_overrides.yaml`) where applicable.
+* 設定儲存在資料庫（`settings` 表格）中，並透過網頁介面管理
+* 在多 URL 設定中，有些設定是 **URL-locked**（其值適用於整個平台，且無法依每個 URL 覆寫 — 請參閱 `settings` 表格中的 `access_url_locked` 和 `access_url_changeable` 欄位）；其他（大多數）設定可依存取 URL 覆寫
+* 變更立即生效（無需重新啟動伺服器），雖然您的使用者工作階段可能會將某些設定保留在記憶體中。如果變更未立即反映，請登出並重新登入以清除工作階段。
+* 有些設定具有相依性 — 變更一項可能影響其他項目的行為
+* 每個頁面顯示的變數名稱（例如 `2fa_enable`）符合 `settings` 資料庫表格中的列（`variable` 欄位）以及適用時用於覆寫的鍵值（`config/settings_overrides.yaml`）。
 
-For more information, check [Configurations](https://github.com/chamilo/chamilo-lms/wiki/Configurations) on our wiki.
+更多資訊，請參閱我們的 wiki 中的 [Configurations](https://github.com/chamilo/chamilo-lms/wiki/Configurations)。
+---
 
-## Tips
+---
+## 提示
 
-* **Document your settings** — Keep a record of non-default settings and why you changed them
-* **Change one thing at a time** — When troubleshooting, modify one setting at a time so you can identify the effect
-* **Test in a staging environment** — For significant setting changes, test on a staging server first
+* **記錄您的設定** — 保留非預設設定的記錄，以及您變更它們的原因
+* **一次變更一項** — 在進行疑難排解時，一次修改一項設定，以便您能辨識其影響
+* **在預備環境中測試** — 對於重大的設定變更，請先在預備伺服器上測試

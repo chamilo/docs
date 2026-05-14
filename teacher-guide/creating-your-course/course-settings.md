@@ -1,99 +1,82 @@
-# Course Settings
+# 課程設定
 
-Course settings allow you to control how your course behaves — who can access it, how it appears, and what features are enabled.
+課程設定可控制課程的運作方式。您可以設定誰能存取、如何顯示，以及哪些功能將啟用。
 
-To access course settings, enter your course and click the **Settings** <img src="/.gitbook/assets/icons/mdi-cog.svg" alt="Settings" data-size="line"> icon next to the **Switch to student view** button.
+要存取課程設定，請進入課程，點擊**學生檢視**按鈕旁邊的**設定** <img src="/.gitbook/assets/icons/mdi-cog.svg" alt="設定" data-size="line"> 圖示。
 
-## General Settings
+## 一般設定
 
-### Course Information
+### 課程資訊
 
-* **Course title** — The display name of your course
-* **Course language** — The primary language for the course interface
-* **Course category** — The category under which the course appears in the catalog
-* **Course picture** — Upload a thumbnail that represents your course in course listings (will be resized depending on context)
+* **課程標題** — 課程的顯示名稱
+* **課程語言** — 課程介面的主要語言
+* **課程類別** — 課程在目錄中顯示的類別
+* **課程圖像** — 上傳用於課程清單的縮圖（會依上下文調整大小）
 
-The course code (the short unique identifier) is set when the course is created and is not editable from this page.
+課程代碼（簡短的唯一識別碼）在課程建立時設定，此頁面無法編輯。
 
-By default, all users entering your course will see the whole Chamilo interface in the language of your course. This is an immersive feature. Administrators can change this behaviour, but you can also change it with one of the first options: **Show course in user's language** (set to No by default) if you believe this makes it too hard for your users.
+預設情況下，進入課程的所有使用者都能以課程語言檢視整個 Chamilo 介面。這是沉浸式功能。管理員可變更此行為，但若使用者覺得過於困難，亦可調整最初的選項**以使用者的語言顯示課程**（預設為「否」）。
 
-The department and department URL are deprecated fields. They are only maintained for legacy support reasons.
+部門及部門 URL 是已棄用的欄位。這些欄位僅為舊版支援而保留。
 
-If enabled, you can switch the style inside your course with the **Style sheets** option, using existing stylesheets on your portal. This option is often disabled by admins, for a more integrated global design.
+啟用時，可使用入口網站上的現有樣式表，透過**樣式表**選項切換課程內的樣式。此選項常被管理員停用，以實現整合的全球設計。
 
-### Disk Quota
+### 磁碟配額
 
-Each course has a storage limit (disk quota) for uploaded files. The quota is set by the platform administrator. You can see your current limit in the course settings, and the current usage in the **Documents** tool.
+每個課程皆有上傳檔案的儲存限制（磁碟配額）。配額由平台管理員設定。當前限制可在課程設定中確認，當前使用量可在**文件**工具中確認。
 
-> If you are running out of space, contact your platform administrator to request a quota increase, or remove unused files from the Documents tool.
+> 若容量不足，請向平台管理員請求增加配額，或從文件工具刪除不必要的檔案。
 
-### Course Visibility
+### 課程公開設定
 
-![The course visibility settings showing public, open, registered, and closed options](/.gitbook/assets/course-settings-visibility.png)
+![顯示公開、開放、已註冊、封閉選項的課程公開設定](/.gitbook/assets/course-settings-visibility.png)
 
-Control who can access your course:
+控制誰能存取課程：
 
-| Setting | Description |
+| 設定 | 說明 |
 |---------|-------------|
-| **Public** | Anyone, including anonymous visitors, can access the course |
-| **Open to platform** | All registered users on the platform can access the course |
-| **Private — access granted by privileged users** | Only users explicitly enrolled in the course can access it |
-| **Closed** | The course is locked; no one can access it except the teacher |
+| **公開** | 包含匿名訪客在內的任何人皆可存取課程 |
+| **公開於平台** | 平台上所有已註冊使用者皆可存取課程 |
+| **私人 — 僅特權使用者經許可存取** | 僅明確註冊課程的使用者可存取 |
+| **封閉** | 課程處於鎖定狀態，教師以外無人可存取 |
 
-#### Enrollment Settings
+#### 註冊設定
 
-Depending on your platform configuration, you may be able to control:
+依平台設定，可能可控制以下項目：
 
-* **Allow self-enrollment** — Whether learners can subscribe themselves through the course catalog
-* **Allow self-unsubscription** — Whether learners can leave the course on their own
-* **Enrollment password** — Require a password for self-enrollment (useful for restricting access to a specific group) but the security level is low as the same course-access password is shared between all users.
+* **允許自行註冊** — 學習者是否能透過課程目錄自行註冊
+* **允許自行退選** — 學習者是否能自行退選課程
+* **註冊密碼** — 要求自行註冊時輸入密碼（可用於限制特定群組存取），但安全性等級低，因為相同課程存取密碼會在所有使用者間共用。
 
-### Document Settings
+### 文件設定
 
-Choose whether to show or hide the system folders in the **Documents** tool (hidden by default, you don't really need them in most cases and showing them might cause issues with hidden content and learners).
+選擇是否在**文件**工具中顯示系統資料夾（預設不顯示，大多數情況下無需顯示。顯示可能導致隱藏內容或學習者相關問題）。
 
-### E-mail Notification Settings
+### 電子郵件通知設定
 
-Configure how course activity triggers notifications:
+設定課程活動觸發通知的方式：
 
-* **Email notifications for new content** — Notify enrolled users when you add new documents, announcements, or other content
+* **新內容電子郵件通知** — 新增文件、公告或其他內容時通知已註冊使用者
 
-### Chat Settings
+### 聊天設定
 
-Control how the **Chat** tool will show.
+控制**聊天**工具的顯示方式。
 
-### Learning path Settings
+---
+### 自動啟動設定
 
-* **Enable course themes** — Allow learning paths to change appearance (not recommended for integrated user experience)
-* **Learning path return link** — Decide where users land when they click the **Home** icon in a learning path: the learning paths list, the course home, *My courses*, *My sessions*, or the portal home
+課程可以設定自動啟動的動作，這可以縮短學習者到達課程重要部分的路徑。如果此功能啟用，進入課程的學習者將直接被導向選定的工具，而不會將課程首頁作為中間步驟。您也可以選擇在課程到達時啟動特定的學習路徑或練習。在這種情況下，請在此選擇選項，然後前往學習路徑或練習清單，點擊選定項目的火箭 <img src="/.gitbook/assets/icons/mdi-rocket-launch.svg" alt="自動啟動" data-size="line"> 圖示。
 
-### Thematic Advance Settings
+### AI 助手設定
 
-Configure how the thematic advance messages will appear on the course homepage.
+此區段僅在管理員於平台上啟用 AI 工具時顯示。在此區段中，您可以調整透過 Chamilo 平台各種工具提供的 AI 助手服務選擇。如果不希望使用，可以停用，但由於這些工具非常強大，停用可能不是好主意。
 
-### Forum Settings
+這些功能的詳細說明，請參閱本指南的**AI 工具**區段。
 
-Control behaviour in the forum tool of this course.
+### 外部工具 (LTI)
 
-### Assignment Settings
+如果平台已啟用，Learning Tools Integration（學習工具整合）可用於將外部相容活動整合至此課程，並以個別圖示顯示於課程首頁。LTI 的詳細說明超出本指南範圍，但這是教師強大的整合系統。
 
-* **Default setting for the visibility of newly posted files** — Decide whether new documents uploaded by learners in the **Assignments** tool are shared with all other learners (No by default)
-* **Allow learners to delete their own publications** — Allow learners to delete the assignments they have already uploaded (in case they want to upload a correction).
+### 其他
 
-### Autolaunch Settings
-
-A course can be set to have an auto-launch behaviour, which will shorten the path of learners to get to the important parts of your course. If enabled, the learners entering your course will be sent directly to the selected tool and will not see the course homepage as an intermediate step. You can even select specific learning paths or exercises to launch on arrival to the course. In this case, you need to select the option here, then go to the learning paths or exercises list and clic the rocket <img src="/.gitbook/assets/icons/mdi-rocket-launch.svg" alt="Auto-launch" data-size="line"> icon on the selected item.
-
-### AI Helpers Settings
-
-This section only appears if your administrator has enabled AI tools on the platform. It allows you to refine the selection of AI helper services available through different tools of your Chamilo platform. Disable them if you don't want to use them, but that would probably be a bad idea as these are very powerful.
-
-These features are explained in the **AI Tools** section of this guide.
-
-### External Tools (LTI)
-
-If enabled on your platform, Learning Tools Integration allows you to integrate external, compatible activities to this course, as individual icons on the course homepage. Discussing LTI is out of the scope of this guide, but this is a powerful integration system for teachers.
-
-### Others
-
-Additional sections or options might appear on this page depending on options and versions of Chamilo.
+視 Chamilo 的選項或版本而定，此頁面可能會顯示額外的區段或選項。

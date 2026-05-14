@@ -1,22 +1,22 @@
-# Session Categories
+# 課程場次分類
 
-Session categories help organize your sessions, especially when you have many sessions running simultaneously.
+課程場次分類有助於組織您的課程場次，特別是當您同時有許多課程場次運行時。
 
-## Creating a Category
+## 建立分類
 
-1. From the administration panel, navigate to **Session categories**
-2. Click **Add a category**
-3. Enter a **name** and optional start/end dates
-4. Save
+1. 從管理面板，導航至 **Session categories**
+2. 點擊 **Add a category**
+3. 輸入 **name** 和選用的開始/結束日期
+4. 儲存
 
-## Use Cases
+## 使用案例
 
-* **By program** — "Leadership Development", "Technical Training", "Onboarding"
-* **By period** — "Q1 2026", "Spring Semester", "July Batch"
-* **By department** — "Engineering", "Sales", "Human Resources"
+* **依程式** — "Leadership Development"、"Technical Training"、"Onboarding"
+* **依期間** — "Q1 2026"、"Spring Semester"、"July Batch"
+* **依部門** — "Engineering"、"Sales"、"Human Resources"
 
-## Managing Categories
+## 管理分類
 
-* **Edit** — Change the category name or dates
-* **Assign sessions** — When creating or editing a session, select its category
-* **Delete** — Remove a category (sessions in the category become uncategorized)
+* **編輯** — 變更分類名稱或日期
+* **指派課程場次** — 在建立或編輯課程場次時，選擇其分類
+* **刪除** — 移除分類（分類中的課程場次將變成未分類）

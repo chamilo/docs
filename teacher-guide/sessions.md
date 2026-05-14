@@ -1,46 +1,46 @@
-# Sessions
+# 工作階段
 
-Sessions in Chamilo are a way to deliver the same course to different groups of learners at different times, without duplicating the course content. Think of a session as a scheduled edition or cohort of a course.
+Chamilo 中的工作階段是一種方式，可將相同的課程內容交付給不同學習者群組，並在不同時間進行，而無需複製課程內容。可以將工作階段視為課程的排程版本或群組。
 
-## How Sessions Work
+## 工作階段運作方式
 
-A **course** is a container of content and tools. A **session** assigns that course to a specific group of learners for a specific time period. This means:
+**課程**是內容和工具的容器。**工作階段**將該課程指派給特定學習者群組，適用於特定時間期間。這表示：
 
-* The same course can be reused across multiple sessions
-* Each session has its own enrolled learners and its own start/end dates
-* Each session has its own results — grades, progress, and tracking data are kept separate per session
-* The base course content is shared, but teachers can customize certain elements per session
+* 相同的課程可在多個工作階段中重複使用
+* 每個工作階段擁有自己的註冊學習者和自己的開始/結束日期
+* 每個工作階段擁有自己的結果 — 分數、進度以及追蹤資料會依工作階段分開保存
+* 基礎課程內容是共用的，但教師可依工作階段自訂某些元素
 
-## Your Sessions
+## 您的課程工作階段
 
-From the sidebar, click **My sessions** to see your sessions. They are organized into three views:
+從側邊欄點選 **我的工作階段** 以檢視您的工作階段。它們分為三個檢視：
 
-![The My Sessions page showing current, past, and upcoming session views](/.gitbook/assets/my-sessions-list.png)
+![顯示目前、過去及即將開始工作階段檢視的「我的工作階段」頁面](/.gitbook/assets/my-sessions-list.png)
 
-* **Current sessions** — Sessions that are currently active
-* **Past sessions** — Sessions that have ended
-* **Upcoming sessions** — Sessions that have not started yet
+* **目前工作階段** — 目前處於啟用狀態的工作階段
+* **過去工作階段** — 已結束的工作階段
+* **即將開始工作階段** — 尚未開始的工作階段
 
-Each session shows the courses it contains. Click on a course within a session to access it.
+每個工作階段會顯示其包含的課程。點選工作階段內的課程以存取該課程。
 
-## Teaching in a Session
+## 在工作階段中教學
 
-When you enter a course through a session, the experience is similar to a regular course, with a few differences:
+當您透過工作階段進入課程時，體驗類似一般課程，但有幾個差異：
 
-* The **session name** appears alongside the course title, so you always know which session you are working in
-* Learner data (progress, grades, submissions) is specific to this session
-* Some settings (like the ability to change the visibility of tools) may be locked by the session administrator
+* **工作階段名稱**會顯示在課程標題旁邊，讓您隨時知道目前處於哪個工作階段
+* 學習者資料（進度、分數、提交內容）特定於此工作階段
+* 某些設定（例如變更工具可見性的功能）可能由工作階段管理員鎖定
 
-## Session Roles
+## 工作階段角色
 
-Sessions introduce additional roles:
+工作階段引入額外的角色：
 
-| Role | Description |
+| 角色 | 描述 |
 |------|-------------|
-| **Session administrator** | Manages the creation and configuration of sessions |
-| **Session coach** | Oversees all courses within a session (can access tracking across courses) |
-| **Course coach** | Teaches a specific course within a session |
+| **工作階段管理員** | 管理工作階段的建立與設定 |
+| **工作階段教練** | 監督工作階段內的所有課程（可存取跨課程的追蹤資料） |
+| **課程教練** | 在工作階段中教授特定課程 |
 
-If you are assigned as a **course coach** in a session, you can manage that course's content and track learner progress for the session's learners.
+如果您被指派為工作階段中的 **課程教練**，您可以管理該課程的內容，並追蹤該工作階段學習者的進度。
 
-> Sessions are typically managed by administrators. If you need to create or modify a session, contact your platform administrator or session administrator.
+> 工作階段通常由管理員管理。如果您需要建立或修改工作階段，請聯絡您的平台管理員或工作階段管理員。

@@ -1,33 +1,32 @@
-# Search Settings
+# 搜尋設定
 
-Configuration of the full-text search system (Xapian).
+全文字搜尋系統 (Xapian) 的設定。
 
-Access these settings under **Administration > Configuration settings > Search**. This category contains **3 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+在 **管理 > 設定 > 搜尋** 下存取這些設定。此類別包含 **3 個設定**，以下列出平台設定預設資料 (`SettingsCurrentFixtures.php`) 中提供的標題和註解。
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> 程式碼中的變數名稱以等寬字體顯示。當透過 API 進行腳本編寫，或需要透過編輯 [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml) 在全域層級變更這些設定時，請使用它。
 
-## Settings
+## 設定
 
 ### `search_enabled`
 
-**Full-text search feature**
+**全文字搜尋功能**
 
-Select 'Yes' to enable this feature. It is highly dependent on the Xapian extension for PHP, so this will not work if this extension is not installed on your server, in version 1.x at minimum.
+選擇「是」以啟用此功能。它高度依賴 PHP 的 Xapian 延伸模組，因此如果您的伺服器未安裝此延伸模組（最低版本 1.x），則無法運作。
 
-*Default: `false`*
+*預設值：`false`*
 
 
 ### `search_prefilter_prefix`
 
-**Specific Field for prefilter**
+**預篩選特定欄位**
 
-This option let you choose the Specific field to use on prefilter search type.
+此選項讓您選擇用於預篩選搜尋類型的特定欄位。
 
 ### `search_show_unlinked_results`
 
-**Full-text search: show unlinked results**
+**全文字搜尋：顯示未連結結果**
 
-When showing the results of a full-text search, what should be done with the results that are not accessible to the current user?
+在顯示全文字搜尋結果時，對於目前使用者無法存取的結果應如何處理？
 
-*Default: `true`*
-
+*預設值：`true`*

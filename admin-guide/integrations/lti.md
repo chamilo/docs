@@ -1,57 +1,57 @@
 # LTI 1.3
 
-**LTI** (Learning Tools Interoperability) is a standard that allows external learning tools to be embedded within Chamilo. Version 1.3 is the latest and most secure version of the standard.
+**LTI**（Learning Tools Interoperability，學習工具互通性）是一種標準，允許外部學習工具嵌入 Chamilo 中。版本 1.3 是該標準的最新且最安全的版本。
 
-## What LTI Allows
+## LTI 所能實現的功能
 
-With LTI, you can embed external tools within Chamilo courses. Examples:
+使用 LTI，您可以在 Chamilo 課程中嵌入外部工具。範例：
 
-* Interactive simulations
-* Specialized assessment tools
-* Content authoring tools
-* Virtual labs
-* Third-party content libraries
+* 互動式模擬
+* 專用評估工具
+* 內容創作工具
+* 虛擬實驗室
+* 第三方內容庫
 
-The external tool appears seamlessly within the Chamilo interface.
+外部工具會無縫地出現在 Chamilo 介面中。
 
-## Configuring an LTI Tool
+## 設定 LTI 工具
 
-### As an Administrator
+### 以系統管理員身分
 
-1. Navigate to the LTI settings in the administration panel
-2. **Register the external tool** by providing:
-   * **Tool name** — A descriptive name
-   * **Login URL** — The OIDC login initiation URL of the external tool
-   * **Redirect URL** — The launch URL the tool returns to after login
-   * **Client ID** — Provided by the tool vendor
-   * **Public keyset URL (JWKS URL)** — The tool's JWKS endpoint for security key exchange
-3. Configure **grade passback** — Whether the tool can send grades back to Chamilo
-4. Save
+1. 前往管理面板中的 LTI 設定
+2. **註冊外部工具**，提供以下資訊：
+   * **工具名稱** — 描述性名稱
+   * **登入 URL** — 外部工具的 OIDC 登入啟動 URL
+   * **重新導向 URL** — 登入後工具返回的啟動 URL
+   * **Client ID** — 由工具供應商提供
+   * **公鑰集 URL (JWKS URL)** — 工具用於安全金鑰交換的 JWKS 端點
+3. 設定 **成績回傳** — 是否允許工具將成績傳回 Chamilo
+4. 儲存
 
-### As a Teacher
+### 以教師身分
 
-Once an LTI tool is registered by the administrator, teachers can add it to their courses:
+一旦系統管理員註冊 LTI 工具，教師即可將其新增至課程：
 
-1. In the course, look for the option to add an external tool
-2. Select from the registered LTI tools
-3. The tool appears as a course tool on the homepage
+1. 在課程中，尋找新增外部工具的選項
+2. 從已註冊的 LTI 工具中選擇
+3. 該工具會作為課程工具出現在首頁上
 
-## Security
+## 安全性
 
-LTI 1.3 uses:
+LTI 1.3 使用：
 
-* **OAuth 2.0** for authentication
-* **JSON Web Tokens (JWT)** for message signing
-* **Public/private key pairs** for verification
+* **OAuth 2.0** 進行驗證
+* **JSON Web Tokens (JWT)** 進行訊息簽署
+* **公私鑰對** 進行驗證
 
-This means credentials are never shared directly between Chamilo and the external tool.
+這表示 Chamilo 與外部工具之間不會直接分享認證資料。
 
-## Grade Passback
+## 成績回傳
 
-LTI tools can send grades back to Chamilo, which can be integrated into the course gradebook. This is configured per tool during registration.
+LTI 工具可以將成績傳回 Chamilo，並整合至課程成績簿中。此功能可在註冊工具時逐一設定。
 
-## Tips
+## 提示
 
-* **Verify tool compatibility** — Ensure the external tool supports LTI 1.3 (not just older versions)
-* **Test in a sandbox** — Test the LTI integration in a test course before using it in production
-* **Monitor performance** — External tools add network dependencies. Ensure the tool is responsive and reliable.
+* **驗證工具相容性** — 確保外部工具支援 LTI 1.3（不只是舊版本）
+* **在沙盒中測試** — 在正式環境中使用前，先在測試課程中測試 LTI 整合
+* **監控效能** — 外部工具會增加網路依賴性。確保工具的反應迅速且可靠。

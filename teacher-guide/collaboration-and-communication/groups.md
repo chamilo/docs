@@ -1,53 +1,53 @@
-# Groups
+# 群組
 
-Groups allow you to divide your learners into smaller teams for collaborative work. Each group can have its own shared tools, such as documents, forums, and a wiki.
+群組可讓您將學習者分成較小的團隊進行協作工作。每個群組可擁有自己的共享工具，例如文件、論壇和維基。
 
-## Creating Groups
+## 建立群組
 
-1. Open the **Groups** tool from the course homepage
-2. Click **Create groups**
-3. Configure the group settings:
-   * **Number of groups** — How many groups to create
-   * **Maximum members per group** — The size limit for each group (0 for unlimited)
-   * **Self-registration** — Whether learners can join groups on their own
-   * **Self-unregistration** — Whether learners can leave a group on their own
+1. 從課程首頁開啟 **Groups** 工具
+2. 點選 **Create groups**
+3. 設定群組選項：
+   * **Number of groups** — 要建立的群組數量
+   * **Maximum members per group** — 每個群組的成員上限（0 表示無限制）
+   * **Self-registration** — 學習者是否可自行加入群組
+   * **Self-unregistration** — 學習者是否可自行離開群組
 
-## Group Tools
+## 群組工具
 
-![The groups overview showing available group tools and member counts](/.gitbook/assets/groups-overview.png)
+![顯示可用群組工具和成員數量的群組概覽](/.gitbook/assets/groups-overview.png)
 
-Each group can have access to a subset of course tools that are shared only among group members:
+每個群組可存取僅限群組成員共享的課程工具子集：
 
-* **Documents** — A shared file space for the group
-* **Forum** — A group-specific discussion forum
-* **Wiki** — A collaborative wiki for the group
-* **Chat** — A chat space for the group
-* **Agenda** — Group-scoped calendar events
-* **Announcements** — Send announcements to group members only
-* **Assignments** — Collect work from the group
+* **Documents** — 群組的共享檔案空間
+* **Forum** — 群組專屬的討論論壇
+* **Wiki** — 群組的協作維基
+* **Chat** — 群組的聊天空間
+* **Agenda** — 群組範圍的行事曆事件
+* **Announcements** — 僅發送給群組成員的公告
+* **Assignments** — 收集群組作業
 
-For each tool you can choose its access level: **Not available**, **Public** (any course member), or **Private** (group members only). These settings can be applied at the group category level, so multiple groups in the same category share the same tool configuration.
+對於每個工具，您可選擇其存取層級：**Not available**、**Public**（任何課程成員）或 **Private**（僅限群組成員）。這些設定可套用至群組類別層級，因此同一類別中的多個群組會共享相同的工具設定。
 
-## Managing Group Members
+## 管理群組成員
 
-You can manage group membership in several ways:
+您可透過多種方式管理群組成員：
 
-* **Manual assignment** — Add specific learners to each group
-* **Fill selected groups** — Automatically distribute unsubscribed learners across the selected groups, respecting each group's capacity and the per-user group limit
-* **Self-registration** — Allow learners to choose their own group
-* **Import from classes** — Auto-create groups from the classes already enrolled in the course
+* **Manual assignment** — 將特定學習者手動新增至每個群組
+* **Fill selected groups** — 自動將未註冊學習者分配至選取的群組，依據每個群組的容量和每位使用者群組限制進行分配
+* **Self-registration** — 允許學習者自行選擇群組
+* **Import from classes** — 從已註冊課程的班級自動建立群組
 
-To manually manage members, click on a group name, then use the **Members** section to add or remove learners.
+若要手動管理成員，請點選群組名稱，然後使用 **Members** 區段新增或移除學習者。
 
-## Group Tutors
+## 群組導師
 
-You can assign **tutors** to groups. A tutor is typically a learner or assistant who helps manage the group's work. Tutors may have additional permissions within the group, such as moderating the group forum.
+您可將 **tutors** 指派至群組。導師通常是協助管理群組工作的學習者或助理。導師在群組內可能擁有額外權限，例如管理群組論壇。
 
-## Monitoring Group Work
+## 監控群組工作
 
-As the course teacher, you can access all groups and their shared tools regardless of membership. This allows you to:
+身為課程教師，您可存取所有群組及其共享工具，無關於成員資格。這可讓您：
 
-* Review documents uploaded by each group
-* Read group forum discussions
-* Check wiki contributions
-* Assess group collaboration
+* 檢閱每個群組上傳的文件
+* 閱讀群組論壇討論
+* 檢查維基貢獻
+* 評估群組協作

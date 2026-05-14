@@ -1,76 +1,76 @@
-# AI Configuration
+# AI 設定
 
-Chamilo 2.0 includes AI-powered features that require configuration before they become available to teachers and learners.
+Chamilo 2.0 包含 AI 驅動的功能，這些功能在提供給教師和學習者使用之前需要進行設定。
 
-## Supported AI Providers
+## 支援的 AI 提供者
 
-Chamilo supports multiple AI providers:
+Chamilo 支援多個 AI 提供者：
 
-| Provider | Capabilities |
-|----------|-------------|
-| **DeepSeek** | Text generation |
-| **Google Gemini** | Text, image, video generation |
-| **Grok** | Text, image, video generation |
-| **Mistral** | Text generation |
-| **OpenAI** | Text, image, video generation |
+| 提供者 | 功能 |
+|--------|------|
+| **DeepSeek** | 文字生成 |
+| **Google Gemini** | 文字、影像、影片生成 |
+| **Grok** | 文字、影像、影片生成 |
+| **Mistral** | 文字生成 |
+| **OpenAI** | 文字、影像、影片生成 |
 
-Each provider can be configured for different types of AI tasks:
+每個提供者可以針對不同類型的 AI 任務進行設定：
 
-* **Text** — Used for exercise generation, learning path generation, AI grading, and the AI tutor
-* **Image** — Used for AI image generation
-* **Video** — Used for AI video generation (where supported)
-* **Document** — Used for AI document analysis
+* **文字** — 用於練習生成、學習路徑生成、AI 評分以及 AI 導師
+* **影像** — 用於 AI 影像生成
+* **影片** — 用於 AI 影片生成（視支援情況而定）
+* **文件** — 用於 AI 文件分析
 
-## Configuration Steps
+## 設定步驟
 
-### 1. Obtain API Keys
+### 1. 取得 API 金鑰
 
-Register for an account with your chosen AI provider and obtain an API key:
+在您選擇的 AI 提供者註冊帳戶並取得 API 金鑰：
 
-* **DeepSeek**: [platform.deepseek.com](https://platform.deepseek.com/)
-* **Google Gemini**: Google AI Studio or Google Cloud
-* **Grok**: [console.x.ai](https://console.x.ai/)
-* **Mistral**: [console.mistral.ai](https://console.mistral.ai/)
-* **OpenAI**: [platform.openai.com](https://platform.openai.com/)
+* **DeepSeek**： [platform.deepseek.com](https://platform.deepseek.com/)
+* **Google Gemini**：Google AI Studio 或 Google Cloud
+* **Grok**： [console.x.ai](https://console.x.ai/)
+* **Mistral**： [console.mistral.ai](https://console.mistral.ai/)
+* **OpenAI**： [platform.openai.com](https://platform.openai.com/)
 
-### 2. Configure Providers in Chamilo
+### 2. 在 Chamilo 中設定提供者
 
-![The AI helpers configuration page showing provider settings with API key, model, and endpoint fields](/.gitbook/assets/admin-ai-helpers-config.png)
+![顯示提供者設定的 AI 助手設定頁面，包括 API 金鑰、模型和端點欄位](/.gitbook/assets/admin-ai-helpers-config.png)
 
-In the platform settings, navigate to the **AI Helpers** section:
+在平台設定中，導航至 **AI Helpers** 區段：
 
-1. **Enable AI helpers** — Turn on the AI features globally
-2. **Configure AI providers** — Add one or more providers with:
-   * **Provider name** (deepseek, gemini, grok, mistral, openai)
-   * **API key** — Your API key for the provider
-   * **Model** — The specific model to use (e.g., `gpt-4`, `gemini-pro`, `mistral-large`)
-   * **API URL** — The endpoint URL (pre-configured for standard providers)
+1. **啟用 AI 助手** — 全球啟用 AI 功能
+2. **設定 AI 提供者** — 新增一或多個提供者，並設定：
+   * **提供者名稱** (deepseek, gemini, grok, mistral, openai)
+   * **API 金鑰** — 該提供者的 API 金鑰
+   * **模型** — 要使用的特定模型（例如，`gpt-4`、`gemini-pro`、`mistral-large`）
+   * **API URL** — 端點 URL（標準提供者已預先設定）
 
-You can configure multiple providers. The first provider in the configuration becomes the default.
+您可以設定多個提供者。設定中第一個提供者將成為預設提供者。
 
-### 3. Enable Features Per Course
+### 3. 每門課程啟用功能
 
-AI features can be enabled or disabled at the course level. Teachers can toggle:
+AI 功能可以在課程層級啟用或停用。教師可以切換：
 
-* **AI Tutor chatbot** — The AI assistant for learners
-* **Assignment grader** — AI-generated grading recommendation
-* **Exercise generator** — AI-generated quiz questions
-* **Learning path generator** — AI-generated learning sequences
-* **Image/Video generator** — AI-generated images and videos in documents
+* **AI 導師聊天機器人** — 學習者的 AI 助理
+* **作業評分器** — AI 生成的評分建議
+* **練習生成器** — AI 生成的測驗問題
+* **學習路徑生成器** — AI 生成的學習序列
+* **影像/影片生成器** — 文件中的 AI 生成影像和影片
 
-This allows different courses to use different AI configurations based on their needs.
+這允許不同課程根據其需求使用不同的 AI 設定。
 
-## Cost Considerations
+## 成本考量
 
-AI API calls have costs associated with them. Consider:
+AI API 呼叫會產生相關成本。請考慮：
 
-* **Setting usage limits** — Monitor and limit AI API usage to control costs
-* **Choosing models wisely** — Smaller, less expensive models may be sufficient for many educational tasks
-* **Tracking usage** — Chamilo logs AI requests to help you monitor consumption
+* **設定使用限制** — 監控並限制 AI API 使用量以控制成本
+* **明智選擇模型** — 較小且成本較低的模型可能足以應付許多教育任務
+* **追蹤使用量** — Chamilo 記錄 AI 請求以幫助您監控消耗量
 
-## Tips
+## 提示
 
-* **Start with one provider** — Configure and test one provider before adding more
-* **Test with a course** — Enable AI features in a test course first to verify they work as expected
-* **Communicate with teachers** — Let teachers know which AI features are available and how to use them
-* **Monitor quality** — Regularly review AI-generated content to ensure it meets your educational standards
+* **從單一提供者開始** — 在新增更多提供者之前，先設定並測試一個提供者
+* **使用測試課程** — 先在測試課程中啟用 AI 功能，以驗證其運作是否符合預期
+* **與教師溝通** — 告知教師哪些 AI 功能可用以及如何使用
+* **監控品質** — 定期檢視 AI 生成的內容，確保符合您的教育標準

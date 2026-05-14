@@ -1,33 +1,33 @@
-# Course Progress
+# 課程進度
 
-The course progress tool helps you define the thematic structure of your course and track how much of the planned content has been delivered.
+課程進度工具幫助您定義課程的主題結構，並追蹤已交付的預期內容有多少。
 
-To students, it is a useful tool for those who have been sick for a few days and could not attend class, as they will known what topics have been talked about and how far the rest of the class has progressed in their absence.
+對學生而言，這是生病缺席幾天無法上課的學生很有用的工具，因為他們將知道已經討論過哪些主題，以及班上其他同學在他們缺席期間進度已達何處。
 
-## How It Works
+## 運作方式
 
-Course progress is organized into three layers:
+課程進度分為三個層級組織：
 
-* **Thematic sections** — The main topics or modules of your course
-* **Thematic plan** — For each section, what you intend to cover. Each plan entry is one of a fixed set of types: **Objectives**, **Skills to acquire**, **Methodology**, **Infrastructure**, **Assessment**, or **Others**.
-* **Thematic advance** — Discrete delivery records under each section, each with a start date and a duration in hours. Mark advances as **done** as you deliver them to track real progress against the plan.
+* **主題區段** — 課程的主要主題或模組
+* **主題計劃** — 每個區段中，您打算涵蓋的內容。每個計劃項目屬於固定類型之一：**目標**、**習得技能**、**教學方法**、**基礎設施**、**評量**或**其他**。
+* **主題進展** — 每個區段下的離散交付記錄，每筆記錄包含開始日期和小時數持續時間。當您交付內容時，將進展標記為**已完成**，以追蹤實際進度與計劃的對比。
 
-## Setting Up Course Progress
+## 設定課程進度
 
-1. Open the **Course progress** tool from the course homepage
-2. Create **thematic sections** that correspond to your course's main topics or modules
-3. Within each section, add **plan** entries by type to describe what you intend to cover
-4. As you deliver the content, add **thematic advances** with their date and duration, and mark them as done
-5. Decide the visibility of that information on the course homepage by changing the related settings in the **Course settings** section (cog icon at the top of the course homepage)
+1. 從課程首頁開啟 **Course progress** 工具
+2. 建立對應課程主要主題或模組的 **主題區段**
+3. 在每個區段內，按類型新增 **計劃** 項目，以描述您打算涵蓋的內容
+4. 當您交付內容時，新增 **主題進展**，包含日期和持續時間，並標記為已完成
+5. 透過變更 **Course settings** 區段（課程首頁頂部的齒輪圖示）中的相關設定，決定該資訊在課程首頁上的可見度
 
-You can optionally link a thematic advance to an attendance sheet so its start date is pulled from your attendance records. Sections (with their plan and advances) can also be **copied** within the same course/session.
+您可選擇將主題進展連結至點名表，以便其開始日期從點名記錄中擷取。區段（包含其計劃和進展）也可**複製**至相同課程/工作階段內。
 
-## Use Cases
+## 使用案例
 
-* **Track your teaching plan** — Monitor which parts of the course have been delivered and which remain
-* **Attendance integration** — Course progress can work alongside the attendance tool to correlate presence with topics covered
-* **Reporting** — Get a clear view of course delivery status over time
+* **追蹤教學計劃** — 監控課程哪些部分已交付，哪些仍待處理
+* **點名整合** — 課程進度可與點名工具搭配運作，將出席情況與涵蓋主題相關聯
+* **報表** — 取得課程交付狀態隨時間變化的清晰檢視
 
-## For Learners
+## 給學習者的資訊
 
-Learners can view the course progress to understand the course structure and see what topics have been covered so far. This is particularly useful for learners who join late or miss sessions.
+學習者可檢視課程進度，以了解課程結構並查看至今已涵蓋的主題。這對晚加入或缺席工作階段的學習者特別有用。

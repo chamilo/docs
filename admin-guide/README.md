@@ -1,35 +1,35 @@
-# Administration Guide
+# 管理指南
 
-Welcome to the Chamilo 2.0 Administration Guide. This guide is designed for platform administrators responsible for installing, configuring, and managing a Chamilo instance.
+歡迎閱讀 Chamilo 2.0 管理指南。本指南專為負責安裝、配置和管理 Chamilo 實例的平台管理員設計。
 
-## What you can do as an Administrator
+## 作為管理員您可以做什麼
 
-As a Chamilo administrator, you manage:
+作為 Chamilo 管理員，您可以管理：
 
-* **Installation and configuration** — Set up Chamilo on your server, configure storage, email, and environment settings
-* **Users** — Create, import, and manage user accounts, roles, and permissions
-* **Courses and sessions** — Oversee course creation, manage the course catalog, and configure training sessions
-* **Platform settings** — Configure portal behavior, security, performance, and feature availability
-* **Authentication** — Set up external login systems (OAuth2, LDAP, CAS, SCIM)
-* **Integrations** — Connect Chamilo to video conferencing, LTI tools, AI providers, and more
-* **Branding** — Customize the look and feel of the platform with themes and visual settings
-* **Maintenance** — Perform backups, monitor system health, and manage storage
+* **安裝與配置** — 在您的伺服器上設置 Chamilo，配置儲存、電子郵件和環境設置
+* **使用者** — 建立、匯入和管理使用者帳戶、角色和權限
+* **課程與會期** — 監督課程建立，管理課程目錄，並配置培訓會期
+* **平台設置** — 配置門戶行為、安全性、效能和功能可用性
+* **認證** — 設置外部登入系統（OAuth2、LDAP、CAS、SCIM）
+* **整合** — 將 Chamilo 連接到視訊會議、LTI 工具、AI 提供商等
+* **品牌化** — 使用主題和視覺設置自訂平台的外觀和風格
+* **維護** — 執行備份、監控系統健康狀況和管理儲存
 
-## How this guide is organized
+## 本指南的組織方式
 
-1. **Getting Started** — An overview of the administration interface
-2. **Installation** — Server requirements, installation wizard, and initial configuration
-3. **Users** — Managing user accounts, roles, groups, and profiles
-4. **Courses** — Managing courses, categories, and import/export
-5. **Sessions** — Organizing time-bound training cohorts
-6. **Platform Settings** — Configuring every aspect of the platform
-7. **Authentication** — Setting up external authentication providers
-8. **Integrations** — Connecting third-party services
-9. **Plugins** — Managing platform extensions
-10. **Multi-URL** — Running multiple portals from a single installation
-11. **Maintenance** — Backups, system status, and cleanup
-12. **Branding** — Customizing the platform appearance
+1. **入門** — 管理介面概述
+2. **安裝** — 伺服器需求、安裝精靈和初始配置
+3. **使用者** — 管理使用者帳戶、角色、群組和個人資料
+4. **課程** — 管理課程、類別和匯入/匯出
+5. **會期** — 組織有時間限制的培訓群組
+6. **平台設置** — 配置平台的各個方面
+7. **認證** — 設置外部認證提供商
+8. **整合** — 連接第三方服務
+9. **插件** — 管理平台擴展
+10. **多網址** — 從單一安裝運行多個門戶
+11. **維護** — 備份、系統狀態和清理
+12. **品牌化** — 自訂平台外觀
 
-## Accessing the Administration Panel
+## 存取管理面板
 
-After logging in as an administrator, click **Administration** <img src="/.gitbook/assets/icons/mdi-cogs.svg" alt="Admin" data-size="line"> in the sidebar to access the administration panel.
+以管理員身份登入後，點擊側邊欄中的 **Administration** <img src="/.gitbook/assets/icons/mdi-cogs.svg" alt="管理" data-size="line"> 以存取管理面板。

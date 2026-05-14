@@ -1,76 +1,76 @@
-# Views and Routing
+# 視圖與路由
 
-Chamilo has a large set of Vue views (page-level components) connected via Vue Router. The actual files live under `assets/vue/views/`.
+Chamilo 擁有大量 Vue 視圖（頁面層級元件），透過 Vue Router 連接。實際檔案位於 `assets/vue/views/`。
 
-## Router Architecture
+## 路由架構
 
-The router is defined in `assets/vue/router/index.js` using `createWebHistory` for clean URLs.
+路由定義於 `assets/vue/router/index.js`，使用 `createWebHistory` 以產生乾淨的 URL。
 
-Routes are modular — organized into per-feature route files imported into the main router:
+路由採用模組化設計 — 依功能組織成各路由檔案，並匯入至主路由：
 
-| Route module | Pages |
-|-------------|-------|
-| `admin` | Administration panel pages |
-| `sessionAdmin` | Session administration pages |
-| `course` | Course list, creation, home, catalog |
-| `account` | User profile and settings |
-| `personalfile` | Personal file space |
-| `message` | Messaging / inbox |
-| `user` | User management pages |
-| `usergroup` | User group (class) pages |
-| `userreluser` | User relationship (friend/follow) pages |
-| `ccalendarevent` | Course calendar and agenda |
-| `ctoolintro` | Course tool introduction pages |
-| `page` | Static CMS pages |
-| `pageLayout` | Page layout wrappers |
-| `publicPage` | Publicly accessible pages |
-| `social` | Social network pages |
-| `filemanager` | File manager (course documents browser) |
-| `skill` | Skills and competencies pages |
-| `accessurl` | Multi-URL (portal) management pages |
-| `branch` | Branch / network campus pages |
-| `room` | Virtual room pages |
-| `buycourses` | Course purchase pages |
-| `documents` | Document management |
-| `assignments` | Assignment workflow |
-| `links` | External links management |
-| `glossary` | Glossary management |
-| `attendance` | Attendance tracking |
-| `lp` | Learning path player and editor |
-| `dropbox` | Dropbox / file exchange |
-| `blog` | Blog pages |
-| `blogAdmin` | Blog administration |
-| `coursemaintenance` | Course backup and restore |
-| `catalogue` | Course and session catalogs |
+| 路由模組 | 頁面 |
+|----------|------|
+| `admin` | 管理面板頁面 |
+| `sessionAdmin` | 課程工作階段管理頁面 |
+| `course` | 課程清單、建立、首頁、目錄 |
+| `account` | 使用者個人檔案與設定 |
+| `personalfile` | 個人檔案空間 |
+| `message` | 訊息 / 收件匣 |
+| `user` | 使用者管理頁面 |
+| `usergroup` | 使用者群組（班級）頁面 |
+| `userreluser` | 使用者關係（朋友/追蹤）頁面 |
+| `ccalendarevent` | 課程行事曆與議程 |
+| `ctoolintro` | 課程工具介紹頁面 |
+| `page` | 靜態 CMS 頁面 |
+| `pageLayout` | 頁面佈局包裝器 |
+| `publicPage` | 公開存取頁面 |
+| `social` | 社群網路頁面 |
+| `filemanager` | 檔案管理器（課程文件瀏覽器） |
+| `skill` | 技能與能力頁面 |
+| `accessurl` | 多 URL（入口網站）管理頁面 |
+| `branch` | 分支 / 網路校園頁面 |
+| `room` | 虛擬教室頁面 |
+| `buycourses` | 課程購買頁面 |
+| `documents` | 文件管理 |
+| `assignments` | 作業工作流程 |
+| `links` | 外部連結管理 |
+| `glossary` | 詞彙管理 |
+| `attendance` | 出席追蹤 |
+| `lp` | 學習路徑播放器與編輯器 |
+| `dropbox` | Dropbox / 檔案交換 |
+| `blog` | 部落格頁面 |
+| `blogAdmin` | 部落格管理 |
+| `coursemaintenance` | 課程備份與還原 |
+| `catalogue` | 課程與工作階段目錄 |
 
-## Key Routes
+## 主要路由
 
-| Path | View | Description |
-|------|------|-------------|
-| `/` | `AppIndex.vue` (or custom) | Application entry point |
-| `/home` | `pages/Home.vue` | Platform home page |
-| `/login` | `pages/Login.vue` | Login page |
-| `/courses` | `views/user/courses/List.vue` | User's enrolled courses |
-| `/sessions` | `views/user/sessions/SessionsCurrent.vue` | Current sessions |
-| `/sessions/past` | `views/user/sessions/SessionsPast.vue` | Past sessions |
-| `/sessions/upcoming` | `views/user/sessions/SessionsUpcoming.vue` | Upcoming sessions |
-| `/course/:id/home` | `views/course/CourseHome.vue` | Course homepage |
-| `/account/home` | `views/account/Home.vue` | User profile |
-| `/admin` | Admin views | Administration panel |
-| `/faq` | `pages/Faq.vue` | FAQ page |
+| 路徑 | 視圖 | 描述 |
+|------|------|------|
+| `/` | `AppIndex.vue` (或自訂) | 應用程式入口點 |
+| `/home` | `pages/Home.vue` | 平台首頁 |
+| `/login` | `pages/Login.vue` | 登入頁面 |
+| `/courses` | `views/user/courses/List.vue` | 使用者註冊課程 |
+| `/sessions` | `views/user/sessions/SessionsCurrent.vue` | 目前工作階段 |
+| `/sessions/past` | `views/user/sessions/SessionsPast.vue` | 過去工作階段 |
+| `/sessions/upcoming` | `views/user/sessions/SessionsUpcoming.vue` | 即將開始工作階段 |
+| `/course/:id/home` | `views/course/CourseHome.vue` | 課程首頁 |
+| `/account/home` | `views/account/Home.vue` | 使用者個人檔案 |
+| `/admin` | Admin views | 管理面板 |
+| `/faq` | `pages/Faq.vue` | 常見問題頁面 |
 
-## Route Guards
+## 路由守衛
 
-The router uses navigation guards (declared with `beforeEach` and `afterEach`) to:
+路由使用導航守衛（以 `beforeEach` 和 `afterEach` 宣告）來：
 
-* Check authentication status via `useSecurityStore` and redirect unauthenticated users to `/login`
-* Verify course context via `useCidReqStore`
-* Apply page-type CSS classes during SPA navigation (replacing what Twig's `PageHelper` would do on a full page load)
-* Support custom Vue template overrides — the entry component at `/` is swapped for a custom `AppIndex.vue` when a custom Vue template is enabled (`var/vue_templates/pages/AppIndex.vue`)
+* 透過 `useSecurityStore` 檢查認證狀態，並將未認證使用者重新導向至 `/login`
+* 透過 `useCidReqStore` 驗證課程脈絡
+* 在 SPA 導航期間套用頁面類型 CSS 類別（取代 Twig 的 `PageHelper` 在完整頁面載入時所做的工作）
+* 支援自訂 Vue 範本覆寫 — 當啟用自訂 Vue 範本（`var/vue_templates/pages/AppIndex.vue`）時，入口元件 `/` 會替換為自訂的 `AppIndex.vue`
 
-## View Organization
+## 視圖組織
 
-Views are in `assets/vue/views/`, organized by feature:
+視圖位於 `assets/vue/views/`，依功能組織：
 
 ```
 views/

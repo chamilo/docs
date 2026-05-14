@@ -1,32 +1,31 @@
-# Glossary Settings
+# 詞彙表設定
 
-Behaviour of the course **Glossary** tool.
+課程 **詞彙表** 工具的行為。
 
-Access these settings under **Administration > Configuration settings > Glossary**. This category contains **3 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+在 **管理 > 設定 > 詞彙表** 下存取這些設定。此類別包含 **3 個設定**，以下列出平台設定預設值 (`SettingsCurrentFixtures.php`) 中提供的標題和註解。
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> 程式碼中的變數名稱以等寬字體顯示。當透過 API 進行腳本編寫，或需要透過編輯 [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml) 在全域層級變更這些設定時，請使用它。
 
-## Settings
+## 設定
 
 ### `allow_remove_tags_in_glossary_export`
 
-**Remove HTML tags in glossary export**
+**在詞彙表匯出中移除 HTML 標籤**
 
-When enabled, HTML tags are removed from glossary term definitions when exporting.
+啟用時，在匯出詞彙表條目定義時會移除 HTML 標籤。
 
-*Default: `false`*
+*預設值：`false`*
 
 ### `default_glossary_view`
 
-**Default glossary view**
+**預設詞彙表檢視**
 
-Choose which view ('table' or 'list') will be used by default in the glossary tool.
+選擇詞彙表工具中預設使用的檢視方式 ('table' 或 'list')。
 
-*Default: `table`*
+*預設值：`table`*
 
 ### `show_glossary_in_extra_tools`
 
-**Show the glossary terms in extra tools**
+**在額外工具中顯示詞彙表條目**
 
-From here you can configure how to add the glossary terms in extra tools as learning path and exercice tool
-
+從這裡您可以設定如何在額外工具中新增詞彙表條目，例如學習路徑和練習工具

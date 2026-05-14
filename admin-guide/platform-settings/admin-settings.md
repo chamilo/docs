@@ -1,96 +1,95 @@
-# Administrator Identity Settings
+# 管理員身份設定
 
-Identity and contact details of the platform administrator. These values appear in the platform footer and in some system-generated emails.
+平台管理員的身份和聯絡資訊。這些值會出現在平台頁尾以及某些系統產生的電子郵件中。
 
-Access these settings under **Administration > Configuration settings > Administrator Identity**. This category contains **12 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+在 **管理 > 設定 > 管理員身份** 下存取這些設定。此類別包含 **12 個設定**，以下列出平台設定預設值 (`SettingsCurrentFixtures.php`) 中提供的標題和註解。
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> 程式碼中的變數名稱以等寬字體顯示。使用 API 進行腳本編寫，或需透過編輯 [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml) 在全域層級變更這些設定時，請使用它。
 
-## Settings
+## 設定
 
 ### `administrator_email`
 
-**Portal Administrator: e-mail**
+**入口網站管理員：電子郵件**
 
-The e-mail address of the Platform Administrator (appears in the footer on the left)
+平台管理員的電子郵件地址（出現在頁尾左側）
 
 ### `administrator_name`
 
-**Portal Administrator: First Name**
+**入口網站管理員：名字**
 
-The First Name of the Platform Administrator (appears in the footer on the left)
+平台管理員的名字（出現在頁尾左側）
 
 ### `administrator_phone`
 
-**Portal Administrator: Phone number**
+**入口網站管理員：電話號碼**
 
-The phone number of the Platform Administrator (appears in the footer on the left)
+平台管理員的電話號碼（出現在頁尾左側）
 
 ### `administrator_surname`
 
-**Portal Administrator: Last Name**
+**入口網站管理員：姓氏**
 
-The Family Name of the Platform Administrator (appears in the footer on the left)
+平台管理員的姓氏（出現在頁尾左側）
 
 ### `chamilo_latest_news`
 
-**Latest news**
+**最新消息**
 
-Get the latest news from Chamilo, including security vulnerabilities and events, directly inside your administration panel. These pieces of news will be checked on the Chamilo news server every time you load the administration page and are only visible to administrators.
+直接在您的管理面板中取得 Chamilo 的最新消息，包括安全性漏洞和活動。這些消息每次載入管理頁面時都會在 Chamilo 新聞伺服器上檢查，且僅對管理員可見。
 
-*Default: `true`*
+*預設值：`true`*
 
 ### `chamilo_support`
 
-**Chamilo support block**
+**Chamilo 支援區塊**
 
-Get pro tips and an easy way to contact official service providers for professional support, directly from the makers of Chamilo. This block appears on your administration page, is only visible by administrators, and refreshes every time you load the administration page.
+直接從 Chamilo 製作團隊取得專業提示以及聯絡官方服務提供者的簡易方式，以獲得專業支援。此區塊會出現在您的管理頁面，僅對管理員可見，且每次載入管理頁面時都會重新整理。
 
-*Default: `true`*
+*預設值：`true`*
 
 ### `max_anonymous_users`
 
-**Multiple anonymous users**
+**多個匿名使用者**
 
-Enable this option to allow multiple system users for anonymous users. This is useful when using this platform as a public showroom for some courses. Having multiple anonymous users will let tracking work for the duration of the experience for several users without mixing their data (which could otherwise confuse them).
+啟用此選項以允許多個系統使用者供匿名使用者使用。這在將此平台用作某些課程的公開展示間時非常有用。擁有多个匿名使用者將允許追蹤功能在多位使用者的體驗期間正常運作，而不會混淆他們的資料（否則可能會讓他們感到困惑）。
 
-*Default: `0`*
+*預設值：`0`*
 
 ### `redirect_admin_to_courses_list`
 
-**Redirect admin to courses list**
+**將管理員重新導向至課程清單**
 
-The default behaviour is to send administrators directly to the administration panel (while teachers and students are sent to the courses list or the platform homepage). Enable to redirect the administrator also to his/her courses list.
+預設行為是將管理員直接送至管理面板（而教師和學生則被送至課程清單或平台首頁）。啟用此選項以將管理員也重新導向至其課程清單。
 
-*Default: `false`*
+*預設值：`false`*
 
 ### `send_inscription_notification_to_general_admin_only`
 
-**Notify global admin only of new users**
+**僅通知全域管理員新使用者**
 
-When enabled, only the global administrator receives email notifications about new user registrations instead of all administrators.
+啟用時，僅全域管理員會收到新使用者註冊的電子郵件通知，而非所有管理員。
 
-*Default: `false`*
+*預設值：`false`*
 
 ### `show_link_request_hrm_user`
 
-**Show link to request bond between user and HRM**
+**顯示要求使用者與 HRM 連結的連結**
 
-Display a link on the profile page allowing Human Resources directors to request to be linked with a user account.
+在個人檔案頁面上顯示連結，允許人力資源主管要求與使用者帳戶連結。
 
-*Default: `false`*
+*預設值：`false`*
 
 ### `user_status_option_only_for_admin_enabled`
 
-**Hide role from normal users**
+**對一般使用者隱藏角色**
 
-Allows hiding users' role when this option is set to true and the following array sets the corresponding role to 'true'.
+當此選項設為 true 且下列陣列將對應角色設為 'true' 時，允許隱藏使用者的角色。
 
-*Default: `false`*
+*預設值：`false`*
 
 ### `user_status_option_show_only_for_admin`
 
-**Define which roles are hidden to normal users**
+**定義對一般使用者隱藏哪些角色**
 
-The roles set to 'true' will only appear to administrators. Other users will not be able to see them.
-
+設為 'true' 的角色僅會對管理員顯示。其他使用者將無法看到它們。

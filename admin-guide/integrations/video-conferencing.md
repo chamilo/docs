@@ -1,59 +1,59 @@
-# Video Conferencing
+# 視訊會議
 
-Chamilo integrates with video conferencing platforms to enable live sessions within courses.
+Chamilo 整合視訊會議平台，以在課程中啟用即時會議。
 
-## Supported Platforms
+## 支援的平台
 
 ### BigBlueButton
 
-**BigBlueButton** (BBB) is an open-source web conferencing system designed for online learning. It is the most commonly used video conferencing solution with Chamilo.
+**BigBlueButton** (BBB) 是一款專為線上學習設計的開源網頁會議系統。它是 Chamilo 最常用的視訊會議解決方案。
 
-#### Configuration
+#### 設定
 
-1. Install BigBlueButton on a separate server (see [BigBlueButton documentation](https://docs.bigbluebutton.org/))
-2. Use bbb-conf --salt on the BBB server to get the integration details
-3. In Chamilo platform settings, **Plugins**, install the Videoconference plugin and enter its config to set:
-   * **BBB server URL** — The address of your BBB server
-   * **BBB salt/secret** — The API secret from your BBB server
-4. Save
-5. **Enable** the Videoconference plugin
-6. Some special features are available to admins, so make sure you enable it in the *admin_page* region
+1. 在獨立的伺服器上安裝 BigBlueButton（參閱 [BigBlueButton 文件](https://docs.bigbluebutton.org/)）
+2. 在 BBB 伺服器上使用 `bbb-conf --salt` 取得整合詳細資訊
+3. 在 Chamilo 平台設定中，**外掛**，安裝 Videoconference 外掛並輸入其設定以設定：
+   * **BBB server URL** — 您的 BBB 伺服器位址
+   * **BBB salt/secret** — 來自您的 BBB 伺服器的 API 金鑰
+4. 儲存
+5. **啟用** Videoconference 外掛
+6. 某些特殊功能僅供管理員使用，因此請確保在 *admin_page* 區域中啟用它
 
-#### Features Available in Chamilo
+#### Chamilo 中可用的功能
 
-* Start/join meetings from within a course
-* Automatic room creation per course
-* Meeting recordings (if enabled)
-* Screen sharing, whiteboard, breakout rooms
-* Chat alongside video
+* 從課程內啟動/加入會議
+* 每個課程自動建立會議室
+* 會議錄影（如果啟用）
+* 螢幕分享、電子白板、分組討論室
+* 視訊旁邊的聊天功能
 
 ### Zoom
 
-Chamilo can also integrate with **Zoom** for video conferencing.
+Chamilo 也可以整合 **Zoom** 進行視訊會議。
 
-#### Configuration
+#### 設定
 
-1. Create a Zoom app in the Zoom Marketplace
-2. In Chamilo, configure the Zoom API credentials
-3. Enable the Zoom integration
+1. 在 Zoom Marketplace 中建立 Zoom 應用程式
+2. 在 Chamilo 中設定 Zoom API 認證資訊
+3. 啟用 Zoom 整合
 
-#### How It Works
+#### 運作方式
 
-When Zoom is configured, teachers can create and launch Zoom meetings from within their course. Learners join through the Chamilo interface.
+當 Zoom 設定完成後，教師可以從其課程內建立並啟動 Zoom 會議。學習者透過 Chamilo 介面加入。
 
-## Choosing Between BBB and Zoom
+## BBB 與 Zoom 的選擇
 
-| Feature | BigBlueButton | Zoom |
+| 功能 | BigBlueButton | Zoom |
 |---------|--------------|------|
-| Cost | Free (open-source), but requires your own server | Requires a Zoom subscription |
-| Hosting | Self-hosted | Cloud-hosted by Zoom |
-| Integration depth | Deep (built for LMS use) | Standard |
-| Recording | Server-side, stored on your infrastructure | Zoom cloud or local |
-| Whiteboard | Built-in | Built-in |
-| Breakout rooms | Yes | Yes |
+| 成本 | 免費（開源），但需要自己的伺服器 | 需要 Zoom 訂閱 |
+| 託管 | 自託管 | 由 Zoom 雲端託管 |
+| 整合深度 | 深度（專為 LMS 使用而建） | 標準 |
+| 錄影 | 伺服器端，儲存在您的基礎設施上 | Zoom 雲端或本機 |
+| 電子白板 | 內建 | 內建 |
+| 分組討論室 | 是 | 是 |
 
-## Tips
+## 提示
 
-* **Separate server for BBB** — BigBlueButton should run on its own dedicated server for best performance, not on the same server as Chamilo
-* **Test before classes** — Always test the video conferencing setup before a live session
-* **Check bandwidth** — Ensure your server and network can handle the expected number of concurrent users
+* **BBB 的獨立伺服器** — 為了獲得最佳效能，BigBlueButton 應運行在其專用伺服器上，而非與 Chamilo 相同的伺服器
+* **上課前測試** — 總是在即時會議前測試視訊會議設定
+* **檢查頻寬** — 確保您的伺服器和網路能夠處理預期的並行使用者數量

@@ -1,31 +1,31 @@
 # OnlyOffice
 
-**OnlyOffice** integration allows users to edit documents (Word, Excel, PowerPoint) directly in the browser within Chamilo, without downloading them.
+**OnlyOffice** 整合功能允許使用者在 Chamilo 內直接於瀏覽器中編輯文件（Word、Excel、PowerPoint），無需下載。
 
-## What OnlyOffice Provides
+## OnlyOffice 提供的功能
 
-* **Document editing** — Edit .docx, .xlsx, .pptx files in the browser
-* **Format compatibility** — Full compatibility with Microsoft Office formats
-* **No desktop software needed** — Everything runs in the browser
+* **文件編輯** — 在瀏覽器中編輯 .docx、.xlsx、.pptx 檔案
+* **格式相容性** — 與 Microsoft Office 格式完全相容
+* **無需桌面軟體** — 一切皆在瀏覽器中運行
 
-> Real-time collaborative editing depends on the OnlyOffice Document Server itself; Chamilo's plugin opens and saves documents through the server but does not add or restrict that capability.
+> 即時協作編輯取決於 OnlyOffice Document Server 本身；Chamilo 的外掛程式透過伺服器開啟並儲存文件，但不會新增或限制該功能。
 
-## Configuration
+## 設定
 
-1. Install **OnlyOffice Document Server** on your server (or use the OnlyOffice cloud service)
-2. In Chamilo platform settings, configure:
-   * **OnlyOffice Document Server URL** — The address of your OnlyOffice server
-   * **Secret key** — For secure communication between Chamilo and OnlyOffice
-3. Enable the integration
+1. 在您的伺服器上安裝 **OnlyOffice Document Server**（或使用 OnlyOffice 雲端服務）
+2. 在 Chamilo 平台設定中，設定：
+   * **OnlyOffice Document Server URL** — 您的 OnlyOffice 伺服器位址
+   * **Secret key** — 用於 Chamilo 與 OnlyOffice 之間的安全通訊
+3. 啟用整合功能
 
-## How It Works
+## 運作方式
 
-Once configured, users see an **Edit with OnlyOffice** option when viewing supported document types in the Documents tool. Clicking it opens the document in the OnlyOffice editor within the Chamilo interface.
+設定完成後，使用者在「文件」工具中檢視支援的文件類型時，將看到 **Edit with OnlyOffice** 選項。點擊後，文件將在 Chamilo 介面內的 OnlyOffice 編輯器中開啟。
 
-Changes are saved back to Chamilo's document storage automatically.
+變更會自動儲存回 Chamilo 的文件儲存區。
 
-## Tips
+## 提示
 
-* **Separate server recommended** — Like BigBlueButton, OnlyOffice Document Server should run on its own server for best performance
-* **HTTPS required** — Both Chamilo and OnlyOffice should be served over HTTPS for the integration to work
-* **Check formats** — OnlyOffice works best with Office formats (.docx, .xlsx, .pptx). Other formats may have limited editing support.
+* **建議使用獨立伺服器** — 如同 BigBlueButton，OnlyOffice Document Server 應運行在專用伺服器上以獲得最佳效能
+* **需要 HTTPS** — Chamilo 和 OnlyOffice 均需透過 HTTPS 提供服務，整合功能才能運作
+* **檢查格式** — OnlyOffice 與 Office 格式（.docx、.xlsx、.pptx）相容最佳。其他格式的編輯支援可能有限。

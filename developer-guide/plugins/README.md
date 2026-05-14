@@ -1,7 +1,7 @@
-# Plugins
+# 外掛程式
 
-Chamilo's plugin system lets you extend the platform without modifying core code. A set of plugins ships with the distribution under `public/plugin/`.
+Chamilo 的外掛程式系統讓您能夠擴充平台功能，而無需修改核心程式碼。一套外掛程式隨發行版本提供，位於 `public/plugin/` 之下。
 
-* **[Plugin Architecture](plugin-architecture.md)** — How plugins are structured
-* **[Creating a Plugin](creating-a-plugin.md)** — Step-by-step guide to building a plugin
-* **[Course Tool Plugins](course-tool-plugins.md)** — Plugins that add tools to courses
+* **[外掛程式架構](plugin-architecture.md)** — 外掛程式的結構方式
+* **[建立外掛程式](creating-a-plugin.md)** — 建立外掛程式的逐步指南
+* **[課程工具外掛程式](course-tool-plugins.md)** — 為課程新增工具的外掛程式

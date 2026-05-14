@@ -1,59 +1,59 @@
-# Wiki
+# 維基
 
-The wiki tool lets you and your learners collaboratively create and edit web pages within the course. It is useful for group projects, shared knowledge bases, and collaborative writing exercises.
+使用維基工具，您或學習者可以在課程內共同建立及編輯網頁。有助於團體專案、共享知識庫及共同寫作練習。
 
-## How the Wiki Works
+## 維基的運作方式
 
-A wiki is a collection of interlinked web pages that anyone with permission can edit. In Chamilo:
+維基是由具備權限的任何人皆可編輯的互聯網頁集合。在 Chamilo 中：
 
-* Each course has its own wiki
-* Pages can be linked to each other using wiki-style links
-* All edits are tracked with a revision history
-* Previous versions can be compared and restored
+* 每個課程皆有專屬的維基
+* 頁面可使用維基格式的連結相互連結
+* 所有編輯皆會在修訂歷史中追蹤
+* 可以比較或還原先前的版本
 
-## Creating a Wiki Page
+## 建立維基頁面
 
-1. Open the **Wiki** tool from the course homepage
-2. Click **Add a new page**
-3. Enter a **page title**
-4. Write the page content using the rich-text editor
-5. Save
+1. 從課程首頁開啟**維基**工具
+2. 點擊**新增頁面**
+3. 輸入**頁面標題**
+4. 使用富文本編輯器描述頁面內容
+5. 儲存
 
-To link to another wiki page from within the editor, create a link using the target page's title.
+要在編輯器內連結至另一個維基頁面，請使用目標頁面的標題建立連結。
 
-## Editing Pages
+## 編輯頁面
 
-Anyone with edit permissions can modify a wiki page:
+具備編輯權限的任何人皆可修改維基頁面：
 
-1. Open the page you want to edit
-2. Click the **Edit** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Edit" data-size="line"> button
-3. Make your changes in the editor
-4. Add an optional **Comments** entry describing what you changed
-5. Save
+1. 開啟欲編輯的頁面
+2. 點擊**編輯** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="編輯" data-size="line"> 按鈕
+3. 在編輯器中進行變更
+4. 選擇性新增描述變更內容的**評論**
+5. 儲存
 
-## Revision History
+## 修訂歷史
 
-Every edit creates a new revision. You can:
+每次編輯皆會建立新的修訂。您可以執行以下操作：
 
-* **View history** — See a list of all revisions with timestamps and authors
-* **Compare versions** — See what changed between two revisions
-* **Restore a version** — Revert the page to a previous revision if needed
+* **顯示歷史** — 查看包含時間戳記及建立者的所有修訂清單
+* **比較版本** — 確認兩個修訂之間的變更
+* **還原版本** — 視需要將頁面還原至先前的修訂
 
-## Managing the Wiki
+## 維基管理
 
-As the course teacher, you can:
+身為課程教師，您可以執行以下操作：
 
-* **View all pages** — See a list of all wiki pages in the course
-* **Find orphan pages** — Identify pages that are not linked from any other page
-* **Find wanted pages** — See pages that are linked to but do not yet exist
-* **Lock a page for editing** — Block all edits on a page while you finalise it
-* **Toggle visibility** — Hide a page from learners
-* **Delete pages** — Remove pages that are no longer needed
-* **Monitor contributions** — Review per-user statistics: most active editors, most edited pages, most visited pages
-* **Export** — Export a wiki page to PDF, or send it into the Documents tool
+* **顯示所有頁面** — 查看課程內所有維基頁面的清單
+* **找出孤立頁面** — 辨識未被其他頁面連結的頁面
+* **找出所需頁面** — 查看已連結但尚未存在的頁面
+* **鎖定頁面編輯** — 在最終化頁面期間封鎖所有編輯
+* **切換顯示/隱藏** — 對學習者隱藏頁面
+* **刪除頁面** — 刪除不再需要的頁面
+* **監控貢獻** — 查看使用者統計資料：最活躍編輯者、最常被編輯的頁面、最常被造訪的頁面
+* **匯出** — 將維基頁面匯出為 PDF，或傳送至文件工具
 
-## Tips
+## 提示
 
-* **Use the wiki for group projects** — Assign each group a wiki page to collaboratively build their deliverable
-* **Create a course knowledge base** — Build a reference wiki with key concepts, and encourage learners to contribute
-* **Review edit history** — The revision history lets you assess individual contributions in collaborative work
+* **用於團體專案** — 為每個團體指派維基頁面，讓他們共同建立成果
+* **建立課程知識庫** — 建構包含主要概念的參考維基，並鼓勵學習者貢獻
+* **確認編輯歷史** — 使用修訂歷史評估共同作業中的個人貢獻

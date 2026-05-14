@@ -1,50 +1,50 @@
-# Certificates and Skills
+# 證書與技能
 
-Chamilo allows you to award certificates to learners who meet specific achievement criteria, and to validate skills associated with those achievements.
+Chamilo 允許您向符合特定成就條件的學習者頒發證書，並驗證與這些成就相關的技能。
 
-## How Certificates Work
+## 證書運作方式
 
-Certificates are linked to the **Assessments** (also called Gradebook). When a learner's grade meets or exceeds the minimum threshold you define, a certificate becomes available for them to download.
+證書連結至 **Assessments**（也稱為 Gradebook）。當學習者的成績達到或超過您定義的最低門檻時，他們即可下載證書。
 
-The workflow is:
+工作流程如下：
 
-1. Set up the [Assessments](../assessing-learners/gradebook.md) with your exercises, assignments, and other graded activities
-2. Define a **minimum certification score** (e.g., 70%)
-3. When a learner reaches that score, they can download their certificate (either within the Assessments tool itself, or from a learning path if you've configured the final step for that). As a teacher, you can also use the **Generate certificates** action in the gradebook to create the PDFs in batch for all eligible learners.
+1. 設定 [Assessments](../assessing-learners/gradebook.md)，包含您的練習、作業及其他評分活動
+2. 定義 **最低認證分數**（例如 70%）
+3. 當學習者達到該分數時，他們即可下載證書（可在 Assessments 工具內，或若您已設定學習路徑的最終步驟，則從學習路徑下載）。身為教師，您也可以在 gradebook 中使用 **Generate certificates** 動作，為所有符合資格的學習者批次建立 PDF。
 
-## Certificate Templates
+## 證書範本
 
-Certificates use templates defined by the platform administrator. The template typically includes:
+證書使用平台管理員定義的範本。範本通常包含：
 
-* The learner's name
-* The course name
-* The date of completion
-* The score achieved
-* A QR code or URL for online verification
+* 學習者姓名
+* 課程名稱
+* 完成日期
+* 取得的成績
+* 用於線上驗證的 QR code 或 URL
 
-## Skills
+## 技能
 
-Skills represent competencies that learners acquire. In Chamilo:
+技能代表學習者取得的競爭力。在 Chamilo 中：
 
-* Skills can be linked to gradebook achievements
-* When a learner earns a certificate, any associated skills are automatically validated
-* Skills accumulate on the learner's profile, creating a competency record
-* Skills can be organized hierarchically (e.g., "Data Analysis" under "Research Methods")
-* Skills can be further evaluated by peers (360° evaluation)
+* 技能可連結至 gradebook 成就
+* 當學習者獲得證書時，任何相關聯的技能會自動驗證
+* 技能會累積於學習者個人檔案中，建立競爭力記錄
+* 技能可依階層式組織（例如「資料分析」隸屬於「研究方法」）
+* 技能可由同儕進一步評估（360° 評估）
 
-## Viewing Certificate and Skill Status
+## 查看證書與技能狀態
 
-As a teacher, you can see:
+身為教師，您可以看到：
 
-* Which learners have earned certificates in your course
-* Which skills have been validated
-* Learners' progress toward the certification threshold
+* 哪些學習者在您的課程中獲得證書
+* 哪些技能已驗證
+* 學習者朝向認證門檻的進度
 
-Learners can view their own certificates and validated skills from their profile, and can access the Skills Wheel to check what skills are in demand in their organisation.
+學習者可從其個人檔案查看自己的證書與已驗證技能，並可存取 Skills Wheel 檢查組織中需求技能。
 
-## Tips
+## 提示
 
-* **Set clear expectations** — Tell learners at the start of the course what they need to achieve to earn a certificate
-* **Use meaningful skill names** — Skills should describe what the learner can do, not just the course name
-* **Combine with portfolios** — Encourage learners to add their certificates to their portfolio
-* **Extend certificates** — Ask your admin to enable the Custom Certificate plugin to unleash even more certificate templating power 
+* **設定明確期望** — 在課程開始時告知學習者取得證書所需達成的條件
+* **使用有意義的技能名稱** — 技能應描述學習者能做什麼，而非僅課程名稱
+* **結合作品集** — 鼓勵學習者將證書新增至其作品集
+* **擴充證書** — 請您的管理員啟用 Custom Certificate 外掛程式，以釋放更多證書範本功能

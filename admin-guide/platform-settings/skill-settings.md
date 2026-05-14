@@ -1,120 +1,118 @@
-# Skills Settings
+# 技能設定
 
-Behaviour of the **Skills** system — skills tree, awarding rules, profile integration.
+**Skills** 系統的行為 — 技能樹、頒發規則、個人檔案整合。
 
-Access these settings under **Administration > Configuration settings > Skills**. This category contains **13 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+在 **Administration > Configuration settings > Skills** 下存取這些設定。此類別包含 **13 個設定**，以下列出平台設定預設值 (`SettingsCurrentFixtures.php`) 中的標題與註解。
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> 程式碼中的變數名稱以等寬字體顯示。透過 API 撰寫腳本或需要透過編輯 [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml) 在全域層級變更這些設定時，請使用它。
 
-## Settings
+## 設定
 
 ### `allow_hr_skills_management`
 
-**Allow HR skills management**
+**允許 HR 管理技能**
 
-Allows HR to manage skills
+允許 HR 管理技能
 
-*Default: `true`*
+*預設值：`true`*
 
 
 ### `allow_private_skills`
 
-**Hide skills from learners**
+**從學習者隱藏技能**
 
-If enabled, skills can only be visible for admins, teachers (related to a user via a course), and HRM users (if related to a user).
+若啟用，技能僅對管理員、教師（透過課程與使用者相關聯）以及 HRM 使用者（若與使用者相關聯）可見。
 
-*Default: `false`*
+*預設值：`false`*
 
 
 ### `allow_skill_rel_items`
 
-**Enable linking skills to items**
+**啟用將技能連結至項目**
 
-This enables a major feature that enables any item to be linked to (and as such to allow acquisition of) a skill. The feature still requires the teacher to confirm the acquisition of the skill, so the acquisition is not automatic.
+此功能啟用將任何項目連結至技能（因此允許取得技能）的主要功能。此功能仍需教師確認技能的取得，因此取得並非自動的。
 
-*Default: `false`*
+*預設值：`false`*
 
 
 ### `allow_skills_tool`
 
-**Allow Skills tool**
+**允許技能工具**
 
-Users can see their skills in the social network and in a block in the homepage.
+使用者可在社群網路中查看其技能，並在首頁區塊中顯示。
 
-*Default: `true`*
+*預設值：`true`*
 
 ### `allow_teacher_access_student_skills`
 
-**Allow teachers to access learners' skills**
+**允許教師存取學習者的技能**
 
-[inferred] Allow instructors to view and monitor skills acquired by learners in their courses.
+[inferred] 允許教師查看並監控學習者在課程中取得的技能。
 
-*Default: `false`*
+*預設值：`false`*
 
 
 ### `badge_assignation_notification`
 
-**Send notification to learner when a skill/badge has been acquired**
+**當技能/徽章被取得時向學習者發送通知**
 
-[inferred] Send notifications to learners when they acquire a new skill or badge achievement.
+[inferred] 當學習者取得新技能或徽章成就時，向學習者發送通知。
 
-*Default: `false`*
+*預設值：`false`*
 
 
 ### `hide_skill_levels`
 
-**Hide skill levels feature**
+**隱藏技能等級功能**
 
-[inferred] Conceal the skill level hierarchy and level labels in skill-related views.
+[inferred] 在技能相關檢視中隱藏技能等級階層與等級標籤。
 
-*Default: `false`*
+*預設值：`false`*
 
 
 ### `manual_assignment_subskill_autoload`
 
-**Assigning skills to user: sub-skills auto-loading**
+**將技能指派給使用者：子技能自動載入**
 
-When manually assigning skills to a user, the form can be set to automatically offer you to assign a sub-skill instead of the skill you selected.
+在手動將技能指派給使用者時，表單可設定為自動提供指派您所選技能的子技能，而非該技能本身。
 
-*Default: `false`*
+*預設值：`false`*
 
 
 ### `openbadges_backpack`
 
-**OpenBadges backpack URL**
+**OpenBadges 背包 URL**
 
-The URL of the OpenBadges backpack server that will be used by default for all users wanting to export their badges. This defaults to the open and free Mozilla Foundation backpack repository: https://backpack.openbadges.org/
+所有希望匯出徽章的使用者預設使用的 OpenBadges 背包伺服器 URL。此預設為 Mozilla Foundation 的開放免費背包儲存庫：https://backpack.openbadges.org/
 
 ### `show_full_skill_name_on_skill_wheel`
 
-**Show full skill name on skill wheel**
+**在技能輪盤上顯示完整技能名稱**
 
-On the wheel of skills, it shows the name of the skill when it has short code.
+在技能輪盤上，當技能具有簡短代碼時顯示技能名稱。
 
-*Default: `false`*
+*預設值：`false`*
 
 
 ### `skill_levels_names`
 
-**Skill levels names**
+**技能等級名稱**
 
-Define names for levels of skills as an array of id => name.
+以 id => name 的陣列定義技能等級的名稱。
 
 ### `skills_hierarchical_view_in_user_tracking`
 
-**Show skills as a hierarchical table**
+**以階層式表格顯示技能**
 
-[inferred] Display learner skills as a hierarchical tree structure in progress and reporting pages.
+[inferred] 在進度與報告頁面中，將學習者技能顯示為階層式樹狀結構。
 
-*Default: `false`*
+*預設值：`false`*
 
 
 ### `skills_teachers_can_assign_skills`
 
-**Allow teachers to set which skills are acquired through their courses**
+**允許教師設定透過其課程取得的技能**
 
-By default, only admins can decide which skills can be acquired through which course.
+預設僅管理員可決定哪些技能可透過哪些課程取得。
 
-*Default: `false`*
-
-
+*預設值：`false`*

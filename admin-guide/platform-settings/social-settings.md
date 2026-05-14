@@ -1,70 +1,68 @@
-# Social Network Settings
+# 社交網路設定
 
-Behaviour of the **Social Network** — friends, groups, wall posts, photo albums.
+**社交網路** 的行為 — 朋友、群組、動態牆貼文、相片相簿。
 
-Access these settings under **Administration > Configuration settings > Social Network**. This category contains **7 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+在 **管理 > 設定 > 社交網路** 下存取這些設定。此類別包含 **7 個設定**，以下列出平台設定預設值 (`SettingsCurrentFixtures.php`) 中的標題與註解。
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> 程式碼中的變數名稱以等寬字體顯示。透過 API 撰寫腳本或需要透過編輯 [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml) 在全域層級變更這些設定時，請使用它。
 
-## Settings
+## 設定
 
 ### `allow_social_tool`
 
-**Social network tool (Facebook-like)**
+**社交網路工具 (類似 Facebook)**
 
-The social network tool allows users to define relations with other users and, by doing so, to define groups of friends. Combined with the internal messaging tool, this tool allows tight communication with friends, inside the portal environment.
+社交網路工具允許使用者與其他使用者建立關係，並據此定義朋友群組。結合內部訊息工具，此工具可在入口網站環境中實現與朋友的緊密溝通。
 
-*Default: `true`*
+*預設值：`true`*
 
 ### `allow_students_to_create_groups_in_social`
 
-**Allow learners to create groups in social network**
+**允許學習者於社交網路中建立群組**
 
-Allow learners to create groups in social network
+允許學習者於社交網路中建立群組
 
-*Default: `false`*
+*預設值：`false`*
 
 
 ### `disable_dislike_option`
 
-**Disable 'dislike' for social posts**
+**停用社交貼文的「不喜歡」選項**
 
-Remove the thumb down option for social posts feedback. Only keep thumb up (like).
+移除社交貼文回饋的向下拇指選項。僅保留向上拇指 (喜歡)。
 
-*Default: `false`*
+*預設值：`false`*
 
 ### `hide_social_groups_block`
 
-**Hide groups block in social network**
+**隱藏社交網路中的群組區塊**
 
-Removes the groups section from the social network view.
+從社交網路檢視中移除群組區段。
 
-*Default: `false`*
+*預設值：`false`*
 
 
 ### `social_enable_messages_feedback`
 
-**Like/Dislike for social posts**
+**社交貼文的讚/不讚**
 
-Allows users to add feedback (likes or dislikes) to posts in social wall.
+允許使用者為社交動態牆貼文新增回饋 (讚或不讚)。
 
-*Default: `false`*
+*預設值：`false`*
 
 ### `social_make_teachers_friend_all`
 
-**Teachers and admins see students as friends on social network**
+**教師與管理員於社交網路中視學生為朋友**
 
-Automatically makes instructors and administrators appear as friends to all students in the social network module.
+自動使教師與管理員於社交網路模組中對所有學生顯示為朋友。
 
-*Default: `false`*
+*預設值：`false`*
 
 
 ### `social_show_language_flag_in_profile`
 
-**Show language flag next to avatar in social network**
+**於社交網路個人檔案中於頭像旁顯示語言旗標**
 
-Displays the user's language preference as a flag icon next to their avatar in social network profiles.
+於社交網路個人檔案中於使用者頭像旁以旗標圖示顯示使用者的語言偏好。
 
-*Default: `false`*
-
-
+*預設值：`false`*

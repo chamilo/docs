@@ -1,87 +1,87 @@
-# FAQ
+# 常見問題
 
-Frequently asked questions for Chamilo 2.0 administrators.
+Chamilo 2.0 管理員常見問題解答。
 
-## Installation and Setup
+## 安裝與設定
 
-**Q: What PHP version does Chamilo 2.0 require?**
-A: PHP 8.2 or higher. PHP 8.3 is recommended. See [Server Requirements](../installation/server-requirements.md).
+**問：Chamilo 2.0 需要什麼版本的 PHP？**  
+答：PHP 8.2 或更高版本。建議使用 PHP 8.3。請參閱[伺服器需求](../installation/server-requirements.md)。
 
-**Q: Can I run Chamilo on shared hosting?**
-A: It is possible but not recommended. Chamilo 2.0 requires Composer, Node.js in development mode, and command
--line access for installation and maintenance. A VPS or dedicated server provides a much better experience.
+**問：我可以在共享主機上運行 Chamilo 嗎？**  
+答：可以，但不建議。Chamilo 2.0 在開發模式下需要 Composer、Node.js，以及用於安裝和維護的命令行存取。使用 VPS 或專用伺服器能提供更好的體驗。
 
-**Q: Which database should I use?**
-A: MySQL 8.0+ or MariaDB 10.4+ are the most commonly used and best tested.
+**問：我應該使用哪種資料庫？**  
+答：MySQL 8.0+ 或 MariaDB 10.4+ 是最常用且經過最佳測試的選擇。
 
-**Q: Can I install Chamilo without the command line?**
-A: Yes, if you use the packaged version (.zip or .tar.gz). Otherwise, you will need the command line to install Composer dependencies, build frontend assets, and run database migrations. The web-based wizard handles the database setup and initial configuration, but the surrounding steps require shell access in dev mode.
+**問：我可以在不使用命令行的情況下安裝 Chamilo 嗎？**  
+答：可以，如果您使用打包版本（.zip 或 .tar.gz）。否則，您需要使用命令行來安裝 Composer 依賴項、構建前端資產以及執行資料庫遷移。基於網頁的精靈會處理資料庫設定和初始配置，但在開發模式下，周邊步驟需要 shell 存取。
 
-## Users and Authentication
+## 使用者與認證
 
-**Q: How do I reset a user's password?**
-A: Go to **Administration > User list**, find the user, click edit, and set a new password. Alternatively, the user can use the "Forgot password" link on the login page (if email is configured).
+**問：如何重設使用者的密碼？**  
+答：前往**管理 > 使用者列表**，找到該使用者，點擊編輯，然後設定新密碼。或者，使用者可以在登入頁面上使用「忘記密碼」連結（如果已設定電子郵件）。
 
-**Q: Can I import users in bulk?**
-A: Yes. Go to **Administration > Import users** and upload a CSV or XML file with user data. The import supports creating new users and updating existing ones.
+**問：我可以批量匯入使用者嗎？**  
+答：可以。前往**管理 > 匯入使用者**，上傳包含使用者資料的 CSV 或 XML 檔案。匯入功能支援建立新使用者以及更新現有使用者。
 
-**Q: How do I integrate with LDAP or Active Directory?**
-A: Configure LDAP settings in the authentication configuration. See [LDAP](../authentication/ldap.md). Users are synchronized on login or via scheduled sync.
+**問：如何與 LDAP 或 Active Directory 整合？**  
+答：在認證設定中配置 LDAP 設定。請參閱[LDAP](../authentication/ldap.md)。使用者可以在登入時同步，或透過排程同步進行更新。
 
-**Q: Can users belong to multiple sessions at the same time?**
-A: Yes. Users can be enrolled in any number of sessions simultaneously. Each session tracks progress independently.
+**問：使用者可以同時屬於多個課程時段嗎？**  
+答：可以。使用者可以同時註冊多個課程時段。每個課程時段獨立追蹤進度。
 
-## Courses and Content
+## 課程與內容
 
-**Q: How do I back up a single course?**
-A: Within the course, go to **Maintenance > Create a backup**. This generates a downloadable archive of course content and settings. You can restore it on the same or a different Chamilo instance.
+**問：如何備份單一課程？**  
+答：在課程內，前往**維護 > 建立備份**。這將生成一個可下載的課程內容和設定檔案。您可以在相同或不同的 Chamilo 實例上還原該檔案。
 
-**Q: Can I copy a course?**
-A: Yes. Use **Administration > Copy course** or the course maintenance tool within the course. You can copy content between courses or create a new course from an existing one.
+**問：我可以複製課程嗎？**  
+答：可以。使用**管理 > 複製課程**或課程內的維護工具。您可以在課程之間複製內容，或從現有課程建立新課程。
 
-**Q: What SCORM versions are supported?**
-A: Chamilo supports SCORM 1.2. SCORM packages are imported as learning paths.
+**問：支援哪些版本的 SCORM？**  
+答：Chamilo 支援 SCORM 1.2。SCORM 套件會匯入為學習路徑。
 
-**Q: How do I limit who can create courses?**
-A: Go to **Administration > Configuration settings > Course** and disable **Allow non administrators (teachers) to create new courses** (`allow_users_to_create_courses`). When disabled, only administrators can create courses. Alternatively, you can set a limit to the number of courses any teacher can create.
+**問：如何限制誰可以建立課程？**  
+答：前往**管理 > 配置設定 > 課程**，並停用**允許非管理員（教師）建立新課程**（`allow_users_to_create_courses`）。停用後，只有管理員可以建立課程。或者，您可以設定教師可建立課程的數量限制。
 
-## Performance and Maintenance
+## 效能與維護
 
-**Q: The platform is slow. What should I check first?**
-A: In order of impact: (1) Ensure `APP_ENV=prod` and `APP_DEBUG=0` in `.env`. (2) Verify PHP OPcache is enabled. (3) Check database performance. (4) See [Performance Tuning](../platform-settings/performance-tuning.md).
+**問：平台運行緩慢。我應該先檢查什麼？**  
+答：按影響程度排序：(1) 確保 `.env` 中 `APP_ENV=prod` 且 `APP_DEBUG=0`。(2) 確認 PHP OPcache 已啟用。(3) 檢查資料庫效能。(4) 請參閱[效能調校](../platform-settings/performance-tuning.md)。
 
-**Q: How do I clear the cache?**
-A: Run `php bin/console cache:clear --env=prod` from the command line. Do not delete the `var/cache/` directory manually while the application is running.
+**問：如何清除快取？**  
+答：從命令行執行 `php bin/console cache:clear --env=prod`。請勿在應用程式運行時手動刪除 `var/cache/` 目錄。
 
-**Q: How much disk space does Chamilo need?**
-A: The application itself needs about 2 GB uncompressed. Total space depends on uploaded content (documents, videos, SCORM packages). Monitor disk usage and plan accordingly.
+**問：Chamilo 需要多少磁碟空間？**  
+答：應用程式本身未壓縮時需要約 2 GB。總空間取決於上傳的內容（文件、影片、SCORM 套件）。請監控磁碟使用情況並做好相應規劃。
 
-**Q: How do I set up automated backups?**
-A: See [Backups](../maintenance/backups.md). At minimum, schedule a daily database dump and regular file-level backups of the upload directory.
+**問：如何設定自動備份？**  
+答：請參閱[備份](../maintenance/backups.md)。至少應安排每日資料庫備份以及上傳目錄的定期檔案層級備份。
 
-## Email
+## 電子郵件
 
-**Q: Users are not receiving emails. What should I check?**
-A: (1) Verify `MAILER_DSN` in `.env`. (2) Run `php bin/console mailer:test someone@example.com` to test. (3) Check spam folders. (4) Verify SPF/DKIM DNS records. See [Email Configuration](../installation/email-configuration.md).
+**問：使用者未收到電子郵件。我應該檢查什麼？**  
+答：(1) 確認 `.env` 中的 `MAILER_DSN` 設定。(2) 執行 `php bin/console mailer:test someone@example.com` 進行測試。(3) 檢查垃圾郵件資料夾。(4) 確認 SPF/DKIM DNS 記錄。請參閱[電子郵件設定](../installation/email-configuration.md)。
 
-**Q: Can I use Gmail to send emails?**
-A: Yes, for small platforms or development. Use an App Password and be aware of Gmail's daily sending limits (500 emails/day for regular accounts).
+**問：我可以使用 Gmail 發送電子郵件嗎？**  
+答：可以，適用於小型平台或開發環境。請使用應用程式密碼，並注意 Gmail 的每日發送限制（普通帳戶為 500 封/天）。
 
-## Security
+## 安全性
 
-**Q: How do I force HTTPS?**
-A: Configure your web server to redirect HTTP to HTTPS. Additionally, enable the "Force HTTPS" setting in **Administration > Configuration settings > Security**. See [Security Settings](../platform-settings/security-settings.md).
+**問：如何強制使用 HTTPS？**  
+答：設定您的網頁伺服器將 HTTP 重定向至 HTTPS。此外，在**管理 > 配置設定 > 安全性**中啟用「強制 HTTPS」設定。請參閱[安全性設定](../platform-settings/security-settings.md)。
 
-**Q: How do I block brute-force login attacks?**
-A: Configure max login attempts and CAPTCHA in security settings. Consider also using fail2ban at the server level for additional protection.
+**問：如何阻止暴力破解登入攻擊？**  
+答：在安全性設定中配置最大登入嘗試次數和 CAPTCHA。此外，考慮在伺服器層級使用 fail2ban 作為額外保護。
 
-**Q: A user forgot their password and email is not working. How do I help them?**
-A: As an administrator, edit the user account directly and set a new password. Go to **Administration > User list**, find the account, and update the password field.
+**問：使用者忘記密碼且電子郵件無法使用。我該如何幫助他們？**  
+答：作為管理員，您可以直接編輯使用者帳戶並設定新密碼。前往**管理 > 使用者列表**，找到該帳戶，並更新密碼欄位。
 
-## Upgrades
+---
+## 升級
 
-**Q: Can I upgrade directly from Chamilo 1.11.x to 2.0?**
-A: Yes, but it is a major migration, not a simple update. See [Upgrading](../installation/upgrading.md). Always test on a staging server first.
+**問：我可以直接從 Chamilo 1.11.x 升級到 2.0 嗎？**  
+答：可以，但這是一次重大的遷移，而不僅僅是簡單的更新。請參閱[升級指南](../installation/upgrading.md)。務必先在測試伺服器上進行測試。
 
-**Q: Will my plugins work after upgrading to 2.0?**
-A: No. Plugins from 1.11.x are not compatible with 2.0 and must be rewritten or replaced with equivalent 2.0 functionality.
+**問：升級到 2.0 後，我的插件還能使用嗎？**  
+答：不行。1.11.x 版本的插件與 2.0 版本不兼容，必須重新編寫或替換為 2.0 版本的相應功能。

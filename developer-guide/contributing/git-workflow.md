@@ -2,27 +2,27 @@
 
 ## Repository
 
-The Chamilo source code is hosted on GitHub: [github.com/chamilo/chamilo-lms](https://github.com/chamilo/chamilo-lms)
+Chamilo 原始碼託管於 GitHub：[github.com/chamilo/chamilo-lms](https://github.com/chamilo/chamilo-lms)
 
 ## Branching
 
-* **`master`** — Main development branch
-* Feature branches are created from `master` for new development
-* Release branches are created for stable releases
+* **`master`** — 主要開發分支
+* 功能分支從 `master` 建立，用於新開發
+* 發行分支用於穩定發行而建立
 
 ## Contributing a Change
 
-1. **Fork** the repository on GitHub
-2. **Clone** your fork locally
-3. **Create a branch** for your change: `git checkout -b feature/my-feature`
-4. **Make your changes** following the coding conventions
-5. **Commit** with clear, descriptive commit messages
-6. **Push** to your fork: `git push origin feature/my-feature`
-7. **Create a pull request** against the `master` branch
+1. 在 GitHub 上 **Fork** 儲存庫
+2. **Clone** 您的 fork 到本地
+3. **建立分支** 用於您的變更：`git checkout -b feature/my-feature`
+4. **進行您的變更**，遵循程式碼規範
+5. 使用清晰、描述性的 commit 訊息進行 **Commit**
+6. **Push** 到您的 fork：`git push origin feature/my-feature`
+7. **建立 pull request** 針對 `master` 分支
 
 ## Commit Messages
 
-Write clear commit messages that explain **what** and **why**:
+撰寫清晰的 commit 訊息，解釋**什麼**和**為什麼**：
 
 ```
 Glossary: Add AI-assisted term generation
@@ -33,11 +33,11 @@ providers. Supports configurable prompt and term count.
 
 ### Tool prefix convention
 
-The subject line is prefixed with the **tool or area** that the change touches, followed by a colon. We use a short shared terminology so that the changelog and `git log --oneline` can be skimmed by tool. The prefix is always the **singular** form of the tool's canonical name.
+主旨行以變更所影響的**工具或區域**為前綴，後接冒號。我們使用簡短的共享術語，以便變更日誌和 `git log --oneline` 可依工具快速瀏覽。前綴始終為工具規範名稱的**單數**形式。
 
-Format: `<Prefix>: <Imperative summary in the present tense>`
+格式：`<Prefix>: <Imperative summary in the present tense>`
 
-Examples:
+範例：
 
 ```
 Document: Fix list for student view
@@ -47,9 +47,10 @@ Internal: Refactor ResourceNode hydration in the API normalizer
 CI: Cache Composer downloads in the GitHub Actions workflow
 ```
 
-If a change spans several tools, pick the one most affected; truly cross-cutting changes that only touch code structure (no end-user tool) go under `Internal`. Documentation-only changes (this site, the changelog, inline docblocks meant purely as reference) go under `Documentation`.
+如果變更橫跨多個工具，請選擇受影響最大的那個；僅觸及程式碼結構（無終端使用者工具）的真正跨領域變更歸類於 `Internal`。僅限文件變更（本網站、變更日誌、純作參考的內嵌文件區塊）歸類於 `Documentation`。
 
-#### Allowed prefixes
+---
+#### 允許的前綴
 
 | Prefix               | Scope / notes                                                                        |
 |----------------------|--------------------------------------------------------------------------------------|
@@ -58,48 +59,48 @@ If a change spans several tools, pick the one most affected; truly cross-cutting
 | `Attendance`         |                                                                                      |
 | `Authentication`     |                                                                                      |
 | `Blog`               |                                                                                      |
-| `Calendar`           | Not "Agenda"                                                                         |
+| `Calendar`           | 不可用「議程」                                                                       |
 | `Career`             |                                                                                      |
-| `Catalogue`          | Courses and sessions catalogue, including "hot courses" on the homepage              |
+| `Catalogue`          | 課程與場次目錄，包括首頁上的「熱門課程」                                            |
 | `Chat`               |                                                                                      |
-| `CI`                 | Continuous Integration, automated tests, etc.                                        |
+| `CI`                 | 持續整合、自動化測試等                                                              |
 | `Course description` |                                                                                      |
-| `Course Progress`    | Not "Thematic advance"                                                               |
+| `Course Progress`    | 不可用「主題進度」                                                                   |
 | `Course settings`    |                                                                                      |
 | `Cron`               |                                                                                      |
 | `Dashboard`          |                                                                                      |
 | `Display`            |                                                                                      |
 | `Document`           |                                                                                      |
-| `Documentation`      | Anything related exclusively to documenting Chamilo or the code, the changelog, etc. |
+| `Documentation`      | 僅與記錄 Chamilo 或程式碼、更動日誌等相關的事項                                      |
 | `Dropbox`            |                                                                                      |
-| `Exercise`           | Not "Quiz"                                                                           |
+| `Exercise`           | 不可用「測驗」                                                                       |
 | `Extra Fields`       |                                                                                      |
 | `Forum`              |                                                                                      |
 | `Glossary`           |                                                                                      |
-| `Gradebook`          | Includes Certificates                                                                |
-| `Group`              | Includes course groups, global groups, and classes                                   |
+| `Gradebook`          | 包含證書                                                                              |
+| `Group`              | 包含課程群組、全域群組與班級                                                          |
 | `Help`               |                                                                                      |
-| `Hook`               | For the internal hook mechanism                                                      |
-| `Install`            | Includes upgrade stuff                                                               |
-| `Internal`           | For changes and fixes that mostly affect code itself or are very global by nature    |
+| `Hook`               | 用於內部掛鉤機制                                                                      |
+| `Install`            | 包含升級相關事項                                                                      |
+| `Internal`           | 用於主要影響程式碼本身或本質上非常全域的變更與修正                                    |
 | `Language`           |                                                                                      |
 | `Link`               |                                                                                      |
-| `Learnpath`          | For LP / Learning Paths                                                              |
-| `Maintenance`        | The course maintenance tool: course copies, backup, restore, etc.                    |
+| `Learnpath`          | 用於 LP / 學習路徑                                                                    |
+| `Maintenance`        | 課程維護工具：課程複製、備份、還原等                                                  |
 | `Message`            |                                                                                      |
 | `Notebook`           |                                                                                      |
 | `Optimization`       |                                                                                      |
 | `Portfolio`          |                                                                                      |
 | `Privacy`            |                                                                                      |
-| `Script`             | For what lives in `tests/scripts/`                                                   |
-| `Search`             | Full-text search                                                                     |
+| `Script`             | 用於 `tests/scripts/` 中的內容                                                        |
+| `Search`             | 全文搜尋                                                                              |
 | `Security`           |                                                                                      |
 | `Session`            |                                                                                      |
 | `Skill`              |                                                                                      |
-| `Social`             | Social network                                                                       |
-| `SSO`                | Single Sign-On methods                                                               |
+| `Social`             | 社群網路                                                                              |
+| `SSO`                | 單一登入方法                                                                          |
 | `Survey`             |                                                                                      |
-| `System`             | Things that have mostly to do with hosting and fine-tuning at server level           |
+| `System`             | 主要與託管及伺服器層級微調相關的事項                                                  |
 | `Template`           |                                                                                      |
 | `Ticket`             |                                                                                      |
 | `Tracking`           |                                                                                      |
@@ -110,14 +111,15 @@ If a change spans several tools, pick the one most affected; truly cross-cutting
 | `WYSIWYG`            |                                                                                      |
 | `XAPI`               |                                                                                      |
 
-## Code Review
+---
+## 程式碼審查
 
-Pull requests are reviewed by the maintainer team. Be prepared to:
+拉取請求由維護者團隊審查。請準備好：
 
-* Address feedback and make revisions
-* Keep your branch up to date with `master`
-* Ensure tests pass
+* 回應回饋並進行修訂
+* 使用 `master` 保持您的分支最新
+* 確保測試通過
 
-## Reporting Issues
+## 回報問題
 
-Report bugs and feature requests on the GitHub issue tracker.
+請在 GitHub 問題追蹤器上回報錯誤和功能請求。

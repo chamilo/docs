@@ -1,5 +1,5 @@
-# Plugins
+# 外掛程式
 
-Plugins extend Chamilo's functionality without modifying the core code. Chamilo 2.0 comes with over 50 plugins that can be activated as needed.
+外掛程式可擴充 Chamilo 的功能，而無需修改核心程式碼。Chamilo 2.0 內建超過 50 個外掛程式，可依需求啟用。
 
-* **[Managing Plugins](managing-plugins.md)** — Install, activate, configure, and deactivate plugins
+* **[管理外掛程式](managing-plugins.md)** — 安裝、啟用、設定及停用外掛程式

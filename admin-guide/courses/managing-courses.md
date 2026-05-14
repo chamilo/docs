@@ -1,57 +1,57 @@
-# Managing Courses
+# 管理課程
 
-As an administrator, you can manage all courses on the platform regardless of who created them.
+作為管理員，您可以管理平台上的所有課程，無論是由誰創建的。
 
-## Course List
+## 課程列表
 
-![The course list showing all courses with title, code, category, enrolled users, and visibility status](/.gitbook/assets/admin-course-list.png)
+![顯示所有課程的課程列表，包括標題、代碼、類別、註冊用戶和可見性狀態](/.gitbook/assets/admin-course-list.png)
 
-From the administration panel, click **Course list** to see all courses. The list shows:
+從管理面板中，點擊 **課程列表** 查看所有課程。列表顯示：
 
-* Course title and code
-* Language
-* Categories
-* Visibility status
+* 課程標題和代碼
+* 語言
+* 類別
+* 可見性狀態
 
-Use the **Advanced search** tool to find specific courses.
+使用 **進階搜尋** 工具來查找特定課程。
 
-## Creating a Course
+## 創建課程
 
-As an administrator, you can create courses and assign them to any teacher:
+作為管理員，您可以創建課程並將其分配給任何教師：
 
-1. Click **Add course** from the administration panel
-2. Fill in the course details (title, code, category, language)
-3. Assign a teacher to the course
-4. Save
+1. 從管理面板中點擊 **新增課程**
+2. 填寫課程詳細資訊（標題、代碼、類別、語言）
+3. 為課程分配一名教師
+4. 儲存
 
-Note: In Chamilo 1.11.x, the course code was shown as part of the course URL, and was impossible to change after the creation of the course. This behaviour is changing in 2.x. The course code is not visible in the URL anymore, and future versions might allow teachers to modify the course code afterwards as it become less essential to the platform.
+注意：在 Chamilo 1.11.x 中，課程代碼會顯示在課程 URL 中，且在課程創建後無法更改。此行為在 2.x 版本中有所改變。課程代碼不再顯示在 URL 中，未來版本可能允許教師在後續修改課程代碼，因為它對平台的重要性已降低。
 
-## Managing an Existing Course
+## 管理現有課程
 
-Find a course in the list to access management options in the *Actions* column:
+在列表中找到課程，即可在 *操作* 欄中存取管理選項：
 
-* **Information** — Show information about the course 
-* **Course home** — Sends you directly to the course's homepage 
-* **Reporting** — See engagement and performance data
-* **Edit** — Change course title, category, visibility, and other settings
-* **Create a backup** — Go to the maintenance section of the course, where you can create copies and do other things
-* **Add to catalogue** — Add this course to the course catalogue
-* **Delete** — Permanently remove the course and all its content
+* **資訊** — 顯示課程相關資訊
+* **課程首頁** — 直接將您導向課程首頁
+* **報告** — 查看參與度和表現數據
+* **編輯** — 更改課程標題、類別、可見性和其他設定
+* **建立備份** — 進入課程的維護部分，您可以在此建立副本並執行其他操作
+* **加入目錄** — 將此課程加入課程目錄
+* **刪除** — 永久刪除課程及其所有內容
 
-> Deleting a course removes all content, learner data, grades, and tracking information permanently. Consider exporting the course first as a backup.
+> 刪除課程將永久移除所有內容、學習者數據、成績和追蹤資訊。建議在刪除前先匯出課程作為備份。
 
-## Bulk Operations
+## 批量操作
 
-Select multiple courses in the list to perform batch actions such as deleting them. To export a course, enter the course and use the **Maintenance** tool — there is no bulk export action on the admin course list.
+在列表中選擇多個課程以執行批量操作，例如刪除它們。要匯出課程，請進入課程並使用 **維護** 工具 — 管理員課程列表中沒有批量匯出操作。
 
-## Course Visibility Settings
+## 課程可見性設定
 
-Administrators can override the visibility set by teachers:
+管理員可以覆蓋教師設定的可見性：
 
-| Visibility | Effect |
-|-----------|--------|
-| **Public** | Accessible to everyone, including anonymous visitors |
-| **Open** | Accessible to all logged-in users |
-| **Private** | Only enrolled users can access the course |
-| **Closed** | No one can access the course (except the teacher and admins) |
-| **Hidden** | No one can view or access the course (except the admins) |
+| 可見性 | 效果 |
+|-------|------|
+| **公開** | 對所有人開放，包括匿名訪客 |
+| **開放** | 對所有已登入用戶開放 |
+| **私人** | 僅限已註冊用戶存取課程 |
+| **關閉** | 無人可以存取課程（教師和管理員除外） |
+| **隱藏** | 無人可以查看或存取課程（管理員除外） |

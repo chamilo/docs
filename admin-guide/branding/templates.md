@@ -1,42 +1,42 @@
-# Templates
+# 模板
 
-Chamilo uses templates for certificates, documents, and emails. You can customize these templates to match your organization's branding and requirements.
+Chamilo 使用模板來設計證書、文件和電子郵件。您可以自訂這些模板以符合您組織的品牌和需求。
 
-## Certificate Templates
+## 證書模板
 
-Certificate templates define the layout and content of certificates awarded to learners who meet gradebook thresholds.
+證書模板定義了授予達到成績門檻的學習者的證書的版面和內容。
 
-### Customizing a Certificate Template
+### 自訂證書模板
 
-Certificate templates use HTML and CSS with placeholder variables:
+證書模板使用 HTML 和 CSS，並包含佔位符變數：
 
-| Variable | Replaced with |
+| 變數 | 替換為 |
 |----------|-------------|
-| Student name | The learner's full name |
-| Course name | The name of the course |
-| Date | The date the certificate was earned |
-| Score | The learner's final score |
-| Barcode | A barcode placeholder (`((certificate_barcode))`) used for verification |
+| 學生姓名 | 學習者的全名 |
+| 課程名稱 | 課程名稱 |
+| 日期 | 獲得證書的日期 |
+| 分數 | 學習者的最終分數 |
+| 條碼 | 用於驗證的條碼佔位符 (`((certificate_barcode))`) |
 
-### Uploading a Template
+### 上傳模板
 
-1. Navigate to certificate template management
-2. Upload or edit the HTML template
-3. Use the placeholder variables where dynamic content should appear
-4. Save
+1. 導航至證書模板管理
+2. 上傳或編輯 HTML 模板
+3. 在需要顯示動態內容的地方使用佔位符變數
+4. 儲存
 
-## Document Templates
+## 文件模板
 
-Teachers can use document templates when creating content in the Documents tool. Templates provide a starting layout for common document types.
+教師在使用「文件」工具創建內容時可以使用文件模板。模板為常見文件類型提供起始版面。
 
-### Managing Document Templates
+### 管理文件模板
 
-1. Navigate to template management in the administration panel
-2. Add new templates by uploading HTML files
-3. Templates become available to teachers when they create new documents
+1. 在管理面板中導航至模板管理
+2. 透過上傳 HTML 檔案新增模板
+3. 教師在創建新文件時即可使用這些模板
 
-## Tips
+## 小提示
 
-* **Include your logo** — Add your organization's logo to certificate templates for a professional look
-* **Test with real data** — Preview certificates with actual learner data before deploying the template
-* **Keep templates simple** — Simple designs print better and look professional
+* **加入您的標誌** — 在證書模板中加入您組織的標誌，以獲得專業的外觀
+* **使用真實數據測試** — 在部署模板前，使用實際學習者數據預覽證書
+* **保持模板簡潔** — 簡單的設計更容易列印且看起來更專業

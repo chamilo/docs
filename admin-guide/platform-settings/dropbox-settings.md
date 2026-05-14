@@ -1,75 +1,74 @@
-# Dropbox Settings
+# Dropbox 設定
 
-Behaviour of the **Dropbox** file-exchange tool.
+**Dropbox** 檔案交換工具的行為。
 
-Access these settings under **Administration > Configuration settings > Dropbox**. This category contains **8 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+在 **管理 > 設定 > Dropbox** 下存取這些設定。此類別包含 **8 個設定**，以下列出平台設定預設值 (`SettingsCurrentFixtures.php`) 中的標題與註解。
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> 程式碼中的變數名稱以等寬字體顯示。使用 API 進行腳本編寫，或需透過編輯 [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml) 在全域層級變更這些設定時，請使用該名稱。
 
-## Settings
+## 設定
 
 ### `dropbox_allow_group`
 
-**Dropbox: allow group**
+**Dropbox：允許群組**
 
-Users can send files to groups
+使用者可以將檔案傳送至群組
 
-*Default: `true`*
+*預設值：`true`*
 
 ### `dropbox_allow_just_upload`
 
-**Dropbox: Upload to own dropbox space?**
+**Dropbox：上傳至自己的 Dropbox 空間？**
 
-Allow trainers and users to upload documents to their dropbox without sending  the documents to themselves
+允許教師與使用者上傳文件至其 Dropbox，而無需將文件傳送給自己
 
-*Default: `true`*
+*預設值：`true`*
 
 ### `dropbox_allow_mailing`
 
-**Dropbox: Allow mailing**
+**Dropbox：允許郵寄**
 
-With the mailing functionality you can send each learner a personal document
+使用郵寄功能，您可以為每位學習者傳送個人化文件
 
-*Default: `false`*
+*預設值：`false`*
 
 ### `dropbox_allow_overwrite`
 
-**Dropbox: Can documents be overwritten**
+**Dropbox：文件是否可被覆寫**
 
-Can the original document be overwritten when a user or trainer uploads a document with the name of a document that already exist? If you answer yes then you loose the versioning mechanism.
+當使用者或教師上傳名稱與現有文件相同的文件時，是否可覆寫原始文件？若回答是，則會失去版本控制機制。
 
-*Default: `true`*
+*預設值：`true`*
 
 ### `dropbox_allow_student_to_student`
 
-**Dropbox: Learner <-> Learner**
+**Dropbox：學習者 ↔ 學習者**
 
-Allow users to send documents to other users (peer 2 peer). Users might use this for less relevant documents also (mp3, tests solutions, ...). If you disable this then the users can send documents to the trainer only.
+允許使用者將文件傳送給其他使用者（點對點）。使用者可能會用此功能傳送較不相關的文件（mp3、測驗解答等）。若停用此功能，則使用者僅能將文件傳送給教師。
 
-*Default: `true`*
+*預設值：`true`*
 
 ### `dropbox_hide_course_coach`
 
-**Dropbox: hide course coach**
+**Dropbox：隱藏課程教練**
 
-Hide session course coach in dropbox when a document is sent by the coach to students
+當教練將文件傳送給學生時，在 Dropbox 中隱藏課程教練
 
-*Default: `false`*
+*預設值：`false`*
 
 ### `dropbox_hide_general_coach`
 
-**Hide general coach in dropbox**
+**在 Dropbox 中隱藏一般教練**
 
-Hide general coach name in the dropbox tool when the general coach uploaded the file
+當一般教練上傳檔案時，在 Dropbox 工具中隱藏一般教練名稱
 
-*Default: `false`*
+*預設值：`false`*
 
 
 ### `dropbox_max_filesize`
 
-**Dropbox: Maximum file size of a document**
+**Dropbox：文件最大檔案大小**
 
-How big (in MB) can a dropbox document be?
+Dropbox 文件最大可有多大（以 MB 為單位）？
 
-*Default: `100000000`*
-
+*預設值：`100000000`*

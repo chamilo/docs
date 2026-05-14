@@ -1,89 +1,89 @@
-# Assessments
+# 評分
 
-The assessments (previously *gradebook*) aggregates scores from exercises, assignments, and other graded activities into a unified view of each learner's performance. It also controls certificate generation.
+評分（前身為 *gradebook*）將練習、作業及其他評分活動的分數整合成每個學習者的統一績效檢視。它也控制證書的製作。
 
-## How the Assessments Work
+## 評分運作方式
 
-The assessments are weighted scoring systems. You define:
+評分是加權評分系統。您需決定：
 
-1. **Which activities** contribute to the grade (exercises, assignments, attendance, etc.)
-2. **The weight** of each activity (how much it counts toward the final grade)
-3. **The minimum certification score** (the threshold for earning a certificate)
-4. **A minimum score per activity** — Each activity in the gradebook can have its own **Minimum score**. Learners who score below that minimum on a key activity can be prevented from achieving the objectives and earning the certificate, even if their overall weighted total is otherwise high enough.
+1. **哪些活動**貢獻於分數（練習、作業、出勤等）
+2. **每個活動的權重**（其對最終分數的貢獻程度）
+3. **證書最低分數**（取得證書的門檻）
+4. **每個活動的最低分數** — 成績單中的每個活動可擁有**最低分數**。在關鍵活動中得分低於最低分的學習者，即使整體權重總和足夠高，也可能被阻止達成目標並取得證書。
 
-Activities can be of 2 types:
-* **Classroom activity** (or in-person activity), where grades have to be imported from some other source
-* **Online activity** selected from the course, where grades are obtained through the fulfilling of the activity in the course
+活動可分為 2 種類型：
+* **課堂活動**（或面對面活動），其分數需從其他來源匯入
+* **線上活動**，從課程中選取，其分數透過課程內活動完成取得
 
-Chamilo calculates each learner's overall grade based on these weights.
+Chamilo 根據這些權重計算每個學習者的整體分數。
 
-## Setting Up the Assessment
+## 設定評分
 
-1. Open the **Assessments** <img src="/.gitbook/assets/icons/mdi-certificate.svg" alt="Gradebook" data-size="line"> tool from the course homepage
-2. You will see the assessments overview, initially empty
+1. 從課程首頁開啟**評分**工具 <img src="/.gitbook/assets/icons/mdi-certificate.svg" alt="成績單" data-size="line">
+2. 您將看到評分概覽，初始為空
 
-### Adding Activities
+### 新增活動
 
-1. Click **Add online activity**
-2. Choose the type:
-   * **Test** — Link a specific exercise from the course
-   * **Assignment** — Link a student publication folder
-   * **Learning path** — Link learning path completion
-   * **Attendance** — Link an attendance sheet
-   * **Forum thread** — Link a forum thread (which has to be graded manually)
-   * **Survey** — Link a survey
-3. Select the specific activity within the chosen type
-4. Set the **Weight** for this activity (e.g., 30% for the midterm exam, 40% for the final project)
-5. Set the **Minimum score** if applicable
-6. Save
+1. 按一下**新增線上活動**
+2. 選擇類型：
+   * **測驗** — 連結課程中特定練習
+   * **作業** — 連結學生發表資料夾
+   * **學習路徑** — 連結學習路徑完成
+   * **出勤** — 連結出勤表
+   * **論壇主題** — 連結論壇主題（需手動評分）
+   * **問卷** — 連結問卷
+3. 選擇所選類型中的特定活動
+4. 為此活動設定**權重**（例如，期中考 30%、期末專題 40%）
+5. 如適用，設定**最低分數**
+6. 儲存
 
-The total weight of all activities should add up to 100%.
+所有活動的權重總和必須達到 100%。
 
-### Sub-Categories
+### 子類別
 
-For complex grading schemes, you can create **sub-categories** to group related activities:
+對於複雜的評分方案，您可建立**子類別**來群組相關活動：
 
-* **Example**: A "Homework" sub-category (weight: 30%) containing five individual assignments each worth 20% of the sub-category
-* Sub-categories let you organize the assessment hierarchically while keeping the overall calculation simple
+* **範例**：子類別「家庭作業」（權重：30%），包含五個個別作業，各佔子類別 20%
+* 子類別讓您以階層方式組織評分，同時保持整體計算簡單
 
-## Viewing Grades
+## 檢視分數
 
-![The gradebook overview table showing learner names, activity scores, and weighted totals](/.gitbook/assets/gradebook-overview.png)
+![顯示學習者姓名、活動分數及總權重的成績單概覽表格](/.gitbook/assets/gradebook-overview.png)
 
-The assessment shows a table with:
+評分顯示表格，包含：
 
-* Each learner's name
-* Scores for each activity
-* The weighted total
-* Whether the learner qualifies for a certificate
+* 每個學習者的姓名
+* 每個活動的分數
+* 總權重
+* 學習者是否符合證書資格
 
-You can sort by any column to quickly identify top performers or struggling learners.
+您可依任一欄位排序，以快速辨識表現優異或有困難的學習者。
 
-## Certificates
+## 證書
 
-To enable certificate generation:
+要啟用證書製作：
 
-1. In the assessment settings, set a **minimum certification score** (e.g., 70%)
-2. When a learner's weighted total meets or exceeds this threshold (and they have not failed any per-activity minimum score), they can download their certificate
-3. The certificate is generated from a template configured by the platform administrator
+1. 在評分設定中，設定**證書最低分數**（例如，70%）
+2. 當學習者的總權重達到或超過此門檻（且未在任一活動的最低分數失敗），即可下載證書
+3. 證書由平台管理員設定的範本產生
 
-See [Certificates and Skills](../tracking-and-reporting/certificates-and-skills.md) for more details.
+詳見 [證書與技能](../tracking-and-reporting/certificates-and-skills.md)。
 
-## Linking to Skills
+## 連結至技能
 
-You can associate **skills** with the assessment. When a learner reaches the set objectives to complete the assessment, they can either get a certificate, get a skill or both. Skills are visible on their profile in the social network space. This builds a competency record over time.
+您可將**技能**關聯至評分。當學習者達成評分設定的目標時，可獲得證書、技能，或兩者皆有。技能會顯示於其社交網路空間的個人檔案中。這有助於逐步建立能力記錄。
 
-## Exporting Grades
+## 匯出分數
 
-Click the **Export** <img src="/.gitbook/assets/icons/mdi-export.svg" alt="Export" data-size="line"> button to download grades as a spreadsheet. This is useful for:
+按一下**匯出**按鈕 <img src="/.gitbook/assets/icons/mdi-export.svg" alt="匯出" data-size="line">，以下載分數試算表。這有助於：
 
-* Sharing grades with administrative systems
-* Performing additional analysis outside Chamilo
-* Keeping offline records
+* 與行政系統分享分數
+* 在 Chamilo 外進行額外分析
+* 儲存離線記錄
 
-## Tips
+## 提示
 
-* **Plan your weights early** — Define the grading scheme at the start of the course so learners know what to expect
-* **Use sub-categories for complex courses** — Group assignments, quizzes, and participation into clear categories
-* **Set meaningful pass thresholds** — The certification score should reflect actual competency, not just participation
-* **Check regularly** — Review the gradebook periodically to ensure all activities are properly linked and scores are being recorded
+* **及早規劃權重** — 在課程開始時決定評分方案，讓學習者清楚預期
+* **複雜課程使用子類別** — 將作業、測驗及參與度群組至明確類別
+* **設定有意義的及格門檻** — 證書分數應反映真實能力，而非僅參與
+* **定期檢查** — 定期檢視成績單，確保所有活動正確連結且分數記錄妥當

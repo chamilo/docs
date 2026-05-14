@@ -1,41 +1,41 @@
-# Classes / User Groups
+# 班級 / 使用者群組
 
-Classes in the administration panel are platform-wide groups used to organize users for management purposes. They are distinct from course-level groups (which are created by teachers within a course).
+管理面板中的班級是平台範圍的群組，用於管理目的組織使用者。它們與課程層級的群組（由教師在課程內建立）不同。
 
-> User groups and [Classes](../../admin-guide/sessions/classes.md) share the same interface. The only difference is the **group type** setting: choose "Class" to create a class (used for bulk session enrollment), or "User group" for more social groups that can have their own space in the internal social network. See [Classes](../../admin-guide/sessions/classes.md) for details on session enrollment.
+> 使用者群組與[班級](../../admin-guide/sessions/classes.md)共用相同的介面。唯一的差異是**群組類型**設定：選擇「Class」以建立班級（用於大量註冊課程），或選擇「User group」以建立可在內部社群網路擁有自己空間的社群群組。請參閱[班級](../../admin-guide/sessions/classes.md)以了解課程註冊的詳細資訊。
 
-## Creating a Group
+## 建立群組
 
-![The user groups list showing available groups with name, description, and member count](/.gitbook/assets/admin-user-groups-list.png)
+![顯示可用群組的名稱、描述和成員數量的使用者群組清單](/.gitbook/assets/admin-user-groups-list.png)
 
-1. From the administration panel, navigate to **Classes**
-2. Click **Add classes**
-3. Enter a **title** and optional **description**
-4. Check **Social group** if this will be a social group. Leave unchecked if it will be a class.
-5. Add an optionali reference URL and picture/logo.
-6. Choose the group **permissions**:
-   * **Open** — Any user can join
-   * **Closed** — Users must be added by an administrator
-7. Check if you want members to be able to leave the class by themselves.
-8. Save.
+1. 從管理面板，前往**Classes**
+2. 點擊**Add classes**
+3. 輸入**標題**和選用的**描述**
+4. 如果這將是社群群組，請勾選**Social group**。如果是班級，請勿勾選。
+5. 新增選用的參考 URL 和圖片/標誌。
+6. 選擇群組**權限**：
+   * **Open** — 任何使用者皆可加入
+   * **Closed** — 使用者必須由管理員新增
+7. 勾選以允許成員自行退出班級。
+8. 儲存。
 
-## Adding Members
+## 新增成員
 
-1. Open the list of classes/user groups
-2. Click the user icon **Subscribe users to class**
-3. Search for users by name, username or email
-4. Select the users to add, using the arrows to the right side
-5. Click the confirmation button to save
+1. 開啟班級/使用者群組清單
+2. 點擊使用者圖示**Subscribe users to class**
+3. 依名稱、使用名稱或電子郵件搜尋使用者
+4. 選擇要新增的使用者，使用右側的箭頭
+5. 點擊確認按鈕以儲存
 
-## Use Cases
+## 使用案例
 
-* **Department organization** — Group users by department or team
-* **Bulk enrollment** — Add all members of a group to a course or session at once
-* **Targeted communication** — Send announcements to specific groups
-* **Reporting** — View training progress filtered by group
+* **部門組織** — 依部門或團隊群組使用者
+* **大量註冊** — 一次將群組的所有成員新增至課程或課程
+* **目標通訊** — 向特定群組發送公告
+* **報告** — 依群組篩選檢視訓練進度
 
-## Managing Groups
+## 管理群組
 
-* **Edit** — Change the group name, description, or visibility
-* **Manage members** — Add or remove members
-* **Delete** — Remove the group (does not delete the member accounts)
+* **編輯** — 變更群組名稱、描述或可見度
+* **管理成員** — 新增或移除成員
+* **刪除** — 移除群組（不會刪除成員帳戶）

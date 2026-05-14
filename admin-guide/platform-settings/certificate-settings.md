@@ -1,82 +1,81 @@
-# Certificates Settings
+# 證書設定
 
-Defaults applied when a learner earns a certificate from the gradebook.
+當學習者從成績簿獲得證書時所應用的預設值。
 
-Access these settings under **Administration > Configuration settings > Certificates**. This category contains **9 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+在 **管理 > 設定 > 證書** 下存取這些設定。此類別包含 **9 個設定**，以下列出平台設定預設資料 (`SettingsCurrentFixtures.php`) 中提供的標題與註解。
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> 程式碼中的變數名稱以等寬字體顯示。使用 API 進行腳本編寫，或需透過編輯 [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml) 在全域層級變更這些設定時，請使用它。
 
-## Settings
+## 設定
 
 ### `add_certificate_pdf_footer`
 
-**Add footer to PDF certificate exports**
+**新增 PDF 證書匯出頁尾**
 
-When enabled, a footer is added to PDF exports of certificates.
+啟用時，會在證書的 PDF 匯出中新增頁尾。
 
-*Default: `false`*
+*預設值：`false`*
 
 ### `allow_general_certificate`
 
-**Enable general certificate**
+**啟用一般證書**
 
-A general certificate is a certificate grouping all the accomplishments by the user in the courses (s)he followed.
+一般證書是彙整使用者在所修課程中所有成就的證書。
 
-*Default: `false`*
+*預設值：`false`*
 
 ### `allow_public_certificates`
 
-**Allow public certificates**
+**允許公開證書**
 
-User certificates can be view by unregistered users.
+使用者證書可供未註冊使用者檢視。
 
-*Default: `false`*
+*預設值：`false`*
 
 ### `certificate_filter_by_official_code`
 
-**Certificates filter by official code**
+**證書依官方代碼篩選**
 
-Add a filter on the students official code to the certificates list.
+在證書清單中新增依學生官方代碼篩選的功能。
 
-*Default: `false`*
+*預設值：`false`*
 
 ### `certificate_pdf_orientation`
 
-**PDF orientation for certificates**
+**證書 PDF 方向**
 
-Set ‘portrait’ or ‘landscape’ (technical terms) for PDF certificates.
+為 PDF 證書設定「portrait」或「landscape」（技術術語）。
 
-*Default: `landscape`*
+*預設值：`landscape`*
 
 ### `hide_certificate_export_link`
 
-**Certificates: hide PDF export link for all**
+**證書：隱藏所有使用者的 PDF 匯出連結**
 
-Enable to completely remove the possibility to export certificates to PDF (for all users). If enabled, this includes hiding it from students.
+啟用以完全移除將證書匯出為 PDF 的可能性（適用於所有使用者）。啟用時，包括對學生隱藏該功能。
 
-*Default: `false`*
+*預設值：`false`*
 
 ### `hide_certificate_export_link_students`
 
-**Certificates: hide export link from students**
+**證書：對學生隱藏匯出連結**
 
-If enabled, students won’t be able to export their certificates to PDF. This option is available because, depending on the precise HTML structure of the certificate template, the PDF export might be of low quality. In this case, it is best to only show the HTML certificate to students.
+啟用時，學生無法將其證書匯出為 PDF。此選項之所以提供，是因為視證書範本的精確 HTML 結構而定，PDF 匯出的品質可能較低。在此情況下，最好僅向學生顯示 HTML 證書。
 
-*Default: `false`*
+*預設值：`false`*
 
 ### `hide_my_certificate_link`
 
-**Hide ‘my certificate’ link**
+**隱藏「我的證書」連結**
 
-Hide the certificates page for non-admin users.
+隱藏非管理員使用者的證書頁面。
 
-*Default: `false`*
+*預設值：`false`*
 
 ### `session_admin_can_download_all_certificates`
 
-**Allow session admins to download private certificates**
+**允許課程期間管理員下載私人證書**
 
-If enabled, session administrators can download certificates even if they are not publicly published.
+啟用時，課程期間管理員即使證書未公開發布，亦可下載證書。
 
-*Default: `false`*
-
+*預設值：`false`*

@@ -1,99 +1,99 @@
-# Configuration
+# 配置
 
-Chamilo 2.0 uses environment variables and Symfony configuration files for its core settings. This page covers the key configuration files and variables.
+Chamilo 2.0 使用環境變數和 Symfony 配置文件來進行核心設置。本頁面涵蓋了主要的配置文件和變數。
 
-## Environment Variables (.env)
+## 環境變數 (.env)
 
-The primary configuration file is `.env` in the Chamilo root directory. This file contains environment-specific settings that should not be committed to version control.
+主要的配置文件是位於 Chamilo 根目錄下的 `.env` 檔案。此檔案包含特定環境的設置，不應提交到版本控制中。
 
-A default `.env.dist` file ships with Chamilo and contains documented defaults. Create `.env` (required to start the installation) to override values for your environment.
+Chamilo 提供了一個預設的 `.env.dist` 檔案，其中包含了有說明文件的預設值。請創建 `.env` 檔案（啟動安裝時必須有此檔案）以覆蓋您環境中的值。
 
-### Key Variables
+### 主要變數
 
-| Variable | Description | Example |
+| 變數 | 描述 | 範例 |
 |----------|-------------|---------|
-| `APP_ENV` | The application environment, at the Symfony level. Use `prod` for production, `dev` for development, 'test' for testing. | `prod` |
-| `APP_SECRET` | A random string used for CSRF tokens, cookie signing, and other cryptographic operations. Chamilo generates a unique value for each installation. Don't modify it. | `a1b2c3d4e5f6...` |
-| `DATABASE_HOST` | The database host. Defaults to localhost | `localhost` |
-| `DATABASE_PORT` | The database port. Defaults to 3306 for MySQL/MariaDB | `3306` |
-| `DATABASE_NAME` | The database name, as given by you to the installation wizard. | See below. |
-| `DATABASE_USER` | The database username, as given by you to the installation wizard. | See below. |
-| `DATABASE_PASSWORD` | The database user's password, as given by you to the installation wizard. | See below. |
-| `TRUSTED_PROXIES` | (Optional) If you are hosting Chamilo behind a reverse proxy, you need to provide the IP(s) of the reverse proxy here for Chamilo to be able to interpret calls and generate responses correctly. | |
+| `APP_ENV` | 應用程式環境，在 Symfony 層級上。生產環境使用 `prod`，開發環境使用 `dev`，測試環境使用 `test`。 | `prod` |
+| `APP_SECRET` | 用於 CSRF 令牌、Cookie 簽名和其他加密操作的隨機字串。Chamilo 會為每次安裝生成唯一值，請勿修改。 | `a1b2c3d4e5f6...` |
+| `DATABASE_HOST` | 資料庫主機，預設為 localhost。 | `localhost` |
+| `DATABASE_PORT` | 資料庫端口，MySQL/MariaDB 預設為 3306。 | `3306` |
+| `DATABASE_NAME` | 資料庫名稱，由您在安裝精靈中提供。 | 見下文。 |
+| `DATABASE_USER` | 資料庫使用者名稱，由您在安裝精靈中提供。 | 見下文。 |
+| `DATABASE_PASSWORD` | 資料庫使用者的密碼，由您在安裝精靈中提供。 | 見下文。 |
+| `TRUSTED_PROXIES` | （可選）如果您將 Chamilo 託管在反向代理後面，需在此提供反向代理的 IP 地址，以便 Chamilo 正確解釋請求並生成回應。 | |
 
-Other settings in .env are relatively rarely modified.
+.env 中的其他設置相對較少被修改。
 
-Note that, in future versions, the DATABASE_* settings will be combined into one single `DATABASE_URL` variable.
+請注意，在未來的版本中，DATABASE_* 設置將合併為單一的 `DATABASE_URL` 變數。
 
-E-mail sending configuration is presented during installation, but can be modified later on in the `Platform settings` section of the administration dashboard.
+電子郵件發送配置會在安裝過程中顯示，但稍後可在管理儀表板的「平台設置」部分進行修改。
 
-## Symfony Configuration (config/ Directory)
+## Symfony 配置 (config/ 目錄)
 
-Symfony-level configuration lives in the `config/` directory. These YAML files control framework behavior, service definitions, and package-specific settings.
+Symfony 層級的配置位於 `config/` 目錄中。這些 YAML 檔案控制框架行為、服務定義和套件特定設置。
 
-It is not frequent to have to modify those files, and changing them can render your portal inoperative, so please do not attempt to modify those if you must ensure the system's availability.
+修改這些檔案並不常見，且更改可能導致您的入口網站無法運作，因此如果您必須確保系統的可用性，請勿嘗試修改這些檔案。
 
-### Key Configuration Files
+### 主要配置文件
 
-| File | Purpose |
+| 檔案 | 用途 |
 |------|---------|
-| `config/authentication.yaml` | Authentication methods configuration. |
-| `config/packages/doctrine.yaml` | Database and ORM configuration. |
-| `config/packages/security.yaml` | Authentication, firewalls, access control, and role hierarchies. |
-| `config/packages/cache.yaml` | Cache adapter configuration (filesystem, APCu, Redis). |
-| `config/packages/framework.yaml` | General Symfony framework settings (session, CSRF, router, HTTP caching). |
-| `config/packages/twig.yaml` | Template engine configuration. |
-| `config/services.yaml` | Application service definitions and dependency injection. |
+| `config/authentication.yaml` | 認證方法配置。 |
+| `config/packages/doctrine.yaml` | 資料庫和 ORM 配置。 |
+| `config/packages/security.yaml` | 認證、防火牆、存取控制和角色層級。 |
+| `config/packages/cache.yaml` | 快取適配器配置（檔案系統、APCu、Redis）。 |
+| `config/packages/framework.yaml` | 一般 Symfony 框架設置（會話、CSRF、路由器、HTTP 快取）。 |
+| `config/packages/twig.yaml` | 模板引擎配置。 |
+| `config/services.yaml` | 應用程式服務定義和依賴注入。 |
 
-### Environment-Specific Overrides
+### 環境特定覆蓋
 
-Symfony supports per-environment configuration. Files in `config/packages/prod/` override the defaults when `APP_ENV=prod`, and `config/packages/dev/` overrides when `APP_ENV=dev`.
+Symfony 支援針對不同環境的配置。當 `APP_ENV=prod` 時，`config/packages/prod/` 中的檔案會覆蓋預設值；當 `APP_ENV=dev` 時，`config/packages/dev/` 中的檔案會覆蓋預設值。
 
-For example, `config/packages/prod/monolog.yaml` typically configures less verbose logging than the development equivalent.
+例如，`config/packages/prod/monolog.yaml` 通常配置的日誌詳細程度比開發環境的對應檔案低。
 
-Chamilo does not define any configuration in `config/packages/prod/` in the software itself, so if you want to customize setting from `config/packages/*.yaml`, just create a copy of the yaml file inside that directory and change the settings there.
+Chamilo 本身在軟體中未定義 `config/packages/prod/` 中的任何配置，因此如果您想自訂 `config/packages/*.yaml` 中的設置，只需在該目錄內創建 yaml 檔案的副本並更改設置即可。
 
-## File Permissions
+## 檔案權限
 
-We made efforts in 2.0+ to ensure that a single directory needed permissions. This is the `var/` directory, and to avoid complex issues, just setting the whole folder as writeable by the web server system user is enough.
+我們在 2.0+ 版本中努力確保只有單一目錄需要權限。這是 `var/` 目錄，為了避免複雜問題，只需將整個資料夾設置為可由網頁伺服器系統使用者寫入即可。
 
-Set permissions appropriately under Debian-based systems:
+在基於 Debian 的系統上適當設置權限：
 
 ```bash
-# For systems where the web server runs as www-data
+# 對於網頁伺服器以 www-data 身份運行的系統
 chown -R www-data:www-data var/
 chmod -R 775 var/
 ```
 
-## Common Configuration Tasks
+## 常見配置任務
 
-### Switch to Production Mode
+### 切換到生產模式
 
 ```bash
-# In .env
+# 在 .env 中
 APP_ENV=prod
 APP_DEBUG=0
 ```
 
-Then clear and warm the cache:
+然後清除並預熱快取：
 
 ```bash
 php bin/console cache:clear --env=prod
 php bin/console cache:warmup --env=prod
 ```
 
-### Configure Trusted Proxies
+### 配置受信任的代理
 
-If Chamilo runs behind a reverse proxy or load balancer, configure trusted proxies so that HTTPS detection and client IP resolution work correctly:
+如果 Chamilo 在反向代理或負載平衡器後面運行，配置受信任的代理以便 HTTPS 檢測和客戶端 IP 解析正確運作：
 
 ```yaml
 # .env
 TRUSTED_PROXIES='127.0.0.1,PROXY_IP'
 ```
 
-### Configure Session Storage
+### 配置會話儲存
 
-By default, sessions are stored on the filesystem. For multi-server deployments, configure Redis or database-backed sessions:
+預設情況下，會話儲存在檔案系統上。對於多伺服器部署，配置 Redis 或資料庫支持的會話：
 
 ```yaml
 # config/packages/framework.yaml
@@ -102,8 +102,8 @@ framework:
         handler_id: 'redis://localhost:6379'
 ```
 
-## Tips
+## 提示
 
-* **Never edit `.env.dist` directly** -- Always use `.env` for your overrides. The `.env.dist` file may be overwritten during upgrades.
-* **Keep `APP_DEBUG=0` in production** -- Debug mode exposes sensitive information in error pages.
-* **Back up `.env`** separately from the codebase since it contains credentials and is excluded from version control.
+* **切勿直接編輯 `.env.dist`** -- 請始終使用 `.env` 來進行您的覆蓋設定。`.env.dist` 文件可能在升級過程中被覆蓋。
+* **在生產環境中保持 `APP_DEBUG=0`** -- 除錯模式會在錯誤頁面中暴露敏感資訊。
+* **單獨備份 `.env`**，因為它包含憑證資訊且被排除在版本控制之外，應與程式碼庫分開保存。

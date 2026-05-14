@@ -1,37 +1,37 @@
 # xAPI
 
-**xAPI** (Experience API, also known as Tin Can API) is a standard for tracking learning experiences. Chamilo can both generate and consume xAPI statements.
+**xAPI**（Experience API，亦稱 Tin Can API）是一種用於追蹤學習體驗的標準。Chamilo 可以產生並消費 xAPI 陳述。
 
-## What xAPI Does
+## xAPI 的功能
 
-xAPI tracks learning activities as **statements** in the format: "Actor did Verb on Object." For example:
+xAPI 以 **陳述**（statements）的形式追蹤學習活動，格式為：「行為者對物件執行動詞。」例如：
 
-* "Jane completed Module 1"
-* "John scored 85% on the Final Exam"
-* "Maria watched the Introduction Video"
+* 「Jane 完成了模組 1」
+* 「John 在期末考試中獲得 85% 分數」
+* 「Maria 觀看了介紹影片」
 
-These statements are stored in a **Learning Record Store (LRS)**, providing a comprehensive record of learning activity.
+這些陳述會儲存在 **學習記錄儲存庫（LRS）** 中，提供學習活動的完整記錄。
 
-## Configuration
+## 設定
 
-1. In the platform settings, configure the **LRS endpoint**:
-   * **LRS URL** — The address of your Learning Record Store
-   * **LRS authentication** — Credentials for sending data to the LRS
-2. Enable xAPI tracking for the desired activities
+1. 在平台設定中，設定 **LRS 端點**：
+   * **LRS URL** — 您的學習記錄儲存庫位址
+   * **LRS 驗證** — 用於將資料傳送至 LRS 的認證資訊
+2. 為所需的活動啟用 xAPI 追蹤
 
-## What Chamilo Tracks via xAPI
+## Chamilo 透過 xAPI 追蹤的內容
 
-Chamilo can generate xAPI statements for:
+Chamilo 可以產生以下 xAPI 陳述：
 
-* Course access and completion
-* Exercise attempts and scores
-* Learning path item progress
-* Portfolio items
+* 課程存取與完成
+* 練習嘗試與分數
+* 學習路徑項目進度
+* 作品集項目
 
-Other tools (such as Documents and Forums) are not currently emitted as xAPI events by the plugin.
+其他工具（例如文件與論壇）目前不會由外掛程式發出 xAPI 事件。
 
-## Use Cases
+## 使用案例
 
-* **Cross-platform tracking** — Track learning activity across multiple tools and platforms in a single LRS
-* **Advanced analytics** — Use LRS analytics tools to generate insights that go beyond Chamilo's built-in reporting
-* **Compliance reporting** — Generate audit trails of training completion for regulatory requirements
+* **跨平台追蹤** — 在單一 LRS 中追蹤跨多個工具與平台的學習活動
+* **進階分析** — 使用 LRS 分析工具產生超越 Chamilo 內建報表的洞察
+* **合規報表** — 為法規要求產生訓練完成的審計軌跡

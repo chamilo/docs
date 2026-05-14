@@ -1,93 +1,96 @@
-# Assignments
+# 作業
 
-The assignments tool (also called "student publications") lets you collect work from learners — essays, projects, reports, or any file-based submission — and grade it.
+作業工具（也稱為「學生發佈」）讓您能夠收集學習者的作業 — 文章、專案、報告或其他基於檔案的提交 — 並對其進行評分。
 
-## Creating an Assignment
+## 建立作業
 
-1. Open the **Assignments** <img src="/.gitbook/assets/icons/mdi-inbox-full.svg" alt="Assignments" data-size="line"> tool from the course homepage
-2. Click **Create an assignment**
-3. Fill in the details:
-   * **Assignment name** — The name of the assignment (e.g., "Final Project Report")
-   * **Description** — Instructions for learners, including what to submit and how it will be evaluated (supports rich text)
-   * **Maximum score** — On what total will the assignment be graded
-   * **Add to gradebook** — Add as an evaluated item in the assessment (gradebook) tool, so it can be part of reaching the course's goals
-   * **Deadline** — The official (published) date and time after which submissions are flagged as late (uploads are still accepted)
-   * **Ends at (completely closed)** — The hard cutoff date and time after which no upload is possible
-   * **Add to calendar** — Create an event to reference this assignment submission date
-   * **Submission type** — Choose between **Allow only text**, **Allow only files**, or **Allow files or online text**
-4. Save
+1. 從課程首頁開啟 **作業** 工具 <img src="/.gitbook/assets/icons/mdi-inbox-full.svg" alt="作業" data-size="line">
+2. 點選 **建立作業**
+3. 填寫詳細資訊：
+   * **作業名稱** — 作業名稱（例如，「最終專案報告」）
+   * **描述** — 給學習者的指示，包括需提交的內容及評分方式（支援富文本）
+   * **最高分數** — 用於評分作業的總分數
+   * **新增至成績簿** — 將其新增為評分工具（成績簿）中的評分項目，以便成為課程目標達成的一部分
+   * **截止時間** — 正式（已發佈）的日期和時間，之後提交將標記為遲交（仍可接受上傳）
+   * **結束時間（完全關閉）** — 嚴格的最終截止日期和時間，之後無法進行任何上傳
+   * **新增至行事曆** — 建立事件以參照此作業的提交日期
+   * **提交類型** — 選擇 **僅允許文字**、**僅允許檔案** 或 **允許檔案或線上文字**
+4. 儲存
 
-Once you have created an assignment, you can also:
-* Upload template documents from inside the assignment detail page
-* Assign the assignment to specific users (rather than all users of the course)
+建立作業後，您還可以：
+* 從作業詳細頁面內上傳範本文件
+* 將作業指派給特定使用者（而非課程中所有使用者）
 
-And once learners have submitted their assignments, you can:
-* Export a PDF list of submissions
-* Show a list of only the learners who have not submitted their assignment
-* Download all assignments in a big ZIP
-* Upload all corrections in a big ZIP
-* Delete all corrections you submitted (this doesn't delete the learners' submissions)
+當學習者提交作業後，您可以：
+* 以 PDF 格式匯出提交清單
+* 顯示尚未提交作業的學習者清單
+* 以單一大型 ZIP 檔案下載所有作業
+* 以單一大型 ZIP 檔案上傳所有修正
+* 刪除您已送出的所有修正（這不會刪除學習者的提交）
 
-## How Learners Submit
+## 學習者提交作業的方式
 
-Learners open the assignment and:
+學習者開啟作業並：
 
-1. Click **Upload file** or the submission button
-2. Select a file from their computer (or write text directly, depending on configuration)
-3. Add an optional comment
-4. Submit
+1. 點選 **上傳檔案** 或提交按鈕
+2. 從其電腦選擇檔案（或依配置直接輸入文字）
+3. 新增選用留言
+4. 送出
 
-Learners can see whether they have already submitted and, if allowed, update their submission.
+學習者可查看自己是否已提交作業，並在允許的情況下更新其提交。
 
-## Reviewing Submissions
+## 檢視提交
 
-![The assignment submissions list showing student names, dates, files, and grading status](/.gitbook/assets/assignments-submissions-list.png)
+![顯示學生姓名、日期、檔案及評分狀態的作業提交清單](/.gitbook/assets/assignments-submissions-list.png)
 
-As a teacher, open an assignment to see the list of all submissions:
+身為教師，開啟作業即可查看所有提交清單：
 
-* **Student name** — Who submitted
-* **Submission date** — When the work was submitted
-* **File** — Download the submitted file
-* **Status** — Whether the submission has been graded
-* **Comments** — Any comments left by the learner or by you
+* **學生姓名** — 提交者身分
+* **提交日期** — 作業提交時間
+* **檔案** — 下載所提交的檔案
+* **狀態** — 提交是否已評分
+* **留言** — 學習者或您留下的留言
 
-### Grading a Submission
+### 評分提交
 
-![The assignment grading view with score input, feedback field, and corrected file upload](/.gitbook/assets/assignment-grading-view.png)
+![顯示分數輸入、回饋欄位及修正檔案上傳的作業評分檢視](/.gitbook/assets/assignment-grading-view.png)
 
-1. Click on a submission to open it
-2. Review the submitted file
-3. Enter a **score**
-4. Write **feedback comments** for the learner
-5. Optionally upload a **corrected file** as an attachment
-6. Save
+1. 點選提交以開啟
+2. 檢視所提交的檔案
+3. 輸入 **分數**
+4. 撰寫 **回饋留言** 給學習者
+5. 選用上傳 **修正檔案** 作為附件
+6. 儲存
 
-### AI-Assisted Grading
+### AI 輔助評分
 
-If AI tools are configured on your platform, you may see an **AI grading** option when reviewing submissions. This uses an AI model to suggest a score and feedback for open-ended work. See [AI Grading](../ai-tools/ai-grading.md) for details.
+如果您的平台已配置 AI 工具，在檢視提交時，您可能會看到 **AI 評分** 選項。此功能使用 AI 模型為開放式作業建議分數及回饋。詳見 [AI 評分](../ai-tools/ai-grading.md)。
 
-## Managing Submissions
+## 管理提交
 
-Group actions:
-* **Download assignments package** — Download all submissions as a single ZIP file for offline review
-* **Upload corrections package** — If you downloaded all submissions in a single ZIP file, edited the files in place on your computer and zipped them again, you can send the zip as a package of corrections. Do not change filenames or it will not work.
-* **Late submissions** — Submissions after the deadline are flagged but may still be accepted depending on your settings
+群組動作：
+* **下載作業套件** — 以單一 ZIP 檔案下載所有提交，以便離線檢視
+* **上傳修正套件** — 如果您以單一 ZIP 檔案下載所有提交、在電腦上編輯檔案並重新壓縮，您可以將 ZIP 作為修正套件送出。請勿變更檔案名稱，否則將無法運作。
+* **遲交提交** — 截止時間後的提交將標記，但依您的設定可能仍可接受
 
-Individual submission actions:
-* **Upload correction** — Upload a correction for one learner 
-* **Download** — Download the submission of one learner
-* **Correct and grade** — Add a correction and a grade to the learner's submission 
-* **Edit** — Edit the document title or the previous feedback on the submission
-* **Move** — Transfer a submission between assignment folders (e.g. if the student submitted in the wrong assignment)
-* **Visibility** — Control whether learners can see each other's submissions
+個別提交動作：
+* **上傳修正** — 為單一學習者上傳修正
+* **下載** — 下載單一學習者的提交
+* **修正與評分** — 為學習者提交新增修正及評分
+* **編輯** — 編輯文件標題或先前回饋
+* **移動** — 在作業資料夾間移動提交（例如學生提交至錯誤作業）
+* **可見性** — 控制學習者是否可查看彼此的提交
 
-## Linking to the Gradebook
+## 連結至成績簿
 
-Assignment scores can be included in the course gradebook ("Assessments" tool). This allows assignment grades to contribute to the learner's overall course grade and certificate eligibility. See [Gradebook](gradebook.md) for details.
+作業分數可輸入課程成績簿（「評分」工具）。這讓作業分數能貢獻於學習者的整體課程分數及證書資格。詳見 [成績簿](gradebook.md)。
 
-## Tips
+---
 
-* **Be specific in instructions** — Clearly describe what learners should submit, the expected format, and evaluation criteria
-* **Set realistic deadlines** — Use the Agenda tool to make deadlines visible in the course calendar
-* **Use the corrected file feature** — Upload annotated versions of student work so they can see your specific corrections
-* **Enable peer visibility carefully** — Allowing learners to see each other's work can encourage learning but may not be appropriate for all assignments
+---
+## 提示
+
+* **提供具體指示** — 清楚說明學習者必須提交的內容、預期格式，以及評估標準
+* **設定實際的截止日期** — 使用 [議程] 工具，讓截止日期顯示在課程日曆中
+* **使用已批改檔案功能** — 上傳學生作業的註解版本，讓他們能看到您的具體修正
+* **謹慎啟用參與者間的可见性** — 允許學習者互相查看作業可促進學習，但不適合所有作業

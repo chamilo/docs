@@ -1,57 +1,57 @@
-# User Roles
+# 使用者角色
 
-Chamilo uses a role-based permission system. Each user is assigned a role that determines what they can see and do on the platform.
+Chamilo 使用基於角色的權限系統。每位使用者會被指派一個角色，決定他們在平台上可以看到和做什麼。
 
-## Platform-Level Roles
+## 平台層級角色
 
-These roles control access to platform-wide features:
+這些角色控制對平台範圍功能的存取：
 
 | Role |  Description |
 |------|------------|
-| **Learner (Student)** | The default role. Can enroll in courses, access learning content, submit assignments, and take exercises. |
-| **Teacher (Trainer)** | Can create and manage courses, add content, grade students, and view course-level reports. |
-| **Sessions Administrator** | Can create and manage sessions (i.e. time-based course packages), enroll users in sessions, and assign coaches. Cannot access general platform settings. |
-| **Human Resources Manager (HRM)** | Can view tracking and reporting data for assigned users. Used for supervisors who need to monitor employee training but not manage content nor the platform. |
-| **Portal Administrator** | Full access to all platform administration features. Can manage users, courses, sessions, plugins, and all settings. |
-| **Global Administrator** | Same as Portal Administrator but with access across all access URLs in a multi-URL (i.e. multi-tenant) setup. |
-| **Anonymous** | A special role for visitors who are not logged in. Can access public courses and content if enabled. |
+| **Learner (Student)** | 預設角色。可以註冊課程、存取學習內容、提交作業並進行測驗。 |
+| **Teacher (Trainer)** | 可以建立和管理課程、新增內容、評分學生，並檢視課程層級報告。 |
+| **Sessions Administrator** | 可以建立和管理工作坊（即基於時間的課程套件）、將使用者註冊至工作坊，並指派導師。無法存取一般平台設定。 |
+| **Human Resources Manager (HRM)** | 可以檢視指派使用者的追蹤和報告資料。用於需要監控員工訓練但不管理內容或平台的監督者。 |
+| **Portal Administrator** | 完整存取所有平台管理功能。可以管理使用者、課程、工作坊、插件和所有設定。 |
+| **Global Administrator** | 與 Portal Administrator 相同，但在多 URL（即多租戶）設定中可存取所有存取 URL。 |
+| **Anonymous** | 專供未登入訪客的特殊角色。若啟用，可存取公開課程和內容。 |
 
-## Course-Level Roles
+## 課程層級角色
 
-Within a course, users have specific roles:
-
-| Role | Description |
-|------|-------------|
-| **Student** | Default course role. Can access content, take exercises, submit assignments. |
-| **Course assistant** | Has limited management permissions within the course. Can help manage content and moderate forums. |
-| **Teacher** | Full control over the course: manage content, tools, settings, and enrollment. |
-
-## Session-Level Roles
-
-Within a session, additional roles exist:
+在課程內，使用者擁有特定角色：
 
 | Role | Description |
 |------|-------------|
-| **Session tutor** | Oversees all courses within a session. Can view tracking across all courses in the session. |
-| **Course tutor** | Teaches a specific course within a session. Can manage content and track learners for that course in that session. |
+| **Student** | 預設課程角色。可以存取內容、進行測驗、提交作業。 |
+| **Course assistant** | 在課程內擁有有限的管理權限。可以協助管理內容並審核論壇。 |
+| **Teacher** | 對課程擁有完整控制：管理內容、工具、設定和註冊。 |
 
-Note: The coach and tutor names are very similar in meaning and are generally dependent on the organization. We use both terms interchangeably in Chamilo 2.0, but most of the time we mean tutor, a person that will help you learn from the course, not a personal coach. We might use "tutor" exclusively in the future.
+## 工作坊層級角色
 
-## Assigning Roles
+在工作坊內，存在額外角色：
 
-When creating or editing a user account in the administration panel, you select their platform-level role. Course and session roles are assigned when enrolling users in courses or sessions.
+| Role | Description |
+|------|-------------|
+| **Session tutor** | 監督工作坊內所有課程。可以檢視工作坊內所有課程的追蹤資料。 |
+| **Course tutor** | 在工作坊內教授特定課程。可以管理內容並追蹤該工作坊中該課程的學習者。 |
 
-## Role Hierarchy
+注意：coach 和 tutor 的名稱在意義上非常相似，且通常取決於組織。在 Chamilo 2.0 中，我們將這兩個詞互換使用，但大多數情況下我們指的是 tutor，即幫助您從課程中學習的人，而不是個人教練。未來我們可能會專門使用「tutor」一詞。
 
-Higher-privileged roles inherit the capabilities of lower-privileged roles:
+## 指派角色
 
-* An administrator can do everything a teacher can do
-* A teacher can do everything a student can do
-* Session-level roles (coach) provide additional capabilities only within their assigned session
+在管理面板中建立或編輯使用者帳戶時，您會選擇他們的平台層級角色。課程和工作坊角色是在將使用者註冊至課程或工作坊時指派的。
 
-## Tips
+## 角色階層
 
-* **Use the principle of least privilege** — Assign users the minimum role they need to perform their tasks
-* **Use Sessions Administrators** for delegated management — If you have staff who need to manage training sessions but not the entire platform, give them the Sessions Administrator role instead of full administrator access
-* **Use HRM for supervisors** — Human Resources Managers can monitor training progress without having access to modify courses or platform settings
-* **Roles creation** — Chamilo 2.x has the internal structure ready for the creation of new roles, but the feature lacks more testing for wide release. It can be enabled through [Official providers of Chamilo](https://chamilo.org/providers).
+較高權限的角色會繼承較低權限角色的能力：
+
+* 管理員可以做教師能做的一切
+* 教師可以做學生能做的一切
+* 工作坊層級角色（coach）僅在其指定工作坊內提供額外能力
+
+## 提示
+
+* **使用最小權限原則** — 指派使用者執行任務所需的最低角色
+* **使用 Sessions Administrators 進行委派管理** — 如果您有員工需要管理訓練工作坊但不需要整個平台，請給予他們 Sessions Administrator 角色，而非完整管理員存取權
+* **使用 HRM 給監督者** — Human Resources Managers 可以監控訓練進度，而無需存取修改課程或平台設定的權限
+* **角色建立** — Chamilo 2.x 已具備建立新角色的內部結構，但該功能尚未經過廣泛發布的充分測試。可透過 [Official providers of Chamilo](https://chamilo.org/providers) 啟用。

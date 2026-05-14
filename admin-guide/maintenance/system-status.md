@@ -1,40 +1,40 @@
-# System Status
+# 系統狀態
 
-The system status page helps you verify that your Chamilo server is correctly configured and identify potential issues.
+系統狀態頁面有助於您驗證 Chamilo 伺服器是否正確配置，並識別潛在問題。
 
-## Accessing System Status
+## 存取系統狀態
 
-From the administration panel, click **System status** (or **System information**).
+從管理面板，點擊 **System status**（或 **System information**）。
 
-## What It Shows
+## 顯示內容
 
-![The system status page showing PHP configuration, database status, file permissions, and server information](/.gitbook/assets/admin-system-status.png)
+![顯示 PHP 配置、資料庫狀態、檔案權限和伺服器資訊的系統狀態頁面](/.gitbook/assets/admin-system-status.png)
 
-### PHP Configuration
+### PHP 配置
 
-* **PHP version** — Chamilo 2.0 requires PHP 8.2 or higher
-* **Required extensions** — Checks that all necessary PHP extensions are installed
-* **PHP settings** — Verifies important PHP settings like memory limit, upload limits, and execution time
+* **PHP version** — Chamilo 2.0 需要 PHP 8.2 或更高版本
+* **Required extensions** — 檢查所有必要的 PHP 擴充套件是否已安裝
+* **PHP settings** — 驗證重要的 PHP 設定，例如記憶體限制、上傳限制和執行時間
 
-### Database Status
+### 資料庫狀態
 
-* **Database connection** — Confirms the database is accessible
-* **Database version** — Shows the database server version
+* **Database connection** — 確認資料庫可存取
+* **Database version** — 顯示資料庫伺服器版本
 
-### File Permissions
+### 檔案權限
 
-* **Writable directories** — Checks that Chamilo can write to required directories (cache, uploads, logs)
+* **Writable directories** — 檢查 Chamilo 是否能寫入必要的目錄（快取、上傳、記錄）
 
-### Server Information
+### 伺服器資訊
 
-* **Operating system** — Server OS details
-* **Web server** — Apache, Nginx, or other
-* **Disk space** — Available storage
+* **Operating system** — 伺服器作業系統詳細資訊
+* **Web server** — Apache、Nginx 或其他
+* **Disk space** — 可用儲存空間
 
-## Recommended Checks
+## 建議檢查
 
-Perform these checks regularly:
+定期執行這些檢查：
 
-* **After installation** — Verify all requirements are met
-* **After upgrades** — Ensure PHP version and extensions are still compatible
-* **When issues arise** — Check system status first when troubleshooting problems
+* **After installation** — 驗證所有需求均已滿足
+* **After upgrades** — 確保 PHP 版本和擴充套件仍相容
+* **When issues arise** — 疑難排解問題時，首先檢查系統狀態

@@ -1,66 +1,66 @@
-# Attendance
+# 出席
 
-The attendance tool lets you track learner presence for scheduled class sessions, whether in-person or online.
+出席工具讓您追蹤學習者對排程課程的出席情況，無論是面對面還是線上課程。
 
-## Creating an Attendance Sheet
+## 建立出席表
 
-1. Open the **Attendance** tool from the course homepage
-2. Click **Add attendance** to create an attendance sheet
-3. Enter a **Title** for the attendance sheet (e.g., "Week 1 - Introduction")
-4. Enter a **Description** (this is mostly for your use - learners will not see the description)
-5. Save
+1. 從課程首頁開啟 **出席** 工具
+2. 點選 **新增出席** 以建立出席表
+3. 輸入出席表的 **標題**（例如，「第 1 週 - 入門」）
+4. 輸入 **描述**（這主要供您使用 - 學習者不會看到此描述）
+5. 儲存
 
-### Advanced settings
+### 進階設定
 
-1. **Require unique presence** allows you to consider a learner as fully present if he/she participated even to only one date of the attendance sheet
-2. **Gradebook options** lets you decide to qualify the attendance sheet in the assessement tool (gradebook).
+1. **要求唯一出席** 可讓您將學習者視為完全出席，若其僅參與出席表中的一個日期
+2. **成績簿選項** 可讓您決定是否將出席表納入評分工具（成績簿）。
 
-## Adding dates
+## 新增日期
 
-Each attendance sheet contains one or more dates (sessions) where you record presence:
+每個出席表包含一個或多個日期（課程），您可在其中記錄出席情況：
 
-1. Open an attendance sheet or continue with the creation process
-2. Click **Add a date** <img src="/.gitbook/assets/icons/mdi-calendar-plus.svg" alt="Add date" data-size="line">
-3. Select the date and time
-4. Optionally, check **Repeat date** to choose a repetition logic
-5. Give a **Duration** in minutes for the event (defaults to 60 minutes)
-6. Optionally, select a **Group** if this attendance date only applies to one group of learners
-7. Save
+1. 開啟出席表或繼續建立流程
+2. 點選 **新增日期** <img src="/.gitbook/assets/icons/mdi-calendar-plus.svg" alt="新增日期" data-size="line">
+3. 選擇日期與時間
+4. 選用：勾選 **重複日期** 以選擇重複邏輯
+5. 提供該活動的 **持續時間**（以分鐘為單位，預設 60 分鐘）
+6. 選用：若此出席日期僅適用於特定學習者群組，則選擇 **群組**
+7. 儲存
 
-You can add multiple dates to the same attendance sheet (e.g., all sessions for a month).
+您可將多個日期新增至同一出席表（例如，一個月的所有課程）。
 
-## Recording Attendance
+## 記錄出席
 
-For each date, mark each learner as:
+針對每個日期，將每位學習者標記為：
 
-* **Present** — The learner attended (default value for all learners)
-* **Absent** — The learner did not attend
+* **出席** — 學習者出席（所有學習者的預設值）
+* **缺席** — 學習者缺席
 
-Click on the status cell next to each learner's name to toggle between present and absent.
+點選每位學習者姓名旁的狀態儲存格，即可切換出席與缺席。
 
-By default, all learners are marked present, as we consider that chances are you have more people present than absent.
+預設情況下，所有學習者均標記為出席，因為我們假設出席者通常多於缺席者。
 
-Note: Admins can modify the portal configuration to allow you to choose more extended attendance types (late, absent with justification, etc), which can better reflect your procedures. In this case, just clicking the presence input will toggle between all the presence types.
+注意：管理員可變更入口網站設定，讓您選擇更廣泛的出席類型（遲到、因故缺席等），這可更符合您的程序。在這種情況下，只需點選出席輸入欄位，即可切換所有出席類型。
 
-## Viewing Attendance Reports
+## 查看出席報告
 
-![The attendance sheet showing a summary table with learners, dates, and presence indicators](/.gitbook/assets/attendance-sheet.png)
+![顯示學習者、日期與出席指標摘要表格的出席表](/.gitbook/assets/attendance-sheet.png)
 
-The attendance tool shows:
+出席工具顯示：
 
-* A summary table with all learners and all dates
-* Each learner's attendance percentage (present sessions / total sessions)
-* Color-coded indicators for easy scanning
+* 包含所有學習者與所有日期的摘要表格
+* 每位學習者的出席百分比（出席課程數 / 總課程數）
+* 用於輕鬆掃描的顏色編碼指標
 
-## Extra
+## 額外功能
 
-Attendances have a few extended features that are not visible straight away:
-* **Signatures** can be enabled so that learners can sign their attendance in-class through a tablet handled by the teacher
-* **Comments** can be added by the teacher on each student attendance
-* **PDF reports** can be extracted to comply with regulation
+出席具備幾項不易察覺的額外功能：
+* **簽名** 可啟用，讓學習者在課堂上透過教師持有的平板簽署出席
+* **評論** 可由教師新增至每位學習者的出席記錄
+* **PDF 報告** 可匯出以符合法規要求
 
-## Tips
+## 提示
 
-* **Link to course progress** — Use attendance data alongside the Course Progress tool to correlate presence with topic coverage
-* **Export data** — Export the attendance sheet for administrative records
-* **Set expectations** — If attendance is mandatory, communicate the policy clearly in your course introduction or announcements
+* **連結課程進度** — 將出席資料與課程進度工具結合，以關聯出席與主題涵蓋範圍
+* **匯出資料** — 匯出出席表以供行政記錄
+* **設定期望** — 若出席為必修，請在課程簡介或公告中清楚傳達政策

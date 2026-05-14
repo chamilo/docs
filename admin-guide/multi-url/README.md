@@ -1,5 +1,5 @@
-# Multi-URL
+# 多 URL
 
-Chamilo's multi-URL feature (also called multi-tenant) allows you to run multiple virtual portals from a single Chamilo installation. Each portal has its own URL, branding, users, courses, and settings, but they all share the same database and codebase.
+Chamilo 的多 URL 功能（也稱為多租戶）允許您從單一 Chamilo 安裝運行多個虛擬入口網站。每個入口網站擁有自己的 URL、品牌、使用者和課程，以及設定，但它們皆共用相同的資料庫和程式碼庫。
 
-* **[Access URLs](access-urls.md)** — Configure and manage multiple access URLs
+* **[存取 URL](access-urls.md)** — 設定和管理多個存取 URL

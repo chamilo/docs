@@ -1,46 +1,47 @@
-# Managing Plugins
+# 管理外掛
 
-## Accessing the Plugin Manager
+## 存取外掛管理員
 
-![The plugin manager showing a list of available plugins with activation toggles and configuration options](/.gitbook/assets/admin-plugin-manager.png)
+![外掛管理員顯示可用外掛清單，包含啟用切換和設定選項](/.gitbook/assets/admin-plugin-manager.png)
 
-From the administration panel, click **Manage plugins** to see the list of available plugins.
+從管理面板，點擊 **Manage plugins** 以查看可用外掛清單。
 
-## Plugin States
+## 外掛狀態
 
-Each plugin has one of two states:
+每個外掛有以下兩種狀態之一：
 
-* **Active** — The plugin is enabled and its features are available on the platform
-* **Inactive** — The plugin is installed but disabled
+* **Active** — 外掛已啟用，其功能可在平台上使用
+* **Inactive** — 外掛已安裝但停用
 
-## Activating a Plugin
+## 啟用外掛
 
-1. Find the plugin in the list
-2. Click **Install**, then **Enable** or toggle it on
-3. Configure the plugin settings (if applicable, find the **Configure** button)
-4. Save
-5. If recommended in the README, enable it in a specific **region**
+1. 在清單中找到外掛
+2. 點擊 **Install**，然後 **Enable** 或將其切換開啟
+3. 設定外掛選項（如果適用，找到 **Configure** 按鈕）
+4. 儲存
+5. 如果 README 中建議，在特定 **region** 中啟用它
 
-Some plugins add tools to courses, new pages to the platform, or additional functionality to existing features.
+某些外掛會將工具新增至課程、將新頁面新增至平台，或為現有功能新增額外功能。
 
-## Configuring a Plugin
+## 設定外掛
 
-Many plugins have configuration options. After activating a plugin:
+許多外掛具有設定選項。在啟用外掛後：
 
-1. Click the **Configure** button next to the plugin
-2. Fill in the required configuration (API keys, URLs, options, etc.)
-3. Save
+1. 點擊外掛旁邊的 **Configure** 按鈕
+2. 填入必要設定（API 金鑰、URL、選項等）
+3. 儲存
 
-## Deactivating a Plugin
+## 停用外掛
 
-1. Find the plugin in the list
-2. Click **Disable** or toggle it off
-3. The plugin's features are immediately removed from the platform, but the plugin is still installed and maintains its configuration until you **Uninstall** it
+1. 在清單中找到外掛
+2. 點擊 **Disable** 或將其切換關閉
+3. 外掛的功能會立即從平台移除，但外掛仍已安裝並保留其設定，直到您 **Uninstall** 它
 
-Disabling a plugin does not delete its data. If you enable it later, the data is still available.
+停用外掛不會刪除其資料。如果您之後重新啟用，資料仍可使用。
 
-## Tips
+## 提示
 
-* **Only activate what you need** — Each active plugin adds some overhead. Keep unused plugins deactivated.
-* **Test before production** — Activate new plugins in a test environment first
-* **Check compatibility** — After upgrading Chamilo, verify that all active plugins still work correctly
+* **僅啟用您需要的** — 每個啟用外掛都會增加一些額外負荷。保持未使用外掛停用。
+* **在正式環境前測試** — 先在測試環境中啟用新外掛
+* **檢查相容性** — 升級 Chamilo 後，驗證所有啟用外掛仍正常運作
+*

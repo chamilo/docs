@@ -1,103 +1,103 @@
-# Assignments (Work) Settings
+# 作業（作品）設定
 
-Defaults and behaviour of the **Assignments (Student Publications)** tool.
+**作業（學生作品）** 工具的預設值和行為。
 
-Access these settings under **Administration > Configuration settings > Assignments (Work)**. This category contains **12 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+在 **管理 > 設定 > 作業（作品）** 下存取這些設定。此類別包含 **12 個設定**，以下列出平台設定預設資料 (`SettingsCurrentFixtures.php`) 中提供的標題和註解。
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> 程式碼中的變數名稱以等寬字體顯示。使用 API 進行腳本編寫時，或需要透過編輯 [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml) 在全域層級變更這些設定時，請使用它。
 
-## Settings
+## 設定
 
 ### `allow_compilatio_tool`
 
-**Enable Compilatio**
+**啟用 Compilatio**
 
-Compilatio is an anti-cheating service that compares text between two submissions and reports if there is a high probability the content (usually assignments) is not genuine.
+Compilatio 是一種防作弊服務，可比較兩個提交之間的文字，並報告內容（通常為作業）不真實的機率是否很高。
 
-*Default: `false`*
+*預設值：`false`*
 
 ### `allow_my_student_publication_page`
 
-**Enable My assignments page**
+**啟用我的作業頁面**
 
-[inferred] Enable a dedicated page for learners to view and manage their own submitted assignments.
+[inferred] 啟用專用頁面，讓學習者檢視和管理其已提交的作業。
 
-*Default: `false`*
+*預設值：`false`*
 
 ### `allow_only_one_student_publication_per_user`
 
-**Students can only upload one assignment**
+**學生僅能上傳一個作業**
 
-[inferred] Restrict learners to submitting only one assignment per activity, preventing multiple submissions.
+[inferred] 限制學習者每項活動僅提交一個作業，防止多次提交。
 
-*Default: `false`*
+*預設值：`false`*
 
 ### `allow_redirect_to_main_page_after_work_upload`
 
-**Redirect to assigment tool homepage after upload or comment**
+**上傳或新增評論後重新導向至作業工具首頁**
 
-Redirect to assignments list after uploading an assignment or a adding a comment
+上傳作業或新增評論後重新導向至作業清單
 
-*Default: `false`*
+*預設值：`false`*
 
 ### `assignment_prevent_duplicate_upload`
 
-**Prevent duplicate uploads in assignments**
+**防止作業重複上傳**
 
-[inferred] Block learners from uploading identical files for the same assignment submission.
+[inferred] 阻止學習者為相同作業提交上傳相同檔案。
 
-*Default: `false`*
+*預設值：`false`*
 
 ### `block_student_publication_add_documents`
 
-**Prevent adding documents to assignments**
+**防止新增文件至作業**
 
-[inferred] Prevent learners from adding or attaching documents when submitting assignments.
+[inferred] 防止學習者在提交作業時新增或附加文件。
 
-*Default: `false`*
+*預設值：`false`*
 
 ### `block_student_publication_edition`
 
-**Prevent assignments edition**
+**防止作業編輯**
 
-[inferred] Prevent learners from modifying or updating their submitted assignments after initial submission.
+[inferred] 防止學習者在初始提交後修改或更新其已提交的作業。
 
-*Default: `false`*
+*預設值：`false`*
 
 ### `block_student_publication_score_edition`
 
-**Prevent teacher from modifying assignment scores**
+**防止教師修改作業分數**
 
-[inferred] Prevent instructors from changing assignment scores after they have been recorded.
+[inferred] 防止教師在記錄分數後變更作業分數。
 
-*Default: `false`*
+*預設值：`false`*
 
 ### `compilatio_tool`
 
-**Compilatio settings**
+**Compilatio 設定**
 
-Configure the Compilatio connection details here.
+在此設定 Compilatio 連線詳細資料。
 
 ### `considered_working_time`
 
-**Enable time effort for assignments**
+**啟用作業時間投入**
 
-This will allow teachers to give an estimated time effort (in hh:mm:ss format) to complete the assignment. Upon submission of the assignment and approval by the teacher (the assignment is given a score), the learner will automatically be assigned the corresponding time.
+這將允許教師提供完成作業的預估時間投入（以 hh:mm:ss 格式）。在作業提交並經教師核准（作業獲得分數）後，學習者將自動獲得對應時間。
 
-*Default: `work_time`*
+*預設值：`work_time`*
 
 ### `force_download_doc_before_upload_work`
 
-**Force download of document before assignment upload**
+**上傳作業前強制下載文件**
 
-Force users to download the provided document in the assignment definition before they can upload their assignment.
+強制使用者在作業定義中提供的文件下載後，才能上傳其作業。
 
-*Default: `true`*
+*預設值：`true`*
 
 ### `my_courses_show_pending_work`
 
-**Display link to 'pending' assignments from My courses page**
+**在我的課程頁面顯示「待處理」作業連結**
 
-[inferred] Display a link or count of pending assignments on the learner's My Courses page for quick access.
+[inferred] 在學習者的我的課程頁面顯示待處理作業的連結或計數，以供快速存取。
 
-*Default: `false`*
+*預設值：`false`*

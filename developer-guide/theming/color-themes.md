@@ -1,10 +1,10 @@
-# Color Themes
+# 色彩主題
 
-Chamilo 2.0 uses a database-driven color theme system. Themes are managed through the admin UI, stored in the database, and written to disk as CSS files. They can be customized per access URL, allowing multi-URL installations to have different visual identities.
+Chamilo 2.0 使用資料庫驅動的色彩主題系統。主題透過管理員 UI 進行管理，儲存在資料庫中，並以 CSS 檔案的形式寫入磁碟。它們可以依據存取 URL 進行自訂，允許多 URL 安裝具有不同的視覺識別。
 
-## Data Model
+## 資料模型
 
-Two entities drive the theme system:
+兩個實體驅動主題系統：
 
 **`ColorTheme`** (`src/CoreBundle/Entity/ColorTheme.php`)
 
@@ -17,11 +17,11 @@ Two entities drive the theme system:
 
 **`AccessUrlRelColorTheme`** (`src/CoreBundle/Entity/AccessUrlRelColorTheme.php`)
 
-Associates a `ColorTheme` with an `AccessUrl`. The `active` boolean flag marks which theme is currently active for that URL. Only one theme can be active per access URL at a time.
+將 `ColorTheme` 與 `AccessUrl` 關聯。`active` 布林旗標標記該 URL 目前啟用的主題。每個存取 URL 一次只能啟用一個主題。
 
-## How Themes Are Stored
+## 主題儲存方式
 
-When a theme is created or updated via the API, `ColorThemeStateProcessor` generates the CSS file and writes it to the Flysystem `themes_filesystem` (backed by `var/themes/`):
+當透過 API 建立或更新主題時，`ColorThemeStateProcessor` 會產生 CSS 檔案並寫入 Flysystem `themes_filesystem`（以 `var/themes/` 為後端）：
 
 ```
 var/themes/
@@ -29,7 +29,7 @@ var/themes/
     └── colors.css   ← generated from ColorTheme.variables
 ```
 
-The generated `colors.css` wraps all variables in a `:root` block:
+產生的 `colors.css` 將所有變數包裝在 `:root` 區塊中：
 
 ```css
 :root {
@@ -40,22 +40,22 @@ The generated `colors.css` wraps all variables in a `:root` block:
 }
 ```
 
-Values are space-separated RGB channel triplets (not `rgb()`), which allows Tailwind to compose opacity variants such as `bg-primary/50` without additional configuration.
+值為以空格分隔的 RGB 通道三元組（非 `rgb()`），這允許 Tailwind 組成不透明度變體，例如 `bg-primary/50`，無需額外設定。
 
-## Theme Resolution Precedence
+## 主題解析優先順序
 
-`ThemeHelper::getVisualTheme()` resolves which theme slug to apply on any given page, in this order:
+`ThemeHelper::getVisualTheme()` 解析在任何給定頁面應套用的主題 slug，按以下順序：
 
-1. **Active theme for the current AccessUrl** — the `AccessUrlRelColorTheme` record with `active = true`
-2. **User-selected theme** — the theme stored on the `User` entity, if the `profile.user_selected_theme` platform setting is enabled
-3. **Course theme** — the `course_theme` course setting, if the `course.allow_course_theme` platform setting is enabled
-4. **Learning path theme** — the LP's `$lp_theme_css` value, if the `allow_learning_path_theme` course setting is enabled
-5. **`THEME_FALLBACK` env var** — set in `.env` as `THEME_FALLBACK='chamilo'`
-6. **Default** — `chamilo` (hardcoded as `ThemeHelper::DEFAULT_THEME`)
+1. **目前 AccessUrl 的啟用主題** — `active = true` 的 `AccessUrlRelColorTheme` 記錄
+2. **使用者選擇的主題** — 若啟用 `profile.user_selected_theme` 平台設定，則為儲存在 `User` 實體上的主題
+3. **課程主題** — 若啟用 `course.allow_course_theme` 平台設定，則為 `course_theme` 課程設定
+4. **學習路徑主題** — 若啟用 `allow_learning_path_theme` 課程設定，則為 LP 的 `$lp_theme_css` 值
+5. **`THEME_FALLBACK` 環境變數** — 在 `.env` 中設定為 `THEME_FALLBACK='chamilo'`
+6. **預設** — `chamilo`（硬編碼為 `ThemeHelper::DEFAULT_THEME`）
 
-## Asset Serving
+## 資產提供
 
-Theme assets are served by `ThemeController` (`src/CoreBundle/Controller/ThemeController.php`) under the `/themes` prefix.
+主題資產由 `ThemeController` (`src/CoreBundle/Controller/ThemeController.php`) 在 `/themes` 前綴下提供。
 
 | Route | Purpose |
 |-------|---------|
@@ -64,11 +64,11 @@ Theme assets are served by `ThemeController` (`src/CoreBundle/Controller/ThemeCo
 | `POST /themes/{slug}/logos` | Upload header/email logos (SVG and/or PNG) |
 | `DELETE /themes/{slug}/logos/{type}` | Delete a specific logo |
 
-The general asset route (`/{name}/{path}`) automatically falls back to the `chamilo` default theme when a file is missing from the requested theme, so themes only need to include files they actually override.
+一般資產路由 (`/{name}/{path}`) 會在請求主題缺少檔案時自動回退至 `chamilo` 預設主題，因此主題僅需包含其實際覆寫的檔案。
 
-## How Themes Are Loaded in Templates
+## 主題在範本中的載入方式
 
-The `head.html.twig` layout template loads the active theme's assets via Twig helper functions:
+`head.html.twig` 版面範本透過 Twig 輔助函數載入啟用主題的資產：
 
 ```twig
 {# Inject the theme's color variables #}
@@ -81,7 +81,7 @@ The `head.html.twig` layout template loads the active theme's assets via Twig he
 <link rel="shortcut icon" href="{{ theme_asset('images/favicon.ico') }}" type="image/x-icon" />
 ```
 
-The three Twig functions (registered in `ChamiloExtension`) resolve the asset path through `ThemeHelper`, applying the same fallback chain as above:
+三個 Twig 函數（在 `ChamiloExtension` 中註冊）透過 `ThemeHelper` 解析資產路徑，套用上述相同回退鏈：
 
 | Function | Returns |
 |----------|---------|
@@ -91,9 +91,9 @@ The three Twig functions (registered in `ChamiloExtension`) resolve the asset pa
 | `theme_asset_base64('path')` | Base64-encoded data URI of the asset |
 | `theme_logo('header'\|'email')` | URL to the best available logo |
 
-## API Endpoints
+## API 端點
 
-Theme management is exposed via the API Platform REST API (admin-only):
+主題管理透過 API Platform REST API 公開（僅限管理員）：
 
 | Method | Endpoint | Purpose |
 |--------|----------|---------|
@@ -102,11 +102,12 @@ Theme management is exposed via the API Platform REST API (admin-only):
 | `POST` | `/api/access_url_rel_color_themes` | Associate/activate a theme for an access URL |
 | `GET` | `/api/access_url_rel_color_themes` | List theme associations for the current access URL |
 
-## Creating a Custom Theme
+---
+## 建立自訂主題
 
-The standard workflow is through the admin UI (**Admin → Color Themes**), which calls the API endpoints above. To create a theme programmatically:
+標準工作流程是透過管理介面（**管理 → 色彩主題**），這會呼叫上述 API 端點。要以程式方式建立主題：
 
-1. `POST /api/color_themes` with a JSON body:
+1. `POST /api/color_themes` 並使用 JSON 內文：
 
 ```json
 {
@@ -123,9 +124,9 @@ The standard workflow is through the admin UI (**Admin → Color Themes**), whic
 }
 ```
 
-This persists the entity and writes `var/themes/my-theme/colors.css`.
+這會持久化實體並寫入 `var/themes/my-theme/colors.css`。
 
-2. `POST /api/access_url_rel_color_themes` to associate and activate it for the current access URL:
+2. `POST /api/access_url_rel_color_themes` 以將其關聯並啟用於目前的存取 URL：
 
 ```json
 {
@@ -133,11 +134,11 @@ This persists the entity and writes `var/themes/my-theme/colors.css`.
 }
 ```
 
-To add custom images (logo, favicon, backgrounds), upload them via `POST /themes/{slug}/logos` or place them directly in `var/themes/{slug}/images/`.
+要新增自訂圖片（logo、favicon、背景），可透過 `POST /themes/{slug}/logos` 上傳，或直接放置於 `var/themes/{slug}/images/`。
 
-## Color Variable Reference
+## 色彩變數參考
 
-All variables expected by the default Tailwind configuration:
+預設 Tailwind 配置所預期的所有變數：
 
 | Variable | Purpose |
 |----------|---------|

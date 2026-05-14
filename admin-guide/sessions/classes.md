@@ -1,34 +1,34 @@
-# Classes
+# 班級
 
-Classes in Chamilo are predefined groups of users that can be enrolled in sessions as a unit. They simplify the enrollment process when you regularly train the same groups of people.
+Chamilo 中的班級是預先定義的使用者群組，可以作為一個單位註冊到課程中。它們簡化了定期培訓相同群組人員時的註冊流程。
 
-> Classes and [User Groups](../../admin-guide/users/user-groups.md) share the same interface. The only difference is the **group type** setting: choose "Class" when creating the group. Everything else — member management, visibility, and the interface itself — works identically.
+> 班級與 [使用者群組](../../admin-guide/users/user-groups.md) 共用相同的介面。唯一的差異是 **群組類型** 設定：在建立群組時選擇「班級」。其他一切 — 成員管理、可見性以及介面本身 — 運作方式完全相同。
 
-## Creating a Class
+## 建立班級
 
-1. From the administration panel, navigate to **Classes** (or User Groups and select the "Class" type)
-2. Click **Create a class**
-3. Enter a **name** (e.g., "Engineering Team", "New Hires March 2026")
-4. Add **members** — search for and select users
-5. Save
+1. 從管理面板導航至 **班級**（或使用者群組並選擇「班級」類型）
+2. 點擊 **建立班級**
+3. 輸入 **名稱**（例如「工程團隊」、「2026 年 3 月新進員工」）
+4. 新增 **成員** — 搜尋並選取使用者
+5. 儲存
 
-## Using Classes for Enrollment
+## 使用班級進行註冊
 
-When creating or editing a session, you can enroll an entire class at once instead of adding users individually:
+在建立或編輯課程時，您可以一次註冊整個班級，而無需逐一新增使用者：
 
-1. Open the session enrollment settings
-2. Click **Add a class**
-3. Select the class
-4. All members of the class are enrolled in the session
+1. 開啟課程註冊設定
+2. 點擊 **新增班級**
+3. 選取班級
+4. 班級的所有成員均會註冊到課程中
 
-## Managing Classes
+## 管理班級
 
-* **Edit** — Change the class name or update membership
-* **Add/remove members** — Keep the class roster up to date
-* **Delete** — Remove the class (does not affect the member accounts or their existing enrollments)
+* **編輯** — 變更班級名稱或更新成員資格
+* **新增/移除成員** — 保持班級名冊最新
+* **刪除** — 移除班級（不會影響成員帳戶或其現有註冊）
 
-## Tips
+## 提示
 
-* **Create classes for recurring cohorts** — If you run the same training for different teams, create a class for each team
-* **Update before each session** — Review class membership before enrolling a class in a new session to ensure the roster is current
-* **Combine with CSV import** — Import class membership from a CSV file for large groups
+* **為重複出現的群組建立班級** — 如果您為不同團隊執行相同的培訓，請為每個團隊建立一個班級
+* **每次課程前更新** — 在將班級註冊到新課程前檢視班級成員資格，以確保名冊最新
+* **結合 CSV 匯入** — 對於大型群組，從 CSV 檔案匯入班級成員資格

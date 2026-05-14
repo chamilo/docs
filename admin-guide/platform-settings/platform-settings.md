@@ -1,239 +1,247 @@
-# Platform Settings
+# 平台設定
 
-Platform-level identity and behaviour — institution name, time zone, registration policy, online users, performance flags.
+平台層級的身份與行為 — 機構名稱、時區、註冊政策、線上使用者、效能旗標。
 
-Access these settings under **Administration > Configuration settings > Platform**. This category contains **29 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+在 **管理 > 設定 > 平台** 下存取這些設定。此類別包含 **29 個設定**，以下列出平台設定預設值 (`SettingsCurrentFixtures.php`) 中的標題與註解。
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> 程式碼中的變數名稱以等寬字體顯示。透過 API 撰寫腳本或需要透過編輯 [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml) 在全域層級變更這些設定時，請使用它。
 
-## Settings
+## 設定
 
 ### `allow_my_files`
 
-**Enable 'My Files' section**
+**啟用「我的檔案」區段**
 
-Allow users to upload files to a personal space on the platform.
+允許使用者將檔案上傳至平台上的個人空間。
 
-*Default: `true`*
+*預設值：`true`*
 
 ### `chamilo_database_version`
 
-**Current version of the database schema used by Chamilo**
+**Chamilo 使用的目前資料庫架構版本**
 
-Displays the current DB version to match the Chamilo core version.
+顯示目前的 DB 版本，以符合 Chamilo 核心版本。
 
 ### `cookie_warning`
 
-**Cookie privacy notification**
+**Cookie 隱私通知**
 
-If enabled, this option shows a banner on top of your platform that asks users to acknowledge that the platform is using cookies necessary to provide the user experience. The banner can easily be acknowledged and hidden by the user. This allows Chamilo to comply with EU web cookies regulations.
+若啟用，此選項會在平台頂端顯示橫幅，要求使用者確認平台使用 Cookie 以提供使用者體驗。使用者可輕鬆確認並隱藏此橫幅。此功能讓 Chamilo 符合歐盟網頁 Cookie 法規。
 
-*Default: `false`*
+*預設值：`false`*
 
 ### `disable_copy_paste`
 
-**Disable copy-pasting**
+**停用複製貼上**
 
-When enabled, this option disables as well as possible the copy-pasting mechanisms. Useful in restrictive exams setups.
+啟用時，此選項盡可能停用複製貼上機制。在嚴格考試環境中實用。
 
-*Default: `false`*
+*預設值：`false`*
 
 ### `donotlistcampus`
 
-**Do not list this campus on chamilo.org**
+**不在 chamilo.org 上列出此校園**
 
-By default, Chamilo portals are automatically registered in a public list at chamilo.org, just using the title you gave to this portal (not the URL nor any private data). Check this box to avoid having the title of your portal appear.
+預設情況下，Chamilo 入口網站會自動註冊至 chamilo.org 的公開清單中，僅使用您為此入口網站設定的標題（不包含 URL 或任何私人資料）。勾選此項目以避免入口網站標題出現。
 
-*Default: `false`*
+*預設值：`false`*
 
 ### `generate_random_login`
 
-**Generate random username**
+**產生隨機使用者名稱**
 
-When importing users (batch processes), automatically generate a random string for username. Otherwise, the username will be generated on the basis of the firstname and lastname, or the prefix of the e-mail.
+匯入使用者（批次處理）時，自動產生隨機字串作為使用者名稱。否則，使用者名稱將根據名字與姓氏，或電子郵件的前綴產生。
 
-*Default: `false`*
+*預設值：`false`*
 
 ### `hosting_limit_identical_email`
 
-**Limit identical email usage**
+**限制相同電子郵件使用**
 
-Maximum number of accounts allowed to share the same e-mail address. Set to 0 to disable this limit.
+允許共用相同電子郵件地址的帳戶最大數量。設為 0 以停用此限制。
 
-*Default: `0`*
+*預設值：`0`*
 
 ### `hosting_limit_users_per_course`
 
-**Global limit of users per course**
+**每門課程的全域使用者數量限制**
 
-Defines a global maximum number of users (teachers included) allowed to be subscribed to any single course in the platform. Set this value to 0 to disable the limit. This helps avoid courses being overloaded in open portals.
+定義平台中任何單一課程（包含教師）允許訂閱的使用者全域最大數量。設為 0 以停用此限制。此功能有助避免開放入口網站中的課程過載。
 
-*Default: `0`*
+*預設值：`0`*
 
 ### `institution`
 
-**Organization name**
+**組織名稱**
 
-The name of the organization (appears in the header on the right)
+組織名稱（出現在標頭右側）
 
-*Default: `Chamilo.org`*
+*預設值：`Chamilo.org`*
 
 
 ### `institution_address`
 
-**Institution address**
+**機構地址**
 
-Address
+地址
 
 ### `institution_url`
 
-**Organization URL (web address)**
+**組織 URL（網址）**
 
-The URL of the institutions (the link that appears in the header on the right)
+機構的 URL（出現在標頭右側的連結）
 
-*Default: `http://www.chamilo.org`*
+*預設值：`http://www.chamilo.org`*
 
 
 ### `max_courses_per_user`
 
-**Maximum courses per user**
+**每位使用者最大課程數量**
 
-Maximum number of courses a teacher/trainer can create. Set to 0 to disable the limit. Can be overridden per user via a BuyCourses service purchase.
+教師/訓練師可建立的課程最大數量。設為 0 以停用此限制。可透過 BuyCourses 服務購買每位使用者覆寫。
 
-*Default: `0`*
+*預設值：`0`*
 
 ### `notification_event`
 
-**Enable the notification tool for a more impactful communication channel with students**
+**啟用通知工具，以提供更具影響力的學生溝通管道**
 
-Activates popup or system notifications for important platform events.
+啟用重要平台事件的快顯視窗或系統通知。
 
-*Default: `false`*
+*預設值：`false`*
 
 ### `pdf_img_dpi`
 
-**PDF export resolution**
+**PDF 匯出解析度**
 
-This represents the resolution of generated PDF files (in dot per inch, or dpi). The default is 96. Increasing it will give you better resolution PDF files but will also increase the weight and generation time of the files.
+這表示產生的 PDF 檔案解析度（以每英寸點數，或 dpi 為單位）。預設為 96。提高此值可產生更高解析度的 PDF 檔案，但也會增加檔案大小與產生時間。
 
-*Default: `96`*
+*預設值：`96`*
 
 ### `platform_logo_url`
 
-**URL for alternative platform logo**
+**替代平台標誌的 URL**
 
-Replaces the Chamilo logo by loading a (possibly remote) URL. Make sure this is allowed by your security policies.
+透過載入（可能為遠端）URL 取代 Chamilo 標誌。請確保符合您的安全性政策。
 
-*Default: `https://chamilo.org`*
+*預設值：`https://chamilo.org`*
 
 
 ### `portfolio_advanced_sharing`
 
-**Enable portfolio advanced sharing**
+**啟用作品集進階分享**
 
-Decide who can view the posts and comments of the portfolio.
+決定誰可檢視作品集的貼文與評論。
 
-*Default: `false`*
+*預設值：`false`*
 
 ### `portfolio_show_base_course_post_in_sessions`
 
-**Show base course posts in session course**
+**在工作階段課程中顯示基礎課程貼文**
 
-Decide who can view the posts and comments of the portfolio.
+決定誰可檢視作品集的貼文與評論。
 
-*Default: `false`*
+*預設值：`false`*
 
 ### `push_notification_settings`
 
-**Push notification settings (JSON)**
+**推播通知設定 (JSON)**
 
-JSON configuration for Push notifications integration.
+推播通知整合的 JSON 設定。
 
 ### `server_type`
 
-**Server Type**
+**伺服器類型**
 
-Defines the environment type: "prod" (normal production), "validation" (like production but without reporting statistics), or "test" (debug mode with developer tools such as untranslated string indicators).
+定義環境類型：「prod」（一般生產環境）、「validation」（類似生產環境但不回報統計資料），或「test」（除錯模式，包含開發人員工具如未翻譯字串指示器）。
 
-*Default: `prod`*
+*預設值：`prod`*
 
 ### `session_admin_access_to_all_users_on_all_urls`
 
-**Allow session admins to see all users on all URLs**
+**允許工作階段管理員在所有 URL 上檢視所有使用者**
 
-If enabled, session admins can search and list users from all access URLs, regardless of their current URL.
+若啟用，工作階段管理員可搜尋並列出所有存取 URL 的使用者，而不受限於目前 URL。
 
-*Default: `false`*
+*預設值：`false`*
 
+---
+
+---
 ### `site_name`
 
-**E-learning portal name**
+**電子學習入口網站名稱**
 
-The Name of your Chamilo Portal (appears in the header)
+您的 Chamilo 入口網站的名稱（顯示在頁首）
 
-*Default: `Chamilo site`*
+*預設：`Chamilo site`*
 
 
 ### `timepicker_increment`
 
-**Timepicker increment**
+**時間選擇器增量**
 
-Minimal time increment (in minutes) when selecting a date and time with the timepicker widget. For example, it might not be useful to have less than 5 or 15 minutes increments when talking about assignment submission, availability of a test, start time of a session, etc.
+使用時間選擇器小工具選取日期和時間時的最小時間增量（以分鐘為單位）。例如，在討論作業提交、測驗可用性、課程開始時間等時，可能無需小於 5 或 15 分鐘的增量。
 
-*Default: `15`*
+*預設：`15`*
+
 
 ### `timezone`
 
-**Default timezone**
+**預設時區**
 
-Select the default timezone for this portal. This will help set the timezone (if the feature is enabled) for each new user or for any user that has not set a specific timezone yet. Timezones help show all time-related information on screen in the specific timezone of each user.
+選取此入口網站的預設時區。這將有助於為每個新使用者或尚未設定特定時區的使用者設定時區（如果啟用此功能）。時區有助於在畫面上以每個使用者的特定時區顯示所有時間相關資訊。
 
-*Default: `Europe/Paris`*
+*預設：`Europe/Paris`*
 
 
 ### `unoconv_binaries`
 
-**UNO converter binaries**
+**UNO 轉換器二進位檔案**
 
-Give the system path to the UNO converter library to enable some extra exporting features.
+提供 UNO 轉換器程式庫的系統路徑，以啟用額外的匯出功能。
 
-*Default: `/usr/bin/unoconv`*
+*預設：`/usr/bin/unoconv`*
 
 
 ### `use_career_external_id_as_identifier_in_diagrams`
 
-**Use external career ID in diagrams**
+**在圖表中使用外部職涯 ID**
 
-If using career diagrams, show an extra field instead of the internal career ID.
+如果使用職涯圖表，則顯示額外欄位而非內部職涯 ID。
 
-*Default: `false`*
+*預設：`false`*
+
 
 ### `use_custom_pages`
 
-**Use custom pages**
+**使用自訂頁面**
 
-Enable this feature to configure specific login pages by role
+啟用此功能以依角色設定特定登入頁面
 
-*Default: `false`*
+*預設：`false`*
+
 
 ### `use_virtual_keyboard`
 
-**Use virtual keyboard**
+**使用虛擬鍵盤**
 
-Make a virtual keyboard appear. This is useful when setting up restrictive exams in a physical room where students have no keyboard to limit their ability to cheat.
+顯示虛擬鍵盤。這在設定實體教室中限制學生作弊能力的嚴格考試時非常有用，學生無鍵盤可用。
 
-*Default: `false`*
+*預設：`false`*
+
 
 ### `user_status_show_option`
 
-**Roles display options**
+**角色顯示選項**
 
-An array of role => true/false that defines whether that role should be shown or hidden.
+一個角色 => true/false 的陣列，用以定義該角色是否應顯示或隱藏。
+
 
 ### `user_status_show_options_enabled`
 
-**Selective display of roles**
+**角色選擇性顯示**
 
-Enable to use an array to define which roles should be clearly displayed and which should be hidden.
+啟用以使用陣列定義哪些角色應明確顯示以及哪些應隱藏。
 
-*Default: `false`*
+*預設：`false`*

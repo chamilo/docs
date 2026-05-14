@@ -1,26 +1,26 @@
-# Branches and Rooms
+# 分支與房間
 
-Chamilo includes a basic physical location system built around two concepts: **branches** and **rooms**.
+Chamilo 包含一個基本的實體位置系統，建基於兩個概念：**分支** 和 **房間**。
 
-A **branch** represents a physical site or campus — for example, a main office, a regional training centre, or a university building. Branches can be nested (a building can contain departments, a city can contain buildings). Each branch can contain one or more **rooms**, which represent individual classrooms or lab spaces within that branch.
+一個 **分支** 代表實體位置或校園 — 例如，總部辦公室、區域培訓中心，或大學大樓。分支可以是巢狀的（一棟大樓可包含部門，一個城市可包含多棟大樓）。每個分支可包含一個或多個 **房間**，這些房間代表該分支內的個別教室或實驗室。
 
-This feature is still in early stages. At this point its main practical use is letting you attach a physical location marker to a course.
+此功能仍處於早期階段。目前，其主要實用功能是讓您將實體位置標記附加到課程。
 
-## Assigning a Room to a Course
+## 將房間指派給課程
 
-When creating a course, if your administrator has already set up rooms, a **Default room** field appears in the course creation form. Select the room where the course takes place.
+在建立課程時，如果您的管理員已設定房間，則 **預設房間** 欄位將出現在課程建立表單中。請選擇課程舉行的房間。
 
-This information is informational — it does not affect course behaviour or access control. It simply records where the course is physically held, which can help administrators manage room scheduling and view room occupation across courses.
+此資訊僅供參考 — 不會影響課程行為或存取控制。此資訊僅記錄課程的實體舉辦地點，這有助於管理員管理房間排程並查看跨課程的房間使用率。
 
-If no rooms have been configured on your platform, the field will not appear.
+如果您的平台尚未配置任何房間，此欄位將不會出現。
 
-## What Administrators Can Do
+## 管理員能做什麼
 
-Branch and room management is handled entirely by administrators. They can:
+分支與房間的管理完全由管理員負責。他們可以：
 
-- Create and organise branches in a tree hierarchy
-- Add rooms to branches, with optional geolocation and IP range data
-- View which courses are assigned to each room
-- View a room's occupation calendar based on attendance entries
+- 建立並以樹狀階層組織分支
+- 將房間新增至分支，並可選填地理定位資料與 IP 範圍
+- 查看每個房間所指派的課程
+- 根據出席記錄查看房間使用行事曆
 
-If you need a room created or need your course moved to a different room, contact your platform administrator.
+如果您需要建立新房間，或您的課程需要移至其他房間，請聯絡平台管理員。

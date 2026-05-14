@@ -1,28 +1,28 @@
-# CSS and Tailwind
+# CSS 和 Tailwind
 
-## Stylesheet Architecture
+## 樣式表架構
 
-Chamilo's styles are layered in this order:
+Chamilo 的樣式依此順序分層：
 
-1. **Tailwind CSS** — Utility classes for layout, spacing, and color. Configured with `important: true` so utilities override PrimeVue component defaults.
-2. **SCSS** — Custom styles in `assets/css/scss/`, organized into atoms, molecules, organisms, layout, and components layers.
-3. **PrimeVue component styles** — Overridden per-component inside `assets/css/scss/atoms/`.
-4. **Theme `colors.css`** — CSS custom properties for the active color theme, loaded last so they cascade over everything else.
+1. **Tailwind CSS** — 用於佈局、間距和顏色的實用類別。配置為 `important: true`，因此實用類別會覆寫 PrimeVue 元件預設值。
+2. **SCSS** — 自訂樣式位於 `assets/css/scss/`，組織為 atoms、molecules、organisms、layout 和 components 層。
+3. **PrimeVue 元件樣式** — 在 `assets/css/scss/atoms/` 中逐元件覆寫。
+4. **主題 `colors.css`** — 目前色主題的 CSS 自訂屬性，最後載入，因此會覆蓋所有其他樣式。
 
-PrimeFlex is listed in `package.json` but is not imported — Tailwind covers all utility needs.
+PrimeFlex 列於 `package.json` 中但未匯入 — Tailwind 已涵蓋所有實用需求。
 
-## Main Stylesheet (`assets/css/app.scss`)
+## 主要樣式表 (`assets/css/app.scss`)
 
-`app.scss` is the Webpack entry point for the main stylesheet. It imports:
+`app.scss` 是主要樣式表的 Webpack 入口點。它匯入：
 
-1. `_tailwind.scss` — Tailwind's `@tailwind base / components / utilities` directives
-2. `scss/index.scss` — Barrel file that imports all SCSS partials
-3. Third-party CSS (cropper, select2, daterangepicker, TinyMCE skin, fancybox, timepicker, qtip)
-4. `editor_content.scss` — Styles injected into the TinyMCE editor iframe body
+1. `_tailwind.scss` — Tailwind 的 `@tailwind base / components / utilities` 指示詞
+2. `scss/index.scss` — 匯入所有 SCSS 片段的 barrel 檔案
+3. 第三方 CSS (cropper, select2, daterangepicker, TinyMCE skin, fancybox, timepicker, qtip)
+4. `editor_content.scss` — 注入至 TinyMCE 編輯器 iframe body 的樣式
 
-## Tailwind Configuration (`tailwind.config.js`)
+## Tailwind 配置 (`tailwind.config.js`)
 
-Key settings:
+關鍵設定：
 
 ```javascript
 module.exports = {
@@ -37,11 +37,11 @@ module.exports = {
 }
 ```
 
-Content paths scan Vue components, legacy PHP pages, plugin files, and Twig templates so unused utilities are purged on production builds.
+內容路徑會掃描 Vue 元件、舊版 PHP 頁面、插件檔案和 Twig 範本，以便在生產建置中清除未使用的實用類別。
 
-### CSS-Variable Color System
+### CSS 變數顏色系統
 
-All color tokens are backed by CSS custom properties rather than hardcoded values:
+所有顏色 token 皆由 CSS 自訂屬性支援，而非硬編碼值：
 
 ```javascript
 theme: {
@@ -56,15 +56,15 @@ theme: {
 }
 ```
 
-The `colorWithOpacity` helper emits `rgb(var(--color-primary-base) / <opacity>)`, enabling opacity variants such as `bg-primary/50`. The actual RGB values are defined per theme in `var/themes/{slug}/colors.css` and loaded at runtime — see [Color Themes](color-themes.md).
+`colorWithOpacity` 輔助函式會產生 `rgb(var(--color-primary-base) / <opacity>)`，支援如 `bg-primary/50` 的不透明度變體。實際 RGB 值依主題定義於 `var/themes/{slug}/colors.css` 中，並在執行時載入 — 請參閱 [Color Themes](color-themes.md)。
 
-### Tailwind Plugins
+### Tailwind 外掛
 
-`@tailwindcss/forms` and `@tailwindcss/typography` are enabled.
+已啟用 `@tailwindcss/forms` 和 `@tailwindcss/typography`。
 
-### Custom Type Scale
+### 自訂類型比例
 
-Four extra font-size/line-height pairs are added via `theme.extend.fontSize`:
+透過 `theme.extend.fontSize` 新增四組額外的字體大小/行高組合：
 
 | Class | Size / Line-height |
 |-------|--------------------|
@@ -75,23 +75,23 @@ Four extra font-size/line-height pairs are added via `theme.extend.fontSize`:
 
 ## PostCSS
 
-PostCSS (Tailwind + Autoprefixer) is configured inline inside `webpack.config.js` via `enablePostCssLoader()`. There is no standalone `postcss.config.js` file.
+PostCSS (Tailwind + Autoprefixer) 透過 `enablePostCssLoader()` 在 `webpack.config.js` 中內嵌配置。沒有獨立的 `postcss.config.js` 檔案。
 
-## Specialized Stylesheets
+## 專用樣式表
 
 | File | Webpack entry | Purpose |
 |------|--------------|---------|
-| `assets/css/app.scss` | `app` | Main application styles |
-| `assets/css/chat.scss` | `css/chat` | Chat interface styles |
-| `assets/css/document.scss` | `css/document` | Document viewer styles |
-| `assets/css/editor.scss` | `css/editor` | TinyMCE editor shell styles |
-| `assets/css/editor_content.scss` | `css/editor_content` | Styles injected into the editor iframe body |
-| `assets/css/markdown.scss` | `css/markdown` | Markdown-rendered content |
-| `assets/css/print.scss` | `css/print` | Print stylesheet |
-| `assets/css/responsive.scss` | `css/responsive` | Responsive overrides |
-| `assets/css/scorm.scss` | `css/scorm` | SCORM player styles |
+| `assets/css/app.scss` | `app` | 主要應用程式樣式 |
+| `assets/css/chat.scss` | `css/chat` | 聊天介面樣式 |
+| `assets/css/document.scss` | `css/document` | 文件檢視器樣式 |
+| `assets/css/editor.scss` | `css/editor` | TinyMCE 編輯器外殼樣式 |
+| `assets/css/editor_content.scss` | `css/editor_content` | 注入至編輯器 iframe body 的樣式 |
+| `assets/css/markdown.scss` | `css/markdown` | Markdown 渲染內容 |
+| `assets/css/print.scss` | `css/print` | 列印樣式表 |
+| `assets/css/responsive.scss` | `css/responsive` | 回應式覆寫 |
+| `assets/css/scorm.scss` | `css/scorm` | SCORM 播放器樣式 |
 
-## SCSS Module Structure (`assets/css/scss/`)
+## SCSS 模組結構 (`assets/css/scss/`)
 
 ```
 scss/
@@ -106,7 +106,7 @@ scss/
 └── libs/             # Third-party overrides (FullCalendar, MediaElement.js)
 ```
 
-## Using Tailwind in Vue Components
+## 在 Vue 元件中使用 Tailwind
 
 ```vue
 <template>
@@ -116,4 +116,4 @@ scss/
 </template>
 ```
 
-Because `important: true` is set in `tailwind.config.js`, Tailwind utilities reliably override PrimeVue component styles without needing extra specificity.
+由於 `tailwind.config.js` 中設定了 `important: true`，Tailwind 實用類別可可靠地覆寫 PrimeVue 元件樣式，而無需額外特定性。

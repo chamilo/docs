@@ -1,80 +1,80 @@
-# Resource System
+# 資源系統
 
-The resource system is one of the most important architectural concepts in Chamilo 2.0. It provides a unified abstraction for all course content — documents, exercises, learning paths, forum posts, and more.
+資源系統是 Chamilo 2.0 中最重要的架構概念之一。它為所有課程內容提供統一的抽象層——文件、測驗、學習路徑、論壇貼文等。
 
-## Core Concept
+## 核心概念
 
-Every piece of course content is represented by a **ResourceNode**. This gives all content types a common set of capabilities:
+每個課程內容都由一個 **ResourceNode** 表示。這為所有內容類型提供了一組共同的功能：
 
-* **Visibility control** — Show/hide from learners
-* **Access control** — Security voters check permissions via the ResourceNode
-* **File storage** — Attached files are stored via ResourceFile
-* **Tree structure** — ResourceNodes form a tree (parent-child relationships)
-* **Audit trail** — Creator, creation date, modification tracking
+* **可見性控制** — 對學習者顯示/隱藏
+* **存取控制** — 安全性投票透過 ResourceNode 檢查權限
+* **檔案儲存** — 附加檔案透過 ResourceFile 儲存
+* **樹狀結構** — ResourceNode 形成樹狀結構（父子關係）
+* **審計追蹤** — 建立者、建立日期、修改追蹤
 
-## Key Entities
+## 主要實體
 
 ### ResourceNode (`src/CoreBundle/Entity/ResourceNode.php`)
 
-The central entity. Every content entity has a one-to-one relationship with a ResourceNode.
+中央實體。每個內容實體與一個 ResourceNode 具有一對一關係。
 
-Key fields:
+主要欄位：
 
 | Field | Type | Description |
 |-------|------|-------------|
-| `id` | integer | Primary key |
-| `uuid` | UUID v4 | Unique identifier for API use |
-| `title` | string | Display title |
-| `creator` | User | The user who created this resource |
-| `resourceFile` | ResourceFile | The attached file (if any) |
-| `resourceType` | ResourceType | The type of resource (document, quiz, etc.) |
-| `parent` | ResourceNode | Parent in the resource tree |
-| `children` | Collection | Child ResourceNodes |
-| `resourceLinks` | Collection | Visibility and access links |
+| `id` | integer | 主鍵 |
+| `uuid` | UUID v4 | 用於 API 的唯一識別碼 |
+| `title` | string | 顯示標題 |
+| `creator` | User | 建立此資源的使用者 |
+| `resourceFile` | ResourceFile | 附加檔案（如果有） |
+| `resourceType` | ResourceType | 資源類型（文件、測驗等） |
+| `parent` | ResourceNode | 資源樹中的父節點 |
+| `children` | Collection | 子 ResourceNode |
+| `resourceLinks` | Collection | 可見性和存取連結 |
 
-The tree uses Gedmo's **materialized path** strategy for efficient hierarchical queries.
+該樹狀結構使用 Gedmo 的 **materialized path** 策略，以進行高效的階層式查詢。
 
 ### ResourceFile (`src/CoreBundle/Entity/ResourceFile.php`)
 
-Stores the actual file data for a resource:
+儲存資源的實際檔案資料：
 
 | Field | Type | Description |
 |-------|------|-------------|
-| `id` | integer | Primary key |
-| `title` | string | Original filename |
-| `mimeType` | string | MIME type |
-| `originalName` | string | Original upload name |
-| `size` | integer | File size in bytes |
-| `crop` | string | Crop data (for images) |
+| `id` | integer | 主鍵 |
+| `title` | string | 原始檔案名稱 |
+| `mimeType` | string | MIME 類型 |
+| `originalName` | string | 原始上傳名稱 |
+| `size` | integer | 檔案大小（位元組） |
+| `crop` | string | 裁剪資料（用於圖片） |
 
-File storage is handled by Flysystem, so files can be on local disk, S3, Azure, or GCS depending on configuration.
+檔案儲存由 Flysystem 處理，因此檔案可根據設定儲存在本地磁碟、S3、Azure 或 GCS。
 
 ### ResourceLink
 
-Controls visibility and access per context. There are 3 main context types:
+針對每個情境控制可見性和存取權限。主要有 3 種情境類型：
 
-1. Course
-2. Session
-3. Group (in a course)
+1. 課程
+2. 工作階段
+3. 群組（在課程中）
 
-So the ResourceLink entity reflects the combination of those 3 context types and establishes a visibility for that complete context:
+因此，ResourceLink 實體反映這 3 種情境類型的組合，並為該完整情境建立可見性：
 
 | Field | Type | Description |
 |-------|------|-------------|
-| `course` | Course | Which course the resource belongs to |
-| `session` | Session | Which session (null for base course) |
-| `group` | CGroup | Which group (null for whole course) |
-| `visibility` | integer | Visible, invisible, or deleted |
+| `course` | Course | 資源所屬的課程 |
+| `session` | Session | 工作階段（基底課程為 null） |
+| `group` | CGroup | 群組（整個課程為 null） |
+| `visibility` | integer | 可見、不可見或已刪除 |
 
-This allows the same ResourceNode to have different visibility in different contexts (e.g., visible in one session but hidden in another).
+這允許相同的 ResourceNode 在不同情境中具有不同的可見性（例如，在一個工作階段中可見，但在另一個中隱藏）。
 
-This is set automatically when using the interface and deciding, for example, that a resource is a session-specific resource which will be visible for all groups in a given course in a given session, but invisible in the base course or in another session.
+使用介面時會自動設定，例如決定某資源為特定工作階段的資源，該資源將在給定課程的給定工作階段中對所有群組可見，但在基底課程或其他工作階段中不可見。
 
-By default, resources visible in a base course are also visible in all sessions of that course, but the course tutor can decide to hide a resource from a specific session. In this case, we will retrieve the specific visibility for this resource in this session and see that it has a visibility of 0, so the item will not appear to learners in this session, while a lack of session-specific visibility in other sessions will make the resource use the visibility of the base course (and the resource will show to learners).
+預設情況下，在基底課程中可見的資源也會在該課程的所有工作階段中可見，但課程導師可以決定將資源對特定工作階段隱藏。在這種情況下，我們會擷取此資源在此工作階段的特定可見性，並看到其可見性為 0，因此該項目不會出現在此工作階段的學習者面前，而其他工作階段缺乏特定可見性則會使資源使用基底課程的可見性（資源會顯示給學習者）。
 
-## API Platform Integration
+## API Platform 整合
 
-ResourceNode is exposed as an API Platform resource with security:
+ResourceNode 作為 API Platform 資源公開，並具有安全性：
 
 ```php
 #[ApiResource(
@@ -87,9 +87,9 @@ ResourceNode is exposed as an API Platform resource with security:
 )]
 ```
 
-## How Content Entities Connect
+## 內容實體的連接方式
 
-Course content entities (CDocument, CQuiz, CLp, etc.) extend `AbstractResource` or implement `ResourceInterface`, which gives them a `resourceNode` relationship:
+課程內容實體（CDocument、CQuiz、CLp 等）擴展 `AbstractResource` 或實作 `ResourceInterface`，這為其提供 `resourceNode` 關係：
 
 ```php
 // In CDocument entity:
@@ -97,14 +97,14 @@ Course content entities (CDocument, CQuiz, CLp, etc.) extend `AbstractResource` 
 private ResourceNode $resourceNode;
 ```
 
-When you create a CDocument, a ResourceNode is automatically created alongside it, providing unified resource management.
+當您建立 CDocument 時，會自動一併建立 ResourceNode，提供統一的資源管理。
 
-## Practical Implications
+## 實際應用
 
-When working with course content:
+處理課程內容時：
 
-1. **Creating content** — Create both the content entity AND its ResourceNode
-2. **Checking permissions** — Use the ResourceNode's security voters
-3. **Managing files** — Attach files through ResourceFile
-4. **Controlling visibility** — Create/modify ResourceLinks
-5. **Building trees** — Use the parent-child relationship on ResourceNode for folder structures (e.g., document folders)
+1. **建立內容** — 同時建立內容實體及其 ResourceNode
+2. **檢查權限** — 使用 ResourceNode 的安全性投票
+3. **管理檔案** — 透過 ResourceFile 附加檔案
+4. **控制可見性** — 建立/修改 ResourceLinks
+5. **建構樹狀結構** — 使用 ResourceNode 的父子關係建構資料夾結構（例如，文件資料夾）

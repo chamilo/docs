@@ -1,25 +1,25 @@
-# Getting Started
+# 入門指南
 
-This section introduces the Chamilo 2.0 administration interface and helps you get oriented.
+本節介紹 Chamilo 2.0 管理介面，並幫助您快速上手。
 
-## Who Is an Administrator?
+## 誰是管理員？
 
-Chamilo has several levels of administrative roles:
+Chamilo 設有多個層級的管理角色：
 
-| Role | Access |
+| 角色 | 存取權限 |
 |------|--------|
-| **Administrator** | Full access to all administration features for the platform. Also known as **Portal Administrator** |
-| **Global Administrator** | Same as Portal Administrator, with access across all access URLs in a multi-URL (multi-tenant) setup |
-| **Sessions Administrator** | Can manage sessions, enroll users in sessions, and access session-related settings |
-| **Human Resources Manager** | Can view learner progress and tracking data for assigned users |
-| **Questions Manager** | Less of an administrator than a content curator, question managers have access to a global question bank to review questions' quality |
+| **管理員** | 對平台的所有管理功能擁有完全存取權限。也稱為 **門戶管理員** |
+| **全局管理員** | 與門戶管理員相同，但在多網址（多租戶）設置中可跨所有存取網址進行管理 |
+| **課程管理員** | 可管理課程，將用戶註冊到課程中，並存取與課程相關的設置 |
+| **人力資源經理** | 可查看所分配用戶的學習進度和追蹤數據 |
+| **問題管理員** | 與其說是管理員，不如說是內容策展人，問題管理員可存取全局題庫以審核問題的品質 |
 
-This guide focuses primarily on the **Portal Administrator** role, which has the broadest access.
+本指南主要聚焦於 **門戶管理員** 角色，該角色擁有最廣泛的存取權限。
 
-## Logging In
+## 登入
 
-Administrators log in through the same login page as all other users. After entering your credentials, you will be sent (in the absence of other configuration) to the **Administration** page. A notable difference from other user roles is the **Administration** section in the sidebar (not visible to other roles).
+管理員透過與其他用戶相同的登入頁面進行登入。輸入您的憑證後，若無其他設定，您將被導向至 **管理** 頁面。與其他用戶角色的一個顯著區別是側邊欄中的 **管理** 部分（其他角色無法看到）。
 
-## Next Steps
+## 下一步
 
-* [Admin Interface Overview](admin-interface-overview.md) — A tour of the administration panel and its sections
+* [管理介面概覽](admin-interface-overview.md) — 管理面板及其各部分的導覽

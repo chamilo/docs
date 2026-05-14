@@ -1,13 +1,13 @@
-# Tracking and Reporting
+# 追蹤與報告
 
-Chamilo tracks learner activity throughout the platform, giving you detailed insights into how your learners are progressing.
+Chamilo 會追蹤學習者在整個平台上的活動，提供您詳細的洞察，讓您了解學習者的進度情況。
 
-* **[Learner Tracking](learner-tracking.md)** — Monitor individual learner activity: login times, time spent, pages visited, and tool usage
-* **[Course Reports](course-reports.md)** — View aggregate data across all learners in a course
-* **[Certificates and Skills](certificates-and-skills.md)** — Award certificates based on gradebook scores and validate acquired skills
+* **[學習者追蹤](learner-tracking.md)** — 監控個別學習者的活動：登入時間、停留時間、造訪頁面以及工具使用情況
+* **[課程報告](course-reports.md)** — 查看課程中所有學習者的彙總資料
+* **[證書與技能](certificates-and-skills.md)** — 根據成績簿分數頒發證書，並驗證習得的技能
 
-## Accessing Reports
+## 存取報告
 
-From your course, click the **Tracking** <img src="/.gitbook/assets/icons/mdi-chart-box.svg" alt="Tracking" data-size="line"> tool on the course homepage. You can also access reporting from the **Reporting** link in the sidebar for a cross-course overview.
+在您的課程中，點擊課程首頁上的 **追蹤** <img src="/.gitbook/assets/icons/mdi-chart-box.svg" alt="追蹤" data-size="line"> 工具。您也可以從側邊欄的 **報告** 連結存取報告，以獲得跨課程的概覽。
 
-Teachers see reporting data for courses they teach. Session coaches see data across all courses within their session.
+教師可以看到他們所教授課程的報告資料。課程教練可以看到其課程中所有課程的資料。

@@ -1,57 +1,57 @@
-# FAQ
+# 常見問題
 
-## General Questions
+## 一般問題
 
-**How do I access my course?**
+**如何存取我的課程？**
 
-Click **My courses** in the sidebar, then click on the course you want to open. If your course is part of a session, click **My sessions** first, then select the session and course.
+在側邊欄中點擊 **我的課程**，然後點擊您要開啟的課程。如果您的課程屬於某個工作階段，請先點擊 **我的工作階段**，然後選擇工作階段和課程。
 
-**Can my learners access the course from a mobile phone?**
+**我的學習者能否從手機存取課程？**
 
-Yes. Chamilo 2.0 has a responsive interface that adapts to all screen sizes. Learners can use any modern web browser on a phone, tablet, or computer.
+是的。Chamilo 2.0 具有響應式介面，能適應所有螢幕尺寸。學習者可以使用手機、平板電腦或電腦上的任何現代網頁瀏覽器。
 
-**What browsers are supported?**
+**支援哪些瀏覽器？**
 
-Chamilo 2.0 works with all major modern browsers: Chrome, Firefox, Safari, and Edge. For the best experience, use the latest version of your browser.
+Chamilo 2.0 支援所有主要現代瀏覽器：Chrome、Firefox、Safari 和 Edge。為了獲得最佳體驗，請使用您瀏覽器的最新版本。
 
-## Content and Courses
+## 內容與課程
 
-**How do I create a backup of my course?**
+**如何建立我的課程備份？**
 
-Go to the **Maintenance** tool in your course (accessible from the settings menu on the course homepage). You will find options to export your course content.
+前往課程中的 **維護** 工具（可從課程首頁的設定選單存取）。您將找到匯出課程內容的選項。
 
-**Can I copy content from one course to another?**
+**我能否從一個課程複製內容到另一個課程？**
 
-Yes. Use the course import/export features in the Maintenance tool to copy content between courses. You will need to create an empty *destination* course first.
+是的。使用維護工具中的課程匯入/匯出功能，在課程之間複製內容。您需要先建立一個空的 *目的地* 課程。
 
-**What file formats can I upload?**
+**可以上傳哪些檔案格式？**
 
-Chamilo supports most common file formats: PDF, Word documents, PowerPoint presentations, images (PNG, JPG, SVG, GIF), audio files, video files, and many more. Your administrator may restrict certain file types for security reasons.
+Chamilo 支援大多數常見檔案格式：PDF、Word 文件、PowerPoint 簡報、圖像 (PNG、JPG、SVG、GIF)、音訊檔案、影片檔案等。您的系統管理員可能會因安全原因限制某些檔案類型。
 
-**What is the maximum file upload size?**
+**最大檔案上傳大小是多少？**
 
-This depends on your server configuration. Your administrator sets the upload limit. If you encounter a limit, contact your administrator.
+這取決於您的伺服器設定。您的系統管理員設定上傳限制。如果遇到限制，請聯絡您的系統管理員。
 
-## Assessment
+## 評量
 
-**Can exercises be graded automatically?**
+**練習能否自動評分？**
 
-Yes. Most question types (multiple choice, true/false, fill in the blanks, matching) are graded automatically. Open-ended questions require manual grading, or you can use AI-assisted grading if configured.
+是的。大多數題型（單選、多選、真假、填空、配對）會自動評分。開放式問題需要手動評分，或者如果已設定，您可以使用 AI 輔助評分。
 
-**Can I set a time limit on exercises?**
+**我能否為練習設定時間限制？**
 
-Yes. When creating or editing an exercise, you can set a time limit in minutes. Learners will see a countdown timer.
+是的。在建立或編輯練習時，您可以設定以分鐘為單位的時間限制。學習者將看到倒數計時器。
 
-**Can learners retake an exercise?**
+**學習者能否重考練習？**
 
-Yes. You control the number of allowed attempts in the exercise settings. You can allow unlimited attempts or set a specific maximum, but this maximum applies to all users in your course (you can *free* new attempts by deleting previous ones, but this is not recommended as it results in unequal chances between users and it is registered for audit at the platform level).
+是的。您可以在練習設定中控制允許的嘗試次數。您可以允許無限次嘗試，或設定特定最大值，但此最大值適用於課程中的所有使用者（您可以透過刪除先前的嘗試來 *釋放* 新嘗試，但不建議這麼做，因為這會導致使用者之間機會不均，且平台層級會記錄以供稽核）。
 
-## Technical Issues
+## 技術問題
 
-**I cannot see a tool on my course homepage. Where is it?**
+**我在課程首頁看不到某個工具。它在哪裡？**
 
-Some tools may be hidden. As a teacher, you can show hidden tools by looking for tools with a crossed-out eye icon. If you cannot find a specific tool at all, your platform administrator may have disabled it at the platform level.
+某些工具可能被隱藏。身為教師，您可以透過尋找帶有刪除線眼睛圖示的工具來顯示隱藏工具。如果完全找不到特定工具，您的平台管理員可能已在平台層級停用它。
 
-**My learners say they cannot access the course.**
+**我的學習者說他們無法存取課程。**
 
-Check the course visibility settings (Course Settings > Course Visibility). If set to "Registered only," learners must be explicitly enrolled. Also verify they have an active account on the platform.
+檢查課程可見性設定（課程設定 > 課程可見性）。如果設定為「僅限註冊」，學習者必須明確註冊。同時確認他們在平台上擁有有效帳戶。

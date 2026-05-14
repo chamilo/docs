@@ -1,115 +1,116 @@
-# Project Structure
+# 專案結構
 
-## Top-Level Directories
+## 最上層目錄
 
 ```
 chamilo/
-├── assets/          # Frontend source code
-│   ├── vue/         # Vue 3 application (components, views, router, stores)
-│   ├── css/         # SCSS stylesheets
-│   └── js/          # Legacy JavaScript
-├── config/          # Symfony configuration (routes, services, packages)
-├── public/          # Web root (index.php, legacy PHP pages, plugins)
-│   ├── main/        # Legacy PHP modules (one subdirectory per tool)
-│   └── plugin/      # Bundled and custom plugins
-├── src/             # PHP source code (Symfony bundles)
-│   ├── CoreBundle/  # Core platform logic
-│   ├── CourseBundle/# Course-specific features
-│   └── LtiBundle/   # LTI 1.3 integration
-├── templates/       # Twig templates
-├── var/             # Cache, logs, uploads (generated)
-├── vendor/          # Composer dependencies (generated)
-├── node_modules/    # npm dependencies (generated)
-└── translations/    # Translation files
+├── assets/          # 前端原始碼
+│   ├── vue/         # Vue 3 應用程式（元件、視圖、路由、狀態管理）
+│   ├── css/         # SCSS 樣式表
+│   └── js/          # 舊版 JavaScript
+├── config/          # Symfony 設定（路由、服務、套件）
+├── public/          # 網頁根目錄（index.php、舊版 PHP 頁面、外掛）
+│   ├── main/        # 舊版 PHP 模組（每個工具一個子目錄）
+│   └── plugin/      # 內建及自訂外掛
+├── src/             # PHP 原始碼（Symfony 套件）
+│   ├── CoreBundle/  # 核心平台邏輯
+│   ├── CourseBundle/# 課程專屬功能
+│   └── LtiBundle/   # LTI 1.3 整合
+├── templates/       # Twig 範本
+├── var/             # 快取、記錄、上傳檔案（產生的）
+├── vendor/          # Composer 相依套件（產生的）
+├── node_modules/    # npm 相依套件（產生的）
+└── translations/    # 翻譯檔案
 ```
 
-## Source Code (`src/`)
+## 原始碼 (`src/`)
 
 ### CoreBundle
 
-The largest bundle. Notable subdirectories:
+最大的套件。值得注意的子目錄：
 
-| Directory | Contents |
-|-----------|----------|
-| `Entity/` | Doctrine entities (User, Course, Session, ResourceNode, etc.) |
-| `Controller/` | Admin, API action, and page controllers (the Api/ subfolder holds custom API Platform actions) |
-| `Settings/` | Settings schema files (platform configuration) |
-| `Repository/` | Doctrine repositories |
-| `AiProvider/` | AI provider implementations (OpenAI, Gemini, Mistral, DeepSeek, Grok) |
-| `Tool/` | Course tool definitions |
-| `Security/` | Voters, authenticators, authorization |
-| `EventListener/` | Event listeners |
-| `EventSubscriber/` | Event subscribers |
-| `Command/` | Symfony console commands |
-| `Migrations/` | Database migrations |
-| `Twig/` | Twig extensions |
-| `Storage/` | Flysystem storage adapters |
+| 目錄 | 內容 |
+|------|------|
+| `Entity/` | Doctrine 實體（User、Course、Session、ResourceNode 等） |
+| `Controller/` | 管理、API 動作及頁面控制器（Api/ 子資料夾包含自訂 API Platform 動作） |
+| `Settings/` | 設定架構檔案（平台設定） |
+| `Repository/` | Doctrine 儲存庫 |
+| `AiProvider/` | AI 提供者實作（OpenAI、Gemini、Mistral、DeepSeek、Grok） |
+| `Tool/` | 課程工具定義 |
+| `Security/` | 投票者、驗證器、授權 |
+| `EventListener/` | 事件監聽器 |
+| `EventSubscriber/` | 事件訂閱者 |
+| `Command/` | Symfony 主控台指令 |
+| `Migrations/` | 資料庫遷移 |
+| `Twig/` | Twig 延伸模組 |
+| `Storage/` | Flysystem 儲存適配器 |
 
 ### CourseBundle
 
-Course-specific entities and logic:
+課程專屬實體與邏輯：
 
-| Directory | Contents |
-|-----------|----------|
-| `Entity/` | Course-content entities (CDocument, CQuiz, CLp, CForum, CStudentPublication, etc.) |
-| `Controller/` | Course controllers |
-| `Settings/` | Course-level settings schemas |
-| `Component/CourseCopy/` | Course import/export (Common Cartridge, Moodle) |
+| 目錄 | 內容 |
+|------|------|
+| `Entity/` | 課程內容實體（CDocument、CQuiz、CLp、CForum、CStudentPublication 等） |
+| `Controller/` | 課程控制器 |
+| `Settings/` | 課程層級設定架構 |
+| `Component/CourseCopy/` | 課程匯入/匯出（Common Cartridge、Moodle） |
 
 ### LtiBundle
 
-LTI 1.3 integration:
+LTI 1.3 整合：
 
-| Directory | Contents |
-|-----------|----------|
-| `Entity/` | LTI platform, tool, and deployment entities |
-| `Controller/` | LTI launch and configuration endpoints |
+| 目錄 | 內容 |
+|------|------|
+| `Entity/` | LTI 平台、工具及部署實體 |
+| `Controller/` | LTI 啟動及設定端點 |
 
-## Frontend (`assets/vue/`)
+---
+## 前端 (`assets/vue/`)
 
 ```
 assets/vue/
-├── main.js              # Application entry point
-├── main_installer.js    # Installer entry point
-├── components/          # Reusable Vue components
-│   ├── accessurl/       # Multi-URL (portal) components
-│   ├── admin/           # Admin-specific components
-│   ├── assignments/     # Assignment forms and lists
-│   ├── attendance/      # Attendance sheet components
-│   ├── basecomponents/  # Shared base components (BaseButton, BaseIcon, BaseTable, BaseTinyEditor, etc.) and ChamiloIcons.js
-│   ├── blog/            # Blog components
-│   ├── branch/          # Branch/network campus components
-│   ├── ccalendarevent/  # Course calendar event components
-│   ├── chat/            # Chat and AI tutor
-│   ├── course/          # Course cards, catalogs, forms
-│   ├── coursecategory/  # Course category components
-│   ├── coursemaintenance/ # Course backup/restore components
-│   ├── ctoolintro/      # Course tool introduction components
-│   ├── documents/       # Document management components
-│   ├── dropbox/         # Dropbox (file exchange) components
-│   ├── filemanager/     # File browser components
-│   ├── glossary/        # Glossary components
-│   ├── installer/       # Installation wizard
-│   ├── layout/          # Sidebar, Topbar, shell layout
-│   ├── links/           # External links components
-│   ├── login/           # Login form components
-│   ├── lp/              # Learning path components
-│   ├── message/         # Messaging components
-│   ├── page/            # Static page components
-│   ├── pageLayout/      # Page layout wrapper components
-│   ├── personalfile/    # Personal file space components
-│   ├── platform/        # Platform-level UI components
-│   ├── resource_links/  # Resource link management components
-│   ├── room/            # Virtual room components
-│   ├── session/         # Session (learning campaign) components
-│   ├── sessionadmin/    # Session administration components
-│   ├── skill/           # Skills and competencies components
-│   ├── social/          # Social network components
-│   ├── systemannouncement/ # System announcement components
-│   ├── user/            # User profile and management components
-│   ├── usergroup/       # User group (class) components
-│   └── userreluser/     # User relationship (friend/follow) components
-├── views/               # Page-level Vue views (mirrors components/ structure)
+├── main.js              # 應用程式入口點
+├── main_installer.js    # 安裝程式入口點
+├── components/          # 可重複使用的 Vue 元件
+│   ├── accessurl/       # 多 URL (入口網站) 元件
+│   ├── admin/           # 管理員專用元件
+│   ├── assignments/     # 作業表單與清單
+│   ├── attendance/      # 點名表元件
+│   ├── basecomponents/  # 共享基礎元件 (BaseButton, BaseIcon, BaseTable, BaseTinyEditor 等) 與 ChamiloIcons.js
+│   ├── blog/            # 部落格元件
+│   ├── branch/          # 分校/網路校園元件
+│   ├── ccalendarevent/  # 課程行事曆事件元件
+│   ├── chat/            # 聊天與 AI 導師
+│   ├── course/          # 課程卡片、目錄、表單
+│   ├── coursecategory/  # 課程分類元件
+│   ├── coursemaintenance/ # 課程備份/還原元件
+│   ├── ctoolintro/      # 課程工具介紹元件
+│   ├── documents/       # 文件管理元件
+│   ├── dropbox/         # Dropbox (檔案交換) 元件
+│   ├── filemanager/     # 檔案瀏覽器元件
+│   ├── glossary/        # 術語表元件
+│   ├── installer/       # 安裝精靈
+│   ├── layout/          # 側邊欄、頂部列、殼層佈局
+│   ├── links/           # 外部連結元件
+│   ├── login/           # 登入表單元件
+│   ├── lp/              # 學習路徑元件
+│   ├── message/         # 訊息元件
+│   ├── page/            # 靜態頁面元件
+│   ├── pageLayout/      # 頁面佈局包裝元件
+│   ├── personalfile/    # 個人檔案空間元件
+│   ├── platform/        # 平台層級 UI 元件
+│   ├── resource_links/  # 資源連結管理元件
+│   ├── room/            # 虛擬教室元件
+│   ├── session/         # 課程階段 (學習活動) 元件
+│   ├── sessionadmin/    # 課程階段管理元件
+│   ├── skill/           # 技能與能力元件
+│   ├── social/          # 社群網路元件
+│   ├── systemannouncement/ # 系統公告元件
+│   ├── user/            # 使用者個人檔案與管理元件
+│   ├── usergroup/       # 使用者群組 (班級) 元件
+│   └── userreluser/     # 使用者關係 (朋友/追蹤) 元件
+├── views/               # 頁面層級 Vue 視圖 (鏡像 components/ 結構)
 │   ├── accessurl/       ├── account/         ├── admin/
 │   ├── assignments/     ├── attendance/      ├── blog/
 │   ├── branch/          ├── buycourses/      ├── ccalendarevent/
@@ -121,25 +122,26 @@ assets/vue/
 │   ├── sessionadmin/    ├── skill/           ├── social/
 │   ├── terms/           ├── user/            ├── usergroup/
 │   └── userreluser/
-├── router/              # Vue Router (index.js + one module per feature area)
-├── store/               # Pinia stores
+├── router/              # Vue Router (index.js + 每個功能區域一個模組)
+├── store/               # Pinia 儲存
 │   └── modules/         # crud.js, notifications.js, ux.js
-├── composables/         # Shared composition functions (per-feature subdirectories)
-├── services/            # API service layer (one file per entity/domain)
-├── utils/               # Utility helpers (dates, hydra, fetch, sanitizeHtml, etc.)
-├── config/              # Runtime configuration (api.js, env.js)
-├── constants/           # Shared constants
-│   └── entity/          # Entity-specific constants (session, message, extrafield, etc.)
-├── layouts/             # Top-level layout components (MyCourses.vue)
-├── pages/               # Standalone page components (Home, Login, Faq, Demo)
-├── mixins/              # Legacy Vue 2-style mixins (ListMixin, CreateMixin, etc.)
-├── hooks/               # Composable hooks (useSidebar, useState)
-├── plugins/             # Vue plugin registrations (httpErrors, vuetify)
-├── validators/          # Vuelidate custom validators
-└── error/               # Error boundary components
+├── composables/         # 共享組合函式 (每個功能子目錄)
+├── services/            # API 服務層 (每個實體/領域一個檔案)
+├── utils/               # 工具輔助函式 (日期、hydra、fetch、sanitizeHtml 等)
+├── config/              # 執行時設定 (api.js, env.js)
+├── constants/           # 共享常數
+│   └── entity/          # 實體專用常數 (session, message, extrafield 等)
+├── layouts/             # 頂層佈局元件 (MyCourses.vue)
+├── pages/               # 獨立頁面元件 (Home, Login, Faq, Demo)
+├── mixins/              # 舊版 Vue 2 風格混入 (ListMixin, CreateMixin 等)
+├── hooks/               # 可組合鉤子 (useSidebar, useState)
+├── plugins/             # Vue 外掛註冊 (httpErrors, vuetify)
+├── validators/          # Vuelidate 自訂驗證器
+└── error/               # 錯誤邊界元件
 ```
 
-## Configuration (`config/`)
+---
+## 組態 (`config/`)
 
 ```
 config/
@@ -168,34 +170,34 @@ config/
 └── jwt-test/            # JWT keys for the test environment
 ```
 
-Symfony automatically merges the base `packages/*.yaml` files with those in the matching environment subdirectory (`dev/`, `prod/`, or `test/`), so environment-specific files only need to override the values that differ.
+Symfony 會自動合併基礎 `packages/*.yaml` 檔案與對應環境子目錄 (`dev/`、`prod/` 或 `test/`) 中的檔案，因此環境特定檔案只需覆寫不同的值即可。
 
-## Build Configuration
+## 建置組態
 
-| File | Purpose |
+| 檔案 | 用途 |
 |------|---------|
-| `webpack.config.js` | Webpack Encore configuration (entries, loaders, plugins) |
-| `tailwind.config.js` | Tailwind CSS configuration (content paths, theme extensions, plugins) |
-| `tsconfig.json` | TypeScript configuration |
-| `eslint.config.mjs` | ESLint rules (flat config) |
-| `.prettierrc.json` | Prettier formatting rules |
+| `webpack.config.js` | Webpack Encore 組態 (entries, loaders, plugins) |
+| `tailwind.config.js` | Tailwind CSS 組態 (content paths, theme extensions, plugins) |
+| `tsconfig.json` | TypeScript 組態 |
+| `eslint.config.mjs` | ESLint 規則 (flat config) |
+| `.prettierrc.json` | Prettier 格式化規則 |
 
-All files sit at the project root. PostCSS plugins (Tailwind + Autoprefixer) are configured inline inside `webpack.config.js` via `enablePostCssLoader()` — there is no standalone `postcss.config.js`. `webpack.config.js` reads `tailwind.config.js` indirectly through PostCSS, so changes to Tailwind's `content` or `theme` sections take effect on the next `yarn encore dev` / `yarn encore production` run.
+所有檔案位於專案根目錄。PostCSS 外掛 (Tailwind + Autoprefixer) 透過 `webpack.config.js` 中的 `enablePostCssLoader()` 進行內嵌組態 — 沒有獨立的 `postcss.config.js`。`webpack.config.js` 透過 PostCSS 間接讀取 `tailwind.config.js`，因此 Tailwind 的 `content` 或 `theme` 區段變更將在下一次執行 `yarn encore dev` / `yarn encore production` 時生效。
 
-## Webpack Entry Points
+## Webpack 進入點
 
-The build produces these bundles:
+建置會產生以下套件：
 
 **JavaScript:**
-* `vue` — Main Vue 3 application (`assets/vue/main.js`)
-* `vue_installer` — Installation wizard (`assets/vue/main_installer.js`)
-* `legacy_app`, `legacy_exercise`, `legacy_lp`, `legacy_document` — Legacy JS for pages not yet migrated to Vue
+* `vue` — 主要 Vue 3 應用程式 (`assets/vue/main.js`)
+* `vue_installer` — 安裝精靈 (`assets/vue/main_installer.js`)
+* `legacy_app`、`legacy_exercise`、`legacy_lp`、`legacy_document` — 尚未遷移至 Vue 的頁面之舊版 JS
 
 **CSS:**
-* `app` — Main stylesheet (`assets/css/app.scss`)
-* Plus specialized sheets: `chat`, `document`, `editor`, `editor_content`, `markdown`, `print`, `responsive`, `scorm`
+* `app` — 主要樣式表 (`assets/css/app.scss`)
+* 加上專用樣式表：`chat`、`document`、`editor`、`editor_content`、`markdown`、`print`、`responsive`、`scorm`
 
-## CSS Structure (`assets/css/`)
+## CSS 結構 (`assets/css/`)
 
 ```
 assets/css/
@@ -222,31 +224,34 @@ assets/css/
     └── libs/                # Third-party library overrides (FullCalendar, MediaElement.js)
 ```
 
+---
+
+---
 ### Tailwind CSS
 
-Tailwind is integrated via PostCSS. `assets/css/_tailwind.scss` emits the base, component, and utility layers; `assets/css/app.scss` imports it first so Tailwind utilities are available throughout all other partials. The Tailwind configuration — content paths for purging, theme extensions, and plugins — lives in `tailwind.config.js` at the project root (`/var/www/chamilo/tailwind.config.js`).
+Tailwind 是透過 PostCSS 整合的。`assets/css/_tailwind.scss` 會產生 base、component 和 utility 層；`assets/css/app.scss` 會首先匯入它，因此 Tailwind 工具類別可在所有其他 partials 中使用。Tailwind 配置 — 用於 purging 的內容路徑、主題擴充和外掛程式 — 位於專案根目錄的 `tailwind.config.js`（`/var/www/chamilo/tailwind.config.js`）。
 
-Custom utility classes and component classes defined with `@layer` (visible in `app.scss`) follow Tailwind's layering convention so that user-defined classes respect the same specificity rules as the generated utilities.
+使用 `@layer` 定義的自訂工具類別和元件類別（在 `app.scss` 中可見）遵循 Tailwind 的分層慣例，因此使用者定義的類別會遵守與產生的工具類別相同的特異性規則。
 
-### Color Themes
+### 顏色主題
 
-Chamilo supports a color theming system that can be configured directly from the admin interface (**Admin > Color Themes**). Each saved theme writes its files into a dedicated directory under `var/themes/`:
+Chamilo 支援一種顏色主題系統，可直接從管理介面進行配置（**管理 > 顏色主題**）。每個儲存的主題會將其檔案寫入 `var/themes/` 下的專屬目錄：
 
 ```
 var/themes/
 └── [theme-name]/
-    ├── colors.css       # CSS custom properties for the full color palette
-    ├── default.css      # Optional additional custom CSS rules
-    ├── learnpath.css    # Learning path-specific overrides
-    ├── tiny-settings.js # TinyMCE editor color palette settings
-    └── images/          # Theme images (logo, favicon, backgrounds, PWA icons)
+    ├── colors.css       # CSS 自訂屬性，用於完整顏色調色盤
+    ├── default.css      # 選用的額外自訂 CSS 規則
+    ├── learnpath.css    # 學習路徑專屬的覆寫
+    ├── tiny-settings.js # TinyMCE 編輯器顏色調色盤設定
+    └── images/          # 主題圖像（logo、favicon、背景、PWA 圖示）
         ├── header-logo.png / header-logo.svg
         ├── favicon.ico
         ├── pwa-icons/   # icon-192.png, icon-512.png
-        └── ...          # Background images, admin block images, etc.
+        └── ...          # 背景圖像、管理區塊圖像等
 ```
 
-`colors.css` defines CSS custom properties as space-separated RGB channel triplets rather than `rgb()` values, which allows Tailwind to compose opacity variants (e.g. `bg-primary/50`) without additional configuration:
+`colors.css` 將 CSS 自訂屬性定義為以空格分隔的 RGB 通道三元組，而非 `rgb()` 值，這允許 Tailwind 在無需額外配置的情況下組合不透明度變體（例如 `bg-primary/50`）：
 
 ```css
 :root {
@@ -256,4 +261,4 @@ var/themes/
 }
 ```
 
-The theme layer sits on top of the compiled Tailwind/SCSS bundle: the browser loads `colors.css` after the main stylesheet, so theme changes take effect immediately without a build step.
+主題層位於編譯後的 Tailwind/SCSS 組合包之上：瀏覽器會在主樣式表之後載入 `colors.css`，因此主題變更會立即生效，無需建置步驟。

@@ -1,13 +1,13 @@
-# State Management
+# 狀態管理
 
-Chamilo uses two state management libraries side by side:
+Chamilo 並行使用兩個狀態管理程式庫：
 
-* **Pinia** — the current standard for all new stores. The majority of the codebase uses Pinia.
-* **Vuex** — legacy store, still present and used by older views. New code should use Pinia.
+* **Pinia** — 所有新 store 的當前標準。大多數程式碼基底使用 Pinia。
+* **Vuex** — 舊版 store，仍存在並被舊版視圖使用。新程式碼應使用 Pinia。
 
 ## Pinia Stores
 
-The Pinia stores live directly in `assets/vue/store/`:
+Pinia stores 直接位於 `assets/vue/store/`：
 
 | Store file | Composable | Purpose |
 |-----------|-----------|---------|
@@ -33,7 +33,7 @@ const user = securityStore.user
 
 ### CID Request Store
 
-Tracks the current course/session context — required for any course-scoped API operation:
+追蹤當前課程/工作階段上下文 — 任何課程範圍 API 操作所需的：
 
 ```javascript
 const cidReqStore = useCidReqStore()
@@ -45,7 +45,7 @@ const session = cidReqStore.session
 
 ### Course Settings Store
 
-Caches course-level settings to avoid repeated API calls:
+快取課程層級設定以避免重複 API 呼叫：
 
 ```javascript
 const courseSettings = useCourseSettings()
@@ -54,7 +54,7 @@ const value = courseSettings.getSetting('exercise_generator')
 
 ### Platform Config Store
 
-Holds platform-wide configuration fetched from `/platform-config/list`:
+持有從 `/platform-config/list` 擷取的平台範圍設定：
 
 ```javascript
 const platformConfig = usePlatformConfig()
@@ -66,7 +66,7 @@ const plugins = platformConfig.plugins
 
 ## Vuex Store (Legacy)
 
-The Vuex store is defined in `assets/vue/store/index.js` and contains:
+Vuex store 定義於 `assets/vue/store/index.js`，並包含：
 
 | Module | Purpose |
 |--------|---------|
@@ -75,11 +75,11 @@ The Vuex store is defined in `assets/vue/store/index.js` and contains:
 | `modules/ux.js` | UX state (forbidden-access message) |
 | `security.js` | Legacy Vuex security module (superseded by `securityStore.js`) |
 
-Avoid adding new Vuex modules. Use Pinia for any new state.
+避免新增 Vuex 模組。任何新狀態請使用 Pinia。
 
 ## Composables
 
-In addition to stores, `assets/vue/composables/` contains shared composition functions. Notable examples:
+除了 stores 外，`assets/vue/composables/` 包含共享組合函數。值得注意的範例：
 
 | File | Purpose |
 |------|---------|
@@ -100,4 +100,4 @@ In addition to stores, `assets/vue/composables/` contains shared composition fun
 | `upload.js` | File upload helpers |
 | `useConfirmation.js` | Confirmation dialog helper |
 
-Composables are also organized into feature subdirectories (`course/`, `session/`, `document/`, `calendar/`, `admin/`, `auth/`, `message/`, `skill/`, etc.). The full list is in `assets/vue/composables/`.
+Composables 也組織成功能子目錄（`course/`、`session/`、`document/`、`calendar/`、`admin/`、`auth/`、`message/`、`skill/` 等）。完整清單位於 `assets/vue/composables/`。

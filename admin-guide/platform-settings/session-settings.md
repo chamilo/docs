@@ -1,571 +1,574 @@
-# Sessions Settings
+# 工作階段設定
 
-Defaults and behaviour for **Sessions** — session lifecycle, coach access windows, course visibility within a session, and similar.
+**工作階段**的預設值與行為 — 工作階段生命週期、導師存取時間窗、課程在工作階段中的可見度，以及類似設定。
 
-Access these settings under **Administration > Configuration settings > Sessions**. This category contains **68 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+在 **管理 > 設定 > 工作階段** 下存取這些設定。此類別包含 **68 個設定**，以下列出平台設定預設資料 (`SettingsCurrentFixtures.php`) 中提供的標題與註解。
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> 程式碼中的變數名稱以等寬字體顯示。透過 API 撰寫腳本或需要透過編輯 [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml) 在全域層級變更這些設定時，請使用它。
 
-## Settings
+## 設定
 
 ### `add_users_by_coach`
 
-**Register users by Coach**
+**由導師註冊使用者**
 
-Coach users may create users to the platform and subscribe users to a session.
+導師使用者可建立平台使用者並將使用者訂閱至工作階段。
 
-*Default: `false`*
+*預設值：`false`*
 
 ### `allow_career_diagram`
 
-**Enable career diagrams**
+**啟用職涯圖表**
 
-Career diagrams allow you to display diagrams of careers, skills and courses.
+職涯圖表可讓您顯示職涯、技能與課程的圖表。
 
-*Default: `false`*
+*預設值：`false`*
 
 
 ### `allow_career_users`
 
-**Enable career diagrams for users**
+**啟用使用者的職涯圖表**
 
-If career diagrams are enabled, users can only see them (and only the diagrams that correspond to their studies) if you enable this option.
+若啟用職涯圖表，使用者僅能在啟用此選項時看到它們（且僅限對應其學習的圖表）。
 
-*Default: `false`*
+*預設值：`false`*
 
 ### `allow_coach_to_edit_course_session`
 
-**Allow coaches to edit inside course sessions**
+**允許導師編輯課程工作階段內部**
 
-Allow coaches to edit inside course sessions
+允許導師編輯課程工作階段內部
 
-*Default: `true`*
+*預設值：`true`*
 
 ### `allow_delete_user_for_session_admin`
 
-**Session admins can delete users**
+**工作階段管理員可刪除使用者**
 
-Session administrators can remove users from the platform when managing their session(s).
+工作階段管理員在管理其工作階段時，可從平台移除使用者。
 
-*Default: `false`*
+*預設值：`false`*
 
 
 ### `allow_disable_user_for_session_admin`
 
-**Session admins can disable users**
+**工作階段管理員可停用使用者**
 
-Session administrators can disable user accounts to prevent login while retaining enrollment records in their session(s).
+工作階段管理員可停用使用者帳戶，以防止登入同時保留其工作階段中的註冊記錄。
 
-*Default: `false`*
+*預設值：`false`*
 
 
 ### `allow_edit_tool_visibility_in_session`
 
-**Allow tool visibility edition in sessions**
+**允許在工作階段中編輯工具可見度**
 
-When using sessions, the default behaviour is to use the tool visibility defined in the base course. This setting changes that to allow coaches in session courses to adapt tool visibilities to their needs.
+使用工作階段時，預設行為是使用基底課程中定義的工具可見度。此設定會變更此行為，允許工作階段課程中的導師依需求調整工具可見度。
 
-*Default: `true`*
+*預設值：`true`*
 
 ### `allow_redirect_to_session_after_inscription_about`
 
-**Redirect to session after registration in session's 'About' page**
+**在工作階段「關於」頁面註冊後重新導向至工作階段**
 
-Automatically redirect new users to their session page after they complete registration through a session's About page.
+在新使用者透過工作階段的「關於」頁面完成註冊後，自動重新導向至其工作階段頁面。
 
-*Default: `false`*
+*預設值：`false`*
 
 
 ### `allow_search_diagnostic`
 
-**Enable sessions search diagnosis**
+**啟用工作階段搜尋診斷**
 
-Allow tutors to get a diagnosis that will allow them to search for the best sessions for learners.
+允許導師取得診斷，讓他們能為學習者搜尋最佳工作階段。
 
-*Default: `false`*
+*預設值：`false`*
 
 
 ### `allow_session_admin_extra_access`
 
-**Session admin can access batch user import, update and export**
+**工作階段管理員可存取批次使用者匯入、更新與匯出**
 
-Session administrators can access batch user import, update, and export functionality in addition to their standard permissions.
+工作階段管理員除標準權限外，還可存取批次使用者匯入、更新與匯出功能。
 
-*Default: `false`*
+*預設值：`false`*
 
 
 ### `allow_session_admin_login_as_teacher`
 
-**Session admins can 'login as' teachers**
+**工作階段管理員可「以教師身分登入」**
 
-Session administrators can impersonate teacher accounts to preview course content and student experience within their session(s).
+工作階段管理員可模擬教師帳戶，以預覽其工作階段中的課程內容與學生體驗。
 
-*Default: `false`*
+*預設值：`false`*
 
 
 ### `allow_session_admin_read_careers`
 
-**Session admins can view careers**
+**工作階段管理員可檢視職涯**
 
-[inferred] Session administrators can view and access career paths and promotion workflows linked to their managed sessions.
+[推斷] 工作階段管理員可檢視並存取與其管理工作階段相關的職涯路徑與晉升工作流程。
 
-*Default: `false`*
+*預設值：`false`*
 
 
 ### `allow_session_admins_to_manage_all_sessions`
 
-**Allow session administrators to see all sessions**
+**允許工作階段管理員檢視所有工作階段**
 
-When this option is not enabled (default), session administrators can only see the sessions they have created. This is confusing in an open environment where session administrators might need to share support time between two sessions.
+未啟用此選項（預設）時，工作階段管理員僅能看到其建立的工作階段。在開放環境中，工作階段管理員可能需要在兩個工作階段之間分享支援時間，此設定會造成混淆。
 
-*Default: `false`*
+*預設值：`false`*
 
 ### `allow_session_course_copy_for_teachers`
 
-**Allow session-to-session copy for teachers**
+**允許教師進行工作階段對工作階段的課程複製**
 
-Enable this option to let teachers copy their content from one course in a session to a course in another session. By default, this option is only available to platform administrators.
+啟用此選項可讓教師將其工作階段中一門課程的內容複製至另一工作階段的課程。預設情況下，此選項僅供平台管理員使用。
 
-*Default: `false`*
+*預設值：`false`*
 
 ### `allow_teachers_to_create_sessions`
 
-**Allow teachers to create sessions**
+**允許教師建立工作階段**
 
-Teachers can create, edit and delete their own sessions.
+教師可建立、編輯與刪除其自身工作階段。
 
-*Default: `false`*
+*預設值：`false`*
 
 ### `allow_tutors_to_assign_students_to_session`
 
-**Tutors can assign students to sessions**
+**導師可將學生指派至工作階段**
 
-When enabled, course coaches/tutors in sessions can subscribe new users to their session. This option is otherwise only available to administrators and session administrators.
+啟用時，工作階段中的課程導師/導師可將新使用者訂閱至其工作階段。此選項否則僅供管理員與工作階段管理員使用。
 
-*Default: `false`*
+*預設值：`false`*
 
 ### `allow_user_session_collapsable`
 
-**Allow user to collapse sessions in My sessions**
+**允許使用者在「我的工作階段」中收合工作階段**
 
-Users can collapse session cards or groups in the My sessions page to reduce visual clutter and improve navigation.
+使用者可在「我的工作階段」頁面收合工作階段卡片或群組，以減少視覺雜亂並改善導航。
 
-*Default: `false`*
+*預設值：`false`*
 
 
 ### `assignment_base_course_teacher_access_to_all_session`
 
-**Base course teacher can see assignments from all sessions**
+**基底課程教師可看到所有工作階段的作業**
 
-Show all learner publications (from base course and from all sessions) in the work/pending.php page of the base course.
+在基底課程的 work/pending.php 頁面中顯示所有學習者發佈內容（來自基底課程與所有工作階段）。
 
-*Default: `false`*
+*預設值：`false`*
 
+---
 ### `career_diagram_disclaimer`
 
-**Display a disclaimer below the career diagram**
+**在職業圖表下方顯示免責聲明**
 
-Add a disclaimer below the career diagram. A language variable called 'Career diagram disclaimer' must exist in your sub-language.
+在職業圖表下方新增免責聲明。您的子語言中必須存在名為「Career diagram disclaimer」的語言變數。
 
-*Default: `false`*
+*預設值：`false`*
 
 ### `career_diagram_legend`
 
-**Display a legend below the career diagram**
+**在職業圖表下方顯示圖例**
 
-Add a career legend below the career diagram. A language variable called 'Career diagram legend' must exist in your sub-language.
+在職業圖表下方新增職業圖例。您的子語言中必須存在名為「Career diagram legend」的語言變數。
 
-*Default: `false`*
+*預設值：`false`*
 
 ### `courses_list_session_title_link`
 
-**Type of link for the session title**
+**課程清單中工作階段標題的連結類型**
 
-On the courses/sessions page, the session title can be either of the following : 0 = no link (hide session title) ; 1 = link title to a special session page ; 2 = link to the course if there is only one course ; 3 = session title makes the courses list foldable ; 4 = no link (show session title).
+在課程/工作階段頁面中，工作階段標題可以是以下任一類型：0 = 無連結（隱藏工作階段標題）；1 = 連結至特殊工作階段頁面；2 = 若僅有一門課程，則連結至課程；3 = 工作階段標題使課程清單可摺疊；4 = 無連結（顯示工作階段標題）。
 
-*Default: `1`*
+*預設值：`1`*
 
 ### `default_session_list_view`
 
-**Default sessions list view**
+**預設工作階段清單檢視**
 
-Select the default tab you want to see when opening the sessions list as admin.
+選擇以系統管理員身分開啟工作階段清單時要看到的預設索引標籤。
 
-*Default: `all`*
+*預設值：`all`*
 
 
 ### `drh_can_access_all_session_content`
 
-**HR directors access all session content**
+**人力資源主管可存取所有工作階段內容**
 
-If enabled, human resources directors will get access to all content and users from the sessions (s)he follows.
+若啟用，人力資源主管將可存取其所追蹤工作階段的所有內容與使用者。
 
-*Default: `true`*
+*預設值：`true`*
 
 ### `duplicate_specific_session_content_on_session_copy`
 
-**Enable the copy of session-specific content to another session**
+**啟用將工作階段特定內容複製至另一工作階段**
 
-Allows duplication of resources that were created in the session when duplicating the session.
+允許在複製工作階段時複製於該工作階段中建立的資源。
 
-*Default: `false`*
+*預設值：`false`*
 
 
 ### `email_template_subscription_to_session_confirmation_lost_password`
 
-**Add reset password link to e-mail notification of subscription to session**
+**在工作階段註冊確認電子郵件通知中新增重設密碼連結**
 
-Include a password reset link in subscription confirmation emails sent to users when they are enrolled in a session.
+在使用者註冊工作階段時寄送的註冊確認電子郵件中包含密碼重設連結。
 
-*Default: `false`*
+*預設值：`false`*
 
 
 ### `email_template_subscription_to_session_confirmation_username`
 
-**Add username to e-mail notification of subscription to session**
+**在工作階段註冊確認電子郵件通知中新增使用者名稱**
 
-Include the user's username in subscription confirmation emails sent when they are enrolled in a session.
+在使用者註冊工作階段時寄送的註冊確認電子郵件中包含使用者的使用者名稱。
 
-*Default: `false`*
+*預設值：`false`*
 
 
 ### `enable_auto_reinscription`
 
-**Enable Automatic Reinscription**
+**啟用自動重新註冊**
 
-Enable or disable automatic reinscription when course validity expires. The related cron job must also be activated.
+啟用或停用課程有效期限屆滿時的自動重新註冊。相關的 cron 工作也必須啟用。
 
-*Default: `false`*
+*預設值：`false`*
 
 
 ### `enable_session_replication`
 
-**Enable Session Replication**
+**啟用工作階段複製**
 
-Enable or disable automatic session replication. The related cron job must also be activated.
+啟用或停用自動工作階段複製。相關的 cron 工作也必須啟用。
 
-*Default: `false`*
+*預設值：`false`*
 
 
 ### `extend_rights_for_coach`
 
-**Extend rights for coach**
+**擴展導師權限**
 
-Activate this option will give the coach the same permissions as the trainer on authoring tools
+啟用此選項將賦予導師與訓練師相同的製作工具權限
 
-*Default: `false`*
+*預設值：`false`*
 
 ### `hide_courses_in_sessions`
 
-**Hide courses list in sessions**
+**在工作階段中隱藏課程清單**
 
-When showing the session block in your courses page, hide the list of courses inside that session (only show them inside the specific session screen).
+在課程頁面顯示工作階段區塊時，隱藏該工作階段內的課程清單（僅在特定工作階段畫面中顯示）。
 
-*Default: `false`*
+*預設值：`false`*
 
 ### `hide_reporting_session_list`
 
-**Hide sessions list in reporting tool**
+**在報告工具中隱藏工作階段清單**
 
-Sessions that include the course are listed in the reporting tool inside the course itself, which can add considerable weight if the same course is used in hundreds of sessions. This option removes that list.
+包含課程的工作階段會在課程內的報告工具中列出，若同一課程用於數百個工作階段，這可能會增加相當大的負載。此選項會移除該清單。
 
-*Default: `false`*
+*預設值：`false`*
 
 
 ### `hide_search_form_in_session_list`
 
-**Hide search form in sessions list**
+**在工作階段清單中隱藏搜尋表單**
 
-Remove the search input field from the session list view in the administration interface.
+從系統管理介面中的工作階段清單檢視移除搜尋輸入欄位。
 
-*Default: `false`*
+*預設值：`false`*
 
 
 ### `hide_session_graph_in_my_progress`
 
-**Hide session chart in My progress**
+**在「我的進度」中隱藏工作階段圖表**
 
-Conceal session progress charts and visualizations from the My progress page in learner dashboards.
+在學習者儀表板中的「我的進度」頁面隱藏工作階段進度圖表與視覺化圖形。
 
-*Default: `false`*
+*預設值：`false`*
 
 
 ### `hide_tab_list`
 
-**Hide tabs on the session page**
+**在工作階段頁面隱藏索引標籤**
 
-Remove navigation tabs from the session detail page to simplify the interface.
+從工作階段詳細頁面移除導航索引標籤以簡化介面。
 
 ### `limit_session_admin_list_users`
 
-**Session admins are forbidden access to the users list**
+**禁止工作階段管理員存取使用者清單**
 
-Prevent session administrators from accessing the global users list in the administration interface.
+防止工作階段管理員存取系統管理介面中的全域使用者清單。
 
-*Default: `false`*
+*預設值：`false`*
 
 
 ### `limit_session_admin_role`
 
-**Limit session admins permissions**
+**限制工作階段管理員權限**
 
-If enabled, the session administrators will only see the User block with the 'Add user' option and the Sessions block with the 'Sessions list' option.
+若啟用，工作階段管理員僅能看到包含「新增使用者」選項的使用者區塊，以及包含「工作階段清單」選項的工作階段區塊。
 
-*Default: `false`*
+*預設值：`false`*
 
 ### `my_courses_session_order`
 
-**Change the default sorting of session in My sessions**
+**變更「我的工作階段」中的工作階段預設排序**
 
-By default, sessions are ordered by start date. Change this by providing an array of type ['field' => 'end_date', 'order' => 'desc'].
+預設情況下，工作階段依開始日期排序。可透過提供類似 ['field' => 'end_date', 'order' => 'desc'] 的陣列來變更。
 
 ### `my_courses_view_by_session`
 
-**View my courses by session**
+**依工作階段檢視我的課程**
 
-Enable an additional 'My courses' page where sessions appear as part of courses, rather than the opposite.
+啟用額外的「我的課程」頁面，其中工作階段會顯示為課程的一部分，而非相反。
 
-*Default: `false`*
+*預設值：`false`*
 
 ### `my_progress_session_show_all_courses`
 
-**My progress: show course details in session**
+**我的進度：在工作階段中顯示課程詳細資料**
 
-Display all details of each course in session when clicking on session details.
+點選工作階段詳細資料時顯示工作階段中每門課程的所有詳細資料。
 
-*Default: `false`*
+*預設值：`false`*
 
 
 ### `prevent_session_admins_to_manage_all_users`
 
-**Prevent session admins to manage all users**
+**防止工作階段管理員管理所有使用者**
 
-By enabling this option, session admins will only be able to see, in the administration page, the users they created.
+啟用此選項後，工作階段管理員在系統管理頁面中僅能看到其建立的使用者。
 
-*Default: `false`*
+*預設值：`false`*
 
+---
 ### `remove_session_url`
 
-**Hide link to session page**
+**隱藏工作階段頁面連結**
 
-Hide link to the session page from the sessions list.
+從工作階段清單中隱藏工作階段頁面的連結。
 
-*Default: `false`*
+*預設值：`false`*
 
 
 ### `session_admins_access_all_content`
 
-**Session admins can access all course content**
+**工作階段管理員可存取所有課程內容**
 
-Session administrators can view all course content within their sessions, including restricted or archived materials.
+工作階段管理員可在他們的工作階段中檢視所有課程內容，包括受限或封存的資料。
 
-*Default: `false`*
+*預設值：`false`*
 
 ### `session_admins_edit_courses_content`
 
-**Session admins can edit course content**
+**工作階段管理員可編輯課程內容**
 
-Session administrators can modify course content (documents, exercises, tools) in courses assigned to their sessions.
+工作階段管理員可修改指派至他們工作階段的課程內容（文件、測驗、工具）。
 
-*Default: `false`*
+*預設值：`false`*
 
 ### `session_automatic_creation_user_id`
 
-**Auto-created session's creator ID**
+**自動建立工作階段的建立者 ID**
 
-Set the user to use as creator of the automatically-created sessions (to avoid assigning every session to user '1' which is often the portal administrator).
+設定用作自動建立工作階段的建立者使用者（避免將每個工作階段指派給使用者 '1'，該使用者通常為入口網站管理員）。
 
-*Default: `1`*
+*預設值：`1`*
 
 
 ### `session_classes_tab_disable`
 
-**Disable add class in session course for non-admin**
+**停用非管理員在工作階段課程中新增班級**
 
-Disable tab to add classes in session course for non-admins.
+停用非管理員在工作階段課程中新增班級的分頁。
 
-*Default: `false`*
+*預設值：`false`*
 
 
 ### `session_coach_access_after_duration_end`
 
-**Sessions by duration always available to coaches**
+**依持續時間的工作階段始終供導師存取**
 
-Otherwise, session coaches only have access to sessions by duration during the active duration.
+否則，工作階段導師僅在有效持續期間內可存取依持續時間的工作階段。
 
-*Default: `false`*
+*預設值：`false`*
 
 
 ### `session_course_ordering`
 
-**Session courses manual ordering**
+**工作階段課程手動排序**
 
-Enable this option to allow the session administrators to order the courses inside a session manually. If disabled, courses are ordered alphabetically on course title.
+啟用此選項以允許工作階段管理員手動排序工作階段內的課程。若停用，則課程依課程標題字母順序排序。
 
-*Default: `false`*
+*預設值：`false`*
 
 ### `session_course_users_subscription_limited_to_session_users`
 
-**Limit subscriptions to course to only users of the session**
+**將課程訂閱限制為僅工作階段使用者**
 
-Restrict the list of students to subscribe in the course session. And disable registration for users in all courses from Resume Session page.
+限制課程工作階段中可訂閱的學生清單，並停用「繼續工作階段」頁面中所有課程的使用者註冊。
 
-*Default: `false`*
+*預設值：`false`*
 
 
 ### `session_courses_read_only_mode`
 
-**Set course read-only in session**
+**在工作階段中設定課程為唯讀**
 
-Let teachers set some courses in read-only mode when opened through sessions. In the course properties, check the 'Lock course in session' option.
+允許教師在透過工作階段開啟課程時，將某些課程設定為唯讀模式。在課程屬性中，勾選「在工作階段中鎖定課程」選項。
 
-*Default: `false`*
+*預設值：`false`*
 
 
 ### `session_creation_form_set_extra_fields_mandatory`
 
-**Set mandatory extra fields in session creation form**
+**在工作階段建立表單中設定必填額外欄位**
 
-Require the listed fields during session creation.
+在工作階段建立期間要求列出的欄位。
 
 ### `session_creation_user_course_extra_field_relation_to_prefill`
 
-**Pre-fill session fields with user fields**
+**使用使用者欄位預填工作階段欄位**
 
-Array of relationships between user extra fields and session extra fields, so the session can be pre-filled with data matching the user's data.
+使用者額外欄位與工作階段額外欄位之間的關聯陣列，以便工作階段可使用符合使用者資料的資料進行預填。
 
 ### `session_days_after_coach_access`
 
-**Default coach access days after session**
+**工作階段結束後導師存取預設天數**
 
-Default number of days a coach can access his session after the official session end date
+導師在官方工作階段結束日期後可存取其工作階段的預設天數
 
 ### `session_days_before_coach_access`
 
-**Default coach access days before session**
+**工作階段開始前導師存取預設天數**
 
-Default number of days a coach can access his session before the official session start date
+導師在官方工作階段開始日期前可存取其工作階段的預設天數
 
 ### `session_import_settings`
 
-**Options for session import**
+**工作階段匯入選項**
 
-Array of options to apply as default parameters in the CSV/XML session import.
+在 CSV/XML 工作階段匯入中套用為預設參數的選項陣列。
 
 ### `session_list_order`
 
-**Sessions support manual sorting**
+**工作階段支援手動排序**
 
-Enable manual reordering of sessions in the administration session list via drag-and-drop or similar mechanism.
+啟用管理工作階段清單中的手動重新排序，透過拖放或其他類似機制。
 
-*Default: `false`*
+*預設值：`false`*
 
 
 ### `session_list_show_count_users`
 
-**Show number of users in sessions list**
+**在工作階段清單中顯示使用者數量**
 
-The admin can see the number of users in each session. This adds additional weight to the sessions list, so if you use it often, consider carefully whether you want the extra waiting time.
+管理員可看到每個工作階段的使用者數量。這會增加工作階段清單的額外負載，因此若經常使用，請仔細考量是否需要額外的等待時間。
 
-*Default: `false`*
+*預設值：`false`*
 
 
 ### `session_list_view_remaining_days`
 
-**Show remaining days in My Sessions**
+**在「我的工作階段」中顯示剩餘天數**
 
-If enabled, the session dates on the "My Sessions" page will be replaced by the number of remaining days.
+若啟用，「我的工作階段」頁面的工作階段日期將被替換為剩餘天數。
 
-*Default: `false`*
+*預設值：`false`*
 
 ### `session_model_list_field_ordered_by_id`
 
-**Sort session templates by id in session creation form**
+**在工作階段建立表單中依 ID 排序工作階段範本**
 
-[inferred] Sort session templates by their numeric ID in the session creation form dropdown instead of alphabetically by name.
+[推斷] 在工作階段建立表單的下拉選單中，依數值 ID 而非名稱字母順序排序工作階段範本。
 
-*Default: `false`*
+*預設值：`false`*
 
 
 ### `session_multiple_subscription_students_list_avoid_emptying`
 
-**Prevent emptying the subscribed users in session subscription**
+**防止在工作階段訂閱中清空已訂閱使用者**
 
-When using the multiple learners subscription to a session, prevent the normal behaviour which is to unsubscribe users who are not in the right panel when clicking submit. Keep all users there.
+使用多位學習者訂閱工作階段時，防止正常行為，即在按下提交時取消訂閱不在右側面板的使用者。保留所有使用者。
 
-*Default: `false`*
+*預設值：`false`*
 
 
 ### `show_all_sessions_on_my_course_page`
 
-**Show all sessions on 'My courses' page**
+**在「我的課程」頁面顯示所有工作階段**
 
-If enabled, this option show all sessions of the user in calendar-based view.
+若啟用，此選項將以行事曆檢視顯示使用者的所有工作階段。
 
-*Default: `true`*
+*預設值：`true`*
 
 
 ### `show_session_coach`
 
-**Show session coach**
+**顯示工作階段導師**
 
-Show the global session coach name in session title box in the courses list
+在課程清單的工作階段標題方塊中顯示全域工作階段導師名稱
 
-*Default: `false`*
+*預設值：`false`*
 
 ### `show_session_data`
 
-**Show session data title**
+**顯示工作階段資料標題**
 
-Show session data comment
+顯示工作階段資料註解
 
-*Default: `false`*
+*預設值：`false`*
 
 ### `show_session_description`
 
-**Show session description**
+**顯示工作階段描述**
 
-Show the session description wherever this option is implemented (sessions tracking pages, etc)
+在實作此選項的位置顯示工作階段描述（工作階段追蹤頁面等）
 
-*Default: `false`*
+*預設值：`false`*
 
+---
 ### `show_simple_session_info`
 
-**Show simple session info**
+**顯示簡易工作區資訊**
 
-Add coach and dates to the session's subtitle in the sessions' list.
+在工作區清單中，將導師和日期新增至工作區的副標題。
 
-*Default: `true`*
+*預設值：`true`*
 
 
 ### `show_users_in_active_sessions_in_tracking`
 
-**Only display users from active sessions in tracking**
+**追蹤中僅顯示活躍工作區的使用者**
 
-Display only users from currently active sessions in learner tracking and reporting views.
+在學習者追蹤和報告檢視中，僅顯示目前活躍工作區的使用者。
 
-*Default: `false`*
+*預設值：`false`*
 
 
 ### `tracking_columns`
 
-**Customize course-session tracking columns**
+**自訂課程-工作區追蹤欄位**
 
-Define an array of columns for the following reports: 'course_session', 'my_students_lp', 'my_progress_lp', 'my_progress_courses'.
+定義以下報告的欄位陣列：'course_session'、'my_students_lp'、'my_progress_lp'、'my_progress_courses'。
 
 ### `user_s_session_duration`
 
-**Auto-created sessions duration**
+**自動建立工作區的持續時間**
 
-Duration (in days) of the single-user, auto-created sessions. After expiry, the user cannot register to the same course (no other session is created).
+單一使用者自動建立工作區的持續時間（以天為單位）。到期後，使用者無法註冊相同課程（不會建立其他工作區）。
 
-*Default: `1095`*
+*預設值：`1095`*
 
 
 ### `user_session_display_mode`
 
-**My Sessions display mode**
+**我的工作區顯示模式**
 
-Choose how the "My Sessions" page is displayed: as a modern visual block (card) view or the classic list style.
+選擇「我的工作區」頁面的顯示方式：現代視覺區塊（卡片）檢視或經典清單樣式。
 
-*Default: `list`*
+*預設值：`list`*

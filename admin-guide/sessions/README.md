@@ -1,30 +1,30 @@
-# Sessions
+# 工作階段
 
-Sessions are one of Chamilo's most powerful features. They allow you to deliver the same courses to different groups of learners at different times, without duplicating course content.
+工作階段是 Chamilo 最強大的功能之一。它們允許您在不同時間向不同學習者群組提供相同的課程，而無需重複課程內容。
 
-* **[Managing Sessions](managing-sessions.md)** — Create, configure, and manage training sessions
-* **[Session Categories](session-categories.md)** — Organize sessions into categories
-* **[Careers and Promotions](careers-and-promotions.md)** — Define career paths and promotion workflows
-* **[Classes](classes.md)** — Manage learner classes for bulk enrollment
+* **[管理工作階段](managing-sessions.md)** — 建立、設定和管理訓練工作階段
+* **[工作階段類別](session-categories.md)** — 將工作階段組織成類別
+* **[職涯與晉升](careers-and-promotions.md)** — 定義職涯路徑和晉升工作流程
+* **[班級](classes.md)** — 管理學習者班級以進行大量註冊
 
-## Understanding Sessions
+## 了解工作階段
 
-Sessions are **optional**. You can make your portal work just by using courses, but we **really** recommend you consider the extra complexity of sessions as a way to save management work in the long run.
+工作階段是**選用的**。您可以僅使用課程即可讓您的入口網站運作，但我們**強烈**建議您考慮工作階段的額外複雜性，作為長期節省管理工作的好方法。
 
-A **course** holds the content (documents, exercises, learning paths). A **session** assigns that course (or multiple courses) to a specific group of learners *for a specific time period*.
+**課程**包含內容（文件、練習、學習路徑）。**工作階段**將該課程（或多個課程）指派給特定學習者群組*在特定時間段內*。
 
-This architecture means:
+此架構意味著：
 
-* Teachers create content once in the course
-* Administrators create sessions to deliver that content to different cohorts
-* Each session has its own enrollment, tracking data, and results
-* The base course content is shared, but session coaches can customize certain elements
+* 教師在課程中一次建立內容
+* 管理員建立工作階段，將該內容提供給不同群組
+* 每個工作階段擁有自己的註冊、追蹤資料和結果
+* 基礎課程內容是共享的，但工作階段教練可以自訂某些元素
 
-## When to Use Sessions
+## 何時使用工作階段
 
-Use sessions when:
+當以下情況時使用工作階段：
 
-* You deliver the same training multiple times (e.g., monthly onboarding sessions)
-* You have cohort-based programs (e.g., semester-based classes)
-* You need separate tracking per group of learners
-* You want different coaches to manage different editions of the same course
+* 您多次提供相同訓練（例如，每月入職工作階段）
+* 您擁有基於群組的程式（例如，基於學期的班級）
+* 您需要針對每個學習者群組進行獨立的追蹤
+* 您希望不同教練管理相同課程的不同版本

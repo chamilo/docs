@@ -1,148 +1,146 @@
-# Mail Settings
+# 郵件設定
 
-How outgoing mail is built — sender identity, layout, signature, and special-purpose addresses.
+如何建構寄出郵件 — 寄件者身分、版面配置、簽名，以及特殊用途地址。
 
-Access these settings under **Administration > Configuration settings > Mail**. This category contains **18 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+在 **管理 > 設定值 > 郵件** 下存取這些設定。此類別包含 **18 個設定**，以下列出平台設定預設值 (`SettingsCurrentFixtures.php`) 中的標題與註解。
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> 程式碼中的變數名稱以等寬字體顯示。當透過 API 進行腳本撰寫，或需要透過編輯 [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml) 在全域層級變更這些設定時，請使用它。
 
-## Settings
+## 設定
 
 ### `allow_email_editor_for_anonymous`
 
-**E-mail editor for anonymous**
+**匿名使用者的電子郵件編輯器**
 
-Allow anonymous users to send e-mails from the platform. In this day and age of information security this is not a recommended option.
+允許匿名使用者從平台發送電子郵件。在資訊安全當今時代，這不是推薦的選項。
 
-*Default: `true`*
+*預設值：`true`*
 
 
 ### `cron_notification_help_desk`
 
-**E-mail addresses to send cronjobs execution reports**
+**發送排程工作執行報告的電子郵件地址**
 
-Given as array of e-mail addresses. Does not work for all cronjobs yet.
+以電子郵件地址陣列形式提供。目前尚未適用於所有排程工作。
 
 ### `mail_content_style`
 
-**Extra e-mail HTML body attributes**
+**額外的電子郵件 HTML 本文屬性**
 
-Extra HTML attributes to apply to the body tag of generated notification emails.
+應用於產生的通知電子郵件 body 標籤的額外 HTML 屬性。
 
 ### `mail_header_style`
 
-**Extra e-mail HTML header attributes**
+**額外的電子郵件 HTML 標頭屬性**
 
-Extra HTML attributes to apply to the header section of generated notification emails.
+應用於產生的通知電子郵件標頭區段的額外 HTML 屬性。
 
 ### `mailer_debug_enable`
 
-**Mail: Debug**
+**郵件：除錯**
 
-Select whether you want to enable the e-mail sending debug logs. These will give you more information on what is happening when connecting to the mail service, but are not elegant and might break page design. Only use when there is not user activity.
+選擇是否啟用電子郵件發送除錯記錄。這些記錄將提供連接郵件服務時發生什麼的更多資訊，但並不優雅且可能破壞頁面設計。僅在無使用者活動時使用。
 
-*Default: `false`*
+*預設值：`false`*
 
 
 ### `mailer_dkim`
 
-**Mail: DKIM headers**
+**郵件：DKIM 標頭**
 
-Enter a JSON array of your DKIM configuration settings (see example).
+輸入您的 DKIM 設定值 JSON 陣列（參見範例）。
 
 ### `mailer_dsn`
 
-**Mail DSN**
+**郵件 DSN**
 
-The DSN fully includes all parameters needed to connect to the mail service. You can learn more at https://symfony.com/doc/6.4/mailer.html#using-built-in-transports. Here are a few examples of supported DSN syntaxes: https://symfony.com/doc/6.4/mailer.html#using-a-3rd-party-transport
+DSN 完全包含連接郵件服務所需的所有參數。您可以在 https://symfony.com/doc/6.4/mailer.html#using-built-in-transports 了解更多。這裡有一些支援的 DSN 語法範例：https://symfony.com/doc/6.4/mailer.html#using-a-3rd-party-transport
 
-*Default: `null://null`*
+*預設值：`null://null`*
 
 
 ### `mailer_exclude_json`
 
-**Mail: Avoid using LD+JSON**
+**郵件：避免使用 LD+JSON**
 
-Some e-mail clients do not understand the descriptive LD+JSON format, showing it as a loose JSON string to the final user. If this is your case, you might want to set the variable below to 'false' to disable this header.
+某些電子郵件客戶端無法理解描述性的 LD+JSON 格式，將其顯示為鬆散的 JSON 字串給最終使用者。如果是您的情況，您可能希望將以下變數設為 'false' 以停用此標頭。
 
-*Default: `false`*
+*預設值：`false`*
 
 
 ### `mailer_from_email`
 
-**Send all e-mails from this e-mail address**
+**所有電子郵件均從此電子郵件地址發送**
 
-Sets the default email address used in the "from" field of emails.
+設定電子郵件「from」欄位中使用預設電子郵件地址。
 
 ### `mailer_from_name`
 
-**Send all e-mails as originating from this (organizational) name**
+**所有電子郵件均顯示為來自此（組織）名稱**
 
-Sets the default display name used for sending platform emails. e.g. "Support team".
+設定發送平台電子郵件時使用的預設顯示名稱。例如「支援團隊」。
 
 ### `mailer_mails_charset`
 
-**Mail: character set**
+**郵件：字元集**
 
-In case you need to define the charset to use when sending those e-mails. Leave empty if you're not sure.
+如果需要定義發送這些電子郵件時使用的字元集，請在此設定。若不確定，請留空。
 
-*Default: `UTF-8`*
+*預設值：`UTF-8`*
 
 
 ### `mailer_xoauth2`
 
-**Mail: XOAuth2 options**
+**郵件：XOAuth2 選項**
 
-If you use some XOAuth2-based e-mail service, use this setting in JSON to save your specific configuration (see example) and select XOAuth2 in the mail service setting.
+如果您使用基於 XOAuth2 的電子郵件服務，請使用此 JSON 設定儲存您的特定設定（參見範例），並在郵件服務設定中選擇 XOAuth2。
 
 ### `messages_hide_mail_content`
 
-**Hide e-mail content to bring users to platform**
+**隱藏電子郵件內容以引導使用者至平台**
 
-Prefer short e-mail versions with a link to the messaging space on the platform to increase platform-based engagement.
+偏好簡短的電子郵件版本，包含連結至平台上的訊息空間，以增加基於平台的參與度。
 
-*Default: `false`*
+*預設值：`false`*
 
 
 ### `notifications_extended_footer_message`
 
-**Extended notifications footer**
+**擴充的通知頁尾**
 
-Add a custom extra footer for notifications emails for a specific language, for example for privacy policy notices. Multiple languages and paragraphs can be added.
+為特定語言的通知電子郵件新增自訂額外頁尾，例如隱私政策通知。可以新增多種語言與段落。
 
 ### `send_notification_score_in_percentage`
 
-**Send score in percentage in test results notification**
+**在測驗結果通知中以百分比發送分數**
 
-Sends exercise scores as percentages instead of points in test result notification emails.
+在測驗結果通知電子郵件中，將測驗分數以百分比而非分數發送。
 
-*Default: `false`*
+*預設值：`false`*
 
 
 ### `send_two_inscription_confirmation_mail`
 
-**Send 2 registration e-mails**
+**發送 2 封註冊電子郵件**
 
-Send two separate e-mails on registration. One for the username, another one for the password.
+註冊時發送兩封獨立的電子郵件。一封用於使用者名稱，另一封用於密碼。
 
-*Default: `false`*
+*預設值：`false`*
 
 
 ### `show_user_email_in_notification`
 
-**Show sender's e-mail address in notifications**
+**在通知中顯示寄件者的電子郵件地址**
 
-Includes the sender's email address with their name in personal message and notification emails.
+在個人訊息與通知電子郵件中，包含寄件者的電子郵件地址與其名稱。
 
-*Default: `false`*
+*預設值：`false`*
 
 
 ### `update_users_email_to_dummy_except_admins`
 
-**Update users e-mail to dummy value during imports**
+**在匯入期間將使用者電子郵件更新為虛擬值（管理員除外）**
 
-During special CSV cron imports of users, automatically replace e-mails with dummy e-mail username@example.com.
+在特殊 CSV 使用者排程匯入期間，自動將電子郵件取代為虛擬電子郵件 username@example.com。
 
-*Default: `false`*
-
-
+*預設值：`false`*

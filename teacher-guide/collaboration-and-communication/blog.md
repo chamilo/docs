@@ -1,46 +1,46 @@
 # Blog
 
-The blog tool lets you create a shared blog within your course. Learners can write posts, leave comments, and engage in structured writing activities.
+Blog 工具讓您在課程中建立共享部落格。學生可以撰寫貼文、留下留言，並參與結構化的寫作活動。
 
-## Creating a Blog
+## Membuat Blog
 
-1. Open the **Blog** tool from the course homepage (under the cog icon at the top)
-2. Click **New project**
-3. Enter a **title** and optional subtitle
-4. Save
-5. Decide when you want to make it available to students by clicking the **Show** (eye) icon
+1. 在課程首頁開啟 **Blog** 工具（位於上方齒輪圖示下方）
+2. 點選 **Proyek Baru**
+3. 輸入 **Judul** 和選填的副標題
+4. 儲存
+5. 點選 **Tampilkan** 圖示（眼睛圖示）來決定學生何時可以存取
 
-You can create multiple blogs within a single course (e.g., one per topic or one per group).
+您可以在一個課程中建立多個部落格（例如，每個主題一個，或每個小組一個）。
 
-## Writing Blog Posts
+## Menulis Posting Blog
 
-1. Open a blog
-2. Click **New post**
-3. Enter a **title** and write the post content using the rich-text editor
-4. Save
+1. 開啟一個部落格
+2. 點選 **Posting Baru**
+3. 輸入 **Judul** 並使用富文本編輯器撰寫貼文內容
+4. 儲存
 
-Both teachers and learners (depending on permissions) can create posts.
+教師和學生（視權限設定而定）皆可建立貼文。
 
-## Comments and Ratings
+## Komentar dan Penilaian
 
-Readers can interact with blog posts through:
+讀者可以透過以下方式與部落格貼文互動：
 
-* **Comments** — Leave feedback or start a discussion under a post (comments can also be threaded as replies to other comments)
-* **Ratings** — Rate posts to highlight the most valued contributions
-* **Attachments** — Both posts and comments can carry file attachments
+* **Komentar** — 在貼文下方提供回饋或發起討論（留言也可巢狀作為其他留言的回覆）
+* **Penilaian** — 為貼文評分，以突顯最受重視的貢獻
+* **Lampiran** — 貼文和留言可包含檔案附件
 
-## Blog Tasks
+## Tugas Blog
 
-You can create **tasks** within a blog — specific writing assignments that learners must complete as blog posts. This is useful for:
+您可以在部落格內建立 **Tugas** — 學生必須以部落格貼文形式完成的特定寫作作業。這適合用於：
 
-* Reflective journals
-* Weekly writing assignments
-* Project update reports
+* 反思日誌
+* 每週寫作作業
+* 專案進度報告
 
-## Managing the Blog
+## Mengelola Blog
 
-As the teacher, you can:
+身為教師，您可以：
 
-* **Edit or delete** posts and comments (post deletion is restricted to the post author or to teachers)
-* **Toggle blog visibility** to show or hide the blog from learners
-* **Define tasks** — Add specific writing assignments learners are expected to complete as posts. Tasks can be color-coded for easier visual grouping.
+* **Mengedit atau menghapus** 貼文和留言（刪除貼文僅限貼文作者或教師執行）
+* **Mengubah visibilitas blog** 以顯示或隱藏部落格給學生
+* **Menetapkan tugas** — 新增學生必須以貼文形式完成的特定寫作作業。作業可賦予顏色代碼，以利視覺化分組。

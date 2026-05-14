@@ -1,50 +1,50 @@
-# Course Reports
+# 課程報告
 
-Course reports give you an aggregate view of activity and performance across all learners in your course.
+課程報告提供您課程中所有學習者的活動和表現的彙總視圖。
 
-## Accessing Course Reports
+## 存取課程報告
 
-Open the **Tracking** <img src="/.gitbook/assets/icons/mdi-chart-box.svg" alt="Tracking" data-size="line"> tool from the course homepage and select the course-level reports view.
+從課程首頁開啟 **Tracking** <img src="/.gitbook/assets/icons/mdi-chart-box.svg" alt="追蹤" data-size="line"> 工具，並選擇課程層級的報告視圖。
 
-![The course tracking overview showing engagement metrics and learner activity summary](/.gitbook/assets/tracking-course-overview.png)
+![顯示參與度指標和學習者活動摘要的課程追蹤概覽](/.gitbook/assets/tracking-course-overview.png)
 
-## Available Reports
+## 可用報告
 
-### Activity Overview
+### 活動概覽
 
-A summary of overall course engagement, including enrolled learners, time spent in the course, course progress, exercise progress and average score, and assignment activity.
+課程整體參與度的摘要，包括註冊學習者、在課程中花費的時間、課程進度、測驗進度和平均分數，以及作業活動。
 
-Separate detail views are available from the tracking section for **resources** (per-resource access counts), **tools** (per-tool usage), and **events** (raw event log).
+從追蹤區段可取得獨立的詳細視圖，用於 **resources**（每個資源的存取次數）、**tools**（每個工具的使用情況）和 **events**（原始事件記錄）。
 
-### Exercise Reports
+### 測驗報告
 
-For each exercise in the course:
+針對課程中的每個測驗：
 
-* Number of learners who attempted it
-* Average score
-* Score distribution
-* Number of learners who passed (based on the pass threshold you set)
+* 嘗試該測驗的學習者人數
+* 平均分數
+* 分數分佈
+* 通過的學習者人數（基於您設定的通過門檻）
 
-### Learning Path Reports
+### 學習路徑報告
 
-For each learning path:
+針對每個學習路徑：
 
-* Completion rates across all learners
-* Average progress percentage
-* Time spent per item
-* Learners who have completed the path vs. those still in progress
+* 所有學習者的完成率
+* 平均進度百分比
+* 每個項目花費的時間
+* 已完成路徑的學習者與仍在進行中的學習者
 
-### Assignment Reports
+### 作業報告
 
-For each assignment:
+針對每個作業：
 
-* Number of submissions received
-* Number of pending reviews
+* 收到的提交數量
+* 待審核數量
 
-## Exporting Data
+## 匯出資料
 
-You can export tracking and report data for further analysis. Look for the **Export** <img src="/.gitbook/assets/icons/mdi-export.svg" alt="Export" data-size="line"> option to download data in a spreadsheet-compatible format.
+您可以匯出追蹤和報告資料以進行進一步分析。尋找 **Export** <img src="/.gitbook/assets/icons/mdi-export.svg" alt="匯出" data-size="line"> 選項，以下載試算表相容格式的資料。
 
-## Session Reports
+## 工作階段報告
 
-If you teach within a session, reports are scoped to the session's learners. Session coaches have access to reports across all courses in their session. A global configuration setting can also allows teachers to see assignments through all sessions using their course (ask your admin).
+如果您在工作階段中教學，報告的範圍限於工作階段的學習者。工作階段教練可以存取其工作階段中所有課程的報告。全球設定也可以允許教師透過所有使用其課程的工作階段查看作業（請詢問您的管理員）。

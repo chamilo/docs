@@ -1,7 +1,7 @@
-# Branding
+# 品牌化
 
-Customize the visual appearance of your Chamilo platform to match your organization's identity.
+自訂您的 Chamilo 平台的視覺外觀，以符合您組織的身份。
 
-* **[Color Themes](color-themes.md)** — Apply and customize color themes
-* **[Portal Customization](portal-customization.md)** — Configure the portal homepage, logo, and name
-* **[Templates](templates.md)** — Manage document and certificate templates
+* **[色彩主題](color-themes.md)** — 應用和自訂色彩主題
+* **[門戶自訂](portal-customization.md)** — 配置門戶首頁、標誌和名稱
+* **[模板](templates.md)** — 管理文件和證書模板

@@ -1,111 +1,110 @@
-# Surveys Settings
+# 調查設定
 
-Defaults and behaviour of the **Surveys** tool.
+**調查**工具的預設值和行為。
 
-Access these settings under **Administration > Configuration settings > Surveys**. This category contains **12 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+在 **管理 > 設定 > 調查** 下存取這些設定。此類別包含 **12 個設定**，以下列出平台設定預設資料 (`SettingsCurrentFixtures.php`) 中提供的標題和註解。
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> 程式碼中的變數名稱以等寬字體顯示。使用 API 進行腳本編寫或需要透過編輯 [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml) 在全域層級變更這些設定時，請使用它。
 
-## Settings
+## 設定
 
 ### `extend_rights_for_coach_on_survey`
 
-**Extend rights for coachs on surveys**
+**擴充調查的導師權限**
 
-Activate this option will allow the coachs to create and edit surveys
+啟用此選項將允許導師建立和編輯調查。
 
-*Default: `true`*
+*預設值：`true`*
 
 
 ### `hide_survey_edition`
 
-**Prevent survey edition**
+**防止調查編輯**
 
-Prevent editing surveys for all surveys listed here (by code). Use * to prevent edition of all surveys.
+防止在此列出的所有調查（依程式碼）的編輯。使用 * 防止所有調查的編輯。
 
 ### `hide_survey_reporting_button`
 
-**Hide survey reporting button**
+**隱藏調查報表按鈕**
 
-Allows admins to hide survey reporting button if surveys are used to survey teachers.
+允許管理員隱藏調查報表按鈕，如果調查用於調查教師。
 
-*Default: `false`*
+*預設值：`false`*
 
 
 ### `show_pending_survey_in_menu`
 
-**Show "Pending surveys" in menu**
+**在選單中顯示「待處理調查」**
 
-Display a menu item that lets users access their pending surveys.
+顯示一個選單項目，讓使用者存取其待處理調查。
 
-*Default: `false`*
+*預設值：`false`*
 
 
 ### `show_surveys_base_in_sessions`
 
-**Display surveys from base course in all session courses**
+**在所有課程場次中顯示基礎課程的調查**
 
-[inferred] Make surveys from the base course visible and available to learners in all related session courses.
+[inferred] 使基礎課程的調查在所有相關課程場次中對學習者可見且可用。
 
-*Default: `false`*
+*預設值：`false`*
 
 
 ### `survey_additional_teacher_modify_actions`
 
-**Add additional actions (as links) to survey lists for teachers**
+**為教師的調查清單新增額外動作（作為連結）**
 
-Add actions (usually connected to plugins) in the list of surveys. Use array syntax ['myplugin' => ['MyPlugin', 'urlGeneratorCallback']].
+在調查清單中新增動作（通常連接到外掛程式）。使用陣列語法 ['myplugin' => ['MyPlugin', 'urlGeneratorCallback']]。
 
 ### `survey_allow_answered_question_edit`
 
-**Allow teachers to edit survey questions after students answered**
+**允許教師在學生回答後編輯調查問題**
 
-[inferred] Allow instructors to modify survey questions even after learners have submitted responses.
+[inferred] 允許教師即使在學習者提交回應後仍修改調查問題。
 
-*Default: `false`*
+*預設值：`false`*
 
 
 ### `survey_anonymous_show_answered`
 
-**Allow teachers to see who answered in anonymous surveys**
+**允許教師查看匿名調查中誰已回答**
 
-Allow teachers to see which learners have already answered an anonymous survey. This only appears once more than one user has answered, so it remains difficult to identify who answered what.
+允許教師查看哪些學習者已回答匿名調查。此功能僅在超過一名使用者回答後出現，因此仍難以辨識誰回答了什麼。
 
-*Default: `false`*
+*預設值：`false`*
 
 
 ### `survey_backwards_enable`
 
-**Enable 'previous question' button in surveys**
+**在調查中啟用「前一個問題」按鈕**
 
-[inferred] Enable a "previous question" navigation button to allow learners to review earlier survey questions.
+[inferred] 啟用「前一個問題」導航按鈕，讓學習者檢視先前的調查問題。
 
-*Default: `false`*
+*預設值：`false`*
 
 
 ### `survey_duplicate_order_by_name`
 
-**Order by student name when using survey duplication feature**
+**使用調查複製功能時依學生姓名排序**
 
-The survey duplication feature is oriented towards teachers and is meant to ask teachers to give their appreciation about each student in order. This option will order the questions by learner's lastname.
+調查複製功能針對教師設計，旨在讓教師依順序對每個學生給予評價。此選項將依學習者的姓氏排序問題。
 
-*Default: `true`*
+*預設值：`true`*
 
 
 ### `survey_email_sender_noreply`
 
-**Survey e-mail sender (no-reply)**
+**調查電子郵件寄件者（無回覆）**
 
-Should the survey invitations use the coach e-mail address or the no-reply address defined in the main configuration section?
+調查邀請應使用導師的電子郵件地址，還是主要設定區段中定義的無回覆地址？
 
-*Default: `coach`*
+*預設值：`coach`*
 
 
 ### `survey_mark_question_as_required`
 
-**Mark all survey questions as 'required' by default**
+**預設將所有調查問題標記為「必填」**
 
-[inferred] Automatically mark all newly created survey questions as required responses by default.
+[inferred] 自動將所有新建立的調查問題預設標記為必填回應。
 
-*Default: `false`*
-
+*預設值：`false`*

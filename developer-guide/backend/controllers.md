@@ -1,71 +1,71 @@
-# Controllers
+# 控制器
 
-Chamilo 2.0 uses a large number of controllers (in the order of dozens) organized across the bundles. The exact count drifts version to version — treat the names below as illustrative, not exhaustive.
+Chamilo 2.0 使用大量控制器（數量達數十個），這些控制器組織在各個 bundle 中。確切數量會隨版本而變化——以下名稱僅供說明，並非窮盡。
 
-## Controller Types
+## 控制器類型
 
-### Admin Controllers
+### 管理控制器
 
-Located in `src/CoreBundle/Controller/Admin/`. Handle platform administration:
+位於 `src/CoreBundle/Controller/Admin/`。處理平台管理：
 
-* `AdminController` — Dashboard, file info, email testing
-* `UserListController` — User CRUD
-* `CourseListController` — Course management
-* `SessionAdminController` — Session management
-* `SettingsController` — Platform settings
-* `SecurityController` — Login attempts, IDS events
-* `PluginsController` — Plugin management
-* `RoomController` — Room management
+* `AdminController` — 儀表板、檔案資訊、電子郵件測試
+* `UserListController` — 使用者 CRUD
+* `CourseListController` — 課程管理
+* `SessionAdminController` — 課程期管理
+* `SettingsController` — 平台設定
+* `SecurityController` — 登入嘗試、IDS 事件
+* `PluginsController` — 外掛管理
+* `RoomController` — 教室管理
 
-### API Action Controllers
+### API 動作控制器
 
-Custom API Platform actions in `src/CoreBundle/Controller/Api/`:
+位於 `src/CoreBundle/Controller/Api/` 的自訂 API Platform 動作：
 
-These extend API Platform's built-in CRUD with custom business logic. Examples:
+這些擴展 API Platform 內建的 CRUD，並加入自訂業務邏輯。範例：
 
-* `CreateDocumentFileAction` — File upload for documents
-* `CreateStudentPublicationFileAction` — Assignment submission upload
-* `UpdateVisibilityDocument` — Toggle document visibility
-* `ExportCGlossaryAction` — Export glossary
-* `MoveDocumentAction` — Move a document to a different folder
+* `CreateDocumentFileAction` — 文件上傳
+* `CreateStudentPublicationFileAction` — 作業提交上傳
+* `UpdateVisibilityDocument` — 切換文件可見性
+* `ExportCGlossaryAction` — 匯出詞彙表
+* `MoveDocumentAction` — 將文件移至不同資料夾
 
-For read/write operations that don't need a dedicated HTTP controller — i.e. when you only want to change *how* an item or collection is fetched or persisted — prefer a **State Provider** or **State Processor** (see below). API Action Controllers are best reserved for endpoints that genuinely need request-level logic (file uploads, custom response formats, multi-step flows).
+對於不需要專用 HTTP 控制器的讀寫操作——即僅需變更項目或集合的擷取或儲存 *方式*——請優先使用 **State Provider** 或 **State Processor**（見下文）。API 動作控制器最適合真正需要請求層級邏輯的端點（檔案上傳、自訂回應格式、多步驟流程）。
 
-### AI Controller
+### AI 控制器
 
-`src/CoreBundle/Controller/AiController.php` is the entry point for AI-related endpoints (Aiken question generation, learning-path generation, image/video generation, open-answer grading, document analysis…). The exact set of routes evolves quickly — read the controller's `#[Route]` attributes for the current list rather than relying on a copy here.
+`src/CoreBundle/Controller/AiController.php` 是 AI 相關端點的入口（Aiken 問題產生、學習路徑產生、影像/影片產生、開放式答案評分、文件分析等）。確切路由集合變化迅速——請閱讀控制器的 `#[Route]` 屬性以取得目前清單，而非依賴此處的副本。
 
-### Chat Controller
+### 聊天控制器
 
-`src/CoreBundle/Controller/ChatController.php` handles real-time chat and AI tutor:
+`src/CoreBundle/Controller/ChatController.php` 處理即時聊天與 AI 導師：
 
-* User-to-user messaging
-* AI tutor chat (docked chat panel)
-* Message history and polling
+* 使用者對使用者訊息
+* AI 導師聊天（固定聊天面板）
+* 訊息歷史與輪詢
 
 ## API Platform State Providers & Processors
 
-Not every API endpoint is backed by a controller. API Platform 3 splits the work between two interfaces:
+並非每個 API 端點都由控制器支援。API Platform 3 將工作分割為兩個介面：
 
-* **State Providers** (`ApiPlatform\State\ProviderInterface`) — return data for `GET` operations (a single item or a collection).
-* **State Processors** (`ApiPlatform\State\ProcessorInterface`) — handle writes for `POST`, `PUT`, `PATCH`, and `DELETE` operations.
+* **State Providers** (`ApiPlatform\State\ProviderInterface`) — 為 `GET` 操作傳回資料（單一項目或集合）。
+* **State Processors** (`ApiPlatform\State\ProcessorInterface`) — 處理 `POST`、`PUT`、`PATCH` 和 `DELETE` 操作的寫入。
 
-Chamilo's implementations live in `src/CoreBundle/State/` (around 35+ classes). They are wired to entities via the `provider:` and `processor:` arguments of `#[ApiResource]` operations rather than via routes.
+Chamilo 的實作位於 `src/CoreBundle/State/`（約 35+ 個類別）。它們透過 `#[ApiResource]` 操作的 `provider:` 和 `processor:` 引數連接到實體，而非透過路由。
 
-### When to use them
+### 何時使用它們
 
-Reach for a provider/processor — instead of an API Action Controller — when:
+在以下情況下，請使用 provider/processor——而非 API 動作控制器：
 
-* The endpoint follows the standard REST shape (list / read / create / update / delete) but needs custom data assembly or persistence logic.
-* You need to filter, denormalize, or enrich the result of a collection or item read (e.g. respecting the current Access URL, course context, or visibility rules).
-* You need to run side effects on write (audit logs, file generation, related-entity updates) while keeping API Platform's normalization, validation, and pagination pipeline.
-* You want to keep the operation discoverable in the OpenAPI / Hydra schema without registering a custom route.
+* 端點遵循標準 REST 結構（清單 / 讀取 / 建立 / 更新 / 刪除），但需要自訂資料組裝或持久化邏輯。
+* 需要篩選、反標準化或豐富集合或項目讀取的結果（例如，遵守目前的 Access URL、課程脈絡或可見性規則）。
+* 需要在寫入時執行副作用（稽核記錄、檔案產生、相關實體更新），同時保留 API Platform 的標準化、驗證與分頁管線。
+* 希望操作能在 OpenAPI / Hydra 結構描述中被發現，而無需註冊自訂路由。
 
-If the endpoint instead needs raw `Request` access, returns a non-resource payload (file download, CSV, redirect), or orchestrates a multi-step flow, an API Action Controller in `src/CoreBundle/Controller/Api/` is a better fit.
+若端點反而需要原始 `Request` 存取、傳回非資源酬載（檔案下載、CSV、重導向），或協調多步驟流程，則位於 `src/CoreBundle/Controller/Api/` 的 API 動作控制器更適合。
 
-### Wiring on the entity
+### 在實體上的連線
 
-Reference the class on the operation:
+在操作中參照類別：
 
 ```php
 #[ApiResource(
@@ -77,9 +77,9 @@ Reference the class on the operation:
 class ColorTheme { ... }
 ```
 
-### Provider example
+### Provider 範例
 
-`src/CoreBundle/State/DocumentProvider.php` resolves a `CDocument` by URI variable and throws `NotFoundHttpException` when missing:
+`src/CoreBundle/State/DocumentProvider.php` 依 URI 變數解析 `CDocument`，並在遺失時擲出 `NotFoundHttpException`：
 
 ```php
 final class DocumentProvider implements ProviderInterface
@@ -99,9 +99,10 @@ final class DocumentProvider implements ProviderInterface
 }
 ```
 
-### Processor example
+---
+### Processor 範例
 
-`src/CoreBundle/State/ColorThemeStateProcessor.php` delegates to the default Doctrine `persistProcessor`, then runs side effects (generates a CSS file on the themes Flysystem filesystem, links the theme to the current Access URL):
+`src/CoreBundle/State/ColorThemeStateProcessor.php` 會委派給預設的 Doctrine `persistProcessor`，然後執行副作用（在 themes Flysystem 檔案系統上產生 CSS 檔案，並將主題連結至目前的 Access URL）：
 
 ```php
 final readonly class ColorThemeStateProcessor implements ProcessorInterface
@@ -127,16 +128,16 @@ final readonly class ColorThemeStateProcessor implements ProcessorInterface
 }
 ```
 
-### Patterns to know
+### 需要了解的模式
 
-* **Compose with the default processor.** Decorate `ProcessorInterface $persistProcessor` (Doctrine's built-in) so Chamilo-specific logic runs *around* the standard persist, not instead of it.
-* **Collection providers do their own pagination.** When a collection provider builds a custom query, it must respect `?page`, `?itemsPerPage`, and search filters — API Platform's automatic paginator only kicks in for the default Doctrine collection provider.
-* **One class per resource + operation kind is common**, but a provider can serve several operations (see `UsergroupStateProvider`, reused across four operations on `Usergroup`).
-* **Naming convention**: `<Entity>StateProvider` / `<Entity>StateProcessor` for resource-wide handlers; `<Entity><Action>Processor` (e.g. `CBlogAssignAuthorProcessor`, `CStudentPublicationDeleteProcessor`) for narrower operations.
+* **與預設 processor 組合。** 裝飾 `ProcessorInterface $persistProcessor`（Doctrine 內建的），讓 Chamilo 專屬邏輯在標準 persist 的*周圍*執行，而不是取代它。
+* **Collection providers 自行處理分頁。** 當 collection provider 建構自訂查詢時，它必須遵守 `?page`、`?itemsPerPage` 和搜尋篩選器 — API Platform 的自動分頁器僅適用於預設的 Doctrine collection provider。
+* **每個資源 + 操作類型一個類別很常見**，但一個 provider 可以服務多個操作（參見 `UsergroupStateProvider`，在 `Usergroup` 的四個操作中重複使用）。
+* **命名慣例**：`<Entity>StateProvider` / `<Entity>StateProcessor` 用於資源範圍的處理器；`<Entity><Action>Processor`（例如 `CBlogAssignAuthorProcessor`、`CStudentPublicationDeleteProcessor`）用於較狹窄的操作。
 
 ## Routing
 
-Controllers use **PHP 8 attributes** for route definitions:
+Controller 使用 **PHP 8 attributes** 來定義路由：
 
 ```php
 #[Route('/admin/user-list')]
@@ -147,12 +148,12 @@ class UserListController extends AbstractController
 }
 ```
 
-API Platform resources use `#[ApiResource]` attributes on entities, with custom operations pointing to controller actions.
+API Platform 資源在 entity 上使用 `#[ApiResource]` attributes，並以自訂操作指向 controller 動作。
 
 ## Traits
 
-Controllers use shared traits for common functionality:
+Controller 使用共享 traits 來實現常見功能：
 
-* `ControllerTrait` — Access to settings, serializer, and common services
-* `CourseControllerTrait` — Course context helpers
-* `ResourceControllerTrait` — Resource node operations
+* `ControllerTrait` — 存取設定、serializer 和常見服務
+* `CourseControllerTrait` — 課程上下文輔助
+* `ResourceControllerTrait` — 資源節點操作

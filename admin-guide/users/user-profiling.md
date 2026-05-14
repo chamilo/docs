@@ -1,75 +1,75 @@
-# User Profiling
+# 使用者剖析
 
-Chamilo allows you to define custom profile fields (extra fields) to capture additional information about users beyond the standard name, email, and role.
+Chamilo 允許您定義自訂設定檔欄位（額外欄位），以擷取使用者標準姓名、電子郵件和角色以外的額外資訊。
 
-## Extra Profile Fields
+## 額外設定檔欄位
 
-![The extra profile fields list showing custom fields with name, type, and visibility settings](/.gitbook/assets/admin-extra-fields-list.png)
+![顯示自訂欄位名稱、類型和可見度設定的額外設定檔欄位清單](/.gitbook/assets/admin-extra-fields-list.png)
 
-Extra fields let you store metadata specific to your organization, such as:
+額外欄位可讓您儲存特定於您組織的中繼資料，例如：
 
-* Employee ID
-* Department
-* Job title
-* Location/office
-* Phone number
-* Custom identifiers
+* 員工 ID
+* 部門
+* 職稱
+* 地點/辦公室
+* 電話號碼
+* 自訂識別碼
 
-## Creating Extra Fields
+## 建立額外欄位
 
-1. From the administration panel, navigate to **Extra fields** or **Profile fields**
-2. Click **Add**
-3. Configure the field:
-   * **Name** — The field title shown to users
-   * **Description** — Optional description
-   * **Helper text** — To be shown under the field in any form including it
-   * **Field type** — Text, dropdown, date, checkbox, etc.
-   * **Field label** — The internal name of the field, for plugins integration 
-   * **Possible values** — If the field is a selector between those values 
-   * **Default value** — An optional default
-   * **Visible to self** — Whether the field is visible on the user profile by the user itself
-   * **Visible to others** — Whether the field is visible to other users of the platform
-   * **Can change** — Whether the user can change its own field by himself (or whether only the admins can)
-   * **Filter** — If this is a selector-type field, whether to include it as a filter in administrative pages (e.g. to subscribe users to courses or sessions)
-   * **Order** — If you want to manage the display order of the fields, you will have to give a numerical order to each field
-   * **Remove on anonymization** — Important for privacy rules & laws: If the user is anonymized but not deleted, should this field be considered as potential holder of personally identifiable data? 
-4. Save
+1. 從管理面板，前往 **Extra fields** 或 **Profile fields**
+2. 按一下 **Add**
+3. 設定欄位：
+   * **Name** — 顯示給使用者的欄位標題
+   * **Description** — 選用的描述
+   * **Helper text** — 在包含該欄位的任何表單中顯示於欄位下方的文字
+   * **Field type** — 文字、下拉式選單、日期、核取方塊等
+   * **Field label** — 欄位的內部名稱，用於外掛整合 
+   * **Possible values** — 如果該欄位為這些值的選取器 
+   * **Default value** — 選用的預設值
+   * **Visible to self** — 該欄位是否可在使用者本身的使用者設定檔中顯示
+   * **Visible to others** — 該欄位是否可供平台上的其他使用者檢視
+   * **Can change** — 使用者是否可自行變更其欄位（或僅管理員可變更）
+   * **Filter** — 如果這是選取器類型欄位，是否將其包含於管理頁面的篩選條件中（例如，將使用者註冊至課程或工作階段）
+   * **Order** — 如果您想管理欄位的顯示順序，則需為每個欄位指定數字順序
+   * **Remove on anonymization** — 對於隱私規則和法規很重要：如果使用者被匿名化但未刪除，此欄位是否應視為可能包含個人識別資料的持有者？ 
+4. 儲存
 
-## Field Types
+## 欄位類型
 
-The extra-field engine supports a broad set of input types. Common ones include:
+額外欄位引擎支援廣泛的輸入類型。常見類型包括：
 
 | Type | Description |
 |------|-------------|
-| **Text** | A single-line text input |
-| **Textarea** | A multi-line text input |
-| **Radio** | A single-choice radio group |
-| **Dropdown / Dropdown multiple** | A list of predefined options (single or multi-select) |
-| **Double select** | Two dependent dropdowns (e.g., country → city) |
-| **Checkbox** | A yes/no toggle |
-| **Date / Date and time** | Date or date+time picker |
-| **Integer** | A numeric input |
-| **Tag** | Multiple free-form tag values |
-| **File** | File upload field |
-| **Video URL** | A URL pointing to a video |
-| **Mobile phone number** | A formatted phone number field |
-| **Timezone** | A timezone picker |
-| **Social profile** | A link to a social network profile |
-| **Divider** | A visual separator inside the form (no value) |
+| **Text** | 單行文字輸入 |
+| **Textarea** | 多行文字輸入 |
+| **Radio** | 單選按鈕群組 |
+| **Dropdown / Dropdown multiple** | 預定義選項清單（單選或多選） |
+| **Double select** | 兩個相依下拉式選單（例如，國家 → 城市） |
+| **Checkbox** | 是/否切換 |
+| **Date / Date and time** | 日期或日期+時間選擇器 |
+| **Integer** | 數字輸入 |
+| **Tag** | 多個自由格式標籤值 |
+| **File** | 檔案上傳欄位 |
+| **Video URL** | 指向影片的 URL |
+| **Mobile phone number** | 格式化電話號碼欄位 |
+| **Timezone** | 時區選擇器 |
+| **Social profile** | 指向社群網路設定檔的連結 |
+| **Divider** | 表單內的視覺分隔線（無值） |
 
-The exact set of usable types depends on the Chamilo version; the field-type dropdown in the **Extra fields** admin page is the source of truth.
+可用類型的確切集合取決於 Chamilo 版本；**Extra fields** 管理頁面中的欄位類型下拉式選單為權威來源。
 
-## Using Extra Fields
+## 使用額外欄位
 
-Extra fields appear:
+額外欄位會出現在：
 
-* In the user creation (if visible to self) and edit forms
-* On user profile pages (if visible to self)
-* In user imports (you can include extra field values in CSV imports)
-* In exports and reports (filter or group by extra field values)
+* 使用者建立（如果對自身可見）和編輯表單中
+* 使用者設定檔頁面（如果對自身可見）
+* 使用者匯入中（您可在 CSV 匯入中包含額外欄位值）
+* 匯出和報表中（可依額外欄位值篩選或群組）
 
-## Tips
+## 提示
 
-* **Plan before creating** — Define what information you need before creating fields, as changing field types after data has been entered can be problematic
-* **Use dropdowns for consistency** — When a field has a known set of possible values, use a dropdown instead of free text to ensure data consistency
-* **Use for reporting** — Extra fields are useful for filtering reports (e.g., "show all users in Department X who completed Training Y")
+* **建立前規劃** — 在建立欄位前定義所需資訊，因為在已輸入資料後變更欄位類型可能會有問題
+* **使用下拉式選單確保一致性** — 當欄位有已知可能值集合時，使用下拉式選單而非自由文字，以確保資料一致性
+* **用於報表** — 額外欄位可用於篩選報表（例如，「顯示完成訓練 Y 的 X 部門所有使用者」）

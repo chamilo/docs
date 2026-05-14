@@ -1,78 +1,78 @@
-# Support Tickets
+# 支援票券
 
-The **Tickets** tool is a built-in helpdesk system that lets users submit support requests and track their resolution. Depending on how your platform is configured, you may use it as a **requester** (submitting tickets on behalf of yourself or your learners) or as a **support agent** (responding to tickets assigned to your category).
+**Tickets** 工具是一個內建的求助台系統，讓使用者提交支援請求並追蹤其解決進度。視您的平台設定而定，您可以作為 **requester**（代表自己或您的學習者提交票券）或作為 **support agent**（回應指派給您類別的票券）使用它。
 
-## How the System Is Organized
+## 系統組織方式
 
-Tickets belong to **projects**, which are further divided into **categories**. Each category can have one or more support agents assigned to it. When a ticket is submitted, it is automatically routed to an available agent in the selected category.
+票券屬於 **projects**，並進一步細分為 **categories**。每個類別可以指派一個或多個支援代理人。當票券提交時，它會自動路由至所選類別中可用的代理人。
 
-Default categories include:
+預設類別包括：
 
 | Category | Description |
 |----------|-------------|
-| Enrollment | Questions and issues about course or session enrollment |
-| General information | General platform questions |
-| Requests and paperwork | Administrative requests and documentation |
-| Academic Incidents | Issues related to exams, assignments, or tasks |
-| Virtual campus | Technical issues with the platform |
-| Online evaluation | Issues with a specific course assessment (requires selecting a course) |
+| Enrollment | 關於課程或會議註冊的問題與疑難排解 |
+| General information | 一般平台問題 |
+| Requests and paperwork | 行政請求與文件 |
+| Academic Incidents | 與考試、作業或任務相關的問題 |
+| Virtual campus | 平台技術問題 |
+| Online evaluation | 特定課程評估的問題（需選擇課程） |
 
-## Accessing the Ticket Tool
+## 存取票券工具
 
-If your administrator has enabled the ticket link, a ticket icon <img src="/.gitbook/assets/icons/mdi-ticket-account.svg" alt="Ticket" data-size="line"> appears in the top navigation bar. Click it to go directly to the ticket submission form.
+如果您的管理員已啟用票券連結，頂部導覽列中會出現票券圖示 <img src="/.gitbook/assets/icons/mdi-ticket-account.svg" alt="票券" data-size="line">。點擊它即可直接前往票券提交表單。
 
-You can also access your tickets from the main menu under **Support** or **Tickets**, depending on your platform configuration.
+您也可以從主選單下的 **Support** 或 **Tickets** 存取您的票券，視您的平台設定而定。
 
-## Submitting a Ticket
+## 提交票券
 
-To open a new support request:
+要開啟新的支援請求：
 
-1. Click **New ticket** (or the ticket icon in the top bar).
-2. Select the **category** that best matches your issue.
-3. If the category requires it (for example, Online evaluation), select the relevant **course**.
-4. Enter a **subject** — a short summary of the issue.
-5. Write your **message** describing the problem in detail.
-6. Optionally attach files (screenshots, documents) to help the support agent understand the issue.
-7. Click **Submit**.
+1. 點擊 **New ticket**（或頂部列中的票券圖示）。
+2. 選擇最適合您問題的 **category**。
+3. 如果類別要求（例如 Online evaluation），請選擇相關的 **course**。
+4. 輸入 **subject** — 問題的簡短摘要。
+5. 撰寫您的 **message**，詳細描述問題。
+6. 選擇性附加檔案（螢幕截圖、文件）以幫助支援代理人了解問題。
+7. 點擊 **Submit**。
 
-The ticket is assigned an ID and routed to a support agent. You will receive a notification when the agent responds.
+票券會被指派一個 ID 並路由至支援代理人。當代理人回應時，您會收到通知。
 
-## Tracking Your Tickets
+## 追蹤您的票券
 
-From the ticket list, you can see all tickets you have submitted and their current status:
+從票券清單中，您可以看到您已提交的所有票券及其目前狀態：
 
 | Status | Meaning |
 |--------|---------|
-| New | Just submitted, not yet reviewed |
-| Pending | Being reviewed by a support agent |
-| Unconfirmed | Awaiting confirmation or additional information |
-| Forwarded | Transferred to another team or agent |
-| Closed | Resolved |
+| New | 剛提交，尚未審核 |
+| Pending | 正在由支援代理人審核 |
+| Unconfirmed | 等待確認或額外資訊 |
+| Forwarded | 轉移至另一團隊或代理人 |
+| Closed | 已解決 |
 
-Click any ticket to read the full conversation thread and add a reply.
+點擊任何票券即可閱讀完整的對話串，並新增回覆。
 
-## Replying to a Ticket
+## 回覆票券
 
-Once a ticket is open, you and the support agent exchange messages within the same thread. To add a reply:
+一旦票券開啟，您與支援代理人即可在同一對話串中交換訊息。要新增回覆：
 
-1. Open the ticket from your list.
-2. Scroll to the reply field at the bottom.
-3. Write your response and attach files if needed.
-4. Click **Send**.
+1. 從您的清單中開啟票券。
+2. 滾動至底部的回覆欄位。
+3. 撰寫您的回應並視需要附加檔案。
+4. 點擊 **Send**。
 
-Both parties receive notifications when a new message is added to the thread.
+當對話串新增新訊息時，雙方都會收到通知。
 
-## Handling Tickets as a Support Agent
+## 作為支援代理人處理票券
 
-If your administrator has assigned you to one or more ticket categories, you will see incoming tickets from learners or colleagues in your queue.
+如果您的管理員已將您指派至一個或多個票券類別，您將在您的佇列中看到來自學習者或同事的來票。
 
-To respond to an assigned ticket:
+要回應指派的票券：
 
-1. Open your ticket list — assigned tickets appear alongside tickets you have submitted.
-2. Click a ticket to read the requester's message.
-3. Write a reply and click **Send**. The ticket status updates automatically.
-4. When the issue is resolved, change the status to **Closed**.
+1. 開啟您的票券清單 — 指派的票券會與您提交的票券一同顯示。
+2. 點擊票券以閱讀請求者的訊息。
+3. 撰寫回覆並點擊 **Send**。票券狀態會自動更新。
+4. 當問題解決時，將狀態變更為 **Closed**。
 
-You can also change the **priority** of a ticket (Low, Normal, High) to help triage your queue.
+您也可以變更票券的 **priority**（Low、Normal、High）以幫助分類您的佇列。
 
-> Access to ticket categories is controlled by the platform administrator. If you need to be added as a support agent for a category, contact your administrator. See the Admin Guide's [Tickets Settings](../admin-guide/platform-settings/ticket-settings.md) for configuration options.
+> 票券類別的存取權由平台管理員控制。如果您需要被新增為某類別的支援代理人，請聯絡您的管理員。請參閱 Admin Guide 的 [Tickets Settings](../admin-guide/platform-settings/ticket-settings.md) 以取得設定選項。

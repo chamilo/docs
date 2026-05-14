@@ -1,164 +1,168 @@
-# Exercises
+# 練習
 
-The exercises tool (also called "tests") lets you create quizzes and exams with automatic grading. Chamilo supports a wide variety of question types, from simple multiple choice to interactive hotspot questions.
+練習工具（也稱為「測驗」）可讓您建立測驗和考試，並提供自動評分。Chamilo 支援多種題目類型，從簡單的單選題到互動式熱點題。
 
-## Creating an Exercise
+## 建立練習
 
-1. Open the **Exercises** <img src="/.gitbook/assets/icons/mdi-order-bool-ascending-variant.svg" alt="Exercises" data-size="line"> tool from the course homepage
-2. Click **New exercise**
-3. Enter a **title** and optional **description**
-4. Configure the exercise settings (see below)
-5. Save, then add questions
+1. 從課程首頁開啟 **練習** 工具 <img src="/.gitbook/assets/icons/mdi-order-bool-ascending-variant.svg" alt="練習" data-size="line">
+2. 點選 **新練習**
+3. 輸入 **標題** 和選用的 **描述**
+4. 設定練習選項（見下文）
+5. 儲存，然後新增題目
 
-## Exercise Settings
+## 練習設定
 
-![The exercise settings panel with options for display, time, attempts, and feedback](/.gitbook/assets/exercise-settings.png)
+![練習設定面板，包含顯示、時間、嘗試次數和回饋選項](/.gitbook/assets/exercise-settings.png)
 
-### Display and Navigation
+### 顯示與導覽
 
-| Setting | Options | Description |
-|---------|---------|-------------|
-| **Question layout** | All on one page / One per page | Show all questions at once or one at a time |
-| **Hide question titles** | Yes / No | Whether to show question titles to learners |
-| **Show previous button** | Yes / No | Allow learners to go back to previous questions |
-| **Prevent backwards navigation** | Yes / No | Force learners to answer in order without going back |
+| 設定 | 選項 | 描述 |
+|------|------|------|
+| **題目版面配置** | 全部於單一頁面 / 每頁一題 | 一次顯示所有題目或逐一顯示 |
+| **隱藏題目標題** | 是 / 否 | 是否向學習者顯示題目標題 |
+| **顯示「上一題」按鈕** | 是 / 否 | 是否允許學習者返回前一題 |
+| **防止回溯導覽** | 是 / 否 | 強制學習者依序作答，不得返回 |
 
-### Time and Availability
+### 時間與可用性
 
-| Setting | Description |
-|---------|-------------|
-| **Time limit** | Maximum time (in minutes) to complete the exercise. A countdown timer is shown to the learner |
-| **Start date** | When the exercise becomes available to learners |
-| **End date** | When the exercise stops being available |
+| 設定 | 描述 |
+|------|------|
+| **時間限制** | 完成練習的最大時間（以分鐘為單位）。向學習者顯示倒數計時器 |
+| **開始日期** | 練習對學習者開放的時間 |
+| **結束日期** | 練習停止對學習者開放的時間 |
 
-### Attempts and Scoring
+### 嘗試次數與評分
 
-| Setting | Description |
-|---------|-------------|
-| **Maximum attempts** | How many times a learner can take the exercise (0 = unlimited) |
-| **Pass percentage** | The minimum score to pass (e.g., 70%). Learners who do not reach this threshold see a failure message |
-| **Propagate negative scoring** | Whether negative points on individual questions reduce the total score below zero |
+| 設定 | 描述 |
+|------|------|
+| **最大嘗試次數** | 學習者可嘗試練習的次數（0 = 無限制） |
+| **及格百分比** | 及格的最低分數（例如 70%）。未達門檻的學習者將看到失敗訊息 |
+| **負分傳播** | 個別題目的負分是否會使總分低於零 |
 
-### Feedback
+### 回饋
 
-| Setting | Options |
-|---------|---------|
-| **At the end** | Show results and correct answers after the learner submits |
-| **Immediate** | Show feedback after each question (useful for learning exercises) |
-| **Exam mode** | Do not show any feedback or results |
+| 設定 | 選項 |
+|------|------|
+| **結束時** | 學習者提交後顯示結果和正確答案 |
+| **立即** | 每題後立即顯示回饋（適合學習練習） |
+| **考試模式** | 不顯示任何回饋或結果 |
 
-### Results Display
+### 結果顯示
 
-Control what learners see after completing the exercise:
+控制學習者完成練習後看到的內容：
 
-* Show score and expected answers
-* Show score only
-* Show score with category breakdown
-* Show ranking among other learners
-* Show only on last attempt
-* Show radar chart visualization
+* 顯示分數和預期答案
+* 僅顯示分數
+* 顯示分數與類別細節
+* 顯示與其他學習者的排名
+* 僅於最後一次嘗試顯示
+* 顯示雷達圖視覺化
 
-### Completion Messages
+### 完成訊息
 
-* **Success message** — Custom text shown when the learner passes
-* **Failure message** — Custom text shown when the learner does not reach the pass percentage
+* **成功訊息** — 學習者及格時顯示的自訂文字
+* **失敗訊息** — 學習者未達及格百分比時顯示的自訂文字
 
-### Question Randomization
+### 題目隨機化
 
-| Setting | Description |
-|---------|-------------|
-| **Random question order** | Shuffle the order of questions for each attempt |
-| **Random answers** | Shuffle answer options within each question |
-| **Random by category** | Select random questions from each question category |
+| 設定 | 描述 |
+|------|------|
+| **題目順序隨機** | 每次嘗試隨機排列題目順序 |
+| **答案選項隨機** | 每題內隨機排列答案選項 |
+| **依類別隨機** | 從每個題目類別隨機選取題目 |
 
-You can also configure advanced selection strategies that combine categories and randomization.
+您也可以設定進階選取策略，結合類別與隨機化。
 
-## Question Types
+## 題目類型
 
-![Overview of available question types in the exercise creation interface](/.gitbook/assets/exercise-question-types.png)
+![練習建立介面中可用的題目類型概覽](/.gitbook/assets/exercise-question-types.png)
 
-Chamilo offers a rich set of question types organized into several categories:
+Chamilo 提供多種題目類型，分為數個類別：
 
-### Single Choice
+### 單選
 
-* **Multiple choice (single answer)** — Learner selects one correct answer from a list of options
-* **Single answer with images** — Same as above, but answer options are displayed as images
+* **單選（單一答案）** — 學習者從選項清單中選擇一個正確答案
+* **單選（含圖片）** — 與上述相同，但答案選項以圖片顯示
 
-### Multiple Choice
+### 多選
 
-* **Multiple answer** — Learner selects one or more correct answers
-* **Multiple answer (dropdown)** — Answer options are presented as dropdown menus
-* **True/False** — A series of statements that the learner marks as true or false
-* **True/False with degree of certainty** — True/false with an additional confidence level, enabling more nuanced scoring
+* **多選答案** — 學習者選擇一個或多個正確答案
+* **多選（下拉式）** — 答案選項以下拉選單呈現
+* **是非題** — 學習者將一系列陳述標記為正確或錯誤
+* **是非題（含信心等級）** — 是非題附加信心等級，允許更細緻評分
 
-### Fill in the Blanks
+### 填空題
 
-* **Fill in the blanks** — Learner completes missing words in a text. You define the blanks and accepted answers when creating the question.
+* **填空題** — 學習者填補文字中的遺漏詞彙。您在建立題目時指定填空位置和接受的答案。
 
-### Matching
+### 配對題
 
-* **Matching** — Learner connects items from two columns
-* **Matching (draggable)** — Same concept, but with a drag-and-drop interface
-* **Draggable** — Drag items into the correct positions
+* **配對題** — 學習者將兩個欄位的項目配對
+* **配對題（可拖拉）** — 相同概念，但使用拖拉介面
+* **拖拉題** — 將項目拖曳至正確位置
 
-### Open-Ended
+---
 
-* **Free answer (essay)** — Learner writes a text response. Requires manual grading (or AI-assisted grading if configured)
-* **Oral expression** — Learner records an audio response using their microphone
-* **Upload answer** — Learner uploads a file as their answer
+---
+### 開放式
 
-### Hotspot
+* **自由回答（測驗）** — 學習者撰寫文字回應。需要手動評分（或若已設定則使用 AI 輔助評分）
+* **口語表達** — 學習者使用麥克風錄製語音回應
+* **上傳回答** — 學習者上傳檔案作為其回答
 
-* **Hotspot** — Learner clicks on specific areas of an image to answer
-* **Hotspot delineation** — Learner draws boundaries around areas on an image
+### 熱點
 
-### Calculated
+* **熱點** — 學習者點擊圖片上的特定區域來回答
+* **熱點標記** — 學習者繪製圖片上區域的邊界
 
-* **Calculated answer** — Numerical questions with a formula and tolerance range. Useful for math and science courses.
+### 計算式
 
-### Special
+* **計算式回答** — 帶有公式和容差範圍的數值問題。適合數學和科學課程。
 
-* **Reading comprehension** — Tests based on reading a passage
-* **Annotation** — Teacher uploads an image and the learner annotates it
-* **Answer in Office document** — When the OnlyOffice plugin is enabled, the learner answers the question by editing an embedded Office document (Word, Excel, PowerPoint). Their response is saved as a separate file under the exercise so it can be reviewed alongside the rest of their attempt.
+---
+### 特殊
 
-## Adding Questions to an Exercise
+* **閱讀理解** — 基於閱讀一段文字的測驗
+* **註解** — 教師上傳圖片，學習者對其進行註解
+* **Office 文件回答** — 當 [OnlyOffice](path) 外掛啟用時，學習者透過編輯嵌入的 Office 文件（Word、Excel、PowerPoint）來回答問題。他們的回應會儲存為獨立檔案，位於練習下方，以便與其餘嘗試一同檢視。
 
-1. Open the exercise and click **Add a question**
-2. Select the question type
-3. Enter the **question text** (supports rich text with images and formatting)
-4. Define the **answers** and their scoring:
-   * For each answer option, specify whether it is correct and how many points it is worth
-   * You can assign negative points to wrong answers to discourage guessing
-5. Optionally add **feedback** — explanations shown to the learner after answering
-6. Set the **difficulty level** and **category** (useful for random selection and reporting)
-7. Save
+## 將問題新增至練習
 
-## Question Categories
+1. 開啟練習並點擊 **新增問題**
+2. 選擇問題類型
+3. 輸入 **問題文字**（支援帶有圖片和格式的富文字）
+4. 指定 **回答** 及其評分：
+   * 對於每個回答選項，指定其是否正確以及分數值
+   * 您可以為錯誤回答設定負分，以防止猜測
+5. 選擇性新增 **回饋** — 回答後顯示給學習者的說明
+6. 設定 **難度等級** 和 **類別**（有助於隨機選取和報表）
+7. 儲存
 
-You can organize questions into categories (e.g., "Module 1", "Vocabulary", "Advanced"). Categories are useful for:
+## 問題類別
 
-* Organizing large question banks
-* Enabling random selection by category (e.g., "5 questions from Module 1, 3 from Module 2")
-* Viewing scores broken down by category in reports
+您可以將問題分類（例如，「模組 1」、「詞彙」、「進階」）。類別有助於：
 
-## Question Reuse
+* 組織大型問題庫
+* 啟用依類別的隨機選取（例如，「模組 1 的 5 個問題，模組 2 的 3 個問題」）
+* 在報表中檢視依類別細分的得分
 
-Questions can be reused across exercises within the same course. When adding a question, you can choose to create a new one or select an existing question from the question bank.
+## 問題重複使用
 
-## Importing Exercises
+問題可在相同課程的多個練習中重複使用。新增問題時，您可以選擇建立新問題，或從問題庫中選取現有問題。
 
-Chamilo supports importing exercises from external formats:
+## 匯入練習
 
-* **IMS QTI / Common Cartridge** — The standard e-learning quiz format
-* **Moodle format** — Import quizzes from Moodle exports
+Chamilo 支援從外部格式匯入練習：
 
-To import, look for the **Import** option in the exercises tool and upload your file.
+* **IMS QTI / Common Cartridge** — 電子學習標準測驗格式
+* **Moodle 格式** — 從 Moodle 匯出匯入測驗
 
-## Tips
+要匯入，請在練習工具中尋找 **匯入** 選項並上傳您的檔案。
 
-* **Mix question types** — Combine multiple choice, fill-in-the-blanks, and open-ended questions for a comprehensive assessment
-* **Use categories** — Organize questions by topic to enable targeted random selection
-* **Set a pass percentage** — Give learners a clear target and link it to certificate generation via the Gradebook
-* **Use immediate feedback for practice** — Create ungraded practice exercises with immediate feedback to help learners learn from their mistakes
-* **Randomize for integrity** — Enable random question order and random answers to reduce the chance of copying
+## 提示
+
+* **混合問題類型** — 結合選擇題、填空和開放式問題，以進行全面評估
+* **使用類別** — 依主題組織問題，以啟用目標隨機選取
+* **設定及格百分比** — 為學習者提供明確目標，並透過 Gradebook 連結至證書發放
+* **練習使用即時回饋** — 建立無評分的練習回饋，讓學習者從錯誤中學習
+* **隨機化以確保完整性** — 啟用問題順序隨機化和回答隨機化，以降低抄襲可能性

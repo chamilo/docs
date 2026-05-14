@@ -1,34 +1,34 @@
-# Chat
+# 聊天室
 
-The chat tool provides real-time text messaging within a course. It is useful for quick communication, live Q&A sessions, or informal discussions.
+聊天室工具提供課程內即時文字訊息功能。此工具非常適合用於快速溝通、即時問答或非正式討論。
 
-## Using the Chat
+## 使用聊天室
 
-1. Open the **Chat** tool from the course homepage
-2. Type your message in the text field at the bottom
-3. Press **Enter** or click the send button to post
+1. 在課程首頁開啟**聊天室**工具
+2. 在下方文字方塊中輸入您的訊息
+3. 按下**Enter**按鈕或點擊傳送按鈕來發布訊息
 
-All enrolled users who are currently in the chat room can see messages in real time.
+目前位於聊天室的所有已註冊使用者都能即時看到訊息。
 
-## Chat Features
+## 聊天室功能
 
-* **Real-time messaging** — Messages appear instantly for all participants
-* **Message history** — Previous messages are visible when you enter the chat
-* **User presence** — See who is currently in the chat room
+* **即時訊息** — 訊息會立即顯示給所有參與者
+* **訊息記錄** — 進入聊天室時，您可以查看先前的訊息
+* **使用者線上狀態** — 查看目前位於聊天室的所有人
 
-## As a Teacher
+## 作為教師
 
-As the course teacher, you can:
+作為課程教師，您可以：
 
-* **Monitor discussions** — Review chat history to track learner engagement
-* **Find chat archives in Documents** — The chat tool automatically mirrors messages into HTML files in the Documents tool, organised by day and by scope (course / session / group), so the conversation persists beyond the live session
+* **監控討論** — 查看聊天記錄以追蹤學生參與度
+* **在文件工具中搜尋聊天記錄** — 聊天室工具會自動將訊息儲存為 HTML 檔案，儲存於文件工具中，按日期及範圍（課程/場次/群組）分類，因此對話內容在即時場次結束後仍可存取
 
-If the platform setting "restrict chat to coach" is enabled by the administrator, only coaches can chat with learners; otherwise everyone enrolled in the course can participate.
+如果平台設定中啟用「僅限導師使用聊天室」選項（由管理員設定），則僅導師可與學生聊天；否則，課程中所有已註冊使用者皆可參與。
 
-## Tips for Using Chat Effectively
+## 有效使用聊天室的建議
 
-* **Schedule chat sessions** — Let learners know in advance when you will be available for live chat (use the Agenda tool)
-* **Set ground rules** — Establish expectations for respectful communication
-* **Use for quick questions** — Chat works best for short exchanges; use the Forum for longer, structured discussions
+* **排定聊天時間** — 事先告知學生您何時會線上進行即時聊天（使用行事曆工具）
+* **訂定基本規則** — 建立互相尊重的溝通期望
+* **用於快速提問** — 聊天室最適合簡短溝通；對於較長且結構化的討論，請使用論壇
 
-> If your platform has video conferencing configured (BigBlueButton or Zoom), consider using that for live sessions where voice and video would be more effective. See [Video Conferencing](video-conferencing.md).
+> 如果您的平台已設定視訊會議功能（BigBlueButton 或 Zoom），請考慮在需要語音及視訊的即時場次中使用。請參閱 [視訊會議](video-conferencing.md)。

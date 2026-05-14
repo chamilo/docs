@@ -1,23 +1,23 @@
-# Notebook
+# 筆記本
 
-The notebook is a personal note-taking tool for learners. Each learner has their own private notebook within the course.
+筆記本是學習者使用的個人筆記工具。每位學習者在課程中擁有自己的私人筆記本。
 
-## How It Works
+## 運作方式
 
-The notebook is a simple tool where learners can:
+筆記本是一個簡單的工具，學習者可以在其中：
 
-* **Create notes** — Write and save personal notes related to the course content
-* **Organize notes** — Review, edit, and delete their notes
-* **Keep them private** — Notes are visible only to the learner who created them
+* **建立筆記** — 撰寫並儲存與課程內容相關的個人筆記
+* **組織筆記** — 檢視、編輯並刪除其筆記
+* **保持私密** — 筆記僅對建立它們的學習者可見
 
-## As a Teacher
+## 作為教師
 
-As a teacher, you should be aware that:
+作為教師，您應注意：
 
-* The notebook is a **personal tool** — you cannot see your learners' notes
-* It is useful as a **reflection tool** — encourage learners to take notes while studying
-* Notes are stored within the course — they are not shared across courses
+* 筆記本是**個人工具** — 您無法看到學習者的筆記
+* 它可用作**反思工具** — 鼓勵學習者在學習時記筆記
+* 筆記儲存在課程內 — 它們不會跨課程分享
 
-## Enabling the Notebook
+## 啟用筆記本
 
-The notebook tool appears on the course homepage if it is enabled. If you do not see it, check that it is not hidden (look for hidden tools on the course homepage).
+如果啟用，筆記本工具會出現在課程首頁上。如果您看不到它，請檢查它是否被隱藏（在課程首頁尋找隱藏工具）。

@@ -1,90 +1,89 @@
-# Agenda Settings
+# 議程設定
 
-Defaults and behaviour of the **Agenda** tool (calendar / events).
+**議程**工具（日曆 / 事件）的預設值和行為。
 
-Access these settings under **Administration > Configuration settings > Agenda**. This category contains **11 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+在 **管理 > 設定 > 議程** 下存取這些設定。此類別包含 **11 個設定**，以下列出平台設定預設資料 (`SettingsCurrentFixtures.php`) 中提供的標題和註解。
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> 程式碼中的變數名稱以等寬字體顯示。透過 API 撰寫腳本或需要透過編輯 [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml) 在全域層級變更這些設定時，請使用它。
 
-## Settings
+## 設定
 
 ### `agenda_colors`
 
-**Agenda colours**
+**議程顏色**
 
-Set HTML-code colours for each type of event to change the colour when displaying the event.
+為每種類型的事件設定 HTML 程式碼顏色，以變更顯示事件時的顏色。
 
 ### `agenda_legend`
 
-**Agenda colour legends**
+**議程顏色圖例**
 
-Add a small text as legend describing the colours used for the events.
+新增一段簡短文字作為圖例，描述用於事件的顏色。
 
 ### `agenda_on_hover_info`
 
-**Agenda hover info**
+**議程懸停資訊**
 
-Customize the agenda on cursor hovering. Show agenda comment and/or description.
+自訂游標懸停時的議程顯示。顯示議程註解和/或描述。
 
 ### `agenda_reminders_sender_id`
 
-**ID of the user who officially sends the agenda reminders**
+**正式發送議程提醒的使用者 ID**
 
-Sets which user appears as the sender of agenda reminder emails.
+設定議程提醒電子郵件顯示的發送者使用者。
 
-*Default: `0`*
+*預設值：`0`*
 
 ### `allow_agenda_edit_for_hrm`
 
-**Allow HRM role to edit or delete agenda events**
+**允許 HRM 角色編輯或刪除議程事件**
 
-This gives the HRM a little more power by allowing them to edit/delete agenda events in the course-session.
+這賦予 HRM 更多權限，允許他們在課程工作階段中編輯/刪除議程事件。
 
-*Default: `false`*
+*預設值：`false`*
 
 ### `allow_careers_in_global_agenda`
 
-**Link global calendar events with careers and promotions**
+**將全域日曆事件連結至職涯和升遷**
 
-When enabled, global calendar events can be associated with careers and promotions, allowing targeted scheduling.
+啟用時，全域日曆事件可與職涯和升遷關聯，允許針對性排程。
 
-*Default: `false`*
+*預設值：`false`*
 
 ### `allow_personal_agenda`
 
-**Personal Agenda**
+**個人議程**
 
-Can the learner add personal events to the Agenda?
+學習者是否可新增個人事件至議程？
 
-*Default: `true`*
+*預設值：`true`*
 
 ### `default_calendar_view`
 
-**Default calendar display mode**
+**預設日曆顯示模式**
 
-Set this to dayGridMonth, basicWeek, agendaWeek or agendaDay to change the default view of the calendar.
+設定為 dayGridMonth、basicWeek、agendaWeek 或 agendaDay，以變更日曆的預設檢視。
 
-*Default: `month`*
+*預設值：`month`*
 
 ### `fullcalendar_settings`
 
-**Calendar customization**
+**日曆自訂**
 
-Extra settings for the agenda, allowing you to configure the specific calendar library we use.
+議程的額外設定，允許您設定我們使用的特定日曆程式庫。
 
 ### `personal_agenda_show_all_session_events`
 
-**Display all agenda events in personal agenda**
+**在個人議程中顯示所有議程事件**
 
-Do not hide events from expired sessions.
+不隱藏過期工作階段的事件。
 
-*Default: `false`*
+*預設值：`false`*
 
 ### `personal_calendar_show_sessions_occupation`
 
-**Display sessions occupations in personal agenda**
+**在個人議程中顯示工作階段佔用**
 
-When enabled, session schedules and occupations are displayed in users' personal calendars.
+啟用時，使用者個人日曆中會顯示工作階段排程和佔用。
 
-*Default: `false`*
-
+*預設值：`false`*

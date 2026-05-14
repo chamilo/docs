@@ -1,361 +1,357 @@
-# Course Settings
+# 課程設定
 
-Defaults and policies that apply to courses across the platform — visibility, creation rights, allowed tools, learner permissions, and similar.
+適用於平台中所有課程的預設值和政策 — 包括可見性、建立權限、允許工具、學習者權限等類似設定。
 
-Access these settings under **Administration > Configuration settings > Course**. This category contains **45 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+在 **Administration > Configuration settings > Course** 下存取這些設定。此類別包含 **45 個設定**，以下列出平台設定預設檔案 (`SettingsCurrentFixtures.php`) 中提供的標題和註解。
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> 程式碼中的變數名稱以等寬字體顯示。透過 API 撰寫腳本或需要透過編輯 [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml) 在全域層級變更這些設定時，請使用它。
 
-## Settings
+## 設定
 
 ### `active_tools_on_create`
 
-**Active tools on course creation**
+**課程建立時啟用的工具**
 
-Select the tools that will be *active* after the creation of a course.
+選取課程建立後將*啟用*的工具。
 
-*Default:*
+*預設值：*
 ```
 agenda,announcement,attendance,bbb,blog,chat,course_description,course_progress,customcertificate,document,dropbox,forum,global,glossary,gradebook,group,learnpath,link,mobidico,notebook,notebookteacher,portfolio,positioning,quiz,student_publication,survey,test2pdf,tracking,user,wiki,zoom
 ```
 
 ### `allow_base_course_category`
 
-**Use course categories from top URL**
+**使用頂層 URL 的課程類別**
 
-In multi-URL settings, allow admins and teachers to assign categories from the top URL to courses in the children URLs.
+在多 URL 設定中，允許管理員和教師將頂層 URL 的類別指派給子 URL 中的課程。
 
-*Default: `false`*
+*預設值：`false`*
 
 ### `allow_course_theme`
 
-**Allow course themes**
+**允許課程主題**
 
-Allows course graphical themes and makes it possible to change the style sheet used by a course to any of the possible style sheets available to Chamilo. When a user enters the course, the style sheet of the course will have priority over the user's own style sheet and the platform's default style sheet.
+允許課程圖形主題，並可將課程使用的樣式表變更為 Chamilo 可用的任何樣式表。當使用者進入課程時，課程的樣式表將優先於使用者的樣式表和平台的預設樣式表。
 
-*Default: `true`*
+*預設值：`true`*
 
 ### `allow_public_course_with_no_terms_conditions`
 
-**Access public courses with terms and conditions**
+**存取具有條款與條件的公開課程**
 
-With this option enabled, if a course has public visibility and terms and conditions, those terms are disabled while the course is public.
+啟用此選項時，如果課程具有公開可見性和條款與條件，則在課程公開時停用這些條款。
 
-*Default: `false`*
+*預設值：`false`*
 
 ### `block_registered_users_access_to_open_course_contents`
 
-**Block public courses access to authenticated users**
+**封鎖已驗證使用者存取公開課程**
 
-Only show public courses. Do not allow registered users to access courses with 'open' visibility unless they are subscribed to each of these courses.
+僅顯示公開課程。不允許已註冊使用者存取「開放」可見性的課程，除非他們已訂閱每個這些課程。
 
-*Default: `false`*
+*預設值：`false`*
 
 ### `breadcrumbs_course_homepage`
 
-**Course homepage breadcrumb**
+**課程首頁麵包屑**
 
-The breadcrumb is the horizontal links navigation system usually in the top left of your page. This option selects what you want to appear in the breadcrumb on courses' homepages
+麵包屑是通常位於頁面左上方的水平連結導航系統。此選項選取要在課程首頁麵包屑中顯示的內容。
 
-*Default: `course_title`*
+*預設值：`course_title`*
 
 ### `course_about_teacher_name_hide`
 
-**Hide course teacher info on course details page**
+**在課程詳細頁面隱藏課程教師資訊**
 
-On the course details page, hide the teacher information.
+在課程詳細頁面隱藏教師資訊。
 
-*Default: `false`*
+*預設值：`false`*
 
 ### `course_category_code_to_use_as_model`
 
-**Restrict course templates to one course category**
+**將課程範本限制為單一課程類別**
 
-Give a category code to use as course templates. Only those courses will show in the drop-down at course creation time, and users won’t see the courses in this category from the courses catalogue.
+提供用作課程範本的類別代碼。只有這些課程會在課程建立時的下拉清單中顯示，且使用者不會在課程目錄中看到此類別的課程。
 
 ### `course_configuration_tool_extra_fields_to_show_and_edit`
 
-**Extra fields to show in course settings**
+**在課程設定中顯示的額外欄位**
 
-The fields defined in this array will appear on the course settings page.
+此陣列中定義的欄位將出現在課程設定頁面。
 
 ### `course_creation_by_teacher_extra_fields_to_show`
 
-**Extra fields to show on course creation form**
+**在課程建立表單中顯示的額外欄位**
 
-The fields defined in this array will appear as additional fields in the course creation form.
+此陣列中定義的欄位將作為額外欄位出現在課程建立表單中。
 
 ### `course_creation_donate_link`
 
-**Donation link on course creation page**
+**課程建立頁面的捐款連結**
 
-The page the donation message should link to (full URL).
+捐款訊息應連結的頁面（完整 URL）。
 
 ### `course_creation_donate_message_show`
 
-**Show donate message on course creation page**
+**在課程建立頁面顯示捐款訊息**
 
-Add a message box in the course creation page for teachers, asking them to donate to the project.
+在課程建立頁面為教師新增一個訊息方塊，請求他們捐款給專案。
 
-*Default: `false`*
+*預設值：`false`*
 
 ### `course_creation_form_hide_course_code`
 
-**Remove course code field from course creation form**
+**從課程建立表單移除課程代碼欄位**
 
-If not provided, the course code is generated by default based on the course title, so enable this option to remove the code field from the course creation form altogether.
+如果未提供，課程代碼將預設根據課程標題產生，因此啟用此選項以完全從課程建立表單移除代碼欄位。
 
-*Default: `false`*
+*預設值：`false`*
 
 ### `course_creation_form_set_course_category_mandatory`
 
-**Set course category mandatory**
+**將課程類別設為必填**
 
-When creating a course, make the course category a required setting.
+在建立課程時，將課程類別設為必要設定。
 
-*Default: `false`*
+*預設值：`false`*
 
 ### `course_creation_form_set_extra_fields_mandatory`
 
-**Extra fields to require on course creation form**
+**在課程建立表單中要求的額外欄位**
 
-The fields defined in this array will be mandatory in the course creation form.
+此陣列中定義的欄位在課程建立表單中將為必填。
 
 ### `course_creation_splash_screen`
 
-**Splash screen for courses**
+**課程的啟動畫面**
 
-Show a splash screen when creating a new course.
+在建立新課程時顯示啟動畫面。
 
-*Default: `true`*
+*預設值：`true`*
 
+---
+
+---
 ### `course_creation_use_template`
 
-**Use template course for new courses**
+**使用模板課程建立新課程**
 
-Set this to use the same template course (identified by its course numeric ID in the database) for all new courses that will be created on the platform. Please note that, if not properly planned, this setting might have a massive impact on space usage. The template course will be used as if the teacher did a copy of the course with the course backup tools, so no user content is copied, only teacher material. All other course-backup rules apply. Leave empty (or set to 0) to disable.
+設定此項目以使用相同的模板課程（由資料庫中的課程數字 ID 識別）來建立平台上的所有新課程。請注意，如果未妥善規劃，此設定可能會對空間使用量產生重大影響。模板課程將被用作教師使用課程備份工具複製課程的情況，因此不會複製使用者內容，只複製教師教材。所有其他課程備份規則均適用。留空（或設為 0）以停用。
 
 ### `course_creation_user_course_extra_field_relation_to_prefill`
 
-**Prefill course fields with fields from user**
+**使用使用者欄位預填課程欄位**
 
-If not empty, the course creation process will look for some fields in the user profile and auto-fill them for the course. For example, a teacher specialized in digital marketing could automatically set a « digital marketing » flag on each course (s)he creates.
+如果不為空，課程建立程序將在使用者設定檔中尋找某些欄位，並自動填入課程。例如，專攻數位行銷的教師可以自動在每個課程上設定「數位行銷」標記。
 
 ### `course_hide_tools`
 
-**Hide tools from teachers**
+**隱藏教師工具**
 
-Check the tools you want to hide from teachers. This will prohibit access to the tool.
+勾選您要從教師隱藏的工具。這將禁止存取該工具。
 
 ### `course_images_in_courses_list`
 
-**Courses custom icons**
+**課程自訂圖示**
 
-Use course images as the course icon in courses lists (instead of the default green blackboard icon).
+在課程清單中使用課程圖像作為課程圖示（而非預設的綠色黑板圖示）。
 
-*Default: `true`*
+*預設值：`true`*
 
 ### `course_log_default_extra_fields`
 
-**User extra fields by default in course stats page**
+**課程統計頁面預設使用者額外欄位**
 
-Configure this array with the internal IDs of the extra fields you want to show by default in the main course stats page.
+使用此陣列配置您要在主要課程統計頁面預設顯示的額外欄位內部 ID。
 
 ### `course_log_hide_columns`
 
-**Hide columns from course logs**
+**隱藏課程記錄欄位**
 
-This array gives you the possibility to configure which columns to hide in the main course stats page and in the total time report.
+此陣列讓您可以配置在主要課程統計頁面和總時間報告中隱藏哪些欄位。
 
 ### `course_sequence_valid_only_in_same_session`
 
-**Validate prerequisites only within the same session**
+**僅在相同工作階段內驗證先決條件**
 
-When enabled, a course will be considered validated only if passed within the current session. If disabled, courses passed in other sessions will also unlock dependent courses.
+啟用時，僅在目前工作階段內通過的課程才被視為已驗證。如果停用，其他工作階段通過的課程也將解鎖相依課程。
 
-*Default: `false`*
-
+*預設值：`false`*
 
 ### `course_student_info`
 
-**Course student info display**
+**課程學生資訊顯示**
 
-On the ‘My courses’/’My sessions’ pages, show additional information regarding the score, progress and/or certificate acquisition by the student.
+在「我的課程」/「我的工作階段」頁面上，顯示學生分數、進度及/或證書取得的額外資訊。
 
 ### `course_validation`
 
-**Courses validation**
+**課程驗證**
 
-When the 'Courses validation' feature is enabled, a teacher is not able to create a course alone. He/she fills a course request. The platform administrator reviews the request and approves it or rejects it.<br />This feature relies on automated e-mail messaging; set Chamilo to access an e-mail server and to use a dedicated an e-mail account.
+啟用「課程驗證」功能時，教師無法獨自建立課程。他們需填寫課程請求。平台管理員審核請求後批准或拒絕。<br />此功能依賴自動電子郵件訊息；請設定 Chamilo 存取電子郵件伺服器並使用專用電子郵件帳戶。
 
-*Default: `false`*
-
+*預設值：`false`*
 
 ### `course_validation_terms_and_conditions_url`
 
-**Course validation - a link to the terms and conditions**
+**課程驗證 - 條款與條件連結**
 
-This is the URL to the 'Terms and Conditions' document that is valid for making a course request. If the address is set here, the user should read and agree with these terms and conditions before sending a course request.<br />If you enable Chamilo's 'Terms and Conditions' module and if you want its URL to be used, then leave this setting empty.
+這是提出課程請求有效的「條款與條件」文件 URL。如果在此設定地址，使用者須在送出課程請求前閱讀並同意這些條款與條件。<br />如果您啟用 Chamilo 的「條款與條件」模組並希望使用其 URL，請將此設定留空。
 
 ### `courses_default_creation_visibility`
 
-**Default course visibility**
+**預設課程可見性**
 
-Default course visibility while creating a new course
+建立新課程時的預設課程可見性
 
-*Default: `2`*
-
+*預設值：`2`*
 
 ### `display_coursecode_in_courselist`
 
-**Display Code in Course name**
+**在課程名稱中顯示代碼**
 
-Display Course Code in courses list
+在課程清單中顯示課程代碼
 
-*Default: `false`*
-
+*預設值：`false`*
 
 ### `display_teacher_in_courselist`
 
-**Display teacher in course name**
+**在課程名稱中顯示教師**
 
-Display teacher in courses list
+在課程清單中顯示教師
 
-*Default: `true`*
-
+*預設值：`true`*
 
 ### `enable_tool_introduction`
 
-**Enable tool introduction**
+**啟用工具簡介**
 
-Enable introductions on each tool's homepage
+在每個工具的主頁上啟用簡介
 
-*Default: `false`*
-
+*預設值：`false`*
 
 ### `enable_unsubscribe_button_on_my_course_page`
 
-**Show unsubscribe button in ‘My courses’**
+**在「我的課程」中顯示取消訂閱按鈕**
 
-Add a button to unsubscribe from a course on the ‘My courses’ page.
+在「我的課程」頁面上新增取消課程訂閱按鈕。
 
-*Default: `false`*
+*預設值：`false`*
 
 ### `example_material_course_creation`
 
-**Example material on course creation**
+**課程建立時的範例教材**
 
-Create example material automatically when creating a new course
+建立新課程時自動建立範例教材
 
-*Default: `true`*
-
+*預設值：`true`*
 
 ### `hide_course_rating`
 
-**Hide course rating**
+**隱藏課程評分**
 
-The course rating feature comes by default in different places. If you don’t want it, enable this option.
+課程評分功能預設出現在不同位置。如果不想要，請啟用此選項。
 
-*Default: `false`*
+*預設值：`false`*
 
 ### `hide_course_sidebar`
 
-**Hide courses block in the sidebar**
+**隱藏側邊欄課程區塊**
 
-When on screens where the left menu is visible, do not display the « Courses » section.
+在左側選單可見的畫面上，不顯示「課程」區段。
 
-*Default: `true`*
+*預設值：`true`*
 
 ### `multiple_access_url_show_shared_course_marker`
 
-**Show multi-URL shared course marker**
+**顯示多 URL 共享課程標記**
 
-Adds a link icon to courses that are shared between URLs, so users (in particular teachers) know they have to take special care when editing the course content.
+為在 URL 之間共享的課程新增連結圖示，讓使用者（特別是教師）知道編輯課程內容時需特別注意。
 
-*Default: `false`*
+*預設值：`false`*
 
 ### `my_courses_show_courses_in_user_language_only`
 
-**Only show courses in the user’s language**
+**僅顯示使用者語言的課程**
 
-If enabled, this option will hide all courses not set in the user’s language.
+啟用時，此選項將隱藏所有未設定為使用者語言的課程。
 
-*Default: `false`*
+*預設值：`false`*
 
+---
 ### `profiling_filter_adding_users`
 
-**Filter users on profile fields on subscription to course**
+**在課程訂閱時依據個人檔案欄位篩選使用者**
 
-Allow teachers to filter the users based on extra fields on the page to subscribe users to their course.
+允許教師在將使用者訂閱至課程的頁面中，依據額外欄位篩選使用者。
 
-*Default: `false`*
+*預設值：`false`*
 
 
 ### `resource_sequence_show_dependency_in_course_intro`
 
-**Show dependencies in course intro**
+**在課程簡介中顯示依賴關係**
 
-When using resources sequencing with courses or sessions, show the dependencies of the course on the course’s homepage.
+當使用資源排序功能於課程或工作坊時，在課程首頁顯示課程的依賴關係。
 
-*Default: `false`*
+*預設值：`false`*
 
 ### `scorm_cumulative_session_time`
 
-**Cumulative session time for SCORM**
+**SCORM 的累計工作坊時間**
 
-When enabled, the session time for SCORM Learning Paths will be cumulative, otherwise, it will only be counted from the last update time. This is a global setting. It is used when creating a new Learning Path but can then be redefined for each one.
+啟用時，SCORM 學習路徑的工作坊時間將為累計時間，否則僅計算自上次更新時間起。此為全域設定。用於建立新的學習路徑，但之後可針對每個學習路徑重新定義。
 
-*Default: `true`*
+*預設值：`true`*
 
 
 ### `send_email_to_admin_when_create_course`
 
-**E-mail alert on course creation**
+**課程建立時發送電子郵件警示**
 
-Send an email to the platform administrator each time a teacher creates a new course
+每次教師建立新課程時，向平台管理員發送電子郵件
 
-*Default: `false`*
+*預設值：`false`*
 
 
 ### `show_course_duration`
 
-**Show courses duration**
+**顯示課程持續時間**
 
-Display the course duration next to the course title in the course catalogue and the courses list.
+在課程目錄和課程清單中，於課程標題旁顯示課程持續時間。
 
-*Default: `false`*
+*預設值：`false`*
 
 ### `show_navigation_menu`
 
-**Display course navigation menu**
+**顯示課程導航選單**
 
-Display a navigation menu that quickens access to the tools
+顯示導航選單，以加速存取工具
 
-*Default: `false`*
+*預設值：`false`*
 
 
 ### `show_toolshortcuts`
 
-**Tools shortcuts**
+**工具捷徑**
 
-Show the tool shortcuts in the banner?
+在橫幅中顯示工具捷徑？
 
-*Default: `false`*
+*預設值：`false`*
 
 ### `student_view_enabled`
 
-**Enable learner view**
+**啟用學習者檢視**
 
-Enable the learner view, which allows a teacher or admin to see a course as a learner would see it
+啟用學習者檢視，允許教師或管理員以學習者視角檢視課程
 
-*Default: `true`*
+*預設值：`true`*
 
 
 ### `view_grid_courses`
 
-**View courses in a grid layout**
+**以格狀版面檢視課程**
 
-View courses in a layout with several courses per line. Otherwise, the layout will show one course per line.
+以每行多個課程的格狀版面檢視課程。否則，每行僅顯示一個課程。
 
-*Default: `true`*
-
+*預設值：`true`*

@@ -1,185 +1,185 @@
-# Editor Settings
+# 編輯器設定
 
-Configuration of the rich-text editor (TinyMCE) used across the platform — toolbars, plugins, AI helpers in the editor.
+平台中使用的富文本編輯器 (TinyMCE) 的配置 — 工具列、外掛、編輯器中的 AI 助手。
 
-Access these settings under **Administration > Configuration settings > Editor**. This category contains **26 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+在 **管理 > 配置設定 > 編輯器** 下存取這些設定。此類別包含 **26 個設定**，以下列出平台設定預設值 (`SettingsCurrentFixtures.php`) 中提供的標題和註解。
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> 程式碼中的變數名稱以等寬字體顯示。使用 API 進行腳本編寫或需要透過編輯 [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml) 在全域層級變更這些設定時，請使用它。
 
-## Settings
+## 設定
 
 ### `allow_email_editor`
 
-**Online e-mail editor enabled**
+**啟用線上電子郵件編輯器**
 
-If this option is activated, clicking on an e-mail address will open an online editor.
+如果啟用此選項，點擊電子郵件地址將開啟線上編輯器。
 
 ### `allow_spellcheck`
 
-**Spell check**
+**拼字檢查**
 
-Enable spell check
+啟用拼字檢查
 
 ### `block_copy_paste_for_students`
 
-**Block learners copy and paste**
+**封鎖學習者複製和貼上**
 
-Block learners the ability to copy and paste into the WYSIWYG editor
+封鎖學習者在 WYSIWYG 編輯器中複製和貼上的能力
 
 ### `editor_block_image_copy_paste`
 
-**Prevent copy-pasting images in WYSIWYG editor**
+**防止在 WYSIWYG 編輯器中複製貼上圖像**
 
-Prevent the use of images copy-paste as base64 in the editor to avoid filling the database with images.
+防止在編輯器中使用 base64 格式的圖像複製貼上，以避免資料庫充斥圖像。
 
-*Default: `false`*
+*預設值：`false`*
 
 
 ### `editor_driver_list`
 
-**List of WYSIWYG files drivers**
+**WYSIWYG 檔案驅動程式清單**
 
-Array containing the names of the drivers for files access from the WYSIWYG editor.
+包含從 WYSIWYG 編輯器存取檔案的驅動程式名稱的陣列。
 
 ### `editor_settings`
 
-**WYSIWYG editor settings**
+**WYSIWYG 編輯器設定**
 
-Generic configuration array to reconfigure the WYSIWYG editor globally.
+用於全域重新配置 WYSIWYG 編輯器的通用配置陣列。
 
 ### `enable_iframe_inclusion`
 
-**Allow iframes in HTML Editor**
+**在 HTML 編輯器中允許 iframe**
 
-Allowing arbitrary iframes in the HTML Editor will enhance the edition capabilities of the users, but it can represent a security risk. Please make sure you can rely on your users (i.e. you know who they are) before enabling this feature.
+允許在 HTML 編輯器中使用任意 iframe 將提升使用者的編輯功能，但可能構成安全風險。在啟用此功能前，請確保您能夠信任使用者（即您知道他們是誰）。
 
 ### `enable_uploadimage_editor`
 
-**Allow images drag&drop in WYSIWYG editor**
+**在 WYSIWYG 編輯器中允許圖像拖曳與放下**
 
-Enable image upload as file when doing a copy in the content or a drag and drop.
+啟用在內容複製或拖曳放下時將圖像上傳為檔案。
 
-*Default: `false`*
+*預設值：`false`*
 
 
 ### `enabled_asciisvg`
 
-**Enable AsciiSVG**
+**啟用 AsciiSVG**
 
-Enable the AsciiSVG plugin in the WYSIWYG editor to draw charts from mathematical functions.
+在 WYSIWYG 編輯器中啟用 AsciiSVG 外掛，以從數學函數繪製圖表。
 
 ### `enabled_googlemaps`
 
-**Activate Google maps**
+**啟用 Google 地圖**
 
-Activate the button to insert Google maps. Activation is not fully realized if not previously edited the file main/inc/lib/fckeditor/myconfig.php and added a Google maps API key.
+啟用插入 Google 地圖的按鈕。如果未先前編輯檔案 main/inc/lib/fckeditor/myconfig.php 並新增 Google 地圖 API 金鑰，則啟用不會完全實現。
 
 ### `enabled_imgmap`
 
-**Activate Image maps**
+**啟用圖像地圖**
 
-Activate the button to insert Image maps. This allows you to associate URLs to areas of an image, creating hotspots.
+啟用插入圖像地圖的按鈕。這允許您將 URL 關聯到圖像的區域，創建熱點。
 
 ### `enabled_insertHtml`
 
-**Allow insertion of widgets**
+**允許插入小工具**
 
-This allows you to embed on your webpages your favorite videos and applications such as vimeo or slideshare and all sorts of widgets and gadgets
+這允許您在網頁中嵌入喜愛的影片和應用程式，例如 vimeo 或 slideshare，以及各種小工具和配件
 
 ### `enabled_mathjax`
 
-**Enable MathJax**
+**啟用 MathJax**
 
-Enable the MathJax library to visualize mathematical formulas. This is only useful if either ASCIIMathML or ASCIISVG settings are enabled.
+啟用 MathJax 函式庫以視覺化數學公式。這僅在啟用 ASCIIMathML 或 ASCIISVG 設定時有用。
 
 ### `enabled_support_svg`
 
-**Create and edit SVG files**
+**建立和編輯 SVG 檔案**
 
-This option allows you to create and edit SVG (Scalable Vector Graphics) multilayer online, as well as export them to png format images.
+此選項允許您線上建立和編輯 SVG (Scalable Vector Graphics) 多層檔案，並將其匯出為 png 格式圖像。
 
 ### `enabled_wiris`
 
-**WIRIS mathematical editor**
+**WIRIS 數學編輯器**
 
-Enable WIRIS mathematical editor. Installing this plugin you get WIRIS editor and WIRIS CAS.<br/>This activation is not fully realized unless it has been previously downloaded the <a href='http://www.wiris.com/es/plugins3/ckeditor/download' target='_blank'>PHP plugin for CKeditor WIRIS</a> and unzipped its contents in the Chamilo's directory main/inc/lib/javascript/ckeditor/plugins/.<br/>This is necessary because Wiris is proprietary software and his services are <a href='http://www.wiris.com/store/who-pays' target='_blank'>commercial</a>. To make adjustments to the plugin, edit configuration.ini file or replace his content by the file configuration.ini.default shipped with Chamilo.
+啟用 WIRIS 數學編輯器。安裝此外掛後，您將獲得 WIRIS 編輯器和 WIRIS CAS。<br/>除非先前下載 <a href='http://www.wiris.com/es/plugins3/ckeditor/download' target='_blank'>CKeditor WIRIS 的 PHP 外掛</a> 並將其內容解壓縮到 Chamilo 的目錄 main/inc/lib/javascript/ckeditor/plugins/ 中，否則此啟用不會完全實現。<br/>這是必要的，因為 Wiris 是專有軟體，其服務是<a href='http://www.wiris.com/store/who-pays' target='_blank'>商業</a>的。要調整外掛，請編輯 configuration.ini 檔案，或以 Chamilo 隨附的 configuration.ini.default 檔案取代其內容。
 
 ### `force_wiki_paste_as_plain_text`
 
-**Forcing pasting as plain text in the wiki**
+**強制在維基中以純文字貼上**
 
-This will prevent many hidden tags, incorrect or non-standard, copied from other texts to stop corrupting the text of the Wiki after many issues; but will lose some features while editing.
+這將防止許多從其他文字複製的隱藏標籤、不正確或非標準標籤，在多次問題後停止損壞維基文字；但在編輯時將失去某些功能。
 
 ### `full_editor_toolbar_set`
 
-**Full WYSIWYG editor toolbar**
+**完整 WYSIWYG 編輯器工具列**
 
-Show the full toolbar in all WYSIWYG editor boxes around the platform.
+在平台各處的所有 WYSIWYG 編輯器方塊中顯示完整工具列。
 
-*Default: `false`*
+*預設值：`false`*
 
 
 ### `htmlpurifier_wiki`
 
-**HTMLPurifier in Wiki**
+**在維基中啟用 HTMLPurifier**
 
-Enable HTML purifier in the wiki tool (will increase security but reduce style features)
+在維基工具中啟用 HTML purifier（將提升安全性但減少樣式功能）
 
 ### `include_asciimathml_script`
 
-**Load the Mathjax library in all the system pages**
+**在所有系統頁面載入 Mathjax 函式庫**
 
-Activate this setting if you want to show MathML-based mathematical formulas and ASCIIsvg-based mathematical graphics not only in the 'Documents' tool, but elsewhere in the system.
+如果您希望不僅在「文件」工具中，還在系統其他地方顯示基於 MathML 的數學公式和基於 ASCIIsvg 的數學圖形，請啟用此設定。
 
 ### `math_asciimathML`
 
-**ASCIIMathML mathematical editor**
+**ASCIIMathML 數學編輯器**
 
-Enable ASCIIMathML mathematical editor
+啟用 ASCIIMathML 數學編輯器
 
 ### `more_buttons_maximized_mode`
 
-**Buttons bar extended**
+**擴展按鈕列**
 
-Enable button bars extended when the WYSIWYG editor is maximized
+當 WYSIWYG 編輯器最大化時啟用擴展按鈕列
 
-*Default: `true`*
+*預設值：`true`*
 
+---
 ### `save_titles_as_html`
 
-**Save titles as HTML**
+**將標題儲存為 HTML**
 
-Allow users to include HTML in title fields in several places. This allows for some styling of titles, notably in test questions.
+允許使用者在多個位置的標題欄位中包含 HTML。這允許對標題進行一些樣式設定，特別是在測驗題目中。
 
-*Default: `false`*
+*預設值：`false`*
 
 ### `translate_html`
 
-**Support multi-language HTML content**
+**支援多語言 HTML 內容**
 
-If enabled, this option allows users to use a ‘lang’ attribute in HTML elements to define the langage the content of that element is written in. Enable multiple elements with different ‘lang’ attributes and Chamilo will display the content in the langage of the user only.
+如果啟用此選項，使用者可以在 HTML 元素中使用 ‘lang’ 屬性來定義該元素內容所使用的語言。啟用多個具有不同 ‘lang’ 屬性的元素，Chamilo 將僅顯示使用者語言的內容。
 
-*Default: `false`*
+*預設值：`false`*
 
 
 ### `video_context_menu_hidden`
 
-**Hide the context menu on video player**
+**隱藏影片播放器的右鍵選單**
 
-When enabled, the right-click context menu on HTML5 video players is disabled.
+啟用時，HTML5 影片播放器的右鍵選單將被停用。
 
-*Default: `false`*
+*預設值：`false`*
 
 
 ### `video_player_renderers`
 
-**Video player renderers**
+**影片播放器渲染器**
 
-Enable player renderers for YouTube, Vimeo, Facebook, DailyMotion, Twitch medias
+啟用 YouTube、Vimeo、Facebook、DailyMotion、Twitch 媒體的播放器渲染器
 
 ### `youtube_for_students`
 
-**Allow learners to insert videos from YouTube**
+**允許學習者插入來自 YouTube 的影片**
 
-Enable the possibility that learners can insert Youtube videos
-
+啟用學習者插入 YouTube 影片的可能性

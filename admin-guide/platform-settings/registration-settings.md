@@ -1,110 +1,110 @@
-# Registration Settings
+# 註冊設定
 
-Self-registration policy and post-registration redirects — what new users are asked for and where they land.
+自註冊政策與註冊後重新導向 — 新使用者被要求提供的資訊以及他們將被導向的位置。
 
-Access these settings under **Administration > Configuration settings > Registration**. This category contains **20 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+在 **管理 > 設定 > 註冊** 下存取這些設定。此類別包含 **20 個設定**，以下列出平台設定預設值 (`SettingsCurrentFixtures.php`) 中的標題與註解。
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> 程式碼中的變數名稱以等寬字體顯示。使用 API 進行腳本編寫，或需全域編輯這些設定時，請使用它，並編輯 [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml)。
 
-## Settings
+## 設定
 
 ### `allow_double_validation_in_registration`
 
-**Double validation for registration process**
+**註冊程序的雙重驗證**
 
-Simply display a confirmation request on the registration page before going forward with the user creation.
+在進行使用者建立之前，僅在註冊頁面顯示確認請求。
 
-*Default: `false`*
+*預設值：`false`*
 
 
 ### `allow_fields_inscription`
 
-**Restrict fields shown during registration**
+**限制註冊時顯示的欄位**
 
-If you only want to show some of the available profile field, your can complete the array here with sub-elements 'fields' and 'extra_fields' containing arrays with a list of the fields to show.
+如果您只想顯示部分可用的個人資料欄位，您可以在此處完成陣列，包含子元素 'fields' 和 'extra_fields'，其中包含要顯示的欄位清單陣列。
 
 ### `allow_lostpassword`
 
-**Lost password**
+**遺失密碼**
 
-Are users allowed to request their lost password?
+使用者是否允許請求遺失密碼？
 
-*Default: `true`*
+*預設值：`true`*
 
 ### `allow_registration`
 
-**Registration**
+**註冊**
 
-Is registration as a new user allowed? Can users create new accounts?
+是否允許以新使用者身分註冊？使用者是否能建立新帳戶？
 
-*Default: `false`*
+*預設值：`false`*
 
 ### `allow_registration_as_teacher`
 
-**Registration as teacher**
+**以教師身分註冊**
 
-Can one register as a teacher (with the ability to create courses)?
+是否能以教師身分註冊（具備建立課程的能力）？
 
-*Default: `false`*
+*預設值：`false`*
 
 ### `allow_terms_conditions`
 
-**Enable terms and conditions**
+**啟用條款與條件**
 
-This option will display the Terms and Conditions in the register form for new users. Need to be configured first in the portal administration page.
+此選項將在註冊表單中顯示條款與條件，供新使用者閱讀。需先在入口網站管理頁面進行設定。
 
-*Default: `false`*
+*預設值：`false`*
 
 
 ### `drh_autosubscribe`
 
-**Human resources director autosubscribe**
+**人力資源主管自動訂閱**
 
-Human resources director autosubscribe - not yet available
+人力資源主管自動訂閱 — 尚未提供
 
 ### `extendedprofile_registration`
 
-**Portfolio fields at registration**
+**註冊時的投資組合欄位**
 
-Which of the following fields of the portfolio have to be available in the user registration process? This requires that the portfolio option be enabled (see above).
+以下投資組合欄位中的哪些必須在使用者註冊程序中提供？這要求已啟用投資組合選項（見上文）。
 
 ### `extendedprofile_registrationrequired`
 
-**Required portfolio fields in registration**
+**註冊時必填的投資組合欄位**
 
-Which of the following fields of the portfolio are *required* in the user registration process? This requires that the portfolio option be enabled and that the field be also available in the registration form (see above).
+以下投資組合欄位中的哪些在使用者註冊程序中是*必填*的？這要求已啟用投資組合選項，且該欄位也必須在註冊表單中提供（見上文）。
 
 ### `extldap_config`
 
-**LDAP connection configuration**
+**LDAP 連線設定**
 
-Array defining host and port for the LDAP server.
+定義 LDAP 伺服器主機與連接埠的陣列。
 
 ### `hide_legal_accept_checkbox`
 
-**Hide legal accept checkbox in Terms and Conditions page**
+**隱藏條款與條件頁面的法律接受核取方塊**
 
-If set to true, removes the "I have read and accept" checkbox in the Terms and Conditions page flow.
+若設為 true，將移除條款與條件頁面流程中的「我已閱讀並接受」核取方塊。
 
-*Default: `false`*
+*預設值：`false`*
 
 
 ### `platform_unsubscribe_allowed`
 
-**Allow unsubscription from platform**
+**允許從平台取消訂閱**
 
-By enabling this option, you allow any user to definitively remove his own account and all data related to it from the platform. This is quite a radical action, but it is necessary for portals opened to the public where users can auto-register. An additional entry will appear in the user profile to unsubscribe after confirmation.
+啟用此選項後，您允許任何使用者永久移除其帳戶及其相關所有資料。這是一項相當激烈的動作，但對於開放公眾自註冊的入口網站而言是必要的。使用者個人資料中將出現額外的取消訂閱項目，需經確認後執行。
 
-*Default: `false`*
+*預設值：`false`*
 
 
 ### `redirect_after_login`
 
-**Redirect after login (per profile)**
+**登入後重新導向（依個人資料）**
 
-Define redirection per profile after login using a JSON object like {"STUDENT":"", "ADMIN":"admin-dashboard"}
+使用 JSON 物件定義依個人資料的登入後重新導向，例如 {"STUDENT":"", "ADMIN":"admin-dashboard"}
 
-*Default:*
+*預設值：*
 ```json
 {
   "COURSEMANAGER": "courses",
@@ -119,49 +119,47 @@ Define redirection per profile after login using a JSON object like {"STUDENT":"
 
 ### `required_extra_fields_in_inscription`
 
-**Required extra fields during registration**
+**註冊時必填的額外欄位**
 
-Array of extra field identifiers that must be completed during user registration.
+使用者註冊期間必須填寫的額外欄位識別碼陣列。
 
 ### `required_profile_fields`
 
-**Required fields during registration**
+**註冊時必填欄位**
 
-Array of profile field names (email, phone, language, official_code) that must be provided during registration.
+註冊期間必須提供的個人資料欄位名稱陣列（email、phone、language、official_code）。
 
 ### `send_inscription_msg_to_inbox`
 
-**Send the welcome message to e-mail and inbox**
+**將歡迎訊息發送至電子郵件與收件匣**
 
-By default, the welcome message (with credentials) is sent only by e-mail. Enable this option to send it to the user's Chamilo inbox as well.
+預設情況下，歡迎訊息（含憑證）僅透過電子郵件發送。啟用此選項可同時發送至使用者的 Chamilo 收件匣。
 
-*Default: `false`*
+*預設值：`false`*
 
 
 ### `sessionadmin_autosubscribe`
 
-**Session admin autosubscribe**
+**課程管理員自動訂閱**
 
-Session administrator autosubscribe - not available yet
+課程管理員自動訂閱 — 尚未提供
 
 ### `student_autosubscribe`
 
-**Learner autosubscribe**
+**學習者自動訂閱**
 
-Learner autosubscribe - not yet available
+學習者自動訂閱 — 尚未提供
 
 ### `teacher_autosubscribe`
 
-**Teacher autosubscribe**
+**教師自動訂閱**
 
-Teacher autosubscribe - not yet available
+教師自動訂閱 — 尚未提供
 
 ### `user_hide_never_expire_option`
 
-**Hide 'never expires' option for users**
+**隱藏使用者的「永不過期」選項**
 
-Remove the option 'never expires' when creating/editing a user account.
+在建立/編輯使用者帳戶時移除「永不過期」選項。
 
-*Default: `false`*
-
-
+*預設值：`false`*

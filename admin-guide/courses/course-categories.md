@@ -1,47 +1,47 @@
-# Course Categories
+# 課程類別
 
-Course categories help organize your course catalog, making it easier for learners to find relevant courses.
+課程類別有助於組織您的課程目錄，使學習者更容易找到相關課程。
 
-## Creating a Category
+## 建立類別
 
-1. From the administration panel, navigate to **Course categories**
-2. Click **Add category**
-3. Enter:
-   * **Category code** — A short unique identifier
-   * **Category name** — The display name (e.g., "Information Technology", "Management Skills")
-   * **Allow adding courses in this category?** — Whether it allows courses to set this as a category, or it just serves as an intermediate level in a hierarchy 
-   * **Parent category** — (Optional) Place this category under another category to create a hierarchy
-   * **Description** — (Optional)
-   * **Image** — (Optional) Will represent this category, although it almost doesn't show anywhere
-4. Press *Add category*
+1. 從管理面板中，導航至 **課程類別**
+2. 點擊 **新增類別**
+3. 輸入：
+   * **類別代碼** — 一個簡短的唯一識別碼
+   * **類別名稱** — 顯示名稱（例如：「資訊科技」、「管理技能」）
+   * **允許在此類別中新增課程？** — 是否允許課程將此設為類別，或者僅作為層級結構中的中間層級
+   * **上層類別** — （選填）將此類別置於另一個類別之下以建立層級結構
+   * **描述** — （選填）
+   * **圖片** — （選填）將代表此類別，儘管幾乎不會在任何地方顯示
+4. 按下 *新增類別*
 
-Chamilo creates 3 categories by default: *Language skills*, *PC Skills* and *Projects*. These can be renamed, removed or kept, depending on your needs.
+Chamilo 預設建立了 3 個類別：*語言技能*、*電腦技能* 和 *專案*。這些類別可以根據您的需求進行重新命名、移除或保留。
 
-## Category Hierarchy
+## 類別層級結構
 
-![The course categories management page showing a nested tree of categories](/.gitbook/assets/admin-course-categories.png)
+![課程類別管理頁面顯示嵌套的類別樹狀結構](/.gitbook/assets/admin-course-categories.png)
 
-Categories can be nested to create a tree structure:
+類別可以嵌套以建立樹狀結構：
 
-* Business
-  * Management
-  * Marketing
-  * Finance
-* Technology
-  * Programming
-  * Networking
-  * Cybersecurity
+* 商業
+  * 管理
+  * 市場行銷
+  * 財務
+* 科技
+  * 程式設計
+  * 網路
+  * 網路安全
 
-Learners browsing the course catalog can navigate through this hierarchy to find courses.
+學習者在瀏覽課程目錄時，可以透過此層級結構找到課程。
 
-## Managing Categories
+## 管理類別
 
-* **Edit** — Change the category name, code, or parent
-* **Move** — Change the position of a category in the list
-* **Delete** — Remove a category. Courses in a deleted category are moved to "uncategorized."
+* **編輯** — 更改類別名稱、代碼或上層類別
+* **移動** — 更改類別在列表中的位置
+* **刪除** — 移除類別。被刪除類別中的課程將被移至「未分類」。
 
-## Tips
+## 小提示
 
-* **Keep it simple** — Use broad categories that learners can understand at a glance
-* **Limit depth** — Avoid deeply nested categories. Two or three levels are usually sufficient.
-* **Assign categories during course creation** — Encourage teachers to select a category when creating courses, so the catalog stays organized
+* **保持簡單** — 使用學習者一目了然的廣泛類別
+* **限制層級深度** — 避免過深的嵌套類別。通常兩到三個層級就足夠了。
+* **在建立課程時指定類別** — 鼓勵教師在建立課程時選擇類別，以保持目錄的組織性

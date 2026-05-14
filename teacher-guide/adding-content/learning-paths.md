@@ -1,115 +1,119 @@
-# Learning Paths
+# 學習路徑
 
-Learning paths let you create structured sequences of learning activities. A learning path guides your learners through a specific order of documents, exercises, links, and other resources, with optional prerequisites and progress tracking.
+學習路徑讓您建立結構化的學習活動序列。學習路徑引導學習者依特定順序瀏覽文件、練習、連結和其他資源，並可選擇性設定先決條件和進度追蹤。
 
-This tool is arguably the most used course tool, because it acts as a composer for many other tools and can very much be the ***only*** tool facing learners.
+此工具可說是課程中最常使用的工具，因為它作為許多其他工具的組合器，且在學習者面前很可能成為***唯一***的工具。
 
-## Why Use Learning Paths?
+## 為什麼使用學習路徑？
 
-Learning paths are useful when you want to:
+當您想要：
 
-* **Control the order** of content consumption — ensure learners complete foundational material before advancing
-* **Track progress** — see exactly where each learner is in the sequence
-* **Set prerequisites** — require learners to pass an exercise before accessing the next section
-* **Award completion** — link learning path completion to the gradebook and certificates
-* **Package content** — create self-contained learning modules that learners can work through at their own pace
+* **控制內容消費順序** — 確保學習者在進階前完成基礎材料
+* **追蹤進度** — 精確查看每個學習者在序列中的位置
+* **設定先決條件** — 要求學習者在存取下一節前通過練習
+* **頒發完成證明** — 將學習路徑完成連結至成績簿和證書
+* **封裝內容** — 建立自成一體的學習模組，讓學習者依自身步調進行
 
-## Creating a Learning Path
+學習路徑就非常有用。
 
-1. Open the **Learning paths** <img src="/.gitbook/assets/icons/mdi-map-marker-path.svg" alt="Learning paths" data-size="line"> tool from the course homepage
-2. Click **Create a learning path**
-3. Enter a **title** and optional description
-4. Save — you will be taken to the learning path editor
+## 建立學習路徑
 
-## The Learning Path Editor
+1. 從課程首頁開啟 **學習路徑** <img src="/.gitbook/assets/icons/mdi-map-marker-path.svg" alt="學習路徑" data-size="line"> 工具
+2. 點擊 **建立學習路徑**
+3. 輸入**標題**和選填的描述
+4. 儲存 — 您將被帶至學習路徑編輯器
 
-![The learning path editor with the item tree on the left and content preview on the right](/.gitbook/assets/learning-path-editor.png)
+## 學習路徑編輯器
 
-The editor has two main areas:
+![學習路徑編輯器，左側顯示項目樹狀圖，右側顯示內容預覽](/.gitbook/assets/learning-path-editor.png)
 
-* **Left panel** — The list of items (steps) in the learning path, shown as a tree structure
-* **Right panel** — The content of the selected item
+編輯器有兩個主要區域：
 
-### Adding Items
+* **左側面板** — 學習路徑中項目（步驟）的清單，以樹狀結構顯示
+* **右側面板** — 選取項目的內容
 
-Click **Add an item** and choose what to add:
+### 新增項目
 
-| Item type | Description |
-|-----------|-------------|
-| **Section** | A heading that groups related items (like a chapter title). Sections do not contain content themselves. |
-| **Document** | A file or web page from your course's Documents tool |
-| **Exercise** | A quiz or test from the Exercises tool |
-| **Link** | An external URL |
-| **Assignment** | A student publication from the Assignments tool |
-| **Forum** | A link to a course forum |
-| **Survey** | A link to a survey |
-| **Certificate** | A special page to trigger the generation of a completion certificate or the awarding of skills |
+點擊 **新增項目** 並選擇要新增的項目：
 
-### Organizing Items
+| 項目類型 | 描述 |
+|----------|------|
+| **區段** | 分組相關項目的標題（類似章節標題）。區段本身不包含內容。 |
+| **文件** | 來自課程「文件」工具的檔案或網頁 |
+| **練習** | 來自「練習」工具的測驗或考試 |
+| **連結** | 外部 URL |
+| **作業** | 來自「作業」工具的學生發表 |
+| **論壇** | 課程論壇的連結 |
+| **問卷** | 問卷的連結 |
+| **證書** | 觸發完成證書產生或頒發技能的特殊頁面 |
 
-* **Drag and drop** items to reorder them
-* **Nest items** under sections by dragging them to the right
-* **Delete** items you no longer need
+### 組織項目
 
-### Setting Prerequisites
+* **拖曳**項目以重新排序
+* **將項目巢狀置於**區段下，方法是將其拖曳至右側
+* **刪除**不再需要的項目
 
-Prerequisites ensure learners complete certain steps before accessing others:
+### 設定先決條件
 
-1. Select an item in the learning path
-2. Open its **prerequisites** settings
-3. Choose which preceding item(s) must be completed first
-4. For exercises, you can require a **minimum score** (e.g., "Must score at least 70% on Quiz 1 before accessing Module 2")
+先決條件確保學習者在存取其他步驟前完成特定步驟：
 
-## Learner Experience
+1. 在學習路徑中選取一個項目
+2. 開啟其**先決條件**設定
+3. 選擇哪些先前項目必須先完成
+4. 對於練習，您可以要求**最低分數**（例如，「在存取模組 2 前，必須在測驗 1 中至少得分 70%」）
 
-When a learner opens a learning path:
+## 學習者體驗
 
-* They see the list of items in the left panel
-* Completed items are marked with a checkmark
-* Items with unmet prerequisites are locked
-* Progress is tracked automatically — if a learner leaves and comes back, they resume where they left off
-* A progress bar shows overall completion percentage
+當學習者開啟學習路徑時：
 
-## SCORM Content
+* 他們會在左側面板看到項目清單
+* 已完成的項目會標記勾選
+* 未滿足先決條件的項目會被鎖定
+* 進度會自動追蹤 — 如果學習者離開後返回，他們會從中斷處繼續
+* 進度條顯示整體完成百分比
 
-Chamilo's learning path tool can import **SCORM 1.2** packages — the most widely used e-learning standard. Upload a SCORM ZIP file and Chamilo will create a learning path from it, tracking progress and scores according to the SCORM specification.
+## SCORM 內容
 
-To import a SCORM package:
+Chamilo 的學習路徑工具可以匯入 **SCORM 1.2** 封包 — 最廣泛使用的電子學習標準。上傳 SCORM ZIP 檔案，Chamilo 會從中建立學習路徑，並依據 SCORM 規格追蹤進度和分數。
 
-1. In the Learning paths tool, open the actions menu and click **Upload**
-2. Upload the ZIP file
-3. Chamilo unpacks and creates the learning path automatically
+匯入 SCORM 封包：
 
-### CMI5 / xAPI packages
+1. 在學習路徑工具中，開啟動作選單並點擊 **上傳**
+2. 上傳 ZIP 檔案
+3. Chamilo 會自動解壓並建立學習路徑
 
-CMI5 packages (the modern xAPI-based successor to SCORM) are supported through the **XApi** plugin. Once the plugin is enabled by your administrator, you can import a CMI5 package and learners can launch it from the course; their statements are forwarded to the configured Learning Record Store.
+### CMI5 / xAPI 封包
 
-## Learning Path Settings
+CMI5 封包（SCORM 的現代 xAPI 基礎後繼者）透過 **XApi** 外掛程式支援。一旦系統管理員啟用外掛程式，您即可匯入 CMI5 封包，學習者可從課程中啟動它；其陳述會轉送至設定的學習記錄儲存庫。
 
-Configure how the learning path behaves:
+## 學習路徑設定
 
-| Setting | Description |
-|---------|-------------|
-| **Visibility** | Hide or show the learning path to learners |
-| **Prerequisites** | Require completion of other learning paths before this one |
-| **Auto-launch** | Automatically open this learning path when learners enter the course |
-| **Accumulated SCORM time** | Whether to accumulate time across multiple sessions |
+設定學習路徑的行為方式：
 
-## Linking to the Gradebook
+| 設定 | 描述 |
+|------|------|
+| **可見性** | 隱藏或顯示學習路徑給學習者 |
+| **先決條件** | 要求在本學習路徑前完成其他學習路徑 |
+| **自動啟動** | 當學習者進入課程時自動開啟此學習路徑 |
+| **累計 SCORM 時間** | 是否跨多個工作階段累計時間 |
 
-You can include learning path completion as a graded activity in the Gradebook. This allows learning path progress to contribute to the learner's overall course grade and certificate eligibility.
+## 連結至成績簿
 
-## Using AI
+您可以將學習路徑完成納入成績簿的評分活動。這可讓學習路徑進度貢獻於學習者的整體課程成績和證書資格。
+---
 
-If the administrator has enabled AI-assisted learning path generation, you will find an AI generator option in the drop-down actions menu. Give the AI as precise a context as you want your learning path, ask for a number of pages and an approximate number of words per page, then tell it if you want to populate it with tests and launch. A few minutes later, you are looking down at a complete, text-based learning path.
+---
+## 使用 AI
 
-Edit the documents to generate illustrations with more AI and you only have some review to do before you can share it with your learners.
+如果管理員已啟用 AI 輔助學習路徑生成，您將在下拉動作選單中找到 AI 生成器選項。為 AI 提供您想要的學習路徑的精確情境，指定頁數以及每頁的大約字數，然後告知是否要填充測驗並啟動。幾分鐘後，您將看到一個完整的基於文字的學習路徑。
 
-## Tips
+編輯文件以使用更多 AI 生成插圖，您只需進行一些審核，即可與學習者分享。
 
-* **Start with an outline** — Plan your sections and items before building the path
-* **Use sections as chapters** — Group related items under section headings for clarity
-* **Set prerequisites for assessments** — Require learners to study the content before taking a quiz
-* **Mix content types** — Combine reading materials, videos, interactive exercises, and external resources for an engaging learning experience
-* **Check the learner view** — Use the Student View feature to experience the learning path as a learner would
-* **Use SCORM for interactivity** — If you have access to SCORM authoring tools (like Articulate, iSpring, or similar), create rich interactive content and import it into Chamilo
+## 提示
+
+* **從大綱開始** — 在建構路徑之前規劃您的區段和項目
+* **將區段用作章節** — 將相關項目群組在區段標題下以提高清晰度
+* **為評估設定先決條件** — 要求學習者在參加測驗前學習內容
+* **混合內容類型** — 結合閱讀材料、影片、互動練習和外部資源，以提供引人入勝的學習體驗
+* **檢查學習者視圖** — 使用 Student View 功能，以學習者的角度體驗學習路徑
+* **使用 SCORM 實現互動性** — 如果您有權存取 SCORM 製作工具（如 Articulate、iSpring 或類似工具），請建立豐富的互動內容並匯入 Chamilo

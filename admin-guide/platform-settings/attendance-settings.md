@@ -1,42 +1,41 @@
-# Attendance Settings
+# 出席設定
 
-Defaults and behaviour of the **Attendance** tool.
+**Attendance** 工具的預設值與行為。
 
-Access these settings under **Administration > Configuration settings > Attendance**. This category contains **4 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+在 **Administration > Configuration settings > Attendance** 下存取這些設定。此類別包含 **4 個設定**，以下列出平台設定固定資料 (`SettingsCurrentFixtures.php`) 中提供的標題與註解。
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> 程式碼中的變數名稱以等寬字體顯示。當透過 API 進行腳本撰寫，或需要透過編輯 [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml) 在全域層級變更這些設定時，請使用它。
 
-## Settings
+## 設定
 
 ### `allow_delete_attendance`
 
-**Attendances: enable deletion**
+**出席：啟用刪除**
 
-The default behaviour in Chamilo is to hide attendance sheets instead of deleting them, just in case the teacher would do it by mistake. Enable this option to allow teachers to *really* delete attendance sheets.
+Chamilo 的預設行為是隱藏出席表單而非刪除它們，以防教師誤操作。啟用此選項可讓教師*真正*刪除出席表單。
 
-*Default: `true`*
+*預設值：`true`*
 
 ### `attendance_allow_comments`
 
-**Allow comments in attendance sheets**
+**允許出席表單中的註解**
 
-Teachers and students can comment on each individual attendance (to justify).
+教師與學生可對每個個別出席記錄進行註解（用於說明）。
 
-*Default: `false`*
+*預設值：`false`*
 
 ### `enable_sign_attendance_sheet`
 
-**Attendance signing**
+**出席簽名**
 
-Enable taking signatures to confirm one's attendance.
+啟用簽名以確認出席。
 
-*Default: `false`*
+*預設值：`false`*
 
 ### `multilevel_grading`
 
-**Enable Multi-Level Attendance Grading**
+**啟用多層級出席評分**
 
-Allows grading attendance with multiple levels instead of a simple present/absent system.
+允許使用多層級評分出席，而非簡單的出席/缺席系統。
 
-*Default: `false`*
-
+*預設值：`false`*

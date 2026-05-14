@@ -1,7 +1,7 @@
-# Courses
+# 課程
 
-This section covers course management from an administrator perspective: overseeing the course catalog, managing categories, and handling imports and exports.
+本節從管理員的角度介紹課程管理：監督課程目錄、管理類別以及處理匯入和匯出。
 
-* **[Managing Courses](managing-courses.md)** — View, create, edit, and delete courses
-* **[Course Categories](course-categories.md)** — Organize the course catalog with categories
-* **[Course Import and Export](course-import-export.md)** — Import and export courses between platforms
+* **[管理課程](managing-courses.md)** — 查看、創建、編輯和刪除課程
+* **[課程類別](course-categories.md)** — 使用類別組織課程目錄
+* **[課程匯入與匯出](course-import-export.md)** — 在不同平台之間匯入和匯出課程

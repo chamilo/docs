@@ -1,18 +1,18 @@
-# Creating a Plugin
+# 建立外掛程式
 
-This guide walks through creating a basic Chamilo plugin. For additional detail, see the [Plugin development wiki page](https://github.com/chamilo/chamilo-lms/wiki/Plugin-development).
+本指南將逐步說明如何建立基本的 Chamilo 外掛程式。如需更多詳細資訊，請參閱 [外掛程式開發 wiki 頁面](https://github.com/chamilo/chamilo-lms/wiki/Plugin-development)。
 
-## Step 1: Create the Plugin Directory
+## 步驟 1：建立外掛程式目錄
 
-Create a directory in `public/plugin/`. The directory name should match your plugin's identifier:
+在 `public/plugin/` 中建立一個目錄。目錄名稱應與外掛程式的識別碼相符：
 
 ```
 public/plugin/MyPlugin/
 ```
 
-## Step 2: Define the Plugin Class
+## 步驟 2：定義外掛程式類別
 
-Create `src/MyPluginPlugin.php`. The class extends `Plugin` and follows the singleton pattern:
+建立 `src/MyPluginPlugin.php`。該類別擴展 `Plugin` 並遵循單例模式：
 
 ```php
 <?php
@@ -36,7 +36,7 @@ class MyPluginPlugin extends Plugin
 }
 ```
 
-### Available Setting Types
+### 可用的設定類型
 
 | Type | Description |
 |------|-------------|
@@ -48,7 +48,7 @@ class MyPluginPlugin extends Plugin
 | `checkbox` | Checkbox |
 | `user` | User selector |
 
-For `select` settings:
+對於 `select` 設定：
 
 ```php
 $settings = [
@@ -60,7 +60,7 @@ $settings = [
 ];
 ```
 
-Access settings at runtime:
+在執行時存取設定：
 
 ```php
 $plugin = MyPluginPlugin::create();
@@ -68,36 +68,36 @@ $key  = $plugin->get('api_key');       // single value
 $all  = $plugin->get_settings();       // all settings
 ```
 
-## Step 3: Create plugin.php
+## 步驟 3：建立 plugin.php
 
-`plugin.php` at the plugin root is **required**. It must assign `$plugin_info`:
+位於外掛程式根目錄的 `plugin.php` 是**必要檔案**。它必須指派 `$plugin_info`：
 
 ```php
 <?php
 $plugin_info = MyPluginPlugin::create()->get_info();
 ```
 
-## Step 4: Create Install and Uninstall Scripts
+## 步驟 4：建立安裝和解除安裝腳本
 
-`install.php`:
+`install.php`：
 
 ```php
 <?php
 MyPluginPlugin::create()->install();
 ```
 
-`uninstall.php`:
+`uninstall.php`：
 
 ```php
 <?php
 MyPluginPlugin::create()->uninstall();
 ```
 
-Implement the actual schema creation/deletion inside the class using Doctrine's `SchemaTool`.
+在類別中使用 Doctrine 的 `SchemaTool` 實作實際的結構描述建立/刪除。
 
-## Step 5: Add Translations
+## 步驟 5：新增翻譯
 
-Create language files in `lang/` using locale codes (e.g., `en_US.php`, `fr_FR.php`, `es_ES.php`). The fallback is `en_US.php`.
+在 `lang/` 中使用地區設定碼建立語言檔案（例如 `en_US.php`、`fr_FR.php`、`es_ES.php`）。預設回退為 `en_US.php`。
 
 ```php
 <?php
@@ -109,11 +109,11 @@ $strings['api_key']        = 'API Key';
 $strings['api_key_help']   = 'Enter the API key from your account.';
 ```
 
-Access translations via `$plugin->get_lang('key')`.
+透過 `$plugin->get_lang('key')` 存取翻譯。
 
-## Step 6: Inject Content via Display Regions
+## 步驟 6：透過顯示區域注入內容
 
-Plugins can inject HTML into 18 predefined regions of the Vue frontend. Override `renderRegion()` in your class:
+外掛程式可將 HTML 注入至 Vue 前端的 18 個預定義區域。在類別中覆寫 `renderRegion()`：
 
 ```php
 public function renderRegion(string $region): string
@@ -125,11 +125,11 @@ public function renderRegion(string $region): string
 }
 ```
 
-Available regions include: `content_bottom`, `content_top`, `course_tool_plugin`, `footer_center`, `footer_left`, `footer_right`, `header_center`, `header_left`, `header_main`, `header_right`, `login_bottom`, `login_top`, `main_bottom`, `main_top`, `menu_administrator`, `menu_bottom`, `menu_top`, `pre_footer`.
+可用的區域包括：`content_bottom`、`content_top`、`course_tool_plugin`、`footer_center`、`footer_left`、`footer_right`、`header_center`、`header_left`、`header_main`、`header_right`、`login_bottom`、`login_top`、`main_bottom`、`main_top`、`menu_administrator`、`menu_bottom`、`menu_top`、`pre_footer`。
 
-## Step 7: React to Platform Events (Optional)
+## 步驟 7：回應平台事件（選用）
 
-Plugins can react to platform events using Symfony event subscribers. Create a file ending in `EventSubscriber.php` inside `src/EventSubscriber/` — it is auto-registered via `PluginEventSubscriberPass`.
+外掛程式可使用 Symfony 事件訂閱者回應平台事件。在 `src/EventSubscriber/` 中建立以 `EventSubscriber.php` 結尾的檔案 — 它會透過 `PluginEventSubscriberPass` 自動註冊。
 
 ```php
 <?php
@@ -165,30 +165,33 @@ class MyPluginEventSubscriber implements EventSubscriberInterface
 }
 ```
 
-See `src/CoreBundle/Event/Events.php` for the full list of available events (user, course, session, LP, exercise, portfolio, authentication, and more).
+請參閱 `src/CoreBundle/Event/Events.php` 以取得所有可用事件清單（使用者、課程、工作坊、學習路徑、測驗、作品集、驗證等）。
 
-## Step 8: Lifecycle Hooks
+---
 
-Override these methods in your plugin class to respond to platform actions:
+---
+## 第 8 步：生命週期鉤子
 
-| Method | Triggered when |
+在您的外掛程式類別中覆寫這些方法，以回應平台動作：
+
+| 方法 | 觸發時機 |
 |--------|----------------|
-| `install()` | Plugin is activated |
-| `uninstall()` | Plugin is removed |
-| `performActionsAfterConfigure()` | Admin saves the config form |
-| `course_settings_updated(array $values)` | Course-level settings change |
-| `validateCourseSetting(string $variable)` | Course setting saved (return `false` to reject) |
-| `doWhenDeletingUser(int $userId)` | A user is deleted |
-| `doWhenDeletingCourse(int $courseId)` | A course is deleted |
-| `doWhenDeletingSession(int $sessionId)` | A session is deleted |
+| `install()` | 外掛程式被啟用 |
+| `uninstall()` | 外掛程式被移除 |
+| `performActionsAfterConfigure()` | 管理員儲存設定表單 |
+| `course_settings_updated(array $values)` | 課程層級設定變更 |
+| `validateCourseSetting(string $variable)` | 課程設定被儲存（傳回 `false` 以拒絕） |
+| `doWhenDeletingUser(int $userId)` | 使用者被刪除 |
+| `doWhenDeletingCourse(int $courseId)` | 課程被刪除 |
+| `doWhenDeletingSession(int $sessionId)` | 工作階段被刪除 |
 
-## Step 9: Activate
+## 第 9 步：啟用
 
-Log in as administrator, navigate to **Manage plugins**, find your plugin, and click **Activate**.
+以管理員身分登入，前往 **管理外掛程式**，找到您的外掛程式，然後按一下 **啟用**。
 
-## Tips
+## 提示
 
-* **Follow existing plugins as examples** — `public/plugin/HelloWorld/` and `public/plugin/TopLinks/` are good simple references
-* **Use translations** — Always use the `lang/` system for user-facing text
-* **Clean up on uninstall** — Remove database tables and settings in the uninstall script
-* **Check enabled state** — In event subscribers, always call `$this->plugin->isEnabled()` before executing logic
+* **參考現有外掛程式作為範例** — `public/plugin/HelloWorld/` 和 `public/plugin/TopLinks/` 是良好的簡單參考範例
+* **使用翻譯** — 始終使用 `lang/` 系統來處理使用者介面文字
+* **在解除安裝時清理** — 在解除安裝腳本中移除資料庫表格和設定
+* **檢查啟用狀態** — 在事件訂閱者中，始終在執行邏輯前呼叫 `$this->plugin->isEnabled()`

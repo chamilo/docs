@@ -1,14 +1,14 @@
-# Entities and Doctrine
+# 實體與 Doctrine
 
-Chamilo 2.0 has 314 Doctrine entities across two bundles. The following only mention the main ones.
+Chamilo 2.0 擁有橫跨兩個 bundle 的 314 個 Doctrine 實體。以下僅提及主要實體。
 
-## Entity Organization
+## 實體組織
 
-### CoreBundle Entities (213)
+### CoreBundle 實體 (213)
 
-Platform-level entities:
+平台層級實體：
 
-| Category | Examples |
+| 分類 | 範例 |
 |----------|---------|
 | **Users** | `User`, `UserRelUser`, `AccessUrl`, `AccessUrlRelUser` |
 | **Courses** | `Course`, `CourseCategory`, `CourseRelUser` |
@@ -23,11 +23,11 @@ Platform-level entities:
 | **Social** | `Usergroup`, `UsergroupRelUser` |
 | **xAPI** | `XApiObject`, `XApiResult`, `XApiActivityState` |
 
-### CourseBundle Entities (101)
+### CourseBundle 實體 (101)
 
-Course content entities — all prefixed with `C`:
+課程內容實體 — 皆以 `C` 開頭：
 
-| Category | Examples |
+| 分類 | 範例 |
 |----------|---------|
 | **Documents** | `CDocument` |
 | **Exercises** | `CQuiz`, `CQuizQuestion`, `CQuizAnswer`, `CQuizQuestionCategory` |
@@ -39,16 +39,16 @@ Course content entities — all prefixed with `C`:
 | **Blogs** | `CBlog`, `CBlogPost`, `CBlogComment`, `CBlogTask` |
 | **Other** | `CCalendarEvent`, `CGlossary`, `CLink`, `CLinkCategory`, `CNotebook`, `CWiki` |
 
-## Naming Convention
+## 命名慣例
 
-* CoreBundle entities: standard PascalCase (e.g., `User`, `Course`, `Session`)
-* CourseBundle entities: prefixed with `C` (e.g., `CDocument`, `CQuiz`, `CLp`)
+* CoreBundle 實體：標準 PascalCase（例如 `User`、`Course`、`Session`）
+* CourseBundle 實體：以 `C` 開頭（例如 `CDocument`、`CQuiz`、`CLp`）
 
-This prefix distinguishes course-scoped content entities from platform-level entities (in line with legacy database tables naming). This distinction might disappear in the long run as more tools are converted to global tools without a strong link to a specific course.
+此前綴用以區分課程範圍內容實體與平台層級實體（符合舊有資料庫表格命名方式）。隨著更多工具轉換為無特定課程強連結的全球工具，此區分可能在未來消失。
 
-## Key Relationships
+## 主要關聯關係
 
-Relationships are usually evidenced by the `Rel` separator.
+關聯關係通常以 `Rel` 分隔符顯示。
 
 ### User ↔ Course
 
@@ -56,7 +56,7 @@ Relationships are usually evidenced by the `Rel` separator.
 User --[CourseRelUser]--> Course
 ```
 
-`CourseRelUser` stores the enrollment status (TEACHER = 1, STUDENT = 5).
+`CourseRelUser` 儲存註冊狀態（TEACHER = 1, STUDENT = 5）。
 
 ### User ↔ Session ↔ Course
 
@@ -65,9 +65,9 @@ User --[SessionRelUser]--> Session --[SessionRelCourse]--> Course
 User --[SessionRelCourseRelUser]--> (Session + Course)
 ```
 
-### ResourceNode (Content Abstraction)
+### ResourceNode (內容抽象)
 
-All course content entities connect to the resource system through `ResourceNode`:
+所有課程內容實體透過 `ResourceNode` 連接到資源系統：
 
 ```
 CDocument --> ResourceNode --> ResourceFile
@@ -75,13 +75,13 @@ CQuiz ------> ResourceNode
 CLp --------> ResourceNode
 ```
 
-See [Resource System](resource-system.md) for details.
+詳見 [資源系統](resource-system.md)。
 
-## Doctrine Extensions
+## Doctrine 擴充套件
 
-Chamilo uses Gedmo Doctrine Extensions (via `stof/doctrine-extensions-bundle`):
+Chamilo 使用 Gedmo Doctrine Extensions（透過 `stof/doctrine-extensions-bundle`）：
 
-* **Tree** — Hierarchical data (ResourceNode uses materialized path)
-* **Timestampable** — Automatic `createdAt`/`updatedAt` fields
-* **Sluggable** — URL-friendly slugs
-* **Sortable** — Orderable collections
+* **Tree** — 階層式資料（ResourceNode 使用實體化路徑）
+* **Timestampable** — 自動 `createdAt`/`updatedAt` 欄位
+* **Sluggable** — URL 友善的 slug
+* **Sortable** — 可排序集合

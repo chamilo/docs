@@ -1,52 +1,52 @@
-# Twig Templates
+# Twig 模板
 
-Chamilo uses Twig for server-side rendered pages. Templates live in `src/CoreBundle/Resources/views/` and are referenced with the `@ChamiloCore/` namespace prefix (e.g. `@ChamiloCore/Layout/base-layout.html.twig`).
+Chamilo 使用 Twig 來渲染伺服器端頁面。模板位於 `src/CoreBundle/Resources/views/` 目錄中，並使用 `@ChamiloCore/` 命名空間前綴來引用（例如 `@ChamiloCore/Layout/base-layout.html.twig`）。
 
-There is no top-level `templates/` directory — all Twig templates are under `src/CoreBundle/Resources/views/`.
+沒有頂層 `templates/` 目錄 — 所有 Twig 模板都位於 `src/CoreBundle/Resources/views/` 之下。
 
-## How Twig and Vue Coexist
+## Twig 和 Vue 如何共存
 
-Most pages follow this flow:
+大多數頁面遵循以下流程：
 
-1. A Symfony controller renders a Twig template that extends a layout.
-2. The layout includes `vue_setup.html.twig`, which emits `<div id="app">` and injects runtime globals (`window.user`, `window.breadcrumb`, etc.) via `vue_js_setup.html.twig`.
-3. Vue mounts on `#app` and handles all UI rendering inside that element.
-4. The Vue app communicates with the backend via the REST API.
+1. Symfony 控制器渲染一個擴展佈局的 Twig 模板。
+2. 佈局包含 `vue_setup.html.twig`，其發出 `<div id="app">` 並透過 `vue_js_setup.html.twig` 注入運行時全域變數（`window.user`、`window.breadcrumb` 等）。
+3. Vue 掛載到 `#app` 上，並處理該元素內的所有 UI 渲染。
+4. Vue 應用程式透過 REST API 與後端通訊。
 
-For legacy pages not yet migrated to Vue, Symfony renders the full page HTML via Twig and the content is placed inside `#sectionMainContent`. Vue still mounts (providing the sidebar and topbar shell), but the main content area is server-rendered HTML.
+對於尚未遷移至 Vue 的舊版頁面，Symfony 透過 Twig 渲染完整的頁面 HTML，並將內容置於 `#sectionMainContent` 內。Vue 仍會掛載（提供側邊欄和頂部導航列框架），但主要內容區域為伺服器端渲染的 HTML。
 
-## Layout Templates
+## 佈局模板
 
-All layouts extend `@ChamiloCore/Layout/base-layout.html.twig`, which provides the `<html>`, `<head>`, and `<body>` structure. Available layout variants:
+所有佈局都擴展 `@ChamiloCore/Layout/base-layout.html.twig`，其提供 `<html>`、`<head>` 和 `<body>` 結構。可用的佈局變體：
 
-| Template | Purpose |
+| 模板 | 用途 |
 |----------|---------|
-| `Layout/base-layout.html.twig` | Root template — `<html>` shell, imports Macros, emits `<head>` and `<body>` |
-| `Layout/layout.html.twig` | Standard full layout with sidebar, topbar, and content area |
-| `Layout/layout_one_col.html.twig` | Single-column layout (no sidebar) |
-| `Layout/layout_two_col.html.twig` | Two-column layout |
-| `Layout/layout_content.html.twig` | Content-only wrapper |
-| `Layout/layout_empty.html.twig` | Empty layout with minimal chrome |
-| `Layout/no_layout.html.twig` | No header/footer; content goes directly inside `<body>` |
-| `Layout/no_layout_scorm.html.twig` | Bare layout for SCORM content frames |
-| `Layout/blank.html.twig` | Completely blank page |
-| `Layout/skill_layout.html.twig` | Layout for the skills wheel page |
+| `Layout/base-layout.html.twig` | 根模板 — `<html>` 框架、匯入巨集、發出 `<head>` 和 `<body>` |
+| `Layout/layout.html.twig` | 標準完整佈局，包含側邊欄、頂部導航列和內容區域 |
+| `Layout/layout_one_col.html.twig` | 單欄佈局（無側邊欄） |
+| `Layout/layout_two_col.html.twig` | 雙欄佈局 |
+| `Layout/layout_content.html.twig` | 僅內容包裝器 |
+| `Layout/layout_empty.html.twig` | 最小化框架的空佈局 |
+| `Layout/no_layout.html.twig` | 無標頭/頁尾；內容直接置於 `<body>` 內 |
+| `Layout/no_layout_scorm.html.twig` | SCORM 內容框架的極簡佈局 |
+| `Layout/blank.html.twig` | 完全空白頁面 |
+| `Layout/skill_layout.html.twig` | 技能輪頁面的佈局 |
 
-## Key Partials
+## 關鍵部分模板
 
-| Template | Purpose |
+| 模板 | 用途 |
 |----------|---------|
-| `Layout/head.html.twig` | `<head>` content: meta tags, all Encore CSS entries, theme `colors.css`, legacy JS entries, OpenGraph/Twitter tags |
-| `Layout/foot.html.twig` | End-of-body: Vue JS entry point, `tracking.footer_extra_content` injection |
-| `Layout/vue_setup.html.twig` | Emits `<div id="app">` and includes `vue_js_setup.html.twig` |
-| `Layout/vue_js_setup.html.twig` | Injects `window.user`, `window.breadcrumb`, `window.languages`, etc. |
-| `Layout/cookie_banner.html.twig` | GDPR cookie consent banner |
-| `Layout/footer.html.twig` | Page footer bar |
-| `Layout/course_navigation.html.twig` | Course tool navigation breadcrumb |
+| `Layout/head.html.twig` | `<head>` 內容：meta 標籤、所有 Encore CSS 項目、主題 `colors.css`、舊版 JS 項目、OpenGraph/Twitter 標籤 |
+| `Layout/foot.html.twig` | body 結尾：Vue JS 入口點、`tracking.footer_extra_content` 注入 |
+| `Layout/vue_setup.html.twig` | 發出 `<div id="app">` 並包含 `vue_js_setup.html.twig` |
+| `Layout/vue_js_setup.html.twig` | 注入 `window.user`、`window.breadcrumb`、`window.languages` 等 |
+| `Layout/cookie_banner.html.twig` | GDPR  Cookie 同意橫幅 |
+| `Layout/footer.html.twig` | 頁面頁尾列 |
+| `Layout/course_navigation.html.twig` | 課程工具導航麵包屑 |
 
-## Webpack Encore Integration
+## Webpack Encore 整合
 
-`head.html.twig` loads CSS for all entries; `foot.html.twig` loads the Vue JS bundle:
+`head.html.twig` 載入所有項目的 CSS；`foot.html.twig` 載入 Vue JS 套件：
 
 ```twig
 {# In head.html.twig — CSS entries #}
@@ -63,33 +63,33 @@ All layouts extend `@ChamiloCore/Layout/base-layout.html.twig`, which provides t
 {{ encore_entry_script_tags('vue') }}
 ```
 
-Legacy JS entries (`legacy_app`, `legacy_lp`, etc.) are loaded in `<head>` because legacy PHP pages depend on them being available before the DOM is ready.
+舊版 JS 項目（`legacy_app`、`legacy_lp` 等）在 `<head>` 中載入，因為舊版 PHP 頁面依賴其在 DOM 準備就緒前可用。
 
-## Macros
+## 巨集
 
-Reusable Twig macros are in `Macros/` and imported at the top of `base-layout.html.twig`:
+可重用的 Twig 巨集位於 `Macros/` 目錄，並在 `base-layout.html.twig` 頂部匯入：
 
-| Macro file | Provides |
+| 巨集檔案 | 提供 |
 |-----------|---------|
-| `Macros/box.html.twig` | Content box helpers |
-| `Macros/actions.html.twig` | Action button rendering |
-| `Macros/buttons.html.twig` | Button HTML helpers |
-| `Macros/headers.html.twig` | Page header helpers |
-| `Macros/image.html.twig` | Image rendering helpers |
-| `Macros/modals.html.twig` | Modal dialog helpers |
+| `Macros/box.html.twig` | 內容方塊輔助工具 |
+| `Macros/actions.html.twig` | 動作按鈕渲染 |
+| `Macros/buttons.html.twig` | 按鈕 HTML 輔助工具 |
+| `Macros/headers.html.twig` | 頁面標頭輔助工具 |
+| `Macros/image.html.twig` | 圖像渲染輔助工具 |
+| `Macros/modals.html.twig` | 模態對話框輔助工具 |
 
-Usage inside any template that extends `base-layout.html.twig`:
+在任何擴展 `base-layout.html.twig` 的模板中使用：
 
 ```twig
 {{ macro_buttons.submit('Save') }}
 {{ macro_box.content_box('Title', content) }}
 ```
 
-## Custom Vue Templates
+## 自訂 Vue 模板
 
-Chamilo supports per-installation Vue page overrides via the `APP_CUSTOM_VUE_TEMPLATE` environment variable. When set, the Webpack build exposes a `ENV_CUSTOM_VUE_TEMPLATE` constant via `DefinePlugin`, and the Vue router conditionally imports override components from `var/vue_templates/`.
+Chamilo 支援透過 `APP_CUSTOM_VUE_TEMPLATE` 環境變數進行每個安裝的 Vue 頁面覆寫。設定後，Webpack 建置透過 `DefinePlugin` 暴露 `ENV_CUSTOM_VUE_TEMPLATE` 常數，Vue 路由器有條件地從 `var/vue_templates/` 匯入覆寫組件。
 
-Current override locations:
+目前的覆寫位置：
 
 ```
 var/vue_templates/
@@ -100,20 +100,21 @@ var/vue_templates/
     └── SidebarLogin.vue
 ```
 
-Only the files present in `var/vue_templates/` are overridden — all other pages and components use the core originals.
+僅 `var/vue_templates/` 中存在的檔案會被覆寫 — 所有其他頁面和組件使用核心原始檔案。
 
-## Twig Functions Reference
+---
+## Twig 函數參考
 
-Key Twig functions available in all templates (registered in `ChamiloExtension`):
+所有範本中可用的關鍵 Twig 函數（在 `ChamiloExtension` 中註冊）：
 
 | Function | Purpose |
 |----------|---------|
-| `chamilo_settings_get('ns.key')` | Read a platform setting |
-| `chamilo_settings_has('ns.key')` | Check if a setting exists |
-| `chamilo_settings_all()` | Get all settings as an array |
-| `theme_asset('path')` | URL to an asset in the active theme |
-| `theme_asset_link_tag('path')` | `<link>` tag for a theme CSS file |
-| `theme_asset_script_tag('path')` | `<script>` tag for a theme JS file |
-| `theme_asset_base64('path')` | Base64 data URI for a theme asset |
-| `theme_logo('header'\|'email')` | URL to the preferred logo |
-| `is_allowed_to_edit(...)` | Permission check helper |
+| `chamilo_settings_get('ns.key')` | 讀取平台設定 |
+| `chamilo_settings_has('ns.key')` | 檢查設定是否存在 |
+| `chamilo_settings_all()` | 以陣列取得所有設定 |
+| `theme_asset('path')` | 目前使用主題中資產的 URL |
+| `theme_asset_link_tag('path')` | 主題 CSS 檔案的 `<link>` 標籤 |
+| `theme_asset_script_tag('path')` | 主題 JS 檔案的 `<script>` 標籤 |
+| `theme_asset_base64('path')` | 主題資產的 Base64 資料 URI |
+| `theme_logo('header'\|'email')` | 偏好標誌的 URL |
+| `is_allowed_to_edit(...)` | 權限檢查輔助函數 |

@@ -1,25 +1,25 @@
-# Glossary
+# 詞彙表
 
-Key terms used throughout this guide.
+本指南中使用的關鍵術語。
 
 | Term | Definition |
 |------|-----------|
-| **Assessment** | See **Gradebook** below |
-| **Assignment** | A task where learners submit files or text for teacher review and grading. Also known as "student publication" or "work". |
-| **Auto-launch** | A feature that automatically opens a specific tool when a learner enters a course. |
-| **Certificate** | A document automatically generated when a learner meets the minimum score defined in the gradebook. |
-| **Course** | A container for learning content and tools. A course can include documents, exercises, forums, learning paths, and more. |
-| **Course coach** | A teacher role specific to sessions. A course coach manages one course within a session. |
-| **Disk quota** | The maximum storage space allocated to a course for uploaded files. |
-| **Enrollment** | The process of registering a user in a course or session, giving them access to its content. Also known as "subscription". |
-| **Exercise** | A quiz or test containing one or more questions. Also referred to as a "test" in some contexts. |
-| **Forum** | A discussion tool with threaded conversations organized into categories and topics. |
-| **Gradebook** | A tool that aggregates scores from exercises, assignments, and other activities into a unified grade for each learner. |
-| **Learning path** | A structured sequence of learning activities (documents, exercises, links) that learners follow in a defined order, optionally with prerequisites. |
-| **LTI** | Learning Tools Interoperability — a standard that allows external learning tools to be embedded within Chamilo. |
-| **SCORM** | Sharable Content Object Reference Model — a standard for e-learning content packages. Chamilo can import and play SCORM packages within learning paths. |
-| **Session** | A time-bound edition of one or more courses assigned to a specific group of learners. Sessions allow reusing the same course content for different cohorts. |
-| **Session coach** | A supervisory role that oversees all courses within a session. |
-| **Skill** | A competency that can be linked to gradebook achievements. When a learner earns a certificate, associated skills are validated. |
-| **Survey** | A questionnaire tool for collecting feedback, with various question types and anonymous response options. |
-| **Visibility** | A setting that controls whether a tool, document, or activity is visible to learners. Teachers can always see hidden items. |
+| **Assessment** | 請參閱下方的 **Gradebook** |
+| **Assignment** | 學習者提交檔案或文字供教師審核和評分的任務。也稱為「學生發表」或「作業」。 |
+| **Auto-launch** | 當學習者進入課程時，自動開啟特定工具的功能。 |
+| **Certificate** | 當學習者達到分數簿中定義的最低分數時，自動產生的文件。 |
+| **Course** | 學習內容和工具的容器。一個課程可包含文件、練習、論壇、學習路徑等。 |
+| **Course coach** | 特定於工作坊的教師角色。課程教練管理工作坊中的一門課程。 |
+| **Disk quota** | 分配給課程用於上傳檔案的最大儲存空間。 |
+| **Enrollment** | 將使用者註冊到課程或工作坊的過程，授予他們存取其內容的權限。也稱為「訂閱」。 |
+| **Exercise** | 包含一或多個問題的測驗或考試。在某些情境中也稱為「測驗」。 |
+| **Forum** | 具有分類和主題組織的討論串的討論工具。 |
+| **Gradebook** | 將練習、作業和其他活動的分數彙總成每個學習者的統一分數的工具。 |
+| **Learning path** | 學習者依定義順序遵循的結構化學習活動序列（文件、練習、連結），可選帶有先決條件。 |
+| **LTI** | Learning Tools Interoperability — 允許外部學習工具嵌入 Chamilo 的標準。 |
+| **SCORM** | Sharable Content Object Reference Model — 電子學習內容套件的標準。Chamilo 可在學習路徑中匯入和播放 SCORM 套件。 |
+| **Session** | 分配給特定學習者群組的一或多門課程的時間限制版本。工作坊允許為不同群組重用相同的課程內容。 |
+| **Session coach** | 監督工作坊中所有課程的監督角色。 |
+| **Skill** | 可連結到分數簿成就的技能。當學習者獲得證書時，相關技能會被驗證。 |
+| **Survey** | 用於收集回饋的問卷工具，具有各種問題類型和匿名回應選項。 |
+| **Visibility** | 控制工具、文件或活動對學習者是否可見的設定。教師始終可見隱藏項目。 |

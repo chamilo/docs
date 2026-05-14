@@ -1,79 +1,79 @@
-# Forums Settings
+# 論壇設定
 
-Behaviour of the course **Forums** tool.
+課程 **Forums** 工具的行為。
 
-Access these settings under **Administration > Configuration settings > Forums**. This category contains **9 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+在 **Administration > Configuration settings > Forums** 下存取這些設定。此類別包含 **9 個設定**，以下列出平台設定預設值 (`SettingsCurrentFixtures.php`) 中提供的標題和註解。
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> 程式碼中的變數名稱以等寬字體顯示。使用 API 進行腳本編寫，或在全域層級編輯 [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml) 變更這些設定時，請使用它。
 
-## Settings
+## 設定
 
 ### `allow_forum_category_language_filter`
 
-**Forum categories language filter**
+**論壇分類語言篩選**
 
-Add a language filter to the forum view to only see categries configured in a specific language. Requires using the 'language' extra field on the 'forum_category' entity.
+在論壇檢視中新增語言篩選器，以僅顯示特定語言設定的分類。需要使用 'forum_category' 實體上的 'language' 額外欄位。
 
-*Default: `false`*
+*預設值：`false`*
 
 ### `allow_forum_post_revisions`
 
-**Forum post review**
+**論壇貼文審核**
 
-Enable this option to allow asking for a review or a translation to one's post in a forum. When extensively configured, can be used to collaborate with other users in a language-learning forum.
+啟用此選項以允許要求對論壇中的貼文進行審核或翻譯。廣泛設定後，可用於語言學習論壇中與其他使用者合作。
 
-*Default: `false`*
+*預設值：`false`*
 
 ### `community_managers_user_list`
 
-**Community managers list**
+**社群管理者清單**
 
-Provide an array of user IDs that will be considered community managers in the special course designated as global forum. Community managers have additional privileges on the global forum.
+提供使用者 ID 陣列，這些使用者將被視為全球論壇指定特殊課程中的社群管理者。社群管理員在全球論壇中擁有額外權限。
 
 ### `default_forum_view`
 
-**Default forum view**
+**預設論壇檢視**
 
-What should be the default option when creating a new forum. Any trainer can however choose a different view for every individual forum
+建立新論壇時的預設選項。不過，任何教師均可為每個個別論壇選擇不同的檢視。
 
-*Default: `flat`*
+*預設值：`flat`*
 
 ### `display_groups_forum_in_general_tool`
 
-**Display group forums in general forum**
+**在一般論壇中顯示群組論壇**
 
-Display group forums in the forum tool at the course level. This option is enabled by default (in this case, group forum individual visibilities still act as an additional criteria). If disabled, group forums will only be visible through the group tool, be them public or not.
+在課程層級的論壇工具中顯示群組論壇。此選項預設啟用（在此情況下，群組論壇的個別可見性仍作為額外標準）。若停用，群組論壇僅可透過群組工具檢視，無論公開與否。
 
-*Default: `true`*
+*預設值：`true`*
 
 ### `forum_fold_categories`
 
-**Fold forum categories**
+**摺疊論壇分類**
 
-Visual effect to enable forum categories folding/unfolding.
+啟用論壇分類摺疊/展開的視覺效果。
 
-*Default: `false`*
+*預設值：`false`*
 
 ### `global_forums_course_id`
 
-**Use course as global forum**
+**使用課程作為全球論壇**
 
-Set the course ID (numerical) of a course reserverd to use as a global forum. This replaces the 'Social groups' link in the social network by a link to the forum of that course.
+設定保留用作全球論壇的課程 ID（數字）。這會將社群網路中的「Social groups」連結取代為該課程論壇的連結。
 
-*Default: `0`*
+*預設值：`0`*
 
 ### `hide_forum_post_revision_language`
 
-**Hide forum post review language**
+**隱藏論壇貼文審核語言**
 
-Hide the possibility to assign a language to a forum post review.
+隱藏為論壇貼文審核指派語言的可能性。
 
-*Default: `false`*
+*預設值：`false`*
 
 ### `subscribe_users_to_forum_notifications_also_in_base_course`
 
-**Forum notifications from base course as well**
+**也包含基礎課程的論壇通知**
 
-Enable this option to enable notifications coming from the base course forum, even if following the course through a session.
+啟用此選項以啟用來自基礎課程論壇的通知，即使透過課程工作階段追蹤課程亦然。
 
-*Default: `false`*
+*預設值：`false`*

@@ -1,8 +1,8 @@
-# Users
+# 使用者
 
-This section covers how to manage user accounts on your Chamilo platform — creating users, assigning roles, organizing users into groups, and managing profiles.
+本節涵蓋如何在您的 Chamilo 平台上管理使用者帳戶 — 建立使用者、指派角色、將使用者組織成群組，以及管理個人檔案。
 
-* **[User Roles](user-roles.md)** — Understanding the different user roles and their permissions
-* **[Managing Users](managing-users.md)** — Creating, editing, importing, and exporting user accounts
-* **[User Groups](user-groups.md)** — Organizing users into platform-wide groups
-* **[User Profiling](user-profiling.md)** — Configuring extra profile fields and user metadata
+* **[使用者角色](user-roles.md)** — 了解不同使用者角色及其權限
+* **[管理使用者](managing-users.md)** — 建立、編輯、匯入及匯出使用者帳戶
+* **[使用者群組](user-groups.md)** — 將使用者組織成平台範圍的群組
+* **[使用者剖析](user-profiling.md)** — 設定額外的個人檔案欄位及使用者中繼資料

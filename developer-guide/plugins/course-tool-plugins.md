@@ -1,18 +1,18 @@
-# Course Tool Plugins
+# 課程工具外掛
 
-Course tool plugins add new tools to the course homepage alongside built-in tools like Documents, Exercises, and Forums.
+課程工具外掛會在課程首頁新增工具，與內建工具如 Documents、Exercises 和 Forums 並列。
 
-## How Course Tool Plugins Work
+## 課程工具外掛運作方式
 
-When a plugin registers itself as a course tool:
+當外掛將自身註冊為課程工具時：
 
-1. It appears in the course homepage tool grid
-2. Teachers can show/hide it like any other tool
-3. Clicking the tool opens the plugin's interface within the course context
+1. 它會出現在課程首頁的工具格中
+2. 教師可以像其他工具一樣顯示/隱藏它
+3. 點擊工具會在課程脈絡中開啟外掛的介面
 
-## Registering as a Course Tool
+## 註冊為課程工具
 
-In your plugin class, set `$isCoursePlugin = true`. To automatically add a tool icon to the course homepage, also set `$addCourseTool = true`:
+在您的外掛類別中，設定 `$isCoursePlugin = true`。若要自動在課程首頁新增工具圖示，也請設定 `$addCourseTool = true`：
 
 ```php
 class MyToolPlugin extends Plugin
@@ -26,9 +26,9 @@ class MyToolPlugin extends Plugin
 }
 ```
 
-## Per-Course Settings
+## 每課程設定
 
-Define course-level configuration fields via the `$course_settings` property:
+透過 `$course_settings` 屬性定義課程層級的設定欄位：
 
 ```php
 public array $course_settings = [
@@ -37,11 +37,11 @@ public array $course_settings = [
 ];
 ```
 
-These appear in the course settings panel and can be validated by overriding `validateCourseSetting(string $variable)` (return `false` to reject a value) or acted on via `course_settings_updated(array $values)`.
+這些設定會出現在課程設定面板中，您可以透過覆寫 `validateCourseSetting(string $variable)`（傳回 `false` 以拒絕該值）來驗證，或透過 `course_settings_updated(array $values)` 來處理變更。
 
-## Installation and Uninstallation
+## 安裝與解除安裝
 
-To register the plugin fields across all existing courses on install:
+在安裝時，為所有現有課程註冊外掛欄位：
 
 ```php
 public function install(): void
@@ -50,39 +50,40 @@ public function install(): void
 }
 ```
 
-To install into a single course (e.g., when a new course is created):
+在單一課程中安裝（例如新增課程時）：
 
 ```php
 $this->course_install(courseId: $courseId, addToolLink: true);
 ```
 
-To remove fields from a specific course:
+從特定課程移除欄位：
 
 ```php
 $this->uninstall_course_fields(courseId: $courseId);
 ```
 
-## Integration Points
+## 整合點
 
-Course tool plugins integrate through:
+課程工具外掛透過以下方式整合：
 
-* **`LegacyPluginCourseTool`** (`src/CoreBundle/Tool/LegacyPluginCourseTool.php`) — Registers the plugin as a tool in the course
-* **`CToolStateProvider`** (`src/CoreBundle/State/CToolStateProvider.php`) — Resolves which tools (including plugin tools) appear on the course homepage
-* The tool appears in the `CTool` collection for the course
+* **`LegacyPluginCourseTool`** (`src/CoreBundle/Tool/LegacyPluginCourseTool.php`) — 將外掛註冊為課程中的工具
+* **`CToolStateProvider`** (`src/CoreBundle/State/CToolStateProvider.php`) — 解析哪些工具（包含外掛工具）會出現在課程首頁
+* 工具會出現在課程的 `CTool` 集合中
 
-## Course Context
+## 課程脈絡
 
-When a learner clicks your plugin's tool, your plugin code runs within the course context. You can access:
+當學習者點擊您的外掛工具時，您的外掛程式碼會在課程脈絡中執行。您可以存取：
 
-* The current course (via `api_get_course_id()` or the CID request store)
-* The current session (if applicable)
-* The current user
-* Course-level plugin settings
+* 目前課程（透過 `api_get_course_id()` 或 CID 請求儲存）
+* 目前課程工作階段（若適用）
+* 目前使用者
+* 課程層級的外掛設定
 
-## Examples
+## 範例
 
-Built-in course tool plugins:
+內建課程工具外掛：
 
-* **BigBlueButton** (`Bbb/`) — Video conferencing within courses
-* **Zoom** (`Zoom/`) — Zoom meetings within courses
-* **OnlyOffice** (`Onlyoffice/`) — Document editing within courses
+* **BigBlueButton** (`Bbb/`) — 課程內視訊會議
+* **Zoom** (`Zoom/`) — 課程內 Zoom 會議
+* **OnlyOffice** (`Onlyoffice/`) — 課程內文件編輯
+```

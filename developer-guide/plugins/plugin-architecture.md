@@ -1,8 +1,8 @@
-# Plugin Architecture
+# 外掛架構
 
-## Plugin Location
+## 外掛位置
 
-Plugins are stored in `public/plugin/`. Each plugin has its own directory:
+外掛儲存在 `public/plugin/` 中。每個外掛擁有自己的目錄：
 
 ```
 public/plugin/
@@ -13,9 +13,9 @@ public/plugin/
 ├── ...                     # bundled plugins ship under public/plugin/
 ```
 
-## Plugin Structure
+## 外掛結構
 
-A typical plugin directory contains:
+典型的外掛目錄包含：
 
 ```
 public/plugin/MyPlugin/
@@ -34,9 +34,9 @@ public/plugin/MyPlugin/
 └── resources/              # CSS/JS assets
 ```
 
-## Plugin Class
+## 外掛類別
 
-Each plugin extends the `Plugin` base class (`public/main/inc/lib/plugin.class.php`) and follows the singleton pattern:
+每個外掛皆延伸 `Plugin` 基底類別 (`public/main/inc/lib/plugin.class.php`)，並遵循單例模式：
 
 ```php
 class MyPluginPlugin extends Plugin
@@ -55,27 +55,27 @@ class MyPluginPlugin extends Plugin
 }
 ```
 
-### Key Class Properties
+### 關鍵類別屬性
 
-| Property | Type | Effect |
+| 屬性 | 類型 | 效果 |
 |----------|------|--------|
-| `$isCoursePlugin` | bool | Registers the plugin as a course tool |
-| `$isAdminPlugin` | bool | Adds an admin interface page |
-| `$isMailPlugin` | bool | Integrates with the mail system |
-| `$addCourseTool` | bool | Adds an icon to the course homepage |
-| `$course_settings` | array | Defines per-course configuration fields |
+| `$isCoursePlugin` | bool | 將外掛註冊為課程工具 |
+| `$isAdminPlugin` | bool | 新增管理介面頁面 |
+| `$isMailPlugin` | bool | 與郵件系統整合 |
+| `$addCourseTool` | bool | 在課程首頁新增圖示 |
+| `$course_settings` | array | 定義每個課程的設定欄位 |
 
-## Plugin Lifecycle
+## 外掛生命週期
 
-1. **Installation** — The admin activates the plugin, which runs `install.php`
-2. **Configuration** — Settings are defined and managed through the admin panel; stored in `access_url_rel_plugin` (supports multi-tenant)
-3. **Execution** — The plugin injects content into display regions or reacts to platform events
-4. **Deactivation** — The plugin is disabled but its data is preserved
-5. **Uninstallation** — Runs `uninstall.php` to clean up data and tables
+1. **安裝** — 管理員啟用外掛，執行 `install.php`
+2. **設定** — 設定透過管理面板定義和管理；儲存在 `access_url_rel_plugin`（支援多租戶）
+3. **執行** — 外掛將內容注入顯示區域或回應平台事件
+4. **停用** — 外掛被停用，但其資料保留
+5. **解除安裝** — 執行 `uninstall.php` 以清理資料和資料表
 
-## Display Regions
+## 顯示區域
 
-Plugins inject HTML into 18 predefined regions of the Vue frontend by overriding `renderRegion()`:
+外掛透過覆寫 `renderRegion()` 將 HTML 注入 Vue 前端的前 18 個預定義區域：
 
 ```php
 public function renderRegion(string $region): string
@@ -87,15 +87,15 @@ public function renderRegion(string $region): string
 }
 ```
 
-Available regions: `content_bottom`, `content_top`, `course_tool_plugin`, `footer_center`, `footer_left`, `footer_right`, `header_center`, `header_left`, `header_main`, `header_right`, `login_bottom`, `login_top`, `main_bottom`, `main_top`, `menu_administrator`, `menu_bottom`, `menu_top`, `pre_footer`.
+可用區域：`content_bottom`、`content_top`、`course_tool_plugin`、`footer_center`、`footer_left`、`footer_right`、`header_center`、`header_left`、`header_main`、`header_right`、`login_bottom`、`login_top`、`main_bottom`、`main_top`、`menu_administrator`、`menu_bottom`、`menu_top`、`pre_footer`。
 
-## Symfony Integration
+## Symfony 整合
 
-### Event Subscribers
+### 事件訂閱者
 
-Files ending in `EventSubscriber.php` placed inside `src/EventSubscriber/` are auto-registered via `PluginEventSubscriberPass`. They implement `EventSubscriberInterface` and react to events defined in `src/CoreBundle/Event/Events.php`.
+置於 `src/EventSubscriber/` 中的以 `EventSubscriber.php` 結尾的檔案，會透過 `PluginEventSubscriberPass` 自動註冊。它們實作 `EventSubscriberInterface` 並回應 `src/CoreBundle/Event/Events.php` 中定義的事件。
 
-Because the plugin class (`MyPluginPlugin`) is not a Symfony service, it cannot be autowired into the subscriber constructor. Use the `create()` singleton instead:
+由於外掛類別 (`MyPluginPlugin`) 並非 Symfony 服務，因此無法自動注入至訂閱者建構子中。請改用 `create()` 單例：
 
 ```php
 class MyPluginEventSubscriber implements EventSubscriberInterface
@@ -109,13 +109,16 @@ class MyPluginEventSubscriber implements EventSubscriberInterface
 }
 ```
 
-### Doctrine Entities
+### Doctrine 實體
 
-Doctrine entities placed in `src/Entity/` are auto-discovered by `PluginEntityPass`. Use PHP 8 attributes for mapping. The namespace must follow `Chamilo\PluginBundle\{PluginName}`. Use unique table name prefixes (e.g., `my_plugin_*`) to avoid collisions.
+置於 `src/Entity/` 中的 Doctrine 實體會由 `PluginEntityPass` 自動發現。請使用 PHP 8 屬性進行映射。命名空間必須遵循 `Chamilo\PluginBundle\{PluginName}`。請使用唯一的資料表名稱前綴（例如 `my_plugin_*`）以避免衝突。
 
-### PluginHelper Service
+---
 
-For accessing plugin state from core Symfony services, inject `PluginHelper` rather than instantiating the plugin class directly:
+---
+### PluginHelper 服務
+
+為了從核心 Symfony 服務存取外掛狀態，請注入 `PluginHelper`，而非直接實例化外掛類別：
 
 ```php
 use Chamilo\CoreBundle\Helpers\PluginHelper;
@@ -133,23 +136,23 @@ class SomeService
 }
 ```
 
-Available methods:
+可用方法：
 
-| Method | Purpose |
+| 方法 | 用途 |
 |--------|---------|
-| `isPluginEnabled(string $name): bool` | Check if a plugin is installed and active for the current access URL |
-| `loadLegacyPlugin(string $name): ?object` | Instantiate and return the plugin singleton |
-| `getPluginSetting(string $name, string $key): mixed` | Read a single plugin setting value |
-| `getPluginOverrides(string $name): array` | Get `plugin.yaml` overrides (defaults + access-URL-specific) for a plugin |
+| `isPluginEnabled(string $name): bool` | 檢查外掛是否已安裝並針對目前存取 URL 啟用 |
+| `loadLegacyPlugin(string $name): ?object` | 實例化並傳回外掛單一執行個體 |
+| `getPluginSetting(string $name, string $key): mixed` | 讀取單一外掛設定值 |
+| `getPluginOverrides(string $name): array` | 取得外掛的 `plugin.yaml` 覆寫（預設值 + 存取 URL 特定值） |
 
-## Core File References
+## 核心檔案參照
 
-| File | Purpose |
+| 檔案 | 用途 |
 |------|---------|
-| `public/main/inc/lib/plugin.class.php` | Plugin base class |
-| `public/main/inc/lib/plugin.lib.php` | Plugin manager |
-| `src/CoreBundle/Entity/Plugin.php` | Plugin Doctrine entity |
-| `src/CoreBundle/Helpers/PluginHelper.php` | PluginHelper service |
-| `src/CoreBundle/Event/Events.php` | Event constants |
-| `public/plugin/HelloWorld/` | Minimal example plugin |
-| `public/plugin/TopLinks/` | Simple example plugin |
+| `public/main/inc/lib/plugin.class.php` | 外掛基底類別 |
+| `public/main/inc/lib/plugin.lib.php` | 外掛管理器 |
+| `src/CoreBundle/Entity/Plugin.php` | 外掛 Doctrine 實體 |
+| `src/CoreBundle/Helpers/PluginHelper.php` | PluginHelper 服務 |
+| `src/CoreBundle/Event/Events.php` | 事件常數 |
+| `public/plugin/HelloWorld/` | 最小範例外掛 |
+| `public/plugin/TopLinks/` | 簡單範例外掛 |

@@ -1,22 +1,22 @@
-# Chamilo 2.0 Documentation
+# Chamilo 2.0 文件
 
-Welcome to the official documentation for **Chamilo 2.0**, the open-source e-learning platform.
+歡迎閱讀 **Chamilo 2.0** 的官方文件，這是一個開源的電子學習平台。
 
-This documentation is organized into three guides, each tailored to a specific audience:
+本文件分為三個指南，針對不同受眾量身定制：
 
-* [**Teacher Guide**](teacher-guide/) — For instructors and trainers: create courses, add content, assess learners, and track progress.
-* [**Administration Guide**](admin-guide/) — For platform administrators: install, configure, and manage the Chamilo platform.
-* [**Developer Guide**](developer-guide/) — For developers: understand the architecture, build plugins, use the API, and contribute to the project.
+* [**教師指南**](teacher-guide/) — 為教師和培訓師設計：創建課程、添加內容、評估學習者並追蹤進度。
+* [**管理指南**](admin-guide/) — 為平台管理員設計：安裝、配置和管理 Chamilo 平台。
+* [**開發者指南**](developer-guide/) — 為開發者設計：了解架構、開發插件、使用 API 並為項目做出貢獻。
 
-## What's New in Chamilo 2.0
+## Chamilo 2.0 的新功能
 
-Chamilo 2.0 is a major release with a completely redesigned interface and many new features:
+Chamilo 2.0 是一個重大版本，擁有全新設計的界面和許多新功能：
 
-* **Modern interface** — Built with Vue 3 and PrimeVue for a faster, more responsive experience
-* **AI-powered tools** — Generate exercises, learning paths, and get AI-assisted grading
-* **REST API** — Full API Platform-based REST API with JWT authentication
-* **New authentication options** — OAuth2 (Azure, Keycloak, Facebook), SCIM user provisioning
-* **LTI 1.3** — Connect external learning tools seamlessly
-* **Cloud storage** — Native support for Azure Blob, AWS S3, and Google Cloud Storage
-* **Color themes** — Customizable platform branding with theme support
-* **OnlyOffice integration** — Edit documents collaboratively within the platform
+* **現代化界面** — 使用 Vue 3 和 PrimeVue 構建，提供更快、更靈敏的體驗
+* **AI 驅動工具** — 生成練習、學習路徑，並獲得 AI 輔助評分
+* **REST API** — 基於 API Platform 的完整 REST API，支援 JWT 認證
+* **新的認證選項** — 支援 OAuth2（Azure、Keycloak、Facebook）、SCIM 使用者配置
+* **LTI 1.3** — 無縫連接外部學習工具
+* **雲端儲存** — 原生支援 Azure Blob、AWS S3 和 Google Cloud Storage
+* **色彩主題** — 支援主題功能，可自訂平台品牌形象
+* **OnlyOffice 整合** — 在平台內協同編輯文件

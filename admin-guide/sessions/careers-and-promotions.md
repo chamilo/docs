@@ -1,46 +1,46 @@
-# Careers and Promotions
+# 職涯與晉升
 
-Chamilo includes a career management system that lets you define training paths and track learner progression through structured programs.
+Chamilo 包含一個職涯管理系統，讓您定義訓練路徑並追蹤學習者透過結構化程式的前進進度。
 
-## Careers
+## 職涯
 
-![The careers list showing defined career paths with name and description](/.gitbook/assets/admin-careers-list.png)
+![顯示已定義職涯路徑名稱與描述的職涯清單](/.gitbook/assets/admin-careers-list.png)
 
-A **career** represents a structured training path — a sequence of training steps that a learner follows to achieve a professional goal.
+一個 **career** 代表一個結構化的訓練路徑 — 學習者遵循以達成專業目標的一系列訓練步驟。
 
-### Creating a Career
+### 建立職涯
 
-1. From the administration panel, navigate to **Careers**
-2. Click **Create a career**
-3. Enter a **name** and **description**
-4. Save
+1. 從管理面板，導航至 **Careers**
+2. 點擊 **Create a career**
+3. 輸入 **name** 和 **description**
+4. 儲存
 
-## Promotions
+## 晉升
 
-A **promotion** represents a cohort or batch of learners progressing through a career. Think of it as a group of people going through the same career path at the same time.
+一個 **promotion** 代表一群學習者透過職涯前進的群組或批次。將其視為一群人同時走過相同職涯路徑。
 
-### Linking to Sessions
+### 連結至課程
 
-After creating a promotion, you link sessions to it. This defines the sequence of training a learner must complete.
+建立晉升後，您將課程連結至其上。這定義了學習者必須完成的訓練順序。
 
-You can later replicate promotions to help creating the next promotion with copies of the same sessions, so your next promotion can be built in an instant.
+您之後可以複製晉升，以相同課程的副本來協助建立下一個晉升，因此您的下一個晉升可以立即建置。
 
-### Creating a Promotion
+### 建立晉升
 
-1. Navigate to **Promotions**
-2. Click **Create a promotion**
-3. Enter a **name** and **description**
-4. Link it to a **career**
-5. Assign **sessions** to the promotion
-6. Save
+1. 導航至 **Promotions**
+2. 點擊 **Create a promotion**
+3. 輸入 **name** 和 **description**
+4. 將其連結至一個 **career**
+5. 將 **sessions** 指派至晉升
+6. 儲存
 
-## How It Fits Together
+## 其運作方式
 
-* A **career** defines the path (e.g., "Junior Developer Certification")
-* A **promotion** represents a cohort (e.g., "Class of March 2026")
-* **Sessions** within the promotion deliver the actual training content
+* 一個 **career** 定義路徑（例如「Junior Developer Certification」）
+* 一個 **promotion** 代表群組（例如「Class of March 2026」）
+* 晉升內的 **Sessions** 提供實際訓練內容
 
-## Tips
+## 提示
 
-* **Use for structured programs** — Careers and promotions are most useful for multi-stage training programs where learners progress through a defined sequence
-* **Track completion** — Use the reporting tools to monitor how promotions are progressing through their career paths
+* **用於結構化程式** — 職涯與晉升最適合用於多階段訓練程式，其中學習者透過定義的順序前進
+* **追蹤完成度** — 使用報告工具來監控晉升如何透過其職涯路徑前進

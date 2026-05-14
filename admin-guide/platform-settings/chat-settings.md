@@ -1,50 +1,49 @@
-# Chat Settings
+# 聊天室設定
 
-Behaviour of the course **Chat** tool.
+課程 **Chat** 工具的行為。
 
-Access these settings under **Administration > Configuration settings > Chat**. This category contains **5 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+在 **Administration > Configuration settings > Chat** 下存取這些設定。此類別包含 **5 個設定**，以下列出平台設定預設值 (`SettingsCurrentFixtures.php`) 中提供的標題和註解。
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> 程式碼中的變數名稱以等寬字體顯示。使用 API 進行腳本編寫，或需透過編輯 [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml) 在全域層級變更這些設定時，請使用它。
 
-## Settings
+## 設定
 
 ### `allow_global_chat`
 
-**Allow global chat**
+**允許全域聊天室**
 
-Users can chat with each other
+使用者可以互相聊天
 
-*Default: `false`*
+*預設值：`false`*
 
 ### `course_chat_restrict_to_coach`
 
-**Restrict course chat to coaches**
+**限制課程聊天室僅限導師**
 
-Only allow students to talk to the tutors in the course (not other students).
+僅允許學生與課程中的導師交談（不允許與其他學生）。
 
-*Default: `false`*
+*預設值：`false`*
 
 ### `hide_chat_video`
 
-**Hide videochat option in global chat**
+**在全域聊天室中隱藏視訊聊天選項**
 
-When enabled, video chat functionality is disabled and unavailable in the global chat tool.
+啟用時，視訊聊天功能將在全域聊天室工具中停用且無法使用。
 
-*Default: `true`*
+*預設值：`true`*
 
 ### `save_private_conversations_in_documents`
 
-**Save private conversations in documents**
+**將私人對話儲存至文件**
 
-If enabled, 1:1 private chat messages will be mirrored in the course chat history documents. Recommended to keep disabled for privacy.
+若啟用，1:1 私人聊天訊息將鏡像至課程聊天記錄文件中。為隱私考量，建議保持停用。
 
-*Default: `false`*
+*預設值：`false`*
 
 ### `show_chat_folder`
 
-**Show the history folder of chat conversations**
+**顯示聊天對話記錄資料夾**
 
-This will show to theacher the folder that contains all sessions that have been made in the chat, the teacher can make them visible or not learners and use them as a resource
+這將向教師顯示包含所有聊天室已進行工作階段的資料夾，教師可決定是否對學習者顯示這些資料夾，並將其用作資源
 
-*Default: `true`*
-
+*預設值：`true`*

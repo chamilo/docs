@@ -1,418 +1,422 @@
-# Learning Paths Settings
+# 學習路徑設定
 
-Defaults and behaviour of the **Learning Paths** tool — autostart, default view, prerequisites, SCORM behaviour and similar.
+**學習路徑** 工具的預設值和行為 — 自動啟動、預設檢視、先決條件、SCORM 行為等。
 
-Access these settings under **Administration > Configuration settings > Learning Paths**. This category contains **51 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+在 **Administration > Configuration settings > Learning Paths** 下存取這些設定。此類別包含 **51 個設定**，以下列出平台設定預設資料 (`SettingsCurrentFixtures.php`) 中提供的標題和註解。
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> 程式碼中的變數名稱以等寬字體顯示。使用 API 進行腳本編寫或需要透過編輯 [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml) 在全域層級變更這些設定時，請使用它。
 
-## Settings
+## 設定
 
 ### `add_all_files_in_lp_export`
 
-**Export all files when exporting a learning path**
+**匯出學習路徑時匯出所有檔案**
 
-When exporting a LP, all files and folders in the same path of an html will be exported too.
+匯出 LP 時，與 html 相同路徑中的所有檔案和資料夾也會被匯出。
 
-*Default: `false`*
+*預設值：`false`*
 
 
 ### `allow_htaccess_import_from_scorm`
 
-**Allow .htaccess from SCORM packages**
+**允許從 SCORM 套件匯入 .htaccess**
 
-Normally, all .htaccess files are filtered and removed when importing content in Chamilo. This feature allows .htaccess to be imported if it is present in a SCORM package.
+通常，在 Chamilo 匯入內容時，所有 .htaccess 檔案都會被過濾並移除。此功能允許如果 SCORM 套件中存在 .htaccess，則匯入它。
 
-*Default: `false`*
+*預設值：`false`*
 
 
 ### `allow_import_scorm_package_in_course_builder`
 
-**SCORM import within course import**
+**課程匯入中的 SCORM 匯入**
 
-Enable to copy the directory structure of SCORM packages when restoring a course (from the course maintenance tool).
+啟用在還原課程（從課程維護工具）時複製 SCORM 套件的目錄結構。
 
-*Default: `false`*
+*預設值：`false`*
 
 
 ### `allow_lp_chamilo_export`
 
-**Export learning paths in the Chamilo backup format**
+**以 Chamilo 備份格式匯出學習路徑**
 
-Enable the possibility to export any of your learning paths in a Chamilo course backup format.
+啟用將課程中的任何學習路徑匯出為 Chamilo 課程備份格式的可能性。
 
-*Default: `false`*
+*預設值：`false`*
 
 
 ### `allow_lp_return_link`
 
-**Show learning paths return link**
+**顯示學習路徑返回連結**
 
-Disable this option to hide the 'Return to homepage' button in the learning paths
+停用此選項以隱藏學習路徑中的「返回首頁」按鈕
 
-*Default: `true`*
+*預設值：`true`*
 
 
 ### `allow_lp_subscription_to_usergroups`
 
-**Learning paths subscription for classes**
+**班級的學習路徑訂閱**
 
-Enable subscription to learning paths and learning path categories to groups/classes.
+啟用群組/班級對學習路徑和學習路徑類別的訂閱。
 
-*Default: `false`*
+*預設值：`false`*
 
 
 ### `allow_session_lp_category`
 
-**Learning paths categories can be managed in sessions**
+**工作坊中可管理學習路徑類別**
 
-[inferred] Enable learners and instructors to organize and manage learning paths by categories within session courses.
+[inferred] 啟用學習者和教師在工作坊課程中透過類別組織和管理學習路徑。
 
-*Default: `false`*
+*預設值：`false`*
 
 
 ### `allow_teachers_to_access_blocked_lp_by_prerequisite`
 
-**Teachers can access blocked learning paths**
+**教師可存取被先決條件封鎖的學習路徑**
 
-Teachers do not need to pass complete learning paths to have access to a prerequisites-blocked learning path.
+教師無需完成學習路徑即可存取被先決條件封鎖的學習路徑。
 
-*Default: `false`*
+*預設值：`false`*
 
 
 ### `disable_js_in_lp_view`
 
-**Disable JS in learning paths view**
+**在學習路徑檢視中停用 JS**
 
-Disable JS files that Chamilo usually adds to HTML files in the learning path (while displaying them).
+停用 Chamilo 通常新增至學習路徑中 HTML 檔案的 JS 檔案（在顯示它們時）。
 
-*Default: `false`*
+*預設值：`false`*
 
 
 ### `disable_my_lps_page`
 
-**Hide 'My learning paths' page**
+**隱藏「我的學習路徑」頁面**
 
-The page 'My learning path' was added in 1.11. Use this option to hide it.
+「我的學習路徑」頁面在 1.11 中新增。使用此選項隱藏它。
 
-*Default: `false`*
+*預設值：`false`*
 
 ### `download_files_after_all_lp_finished`
 
-**Download button after finishing learning paths**
+**完成所有學習路徑後的下載按鈕**
 
-Show download files button after finishing all LP. Example: if ABC is the course code, and 1 and 100 are the doc id, choose: ['courses' => ['ABC' => [1, 100]]].
+完成所有 LP 後顯示下載檔案按鈕。例如：如果 ABC 是課程代碼，且 1 和 100 是文件 ID，請選擇：['courses' => ['ABC' => [1, 100]]]。
 
 ### `force_edit_exercise_in_lp`
 
-**Edition of tests included in learning paths**
+**學習路徑中包含測驗的編輯**
 
-Enable editing tests even if they have been included in a learning path. The default is to prevent edition if the test is in a learning path, because that can affect consistency of tracking among many learners if test modifications are significant.
+即使測驗已包含在學習路徑中，也啟用編輯測驗。預設情況下，如果測驗在學習路徑中，則防止編輯，因為如果測驗修改重大，可能會影響多位學習者的追蹤一致性。
 
-*Default: `false`*
+*預設值：`false`*
 
 ### `hide_accessibility_label_on_lp_item`
 
-**Hide requirements label in learning paths**
+**在學習路徑中隱藏需求標籤**
 
-Hide the pre-requisites tooltip on learning path items. This is mostly an estaethic choice.
+隱藏學習路徑項目上的先決條件工具提示。這主要是美學選擇。
 
-*Default: `true`*
+*預設值：`true`*
 
 ### `hide_lp_time`
 
-**Hide time from learning paths records**
+**從學習路徑記錄中隱藏時間**
 
-Hide learning paths time spent in reports in general.
+在一般報告中隱藏學習路徑花費的時間。
 
-*Default: `false`*
+*預設值：`false`*
 
 ### `hide_scorm_copy_link`
 
-**Hide SCORM Copy**
+**隱藏 SCORM 複製**
 
-Hide the Learning Path Copy icon from the Learning Paths list
+從學習路徑清單中隱藏學習路徑複製圖示
 
-*Default: `false`*
+*預設值：`false`*
 
 ### `hide_scorm_export_link`
 
-**Hide SCORM Export**
+**隱藏 SCORM 匯出**
 
-Hide the SCORM Export icon from the Learning Paths list
+從學習路徑清單中隱藏 SCORM 匯出圖示
 
-*Default: `false`*
+*預設值：`false`*
 
 ### `hide_scorm_pdf_link`
 
-**Hide Learning Path PDF export**
+**隱藏學習路徑 PDF 匯出**
 
-Hide the Learning Path PDF Export icon from the Learning Paths list
+從學習路徑清單中隱藏學習路徑 PDF 匯出圖示
 
-*Default: `true`*
+*預設值：`true`*
 
 ### `lp_allow_export_to_students`
 
-**Learners can export learning paths**
+**學習者可匯出學習路徑**
 
-Enable this to allow learners to download the learning paths as SCORM packages.
+啟用此功能以允許學習者將學習路徑下載為 SCORM 套件。
 
-*Default: `false`*
+*預設值：`false`*
 
 ### `lp_enable_flow`
 
-**Navigate between learning paths**
+**在學習路徑之間導航**
 
-Add the possibility to select a 'next' learning path and show buttons inside the learning path to move from one to the next.
+新增選擇「下一個」學習路徑的可能性，並在學習路徑內顯示按鈕以從一個移至下一個。
 
-*Default: `false`*
+*預設值：`false`*
 
 ### `lp_fixed_encoding`
 
-**Fixed encoding in learning path**
+**學習路徑中的固定編碼**
 
-Reduce resource usage by ignoring a check on the text encoding in imported learning paths.
+透過忽略匯入學習路徑中的文字編碼檢查來減少資源使用量。
 
-*Default: `false`*
+*預設值：`false`*
 
 ### `lp_item_prerequisite_dates`
 
-**Date-based learning path items prerequisites**
+**基於日期的學習路徑項目先決條件**
 
-Adds the option to define prerequisites with start and end dates for learnpath items.
+新增為學習路徑項目定義具有開始和結束日期的先決條件的選項。
 
-*Default: `false`*
+*預設值：`false`*
 
+---
+
+---
 ### `lp_menu_location`
 
-**Learning path menu location**
+**學習路徑選單位置**
 
-Set this to 'left' or 'right' to change the side of the learning path menu.
+將此設定為 'left' 或 'right' 以變更學習路徑選單的位置。
 
-*Default: `left`*
+*預設：`left`*
 
 ### `lp_minimum_time`
 
-**Minimum time to complete learning path**
+**完成學習路徑的最短時間**
 
-Add a minimum time field to learning paths. If the user has not spent that much time on the learning path, the last item of the learning path cannot be completed.
+在學習路徑中新增最短時間欄位。如果使用者在學習路徑上未花費足夠時間，則學習路徑的最後項目無法完成。
 
-*Default: `false`*
+*預設：`false`*
 
 ### `lp_prerequisit_on_quiz_unblock_if_max_attempt_reached`
 
-**Unlock learning path item if max attempt is reached for test prerequisite**
+**如果先決測驗達到最大嘗試次數則解鎖學習路徑項目**
 
-[inferred] Automatically unlock subsequent learning path items when a learner exhausts maximum quiz attempts for a prerequisite test.
-
+[inferred] 當學習者用盡先決測驗的最大嘗試次數時，自動解鎖後續學習路徑項目。
 
 ### `lp_prerequisite_on_quiz_unblock_if_max_attempt_reached`
 
-**Unlock prerequisites after last test attempt**
+**最後一次測驗嘗試後解鎖先決條件**
 
-Allows users to continue in a learning path after using all quiz attempts of a test used as prerequisite for other items.
+允許使用者在用盡用作其他項目先決條件的測驗嘗試次數後繼續學習路徑。
 
-*Default: `false`*
+*預設：`false`*
 
 ### `lp_prerequisite_use_last_attempt_only`
 
-**Use last score in learning path test prerequisites**
+**學習路徑測驗先決條件使用最後一次分數**
 
-When a test is used as prerequisite for an item in the learning path, use the last attempt of the test only as validation for the prerequisite (default is to use best attempt).
+當測驗用作學習路徑中項目的先決條件時，僅使用測驗的最後一次嘗試作為先決條件的驗證（預設為使用最佳嘗試）。
 
-*Default: `false`*
+*預設：`false`*
 
 ### `lp_prevents_beforeunload`
 
-**Prevent beforeunload JS event in learning path**
+**在學習路徑中防止 beforeunload JS 事件**
 
-This helps with browser compatibility by preventing tricky JS events to execute.
+這有助於瀏覽器相容性，防止棘手的 JS 事件執行。
 
-*Default: `false`*
+*預設：`false`*
 
 ### `lp_score_as_progress_enable`
 
-**Use learning path score as progress**
+**使用學習路徑分數作為進度**
 
-This is useful when using SCORM content with only one large SCO. SCORM does not communicate progress, so this is a trick to use the score as progress. Enabling this option will let you configure this on a per-learning path basis.
+這在僅使用一個大型 SCO 的 SCORM 內容時很有用。SCORM 不傳遞進度，因此這是用分數作為進度的技巧。啟用此選項將允許您在每個學習路徑基礎上配置此設定。
 
-*Default: `false`*
+*預設：`false`*
 
 ### `lp_show_max_progress_instead_of_average`
 
-**Show max progress instead of average for learning paths reporting**
+**學習路徑報告顯示最大進度而非平均值**
 
-[inferred] Calculate learning path progress based on maximum item completion rather than averaging all items.
+[inferred] 根據最大項目完成度計算學習路徑進度，而非平均所有項目。
 
-*Default: `false`*
+*預設：`false`*
 
 ### `lp_show_max_progress_or_average_enable_course_level_redefinition`
 
-**Select max progress vs average for learning paths at course level**
+**課程層級選擇學習路徑的最大進度與平均值**
 
-Enable redefinition of the setting to show the best progress instead of averages in reporting of learnpaths at a course level.
+啟用在課程層級重新定義顯示最佳進度而非平均值的報告設定。
 
-*Default: `false`*
+*預設：`false`*
 
 ### `lp_show_reduced_report`
 
-**Learning paths: show reduced report**
+**學習路徑：顯示簡化報告**
 
-Inside the learning paths tool, when a user reviews his own progress (through the stats icon), show a shorten (less detailed) version of the progress report.
+在學習路徑工具中，當使用者檢視自身進度（透過統計圖示）時，顯示進度報告的縮短（較不詳細）版本。
 
-*Default: `false`*
+*預設：`false`*
 
 ### `lp_start_and_end_date_visible_in_student_view`
 
-**Display learning path availability to learners**
+**向學習者顯示學習路徑可用性**
 
-Show learning paths to learners with their availability dates, rather than hiding them until the date comes.
+向學習者顯示學習路徑及其可用日期，而非在日期到來前隱藏它們。
 
-*Default: `false`*
+*預設：`false`*
 
 ### `lp_subscription_settings`
 
-**Learning paths subscription settings**
+**學習路徑訂閱設定**
 
-Configure additional options for the learning paths subscription feature. Options include 'allow_add_users_to_lp' and 'allow_add_users_to_lp_category'.
+配置學習路徑訂閱功能的額外選項。選項包括 'allow_add_users_to_lp' 和 'allow_add_users_to_lp_category'。
 
 ### `lp_view_accordion`
 
-**Foldable learning paths' items**
+**可摺疊學習路徑項目**
 
-[inferred] Display learning path items in collapsible accordion format for improved navigation and content organization.
+[inferred] 以可摺疊手風琴格式顯示學習路徑項目，以改善導航和內容組織。
 
-*Default: `false`*
+*預設：`false`*
 
 ### `lp_view_settings`
 
-**Learning path display settings**
+**學習路徑顯示設定**
 
-Configure additional options for the learning paths display. Options include 'show_reporting_icon', 'hide_lp_arrow_navigation', 'show_toolbar_by_default', 'navigation_in_the_middle' and 'add_extra_quit_to_home_icon'.
+配置學習路徑顯示的額外選項。選項包括 'show_reporting_icon'、'hide_lp_arrow_navigation'、'show_toolbar_by_default'、'navigation_in_the_middle' 和 'add_extra_quit_to_home_icon'。
 
 ### `scorm_api_extrafield_to_use_as_student_id`
 
-**Use extra field as student\_id in SCORM communication**
+**在 SCORM 通訊中使用額外欄位作為 student\_id**
 
-Give the name of the extra field to be used as student_id for all SCORM communication.
+提供用作所有 SCORM 通訊中 student_id 的額外欄位名稱。
 
 ### `scorm_api_username_as_student_id`
 
-**Use username as student\_id in SCORM communication**
+**在 SCORM 通訊中使用使用者名稱作為 student\_id**
 
-[inferred] Use learner username as the student identifier in SCORM API communication instead of learner ID.
+[inferred] 在 SCORM API 通訊中使用學習者使用者名稱作為學生識別碼，而非學習者 ID。
 
-*Default: `false`*
+*預設：`false`*
 
 ### `scorm_lms_update_sco_status_all_time`
 
-**Update SCO status autonomously**
+**自主更新 SCO 狀態**
 
-If the SCO is not sending a status, take over and update the status based on what can be observed in Chamilo.
+如果 SCO 未傳送狀態，則接管並根據在 Chamilo 中可觀察到的內容更新狀態。
 
-*Default: `false`*
+*預設：`false`*
 
 ### `scorm_upload_from_cache`
 
-**Upload SCORM from cache dir**
+**從快取目錄上傳 SCORM**
 
-Allow admins to upload a SCORM package (in zip form) into the cache directory and to use it as import source on the SCORM upload page.
+允許管理員將 SCORM 套件（zip 格式）上傳至快取目錄，並在 SCORM 上傳頁面將其用作匯入來源。
 
-*Default: `false`*
+*預設：`false`*
 
 ### `show_hidden_exercise_added_to_lp`
 
-**Display tests from learning paths even if invisible**
+**即使隱藏也顯示新增至學習路徑的測驗**
 
-Show hidden exercises that were added to a LP in the exercise list. If we are in a session, the test is invisible in the base course, it is included in a LP and the setting to show it is not specifically set to true, then hide it.
+在測驗清單中顯示新增至 LP 的隱藏測驗。如果處於工作階段、測驗在基礎課程中為隱藏、包含在 LP 中且未明確設定顯示，則隱藏它。
 
-*Default: `true`*
+*預設：`true`*
 
 ### `show_invisible_exercise_in_lp_list`
 
-**Display tests in list of learning path tests even if invisible**
+**即使隱藏也顯示學習路徑測驗清單中的測驗**
 
-[inferred] Include hidden tests in the list of available tests when viewing learning path contents.
+[inferred] 在檢視學習路徑內容時，將隱藏測驗包含在可用測驗清單中。
 
-*Default: `false`*
+*預設：`false`*
 
+---
+
+---
 ### `show_invisible_exercise_in_lp_toc`
 
-**Invisible tests visible in learning paths**
+**學習路徑目錄中顯示隱藏測驗**
 
-Make tests marked as 'invisible' in the tests tool appear when they are included in a learning path.
+使在測驗工具中標記為「隱藏」的測驗在包含於學習路徑時顯示。
 
-*Default: `false`*
+*預設：`false`*
 
 ### `show_invisible_lp_in_course_home`
 
-**Display link to learning path on course home when invisible**
+**課程首頁顯示隱藏學習路徑連結**
 
-If a learning path is set to invisible but the teacher/coach decided to make it available from the course homepage, this option prevents Chamilo from hiding the link on the course homepage.
+如果學習路徑設定為隱藏，但教師/導師決定從課程首頁提供存取，此選項可防止 Chamilo 在課程首頁隱藏該連結。
 
-*Default: `false`*
+*預設：`false`*
 
 ### `show_prerequisite_as_blocked`
 
-**Learning path's prerequisites**
+**學習路徑的前置條件**
 
-On the learning paths lists, display a visual element to show that other learning paths are currently blocked by some prerequisites rule.
+在學習路徑清單中，顯示視覺元素以表示其他學習路徑目前因某些前置條件規則而被封鎖。
 
-*Default: `false`*
+*預設：`false`*
 
 ### `student_follow_page_add_LP_acquisition_info`
 
-**Add acquisition column in learner follow-up**
+**在學習者追蹤中新增取得狀態欄位**
 
-Add column to learner follow-up page to show acquisition status by a learner on a learning path.
+在學習者追蹤頁面新增欄位，以顯示學習者在學習路徑上的取得狀態。
 
-*Default: `false`*
+*預設：`false`*
 
 ### `student_follow_page_add_LP_invisible_checkbox`
 
-**Add visibility information for learning paths on learner follow-up page**
+**在學習者追蹤頁面新增學習路徑可見性資訊**
 
-[inferred] Display visibility status indicator for learning paths on the learner progress tracking page.
+[inferred] 在學習者進度追蹤頁面顯示學習路徑的可見性狀態指示器。
 
-*Default: `false`*
+*預設：`false`*
 
 ### `student_follow_page_add_LP_subscription_info`
 
-**Unlocked information in learning paths list**
+**學習路徑清單中的解鎖資訊**
 
-This adds an 'unlocked' column in the learning paths list if the learner is subscribed to the given learning path and has access to it.
+如果學習者已訂閱給定的學習路徑並有存取權限，此設定會在學習路徑清單中新增「已解鎖」欄位。
 
-*Default: `false`*
+*預設：`false`*
 
 ### `student_follow_page_hide_lp_tests_average`
 
-**Hide percentage sign in average of tests in learning paths in learner follow-up**
+**在學習者追蹤中隱藏學習路徑測驗平均值的百分比符號**
 
-Hides the icon of percentage in 'Average of tests in Learning Paths' indication on a student tracking
+隱藏學生追蹤中「學習路徑測驗平均值」指示的百分比圖示。
 
-*Default: `false`*
+*預設：`false`*
 
 ### `student_follow_page_include_not_subscribed_lp_students`
 
-**Include learning paths not subscribed to on learner follow-up page**
+**在學習者追蹤頁面包含未訂閱的學習路徑**
 
-[inferred] Show learning paths on progress pages even when learners are not subscribed to them.
+[inferred] 即使學習者未訂閱，也在進度頁面顯示學習路徑。
 
-*Default: `false`*
+*預設：`false`*
 
 ### `ticket_lp_quiz_info_add`
 
-**Add learning paths and tests info to ticket reporting**
+**在支援票證回報中新增學習路徑和測驗資訊**
 
-[inferred] Include learning path and test information in support ticket reporting for better issue tracking.
+[inferred] 在支援票證回報中包含學習路徑和測驗資訊，以利更好的問題追蹤。
 
-*Default: `false`*
+*預設：`false`*
 
 ### `validate_lp_prerequisite_from_other_session`
 
-**Use learning path item status from other sessions**
+**使用其他課程期間的學習路徑項目狀態驗證前置條件**
 
-Allow users to complete prerequisites in a learning path if the corresponding item was already completed in another session.
+允許使用者在學習路徑中完成前置條件，如果對應項目已在另一課程期間完成。
 
-*Default: `false`*
-
+*預設：`false`*

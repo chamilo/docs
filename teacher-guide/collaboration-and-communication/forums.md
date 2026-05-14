@@ -1,58 +1,58 @@
-# Forums
+# 論壇
 
-The forum tool allows you to host structured discussions within your course. Learners can post messages, reply to each other, and engage in threaded conversations.
+論壇工具讓您在課程中舉辦結構化的討論。學生可以發佈訊息、互相回覆，並參與基於主題串的對話。
 
-## Forum Structure
+## 論壇結構
 
-![The forum category list showing categories, forums, and topic counts](/.gitbook/assets/forum-category-list.png)
+![論壇類別清單，顯示類別、論壇和主題數量](/.gitbook/assets/forum-category-list.png)
 
-Forums in Chamilo are organized in three levels:
+Chamilo 中的論壇以三個層級組織：
 
-1. **Forum categories** — Top-level groupings (e.g., "General Discussions", "Module 1 Questions")
-2. **Forums** — Individual discussion boards within a category
-3. **Topics (threads)** — Individual discussion topics within a forum, each with a chain of replies
+1. **論壇類別** — 最高層級的分組（例如，「一般討論」、「模組 1 問題」）
+2. **論壇** — 類別中的單一討論板
+3. **主題 (threads)** — 論壇中的單一討論主題，每個包含一系列回覆
 
-## Creating a Forum Category
+## 建立論壇類別
 
-1. Open the **Forums** <img src="/.gitbook/assets/icons/mdi-comment-quote.svg" alt="Forums" data-size="line"> tool from your course homepage
-2. Click **Add a forum category**
-3. Enter a **Category name** and optional description
-4. Save
+1. 在課程首頁開啟 **Forum** 工具 <img src="/.gitbook/assets/icons/mdi-comment-quote.svg" alt="Forum" data-size="line">
+2. 點選 **新增論壇類別**
+3. 輸入 **類別名稱** 和選填的描述
+4. 儲存
 
-## Creating a Forum
+## 建立論壇
 
-You can only add a forum once at least one category exists.
+只有在至少存在一個類別時，您才能新增論壇。
 
-1. Within a category, click **Add a forum**
-2. Fill in the basic details:
-   * **Title** — The name of this discussion board
-   * **Description** — An optional description of the forum's purpose
-   * **Create in category** — The category this forum belongs to
-3. Open **Advanced settings** to configure:
-   * **Publication date** / **Closing date** — Optional time window during which the forum is open
-   * **Moderated forum** — Require new posts to be approved by a teacher before they become visible
-   * **Can learners edit their own posts?** — Allow or prevent learners from editing posts after submitting
-   * **Allow users to start new threads** — When set to No, learners can only reply to existing threads
-   * **Default view type** — Choose how posts are displayed: **Flat**, **Threaded**, or **Nested**
-   * **For Group** — Attach this forum to a course group
-   * **Public access / Private access** — For group forums, decide whether any course member can read it or only group members
-4. Save
+1. 在某個類別內，點選 **新增論壇**
+2. 填入基本資訊：
+   * **標題** — 此討論板的名称
+   * **描述** — 關於論壇目的的選填描述
+   * **建立於類別** — 此論壇所屬的類別
+3. 開啟 **進階設定** 以設定：
+   * **發佈日期** / **結束日期** — 論壇開放的選填時間視窗
+   * **論壇是否需要審核？** — 新貼文需經教師同意才能顯示
+   * **學生是否可編輯自己的貼文？** — 允許或禁止學生在發佈後編輯貼文
+   * **允許使用者開始新主題** — 若設為「否」，學生僅能回覆現有主題
+   * **預設顯示類型** — 選擇貼文顯示方式：**平面**、**主題串** 或 **巢狀**
+   * **指定給群組** — 將此論壇連結至課程中的特定群組
+   * **公開存取 / 私人存取** — 對於群組論壇，指定全體課程成員是否可閱讀，或僅限群組成員
+4. 儲存
 
-If the course visibility is set to "Open to the world", the form also shows an **Allow anonymous posts?** option. This option is hidden in courses with restricted visibility.
+若課程可見性設為「全世界公開」，表單也會顯示 **是否允許匿名發文？** 選項。此選項在可見性受限的課程中會隱藏。
 
-## Managing Topics
+## 管理主題
 
-Learners (and you) can create new topics within a forum. As a teacher, you can:
+學生（以及您）可在論壇中建立新主題。身為教師，您可以：
 
-* **Pin a topic (sticky message)** — Mark a thread as sticky when you create or edit it so it always appears at the top
-* **Lock a topic** — Prevent further replies
-* **Edit or delete posts** — Moderate the discussion
-* **Move a topic** — Transfer a topic to a different forum
+* **標記主題為重要 (重要訊息)** — 在建立或編輯時標記主題為重要，使其始終顯示在最上方
+* **鎖定主題** — 防止新增回覆
+* **編輯或刪除貼文** — 審核討論內容
+* **移動主題** — 將主題移至其他論壇
 
-## Forum Scoring
+## 論壇評分
 
-When creating a new thread as a teacher, you can enable **Grade this thread** under Advanced settings. You then set a maximum score, a column header for the gradebook, and a weight in the report. You can also enable **Thread scored by peers**, which requires each learner to qualify at least two other learners before their own score counts.
+身為教師，在建立新主題時，您可在進階設定中啟用 **評分此主題**。之後，您可設定最大分數、成績單中的欄位標題，以及報告中的權重。您也可啟用 **同儕評分主題**，要求每位學生評分至少兩位其他學生，始終計算其自身評分。
 
-## Notifications
+## 通知
 
-Each forum and thread has a **Notify me** toggle that you and your learners can use to subscribe to email notifications about new posts. Notifications are a per-user subscription and are not configured when creating the forum.
+每個論壇和主題皆有 **通知我** 按鈕，您和您的學生可用此按鈕訂閱新貼文的電子郵件通知。通知為每使用者訂閱制，且無法在建立論壇時設定。

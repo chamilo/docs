@@ -1,6 +1,6 @@
-# AI Media Generation
+# AI 媒體生成
 
-When editing a document in the **Documents** tool, the AI media generation feature lets you produce an **image** or a **short video** to illustrate a paragraph — directly from the rich-text editor (WYSIWYG), without leaving the document.
+在 **Documents** 工具中編輯文件時，AI 媒體生成功能可讓您直接從富文本編輯器 (WYSIWYG) 產生 **image** 或 **short video** 來圖解段落 — 無需離開文件。
 
 ## Requirements
 
@@ -10,13 +10,13 @@ When editing a document in the **Documents** tool, the AI media generation featu
 
 ## How to Generate an Image or Video
 
-1. Open a document in the **Documents** <img src="/.gitbook/assets/icons/mdi-bookshelf.svg" alt="Documents" data-size="line"> tool (create a new one or edit an existing one)
-2. In the rich-text editor, place your cursor in or near the paragraph you want to illustrate
-3. Open the **Generate AI media** dialog from the editor toolbar
-4. Describe what you want the media to show, or use the selected paragraph as the prompt
-5. Choose whether to generate an **image** or a **video**
-6. Click **Generate** and wait for the AI to produce the result
-7. Preview the generated media and, if satisfied, click **Insert** to embed it in the document
+1. 在 **Documents** <img src="/.gitbook/assets/icons/mdi-bookshelf.svg" alt="Documents" data-size="line"> 工具中開啟文件（建立新文件或編輯現有文件）
+2. 在富文本編輯器中，將游標置於您要圖解的段落內或附近
+3. 從編輯器工具列開啟 **Generate AI media** 對話框
+4. 描述您希望媒體呈現的內容，或使用選取的段落作為提示
+5. 選擇生成 **image** 或 **video**
+6. 按一下 **Generate** 並等待 AI 產生結果
+7. 預覽生成的媒體，若滿意則按一下 **Insert** 以將其嵌入文件
 
 ## Tips
 

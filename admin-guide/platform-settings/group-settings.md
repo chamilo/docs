@@ -1,37 +1,35 @@
-# Groups Settings
+# 群組設定
 
-Behaviour of the course **Groups** tool.
+課程 **Groups** 工具的行為。
 
-Access these settings under **Administration > Configuration settings > Groups**. This category contains **3 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+在 **Administration > Configuration settings > Groups** 下存取這些設定。此類別包含 **3 個設定**，以下列出平台設定預設資料 (`SettingsCurrentFixtures.php`) 中提供的標題和註解。
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> 程式碼中的變數名稱以等寬字體顯示。使用 API 進行腳本編寫或需要透過編輯 [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml) 在全域層級變更這些設定時，請使用它。
 
-## Settings
+## 設定
 
 ### `allow_group_categories`
 
-**Group categories**
+**群組分類**
 
-Allow teachers to create categories in the Groups tool?
+允許教師在 Groups 工具中建立分類嗎？
 
-*Default: `false`*
+*預設值：`false`*
 
 
 ### `hide_course_group_if_no_tools_available`
 
-**Hide course group if no tool**
+**無工具時隱藏課程群組**
 
-If no tool is available in a group and the user is not registered to the group itself, hide the group completely in the groups list.
+如果群組中沒有任何工具可用，且使用者未註冊該群組本身，則在群組清單中完全隱藏該群組。
 
-*Default: `false`*
+*預設值：`false`*
 
 
 ### `show_groups_to_users`
 
-**Show classes to users**
+**向使用者顯示班級**
 
-Show the classes to users. Classes are a feature that allow you to register/unregister groups of users into a session or a course directly, reducing the administrative hassle. When you pick this option, learners will be able to see in which class they are through their social network interface.
+向使用者顯示班級。班級是一項功能，允許您直接將使用者群組註冊/取消註冊至課程或工作坊，從而減少行政負擔。選擇此選項時，學習者將能夠透過其社群網路介面查看他們屬於哪個班級。
 
-*Default: `false`*
-
-
+*預設值：`false`*
