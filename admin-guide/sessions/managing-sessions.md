@@ -1,75 +1,75 @@
-# Managing Sessions
+# Sitzungen verwalten
 
-## Creating a Session
+## Eine Sitzung erstellen
 
-![The session creation form with fields for name, dates, coach, category, and visibility](/.gitbook/assets/admin-session-create-form.png)
+![Das Formular zur Erstellung einer Sitzung mit Feldern für Name, Datum, Coach, Kategorie und Sichtbarkeit](/.gitbook/assets/admin-session-create-form.png)
 
-1. From the administration panel, click **Create a session**
-2. Fill in the session details:
-   * **Session name** — A descriptive name (e.g., "Spring 2026 Onboarding")
-   * **Start and end dates** — When the session runs (optional — sessions can be open-ended). There are 3 sets of dates: Dates to display, dates to limit learners access and dates to limit coaches access
-   * **Session coach** — The person overseeing the entire session
-   * **Category** — Assign to a session category for organization
-   * **Visibility** — Control access and listing behavior
-3. **Add courses** — Select one or more courses to include in the session
-4. **Enroll learners** — Add individual users or classes of users
-5. **Assign course coaches** — For each course, assign a teacher (course coach)
-6. Save
+1. Klicken Sie im Verwaltungsbereich auf **Eine Sitzung erstellen**
+2. Füllen Sie die Sitzungsdetails aus:
+   * **Sitzungsname** — Ein beschreibender Name (z. B. „Einführung Frühjahr 2026“)
+   * **Start- und Enddatum** — Zeitraum, in dem die Sitzung läuft (optional — Sitzungen können offen enden). Es gibt 3 Datumsbereiche: Anzeigedaten, Daten zur Begrenzung des Lernzugangs und Daten zur Begrenzung des Coach-Zugangs
+   * **Sitzungscoach** — Die Person, die die gesamte Sitzung betreut
+   * **Kategorie** — Zuordnung zu einer Sitzungskategorie zur Organisation
+   * **Sichtbarkeit** — Steuerung des Zugriffs und der Anzeigeverhalten
+3. **Kurse hinzufügen** — Wählen Sie einen oder mehrere Kurse aus, die in die Sitzung aufgenommen werden sollen
+4. **Lernende einschreiben** — Fügen Sie einzelne Benutzer oder Benutzergruppen hinzu
+5. **Kurs-Coaches zuweisen** — Weisen Sie jedem Kurs einen Lehrer (Kurs-Coach) zu
+6. Speichern
 
-## Session Dates
+## Sitzungsdaten
 
-Sessions support flexible date configuration:
+Sitzungen unterstützen flexible Datumsangaben:
 
-| Date | Purpose |
-|------|---------|
-| **Display start/end** | When the session appears in learner listings |
-| **Access start/end** | When learners can actually access the session content |
-| **Coach access start/end** | When coaches can access the session (often starts before and ends after learner access) |
+| Datum | Zweck |
+|------|-------|
+| **Anzeige-Start/Ende** | Wann die Sitzung in den Lernenden-Listen angezeigt wird |
+| **Zugangs-Start/Ende** | Wann Lernende tatsächlich auf die Sitzungsinhalte zugreifen können |
+| **Coach-Zugangs-Start/Ende** | Wann Coaches auf die Sitzung zugreifen können (oft beginnt vor und endet nach dem Lernendenzugang) |
 
-This allows you to prepare the session before learners arrive and keep coach access open after the session ends for grading and reporting.
+Dies ermöglicht es Ihnen, die Sitzung vorzubereiten, bevor die Lernenden Zugang erhalten, und den Coach-Zugang nach Ende der Sitzung für Bewertungen und Berichte offen zu halten.
 
-## Session List
+## Sitzungsliste
 
-![The session list showing all sessions with name, dates, course count, learner count, and status](/.gitbook/assets/admin-session-list.png)
+![Die Sitzungsliste zeigt alle Sitzungen mit Name, Datum, Kursanzahl, Lernendenanzahl und Status](/.gitbook/assets/admin-session-list.png)
 
-The session list shows all sessions with:
+Die Sitzungsliste zeigt alle Sitzungen mit:
 
-* Session name
-* Start and end dates
-* Status (active, upcoming, past)
+* Sitzungsname
+* Start- und Enddatum
+* Status (aktiv, bevorstehend, vergangen)
 
-Use search and filters to find sessions by name, date, category, or status.
+Verwenden Sie die Suche und Filter, um Sitzungen nach Name, Datum, Kategorie oder Status zu finden.
 
-## Editing a Session
+## Eine Sitzung bearbeiten
 
-Click on a session to edit:
+Klicken Sie auf eine Sitzung, um sie zu bearbeiten:
 
-* Change dates, name, or category
-* Add or remove courses
-* Change course coaches
-* Add or remove learners
-* View tracking data for the session
+* Ändern Sie Datum, Name oder Kategorie
+* Fügen Sie Kurse hinzu oder entfernen Sie sie
+* Ändern Sie Kurs-Coaches
+* Fügen Sie Lernende hinzu oder entfernen Sie sie
+* Sehen Sie sich die Tracking-Daten für die Sitzung an
 
-## Enrolling Users
+## Benutzer einschreiben
 
-![The session enrollment interface for adding individual users, classes, or importing via CSV](/.gitbook/assets/admin-session-enrollment.png)
+![Die Benutzeroberfläche zur Einschreibung in Sitzungen zum Hinzufügen einzelner Benutzer, Klassen oder zum Importieren per CSV](/.gitbook/assets/admin-session-enrollment.png)
 
-You can enroll users in a session by:
+Sie können Benutzer in eine Sitzung einschreiben durch:
 
-* **Individual enrollment** — Search for and add individual users
-* **Class enrollment** — Add an entire class (group of pre-defined users) at once
-* **CSV import** — Upload a file with user-session assignments
+* **Individuelle Einschreibung** — Suchen und Hinzufügen einzelner Benutzer
+* **Klasseneinschreibung** — Hinzufügen einer gesamten Klasse (Gruppe vordefinierter Benutzer) auf einmal
+* **CSV-Import** — Hochladen einer Datei mit Benutzer-Sitzung-Zuweisungen
 
-## Session Access
+## Sitzungszugang
 
-Learners access their sessions through **My sessions** in the sidebar. Sessions are organized into:
+Lernende greifen über **Meine Sitzungen** in der Seitenleiste auf ihre Sitzungen zu. Sitzungen sind organisiert in:
 
-* **Current sessions** — Currently active
-* **Past sessions** — Ended
-* **Upcoming sessions** — Not yet started
+* **Aktuelle Sitzungen** — Derzeit aktiv
+* **Vergangene Sitzungen** — Beendet
+* **Bevorstehende Sitzungen** — Noch nicht begonnen
 
-## Tips
+## Tipps
 
-* **Plan dates carefully** — Make sure coach access dates extend beyond learner dates so coaches can set up and follow up
-* **Use classes for recurring enrollment** — If you frequently enroll the same groups, create classes and assign them to sessions
-* **Keep sessions organized** — Use categories and clear naming conventions for easy management
+* **Planen Sie Daten sorgfältig** — Stellen Sie sicher, dass die Zugangsdaten für Coaches über die Lernendendaten hinausgehen, damit Coaches vorbereiten und nachbereiten können
+* **Verwenden Sie Klassen für wiederkehrende Einschreibungen** — Wenn Sie häufig dieselben Gruppen einschreiben, erstellen Sie Klassen und weisen Sie sie Sitzungen zu
+* **Halten Sie Sitzungen organisiert** — Verwenden Sie Kategorien und klare Namenskonventionen für eine einfache Verwaltung

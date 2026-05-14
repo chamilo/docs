@@ -1,33 +1,31 @@
-# Search Settings
+# Such-Einstellungen
 
-Configuration of the full-text search system (Xapian).
+Konfiguration des Volltextsuchsystems (Xapian).
 
-Access these settings under **Administration > Configuration settings > Search**. This category contains **3 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+Greifen Sie auf diese Einstellungen unter **Verwaltung > Konfigurationseinstellungen > Suche** zu. Diese Kategorie enthält **3 Einstellungen**, die unten mit dem Titel und Kommentar aufgeführt sind, wie sie in den Standardeinstellungen der Plattform (`SettingsCurrentFixtures.php`) bereitgestellt werden.
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> Der Variablenname im Code wird in Monospace angezeigt. Verwenden Sie ihn, wenn Sie über die API skripten oder wenn Sie diese Einstellungen auf globaler Ebene ändern müssen, indem Sie [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml) bearbeiten.
 
-## Settings
+## Einstellungen
 
 ### `search_enabled`
 
-**Full-text search feature**
+**Volltextsuchfunktion**
 
-Select 'Yes' to enable this feature. It is highly dependent on the Xapian extension for PHP, so this will not work if this extension is not installed on your server, in version 1.x at minimum.
+Wählen Sie 'Ja', um diese Funktion zu aktivieren. Sie ist stark abhängig von der Xapian-Erweiterung für PHP, daher funktioniert dies nicht, wenn diese Erweiterung nicht auf Ihrem Server installiert ist, mindestens in Version 1.x.
 
-*Default: `false`*
-
+*Standard: `false`*
 
 ### `search_prefilter_prefix`
 
-**Specific Field for prefilter**
+**Spezifisches Feld für Vorfilter**
 
-This option let you choose the Specific field to use on prefilter search type.
+Mit dieser Option können Sie das spezifische Feld auswählen, das für die Vorfiltersuchart verwendet werden soll.
 
 ### `search_show_unlinked_results`
 
-**Full-text search: show unlinked results**
+**Volltextsuche: Nicht verknüpfte Ergebnisse anzeigen**
 
-When showing the results of a full-text search, what should be done with the results that are not accessible to the current user?
+Was soll mit den Ergebnissen geschehen, die für den aktuellen Benutzer nicht zugänglich sind, wenn die Ergebnisse einer Volltextsuche angezeigt werden?
 
-*Default: `true`*
-
+*Standard: `true`*

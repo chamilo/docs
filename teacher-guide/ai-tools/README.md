@@ -1,27 +1,27 @@
-# AI Tools
+# KI-Tools
 
-Chamilo 2.0 introduces AI-powered tools that help you create content faster and provide personalized support to your learners. These features use large language models (such as OpenAI's GPT, Google Gemini, Mistral, or others) to generate educational content and assist with grading.
+Chamilo 2.0 führt KI-gestützte Tools ein, die Ihnen helfen, Inhalte schneller zu erstellen und Ihren Lernenden personalisierte Unterstützung zu bieten. Diese Funktionen nutzen große Sprachmodelle (wie OpenAI's GPT, Google Gemini, Mistral oder andere), um Bildungsinhalte zu generieren und bei der Bewertung zu unterstützen.
 
-> AI tools must be configured by your platform administrator before they become available. See the [AI Configuration](../../admin-guide/integrations/ai-configuration.md) section of the Administration Guide for setup details.
+> KI-Tools müssen von Ihrem Plattformadministrator konfiguriert werden, bevor sie verfügbar sind. Weitere Informationen zur Einrichtung finden Sie im Abschnitt [KI-Konfiguration](../../admin-guide/integrations/ai-configuration.md) des Administrationshandbuchs.
 
-## Available AI Tools
+## Verfügbare KI-Tools
 
-* **[AI Tutor](ai-tutor.md)** — An AI chatbot that learners can interact with for course-related questions
-* **[Exercise Generator](exercise-generator.md)** — Automatically generate quiz questions from your course content or a topic description
-* **[Learning Path Generator](learning-path-generator.md)** — Create structured learning sequences from a topic or set of objectives
-* **[AI Grading](ai-grading.md)** — Get AI-assisted evaluation of open-ended answers and student submissions
-* **[Glossary Terms Generator](glossary-generator.md)** — Automatically generate term definitions for your course glossary
-* **[AI Media Generation](ai-media-generation.md)** — Generate images and short videos from the rich-text editor while creating documents
+* **[KI-Tutor](ai-tutor.md)** — Ein KI-Chatbot, mit dem Lernende kursbezogene Fragen besprechen können
+* **[Übungsgenerator](exercise-generator.md)** — Automatische Erstellung von Quizfragen aus Ihren Kursinhalten oder einer Themenbeschreibung
+* **[Lernpfad-Generator](learning-path-generator.md)** — Erstellung strukturierter Lernsequenzen aus einem Thema oder einer Reihe von Zielen
+* **[KI-Bewertung](ai-grading.md)** — KI-unterstützte Bewertung von offenen Antworten und studentischen Einreichungen
+* **[Glossar-Begriffs-Generator](glossary-generator.md)** — Automatische Erstellung von Begriffsdefinitionen für Ihr Kursglossar
+* **[KI-Medien-Generierung](ai-media-generation.md)** — Erzeugung von Bildern und kurzen Videos direkt im Rich-Text-Editor beim Erstellen von Dokumenten
 
-## How AI Tools Work
+## Wie KI-Tools funktionieren
 
-When AI tools are enabled, they appear in the relevant contexts:
+Wenn KI-Tools aktiviert sind, erscheinen sie in den relevanten Kontexten:
 
-* The **Exercise Generator** appears when creating or editing exercises, and also as a quick action on documents in the Documents tool
-* The **Learning Path Generator** appears when creating learning paths
-* The **AI Grading** option appears in the assignment correction workflow
-* The **AI Tutor** is available to learners within the course
-* The **Glossary Terms Generator** appears in the Glossary tool toolbar
-* The **AI Media Generation** dialog appears in the rich-text editor when creating or editing documents
+* Der **Übungsgenerator** erscheint beim Erstellen oder Bearbeiten von Übungen sowie als Schnellaktion für Dokumente im Dokumenten-Tool
+* Der **Lernpfad-Generator** erscheint beim Erstellen von Lernpfaden
+* Die Option **KI-Bewertung** erscheint im Workflow zur Korrektur von Aufgaben
+* Der **KI-Tutor** steht den Lernenden innerhalb des Kurses zur Verfügung
+* Der **Glossar-Begriffs-Generator** erscheint in der Werkzeugleiste des Glossar-Tools
+* Der Dialog zur **KI-Medien-Generierung** erscheint im Rich-Text-Editor beim Erstellen oder Bearbeiten von Dokumenten
 
-All AI-generated content is presented as a **suggestion** that you can review, edit, and modify before publishing. You always have the final say on what your learners see.
+Alle von der KI generierten Inhalte werden als **Vorschlag** präsentiert, den Sie überprüfen, bearbeiten und anpassen können, bevor Sie sie veröffentlichen. Sie haben immer das letzte Wort darüber, was Ihre Lernenden sehen.

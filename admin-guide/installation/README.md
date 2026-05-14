@@ -1,29 +1,29 @@
 # Installation
 
-This section covers everything you need to install and configure Chamilo 2.0 on your server.
+Dieser Abschnitt behandelt alles, was Sie benötigen, um Chamilo 2.0 auf Ihrem Server zu installieren und zu konfigurieren.
 
-Chamilo 2.0 is a PHP application built on the Symfony framework. It can run on most Linux-based servers, has been installed and runs on Windows Server with IIS, and supports MySQL and MariaDB backends.
+Chamilo 2.0 ist eine PHP-Anwendung, die auf dem Symfony-Framework basiert. Sie kann auf den meisten Linux-basierten Servern ausgeführt werden, wurde auf Windows Server mit IIS installiert und läuft dort und unterstützt MySQL- und MariaDB-Backends.
 
-## Installation Steps
+## Installationsschritte
 
-1. **[Server Requirements](server-requirements.md)** — Verify your server meets the minimum requirements
-2. **[Installation Wizard](installation-wizard.md)** — Run the web-based installation wizard
-3. **[Configuration](configuration.md)** — Configure environment variables and Symfony settings
-4. **[Cloud Storage](cloud-storage.md)** — Set up cloud storage backends (optional)
-5. **[Email Configuration](email-configuration.md)** — Configure email delivery
-6. **[Upgrading](upgrading.md)** — Upgrade from a previous version
+1. **[Serveranforderungen](server-requirements.md)** — Überprüfen Sie, ob Ihr Server die Mindestanforderungen erfüllt
+2. **[Installationsassistent](installation-wizard.md)** — Führen Sie den webbasierten Installationsassistenten aus
+3. **[Konfiguration](configuration.md)** — Konfigurieren Sie Umgebungsvariablen und Symfony-Einstellungen
+4. **[Cloud-Speicher](cloud-storage.md)** — Richten Sie Cloud-Speicher-Backends ein (optional)
+5. **[E-Mail-Konfiguration](email-configuration.md)** — Konfigurieren Sie die E-Mail-Zustellung
+6. **[Aktualisierung](upgrading.md)** — Aktualisieren Sie von einer früheren Version
 
-## Quick Overview
+## Schneller Überblick
 
-The basic installation process is:
+Der grundlegende Installationsprozess ist wie folgt:
 
-1. Download or clone the Chamilo source code
-2. Install PHP dependencies with Composer if preparing from source
-3. Install JavaScript dependencies with npm/yarn and build frontend assets
-4. Create an empty `.env` file to store your database credentials and other settings later on
-5. Change permissions (writeable by the web server) on *var/*, *config/* and *.env*
-6. Run the web-based installation wizard
-7. Connect with your first administrator account
-8. Change permissions back on *config/* and *.env*
+1. Laden Sie den Chamilo-Quellcode herunter oder klonen Sie ihn
+2. Installieren Sie PHP-Abhängigkeiten mit Composer, wenn Sie von der Quelle aus vorbereiten
+3. Installieren Sie JavaScript-Abhängigkeiten mit npm/yarn und erstellen Sie Frontend-Assets
+4. Erstellen Sie eine leere `.env`-Datei, um später Ihre Datenbankzugangsdaten und andere Einstellungen zu speichern
+5. Ändern Sie die Berechtigungen (beschreibbar durch den Webserver) für *var/*, *config/* und *.env*
+6. Führen Sie den webbasierten Installationsassistenten aus
+7. Verbinden Sie sich mit Ihrem ersten Administrator-Konto
+8. Ändern Sie die Berechtigungen für *config/* und *.env* zurück
 
-Detailed instructions for each step are in the pages linked above.
+Detaillierte Anweisungen für jeden Schritt finden Sie in den oben verlinkten Seiten.

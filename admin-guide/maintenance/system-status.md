@@ -1,40 +1,40 @@
-# System Status
+# Systemstatus
 
-The system status page helps you verify that your Chamilo server is correctly configured and identify potential issues.
+Die Systemstatus-Seite hilft Ihnen zu überprüfen, ob Ihr Chamilo-Server korrekt konfiguriert ist und mögliche Probleme zu identifizieren.
 
-## Accessing System Status
+## Zugriff auf den Systemstatus
 
-From the administration panel, click **System status** (or **System information**).
+Klicken Sie im Verwaltungspanel auf **Systemstatus** (oder **Systeminformationen**).
 
-## What It Shows
+## Was wird angezeigt
 
-![The system status page showing PHP configuration, database status, file permissions, and server information](/.gitbook/assets/admin-system-status.png)
+![Die Systemstatus-Seite zeigt PHP-Konfiguration, Datenbankstatus, Dateiberechtigungen und Serverinformationen](/.gitbook/assets/admin-system-status.png)
 
-### PHP Configuration
+### PHP-Konfiguration
 
-* **PHP version** — Chamilo 2.0 requires PHP 8.2 or higher
-* **Required extensions** — Checks that all necessary PHP extensions are installed
-* **PHP settings** — Verifies important PHP settings like memory limit, upload limits, and execution time
+* **PHP-Version** — Chamilo 2.0 erfordert PHP 8.2 oder höher
+* **Erforderliche Erweiterungen** — Überprüft, ob alle notwendigen PHP-Erweiterungen installiert sind
+* **PHP-Einstellungen** — Verifiziert wichtige PHP-Einstellungen wie Speicherlimit, Upload-Grenzen und Ausführungszeit
 
-### Database Status
+### Datenbankstatus
 
-* **Database connection** — Confirms the database is accessible
-* **Database version** — Shows the database server version
+* **Datenbankverbindung** — Bestätigt, dass die Datenbank zugänglich ist
+* **Datenbankversion** — Zeigt die Version des Datenbankservers an
 
-### File Permissions
+### Dateiberechtigungen
 
-* **Writable directories** — Checks that Chamilo can write to required directories (cache, uploads, logs)
+* **Beschreibbare Verzeichnisse** — Überprüft, ob Chamilo in die erforderlichen Verzeichnisse schreiben kann (Cache, Uploads, Logs)
 
-### Server Information
+### Serverinformationen
 
-* **Operating system** — Server OS details
-* **Web server** — Apache, Nginx, or other
-* **Disk space** — Available storage
+* **Betriebssystem** — Details zum Server-Betriebssystem
+* **Webserver** — Apache, Nginx oder andere
+* **Speicherplatz** — Verfügbarer Speicher
 
-## Recommended Checks
+## Empfohlene Überprüfungen
 
-Perform these checks regularly:
+Führen Sie diese Überprüfungen regelmäßig durch:
 
-* **After installation** — Verify all requirements are met
-* **After upgrades** — Ensure PHP version and extensions are still compatible
-* **When issues arise** — Check system status first when troubleshooting problems
+* **Nach der Installation** — Stellen Sie sicher, dass alle Anforderungen erfüllt sind
+* **Nach Upgrades** — Vergewissern Sie sich, dass die PHP-Version und Erweiterungen weiterhin kompatibel sind
+* **Bei Problemen** — Überprüfen Sie zuerst den Systemstatus, wenn Sie Probleme beheben müssen

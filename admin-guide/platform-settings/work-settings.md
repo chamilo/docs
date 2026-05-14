@@ -1,103 +1,103 @@
-# Assignments (Work) Settings
+# Einstellungen für Aufgaben (Arbeiten)
 
-Defaults and behaviour of the **Assignments (Student Publications)** tool.
+Standardwerte und Verhalten des Tools **Aufgaben (Studentenveröffentlichungen)**.
 
-Access these settings under **Administration > Configuration settings > Assignments (Work)**. This category contains **12 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+Greifen Sie auf diese Einstellungen unter **Verwaltung > Konfigurationseinstellungen > Aufgaben (Arbeiten)** zu. Diese Kategorie enthält **12 Einstellungen**, die unten mit dem Titel und dem Kommentar aufgeführt sind, wie sie in den Standardeinstellungen der Plattform (`SettingsCurrentFixtures.php`) bereitgestellt werden.
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> Der Variablenname im Code wird in Monospace angezeigt. Verwenden Sie ihn, wenn Sie über die API skripten oder wenn Sie diese Einstellungen auf globaler Ebene ändern möchten, indem Sie [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml) bearbeiten.
 
-## Settings
+## Einstellungen
 
 ### `allow_compilatio_tool`
 
-**Enable Compilatio**
+**Compilatio aktivieren**
 
-Compilatio is an anti-cheating service that compares text between two submissions and reports if there is a high probability the content (usually assignments) is not genuine.
+Compilatio ist ein Anti-Betrugs-Service, der Texte zwischen zwei Einreichungen vergleicht und meldet, ob eine hohe Wahrscheinlichkeit besteht, dass der Inhalt (normalerweise Aufgaben) nicht authentisch ist.
 
-*Default: `false`*
+*Standard: `false`*
 
 ### `allow_my_student_publication_page`
 
-**Enable My assignments page**
+**Meine Aufgaben-Seite aktivieren**
 
-[inferred] Enable a dedicated page for learners to view and manage their own submitted assignments.
+[abgeleitet] Aktivieren Sie eine dedizierte Seite für Lernende, um ihre eingereichten Aufgaben anzuzeigen und zu verwalten.
 
-*Default: `false`*
+*Standard: `false`*
 
 ### `allow_only_one_student_publication_per_user`
 
-**Students can only upload one assignment**
+**Studenten können nur eine Aufgabe hochladen**
 
-[inferred] Restrict learners to submitting only one assignment per activity, preventing multiple submissions.
+[abgeleitet] Beschränken Sie Lernende darauf, pro Aktivität nur eine Aufgabe einzureichen, um mehrfache Einreichungen zu verhindern.
 
-*Default: `false`*
+*Standard: `false`*
 
 ### `allow_redirect_to_main_page_after_work_upload`
 
-**Redirect to assigment tool homepage after upload or comment**
+**Nach Hochladen oder Kommentar zur Startseite des Aufgabentools weiterleiten**
 
-Redirect to assignments list after uploading an assignment or a adding a comment
+Leiten Sie nach dem Hochladen einer Aufgabe oder dem Hinzufügen eines Kommentars zur Aufgabenliste weiter.
 
-*Default: `false`*
+*Standard: `false`*
 
 ### `assignment_prevent_duplicate_upload`
 
-**Prevent duplicate uploads in assignments**
+**Doppelte Uploads bei Aufgaben verhindern**
 
-[inferred] Block learners from uploading identical files for the same assignment submission.
+[abgeleitet] Verhindern Sie, dass Lernende identische Dateien für dieselbe Aufgabeneinreichung hochladen.
 
-*Default: `false`*
+*Standard: `false`*
 
 ### `block_student_publication_add_documents`
 
-**Prevent adding documents to assignments**
+**Hinzufügen von Dokumenten zu Aufgaben verhindern**
 
-[inferred] Prevent learners from adding or attaching documents when submitting assignments.
+[abgeleitet] Verhindern Sie, dass Lernende beim Einreichen von Aufgaben Dokumente hinzufügen oder anhängen.
 
-*Default: `false`*
+*Standard: `false`*
 
 ### `block_student_publication_edition`
 
-**Prevent assignments edition**
+**Bearbeitung von Aufgaben verhindern**
 
-[inferred] Prevent learners from modifying or updating their submitted assignments after initial submission.
+[abgeleitet] Verhindern Sie, dass Lernende ihre eingereichten Aufgaben nach der ersten Einreichung ändern oder aktualisieren.
 
-*Default: `false`*
+*Standard: `false`*
 
 ### `block_student_publication_score_edition`
 
-**Prevent teacher from modifying assignment scores**
+**Lehrer daran hindern, Aufgabenbewertungen zu ändern**
 
-[inferred] Prevent instructors from changing assignment scores after they have been recorded.
+[abgeleitet] Verhindern Sie, dass Lehrkräfte Aufgabenbewertungen ändern, nachdem diese eingetragen wurden.
 
-*Default: `false`*
+*Standard: `false`*
 
 ### `compilatio_tool`
 
-**Compilatio settings**
+**Compilatio-Einstellungen**
 
-Configure the Compilatio connection details here.
+Konfigurieren Sie hier die Verbindungsinformationen für Compilatio.
 
 ### `considered_working_time`
 
-**Enable time effort for assignments**
+**Zeitaufwand für Aufgaben aktivieren**
 
-This will allow teachers to give an estimated time effort (in hh:mm:ss format) to complete the assignment. Upon submission of the assignment and approval by the teacher (the assignment is given a score), the learner will automatically be assigned the corresponding time.
+Dies ermöglicht es Lehrkräften, einen geschätzten Zeitaufwand (im Format hh:mm:ss) anzugeben, um die Aufgabe zu bearbeiten. Nach Einreichung der Aufgabe und Freigabe durch den Lehrer (die Aufgabe erhält eine Bewertung) wird dem Lernenden automatisch die entsprechende Zeit zugewiesen.
 
-*Default: `work_time`*
+*Standard: `work_time`*
 
 ### `force_download_doc_before_upload_work`
 
-**Force download of document before assignment upload**
+**Download des Dokuments vor dem Hochladen der Aufgabe erzwingen**
 
-Force users to download the provided document in the assignment definition before they can upload their assignment.
+Zwingen Sie Benutzer, das bereitgestellte Dokument in der Aufgabendefinition herunterzuladen, bevor sie ihre Aufgabe hochladen können.
 
-*Default: `true`*
+*Standard: `true`*
 
 ### `my_courses_show_pending_work`
 
-**Display link to 'pending' assignments from My courses page**
+**Link zu 'ausstehenden' Aufgaben auf der Seite 'Meine Kurse' anzeigen**
 
-[inferred] Display a link or count of pending assignments on the learner's My Courses page for quick access.
+[abgeleitet] Zeigen Sie einen Link oder eine Anzahl ausstehender Aufgaben auf der Seite 'Meine Kurse' des Lernenden für schnellen Zugriff an.
 
-*Default: `false`*
+*Standard: `false`*

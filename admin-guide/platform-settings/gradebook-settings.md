@@ -1,293 +1,270 @@
-# Gradebook (Assessments) Settings
+# Notenbuch (Bewertungen) Einstellungen
 
-Defaults applied across the **Gradebook (Assessments)** tool — score display, decimal precision, certificate score thresholds, and aggregation.
+Standardwerte, die für das **Notenbuch (Bewertungen)**-Tool gelten — Anzeige von Punktzahlen, Dezimalgenauigkeit, Schwellwerte für Zertifikate und Aggregation.
 
-Access these settings under **Administration > Configuration settings > Gradebook (Assessments)**. This category contains **34 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+Greifen Sie auf diese Einstellungen unter **Verwaltung > Konfigurationseinstellungen > Notenbuch (Bewertungen)** zu. Diese Kategorie enthält **34 Einstellungen**, die unten mit dem Titel und dem Kommentar aufgeführt sind, wie sie in den Standardeinstellungen der Plattform (`SettingsCurrentFixtures.php`) bereitgestellt werden.
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> Der Variablenname im Code wird in Monospace angezeigt. Verwenden Sie ihn, wenn Sie über die API skripten oder wenn Sie diese Einstellungen auf globaler Ebene ändern müssen, indem Sie [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml) bearbeiten.
 
-## Settings
+## Einstellungen
 
 ### `allow_gradebook_comments`
 
-**Gradebook comments**
+**Notenbuch-Kommentare**
 
-Enable gradebook comments so teachers can add a comment to the overall performance of the learner in this course. The comment will appear in the PDF export for the learner.
+Aktivieren Sie Notenbuch-Kommentare, damit Lehrkräfte einen Kommentar zur Gesamtleistung des Lernenden in diesem Kurs hinzufügen können. Der Kommentar wird im PDF-Export für den Lernenden angezeigt.
 
-*Default: `false`*
-
+*Standard: `false`*
 
 ### `allow_gradebook_stats`
 
-**Cache results in the gradebook**
+**Ergebnisse im Notenbuch zwischenspeichern**
 
-Put some of the large calculations of averages in cached fields for the links and evaluations to increase speed (considerably). The potential negative impact is that it can take some time to refresh the gradebook results tables.
+Speichern Sie einige der umfangreichen Berechnungen von Durchschnittswerten in zwischengespeicherten Feldern für die Links und Bewertungen, um die Geschwindigkeit (erheblich) zu erhöhen. Der potenzielle Nachteil ist, dass es einige Zeit dauern kann, die Ergebnistabellen des Notenbuchs zu aktualisieren.
 
-*Default: `false`*
+*Standard: `false`*
 
 ### `gradebook_badge_sidebar`
 
-**Gradebook badges sidebar**
+**Notenbuch-Abzeichen-Seitenleiste**
 
-Generate a block inside the side menu where a few badges can be shown as pending approval. Requires gradebooks to be listed here, by (numerical) ID.
+Erzeugen Sie einen Block im Seitenmenü, in dem einige Abzeichen als zur Genehmigung ausstehend angezeigt werden können. Erfordert, dass Notenbücher hier nach (numerischer) ID aufgelistet werden.
 
 ### `gradebook_default_grade_model_id`
 
-**Default grade model**
+**Standard-Bewertungsmodell**
 
-This value will be selected by default when creating a course
+Dieser Wert wird standardmäßig ausgewählt, wenn ein Kurs erstellt wird.
 
 ### `gradebook_default_weight`
 
-**Default weight in Gradebook**
+**Standardgewicht im Notenbuch**
 
-This weight will be use in all courses by default
+Dieses Gewicht wird standardmäßig in allen Kursen verwendet.
 
-*Default: `100`*
+*Standard: `100`*
 
 ### `gradebook_dependency`
 
-**Inter-gradebook dependencies**
+**Abhängigkeiten zwischen Notenbüchern**
 
-Enables a mechanism of gradebook dependencies that lets people know which other items they need to go through first in order to complete the gradebook.
+Aktiviert einen Mechanismus für Notenbuch-Abhängigkeiten, der den Nutzern mitteilt, welche anderen Elemente sie zuerst durchlaufen müssen, um das Notenbuch abzuschließen.
 
-*Default: `false`*
-
+*Standard: `false`*
 
 ### `gradebook_dependency_mandatory_courses`
 
-**Mandatory courses for gradebook dependencies**
+**Pflichtkurse für Notenbuch-Abhängigkeiten**
 
-When using inter-gradebook dependencies, you can choose a list of mandatory courses that will be required before approving any gradebook that has dependencies.
+Bei der Verwendung von Abhängigkeiten zwischen Notenbüchern können Sie eine Liste von Pflichtkursen auswählen, die erforderlich sind, bevor ein Notenbuch mit Abhängigkeiten genehmigt wird.
 
 ### `gradebook_detailed_admin_view`
 
-**Show additional columns in gradebook**
+**Zusätzliche Spalten im Notenbuch anzeigen**
 
-Show additional columns in the student view of the gradebook with the best score of all students, the relative position of the student looking at the report and the average score of the whole group of students.
+Zeigen Sie zusätzliche Spalten in der Schüleransicht des Notenbuchs mit der besten Punktzahl aller Schüler, der relativen Position des betrachtenden Schülers und der durchschnittlichen Punktzahl der gesamten Schülergruppe an.
 
-*Default: `false`*
-
+*Standard: `false`*
 
 ### `gradebook_display_extra_stats`
 
-**Gradebook extra statistics**
+**Zusätzliche Statistiken im Notenbuch**
 
-Add additional columns to the gradebook's main report (1 = ranking, 2 = best score, 3 = average).
+Fügen Sie dem Hauptbericht des Notenbuchs zusätzliche Spalten hinzu (1 = Rangfolge, 2 = beste Punktzahl, 3 = Durchschnitt).
 
 ### `gradebook_enable`
 
-**Assessments tool activation**
+**Aktivierung des Bewertungstools**
 
-The Assessments tool allows you to assess competences in your organization by merging classroom and online activities evaluations into Performance reports. Do you want to activate it?
+Das Bewertungstool ermöglicht es Ihnen, Kompetenzen in Ihrer Organisation zu bewerten, indem es Bewertungen von Präsenz- und Online-Aktivitäten in Leistungsberichten zusammenführt. Möchten Sie es aktivieren?
 
-*Default: `true`*
-
+*Standard: `true`*
 
 ### `gradebook_enable_grade_model`
 
-**Enable Gradebook model**
+**Notenbuch-Modell aktivieren**
 
-Enables the auto creation of gradebook categories inside a course depending of the gradebook models.
+Ermöglicht die automatische Erstellung von Notenbuch-Kategorien innerhalb eines Kurses abhängig von den Notenbuch-Modellen.
 
-*Default: `false`*
+*Standard: `false`*
 
 ### `gradebook_enable_subcategory_skills_independant_assignement`
 
-**Enable skills by gradebook's subcategory**
+**Fähigkeiten nach Unterkategorie des Notenbuchs aktivieren**
 
-Skills are normally attributed for completing a whole gradebook. By enabling this option, you allow skills to be attached to sub-sections of gradebooks.
+Fähigkeiten werden normalerweise für das Abschließen eines gesamten Notenbuchs vergeben. Durch Aktivieren dieser Option können Fähigkeiten auch Unterabschnitten von Notenbüchern zugeordnet werden.
 
-*Default: `false`*
-
+*Standard: `false`*
 
 ### `gradebook_flatview_extrafields_columns`
 
-**User extra fields in gradebook flat view**
+**Zusätzliche Benutzerfelder in der flachen Ansicht des Notenbuchs**
 
-Add the given columns ('variables' array) to the main results table in the gradebook.
+Fügen Sie die angegebenen Spalten (Array 'variables') zur Hauptergebnistabelle im Notenbuch hinzu.
 
 ### `gradebook_hide_graph`
 
-**Hide gradebook charts**
+**Notenbuch-Diagramme ausblenden**
 
-If your portal is resources-limited, reducing the generation of the dynamic gradebok charts with potentially thousands of results is a good option.
+Wenn Ihr Portal ressourcenbeschränkt ist, ist das Reduzieren der Generierung dynamischer Notenbuch-Diagramme mit potenziell Tausenden von Ergebnissen eine gute Option.
 
-*Default: `false`*
-
+*Standard: `false`*
 
 ### `gradebook_hide_link_to_item_for_student`
 
-**Hide item links for learners in gradebook**
+**Links zu Elementen im Notenbuch für Lernende ausblenden**
 
-Avoid learners clicking on items from the gradebook by removing the links on the items.
+Verhindern Sie, dass Lernende auf Elemente im Notenbuch klicken, indem Sie die Links zu den Elementen entfernen.
 
-*Default: `false`*
-
+*Standard: `false`*
 
 ### `gradebook_hide_pdf_report_button`
 
-**Hide gradebook button 'download PDF report'**
+**Schaltfläche 'PDF-Bericht herunterladen' im Notenbuch ausblenden**
 
-Removes the PDF export button from gradebook views for learners.
+Entfernt die PDF-Export-Schaltfläche aus den Notenbuch-Ansichten für Lernende.
 
-*Default: `false`*
-
+*Standard: `false`*
 
 ### `gradebook_hide_table`
 
-**Hide gradebook table for learners**
+**Notenbuch-Tabelle für Lernende ausblenden**
 
-Reduce gradebook load time by hiding the results table (but still giving access to certificates, skills, etc).
+Verkürzen Sie die Ladezeit des Notenbuchs, indem Sie die Ergebnistabelle ausblenden (aber dennoch Zugriff auf Zertifikate, Fähigkeiten usw. gewähren).
 
-*Default: `false`*
+*Standard: `false`*
 
-
+---
 ### `gradebook_locking_enabled`
 
-**Enable locking of assessments by teachers**
+**Sperrung von Bewertungen durch Lehrkräfte aktivieren**
 
-Once enabled, this option will enable locking of any assessment by the teachers of the corresponding course. This, in turn, will prevent any modification of results by the teacher inside the resources used in the assessment: exams, learning paths, tasks, etc. The only role authorized to unlock a locked assessment is the administrator. The teacher will be informed of this possibility. The locking and unlocking of gradebooks will be registered in the system's report of important activities
+Sobald diese Option aktiviert ist, können Lehrkräfte die Bewertung eines Kurses sperren. Dies verhindert jegliche Änderung der Ergebnisse durch die Lehrkraft innerhalb der für die Bewertung verwendeten Ressourcen: Prüfungen, Lernpfade, Aufgaben usw. Die einzige Rolle, die berechtigt ist, eine gesperrte Bewertung wieder freizugeben, ist der Administrator. Die Lehrkraft wird über diese Möglichkeit informiert. Das Sperren und Entsperren von Notenbüchern wird im Bericht über wichtige Aktivitäten des Systems registriert.
 
-*Default: `false`*
+*Standard: `false`*
 
 ### `gradebook_multiple_evaluation_attempts`
 
-**Allow multiple evaluation attempts in gradebook**
+**Mehrere Bewertungsversuche im Notenbuch erlauben**
 
-Allows adding comments to multiple evaluation attempts in gradebook and result tables.
+Ermöglicht das Hinzufügen von Kommentaren zu mehreren Bewertungsversuchen im Notenbuch und in den Ergebnistabellen.
 
-*Default: `false`*
-
+*Standard: `false`*
 
 ### `gradebook_number_decimals`
 
-**Number of decimals**
+**Anzahl der Dezimalstellen**
 
-Allows you to set the number of decimals allowed in a score
+Ermöglicht die Festlegung der Anzahl der erlaubten Dezimalstellen in einer Punktzahl.
 
-*Default: `0`*
+*Standard: `0`*
 
 ### `gradebook_pdf_export_settings`
 
-**Gradebook PDF export options**
+**Optionen für den PDF-Export des Notenbuchs**
 
-Change the PDF export for learners based on the provided settings ('hide_score_weight', 'hide_feedback_textarea', ...)
+Ändert den PDF-Export für Lernende basierend auf den bereitgestellten Einstellungen ('hide_score_weight', 'hide_feedback_textarea', ...).
 
 ### `gradebook_report_score_style`
 
-**Gradebook reports score style**
+**Stil der Punktzahlen in Notenbuchberichten**
 
-Add gradebook score style configuration in the flat view. See api.lib.php in order to find the options: examples SCORE_DIV = 1, SCORE_PERCENT = 2, etc
+Fügt eine Konfiguration für den Stil der Punktzahlen im Notenbuch in der flachen Ansicht hinzu. Die Optionen finden Sie in api.lib.php: Beispiele SCORE_DIV = 1, SCORE_PERCENT = 2, usw.
 
-*Default: `1`*
-
+*Standard: `1`*
 
 ### `gradebook_score_display_colorsplit`
 
-**Threshold**
+**Schwellenwert**
 
-The threshold (in %) under which scores will be colored red
+Der Schwellenwert (in %), unter dem Punktzahlen rot eingefärbt werden.
 
-*Default: `50`*
-
+*Standard: `50`*
 
 ### `gradebook_score_display_custom`
 
-**Competence levels labelling**
+**Kompetenzstufen-Beschriftung**
 
-Tick the box to enable Competence levels labelling
+Aktivieren Sie das Kontrollkästchen, um die Beschriftung von Kompetenzstufen zu ermöglichen.
 
-*Default: `false`*
-
+*Standard: `false`*
 
 ### `gradebook_score_display_custom_standalone`
 
-**Custom score display in gradebook's standalone column**
+**Benutzerdefinierte Anzeige der Punktzahlen in einer separaten Spalte des Notenbuchs**
 
-Shows custom competence level values in a separate column in gradebook flatview when using custom score display.
+Zeigt benutzerdefinierte Kompetenzstufenwerte in einer separaten Spalte in der flachen Ansicht des Notenbuchs an, wenn die benutzerdefinierte Anzeige der Punktzahlen verwendet wird.
 
-*Default: `false`*
-
+*Standard: `false`*
 
 ### `gradebook_score_display_upperlimit`
 
-**Display score upper limit**
+**Anzeige der oberen Punktgrenze**
 
-Tick the box to show the score's upper limit
+Aktivieren Sie das Kontrollkästchen, um die obere Grenze der Punktzahl anzuzeigen.
 
-*Default: `false`*
-
+*Standard: `false`*
 
 ### `gradebook_use_apcu_cache`
 
-**Use APCu caching to speed up gradebok**
+**APCu-Caching verwenden, um das Notenbuch zu beschleunigen**
 
-Improve speed when rendering gradebook student reports using Doctrine APCU cache. APCu is an optional but recommended PHP extension.
+Verbessert die Geschwindigkeit beim Rendern von Notenbuchberichten für Studierende durch die Verwendung des Doctrine APCU-Cache. APCu ist eine optionale, aber empfohlene PHP-Erweiterung.
 
-*Default: `true`*
-
+*Standard: `true`*
 
 ### `gradebook_use_exercise_score_settings_in_categories`
 
-**Use test settings for grades display**
+**Testeinstellungen für die Anzeige von Noten verwenden**
 
-Applies exercise score display settings (percentage vs. points) to category scores in gradebook.
+Wendet die Einstellungen zur Anzeige der Punktzahlen von Übungen (Prozentsatz vs. Punkte) auf Kategorienoten im Notenbuch an.
 
-*Default: `true`*
-
+*Standard: `true`*
 
 ### `gradebook_use_exercise_score_settings_in_total`
 
-**Use global score display setting in gradebook**
+**Globale Einstellung zur Anzeige von Punktzahlen im Notenbuch verwenden**
 
-Applies global exercise score display settings to total score calculations in gradebook.
+Wendet globale Einstellungen zur Anzeige von Übungspunktzahlen auf die Gesamtpunktzahlberechnungen im Notenbuch an.
 
-*Default: `false`*
-
+*Standard: `false`*
 
 ### `hide_gradebook_percentage_user_result`
 
-**Hide percentage in best/average gradebook results**
+**Prozentsatz in den besten/durchschnittlichen Notenbuchergebnissen ausblenden**
 
-Removes percentage display from best/average score results shown to learners in gradebook.
+Entfernt die Prozentsatzanzeige aus den besten/durchschnittlichen Punktzahlenergebnissen, die Lernenden im Notenbuch angezeigt werden.
 
-*Default: `true`*
-
+*Standard: `true`*
 
 ### `my_display_coloring`
 
-**Display colors for scores in the gradebook**
+**Farbanzeige für Punktzahlen im Notenbuch**
 
-Enables color coding for better score visibility in the gradebook.
+Aktiviert die Farbkodierung für eine bessere Sichtbarkeit der Punktzahlen im Notenbuch.
 
-*Default: `false`*
-
+*Standard: `false`*
 
 ### `student_publication_to_take_in_gradebook`
 
-**Assignment considered for gradebook**
+**Für das Notenbuch berücksichtigte Aufgabe**
 
-In the assignments tool, students can upload more than one file. In case there is more than one for a single assignment, which one should be considered when ranking them in the gradebook? This depends on your methodology. Use 'first' to put the accent on attention to detail (like handling in time and handling the right work first). Use 'last' to highlight collaborative and adaptative work.
+Im Aufgaben-Tool können Studierende mehr als eine Datei hochladen. Falls es für eine einzelne Aufgabe mehr als eine Datei gibt, welche soll bei der Bewertung im Notenbuch berücksichtigt werden? Dies hängt von Ihrer Methodik ab. Verwenden Sie 'first', um den Fokus auf Detailgenauigkeit zu legen (z. B. rechtzeitige Abgabe und zuerst die richtige Arbeit erledigen). Verwenden Sie 'last', um kollaboratives und anpassungsfähiges Arbeiten hervorzuheben.
 
-*Default: `first`*
-
+*Standard: `first`*
 
 ### `teachers_can_change_grade_model_settings`
 
-**Teachers can change the Gradebook model settings**
+**Lehrkräfte können die Einstellungen des Notenbuchmodells ändern**
 
-When editing a Gradebook
+Beim Bearbeiten eines Notenbuchs.
 
-*Default: `true`*
-
+*Standard: `true`*
 
 ### `teachers_can_change_score_settings`
 
-**Teachers can change the Gradebook score settings**
+**Lehrkräfte können die Punktzahleinstellungen des Notenbuchs ändern**
 
-When editing the Gradebook settings
+Beim Bearbeiten der Notenbucheinstellungen.
 
-*Default: `true`*
-
-
+*Standard: `true`*

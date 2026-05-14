@@ -1,46 +1,46 @@
 # Blog
 
-The blog tool lets you create a shared blog within your course. Learners can write posts, leave comments, and engage in structured writing activities.
+Das Blog-Tool ermöglicht es Ihnen, einen gemeinsamen Blog innerhalb Ihres Kurses zu erstellen. Lernende können Beiträge schreiben, Kommentare hinterlassen und an strukturierten Schreibaktivitäten teilnehmen.
 
-## Creating a Blog
+## Einen Blog erstellen
 
-1. Open the **Blog** tool from the course homepage (under the cog icon at the top)
-2. Click **New project**
-3. Enter a **title** and optional subtitle
-4. Save
-5. Decide when you want to make it available to students by clicking the **Show** (eye) icon
+1. Öffnen Sie das **Blog**-Tool auf der Kurs-Startseite (unter dem Zahnradsymbol oben)
+2. Klicken Sie auf **Neues Projekt**
+3. Geben Sie einen **Titel** und optional einen Untertitel ein
+4. Speichern Sie
+5. Entscheiden Sie, wann Sie den Blog für Studierende verfügbar machen möchten, indem Sie auf das **Anzeigen**-Symbol (Auge) klicken
 
-You can create multiple blogs within a single course (e.g., one per topic or one per group).
+Sie können mehrere Blogs innerhalb eines einzelnen Kurses erstellen (z. B. einen pro Thema oder einen pro Gruppe).
 
-## Writing Blog Posts
+## Blogbeiträge schreiben
 
-1. Open a blog
-2. Click **New post**
-3. Enter a **title** and write the post content using the rich-text editor
-4. Save
+1. Öffnen Sie einen Blog
+2. Klicken Sie auf **Neuer Beitrag**
+3. Geben Sie einen **Titel** ein und schreiben Sie den Inhalt des Beitrags mit dem Rich-Text-Editor
+4. Speichern Sie
 
-Both teachers and learners (depending on permissions) can create posts.
+Sowohl Lehrkräfte als auch Lernende (je nach Berechtigungen) können Beiträge erstellen.
 
-## Comments and Ratings
+## Kommentare und Bewertungen
 
-Readers can interact with blog posts through:
+Leser können mit Blogbeiträgen interagieren durch:
 
-* **Comments** — Leave feedback or start a discussion under a post (comments can also be threaded as replies to other comments)
-* **Ratings** — Rate posts to highlight the most valued contributions
-* **Attachments** — Both posts and comments can carry file attachments
+* **Kommentare** — Feedback geben oder eine Diskussion unter einem Beitrag starten (Kommentare können auch als Antworten auf andere Kommentare verschachtelt werden)
+* **Bewertungen** — Beiträge bewerten, um die wertvollsten Beiträge hervorzuheben
+* **Anhänge** — Sowohl Beiträge als auch Kommentare können Dateianhänge enthalten
 
-## Blog Tasks
+## Blog-Aufgaben
 
-You can create **tasks** within a blog — specific writing assignments that learners must complete as blog posts. This is useful for:
+Sie können **Aufgaben** innerhalb eines Blogs erstellen — spezifische Schreibaufgaben, die Lernende als Blogbeiträge erledigen müssen. Dies ist nützlich für:
 
-* Reflective journals
-* Weekly writing assignments
-* Project update reports
+* Reflexionsjournale
+* Wöchentliche Schreibaufgaben
+* Projekt-Update-Berichte
 
-## Managing the Blog
+## Den Blog verwalten
 
-As the teacher, you can:
+Als Lehrkraft können Sie:
 
-* **Edit or delete** posts and comments (post deletion is restricted to the post author or to teachers)
-* **Toggle blog visibility** to show or hide the blog from learners
-* **Define tasks** — Add specific writing assignments learners are expected to complete as posts. Tasks can be color-coded for easier visual grouping.
+* Beiträge und Kommentare **bearbeiten oder löschen** (das Löschen von Beiträgen ist auf den Autor des Beitrags oder auf Lehrkräfte beschränkt)
+* Die **Sichtbarkeit des Blogs umschalten**, um den Blog für Lernende anzuzeigen oder zu verbergen
+* **Aufgaben definieren** — Spezifische Schreibaufgaben hinzufügen, die Lernende als Beiträge erledigen sollen. Aufgaben können farblich codiert werden, um eine einfachere visuelle Gruppierung zu ermöglichen.

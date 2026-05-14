@@ -1,27 +1,27 @@
-# Cloud Storage
+# Cloud-Speicher
 
-Chamilo 2.0 supports cloud storage backends for user-uploaded files through **Flysystem**, a PHP filesystem abstraction library integrated into Symfony. This allows you to store files on cloud services instead of (or in addition to) the local filesystem.
+Chamilo 2.0 unterstützt Cloud-Speicher-Backends für hochgeladene Benutzerdateien über **Flysystem**, eine PHP-Dateisystem-Abstraktionsbibliothek, die in Symfony integriert ist. Dies ermöglicht es Ihnen, Dateien auf Cloud-Diensten anstelle von (oder zusätzlich zu) dem lokalen Dateisystem zu speichern.
 
-## Why Use Cloud Storage?
+## Warum Cloud-Speicher verwenden?
 
-* **Scalability** -- Cloud storage grows with your platform without managing disk space.
-* **Multi-server deployments** -- When running multiple web servers behind a load balancer, cloud storage ensures all servers access the same files.
-* **Durability** -- Cloud providers offer built-in redundancy and backup.
-* **Cost** -- Object storage is often cheaper per gigabyte than block storage attached to servers.
+* **Skalierbarkeit** -- Cloud-Speicher wächst mit Ihrer Plattform, ohne dass Sie Speicherplatz verwalten müssen.
+* **Multi-Server-Bereitstellungen** -- Wenn Sie mehrere Webserver hinter einem Load-Balancer betreiben, stellt Cloud-Speicher sicher, dass alle Server auf dieselben Dateien zugreifen.
+* **Haltbarkeit** -- Cloud-Anbieter bieten integrierte Redundanz und Sicherung.
+* **Kosten** -- Objektspeicher ist oft günstiger pro Gigabyte als Blockspeicher, der an Server angebunden ist.
 
-## Supported Providers
+## Unterstützte Anbieter
 
-| Provider | Flysystem Adapter |
+| Anbieter | Flysystem-Adapter |
 |----------|-------------------|
 | **Amazon S3** | `league/flysystem-aws-s3-v3` |
 | **Google Cloud Storage** | `league/flysystem-google-cloud-storage` |
 | **Azure Blob Storage** | `league/flysystem-azure-blob-storage` |
-| **MinIO** (S3-compatible) | Uses the S3 adapter with a custom endpoint |
-| **Local filesystem** | Default, no additional packages needed |
+| **MinIO** (S3-kompatibel) | Verwendet den S3-Adapter mit einem benutzerdefinierten Endpunkt |
+| **Lokales Dateisystem** | Standard, keine zusätzlichen Pakete erforderlich |
 
 ## Installation
 
-Chamilo already comes with the following pre-installed providers:
+Chamilo wird bereits mit den folgenden vorinstallierten Anbietern geliefert:
 
 ```bash
 # Amazon S3
@@ -34,20 +34,20 @@ league/flysystem-google-cloud-storage
 league/flysystem-azure-blob-storage
 ```
 
-## Configuration
+## Konfiguration
 
-Chamilo splits its files across several Flysystem mounts — **assets**, **assets cache**, **resources**, **resources cache**, **themes**, and **plugins**. Each mount can target a different bucket or container. The cloud configuration in `config/packages/oneup_flysystem.yaml` is selected by environment using `when@` conditions and reads the variables you set in `.env`.
+Chamilo teilt seine Dateien auf mehrere Flysystem-Mounts auf — **Assets**, **Assets-Cache**, **Ressourcen**, **Ressourcen-Cache**, **Themes** und **Plugins**. Jeder Mount kann auf einen anderen Bucket oder Container abzielen. Die Cloud-Konfiguration in `config/packages/oneup_flysystem.yaml` wird je nach Umgebung über `when@`-Bedingungen ausgewählt und liest die Variablen, die Sie in `.env` festgelegt haben.
 
 ### Amazon S3
 
 ```bash
-# .env — common credentials
+# .env — gemeinsame Zugangsdaten
 AWS_S3_STORAGE_VERSION=latest
 AWS_S3_STORAGE_REGION=eu-central-1
 AWS_S3_STORAGE_ACCESS_KEY=your-access-key
 AWS_S3_STORAGE_ACCESS_SECRET=your-secret-key
 
-# Per-mount buckets (each mount can be a different bucket)
+# Buckets pro Mount (jeder Mount kann ein anderer Bucket sein)
 AWS_S3_STORAGE_ASSET_BUCKET=chamilo-assets
 AWS_S3_STORAGE_ASSET_CACHE_BUCKET=chamilo-asset-cache
 AWS_S3_STORAGE_RESOURCE_BUCKET=chamilo-resources
@@ -55,7 +55,7 @@ AWS_S3_STORAGE_RESOURCE_CACHE_BUCKET=chamilo-resource-cache
 AWS_S3_STORAGE_THEMES_BUCKET=chamilo-themes
 AWS_S3_STORAGE_PLUGINS_BUCKET=chamilo-plugins
 
-# Optional path prefixes inside a bucket — useful to share buckets across portals
+# Optionale Pfadpräfixe innerhalb eines Buckets — nützlich, um Buckets über Portale hinweg zu teilen
 AWS_S3_STORAGE_ASSET_PREFIX=portal1/assets
 AWS_S3_STORAGE_RESOURCE_PREFIX=portal1/resources
 ```
@@ -70,36 +70,36 @@ AZURE_STORAGE_ASSET_CACHE_CONTAINER=asset-cache-container
 AZURE_STORAGE_RESOURCE_CONTAINER=resources-container
 AZURE_STORAGE_RESOURCE_CACHE_CONTAINER=resources-cache-container
 AZURE_STORAGE_THEMES_CONTAINER=themes-container
-# Optional prefixes
+# Optionale Präfixe
 AZURE_STORAGE_ASSET_PREFIX=optional/prefix
 ```
 
 ### Google Cloud Storage
 
-Configure GCS the same way as S3, using GCS-specific environment variables and one bucket per mount. Refer to the `oneup_flysystem.yaml` shipped with your release for the exact variable names — they are also documented in `.env`.
+Konfigurieren Sie GCS auf die gleiche Weise wie S3, indem Sie GCS-spezifische Umgebungsvariablen und einen Bucket pro Mount verwenden. Die genauen Variablennamen finden Sie in der mit Ihrer Version gelieferten Datei `oneup_flysystem.yaml` — sie sind auch in `.env` dokumentiert.
 
-### MinIO (S3-Compatible)
+### MinIO (S3-kompatibel)
 
-MinIO works through the S3 adapter with a custom endpoint and path-style addressing — set `AWS_S3_STORAGE_*` as for S3 and add the MinIO endpoint and path-style flags supported by the bundle.
+MinIO funktioniert über den S3-Adapter mit einem benutzerdefinierten Endpunkt und Path-Style-Adressierung — setzen Sie `AWS_S3_STORAGE_*` wie für S3 und fügen Sie den MinIO-Endpunkt sowie die vom Bundle unterstützten Path-Style-Flags hinzu.
 
-> The full set of variable names is listed in the `.env.dist` file shipped with Chamilo. Copy only the lines for the provider you actually use into your `.env` and uncomment them.
+> Die vollständige Liste der Variablennamen ist in der mit Chamilo gelieferten Datei `.env.dist` aufgeführt. Kopieren Sie nur die Zeilen für den Anbieter, den Sie tatsächlich verwenden, in Ihre `.env`-Datei und kommentieren Sie sie aus.
 
-## Migrating Existing Files
+## Migration vorhandener Dateien
 
-If you are switching from local storage to cloud storage on an existing platform, you must migrate the existing files:
+Wenn Sie auf einer bestehenden Plattform von lokalem Speicher auf Cloud-Speicher umsteigen, müssen Sie die vorhandenen Dateien migrieren:
 
-1. Configure the new storage adapter as described above.
-2. Copy existing files from the local `var/upload/` directory to your cloud storage bucket, preserving the directory structure.
-3. Verify that files are accessible through the platform after migration.
+1. Konfigurieren Sie den neuen Speicheradapter wie oben beschrieben.
+2. Kopieren Sie vorhandene Dateien aus dem lokalen Verzeichnis `var/upload/` in Ihren Cloud-Speicher-Bucket und bewahren Sie dabei die Verzeichnisstruktur.
+3. Überprüfen Sie, ob die Dateien nach der Migration über die Plattform zugänglich sind.
 
-## Permissions and Access
+## Berechtigungen und Zugriff
 
-Ensure your cloud storage bucket is **not publicly accessible** unless you explicitly need public file URLs. Chamilo serves files through its own access control layer, so direct public access to the bucket is unnecessary and a security risk.
+Stellen Sie sicher, dass Ihr Cloud-Speicher-Bucket **nicht öffentlich zugänglich** ist, es sei denn, Sie benötigen explizit öffentliche Datei-URLs. Chamilo stellt Dateien über seine eigene Zugriffskontrollschicht bereit, sodass ein direkter öffentlicher Zugriff auf den Bucket unnötig und ein Sicherheitsrisiko ist.
 
-For S3, use a bucket policy that restricts access to the IAM credentials configured above.
+Für S3 verwenden Sie eine Bucket-Richtlinie, die den Zugriff auf die oben konfigurierten IAM-Zugangsdaten beschränkt.
 
-## Tips
+## Tipps
 
-* **Test with MinIO locally** before deploying to a cloud provider -- MinIO is a free, S3-compatible server you can run on your own machine.
-* **Use a dedicated bucket** for Chamilo rather than sharing a bucket with other applications.
-* **Set up lifecycle policies** on your cloud bucket to manage storage costs (e.g., move old files to cheaper storage tiers).
+* **Testen Sie lokal mit MinIO**, bevor Sie zu einem Cloud-Anbieter wechseln -- MinIO ist ein kostenloser, S3-kompatibler Server, den Sie auf Ihrem eigenen Rechner betreiben können.
+* **Verwenden Sie einen dedizierten Bucket** für Chamilo, anstatt einen Bucket mit anderen Anwendungen zu teilen.
+* **Richten Sie Lebenszyklusrichtlinien** für Ihren Cloud-Bucket ein, um Speicherkosten zu verwalten (z. B. alte Dateien in günstigere Speicherklassen zu verschieben).

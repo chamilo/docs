@@ -1,148 +1,137 @@
-# Mail Settings
+# E-Mail-Einstellungen
 
-How outgoing mail is built — sender identity, layout, signature, and special-purpose addresses.
+Wie ausgehende E-Mails erstellt werden – Absenderidentität, Layout, Signatur und spezielle Adressen.
 
-Access these settings under **Administration > Configuration settings > Mail**. This category contains **18 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+Greifen Sie auf diese Einstellungen unter **Verwaltung > Konfigurationseinstellungen > E-Mail** zu. Diese Kategorie enthält **18 Einstellungen**, die unten mit dem Titel und Kommentar aufgeführt sind, wie sie in den Plattform-Einstellungen (`SettingsCurrentFixtures.php`) ausgeliefert werden.
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> Der Variablenname im Code wird in Monospace angezeigt. Verwenden Sie ihn, wenn Sie über die API skripten oder diese Einstellungen auf globaler Ebene ändern möchten, indem Sie [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml) bearbeiten.
 
-## Settings
+## Einstellungen
 
 ### `allow_email_editor_for_anonymous`
 
-**E-mail editor for anonymous**
+**E-Mail-Editor für anonyme Benutzer**
 
-Allow anonymous users to send e-mails from the platform. In this day and age of information security this is not a recommended option.
+Erlauben Sie anonymen Benutzern, E-Mails von der Plattform aus zu senden. In Zeiten der Informationssicherheit ist dies keine empfohlene Option.
 
-*Default: `true`*
-
+*Standard: `true`*
 
 ### `cron_notification_help_desk`
 
-**E-mail addresses to send cronjobs execution reports**
+**E-Mail-Adressen für Berichte über die Ausführung von Cronjobs**
 
-Given as array of e-mail addresses. Does not work for all cronjobs yet.
+Wird als Array von E-Mail-Adressen angegeben. Funktioniert noch nicht für alle Cronjobs.
 
 ### `mail_content_style`
 
-**Extra e-mail HTML body attributes**
+**Zusätzliche HTML-Body-Attribute für E-Mails**
 
-Extra HTML attributes to apply to the body tag of generated notification emails.
+Zusätzliche HTML-Attribute, die auf das Body-Tag von generierten Benachrichtigungs-E-Mails angewendet werden.
 
 ### `mail_header_style`
 
-**Extra e-mail HTML header attributes**
+**Zusätzliche HTML-Header-Attribute für E-Mails**
 
-Extra HTML attributes to apply to the header section of generated notification emails.
+Zusätzliche HTML-Attribute, die auf den Header-Bereich von generierten Benachrichtigungs-E-Mails angewendet werden.
 
 ### `mailer_debug_enable`
 
-**Mail: Debug**
+**E-Mail: Debug**
 
-Select whether you want to enable the e-mail sending debug logs. These will give you more information on what is happening when connecting to the mail service, but are not elegant and might break page design. Only use when there is not user activity.
+Wählen Sie aus, ob Sie die Debug-Protokolle für den E-Mail-Versand aktivieren möchten. Diese liefern mehr Informationen darüber, was beim Verbinden mit dem E-Mail-Dienst passiert, sind jedoch nicht elegant und könnten das Seitenlayout beeinträchtigen. Verwenden Sie dies nur, wenn keine Benutzeraktivität stattfindet.
 
-*Default: `false`*
-
+*Standard: `false`*
 
 ### `mailer_dkim`
 
-**Mail: DKIM headers**
+**E-Mail: DKIM-Header**
 
-Enter a JSON array of your DKIM configuration settings (see example).
+Geben Sie ein JSON-Array mit Ihren DKIM-Konfigurationseinstellungen ein (siehe Beispiel).
 
 ### `mailer_dsn`
 
-**Mail DSN**
+**E-Mail-DSN**
 
-The DSN fully includes all parameters needed to connect to the mail service. You can learn more at https://symfony.com/doc/6.4/mailer.html#using-built-in-transports. Here are a few examples of supported DSN syntaxes: https://symfony.com/doc/6.4/mailer.html#using-a-3rd-party-transport
+Der DSN enthält vollständig alle Parameter, die für die Verbindung zum E-Mail-Dienst benötigt werden. Weitere Informationen finden Sie unter https://symfony.com/doc/6.4/mailer.html#using-built-in-transports. Hier sind einige Beispiele für unterstützte DSN-Syntaxen: https://symfony.com/doc/6.4/mailer.html#using-a-3rd-party-transport
 
-*Default: `null://null`*
-
+*Standard: `null://null`*
 
 ### `mailer_exclude_json`
 
-**Mail: Avoid using LD+JSON**
+**E-Mail: LD+JSON vermeiden**
 
-Some e-mail clients do not understand the descriptive LD+JSON format, showing it as a loose JSON string to the final user. If this is your case, you might want to set the variable below to 'false' to disable this header.
+Einige E-Mail-Clients verstehen das beschreibende LD+JSON-Format nicht und zeigen es dem Endbenutzer als lose JSON-Zeichenkette an. Falls dies bei Ihnen der Fall ist, können Sie die untenstehende Variable auf 'false' setzen, um diesen Header zu deaktivieren.
 
-*Default: `false`*
-
+*Standard: `false`*
 
 ### `mailer_from_email`
 
-**Send all e-mails from this e-mail address**
+**Alle E-Mails von dieser E-Mail-Adresse senden**
 
-Sets the default email address used in the "from" field of emails.
+Legt die Standard-E-Mail-Adresse fest, die im "Von"-Feld der E-Mails verwendet wird.
 
 ### `mailer_from_name`
 
-**Send all e-mails as originating from this (organizational) name**
+**Alle E-Mails als von diesem (organisatorischen) Namen stammend senden**
 
-Sets the default display name used for sending platform emails. e.g. "Support team".
+Legt den Standard-Anzeigenamen fest, der für den Versand von Plattform-E-Mails verwendet wird, z. B. "Support-Team".
 
 ### `mailer_mails_charset`
 
-**Mail: character set**
+**E-Mail: Zeichensatz**
 
-In case you need to define the charset to use when sending those e-mails. Leave empty if you're not sure.
+Falls Sie den zu verwendenden Zeichensatz für den Versand dieser E-Mails definieren müssen. Lassen Sie das Feld leer, wenn Sie unsicher sind.
 
-*Default: `UTF-8`*
-
+*Standard: `UTF-8`*
 
 ### `mailer_xoauth2`
 
-**Mail: XOAuth2 options**
+**E-Mail: XOAuth2-Optionen**
 
-If you use some XOAuth2-based e-mail service, use this setting in JSON to save your specific configuration (see example) and select XOAuth2 in the mail service setting.
+Wenn Sie einen XOAuth2-basierten E-Mail-Dienst verwenden, nutzen Sie diese Einstellung im JSON-Format, um Ihre spezifische Konfiguration zu speichern (siehe Beispiel) und wählen Sie XOAuth2 in der E-Mail-Dienst-Einstellung aus.
 
 ### `messages_hide_mail_content`
 
-**Hide e-mail content to bring users to platform**
+**E-Mail-Inhalt ausblenden, um Benutzer auf die Plattform zu lenken**
 
-Prefer short e-mail versions with a link to the messaging space on the platform to increase platform-based engagement.
+Bevorzugen Sie kurze E-Mail-Versionen mit einem Link zum Nachrichtenbereich auf der Plattform, um die plattformbasierte Interaktion zu erhöhen.
 
-*Default: `false`*
-
+*Standard: `false`*
 
 ### `notifications_extended_footer_message`
 
-**Extended notifications footer**
+**Erweiterter Benachrichtigungs-Footer**
 
-Add a custom extra footer for notifications emails for a specific language, for example for privacy policy notices. Multiple languages and paragraphs can be added.
+Fügen Sie einen benutzerdefinierten zusätzlichen Footer für Benachrichtigungs-E-Mails für eine bestimmte Sprache hinzu, z. B. für Datenschutzhinweise. Mehrere Sprachen und Absätze können hinzugefügt werden.
 
 ### `send_notification_score_in_percentage`
 
-**Send score in percentage in test results notification**
+**Punktzahl in Prozent in Testergebnis-Benachrichtigungen senden**
 
-Sends exercise scores as percentages instead of points in test result notification emails.
+Sendet Übungsergebnisse als Prozentsätze anstelle von Punkten in Testergebnis-Benachrichtigungs-E-Mails.
 
-*Default: `false`*
-
+*Standard: `false`*
 
 ### `send_two_inscription_confirmation_mail`
 
-**Send 2 registration e-mails**
+**Zwei Registrierungs-E-Mails senden**
 
-Send two separate e-mails on registration. One for the username, another one for the password.
+Senden Sie bei der Registrierung zwei separate E-Mails. Eine für den Benutzernamen, eine weitere für das Passwort.
 
-*Default: `false`*
-
+*Standard: `false`*
 
 ### `show_user_email_in_notification`
 
-**Show sender's e-mail address in notifications**
+**E-Mail-Adresse des Absenders in Benachrichtigungen anzeigen**
 
-Includes the sender's email address with their name in personal message and notification emails.
+Zeigt die E-Mail-Adresse des Absenders zusammen mit seinem Namen in persönlichen Nachrichten und Benachrichtigungs-E-Mails an.
 
-*Default: `false`*
-
+*Standard: `false`*
 
 ### `update_users_email_to_dummy_except_admins`
 
-**Update users e-mail to dummy value during imports**
+**E-Mail-Adressen von Benutzern während des Imports auf Dummy-Wert aktualisieren**
 
-During special CSV cron imports of users, automatically replace e-mails with dummy e-mail username@example.com.
+Während spezieller CSV-Cron-Imports von Benutzern werden E-Mail-Adressen automatisch durch Dummy-E-Mail-Adressen wie username@example.com ersetzt.
 
-*Default: `false`*
-
-
+*Standard: `false`*

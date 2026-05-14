@@ -1,93 +1,93 @@
-# Server Requirements
+# Serveranforderungen
 
-Before installing Chamilo 2.0, verify that your server meets the following requirements.
+Bevor Sie Chamilo 2.0 installieren, stellen Sie sicher, dass Ihr Server die folgenden Anforderungen erfüllt.
 
-## Software Requirements
+## Softwareanforderungen
 
 ### PHP
 
-| Requirement | Minimum | Recommended |
-|-------------|---------|-------------|
-| **PHP version** | 8.2 | 8.3 or later |
+| Anforderung | Minimum | Empfohlen |
+|-------------|---------|-----------|
+| **PHP-Version** | 8.2 | 8.3 oder höher |
 
-### Required PHP Extensions
+### Erforderliche PHP-Erweiterungen
 
-| Extension | Purpose |
-|-----------|---------|
-| **curl** | HTTP requests (API integrations, external services) |
-| **fileinfo** | MIME type detection for uploaded files |
-| **gd** | Image processing (thumbnails, CAPTCHA) |
-| **intl** | Internationalization (date, number, and string formatting) |
-| **json** | JSON encoding/decoding |
-| **ldap** | LDAP connector. Although you will probably not use LDAP, Chamilo requires it |
-| **mbstring** | Multibyte string handling (UTF-8 support) |
-| **openssl** | Cryptographic operations (HTTPS, password hashing, tokens) |
-| **pdo_mysql** or **pdo_pgsql** | Database connectivity (install the one matching your database) |
-| **xml** | XML parsing (SCORM, RSS, SOAP) |
-| **zip** | Handling ZIP archives (SCORM packages, bulk imports/exports) |
-| **apcu** | User-level caching (recommended) |
-| **opcache** | Opcode caching (strongly recommended for performance) |
-| **xapian** | Full-text search (optional, only if you use search) |
+| Erweiterung | Zweck |
+|-------------|-------|
+| **curl** | HTTP-Anfragen (API-Integrationen, externe Dienste) |
+| **fileinfo** | MIME-Typ-Erkennung für hochgeladene Dateien |
+| **gd** | Bildverarbeitung (Vorschaubilder, CAPTCHA) |
+| **intl** | Internationalisierung (Formatierung von Datum, Zahlen und Zeichenfolgen) |
+| **json** | JSON-Kodierung/Dekodierung |
+| **ldap** | LDAP-Konnektor. Obwohl Sie LDAP wahrscheinlich nicht verwenden werden, benötigt Chamilo es |
+| **mbstring** | Handhabung von Multibyte-Zeichenfolgen (UTF-8-Unterstützung) |
+| **openssl** | Kryptografische Operationen (HTTPS, Passwort-Hashing, Token) |
+| **pdo_mysql** oder **pdo_pgsql** | Datenbankverbindung (installieren Sie die passende Erweiterung für Ihre Datenbank) |
+| **xml** | XML-Parsing (SCORM, RSS, SOAP) |
+| **zip** | Handhabung von ZIP-Archiven (SCORM-Pakete, Massenimporte/-exporte) |
+| **apcu** | Benutzer-Caching (empfohlen) |
+| **opcache** | Opcode-Caching (dringend empfohlen für die Leistung) |
+| **xapian** | Volltextsuche (optional, nur wenn Sie die Suche nutzen) |
 
-### Database
+### Datenbank
 
-| Database | Minimum Version |
-|----------|----------------|
+| Datenbank | Mindestversion |
+|-----------|----------------|
 | **MySQL** | 8.0 |
 | **MariaDB** | 10.4 |
 
-### Web Server
+### Webserver
 
-| Server | Notes |
-|--------|-------|
-| **Apache** | Requires `mod_rewrite` enabled. |
-| **Nginx** | Requires manual configuration for URL rewriting. See the Symfony Nginx documentation for a reference configuration. |
+| Server | Hinweise |
+|--------|----------|
+| **Apache** | Erfordert aktiviertes `mod_rewrite`. |
+| **Nginx** | Erfordert manuelle Konfiguration für URL-Rewriting. Siehe die Symfony Nginx-Dokumentation für eine Referenzkonfiguration. |
 
-### Build Tools
+### Build-Tools
 
-| Tool | Purpose |
-|------|---------|
-| **Composer** | PHP dependency management. Required to install Chamilo's PHP libraries. |
-| **Node.js** (18+) | JavaScript runtime. Required to build frontend assets. |
-| **npm** | JavaScript package manager. Installed with Node.js. |
+| Tool | Zweck |
+|------|-------|
+| **Composer** | PHP-Abhängigkeitsverwaltung. Erforderlich, um die PHP-Bibliotheken von Chamilo zu installieren. |
+| **Node.js** (18+) | JavaScript-Laufzeitumgebung. Erforderlich, um Frontend-Assets zu erstellen. |
+| **npm** | JavaScript-Paketmanager. Wird mit Node.js installiert. |
 
-## Hardware Requirements
+## Hardwareanforderungen
 
-| Resource | Minimum | Recommended |
-|----------|---------|-------------|
-| **RAM** | 2 GB | 4 GB or more |
-| **CPU** | 1 core | 2+ cores |
-| **Disk space** | 2 GB (application only) | 20+ GB (including uploaded content) |
-| **Disk type** | HDD | SSD (significantly improves database and cache performance) |
+| Ressource | Minimum | Empfohlen |
+|-----------|---------|-----------|
+| **RAM** | 2 GB | 4 GB oder mehr |
+| **CPU** | 1 Kern | 2+ Kerne |
+| **Speicherplatz** | 2 GB (nur Anwendung) | 20+ GB (einschließlich hochgeladener Inhalte) |
+| **Festplattentyp** | HDD | SSD (verbessert die Datenbank- und Cache-Leistung erheblich) |
 
-These are baseline figures. Actual requirements depend on the number of concurrent users and the volume of content hosted.
+Dies sind Grundwerte. Die tatsächlichen Anforderungen hängen von der Anzahl gleichzeitiger Benutzer und dem Umfang der gehosteten Inhalte ab.
 
-## Operating System
+## Betriebssystem
 
-| OS | Notes |
-|----|-------|
-| **Linux** | Recommended. Ubuntu 22.04+, Debian 12+, AlmaLinux 9+, or equivalent. |
-| **Windows** | Possible but not thoroughly tested. Use WSL2 for development. |
-| **macOS** | Development only / untested. |
+| Betriebssystem | Hinweise |
+|----------------|----------|
+| **Linux** | Empfohlen. Ubuntu 22.04+, Debian 12+, AlmaLinux 9+ oder gleichwertig. |
+| **Windows** | Möglich, aber nicht gründlich getestet. Verwenden Sie WSL2 für die Entwicklung. |
+| **macOS** | Nur für Entwicklung / ungetestet. |
 
-## Network Requirements
+## Netzwerkanforderungen
 
-* A domain name pointing to your server.
-* An SSL/TLS certificate for HTTPS (Let's Encrypt provides free certificates).
-* Outbound SMTP access if sending emails directly (or use a third-party email service).
-* Port 443 (HTTPS) and optionally port 80 (HTTP, for redirect to HTTPS).
+* Eine Domain, die auf Ihren Server verweist.
+* Ein SSL/TLS-Zertifikat für HTTPS (Let's Encrypt bietet kostenlose Zertifikate).
+* Ausgehender SMTP-Zugriff, wenn E-Mails direkt gesendet werden (oder nutzen Sie einen Drittanbieter-E-Mail-Dienst).
+* Port 443 (HTTPS) und optional Port 80 (HTTP, für Weiterleitung zu HTTPS).
 
-## Checking Requirements
+## Überprüfung der Anforderungen
 
-After placing the Chamilo source on your server, you can check your PHP configuration directly:
+Nachdem Sie den Chamilo-Quellcode auf Ihrem Server platziert haben, können Sie Ihre PHP-Konfiguration direkt überprüfen:
 
 ```bash
-php -m          # List installed extensions
-php -i          # Full PHP info
+php -m          # Liste der installierten Erweiterungen
+php -i          # Vollständige PHP-Informationen
 ```
 
-## Tips
+## Tipps
 
-* **Use PHP-FPM** with Apache or Nginx for better performance than mod_php.
-* **Separate your database** onto a dedicated server for platforms expecting more than 500 concurrent users.
-* **Use SSD storage** -- Database-heavy applications like Chamilo benefit significantly from fast disk I/O.
+* **Verwenden Sie PHP-FPM** mit Apache oder Nginx für bessere Leistung als mod_php.
+* **Trennen Sie Ihre Datenbank** auf einen dedizierten Server für Plattformen mit mehr als 500 gleichzeitigen Benutzern.
+* **Verwenden Sie SSD-Speicher** – Datenbankintensive Anwendungen wie Chamilo profitieren erheblich von schnellem Festplatten-I/O.

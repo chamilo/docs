@@ -1,108 +1,107 @@
-# Course Catalog Settings
+# Kurskatalog-Einstellungen
 
-Behaviour of the course catalog (the public list where users can browse and self-enroll).
+Verhalten des Kurskatalogs (die öffentliche Liste, in der Benutzer stöbern und sich selbst einschreiben können).
 
-Access these settings under **Administration > Configuration settings > Course Catalog**. This category contains **13 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+Greifen Sie auf diese Einstellungen unter **Verwaltung > Konfigurationseinstellungen > Kurskatalog** zu. Diese Kategorie enthält **13 Einstellungen**, die unten mit dem Titel und dem Kommentar aufgeführt sind, wie sie in den Standardeinstellungen der Plattform (`SettingsCurrentFixtures.php`) bereitgestellt werden.
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> Der Variablenname im Code wird in Monospace angezeigt. Verwenden Sie ihn, wenn Sie über die API Skripte erstellen oder wenn Sie diese Einstellungen auf globaler Ebene ändern möchten, indem Sie [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml) bearbeiten.
 
-## Settings
+## Einstellungen
 
 ### `allow_session_auto_subscription`
 
-**Auto Session Subscription**
+**Automatische Sitzungsanmeldung**
 
-Enable automatic subscription to sessions for users.
+Aktivieren Sie die automatische Anmeldung zu Sitzungen für Benutzer.
 
-*Default: `false`*
+*Standard: `false`*
 
 ### `allow_students_to_browse_courses`
 
-**Allow Student Browsing**
+**Studenten das Durchsuchen erlauben**
 
-Permit students to browse and filter the course catalog.
+Erlauben Sie Studenten, den Kurskatalog zu durchsuchen und zu filtern.
 
-*Default: `true`*
+*Standard: `true`*
 
 ### `course_catalog_display_in_home`
 
-**Display Catalog on Homepage**
+**Katalog auf der Startseite anzeigen**
 
-Show the course catalog block on the platform homepage.
+Zeigen Sie den Kurskatalog-Block auf der Startseite der Plattform an.
 
-*Default: `false`*
+*Standard: `false`*
 
 ### `course_catalog_hide_private`
 
-**Hide Private Courses**
+**Private Kurse ausblenden**
 
-Exclude private courses from the catalog display.
+Schließen Sie private Kurse aus der Kataloganzeige aus.
 
-*Default: `true`*
+*Standard: `true`*
 
 ### `course_catalog_published`
 
-**Publish course catalogue**
+**Kurskatalog veröffentlichen**
 
-Make the courses catalogue available to anonymous users (the general public) without the need to login.
+Machen Sie den Kurskatalog für anonyme Benutzer (die allgemeine Öffentlichkeit) zugänglich, ohne dass eine Anmeldung erforderlich ist.
 
-*Default: `false`*
+*Standard: `false`*
 
 ### `course_catalog_settings`
 
-**Course catalogue settings**
+**Kurskatalog-Einstellungen**
 
-JSON configuration for course catalog: link settings, filters, sort options, and more.
+JSON-Konfiguration für den Kurskatalog: Verlinkungseinstellungen, Filter, Sortieroptionen und mehr.
 
 ### `course_subscription_in_user_s_session`
 
-**Subscription in Session View**
+**Anmeldung in der Sitzungsansicht**
 
-Allow users to subscribe to courses directly from their session page.
+Erlauben Sie Benutzern, sich direkt über ihre Sitzungsseite für Kurse anzumelden.
 
-*Default: `false`*
+*Standard: `false`*
 
 ### `hide_public_link`
 
-**Hide Public Link**
+**Öffentlichen Link ausblenden**
 
-Remove the public URL link from course cards.
+Entfernen Sie den öffentlichen URL-Link von den Kurskarten.
 
-*Default: `false`*
+*Standard: `false`*
 
 ### `only_show_course_from_selected_category`
 
-**Only show matching categories in courses catalogue**
+**Nur passende Kategorien im Kurskatalog anzeigen**
 
-When not empty, only the courses from the given categories will appear in the courses catalogue.
+Wenn nicht leer, werden nur die Kurse aus den angegebenen Kategorien im Kurskatalog angezeigt.
 
 ### `only_show_selected_courses`
 
-**Only Selected Courses**
+**Nur ausgewählte Kurse**
 
-Show only manually selected courses in the catalog.
+Zeigen Sie nur manuell ausgewählte Kurse im Katalog an.
 
-*Default: `false`*
+*Standard: `false`*
 
 ### `session_catalog_settings`
 
-**Session Catalog Settings**
+**Sitzungskatalog-Einstellungen**
 
-JSON configuration for session catalog: filters and display options.
+JSON-Konfiguration für den Sitzungskatalog: Filter und Anzeigeoptionen.
 
 ### `show_courses_descriptions_in_catalog`
 
-**Show Course Descriptions**
+**Kursbeschreibungen anzeigen**
 
-Display course descriptions within the catalog listing.
+Zeigen Sie Kursbeschreibungen in der Katalogliste an.
 
-*Default: `false`*
+*Standard: `false`*
 
 ### `show_courses_sessions`
 
-**Show Courses & Sessions**
+**Kurse & Sitzungen anzeigen**
 
-Include both courses and sessions in catalog results.
+Schließen Sie sowohl Kurse als auch Sitzungen in die Katalogergebnisse ein.
 
-*Default: `0`*
-
+*Standard: `0`*

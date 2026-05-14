@@ -1,82 +1,81 @@
-# Certificates Settings
+# Zertifikatseinstellungen
 
-Defaults applied when a learner earns a certificate from the gradebook.
+Standardwerte, die angewendet werden, wenn ein Lernender ein Zertifikat über das Notenbuch erhält.
 
-Access these settings under **Administration > Configuration settings > Certificates**. This category contains **9 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+Greifen Sie auf diese Einstellungen unter **Verwaltung > Konfigurationseinstellungen > Zertifikate** zu. Diese Kategorie enthält **9 Einstellungen**, die unten mit dem Titel und dem Kommentar aufgeführt sind, wie sie in den Standardeinstellungen der Plattform (`SettingsCurrentFixtures.php`) bereitgestellt werden.
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> Der Variablenname im Code wird in Monospace angezeigt. Verwenden Sie ihn, wenn Sie über die API Skripte erstellen oder diese Einstellungen auf globaler Ebene ändern möchten, indem Sie [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml) bearbeiten.
 
-## Settings
+## Einstellungen
 
 ### `add_certificate_pdf_footer`
 
-**Add footer to PDF certificate exports**
+**Fußzeile zu PDF-Zertifikatsexporten hinzufügen**
 
-When enabled, a footer is added to PDF exports of certificates.
+Wenn aktiviert, wird eine Fußzeile zu PDF-Exporten von Zertifikaten hinzugefügt.
 
-*Default: `false`*
+*Standard: `false`*
 
 ### `allow_general_certificate`
 
-**Enable general certificate**
+**Allgemeines Zertifikat aktivieren**
 
-A general certificate is a certificate grouping all the accomplishments by the user in the courses (s)he followed.
+Ein allgemeines Zertifikat ist ein Zertifikat, das alle Errungenschaften des Benutzers in den von ihm besuchten Kursen zusammenfasst.
 
-*Default: `false`*
+*Standard: `false`*
 
 ### `allow_public_certificates`
 
-**Allow public certificates**
+**Öffentliche Zertifikate erlauben**
 
-User certificates can be view by unregistered users.
+Benutzerzertifikate können von nicht registrierten Benutzern eingesehen werden.
 
-*Default: `false`*
+*Standard: `false`*
 
 ### `certificate_filter_by_official_code`
 
-**Certificates filter by official code**
+**Zertifikate nach offiziellem Code filtern**
 
-Add a filter on the students official code to the certificates list.
+Fügt einen Filter für den offiziellen Code der Studierenden zur Zertifikatsliste hinzu.
 
-*Default: `false`*
+*Standard: `false`*
 
 ### `certificate_pdf_orientation`
 
-**PDF orientation for certificates**
+**PDF-Ausrichtung für Zertifikate**
 
-Set ‘portrait’ or ‘landscape’ (technical terms) for PDF certificates.
+Legen Sie ‘portrait’ oder ‘landscape’ (technische Begriffe) für PDF-Zertifikate fest.
 
-*Default: `landscape`*
+*Standard: `landscape`*
 
 ### `hide_certificate_export_link`
 
-**Certificates: hide PDF export link for all**
+**Zertifikate: PDF-Exportlink für alle ausblenden**
 
-Enable to completely remove the possibility to export certificates to PDF (for all users). If enabled, this includes hiding it from students.
+Aktivieren Sie diese Option, um die Möglichkeit, Zertifikate als PDF zu exportieren, vollständig zu entfernen (für alle Benutzer). Wenn aktiviert, wird dies auch für Studierende ausgeblendet.
 
-*Default: `false`*
+*Standard: `false`*
 
 ### `hide_certificate_export_link_students`
 
-**Certificates: hide export link from students**
+**Zertifikate: Exportlink für Studierende ausblenden**
 
-If enabled, students won’t be able to export their certificates to PDF. This option is available because, depending on the precise HTML structure of the certificate template, the PDF export might be of low quality. In this case, it is best to only show the HTML certificate to students.
+Wenn aktiviert, können Studierende ihre Zertifikate nicht als PDF exportieren. Diese Option ist verfügbar, da je nach der genauen HTML-Struktur der Zertifikatvorlage der PDF-Export von geringer Qualität sein kann. In diesem Fall ist es am besten, den Studierenden nur das HTML-Zertifikat anzuzeigen.
 
-*Default: `false`*
+*Standard: `false`*
 
 ### `hide_my_certificate_link`
 
-**Hide ‘my certificate’ link**
+**Link ‘Mein Zertifikat’ ausblenden**
 
-Hide the certificates page for non-admin users.
+Blendet die Zertifikatsseite für Nicht-Admin-Benutzer aus.
 
-*Default: `false`*
+*Standard: `false`*
 
 ### `session_admin_can_download_all_certificates`
 
-**Allow session admins to download private certificates**
+**Sitzungsadministratoren das Herunterladen privater Zertifikate erlauben**
 
-If enabled, session administrators can download certificates even if they are not publicly published.
+Wenn aktiviert, können Sitzungsadministratoren Zertifikate herunterladen, auch wenn diese nicht öffentlich veröffentlicht sind.
 
-*Default: `false`*
-
+*Standard: `false`*

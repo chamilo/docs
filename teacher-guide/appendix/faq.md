@@ -1,57 +1,57 @@
 # FAQ
 
-## General Questions
+## Allgemeine Fragen
 
-**How do I access my course?**
+**Wie greife ich auf meinen Kurs zu?**
 
-Click **My courses** in the sidebar, then click on the course you want to open. If your course is part of a session, click **My sessions** first, then select the session and course.
+Klicken Sie in der Seitenleiste auf **Meine Kurse** und dann auf den Kurs, den Sie öffnen möchten. Wenn Ihr Kurs Teil einer Sitzung ist, klicken Sie zuerst auf **Meine Sitzungen**, wählen Sie dann die Sitzung und den Kurs aus.
 
-**Can my learners access the course from a mobile phone?**
+**Können meine Lernenden den Kurs von einem Mobiltelefon aus aufrufen?**
 
-Yes. Chamilo 2.0 has a responsive interface that adapts to all screen sizes. Learners can use any modern web browser on a phone, tablet, or computer.
+Ja. Chamilo 2.0 verfügt über eine responsive Benutzeroberfläche, die sich an alle Bildschirmgrößen anpasst. Lernende können jeden modernen Webbrowser auf einem Telefon, Tablet oder Computer verwenden.
 
-**What browsers are supported?**
+**Welche Browser werden unterstützt?**
 
-Chamilo 2.0 works with all major modern browsers: Chrome, Firefox, Safari, and Edge. For the best experience, use the latest version of your browser.
+Chamilo 2.0 funktioniert mit allen gängigen modernen Browsern: Chrome, Firefox, Safari und Edge. Für die beste Erfahrung verwenden Sie die neueste Version Ihres Browsers.
 
-## Content and Courses
+## Inhalte und Kurse
 
-**How do I create a backup of my course?**
+**Wie erstelle ich eine Sicherungskopie meines Kurses?**
 
-Go to the **Maintenance** tool in your course (accessible from the settings menu on the course homepage). You will find options to export your course content.
+Gehen Sie zum Werkzeug **Wartung** in Ihrem Kurs (zugänglich über das Einstellungsmenü auf der Kurs-Startseite). Dort finden Sie Optionen, um Ihren Kursinhalt zu exportieren.
 
-**Can I copy content from one course to another?**
+**Kann ich Inhalte von einem Kurs in einen anderen kopieren?**
 
-Yes. Use the course import/export features in the Maintenance tool to copy content between courses. You will need to create an empty *destination* course first.
+Ja. Verwenden Sie die Import-/Export-Funktionen im Wartungswerkzeug, um Inhalte zwischen Kursen zu kopieren. Sie müssen zunächst einen leeren *Zielkurs* erstellen.
 
-**What file formats can I upload?**
+**Welche Dateiformate kann ich hochladen?**
 
-Chamilo supports most common file formats: PDF, Word documents, PowerPoint presentations, images (PNG, JPG, SVG, GIF), audio files, video files, and many more. Your administrator may restrict certain file types for security reasons.
+Chamilo unterstützt die meisten gängigen Dateiformate: PDF, Word-Dokumente, PowerPoint-Präsentationen, Bilder (PNG, JPG, SVG, GIF), Audiodateien, Videodateien und viele mehr. Ihr Administrator kann aus Sicherheitsgründen bestimmte Dateitypen einschränken.
 
-**What is the maximum file upload size?**
+**Wie groß ist die maximale Datei-Upload-Größe?**
 
-This depends on your server configuration. Your administrator sets the upload limit. If you encounter a limit, contact your administrator.
+Dies hängt von Ihrer Serverkonfiguration ab. Ihr Administrator legt das Upload-Limit fest. Wenn Sie auf ein Limit stoßen, wenden Sie sich an Ihren Administrator.
 
-## Assessment
+## Bewertung
 
-**Can exercises be graded automatically?**
+**Können Übungen automatisch bewertet werden?**
 
-Yes. Most question types (multiple choice, true/false, fill in the blanks, matching) are graded automatically. Open-ended questions require manual grading, or you can use AI-assisted grading if configured.
+Ja. Die meisten Fragetypen (Multiple Choice, Richtig/Falsch, Lückentext, Zuordnungsfragen) werden automatisch bewertet. Offene Fragen erfordern eine manuelle Bewertung, oder Sie können KI-gestützte Bewertung verwenden, falls diese konfiguriert ist.
 
-**Can I set a time limit on exercises?**
+**Kann ich eine Zeitbegrenzung für Übungen festlegen?**
 
-Yes. When creating or editing an exercise, you can set a time limit in minutes. Learners will see a countdown timer.
+Ja. Beim Erstellen oder Bearbeiten einer Übung können Sie eine Zeitbegrenzung in Minuten festlegen. Die Lernenden sehen einen Countdown-Timer.
 
-**Can learners retake an exercise?**
+**Können Lernende eine Übung wiederholen?**
 
-Yes. You control the number of allowed attempts in the exercise settings. You can allow unlimited attempts or set a specific maximum, but this maximum applies to all users in your course (you can *free* new attempts by deleting previous ones, but this is not recommended as it results in unequal chances between users and it is registered for audit at the platform level).
+Ja. Sie steuern die Anzahl der erlaubten Versuche in den Übungseinstellungen. Sie können unbegrenzte Versuche erlauben oder eine bestimmte Höchstzahl festlegen, aber diese Höchstzahl gilt für alle Benutzer in Ihrem Kurs (Sie können neue Versuche *freischalten*, indem Sie vorherige löschen, dies wird jedoch nicht empfohlen, da es zu ungleichen Chancen zwischen den Benutzern führt und auf Plattformebene für Audits registriert wird).
 
-## Technical Issues
+## Technische Probleme
 
-**I cannot see a tool on my course homepage. Where is it?**
+**Ich sehe ein Werkzeug nicht auf meiner Kurs-Startseite. Wo ist es?**
 
-Some tools may be hidden. As a teacher, you can show hidden tools by looking for tools with a crossed-out eye icon. If you cannot find a specific tool at all, your platform administrator may have disabled it at the platform level.
+Einige Werkzeuge können ausgeblendet sein. Als Lehrkraft können Sie ausgeblendete Werkzeuge sichtbar machen, indem Sie nach Werkzeugen mit einem durchgestrichenen Augen-Symbol suchen. Wenn Sie ein bestimmtes Werkzeug überhaupt nicht finden, hat Ihr Plattformadministrator es möglicherweise auf Plattformebene deaktiviert.
 
-**My learners say they cannot access the course.**
+**Meine Lernenden sagen, sie können nicht auf den Kurs zugreifen.**
 
-Check the course visibility settings (Course Settings > Course Visibility). If set to "Registered only," learners must be explicitly enrolled. Also verify they have an active account on the platform.
+Überprüfen Sie die Sichtbarkeitseinstellungen des Kurses (Kurseinstellungen > Kurssichtbarkeit). Wenn diese auf "Nur Registrierte" eingestellt sind, müssen die Lernenden ausdrücklich eingeschrieben sein. Stellen Sie außerdem sicher, dass sie ein aktives Konto auf der Plattform haben.

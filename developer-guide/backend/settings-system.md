@@ -1,39 +1,39 @@
-# Settings System
+# Einstellungssystem
 
-Chamilo's configuration is managed through a set of settings schemas (around 40 of them, varying between releases) that define every configurable aspect of the platform. They live in `src/CoreBundle/Settings/` — the exact list there is the source of truth.
+Die Konfiguration von Chamilo wird durch eine Reihe von Einstellungsschemata (etwa 40, je nach Version unterschiedlich) verwaltet, die jeden konfigurierbaren Aspekt der Plattform definieren. Sie befinden sich in `src/CoreBundle/Settings/` — die genaue Liste dort ist die maßgebliche Quelle.
 
-## How It Works
+## Funktionsweise
 
-Settings are:
+Einstellungen werden:
 
-1. **Defined** in schema classes (`src/CoreBundle/Settings/*SettingsSchema.php`)
-2. **Stored** in the database (`settings_current` table)
-3. **Accessed** via the `SettingsManager` service
-4. **Managed** through the administration web interface
+1. **Definiert** in Schema-Klassen (`src/CoreBundle/Settings/*SettingsSchema.php`)
+2. **Gespeichert** in der Datenbank (Tabelle `settings_current`)
+3. **Abgerufen** über den Dienst `SettingsManager`
+4. **Verwaltet** über die Administrations-Weboberfläche
 
-## Settings Schemas
+## Einstellungsschemata
 
-Each schema file defines a category of settings. Key schemas:
+Jede Schema-Datei definiert eine Kategorie von Einstellungen. Wichtige Schemata:
 
-| Schema | Purpose |
-|--------|---------|
-| `PlatformSettingsSchema` | Institution info, timezone, server type, portal features |
-| `SecuritySettingsSchema` | Login attempts, CAPTCHA, password policy, HTTP headers, 2FA |
-| `RegistrationSettingsSchema` | Self-registration, required fields, auto-subscribe |
-| `CourseSettingsSchema` | Course creation defaults, tools, catalog |
-| `SessionSettingsSchema` | Session defaults, visibility |
-| `MailSettingsSchema` | Email configuration, DKIM, notifications |
-| `AiHelpersSettingsSchema` | AI providers, feature toggles per AI tool |
-| `ExerciseSettingsSchema` | Quiz scoring, feedback, question options |
-| `LearningPathSettingsSchema` | LP display, prerequisites, SCORM settings |
-| `DocumentSettingsSchema` | Upload limits, allowed file types, storage |
-| `DisplaySettingsSchema` | UI tabs, sidebar items, theme |
-| `LanguageSettingsSchema` | Available languages, default locale |
-| `AdminSettingsSchema` | Admin email, admin-specific options |
+| Schema | Zweck |
+|--------|-------|
+| `PlatformSettingsSchema` | Institutionsinformationen, Zeitzone, Servertyp, Portal-Funktionen |
+| `SecuritySettingsSchema` | Anmeldeversuche, CAPTCHA, Passwortrichtlinien, HTTP-Header, 2FA |
+| `RegistrationSettingsSchema` | Selbstregistrierung, Pflichtfelder, automatische Anmeldung |
+| `CourseSettingsSchema` | Standardeinstellungen für Kurse, Werkzeuge, Katalog |
+| `SessionSettingsSchema` | Sitzungs-Standards, Sichtbarkeit |
+| `MailSettingsSchema` | E-Mail-Konfiguration, DKIM, Benachrichtigungen |
+| `AiHelpersSettingsSchema` | KI-Anbieter, Funktionsschalter pro KI-Tool |
+| `ExerciseSettingsSchema` | Quiz-Bewertung, Feedback, Fragenoptionen |
+| `LearningPathSettingsSchema` | LP-Anzeige, Voraussetzungen, SCORM-Einstellungen |
+| `DocumentSettingsSchema` | Upload-Limits, erlaubte Dateitypen, Speicherung |
+| `DisplaySettingsSchema` | UI-Tabs, Sidebar-Elemente, Theme |
+| `LanguageSettingsSchema` | Verfügbare Sprachen, Standard-Sprachumgebung |
+| `AdminSettingsSchema` | Admin-E-Mail, admin-spezifische Optionen |
 
-## Accessing Settings
+## Zugriff auf Einstellungen
 
-In PHP code:
+In PHP-Code:
 
 ```php
 // Via SettingsManager service
@@ -43,7 +43,7 @@ $value = $settingsManager->getSetting('platform.site_name');
 $value = api_get_setting('platform.site_name');
 ```
 
-In templates:
+In Vorlagen:
 
 ```twig
 {# Read a single setting #}
@@ -58,32 +58,32 @@ In templates:
 {% set settings = chamilo_settings_all() %}
 ```
 
-## Setting Structure
+## Struktur der Einstellungen
 
-Each setting has:
+Jede Einstellung hat:
 
-* **Namespace** — The schema category (e.g., `platform`, `security`, `ai_helpers`)
-* **Variable** — The setting name (e.g., `site_name`, `allow_registration`)
-* **Value** — The current value
-* **Type** — Data type (string, boolean, array, etc.)
+* **Namespace** — Die Schema-Kategorie (z. B. `platform`, `security`, `ai_helpers`)
+* **Variable** — Der Name der Einstellung (z. B. `site_name`, `allow_registration`)
+* **Wert** — Der aktuelle Wert
+* **Typ** — Datentyp (String, Boolean, Array usw.)
 
-## Course-Level Settings
+## Kursspezifische Einstellungen
 
-Some settings can be overridden at the course level. These are defined in `src/CourseBundle/Settings/` and include:
+Einige Einstellungen können auf Kursebene überschrieben werden. Diese werden in `src/CourseBundle/Settings/` definiert und umfassen:
 
-* Exercise settings per course
-* Assignment settings per course
-* AI feature toggles per course
+* Übungseinstellungen pro Kurs
+* Aufgabeneinstellungen pro Kurs
+* KI-Funktionsschalter pro Kurs
 
-## Multi-URL Settings
+## Multi-URL-Einstellungen
 
-In multi-URL setups, some settings can be customized per access URL, allowing different portal configurations from the same installation.
+In Multi-URL-Setups können einige Einstellungen pro Zugriffs-URL angepasst werden, was unterschiedliche Portal-Konfigurationen aus derselben Installation ermöglicht.
 
-Those settings will appear several times in the `settings` table, with different `access_url` values. By default, all settings are associated with `access_url=1`.
+Diese Einstellungen erscheinen mehrfach in der Tabelle `settings` mit unterschiedlichen `access_url`-Werten. Standardmäßig sind alle Einstellungen mit `access_url=1` verknüpft.
 
-## Adding a New Setting
+## Hinzufügen einer neuen Einstellung
 
-1. Add the setting definition to the appropriate schema class
-2. Provide a default value
-3. Run database migrations if needed
-4. Access the setting via `SettingsManager`
+1. Fügen Sie die Einstellungsdefinition zur entsprechenden Schema-Klasse hinzu
+2. Geben Sie einen Standardwert an
+3. Führen Sie bei Bedarf Datenbankmigrationen durch
+4. Greifen Sie auf die Einstellung über `SettingsManager` zu

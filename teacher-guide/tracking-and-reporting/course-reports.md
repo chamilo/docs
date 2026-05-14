@@ -1,50 +1,50 @@
-# Course Reports
+# Kursberichte
 
-Course reports give you an aggregate view of activity and performance across all learners in your course.
+Kursberichte bieten Ihnen eine aggregierte Übersicht über Aktivitäten und Leistungen aller Lernenden in Ihrem Kurs.
 
-## Accessing Course Reports
+## Zugriff auf Kursberichte
 
-Open the **Tracking** <img src="/.gitbook/assets/icons/mdi-chart-box.svg" alt="Tracking" data-size="line"> tool from the course homepage and select the course-level reports view.
+Öffnen Sie das Werkzeug **Tracking** <img src="/.gitbook/assets/icons/mdi-chart-box.svg" alt="Tracking" data-size="line"> auf der Kurs-Startseite und wählen Sie die Ansicht für Kursberichte aus.
 
-![The course tracking overview showing engagement metrics and learner activity summary](/.gitbook/assets/tracking-course-overview.png)
+![Die Kurs-Tracking-Übersicht mit Engagement-Metriken und Zusammenfassung der Lernendenaktivitäten](/.gitbook/assets/tracking-course-overview.png)
 
-## Available Reports
+## Verfügbare Berichte
 
-### Activity Overview
+### Aktivitätsübersicht
 
-A summary of overall course engagement, including enrolled learners, time spent in the course, course progress, exercise progress and average score, and assignment activity.
+Eine Zusammenfassung der allgemeinen Kursbeteiligung, einschließlich der eingeschriebenen Lernenden, der im Kurs verbrachten Zeit, des Kursfortschritts, des Fortschritts bei Übungen und der durchschnittlichen Punktzahl sowie der Aktivität bei Aufgaben.
 
-Separate detail views are available from the tracking section for **resources** (per-resource access counts), **tools** (per-tool usage), and **events** (raw event log).
+Separate Detailansichten sind im Tracking-Bereich für **Ressourcen** (Zugriffszahlen pro Ressource), **Werkzeuge** (Nutzung pro Werkzeug) und **Ereignisse** (rohes Ereignisprotokoll) verfügbar.
 
-### Exercise Reports
+### Übungsberichte
 
-For each exercise in the course:
+Für jede Übung im Kurs:
 
-* Number of learners who attempted it
-* Average score
-* Score distribution
-* Number of learners who passed (based on the pass threshold you set)
+* Anzahl der Lernenden, die sie versucht haben
+* Durchschnittliche Punktzahl
+* Punktverteilung
+* Anzahl der Lernenden, die bestanden haben (basierend auf dem von Ihnen festgelegten Bestehensschwellwert)
 
-### Learning Path Reports
+### Lernpfad-Berichte
 
-For each learning path:
+Für jeden Lernpfad:
 
-* Completion rates across all learners
-* Average progress percentage
-* Time spent per item
-* Learners who have completed the path vs. those still in progress
+* Abschlussraten über alle Lernenden hinweg
+* Durchschnittlicher Fortschrittsprozentsatz
+* Verbrachte Zeit pro Element
+* Lernende, die den Pfad abgeschlossen haben, im Vergleich zu denen, die noch dabei sind
 
-### Assignment Reports
+### Aufgabenberichte
 
-For each assignment:
+Für jede Aufgabe:
 
-* Number of submissions received
-* Number of pending reviews
+* Anzahl der eingereichten Abgaben
+* Anzahl der ausstehenden Bewertungen
 
-## Exporting Data
+## Exportieren von Daten
 
-You can export tracking and report data for further analysis. Look for the **Export** <img src="/.gitbook/assets/icons/mdi-export.svg" alt="Export" data-size="line"> option to download data in a spreadsheet-compatible format.
+Sie können Tracking- und Berichtsdaten für weitere Analysen exportieren. Suchen Sie nach der Option **Exportieren** <img src="/.gitbook/assets/icons/mdi-export.svg" alt="Exportieren" data-size="line">, um Daten in einem tabellenkalkulationskompatiblen Format herunterzuladen.
 
-## Session Reports
+## Sitzungsberichte
 
-If you teach within a session, reports are scoped to the session's learners. Session coaches have access to reports across all courses in their session. A global configuration setting can also allows teachers to see assignments through all sessions using their course (ask your admin).
+Wenn Sie innerhalb einer Sitzung unterrichten, sind die Berichte auf die Lernenden der Sitzung beschränkt. Sitzungscoaches haben Zugriff auf Berichte über alle Kurse in ihrer Sitzung. Eine globale Konfigurationseinstellung kann es Lehrenden auch ermöglichen, Aufgaben über alle Sitzungen hinweg zu sehen, die ihren Kurs nutzen (fragen Sie Ihren Administrator).

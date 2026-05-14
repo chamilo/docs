@@ -1,90 +1,91 @@
-# Platform Settings
+# Plattformeinstellungen
 
-Chamilo has an extensive configuration system with settings organized into categories. The full set of categories below mirrors the **Configuration settings** page in the admin panel — and the underlying `SettingsCurrentFixtures.php` in the source code, which is the source of truth for variable names, titles, and descriptions.
+Chamilo verfügt über ein umfangreiches Konfigurationssystem mit Einstellungen, die in Kategorien organisiert sind. Die unten aufgeführten Kategorien spiegeln die Seite **Konfigurationseinstellungen** im Admin-Panel wider — sowie die zugrunde liegende Datei `SettingsCurrentFixtures.php` im Quellcode, die die maßgebliche Quelle für Variablennamen, Titel und Beschreibungen ist.
 
-Access platform settings from the administration panel by clicking **Configuration settings**.
+Greifen Sie auf die Plattformeinstellungen über das Administrationspanel zu, indem Sie auf **Konfigurationseinstellungen** klicken.
 
-![The platform settings page showing configuration categories organized by functional area](/.gitbook/assets/admin-settings-categories.png)
+![Die Plattformeinstellungsseite zeigt Konfigurationskategorien, organisiert nach Funktionsbereichen](/.gitbook/assets/admin-settings-categories.png)
 
-## All categories
+## Alle Kategorien
 
-There are **39 configuration categories** in total, listed alphabetically below. The number after each link is the count of settings in that category.
+Es gibt insgesamt **39 Konfigurationskategorien**, die unten alphabetisch aufgelistet sind. Die Zahl nach jedem Link gibt die Anzahl der Einstellungen in dieser Kategorie an.
 
-### Platform-wide
+### Plattformweit
 
-* **[Administrator Identity](admin-settings.md)** (12) — Identity and contact details of the platform administrator.
-* **[Platform](platform-settings.md)** (29) — Platform-level identity, time zone, registration policy, online users, performance flags.
-* **[Display](display-settings.md)** (24) — Homepage layout, gravatar, menus, branding behaviour.
-* **[Editor](editor-settings.md)** (26) — Rich-text editor (TinyMCE) toolbars, plugins, AI helpers.
-* **[Languages](language-settings.md)** (12) — Available languages, default language, fallbacks.
-* **[Mail](mail-settings.md)** (18) — Outgoing-mail layout, sender identity, signature.
-* **[Workflows](workflows-settings.md)** (23) — Cross-cutting workflow toggles (course creation, enrollment validation…).
+* **[Administrator-Identität](admin-settings.md)** (12) — Identität und Kontaktdaten des Plattformadministrators.
+* **[Plattform](platform-settings.md)** (29) — Plattformweite Identität, Zeitzone, Registrierungsrichtlinie, Online-Benutzer, Leistungsflags.
+* **[Anzeige](display-settings.md)** (24) — Layout der Startseite, Gravatar, Menüs, Branding-Verhalten.
+* **[Editor](editor-settings.md)** (26) — Rich-Text-Editor (TinyMCE) Werkzeugleisten, Plugins, KI-Hilfsprogramme.
+* **[Sprachen](language-settings.md)** (12) — Verfügbare Sprachen, Standardsprache, Fallbacks.
+* **[E-Mail](mail-settings.md)** (18) — Layout ausgehender E-Mails, Absenderidentität, Signatur.
+* **[Workflows](workflows-settings.md)** (23) — Plattformübergreifende Workflow-Schalter (Kurscreation, Einschreibungsvalidierung…).
 
-### Authentication, security & privacy
+### Authentifizierung, Sicherheit & Datenschutz
 
-* **[Security](security-settings.md)** (31) — Login protection, password policy, headers, 2FA, IDS.
-* **[Registration](registration-settings.md)** (20) — Self-registration policy and post-registration redirects.
-* **[Privacy](privacy-settings.md)** (6) — Consent, data export, account-deletion requests.
-* **[CAS](cas-settings.md)** (7) — Legacy CAS configuration carried over from 1.x.
+* **[Sicherheit](security-settings.md)** (31) — Login-Schutz, Passwortrichtlinie, Header, 2FA, IDS.
+* **[Registrierung](registration-settings.md)** (20) — Selbstregistrierungsrichtlinie und Weiterleitungen nach der Registrierung.
+* **[Datenschutz](privacy-settings.md)** (6) — Einwilligung, Datenexport, Anfragen zur Kontolöschung.
+* **[CAS](cas-settings.md)** (7) — Veraltete CAS-Konfiguration, übernommen aus Version 1.x.
 
-### Course and session lifecycle
+### Kurs- und Sitzungslebenszyklus
 
-* **[Course](course-settings.md)** (45) — Defaults and policies that apply to courses platform-wide.
-* **[Sessions](session-settings.md)** (68) — Session lifecycle, coach access windows, visibility.
-* **[Course Catalog](catalog-settings.md)** (13) — Behaviour of the public course catalog.
-* **[Profile](profile-settings.md)** (29) — Which fields appear on the user profile.
+* **[Kurs](course-settings.md)** (45) — Standardeinstellungen und Richtlinien, die plattformweit für Kurse gelten.
+* **[Sitzungen](session-settings.md)** (68) — Lebenszyklus von Sitzungen, Zugriffsfenster für Trainer, Sichtbarkeit.
+* **[Kurskatalog](catalog-settings.md)** (13) — Verhalten des öffentlichen Kurskatalogs.
+* **[Profil](profile-settings.md)** (29) — Welche Felder im Benutzerprofil angezeigt werden.
 
-### Course tools
+### Kurstools
 
 * **[Agenda](agenda-settings.md)** (11)
-* **[Announcements](announcement-settings.md)** (9)
-* **[Assignments (Work)](work-settings.md)** (12)
-* **[Attendance](attendance-settings.md)** (4)
+* **[Ankündigungen](announcement-settings.md)** (9)
+* **[Aufgaben (Arbeit)](work-settings.md)** (12)
+* **[Anwesenheit](attendance-settings.md)** (4)
 * **[Chat](chat-settings.md)** (5)
-* **[Documents](document-settings.md)** (29)
+* **[Dokumente](document-settings.md)** (29)
 * **[Dropbox](dropbox-settings.md)** (8)
-* **[Exercises (Tests)](exercise-settings.md)** (63)
-* **[Forums](forum-settings.md)** (9)
-* **[Glossary](glossary-settings.md)** (3)
-* **[Groups](group-settings.md)** (3)
-* **[Learning Paths](lp-settings.md)** (51)
-* **[Surveys](survey-settings.md)** (12)
+* **[Übungen (Tests)](exercise-settings.md)** (63)
+* **[Foren](forum-settings.md)** (9)
+* **[Glossar](glossary-settings.md)** (3)
+* **[Gruppen](group-settings.md)** (3)
+* **[Lernpfade](lp-settings.md)** (51)
+* **[Umfragen](survey-settings.md)** (12)
 
-### Assessment & recognition
+### Bewertung & Anerkennung
 
-* **[Gradebook (Assessments)](gradebook-settings.md)** (34) — Score display, decimals, certificate thresholds.
-* **[Certificates](certificate-settings.md)** (9) — Defaults applied when a learner earns a certificate.
-* **[Skills](skill-settings.md)** (13) — Skills tree, awarding rules, profile integration.
-* **[Tracking](tracking-settings.md)** (10) — What is recorded, what reports are exposed.
+* **[Notenbuch (Bewertungen)](gradebook-settings.md)** (34) — Anzeige von Punktzahlen, Dezimalstellen, Zertifikatsschwellen.
+* **[Zertifikate](certificate-settings.md)** (9) — Standardeinstellungen, die angewendet werden, wenn ein Lernender ein Zertifikat erhält.
+* **[Fähigkeiten](skill-settings.md)** (13) — Fähigkeitsbaum, Vergaberegeln, Profilintegration.
+* **[Nachverfolgung](tracking-settings.md)** (10) — Was aufgezeichnet wird, welche Berichte verfügbar sind.
 
-### Communication & community
+### Kommunikation & Gemeinschaft
 
-* **[Messaging](message-settings.md)** (7)
-* **[Social Network](social-settings.md)** (7)
+* **[Nachrichten](message-settings.md)** (7)
+* **[Soziales Netzwerk](social-settings.md)** (7)
 
-### AI
+### KI
 
-* **[AI Helpers](ai-helpers-settings.md)** (13) — Providers per task type (text, image, video, tutor, grading).
+* **[KI-Hilfsprogramme](ai-helpers-settings.md)** (13) — Anbieter pro Aufgabentyp (Text, Bild, Video, Tutor, Bewertung).
 
-### Operations & integration
+### Betrieb & Integration
 
-* **[Cron Jobs](crons-settings.md)** (3)
-* **[Search](search-settings.md)** (3) — Xapian full-text search configuration.
-* **[Tickets](ticket-settings.md)** (7) — Helpdesk system.
-* **[Web Services](webservice-settings.md)** (7) — Legacy SOAP/REST endpoints.
+* **[Cron-Jobs](crons-settings.md)** (3)
+* **[Suche](search-settings.md)** (3) — Xapian-Volltextsuchkonfiguration.
+* **[Tickets](ticket-settings.md)** (7) — Helpdesk-System.
+* **[Webdienste](webservice-settings.md)** (7) — Veraltete SOAP/REST-Endpunkte.
 
-## How Settings Work
+## Wie Einstellungen funktionieren
 
-* Settings are stored in the database (`settings` table) and managed through the web interface
-* Some settings are **URL-locked** in multi-URL setups (their value applies platform-wide and cannot be overridden per URL - see `access_url_locked` and `access_url_changeable` columns in the `settings` table); others (most) can be overridden per access URL
-* Changes take effect immediately (no server restart required), although your user session might be keeping some of them in memory. If changes don't reflect immediately, logout and login to flush your session.
-* Some settings have dependencies — changing one may affect the behaviour of others
-* Variable names shown on each page (e.g. `2fa_enable`) match the row in the `settings` database table (`variable` column) and the keys used in overrides (`config/settings_overrides.yaml`) where applicable.
+* Einstellungen werden in der Datenbank (`settings`-Tabelle) gespeichert und über die Weboberfläche verwaltet.
+* Einige Einstellungen sind in Multi-URL-Setups **URL-gebunden** (ihr Wert gilt plattformweit und kann nicht pro URL überschrieben werden - siehe `access_url_locked` und `access_url_changeable` Spalten in der `settings`-Tabelle); andere (die meisten) können pro Zugriffs-URL überschrieben werden.
+* Änderungen treten sofort in Kraft (kein Serverneustart erforderlich), obwohl Ihre Benutzersitzung einige davon im Speicher halten könnte. Wenn Änderungen nicht sofort sichtbar sind, melden Sie sich ab und wieder an, um Ihre Sitzung zu aktualisieren.
+* Einige Einstellungen haben Abhängigkeiten — die Änderung einer Einstellung kann das Verhalten anderer beeinflussen.
+* Die auf jeder Seite angezeigten Variablennamen (z. B. `2fa_enable`) entsprechen der Zeile in der `settings`-Datenbanktabelle (`variable`-Spalte) und den Schlüsseln, die in Überschreibungen verwendet werden (`config/settings_overrides.yaml`), falls zutreffend.
 
-For more information, check [Configurations](https://github.com/chamilo/chamilo-lms/wiki/Configurations) on our wiki.
+Für weitere Informationen besuchen Sie [Konfigurationen](https://github.com/chamilo/chamilo-lms/wiki/Configurations) in unserem Wiki.
 
-## Tips
+---
+## Tipps
 
-* **Document your settings** — Keep a record of non-default settings and why you changed them
-* **Change one thing at a time** — When troubleshooting, modify one setting at a time so you can identify the effect
-* **Test in a staging environment** — For significant setting changes, test on a staging server first
+* **Dokumentieren Sie Ihre Einstellungen** — Führen Sie Aufzeichnungen über nicht-standardmäßige Einstellungen und warum Sie diese geändert haben
+* **Ändern Sie nur eine Sache auf einmal** — Bei der Fehlersuche ändern Sie jeweils nur eine Einstellung, damit Sie die Auswirkung identifizieren können
+* **Testen Sie in einer Staging-Umgebung** — Bei bedeutenden Änderungen der Einstellungen testen Sie diese zuerst auf einem Staging-Server

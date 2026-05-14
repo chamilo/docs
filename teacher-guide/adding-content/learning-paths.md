@@ -1,115 +1,116 @@
-# Learning Paths
+# Lernpfade
 
-Learning paths let you create structured sequences of learning activities. A learning path guides your learners through a specific order of documents, exercises, links, and other resources, with optional prerequisites and progress tracking.
+Lernpfade ermöglichen es Ihnen, strukturierte Sequenzen von Lernaktivitäten zu erstellen. Ein Lernpfad führt Ihre Lernenden durch eine bestimmte Reihenfolge von Dokumenten, Übungen, Links und anderen Ressourcen, mit optionalen Voraussetzungen und Fortschrittsverfolgung.
 
-This tool is arguably the most used course tool, because it acts as a composer for many other tools and can very much be the ***only*** tool facing learners.
+Dieses Werkzeug ist wohl das am häufigsten verwendete Kurswerkzeug, da es als Komponist für viele andere Werkzeuge fungiert und sehr wohl das ***einzige*** Werkzeug sein kann, das den Lernenden gegenübersteht.
 
-## Why Use Learning Paths?
+## Warum Lernpfade verwenden?
 
-Learning paths are useful when you want to:
+Lernpfade sind nützlich, wenn Sie Folgendes möchten:
 
-* **Control the order** of content consumption — ensure learners complete foundational material before advancing
-* **Track progress** — see exactly where each learner is in the sequence
-* **Set prerequisites** — require learners to pass an exercise before accessing the next section
-* **Award completion** — link learning path completion to the gradebook and certificates
-* **Package content** — create self-contained learning modules that learners can work through at their own pace
+* **Reihenfolge steuern** – sicherstellen, dass Lernende grundlegendes Material abschließen, bevor sie weitergehen
+* **Fortschritt verfolgen** – genau sehen, wo sich jeder Lernende in der Sequenz befindet
+* **Voraussetzungen festlegen** – verlangen, dass Lernende eine Übung bestehen, bevor sie den nächsten Abschnitt freischalten
+* **Abschluss belohnen** – den Abschluss eines Lernpfads mit dem Notenbuch und Zertifikaten verknüpfen
+* **Inhalte bündeln** – eigenständige Lernmodule erstellen, die Lernende in ihrem eigenen Tempo durcharbeiten können
 
-## Creating a Learning Path
+## Einen Lernpfad erstellen
 
-1. Open the **Learning paths** <img src="/.gitbook/assets/icons/mdi-map-marker-path.svg" alt="Learning paths" data-size="line"> tool from the course homepage
-2. Click **Create a learning path**
-3. Enter a **title** and optional description
-4. Save — you will be taken to the learning path editor
+1. Öffnen Sie das Werkzeug **Lernpfade** <img src="/.gitbook/assets/icons/mdi-map-marker-path.svg" alt="Lernpfade" data-size="line"> auf der Kurs-Startseite
+2. Klicken Sie auf **Lernpfad erstellen**
+3. Geben Sie einen **Titel** und eine optionale Beschreibung ein
+4. Speichern Sie – Sie werden zum Lernpfad-Editor weitergeleitet
 
-## The Learning Path Editor
+## Der Lernpfad-Editor
 
-![The learning path editor with the item tree on the left and content preview on the right](/.gitbook/assets/learning-path-editor.png)
+![Der Lernpfad-Editor mit dem Elementbaum auf der linken Seite und der Inhaltsvorschau auf der rechten Seite](/.gitbook/assets/learning-path-editor.png)
 
-The editor has two main areas:
+Der Editor hat zwei Hauptbereiche:
 
-* **Left panel** — The list of items (steps) in the learning path, shown as a tree structure
-* **Right panel** — The content of the selected item
+* **Linkes Panel** – Die Liste der Elemente (Schritte) im Lernpfad, dargestellt als Baumstruktur
+* **Rechtes Panel** – Der Inhalt des ausgewählten Elements
 
-### Adding Items
+### Elemente hinzufügen
 
-Click **Add an item** and choose what to add:
+Klicken Sie auf **Element hinzufügen** und wählen Sie aus, was Sie hinzufügen möchten:
 
-| Item type | Description |
-|-----------|-------------|
-| **Section** | A heading that groups related items (like a chapter title). Sections do not contain content themselves. |
-| **Document** | A file or web page from your course's Documents tool |
-| **Exercise** | A quiz or test from the Exercises tool |
-| **Link** | An external URL |
-| **Assignment** | A student publication from the Assignments tool |
-| **Forum** | A link to a course forum |
-| **Survey** | A link to a survey |
-| **Certificate** | A special page to trigger the generation of a completion certificate or the awarding of skills |
+| Elementtyp | Beschreibung |
+|------------|--------------|
+| **Abschnitt** | Eine Überschrift, die verwandte Elemente gruppiert (wie ein Kapitelüberschrift). Abschnitte enthalten selbst keinen Inhalt. |
+| **Dokument** | Eine Datei oder Webseite aus dem Dokumenten-Werkzeug Ihres Kurses |
+| **Übung** | Ein Quiz oder Test aus dem Übungen-Werkzeug |
+| **Link** | Eine externe URL |
+| **Aufgabe** | Eine Veröffentlichung von Studierenden aus dem Aufgaben-Werkzeug |
+| **Forum** | Ein Link zu einem Kursforum |
+| **Umfrage** | Ein Link zu einer Umfrage |
+| **Zertifikat** | Eine spezielle Seite, um die Erstellung eines Abschlusszertifikats oder die Vergabe von Fähigkeiten auszulösen |
 
-### Organizing Items
+### Elemente organisieren
 
-* **Drag and drop** items to reorder them
-* **Nest items** under sections by dragging them to the right
-* **Delete** items you no longer need
+* **Ziehen und Ablegen**, um Elemente neu zu ordnen
+* **Elemente verschachteln** unter Abschnitten, indem Sie sie nach rechts ziehen
+* **Löschen** Sie Elemente, die Sie nicht mehr benötigen
 
-### Setting Prerequisites
+### Voraussetzungen festlegen
 
-Prerequisites ensure learners complete certain steps before accessing others:
+Voraussetzungen stellen sicher, dass Lernende bestimmte Schritte abschließen, bevor sie auf andere zugreifen können:
 
-1. Select an item in the learning path
-2. Open its **prerequisites** settings
-3. Choose which preceding item(s) must be completed first
-4. For exercises, you can require a **minimum score** (e.g., "Must score at least 70% on Quiz 1 before accessing Module 2")
+1. Wählen Sie ein Element im Lernpfad aus
+2. Öffnen Sie die **Voraussetzungen**-Einstellungen
+3. Wählen Sie aus, welche vorhergehenden Elemente zuerst abgeschlossen werden müssen
+4. Bei Übungen können Sie eine **Mindestpunktzahl** festlegen (z. B. „Muss mindestens 70 % bei Quiz 1 erreichen, bevor Modul 2 freigeschaltet wird“)
 
-## Learner Experience
+## Lernerfahrung
 
-When a learner opens a learning path:
+Wenn ein Lernender einen Lernpfad öffnet:
 
-* They see the list of items in the left panel
-* Completed items are marked with a checkmark
-* Items with unmet prerequisites are locked
-* Progress is tracked automatically — if a learner leaves and comes back, they resume where they left off
-* A progress bar shows overall completion percentage
+* Sie sehen die Liste der Elemente im linken Panel
+* Abgeschlossene Elemente sind mit einem Häkchen markiert
+* Elemente mit nicht erfüllten Voraussetzungen sind gesperrt
+* Der Fortschritt wird automatisch verfolgt – wenn ein Lernender den Kurs verlässt und zurückkehrt, setzt er dort fort, wo er aufgehört hat
+* Eine Fortschrittsleiste zeigt den Gesamtabschlussprozentsatz an
 
-## SCORM Content
+## SCORM-Inhalte
 
-Chamilo's learning path tool can import **SCORM 1.2** packages — the most widely used e-learning standard. Upload a SCORM ZIP file and Chamilo will create a learning path from it, tracking progress and scores according to the SCORM specification.
+Das Lernpfad-Werkzeug von Chamilo kann **SCORM 1.2**-Pakete importieren – den am weitesten verbreiteten E-Learning-Standard. Laden Sie eine SCORM-ZIP-Datei hoch, und Chamilo erstellt daraus einen Lernpfad, der Fortschritt und Punktzahlen gemäß der SCORM-Spezifikation verfolgt.
 
-To import a SCORM package:
+Um ein SCORM-Paket zu importieren:
 
-1. In the Learning paths tool, open the actions menu and click **Upload**
-2. Upload the ZIP file
-3. Chamilo unpacks and creates the learning path automatically
+1. Öffnen Sie im Lernpfad-Werkzeug das Aktionsmenü und klicken Sie auf **Hochladen**
+2. Laden Sie die ZIP-Datei hoch
+3. Chamilo entpackt und erstellt den Lernpfad automatisch
 
-### CMI5 / xAPI packages
+### CMI5 / xAPI-Pakete
 
-CMI5 packages (the modern xAPI-based successor to SCORM) are supported through the **XApi** plugin. Once the plugin is enabled by your administrator, you can import a CMI5 package and learners can launch it from the course; their statements are forwarded to the configured Learning Record Store.
+CMI5-Pakete (der moderne, auf xAPI basierende Nachfolger von SCORM) werden über das **XApi**-Plugin unterstützt. Sobald das Plugin von Ihrem Administrator aktiviert wurde, können Sie ein CMI5-Paket importieren, und Lernende können es vom Kurs aus starten; ihre Aussagen werden an den konfigurierten Learning Record Store weitergeleitet.
 
-## Learning Path Settings
+## Lernpfad-Einstellungen
 
-Configure how the learning path behaves:
+Konfigurieren Sie, wie sich der Lernpfad verhält:
 
-| Setting | Description |
-|---------|-------------|
-| **Visibility** | Hide or show the learning path to learners |
-| **Prerequisites** | Require completion of other learning paths before this one |
-| **Auto-launch** | Automatically open this learning path when learners enter the course |
-| **Accumulated SCORM time** | Whether to accumulate time across multiple sessions |
+| Einstellung | Beschreibung |
+|-------------|--------------|
+| **Sichtbarkeit** | Den Lernpfad für Lernende ausblenden oder anzeigen |
+| **Voraussetzungen** | Den Abschluss anderer Lernpfade vor diesem verlangen |
+| **Automatischer Start** | Diesen Lernpfad automatisch öffnen, wenn Lernende den Kurs betreten |
+| **Akkumulierte SCORM-Zeit** | Ob die Zeit über mehrere Sitzungen hinweg akkumuliert werden soll |
 
-## Linking to the Gradebook
+## Verknüpfung mit dem Notenbuch
 
-You can include learning path completion as a graded activity in the Gradebook. This allows learning path progress to contribute to the learner's overall course grade and certificate eligibility.
+Sie können den Abschluss eines Lernpfads als bewertete Aktivität im Notenbuch einbeziehen. Dies ermöglicht es, dass der Fortschritt im Lernpfad zur Gesamtnote des Lernenden im Kurs und zur Berechtigung für Zertifikate beiträgt.
 
-## Using AI
+---
+## Verwendung von KI
 
-If the administrator has enabled AI-assisted learning path generation, you will find an AI generator option in the drop-down actions menu. Give the AI as precise a context as you want your learning path, ask for a number of pages and an approximate number of words per page, then tell it if you want to populate it with tests and launch. A few minutes later, you are looking down at a complete, text-based learning path.
+Wenn der Administrator die KI-unterstützte Generierung von Lernpfaden aktiviert hat, finden Sie eine Option für den KI-Generator im Dropdown-Menü der Aktionen. Geben Sie der KI einen möglichst präzisen Kontext für Ihren gewünschten Lernpfad, legen Sie die Anzahl der Seiten und die ungefähre Anzahl von Wörtern pro Seite fest und geben Sie an, ob Sie den Lernpfad mit Tests füllen und starten möchten. Einige Minuten später haben Sie einen vollständigen, textbasierten Lernpfad vor sich.
 
-Edit the documents to generate illustrations with more AI and you only have some review to do before you can share it with your learners.
+Bearbeiten Sie die Dokumente, um mit weiterer KI-Unterstützung Illustrationen zu generieren, und Sie müssen nur noch einige Überprüfungen vornehmen, bevor Sie den Lernpfad mit Ihren Lernenden teilen können.
 
-## Tips
+## Tipps
 
-* **Start with an outline** — Plan your sections and items before building the path
-* **Use sections as chapters** — Group related items under section headings for clarity
-* **Set prerequisites for assessments** — Require learners to study the content before taking a quiz
-* **Mix content types** — Combine reading materials, videos, interactive exercises, and external resources for an engaging learning experience
-* **Check the learner view** — Use the Student View feature to experience the learning path as a learner would
-* **Use SCORM for interactivity** — If you have access to SCORM authoring tools (like Articulate, iSpring, or similar), create rich interactive content and import it into Chamilo
+* **Beginnen Sie mit einem Entwurf** — Planen Sie Ihre Abschnitte und Elemente, bevor Sie den Lernpfad erstellen
+* **Verwenden Sie Abschnitte als Kapitel** — Gruppieren Sie verwandte Elemente unter Abschnittsüberschriften zur besseren Übersichtlichkeit
+* **Legen Sie Voraussetzungen für Bewertungen fest** — Fordern Sie die Lernenden auf, den Inhalt zu studieren, bevor sie ein Quiz absolvieren
+* **Mischen Sie Inhaltstypen** — Kombinieren Sie Lesematerialien, Videos, interaktive Übungen und externe Ressourcen für ein ansprechendes Lernerlebnis
+* **Überprüfen Sie die Lernendenansicht** — Nutzen Sie die Funktion „Studentenansicht“, um den Lernpfad aus der Perspektive eines Lernenden zu erleben
+* **Verwenden Sie SCORM für Interaktivität** — Wenn Sie Zugriff auf SCORM-Authoring-Tools (wie Articulate, iSpring oder ähnliche) haben, erstellen Sie umfangreiche interaktive Inhalte und importieren Sie diese in Chamilo

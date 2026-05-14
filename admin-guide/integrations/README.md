@@ -1,11 +1,11 @@
-# Integrations
+# Integrationen
 
-Chamilo integrates with several third-party services to extend its functionality.
+Chamilo integriert sich mit mehreren Drittanbieter-Diensten, um seine Funktionalität zu erweitern.
 
-Most of these are enabled through plugins. Check the corresponding section a little further in this guide.
+Die meisten dieser Integrationen werden durch Plugins aktiviert. Schauen Sie im entsprechenden Abschnitt weiter unten in diesem Leitfaden nach.
 
-* **[Video Conferencing](video-conferencing.md)** — BigBlueButton and Zoom
-* **[LTI 1.3](lti.md)** — Connect external learning tools
-* **[xAPI](xapi.md)** — Learning experience tracking
-* **[OnlyOffice](onlyoffice.md)** — Collaborative document editing
-* **[AI Configuration](ai-configuration.md)** — Set up AI providers for AI-powered features
+* **[Videokonferenzen](video-conferencing.md)** — BigBlueButton und Zoom
+* **[LTI 1.3](lti.md)** — Externe Lernwerkzeuge verbinden
+* **[xAPI](xapi.md)** — Nachverfolgung von Lernerfahrungen
+* **[OnlyOffice](onlyoffice.md)** — Kollaborative Dokumentenbearbeitung
+* **[KI-Konfiguration](ai-configuration.md)** — Einrichtung von KI-Anbietern für KI-gestützte Funktionen

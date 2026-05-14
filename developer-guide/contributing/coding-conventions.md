@@ -1,39 +1,39 @@
-# Coding Conventions
+# Kodierungsrichtlinien
 
 ## PHP
 
-* **Standard**: PSR-12 coding style
-* **Type declarations**: Use PHP 8.2 type declarations (parameter types, return types, property types)
-* **Strict types**: All PHP files should declare `strict_types=1`
-* **Namespaces**: Follow PSR-4 autoloading (e.g., `Chamilo\CoreBundle\Entity\User`)
-* **Symfony standards**: Follow Symfony's coding standards and best practices
+* **Standard**: PSR-12 Kodierungsstil
+* **Typdeklarationen**: Verwenden Sie PHP 8.2 Typdeklarationen (Parametertypen, Rückgabewerte, Eigenschaftstypen)
+* **Strikte Typen**: Alle PHP-Dateien sollten `strict_types=1` deklarieren
+* **Namespaces**: Folgen Sie der PSR-4 Autoloading-Struktur (z. B. `Chamilo\CoreBundle\Entity\User`)
+* **Symfony-Standards**: Befolgen Sie die Kodierungsstandards und Best Practices von Symfony
 
 ## JavaScript/Vue
 
-* **ESLint + Prettier**: Code is linted with ESLint and formatted with Prettier; configuration is in `eslint.config.mjs` at the project root. `prettier-plugin-tailwindcss` is also enabled for automatic Tailwind class sorting.
-* **Composition API**: Use Vue 3's `<script setup>` syntax for new components
-* **TypeScript**: TypeScript is supported; use it for type-safe code
+* **ESLint + Prettier**: Der Code wird mit ESLint überprüft und mit Prettier formatiert; die Konfiguration befindet sich in `eslint.config.mjs` im Projektstammverzeichnis. `prettier-plugin-tailwindcss` ist ebenfalls aktiviert für die automatische Sortierung von Tailwind-Klassen.
+* **Composition API**: Verwenden Sie die `<script setup>`-Syntax von Vue 3 für neue Komponenten
+* **TypeScript**: TypeScript wird unterstützt; verwenden Sie es für typsicheren Code
 
 ## CSS
 
-* **Tailwind CSS**: Prefer utility classes over custom CSS
-* **BEM naming**: When custom CSS is needed, use BEM naming convention
-* **SCSS**: Use SCSS for complex stylesheets
+* **Tailwind CSS**: Bevorzugen Sie Utility-Klassen gegenüber benutzerdefiniertem CSS
+* **BEM-Benennung**: Wenn benutzerdefiniertes CSS benötigt wird, verwenden Sie die BEM-Benennungskonvention
+* **SCSS**: Verwenden Sie SCSS für komplexe Stylesheets
 
-## PHP Static Analysis and Refactoring Tools
+## PHP-Statische Analyse- und Refactoring-Tools
 
-The project ships configuration for three additional tools:
+Das Projekt enthält Konfigurationen für drei zusätzliche Tools:
 
-| Tool | Config file | Purpose |
-|------|------------|---------|
-| **PHPStan** | `phpstan.neon` | Static analysis (level 5, scans `src/` and test directories) |
-| **Psalm** | `psalm.xml` | Second static analysis pass; runs in CI on every push |
-| **Rector** | `rector.php` | Automated code transformations and upgrades |
+| Tool | Konfigurationsdatei | Zweck |
+|------|---------------------|-------|
+| **PHPStan** | `phpstan.neon` | Statische Analyse (Level 5, scannt `src/` und Testverzeichnisse) |
+| **Psalm** | `psalm.xml` | Zweiter Durchgang der statischen Analyse; wird bei jedem Push in der CI ausgeführt |
+| **Rector** | `rector.php` | Automatisierte Code-Transformationen und Upgrades |
 
-Run them via composer shortcuts: `composer phpstan`, `composer psalm`. See [Testing](../contributing/testing.md) for full commands.
+Führen Sie diese über Composer-Kurzbefehle aus: `composer phpstan`, `composer psalm`. Vollständige Befehle finden Sie unter [Testing](../contributing/testing.md).
 
-## General
+## Allgemein
 
-* **English**: All code comments, variable names, and documentation should be in English
-* **Translations**: All user-facing text should use the translation system (Vue I18n for frontend, Symfony Translator for backend)
-* **No magic values**: Use constants or enums instead of hardcoded values
+* **Englisch**: Alle Code-Kommentare, Variablennamen und Dokumentationen sollten auf Englisch sein
+* **Übersetzungen**: Alle benutzerorientierten Texte sollten das Übersetzungssystem verwenden (Vue I18n für das Frontend, Symfony Translator für das Backend)
+* **Keine magischen Werte**: Verwenden Sie Konstanten oder Enums anstelle von fest codierten Werten

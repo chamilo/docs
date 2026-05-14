@@ -1,90 +1,89 @@
-# Agenda Settings
+# Agenda-Einstellungen
 
-Defaults and behaviour of the **Agenda** tool (calendar / events).
+Standardwerte und Verhalten des **Agenda**-Tools (Kalender / Ereignisse).
 
-Access these settings under **Administration > Configuration settings > Agenda**. This category contains **11 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+Greifen Sie auf diese Einstellungen unter **Verwaltung > Konfigurationseinstellungen > Agenda** zu. Diese Kategorie enthält **11 Einstellungen**, die unten mit dem Titel und dem Kommentar aufgeführt sind, wie sie in den Plattform-Einstellungs-Fixtures (`SettingsCurrentFixtures.php`) bereitgestellt werden.
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> Der Variablenname im Code wird in Monospace angezeigt. Verwenden Sie ihn, wenn Sie über die API skripten oder wenn Sie diese Einstellungen auf globaler Ebene ändern möchten, indem Sie [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml) bearbeiten.
 
-## Settings
+## Einstellungen
 
 ### `agenda_colors`
 
-**Agenda colours**
+**Agenda-Farben**
 
-Set HTML-code colours for each type of event to change the colour when displaying the event.
+Legen Sie HTML-Farbcodes für jeden Ereignistyp fest, um die Farbe bei der Anzeige des Ereignisses zu ändern.
 
 ### `agenda_legend`
 
-**Agenda colour legends**
+**Agenda-Farblegende**
 
-Add a small text as legend describing the colours used for the events.
+Fügen Sie einen kurzen Text als Legende hinzu, der die für die Ereignisse verwendeten Farben beschreibt.
 
 ### `agenda_on_hover_info`
 
-**Agenda hover info**
+**Agenda-Hover-Info**
 
-Customize the agenda on cursor hovering. Show agenda comment and/or description.
+Passen Sie die Agenda bei Mauszeiger-Hover an. Zeigen Sie Agenda-Kommentar und/oder Beschreibung an.
 
 ### `agenda_reminders_sender_id`
 
-**ID of the user who officially sends the agenda reminders**
+**ID des Benutzers, der offiziell die Agenda-Erinnerungen sendet**
 
-Sets which user appears as the sender of agenda reminder emails.
+Legt fest, welcher Benutzer als Absender der Agenda-Erinnerungs-E-Mails erscheint.
 
-*Default: `0`*
+*Standard: `0`*
 
 ### `allow_agenda_edit_for_hrm`
 
-**Allow HRM role to edit or delete agenda events**
+**HRM-Rolle erlauben, Agenda-Ereignisse zu bearbeiten oder zu löschen**
 
-This gives the HRM a little more power by allowing them to edit/delete agenda events in the course-session.
+Gibt der HRM-Rolle etwas mehr Befugnisse, indem sie Agenda-Ereignisse im Kurs-Session bearbeiten/löschen dürfen.
 
-*Default: `false`*
+*Standard: `false`*
 
 ### `allow_careers_in_global_agenda`
 
-**Link global calendar events with careers and promotions**
+**Globale Kalenderereignisse mit Karrieren und Beförderungen verknüpfen**
 
-When enabled, global calendar events can be associated with careers and promotions, allowing targeted scheduling.
+Wenn aktiviert, können globale Kalenderereignisse mit Karrieren und Beförderungen verknüpft werden, um gezielte Planungen zu ermöglichen.
 
-*Default: `false`*
+*Standard: `false`*
 
 ### `allow_personal_agenda`
 
-**Personal Agenda**
+**Persönliche Agenda**
 
-Can the learner add personal events to the Agenda?
+Kann der Lernende persönliche Ereignisse zur Agenda hinzufügen?
 
-*Default: `true`*
+*Standard: `true`*
 
 ### `default_calendar_view`
 
-**Default calendar display mode**
+**Standard-Kalenderanzeigemodus**
 
-Set this to dayGridMonth, basicWeek, agendaWeek or agendaDay to change the default view of the calendar.
+Setzen Sie dies auf dayGridMonth, basicWeek, agendaWeek oder agendaDay, um die Standardansicht des Kalenders zu ändern.
 
-*Default: `month`*
+*Standard: `month`*
 
 ### `fullcalendar_settings`
 
-**Calendar customization**
+**Kalenderanpassung**
 
-Extra settings for the agenda, allowing you to configure the specific calendar library we use.
+Zusätzliche Einstellungen für die Agenda, mit denen Sie die spezifische Kalenderbibliothek, die wir verwenden, konfigurieren können.
 
 ### `personal_agenda_show_all_session_events`
 
-**Display all agenda events in personal agenda**
+**Alle Agenda-Ereignisse in der persönlichen Agenda anzeigen**
 
-Do not hide events from expired sessions.
+Ereignisse aus abgelaufenen Sitzungen nicht ausblenden.
 
-*Default: `false`*
+*Standard: `false`*
 
 ### `personal_calendar_show_sessions_occupation`
 
-**Display sessions occupations in personal agenda**
+**Sitzungsbelegungen in der persönlichen Agenda anzeigen**
 
-When enabled, session schedules and occupations are displayed in users' personal calendars.
+Wenn aktiviert, werden Sitzungspläne und Belegungen in den persönlichen Kalendern der Benutzer angezeigt.
 
-*Default: `false`*
-
+*Standard: `false`*

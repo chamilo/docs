@@ -1,30 +1,30 @@
-# Sessions
+# Sitzungen
 
-Sessions are one of Chamilo's most powerful features. They allow you to deliver the same courses to different groups of learners at different times, without duplicating course content.
+Sitzungen sind eine der leistungsstärksten Funktionen von Chamilo. Sie ermöglichen es Ihnen, dieselben Kurse zu unterschiedlichen Zeiten an verschiedene Gruppen von Lernenden zu liefern, ohne den Kursinhalt zu duplizieren.
 
-* **[Managing Sessions](managing-sessions.md)** — Create, configure, and manage training sessions
-* **[Session Categories](session-categories.md)** — Organize sessions into categories
-* **[Careers and Promotions](careers-and-promotions.md)** — Define career paths and promotion workflows
-* **[Classes](classes.md)** — Manage learner classes for bulk enrollment
+* **[Sitzungen verwalten](managing-sessions.md)** — Trainingssitzungen erstellen, konfigurieren und verwalten
+* **[Sitzungskategorien](session-categories.md)** — Sitzungen in Kategorien organisieren
+* **[Karrieren und Beförderungen](careers-and-promotions.md)** — Karrierewege und Beförderungsabläufe definieren
+* **[Klassen](classes.md)** — Lernendenklassen für die Masseneinschreibung verwalten
 
-## Understanding Sessions
+## Sitzungen verstehen
 
-Sessions are **optional**. You can make your portal work just by using courses, but we **really** recommend you consider the extra complexity of sessions as a way to save management work in the long run.
+Sitzungen sind **optional**. Sie können Ihr Portal auch nur mit Kursen betreiben, aber wir **empfehlen dringend**, die zusätzliche Komplexität von Sitzungen in Betracht zu ziehen, um langfristig Verwaltungsaufwand zu sparen.
 
-A **course** holds the content (documents, exercises, learning paths). A **session** assigns that course (or multiple courses) to a specific group of learners *for a specific time period*.
+Ein **Kurs** enthält die Inhalte (Dokumente, Übungen, Lernpfade). Eine **Sitzung** weist diesen Kurs (oder mehrere Kurse) einer bestimmten Gruppe von Lernenden *für einen bestimmten Zeitraum* zu.
 
-This architecture means:
+Diese Architektur bedeutet:
 
-* Teachers create content once in the course
-* Administrators create sessions to deliver that content to different cohorts
-* Each session has its own enrollment, tracking data, and results
-* The base course content is shared, but session coaches can customize certain elements
+* Lehrkräfte erstellen Inhalte einmalig im Kurs
+* Administratoren erstellen Sitzungen, um diese Inhalte an verschiedene Kohorten zu liefern
+* Jede Sitzung hat ihre eigene Einschreibung, Nachverfolgungsdaten und Ergebnisse
+* Der grundlegende Kursinhalt wird geteilt, aber Sitzungscoaches können bestimmte Elemente anpassen
 
-## When to Use Sessions
+## Wann Sitzungen verwenden?
 
-Use sessions when:
+Verwenden Sie Sitzungen, wenn:
 
-* You deliver the same training multiple times (e.g., monthly onboarding sessions)
-* You have cohort-based programs (e.g., semester-based classes)
-* You need separate tracking per group of learners
-* You want different coaches to manage different editions of the same course
+* Sie dieselbe Schulung mehrfach anbieten (z. B. monatliche Einführungssitzungen)
+* Sie kohortenbasierte Programme haben (z. B. semesterbasierte Klassen)
+* Sie eine separate Nachverfolgung pro Lerngruppe benötigen
+* Sie möchten, dass verschiedene Coaches unterschiedliche Ausgaben desselben Kurses verwalten

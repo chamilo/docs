@@ -1,46 +1,46 @@
-# Managing Plugins
+# Verwaltung von Plugins
 
-## Accessing the Plugin Manager
+## Zugriff auf den Plugin-Manager
 
-![The plugin manager showing a list of available plugins with activation toggles and configuration options](/.gitbook/assets/admin-plugin-manager.png)
+![Der Plugin-Manager zeigt eine Liste der verfügbaren Plugins mit Aktivierungsschaltern und Konfigurationsoptionen](/.gitbook/assets/admin-plugin-manager.png)
 
-From the administration panel, click **Manage plugins** to see the list of available plugins.
+Klicken Sie im Verwaltungsbereich auf **Plugins verwalten**, um die Liste der verfügbaren Plugins anzuzeigen.
 
-## Plugin States
+## Plugin-Status
 
-Each plugin has one of two states:
+Jedes Plugin hat einen von zwei Zuständen:
 
-* **Active** — The plugin is enabled and its features are available on the platform
-* **Inactive** — The plugin is installed but disabled
+* **Aktiv** — Das Plugin ist aktiviert und seine Funktionen sind auf der Plattform verfügbar
+* **Inaktiv** — Das Plugin ist installiert, aber deaktiviert
 
-## Activating a Plugin
+## Aktivieren eines Plugins
 
-1. Find the plugin in the list
-2. Click **Install**, then **Enable** or toggle it on
-3. Configure the plugin settings (if applicable, find the **Configure** button)
-4. Save
-5. If recommended in the README, enable it in a specific **region**
+1. Suchen Sie das Plugin in der Liste
+2. Klicken Sie auf **Installieren**, dann auf **Aktivieren** oder schalten Sie es ein
+3. Konfigurieren Sie die Plugin-Einstellungen (falls zutreffend, suchen Sie den Button **Konfigurieren**)
+4. Speichern Sie die Einstellungen
+5. Falls im README empfohlen, aktivieren Sie es in einer bestimmten **Region**
 
-Some plugins add tools to courses, new pages to the platform, or additional functionality to existing features.
+Einige Plugins fügen Kursen Werkzeuge hinzu, erstellen neue Seiten auf der Plattform oder erweitern bestehende Funktionen um zusätzliche Möglichkeiten.
 
-## Configuring a Plugin
+## Konfigurieren eines Plugins
 
-Many plugins have configuration options. After activating a plugin:
+Viele Plugins bieten Konfigurationsoptionen. Nach der Aktivierung eines Plugins:
 
-1. Click the **Configure** button next to the plugin
-2. Fill in the required configuration (API keys, URLs, options, etc.)
-3. Save
+1. Klicken Sie auf den Button **Konfigurieren** neben dem Plugin
+2. Füllen Sie die erforderlichen Konfigurationen aus (API-Schlüssel, URLs, Optionen usw.)
+3. Speichern Sie die Einstellungen
 
-## Deactivating a Plugin
+## Deaktivieren eines Plugins
 
-1. Find the plugin in the list
-2. Click **Disable** or toggle it off
-3. The plugin's features are immediately removed from the platform, but the plugin is still installed and maintains its configuration until you **Uninstall** it
+1. Suchen Sie das Plugin in der Liste
+2. Klicken Sie auf **Deaktivieren** oder schalten Sie es aus
+3. Die Funktionen des Plugins werden sofort von der Plattform entfernt, aber das Plugin bleibt installiert und behält seine Konfiguration, bis Sie es **Deinstallieren**
 
-Disabling a plugin does not delete its data. If you enable it later, the data is still available.
+Das Deaktivieren eines Plugins löscht dessen Daten nicht. Wenn Sie es später wieder aktivieren, sind die Daten weiterhin verfügbar.
 
-## Tips
+## Tipps
 
-* **Only activate what you need** — Each active plugin adds some overhead. Keep unused plugins deactivated.
-* **Test before production** — Activate new plugins in a test environment first
-* **Check compatibility** — After upgrading Chamilo, verify that all active plugins still work correctly
+* **Aktivieren Sie nur, was Sie benötigen** — Jedes aktive Plugin verursacht einen gewissen Overhead. Halten Sie ungenutzte Plugins deaktiviert.
+* **Testen Sie vor dem Produktiveinsatz** — Aktivieren Sie neue Plugins zunächst in einer Testumgebung
+* **Überprüfen Sie die Kompatibilität** — Nach einem Upgrade von Chamilo stellen Sie sicher, dass alle aktiven Plugins weiterhin korrekt funktionieren

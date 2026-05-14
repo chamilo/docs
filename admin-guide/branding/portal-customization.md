@@ -1,20 +1,20 @@
-# Portal Customization
+# Portal-Anpassung
 
-Customize how your Chamilo platform looks and what information is displayed to users.
+Passen Sie das Erscheinungsbild Ihrer Chamilo-Plattform an und bestimmen Sie, welche Informationen den Benutzern angezeigt werden.
 
-## Platform Identity
+## Plattform-Identität
 
-![The portal customization page showing platform identity settings for name, logo, and institution](/.gitbook/assets/admin-portal-customization.png)
+![Die Portal-Anpassungsseite mit den Einstellungen zur Plattform-Identität für Name, Logo und Institution](/.gitbook/assets/admin-portal-customization.png)
 
-Configure the basic identity of your portal:
+Konfigurieren Sie die grundlegende Identität Ihres Portals:
 
-* **Platform name** — The name shown in the browser title and throughout the interface
-* **Institution name** — Your organization's name
-* **Institution URL** — A link to your organization's website
-* **Platform logo** — Upload your organization's logo (displayed in the top bar)
+* **Plattformname** — Der Name, der im Browsertitel und in der gesamten Benutzeroberfläche angezeigt wird
+* **Institutionsname** — Der Name Ihrer Organisation
+* **Institutions-URL** — Ein Link zur Website Ihrer Organisation
+* **Plattform-Logo** — Laden Sie das Logo Ihrer Organisation hoch (wird in der oberen Leiste angezeigt)
 
-## Tips
+## Tipps
 
-* **Keep the homepage clean** — Too much content on the homepage can be overwhelming. Focus on essential announcements and course access.
-* **Update regularly** — Keep system announcements current and remove outdated ones
-* **Upload a high-quality logo** — The logo is one of the most visible branding elements. Use a crisp, appropriately sized image.
+* **Halten Sie die Startseite übersichtlich** — Zu viele Inhalte auf der Startseite können überwältigend wirken. Konzentrieren Sie sich auf wesentliche Ankündigungen und den Zugang zu Kursen.
+* **Aktualisieren Sie regelmäßig** — Halten Sie Systemankündigungen aktuell und entfernen Sie veraltete Mitteilungen.
+* **Laden Sie ein hochwertiges Logo hoch** — Das Logo ist eines der sichtbarsten Markenelemente. Verwenden Sie ein scharfes, passend dimensioniertes Bild.

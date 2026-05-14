@@ -1,78 +1,78 @@
-# Course Import and Export
+# Kursimport und -export
 
-Chamilo supports importing and exporting courses for backup, migration, and content sharing purposes.
+Chamilo unterstützt den Import und Export von Kursen für Sicherungszwecke, Migration und den Austausch von Inhalten.
 
-These features are located inside the course, in the **Maintenance** tool located under the cog icon at the top of the course homepage.
+Diese Funktionen finden Sie innerhalb des Kurses im **Wartungstool**, das sich unter dem Zahnradsymbol oben auf der Kurs-Startseite befindet.
 
-## Exporting a Course
+## Einen Kurs exportieren
 
-Teachers can export their own courses from the course Maintenance tool. As an administrator, you can export any course:
+Lehrkräfte können ihre eigenen Kurse über das Wartungstool des Kurses exportieren. Als Administrator können Sie jeden Kurs exportieren:
 
-1. Enter the course
-2. Access the **Course maintenance** tool
-3. Select **Create a backup**
-4. Choose what to include (content, user data, etc.)
-5. Download the export file
+1. Rufen Sie den Kurs auf
+2. Greifen Sie auf das **Kurswartungstool** zu
+3. Wählen Sie **Sicherung erstellen**
+4. Wählen Sie aus, was eingeschlossen werden soll (Inhalte, Benutzerdaten usw.)
+5. Laden Sie die Exportdatei herunter
 
-The export creates a package containing the course's documents, exercises, forums, learning paths, and configuration.
+Der Export erstellt ein Paket, das die Dokumente, Übungen, Foren, Lernpfade und Konfigurationen des Kurses enthält.
 
-## Importing a Course
+## Einen Kurs importieren
 
-To import a course from a Chamilo export file:
+Um einen Kurs aus einer Chamilo-Exportdatei zu importieren:
 
-1. Enter the course
-2. Access the **Course maintenance** tool
-3. In the **Import backup** section, upload the export file
-4. Choose what to include (content, user data, etc.)
-5. Configure import options:
-   * Whether to overwrite existing content
-   * Whether to include user data
-6. Run the import
+1. Rufen Sie den Kurs auf
+2. Greifen Sie auf das **Kurswartungstool** zu
+3. Laden Sie im Abschnitt **Sicherung importieren** die Exportdatei hoch
+4. Wählen Sie aus, was eingeschlossen werden soll (Inhalte, Benutzerdaten usw.)
+5. Konfigurieren Sie die Importoptionen:
+   * Ob vorhandene Inhalte überschrieben werden sollen
+   * Ob Benutzerdaten eingeschlossen werden sollen
+6. Führen Sie den Import durch
 
-## Copying a Course
+## Einen Kurs kopieren
 
-To copy the contents from another course into your course, you will need a source course and a destination course to be created first.
+Um die Inhalte eines anderen Kurses in Ihren Kurs zu kopieren, benötigen Sie zunächst einen Quellkurs und einen Zielkurs.
 
-1. Enter the destination course
-2. Access the **Course maintenance** tool
-3. In the **Copy course** section, select the **Source** course
-4. Validate the options
-5. Click **Continue** and follow the instructions
+1. Rufen Sie den Zielkurs auf
+2. Greifen Sie auf das **Kurswartungstool** zu
+3. Wählen Sie im Abschnitt **Kurs kopieren** den **Quellkurs** aus
+4. Bestätigen Sie die Optionen
+5. Klicken Sie auf **Weiter** und folgen Sie den Anweisungen
 
 ## Common Cartridge
 
-Chamilo supports the **IMS Common Cartridge 1.3** (IMS CC 1.3) standard for interoperability with other learning management systems. You can:
+Chamilo unterstützt den Standard **IMS Common Cartridge 1.3** (IMS CC 1.3) für die Interoperabilität mit anderen Lernmanagementsystemen. Sie können:
 
-* **Import** Common Cartridge packages (.imscc files)
-* **Export** course content in Common Cartridge format
+* **Common Cartridge-Pakete** (.imscc-Dateien) **importieren**
+* Kursinhalte im **Common Cartridge-Format exportieren**
 
-This allows content exchange with other platforms that support the Common Cartridge standard (Moodle, Canvas, Blackboard, etc.).
+Dies ermöglicht den Inhaltsaustausch mit anderen Plattformen, die den Common Cartridge-Standard unterstützen (Moodle, Canvas, Blackboard usw.).
 
-## Recycling a course
+## Einen Kurs recyceln
 
-The course recycling feature simply allows you to keep the shell of the course but to erase its content.
+Die Kursrecycling-Funktion ermöglicht es Ihnen, die Struktur des Kurses beizubehalten, aber dessen Inhalte zu löschen.
 
-## Deleting a course
+## Einen Kurs löschen
 
-This will completely erase your course, including all its contents and the user activity in it.
+Dies wird Ihren Kurs vollständig löschen, einschließlich aller Inhalte und Benutzeraktivitäten darin.
 
-To delete a course permanently:
+Um einen Kurs dauerhaft zu löschen:
 
-1. Enter the destination course
-2. Access the **Course maintenance** tool
-3. In the **Completely delete this course** section, enter the code of the course manually to confirm your intention
-4. Validate
+1. Rufen Sie den Zielkurs auf
+2. Greifen Sie auf das **Kurswartungstool** zu
+3. Geben Sie im Abschnitt **Diesen Kurs vollständig löschen** den Code des Kurses manuell ein, um Ihre Absicht zu bestätigen
+4. Bestätigen Sie
 
-You then get redirected to the portal homepage, because the course does not exist anymore.
+Sie werden anschließend zur Portal-Startseite weitergeleitet, da der Kurs nicht mehr existiert.
 
-## Moodle Import
+## Moodle-Import
 
-Chamilo can import course backups from **Moodle**. The importer converts Moodle's content structure to Chamilo's format, including quizzes, documents, and course settings.
+Chamilo kann Kurssicherungen von **Moodle** importieren. Der Importer konvertiert die Inhaltsstruktur von Moodle in das Format von Chamilo, einschließlich Quizfragen, Dokumenten und Kurseinstellungen.
 
-> **Work in progress.** Although it already covers a wide base, the Moodle importer does not currently cover every Moodle activity type and content format. Treat it as a starting point that may still require manual adjustment after the import completes. If you detect any failing/missing element in the import or export, please report it to us through our [Github space](https://github.com/chamilo/chamilo-lms/issues) by clicking **New issue** at the top and giving as much details as possible (including the course backup itself if it's not confidential).
+> **In Bearbeitung.** Obwohl bereits ein breites Spektrum abgedeckt wird, umfasst der Moodle-Importer derzeit nicht jeden Aktivitätstyp und Inhaltsformat von Moodle. Betrachten Sie ihn als Ausgangspunkt, der nach dem Import möglicherweise noch manuelle Anpassungen erfordert. Wenn Sie fehlende oder fehlerhafte Elemente beim Import oder Export feststellen, melden Sie dies bitte über unseren [Github-Bereich](https://github.com/chamilo/chamilo-lms/issues), indem Sie oben auf **New issue** klicken und so viele Details wie möglich angeben (einschließlich der Kurssicherung selbst, falls sie nicht vertraulich ist).
 
-## Tips
+## Tipps
 
-* **Regular backups** — Encourage teachers to export their courses periodically as a backup
-* **Test imports** — When importing content from another platform, test the import in a trial course first to verify that everything transferred correctly
-* **Content portability** — Use Common Cartridge format when you need to share content with other LMS platforms
+* **Regelmäßige Sicherungen** — Ermutigen Sie Lehrkräfte, ihre Kurse regelmäßig als Sicherung zu exportieren
+* **Testimporte** — Wenn Sie Inhalte von einer anderen Plattform importieren, testen Sie den Import zunächst in einem Testkurs, um sicherzustellen, dass alles korrekt übertragen wurde
+* **Inhaltsportabilität** — Verwenden Sie das Common Cartridge-Format, wenn Sie Inhalte mit anderen LMS-Plattformen teilen möchten

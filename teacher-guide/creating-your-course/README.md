@@ -1,55 +1,55 @@
-# Creating Your Course
+# Erstellen Ihres Kurses
 
-This section explains how to create a new course in Chamilo and configure it for your needs.
+Dieser Abschnitt erklärt, wie Sie einen neuen Kurs in Chamilo erstellen und ihn nach Ihren Bedürfnissen konfigurieren.
 
-## Creating a New Course
+## Einen neuen Kurs erstellen
 
-To create a course:
+Um einen Kurs zu erstellen:
 
-1. Click **My courses** in the sidebar
-2. Click the **Create course** button (usually a green book <img src="/.gitbook/assets/icons/mdi-book-open-page-variant.svg" alt="Courses" data-size="line"> icon with a + sign)
-3. Fill in the course creation form:
+1. Klicken Sie in der Seitenleiste auf **Meine Kurse**
+2. Klicken Sie auf die Schaltfläche **Kurs erstellen** (normalerweise ein grünes Buchsymbol <img src="/.gitbook/assets/icons/mdi-book-open-page-variant.svg" alt="Kurse" data-size="line"> mit einem + Zeichen)
+3. Füllen Sie das Kurs-Erstellungsformular aus:
 
-![The course creation form with fields for name, category, code, and language](/.gitbook/assets/course-creation-form.png)
+![Das Kurs-Erstellungsformular mit Feldern für Name, Kategorie, Code und Sprache](/.gitbook/assets/course-creation-form.png)
 
-| Field | Required | Description |
-|-------|----------|-------------|
-| **Course name** | Yes | A short, descriptive title for your course (e.g., "Innovation Management") |
-| **Course category** | No | Select a category to help organize courses on the platform |
-| **Course code** | No | A short code using only letters and numbers (max 40 characters). If left blank, one is generated automatically from the course name |
-| **Language** | No | The primary language of the course. Defaults to your current language |
+| Feld | Erforderlich | Beschreibung |
+|-------|--------------|--------------|
+| **Kursname** | Ja | Ein kurzer, beschreibender Titel für Ihren Kurs (z. B. "Innovationsmanagement") |
+| **Kurskategorie** | Nein | Wählen Sie eine Kategorie, um Kurse auf der Plattform zu organisieren |
+| **Kurs-Code** | Nein | Ein kurzer Code, der nur Buchstaben und Zahlen enthält (max. 40 Zeichen). Wenn leer gelassen, wird automatisch einer aus dem Kursnamen generiert |
+| **Sprache** | Nein | Die Hauptsprache des Kurses. Standardmäßig Ihre aktuelle Sprache |
 
-If enabled, you might also find a **Default room** setting and the possibility to use a **Course template** to avoid creating your course entirely from scratch.
+Falls aktiviert, finden Sie möglicherweise auch eine Einstellung für einen **Standardraum** und die Möglichkeit, eine **Kursvorlage** zu verwenden, um Ihren Kurs nicht komplett von Grund auf erstellen zu müssen.
 
-4. Click **Create this course**
+4. Klicken Sie auf **Diesen Kurs erstellen**
 
-You will be redirected to your new course's homepage. A confirmation message will appear: "Course created successfully."
+Sie werden zur Startseite Ihres neuen Kurses weitergeleitet. Eine Bestätigungsmeldung erscheint: "Kurs erfolgreich erstellt."
 
-## The Course Homepage
+## Die Kurs-Startseite
 
-Once your course is created, you land on its homepage. This is the central hub for your course, where you and your learners access all tools and content.
+Sobald Ihr Kurs erstellt ist, gelangen Sie auf dessen Startseite. Dies ist der zentrale Ort für Ihren Kurs, an dem Sie und Ihre Lernenden auf alle Werkzeuge und Inhalte zugreifen können.
 
-![The course homepage tool grid showing available course tools with icons and visibility toggles](/.gitbook/assets/course-homepage-tool-grid.png)
+![Das Werkzeugraster der Kurs-Startseite, das verfügbare Kurswerkzeuge mit Symbolen und Sichtbarkeitsschaltern zeigt](/.gitbook/assets/course-homepage-tool-grid.png)
 
-The homepage displays:
+Die Startseite zeigt:
 
-* **Course title** — The name of your course, shown at the top.
-* **Course introduction** — An optional description or welcome message. Click the **+ Course introduction** button to add one, or the **Edit introduction** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Edit" data-size="line"> button at the top to modify it. This supports rich text with images, links, and formatting.
-* **Tool grid** — A grid of all available course tools, each shown as a card with an icon and name.
+* **Kurstitel** — Der Name Ihres Kurses, der oben angezeigt wird.
+* **Kurseinführung** — Eine optionale Beschreibung oder Begrüßungsnachricht. Klicken Sie auf die Schaltfläche **+ Kurseinführung**, um eine hinzuzufügen, oder auf die Schaltfläche **Einführung bearbeiten** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Bearbeiten" data-size="line"> oben, um sie zu ändern. Dies unterstützt Rich Text mit Bildern, Links und Formatierungen.
+* **Werkzeugraster** — Ein Raster aller verfügbaren Kurswerkzeuge, die jeweils als Karte mit einem Symbol und Namen angezeigt werden.
 
-### Managing Tool Visibility
+### Verwaltung der Werkzeugsichtbarkeit
 
-As a teacher, you can control which tools your learners can see:
+Als Lehrkraft können Sie steuern, welche Werkzeuge Ihre Lernenden sehen können:
 
-* Click the **eye icon** <img src="/.gitbook/assets/icons/mdi-eye.svg" alt="Visible" data-size="line"> next to any tool to hide it from learners. Hidden tools show a **crossed-out eye** <img src="/.gitbook/assets/icons/mdi-eye-off.svg" alt="Hidden" data-size="line"> and are still accessible to you.
-* Use the **Show all** and **Hide all** buttons to change all tools at once
-* Click **Sort** to enable drag-and-drop reordering of the tool grid
+* Klicken Sie auf das **Augensymbol** <img src="/.gitbook/assets/icons/mdi-eye.svg" alt="Sichtbar" data-size="line"> neben einem Werkzeug, um es für Lernende zu verbergen. Versteckte Werkzeuge zeigen ein **durchgestrichenes Auge** <img src="/.gitbook/assets/icons/mdi-eye-off.svg" alt="Versteckt" data-size="line"> und sind für Sie weiterhin zugänglich.
+* Verwenden Sie die Schaltflächen **Alle anzeigen** und **Alle ausblenden**, um alle Werkzeuge auf einmal zu ändern
+* Klicken Sie auf **Sortieren**, um das Werkzeugraster per Drag-and-Drop neu zu ordnen
 
-### Student View
+### Schüleransicht
 
-Click the **Student view** button to see the course homepage exactly as a learner would see it. This is useful to verify that hidden tools and unpublished content are not visible. Click the button again to return to the teacher view.
+Klicken Sie auf die Schaltfläche **Schüleransicht**, um die Kurs-Startseite genau so zu sehen, wie sie ein Lernender sehen würde. Dies ist nützlich, um zu überprüfen, ob versteckte Werkzeuge und unveröffentlichte Inhalte nicht sichtbar sind. Klicken Sie erneut auf die Schaltfläche, um zur Lehreransicht zurückzukehren.
 
-## Next Steps
+## Nächste Schritte
 
-* [Course Settings](course-settings.md) — Configure access, enrollment, and other course-level options
-* [Course Homepage](course-homepage.md) — Detailed guide to customizing your course homepage
+* [Kurseinstellungen](course-settings.md) — Konfigurieren Sie Zugriff, Einschreibung und andere kursbezogene Optionen
+* [Kurs-Startseite](course-homepage.md) — Detaillierte Anleitung zur Anpassung Ihrer Kurs-Startseite

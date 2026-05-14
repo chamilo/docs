@@ -1,23 +1,23 @@
-# Notebook
+# Notizbuch
 
-The notebook is a personal note-taking tool for learners. Each learner has their own private notebook within the course.
+Das Notizbuch ist ein persönliches Werkzeug zum Erstellen von Notizen für Lernende. Jeder Lernende hat sein eigenes privates Notizbuch innerhalb des Kurses.
 
-## How It Works
+## Wie es funktioniert
 
-The notebook is a simple tool where learners can:
+Das Notizbuch ist ein einfaches Werkzeug, mit dem Lernende:
 
-* **Create notes** — Write and save personal notes related to the course content
-* **Organize notes** — Review, edit, and delete their notes
-* **Keep them private** — Notes are visible only to the learner who created them
+* **Notizen erstellen** — Persönliche Notizen zu den Kursinhalten schreiben und speichern können
+* **Notizen organisieren** — Ihre Notizen überprüfen, bearbeiten und löschen können
+* **Notizen privat halten** — Notizen sind nur für den Lernenden sichtbar, der sie erstellt hat
 
-## As a Teacher
+## Als Lehrkraft
 
-As a teacher, you should be aware that:
+Als Lehrkraft sollten Sie Folgendes beachten:
 
-* The notebook is a **personal tool** — you cannot see your learners' notes
-* It is useful as a **reflection tool** — encourage learners to take notes while studying
-* Notes are stored within the course — they are not shared across courses
+* Das Notizbuch ist ein **persönliches Werkzeug** — Sie können die Notizen Ihrer Lernenden nicht sehen
+* Es ist nützlich als **Reflexionswerkzeug** — Ermutigen Sie die Lernenden, während des Studiums Notizen zu machen
+* Notizen werden innerhalb des Kurses gespeichert — sie werden nicht über Kurse hinweg geteilt
 
-## Enabling the Notebook
+## Aktivieren des Notizbuchs
 
-The notebook tool appears on the course homepage if it is enabled. If you do not see it, check that it is not hidden (look for hidden tools on the course homepage).
+Das Notizbuch-Werkzeug erscheint auf der Kurs-Startseite, wenn es aktiviert ist. Wenn Sie es nicht sehen, überprüfen Sie, ob es nicht ausgeblendet ist (suchen Sie nach ausgeblendeten Werkzeugen auf der Kurs-Startseite).

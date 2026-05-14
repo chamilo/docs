@@ -1,76 +1,76 @@
-# AI Configuration
+# KI-Konfiguration
 
-Chamilo 2.0 includes AI-powered features that require configuration before they become available to teachers and learners.
+Chamilo 2.0 bietet KI-gestützte Funktionen, die vor ihrer Verfügbarkeit für Lehrkräfte und Lernende konfiguriert werden müssen.
 
-## Supported AI Providers
+## Unterstützte KI-Anbieter
 
-Chamilo supports multiple AI providers:
+Chamilo unterstützt mehrere KI-Anbieter:
 
-| Provider | Capabilities |
+| Anbieter | Fähigkeiten |
 |----------|-------------|
-| **DeepSeek** | Text generation |
-| **Google Gemini** | Text, image, video generation |
-| **Grok** | Text, image, video generation |
-| **Mistral** | Text generation |
-| **OpenAI** | Text, image, video generation |
+| **DeepSeek** | Textgenerierung |
+| **Google Gemini** | Text-, Bild- und Videogenerierung |
+| **Grok** | Text-, Bild- und Videogenerierung |
+| **Mistral** | Textgenerierung |
+| **OpenAI** | Text-, Bild- und Videogenerierung |
 
-Each provider can be configured for different types of AI tasks:
+Jeder Anbieter kann für verschiedene Arten von KI-Aufgaben konfiguriert werden:
 
-* **Text** — Used for exercise generation, learning path generation, AI grading, and the AI tutor
-* **Image** — Used for AI image generation
-* **Video** — Used for AI video generation (where supported)
-* **Document** — Used for AI document analysis
+* **Text** — Wird für die Generierung von Übungen, Lernpfaden, KI-Bewertungen und den KI-Tutor verwendet
+* **Bild** — Wird für die KI-Bildgenerierung verwendet
+* **Video** — Wird für die KI-Videogenerierung verwendet (wo unterstützt)
+* **Dokument** — Wird für die KI-Dokumentenanalyse verwendet
 
-## Configuration Steps
+## Konfigurationsschritte
 
-### 1. Obtain API Keys
+### 1. API-Schlüssel beschaffen
 
-Register for an account with your chosen AI provider and obtain an API key:
+Registrieren Sie sich für ein Konto bei Ihrem gewählten KI-Anbieter und besorgen Sie sich einen API-Schlüssel:
 
 * **DeepSeek**: [platform.deepseek.com](https://platform.deepseek.com/)
-* **Google Gemini**: Google AI Studio or Google Cloud
+* **Google Gemini**: Google AI Studio oder Google Cloud
 * **Grok**: [console.x.ai](https://console.x.ai/)
 * **Mistral**: [console.mistral.ai](https://console.mistral.ai/)
 * **OpenAI**: [platform.openai.com](https://platform.openai.com/)
 
-### 2. Configure Providers in Chamilo
+### 2. Anbieter in Chamilo konfigurieren
 
-![The AI helpers configuration page showing provider settings with API key, model, and endpoint fields](/.gitbook/assets/admin-ai-helpers-config.png)
+![Die Konfigurationsseite für KI-Helfer mit Anbieter-Einstellungen, API-Schlüssel-, Modell- und Endpunktfeldern](/.gitbook/assets/admin-ai-helpers-config.png)
 
-In the platform settings, navigate to the **AI Helpers** section:
+Navigieren Sie in den Plattformeinstellungen zum Abschnitt **KI-Helfer**:
 
-1. **Enable AI helpers** — Turn on the AI features globally
-2. **Configure AI providers** — Add one or more providers with:
-   * **Provider name** (deepseek, gemini, grok, mistral, openai)
-   * **API key** — Your API key for the provider
-   * **Model** — The specific model to use (e.g., `gpt-4`, `gemini-pro`, `mistral-large`)
-   * **API URL** — The endpoint URL (pre-configured for standard providers)
+1. **KI-Helfer aktivieren** — Schalten Sie die KI-Funktionen global ein
+2. **KI-Anbieter konfigurieren** — Fügen Sie einen oder mehrere Anbieter hinzu mit:
+   * **Anbietername** (deepseek, gemini, grok, mistral, openai)
+   * **API-Schlüssel** — Ihr API-Schlüssel für den Anbieter
+   * **Modell** — Das spezifische Modell, das verwendet werden soll (z. B. `gpt-4`, `gemini-pro`, `mistral-large`)
+   * **API-URL** — Die Endpunkt-URL (für Standardanbieter vorkonfiguriert)
 
-You can configure multiple providers. The first provider in the configuration becomes the default.
+Sie können mehrere Anbieter konfigurieren. Der erste Anbieter in der Konfiguration wird zum Standard.
 
-### 3. Enable Features Per Course
+### 3. Funktionen pro Kurs aktivieren
 
-AI features can be enabled or disabled at the course level. Teachers can toggle:
+KI-Funktionen können auf Kursebene aktiviert oder deaktiviert werden. Lehrkräfte können folgendes umschalten:
 
-* **AI Tutor chatbot** — The AI assistant for learners
-* **Assignment grader** — AI-generated grading recommendation
-* **Exercise generator** — AI-generated quiz questions
-* **Learning path generator** — AI-generated learning sequences
-* **Image/Video generator** — AI-generated images and videos in documents
+* **KI-Tutor-Chatbot** — Der KI-Assistent für Lernende
+* **Aufgabenbewertung** — KI-generierte Bewertungsempfehlung
+* **Übungsgenerator** — KI-generierte Quizfragen
+* **Lernpfadgenerator** — KI-generierte Lernsequenzen
+* **Bild-/Videogenerator** — KI-generierte Bilder und Videos in Dokumenten
 
-This allows different courses to use different AI configurations based on their needs.
+Dies ermöglicht es verschiedenen Kursen, unterschiedliche KI-Konfigurationen je nach ihren Bedürfnissen zu verwenden.
 
-## Cost Considerations
+## Kostenüberlegungen
 
-AI API calls have costs associated with them. Consider:
+KI-API-Aufrufe sind mit Kosten verbunden. Beachten Sie:
 
-* **Setting usage limits** — Monitor and limit AI API usage to control costs
-* **Choosing models wisely** — Smaller, less expensive models may be sufficient for many educational tasks
-* **Tracking usage** — Chamilo logs AI requests to help you monitor consumption
+* **Nutzungslimits festlegen** — Überwachen und begrenzen Sie die Nutzung der KI-API, um Kosten zu kontrollieren
+* **Modelle mit Bedacht wählen** — Kleinere, kostengünstigere Modelle können für viele pädagogische Aufgaben ausreichend sein
+* **Nutzung verfolgen** — Chamilo protokolliert KI-Anfragen, um Ihnen bei der Überwachung des Verbrauchs zu helfen
 
-## Tips
+## Tipps
 
-* **Start with one provider** — Configure and test one provider before adding more
-* **Test with a course** — Enable AI features in a test course first to verify they work as expected
-* **Communicate with teachers** — Let teachers know which AI features are available and how to use them
-* **Monitor quality** — Regularly review AI-generated content to ensure it meets your educational standards
+* **Mit einem Anbieter beginnen** — Konfigurieren und testen Sie zunächst einen Anbieter, bevor Sie weitere hinzufügen
+* **Mit einem Kurs testen** — Aktivieren Sie KI-Funktionen zuerst in einem Testkurs, um sicherzustellen, dass sie wie erwartet funktionieren
+* **Mit Lehrkräften kommunizieren** — Informieren Sie Lehrkräfte darüber, welche KI-Funktionen verfügbar sind und wie sie genutzt werden können
+* **Qualität überwachen** — Überprüfen Sie regelmäßig KI-generierte Inhalte, um sicherzustellen, dass sie Ihren pädagogischen Standards entsprechen

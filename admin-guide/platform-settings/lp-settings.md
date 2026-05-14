@@ -1,418 +1,409 @@
-# Learning Paths Settings
+# Einstellungen für Lernpfade
 
-Defaults and behaviour of the **Learning Paths** tool — autostart, default view, prerequisites, SCORM behaviour and similar.
+Standardwerte und Verhalten des Tools **Lernpfade** — Autostart, Standardansicht, Voraussetzungen, SCORM-Verhalten und Ähnliches.
 
-Access these settings under **Administration > Configuration settings > Learning Paths**. This category contains **51 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+Greifen Sie auf diese Einstellungen unter **Verwaltung > Konfigurationseinstellungen > Lernpfade** zu. Diese Kategorie enthält **51 Einstellungen**, die unten mit dem Titel und dem Kommentar aufgeführt sind, wie sie in den Standardeinstellungen der Plattform (`SettingsCurrentFixtures.php`) bereitgestellt werden.
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> Der Variablenname im Code wird in Monospace angezeigt. Verwenden Sie ihn, wenn Sie über die API skripten oder diese Einstellungen auf globaler Ebene ändern möchten, indem Sie [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml) bearbeiten.
 
-## Settings
+## Einstellungen
 
 ### `add_all_files_in_lp_export`
 
-**Export all files when exporting a learning path**
+**Alle Dateien beim Export eines Lernpfads exportieren**
 
-When exporting a LP, all files and folders in the same path of an html will be exported too.
+Beim Exportieren eines Lernpfads werden auch alle Dateien und Ordner im gleichen Pfad eines HTML-Dokuments exportiert.
 
-*Default: `false`*
-
+*Standard: `false`*
 
 ### `allow_htaccess_import_from_scorm`
 
-**Allow .htaccess from SCORM packages**
+**Erlauben von .htaccess aus SCORM-Paketen**
 
-Normally, all .htaccess files are filtered and removed when importing content in Chamilo. This feature allows .htaccess to be imported if it is present in a SCORM package.
+Normalerweise werden alle .htaccess-Dateien beim Importieren von Inhalten in Chamilo gefiltert und entfernt. Diese Funktion erlaubt den Import von .htaccess, wenn sie in einem SCORM-Paket vorhanden ist.
 
-*Default: `false`*
-
+*Standard: `false`*
 
 ### `allow_import_scorm_package_in_course_builder`
 
-**SCORM import within course import**
+**SCORM-Import bei Kursimport**
 
-Enable to copy the directory structure of SCORM packages when restoring a course (from the course maintenance tool).
+Aktivieren Sie diese Option, um die Verzeichnisstruktur von SCORM-Paketen beim Wiederherstellen eines Kurses (über das Kurswartungstool) zu kopieren.
 
-*Default: `false`*
-
+*Standard: `false`*
 
 ### `allow_lp_chamilo_export`
 
-**Export learning paths in the Chamilo backup format**
+**Lernpfade im Chamilo-Backup-Format exportieren**
 
-Enable the possibility to export any of your learning paths in a Chamilo course backup format.
+Ermöglichen Sie den Export Ihrer Lernpfade im Chamilo-Kurs-Backup-Format.
 
-*Default: `false`*
-
+*Standard: `false`*
 
 ### `allow_lp_return_link`
 
-**Show learning paths return link**
+**Rückkehrlink für Lernpfade anzeigen**
 
-Disable this option to hide the 'Return to homepage' button in the learning paths
+Deaktivieren Sie diese Option, um die Schaltfläche 'Zurück zur Startseite' in den Lernpfaden auszublenden.
 
-*Default: `true`*
-
+*Standard: `true`*
 
 ### `allow_lp_subscription_to_usergroups`
 
-**Learning paths subscription for classes**
+**Abonnement von Lernpfaden für Klassen**
 
-Enable subscription to learning paths and learning path categories to groups/classes.
+Aktivieren Sie das Abonnement von Lernpfaden und Lernpfadkategorien für Gruppen/Klassen.
 
-*Default: `false`*
-
+*Standard: `false`*
 
 ### `allow_session_lp_category`
 
-**Learning paths categories can be managed in sessions**
+**Lernpfadkategorien können in Sitzungen verwaltet werden**
 
-[inferred] Enable learners and instructors to organize and manage learning paths by categories within session courses.
+[abgeleitet] Ermöglichen Sie Lernenden und Lehrenden, Lernpfade innerhalb von Sitzungskursen nach Kategorien zu organisieren und zu verwalten.
 
-*Default: `false`*
-
+*Standard: `false`*
 
 ### `allow_teachers_to_access_blocked_lp_by_prerequisite`
 
-**Teachers can access blocked learning paths**
+**Lehrende können auf gesperrte Lernpfade zugreifen**
 
-Teachers do not need to pass complete learning paths to have access to a prerequisites-blocked learning path.
+Lehrende müssen keine vollständigen Lernpfade absolvieren, um Zugriff auf einen durch Voraussetzungen gesperrten Lernpfad zu erhalten.
 
-*Default: `false`*
-
+*Standard: `false`*
 
 ### `disable_js_in_lp_view`
 
-**Disable JS in learning paths view**
+**JS in der Lernpfadansicht deaktivieren**
 
-Disable JS files that Chamilo usually adds to HTML files in the learning path (while displaying them).
+Deaktivieren Sie JS-Dateien, die Chamilo normalerweise zu HTML-Dateien im Lernpfad hinzufügt (während der Anzeige).
 
-*Default: `false`*
-
+*Standard: `false`*
 
 ### `disable_my_lps_page`
 
-**Hide 'My learning paths' page**
+**Seite 'Meine Lernpfade' ausblenden**
 
-The page 'My learning path' was added in 1.11. Use this option to hide it.
+Die Seite 'Meine Lernpfade' wurde in Version 1.11 hinzugefügt. Verwenden Sie diese Option, um sie auszublenden.
 
-*Default: `false`*
+*Standard: `false`*
 
 ### `download_files_after_all_lp_finished`
 
-**Download button after finishing learning paths**
+**Download-Schaltfläche nach Abschluss aller Lernpfade**
 
-Show download files button after finishing all LP. Example: if ABC is the course code, and 1 and 100 are the doc id, choose: ['courses' => ['ABC' => [1, 100]]].
+Zeigen Sie die Schaltfläche zum Herunterladen von Dateien an, nachdem alle Lernpfade abgeschlossen sind. Beispiel: Wenn ABC der Kurscode ist und 1 und 100 die Dokument-IDs sind, wählen Sie: ['courses' => ['ABC' => [1, 100]]].
 
 ### `force_edit_exercise_in_lp`
 
-**Edition of tests included in learning paths**
+**Bearbeitung von Tests in Lernpfaden**
 
-Enable editing tests even if they have been included in a learning path. The default is to prevent edition if the test is in a learning path, because that can affect consistency of tracking among many learners if test modifications are significant.
+Ermöglichen Sie die Bearbeitung von Tests, auch wenn sie in einen Lernpfad eingebunden sind. Standardmäßig wird die Bearbeitung verhindert, wenn der Test in einem Lernpfad enthalten ist, da dies die Konsistenz der Nachverfolgung bei vielen Lernenden beeinträchtigen kann, wenn die Änderungen am Test erheblich sind.
 
-*Default: `false`*
+*Standard: `false`*
 
 ### `hide_accessibility_label_on_lp_item`
 
-**Hide requirements label in learning paths**
+**Voraussetzungslabel in Lernpfaden ausblenden**
 
-Hide the pre-requisites tooltip on learning path items. This is mostly an estaethic choice.
+Blenden Sie den Tooltip für Voraussetzungen bei Lernpfadelementen aus. Dies ist hauptsächlich eine ästhetische Entscheidung.
 
-*Default: `true`*
+*Standard: `true`*
 
 ### `hide_lp_time`
 
-**Hide time from learning paths records**
+**Zeitangaben in Lernpfadberichten ausblenden**
 
-Hide learning paths time spent in reports in general.
+Blenden Sie die in Lernpfaden verbrachte Zeit in Berichten generell aus.
 
-*Default: `false`*
+*Standard: `false`*
 
 ### `hide_scorm_copy_link`
 
-**Hide SCORM Copy**
+**SCORM-Kopieren ausblenden**
 
-Hide the Learning Path Copy icon from the Learning Paths list
+Blenden Sie das Symbol zum Kopieren eines Lernpfads aus der Lernpfadliste aus.
 
-*Default: `false`*
+*Standard: `false`*
 
 ### `hide_scorm_export_link`
 
-**Hide SCORM Export**
+**SCORM-Export ausblenden**
 
-Hide the SCORM Export icon from the Learning Paths list
+Blenden Sie das Symbol für den SCORM-Export aus der Lernpfadliste aus.
 
-*Default: `false`*
+*Standard: `false`*
 
 ### `hide_scorm_pdf_link`
 
-**Hide Learning Path PDF export**
+**PDF-Export von Lernpfaden ausblenden**
 
-Hide the Learning Path PDF Export icon from the Learning Paths list
+Blenden Sie das Symbol für den PDF-Export von Lernpfaden aus der Lernpfadliste aus.
 
-*Default: `true`*
+*Standard: `true`*
 
 ### `lp_allow_export_to_students`
 
-**Learners can export learning paths**
+**Lernende können Lernpfade exportieren**
 
-Enable this to allow learners to download the learning paths as SCORM packages.
+Aktivieren Sie diese Option, um Lernenden das Herunterladen von Lernpfaden als SCORM-Pakete zu ermöglichen.
 
-*Default: `false`*
+*Standard: `false`*
 
 ### `lp_enable_flow`
 
-**Navigate between learning paths**
+**Navigation zwischen Lernpfaden**
 
-Add the possibility to select a 'next' learning path and show buttons inside the learning path to move from one to the next.
+Fügen Sie die Möglichkeit hinzu, einen 'nächsten' Lernpfad auszuwählen und Schaltflächen innerhalb des Lernpfads anzuzeigen, um von einem zum nächsten zu wechseln.
 
-*Default: `false`*
+*Standard: `false`*
 
 ### `lp_fixed_encoding`
 
-**Fixed encoding in learning path**
+**Feste Kodierung im Lernpfad**
 
-Reduce resource usage by ignoring a check on the text encoding in imported learning paths.
+Reduzieren Sie die Ressourcennutzung, indem Sie eine Überprüfung der Textkodierung in importierten Lernpfaden ignorieren.
 
-*Default: `false`*
+*Standard: `false`*
 
 ### `lp_item_prerequisite_dates`
 
-**Date-based learning path items prerequisites**
+**Datumsbasierte Voraussetzungen für Lernpfadelemente**
 
-Adds the option to define prerequisites with start and end dates for learnpath items.
+Fügt die Option hinzu, Voraussetzungen mit Start- und Enddaten für Lernpfadelemente zu definieren.
 
-*Default: `false`*
+*Standard: `false`*
 
+---
 ### `lp_menu_location`
 
-**Learning path menu location**
+**Position des Lernpfad-Menüs**
 
-Set this to 'left' or 'right' to change the side of the learning path menu.
+Setzen Sie dies auf 'left' oder 'right', um die Seite des Lernpfad-Menüs zu ändern.
 
-*Default: `left`*
+*Standard: `left`*
 
 ### `lp_minimum_time`
 
-**Minimum time to complete learning path**
+**Mindestzeit zum Abschließen eines Lernpfads**
 
-Add a minimum time field to learning paths. If the user has not spent that much time on the learning path, the last item of the learning path cannot be completed.
+Fügen Sie ein Feld für die Mindestzeit zu Lernpfaden hinzu. Wenn der Benutzer nicht mindestens diese Zeit im Lernpfad verbracht hat, kann der letzte Punkt des Lernpfads nicht abgeschlossen werden.
 
-*Default: `false`*
+*Standard: `false`*
 
 ### `lp_prerequisit_on_quiz_unblock_if_max_attempt_reached`
 
-**Unlock learning path item if max attempt is reached for test prerequisite**
+**Lernpfad-Element freischalten, wenn maximale Versuche für Testvoraussetzung erreicht sind**
 
-[inferred] Automatically unlock subsequent learning path items when a learner exhausts maximum quiz attempts for a prerequisite test.
-
+[abgeleitet] Automatisches Freischalten nachfolgender Lernpfad-Elemente, wenn ein Lernender die maximalen Testversuche für eine Voraussetzung erschöpft hat.
 
 ### `lp_prerequisite_on_quiz_unblock_if_max_attempt_reached`
 
-**Unlock prerequisites after last test attempt**
+**Voraussetzungen nach letztem Testversuch freischalten**
 
-Allows users to continue in a learning path after using all quiz attempts of a test used as prerequisite for other items.
+Ermöglicht es Benutzern, in einem Lernpfad fortzufahren, nachdem alle Testversuche für einen als Voraussetzung dienenden Test aufgebraucht sind.
 
-*Default: `false`*
+*Standard: `false`*
 
 ### `lp_prerequisite_use_last_attempt_only`
 
-**Use last score in learning path test prerequisites**
+**Nur letzten Versuch bei Lernpfad-Testvoraussetzungen verwenden**
 
-When a test is used as prerequisite for an item in the learning path, use the last attempt of the test only as validation for the prerequisite (default is to use best attempt).
+Wenn ein Test als Voraussetzung für ein Element im Lernpfad verwendet wird, wird nur der letzte Versuch des Tests zur Validierung der Voraussetzung herangezogen (Standard ist der beste Versuch).
 
-*Default: `false`*
+*Standard: `false`*
 
 ### `lp_prevents_beforeunload`
 
-**Prevent beforeunload JS event in learning path**
+**Beforeunload-JS-Ereignis im Lernpfad verhindern**
 
-This helps with browser compatibility by preventing tricky JS events to execute.
+Dies hilft bei der Browserkompatibilität, indem problematische JS-Ereignisse verhindert werden.
 
-*Default: `false`*
+*Standard: `false`*
 
 ### `lp_score_as_progress_enable`
 
-**Use learning path score as progress**
+**Lernpfad-Punktzahl als Fortschritt verwenden**
 
-This is useful when using SCORM content with only one large SCO. SCORM does not communicate progress, so this is a trick to use the score as progress. Enabling this option will let you configure this on a per-learning path basis.
+Dies ist nützlich, wenn SCORM-Inhalte mit nur einem großen SCO verwendet werden. SCORM kommuniziert keinen Fortschritt, daher ist dies ein Trick, um die Punktzahl als Fortschritt zu nutzen. Durch Aktivieren dieser Option können Sie dies pro Lernpfad konfigurieren.
 
-*Default: `false`*
+*Standard: `false`*
 
 ### `lp_show_max_progress_instead_of_average`
 
-**Show max progress instead of average for learning paths reporting**
+**Maximalen Fortschritt statt Durchschnitt für Lernpfad-Berichte anzeigen**
 
-[inferred] Calculate learning path progress based on maximum item completion rather than averaging all items.
+[abgeleitet] Berechnet den Lernpfad-Fortschritt basierend auf dem maximalen Abschluss der Elemente anstatt des Durchschnitts aller Elemente.
 
-*Default: `false`*
+*Standard: `false`*
 
 ### `lp_show_max_progress_or_average_enable_course_level_redefinition`
 
-**Select max progress vs average for learning paths at course level**
+**Maximalen Fortschritt oder Durchschnitt für Lernpfade auf Kursebene auswählen**
 
-Enable redefinition of the setting to show the best progress instead of averages in reporting of learnpaths at a course level.
+Ermöglicht die Neudefinition der Einstellung, um den besten Fortschritt anstelle von Durchschnittswerten in Berichten zu Lernpfaden auf Kursebene anzuzeigen.
 
-*Default: `false`*
+*Standard: `false`*
 
 ### `lp_show_reduced_report`
 
-**Learning paths: show reduced report**
+**Lernpfade: Reduzierten Bericht anzeigen**
 
-Inside the learning paths tool, when a user reviews his own progress (through the stats icon), show a shorten (less detailed) version of the progress report.
+Innerhalb des Lernpfad-Tools wird Benutzern, die ihren eigenen Fortschritt überprüfen (über das Statistik-Symbol), eine verkürzte (weniger detaillierte) Version des Fortschrittsberichts angezeigt.
 
-*Default: `false`*
+*Standard: `false`*
 
 ### `lp_start_and_end_date_visible_in_student_view`
 
-**Display learning path availability to learners**
+**Verfügbarkeit von Lernpfaden für Lernende anzeigen**
 
-Show learning paths to learners with their availability dates, rather than hiding them until the date comes.
+Zeigt Lernpfaden den Lernenden mit ihren Verfügbarkeitsdaten an, anstatt sie bis zum Datum zu verbergen.
 
-*Default: `false`*
+*Standard: `false`*
 
 ### `lp_subscription_settings`
 
-**Learning paths subscription settings**
+**Einstellungen für Lernpfad-Abonnements**
 
-Configure additional options for the learning paths subscription feature. Options include 'allow_add_users_to_lp' and 'allow_add_users_to_lp_category'.
+Konfigurieren Sie zusätzliche Optionen für die Lernpfad-Abonnementfunktion. Optionen umfassen 'allow_add_users_to_lp' und 'allow_add_users_to_lp_category'.
 
 ### `lp_view_accordion`
 
-**Foldable learning paths' items**
+**Einklappbare Lernpfad-Elemente**
 
-[inferred] Display learning path items in collapsible accordion format for improved navigation and content organization.
+[abgeleitet] Zeigt Lernpfad-Elemente im einklappbaren Akkordeon-Format für eine verbesserte Navigation und Inhaltsorganisation an.
 
-*Default: `false`*
+*Standard: `false`*
 
 ### `lp_view_settings`
 
-**Learning path display settings**
+**Anzeigeeinstellungen für Lernpfade**
 
-Configure additional options for the learning paths display. Options include 'show_reporting_icon', 'hide_lp_arrow_navigation', 'show_toolbar_by_default', 'navigation_in_the_middle' and 'add_extra_quit_to_home_icon'.
+Konfigurieren Sie zusätzliche Optionen für die Anzeige von Lernpfaden. Optionen umfassen 'show_reporting_icon', 'hide_lp_arrow_navigation', 'show_toolbar_by_default', 'navigation_in_the_middle' und 'add_extra_quit_to_home_icon'.
 
 ### `scorm_api_extrafield_to_use_as_student_id`
 
-**Use extra field as student\_id in SCORM communication**
+**Zusätzliches Feld als student_id in der SCORM-Kommunikation verwenden**
 
-Give the name of the extra field to be used as student_id for all SCORM communication.
+Geben Sie den Namen des zusätzlichen Feldes an, das als student_id für die gesamte SCORM-Kommunikation verwendet werden soll.
 
 ### `scorm_api_username_as_student_id`
 
-**Use username as student\_id in SCORM communication**
+**Benutzernamen als student_id in der SCORM-Kommunikation verwenden**
 
-[inferred] Use learner username as the student identifier in SCORM API communication instead of learner ID.
+[abgeleitet] Verwendet den Benutzernamen des Lernenden als Studentenidentifikator in der SCORM-API-Kommunikation anstelle der Lernenden-ID.
 
-*Default: `false`*
+*Standard: `false`*
 
 ### `scorm_lms_update_sco_status_all_time`
 
-**Update SCO status autonomously**
+**SCO-Status autonom aktualisieren**
 
-If the SCO is not sending a status, take over and update the status based on what can be observed in Chamilo.
+Wenn der SCO keinen Status sendet, übernehmen Sie die Kontrolle und aktualisieren Sie den Status basierend auf den in Chamilo beobachtbaren Daten.
 
-*Default: `false`*
+*Standard: `false`*
 
 ### `scorm_upload_from_cache`
 
-**Upload SCORM from cache dir**
+**SCORM aus Cache-Verzeichnis hochladen**
 
-Allow admins to upload a SCORM package (in zip form) into the cache directory and to use it as import source on the SCORM upload page.
+Ermöglicht Administratoren, ein SCORM-Paket (in Zip-Form) in das Cache-Verzeichnis hochzuladen und es als Importquelle auf der SCORM-Upload-Seite zu verwenden.
 
-*Default: `false`*
+*Standard: `false`*
 
 ### `show_hidden_exercise_added_to_lp`
 
-**Display tests from learning paths even if invisible**
+**Tests aus Lernpfaden anzeigen, auch wenn unsichtbar**
 
-Show hidden exercises that were added to a LP in the exercise list. If we are in a session, the test is invisible in the base course, it is included in a LP and the setting to show it is not specifically set to true, then hide it.
+Zeigt versteckte Übungen, die zu einem Lernpfad hinzugefügt wurden, in der Übungsliste an. Wenn wir uns in einer Sitzung befinden, der Test im Basiskurs unsichtbar ist, in einem Lernpfad enthalten ist und die Einstellung zum Anzeigen nicht ausdrücklich auf true gesetzt ist, wird er ausgeblendet.
 
-*Default: `true`*
+*Standard: `true`*
 
 ### `show_invisible_exercise_in_lp_list`
 
-**Display tests in list of learning path tests even if invisible**
+**Tests in der Liste der Lernpfad-Tests anzeigen, auch wenn unsichtbar**
 
-[inferred] Include hidden tests in the list of available tests when viewing learning path contents.
+[abgeleitet] Schließt versteckte Tests in die Liste der verfügbaren Tests ein, wenn der Inhalt des Lernpfads angezeigt wird.
 
-*Default: `false`*
+*Standard: `false`*
 
+---
 ### `show_invisible_exercise_in_lp_toc`
 
-**Invisible tests visible in learning paths**
+**Unsichtbare Tests in Lernpfaden sichtbar machen**
 
-Make tests marked as 'invisible' in the tests tool appear when they are included in a learning path.
+Tests, die im Test-Tool als 'unsichtbar' markiert sind, werden angezeigt, wenn sie in einen Lernpfad eingebunden sind.
 
-*Default: `false`*
+*Standard: `false`*
 
 ### `show_invisible_lp_in_course_home`
 
-**Display link to learning path on course home when invisible**
+**Link zum Lernpfad auf der Kursstartseite anzeigen, wenn unsichtbar**
 
-If a learning path is set to invisible but the teacher/coach decided to make it available from the course homepage, this option prevents Chamilo from hiding the link on the course homepage.
+Wenn ein Lernpfad als unsichtbar eingestellt ist, aber der Lehrer/Coach entschieden hat, ihn auf der Kursstartseite verfügbar zu machen, verhindert diese Option, dass Chamilo den Link auf der Kursstartseite ausblendet.
 
-*Default: `false`*
+*Standard: `false`*
 
 ### `show_prerequisite_as_blocked`
 
-**Learning path's prerequisites**
+**Voraussetzungen für Lernpfade**
 
-On the learning paths lists, display a visual element to show that other learning paths are currently blocked by some prerequisites rule.
+Zeigt in den Lernpfadlisten ein visuelles Element an, das darauf hinweist, dass andere Lernpfade aufgrund von Voraussetzungsregeln derzeit gesperrt sind.
 
-*Default: `false`*
+*Standard: `false`*
 
 ### `student_follow_page_add_LP_acquisition_info`
 
-**Add acquisition column in learner follow-up**
+**Erwerbsspalte zur Lernenden-Nachverfolgung hinzufügen**
 
-Add column to learner follow-up page to show acquisition status by a learner on a learning path.
+Fügt der Lernenden-Nachverfolgungsseite eine Spalte hinzu, die den Erwerbsstatus eines Lernenden in einem Lernpfad anzeigt.
 
-*Default: `false`*
+*Standard: `false`*
 
 ### `student_follow_page_add_LP_invisible_checkbox`
 
-**Add visibility information for learning paths on learner follow-up page**
+**Sichtbarkeitsinformationen für Lernpfade auf der Lernenden-Nachverfolgungsseite hinzufügen**
 
-[inferred] Display visibility status indicator for learning paths on the learner progress tracking page.
+Zeigt einen Sichtbarkeitsstatus-Indikator für Lernpfade auf der Fortschrittsverfolgungsseite der Lernenden an.
 
-*Default: `false`*
+*Standard: `false`*
 
 ### `student_follow_page_add_LP_subscription_info`
 
-**Unlocked information in learning paths list**
+**Informationen zu freigeschalteten Lernpfaden in der Lernpfadliste**
 
-This adds an 'unlocked' column in the learning paths list if the learner is subscribed to the given learning path and has access to it.
+Fügt eine Spalte 'Freigeschaltet' in der Lernpfadliste hinzu, wenn der Lernende für den jeweiligen Lernpfad angemeldet ist und Zugriff darauf hat.
 
-*Default: `false`*
+*Standard: `false`*
 
 ### `student_follow_page_hide_lp_tests_average`
 
-**Hide percentage sign in average of tests in learning paths in learner follow-up**
+**Prozentsymbol im Durchschnitt der Tests in Lernpfaden auf der Lernenden-Nachverfolgung ausblenden**
 
-Hides the icon of percentage in 'Average of tests in Learning Paths' indication on a student tracking
+Blendet das Prozentsymbol in der Anzeige 'Durchschnitt der Tests in Lernpfaden' auf der Lernenden-Nachverfolgungsseite aus.
 
-*Default: `false`*
+*Standard: `false`*
 
 ### `student_follow_page_include_not_subscribed_lp_students`
 
-**Include learning paths not subscribed to on learner follow-up page**
+**Nicht angemeldete Lernpfade auf der Lernenden-Nachverfolgungsseite einbeziehen**
 
-[inferred] Show learning paths on progress pages even when learners are not subscribed to them.
+Zeigt Lernpfade auf den Fortschrittsseiten an, auch wenn die Lernenden nicht dafür angemeldet sind.
 
-*Default: `false`*
+*Standard: `false`*
 
 ### `ticket_lp_quiz_info_add`
 
-**Add learning paths and tests info to ticket reporting**
+**Lernpfad- und Testinformationen zur Ticket-Berichterstattung hinzufügen**
 
-[inferred] Include learning path and test information in support ticket reporting for better issue tracking.
+Bezieht Lernpfad- und Testinformationen in die Berichterstattung von Support-Tickets ein, um die Nachverfolgung von Problemen zu verbessern.
 
-*Default: `false`*
+*Standard: `false`*
 
 ### `validate_lp_prerequisite_from_other_session`
 
-**Use learning path item status from other sessions**
+**Status von Lernpfadelementen aus anderen Sitzungen verwenden**
 
-Allow users to complete prerequisites in a learning path if the corresponding item was already completed in another session.
+Ermöglicht es Benutzern, Voraussetzungen in einem Lernpfad zu erfüllen, wenn das entsprechende Element bereits in einer anderen Sitzung abgeschlossen wurde.
 
-*Default: `false`*
-
+*Standard: `false`*

@@ -1,46 +1,46 @@
-# Sessions
+# Sitzungen
 
-Sessions in Chamilo are a way to deliver the same course to different groups of learners at different times, without duplicating the course content. Think of a session as a scheduled edition or cohort of a course.
+Sitzungen in Chamilo sind eine Möglichkeit, denselben Kurs zu unterschiedlichen Zeiten an verschiedene Gruppen von Lernenden zu vermitteln, ohne den Kursinhalt zu duplizieren. Stellen Sie sich eine Sitzung als eine geplante Ausgabe oder Kohorte eines Kurses vor.
 
-## How Sessions Work
+## Wie Sitzungen funktionieren
 
-A **course** is a container of content and tools. A **session** assigns that course to a specific group of learners for a specific time period. This means:
+Ein **Kurs** ist ein Container für Inhalte und Werkzeuge. Eine **Sitzung** weist diesen Kurs einer bestimmten Gruppe von Lernenden für einen bestimmten Zeitraum zu. Das bedeutet:
 
-* The same course can be reused across multiple sessions
-* Each session has its own enrolled learners and its own start/end dates
-* Each session has its own results — grades, progress, and tracking data are kept separate per session
-* The base course content is shared, but teachers can customize certain elements per session
+- Derselbe Kurs kann über mehrere Sitzungen hinweg wiederverwendet werden
+- Jede Sitzung hat ihre eigenen eingeschriebenen Lernenden und ihre eigenen Start- und Enddaten
+- Jede Sitzung hat ihre eigenen Ergebnisse — Noten, Fortschritt und Tracking-Daten werden pro Sitzung separat geführt
+- Der grundlegende Kursinhalt wird geteilt, aber Lehrkräfte können bestimmte Elemente pro Sitzung anpassen
 
-## Your Sessions
+## Ihre Sitzungen
 
-From the sidebar, click **My sessions** to see your sessions. They are organized into three views:
+Klicken Sie in der Seitenleiste auf **Meine Sitzungen**, um Ihre Sitzungen anzuzeigen. Sie sind in drei Ansichten organisiert:
 
-![The My Sessions page showing current, past, and upcoming session views](/.gitbook/assets/my-sessions-list.png)
+![Die Seite "Meine Sitzungen" zeigt aktuelle, vergangene und kommende Sitzungsansichten](/.gitbook/assets/my-sessions-list.png)
 
-* **Current sessions** — Sessions that are currently active
-* **Past sessions** — Sessions that have ended
-* **Upcoming sessions** — Sessions that have not started yet
+- **Aktuelle Sitzungen** — Sitzungen, die derzeit aktiv sind
+- **Vergangene Sitzungen** — Sitzungen, die beendet sind
+- **Kommende Sitzungen** — Sitzungen, die noch nicht begonnen haben
 
-Each session shows the courses it contains. Click on a course within a session to access it.
+Jede Sitzung zeigt die darin enthaltenen Kurse. Klicken Sie auf einen Kurs innerhalb einer Sitzung, um darauf zuzugreifen.
 
-## Teaching in a Session
+## Unterrichten in einer Sitzung
 
-When you enter a course through a session, the experience is similar to a regular course, with a few differences:
+Wenn Sie über eine Sitzung auf einen Kurs zugreifen, ist die Erfahrung ähnlich wie bei einem regulären Kurs, mit einigen Unterschieden:
 
-* The **session name** appears alongside the course title, so you always know which session you are working in
-* Learner data (progress, grades, submissions) is specific to this session
-* Some settings (like the ability to change the visibility of tools) may be locked by the session administrator
+- Der **Sitzungsname** wird neben dem Kurstitel angezeigt, sodass Sie immer wissen, in welcher Sitzung Sie arbeiten
+- Die Daten der Lernenden (Fortschritt, Noten, Einreichungen) sind spezifisch für diese Sitzung
+- Einige Einstellungen (wie die Möglichkeit, die Sichtbarkeit von Werkzeugen zu ändern) können vom Sitzungsadministrator gesperrt sein
 
-## Session Roles
+## Sitzungsrollen
 
-Sessions introduce additional roles:
+Sitzungen führen zusätzliche Rollen ein:
 
-| Role | Description |
-|------|-------------|
-| **Session administrator** | Manages the creation and configuration of sessions |
-| **Session coach** | Oversees all courses within a session (can access tracking across courses) |
-| **Course coach** | Teaches a specific course within a session |
+| Rolle | Beschreibung |
+|------|--------------|
+| **Sitzungsadministrator** | Verwaltet die Erstellung und Konfiguration von Sitzungen |
+| **Sitzungscoach** | Überwacht alle Kurse innerhalb einer Sitzung (kann Tracking über Kurse hinweg einsehen) |
+| **Kurs-Coach** | Unterrichtet einen bestimmten Kurs innerhalb einer Sitzung |
 
-If you are assigned as a **course coach** in a session, you can manage that course's content and track learner progress for the session's learners.
+Wenn Sie als **Kurs-Coach** in einer Sitzung zugewiesen sind, können Sie den Inhalt dieses Kurses verwalten und den Fortschritt der Lernenden dieser Sitzung verfolgen.
 
-> Sessions are typically managed by administrators. If you need to create or modify a session, contact your platform administrator or session administrator.
+> Sitzungen werden in der Regel von Administratoren verwaltet. Wenn Sie eine Sitzung erstellen oder ändern müssen, wenden Sie sich an Ihren Plattformadministrator oder Sitzungsadministrator.

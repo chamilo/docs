@@ -1,13 +1,13 @@
-# Tracking and Reporting
+# Nachverfolgung und Berichterstattung
 
-Chamilo tracks learner activity throughout the platform, giving you detailed insights into how your learners are progressing.
+Chamilo verfolgt die Aktivitäten der Lernenden auf der gesamten Plattform und bietet Ihnen detaillierte Einblicke in den Fortschritt Ihrer Lernenden.
 
-* **[Learner Tracking](learner-tracking.md)** — Monitor individual learner activity: login times, time spent, pages visited, and tool usage
-* **[Course Reports](course-reports.md)** — View aggregate data across all learners in a course
-* **[Certificates and Skills](certificates-and-skills.md)** — Award certificates based on gradebook scores and validate acquired skills
+* **[Lernenden-Nachverfolgung](learner-tracking.md)** — Überwachen Sie die individuelle Aktivität der Lernenden: Anmeldezeiten, verbrachte Zeit, besuchte Seiten und Werkzeugnutzung
+* **[Kursberichte](course-reports.md)** — Sehen Sie aggregierte Daten über alle Lernenden in einem Kurs
+* **[Zertifikate und Kompetenzen](certificates-and-skills.md)** — Verleihen Sie Zertifikate basierend auf Bewertungen im Notenbuch und validieren Sie erworbene Kompetenzen
 
-## Accessing Reports
+## Zugriff auf Berichte
 
-From your course, click the **Tracking** <img src="/.gitbook/assets/icons/mdi-chart-box.svg" alt="Tracking" data-size="line"> tool on the course homepage. You can also access reporting from the **Reporting** link in the sidebar for a cross-course overview.
+Klicken Sie in Ihrem Kurs auf das Werkzeug **Nachverfolgung** <img src="/.gitbook/assets/icons/mdi-chart-box.svg" alt="Nachverfolgung" data-size="line"> auf der Kurs-Startseite. Sie können auch über den Link **Berichterstattung** in der Seitenleiste auf eine kursübergreifende Übersicht zugreifen.
 
-Teachers see reporting data for courses they teach. Session coaches see data across all courses within their session.
+Lehrkräfte sehen Berichtsdaten für die Kurse, die sie unterrichten. Sitzungscoaches sehen Daten über alle Kurse innerhalb ihrer Sitzung.

@@ -1,68 +1,63 @@
-# Tickets Settings
+# Ticket-Einstellungen
 
-Behaviour of the **Tickets** (helpdesk) system.
+Verhalten des **Tickets**-Systems (Helpdesk).
 
-Access these settings under **Administration > Configuration settings > Tickets**. This category contains **7 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+Greifen Sie auf diese Einstellungen unter **Verwaltung > Konfigurationseinstellungen > Tickets** zu. Diese Kategorie enthält **7 Einstellungen**, die unten mit dem Titel und dem Kommentar aufgeführt sind, wie sie in den Standardeinstellungen der Plattform (`SettingsCurrentFixtures.php`) bereitgestellt werden.
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> Der Variablenname im Code wird in Monospace angezeigt. Verwenden Sie ihn, wenn Sie über die API skripten oder wenn Sie diese Einstellungen auf globaler Ebene ändern möchten, indem Sie [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml) bearbeiten.
 
-## Settings
+## Einstellungen
 
 ### `show_link_bug_notification`
 
-**Show link to report bug**
+**Link zum Melden eines Fehlers anzeigen**
 
-Show a link in the header to report a bug inside of our support platform (http://support.chamilo.org). When clicking on the link, the user is sent to the support platform, on a wiki page that describes the bug reporting process.
+Zeigt einen Link im Header an, um einen Fehler in unserer Support-Plattform (http://support.chamilo.org) zu melden. Beim Klicken auf den Link wird der Benutzer zur Support-Plattform weitergeleitet, auf eine Wiki-Seite, die den Prozess zur Fehlermeldung beschreibt.
 
-*Default: `false`*
-
+*Standard: `false`*
 
 ### `show_link_ticket_notification`
 
-**Show ticket creation link**
+**Link zur Ticket-Erstellung anzeigen**
 
-Show the ticket creation link to users on the right side of the portal
+Zeigt den Link zur Ticket-Erstellung für Benutzer auf der rechten Seite des Portals an.
 
-*Default: `false`*
-
+*Standard: `false`*
 
 ### `ticket_allow_category_edition`
 
-**Allow tickets categories edition**
+**Bearbeitung von Ticket-Kategorien erlauben**
 
-Allow category edition by administrators.
+Erlaubt Administratoren die Bearbeitung von Kategorien.
 
-*Default: `false`*
+*Standard: `false`*
 
 ### `ticket_allow_student_add`
 
-**Allow users to add tickets**
+**Benutzern das Hinzufügen von Tickets erlauben**
 
-Allows all users to add tickets not only the administrators.
+Erlaubt allen Benutzern, Tickets hinzuzufügen, nicht nur den Administratoren.
 
-*Default: `false`*
+*Standard: `false`*
 
 ### `ticket_project_user_roles`
 
-**Access by role to ticket projects**
+**Zugriff auf Ticket-Projekte nach Rollen**
 
-Allow ticket projects to be accesses by specific user roles. Example: ['permissions' => [1 => [17]] where project_id = 1, STUDENT_BOSS = 17.
+Erlaubt den Zugriff auf Ticket-Projekte durch bestimmte Benutzerrollen. Beispiel: ['permissions' => [1 => [17]] wobei project_id = 1, STUDENT_BOSS = 17.
 
 ### `ticket_send_warning_to_all_admins`
 
-**Send ticket warning messages to administrators**
+**Ticket-Warnmeldungen an Administratoren senden**
 
-Send a message if a ticket was created without a category or if a category doesn't have any administrator assigned.
+Sendet eine Nachricht, wenn ein Ticket ohne Kategorie erstellt wurde oder wenn einer Kategorie kein Administrator zugewiesen ist.
 
-*Default: `false`*
-
+*Standard: `false`*
 
 ### `ticket_warn_admin_no_user_in_category`
 
-**Send alert to administrators if tickets category has no one in charge**
+**Warnung an Administratoren senden, wenn eine Ticket-Kategorie niemanden verantwortlich hat**
 
-Send a warning message (e-mail and Chamilo message) to all administrators if there's not a user assigned to a category.
+Sendet eine Warnmeldung (E-Mail und Chamilo-Nachricht) an alle Administratoren, wenn einer Kategorie kein Benutzer zugewiesen ist.
 
-*Default: `false`*
-
-
+*Standard: `false`*

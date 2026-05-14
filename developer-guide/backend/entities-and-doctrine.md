@@ -1,73 +1,73 @@
-# Entities and Doctrine
+# Entitäten und Doctrine
 
-Chamilo 2.0 has 314 Doctrine entities across two bundles. The following only mention the main ones.
+Chamilo 2.0 verfügt über 314 Doctrine-Entitäten, die auf zwei Bundles verteilt sind. Im Folgenden werden nur die wichtigsten erwähnt.
 
-## Entity Organization
+## Organisation der Entitäten
 
-### CoreBundle Entities (213)
+### CoreBundle-Entitäten (213)
 
-Platform-level entities:
+Plattformweite Entitäten:
 
-| Category | Examples |
+| Kategorie | Beispiele |
 |----------|---------|
-| **Users** | `User`, `UserRelUser`, `AccessUrl`, `AccessUrlRelUser` |
-| **Courses** | `Course`, `CourseCategory`, `CourseRelUser` |
-| **Sessions** | `Session`, `SessionRelUser`, `SessionRelCourse`, `SessionRelCourseRelUser` |
-| **Resources** | `ResourceNode`, `ResourceFile`, `ResourceLink`, `ResourceType` |
-| **Settings** | `SettingsCurrent`, `SettingsOptions` |
-| **Messages** | `Message`, `MessageRelUser`, `MessageAttachment` |
+| **Benutzer** | `User`, `UserRelUser`, `AccessUrl`, `AccessUrlRelUser` |
+| **Kurse** | `Course`, `CourseCategory`, `CourseRelUser` |
+| **Sitzungen** | `Session`, `SessionRelUser`, `SessionRelCourse`, `SessionRelCourseRelUser` |
+| **Ressourcen** | `ResourceNode`, `ResourceFile`, `ResourceLink`, `ResourceType` |
+| **Einstellungen** | `SettingsCurrent`, `SettingsOptions` |
+| **Nachrichten** | `Message`, `MessageRelUser`, `MessageAttachment` |
 | **Tracking** | `TrackELogin`, `TrackEOnline`, `TrackEDefault` |
-| **Skills** | `Skill`, `SkillRelUser`, `SkillRelProfile` |
-| **AI** | `AiRequests` |
+| **Fähigkeiten** | `Skill`, `SkillRelUser`, `SkillRelProfile` |
+| **KI** | `AiRequests` |
 | **Plugins** | `Plugin`, `AccessUrlRelPlugin` |
-| **Social** | `Usergroup`, `UsergroupRelUser` |
+| **Soziales** | `Usergroup`, `UsergroupRelUser` |
 | **xAPI** | `XApiObject`, `XApiResult`, `XApiActivityState` |
 
-### CourseBundle Entities (101)
+### CourseBundle-Entitäten (101)
 
-Course content entities — all prefixed with `C`:
+Kursinhalts-Entitäten — alle mit dem Präfix `C`:
 
-| Category | Examples |
+| Kategorie | Beispiele |
 |----------|---------|
-| **Documents** | `CDocument` |
-| **Exercises** | `CQuiz`, `CQuizQuestion`, `CQuizAnswer`, `CQuizQuestionCategory` |
-| **Learning paths** | `CLp`, `CLpItem`, `CLpView`, `CLpItemView`, `CLpCategory` |
-| **Forums** | `CForum`, `CForumCategory`, `CForumThread`, `CForumPost` |
-| **Assignments** | `CStudentPublication`, `CStudentPublicationAssignment`, `CStudentPublicationComment` |
-| **Surveys** | `CSurvey`, `CSurveyQuestion`, `CSurveyAnswer`, `CSurveyInvitation` |
-| **Attendance** | `CAttendance`, `CAttendanceCalendar`, `CAttendanceResult` |
+| **Dokumente** | `CDocument` |
+| **Übungen** | `CQuiz`, `CQuizQuestion`, `CQuizAnswer`, `CQuizQuestionCategory` |
+| **Lernpfade** | `CLp`, `CLpItem`, `CLpView`, `CLpItemView`, `CLpCategory` |
+| **Foren** | `CForum`, `CForumCategory`, `CForumThread`, `CForumPost` |
+| **Aufgaben** | `CStudentPublication`, `CStudentPublicationAssignment`, `CStudentPublicationComment` |
+| **Umfragen** | `CSurvey`, `CSurveyQuestion`, `CSurveyAnswer`, `CSurveyInvitation` |
+| **Anwesenheit** | `CAttendance`, `CAttendanceCalendar`, `CAttendanceResult` |
 | **Blogs** | `CBlog`, `CBlogPost`, `CBlogComment`, `CBlogTask` |
-| **Other** | `CCalendarEvent`, `CGlossary`, `CLink`, `CLinkCategory`, `CNotebook`, `CWiki` |
+| **Sonstiges** | `CCalendarEvent`, `CGlossary`, `CLink`, `CLinkCategory`, `CNotebook`, `CWiki` |
 
-## Naming Convention
+## Namenskonvention
 
-* CoreBundle entities: standard PascalCase (e.g., `User`, `Course`, `Session`)
-* CourseBundle entities: prefixed with `C` (e.g., `CDocument`, `CQuiz`, `CLp`)
+* CoreBundle-Entitäten: Standard-PascalCase (z. B. `User`, `Course`, `Session`)
+* CourseBundle-Entitäten: mit Präfix `C` (z. B. `CDocument`, `CQuiz`, `CLp`)
 
-This prefix distinguishes course-scoped content entities from platform-level entities (in line with legacy database tables naming). This distinction might disappear in the long run as more tools are converted to global tools without a strong link to a specific course.
+Dieses Präfix unterscheidet kursbezogene Inhaltsentitäten von plattformweiten Entitäten (in Übereinstimmung mit der Benennung von Legacy-Datenbanktabellen). Diese Unterscheidung könnte langfristig verschwinden, da immer mehr Tools zu globalen Tools ohne starke Bindung an einen bestimmten Kurs umgewandelt werden.
 
-## Key Relationships
+## Wichtige Beziehungen
 
-Relationships are usually evidenced by the `Rel` separator.
+Beziehungen werden in der Regel durch den Separator `Rel` deutlich.
 
-### User ↔ Course
+### Benutzer ↔ Kurs
 
 ```
 User --[CourseRelUser]--> Course
 ```
 
-`CourseRelUser` stores the enrollment status (TEACHER = 1, STUDENT = 5).
+`CourseRelUser` speichert den Einschreibestatus (TEACHER = 1, STUDENT = 5).
 
-### User ↔ Session ↔ Course
+### Benutzer ↔ Sitzung ↔ Kurs
 
 ```
 User --[SessionRelUser]--> Session --[SessionRelCourse]--> Course
 User --[SessionRelCourseRelUser]--> (Session + Course)
 ```
 
-### ResourceNode (Content Abstraction)
+### ResourceNode (Inhaltsabstraktion)
 
-All course content entities connect to the resource system through `ResourceNode`:
+Alle Kursinhalts-Entitäten sind über `ResourceNode` mit dem Ressourcensystem verbunden:
 
 ```
 CDocument --> ResourceNode --> ResourceFile
@@ -75,13 +75,13 @@ CQuiz ------> ResourceNode
 CLp --------> ResourceNode
 ```
 
-See [Resource System](resource-system.md) for details.
+Siehe [Ressourcensystem](resource-system.md) für Details.
 
-## Doctrine Extensions
+## Doctrine-Erweiterungen
 
-Chamilo uses Gedmo Doctrine Extensions (via `stof/doctrine-extensions-bundle`):
+Chamilo verwendet Gedmo Doctrine Extensions (über `stof/doctrine-extensions-bundle`):
 
-* **Tree** — Hierarchical data (ResourceNode uses materialized path)
-* **Timestampable** — Automatic `createdAt`/`updatedAt` fields
-* **Sluggable** — URL-friendly slugs
-* **Sortable** — Orderable collections
+* **Tree** — Hierarchische Daten (ResourceNode verwendet materialisierten Pfad)
+* **Timestampable** — Automatische Felder `createdAt`/`updatedAt`
+* **Sluggable** — URL-freundliche Slugs
+* **Sortable** — Sortierbare Sammlungen

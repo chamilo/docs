@@ -1,59 +1,59 @@
 # Wiki
 
-The wiki tool lets you and your learners collaboratively create and edit web pages within the course. It is useful for group projects, shared knowledge bases, and collaborative writing exercises.
+Das Wiki-Tool ermöglicht es Ihnen und Ihren Lernenden, gemeinsam Webseiten innerhalb des Kurses zu erstellen und zu bearbeiten. Es ist nützlich für Gruppenprojekte, gemeinsame Wissensdatenbanken und kollaborative Schreibübungen.
 
-## How the Wiki Works
+## Wie das Wiki funktioniert
 
-A wiki is a collection of interlinked web pages that anyone with permission can edit. In Chamilo:
+Ein Wiki ist eine Sammlung von miteinander verknüpften Webseiten, die von jedem mit entsprechender Berechtigung bearbeitet werden können. In Chamilo:
 
-* Each course has its own wiki
-* Pages can be linked to each other using wiki-style links
-* All edits are tracked with a revision history
-* Previous versions can be compared and restored
+* Jeder Kurs hat sein eigenes Wiki
+* Seiten können über Wiki-Links miteinander verknüpft werden
+* Alle Bearbeitungen werden in einem Versionsverlauf nachverfolgt
+* Frühere Versionen können verglichen und wiederhergestellt werden
 
-## Creating a Wiki Page
+## Eine Wiki-Seite erstellen
 
-1. Open the **Wiki** tool from the course homepage
-2. Click **Add a new page**
-3. Enter a **page title**
-4. Write the page content using the rich-text editor
-5. Save
+1. Öffnen Sie das **Wiki**-Tool auf der Kurs-Startseite
+2. Klicken Sie auf **Neue Seite hinzufügen**
+3. Geben Sie einen **Seitentitel** ein
+4. Schreiben Sie den Seiteninhalt mit dem Rich-Text-Editor
+5. Speichern
 
-To link to another wiki page from within the editor, create a link using the target page's title.
+Um von innerhalb des Editors auf eine andere Wiki-Seite zu verlinken, erstellen Sie einen Link mit dem Titel der Zielseite.
 
-## Editing Pages
+## Seiten bearbeiten
 
-Anyone with edit permissions can modify a wiki page:
+Jeder mit Bearbeitungsrechten kann eine Wiki-Seite ändern:
 
-1. Open the page you want to edit
-2. Click the **Edit** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Edit" data-size="line"> button
-3. Make your changes in the editor
-4. Add an optional **Comments** entry describing what you changed
-5. Save
+1. Öffnen Sie die Seite, die Sie bearbeiten möchten
+2. Klicken Sie auf die Schaltfläche **Bearbeiten** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Bearbeiten" data-size="line">
+3. Nehmen Sie Ihre Änderungen im Editor vor
+4. Fügen Sie optional einen **Kommentar** hinzu, der beschreibt, was Sie geändert haben
+5. Speichern
 
-## Revision History
+## Versionsverlauf
 
-Every edit creates a new revision. You can:
+Jede Bearbeitung erstellt eine neue Version. Sie können:
 
-* **View history** — See a list of all revisions with timestamps and authors
-* **Compare versions** — See what changed between two revisions
-* **Restore a version** — Revert the page to a previous revision if needed
+* **Verlauf anzeigen** — Eine Liste aller Versionen mit Zeitstempeln und Autoren anzeigen
+* **Versionen vergleichen** — Sehen, was sich zwischen zwei Versionen geändert hat
+* **Version wiederherstellen** — Die Seite bei Bedarf auf eine frühere Version zurücksetzen
 
-## Managing the Wiki
+## Das Wiki verwalten
 
-As the course teacher, you can:
+Als Kurslehrer können Sie:
 
-* **View all pages** — See a list of all wiki pages in the course
-* **Find orphan pages** — Identify pages that are not linked from any other page
-* **Find wanted pages** — See pages that are linked to but do not yet exist
-* **Lock a page for editing** — Block all edits on a page while you finalise it
-* **Toggle visibility** — Hide a page from learners
-* **Delete pages** — Remove pages that are no longer needed
-* **Monitor contributions** — Review per-user statistics: most active editors, most edited pages, most visited pages
-* **Export** — Export a wiki page to PDF, or send it into the Documents tool
+* **Alle Seiten anzeigen** — Eine Liste aller Wiki-Seiten im Kurs einsehen
+* **Verwaiste Seiten finden** — Seiten identifizieren, die von keiner anderen Seite verlinkt sind
+* **Gewünschte Seiten finden** — Seiten anzeigen, auf die verlinkt wird, die aber noch nicht existieren
+* **Seite für Bearbeitung sperren** — Bearbeitungen auf einer Seite blockieren, während Sie sie fertigstellen
+* **Sichtbarkeit umschalten** — Eine Seite vor Lernenden verbergen
+* **Seiten löschen** — Seiten entfernen, die nicht mehr benötigt werden
+* **Beiträge überwachen** — Statistiken pro Benutzer überprüfen: aktivste Bearbeiter, am häufigsten bearbeitete Seiten, am häufigsten besuchte Seiten
+* **Exportieren** — Eine Wiki-Seite als PDF exportieren oder in das Dokumente-Tool senden
 
-## Tips
+## Tipps
 
-* **Use the wiki for group projects** — Assign each group a wiki page to collaboratively build their deliverable
-* **Create a course knowledge base** — Build a reference wiki with key concepts, and encourage learners to contribute
-* **Review edit history** — The revision history lets you assess individual contributions in collaborative work
+* **Nutzen Sie das Wiki für Gruppenprojekte** — Weisen Sie jeder Gruppe eine Wiki-Seite zu, um gemeinsam ihre Ergebnisse zu erstellen
+* **Erstellen Sie eine Kurs-Wissensdatenbank** — Bauen Sie ein Referenz-Wiki mit Schlüsselkonzepten auf und ermutigen Sie Lernende, Beiträge zu leisten
+* **Bearbeitungsverlauf überprüfen** — Der Versionsverlauf ermöglicht es Ihnen, individuelle Beiträge bei kollaborativer Arbeit zu bewerten

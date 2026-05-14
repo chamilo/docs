@@ -1,7 +1,7 @@
 # Branding
 
-Customize the visual appearance of your Chamilo platform to match your organization's identity.
+Passen Sie das visuelle Erscheinungsbild Ihrer Chamilo-Plattform an, um es an die Identität Ihrer Organisation anzupassen.
 
-* **[Color Themes](color-themes.md)** — Apply and customize color themes
-* **[Portal Customization](portal-customization.md)** — Configure the portal homepage, logo, and name
-* **[Templates](templates.md)** — Manage document and certificate templates
+* **[Farbschemata](color-themes.md)** — Farbschemata anwenden und anpassen
+* **[Portal-Anpassung](portal-customization.md)** — Konfigurieren Sie die Portal-Startseite, das Logo und den Namen
+* **[Vorlagen](templates.md)** — Verwalten Sie Dokument- und Zertifikatsvorlagen

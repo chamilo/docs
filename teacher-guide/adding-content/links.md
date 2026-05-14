@@ -1,43 +1,43 @@
 # Links
 
-The links tool lets you share useful URLs with your learners, organized by category.
+Das Links-Tool ermöglicht es Ihnen, nützliche URLs mit Ihren Lernenden zu teilen, organisiert nach Kategorien.
 
-## Adding a Link
+## Einen Link hinzufügen
 
-1. Open the **Links** <img src="/.gitbook/assets/icons/mdi-link.svg" alt="Links" data-size="line"> tool from the course homepage
-2. Click **Add a link** <img src="/.gitbook/assets/icons/mdi-link-plus.svg" alt="Add link" data-size="line">
-3. Fill in the details:
-   * **URL** — The web address (e.g., `https://example.com/resource`)
-   * **Link name** — A descriptive name for the link
-   * **Description** — An optional explanation of what the resource is about
-   * **Category** — Assign the link to a category for organization
-   * **Target** — Where the link opens: `_self` (same window), `_blank` (new tab), `_parent`, or `_top`
-   * **Show link on course homepage** — Whether you want to show it as a tool icon on the course homepage
-4. Save
+1. Öffnen Sie das **Links**-Tool <img src="/.gitbook/assets/icons/mdi-link.svg" alt="Links" data-size="line"> über die Kursstartseite
+2. Klicken Sie auf **Link hinzufügen** <img src="/.gitbook/assets/icons/mdi-link-plus.svg" alt="Link hinzufügen" data-size="line">
+3. Füllen Sie die Details aus:
+   * **URL** — Die Webadresse (z. B. `https://example.com/resource`)
+   * **Linkname** — Ein beschreibender Name für den Link
+   * **Beschreibung** — Eine optionale Erklärung, worum es bei der Ressource geht
+   * **Kategorie** — Weisen Sie den Link einer Kategorie zur Organisation zu
+   * **Ziel** — Wo der Link geöffnet wird: `_self` (gleiches Fenster), `_blank` (neuer Tab), `_parent` oder `_top`
+   * **Link auf der Kursstartseite anzeigen** — Ob Sie ihn als Tool-Symbol auf der Kursstartseite anzeigen möchten
+4. Speichern
 
-## Organizing with Categories
+## Mit Kategorien organisieren
 
-Categories help you group related links together:
+Kategorien helfen Ihnen, verwandte Links zusammenzufassen:
 
-1. Click **Add a category**
-2. Enter a **category name** and optional description
-3. Save
+1. Klicken Sie auf **Kategorie hinzufügen**
+2. Geben Sie einen **Kategorienamen** und eine optionale Beschreibung ein
+3. Speichern
 
-Links within a category are displayed together, making it easy for learners to find relevant resources.
+Links innerhalb einer Kategorie werden zusammen angezeigt, sodass Lernende relevante Ressourcen leicht finden können.
 
-## Managing Links
+## Links verwalten
 
-* **Link checking** <img src="/.gitbook/assets/icons/mdi-check-circle.svg" alt="Validity" data-size="line">  — Chamilo can verify whether links are still active or broken
-* **Edit** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Edit" data-size="line"> — Update the link's URL, title, or description
-* **Visibility** <img src="/.gitbook/assets/icons/mdi-eye.svg" alt="Visibility" data-size="line"> — Hide or show the link to learners
-* **Delete** <img src="/.gitbook/assets/icons/mdi-delete.svg" alt="Delete" data-size="line"> — Remove the link
+* **Linkprüfung** <img src="/.gitbook/assets/icons/mdi-check-circle.svg" alt="Gültigkeit" data-size="line"> — Chamilo kann überprüfen, ob Links noch aktiv oder defekt sind
+* **Bearbeiten** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Bearbeiten" data-size="line"> — Aktualisieren Sie die URL, den Titel oder die Beschreibung des Links
+* **Sichtbarkeit** <img src="/.gitbook/assets/icons/mdi-eye.svg" alt="Sichtbarkeit" data-size="line"> — Den Link für Lernende ausblenden oder anzeigen
+* **Löschen** <img src="/.gitbook/assets/icons/mdi-delete.svg" alt="Löschen" data-size="line"> — Den Link entfernen
 
-## Exporting Links
+## Links exportieren
 
-You can export your link collection to PDF. Look for the **Export** option in the links tool.
+Sie können Ihre Linksammlung als PDF exportieren. Suchen Sie nach der Option **Exportieren** im Links-Tool.
 
-## Tips
+## Tipps
 
-* **Categorize by topic** — Create a category for each module or week of your course
-* **Add descriptions** — Help learners understand why a link is relevant before they click it
-* **Check regularly** — Web links can become outdated or broken over time
+* **Nach Thema kategorisieren** — Erstellen Sie eine Kategorie für jedes Modul oder jede Woche Ihres Kurses
+* **Beschreibungen hinzufügen** — Helfen Sie Lernenden zu verstehen, warum ein Link relevant ist, bevor sie darauf klicken
+* **Regelmäßig überprüfen** — Weblinks können mit der Zeit veraltet oder defekt werden

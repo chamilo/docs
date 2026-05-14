@@ -1,137 +1,138 @@
-# Custom Actions
+# Benutzerdefinierte Aktionen
 
-Beyond standard CRUD operations, Chamilo has a number of custom API action controllers (in the order of dozens) that handle specialized operations. The exact count varies between releases — list `src/CoreBundle/Controller/Api/` for the current set.
+Neben den standardmäßigen CRUD-Operationen verfügt Chamilo über eine Reihe von benutzerdefinierten API-Aktionscontrollern (in der Größenordnung von Dutzenden), die spezialisierte Operationen abwickeln. Die genaue Anzahl variiert zwischen den Versionen — listen Sie `src/CoreBundle/Controller/Api/` für den aktuellen Satz auf.
 
-## Location
+## Speicherort
 
-Custom actions are in `src/CoreBundle/Controller/Api/`.
+Benutzerdefinierte Aktionen befinden sich in `src/CoreBundle/Controller/Api/`.
 
-## Notable Custom Actions
+## Wichtige benutzerdefinierte Aktionen
 
-### Documents
+### Dokumente
 
-| Controller | Purpose |
-|-----------|---------|
-| `CreateDocumentFileAction` | Upload a file or create a folder/link document |
-| `UpdateDocumentFileAction` | Replace a document's file |
-| `ReplaceDocumentFileAction` | Replace a document file, preserving its IDs |
-| `MoveDocumentAction` | Move a document to a different folder |
-| `UpdateVisibilityDocument` | Toggle document visibility for learners |
-| `DownloadAllDocumentsAction` | Download all documents in a folder as a ZIP |
-| `DownloadSelectedDocumentsAction` | Download a selected set of documents as a ZIP |
-| `DocumentUsageAction` | List courses/sessions where a document is used |
-| `DocumentLearningPathUsageAction` | List learning paths where a document is used |
+| Controller | Zweck |
+|-----------|-------|
+| `CreateDocumentFileAction` | Eine Datei hochladen oder ein Ordner-/Link-Dokument erstellen |
+| `UpdateDocumentFileAction` | Die Datei eines Dokuments ersetzen |
+| `ReplaceDocumentFileAction` | Eine Dokumentdatei ersetzen, wobei die IDs erhalten bleiben |
+| `MoveDocumentAction` | Ein Dokument in einen anderen Ordner verschieben |
+| `UpdateVisibilityDocument` | Sichtbarkeit eines Dokuments für Lernende umschalten |
+| `DownloadAllDocumentsAction` | Alle Dokumente in einem Ordner als ZIP herunterladen |
+| `DownloadSelectedDocumentsAction` | Eine ausgewählte Gruppe von Dokumenten als ZIP herunterladen |
+| `DocumentUsageAction` | Kurse/Sitzungen auflisten, in denen ein Dokument verwendet wird |
+| `DocumentLearningPathUsageAction` | Lernpfade auflisten, in denen ein Dokument verwendet wird |
 
-### Glossary
+### Glossar
 
-| Controller | Purpose |
-|-----------|---------|
-| `CreateCGlossaryAction` | Create a glossary term |
-| `UpdateCGlossaryAction` | Update a glossary term |
-| `ExportCGlossaryAction` | Export glossary to file |
-| `ImportCGlossaryAction` | Import glossary from file |
-| `ExportGlossaryToDocumentsAction` | Export glossary as a document in the course |
-| `GetGlossaryCollectionController` | Get glossary collection with custom filtering |
+| Controller | Zweck |
+|-----------|-------|
+| `CreateCGlossaryAction` | Einen Glossarbegriff erstellen |
+| `UpdateCGlossaryAction` | Einen Glossarbegriff aktualisieren |
+| `ExportCGlossaryAction` | Glossar in eine Datei exportieren |
+| `ImportCGlossaryAction` | Glossar aus einer Datei importieren |
+| `ExportGlossaryToDocumentsAction` | Glossar als Dokument im Kurs exportieren |
+| `GetGlossaryCollectionController` | Glossarsammlung mit benutzerdefiniertem Filtern abrufen |
 
 ### Links
 
-| Controller | Purpose |
-|-----------|---------|
-| `CreateCLinkAction` | Create an external link |
-| `UpdateCLinkAction` | Update an external link |
-| `CreateCLinkCategoryAction` | Create a link category |
-| `UpdateCLinkCategoryAction` | Update a link category |
-| `CheckCLinkAction` | Check whether a link URL is reachable |
-| `ExportCLinksAction` | Export links to file |
-| `CLinkDetailsController` | Get link details |
-| `CLinkImageController` | Get or set a link's preview image |
-| `GetLinksCollectionController` | Get links collection with custom filtering |
-| `UpdateVisibilityLink` | Toggle link visibility |
-| `UpdateVisibilityLinkCategory` | Toggle link category visibility |
-| `UpdatePositionLink` | Reorder links |
+| Controller | Zweck |
+|-----------|-------|
+| `CreateCLinkAction` | Einen externen Link erstellen |
+| `UpdateCLinkAction` | Einen externen Link aktualisieren |
+| `CreateCLinkCategoryAction` | Eine Linkkategorie erstellen |
+| `UpdateCLinkCategoryAction` | Eine Linkkategorie aktualisieren |
+| `CheckCLinkAction` | Prüfen, ob eine Link-URL erreichbar ist |
+| `ExportCLinksAction` | Links in eine Datei exportieren |
+| `CLinkDetailsController` | Linkdetails abrufen |
+| `CLinkImageController` | Vorschau-Bild eines Links abrufen oder setzen |
+| `GetLinksCollectionController` | Linksammlung mit benutzerdefiniertem Filtern abrufen |
+| `UpdateVisibilityLink` | Sichtbarkeit eines Links umschalten |
+| `UpdateVisibilityLinkCategory` | Sichtbarkeit einer Linkkategorie umschalten |
+| `UpdatePositionLink` | Links neu anordnen |
 
-### Learning Paths
+### Lernpfade
 
-| Controller | Purpose |
-|-----------|---------|
-| `CreateCLpAction` | Create a learning path |
-| `LpReorderController` | Reorder learning path items |
+| Controller | Zweck |
+|-----------|-------|
+| `CreateCLpAction` | Einen Lernpfad erstellen |
+| `LpReorderController` | Lernpfad-Elemente neu anordnen |
 
-### Calendar
+### Kalender
 
-| Controller | Purpose |
-|-----------|---------|
-| `UpdateCCalendarEventAction` | Update a course calendar event |
-| `CalendarMyStudentsScheduleAction` | Get the schedule of a teacher's students |
+| Controller | Zweck |
+|-----------|-------|
+| `UpdateCCalendarEventAction` | Ein Kurskalenderereignis aktualisieren |
+| `CalendarMyStudentsScheduleAction` | Den Zeitplan der Schüler eines Lehrers abrufen |
 
 ### Blog
 
-| Controller | Purpose |
-|-----------|---------|
-| `CreateCBlogAction` | Create a blog post |
-| `CreateBlogAttachmentAction` | Attach a file to a blog post |
-| `UpdateVisibilityBlog` | Toggle blog visibility |
+| Controller | Zweck |
+|-----------|-------|
+| `CreateCBlogAction` | Einen Blogbeitrag erstellen |
+| `CreateBlogAttachmentAction` | Eine Datei an einen Blogbeitrag anhängen |
+| `UpdateVisibilityBlog` | Sichtbarkeit eines Blogs umschalten |
 
 ### Dropbox
 
-| Controller | Purpose |
-|-----------|---------|
-| `CreateDropboxFileAction` | Upload a file to the dropbox (file exchange tool) |
+| Controller | Zweck |
+|-----------|-------|
+| `CreateDropboxFileAction` | Eine Datei in die Dropbox (Dateiaustausch-Tool) hochladen |
 
-### Student Work (Assignments)
+### Schülerarbeiten (Aufgaben)
 
-| Controller | Purpose |
-|-----------|---------|
-| `CreateStudentPublicationFileAction` | Submit an assignment file |
-| `CreateStudentPublicationCommentAction` | Add a comment to a submission |
-| `CreateStudentPublicationCorrectionFileAction` | Upload a correction file for a submission |
+| Controller | Zweck |
+|-----------|-------|
+| `CreateStudentPublicationFileAction` | Eine Aufgabendatei einreichen |
+| `CreateStudentPublicationCommentAction` | Einen Kommentar zu einer Einreichung hinzufügen |
+| `CreateStudentPublicationCorrectionFileAction` | Eine Korrekturdatei für eine Einreichung hochladen |
 
-### Personal Files
+### Persönliche Dateien
 
-| Controller | Purpose |
-|-----------|---------|
-| `CreatePersonalFileAction` | Upload a file to the user's personal file space |
-| `UpdatePersonalFileAction` | Update a personal file |
+| Controller | Zweck |
+|-----------|-------|
+| `CreatePersonalFileAction` | Eine Datei in den persönlichen Dateibereich des Benutzers hochladen |
+| `UpdatePersonalFileAction` | Eine persönliche Datei aktualisieren |
 
-### Social
+### Soziales
 
-| Controller | Purpose |
-|-----------|---------|
-| `LikeSocialPostController` | Like a social post |
-| `DislikeSocialPostController` | Unlike a social post |
-| `CreateSocialPostAttachmentAction` | Attach a file to a social post |
-| `SocialPostAttachmentsController` | List attachments on a social post |
-| `AbstractFeedbackSocialPostController` | Base class for social post feedback actions |
+| Controller | Zweck |
+|-----------|-------|
+| `LikeSocialPostController` | Einen sozialen Beitrag liken |
+| `DislikeSocialPostController` | Einen sozialen Beitrag nicht mehr liken |
+| `CreateSocialPostAttachmentAction` | Eine Datei an einen sozialen Beitrag anhängen |
+| `SocialPostAttachmentsController` | Anhänge eines sozialen Beitrags auflisten |
+| `AbstractFeedbackSocialPostController` | Basisklasse für Feedback-Aktionen zu sozialen Beiträgen |
 
-### Sessions
+### Sitzungen
 
-| Controller | Purpose |
-|-----------|---------|
-| `CreateSessionWithUsersAndCoursesAction` | Create a session and enrol users and courses in one call |
+| Controller | Zweck |
+|-----------|-------|
+| `CreateSessionWithUsersAndCoursesAction` | Eine Sitzung erstellen und Benutzer sowie Kurse in einem Aufruf einschreiben |
 
-### Users & Access URLs
+### Benutzer & Zugriffs-URLs
 
-| Controller | Purpose |
-|-----------|---------|
-| `CreateUserOnAccessUrlAction` | Create a user and associate them with an access URL |
-| `UserAccessUrlsController` | List access URLs a user belongs to |
-| `UserSkillsController` | List skills awarded to a user |
+| Controller | Zweck |
+|-----------|-------|
+| `CreateUserOnAccessUrlAction` | Einen Benutzer erstellen und mit einer Zugriffs-URL verknüpfen |
+| `UserAccessUrlsController` | Zugriffs-URLs auflisten, zu denen ein Benutzer gehört |
+| `UserSkillsController` | Fähigkeiten auflisten, die einem Benutzer verliehen wurden |
 
-### Video Conference
+### Videokonferenz
 
-| Controller | Purpose |
-|-----------|---------|
-| `VideoConferenceCallbackController` | Handle callbacks from external video conference providers |
+| Controller | Zweck |
+|-----------|-------|
+| `VideoConferenceCallbackController` | Rückrufe von externen Videokonferenzanbietern verarbeiten |
 
-### Base Classes
+### Basisklassen
 
-| Class | Purpose |
-|-------|---------|
-| `BaseResourceFileAction` | Base class for file-upload actions; handles multipart parsing, resource node creation, and storage |
+| Klasse | Zweck |
+|-------|-------|
+| `BaseResourceFileAction` | Basisklasse für Datei-Upload-Aktionen; behandelt Multipart-Parsing, Erstellung von Ressourcenknoten und Speicherung |
 
-## Implementing a Custom Action
+---
+## Implementierung einer benutzerdefinierten Aktion
 
-Custom actions are standard Symfony controllers referenced in API Platform operation definitions. The `#[ApiResource]` attribute lives on the **entity**, and each operation's `controller:` parameter points to the action class:
+Benutzerdefinierte Aktionen sind standardmäßige Symfony-Controller, die in den Betriebsdefinitionen von API Platform referenziert werden. Das Attribut `#[ApiResource]` befindet sich auf der **Entität**, und der Parameter `controller:` jeder Operation verweist auf die Aktionsklasse:
 
 ```php
 // On the entity class (e.g. src/CourseBundle/Entity/CDocument.php):
@@ -152,7 +153,7 @@ Custom actions are standard Symfony controllers referenced in API Platform opera
 class CDocument extends AbstractResource { ... }
 ```
 
-The action class itself is a plain invokable controller — services are injected via `__invoke()` method arguments:
+Die Aktionsklasse selbst ist ein einfacher aufrufbarer Controller — Dienste werden über Argumente der Methode `__invoke()` eingebunden:
 
 ```php
 namespace Chamilo\CoreBundle\Controller\Api;
@@ -172,7 +173,7 @@ final class CreateDocumentFileAction extends BaseResourceFileAction
 }
 ```
 
-Key points:
-- `deserialize: false` is set when the action reads the request directly (e.g. multipart file uploads) instead of letting API Platform deserialize a JSON body.
-- File-upload actions typically extend `BaseResourceFileAction`, which handles multipart parsing and resource node wiring.
-- Security is enforced via the `security:` parameter on the operation, not inside the controller.
+Wichtige Punkte:
+- `deserialize: false` wird gesetzt, wenn die Aktion die Anfrage direkt liest (z. B. bei Multipart-Datei-Uploads), anstatt API Platform den JSON-Body deserialisieren zu lassen.
+- Aktionen für Datei-Uploads erweitern in der Regel `BaseResourceFileAction`, das die Multipart-Verarbeitung und die Verknüpfung von Ressourcenknoten übernimmt.
+- Die Sicherheit wird über den Parameter `security:` der Operation durchgesetzt, nicht innerhalb des Controllers.

@@ -1,75 +1,73 @@
-# Dropbox Settings
+# Dropbox-Einstellungen
 
-Behaviour of the **Dropbox** file-exchange tool.
+Verhalten des **Dropbox**-Tools zum Dateiaustausch.
 
-Access these settings under **Administration > Configuration settings > Dropbox**. This category contains **8 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+Greifen Sie auf diese Einstellungen unter **Verwaltung > Konfigurationseinstellungen > Dropbox** zu. Diese Kategorie enthält **8 Einstellungen**, die unten mit dem Titel und Kommentar aufgeführt sind, wie sie in den Standardeinstellungen der Plattform (`SettingsCurrentFixtures.php`) bereitgestellt werden.
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> Der Variablenname im Code wird in Monospace angezeigt. Verwenden Sie ihn, wenn Sie über die API skripten oder wenn Sie diese Einstellungen auf globaler Ebene ändern möchten, indem Sie [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml) bearbeiten.
 
-## Settings
+## Einstellungen
 
 ### `dropbox_allow_group`
 
-**Dropbox: allow group**
+**Dropbox: Gruppe erlauben**
 
-Users can send files to groups
+Benutzer können Dateien an Gruppen senden
 
-*Default: `true`*
+*Standard: `true`*
 
 ### `dropbox_allow_just_upload`
 
-**Dropbox: Upload to own dropbox space?**
+**Dropbox: Hochladen in den eigenen Dropbox-Bereich?**
 
-Allow trainers and users to upload documents to their dropbox without sending  the documents to themselves
+Erlaubt Trainern und Benutzern, Dokumente in ihre Dropbox hochzuladen, ohne die Dokumente an sich selbst zu senden
 
-*Default: `true`*
+*Standard: `true`*
 
 ### `dropbox_allow_mailing`
 
-**Dropbox: Allow mailing**
+**Dropbox: Mailing erlauben**
 
-With the mailing functionality you can send each learner a personal document
+Mit der Mailing-Funktion können Sie jedem Lernenden ein persönliches Dokument senden
 
-*Default: `false`*
+*Standard: `false`*
 
 ### `dropbox_allow_overwrite`
 
-**Dropbox: Can documents be overwritten**
+**Dropbox: Können Dokumente überschrieben werden**
 
-Can the original document be overwritten when a user or trainer uploads a document with the name of a document that already exist? If you answer yes then you loose the versioning mechanism.
+Kann das ursprüngliche Dokument überschrieben werden, wenn ein Benutzer oder Trainer ein Dokument mit dem Namen eines bereits existierenden Dokuments hochlädt? Wenn Sie Ja antworten, verlieren Sie den Versionsmechanismus.
 
-*Default: `true`*
+*Standard: `true`*
 
 ### `dropbox_allow_student_to_student`
 
-**Dropbox: Learner <-> Learner**
+**Dropbox: Lernender <-> Lernender**
 
-Allow users to send documents to other users (peer 2 peer). Users might use this for less relevant documents also (mp3, tests solutions, ...). If you disable this then the users can send documents to the trainer only.
+Erlaubt Benutzern, Dokumente an andere Benutzer zu senden (Peer-to-Peer). Benutzer könnten dies auch für weniger relevante Dokumente nutzen (MP3, Testlösungen, ...). Wenn Sie dies deaktivieren, können Benutzer Dokumente nur an den Trainer senden.
 
-*Default: `true`*
+*Standard: `true`*
 
 ### `dropbox_hide_course_coach`
 
-**Dropbox: hide course coach**
+**Dropbox: Kurs-Coach ausblenden**
 
-Hide session course coach in dropbox when a document is sent by the coach to students
+Kurs-Coach der Sitzung in Dropbox ausblenden, wenn ein Dokument vom Coach an die Studierenden gesendet wird
 
-*Default: `false`*
+*Standard: `false`*
 
 ### `dropbox_hide_general_coach`
 
-**Hide general coach in dropbox**
+**Allgemeinen Coach in Dropbox ausblenden**
 
-Hide general coach name in the dropbox tool when the general coach uploaded the file
+Name des allgemeinen Coaches im Dropbox-Tool ausblenden, wenn der allgemeine Coach die Datei hochgeladen hat
 
-*Default: `false`*
-
+*Standard: `false`*
 
 ### `dropbox_max_filesize`
 
-**Dropbox: Maximum file size of a document**
+**Dropbox: Maximale Dateigröße eines Dokuments**
 
-How big (in MB) can a dropbox document be?
+Wie groß (in MB) darf ein Dropbox-Dokument sein?
 
-*Default: `100000000`*
-
+*Standard: `100000000`*

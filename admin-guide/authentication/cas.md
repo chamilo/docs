@@ -1,11 +1,11 @@
 # CAS
 
-> **Status in Chamilo 2.x.** CAS configuration entries (`cas_activate`, `cas_server`, `cas_server_uri`, `cas_port`, `cas_protocol`, `cas_add_user_activate`) still exist in the platform settings as a legacy carry-over from Chamilo 1.x, and CAS still appears as a selectable authentication source on the user form — but there is no CAS authenticator wired into the Chamilo 2.x security pipeline. Logging in through CAS does **not** currently work out of the box. If you need SSO on Chamilo 2.x, use [OAuth2](oauth2.md) (Azure / Keycloak / Generic) or [LDAP](ldap.md) instead.
+> **Status in Chamilo 2.x.** Die CAS-Konfigurationseinträge (`cas_activate`, `cas_server`, `cas_server_uri`, `cas_port`, `cas_protocol`, `cas_add_user_activate`) existieren weiterhin in den Plattformeinstellungen als Überbleibsel aus Chamilo 1.x, und CAS erscheint immer noch als wählbare Authentifizierungsquelle im Benutzerformular — jedoch ist kein CAS-Authentifikator in die Sicherheits-Pipeline von Chamilo 2.x integriert. Eine Anmeldung über CAS funktioniert derzeit **nicht** ohne Weiteres. Wenn Sie SSO in Chamilo 2.x benötigen, verwenden Sie stattdessen [OAuth2](oauth2.md) (Azure / Keycloak / Generic) oder [LDAP](ldap.md).
 
-## What CAS would do (1.x behaviour)
+## Was CAS tun würde (Verhalten in 1.x)
 
-CAS (Central Authentication Service) is a single sign-on protocol commonly used in universities and research institutions. In Chamilo 1.x, clicking "Log in with CAS" would redirect the user to a CAS server, validate the returned ticket, and create or match a local account from CAS attributes.
+CAS (Central Authentication Service) ist ein Single-Sign-On-Protokoll, das häufig an Universitäten und Forschungseinrichtungen verwendet wird. In Chamilo 1.x führte ein Klick auf "Mit CAS anmelden" zu einer Weiterleitung zum CAS-Server, validierte das zurückgegebene Ticket und erstellte oder verknüpfte ein lokales Konto basierend auf den CAS-Attributen.
 
-## Migration note
+## Hinweis zur Migration
 
-If you are upgrading a Chamilo 1.x portal that used CAS, plan to re-implement that login flow on top of OAuth2 or LDAP for the time being, until the CAS authenticator is restored in a future 2.x release.
+Wenn Sie ein Chamilo 1.x-Portal, das CAS verwendet hat, auf eine neuere Version aktualisieren, planen Sie, den Anmeldeprozess vorübergehend auf Basis von OAuth2 oder LDAP neu zu implementieren, bis der CAS-Authentifikator in einer zukünftigen 2.x-Version wiederhergestellt wird.

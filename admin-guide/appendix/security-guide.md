@@ -1,61 +1,61 @@
-# Security Guide
+# Sicherheitsleitfaden
 
-This guide covers security best practices for running a Chamilo 2.0 platform in production. Security is a shared responsibility between the platform software, your server configuration, and ongoing operational practices.
+Dieser Leitfaden behandelt bewährte Sicherheitspraktiken für den Betrieb einer Chamilo 2.0-Plattform im Produktivbetrieb. Sicherheit ist eine gemeinsame Verantwortung zwischen der Plattformsoftware, Ihrer Serverkonfiguration und den laufenden Betriebspraktiken.
 
-## Keep Chamilo Updated
+## Chamilo aktuell halten
 
-The most important security practice is keeping your Chamilo installation up to date.
+Die wichtigste Sicherheitsmaßnahme ist, Ihre Chamilo-Installation stets auf dem neuesten Stand zu halten.
 
-* Subscribe to the Chamilo security X account (@chamilosecurity) or watch the GitHub repository for release announcements.
-* Apply security patches promptly. Minor updates within the 2.0 branch are designed to be safe to apply.
-* Follow the [upgrade process](../installation/upgrading.md) for each update.
+* Abonnieren Sie den Chamilo-Sicherheitsaccount auf X (@chamilosecurity) oder beobachten Sie das GitHub-Repository für Ankündigungen zu neuen Releases.
+* Wenden Sie Sicherheitspatches zeitnah an. Kleinere Updates innerhalb der 2.0-Branch sind so gestaltet, dass sie sicher angewendet werden können.
+* Folgen Sie dem [Upgrade-Prozess](../installation/upgrading.md) für jedes Update.
 
 ## HTTPS
 
-Always serve Chamilo over HTTPS in production.
+Betreiben Sie Chamilo im Produktivbetrieb immer über HTTPS.
 
-* Obtain an SSL/TLS certificate (Let's Encrypt provides free certificates via Certbot).
-* Configure your web server to redirect all HTTP traffic to HTTPS.
-* Enable the HSTS (HTTP Strict Transport Security) header to prevent downgrade attacks:
+* Besorgen Sie sich ein SSL/TLS-Zertifikat (Let's Encrypt bietet kostenlose Zertifikate über Certbot an).
+* Konfigurieren Sie Ihren Webserver so, dass der gesamte HTTP-Verkehr auf HTTPS umgeleitet wird.
+* Aktivieren Sie den HSTS-Header (HTTP Strict Transport Security), um Downgrade-Angriffe zu verhindern:
 
   ```
   Strict-Transport-Security: max-age=31536000; includeSubDomains
   ```
 
-Without HTTPS, login credentials, session cookies, and all user data are transmitted in plain text and can be intercepted on the network.
+Ohne HTTPS werden Anmeldedaten, Sitzungscookies und alle Benutzerdaten unverschlüsselt übertragen und können im Netzwerk abgefangen werden.
 
-## File Permissions
+## Dateiberechtigungen
 
-Restrict file permissions to the minimum necessary.
+Beschränken Sie Dateiberechtigungen auf das absolut notwendige Minimum.
 
-| Path | Owner | Permissions | Notes |
-|------|-------|-------------|-------|
-| Application files (source code) | root or deploy user | 755 (dirs), 644 (files) | Web server needs read-only access. |
-| `var/` | web server user | 775 | Must be writable for Symfony cache, logs and file uploads |
-| `.env` | root or deploy user | 640 | Contains secrets. Web server needs read access only during normal use, but needs write access during installation. |
-| `config/` | root or deploy user | 750 | Contains secrets. Web server needs read access only during normal use, but needs write access during installation. |
+| Pfad | Eigentümer | Berechtigungen | Hinweise |
+|------|------------|----------------|----------|
+| Anwendungsdateien (Quellcode) | root oder Deploy-Benutzer | 755 (Verzeichnisse), 644 (Dateien) | Webserver benötigt nur Lesezugriff. |
+| `var/` | Webserver-Benutzer | 775 | Muss für Symfony-Cache, Logs und Datei-Uploads beschreibbar sein. |
+| `.env` | root oder Deploy-Benutzer | 640 | Enthält sensible Daten. Webserver benötigt nur Lesezugriff im normalen Betrieb, aber Schreibzugriff während der Installation. |
+| `config/` | root oder Deploy-Benutzer | 750 | Enthält sensible Daten. Webserver benötigt nur Lesezugriff im normalen Betrieb, aber Schreibzugriff während der Installation. |
 
-Never set permissions to 777. Never run the web server as root.
+Setzen Sie niemals Berechtigungen auf 777. Betreiben Sie den Webserver niemals als root.
 
-## Password Policies
+## Passwortrichtlinien
 
-Configure strong password requirements in [Security Settings](../platform-settings/security-settings.md):
+Konfigurieren Sie strenge Passwortanforderungen in den [Sicherheitseinstellungen](../platform-settings/security-settings.md):
 
-* Minimum length of 8 characters (12+ recommended).
-* Require a mix of uppercase, lowercase, numbers, and special characters.
-* Consider enabling password expiration for compliance-driven environments.
-* Educate users about choosing strong, unique passwords.
+* Mindestlänge von 8 Zeichen (12+ empfohlen).
+* Fordern Sie eine Mischung aus Groß- und Kleinbuchstaben, Zahlen und Sonderzeichen.
+* Erwägen Sie die Aktivierung eines Passwortablaufs für Umgebungen mit Compliance-Anforderungen.
+* Schulen Sie Benutzer darin, starke und einzigartige Passwörter zu wählen.
 
-## Rate Limiting and Brute-Force Protection
+## Rate Limiting und Schutz vor Brute-Force-Angriffen
 
-### Application Level
+### Anwendungsebene
 
-* Set **Max login attempts before blocking account** (`login_max_attempt_before_blocking_account`) to a small value (for example 5).
-* Enable **CAPTCHA** on the login page. CAPTCHA is on/off — it is not switched on automatically after N failed logins. Pair it with **CAPTCHA mistakes before blocking** (`captcha_number_mistakes_to_block_account`) to lock out an account that keeps failing the CAPTCHA.
+* Setzen Sie **Maximale Anmeldeversuche vor Kontosperrung** (`login_max_attempt_before_blocking_account`) auf einen kleinen Wert (z. B. 5).
+* Aktivieren Sie **CAPTCHA** auf der Anmeldeseite. CAPTCHA ist entweder ein- oder ausgeschaltet – es wird nicht automatisch nach einer bestimmten Anzahl fehlgeschlagener Anmeldungen aktiviert. Kombinieren Sie es mit **CAPTCHA-Fehler vor Sperrung** (`captcha_number_mistakes_to_block_account`), um ein Konto zu sperren, das wiederholt am CAPTCHA scheitert.
 
-### Server Level
+### Serverebene
 
-Use **fail2ban** to monitor login failures and block offending IP addresses:
+Verwenden Sie **fail2ban**, um Anmeldefehler zu überwachen und angreifende IP-Adressen zu blockieren:
 
 ```ini
 # /etc/fail2ban/jail.d/chamilo.conf
@@ -68,37 +68,37 @@ maxretry = 5
 bantime = 900
 ```
 
-Create a matching filter in `/etc/fail2ban/filter.d/chamilo-auth.conf` to match authentication failure log entries.
+Erstellen Sie einen passenden Filter in `/etc/fail2ban/filter.d/chamilo-auth.conf`, um fehlgeschlagene Authentifizierungsversuche in den Logeinträgen zu erkennen.
 
-## Session Management
+## Sitzungsmanagement
 
-* Set a reasonable **session lifetime** (e.g., 3600 seconds / 1 hour) in security settings.
-* Configure **session cookie flags** in your Symfony configuration:
+* Legen Sie eine angemessene **Sitzungslebensdauer** fest (z. B. 3600 Sekunden / 1 Stunde) in den Sicherheitseinstellungen.
+* Konfigurieren Sie **Sitzungscookie-Flags** in Ihrer Symfony-Konfiguration:
 
   ```yaml
   # config/packages/framework.yaml
   framework:
       session:
-          cookie_secure: true      # Only send over HTTPS
-          cookie_httponly: true     # Not accessible via JavaScript
-          cookie_samesite: lax     # CSRF protection
+          cookie_secure: true      # Nur über HTTPS senden
+          cookie_httponly: true     # Nicht über JavaScript zugänglich
+          cookie_samesite: lax     # CSRF-Schutz
   ```
 
-* Consider disabling "Remember me" on platforms with sensitive content.
+* Erwägen Sie, die Option "Angemeldet bleiben" auf Plattformen mit sensiblen Inhalten zu deaktivieren.
 
-## HTTP Security Headers
+## HTTP-Sicherheitsheader
 
-Configure your web server to send security headers:
+Konfigurieren Sie Ihren Webserver so, dass Sicherheitsheader gesendet werden:
 
-| Header | Value | Purpose |
-|--------|-------|---------|
-| `X-Content-Type-Options` | `nosniff` | Prevents MIME-type sniffing. |
-| `X-Frame-Options` | `SAMEORIGIN` | Prevents clickjacking via iframes. |
-| `X-XSS-Protection` | `1; mode=block` | Legacy XSS protection for older browsers. |
-| `Referrer-Policy` | `strict-origin-when-cross-origin` | Controls referrer information leakage. |
-| `Content-Security-Policy` | Varies | Controls which resources can be loaded. Requires careful tuning for Chamilo. |
+| Header | Wert | Zweck |
+|--------|------|-------|
+| `X-Content-Type-Options` | `nosniff` | Verhindert MIME-Type-Sniffing. |
+| `X-Frame-Options` | `SAMEORIGIN` | Verhindert Clickjacking über IFrames. |
+| `X-XSS-Protection` | `1; mode=block` | Älterer XSS-Schutz für ältere Browser. |
+| `Referrer-Policy` | `strict-origin-when-cross-origin` | Kontrolliert das Auslaufen von Referrer-Informationen. |
+| `Content-Security-Policy` | Variiert | Kontrolliert, welche Ressourcen geladen werden können. Erfordert sorgfältige Anpassung für Chamilo. |
 
-Example for Apache:
+Beispiel für Apache:
 
 ```apache
 Header always set X-Content-Type-Options "nosniff"
@@ -106,7 +106,7 @@ Header always set X-Frame-Options "SAMEORIGIN"
 Header always set Referrer-Policy "strict-origin-when-cross-origin"
 ```
 
-Example for Nginx:
+Beispiel für Nginx:
 
 ```nginx
 add_header X-Content-Type-Options "nosniff" always;
@@ -114,10 +114,10 @@ add_header X-Frame-Options "SAMEORIGIN" always;
 add_header Referrer-Policy "strict-origin-when-cross-origin" always;
 ```
 
-## File Upload Security
+## Sicherheit bei Datei-Uploads
 
-* Block executable file extensions (exe, bat, sh, php, phtml, cgi) in [Security Settings](../platform-settings/security-settings.md).
-* Configure your web server to **never execute uploaded files**. For Apache, add to the entire var/ directory:
+* Blockieren Sie ausführbare Dateierweiterungen (exe, bat, sh, php, phtml, cgi) in den [Sicherheitseinstellungen](../platform-settings/security-settings.md).
+* Konfigurieren Sie Ihren Webserver so, dass **hochgeladene Dateien niemals ausgeführt werden**. Für Apache fügen Sie Folgendes zum gesamten var/-Verzeichnis hinzu:
 
   ```apache
   <Directory /path/to/chamilo/var>
@@ -126,46 +126,46 @@ add_header Referrer-Policy "strict-origin-when-cross-origin" always;
   </Directory>
   ```
 
-* Scan uploaded files with an antivirus (ClamAV) if your environment requires it.
+* Scannen Sie hochgeladene Dateien mit einem Antivirus-Programm (ClamAV), falls dies in Ihrer Umgebung erforderlich ist.
 
-## Database Security
+## Datenbanksicherheit
 
-* Use a **dedicated database user** for Chamilo with only the privileges it needs (SELECT, INSERT, UPDATE, DELETE, CREATE, ALTER, DROP, INDEX on the Chamilo database).
-* Do not use the root database account.
-* Ensure the database is not accessible from the public internet. Bind it to localhost or a private network.
-* Enable database audit logging for compliance-sensitive environments.
+* Verwenden Sie einen **dedizierten Datenbankbenutzer** für Chamilo mit nur den benötigten Berechtigungen (SELECT, INSERT, UPDATE, DELETE, CREATE, ALTER, DROP, INDEX auf die Chamilo-Datenbank).
+* Verwenden Sie nicht das Root-Datenbankkonto.
+* Stellen Sie sicher, dass die Datenbank nicht über das öffentliche Internet zugänglich ist. Binden Sie sie an localhost oder ein privates Netzwerk.
+* Aktivieren Sie die Datenbank-Audit-Protokollierung für umgebungen mit hohen Compliance-Anforderungen.
 
 ## Backups
 
-* Schedule **daily automated backups** of both the database and uploaded files.
-* Store backups in a separate location from the server (offsite or cloud storage).
-* Test backup restoration periodically to verify that backups are usable.
-* Encrypt backups if they contain sensitive data.
+* Planen Sie **tägliche automatisierte Backups** sowohl der Datenbank als auch der hochgeladenen Dateien.
+* Speichern Sie Backups an einem separaten Ort vom Server (offsite oder Cloud-Speicher).
+* Testen Sie regelmäßig die Wiederherstellung von Backups, um sicherzustellen, dass sie verwendbar sind.
+* Verschlüsseln Sie Backups, wenn sie sensible Daten enthalten.
 
-See [Backups](../maintenance/backups.md) for detailed instructions.
+Siehe [Backups](../maintenance/backups.md) für detaillierte Anweisungen.
 
-## Monitoring
+## Überwachung
 
-* Monitor Chamilo logs at `var/log/prod.log` for errors and suspicious activity.
-* Set up server monitoring (CPU, memory, disk) to detect resource exhaustion.
-* Configure alerts for repeated authentication failures.
-* Periodically review user accounts for unauthorized or dormant accounts.
+* Überwachen Sie die Chamilo-Protokolle unter `var/log/prod.log` auf Fehler und verdächtige Aktivitäten.
+* Richten Sie eine Serverüberwachung (CPU, Speicher, Festplatte) ein, um Ressourcenengpässe zu erkennen.
+* Konfigurieren Sie Benachrichtigungen für wiederholte fehlgeschlagene Authentifizierungsversuche.
+* Überprüfen Sie regelmäßig Benutzerkonten auf unbefugte oder inaktive Konten.
 
-## Checklist
+## Checkliste
 
-Use this checklist when deploying or auditing a Chamilo installation:
+Verwenden Sie diese Checkliste bei der Bereitstellung oder Überprüfung einer Chamilo-Installation:
 
-- [ ] HTTPS enabled with valid certificate
-- [ ] HTTP to HTTPS redirect configured
-- [ ] `APP_ENV=prod` and `APP_DEBUG=0` in `.env`
-- [ ] Unique `APP_SECRET` generated
-- [ ] File permissions restricted (no 777)
-- [ ] Password policy configured
-- [ ] Max login attempts and CAPTCHA enabled
-- [ ] Executable file extensions blocked
-- [ ] Security headers configured on web server
-- [ ] Session cookie flags set (secure, httponly, samesite)
-- [ ] Database user has minimal privileges
-- [ ] Automated backups scheduled and tested
-- [ ] Log monitoring in place
-- [ ] Chamilo version is current
+- [ ] HTTPS aktiviert mit gültigem Zertifikat
+- [ ] HTTP zu HTTPS Weiterleitung konfiguriert
+- [ ] `APP_ENV=prod` und `APP_DEBUG=0` in `.env`
+- [ ] Einzigartiger `APP_SECRET` generiert
+- [ ] Dateiberechtigungen eingeschränkt (kein 777)
+- [ ] Passwortrichtlinie konfiguriert
+- [ ] Maximale Anmeldeversuche und CAPTCHA aktiviert
+- [ ] Ausführbare Dateierweiterungen blockiert
+- [ ] Sicherheits-Header auf dem Webserver konfiguriert
+- [ ] Session-Cookie-Flags gesetzt (secure, httponly, samesite)
+- [ ] Datenbankbenutzer hat minimale Berechtigungen
+- [ ] Automatisierte Backups geplant und getestet
+- [ ] Protokollüberwachung eingerichtet
+- [ ] Chamilo-Version ist aktuell

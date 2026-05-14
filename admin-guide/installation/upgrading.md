@@ -1,150 +1,149 @@
-# Upgrading
+# Aktualisierung
 
-Note: On this page, we use 2.0.0 as a strict version number and 2.x to identify all versions that start with the number 2 (2.0.0, 2.0.1, 2.1.0, etc)
+Hinweis: Auf dieser Seite verwenden wir 2.0.0 als strikte Versionsnummer und 2.x, um alle Versionen zu bezeichnen, die mit der Zahl 2 beginnen (2.0.0, 2.0.1, 2.1.0, usw.).
 
-The upgrade process from 1.11.x to 2.x is described in your `public/documentation/installation_guide.html` file, inside your Chamilo code.
-The information here is largely redundant. You can see it online at `https://campus.chamilo.net/documentation/installation_guide.html`.
-Although we have made extensive tests on similar migrations, because some of the settings of 1.11.x were not yet supported in 2.0.0, we recommend waiting for version 2.1 before upgrading a 1.11.x system, or to be professionally accompanied by [official Chamilo providers](https://chamilo.org/providers) in this endeavour.
+Der Aktualisierungsprozess von 1.11.x auf 2.x ist in Ihrer Datei `public/documentation/installation_guide.html` innerhalb Ihres Chamilo-Codes beschrieben. Die Informationen hier sind weitgehend redundant. Sie können sie online unter `https://campus.chamilo.net/documentation/installation_guide.html` einsehen. Obwohl wir umfangreiche Tests zu ähnlichen Migrationen durchgeführt haben, empfehlen wir, mit der Aktualisierung eines 1.11.x-Systems auf Version 2.1 zu warten oder sich bei diesem Vorhaben professionell von [offiziellen Chamilo-Anbietern](https://chamilo.org/providers) begleiten zu lassen, da einige Einstellungen von 1.11.x in 2.0.0 noch nicht unterstützt wurden.
 
-## Upgrading from 1.11.x to 2.x
+## Aktualisierung von 1.11.x auf 2.x
 
-Upgrading from Chamilo 1.11.x to 2.x is a **major migration**, not a simple update. Chamilo 2.0 was rebuilt on the Symfony framework with a restructured database schema, new API, and different file organization. Plan this migration carefully and try it out on a test environment before rolling out in production.
+Die Aktualisierung von Chamilo 1.11.x auf 2.x ist eine **große Migration**, kein einfaches Update. Chamilo 2.0 wurde auf dem Symfony-Framework neu aufgebaut, mit einem überarbeiteten Datenbankschema, einer neuen API und einer anderen Dateiorganisation. Planen Sie diese Migration sorgfältig und testen Sie sie zunächst in einer Testumgebung, bevor Sie sie in der Produktionsumgebung ausrollen.
 
-### Before You Begin
+### Bevor Sie beginnen
 
-1. **Read the release notes** for Chamilo 2.x to understand what has changed, what is new, and what features from 1.11.x may not yet be available.
-2. **Back up everything**:
-   - Full database dump (`mysqldump` or equivalent).
-   - All files in the Chamilo 1.11.x installation directory, especially `app/upload/`, `app/courses/`, and `main/`.
-   - Your `configuration.php` file.
-3. **Test on a staging server first.** Never run the migration directly on your production server.
-4. **Verify server requirements.** Chamilo 2.x has different requirements than 1.11.x (notably, PHP 8.2+). See [Server Requirements](server-requirements.md).
+1. **Lesen Sie die Versionshinweise** für Chamilo 2.x, um zu verstehen, was sich geändert hat, was neu ist und welche Funktionen von 1.11.x möglicherweise noch nicht verfügbar sind.
+2. **Sichern Sie alles**:
+   - Vollständiger Datenbank-Dump (`mysqldump` oder Äquivalent).
+   - Alle Dateien im Chamilo 1.11.x-Installationsverzeichnis, insbesondere `app/upload/`, `app/courses/` und `main/`.
+   - Ihre `configuration.php`-Datei.
+3. **Testen Sie zunächst auf einem Staging-Server.** Führen Sie die Migration niemals direkt auf Ihrem Produktionsserver durch.
+4. **Überprüfen Sie die Serveranforderungen.** Chamilo 2.x hat andere Anforderungen als 1.11.x (insbesondere PHP 8.2+). Siehe [Serveranforderungen](server-requirements.md).
 
-### What May Require Manual Attention
+### Was möglicherweise manuelle Bearbeitung erfordert
 
-| Area | Notes |
-|------|-------|
-| **Custom plugins** | 1.11.x plugins are not compatible with 2.x. They must be rewritten or replaced, which has been partially done in 2.0 and should be complete by 2.1 for official plugins. |
-| **Custom themes** | 1.11.x themes do not work in 2.x. Recreate your branding using the 2.x theming system. |
-| **Custom database modifications** | Any direct database modifications outside of Chamilo may not be migrated. |
-| **SCORM packages** | SCORM content should migrate, but test packages individually to verify playback. |
-| **External integrations** | Any integrations using the 1.11.x API or web services need to be updated to use the 2.x REST-only API using [API Platform](https://github.com/api-platform/api-platform). |
+| Bereich | Hinweise |
+|--------|----------|
+| **Benutzerdefinierte Plugins** | Plugins von 1.11.x sind nicht mit 2.x kompatibel. Sie müssen neu geschrieben oder ersetzt werden, was teilweise in 2.0 geschehen ist und bis 2.1 für offizielle Plugins abgeschlossen sein sollte. |
+| **Benutzerdefinierte Themes** | Themes von 1.11.x funktionieren nicht in 2.x. Erstellen Sie Ihr Branding mit dem 2.x-Theming-System neu. |
+| **Benutzerdefinierte Datenbankänderungen** | Direkte Datenbankänderungen außerhalb von Chamilo werden möglicherweise nicht migriert. |
+| **SCORM-Pakete** | SCORM-Inhalte sollten migriert werden, testen Sie jedoch einzelne Pakete, um die Wiedergabe zu überprüfen. |
+| **Externe Integrationen** | Integrationen, die die 1.11.x-API oder Webdienste nutzen, müssen aktualisiert werden, um die reine REST-API von 2.x mit [API Platform](https://github.com/api-platform/api-platform) zu verwenden. |
 
-## Updating Chamilo 2.0.x
+## Aktualisierung von Chamilo 2.0.x
 
-Minor updates within the 2.0 branch are more straightforward.
+Kleinere Updates innerhalb der 2.0-Branche sind einfacher.
 
-### Update Process
+### Aktualisierungsprozess
 
-#### Using a package
+#### Verwendung eines Pakets
 
-1. **Back up** the database and files.
+1. **Sichern Sie** die Datenbank und Dateien.
 
-2. **Download the latest 2.0.x version** from [chamilo.org](https://chamilo.org/download):
+2. **Laden Sie die neueste 2.0.x-Version** von [chamilo.org](https://chamilo.org/download) herunter:
 
-3. **Expand locally**
+3. **Entpacken Sie lokal**
 
-For example (adapt to the downloaded version)
+Zum Beispiel (passen Sie an die heruntergeladene Version an):
    ```bash
    unzip chamilo-2.0.1.zip
    ```
 
-4. **Copy the files over your existing Chamilo installation**
+4. **Kopieren Sie die Dateien in Ihre bestehende Chamilo-Installation**
    ```bash
    cp -r chamilo/* [your-chamilo-installation-path]/
    cp -r chamilo/.* [your-chamilo-installation-path]/
    ```
 
-5. **Run database migrations:**
+5. **Führen Sie Datenbankmigrationen durch:**
    ```bash
    php bin/console doctrine:migrations:migrate --no-interaction
    ```
 
-6. **Clear the cache:**
+6. **Leeren Sie den Cache:**
    ```bash
    php bin/console cache:clear --env=prod
    php bin/console cache:warmup --env=prod
    ```
 
-7. **Change permissions**
+7. **Ändern Sie die Berechtigungen**
 
-Adapt to your web server user:
+Passen Sie an Ihren Webserver-Benutzer an:
    ```bash
    sudo chown -R www-data: [your-chamilo-installation-path]/var
    ```
 
-8. **Verify** that the platform loads correctly and spot-check key functionality.
+8. **Überprüfen Sie**, ob die Plattform korrekt lädt und testen Sie wichtige Funktionen stichprobenartig.
 
-#### Using Git
+#### Verwendung von Git
 
-If you installed Chamilo using Git, you can follow these instructions instead.
+Wenn Sie Chamilo mit Git installiert haben, können Sie stattdessen diese Anweisungen befolgen.
 
-1. **Back up** the database and files.
+1. **Sichern Sie** die Datenbank und Dateien.
 
-2. **Pull the latest code** (or download the new release):
+2. **Ziehen Sie den neuesten Code** (oder laden Sie die neue Version herunter):
    ```bash
    git pull origin 2.0
    ```
 
-3. **Update PHP dependencies:**
+3. **Aktualisieren Sie PHP-Abhängigkeiten:**
    ```bash
    composer install --no-dev --optimize-autoloader
    ```
 
-4. **Update JavaScript dependencies and rebuild assets:**
+4. **Aktualisieren Sie JavaScript-Abhängigkeiten und erstellen Sie Assets neu:**
    ```bash
    yarn install && yarn build
    ```
 
-5. **Run database migrations:**
+5. **Führen Sie Datenbankmigrationen durch:**
    ```bash
    php bin/console doctrine:migrations:migrate --no-interaction
    ```
 
-6. **Clear the cache:**
+6. **Leeren Sie den Cache:**
    ```bash
    php bin/console cache:clear --env=prod
    php bin/console cache:warmup --env=prod
    ```
 
-7. **Change permissions**
+7. **Ändern Sie die Berechtigungen**
 
-Adapt to your web server user:
+Passen Sie an Ihren Webserver-Benutzer an:
    ```bash
    sudo chown -R www-data: [your-chamilo-installation-path]/var
    ```
 
-8. **Verify** that the platform loads correctly and spot-check key functionality.
+8. **Überprüfen Sie**, ob die Plattform korrekt lädt und testen Sie wichtige Funktionen stichprobenartig.
 
-### Automating Updates
+### Automatisierung von Updates
 
-For organizations that manage multiple Chamilo instances, consider scripting the update process:
+Für Organisationen, die mehrere Chamilo-Instanzen verwalten, sollten Sie den Aktualisierungsprozess skripten:
 
 ```bash
 #!/bin/bash
 set -e
 
-# Pull code
+# Code ziehen
 git pull origin 2.0
 
-# Dependencies
+# Abhängigkeiten
 composer install --no-dev --optimize-autoloader
 yarn install && yarn build
 
-# Database
+# Datenbank
 php bin/console doctrine:migrations:migrate --no-interaction
 
 # Cache
 php bin/console cache:clear --env=prod
 php bin/console cache:warmup --env=prod
 
-echo "Update complete."
+echo "Aktualisierung abgeschlossen."
 ```
 
-## Tips
+---
+## Tipps
 
-* **Always back up before upgrading.** Database migrations are not reversible through the Chamilo interface.
-* **Test on staging first** -- especially for the 1.11.x to 2.0 migration, which involves significant data transformation.
-* **Schedule upgrades during maintenance windows** when users are not actively using the platform.
-* **Subscribe to GitHub releases** on [Github](https://github.com/chamilo/chamilo-lms/releases) using the bell icon to be notified of new versions and security patches.
-* **Web updates** are not yet provided in Chamilo 2.0, but this is an ongoing project we hope to be releasing soon.
+* **Sichern Sie immer vor einem Upgrade.** Datenbankmigrationen sind über die Chamilo-Oberfläche nicht rückgängig zu machen.
+* **Testen Sie zunächst auf einer Staging-Umgebung** – insbesondere für die Migration von 1.11.x zu 2.0, die eine umfangreiche Datenumwandlung beinhaltet.
+* **Planen Sie Upgrades während Wartungsfenstern**, wenn die Plattform nicht aktiv von Nutzern verwendet wird.
+* **Abonnieren Sie GitHub-Releases** auf [Github](https://github.com/chamilo/chamilo-lms/releases) über das Glockensymbol, um über neue Versionen und Sicherheits-Patches informiert zu werden.
+* **Web-Updates** sind in Chamilo 2.0 noch nicht verfügbar, aber dies ist ein laufendes Projekt, das wir hoffentlich bald veröffentlichen werden.

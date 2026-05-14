@@ -1,146 +1,149 @@
-# Vue Components
+# Vue-Komponenten
 
-Chamilo has a large set of Vue components organized by feature area in `assets/vue/components/`.
+Chamilo verfügt über eine umfangreiche Sammlung von Vue-Komponenten, die nach Funktionsbereichen in `assets/vue/components/` organisiert sind.
 
-## Base Components
+## Basis-Komponenten
 
-The `Base*` family in `assets/vue/components/basecomponents/` wraps PrimeVue primitives with Chamilo-specific defaults (FloatLabel layout, MDI icons via `chamiloIconToClass`, consistent validation messages, Tailwind sizing). Always reach for a `Base*` component before importing the underlying PrimeVue one — that's how the UI stays consistent across the SPA and how design changes can be rolled out from a single place.
+Die `Base*`-Familie in `assets/vue/components/basecomponents/` umschließt PrimeVue-Grundelemente mit Chamilo-spezifischen Standardeinstellungen (FloatLabel-Layout, MDI-Icons über `chamiloIconToClass`, einheitliche Validierungsmeldungen, Tailwind-Größen). Greifen Sie immer zuerst zu einer `Base*`-Komponente, bevor Sie die zugrunde liegende PrimeVue-Komponente importieren – so bleibt die Benutzeroberfläche über die gesamte SPA hinweg konsistent und Designänderungen können zentral an einer Stelle ausgerollt werden.
 
-Components are **not** globally registered (the only globally registered PrimeVue primitive is `Column`, used inside `BaseTable`). Import each one explicitly:
+Komponenten sind **nicht** global registriert (die einzige global registrierte PrimeVue-Grundkomponente ist `Column`, die innerhalb von `BaseTable` verwendet wird). Importieren Sie jede Komponente explizit:
 
 ```js
 import BaseButton from "@/components/basecomponents/BaseButton.vue"
 import BaseDialog from "@/components/basecomponents/BaseDialog.vue"
 ```
 
-### Form inputs
+---
+### Formulareingaben
 
-Most accept the value through `v-model`, expose `id` + `label` props for accessibility/floating-label binding, and surface validation through an `isInvalid` / `errorText` (or `messageText`) pair.
+Die meisten akzeptieren den Wert über `v-model`, stellen `id`- und `label`-Props für Barrierefreiheit und die Bindung von schwebenden Labels zur Verfügung und zeigen Validierung durch ein `isInvalid`-/`errorText`- (oder `messageText`-) Paar an.
 
-| Component                        | Wraps                                                | Purpose                                                                                                                                                                                            |
-|----------------------------------|------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| `BaseInputText.vue`              | `InputText` + `FloatLabel`                           | Single-line text input. Switches to a static label for `date`/`time`/`datetime-local` inputs (where the floating label would overlap the native placeholder).                                      |
-| `BaseInputTextWithVuelidate.vue` | `BaseInputText`                                      | Thin Vuelidate adapter: forwards `$error` to `isInvalid` and renders `$errors[].$message` in the `errors` slot. Pair it with a Vuelidate field object.                                             |
-| `BaseTextArea.vue`               | `Textarea` + `FloatLabel`                            | Multi-line text input.                                                                                                                                                                             |
-| `BaseTextAreaWithVuelidate.vue`  | `BaseTextArea`                                       | Same Vuelidate adapter pattern as `BaseInputTextWithVuelidate`.                                                                                                                                    |
-| `BaseInputNumber.vue`            | `InputNumber`                                        | Numeric input with `min` / `max` / `step` and spinner buttons.                                                                                                                                     |
-| `BaseInputTags.vue`              | (custom)                                             | Free-text tag chips; tags are added on enter/comma and removed on backspace.                                                                                                                       |
-| `BaseInputGroup.vue`             | `InputGroup` + `BaseButton`                          | Text input paired with an action button (search-style).                                                                                                                                            |
-| `BaseCheckbox.vue`               | `Checkbox`                                           | Binary or value-bound checkbox with label.                                                                                                                                                         |
-| `BaseRadioButtons.vue`           | `RadioButton`                                        | Group of radio buttons driven by an `options: [{label, value}]` array.                                                                                                                             |
-| `BaseToggleButton.vue`           | `BaseButton`                                         | Two-state button (on / off labels and icons) bound through `v-model`.                                                                                                                              |
-| `BaseCalendar.vue`               | `DatePicker` + `FloatLabel`                          | Date / date-time picker. Honors `platform.timepicker_increment` and the user's locale via `calendarLocales`.                                                                                       |
-| `BaseColorPicker.vue`            | native `<input type="color">` + `InputText`          | Color picker with hex text fallback; uses `colorjs.io` to validate manual hex input.                                                                                                               |
-| `BaseRating.vue`                 | `Rating`                                             | Star rating input.                                                                                                                                                                                 |
-| `BaseFileUpload.vue`             | native `<input type="file">` + `BaseButton`          | Single-file picker that triggers an attachment-style button.                                                                                                                                       |
-| `BaseFileUploadMultiple.vue`     | native `<input type="file" multiple>` + `BaseButton` | Multi-file variant of `BaseFileUpload`.                                                                                                                                                            |
-| `BaseUploader.vue`               | Uppy `Dashboard`                                     | Full Uppy uploader (webcam, audio, image editor, XHR upload) with locales wired to the current `appLocale`. Use this for rich uploads with progress; use `BaseFileUpload*` for simple attachments. |
+| Komponente                        | Umhüllt                                              | Zweck                                                                                                                                                                                              |
+|-----------------------------------|------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `BaseInputText.vue`               | `InputText` + `FloatLabel`                           | Einzeilige Texteingabe. Wechselt zu einem statischen Label für `date`/`time`/`datetime-local`-Eingaben (wo das schwebende Label den nativen Platzhalter überlagern würde).                       |
+| `BaseInputTextWithVuelidate.vue`  | `BaseInputText`                                      | Dünner Vuelidate-Adapter: leitet `$error` an `isInvalid` weiter und rendert `$errors[].$message` im `errors`-Slot. Kombinieren Sie es mit einem Vuelidate-Feldobjekt.                             |
+| `BaseTextArea.vue`                | `Textarea` + `FloatLabel`                            | Mehrzeilige Texteingabe.                                                                                                                                                                           |
+| `BaseTextAreaWithVuelidate.vue`   | `BaseTextArea`                                       | Derselbe Vuelidate-Adapter-Muster wie bei `BaseInputTextWithVuelidate`.                                                                                                                            |
+| `BaseInputNumber.vue`             | `InputNumber`                                        | Numerische Eingabe mit `min` / `max` / `step` und Spinner-Buttons.                                                                                                                                 |
+| `BaseInputTags.vue`               | (benutzerdefiniert)                                  | Freitext-Tag-Chips; Tags werden bei Enter/Komma hinzugefügt und bei Rücktaste entfernt.                                                                                                           |
+| `BaseInputGroup.vue`              | `InputGroup` + `BaseButton`                          | Texteingabe kombiniert mit einem Aktionsbutton (Suchstil).                                                                                                                                         |
+| `BaseCheckbox.vue`                | `Checkbox`                                           | Binäres oder wertgebundenes Kontrollkästchen mit Label.                                                                                                                                            |
+| `BaseRadioButtons.vue`            | `RadioButton`                                        | Gruppe von Optionsschaltflächen, gesteuert durch ein `options: [{label, value}]`-Array.                                                                                                            |
+| `BaseToggleButton.vue`            | `BaseButton`                                         | Zweizustands-Button (Ein-/Aus-Labels und Icons), gebunden über `v-model`.                                                                                                                          |
+| `BaseCalendar.vue`                | `DatePicker` + `FloatLabel`                          | Datum-/Datum-Uhrzeit-Auswahl. Berücksichtigt `platform.timepicker_increment` und die Benutzerlokalisierung über `calendarLocales`.                                                                |
+| `BaseColorPicker.vue`             | natives `<input type="color">` + `InputText`         | Farbwähler mit Hex-Text-Rückfall; verwendet `colorjs.io` zur Validierung manueller Hex-Eingaben.                                                                                                  |
+| `BaseRating.vue`                  | `Rating`                                             | Sternbewertungseingabe.                                                                                                                                                                            |
+| `BaseFileUpload.vue`              | natives `<input type="file">` + `BaseButton`         | Einzeldatei-Auswahl, die einen Anhang-Stil-Button auslöst.                                                                                                                                         |
+| `BaseFileUploadMultiple.vue`      | natives `<input type="file" multiple>` + `BaseButton` | Mehrdatei-Variante von `BaseFileUpload`.                                                                                                                                                           |
+| `BaseUploader.vue`                | Uppy `Dashboard`                                     | Vollständiger Uppy-Uploader (Webcam, Audio, Bildeditor, XHR-Upload) mit Lokalisierungen, die an die aktuelle `appLocale` gebunden sind. Verwenden Sie dies für umfangreiche Uploads mit Fortschrittsanzeige; verwenden Sie `BaseFileUpload*` für einfache Anhänge. |
 
-### Selection & autocomplete
+---
+### Auswahl & Autovervollständigung
 
-| Component              | Wraps                        | Purpose                                                                                                                           |
-|------------------------|------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
-| `BaseSelect.vue`       | `Dropdown` + `FloatLabel`    | Single-choice dropdown with optional clear button.                                                                                |
-| `BaseMultiSelect.vue`  | `MultiSelect` + `FloatLabel` | Multi-choice dropdown that displays selected items as chips.                                                                      |
-| `BaseSearchSelect.vue` | `Dropdown` with `filter`     | Single-choice dropdown with built-in search box, optional virtual scrolling, and two-line option template (`label` + `sublabel`). |
-| `BaseAutocomplete.vue` | `AutoComplete`               | Async autocomplete (3-char minimum). Supports single or multiple selection and a `chip` slot to customize chips.                  |
-| `BaseUserFinder.vue`   | `BaseTable` + `userService`  | Paginated user-search table with row selection. Use it when a feature needs an admin-style user picker.                           |
+| Komponente              | Umhüllt                        | Zweck                                                                                                                           |
+|-------------------------|-------------------------------|---------------------------------------------------------------------------------------------------------------------------------|
+| `BaseSelect.vue`        | `Dropdown` + `FloatLabel`     | Dropdown für Einzelwahl mit optionalem Löschen-Button.                                                                          |
+| `BaseMultiSelect.vue`   | `MultiSelect` + `FloatLabel`  | Dropdown für Mehrfachwahl, das ausgewählte Elemente als Chips anzeigt.                                                         |
+| `BaseSearchSelect.vue`  | `Dropdown` mit `filter`       | Dropdown für Einzelwahl mit integrierter Suchleiste, optionalem virtuellem Scrollen und zweizeiligem Optionstemplate (`label` + `sublabel`). |
+| `BaseAutocomplete.vue`  | `AutoComplete`                | Asynchrone Autovervollständigung (Mindestlänge 3 Zeichen). Unterstützt Einzel- oder Mehrfachauswahl und einen `chip`-Slot zur Anpassung der Chips. |
+| `BaseUserFinder.vue`    | `BaseTable` + `userService`   | Paginierte Benutzersuchtabelle mit Zeilenauswahl. Verwenden Sie diese, wenn eine Funktion einen Benutzerauswähler im Admin-Stil benötigt. |
 
-### Buttons & actions
+### Schaltflächen & Aktionen
 
-| Component                        | Wraps               | Purpose                                                                                                                                                                                                                                                                                                                                                     |
-|----------------------------------|---------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| `BaseButton.vue`                 | `Button` (PrimeVue) | Standard Chamilo button. Resolves icons through `chamiloIconToClass`, normalizes `type` to PrimeVue's `severity`/`variant`, renders an internal `BaseAppLink` when a `route` or `toUrl` is given (so the same component handles router-link, anchor, and plain button cases). Accepted `type` values are listed in `validators.js` → `buttonTypeValidator`. |
-| `BaseAdvancedSettingsButton.vue` | `BaseButton`        | Disclosure button that toggles a slotted "advanced settings" panel via `v-model`.                                                                                                                                                                                                                                                                           |
-| `BaseToolbar.vue`                | `Toolbar`           | Action toolbar with `start` / `end` slots (or a single default slot). Optional `showTopBorder` for separator styling.                                                                                                                                                                                                                                       |
+| Komponente                        | Umhüllt               | Zweck                                                                                                                                                                                                                                                                                                                                                     |
+|-----------------------------------|---------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `BaseButton.vue`                  | `Button` (PrimeVue) | Standard-Chamilo-Schaltfläche. Löst Icons über `chamiloIconToClass` auf, normalisiert `type` zu PrimeVue's `severity`/`variant`, rendert einen internen `BaseAppLink`, wenn ein `route` oder `toUrl` angegeben ist (so dass dieselbe Komponente router-link, anchor und einfache Schaltflächenfälle behandelt). Akzeptierte `type`-Werte sind in `validators.js` → `buttonTypeValidator` aufgelistet. |
+| `BaseAdvancedSettingsButton.vue`  | `BaseButton`        | Offenlegungsschaltfläche, die über `v-model` ein geschachteltes Panel für "Erweiterte Einstellungen" ein- und ausblendet.                                                                                                                                                                                                                              |
+| `BaseToolbar.vue`                 | `Toolbar`           | Aktionsleiste mit `start` / `end` Slots (oder einem einzelnen Standard-Slot). Optionales `showTopBorder` für Trennlinien-Styling.                                                                                                                                                                                                                      |
 
-### Display & data
+---
+### Anzeige & Daten
 
-| Component            | Wraps                       | Purpose                                                                                                                                                                                         |
-|----------------------|-----------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| `BaseTable.vue`      | `DataTable` (PrimeVue)      | Standard Chamilo data table. Supports server-side mode (`lazy`), multi-column sorting, global filter, row selection, and pagination. Pass columns as `<Column>` children (globally registered). |
-| `BaseCard.vue`       | `Card`                      | Card wrapper that forwards `header`, `title`, `subtitle`, `footer`, and default (content) slots.                                                                                                |
-| `BaseChart.vue`      | `Chart`                     | Pie-chart preset. Pass a Chart.js–compatible `data` object.                                                                                                                                     |
-| `BaseChip.vue`       | `Chip`                      | Chip rendered from a `{value, labelField, imageField}` object, with optional remove button.                                                                                                     |
-| `BaseTag.vue`        | `Tag`                       | Colored label tag. Maps Chamilo's `warning` to PrimeVue's `warn`.                                                                                                                               |
-| `BaseAvatarList.vue` | `Avatar` + `BaseUserAvatar` | Avatar row with overflow counter (e.g. "+3"); driven by `useAvatarList`.                                                                                                                        |
-| `BaseUserAvatar.vue` | `Avatar`                    | User avatar with image fallback, loading state, and accessible label.                                                                                                                           |
-| `BaseIcon.vue`       | `<i class="mdi …">`         | Chamilo icon renderer. Adds an optional badge (text or icon), tooltip, and size modifier. Always pass a Chamilo semantic name (e.g. `"edit"`), not a raw MDI class.                             |
-| `BaseIconField.vue`  | `IconField` + `InputText`   | Search input with a leading magnifier icon.                                                                                                                                                     |
-| `BaseDivider.vue`    | `Divider`                   | Horizontal or vertical divider, with optional title and alignment.                                                                                                                              |
+| Komponente            | Umhüllt                     | Zweck                                                                                                                                                                                         |
+|-----------------------|-----------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `BaseTable.vue`       | `DataTable` (PrimeVue)      | Standard-Chamilo-Datentabelle. Unterstützt Server-seitigen Modus (`lazy`), Mehrspaltensortierung, globalen Filter, Zeilenauswahl und Paginierung. Spalten als `<Column>`-Kinder übergeben (global registriert). |
+| `BaseCard.vue`        | `Card`                      | Karten-Wrapper, der die Slots `header`, `title`, `subtitle`, `footer` und Standard (Inhalt) weiterleitet.                                                                                     |
+| `BaseChart.vue`       | `Chart`                     | Voreinstellung für Kreisdiagramme. Übergeben Sie ein Chart.js-kompatibles `data`-Objekt.                                                                                                      |
+| `BaseChip.vue`        | `Chip`                      | Chip, das aus einem `{value, labelField, imageField}`-Objekt gerendert wird, mit optionalem Entfernen-Button.                                                                                 |
+| `BaseTag.vue`         | `Tag`                       | Farbiges Etikett-Tag. Mappt Chamilos `warning` auf PrimeVues `warn`.                                                                                                                          |
+| `BaseAvatarList.vue`  | `Avatar` + `BaseUserAvatar` | Avatar-Reihe mit Überlaufzähler (z. B. "+3"); gesteuert durch `useAvatarList`.                                                                                                                |
+| `BaseUserAvatar.vue`  | `Avatar`                    | Benutzer-Avatar mit Bild-Fallback, Ladezustand und barrierefreiem Label.                                                                                                                      |
+| `BaseIcon.vue`        | `<i class="mdi …">`         | Chamilo-Icon-Renderer. Fügt optional ein Abzeichen (Text oder Icon), Tooltip und Größenmodifikator hinzu. Immer einen semantischen Chamilo-Namen (z. B. `"edit"`) übergeben, keine rohe MDI-Klasse. |
+| `BaseIconField.vue`   | `IconField` + `InputText`   | Suchfeld mit einem führenden Lupen-Icon.                                                                                                                                                      |
+| `BaseDivider.vue`     | `Divider`                   | Horizontaler oder vertikaler Trenner, mit optionalem Titel und Ausrichtung.                                                                                                                   |
 
-### Navigation & menus
+### Navigation & Menüs
 
-| Component                  | Wraps                   | Purpose                                                                                                                                                                                 |
-|----------------------------|-------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| `BaseMenu.vue`             | `Menu` (popup)          | Popup menu that understands router routes inside `model[]` items.                                                                                                                       |
-| `BaseDropdownMenu.vue`     | (custom)                | Lightweight dropdown trigger with single-open coordination (opening one closes the others).                                                                                             |
-| `BaseContextMenu.vue`      | (custom)                | Right-click / positioned context menu, controlled by `visible` + `position`.                                                                                                            |
-| `BaseSidebarPanelMenu.vue` | `PanelMenu`             | Accordion-style navigation menu used in sidebars; auto-tracks expanded keys from the model.                                                                                             |
-| `BaseRouteTabs.vue`        | `BaseAppLink` row       | Tab bar where each tab is a router link. The active tab is highlighted automatically based on the current route.                                                                        |
-| `BaseAppLink.vue`          | `RouterLink` *or* `<a>` | Smart link: renders an `<a>` when `url` is set (external/legacy), otherwise a Vue Router `<RouterLink>`. Use it instead of either primitive so internal/external linking stays uniform. |
+| Komponente                 | Umhüllt                 | Zweck                                                                                                                                                                                 |
+|----------------------------|-------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `BaseMenu.vue`             | `Menu` (Popup)          | Popup-Menü, das Router-Routen innerhalb von `model[]`-Elementen versteht.                                                                                                             |
+| `BaseDropdownMenu.vue`     | (benutzerdefiniert)     | Leichter Dropdown-Trigger mit Einzelöffnungs-Koordination (das Öffnen eines schließt die anderen).                                                                                    |
+| `BaseContextMenu.vue`      | (benutzerdefiniert)     | Rechtsklick- / positioniertes Kontextmenü, gesteuert durch `visible` + `position`.                                                                                                   |
+| `BaseSidebarPanelMenu.vue` | `PanelMenu`             | Akkordeon-ähnliches Navigationsmenü, das in Seitenleisten verwendet wird; verfolgt automatisch erweiterte Schlüssel aus dem Modell.                                                  |
+| `BaseRouteTabs.vue`        | `BaseAppLink`-Reihe     | Tab-Leiste, bei der jeder Tab ein Router-Link ist. Der aktive Tab wird automatisch basierend auf der aktuellen Route hervorgehoben.                                                  |
+| `BaseAppLink.vue`          | `RouterLink` *oder* `<a>` | Intelligenter Link: Rendert ein `<a>`, wenn `url` gesetzt ist (extern/legacy), ansonsten ein Vue Router `<RouterLink>`. Verwenden Sie diesen statt der primitiven, um einheitliches internes/externes Linking zu gewährleisten. |
 
-### Dialogs
+### Dialoge
 
-`BaseDialog` is the foundation; the others compose on top of it for the common confirm/cancel and delete flows.
+`BaseDialog` ist die Grundlage; die anderen bauen darauf auf für die gängigen Bestätigungs-/Abbruch- und Löschabläufe.
 
-| Component                     | Wraps                     | Purpose                                                                                                                             |
+| Komponente                     | Umhüllt                   | Zweck                                                                                                                               |
 |-------------------------------|---------------------------|-------------------------------------------------------------------------------------------------------------------------------------|
-| `BaseDialog.vue`              | `Dialog`                  | Modal dialog with a titled header (optional `headerIcon`) and slotted body/footer. Open state is a `defineModel("isVisible")`.      |
-| `BaseDialogConfirmCancel.vue` | `BaseDialog`              | Confirm/cancel modal with two buttons. Configurable confirm `type` (severity) and `icon`; emits `confirmClicked` / `cancelClicked`. |
-| `BaseDialogDelete.vue`        | `BaseDialogConfirmCancel` | Pre-built "Are you sure you want to delete this item?" modal with a danger-styled confirm button.                                   |
+| `BaseDialog.vue`              | `Dialog`                  | Modal-Dialog mit einem betitelten Header (optionales `headerIcon`) und geschlitzten Body/Footer. Der Öffnungszustand ist ein `defineModel("isVisible")`. |
+| `BaseDialogConfirmCancel.vue` | `BaseDialog`              | Bestätigungs-/Abbruch-Modal mit zwei Schaltflächen. Konfigurierbarer Bestätigungs-`type` (Schweregrad) und `icon`; sendet `confirmClicked` / `cancelClicked`. |
+| `BaseDialogDelete.vue`        | `BaseDialogConfirmCancel` | Vorgefertigter "Sind Sie sicher, dass Sie dieses Element löschen möchten?"-Modal mit einer danger-stylisierten Bestätigungsschaltfläche. |
 
-### Editor & rich content
+### Editor & reichhaltiger Inhalt
 
-| Component            | Wraps                                           | Purpose                                                                                                                                                              |
+| Komponente            | Umhüllt                                         | Zweck                                                                                                                                                              |
 |----------------------|-------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| `BaseTinyEditor.vue` | TinyMCE (via the project's `components/Editor`) | Rich text editor with `FloatLabel`, focus/empty state tracking, and integration with the current course context (`cidReq`). Use it for any user-authored HTML field. |
+| `BaseTinyEditor.vue` | TinyMCE (über die `components/Editor` des Projekts) | Rich-Text-Editor mit `FloatLabel`, Fokus-/Leerzustandsverfolgung und Integration in den aktuellen Kurskontext (`cidReq`). Verwenden Sie ihn für jedes benutzerdefinierte HTML-Feld. |
 
-### Helpers
+### Hilfsprogramme
 
-| File              | Purpose                                                                                                                                                                                                                                                          |
+| Datei              | Zweck                                                                                                                                                                                                                                                          |
 |-------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| `ChamiloIcons.js` | Maps semantic icon names (`edit`, `delete`, `eye-on`, `courses`, …) to MDI CSS classes. ~127 entries. Browse them at `/admin/list-icons` on a running instance.                                                                                                  |
-| `validators.js`   | Shared prop validators: `iconValidator` (must be a known Chamilo icon name), `sizeValidator` (`normal` / `small` / `large`), `buttonTypeValidator` (allowed `BaseButton` types). Import them when defining new `Base*` components that mirror these conventions. |
+| `ChamiloIcons.js` | Ordnet semantische Icon-Namen (`edit`, `delete`, `eye-on`, `courses`, …) den MDI-CSS-Klassen zu. ~127 Einträge. Durchsuchen Sie sie unter `/admin/list-icons` auf einer laufenden Instanz.                                                                 |
+| `validators.js`   | Gemeinsame Prop-Validatoren: `iconValidator` (muss ein bekannter Chamilo-Icon-Name sein), `sizeValidator` (`normal` / `small` / `large`), `buttonTypeValidator` (zulässige `BaseButton`-Typen). Importieren Sie sie bei der Definition neuer `Base*`-Komponenten, die diese Konventionen widerspiegeln. |
 
-### Conventions across Base components
+### Konventionen bei Base-Komponenten
 
-* **v-model via `defineModel()`** — value (and frequently `isVisible`, `filters`, `selectedItems`) are exposed as models; pass them with `v-model[:name]` rather than `:prop` + `@update:prop`.
-* **Floating labels** — most form fields wrap their input in PrimeVue `FloatLabel variant="on"`. Provide `label` (the displayed text) and `id` (used to bind the `<label for>`).
-* **Validation messages** — fields expose `isInvalid` and a small message below the input (`errorText`, `messageText`, or `smallText` depending on the component). Vuelidate-aware variants exist for the most common ones.
-* **Icons** — pass Chamilo semantic names, not raw MDI classes. The components resolve them through `chamiloIconToClass`.
-* **Sizing** — `size="normal" | "small" | "large"` is the conventional sizing prop (see `sizeValidator`).
-* **Composition over duplication** — `BaseDialogDelete` wraps `BaseDialogConfirmCancel`, which wraps `BaseDialog`; `BaseToggleButton` and `BaseAdvancedSettingsButton` wrap `BaseButton`. When you need a recurring variant of an existing component, prefer composing a new `Base*` on top instead of re-implementing it in a feature folder.
+* **v-model über `defineModel()`** — Wert (und häufig `isVisible`, `filters`, `selectedItems`) werden als Modelle bereitgestellt; übergeben Sie sie mit `v-model[:name]` anstelle von `:prop` + `@update:prop`.
+* **Schwebende Labels** — Die meisten Formularfelder umhüllen ihre Eingabe in PrimeVue `FloatLabel variant="on"`. Geben Sie `label` (den angezeigten Text) und `id` (zur Bindung des `<label for>`) an.
+* **Validierungsnachrichten** — Felder zeigen `isInvalid` und eine kleine Nachricht unter der Eingabe (`errorText`, `messageText` oder `smallText`, je nach Komponente). Vuelidate-kompatible Varianten existieren für die häufigsten.
+* **Icons** — Übergeben Sie Chamilo-semantische Namen, nicht rohe MDI-Klassen. Die Komponenten lösen sie über `chamiloIconToClass` auf.
+* **Größenanpassung** — `size="normal" | "small" | "large"` ist die konventionelle Größen-Prop (siehe `sizeValidator`).
+* **Komposition statt Duplikation** — `BaseDialogDelete` umhüllt `BaseDialogConfirmCancel`, das wiederum `BaseDialog` umhüllt; `BaseToggleButton` und `BaseAdvancedSettingsButton` umhüllen `BaseButton`. Wenn Sie eine wiederkehrende Variante einer bestehenden Komponente benötigen, bevorzugen Sie die Komposition einer neuen `Base*`-Komponente darüber, anstatt sie in einem Feature-Ordner neu zu implementieren.
 
-## Layout Components
+## Layout-Komponenten
 
-Located in `components/layout/`:
+Befindet sich in `components/layout/`:
 
-| Component | Purpose |
+| Komponente | Zweck |
 |-----------|---------|
-| `DashboardLayout.vue` | Main layout: topbar + sidebar + content area |
-| `Sidebar.vue` | Left navigation panel (collapsible) |
-| `TopbarLoggedIn.vue` | Top bar with logo, inbox, avatar |
+| `DashboardLayout.vue` | Hauptlayout: Topbar + Sidebar + Inhaltsbereich |
+| `Sidebar.vue` | Linkes Navigationspanel (einklappbar) |
+| `TopbarLoggedIn.vue` | Obere Leiste mit Logo, Posteingang, Avatar |
 
-## Feature-Area Components
+## Feature-Bereich-Komponenten
 
-| Directory | Components | Purpose |
-|-----------|-----------|---------|
-| `course/` | Course cards, catalog filters, course forms | Course listing and management |
-| `session/` | Session cards, catalog | Session listing |
-| `assignments/` | Submission lists, grading modals, forms | Assignment workflow |
-| `chat/` | DockedChat, chat messages | Real-time chat and AI tutor |
-| `filemanager/` | CourseDocuments, PersonalFiles | File browser and management |
-| `installer/` | Step1-Step7, EmailSettings | Installation wizard |
-| `social/` | GroupInfoCard, social posts | Social network features |
-| `attendance/` | AttendanceTable | Attendance tracking |
-| `usergroup/` | GroupMembers | User group management |
+| Verzeichnis | Komponenten | Zweck |
+|-------------|-------------|-------|
+| `course/` | Kurskarten, Katalogfilter, Kursformulare | Kursauflistung und -verwaltung |
+| `session/` | Sitzungskarten, Katalog | Sitzungsauflistung |
+| `assignments/` | Einreichungslisten, Bewertungsmodale, Formulare | Arbeitsablauf für Aufgaben |
+| `chat/` | DockedChat, Chatnachrichten | Echtzeit-Chat und KI-Tutor |
+| `filemanager/` | CourseDocuments, PersonalFiles | Dateibrowser und -verwaltung |
+| `installer/` | Step1-Step7, EmailSettings | Installationsassistent |
+| `social/` | GroupInfoCard, soziale Beiträge | Funktionen für soziale Netzwerke |
+| `attendance/` | AttendanceTable | Anwesenheitsverfolgung |
+| `usergroup/` | GroupMembers | Benutzergruppenverwaltung |
 
-## Icon System
+## Icon-System
 
-Icons use **Material Design Icons (MDI)** as the sole icon library: `<i class="mdi mdi-pencil"></i>`
+Icons verwenden ausschließlich die **Material Design Icons (MDI)** als Icon-Bibliothek: `<i class="mdi mdi-pencil"></i>`
 
-The `ChamiloIcons.js` file provides a semantic mapping:
+Die Datei `ChamiloIcons.js` bietet eine semantische Zuordnung:
 
 ```javascript
 export const chamiloIconToClass = {
@@ -152,13 +155,13 @@ export const chamiloIconToClass = {
 }
 ```
 
-Components use `BaseIcon` or reference `chamiloIconToClass` to render icons consistently.
+Komponenten verwenden `BaseIcon` oder verweisen auf `chamiloIconToClass`, um Icons einheitlich darzustellen.
 
-A browsable reference of all icons available in the platform can be found at `/admin/list-icons` in any running Chamilo instance.
+Eine durchsuchbare Referenz aller auf der Plattform verfügbaren Icons finden Sie unter `/admin/list-icons` in jeder laufenden Chamilo-Instanz.
 
-## Component Patterns
+## Komponentenmuster
 
-* **Composition API** — Components use Vue 3's `<script setup>` syntax
-* **PrimeVue integration** — Heavy use of PrimeVue components (Button, DataTable, Dialog, Menu, etc.)
-* **Axios for API calls** — HTTP requests to the backend API
-* **Vue I18n** — All user-facing text uses translation keys
+* **Composition API** — Komponenten verwenden die `<script setup>`-Syntax von Vue 3
+* **PrimeVue-Integration** — Intensive Nutzung von PrimeVue-Komponenten (Button, DataTable, Dialog, Menu, etc.)
+* **Axios für API-Aufrufe** — HTTP-Anfragen an die Backend-API
+* **Vue I18n** — Alle benutzerorientierten Texte verwenden Übersetzungsschlüssel

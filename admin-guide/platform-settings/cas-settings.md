@@ -1,52 +1,51 @@
-# CAS Settings
+# CAS-Einstellungen
 
-Legacy CAS (Central Authentication Service) configuration carried over from Chamilo 1.x. See [CAS](../authentication/cas.md) for the current status of the CAS authenticator in Chamilo 2.x.
+Legacy CAS (Central Authentication Service) Konfiguration, übernommen aus Chamilo 1.x. Siehe [CAS](../authentication/cas.md) für den aktuellen Status des CAS-Authentifikators in Chamilo 2.x.
 
-Access these settings under **Administration > Configuration settings > CAS**. This category contains **7 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+Greifen Sie auf diese Einstellungen unter **Verwaltung > Konfigurationseinstellungen > CAS** zu. Diese Kategorie enthält **7 Einstellungen**, die unten mit dem Titel und Kommentar aufgeführt sind, wie sie in den Plattform-Einstellungs-Fixtures (`SettingsCurrentFixtures.php`) ausgeliefert werden.
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> Der Variablenname im Code wird in Monospace angezeigt. Verwenden Sie ihn, wenn Sie über die API skripten oder wenn Sie diese Einstellungen auf globaler Ebene ändern müssen, indem Sie [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml) bearbeiten.
 
-## Settings
+## Einstellungen
 
 ### `cas_activate`
 
-**Enable CAS authentication**
+**CAS-Authentifizierung aktivieren**
 
-Enabling CAS authentication will allow users to authenticate with their CAS credentials.<br/>Go to <a href='settings.php?category=CAS'>Plugin</a> to add a configurable 'CAS Login' button for your Chamilo campus. Or you can force CAS authentication by setting cas[force_redirect] in app/config/auth.conf.php.
+Das Aktivieren der CAS-Authentifizierung ermöglicht es Benutzern, sich mit ihren CAS-Anmeldedaten zu authentifizieren.<br/>Gehen Sie zu <a href='settings.php?category=CAS'>Plugin</a>, um eine konfigurierbare 'CAS Login'-Schaltfläche für Ihren Chamilo-Campus hinzuzufügen. Oder Sie können die CAS-Authentifizierung erzwingen, indem Sie cas[force_redirect] in app/config/auth.conf.php setzen.
 
 ### `cas_add_user_activate`
 
-**Enable CAS user addition**
+**CAS-Benutzerhinzufügung aktivieren**
 
-Enable CAS user addition. To create the user account from the LDAP directory, the extldap_config and extldap_user_correspondance tables must be filled in in app/config/auth.conf.php
+Aktivieren Sie die CAS-Benutzerhinzufügung. Um das Benutzerkonto aus dem LDAP-Verzeichnis zu erstellen, müssen die Tabellen extldap_config und extldap_user_correspondance in app/config/auth.conf.php ausgefüllt sein.
 
 ### `cas_port`
 
-**Main CAS server port**
+**Haupt-CAS-Server-Port**
 
-The port on which to connect to the main CAS server
+Der Port, über den eine Verbindung zum Haupt-CAS-Server hergestellt wird
 
 ### `cas_protocol`
 
-**Main CAS server protocol**
+**Haupt-CAS-Server-Protokoll**
 
-The protocol with which we connect to the CAS server
+Das Protokoll, mit dem wir uns mit dem CAS-Server verbinden
 
 ### `cas_server`
 
-**Main CAS server**
+**Haupt-CAS-Server**
 
-This is the main CAS server which will be used for the authentication (IP address or hostname)
+Dies ist der Haupt-CAS-Server, der für die Authentifizierung verwendet wird (IP-Adresse oder Hostname)
 
 ### `cas_server_uri`
 
-**Main CAS server URI**
+**Haupt-CAS-Server-URI**
 
-The path to the CAS service
+Der Pfad zum CAS-Dienst
 
 ### `update_user_info_cas_with_ldap`
 
-**Update CAS-authenticated user account information from LDAP**
+**CAS-authentifizierte Benutzerkontoinformationen aus LDAP aktualisieren**
 
-Makes sure the user firstname, lastname and email address are the same as current values in the LDAP directory
-
+Stellt sicher, dass der Vorname, Nachname und die E-Mail-Adresse des Benutzers mit den aktuellen Werten im LDAP-Verzeichnis übereinstimmen

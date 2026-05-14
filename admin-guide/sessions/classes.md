@@ -1,34 +1,34 @@
-# Classes
+# Klassen
 
-Classes in Chamilo are predefined groups of users that can be enrolled in sessions as a unit. They simplify the enrollment process when you regularly train the same groups of people.
+Klassen in Chamilo sind vordefinierte Gruppen von Benutzern, die als Einheit in Sitzungen eingeschrieben werden können. Sie vereinfachen den Einschreibungsprozess, wenn Sie regelmäßig dieselben Gruppen von Personen schulen.
 
-> Classes and [User Groups](../../admin-guide/users/user-groups.md) share the same interface. The only difference is the **group type** setting: choose "Class" when creating the group. Everything else — member management, visibility, and the interface itself — works identically.
+> Klassen und [Benutzergruppen](../../admin-guide/users/user-groups.md) teilen dieselbe Benutzeroberfläche. Der einzige Unterschied ist die Einstellung **Gruppentyp**: Wählen Sie bei der Erstellung der Gruppe "Klasse". Alles andere – Mitgliederverwaltung, Sichtbarkeit und die Benutzeroberfläche selbst – funktioniert identisch.
 
-## Creating a Class
+## Eine Klasse erstellen
 
-1. From the administration panel, navigate to **Classes** (or User Groups and select the "Class" type)
-2. Click **Create a class**
-3. Enter a **name** (e.g., "Engineering Team", "New Hires March 2026")
-4. Add **members** — search for and select users
-5. Save
+1. Navigieren Sie im Verwaltungspanel zu **Klassen** (oder zu Benutzergruppen und wählen Sie den Typ "Klasse")
+2. Klicken Sie auf **Eine Klasse erstellen**
+3. Geben Sie einen **Namen** ein (z. B. "Ingenieurteam", "Neue Mitarbeiter März 2026")
+4. Fügen Sie **Mitglieder** hinzu – suchen und wählen Sie Benutzer aus
+5. Speichern
 
-## Using Classes for Enrollment
+## Klassen für die Einschreibung verwenden
 
-When creating or editing a session, you can enroll an entire class at once instead of adding users individually:
+Beim Erstellen oder Bearbeiten einer Sitzung können Sie eine gesamte Klasse auf einmal einschreiben, anstatt Benutzer einzeln hinzuzufügen:
 
-1. Open the session enrollment settings
-2. Click **Add a class**
-3. Select the class
-4. All members of the class are enrolled in the session
+1. Öffnen Sie die Einstellungen für die Sitzungseinschreibung
+2. Klicken Sie auf **Eine Klasse hinzufügen**
+3. Wählen Sie die Klasse aus
+4. Alle Mitglieder der Klasse werden in die Sitzung eingeschrieben
 
-## Managing Classes
+## Klassen verwalten
 
-* **Edit** — Change the class name or update membership
-* **Add/remove members** — Keep the class roster up to date
-* **Delete** — Remove the class (does not affect the member accounts or their existing enrollments)
+* **Bearbeiten** – Ändern Sie den Klassennamen oder aktualisieren Sie die Mitgliedschaft
+* **Mitglieder hinzufügen/entfernen** – Halten Sie die Klassenliste auf dem neuesten Stand
+* **Löschen** – Entfernen Sie die Klasse (hat keinen Einfluss auf die Mitgliedskonten oder deren bestehende Einschreibungen)
 
-## Tips
+## Tipps
 
-* **Create classes for recurring cohorts** — If you run the same training for different teams, create a class for each team
-* **Update before each session** — Review class membership before enrolling a class in a new session to ensure the roster is current
-* **Combine with CSV import** — Import class membership from a CSV file for large groups
+* **Erstellen Sie Klassen für wiederkehrende Kohorten** – Wenn Sie dieselbe Schulung für verschiedene Teams durchführen, erstellen Sie für jedes Team eine Klasse
+* **Aktualisieren Sie vor jeder Sitzung** – Überprüfen Sie die Klassenmitgliedschaft, bevor Sie eine Klasse in eine neue Sitzung einschreiben, um sicherzustellen, dass die Liste aktuell ist
+* **Kombinieren Sie mit CSV-Import** – Importieren Sie die Klassenmitgliedschaft aus einer CSV-Datei für große Gruppen

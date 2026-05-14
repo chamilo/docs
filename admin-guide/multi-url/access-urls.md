@@ -1,55 +1,54 @@
-# Access URLs
+# Zugriffs-URLs
 
-Access URLs allow a single Chamilo installation to serve multiple separate portals.
+Zugriffs-URLs ermöglichen es, eine einzelne Chamilo-Installation für mehrere separate Portale zu nutzen.
 
+## Anwendungsfälle
 
-## Use Cases
+* **Multi-Tenant-Bereitstellungen** — Hosten Sie separate Schulungsportale für verschiedene Organisationen auf einem einzigen Server
+* **Abteilungsportale** — Geben Sie jeder Abteilung ihr eigenes gebrandetes Portal (z. B. `hr.training.company.com`, `it.training.company.com`)
+* **Regionale Portale** — Separate Portale für verschiedene Regionen oder Sprachen
 
-* **Multi-tenant deployments** — Host separate training portals for different organizations on a single server
-* **Departmental portals** — Give each department its own branded portal (e.g., `hr.training.company.com`, `it.training.company.com`)
-* **Regional portals** — Separate portals for different regions or languages
+## Funktionsweise
 
-## How It Works
+Jede Zugriffs-URL ist ein separater Einstiegspunkt zur gleichen Chamilo-Installation:
 
-Each access URL is a separate entry point to the same Chamilo installation:
+* Benutzer können einer oder mehreren Zugriffs-URLs zugewiesen werden
+* Kurse und Sitzungen gehören zu bestimmten Zugriffs-URLs
+* Plattformeinstellungen können pro Zugriffs-URL angepasst werden
+* Branding und Themes können sich je nach URL unterscheiden
+* Benutzer eines Portals können Benutzer oder Kurse eines anderen Portals nicht sehen (es sei denn, sie werden explizit freigegeben)
 
-* Users can be assigned to one or more access URLs
-* Courses and sessions belong to specific access URLs
-* Platform settings can be customized per access URL
-* Branding and themes can differ per URL
-* Users on one portal cannot see users or courses on another (unless explicitly shared)
+## Konfiguration
 
-## Configuration
+### Aktivierung von Multi-URL
 
-### Enabling Multi-URL
+Multi-URL muss in der Chamilo-Konfiguration aktiviert werden (normalerweise in den Umgebungseinstellungen). Dies geschieht in der Regel während der Erstinstallation.
 
-Multi-URL must be enabled in the Chamilo configuration (typically in the environment settings). This is usually done during initial setup.
+### Erstellen einer Zugriffs-URL
 
-### Creating an Access URL
+1. Navigieren Sie im Verwaltungsbereich zu **Zugriffs-URLs**
+2. Klicken Sie auf **URL hinzufügen**
+3. Geben Sie die URL ein (z. B. `https://portal2.yoursite.com`)
+4. Konfigurieren Sie die spezifischen Einstellungen für diese URL
+5. Speichern
 
-1. From the administration panel, navigate to **Access URLs**
-2. Click **Add a URL**
-3. Enter the URL (e.g., `https://portal2.yoursite.com`)
-4. Configure settings specific to this URL
-5. Save
+### Zuweisung von Benutzern und Kursen
 
-### Assigning Users and Courses
+* **Benutzer** — Weisen Sie Benutzer bestimmten Zugriffs-URLs zu. Ein Benutzer kann mehreren URLs zugeordnet sein.
+* **Kurse** — Weisen Sie Kurse bestimmten Zugriffs-URLs zu
+* **Sitzungen** — Weisen Sie Sitzungen bestimmten Zugriffs-URLs zu
 
-* **Users** — Assign users to specific access URLs. A user can belong to multiple URLs.
-* **Courses** — Assign courses to specific access URLs
-* **Sessions** — Assign sessions to specific access URLs
+### Einstellungen pro URL
 
-### Per-URL Settings
+Jede Zugriffs-URL kann Folgendes haben:
 
-Each access URL can have its own:
+* **Farbschema** — Unterschiedliches visuelles Branding
+* **Plattformname und Logo** — Individuelle Identität
+* **Einstellungsüberschreibungen** — Bestimmte Plattformeinstellungen können pro URL angepasst werden
 
-* **Color theme** — Different visual branding
-* **Platform name and logo** — Custom identity
-* **Settings overrides** — Certain platform settings can be customized per URL
+## Tipps
 
-## Tips
-
-* **Decide early** — If choosing a multi-URL setup, you should do that at the start of your Chamilo project as it requires leaving the first URL relatively empty of content. Enabling multi-URL afterwards is more challenging (requires manual databases changes).
-* **Plan URL structure** — Decide on your URL scheme before creating access URLs, as changing URLs later affects all existing links and bookmarks
-* **DNS configuration** — Each access URL must resolve to the same Chamilo server. Configure DNS records accordingly.
-* **Global administrator** — Use the Global Administrator role to manage across all access URLs
+* **Früh entscheiden** — Wenn Sie sich für eine Multi-URL-Konfiguration entscheiden, sollten Sie dies zu Beginn Ihres Chamilo-Projekts tun, da die erste URL relativ leer von Inhalten bleiben muss. Das nachträgliche Aktivieren von Multi-URL ist schwieriger (erfordert manuelle Datenbankänderungen).
+* **URL-Struktur planen** — Legen Sie Ihr URL-Schema fest, bevor Sie Zugriffs-URLs erstellen, da spätere Änderungen der URLs alle bestehenden Links und Lesezeichen beeinflussen
+* **DNS-Konfiguration** — Jede Zugriffs-URL muss auf denselben Chamilo-Server auflösen. Konfigurieren Sie die DNS-Einträge entsprechend.
+* **Globaler Administrator** — Verwenden Sie die Rolle des Globalen Administrators, um alle Zugriffs-URLs zu verwalten

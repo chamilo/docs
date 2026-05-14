@@ -1,58 +1,58 @@
-# Forums
+# Foren
 
-The forum tool allows you to host structured discussions within your course. Learners can post messages, reply to each other, and engage in threaded conversations.
+Das Foren-Tool ermöglicht es Ihnen, strukturierte Diskussionen innerhalb Ihres Kurses zu hosten. Lernende können Nachrichten posten, aufeinander antworten und an thematisch gegliederten Gesprächen teilnehmen.
 
-## Forum Structure
+## Forenstruktur
 
-![The forum category list showing categories, forums, and topic counts](/.gitbook/assets/forum-category-list.png)
+![Die Liste der Forenkategorien mit Kategorien, Foren und Themenzahlen](/.gitbook/assets/forum-category-list.png)
 
-Forums in Chamilo are organized in three levels:
+Foren in Chamilo sind in drei Ebenen organisiert:
 
-1. **Forum categories** — Top-level groupings (e.g., "General Discussions", "Module 1 Questions")
-2. **Forums** — Individual discussion boards within a category
-3. **Topics (threads)** — Individual discussion topics within a forum, each with a chain of replies
+1. **Forenkategorien** — Übergeordnete Gruppierungen (z. B. "Allgemeine Diskussionen", "Fragen zu Modul 1")
+2. **Foren** — Einzelne Diskussionsforen innerhalb einer Kategorie
+3. **Themen (Threads)** — Einzelne Diskussionsthemen innerhalb eines Forums, jeweils mit einer Kette von Antworten
 
-## Creating a Forum Category
+## Erstellen einer Forenkategorie
 
-1. Open the **Forums** <img src="/.gitbook/assets/icons/mdi-comment-quote.svg" alt="Forums" data-size="line"> tool from your course homepage
-2. Click **Add a forum category**
-3. Enter a **Category name** and optional description
-4. Save
+1. Öffnen Sie das **Foren**-Tool <img src="/.gitbook/assets/icons/mdi-comment-quote.svg" alt="Foren" data-size="line"> über die Startseite Ihres Kurses
+2. Klicken Sie auf **Forenkategorie hinzufügen**
+3. Geben Sie einen **Kategoriennamen** und optional eine Beschreibung ein
+4. Speichern
 
-## Creating a Forum
+## Erstellen eines Forums
 
-You can only add a forum once at least one category exists.
+Sie können ein Forum erst dann hinzufügen, wenn mindestens eine Kategorie existiert.
 
-1. Within a category, click **Add a forum**
-2. Fill in the basic details:
-   * **Title** — The name of this discussion board
-   * **Description** — An optional description of the forum's purpose
-   * **Create in category** — The category this forum belongs to
-3. Open **Advanced settings** to configure:
-   * **Publication date** / **Closing date** — Optional time window during which the forum is open
-   * **Moderated forum** — Require new posts to be approved by a teacher before they become visible
-   * **Can learners edit their own posts?** — Allow or prevent learners from editing posts after submitting
-   * **Allow users to start new threads** — When set to No, learners can only reply to existing threads
-   * **Default view type** — Choose how posts are displayed: **Flat**, **Threaded**, or **Nested**
-   * **For Group** — Attach this forum to a course group
-   * **Public access / Private access** — For group forums, decide whether any course member can read it or only group members
-4. Save
+1. Klicken Sie innerhalb einer Kategorie auf **Forum hinzufügen**
+2. Füllen Sie die grundlegenden Details aus:
+   * **Titel** — Der Name dieses Diskussionsforums
+   * **Beschreibung** — Eine optionale Beschreibung des Zwecks des Forums
+   * **In Kategorie erstellen** — Die Kategorie, zu der dieses Forum gehört
+3. Öffnen Sie **Erweiterte Einstellungen**, um Folgendes zu konfigurieren:
+   * **Veröffentlichungsdatum** / **Schließungsdatum** — Optionaler Zeitraum, währenddessen das Forum geöffnet ist
+   * **Moderiertes Forum** — Erfordert, dass neue Beiträge von einem Lehrer genehmigt werden, bevor sie sichtbar werden
+   * **Können Lernende ihre eigenen Beiträge bearbeiten?** — Erlauben oder verhindern Sie, dass Lernende Beiträge nach dem Absenden bearbeiten
+   * **Benutzern erlauben, neue Threads zu starten** — Wenn auf Nein gesetzt, können Lernende nur auf bestehende Threads antworten
+   * **Standardansichtstyp** — Wählen Sie, wie Beiträge angezeigt werden: **Flach**, **Threaded** (verzweigt) oder **Nested** (verschachtelt)
+   * **Für Gruppe** — Dieses Forum einer Kursgruppe zuordnen
+   * **Öffentlicher Zugriff / Privater Zugriff** — Bei Gruppenforen entscheiden, ob jedes Kursmitglied lesen kann oder nur Gruppenmitglieder
+4. Speichern
 
-If the course visibility is set to "Open to the world", the form also shows an **Allow anonymous posts?** option. This option is hidden in courses with restricted visibility.
+Wenn die Kurssichtbarkeit auf "Für die Welt offen" eingestellt ist, zeigt das Formular auch die Option **Anonyme Beiträge erlauben?**. Diese Option ist bei Kursen mit eingeschränkter Sichtbarkeit ausgeblendet.
 
-## Managing Topics
+## Verwalten von Themen
 
-Learners (and you) can create new topics within a forum. As a teacher, you can:
+Lernende (und Sie) können neue Themen innerhalb eines Forums erstellen. Als Lehrer können Sie:
 
-* **Pin a topic (sticky message)** — Mark a thread as sticky when you create or edit it so it always appears at the top
-* **Lock a topic** — Prevent further replies
-* **Edit or delete posts** — Moderate the discussion
-* **Move a topic** — Transfer a topic to a different forum
+* **Ein Thema anpinnen (wichtige Nachricht)** — Markieren Sie einen Thread als wichtig, wenn Sie ihn erstellen oder bearbeiten, damit er immer oben angezeigt wird
+* **Ein Thema sperren** — Verhindern Sie weitere Antworten
+* **Beiträge bearbeiten oder löschen** — Moderieren Sie die Diskussion
+* **Ein Thema verschieben** — Übertragen Sie ein Thema in ein anderes Forum
 
-## Forum Scoring
+## Forenbewertung
 
-When creating a new thread as a teacher, you can enable **Grade this thread** under Advanced settings. You then set a maximum score, a column header for the gradebook, and a weight in the report. You can also enable **Thread scored by peers**, which requires each learner to qualify at least two other learners before their own score counts.
+Wenn Sie als Lehrer einen neuen Thread erstellen, können Sie unter den erweiterten Einstellungen **Diesen Thread bewerten** aktivieren. Sie legen dann eine Höchstpunktzahl, eine Spaltenüberschrift für das Notenbuch und ein Gewicht im Bericht fest. Sie können auch **Thread von Peers bewertet** aktivieren, was erfordert, dass jeder Lernende mindestens zwei andere Lernende bewertet, bevor die eigene Bewertung zählt.
 
-## Notifications
+## Benachrichtigungen
 
-Each forum and thread has a **Notify me** toggle that you and your learners can use to subscribe to email notifications about new posts. Notifications are a per-user subscription and are not configured when creating the forum.
+Jedes Forum und jeder Thread hat einen **Benachrichtige mich**-Schalter, den Sie und Ihre Lernenden verwenden können, um E-Mail-Benachrichtigungen über neue Beiträge zu abonnieren. Benachrichtigungen sind eine individuelle Einstellung pro Benutzer und werden nicht beim Erstellen des Forums konfiguriert.

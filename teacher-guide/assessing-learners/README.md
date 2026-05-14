@@ -1,13 +1,13 @@
-# Assessing Learners
+# Bewertung der Lernenden
 
-Chamilo provides a comprehensive set of tools for evaluating your learners' knowledge and tracking their performance.
+Chamilo bietet eine umfassende Palette von Werkzeugen zur Bewertung des Wissens Ihrer Lernenden und zur Verfolgung ihrer Leistungen.
 
-* **[Exercises](exercises.md)** — Create quizzes and tests with a variety of question types, automatic grading, and detailed feedback
-* **[Assignments](assignments.md)** — Collect homework and projects from learners, with support for file uploads, peer review, and manual or AI-assisted grading
-* **[Surveys](surveys.md)** — Gather feedback from learners through customizable questionnaires
-* **[Attendance](attendance.md)** — Track learner presence in class sessions
-* **[Gradebook](gradebook.md)** — Combine scores from exercises, assignments, and other activities into a unified grade, and award certificates
+* **[Übungen](exercises.md)** — Erstellen Sie Quizze und Tests mit einer Vielzahl von Fragetypen, automatischer Bewertung und detailliertem Feedback
+* **[Aufgaben](assignments.md)** — Sammeln Sie Hausaufgaben und Projekte von Lernenden, mit Unterstützung für Datei-Uploads, Peer-Reviews und manueller oder KI-gestützter Bewertung
+* **[Umfragen](surveys.md)** — Erhalten Sie Feedback von Lernenden durch anpassbare Fragebögen
+* **[Anwesenheit](attendance.md)** — Verfolgen Sie die Anwesenheit der Lernenden in Kurssitzungen
+* **[Notenbuch](gradebook.md)** — Kombinieren Sie Bewertungen aus Übungen, Aufgaben und anderen Aktivitäten zu einer einheitlichen Note und verleihen Sie Zertifikate
 
-The **Reporting** tool is still present but moved to the top of the course homepage for the teacher, as a small chart icon. This is the central place to access progress information for the whole course and its students.
+Das **Reporting**-Tool ist weiterhin vorhanden, wurde jedoch für den Lehrer an den oberen Rand der Kurs-Startseite verschoben und erscheint als kleines Diagramm-Symbol. Dies ist der zentrale Ort, um Fortschrittsinformationen für den gesamten Kurs und seine Teilnehmer abzurufen.
 
-These tools work together: exercise scores and assignment grades can feed into the Gradebook, which can be linked to certificate generation and skill validation.
+Diese Werkzeuge arbeiten zusammen: Ergebnisse aus Übungen und Noten von Aufgaben können in das Notenbuch einfließen, das mit der Erstellung von Zertifikaten und der Validierung von Kompetenzen verknüpft werden kann.

@@ -1,53 +1,53 @@
-# AI Tutor
+# KI-Tutor
 
-The AI Tutor is a chatbot integrated into Chamilo that learners can interact with to ask course-related questions. It provides instant, context-aware responses powered by a large language model.
+Der KI-Tutor ist ein Chatbot, der in Chamilo integriert ist und mit dem Lernende interagieren können, um kursbezogene Fragen zu stellen. Er liefert sofortige, kontextbezogene Antworten, die von einem großen Sprachmodell unterstützt werden.
 
-## How It Works
+## Wie es funktioniert
 
-When the AI Tutor is enabled for a course, learners see a chat interface where they can:
+Wenn der KI-Tutor für einen Kurs aktiviert ist, sehen die Lernenden eine Chat-Oberfläche, über die sie:
 
-* **Ask questions** about course content
-* **Get explanations** of concepts covered in the course
-* **Receive guidance** without waiting for the teacher to respond
+* **Fragen stellen** zu den Kursinhalten
+* **Erklärungen erhalten** zu Konzepten, die im Kurs behandelt werden
+* **Anleitung bekommen**, ohne auf eine Antwort des Lehrers warten zu müssen
 
-The AI Tutor uses the course context to provide relevant answers. It is designed to supplement your teaching, not replace it.
+Der KI-Tutor nutzt den Kurskontext, um relevante Antworten zu geben. Er ist darauf ausgelegt, Ihre Lehrtätigkeit zu ergänzen, nicht zu ersetzen.
 
-## Enabling the AI Tutor
+## Aktivierung des KI-Tutors
 
-The AI Tutor requires two levels of configuration:
+Der KI-Tutor erfordert zwei Konfigurationsebenen:
 
-1. **Platform level** — The administrator must enable AI helpers and configure at least one AI provider (see [AI Configuration](../../admin-guide/integrations/ai-configuration.md))
-2. **Course level** — The AI Tutor must be enabled in the course settings (a simple on/off toggle). The provider used for the chat is the one configured by the administrator.
+1. **Plattformebene** — Der Administrator muss KI-Hilfsprogramme aktivieren und mindestens einen KI-Anbieter konfigurieren (siehe [KI-Konfiguration](../../admin-guide/integrations/ai-configuration.md))
+2. **Kurserbene** — Der KI-Tutor muss in den Kurseinstellungen aktiviert werden (ein einfacher Ein-/Aus-Schalter). Der für den Chat verwendete Anbieter ist derjenige, der vom Administrator konfiguriert wurde.
 
-## The Chat Interface
+## Die Chat-Oberfläche
 
-![The AI Tutor chat interface showing a conversation between a learner and the AI](/.gitbook/assets/ai-tutor-chat.png)
+![Die Chat-Oberfläche des KI-Tutors zeigt eine Unterhaltung zwischen einem Lernenden und der KI](/.gitbook/assets/ai-tutor-chat.png)
 
-The AI Tutor appears as a **docked chat panel** within the course. Learners can:
+Der KI-Tutor erscheint als **angedocktes Chat-Fenster** innerhalb des Kurses. Lernende können:
 
-* Type messages and receive AI-generated responses
-* View their conversation history
-* Reset the conversation to start fresh
+* Nachrichten eingeben und KI-generierte Antworten erhalten
+* Ihren Gesprächsverlauf einsehen
+* Die Unterhaltung zurücksetzen, um neu zu beginnen
 
-The chat interface shows the exchange between the learner and the AI in a familiar messaging format.
+Die Chat-Oberfläche zeigt den Austausch zwischen dem Lernenden und der KI in einem vertrauten Nachrichtenformat.
 
-## Important Behavior
+## Wichtiges Verhalten
 
-* **Course context only** — The AI Tutor is only available inside a course, not on the general platform
-* **Disabled during exams** — The AI Tutor is automatically disabled when a learner is taking an exercise, to prevent cheating
-* **Conversation per learner** — Each learner has their own private conversation with the AI Tutor, and the prompt context only includes the most recent messages
-* **Provider failover** — If the configured provider fails, Chamilo falls back to another available provider so the chat keeps working
+* **Nur im Kurskontext** — Der KI-Tutor ist nur innerhalb eines Kurses verfügbar, nicht auf der allgemeinen Plattform
+* **Deaktiviert während Prüfungen** — Der KI-Tutor wird automatisch deaktiviert, wenn ein Lernender eine Übung macht, um Betrug zu verhindern
+* **Unterhaltung pro Lernendem** — Jeder Lernende hat seine eigene private Unterhaltung mit dem KI-Tutor, und der Kontext der Eingabe umfasst nur die neuesten Nachrichten
+* **Anbieter-Ausfallsicherung** — Wenn der konfigurierte Anbieter ausfällt, greift Chamilo auf einen anderen verfügbaren Anbieter zurück, damit der Chat weiterhin funktioniert
 
-## As a Teacher
+## Als Lehrkraft
 
-You should be aware that:
+Sie sollten Folgendes beachten:
 
-* The AI Tutor may not always give perfect answers — encourage learners to verify important information
-* You can review AI Tutor usage through platform tracking
-* The AI Tutor is a complement to your teaching, not a substitute. Use it alongside forums, announcements, and direct messaging for comprehensive learner support.
+* Der KI-Tutor liefert möglicherweise nicht immer perfekte Antworten — ermutigen Sie Lernende, wichtige Informationen zu überprüfen
+* Sie können die Nutzung des KI-Tutors über die Plattform-Tracking-Funktion überprüfen
+* Der KI-Tutor ist eine Ergänzung zu Ihrer Lehrtätigkeit, kein Ersatz. Nutzen Sie ihn neben Foren, Ankündigungen und direkter Kommunikation für eine umfassende Unterstützung der Lernenden.
 
-## Tips
+## Tipps
 
-* **Set expectations** — Tell learners at the start of the course that an AI Tutor is available and explain how to use it appropriately
-* **Encourage critical thinking** — Remind learners to think critically about AI-generated answers
-* **Use for frequently asked questions** — The AI Tutor is especially useful for handling common questions that you would otherwise answer repeatedly
+* **Erwartungen setzen** — Informieren Sie die Lernenden zu Beginn des Kurses darüber, dass ein KI-Tutor verfügbar ist, und erklären Sie, wie er angemessen genutzt werden sollte
+* **Kritisches Denken fördern** — Erinnern Sie die Lernenden daran, KI-generierte Antworten kritisch zu hinterfragen
+* **Für häufig gestellte Fragen nutzen** — Der KI-Tutor ist besonders nützlich, um häufige Fragen zu beantworten, die Sie sonst wiederholt beantworten müssten

@@ -1,361 +1,358 @@
-# Course Settings
+# Kurseinstellungen
 
-Defaults and policies that apply to courses across the platform — visibility, creation rights, allowed tools, learner permissions, and similar.
+Standardwerte und Richtlinien, die für Kurse auf der gesamten Plattform gelten – Sichtbarkeit, Erstellungsrechte, erlaubte Werkzeuge, Berechtigungen für Lernende und Ähnliches.
 
-Access these settings under **Administration > Configuration settings > Course**. This category contains **45 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+Greifen Sie auf diese Einstellungen unter **Verwaltung > Konfigurationseinstellungen > Kurs** zu. Diese Kategorie enthält **45 Einstellungen**, die unten mit dem Titel und dem Kommentar aufgeführt sind, wie sie in den Einstellungs-Fixtures der Plattform (`SettingsCurrentFixtures.php`) ausgeliefert werden.
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> Der Variablenname im Code wird in Monospace angezeigt. Verwenden Sie ihn, wenn Sie über die API skripten oder wenn Sie diese Einstellungen auf globaler Ebene ändern möchten, indem Sie [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml) bearbeiten.
 
-## Settings
+## Einstellungen
 
 ### `active_tools_on_create`
 
-**Active tools on course creation**
+**Aktive Werkzeuge bei Kurserstellung**
 
-Select the tools that will be *active* after the creation of a course.
+Wählen Sie die Werkzeuge aus, die nach der Erstellung eines Kurses *aktiv* sein sollen.
 
-*Default:*
+*Standard:*
 ```
 agenda,announcement,attendance,bbb,blog,chat,course_description,course_progress,customcertificate,document,dropbox,forum,global,glossary,gradebook,group,learnpath,link,mobidico,notebook,notebookteacher,portfolio,positioning,quiz,student_publication,survey,test2pdf,tracking,user,wiki,zoom
 ```
 
 ### `allow_base_course_category`
 
-**Use course categories from top URL**
+**Kurskategorien von der Haupt-URL verwenden**
 
-In multi-URL settings, allow admins and teachers to assign categories from the top URL to courses in the children URLs.
+In Multi-URL-Einstellungen erlauben Sie Administratoren und Lehrenden, Kategorien von der Haupt-URL Kursen in den untergeordneten URLs zuzuweisen.
 
-*Default: `false`*
+*Standard: `false`*
 
 ### `allow_course_theme`
 
-**Allow course themes**
+**Kursthemen erlauben**
 
-Allows course graphical themes and makes it possible to change the style sheet used by a course to any of the possible style sheets available to Chamilo. When a user enters the course, the style sheet of the course will have priority over the user's own style sheet and the platform's default style sheet.
+Ermöglicht grafische Kursthemen und macht es möglich, das Stylesheet, das von einem Kurs verwendet wird, auf eines der verfügbaren Stylesheets von Chamilo zu ändern. Wenn ein Benutzer den Kurs betritt, hat das Stylesheet des Kurses Vorrang vor dem eigenen Stylesheet des Benutzers und dem Standard-Stylesheet der Plattform.
 
-*Default: `true`*
+*Standard: `true`*
 
 ### `allow_public_course_with_no_terms_conditions`
 
-**Access public courses with terms and conditions**
+**Zugriff auf öffentliche Kurse mit Nutzungsbedingungen**
 
-With this option enabled, if a course has public visibility and terms and conditions, those terms are disabled while the course is public.
+Wenn diese Option aktiviert ist, werden bei einem Kurs mit öffentlicher Sichtbarkeit und Nutzungsbedingungen diese Bedingungen deaktiviert, solange der Kurs öffentlich ist.
 
-*Default: `false`*
+*Standard: `false`*
 
 ### `block_registered_users_access_to_open_course_contents`
 
-**Block public courses access to authenticated users**
+**Zugriff auf öffentliche Kurse für authentifizierte Benutzer blockieren**
 
-Only show public courses. Do not allow registered users to access courses with 'open' visibility unless they are subscribed to each of these courses.
+Zeigen Sie nur öffentliche Kurse an. Erlauben Sie registrierten Benutzern keinen Zugriff auf Kurse mit „offener“ Sichtbarkeit, es sei denn, sie sind für jeden dieser Kurse eingeschrieben.
 
-*Default: `false`*
+*Standard: `false`*
 
 ### `breadcrumbs_course_homepage`
 
-**Course homepage breadcrumb**
+**Breadcrumb auf der Kurs-Startseite**
 
-The breadcrumb is the horizontal links navigation system usually in the top left of your page. This option selects what you want to appear in the breadcrumb on courses' homepages
+Das Breadcrumb ist das horizontale Navigationssystem mit Links, das sich normalerweise oben links auf Ihrer Seite befindet. Diese Option legt fest, was im Breadcrumb auf den Startseiten der Kurse angezeigt werden soll.
 
-*Default: `course_title`*
+*Standard: `course_title`*
 
 ### `course_about_teacher_name_hide`
 
-**Hide course teacher info on course details page**
+**Lehrerinformationen auf der Kursdetailseite ausblenden**
 
-On the course details page, hide the teacher information.
+Blenden Sie auf der Kursdetailseite die Informationen zum Lehrer aus.
 
-*Default: `false`*
+*Standard: `false`*
 
 ### `course_category_code_to_use_as_model`
 
-**Restrict course templates to one course category**
+**Kursvorlagen auf eine Kurskategorie beschränken**
 
-Give a category code to use as course templates. Only those courses will show in the drop-down at course creation time, and users won’t see the courses in this category from the courses catalogue.
+Geben Sie einen Kategorien-Code an, der als Kursvorlagen verwendet werden soll. Nur diese Kurse werden bei der Kurserstellung im Dropdown-Menü angezeigt, und Benutzer sehen die Kurse dieser Kategorie nicht im Kurskatalog.
 
 ### `course_configuration_tool_extra_fields_to_show_and_edit`
 
-**Extra fields to show in course settings**
+**Zusätzliche Felder in den Kurseinstellungen anzeigen**
 
-The fields defined in this array will appear on the course settings page.
+Die in diesem Array definierten Felder werden auf der Seite mit den Kurseinstellungen angezeigt.
 
 ### `course_creation_by_teacher_extra_fields_to_show`
 
-**Extra fields to show on course creation form**
+**Zusätzliche Felder im Kurserstellungsformular anzeigen**
 
-The fields defined in this array will appear as additional fields in the course creation form.
+Die in diesem Array definierten Felder werden als zusätzliche Felder im Kurserstellungsformular angezeigt.
 
 ### `course_creation_donate_link`
 
-**Donation link on course creation page**
+**Spendenlink auf der Kurserstellungsseite**
 
-The page the donation message should link to (full URL).
+Die Seite, auf die die Spendennachricht verlinken soll (vollständige URL).
 
 ### `course_creation_donate_message_show`
 
-**Show donate message on course creation page**
+**Spendennachricht auf der Kurserstellungsseite anzeigen**
 
-Add a message box in the course creation page for teachers, asking them to donate to the project.
+Fügen Sie eine Nachricht auf der Kurserstellungsseite für Lehrende hinzu, die sie auffordert, für das Projekt zu spenden.
 
-*Default: `false`*
+*Standard: `false`*
 
 ### `course_creation_form_hide_course_code`
 
-**Remove course code field from course creation form**
+**Kurs-Code-Feld aus dem Kurserstellungsformular entfernen**
 
-If not provided, the course code is generated by default based on the course title, so enable this option to remove the code field from the course creation form altogether.
+Wenn nicht angegeben, wird der Kurs-Code standardmäßig basierend auf dem Kurstitel generiert. Aktivieren Sie diese Option, um das Code-Feld vollständig aus dem Kurserstellungsformular zu entfernen.
 
-*Default: `false`*
+*Standard: `false`*
 
 ### `course_creation_form_set_course_category_mandatory`
 
-**Set course category mandatory**
+**Kurskategorie als Pflichtfeld festlegen**
 
-When creating a course, make the course category a required setting.
+Machen Sie bei der Kurserstellung die Kurskategorie zu einer erforderlichen Einstellung.
 
-*Default: `false`*
+*Standard: `false`*
 
 ### `course_creation_form_set_extra_fields_mandatory`
 
-**Extra fields to require on course creation form**
+**Zusätzliche Felder im Kurserstellungsformular als Pflichtfelder festlegen**
 
-The fields defined in this array will be mandatory in the course creation form.
+Die in diesem Array definierten Felder werden im Kurserstellungsformular als Pflichtfelder festgelegt.
 
 ### `course_creation_splash_screen`
 
-**Splash screen for courses**
+**Begrüßungsbildschirm für Kurse**
 
-Show a splash screen when creating a new course.
+Zeigen Sie bei der Erstellung eines neuen Kurses einen Begrüßungsbildschirm an.
 
-*Default: `true`*
+*Standard: `true`*
 
+---
 ### `course_creation_use_template`
 
-**Use template course for new courses**
+**Vorlagekurs für neue Kurse verwenden**
 
-Set this to use the same template course (identified by its course numeric ID in the database) for all new courses that will be created on the platform. Please note that, if not properly planned, this setting might have a massive impact on space usage. The template course will be used as if the teacher did a copy of the course with the course backup tools, so no user content is copied, only teacher material. All other course-backup rules apply. Leave empty (or set to 0) to disable.
+Legen Sie fest, dass für alle neuen Kurse, die auf der Plattform erstellt werden, derselbe Vorlagekurs (identifiziert durch seine numerische Kurs-ID in der Datenbank) verwendet wird. Bitte beachten Sie, dass diese Einstellung, wenn sie nicht sorgfältig geplant ist, erhebliche Auswirkungen auf den Speicherplatzverbrauch haben kann. Der Vorlagekurs wird so verwendet, als ob der Lehrer eine Kopie des Kurses mit den Kurs-Backup-Tools erstellt hätte, sodass keine Benutzerinhalte kopiert werden, sondern nur das Material des Lehrers. Alle anderen Regeln für Kurs-Backups gelten. Lassen Sie das Feld leer (oder setzen Sie es auf 0), um diese Funktion zu deaktivieren.
 
 ### `course_creation_user_course_extra_field_relation_to_prefill`
 
-**Prefill course fields with fields from user**
+**Kursfelder mit Benutzerfeldern vorab ausfüllen**
 
-If not empty, the course creation process will look for some fields in the user profile and auto-fill them for the course. For example, a teacher specialized in digital marketing could automatically set a « digital marketing » flag on each course (s)he creates.
+Wenn dieses Feld nicht leer ist, sucht der Kurs-Erstellungsprozess nach bestimmten Feldern im Benutzerprofil und füllt diese automatisch für den Kurs aus. Zum Beispiel könnte ein Lehrer, der auf digitales Marketing spezialisiert ist, automatisch eine „Digitales Marketing“-Markierung für jeden von ihm erstellten Kurs setzen.
 
 ### `course_hide_tools`
 
-**Hide tools from teachers**
+**Tools vor Lehrern verbergen**
 
-Check the tools you want to hide from teachers. This will prohibit access to the tool.
+Markieren Sie die Tools, die Sie vor Lehrern verbergen möchten. Dies verhindert den Zugriff auf das jeweilige Tool.
 
 ### `course_images_in_courses_list`
 
-**Courses custom icons**
+**Benutzerdefinierte Kurs-Icons**
 
-Use course images as the course icon in courses lists (instead of the default green blackboard icon).
+Verwenden Sie Kursbilder als Kurs-Icon in Kurslisten (anstelle des standardmäßigen grünen Tafel-Icons).
 
-*Default: `true`*
+*Standard: `true`*
 
 ### `course_log_default_extra_fields`
 
-**User extra fields by default in course stats page**
+**Standardmäßige zusätzliche Benutzerfelder auf der Kursstatistikseite**
 
-Configure this array with the internal IDs of the extra fields you want to show by default in the main course stats page.
+Konfigurieren Sie dieses Array mit den internen IDs der zusätzlichen Felder, die Sie standardmäßig auf der Haupt-Kursstatistikseite anzeigen möchten.
 
 ### `course_log_hide_columns`
 
-**Hide columns from course logs**
+**Spalten in Kursprotokollen ausblenden**
 
-This array gives you the possibility to configure which columns to hide in the main course stats page and in the total time report.
+Dieses Array ermöglicht es Ihnen, zu konfigurieren, welche Spalten auf der Haupt-Kursstatistikseite und im Gesamtzeitbericht ausgeblendet werden sollen.
 
 ### `course_sequence_valid_only_in_same_session`
 
-**Validate prerequisites only within the same session**
+**Voraussetzungen nur innerhalb derselben Sitzung validieren**
 
-When enabled, a course will be considered validated only if passed within the current session. If disabled, courses passed in other sessions will also unlock dependent courses.
+Wenn aktiviert, gilt ein Kurs nur dann als abgeschlossen, wenn er innerhalb der aktuellen Sitzung bestanden wurde. Wenn deaktiviert, werden auch in anderen Sitzungen bestandene Kurse abhängige Kurse freischalten.
 
-*Default: `false`*
-
+*Standard: `false`*
 
 ### `course_student_info`
 
-**Course student info display**
+**Anzeige von Kursinformationen für Studierende**
 
-On the ‘My courses’/’My sessions’ pages, show additional information regarding the score, progress and/or certificate acquisition by the student.
+Zeigen Sie auf den Seiten „Meine Kurse“/„Meine Sitzungen“ zusätzliche Informationen zu Punktestand, Fortschritt und/oder Zertifikatserwerb des Studierenden an.
 
 ### `course_validation`
 
-**Courses validation**
+**Kursvalidierung**
 
-When the 'Courses validation' feature is enabled, a teacher is not able to create a course alone. He/she fills a course request. The platform administrator reviews the request and approves it or rejects it.<br />This feature relies on automated e-mail messaging; set Chamilo to access an e-mail server and to use a dedicated an e-mail account.
+Wenn die Funktion „Kursvalidierung“ aktiviert ist, kann ein Lehrer keinen Kurs allein erstellen. Er/Sie füllt eine Kursanfrage aus. Der Plattformadministrator prüft die Anfrage und genehmigt oder lehnt sie ab.<br />Diese Funktion basiert auf automatisierten E-Mail-Nachrichten; konfigurieren Sie Chamilo so, dass es auf einen E-Mail-Server zugreifen kann und ein dediziertes E-Mail-Konto verwendet.
 
-*Default: `false`*
-
+*Standard: `false`*
 
 ### `course_validation_terms_and_conditions_url`
 
-**Course validation - a link to the terms and conditions**
+**Kursvalidierung – Link zu den Nutzungsbedingungen**
 
-This is the URL to the 'Terms and Conditions' document that is valid for making a course request. If the address is set here, the user should read and agree with these terms and conditions before sending a course request.<br />If you enable Chamilo's 'Terms and Conditions' module and if you want its URL to be used, then leave this setting empty.
+Dies ist die URL zum Dokument „Nutzungsbedingungen“, das für die Beantragung eines Kurses gilt. Wenn die Adresse hier eingestellt ist, muss der Benutzer diese Nutzungsbedingungen lesen und ihnen zustimmen, bevor er eine Kursanfrage sendet.<br />Wenn Sie Chamilos Modul „Nutzungsbedingungen“ aktivieren und dessen URL verwenden möchten, lassen Sie diese Einstellung leer.
 
 ### `courses_default_creation_visibility`
 
-**Default course visibility**
+**Standard-Sichtbarkeit von Kursen**
 
-Default course visibility while creating a new course
+Standard-Sichtbarkeit beim Erstellen eines neuen Kurses.
 
-*Default: `2`*
-
+*Standard: `2`*
 
 ### `display_coursecode_in_courselist`
 
-**Display Code in Course name**
+**Kurskode in Kursnamen anzeigen**
 
-Display Course Code in courses list
+Kurskode in der Kursliste anzeigen.
 
-*Default: `false`*
-
+*Standard: `false`*
 
 ### `display_teacher_in_courselist`
 
-**Display teacher in course name**
+**Lehrer in Kursnamen anzeigen**
 
-Display teacher in courses list
+Lehrer in der Kursliste anzeigen.
 
-*Default: `true`*
-
+*Standard: `true`*
 
 ### `enable_tool_introduction`
 
-**Enable tool introduction**
+**Tool-Einführung aktivieren**
 
-Enable introductions on each tool's homepage
+Einführungen auf der Startseite jedes Tools aktivieren.
 
-*Default: `false`*
-
+*Standard: `false`*
 
 ### `enable_unsubscribe_button_on_my_course_page`
 
-**Show unsubscribe button in ‘My courses’**
+**Abmeldebutton auf der Seite „Meine Kurse“ anzeigen**
 
-Add a button to unsubscribe from a course on the ‘My courses’ page.
+Fügen Sie auf der Seite „Meine Kurse“ einen Button hinzu, um sich von einem Kurs abzumelden.
 
-*Default: `false`*
+*Standard: `false`*
 
 ### `example_material_course_creation`
 
-**Example material on course creation**
+**Beispielmaterial bei Kurserstellung**
 
-Create example material automatically when creating a new course
+Beispielmaterial automatisch bei der Erstellung eines neuen Kurses erstellen.
 
-*Default: `true`*
-
+*Standard: `true`*
 
 ### `hide_course_rating`
 
-**Hide course rating**
+**Kursbewertung ausblenden**
 
-The course rating feature comes by default in different places. If you don’t want it, enable this option.
+Die Kursbewertungsfunktion ist standardmäßig an verschiedenen Stellen verfügbar. Wenn Sie diese nicht möchten, aktivieren Sie diese Option.
 
-*Default: `false`*
+*Standard: `false`*
 
 ### `hide_course_sidebar`
 
-**Hide courses block in the sidebar**
+**Kursblock in der Seitenleiste ausblenden**
 
-When on screens where the left menu is visible, do not display the « Courses » section.
+Blenden Sie auf Bildschirmen, auf denen das linke Menü sichtbar ist, den Abschnitt „Kurse“ aus.
 
-*Default: `true`*
+*Standard: `true`*
 
 ### `multiple_access_url_show_shared_course_marker`
 
-**Show multi-URL shared course marker**
+**Marker für geteilte Kurse bei Multi-URL anzeigen**
 
-Adds a link icon to courses that are shared between URLs, so users (in particular teachers) know they have to take special care when editing the course content.
+Fügt einen Link-Icon zu Kursen hinzu, die zwischen URLs geteilt werden, damit Benutzer (insbesondere Lehrer) wissen, dass sie beim Bearbeiten der Kursinhalte besondere Vorsicht walten lassen müssen.
 
-*Default: `false`*
+*Standard: `false`*
 
 ### `my_courses_show_courses_in_user_language_only`
 
-**Only show courses in the user’s language**
+**Nur Kurse in der Sprache des Benutzers anzeigen**
 
-If enabled, this option will hide all courses not set in the user’s language.
+Wenn aktiviert, blendet diese Option alle Kurse aus, die nicht in der Sprache des Benutzers eingestellt sind.
 
-*Default: `false`*
+*Standard: `false`*
 
+---
 ### `profiling_filter_adding_users`
 
-**Filter users on profile fields on subscription to course**
+**Benutzer basierend auf Profilfeldern bei der Kursanmeldung filtern**
 
-Allow teachers to filter the users based on extra fields on the page to subscribe users to their course.
+Erlaubt Lehrenden, Benutzer auf der Seite zur Kursanmeldung anhand zusätzlicher Felder zu filtern.
 
-*Default: `false`*
+*Standard: `false`*
 
 
 ### `resource_sequence_show_dependency_in_course_intro`
 
-**Show dependencies in course intro**
+**Abhängigkeiten in der Kursübersicht anzeigen**
 
-When using resources sequencing with courses or sessions, show the dependencies of the course on the course’s homepage.
+Bei der Verwendung von Ressourcen-Sequenzen in Kursen oder Sitzungen werden die Abhängigkeiten des Kurses auf der Startseite des Kurses angezeigt.
 
-*Default: `false`*
+*Standard: `false`*
+
 
 ### `scorm_cumulative_session_time`
 
-**Cumulative session time for SCORM**
+**Kumulative Sitzungszeit für SCORM**
 
-When enabled, the session time for SCORM Learning Paths will be cumulative, otherwise, it will only be counted from the last update time. This is a global setting. It is used when creating a new Learning Path but can then be redefined for each one.
+Wenn aktiviert, wird die Sitzungszeit für SCORM-Lernpfade kumulativ berechnet, andernfalls wird sie nur ab dem letzten Aktualisierungszeitpunkt gezählt. Dies ist eine globale Einstellung. Sie wird beim Erstellen eines neuen Lernpfads verwendet, kann aber für jeden Lernpfad individuell angepasst werden.
 
-*Default: `true`*
+*Standard: `true`*
 
 
 ### `send_email_to_admin_when_create_course`
 
-**E-mail alert on course creation**
+**E-Mail-Benachrichtigung bei Kurserstellung**
 
-Send an email to the platform administrator each time a teacher creates a new course
+Sendet eine E-Mail an den Plattformadministrator, jedes Mal wenn ein Lehrer einen neuen Kurs erstellt.
 
-*Default: `false`*
+*Standard: `false`*
 
 
 ### `show_course_duration`
 
-**Show courses duration**
+**Kursdauer anzeigen**
 
-Display the course duration next to the course title in the course catalogue and the courses list.
+Zeigt die Kursdauer neben dem Kurstitel im Kurskatalog und in der Kursliste an.
 
-*Default: `false`*
+*Standard: `false`*
+
 
 ### `show_navigation_menu`
 
-**Display course navigation menu**
+**Kursnavigationsmenü anzeigen**
 
-Display a navigation menu that quickens access to the tools
+Zeigt ein Navigationsmenü an, das den schnellen Zugriff auf die Werkzeuge erleichtert.
 
-*Default: `false`*
+*Standard: `false`*
 
 
 ### `show_toolshortcuts`
 
-**Tools shortcuts**
+**Werkzeug-Shortcuts**
 
-Show the tool shortcuts in the banner?
+Sollen die Werkzeug-Shortcuts im Banner angezeigt werden?
 
-*Default: `false`*
+*Standard: `false`*
+
 
 ### `student_view_enabled`
 
-**Enable learner view**
+**Lernendenansicht aktivieren**
 
-Enable the learner view, which allows a teacher or admin to see a course as a learner would see it
+Aktiviert die Lernendenansicht, die es einem Lehrer oder Administrator ermöglicht, einen Kurs so zu sehen, wie ihn ein Lernender sehen würde.
 
-*Default: `true`*
+*Standard: `true`*
 
 
 ### `view_grid_courses`
 
-**View courses in a grid layout**
+**Kurse in einem Rasterlayout anzeigen**
 
-View courses in a layout with several courses per line. Otherwise, the layout will show one course per line.
+Zeigt Kurse in einem Layout mit mehreren Kursen pro Zeile an. Andernfalls zeigt das Layout einen Kurs pro Zeile.
 
-*Default: `true`*
-
+*Standard: `true`*

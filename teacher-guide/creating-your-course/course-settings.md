@@ -1,99 +1,100 @@
-# Course Settings
+# Kurseinstellungen
 
-Course settings allow you to control how your course behaves — who can access it, how it appears, and what features are enabled.
+Kurseinstellungen ermöglichen es Ihnen, das Verhalten Ihres Kurses zu steuern – wer darauf zugreifen kann, wie er angezeigt wird und welche Funktionen aktiviert sind.
 
-To access course settings, enter your course and click the **Settings** <img src="/.gitbook/assets/icons/mdi-cog.svg" alt="Settings" data-size="line"> icon next to the **Switch to student view** button.
+Um auf die Kurseinstellungen zuzugreifen, betreten Sie Ihren Kurs und klicken Sie auf das Symbol **Einstellungen** <img src="/.gitbook/assets/icons/mdi-cog.svg" alt="Einstellungen" data-size="line"> neben der Schaltfläche **Zur Studentenansicht wechseln**.
 
-## General Settings
+## Allgemeine Einstellungen
 
-### Course Information
+### Kursinformationen
 
-* **Course title** — The display name of your course
-* **Course language** — The primary language for the course interface
-* **Course category** — The category under which the course appears in the catalog
-* **Course picture** — Upload a thumbnail that represents your course in course listings (will be resized depending on context)
+* **Kurstitel** — Der Anzeigename Ihres Kurses
+* **Kurssprache** — Die Hauptsprache der Kursoberfläche
+* **Kurskategorie** — Die Kategorie, unter der der Kurs im Katalog erscheint
+* **Kursbild** — Laden Sie ein Vorschaubild hoch, das Ihren Kurs in den Kurslisten repräsentiert (wird je nach Kontext in der Größe angepasst)
 
-The course code (the short unique identifier) is set when the course is created and is not editable from this page.
+Der Kurskode (die kurze, eindeutige Kennung) wird bei der Erstellung des Kurses festgelegt und kann auf dieser Seite nicht bearbeitet werden.
 
-By default, all users entering your course will see the whole Chamilo interface in the language of your course. This is an immersive feature. Administrators can change this behaviour, but you can also change it with one of the first options: **Show course in user's language** (set to No by default) if you believe this makes it too hard for your users.
+Standardmäßig sehen alle Benutzer, die Ihren Kurs betreten, die gesamte Chamilo-Oberfläche in der Sprache Ihres Kurses. Dies ist eine immersive Funktion. Administratoren können dieses Verhalten ändern, aber Sie können es auch mit einer der ersten Optionen anpassen: **Kurs in der Sprache des Benutzers anzeigen** (standardmäßig auf Nein eingestellt), falls Sie der Meinung sind, dass dies für Ihre Benutzer zu schwierig ist.
 
-The department and department URL are deprecated fields. They are only maintained for legacy support reasons.
+Die Felder Abteilung und Abteilungs-URL sind veraltet. Sie werden nur aus Gründen der Kompatibilität mit älteren Versionen beibehalten.
 
-If enabled, you can switch the style inside your course with the **Style sheets** option, using existing stylesheets on your portal. This option is often disabled by admins, for a more integrated global design.
+Falls aktiviert, können Sie den Stil innerhalb Ihres Kurses mit der Option **Stylesheets** ändern, indem Sie vorhandene Stylesheets auf Ihrem Portal verwenden. Diese Option wird häufig von Administratoren deaktiviert, um ein einheitlicheres globales Design zu gewährleisten.
 
-### Disk Quota
+### Speicherplatzquote
 
-Each course has a storage limit (disk quota) for uploaded files. The quota is set by the platform administrator. You can see your current limit in the course settings, and the current usage in the **Documents** tool.
+Jeder Kurs hat eine Speicherbegrenzung (Speicherplatzquote) für hochgeladene Dateien. Die Quote wird vom Plattformadministrator festgelegt. Sie können Ihre aktuelle Begrenzung in den Kurseinstellungen einsehen und die aktuelle Nutzung im Tool **Dokumente**.
 
-> If you are running out of space, contact your platform administrator to request a quota increase, or remove unused files from the Documents tool.
+> Wenn Ihnen der Speicherplatz ausgeht, wenden Sie sich an Ihren Plattformadministrator, um eine Erhöhung der Quote zu beantragen, oder entfernen Sie ungenutzte Dateien aus dem Tool Dokumente.
 
-### Course Visibility
+### Kurs-Sichtbarkeit
 
-![The course visibility settings showing public, open, registered, and closed options](/.gitbook/assets/course-settings-visibility.png)
+![Die Einstellungen zur Kurs-Sichtbarkeit mit den Optionen öffentlich, offen, registriert und geschlossen](/.gitbook/assets/course-settings-visibility.png)
 
-Control who can access your course:
+Steuern Sie, wer auf Ihren Kurs zugreifen kann:
 
-| Setting | Description |
-|---------|-------------|
-| **Public** | Anyone, including anonymous visitors, can access the course |
-| **Open to platform** | All registered users on the platform can access the course |
-| **Private — access granted by privileged users** | Only users explicitly enrolled in the course can access it |
-| **Closed** | The course is locked; no one can access it except the teacher |
+| Einstellung | Beschreibung |
+|-------------|--------------|
+| **Öffentlich** | Jeder, einschließlich anonymer Besucher, kann auf den Kurs zugreifen |
+| **Offen für Plattform** | Alle registrierten Benutzer der Plattform können auf den Kurs zugreifen |
+| **Privat – Zugriff durch privilegierte Benutzer gewährt** | Nur Benutzer, die explizit für den Kurs eingeschrieben sind, können darauf zugreifen |
+| **Geschlossen** | Der Kurs ist gesperrt; niemand außer dem Lehrer kann darauf zugreifen |
 
-#### Enrollment Settings
+#### Einschreibungseinstellungen
 
-Depending on your platform configuration, you may be able to control:
+Je nach Plattformkonfiguration können Sie Folgendes steuern:
 
-* **Allow self-enrollment** — Whether learners can subscribe themselves through the course catalog
-* **Allow self-unsubscription** — Whether learners can leave the course on their own
-* **Enrollment password** — Require a password for self-enrollment (useful for restricting access to a specific group) but the security level is low as the same course-access password is shared between all users.
+* **Selbsteinschreibung erlauben** — Ob sich Lernende selbst über den Kurskatalog einschreiben können
+* **Selbstabmeldung erlauben** — Ob Lernende den Kurs selbstständig verlassen können
+* **Einschreibungspasswort** — Ein Passwort für die Selbsteinschreibung verlangen (nützlich, um den Zugriff auf eine bestimmte Gruppe zu beschränken), allerdings ist die Sicherheitsstufe niedrig, da dasselbe Kurszugriffspasswort von allen Benutzern geteilt wird.
 
-### Document Settings
+### Dokumenteneinstellungen
 
-Choose whether to show or hide the system folders in the **Documents** tool (hidden by default, you don't really need them in most cases and showing them might cause issues with hidden content and learners).
+Wählen Sie, ob die Systemordner im Tool **Dokumente** angezeigt oder ausgeblendet werden sollen (standardmäßig ausgeblendet, Sie benötigen sie in den meisten Fällen nicht, und das Anzeigen könnte Probleme mit verstecktem Inhalt und Lernenden verursachen).
 
-### E-mail Notification Settings
+### E-Mail-Benachrichtigungseinstellungen
 
-Configure how course activity triggers notifications:
+Konfigurieren Sie, wie Kursaktivitäten Benachrichtigungen auslösen:
 
-* **Email notifications for new content** — Notify enrolled users when you add new documents, announcements, or other content
+* **E-Mail-Benachrichtigungen für neuen Inhalt** — Benachrichtigen Sie eingeschriebene Benutzer, wenn Sie neue Dokumente, Ankündigungen oder andere Inhalte hinzufügen
 
-### Chat Settings
+### Chat-Einstellungen
 
-Control how the **Chat** tool will show.
+Steuern Sie, wie das Tool **Chat** angezeigt wird.
 
-### Learning path Settings
+### Lernpfad-Einstellungen
 
-* **Enable course themes** — Allow learning paths to change appearance (not recommended for integrated user experience)
-* **Learning path return link** — Decide where users land when they click the **Home** icon in a learning path: the learning paths list, the course home, *My courses*, *My sessions*, or the portal home
+* **Kursthemen aktivieren** — Erlauben Sie, dass Lernpfade ihr Erscheinungsbild ändern (nicht empfohlen für eine integrierte Benutzererfahrung)
+* **Rückkehrlink für Lernpfade** — Legen Sie fest, wohin Benutzer gelangen, wenn sie im Lernpfad auf das Symbol **Home** klicken: zur Liste der Lernpfade, zur Kursstartseite, *Meine Kurse*, *Meine Sitzungen* oder zur Portal-Startseite
 
-### Thematic Advance Settings
+### Einstellungen für thematischen Fortschritt
 
-Configure how the thematic advance messages will appear on the course homepage.
+Konfigurieren Sie, wie die Nachrichten zum thematischen Fortschritt auf der Kursstartseite angezeigt werden.
 
-### Forum Settings
+### Forum-Einstellungen
 
-Control behaviour in the forum tool of this course.
+Steuern Sie das Verhalten im Forum-Tool dieses Kurses.
 
-### Assignment Settings
+### Aufgaben-Einstellungen
 
-* **Default setting for the visibility of newly posted files** — Decide whether new documents uploaded by learners in the **Assignments** tool are shared with all other learners (No by default)
-* **Allow learners to delete their own publications** — Allow learners to delete the assignments they have already uploaded (in case they want to upload a correction).
+* **Standard-Einstellung für die Sichtbarkeit neu hochgeladener Dateien** — Entscheiden Sie, ob neue Dokumente, die von Lernenden im Tool **Aufgaben** hochgeladen werden, mit allen anderen Lernenden geteilt werden (standardmäßig Nein)
+* **Lernenden erlauben, eigene Veröffentlichungen zu löschen** — Erlauben Sie Lernenden, die von ihnen hochgeladenen Aufgaben zu löschen (falls sie eine Korrektur hochladen möchten).
 
-### Autolaunch Settings
+---
+### Autostart-Einstellungen
 
-A course can be set to have an auto-launch behaviour, which will shorten the path of learners to get to the important parts of your course. If enabled, the learners entering your course will be sent directly to the selected tool and will not see the course homepage as an intermediate step. You can even select specific learning paths or exercises to launch on arrival to the course. In this case, you need to select the option here, then go to the learning paths or exercises list and clic the rocket <img src="/.gitbook/assets/icons/mdi-rocket-launch.svg" alt="Auto-launch" data-size="line"> icon on the selected item.
+Ein Kurs kann so eingestellt werden, dass er ein Autostart-Verhalten aufweist, wodurch der Weg der Lernenden zu den wichtigen Teilen Ihres Kurses verkürzt wird. Wenn diese Option aktiviert ist, werden die Lernenden, die Ihren Kurs betreten, direkt zum ausgewählten Werkzeug weitergeleitet und sehen die Kurs-Startseite nicht als Zwischenschritt. Sie können sogar spezifische Lernpfade oder Übungen auswählen, die beim Betreten des Kurses gestartet werden sollen. In diesem Fall müssen Sie hier die entsprechende Option auswählen und dann zur Liste der Lernpfade oder Übungen gehen und auf das Raketen-Symbol <img src="/.gitbook/assets/icons/mdi-rocket-launch.svg" alt="Autostart" data-size="line"> des gewünschten Elements klicken.
 
-### AI Helpers Settings
+### Einstellungen für KI-Assistenten
 
-This section only appears if your administrator has enabled AI tools on the platform. It allows you to refine the selection of AI helper services available through different tools of your Chamilo platform. Disable them if you don't want to use them, but that would probably be a bad idea as these are very powerful.
+Dieser Abschnitt erscheint nur, wenn Ihr Administrator KI-Tools auf der Plattform aktiviert hat. Er ermöglicht es Ihnen, die Auswahl der verfügbaren KI-Assistentendienste zu verfeinern, die über verschiedene Werkzeuge Ihrer Chamilo-Plattform zugänglich sind. Deaktivieren Sie sie, wenn Sie sie nicht nutzen möchten, obwohl dies wahrscheinlich keine gute Idee ist, da diese Tools sehr leistungsfähig sind.
 
-These features are explained in the **AI Tools** section of this guide.
+Diese Funktionen werden im Abschnitt **KI-Tools** dieses Leitfadens erläutert.
 
-### External Tools (LTI)
+### Externe Tools (LTI)
 
-If enabled on your platform, Learning Tools Integration allows you to integrate external, compatible activities to this course, as individual icons on the course homepage. Discussing LTI is out of the scope of this guide, but this is a powerful integration system for teachers.
+Falls auf Ihrer Plattform aktiviert, ermöglicht die Learning Tools Integration (LTI) die Integration externer, kompatibler Aktivitäten in diesen Kurs als individuelle Symbole auf der Kurs-Startseite. Die Diskussion über LTI liegt außerhalb des Rahmens dieses Leitfadens, aber es handelt sich um ein leistungsstarkes Integrationssystem für Lehrkräfte.
 
-### Others
+### Sonstiges
 
-Additional sections or options might appear on this page depending on options and versions of Chamilo.
+Zusätzliche Abschnitte oder Optionen können auf dieser Seite je nach den Einstellungen und Versionen von Chamilo erscheinen.

@@ -1,33 +1,33 @@
-# Course Progress
+# Kursfortschritt
 
-The course progress tool helps you define the thematic structure of your course and track how much of the planned content has been delivered.
+Das Kursfortschritt-Tool hilft Ihnen, die thematische Struktur Ihres Kurses zu definieren und nachzuverfolgen, wie viel des geplanten Inhalts bereits vermittelt wurde.
 
-To students, it is a useful tool for those who have been sick for a few days and could not attend class, as they will known what topics have been talked about and how far the rest of the class has progressed in their absence.
+Für Studierende ist es ein nützliches Werkzeug, insbesondere für diejenigen, die einige Tage krank waren und nicht am Unterricht teilnehmen konnten. Sie erfahren so, welche Themen behandelt wurden und wie weit der Rest der Klasse in ihrer Abwesenheit vorangekommen ist.
 
-## How It Works
+## Funktionsweise
 
-Course progress is organized into three layers:
+Der Kursfortschritt ist in drei Ebenen organisiert:
 
-* **Thematic sections** — The main topics or modules of your course
-* **Thematic plan** — For each section, what you intend to cover. Each plan entry is one of a fixed set of types: **Objectives**, **Skills to acquire**, **Methodology**, **Infrastructure**, **Assessment**, or **Others**.
-* **Thematic advance** — Discrete delivery records under each section, each with a start date and a duration in hours. Mark advances as **done** as you deliver them to track real progress against the plan.
+* **Thematische Abschnitte** — Die Hauptthemen oder Module Ihres Kurses
+* **Thematischer Plan** — Für jeden Abschnitt, was Sie abdecken möchten. Jeder Planeintrag gehört zu einem festgelegten Typ: **Ziele**, **Zu erwerbende Fähigkeiten**, **Methodik**, **Infrastruktur**, **Bewertung** oder **Sonstiges**.
+* **Thematischer Fortschritt** — Diskrete Lieferaufzeichnungen unter jedem Abschnitt, jeweils mit einem Startdatum und einer Dauer in Stunden. Markieren Sie Fortschritte als **abgeschlossen**, sobald Sie diese vermittelt haben, um den tatsächlichen Fortschritt im Vergleich zum Plan zu verfolgen.
 
-## Setting Up Course Progress
+## Einrichtung des Kursfortschritts
 
-1. Open the **Course progress** tool from the course homepage
-2. Create **thematic sections** that correspond to your course's main topics or modules
-3. Within each section, add **plan** entries by type to describe what you intend to cover
-4. As you deliver the content, add **thematic advances** with their date and duration, and mark them as done
-5. Decide the visibility of that information on the course homepage by changing the related settings in the **Course settings** section (cog icon at the top of the course homepage)
+1. Öffnen Sie das **Kursfortschritt**-Tool von der Kurs-Startseite aus
+2. Erstellen Sie **thematische Abschnitte**, die den Hauptthemen oder Modulen Ihres Kurses entsprechen
+3. Fügen Sie innerhalb jedes Abschnitts **Plan**-Einträge nach Typ hinzu, um zu beschreiben, was Sie abdecken möchten
+4. Während Sie die Inhalte vermitteln, fügen Sie **thematische Fortschritte** mit Datum und Dauer hinzu und markieren Sie diese als abgeschlossen
+5. Entscheiden Sie über die Sichtbarkeit dieser Informationen auf der Kurs-Startseite, indem Sie die entsprechenden Einstellungen im Bereich **Kurseinstellungen** ändern (Zahnradsymbol oben auf der Kurs-Startseite)
 
-You can optionally link a thematic advance to an attendance sheet so its start date is pulled from your attendance records. Sections (with their plan and advances) can also be **copied** within the same course/session.
+Sie können optional einen thematischen Fortschritt mit einem Anwesenheitsblatt verknüpfen, sodass das Startdatum aus Ihren Anwesenheitsaufzeichnungen übernommen wird. Abschnitte (mit ihren Plänen und Fortschritten) können auch innerhalb desselben Kurses oder derselben Sitzung **kopiert** werden.
 
-## Use Cases
+## Anwendungsfälle
 
-* **Track your teaching plan** — Monitor which parts of the course have been delivered and which remain
-* **Attendance integration** — Course progress can work alongside the attendance tool to correlate presence with topics covered
-* **Reporting** — Get a clear view of course delivery status over time
+* **Verfolgen Sie Ihren Lehrplan** — Überwachen Sie, welche Teile des Kurses bereits vermittelt wurden und welche noch ausstehen
+* **Integration der Anwesenheit** — Der Kursfortschritt kann zusammen mit dem Anwesenheits-Tool arbeiten, um die Anwesenheit mit den behandelten Themen zu korrelieren
+* **Berichterstattung** — Erhalten Sie einen klaren Überblick über den Status der Kursvermittlung im Laufe der Zeit
 
-## For Learners
+## Für Lernende
 
-Learners can view the course progress to understand the course structure and see what topics have been covered so far. This is particularly useful for learners who join late or miss sessions.
+Lernende können den Kursfortschritt einsehen, um die Kursstruktur zu verstehen und zu sehen, welche Themen bisher behandelt wurden. Dies ist besonders nützlich für Lernende, die später hinzukommen oder Sitzungen verpassen.

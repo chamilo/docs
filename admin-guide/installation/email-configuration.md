@@ -1,42 +1,42 @@
-# Email Configuration
+# E-Mail-Konfiguration
 
-Chamilo now manages the emails sending configuration from the administration dashboard, platform settings section (there is a specific entry for emails). Emails are sent for account creations, password resets, course notifications, message alerts, and other platform events. Email delivery is configured through a `MAILER_DSN` configuration setting.
+Chamilo verwaltet nun die Konfiguration für den E-Mail-Versand über das Administrations-Dashboard im Bereich Plattformeinstellungen (es gibt einen speziellen Eintrag für E-Mails). E-Mails werden für die Erstellung von Konten, Passwort-Rücksetzungen, Kursbenachrichtigungen, Nachrichtenalarme und andere Plattformereignisse versendet. Die E-Mail-Zustellung wird über eine `MAILER_DSN`-Konfigurationseinstellung konfiguriert.
 
-## Configuration
+## Konfiguration
 
-Set the `Mail DSN` option in the /admin/settings/mail section. The format depends on your email transport.
+Setzen Sie die Option `Mail DSN` im Bereich /admin/settings/mail. Das Format hängt von Ihrem E-Mail-Transport ab.
 
 ### SMTP
 
-The most common configuration, suitable for any SMTP server:
+Die häufigste Konfiguration, geeignet für jeden SMTP-Server:
 
 ```bash
-# Let the system decide
+# System entscheiden lassen
 native://default
 
-# Basic SMTP
+# Einfaches SMTP
 smtp://username:password@smtp.example.com:587
 
-# SMTP with TLS (most providers)
+# SMTP mit TLS (die meisten Anbieter)
 smtp://username:password@smtp.example.com:587?encryption=tls
 
-# SMTP without authentication (local relay)
+# SMTP ohne Authentifizierung (lokales Relay)
 smtp://localhost:25
 ```
 
-Replace `username`, `password`, and the host with your SMTP server credentials.
+Ersetzen Sie `username`, `password` und den Host durch die Zugangsdaten Ihres SMTP-Servers.
 
 ### Amazon SES
 
 ```bash
-# Using SMTP interface
+# Über SMTP-Schnittstelle
 ses+smtp://ACCESS_KEY:SECRET_KEY@default?region=us-east-1
 
-# Using API
+# Über API
 ses+api://ACCESS_KEY:SECRET_KEY@default?region=us-east-1
 ```
 
-The Symfony Amazon Mailer transport comes embedded into Chamilo. No additional install required.
+Der Symfony Amazon Mailer Transport ist in Chamilo integriert. Keine zusätzliche Installation erforderlich.
 
 ### Mailjet
 
@@ -44,48 +44,48 @@ The Symfony Amazon Mailer transport comes embedded into Chamilo. No additional i
 mailjet+api://API_KEY:SECRET_KEY@default
 ```
 
-The Symfony Mailjet transport comes embedded into Chamilo. No additional install required.
+Der Symfony Mailjet Transport ist in Chamilo integriert. Keine zusätzliche Installation erforderlich.
 
-### Brevo (formerly Sendinblue)
+### Brevo (ehemals Sendinblue)
 
 ```bash
 brevo+api://API_KEY@default
 ```
 
-The Symfony Brevo transport comes embedded into Chamilo. No additional install required.
+Der Symfony Brevo Transport ist in Chamilo integriert. Keine zusätzliche Installation erforderlich.
 
-### Gmail (Development/Small Platforms)
+### Gmail (Entwicklung/Kleine Plattformen)
 
 ```bash
 gmail+smtp://your-email@gmail.com:app-password@default
 ```
 
-Use an App Password, not your regular Gmail password. This is suitable for small platforms or development only, as Gmail has sending limits.
+Verwenden Sie ein App-Passwort, nicht Ihr reguläres Gmail-Passwort. Dies ist nur für kleine Plattformen oder Entwicklungszwecke geeignet, da Gmail Versandlimits hat.
 
-## Platform Email Settings
+## Plattform-E-Mail-Einstellungen
 
-In addition to the transport, configure the sender identity on the same page:
+Zusätzlich zum Transport konfigurieren Sie die Absenderidentität auf derselben Seite:
 
-| Setting | Description |
-|---------|-------------|
-| **Send all e-mails as originating from this (organizational) name** | The display name associated with system emails. |
-| **Send all e-mails from this e-mail address** | The "From" address for all system emails. Must be a valid address accepted by your mail transport. We recommend using a "no reply" address like `no-reply@yourdomain.com` to avoid getting pointless answers to automated e-mails. |
+| Einstellung | Beschreibung |
+|-------------|--------------|
+| **Alle E-Mails als von diesem (organisatorischen) Namen stammend senden** | Der Anzeigename, der mit System-E-Mails verknüpft ist. |
+| **Alle E-Mails von dieser E-Mail-Adresse senden** | Die "Von"-Adresse für alle System-E-Mails. Muss eine gültige Adresse sein, die von Ihrem Mail-Transport akzeptiert wird. Wir empfehlen die Verwendung einer "No-Reply"-Adresse wie `no-reply@yourdomain.com`, um sinnlose Antworten auf automatisierte E-Mails zu vermeiden. |
 
-## Testing Email Delivery
+## Testen der E-Mail-Zustellung
 
-After configuring `MAILER_DSN`, test that emails are delivered: Go to *Administration* > *System* > *E-mail tester*, specify a recipient, a subject and an e-mail body and click **Send test email**.
+Nach der Konfiguration von `MAILER_DSN` testen Sie, ob E-Mails zugestellt werden: Gehen Sie zu *Administration* > *System* > *E-Mail-Tester*, geben Sie einen Empfänger, einen Betreff und einen E-Mail-Text an und klicken Sie auf **Test-E-Mail senden**.
 
-If the command completes without errors but the email is not received:
+Wenn der Befehl ohne Fehler abgeschlossen wird, die E-Mail aber nicht empfangen wird:
 
-1. Check the recipient's spam/junk folder.
-2. Verify that your sending domain has proper DNS records (SPF, DKIM, DMARC).
-3. Check your mail provider's sending logs for bounces or rejections.
-4. Review the Chamilo log at `var/log/prod.log` for mailer errors.
-5. In the E-mail configuration settings, enable *Mail: Debug* (not available in 2.0, will be soon).
+1. Überprüfen Sie den Spam-/Junk-Ordner des Empfängers.
+2. Vergewissern Sie sich, dass Ihre sendende Domain über korrekte DNS-Einträge (SPF, DKIM, DMARC) verfügt.
+3. Überprüfen Sie die Versandprotokolle Ihres Mail-Anbieters auf Rückläufer oder Ablehnungen.
+4. Überprüfen Sie das Chamilo-Protokoll unter `var/log/prod.log` auf Mailer-Fehler.
+5. Aktivieren Sie in den E-Mail-Konfigurationseinstellungen *Mail: Debug* (nicht verfügbar in 2.0, wird bald verfügbar sein).
 
-## Experimental: Email Queue (Async Delivery)
+## Experimentell: E-Mail-Warteschlange (Asynchrone Zustellung)
 
-By default, emails are sent synchronously during the web request. For better performance, configure asynchronous delivery using Symfony Messenger:
+Standardmäßig werden E-Mails synchron während der Webanfrage gesendet. Für eine bessere Leistung konfigurieren Sie die asynchrone Zustellung mit Symfony Messenger:
 
 ```yaml
 # config/packages/messenger.yaml
@@ -97,16 +97,16 @@ framework:
             'Symfony\Component\Mailer\Messenger\SendEmailMessage': async
 ```
 
-With async delivery, emails are queued and sent by a background worker:
+Mit asynchroner Zustellung werden E-Mails in die Warteschlange gestellt und von einem Hintergrund-Worker gesendet:
 
 ```bash
 php bin/console messenger:consume async
 ```
 
-Run this as a system service (e.g., via systemd or supervisord) so it stays running.
+Führen Sie dies als Systemdienst aus (z. B. über systemd oder supervisord), damit es dauerhaft läuft.
 
-## Tips
+## Tipps
 
-* **Use a dedicated email service** (SES, Mailjet, Brevo) for production platforms. Direct SMTP to your own mail server requires careful configuration to avoid deliverability issues.
-* **Configure SPF, DKIM, and DMARC** DNS records for your sending domain to maximize delivery rates and prevent emails from being marked as spam. You can also configure DKIM headers from the e-mail settings page.
-* **Use async delivery** on platforms with more than a few dozen active users -- synchronous email sending can noticeably slow down web requests.
+* **Verwenden Sie einen dedizierten E-Mail-Dienst** (SES, Mailjet, Brevo) für Produktionsplattformen. Direkter SMTP-Versand über Ihren eigenen Mail-Server erfordert eine sorgfältige Konfiguration, um Zustellprobleme zu vermeiden.
+* **Konfigurieren Sie SPF-, DKIM- und DMARC-DNS-Einträge** für Ihre sendende Domain, um die Zustellraten zu maximieren und zu verhindern, dass E-Mails als Spam markiert werden. Sie können auch DKIM-Header über die E-Mail-Einstellungsseite konfigurieren.
+* **Verwenden Sie asynchrone Zustellung** auf Plattformen mit mehr als ein paar Dutzend aktiven Benutzern – synchroner E-Mail-Versand kann Webanfragen spürbar verlangsamen.

@@ -1,23 +1,23 @@
-# Glossary
+# Glossar
 
-Developer-focused terms used throughout this guide.
+Entwicklerorientierte Begriffe, die in diesem Leitfaden verwendet werden.
 
-| Term | Definition |
-|------|-----------|
-| **API Platform** | A PHP framework for building REST and GraphQL APIs, integrated with Symfony. Chamilo uses it to auto-generate API endpoints from Doctrine entities. |
-| **Bundle** | A Symfony organizational unit similar to a plugin or module. Chamilo has three: CoreBundle, CourseBundle, LtiBundle. |
-| **Composable** | A Vue 3 pattern for extracting and reusing reactive logic. Stored in `assets/vue/composables/`. |
-| **Doctrine ORM** | The PHP object-relational mapper used by Chamilo. Maps PHP entity classes to database tables. |
-| **Entity** | A PHP class annotated with Doctrine attributes that maps to a database table. |
-| **Encore** | Symfony Webpack Encore — a wrapper around Webpack that simplifies frontend build configuration. |
-| **Flysystem** | A PHP filesystem abstraction library. Chamilo uses it to support local, S3, Azure, and GCS storage. |
-| **JWT** | JSON Web Token — the authentication mechanism for the REST API. |
-| **Pinia** | The recommended state management library for Vue 3. Used for new stores in Chamilo; legacy Vuex stores remain alongside it. |
-| **PrimeVue** | The Vue 3 UI component library used by Chamilo. Provides buttons, tables, dialogs, etc. |
-| **ResourceNode** | The central entity in Chamilo's resource system. Every piece of course content has a ResourceNode. |
-| **ResourceFile** | An entity representing a file attached to a ResourceNode. Stored via Flysystem. |
-| **ResourceLink** | An entity controlling visibility and access per course/session/group context. |
-| **SCORM** | Sharable Content Object Reference Model. An e-learning standard for packaging content. |
-| **Settings Schema** | A PHP class defining a category of platform settings (e.g., SecuritySettingsSchema). |
-| **Voter** | A Symfony security component that decides whether a user can perform an action on a resource. |
-| **Webpack** | The JavaScript module bundler that compiles Vue components, SCSS, and TypeScript into browser-ready bundles. |
+| Begriff | Definition |
+|---------|------------|
+| **API Platform** | Ein PHP-Framework zum Erstellen von REST- und GraphQL-APIs, integriert mit Symfony. Chamilo verwendet es, um API-Endpunkte automatisch aus Doctrine-Entitäten zu generieren. |
+| **Bundle** | Eine organisatorische Einheit in Symfony, ähnlich einem Plugin oder Modul. Chamilo hat drei: CoreBundle, CourseBundle, LtiBundle. |
+| **Composable** | Ein Vue 3-Muster zur Extraktion und Wiederverwendung reaktiver Logik. Gespeichert in `assets/vue/composables/`. |
+| **Doctrine ORM** | Der PHP-Objekt-Relational-Mapper, der von Chamilo verwendet wird. Bildet PHP-Entitätsklassen auf Datenbanktabellen ab. |
+| **Entity** | Eine PHP-Klasse, die mit Doctrine-Attributen annotiert ist und auf eine Datenbanktabelle abgebildet wird. |
+| **Encore** | Symfony Webpack Encore — ein Wrapper um Webpack, der die Konfiguration des Frontend-Builds vereinfacht. |
+| **Flysystem** | Eine PHP-Dateisystem-Abstraktionsbibliothek. Chamilo verwendet sie zur Unterstützung von lokalem, S3-, Azure- und GCS-Speicher. |
+| **JWT** | JSON Web Token — der Authentifizierungsmechanismus für die REST-API. |
+| **Pinia** | Die empfohlene State-Management-Bibliothek für Vue 3. Wird für neue Stores in Chamilo verwendet; ältere Vuex-Stores bleiben parallel bestehen. |
+| **PrimeVue** | Die Vue 3 UI-Komponentenbibliothek, die von Chamilo verwendet wird. Bietet Schaltflächen, Tabellen, Dialoge usw. |
+| **ResourceNode** | Die zentrale Entität im Ressourcensystem von Chamilo. Jedes Stück Kursinhalt hat einen ResourceNode. |
+| **ResourceFile** | Eine Entität, die eine Datei repräsentiert, die an einen ResourceNode angehängt ist. Gespeichert über Flysystem. |
+| **ResourceLink** | Eine Entität, die Sichtbarkeit und Zugriff pro Kurs-/Sitzungs-/Gruppenkontext steuert. |
+| **SCORM** | Sharable Content Object Reference Model. Ein E-Learning-Standard für die Verpackung von Inhalten. |
+| **Settings Schema** | Eine PHP-Klasse, die eine Kategorie von Plattformeinstellungen definiert (z. B. SecuritySettingsSchema). |
+| **Voter** | Eine Symfony-Sicherheitskomponente, die entscheidet, ob ein Benutzer eine Aktion auf einer Ressource ausführen darf. |
+| **Webpack** | Der JavaScript-Modul-Bundler, der Vue-Komponenten, SCSS und TypeScript in browserfertige Bundles kompiliert. |

@@ -1,38 +1,38 @@
-# Video Conferencing
+# Videokonferenzen
 
-Chamilo integrates with video conferencing platforms to let you run live sessions directly from your course. Supported platforms include **BigBlueButton** and **Zoom**.
+Chamilo integriert sich mit Videokonferenzplattformen, um Ihnen die Durchführung von Live-Sitzungen direkt aus Ihrem Kurs heraus zu ermöglichen. Unterstützte Plattformen sind **BigBlueButton** und **Zoom**.
 
-> Video conferencing must be configured by your platform administrator. If you do not see the video conferencing tool in your course, contact your administrator.
+> Videokonferenzen müssen von Ihrem Plattformadministrator konfiguriert werden. Wenn Sie das Videokonferenz-Tool in Ihrem Kurs nicht sehen, wenden Sie sich an Ihren Administrator.
 
-## Starting a Video Session
+## Starten einer Videositzung
 
-1. Open the **Video conference** <img src="/.gitbook/assets/icons/mdi-video.svg" alt="Video" data-size="line"> tool from the course homepage (or from the sidebar)
-2. Click **Start a meeting** (or a similar button depending on the configured platform)
-3. A new video conferencing room will open in a new browser tab
+1. Öffnen Sie das Tool **Videokonferenz** <img src="/.gitbook/assets/icons/mdi-video.svg" alt="Video" data-size="line"> über die Kursstartseite (oder über die Seitenleiste)
+2. Klicken Sie auf **Ein Meeting starten** (oder einen ähnlichen Button, abhängig von der konfigurierten Plattform)
+3. Ein neuer Videokonferenzraum wird in einem neuen Browser-Tab geöffnet
 
-## Inviting Learners
+## Einladen von Lernenden
 
-Once a meeting is running, enrolled learners can join it by:
+Sobald ein Meeting läuft, können eingeschriebene Lernende daran teilnehmen, indem sie:
 
-* Clicking the same **Video conference** tool in their course homepage
-* Clicking the join link in an announcement or message you send them
+* Auf das gleiche **Videokonferenz**-Tool auf ihrer Kursstartseite klicken
+* Auf den Beitrittslink in einer Ankündigung oder Nachricht klicken, die Sie ihnen senden
 
 ## BigBlueButton
 
-If your platform uses the BigBlueButton plugin, the meeting itself runs in BigBlueButton, where the usual conference features (audio/video, screen sharing, whiteboard, in-meeting chat, breakout rooms) are available. The Chamilo plugin specifically adds:
+Wenn Ihre Plattform das BigBlueButton-Plugin verwendet, läuft das Meeting selbst in BigBlueButton, wo die üblichen Konferenzfunktionen (Audio/Video, Bildschirmfreigabe, Whiteboard, In-Meeting-Chat, Breakout-Räume) verfügbar sind. Das Chamilo-Plugin fügt speziell Folgendes hinzu:
 
-* **Recording management** — If recording is enabled by the administrator, recordings made during the session are listed inside the course so learners can replay them
-* **Pre-upload presentation documents** — Attach a presentation file to a meeting so it is loaded into BigBlueButton when the room opens
-* **Calendar integration** — Scheduled meetings are surfaced in the course agenda
-* **Course / group / global rooms** — Run a single course-wide room, separate group rooms, or a platform-wide room
+* **Aufzeichnungsverwaltung** — Wenn die Aufzeichnung vom Administrator aktiviert ist, werden während der Sitzung erstellte Aufzeichnungen im Kurs aufgelistet, sodass Lernende sie wiedergeben können
+* **Vorab-Upload von Präsentationsdokumenten** — Hängen Sie eine Präsentationsdatei an ein Meeting an, damit sie beim Öffnen des Raums in BigBlueButton geladen wird
+* **Kalenderintegration** — Geplante Meetings werden im Kurskalender angezeigt
+* **Kurs-/Gruppen-/globale Räume** — Führen Sie einen einzigen kursweiten Raum, separate Gruppenräume oder einen plattformweiten Raum durch
 
-## Zoom Integration
+## Zoom-Integration
 
-If your platform uses Zoom, meetings are created and managed through Zoom's interface. Chamilo provides the integration point for launching and joining meetings from within the course.
+Wenn Ihre Plattform Zoom verwendet, werden Meetings über die Benutzeroberfläche von Zoom erstellt und verwaltet. Chamilo bietet den Integrationspunkt zum Starten und Beitreten von Meetings direkt aus dem Kurs heraus.
 
-## Tips
+## Tipps
 
-* **Schedule in advance** — Use the Agenda tool to schedule video sessions and send reminders
-* **Test your setup** — Check your microphone and camera before the session
-* **Record for absent learners** — If recording is enabled, share the recording link after the session for learners who could not attend
-* **Combine with other tools** — Share presentation files in Documents before the session, and follow up with a Forum discussion afterward
+* **Im Voraus planen** — Verwenden Sie das Agenda-Tool, um Videositzungen zu planen und Erinnerungen zu senden
+* **Setup testen** — Überprüfen Sie Ihr Mikrofon und Ihre Kamera vor der Sitzung
+* **Für abwesende Lernende aufzeichnen** — Wenn die Aufzeichnung aktiviert ist, teilen Sie den Aufzeichnungslink nach der Sitzung mit Lernenden, die nicht teilnehmen konnten
+* **Mit anderen Tools kombinieren** — Teilen Sie Präsentationsdateien vor der Sitzung in Dokumenten, und führen Sie anschließend eine Diskussion im Forum durch

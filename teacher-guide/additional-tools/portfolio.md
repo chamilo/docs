@@ -1,29 +1,29 @@
 # Portfolio
 
-The portfolio tool lets learners collect and showcase their work throughout the course. It serves as a digital portfolio where learners can compile their best work, reflections, and achievements.
+Das Portfolio-Tool ermöglicht es Lernenden, ihre Arbeiten während des Kurses zu sammeln und zu präsentieren. Es dient als digitales Portfolio, in dem Lernende ihre besten Arbeiten, Reflexionen und Erfolge zusammenstellen können.
 
-## How Portfolios Work
+## Wie Portfolios funktionieren
 
-Each learner has a personal portfolio within the course where they can:
+Jeder Lernende hat ein persönliches Portfolio innerhalb des Kurses, in dem er Folgendes tun kann:
 
-* **Add items** — Write text entries with the rich-text editor and attach one or more files to each item
-* **Organize content** — Tag items so they can be filtered by topic
-* **Share selectively** — Set the visibility of each item: hidden, visible to the course, hidden except for the teacher, or shared with selected users when advanced sharing is enabled
+* **Elemente hinzufügen** — Texteinträge mit dem Rich-Text-Editor schreiben und ein oder mehrere Dateien zu jedem Element anhängen
+* **Inhalte organisieren** — Elemente mit Tags versehen, sodass sie nach Themen gefiltert werden können
+* **Selektiv teilen** — Die Sichtbarkeit jedes Elements festlegen: versteckt, sichtbar für den Kurs, versteckt außer für den Lehrer oder mit ausgewählten Nutzern geteilt, wenn erweitertes Teilen aktiviert ist
 
-## As a Teacher
+## Als Lehrer
 
-You can use portfolios for:
+Sie können Portfolios für folgende Zwecke nutzen:
 
-* **Reflective learning** — Ask learners to maintain a portfolio of reflections on their learning journey
-* **Competency demonstration** — Have learners collect evidence of skills and knowledge
-* **Assessment** — Review portfolio contents as part of your evaluation
+* **Reflexives Lernen** — Bitten Sie Lernende, ein Portfolio mit Reflexionen über ihren Lernprozess zu führen
+* **Kompetenznachweis** — Lassen Sie Lernende Belege für Fähigkeiten und Wissen sammeln
+* **Bewertung** — Überprüfen Sie die Inhalte des Portfolios als Teil Ihrer Evaluierung
 
-To view a learner's portfolio, open the portfolio tool and filter the items list by user.
+Um das Portfolio eines Lernenden einzusehen, öffnen Sie das Portfolio-Tool und filtern Sie die Elementeliste nach Benutzer.
 
-If the course is configured to allow it, you can score portfolio items and individual comments — these scores can then feed into the gradebook. You can also **highlight** items you want to draw attention to, and mark items or comments as **templates** so you (or learners) can reuse them as a starting point for new entries. Portfolios can be exported as **PDF** or **ZIP**.
+Wenn der Kurs entsprechend konfiguriert ist, können Sie Portfolio-Elemente und einzelne Kommentare bewerten — diese Bewertungen können dann in das Notenbuch übernommen werden. Sie können auch Elemente **hervorheben**, auf die Sie aufmerksam machen möchten, und Elemente oder Kommentare als **Vorlagen** markieren, sodass Sie (oder Lernende) sie als Ausgangspunkt für neue Einträge wiederverwenden können. Portfolios können als **PDF** oder **ZIP** exportiert werden.
 
-## Tips
+## Tipps
 
-* **Define expectations** — Tell learners what kinds of items to include and how to organize their portfolio
-* **Review regularly** — Check portfolios periodically rather than only at the end of the course
-* **Combine with skills** — Use portfolios alongside the skills/certificates system to create a comprehensive competency record
+* **Erwartungen definieren** — Teilen Sie den Lernenden mit, welche Arten von Elementen sie einfügen und wie sie ihr Portfolio organisieren sollen
+* **Regelmäßig überprüfen** — Überprüfen Sie Portfolios regelmäßig, anstatt nur am Ende des Kurses
+* **Mit Kompetenzen kombinieren** — Nutzen Sie Portfolios zusammen mit dem Kompetenz-/Zertifikatssystem, um einen umfassenden Kompetenzbericht zu erstellen

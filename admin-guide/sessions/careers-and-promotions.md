@@ -1,46 +1,46 @@
-# Careers and Promotions
+# Karrieren und Beförderungen
 
-Chamilo includes a career management system that lets you define training paths and track learner progression through structured programs.
+Chamilo enthält ein Karrieremanagementsystem, mit dem Sie Ausbildungspfade definieren und den Fortschritt der Lernenden durch strukturierte Programme verfolgen können.
 
-## Careers
+## Karrieren
 
-![The careers list showing defined career paths with name and description](/.gitbook/assets/admin-careers-list.png)
+![Die Karrierenliste zeigt definierte Karrierepfade mit Name und Beschreibung](/.gitbook/assets/admin-careers-list.png)
 
-A **career** represents a structured training path — a sequence of training steps that a learner follows to achieve a professional goal.
+Eine **Karriere** repräsentiert einen strukturierten Ausbildungspfad – eine Abfolge von Ausbildungsschritten, die ein Lernender durchläuft, um ein berufliches Ziel zu erreichen.
 
-### Creating a Career
+### Erstellen einer Karriere
 
-1. From the administration panel, navigate to **Careers**
-2. Click **Create a career**
-3. Enter a **name** and **description**
-4. Save
+1. Navigieren Sie im Verwaltungsbereich zu **Karrieren**
+2. Klicken Sie auf **Karriere erstellen**
+3. Geben Sie einen **Namen** und eine **Beschreibung** ein
+4. Speichern
 
-## Promotions
+## Beförderungen
 
-A **promotion** represents a cohort or batch of learners progressing through a career. Think of it as a group of people going through the same career path at the same time.
+Eine **Beförderung** repräsentiert eine Kohorte oder Gruppe von Lernenden, die gemeinsam durch eine Karriere fortschreiten. Stellen Sie sich dies als eine Gruppe von Personen vor, die gleichzeitig denselben Karrierepfad durchlaufen.
 
-### Linking to Sessions
+### Verknüpfung mit Sitzungen
 
-After creating a promotion, you link sessions to it. This defines the sequence of training a learner must complete.
+Nachdem Sie eine Beförderung erstellt haben, verknüpfen Sie Sitzungen damit. Dies definiert die Abfolge von Schulungen, die ein Lernender absolvieren muss.
 
-You can later replicate promotions to help creating the next promotion with copies of the same sessions, so your next promotion can be built in an instant.
+Sie können später Beförderungen replizieren, um die nächste Beförderung mit Kopien derselben Sitzungen zu erstellen, sodass Ihre nächste Beförderung im Handumdrehen aufgebaut werden kann.
 
-### Creating a Promotion
+### Erstellen einer Beförderung
 
-1. Navigate to **Promotions**
-2. Click **Create a promotion**
-3. Enter a **name** and **description**
-4. Link it to a **career**
-5. Assign **sessions** to the promotion
-6. Save
+1. Navigieren Sie zu **Beförderungen**
+2. Klicken Sie auf **Beförderung erstellen**
+3. Geben Sie einen **Namen** und eine **Beschreibung** ein
+4. Verknüpfen Sie sie mit einer **Karriere**
+5. Weisen Sie der Beförderung **Sitzungen** zu
+6. Speichern
 
-## How It Fits Together
+## Wie alles zusammenpasst
 
-* A **career** defines the path (e.g., "Junior Developer Certification")
-* A **promotion** represents a cohort (e.g., "Class of March 2026")
-* **Sessions** within the promotion deliver the actual training content
+* Eine **Karriere** definiert den Pfad (z. B. "Junior Developer Zertifizierung")
+* Eine **Beförderung** repräsentiert eine Kohorte (z. B. "Abschlussjahrgang März 2026")
+* **Sitzungen** innerhalb der Beförderung liefern den eigentlichen Schulungsinhalt
 
-## Tips
+## Tipps
 
-* **Use for structured programs** — Careers and promotions are most useful for multi-stage training programs where learners progress through a defined sequence
-* **Track completion** — Use the reporting tools to monitor how promotions are progressing through their career paths
+* **Verwendung für strukturierte Programme** – Karrieren und Beförderungen sind besonders nützlich für mehrstufige Schulungsprogramme, bei denen Lernende eine definierte Abfolge durchlaufen
+* **Fortschritt verfolgen** – Nutzen Sie die Berichtswerkzeuge, um zu überwachen, wie Beförderungen auf ihren Karrierepfaden vorankommen

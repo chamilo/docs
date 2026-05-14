@@ -1,46 +1,46 @@
-# Learner Tracking
+# Lernendenverfolgung
 
-Chamilo tracks learner activity throughout the platform, giving you detailed insights into how each learner is engaging with your course.
+Chamilo verfolgt die Aktivitäten der Lernenden auf der gesamten Plattform und bietet Ihnen detaillierte Einblicke, wie jeder Lernende mit Ihrem Kurs interagiert.
 
-## Accessing Learner Tracking
+## Zugriff auf die Lernendenverfolgung
 
-Open the **Tracking** <img src="/.gitbook/assets/icons/mdi-chart-box.svg" alt="Tracking" data-size="line"> tool from the course homepage, or click **Reporting** in the sidebar.
+Öffnen Sie das Werkzeug **Verfolgung** <img src="/.gitbook/assets/icons/mdi-chart-box.svg" alt="Verfolgung" data-size="line"> über die Kursstartseite oder klicken Sie auf **Berichterstattung** in der Seitenleiste.
 
-## What Is Tracked
+## Was wird verfolgt
 
-For each learner, Chamilo records (in the main per-learner tracking view):
+Für jeden Lernenden zeichnet Chamilo Folgendes auf (in der Hauptansicht der Lernendenverfolgung):
 
-* **Login activity** — When the learner last logged in and their total login time
-* **Time spent in the course** — Total time the learner has spent in your course
-* **First and last access** — When the learner first entered and last visited the course
-* **Course progress** — Aggregate progress percentage across the course
-* **Exercise results** — Scores and attempts for each exercise
-* **Learning path progress** — Completion percentage and time spent on each learning path
-* **Assignment submissions** — Which assignments have been submitted and graded
+* **Anmeldeaktivität** — Wann sich der Lernende zuletzt angemeldet hat und die gesamte Anmeldezeit
+* **Zeit im Kurs** — Gesamtzeit, die der Lernende in Ihrem Kurs verbracht hat
+* **Erster und letzter Zugriff** — Wann der Lernende den Kurs zum ersten Mal betreten und zuletzt besucht hat
+* **Kursfortschritt** — Gesamter Fortschrittsprozentsatz im Kurs
+* **Übungsergebnisse** — Punktzahlen und Versuche für jede Übung
+* **Lernpfadfortschritt** — Abschlussprozentsatz und verbrachte Zeit für jeden Lernpfad
+* **Abgabe von Aufgaben** — Welche Aufgaben eingereicht und bewertet wurden
 
-Per-resource access details (which specific documents or pages a learner opened) and tool-level activity are available through the dedicated **Resources**, **Tools**, and **Events** views in the tracking section, rather than in the main learner row.
+Detaillierte Zugriffsinformationen pro Ressource (welche spezifischen Dokumente oder Seiten ein Lernender geöffnet hat) und Aktivitäten auf Werkzeugebene sind über die dedizierten Ansichten **Ressourcen**, **Werkzeuge** und **Ereignisse** im Verfolgungsbereich verfügbar, nicht jedoch in der Hauptzeile des Lernenden.
 
-## Viewing Individual Learner Data
+## Anzeige individueller Lernendendaten
 
-![Detailed learner tracking view showing progress, scores, and activity timeline](/.gitbook/assets/tracking-learner-detail.png)
+![Detaillierte Ansicht der Lernendenverfolgung mit Fortschritt, Punktzahlen und Aktivitätszeitleiste](/.gitbook/assets/tracking-learner-detail.png)
 
-Click on a learner's name to see their detailed activity report. This shows:
+Klicken Sie auf den Namen eines Lernenden, um den detaillierten Aktivitätsbericht anzuzeigen. Dieser zeigt:
 
-* A summary of their overall engagement
-* Progress through each learning path
-* Exercise scores and attempt history
-* Assignment submission status
+* Eine Zusammenfassung der allgemeinen Beteiligung
+* Fortschritt durch jeden Lernpfad
+* Übungspunktzahlen und Versuchshistorie
+* Status der Aufgabenabgabe
 
-## Tracking Views
+## Verfolgungsansichten
 
-You can view tracking data from different perspectives:
+Sie können Verfolgungsdaten aus verschiedenen Perspektiven anzeigen:
 
-* **By learner** — Select a learner to see all their activity
-* **By resource** — Select a document, exercise, or learning path to see how all learners interacted with it
-* **By tool** — See aggregate usage for each course tool
+* **Nach Lernendem** — Wählen Sie einen Lernenden aus, um alle seine Aktivitäten zu sehen
+* **Nach Ressource** — Wählen Sie ein Dokument, eine Übung oder einen Lernpfad aus, um zu sehen, wie alle Lernenden damit interagiert haben
+* **Nach Werkzeug** — Sehen Sie die aggregierte Nutzung für jedes Kurswerkzeug
 
-## Tips
+## Tipps
 
-* **Identify struggling learners** — Look for learners with low engagement, multiple failed exercise attempts, or incomplete learning paths
-* **Monitor progress regularly** — Check tracking data weekly to spot issues early
-* **Use data for feedback** — Share relevant tracking data with learners to help them understand their own progress
+* **Lernende mit Schwierigkeiten identifizieren** — Achten Sie auf Lernende mit geringer Beteiligung, mehreren fehlgeschlagenen Übungsversuchen oder unvollständigen Lernpfaden
+* **Fortschritt regelmäßig überwachen** — Überprüfen Sie wöchentlich die Verfolgungsdaten, um Probleme frühzeitig zu erkennen
+* **Daten für Feedback nutzen** — Teilen Sie relevante Verfolgungsdaten mit den Lernenden, um ihnen zu helfen, ihren eigenen Fortschritt zu verstehen

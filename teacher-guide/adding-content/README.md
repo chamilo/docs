@@ -1,11 +1,11 @@
-# Adding Content
+# Inhalte hinzufügen
 
-This section covers the tools you use to add learning content to your course. Chamilo provides several ways to deliver material to your learners:
+Dieser Abschnitt behandelt die Werkzeuge, mit denen Sie Lerninhalte zu Ihrem Kurs hinzufügen können. Chamilo bietet verschiedene Möglichkeiten, Materialien für Ihre Lernenden bereitzustellen:
 
-* **[Documents](documents.md)** — Upload files, create web pages, and organize your content library
-* **[Links](links.md)** — Share URLs to external resources, organized by category
-* **[Learning Paths](learning-paths.md)** — Build structured sequences of content with prerequisites and progress tracking
-* **[Glossary](glossary.md)** — Define key terms that learners can reference throughout the course
-* **[Announcements](announcements.md)** — Send messages and updates to your enrolled learners
+* **[Dokumente](documents.md)** — Dateien hochladen, Webseiten erstellen und Ihre Inhaltsbibliothek organisieren
+* **[Links](links.md)** — URLs zu externen Ressourcen teilen, nach Kategorien organisiert
+* **[Lernpfade](learning-paths.md)** — Strukturierte Inhaltssequenzen mit Voraussetzungen und Fortschrittsverfolgung erstellen
+* **[Glossar](glossary.md)** — Wichtige Begriffe definieren, auf die Lernende während des Kurses zurückgreifen können
+* **[Ankündigungen](announcements.md)** — Nachrichten und Updates an Ihre eingeschriebenen Lernenden senden
 
-Each tool is accessible from the course homepage tool grid. Click the tool's icon to open it.
+Jedes Werkzeug ist über das Werkzeug-Raster auf der Kurs-Startseite zugänglich. Klicken Sie auf das Symbol des Werkzeugs, um es zu öffnen.

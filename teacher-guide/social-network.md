@@ -1,53 +1,53 @@
-# Social Network
+# Soziales Netzwerk
 
-Chamilo includes a built-in social network that lets you connect with other users on the platform. This feature may be enabled or disabled by your platform administrator.
+Chamilo enthält ein integriertes soziales Netzwerk, das es Ihnen ermöglicht, sich mit anderen Nutzern auf der Plattform zu vernetzen. Diese Funktion kann von Ihrem Plattformadministrator aktiviert oder deaktiviert werden.
 
-## Accessing the Social Network
+## Zugriff auf das Soziale Netzwerk
 
-Click **Social network** in the sidebar to access the social features. If you do not see this option, your administrator may have disabled it.
+Klicken Sie in der Seitenleiste auf **Soziales Netzwerk**, um auf die sozialen Funktionen zuzugreifen. Wenn Sie diese Option nicht sehen, hat Ihr Administrator sie möglicherweise deaktiviert.
 
-## Your Social Wall
+## Ihre Soziale Pinnwand
 
-![The social wall showing a feed of posts, likes, and comments from connections](/.gitbook/assets/social-wall.png)
+![Die soziale Pinnwand zeigt einen Feed mit Beiträgen, Likes und Kommentaren von Verbindungen](/.gitbook/assets/social-wall.png)
 
-The social wall shows a feed of activity from you and your connections. You can:
+Die soziale Pinnwand zeigt einen Feed mit Aktivitäten von Ihnen und Ihren Verbindungen. Sie können:
 
-* **Post updates** — Share text and links with your connections
-* **Like and comment** — Interact with posts from other users
-* **View activity** — See recent posts from people you are connected with
+* **Updates posten** — Teilen Sie Texte und Links mit Ihren Verbindungen
+* **Liken und kommentieren** — Interagieren Sie mit Beiträgen anderer Nutzer
+* **Aktivitäten anzeigen** — Sehen Sie die neuesten Beiträge von Personen, mit denen Sie verbunden sind
 
-## Connections
+## Verbindungen
 
-You can connect with other users on the platform:
+Sie können sich mit anderen Nutzern auf der Plattform vernetzen:
 
-* **Search for users** — Find colleagues and learners by name
-* **Send connection requests** — Invite other users to connect
-* **Manage connections** — Accept, decline, or remove connections
+* **Nach Nutzern suchen** — Finden Sie Kollegen und Lernende nach Namen
+* **Verbindungsanfragen senden** — Laden Sie andere Nutzer ein, sich zu verbinden
+* **Verbindungen verwalten** — Akzeptieren, ablehnen oder entfernen Sie Verbindungen
 
-> **Note:** Learners can only search for and add other learners as friends — they cannot send friend requests to teachers. As a teacher, however, you can search for learners and request to add them as friends.
+> **Hinweis:** Lernende können nur nach anderen Lernenden suchen und diese als Freunde hinzufügen — sie können keine Freundschaftsanfragen an Lehrkräfte senden. Als Lehrkraft können Sie jedoch nach Lernenden suchen und eine Freundschaftsanfrage stellen.
 
-## Messaging
+## Nachrichten
 
-The social network integrates with the platform's messaging system:
+Das soziale Netzwerk ist mit dem Nachrichtensystem der Plattform integriert:
 
-* **Send messages** <img src="/.gitbook/assets/icons/mdi-email-plus-outline.svg" alt="New message" data-size="line"> — Write direct messages to other users
-* **Inbox** <img src="/.gitbook/assets/icons/mdi-inbox.svg" alt="Inbox" data-size="line"> — Read and reply to received messages
-* **Sent messages** <img src="/.gitbook/assets/icons/mdi-send-check.svg" alt="Sent" data-size="line"> — Review messages you have sent
+* **Nachrichten senden** <img src="/.gitbook/assets/icons/mdi-email-plus-outline.svg" alt="Neue Nachricht" data-size="line"> — Schreiben Sie direkte Nachrichten an andere Nutzer
+* **Posteingang** <img src="/.gitbook/assets/icons/mdi-inbox.svg" alt="Posteingang" data-size="line"> — Lesen und beantworten Sie empfangene Nachrichten
+* **Gesendete Nachrichten** <img src="/.gitbook/assets/icons/mdi-send-check.svg" alt="Gesendet" data-size="line"> — Überprüfen Sie die von Ihnen gesendeten Nachrichten
 
-### Composing and Replying
+### Verfassen und Antworten
 
-When composing a new message, you can address it to multiple recipients at once. Similarly, when replying to a message, you can include multiple users in your reply — useful for group coordination without a formal social group.
+Beim Verfassen einer neuen Nachricht können Sie diese gleichzeitig an mehrere Empfänger adressieren. Ebenso können Sie beim Antworten auf eine Nachricht mehrere Nutzer in Ihre Antwort einbeziehen — nützlich für die Koordination in Gruppen ohne eine formale soziale Gruppe.
 
-### Message Tags
+### Nachrichtentags
 
-If your platform configuration uses message tags (typically managed at the platform level), your inbox shows a tag list you can click to filter messages by that tag, which makes locating related threads faster as your inbox grows.
+Wenn Ihre Plattformkonfiguration Nachrichtentags verwendet (normalerweise auf Plattformebene verwaltet), zeigt Ihr Posteingang eine Tag-Liste, auf die Sie klicken können, um Nachrichten nach diesem Tag zu filtern. Dies erleichtert das Auffinden verwandter Konversationen, wenn Ihr Posteingang wächst.
 
-## Social Groups
+## Soziale Gruppen
 
-Social groups allow users to gather around common interests or projects:
+Soziale Gruppen ermöglichen es Nutzern, sich um gemeinsame Interessen oder Projekte zu sammeln:
 
-* **Join groups** — Browse and join existing groups
-* **Create groups** — Start a new social group (if permitted)
-* **Group discussions** — Share posts within a group context
+* **Gruppen beitreten** — Durchsuchen und treten Sie bestehenden Gruppen bei
+* **Gruppen erstellen** — Starten Sie eine neue soziale Gruppe (falls erlaubt)
+* **Gruppendiskussionen** — Teilen Sie Beiträge im Kontext einer Gruppe
 
-> Social groups are different from **course groups** (covered in the [Groups](collaboration-and-communication/groups.md) section). Course groups are tied to a specific course, while social groups are platform-wide.
+> Soziale Gruppen unterscheiden sich von **Kursgruppen** (behandelt im Abschnitt [Gruppen](collaboration-and-communication/groups.md)). Kursgruppen sind an einen bestimmten Kurs gebunden, während soziale Gruppen plattformweit sind.

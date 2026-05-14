@@ -1,41 +1,41 @@
-# Classes / User Groups
+# Klassen / Benutzergruppen
 
-Classes in the administration panel are platform-wide groups used to organize users for management purposes. They are distinct from course-level groups (which are created by teachers within a course).
+Klassen im Verwaltungspanel sind plattformweite Gruppen, die zur Organisation von Benutzern für Verwaltungszwecke verwendet werden. Sie unterscheiden sich von Gruppen auf Kursebene (die von Lehrkräften innerhalb eines Kurses erstellt werden).
 
-> User groups and [Classes](../../admin-guide/sessions/classes.md) share the same interface. The only difference is the **group type** setting: choose "Class" to create a class (used for bulk session enrollment), or "User group" for more social groups that can have their own space in the internal social network. See [Classes](../../admin-guide/sessions/classes.md) for details on session enrollment.
+> Benutzergruppen und [Klassen](../../admin-guide/sessions/classes.md) teilen sich dieselbe Benutzeroberfläche. Der einzige Unterschied liegt in der Einstellung **Gruppentyp**: Wählen Sie "Klasse", um eine Klasse zu erstellen (verwendet für die Massenanmeldung zu Sitzungen), oder "Benutzergruppe" für eher soziale Gruppen, die ihren eigenen Bereich im internen sozialen Netzwerk haben können. Weitere Details zur Sitzungsanmeldung finden Sie unter [Klassen](../../admin-guide/sessions/classes.md).
 
-## Creating a Group
+## Eine Gruppe erstellen
 
-![The user groups list showing available groups with name, description, and member count](/.gitbook/assets/admin-user-groups-list.png)
+![Die Liste der Benutzergruppen zeigt verfügbare Gruppen mit Name, Beschreibung und Anzahl der Mitglieder](/.gitbook/assets/admin-user-groups-list.png)
 
-1. From the administration panel, navigate to **Classes**
-2. Click **Add classes**
-3. Enter a **title** and optional **description**
-4. Check **Social group** if this will be a social group. Leave unchecked if it will be a class.
-5. Add an optionali reference URL and picture/logo.
-6. Choose the group **permissions**:
-   * **Open** — Any user can join
-   * **Closed** — Users must be added by an administrator
-7. Check if you want members to be able to leave the class by themselves.
-8. Save.
+1. Navigieren Sie im Verwaltungspanel zu **Klassen**
+2. Klicken Sie auf **Klassen hinzufügen**
+3. Geben Sie einen **Titel** und eine optionale **Beschreibung** ein
+4. Aktivieren Sie **Soziale Gruppe**, wenn es sich um eine soziale Gruppe handeln soll. Lassen Sie das Feld deaktiviert, wenn es sich um eine Klasse handelt.
+5. Fügen Sie eine optionale Referenz-URL und ein Bild/Logo hinzu.
+6. Wählen Sie die **Berechtigungen** der Gruppe:
+   * **Offen** — Jeder Benutzer kann beitreten
+   * **Geschlossen** — Benutzer müssen von einem Administrator hinzugefügt werden
+7. Aktivieren Sie die Option, wenn Sie möchten, dass Mitglieder die Klasse selbstständig verlassen können.
+8. Speichern Sie die Änderungen.
 
-## Adding Members
+## Mitglieder hinzufügen
 
-1. Open the list of classes/user groups
-2. Click the user icon **Subscribe users to class**
-3. Search for users by name, username or email
-4. Select the users to add, using the arrows to the right side
-5. Click the confirmation button to save
+1. Öffnen Sie die Liste der Klassen/Benutzergruppen
+2. Klicken Sie auf das Benutzersymbol **Benutzer zur Klasse anmelden**
+3. Suchen Sie nach Benutzern anhand von Name, Benutzername oder E-Mail-Adresse
+4. Wählen Sie die hinzuzufügenden Benutzer aus, indem Sie die Pfeile auf der rechten Seite verwenden
+5. Klicken Sie auf die Bestätigungsschaltfläche, um zu speichern
 
-## Use Cases
+## Anwendungsfälle
 
-* **Department organization** — Group users by department or team
-* **Bulk enrollment** — Add all members of a group to a course or session at once
-* **Targeted communication** — Send announcements to specific groups
-* **Reporting** — View training progress filtered by group
+* **Abteilungsorganisation** — Gruppieren Sie Benutzer nach Abteilung oder Team
+* **Massenanmeldung** — Fügen Sie alle Mitglieder einer Gruppe gleichzeitig zu einem Kurs oder einer Sitzung hinzu
+* **Gezielte Kommunikation** — Senden Sie Ankündigungen an bestimmte Gruppen
+* **Berichterstattung** — Zeigen Sie den Fortschritt der Schulung nach Gruppen gefiltert an
 
-## Managing Groups
+## Gruppen verwalten
 
-* **Edit** — Change the group name, description, or visibility
-* **Manage members** — Add or remove members
-* **Delete** — Remove the group (does not delete the member accounts)
+* **Bearbeiten** — Ändern Sie den Gruppennamen, die Beschreibung oder die Sichtbarkeit
+* **Mitglieder verwalten** — Fügen Sie Mitglieder hinzu oder entfernen Sie sie
+* **Löschen** — Entfernen Sie die Gruppe (die Mitgliederkonten werden nicht gelöscht)

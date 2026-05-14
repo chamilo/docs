@@ -1,42 +1,42 @@
-# Templates
+# Vorlagen
 
-Chamilo uses templates for certificates, documents, and emails. You can customize these templates to match your organization's branding and requirements.
+Chamilo verwendet Vorlagen für Zertifikate, Dokumente und E-Mails. Sie können diese Vorlagen anpassen, um sie an das Branding und die Anforderungen Ihrer Organisation anzupassen.
 
-## Certificate Templates
+## Zertifikatsvorlagen
 
-Certificate templates define the layout and content of certificates awarded to learners who meet gradebook thresholds.
+Zertifikatsvorlagen definieren das Layout und den Inhalt von Zertifikaten, die Lernenden verliehen werden, die die Schwellenwerte im Notenbuch erreichen.
 
-### Customizing a Certificate Template
+### Anpassen einer Zertifikatsvorlage
 
-Certificate templates use HTML and CSS with placeholder variables:
+Zertifikatsvorlagen verwenden HTML und CSS mit Platzhaltervariablen:
 
-| Variable | Replaced with |
-|----------|-------------|
-| Student name | The learner's full name |
-| Course name | The name of the course |
-| Date | The date the certificate was earned |
-| Score | The learner's final score |
-| Barcode | A barcode placeholder (`((certificate_barcode))`) used for verification |
+| Variable | Ersetzt durch |
+|----------|---------------|
+| Name des Lernenden | Der vollständige Name des Lernenden |
+| Kursname | Der Name des Kurses |
+| Datum | Das Datum, an dem das Zertifikat erworben wurde |
+| Punktzahl | Die endgültige Punktzahl des Lernenden |
+| Barcode | Ein Barcode-Platzhalter (`((certificate_barcode))`), der zur Verifizierung verwendet wird |
 
-### Uploading a Template
+### Hochladen einer Vorlage
 
-1. Navigate to certificate template management
-2. Upload or edit the HTML template
-3. Use the placeholder variables where dynamic content should appear
-4. Save
+1. Navigieren Sie zur Verwaltung der Zertifikatsvorlagen
+2. Laden Sie die HTML-Vorlage hoch oder bearbeiten Sie sie
+3. Verwenden Sie die Platzhaltervariablen an den Stellen, an denen dynamische Inhalte erscheinen sollen
+4. Speichern
 
-## Document Templates
+## Dokumentvorlagen
 
-Teachers can use document templates when creating content in the Documents tool. Templates provide a starting layout for common document types.
+Lehrkräfte können Dokumentvorlagen verwenden, wenn sie Inhalte im Dokumente-Tool erstellen. Vorlagen bieten ein Ausgangslayout für gängige Dokumenttypen.
 
-### Managing Document Templates
+### Verwaltung von Dokumentvorlagen
 
-1. Navigate to template management in the administration panel
-2. Add new templates by uploading HTML files
-3. Templates become available to teachers when they create new documents
+1. Navigieren Sie zur Vorlagenverwaltung im Administrationsbereich
+2. Fügen Sie neue Vorlagen hinzu, indem Sie HTML-Dateien hochladen
+3. Vorlagen stehen Lehrkräften zur Verfügung, wenn sie neue Dokumente erstellen
 
-## Tips
+## Tipps
 
-* **Include your logo** — Add your organization's logo to certificate templates for a professional look
-* **Test with real data** — Preview certificates with actual learner data before deploying the template
-* **Keep templates simple** — Simple designs print better and look professional
+* **Fügen Sie Ihr Logo hinzu** — Integrieren Sie das Logo Ihrer Organisation in Zertifikatsvorlagen für einen professionellen Look
+* **Testen Sie mit echten Daten** — Vorschau von Zertifikaten mit tatsächlichen Lernendendaten, bevor Sie die Vorlage bereitstellen
+* **Halten Sie Vorlagen einfach** — Einfache Designs lassen sich besser drucken und wirken professionell

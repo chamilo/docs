@@ -1,42 +1,41 @@
-# Attendance Settings
+# Anwesenheitseinstellungen
 
-Defaults and behaviour of the **Attendance** tool.
+Standardwerte und Verhalten des **Anwesenheit**-Tools.
 
-Access these settings under **Administration > Configuration settings > Attendance**. This category contains **4 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+Greifen Sie auf diese Einstellungen unter **Verwaltung > Konfigurationseinstellungen > Anwesenheit** zu. Diese Kategorie enthält **4 Einstellungen**, die unten mit dem Titel und dem Kommentar aufgeführt sind, wie sie in den Einstellungsvorlagen der Plattform (`SettingsCurrentFixtures.php`) bereitgestellt werden.
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> Der Variablenname im Code wird in Monospace angezeigt. Verwenden Sie ihn, wenn Sie über die API skripten oder wenn Sie diese Einstellungen auf globaler Ebene ändern müssen, indem Sie [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml) bearbeiten.
 
-## Settings
+## Einstellungen
 
 ### `allow_delete_attendance`
 
-**Attendances: enable deletion**
+**Anwesenheiten: Löschen aktivieren**
 
-The default behaviour in Chamilo is to hide attendance sheets instead of deleting them, just in case the teacher would do it by mistake. Enable this option to allow teachers to *really* delete attendance sheets.
+Das Standardverhalten in Chamilo besteht darin, Anwesenheitsblätter auszublenden, anstatt sie zu löschen, falls ein Lehrer dies versehentlich tun sollte. Aktivieren Sie diese Option, um Lehrern zu erlauben, Anwesenheitsblätter *wirklich* zu löschen.
 
-*Default: `true`*
+*Standard: `true`*
 
 ### `attendance_allow_comments`
 
-**Allow comments in attendance sheets**
+**Kommentare in Anwesenheitsblättern erlauben**
 
-Teachers and students can comment on each individual attendance (to justify).
+Lehrer und Schüler können jede einzelne Anwesenheit kommentieren (zur Begründung).
 
-*Default: `false`*
+*Standard: `false`*
 
 ### `enable_sign_attendance_sheet`
 
-**Attendance signing**
+**Anwesenheitsunterschrift**
 
-Enable taking signatures to confirm one's attendance.
+Aktivieren Sie die Möglichkeit, Unterschriften zur Bestätigung der Anwesenheit zu sammeln.
 
-*Default: `false`*
+*Standard: `false`*
 
 ### `multilevel_grading`
 
-**Enable Multi-Level Attendance Grading**
+**Mehrstufige Anwesenheitsbewertung aktivieren**
 
-Allows grading attendance with multiple levels instead of a simple present/absent system.
+Ermöglicht die Bewertung der Anwesenheit mit mehreren Stufen anstelle eines einfachen Anwesend/Abwesend-Systems.
 
-*Default: `false`*
-
+*Standard: `false`*

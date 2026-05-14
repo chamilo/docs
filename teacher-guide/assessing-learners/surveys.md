@@ -1,85 +1,85 @@
-# Surveys
+# Umfragen
 
-The survey tool lets you create questionnaires to collect feedback from your learners. Surveys are useful for course evaluations, needs assessments, and opinion polls.
+Das Umfrage-Tool ermöglicht es Ihnen, Fragebögen zu erstellen, um Rückmeldungen von Ihren Lernenden zu sammeln. Umfragen sind nützlich für Kursevaluationen, Bedarfsanalysen und Meinungsumfragen.
 
-## Creating a Survey
+## Eine Umfrage erstellen
 
-1. Open the **Surveys** <img src="/.gitbook/assets/icons/mdi-form-dropdown.svg" alt="Surveys" data-size="line"> tool from the course homepage
-2. Click **Create survey**
-3. Fill in the survey details:
-   * **Code** — This is a unique code for the survey. It will be used in mails and links.
-   * **Title** — The name of the survey
-   * **Subtitle** — An optional secondary heading
-   * **Start date** — From when this survey will be open to participation
-   * **End date** — Until when this survey will be open to participation
-   * **Anonymous** — Whether responses are anonymous or linked to individual learners
-   * **Results visibility** — Who can see the results (only coach, coach and students, everyone)
-   * **Introduction** — A message shown to learners before they start the survey
-   * **Thank you message** — A message shown after submission
-4. Save
+1. Öffnen Sie das Tool **Umfragen** <img src="/.gitbook/assets/icons/mdi-form-dropdown.svg" alt="Umfragen" data-size="line"> auf der Kurs-Startseite.
+2. Klicken Sie auf **Umfrage erstellen**.
+3. Füllen Sie die Umfragedetails aus:
+   * **Code** — Dies ist ein eindeutiger Code für die Umfrage. Er wird in E-Mails und Links verwendet.
+   * **Titel** — Der Name der Umfrage.
+   * **Untertitel** — Ein optionaler zweiter Titel.
+   * **Startdatum** — Ab wann die Umfrage zur Teilnahme geöffnet ist.
+   * **Enddatum** — Bis wann die Umfrage zur Teilnahme geöffnet ist.
+   * **Anonym** — Ob die Antworten anonym sind oder einzelnen Lernenden zugeordnet werden.
+   * **Sichtbarkeit der Ergebnisse** — Wer die Ergebnisse sehen kann (nur Trainer, Trainer und Studierende, alle).
+   * **Einleitung** — Eine Nachricht, die den Lernenden vor Beginn der Umfrage angezeigt wird.
+   * **Dankesnachricht** — Eine Nachricht, die nach dem Absenden angezeigt wird.
+4. Speichern
 
-### Advanced settings
+### Erweiterte Einstellungen
 
-* **Grade in the assessment tool** — Whether to include this survey's answer state in the assessment tool (gradebook). Anyone having completed the survey gets 100%, anyone else get 0%
-* **Parent survey** — Not really used at this point (legacy feature)
-* **One question per page** — Presentation style for the questions
-* **Enable shuffle mode** — Whether to shuffle questions
-* **Show question number** — Whether to show (auto-generated) question numbers
+* **Bewertung im Bewertungstool** — Ob der Antwortstatus dieser Umfrage im Bewertungstool (Notenbuch) berücksichtigt werden soll. Jeder, der die Umfrage abgeschlossen hat, erhält 100 %, alle anderen 0 %.
+* **Übergeordnete Umfrage** — Wird derzeit nicht wirklich genutzt (veraltete Funktion).
+* **Eine Frage pro Seite** — Präsentationsstil für die Fragen.
+* **Zufallsmodus aktivieren** — Ob die Fragen zufällig angeordnet werden sollen.
+* **Fragenummer anzeigen** — Ob automatisch generierte Fragenummern angezeigt werden sollen.
 
-## Adding Questions
+## Fragen hinzufügen
 
-Once the survey is created, add questions:
+Sobald die Umfrage erstellt ist, fügen Sie Fragen hinzu:
 
-1. Choose the question type:
-   * **Yes/No** — A simple binary choice
-   * **Multiple choice** — Select one answer from several options
-   * **Multiple answer** — Select one or more answers from several options
-   * **Open-ended** — Free text response
-   * **Dropdown** — Select from a dropdown list
-   * **Percentage** — Choose a percentage value
-   * **Score** — Rate on a numeric scale
-   * **Comment** — A text block (not a question) for adding instructions between questions
-   * **Multiple choice with "other" option** — Select one answer from several options, with an alternative choice
-   * **Selective display** — Special type allowing you to adapt the flow of questions based on previous answers
-   * **Page break** — Add page breaks in the questions flow. Only useful if "One question per page" was **not** selected in the previous step
-2. Configure the question text and answer options
-3. Save
+1. Wählen Sie den Fragetyp aus:
+   * **Ja/Nein** — Eine einfache binäre Auswahl.
+   * **Multiple Choice** — Wählen Sie eine Antwort aus mehreren Optionen.
+   * **Mehrfachantwort** — Wählen Sie eine oder mehrere Antworten aus mehreren Optionen.
+   * **Offene Frage** — Freitextantwort.
+   * **Dropdown** — Auswahl aus einer Dropdown-Liste.
+   * **Prozentsatz** — Auswahl eines Prozentsatzes.
+   * **Bewertung** — Bewertung auf einer numerischen Skala.
+   * **Kommentar** — Ein Textblock (keine Frage) zur Ergänzung von Anweisungen zwischen Fragen.
+   * **Multiple Choice mit "Andere"-Option** — Wählen Sie eine Antwort aus mehreren Optionen, mit einer alternativen Auswahl.
+   * **Selektive Anzeige** — Spezieller Typ, der es ermöglicht, den Fragenfluss basierend auf vorherigen Antworten anzupassen.
+   * **Seitenumbruch** — Fügen Sie Seitenumbrüche im Fragenfluss hinzu. Nur nützlich, wenn "Eine Frage pro Seite" im vorherigen Schritt **nicht** ausgewählt wurde.
+2. Konfigurieren Sie den Fragetext und die Antwortoptionen.
+3. Speichern
 
-Each question can be marked as mandatory. If you don't, skipping any question will be acceptable behaviour.
+Jede Frage kann als obligatorisch markiert werden. Wenn Sie dies nicht tun, ist das Überspringen von Fragen akzeptables Verhalten.
 
-## Publishing a Survey
+## Eine Umfrage veröffentlichen
 
-After adding all questions:
+Nachdem alle Fragen hinzugefügt wurden:
 
-1. Click **Publish**
-2. Choose the recipients — Select specific learners or groups (you select them). The **Add learners** button adds all the learners in one single push and leaves the teachers behind
-3. Add additional users — Lets you invite users from outside Chamilo to participate in the survey. They will receive an e-mail with a link and will appear by their e-mail address in the survey details
-4. Mail subject
-5. Mail text — Explain what the survey is about and when/how to answer
-6. Different options for repeat invitations are available
-7. Confirm
+1. Klicken Sie auf **Veröffentlichen**.
+2. Wählen Sie die Empfänger aus — Wählen Sie bestimmte Lernende oder Gruppen aus (Sie wählen sie aus). Die Schaltfläche **Lernende hinzufügen** fügt alle Lernenden auf einmal hinzu und lässt die Lehrkräfte außen vor.
+3. Zusätzliche Benutzer hinzufügen — Ermöglicht es Ihnen, Benutzer von außerhalb von Chamilo zur Teilnahme an der Umfrage einzuladen. Sie erhalten eine E-Mail mit einem Link und erscheinen mit ihrer E-Mail-Adresse in den Umfragedetails.
+4. Betreff der E-Mail.
+5. Text der E-Mail — Erklären Sie, worum es in der Umfrage geht und wann/wie sie beantwortet werden soll.
+6. Verschiedene Optionen für wiederholte Einladungen sind verfügbar.
+7. Bestätigen
 
-Learners receive an invitation (as an email) to complete the survey.
+Lernende erhalten eine Einladung (per E-Mail), die Umfrage auszufüllen.
 
-A link is available at the bottom of the publication page to invite even more external users to participate. Participants using this link will not be identified and appear as anonymous in the survey results.
+Ein Link ist am unteren Rand der Veröffentlichungsseite verfügbar, um noch mehr externe Benutzer zur Teilnahme einzuladen. Teilnehmer, die diesen Link verwenden, werden nicht identifiziert und erscheinen in den Umfrageergebnissen als anonym.
 
-## Viewing Results
+## Ergebnisse anzeigen
 
-![Survey results with charts and percentage breakdowns for each question](/.gitbook/assets/survey-results-charts.png)
+![Umfrageergebnisse mit Diagrammen und prozentualen Aufschlüsselungen für jede Frage](/.gitbook/assets/survey-results-charts.png)
 
-After learners have responded:
+Nachdem die Lernenden geantwortet haben:
 
-1. Open the survey
-2. Click **Results** or **Report**
-3. View response summaries:
-   * Charts and percentages for closed questions
-   * Individual text responses for open-ended questions
-   * Completion rate (how many invitees responded)
+1. Öffnen Sie die Umfrage.
+2. Klicken Sie auf **Ergebnisse** oder **Bericht**.
+3. Sehen Sie sich die Zusammenfassungen der Antworten an:
+   * Diagramme und Prozentsätze für geschlossene Fragen.
+   * Individuelle Textantworten für offene Fragen.
+   * Abschlussrate (wie viele Eingeladene geantwortet haben).
 
-You can export results to a spreadsheet for further analysis.
+Sie können die Ergebnisse zur weiteren Analyse in eine Tabellenkalkulation exportieren.
 
-## Tips
+## Tipps
 
-* **Keep it short** — Learners are more likely to complete shorter surveys
-* **Use anonymous mode** — For honest feedback, enable anonymous responses
-* **Time it right** — Send mid-course surveys to make adjustments, not just end-of-course evaluations
+* **Kurz halten** — Lernende sind eher bereit, kürzere Umfragen auszufüllen.
+* **Anonymen Modus verwenden** — Für ehrliches Feedback aktivieren Sie anonyme Antworten.
+* **Richtigen Zeitpunkt wählen** — Senden Sie Umfragen mitten im Kurs, um Anpassungen vorzunehmen, nicht nur Abschlussevaluationen.

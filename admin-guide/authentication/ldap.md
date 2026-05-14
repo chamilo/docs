@@ -1,8 +1,8 @@
 # LDAP
 
-Chamilo can authenticate users against an LDAP server, including Microsoft Active Directory. LDAP is configured in `config/authentication.yaml`.
+Chamilo kann Benutzer über einen LDAP-Server authentifizieren, einschließlich Microsoft Active Directory. LDAP wird in `config/authentication.yaml` konfiguriert.
 
-## Configuration
+## Konfiguration
 
 ```yaml
 authentication:
@@ -10,24 +10,24 @@ authentication:
     ldap:
       main:
         enabled: true
-        title: "Sign in with LDAP"
+        title: "Mit LDAP anmelden"
         connection_string: "ldap://ldap.yourorg.com:389"
         protocol_version: 3
         referrals: false
         force_as_login_method: false
 ```
 
-### Bind and search
+### Bind und Suche
 
-Two approaches for locating the user in the directory:
+Zwei Ansätze zur Lokalisierung des Benutzers im Verzeichnis:
 
-**Direct bind** — constructs the DN from the username directly:
+**Direkter Bind** — erstellt den DN direkt aus dem Benutzernamen:
 
 ```yaml
         dn_string: "uid=%s,ou=people,dc=yourorg,dc=com"
 ```
 
-**Search bind** — searches the directory with a service account first, then binds as the found user:
+**Such-Bind** — durchsucht das Verzeichnis zunächst mit einem Dienstkonto und bindet dann als gefundener Benutzer:
 
 ```yaml
         base_dn: "dc=yourorg,dc=com"
@@ -37,11 +37,11 @@ Two approaches for locating the user in the directory:
         uid_key: "uid"
 ```
 
-For Active Directory, use `sAMAccountName` as `uid_key` and adjust `query_string` to `(sAMAccountName=%s)`.
+Für Active Directory verwenden Sie `sAMAccountName` als `uid_key` und passen Sie `query_string` auf `(sAMAccountName=%s)` an.
 
-### Attribute mapping
+### Attributzuordnung
 
-Map LDAP attributes to Chamilo user fields under `data_correspondence`:
+Ordnen Sie LDAP-Attribute den Benutzerfeldern von Chamilo unter `data_correspondence` zu:
 
 ```yaml
         data_correspondence:
@@ -52,13 +52,13 @@ Map LDAP attributes to Chamilo user fields under `data_correspondence`:
           locale: preferredLanguage  # optional
 ```
 
-`firstname`, `lastname`, and `email` are required. The user is matched to an existing Chamilo account by email or username; if no match is found and `allow_create_new_users` is true, a new account is created.
+`firstname`, `lastname` und `email` sind erforderlich. Der Benutzer wird mit einem bestehenden Chamilo-Konto anhand der E-Mail-Adresse oder des Benutzernamens abgeglichen; falls keine Übereinstimmung gefunden wird und `allow_create_new_users` auf true gesetzt ist, wird ein neues Konto erstellt.
 
-## Tips
+## Tipps
 
-* **Use LDAPS in production** — switch `ldap://` to `ldaps://` (port 636) for encrypted connections.
-* **Service account** — the search bind account needs only read access to user entries.
-* **Test first** — verify your connection string and query with `ldapsearch` before configuring Chamilo.
-* **`force_as_login_method: true`** — hides other login methods and forces all users through LDAP. Leave it `false` while testing so you can still log in as an admin via the standard form.
+* **Verwenden Sie LDAPS in der Produktion** — wechseln Sie von `ldap://` zu `ldaps://` (Port 636) für verschlüsselte Verbindungen.
+* **Dienstkonto** — das Such-Bind-Konto benötigt nur Lesezugriff auf Benutzereinträge.
+* **Zuerst testen** — überprüfen Sie Ihre Verbindungszeichenfolge und Abfrage mit `ldapsearch`, bevor Sie Chamilo konfigurieren.
+* **`force_as_login_method: true`** — blendet andere Anmeldemethoden aus und zwingt alle Benutzer zur Nutzung von LDAP. Lassen Sie es während der Testphase auf `false`, damit Sie sich weiterhin als Administrator über das Standardformular anmelden können.
 
-For the full parameter reference, see the [wiki](https://github.com/chamilo/chamilo-lms/wiki/External-Authentication-configuration).
+Für die vollständige Parameterreferenz siehe das [Wiki](https://github.com/chamilo/chamilo-lms/wiki/External-Authentication-configuration).

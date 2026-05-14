@@ -1,25 +1,25 @@
-# Glossary
+# Glossar
 
-Key terms used throughout this guide.
+Wichtige Begriffe, die in diesem Leitfaden verwendet werden.
 
-| Term | Definition |
-|------|-----------|
-| **Assessment** | See **Gradebook** below |
-| **Assignment** | A task where learners submit files or text for teacher review and grading. Also known as "student publication" or "work". |
-| **Auto-launch** | A feature that automatically opens a specific tool when a learner enters a course. |
-| **Certificate** | A document automatically generated when a learner meets the minimum score defined in the gradebook. |
-| **Course** | A container for learning content and tools. A course can include documents, exercises, forums, learning paths, and more. |
-| **Course coach** | A teacher role specific to sessions. A course coach manages one course within a session. |
-| **Disk quota** | The maximum storage space allocated to a course for uploaded files. |
-| **Enrollment** | The process of registering a user in a course or session, giving them access to its content. Also known as "subscription". |
-| **Exercise** | A quiz or test containing one or more questions. Also referred to as a "test" in some contexts. |
-| **Forum** | A discussion tool with threaded conversations organized into categories and topics. |
-| **Gradebook** | A tool that aggregates scores from exercises, assignments, and other activities into a unified grade for each learner. |
-| **Learning path** | A structured sequence of learning activities (documents, exercises, links) that learners follow in a defined order, optionally with prerequisites. |
-| **LTI** | Learning Tools Interoperability — a standard that allows external learning tools to be embedded within Chamilo. |
-| **SCORM** | Sharable Content Object Reference Model — a standard for e-learning content packages. Chamilo can import and play SCORM packages within learning paths. |
-| **Session** | A time-bound edition of one or more courses assigned to a specific group of learners. Sessions allow reusing the same course content for different cohorts. |
-| **Session coach** | A supervisory role that oversees all courses within a session. |
-| **Skill** | A competency that can be linked to gradebook achievements. When a learner earns a certificate, associated skills are validated. |
-| **Survey** | A questionnaire tool for collecting feedback, with various question types and anonymous response options. |
-| **Visibility** | A setting that controls whether a tool, document, or activity is visible to learners. Teachers can always see hidden items. |
+| Begriff | Definition |
+|---------|------------|
+| **Bewertung** | Siehe **Notenbuch** unten |
+| **Aufgabe** | Eine Aufgabe, bei der Lernende Dateien oder Texte zur Überprüfung und Bewertung durch den Lehrer einreichen. Auch bekannt als "Studentenveröffentlichung" oder "Arbeit". |
+| **Automatischer Start** | Eine Funktion, die ein bestimmtes Werkzeug automatisch öffnet, wenn ein Lernender einen Kurs betritt. |
+| **Zertifikat** | Ein Dokument, das automatisch erstellt wird, wenn ein Lernender die im Notenbuch festgelegte Mindestpunktzahl erreicht. |
+| **Kurs** | Ein Container für Lerninhalte und Werkzeuge. Ein Kurs kann Dokumente, Übungen, Foren, Lernpfade und mehr umfassen. |
+| **Kursbetreuer** | Eine Lehrerrolle, die spezifisch für Sitzungen ist. Ein Kursbetreuer verwaltet einen Kurs innerhalb einer Sitzung. |
+| **Speicherquote** | Der maximale Speicherplatz, der einem Kurs für hochgeladene Dateien zugewiesen ist. |
+| **Einschreibung** | Der Prozess, einen Benutzer in einen Kurs oder eine Sitzung zu registrieren, wodurch er Zugriff auf die Inhalte erhält. Auch bekannt als "Abonnement". |
+| **Übung** | Ein Quiz oder Test, der eine oder mehrere Fragen enthält. In einigen Kontexten auch als "Test" bezeichnet. |
+| **Forum** | Ein Diskussionswerkzeug mit thematisch organisierten Konversationen in Kategorien und Themen. |
+| **Notenbuch** | Ein Werkzeug, das Punktzahlen aus Übungen, Aufgaben und anderen Aktivitäten zu einer einheitlichen Note für jeden Lernenden zusammenfasst. |
+| **Lernpfad** | Eine strukturierte Abfolge von Lernaktivitäten (Dokumente, Übungen, Links), die Lernende in einer festgelegten Reihenfolge durchlaufen, optional mit Voraussetzungen. |
+| **LTI** | Learning Tools Interoperability — ein Standard, der es ermöglicht, externe Lernwerkzeuge in Chamilo einzubetten. |
+| **SCORM** | Sharable Content Object Reference Model — ein Standard für E-Learning-Inhaltspakete. Chamilo kann SCORM-Pakete in Lernpfade importieren und abspielen. |
+| **Sitzung** | Eine zeitgebundene Ausgabe eines oder mehrerer Kurse, die einer bestimmten Gruppe von Lernenden zugewiesen ist. Sitzungen ermöglichen die Wiederverwendung derselben Kursinhalte für verschiedene Kohorten. |
+| **Sitzungsbetreuer** | Eine Aufsichtsrolle, die alle Kurse innerhalb einer Sitzung überwacht. |
+| **Kompetenz** | Eine Fähigkeit, die mit Erfolgen im Notenbuch verknüpft werden kann. Wenn ein Lernender ein Zertifikat erhält, werden die zugehörigen Kompetenzen validiert. |
+| **Umfrage** | Ein Fragebogenwerkzeug zur Sammlung von Feedback, mit verschiedenen Fragetypen und Optionen für anonyme Antworten. |
+| **Sichtbarkeit** | Eine Einstellung, die steuert, ob ein Werkzeug, Dokument oder eine Aktivität für Lernende sichtbar ist. Lehrer können versteckte Elemente immer sehen. |

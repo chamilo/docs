@@ -1,7 +1,7 @@
-# Maintenance
+# Wartung
 
-Regular maintenance keeps your Chamilo platform running smoothly.
+Regelmäßige Wartung sorgt dafür, dass Ihre Chamilo-Plattform reibungslos läuft.
 
-* **[Backups](backups.md)** — Database and file backup strategies
-* **[System Status](system-status.md)** — Monitor server health and configuration
-* **[Archive Cleanup](archive-cleanup.md)** — Manage temporary files and free up disk space
+* **[Backups](backups.md)** — Strategien für Datenbank- und Dateisicherungen
+* **[Systemstatus](system-status.md)** — Überwachung der Servergesundheit und -konfiguration
+* **[Archivbereinigung](archive-cleanup.md)** — Verwaltung temporärer Dateien und Freigabe von Speicherplatz

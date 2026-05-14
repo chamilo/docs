@@ -1,66 +1,66 @@
-# Attendance
+# Anwesenheit
 
-The attendance tool lets you track learner presence for scheduled class sessions, whether in-person or online.
+Das Anwesenheits-Tool ermöglicht es Ihnen, die Anwesenheit von Lernenden bei geplanten Unterrichtssitzungen zu verfolgen, sei es vor Ort oder online.
 
-## Creating an Attendance Sheet
+## Erstellen eines Anwesenheitsblatts
 
-1. Open the **Attendance** tool from the course homepage
-2. Click **Add attendance** to create an attendance sheet
-3. Enter a **Title** for the attendance sheet (e.g., "Week 1 - Introduction")
-4. Enter a **Description** (this is mostly for your use - learners will not see the description)
-5. Save
+1. Öffnen Sie das **Anwesenheit**-Tool auf der Kurs-Startseite
+2. Klicken Sie auf **Anwesenheit hinzufügen**, um ein Anwesenheitsblatt zu erstellen
+3. Geben Sie einen **Titel** für das Anwesenheitsblatt ein (z. B. "Woche 1 - Einführung")
+4. Geben Sie eine **Beschreibung** ein (diese ist hauptsächlich für Ihre eigene Nutzung - Lernende sehen die Beschreibung nicht)
+5. Speichern
 
-### Advanced settings
+### Erweiterte Einstellungen
 
-1. **Require unique presence** allows you to consider a learner as fully present if he/she participated even to only one date of the attendance sheet
-2. **Gradebook options** lets you decide to qualify the attendance sheet in the assessement tool (gradebook).
+1. **Einmalige Anwesenheit erforderlich** ermöglicht es Ihnen, einen Lernenden als vollständig anwesend zu betrachten, wenn er/sie auch nur an einem Datum des Anwesenheitsblatts teilgenommen hat
+2. **Bewertungsbuch-Optionen** erlauben es Ihnen, das Anwesenheitsblatt im Bewertungstool (Gradebook) zu qualifizieren.
 
-## Adding dates
+## Datum hinzufügen
 
-Each attendance sheet contains one or more dates (sessions) where you record presence:
+Jedes Anwesenheitsblatt enthält ein oder mehrere Daten (Sitzungen), an denen Sie die Anwesenheit erfassen:
 
-1. Open an attendance sheet or continue with the creation process
-2. Click **Add a date** <img src="/.gitbook/assets/icons/mdi-calendar-plus.svg" alt="Add date" data-size="line">
-3. Select the date and time
-4. Optionally, check **Repeat date** to choose a repetition logic
-5. Give a **Duration** in minutes for the event (defaults to 60 minutes)
-6. Optionally, select a **Group** if this attendance date only applies to one group of learners
-7. Save
+1. Öffnen Sie ein Anwesenheitsblatt oder setzen Sie den Erstellungsprozess fort
+2. Klicken Sie auf **Datum hinzufügen** <img src="/.gitbook/assets/icons/mdi-calendar-plus.svg" alt="Datum hinzufügen" data-size="line">
+3. Wählen Sie Datum und Uhrzeit aus
+4. Optional, aktivieren Sie **Datum wiederholen**, um eine Wiederholungslogik auszuwählen
+5. Geben Sie eine **Dauer** in Minuten für die Veranstaltung an (Standardwert ist 60 Minuten)
+6. Optional, wählen Sie eine **Gruppe** aus, wenn dieses Anwesenheitsdatum nur für eine bestimmte Gruppe von Lernenden gilt
+7. Speichern
 
-You can add multiple dates to the same attendance sheet (e.g., all sessions for a month).
+Sie können mehrere Daten zu demselben Anwesenheitsblatt hinzufügen (z. B. alle Sitzungen für einen Monat).
 
-## Recording Attendance
+## Anwesenheit erfassen
 
-For each date, mark each learner as:
+Für jedes Datum markieren Sie jeden Lernenden als:
 
-* **Present** — The learner attended (default value for all learners)
-* **Absent** — The learner did not attend
+* **Anwesend** — Der Lernende hat teilgenommen (Standardwert für alle Lernenden)
+* **Abwesend** — Der Lernende hat nicht teilgenommen
 
-Click on the status cell next to each learner's name to toggle between present and absent.
+Klicken Sie auf die Statuszelle neben dem Namen jedes Lernenden, um zwischen anwesend und abwesend zu wechseln.
 
-By default, all learners are marked present, as we consider that chances are you have more people present than absent.
+Standardmäßig sind alle Lernenden als anwesend markiert, da wir davon ausgehen, dass wahrscheinlich mehr Personen anwesend als abwesend sind.
 
-Note: Admins can modify the portal configuration to allow you to choose more extended attendance types (late, absent with justification, etc), which can better reflect your procedures. In this case, just clicking the presence input will toggle between all the presence types.
+Hinweis: Administratoren können die Portal-Konfiguration ändern, um Ihnen die Auswahl erweiterter Anwesenheitstypen (verspätet, abwesend mit Begründung usw.) zu ermöglichen, die Ihre Verfahren besser widerspiegeln können. In diesem Fall wechselt ein Klick auf das Anwesenheitsfeld zwischen allen Anwesenheitstypen.
 
-## Viewing Attendance Reports
+## Anwesenheitsberichte anzeigen
 
-![The attendance sheet showing a summary table with learners, dates, and presence indicators](/.gitbook/assets/attendance-sheet.png)
+![Das Anwesenheitsblatt zeigt eine Übersichtstabelle mit Lernenden, Daten und Anwesenheitsindikatoren](/.gitbook/assets/attendance-sheet.png)
 
-The attendance tool shows:
+Das Anwesenheits-Tool zeigt:
 
-* A summary table with all learners and all dates
-* Each learner's attendance percentage (present sessions / total sessions)
-* Color-coded indicators for easy scanning
+* Eine Übersichtstabelle mit allen Lernenden und allen Daten
+* Den Anwesenheitsprozentsatz jedes Lernenden (anwesende Sitzungen / Gesamtsitzungen)
+* Farbkodierte Indikatoren für eine einfache Übersicht
 
-## Extra
+## Extras
 
-Attendances have a few extended features that are not visible straight away:
-* **Signatures** can be enabled so that learners can sign their attendance in-class through a tablet handled by the teacher
-* **Comments** can be added by the teacher on each student attendance
-* **PDF reports** can be extracted to comply with regulation
+Anwesenheitsblätter bieten einige erweiterte Funktionen, die nicht sofort sichtbar sind:
+* **Unterschriften** können aktiviert werden, sodass Lernende ihre Anwesenheit im Unterricht über ein vom Lehrer bereitgestelltes Tablet unterschreiben können
+* **Kommentare** können vom Lehrer zu jeder Schüleranwesenheit hinzugefügt werden
+* **PDF-Berichte** können extrahiert werden, um gesetzliche Anforderungen zu erfüllen
 
-## Tips
+## Tipps
 
-* **Link to course progress** — Use attendance data alongside the Course Progress tool to correlate presence with topic coverage
-* **Export data** — Export the attendance sheet for administrative records
-* **Set expectations** — If attendance is mandatory, communicate the policy clearly in your course introduction or announcements
+* **Verknüpfung mit Kursfortschritt** — Nutzen Sie Anwesenheitsdaten zusammen mit dem Kursfortschritt-Tool, um die Anwesenheit mit dem Themenfortschritt zu korrelieren
+* **Daten exportieren** — Exportieren Sie das Anwesenheitsblatt für administrative Aufzeichnungen
+* **Erwartungen setzen** — Wenn die Anwesenheit obligatorisch ist, kommunizieren Sie die Richtlinie klar in Ihrer Kursvorstellung oder in Ankündigungen
