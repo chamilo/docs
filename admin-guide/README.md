@@ -1,35 +1,35 @@
-# Administration Guide
+# Panduan Administrasi
 
-Welcome to the Chamilo 2.0 Administration Guide. This guide is designed for platform administrators responsible for installing, configuring, and managing a Chamilo instance.
+Selamat datang di Panduan Administrasi Chamilo 2.0. Panduan ini dirancang untuk administrator platform yang bertanggung jawab atas instalasi, konfigurasi, dan pengelolaan instance Chamilo.
 
-## What you can do as an Administrator
+## Apa yang Dapat Anda Lakukan sebagai Administrator
 
-As a Chamilo administrator, you manage:
+Sebagai administrator Chamilo, Anda mengelola:
 
-* **Installation and configuration** — Set up Chamilo on your server, configure storage, email, and environment settings
-* **Users** — Create, import, and manage user accounts, roles, and permissions
-* **Courses and sessions** — Oversee course creation, manage the course catalog, and configure training sessions
-* **Platform settings** — Configure portal behavior, security, performance, and feature availability
-* **Authentication** — Set up external login systems (OAuth2, LDAP, CAS, SCIM)
-* **Integrations** — Connect Chamilo to video conferencing, LTI tools, AI providers, and more
-* **Branding** — Customize the look and feel of the platform with themes and visual settings
-* **Maintenance** — Perform backups, monitor system health, and manage storage
+* **Instalasi dan konfigurasi** — Menyiapkan Chamilo di server Anda, mengatur penyimpanan, email, dan pengaturan lingkungan
+* **Pengguna** — Membuat, mengimpor, dan mengelola akun pengguna, peran, dan izin
+* **Kursus dan sesi** — Mengawasi pembuatan kursus, mengelola katalog kursus, dan mengatur sesi pelatihan
+* **Pengaturan platform** — Mengonfigurasi perilaku portal, keamanan, kinerja, dan ketersediaan fitur
+* **Autentikasi** — Menyiapkan sistem login eksternal (OAuth2, LDAP, CAS, SCIM)
+* **Integrasi** — Menghubungkan Chamilo ke konferensi video, alat LTI, penyedia AI, dan lainnya
+* **Branding** — Menyesuaikan tampilan dan nuansa platform dengan tema dan pengaturan visual
+* **Pemeliharaan** — Melakukan pencadangan, memantau kesehatan sistem, dan mengelola penyimpanan
 
-## How this guide is organized
+## Bagaimana Panduan Ini Disusun
 
-1. **Getting Started** — An overview of the administration interface
-2. **Installation** — Server requirements, installation wizard, and initial configuration
-3. **Users** — Managing user accounts, roles, groups, and profiles
-4. **Courses** — Managing courses, categories, and import/export
-5. **Sessions** — Organizing time-bound training cohorts
-6. **Platform Settings** — Configuring every aspect of the platform
-7. **Authentication** — Setting up external authentication providers
-8. **Integrations** — Connecting third-party services
-9. **Plugins** — Managing platform extensions
-10. **Multi-URL** — Running multiple portals from a single installation
-11. **Maintenance** — Backups, system status, and cleanup
-12. **Branding** — Customizing the platform appearance
+1. **Memulai** — Gambaran umum tentang antarmuka administrasi
+2. **Instalasi** — Persyaratan server, wizard instalasi, dan konfigurasi awal
+3. **Pengguna** — Mengelola akun pengguna, peran, grup, dan profil
+4. **Kursus** — Mengelola kursus, kategori, serta impor/ekspor
+5. **Sesi** — Mengatur kelompok pelatihan berdasarkan waktu
+6. **Pengaturan Platform** — Mengonfigurasi setiap aspek platform
+7. **Autentikasi** — Menyiapkan penyedia autentikasi eksternal
+8. **Integrasi** — Menghubungkan layanan pihak ketiga
+9. **Plugin** — Mengelola ekstensi platform
+10. **Multi-URL** — Menjalankan beberapa portal dari satu instalasi
+11. **Pemeliharaan** — Pencadangan, status sistem, dan pembersihan
+12. **Branding** — Menyesuaikan tampilan platform
 
-## Accessing the Administration Panel
+## Mengakses Panel Administrasi
 
-After logging in as an administrator, click **Administration** <img src="/.gitbook/assets/icons/mdi-cogs.svg" alt="Admin" data-size="line"> in the sidebar to access the administration panel.
+Setelah masuk sebagai administrator, klik **Administrasi** <img src="/.gitbook/assets/icons/mdi-cogs.svg" alt="Admin" data-size="line"> di bilah sisi untuk mengakses panel administrasi.

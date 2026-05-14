@@ -1,99 +1,99 @@
-# Configuration
+# Konfigurasi
 
-Chamilo 2.0 uses environment variables and Symfony configuration files for its core settings. This page covers the key configuration files and variables.
+Chamilo 2.0 menggunakan variabel lingkungan dan file konfigurasi Symfony untuk pengaturan intinya. Halaman ini mencakup file konfigurasi utama dan variabel-variabel penting.
 
-## Environment Variables (.env)
+## Variabel Lingkungan (.env)
 
-The primary configuration file is `.env` in the Chamilo root directory. This file contains environment-specific settings that should not be committed to version control.
+File konfigurasi utama adalah `.env` yang terletak di direktori root Chamilo. File ini berisi pengaturan khusus lingkungan yang tidak boleh dimasukkan ke dalam kontrol versi.
 
-A default `.env.dist` file ships with Chamilo and contains documented defaults. Create `.env` (required to start the installation) to override values for your environment.
+File default `.env.dist` disertakan bersama Chamilo dan berisi default yang didokumentasikan. Buat file `.env` (diperlukan untuk memulai instalasi) untuk mengganti nilai sesuai dengan lingkungan Anda.
 
-### Key Variables
+### Variabel Utama
 
-| Variable | Description | Example |
-|----------|-------------|---------|
-| `APP_ENV` | The application environment, at the Symfony level. Use `prod` for production, `dev` for development, 'test' for testing. | `prod` |
-| `APP_SECRET` | A random string used for CSRF tokens, cookie signing, and other cryptographic operations. Chamilo generates a unique value for each installation. Don't modify it. | `a1b2c3d4e5f6...` |
-| `DATABASE_HOST` | The database host. Defaults to localhost | `localhost` |
-| `DATABASE_PORT` | The database port. Defaults to 3306 for MySQL/MariaDB | `3306` |
-| `DATABASE_NAME` | The database name, as given by you to the installation wizard. | See below. |
-| `DATABASE_USER` | The database username, as given by you to the installation wizard. | See below. |
-| `DATABASE_PASSWORD` | The database user's password, as given by you to the installation wizard. | See below. |
-| `TRUSTED_PROXIES` | (Optional) If you are hosting Chamilo behind a reverse proxy, you need to provide the IP(s) of the reverse proxy here for Chamilo to be able to interpret calls and generate responses correctly. | |
+| Variabel | Deskripsi | Contoh |
+|----------|-----------|--------|
+| `APP_ENV` | Lingkungan aplikasi, pada level Symfony. Gunakan `prod` untuk produksi, `dev` untuk pengembangan, 'test' untuk pengujian. | `prod` |
+| `APP_SECRET` | String acak yang digunakan untuk token CSRF, penandatanganan cookie, dan operasi kriptografi lainnya. Chamilo menghasilkan nilai unik untuk setiap instalasi. Jangan ubah nilai ini. | `a1b2c3d4e5f6...` |
+| `DATABASE_HOST` | Host database. Defaultnya adalah localhost | `localhost` |
+| `DATABASE_PORT` | Port database. Defaultnya adalah 3306 untuk MySQL/MariaDB | `3306` |
+| `DATABASE_NAME` | Nama database, sebagaimana diberikan oleh Anda pada wizard instalasi. | Lihat di bawah. |
+| `DATABASE_USER` | Nama pengguna database, sebagaimana diberikan oleh Anda pada wizard instalasi. | Lihat di bawah. |
+| `DATABASE_PASSWORD` | Kata sandi pengguna database, sebagaimana diberikan oleh Anda pada wizard instalasi. | Lihat di bawah. |
+| `TRUSTED_PROXIES` | (Opsional) Jika Anda menghosting Chamilo di belakang reverse proxy, Anda perlu menyediakan IP reverse proxy di sini agar Chamilo dapat menginterpretasikan panggilan dan menghasilkan respons dengan benar. | |
 
-Other settings in .env are relatively rarely modified.
+Pengaturan lain di .env relatif jarang dimodifikasi.
 
-Note that, in future versions, the DATABASE_* settings will be combined into one single `DATABASE_URL` variable.
+Perhatikan bahwa, pada versi mendatang, pengaturan DATABASE_* akan digabungkan menjadi satu variabel tunggal `DATABASE_URL`.
 
-E-mail sending configuration is presented during installation, but can be modified later on in the `Platform settings` section of the administration dashboard.
+Konfigurasi pengiriman email disajikan selama instalasi, tetapi dapat dimodifikasi kemudian di bagian `Pengaturan Platform` pada dashboard administrasi.
 
-## Symfony Configuration (config/ Directory)
+## Konfigurasi Symfony (Direktori config/)
 
-Symfony-level configuration lives in the `config/` directory. These YAML files control framework behavior, service definitions, and package-specific settings.
+Konfigurasi pada level Symfony berada di direktori `config/`. File YAML ini mengontrol perilaku framework, definisi layanan, dan pengaturan khusus paket.
 
-It is not frequent to have to modify those files, and changing them can render your portal inoperative, so please do not attempt to modify those if you must ensure the system's availability.
+Tidak sering perlu untuk memodifikasi file-file ini, dan mengubahnya dapat membuat portal Anda tidak berfungsi, jadi harap jangan mencoba mengubahnya jika Anda harus memastikan ketersediaan sistem.
 
-### Key Configuration Files
+### File Konfigurasi Utama
 
-| File | Purpose |
-|------|---------|
-| `config/authentication.yaml` | Authentication methods configuration. |
-| `config/packages/doctrine.yaml` | Database and ORM configuration. |
-| `config/packages/security.yaml` | Authentication, firewalls, access control, and role hierarchies. |
-| `config/packages/cache.yaml` | Cache adapter configuration (filesystem, APCu, Redis). |
-| `config/packages/framework.yaml` | General Symfony framework settings (session, CSRF, router, HTTP caching). |
-| `config/packages/twig.yaml` | Template engine configuration. |
-| `config/services.yaml` | Application service definitions and dependency injection. |
+| File | Tujuan |
+|------|--------|
+| `config/authentication.yaml` | Konfigurasi metode autentikasi. |
+| `config/packages/doctrine.yaml` | Konfigurasi database dan ORM. |
+| `config/packages/security.yaml` | Autentikasi, firewall, kontrol akses, dan hierarki peran. |
+| `config/packages/cache.yaml` | Konfigurasi adapter cache (filesystem, APCu, Redis). |
+| `config/packages/framework.yaml` | Pengaturan umum framework Symfony (sesi, CSRF, router, caching HTTP). |
+| `config/packages/twig.yaml` | Konfigurasi mesin template. |
+| `config/services.yaml` | Definisi layanan aplikasi dan injeksi dependensi. |
 
-### Environment-Specific Overrides
+### Penggantian Khusus Lingkungan
 
-Symfony supports per-environment configuration. Files in `config/packages/prod/` override the defaults when `APP_ENV=prod`, and `config/packages/dev/` overrides when `APP_ENV=dev`.
+Symfony mendukung konfigurasi per lingkungan. File di `config/packages/prod/` menggantikan default ketika `APP_ENV=prod`, dan `config/packages/dev/` menggantikan ketika `APP_ENV=dev`.
 
-For example, `config/packages/prod/monolog.yaml` typically configures less verbose logging than the development equivalent.
+Sebagai contoh, `config/packages/prod/monolog.yaml` biasanya mengatur logging yang kurang verbose dibandingkan dengan yang setara di lingkungan pengembangan.
 
-Chamilo does not define any configuration in `config/packages/prod/` in the software itself, so if you want to customize setting from `config/packages/*.yaml`, just create a copy of the yaml file inside that directory and change the settings there.
+Chamilo tidak mendefinisikan konfigurasi apa pun di `config/packages/prod/` dalam perangkat lunak itu sendiri, jadi jika Anda ingin menyesuaikan pengaturan dari `config/packages/*.yaml`, cukup buat salinan file yaml di dalam direktori tersebut dan ubah pengaturan di sana.
 
-## File Permissions
+## Izin File
 
-We made efforts in 2.0+ to ensure that a single directory needed permissions. This is the `var/` directory, and to avoid complex issues, just setting the whole folder as writeable by the web server system user is enough.
+Kami telah berupaya di versi 2.0+ untuk memastikan bahwa hanya satu direktori yang membutuhkan izin. Ini adalah direktori `var/`, dan untuk menghindari masalah yang rumit, cukup mengatur seluruh folder sebagai dapat ditulis oleh pengguna sistem server web sudah cukup.
 
-Set permissions appropriately under Debian-based systems:
+Atur izin dengan tepat pada sistem berbasis Debian:
 
 ```bash
-# For systems where the web server runs as www-data
+# Untuk sistem di mana server web berjalan sebagai www-data
 chown -R www-data:www-data var/
 chmod -R 775 var/
 ```
 
-## Common Configuration Tasks
+## Tugas Konfigurasi Umum
 
-### Switch to Production Mode
+### Beralih ke Mode Produksi
 
 ```bash
-# In .env
+# Di .env
 APP_ENV=prod
 APP_DEBUG=0
 ```
 
-Then clear and warm the cache:
+Kemudian bersihkan dan panaskan cache:
 
 ```bash
 php bin/console cache:clear --env=prod
 php bin/console cache:warmup --env=prod
 ```
 
-### Configure Trusted Proxies
+### Mengatur Trusted Proxies
 
-If Chamilo runs behind a reverse proxy or load balancer, configure trusted proxies so that HTTPS detection and client IP resolution work correctly:
+Jika Chamilo berjalan di belakang reverse proxy atau load balancer, konfigurasikan trusted proxies agar deteksi HTTPS dan resolusi IP klien berfungsi dengan benar:
 
 ```yaml
 # .env
 TRUSTED_PROXIES='127.0.0.1,PROXY_IP'
 ```
 
-### Configure Session Storage
+### Mengatur Penyimpanan Sesi
 
-By default, sessions are stored on the filesystem. For multi-server deployments, configure Redis or database-backed sessions:
+Secara default, sesi disimpan di filesystem. Untuk penyebaran multi-server, konfigurasikan sesi yang didukung Redis atau database:
 
 ```yaml
 # config/packages/framework.yaml
@@ -102,8 +102,9 @@ framework:
         handler_id: 'redis://localhost:6379'
 ```
 
+---
 ## Tips
 
-* **Never edit `.env.dist` directly** -- Always use `.env` for your overrides. The `.env.dist` file may be overwritten during upgrades.
-* **Keep `APP_DEBUG=0` in production** -- Debug mode exposes sensitive information in error pages.
-* **Back up `.env`** separately from the codebase since it contains credentials and is excluded from version control.
+* **Jangan pernah mengedit `.env.dist` secara langsung** -- Selalu gunakan `.env` untuk pengaturan Anda. File `.env.dist` dapat ditimpa selama proses pembaruan.
+* **Tetap pertahankan `APP_DEBUG=0` di lingkungan produksi** -- Mode debug dapat menampilkan informasi sensitif pada halaman error.
+* **Cadangkan `.env`** secara terpisah dari basis kode karena file ini berisi kredensial dan dikecualikan dari kontrol versi.

@@ -1,51 +1,51 @@
-# Admin Interface Overview
+# Gambaran Umum Antarmuka Admin
 
-The administration panel is your command center for managing the Chamilo platform. Access it by clicking **Administration** <img src="/.gitbook/assets/icons/mdi-cogs.svg" alt="Admin" data-size="line"> in the sidebar.
+Panel administrasi adalah pusat kendali Anda untuk mengelola platform Chamilo. Akses panel ini dengan mengklik **Administrasi** <img src="/.gitbook/assets/icons/mdi-cogs.svg" alt="Admin" data-size="line"> di bilah sisi.
 
-## Administration Dashboard
+## Dasbor Administrasi
 
-![The administration dashboard showing functional blocks for Users, Courses, Sessions, and Settings](/.gitbook/assets/admin-dashboard-overview.png)
+![Dasbor administrasi yang menampilkan blok fungsional untuk Pengguna, Kursus, Sesi, dan Pengaturan](/.gitbook/assets/admin-dashboard-overview.png)
 
-The admin dashboard is organized into functional blocks. Each block groups related management tools:
+Dasbor admin diorganisasi ke dalam blok-blok fungsional. Setiap blok mengelompokkan alat manajemen yang terkait:
 
-### Users
+### Pengguna
 
-* **User list** — View, search, edit, and manage all users on the platform
-* **Add a user** — Create individual user accounts
-* **User groups** — Manage groups of users for organizational purposes
-* **Classes** — Manage user classes for bulk session enrollment
+* **Daftar pengguna** — Melihat, mencari, mengedit, dan mengelola semua pengguna di platform
+* **Tambah pengguna** — Membuat akun pengguna individu
+* **Kelompok pengguna** — Mengelola kelompok pengguna untuk keperluan organisasi
+* **Kelas** — Mengelola kelas pengguna untuk pendaftaran sesi secara massal
 
-### Courses
+### Kursus
 
-* **Course list** — View and manage all courses on the platform
-* **Create a course** — Create a new course
-* **Course categories** — Organize courses into categories for the catalog
+* **Daftar kursus** — Melihat dan mengelola semua kursus di platform
+* **Buat kursus** — Membuat kursus baru
+* **Kategori kursus** — Mengatur kursus ke dalam kategori untuk katalog
 
-### Sessions
+### Sesi
 
-* **Session list** — View and manage training sessions
-* **Create a session** — Set up a new session with courses and enrollment
-* **Session categories** — Organize sessions into categories
-* **Careers and promotions** — Manage career paths and promotion workflows
+* **Daftar sesi** — Melihat dan mengelola sesi pelatihan
+* **Buat sesi** — Menyiapkan sesi baru dengan kursus dan pendaftaran
+* **Kategori sesi** — Mengatur sesi ke dalam kategori
+* **Karier dan promosi** — Mengelola jalur karier dan alur kerja promosi
 
-### Platform Settings
+### Pengaturan Platform
 
-* **Configuration settings** — Access the comprehensive platform settings panel with categories for portal, courses, sessions, users, security, and more
+* **Pengaturan konfigurasi** — Mengakses panel pengaturan platform yang komprehensif dengan kategori untuk portal, kursus, sesi, pengguna, keamanan, dan lainnya
 
-### Plugins
+### Plugin
 
-* **Manage plugins** — Install, activate, configure, and deactivate platform plugins
+* **Kelola plugin** — Memasang, mengaktifkan, mengonfigurasi, dan menonaktifkan plugin platform
 
-### System
+### Sistem
 
-* **System status** — Check PHP configuration, database status, and server health
-* **Archive cleanup** — Manage temporary files and caches
+* **Status sistem** — Memeriksa konfigurasi PHP, status basis data, dan kesehatan server
+* **Pembersihan arsip** — Mengelola file sementara dan cache
 
 ### Branding
 
-* **Colors** — Customize the platform's visual appearance
-* **Portal customization** — Configure portal homepage, news, and branding elements
+* **Warna** — Menyesuaikan tampilan visual platform
+* **Kustomisasi portal** — Mengonfigurasi halaman utama portal, berita, dan elemen branding
 
-Each section is covered in detail in its corresponding chapter of this guide.
+Setiap bagian dijelaskan secara rinci dalam bab yang sesuai di panduan ini.
 
-Authentication methods like OAuth2, LDAP, CAS, and other external authentication providers are not configured in the administration dashboard but in `config/authentication.yaml`.
+Metode autentikasi seperti OAuth2, LDAP, CAS, dan penyedia autentikasi eksternal lainnya tidak dikonfigurasi di dasbor administrasi, melainkan di `config/authentication.yaml`.

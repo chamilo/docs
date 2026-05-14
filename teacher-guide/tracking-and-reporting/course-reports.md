@@ -1,50 +1,50 @@
-# Course Reports
+# Laporan Kursus
 
-Course reports give you an aggregate view of activity and performance across all learners in your course.
+Laporan kursus memberikan Anda tampilan agregat dari aktivitas dan kinerja di seluruh semua pembelajar dalam kursus Anda.
 
-## Accessing Course Reports
+## Mengakses Laporan Kursus
 
-Open the **Tracking** <img src="/.gitbook/assets/icons/mdi-chart-box.svg" alt="Tracking" data-size="line"> tool from the course homepage and select the course-level reports view.
+Buka alat **Tracking** <img src="/.gitbook/assets/icons/mdi-chart-box.svg" alt="Tracking" data-size="line"> dari beranda kursus dan pilih tampilan laporan tingkat kursus.
 
-![The course tracking overview showing engagement metrics and learner activity summary](/.gitbook/assets/tracking-course-overview.png)
+![Ikhtisar pelacakan kursus yang menunjukkan metrik keterlibatan dan ringkasan aktivitas pembelajar](/.gitbook/assets/tracking-course-overview.png)
 
-## Available Reports
+## Laporan yang Tersedia
 
-### Activity Overview
+### Ikhtisar Aktivitas
 
-A summary of overall course engagement, including enrolled learners, time spent in the course, course progress, exercise progress and average score, and assignment activity.
+Ringkasan keterlibatan kursus secara keseluruhan, termasuk pembelajar yang terdaftar, waktu yang dihabiskan dalam kursus, kemajuan kursus, kemajuan latihan dan skor rata-rata, serta aktivitas tugas.
 
-Separate detail views are available from the tracking section for **resources** (per-resource access counts), **tools** (per-tool usage), and **events** (raw event log).
+Tampilan detail terpisah tersedia dari bagian pelacakan untuk **resources** (jumlah akses per sumber daya), **tools** (penggunaan per alat), dan **events** (log peristiwa mentah).
 
-### Exercise Reports
+### Laporan Latihan
 
-For each exercise in the course:
+Untuk setiap latihan dalam kursus:
 
-* Number of learners who attempted it
-* Average score
-* Score distribution
-* Number of learners who passed (based on the pass threshold you set)
+* Jumlah pembelajar yang mencobanya
+* Skor rata-rata
+* Distribusi skor
+* Jumlah pembelajar yang lulus (berdasarkan ambang batas lulus yang Anda tetapkan)
 
-### Learning Path Reports
+### Laporan Jalur Pembelajaran
 
-For each learning path:
+Untuk setiap jalur pembelajaran:
 
-* Completion rates across all learners
-* Average progress percentage
-* Time spent per item
-* Learners who have completed the path vs. those still in progress
+* Tingkat penyelesaian di seluruh semua pembelajar
+* Persentase kemajuan rata-rata
+* Waktu yang dihabiskan per item
+* Pembelajar yang telah menyelesaikan jalur vs. yang masih dalam proses
 
-### Assignment Reports
+### Laporan Tugas
 
-For each assignment:
+Untuk setiap tugas:
 
-* Number of submissions received
-* Number of pending reviews
+* Jumlah pengiriman yang diterima
+* Jumlah ulasan yang tertunda
 
-## Exporting Data
+## Mengekspor Data
 
-You can export tracking and report data for further analysis. Look for the **Export** <img src="/.gitbook/assets/icons/mdi-export.svg" alt="Export" data-size="line"> option to download data in a spreadsheet-compatible format.
+Anda dapat mengekspor data pelacakan dan laporan untuk analisis lebih lanjut. Cari opsi **Export** <img src="/.gitbook/assets/icons/mdi-export.svg" alt="Export" data-size="line"> untuk mengunduh data dalam format yang kompatibel dengan spreadsheet.
 
-## Session Reports
+## Laporan Sesi
 
-If you teach within a session, reports are scoped to the session's learners. Session coaches have access to reports across all courses in their session. A global configuration setting can also allows teachers to see assignments through all sessions using their course (ask your admin).
+Jika Anda mengajar dalam sebuah sesi, laporan dibatasi pada pembelajar sesi tersebut. Pelatih sesi memiliki akses ke laporan di seluruh semua kursus dalam sesi mereka. Pengaturan konfigurasi global juga memungkinkan guru untuk melihat tugas melalui semua sesi yang menggunakan kursus mereka (tanyakan kepada admin Anda).

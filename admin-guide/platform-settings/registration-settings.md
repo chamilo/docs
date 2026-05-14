@@ -1,108 +1,104 @@
-# Registration Settings
+# Pengaturan Pendaftaran
 
-Self-registration policy and post-registration redirects — what new users are asked for and where they land.
+Kebijakan pendaftaran mandiri dan pengalihan setelah pendaftaran — apa yang diminta dari pengguna baru dan ke mana mereka diarahkan.
 
-Access these settings under **Administration > Configuration settings > Registration**. This category contains **20 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+Akses pengaturan ini di bawah **Administrasi > Pengaturan konfigurasi > Pendaftaran**. Kategori ini berisi **20 pengaturan**, yang tercantum di bawah ini beserta judul dan komentar yang disertakan dalam fixture pengaturan platform (`SettingsCurrentFixtures.php`).
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> Nama variabel dalam kode ditampilkan dalam monospace. Gunakan ini saat membuat skrip melalui API atau ketika Anda perlu mengubah pengaturan tersebut pada tingkat global dengan mengedit [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
 
-## Settings
+## Pengaturan
 
 ### `allow_double_validation_in_registration`
 
-**Double validation for registration process**
+**Validasi ganda untuk proses pendaftaran**
 
-Simply display a confirmation request on the registration page before going forward with the user creation.
+Hanya menampilkan permintaan konfirmasi di halaman pendaftaran sebelum melanjutkan dengan pembuatan pengguna.
 
 *Default: `false`*
 
-
 ### `allow_fields_inscription`
 
-**Restrict fields shown during registration**
+**Batasi bidang yang ditampilkan selama pendaftaran**
 
-If you only want to show some of the available profile field, your can complete the array here with sub-elements 'fields' and 'extra_fields' containing arrays with a list of the fields to show.
+Jika Anda hanya ingin menampilkan beberapa bidang profil yang tersedia, Anda dapat melengkapi array di sini dengan sub-elemen 'fields' dan 'extra_fields' yang berisi array dengan daftar bidang yang akan ditampilkan.
 
 ### `allow_lostpassword`
 
-**Lost password**
+**Kata sandi yang hilang**
 
-Are users allowed to request their lost password?
+Apakah pengguna diizinkan untuk meminta kata sandi yang hilang?
 
 *Default: `true`*
 
 ### `allow_registration`
 
-**Registration**
+**Pendaftaran**
 
-Is registration as a new user allowed? Can users create new accounts?
+Apakah pendaftaran sebagai pengguna baru diizinkan? Apakah pengguna dapat membuat akun baru?
 
 *Default: `false`*
 
 ### `allow_registration_as_teacher`
 
-**Registration as teacher**
+**Pendaftaran sebagai pengajar**
 
-Can one register as a teacher (with the ability to create courses)?
+Apakah seseorang dapat mendaftar sebagai pengajar (dengan kemampuan untuk membuat kursus)?
 
 *Default: `false`*
 
 ### `allow_terms_conditions`
 
-**Enable terms and conditions**
+**Aktifkan syarat dan ketentuan**
 
-This option will display the Terms and Conditions in the register form for new users. Need to be configured first in the portal administration page.
+Opsi ini akan menampilkan Syarat dan Ketentuan dalam formulir pendaftaran untuk pengguna baru. Perlu dikonfigurasi terlebih dahulu di halaman administrasi portal.
 
 *Default: `false`*
-
 
 ### `drh_autosubscribe`
 
-**Human resources director autosubscribe**
+**Langganan otomatis direktur sumber daya manusia**
 
-Human resources director autosubscribe - not yet available
+Langganan otomatis direktur sumber daya manusia - belum tersedia
 
 ### `extendedprofile_registration`
 
-**Portfolio fields at registration**
+**Bidang portofolio saat pendaftaran**
 
-Which of the following fields of the portfolio have to be available in the user registration process? This requires that the portfolio option be enabled (see above).
+Bidang portofolio mana yang harus tersedia dalam proses pendaftaran pengguna? Ini mengharuskan opsi portofolio diaktifkan (lihat di atas).
 
 ### `extendedprofile_registrationrequired`
 
-**Required portfolio fields in registration**
+**Bidang portofolio wajib saat pendaftaran**
 
-Which of the following fields of the portfolio are *required* in the user registration process? This requires that the portfolio option be enabled and that the field be also available in the registration form (see above).
+Bidang portofolio mana yang *wajib* diisi dalam proses pendaftaran pengguna? Ini mengharuskan opsi portofolio diaktifkan dan bidang tersebut juga tersedia dalam formulir pendaftaran (lihat di atas).
 
 ### `extldap_config`
 
-**LDAP connection configuration**
+**Konfigurasi koneksi LDAP**
 
-Array defining host and port for the LDAP server.
+Array yang mendefinisikan host dan port untuk server LDAP.
 
 ### `hide_legal_accept_checkbox`
 
-**Hide legal accept checkbox in Terms and Conditions page**
+**Sembunyikan kotak centang penerimaan hukum di halaman Syarat dan Ketentuan**
 
-If set to true, removes the "I have read and accept" checkbox in the Terms and Conditions page flow.
+Jika diatur ke true, menghapus kotak centang "Saya telah membaca dan menyetujui" dalam alur halaman Syarat dan Ketentuan.
 
 *Default: `false`*
-
 
 ### `platform_unsubscribe_allowed`
 
-**Allow unsubscription from platform**
+**Izinkan pembatalan langganan dari platform**
 
-By enabling this option, you allow any user to definitively remove his own account and all data related to it from the platform. This is quite a radical action, but it is necessary for portals opened to the public where users can auto-register. An additional entry will appear in the user profile to unsubscribe after confirmation.
+Dengan mengaktifkan opsi ini, Anda mengizinkan pengguna untuk menghapus akun mereka sendiri dan semua data yang terkait secara permanen dari platform. Ini adalah tindakan yang cukup radikal, tetapi diperlukan untuk portal yang terbuka untuk umum di mana pengguna dapat mendaftar sendiri. Entri tambahan akan muncul di profil pengguna untuk membatalkan langganan setelah konfirmasi.
 
 *Default: `false`*
 
-
 ### `redirect_after_login`
 
-**Redirect after login (per profile)**
+**Pengalihan setelah login (per profil)**
 
-Define redirection per profile after login using a JSON object like {"STUDENT":"", "ADMIN":"admin-dashboard"}
+Tentukan pengalihan per profil setelah login menggunakan objek JSON seperti {"STUDENT":"", "ADMIN":"admin-dashboard"}
 
 *Default:*
 ```json
@@ -119,49 +115,46 @@ Define redirection per profile after login using a JSON object like {"STUDENT":"
 
 ### `required_extra_fields_in_inscription`
 
-**Required extra fields during registration**
+**Bidang tambahan wajib selama pendaftaran**
 
-Array of extra field identifiers that must be completed during user registration.
+Array dari pengenal bidang tambahan yang harus diisi selama pendaftaran pengguna.
 
 ### `required_profile_fields`
 
-**Required fields during registration**
+**Bidang wajib selama pendaftaran**
 
-Array of profile field names (email, phone, language, official_code) that must be provided during registration.
+Array dari nama bidang profil (email, phone, language, official_code) yang harus disediakan selama pendaftaran.
 
 ### `send_inscription_msg_to_inbox`
 
-**Send the welcome message to e-mail and inbox**
+**Kirim pesan selamat datang ke email dan kotak masuk**
 
-By default, the welcome message (with credentials) is sent only by e-mail. Enable this option to send it to the user's Chamilo inbox as well.
+Secara default, pesan selamat datang (dengan kredensial) hanya dikirim melalui email. Aktifkan opsi ini untuk mengirimkannya juga ke kotak masuk Chamilo pengguna.
 
 *Default: `false`*
-
 
 ### `sessionadmin_autosubscribe`
 
-**Session admin autosubscribe**
+**Langganan otomatis admin sesi**
 
-Session administrator autosubscribe - not available yet
+Langganan otomatis administrator sesi - belum tersedia
 
 ### `student_autosubscribe`
 
-**Learner autosubscribe**
+**Langganan otomatis peserta didik**
 
-Learner autosubscribe - not yet available
+Langganan otomatis peserta didik - belum tersedia
 
 ### `teacher_autosubscribe`
 
-**Teacher autosubscribe**
+**Langganan otomatis pengajar**
 
-Teacher autosubscribe - not yet available
+Langganan otomatis pengajar - belum tersedia
 
 ### `user_hide_never_expire_option`
 
-**Hide 'never expires' option for users**
+**Sembunyikan opsi 'tidak pernah kedaluwarsa' untuk pengguna**
 
-Remove the option 'never expires' when creating/editing a user account.
+Hapus opsi 'tidak pernah kedaluwarsa' saat membuat/mengedit akun pengguna.
 
 *Default: `false`*
-
-

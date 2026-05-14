@@ -1,136 +1,137 @@
-# Installation Wizard
+# Panduan Instalasi
 
-Chamilo 2.0 includes a web-based installation wizard that guides you through the initial setup. The wizard runs automatically when you access the platform for the first time.
+Chamilo 2.0 menyertakan panduan instalasi berbasis web yang memandu Anda melalui pengaturan awal. Panduan ini akan berjalan secara otomatis saat Anda mengakses platform untuk pertama kalinya.
 
-## Before You Start
+## Sebelum Memulai
 
-Ensure the following prerequisites are met:
+Pastikan prasyarat berikut telah terpenuhi:
 
-1. Your server meets all [server requirements](server-requirements.md).
-2. You have downloaded a packaged (zip or tar.gz) version of Chamilo.
-3. Your web server is configured to serve the `public/` directory as the document root.
-4. Your `.env` file exists and is empty (the wizard will guide database setup).
+1. Server Anda memenuhi semua [persyaratan server](server-requirements.md).
+2. Anda telah mengunduh versi paket (zip atau tar.gz) dari Chamilo.
+3. Server web Anda dikonfigurasi untuk melayani direktori `public/` sebagai root dokumen.
+4. File `.env` Anda ada dan kosong (panduan akan membantu pengaturan basis data).
 
-## Step 1: Installation Language
+## Langkah 1: Bahasa Instalasi
 
-![Installation wizard Step 1 — language selection](/.gitbook/assets/install-step1-language.png)
+![Panduan instalasi Langkah 1 — pemilihan bahasa](/.gitbook/assets/install-step1-language.png)
 
-The first step lets you select the language for the installation process. Choose your preferred language from the dropdown.
+Langkah pertama memungkinkan Anda memilih bahasa untuk proses instalasi. Pilih bahasa yang Anda inginkan dari menu dropdown.
 
-If Chamilo detects an existing installation (for an upgrade), it will display the migration status and offer an upgrade path instead of a fresh install.
+Jika Chamilo mendeteksi instalasi yang sudah ada (untuk peningkatan versi), maka akan ditampilkan status migrasi dan menawarkan jalur peningkatan versi alih-alih instalasi baru.
 
-## Step 2: Requirements Check
+## Langkah 2: Pemeriksaan Persyaratan
 
-![Installation wizard Step 2 — requirements check showing PHP version, extensions, and directory permissions](/.gitbook/assets/install-step2-requirements.png)
+![Panduan instalasi Langkah 2 — pemeriksaan persyaratan yang menunjukkan versi PHP, ekstensi, dan izin direktori](/.gitbook/assets/install-step2-requirements.png)
 
-The wizard checks your server environment:
+Panduan ini memeriksa lingkungan server Anda:
 
-* **PHP version** is 8.2 or superior
-* **Required PHP extensions** are installed (intl, gd, curl, zip, mbstring, xml, etc.)
-* **Recommended PHP settings** — `date.timezone` is configured, adequate upload/memory limits
-* **Directory and file permissions** — `var/`, `config/`, and `public/upload/` are writable by the web server
+* **Versi PHP** adalah 8.2 atau lebih tinggi
+* **Ekstensi PHP yang diperlukan** telah terinstal (intl, gd, curl, zip, mbstring, xml, dll.)
+* **Pengaturan PHP yang direkomendasikan** — `date.timezone` telah dikonfigurasi, batas unggah/memori yang memadai
+* **Izin direktori dan file** — `var/`, `config/`, dan `public/upload/` dapat ditulis oleh server web
 
-If any requirements are not met, the wizard displays warnings or errors. Resolve them before proceeding.
+Jika ada persyaratan yang tidak terpenuhi, panduan akan menampilkan peringatan atau kesalahan. Selesaikan masalah tersebut sebelum melanjutkan.
 
-## Step 3: License
+## Langkah 3: Lisensi
 
-![Installation wizard Step 3 — license acceptance](/.gitbook/assets/install-step3-license.png)
+![Panduan instalasi Langkah 3 — penerimaan lisensi](/.gitbook/assets/install-step3-license.png)
 
-This step displays the GNU/GPLv3 license. You must check the **"I accept"** checkbox to proceed.
+Langkah ini menampilkan lisensi GNU/GPLv3. Anda harus mencentang kotak **"Saya setuju"** untuk melanjutkan.
 
-Optionally, you can expand the **Contact information** section to provide details about your organization (name, email, company, country). This is voluntary and helps the Chamilo community understand who uses the platform, but will also allow us to contact you *very rarely* about events happening close to you.
+Secara opsional, Anda dapat membuka bagian **Informasi Kontak** untuk memberikan detail tentang organisasi Anda (nama, email, perusahaan, negara). Ini bersifat sukarela dan membantu komunitas Chamilo memahami siapa yang menggunakan platform, tetapi juga memungkinkan kami untuk menghubungi Anda *sangat jarang* terkait acara yang terjadi di dekat Anda.
 
-## Step 4: Database Settings
+## Langkah 4: Pengaturan Basis Data
 
-![Installation wizard Step 4 — database connection configuration](/.gitbook/assets/install-step4-database.png)
+![Panduan instalasi Langkah 4 — konfigurasi koneksi basis data](/.gitbook/assets/install-step4-database.png)
 
-Enter your database connection details:
+Masukkan detail koneksi basis data Anda:
 
-| Field | Description |
-|-------|-------------|
-| **Database host** | The hostname or IP of your database server (e.g., `localhost` or `127.0.0.1`) |
-| **Database port** | Default: 3306 for MySQL/MariaDB |
-| **Database name** | The name of the database to use (alphanumeric and underscores only) |
-| **Database user** | A database user with full privileges on the specified database |
-| **Database password** | The password for the database user |
+| Bidang | Deskripsi |
+|-------|-----------|
+| **Host Basis Data** | Nama host atau IP dari server basis data Anda (misalnya, `localhost` atau `127.0.0.1`) |
+| **Port Basis Data** | Default: 3306 untuk MySQL/MariaDB |
+| **Nama Basis Data** | Nama basis data yang akan digunakan (hanya alfanumerik dan garis bawah) |
+| **Pengguna Basis Data** | Pengguna basis data dengan hak penuh pada basis data yang ditentukan |
+| **Kata Sandi Basis Data** | Kata sandi untuk pengguna basis data |
 
-Click **Check database connection** to test. The wizard will not let you proceed until the connection is successful. If the database already exists, a warning is displayed.
+Klik **Periksa koneksi basis data** untuk menguji. Panduan tidak akan mengizinkan Anda melanjutkan sampai koneksi berhasil. Jika basis data sudah ada, peringatan akan ditampilkan.
 
-## Step 5: Configuration Settings
+## Langkah 5: Pengaturan Konfigurasi
 
-![Installation wizard Step 5 — administrator account, portal settings, and email configuration](/.gitbook/assets/install-step5-config.png)
+![Panduan instalasi Langkah 5 — akun administrator, pengaturan portal, dan konfigurasi email](/.gitbook/assets/install-step5-config.png)
 
-This step combines administrator account creation, portal settings, and email configuration.
+Langkah ini menggabungkan pembuatan akun administrator, pengaturan portal, dan konfigurasi email.
 
-### Administrator Account
+### Akun Administrator
 
-| Field | Description |
-|-------|-------------|
-| **Login** | The administrator username |
-| **Password** | Choose a strong password — this account has full platform access |
-| **First name** | The administrator's first name |
-| **Last name** | The administrator's last name |
-| **Email** | Used for system notifications and password resets |
-| **Phone** | Optional contact number |
+| Bidang | Deskripsi |
+|-------|-----------|
+| **Login** | Nama pengguna administrator |
+| **Kata Sandi** | Pilih kata sandi yang kuat — akun ini memiliki akses penuh ke platform |
+| **Nama Depan** | Nama depan administrator |
+| **Nama Belakang** | Nama belakang administrator |
+| **Email** | Digunakan untuk pemberitahuan sistem dan pengaturan ulang kata sandi |
+| **Telepon** | Nomor kontak opsional |
 
-These admin details will also be used by Chamilo to populate the support contact details, so make sure you go reconfigure that in the settings after the installation concluded.
+Detail admin ini juga akan digunakan oleh Chamilo untuk mengisi detail kontak dukungan, jadi pastikan Anda mengatur ulang di pengaturan setelah instalasi selesai.
 
-### Portal Settings
+### Pengaturan Portal
 
-| Field | Description |
-|-------|-------------|
-| **Language** | The default interface language |
-| **Portal name** | The name of your platform (e.g., "My Organization LMS") |
-| **Company short name** | Your organization's abbreviated name |
-| **Company URL** | Your organization's website |
-| **Encryption method** | Password hashing algorithm — **bcrypt** is recommended |
-| **Allow self-registration** | Yes / No / After approval |
-| **Allow self-registration as trainer** | Yes / No |
+| Bidang | Deskripsi |
+|-------|-----------|
+| **Bahasa** | Bahasa antarmuka default |
+| **Nama Portal** | Nama platform Anda (misalnya, "LMS Organisasi Saya") |
+| **Nama Singkat Perusahaan** | Nama singkat organisasi Anda |
+| **URL Perusahaan** | Situs web organisasi Anda |
+| **Metode Enkripsi** | Algoritma hashing kata sandi — **bcrypt** direkomendasikan |
+| **Izinkan Pendaftaran Mandiri** | Ya / Tidak / Setelah Persetujuan |
+| **Izinkan Pendaftaran Mandiri sebagai Pelatih** | Ya / Tidak |
 
-### Email Configuration
+### Konfigurasi Email
 
-The email settings section lets you configure the mail transport (SMTP, Amazon SES, Mailjet, etc.) and test email delivery. See [Email Configuration](email-configuration.md) for details.
+Bagian pengaturan email memungkinkan Anda mengonfigurasi transportasi email (SMTP, Amazon SES, Mailjet, dll.) dan menguji pengiriman email. Lihat [Konfigurasi Email](email-configuration.md) untuk detailnya.
 
-All these settings can be changed later from the administration panel.
+Semua pengaturan ini dapat diubah nanti dari panel administrasi.
 
-## Step 6: Last Check Before Install
+---
+## Langkah 6: Pemeriksaan Terakhir Sebelum Instalasi
 
-![Installation wizard Step 6 — review of all settings before installation](/.gitbook/assets/install-step6-review.png)
+![Pemandu instalasi Langkah 6 — tinjauan semua pengaturan sebelum instalasi](/.gitbook/assets/install-step6-review.png)
 
-This step displays a summary of everything you entered for review:
+Langkah ini menampilkan ringkasan dari semua yang Anda masukkan untuk ditinjau:
 
-* Administrator credentials (password is hidden by default — click the eye icon to reveal)
-* Portal settings
-* Database connection details
+* Kredensial administrator (kata sandi disembunyikan secara default — klik ikon mata untuk menampilkannya)
+* Pengaturan portal
+* Detail koneksi basis data
 
-Review carefully, then click **Install Chamilo** to execute the installation. The wizard creates all database tables, populates initial data, and configures the platform.
+Tinjau dengan cermat, lalu klik **Instal Chamilo** untuk menjalankan instalasi. Pemandu akan membuat semua tabel basis data, mengisi data awal, dan mengonfigurasi platform.
 
-## Step 7: Installation Complete
+## Langkah 7: Instalasi Selesai
 
-![Installation wizard Step 7 — completion with security advice and portal link](/.gitbook/assets/install-step7-complete.png)
+![Pemandu instalasi Langkah 7 — penyelesaian dengan saran keamanan dan tautan portal](/.gitbook/assets/install-step7-complete.png)
 
-After installation completes successfully, the wizard shows:
+Setelah instalasi berhasil selesai, pemandu akan menampilkan:
 
-* **Getting started advice** — Suggests creating your first course to explore the platform (as admin, you need to do this from the admin panel)
-* **Security recommendations**:
-  * Make the `config/` directory read-only (`chmod 0555`)
-  * Delete the `public/main/install/` directory
-* A **link to your portal** to log in with the administrator credentials you just created
+* **Saran memulai** — Menyarankan untuk membuat kursus pertama Anda untuk menjelajahi platform (sebagai admin, Anda perlu melakukannya dari panel admin)
+* **Rekomendasi keamanan**:
+  * Jadikan direktori `config/` hanya dapat dibaca (`chmod 0555`)
+  * Hapus direktori `public/main/install/`
+* **Tautan ke portal Anda** untuk masuk dengan kredensial administrator yang baru saja Anda buat
 
-## Post-Installation
+## Pasca-Instalasi
 
-After completing the wizard:
+Setelah menyelesaikan pemandu:
 
-* **Remove or restrict access to the installer** -- The wizard should not be accessible after installation. Chamilo typically locks it automatically, but verify that re-visiting the install URL redirects to the login page.
-* **Configure email delivery** -- See [Email Configuration](email-configuration.md).
-* **Set up backups** -- Before adding content, configure automated database and file backups (Chamilo does not provide a solution for this, but copying the var/ folder and the database are the 2 most important elements).
-* **Review security settings** -- See [Security Settings](../platform-settings/security-settings.md).
+* **Hapus atau batasi akses ke penginstal** -- Pemandu tidak boleh dapat diakses setelah instalasi. Chamilo biasanya menguncinya secara otomatis, tetapi pastikan bahwa mengunjungi kembali URL instalasi mengarahkan ke halaman login.
+* **Konfigurasi pengiriman email** -- Lihat [Konfigurasi Email](email-configuration.md).
+* **Atur cadangan** -- Sebelum menambahkan konten, konfigurasi cadangan otomatis untuk basis data dan file (Chamilo tidak menyediakan solusi untuk ini, tetapi menyalin folder var/ dan basis data adalah 2 elemen terpenting).
+* **Tinjau pengaturan keamanan** -- Lihat [Pengaturan Keamanan](../platform-settings/security-settings.md).
 
-## Troubleshooting
+## Pemecahan Masalah
 
-| Problem | Solution |
+| Masalah | Solusi |
 |---------|----------|
-| Blank page at install URL | Check PHP error logs. Change to `APP_ENV=dev` in .env temporarily to see errors in the browser. |
-| Database connection fails | Verify credentials, confirm the database exists, check that the database server allows connections from the web server host. |
-| Permission denied errors | Ensure `var/` is writable by the web server user. |
-| Assets not loading (no CSS/JS) | Run `yarn install && yarn build` to compile frontend assets. |
+| Halaman kosong di URL instalasi | Periksa log kesalahan PHP. Ubah sementara ke `APP_ENV=dev` di .env untuk melihat kesalahan di browser. |
+| Koneksi basis data gagal | Verifikasi kredensial, pastikan basis data ada, periksa apakah server basis data mengizinkan koneksi dari host server web. |
+| Kesalahan izin ditolak | Pastikan `var/` dapat ditulis oleh pengguna server web. |
+| Aset tidak dimuat (tidak ada CSS/JS) | Jalankan `yarn install && yarn build` untuk mengompilasi aset frontend. |

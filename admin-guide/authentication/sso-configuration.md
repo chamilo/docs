@@ -1,48 +1,48 @@
-# SSO Configuration
+# Konfigurasi SSO
 
-This page covers topics that apply across authentication methods.
+Halaman ini membahas topik yang berlaku untuk berbagai metode autentikasi.
 
-## Multiple providers
+## Beberapa Penyedia
 
-You can enable more than one authentication method at the same time. Each enabled provider shows its own button on the login page alongside the standard username/password form. Users choose their preferred method.
+Anda dapat mengaktifkan lebih dari satu metode autentikasi secara bersamaan. Setiap penyedia yang diaktifkan akan menampilkan tombolnya sendiri di halaman login bersama dengan formulir standar nama pengguna/kata sandi. Pengguna dapat memilih metode yang mereka sukai.
 
-Keep the standard form enabled so platform administrators can always log in, even if an external provider is misconfigured.
+Tetap aktifkan formulir standar agar administrator platform selalu dapat masuk, bahkan jika penyedia eksternal salah dikonfigurasi.
 
-## Authentication priority
+## Prioritas Autentikasi
 
-When multiple methods are active, the system checks credentials in this order:
+Ketika beberapa metode aktif, sistem memeriksa kredensial dengan urutan berikut:
 
-1. LDAP (if `force_as_login_method` is set)
-2. OAuth2 providers (in the order they appear in `authentication.yaml`)
-3. Internal Chamilo database
+1. LDAP (jika `force_as_login_method` diatur)
+2. Penyedia OAuth2 (sesuai urutan yang muncul di `authentication.yaml`)
+3. Basis data internal Chamilo
 
-## JWT tokens for API access
+## Token JWT untuk Akses API
 
-Chamilo uses JWT (JSON Web Tokens) for its REST API. Token lifetime and refresh behaviour are configured in `config/packages/lexik_jwt_authentication.yaml`. This is separate from the SSO login flow and applies to API clients only.
+Chamilo menggunakan JWT (JSON Web Tokens) untuk REST API-nya. Masa berlaku token dan perilaku penyegaran dikonfigurasi di `config/packages/lexik_jwt_authentication.yaml`. Ini terpisah dari alur login SSO dan hanya berlaku untuk klien API.
 
-## Troubleshooting
+## Pemecahan Masalah
 
-### Login button does not appear after configuration
+### Tombol Login Tidak Muncul Setelah Konfigurasi
 
-The cache must be cleared after every change to `authentication.yaml`:
+Cache harus dibersihkan setelah setiap perubahan pada `authentication.yaml`:
 
 ```bash
 php bin/console cache:clear && php bin/console cache:warmup
 ```
 
-### Users cannot log in via SSO
+### Pengguna Tidak Dapat Masuk melalui SSO
 
-* **Redirect URI mismatch** — The URI registered in your identity provider must exactly match `https://your-chamilo-url/connect/<provider>/check`.
-* **Clock drift** — SSO tokens are time-sensitive. Ensure your server clock is synchronized (NTP).
-* **SSL certificate** — Chamilo must trust the identity provider's certificate. Check for self-signed certificate issues.
-* **Logs** — Review `var/log/` and your identity provider's logs for specific error messages.
+* **Ketidaksesuaian URI Pengalihan** — URI yang terdaftar di penyedia identitas Anda harus sama persis dengan `https://your-chamilo-url/connect/<provider>/check`.
+* **Pergeseran Waktu** — Token SSO sensitif terhadap waktu. Pastikan jam server Anda tersinkronisasi (NTP).
+* **Sertifikat SSL** — Chamilo harus mempercayai sertifikat penyedia identitas. Periksa masalah sertifikat yang ditandatangani sendiri.
+* **Log** — Tinjau `var/log/` dan log penyedia identitas Anda untuk pesan kesalahan spesifik.
 
-### Users are created with the wrong role
+### Pengguna Dibuat dengan Peran yang Salah
 
-Check the role mapping configuration for the provider. New users default to the student role unless a group or attribute mapping promotes them.
+Periksa konfigurasi pemetaan peran untuk penyedia tersebut. Pengguna baru secara default akan memiliki peran siswa kecuali pemetaan grup atau atribut mempromosikan mereka.
 
-### Users exist in the provider but cannot access Chamilo
+### Pengguna Ada di Penyedia tetapi Tidak Dapat Mengakses Chamilo
 
-* If `allow_create_new_users` is false, the user must already have a Chamilo account whose email or username matches the provider's data.
-* Check that the user is not deactivated in Chamilo.
-* For Azure, review `existing_user_verification_order` to understand how Chamilo matches incoming users to existing accounts.
+* Jika `allow_create_new_users` bernilai false, pengguna harus sudah memiliki akun Chamilo yang email atau nama penggunanya sesuai dengan data penyedia.
+* Pastikan pengguna tidak dinonaktifkan di Chamilo.
+* Untuk Azure, tinjau `existing_user_verification_order` untuk memahami bagaimana Chamilo mencocokkan pengguna yang masuk dengan akun yang sudah ada.

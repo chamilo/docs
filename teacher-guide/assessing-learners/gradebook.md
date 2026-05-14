@@ -1,89 +1,89 @@
-# Assessments
+# Penilaian
 
-The assessments (previously *gradebook*) aggregates scores from exercises, assignments, and other graded activities into a unified view of each learner's performance. It also controls certificate generation.
+Penilaian (sebelumnya *gradebook*) menggabungkan skor dari latihan, tugas, dan aktivitas yang dinilai lainnya ke dalam tampilan terpadu tentang kinerja setiap peserta didik. Ini juga mengontrol pembuatan sertifikat.
 
-## How the Assessments Work
+## Cara Kerja Penilaian
 
-The assessments are weighted scoring systems. You define:
+Penilaian adalah sistem penilaian berbobot. Anda menentukan:
 
-1. **Which activities** contribute to the grade (exercises, assignments, attendance, etc.)
-2. **The weight** of each activity (how much it counts toward the final grade)
-3. **The minimum certification score** (the threshold for earning a certificate)
-4. **A minimum score per activity** — Each activity in the gradebook can have its own **Minimum score**. Learners who score below that minimum on a key activity can be prevented from achieving the objectives and earning the certificate, even if their overall weighted total is otherwise high enough.
+1. **Aktivitas mana** yang berkontribusi pada nilai (latihan, tugas, kehadiran, dll.)
+2. **Bobot** setiap aktivitas (seberapa besar kontribusinya terhadap nilai akhir)
+3. **Skor minimum sertifikasi** (ambang batas untuk mendapatkan sertifikat)
+4. **Skor minimum per aktivitas** — Setiap aktivitas dalam buku nilai dapat memiliki **Skor Minimum** sendiri. Peserta didik yang mendapatkan skor di bawah minimum pada aktivitas kunci dapat dicegah untuk mencapai tujuan dan mendapatkan sertifikat, meskipun total bobot keseluruhan mereka cukup tinggi.
 
-Activities can be of 2 types:
-* **Classroom activity** (or in-person activity), where grades have to be imported from some other source
-* **Online activity** selected from the course, where grades are obtained through the fulfilling of the activity in the course
+Aktivitas dapat terdiri dari 2 jenis:
+* **Aktivitas kelas** (atau aktivitas tatap muka), di mana nilai harus diimpor dari sumber lain
+* **Aktivitas daring** yang dipilih dari kursus, di mana nilai diperoleh melalui penyelesaian aktivitas dalam kursus
 
-Chamilo calculates each learner's overall grade based on these weights.
+Chamilo menghitung nilai keseluruhan setiap peserta didik berdasarkan bobot ini.
 
-## Setting Up the Assessment
+## Menyiapkan Penilaian
 
-1. Open the **Assessments** <img src="/.gitbook/assets/icons/mdi-certificate.svg" alt="Gradebook" data-size="line"> tool from the course homepage
-2. You will see the assessments overview, initially empty
+1. Buka alat **Penilaian** <img src="/.gitbook/assets/icons/mdi-certificate.svg" alt="Buku Nilai" data-size="line"> dari beranda kursus
+2. Anda akan melihat gambaran umum penilaian, yang awalnya kosong
 
-### Adding Activities
+### Menambahkan Aktivitas
 
-1. Click **Add online activity**
-2. Choose the type:
-   * **Test** — Link a specific exercise from the course
-   * **Assignment** — Link a student publication folder
-   * **Learning path** — Link learning path completion
-   * **Attendance** — Link an attendance sheet
-   * **Forum thread** — Link a forum thread (which has to be graded manually)
-   * **Survey** — Link a survey
-3. Select the specific activity within the chosen type
-4. Set the **Weight** for this activity (e.g., 30% for the midterm exam, 40% for the final project)
-5. Set the **Minimum score** if applicable
-6. Save
+1. Klik **Tambah aktivitas daring**
+2. Pilih jenisnya:
+   * **Tes** — Tautkan latihan tertentu dari kursus
+   * **Tugas** — Tautkan folder publikasi siswa
+   * **Jalur pembelajaran** — Tautkan penyelesaian jalur pembelajaran
+   * **Kehadiran** — Tautkan lembar kehadiran
+   * **Thread forum** — Tautkan thread forum (yang harus dinilai secara manual)
+   * **Survei** — Tautkan survei
+3. Pilih aktivitas spesifik dalam jenis yang dipilih
+4. Tetapkan **Bobot** untuk aktivitas ini (misalnya, 30% untuk ujian tengah semester, 40% untuk proyek akhir)
+5. Tetapkan **Skor Minimum** jika berlaku
+6. Simpan
 
-The total weight of all activities should add up to 100%.
+Total bobot dari semua aktivitas harus mencapai 100%.
 
-### Sub-Categories
+### Sub-Kategori
 
-For complex grading schemes, you can create **sub-categories** to group related activities:
+Untuk skema penilaian yang kompleks, Anda dapat membuat **sub-kategori** untuk mengelompokkan aktivitas yang terkait:
 
-* **Example**: A "Homework" sub-category (weight: 30%) containing five individual assignments each worth 20% of the sub-category
-* Sub-categories let you organize the assessment hierarchically while keeping the overall calculation simple
+* **Contoh**: Sub-kategori "Pekerjaan Rumah" (bobot: 30%) yang berisi lima tugas individu masing-masing bernilai 20% dari sub-kategori
+* Sub-kategori memungkinkan Anda mengatur penilaian secara hierarkis sambil menjaga perhitungan keseluruhan tetap sederhana
 
-## Viewing Grades
+## Melihat Nilai
 
-![The gradebook overview table showing learner names, activity scores, and weighted totals](/.gitbook/assets/gradebook-overview.png)
+![Tabel gambaran umum buku nilai yang menunjukkan nama peserta didik, skor aktivitas, dan total bobot](/.gitbook/assets/gradebook-overview.png)
 
-The assessment shows a table with:
+Penilaian menampilkan tabel dengan:
 
-* Each learner's name
-* Scores for each activity
-* The weighted total
-* Whether the learner qualifies for a certificate
+* Nama setiap peserta didik
+* Skor untuk setiap aktivitas
+* Total bobot
+* Apakah peserta didik memenuhi syarat untuk mendapatkan sertifikat
 
-You can sort by any column to quickly identify top performers or struggling learners.
+Anda dapat mengurutkan berdasarkan kolom mana pun untuk dengan cepat mengidentifikasi peserta didik berprestasi tinggi atau yang kesulitan.
 
-## Certificates
+## Sertifikat
 
-To enable certificate generation:
+Untuk mengaktifkan pembuatan sertifikat:
 
-1. In the assessment settings, set a **minimum certification score** (e.g., 70%)
-2. When a learner's weighted total meets or exceeds this threshold (and they have not failed any per-activity minimum score), they can download their certificate
-3. The certificate is generated from a template configured by the platform administrator
+1. Dalam pengaturan penilaian, tetapkan **skor minimum sertifikasi** (misalnya, 70%)
+2. Ketika total bobot peserta didik mencapai atau melebihi ambang batas ini (dan mereka tidak gagal pada skor minimum per aktivitas), mereka dapat mengunduh sertifikat mereka
+3. Sertifikat dibuat dari templat yang dikonfigurasi oleh administrator platform
 
-See [Certificates and Skills](../tracking-and-reporting/certificates-and-skills.md) for more details.
+Lihat [Sertifikat dan Keterampilan](../tracking-and-reporting/certificates-and-skills.md) untuk detail lebih lanjut.
 
-## Linking to Skills
+## Menautkan ke Keterampilan
 
-You can associate **skills** with the assessment. When a learner reaches the set objectives to complete the assessment, they can either get a certificate, get a skill or both. Skills are visible on their profile in the social network space. This builds a competency record over time.
+Anda dapat mengaitkan **keterampilan** dengan penilaian. Ketika peserta didik mencapai tujuan yang ditetapkan untuk menyelesaikan penilaian, mereka dapat memperoleh sertifikat, keterampilan, atau keduanya. Keterampilan terlihat di profil mereka di ruang jejaring sosial. Ini membangun catatan kompetensi dari waktu ke waktu.
 
-## Exporting Grades
+## Mengekspor Nilai
 
-Click the **Export** <img src="/.gitbook/assets/icons/mdi-export.svg" alt="Export" data-size="line"> button to download grades as a spreadsheet. This is useful for:
+Klik tombol **Ekspor** <img src="/.gitbook/assets/icons/mdi-export.svg" alt="Ekspor" data-size="line"> untuk mengunduh nilai sebagai spreadsheet. Ini berguna untuk:
 
-* Sharing grades with administrative systems
-* Performing additional analysis outside Chamilo
-* Keeping offline records
+* Berbagi nilai dengan sistem administrasi
+* Melakukan analisis tambahan di luar Chamilo
+* Menyimpan catatan offline
 
 ## Tips
 
-* **Plan your weights early** — Define the grading scheme at the start of the course so learners know what to expect
-* **Use sub-categories for complex courses** — Group assignments, quizzes, and participation into clear categories
-* **Set meaningful pass thresholds** — The certification score should reflect actual competency, not just participation
-* **Check regularly** — Review the gradebook periodically to ensure all activities are properly linked and scores are being recorded
+* **Rencanakan bobot sejak dini** — Tentukan skema penilaian di awal kursus agar peserta didik tahu apa yang diharapkan
+* **Gunakan sub-kategori untuk kursus yang kompleks** — Kelompokkan tugas, kuis, dan partisipasi ke dalam kategori yang jelas
+* **Tetapkan ambang batas lulus yang bermakna** — Skor sertifikasi harus mencerminkan kompetensi nyata, bukan hanya partisipasi
+* **Periksa secara berkala** — Tinjau buku nilai secara berkala untuk memastikan semua aktivitas terhubung dengan benar dan skor dicatat dengan baik

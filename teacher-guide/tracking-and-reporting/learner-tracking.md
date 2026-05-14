@@ -1,46 +1,46 @@
-# Learner Tracking
+# Pelacakan Peserta Didik
 
-Chamilo tracks learner activity throughout the platform, giving you detailed insights into how each learner is engaging with your course.
+Chamilo melacak aktivitas peserta didik di seluruh platform, memberikan wawasan mendetail tentang bagaimana setiap peserta didik terlibat dengan kursus Anda.
 
-## Accessing Learner Tracking
+## Mengakses Pelacakan Peserta Didik
 
-Open the **Tracking** <img src="/.gitbook/assets/icons/mdi-chart-box.svg" alt="Tracking" data-size="line"> tool from the course homepage, or click **Reporting** in the sidebar.
+Buka alat **Tracking** <img src="/.gitbook/assets/icons/mdi-chart-box.svg" alt="Pelacakan" data-size="line"> dari beranda kursus, atau klik **Reporting** di bilah samping.
 
-## What Is Tracked
+## Apa yang Dilacak
 
-For each learner, Chamilo records (in the main per-learner tracking view):
+Untuk setiap peserta didik, Chamilo mencatat (dalam tampilan pelacakan utama per-peserta didik):
 
-* **Login activity** — When the learner last logged in and their total login time
-* **Time spent in the course** — Total time the learner has spent in your course
-* **First and last access** — When the learner first entered and last visited the course
-* **Course progress** — Aggregate progress percentage across the course
-* **Exercise results** — Scores and attempts for each exercise
-* **Learning path progress** — Completion percentage and time spent on each learning path
-* **Assignment submissions** — Which assignments have been submitted and graded
+* **Aktivitas login** — Kapan peserta didik terakhir kali login dan total waktu login mereka
+* **Waktu yang dihabiskan di kursus** — Total waktu yang dihabiskan peserta didik di kursus Anda
+* **Akses pertama dan terakhir** — Kapan peserta didik pertama kali masuk dan terakhir kali mengunjungi kursus
+* **Kemajuan kursus** — Persentase kemajuan agregat di seluruh kursus
+* **Hasil latihan** — Skor dan percobaan untuk setiap latihan
+* **Kemajuan jalur pembelajaran** — Persentase penyelesaian dan waktu yang dihabiskan pada setiap jalur pembelajaran
+* **Pengiriman tugas** — Tugas mana yang telah dikirimkan dan dinilai
 
-Per-resource access details (which specific documents or pages a learner opened) and tool-level activity are available through the dedicated **Resources**, **Tools**, and **Events** views in the tracking section, rather than in the main learner row.
+Detail akses per-sumber daya (dokumen atau halaman spesifik yang dibuka oleh peserta didik) dan aktivitas tingkat alat tersedia melalui tampilan **Resources**, **Tools**, dan **Events** khusus di bagian pelacakan, bukan di baris peserta didik utama.
 
-## Viewing Individual Learner Data
+## Melihat Data Peserta Didik Individual
 
-![Detailed learner tracking view showing progress, scores, and activity timeline](/.gitbook/assets/tracking-learner-detail.png)
+![Tampilan pelacakan peserta didik mendetail yang menunjukkan kemajuan, skor, dan garis waktu aktivitas](/.gitbook/assets/tracking-learner-detail.png)
 
-Click on a learner's name to see their detailed activity report. This shows:
+Klik nama seorang peserta didik untuk melihat laporan aktivitas mendetail mereka. Ini menunjukkan:
 
-* A summary of their overall engagement
-* Progress through each learning path
-* Exercise scores and attempt history
-* Assignment submission status
+* Ringkasan keterlibatan keseluruhan mereka
+* Kemajuan melalui setiap jalur pembelajaran
+* Skor latihan dan riwayat percobaan
+* Status pengiriman tugas
 
-## Tracking Views
+## Tampilan Pelacakan
 
-You can view tracking data from different perspectives:
+Anda dapat melihat data pelacakan dari perspektif yang berbeda:
 
-* **By learner** — Select a learner to see all their activity
-* **By resource** — Select a document, exercise, or learning path to see how all learners interacted with it
-* **By tool** — See aggregate usage for each course tool
+* **Berdasarkan peserta didik** — Pilih peserta didik untuk melihat semua aktivitas mereka
+* **Berdasarkan sumber daya** — Pilih dokumen, latihan, atau jalur pembelajaran untuk melihat bagaimana semua peserta didik berinteraksi dengannya
+* **Berdasarkan alat** — Lihat penggunaan agregat untuk setiap alat kursus
 
 ## Tips
 
-* **Identify struggling learners** — Look for learners with low engagement, multiple failed exercise attempts, or incomplete learning paths
-* **Monitor progress regularly** — Check tracking data weekly to spot issues early
-* **Use data for feedback** — Share relevant tracking data with learners to help them understand their own progress
+* **Identifikasi peserta didik yang kesulitan** — Cari peserta didik dengan keterlibatan rendah, beberapa percobaan latihan yang gagal, atau jalur pembelajaran yang belum lengkap
+* **Pantau kemajuan secara rutin** — Periksa data pelacakan setiap minggu untuk mendeteksi masalah lebih awal
+* **Gunakan data untuk umpan balik** — Bagikan data pelacakan yang relevan dengan peserta didik untuk membantu mereka memahami kemajuan mereka sendiri

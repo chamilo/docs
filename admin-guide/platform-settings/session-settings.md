@@ -1,571 +1,560 @@
-# Sessions Settings
+# Pengaturan Sesi
 
-Defaults and behaviour for **Sessions** — session lifecycle, coach access windows, course visibility within a session, and similar.
+Pengaturan default dan perilaku untuk **Sesi** — siklus hidup sesi, jendela akses pelatih, visibilitas kursus dalam sesi, dan sejenisnya.
 
-Access these settings under **Administration > Configuration settings > Sessions**. This category contains **68 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+Akses pengaturan ini di bawah **Administrasi > Pengaturan konfigurasi > Sesi**. Kategori ini berisi **68 pengaturan**, yang tercantum di bawah ini beserta judul dan komentar yang disertakan dalam fixture pengaturan platform (`SettingsCurrentFixtures.php`).
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> Nama variabel dalam kode ditampilkan dalam format monospace. Gunakan saat membuat skrip melalui API atau ketika Anda perlu mengubah pengaturan tersebut pada tingkat global dengan mengedit [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
 
-## Settings
+## Pengaturan
 
 ### `add_users_by_coach`
 
-**Register users by Coach**
+**Daftarkan pengguna oleh Pelatih**
 
-Coach users may create users to the platform and subscribe users to a session.
+Pengguna pelatih dapat membuat pengguna di platform dan mendaftarkan pengguna ke sesi.
 
 *Default: `false`*
 
 ### `allow_career_diagram`
 
-**Enable career diagrams**
+**Aktifkan diagram karier**
 
-Career diagrams allow you to display diagrams of careers, skills and courses.
+Diagram karier memungkinkan Anda menampilkan diagram karier, keterampilan, dan kursus.
 
 *Default: `false`*
 
-
 ### `allow_career_users`
 
-**Enable career diagrams for users**
+**Aktifkan diagram karier untuk pengguna**
 
-If career diagrams are enabled, users can only see them (and only the diagrams that correspond to their studies) if you enable this option.
+Jika diagram karier diaktifkan, pengguna hanya dapat melihatnya (dan hanya diagram yang sesuai dengan studi mereka) jika Anda mengaktifkan opsi ini.
 
 *Default: `false`*
 
 ### `allow_coach_to_edit_course_session`
 
-**Allow coaches to edit inside course sessions**
+**Izinkan pelatih mengedit di dalam sesi kursus**
 
-Allow coaches to edit inside course sessions
+Izinkan pelatih untuk mengedit di dalam sesi kursus.
 
 *Default: `true`*
 
 ### `allow_delete_user_for_session_admin`
 
-**Session admins can delete users**
+**Admin sesi dapat menghapus pengguna**
 
-Session administrators can remove users from the platform when managing their session(s).
+Administrator sesi dapat menghapus pengguna dari platform saat mengelola sesi mereka.
 
 *Default: `false`*
-
 
 ### `allow_disable_user_for_session_admin`
 
-**Session admins can disable users**
+**Admin sesi dapat menonaktifkan pengguna**
 
-Session administrators can disable user accounts to prevent login while retaining enrollment records in their session(s).
+Administrator sesi dapat menonaktifkan akun pengguna untuk mencegah login sambil mempertahankan catatan pendaftaran di sesi mereka.
 
 *Default: `false`*
 
-
 ### `allow_edit_tool_visibility_in_session`
 
-**Allow tool visibility edition in sessions**
+**Izinkan pengeditan visibilitas alat dalam sesi**
 
-When using sessions, the default behaviour is to use the tool visibility defined in the base course. This setting changes that to allow coaches in session courses to adapt tool visibilities to their needs.
+Saat menggunakan sesi, perilaku default adalah menggunakan visibilitas alat yang ditentukan dalam kursus dasar. Pengaturan ini mengubahnya untuk memungkinkan pelatih dalam kursus sesi menyesuaikan visibilitas alat sesuai kebutuhan mereka.
 
 *Default: `true`*
 
 ### `allow_redirect_to_session_after_inscription_about`
 
-**Redirect to session after registration in session's 'About' page**
+**Alihkan ke sesi setelah pendaftaran di halaman 'Tentang' sesi**
 
-Automatically redirect new users to their session page after they complete registration through a session's About page.
+Secara otomatis mengalihkan pengguna baru ke halaman sesi mereka setelah menyelesaikan pendaftaran melalui halaman Tentang sesi.
 
 *Default: `false`*
-
 
 ### `allow_search_diagnostic`
 
-**Enable sessions search diagnosis**
+**Aktifkan diagnosis pencarian sesi**
 
-Allow tutors to get a diagnosis that will allow them to search for the best sessions for learners.
+Izinkan tutor untuk mendapatkan diagnosis yang memungkinkan mereka mencari sesi terbaik untuk peserta didik.
 
 *Default: `false`*
-
 
 ### `allow_session_admin_extra_access`
 
-**Session admin can access batch user import, update and export**
+**Admin sesi dapat mengakses impor, pembaruan, dan ekspor pengguna secara massal**
 
-Session administrators can access batch user import, update, and export functionality in addition to their standard permissions.
+Administrator sesi dapat mengakses fungsi impor, pembaruan, dan ekspor pengguna secara massal selain izin standar mereka.
 
 *Default: `false`*
-
 
 ### `allow_session_admin_login_as_teacher`
 
-**Session admins can 'login as' teachers**
+**Admin sesi dapat 'masuk sebagai' guru**
 
-Session administrators can impersonate teacher accounts to preview course content and student experience within their session(s).
+Administrator sesi dapat menyamar sebagai akun guru untuk melihat pratinjau konten kursus dan pengalaman siswa dalam sesi mereka.
 
 *Default: `false`*
-
 
 ### `allow_session_admin_read_careers`
 
-**Session admins can view careers**
+**Admin sesi dapat melihat karier**
 
-[inferred] Session administrators can view and access career paths and promotion workflows linked to their managed sessions.
+[disimpulkan] Administrator sesi dapat melihat dan mengakses jalur karier dan alur kerja promosi yang terkait dengan sesi yang mereka kelola.
 
 *Default: `false`*
 
-
 ### `allow_session_admins_to_manage_all_sessions`
 
-**Allow session administrators to see all sessions**
+**Izinkan administrator sesi melihat semua sesi**
 
-When this option is not enabled (default), session administrators can only see the sessions they have created. This is confusing in an open environment where session administrators might need to share support time between two sessions.
+Ketika opsi ini tidak diaktifkan (default), administrator sesi hanya dapat melihat sesi yang mereka buat. Ini membingungkan dalam lingkungan terbuka di mana administrator sesi mungkin perlu berbagi waktu dukungan antara dua sesi.
 
 *Default: `false`*
 
 ### `allow_session_course_copy_for_teachers`
 
-**Allow session-to-session copy for teachers**
+**Izinkan penyalinan sesi-ke-sesi untuk guru**
 
-Enable this option to let teachers copy their content from one course in a session to a course in another session. By default, this option is only available to platform administrators.
+Aktifkan opsi ini untuk memungkinkan guru menyalin konten mereka dari satu kursus dalam sesi ke kursus di sesi lain. Secara default, opsi ini hanya tersedia untuk administrator platform.
 
 *Default: `false`*
 
 ### `allow_teachers_to_create_sessions`
 
-**Allow teachers to create sessions**
+**Izinkan guru membuat sesi**
 
-Teachers can create, edit and delete their own sessions.
+Guru dapat membuat, mengedit, dan menghapus sesi mereka sendiri.
 
 *Default: `false`*
 
 ### `allow_tutors_to_assign_students_to_session`
 
-**Tutors can assign students to sessions**
+**Tutor dapat menugaskan siswa ke sesi**
 
-When enabled, course coaches/tutors in sessions can subscribe new users to their session. This option is otherwise only available to administrators and session administrators.
+Ketika diaktifkan, pelatih/tutor kursus dalam sesi dapat mendaftarkan pengguna baru ke sesi mereka. Opsi ini sebaliknya hanya tersedia untuk administrator dan administrator sesi.
 
 *Default: `false`*
 
 ### `allow_user_session_collapsable`
 
-**Allow user to collapse sessions in My sessions**
+**Izinkan pengguna untuk menciutkan sesi di Sesi Saya**
 
-Users can collapse session cards or groups in the My sessions page to reduce visual clutter and improve navigation.
+Pengguna dapat menciutkan kartu atau grup sesi di halaman Sesi Saya untuk mengurangi kekacauan visual dan meningkatkan navigasi.
 
 *Default: `false`*
-
 
 ### `assignment_base_course_teacher_access_to_all_session`
 
-**Base course teacher can see assignments from all sessions**
+**Guru kursus dasar dapat melihat tugas dari semua sesi**
 
-Show all learner publications (from base course and from all sessions) in the work/pending.php page of the base course.
+Tampilkan semua publikasi peserta didik (dari kursus dasar dan dari semua sesi) di halaman work/pending.php kursus dasar.
 
 *Default: `false`*
 
+---
 ### `career_diagram_disclaimer`
 
-**Display a disclaimer below the career diagram**
+**Menampilkan penafian di bawah diagram karier**
 
-Add a disclaimer below the career diagram. A language variable called 'Career diagram disclaimer' must exist in your sub-language.
+Tambahkan penafian di bawah diagram karier. Variabel bahasa yang disebut 'Career diagram disclaimer' harus ada dalam sub-bahasa Anda.
 
 *Default: `false`*
 
 ### `career_diagram_legend`
 
-**Display a legend below the career diagram**
+**Menampilkan legenda di bawah diagram karier**
 
-Add a career legend below the career diagram. A language variable called 'Career diagram legend' must exist in your sub-language.
+Tambahkan legenda karier di bawah diagram karier. Variabel bahasa yang disebut 'Career diagram legend' harus ada dalam sub-bahasa Anda.
 
 *Default: `false`*
 
 ### `courses_list_session_title_link`
 
-**Type of link for the session title**
+**Jenis tautan untuk judul sesi**
 
-On the courses/sessions page, the session title can be either of the following : 0 = no link (hide session title) ; 1 = link title to a special session page ; 2 = link to the course if there is only one course ; 3 = session title makes the courses list foldable ; 4 = no link (show session title).
+Pada halaman kursus/sesi, judul sesi dapat berupa salah satu dari berikut: 0 = tanpa tautan (sembunyikan judul sesi); 1 = tautkan judul ke halaman sesi khusus; 2 = tautkan ke kursus jika hanya ada satu kursus; 3 = judul sesi membuat daftar kursus dapat dilipat; 4 = tanpa tautan (tampilkan judul sesi).
 
 *Default: `1`*
 
 ### `default_session_list_view`
 
-**Default sessions list view**
+**Tampilan daftar sesi default**
 
-Select the default tab you want to see when opening the sessions list as admin.
+Pilih tab default yang ingin Anda lihat saat membuka daftar sesi sebagai admin.
 
 *Default: `all`*
 
-
 ### `drh_can_access_all_session_content`
 
-**HR directors access all session content**
+**Direktur SDM dapat mengakses semua konten sesi**
 
-If enabled, human resources directors will get access to all content and users from the sessions (s)he follows.
+Jika diaktifkan, direktur sumber daya manusia akan mendapatkan akses ke semua konten dan pengguna dari sesi yang diikutinya.
 
 *Default: `true`*
 
 ### `duplicate_specific_session_content_on_session_copy`
 
-**Enable the copy of session-specific content to another session**
+**Mengaktifkan penyalinan konten khusus sesi ke sesi lain**
 
-Allows duplication of resources that were created in the session when duplicating the session.
+Memungkinkan duplikasi sumber daya yang dibuat dalam sesi saat menduplikasi sesi tersebut.
 
 *Default: `false`*
-
 
 ### `email_template_subscription_to_session_confirmation_lost_password`
 
-**Add reset password link to e-mail notification of subscription to session**
+**Tambahkan tautan reset kata sandi ke pemberitahuan email langganan sesi**
 
-Include a password reset link in subscription confirmation emails sent to users when they are enrolled in a session.
+Sertakan tautan reset kata sandi dalam email konfirmasi langganan yang dikirim ke pengguna saat mereka terdaftar dalam sesi.
 
 *Default: `false`*
-
 
 ### `email_template_subscription_to_session_confirmation_username`
 
-**Add username to e-mail notification of subscription to session**
+**Tambahkan nama pengguna ke pemberitahuan email langganan sesi**
 
-Include the user's username in subscription confirmation emails sent when they are enrolled in a session.
+Sertakan nama pengguna pengguna dalam email konfirmasi langganan yang dikirim saat mereka terdaftar dalam sesi.
 
 *Default: `false`*
-
 
 ### `enable_auto_reinscription`
 
-**Enable Automatic Reinscription**
+**Mengaktifkan Pendaftaran Ulang Otomatis**
 
-Enable or disable automatic reinscription when course validity expires. The related cron job must also be activated.
+Aktifkan atau nonaktifkan pendaftaran ulang otomatis saat masa berlaku kursus berakhir. Pekerjaan cron terkait juga harus diaktifkan.
 
 *Default: `false`*
-
 
 ### `enable_session_replication`
 
-**Enable Session Replication**
+**Mengaktifkan Replikasi Sesi**
 
-Enable or disable automatic session replication. The related cron job must also be activated.
+Aktifkan atau nonaktifkan replikasi sesi otomatis. Pekerjaan cron terkait juga harus diaktifkan.
 
 *Default: `false`*
 
-
 ### `extend_rights_for_coach`
 
-**Extend rights for coach**
+**Memperluas hak untuk pelatih**
 
-Activate this option will give the coach the same permissions as the trainer on authoring tools
+Mengaktifkan opsi ini akan memberikan pelatih izin yang sama dengan pelatih pada alat pembuatan konten.
 
 *Default: `false`*
 
 ### `hide_courses_in_sessions`
 
-**Hide courses list in sessions**
+**Sembunyikan daftar kursus dalam sesi**
 
-When showing the session block in your courses page, hide the list of courses inside that session (only show them inside the specific session screen).
+Saat menampilkan blok sesi di halaman kursus Anda, sembunyikan daftar kursus di dalam sesi tersebut (hanya tampilkan di layar sesi khusus).
 
 *Default: `false`*
 
 ### `hide_reporting_session_list`
 
-**Hide sessions list in reporting tool**
+**Sembunyikan daftar sesi di alat pelaporan**
 
-Sessions that include the course are listed in the reporting tool inside the course itself, which can add considerable weight if the same course is used in hundreds of sessions. This option removes that list.
+Sesi yang mencakup kursus terdaftar di alat pelaporan di dalam kursus itu sendiri, yang dapat menambah beban signifikan jika kursus yang sama digunakan dalam ratusan sesi. Opsi ini menghapus daftar tersebut.
 
 *Default: `false`*
-
 
 ### `hide_search_form_in_session_list`
 
-**Hide search form in sessions list**
+**Sembunyikan formulir pencarian di daftar sesi**
 
-Remove the search input field from the session list view in the administration interface.
+Hapus kolom input pencarian dari tampilan daftar sesi di antarmuka administrasi.
 
 *Default: `false`*
-
 
 ### `hide_session_graph_in_my_progress`
 
-**Hide session chart in My progress**
+**Sembunyikan grafik sesi di Kemajuan Saya**
 
-Conceal session progress charts and visualizations from the My progress page in learner dashboards.
+Sembunyikan grafik dan visualisasi kemajuan sesi dari halaman Kemajuan Saya di dasbor pembelajar.
 
 *Default: `false`*
-
 
 ### `hide_tab_list`
 
-**Hide tabs on the session page**
+**Sembunyikan tab di halaman sesi**
 
-Remove navigation tabs from the session detail page to simplify the interface.
+Hapus tab navigasi dari halaman detail sesi untuk menyederhanakan antarmuka.
 
 ### `limit_session_admin_list_users`
 
-**Session admins are forbidden access to the users list**
+**Admin sesi dilarang mengakses daftar pengguna**
 
-Prevent session administrators from accessing the global users list in the administration interface.
+Cegah administrator sesi mengakses daftar pengguna global di antarmuka administrasi.
 
 *Default: `false`*
 
-
 ### `limit_session_admin_role`
 
-**Limit session admins permissions**
+**Batasi izin admin sesi**
 
-If enabled, the session administrators will only see the User block with the 'Add user' option and the Sessions block with the 'Sessions list' option.
+Jika diaktifkan, administrator sesi hanya akan melihat blok Pengguna dengan opsi 'Tambah pengguna' dan blok Sesi dengan opsi 'Daftar sesi'.
 
 *Default: `false`*
 
 ### `my_courses_session_order`
 
-**Change the default sorting of session in My sessions**
+**Ubah pengurutan default sesi di Sesi Saya**
 
-By default, sessions are ordered by start date. Change this by providing an array of type ['field' => 'end_date', 'order' => 'desc'].
+Secara default, sesi diurutkan berdasarkan tanggal mulai. Ubah ini dengan menyediakan array bertipe ['field' => 'end_date', 'order' => 'desc'].
 
 ### `my_courses_view_by_session`
 
-**View my courses by session**
+**Lihat kursus saya berdasarkan sesi**
 
-Enable an additional 'My courses' page where sessions appear as part of courses, rather than the opposite.
+Aktifkan halaman tambahan 'Kursus Saya' di mana sesi muncul sebagai bagian dari kursus, bukan sebaliknya.
 
 *Default: `false`*
 
 ### `my_progress_session_show_all_courses`
 
-**My progress: show course details in session**
+**Kemajuan Saya: tampilkan detail kursus dalam sesi**
 
-Display all details of each course in session when clicking on session details.
+Tampilkan semua detail setiap kursus dalam sesi saat mengklik detail sesi.
 
 *Default: `false`*
-
 
 ### `prevent_session_admins_to_manage_all_users`
 
-**Prevent session admins to manage all users**
+**Cegah admin sesi mengelola semua pengguna**
 
-By enabling this option, session admins will only be able to see, in the administration page, the users they created.
+Dengan mengaktifkan opsi ini, admin sesi hanya akan dapat melihat pengguna yang mereka buat di halaman administrasi.
 
 *Default: `false`*
 
+---
 ### `remove_session_url`
 
-**Hide link to session page**
+**Sembunyikan tautan ke halaman sesi**
 
-Hide link to the session page from the sessions list.
+Sembunyikan tautan ke halaman sesi dari daftar sesi.
 
 *Default: `false`*
 
 
 ### `session_admins_access_all_content`
 
-**Session admins can access all course content**
+**Administrator sesi dapat mengakses semua konten kursus**
 
-Session administrators can view all course content within their sessions, including restricted or archived materials.
+Administrator sesi dapat melihat semua konten kursus dalam sesi mereka, termasuk materi yang dibatasi atau diarsipkan.
 
 *Default: `false`*
+
 
 ### `session_admins_edit_courses_content`
 
-**Session admins can edit course content**
+**Administrator sesi dapat mengedit konten kursus**
 
-Session administrators can modify course content (documents, exercises, tools) in courses assigned to their sessions.
+Administrator sesi dapat mengubah konten kursus (dokumen, latihan, alat) dalam kursus yang ditugaskan ke sesi mereka.
 
 *Default: `false`*
 
+
 ### `session_automatic_creation_user_id`
 
-**Auto-created session's creator ID**
+**ID pencipta sesi yang dibuat otomatis**
 
-Set the user to use as creator of the automatically-created sessions (to avoid assigning every session to user '1' which is often the portal administrator).
+Tetapkan pengguna yang akan digunakan sebagai pencipta sesi yang dibuat secara otomatis (untuk menghindari penugasan setiap sesi ke pengguna '1' yang sering kali merupakan administrator portal).
 
 *Default: `1`*
 
 
 ### `session_classes_tab_disable`
 
-**Disable add class in session course for non-admin**
+**Nonaktifkan tab tambah kelas di kursus sesi untuk non-admin**
 
-Disable tab to add classes in session course for non-admins.
+Nonaktifkan tab untuk menambahkan kelas di kursus sesi bagi pengguna non-admin.
 
 *Default: `false`*
 
 
 ### `session_coach_access_after_duration_end`
 
-**Sessions by duration always available to coaches**
+**Sesi berdasarkan durasi selalu tersedia untuk pelatih**
 
-Otherwise, session coaches only have access to sessions by duration during the active duration.
+Jika tidak, pelatih sesi hanya memiliki akses ke sesi berdasarkan durasi selama durasi aktif.
 
 *Default: `false`*
 
 
 ### `session_course_ordering`
 
-**Session courses manual ordering**
+**Pengurutan manual kursus sesi**
 
-Enable this option to allow the session administrators to order the courses inside a session manually. If disabled, courses are ordered alphabetically on course title.
+Aktifkan opsi ini untuk memungkinkan administrator sesi mengatur urutan kursus di dalam sesi secara manual. Jika dinonaktifkan, kursus diurutkan secara alfabetis berdasarkan judul kursus.
 
 *Default: `false`*
 
+
 ### `session_course_users_subscription_limited_to_session_users`
 
-**Limit subscriptions to course to only users of the session**
+**Batasi langganan kursus hanya untuk pengguna sesi**
 
-Restrict the list of students to subscribe in the course session. And disable registration for users in all courses from Resume Session page.
+Batasi daftar siswa yang dapat berlangganan di sesi kursus. Dan nonaktifkan pendaftaran untuk pengguna di semua kursus dari halaman Resume Sesi.
 
 *Default: `false`*
 
 
 ### `session_courses_read_only_mode`
 
-**Set course read-only in session**
+**Tetapkan kursus hanya-baca di sesi**
 
-Let teachers set some courses in read-only mode when opened through sessions. In the course properties, check the 'Lock course in session' option.
+Izinkan pengajar untuk menetapkan beberapa kursus dalam mode hanya-baca saat dibuka melalui sesi. Di properti kursus, centang opsi 'Kunci kursus di sesi'.
 
 *Default: `false`*
 
 
 ### `session_creation_form_set_extra_fields_mandatory`
 
-**Set mandatory extra fields in session creation form**
+**Tetapkan bidang tambahan wajib di formulir pembuatan sesi**
 
-Require the listed fields during session creation.
+Wajibkan bidang-bidang yang terdaftar selama pembuatan sesi.
 
 ### `session_creation_user_course_extra_field_relation_to_prefill`
 
-**Pre-fill session fields with user fields**
+**Isi otomatis bidang sesi dengan bidang pengguna**
 
-Array of relationships between user extra fields and session extra fields, so the session can be pre-filled with data matching the user's data.
+Array hubungan antara bidang tambahan pengguna dan bidang tambahan sesi, sehingga sesi dapat diisi otomatis dengan data yang sesuai dengan data pengguna.
 
 ### `session_days_after_coach_access`
 
-**Default coach access days after session**
+**Jumlah hari akses pelatih default setelah sesi**
 
-Default number of days a coach can access his session after the official session end date
+Jumlah hari default seorang pelatih dapat mengakses sesinya setelah tanggal akhir sesi resmi.
 
 ### `session_days_before_coach_access`
 
-**Default coach access days before session**
+**Jumlah hari akses pelatih default sebelum sesi**
 
-Default number of days a coach can access his session before the official session start date
+Jumlah hari default seorang pelatih dapat mengakses sesinya sebelum tanggal mulai sesi resmi.
 
 ### `session_import_settings`
 
-**Options for session import**
+**Opsi untuk impor sesi**
 
-Array of options to apply as default parameters in the CSV/XML session import.
+Array opsi yang diterapkan sebagai parameter default dalam impor sesi CSV/XML.
 
 ### `session_list_order`
 
-**Sessions support manual sorting**
+**Daftar sesi mendukung pengurutan manual**
 
-Enable manual reordering of sessions in the administration session list via drag-and-drop or similar mechanism.
+Aktifkan pengurutan ulang manual sesi di daftar sesi administrasi melalui mekanisme seret-dan-lepaskan atau sejenisnya.
 
 *Default: `false`*
 
 
 ### `session_list_show_count_users`
 
-**Show number of users in sessions list**
+**Tampilkan jumlah pengguna di daftar sesi**
 
-The admin can see the number of users in each session. This adds additional weight to the sessions list, so if you use it often, consider carefully whether you want the extra waiting time.
+Admin dapat melihat jumlah pengguna di setiap sesi. Ini menambah beban tambahan pada daftar sesi, jadi jika Anda sering menggunakannya, pertimbangkan dengan cermat apakah Anda menginginkan waktu tunggu ekstra.
 
 *Default: `false`*
 
 
 ### `session_list_view_remaining_days`
 
-**Show remaining days in My Sessions**
+**Tampilkan hari tersisa di Halaman Sesi Saya**
 
-If enabled, the session dates on the "My Sessions" page will be replaced by the number of remaining days.
+Jika diaktifkan, tanggal sesi di halaman "Sesi Saya" akan diganti dengan jumlah hari yang tersisa.
 
 *Default: `false`*
 
+
 ### `session_model_list_field_ordered_by_id`
 
-**Sort session templates by id in session creation form**
+**Urutkan templat sesi berdasarkan ID di formulir pembuatan sesi**
 
-[inferred] Sort session templates by their numeric ID in the session creation form dropdown instead of alphabetically by name.
+Urutkan templat sesi berdasarkan ID numerik mereka di dropdown formulir pembuatan sesi, bukan secara alfabetis berdasarkan nama.
 
 *Default: `false`*
 
 
 ### `session_multiple_subscription_students_list_avoid_emptying`
 
-**Prevent emptying the subscribed users in session subscription**
+**Cegah pengosongan pengguna yang berlangganan di langganan sesi**
 
-When using the multiple learners subscription to a session, prevent the normal behaviour which is to unsubscribe users who are not in the right panel when clicking submit. Keep all users there.
+Saat menggunakan langganan banyak peserta ke sesi, cegah perilaku normal yaitu membatalkan langganan pengguna yang tidak ada di panel kanan saat mengklik kirim. Pertahankan semua pengguna di sana.
 
 *Default: `false`*
 
 
 ### `show_all_sessions_on_my_course_page`
 
-**Show all sessions on 'My courses' page**
+**Tampilkan semua sesi di halaman 'Kursus Saya'**
 
-If enabled, this option show all sessions of the user in calendar-based view.
+Jika diaktifkan, opsi ini menampilkan semua sesi pengguna dalam tampilan berbasis kalender.
 
 *Default: `true`*
 
 
 ### `show_session_coach`
 
-**Show session coach**
+**Tampilkan pelatih sesi**
 
-Show the global session coach name in session title box in the courses list
+Tampilkan nama pelatih sesi global di kotak judul sesi dalam daftar kursus.
 
 *Default: `false`*
+
 
 ### `show_session_data`
 
-**Show session data title**
+**Tampilkan judul data sesi**
 
-Show session data comment
+Tampilkan komentar data sesi.
 
 *Default: `false`*
+
 
 ### `show_session_description`
 
-**Show session description**
+**Tampilkan deskripsi sesi**
 
-Show the session description wherever this option is implemented (sessions tracking pages, etc)
+Tampilkan deskripsi sesi di mana pun opsi ini diterapkan (halaman pelacakan sesi, dll).
 
 *Default: `false`*
 
+---
 ### `show_simple_session_info`
 
-**Show simple session info**
+**Tampilkan informasi sesi sederhana**
 
-Add coach and dates to the session's subtitle in the sessions' list.
+Tambahkan pelatih dan tanggal ke subtitle sesi dalam daftar sesi.
 
 *Default: `true`*
 
 
 ### `show_users_in_active_sessions_in_tracking`
 
-**Only display users from active sessions in tracking**
+**Hanya tampilkan pengguna dari sesi aktif dalam pelacakan**
 
-Display only users from currently active sessions in learner tracking and reporting views.
+Tampilkan hanya pengguna dari sesi yang sedang aktif dalam tampilan pelacakan dan laporan peserta didik.
 
 *Default: `false`*
 
 
 ### `tracking_columns`
 
-**Customize course-session tracking columns**
+**Sesuaikan kolom pelacakan kursus-sesi**
 
-Define an array of columns for the following reports: 'course_session', 'my_students_lp', 'my_progress_lp', 'my_progress_courses'.
+Tentukan array kolom untuk laporan berikut: 'course_session', 'my_students_lp', 'my_progress_lp', 'my_progress_courses'.
 
 ### `user_s_session_duration`
 
-**Auto-created sessions duration**
+**Durasi sesi yang dibuat otomatis**
 
-Duration (in days) of the single-user, auto-created sessions. After expiry, the user cannot register to the same course (no other session is created).
+Durasi (dalam hari) dari sesi yang dibuat otomatis untuk pengguna tunggal. Setelah kedaluwarsa, pengguna tidak dapat mendaftar ke kursus yang sama (tidak ada sesi lain yang dibuat).
 
 *Default: `1095`*
 
 
 ### `user_session_display_mode`
 
-**My Sessions display mode**
+**Mode tampilan Sesi Saya**
 
-Choose how the "My Sessions" page is displayed: as a modern visual block (card) view or the classic list style.
+Pilih cara halaman "Sesi Saya" ditampilkan: sebagai tampilan blok visual modern (kartu) atau gaya daftar klasik.
 
 *Default: `list`*

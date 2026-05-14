@@ -1,239 +1,242 @@
-# Platform Settings
+# Pengaturan Platform
 
-Platform-level identity and behaviour — institution name, time zone, registration policy, online users, performance flags.
+Identitas dan perilaku tingkat platform — nama institusi, zona waktu, kebijakan pendaftaran, pengguna online, flag performa.
 
-Access these settings under **Administration > Configuration settings > Platform**. This category contains **29 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+Akses pengaturan ini di bawah **Administrasi > Pengaturan konfigurasi > Platform**. Kategori ini berisi **29 pengaturan**, yang tercantum di bawah ini beserta judul dan komentar yang disertakan dalam fixture pengaturan platform (`SettingsCurrentFixtures.php`).
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> Nama variabel dalam kode ditampilkan dalam format monospace. Gunakan ini saat membuat skrip melalui API atau ketika Anda perlu mengubah pengaturan tersebut pada tingkat global dengan mengedit [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
 
-## Settings
+## Pengaturan
 
 ### `allow_my_files`
 
-**Enable 'My Files' section**
+**Aktifkan bagian 'File Saya'**
 
-Allow users to upload files to a personal space on the platform.
+Izinkan pengguna untuk mengunggah file ke ruang pribadi di platform.
 
 *Default: `true`*
 
 ### `chamilo_database_version`
 
-**Current version of the database schema used by Chamilo**
+**Versi saat ini dari skema basis data yang digunakan oleh Chamilo**
 
-Displays the current DB version to match the Chamilo core version.
+Menampilkan versi DB saat ini untuk mencocokkan versi inti Chamilo.
 
 ### `cookie_warning`
 
-**Cookie privacy notification**
+**Pemberitahuan privasi cookie**
 
-If enabled, this option shows a banner on top of your platform that asks users to acknowledge that the platform is using cookies necessary to provide the user experience. The banner can easily be acknowledged and hidden by the user. This allows Chamilo to comply with EU web cookies regulations.
+Jika diaktifkan, opsi ini menampilkan spanduk di bagian atas platform Anda yang meminta pengguna untuk mengakui bahwa platform menggunakan cookie yang diperlukan untuk memberikan pengalaman pengguna. Spanduk ini dapat dengan mudah diakui dan disembunyikan oleh pengguna. Ini memungkinkan Chamilo untuk mematuhi regulasi cookie web Uni Eropa.
 
 *Default: `false`*
 
 ### `disable_copy_paste`
 
-**Disable copy-pasting**
+**Nonaktifkan salin-tempel**
 
-When enabled, this option disables as well as possible the copy-pasting mechanisms. Useful in restrictive exams setups.
+Ketika diaktifkan, opsi ini menonaktifkan mekanisme salin-tempel sebisa mungkin. Berguna dalam pengaturan ujian yang ketat.
 
 *Default: `false`*
 
 ### `donotlistcampus`
 
-**Do not list this campus on chamilo.org**
+**Jangan daftarkan kampus ini di chamilo.org**
 
-By default, Chamilo portals are automatically registered in a public list at chamilo.org, just using the title you gave to this portal (not the URL nor any private data). Check this box to avoid having the title of your portal appear.
+Secara default, portal Chamilo secara otomatis terdaftar dalam daftar publik di chamilo.org, hanya menggunakan judul yang Anda berikan untuk portal ini (bukan URL atau data pribadi apa pun). Centang kotak ini untuk menghindari judul portal Anda muncul.
 
 *Default: `false`*
 
 ### `generate_random_login`
 
-**Generate random username**
+**Buat nama pengguna acak**
 
-When importing users (batch processes), automatically generate a random string for username. Otherwise, the username will be generated on the basis of the firstname and lastname, or the prefix of the e-mail.
+Saat mengimpor pengguna (proses batch), secara otomatis menghasilkan string acak untuk nama pengguna. Jika tidak, nama pengguna akan dibuat berdasarkan nama depan dan nama belakang, atau awalan dari email.
 
 *Default: `false`*
 
 ### `hosting_limit_identical_email`
 
-**Limit identical email usage**
+**Batasi penggunaan email yang sama**
 
-Maximum number of accounts allowed to share the same e-mail address. Set to 0 to disable this limit.
+Jumlah maksimum akun yang diizinkan untuk berbagi alamat email yang sama. Atur ke 0 untuk menonaktifkan batasan ini.
 
 *Default: `0`*
 
 ### `hosting_limit_users_per_course`
 
-**Global limit of users per course**
+**Batas global pengguna per kursus**
 
-Defines a global maximum number of users (teachers included) allowed to be subscribed to any single course in the platform. Set this value to 0 to disable the limit. This helps avoid courses being overloaded in open portals.
+Menentukan jumlah maksimum global pengguna (termasuk pengajar) yang diizinkan untuk mendaftar ke satu kursus di platform. Atur nilai ini ke 0 untuk menonaktifkan batasan. Ini membantu mencegah kursus menjadi terlalu penuh di portal terbuka.
 
 *Default: `0`*
 
 ### `institution`
 
-**Organization name**
+**Nama organisasi**
 
-The name of the organization (appears in the header on the right)
+Nama organisasi (muncul di header di sebelah kanan)
 
 *Default: `Chamilo.org`*
 
-
 ### `institution_address`
 
-**Institution address**
+**Alamat institusi**
 
-Address
+Alamat
 
 ### `institution_url`
 
-**Organization URL (web address)**
+**URL organisasi (alamat web)**
 
-The URL of the institutions (the link that appears in the header on the right)
+URL institusi (tautan yang muncul di header di sebelah kanan)
 
 *Default: `http://www.chamilo.org`*
 
-
 ### `max_courses_per_user`
 
-**Maximum courses per user**
+**Jumlah maksimum kursus per pengguna**
 
-Maximum number of courses a teacher/trainer can create. Set to 0 to disable the limit. Can be overridden per user via a BuyCourses service purchase.
+Jumlah maksimum kursus yang dapat dibuat oleh seorang pengajar/pelatih. Atur ke 0 untuk menonaktifkan batasan. Dapat ditimpa per pengguna melalui pembelian layanan BuyCourses.
 
 *Default: `0`*
 
 ### `notification_event`
 
-**Enable the notification tool for a more impactful communication channel with students**
+**Aktifkan alat pemberitahuan untuk saluran komunikasi yang lebih berdampak dengan siswa**
 
-Activates popup or system notifications for important platform events.
+Mengaktifkan pemberitahuan popup atau sistem untuk acara penting di platform.
 
 *Default: `false`*
 
 ### `pdf_img_dpi`
 
-**PDF export resolution**
+**Resolusi ekspor PDF**
 
-This represents the resolution of generated PDF files (in dot per inch, or dpi). The default is 96. Increasing it will give you better resolution PDF files but will also increase the weight and generation time of the files.
+Ini mewakili resolusi file PDF yang dihasilkan (dalam dot per inch, atau dpi). Defaultnya adalah 96. Meningkatkannya akan memberikan file PDF dengan resolusi lebih baik tetapi juga akan meningkatkan ukuran dan waktu pembuatan file.
 
 *Default: `96`*
 
 ### `platform_logo_url`
 
-**URL for alternative platform logo**
+**URL untuk logo platform alternatif**
 
-Replaces the Chamilo logo by loading a (possibly remote) URL. Make sure this is allowed by your security policies.
+Mengganti logo Chamilo dengan memuat URL (mungkin jarak jauh). Pastikan ini diizinkan oleh kebijakan keamanan Anda.
 
 *Default: `https://chamilo.org`*
 
-
 ### `portfolio_advanced_sharing`
 
-**Enable portfolio advanced sharing**
+**Aktifkan berbagi lanjutan portofolio**
 
-Decide who can view the posts and comments of the portfolio.
+Tentukan siapa yang dapat melihat posting dan komentar portofolio.
 
 *Default: `false`*
 
 ### `portfolio_show_base_course_post_in_sessions`
 
-**Show base course posts in session course**
+**Tampilkan posting kursus dasar di kursus sesi**
 
-Decide who can view the posts and comments of the portfolio.
+Tentukan siapa yang dapat melihat posting dan komentar portofolio.
 
 *Default: `false`*
 
 ### `push_notification_settings`
 
-**Push notification settings (JSON)**
+**Pengaturan pemberitahuan push (JSON)**
 
-JSON configuration for Push notifications integration.
+Konfigurasi JSON untuk integrasi pemberitahuan Push.
 
 ### `server_type`
 
-**Server Type**
+**Tipe Server**
 
-Defines the environment type: "prod" (normal production), "validation" (like production but without reporting statistics), or "test" (debug mode with developer tools such as untranslated string indicators).
+Menentukan tipe lingkungan: "prod" (produksi normal), "validation" (seperti produksi tetapi tanpa pelaporan statistik), atau "test" (mode debug dengan alat pengembang seperti indikator string yang belum diterjemahkan).
 
 *Default: `prod`*
 
 ### `session_admin_access_to_all_users_on_all_urls`
 
-**Allow session admins to see all users on all URLs**
+**Izinkan admin sesi untuk melihat semua pengguna di semua URL**
 
-If enabled, session admins can search and list users from all access URLs, regardless of their current URL.
+Jika diaktifkan, admin sesi dapat mencari dan melihat daftar pengguna dari semua URL akses, terlepas dari URL mereka saat ini.
 
 *Default: `false`*
 
+---
 ### `site_name`
 
-**E-learning portal name**
+**Nama portal e-learning**
 
-The Name of your Chamilo Portal (appears in the header)
+Nama Portal Chamilo Anda (muncul di header)
 
 *Default: `Chamilo site`*
 
 
 ### `timepicker_increment`
 
-**Timepicker increment**
+**Inkremen pemilih waktu**
 
-Minimal time increment (in minutes) when selecting a date and time with the timepicker widget. For example, it might not be useful to have less than 5 or 15 minutes increments when talking about assignment submission, availability of a test, start time of a session, etc.
+Inkremen waktu minimal (dalam menit) saat memilih tanggal dan waktu dengan widget pemilih waktu. Misalnya, mungkin tidak berguna untuk memiliki inkremen kurang dari 5 atau 15 menit ketika berbicara tentang pengumpulan tugas, ketersediaan tes, waktu mulai sesi, dll.
 
 *Default: `15`*
 
+
 ### `timezone`
 
-**Default timezone**
+**Zona waktu default**
 
-Select the default timezone for this portal. This will help set the timezone (if the feature is enabled) for each new user or for any user that has not set a specific timezone yet. Timezones help show all time-related information on screen in the specific timezone of each user.
+Pilih zona waktu default untuk portal ini. Ini akan membantu mengatur zona waktu (jika fitur ini diaktifkan) untuk setiap pengguna baru atau untuk pengguna yang belum mengatur zona waktu tertentu. Zona waktu membantu menampilkan semua informasi terkait waktu di layar sesuai dengan zona waktu spesifik setiap pengguna.
 
 *Default: `Europe/Paris`*
 
 
 ### `unoconv_binaries`
 
-**UNO converter binaries**
+**Binari konverter UNO**
 
-Give the system path to the UNO converter library to enable some extra exporting features.
+Berikan jalur sistem ke pustaka konverter UNO untuk mengaktifkan beberapa fitur ekspor tambahan.
 
 *Default: `/usr/bin/unoconv`*
 
 
 ### `use_career_external_id_as_identifier_in_diagrams`
 
-**Use external career ID in diagrams**
+**Gunakan ID karier eksternal dalam diagram**
 
-If using career diagrams, show an extra field instead of the internal career ID.
+Jika menggunakan diagram karier, tampilkan bidang tambahan alih-alih ID karier internal.
 
 *Default: `false`*
+
 
 ### `use_custom_pages`
 
-**Use custom pages**
+**Gunakan halaman kustom**
 
-Enable this feature to configure specific login pages by role
+Aktifkan fitur ini untuk mengonfigurasi halaman login spesifik berdasarkan peran.
 
 *Default: `false`*
+
 
 ### `use_virtual_keyboard`
 
-**Use virtual keyboard**
+**Gunakan keyboard virtual**
 
-Make a virtual keyboard appear. This is useful when setting up restrictive exams in a physical room where students have no keyboard to limit their ability to cheat.
+Tampilkan keyboard virtual. Ini berguna saat mengatur ujian yang ketat di ruangan fisik di mana siswa tidak memiliki keyboard untuk membatasi kemampuan mereka untuk curang.
 
 *Default: `false`*
 
+
 ### `user_status_show_option`
 
-**Roles display options**
+**Opsi tampilan peran**
 
-An array of role => true/false that defines whether that role should be shown or hidden.
+Sebuah array dari peran => true/false yang menentukan apakah peran tersebut harus ditampilkan atau disembunyikan.
+
 
 ### `user_status_show_options_enabled`
 
-**Selective display of roles**
+**Tampilan selektif peran**
 
-Enable to use an array to define which roles should be clearly displayed and which should be hidden.
+Aktifkan untuk menggunakan array guna menentukan peran mana yang harus ditampilkan dengan jelas dan mana yang harus disembunyikan.
 
 *Default: `false`*

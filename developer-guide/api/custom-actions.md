@@ -1,140 +1,142 @@
-# Custom Actions
+# Aksi Kustom
 
-Beyond standard CRUD operations, Chamilo has a number of custom API action controllers (in the order of dozens) that handle specialized operations. The exact count varies between releases — list `src/CoreBundle/Controller/Api/` for the current set.
+Selain operasi CRUD standar, Chamilo memiliki beberapa pengontrol aksi kustom API (dalam jumlah puluhan) yang menangani operasi khusus. Jumlah pastinya bervariasi antar versi — daftar `src/CoreBundle/Controller/Api/` untuk melihat kumpulan saat ini.
 
-## Location
+## Lokasi
 
-Custom actions are in `src/CoreBundle/Controller/Api/`.
+Aksi kustom terletak di `src/CoreBundle/Controller/Api/`.
 
-## Notable Custom Actions
+## Aksi Kustom yang Penting
 
-### Documents
+### Dokumen
 
-| Controller | Purpose |
+| Pengontrol | Tujuan |
 |-----------|---------|
-| `CreateDocumentFileAction` | Upload a file or create a folder/link document |
-| `UpdateDocumentFileAction` | Replace a document's file |
-| `ReplaceDocumentFileAction` | Replace a document file, preserving its IDs |
-| `MoveDocumentAction` | Move a document to a different folder |
-| `UpdateVisibilityDocument` | Toggle document visibility for learners |
-| `DownloadAllDocumentsAction` | Download all documents in a folder as a ZIP |
-| `DownloadSelectedDocumentsAction` | Download a selected set of documents as a ZIP |
-| `DocumentUsageAction` | List courses/sessions where a document is used |
-| `DocumentLearningPathUsageAction` | List learning paths where a document is used |
+| `CreateDocumentFileAction` | Mengunggah file atau membuat folder/tautan dokumen |
+| `UpdateDocumentFileAction` | Mengganti file dari sebuah dokumen |
+| `ReplaceDocumentFileAction` | Mengganti file dari sebuah dokumen, dengan mempertahankan ID-nya |
+| `MoveDocumentAction` | Memindahkan dokumen ke folder yang berbeda |
+| `UpdateVisibilityDocument` | Mengubah visibilitas dokumen untuk siswa |
+| `DownloadAllDocumentsAction` | Mengunduh semua dokumen dari sebuah folder sebagai ZIP |
+| `DownloadSelectedDocumentsAction` | Mengunduh kumpulan dokumen yang dipilih sebagai ZIP |
+| `DocumentUsageAction` | Mendaftar kursus/sesi di mana dokumen digunakan |
+| `DocumentLearningPathUsageAction` | Mendaftar jalur pembelajaran di mana dokumen digunakan |
 
-### Glossary
+### Glosarium
 
-| Controller | Purpose |
+| Pengontrol | Tujuan |
 |-----------|---------|
-| `CreateCGlossaryAction` | Create a glossary term |
-| `UpdateCGlossaryAction` | Update a glossary term |
-| `ExportCGlossaryAction` | Export glossary to file |
-| `ImportCGlossaryAction` | Import glossary from file |
-| `ExportGlossaryToDocumentsAction` | Export glossary as a document in the course |
-| `GetGlossaryCollectionController` | Get glossary collection with custom filtering |
+| `CreateCGlossaryAction` | Membuat istilah glosarium |
+| `UpdateCGlossaryAction` | Memperbarui istilah glosarium |
+| `ExportCGlossaryAction` | Mengekspor glosarium ke file |
+| `ImportCGlossaryAction` | Mengimpor glosarium dari file |
+| `ExportGlossaryToDocumentsAction` | Mengekspor glosarium sebagai dokumen di kursus |
+| `GetGlossaryCollectionController` | Mendapatkan koleksi glosarium dengan penyaringan kustom |
 
-### Links
+### Tautan
 
-| Controller | Purpose |
+| Pengontrol | Tujuan |
 |-----------|---------|
-| `CreateCLinkAction` | Create an external link |
-| `UpdateCLinkAction` | Update an external link |
-| `CreateCLinkCategoryAction` | Create a link category |
-| `UpdateCLinkCategoryAction` | Update a link category |
-| `CheckCLinkAction` | Check whether a link URL is reachable |
-| `ExportCLinksAction` | Export links to file |
-| `CLinkDetailsController` | Get link details |
-| `CLinkImageController` | Get or set a link's preview image |
-| `GetLinksCollectionController` | Get links collection with custom filtering |
-| `UpdateVisibilityLink` | Toggle link visibility |
-| `UpdateVisibilityLinkCategory` | Toggle link category visibility |
-| `UpdatePositionLink` | Reorder links |
+| `CreateCLinkAction` | Membuat tautan eksternal |
+| `UpdateCLinkAction` | Memperbarui tautan eksternal |
+| `CreateCLinkCategoryAction` | Membuat kategori tautan |
+| `UpdateCLinkCategoryAction` | Memperbarui kategori tautan |
+| `CheckCLinkAction` | Memeriksa apakah URL tautan dapat diakses |
+| `ExportCLinksAction` | Mengekspor tautan ke file |
+| `CLinkDetailsController` | Mendapatkan detail tautan |
+| `CLinkImageController` | Mendapatkan atau mengatur gambar pratinjau tautan |
+| `GetLinksCollectionController` | Mendapatkan koleksi tautan dengan penyaringan kustom |
+| `UpdateVisibilityLink` | Mengubah visibilitas tautan |
+| `UpdateVisibilityLinkCategory` | Mengubah visibilitas kategori tautan |
+| `UpdatePositionLink` | Mengatur ulang urutan tautan |
 
-### Learning Paths
+### Jalur Pembelajaran
 
-| Controller | Purpose |
+| Pengontrol | Tujuan |
 |-----------|---------|
-| `CreateCLpAction` | Create a learning path |
-| `LpReorderController` | Reorder learning path items |
+| `CreateCLpAction` | Membuat jalur pembelajaran |
+| `LpReorderController` | Mengatur ulang item dalam jalur pembelajaran |
 
-### Calendar
+### Kalender
 
-| Controller | Purpose |
+| Pengontrol | Tujuan |
 |-----------|---------|
-| `UpdateCCalendarEventAction` | Update a course calendar event |
-| `CalendarMyStudentsScheduleAction` | Get the schedule of a teacher's students |
+| `UpdateCCalendarEventAction` | Memperbarui acara kalender kursus |
+| `CalendarMyStudentsScheduleAction` | Mendapatkan jadwal siswa dari seorang pengajar |
 
 ### Blog
 
-| Controller | Purpose |
+| Pengontrol | Tujuan |
 |-----------|---------|
-| `CreateCBlogAction` | Create a blog post |
-| `CreateBlogAttachmentAction` | Attach a file to a blog post |
-| `UpdateVisibilityBlog` | Toggle blog visibility |
+| `CreateCBlogAction` | Membuat postingan blog |
+| `CreateBlogAttachmentAction` | Melampirkan file ke postingan blog |
+| `UpdateVisibilityBlog` | Mengubah visibilitas blog |
 
 ### Dropbox
 
-| Controller | Purpose |
+| Pengontrol | Tujuan |
 |-----------|---------|
-| `CreateDropboxFileAction` | Upload a file to the dropbox (file exchange tool) |
+| `CreateDropboxFileAction` | Mengunggah file ke dropbox (alat pertukaran file) |
 
-### Student Work (Assignments)
+### Tugas Siswa
 
-| Controller | Purpose |
+| Pengontrol | Tujuan |
 |-----------|---------|
-| `CreateStudentPublicationFileAction` | Submit an assignment file |
-| `CreateStudentPublicationCommentAction` | Add a comment to a submission |
-| `CreateStudentPublicationCorrectionFileAction` | Upload a correction file for a submission |
+| `CreateStudentPublicationFileAction` | Mengirimkan file tugas |
+| `CreateStudentPublicationCommentAction` | Menambahkan komentar pada pengajuan |
+| `CreateStudentPublicationCorrectionFileAction` | Mengunggah file koreksi untuk pengajuan |
 
-### Personal Files
+### File Pribadi
 
-| Controller | Purpose |
+| Pengontrol | Tujuan |
 |-----------|---------|
-| `CreatePersonalFileAction` | Upload a file to the user's personal file space |
-| `UpdatePersonalFileAction` | Update a personal file |
+| `CreatePersonalFileAction` | Mengunggah file ke ruang file pribadi pengguna |
+| `UpdatePersonalFileAction` | Memperbarui file pribadi |
 
-### Social
+### Sosial
 
-| Controller | Purpose |
+| Pengontrol | Tujuan |
 |-----------|---------|
-| `LikeSocialPostController` | Like a social post |
-| `DislikeSocialPostController` | Unlike a social post |
-| `CreateSocialPostAttachmentAction` | Attach a file to a social post |
-| `SocialPostAttachmentsController` | List attachments on a social post |
-| `AbstractFeedbackSocialPostController` | Base class for social post feedback actions |
+| `LikeSocialPostController` | Menyukai postingan sosial |
+| `DislikeSocialPostController` | Tidak menyukai postingan sosial |
+| `CreateSocialPostAttachmentAction` | Melampirkan file ke postingan sosial |
+| `SocialPostAttachmentsController` | Mendaftar lampiran pada postingan sosial |
+| `AbstractFeedbackSocialPostController` | Kelas dasar untuk aksi umpan balik pada postingan sosial |
 
-### Sessions
+### Sesi
 
-| Controller | Purpose |
+| Pengontrol | Tujuan |
 |-----------|---------|
-| `CreateSessionWithUsersAndCoursesAction` | Create a session and enrol users and courses in one call |
+| `CreateSessionWithUsersAndCoursesAction` | Membuat sesi dan mendaftarkan pengguna serta kursus dalam satu panggilan |
 
-### Users & Access URLs
+---
+### Pengguna dan URL Akses
 
-| Controller | Purpose |
+| Kontroler | Tujuan |
 |-----------|---------|
-| `CreateUserOnAccessUrlAction` | Create a user and associate them with an access URL |
-| `UserAccessUrlsController` | List access URLs a user belongs to |
-| `UserSkillsController` | List skills awarded to a user |
+| `CreateUserOnAccessUrlAction` | Membuat pengguna dan mengaitkannya dengan URL akses |
+| `UserAccessUrlsController` | Menampilkan daftar URL akses yang terkait dengan seorang pengguna |
+| `UserSkillsController` | Menampilkan daftar keterampilan yang diberikan kepada seorang pengguna |
 
-### Video Conference
+### Konferensi Video
 
-| Controller | Purpose |
+| Kontroler | Tujuan |
 |-----------|---------|
-| `VideoConferenceCallbackController` | Handle callbacks from external video conference providers |
+| `VideoConferenceCallbackController` | Menangani panggilan balik dari penyedia konferensi video eksternal |
 
-### Base Classes
+### Kelas Dasar
 
-| Class | Purpose |
+| Kelas | Tujuan |
 |-------|---------|
-| `BaseResourceFileAction` | Base class for file-upload actions; handles multipart parsing, resource node creation, and storage |
+| `BaseResourceFileAction` | Kelas dasar untuk aksi unggah berkas; menangani analisis multipart, pembuatan simpul sumber daya, dan penyimpanan |
 
-## Implementing a Custom Action
+---
+## Mengimplementasikan Aksi Kustom
 
-Custom actions are standard Symfony controllers referenced in API Platform operation definitions. The `#[ApiResource]` attribute lives on the **entity**, and each operation's `controller:` parameter points to the action class:
+Aksi kustom adalah kontroler standar Symfony yang dirujuk dalam definisi operasi API Platform. Atribut `#[ApiResource]` berada pada **entitas**, dan parameter `controller:` dari setiap operasi mengarah ke kelas aksi:
 
 ```php
-// On the entity class (e.g. src/CourseBundle/Entity/CDocument.php):
+// Dalam kelas entitas (misalnya, src/CourseBundle/Entity/CDocument.php):
 #[ApiResource(
     shortName: 'Document',
     operations: [
@@ -152,7 +154,7 @@ Custom actions are standard Symfony controllers referenced in API Platform opera
 class CDocument extends AbstractResource { ... }
 ```
 
-The action class itself is a plain invokable controller — services are injected via `__invoke()` method arguments:
+Kelas aksi itu sendiri adalah kontroler yang dapat dipanggil sederhana — layanan disuntikkan melalui argumen metode `__invoke()`:
 
 ```php
 namespace Chamilo\CoreBundle\Controller\Api;
@@ -165,14 +167,14 @@ final class CreateDocumentFileAction extends BaseResourceFileAction
     public function __invoke(
         Request $request,
         CDocumentRepository $repo,
-        // ... other injected services
+        // ... layanan lain yang disuntikkan
     ): CDocument {
-        // Handle the upload and return the entity
+        // Menangani unggahan dan mengembalikan entitas
     }
 }
 ```
 
-Key points:
-- `deserialize: false` is set when the action reads the request directly (e.g. multipart file uploads) instead of letting API Platform deserialize a JSON body.
-- File-upload actions typically extend `BaseResourceFileAction`, which handles multipart parsing and resource node wiring.
-- Security is enforced via the `security:` parameter on the operation, not inside the controller.
+Poin utama:
+- `deserialize: false` ditetapkan ketika aksi membaca permintaan secara langsung (misalnya, unggahan berkas multipart) alih-alih membiarkan API Platform mendeserialisasi tubuh JSON.
+- Aksi unggahan berkas biasanya memperluas `BaseResourceFileAction`, yang mengelola analisis multipart dan koneksi simpul sumber daya.
+- Keamanan diterapkan melalui parameter `security:` pada operasi, bukan di dalam kontroler.

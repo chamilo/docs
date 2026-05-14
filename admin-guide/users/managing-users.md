@@ -1,103 +1,103 @@
-# Managing Users
+# Mengelola Pengguna
 
-This page covers the day-to-day tasks of creating, editing, and managing user accounts.
+Halaman ini membahas tugas sehari-hari dalam membuat, mengedit, dan mengelola akun pengguna.
 
-## User List
+## Daftar Pengguna
 
-![The user list showing accounts with name, email, role, and status columns](/.gitbook/assets/admin-user-list.png)
+![Daftar pengguna yang menampilkan akun dengan kolom nama, email, peran, dan status](/.gitbook/assets/admin-user-list.png)
 
-From the administration panel, click **User list** to see all users on the platform. The list shows:
+Dari panel administrasi, klik **Daftar pengguna** untuk melihat semua pengguna di platform. Daftar ini menunjukkan:
 
 * Avatar
-* Name
-* Username
-* Email address
-* Roles
-* Active/inactive status
-* Registration date
-* Last login date
+* Nama
+* Nama pengguna
+* Alamat email
+* Peran
+* Status aktif/tidak aktif
+* Tanggal pendaftaran
+* Tanggal login terakhir
 
-Use the **Advanced search** tool to find specific users by name, email, role, or other criteria.
+Gunakan alat **Pencarian lanjutan** untuk menemukan pengguna tertentu berdasarkan nama, email, peran, atau kriteria lainnya.
 
-## Creating a User
+## Membuat Pengguna
 
-![The user creation form with fields for name, email, username, password, role, and language](/.gitbook/assets/admin-user-create-form.png)
+![Formulir pembuatan pengguna dengan kolom untuk nama, email, nama pengguna, kata sandi, peran, dan bahasa](/.gitbook/assets/admin-user-create-form.png)
 
-1. Click **Add a user** from the administration panel
-2. Fill in the required fields:
-   * **First name** and **Last name**
-   * **Email** — Must be unique on the platform
-   * **Username** — The login name (must be unique)
-   * **Password** — Set an initial password
-   * **Roles** — Select the user's platform role(s) (student, teacher, admin, etc.)
-   * **Language** — The user's preferred interface language
-3. Optionally fill in additional fields:
-   * Official code (e.g. unique ID in the organization)
-   * Phone number
-   * Expiration date — Automatically deactivate the account after a date
-   * Active/inactive status
-   * Extra profile fields (if configured)
-4. Save
+1. Klik **Tambah pengguna** dari panel administrasi
+2. Isi kolom yang diperlukan:
+   * **Nama depan** dan **Nama belakang**
+   * **Email** — Harus unik di platform
+   * **Nama pengguna** — Nama login (harus unik)
+   * **Kata sandi** — Tetapkan kata sandi awal
+   * **Peran** — Pilih peran pengguna di platform (siswa, guru, admin, dll.)
+   * **Bahasa** — Bahasa antarmuka yang disukai pengguna
+3. Secara opsional, isi kolom tambahan:
+   * Kode resmi (misalnya ID unik dalam organisasi)
+   * Nomor telepon
+   * Tanggal kedaluwarsa — Nonaktifkan akun secara otomatis setelah tanggal tertentu
+   * Status aktif/tidak aktif
+   * Kolom profil tambahan (jika dikonfigurasi)
+4. Simpan
 
-## Importing Users
+## Mengimpor Pengguna
 
-![The user import interface for uploading CSV or XML files with user data](/.gitbook/assets/admin-user-import.png)
+![Antarmuka impor pengguna untuk mengunggah file CSV atau XML dengan data pengguna](/.gitbook/assets/admin-user-import.png)
 
-For bulk user creation, you can import users from a file:
+Untuk pembuatan pengguna secara massal, Anda dapat mengimpor pengguna dari file:
 
-1. Click **Import users** from the administration panel
-2. Upload a **CSV** or **XML** file with user data
-3. Map the file columns to Chamilo user fields
-4. Choose how to handle existing users (update or skip)
-5. Import
+1. Klik **Impor pengguna** dari panel administrasi
+2. Unggah file **CSV** atau **XML** dengan data pengguna
+3. Petakan kolom file ke kolom pengguna Chamilo
+4. Pilih cara menangani pengguna yang sudah ada (perbarui atau lewati)
+5. Impor
 
-The import file should contain columns for at least: first name, last name, email, username, and password.
+File impor harus berisi kolom minimal untuk: nama depan, nama belakang, email, nama pengguna, dan kata sandi.
 
-Note: The **Status** column is the legacy name for **Role** and only accepts a few values, like 1 for teacher, 5 for student. Further tuniing of the roles can only be done by hand later on, editing the user.
+Catatan: Kolom **Status** adalah nama lama untuk **Peran** dan hanya menerima beberapa nilai, seperti 1 untuk guru, 5 untuk siswa. Penyesuaian lebih lanjut pada peran hanya dapat dilakukan secara manual nanti dengan mengedit pengguna.
 
-## Exporting Users
+## Mengekspor Pengguna
 
-Click **Export users** to download the user list as a CSV or XML file. You can filter which users to export by role, registration date, or other criteria.
+Klik **Ekspor pengguna** untuk mengunduh daftar pengguna sebagai file CSV atau XML. Anda dapat memfilter pengguna mana yang akan diekspor berdasarkan peran, tanggal pendaftaran, atau kriteria lainnya.
 
-## Editing a User
+## Mengedit Pengguna
 
-Click on a user's name in the user list to edit their account. You can modify:
+Klik nama pengguna di daftar pengguna untuk mengedit akun mereka. Anda dapat mengubah:
 
-* Personal information (name, email, phone)
-* Roles
-* Password (reset)
-* Active/inactive status
-* Expiration date
-* Extra profile fields
+* Informasi pribadi (nama, email, telepon)
+* Peran
+* Kata sandi (reset)
+* Status aktif/tidak aktif
+* Tanggal kedaluwarsa
+* Kolom profil tambahan
 
-## Deleting a User
+## Menghapus Pengguna
 
-When deleting users (usually teachers) who have created content on the platform, the system might prevent you from deleting the users permanently, and will show a warning message explaining the user is still attached to some of the resources. If you confirm the deletion, the system will not delete the content itself but attach it to a neutral user (we call it the "Fallback user") for data consistency reasons.
+Saat menghapus pengguna (biasanya guru) yang telah membuat konten di platform, sistem mungkin mencegah Anda menghapus pengguna secara permanen dan akan menampilkan pesan peringatan yang menjelaskan bahwa pengguna masih terhubung dengan beberapa sumber daya. Jika Anda mengonfirmasi penghapusan, sistem tidak akan menghapus konten itu sendiri tetapi akan menghubungkannya ke pengguna netral (kami menyebutnya "Pengguna Cadangan") untuk alasan konsistensi data.
 
-To avoid this, check the user details, delete each of their courses one by one, then delete the user.
+Untuk menghindari ini, periksa detail pengguna, hapus setiap kursus mereka satu per satu, lalu hapus pengguna tersebut.
 
-## User Actions
+## Tindakan Pengguna
 
-| Action | Description |
-|--------|-------------|
-| **Deactivate** | Disable a user's account without deleting it. The user cannot log in but their data is preserved. |
-| **Activate** | Re-enable a previously deactivated account. |
-| **Login as** | Log in to the platform as this user (impersonation). Useful for troubleshooting. |
-| **Anonymize** | Erase all of the account's personal information, as defined by the EU's GDPR. |
-| **Delete** | Soft delete the user account. Use the **Deleted users** tab to permanently delete the account and associated data. |
+| Tindakan | Deskripsi |
+|----------|-----------|
+| **Nonaktifkan** | Menonaktifkan akun pengguna tanpa menghapusnya. Pengguna tidak dapat login tetapi datanya tetap dipertahankan. |
+| **Aktifkan** | Mengaktifkan kembali akun yang sebelumnya dinonaktifkan. |
+| **Login sebagai** | Login ke platform sebagai pengguna ini (peniruan identitas). Berguna untuk pemecahan masalah. |
+| **Anonimkan** | Menghapus semua informasi pribadi akun, sebagaimana ditentukan oleh GDPR Uni Eropa. |
+| **Hapus** | Menghapus akun pengguna secara sementara. Gunakan tab **Pengguna yang Dihapus** untuk menghapus akun dan data terkait secara permanen. |
 
-> **Login as** is a powerful feature. Use it responsibly and only for legitimate support purposes.
+> **Login sebagai** adalah fitur yang kuat. Gunakan dengan tanggung jawab dan hanya untuk tujuan dukungan yang sah.
 
-## Batch Operations
+## Operasi Batch
 
-Select multiple users in the user list to perform batch actions:
+Pilih beberapa pengguna di daftar pengguna untuk melakukan tindakan batch:
 
-* Activate or deactivate multiple users at once
-* Delete multiple users
-* Assign users to a course or session
+* Aktifkan atau nonaktifkan beberapa pengguna sekaligus
+* Hapus beberapa pengguna
+* Tetapkan pengguna ke kursus atau sesi
 
 ## Tips
 
-* **Use CSV import for large enrollments** — When onboarding many users at the start of a training program, prepare a CSV file and import in bulk
-* **Set expiration dates** — For temporary users (workshop participants, trial users), set an expiration date to automatically deactivate their accounts
-* **Deactivate rather than delete** — When a user leaves, deactivate their account first. This preserves their training records. Only delete if you are sure the data is no longer needed.
+* **Gunakan impor CSV untuk pendaftaran besar** — Saat mendaftarkan banyak pengguna di awal program pelatihan, siapkan file CSV dan impor secara massal
+* **Tetapkan tanggal kedaluwarsa** — Untuk pengguna sementara (peserta lokakarya, pengguna percobaan), tetapkan tanggal kedaluwarsa untuk menonaktifkan akun mereka secara otomatis
+* **Nonaktifkan daripada hapus** — Ketika pengguna meninggalkan, nonaktifkan akun mereka terlebih dahulu. Ini mempertahankan catatan pelatihan mereka. Hanya hapus jika Anda yakin data tersebut tidak lagi diperlukan.

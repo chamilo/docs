@@ -1,53 +1,53 @@
-# AI Tutor
+# Tutor AI
 
-The AI Tutor is a chatbot integrated into Chamilo that learners can interact with to ask course-related questions. It provides instant, context-aware responses powered by a large language model.
+Tutor AI adalah chatbot yang terintegrasi dalam Chamilo yang dapat berinteraksi dengan peserta didik untuk menjawab pertanyaan terkait kursus. Tutor ini memberikan tanggapan instan yang sesuai dengan konteks, didukung oleh model bahasa besar.
 
-## How It Works
+## Cara Kerjanya
 
-When the AI Tutor is enabled for a course, learners see a chat interface where they can:
+Ketika Tutor AI diaktifkan untuk sebuah kursus, peserta didik akan melihat antarmuka obrolan di mana mereka dapat:
 
-* **Ask questions** about course content
-* **Get explanations** of concepts covered in the course
-* **Receive guidance** without waiting for the teacher to respond
+* **Mengajukan pertanyaan** tentang konten kursus
+* **Mendapatkan penjelasan** tentang konsep yang dibahas dalam kursus
+* **Menerima panduan** tanpa harus menunggu respons dari pengajar
 
-The AI Tutor uses the course context to provide relevant answers. It is designed to supplement your teaching, not replace it.
+Tutor AI menggunakan konteks kursus untuk memberikan jawaban yang relevan. Tutor ini dirancang untuk melengkapi pengajaran Anda, bukan menggantikannya.
 
-## Enabling the AI Tutor
+## Mengaktifkan Tutor AI
 
-The AI Tutor requires two levels of configuration:
+Tutor AI memerlukan dua tingkat konfigurasi:
 
-1. **Platform level** — The administrator must enable AI helpers and configure at least one AI provider (see [AI Configuration](../../admin-guide/integrations/ai-configuration.md))
-2. **Course level** — The AI Tutor must be enabled in the course settings (a simple on/off toggle). The provider used for the chat is the one configured by the administrator.
+1. **Tingkat platform** — Administrator harus mengaktifkan pembantu AI dan mengonfigurasi setidaknya satu penyedia AI (lihat [Konfigurasi AI](../../admin-guide/integrations/ai-configuration.md))
+2. **Tingkat kursus** — Tutor AI harus diaktifkan di pengaturan kursus (tombol aktif/nonaktif sederhana). Penyedia yang digunakan untuk obrolan adalah yang telah dikonfigurasi oleh administrator.
 
-## The Chat Interface
+## Antarmuka Obrolan
 
-![The AI Tutor chat interface showing a conversation between a learner and the AI](/.gitbook/assets/ai-tutor-chat.png)
+![Antarmuka obrolan Tutor AI yang menunjukkan percakapan antara peserta didik dan AI](/.gitbook/assets/ai-tutor-chat.png)
 
-The AI Tutor appears as a **docked chat panel** within the course. Learners can:
+Tutor AI muncul sebagai **panel obrolan yang tertambat** di dalam kursus. Peserta didik dapat:
 
-* Type messages and receive AI-generated responses
-* View their conversation history
-* Reset the conversation to start fresh
+* Mengetik pesan dan menerima tanggapan yang dihasilkan oleh AI
+* Melihat riwayat percakapan mereka
+* Mengatur ulang percakapan untuk memulai dari awal
 
-The chat interface shows the exchange between the learner and the AI in a familiar messaging format.
+Antarmuka obrolan menampilkan pertukaran antara peserta didik dan AI dalam format pesan yang familiar.
 
-## Important Behavior
+## Perilaku Penting
 
-* **Course context only** — The AI Tutor is only available inside a course, not on the general platform
-* **Disabled during exams** — The AI Tutor is automatically disabled when a learner is taking an exercise, to prevent cheating
-* **Conversation per learner** — Each learner has their own private conversation with the AI Tutor, and the prompt context only includes the most recent messages
-* **Provider failover** — If the configured provider fails, Chamilo falls back to another available provider so the chat keeps working
+* **Konteks kursus saja** — Tutor AI hanya tersedia di dalam kursus, bukan di platform umum
+* **Dinonaktifkan selama ujian** — Tutor AI secara otomatis dinonaktifkan ketika peserta didik sedang mengikuti latihan, untuk mencegah kecurangan
+* **Percakapan per peserta didik** — Setiap peserta didik memiliki percakapan pribadi mereka sendiri dengan Tutor AI, dan konteks prompt hanya mencakup pesan terbaru
+* **Pengalihan penyedia** — Jika penyedia yang dikonfigurasi gagal, Chamilo akan beralih ke penyedia lain yang tersedia sehingga obrolan tetap berfungsi
 
-## As a Teacher
+## Sebagai Pengajar
 
-You should be aware that:
+Anda harus menyadari bahwa:
 
-* The AI Tutor may not always give perfect answers — encourage learners to verify important information
-* You can review AI Tutor usage through platform tracking
-* The AI Tutor is a complement to your teaching, not a substitute. Use it alongside forums, announcements, and direct messaging for comprehensive learner support.
+* Tutor AI mungkin tidak selalu memberikan jawaban yang sempurna — dorong peserta didik untuk memverifikasi informasi penting
+* Anda dapat meninjau penggunaan Tutor AI melalui pelacakan platform
+* Tutor AI adalah pelengkap untuk pengajaran Anda, bukan pengganti. Gunakan bersama forum, pengumuman, dan pesan langsung untuk mendukung peserta didik secara menyeluruh.
 
 ## Tips
 
-* **Set expectations** — Tell learners at the start of the course that an AI Tutor is available and explain how to use it appropriately
-* **Encourage critical thinking** — Remind learners to think critically about AI-generated answers
-* **Use for frequently asked questions** — The AI Tutor is especially useful for handling common questions that you would otherwise answer repeatedly
+* **Tetapkan ekspektasi** — Beritahu peserta didik di awal kursus bahwa Tutor AI tersedia dan jelaskan cara menggunakannya dengan tepat
+* **Dorong pemikiran kritis** — Ingatkan peserta didik untuk berpikir kritis terhadap jawaban yang dihasilkan oleh AI
+* **Gunakan untuk pertanyaan yang sering diajukan** — Tutor AI sangat berguna untuk menangani pertanyaan umum yang biasanya Anda jawab berulang kali

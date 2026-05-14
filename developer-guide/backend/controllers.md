@@ -1,71 +1,71 @@
-# Controllers
+# Pengontrol (Controladores)
 
-Chamilo 2.0 uses a large number of controllers (in the order of dozens) organized across the bundles. The exact count drifts version to version — treat the names below as illustrative, not exhaustive.
+Chamilo 2.0 menggunakan sejumlah besar pengontrol (dalam jumlah puluhan) yang diorganisasi berdasarkan bundle. Jumlah pasti bervariasi dari versi ke versi — anggap nama-nama di bawah ini sebagai ilustrasi, bukan daftar lengkap.
 
-## Controller Types
+## Jenis Pengontrol
 
-### Admin Controllers
+### Pengontrol Administrasi
 
-Located in `src/CoreBundle/Controller/Admin/`. Handle platform administration:
+Terletak di `src/CoreBundle/Controller/Admin/`. Mengelola administrasi platform:
 
-* `AdminController` — Dashboard, file info, email testing
-* `UserListController` — User CRUD
-* `CourseListController` — Course management
-* `SessionAdminController` — Session management
-* `SettingsController` — Platform settings
-* `SecurityController` — Login attempts, IDS events
-* `PluginsController` — Plugin management
-* `RoomController` — Room management
+* `AdminController` — Panel kontrol, informasi berkas, pengujian email
+* `UserListController` — CRUD pengguna
+* `CourseListController` — Manajemen kursus
+* `SessionAdminController` — Manajemen sesi
+* `SettingsController` — Pengaturan platform
+* `SecurityController` — Upaya login, peristiwa IDS
+* `PluginsController` — Manajemen plugin
+* `RoomController` — Manajemen ruangan
 
-### API Action Controllers
+### Pengontrol Aksi API
 
-Custom API Platform actions in `src/CoreBundle/Controller/Api/`:
+Aksi khusus API Platform di `src/CoreBundle/Controller/Api/`:
 
-These extend API Platform's built-in CRUD with custom business logic. Examples:
+Ini memperluas CRUD bawaan API Platform dengan logika bisnis khusus. Contoh:
 
-* `CreateDocumentFileAction` — File upload for documents
-* `CreateStudentPublicationFileAction` — Assignment submission upload
-* `UpdateVisibilityDocument` — Toggle document visibility
-* `ExportCGlossaryAction` — Export glossary
-* `MoveDocumentAction` — Move a document to a different folder
+* `CreateDocumentFileAction` — Unggah berkas untuk dokumen
+* `CreateStudentPublicationFileAction` — Unggah pengumpulan tugas
+* `UpdateVisibilityDocument` — Mengubah visibilitas dokumen
+* `ExportCGlossaryAction` — Ekspor glosarium
+* `MoveDocumentAction` — Memindahkan dokumen ke folder lain
 
-For read/write operations that don't need a dedicated HTTP controller — i.e. when you only want to change *how* an item or collection is fetched or persisted — prefer a **State Provider** or **State Processor** (see below). API Action Controllers are best reserved for endpoints that genuinely need request-level logic (file uploads, custom response formats, multi-step flows).
+Untuk operasi baca/tulis yang tidak memerlukan pengontrol HTTP khusus — yaitu, ketika Anda hanya ingin mengubah *cara* suatu item atau koleksi diperoleh atau disimpan — lebih baik gunakan **State Provider** atau **State Processor** (lihat di bawah). Pengontrol Aksi API lebih cocok untuk endpoint yang benar-benar membutuhkan logika pada tingkat permintaan (unggahan berkas, format respons khusus, alur multi-langkah).
 
-### AI Controller
+### Pengontrol AI
 
-`src/CoreBundle/Controller/AiController.php` is the entry point for AI-related endpoints (Aiken question generation, learning-path generation, image/video generation, open-answer grading, document analysis…). The exact set of routes evolves quickly — read the controller's `#[Route]` attributes for the current list rather than relying on a copy here.
+`src/CoreBundle/Controller/AiController.php` adalah titik masuk untuk endpoint terkait AI (pembuatan soal Aiken, pembuatan jalur pembelajaran, pembuatan gambar/video, penilaian jawaban terbuka, analisis dokumen...). Daftar rute yang pasti berkembang dengan cepat — baca atribut `#[Route]` pada pengontrol untuk daftar terkini, daripada mengandalkan salinan di sini.
 
-### Chat Controller
+### Pengontrol Obrolan
 
-`src/CoreBundle/Controller/ChatController.php` handles real-time chat and AI tutor:
+`src/CoreBundle/Controller/ChatController.php` mengelola obrolan waktu nyata dan tutor AI:
 
-* User-to-user messaging
-* AI tutor chat (docked chat panel)
-* Message history and polling
+* Pesan antar pengguna
+* Obrolan dengan tutor AI (panel obrolan yang ditambatkan)
+* Riwayat pesan dan polling
 
-## API Platform State Providers & Processors
+## Penyedia dan Pemroses Status API Platform
 
-Not every API endpoint is backed by a controller. API Platform 3 splits the work between two interfaces:
+Tidak semua endpoint API didukung oleh pengontrol. API Platform 3 membagi pekerjaan antara dua antarmuka:
 
-* **State Providers** (`ApiPlatform\State\ProviderInterface`) — return data for `GET` operations (a single item or a collection).
-* **State Processors** (`ApiPlatform\State\ProcessorInterface`) — handle writes for `POST`, `PUT`, `PATCH`, and `DELETE` operations.
+* **State Providers** (`ApiPlatform\State\ProviderInterface`) — mengembalikan data untuk operasi `GET` (satu item atau koleksi).
+* **State Processors** (`ApiPlatform\State\ProcessorInterface`) — mengelola penulisan untuk operasi `POST`, `PUT`, `PATCH`, dan `DELETE`.
 
-Chamilo's implementations live in `src/CoreBundle/State/` (around 35+ classes). They are wired to entities via the `provider:` and `processor:` arguments of `#[ApiResource]` operations rather than via routes.
+Implementasi Chamilo berada di `src/CoreBundle/State/` (sekitar 35+ kelas). Mereka terhubung ke entitas melalui argumen `provider:` dan `processor:` pada operasi `#[ApiResource]`, bukan melalui rute.
 
-### When to use them
+### Kapan Menggunakannya
 
-Reach for a provider/processor — instead of an API Action Controller — when:
+Pilih penyedia/pemroses — daripada Pengontrol Aksi API — ketika:
 
-* The endpoint follows the standard REST shape (list / read / create / update / delete) but needs custom data assembly or persistence logic.
-* You need to filter, denormalize, or enrich the result of a collection or item read (e.g. respecting the current Access URL, course context, or visibility rules).
-* You need to run side effects on write (audit logs, file generation, related-entity updates) while keeping API Platform's normalization, validation, and pagination pipeline.
-* You want to keep the operation discoverable in the OpenAPI / Hydra schema without registering a custom route.
+* Endpoint mengikuti format REST standar (daftar / baca / buat / perbarui / hapus), tetapi membutuhkan logika khusus untuk pengumpulan atau penyimpanan data.
+* Anda perlu menyaring, denormalisasi, atau memperkaya hasil dari koleksi atau pembacaan item (misalnya, menghormati URL Akses saat ini, konteks kursus, atau aturan visibilitas).
+* Anda perlu menjalankan efek samping pada penulisan (log audit, pembuatan berkas, pembaruan entitas terkait) sambil mempertahankan pipeline normalisasi, validasi, dan paginasi API Platform.
+* Anda ingin menjaga operasi tetap terdeteksi dalam skema OpenAPI / Hydra tanpa mendaftarkan rute khusus.
 
-If the endpoint instead needs raw `Request` access, returns a non-resource payload (file download, CSV, redirect), or orchestrates a multi-step flow, an API Action Controller in `src/CoreBundle/Controller/Api/` is a better fit.
+Jika endpoint, di sisi lain, membutuhkan akses langsung ke `Request`, mengembalikan payload yang bukan sumber daya (unduhan berkas, CSV, pengalihan) atau mengatur alur multi-langkah, Pengontrol Aksi API di `src/CoreBundle/Controller/Api/` adalah pilihan yang lebih tepat.
 
-### Wiring on the entity
+### Koneksi pada Entitas
 
-Reference the class on the operation:
+Referensikan kelas dalam operasi:
 
 ```php
 #[ApiResource(
@@ -77,9 +77,10 @@ Reference the class on the operation:
 class ColorTheme { ... }
 ```
 
-### Provider example
+---
+### Contoh Penyedia
 
-`src/CoreBundle/State/DocumentProvider.php` resolves a `CDocument` by URI variable and throws `NotFoundHttpException` when missing:
+`src/CoreBundle/State/DocumentProvider.php` menyelesaikan sebuah `CDocument` berdasarkan variabel URI dan melemparkan `NotFoundHttpException` ketika tidak ditemukan:
 
 ```php
 final class DocumentProvider implements ProviderInterface
@@ -99,9 +100,10 @@ final class DocumentProvider implements ProviderInterface
 }
 ```
 
-### Processor example
+---
+### Contoh Prosesor
 
-`src/CoreBundle/State/ColorThemeStateProcessor.php` delegates to the default Doctrine `persistProcessor`, then runs side effects (generates a CSS file on the themes Flysystem filesystem, links the theme to the current Access URL):
+`src/CoreBundle/State/ColorThemeStateProcessor.php` mendelegasikan ke `persistProcessor` bawaan Doctrine, kemudian menjalankan efek samping (menghasilkan file CSS pada sistem file Flysystem untuk tema, mengaitkan tema dengan URL Akses saat ini):
 
 ```php
 final readonly class ColorThemeStateProcessor implements ProcessorInterface
@@ -120,23 +122,23 @@ final readonly class ColorThemeStateProcessor implements ProcessorInterface
 
         $colorTheme = $this->persistProcessor->process($data, $operation, $uriVariables, $context);
 
-        // …generate colors.css, link to current AccessUrl, flush…
+        // …menghasilkan colors.css, mengaitkan ke AccessUrl saat ini, memperbarui…
 
         return $colorTheme;
     }
 }
 ```
 
-### Patterns to know
+### Pola yang Perlu Diketahui
 
-* **Compose with the default processor.** Decorate `ProcessorInterface $persistProcessor` (Doctrine's built-in) so Chamilo-specific logic runs *around* the standard persist, not instead of it.
-* **Collection providers do their own pagination.** When a collection provider builds a custom query, it must respect `?page`, `?itemsPerPage`, and search filters — API Platform's automatic paginator only kicks in for the default Doctrine collection provider.
-* **One class per resource + operation kind is common**, but a provider can serve several operations (see `UsergroupStateProvider`, reused across four operations on `Usergroup`).
-* **Naming convention**: `<Entity>StateProvider` / `<Entity>StateProcessor` for resource-wide handlers; `<Entity><Action>Processor` (e.g. `CBlogAssignAuthorProcessor`, `CStudentPublicationDeleteProcessor`) for narrower operations.
+* **Menggabungkan dengan prosesor bawaan.** Hiasi `ProcessorInterface $persistProcessor` (terintegrasi dengan Doctrine) sehingga logika khusus Chamilo dijalankan *di sekitar* persistensi bawaan, bukan sebagai pengganti.
+* **Penyedia koleksi mengelola paginasi mereka sendiri.** Ketika penyedia koleksi membangun kueri khusus, ia harus menghormati `?page`, `?itemsPerPage`, dan filter pencarian — paginator otomatis API Platform hanya berlaku untuk penyedia koleksi bawaan Doctrine.
+* **Satu kelas per sumber daya + jenis operasi adalah hal yang umum**, tetapi sebuah penyedia dapat melayani beberapa operasi (lihat `UsergroupStateProvider`, digunakan kembali dalam empat operasi pada `Usergroup`).
+* **Konvensi penamaan**: `<Entity>StateProvider` / `<Entity>StateProcessor` untuk penangan sumber daya yang luas; `<Entity><Action>Processor` (misalnya, `CBlogAssignAuthorProcessor`, `CStudentPublicationDeleteProcessor`) untuk operasi yang lebih spesifik.
 
-## Routing
+## Perutean
 
-Controllers use **PHP 8 attributes** for route definitions:
+Pengontrol menggunakan **atribut PHP 8** untuk definisi rute:
 
 ```php
 #[Route('/admin/user-list')]
@@ -147,12 +149,12 @@ class UserListController extends AbstractController
 }
 ```
 
-API Platform resources use `#[ApiResource]` attributes on entities, with custom operations pointing to controller actions.
+Sumber daya API Platform menggunakan atribut `#[ApiResource]` pada entitas, dengan operasi khusus yang mengarah ke aksi pengontrol.
 
 ## Traits
 
-Controllers use shared traits for common functionality:
+Pengontrol menggunakan traits bersama untuk fungsionalitas umum:
 
-* `ControllerTrait` — Access to settings, serializer, and common services
-* `CourseControllerTrait` — Course context helpers
-* `ResourceControllerTrait` — Resource node operations
+* `ControllerTrait` — Akses ke pengaturan, serializer, dan layanan umum
+* `CourseControllerTrait` — Pembantu konteks kursus
+* `ResourceControllerTrait` — Operasi simpul sumber daya

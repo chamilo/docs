@@ -1,92 +1,92 @@
-# Database Schema
+# Skema Basis Data
 
-Chamilo 2.0 maps a large set of Doctrine entities to database tables. The exact counts drift between releases — read the entity directories listed below for the current state.
+Chamilo 2.0 memetakan sejumlah besar entitas Doctrine ke tabel basis data. Jumlah pastinya bervariasi antar versi — silakan merujuk ke direktori entitas yang tercantum di bawah ini untuk status terkini.
 
-## Entity locations
+## Lokasi Entitas
 
-| Bundle | Where | Prefix |
-|--------|-------|--------|
-| CoreBundle | `src/CoreBundle/Entity/` | None (e.g., `user`, `course`, `session`) |
-| CourseBundle | `src/CourseBundle/Entity/` | `c_` (e.g., `c_document`, `c_quiz`, `c_lp`) |
+| Bundle | Lokasi | Awalan |
+|--------|--------|--------|
+| CoreBundle | `src/CoreBundle/Entity/` | Tidak ada (misalnya, `user`, `course`, `session`) |
+| CourseBundle | `src/CourseBundle/Entity/` | `c_` (misalnya, `c_document`, `c_quiz`, `c_lp`) |
 | LtiBundle | `src/LtiBundle/Entity/` | `lti_` |
 
-## Key Tables
+## Tabel Utama
 
-### User and Authentication
+### Pengguna dan Autentikasi
 
-| Table | Purpose |
-|-------|---------|
-| `user` | User accounts |
-| `access_url` | Multi-URL portals |
-| `access_url_rel_user` | User-portal assignments |
-| `usergroup` | Platform-wide user groups |
+| Tabel | Tujuan |
+|-------|--------|
+| `user` | Akun pengguna |
+| `access_url` | Portal multi-URL |
+| `access_url_rel_user` | Penugasan pengguna-portal |
+| `usergroup` | Grup pengguna di seluruh platform |
 
-### Courses
+### Kursus
 
-| Table | Purpose |
-|-------|---------|
-| `course` | Courses |
-| `course_category` | Course categories |
-| `course_rel_user` | Course enrollments |
+| Tabel | Tujuan |
+|-------|--------|
+| `course` | Kursus |
+| `course_category` | Kategori kursus |
+| `course_rel_user` | Pendaftaran kursus |
 
-### Sessions
+### Sesi
 
-| Table | Purpose |
-|-------|---------|
-| `session` | Training sessions |
-| `session_rel_user` | Session enrollments |
-| `session_rel_course` | Courses in sessions |
-| `session_rel_course_rel_user` | User enrollment per session-course |
+| Tabel | Tujuan |
+|-------|--------|
+| `session` | Sesi pelatihan |
+| `session_rel_user` | Pendaftaran sesi |
+| `session_rel_course` | Kursus dalam sesi |
+| `session_rel_course_rel_user` | Pendaftaran pengguna per sesi-kursus |
 
-### Resource System
+### Sistem Sumber Daya
 
-| Table | Purpose |
-|-------|---------|
-| `resource_node` | Unified content abstraction |
-| `resource_file` | File attachments |
-| `resource_link` | Visibility/access per context |
-| `resource_type` | Resource type registry |
+| Tabel | Tujuan |
+|-------|--------|
+| `resource_node` | Abstraksi konten terpadu |
+| `resource_file` | Lampiran berkas |
+| `resource_link` | Visibilitas/akses berdasarkan konteks |
+| `resource_type` | Pendaftaran jenis sumber daya |
 
-### Course Content (c_ prefix)
+### Konten Kursus (awalan c_)
 
-| Table | Purpose |
-|-------|---------|
-| `c_document` | Documents |
-| `c_quiz` | Exercises/tests |
-| `c_quiz_question` | Quiz questions |
-| `c_quiz_answer` | Question answers |
-| `c_lp` | Learning paths |
-| `c_lp_item` | Learning path items |
-| `c_forum_category` | Forum categories |
-| `c_forum_forum` | Forums |
-| `c_forum_thread` | Forum threads |
-| `c_forum_post` | Forum posts |
-| `c_student_publication` | Assignments/submissions |
-| `c_survey` | Surveys |
-| `c_glossary` | Glossary terms |
-| `c_calendar_event` | Calendar events |
-| `c_attendance` | Attendance sheets |
+| Tabel | Tujuan |
+|-------|--------|
+| `c_document` | Dokumen |
+| `c_quiz` | Latihan/tes |
+| `c_quiz_question` | Pertanyaan kuis |
+| `c_quiz_answer` | Jawaban pertanyaan |
+| `c_lp` | Jalur pembelajaran |
+| `c_lp_item` | Item jalur pembelajaran |
+| `c_forum_category` | Kategori forum |
+| `c_forum_forum` | Forum |
+| `c_forum_thread` | Topik forum |
+| `c_forum_post` | Postingan forum |
+| `c_student_publication` | Tugas/pengiriman |
+| `c_survey` | Survei |
+| `c_glossary` | Istilah glosarium |
+| `c_calendar_event` | Acara kalender |
+| `c_attendance` | Lembar kehadiran |
 
-### Tracking
+### Pelacakan
 
-| Table | Purpose |
-|-------|---------|
-| `track_e_login` | Login tracking |
-| `track_e_online` | Online user tracking |
-| `track_e_default` | Generic activity tracking |
-| `gradebook_category` | Gradebook categories |
-| `gradebook_result` | Grades |
+| Tabel | Tujuan |
+|-------|--------|
+| `track_e_login` | Pelacakan login |
+| `track_e_online` | Pelacakan pengguna online |
+| `track_e_default` | Pelacakan aktivitas umum |
+| `gradebook_category` | Kategori buku nilai |
+| `gradebook_result` | Nilai |
 
-### Settings
+### Pengaturan
 
-| Table | Purpose |
-|-------|---------|
-| `settings` | Platform settings |
-| `settings_options` | Setting option definitions |
+| Tabel | Tujuan |
+|-------|--------|
+| `settings` | Pengaturan platform |
+| `settings_options` | Definisi opsi pengaturan |
 
-## Migrations
+## Migrasi
 
-Database schema changes are managed through Doctrine Migrations in `src/CoreBundle/Migrations/`. Run migrations with:
+Perubahan pada skema basis data dikelola melalui Doctrine Migrations di `src/CoreBundle/Migrations/`. Jalankan migrasi dengan:
 
 ```bash
 php bin/console doctrine:migrations:migrate

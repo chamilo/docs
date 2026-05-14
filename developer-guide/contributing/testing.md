@@ -1,12 +1,12 @@
-# Testing
+# Pengujian
 
-## PHP Testing
+## Pengujian di PHP
 
-Chamilo uses **PHPUnit** for backend testing.
+Chamilo menggunakan **PHPUnit** untuk pengujian backend.
 
-### Test Database Setup
+### Konfigurasi Basis Data Pengujian
 
-Tests require a dedicated database. Create `.env.test.local` with your test database credentials:
+Pengujian memerlukan basis data khusus. Buat file `.env.test.local` dengan kredensial basis data pengujian Anda:
 
 ```ini
 DATABASE_HOST='127.0.0.1'
@@ -16,7 +16,7 @@ DATABASE_USER='root'
 DATABASE_PASSWORD='root'
 ```
 
-Then initialise the test database:
+Kemudian, inisialisasi basis data pengujian:
 
 ```bash
 php bin/console --env=test cache:clear
@@ -25,28 +25,28 @@ php bin/console --env=test doctrine:schema:create
 php bin/console --env=test doctrine:fixtures:load --no-interaction
 ```
 
-To reset after schema changes:
+Untuk mengatur ulang setelah perubahan pada skema:
 
 ```bash
 php bin/console --env=test doctrine:schema:update --force --complete
 ```
 
-### Running Tests
+### Menjalankan Pengujian
 
 ```bash
-# Run all tests
+# Menjalankan semua pengujian
 php bin/phpunit
 
-# Run a specific test file
+# Menjalankan file pengujian tertentu
 php bin/phpunit tests/CoreBundle/Repository/UserRepositoryTest.php
 
-# Run tests with HTML coverage report
+# Menjalankan pengujian dengan laporan cakupan dalam format HTML
 php bin/phpunit --coverage-html var/coverage
 ```
 
-### Test Location
+### Lokasi Pengujian
 
-Tests are in the `tests/` directory:
+Pengujian berada di direktori `tests/`:
 
 ```
 tests/
@@ -64,82 +64,82 @@ tests/
 ├── CourseBundle/
 │   ├── Repository/
 │   └── Settings/
-├── behat/               # Behat end-to-end tests
-├── fixtures/            # Alice fixture files
-├── AbstractApiTest.php  # Base class for API tests
-└── ChamiloTestTrait.php # Shared test helpers
+├── behat/               # Pengujian ujung ke ujung dengan Behat
+├── fixtures/            # File fixtures dari Alice
+├── AbstractApiTest.php  # Kelas dasar untuk pengujian API
+└── ChamiloTestTrait.php # Pembantu bersama untuk pengujian
 ```
 
-### Test Types
+### Jenis Pengujian
 
-* **Unit/Integration tests** — PHPUnit tests in `CoreBundle/` and `CourseBundle/`; most hit a real database (via `dama/doctrine-test-bundle`)
-* **Functional (API) tests** — Extend `AbstractApiTest` and test HTTP endpoints end-to-end
-* **Behat tests** — Browser-level acceptance tests in `tests/behat/features/` (see below)
+* **Pengujian Unit/Integrasi** — Pengujian dengan PHPUnit di `CoreBundle/` dan `CourseBundle/`; sebagian besar mengakses basis data nyata (melalui `dama/doctrine-test-bundle`)
+* **Pengujian Fungsional (API)** — Memperluas `AbstractApiTest` dan menguji endpoint HTTP secara ujung ke ujung
+* **Pengujian Behat** — Pengujian penerimaan pada tingkat peramban di `tests/behat/features/` (lihat di bawah)
 
-## Behat (End-to-End) Tests
+## Pengujian Behat (Ujung ke Ujung)
 
-Chamilo has a Behat test suite for browser-level acceptance testing. It requires a running Chamilo instance, Chrome, and ChromeDriver.
+Chamilo memiliki serangkaian pengujian Behat untuk pengujian penerimaan pada tingkat peramban. Anda perlu memiliki instance Chamilo yang berjalan, serta Chrome dan ChromeDriver.
 
 ```bash
-# From the tests/behat/ directory:
+# Dari direktori tests/behat/:
 ../../vendor/behat/behat/bin/behat features/actionInstall.feature
 ../../vendor/behat/behat/bin/behat features/createUser.feature
 ../../vendor/behat/behat/bin/behat features/createCourse.feature
 
-# Or run all features:
+# Atau jalankan semua fitur:
 ../../vendor/behat/behat/bin/behat
 ```
 
-Configure the base URL in `tests/behat/behat.yml` before running.
+Konfigurasikan URL dasar di `tests/behat/behat.yml` sebelum menjalankan.
 
-## Frontend Checks
+## Pemeriksaan Frontend
 
 ```bash
-# Lint JavaScript/Vue (ESLint with Prettier)
+# Memeriksa JavaScript/Vue (ESLint dengan Prettier)
 yarn eslint assets/vue/
 
-# Type-check TypeScript
+# Memeriksa tipe di TypeScript
 yarn tsc --noEmit
 
-# Build production assets (verifies the entire build compiles)
+# Membangun aset produksi (memeriksa apakah seluruh kompilasi berhasil)
 yarn build
 ```
 
-## PHP Code Quality
+## Kualitas Kode PHP
 
-Chamilo uses **ECS** (Easy Coding Standard), **PHPStan**, and **Psalm** for code quality. Composer shortcuts are available for each:
+Chamilo menggunakan **ECS** (Easy Coding Standard), **PHPStan**, dan **Psalm** untuk kualitas kode. Pintasan Composer tersedia untuk masing-masing:
 
 ```bash
-# Check code style (ECS — Easy Coding Standard)
+# Memeriksa gaya kode (ECS — Easy Coding Standard)
 composer phpcs
-# or directly:
+# atau langsung:
 vendor/bin/ecs check
 
-# Auto-fix code style violations
+# Memperbaiki pelanggaran gaya kode secara otomatis
 composer phpcs-fix
-# or directly:
+# atau langsung:
 vendor/bin/ecs check --fix
 
-# Static analysis with PHPStan (level 5, scans src/ and tests/)
+# Analisis statis dengan PHPStan (level 5, memindai src/ dan tests/)
 composer phpstan
-# or directly:
+# atau langsung:
 vendor/bin/phpstan analyse
 
-# Static analysis with Psalm
+# Analisis statis dengan Psalm
 composer psalm
-# or directly:
+# atau langsung:
 vendor/bin/psalm --show-info=false
 ```
 
-Note: there is no `php-cs-fixer` in this project. ECS (`symplify/easy-coding-standard`) is the code style tool.
+Catatan: tidak ada `php-cs-fixer` di proyek ini. ECS (`symplify/easy-coding-standard`) adalah alat gaya kode yang digunakan.
 
-## Continuous Integration
+## Integrasi Berkelanjutan
 
-Pull requests are automatically checked by four GitHub Actions workflows:
+Pull request diperiksa secara otomatis oleh empat alur kerja GitHub Actions:
 
-| Workflow | What it runs |
-|----------|-------------|
-| `phpunit.yml` | PHPUnit test suite |
-| `format_code.yml` | ECS code style check |
-| `php_analysis.yml` | Psalm, Doctrine schema validation, security checker |
-| `behat.yml` | Behat end-to-end tests |
+| Alur Kerja | Apa yang Dijalankan |
+|------------|----------------------|
+| `phpunit.yml` | Kumpulan pengujian PHPUnit |
+| `format_code.yml` | Pemeriksaan gaya kode dengan ECS |
+| `php_analysis.yml` | Psalm, validasi skema Doctrine, pemeriksa keamanan |
+| `behat.yml` | Pengujian ujung ke ujung dengan Behat |

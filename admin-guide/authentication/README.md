@@ -1,10 +1,10 @@
-# Authentication
+# Autentikasi
 
-Chamilo supports multiple authentication methods, from the built-in username/password system to enterprise single sign-on solutions.
+Chamilo mendukung berbagai metode autentikasi, mulai dari sistem bawaan berbasis nama pengguna/kata sandi hingga solusi single sign-on untuk perusahaan.
 
-## Configuration file
+## Berkas Konfigurasi
 
-All external authentication methods are configured in `config/authentication.yaml`. A template is provided at `config/authentication.dist.yaml`. The general structure is:
+Semua metode autentikasi eksternal dikonfigurasi dalam `config/authentication.yaml`. Sebuah templat disediakan di `config/authentication.dist.yaml`. Struktur umumnya adalah:
 
 ```yaml
 parameters:
@@ -15,27 +15,27 @@ parameters:
           <config_key>: <value>
 ```
 
-After editing the file, clear and warm the cache:
+Setelah mengedit berkas tersebut, bersihkan dan panaskan cache:
 
 ```bash
 php bin/console cache:clear
 php bin/console cache:warmup
 ```
 
-External login buttons appear on the login page after the cache is refreshed.
+Tombol login eksternal akan muncul di halaman login setelah cache diperbarui.
 
-## Supported methods
+## Metode yang Didukung
 
-* **[OAuth2](oauth2.md)** — Azure AD, Keycloak, Facebook, and generic OAuth2 providers
-* **[LDAP](ldap.md)** — Authenticate against an LDAP or Active Directory server
-* **[CAS](cas.md)** — Central Authentication Service (legacy, not functional in 2.x)
-* **[SCIM](scim.md)** — Automated user provisioning from external identity providers
-* **[SSO Configuration](sso-configuration.md)** — Troubleshooting and cross-method notes
+* **[OAuth2](oauth2.md)** — Azure AD, Keycloak, Facebook, dan penyedia OAuth2 generik
+* **[LDAP](ldap.md)** — Autentikasi terhadap server LDAP atau Active Directory
+* **[CAS](cas.md)** — Central Authentication Service (lawas, tidak berfungsi di versi 2.x)
+* **[SCIM](scim.md)** — Penyediaan pengguna otomatis dari penyedia identitas eksternal
+* **[Konfigurasi SSO](sso-configuration.md)** — Catatan pemecahan masalah dan lintas metode
 
-## Default authentication
+## Autentikasi Default
 
-By default, Chamilo uses its own internal system — users log in with a username and password stored in the Chamilo database. External methods are additive: the standard login form stays available alongside any configured providers.
+Secara default, Chamilo menggunakan sistem internalnya sendiri — pengguna masuk dengan nama pengguna dan kata sandi yang disimpan di basis data Chamilo. Metode eksternal bersifat tambahan: formulir login standar tetap tersedia bersama penyedia yang dikonfigurasi.
 
-## Further reference
+## Referensi Lebih Lanjut
 
-For full parameter reference and advanced scenarios, see the [External Authentication configuration wiki page](https://github.com/chamilo/chamilo-lms/wiki/External-Authentication-configuration).
+Untuk referensi parameter lengkap dan skenario lanjutan, lihat [halaman wiki konfigurasi Autentikasi Eksternal](https://github.com/chamilo/chamilo-lms/wiki/External-Authentication-configuration).

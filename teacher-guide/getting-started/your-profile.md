@@ -1,43 +1,43 @@
-# Your Profile
+# Profil Anda
 
-Your profile in Chamilo contains your personal information and preferences. Other users on the platform can see parts of your profile depending on your visibility settings.
+Profil Anda di Chamilo berisi informasi pribadi dan preferensi Anda. Pengguna lain di platform dapat melihat bagian dari profil Anda tergantung pada pengaturan visibilitas Anda.
 
-## Accessing Your Profile
+## Mengakses Profil Anda
 
-Click your **avatar** in the top-right corner of the top bar, then select **Profile** from the dropdown menu. You can also access it from the **Social network** section of the sidebar.
+Klik **avatar** Anda di sudut kanan atas bilah atas, kemudian pilih **Profil** dari menu tarik-turun. Anda juga dapat mengaksesnya dari bagian **Jaringan sosial** di bilah sisi.
 
-![The user avatar dropdown menu showing profile, account settings, and sign-out options](/.gitbook/assets/user-avatar-dropdown.png)
+![Menu tarik-turun avatar pengguna yang menampilkan profil, pengaturan akun, dan opsi keluar](/.gitbook/assets/user-avatar-dropdown.png)
 
-## Profile Information
+## Informasi Profil
 
-Your profile page might show (depending on configuration):
+Halaman profil Anda mungkin menampilkan (tergantung pada konfigurasi):
 
-* **Avatar** — Your profile picture. Click **Edit profile** to change it.
-* **Full name** — Your first and last name as registered on the platform.
-* **Email** — Your email address. Other users can click it to send you a message within Chamilo.
-* **Language** — Your preferred language.
-* **Additional fields** — Depending on your platform's configuration, you may see fields such as phone number, Skype handle, LinkedIn profile link, or custom fields defined by your administrator.
+* **Avatar** — Gambar profil Anda. Klik **Edit profil** untuk mengubahnya.
+* **Nama lengkap** — Nama depan dan belakang Anda seperti yang terdaftar di platform.
+* **Email** — Alamat email Anda. Pengguna lain dapat mengkliknya untuk mengirim pesan kepada Anda di dalam Chamilo.
+* **Bahasa** — Bahasa yang Anda sukai.
+* **Kolom tambahan** — Tergantung pada konfigurasi platform Anda, Anda mungkin melihat kolom seperti nomor telepon, nama pengguna Skype, tautan profil LinkedIn, atau kolom khusus yang ditentukan oleh administrator Anda.
 
-## Editing Your Profile
+## Mengedit Profil Anda
 
-To update your profile information, click **Edit profile**. Here you can:
+Untuk memperbarui informasi profil Anda, klik **Edit profil**. Di sini Anda dapat:
 
-* Change your name, email, and password
-* Upload or change your avatar/picture
-* Update your preferred language
-* Fill in additional profile fields (Skype, LinkedIn, etc.)
-* Configure notification preferences
+* Mengubah nama, email, dan kata sandi Anda
+* Mengunggah atau mengubah avatar/gambar Anda
+* Memperbarui bahasa yang Anda sukai
+* Mengisi kolom profil tambahan (Skype, LinkedIn, dll.)
+* Mengonfigurasi preferensi notifikasi
 
-To change your password, click **Change Password**. For security reasons, you will need to give your current password and your new password twice.
+Untuk mengubah kata sandi Anda, klik **Change Password**. Untuk alasan keamanan, Anda perlu memasukkan kata sandi saat ini dan kata sandi baru dua kali.
 
-If your administrator has enabled the **two-factor authentication** option (`2fa_enable`) for the platform, your profile will let you turn on 2FA for your own account using a TOTP authenticator app (Google Authenticator, Authy, 1Password, etc.). Once enabled, the login flow will ask for the time-based 6-digit code in addition to your password.
+Jika administrator Anda telah mengaktifkan opsi **two-factor authentication** (`2fa_enable`) untuk platform, profil Anda akan memungkinkan Anda untuk mengaktifkan 2FA untuk akun Anda sendiri menggunakan aplikasi autentikator TOTP (Google Authenticator, Authy, 1Password, dll.). Setelah diaktifkan, alur login akan meminta kode 6 digit berbasis waktu selain kata sandi Anda.
 
-## Personal Data
+## Data Pribadi
 
-Under **Social network** > **Personal Data**, you can review all the information Chamilo stores about you. This section includes:
+Di bawah **Jaringan sosial** > **Data Pribadi**, Anda dapat meninjau semua informasi yang disimpan Chamilo tentang Anda. Bagian ini mencakup:
 
-* A summary of all data collected, organized by category
-* If enabled by your organization, your acceptance status for the platform's **Terms and Conditions**
-* If enabled by your organization, an option to **withdraw your consent** or **delete account**, which will trigger an account deletion request that your administrator will process
+* Ringkasan semua data yang dikumpulkan, diorganisir berdasarkan kategori
+* Jika diaktifkan oleh organisasi Anda, status penerimaan Anda terhadap **Syarat dan Ketentuan** platform
+* Jika diaktifkan oleh organisasi Anda, opsi untuk **menarik persetujuan** atau **menghapus akun**, yang akan memicu permintaan penghapusan akun yang akan diproses oleh administrator Anda
 
-> This feature is provided to comply with data protection regulations. Contact your administrator if you have questions about how your data is handled.
+> Fitur ini disediakan untuk mematuhi peraturan perlindungan data. Hubungi administrator Anda jika Anda memiliki pertanyaan tentang bagaimana data Anda ditangani.

@@ -1,50 +1,50 @@
-# Certificates and Skills
+# Sertifikat dan Keterampilan
 
-Chamilo allows you to award certificates to learners who meet specific achievement criteria, and to validate skills associated with those achievements.
+Chamilo memungkinkan Anda untuk memberikan sertifikat kepada pelajar yang memenuhi kriteria pencapaian tertentu, dan untuk memvalidasi keterampilan yang terkait dengan pencapaian tersebut.
 
-## How Certificates Work
+## Cara Kerja Sertifikat
 
-Certificates are linked to the **Assessments** (also called Gradebook). When a learner's grade meets or exceeds the minimum threshold you define, a certificate becomes available for them to download.
+Sertifikat terkait dengan **Assessments** (juga disebut Gradebook). Ketika nilai pelajar memenuhi atau melebihi ambang batas minimum yang Anda tentukan, sertifikat menjadi tersedia untuk diunduh oleh mereka.
 
-The workflow is:
+Alur kerjanya adalah:
 
-1. Set up the [Assessments](../assessing-learners/gradebook.md) with your exercises, assignments, and other graded activities
-2. Define a **minimum certification score** (e.g., 70%)
-3. When a learner reaches that score, they can download their certificate (either within the Assessments tool itself, or from a learning path if you've configured the final step for that). As a teacher, you can also use the **Generate certificates** action in the gradebook to create the PDFs in batch for all eligible learners.
+1. Siapkan [Assessments](../assessing-learners/gradebook.md) dengan latihan, tugas, dan aktivitas bernilai lainnya
+2. Tentukan **skor sertifikasi minimum** (misalnya, 70%)
+3. Ketika pelajar mencapai skor tersebut, mereka dapat mengunduh sertifikat mereka (baik di dalam alat Assessments itu sendiri, atau dari jalur pembelajaran jika Anda telah mengonfigurasi langkah akhir untuk itu). Sebagai guru, Anda juga dapat menggunakan aksi **Generate certificates** di gradebook untuk membuat PDF secara batch untuk semua pelajar yang memenuhi syarat.
 
-## Certificate Templates
+## Template Sertifikat
 
-Certificates use templates defined by the platform administrator. The template typically includes:
+Sertifikat menggunakan template yang didefinisikan oleh administrator platform. Template biasanya mencakup:
 
-* The learner's name
-* The course name
-* The date of completion
-* The score achieved
-* A QR code or URL for online verification
+* Nama pelajar
+* Nama kursus
+* Tanggal penyelesaian
+* Skor yang dicapai
+* Kode QR atau URL untuk verifikasi online
 
-## Skills
+## Keterampilan
 
-Skills represent competencies that learners acquire. In Chamilo:
+Keterampilan mewakili kompetensi yang diperoleh pelajar. Di Chamilo:
 
-* Skills can be linked to gradebook achievements
-* When a learner earns a certificate, any associated skills are automatically validated
-* Skills accumulate on the learner's profile, creating a competency record
-* Skills can be organized hierarchically (e.g., "Data Analysis" under "Research Methods")
-* Skills can be further evaluated by peers (360° evaluation)
+* Keterampilan dapat dikaitkan dengan pencapaian gradebook
+* Ketika pelajar memperoleh sertifikat, semua keterampilan terkait secara otomatis divalidasi
+* Keterampilan terakumulasi di profil pelajar, menciptakan catatan kompetensi
+* Keterampilan dapat diorganisir secara hierarkis (misalnya, "Data Analysis" di bawah "Research Methods")
+* Keterampilan dapat dievaluasi lebih lanjut oleh rekan sejawat (evaluasi 360°)
 
-## Viewing Certificate and Skill Status
+## Melihat Status Sertifikat dan Keterampilan
 
-As a teacher, you can see:
+Sebagai guru, Anda dapat melihat:
 
-* Which learners have earned certificates in your course
-* Which skills have been validated
-* Learners' progress toward the certification threshold
+* Pelajar mana yang telah memperoleh sertifikat di kursus Anda
+* Keterampilan mana yang telah divalidasi
+* Kemajuan pelajar menuju ambang batas sertifikasi
 
-Learners can view their own certificates and validated skills from their profile, and can access the Skills Wheel to check what skills are in demand in their organisation.
+Pelajar dapat melihat sertifikat mereka sendiri dan keterampilan yang divalidasi dari profil mereka, dan dapat mengakses Skills Wheel untuk memeriksa keterampilan apa yang diminati di organisasi mereka.
 
 ## Tips
 
-* **Set clear expectations** — Tell learners at the start of the course what they need to achieve to earn a certificate
-* **Use meaningful skill names** — Skills should describe what the learner can do, not just the course name
-* **Combine with portfolios** — Encourage learners to add their certificates to their portfolio
-* **Extend certificates** — Ask your admin to enable the Custom Certificate plugin to unleash even more certificate templating power 
+* **Tetapkan ekspektasi yang jelas** — Beri tahu pelajar di awal kursus apa yang perlu mereka capai untuk memperoleh sertifikat
+* **Gunakan nama keterampilan yang bermakna** — Keterampilan harus menggambarkan apa yang dapat dilakukan pelajar, bukan hanya nama kursus
+* **Gabungkan dengan portofolio** — Dorong pelajar untuk menambahkan sertifikat mereka ke portofolio
+* **Perluas sertifikat** — Minta admin Anda untuk mengaktifkan plugin Custom Certificate untuk memanfaatkan kekuatan templating sertifikat yang lebih besar

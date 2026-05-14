@@ -1,26 +1,26 @@
-# Color Themes
+# Tema Warna
 
-Chamilo 2.0 introduces a color theme system that lets you customize the visual appearance of the platform.
+Chamilo 2.0 memperkenalkan sistem tema warna yang memungkinkan Anda menyesuaikan tampilan visual platform.
 
-## How Themes Work
+## Cara Kerja Tema
 
-Color themes define the palette used across the Chamilo interface — primary colors, accent colors, backgrounds, and text colors. A theme is associated to an access URL: in a single-URL portal it effectively becomes the global theme, and in a multi-URL setup each URL can have its own.
+Tema warna menentukan palet yang digunakan di seluruh antarmuka Chamilo — warna utama, warna aksen, latar belakang, dan warna teks. Sebuah tema dikaitkan dengan URL akses: pada portal dengan URL tunggal, tema ini secara efektif menjadi tema global, dan dalam pengaturan multi-URL, setiap URL dapat memiliki tema sendiri.
 
-## Applying a Theme
+## Menerapkan Tema
 
-![The color themes page showing available themes with preview swatches and an Apply button](/.gitbook/assets/admin-color-themes.png)
+![Halaman tema warna yang menampilkan tema yang tersedia dengan contoh warna dan tombol Terapkan](/.gitbook/assets/admin-color-themes.png)
 
-1. From the administration panel, navigate to **Color themes**
-2. Browse the available themes
-3. Select a theme and click **Apply**
-4. The theme is immediately applied to the platform
+1. Dari panel administrasi, navigasikan ke **Tema Warna**
+2. Telusuri tema yang tersedia
+3. Pilih tema dan klik **Terapkan**
+4. Tema akan segera diterapkan pada platform
 
-## Per-URL Themes
+## Tema per URL
 
-In a multi-URL setup, each access URL can have its own color theme. This allows different portals to have distinct visual identities while sharing the same Chamilo installation.
+Dalam pengaturan multi-URL, setiap URL akses dapat memiliki tema warna sendiri. Hal ini memungkinkan portal yang berbeda memiliki identitas visual yang berbeda sambil menggunakan instalasi Chamilo yang sama.
 
 ## Tips
 
-* **Match your brand** — Choose or customize a theme that matches your organization's brand colors
-* **Test readability** — After applying a theme, check that text is readable against background colors, especially in high-contrast situations
-* **Consider accessibility** — Ensure sufficient color contrast for users with visual impairments
+* **Sesuaikan dengan merek Anda** — Pilih atau sesuaikan tema yang sesuai dengan warna merek organisasi Anda
+* **Uji keterbacaan** — Setelah menerapkan tema, periksa apakah teks dapat dibaca dengan baik terhadap warna latar belakang, terutama dalam situasi kontras tinggi
+* **Pertimbangkan aksesibilitas** — Pastikan kontras warna yang cukup untuk pengguna dengan gangguan penglihatan

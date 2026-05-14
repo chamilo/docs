@@ -1,160 +1,161 @@
-# Display Settings
+# Pengaturan Tampilan
 
-How the platform is displayed to users — homepage layout, gravatar, menus, branding behaviour and similar visual preferences.
+Bagaimana platform ditampilkan kepada pengguna — tata letak halaman utama, gravatar, menu, perilaku merek, dan preferensi visual serupa.
 
-Access these settings under **Administration > Configuration settings > Display**. This category contains **24 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+Akses pengaturan ini di bawah **Administrasi > Pengaturan konfigurasi > Tampilan**. Kategori ini berisi **24 pengaturan**, yang tercantum di bawah ini dengan judul dan komentar yang disertakan dalam fixture pengaturan platform (`SettingsCurrentFixtures.php`).
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> Nama variabel dalam kode ditampilkan dalam monospace. Gunakan saat membuat skrip melalui API atau ketika Anda perlu mengubah pengaturan tersebut pada tingkat global dengan mengedit [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
 
-## Settings
+## Pengaturan
 
 ### `accessibility_font_resize`
 
-**Font resize accessibility feature**
+**Fitur aksesibilitas pengubahan ukuran font**
 
-Enable this option to show a set of font resize options on the top-right side of your campus. This will allow visually impaired to read their course contents more easily.
+Aktifkan opsi ini untuk menampilkan serangkaian opsi pengubahan ukuran font di sisi kanan atas kampus Anda. Ini akan memungkinkan pengguna dengan gangguan penglihatan untuk membaca konten kursus mereka dengan lebih mudah.
 
 *Default: `false`*
 
 ### `display_categories_on_homepage`
 
-**Display categories on home page**
+**Tampilkan kategori di halaman utama**
 
-This option will display or hide courses categories on the portal home page
+Opsi ini akan menampilkan atau menyembunyikan kategori kursus di halaman utama portal.
 
 *Default: `false`*
 
 ### `enable_help_link`
 
-**Enable help link**
+**Aktifkan tautan bantuan**
 
-The Help link is located in the top right part of the screen
+Tautan Bantuan terletak di bagian kanan atas layar.
 
 *Default: `true`*
 
 ### `gravatar_enabled`
 
-**Gravatar user pictures**
+**Gambar pengguna Gravatar**
 
-Enable this option to search into the Gravatar repository for pictures of the current user, if the user hasn't defined a picture locally. This is great to auto-fill pictures on your site, in particular if your users are active internet users. Gravatar pictures can be configured easily, based on the e-mail address of a user, at http://en.gravatar.com/
+Aktifkan opsi ini untuk mencari gambar pengguna saat ini di repositori Gravatar, jika pengguna belum menentukan gambar secara lokal. Ini sangat berguna untuk mengisi gambar secara otomatis di situs Anda, terutama jika pengguna Anda adalah pengguna internet aktif. Gambar Gravatar dapat dikonfigurasi dengan mudah berdasarkan alamat email pengguna di http://en.gravatar.com/
 
 *Default: `false`*
 
 ### `gravatar_type`
 
-**Gravatar avatar type**
+**Tipe avatar Gravatar**
 
-If the Gravatar option is enabled and the user doesn't have a picture configured on Gravatar, this option allows you to choose the type of avatar that Gravatar will generate for each user. Check <a href='http://en.gravatar.com/site/implement/images#default-image'>http://en.gravatar.com/site/implement/images#default-image</a> for avatar types examples.
+Jika opsi Gravatar diaktifkan dan pengguna tidak memiliki gambar yang dikonfigurasi di Gravatar, opsi ini memungkinkan Anda memilih tipe avatar yang akan dihasilkan Gravatar untuk setiap pengguna. Periksa <a href='http://en.gravatar.com/site/implement/images#default-image'>http://en.gravatar.com/site/implement/images#default-image</a> untuk contoh tipe avatar.
 
 *Default: `mm`*
 
 ### `hide_complete_name_in_whoisonline`
 
-**Hide the complete username in 'who is online'**
+**Sembunyikan nama lengkap pengguna di 'siapa yang online'**
 
-The 'who is online' page (if enabled) will show a picture and a name for each user currently online. Enable this option to hide the names.
+Halaman 'siapa yang online' (jika diaktifkan) akan menampilkan gambar dan nama untuk setiap pengguna yang sedang online. Aktifkan opsi ini untuk menyembunyikan nama.
 
 *Default: `false`*
 
 ### `hide_logout_button`
 
-**Hide logout button**
+**Sembunyikan tombol logout**
 
-Hide the logout button. This is usually only interesting when using an external login/logout method, for example when using Single Sign On of some sort.
+Sembunyikan tombol logout. Ini biasanya hanya berguna ketika menggunakan metode login/logout eksternal, misalnya saat menggunakan Single Sign On.
 
 *Default: `false`*
 
 ### `hide_main_navigation_menu`
 
-**Hide main navigation menu**
+**Sembunyikan menu navigasi utama**
 
-When using Chamilo for a specific purpose (like one massive online exam), you might want to reduce distraction even more by removing the side menu.
+Saat menggunakan Chamilo untuk tujuan tertentu (seperti ujian online besar-besaran), Anda mungkin ingin mengurangi gangguan lebih lanjut dengan menghapus menu samping.
 
 *Default: `false`*
 
 ### `hide_social_media_links`
 
-**Hide social media links**
+**Sembunyikan tautan media sosial**
 
-Some pages allow you to promote the portal or a course on social networks. Enable this setting to remove the links.
+Beberapa halaman memungkinkan Anda mempromosikan portal atau kursus di jejaring sosial. Aktifkan pengaturan ini untuk menghapus tautan tersebut.
 
 *Default: `false`*
 
 ### `order_user_list_by_official_code`
 
-**Order users by official code**
+**Urutkan pengguna berdasarkan kode resmi**
 
-Use the 'official code' to sort most students list on the platform, instead of their lastname or firstname.
+Gunakan 'kode resmi' untuk mengurutkan daftar siswa di platform, bukan berdasarkan nama belakang atau nama depan mereka.
 
 *Default: `false`*
 
 ### `pdf_logo_header`
 
-**PDF header logo**
+**Logo header PDF**
 
-Whether to use the image at var/themes/[your-theme]/images/pdf_logo_header.png as the PDF header logo for all PDF exports (instead of the normal portal logo)
+Apakah akan menggunakan gambar di var/themes/[your-theme]/images/pdf_logo_header.png sebagai logo header PDF untuk semua ekspor PDF (bukan logo portal biasa).
 
 ### `show_admin_toolbar`
 
-**Show admin toolbar**
+**Tampilkan toolbar admin**
 
-Shows a global toolbar on top of the page to the designated user roles. This toolbar, very similar to Wordpress and Google's black toolbars, can really speed up complicated actions and improve the space you have available for the learning content, but it might be confusing for some users
+Menampilkan toolbar global di bagian atas halaman untuk peran pengguna yang ditunjuk. Toolbar ini, sangat mirip dengan toolbar Wordpress dan Google yang berwarna hitam, dapat mempercepat tindakan yang rumit dan meningkatkan ruang yang tersedia untuk konten pembelajaran, tetapi mungkin membingungkan bagi beberapa pengguna.
 
 *Default: `do_not_show`*
 
 ### `show_back_link_on_top_of_tree`
 
-**Show back links from categories/courses**
+**Tampilkan tautan kembali dari kategori/kursus**
 
-Show a link to go back in the courses hierarchy. A link is available at the bottom of the list anyway.
+Tampilkan tautan untuk kembali ke hierarki kursus. Tautan tersedia di bagian bawah daftar.
 
 *Default: `false`*
 
 ### `show_closed_courses`
 
-**Display closed courses on login page and portal start page?**
+**Tampilkan kursus tertutup di halaman login dan halaman awal portal?**
 
-Display closed courses on the login page and courses start page? On the portal start page an icon will appear next to the courses to quickly subscribe to each courses. This will only appear on the portal's start page when the user is logged in and when the user is not subscribed to the portal yet.
+Tampilkan kursus tertutup di halaman login dan halaman awal kursus? Di halaman awal portal, ikon akan muncul di samping kursus untuk mendaftar dengan cepat ke setiap kursus. Ini hanya akan muncul di halaman awal portal ketika pengguna sudah login dan ketika pengguna belum mendaftar ke portal.
 
 *Default: `false`*
 
 ### `show_email_addresses`
 
-**Show email addresses**
+**Tampilkan alamat email**
 
-Show email addresses to users
+Tampilkan alamat email kepada pengguna.
 
 *Default: `false`*
 
 ### `show_empty_course_categories`
 
-**Show empty courses categories**
+**Tampilkan kategori kursus kosong**
 
-Show the categories of courses on the homepage, even if they're empty
+Tampilkan kategori kursus di halaman utama, meskipun kategori tersebut kosong.
 
 *Default: `true`*
 
 ### `show_hot_courses`
 
-**Show hot courses**
+**Tampilkan kursus populer**
 
-The hot courses list will be added in the index page
+Daftar kursus populer akan ditambahkan di halaman indeks.
 
 *Default: `true`*
 
 ### `show_number_of_courses`
 
-**Show courses number**
+**Tampilkan jumlah kursus**
 
-Show the number of courses in each category in the courses categories on the homepage
+Tampilkan jumlah kursus di setiap kategori dalam kategori kursus di halaman utama.
 
 *Default: `false`*
 
+---
 ### `show_tabs`
 
-**Main menu entries**
+**Entri Menu Utama**
 
-Check the entrie you want to see appear in the main menu
+Centang entri yang ingin Anda tampilkan di menu utama.
 
 *Default:*
 ```json
@@ -163,40 +164,40 @@ Check the entrie you want to see appear in the main menu
 
 ### `show_tabs_per_role`
 
-**Main menu entries per role**
+**Entri Menu Utama per Peran**
 
-Define header tabs visibility per role.
+Tentukan visibilitas tab header berdasarkan peran.
 
 *Default: `{}`*
 
 ### `showonline`
 
-**Who's Online**
+**Siapa yang Online**
 
-Display the number of persons that are online?
+Menampilkan jumlah orang yang sedang online?
 
 *Default: `world`*
 
 ### `table_default_row`
 
-**Default number of table rows**
+**Jumlah Baris Tabel Default**
 
-How many rows should be shown in all tables by default.
+Berapa banyak baris yang harus ditampilkan di semua tabel secara default.
 
 *Default: `20`*
 
 ### `table_row_list`
 
-**Default offered pagination numbers in tables**
+**Angka Paginasi Default yang Ditawarkan di Tabel**
 
-Set the options you want to appear in the navigation around a table to show less or more rows on one page. e.g. [50, 100, 200, 500].
+Tetapkan opsi yang ingin muncul di navigasi sekitar tabel untuk menampilkan lebih sedikit atau lebih banyak baris pada satu halaman. Contoh: [50, 100, 200, 500].
 
 *Default: `[10,20,50,100]`*
 
 ### `time_limit_whosonline`
 
-**Time limit on Who Is Online**
+**Batas Waktu untuk Siapa yang Online**
 
-This time limit defines for how many minutes after his last action a user will be considered *online*
+Batas waktu ini menentukan berapa menit setelah tindakan terakhirnya seorang pengguna akan dianggap *online*.
 
 *Default: `30`*

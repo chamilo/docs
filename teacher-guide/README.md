@@ -1,31 +1,31 @@
-# Teacher Guide
+# Panduan Guru
 
-Welcome to the Chamilo 2.0 Teacher Guide. This guide is designed for instructors, trainers, and anyone responsible for creating and delivering learning content through the Chamilo platform.
+Selamat datang di Panduan Guru Chamilo 2.0. Panduan ini dirancang untuk instruktur, pelatih, dan siapa saja yang bertanggung jawab untuk membuat dan menyampaikan konten pembelajaran melalui platform Chamilo.
 
-Whether you are setting up your first online course or managing a complex training program, this guide will walk you through every feature available to you as a teacher.
+Baik Anda sedang menyiapkan kursus online pertama Anda atau mengelola program pelatihan yang kompleks, panduan ini akan memandu Anda melalui setiap fitur yang tersedia bagi Anda sebagai seorang guru.
 
-## What You Can Do with Chamilo
+## Apa yang Bisa Anda Lakukan dengan Chamilo
 
-As a teacher in Chamilo, you can:
+Sebagai guru di Chamilo, Anda dapat:
 
-* **Create and organize courses** with a flexible homepage and customizable tools
-* **Add content** — upload documents, create learning paths, build glossaries, and link to external resources
-* **Assess your learners** — design exercises with multiple question types, collect assignments, run surveys, and manage grades
-* **Collaborate** — set up forums, group work, wikis, blogs, and live video sessions
-* **Track progress** — monitor learner activity, generate reports, and award certificates
-* **Use AI tools** — generate exercises and learning paths automatically, and get AI-assisted grading
+* **Membuat dan mengatur kursus** dengan beranda yang fleksibel dan alat yang dapat disesuaikan
+* **Menambahkan konten** — mengunggah dokumen, membuat jalur pembelajaran, membangun glosarium, dan menautkan ke sumber daya eksternal
+* **Menilai peserta didik Anda** — merancang latihan dengan berbagai jenis pertanyaan, mengumpulkan tugas, melakukan survei, dan mengelola nilai
+* **Berkolaborasi** — menyiapkan forum, kerja kelompok, wiki, blog, dan sesi video langsung
+* **Melacak kemajuan** — memantau aktivitas peserta didik, menghasilkan laporan, dan memberikan sertifikat
+* **Menggunakan alat AI** — menghasilkan latihan dan jalur pembelajaran secara otomatis, serta mendapatkan penilaian yang dibantu AI
 
-## How This Guide Is Organized
+## Bagaimana Panduan Ini Disusun
 
-This guide follows the natural workflow of building and running a course:
+Panduan ini mengikuti alur kerja alami dalam membangun dan menjalankan kursus:
 
-1. **Getting Started** — Log in, navigate the interface, and set up your profile
-2. **Creating Your Course** — Create a new course, configure its settings, and customize the homepage
-3. **Adding Content** — Upload documents, organize learning paths, and manage resources
-4. **Assessing Learners** — Build tests, collect assignments, run surveys, and set up the gradebook
-5. **Collaboration and Communication** — Enable forums, chat, groups, wiki, and video conferencing
-6. **Tracking and Reporting** — Monitor learner progress and generate reports
-7. **AI Tools** — Use AI-powered features to generate content and assist with grading
-8. **Additional Tools** — Agenda, notebook, portfolio, and more
+1. **Memulai** — Masuk, menavigasi antarmuka, dan menyiapkan profil Anda
+2. **Membuat Kursus Anda** — Membuat kursus baru, mengatur pengaturannya, dan menyesuaikan beranda
+3. **Menambahkan Konten** — Mengunggah dokumen, mengatur jalur pembelajaran, dan mengelola sumber daya
+4. **Menilai Peserta Didik** — Membuat tes, mengumpulkan tugas, melakukan survei, dan menyiapkan buku nilai
+5. **Kolaborasi dan Komunikasi** — Mengaktifkan forum, obrolan, kelompok, wiki, dan konferensi video
+6. **Pelacakan dan Pelaporan** — Memantau kemajuan peserta didik dan menghasilkan laporan
+7. **Alat AI** — Menggunakan fitur berbasis AI untuk menghasilkan konten dan membantu penilaian
+8. **Alat Tambahan** — Agenda, buku catatan, portofolio, dan lainnya
 
-Let's get started.
+Mari kita mulai.

@@ -1,34 +1,34 @@
-# Chat
+# Obrolan
 
-The chat tool provides real-time text messaging within a course. It is useful for quick communication, live Q&A sessions, or informal discussions.
+Alat obrolan menyediakan fungsi pesan teks secara langsung di dalam kursus. Alat ini sangat berguna untuk komunikasi cepat, sesi tanya jawab langsung, atau diskusi informal.
 
-## Using the Chat
+## Menggunakan Obrolan
 
-1. Open the **Chat** tool from the course homepage
-2. Type your message in the text field at the bottom
-3. Press **Enter** or click the send button to post
+1. Buka alat **Obrolan** di halaman utama kursus
+2. Ketik pesan Anda di kotak teks di bagian bawah
+3. Tekan tombol **Enter** atau klik tombol kirim untuk memposting pesan
 
-All enrolled users who are currently in the chat room can see messages in real time.
+Semua pengguna terdaftar yang saat ini berada di ruang obrolan dapat melihat pesan secara langsung.
 
-## Chat Features
+## Fitur Obrolan
 
-* **Real-time messaging** — Messages appear instantly for all participants
-* **Message history** — Previous messages are visible when you enter the chat
-* **User presence** — See who is currently in the chat room
+* **Pesan Langsung** — Pesan akan segera ditampilkan kepada semua peserta
+* **Riwayat Pesan** — Anda dapat melihat pesan sebelumnya saat masuk ke obrolan
+* **Status Online Pengguna** — Melihat siapa saja yang saat ini berada di ruang obrolan
 
-## As a Teacher
+## Sebagai Pengajar
 
-As the course teacher, you can:
+Sebagai pengajar kursus, Anda dapat:
 
-* **Monitor discussions** — Review chat history to track learner engagement
-* **Find chat archives in Documents** — The chat tool automatically mirrors messages into HTML files in the Documents tool, organised by day and by scope (course / session / group), so the conversation persists beyond the live session
+* **Memantau Diskusi** — Melihat riwayat obrolan untuk melacak partisipasi siswa
+* **Mencari Arsip Obrolan di Dokumen** — Alat obrolan secara otomatis menyimpan pesan sebagai file HTML, yang disimpan di alat Dokumen, diatur berdasarkan tanggal dan cakupan (kursus/sesi/kelompok), sehingga percakapan tetap tersedia setelah sesi langsung berakhir
 
-If the platform setting "restrict chat to coach" is enabled by the administrator, only coaches can chat with learners; otherwise everyone enrolled in the course can participate.
+Jika opsi "Batasi obrolan hanya untuk mentor" diaktifkan dalam pengaturan platform (ditetapkan oleh administrator), maka hanya mentor yang dapat mengobrol dengan siswa; jika tidak, semua pengguna terdaftar di kursus dapat berpartisipasi.
 
-## Tips for Using Chat Effectively
+## Saran untuk Menggunakan Obrolan secara Efektif
 
-* **Schedule chat sessions** — Let learners know in advance when you will be available for live chat (use the Agenda tool)
-* **Set ground rules** — Establish expectations for respectful communication
-* **Use for quick questions** — Chat works best for short exchanges; use the Forum for longer, structured discussions
+* **Jadwalkan Waktu Obrolan** — Beri tahu siswa sebelumnya kapan Anda akan online untuk obrolan langsung (gunakan alat Kalender)
+* **Tetapkan Aturan Dasar** — Buat ekspektasi komunikasi yang menghormati satu sama lain
+* **Gunakan untuk Pertanyaan Cepat** — Obrolan paling cocok untuk komunikasi singkat; untuk diskusi yang lebih panjang dan terstruktur, gunakan Forum
 
-> If your platform has video conferencing configured (BigBlueButton or Zoom), consider using that for live sessions where voice and video would be more effective. See [Video Conferencing](video-conferencing.md).
+> Jika platform Anda dikonfigurasi dengan fitur konferensi video (BigBlueButton atau Zoom), pertimbangkan untuk menggunakannya pada sesi langsung yang membutuhkan suara dan video. Lihat [Konferensi Video](video-conferencing.md).

@@ -1,115 +1,116 @@
-# Project Structure
+# Struktur Proyek
 
-## Top-Level Directories
+## Direktori Tingkat Atas
 
 ```
 chamilo/
-├── assets/          # Frontend source code
-│   ├── vue/         # Vue 3 application (components, views, router, stores)
-│   ├── css/         # SCSS stylesheets
-│   └── js/          # Legacy JavaScript
-├── config/          # Symfony configuration (routes, services, packages)
-├── public/          # Web root (index.php, legacy PHP pages, plugins)
-│   ├── main/        # Legacy PHP modules (one subdirectory per tool)
-│   └── plugin/      # Bundled and custom plugins
-├── src/             # PHP source code (Symfony bundles)
-│   ├── CoreBundle/  # Core platform logic
-│   ├── CourseBundle/# Course-specific features
-│   └── LtiBundle/   # LTI 1.3 integration
-├── templates/       # Twig templates
-├── var/             # Cache, logs, uploads (generated)
-├── vendor/          # Composer dependencies (generated)
-├── node_modules/    # npm dependencies (generated)
-└── translations/    # Translation files
+├── assets/          # Kode sumber frontend
+│   ├── vue/         # Aplikasi Vue 3 (komponen, tampilan, router, store)
+│   ├── css/         # Lembar gaya SCSS
+│   └── js/          # JavaScript lama
+├── config/          # Konfigurasi Symfony (rute, layanan, paket)
+├── public/          # Akar web (index.php, halaman PHP lama, plugin)
+│   ├── main/        # Modul PHP lama (satu subdirektori per alat)
+│   └── plugin/      # Plugin bawaan dan kustom
+├── src/             # Kode sumber PHP (bundle Symfony)
+│   ├── CoreBundle/  # Logika inti platform
+│   ├── CourseBundle/# Fitur khusus kursus
+│   └── LtiBundle/   # Integrasi LTI 1.3
+├── templates/       # Templat Twig
+├── var/             # Cache, log, unggahan (dibuat otomatis)
+├── vendor/          # Dependensi Composer (dibuat otomatis)
+├── node_modules/    # Dependensi npm (dibuat otomatis)
+└── translations/    # Berkas terjemahan
 ```
 
-## Source Code (`src/`)
+## Kode Sumber (`src/`)
 
 ### CoreBundle
 
-The largest bundle. Notable subdirectories:
+Bundle terbesar. Subdirektori yang penting:
 
-| Directory | Contents |
-|-----------|----------|
-| `Entity/` | Doctrine entities (User, Course, Session, ResourceNode, etc.) |
-| `Controller/` | Admin, API action, and page controllers (the Api/ subfolder holds custom API Platform actions) |
-| `Settings/` | Settings schema files (platform configuration) |
-| `Repository/` | Doctrine repositories |
-| `AiProvider/` | AI provider implementations (OpenAI, Gemini, Mistral, DeepSeek, Grok) |
-| `Tool/` | Course tool definitions |
-| `Security/` | Voters, authenticators, authorization |
-| `EventListener/` | Event listeners |
-| `EventSubscriber/` | Event subscribers |
-| `Command/` | Symfony console commands |
-| `Migrations/` | Database migrations |
-| `Twig/` | Twig extensions |
-| `Storage/` | Flysystem storage adapters |
+| Direktori | Isi |
+|-----------|-----|
+| `Entity/` | Entitas Doctrine (User, Course, Session, ResourceNode, dll.) |
+| `Controller/` | Pengontrol administrasi, aksi API, dan halaman (subfolder Api/ berisi aksi kustom API Platform) |
+| `Settings/` | Berkas skema pengaturan (konfigurasi platform) |
+| `Repository/` | Repositori Doctrine |
+| `AiProvider/` | Implementasi penyedia AI (OpenAI, Gemini, Mistral, DeepSeek, Grok) |
+| `Tool/` | Definisi alat kursus |
+| `Security/` | Voters, autentikator, otorisasi |
+| `EventListener/` | Pendengar acara |
+| `EventSubscriber/` | Pelanggan acara |
+| `Command/` | Perintah konsol Symfony |
+| `Migrations/` | Migrasi basis data |
+| `Twig/` | Ekstensi Twig |
+| `Storage/` | Adaptor penyimpanan Flysystem |
 
 ### CourseBundle
 
-Course-specific entities and logic:
+Entitas dan logika khusus kursus:
 
-| Directory | Contents |
-|-----------|----------|
-| `Entity/` | Course-content entities (CDocument, CQuiz, CLp, CForum, CStudentPublication, etc.) |
-| `Controller/` | Course controllers |
-| `Settings/` | Course-level settings schemas |
-| `Component/CourseCopy/` | Course import/export (Common Cartridge, Moodle) |
+| Direktori | Isi |
+|-----------|-----|
+| `Entity/` | Entitas konten kursus (CDocument, CQuiz, CLp, CForum, CStudentPublication, dll.) |
+| `Controller/` | Pengontrol kursus |
+| `Settings/` | Skema pengaturan di tingkat kursus |
+| `Component/CourseCopy/` | Impor/ekspor kursus (Common Cartridge, Moodle) |
 
 ### LtiBundle
 
-LTI 1.3 integration:
+Integrasi LTI 1.3:
 
-| Directory | Contents |
-|-----------|----------|
-| `Entity/` | LTI platform, tool, and deployment entities |
-| `Controller/` | LTI launch and configuration endpoints |
+| Direktori | Isi |
+|-----------|-----|
+| `Entity/` | Entitas platform, alat, dan penyebaran LTI |
+| `Controller/` | Titik akhir peluncuran dan konfigurasi LTI |
 
+---
 ## Frontend (`assets/vue/`)
 
 ```
 assets/vue/
-├── main.js              # Application entry point
-├── main_installer.js    # Installer entry point
-├── components/          # Reusable Vue components
-│   ├── accessurl/       # Multi-URL (portal) components
-│   ├── admin/           # Admin-specific components
-│   ├── assignments/     # Assignment forms and lists
-│   ├── attendance/      # Attendance sheet components
-│   ├── basecomponents/  # Shared base components (BaseButton, BaseIcon, BaseTable, BaseTinyEditor, etc.) and ChamiloIcons.js
-│   ├── blog/            # Blog components
-│   ├── branch/          # Branch/network campus components
-│   ├── ccalendarevent/  # Course calendar event components
-│   ├── chat/            # Chat and AI tutor
-│   ├── course/          # Course cards, catalogs, forms
-│   ├── coursecategory/  # Course category components
-│   ├── coursemaintenance/ # Course backup/restore components
-│   ├── ctoolintro/      # Course tool introduction components
-│   ├── documents/       # Document management components
-│   ├── dropbox/         # Dropbox (file exchange) components
-│   ├── filemanager/     # File browser components
-│   ├── glossary/        # Glossary components
-│   ├── installer/       # Installation wizard
-│   ├── layout/          # Sidebar, Topbar, shell layout
-│   ├── links/           # External links components
-│   ├── login/           # Login form components
-│   ├── lp/              # Learning path components
-│   ├── message/         # Messaging components
-│   ├── page/            # Static page components
-│   ├── pageLayout/      # Page layout wrapper components
-│   ├── personalfile/    # Personal file space components
-│   ├── platform/        # Platform-level UI components
-│   ├── resource_links/  # Resource link management components
-│   ├── room/            # Virtual room components
-│   ├── session/         # Session (learning campaign) components
-│   ├── sessionadmin/    # Session administration components
-│   ├── skill/           # Skills and competencies components
-│   ├── social/          # Social network components
-│   ├── systemannouncement/ # System announcement components
-│   ├── user/            # User profile and management components
-│   ├── usergroup/       # User group (class) components
-│   └── userreluser/     # User relationship (friend/follow) components
-├── views/               # Page-level Vue views (mirrors components/ structure)
+├── main.js              # Titik masuk aplikasi
+├── main_installer.js    # Titik masuk penginstal
+├── components/          # Komponen Vue yang dapat digunakan kembali
+│   ├── accessurl/       # Komponen multi-URL (portal)
+│   ├── admin/           # Komponen khusus untuk administrator
+│   ├── assignments/     # Formulir dan daftar tugas
+│   ├── attendance/      # Komponen lembar kehadiran
+│   ├── basecomponents/  # Komponen dasar yang dibagikan (BaseButton, BaseIcon, BaseTable, BaseTinyEditor, dll.) dan ChamiloIcons.js
+│   ├── blog/            # Komponen blog
+│   ├── branch/          # Komponen cabang/kampus jaringan
+│   ├── ccalendarevent/  # Komponen acara kalender kursus
+│   ├── chat/            # Obrolan dan tutor AI
+│   ├── course/          # Kartu kursus, katalog, formulir
+│   ├── coursecategory/  # Komponen kategori kursus
+│   ├── coursemaintenance/ # Komponen cadangan/pemulihan kursus
+│   ├── ctoolintro/      # Komponen pengenalan alat kursus
+│   ├── documents/       # Komponen manajemen dokumen
+│   ├── dropbox/         # Komponen Dropbox (pertukaran berkas)
+│   ├── filemanager/     # Komponen penjelajah berkas
+│   ├── glossary/        # Komponen glosarium
+│   ├── installer/       # Asisten instalasi
+│   ├── layout/          # Bilah samping, bilah atas, tata letak shell
+│   ├── links/           # Komponen tautan eksternal
+│   ├── login/           # Komponen formulir masuk
+│   ├── lp/              # Komponen jalur pembelajaran
+│   ├── message/         # Komponen pesan
+│   ├── page/            # Komponen halaman statis
+│   ├── pageLayout/      # Komponen pembungkus tata letak halaman
+│   ├── personalfile/    # Komponen ruang berkas pribadi
+│   ├── platform/        # Komponen UI pada tingkat platform
+│   ├── resource_links/  # Komponen manajemen tautan sumber daya
+│   ├── room/            # Komponen ruang virtual
+│   ├── session/         # Komponen sesi (kampanye pembelajaran)
+│   ├── sessionadmin/    # Komponen administrasi sesi
+│   ├── skill/           # Komponen keterampilan dan kompetensi
+│   ├── social/          # Komponen jejaring sosial
+│   ├── systemannouncement/ # Komponen pengumuman sistem
+│   ├── user/            # Komponen profil dan manajemen pengguna
+│   ├── usergroup/       # Komponen grup pengguna (kelas)
+│   └── userreluser/     # Komponen hubungan pengguna (teman/mengikuti)
+├── views/               # Tampilan Vue pada tingkat halaman (mencerminkan struktur components/)
 │   ├── accessurl/       ├── account/         ├── admin/
 │   ├── assignments/     ├── attendance/      ├── blog/
 │   ├── branch/          ├── buycourses/      ├── ccalendarevent/
@@ -121,132 +122,135 @@ assets/vue/
 │   ├── sessionadmin/    ├── skill/           ├── social/
 │   ├── terms/           ├── user/            ├── usergroup/
 │   └── userreluser/
-├── router/              # Vue Router (index.js + one module per feature area)
-├── store/               # Pinia stores
+├── router/              # Vue Router (index.js + satu modul per area fungsionalitas)
+├── store/               # Store Pinia
 │   └── modules/         # crud.js, notifications.js, ux.js
-├── composables/         # Shared composition functions (per-feature subdirectories)
-├── services/            # API service layer (one file per entity/domain)
-├── utils/               # Utility helpers (dates, hydra, fetch, sanitizeHtml, etc.)
-├── config/              # Runtime configuration (api.js, env.js)
-├── constants/           # Shared constants
-│   └── entity/          # Entity-specific constants (session, message, extrafield, etc.)
-├── layouts/             # Top-level layout components (MyCourses.vue)
-├── pages/               # Standalone page components (Home, Login, Faq, Demo)
-├── mixins/              # Legacy Vue 2-style mixins (ListMixin, CreateMixin, etc.)
-├── hooks/               # Composable hooks (useSidebar, useState)
-├── plugins/             # Vue plugin registrations (httpErrors, vuetify)
-├── validators/          # Vuelidate custom validators
-└── error/               # Error boundary components
+├── composables/         # Fungsi komposisi yang dibagikan (subdirektori berdasarkan fungsionalitas)
+├── services/            # Lapisan layanan API (satu berkas per entitas/domain)
+├── utils/               # Pembantu utilitas (tanggal, hydra, fetch, sanitizeHtml, dll.)
+├── config/              # Konfigurasi saat runtime (api.js, env.js)
+├── constants/           # Konstanta yang dibagikan
+│   └── entity/          # Konstanta spesifik entitas (sesi, pesan, bidang tambahan, dll.)
+├── layouts/             # Komponen tata letak tingkat tinggi (MyCourses.vue)
+├── pages/               # Komponen halaman mandiri (Home, Login, Faq, Demo)
+├── mixins/              # Mixin gaya Vue 2 lama (ListMixin, CreateMixin, dll.)
+├── hooks/               # Hook yang dapat dikomposisi (useSidebar, useState)
+├── plugins/             # Pendaftaran plugin Vue (httpErrors, vuetify)
+├── validators/          # Validator kustom Vuelidate
+└── error/               # Komponen batas kesalahan
 ```
 
-## Configuration (`config/`)
+---
+## Konfigurasi (`config/`)
 
 ```
 config/
-├── packages/            # Bundle and framework configuration (one YAML file per package)
-│   ├── security.yaml    # Role hierarchy, firewalls, access control
-│   ├── doctrine.yaml    # Doctrine ORM and DBAL settings
-│   ├── api_platform.yaml# API Platform configuration
-│   ├── framework.yaml   # Core Symfony settings
-│   ├── lexik_jwt_authentication.yaml  # JWT token settings
-│   ├── nelmio_cors.yaml # CORS headers for API consumers
-│   ├── oneup_flysystem.yaml  # Cloud storage adapters
-│   ├── webpack_encore.yaml   # Webpack Encore integration
-│   ├── ... (30+ package files)
-│   ├── dev/             # Development-only overrides (web profiler, debug, routing)
-│   ├── prod/            # Production-only overrides (currently empty placeholder)
-│   └── test/            # Test-environment overrides (JWT, validator, web profiler)
-├── routes/              # Route definitions
-│   ├── api_platform.yaml     # API Platform route prefix
-│   ├── attributes.yaml       # Controller annotation-based routes
-│   ├── fos_js_routing.yaml   # FOS JS Routing exposure
-│   ├── legacy.yaml           # Routes for legacy PHP pages under public/main/
-│   ├── security.yaml         # Login/logout/OAuth2 routes
-│   ├── dev/                  # Development-only routes (profiler, Maker bundle)
-│   └── test/                 # Test-only route overrides
-├── jwt/                 # JWT key pair (private/public keys)
-└── jwt-test/            # JWT keys for the test environment
+├── packages/            # Konfigurasi paket dan framework (satu file YAML per paket)
+│   ├── security.yaml    # Hierarki peran, firewall, kontrol akses
+│   ├── doctrine.yaml    # Pengaturan Doctrine ORM dan DBAL
+│   ├── api_platform.yaml# Konfigurasi API Platform
+│   ├── framework.yaml   # Pengaturan utama Symfony
+│   ├── lexik_jwt_authentication.yaml  # Pengaturan token JWT
+│   ├── nelmio_cors.yaml # Header CORS untuk konsumen API
+│   ├── oneup_flysystem.yaml  # Adaptor penyimpanan cloud
+│   ├── webpack_encore.yaml   # Integrasi dengan Webpack Encore
+│   ├── ... (lebih dari 30 file paket)
+│   ├── dev/             # Penggantian khusus untuk pengembangan (web profiler, debug, routing)
+│   ├── prod/            # Penggantian khusus untuk produksi (saat ini hanya placeholder kosong)
+│   └── test/            # Penggantian untuk lingkungan pengujian (JWT, validator, web profiler)
+├── routes/              # Definisi rute
+│   ├── api_platform.yaml     # Awalan rute API Platform
+│   ├── attributes.yaml       # Rute berbasis anotasi controller
+│   ├── fos_js_routing.yaml   # Eksposur routing FOS JS
+│   ├── legacy.yaml           # Rute untuk halaman PHP lama di public/main/
+│   ├── security.yaml         # Rute login/logout/OAuth2
+│   ├── dev/                  # Rute khusus untuk pengembangan (profiler, Maker bundle)
+│   └── test/                 # Penggantian rute khusus untuk pengujian
+├── jwt/                 # Pasangan kunci JWT (kunci privat/publik)
+└── jwt-test/            # Kunci JWT untuk lingkungan pengujian
 ```
 
-Symfony automatically merges the base `packages/*.yaml` files with those in the matching environment subdirectory (`dev/`, `prod/`, or `test/`), so environment-specific files only need to override the values that differ.
+Symfony secara otomatis menggabungkan file dasar `packages/*.yaml` dengan file di subdirektori lingkungan yang sesuai (`dev/`, `prod/`, atau `test/`), sehingga file khusus lingkungan hanya perlu mengganti nilai yang berbeda.
 
-## Build Configuration
+## Konfigurasi Build
 
-| File | Purpose |
+| File | Tujuan |
 |------|---------|
-| `webpack.config.js` | Webpack Encore configuration (entries, loaders, plugins) |
-| `tailwind.config.js` | Tailwind CSS configuration (content paths, theme extensions, plugins) |
-| `tsconfig.json` | TypeScript configuration |
-| `eslint.config.mjs` | ESLint rules (flat config) |
-| `.prettierrc.json` | Prettier formatting rules |
+| `webpack.config.js` | Konfigurasi Webpack Encore (entri, loader, plugin) |
+| `tailwind.config.js` | Konfigurasi Tailwind CSS (jalur konten, ekstensi tema, plugin) |
+| `tsconfig.json` | Konfigurasi TypeScript |
+| `eslint.config.mjs` | Aturan ESLint (konfigurasi datar) |
+| `.prettierrc.json` | Aturan pemformatan Prettier |
 
-All files sit at the project root. PostCSS plugins (Tailwind + Autoprefixer) are configured inline inside `webpack.config.js` via `enablePostCssLoader()` — there is no standalone `postcss.config.js`. `webpack.config.js` reads `tailwind.config.js` indirectly through PostCSS, so changes to Tailwind's `content` or `theme` sections take effect on the next `yarn encore dev` / `yarn encore production` run.
+Semua file berada di root proyek. Plugin PostCSS (Tailwind + Autoprefixer) dikonfigurasi secara inline di dalam `webpack.config.js` melalui `enablePostCssLoader()` — tidak ada file terpisah `postcss.config.js`. File `webpack.config.js` membaca `tailwind.config.js` secara tidak langsung melalui PostCSS, sehingga perubahan pada bagian `content` atau `theme` di Tailwind akan berlaku pada eksekusi berikutnya dari `yarn encore dev` / `yarn encore production`.
 
-## Webpack Entry Points
+## Titik Masuk Webpack
 
-The build produces these bundles:
+Build menghasilkan paket-paket berikut:
 
 **JavaScript:**
-* `vue` — Main Vue 3 application (`assets/vue/main.js`)
-* `vue_installer` — Installation wizard (`assets/vue/main_installer.js`)
-* `legacy_app`, `legacy_exercise`, `legacy_lp`, `legacy_document` — Legacy JS for pages not yet migrated to Vue
+* `vue` — Aplikasi utama Vue 3 (`assets/vue/main.js`)
+* `vue_installer` — Panduan instalasi (`assets/vue/main_installer.js`)
+* `legacy_app`, `legacy_exercise`, `legacy_lp`, `legacy_document` — JS lama untuk halaman yang belum bermigrasi ke Vue
 
 **CSS:**
-* `app` — Main stylesheet (`assets/css/app.scss`)
-* Plus specialized sheets: `chat`, `document`, `editor`, `editor_content`, `markdown`, `print`, `responsive`, `scorm`
+* `app` — Lembar gaya utama (`assets/css/app.scss`)
+* Selain itu, lembar gaya khusus: `chat`, `document`, `editor`, `editor_content`, `markdown`, `print`, `responsive`, `scorm`
 
-## CSS Structure (`assets/css/`)
+---
+## Struktur CSS (`assets/css/`)
 
 ```
 assets/css/
-├── app.scss             # Entry point — imports Tailwind, the SCSS index, and third-party CSS
-├── _tailwind.scss       # Tailwind directives (@tailwind base / components / utilities)
-├── chat.scss            # Chat and AI tutor panel styles
-├── document.scss        # Document viewer styles
-├── editor.scss          # TinyMCE editor shell styles
-├── editor_content.scss  # Styles injected into the editor iframe body
-├── markdown.scss        # Markdown-rendered content styles
-├── print.scss           # Print stylesheet
-├── responsive.scss      # Responsive overrides
-├── scorm.scss           # SCORM player styles
-├── legacy/              # Styles for legacy PHP pages (e.g. frameReadyLoader.scss)
-└── scss/                # Modular SCSS partials
-    ├── index.scss           # Barrel file — imports all partials below
-    ├── abstracts/           # Mixins and shared functions
-    ├── settings/            # Design tokens (typography, component base)
-    ├── atoms/               # Per-component PrimeVue overrides (buttons, inputs, calendar, etc.)
-    ├── molecules/           # Small composed UI patterns (chips, toolbars, empty states)
-    ├── organisms/           # Larger feature areas (sidebar, datatable, dialog, LP panel, etc.)
-    ├── layout/              # Page skeleton partials (topbar, main container, breadcrumb)
-    ├── components/          # Legacy component-specific files (blog, exercise, social, skill, etc.)
-    └── libs/                # Third-party library overrides (FullCalendar, MediaElement.js)
+├── app.scss             # Titik masuk — mengimpor Tailwind, indeks SCSS, dan CSS pihak ketiga
+├── _tailwind.scss       # Direktif Tailwind (@tailwind base / components / utilities)
+├── chat.scss            # Gaya untuk panel obrolan dan tutor AI
+├── document.scss        # Gaya untuk penampil dokumen
+├── editor.scss          # Gaya untuk antarmuka editor TinyMCE
+├── editor_content.scss  # Gaya yang disuntikkan ke dalam tubuh iframe editor
+├── markdown.scss        # Gaya konten yang dirender dalam Markdown
+├── print.scss           # Lembar gaya untuk pencetakan
+├── responsive.scss      # Penimpaan responsif
+├── scorm.scss           # Gaya untuk pemutar SCORM
+├── legacy/              # Gaya untuk halaman PHP lama (mis.: frameReadyLoader.scss)
+└── scss/                # Bagian modular dari SCSS
+    ├── index.scss           # File barrel — mengimpor semua bagian di bawah ini
+    ├── abstracts/           # Mixin dan fungsi yang dibagikan
+    ├── settings/            # Token desain (tipografi, basis komponen)
+    ├── atoms/               # Penimpaan PrimeVue per komponen (tombol, input, kalender, dll.)
+    ├── molecules/           # Pola UI kecil yang tersusun (chip, bilah alat, status kosong)
+    ├── organisms/           # Area fungsionalitas yang lebih besar (bilah sisi, tabel data, dialog, panel LP, dll.)
+    ├── layout/              # Bagian kerangka halaman (bilah atas, wadah utama, breadcrumb)
+    ├── components/          # File spesifik komponen lama (blog, latihan, sosial, keterampilan, dll.)
+    └── libs/                # Penimpaan pustaka pihak ketiga (FullCalendar, MediaElement.js)
 ```
 
+---
 ### Tailwind CSS
 
-Tailwind is integrated via PostCSS. `assets/css/_tailwind.scss` emits the base, component, and utility layers; `assets/css/app.scss` imports it first so Tailwind utilities are available throughout all other partials. The Tailwind configuration — content paths for purging, theme extensions, and plugins — lives in `tailwind.config.js` at the project root (`/var/www/chamilo/tailwind.config.js`).
+Tailwind terintegrasi melalui PostCSS. File `assets/css/_tailwind.scss` menghasilkan lapisan dasar, komponen, dan utilitas; file `assets/css/app.scss` mengimpornya terlebih dahulu, sehingga utilitas Tailwind tersedia di semua file parsial lainnya. Konfigurasi Tailwind — jalur konten untuk pembersihan, ekstensi tema, dan plugin — terletak di `tailwind.config.js` di akar proyek (`/var/www/chamilo/tailwind.config.js`).
 
-Custom utility classes and component classes defined with `@layer` (visible in `app.scss`) follow Tailwind's layering convention so that user-defined classes respect the same specificity rules as the generated utilities.
+Kelas utilitas kustom dan kelas komponen yang didefinisikan dengan `@layer` (terlihat di `app.scss`) mengikuti konvensi lapisan Tailwind, sehingga kelas yang ditentukan pengguna menghormati aturan spesifisitas yang sama seperti utilitas yang dihasilkan.
 
-### Color Themes
+### Tema Warna
 
-Chamilo supports a color theming system that can be configured directly from the admin interface (**Admin > Color Themes**). Each saved theme writes its files into a dedicated directory under `var/themes/`:
+Chamilo mendukung sistem tema warna yang dapat dikonfigurasi langsung melalui antarmuka administrasi (**Admin > Tema Warna**). Setiap tema yang disimpan akan menyimpan file-nya di direktori khusus di bawah `var/themes/`:
 
 ```
 var/themes/
-└── [theme-name]/
-    ├── colors.css       # CSS custom properties for the full color palette
-    ├── default.css      # Optional additional custom CSS rules
-    ├── learnpath.css    # Learning path-specific overrides
-    ├── tiny-settings.js # TinyMCE editor color palette settings
-    └── images/          # Theme images (logo, favicon, backgrounds, PWA icons)
+└── [nama-tema]/
+    ├── colors.css       # Properti CSS kustom untuk palet warna lengkap
+    ├── default.css      # Aturan CSS kustom tambahan opsional
+    ├── learnpath.css    # Penimpaan khusus untuk jalur pembelajaran
+    ├── tiny-settings.js # Pengaturan palet warna editor TinyMCE
+    └── images/          # Gambar tema (logo, favicon, latar belakang, ikon PWA)
         ├── header-logo.png / header-logo.svg
         ├── favicon.ico
         ├── pwa-icons/   # icon-192.png, icon-512.png
-        └── ...          # Background images, admin block images, etc.
+        └── ...          # Gambar latar belakang, gambar blok administrasi, dll.
 ```
 
-`colors.css` defines CSS custom properties as space-separated RGB channel triplets rather than `rgb()` values, which allows Tailwind to compose opacity variants (e.g. `bg-primary/50`) without additional configuration:
+File `colors.css` mendefinisikan properti CSS kustom sebagai triplet kanal RGB yang dipisahkan oleh spasi, bukan nilai `rgb()`, yang memungkinkan Tailwind untuk menyusun varian opasitas (misalnya, `bg-primary/50`) tanpa konfigurasi tambahan:
 
 ```css
 :root {
@@ -256,4 +260,4 @@ var/themes/
 }
 ```
 
-The theme layer sits on top of the compiled Tailwind/SCSS bundle: the browser loads `colors.css` after the main stylesheet, so theme changes take effect immediately without a build step.
+Lapisan tema berada di atas paket Tailwind/SCSS yang dikompilasi: peramban memuat `colors.css` setelah lembar gaya utama, sehingga perubahan tema berlaku segera tanpa perlu langkah kompilasi.

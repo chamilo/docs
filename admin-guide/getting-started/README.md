@@ -1,25 +1,25 @@
-# Getting Started
+# Memulai
 
-This section introduces the Chamilo 2.0 administration interface and helps you get oriented.
+Bagian ini memperkenalkan antarmuka administrasi Chamilo 2.0 dan membantu Anda untuk memahami orientasinya.
 
-## Who Is an Administrator?
+## Siapa Itu Administrator?
 
-Chamilo has several levels of administrative roles:
+Chamilo memiliki beberapa tingkatan peran administratif:
 
-| Role | Access |
+| Peran | Akses |
 |------|--------|
-| **Administrator** | Full access to all administration features for the platform. Also known as **Portal Administrator** |
-| **Global Administrator** | Same as Portal Administrator, with access across all access URLs in a multi-URL (multi-tenant) setup |
-| **Sessions Administrator** | Can manage sessions, enroll users in sessions, and access session-related settings |
-| **Human Resources Manager** | Can view learner progress and tracking data for assigned users |
-| **Questions Manager** | Less of an administrator than a content curator, question managers have access to a global question bank to review questions' quality |
+| **Administrator** | Akses penuh ke semua fitur administrasi untuk platform. Juga dikenal sebagai **Administrator Portal** |
+| **Administrator Global** | Sama seperti Administrator Portal, dengan akses di seluruh URL akses dalam pengaturan multi-URL (multi-tenant) |
+| **Administrator Sesi** | Dapat mengelola sesi, mendaftarkan pengguna ke dalam sesi, dan mengakses pengaturan terkait sesi |
+| **Manajer Sumber Daya Manusia** | Dapat melihat kemajuan pembelajar dan data pelacakan untuk pengguna yang ditugaskan |
+| **Manajer Pertanyaan** | Lebih sebagai kurator konten daripada administrator, manajer pertanyaan memiliki akses ke bank pertanyaan global untuk meninjau kualitas pertanyaan |
 
-This guide focuses primarily on the **Portal Administrator** role, which has the broadest access.
+Panduan ini terutama berfokus pada peran **Administrator Portal**, yang memiliki akses paling luas.
 
-## Logging In
+## Masuk
 
-Administrators log in through the same login page as all other users. After entering your credentials, you will be sent (in the absence of other configuration) to the **Administration** page. A notable difference from other user roles is the **Administration** section in the sidebar (not visible to other roles).
+Administrator masuk melalui halaman login yang sama seperti pengguna lainnya. Setelah memasukkan kredensial Anda, Anda akan diarahkan (jika tidak ada konfigurasi lain) ke halaman **Administrasi**. Perbedaan yang mencolok dari peran pengguna lain adalah adanya bagian **Administrasi** di bilah sisi (tidak terlihat oleh peran lain).
 
-## Next Steps
+## Langkah Selanjutnya
 
-* [Admin Interface Overview](admin-interface-overview.md) — A tour of the administration panel and its sections
+* [Ikhtisar Antarmuka Admin](admin-interface-overview.md) — Tur mengenai panel administrasi dan bagian-bagiannya

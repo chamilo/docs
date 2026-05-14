@@ -1,30 +1,30 @@
 # OAuth2
 
-OAuth2 authentication is configured in `config/authentication.yaml`. Chamilo includes built-in support for Azure AD, Keycloak, Facebook, and any generic OAuth2-compliant provider.
+Autentikasi OAuth2 dikonfigurasi dalam file `config/authentication.yaml`. Chamilo menyediakan dukungan bawaan untuk Azure AD, Keycloak, Facebook, dan penyedia lain yang sesuai dengan standar OAuth2.
 
-## Step 1 — Register Chamilo in your identity provider
+## Langkah 1 — Daftarkan Chamilo di penyedia identitas Anda
 
-Create an application in your provider's admin panel and set the **redirect URI** to:
+Buat aplikasi di panel admin penyedia Anda dan atur **redirect URI** ke:
 
 ```
 https://your-chamilo-url/connect/<provider>/check
 ```
 
-Where `<provider>` is `azure`, `keycloak`, `facebook`, or the name you give a generic provider. Note the **Client ID** and **Client Secret**.
+Di mana `<provider>` adalah `azure`, `keycloak`, `facebook`, atau nama yang Anda berikan untuk penyedia generik. Catat **Client ID** dan **Client Secret**.
 
-## Step 2 — Configure authentication.yaml
+## Langkah 2 — Konfigurasi authentication.yaml
 
-Enable the provider and supply its credentials. All providers share these common keys:
+Aktifkan penyedia dan berikan kredensialnya. Semua penyedia memiliki kunci umum berikut:
 
-| Key | Description |
-|-----|-------------|
-| `enabled` | `true` to activate |
-| `title` | Label shown on the login button |
-| `client_id` | From your identity provider |
-| `client_secret` | From your identity provider |
-| `allow_create_new_users` | Auto-create a Chamilo account on first login |
-| `allow_update_user_info` | Sync user data on each login |
-| `force_as_login_method` | Disable other methods and force this one |
+| Kunci | Deskripsi |
+|-------|-----------|
+| `enabled` | `true` untuk mengaktifkan |
+| `title` | Label yang ditampilkan pada tombol login |
+| `client_id` | Dari penyedia identitas Anda |
+| `client_secret` | Dari penyedia identitas Anda |
+| `allow_create_new_users` | Membuat akun Chamilo secara otomatis pada login pertama |
+| `allow_update_user_info` | Sinkronkan data pengguna pada setiap login |
+| `force_as_login_method` | Nonaktifkan metode lain dan paksa metode ini |
 
 ### Azure AD (Microsoft Entra ID)
 
@@ -34,7 +34,7 @@ authentication:
     oauth2:
       azure:
         enabled: true
-        title: "Sign in with Microsoft"
+        title: "Masuk dengan Microsoft"
         client_id: "<application-client-id>"
         client_secret: "<client-secret>"
         tenant: "<tenant-id>"
@@ -46,7 +46,7 @@ authentication:
         allow_update_user_info: true
 ```
 
-Azure also supports group-based role mapping (mapping Azure group IDs to Chamilo roles such as teacher or admin), user delta sync commands, and certificate authentication instead of a client secret. See the [wiki](https://github.com/chamilo/chamilo-lms/wiki/External-Authentication-configuration) for those options.
+Azure juga mendukung pemetaan peran berbasis grup (memetakan ID grup Azure ke peran Chamilo seperti guru atau admin), perintah sinkronisasi delta pengguna, dan autentikasi sertifikat sebagai pengganti client secret. Lihat [wiki](https://github.com/chamilo/chamilo-lms/wiki/External-Authentication-configuration) untuk opsi tersebut.
 
 ### Keycloak
 
@@ -56,7 +56,7 @@ authentication:
     oauth2:
       keycloak:
         enabled: true
-        title: "Sign in with Keycloak"
+        title: "Masuk dengan Keycloak"
         client_id: "<client-id>"
         client_secret: "<client-secret>"
         auth_server_url: "https://keycloak.yourorg.com"
@@ -72,16 +72,16 @@ authentication:
     oauth2:
       facebook:
         enabled: true
-        title: "Sign in with Facebook"
+        title: "Masuk dengan Facebook"
         client_id: "<app-id>"
         client_secret: "<app-secret>"
         graph_api_version: "v20.0"
         allow_create_new_users: true
 ```
 
-### Generic OAuth2
+### OAuth2 Generik
 
-Use this for Google, GitLab, or any OAuth2-compliant provider:
+Gunakan ini untuk Google, GitLab, atau penyedia lain yang sesuai dengan OAuth2:
 
 ```yaml
 authentication:
@@ -89,7 +89,7 @@ authentication:
     oauth2:
       myprovider:
         enabled: true
-        title: "Sign in with MyProvider"
+        title: "Masuk dengan MyProvider"
         client_id: "<client-id>"
         client_secret: "<client-secret>"
         urlAuthorize: "https://provider.example.com/oauth/authorize"
@@ -99,18 +99,18 @@ authentication:
         allow_create_new_users: true
 ```
 
-Field mapping (how provider attributes map to Chamilo's `firstname`, `lastname`, `email`, etc.) and role mapping are also configurable. See the [wiki](https://github.com/chamilo/chamilo-lms/wiki/External-Authentication-configuration) for the full list of mapping keys.
+Pemetaan bidang (bagaimana atribut penyedia dipetakan ke `firstname`, `lastname`, `email`, dll. di Chamilo) dan pemetaan peran juga dapat dikonfigurasi. Lihat [wiki](https://github.com/chamilo/chamilo-lms/wiki/External-Authentication-configuration) untuk daftar lengkap kunci pemetaan.
 
-## Step 3 — Clear cache and test
+## Langkah 3 — Bersihkan cache dan uji
 
 ```bash
 php bin/console cache:clear && php bin/console cache:warmup
 ```
 
-Log out of Chamilo. The configured provider's button should appear on the login page. Test with a dedicated account before rolling out to all users.
+Keluar dari Chamilo. Tombol penyedia yang dikonfigurasi seharusnya muncul di halaman login. Uji dengan akun khusus sebelum meluncurkannya ke semua pengguna.
 
 ## Tips
 
-* Keep the standard login form enabled so administrators can always log in if OAuth2 has issues.
-* When using Azure with existing users, configure `existing_user_verification_order` to control how Chamilo matches incoming users to existing accounts.
-* Role assignment defaults to student; use group mapping to promote users to teacher or admin roles automatically.
+* Pertahankan formulir login standar tetap aktif sehingga administrator selalu dapat masuk jika OAuth2 mengalami masalah.
+* Saat menggunakan Azure dengan pengguna yang sudah ada, konfigurasi `existing_user_verification_order` untuk mengontrol bagaimana Chamilo mencocokkan pengguna yang masuk dengan akun yang sudah ada.
+* Penugasan peran secara default adalah siswa; gunakan pemetaan grup untuk mempromosikan pengguna ke peran guru atau admin secara otomatis.

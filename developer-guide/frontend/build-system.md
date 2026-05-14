@@ -1,30 +1,30 @@
-# Build System
+# Sistem Build
 
-Chamilo uses **Webpack 5** via **Symfony Webpack Encore** for building frontend assets. The full build configuration is in `webpack.config.js` at the project root.
+Chamilo menggunakan **Webpack 5** melalui **Symfony Webpack Encore** untuk membangun aset frontend. Konfigurasi build lengkap berada di `webpack.config.js` di root proyek.
 
-Output is written to `public/build/`, served under the `/build` public path.
+Output ditulis ke `public/build/`, disajikan di bawah jalur publik `/build`.
 
-## Entry Points
+## Titik Masuk
 
 ### JavaScript
 
-| Entry | Source | Purpose |
-|-------|--------|---------|
-| `vue` | `assets/vue/main.js` | Main Vue 3 application |
-| `vue_installer` | `assets/vue/main_installer.js` | Installation wizard |
-| `legacy_app` | `assets/js/legacy/app.js` | Legacy JavaScript |
-| `legacy_exercise` | `assets/js/legacy/exercise.js` | Exercise player |
-| `legacy_lp` | `assets/js/legacy/lp.js` | Learning path player |
-| `legacy_document` | `assets/js/legacy/document.js` | Document viewer |
-| `legacy_free-jqgrid` | `assets/js/legacy/free-jqgrid.js` | Legacy grid widget |
-| `legacy_framereadyloader` | `assets/js/legacy/frameReadyLoader.js` | Frame-ready loader for legacy iframes |
-| `translatehtml` | `assets/js/translatehtml.js` | HTML translation helper |
-| `glossary_auto` | `assets/js/glossary-auto.js` | Automatic glossary term highlighting |
+| Titik Masuk | Sumber | Tujuan |
+|-------------|--------|--------|
+| `vue` | `assets/vue/main.js` | Aplikasi utama Vue 3 |
+| `vue_installer` | `assets/vue/main_installer.js` | Asisten instalasi |
+| `legacy_app` | `assets/js/legacy/app.js` | JavaScript lama |
+| `legacy_exercise` | `assets/js/legacy/exercise.js` | Pemutar latihan |
+| `legacy_lp` | `assets/js/legacy/lp.js` | Pemutar jalur pembelajaran |
+| `legacy_document` | `assets/js/legacy/document.js` | Penampil dokumen |
+| `legacy_free-jqgrid` | `assets/js/legacy/free-jqgrid.js` | Widget grid lama |
+| `legacy_framereadyloader` | `assets/js/legacy/frameReadyLoader.js` | Pemuat frame siap untuk iframe lama |
+| `translatehtml` | `assets/js/translatehtml.js` | Pembantu terjemahan HTML |
+| `glossary_auto` | `assets/js/glossary-auto.js` | Penyorotan otomatis istilah glosarium |
 
 ### CSS
 
-| Entry | Source |
-|-------|--------|
+| Titik Masuk | Sumber |
+|-------------|--------|
 | `app` | `assets/css/app.scss` |
 | `css/chat` | `assets/css/chat.scss` |
 | `css/document` | `assets/css/document.scss` |
@@ -35,31 +35,31 @@ Output is written to `public/build/`, served under the `/build` public path.
 | `css/responsive` | `assets/css/responsive.scss` |
 | `css/scorm` | `assets/css/scorm.scss` |
 
-## Build Features
+## Fitur Build
 
-* **Vue 3 SFC** — `.vue` single file components compiled by `vue-loader`; runtime compiler is disabled (`runtimeCompilerBuild: false`), so all templates must be pre-compiled
-* **TypeScript** — Transpile-only mode (`transpileOnly: true`) for fast builds, no type-checking during build
-* **Sass/SCSS** — Full SCSS support via `sass-loader`
-* **Tailwind CSS** — Utility-first CSS processed inline via PostCSS (configured inside `webpack.config.js`; there is no separate `postcss.config.js`)
-* **Babel** — ES6+ transpilation with `@babel/preset-env` and `core-js@3` polyfills (`useBuiltIns: "usage"`)
-* **jQuery auto-provision** — `autoProvidejQuery()` makes `$` and `jQuery` available globally without explicit imports, supporting legacy code
-* **Source maps** — Enabled in development only
-* **Single runtime chunk** — Shared runtime for all entries
-* **Filesystem cache** — Webpack's persistent filesystem cache is enabled to speed up incremental rebuilds
-* **Chunk namespacing** — `output.uniqueName` and `output.chunkLoadingGlobal` are set to `"chamilo"` / `"webpackChunkChamilo"` to avoid chunk-loading collisions when multiple Webpack bundles coexist on a page
+* **Vue 3 SFC** — Komponen file tunggal `.vue` dikompilasi oleh `vue-loader`; kompiler runtime dinonaktifkan (`runtimeCompilerBuild: false`), sehingga semua template harus dikompilasi sebelumnya
+* **TypeScript** — Mode transpilation saja (`transpileOnly: true`) untuk build cepat, tanpa pemeriksaan tipe selama build
+* **Sass/SCSS** — Dukungan penuh untuk SCSS melalui `sass-loader`
+* **Tailwind CSS** — CSS utilitas diproses inline melalui PostCSS (dikonfigurasi di dalam `webpack.config.js`; tidak ada file terpisah `postcss.config.js`)
+* **Babel** — Transpilasi ES6+ dengan `@babel/preset-env` dan polyfills dari `core-js@3` (`useBuiltIns: "usage"`)
+* **jQuery auto-provision** — `autoProvidejQuery()` membuat `$` dan `jQuery` tersedia secara global tanpa impor eksplisit, mendukung kode lama
+* **Source maps** — Diaktifkan hanya pada pengembangan
+* **Single runtime chunk** — Runtime bersama untuk semua titik masuk
+* **Filesystem cache** — Cache sistem file persisten Webpack diaktifkan untuk mempercepat rebuild inkremental
+* **Chunk namespacing** — `output.uniqueName` dan `output.chunkLoadingGlobal` diatur sebagai `"chamilo"` / `"webpackChunkChamilo"` untuk mencegah tabrakan pemuatan chunk ketika beberapa bundel Webpack ada bersama di satu halaman
 
-## Production-Only Features
+## Fitur Eksklusif Produksi
 
-* **Versioning** — Content-hash suffixes on all output filenames (`enableVersioning()`)
-* **Subresource Integrity** — `integrity` attributes on `<script>` and `<link>` tags (`enableIntegrityHashes()`)
-* **Output cleanup** — `public/build/` is wiped before each production build
+* **Versioning** — Sufiks hash konten pada semua nama file output (`enableVersioning()`)
+* **Integritas Subresource** — Atribut `integrity` pada tag `<script>` dan `<link>` (`enableIntegrityHashes()`)
+* **Pembersihan Output** — `public/build/` dibersihkan sebelum setiap build produksi
 
-### Unhashed asset copies (`CopyUnhashedAssetsPlugin`)
+### Salinan Aset Tanpa Hash (`CopyUnhashedAssetsPlugin`)
 
-Some legacy PHP pages reference assets by a fixed filename and cannot use the Webpack manifest. A custom `CopyUnhashedAssetsPlugin` (defined at the bottom of `webpack.config.js`) copies certain hashed production files to an additional unhashed path after each build:
+Beberapa halaman PHP lama merujuk aset dengan nama file tetap dan tidak dapat menggunakan manifest Webpack. Plugin khusus `CopyUnhashedAssetsPlugin` (didefinisikan di akhir `webpack.config.js`) menyalin file produksi tertentu dengan hash ke jalur tambahan tanpa hash setelah setiap build:
 
-| Hashed file | Unhashed copy |
-|-------------|--------------|
+| File dengan Hash | Salinan tanpa Hash |
+|------------------|--------------------|
 | `legacy_document.[hash].js` | `legacy_document.js` |
 | `legacy_exercise.[hash].js` | `legacy_exercise.js` |
 | `legacy_framereadyloader.[hash].js` / `.css` | `legacy_framereadyloader.js` / `.css` |
@@ -67,9 +67,9 @@ Some legacy PHP pages reference assets by a fixed filename and cannot use the We
 | `css/editor_content.[hash].css` | `css/editor_content.css` |
 | `glossary_auto.[hash].js` | `glossary_auto.js` |
 
-## Copied Library Assets
+## Aset Perpustakaan yang Disalin
 
-`copyFiles()` copies a number of npm packages directly into `public/build/libs/` without bundling them, for use via `<script>` / `<link>` tags in legacy templates:
+`copyFiles()` menyalin beberapa paket npm langsung ke `public/build/libs/` tanpa mengemasnya, untuk digunakan melalui tag `<script>` / `<link>` di template lama:
 
 * `flatpickr` (JS + CSS + locales)
 * `chart.js`
@@ -82,27 +82,28 @@ Some legacy PHP pages reference assets by a fixed filename and cannot use the We
 * `pwstrength-bootstrap`
 * `multiselect-two-sides`
 
-## Build Commands
+## Perintah Build
 
 ```bash
-# Development build
+# Build pengembangan
 yarn encore dev
 
-# Development build with file watching
+# Build pengembangan dengan pengamatan file
 yarn encore dev --watch
 
-# Production build (minified, versioned, integrity hashes)
+# Build produksi (diminifikasi, diberi versi, hash integritas)
 yarn encore production
 ```
 
-## Tailwind Configuration
+---
+## Konfigurasi Tailwind
 
-Tailwind is configured in `tailwind.config.js`. Key points:
+Tailwind dikonfigurasi dalam file `tailwind.config.js`. Poin utama:
 
-* **`important: true`** — All generated utilities include `!important`, allowing them to override PrimeVue component styles without extra specificity tricks
-* **Content paths** — Tailwind scans `assets/**/*.{js,vue}`, `public/main/**/*.{php,twig,tpl}`, `public/plugin/**/*.{php,twig,tpl}`, and `src/CoreBundle/Resources/views/**/*.html.twig` for class usage
-* **CSS-variable color system** — Every color token (primary, secondary, tertiary, success, info, warning, danger) is backed by a CSS custom property (e.g. `--color-primary-base`) defined per theme in `var/themes/[theme-name]/colors.css`. Values are space-separated RGB channel triplets, enabling Tailwind opacity utilities (`bg-primary/50`)
-* **Custom font scale** — `body-1`, `body-2`, `caption`, `tiny` size/line-height pairs are added via `theme.extend.fontSize`
-* **Plugins** — `@tailwindcss/forms` and `@tailwindcss/typography` are enabled
+* **`important: true`** — Semua utilitas yang dihasilkan menyertakan `!important`, memungkinkan mereka untuk mengesampingkan gaya komponen PrimeVue tanpa perlu trik spesifisitas tambahan
+* **Jalur konten** — Tailwind memindai `assets/**/*.{js,vue}`, `public/main/**/*.{php,twig,tpl}`, `public/plugin/**/*.{php,twig,tpl}`, dan `src/CoreBundle/Resources/views/**/*.html.twig` untuk penggunaan kelas
+* **Sistem warna dengan variabel CSS** — Setiap token warna (primer, sekunder, tersier, sukses, informasi, peringatan, bahaya) didukung oleh properti khusus CSS (misalnya, `--color-primary-base`) yang ditentukan oleh tema di `var/themes/[theme-name]/colors.css`. Nilai-nilai tersebut adalah trio kanal RGB yang dipisahkan oleh spasi, memungkinkan penggunaan utilitas opasitas Tailwind (`bg-primary/50`)
+* **Skala font khusus** — Pasangan ukuran/tinggi baris `body-1`, `body-2`, `caption`, `tiny` ditambahkan melalui `theme.extend.fontSize`
+* **Plugin** — `@tailwindcss/forms` dan `@tailwindcss/typography` diaktifkan
 
-PostCSS (Tailwind + Autoprefixer) is configured inline inside `webpack.config.js` via `enablePostCssLoader()` — there is no standalone `postcss.config.js` file.
+PostCSS (Tailwind + Autoprefixer) dikonfigurasi secara inline di dalam `webpack.config.js` melalui `enablePostCssLoader()` — tidak ada file terpisah `postcss.config.js`.

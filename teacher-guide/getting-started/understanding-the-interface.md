@@ -1,76 +1,77 @@
-# Understanding the Interface
+# Memahami Antarmuka
 
-Chamilo 2.0 has a clean, modern interface designed to keep navigation simple. This page explains each part of the interface in detail.
+Chamilo 2.0 memiliki antarmuka yang bersih dan modern yang dirancang untuk menjaga navigasi tetap sederhana. Halaman ini menjelaskan setiap bagian antarmuka secara rinci.
 
-## The Top Bar
+## Bilah Atas
 
-![The top bar with annotated elements including logo, inbox, support ticket, and user avatar](/.gitbook/assets/top-bar-annotated.png)
+![Bilah atas dengan elemen-elemen yang diberi anotasi termasuk logo, kotak masuk, tiket dukungan, dan avatar pengguna](/.gitbook/assets/top-bar-annotated.png)
 
-The top bar is always visible at the top of every page. It contains:
+Bilah atas selalu terlihat di bagian atas setiap halaman. Bilah ini berisi:
 
-* **Platform logo** — Click it to return to the home page at any time.
-* **Inbox icon** <img src="/.gitbook/assets/icons/mdi-inbox.svg" alt="Inbox" data-size="line"> — Shows your messages. A red badge indicates unread messages. Click to open your inbox.
-* **Support ticket icon** <img src="/.gitbook/assets/icons/mdi-ticket-account.svg" alt="Support" data-size="line"> — If enabled by your administrator, this gives you access to the support ticket system.
-* **Your avatar** — A circular image in the top-right corner. Click it to open a dropdown menu with links to your profile, account settings, and sign-out.
+* **Logo platform** — Klik untuk kembali ke halaman beranda kapan saja.
+* **Ikon kotak masuk** <img src="/.gitbook/assets/icons/mdi-inbox.svg" alt="Inbox" data-size="line"> — Menampilkan pesan Anda. Lencana merah menunjukkan pesan yang belum dibaca. Klik untuk membuka kotak masuk Anda.
+* **Ikon tiket dukungan** <img src="/.gitbook/assets/icons/mdi-ticket-account.svg" alt="Support" data-size="line"> — Jika diaktifkan oleh administrator Anda, ini memberikan akses ke sistem tiket dukungan.
+* **Avatar Anda** — Gambar lingkaran di sudut kanan atas. Klik untuk membuka menu dropdown dengan tautan ke profil, pengaturan akun, dan keluar.
 
-## The Sidebar
+## Bilah Sisi
 
-The sidebar on the left is your main navigation. It can be collapsed to give more space to the content area. Click the toggle arrow at its right edge to expand or collapse it. Chamilo remembers your preference.
+Bilah sisi di sebelah kiri adalah navigasi utama Anda. Bilah ini dapat dilipat untuk memberikan lebih banyak ruang pada area konten. Klik panah toggle di tepi kanannya untuk memperluas atau melipatnya. Chamilo mengingat preferensi Anda.
 
-The sidebar contains the following links (some may be hidden depending on your platform's configuration):
+Bilah sisi berisi tautan-tautan berikut (beberapa mungkin tersembunyi tergantung pada konfigurasi platform Anda):
 
-![The sidebar navigation panel in its expanded state showing all menu items](/.gitbook/assets/sidebar-expanded.png)
+![Panel navigasi bilah sisi dalam keadaan diperluas yang menampilkan semua item menu](/.gitbook/assets/sidebar-expanded.png)
 
-| Menu item | Icon | Description |
+| Item menu | Ikon | Deskripsi |
 |-----------|------|-------------|
-| **Home** | <img src="/.gitbook/assets/icons/mdi-home.svg" alt="Home" data-size="line"> | Returns to the main dashboard |
-| **My courses** | <img src="/.gitbook/assets/icons/mdi-book-open-page-variant.svg" alt="Courses" data-size="line"> | Lists all courses you are enrolled in |
-| **My sessions** | <img src="/.gitbook/assets/icons/mdi-google-classroom.svg" alt="Sessions" data-size="line"> | Lists your training sessions (current, past, upcoming) |
-| **Explore more courses** | <img src="/.gitbook/assets/icons/mdi-bookmark-multiple.svg" alt="Catalogue" data-size="line"> | Browse the course catalog to find new courses |
-| **Agenda** | <img src="/.gitbook/assets/icons/mdi-calendar-text.svg" alt="Agenda" data-size="line"> | Your personal and course calendar |
-| **Reporting** | <img src="/.gitbook/assets/icons/mdi-chart-box.svg" alt="Reporting" data-size="line"> | Access learner tracking and course reports |
-| **Social network** | <img src="/.gitbook/assets/icons/mdi-sitemap-outline.svg" alt="Social network" data-size="line"> | Connect with other users, send messages, join groups |
-| **Videoconference** | <img src="/.gitbook/assets/icons/mdi-video.svg" alt="Video" data-size="line"> | Access live video sessions (if configured) |
-| **Administration** | <img src="/.gitbook/assets/icons/mdi-cogs.svg" alt="Admin" data-size="line"> | Platform administration (visible only to admins) |
+| **Beranda** | <img src="/.gitbook/assets/icons/mdi-home.svg" alt="Home" data-size="line"> | Kembali ke dasbor utama |
+| **Kursus saya** | <img src="/.gitbook/assets/icons/mdi-book-open-page-variant.svg" alt="Courses" data-size="line"> | Daftar semua kursus yang Anda ikuti |
+| **Sesi saya** | <img src="/.gitbook/assets/icons/mdi-google-classroom.svg" alt="Sessions" data-size="line"> | Daftar sesi pelatihan Anda (sedang berlangsung, masa lalu, mendatang) |
+| **Jelajahi kursus lainnya** | <img src="/.gitbook/assets/icons/mdi-bookmark-multiple.svg" alt="Catalogue" data-size="line"> | Jelajahi katalog kursus untuk menemukan kursus baru |
+| **Agenda** | <img src="/.gitbook/assets/icons/mdi-calendar-text.svg" alt="Agenda" data-size="line"> | Kalender pribadi dan kursus Anda |
+| **Pelaporan** | <img src="/.gitbook/assets/icons/mdi-chart-box.svg" alt="Reporting" data-size="line"> | Akses pelacakan pembelajar dan laporan kursus |
+| **Jaringan sosial** | <img src="/.gitbook/assets/icons/mdi-sitemap-outline.svg" alt="Social network" data-size="line"> | Terhubung dengan pengguna lain, kirim pesan, bergabung dengan grup |
+| **Videokonferensi** | <img src="/.gitbook/assets/icons/mdi-video.svg" alt="Video" data-size="line"> | Akses sesi video langsung (jika dikonfigurasi) |
+| **Administrasi** | <img src="/.gitbook/assets/icons/mdi-cogs.svg" alt="Admin" data-size="line"> | Administrasi platform (hanya terlihat oleh admin) |
 
-At the very bottom of the sidebar, you will find a **Sign out** option to quickly sign out when you're done. This option is also available from your avatar icon's drop-down menu on the top-right corner.
-If the platform is managed through external authentication methods, these signing out options might not be available.
+Di bagian paling bawah bilah sisi, Anda akan menemukan opsi **Keluar** untuk keluar dengan cepat ketika selesai. Opsi ini juga tersedia dari menu dropdown ikon avatar Anda di sudut kanan atas.
+Jika platform dikelola melalui metode autentikasi eksternal, opsi keluar ini mungkin tidak tersedia.
 
-## The Main Content Area
+## Area Konten Utama
 
-The central area of the screen displays the content of the current page. At the top, you will often see a **breadcrumb trail** showing your current location in the platform (for example: Home > Rock music > Documents). Use the breadcrumbs to navigate back to a parent page.
+Area tengah layar menampilkan konten halaman saat ini. Di bagian atas, Anda sering melihat **jejak roti** yang menunjukkan lokasi saat ini Anda di platform (misalnya: Beranda > Musik Rock > Dokumen). Gunakan jejak roti untuk navigasi kembali ke halaman induk.
 
-## The Course Homepage
+## Beranda Kursus
 
-When you enter a course, you see the **course homepage**. This is covered in detail in the [Creating Your Course](../creating-your-course/) section, but here is a quick overview:
+Ketika Anda memasuki kursus, Anda melihat **beranda kursus**. Ini dibahas secara rinci di bagian [Membuat Kursus Anda](../creating-your-course/), tetapi berikut adalah gambaran singkat:
 
-* **Course title** — Displayed prominently at the top
-* **Course introduction** — An optional rich-text description that you can edit
-* **Tool grid** — A grid of icons representing the course tools (Documents, Exercises, Forums, etc.)
+* **Judul kursus** — Ditampilkan secara menonjol di bagian atas
+* **Pengenalan kursus** — Deskripsi teks kaya opsional yang dapat Anda edit
+* **Grid alat** — Grid ikon yang mewakili alat kursus (Dokumen, Latihan, Forum, dll.)
 
-As a teacher, you will see additional controls:
+Sebagai pengajar, Anda akan melihat kontrol tambahan:
 
-* **Student view** <img src="/.gitbook/assets/icons/mdi-eye.svg" alt="Student view" data-size="line"> — Toggle this to see the course as a student would see it
-* **Edit introduction** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Edit" data-size="line"> — Edit the course introduction text
-* **Show all / Hide all** — Quickly change the visibility of all tools for students
-* **Sort** — Enable drag-and-drop to reorder the tools on the homepage
+* **Tampilan siswa** <img src="/.gitbook/assets/icons/mdi-eye.svg" alt="Student view" data-size="line"> — Toggle ini untuk melihat kursus seperti yang dilihat oleh siswa
+* **Edit pengenalan** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Edit" data-size="line"> — Edit teks pengenalan kursus
+* **Tampilkan semua / Sembunyikan semua** — Ubah visibilitas semua alat untuk siswa dengan cepat
+* **Urutkan** — Aktifkan drag-and-drop untuk mengurutkan ulang alat di beranda
 
-## Icon colors
+---
+## Warna Ikon
 
-This is still experimental and not entirely complete in Chamilo 2.0, but we're trying to use the following rules for all buttons and action icons in the interface:
+Ini masih bersifat eksperimental dan belum sepenuhnya lengkap di Chamilo 2.0, tetapi kami mencoba menggunakan aturan berikut untuk semua tombol dan ikon aksi di antarmuka:
 
-* **Green** for creation actions. This includes adding, creating, importing, grading, saving and copying content.
-* **Blue** for view actions. This includes exporting, viewing, pre-viewing in lists or in detail views, searching and downloading.
-* **Orange** for editing actions. This includes editing, moving, configuring, enabling/disabling, hiding and showing.
-* **Red** for deletion/removal actions. This includes deleting, removing, unsubscribing.
-* **Grey** for cancelling actions. Just leaving things in the status quo.
+* **Hijau** untuk aksi pembuatan. Ini mencakup penambahan, pembuatan, impor, penilaian, penyimpanan, dan penyalinan konten.
+* **Biru** untuk aksi tampilan. Ini mencakup ekspor, tampilan, pratinjau di daftar atau tampilan detail, pencarian, dan pengunduhan.
+* **Oranye** untuk aksi pengeditan. Ini mencakup pengeditan, pemindahan, konfigurasi, pengaktifan/penonaktifan, penyembunyian, dan penampilan.
+* **Merah** untuk aksi penghapusan/penghilangan. Ini mencakup penghapusan, penghilangan, dan berhenti berlangganan.
+* **Abu-abu** untuk aksi pembatalan. Hanya mempertahankan keadaan semula.
 
-## Responsive Design
+## Desain Responsif
 
-Chamilo 2.0 adapts to different screen sizes. On a mobile device or narrow browser window:
+Chamilo 2.0 menyesuaikan diri dengan berbagai ukuran layar. Pada perangkat seluler atau jendela browser sempit:
 
-* The sidebar is hidden by default and can be opened by tapping the menu icon
-* Course cards display in a single column instead of a grid
-* Tables become scrollable horizontally
+* Sidebar disembunyikan secara default dan dapat dibuka dengan mengetuk ikon menu
+* Kartu kursus ditampilkan dalam satu kolom alih-alih kisi
+* Tabel menjadi dapat digulir secara horizontal
 
-This means you and your learners can access the platform from a phone, tablet, or computer, but you might experience the interface slightly differently.
+Ini berarti Anda dan pelajar Anda dapat mengakses platform dari ponsel, tablet, atau komputer, tetapi Anda mungkin mengalami antarmuka sedikit berbeda.

@@ -1,39 +1,39 @@
-# Coding Conventions
+# Konvensi Pengkodean
 
 ## PHP
 
-* **Standard**: PSR-12 coding style
-* **Type declarations**: Use PHP 8.2 type declarations (parameter types, return types, property types)
-* **Strict types**: All PHP files should declare `strict_types=1`
-* **Namespaces**: Follow PSR-4 autoloading (e.g., `Chamilo\CoreBundle\Entity\User`)
-* **Symfony standards**: Follow Symfony's coding standards and best practices
+* **Standar**: Gaya pengkodean PSR-12
+* **Deklarasi Tipe**: Gunakan deklarasi tipe dari PHP 8.2 (tipe parameter, tipe pengembalian, tipe properti)
+* **Tipe Ketat**: Semua file PHP harus mendeklarasikan `strict_types=1`
+* **Namespaces**: Ikuti autoloading PSR-4 (misalnya, `Chamilo\CoreBundle\Entity\User`)
+* **Standar Symfony**: Ikuti standar pengkodean dan praktik terbaik Symfony
 
 ## JavaScript/Vue
 
-* **ESLint + Prettier**: Code is linted with ESLint and formatted with Prettier; configuration is in `eslint.config.mjs` at the project root. `prettier-plugin-tailwindcss` is also enabled for automatic Tailwind class sorting.
-* **Composition API**: Use Vue 3's `<script setup>` syntax for new components
-* **TypeScript**: TypeScript is supported; use it for type-safe code
+* **ESLint + Prettier**: Kode diperiksa dengan ESLint dan diformat dengan Prettier; konfigurasi berada di `eslint.config.mjs` di root proyek. Plugin `prettier-plugin-tailwindcss` juga diaktifkan untuk pengurutan otomatis kelas Tailwind.
+* **Composition API**: Gunakan sintaks `<script setup>` dari Vue 3 untuk komponen baru
+* **TypeScript**: TypeScript didukung; gunakan untuk kode dengan keamanan tipe
 
 ## CSS
 
-* **Tailwind CSS**: Prefer utility classes over custom CSS
-* **BEM naming**: When custom CSS is needed, use BEM naming convention
-* **SCSS**: Use SCSS for complex stylesheets
+* **Tailwind CSS**: Lebih suka kelas utilitas daripada CSS kustom
+* **Penamaan BEM**: Ketika CSS kustom diperlukan, gunakan konvensi penamaan BEM
+* **SCSS**: Gunakan SCSS untuk lembar gaya yang kompleks
 
-## PHP Static Analysis and Refactoring Tools
+## Alat Analisis Statis dan Refaktorisasi PHP
 
-The project ships configuration for three additional tools:
+Proyek ini mencakup konfigurasi untuk tiga alat tambahan:
 
-| Tool | Config file | Purpose |
-|------|------------|---------|
-| **PHPStan** | `phpstan.neon` | Static analysis (level 5, scans `src/` and test directories) |
-| **Psalm** | `psalm.xml` | Second static analysis pass; runs in CI on every push |
-| **Rector** | `rector.php` | Automated code transformations and upgrades |
+| Alat        | File Konfigurasi     | Tujuan                                      |
+|-------------|----------------------|---------------------------------------------|
+| **PHPStan** | `phpstan.neon`      | Analisis statis (level 5, memindai direktori `src/` dan direktori pengujian) |
+| **Psalm**   | `psalm.xml`         | Analisis statis kedua; dijalankan di CI pada setiap push |
+| **Rector**  | `rector.php`        | Transformasi dan pembaruan kode otomatis    |
 
-Run them via composer shortcuts: `composer phpstan`, `composer psalm`. See [Testing](../contributing/testing.md) for full commands.
+Jalankan melalui pintasan Composer: `composer phpstan`, `composer psalm`. Lihat [Pengujian](../contributing/testing.md) untuk perintah lengkap.
 
-## General
+## Umum
 
-* **English**: All code comments, variable names, and documentation should be in English
-* **Translations**: All user-facing text should use the translation system (Vue I18n for frontend, Symfony Translator for backend)
-* **No magic values**: Use constants or enums instead of hardcoded values
+* **Bahasa Inggris**: Semua komentar kode, nama variabel, dan dokumentasi harus dalam bahasa Inggris
+* **Terjemahan**: Semua teks yang ditujukan untuk pengguna harus menggunakan sistem terjemahan (Vue I18n untuk frontend, Symfony Translator untuk backend)
+* **Tanpa Nilai Ajaib**: Gunakan konstanta atau enum alih-alih nilai yang dikodekan secara langsung

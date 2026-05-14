@@ -1,53 +1,53 @@
-# Groups
+# Kelompok
 
-Groups allow you to divide your learners into smaller teams for collaborative work. Each group can have its own shared tools, such as documents, forums, and a wiki.
+Fitur kelompok memungkinkan Anda untuk membagi siswa ke dalam tim-tim kecil untuk bekerja secara kolaboratif. Setiap kelompok dapat memiliki alat bersama mereka sendiri, seperti dokumen, forum, dan wiki.
 
-## Creating Groups
+## Membuat Kelompok
 
-1. Open the **Groups** tool from the course homepage
-2. Click **Create groups**
-3. Configure the group settings:
-   * **Number of groups** — How many groups to create
-   * **Maximum members per group** — The size limit for each group (0 for unlimited)
-   * **Self-registration** — Whether learners can join groups on their own
-   * **Self-unregistration** — Whether learners can leave a group on their own
+1. Buka alat **Kelompok** di halaman utama kursus
+2. Klik **Buat Kelompok**
+3. Konfigurasikan pengaturan kelompok:
+   * **Jumlah Kelompok** — Berapa banyak kelompok yang akan dibuat
+   * **Jumlah Maksimum Anggota per Kelompok** — Batas ukuran setiap kelompok (0 berarti tidak ada batasan)
+   * **Pendaftaran Otomatis** — Apakah siswa dapat bergabung dengan kelompok sendiri
+   * **Keluar Otomatis** — Apakah siswa dapat keluar dari kelompok sendiri
 
-## Group Tools
+## Alat Kelompok
 
-![The groups overview showing available group tools and member counts](/.gitbook/assets/groups-overview.png)
+![Tinjauan kelompok menampilkan alat yang tersedia dan jumlah anggota](/.gitbook/assets/groups-overview.png)
 
-Each group can have access to a subset of course tools that are shared only among group members:
+Setiap kelompok dapat mengakses subset dari alat kursus, yang hanya dibagikan di antara anggota kelompok:
 
-* **Documents** — A shared file space for the group
-* **Forum** — A group-specific discussion forum
-* **Wiki** — A collaborative wiki for the group
-* **Chat** — A chat space for the group
-* **Agenda** — Group-scoped calendar events
-* **Announcements** — Send announcements to group members only
-* **Assignments** — Collect work from the group
+* **Dokumen** — Ruang file bersama untuk kelompok
+* **Forum** — Forum diskusi khusus kelompok
+* **Wiki** — Wiki kolaboratif untuk kelompok
+* **Obrolan** — Ruang obrolan untuk kelompok
+* **Jadwal** — Acara kalender dalam lingkup kelompok
+* **Pengumuman** — Mengirim pengumuman hanya kepada anggota kelompok
+* **Tugas** — Mengumpulkan tugas dari kelompok
 
-For each tool you can choose its access level: **Not available**, **Public** (any course member), or **Private** (group members only). These settings can be applied at the group category level, so multiple groups in the same category share the same tool configuration.
+Untuk setiap alat, Anda dapat memilih tingkat akses: **Tidak Tersedia**, **Publik** (untuk semua anggota kursus), atau **Pribadi** (hanya untuk anggota kelompok). Pengaturan ini dapat diterapkan pada tingkat kategori kelompok, sehingga beberapa kelompok dalam kategori yang sama memiliki konfigurasi alat yang identik.
 
-## Managing Group Members
+## Mengelola Anggota Kelompok
 
-You can manage group membership in several ways:
+Anda dapat mengelola partisipasi kelompok dengan berbagai cara:
 
-* **Manual assignment** — Add specific learners to each group
-* **Fill selected groups** — Automatically distribute unsubscribed learners across the selected groups, respecting each group's capacity and the per-user group limit
-* **Self-registration** — Allow learners to choose their own group
-* **Import from classes** — Auto-create groups from the classes already enrolled in the course
+* **Penugasan Manual** — Menambahkan siswa tertentu ke setiap kelompok
+* **Isi Kelompok yang Dipilih** — Secara otomatis menempatkan siswa yang belum terdaftar ke kelompok yang dipilih, dengan mematuhi kapasitas per kelompok dan batasan kelompok per pengguna
+* **Pendaftaran Otomatis** — Mengizinkan siswa memilih kelompok mereka sendiri
+* **Impor dari Kelas** — Secara otomatis membuat kelompok dari kelas yang sudah terdaftar di kursus
 
-To manually manage members, click on a group name, then use the **Members** section to add or remove learners.
+Untuk mengelola anggota secara manual, klik nama kelompok dan gunakan bagian **Anggota** untuk menambahkan atau menghapus siswa.
 
-## Group Tutors
+## Pembimbing Kelompok
 
-You can assign **tutors** to groups. A tutor is typically a learner or assistant who helps manage the group's work. Tutors may have additional permissions within the group, such as moderating the group forum.
+Anda dapat menugaskan **Pembimbing** untuk kelompok. Pembimbing biasanya adalah siswa atau asisten pengajar yang membantu mengelola pekerjaan kelompok. Pembimbing dapat memiliki izin tambahan di dalam kelompok, seperti memoderasi forum kelompok.
 
-## Monitoring Group Work
+## Memantau Pekerjaan Kelompok
 
-As the course teacher, you can access all groups and their shared tools regardless of membership. This allows you to:
+Sebagai pengajar kursus, Anda dapat mengakses semua kelompok dan alat bersama mereka, terlepas dari apakah Anda berpartisipasi di dalamnya. Ini memungkinkan Anda untuk:
 
-* Review documents uploaded by each group
-* Read group forum discussions
-* Check wiki contributions
-* Assess group collaboration
+* Melihat dokumen yang dikirimkan oleh setiap kelompok
+* Membaca diskusi di forum kelompok
+* Memeriksa kontribusi di wiki
+* Menilai kolaborasi kelompok

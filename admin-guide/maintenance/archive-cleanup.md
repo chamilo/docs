@@ -1,34 +1,34 @@
-# Archive Cleanup
+# Pembersihan Arsip
 
-Over time, Chamilo accumulates temporary files in its cache and archive directories. Regular cleanup prevents disk space issues.
+Seiring waktu, Chamilo mengumpulkan berkas sementara di direktori cache dan arsipnya. Pembersihan secara berkala mencegah masalah ruang penyimpanan disk.
 
-## What Can Be Cleaned
+## Apa yang Dapat Dibersihkan
 
-* **Symfony cache** — Compiled templates, cached configuration, and routing data
-* **Temporary files** — Files generated during export, import, and other operations
-* **Session data** — Expired PHP session files
-* **Log files** — Old log files that are no longer needed
+* **Cache Symfony** — Templat yang dikompilasi, konfigurasi yang di-cache, dan data perutean
+* **Berkas sementara** — Berkas yang dihasilkan selama proses ekspor, impor, dan operasi lainnya
+* **Data sesi** — Berkas sesi PHP yang telah kedaluwarsa
+* **Berkas log** — Berkas log lama yang tidak lagi diperlukan
 
-## Performing Cleanup
+## Melakukan Pembersihan
 
-### From the Administration Panel
+### Dari Panel Administrasi
 
-Navigate to **Archive cleanup** in the administration panel. Click the cleanup button to remove temporary files.
+Navigasikan ke **Pembersihan Arsip** di panel administrasi. Klik tombol pembersihan untuk menghapus berkas sementara.
 
-### From the Command Line
+### Dari Baris Perintah
 
-For more control, use Symfony console commands:
+Untuk kontrol yang lebih besar, gunakan perintah konsol Symfony:
 
 ```bash
-# Clear the Symfony cache
+# Membersihkan cache Symfony
 php bin/console cache:clear
 
-# Clear only the production cache
+# Membersihkan hanya cache produksi
 php bin/console cache:clear --env=prod
 ```
 
 ## Tips
 
-* **Schedule regular cleanups** — Set up a weekly or monthly cron job to clear temporary files
-* **Monitor disk usage** — Keep an eye on the `var/` directory size, as it grows with cache and log files
-* **Be careful with logs** — Before deleting log files, check if they contain information you might need for troubleshooting
+* **Jadwalkan pembersihan rutin** — Atur tugas cron mingguan atau bulanan untuk membersihkan berkas sementara
+* **Pantau penggunaan disk** — Perhatikan ukuran direktori `var/`, karena ukurannya bertambah seiring dengan cache dan berkas log
+* **Berhati-hati dengan log** — Sebelum menghapus berkas log, periksa apakah berkas tersebut berisi informasi yang mungkin Anda perlukan untuk pemecahan masalah

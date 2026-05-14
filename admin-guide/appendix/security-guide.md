@@ -1,61 +1,61 @@
-# Security Guide
+# Panduan Keamanan
 
-This guide covers security best practices for running a Chamilo 2.0 platform in production. Security is a shared responsibility between the platform software, your server configuration, and ongoing operational practices.
+Panduan ini mencakup praktik terbaik keamanan untuk menjalankan platform Chamilo 2.0 dalam lingkungan produksi. Keamanan adalah tanggung jawab bersama antara perangkat lunak platform, konfigurasi server Anda, dan praktik operasional yang berkelanjutan.
 
-## Keep Chamilo Updated
+## Selalu Perbarui Chamilo
 
-The most important security practice is keeping your Chamilo installation up to date.
+Praktik keamanan yang paling penting adalah menjaga instalasi Chamilo Anda tetap diperbarui.
 
-* Subscribe to the Chamilo security X account (@chamilosecurity) or watch the GitHub repository for release announcements.
-* Apply security patches promptly. Minor updates within the 2.0 branch are designed to be safe to apply.
-* Follow the [upgrade process](../installation/upgrading.md) for each update.
+* Berlangganan ke akun X keamanan Chamilo (@chamilosecurity) atau pantau repositori GitHub untuk pengumuman rilis.
+* Terapkan patch keamanan dengan segera. Pembaruan minor dalam cabang 2.0 dirancang agar aman untuk diterapkan.
+* Ikuti [proses peningkatan](../installation/upgrading.md) untuk setiap pembaruan.
 
 ## HTTPS
 
-Always serve Chamilo over HTTPS in production.
+Selalu layani Chamilo melalui HTTPS dalam lingkungan produksi.
 
-* Obtain an SSL/TLS certificate (Let's Encrypt provides free certificates via Certbot).
-* Configure your web server to redirect all HTTP traffic to HTTPS.
-* Enable the HSTS (HTTP Strict Transport Security) header to prevent downgrade attacks:
+* Dapatkan sertifikat SSL/TLS (Let's Encrypt menyediakan sertifikat gratis melalui Certbot).
+* Konfigurasikan server web Anda untuk mengalihkan semua lalu lintas HTTP ke HTTPS.
+* Aktifkan header HSTS (HTTP Strict Transport Security) untuk mencegah serangan downgrade:
 
   ```
   Strict-Transport-Security: max-age=31536000; includeSubDomains
   ```
 
-Without HTTPS, login credentials, session cookies, and all user data are transmitted in plain text and can be intercepted on the network.
+Tanpa HTTPS, kredensial login, cookie sesi, dan semua data pengguna dikirim dalam teks biasa dan dapat dicegat di jaringan.
 
-## File Permissions
+## Izin File
 
-Restrict file permissions to the minimum necessary.
+Batasi izin file seminimal mungkin.
 
-| Path | Owner | Permissions | Notes |
+| Jalur | Pemilik | Izin | Catatan |
 |------|-------|-------------|-------|
-| Application files (source code) | root or deploy user | 755 (dirs), 644 (files) | Web server needs read-only access. |
-| `var/` | web server user | 775 | Must be writable for Symfony cache, logs and file uploads |
-| `.env` | root or deploy user | 640 | Contains secrets. Web server needs read access only during normal use, but needs write access during installation. |
-| `config/` | root or deploy user | 750 | Contains secrets. Web server needs read access only during normal use, but needs write access during installation. |
+| File aplikasi (kode sumber) | root atau pengguna deploy | 755 (direktori), 644 (file) | Server web hanya membutuhkan akses baca. |
+| `var/` | pengguna server web | 775 | Harus dapat ditulis untuk cache Symfony, log, dan unggahan file |
+| `.env` | root atau pengguna deploy | 640 | Berisi rahasia. Server web hanya membutuhkan akses baca selama penggunaan normal, tetapi membutuhkan akses tulis selama instalasi. |
+| `config/` | root atau pengguna deploy | 750 | Berisi rahasia. Server web hanya membutuhkan akses baca selama penggunaan normal, tetapi membutuhkan akses tulis selama instalasi. |
 
-Never set permissions to 777. Never run the web server as root.
+Jangan pernah mengatur izin ke 777. Jangan pernah menjalankan server web sebagai root.
 
-## Password Policies
+## Kebijakan Kata Sandi
 
-Configure strong password requirements in [Security Settings](../platform-settings/security-settings.md):
+Konfigurasikan persyaratan kata sandi yang kuat di [Pengaturan Keamanan](../platform-settings/security-settings.md):
 
-* Minimum length of 8 characters (12+ recommended).
-* Require a mix of uppercase, lowercase, numbers, and special characters.
-* Consider enabling password expiration for compliance-driven environments.
-* Educate users about choosing strong, unique passwords.
+* Panjang minimum 8 karakter (disarankan 12+).
+* Wajibkan kombinasi huruf besar, huruf kecil, angka, dan karakter khusus.
+* Pertimbangkan untuk mengaktifkan kedaluwarsa kata sandi untuk lingkungan yang mematuhi kepatuhan.
+* Edukasi pengguna tentang memilih kata sandi yang kuat dan unik.
 
-## Rate Limiting and Brute-Force Protection
+## Pembatasan Tingkat dan Perlindungan Brute-Force
 
-### Application Level
+### Tingkat Aplikasi
 
-* Set **Max login attempts before blocking account** (`login_max_attempt_before_blocking_account`) to a small value (for example 5).
-* Enable **CAPTCHA** on the login page. CAPTCHA is on/off — it is not switched on automatically after N failed logins. Pair it with **CAPTCHA mistakes before blocking** (`captcha_number_mistakes_to_block_account`) to lock out an account that keeps failing the CAPTCHA.
+* Atur **Jumlah maksimum percobaan login sebelum memblokir akun** (`login_max_attempt_before_blocking_account`) ke nilai kecil (misalnya 5).
+* Aktifkan **CAPTCHA** di halaman login. CAPTCHA aktif/nonaktif — tidak diaktifkan secara otomatis setelah N kali gagal login. Pasangkan dengan **Kesalahan CAPTCHA sebelum memblokir** (`captcha_number_mistakes_to_block_account`) untuk mengunci akun yang terus gagal CAPTCHA.
 
-### Server Level
+### Tingkat Server
 
-Use **fail2ban** to monitor login failures and block offending IP addresses:
+Gunakan **fail2ban** untuk memantau kegagalan login dan memblokir alamat IP yang melanggar:
 
 ```ini
 # /etc/fail2ban/jail.d/chamilo.conf
@@ -68,37 +68,37 @@ maxretry = 5
 bantime = 900
 ```
 
-Create a matching filter in `/etc/fail2ban/filter.d/chamilo-auth.conf` to match authentication failure log entries.
+Buat filter yang sesuai di `/etc/fail2ban/filter.d/chamilo-auth.conf` untuk mencocokkan entri log kegagalan otentikasi.
 
-## Session Management
+## Manajemen Sesi
 
-* Set a reasonable **session lifetime** (e.g., 3600 seconds / 1 hour) in security settings.
-* Configure **session cookie flags** in your Symfony configuration:
+* Atur **masa pakai sesi** yang wajar (misalnya, 3600 detik / 1 jam) di pengaturan keamanan.
+* Konfigurasikan **flag cookie sesi** di konfigurasi Symfony Anda:
 
   ```yaml
   # config/packages/framework.yaml
   framework:
       session:
-          cookie_secure: true      # Only send over HTTPS
-          cookie_httponly: true     # Not accessible via JavaScript
-          cookie_samesite: lax     # CSRF protection
+          cookie_secure: true      # Hanya dikirim melalui HTTPS
+          cookie_httponly: true     # Tidak dapat diakses melalui JavaScript
+          cookie_samesite: lax     # Perlindungan CSRF
   ```
 
-* Consider disabling "Remember me" on platforms with sensitive content.
+* Pertimbangkan untuk menonaktifkan "Ingat saya" pada platform dengan konten sensitif.
 
-## HTTP Security Headers
+## Header Keamanan HTTP
 
-Configure your web server to send security headers:
+Konfigurasikan server web Anda untuk mengirim header keamanan:
 
-| Header | Value | Purpose |
+| Header | Nilai | Tujuan |
 |--------|-------|---------|
-| `X-Content-Type-Options` | `nosniff` | Prevents MIME-type sniffing. |
-| `X-Frame-Options` | `SAMEORIGIN` | Prevents clickjacking via iframes. |
-| `X-XSS-Protection` | `1; mode=block` | Legacy XSS protection for older browsers. |
-| `Referrer-Policy` | `strict-origin-when-cross-origin` | Controls referrer information leakage. |
-| `Content-Security-Policy` | Varies | Controls which resources can be loaded. Requires careful tuning for Chamilo. |
+| `X-Content-Type-Options` | `nosniff` | Mencegah sniffing tipe MIME. |
+| `X-Frame-Options` | `SAMEORIGIN` | Mencegah clickjacking melalui iframe. |
+| `X-XSS-Protection` | `1; mode=block` | Perlindungan XSS lama untuk browser lama. |
+| `Referrer-Policy` | `strict-origin-when-cross-origin` | Mengontrol kebocoran informasi referrer. |
+| `Content-Security-Policy` | Bervariasi | Mengontrol sumber daya yang dapat dimuat. Memerlukan penyesuaian cermat untuk Chamilo. |
 
-Example for Apache:
+Contoh untuk Apache:
 
 ```apache
 Header always set X-Content-Type-Options "nosniff"
@@ -106,7 +106,7 @@ Header always set X-Frame-Options "SAMEORIGIN"
 Header always set Referrer-Policy "strict-origin-when-cross-origin"
 ```
 
-Example for Nginx:
+Contoh untuk Nginx:
 
 ```nginx
 add_header X-Content-Type-Options "nosniff" always;
@@ -114,10 +114,11 @@ add_header X-Frame-Options "SAMEORIGIN" always;
 add_header Referrer-Policy "strict-origin-when-cross-origin" always;
 ```
 
-## File Upload Security
+---
+## Keamanan Unggahan Berkas
 
-* Block executable file extensions (exe, bat, sh, php, phtml, cgi) in [Security Settings](../platform-settings/security-settings.md).
-* Configure your web server to **never execute uploaded files**. For Apache, add to the entire var/ directory:
+* Blokir ekstensi berkas yang dapat dieksekusi (exe, bat, sh, php, phtml, cgi) di [Pengaturan Keamanan](../platform-settings/security-settings.md).
+* Konfigurasikan server web Anda untuk **tidak pernah mengeksekusi berkas yang diunggah**. Untuk Apache, tambahkan ke seluruh direktori var/:
 
   ```apache
   <Directory /path/to/chamilo/var>
@@ -126,46 +127,46 @@ add_header Referrer-Policy "strict-origin-when-cross-origin" always;
   </Directory>
   ```
 
-* Scan uploaded files with an antivirus (ClamAV) if your environment requires it.
+* Pindai berkas yang diunggah dengan antivirus (ClamAV) jika lingkungan Anda membutuhkannya.
 
-## Database Security
+## Keamanan Basis Data
 
-* Use a **dedicated database user** for Chamilo with only the privileges it needs (SELECT, INSERT, UPDATE, DELETE, CREATE, ALTER, DROP, INDEX on the Chamilo database).
-* Do not use the root database account.
-* Ensure the database is not accessible from the public internet. Bind it to localhost or a private network.
-* Enable database audit logging for compliance-sensitive environments.
+* Gunakan **pengguna basis data khusus** untuk Chamilo dengan hanya hak akses yang diperlukan (SELECT, INSERT, UPDATE, DELETE, CREATE, ALTER, DROP, INDEX pada basis data Chamilo).
+* Jangan gunakan akun root basis data.
+* Pastikan basis data tidak dapat diakses dari internet publik. Ikat ke localhost atau jaringan pribadi.
+* Aktifkan pencatatan audit basis data untuk lingkungan yang sensitif terhadap kepatuhan.
 
-## Backups
+## Cadangan (Backup)
 
-* Schedule **daily automated backups** of both the database and uploaded files.
-* Store backups in a separate location from the server (offsite or cloud storage).
-* Test backup restoration periodically to verify that backups are usable.
-* Encrypt backups if they contain sensitive data.
+* Jadwalkan **cadangan otomatis harian** untuk basis data dan berkas yang diunggah.
+* Simpan cadangan di lokasi terpisah dari server (offsite atau penyimpanan cloud).
+* Uji pemulihan cadangan secara berkala untuk memastikan cadangan dapat digunakan.
+* Enkripsi cadangan jika mengandung data sensitif.
 
-See [Backups](../maintenance/backups.md) for detailed instructions.
+Lihat [Cadangan](../maintenance/backups.md) untuk petunjuk terperinci.
 
-## Monitoring
+## Pemantauan
 
-* Monitor Chamilo logs at `var/log/prod.log` for errors and suspicious activity.
-* Set up server monitoring (CPU, memory, disk) to detect resource exhaustion.
-* Configure alerts for repeated authentication failures.
-* Periodically review user accounts for unauthorized or dormant accounts.
+* Pantau log Chamilo di `var/log/prod.log` untuk mendeteksi kesalahan dan aktivitas mencurigakan.
+* Siapkan pemantauan server (CPU, memori, disk) untuk mendeteksi kehabisan sumber daya.
+* Konfigurasikan peringatan untuk kegagalan autentikasi yang berulang.
+* Tinjau akun pengguna secara berkala untuk mendeteksi akun yang tidak sah atau tidak aktif.
 
-## Checklist
+## Daftar Periksa
 
-Use this checklist when deploying or auditing a Chamilo installation:
+Gunakan daftar periksa ini saat menerapkan atau mengaudit instalasi Chamilo:
 
-- [ ] HTTPS enabled with valid certificate
-- [ ] HTTP to HTTPS redirect configured
-- [ ] `APP_ENV=prod` and `APP_DEBUG=0` in `.env`
-- [ ] Unique `APP_SECRET` generated
-- [ ] File permissions restricted (no 777)
-- [ ] Password policy configured
-- [ ] Max login attempts and CAPTCHA enabled
-- [ ] Executable file extensions blocked
-- [ ] Security headers configured on web server
-- [ ] Session cookie flags set (secure, httponly, samesite)
-- [ ] Database user has minimal privileges
-- [ ] Automated backups scheduled and tested
-- [ ] Log monitoring in place
-- [ ] Chamilo version is current
+- [ ] HTTPS diaktifkan dengan sertifikat yang valid
+- [ ] Pengalihan HTTP ke HTTPS dikonfigurasi
+- [ ] `APP_ENV=prod` dan `APP_DEBUG=0` di `.env`
+- [ ] `APP_SECRET` unik telah dibuat
+- [ ] Izin berkas dibatasi (tidak ada 777)
+- [ ] Kebijakan kata sandi dikonfigurasi
+- [ ] Batas maksimum upaya masuk dan CAPTCHA diaktifkan
+- [ ] Ekstensi berkas yang dapat dieksekusi diblokir
+- [ ] Header keamanan dikonfigurasi di server web
+- [ ] Flag cookie sesi diatur (secure, httponly, samesite)
+- [ ] Pengguna basis data memiliki hak akses minimal
+- [ ] Cadangan otomatis dijadwalkan dan diuji
+- [ ] Pemantauan log telah diterapkan
+- [ ] Versi Chamilo adalah yang terbaru

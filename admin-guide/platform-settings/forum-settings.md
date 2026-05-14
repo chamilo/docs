@@ -1,79 +1,79 @@
-# Forums Settings
+# Pengaturan Forum
 
-Behaviour of the course **Forums** tool.
+Perilaku alat **Forum** dalam kursus.
 
-Access these settings under **Administration > Configuration settings > Forums**. This category contains **9 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+Akses pengaturan ini di bawah **Administrasi > Pengaturan Konfigurasi > Forum**. Kategori ini berisi **9 pengaturan**, yang tercantum di bawah ini dengan judul dan komentar yang disertakan dalam fixture pengaturan platform (`SettingsCurrentFixtures.php`).
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> Nama variabel dalam kode ditampilkan dalam format monospace. Gunakan ini saat membuat skrip melalui API atau ketika Anda perlu mengubah pengaturan tersebut pada tingkat global dengan mengedit [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
 
-## Settings
+## Pengaturan
 
 ### `allow_forum_category_language_filter`
 
-**Forum categories language filter**
+**Filter bahasa kategori forum**
 
-Add a language filter to the forum view to only see categries configured in a specific language. Requires using the 'language' extra field on the 'forum_category' entity.
+Tambahkan filter bahasa pada tampilan forum untuk hanya melihat kategori yang dikonfigurasi dalam bahasa tertentu. Memerlukan penggunaan bidang tambahan 'language' pada entitas 'forum_category'.
 
 *Default: `false`*
 
 ### `allow_forum_post_revisions`
 
-**Forum post review**
+**Ulasan posting forum**
 
-Enable this option to allow asking for a review or a translation to one's post in a forum. When extensively configured, can be used to collaborate with other users in a language-learning forum.
+Aktifkan opsi ini untuk memungkinkan meminta ulasan atau terjemahan untuk posting seseorang di forum. Jika dikonfigurasi secara ekstensif, dapat digunakan untuk berkolaborasi dengan pengguna lain dalam forum pembelajaran bahasa.
 
 *Default: `false`*
 
 ### `community_managers_user_list`
 
-**Community managers list**
+**Daftar manajer komunitas**
 
-Provide an array of user IDs that will be considered community managers in the special course designated as global forum. Community managers have additional privileges on the global forum.
+Berikan array ID pengguna yang akan dianggap sebagai manajer komunitas dalam kursus khusus yang ditetapkan sebagai forum global. Manajer komunitas memiliki hak istimewa tambahan di forum global.
 
 ### `default_forum_view`
 
-**Default forum view**
+**Tampilan forum default**
 
-What should be the default option when creating a new forum. Any trainer can however choose a different view for every individual forum
+Apa yang seharusnya menjadi opsi default saat membuat forum baru. Namun, setiap pelatih dapat memilih tampilan yang berbeda untuk setiap forum individu.
 
 *Default: `flat`*
 
 ### `display_groups_forum_in_general_tool`
 
-**Display group forums in general forum**
+**Tampilkan forum grup di forum umum**
 
-Display group forums in the forum tool at the course level. This option is enabled by default (in this case, group forum individual visibilities still act as an additional criteria). If disabled, group forums will only be visible through the group tool, be them public or not.
+Tampilkan forum grup di alat forum pada tingkat kursus. Opsi ini diaktifkan secara default (dalam hal ini, visibilitas individu forum grup tetap berfungsi sebagai kriteria tambahan). Jika dinonaktifkan, forum grup hanya akan terlihat melalui alat grup, baik itu bersifat publik atau tidak.
 
 *Default: `true`*
 
 ### `forum_fold_categories`
 
-**Fold forum categories**
+**Lipat kategori forum**
 
-Visual effect to enable forum categories folding/unfolding.
+Efek visual untuk mengaktifkan pelipatan/pembukaan kategori forum.
 
 *Default: `false`*
 
 ### `global_forums_course_id`
 
-**Use course as global forum**
+**Gunakan kursus sebagai forum global**
 
-Set the course ID (numerical) of a course reserverd to use as a global forum. This replaces the 'Social groups' link in the social network by a link to the forum of that course.
+Tetapkan ID kursus (numerik) dari kursus yang disediakan untuk digunakan sebagai forum global. Ini menggantikan tautan 'Social groups' di jejaring sosial dengan tautan ke forum kursus tersebut.
 
 *Default: `0`*
 
 ### `hide_forum_post_revision_language`
 
-**Hide forum post review language**
+**Sembunyikan bahasa ulasan posting forum**
 
-Hide the possibility to assign a language to a forum post review.
+Sembunyikan kemungkinan untuk menetapkan bahasa pada ulasan posting forum.
 
 *Default: `false`*
 
 ### `subscribe_users_to_forum_notifications_also_in_base_course`
 
-**Forum notifications from base course as well**
+**Notifikasi forum dari kursus dasar juga**
 
-Enable this option to enable notifications coming from the base course forum, even if following the course through a session.
+Aktifkan opsi ini untuk mengaktifkan notifikasi yang berasal dari forum kursus dasar, bahkan jika mengikuti kursus melalui sesi.
 
 *Default: `false`*

@@ -1,59 +1,59 @@
 # Wiki
 
-The wiki tool lets you and your learners collaboratively create and edit web pages within the course. It is useful for group projects, shared knowledge bases, and collaborative writing exercises.
+Alat Wiki memungkinkan Anda dan siswa Anda untuk berkolaborasi dalam membuat dan mengedit halaman web di dalam kursus. Ini sangat berguna untuk proyek kelompok, basis pengetahuan bersama, dan latihan penulisan kolaboratif.
 
-## How the Wiki Works
+## Cara Kerja Wiki
 
-A wiki is a collection of interlinked web pages that anyone with permission can edit. In Chamilo:
+Wiki adalah kumpulan halaman web yang saling terhubung, yang dapat diedit oleh siapa saja yang memiliki izin. Di Chamilo:
 
-* Each course has its own wiki
-* Pages can be linked to each other using wiki-style links
-* All edits are tracked with a revision history
-* Previous versions can be compared and restored
+* Setiap kursus memiliki Wiki sendiri
+* Halaman dapat dihubungkan satu sama lain melalui tautan gaya Wiki
+* Semua pengeditan dilacak dan dicatat dalam riwayat revisi
+* Versi sebelumnya dapat dibandingkan dan dipulihkan
 
-## Creating a Wiki Page
+## Membuat Halaman Wiki
 
-1. Open the **Wiki** tool from the course homepage
-2. Click **Add a new page**
-3. Enter a **page title**
-4. Write the page content using the rich-text editor
-5. Save
+1. Buka alat **Wiki** di halaman utama kursus
+2. Klik **Tambah Halaman Baru**
+3. Masukkan **Judul Halaman**
+4. Gunakan editor teks kaya untuk menulis konten halaman
+5. Simpan
 
-To link to another wiki page from within the editor, create a link using the target page's title.
+Untuk menautkan ke halaman Wiki lain di editor, gunakan judul halaman tujuan untuk membuat tautan.
 
-## Editing Pages
+## Mengedit Halaman
 
-Anyone with edit permissions can modify a wiki page:
+Siapa saja yang memiliki izin mengedit dapat memodifikasi halaman Wiki:
 
-1. Open the page you want to edit
-2. Click the **Edit** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Edit" data-size="line"> button
-3. Make your changes in the editor
-4. Add an optional **Comments** entry describing what you changed
-5. Save
+1. Buka halaman yang ingin Anda edit
+2. Klik tombol **Edit** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Edit" data-size="line">
+3. Lakukan perubahan di editor
+4. Secara opsional, tambahkan catatan di **Komentar** yang menjelaskan apa yang Anda ubah
+5. Simpan
 
-## Revision History
+## Riwayat Revisi
 
-Every edit creates a new revision. You can:
+Setiap pengeditan menciptakan versi revisi baru. Anda dapat:
 
-* **View history** — See a list of all revisions with timestamps and authors
-* **Compare versions** — See what changed between two revisions
-* **Restore a version** — Revert the page to a previous revision if needed
+* **Melihat Riwayat** — Melihat daftar semua revisi, termasuk cap waktu dan penulis
+* **Membandingkan Versi** — Melihat perubahan antara dua versi revisi
+* **Memulihkan Versi** — Mengembalikan halaman ke versi revisi sebelumnya jika diperlukan
 
-## Managing the Wiki
+## Mengelola Wiki
 
-As the course teacher, you can:
+Sebagai pengajar kursus, Anda dapat:
 
-* **View all pages** — See a list of all wiki pages in the course
-* **Find orphan pages** — Identify pages that are not linked from any other page
-* **Find wanted pages** — See pages that are linked to but do not yet exist
-* **Lock a page for editing** — Block all edits on a page while you finalise it
-* **Toggle visibility** — Hide a page from learners
-* **Delete pages** — Remove pages that are no longer needed
-* **Monitor contributions** — Review per-user statistics: most active editors, most edited pages, most visited pages
-* **Export** — Export a wiki page to PDF, or send it into the Documents tool
+* **Melihat Semua Halaman** — Melihat daftar semua halaman Wiki di kursus
+* **Mencari Halaman Terisolasi** — Mengidentifikasi halaman yang tidak tertaut ke halaman lain
+* **Mencari Halaman yang Dibutuhkan** — Melihat halaman yang sudah ditautkan tetapi belum ada
+* **Mengunci Halaman untuk Mencegah Pengeditan** — Mencegah semua pengeditan pada halaman setelah Anda menyelesaikannya
+* **Mengubah Visibilitas** — Menyembunyikan halaman tertentu dari siswa
+* **Menghapus Halaman** — Menghapus halaman yang tidak lagi diperlukan
+* **Memantau Kontribusi** — Melihat statistik berdasarkan pengguna: editor paling aktif, halaman yang paling sering diedit, halaman yang paling sering dikunjungi
+* **Ekspor** — Mengekspor halaman Wiki ke PDF atau mengirimkannya ke alat dokumen
 
 ## Tips
 
-* **Use the wiki for group projects** — Assign each group a wiki page to collaboratively build their deliverable
-* **Create a course knowledge base** — Build a reference wiki with key concepts, and encourage learners to contribute
-* **Review edit history** — The revision history lets you assess individual contributions in collaborative work
+* **Gunakan Wiki untuk Proyek Kelompok** — Tetapkan halaman Wiki untuk setiap kelompok agar mereka dapat berkolaborasi membangun hasil kerja
+* **Buat Basis Pengetahuan Kursus** — Bangun Wiki referensi yang berisi konsep-konsep kunci dan dorong siswa untuk berkontribusi
+* **Tinjau Riwayat Pengeditan** — Riwayat revisi memungkinkan Anda menilai kontribusi individu dalam kerja kolaboratif

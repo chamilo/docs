@@ -1,13 +1,13 @@
-# Assessing Learners
+# Menilai Peserta Didik
 
-Chamilo provides a comprehensive set of tools for evaluating your learners' knowledge and tracking their performance.
+Chamilo menyediakan seperangkat alat yang komprehensif untuk mengevaluasi pengetahuan peserta didik Anda dan melacak kinerja mereka.
 
-* **[Exercises](exercises.md)** — Create quizzes and tests with a variety of question types, automatic grading, and detailed feedback
-* **[Assignments](assignments.md)** — Collect homework and projects from learners, with support for file uploads, peer review, and manual or AI-assisted grading
-* **[Surveys](surveys.md)** — Gather feedback from learners through customizable questionnaires
-* **[Attendance](attendance.md)** — Track learner presence in class sessions
-* **[Gradebook](gradebook.md)** — Combine scores from exercises, assignments, and other activities into a unified grade, and award certificates
+* **[Latihan](exercises.md)** — Buat kuis dan tes dengan berbagai jenis pertanyaan, penilaian otomatis, dan umpan balik terperinci
+* **[Tugas](assignments.md)** — Kumpulkan pekerjaan rumah dan proyek dari peserta didik, dengan dukungan untuk unggah berkas, tinjauan sejawat, dan penilaian manual atau dibantu AI
+* **[Survei](surveys.md)** — Kumpulkan umpan balik dari peserta didik melalui kuesioner yang dapat disesuaikan
+* **[Kehadiran](attendance.md)** — Lacak kehadiran peserta didik dalam sesi kelas
+* **[Buku Nilai](gradebook.md)** — Gabungkan skor dari latihan, tugas, dan aktivitas lainnya menjadi nilai terpadu, serta berikan sertifikat
 
-The **Reporting** tool is still present but moved to the top of the course homepage for the teacher, as a small chart icon. This is the central place to access progress information for the whole course and its students.
+Alat **Pelaporan** masih tersedia tetapi dipindahkan ke bagian atas halaman utama kursus untuk pengajar, sebagai ikon grafik kecil. Ini adalah tempat utama untuk mengakses informasi kemajuan untuk seluruh kursus dan peserta didiknya.
 
-These tools work together: exercise scores and assignment grades can feed into the Gradebook, which can be linked to certificate generation and skill validation.
+Alat-alat ini bekerja bersama: skor latihan dan nilai tugas dapat dimasukkan ke dalam Buku Nilai, yang dapat dikaitkan dengan pembuatan sertifikat dan validasi keterampilan.

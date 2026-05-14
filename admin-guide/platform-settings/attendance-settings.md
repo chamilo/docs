@@ -1,42 +1,41 @@
-# Attendance Settings
+# Pengaturan Kehadiran
 
-Defaults and behaviour of the **Attendance** tool.
+Pengaturan bawaan dan perilaku alat **Kehadiran**.
 
-Access these settings under **Administration > Configuration settings > Attendance**. This category contains **4 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+Akses pengaturan ini di bawah **Administrasi > Pengaturan Konfigurasi > Kehadiran**. Kategori ini berisi **4 pengaturan**, yang tercantum di bawah ini beserta judul dan komentar yang disertakan dalam fixture pengaturan platform (`SettingsCurrentFixtures.php`).
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> Nama variabel dalam kode ditampilkan dalam format monospace. Gunakan saat membuat skrip melalui API atau ketika Anda perlu mengubah pengaturan tersebut pada tingkat global dengan mengedit [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
 
-## Settings
+## Pengaturan
 
 ### `allow_delete_attendance`
 
-**Attendances: enable deletion**
+**Kehadiran: aktifkan penghapusan**
 
-The default behaviour in Chamilo is to hide attendance sheets instead of deleting them, just in case the teacher would do it by mistake. Enable this option to allow teachers to *really* delete attendance sheets.
+Perilaku bawaan di Chamilo adalah menyembunyikan lembar kehadiran alih-alih menghapusnya, untuk berjaga-jaga jika guru melakukannya secara tidak sengaja. Aktifkan opsi ini untuk memungkinkan guru *benar-benar* menghapus lembar kehadiran.
 
 *Default: `true`*
 
 ### `attendance_allow_comments`
 
-**Allow comments in attendance sheets**
+**Izinkan komentar pada lembar kehadiran**
 
-Teachers and students can comment on each individual attendance (to justify).
+Guru dan siswa dapat memberikan komentar pada setiap kehadiran individu (untuk memberikan alasan).
 
 *Default: `false`*
 
 ### `enable_sign_attendance_sheet`
 
-**Attendance signing**
+**Penandatanganan Kehadiran**
 
-Enable taking signatures to confirm one's attendance.
+Aktifkan pengambilan tanda tangan untuk mengkonfirmasi kehadiran seseorang.
 
 *Default: `false`*
 
 ### `multilevel_grading`
 
-**Enable Multi-Level Attendance Grading**
+**Aktifkan Penilaian Kehadiran Bertingkat**
 
-Allows grading attendance with multiple levels instead of a simple present/absent system.
+Memungkinkan penilaian kehadiran dengan beberapa tingkatan alih-alih sistem sederhana hadir/tidak hadir.
 
 *Default: `false`*
-

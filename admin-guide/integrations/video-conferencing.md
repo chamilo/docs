@@ -1,59 +1,59 @@
-# Video Conferencing
+# Konferensi Video
 
-Chamilo integrates with video conferencing platforms to enable live sessions within courses.
+Chamilo terintegrasi dengan platform konferensi video untuk memungkinkan sesi langsung dalam kursus.
 
-## Supported Platforms
+## Platform yang Didukung
 
 ### BigBlueButton
 
-**BigBlueButton** (BBB) is an open-source web conferencing system designed for online learning. It is the most commonly used video conferencing solution with Chamilo.
+**BigBlueButton** (BBB) adalah sistem konferensi web sumber terbuka yang dirancang untuk pembelajaran daring. Ini adalah solusi konferensi video yang paling umum digunakan dengan Chamilo.
 
-#### Configuration
+#### Konfigurasi
 
-1. Install BigBlueButton on a separate server (see [BigBlueButton documentation](https://docs.bigbluebutton.org/))
-2. Use bbb-conf --salt on the BBB server to get the integration details
-3. In Chamilo platform settings, **Plugins**, install the Videoconference plugin and enter its config to set:
-   * **BBB server URL** — The address of your BBB server
-   * **BBB salt/secret** — The API secret from your BBB server
-4. Save
-5. **Enable** the Videoconference plugin
-6. Some special features are available to admins, so make sure you enable it in the *admin_page* region
+1. Instal BigBlueButton di server terpisah (lihat [dokumentasi BigBlueButton](https://docs.bigbluebutton.org/))
+2. Gunakan perintah bbb-conf --salt di server BBB untuk mendapatkan detail integrasi
+3. Di pengaturan platform Chamilo, **Plugins**, instal plugin Videoconference dan masukkan konfigurasi untuk mengatur:
+   * **URL server BBB** — Alamat server BBB Anda
+   * **Salt/secret BBB** — Rahasia API dari server BBB Anda
+4. Simpan
+5. **Aktifkan** plugin Videoconference
+6. Beberapa fitur khusus tersedia untuk admin, jadi pastikan Anda mengaktifkannya di wilayah *admin_page*
 
-#### Features Available in Chamilo
+#### Fitur yang Tersedia di Chamilo
 
-* Start/join meetings from within a course
-* Automatic room creation per course
-* Meeting recordings (if enabled)
-* Screen sharing, whiteboard, breakout rooms
-* Chat alongside video
+* Memulai/mengikuti rapat dari dalam kursus
+* Pembuatan ruang otomatis per kursus
+* Rekaman rapat (jika diaktifkan)
+* Berbagi layar, papan tulis, ruang kelompok
+* Obrolan bersamaan dengan video
 
 ### Zoom
 
-Chamilo can also integrate with **Zoom** for video conferencing.
+Chamilo juga dapat terintegrasi dengan **Zoom** untuk konferensi video.
 
-#### Configuration
+#### Konfigurasi
 
-1. Create a Zoom app in the Zoom Marketplace
-2. In Chamilo, configure the Zoom API credentials
-3. Enable the Zoom integration
+1. Buat aplikasi Zoom di Zoom Marketplace
+2. Di Chamilo, konfigurasi kredensial API Zoom
+3. Aktifkan integrasi Zoom
 
-#### How It Works
+#### Cara Kerjanya
 
-When Zoom is configured, teachers can create and launch Zoom meetings from within their course. Learners join through the Chamilo interface.
+Ketika Zoom dikonfigurasi, pengajar dapat membuat dan meluncurkan rapat Zoom dari dalam kursus mereka. Peserta didik bergabung melalui antarmuka Chamilo.
 
-## Choosing Between BBB and Zoom
+## Memilih Antara BBB dan Zoom
 
-| Feature | BigBlueButton | Zoom |
-|---------|--------------|------|
-| Cost | Free (open-source), but requires your own server | Requires a Zoom subscription |
-| Hosting | Self-hosted | Cloud-hosted by Zoom |
-| Integration depth | Deep (built for LMS use) | Standard |
-| Recording | Server-side, stored on your infrastructure | Zoom cloud or local |
-| Whiteboard | Built-in | Built-in |
-| Breakout rooms | Yes | Yes |
+| Fitur | BigBlueButton | Zoom |
+|-------|--------------|------|
+| Biaya | Gratis (sumber terbuka), tetapi membutuhkan server Anda sendiri | Membutuhkan langganan Zoom |
+| Hosting | Di-host sendiri | Di-host di cloud oleh Zoom |
+| Kedalaman integrasi | Mendalam (dibuat untuk penggunaan LMS) | Standar |
+| Rekaman | Di sisi server, disimpan di infrastruktur Anda | Cloud Zoom atau lokal |
+| Papan tulis | Terintegrasi | Terintegrasi |
+| Ruang kelompok | Ya | Ya |
 
 ## Tips
 
-* **Separate server for BBB** — BigBlueButton should run on its own dedicated server for best performance, not on the same server as Chamilo
-* **Test before classes** — Always test the video conferencing setup before a live session
-* **Check bandwidth** — Ensure your server and network can handle the expected number of concurrent users
+* **Server terpisah untuk BBB** — BigBlueButton sebaiknya dijalankan di server khusus sendiri untuk performa terbaik, bukan di server yang sama dengan Chamilo
+* **Uji sebelum kelas** — Selalu uji pengaturan konferensi video sebelum sesi langsung
+* **Periksa bandwidth** — Pastikan server dan jaringan Anda dapat menangani jumlah pengguna bersamaan yang diharapkan

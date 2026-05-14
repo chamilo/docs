@@ -1,28 +1,28 @@
-# CSS and Tailwind
+# CSS dan Tailwind
 
-## Stylesheet Architecture
+## Arsitektur Stylesheet
 
-Chamilo's styles are layered in this order:
+Gaya Chamilo disusun dalam urutan berikut:
 
-1. **Tailwind CSS** — Utility classes for layout, spacing, and color. Configured with `important: true` so utilities override PrimeVue component defaults.
-2. **SCSS** — Custom styles in `assets/css/scss/`, organized into atoms, molecules, organisms, layout, and components layers.
-3. **PrimeVue component styles** — Overridden per-component inside `assets/css/scss/atoms/`.
-4. **Theme `colors.css`** — CSS custom properties for the active color theme, loaded last so they cascade over everything else.
+1. **Tailwind CSS** — Kelas utilitas untuk tata letak, jarak, dan warna. Dikonfigurasi dengan `important: true` sehingga utilitas mengesampingkan default komponen PrimeVue.
+2. **SCSS** — Gaya kustom di `assets/css/scss/`, diorganisasi ke dalam lapisan atom, molekul, organisme, tata letak, dan komponen.
+3. **Gaya komponen PrimeVue** — Diganti per komponen di dalam `assets/css/scss/atoms/`.
+4. **Tema `colors.css`** — Properti kustom CSS untuk tema warna aktif, dimuat terakhir sehingga mengalir ke atas segala sesuatu lainnya.
 
-PrimeFlex is listed in `package.json` but is not imported — Tailwind covers all utility needs.
+PrimeFlex tercantum dalam `package.json` tetapi tidak diimpor — Tailwind mencakup semua kebutuhan utilitas.
 
-## Main Stylesheet (`assets/css/app.scss`)
+## Stylesheet Utama (`assets/css/app.scss`)
 
-`app.scss` is the Webpack entry point for the main stylesheet. It imports:
+`app.scss` adalah titik masuk Webpack untuk stylesheet utama. Ini mengimpor:
 
-1. `_tailwind.scss` — Tailwind's `@tailwind base / components / utilities` directives
-2. `scss/index.scss` — Barrel file that imports all SCSS partials
-3. Third-party CSS (cropper, select2, daterangepicker, TinyMCE skin, fancybox, timepicker, qtip)
-4. `editor_content.scss` — Styles injected into the TinyMCE editor iframe body
+1. `_tailwind.scss` — Direktif Tailwind `@tailwind base / components / utilities`
+2. `scss/index.scss` — File barrel yang mengimpor semua partial SCSS
+3. CSS pihak ketiga (cropper, select2, daterangepicker, skin TinyMCE, fancybox, timepicker, qtip)
+4. `editor_content.scss` — Gaya yang disuntikkan ke dalam tubuh iframe editor TinyMCE
 
-## Tailwind Configuration (`tailwind.config.js`)
+## Konfigurasi Tailwind (`tailwind.config.js`)
 
-Key settings:
+Pengaturan utama:
 
 ```javascript
 module.exports = {
@@ -37,11 +37,11 @@ module.exports = {
 }
 ```
 
-Content paths scan Vue components, legacy PHP pages, plugin files, and Twig templates so unused utilities are purged on production builds.
+Jalur konten memindai komponen Vue, halaman PHP lama, file plugin, dan template Twig sehingga utilitas yang tidak digunakan dihapus pada build produksi.
 
-### CSS-Variable Color System
+### Sistem Warna Variabel CSS
 
-All color tokens are backed by CSS custom properties rather than hardcoded values:
+Semua token warna didukung oleh properti kustom CSS daripada nilai yang hardcoded:
 
 ```javascript
 theme: {
@@ -56,18 +56,18 @@ theme: {
 }
 ```
 
-The `colorWithOpacity` helper emits `rgb(var(--color-primary-base) / <opacity>)`, enabling opacity variants such as `bg-primary/50`. The actual RGB values are defined per theme in `var/themes/{slug}/colors.css` and loaded at runtime — see [Color Themes](color-themes.md).
+Pembantu `colorWithOpacity` menghasilkan `rgb(var(--color-primary-base) / <opacity>)`, memungkinkan varian opacity seperti `bg-primary/50`. Nilai RGB aktual didefinisikan per tema di `var/themes/{slug}/colors.css` dan dimuat saat runtime — lihat [Tema Warna](color-themes.md).
 
-### Tailwind Plugins
+### Plugin Tailwind
 
-`@tailwindcss/forms` and `@tailwindcss/typography` are enabled.
+`@tailwindcss/forms` dan `@tailwindcss/typography` diaktifkan.
 
-### Custom Type Scale
+### Skala Tipe Kustom
 
-Four extra font-size/line-height pairs are added via `theme.extend.fontSize`:
+Empat pasangan ukuran font/tinggi baris tambahan ditambahkan melalui `theme.extend.fontSize`:
 
-| Class | Size / Line-height |
-|-------|--------------------|
+| Kelas | Ukuran / Tinggi Baris |
+|-------|-----------------------|
 | `text-body-1` | 16px / 24px |
 | `text-body-2` | 14px / 16px |
 | `text-caption` | 13px / 16px |
@@ -75,38 +75,38 @@ Four extra font-size/line-height pairs are added via `theme.extend.fontSize`:
 
 ## PostCSS
 
-PostCSS (Tailwind + Autoprefixer) is configured inline inside `webpack.config.js` via `enablePostCssLoader()`. There is no standalone `postcss.config.js` file.
+PostCSS (Tailwind + Autoprefixer) dikonfigurasi secara inline di dalam `webpack.config.js` melalui `enablePostCssLoader()`. Tidak ada file `postcss.config.js` yang berdiri sendiri.
 
-## Specialized Stylesheets
+## Stylesheet Khusus
 
-| File | Webpack entry | Purpose |
-|------|--------------|---------|
-| `assets/css/app.scss` | `app` | Main application styles |
-| `assets/css/chat.scss` | `css/chat` | Chat interface styles |
-| `assets/css/document.scss` | `css/document` | Document viewer styles |
-| `assets/css/editor.scss` | `css/editor` | TinyMCE editor shell styles |
-| `assets/css/editor_content.scss` | `css/editor_content` | Styles injected into the editor iframe body |
-| `assets/css/markdown.scss` | `css/markdown` | Markdown-rendered content |
-| `assets/css/print.scss` | `css/print` | Print stylesheet |
-| `assets/css/responsive.scss` | `css/responsive` | Responsive overrides |
-| `assets/css/scorm.scss` | `css/scorm` | SCORM player styles |
+| File | Titik Masuk Webpack | Tujuan |
+|------|---------------------|--------|
+| `assets/css/app.scss` | `app` | Gaya aplikasi utama |
+| `assets/css/chat.scss` | `css/chat` | Gaya antarmuka obrolan |
+| `assets/css/document.scss` | `css/document` | Gaya penampil dokumen |
+| `assets/css/editor.scss` | `css/editor` | Gaya shell editor TinyMCE |
+| `assets/css/editor_content.scss` | `css/editor_content` | Gaya yang disuntikkan ke dalam tubuh iframe editor |
+| `assets/css/markdown.scss` | `css/markdown` | Konten yang dirender Markdown |
+| `assets/css/print.scss` | `css/print` | Stylesheet cetak |
+| `assets/css/responsive.scss` | `css/responsive` | Penggantian responsif |
+| `assets/css/scorm.scss` | `css/scorm` | Gaya pemutar SCORM |
 
-## SCSS Module Structure (`assets/css/scss/`)
+## Struktur Modul SCSS (`assets/css/scss/`)
 
 ```
 scss/
-├── index.scss        # Barrel — imports everything below
-├── abstracts/        # Mixins and shared functions
-├── settings/         # Design tokens (typography, component base)
-├── atoms/            # Per-component PrimeVue overrides
-├── molecules/        # Small composed patterns (chips, toolbars, empty states)
-├── organisms/        # Larger areas (sidebar, datatable, dialog, LP panel)
-├── layout/           # Page skeleton (topbar, main container, breadcrumb)
-├── components/       # Feature-specific styles (blog, exercise, social, skill, …)
-└── libs/             # Third-party overrides (FullCalendar, MediaElement.js)
+├── index.scss        # Barrel — mengimpor semua di bawah ini
+├── abstracts/        # Mixin dan fungsi bersama
+├── settings/         # Token desain (tipografi, basis komponen)
+├── atoms/            # Penggantian PrimeVue per komponen
+├── molecules/        # Pola kecil yang disusun (chip, toolbar, keadaan kosong)
+├── organisms/        # Area yang lebih besar (sidebar, datatable, dialog, panel LP)
+├── layout/           # Kerangka halaman (topbar, kontainer utama, breadcrumb)
+├── components/       # Gaya khusus fitur (blog, latihan, sosial, keterampilan, …)
+└── libs/             # Penggantian pihak ketiga (FullCalendar, MediaElement.js)
 ```
 
-## Using Tailwind in Vue Components
+## Menggunakan Tailwind di Komponen Vue
 
 ```vue
 <template>
@@ -116,4 +116,4 @@ scss/
 </template>
 ```
 
-Because `important: true` is set in `tailwind.config.js`, Tailwind utilities reliably override PrimeVue component styles without needing extra specificity.
+Karena `important: true` diatur dalam `tailwind.config.js`, utilitas Tailwind secara andal mengesampingkan gaya komponen PrimeVue tanpa memerlukan spesifisitas tambahan.

@@ -1,57 +1,57 @@
 # FAQ
 
-## General Questions
+## Pertanyaan Umum
 
-**How do I access my course?**
+**Bagaimana cara mengakses kursus saya?**
 
-Click **My courses** in the sidebar, then click on the course you want to open. If your course is part of a session, click **My sessions** first, then select the session and course.
+Klik **Kursus Saya** di bilah sisi, lalu klik kursus yang ingin Anda buka. Jika kursus Anda merupakan bagian dari sesi, klik **Sesi Saya** terlebih dahulu, lalu pilih sesi dan kursus yang dimaksud.
 
-**Can my learners access the course from a mobile phone?**
+**Apakah peserta didik saya dapat mengakses kursus dari ponsel?**
 
-Yes. Chamilo 2.0 has a responsive interface that adapts to all screen sizes. Learners can use any modern web browser on a phone, tablet, or computer.
+Ya. Chamilo 2.0 memiliki antarmuka responsif yang menyesuaikan dengan semua ukuran layar. Peserta didik dapat menggunakan browser web modern apa pun di ponsel, tablet, atau komputer.
 
-**What browsers are supported?**
+**Browser apa saja yang didukung?**
 
-Chamilo 2.0 works with all major modern browsers: Chrome, Firefox, Safari, and Edge. For the best experience, use the latest version of your browser.
+Chamilo 2.0 kompatibel dengan semua browser modern utama: Chrome, Firefox, Safari, dan Edge. Untuk pengalaman terbaik, gunakan versi terbaru dari browser Anda.
 
-## Content and Courses
+## Konten dan Kursus
 
-**How do I create a backup of my course?**
+**Bagaimana cara membuat cadangan kursus saya?**
 
-Go to the **Maintenance** tool in your course (accessible from the settings menu on the course homepage). You will find options to export your course content.
+Buka alat **Pemeliharaan** di kursus Anda (dapat diakses dari menu pengaturan di beranda kursus). Anda akan menemukan opsi untuk mengekspor konten kursus Anda.
 
-**Can I copy content from one course to another?**
+**Apakah saya dapat menyalin konten dari satu kursus ke kursus lain?**
 
-Yes. Use the course import/export features in the Maintenance tool to copy content between courses. You will need to create an empty *destination* course first.
+Ya. Gunakan fitur impor/ekspor kursus di alat Pemeliharaan untuk menyalin konten antar kursus. Anda perlu membuat kursus *tujuan* yang kosong terlebih dahulu.
 
-**What file formats can I upload?**
+**Format file apa saja yang dapat saya unggah?**
 
-Chamilo supports most common file formats: PDF, Word documents, PowerPoint presentations, images (PNG, JPG, SVG, GIF), audio files, video files, and many more. Your administrator may restrict certain file types for security reasons.
+Chamilo mendukung sebagian besar format file umum: PDF, dokumen Word, presentasi PowerPoint, gambar (PNG, JPG, SVG, GIF), file audio, file video, dan banyak lagi. Administrator Anda mungkin membatasi jenis file tertentu untuk alasan keamanan.
 
-**What is the maximum file upload size?**
+**Berapa ukuran maksimum file yang dapat diunggah?**
 
-This depends on your server configuration. Your administrator sets the upload limit. If you encounter a limit, contact your administrator.
+Ini tergantung pada konfigurasi server Anda. Administrator Anda yang menetapkan batas unggahan. Jika Anda menemui batasan, hubungi administrator Anda.
 
-## Assessment
+## Penilaian
 
-**Can exercises be graded automatically?**
+**Apakah latihan dapat dinilai secara otomatis?**
 
-Yes. Most question types (multiple choice, true/false, fill in the blanks, matching) are graded automatically. Open-ended questions require manual grading, or you can use AI-assisted grading if configured.
+Ya. Sebagian besar jenis pertanyaan (pilihan ganda, benar/salah, isi titik-titik, mencocokkan) dinilai secara otomatis. Pertanyaan terbuka memerlukan penilaian manual, atau Anda dapat menggunakan penilaian berbantuan AI jika telah dikonfigurasi.
 
-**Can I set a time limit on exercises?**
+**Apakah saya dapat menetapkan batas waktu pada latihan?**
 
-Yes. When creating or editing an exercise, you can set a time limit in minutes. Learners will see a countdown timer.
+Ya. Saat membuat atau mengedit latihan, Anda dapat menetapkan batas waktu dalam hitungan menit. Peserta didik akan melihat penghitung waktu mundur.
 
-**Can learners retake an exercise?**
+**Apakah peserta didik dapat mengulang latihan?**
 
-Yes. You control the number of allowed attempts in the exercise settings. You can allow unlimited attempts or set a specific maximum, but this maximum applies to all users in your course (you can *free* new attempts by deleting previous ones, but this is not recommended as it results in unequal chances between users and it is registered for audit at the platform level).
+Ya. Anda dapat mengontrol jumlah percobaan yang diizinkan di pengaturan latihan. Anda dapat mengizinkan percobaan tak terbatas atau menetapkan jumlah maksimum tertentu, tetapi batas maksimum ini berlaku untuk semua pengguna di kursus Anda (Anda dapat *membebaskan* percobaan baru dengan menghapus yang sebelumnya, tetapi ini tidak disarankan karena menyebabkan peluang yang tidak setara antar pengguna dan tindakan ini dicatat untuk audit di tingkat platform).
 
-## Technical Issues
+## Masalah Teknis
 
-**I cannot see a tool on my course homepage. Where is it?**
+**Saya tidak dapat melihat alat di beranda kursus saya. Di mana letaknya?**
 
-Some tools may be hidden. As a teacher, you can show hidden tools by looking for tools with a crossed-out eye icon. If you cannot find a specific tool at all, your platform administrator may have disabled it at the platform level.
+Beberapa alat mungkin disembunyikan. Sebagai pengajar, Anda dapat menampilkan alat yang disembunyikan dengan mencari alat yang memiliki ikon mata tercoret. Jika Anda sama sekali tidak dapat menemukan alat tertentu, administrator platform Anda mungkin telah menonaktifkannya di tingkat platform.
 
-**My learners say they cannot access the course.**
+**Peserta didik saya mengatakan mereka tidak dapat mengakses kursus.**
 
-Check the course visibility settings (Course Settings > Course Visibility). If set to "Registered only," learners must be explicitly enrolled. Also verify they have an active account on the platform.
+Periksa pengaturan visibilitas kursus (Pengaturan Kursus > Visibilitas Kursus). Jika diatur ke "Hanya Terdaftar," peserta didik harus secara eksplisit didaftarkan. Pastikan juga mereka memiliki akun aktif di platform.

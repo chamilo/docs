@@ -1,30 +1,30 @@
-# Sessions
+# Sesi
 
-Sessions are one of Chamilo's most powerful features. They allow you to deliver the same courses to different groups of learners at different times, without duplicating course content.
+Sesi adalah salah satu fitur paling kuat di Chamilo. Fitur ini memungkinkan Anda untuk menyampaikan kursus yang sama kepada kelompok peserta didik yang berbeda pada waktu yang berbeda, tanpa harus menduplikasi konten kursus.
 
-* **[Managing Sessions](managing-sessions.md)** — Create, configure, and manage training sessions
-* **[Session Categories](session-categories.md)** — Organize sessions into categories
-* **[Careers and Promotions](careers-and-promotions.md)** — Define career paths and promotion workflows
-* **[Classes](classes.md)** — Manage learner classes for bulk enrollment
+* **[Mengelola Sesi](managing-sessions.md)** — Membuat, mengonfigurasi, dan mengelola sesi pelatihan
+* **[Kategori Sesi](session-categories.md)** — Mengatur sesi ke dalam kategori
+* **[Karier dan Promosi](careers-and-promotions.md)** — Menentukan jalur karier dan alur kerja promosi
+* **[Kelas](classes.md)** — Mengelola kelas peserta didik untuk pendaftaran massal
 
-## Understanding Sessions
+## Memahami Sesi
 
-Sessions are **optional**. You can make your portal work just by using courses, but we **really** recommend you consider the extra complexity of sessions as a way to save management work in the long run.
+Sesi bersifat **opsional**. Anda dapat membuat portal Anda berfungsi hanya dengan menggunakan kursus, tetapi kami **sangat** merekomendasikan Anda mempertimbangkan kompleksitas tambahan dari sesi sebagai cara untuk menghemat pekerjaan manajemen dalam jangka panjang.
 
-A **course** holds the content (documents, exercises, learning paths). A **session** assigns that course (or multiple courses) to a specific group of learners *for a specific time period*.
+Sebuah **kursus** berisi konten (dokumen, latihan, jalur pembelajaran). Sebuah **sesi** menetapkan kursus tersebut (atau beberapa kursus) ke kelompok peserta didik tertentu *untuk periode waktu tertentu*.
 
-This architecture means:
+Arsitektur ini berarti:
 
-* Teachers create content once in the course
-* Administrators create sessions to deliver that content to different cohorts
-* Each session has its own enrollment, tracking data, and results
-* The base course content is shared, but session coaches can customize certain elements
+* Guru membuat konten sekali di dalam kursus
+* Administrator membuat sesi untuk menyampaikan konten tersebut ke kelompok yang berbeda
+* Setiap sesi memiliki pendaftaran, data pelacakan, dan hasilnya sendiri
+* Konten kursus dasar dibagikan, tetapi pelatih sesi dapat menyesuaikan elemen tertentu
 
-## When to Use Sessions
+## Kapan Menggunakan Sesi
 
-Use sessions when:
+Gunakan sesi ketika:
 
-* You deliver the same training multiple times (e.g., monthly onboarding sessions)
-* You have cohort-based programs (e.g., semester-based classes)
-* You need separate tracking per group of learners
-* You want different coaches to manage different editions of the same course
+* Anda menyampaikan pelatihan yang sama beberapa kali (misalnya, sesi orientasi bulanan)
+* Anda memiliki program berbasis kelompok (misalnya, kelas berbasis semester)
+* Anda membutuhkan pelacakan terpisah untuk setiap kelompok peserta didik
+* Anda ingin pelatih yang berbeda mengelola edisi yang berbeda dari kursus yang sama

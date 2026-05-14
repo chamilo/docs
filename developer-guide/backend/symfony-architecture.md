@@ -1,61 +1,61 @@
-# Symfony Architecture
+# Arsitektur Symfony
 
-## Bundles
+## Bundle
 
-Chamilo 2.0 is structured into three Symfony bundles:
+Chamilo 2.0 terstruktur dalam tiga bundle Symfony:
 
 ### CoreBundle (`src/CoreBundle/`)
 
-The largest bundle, handling all platform-wide concerns:
+Bundle terbesar, bertanggung jawab atas semua aspek yang mencakup platform:
 
-* **Users and authentication** — User entity, roles, JWT tokens, OAuth2 providers
-* **Resource system** — ResourceNode and ResourceFile (the unified content abstraction)
-* **Platform settings** — settings schemas in `src/CoreBundle/Settings/` covering every configurable aspect
-* **Administration** — Admin controllers for user, course, session, and plugin management
-* **AI providers** — Factory pattern for OpenAI, Gemini, Mistral, DeepSeek, Grok
-* **File storage** — Flysystem-based storage adapters (local, S3, Azure, GCS)
-* **Security** — Voters, access control, role hierarchy
-* **Tools** — course tool definitions registered through the tool system
+* **Pengguna dan autentikasi** — Entitas pengguna, peran, token JWT, penyedia OAuth2
+* **Sistem sumber daya** — ResourceNode dan ResourceFile (abstraksi terpadu dari konten)
+* **Pengaturan platform** — Skema pengaturan di `src/CoreBundle/Settings/` yang mencakup semua aspek yang dapat dikonfigurasi
+* **Administrasi** — Pengontrol administrasi untuk pengelolaan pengguna, kursus, sesi, dan plugin
+* **Penyedia AI** — Pola Factory untuk OpenAI, Gemini, Mistral, DeepSeek, Grok
+* **Penyimpanan berkas** — Adaptor penyimpanan berbasis Flysystem (lokal, S3, Azure, GCS)
+* **Keamanan** — Voters, kontrol akses, hierarki peran
+* **Alat** — Definisi alat kursus yang terdaftar oleh sistem alat
 
 ### CourseBundle (`src/CourseBundle/`)
 
-Everything specific to course content:
+Semua yang berkaitan dengan konten kursus:
 
-* **Content entities** — 101 entities for documents, exercises, learning paths, forums, glossaries, surveys, attendance, blogs, assignments, and more
-* **Course copy** — Import/export with Common Cartridge 1.3 and Moodle format support
-* **Course settings** — Course-level setting schemas
+* **Entitas konten** — 101 entitas untuk dokumen, latihan, jalur pembelajaran, forum, glosarium, jajak pendapat, kehadiran, blog, tugas, dan lainnya
+* **Salinan kursus** — Impor/ekspor dengan dukungan format Common Cartridge 1.3 dan Moodle
+* **Pengaturan kursus** — Skema pengaturan pada tingkat kursus
 
 ### LtiBundle (`src/LtiBundle/`)
 
-LTI 1.3 standard implementation:
+Implementasi standar LTI 1.3:
 
-* **Platform and tool registration** — Manage external tool connections
-* **Launch handling** — LTI launch flow controllers
-* **Grade passback** — Return grades from external tools to Chamilo
+* **Registrasi platform dan alat** — Pengelolaan koneksi dengan alat eksternal
+* **Pengelolaan peluncuran** — Pengontrol alur peluncuran LTI
+* **Pengembalian nilai** — Pengiriman nilai dari alat eksternal ke Chamilo
 
-## Service Container
+## Kontainer Layanan
 
-Chamilo uses Symfony's dependency injection container. Services are configured in:
+Chamilo menggunakan kontainer injeksi dependensi dari Symfony. Layanan dikonfigurasi di:
 
-* `config/services.yaml` — Global service definitions
-* Each bundle's `DependencyInjection/` directory — Bundle-specific services
+* `config/services.yaml` — Definisi layanan global
+* Direktori `DependencyInjection/` pada setiap bundle — Layanan khusus untuk setiap bundle
 
-## Security Architecture
+## Arsitektur Keamanan
 
-The security system is configured in `config/packages/security.yaml`:
+Sistem keamanan dikonfigurasi di `config/packages/security.yaml`:
 
-* **Password hashing** — Supports bcrypt (default), with migration from legacy SHA1 and MD5
-* **Role hierarchy** — 18 roles organized hierarchically (ROLE_GLOBAL_ADMIN > ROLE_ADMIN > ROLE_TEACHER > ROLE_STUDENT > ROLE_USER; additional roles include ROLE_HR, ROLE_INVITEE, ROLE_STUDENT_BOSS, ROLE_SESSION_MANAGER, ROLE_QUESTION_MANAGER)
-* **Context-sensitive roles** — Course-level roles (ROLE_CURRENT_COURSE_TEACHER, ROLE_CURRENT_COURSE_STUDENT) are computed per-request based on enrollment
-* **Firewall** — JWT authentication for API, session-based for web interface
-* **Voters** — Resource-level access control through Symfony voters
+* **Hash kata sandi** — Mendukung bcrypt (default), dengan migrasi dari SHA1 dan MD5 lama
+* **Hierarki peran** — 18 peran yang diatur secara hierarkis (ROLE_GLOBAL_ADMIN > ROLE_ADMIN > ROLE_TEACHER > ROLE_STUDENT > ROLE_USER; peran tambahan meliputi ROLE_HR, ROLE_INVITEE, ROLE_STUDENT_BOSS, ROLE_SESSION_MANAGER, ROLE_QUESTION_MANAGER)
+* **Peran sensitif konteks** — Peran pada tingkat kursus (ROLE_CURRENT_COURSE_TEACHER, ROLE_CURRENT_COURSE_STUDENT) dihitung per permintaan berdasarkan pendaftaran
+* **Firewall** — Autentikasi JWT untuk API, berbasis sesi untuk antarmuka web
+* **Voters** — Kontrol akses pada tingkat sumber daya melalui voters Symfony
 
-## Legacy Code
+## Kode Lama
 
-Some features still use legacy PHP code in `public/main/`:
+Beberapa fitur masih menggunakan kode PHP lama di `public/main/`:
 
-* Exercise rendering and interaction
-* Learning path player
-* Some admin tools
+* Rendering dan interaksi latihan
+* Pemutar jalur pembelajaran
+* Beberapa alat administrasi
 
-These are progressively being migrated to the Symfony+Vue architecture. Legacy pages are served through a compatibility layer that bootstraps the Symfony kernel.
+Fitur-fitur ini secara bertahap dimigrasikan ke arsitektur Symfony+Vue. Halaman lama disajikan melalui lapisan kompatibilitas yang menginisialisasi kernel Symfony.

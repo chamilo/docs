@@ -1,7 +1,7 @@
-# Theming
+# Penyesuaian Tema
 
-Chamilo 2.0 supports visual customization through color themes, CSS/Tailwind, and Twig templates.
+Chamilo 2.0 mendukung penyesuaian visual melalui tema warna, CSS/Tailwind, dan template Twig.
 
-* **[Color Themes](color-themes.md)** — The color theme system
-* **[CSS and Tailwind](css-and-tailwind.md)** — Styling architecture
-* **[Twig Templates](twig-templates.md)** — Server-side template structure
+* **[Tema Warna](color-themes.md)** — Sistem tema warna
+* **[CSS dan Tailwind](css-and-tailwind.md)** — Arsitektur penataan gaya
+* **[Template Twig](twig-templates.md)** — Struktur template sisi server

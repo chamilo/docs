@@ -1,70 +1,65 @@
-# Messaging Settings
+# Pengaturan Pesan
 
-Behaviour of the **Messaging / Inbox** system.
+Perilaku sistem **Pesan / Kotak Masuk**.
 
-Access these settings under **Administration > Configuration settings > Messaging**. This category contains **7 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+Akses pengaturan ini di bawah **Administrasi > Pengaturan Konfigurasi > Pesan**. Kategori ini berisi **7 pengaturan**, yang tercantum di bawah ini beserta judul dan komentar yang disertakan dalam fixture pengaturan platform (`SettingsCurrentFixtures.php`).
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> Nama variabel dalam kode ditampilkan dalam format monospace. Gunakan saat membuat skrip melalui API atau ketika Anda perlu mengubah pengaturan tersebut pada tingkat global dengan mengedit [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
 
-## Settings
+## Pengaturan
 
 ### `allow_message_tool`
 
-**Internal messaging tool**
+**Alat pesan internal**
 
-Enabling the internal messaging tool allows users to send messages to other users of the platform and to have a messaging inbox.
+Mengaktifkan alat pesan internal memungkinkan pengguna untuk mengirim pesan ke pengguna lain di platform dan memiliki kotak masuk pesan.
 
 *Default: `true`*
 
 ### `allow_send_message_to_all_platform_users`
 
-**Allow sending messages to any platform user**
+**Izinkan mengirim pesan ke semua pengguna platform**
 
-Allows you to send messages to any user of the platform, not just your friends or the people currently online.
+Memungkinkan Anda untuk mengirim pesan ke pengguna mana pun di platform, tidak hanya teman Anda atau orang-orang yang sedang online.
 
 *Default: `false`*
 
 ### `allow_user_message_tracking`
 
-**Admins can see personal messages**
+**Admin dapat melihat pesan pribadi**
 
-Allow administrators to see personal messages between a teacher and a learner. Please make sure you include a note in your terms and conditions as this might affect privacy protection.
+Mengizinkan administrator untuk melihat pesan pribadi antara seorang pengajar dan peserta didik. Pastikan Anda menyertakan catatan dalam syarat dan ketentuan karena ini dapat memengaruhi perlindungan privasi.
 
 *Default: `false`*
-
 
 ### `filter_interactivity_messages`
 
-**Teachers can access learners messages only within session timeframe**
+**Pengajar hanya dapat mengakses pesan peserta didik dalam rentang waktu sesi**
 
-Filter messages between a teacher and a learner between the session start end dates
+Menyaring pesan antara pengajar dan peserta didik berdasarkan tanggal mulai dan akhir sesi.
 
 *Default: `false`*
 
-
 ### `message_max_upload_filesize`
 
-**Max upload file size in messages**
+**Ukuran maksimum unggahan file dalam pesan**
 
-Maximum size for file uploads in the messaging tool (in Bytes)
+Ukuran maksimum untuk unggahan file dalam alat pesan (dalam Byte).
 
 *Default: `20971520`*
 
 ### `private_messages_about_user`
 
-**Allow private messages between teachers about a learner**
+**Izinkan pesan pribadi antara pengajar tentang seorang peserta didik**
 
-Allow exchange of messages from teachers/bosses about a user from the tracking page of that user.
+Mengizinkan pertukaran pesan dari pengajar/atasan tentang seorang pengguna dari halaman pelacakan pengguna tersebut.
 
 *Default: `false`*
-
 
 ### `private_messages_about_user_visible_to_user`
 
-**Allow learners to see messages about them between teachers**
+**Izinkan peserta didik melihat pesan tentang mereka antara pengajar**
 
-If exchange of messages about a user are enabled, this option will allow the corresponding user to see the messages. This is to comply with rules of transparency the organization may need to comply to.
+Jika pertukaran pesan tentang seorang pengguna diaktifkan, opsi ini akan memungkinkan pengguna yang bersangkutan untuk melihat pesan tersebut. Ini untuk mematuhi aturan transparansi yang mungkin perlu dipatuhi oleh organisasi.
 
 *Default: `false`*
-
-

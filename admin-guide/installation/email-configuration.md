@@ -1,42 +1,42 @@
-# Email Configuration
+# Konfigurasi Email
 
-Chamilo now manages the emails sending configuration from the administration dashboard, platform settings section (there is a specific entry for emails). Emails are sent for account creations, password resets, course notifications, message alerts, and other platform events. Email delivery is configured through a `MAILER_DSN` configuration setting.
+Chamilo kini mengelola konfigurasi pengiriman email dari dasbor administrasi, bagian pengaturan platform (ada entri khusus untuk email). Email dikirim untuk pembuatan akun, pengaturan ulang kata sandi, pemberitahuan kursus, peringatan pesan, dan acara platform lainnya. Pengiriman email dikonfigurasi melalui pengaturan `MAILER_DSN`.
 
-## Configuration
+## Konfigurasi
 
-Set the `Mail DSN` option in the /admin/settings/mail section. The format depends on your email transport.
+Atur opsi `Mail DSN` di bagian /admin/settings/mail. Formatnya tergantung pada transport email Anda.
 
 ### SMTP
 
-The most common configuration, suitable for any SMTP server:
+Konfigurasi yang paling umum, cocok untuk server SMTP apa pun:
 
 ```bash
-# Let the system decide
+# Biarkan sistem yang menentukan
 native://default
 
-# Basic SMTP
+# SMTP Dasar
 smtp://username:password@smtp.example.com:587
 
-# SMTP with TLS (most providers)
+# SMTP dengan TLS (kebanyakan penyedia)
 smtp://username:password@smtp.example.com:587?encryption=tls
 
-# SMTP without authentication (local relay)
+# SMTP tanpa autentikasi (relay lokal)
 smtp://localhost:25
 ```
 
-Replace `username`, `password`, and the host with your SMTP server credentials.
+Ganti `username`, `password`, dan host dengan kredensial server SMTP Anda.
 
 ### Amazon SES
 
 ```bash
-# Using SMTP interface
+# Menggunakan antarmuka SMTP
 ses+smtp://ACCESS_KEY:SECRET_KEY@default?region=us-east-1
 
-# Using API
+# Menggunakan API
 ses+api://ACCESS_KEY:SECRET_KEY@default?region=us-east-1
 ```
 
-The Symfony Amazon Mailer transport comes embedded into Chamilo. No additional install required.
+Transport Symfony Amazon Mailer sudah tertanam di Chamilo. Tidak diperlukan instalasi tambahan.
 
 ### Mailjet
 
@@ -44,48 +44,48 @@ The Symfony Amazon Mailer transport comes embedded into Chamilo. No additional i
 mailjet+api://API_KEY:SECRET_KEY@default
 ```
 
-The Symfony Mailjet transport comes embedded into Chamilo. No additional install required.
+Transport Symfony Mailjet sudah tertanam di Chamilo. Tidak diperlukan instalasi tambahan.
 
-### Brevo (formerly Sendinblue)
+### Brevo (sebelumnya Sendinblue)
 
 ```bash
 brevo+api://API_KEY@default
 ```
 
-The Symfony Brevo transport comes embedded into Chamilo. No additional install required.
+Transport Symfony Brevo sudah tertanam di Chamilo. Tidak diperlukan instalasi tambahan.
 
-### Gmail (Development/Small Platforms)
+### Gmail (Pengembangan/Platform Kecil)
 
 ```bash
 gmail+smtp://your-email@gmail.com:app-password@default
 ```
 
-Use an App Password, not your regular Gmail password. This is suitable for small platforms or development only, as Gmail has sending limits.
+Gunakan App Password, bukan kata sandi Gmail biasa Anda. Ini cocok hanya untuk platform kecil atau pengembangan, karena Gmail memiliki batasan pengiriman.
 
-## Platform Email Settings
+## Pengaturan Email Platform
 
-In addition to the transport, configure the sender identity on the same page:
+Selain transport, konfigurasikan identitas pengirim di halaman yang sama:
 
-| Setting | Description |
-|---------|-------------|
-| **Send all e-mails as originating from this (organizational) name** | The display name associated with system emails. |
-| **Send all e-mails from this e-mail address** | The "From" address for all system emails. Must be a valid address accepted by your mail transport. We recommend using a "no reply" address like `no-reply@yourdomain.com` to avoid getting pointless answers to automated e-mails. |
+| Pengaturan | Deskripsi |
+|------------|-----------|
+| **Kirim semua email sebagai berasal dari nama (organisasi) ini** | Nama tampilan yang terkait dengan email sistem. |
+| **Kirim semua email dari alamat email ini** | Alamat "From" untuk semua email sistem. Harus merupakan alamat yang valid yang diterima oleh transport email Anda. Kami merekomendasikan penggunaan alamat "no reply" seperti `no-reply@yourdomain.com` untuk menghindari jawaban yang tidak perlu atas email otomatis. |
 
-## Testing Email Delivery
+## Menguji Pengiriman Email
 
-After configuring `MAILER_DSN`, test that emails are delivered: Go to *Administration* > *System* > *E-mail tester*, specify a recipient, a subject and an e-mail body and click **Send test email**.
+Setelah mengonfigurasi `MAILER_DSN`, uji apakah email terkirim: Buka *Administrasi* > *Sistem* > *Penguji Email*, tentukan penerima, subjek, dan isi email, lalu klik **Kirim email uji**.
 
-If the command completes without errors but the email is not received:
+Jika perintah selesai tanpa kesalahan tetapi email tidak diterima:
 
-1. Check the recipient's spam/junk folder.
-2. Verify that your sending domain has proper DNS records (SPF, DKIM, DMARC).
-3. Check your mail provider's sending logs for bounces or rejections.
-4. Review the Chamilo log at `var/log/prod.log` for mailer errors.
-5. In the E-mail configuration settings, enable *Mail: Debug* (not available in 2.0, will be soon).
+1. Periksa folder spam/junk penerima.
+2. Pastikan domain pengirim Anda memiliki catatan DNS yang tepat (SPF, DKIM, DMARC).
+3. Periksa log pengiriman penyedia email Anda untuk melihat apakah ada penolakan atau pantulan.
+4. Tinjau log Chamilo di `var/log/prod.log` untuk kesalahan mailer.
+5. Di pengaturan konfigurasi email, aktifkan *Mail: Debug* (tidak tersedia di versi 2.0, akan segera hadir).
 
-## Experimental: Email Queue (Async Delivery)
+## Eksperimental: Antrean Email (Pengiriman Asinkron)
 
-By default, emails are sent synchronously during the web request. For better performance, configure asynchronous delivery using Symfony Messenger:
+Secara default, email dikirim secara sinkron selama permintaan web. Untuk performa yang lebih baik, konfigurasikan pengiriman asinkron menggunakan Symfony Messenger:
 
 ```yaml
 # config/packages/messenger.yaml
@@ -97,16 +97,16 @@ framework:
             'Symfony\Component\Mailer\Messenger\SendEmailMessage': async
 ```
 
-With async delivery, emails are queued and sent by a background worker:
+Dengan pengiriman asinkron, email akan diantrekan dan dikirim oleh pekerja latar belakang:
 
 ```bash
 php bin/console messenger:consume async
 ```
 
-Run this as a system service (e.g., via systemd or supervisord) so it stays running.
+Jalankan ini sebagai layanan sistem (misalnya, melalui systemd atau supervisord) agar tetap berjalan.
 
 ## Tips
 
-* **Use a dedicated email service** (SES, Mailjet, Brevo) for production platforms. Direct SMTP to your own mail server requires careful configuration to avoid deliverability issues.
-* **Configure SPF, DKIM, and DMARC** DNS records for your sending domain to maximize delivery rates and prevent emails from being marked as spam. You can also configure DKIM headers from the e-mail settings page.
-* **Use async delivery** on platforms with more than a few dozen active users -- synchronous email sending can noticeably slow down web requests.
+* **Gunakan layanan email khusus** (SES, Mailjet, Brevo) untuk platform produksi. SMTP langsung ke server email Anda sendiri memerlukan konfigurasi yang cermat untuk menghindari masalah pengiriman.
+* **Konfigurasikan catatan DNS SPF, DKIM, dan DMARC** untuk domain pengirim Anda guna memaksimalkan tingkat pengiriman dan mencegah email ditandai sebagai spam. Anda juga dapat mengonfigurasi header DKIM dari halaman pengaturan email.
+* **Gunakan pengiriman asinkron** pada platform dengan lebih dari beberapa lusin pengguna aktif -- pengiriman email sinkron dapat memperlambat permintaan web secara nyata.

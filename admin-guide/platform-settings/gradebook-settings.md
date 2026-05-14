@@ -1,293 +1,270 @@
-# Gradebook (Assessments) Settings
+# Pengaturan Buku Nilai (Penilaian)
 
-Defaults applied across the **Gradebook (Assessments)** tool — score display, decimal precision, certificate score thresholds, and aggregation.
+Pengaturan default yang diterapkan pada alat **Buku Nilai (Penilaian)** — tampilan skor, presisi desimal, ambang batas skor sertifikat, dan agregasi.
 
-Access these settings under **Administration > Configuration settings > Gradebook (Assessments)**. This category contains **34 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+Akses pengaturan ini di bawah **Administrasi > Pengaturan Konfigurasi > Buku Nilai (Penilaian)**. Kategori ini berisi **34 pengaturan**, yang tercantum di bawah ini dengan judul dan komentar yang disertakan dalam fixture pengaturan platform (`SettingsCurrentFixtures.php`).
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> Nama variabel dalam kode ditampilkan dalam monospace. Gunakan ini saat membuat skrip melalui API atau ketika Anda perlu mengubah pengaturan tersebut pada tingkat global dengan mengedit [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
 
-## Settings
+## Pengaturan
 
 ### `allow_gradebook_comments`
 
-**Gradebook comments**
+**Komentar Buku Nilai**
 
-Enable gradebook comments so teachers can add a comment to the overall performance of the learner in this course. The comment will appear in the PDF export for the learner.
+Aktifkan komentar buku nilai sehingga pengajar dapat menambahkan komentar mengenai kinerja keseluruhan peserta didik dalam kursus ini. Komentar akan muncul dalam ekspor PDF untuk peserta didik.
 
 *Default: `false`*
 
-
 ### `allow_gradebook_stats`
 
-**Cache results in the gradebook**
+**Simpan hasil dalam buku nilai**
 
-Put some of the large calculations of averages in cached fields for the links and evaluations to increase speed (considerably). The potential negative impact is that it can take some time to refresh the gradebook results tables.
+Simpan beberapa perhitungan besar rata-rata dalam kolom cache untuk tautan dan evaluasi guna meningkatkan kecepatan (secara signifikan). Dampak negatif yang mungkin terjadi adalah bahwa pembaruan tabel hasil buku nilai dapat memakan waktu.
 
 *Default: `false`*
 
 ### `gradebook_badge_sidebar`
 
-**Gradebook badges sidebar**
+**Sidebar lencana buku nilai**
 
-Generate a block inside the side menu where a few badges can be shown as pending approval. Requires gradebooks to be listed here, by (numerical) ID.
+Buat blok di dalam menu samping yang menampilkan beberapa lencana sebagai menunggu persetujuan. Membutuhkan buku nilai untuk dicantumkan di sini, berdasarkan ID (numerik).
 
 ### `gradebook_default_grade_model_id`
 
-**Default grade model**
+**Model nilai default**
 
-This value will be selected by default when creating a course
+Nilai ini akan dipilih secara default saat membuat kursus.
 
 ### `gradebook_default_weight`
 
-**Default weight in Gradebook**
+**Bobot default di Buku Nilai**
 
-This weight will be use in all courses by default
+Bobot ini akan digunakan di semua kursus secara default.
 
 *Default: `100`*
 
 ### `gradebook_dependency`
 
-**Inter-gradebook dependencies**
+**Ketergantungan antar buku nilai**
 
-Enables a mechanism of gradebook dependencies that lets people know which other items they need to go through first in order to complete the gradebook.
+Mengaktifkan mekanisme ketergantungan buku nilai yang memberi tahu pengguna item mana yang perlu mereka selesaikan terlebih dahulu untuk menyelesaikan buku nilai.
 
 *Default: `false`*
-
 
 ### `gradebook_dependency_mandatory_courses`
 
-**Mandatory courses for gradebook dependencies**
+**Kursus wajib untuk ketergantungan buku nilai**
 
-When using inter-gradebook dependencies, you can choose a list of mandatory courses that will be required before approving any gradebook that has dependencies.
+Saat menggunakan ketergantungan antar buku nilai, Anda dapat memilih daftar kursus wajib yang diperlukan sebelum menyetujui buku nilai yang memiliki ketergantungan.
 
 ### `gradebook_detailed_admin_view`
 
-**Show additional columns in gradebook**
+**Tampilkan kolom tambahan di buku nilai**
 
-Show additional columns in the student view of the gradebook with the best score of all students, the relative position of the student looking at the report and the average score of the whole group of students.
+Tampilkan kolom tambahan di tampilan siswa pada buku nilai dengan skor terbaik dari semua siswa, posisi relatif siswa yang melihat laporan, dan skor rata-rata dari seluruh kelompok siswa.
 
 *Default: `false`*
 
-
 ### `gradebook_display_extra_stats`
 
-**Gradebook extra statistics**
+**Statistik tambahan buku nilai**
 
-Add additional columns to the gradebook's main report (1 = ranking, 2 = best score, 3 = average).
+Tambahkan kolom tambahan ke laporan utama buku nilai (1 = peringkat, 2 = skor terbaik, 3 = rata-rata).
 
 ### `gradebook_enable`
 
-**Assessments tool activation**
+**Aktivasi alat Penilaian**
 
-The Assessments tool allows you to assess competences in your organization by merging classroom and online activities evaluations into Performance reports. Do you want to activate it?
+Alat Penilaian memungkinkan Anda untuk menilai kompetensi di organisasi Anda dengan menggabungkan evaluasi kegiatan kelas dan daring ke dalam laporan Kinerja. Apakah Anda ingin mengaktifkannya?
 
 *Default: `true`*
 
-
 ### `gradebook_enable_grade_model`
 
-**Enable Gradebook model**
+**Aktifkan model Buku Nilai**
 
-Enables the auto creation of gradebook categories inside a course depending of the gradebook models.
+Mengaktifkan pembuatan otomatis kategori buku nilai di dalam kursus tergantung pada model buku nilai.
 
 *Default: `false`*
 
 ### `gradebook_enable_subcategory_skills_independant_assignement`
 
-**Enable skills by gradebook's subcategory**
+**Aktifkan keterampilan berdasarkan subkategori buku nilai**
 
-Skills are normally attributed for completing a whole gradebook. By enabling this option, you allow skills to be attached to sub-sections of gradebooks.
+Keterampilan biasanya diberikan untuk menyelesaikan seluruh buku nilai. Dengan mengaktifkan opsi ini, Anda mengizinkan keterampilan untuk dilampirkan ke sub-bagian dari buku nilai.
 
 *Default: `false`*
-
 
 ### `gradebook_flatview_extrafields_columns`
 
-**User extra fields in gradebook flat view**
+**Kolom bidang tambahan pengguna di tampilan datar buku nilai**
 
-Add the given columns ('variables' array) to the main results table in the gradebook.
+Tambahkan kolom yang diberikan (array 'variables') ke tabel hasil utama di buku nilai.
 
 ### `gradebook_hide_graph`
 
-**Hide gradebook charts**
+**Sembunyikan grafik buku nilai**
 
-If your portal is resources-limited, reducing the generation of the dynamic gradebok charts with potentially thousands of results is a good option.
+Jika portal Anda memiliki sumber daya terbatas, mengurangi pembuatan grafik buku nilai dinamis dengan potensi ribuan hasil adalah pilihan yang baik.
 
 *Default: `false`*
-
 
 ### `gradebook_hide_link_to_item_for_student`
 
-**Hide item links for learners in gradebook**
+**Sembunyikan tautan item untuk peserta didik di buku nilai**
 
-Avoid learners clicking on items from the gradebook by removing the links on the items.
+Hindari peserta didik mengklik item dari buku nilai dengan menghapus tautan pada item tersebut.
 
 *Default: `false`*
-
 
 ### `gradebook_hide_pdf_report_button`
 
-**Hide gradebook button 'download PDF report'**
+**Sembunyikan tombol 'unduh laporan PDF' di buku nilai**
 
-Removes the PDF export button from gradebook views for learners.
+Menghapus tombol ekspor PDF dari tampilan buku nilai untuk peserta didik.
 
 *Default: `false`*
-
 
 ### `gradebook_hide_table`
 
-**Hide gradebook table for learners**
+**Sembunyikan tabel buku nilai untuk peserta didik**
 
-Reduce gradebook load time by hiding the results table (but still giving access to certificates, skills, etc).
+Kurangi waktu muat buku nilai dengan menyembunyikan tabel hasil (tetapi tetap memberikan akses ke sertifikat, keterampilan, dll).
 
 *Default: `false`*
 
-
+---
 ### `gradebook_locking_enabled`
 
-**Enable locking of assessments by teachers**
+**Mengaktifkan penguncian penilaian oleh pengajar**
 
-Once enabled, this option will enable locking of any assessment by the teachers of the corresponding course. This, in turn, will prevent any modification of results by the teacher inside the resources used in the assessment: exams, learning paths, tasks, etc. The only role authorized to unlock a locked assessment is the administrator. The teacher will be informed of this possibility. The locking and unlocking of gradebooks will be registered in the system's report of important activities
+Setelah diaktifkan, opsi ini akan memungkinkan penguncian penilaian apa pun oleh pengajar dari kursus yang bersangkutan. Hal ini, pada gilirannya, akan mencegah perubahan hasil oleh pengajar di dalam sumber daya yang digunakan dalam penilaian: ujian, jalur pembelajaran, tugas, dll. Satu-satunya peran yang diizinkan untuk membuka kunci penilaian yang terkunci adalah administrator. Pengajar akan diberitahu tentang kemungkinan ini. Penguncian dan pembukaan kunci buku nilai akan dicatat dalam laporan aktivitas penting sistem.
 
 *Default: `false`*
 
 ### `gradebook_multiple_evaluation_attempts`
 
-**Allow multiple evaluation attempts in gradebook**
+**Mengizinkan beberapa upaya penilaian di buku nilai**
 
-Allows adding comments to multiple evaluation attempts in gradebook and result tables.
+Mengizinkan penambahan komentar pada beberapa upaya penilaian di buku nilai dan tabel hasil.
 
 *Default: `false`*
 
-
 ### `gradebook_number_decimals`
 
-**Number of decimals**
+**Jumlah desimal**
 
-Allows you to set the number of decimals allowed in a score
+Memungkinkan Anda untuk mengatur jumlah desimal yang diizinkan dalam skor.
 
 *Default: `0`*
 
 ### `gradebook_pdf_export_settings`
 
-**Gradebook PDF export options**
+**Opsi ekspor PDF buku nilai**
 
-Change the PDF export for learners based on the provided settings ('hide_score_weight', 'hide_feedback_textarea', ...)
+Mengubah ekspor PDF untuk peserta didik berdasarkan pengaturan yang diberikan ('hide_score_weight', 'hide_feedback_textarea', ...)
 
 ### `gradebook_report_score_style`
 
-**Gradebook reports score style**
+**Gaya skor laporan buku nilai**
 
-Add gradebook score style configuration in the flat view. See api.lib.php in order to find the options: examples SCORE_DIV = 1, SCORE_PERCENT = 2, etc
+Menambahkan konfigurasi gaya skor buku nilai di tampilan datar. Lihat api.lib.php untuk menemukan opsi: contoh SCORE_DIV = 1, SCORE_PERCENT = 2, dll.
 
 *Default: `1`*
 
-
 ### `gradebook_score_display_colorsplit`
 
-**Threshold**
+**Ambang batas**
 
-The threshold (in %) under which scores will be colored red
+Ambang batas (dalam %) di bawah mana skor akan diwarnai merah.
 
 *Default: `50`*
 
-
 ### `gradebook_score_display_custom`
 
-**Competence levels labelling**
+**Pelabelan tingkat kompetensi**
 
-Tick the box to enable Competence levels labelling
+Centang kotak untuk mengaktifkan pelabelan tingkat kompetensi.
 
 *Default: `false`*
-
 
 ### `gradebook_score_display_custom_standalone`
 
-**Custom score display in gradebook's standalone column**
+**Tampilan skor kustom di kolom mandiri buku nilai**
 
-Shows custom competence level values in a separate column in gradebook flatview when using custom score display.
+Menampilkan nilai tingkat kompetensi kustom di kolom terpisah di tampilan datar buku nilai saat menggunakan tampilan skor kustom.
 
 *Default: `false`*
-
 
 ### `gradebook_score_display_upperlimit`
 
-**Display score upper limit**
+**Menampilkan batas atas skor**
 
-Tick the box to show the score's upper limit
+Centang kotak untuk menunjukkan batas atas skor.
 
 *Default: `false`*
-
 
 ### `gradebook_use_apcu_cache`
 
-**Use APCu caching to speed up gradebok**
+**Menggunakan cache APCu untuk mempercepat buku nilai**
 
-Improve speed when rendering gradebook student reports using Doctrine APCU cache. APCu is an optional but recommended PHP extension.
+Meningkatkan kecepatan saat merender laporan siswa buku nilai menggunakan cache Doctrine APCU. APCu adalah ekstensi PHP opsional tetapi direkomendasikan.
 
 *Default: `true`*
-
 
 ### `gradebook_use_exercise_score_settings_in_categories`
 
-**Use test settings for grades display**
+**Menggunakan pengaturan tes untuk tampilan nilai**
 
-Applies exercise score display settings (percentage vs. points) to category scores in gradebook.
+Menerapkan pengaturan tampilan skor latihan (persentase vs. poin) ke skor kategori di buku nilai.
 
 *Default: `true`*
-
 
 ### `gradebook_use_exercise_score_settings_in_total`
 
-**Use global score display setting in gradebook**
+**Menggunakan pengaturan tampilan skor global di buku nilai**
 
-Applies global exercise score display settings to total score calculations in gradebook.
+Menerapkan pengaturan tampilan skor latihan global ke perhitungan skor total di buku nilai.
 
 *Default: `false`*
-
 
 ### `hide_gradebook_percentage_user_result`
 
-**Hide percentage in best/average gradebook results**
+**Menyembunyikan persentase di hasil buku nilai terbaik/rata-rata**
 
-Removes percentage display from best/average score results shown to learners in gradebook.
+Menghapus tampilan persentase dari hasil skor terbaik/rata-rata yang ditunjukkan kepada peserta didik di buku nilai.
 
 *Default: `true`*
-
 
 ### `my_display_coloring`
 
-**Display colors for scores in the gradebook**
+**Menampilkan warna untuk skor di buku nilai**
 
-Enables color coding for better score visibility in the gradebook.
+Mengaktifkan pengkodean warna untuk visibilitas skor yang lebih baik di buku nilai.
 
 *Default: `false`*
 
-
 ### `student_publication_to_take_in_gradebook`
 
-**Assignment considered for gradebook**
+**Tugas yang dipertimbangkan untuk buku nilai**
 
-In the assignments tool, students can upload more than one file. In case there is more than one for a single assignment, which one should be considered when ranking them in the gradebook? This depends on your methodology. Use 'first' to put the accent on attention to detail (like handling in time and handling the right work first). Use 'last' to highlight collaborative and adaptative work.
+Di alat tugas, siswa dapat mengunggah lebih dari satu file. Jika ada lebih dari satu untuk tugas yang sama, mana yang harus dipertimbangkan saat menentukan peringkat di buku nilai? Ini tergantung pada metodologi Anda. Gunakan 'first' untuk menekankan perhatian pada detail (seperti penyerahan tepat waktu dan penyerahan pekerjaan yang benar terlebih dahulu). Gunakan 'last' untuk menyoroti kerja kolaboratif dan adaptif.
 
 *Default: `first`*
 
-
 ### `teachers_can_change_grade_model_settings`
 
-**Teachers can change the Gradebook model settings**
+**Pengajar dapat mengubah pengaturan model buku nilai**
 
-When editing a Gradebook
+Saat mengedit buku nilai.
 
 *Default: `true`*
-
 
 ### `teachers_can_change_score_settings`
 
-**Teachers can change the Gradebook score settings**
+**Pengajar dapat mengubah pengaturan skor buku nilai**
 
-When editing the Gradebook settings
+Saat mengedit pengaturan buku nilai.
 
 *Default: `true`*
-
-

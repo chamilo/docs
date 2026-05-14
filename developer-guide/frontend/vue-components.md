@@ -1,146 +1,151 @@
-# Vue Components
+# Komponen Vue
 
-Chamilo has a large set of Vue components organized by feature area in `assets/vue/components/`.
+Chamilo memiliki sejumlah besar komponen Vue yang diorganisasi berdasarkan area fungsionalitas di `assets/vue/components/`.
 
-## Base Components
+## Komponen Dasar
 
-The `Base*` family in `assets/vue/components/basecomponents/` wraps PrimeVue primitives with Chamilo-specific defaults (FloatLabel layout, MDI icons via `chamiloIconToClass`, consistent validation messages, Tailwind sizing). Always reach for a `Base*` component before importing the underlying PrimeVue one — that's how the UI stays consistent across the SPA and how design changes can be rolled out from a single place.
+Keluarga `Base*` di `assets/vue/components/basecomponents/` mengenkapsulasi primitif PrimeVue dengan standar khusus Chamilo (tata letak FloatLabel, ikon MDI melalui `chamiloIconToClass`, pesan validasi yang konsisten, penskalaan Tailwind). Selalu pilih komponen `Base*` sebelum mengimpor komponen dasar dari PrimeVue — inilah cara antarmuka pengguna tetap konsisten di seluruh SPA dan bagaimana perubahan desain dapat diimplementasikan dari satu lokasi pusat.
 
-Components are **not** globally registered (the only globally registered PrimeVue primitive is `Column`, used inside `BaseTable`). Import each one explicitly:
+Komponen **tidak** didaftarkan secara global (satu-satunya primitif PrimeVue yang didaftarkan secara global adalah `Column`, yang digunakan di dalam `BaseTable`). Impor masing-masing secara eksplisit:
 
 ```js
 import BaseButton from "@/components/basecomponents/BaseButton.vue"
 import BaseDialog from "@/components/basecomponents/BaseDialog.vue"
 ```
 
-### Form inputs
+### Bidang Formulir
 
-Most accept the value through `v-model`, expose `id` + `label` props for accessibility/floating-label binding, and surface validation through an `isInvalid` / `errorText` (or `messageText`) pair.
+Sebagian besar menerima nilai melalui `v-model`, mengekspos properti `id` + `label` untuk aksesibilitas/pengikatan label mengambang, dan menampilkan validasi melalui pasangan `isInvalid` / `errorText` (atau `messageText`).
 
-| Component                        | Wraps                                                | Purpose                                                                                                                                                                                            |
-|----------------------------------|------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| `BaseInputText.vue`              | `InputText` + `FloatLabel`                           | Single-line text input. Switches to a static label for `date`/`time`/`datetime-local` inputs (where the floating label would overlap the native placeholder).                                      |
-| `BaseInputTextWithVuelidate.vue` | `BaseInputText`                                      | Thin Vuelidate adapter: forwards `$error` to `isInvalid` and renders `$errors[].$message` in the `errors` slot. Pair it with a Vuelidate field object.                                             |
-| `BaseTextArea.vue`               | `Textarea` + `FloatLabel`                            | Multi-line text input.                                                                                                                                                                             |
-| `BaseTextAreaWithVuelidate.vue`  | `BaseTextArea`                                       | Same Vuelidate adapter pattern as `BaseInputTextWithVuelidate`.                                                                                                                                    |
-| `BaseInputNumber.vue`            | `InputNumber`                                        | Numeric input with `min` / `max` / `step` and spinner buttons.                                                                                                                                     |
-| `BaseInputTags.vue`              | (custom)                                             | Free-text tag chips; tags are added on enter/comma and removed on backspace.                                                                                                                       |
-| `BaseInputGroup.vue`             | `InputGroup` + `BaseButton`                          | Text input paired with an action button (search-style).                                                                                                                                            |
-| `BaseCheckbox.vue`               | `Checkbox`                                           | Binary or value-bound checkbox with label.                                                                                                                                                         |
-| `BaseRadioButtons.vue`           | `RadioButton`                                        | Group of radio buttons driven by an `options: [{label, value}]` array.                                                                                                                             |
-| `BaseToggleButton.vue`           | `BaseButton`                                         | Two-state button (on / off labels and icons) bound through `v-model`.                                                                                                                              |
-| `BaseCalendar.vue`               | `DatePicker` + `FloatLabel`                          | Date / date-time picker. Honors `platform.timepicker_increment` and the user's locale via `calendarLocales`.                                                                                       |
-| `BaseColorPicker.vue`            | native `<input type="color">` + `InputText`          | Color picker with hex text fallback; uses `colorjs.io` to validate manual hex input.                                                                                                               |
-| `BaseRating.vue`                 | `Rating`                                             | Star rating input.                                                                                                                                                                                 |
-| `BaseFileUpload.vue`             | native `<input type="file">` + `BaseButton`          | Single-file picker that triggers an attachment-style button.                                                                                                                                       |
-| `BaseFileUploadMultiple.vue`     | native `<input type="file" multiple>` + `BaseButton` | Multi-file variant of `BaseFileUpload`.                                                                                                                                                            |
-| `BaseUploader.vue`               | Uppy `Dashboard`                                     | Full Uppy uploader (webcam, audio, image editor, XHR upload) with locales wired to the current `appLocale`. Use this for rich uploads with progress; use `BaseFileUpload*` for simple attachments. |
+| Komponen                          | Melibatkan                                           | Tujuan                                                                                                                                                                                                |
+|-----------------------------------|------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `BaseInputText.vue`               | `InputText` + `FloatLabel`                           | Bidang teks satu baris. Berubah menjadi label statis pada bidang input `date`/`time`/`datetime-local` (di mana label mengambang akan menutupi placeholder bawaan).                                  |
+| `BaseInputTextWithVuelidate.vue`  | `BaseInputText`                                      | Adaptor tipis untuk Vuelidate: meneruskan `$error` ke `isInvalid` dan merender `$errors[].$message` pada slot `errors`. Gabungkan dengan objek bidang Vuelidate.                                      |
+| `BaseTextArea.vue`                | `Textarea` + `FloatLabel`                            | Bidang teks multiline.                                                                                                                                                                                |
+| `BaseTextAreaWithVuelidate.vue`   | `BaseTextArea`                                       | Pola adaptor Vuelidate yang sama seperti `BaseInputTextWithVuelidate`.                                                                                                                                |
+| `BaseInputNumber.vue`             | `InputNumber`                                        | Bidang numerik dengan `min` / `max` / `step` dan tombol peningkatan/penurunan.                                                                                                                        |
+| `BaseInputTags.vue`               | (kustom)                                             | Tag teks bebas; tag ditambahkan dengan menekan enter/koma dan dihapus dengan menekan backspace.                                                                                                      |
+| `BaseInputGroup.vue`              | `InputGroup` + `BaseButton`                          | Bidang teks yang dikombinasikan dengan tombol aksi (gaya pencarian).                                                                                                                                  |
+| `BaseCheckbox.vue`                | `Checkbox`                                           | Kotak centang biner atau terikat pada nilai dengan label.                                                                                                                                             |
+| `BaseRadioButtons.vue`            | `RadioButton`                                        | Grup tombol radio yang dikontrol oleh array `options: [{label, value}]`.                                                                                                                              |
+| `BaseToggleButton.vue`            | `BaseButton`                                         | Tombol dua keadaan (label dan ikon hidup/mati) yang terikat melalui `v-model`.                                                                                                                         |
+| `BaseCalendar.vue`                | `DatePicker` + `FloatLabel`                          | Pemilih tanggal/waktu. Menghormati `platform.timepicker_increment` dan lokalitas pengguna melalui `calendarLocales`.                                                                                 |
+| `BaseColorPicker.vue`             | asli `<input type="color">` + `InputText`            | Pemilih warna dengan fallback ke teks heksadesimal; menggunakan `colorjs.io` untuk memvalidasi input heksadesimal manual.                                                                            |
+| `BaseRating.vue`                  | `Rating`                                             | Bidang penilaian berdasarkan bintang.                                                                                                                                                                 |
+| `BaseFileUpload.vue`              | asli `<input type="file">` + `BaseButton`            | Pemilih file tunggal yang memicu tombol bergaya lampiran.                                                                                                                                             |
+| `BaseFileUploadMultiple.vue`      | asli `<input type="file" multiple>` + `BaseButton`   | Varian multi-file dari `BaseFileUpload`.                                                                                                                                                              |
+| `BaseUploader.vue`                | Uppy `Dashboard`                                     | Pengunggah lengkap Uppy (webcam, audio, editor gambar, unggah XHR) dengan lokalisasi yang terikat pada `appLocale` saat ini. Gunakan ini untuk unggahan kaya dengan progres; gunakan `BaseFileUpload*` untuk lampiran sederhana. |
 
-### Selection & autocomplete
+### Seleksi dan Pelengkapan Otomatis
 
-| Component              | Wraps                        | Purpose                                                                                                                           |
-|------------------------|------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
-| `BaseSelect.vue`       | `Dropdown` + `FloatLabel`    | Single-choice dropdown with optional clear button.                                                                                |
-| `BaseMultiSelect.vue`  | `MultiSelect` + `FloatLabel` | Multi-choice dropdown that displays selected items as chips.                                                                      |
-| `BaseSearchSelect.vue` | `Dropdown` with `filter`     | Single-choice dropdown with built-in search box, optional virtual scrolling, and two-line option template (`label` + `sublabel`). |
-| `BaseAutocomplete.vue` | `AutoComplete`               | Async autocomplete (3-char minimum). Supports single or multiple selection and a `chip` slot to customize chips.                  |
-| `BaseUserFinder.vue`   | `BaseTable` + `userService`  | Paginated user-search table with row selection. Use it when a feature needs an admin-style user picker.                           |
+| Komponen                | Melibatkan                    | Tujuan                                                                                                                               |
+|-------------------------|-------------------------------|-----------------------------------------------------------------------------------------------------------------------------|
+| `BaseSelect.vue`        | `Dropdown` + `FloatLabel`     | Menu tarik-turun untuk pilihan tunggal dengan tombol hapus opsional.                                                        |
+| `BaseMultiSelect.vue`   | `MultiSelect` + `FloatLabel`  | Menu tarik-turun untuk pilihan ganda yang menampilkan item terpilih sebagai chip.                                           |
+| `BaseSearchSelect.vue`  | `Dropdown` dengan `filter`    | Menu tarik-turun untuk pilihan tunggal dengan kotak pencarian terintegrasi, pengguliran virtual opsional, dan templat opsi dua baris (`label` + `sublabel`). |
+| `BaseAutocomplete.vue`  | `AutoComplete`                | Pelengkapan otomatis asinkron (minimal 3 karakter). Mendukung pilihan tunggal atau ganda dan slot `chip` untuk menyesuaikan chip. |
+| `BaseUserFinder.vue`    | `BaseTable` + `userService`   | Tabel pencarian pengguna yang dipaginasi dengan seleksi baris. Gunakan ketika fungsionalitas memerlukan pemilih pengguna bergaya admin. |
 
-### Buttons & actions
+### Tombol dan Aksi
 
-| Component                        | Wraps               | Purpose                                                                                                                                                                                                                                                                                                                                                     |
-|----------------------------------|---------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| `BaseButton.vue`                 | `Button` (PrimeVue) | Standard Chamilo button. Resolves icons through `chamiloIconToClass`, normalizes `type` to PrimeVue's `severity`/`variant`, renders an internal `BaseAppLink` when a `route` or `toUrl` is given (so the same component handles router-link, anchor, and plain button cases). Accepted `type` values are listed in `validators.js` → `buttonTypeValidator`. |
-| `BaseAdvancedSettingsButton.vue` | `BaseButton`        | Disclosure button that toggles a slotted "advanced settings" panel via `v-model`.                                                                                                                                                                                                                                                                           |
-| `BaseToolbar.vue`                | `Toolbar`           | Action toolbar with `start` / `end` slots (or a single default slot). Optional `showTopBorder` for separator styling.                                                                                                                                                                                                                                       |
+| Komponen                          | Melibatkan            | Tujuan                                                                                                                                                                                                                                                                                                                                                     |
+|-----------------------------------|---------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `BaseButton.vue`                  | `Button` (PrimeVue) | Tombol standar Chamilo. Menyelesaikan ikon melalui `chamiloIconToClass`, menormalkan `type` menjadi `severity`/`variant` dari PrimeVue, merender `BaseAppLink` internal ketika `route` atau `toUrl` disediakan (sehingga komponen yang sama menangani kasus router-link, anchor, dan tombol sederhana). Nilai yang diterima untuk `type` tercantum di `validators.js` → `buttonTypeValidator`. |
+| `BaseAdvancedSettingsButton.vue`  | `BaseButton`        | Tombol pengungkapan yang mengalihkan panel "pengaturan lanjutan" yang dimasukkan melalui `v-model`.                                                                                                                                                                                                                                                                           |
+| `BaseToolbar.vue`                 | `Toolbar`           | Bilah alat aksi dengan slot `start` / `end` (atau satu slot default). `showTopBorder` opsional untuk penataan pemisah.                                                                                                                                                                                                                                       |
 
-### Display & data
+---
+### Tampilan dan Data
 
-| Component            | Wraps                       | Purpose                                                                                                                                                                                         |
-|----------------------|-----------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| `BaseTable.vue`      | `DataTable` (PrimeVue)      | Standard Chamilo data table. Supports server-side mode (`lazy`), multi-column sorting, global filter, row selection, and pagination. Pass columns as `<Column>` children (globally registered). |
-| `BaseCard.vue`       | `Card`                      | Card wrapper that forwards `header`, `title`, `subtitle`, `footer`, and default (content) slots.                                                                                                |
-| `BaseChart.vue`      | `Chart`                     | Pie-chart preset. Pass a Chart.js–compatible `data` object.                                                                                                                                     |
-| `BaseChip.vue`       | `Chip`                      | Chip rendered from a `{value, labelField, imageField}` object, with optional remove button.                                                                                                     |
-| `BaseTag.vue`        | `Tag`                       | Colored label tag. Maps Chamilo's `warning` to PrimeVue's `warn`.                                                                                                                               |
-| `BaseAvatarList.vue` | `Avatar` + `BaseUserAvatar` | Avatar row with overflow counter (e.g. "+3"); driven by `useAvatarList`.                                                                                                                        |
-| `BaseUserAvatar.vue` | `Avatar`                    | User avatar with image fallback, loading state, and accessible label.                                                                                                                           |
-| `BaseIcon.vue`       | `<i class="mdi …">`         | Chamilo icon renderer. Adds an optional badge (text or icon), tooltip, and size modifier. Always pass a Chamilo semantic name (e.g. `"edit"`), not a raw MDI class.                             |
-| `BaseIconField.vue`  | `IconField` + `InputText`   | Search input with a leading magnifier icon.                                                                                                                                                     |
-| `BaseDivider.vue`    | `Divider`                   | Horizontal or vertical divider, with optional title and alignment.                                                                                                                              |
+| Komponen              | Melibatkan                  | Tujuan                                                                                                                                                                                         |
+|-----------------------|-----------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `BaseTable.vue`       | `DataTable` (PrimeVue)      | Tabel data standar Chamilo. Mendukung mode server-side (`lazy`), pengurutan berdasarkan beberapa kolom, filter global, pemilihan baris, dan paginasi. Masukkan kolom sebagai anak `<Column>` (terdaftar secara global). |
+| `BaseCard.vue`        | `Card`                      | Pembungkus kartu yang meneruskan slot `header`, `title`, `subtitle`, `footer`, dan default (konten).                                                                                          |
+| `BaseChart.vue`       | `Chart`                     | Preset grafik pie. Masukkan objek `data` yang kompatibel dengan Chart.js.                                                                                                                     |
+| `BaseChip.vue`        | `Chip`                      | Chip yang dirender dari objek `{value, labelField, imageField}`, dengan tombol hapus opsional.                                                                                               |
+| `BaseTag.vue`         | `Tag`                       | Label berwarna. Memetakan `warning` dari Chamilo ke `warn` di PrimeVue.                                                                                                                      |
+| `BaseAvatarList.vue`  | `Avatar` + `BaseUserAvatar` | Baris avatar dengan penghitung kelebihan (misalnya, "+3"); dikontrol oleh `useAvatarList`.                                                                                                   |
+| `BaseUserAvatar.vue`  | `Avatar`                    | Avatar pengguna dengan fallback gambar, status pemuatan, dan label yang dapat diakses.                                                                                                       |
+| `BaseIcon.vue`        | `<i class="mdi …">`         | Renderer ikon Chamilo. Menambahkan lencana opsional (teks atau ikon), tooltip, dan pengubah ukuran. Selalu masukkan nama semantik Chamilo (misalnya, `"edit"`), bukan kelas MDI mentah.       |
+| `BaseIconField.vue`   | `IconField` + `InputText`   | Bidang input pencarian dengan ikon kaca pembesar di sebelah kiri.                                                                                                                             |
+| `BaseDivider.vue`     | `Divider`                   | Pembatas horizontal atau vertikal, dengan judul dan penyelarasan opsional.                                                                                                                    |
 
-### Navigation & menus
+---
+### Navigasi dan Menu
 
-| Component                  | Wraps                   | Purpose                                                                                                                                                                                 |
-|----------------------------|-------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| `BaseMenu.vue`             | `Menu` (popup)          | Popup menu that understands router routes inside `model[]` items.                                                                                                                       |
-| `BaseDropdownMenu.vue`     | (custom)                | Lightweight dropdown trigger with single-open coordination (opening one closes the others).                                                                                             |
-| `BaseContextMenu.vue`      | (custom)                | Right-click / positioned context menu, controlled by `visible` + `position`.                                                                                                            |
-| `BaseSidebarPanelMenu.vue` | `PanelMenu`             | Accordion-style navigation menu used in sidebars; auto-tracks expanded keys from the model.                                                                                             |
-| `BaseRouteTabs.vue`        | `BaseAppLink` row       | Tab bar where each tab is a router link. The active tab is highlighted automatically based on the current route.                                                                        |
-| `BaseAppLink.vue`          | `RouterLink` *or* `<a>` | Smart link: renders an `<a>` when `url` is set (external/legacy), otherwise a Vue Router `<RouterLink>`. Use it instead of either primitive so internal/external linking stays uniform. |
+| Komponen                   | Melibatkan              | Tujuan                                                                                                                                                                                 |
+|----------------------------|-------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `BaseMenu.vue`             | `Menu` (popup)          | Menu popup yang memahami rute router di dalam item `model[]`.                                                                                                                         |
+| `BaseDropdownMenu.vue`     | (kustom)                | Pemicu dropdown ringan dengan koordinasi pembukaan tunggal (membuka satu menutup yang lain).                                                                                                   |
+| `BaseContextMenu.vue`      | (kustom)                | Menu konteks klik kanan / diposisikan, dikontrol oleh `visible` + `position`.                                                                                                 |
+| `BaseSidebarPanelMenu.vue` | `PanelMenu`             | Menu navigasi gaya akordeon yang digunakan di bilah sisi; secara otomatis melacak kunci yang diperluas dari model.                                                                 |
+| `BaseRouteTabs.vue`        | Baris dari `BaseAppLink` | Bilah tab di mana setiap tab adalah tautan router. Tab aktif secara otomatis disorot berdasarkan rute saat ini.                                                                         |
+| `BaseAppLink.vue`          | `RouterLink` *atau* `<a>` | Tautan cerdas: merender `<a>` ketika `url` ditentukan (eksternal/legacy), jika tidak, maka `<RouterLink>` dari Vue Router. Gunakan ini sebagai pengganti primitif apa pun untuk menjaga keseragaman antara tautan internal dan eksternal. |
 
-### Dialogs
+---
+### Dialog
 
-`BaseDialog` is the foundation; the others compose on top of it for the common confirm/cancel and delete flows.
+`BaseDialog` adalah dasarnya; yang lain dibangun di atasnya untuk alur umum konfirmasi/batal dan penghapusan.
 
-| Component                     | Wraps                     | Purpose                                                                                                                             |
-|-------------------------------|---------------------------|-------------------------------------------------------------------------------------------------------------------------------------|
-| `BaseDialog.vue`              | `Dialog`                  | Modal dialog with a titled header (optional `headerIcon`) and slotted body/footer. Open state is a `defineModel("isVisible")`.      |
-| `BaseDialogConfirmCancel.vue` | `BaseDialog`              | Confirm/cancel modal with two buttons. Configurable confirm `type` (severity) and `icon`; emits `confirmClicked` / `cancelClicked`. |
-| `BaseDialogDelete.vue`        | `BaseDialogConfirmCancel` | Pre-built "Are you sure you want to delete this item?" modal with a danger-styled confirm button.                                   |
+| Komponen                      | Melibatkan                | Tujuan                                                                                                                             |
+|-------------------------------|---------------------------|---------------------------------------------------------------------------------------------------------------------------------------|
+| `BaseDialog.vue`              | `Dialog`                  | Dialog modal dengan header bertitel (opsional `headerIcon`) dan tubuh/footer dengan slot. Status terbuka adalah `defineModel("isVisible")`. |
+| `BaseDialogConfirmCancel.vue` | `BaseDialog`              | Modal konfirmasi/batal dengan dua tombol. Tipe konfirmasi dapat dikonfigurasi (`type`) (keparahan) dan `icon`; mengeluarkan `confirmClicked` / `cancelClicked`. |
+| `BaseDialogDelete.vue`        | `BaseDialogConfirmCancel` | Modal pra-dibangun "Apakah Anda yakin ingin menghapus item ini?" dengan tombol konfirmasi yang ditata sebagai bahaya.              |
 
-### Editor & rich content
+### Editor dan Konten Kaya
 
-| Component            | Wraps                                           | Purpose                                                                                                                                                              |
-|----------------------|-------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| `BaseTinyEditor.vue` | TinyMCE (via the project's `components/Editor`) | Rich text editor with `FloatLabel`, focus/empty state tracking, and integration with the current course context (`cidReq`). Use it for any user-authored HTML field. |
+| Komponen             | Melibatkan                                       | Tujuan                                                                                                                                                              |
+|----------------------|-------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `BaseTinyEditor.vue` | TinyMCE (melalui `components/Editor` proyek)    | Editor teks kaya dengan `FloatLabel`, pelacakan status fokus/kosong, dan integrasi dengan konteks kursus saat ini (`cidReq`). Gunakan ini untuk setiap bidang HTML yang dibuat pengguna. |
 
-### Helpers
+---
+### Pembantu
 
-| File              | Purpose                                                                                                                                                                                                                                                          |
-|-------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| `ChamiloIcons.js` | Maps semantic icon names (`edit`, `delete`, `eye-on`, `courses`, …) to MDI CSS classes. ~127 entries. Browse them at `/admin/list-icons` on a running instance.                                                                                                  |
-| `validators.js`   | Shared prop validators: `iconValidator` (must be a known Chamilo icon name), `sizeValidator` (`normal` / `small` / `large`), `buttonTypeValidator` (allowed `BaseButton` types). Import them when defining new `Base*` components that mirror these conventions. |
+| Berkas               | Tujuan                                                                                                                                                                                                                                                          |
+|----------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `ChamiloIcons.js`    | Memetakan nama ikon semantik (`edit`, `delete`, `eye-on`, `courses`, …) ke kelas CSS MDI. Sekitar 127 entri. Jelajahi di `/admin/list-icons` pada instansi yang sedang berjalan.                                                                 |
+| `validators.js`      | Validator properti bersama: `iconValidator` (harus merupakan nama ikon yang dikenal di Chamilo), `sizeValidator` (`normal` / `small` / `large`), `buttonTypeValidator` (tipe yang diizinkan dari `BaseButton`). Impor ini saat mendefinisikan komponen `Base*` baru yang mengikuti konvensi ini. |
 
-### Conventions across Base components
+### Konvensi pada Komponen Base
 
-* **v-model via `defineModel()`** — value (and frequently `isVisible`, `filters`, `selectedItems`) are exposed as models; pass them with `v-model[:name]` rather than `:prop` + `@update:prop`.
-* **Floating labels** — most form fields wrap their input in PrimeVue `FloatLabel variant="on"`. Provide `label` (the displayed text) and `id` (used to bind the `<label for>`).
-* **Validation messages** — fields expose `isInvalid` and a small message below the input (`errorText`, `messageText`, or `smallText` depending on the component). Vuelidate-aware variants exist for the most common ones.
-* **Icons** — pass Chamilo semantic names, not raw MDI classes. The components resolve them through `chamiloIconToClass`.
-* **Sizing** — `size="normal" | "small" | "large"` is the conventional sizing prop (see `sizeValidator`).
-* **Composition over duplication** — `BaseDialogDelete` wraps `BaseDialogConfirmCancel`, which wraps `BaseDialog`; `BaseToggleButton` and `BaseAdvancedSettingsButton` wrap `BaseButton`. When you need a recurring variant of an existing component, prefer composing a new `Base*` on top instead of re-implementing it in a feature folder.
+* **v-model melalui `defineModel()`** — nilai (dan sering kali `isVisible`, `filters`, `selectedItems`) diekspos sebagai model; gunakan `v-model[:name]` alih-alih `:prop` + `@update:prop`.
+* **Label Mengambang** — sebagian besar bidang formulir membungkus input mereka dalam PrimeVue `FloatLabel variant="on"`. Sediakan `label` (teks yang ditampilkan) dan `id` (digunakan untuk mengikat `<label for>`).
+* **Pesan Validasi** — bidang mengekspos `isInvalid` dan pesan kecil di bawah input (`errorText`, `messageText`, atau `smallText`, tergantung pada komponen). Varian yang kompatibel dengan Vuelidate tersedia untuk yang paling umum.
+* **Ikon** — gunakan nama semantik Chamilo, bukan kelas MDI mentah. Komponen menyelesaikannya melalui `chamiloIconToClass`.
+* **Pengukuran** — `size="normal" | "small" | "large"` adalah properti pengukuran konvensional (lihat `sizeValidator`).
+* **Komposisi daripada Duplikasi** — `BaseDialogDelete` membungkus `BaseDialogConfirmCancel`, yang membungkus `BaseDialog`; `BaseToggleButton` dan `BaseAdvancedSettingsButton` membungkus `BaseButton`. Ketika Anda membutuhkan varian berulang dari komponen yang ada, lebih baik mengkomposisi `Base*` baru di atasnya daripada mengimplementasikannya ulang di folder fungsionalitas.
 
-## Layout Components
+## Komponen Tata Letak
 
-Located in `components/layout/`:
+Terletak di `components/layout/`:
 
-| Component | Purpose |
-|-----------|---------|
-| `DashboardLayout.vue` | Main layout: topbar + sidebar + content area |
-| `Sidebar.vue` | Left navigation panel (collapsible) |
-| `TopbarLoggedIn.vue` | Top bar with logo, inbox, avatar |
+| Komponen | Tujuan |
+|-----------|------------|
+| `DashboardLayout.vue` | Tata letak utama: bilah atas + bilah samping + area konten |
+| `Sidebar.vue` | Panel navigasi kiri (dapat dilipat) |
+| `TopbarLoggedIn.vue` | Bilah atas dengan logo, kotak masuk, avatar |
 
-## Feature-Area Components
+---
+## Komponen Area Fungsionalitas
 
-| Directory | Components | Purpose |
+| Direktori | Komponen | Tujuan |
 |-----------|-----------|---------|
-| `course/` | Course cards, catalog filters, course forms | Course listing and management |
-| `session/` | Session cards, catalog | Session listing |
-| `assignments/` | Submission lists, grading modals, forms | Assignment workflow |
-| `chat/` | DockedChat, chat messages | Real-time chat and AI tutor |
-| `filemanager/` | CourseDocuments, PersonalFiles | File browser and management |
-| `installer/` | Step1-Step7, EmailSettings | Installation wizard |
-| `social/` | GroupInfoCard, social posts | Social network features |
-| `attendance/` | AttendanceTable | Attendance tracking |
-| `usergroup/` | GroupMembers | User group management |
+| `course/` | Kartu kursus, filter katalog, formulir kursus | Daftar dan pengelolaan kursus |
+| `session/` | Kartu sesi, katalog | Daftar sesi |
+| `assignments/` | Daftar pengumpulan, modal penilaian, formulir | Alur kerja tugas |
+| `chat/` | DockedChat, pesan obrolan | Obrolan waktu nyata dan tutor AI |
+| `filemanager/` | CourseDocuments, PersonalFiles | Penjelajah dan pengelolaan berkas |
+| `installer/` | Step1-Step7, EmailSettings | Asisten instalasi |
+| `social/` | GroupInfoCard, posting sosial | Fitur jejaring sosial |
+| `attendance/` | AttendanceTable | Pelacakan kehadiran |
+| `usergroup/` | GroupMembers | Pengelolaan grup pengguna |
 
-## Icon System
+## Sistem Ikon
 
-Icons use **Material Design Icons (MDI)** as the sole icon library: `<i class="mdi mdi-pencil"></i>`
+Ikon menggunakan **Material Design Icons (MDI)** sebagai satu-satunya pustaka ikon: `<i class="mdi mdi-pencil"></i>`
 
-The `ChamiloIcons.js` file provides a semantic mapping:
+Berkas `ChamiloIcons.js` menyediakan pemetaan semantik:
 
 ```javascript
 export const chamiloIconToClass = {
@@ -152,13 +157,13 @@ export const chamiloIconToClass = {
 }
 ```
 
-Components use `BaseIcon` or reference `chamiloIconToClass` to render icons consistently.
+Komponen menggunakan `BaseIcon` atau merujuk ke `chamiloIconToClass` untuk merender ikon secara konsisten.
 
-A browsable reference of all icons available in the platform can be found at `/admin/list-icons` in any running Chamilo instance.
+Referensi yang dapat dijelajahi dari semua ikon yang tersedia di platform dapat ditemukan di `/admin/list-icons` pada instansi Chamilo yang sedang berjalan.
 
-## Component Patterns
+## Standar Komponen
 
-* **Composition API** — Components use Vue 3's `<script setup>` syntax
-* **PrimeVue integration** — Heavy use of PrimeVue components (Button, DataTable, Dialog, Menu, etc.)
-* **Axios for API calls** — HTTP requests to the backend API
-* **Vue I18n** — All user-facing text uses translation keys
+* **Composition API** — Komponen menggunakan sintaks `<script setup>` dari Vue 3
+* **Integrasi dengan PrimeVue** — Penggunaan intensif komponen PrimeVue (Button, DataTable, Dialog, Menu, dll.)
+* **Axios untuk Panggilan API** — Permintaan HTTP ke API backend
+* **Vue I18n** — Semua teks yang ditujukan untuk pengguna menggunakan kunci terjemahan

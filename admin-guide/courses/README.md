@@ -1,7 +1,7 @@
-# Courses
+# Kursus
 
-This section covers course management from an administrator perspective: overseeing the course catalog, managing categories, and handling imports and exports.
+Bagian ini membahas pengelolaan kursus dari perspektif administrator: mengawasi katalog kursus, mengelola kategori, serta menangani impor dan ekspor.
 
-* **[Managing Courses](managing-courses.md)** — View, create, edit, and delete courses
-* **[Course Categories](course-categories.md)** — Organize the course catalog with categories
-* **[Course Import and Export](course-import-export.md)** — Import and export courses between platforms
+* **[Mengelola Kursus](managing-courses.md)** — Melihat, membuat, mengedit, dan menghapus kursus
+* **[Kategori Kursus](course-categories.md)** — Mengatur katalog kursus dengan kategori
+* **[Impor dan Ekspor Kursus](course-import-export.md)** — Mengimpor dan mengekspor kursus antar platform

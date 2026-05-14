@@ -1,11 +1,11 @@
-# Adding Content
+# Menambahkan Konten
 
-This section covers the tools you use to add learning content to your course. Chamilo provides several ways to deliver material to your learners:
+Bagian ini membahas alat-alat yang Anda gunakan untuk menambahkan konten pembelajaran ke kursus Anda. Chamilo menyediakan beberapa cara untuk menyampaikan materi kepada peserta didik Anda:
 
-* **[Documents](documents.md)** — Upload files, create web pages, and organize your content library
-* **[Links](links.md)** — Share URLs to external resources, organized by category
-* **[Learning Paths](learning-paths.md)** — Build structured sequences of content with prerequisites and progress tracking
-* **[Glossary](glossary.md)** — Define key terms that learners can reference throughout the course
-* **[Announcements](announcements.md)** — Send messages and updates to your enrolled learners
+* **[Dokumen](documents.md)** — Unggah berkas, buat halaman web, dan atur perpustakaan konten Anda
+* **[Tautan](links.md)** — Bagikan URL ke sumber daya eksternal, diatur berdasarkan kategori
+* **[Jalur Pembelajaran](learning-paths.md)** — Bangun urutan konten yang terstruktur dengan prasyarat dan pelacakan kemajuan
+* **[Glosarium](glossary.md)** — Definisikan istilah-istilah kunci yang dapat dirujuk oleh peserta didik selama kursus
+* **[Pengumuman](announcements.md)** — Kirim pesan dan pembaruan kepada peserta didik yang terdaftar
 
-Each tool is accessible from the course homepage tool grid. Click the tool's icon to open it.
+Setiap alat dapat diakses dari kisi alat di beranda kursus. Klik ikon alat untuk membukanya.

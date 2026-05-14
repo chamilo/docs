@@ -1,108 +1,107 @@
-# Course Catalog Settings
+# Pengaturan Katalog Kursus
 
-Behaviour of the course catalog (the public list where users can browse and self-enroll).
+Perilaku katalog kursus (daftar publik di mana pengguna dapat menjelajah dan mendaftar sendiri).
 
-Access these settings under **Administration > Configuration settings > Course Catalog**. This category contains **13 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+Akses pengaturan ini di bawah **Administrasi > Pengaturan Konfigurasi > Katalog Kursus**. Kategori ini berisi **13 pengaturan**, yang tercantum di bawah ini dengan judul dan komentar yang disertakan dalam fixture pengaturan platform (`SettingsCurrentFixtures.php`).
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> Nama variabel dalam kode ditampilkan dalam monospace. Gunakan saat membuat skrip melalui API atau ketika Anda perlu mengubah pengaturan tersebut pada tingkat global dengan mengedit [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
 
-## Settings
+## Pengaturan
 
 ### `allow_session_auto_subscription`
 
-**Auto Session Subscription**
+**Langganan Otomatis Sesi**
 
-Enable automatic subscription to sessions for users.
+Mengaktifkan langganan otomatis ke sesi untuk pengguna.
 
 *Default: `false`*
 
 ### `allow_students_to_browse_courses`
 
-**Allow Student Browsing**
+**Izinkan Penjelajahan Siswa**
 
-Permit students to browse and filter the course catalog.
+Mengizinkan siswa untuk menjelajah dan menyaring katalog kursus.
 
 *Default: `true`*
 
 ### `course_catalog_display_in_home`
 
-**Display Catalog on Homepage**
+**Tampilkan Katalog di Beranda**
 
-Show the course catalog block on the platform homepage.
+Menampilkan blok katalog kursus di beranda platform.
 
 *Default: `false`*
 
 ### `course_catalog_hide_private`
 
-**Hide Private Courses**
+**Sembunyikan Kursus Privat**
 
-Exclude private courses from the catalog display.
+Mengecualikan kursus privat dari tampilan katalog.
 
 *Default: `true`*
 
 ### `course_catalog_published`
 
-**Publish course catalogue**
+**Publikasikan Katalog Kursus**
 
-Make the courses catalogue available to anonymous users (the general public) without the need to login.
+Membuat katalog kursus tersedia untuk pengguna anonim (publik umum) tanpa perlu masuk.
 
 *Default: `false`*
 
 ### `course_catalog_settings`
 
-**Course catalogue settings**
+**Pengaturan Katalog Kursus**
 
-JSON configuration for course catalog: link settings, filters, sort options, and more.
+Konfigurasi JSON untuk katalog kursus: pengaturan tautan, filter, opsi pengurutan, dan lainnya.
 
 ### `course_subscription_in_user_s_session`
 
-**Subscription in Session View**
+**Langganan di Tampilan Sesi**
 
-Allow users to subscribe to courses directly from their session page.
+Mengizinkan pengguna untuk berlangganan kursus langsung dari halaman sesi mereka.
 
 *Default: `false`*
 
 ### `hide_public_link`
 
-**Hide Public Link**
+**Sembunyikan Tautan Publik**
 
-Remove the public URL link from course cards.
+Menghapus tautan URL publik dari kartu kursus.
 
 *Default: `false`*
 
 ### `only_show_course_from_selected_category`
 
-**Only show matching categories in courses catalogue**
+**Hanya Tampilkan Kategori yang Cocok di Katalog Kursus**
 
-When not empty, only the courses from the given categories will appear in the courses catalogue.
+Jika tidak kosong, hanya kursus dari kategori yang diberikan yang akan muncul di katalog kursus.
 
 ### `only_show_selected_courses`
 
-**Only Selected Courses**
+**Hanya Kursus yang Dipilih**
 
-Show only manually selected courses in the catalog.
+Hanya menampilkan kursus yang dipilih secara manual di katalog.
 
 *Default: `false`*
 
 ### `session_catalog_settings`
 
-**Session Catalog Settings**
+**Pengaturan Katalog Sesi**
 
-JSON configuration for session catalog: filters and display options.
+Konfigurasi JSON untuk katalog sesi: filter dan opsi tampilan.
 
 ### `show_courses_descriptions_in_catalog`
 
-**Show Course Descriptions**
+**Tampilkan Deskripsi Kursus**
 
-Display course descriptions within the catalog listing.
+Menampilkan deskripsi kursus dalam daftar katalog.
 
 *Default: `false`*
 
 ### `show_courses_sessions`
 
-**Show Courses & Sessions**
+**Tampilkan Kursus & Sesi**
 
-Include both courses and sessions in catalog results.
+Menyertakan baik kursus maupun sesi dalam hasil katalog.
 
 *Default: `0`*
-

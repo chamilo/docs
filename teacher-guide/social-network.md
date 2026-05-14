@@ -1,53 +1,53 @@
-# Social Network
+# Jaringan Sosial
 
-Chamilo includes a built-in social network that lets you connect with other users on the platform. This feature may be enabled or disabled by your platform administrator.
+Chamilo menyertakan jaringan sosial bawaan yang memungkinkan Anda terhubung dengan pengguna lain di platform. Fitur ini dapat diaktifkan atau dinonaktifkan oleh administrator platform Anda.
 
-## Accessing the Social Network
+## Mengakses Jaringan Sosial
 
-Click **Social network** in the sidebar to access the social features. If you do not see this option, your administrator may have disabled it.
+Klik **Jaringan sosial** di bilah sisi untuk mengakses fitur sosial. Jika Anda tidak melihat opsi ini, administrator Anda mungkin telah menonaktifkannya.
 
-## Your Social Wall
+## Dinding Sosial Anda
 
-![The social wall showing a feed of posts, likes, and comments from connections](/.gitbook/assets/social-wall.png)
+![Dinding sosial yang menampilkan umpan postingan, suka, dan komentar dari koneksi](/.gitbook/assets/social-wall.png)
 
-The social wall shows a feed of activity from you and your connections. You can:
+Dinding sosial menampilkan umpan aktivitas dari Anda dan koneksi Anda. Anda dapat:
 
-* **Post updates** — Share text and links with your connections
-* **Like and comment** — Interact with posts from other users
-* **View activity** — See recent posts from people you are connected with
+* **Memposting pembaruan** — Bagikan teks dan tautan dengan koneksi Anda
+* **Suka dan berkomentar** — Berinteraksi dengan postingan dari pengguna lain
+* **Melihat aktivitas** — Lihat postingan terbaru dari orang-orang yang terhubung dengan Anda
 
-## Connections
+## Koneksi
 
-You can connect with other users on the platform:
+Anda dapat terhubung dengan pengguna lain di platform:
 
-* **Search for users** — Find colleagues and learners by name
-* **Send connection requests** — Invite other users to connect
-* **Manage connections** — Accept, decline, or remove connections
+* **Mencari pengguna** — Temukan rekan kerja dan pelajar berdasarkan nama
+* **Mengirim permintaan koneksi** — Undang pengguna lain untuk terhubung
+* **Mengelola koneksi** — Terima, tolak, atau hapus koneksi
 
-> **Note:** Learners can only search for and add other learners as friends — they cannot send friend requests to teachers. As a teacher, however, you can search for learners and request to add them as friends.
+> **Catatan:** Pelajar hanya dapat mencari dan menambahkan pelajar lain sebagai teman — mereka tidak dapat mengirim permintaan teman kepada guru. Namun, sebagai guru, Anda dapat mencari pelajar dan meminta untuk menambahkan mereka sebagai teman.
 
-## Messaging
+## Pesan
 
-The social network integrates with the platform's messaging system:
+Jaringan sosial terintegrasi dengan sistem pesan platform:
 
-* **Send messages** <img src="/.gitbook/assets/icons/mdi-email-plus-outline.svg" alt="New message" data-size="line"> — Write direct messages to other users
-* **Inbox** <img src="/.gitbook/assets/icons/mdi-inbox.svg" alt="Inbox" data-size="line"> — Read and reply to received messages
-* **Sent messages** <img src="/.gitbook/assets/icons/mdi-send-check.svg" alt="Sent" data-size="line"> — Review messages you have sent
+* **Kirim pesan** <img src="/.gitbook/assets/icons/mdi-email-plus-outline.svg" alt="Pesan baru" data-size="line"> — Tulis pesan langsung ke pengguna lain
+* **Kotak masuk** <img src="/.gitbook/assets/icons/mdi-inbox.svg" alt="Kotak masuk" data-size="line"> — Baca dan balas pesan yang diterima
+* **Pesan terkirim** <img src="/.gitbook/assets/icons/mdi-send-check.svg" alt="Terkirim" data-size="line"> — Tinjau pesan yang telah Anda kirim
 
-### Composing and Replying
+### Menyusun dan Membalas
 
-When composing a new message, you can address it to multiple recipients at once. Similarly, when replying to a message, you can include multiple users in your reply — useful for group coordination without a formal social group.
+Saat menyusun pesan baru, Anda dapat mengirimkannya ke beberapa penerima sekaligus. Demikian pula, saat membalas pesan, Anda dapat menyertakan beberapa pengguna dalam balasan Anda — berguna untuk koordinasi kelompok tanpa kelompok sosial formal.
 
-### Message Tags
+### Tag Pesan
 
-If your platform configuration uses message tags (typically managed at the platform level), your inbox shows a tag list you can click to filter messages by that tag, which makes locating related threads faster as your inbox grows.
+Jika konfigurasi platform Anda menggunakan tag pesan (biasanya dikelola pada tingkat platform), kotak masuk Anda menampilkan daftar tag yang dapat diklik untuk memfilter pesan berdasarkan tag tersebut, yang membuat pencarian thread terkait lebih cepat seiring bertambahnya pesan di kotak masuk Anda.
 
-## Social Groups
+## Kelompok Sosial
 
-Social groups allow users to gather around common interests or projects:
+Kelompok sosial memungkinkan pengguna berkumpul di sekitar minat atau proyek umum:
 
-* **Join groups** — Browse and join existing groups
-* **Create groups** — Start a new social group (if permitted)
-* **Group discussions** — Share posts within a group context
+* **Bergabung dengan kelompok** — Jelajahi dan bergabung dengan kelompok yang ada
+* **Membuat kelompok** — Mulai kelompok sosial baru (jika diizinkan)
+* **Diskusi kelompok** — Bagikan postingan dalam konteks kelompok
 
-> Social groups are different from **course groups** (covered in the [Groups](collaboration-and-communication/groups.md) section). Course groups are tied to a specific course, while social groups are platform-wide.
+> Kelompok sosial berbeda dari **kelompok kursus** (dibahas dalam bagian [Kelompok](collaboration-and-communication/groups.md)). Kelompok kursus terkait dengan kursus tertentu, sedangkan kelompok sosial berlaku di seluruh platform.

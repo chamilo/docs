@@ -1,40 +1,40 @@
-# System Status
+# Status Sistem
 
-The system status page helps you verify that your Chamilo server is correctly configured and identify potential issues.
+Halaman status sistem membantu Anda memverifikasi bahwa server Chamilo Anda dikonfigurasi dengan benar dan mengidentifikasi potensi masalah.
 
-## Accessing System Status
+## Mengakses Status Sistem
 
-From the administration panel, click **System status** (or **System information**).
+Dari panel administrasi, klik **Status sistem** (atau **Informasi sistem**).
 
-## What It Shows
+## Apa yang Ditampilkan
 
-![The system status page showing PHP configuration, database status, file permissions, and server information](/.gitbook/assets/admin-system-status.png)
+![Halaman status sistem yang menunjukkan konfigurasi PHP, status basis data, izin file, dan informasi server](/.gitbook/assets/admin-system-status.png)
 
-### PHP Configuration
+### Konfigurasi PHP
 
-* **PHP version** — Chamilo 2.0 requires PHP 8.2 or higher
-* **Required extensions** — Checks that all necessary PHP extensions are installed
-* **PHP settings** — Verifies important PHP settings like memory limit, upload limits, and execution time
+* **Versi PHP** — Chamilo 2.0 membutuhkan PHP 8.2 atau lebih tinggi
+* **Ekstensi yang diperlukan** — Memeriksa bahwa semua ekstensi PHP yang diperlukan telah terinstal
+* **Pengaturan PHP** — Memverifikasi pengaturan PHP yang penting seperti batas memori, batas unggah, dan waktu eksekusi
 
-### Database Status
+### Status Basis Data
 
-* **Database connection** — Confirms the database is accessible
-* **Database version** — Shows the database server version
+* **Koneksi basis data** — Mengonfirmasi bahwa basis data dapat diakses
+* **Versi basis data** — Menampilkan versi server basis data
 
-### File Permissions
+### Izin File
 
-* **Writable directories** — Checks that Chamilo can write to required directories (cache, uploads, logs)
+* **Direktori yang dapat ditulis** — Memeriksa bahwa Chamilo dapat menulis ke direktori yang diperlukan (cache, unggahan, log)
 
-### Server Information
+### Informasi Server
 
-* **Operating system** — Server OS details
-* **Web server** — Apache, Nginx, or other
-* **Disk space** — Available storage
+* **Sistem operasi** — Detail OS server
+* **Server web** — Apache, Nginx, atau lainnya
+* **Ruang penyimpanan** — Penyimpanan yang tersedia
 
-## Recommended Checks
+## Pemeriksaan yang Direkomendasikan
 
-Perform these checks regularly:
+Lakukan pemeriksaan ini secara rutin:
 
-* **After installation** — Verify all requirements are met
-* **After upgrades** — Ensure PHP version and extensions are still compatible
-* **When issues arise** — Check system status first when troubleshooting problems
+* **Setelah instalasi** — Pastikan semua persyaratan terpenuhi
+* **Setelah pembaruan** — Pastikan versi PHP dan ekstensi masih kompatibel
+* **Ketika masalah muncul** — Periksa status sistem terlebih dahulu saat menangani masalah

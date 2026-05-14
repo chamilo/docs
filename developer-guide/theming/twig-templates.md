@@ -1,55 +1,55 @@
-# Twig Templates
+# Templat Twig
 
-Chamilo uses Twig for server-side rendered pages. Templates live in `src/CoreBundle/Resources/views/` and are referenced with the `@ChamiloCore/` namespace prefix (e.g. `@ChamiloCore/Layout/base-layout.html.twig`).
+Chamilo menggunakan Twig untuk halaman yang dirender di sisi server. Templat berada di `src/CoreBundle/Resources/views/` dan dirujuk dengan awalan namespace `@ChamiloCore/` (misalnya `@ChamiloCore/Layout/base-layout.html.twig`).
 
-There is no top-level `templates/` directory — all Twig templates are under `src/CoreBundle/Resources/views/`.
+Tidak ada direktori tingkat atas `templates/` — semua templat Twig berada di bawah `src/CoreBundle/Resources/views/`.
 
-## How Twig and Vue Coexist
+## Bagaimana Twig dan Vue Bekerja Bersama
 
-Most pages follow this flow:
+Sebagian besar halaman mengikuti alur berikut:
 
-1. A Symfony controller renders a Twig template that extends a layout.
-2. The layout includes `vue_setup.html.twig`, which emits `<div id="app">` and injects runtime globals (`window.user`, `window.breadcrumb`, etc.) via `vue_js_setup.html.twig`.
-3. Vue mounts on `#app` and handles all UI rendering inside that element.
-4. The Vue app communicates with the backend via the REST API.
+1. Pengontrol Symfony merender templat Twig yang memperluas tata letak (layout).
+2. Tata letak menyertakan `vue_setup.html.twig`, yang menghasilkan `<div id="app">` dan menyuntikkan variabel global runtime (`window.user`, `window.breadcrumb`, dll.) melalui `vue_js_setup.html.twig`.
+3. Vue dipasang pada `#app` dan menangani semua rendering UI di dalam elemen tersebut.
+4. Aplikasi Vue berkomunikasi dengan backend melalui REST API.
 
-For legacy pages not yet migrated to Vue, Symfony renders the full page HTML via Twig and the content is placed inside `#sectionMainContent`. Vue still mounts (providing the sidebar and topbar shell), but the main content area is server-rendered HTML.
+Untuk halaman lama yang belum dimigrasikan ke Vue, Symfony merender HTML halaman penuh melalui Twig dan konten ditempatkan di dalam `#sectionMainContent`. Vue tetap dipasang (menyediakan shell sidebar dan topbar), tetapi area konten utama adalah HTML yang dirender di server.
 
-## Layout Templates
+## Templat Tata Letak
 
-All layouts extend `@ChamiloCore/Layout/base-layout.html.twig`, which provides the `<html>`, `<head>`, and `<body>` structure. Available layout variants:
+Semua tata letak memperluas `@ChamiloCore/Layout/base-layout.html.twig`, yang menyediakan struktur `<html>`, `<head>`, dan `<body>`. Varian tata letak yang tersedia:
 
-| Template | Purpose |
+| Templat | Tujuan |
 |----------|---------|
-| `Layout/base-layout.html.twig` | Root template — `<html>` shell, imports Macros, emits `<head>` and `<body>` |
-| `Layout/layout.html.twig` | Standard full layout with sidebar, topbar, and content area |
-| `Layout/layout_one_col.html.twig` | Single-column layout (no sidebar) |
-| `Layout/layout_two_col.html.twig` | Two-column layout |
-| `Layout/layout_content.html.twig` | Content-only wrapper |
-| `Layout/layout_empty.html.twig` | Empty layout with minimal chrome |
-| `Layout/no_layout.html.twig` | No header/footer; content goes directly inside `<body>` |
-| `Layout/no_layout_scorm.html.twig` | Bare layout for SCORM content frames |
-| `Layout/blank.html.twig` | Completely blank page |
-| `Layout/skill_layout.html.twig` | Layout for the skills wheel page |
+| `Layout/base-layout.html.twig` | Templat akar — shell `<html>`, mengimpor Makro, menghasilkan `<head>` dan `<body>` |
+| `Layout/layout.html.twig` | Tata letak penuh standar dengan sidebar, topbar, dan area konten |
+| `Layout/layout_one_col.html.twig` | Tata letak satu kolom (tanpa sidebar) |
+| `Layout/layout_two_col.html.twig` | Tata letak dua kolom |
+| `Layout/layout_content.html.twig` | Pembungkus hanya konten |
+| `Layout/layout_empty.html.twig` | Tata letak kosong dengan chrome minimal |
+| `Layout/no_layout.html.twig` | Tanpa header/footer; konten langsung masuk ke dalam `<body>` |
+| `Layout/no_layout_scorm.html.twig` | Tata letak kosong untuk frame konten SCORM |
+| `Layout/blank.html.twig` | Halaman yang sepenuhnya kosong |
+| `Layout/skill_layout.html.twig` | Tata letak untuk halaman roda keterampilan |
 
-## Key Partials
+## Bagian Penting (Partials)
 
-| Template | Purpose |
+| Templat | Tujuan |
 |----------|---------|
-| `Layout/head.html.twig` | `<head>` content: meta tags, all Encore CSS entries, theme `colors.css`, legacy JS entries, OpenGraph/Twitter tags |
-| `Layout/foot.html.twig` | End-of-body: Vue JS entry point, `tracking.footer_extra_content` injection |
-| `Layout/vue_setup.html.twig` | Emits `<div id="app">` and includes `vue_js_setup.html.twig` |
-| `Layout/vue_js_setup.html.twig` | Injects `window.user`, `window.breadcrumb`, `window.languages`, etc. |
-| `Layout/cookie_banner.html.twig` | GDPR cookie consent banner |
-| `Layout/footer.html.twig` | Page footer bar |
-| `Layout/course_navigation.html.twig` | Course tool navigation breadcrumb |
+| `Layout/head.html.twig` | Konten `<head>`: tag meta, semua entri CSS Encore, tema `colors.css`, entri JS lama, tag OpenGraph/Twitter |
+| `Layout/foot.html.twig` | Akhir tubuh: titik masuk JS Vue, injeksi `tracking.footer_extra_content` |
+| `Layout/vue_setup.html.twig` | Menghasilkan `<div id="app">` dan menyertakan `vue_js_setup.html.twig` |
+| `Layout/vue_js_setup.html.twig` | Menyuntikkan `window.user`, `window.breadcrumb`, `window.languages`, dll. |
+| `Layout/cookie_banner.html.twig` | Banner persetujuan cookie GDPR |
+| `Layout/footer.html.twig` | Bilah footer halaman |
+| `Layout/course_navigation.html.twig` | Breadcrumb navigasi alat kursus |
 
-## Webpack Encore Integration
+## Integrasi Webpack Encore
 
-`head.html.twig` loads CSS for all entries; `foot.html.twig` loads the Vue JS bundle:
+`head.html.twig` memuat CSS untuk semua entri; `foot.html.twig` memuat bundel JS Vue:
 
 ```twig
-{# In head.html.twig — CSS entries #}
+{# Di head.html.twig — entri CSS #}
 {{ encore_entry_link_tags('legacy_free-jqgrid') }}
 {{ encore_entry_link_tags('legacy_app') }}
 {{ encore_entry_link_tags('legacy_lp') }}
@@ -59,61 +59,62 @@ All layouts extend `@ChamiloCore/Layout/base-layout.html.twig`, which provides t
 {{ encore_entry_link_tags('app') }}
 {{ theme_asset_link_tag('colors.css') }}
 
-{# In foot.html.twig — Vue JS (loaded at end of body) #}
+{# Di foot.html.twig — JS Vue (dimuat di akhir body) #}
 {{ encore_entry_script_tags('vue') }}
 ```
 
-Legacy JS entries (`legacy_app`, `legacy_lp`, etc.) are loaded in `<head>` because legacy PHP pages depend on them being available before the DOM is ready.
+Entri JS lama (`legacy_app`, `legacy_lp`, dll.) dimuat di `<head>` karena halaman PHP lama bergantung pada ketersediaan mereka sebelum DOM siap.
 
-## Macros
+## Makro
 
-Reusable Twig macros are in `Macros/` and imported at the top of `base-layout.html.twig`:
+Makro Twig yang dapat digunakan kembali berada di `Macros/` dan diimpor di bagian atas `base-layout.html.twig`:
 
-| Macro file | Provides |
+| File Makro | Menyediakan |
 |-----------|---------|
-| `Macros/box.html.twig` | Content box helpers |
-| `Macros/actions.html.twig` | Action button rendering |
-| `Macros/buttons.html.twig` | Button HTML helpers |
-| `Macros/headers.html.twig` | Page header helpers |
-| `Macros/image.html.twig` | Image rendering helpers |
-| `Macros/modals.html.twig` | Modal dialog helpers |
+| `Macros/box.html.twig` | Pembantu kotak konten |
+| `Macros/actions.html.twig` | Rendering tombol aksi |
+| `Macros/buttons.html.twig` | Pembantu HTML tombol |
+| `Macros/headers.html.twig` | Pembantu header halaman |
+| `Macros/image.html.twig` | Pembantu rendering gambar |
+| `Macros/modals.html.twig` | Pembantu dialog modal |
 
-Usage inside any template that extends `base-layout.html.twig`:
+Penggunaan di dalam templat apa pun yang memperluas `base-layout.html.twig`:
 
 ```twig
-{{ macro_buttons.submit('Save') }}
-{{ macro_box.content_box('Title', content) }}
+{{ macro_buttons.submit('Simpan') }}
+{{ macro_box.content_box('Judul', konten) }}
 ```
 
-## Custom Vue Templates
+## Templat Vue Kustom
 
-Chamilo supports per-installation Vue page overrides via the `APP_CUSTOM_VUE_TEMPLATE` environment variable. When set, the Webpack build exposes a `ENV_CUSTOM_VUE_TEMPLATE` constant via `DefinePlugin`, and the Vue router conditionally imports override components from `var/vue_templates/`.
+Chamilo mendukung penggantian halaman Vue per instalasi melalui variabel lingkungan `APP_CUSTOM_VUE_TEMPLATE`. Ketika diatur, build Webpack mengekspos konstanta `ENV_CUSTOM_VUE_TEMPLATE` melalui `DefinePlugin`, dan router Vue secara kondisional mengimpor komponen pengganti dari `var/vue_templates/`.
 
-Current override locations:
+Lokasi penggantian saat ini:
 
 ```
 var/vue_templates/
 ├── pages/
-│   └── AppIndex.vue   # Replaces the default / entry page
+│   └── AppIndex.vue   # Menggantikan halaman masuk default /
 └── components/
     ├── layout/
     └── SidebarLogin.vue
 ```
 
-Only the files present in `var/vue_templates/` are overridden — all other pages and components use the core originals.
+Hanya file yang ada di `var/vue_templates/` yang diganti — semua halaman dan komponen lainnya menggunakan asli inti.
 
-## Twig Functions Reference
+---
+## Referensi Fungsi Twig
 
-Key Twig functions available in all templates (registered in `ChamiloExtension`):
+Fungsi-fungsi Twig utama yang tersedia di semua templat (terdaftar di `ChamiloExtension`):
 
-| Function | Purpose |
+| Fungsi | Tujuan |
 |----------|---------|
-| `chamilo_settings_get('ns.key')` | Read a platform setting |
-| `chamilo_settings_has('ns.key')` | Check if a setting exists |
-| `chamilo_settings_all()` | Get all settings as an array |
-| `theme_asset('path')` | URL to an asset in the active theme |
-| `theme_asset_link_tag('path')` | `<link>` tag for a theme CSS file |
-| `theme_asset_script_tag('path')` | `<script>` tag for a theme JS file |
-| `theme_asset_base64('path')` | Base64 data URI for a theme asset |
-| `theme_logo('header'\|'email')` | URL to the preferred logo |
-| `is_allowed_to_edit(...)` | Permission check helper |
+| `chamilo_settings_get('ns.key')` | Membaca pengaturan platform |
+| `chamilo_settings_has('ns.key')` | Memeriksa apakah pengaturan ada |
+| `chamilo_settings_all()` | Mendapatkan semua pengaturan sebagai array |
+| `theme_asset('path')` | URL ke aset di tema aktif |
+| `theme_asset_link_tag('path')` | Tag `<link>` untuk file CSS tema |
+| `theme_asset_script_tag('path')` | Tag `<script>` untuk file JS tema |
+| `theme_asset_base64('path')` | URI data Base64 untuk aset tema |
+| `theme_logo('header'\|'email')` | URL ke logo yang dipilih |
+| `is_allowed_to_edit(...)` | Pembantu pemeriksaan izin |

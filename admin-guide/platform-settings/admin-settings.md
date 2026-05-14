@@ -1,96 +1,95 @@
-# Administrator Identity Settings
+# Pengaturan Identitas Administrator
 
-Identity and contact details of the platform administrator. These values appear in the platform footer and in some system-generated emails.
+Identitas dan detail kontak dari administrator platform. Nilai-nilai ini muncul di footer platform dan dalam beberapa email yang dihasilkan oleh sistem.
 
-Access these settings under **Administration > Configuration settings > Administrator Identity**. This category contains **12 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+Akses pengaturan ini di bawah **Administrasi > Pengaturan Konfigurasi > Identitas Administrator**. Kategori ini berisi **12 pengaturan**, yang tercantum di bawah ini dengan judul dan komentar yang disertakan dalam fixture pengaturan platform (`SettingsCurrentFixtures.php`).
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> Nama variabel dalam kode ditampilkan dalam monospace. Gunakan saat membuat skrip melalui API atau ketika Anda perlu mengubah pengaturan tersebut pada tingkat global dengan mengedit [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
 
-## Settings
+## Pengaturan
 
 ### `administrator_email`
 
-**Portal Administrator: e-mail**
+**Administrator Portal: E-mail**
 
-The e-mail address of the Platform Administrator (appears in the footer on the left)
+Alamat e-mail dari Administrator Platform (muncul di footer di sebelah kiri)
 
 ### `administrator_name`
 
-**Portal Administrator: First Name**
+**Administrator Portal: Nama Depan**
 
-The First Name of the Platform Administrator (appears in the footer on the left)
+Nama Depan dari Administrator Platform (muncul di footer di sebelah kiri)
 
 ### `administrator_phone`
 
-**Portal Administrator: Phone number**
+**Administrator Portal: Nomor Telepon**
 
-The phone number of the Platform Administrator (appears in the footer on the left)
+Nomor telepon dari Administrator Platform (muncul di footer di sebelah kiri)
 
 ### `administrator_surname`
 
-**Portal Administrator: Last Name**
+**Administrator Portal: Nama Belakang**
 
-The Family Name of the Platform Administrator (appears in the footer on the left)
+Nama Keluarga dari Administrator Platform (muncul di footer di sebelah kiri)
 
 ### `chamilo_latest_news`
 
-**Latest news**
+**Berita Terbaru**
 
-Get the latest news from Chamilo, including security vulnerabilities and events, directly inside your administration panel. These pieces of news will be checked on the Chamilo news server every time you load the administration page and are only visible to administrators.
+Dapatkan berita terbaru dari Chamilo, termasuk kerentanan keamanan dan acara, langsung di dalam panel administrasi Anda. Berita-berita ini akan diperiksa di server berita Chamilo setiap kali Anda memuat halaman administrasi dan hanya terlihat oleh administrator.
 
 *Default: `true`*
 
 ### `chamilo_support`
 
-**Chamilo support block**
+**Blok Dukungan Chamilo**
 
-Get pro tips and an easy way to contact official service providers for professional support, directly from the makers of Chamilo. This block appears on your administration page, is only visible by administrators, and refreshes every time you load the administration page.
+Dapatkan tips profesional dan cara mudah untuk menghubungi penyedia layanan resmi untuk dukungan profesional, langsung dari pembuat Chamilo. Blok ini muncul di halaman administrasi Anda, hanya terlihat oleh administrator, dan diperbarui setiap kali Anda memuat halaman administrasi.
 
 *Default: `true`*
 
 ### `max_anonymous_users`
 
-**Multiple anonymous users**
+**Pengguna Anonim Ganda**
 
-Enable this option to allow multiple system users for anonymous users. This is useful when using this platform as a public showroom for some courses. Having multiple anonymous users will let tracking work for the duration of the experience for several users without mixing their data (which could otherwise confuse them).
+Aktifkan opsi ini untuk mengizinkan beberapa pengguna sistem sebagai pengguna anonim. Ini berguna ketika menggunakan platform ini sebagai etalase publik untuk beberapa kursus. Memiliki beberapa pengguna anonim akan memungkinkan pelacakan berfungsi selama pengalaman untuk beberapa pengguna tanpa mencampur data mereka (yang jika tidak dapat membingungkan mereka).
 
 *Default: `0`*
 
 ### `redirect_admin_to_courses_list`
 
-**Redirect admin to courses list**
+**Arahkan Admin ke Daftar Kursus**
 
-The default behaviour is to send administrators directly to the administration panel (while teachers and students are sent to the courses list or the platform homepage). Enable to redirect the administrator also to his/her courses list.
+Perilaku default adalah mengirim administrator langsung ke panel administrasi (sementara guru dan siswa dikirim ke daftar kursus atau halaman utama platform). Aktifkan untuk mengarahkan administrator juga ke daftar kursusnya.
 
 *Default: `false`*
 
 ### `send_inscription_notification_to_general_admin_only`
 
-**Notify global admin only of new users**
+**Beritahu Hanya Admin Global tentang Pengguna Baru**
 
-When enabled, only the global administrator receives email notifications about new user registrations instead of all administrators.
+Ketika diaktifkan, hanya administrator global yang menerima pemberitahuan email tentang pendaftaran pengguna baru, bukan semua administrator.
 
 *Default: `false`*
 
 ### `show_link_request_hrm_user`
 
-**Show link to request bond between user and HRM**
+**Tampilkan Tautan untuk Meminta Ikatan antara Pengguna dan HRM**
 
-Display a link on the profile page allowing Human Resources directors to request to be linked with a user account.
+Tampilkan tautan di halaman profil yang memungkinkan direktur Sumber Daya Manusia untuk meminta dihubungkan dengan akun pengguna.
 
 *Default: `false`*
 
 ### `user_status_option_only_for_admin_enabled`
 
-**Hide role from normal users**
+**Sembunyikan Peran dari Pengguna Biasa**
 
-Allows hiding users' role when this option is set to true and the following array sets the corresponding role to 'true'.
+Memungkinkan menyembunyikan peran pengguna ketika opsi ini diatur ke true dan array berikutnya mengatur peran yang sesuai ke 'true'.
 
 *Default: `false`*
 
 ### `user_status_option_show_only_for_admin`
 
-**Define which roles are hidden to normal users**
+**Tentukan Peran Mana yang Disembunyikan dari Pengguna Biasa**
 
-The roles set to 'true' will only appear to administrators. Other users will not be able to see them.
-
+Peran yang diatur ke 'true' hanya akan muncul bagi administrator. Pengguna lain tidak akan dapat melihatnya.

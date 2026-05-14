@@ -1,33 +1,32 @@
-# Search Settings
+# Pengaturan Pencarian
 
-Configuration of the full-text search system (Xapian).
+Konfigurasi sistem pencarian teks lengkap (Xapian).
 
-Access these settings under **Administration > Configuration settings > Search**. This category contains **3 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+Akses pengaturan ini di bawah **Administrasi > Pengaturan konfigurasi > Pencarian**. Kategori ini berisi **3 pengaturan**, yang tercantum di bawah ini dengan judul dan komentar yang disertakan dalam fixture pengaturan platform (`SettingsCurrentFixtures.php`).
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> Nama variabel dalam kode ditampilkan dalam monospace. Gunakan saat membuat skrip melalui API atau ketika Anda perlu mengubah pengaturan tersebut pada tingkat global dengan mengedit [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
 
-## Settings
+## Pengaturan
 
 ### `search_enabled`
 
-**Full-text search feature**
+**Fitur pencarian teks lengkap**
 
-Select 'Yes' to enable this feature. It is highly dependent on the Xapian extension for PHP, so this will not work if this extension is not installed on your server, in version 1.x at minimum.
+Pilih 'Ya' untuk mengaktifkan fitur ini. Fitur ini sangat bergantung pada ekstensi Xapian untuk PHP, sehingga tidak akan berfungsi jika ekstensi ini tidak terpasang di server Anda, minimal pada versi 1.x.
 
 *Default: `false`*
 
 
 ### `search_prefilter_prefix`
 
-**Specific Field for prefilter**
+**Bidang Khusus untuk Prefilter**
 
-This option let you choose the Specific field to use on prefilter search type.
+Opsi ini memungkinkan Anda memilih bidang khusus yang akan digunakan pada jenis pencarian prefilter.
 
 ### `search_show_unlinked_results`
 
-**Full-text search: show unlinked results**
+**Pencarian teks lengkap: tampilkan hasil yang tidak terhubung**
 
-When showing the results of a full-text search, what should be done with the results that are not accessible to the current user?
+Saat menampilkan hasil dari pencarian teks lengkap, apa yang harus dilakukan dengan hasil yang tidak dapat diakses oleh pengguna saat ini?
 
 *Default: `true`*
-

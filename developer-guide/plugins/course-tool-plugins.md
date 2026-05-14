@@ -1,18 +1,18 @@
-# Course Tool Plugins
+# Plugin Alat Kursus
 
-Course tool plugins add new tools to the course homepage alongside built-in tools like Documents, Exercises, and Forums.
+Plugin alat kursus menambahkan alat baru ke halaman utama kursus bersama dengan alat bawaan seperti Dokumen, Latihan, dan Forum.
 
-## How Course Tool Plugins Work
+## Cara Kerja Plugin Alat Kursus
 
-When a plugin registers itself as a course tool:
+Ketika sebuah plugin mendaftarkan dirinya sebagai alat kursus:
 
-1. It appears in the course homepage tool grid
-2. Teachers can show/hide it like any other tool
-3. Clicking the tool opens the plugin's interface within the course context
+1. Plugin tersebut muncul di grid alat halaman utama kursus
+2. Pengajar dapat menampilkan/menyembunyikan alat tersebut seperti alat lainnya
+3. Mengklik alat tersebut akan membuka antarmuka plugin dalam konteks kursus
 
-## Registering as a Course Tool
+## Mendaftar sebagai Alat Kursus
 
-In your plugin class, set `$isCoursePlugin = true`. To automatically add a tool icon to the course homepage, also set `$addCourseTool = true`:
+Dalam kelas plugin Anda, atur `$isCoursePlugin = true`. Untuk secara otomatis menambahkan ikon alat ke halaman utama kursus, atur juga `$addCourseTool = true`:
 
 ```php
 class MyToolPlugin extends Plugin
@@ -26,9 +26,9 @@ class MyToolPlugin extends Plugin
 }
 ```
 
-## Per-Course Settings
+## Pengaturan per Kursus
 
-Define course-level configuration fields via the `$course_settings` property:
+Tentukan bidang konfigurasi tingkat kursus melalui properti `$course_settings`:
 
 ```php
 public array $course_settings = [
@@ -37,11 +37,11 @@ public array $course_settings = [
 ];
 ```
 
-These appear in the course settings panel and can be validated by overriding `validateCourseSetting(string $variable)` (return `false` to reject a value) or acted on via `course_settings_updated(array $values)`.
+Pengaturan ini muncul di panel pengaturan kursus dan dapat divalidasi dengan mengoverride `validateCourseSetting(string $variable)` (kembalikan `false` untuk menolak nilai) atau ditindaklanjuti melalui `course_settings_updated(array $values)`.
 
-## Installation and Uninstallation
+## Instalasi dan Penghapusan Instalasi
 
-To register the plugin fields across all existing courses on install:
+Untuk mendaftarkan bidang plugin di semua kursus yang ada saat instalasi:
 
 ```php
 public function install(): void
@@ -50,39 +50,39 @@ public function install(): void
 }
 ```
 
-To install into a single course (e.g., when a new course is created):
+Untuk menginstal ke satu kursus (misalnya, saat kursus baru dibuat):
 
 ```php
 $this->course_install(courseId: $courseId, addToolLink: true);
 ```
 
-To remove fields from a specific course:
+Untuk menghapus bidang dari kursus tertentu:
 
 ```php
 $this->uninstall_course_fields(courseId: $courseId);
 ```
 
-## Integration Points
+## Titik Integrasi
 
-Course tool plugins integrate through:
+Plugin alat kursus terintegrasi melalui:
 
-* **`LegacyPluginCourseTool`** (`src/CoreBundle/Tool/LegacyPluginCourseTool.php`) — Registers the plugin as a tool in the course
-* **`CToolStateProvider`** (`src/CoreBundle/State/CToolStateProvider.php`) — Resolves which tools (including plugin tools) appear on the course homepage
-* The tool appears in the `CTool` collection for the course
+* **`LegacyPluginCourseTool`** (`src/CoreBundle/Tool/LegacyPluginCourseTool.php`) — Mendaftarkan plugin sebagai alat dalam kursus
+* **`CToolStateProvider`** (`src/CoreBundle/State/CToolStateProvider.php`) — Menentukan alat mana (termasuk alat plugin) yang muncul di halaman utama kursus
+* Alat tersebut muncul dalam koleksi `CTool` untuk kursus
 
-## Course Context
+## Konteks Kursus
 
-When a learner clicks your plugin's tool, your plugin code runs within the course context. You can access:
+Ketika peserta didik mengklik alat plugin Anda, kode plugin Anda berjalan dalam konteks kursus. Anda dapat mengakses:
 
-* The current course (via `api_get_course_id()` or the CID request store)
-* The current session (if applicable)
-* The current user
-* Course-level plugin settings
+* Kursus saat ini (melalui `api_get_course_id()` atau penyimpanan permintaan CID)
+* Sesi saat ini (jika berlaku)
+* Pengguna saat ini
+* Pengaturan plugin tingkat kursus
 
-## Examples
+## Contoh
 
-Built-in course tool plugins:
+Plugin alat kursus bawaan:
 
-* **BigBlueButton** (`Bbb/`) — Video conferencing within courses
-* **Zoom** (`Zoom/`) — Zoom meetings within courses
-* **OnlyOffice** (`Onlyoffice/`) — Document editing within courses
+* **BigBlueButton** (`Bbb/`) — Konferensi video dalam kursus
+* **Zoom** (`Zoom/`) — Pertemuan Zoom dalam kursus
+* **OnlyOffice** (`Onlyoffice/`) — Pengeditan dokumen dalam kursus

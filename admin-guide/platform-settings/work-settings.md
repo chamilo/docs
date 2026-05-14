@@ -1,103 +1,103 @@
-# Assignments (Work) Settings
+# Pengaturan Tugas (Pekerjaan)
 
-Defaults and behaviour of the **Assignments (Student Publications)** tool.
+Pengaturan bawaan dan perilaku alat **Tugas (Publikasi Siswa)**.
 
-Access these settings under **Administration > Configuration settings > Assignments (Work)**. This category contains **12 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+Akses pengaturan ini di bawah **Administrasi > Pengaturan Konfigurasi > Tugas (Pekerjaan)**. Kategori ini berisi **12 pengaturan**, yang tercantum di bawah ini dengan judul dan komentar yang disertakan dalam fixture pengaturan platform (`SettingsCurrentFixtures.php`).
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> Nama variabel dalam kode ditampilkan dalam format monospace. Gunakan saat membuat skrip melalui API atau ketika Anda perlu mengubah pengaturan tersebut pada tingkat global dengan mengedit [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
 
-## Settings
+## Pengaturan
 
 ### `allow_compilatio_tool`
 
-**Enable Compilatio**
+**Aktifkan Compilatio**
 
-Compilatio is an anti-cheating service that compares text between two submissions and reports if there is a high probability the content (usually assignments) is not genuine.
+Compilatio adalah layanan anti-kecurangan yang membandingkan teks antara dua pengiriman dan melaporkan jika ada kemungkinan tinggi bahwa konten (biasanya tugas) tidak asli.
 
 *Default: `false`*
 
 ### `allow_my_student_publication_page`
 
-**Enable My assignments page**
+**Aktifkan halaman Tugas Saya**
 
-[inferred] Enable a dedicated page for learners to view and manage their own submitted assignments.
+[disimpulkan] Aktifkan halaman khusus bagi peserta didik untuk melihat dan mengelola tugas yang telah mereka kirimkan.
 
 *Default: `false`*
 
 ### `allow_only_one_student_publication_per_user`
 
-**Students can only upload one assignment**
+**Siswa hanya dapat mengunggah satu tugas**
 
-[inferred] Restrict learners to submitting only one assignment per activity, preventing multiple submissions.
+[disimpulkan] Batasi peserta didik untuk hanya mengirimkan satu tugas per aktivitas, mencegah pengiriman berulang.
 
 *Default: `false`*
 
 ### `allow_redirect_to_main_page_after_work_upload`
 
-**Redirect to assigment tool homepage after upload or comment**
+**Alihkan ke beranda alat tugas setelah unggah atau komentar**
 
-Redirect to assignments list after uploading an assignment or a adding a comment
+Alihkan ke daftar tugas setelah mengunggah tugas atau menambahkan komentar.
 
 *Default: `false`*
 
 ### `assignment_prevent_duplicate_upload`
 
-**Prevent duplicate uploads in assignments**
+**Cegah unggahan duplikat pada tugas**
 
-[inferred] Block learners from uploading identical files for the same assignment submission.
+[disimpulkan] Cegah peserta didik mengunggah file yang sama untuk pengiriman tugas yang sama.
 
 *Default: `false`*
 
 ### `block_student_publication_add_documents`
 
-**Prevent adding documents to assignments**
+**Cegah penambahan dokumen ke tugas**
 
-[inferred] Prevent learners from adding or attaching documents when submitting assignments.
+[disimpulkan] Cegah peserta didik menambahkan atau melampirkan dokumen saat mengirimkan tugas.
 
 *Default: `false`*
 
 ### `block_student_publication_edition`
 
-**Prevent assignments edition**
+**Cegah pengeditan tugas**
 
-[inferred] Prevent learners from modifying or updating their submitted assignments after initial submission.
+[disimpulkan] Cegah peserta didik mengubah atau memperbarui tugas yang telah mereka kirimkan setelah pengiriman awal.
 
 *Default: `false`*
 
 ### `block_student_publication_score_edition`
 
-**Prevent teacher from modifying assignment scores**
+**Cegah guru mengubah skor tugas**
 
-[inferred] Prevent instructors from changing assignment scores after they have been recorded.
+[disimpulkan] Cegah instruktur mengubah skor tugas setelah skor tersebut dicatat.
 
 *Default: `false`*
 
 ### `compilatio_tool`
 
-**Compilatio settings**
+**Pengaturan Compilatio**
 
-Configure the Compilatio connection details here.
+Konfigurasikan detail koneksi Compilatio di sini.
 
 ### `considered_working_time`
 
-**Enable time effort for assignments**
+**Aktifkan estimasi waktu untuk tugas**
 
-This will allow teachers to give an estimated time effort (in hh:mm:ss format) to complete the assignment. Upon submission of the assignment and approval by the teacher (the assignment is given a score), the learner will automatically be assigned the corresponding time.
+Ini akan memungkinkan guru memberikan estimasi waktu yang diperlukan (dalam format jj:mm:dd) untuk menyelesaikan tugas. Setelah pengiriman tugas dan persetujuan oleh guru (tugas diberi skor), peserta didik akan secara otomatis diberikan waktu yang sesuai.
 
 *Default: `work_time`*
 
 ### `force_download_doc_before_upload_work`
 
-**Force download of document before assignment upload**
+**Paksa unduh dokumen sebelum unggah tugas**
 
-Force users to download the provided document in the assignment definition before they can upload their assignment.
+Paksa pengguna untuk mengunduh dokumen yang disediakan dalam definisi tugas sebelum mereka dapat mengunggah tugas mereka.
 
 *Default: `true`*
 
 ### `my_courses_show_pending_work`
 
-**Display link to 'pending' assignments from My courses page**
+**Tampilkan tautan ke tugas 'tertunda' dari halaman Kursus Saya**
 
-[inferred] Display a link or count of pending assignments on the learner's My Courses page for quick access.
+[disimpulkan] Tampilkan tautan atau jumlah tugas tertunda di halaman Kursus Saya peserta didik untuk akses cepat.
 
 *Default: `false`*

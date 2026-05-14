@@ -1,46 +1,46 @@
-# Managing Plugins
+# Mengelola Plugin
 
-## Accessing the Plugin Manager
+## Mengakses Pengelola Plugin
 
-![The plugin manager showing a list of available plugins with activation toggles and configuration options](/.gitbook/assets/admin-plugin-manager.png)
+![Pengelola plugin yang menampilkan daftar plugin yang tersedia dengan tombol aktivasi dan opsi konfigurasi](/.gitbook/assets/admin-plugin-manager.png)
 
-From the administration panel, click **Manage plugins** to see the list of available plugins.
+Dari panel administrasi, klik **Kelola plugin** untuk melihat daftar plugin yang tersedia.
 
-## Plugin States
+## Status Plugin
 
-Each plugin has one of two states:
+Setiap plugin memiliki salah satu dari dua status berikut:
 
-* **Active** — The plugin is enabled and its features are available on the platform
-* **Inactive** — The plugin is installed but disabled
+* **Aktif** — Plugin diaktifkan dan fitur-fiturnya tersedia di platform
+* **Tidak Aktif** — Plugin terpasang tetapi dinonaktifkan
 
-## Activating a Plugin
+## Mengaktifkan Plugin
 
-1. Find the plugin in the list
-2. Click **Install**, then **Enable** or toggle it on
-3. Configure the plugin settings (if applicable, find the **Configure** button)
-4. Save
-5. If recommended in the README, enable it in a specific **region**
+1. Temukan plugin dalam daftar
+2. Klik **Pasang**, lalu **Aktifkan** atau nyalakan tombolnya
+3. Konfigurasikan pengaturan plugin (jika ada, temukan tombol **Konfigurasi**)
+4. Simpan
+5. Jika direkomendasikan dalam README, aktifkan di **wilayah** tertentu
 
-Some plugins add tools to courses, new pages to the platform, or additional functionality to existing features.
+Beberapa plugin menambahkan alat ke kursus, halaman baru ke platform, atau fungsionalitas tambahan ke fitur yang sudah ada.
 
-## Configuring a Plugin
+## Mengkonfigurasi Plugin
 
-Many plugins have configuration options. After activating a plugin:
+Banyak plugin memiliki opsi konfigurasi. Setelah mengaktifkan plugin:
 
-1. Click the **Configure** button next to the plugin
-2. Fill in the required configuration (API keys, URLs, options, etc.)
-3. Save
+1. Klik tombol **Konfigurasi** di samping plugin
+2. Isi konfigurasi yang diperlukan (kunci API, URL, opsi, dll.)
+3. Simpan
 
-## Deactivating a Plugin
+## Menonaktifkan Plugin
 
-1. Find the plugin in the list
-2. Click **Disable** or toggle it off
-3. The plugin's features are immediately removed from the platform, but the plugin is still installed and maintains its configuration until you **Uninstall** it
+1. Temukan plugin dalam daftar
+2. Klik **Nonaktifkan** atau matikan tombolnya
+3. Fitur plugin segera dihapus dari platform, tetapi plugin tetap terpasang dan mempertahankan konfigurasinya sampai Anda **Copot Pemasangan**
 
-Disabling a plugin does not delete its data. If you enable it later, the data is still available.
+Menonaktifkan plugin tidak menghapus datanya. Jika Anda mengaktifkannya kembali nanti, data tersebut masih tersedia.
 
 ## Tips
 
-* **Only activate what you need** — Each active plugin adds some overhead. Keep unused plugins deactivated.
-* **Test before production** — Activate new plugins in a test environment first
-* **Check compatibility** — After upgrading Chamilo, verify that all active plugins still work correctly
+* **Hanya aktifkan yang Anda butuhkan** — Setiap plugin aktif menambah beban tertentu. Biarkan plugin yang tidak digunakan tetap nonaktif.
+* **Uji sebelum produksi** — Aktifkan plugin baru di lingkungan pengujian terlebih dahulu
+* **Periksa kompatibilitas** — Setelah memperbarui Chamilo, pastikan semua plugin aktif masih berfungsi dengan benar

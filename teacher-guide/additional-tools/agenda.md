@@ -1,43 +1,43 @@
 # Agenda
 
-The agenda tool lets you schedule events and deadlines within your course. Events appear on a calendar that your learners can view.
+Alat agenda memungkinkan Anda menjadwalkan acara dan tenggat waktu dalam kursus Anda. Acara-acara tersebut akan muncul pada kalender yang dapat dilihat oleh peserta didik Anda.
 
-## Viewing the Agenda
+## Melihat Agenda
 
-Open the **Agenda** <img src="/.gitbook/assets/icons/mdi-calendar-text.svg" alt="Agenda" data-size="line"> tool from the course homepage. You can view events in three modes:
+Buka alat **Agenda** <img src="/.gitbook/assets/icons/mdi-calendar-text.svg" alt="Agenda" data-size="line"> dari halaman utama kursus. Anda dapat melihat acara dalam tiga mode:
 
-![The agenda in calendar view showing course events and deadlines](/.gitbook/assets/agenda-calendar-view.png)
+![Agenda dalam tampilan kalender yang menunjukkan acara kursus dan tenggat waktu](/.gitbook/assets/agenda-calendar-view.png)
 
-* **Calendar view** — A visual monthly/weekly/daily calendar
-* **List view** — Events shown as a chronological list
-* **Personal events** — Filter to see only events relevant to you
+* **Tampilan Kalender** — Kalender visual bulanan/mingguan/harian
+* **Tampilan Daftar** — Acara ditampilkan sebagai daftar kronologis
+* **Acara Pribadi** — Filter untuk melihat hanya acara yang relevan bagi Anda
 
-## Creating an Event
+## Membuat Acara
 
-1. Click **Add event** <img src="/.gitbook/assets/icons/mdi-calendar-plus.svg" alt="Add event" data-size="line">
-2. Fill in the event details:
-   * **Title** — A short name for the event
-   * **Start date and time**
-   * **End date and time**
-   * **Description** — Additional details (supports rich text)
-3. Choose the **audience**:
-   * **All learners** — Everyone enrolled in the course
-   * **Specific users or groups** — Select individual learners or groups
-4. Optionally set a **reminder** <img src="/.gitbook/assets/icons/mdi-alarm.svg" alt="Reminder" data-size="line"> to send email notifications before the event (*cron* setup for the portal required by an admin)
-5. Save
+1. Klik **Tambah acara** <img src="/.gitbook/assets/icons/mdi-calendar-plus.svg" alt="Tambah acara" data-size="line">
+2. Isi detail acara:
+   * **Judul** — Nama singkat untuk acara tersebut
+   * **Tanggal dan waktu mulai**
+   * **Tanggal dan waktu selesai**
+   * **Deskripsi** — Detail tambahan (mendukung teks kaya)
+3. Pilih **audiens**:
+   * **Semua peserta didik** — Semua yang terdaftar dalam kursus
+   * **Pengguna atau grup tertentu** — Pilih peserta didik atau grup tertentu
+4. Secara opsional, atur **pengingat** <img src="/.gitbook/assets/icons/mdi-alarm.svg" alt="Pengingat" data-size="line"> untuk mengirim pemberitahuan email sebelum acara (pengaturan *cron* untuk portal diperlukan oleh admin)
+5. Simpan
 
-## Managing Events
+## Mengelola Acara
 
-* **Edit** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Edit" data-size="line"> — Click on an event to modify its details
-* **Delete** <img src="/.gitbook/assets/icons/mdi-delete.svg" alt="Delete" data-size="line"> — Remove an event from the calendar
-* **Drag and drop** — In calendar view, drag events to reschedule them
+* **Edit** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Edit" data-size="line"> — Klik pada acara untuk mengubah detailnya
+* **Hapus** <img src="/.gitbook/assets/icons/mdi-delete.svg" alt="Hapus" data-size="line"> — Hapus acara dari kalender
+* **Seret dan lepas** — Dalam tampilan kalender, seret acara untuk menjadwalkan ulang
 
-## Personal Agenda
+## Agenda Pribadi
 
-You also have a **personal agenda** accessible from the sidebar. The personal agenda aggregates events from all your courses into a single view. This is where learners see their combined schedule across all courses they are enrolled in.
+Anda juga memiliki **agenda pribadi** yang dapat diakses dari bilah sisi. Agenda pribadi menggabungkan acara dari semua kursus Anda ke dalam satu tampilan. Di sinilah peserta didik melihat jadwal gabungan mereka di semua kursus yang mereka ikuti.
 
 ## Tips
 
-* **Set deadlines** — Create events for assignment due dates and exercise deadlines so learners can see them in their calendar
-* **Use reminders** — Enable email reminders for important events to help learners stay on track
-* **Coordinate with sessions** — If you teach in multiple sessions, each session has its own events, visible only to that session's learners. Teachers have a feature to see the events (homeworks, excursions, etc) of other courses in their sessions to avoid overloading students.
+* **Tetapkan tenggat waktu** — Buat acara untuk tanggal jatuh tempo tugas dan tenggat waktu latihan agar peserta didik dapat melihatnya di kalender mereka
+* **Gunakan pengingat** — Aktifkan pengingat email untuk acara penting agar peserta didik tetap berada di jalur yang benar
+* **Koordinasi dengan sesi** — Jika Anda mengajar di beberapa sesi, setiap sesi memiliki acara sendiri yang hanya terlihat oleh peserta didik sesi tersebut. Guru memiliki fitur untuk melihat acara (tugas rumah, kunjungan, dll.) dari kursus lain dalam sesi mereka untuk menghindari beban berlebih pada siswa.

@@ -1,26 +1,26 @@
-# Branches and Rooms
+# Cabang dan Ruangan
 
-Chamilo includes a basic physical location system built around two concepts: **branches** and **rooms**.
+Chamilo menyertakan sistem lokasi fisik dasar yang dibangun berdasarkan dua konsep: **cabang** dan **ruangan**.
 
-A **branch** represents a physical site or campus — for example, a main office, a regional training centre, or a university building. Branches can be nested (a building can contain departments, a city can contain buildings). Each branch can contain one or more **rooms**, which represent individual classrooms or lab spaces within that branch.
+Sebuah **cabang** mewakili lokasi fisik atau kampus — misalnya, kantor utama, pusat pelatihan regional, atau gedung universitas. Cabang dapat bersifat bersarang (sebuah gedung dapat berisi departemen, sebuah kota dapat berisi gedung-gedung). Setiap cabang dapat berisi satu atau lebih **ruangan**, yang mewakili ruang kelas atau laboratorium individu di dalam cabang tersebut.
 
-This feature is still in early stages. At this point its main practical use is letting you attach a physical location marker to a course.
+Fitur ini masih dalam tahap awal. Pada saat ini, kegunaan praktis utamanya adalah memungkinkan Anda untuk melampirkan penanda lokasi fisik ke sebuah kursus.
 
-## Assigning a Room to a Course
+## Menetapkan Ruangan ke Kursus
 
-When creating a course, if your administrator has already set up rooms, a **Default room** field appears in the course creation form. Select the room where the course takes place.
+Saat membuat kursus, jika administrator Anda telah menyiapkan ruangan, bidang **Ruangan default** akan muncul di formulir pembuatan kursus. Pilih ruangan tempat kursus tersebut berlangsung.
 
-This information is informational — it does not affect course behaviour or access control. It simply records where the course is physically held, which can help administrators manage room scheduling and view room occupation across courses.
+Informasi ini bersifat informatif — tidak memengaruhi perilaku kursus atau kontrol akses. Informasi ini hanya mencatat di mana kursus tersebut secara fisik diadakan, yang dapat membantu administrator mengelola jadwal ruangan dan melihat tingkat penggunaan ruangan di seluruh kursus.
 
-If no rooms have been configured on your platform, the field will not appear.
+Jika belum ada ruangan yang dikonfigurasi di platform Anda, bidang ini tidak akan muncul.
 
-## What Administrators Can Do
+## Apa yang Dapat Dilakukan Administrator
 
-Branch and room management is handled entirely by administrators. They can:
+Pengelolaan cabang dan ruangan sepenuhnya ditangani oleh administrator. Mereka dapat:
 
-- Create and organise branches in a tree hierarchy
-- Add rooms to branches, with optional geolocation and IP range data
-- View which courses are assigned to each room
-- View a room's occupation calendar based on attendance entries
+- Membuat dan mengatur cabang dalam hierarki pohon
+- Menambahkan ruangan ke cabang, dengan data geolokasi dan rentang IP opsional
+- Melihat kursus mana yang ditetapkan ke setiap ruangan
+- Melihat kalender penggunaan ruangan berdasarkan entri kehadiran
 
-If you need a room created or need your course moved to a different room, contact your platform administrator.
+Jika Anda membutuhkan ruangan baru dibuat atau kursus Anda perlu dipindahkan ke ruangan lain, hubungi administrator platform Anda.

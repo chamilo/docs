@@ -1,35 +1,35 @@
-# Color Themes
+# Tema Warna
 
-Chamilo 2.0 uses a database-driven color theme system. Themes are managed through the admin UI, stored in the database, and written to disk as CSS files. They can be customized per access URL, allowing multi-URL installations to have different visual identities.
+Chamilo 2.0 menggunakan sistem tema warna yang didorong oleh basis data. Tema dikelola melalui antarmuka admin, disimpan di basis data, dan ditulis ke disk sebagai file CSS. Tema dapat disesuaikan per URL akses, memungkinkan instalasi multi-URL memiliki identitas visual yang berbeda.
 
-## Data Model
+## Model Data
 
-Two entities drive the theme system:
+Dua entitas menggerakkan sistem tema:
 
 **`ColorTheme`** (`src/CoreBundle/Entity/ColorTheme.php`)
 
-| Field | Type | Description |
-|-------|------|-------------|
-| `id` | int | Primary key |
-| `title` | string | Human-readable name |
-| `slug` | string | Auto-generated from `title` (e.g. `"My Theme"` → `my-theme`); used as the directory name in `var/themes/` |
-| `variables` | array (JSON) | Map of CSS custom property name → value (e.g. `{"--color-primary-base": "46 117 163"}`) |
+| Field | Tipe | Deskripsi |
+|-------|------|-----------|
+| `id` | int | Kunci utama |
+| `title` | string | Nama yang dapat dibaca manusia |
+| `slug` | string | Dibuat secara otomatis dari `title` (misalnya `"My Theme"` → `my-theme`); digunakan sebagai nama direktori di `var/themes/` |
+| `variables` | array (JSON) | Peta nama properti khusus CSS → nilai (misalnya `{"--color-primary-base": "46 117 163"}`) |
 
 **`AccessUrlRelColorTheme`** (`src/CoreBundle/Entity/AccessUrlRelColorTheme.php`)
 
-Associates a `ColorTheme` with an `AccessUrl`. The `active` boolean flag marks which theme is currently active for that URL. Only one theme can be active per access URL at a time.
+Mengaitkan `ColorTheme` dengan `AccessUrl`. Bendera boolean `active` menandai tema mana yang saat ini aktif untuk URL tersebut. Hanya satu tema yang dapat aktif per URL akses pada satu waktu.
 
-## How Themes Are Stored
+## Cara Tema Disimpan
 
-When a theme is created or updated via the API, `ColorThemeStateProcessor` generates the CSS file and writes it to the Flysystem `themes_filesystem` (backed by `var/themes/`):
+Ketika tema dibuat atau diperbarui melalui API, `ColorThemeStateProcessor` menghasilkan file CSS dan menulisnya ke `themes_filesystem` Flysystem (didukung oleh `var/themes/`):
 
 ```
 var/themes/
 └── {slug}/
-    └── colors.css   ← generated from ColorTheme.variables
+    └── colors.css   ← dihasilkan dari ColorTheme.variables
 ```
 
-The generated `colors.css` wraps all variables in a `:root` block:
+File `colors.css` yang dihasilkan membungkus semua variabel dalam blok `:root`:
 
 ```css
 :root {
@@ -40,77 +40,77 @@ The generated `colors.css` wraps all variables in a `:root` block:
 }
 ```
 
-Values are space-separated RGB channel triplets (not `rgb()`), which allows Tailwind to compose opacity variants such as `bg-primary/50` without additional configuration.
+Nilai-nilai tersebut adalah triplet saluran RGB yang dipisahkan spasi (bukan `rgb()`), yang memungkinkan Tailwind untuk menyusun varian opacity seperti `bg-primary/50` tanpa konfigurasi tambahan.
 
-## Theme Resolution Precedence
+## Prioritas Resolusi Tema
 
-`ThemeHelper::getVisualTheme()` resolves which theme slug to apply on any given page, in this order:
+`ThemeHelper::getVisualTheme()` menentukan slug tema mana yang akan diterapkan pada halaman tertentu, dengan urutan sebagai berikut:
 
-1. **Active theme for the current AccessUrl** — the `AccessUrlRelColorTheme` record with `active = true`
-2. **User-selected theme** — the theme stored on the `User` entity, if the `profile.user_selected_theme` platform setting is enabled
-3. **Course theme** — the `course_theme` course setting, if the `course.allow_course_theme` platform setting is enabled
-4. **Learning path theme** — the LP's `$lp_theme_css` value, if the `allow_learning_path_theme` course setting is enabled
-5. **`THEME_FALLBACK` env var** — set in `.env` as `THEME_FALLBACK='chamilo'`
-6. **Default** — `chamilo` (hardcoded as `ThemeHelper::DEFAULT_THEME`)
+1. **Tema aktif untuk AccessUrl saat ini** — catatan `AccessUrlRelColorTheme` dengan `active = true`
+2. **Tema yang dipilih pengguna** — tema yang disimpan pada entitas `User`, jika pengaturan platform `profile.user_selected_theme` diaktifkan
+3. **Tema kursus** — pengaturan kursus `course_theme`, jika pengaturan platform `course.allow_course_theme` diaktifkan
+4. **Tema jalur pembelajaran** — nilai `$lp_theme_css` dari LP, jika pengaturan kursus `allow_learning_path_theme` diaktifkan
+5. **Variabel lingkungan `THEME_FALLBACK`** — diatur di `.env` sebagai `THEME_FALLBACK='chamilo'`
+6. **Default** — `chamilo` (hardcoded sebagai `ThemeHelper::DEFAULT_THEME`)
 
-## Asset Serving
+## Penyajian Aset
 
-Theme assets are served by `ThemeController` (`src/CoreBundle/Controller/ThemeController.php`) under the `/themes` prefix.
+Aset tema disajikan oleh `ThemeController` (`src/CoreBundle/Controller/ThemeController.php`) di bawah prefiks `/themes`.
 
-| Route | Purpose |
-|-------|---------|
-| `GET /themes/{name}/{path}` | Serve any theme asset (CSS, JS, images); falls back to `chamilo` theme if not found in the requested theme |
-| `GET /themes/{slug}/logo/{type}` | Serve the preferred logo (`header` or `email`), with SVG → PNG fallback |
-| `POST /themes/{slug}/logos` | Upload header/email logos (SVG and/or PNG) |
-| `DELETE /themes/{slug}/logos/{type}` | Delete a specific logo |
+| Rute | Tujuan |
+|-------|--------|
+| `GET /themes/{name}/{path}` | Menyajikan aset tema apa pun (CSS, JS, gambar); kembali ke tema `chamilo` jika tidak ditemukan di tema yang diminta |
+| `GET /themes/{slug}/logo/{type}` | Menyajikan logo yang diinginkan (`header` atau `email`), dengan fallback SVG → PNG |
+| `POST /themes/{slug}/logos` | Mengunggah logo header/email (SVG dan/atau PNG) |
+| `DELETE /themes/{slug}/logos/{type}` | Menghapus logo tertentu |
 
-The general asset route (`/{name}/{path}`) automatically falls back to the `chamilo` default theme when a file is missing from the requested theme, so themes only need to include files they actually override.
+Rute aset umum (`/{name}/{path}`) secara otomatis kembali ke tema default `chamilo` ketika file tidak ada di tema yang diminta, sehingga tema hanya perlu menyertakan file yang benar-benar mereka timpa.
 
-## How Themes Are Loaded in Templates
+## Cara Tema Dimuat di Template
 
-The `head.html.twig` layout template loads the active theme's assets via Twig helper functions:
+Template tata letak `head.html.twig` memuat aset tema aktif melalui fungsi pembantu Twig:
 
 ```twig
-{# Inject the theme's color variables #}
+{# Menyuntikkan variabel warna tema #}
 {{ theme_asset_link_tag('colors.css') }}
 
-{# Inject TinyMCE color palette #}
+{# Menyuntikkan palet warna TinyMCE #}
 {{ theme_asset_script_tag('tiny-settings.js') }}
 
-{# Reference other theme assets #}
+{# Merujuk aset tema lainnya #}
 <link rel="shortcut icon" href="{{ theme_asset('images/favicon.ico') }}" type="image/x-icon" />
 ```
 
-The three Twig functions (registered in `ChamiloExtension`) resolve the asset path through `ThemeHelper`, applying the same fallback chain as above:
+Tiga fungsi Twig (terdaftar di `ChamiloExtension`) menyelesaikan jalur aset melalui `ThemeHelper`, menerapkan rantai fallback yang sama seperti di atas:
 
-| Function | Returns |
-|----------|---------|
-| `theme_asset('path')` | URL to the asset in the resolved theme |
-| `theme_asset_link_tag('path')` | Full `<link rel="stylesheet">` tag |
-| `theme_asset_script_tag('path')` | Full `<script src="...">` tag |
-| `theme_asset_base64('path')` | Base64-encoded data URI of the asset |
-| `theme_logo('header'\|'email')` | URL to the best available logo |
+| Fungsi | Mengembalikan |
+|----------|---------------|
+| `theme_asset('path')` | URL ke aset di tema yang diselesaikan |
+| `theme_asset_link_tag('path')` | Tag `<link rel="stylesheet">` lengkap |
+| `theme_asset_script_tag('path')` | Tag `<script src="...">` lengkap |
+| `theme_asset_base64('path')` | URI data yang dikodekan Base64 dari aset |
+| `theme_logo('header'\|'email')` | URL ke logo terbaik yang tersedia |
 
-## API Endpoints
+## Titik Akhir API
 
-Theme management is exposed via the API Platform REST API (admin-only):
+Manajemen tema diekspos melalui API REST API Platform (khusus admin):
 
-| Method | Endpoint | Purpose |
-|--------|----------|---------|
-| `POST` | `/api/color_themes` | Create a new theme |
-| `PUT` | `/api/color_themes/{id}` | Update an existing theme |
-| `POST` | `/api/access_url_rel_color_themes` | Associate/activate a theme for an access URL |
-| `GET` | `/api/access_url_rel_color_themes` | List theme associations for the current access URL |
+| Metode | Titik Akhir | Tujuan |
+|--------|-------------|--------|
+| `POST` | `/api/color_themes` | Membuat tema baru |
+| `PUT` | `/api/color_themes/{id}` | Memperbarui tema yang ada |
+| `POST` | `/api/access_url_rel_color_themes` | Mengaitkan/mengaktifkan tema untuk URL akses |
+| `GET` | `/api/access_url_rel_color_themes` | Mendaftar asosiasi tema untuk URL akses saat ini |
 
-## Creating a Custom Theme
+## Membuat Tema Kustom
 
-The standard workflow is through the admin UI (**Admin → Color Themes**), which calls the API endpoints above. To create a theme programmatically:
+Alur kerja standar dilakukan melalui antarmuka admin (**Admin → Color Themes**), yang memanggil endpoint API di atas. Untuk membuat tema secara terprogram:
 
-1. `POST /api/color_themes` with a JSON body:
+1. `POST /api/color_themes` dengan tubuh JSON:
 
 ```json
 {
-  "title": "My Theme",
+  "title": "Tema Saya",
   "variables": {
     "--color-primary-base": "30 90 140",
     "--color-primary-gradient": "20 60 100",
@@ -123,9 +123,9 @@ The standard workflow is through the admin UI (**Admin → Color Themes**), whic
 }
 ```
 
-This persists the entity and writes `var/themes/my-theme/colors.css`.
+Ini menyimpan entitas dan menulis `var/themes/my-theme/colors.css`.
 
-2. `POST /api/access_url_rel_color_themes` to associate and activate it for the current access URL:
+2. `POST /api/access_url_rel_color_themes` untuk mengaitkan dan mengaktifkannya untuk URL akses saat ini:
 
 ```json
 {
@@ -133,34 +133,34 @@ This persists the entity and writes `var/themes/my-theme/colors.css`.
 }
 ```
 
-To add custom images (logo, favicon, backgrounds), upload them via `POST /themes/{slug}/logos` or place them directly in `var/themes/{slug}/images/`.
+Untuk menambahkan gambar kustom (logo, favicon, latar belakang), unggah melalui `POST /themes/{slug}/logos` atau tempatkan langsung di `var/themes/{slug}/images/`.
 
-## Color Variable Reference
+## Referensi Variabel Warna
 
-All variables expected by the default Tailwind configuration:
+Semua variabel yang diharapkan oleh konfigurasi Tailwind default:
 
-| Variable | Purpose |
-|----------|---------|
-| `--color-primary-base` | Primary brand color |
-| `--color-primary-gradient` | Darker gradient stop for primary |
-| `--color-primary-button-text` | Text color on primary buttons |
-| `--color-primary-button-alternative-text` | Alternative text color on primary buttons |
-| `--color-secondary-base` | Secondary accent color |
-| `--color-secondary-gradient` | Gradient stop for secondary |
-| `--color-secondary-button-text` | Text color on secondary buttons |
-| `--color-tertiary-base` | Tertiary color |
-| `--color-tertiary-gradient` | Gradient stop for tertiary |
-| `--color-tertiary-button-text` | Text color on tertiary buttons |
-| `--color-success-base` | Success state color |
-| `--color-success-gradient` | Gradient stop for success |
-| `--color-success-button-text` | Text color on success buttons |
-| `--color-info-base` | Info state color |
-| `--color-info-gradient` | Gradient stop for info |
-| `--color-info-button-text` | Text color on info buttons |
-| `--color-warning-base` | Warning state color |
-| `--color-warning-gradient` | Gradient stop for warning |
-| `--color-warning-button-text` | Text color on warning buttons |
-| `--color-danger-base` | Danger/error state color |
-| `--color-danger-gradient` | Gradient stop for danger |
-| `--color-danger-button-text` | Text color on danger buttons |
-| `--color-form-base` | Form element accent color |
+| Variabel | Tujuan |
+|----------|--------|
+| `--color-primary-base` | Warna merek utama |
+| `--color-primary-gradient` | Titik gradasi yang lebih gelap untuk utama |
+| `--color-primary-button-text` | Warna teks pada tombol utama |
+| `--color-primary-button-alternative-text` | Warna teks alternatif pada tombol utama |
+| `--color-secondary-base` | Warna aksen sekunder |
+| `--color-secondary-gradient` | Titik gradasi untuk sekunder |
+| `--color-secondary-button-text` | Warna teks pada tombol sekunder |
+| `--color-tertiary-base` | Warna tersier |
+| `--color-tertiary-gradient` | Titik gradasi untuk tersier |
+| `--color-tertiary-button-text` | Warna teks pada tombol tersier |
+| `--color-success-base` | Warna status keberhasilan |
+| `--color-success-gradient` | Titik gradasi untuk keberhasilan |
+| `--color-success-button-text` | Warna teks pada tombol keberhasilan |
+| `--color-info-base` | Warna status informasi |
+| `--color-info-gradient` | Titik gradasi untuk informasi |
+| `--color-info-button-text` | Warna teks pada tombol informasi |
+| `--color-warning-base` | Warna status peringatan |
+| `--color-warning-gradient` | Titik gradasi untuk peringatan |
+| `--color-warning-button-text` | Warna teks pada tombol peringatan |
+| `--color-danger-base` | Warna status bahaya/kesalahan |
+| `--color-danger-gradient` | Titik gradasi untuk bahaya |
+| `--color-danger-button-text` | Warna teks pada tombol bahaya |
+| `--color-form-base` | Warna aksen elemen formulir |

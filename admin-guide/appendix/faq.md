@@ -1,87 +1,87 @@
 # FAQ
 
-Frequently asked questions for Chamilo 2.0 administrators.
+Pertanyaan yang sering diajukan untuk administrator Chamilo 2.0.
 
-## Installation and Setup
+## Instalasi dan Pengaturan
 
-**Q: What PHP version does Chamilo 2.0 require?**
-A: PHP 8.2 or higher. PHP 8.3 is recommended. See [Server Requirements](../installation/server-requirements.md).
+**T: Versi PHP apa yang dibutuhkan oleh Chamilo 2.0?**  
+J: PHP 8.2 atau lebih tinggi. PHP 8.3 direkomendasikan. Lihat [Persyaratan Server](../installation/server-requirements.md).
 
-**Q: Can I run Chamilo on shared hosting?**
-A: It is possible but not recommended. Chamilo 2.0 requires Composer, Node.js in development mode, and command
--line access for installation and maintenance. A VPS or dedicated server provides a much better experience.
+**T: Apakah saya bisa menjalankan Chamilo di hosting bersama?**  
+J: Memungkinkan, tetapi tidak disarankan. Chamilo 2.0 membutuhkan Composer, Node.js dalam mode pengembangan, dan akses command-line untuk instalasi serta pemeliharaan. VPS atau server khusus memberikan pengalaman yang jauh lebih baik.
 
-**Q: Which database should I use?**
-A: MySQL 8.0+ or MariaDB 10.4+ are the most commonly used and best tested.
+**T: Database apa yang sebaiknya saya gunakan?**  
+J: MySQL 8.0+ atau MariaDB 10.4+ adalah yang paling umum digunakan dan paling teruji.
 
-**Q: Can I install Chamilo without the command line?**
-A: Yes, if you use the packaged version (.zip or .tar.gz). Otherwise, you will need the command line to install Composer dependencies, build frontend assets, and run database migrations. The web-based wizard handles the database setup and initial configuration, but the surrounding steps require shell access in dev mode.
+**T: Apakah saya bisa menginstal Chamilo tanpa command line?**  
+J: Ya, jika Anda menggunakan versi yang sudah dikemas (.zip atau .tar.gz). Jika tidak, Anda akan membutuhkan command line untuk menginstal dependensi Composer, membangun aset frontend, dan menjalankan migrasi database. Wizard berbasis web menangani pengaturan database dan konfigurasi awal, tetapi langkah-langkah sekitarnya memerlukan akses shell dalam mode pengembangan.
 
-## Users and Authentication
+## Pengguna dan Autentikasi
 
-**Q: How do I reset a user's password?**
-A: Go to **Administration > User list**, find the user, click edit, and set a new password. Alternatively, the user can use the "Forgot password" link on the login page (if email is configured).
+**T: Bagaimana cara mereset kata sandi pengguna?**  
+J: Buka **Administrasi > Daftar Pengguna**, temukan pengguna, klik edit, dan atur kata sandi baru. Alternatifnya, pengguna dapat menggunakan tautan "Lupa Kata Sandi" di halaman login (jika email telah dikonfigurasi).
 
-**Q: Can I import users in bulk?**
-A: Yes. Go to **Administration > Import users** and upload a CSV or XML file with user data. The import supports creating new users and updating existing ones.
+**T: Apakah saya bisa mengimpor pengguna secara massal?**  
+J: Ya. Buka **Administrasi > Impor Pengguna** dan unggah file CSV atau XML dengan data pengguna. Impor mendukung pembuatan pengguna baru dan pembaruan pengguna yang sudah ada.
 
-**Q: How do I integrate with LDAP or Active Directory?**
-A: Configure LDAP settings in the authentication configuration. See [LDAP](../authentication/ldap.md). Users are synchronized on login or via scheduled sync.
+**T: Bagaimana cara mengintegrasikan dengan LDAP atau Active Directory?**  
+J: Konfigurasikan pengaturan LDAP di konfigurasi autentikasi. Lihat [LDAP](../authentication/ldap.md). Pengguna disinkronkan saat login atau melalui sinkronisasi terjadwal.
 
-**Q: Can users belong to multiple sessions at the same time?**
-A: Yes. Users can be enrolled in any number of sessions simultaneously. Each session tracks progress independently.
+**T: Apakah pengguna bisa tergabung dalam beberapa sesi secara bersamaan?**  
+J: Ya. Pengguna dapat terdaftar dalam jumlah sesi yang tidak terbatas secara bersamaan. Setiap sesi melacak kemajuan secara independen.
 
-## Courses and Content
+## Kursus dan Konten
 
-**Q: How do I back up a single course?**
-A: Within the course, go to **Maintenance > Create a backup**. This generates a downloadable archive of course content and settings. You can restore it on the same or a different Chamilo instance.
+**T: Bagaimana cara mencadangkan satu kursus?**  
+J: Di dalam kursus, buka **Pemeliharaan > Buat Cadangan**. Ini akan menghasilkan arsip yang dapat diunduh berisi konten dan pengaturan kursus. Anda dapat memulihkannya di instance Chamilo yang sama atau berbeda.
 
-**Q: Can I copy a course?**
-A: Yes. Use **Administration > Copy course** or the course maintenance tool within the course. You can copy content between courses or create a new course from an existing one.
+**T: Apakah saya bisa menyalin kursus?**  
+J: Ya. Gunakan **Administrasi > Salin Kursus** atau alat pemeliharaan kursus di dalam kursus. Anda dapat menyalin konten antar kursus atau membuat kursus baru dari kursus yang sudah ada.
 
-**Q: What SCORM versions are supported?**
-A: Chamilo supports SCORM 1.2. SCORM packages are imported as learning paths.
+**T: Versi SCORM apa yang didukung?**  
+J: Chamilo mendukung SCORM 1.2. Paket SCORM diimpor sebagai jalur pembelajaran.
 
-**Q: How do I limit who can create courses?**
-A: Go to **Administration > Configuration settings > Course** and disable **Allow non administrators (teachers) to create new courses** (`allow_users_to_create_courses`). When disabled, only administrators can create courses. Alternatively, you can set a limit to the number of courses any teacher can create.
+**T: Bagaimana cara membatasi siapa yang bisa membuat kursus?**  
+J: Buka **Administrasi > Pengaturan Konfigurasi > Kursus** dan nonaktifkan **Izinkan non-administrator (guru) untuk membuat kursus baru** (`allow_users_to_create_courses`). Jika dinonaktifkan, hanya administrator yang dapat membuat kursus. Alternatifnya, Anda dapat menetapkan batas jumlah kursus yang dapat dibuat oleh setiap guru.
 
-## Performance and Maintenance
+## Performa dan Pemeliharaan
 
-**Q: The platform is slow. What should I check first?**
-A: In order of impact: (1) Ensure `APP_ENV=prod` and `APP_DEBUG=0` in `.env`. (2) Verify PHP OPcache is enabled. (3) Check database performance. (4) See [Performance Tuning](../platform-settings/performance-tuning.md).
+**T: Platform terasa lambat. Apa yang harus saya periksa terlebih dahulu?**  
+J: Berdasarkan dampaknya: (1) Pastikan `APP_ENV=prod` dan `APP_DEBUG=0` di `.env`. (2) Verifikasi bahwa PHP OPcache diaktifkan. (3) Periksa performa database. (4) Lihat [Penyesuaian Performa](../platform-settings/performance-tuning.md).
 
-**Q: How do I clear the cache?**
-A: Run `php bin/console cache:clear --env=prod` from the command line. Do not delete the `var/cache/` directory manually while the application is running.
+**T: Bagaimana cara menghapus cache?**  
+J: Jalankan `php bin/console cache:clear --env=prod` dari command line. Jangan hapus direktori `var/cache/` secara manual saat aplikasi sedang berjalan.
 
-**Q: How much disk space does Chamilo need?**
-A: The application itself needs about 2 GB uncompressed. Total space depends on uploaded content (documents, videos, SCORM packages). Monitor disk usage and plan accordingly.
+**T: Berapa banyak ruang disk yang dibutuhkan Chamilo?**  
+J: Aplikasi itu sendiri membutuhkan sekitar 2 GB dalam keadaan tidak terkompresi. Total ruang tergantung pada konten yang diunggah (dokumen, video, paket SCORM). Pantau penggunaan disk dan rencanakan sesuai kebutuhan.
 
-**Q: How do I set up automated backups?**
-A: See [Backups](../maintenance/backups.md). At minimum, schedule a daily database dump and regular file-level backups of the upload directory.
+**T: Bagaimana cara mengatur cadangan otomatis?**  
+J: Lihat [Cadangan](../maintenance/backups.md). Minimal, jadwalkan dump database harian dan cadangan tingkat file reguler untuk direktori unggahan.
 
 ## Email
 
-**Q: Users are not receiving emails. What should I check?**
-A: (1) Verify `MAILER_DSN` in `.env`. (2) Run `php bin/console mailer:test someone@example.com` to test. (3) Check spam folders. (4) Verify SPF/DKIM DNS records. See [Email Configuration](../installation/email-configuration.md).
+**T: Pengguna tidak menerima email. Apa yang harus saya periksa?**  
+J: (1) Verifikasi `MAILER_DSN` di `.env`. (2) Jalankan `php bin/console mailer:test someone@example.com` untuk menguji. (3) Periksa folder spam. (4) Verifikasi catatan DNS SPF/DKIM. Lihat [Konfigurasi Email](../installation/email-configuration.md).
 
-**Q: Can I use Gmail to send emails?**
-A: Yes, for small platforms or development. Use an App Password and be aware of Gmail's daily sending limits (500 emails/day for regular accounts).
+**T: Apakah saya bisa menggunakan Gmail untuk mengirim email?**  
+J: Ya, untuk platform kecil atau pengembangan. Gunakan App Password dan perhatikan batas pengiriman harian Gmail (500 email/hari untuk akun biasa).
 
-## Security
+## Keamanan
 
-**Q: How do I force HTTPS?**
-A: Configure your web server to redirect HTTP to HTTPS. Additionally, enable the "Force HTTPS" setting in **Administration > Configuration settings > Security**. See [Security Settings](../platform-settings/security-settings.md).
+**T: Bagaimana cara memaksa penggunaan HTTPS?**  
+J: Konfigurasikan server web Anda untuk mengarahkan HTTP ke HTTPS. Selain itu, aktifkan pengaturan "Paksa HTTPS" di **Administrasi > Pengaturan Konfigurasi > Keamanan**. Lihat [Pengaturan Keamanan](../platform-settings/security-settings.md).
 
-**Q: How do I block brute-force login attacks?**
-A: Configure max login attempts and CAPTCHA in security settings. Consider also using fail2ban at the server level for additional protection.
+**T: Bagaimana cara memblokir serangan brute-force pada login?**  
+J: Konfigurasikan jumlah maksimum percobaan login dan CAPTCHA di pengaturan keamanan. Pertimbangkan juga menggunakan fail2ban di tingkat server untuk perlindungan tambahan.
 
-**Q: A user forgot their password and email is not working. How do I help them?**
-A: As an administrator, edit the user account directly and set a new password. Go to **Administration > User list**, find the account, and update the password field.
+**T: Seorang pengguna lupa kata sandi dan email tidak berfungsi. Bagaimana cara membantu mereka?**  
+J: Sebagai administrator, edit akun pengguna secara langsung dan atur kata sandi baru. Buka **Administrasi > Daftar Pengguna**, temukan akun tersebut, dan perbarui kolom kata sandi.
 
-## Upgrades
+---
+## Peningkatan Versi
 
-**Q: Can I upgrade directly from Chamilo 1.11.x to 2.0?**
-A: Yes, but it is a major migration, not a simple update. See [Upgrading](../installation/upgrading.md). Always test on a staging server first.
+**T: Dapatkah saya meningkatkan versi langsung dari Chamilo 1.11.x ke 2.0?**
+J: Ya, tetapi ini adalah migrasi besar, bukan pembaruan sederhana. Lihat [Peningkatan Versi](../installation/upgrading.md). Selalu uji terlebih dahulu di server staging.
 
-**Q: Will my plugins work after upgrading to 2.0?**
-A: No. Plugins from 1.11.x are not compatible with 2.0 and must be rewritten or replaced with equivalent 2.0 functionality.
+**T: Apakah plugin saya akan berfungsi setelah meningkatkan ke versi 2.0?**
+J: Tidak. Plugin dari versi 1.11.x tidak kompatibel dengan versi 2.0 dan harus ditulis ulang atau diganti dengan fungsionalitas setara di versi 2.0.

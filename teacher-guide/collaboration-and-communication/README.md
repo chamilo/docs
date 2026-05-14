@@ -1,12 +1,12 @@
-# Collaboration and Communication
+# Kolaborasi dan Komunikasi
 
-Chamilo provides several tools to enable interaction between you and your learners, and among learners themselves.
+Chamilo menyediakan berbagai alat untuk memudahkan interaksi antara Anda dan siswa, serta antar siswa.
 
-* **[Forums](forums.md)** — Threaded discussions organized by category and topic
-* **[Chat](chat.md)** — Real-time text messaging within a course
-* **[Groups](groups.md)** — Divide learners into working groups with their own shared tools
-* **[Wiki](wiki.md)** — Collaborative document editing
-* **[Blog](blog.md)** — Shared blogging within the course
-* **[Video Conferencing](video-conferencing.md)** — Live video sessions using BigBlueButton or Zoom
+* **[Forum](forums.md)** — Diskusi yang diorganisir berdasarkan kategori dan topik
+* **[Obrolan](chat.md)** — Pesan teks langsung di dalam kursus
+* **[Kelompok](groups.md)** — Membagi siswa ke dalam kelompok kerja dengan alat bersama masing-masing
+* **[Wiki](wiki.md)** — Pengeditan dokumen secara kolaboratif
+* **[Blog](blog.md)** — Blog bersama di dalam kursus
+* **[Konferensi Video](video-conferencing.md)** — Menggunakan BigBlueButton atau Zoom untuk konferensi video langsung
 
-These tools are available from the course homepage. Some may be hidden by default — you can make them visible from the tool grid (see [Course Homepage](../creating-your-course/course-homepage.md)).
+Alat-alat ini dapat ditemukan di halaman utama kursus. Beberapa alat mungkin disembunyikan secara default — Anda dapat mengaturnya agar terlihat melalui grid alat (lihat [Halaman Utama Kursus](../creating-your-course/course-homepage.md)).

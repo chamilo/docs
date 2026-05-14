@@ -1,23 +1,23 @@
-# Notebook
+# Buku Catatan
 
-The notebook is a personal note-taking tool for learners. Each learner has their own private notebook within the course.
+Buku catatan adalah alat pencatatan pribadi untuk peserta didik. Setiap peserta didik memiliki buku catatan pribadi mereka sendiri di dalam kursus.
 
-## How It Works
+## Cara Kerjanya
 
-The notebook is a simple tool where learners can:
+Buku catatan adalah alat sederhana di mana peserta didik dapat:
 
-* **Create notes** — Write and save personal notes related to the course content
-* **Organize notes** — Review, edit, and delete their notes
-* **Keep them private** — Notes are visible only to the learner who created them
+* **Membuat catatan** — Menulis dan menyimpan catatan pribadi yang berkaitan dengan konten kursus
+* **Mengatur catatan** — Meninjau, mengedit, dan menghapus catatan mereka
+* **Menjaga privasi** — Catatan hanya dapat dilihat oleh peserta didik yang membuatnya
 
-## As a Teacher
+## Sebagai Pengajar
 
-As a teacher, you should be aware that:
+Sebagai pengajar, Anda harus mengetahui bahwa:
 
-* The notebook is a **personal tool** — you cannot see your learners' notes
-* It is useful as a **reflection tool** — encourage learners to take notes while studying
-* Notes are stored within the course — they are not shared across courses
+* Buku catatan adalah **alat pribadi** — Anda tidak dapat melihat catatan peserta didik Anda
+* Alat ini berguna sebagai **alat refleksi** — dorong peserta didik untuk membuat catatan saat belajar
+* Catatan disimpan di dalam kursus — catatan tidak dibagikan antar kursus
 
-## Enabling the Notebook
+## Mengaktifkan Buku Catatan
 
-The notebook tool appears on the course homepage if it is enabled. If you do not see it, check that it is not hidden (look for hidden tools on the course homepage).
+Alat buku catatan akan muncul di halaman utama kursus jika telah diaktifkan. Jika Anda tidak melihatnya, periksa apakah alat tersebut tidak disembunyikan (cari alat yang tersembunyi di halaman utama kursus).

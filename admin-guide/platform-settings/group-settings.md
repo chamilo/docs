@@ -1,37 +1,35 @@
-# Groups Settings
+# Pengaturan Grup
 
-Behaviour of the course **Groups** tool.
+Perilaku alat **Grup** dalam kursus.
 
-Access these settings under **Administration > Configuration settings > Groups**. This category contains **3 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+Akses pengaturan ini di bawah **Administrasi > Pengaturan konfigurasi > Grup**. Kategori ini berisi **3 pengaturan**, yang tercantum di bawah ini beserta judul dan komentar yang disertakan dalam pengaturan bawaan platform (`SettingsCurrentFixtures.php`).
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> Nama variabel dalam kode ditampilkan dalam format monospace. Gunakan saat membuat skrip melalui API atau ketika Anda perlu mengubah pengaturan tersebut pada tingkat global dengan mengedit [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
 
-## Settings
+## Pengaturan
 
 ### `allow_group_categories`
 
-**Group categories**
+**Kategori Grup**
 
-Allow teachers to create categories in the Groups tool?
+Izinkan pengajar untuk membuat kategori di alat Grup?
 
 *Default: `false`*
 
 
 ### `hide_course_group_if_no_tools_available`
 
-**Hide course group if no tool**
+**Sembunyikan grup kursus jika tidak ada alat**
 
-If no tool is available in a group and the user is not registered to the group itself, hide the group completely in the groups list.
+Jika tidak ada alat yang tersedia dalam sebuah grup dan pengguna tidak terdaftar di grup tersebut, sembunyikan grup sepenuhnya dalam daftar grup.
 
 *Default: `false`*
 
 
 ### `show_groups_to_users`
 
-**Show classes to users**
+**Tampilkan kelas kepada pengguna**
 
-Show the classes to users. Classes are a feature that allow you to register/unregister groups of users into a session or a course directly, reducing the administrative hassle. When you pick this option, learners will be able to see in which class they are through their social network interface.
+Tampilkan kelas kepada pengguna. Kelas adalah fitur yang memungkinkan Anda untuk mendaftarkan/membatalkan pendaftaran sekelompok pengguna ke dalam sesi atau kursus secara langsung, mengurangi kerumitan administratif. Ketika Anda memilih opsi ini, peserta didik akan dapat melihat di kelas mana mereka berada melalui antarmuka jejaring sosial mereka.
 
 *Default: `false`*
-
-

@@ -1,66 +1,66 @@
-# Attendance
+# Kehadiran
 
-The attendance tool lets you track learner presence for scheduled class sessions, whether in-person or online.
+Alat kehadiran memungkinkan Anda melacak kehadiran peserta didik untuk sesi kelas yang dijadwalkan, baik secara langsung maupun daring.
 
-## Creating an Attendance Sheet
+## Membuat Lembar Kehadiran
 
-1. Open the **Attendance** tool from the course homepage
-2. Click **Add attendance** to create an attendance sheet
-3. Enter a **Title** for the attendance sheet (e.g., "Week 1 - Introduction")
-4. Enter a **Description** (this is mostly for your use - learners will not see the description)
-5. Save
+1. Buka alat **Kehadiran** dari halaman utama kursus
+2. Klik **Tambah kehadiran** untuk membuat lembar kehadiran
+3. Masukkan **Judul** untuk lembar kehadiran (misalnya, "Minggu 1 - Pengenalan")
+4. Masukkan **Deskripsi** (ini terutama untuk penggunaan Anda - peserta didik tidak akan melihat deskripsi ini)
+5. Simpan
 
-### Advanced settings
+### Pengaturan Lanjutan
 
-1. **Require unique presence** allows you to consider a learner as fully present if he/she participated even to only one date of the attendance sheet
-2. **Gradebook options** lets you decide to qualify the attendance sheet in the assessement tool (gradebook).
+1. **Wajibkan kehadiran unik** memungkinkan Anda menganggap peserta didik sebagai hadir sepenuhnya jika dia berpartisipasi bahkan hanya pada satu tanggal dari lembar kehadiran
+2. **Opsi buku nilai** memungkinkan Anda memutuskan untuk memasukkan lembar kehadiran ke dalam alat penilaian (buku nilai).
 
-## Adding dates
+## Menambahkan Tanggal
 
-Each attendance sheet contains one or more dates (sessions) where you record presence:
+Setiap lembar kehadiran berisi satu atau lebih tanggal (sesi) di mana Anda mencatat kehadiran:
 
-1. Open an attendance sheet or continue with the creation process
-2. Click **Add a date** <img src="/.gitbook/assets/icons/mdi-calendar-plus.svg" alt="Add date" data-size="line">
-3. Select the date and time
-4. Optionally, check **Repeat date** to choose a repetition logic
-5. Give a **Duration** in minutes for the event (defaults to 60 minutes)
-6. Optionally, select a **Group** if this attendance date only applies to one group of learners
-7. Save
+1. Buka lembar kehadiran atau lanjutkan dengan proses pembuatan
+2. Klik **Tambah tanggal** <img src="/.gitbook/assets/icons/mdi-calendar-plus.svg" alt="Tambah tanggal" data-size="line">
+3. Pilih tanggal dan waktu
+4. Secara opsional, centang **Ulangi tanggal** untuk memilih logika pengulangan
+5. Berikan **Durasi** dalam menit untuk acara tersebut (defaultnya 60 menit)
+6. Secara opsional, pilih **Kelompok** jika tanggal kehadiran ini hanya berlaku untuk satu kelompok peserta didik
+7. Simpan
 
-You can add multiple dates to the same attendance sheet (e.g., all sessions for a month).
+Anda dapat menambahkan beberapa tanggal ke lembar kehadiran yang sama (misalnya, semua sesi untuk satu bulan).
 
-## Recording Attendance
+## Mencatat Kehadiran
 
-For each date, mark each learner as:
+Untuk setiap tanggal, tandai setiap peserta didik sebagai:
 
-* **Present** — The learner attended (default value for all learners)
-* **Absent** — The learner did not attend
+* **Hadir** — Peserta didik hadir (nilai default untuk semua peserta didik)
+* **Tidak Hadir** — Peserta didik tidak hadir
 
-Click on the status cell next to each learner's name to toggle between present and absent.
+Klik pada sel status di samping nama setiap peserta didik untuk beralih antara hadir dan tidak hadir.
 
-By default, all learners are marked present, as we consider that chances are you have more people present than absent.
+Secara default, semua peserta didik ditandai sebagai hadir, karena kami menganggap kemungkinan lebih banyak orang hadir daripada tidak hadir.
 
-Note: Admins can modify the portal configuration to allow you to choose more extended attendance types (late, absent with justification, etc), which can better reflect your procedures. In this case, just clicking the presence input will toggle between all the presence types.
+Catatan: Admin dapat mengubah konfigurasi portal untuk memungkinkan Anda memilih jenis kehadiran yang lebih luas (terlambat, tidak hadir dengan alasan, dll), yang dapat lebih mencerminkan prosedur Anda. Dalam hal ini, cukup klik input kehadiran untuk beralih antara semua jenis kehadiran.
 
-## Viewing Attendance Reports
+## Melihat Laporan Kehadiran
 
-![The attendance sheet showing a summary table with learners, dates, and presence indicators](/.gitbook/assets/attendance-sheet.png)
+![Lembar kehadiran yang menunjukkan tabel ringkasan dengan peserta didik, tanggal, dan indikator kehadiran](/.gitbook/assets/attendance-sheet.png)
 
-The attendance tool shows:
+Alat kehadiran menunjukkan:
 
-* A summary table with all learners and all dates
-* Each learner's attendance percentage (present sessions / total sessions)
-* Color-coded indicators for easy scanning
+* Tabel ringkasan dengan semua peserta didik dan semua tanggal
+* Persentase kehadiran setiap peserta didik (sesi hadir / total sesi)
+* Indikator berkode warna untuk pemindaian yang mudah
 
-## Extra
+## Ekstra
 
-Attendances have a few extended features that are not visible straight away:
-* **Signatures** can be enabled so that learners can sign their attendance in-class through a tablet handled by the teacher
-* **Comments** can be added by the teacher on each student attendance
-* **PDF reports** can be extracted to comply with regulation
+Kehadiran memiliki beberapa fitur tambahan yang tidak langsung terlihat:
+* **Tanda tangan** dapat diaktifkan sehingga peserta didik dapat menandatangani kehadiran mereka di kelas melalui tablet yang dipegang oleh guru
+* **Komentar** dapat ditambahkan oleh guru pada setiap kehadiran siswa
+* **Laporan PDF** dapat diekstrak untuk mematuhi regulasi
 
 ## Tips
 
-* **Link to course progress** — Use attendance data alongside the Course Progress tool to correlate presence with topic coverage
-* **Export data** — Export the attendance sheet for administrative records
-* **Set expectations** — If attendance is mandatory, communicate the policy clearly in your course introduction or announcements
+* **Hubungkan dengan kemajuan kursus** — Gunakan data kehadiran bersama dengan alat Kemajuan Kursus untuk mengkorelasikan kehadiran dengan cakupan topik
+* **Ekspor data** — Ekspor lembar kehadiran untuk catatan administratif
+* **Tetapkan ekspektasi** — Jika kehadiran wajib, komunikasikan kebijakan tersebut dengan jelas dalam pengenalan kursus atau pengumuman Anda

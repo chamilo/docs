@@ -1,29 +1,29 @@
-# Portfolio
+# Portofolio
 
-The portfolio tool lets learners collect and showcase their work throughout the course. It serves as a digital portfolio where learners can compile their best work, reflections, and achievements.
+Alat portofolio memungkinkan peserta didik untuk mengumpulkan dan memamerkan hasil kerja mereka selama kursus berlangsung. Ini berfungsi sebagai portofolio digital di mana peserta didik dapat menyusun karya terbaik mereka, refleksi, dan pencapaian.
 
-## How Portfolios Work
+## Cara Kerja Portofolio
 
-Each learner has a personal portfolio within the course where they can:
+Setiap peserta didik memiliki portofolio pribadi dalam kursus di mana mereka dapat:
 
-* **Add items** — Write text entries with the rich-text editor and attach one or more files to each item
-* **Organize content** — Tag items so they can be filtered by topic
-* **Share selectively** — Set the visibility of each item: hidden, visible to the course, hidden except for the teacher, or shared with selected users when advanced sharing is enabled
+* **Menambahkan item** — Menulis entri teks dengan editor teks kaya dan melampirkan satu atau lebih file pada setiap item
+* **Mengatur konten** — Memberi tag pada item sehingga dapat difilter berdasarkan topik
+* **Berbagi secara selektif** — Mengatur visibilitas setiap item: tersembunyi, terlihat oleh kursus, tersembunyi kecuali untuk pengajar, atau dibagikan dengan pengguna tertentu ketika fitur berbagi lanjutan diaktifkan
 
-## As a Teacher
+## Sebagai Pengajar
 
-You can use portfolios for:
+Anda dapat menggunakan portofolio untuk:
 
-* **Reflective learning** — Ask learners to maintain a portfolio of reflections on their learning journey
-* **Competency demonstration** — Have learners collect evidence of skills and knowledge
-* **Assessment** — Review portfolio contents as part of your evaluation
+* **Pembelajaran reflektif** — Meminta peserta didik untuk memelihara portofolio refleksi tentang perjalanan pembelajaran mereka
+* **Demonstrasi kompetensi** — Meminta peserta didik mengumpulkan bukti keterampilan dan pengetahuan
+* **Penilaian** — Meninjau isi portofolio sebagai bagian dari evaluasi Anda
 
-To view a learner's portfolio, open the portfolio tool and filter the items list by user.
+Untuk melihat portofolio peserta didik, buka alat portofolio dan filter daftar item berdasarkan pengguna.
 
-If the course is configured to allow it, you can score portfolio items and individual comments — these scores can then feed into the gradebook. You can also **highlight** items you want to draw attention to, and mark items or comments as **templates** so you (or learners) can reuse them as a starting point for new entries. Portfolios can be exported as **PDF** or **ZIP**.
+Jika kursus dikonfigurasi untuk mengizinkannya, Anda dapat memberikan skor pada item portofolio dan komentar individu — skor ini kemudian dapat dimasukkan ke dalam buku nilai. Anda juga dapat **menyoroti** item yang ingin Anda perhatikan, dan menandai item atau komentar sebagai **template** sehingga Anda (atau peserta didik) dapat menggunakannya kembali sebagai titik awal untuk entri baru. Portofolio dapat diekspor sebagai **PDF** atau **ZIP**.
 
 ## Tips
 
-* **Define expectations** — Tell learners what kinds of items to include and how to organize their portfolio
-* **Review regularly** — Check portfolios periodically rather than only at the end of the course
-* **Combine with skills** — Use portfolios alongside the skills/certificates system to create a comprehensive competency record
+* **Tetapkan ekspektasi** — Beritahu peserta didik jenis item apa yang harus dimasukkan dan bagaimana mengatur portofolio mereka
+* **Tinjau secara berkala** — Periksa portofolio secara berkala, bukan hanya di akhir kursus
+* **Gabungkan dengan keterampilan** — Gunakan portofolio bersama dengan sistem keterampilan/sertifikat untuk menciptakan catatan kompetensi yang komprehensif

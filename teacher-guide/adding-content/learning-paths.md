@@ -1,115 +1,116 @@
-# Learning Paths
+# Jalur Pembelajaran
 
-Learning paths let you create structured sequences of learning activities. A learning path guides your learners through a specific order of documents, exercises, links, and other resources, with optional prerequisites and progress tracking.
+Jalur pembelajaran memungkinkan Anda membuat urutan terstruktur dari aktivitas pembelajaran. Jalur pembelajaran ini membimbing peserta didik melalui urutan tertentu dari dokumen, latihan, tautan, dan sumber daya lainnya, dengan prasyarat opsional dan pelacakan kemajuan.
 
-This tool is arguably the most used course tool, because it acts as a composer for many other tools and can very much be the ***only*** tool facing learners.
+Alat ini bisa dikatakan sebagai alat kursus yang paling sering digunakan, karena berfungsi sebagai penyusun untuk banyak alat lain dan bisa menjadi ***satu-satunya*** alat yang langsung berhadapan dengan peserta didik.
 
-## Why Use Learning Paths?
+## Mengapa Menggunakan Jalur Pembelajaran?
 
-Learning paths are useful when you want to:
+Jalur pembelajaran berguna ketika Anda ingin:
 
-* **Control the order** of content consumption — ensure learners complete foundational material before advancing
-* **Track progress** — see exactly where each learner is in the sequence
-* **Set prerequisites** — require learners to pass an exercise before accessing the next section
-* **Award completion** — link learning path completion to the gradebook and certificates
-* **Package content** — create self-contained learning modules that learners can work through at their own pace
+* **Mengontrol urutan** konsumsi konten — memastikan peserta didik menyelesaikan materi dasar sebelum melanjutkan
+* **Melacak kemajuan** — melihat dengan tepat di mana setiap peserta didik berada dalam urutan tersebut
+* **Menetapkan prasyarat** — mewajibkan peserta didik lulus latihan sebelum mengakses bagian berikutnya
+* **Memberikan penghargaan penyelesaian** — menghubungkan penyelesaian jalur pembelajaran dengan buku nilai dan sertifikat
+* **Mengemas konten** — membuat modul pembelajaran mandiri yang dapat dikerjakan peserta didik sesuai kecepatan mereka sendiri
 
-## Creating a Learning Path
+## Membuat Jalur Pembelajaran
 
-1. Open the **Learning paths** <img src="/.gitbook/assets/icons/mdi-map-marker-path.svg" alt="Learning paths" data-size="line"> tool from the course homepage
-2. Click **Create a learning path**
-3. Enter a **title** and optional description
-4. Save — you will be taken to the learning path editor
+1. Buka alat **Jalur Pembelajaran** <img src="/.gitbook/assets/icons/mdi-map-marker-path.svg" alt="Jalur Pembelajaran" data-size="line"> dari halaman utama kursus
+2. Klik **Buat jalur pembelajaran**
+3. Masukkan **judul** dan deskripsi opsional
+4. Simpan — Anda akan dibawa ke editor jalur pembelajaran
 
-## The Learning Path Editor
+## Editor Jalur Pembelajaran
 
-![The learning path editor with the item tree on the left and content preview on the right](/.gitbook/assets/learning-path-editor.png)
+![Editor jalur pembelajaran dengan pohon item di sebelah kiri dan pratinjau konten di sebelah kanan](/.gitbook/assets/learning-path-editor.png)
 
-The editor has two main areas:
+Editor memiliki dua area utama:
 
-* **Left panel** — The list of items (steps) in the learning path, shown as a tree structure
-* **Right panel** — The content of the selected item
+* **Panel kiri** — Daftar item (langkah-langkah) dalam jalur pembelajaran, ditampilkan sebagai struktur pohon
+* **Panel kanan** — Konten dari item yang dipilih
 
-### Adding Items
+### Menambahkan Item
 
-Click **Add an item** and choose what to add:
+Klik **Tambah item** dan pilih apa yang akan ditambahkan:
 
-| Item type | Description |
-|-----------|-------------|
-| **Section** | A heading that groups related items (like a chapter title). Sections do not contain content themselves. |
-| **Document** | A file or web page from your course's Documents tool |
-| **Exercise** | A quiz or test from the Exercises tool |
-| **Link** | An external URL |
-| **Assignment** | A student publication from the Assignments tool |
-| **Forum** | A link to a course forum |
-| **Survey** | A link to a survey |
-| **Certificate** | A special page to trigger the generation of a completion certificate or the awarding of skills |
+| Tipe Item | Deskripsi |
+|-----------|-----------|
+| **Bagian** | Judul yang mengelompokkan item terkait (seperti judul bab). Bagian tidak berisi konten itu sendiri. |
+| **Dokumen** | File atau halaman web dari alat Dokumen kursus Anda |
+| **Latihan** | Kuis atau tes dari alat Latihan |
+| **Tautan** | URL eksternal |
+| **Tugas** | Publikasi siswa dari alat Tugas |
+| **Forum** | Tautan ke forum kursus |
+| **Survei** | Tautan ke survei |
+| **Sertifikat** | Halaman khusus untuk memicu pembuatan sertifikat penyelesaian atau pemberian keterampilan |
 
-### Organizing Items
+### Mengatur Item
 
-* **Drag and drop** items to reorder them
-* **Nest items** under sections by dragging them to the right
-* **Delete** items you no longer need
+* **Seret dan lepas** item untuk mengubah urutannya
+* **Susun item** di bawah bagian dengan menyeretnya ke kanan
+* **Hapus** item yang tidak lagi Anda perlukan
 
-### Setting Prerequisites
+### Menetapkan Prasyarat
 
-Prerequisites ensure learners complete certain steps before accessing others:
+Prasyarat memastikan peserta didik menyelesaikan langkah tertentu sebelum mengakses yang lain:
 
-1. Select an item in the learning path
-2. Open its **prerequisites** settings
-3. Choose which preceding item(s) must be completed first
-4. For exercises, you can require a **minimum score** (e.g., "Must score at least 70% on Quiz 1 before accessing Module 2")
+1. Pilih item dalam jalur pembelajaran
+2. Buka pengaturan **prasyarat**-nya
+3. Pilih item sebelumnya yang harus diselesaikan terlebih dahulu
+4. Untuk latihan, Anda dapat mewajibkan **skor minimum** (misalnya, "Harus mendapatkan skor minimal 70% pada Kuis 1 sebelum mengakses Modul 2")
 
-## Learner Experience
+## Pengalaman Peserta Didik
 
-When a learner opens a learning path:
+Ketika peserta didik membuka jalur pembelajaran:
 
-* They see the list of items in the left panel
-* Completed items are marked with a checkmark
-* Items with unmet prerequisites are locked
-* Progress is tracked automatically — if a learner leaves and comes back, they resume where they left off
-* A progress bar shows overall completion percentage
+* Mereka melihat daftar item di panel kiri
+* Item yang telah selesai ditandai dengan tanda centang
+* Item dengan prasyarat yang belum terpenuhi akan terkunci
+* Kemajuan dilacak secara otomatis — jika peserta didik meninggalkan dan kembali, mereka melanjutkan dari tempat terakhir mereka berhenti
+* Bilah kemajuan menunjukkan persentase penyelesaian keseluruhan
 
-## SCORM Content
+## Konten SCORM
 
-Chamilo's learning path tool can import **SCORM 1.2** packages — the most widely used e-learning standard. Upload a SCORM ZIP file and Chamilo will create a learning path from it, tracking progress and scores according to the SCORM specification.
+Alat jalur pembelajaran Chamilo dapat mengimpor paket **SCORM 1.2** — standar e-learning yang paling banyak digunakan. Unggah file ZIP SCORM dan Chamilo akan membuat jalur pembelajaran darinya, melacak kemajuan dan skor sesuai spesifikasi SCORM.
 
-To import a SCORM package:
+Untuk mengimpor paket SCORM:
 
-1. In the Learning paths tool, open the actions menu and click **Upload**
-2. Upload the ZIP file
-3. Chamilo unpacks and creates the learning path automatically
+1. Di alat Jalur Pembelajaran, buka menu tindakan dan klik **Unggah**
+2. Unggah file ZIP
+3. Chamilo akan membongkar dan membuat jalur pembelajaran secara otomatis
 
-### CMI5 / xAPI packages
+### Paket CMI5 / xAPI
 
-CMI5 packages (the modern xAPI-based successor to SCORM) are supported through the **XApi** plugin. Once the plugin is enabled by your administrator, you can import a CMI5 package and learners can launch it from the course; their statements are forwarded to the configured Learning Record Store.
+Paket CMI5 (penerus modern berbasis xAPI dari SCORM) didukung melalui plugin **XApi**. Setelah plugin diaktifkan oleh administrator Anda, Anda dapat mengimpor paket CMI5 dan peserta didik dapat meluncurkannya dari kursus; pernyataan mereka diteruskan ke Learning Record Store yang dikonfigurasi.
 
-## Learning Path Settings
+## Pengaturan Jalur Pembelajaran
 
-Configure how the learning path behaves:
+Konfigurasikan cara kerja jalur pembelajaran:
 
-| Setting | Description |
-|---------|-------------|
-| **Visibility** | Hide or show the learning path to learners |
-| **Prerequisites** | Require completion of other learning paths before this one |
-| **Auto-launch** | Automatically open this learning path when learners enter the course |
-| **Accumulated SCORM time** | Whether to accumulate time across multiple sessions |
+| Pengaturan | Deskripsi |
+|------------|-----------|
+| **Visibilitas** | Sembunyikan atau tampilkan jalur pembelajaran kepada peserta didik |
+| **Prasyarat** | Wajibkan penyelesaian jalur pembelajaran lain sebelum yang ini |
+| **Peluncuran Otomatis** | Buka jalur pembelajaran ini secara otomatis ketika peserta didik masuk ke kursus |
+| **Waktu SCORM Terakumulasi** | Apakah akan mengakumulasi waktu lintas beberapa sesi |
 
-## Linking to the Gradebook
+## Menghubungkan ke Buku Nilai
 
-You can include learning path completion as a graded activity in the Gradebook. This allows learning path progress to contribute to the learner's overall course grade and certificate eligibility.
+Anda dapat menyertakan penyelesaian jalur pembelajaran sebagai aktivitas yang dinilai di Buku Nilai. Ini memungkinkan kemajuan jalur pembelajaran berkontribusi pada nilai keseluruhan kursus peserta didik dan kelayakan sertifikat.
 
-## Using AI
+---
+## Menggunakan AI
 
-If the administrator has enabled AI-assisted learning path generation, you will find an AI generator option in the drop-down actions menu. Give the AI as precise a context as you want your learning path, ask for a number of pages and an approximate number of words per page, then tell it if you want to populate it with tests and launch. A few minutes later, you are looking down at a complete, text-based learning path.
+Jika administrator telah mengaktifkan pembuatan jalur pembelajaran berbantuan AI, Anda akan menemukan opsi generator AI di menu tindakan tarik-turun. Berikan konteks yang sejelas mungkin kepada AI sesuai dengan jalur pembelajaran yang Anda inginkan, tentukan jumlah halaman dan perkiraan jumlah kata per halaman, lalu beri tahu apakah Anda ingin mengisinya dengan tes dan meluncurkannya. Beberapa menit kemudian, Anda akan melihat jalur pembelajaran berbasis teks yang lengkap.
 
-Edit the documents to generate illustrations with more AI and you only have some review to do before you can share it with your learners.
+Sunting dokumen untuk menghasilkan ilustrasi dengan bantuan AI lebih lanjut, dan Anda hanya perlu melakukan beberapa tinjauan sebelum dapat membagikannya kepada peserta didik Anda.
 
 ## Tips
 
-* **Start with an outline** — Plan your sections and items before building the path
-* **Use sections as chapters** — Group related items under section headings for clarity
-* **Set prerequisites for assessments** — Require learners to study the content before taking a quiz
-* **Mix content types** — Combine reading materials, videos, interactive exercises, and external resources for an engaging learning experience
-* **Check the learner view** — Use the Student View feature to experience the learning path as a learner would
-* **Use SCORM for interactivity** — If you have access to SCORM authoring tools (like Articulate, iSpring, or similar), create rich interactive content and import it into Chamilo
+* **Mulailah dengan kerangka** — Rencanakan bagian dan item sebelum membangun jalur pembelajaran
+* **Gunakan bagian sebagai bab** — Kelompokkan item yang terkait di bawah judul bagian untuk kejelasan
+* **Tetapkan prasyarat untuk penilaian** — Wajibkan peserta didik untuk mempelajari konten sebelum mengikuti kuis
+* **Campurkan jenis konten** — Gabungkan materi bacaan, video, latihan interaktif, dan sumber daya eksternal untuk pengalaman belajar yang menarik
+* **Periksa tampilan peserta didik** — Gunakan fitur Tampilan Siswa untuk merasakan jalur pembelajaran seperti yang dialami oleh peserta didik
+* **Gunakan SCORM untuk interaktivitas** — Jika Anda memiliki akses ke alat pembuatan SCORM (seperti Articulate, iSpring, atau yang serupa), buat konten interaktif yang kaya dan impor ke dalam Chamilo

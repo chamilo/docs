@@ -1,75 +1,73 @@
-# Dropbox Settings
+# Pengaturan Dropbox
 
-Behaviour of the **Dropbox** file-exchange tool.
+Perilaku alat pertukaran berkas **Dropbox**.
 
-Access these settings under **Administration > Configuration settings > Dropbox**. This category contains **8 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+Akses pengaturan ini di bawah **Administrasi > Pengaturan Konfigurasi > Dropbox**. Kategori ini berisi **8 pengaturan**, yang tercantum di bawah ini beserta judul dan komentar yang disertakan dalam fixture pengaturan platform (`SettingsCurrentFixtures.php`).
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> Nama variabel dalam kode ditampilkan dalam format monospace. Gunakan ini saat membuat skrip melalui API atau ketika Anda perlu mengubah pengaturan tersebut pada tingkat global dengan mengedit [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
 
-## Settings
+## Pengaturan
 
 ### `dropbox_allow_group`
 
-**Dropbox: allow group**
+**Dropbox: Izinkan grup**
 
-Users can send files to groups
+Pengguna dapat mengirim berkas ke grup
 
 *Default: `true`*
 
 ### `dropbox_allow_just_upload`
 
-**Dropbox: Upload to own dropbox space?**
+**Dropbox: Unggah ke ruang dropbox pribadi?**
 
-Allow trainers and users to upload documents to their dropbox without sending  the documents to themselves
+Izinkan pelatih dan pengguna untuk mengunggah dokumen ke dropbox mereka tanpa mengirim dokumen tersebut ke diri mereka sendiri
 
 *Default: `true`*
 
 ### `dropbox_allow_mailing`
 
-**Dropbox: Allow mailing**
+**Dropbox: Izinkan pengiriman surat**
 
-With the mailing functionality you can send each learner a personal document
+Dengan fungsi pengiriman surat, Anda dapat mengirim dokumen pribadi kepada setiap peserta didik
 
 *Default: `false`*
 
 ### `dropbox_allow_overwrite`
 
-**Dropbox: Can documents be overwritten**
+**Dropbox: Bolehkah dokumen ditimpa**
 
-Can the original document be overwritten when a user or trainer uploads a document with the name of a document that already exist? If you answer yes then you loose the versioning mechanism.
+Apakah dokumen asli dapat ditimpa ketika pengguna atau pelatih mengunggah dokumen dengan nama yang sama dengan dokumen yang sudah ada? Jika Anda menjawab ya, maka Anda akan kehilangan mekanisme versioning.
 
 *Default: `true`*
 
 ### `dropbox_allow_student_to_student`
 
-**Dropbox: Learner <-> Learner**
+**Dropbox: Peserta Didik <-> Peserta Didik**
 
-Allow users to send documents to other users (peer 2 peer). Users might use this for less relevant documents also (mp3, tests solutions, ...). If you disable this then the users can send documents to the trainer only.
+Izinkan pengguna untuk mengirim dokumen ke pengguna lain (peer to peer). Pengguna mungkin menggunakan ini untuk dokumen yang kurang relevan juga (mp3, solusi tes, ...). Jika Anda menonaktifkan ini, maka pengguna hanya dapat mengirim dokumen ke pelatih.
 
 *Default: `true`*
 
 ### `dropbox_hide_course_coach`
 
-**Dropbox: hide course coach**
+**Dropbox: Sembunyikan pelatih kursus**
 
-Hide session course coach in dropbox when a document is sent by the coach to students
+Sembunyikan pelatih kursus sesi di dropbox ketika dokumen dikirim oleh pelatih ke siswa
 
 *Default: `false`*
 
 ### `dropbox_hide_general_coach`
 
-**Hide general coach in dropbox**
+**Sembunyikan pelatih umum di dropbox**
 
-Hide general coach name in the dropbox tool when the general coach uploaded the file
+Sembunyikan nama pelatih umum di alat dropbox ketika pelatih umum mengunggah berkas
 
 *Default: `false`*
 
-
 ### `dropbox_max_filesize`
 
-**Dropbox: Maximum file size of a document**
+**Dropbox: Ukuran maksimum berkas dokumen**
 
-How big (in MB) can a dropbox document be?
+Seberapa besar (dalam MB) dokumen dropbox yang diperbolehkan?
 
 *Default: `100000000`*
-

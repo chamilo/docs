@@ -1,40 +1,40 @@
-# Getting Started
+# Memulai
 
-This section helps you get oriented with Chamilo 2.0. You will learn how to log in, navigate the main interface, and configure your profile.
+Bagian ini membantu Anda berorientasi dengan Chamilo 2.0. Anda akan belajar cara masuk, menavigasi antarmuka utama, dan mengonfigurasi profil Anda.
 
-## Logging In
+## Masuk
 
-To access Chamilo, open your browser and navigate to the URL provided by your institution (for example, `https://chamilo.yourschool.edu`). Enter your username and password on the login page and click **Sign in**.
+Untuk mengakses Chamilo, buka browser Anda dan navigasikan ke URL yang disediakan oleh institusi Anda (misalnya, `https://chamilo.yourschool.edu`). Masukkan nama pengguna dan kata sandi Anda di halaman masuk dan klik **Sign in**.
 
-If your institution uses external authentication (such as Azure, Keycloak, or a university single sign-on system), you may see additional login buttons below the standard login form. Click the appropriate button to authenticate through your institution's identity provider.
+Jika institusi Anda menggunakan autentikasi eksternal (seperti Azure, Keycloak, atau sistem single sign-on universitas), Anda mungkin melihat tombol masuk tambahan di bawah formulir masuk standar. Klik tombol yang sesuai untuk mengautentikasi melalui penyedia identitas institusi Anda.
 
-> If you have forgotten your password, click the **Forgot password?** link on the login page. You will receive an email with instructions to reset it.
+> Jika Anda lupa kata sandi Anda, klik tautan **Forgot password?** di halaman masuk. Anda akan menerima email dengan petunjuk untuk mengatur ulangnya.
 
-## First Look
+## Pandangan Pertama
 
-After logging in, you will see the Chamilo home page. The interface is organized into three main areas:
+Setelah masuk, Anda akan melihat halaman beranda Chamilo. Antarmuka diorganisir menjadi tiga area utama:
 
-![The Chamilo home page showing system announcements and course cards](/.gitbook/assets/home-page-teacher.png)
+![Halaman beranda Chamilo yang menampilkan pengumuman sistem dan kartu kursus](/.gitbook/assets/home-page-teacher.png)
 
-* **Top bar** — Displays the platform logo, your message inbox (with a badge showing unread messages), and your user avatar. Click your avatar to access your profile and account settings.
-* **Sidebar** — The left navigation panel gives you quick access to your courses, sessions, agenda, social network, and more. You can collapse it by clicking the toggle at its edge.
-* **Main content area** — This is where the current page content is displayed. On the home page, you will see system announcements and your featured courses.
+* **Bilah atas** — Menampilkan logo platform, kotak masuk pesan Anda (dengan lencana yang menunjukkan pesan yang belum dibaca), dan avatar pengguna Anda. Klik avatar Anda untuk mengakses profil dan pengaturan akun Anda.
+* **Bilah sisi** — Panel navigasi kiri memberikan akses cepat ke kursus, sesi, agenda, jaringan sosial, dan lainnya. Anda dapat menyusutkannya dengan mengklik saklar di tepinya.
+* **Area konten utama** — Di sinilah konten halaman saat ini ditampilkan. Di halaman beranda, Anda akan melihat pengumuman sistem dan kursus unggulan Anda.
 
-## Your Courses
+## Kursus Anda
 
-From the sidebar, click **My courses** to see all the courses you are enrolled in as a teacher or student. Each course appears as a card showing:
+Dari bilah sisi, klik **My courses** untuk melihat semua kursus yang Anda ikuti sebagai guru atau siswa. Setiap kursus muncul sebagai kartu yang menampilkan:
 
-![The My Courses page displaying course cards with thumbnails and quick-access actions](/.gitbook/assets/my-courses-list.png)
+![Halaman My Courses yang menampilkan kartu kursus dengan thumbnail dan tindakan akses cepat](/.gitbook/assets/my-courses-list.png)
 
-* The course image or thumbnail
-* The course title
-* Quick-access actions
+* Gambar kursus atau thumbnail
+* Judul kursus
+* Tindakan akses cepat
 
-If your institution uses **sessions** (time-bound training periods), you will also see a **My sessions** link in the sidebar, organized into current, past, and upcoming sessions.
+Jika institusi Anda menggunakan **sessions** (periode pelatihan terikat waktu), Anda juga akan melihat tautan **My sessions** di bilah sisi, yang diorganisir menjadi sesi saat ini, masa lalu, dan mendatang.
 
-Sessions in Chamilo are a way to deliver the same course to different groups of learners at different times, without duplicating the course content. Think of a session as a scheduled edition or cohort of a course. More on that topic later.
+Sesi di Chamilo adalah cara untuk menyampaikan kursus yang sama ke kelompok pembelajar yang berbeda pada waktu yang berbeda, tanpa menduplikasi konten kursus. Bayangkan sesi sebagai edisi atau kohort terjadwal dari sebuah kursus. Lebih lanjut tentang topik tersebut nanti.
 
-## Next Steps
+## Langkah Selanjutnya
 
-* [Understanding the Interface](understanding-the-interface.md) — A detailed look at every part of the Chamilo interface
-* [Your Profile](your-profile.md) — How to manage your personal information and preferences
+* [Memahami Antarmuka](understanding-the-interface.md) — Pandangan rinci tentang setiap bagian antarmuka Chamilo
+* [Profil Anda](your-profile.md) — Cara mengelola informasi pribadi dan preferensi Anda

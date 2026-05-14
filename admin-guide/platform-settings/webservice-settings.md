@@ -1,66 +1,61 @@
-# Web Services Settings
+# Pengaturan Layanan Web
 
-Configuration of the legacy SOAP / REST web services (separate from the modern API Platform endpoints).
+Konfigurasi layanan web SOAP / REST lama (terpisah dari titik akhir API Platform modern).
 
-Access these settings under **Administration > Configuration settings > Web Services**. This category contains **7 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+Akses pengaturan ini di bawah **Administrasi > Pengaturan konfigurasi > Layanan Web**. Kategori ini berisi **7 pengaturan**, yang tercantum di bawah ini dengan judul dan komentar yang disertakan dalam fixture pengaturan platform (`SettingsCurrentFixtures.php`).
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> Nama variabel dalam kode ditampilkan dalam monospace. Gunakan ini saat membuat skrip melalui API atau ketika Anda perlu mengubah pengaturan tersebut pada tingkat global dengan mengedit [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
 
-## Settings
+## Pengaturan
 
 ### `allow_download_documents_by_api_key`
 
-**Allow download course documents by API Key**
+**Izinkan unduh dokumen kursus dengan Kunci API**
 
-Download documents verifying the REST API key for a user
+Mengunduh dokumen dengan memverifikasi kunci API REST untuk pengguna
 
 *Default: `false`*
-
 
 ### `disable_webservices`
 
-**Disable web services**
+**Nonaktifkan layanan web**
 
-If you do not use web services, enable this to avoid any unnecessary security risk.
+Jika Anda tidak menggunakan layanan web, aktifkan ini untuk menghindari risiko keamanan yang tidak perlu.
 
 *Default: `false`*
-
 
 ### `messaging_allow_send_push_notification`
 
-**Allow Push Notifications to the Chamilo Messaging mobile app**
+**Izinkan Notifikasi Dorong ke aplikasi seluler Chamilo Messaging**
 
-Send Push Notifications by Google's Firebase Console
+Mengirim Notifikasi Dorong melalui Konsol Firebase Google
 
 *Default: `false`*
 
-
 ### `messaging_gdc_api_key`
 
-**Server key of Firebase Console for Cloud Messaging**
+**Kunci server dari Konsol Firebase untuk Cloud Messaging**
 
-Server key (legacy token) from project credentials
+Kunci server (token lama) dari kredensial proyek
 
 ### `messaging_gdc_project_number`
 
-**Sender ID of Firebase Console for Cloud Messaging**
+**ID Pengirim dari Konsol Firebase untuk Cloud Messaging**
 
-You need register a project on <a href='https://console.firebase.google.com/'>Google Firebase Console</a>
+Anda perlu mendaftarkan proyek di <a href='https://console.firebase.google.com/'>Konsol Firebase Google</a>
 
 ### `webservice_enable_adminonly_api`
 
-**Enable admin-only web services**
+**Aktifkan layanan web khusus admin**
 
-Some REST web services are marked for admins only and are disabled by default. Enable this feature to give access to these web services (to users with admin credentials, obviously).
+Beberapa layanan web REST ditandai hanya untuk admin dan dinonaktifkan secara default. Aktifkan fitur ini untuk memberikan akses ke layanan web tersebut (kepada pengguna dengan kredensial admin, tentu saja).
 
 *Default: `false`*
 
 ### `webservice_return_user_field`
 
-**Webservices return user field**
+**Layanan web mengembalikan bidang pengguna**
 
-Ask REST webservices (v2.php) to return another identifier for fields related to user ID. This is useful if the external system doesn't really deal with user IDs as they are in Chamilo, as it helps the external system match the user data return with some external data that is know to Chamilo. For example, if you use an external authentication system, you can return the extra field used to match the user with the external authentication system rather than user.id.
+Meminta layanan web REST (v2.php) untuk mengembalikan pengenal lain untuk bidang yang terkait dengan ID pengguna. Ini berguna jika sistem eksternal tidak benar-benar menangani ID pengguna seperti yang ada di Chamilo, karena membantu sistem eksternal mencocokkan data pengguna yang dikembalikan dengan beberapa data eksternal yang diketahui oleh Chamilo. Misalnya, jika Anda menggunakan sistem autentikasi eksternal, Anda dapat mengembalikan bidang tambahan yang digunakan untuk mencocokkan pengguna dengan sistem autentikasi eksternal daripada user.id.
 
 *Default: `oauth2_id`*
-
-

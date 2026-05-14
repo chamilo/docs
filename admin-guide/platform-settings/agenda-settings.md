@@ -1,90 +1,89 @@
-# Agenda Settings
+# Pengaturan Agenda
 
-Defaults and behaviour of the **Agenda** tool (calendar / events).
+Pengaturan bawaan dan perilaku alat **Agenda** (kalender / acara).
 
-Access these settings under **Administration > Configuration settings > Agenda**. This category contains **11 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+Akses pengaturan ini di bawah **Administrasi > Pengaturan Konfigurasi > Agenda**. Kategori ini berisi **11 pengaturan**, yang tercantum di bawah ini beserta judul dan komentar yang disertakan dalam fixture pengaturan platform (`SettingsCurrentFixtures.php`).
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> Nama variabel dalam kode ditampilkan dalam format monospace. Gunakan ini saat membuat skrip melalui API atau ketika Anda perlu mengubah pengaturan tersebut pada tingkat global dengan mengedit [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
 
-## Settings
+## Pengaturan
 
 ### `agenda_colors`
 
-**Agenda colours**
+**Warna Agenda**
 
-Set HTML-code colours for each type of event to change the colour when displaying the event.
+Atur warna kode HTML untuk setiap jenis acara guna mengubah warna saat menampilkan acara tersebut.
 
 ### `agenda_legend`
 
-**Agenda colour legends**
+**Legenda Warna Agenda**
 
-Add a small text as legend describing the colours used for the events.
+Tambahkan teks kecil sebagai legenda yang menjelaskan warna yang digunakan untuk acara.
 
 ### `agenda_on_hover_info`
 
-**Agenda hover info**
+**Informasi Hover Agenda**
 
-Customize the agenda on cursor hovering. Show agenda comment and/or description.
+Sesuaikan agenda saat kursor melayang di atasnya. Tampilkan komentar dan/atau deskripsi agenda.
 
 ### `agenda_reminders_sender_id`
 
-**ID of the user who officially sends the agenda reminders**
+**ID pengguna yang secara resmi mengirim pengingat agenda**
 
-Sets which user appears as the sender of agenda reminder emails.
+Menentukan pengguna mana yang muncul sebagai pengirim email pengingat agenda.
 
 *Default: `0`*
 
 ### `allow_agenda_edit_for_hrm`
 
-**Allow HRM role to edit or delete agenda events**
+**Izinkan peran HRM untuk mengedit atau menghapus acara agenda**
 
-This gives the HRM a little more power by allowing them to edit/delete agenda events in the course-session.
+Ini memberikan sedikit lebih banyak kekuatan kepada HRM dengan mengizinkan mereka mengedit/menghapus acara agenda dalam kursus-sesi.
 
 *Default: `false`*
 
 ### `allow_careers_in_global_agenda`
 
-**Link global calendar events with careers and promotions**
+**Hubungkan acara kalender global dengan karier dan promosi**
 
-When enabled, global calendar events can be associated with careers and promotions, allowing targeted scheduling.
+Ketika diaktifkan, acara kalender global dapat dikaitkan dengan karier dan promosi, memungkinkan penjadwalan yang ditargetkan.
 
 *Default: `false`*
 
 ### `allow_personal_agenda`
 
-**Personal Agenda**
+**Agenda Pribadi**
 
-Can the learner add personal events to the Agenda?
+Apakah peserta didik dapat menambahkan acara pribadi ke Agenda?
 
 *Default: `true`*
 
 ### `default_calendar_view`
 
-**Default calendar display mode**
+**Mode tampilan kalender bawaan**
 
-Set this to dayGridMonth, basicWeek, agendaWeek or agendaDay to change the default view of the calendar.
+Atur ini ke dayGridMonth, basicWeek, agendaWeek, atau agendaDay untuk mengubah tampilan bawaan kalender.
 
 *Default: `month`*
 
 ### `fullcalendar_settings`
 
-**Calendar customization**
+**Kustomisasi Kalender**
 
-Extra settings for the agenda, allowing you to configure the specific calendar library we use.
+Pengaturan tambahan untuk agenda, memungkinkan Anda mengonfigurasi pustaka kalender spesifik yang kami gunakan.
 
 ### `personal_agenda_show_all_session_events`
 
-**Display all agenda events in personal agenda**
+**Tampilkan semua acara agenda di agenda pribadi**
 
-Do not hide events from expired sessions.
+Jangan sembunyikan acara dari sesi yang telah kedaluwarsa.
 
 *Default: `false`*
 
 ### `personal_calendar_show_sessions_occupation`
 
-**Display sessions occupations in personal agenda**
+**Tampilkan jadwal sesi di agenda pribadi**
 
-When enabled, session schedules and occupations are displayed in users' personal calendars.
+Ketika diaktifkan, jadwal sesi dan okupansi ditampilkan di kalender pribadi pengguna.
 
 *Default: `false`*
-

@@ -1,34 +1,34 @@
 # Dropbox
 
-The dropbox is a file exchange tool that allows you and your learners to share files with each other within the course.
+Dropbox adalah alat pertukaran berkas yang memungkinkan Anda dan peserta didik Anda untuk berbagi berkas satu sama lain dalam kursus.
 
-> For collecting graded student work, the [Assignments](../assessing-learners/assignments.md) tool is usually more appropriate, as it includes grading and feedback features. The dropbox is better suited for informal file sharing.
+> Untuk mengumpulkan tugas siswa yang dinilai, alat [Tugas](../assessing-learners/assignments.md) biasanya lebih sesuai, karena mencakup fitur penilaian dan umpan balik. Dropbox lebih cocok untuk berbagi berkas secara informal.
 
-## Sending a File
+## Mengirim Berkas
 
-1. Open the **Dropbox** tool from the course homepage
-2. Click **Share a new file**
-3. Select the file to upload
-4. Choose the **recipient(s)** — one or more enrolled users or course groups
-5. Send
+1. Buka alat **Dropbox** dari halaman utama kursus
+2. Klik **Bagikan berkas baru**
+3. Pilih berkas yang akan diunggah
+4. Pilih **penerima** — satu atau lebih pengguna terdaftar atau grup kursus
+5. Kirim
 
-## Receiving Files
+## Menerima Berkas
 
-When someone sends you a file, it appears in your dropbox inbox. You can:
+Ketika seseorang mengirimkan berkas kepada Anda, berkas tersebut akan muncul di kotak masuk Dropbox Anda. Anda dapat:
 
-* **Download** the file
-* **Add a comment** to the file (after it has been received)
-* **Move** the file into one of your categories
-* **Delete** the file from your inbox
+* **Mengunduh** berkas tersebut
+* **Menambahkan komentar** pada berkas (setelah diterima)
+* **Memindahkan** berkas ke salah satu kategori Anda
+* **Menghapus** berkas dari kotak masuk Anda
 
-## Organizing files
+## Mengatur Berkas
 
-Both sent and received files can be organized into custom **categories** (folders). Use the category controls in the dropbox toolbar to create a category, then move files into it. If the platform setting "allow overwrite" is enabled, re-sending a file with the same name lets you overwrite the previous version.
+Baik berkas yang dikirim maupun diterima dapat diatur ke dalam **kategori** khusus (folder). Gunakan kontrol kategori di bilah alat Dropbox untuk membuat kategori, lalu pindahkan berkas ke dalamnya. Jika pengaturan platform "izinkan timpa" diaktifkan, mengirim ulang berkas dengan nama yang sama memungkinkan Anda menimpa versi sebelumnya.
 
-You can also batch-download selected files as a ZIP.
+Anda juga dapat mengunduh beberapa berkas yang dipilih sekaligus sebagai ZIP.
 
-## As a Teacher
+## Sebagai Pengajar
 
-* You can send files to individual learners, groups of learners, or all enrolled users
-* You can view files sent to you by learners
-* This tool is useful for sharing supplementary materials, providing individual feedback documents, or receiving informal submissions
+* Anda dapat mengirim berkas ke peserta didik individu, kelompok peserta didik, atau semua pengguna yang terdaftar
+* Anda dapat melihat berkas yang dikirimkan kepada Anda oleh peserta didik
+* Alat ini berguna untuk berbagi materi tambahan, memberikan dokumen umpan balik individu, atau menerima pengiriman informal

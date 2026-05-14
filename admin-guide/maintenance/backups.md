@@ -1,53 +1,53 @@
-# Backups
+# Cadangan
 
-Regular backups are essential for protecting your Chamilo data. This page covers what to back up and how.
+Cadangan rutin sangat penting untuk melindungi data Chamilo Anda. Halaman ini membahas apa yang perlu dicadangkan dan bagaimana caranya.
 
-## What to Back Up
+## Apa yang Harus Dicadangkan
 
-### 1. Database
+### 1. Basis Data
 
-The Chamilo database contains all platform data: users, courses, tracking, grades, messages, and settings. This is the most critical component to back up.
+Basis data Chamilo berisi semua data platform: pengguna, kursus, pelacakan, nilai, pesan, dan pengaturan. Ini adalah komponen paling kritis untuk dicadangkan.
 
-**How to back up:**
+**Cara mencadangkan:**
 
 ```bash
 mysqldump -u username -p chamilo_database > chamilo_backup_$(date +%Y%m%d).sql
 ```
 
-### 2. Files
+### 2. Berkas
 
-Chamilo stores uploaded files (documents, images, SCORM packages) in the filesystem. The key directories to back up:
+Chamilo menyimpan berkas yang diunggah (dokumen, gambar, paket SCORM) di sistem berkas. Direktori utama yang perlu dicadangkan:
 
-* `var/` — Uploaded files and resources
-* `public/plugin/` — Plugin files (only if you have added custom plugins)
+* `var/` — Berkas dan sumber daya yang diunggah
+* `public/plugin/` — Berkas plugin (hanya jika Anda telah menambahkan plugin khusus)
 
-If you use cloud storage (S3, Azure Blob), ensure your cloud provider's backup/versioning is enabled.
+Jika Anda menggunakan penyimpanan cloud (S3, Azure Blob), pastikan fitur cadangan/versi dari penyedia cloud Anda diaktifkan.
 
-### 3. Configuration
+### 3. Konfigurasi
 
-* `.env` — Your environment configuration
-* `config/` — Any custom configuration files
+* `.env` — Konfigurasi lingkungan Anda
+* `config/` — Berkas konfigurasi khusus apa pun
 
-## Backup Schedule
+## Jadwal Cadangan
 
-| Component | Recommended frequency |
-|-----------|---------------------|
-| Database | Daily |
-| Files | Daily or weekly (depending on upload activity) |
-| Configuration | After any configuration change |
+| Komponen | Frekuensi yang Disarankan |
+|-----------|---------------------------|
+| Basis Data | Harian |
+| Berkas | Harian atau mingguan (tergantung pada aktivitas unggahan) |
+| Konfigurasi | Setelah ada perubahan konfigurasi |
 
-## Restoration
+## Pemulihan
 
-To restore from a backup:
+Untuk memulihkan dari cadangan:
 
-1. Restore the database from the SQL dump
-2. Restore the file directories
-3. Restore the configuration files
-4. Clear the Symfony cache: `php bin/console cache:clear`
+1. Pulihkan basis data dari dump SQL
+2. Pulihkan direktori berkas
+3. Pulihkan berkas konfigurasi
+4. Bersihkan cache Symfony: `php bin/console cache:clear`
 
 ## Tips
 
-* **Automate backups** — Use cron jobs to run backups automatically
-* **Store off-site** — Keep backup copies on a separate server or cloud storage
-* **Test restoration** — Periodically test that you can restore from a backup successfully
-* **Document your process** — Keep written instructions for the restoration process so anyone on the team can perform it
+* **Otomatiskan cadangan** — Gunakan cron jobs untuk menjalankan cadangan secara otomatis
+* **Simpan di luar lokasi** — Simpan salinan cadangan di server terpisah atau penyimpanan cloud
+* **Uji pemulihan** — Secara berkala uji bahwa Anda dapat memulihkan dari cadangan dengan sukses
+* **Dokumentasikan proses Anda** — Simpan instruksi tertulis untuk proses pemulihan sehingga siapa pun di tim dapat melakukannya

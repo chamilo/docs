@@ -1,18 +1,18 @@
-# Course Settings
+# Pengaturan Kursus
 
-Defaults and policies that apply to courses across the platform — visibility, creation rights, allowed tools, learner permissions, and similar.
+Pengaturan bawaan dan kebijakan yang berlaku untuk kursus di seluruh platform — visibilitas, hak pembuatan, alat yang diizinkan, izin peserta didik, dan sejenisnya.
 
-Access these settings under **Administration > Configuration settings > Course**. This category contains **45 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+Akses pengaturan ini di bawah **Administrasi > Pengaturan konfigurasi > Kursus**. Kategori ini berisi **45 pengaturan**, yang tercantum di bawah ini dengan judul dan komentar yang disertakan dalam fixture pengaturan platform (`SettingsCurrentFixtures.php`).
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> Nama variabel dalam kode ditampilkan dalam monospace. Gunakan saat membuat skrip melalui API atau ketika Anda perlu mengubah pengaturan tersebut pada tingkat global dengan mengedit [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
 
-## Settings
+## Pengaturan
 
 ### `active_tools_on_create`
 
-**Active tools on course creation**
+**Alat aktif saat pembuatan kursus**
 
-Select the tools that will be *active* after the creation of a course.
+Pilih alat yang akan *aktif* setelah pembuatan kursus.
 
 *Default:*
 ```
@@ -21,341 +21,338 @@ agenda,announcement,attendance,bbb,blog,chat,course_description,course_progress,
 
 ### `allow_base_course_category`
 
-**Use course categories from top URL**
+**Gunakan kategori kursus dari URL utama**
 
-In multi-URL settings, allow admins and teachers to assign categories from the top URL to courses in the children URLs.
+Dalam pengaturan multi-URL, izinkan admin dan pengajar untuk menetapkan kategori dari URL utama ke kursus di URL anak.
 
 *Default: `false`*
 
 ### `allow_course_theme`
 
-**Allow course themes**
+**Izinkan tema kursus**
 
-Allows course graphical themes and makes it possible to change the style sheet used by a course to any of the possible style sheets available to Chamilo. When a user enters the course, the style sheet of the course will have priority over the user's own style sheet and the platform's default style sheet.
+Mengizinkan tema grafis kursus dan memungkinkan untuk mengubah stylesheet yang digunakan oleh kursus ke salah satu stylesheet yang tersedia di Chamilo. Ketika pengguna masuk ke kursus, stylesheet kursus akan memiliki prioritas atas stylesheet pengguna sendiri dan stylesheet bawaan platform.
 
 *Default: `true`*
 
 ### `allow_public_course_with_no_terms_conditions`
 
-**Access public courses with terms and conditions**
+**Akses kursus publik dengan syarat dan ketentuan**
 
-With this option enabled, if a course has public visibility and terms and conditions, those terms are disabled while the course is public.
+Dengan opsi ini diaktifkan, jika kursus memiliki visibilitas publik dan syarat serta ketentuan, syarat tersebut akan dinonaktifkan selama kursus bersifat publik.
 
 *Default: `false`*
 
 ### `block_registered_users_access_to_open_course_contents`
 
-**Block public courses access to authenticated users**
+**Blokir akses kursus publik untuk pengguna terautentikasi**
 
-Only show public courses. Do not allow registered users to access courses with 'open' visibility unless they are subscribed to each of these courses.
+Hanya tampilkan kursus publik. Jangan izinkan pengguna terdaftar untuk mengakses kursus dengan visibilitas 'terbuka' kecuali mereka berlangganan ke masing-masing kursus tersebut.
 
 *Default: `false`*
 
 ### `breadcrumbs_course_homepage`
 
-**Course homepage breadcrumb**
+**Breadcrumb halaman utama kursus**
 
-The breadcrumb is the horizontal links navigation system usually in the top left of your page. This option selects what you want to appear in the breadcrumb on courses' homepages
+Breadcrumb adalah sistem navigasi tautan horizontal yang biasanya berada di kiri atas halaman Anda. Opsi ini memilih apa yang ingin Anda tampilkan di breadcrumb pada halaman utama kursus.
 
 *Default: `course_title`*
 
 ### `course_about_teacher_name_hide`
 
-**Hide course teacher info on course details page**
+**Sembunyikan informasi pengajar kursus di halaman detail kursus**
 
-On the course details page, hide the teacher information.
+Pada halaman detail kursus, sembunyikan informasi pengajar.
 
 *Default: `false`*
 
 ### `course_category_code_to_use_as_model`
 
-**Restrict course templates to one course category**
+**Batasi templat kursus ke satu kategori kursus**
 
-Give a category code to use as course templates. Only those courses will show in the drop-down at course creation time, and users won’t see the courses in this category from the courses catalogue.
+Berikan kode kategori untuk digunakan sebagai templat kursus. Hanya kursus tersebut yang akan muncul di dropdown saat pembuatan kursus, dan pengguna tidak akan melihat kursus dalam kategori ini dari katalog kursus.
 
 ### `course_configuration_tool_extra_fields_to_show_and_edit`
 
-**Extra fields to show in course settings**
+**Bidang tambahan untuk ditampilkan di pengaturan kursus**
 
-The fields defined in this array will appear on the course settings page.
+Bidang yang didefinisikan dalam array ini akan muncul di halaman pengaturan kursus.
 
 ### `course_creation_by_teacher_extra_fields_to_show`
 
-**Extra fields to show on course creation form**
+**Bidang tambahan untuk ditampilkan pada formulir pembuatan kursus**
 
-The fields defined in this array will appear as additional fields in the course creation form.
+Bidang yang didefinisikan dalam array ini akan muncul sebagai bidang tambahan di formulir pembuatan kursus.
 
 ### `course_creation_donate_link`
 
-**Donation link on course creation page**
+**Tautan donasi di halaman pembuatan kursus**
 
-The page the donation message should link to (full URL).
+Halaman yang harus ditautkan oleh pesan donasi (URL lengkap).
 
 ### `course_creation_donate_message_show`
 
-**Show donate message on course creation page**
+**Tampilkan pesan donasi di halaman pembuatan kursus**
 
-Add a message box in the course creation page for teachers, asking them to donate to the project.
+Tambahkan kotak pesan di halaman pembuatan kursus untuk pengajar, meminta mereka untuk menyumbang ke proyek.
 
 *Default: `false`*
 
 ### `course_creation_form_hide_course_code`
 
-**Remove course code field from course creation form**
+**Hapus bidang kode kursus dari formulir pembuatan kursus**
 
-If not provided, the course code is generated by default based on the course title, so enable this option to remove the code field from the course creation form altogether.
+Jika tidak disediakan, kode kursus dihasilkan secara bawaan berdasarkan judul kursus, jadi aktifkan opsi ini untuk menghapus bidang kode dari formulir pembuatan kursus sepenuhnya.
 
 *Default: `false`*
 
 ### `course_creation_form_set_course_category_mandatory`
 
-**Set course category mandatory**
+**Jadikan kategori kursus wajib**
 
-When creating a course, make the course category a required setting.
+Saat membuat kursus, jadikan kategori kursus sebagai pengaturan yang wajib.
 
 *Default: `false`*
 
 ### `course_creation_form_set_extra_fields_mandatory`
 
-**Extra fields to require on course creation form**
+**Bidang tambahan yang wajib di formulir pembuatan kursus**
 
-The fields defined in this array will be mandatory in the course creation form.
+Bidang yang didefinisikan dalam array ini akan menjadi wajib di formulir pembuatan kursus.
 
 ### `course_creation_splash_screen`
 
-**Splash screen for courses**
+**Layar pembuka untuk kursus**
 
-Show a splash screen when creating a new course.
+Tampilkan layar pembuka saat membuat kursus baru.
 
 *Default: `true`*
 
+---
 ### `course_creation_use_template`
 
-**Use template course for new courses**
+**Gunakan kursus templat untuk kursus baru**
 
-Set this to use the same template course (identified by its course numeric ID in the database) for all new courses that will be created on the platform. Please note that, if not properly planned, this setting might have a massive impact on space usage. The template course will be used as if the teacher did a copy of the course with the course backup tools, so no user content is copied, only teacher material. All other course-backup rules apply. Leave empty (or set to 0) to disable.
+Atur ini untuk menggunakan kursus templat yang sama (diidentifikasi oleh ID numerik kursus di basis data) untuk semua kursus baru yang akan dibuat di platform. Harap diperhatikan bahwa, jika tidak direncanakan dengan baik, pengaturan ini dapat memiliki dampak besar pada penggunaan ruang penyimpanan. Kursus templat akan digunakan seolah-olah pengajar melakukan salinan kursus dengan alat cadangan kursus, sehingga konten pengguna tidak disalin, hanya materi pengajar. Semua aturan cadangan kursus lainnya berlaku. Biarkan kosong (atau atur ke 0) untuk menonaktifkan.
 
 ### `course_creation_user_course_extra_field_relation_to_prefill`
 
-**Prefill course fields with fields from user**
+**Isi otomatis bidang kursus dengan bidang dari pengguna**
 
-If not empty, the course creation process will look for some fields in the user profile and auto-fill them for the course. For example, a teacher specialized in digital marketing could automatically set a « digital marketing » flag on each course (s)he creates.
+Jika tidak kosong, proses pembuatan kursus akan mencari beberapa bidang di profil pengguna dan mengisi otomatis bidang tersebut untuk kursus. Misalnya, seorang pengajar yang berspesialisasi dalam pemasaran digital dapat secara otomatis menetapkan tanda « pemasaran digital » pada setiap kursus yang dibuatnya.
 
 ### `course_hide_tools`
 
-**Hide tools from teachers**
+**Sembunyikan alat dari pengajar**
 
-Check the tools you want to hide from teachers. This will prohibit access to the tool.
+Centang alat yang ingin Anda sembunyikan dari pengajar. Ini akan melarang akses ke alat tersebut.
 
 ### `course_images_in_courses_list`
 
-**Courses custom icons**
+**Ikon khusus kursus**
 
-Use course images as the course icon in courses lists (instead of the default green blackboard icon).
+Gunakan gambar kursus sebagai ikon kursus dalam daftar kursus (bukan ikon papan tulis hijau default).
 
 *Default: `true`*
 
 ### `course_log_default_extra_fields`
 
-**User extra fields by default in course stats page**
+**Bidang tambahan pengguna secara default di halaman statistik kursus**
 
-Configure this array with the internal IDs of the extra fields you want to show by default in the main course stats page.
+Konfigurasikan array ini dengan ID internal dari bidang tambahan yang ingin Anda tampilkan secara default di halaman statistik kursus utama.
 
 ### `course_log_hide_columns`
 
-**Hide columns from course logs**
+**Sembunyikan kolom dari log kursus**
 
-This array gives you the possibility to configure which columns to hide in the main course stats page and in the total time report.
+Array ini memberi Anda kemungkinan untuk mengatur kolom mana yang akan disembunyikan di halaman statistik kursus utama dan di laporan total waktu.
 
 ### `course_sequence_valid_only_in_same_session`
 
-**Validate prerequisites only within the same session**
+**Validasi prasyarat hanya dalam sesi yang sama**
 
-When enabled, a course will be considered validated only if passed within the current session. If disabled, courses passed in other sessions will also unlock dependent courses.
+Ketika diaktifkan, sebuah kursus akan dianggap tervalidasi hanya jika lulus dalam sesi saat ini. Jika dinonaktifkan, kursus yang lulus di sesi lain juga akan membuka kursus yang bergantung padanya.
 
 *Default: `false`*
-
 
 ### `course_student_info`
 
-**Course student info display**
+**Tampilan informasi siswa kursus**
 
-On the ‘My courses’/’My sessions’ pages, show additional information regarding the score, progress and/or certificate acquisition by the student.
+Di halaman ‘Kursus Saya’/’Sesi Saya’, tampilkan informasi tambahan mengenai skor, kemajuan, dan/atau perolehan sertifikat oleh siswa.
 
 ### `course_validation`
 
-**Courses validation**
+**Validasi kursus**
 
-When the 'Courses validation' feature is enabled, a teacher is not able to create a course alone. He/she fills a course request. The platform administrator reviews the request and approves it or rejects it.<br />This feature relies on automated e-mail messaging; set Chamilo to access an e-mail server and to use a dedicated an e-mail account.
+Ketika fitur 'Validasi Kursus' diaktifkan, seorang pengajar tidak dapat membuat kursus sendirian. Dia mengisi permintaan kursus. Administrator platform meninjau permintaan tersebut dan menyetujui atau menolaknya.<br />Fitur ini bergantung pada pengiriman pesan email otomatis; atur Chamilo untuk mengakses server email dan menggunakan akun email khusus.
 
 *Default: `false`*
-
 
 ### `course_validation_terms_and_conditions_url`
 
-**Course validation - a link to the terms and conditions**
+**Validasi kursus - tautan ke syarat dan ketentuan**
 
-This is the URL to the 'Terms and Conditions' document that is valid for making a course request. If the address is set here, the user should read and agree with these terms and conditions before sending a course request.<br />If you enable Chamilo's 'Terms and Conditions' module and if you want its URL to be used, then leave this setting empty.
+Ini adalah URL ke dokumen 'Syarat dan Ketentuan' yang berlaku untuk membuat permintaan kursus. Jika alamat ini diatur di sini, pengguna harus membaca dan menyetujui syarat dan ketentuan ini sebelum mengirim permintaan kursus.<br />Jika Anda mengaktifkan modul 'Syarat dan Ketentuan' Chamilo dan ingin URL-nya digunakan, maka biarkan pengaturan ini kosong.
 
 ### `courses_default_creation_visibility`
 
-**Default course visibility**
+**Visibilitas kursus default**
 
-Default course visibility while creating a new course
+Visibilitas kursus default saat membuat kursus baru
 
 *Default: `2`*
 
-
 ### `display_coursecode_in_courselist`
 
-**Display Code in Course name**
+**Tampilkan Kode Kursus di nama kursus**
 
-Display Course Code in courses list
+Tampilkan Kode Kursus dalam daftar kursus
 
 *Default: `false`*
-
 
 ### `display_teacher_in_courselist`
 
-**Display teacher in course name**
+**Tampilkan pengajar di nama kursus**
 
-Display teacher in courses list
+Tampilkan pengajar dalam daftar kursus
 
 *Default: `true`*
 
-
 ### `enable_tool_introduction`
 
-**Enable tool introduction**
+**Aktifkan pengenalan alat**
 
-Enable introductions on each tool's homepage
+Aktifkan pengenalan di beranda setiap alat
 
 *Default: `false`*
 
-
 ### `enable_unsubscribe_button_on_my_course_page`
 
-**Show unsubscribe button in ‘My courses’**
+**Tampilkan tombol berhenti berlangganan di ‘Kursus Saya’**
 
-Add a button to unsubscribe from a course on the ‘My courses’ page.
+Tambahkan tombol untuk berhenti berlangganan dari kursus di halaman ‘Kursus Saya’.
 
 *Default: `false`*
 
 ### `example_material_course_creation`
 
-**Example material on course creation**
+**Materi contoh saat pembuatan kursus**
 
-Create example material automatically when creating a new course
+Buat materi contoh secara otomatis saat membuat kursus baru
 
 *Default: `true`*
 
-
 ### `hide_course_rating`
 
-**Hide course rating**
+**Sembunyikan peringkat kursus**
 
-The course rating feature comes by default in different places. If you don’t want it, enable this option.
+Fitur peringkat kursus tersedia secara default di berbagai tempat. Jika Anda tidak menginginkannya, aktifkan opsi ini.
 
 *Default: `false`*
 
 ### `hide_course_sidebar`
 
-**Hide courses block in the sidebar**
+**Sembunyikan blok kursus di bilah sisi**
 
-When on screens where the left menu is visible, do not display the « Courses » section.
+Saat berada di layar di mana menu kiri terlihat, jangan tampilkan bagian « Kursus ».
 
 *Default: `true`*
 
 ### `multiple_access_url_show_shared_course_marker`
 
-**Show multi-URL shared course marker**
+**Tampilkan penanda kursus bersama multi-URL**
 
-Adds a link icon to courses that are shared between URLs, so users (in particular teachers) know they have to take special care when editing the course content.
+Tambahkan ikon tautan ke kursus yang dibagikan antar URL, sehingga pengguna (khususnya pengajar) tahu bahwa mereka harus berhati-hati saat mengedit konten kursus.
 
 *Default: `false`*
 
 ### `my_courses_show_courses_in_user_language_only`
 
-**Only show courses in the user’s language**
+**Hanya tampilkan kursus dalam bahasa pengguna**
 
-If enabled, this option will hide all courses not set in the user’s language.
+Jika diaktifkan, opsi ini akan menyembunyikan semua kursus yang tidak diatur dalam bahasa pengguna.
 
 *Default: `false`*
 
+---
 ### `profiling_filter_adding_users`
 
-**Filter users on profile fields on subscription to course**
+**Filter pengguna berdasarkan bidang profil saat pendaftaran ke kursus**
 
-Allow teachers to filter the users based on extra fields on the page to subscribe users to their course.
+Izinkan pengajar untuk memfilter pengguna berdasarkan bidang tambahan pada halaman untuk mendaftarkan pengguna ke kursus mereka.
 
 *Default: `false`*
 
 
 ### `resource_sequence_show_dependency_in_course_intro`
 
-**Show dependencies in course intro**
+**Tampilkan ketergantungan di pengantar kursus**
 
-When using resources sequencing with courses or sessions, show the dependencies of the course on the course’s homepage.
+Saat menggunakan pengurutan sumber daya dengan kursus atau sesi, tampilkan ketergantungan kursus di halaman utama kursus.
 
 *Default: `false`*
 
+
 ### `scorm_cumulative_session_time`
 
-**Cumulative session time for SCORM**
+**Waktu sesi kumulatif untuk SCORM**
 
-When enabled, the session time for SCORM Learning Paths will be cumulative, otherwise, it will only be counted from the last update time. This is a global setting. It is used when creating a new Learning Path but can then be redefined for each one.
+Ketika diaktifkan, waktu sesi untuk Jalur Pembelajaran SCORM akan bersifat kumulatif, jika tidak, waktu tersebut hanya akan dihitung dari waktu pembaruan terakhir. Ini adalah pengaturan global. Pengaturan ini digunakan saat membuat Jalur Pembelajaran baru tetapi kemudian dapat didefinisikan ulang untuk masing-masing.
 
 *Default: `true`*
 
 
 ### `send_email_to_admin_when_create_course`
 
-**E-mail alert on course creation**
+**Peringatan email saat pembuatan kursus**
 
-Send an email to the platform administrator each time a teacher creates a new course
+Kirim email ke administrator platform setiap kali seorang pengajar membuat kursus baru.
 
 *Default: `false`*
 
 
 ### `show_course_duration`
 
-**Show courses duration**
+**Tampilkan durasi kursus**
 
-Display the course duration next to the course title in the course catalogue and the courses list.
+Tampilkan durasi kursus di samping judul kursus di katalog kursus dan daftar kursus.
 
 *Default: `false`*
 
+
 ### `show_navigation_menu`
 
-**Display course navigation menu**
+**Tampilkan menu navigasi kursus**
 
-Display a navigation menu that quickens access to the tools
+Tampilkan menu navigasi yang mempercepat akses ke alat-alat.
 
 *Default: `false`*
 
 
 ### `show_toolshortcuts`
 
-**Tools shortcuts**
+**Pintasan alat**
 
-Show the tool shortcuts in the banner?
+Tampilkan pintasan alat di banner?
 
 *Default: `false`*
 
+
 ### `student_view_enabled`
 
-**Enable learner view**
+**Aktifkan tampilan pembelajar**
 
-Enable the learner view, which allows a teacher or admin to see a course as a learner would see it
+Aktifkan tampilan pembelajar, yang memungkinkan pengajar atau admin untuk melihat kursus sebagaimana yang dilihat oleh pembelajar.
 
 *Default: `true`*
 
 
 ### `view_grid_courses`
 
-**View courses in a grid layout**
+**Lihat kursus dalam tata letak grid**
 
-View courses in a layout with several courses per line. Otherwise, the layout will show one course per line.
+Lihat kursus dalam tata letak dengan beberapa kursus per baris. Jika tidak, tata letak akan menunjukkan satu kursus per baris.
 
 *Default: `true`*
-

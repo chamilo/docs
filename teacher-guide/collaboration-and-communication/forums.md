@@ -1,58 +1,58 @@
-# Forums
+# Forum
 
-The forum tool allows you to host structured discussions within your course. Learners can post messages, reply to each other, and engage in threaded conversations.
+Alat Forum memungkinkan Anda untuk mengadakan diskusi terstruktur dalam kursus. Siswa dapat memposting pesan, saling membalas, dan berpartisipasi dalam percakapan berbasis utas.
 
-## Forum Structure
+## Struktur Forum
 
-![The forum category list showing categories, forums, and topic counts](/.gitbook/assets/forum-category-list.png)
+![Daftar kategori forum, menampilkan kategori, forum, dan jumlah topik](/.gitbook/assets/forum-category-list.png)
 
-Forums in Chamilo are organized in three levels:
+Forum di Chamilo diorganisasi dalam tiga tingkatan:
 
-1. **Forum categories** — Top-level groupings (e.g., "General Discussions", "Module 1 Questions")
-2. **Forums** — Individual discussion boards within a category
-3. **Topics (threads)** — Individual discussion topics within a forum, each with a chain of replies
+1. **Kategori Forum** — Pengelompokan tingkat tertinggi (misalnya, “Diskusi Umum”, “Pertanyaan Modul 1”)
+2. **Forum** — Papan diskusi tunggal dalam suatu kategori
+3. **Topik (threads)** — Topik diskusi tunggal dalam forum, masing-masing berisi serangkaian balasan
 
-## Creating a Forum Category
+## Membuat Kategori Forum
 
-1. Open the **Forums** <img src="/.gitbook/assets/icons/mdi-comment-quote.svg" alt="Forums" data-size="line"> tool from your course homepage
-2. Click **Add a forum category**
-3. Enter a **Category name** and optional description
-4. Save
+1. Buka alat **Forum** di halaman utama kursus <img src="/.gitbook/assets/icons/mdi-comment-quote.svg" alt="Forum" data-size="line">
+2. Klik **Tambah Kategori Forum**
+3. Masukkan **Nama Kategori** dan deskripsi opsional
+4. Simpan
 
-## Creating a Forum
+## Membuat Forum
 
-You can only add a forum once at least one category exists.
+Anda hanya dapat menambahkan forum jika setidaknya ada satu kategori yang sudah ada.
 
-1. Within a category, click **Add a forum**
-2. Fill in the basic details:
-   * **Title** — The name of this discussion board
-   * **Description** — An optional description of the forum's purpose
-   * **Create in category** — The category this forum belongs to
-3. Open **Advanced settings** to configure:
-   * **Publication date** / **Closing date** — Optional time window during which the forum is open
-   * **Moderated forum** — Require new posts to be approved by a teacher before they become visible
-   * **Can learners edit their own posts?** — Allow or prevent learners from editing posts after submitting
-   * **Allow users to start new threads** — When set to No, learners can only reply to existing threads
-   * **Default view type** — Choose how posts are displayed: **Flat**, **Threaded**, or **Nested**
-   * **For Group** — Attach this forum to a course group
-   * **Public access / Private access** — For group forums, decide whether any course member can read it or only group members
-4. Save
+1. Di dalam suatu kategori, klik **Tambah Forum**
+2. Isi informasi dasar:
+   * **Judul** — Nama papan diskusi ini
+   * **Deskripsi** — Deskripsi opsional tentang tujuan forum
+   * **Dibuat di Kategori** — Kategori tempat forum ini berada
+3. Buka **Pengaturan Lanjutan** untuk mengonfigurasi:
+   * **Tanggal Publikasi** / **Tanggal Berakhir** — Jendela waktu opsional saat forum dibuka
+   * **Apakah Forum Perlu Dimoderasi?** — Memerlukan persetujuan guru sebelum posting baru dapat dilihat
+   * **Apakah Siswa Dapat Mengedit Posting Mereka Sendiri?** — Izinkan atau larang siswa mengedit posting setelah dikirim
+   * **Izinkan Pengguna Memulai Topik Baru** — Jika diatur ke “Tidak”, siswa hanya dapat membalas topik yang sudah ada
+   * **Tipe Tampilan Default** — Pilih cara posting ditampilkan: **Datar**, **Utas**, atau **Bersarang**
+   * **Ditujukan untuk Kelompok** — Hubungkan forum ini ke kelompok tertentu dalam kursus
+   * **Akses Publik / Akses Pribadi** — Untuk forum kelompok, tentukan apakah semua anggota kursus dapat membaca, atau hanya anggota kelompok
+4. Simpan
 
-If the course visibility is set to "Open to the world", the form also shows an **Allow anonymous posts?** option. This option is hidden in courses with restricted visibility.
+Jika visibilitas kursus diatur ke “Terbuka untuk Seluruh Dunia”, formulir juga akan menampilkan opsi **Apakah Mengizinkan Posting Anonim?**. Opsi ini akan disembunyikan pada kursus dengan visibilitas terbatas.
 
-## Managing Topics
+## Mengelola Topik
 
-Learners (and you) can create new topics within a forum. As a teacher, you can:
+Siswa (dan Anda) dapat membuat topik baru di dalam forum. Sebagai guru, Anda dapat:
 
-* **Pin a topic (sticky message)** — Mark a thread as sticky when you create or edit it so it always appears at the top
-* **Lock a topic** — Prevent further replies
-* **Edit or delete posts** — Moderate the discussion
-* **Move a topic** — Transfer a topic to a different forum
+* **Menandai Topik sebagai Penting (Pesan Penting)** — Tandai topik sebagai penting saat membuat atau mengedit, sehingga selalu muncul di bagian atas
+* **Mengunci Topik** — Mencegah balasan baru
+* **Mengedit atau Menghapus Posting** — Memoderasi konten diskusi
+* **Memindahkan Topik** — Memindahkan topik ke forum yang berbeda
 
-## Forum Scoring
+## Penilaian Forum
 
-When creating a new thread as a teacher, you can enable **Grade this thread** under Advanced settings. You then set a maximum score, a column header for the gradebook, and a weight in the report. You can also enable **Thread scored by peers**, which requires each learner to qualify at least two other learners before their own score counts.
+Sebagai guru, saat membuat topik baru, Anda dapat mengaktifkan **Evaluasi Topik Ini** di pengaturan lanjutan. Setelah itu, Anda dapat mengatur skor maksimum, judul kolom di transkrip, dan bobot dalam laporan. Anda juga dapat mengaktifkan **Topik Dinilai oleh Rekan**, yang mengharuskan setiap siswa mengevaluasi setidaknya dua siswa lain sebelum penilaian mereka sendiri dihitung.
 
-## Notifications
+## Pemberitahuan
 
-Each forum and thread has a **Notify me** toggle that you and your learners can use to subscribe to email notifications about new posts. Notifications are a per-user subscription and are not configured when creating the forum.
+Setiap forum dan topik memiliki tombol **Beri Tahu Saya**, yang dapat digunakan oleh Anda dan siswa Anda untuk berlangganan pemberitahuan email tentang posting baru. Pemberitahuan bersifat berbasis langganan per pengguna dan tidak dapat dikonfigurasi saat membuat forum.

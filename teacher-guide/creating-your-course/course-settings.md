@@ -1,99 +1,100 @@
-# Course Settings
+# Pengaturan Kursus
 
-Course settings allow you to control how your course behaves — who can access it, how it appears, and what features are enabled.
+Pengaturan kursus memungkinkan Anda mengontrol perilaku kursus Anda — siapa yang dapat mengaksesnya, bagaimana tampilannya, dan fitur apa yang diaktifkan.
 
-To access course settings, enter your course and click the **Settings** <img src="/.gitbook/assets/icons/mdi-cog.svg" alt="Settings" data-size="line"> icon next to the **Switch to student view** button.
+Untuk mengakses pengaturan kursus, masuk ke kursus Anda dan klik ikon **Settings** <img src="/.gitbook/assets/icons/mdi-cog.svg" alt="Pengaturan" data-size="line"> di sebelah tombol **Switch to student view**.
 
-## General Settings
+## Pengaturan Umum
 
-### Course Information
+### Informasi Kursus
 
-* **Course title** — The display name of your course
-* **Course language** — The primary language for the course interface
-* **Course category** — The category under which the course appears in the catalog
-* **Course picture** — Upload a thumbnail that represents your course in course listings (will be resized depending on context)
+* **Judul kursus** — Nama tampilan kursus Anda
+* **Bahasa kursus** — Bahasa utama untuk antarmuka kursus
+* **Kategori kursus** — Kategori tempat kursus muncul di katalog
+* **Gambar kursus** — Unggah thumbnail yang mewakili kursus Anda dalam daftar kursus (akan diubah ukurannya tergantung konteks)
 
-The course code (the short unique identifier) is set when the course is created and is not editable from this page.
+Kode kursus (pengidentifikasi unik pendek) ditetapkan saat kursus dibuat dan tidak dapat diedit dari halaman ini.
 
-By default, all users entering your course will see the whole Chamilo interface in the language of your course. This is an immersive feature. Administrators can change this behaviour, but you can also change it with one of the first options: **Show course in user's language** (set to No by default) if you believe this makes it too hard for your users.
+Secara default, semua pengguna yang masuk ke kursus Anda akan melihat seluruh antarmuka Chamilo dalam bahasa kursus Anda. Ini adalah fitur imersif. Administrator dapat mengubah perilaku ini, tetapi Anda juga dapat mengubahnya dengan salah satu opsi pertama: **Show course in user's language** (ditetapkan ke Tidak secara default) jika Anda merasa ini terlalu sulit bagi pengguna Anda.
 
-The department and department URL are deprecated fields. They are only maintained for legacy support reasons.
+Departemen dan URL departemen adalah bidang yang sudah usang. Mereka hanya dipelihara untuk alasan dukungan warisan.
 
-If enabled, you can switch the style inside your course with the **Style sheets** option, using existing stylesheets on your portal. This option is often disabled by admins, for a more integrated global design.
+Jika diaktifkan, Anda dapat mengubah gaya di dalam kursus Anda dengan opsi **Style sheets**, menggunakan stylesheet yang ada di portal Anda. Opsi ini sering dinonaktifkan oleh admin, untuk desain global yang lebih terintegrasi.
 
-### Disk Quota
+### Kuota Disk
 
-Each course has a storage limit (disk quota) for uploaded files. The quota is set by the platform administrator. You can see your current limit in the course settings, and the current usage in the **Documents** tool.
+Setiap kursus memiliki batas penyimpanan (kuota disk) untuk file yang diunggah. Kuota ditetapkan oleh administrator platform. Anda dapat melihat batas saat ini di pengaturan kursus, dan penggunaan saat ini di alat **Documents**.
 
-> If you are running out of space, contact your platform administrator to request a quota increase, or remove unused files from the Documents tool.
+> Jika Anda kehabisan ruang, hubungi administrator platform Anda untuk meminta peningkatan kuota, atau hapus file yang tidak digunakan dari alat Documents.
 
-### Course Visibility
+### Visibilitas Kursus
 
-![The course visibility settings showing public, open, registered, and closed options](/.gitbook/assets/course-settings-visibility.png)
+![Pengaturan visibilitas kursus yang menunjukkan opsi publik, terbuka, terdaftar, dan tertutup](/.gitbook/assets/course-settings-visibility.png)
 
-Control who can access your course:
+Kontrol siapa yang dapat mengakses kursus Anda:
 
-| Setting | Description |
-|---------|-------------|
-| **Public** | Anyone, including anonymous visitors, can access the course |
-| **Open to platform** | All registered users on the platform can access the course |
-| **Private — access granted by privileged users** | Only users explicitly enrolled in the course can access it |
-| **Closed** | The course is locked; no one can access it except the teacher |
+| Pengaturan | Deskripsi |
+|------------|-----------|
+| **Publik** | Siapa saja, termasuk pengunjung anonim, dapat mengakses kursus |
+| **Terbuka untuk platform** | Semua pengguna terdaftar di platform dapat mengakses kursus |
+| **Pribadi — akses diberikan oleh pengguna istimewa** | Hanya pengguna yang secara eksplisit terdaftar di kursus yang dapat mengaksesnya |
+| **Tertutup** | Kursus terkunci; tidak ada yang dapat mengaksesnya kecuali guru |
 
-#### Enrollment Settings
+#### Pengaturan Pendaftaran
 
-Depending on your platform configuration, you may be able to control:
+Tergantung pada konfigurasi platform Anda, Anda mungkin dapat mengontrol:
 
-* **Allow self-enrollment** — Whether learners can subscribe themselves through the course catalog
-* **Allow self-unsubscription** — Whether learners can leave the course on their own
-* **Enrollment password** — Require a password for self-enrollment (useful for restricting access to a specific group) but the security level is low as the same course-access password is shared between all users.
+* **Izinkan pendaftaran mandiri** — Apakah pelajar dapat mendaftar sendiri melalui katalog kursus
+* **Izinkan pembatalan pendaftaran mandiri** — Apakah pelajar dapat meninggalkan kursus sendiri
+* **Kata sandi pendaftaran** — Memerlukan kata sandi untuk pendaftaran mandiri (berguna untuk membatasi akses ke kelompok tertentu) tetapi tingkat keamanannya rendah karena kata sandi akses kursus yang sama dibagikan di antara semua pengguna.
 
-### Document Settings
+### Pengaturan Dokumen
 
-Choose whether to show or hide the system folders in the **Documents** tool (hidden by default, you don't really need them in most cases and showing them might cause issues with hidden content and learners).
+Pilih apakah akan menampilkan atau menyembunyikan folder sistem di alat **Documents** (disembunyikan secara default, Anda benar-benar tidak membutuhkannya dalam kebanyakan kasus dan menampilkannya mungkin menyebabkan masalah dengan konten tersembunyi dan pelajar).
 
-### E-mail Notification Settings
+### Pengaturan Notifikasi Email
 
-Configure how course activity triggers notifications:
+Konfigurasikan bagaimana aktivitas kursus memicu notifikasi:
 
-* **Email notifications for new content** — Notify enrolled users when you add new documents, announcements, or other content
+* **Notifikasi email untuk konten baru** — Beri tahu pengguna terdaftar saat Anda menambahkan dokumen baru, pengumuman, atau konten lainnya
 
-### Chat Settings
+### Pengaturan Obrolan
 
-Control how the **Chat** tool will show.
+Kontrol bagaimana alat **Chat** akan ditampilkan.
 
-### Learning path Settings
+### Pengaturan Jalur Pembelajaran
 
-* **Enable course themes** — Allow learning paths to change appearance (not recommended for integrated user experience)
-* **Learning path return link** — Decide where users land when they click the **Home** icon in a learning path: the learning paths list, the course home, *My courses*, *My sessions*, or the portal home
+* **Aktifkan tema kursus** — Izinkan jalur pembelajaran untuk mengubah tampilan (tidak direkomendasikan untuk pengalaman pengguna terintegrasi)
+* **Tautan kembali jalur pembelajaran** — Tentukan ke mana pengguna mendarat saat mengklik ikon **Home** di jalur pembelajaran: daftar jalur pembelajaran, beranda kursus, *My courses*, *My sessions*, atau beranda portal
 
-### Thematic Advance Settings
+### Pengaturan Kemajuan Tematik
 
-Configure how the thematic advance messages will appear on the course homepage.
+Konfigurasikan bagaimana pesan kemajuan tematik akan muncul di beranda kursus.
 
-### Forum Settings
+### Pengaturan Forum
 
-Control behaviour in the forum tool of this course.
+Kontrol perilaku di alat forum kursus ini.
 
-### Assignment Settings
+### Pengaturan Tugas
 
-* **Default setting for the visibility of newly posted files** — Decide whether new documents uploaded by learners in the **Assignments** tool are shared with all other learners (No by default)
-* **Allow learners to delete their own publications** — Allow learners to delete the assignments they have already uploaded (in case they want to upload a correction).
+* **Pengaturan default untuk visibilitas file yang baru diposting** — Tentukan apakah dokumen baru yang diunggah oleh pelajar di alat **Assignments** dibagikan dengan semua pelajar lainnya (Tidak secara default)
+* **Izinkan pelajar menghapus publikasi mereka sendiri** — Izinkan pelajar menghapus tugas yang sudah mereka unggah (jika mereka ingin mengunggah koreksi).
 
-### Autolaunch Settings
+---
+### Pengaturan Autolaunch
 
-A course can be set to have an auto-launch behaviour, which will shorten the path of learners to get to the important parts of your course. If enabled, the learners entering your course will be sent directly to the selected tool and will not see the course homepage as an intermediate step. You can even select specific learning paths or exercises to launch on arrival to the course. In this case, you need to select the option here, then go to the learning paths or exercises list and clic the rocket <img src="/.gitbook/assets/icons/mdi-rocket-launch.svg" alt="Auto-launch" data-size="line"> icon on the selected item.
+Sebuah kursus dapat diatur untuk memiliki perilaku auto-launch, yang akan mempersingkat jalur pembelajar untuk mencapai bagian penting dari kursus Anda. Jika diaktifkan, pembelajar yang memasuki kursus Anda akan langsung dikirim ke alat yang dipilih dan tidak akan melihat halaman beranda kursus sebagai langkah perantara. Anda bahkan dapat memilih jalur pembelajaran atau latihan tertentu untuk diluncurkan saat tiba di kursus. Dalam hal ini, Anda perlu memilih opsi di sini, kemudian pergi ke daftar jalur pembelajaran atau latihan dan klik ikon roket <img src="/.gitbook/assets/icons/mdi-rocket-launch.svg" alt="Auto-launch" data-size="line"> pada item yang dipilih.
 
-### AI Helpers Settings
+### Pengaturan Pembantu AI
 
-This section only appears if your administrator has enabled AI tools on the platform. It allows you to refine the selection of AI helper services available through different tools of your Chamilo platform. Disable them if you don't want to use them, but that would probably be a bad idea as these are very powerful.
+Bagian ini hanya muncul jika administrator Anda telah mengaktifkan alat AI di platform. Ini memungkinkan Anda menyempurnakan pemilihan layanan pembantu AI yang tersedia melalui berbagai alat di platform Chamilo Anda. Nonaktifkan jika Anda tidak ingin menggunakannya, tetapi itu mungkin ide buruk karena ini sangat kuat.
 
-These features are explained in the **AI Tools** section of this guide.
+Fitur-fitur ini dijelaskan di bagian **AI Tools** dari panduan ini.
 
-### External Tools (LTI)
+### Alat Eksternal (LTI)
 
-If enabled on your platform, Learning Tools Integration allows you to integrate external, compatible activities to this course, as individual icons on the course homepage. Discussing LTI is out of the scope of this guide, but this is a powerful integration system for teachers.
+Jika diaktifkan di platform Anda, Learning Tools Integration memungkinkan Anda mengintegrasikan aktivitas eksternal yang kompatibel ke kursus ini, sebagai ikon individu di halaman beranda kursus. Membahas LTI di luar ruang lingkup panduan ini, tetapi ini adalah sistem integrasi yang kuat untuk guru.
 
-### Others
+### Lainnya
 
-Additional sections or options might appear on this page depending on options and versions of Chamilo.
+Bagian atau opsi tambahan mungkin muncul di halaman ini tergantung pada opsi dan versi Chamilo.

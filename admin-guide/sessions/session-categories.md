@@ -1,22 +1,22 @@
-# Session Categories
+# Kategori Sesi
 
-Session categories help organize your sessions, especially when you have many sessions running simultaneously.
+Kategori sesi membantu mengatur sesi Anda, terutama ketika Anda memiliki banyak sesi yang berjalan secara bersamaan.
 
-## Creating a Category
+## Membuat Kategori
 
-1. From the administration panel, navigate to **Session categories**
-2. Click **Add a category**
-3. Enter a **name** and optional start/end dates
-4. Save
+1. Dari panel administrasi, navigasikan ke **Kategori Sesi**
+2. Klik **Tambah kategori**
+3. Masukkan **nama** dan tanggal mulai/akhir opsional
+4. Simpan
 
-## Use Cases
+## Kasus Penggunaan
 
-* **By program** — "Leadership Development", "Technical Training", "Onboarding"
-* **By period** — "Q1 2026", "Spring Semester", "July Batch"
-* **By department** — "Engineering", "Sales", "Human Resources"
+* **Berdasarkan program** — "Pengembangan Kepemimpinan", "Pelatihan Teknis", "Orientasi Karyawan Baru"
+* **Berdasarkan periode** — "Q1 2026", "Semester Musim Semi", "Batch Juli"
+* **Berdasarkan departemen** — "Teknik", "Penjualan", "Sumber Daya Manusia"
 
-## Managing Categories
+## Mengelola Kategori
 
-* **Edit** — Change the category name or dates
-* **Assign sessions** — When creating or editing a session, select its category
-* **Delete** — Remove a category (sessions in the category become uncategorized)
+* **Edit** — Ubah nama kategori atau tanggal
+* **Tetapkan sesi** — Saat membuat atau mengedit sesi, pilih kategorinya
+* **Hapus** — Hapus kategori (sesi dalam kategori tersebut menjadi tidak berkategori)

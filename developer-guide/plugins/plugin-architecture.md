@@ -1,42 +1,42 @@
-# Plugin Architecture
+# Arsitektur Plugin
 
-## Plugin Location
+## Lokasi Plugin
 
-Plugins are stored in `public/plugin/`. Each plugin has its own directory:
+Plugin disimpan di `public/plugin/`. Setiap plugin memiliki direktori sendiri:
 
 ```
 public/plugin/
-├── Bbb/                    # BigBlueButton integration
-├── Zoom/                   # Zoom integration
-├── Onlyoffice/             # OnlyOffice document editing
+├── Bbb/                    # Integrasi BigBlueButton
+├── Zoom/                   # Integrasi Zoom
+├── Onlyoffice/             # Pengeditan dokumen OnlyOffice
 ├── XApi/                   # xAPI/Tin Can
-├── ...                     # bundled plugins ship under public/plugin/
+├── ...                     # plugin bawaan disertakan di bawah public/plugin/
 ```
 
-## Plugin Structure
+## Struktur Plugin
 
-A typical plugin directory contains:
+Direktori plugin tipikal berisi:
 
 ```
 public/plugin/MyPlugin/
-├── plugin.php              # REQUIRED — assigns $plugin_info
-├── install.php             # Installation script
-├── uninstall.php           # Uninstallation script
-├── index.php               # Region rendering entry point (if applicable)
-├── admin.php               # Admin interface (optional)
-├── lang/                   # Translation files (locale codes: en_US.php, fr_FR.php, …)
+├── plugin.php              # WAJIB — menetapkan $plugin_info
+├── install.php             # Skrip instalasi
+├── uninstall.php           # Skrip penghapusan instalasi
+├── index.php               # Titik masuk rendering wilayah (jika berlaku)
+├── admin.php               # Antarmuka admin (opsional)
+├── lang/                   # File terjemahan (kode lokal: en_US.php, fr_FR.php, …)
 ├── src/
-│   ├── MyPluginPlugin.php        # Main plugin class (extends Plugin)
-│   ├── Entity/                   # Doctrine entities (auto-discovered)
-│   ├── Repository/               # Doctrine repositories
-│   └── EventSubscriber/          # Symfony event subscribers (auto-registered)
-├── templates/              # Twig templates
-└── resources/              # CSS/JS assets
+│   ├── MyPluginPlugin.php        # Kelas utama plugin (memperluas Plugin)
+│   ├── Entity/                   # Entitas Doctrine (ditemukan secara otomatis)
+│   ├── Repository/               # Repositori Doctrine
+│   └── EventSubscriber/          # Pelanggan acara Symfony (terdaftar otomatis)
+├── templates/              # Template Twig
+└── resources/              # Aset CSS/JS
 ```
 
-## Plugin Class
+## Kelas Plugin
 
-Each plugin extends the `Plugin` base class (`public/main/inc/lib/plugin.class.php`) and follows the singleton pattern:
+Setiap plugin memperluas kelas dasar `Plugin` (`public/main/inc/lib/plugin.class.php`) dan mengikuti pola singleton:
 
 ```php
 class MyPluginPlugin extends Plugin
@@ -55,27 +55,27 @@ class MyPluginPlugin extends Plugin
 }
 ```
 
-### Key Class Properties
+### Properti Kelas Utama
 
-| Property | Type | Effect |
+| Properti | Tipe | Efek |
 |----------|------|--------|
-| `$isCoursePlugin` | bool | Registers the plugin as a course tool |
-| `$isAdminPlugin` | bool | Adds an admin interface page |
-| `$isMailPlugin` | bool | Integrates with the mail system |
-| `$addCourseTool` | bool | Adds an icon to the course homepage |
-| `$course_settings` | array | Defines per-course configuration fields |
+| `$isCoursePlugin` | bool | Mendaftarkan plugin sebagai alat kursus |
+| `$isAdminPlugin` | bool | Menambahkan halaman antarmuka admin |
+| `$isMailPlugin` | bool | Berintegrasi dengan sistem email |
+| `$addCourseTool` | bool | Menambahkan ikon ke beranda kursus |
+| `$course_settings` | array | Menentukan bidang konfigurasi per kursus |
 
-## Plugin Lifecycle
+## Siklus Hidup Plugin
 
-1. **Installation** — The admin activates the plugin, which runs `install.php`
-2. **Configuration** — Settings are defined and managed through the admin panel; stored in `access_url_rel_plugin` (supports multi-tenant)
-3. **Execution** — The plugin injects content into display regions or reacts to platform events
-4. **Deactivation** — The plugin is disabled but its data is preserved
-5. **Uninstallation** — Runs `uninstall.php` to clean up data and tables
+1. **Instalasi** — Admin mengaktifkan plugin, yang menjalankan `install.php`
+2. **Konfigurasi** — Pengaturan ditentukan dan dikelola melalui panel admin; disimpan di `access_url_rel_plugin` (mendukung multi-tenant)
+3. **Eksekusi** — Plugin menyuntikkan konten ke wilayah tampilan atau bereaksi terhadap acara platform
+4. **Deaktivasi** — Plugin dinonaktifkan tetapi datanya tetap dipertahankan
+5. **Penghapusan Instalasi** — Menjalankan `uninstall.php` untuk membersihkan data dan tabel
 
-## Display Regions
+## Wilayah Tampilan
 
-Plugins inject HTML into 18 predefined regions of the Vue frontend by overriding `renderRegion()`:
+Plugin menyuntikkan HTML ke 18 wilayah yang telah ditentukan sebelumnya di frontend Vue dengan mengganti `renderRegion()`:
 
 ```php
 public function renderRegion(string $region): string
@@ -83,19 +83,19 @@ public function renderRegion(string $region): string
     if ('footer_left' !== $region) {
         return '';
     }
-    return '<p>My Plugin footer content</p>';
+    return '<p>Konten footer Plugin Saya</p>';
 }
 ```
 
-Available regions: `content_bottom`, `content_top`, `course_tool_plugin`, `footer_center`, `footer_left`, `footer_right`, `header_center`, `header_left`, `header_main`, `header_right`, `login_bottom`, `login_top`, `main_bottom`, `main_top`, `menu_administrator`, `menu_bottom`, `menu_top`, `pre_footer`.
+Wilayah yang tersedia: `content_bottom`, `content_top`, `course_tool_plugin`, `footer_center`, `footer_left`, `footer_right`, `header_center`, `header_left`, `header_main`, `header_right`, `login_bottom`, `login_top`, `main_bottom`, `main_top`, `menu_administrator`, `menu_bottom`, `menu_top`, `pre_footer`.
 
-## Symfony Integration
+## Integrasi Symfony
 
-### Event Subscribers
+### Pelanggan Acara
 
-Files ending in `EventSubscriber.php` placed inside `src/EventSubscriber/` are auto-registered via `PluginEventSubscriberPass`. They implement `EventSubscriberInterface` and react to events defined in `src/CoreBundle/Event/Events.php`.
+File yang berakhiran `EventSubscriber.php` yang ditempatkan di dalam `src/EventSubscriber/` terdaftar secara otomatis melalui `PluginEventSubscriberPass`. Mereka mengimplementasikan `EventSubscriberInterface` dan bereaksi terhadap acara yang didefinisikan di `src/CoreBundle/Event/Events.php`.
 
-Because the plugin class (`MyPluginPlugin`) is not a Symfony service, it cannot be autowired into the subscriber constructor. Use the `create()` singleton instead:
+Karena kelas plugin (`MyPluginPlugin`) bukan layanan Symfony, ia tidak dapat di-autowire ke dalam konstruktor pelanggan. Gunakan singleton `create()` sebagai gantinya:
 
 ```php
 class MyPluginEventSubscriber implements EventSubscriberInterface
@@ -109,13 +109,14 @@ class MyPluginEventSubscriber implements EventSubscriberInterface
 }
 ```
 
-### Doctrine Entities
+### Entitas Doctrine
 
-Doctrine entities placed in `src/Entity/` are auto-discovered by `PluginEntityPass`. Use PHP 8 attributes for mapping. The namespace must follow `Chamilo\PluginBundle\{PluginName}`. Use unique table name prefixes (e.g., `my_plugin_*`) to avoid collisions.
+Entitas Doctrine yang ditempatkan di `src/Entity/` ditemukan secara otomatis oleh `PluginEntityPass`. Gunakan atribut PHP 8 untuk pemetaan. Namespace harus mengikuti `Chamilo\PluginBundle\{PluginName}`. Gunakan awalan nama tabel yang unik (misalnya, `my_plugin_*`) untuk menghindari tabrakan.
 
-### PluginHelper Service
+---
+### Layanan PluginHelper
 
-For accessing plugin state from core Symfony services, inject `PluginHelper` rather than instantiating the plugin class directly:
+Untuk mengakses status plugin dari layanan inti Symfony, injeksikan `PluginHelper` daripada membuat instance kelas plugin secara langsung:
 
 ```php
 use Chamilo\CoreBundle\Helpers\PluginHelper;
@@ -133,23 +134,23 @@ class SomeService
 }
 ```
 
-Available methods:
+Metode yang tersedia:
 
-| Method | Purpose |
-|--------|---------|
-| `isPluginEnabled(string $name): bool` | Check if a plugin is installed and active for the current access URL |
-| `loadLegacyPlugin(string $name): ?object` | Instantiate and return the plugin singleton |
-| `getPluginSetting(string $name, string $key): mixed` | Read a single plugin setting value |
-| `getPluginOverrides(string $name): array` | Get `plugin.yaml` overrides (defaults + access-URL-specific) for a plugin |
+| Metode | Tujuan |
+|--------|--------|
+| `isPluginEnabled(string $name): bool` | Memeriksa apakah plugin terpasang dan aktif untuk URL akses saat ini |
+| `loadLegacyPlugin(string $name): ?object` | Membuat instance dan mengembalikan singleton plugin |
+| `getPluginSetting(string $name, string $key): mixed` | Membaca nilai pengaturan tunggal plugin |
+| `getPluginOverrides(string $name): array` | Mendapatkan penggantian `plugin.yaml` (default + spesifik URL akses) untuk plugin |
 
-## Core File References
+## Referensi File Inti
 
-| File | Purpose |
-|------|---------|
-| `public/main/inc/lib/plugin.class.php` | Plugin base class |
-| `public/main/inc/lib/plugin.lib.php` | Plugin manager |
-| `src/CoreBundle/Entity/Plugin.php` | Plugin Doctrine entity |
-| `src/CoreBundle/Helpers/PluginHelper.php` | PluginHelper service |
-| `src/CoreBundle/Event/Events.php` | Event constants |
-| `public/plugin/HelloWorld/` | Minimal example plugin |
-| `public/plugin/TopLinks/` | Simple example plugin |
+| File | Tujuan |
+|------|--------|
+| `public/main/inc/lib/plugin.class.php` | Kelas dasar plugin |
+| `public/main/inc/lib/plugin.lib.php` | Manajer plugin |
+| `src/CoreBundle/Entity/Plugin.php` | Entitas Doctrine plugin |
+| `src/CoreBundle/Helpers/PluginHelper.php` | Layanan PluginHelper |
+| `src/CoreBundle/Event/Events.php` | Konstanta acara |
+| `public/plugin/HelloWorld/` | Contoh plugin minimal |
+| `public/plugin/TopLinks/` | Contoh plugin sederhana |

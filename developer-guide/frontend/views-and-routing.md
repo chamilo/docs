@@ -1,107 +1,108 @@
-# Views and Routing
+# Visualisasi dan Rute
 
-Chamilo has a large set of Vue views (page-level components) connected via Vue Router. The actual files live under `assets/vue/views/`.
+Chamilo memiliki sejumlah besar visualisasi Vue (komponen tingkat halaman) yang terhubung melalui Vue Router. File-file aktual terletak di `assets/vue/views/`.
 
-## Router Architecture
+## Arsitektur Router
 
-The router is defined in `assets/vue/router/index.js` using `createWebHistory` for clean URLs.
+Router didefinisikan di `assets/vue/router/index.js` menggunakan `createWebHistory` untuk URL yang bersih.
 
-Routes are modular — organized into per-feature route files imported into the main router:
+Rute-rute bersifat modular — diorganisir dalam file rute berdasarkan fungsionalitas, diimpor ke router utama:
 
-| Route module | Pages |
-|-------------|-------|
-| `admin` | Administration panel pages |
-| `sessionAdmin` | Session administration pages |
-| `course` | Course list, creation, home, catalog |
-| `account` | User profile and settings |
-| `personalfile` | Personal file space |
-| `message` | Messaging / inbox |
-| `user` | User management pages |
-| `usergroup` | User group (class) pages |
-| `userreluser` | User relationship (friend/follow) pages |
-| `ccalendarevent` | Course calendar and agenda |
-| `ctoolintro` | Course tool introduction pages |
-| `page` | Static CMS pages |
-| `pageLayout` | Page layout wrappers |
-| `publicPage` | Publicly accessible pages |
-| `social` | Social network pages |
-| `filemanager` | File manager (course documents browser) |
-| `skill` | Skills and competencies pages |
-| `accessurl` | Multi-URL (portal) management pages |
-| `branch` | Branch / network campus pages |
-| `room` | Virtual room pages |
-| `buycourses` | Course purchase pages |
-| `documents` | Document management |
-| `assignments` | Assignment workflow |
-| `links` | External links management |
-| `glossary` | Glossary management |
-| `attendance` | Attendance tracking |
-| `lp` | Learning path player and editor |
-| `dropbox` | Dropbox / file exchange |
-| `blog` | Blog pages |
-| `blogAdmin` | Blog administration |
-| `coursemaintenance` | Course backup and restore |
-| `catalogue` | Course and session catalogs |
+| Modul Rute | Halaman |
+|------------|---------|
+| `admin` | Halaman panel administrasi |
+| `sessionAdmin` | Halaman administrasi sesi |
+| `course` | Daftar kursus, pembuatan, halaman utama, katalog |
+| `account` | Profil dan pengaturan pengguna |
+| `personalfile` | Ruang file pribadi |
+| `message` | Pesan / kotak masuk |
+| `user` | Halaman manajemen pengguna |
+| `usergroup` | Halaman grup pengguna (kelas) |
+| `userreluser` | Halaman hubungan antar pengguna (teman/pengikut) |
+| `ccalendarevent` | Kalender dan agenda kursus |
+| `ctoolintro` | Halaman pengenalan alat kursus |
+| `page` | Halaman statis CMS |
+| `pageLayout` | Pembungkus tata letak halaman |
+| `publicPage` | Halaman yang dapat diakses secara publik |
+| `social` | Halaman jejaring sosial |
+| `filemanager` | Pengelola file (penjelajah dokumen kursus) |
+| `skill` | Halaman keterampilan dan kompetensi |
+| `accessurl` | Halaman manajemen multi-URL (portal) |
+| `branch` | Halaman cabang / kampus jaringan |
+| `room` | Halaman ruang virtual |
+| `buycourses` | Halaman pembelian kursus |
+| `documents` | Pengelolaan dokumen |
+| `assignments` | Alur kerja tugas |
+| `links` | Pengelolaan tautan eksternal |
+| `glossary` | Pengelolaan glosarium |
+| `attendance` | Pelacakan kehadiran |
+| `lp` | Pemutar dan editor jalur pembelajaran |
+| `dropbox` | Dropbox / pertukaran file |
+| `blog` | Halaman blog |
+| `blogAdmin` | Administrasi blog |
+| `coursemaintenance` | Cadangan dan pemulihan kursus |
+| `catalogue` | Katalog kursus dan sesi |
 
-## Key Routes
+## Rute Utama
 
-| Path | View | Description |
-|------|------|-------------|
-| `/` | `AppIndex.vue` (or custom) | Application entry point |
-| `/home` | `pages/Home.vue` | Platform home page |
-| `/login` | `pages/Login.vue` | Login page |
-| `/courses` | `views/user/courses/List.vue` | User's enrolled courses |
-| `/sessions` | `views/user/sessions/SessionsCurrent.vue` | Current sessions |
-| `/sessions/past` | `views/user/sessions/SessionsPast.vue` | Past sessions |
-| `/sessions/upcoming` | `views/user/sessions/SessionsUpcoming.vue` | Upcoming sessions |
-| `/course/:id/home` | `views/course/CourseHome.vue` | Course homepage |
-| `/account/home` | `views/account/Home.vue` | User profile |
-| `/admin` | Admin views | Administration panel |
-| `/faq` | `pages/Faq.vue` | FAQ page |
+| Jalur | Visualisasi | Deskripsi |
+|-------|-------------|-----------|
+| `/` | `AppIndex.vue` (atau disesuaikan) | Titik masuk aplikasi |
+| `/home` | `pages/Home.vue` | Halaman utama platform |
+| `/login` | `pages/Login.vue` | Halaman masuk |
+| `/courses` | `views/user/courses/List.vue` | Kursus yang diikuti pengguna |
+| `/sessions` | `views/user/sessions/SessionsCurrent.vue` | Sesi saat ini |
+| `/sessions/past` | `views/user/sessions/SessionsPast.vue` | Sesi yang telah lalu |
+| `/sessions/upcoming` | `views/user/sessions/SessionsUpcoming.vue` | Sesi yang akan datang |
+| `/course/:id/home` | `views/course/CourseHome.vue` | Halaman utama kursus |
+| `/account/home` | `views/account/Home.vue` | Profil pengguna |
+| `/admin` | Visualisasi administrator | Panel administrasi |
+| `/faq` | `pages/Faq.vue` | Halaman pertanyaan yang sering diajukan (FAQ) |
 
-## Route Guards
+## Penjaga Rute
 
-The router uses navigation guards (declared with `beforeEach` and `afterEach`) to:
+Router menggunakan penjaga navigasi (dideklarasikan dengan `beforeEach` dan `afterEach`) untuk:
 
-* Check authentication status via `useSecurityStore` and redirect unauthenticated users to `/login`
-* Verify course context via `useCidReqStore`
-* Apply page-type CSS classes during SPA navigation (replacing what Twig's `PageHelper` would do on a full page load)
-* Support custom Vue template overrides — the entry component at `/` is swapped for a custom `AppIndex.vue` when a custom Vue template is enabled (`var/vue_templates/pages/AppIndex.vue`)
+* Memeriksa status autentikasi melalui `useSecurityStore` dan mengarahkan pengguna yang tidak terautentikasi ke `/login`
+* Memeriksa konteks kursus melalui `useCidReqStore`
+* Menerapkan kelas CSS tipe halaman selama navigasi SPA (menggantikan apa yang akan dilakukan `PageHelper` dari Twig pada pemuatan halaman penuh)
+* Mendukung penggantian template Vue yang disesuaikan — komponen masuk di `/` diganti dengan `AppIndex.vue` yang disesuaikan ketika template Vue yang disesuaikan diaktifkan (`var/vue_templates/pages/AppIndex.vue`)
 
-## View Organization
+---
+## Organisasi Tampilan
 
-Views are in `assets/vue/views/`, organized by feature:
+Tampilan berada di `assets/vue/views/`, diorganisasi berdasarkan fungsionalitas:
 
 ```
 views/
-├── account/          # User profile and settings
-├── admin/            # Admin pages
-├── assignments/      # Assignment submission and grading
-├── attendance/       # Attendance sheets
-├── blog/             # Blog posts and comments
-├── branch/           # Network campus management
-├── buycourses/       # Course purchase flow
-├── ccalendarevent/   # Course calendar
-├── course/           # Course list, home, creation, catalog
-├── coursecategory/   # Course category management
-├── coursemaintenance/# Course backup/restore
-├── ctoolintro/       # Tool introduction pages
-├── documents/        # Document list, creation, media generation
-├── dropbox/          # Dropbox / file exchange
-├── filemanager/      # File browser
-├── glossary/         # Glossary list and term management
-├── links/            # External links
-├── lp/               # Learning path player and editor
-├── message/          # Inbox and messaging
-├── page/             # CMS static pages
-├── pageLayout/       # Page layout wrappers
-├── personalfile/     # Personal file space
-├── room/             # Virtual rooms
-├── sessionadmin/     # Session administration
-├── skill/            # Skills and competencies
-├── social/           # Social network
-├── terms/            # Terms of service
-├── user/             # User management and course/session lists
-├── usergroup/        # User groups (classes)
-└── userreluser/      # User relationships (friends/follows)
+├── account/          # Profil dan pengaturan pengguna
+├── admin/            # Halaman administrasi
+├── assignments/      # Pengiriman dan penilaian tugas
+├── attendance/       # Lembar kehadiran
+├── blog/             # Postingan dan komentar blog
+├── branch/           # Manajemen kampus jaringan
+├── buycourses/       # Alur pembelian kursus
+├── ccalendarevent/   # Kalender kursus
+├── course/           # Daftar kursus, halaman utama, pembuatan, katalog
+├── coursecategory/   # Manajemen kategori kursus
+├── coursemaintenance/# Cadangan/pemulihan kursus
+├── ctoolintro/       # Halaman pengenalan alat
+├── documents/        # Daftar dokumen, pembuatan, pembuatan media
+├── dropbox/          # Dropbox / pertukaran berkas
+├── filemanager/      # Penjelajah berkas
+├── glossary/         # Daftar glosarium dan manajemen istilah
+├── links/            # Tautan eksternal
+├── lp/               # Pemutar dan editor jalur pembelajaran
+├── message/          # Kotak masuk dan pesan
+├── page/             # Halaman statis CMS
+├── pageLayout/       # Pembungkus tata letak halaman
+├── personalfile/     # Ruang berkas pribadi
+├── room/             # Ruang virtual
+├── sessionadmin/     # Administrasi sesi
+├── skill/            # Keterampilan dan kompetensi
+├── social/           # Jejaring sosial
+├── terms/            # Syarat layanan
+├── user/             # Manajemen pengguna dan daftar kursus/sesi
+├── usergroup/        # Grup pengguna (kelas)
+└── userreluser/      # Hubungan antar pengguna (teman/pengikut)
 ```

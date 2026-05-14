@@ -1,80 +1,81 @@
-# Announcements Settings
+# Pengaturan Pengumuman
 
-Behaviour of the course **Announcements** tool — how announcements are sent and scheduled.
+Perilaku alat **Pengumuman** kursus — bagaimana pengumuman dikirim dan dijadwalkan.
 
-Access these settings under **Administration > Configuration settings > Announcements**. This category contains **9 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+Akses pengaturan ini di bawah **Administrasi > Pengaturan Konfigurasi > Pengumuman**. Kategori ini berisi **9 pengaturan**, yang tercantum di bawah ini dengan judul dan komentar yang disertakan dalam fixture pengaturan platform (`SettingsCurrentFixtures.php`).
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> Nama variabel dalam kode ditampilkan dalam monospace. Gunakan saat membuat skrip melalui API atau ketika Anda perlu mengubah pengaturan tersebut pada tingkat global dengan mengedit [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
 
-## Settings
+## Pengaturan
 
 ### `allow_careers_in_global_announcements`
 
-**Link global announcements with careers and promotions**
+**Hubungkan pengumuman global dengan karier dan promosi**
 
-When enabled, global announcements can be associated with careers and promotions for targeted distribution.
+Ketika diaktifkan, pengumuman global dapat dikaitkan dengan karier dan promosi untuk distribusi yang ditargetkan.
 
 *Default: `false`*
 
 ### `allow_coach_to_edit_announcements`
 
-**Allow coaches to always edit announcements**
+**Izinkan pelatih untuk selalu mengedit pengumuman**
 
-Allow coaches to always edit announcements inside active or past sessions.
+Izinkan pelatih untuk selalu mengedit pengumuman di dalam sesi aktif atau sesi yang telah berlalu.
 
 *Default: `false`*
 
 ### `allow_scheduled_announcements`
 
-**Enable scheduled announcements in sessions**
+**Aktifkan pengumuman terjadwal dalam sesi**
 
-Allows the sessions managers to set announcements that will be triggered on specific dates or after/before a number of days of start/end of the session. Enabling this feature requires you to setup a cron task.
+Memungkinkan pengelola sesi untuk mengatur pengumuman yang akan dipicu pada tanggal tertentu atau setelah/sebelum sejumlah hari dari awal/akhir sesi. Mengaktifkan fitur ini mengharuskan Anda untuk menyiapkan tugas cron.
 
 *Default: `false`*
 
 ### `announcements_hide_send_to_hrm_users`
 
-**Hide option to send announcements to HR users**
+**Sembunyikan opsi untuk mengirim pengumuman ke pengguna HR**
 
-Remove the checkbox to enable sending announcements to users with HR roles (still requires to confirm in the announcements tool).
+Hapus kotak centang untuk mengaktifkan pengiriman pengumuman ke pengguna dengan peran HR (masih memerlukan konfirmasi di alat pengumuman).
 
 *Default: `true`*
 
 ### `course_announcement_scheduled_by_date`
 
-**Date-based announcements**
+**Pengumuman berbasis tanggal**
 
-Allow teachers to configure announcements that will be sent at specific dates. This requires you to setup a cron task on cron/course_announcement.php running at least once daily.
+Izinkan pengajar untuk mengatur pengumuman yang akan dikirim pada tanggal tertentu. Ini mengharuskan Anda untuk menyiapkan tugas cron pada cron/course_announcement.php yang berjalan setidaknya sekali sehari.
 
 *Default: `false`*
 
 ### `disable_announcement_attachment`
 
-**Disable attachment to announcements**
+**Nonaktifkan lampiran pada pengumuman**
 
-Even though attachments in this version are dealt in an elegant way and do not multiply on disk, you might want to disable attachments altogether if you want to avoid excesses.
+Meskipun lampiran dalam versi ini ditangani dengan cara yang elegan dan tidak bertambah banyak di disk, Anda mungkin ingin menonaktifkan lampiran sepenuhnya jika ingin menghindari kelebihan.
 
 *Default: `false`*
 
 ### `disable_delete_all_announcements`
 
-**Disable button to delete all announcements**
+**Nonaktifkan tombol untuk menghapus semua pengumuman**
 
-Select 'Yes' to remove the button to delete all announcements, as this can be used by mistake by teachers.
+Pilih 'Ya' untuk menghapus tombol menghapus semua pengumuman, karena ini dapat digunakan secara tidak sengaja oleh pengajar.
 
 *Default: `false`*
 
 ### `hide_announcement_sent_to_users_info`
 
-**Hide 'sent to' in announcements**
+**Sembunyikan 'dikirim ke' dalam pengumuman**
 
-Select 'Yes' to avoid showing to whom an announcement has been sent.
+Pilih 'Ya' untuk menghindari menampilkan kepada siapa pengumuman telah dikirim.
 
 *Default: `false`*
 
 ### `hide_send_to_hrm_users`
 
-**Hide the option to send an announcement copy to HRM**
+**Sembunyikan opsi untuk mengirim salinan pengumuman ke HRM**
 
-In the announcements form, an option normally appears to allow teachers to send a copy of the announcement to the user's HRM. Set this to 'Yes' to remote the option (and *not* send the copy).
+Dalam formulir pengumuman, biasanya muncul opsi yang memungkinkan pengajar untuk mengirim salinan pengumuman ke HRM pengguna. Atur ini ke 'Ya' untuk menghapus opsi tersebut (dan *tidak* mengirim salinan).
 
+*Default: `false`*

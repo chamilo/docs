@@ -1,29 +1,29 @@
-# Installation
+# Instalasi
 
-This section covers everything you need to install and configure Chamilo 2.0 on your server.
+Bagian ini mencakup semua yang Anda perlukan untuk menginstal dan mengkonfigurasi Chamilo 2.0 di server Anda.
 
-Chamilo 2.0 is a PHP application built on the Symfony framework. It can run on most Linux-based servers, has been installed and runs on Windows Server with IIS, and supports MySQL and MariaDB backends.
+Chamilo 2.0 adalah aplikasi PHP yang dibangun di atas kerangka kerja Symfony. Aplikasi ini dapat berjalan di sebagian besar server berbasis Linux, telah diinstal dan berjalan di Windows Server dengan IIS, serta mendukung backend MySQL dan MariaDB.
 
-## Installation Steps
+## Langkah-langkah Instalasi
 
-1. **[Server Requirements](server-requirements.md)** — Verify your server meets the minimum requirements
-2. **[Installation Wizard](installation-wizard.md)** — Run the web-based installation wizard
-3. **[Configuration](configuration.md)** — Configure environment variables and Symfony settings
-4. **[Cloud Storage](cloud-storage.md)** — Set up cloud storage backends (optional)
-5. **[Email Configuration](email-configuration.md)** — Configure email delivery
-6. **[Upgrading](upgrading.md)** — Upgrade from a previous version
+1. **[Persyaratan Server](server-requirements.md)** — Pastikan server Anda memenuhi persyaratan minimum
+2. **[Panduan Instalasi](installation-wizard.md)** — Jalankan panduan instalasi berbasis web
+3. **[Konfigurasi](configuration.md)** — Konfigurasikan variabel lingkungan dan pengaturan Symfony
+4. **[Penyimpanan Cloud](cloud-storage.md)** — Siapkan backend penyimpanan cloud (opsional)
+5. **[Konfigurasi Email](email-configuration.md)** — Konfigurasikan pengiriman email
+6. **[Peningkatan Versi](upgrading.md)** — Tingkatkan dari versi sebelumnya
 
-## Quick Overview
+## Gambaran Singkat
 
-The basic installation process is:
+Proses instalasi dasar adalah:
 
-1. Download or clone the Chamilo source code
-2. Install PHP dependencies with Composer if preparing from source
-3. Install JavaScript dependencies with npm/yarn and build frontend assets
-4. Create an empty `.env` file to store your database credentials and other settings later on
-5. Change permissions (writeable by the web server) on *var/*, *config/* and *.env*
-6. Run the web-based installation wizard
-7. Connect with your first administrator account
-8. Change permissions back on *config/* and *.env*
+1. Unduh atau klon kode sumber Chamilo
+2. Instal dependensi PHP dengan Composer jika mempersiapkan dari sumber
+3. Instal dependensi JavaScript dengan npm/yarn dan bangun aset frontend
+4. Buat file `.env` kosong untuk menyimpan kredensial basis data dan pengaturan lainnya nanti
+5. Ubah izin (dapat ditulis oleh server web) pada *var/*, *config/*, dan *.env*
+6. Jalankan panduan instalasi berbasis web
+7. Hubungkan dengan akun administrator pertama Anda
+8. Kembalikan izin pada *config/* dan *.env*
 
-Detailed instructions for each step are in the pages linked above.
+Petunjuk rinci untuk setiap langkah tersedia di halaman-halaman yang tertaut di atas.

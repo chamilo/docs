@@ -1,46 +1,46 @@
-# Sessions
+# Sesi
 
-Sessions in Chamilo are a way to deliver the same course to different groups of learners at different times, without duplicating the course content. Think of a session as a scheduled edition or cohort of a course.
+Sesi dalam Chamilo adalah cara untuk menyampaikan kursus yang sama kepada kelompok pembelajar yang berbeda pada waktu yang berbeda, tanpa menduplikasi konten kursus. Bayangkan sesi sebagai edisi atau kohort kursus yang dijadwalkan.
 
-## How Sessions Work
+## Cara Kerja Sesi
 
-A **course** is a container of content and tools. A **session** assigns that course to a specific group of learners for a specific time period. This means:
+**Kursus** adalah wadah untuk konten dan alat. **Sesi** menetapkan kursus tersebut kepada kelompok pembelajar tertentu untuk periode waktu tertentu. Ini berarti:
 
-* The same course can be reused across multiple sessions
-* Each session has its own enrolled learners and its own start/end dates
-* Each session has its own results — grades, progress, and tracking data are kept separate per session
-* The base course content is shared, but teachers can customize certain elements per session
+* Kursus yang sama dapat digunakan kembali di berbagai sesi
+* Setiap sesi memiliki pembelajar yang terdaftar sendiri dan tanggal mulai/akhir sendiri
+* Setiap sesi memiliki hasil sendiri — nilai, kemajuan, dan data pelacakan disimpan terpisah per sesi
+* Konten kursus dasar dibagikan, tetapi guru dapat menyesuaikan elemen tertentu per sesi
 
-## Your Sessions
+## Sesi Anda
 
-From the sidebar, click **My sessions** to see your sessions. They are organized into three views:
+Dari bilah samping, klik **Sesi saya** untuk melihat sesi Anda. Mereka diorganisir menjadi tiga tampilan:
 
-![The My Sessions page showing current, past, and upcoming session views](/.gitbook/assets/my-sessions-list.png)
+![Halaman Sesi Saya yang menampilkan tampilan sesi saat ini, masa lalu, dan mendatang](/.gitbook/assets/my-sessions-list.png)
 
-* **Current sessions** — Sessions that are currently active
-* **Past sessions** — Sessions that have ended
-* **Upcoming sessions** — Sessions that have not started yet
+* **Sesi saat ini** — Sesi yang sedang aktif
+* **Sesi masa lalu** — Sesi yang telah berakhir
+* **Sesi mendatang** — Sesi yang belum dimulai
 
-Each session shows the courses it contains. Click on a course within a session to access it.
+Setiap sesi menampilkan kursus yang dikandungnya. Klik pada kursus dalam sesi untuk mengaksesnya.
 
-## Teaching in a Session
+## Mengajar dalam Sesi
 
-When you enter a course through a session, the experience is similar to a regular course, with a few differences:
+Ketika Anda memasuki kursus melalui sesi, pengalaman tersebut mirip dengan kursus biasa, dengan beberapa perbedaan:
 
-* The **session name** appears alongside the course title, so you always know which session you are working in
-* Learner data (progress, grades, submissions) is specific to this session
-* Some settings (like the ability to change the visibility of tools) may be locked by the session administrator
+* **Nama sesi** muncul di samping judul kursus, sehingga Anda selalu tahu sesi mana yang sedang Anda kerjakan
+* Data pembelajar (kemajuan, nilai, pengiriman) khusus untuk sesi ini
+* Beberapa pengaturan (seperti kemampuan untuk mengubah visibilitas alat) mungkin dikunci oleh administrator sesi
 
-## Session Roles
+## Peran Sesi
 
-Sessions introduce additional roles:
+Sesi memperkenalkan peran tambahan:
 
-| Role | Description |
-|------|-------------|
-| **Session administrator** | Manages the creation and configuration of sessions |
-| **Session coach** | Oversees all courses within a session (can access tracking across courses) |
-| **Course coach** | Teaches a specific course within a session |
+| Peran | Deskripsi |
+|-------|-----------|
+| **Administrator sesi** | Mengelola pembuatan dan konfigurasi sesi |
+| **Pelatih sesi** | Mengawasi semua kursus dalam sesi (dapat mengakses pelacakan lintas kursus) |
+| **Pelatih kursus** | Mengajar kursus tertentu dalam sesi |
 
-If you are assigned as a **course coach** in a session, you can manage that course's content and track learner progress for the session's learners.
+Jika Anda ditugaskan sebagai **pelatih kursus** dalam sesi, Anda dapat mengelola konten kursus tersebut dan melacak kemajuan pembelajar untuk pembelajar sesi tersebut.
 
-> Sessions are typically managed by administrators. If you need to create or modify a session, contact your platform administrator or session administrator.
+> Sesi biasanya dikelola oleh administrator. Jika Anda perlu membuat atau memodifikasi sesi, hubungi administrator platform atau administrator sesi Anda.

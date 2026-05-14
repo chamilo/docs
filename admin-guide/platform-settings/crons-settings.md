@@ -1,32 +1,31 @@
-# Cron Jobs Settings
+# Pengaturan Pekerjaan Cron
 
-Configuration of scheduled jobs (cron tasks) shipped with Chamilo.
+Konfigurasi pekerjaan terjadwal (tugas cron) yang disertakan bersama Chamilo.
 
-Access these settings under **Administration > Configuration settings > Cron Jobs**. This category contains **3 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+Akses pengaturan ini di bawah **Administrasi > Pengaturan konfigurasi > Pekerjaan Cron**. Kategori ini berisi **3 pengaturan**, yang tercantum di bawah ini beserta judul dan komentar yang disertakan dalam fixture pengaturan platform (`SettingsCurrentFixtures.php`).
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> Nama variabel dalam kode ditampilkan dalam format monospace. Gunakan saat membuat skrip melalui API atau ketika Anda perlu mengubah pengaturan tersebut pada tingkat global dengan mengedit [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
 
-## Settings
+## Pengaturan
 
 ### `cron_remind_course_expiration_activate`
 
-**Remind Course Expiration cron**
+**Pengingat Masa Berlaku Kursus cron**
 
-Enable the Remind Course Expiration cron
+Aktifkan cron Pengingat Masa Berlaku Kursus
 
 *Default: `false`*
 
 ### `cron_remind_course_expiration_frequency`
 
-**Frequency for the Remind Course Expiration cron**
+**Frekuensi untuk cron Pengingat Masa Berlaku Kursus**
 
-Number of days before the expiration of the course to consider to send reminder mail
+Jumlah hari sebelum masa berlaku kursus berakhir untuk mempertimbangkan pengiriman email pengingat
 
 ### `cron_remind_course_finished_activate`
 
-**Send course finished notification**
+**Kirim pemberitahuan kursus selesai**
 
-Whether to send an e-mail to students when their course (session) is finished. This requires cron tasks to be configured (see main/cron/ directory).
+Apakah akan mengirim email kepada siswa ketika kursus (sesi) mereka selesai. Ini memerlukan tugas cron untuk dikonfigurasi (lihat direktori main/cron/).
 
 *Default: `false`*
-

@@ -1,150 +1,149 @@
-# Upgrading
+# Meningkatkan Versi
 
-Note: On this page, we use 2.0.0 as a strict version number and 2.x to identify all versions that start with the number 2 (2.0.0, 2.0.1, 2.1.0, etc)
+Catatan: Pada halaman ini, kami menggunakan 2.0.0 sebagai nomor versi yang ketat dan 2.x untuk mengidentifikasi semua versi yang dimulai dengan angka 2 (2.0.0, 2.0.1, 2.1.0, dll)
 
-The upgrade process from 1.11.x to 2.x is described in your `public/documentation/installation_guide.html` file, inside your Chamilo code.
-The information here is largely redundant. You can see it online at `https://campus.chamilo.net/documentation/installation_guide.html`.
-Although we have made extensive tests on similar migrations, because some of the settings of 1.11.x were not yet supported in 2.0.0, we recommend waiting for version 2.1 before upgrading a 1.11.x system, or to be professionally accompanied by [official Chamilo providers](https://chamilo.org/providers) in this endeavour.
+Proses peningkatan versi dari 1.11.x ke 2.x dijelaskan dalam file `public/documentation/installation_guide.html` di dalam kode Chamilo Anda. Informasi di sini sebagian besar bersifat redundan. Anda dapat melihatnya secara online di `https://campus.chamilo.net/documentation/installation_guide.html`. Meskipun kami telah melakukan pengujian ekstensif pada migrasi serupa, karena beberapa pengaturan 1.11.x belum didukung di 2.0.0, kami merekomendasikan untuk menunggu versi 2.1 sebelum meningkatkan sistem 1.11.x, atau untuk mendapatkan pendampingan profesional dari [penyedia resmi Chamilo](https://chamilo.org/providers) dalam upaya ini.
 
-## Upgrading from 1.11.x to 2.x
+## Meningkatkan Versi dari 1.11.x ke 2.x
 
-Upgrading from Chamilo 1.11.x to 2.x is a **major migration**, not a simple update. Chamilo 2.0 was rebuilt on the Symfony framework with a restructured database schema, new API, and different file organization. Plan this migration carefully and try it out on a test environment before rolling out in production.
+Meningkatkan versi dari Chamilo 1.11.x ke 2.x adalah **migrasi besar**, bukan pembaruan sederhana. Chamilo 2.0 dibangun ulang menggunakan kerangka kerja Symfony dengan skema basis data yang direstrukturisasi, API baru, dan organisasi file yang berbeda. Rencanakan migrasi ini dengan hati-hati dan cobalah di lingkungan pengujian sebelum diterapkan di produksi.
 
-### Before You Begin
+### Sebelum Memulai
 
-1. **Read the release notes** for Chamilo 2.x to understand what has changed, what is new, and what features from 1.11.x may not yet be available.
-2. **Back up everything**:
-   - Full database dump (`mysqldump` or equivalent).
-   - All files in the Chamilo 1.11.x installation directory, especially `app/upload/`, `app/courses/`, and `main/`.
-   - Your `configuration.php` file.
-3. **Test on a staging server first.** Never run the migration directly on your production server.
-4. **Verify server requirements.** Chamilo 2.x has different requirements than 1.11.x (notably, PHP 8.2+). See [Server Requirements](server-requirements.md).
+1. **Baca catatan rilis** untuk Chamilo 2.x untuk memahami apa yang telah berubah, apa yang baru, dan fitur apa dari 1.11.x yang mungkin belum tersedia.
+2. **Cadangkan semuanya**:
+   - Dump basis data lengkap (`mysqldump` atau yang setara).
+   - Semua file di direktori instalasi Chamilo 1.11.x, terutama `app/upload/`, `app/courses/`, dan `main/`.
+   - File `configuration.php` Anda.
+3. **Uji di server staging terlebih dahulu.** Jangan pernah menjalankan migrasi langsung di server produksi Anda.
+4. **Verifikasi persyaratan server.** Chamilo 2.x memiliki persyaratan yang berbeda dari 1.11.x (terutama, PHP 8.2+). Lihat [Persyaratan Server](server-requirements.md).
 
-### What May Require Manual Attention
+### Hal yang Mungkin Memerlukan Perhatian Manual
 
-| Area | Notes |
-|------|-------|
-| **Custom plugins** | 1.11.x plugins are not compatible with 2.x. They must be rewritten or replaced, which has been partially done in 2.0 and should be complete by 2.1 for official plugins. |
-| **Custom themes** | 1.11.x themes do not work in 2.x. Recreate your branding using the 2.x theming system. |
-| **Custom database modifications** | Any direct database modifications outside of Chamilo may not be migrated. |
-| **SCORM packages** | SCORM content should migrate, but test packages individually to verify playback. |
-| **External integrations** | Any integrations using the 1.11.x API or web services need to be updated to use the 2.x REST-only API using [API Platform](https://github.com/api-platform/api-platform). |
+| Area | Catatan |
+|------|---------|
+| **Plugin kustom** | Plugin 1.11.x tidak kompatibel dengan 2.x. Plugin tersebut harus ditulis ulang atau diganti, yang sebagian telah dilakukan di 2.0 dan seharusnya selesai pada 2.1 untuk plugin resmi. |
+| **Tema kustom** | Tema 1.11.x tidak berfungsi di 2.x. Buat ulang branding Anda menggunakan sistem tema 2.x. |
+| **Modifikasi basis data kustom** | Setiap modifikasi basis data langsung di luar Chamilo mungkin tidak akan dimigrasikan. |
+| **Paket SCORM** | Konten SCORM seharusnya dapat dimigrasikan, tetapi uji paket secara individual untuk memverifikasi pemutaran. |
+| **Integrasi eksternal** | Setiap integrasi yang menggunakan API atau layanan web 1.11.x perlu diperbarui untuk menggunakan API REST-only 2.x dengan [API Platform](https://github.com/api-platform/api-platform). |
 
-## Updating Chamilo 2.0.x
+## Memperbarui Chamilo 2.0.x
 
-Minor updates within the 2.0 branch are more straightforward.
+Pembaruan kecil dalam cabang 2.0 lebih sederhana.
 
-### Update Process
+### Proses Pembaruan
 
-#### Using a package
+#### Menggunakan Paket
 
-1. **Back up** the database and files.
+1. **Cadangkan** basis data dan file.
 
-2. **Download the latest 2.0.x version** from [chamilo.org](https://chamilo.org/download):
+2. **Unduh versi terbaru 2.0.x** dari [chamilo.org](https://chamilo.org/download):
 
-3. **Expand locally**
+3. **Ekstrak secara lokal**
 
-For example (adapt to the downloaded version)
+Sebagai contoh (sesuaikan dengan versi yang diunduh)
    ```bash
    unzip chamilo-2.0.1.zip
    ```
 
-4. **Copy the files over your existing Chamilo installation**
+4. **Salin file ke instalasi Chamilo Anda yang sudah ada**
    ```bash
    cp -r chamilo/* [your-chamilo-installation-path]/
    cp -r chamilo/.* [your-chamilo-installation-path]/
    ```
 
-5. **Run database migrations:**
+5. **Jalankan migrasi basis data:**
    ```bash
    php bin/console doctrine:migrations:migrate --no-interaction
    ```
 
-6. **Clear the cache:**
+6. **Bersihkan cache:**
    ```bash
    php bin/console cache:clear --env=prod
    php bin/console cache:warmup --env=prod
    ```
 
-7. **Change permissions**
+7. **Ubah izin**
 
-Adapt to your web server user:
+Sesuaikan dengan pengguna server web Anda:
    ```bash
    sudo chown -R www-data: [your-chamilo-installation-path]/var
    ```
 
-8. **Verify** that the platform loads correctly and spot-check key functionality.
+8. **Verifikasi** bahwa platform dimuat dengan benar dan periksa fungsionalitas utama secara acak.
 
-#### Using Git
+#### Menggunakan Git
 
-If you installed Chamilo using Git, you can follow these instructions instead.
+Jika Anda menginstal Chamilo menggunakan Git, Anda dapat mengikuti petunjuk ini sebagai gantinya.
 
-1. **Back up** the database and files.
+1. **Cadangkan** basis data dan file.
 
-2. **Pull the latest code** (or download the new release):
+2. **Tarik kode terbaru** (atau unduh rilis baru):
    ```bash
    git pull origin 2.0
    ```
 
-3. **Update PHP dependencies:**
+3. **Perbarui dependensi PHP:**
    ```bash
    composer install --no-dev --optimize-autoloader
    ```
 
-4. **Update JavaScript dependencies and rebuild assets:**
+4. **Perbarui dependensi JavaScript dan bangun ulang aset:**
    ```bash
    yarn install && yarn build
    ```
 
-5. **Run database migrations:**
+5. **Jalankan migrasi basis data:**
    ```bash
    php bin/console doctrine:migrations:migrate --no-interaction
    ```
 
-6. **Clear the cache:**
+6. **Bersihkan cache:**
    ```bash
    php bin/console cache:clear --env=prod
    php bin/console cache:warmup --env=prod
    ```
 
-7. **Change permissions**
+7. **Ubah izin**
 
-Adapt to your web server user:
+Sesuaikan dengan pengguna server web Anda:
    ```bash
    sudo chown -R www-data: [your-chamilo-installation-path]/var
    ```
 
-8. **Verify** that the platform loads correctly and spot-check key functionality.
+8. **Verifikasi** bahwa platform dimuat dengan benar dan periksa fungsionalitas utama secara acak.
 
-### Automating Updates
+### Mengotomatiskan Pembaruan
 
-For organizations that manage multiple Chamilo instances, consider scripting the update process:
+Untuk organisasi yang mengelola beberapa instance Chamilo, pertimbangkan untuk membuat skrip proses pembaruan:
 
 ```bash
 #!/bin/bash
 set -e
 
-# Pull code
+# Tarik kode
 git pull origin 2.0
 
-# Dependencies
+# Dependensi
 composer install --no-dev --optimize-autoloader
 yarn install && yarn build
 
-# Database
+# Basis data
 php bin/console doctrine:migrations:migrate --no-interaction
 
 # Cache
 php bin/console cache:clear --env=prod
 php bin/console cache:warmup --env=prod
 
-echo "Update complete."
+echo "Pembaruan selesai."
 ```
 
+---
 ## Tips
 
-* **Always back up before upgrading.** Database migrations are not reversible through the Chamilo interface.
-* **Test on staging first** -- especially for the 1.11.x to 2.0 migration, which involves significant data transformation.
-* **Schedule upgrades during maintenance windows** when users are not actively using the platform.
-* **Subscribe to GitHub releases** on [Github](https://github.com/chamilo/chamilo-lms/releases) using the bell icon to be notified of new versions and security patches.
-* **Web updates** are not yet provided in Chamilo 2.0, but this is an ongoing project we hope to be releasing soon.
+* **Selalu lakukan cadangan sebelum meningkatkan versi.** Migrasi basis data tidak dapat dibatalkan melalui antarmuka Chamilo.
+* **Uji terlebih dahulu di lingkungan staging** -- terutama untuk migrasi dari 1.11.x ke 2.0, yang melibatkan transformasi data yang signifikan.
+* **Jadwalkan peningkatan versi selama jendela pemeliharaan** ketika pengguna tidak aktif menggunakan platform.
+* **Berlangganan rilis di GitHub** pada [Github](https://github.com/chamilo/chamilo-lms/releases) menggunakan ikon lonceng untuk mendapatkan pemberitahuan tentang versi baru dan patch keamanan.
+* **Pembaruan web** belum tersedia di Chamilo 2.0, tetapi ini adalah proyek yang sedang berjalan dan kami harap akan segera dirilis.

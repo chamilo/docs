@@ -1,8 +1,8 @@
-# Users
+# Pengguna
 
-This section covers how to manage user accounts on your Chamilo platform — creating users, assigning roles, organizing users into groups, and managing profiles.
+Bagian ini membahas cara mengelola akun pengguna di platform Chamilo Anda — membuat pengguna, menetapkan peran, mengatur pengguna ke dalam kelompok, dan mengelola profil.
 
-* **[User Roles](user-roles.md)** — Understanding the different user roles and their permissions
-* **[Managing Users](managing-users.md)** — Creating, editing, importing, and exporting user accounts
-* **[User Groups](user-groups.md)** — Organizing users into platform-wide groups
-* **[User Profiling](user-profiling.md)** — Configuring extra profile fields and user metadata
+* **[Peran Pengguna](user-roles.md)** — Memahami berbagai peran pengguna dan izin mereka
+* **[Mengelola Pengguna](managing-users.md)** — Membuat, mengedit, mengimpor, dan mengekspor akun pengguna
+* **[Kelompok Pengguna](user-groups.md)** — Mengatur pengguna ke dalam kelompok di seluruh platform
+* **[Profil Pengguna](user-profiling.md)** — Mengonfigurasi bidang profil tambahan dan metadata pengguna

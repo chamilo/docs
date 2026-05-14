@@ -1,196 +1,182 @@
-# Workflows Settings
+# Pengaturan Alur Kerja
 
-Cross-cutting workflow toggles — course creation, enrollment validation, assignment workflows, and similar.
+Pengaturan alur kerja lintas fungsi — pembuatan kursus, validasi pendaftaran, alur kerja tugas, dan sejenisnya.
 
-Access these settings under **Administration > Configuration settings > Workflows**. This category contains **23 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+Akses pengaturan ini di bawah **Administrasi > Pengaturan Konfigurasi > Alur Kerja**. Kategori ini berisi **23 pengaturan**, yang tercantum di bawah ini dengan judul dan komentar yang disertakan dalam fixture pengaturan platform (`SettingsCurrentFixtures.php`).
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> Nama variabel dalam kode ditampilkan dalam monospace. Gunakan ini saat membuat skrip melalui API atau ketika Anda perlu mengubah pengaturan tersebut pada tingkat global dengan mengedit [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
 
-## Settings
+## Pengaturan
 
 ### `allow_user_course_subscription_by_course_admin`
 
-**Allow User Course Subscription By Course Admininistrator**
+**Izinkan Pendaftaran Pengguna ke Kursus oleh Administrator Kursus**
 
-Activate this option will allow course administrator to subscribe users inside a course
+Mengaktifkan opsi ini akan memungkinkan administrator kursus untuk mendaftarkan pengguna ke dalam kursus.
 
 *Default: `true`*
-
 
 ### `allow_users_to_create_courses`
 
-**Allow non admin to create courses**
+**Izinkan Non-Admin untuk Membuat Kursus**
 
-Allow non administrators (teachers) to create new courses on the server
+Izinkan non-administrator (guru) untuk membuat kursus baru di server.
 
 *Default: `false`*
-
 
 ### `allow_working_time_edition`
 
-**Enable edition of course work time**
+**Aktifkan Pengeditan Waktu Kerja Kursus**
 
-Enable this feature to let teachers manually update the time spent in the course by learners.
+Aktifkan fitur ini untuk memungkinkan guru memperbarui secara manual waktu yang dihabiskan peserta didik dalam kursus.
 
 *Default: `false`*
-
 
 ### `course_visibility_change_only_admin`
 
-**Course visibility changes for admins only**
+**Perubahan Visibilitas Kursus Hanya untuk Admin**
 
-Remove the possibility for non-admins to change the course visibility. Visibility can be an issue when there are too many teachers to control directly. Forcing visibilities allows the organization to better manage courses catalogues.
+Hapus kemungkinan bagi non-admin untuk mengubah visibilitas kursus. Visibilitas bisa menjadi masalah ketika ada terlalu banyak guru untuk dikontrol secara langsung. Memaksa visibilitas memungkinkan organisasi untuk mengelola katalog kursus dengan lebih baik.
 
 *Default: `false`*
-
 
 ### `default_menu_entry_for_course_or_session`
 
-**Default menu entry for courses**
+**Entri Menu Default untuk Kursus**
 
-Define the default sub-elements of the 'Courses' entry to display if user is not registered to any course nor session.
+Tentukan sub-elemen default dari entri 'Kursus' yang akan ditampilkan jika pengguna tidak terdaftar di kursus atau sesi mana pun.
 
 *Default: `my_courses`*
 
-
 ### `disable_user_conditions_sender_id`
 
-**Internal ID of the user used to send disabled account notifications**
+**ID Internal Pengguna yang Digunakan untuk Mengirim Pemberitahuan Akun Nonaktif**
 
-Avoid being too personal with users by using a 'bot' account to send e-mails to users when their account is disabled for some reason.
+Hindari terlalu personal dengan pengguna dengan menggunakan akun 'bot' untuk mengirim email kepada pengguna ketika akun mereka dinonaktifkan karena alasan tertentu.
 
 *Default: `0`*
 
-
 ### `disabled_edit_session_coaches_course_editing_course`
 
-**Disable the ability to edit course coaches**
+**Nonaktifkan Kemampuan untuk Mengedit Pelatih Kursus**
 
-When disabled, admins do not have a link to quickly assign coaches to session-courses on the course edition page.
+Ketika dinonaktifkan, admin tidak memiliki tautan untuk dengan cepat menugaskan pelatih ke sesi-kursus di halaman pengeditan kursus.
 
 *Default: `false`*
-
 
 ### `drh_allow_access_to_all_students`
 
-**HRM can access all students from reporting pages**
+**HRM Dapat Mengakses Semua Siswa dari Halaman Pelaporan**
 
-[inferred] Grant HR/DRH managers access to reporting pages for all learners across the platform.
+[disimpulkan] Berikan akses kepada manajer HR/DRH ke halaman pelaporan untuk semua peserta didik di seluruh platform.
 
 *Default: `false`*
-
 
 ### `gamification_mode`
 
-**Gamification mode**
+**Mode Gamifikasi**
 
-Activate the stars achievement in learning paths
+Aktifkan pencapaian bintang di jalur pembelajaran.
 
 ### `go_to_course_after_login`
 
-**Go directly to the course after login**
+**Langsung ke Kursus Setelah Login**
 
-When a user is registered in one course, go directly to the course after login
+Ketika pengguna terdaftar dalam satu kursus, langsung menuju ke kursus setelah login.
 
 *Default: `false`*
-
 
 ### `load_term_conditions_section`
 
-**Load term conditions section**
+**Muat Bagian Syarat dan Ketentuan**
 
-The legal agreement will appear during the login or when enter to a course.
+Perjanjian hukum akan muncul selama login atau saat masuk ke kursus.
 
 *Default: `login`*
 
-
 ### `multiple_url_hide_disabled_settings`
 
-**Hide disabled settings in sub-URLs**
+**Sembunyikan Pengaturan yang Dinonaktifkan di Sub-URL**
 
-Set to yes to hide settings completely in a sub-URL if the setting is disabled in the main URL (where the access_url_changeable field = 0)
+Atur ke ya untuk menyembunyikan pengaturan sepenuhnya di sub-URL jika pengaturan tersebut dinonaktifkan di URL utama (di mana bidang access_url_changeable = 0).
 
 *Default: `false`*
-
 
 ### `plugin_redirection_enabled`
 
-**Enable redirection plugin**
+**Aktifkan Plugin Pengalihan**
 
-Enable only if you are using the Redirection plugin
+Aktifkan hanya jika Anda menggunakan plugin Pengalihan.
 
 *Default: `false`*
 
-
 ### `redirect_index_to_url_for_logged_users`
 
-**Redirect index.php to given URL for authenticated users**
+**Alihkan index.php ke URL yang Diberikan untuk Pengguna yang Terautentikasi**
 
-If you do not want to use the index page (announcements, popular courses, etc), you can define here the script (from the document root) where users will be redirected when trying to load the index.
+Jika Anda tidak ingin menggunakan halaman indeks (pengumuman, kursus populer, dll.), Anda dapat menentukan di sini skrip (dari root dokumen) ke mana pengguna akan dialihkan saat mencoba memuat indeks.
 
 ### `send_all_emails_to`
 
-**Send all e-mails to**
+**Kirim Semua Email ke**
 
-Give a list of e-mail addresses to whom *all* e-mails sent from the platform will be sent. The e-mails are sent to these addresses as a visible destination.
+Berikan daftar alamat email kepada siapa *semua* email yang dikirim dari platform akan dikirim. Email dikirim ke alamat-alamat ini sebagai tujuan yang terlihat.
 
 ### `session_admin_user_subscription_search_extra_field_to_search`
 
-**Extra user field used to search and name sessions**
+**Bidang Pengguna Ekstra yang Digunakan untuk Mencari dan Menamai Sesi**
 
-This setting defines the extra user field key (e.g., "company") that will be used to search for users and to define the name of the session when registering students from /admin-dashboard/register.
+Pengaturan ini menentukan kunci bidang pengguna ekstra (misalnya, "company") yang akan digunakan untuk mencari pengguna dan untuk menentukan nama sesi saat mendaftarkan siswa dari /admin-dashboard/register.
 
 ### `teacher_can_select_course_template`
 
-**Teacher can select a course as template**
+**Guru Dapat Memilih Kursus sebagai Templat**
 
-Allow pick a course as template for the new course that teacher is creating
+Izinkan memilih kursus sebagai templat untuk kursus baru yang dibuat oleh guru.
 
 *Default: `true`*
 
-
 ### `update_student_expiration_x_date`
 
-**Set expiration date on first login**
+**Tetapkan Tanggal Kedaluwarsa pada Login Pertama**
 
-Array defining the 'days' and 'months' to set the account expiration date when the user first logs in.
+Array yang menentukan 'hari' dan 'bulan' untuk menetapkan tanggal kedaluwarsa akun ketika pengguna pertama kali login.
 
 ### `user_edition_extra_field_to_check`
 
-**Set an extra field as trigger for registration as ex-learner**
+**Tetapkan Bidang Ekstra sebagai Pemicu untuk Pendaftaran sebagai Mantan Peserta Didik**
 
-Give an extra field label here. If this extra field is updated for any user, a process is triggered to check the access to this user to courses with the same given extra field.
+Berikan label bidang ekstra di sini. Jika bidang ekstra ini diperbarui untuk pengguna mana pun, proses akan dipicu untuk memeriksa akses pengguna ini ke kursus dengan bidang ekstra yang sama.
 
+---
 ### `user_number_of_days_for_default_expiration_date_per_role`
 
-**Default expiration days by role**
+**Jumlah hari kedaluwarsa default berdasarkan peran**
 
-An array of role => number which represents the number of days an account has before expiration, depending on the role.
+Sebuah array dari peran => angka yang mewakili jumlah hari sebelum akun kedaluwarsa, tergantung pada peran tersebut.
 
 ### `usergroup_do_not_unsubscribe_users_from_course_nor_session_on_user_unsubscribe`
 
-**Disable user unsubscription from course/session on user unsubscription from group/class**
+**Nonaktifkan pembatalan langganan pengguna dari kursus/sesi saat pengguna dibatalkan dari grup/kelas**
 
-[inferred] When removing a user from a group/class, do not automatically unsubscribe them from associated courses or sessions.
+[disimpulkan] Saat menghapus pengguna dari grup/kelas, jangan secara otomatis membatalkan langganan mereka dari kursus atau sesi yang terkait.
 
 *Default: `false`*
 
 
 ### `usergroup_do_not_unsubscribe_users_from_course_on_course_unsubscribe`
 
-**Disable user unsubscription from course on course removal from group/class**
+**Nonaktifkan pembatalan langganan pengguna dari kursus saat kursus dihapus dari grup/kelas**
 
-[inferred] When a course is removed from a group/class, do not automatically unsubscribe users from that course.
+[disimpulkan] Saat kursus dihapus dari grup/kelas, jangan secara otomatis membatalkan langganan pengguna dari kursus tersebut.
 
 *Default: `false`*
 
 
 ### `usergroup_do_not_unsubscribe_users_from_session_on_session_unsubscribe`
 
-**Disable user unsubscription from session on session removal from group/class**
+**Nonaktifkan pembatalan langganan pengguna dari sesi saat sesi dihapus dari grup/kelas**
 
-[inferred] When a session is removed from a group/class, do not automatically unsubscribe users from that session.
+[disimpulkan] Saat sesi dihapus dari grup/kelas, jangan secara otomatis membatalkan langganan pengguna dari sesi tersebut.
 
 *Default: `false`*
-
-

@@ -1,50 +1,49 @@
-# Privacy Settings
+# Pengaturan Privasi
 
-Privacy and data-protection (GDPR-style) controls — consent, data export, account deletion requests, and similar.
+Kontrol privasi dan perlindungan data (gaya GDPR) — persetujuan, ekspor data, permintaan penghapusan akun, dan sejenisnya.
 
-Access these settings under **Administration > Configuration settings > Privacy**. This category contains **6 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+Akses pengaturan ini di bawah **Administrasi > Pengaturan Konfigurasi > Privasi**. Kategori ini berisi **6 pengaturan**, yang tercantum di bawah ini beserta judul dan komentar yang disertakan dalam fixture pengaturan platform (`SettingsCurrentFixtures.php`).
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> Nama variabel dalam kode ditampilkan dalam format monospace. Gunakan saat membuat skrip melalui API atau ketika Anda perlu mengubah pengaturan tersebut pada tingkat global dengan mengedit [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
 
-## Settings
+## Pengaturan
 
 ### `data_protection_officer_email`
 
-**Data protection officer e-mail address**
+**Alamat email petugas perlindungan data**
 
-Email address for the designated data protection officer, displayed in GDPR/privacy sections.
+Alamat email untuk petugas perlindungan data yang ditunjuk, ditampilkan di bagian GDPR/privasi.
 
 ### `data_protection_officer_name`
 
-**Data protection officer name**
+**Nama petugas perlindungan data**
 
-Full name of the designated data protection officer, displayed in personal data and privacy pages.
+Nama lengkap petugas perlindungan data yang ditunjuk, ditampilkan di halaman data pribadi dan privasi.
 
 ### `data_protection_officer_role`
 
-**Data protection officer role**
+**Peran petugas perlindungan data**
 
-Job title or role of the designated data protection officer, displayed alongside their name in privacy information.
+Jabatan atau peran petugas perlindungan data yang ditunjuk, ditampilkan bersama nama mereka dalam informasi privasi.
 
 ### `disable_change_user_visibility_for_public_courses`
 
-**Disable making tool users visible in public courses**
+**Nonaktifkan visibilitas pengguna alat di kursus publik**
 
-Avoid anyone making the 'users' tool visible in a public course.
+Mencegah siapa pun membuat alat 'pengguna' terlihat di kursus publik.
 
 *Default: `true`*
 
 ### `disable_gdpr`
 
-**Disable GDPR features**
+**Nonaktifkan fitur GDPR**
 
-If you already manage your personal data protection declaration to users elsewhere, you can safely disable this feature.
+Jika Anda sudah mengelola deklarasi perlindungan data pribadi kepada pengguna di tempat lain, Anda dapat dengan aman menonaktifkan fitur ini.
 
 *Default: `true`*
 
 ### `hide_user_field_from_list`
 
-**Hide fields from users list in course**
+**Sembunyikan bidang dari daftar pengguna di kursus**
 
-By default, we show all data from users in the users tool in the course. This array allows you to specify which fields you do not want to display. Only affects main fields (not extra fields).
-
+Secara default, kami menampilkan semua data pengguna di alat pengguna dalam kursus. Array ini memungkinkan Anda untuk menentukan bidang mana yang tidak ingin ditampilkan. Hanya memengaruhi bidang utama (bukan bidang tambahan).

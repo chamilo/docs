@@ -1,103 +1,104 @@
-# Documents
+# Dokumen
 
-The documents tool is your course's file repository. You can upload files, create documents in HTML format, organize content into folders, and give learners access to all the materials they need.
+Alat dokumen adalah repositori berkas kursus Anda. Anda dapat mengunggah berkas, membuat dokumen dalam format HTML, mengatur konten ke dalam folder, dan memberikan akses kepada peserta didik untuk semua materi yang mereka butuhkan.
 
-## Accessing the Documents Tool
+## Mengakses Alat Dokumen
 
-Open the **Documents** <img src="/.gitbook/assets/icons/mdi-bookshelf.svg" alt="Documents" data-size="line"> tool from the course homepage. You will see a file browser showing the root folder of your course's document library.
+Buka alat **Dokumen** <img src="/.gitbook/assets/icons/mdi-bookshelf.svg" alt="Dokumen" data-size="line"> dari halaman utama kursus. Anda akan melihat penjelajah berkas yang menampilkan folder utama dari perpustakaan dokumen kursus Anda.
 
-![The documents file browser showing folders and files with action icons](/.gitbook/assets/documents-file-browser.png)
+![Penjelajah berkas dokumen yang menampilkan folder dan berkas dengan ikon aksi](/.gitbook/assets/documents-file-browser.png)
 
-## Uploading Files
+## Mengunggah Berkas
 
-1. Click the **Upload** <img src="/.gitbook/assets/icons/mdi-upload.svg" alt="Upload" data-size="line"> button
-2. Select one or more files from your computer (you can drag and drop files into the upload area)
-3. The files are uploaded and appear in the current folder
+1. Klik tombol **Unggah** <img src="/.gitbook/assets/icons/mdi-upload.svg" alt="Unggah" data-size="line">
+2. Pilih satu atau lebih berkas dari komputer Anda (Anda dapat menyeret dan menjatuhkan berkas ke area unggah)
+3. Berkas akan diunggah dan muncul di folder saat ini
 
-Chamilo supports most common file types: PDF, office documents (.docx, .odt), presentations (.pptx, .odp), spreadsheets (.xlsx, .ods), images (PNG, JPG, SVG, GIF), audio files, video files (including WEBM), HTML files, and more.
+Chamilo mendukung sebagian besar jenis berkas umum: PDF, dokumen perkantoran (.docx, .odt), presentasi (.pptx, .odp), spreadsheet (.xlsx, .ods), gambar (PNG, JPG, SVG, GIF), berkas audio, berkas video (termasuk WEBM), berkas HTML, dan lainnya.
 
-Some formats might be forbidden by the portal administrator through a whitelist/blacklist filtering setting in the security section of the administration.
+Beberapa format mungkin dilarang oleh administrator portal melalui pengaturan penyaringan daftar putih/daftar hitam di bagian keamanan administrasi.
 
-For better readability by learners, we do recommend uploading files a browser can view or open without additional tools. This makes your course more portable and, as such, more accessible to mobile devices and more readable for people with special abilities.
+Untuk keterbacaan yang lebih baik oleh peserta didik, kami merekomendasikan untuk mengunggah berkas yang dapat dilihat atau dibuka oleh peramban tanpa alat tambahan. Hal ini membuat kursus Anda lebih portabel dan, dengan demikian, lebih mudah diakses melalui perangkat seluler serta lebih mudah dibaca bagi orang dengan kemampuan khusus.
 
-## Creating Content
+## Membuat Konten
 
-In addition to uploading files, you can create content directly in Chamilo:
+Selain mengunggah berkas, Anda juga dapat membuat konten langsung di Chamilo:
 
-### Web Pages
+### Halaman Web
 
-1. Click **New document**
-2. Use the rich-text editor to write your content with formatting, images, tables, and links
-3. Enter a **title** for the page
-4. Save
+1. Klik **Dokumen baru**
+2. Gunakan editor teks kaya untuk menulis konten Anda dengan format, gambar, tabel, dan tautan
+3. Masukkan **judul** untuk halaman tersebut
+4. Simpan
 
-The rich-text editor (TinyMCE) provides word-processor-like features including:
+Editor teks kaya (TinyMCE) menyediakan fitur seperti pengolah kata, termasuk:
 
-* Text formatting (bold, italic, headings, lists)
-* Tables
-* Images (upload or link to existing images)
-* Embedded videos and audio
-* Links to other resources
-* HTML source editing for advanced users
+* Pemformatan teks (tebal, miring, judul, daftar)
+* Tabel
+* Gambar (unggah atau tautkan ke gambar yang sudah ada)
+* Video dan audio yang disematkan
+* Tautan ke sumber daya lain
+* Pengeditan sumber HTML untuk pengguna tingkat lanjut
 
-### AI media generation
+### Pembuatan Media AI
 
-When AI helpers are enabled on the platform, you can ask the AI to generate an **image** or a **short video** to illustrate a paragraph in the document you are editing. Select a paragraph, open the **Generate AI media** dialog, and the AI will produce a media item that you can review and insert. The dialog respects course-level permissions and only appears in courses where AI media generation is allowed.
+Ketika pembantu AI diaktifkan di platform, Anda dapat meminta AI untuk menghasilkan **gambar** atau **video pendek** untuk mengilustrasikan paragraf dalam dokumen yang sedang Anda edit. Pilih paragraf, buka dialog **Hasilkan Media AI**, dan AI akan menghasilkan item media yang dapat Anda tinjau dan sisipkan. Dialog ini menghormati izin tingkat kursus dan hanya muncul di kursus yang mengizinkan pembuatan media AI.
 
-### Audio Recording
+### Rekaman Audio
 
-If your browser supports it, you can record audio directly within the documents tool — useful for creating audio instructions or language learning content. This requires an HTTPS configuration for Chamilo, as audio recording uses technology that the browser only allows if the connection is secure.
+Jika peramban Anda mendukungnya, Anda dapat merekam audio langsung di dalam alat dokumen — berguna untuk membuat instruksi audio atau konten pembelajaran bahasa. Ini memerlukan konfigurasi HTTPS untuk Chamilo, karena rekaman audio menggunakan teknologi yang hanya diizinkan oleh peramban jika koneksi aman.
 
-## Organizing with Folders
+## Mengatur dengan Folder
 
-Keep your document library organized using folders:
+Jaga perpustakaan dokumen Anda tetap terorganisir menggunakan folder:
 
-1. Click **New folder** <img src="/.gitbook/assets/icons/mdi-folder-plus.svg" alt="New folder" data-size="line">
-2. Enter a folder name
-3. Save
+1. Klik **Folder baru** <img src="/.gitbook/assets/icons/mdi-folder-plus.svg" alt="Folder baru" data-size="line">
+2. Masukkan nama folder
+3. Simpan
 
-You can create nested folders to build a logical content hierarchy (e.g., `Module 1 > Week 1 > Readings`).
+Anda dapat membuat folder bersarang untuk membangun hierarki konten yang logis (misalnya, `Modul 1 > Minggu 1 > Bacaan`).
 
-### Moving Files
+### Memindahkan Berkas
 
-* Locate your file in the list
-* Click **Move** <img src="/.gitbook/assets/icons/mdi-folder-move.svg" alt="Move" data-size="line">
-* Select the destination folder
-* Confirm
+* Temukan berkas Anda di daftar
+* Klik **Pindah** <img src="/.gitbook/assets/icons/mdi-folder-move.svg" alt="Pindah" data-size="line">
+* Pilih folder tujuan
+* Konfirmasi
 
-## Managing Documents
+## Mengelola Dokumen
 
-For each file or folder, you can:
+Untuk setiap berkas atau folder, Anda dapat:
 
-| Action | Icon | Description |
-|--------|------|-------------|
-| **Edit** | <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Edit" data-size="line"> | Rename the file or edit its content (for web pages) |
-| **Delete** | <img src="/.gitbook/assets/icons/mdi-delete.svg" alt="Delete" data-size="line"> | Remove the file or folder |
-| **Download** | <img src="/.gitbook/assets/icons/mdi-download-box.svg" alt="Download" data-size="line"> | Download the file to your computer |
-| **Visibility** | <img src="/.gitbook/assets/icons/mdi-eye.svg" alt="Visibility" data-size="line"> | Hide or show the file to learners |
-| **Replace** | <img src="/.gitbook/assets/icons/mdi-file-replace.svg" alt="Replace" data-size="line"> | Replace the file with an updated version |
-| **Move** | <img src="/.gitbook/assets/icons/mdi-folder-move.svg" alt="Move" data-size="line"> | Move to a different folder |
+| Aksi | Ikon | Deskripsi |
+|------|------|-----------|
+| **Edit** | <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Edit" data-size="line"> | Mengganti nama berkas atau mengedit kontennya (untuk halaman web) |
+| **Hapus** | <img src="/.gitbook/assets/icons/mdi-delete.svg" alt="Hapus" data-size="line"> | Menghapus berkas atau folder |
+| **Unduh** | <img src="/.gitbook/assets/icons/mdi-download-box.svg" alt="Unduh" data-size="line"> | Mengunduh berkas ke komputer Anda |
+| **Visibilitas** | <img src="/.gitbook/assets/icons/mdi-eye.svg" alt="Visibilitas" data-size="line"> | Menyembunyikan atau menampilkan berkas kepada peserta didik |
+| **Ganti** | <img src="/.gitbook/assets/icons/mdi-file-replace.svg" alt="Ganti" data-size="line"> | Mengganti berkas dengan versi yang diperbarui |
+| **Pindah** | <img src="/.gitbook/assets/icons/mdi-folder-move.svg" alt="Pindah" data-size="line"> | Memindahkan ke folder lain |
 
-Replacing a file is an important feature when you use documents to build learning paths, as replacing the document will allow the document to be refreshed without learners loosing the progress saved for that document.
+Mengganti berkas adalah fitur penting ketika Anda menggunakan dokumen untuk membangun jalur pembelajaran, karena mengganti dokumen akan memungkinkan dokumen tersebut diperbarui tanpa peserta didik kehilangan kemajuan yang telah disimpan untuk dokumen tersebut.
 
-### Bulk Actions
+### Aksi Massal
 
-Select multiple files using checkboxes, then use the toolbar to delete or download all selected items at once.
+Pilih beberapa berkas menggunakan kotak centang, lalu gunakan bilah alat untuk menghapus atau mengunduh semua item yang dipilih sekaligus.
 
-## OnlyOffice Integration
+---
+## Integrasi OnlyOffice
 
-If your administrator has configured the **OnlyOffice** plugin, you can edit Word, Excel, and PowerPoint (or LibreOffice) files directly in the browser without downloading them. Look for the **Edit with OnlyOffice** <img src="/.gitbook/assets/icons/mdi-file-document-edit-outline.svg" alt="OnlyOffice" data-size="line"> option when viewing a supported file.
+Jika administrator Anda telah mengkonfigurasi plugin **OnlyOffice**, Anda dapat mengedit file Word, Excel, dan PowerPoint (atau LibreOffice) langsung di browser tanpa perlu mengunduhnya. Cari opsi **Edit with OnlyOffice** <img src="/.gitbook/assets/icons/mdi-file-document-edit-outline.svg" alt="OnlyOffice" data-size="line"> saat melihat file yang didukung.
 
-Documents are stored in Chamilo, OnlyOffice is only used to **view** or edit the documents in the browser, without the need for any additional tool.
+Dokumen disimpan di Chamilo, OnlyOffice hanya digunakan untuk **melihat** atau mengedit dokumen di browser, tanpa memerlukan alat tambahan apa pun.
 
-## Cloud Files
+## File Cloud
 
-If you use cloud storage (Azure Blob, AWS S3, or Google Cloud) for your files, these are stored in the cloud but you can link them from here. This is transparent to you and your learners — the document tool works the same way regardless of the storage backend.
+Jika Anda menggunakan penyimpanan cloud (Azure Blob, AWS S3, atau Google Cloud) untuk file Anda, file-file tersebut disimpan di cloud tetapi Anda dapat menautkannya dari sini. Ini bersifat transparan bagi Anda dan peserta didik Anda — alat dokumen bekerja dengan cara yang sama terlepas dari backend penyimpanan yang digunakan.
 
 ## Tips
 
-* **Organize early** — Create your folder structure before uploading content so you don't have to reorganize later. If you have created other courses with the right structure, you can use those courses as template later on
-* **Use descriptive file names** — Help learners find what they need with clear, meaningful names
-* **Hide work-in-progress** — Use the visibility toggle to hide documents you are still preparing
-* **Link from learning paths** — Reference documents within your learning paths to create guided learning sequences
-* **Check the disk quota** — If your course has a storage limit, remove outdated files to free up space
+* **Atur sejak awal** — Buat struktur folder Anda sebelum mengunggah konten agar Anda tidak perlu mengatur ulang nanti. Jika Anda telah membuat kursus lain dengan struktur yang tepat, Anda dapat menggunakan kursus tersebut sebagai templat di kemudian hari
+* **Gunakan nama file yang deskriptif** — Bantu peserta didik menemukan apa yang mereka butuhkan dengan nama yang jelas dan bermakna
+* **Sembunyikan pekerjaan yang sedang berlangsung** — Gunakan tombol visibilitas untuk menyembunyikan dokumen yang masih Anda siapkan
+* **Tautkan dari jalur pembelajaran** — Rujuk dokumen dalam jalur pembelajaran Anda untuk menciptakan urutan pembelajaran yang terarah
+* **Periksa kuota disk** — Jika kursus Anda memiliki batas penyimpanan, hapus file yang sudah usang untuk membebaskan ruang

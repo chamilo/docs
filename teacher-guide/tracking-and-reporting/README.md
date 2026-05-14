@@ -1,13 +1,13 @@
-# Tracking and Reporting
+# Pelacakan dan Pelaporan
 
-Chamilo tracks learner activity throughout the platform, giving you detailed insights into how your learners are progressing.
+Chamilo melacak aktivitas siswa di seluruh platform, memberikan wawasan mendetail tentang bagaimana siswa Anda sedang berkembang.
 
-* **[Learner Tracking](learner-tracking.md)** — Monitor individual learner activity: login times, time spent, pages visited, and tool usage
-* **[Course Reports](course-reports.md)** — View aggregate data across all learners in a course
-* **[Certificates and Skills](certificates-and-skills.md)** — Award certificates based on gradebook scores and validate acquired skills
+* **[Pelacakan Siswa](learner-tracking.md)** — Pantau aktivitas siswa individu: waktu login, waktu yang dihabiskan, halaman yang dikunjungi, dan penggunaan alat
+* **[Laporan Kursus](course-reports.md)** — Lihat data agregat di seluruh siswa dalam sebuah kursus
+* **[Sertifikat dan Keterampilan](certificates-and-skills.md)** — Berikan sertifikat berdasarkan skor buku nilai dan validasi keterampilan yang diperoleh
 
-## Accessing Reports
+## Mengakses Laporan
 
-From your course, click the **Tracking** <img src="/.gitbook/assets/icons/mdi-chart-box.svg" alt="Tracking" data-size="line"> tool on the course homepage. You can also access reporting from the **Reporting** link in the sidebar for a cross-course overview.
+Dari kursus Anda, klik alat **Tracking** <img src="/.gitbook/assets/icons/mdi-chart-box.svg" alt="Pelacakan" data-size="line"> di beranda kursus. Anda juga dapat mengakses pelaporan dari tautan **Reporting** di bilah samping untuk gambaran lintas kursus.
 
-Teachers see reporting data for courses they teach. Session coaches see data across all courses within their session.
+Guru melihat data pelaporan untuk kursus yang mereka ajar. Pelatih sesi melihat data di seluruh kursus dalam sesi mereka.

@@ -1,148 +1,137 @@
-# Mail Settings
+# Pengaturan Email
 
-How outgoing mail is built — sender identity, layout, signature, and special-purpose addresses.
+Bagaimana email keluar dibuat — identitas pengirim, tata letak, tanda tangan, dan alamat untuk tujuan khusus.
 
-Access these settings under **Administration > Configuration settings > Mail**. This category contains **18 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+Akses pengaturan ini di bawah **Administrasi > Pengaturan Konfigurasi > Email**. Kategori ini berisi **18 pengaturan**, yang tercantum di bawah ini dengan judul dan komentar yang disertakan dalam fixture pengaturan platform (`SettingsCurrentFixtures.php`).
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> Nama variabel dalam kode ditampilkan dalam format monospace. Gunakan saat membuat skrip melalui API atau ketika Anda perlu mengubah pengaturan tersebut pada tingkat global dengan mengedit [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
 
-## Settings
+## Pengaturan
 
 ### `allow_email_editor_for_anonymous`
 
-**E-mail editor for anonymous**
+**Editor Email untuk Pengguna Anonim**
 
-Allow anonymous users to send e-mails from the platform. In this day and age of information security this is not a recommended option.
+Izinkan pengguna anonim untuk mengirim email dari platform. Di era keamanan informasi saat ini, opsi ini tidak direkomendasikan.
 
 *Default: `true`*
 
-
 ### `cron_notification_help_desk`
 
-**E-mail addresses to send cronjobs execution reports**
+**Alamat Email untuk Mengirim Laporan Eksekusi Cronjobs**
 
-Given as array of e-mail addresses. Does not work for all cronjobs yet.
+Diberikan sebagai array dari alamat email. Belum berfungsi untuk semua cronjobs.
 
 ### `mail_content_style`
 
-**Extra e-mail HTML body attributes**
+**Atribut Tambahan HTML untuk Badan Email**
 
-Extra HTML attributes to apply to the body tag of generated notification emails.
+Atribut HTML tambahan yang diterapkan pada tag body dari email notifikasi yang dihasilkan.
 
 ### `mail_header_style`
 
-**Extra e-mail HTML header attributes**
+**Atribut Tambahan HTML untuk Header Email**
 
-Extra HTML attributes to apply to the header section of generated notification emails.
+Atribut HTML tambahan yang diterapkan pada bagian header dari email notifikasi yang dihasilkan.
 
 ### `mailer_debug_enable`
 
-**Mail: Debug**
+**Email: Debug**
 
-Select whether you want to enable the e-mail sending debug logs. These will give you more information on what is happening when connecting to the mail service, but are not elegant and might break page design. Only use when there is not user activity.
+Pilih apakah Anda ingin mengaktifkan log debug pengiriman email. Log ini akan memberikan informasi lebih lanjut tentang apa yang terjadi saat terhubung ke layanan email, tetapi tidak elegan dan dapat mengganggu desain halaman. Gunakan hanya ketika tidak ada aktivitas pengguna.
 
 *Default: `false`*
-
 
 ### `mailer_dkim`
 
-**Mail: DKIM headers**
+**Email: Header DKIM**
 
-Enter a JSON array of your DKIM configuration settings (see example).
+Masukkan array JSON dari pengaturan konfigurasi DKIM Anda (lihat contoh).
 
 ### `mailer_dsn`
 
-**Mail DSN**
+**DSN Email**
 
-The DSN fully includes all parameters needed to connect to the mail service. You can learn more at https://symfony.com/doc/6.4/mailer.html#using-built-in-transports. Here are a few examples of supported DSN syntaxes: https://symfony.com/doc/6.4/mailer.html#using-a-3rd-party-transport
+DSN mencakup semua parameter yang diperlukan untuk terhubung ke layanan email. Anda dapat mempelajari lebih lanjut di https://symfony.com/doc/6.4/mailer.html#using-built-in-transports. Berikut adalah beberapa contoh sintaks DSN yang didukung: https://symfony.com/doc/6.4/mailer.html#using-a-3rd-party-transport
 
 *Default: `null://null`*
 
-
 ### `mailer_exclude_json`
 
-**Mail: Avoid using LD+JSON**
+**Email: Hindari Penggunaan LD+JSON**
 
-Some e-mail clients do not understand the descriptive LD+JSON format, showing it as a loose JSON string to the final user. If this is your case, you might want to set the variable below to 'false' to disable this header.
+Beberapa klien email tidak memahami format deskriptif LD+JSON, menampilkannya sebagai string JSON yang lepas kepada pengguna akhir. Jika ini terjadi pada Anda, Anda mungkin ingin mengatur variabel di bawah ini menjadi 'false' untuk menonaktifkan header ini.
 
 *Default: `false`*
-
 
 ### `mailer_from_email`
 
-**Send all e-mails from this e-mail address**
+**Kirim Semua Email dari Alamat Email Ini**
 
-Sets the default email address used in the "from" field of emails.
+Mengatur alamat email default yang digunakan di bidang "from" pada email.
 
 ### `mailer_from_name`
 
-**Send all e-mails as originating from this (organizational) name**
+**Kirim Semua Email sebagai Berasal dari Nama (Organisasi) Ini**
 
-Sets the default display name used for sending platform emails. e.g. "Support team".
+Mengatur nama tampilan default yang digunakan untuk mengirim email platform, misalnya "Tim Dukungan".
 
 ### `mailer_mails_charset`
 
-**Mail: character set**
+**Email: Set Karakter**
 
-In case you need to define the charset to use when sending those e-mails. Leave empty if you're not sure.
+Jika Anda perlu menentukan set karakter yang digunakan saat mengirim email tersebut. Biarkan kosong jika Anda tidak yakin.
 
 *Default: `UTF-8`*
 
-
 ### `mailer_xoauth2`
 
-**Mail: XOAuth2 options**
+**Email: Opsi XOAuth2**
 
-If you use some XOAuth2-based e-mail service, use this setting in JSON to save your specific configuration (see example) and select XOAuth2 in the mail service setting.
+Jika Anda menggunakan layanan email berbasis XOAuth2, gunakan pengaturan ini dalam format JSON untuk menyimpan konfigurasi spesifik Anda (lihat contoh) dan pilih XOAuth2 di pengaturan layanan email.
 
 ### `messages_hide_mail_content`
 
-**Hide e-mail content to bring users to platform**
+**Sembunyikan Konten Email untuk Membawa Pengguna ke Platform**
 
-Prefer short e-mail versions with a link to the messaging space on the platform to increase platform-based engagement.
+Lebih memilih versi email pendek dengan tautan ke ruang pesan di platform untuk meningkatkan keterlibatan berbasis platform.
 
 *Default: `false`*
-
 
 ### `notifications_extended_footer_message`
 
-**Extended notifications footer**
+**Footer Notifikasi yang Diperluas**
 
-Add a custom extra footer for notifications emails for a specific language, for example for privacy policy notices. Multiple languages and paragraphs can be added.
+Tambahkan footer tambahan khusus untuk email notifikasi dalam bahasa tertentu, misalnya untuk pemberitahuan kebijakan privasi. Beberapa bahasa dan paragraf dapat ditambahkan.
 
 ### `send_notification_score_in_percentage`
 
-**Send score in percentage in test results notification**
+**Kirim Skor dalam Persentase pada Notifikasi Hasil Tes**
 
-Sends exercise scores as percentages instead of points in test result notification emails.
+Mengirim skor latihan sebagai persentase alih-alih poin dalam email notifikasi hasil tes.
 
 *Default: `false`*
-
 
 ### `send_two_inscription_confirmation_mail`
 
-**Send 2 registration e-mails**
+**Kirim 2 Email Pendaftaran**
 
-Send two separate e-mails on registration. One for the username, another one for the password.
+Kirim dua email terpisah saat pendaftaran. Satu untuk nama pengguna, satu lagi untuk kata sandi.
 
 *Default: `false`*
-
 
 ### `show_user_email_in_notification`
 
-**Show sender's e-mail address in notifications**
+**Tampilkan Alamat Email Pengirim dalam Notifikasi**
 
-Includes the sender's email address with their name in personal message and notification emails.
+Menyertakan alamat email pengirim bersama dengan nama mereka dalam email pesan pribadi dan notifikasi.
 
 *Default: `false`*
-
 
 ### `update_users_email_to_dummy_except_admins`
 
-**Update users e-mail to dummy value during imports**
+**Perbarui Email Pengguna ke Nilai Dummy Selama Impor**
 
-During special CSV cron imports of users, automatically replace e-mails with dummy e-mail username@example.com.
+Selama impor cron CSV khusus pengguna, secara otomatis ganti email dengan email dummy username@example.com.
 
 *Default: `false`*
-
-

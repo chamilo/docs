@@ -1,55 +1,55 @@
-# Creating Your Course
+# Membuat Kursus Anda
 
-This section explains how to create a new course in Chamilo and configure it for your needs.
+Bagian ini akan menjelaskan cara membuat kursus baru di Chamilo dan mengaturnya sesuai kebutuhan Anda.
 
-## Creating a New Course
+## Membuat Kursus Baru
 
-To create a course:
+Untuk membuat kursus, ikuti langkah-langkah berikut:
 
-1. Click **My courses** in the sidebar
-2. Click the **Create course** button (usually a green book <img src="/.gitbook/assets/icons/mdi-book-open-page-variant.svg" alt="Courses" data-size="line"> icon with a + sign)
-3. Fill in the course creation form:
+1. Klik **Kursus Saya** di bilah sisi
+2. Klik tombol **Buat Kursus** (biasanya ikon buku hijau <img src="/.gitbook/assets/icons/mdi-book-open-page-variant.svg" alt="kursus" data-size="line"> dengan tanda +)
+3. Isi formulir pembuatan kursus:
 
-![The course creation form with fields for name, category, code, and language](/.gitbook/assets/course-creation-form.png)
+![Formulir pembuatan kursus, berisi bidang nama, kategori, kode, dan bahasa](/.gitbook/assets/course-creation-form.png)
 
-| Field | Required | Description |
-|-------|----------|-------------|
-| **Course name** | Yes | A short, descriptive title for your course (e.g., "Innovation Management") |
-| **Course category** | No | Select a category to help organize courses on the platform |
-| **Course code** | No | A short code using only letters and numbers (max 40 characters). If left blank, one is generated automatically from the course name |
-| **Language** | No | The primary language of the course. Defaults to your current language |
+| Bidang | Wajib | Deskripsi |
+|--------|-------|-----------|
+| **Nama Kursus** | Ya | Berikan judul singkat dan deskriptif untuk kursus Anda (misalnya, “Manajemen Inovasi”) |
+| **Kategori Kursus** | Tidak | Pilih kategori untuk membantu mengorganisir kursus di platform |
+| **Kode Kursus** | Tidak | Kode singkat hanya menggunakan huruf dan angka (maksimal 40 karakter). Jika dibiarkan kosong, kode akan dihasilkan secara otomatis berdasarkan nama kursus |
+| **Bahasa** | Tidak | Bahasa utama kursus. Secara default, akan menggunakan bahasa saat ini Anda |
 
-If enabled, you might also find a **Default room** setting and the possibility to use a **Course template** to avoid creating your course entirely from scratch.
+Jika diaktifkan, Anda juga dapat menemukan pengaturan **Ruang Kelas Default** serta kemungkinan menggunakan **Template Kursus**, untuk menghindari pembuatan kursus dari awal.
 
-4. Click **Create this course**
+4. Klik **Buat Kursus Ini**
 
-You will be redirected to your new course's homepage. A confirmation message will appear: "Course created successfully."
+Anda akan dialihkan ke halaman utama kursus baru. Layar akan menampilkan pesan konfirmasi: “Kursus berhasil dibuat.”
 
-## The Course Homepage
+## Halaman Utama Kursus
 
-Once your course is created, you land on its homepage. This is the central hub for your course, where you and your learners access all tools and content.
+Setelah membuat kursus, Anda akan dibawa ke halaman utama kursus. Ini adalah pusat utama kursus Anda, di mana Anda dan siswa Anda dapat mengakses semua alat dan konten.
 
-![The course homepage tool grid showing available course tools with icons and visibility toggles](/.gitbook/assets/course-homepage-tool-grid.png)
+![Grid alat halaman utama kursus, menampilkan ikon alat yang tersedia dan saklar visibilitas](/.gitbook/assets/course-homepage-tool-grid.png)
 
-The homepage displays:
+Halaman utama kursus menampilkan:
 
-* **Course title** — The name of your course, shown at the top.
-* **Course introduction** — An optional description or welcome message. Click the **+ Course introduction** button to add one, or the **Edit introduction** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Edit" data-size="line"> button at the top to modify it. This supports rich text with images, links, and formatting.
-* **Tool grid** — A grid of all available course tools, each shown as a card with an icon and name.
+* **Judul Kursus** — Nama kursus Anda, ditampilkan di bagian atas.
+* **Pengantar Kursus** — Deskripsi atau pesan selamat datang opsional. Klik tombol **+ Pengantar Kursus** untuk menambahkan pengantar, atau klik tombol **Edit Pengantar** di bagian atas <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="edit" data-size="line"> untuk memodifikasi. Mendukung format teks kaya, termasuk gambar, tautan, dan pemformatan.
+* **Grid Alat** — Grid yang menampilkan semua alat kursus yang tersedia, setiap alat ditampilkan dalam bentuk kartu dengan ikon dan nama.
 
-### Managing Tool Visibility
+### Mengelola Visibilitas Alat
 
-As a teacher, you can control which tools your learners can see:
+Sebagai pengajar, Anda dapat mengontrol alat mana yang dapat dilihat siswa:
 
-* Click the **eye icon** <img src="/.gitbook/assets/icons/mdi-eye.svg" alt="Visible" data-size="line"> next to any tool to hide it from learners. Hidden tools show a **crossed-out eye** <img src="/.gitbook/assets/icons/mdi-eye-off.svg" alt="Hidden" data-size="line"> and are still accessible to you.
-* Use the **Show all** and **Hide all** buttons to change all tools at once
-* Click **Sort** to enable drag-and-drop reordering of the tool grid
+* Klik **ikon mata** di samping alat apa pun <img src="/.gitbook/assets/icons/mdi-eye.svg" alt="terlihat" data-size="line"> untuk menyembunyikannya dari siswa. Alat yang disembunyikan akan menampilkan **mata dengan garis tengah** <img src="/.gitbook/assets/icons/mdi-eye-off.svg" alt="disembunyikan" data-size="line">, tetapi Anda masih dapat mengaksesnya.
+* Gunakan tombol **Tampilkan Semua** dan **Sembunyikan Semua** untuk mengubah visibilitas semua alat sekaligus
+* Klik **Urutkan** untuk mengaktifkan pengurutan ulang grid alat melalui seret dan lepas
 
-### Student View
+### Tampilan Siswa
 
-Click the **Student view** button to see the course homepage exactly as a learner would see it. This is useful to verify that hidden tools and unpublished content are not visible. Click the button again to return to the teacher view.
+Klik tombol **Tampilan Siswa**, untuk melihat tampilan akurat halaman utama kursus yang dilihat siswa. Ini sangat berguna untuk memeriksa apakah alat yang disembunyikan dan konten yang belum diterbitkan terlihat. Klik tombol tersebut lagi untuk kembali ke tampilan pengajar.
 
-## Next Steps
+## Langkah Selanjutnya
 
-* [Course Settings](course-settings.md) — Configure access, enrollment, and other course-level options
-* [Course Homepage](course-homepage.md) — Detailed guide to customizing your course homepage
+* [Pengaturan Kursus](course-settings.md) — Mengonfigurasi akses tingkat kursus, pendaftaran, dan opsi lainnya
+* [Halaman Utama Kursus](course-homepage.md) — Panduan rinci untuk menyesuaikan halaman utama kursus

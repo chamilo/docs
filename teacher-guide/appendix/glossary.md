@@ -1,25 +1,25 @@
-# Glossary
+# Glosarium
 
-Key terms used throughout this guide.
+Istilah-istilah kunci yang digunakan di seluruh panduan ini.
 
-| Term | Definition |
-|------|-----------|
-| **Assessment** | See **Gradebook** below |
-| **Assignment** | A task where learners submit files or text for teacher review and grading. Also known as "student publication" or "work". |
-| **Auto-launch** | A feature that automatically opens a specific tool when a learner enters a course. |
-| **Certificate** | A document automatically generated when a learner meets the minimum score defined in the gradebook. |
-| **Course** | A container for learning content and tools. A course can include documents, exercises, forums, learning paths, and more. |
-| **Course coach** | A teacher role specific to sessions. A course coach manages one course within a session. |
-| **Disk quota** | The maximum storage space allocated to a course for uploaded files. |
-| **Enrollment** | The process of registering a user in a course or session, giving them access to its content. Also known as "subscription". |
-| **Exercise** | A quiz or test containing one or more questions. Also referred to as a "test" in some contexts. |
-| **Forum** | A discussion tool with threaded conversations organized into categories and topics. |
-| **Gradebook** | A tool that aggregates scores from exercises, assignments, and other activities into a unified grade for each learner. |
-| **Learning path** | A structured sequence of learning activities (documents, exercises, links) that learners follow in a defined order, optionally with prerequisites. |
-| **LTI** | Learning Tools Interoperability — a standard that allows external learning tools to be embedded within Chamilo. |
-| **SCORM** | Sharable Content Object Reference Model — a standard for e-learning content packages. Chamilo can import and play SCORM packages within learning paths. |
-| **Session** | A time-bound edition of one or more courses assigned to a specific group of learners. Sessions allow reusing the same course content for different cohorts. |
-| **Session coach** | A supervisory role that oversees all courses within a session. |
-| **Skill** | A competency that can be linked to gradebook achievements. When a learner earns a certificate, associated skills are validated. |
-| **Survey** | A questionnaire tool for collecting feedback, with various question types and anonymous response options. |
-| **Visibility** | A setting that controls whether a tool, document, or activity is visible to learners. Teachers can always see hidden items. |
+| Istilah | Definisi |
+|---------|----------|
+| **Penilaian** | Lihat **Buku Nilai** di bawah |
+| **Tugas** | Sebuah tugas di mana peserta didik mengirimkan file atau teks untuk ditinjau dan dinilai oleh guru. Juga dikenal sebagai "publikasi siswa" atau "pekerjaan". |
+| **Peluncuran Otomatis** | Fitur yang secara otomatis membuka alat tertentu ketika peserta didik memasuki kursus. |
+| **Sertifikat** | Dokumen yang dihasilkan secara otomatis ketika peserta didik mencapai skor minimum yang ditentukan dalam buku nilai. |
+| **Kursus** | Wadah untuk konten pembelajaran dan alat-alat. Kursus dapat mencakup dokumen, latihan, forum, jalur pembelajaran, dan lainnya. |
+| **Pelatih Kursus** | Peran guru yang spesifik untuk sesi. Pelatih kursus mengelola satu kursus dalam sebuah sesi. |
+| **Kuota Disk** | Ruang penyimpanan maksimum yang dialokasikan untuk kursus untuk file yang diunggah. |
+| **Pendaftaran** | Proses mendaftarkan pengguna dalam kursus atau sesi, memberikan mereka akses ke kontennya. Juga dikenal sebagai "langganan". |
+| **Latihan** | Kuis atau tes yang berisi satu atau lebih pertanyaan. Juga disebut sebagai "tes" dalam beberapa konteks. |
+| **Forum** | Alat diskusi dengan percakapan berulir yang diorganisasi ke dalam kategori dan topik. |
+| **Buku Nilai** | Alat yang menggabungkan skor dari latihan, tugas, dan aktivitas lain menjadi nilai terpadu untuk setiap peserta didik. |
+| **Jalur Pembelajaran** | Urutan terstruktur dari aktivitas pembelajaran (dokumen, latihan, tautan) yang diikuti peserta didik dalam urutan yang ditentukan, opsional dengan prasyarat. |
+| **LTI** | Learning Tools Interoperability — standar yang memungkinkan alat pembelajaran eksternal untuk disematkan dalam Chamilo. |
+| **SCORM** | Sharable Content Object Reference Model — standar untuk paket konten e-learning. Chamilo dapat mengimpor dan memutar paket SCORM dalam jalur pembelajaran. |
+| **Sesi** | Edisi terikat waktu dari satu atau lebih kursus yang ditugaskan ke kelompok peserta didik tertentu. Sesi memungkinkan penggunaan kembali konten kursus yang sama untuk kelompok yang berbeda. |
+| **Pelatih Sesi** | Peran pengawas yang mengawasi semua kursus dalam sebuah sesi. |
+| **Keterampilan** | Kompetensi yang dapat dikaitkan dengan pencapaian buku nilai. Ketika peserta didik mendapatkan sertifikat, keterampilan terkait divalidasi. |
+| **Survei** | Alat kuesioner untuk mengumpulkan umpan balik, dengan berbagai jenis pertanyaan dan opsi tanggapan anonim. |
+| **Visibilitas** | Pengaturan yang mengontrol apakah alat, dokumen, atau aktivitas terlihat oleh peserta didik. Guru selalu dapat melihat item yang disembunyikan. |

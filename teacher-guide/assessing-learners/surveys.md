@@ -1,85 +1,85 @@
-# Surveys
+# Survei
 
-The survey tool lets you create questionnaires to collect feedback from your learners. Surveys are useful for course evaluations, needs assessments, and opinion polls.
+Alat survei memungkinkan Anda membuat kuesioner untuk mengumpulkan umpan balik dari siswa. Survei sangat berguna untuk evaluasi kursus, analisis kebutuhan, dan jajak pendapat.
 
-## Creating a Survey
+## Membuat Survei
 
-1. Open the **Surveys** <img src="/.gitbook/assets/icons/mdi-form-dropdown.svg" alt="Surveys" data-size="line"> tool from the course homepage
-2. Click **Create survey**
-3. Fill in the survey details:
-   * **Code** — This is a unique code for the survey. It will be used in mails and links.
-   * **Title** — The name of the survey
-   * **Subtitle** — An optional secondary heading
-   * **Start date** — From when this survey will be open to participation
-   * **End date** — Until when this survey will be open to participation
-   * **Anonymous** — Whether responses are anonymous or linked to individual learners
-   * **Results visibility** — Who can see the results (only coach, coach and students, everyone)
-   * **Introduction** — A message shown to learners before they start the survey
-   * **Thank you message** — A message shown after submission
-4. Save
+1. Buka alat **Survei** di halaman utama kursus <img src="/.gitbook/assets/icons/mdi-form-dropdown.svg" alt="Survei" data-size="line">
+2. Klik **Buat Survei**
+3. Isi detail survei:
+   * **Kode** — Ini adalah kode unik untuk survei, yang akan digunakan dalam email dan tautan.
+   * **Judul** — Nama survei
+   * **Subjudul** — Subjudul opsional
+   * **Tanggal Mulai** — Kapan survei mulai menerima partisipasi
+   * **Tanggal Berakhir** — Kapan survei berhenti menerima partisipasi
+   * **Anonim** — Apakah jawaban bersifat anonim atau terkait dengan siswa tertentu
+   * **Visibilitas Hasil** — Siapa yang dapat melihat hasil (hanya pengajar, pengajar dan siswa, semua orang)
+   * **Pendahuluan** — Pesan yang ditampilkan kepada siswa sebelum memulai survei
+   * **Pesan Terima Kasih** — Pesan yang ditampilkan setelah pengiriman
+4. Simpan
 
-### Advanced settings
+### Pengaturan Lanjutan
 
-* **Grade in the assessment tool** — Whether to include this survey's answer state in the assessment tool (gradebook). Anyone having completed the survey gets 100%, anyone else get 0%
-* **Parent survey** — Not really used at this point (legacy feature)
-* **One question per page** — Presentation style for the questions
-* **Enable shuffle mode** — Whether to shuffle questions
-* **Show question number** — Whether to show (auto-generated) question numbers
+* **Dinilai di Alat Evaluasi** — Apakah status jawaban survei ini dimasukkan ke dalam alat evaluasi (transkrip nilai). Siswa yang menyelesaikan survei mendapatkan 100%, siswa yang tidak menyelesaikan mendapatkan 0%
+* **Survei Induk** — Saat ini tidak digunakan secara aktif (fitur lama)
+* **Satu Pertanyaan per Halaman** — Gaya penyajian pertanyaan
+* **Aktifkan Mode Acak** — Apakah pertanyaan diacak
+* **Tampilkan Nomor Pertanyaan** — Apakah menampilkan nomor pertanyaan yang dihasilkan secara otomatis
 
-## Adding Questions
+## Menambahkan Pertanyaan
 
-Once the survey is created, add questions:
+Setelah membuat survei, tambahkan pertanyaan:
 
-1. Choose the question type:
-   * **Yes/No** — A simple binary choice
-   * **Multiple choice** — Select one answer from several options
-   * **Multiple answer** — Select one or more answers from several options
-   * **Open-ended** — Free text response
-   * **Dropdown** — Select from a dropdown list
-   * **Percentage** — Choose a percentage value
-   * **Score** — Rate on a numeric scale
-   * **Comment** — A text block (not a question) for adding instructions between questions
-   * **Multiple choice with "other" option** — Select one answer from several options, with an alternative choice
-   * **Selective display** — Special type allowing you to adapt the flow of questions based on previous answers
-   * **Page break** — Add page breaks in the questions flow. Only useful if "One question per page" was **not** selected in the previous step
-2. Configure the question text and answer options
-3. Save
+1. Pilih jenis pertanyaan:
+   * **Ya/Tidak** — Pilihan biner sederhana
+   * **Pilihan Tunggal** — Pilih satu jawaban dari beberapa opsi
+   * **Pilihan Ganda** — Pilih satu atau lebih jawaban dari beberapa opsi
+   * **Pertanyaan Terbuka** — Jawaban teks bebas
+   * **Daftar Tarik Turun** — Pilih dari daftar tarik turun
+   * **Persentase** — Pilih nilai persentase
+   * **Penilaian** — Berikan skor dalam rentang numerik
+   * **Komentar** — Blok teks (bukan pertanyaan), digunakan untuk menambahkan penjelasan di antara pertanyaan
+   * **Pilihan Tunggal dengan Opsi “Lainnya”** — Pilih satu jawaban dari beberapa opsi, dengan pilihan alternatif
+   * **Tampilan Selektif** — Jenis khusus, memungkinkan penyesuaian alur pertanyaan berdasarkan jawaban sebelumnya
+   * **Pemisah Halaman** — Tambahkan pemisah halaman dalam alur pertanyaan. Hanya berguna jika opsi “Satu Pertanyaan per Halaman” tidak dipilih sebelumnya
+2. Konfigurasikan teks pertanyaan dan opsi jawaban
+3. Simpan
 
-Each question can be marked as mandatory. If you don't, skipping any question will be acceptable behaviour.
+Setiap pertanyaan dapat ditandai sebagai wajib dijawab. Jika tidak wajib, melewatkan pertanyaan apa pun akan dianggap sebagai perilaku yang dapat diterima.
 
-## Publishing a Survey
+## Menerbitkan Survei
 
-After adding all questions:
+Setelah menambahkan semua pertanyaan:
 
-1. Click **Publish**
-2. Choose the recipients — Select specific learners or groups (you select them). The **Add learners** button adds all the learners in one single push and leaves the teachers behind
-3. Add additional users — Lets you invite users from outside Chamilo to participate in the survey. They will receive an e-mail with a link and will appear by their e-mail address in the survey details
-4. Mail subject
-5. Mail text — Explain what the survey is about and when/how to answer
-6. Different options for repeat invitations are available
-7. Confirm
+1. Klik **Terbitkan**
+2. Pilih penerima — Pilih siswa atau kelompok tertentu (sesuai pilihan Anda). Tombol **Tambah Siswa** akan menambahkan semua siswa sekaligus dan mengecualikan pengajar
+3. Tambah pengguna tambahan — Izinkan mengundang pengguna di luar Chamilo untuk berpartisipasi dalam survei. Mereka akan menerima email dengan tautan dan ditampilkan dengan alamat email di detail survei
+4. Subjek email
+5. Isi email — Jelaskan isi survei serta kapan/cara menjawabnya
+6. Berikan opsi undangan ulang yang berbeda
+7. Konfirmasi
 
-Learners receive an invitation (as an email) to complete the survey.
+Siswa akan menerima undangan (melalui email) untuk menyelesaikan survei.
 
-A link is available at the bottom of the publication page to invite even more external users to participate. Participants using this link will not be identified and appear as anonymous in the survey results.
+Di bagian bawah halaman penerbitan terdapat tautan yang dapat digunakan untuk mengundang lebih banyak pengguna eksternal. Peserta yang menggunakan tautan ini tidak akan dapat diidentifikasi dan akan muncul sebagai anonim dalam hasil survei.
 
-## Viewing Results
+## Melihat Hasil
 
-![Survey results with charts and percentage breakdowns for each question](/.gitbook/assets/survey-results-charts.png)
+![Hasil survei, berisi grafik dan persentase untuk setiap pertanyaan](/.gitbook/assets/survey-results-charts.png)
 
-After learners have responded:
+Setelah siswa menjawab:
 
-1. Open the survey
-2. Click **Results** or **Report**
-3. View response summaries:
-   * Charts and percentages for closed questions
-   * Individual text responses for open-ended questions
-   * Completion rate (how many invitees responded)
+1. Buka survei
+2. Klik **Hasil** atau **Laporan**
+3. Lihat ringkasan jawaban:
+   * Grafik dan persentase untuk pertanyaan tertutup
+   * Jawaban teks individu untuk pertanyaan terbuka
+   * Tingkat penyelesaian (berapa banyak undangan yang menjawab)
 
-You can export results to a spreadsheet for further analysis.
+Anda dapat mengekspor hasil ke spreadsheet untuk analisis lebih mendalam.
 
 ## Tips
 
-* **Keep it short** — Learners are more likely to complete shorter surveys
-* **Use anonymous mode** — For honest feedback, enable anonymous responses
-* **Time it right** — Send mid-course surveys to make adjustments, not just end-of-course evaluations
+* **Buat Singkat** — Siswa lebih mungkin menyelesaikan survei yang pendek
+* **Gunakan Mode Anonim** — Untuk mendapatkan umpan balik yang jujur, aktifkan jawaban anonim
+* **Pilih Waktu yang Tepat** — Kirim survei di tengah kursus untuk penyesuaian, bukan hanya evaluasi di akhir kursus

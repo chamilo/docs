@@ -1,57 +1,57 @@
 # LTI 1.3
 
-**LTI** (Learning Tools Interoperability) is a standard that allows external learning tools to be embedded within Chamilo. Version 1.3 is the latest and most secure version of the standard.
+**LTI** (Learning Tools Interoperability) adalah standar yang memungkinkan alat pembelajaran eksternal untuk disematkan di dalam Chamilo. Versi 1.3 adalah versi terbaru dan paling aman dari standar ini.
 
-## What LTI Allows
+## Apa yang Diizinkan oleh LTI
 
-With LTI, you can embed external tools within Chamilo courses. Examples:
+Dengan LTI, Anda dapat menyematkan alat eksternal di dalam kursus Chamilo. Contohnya:
 
-* Interactive simulations
-* Specialized assessment tools
-* Content authoring tools
-* Virtual labs
-* Third-party content libraries
+* Simulasi interaktif
+* Alat penilaian khusus
+* Alat pembuatan konten
+* Laboratorium virtual
+* Perpustakaan konten pihak ketiga
 
-The external tool appears seamlessly within the Chamilo interface.
+Alat eksternal tersebut tampil secara mulus di dalam antarmuka Chamilo.
 
-## Configuring an LTI Tool
+## Mengonfigurasi Alat LTI
 
-### As an Administrator
+### Sebagai Administrator
 
-1. Navigate to the LTI settings in the administration panel
-2. **Register the external tool** by providing:
-   * **Tool name** — A descriptive name
-   * **Login URL** — The OIDC login initiation URL of the external tool
-   * **Redirect URL** — The launch URL the tool returns to after login
-   * **Client ID** — Provided by the tool vendor
-   * **Public keyset URL (JWKS URL)** — The tool's JWKS endpoint for security key exchange
-3. Configure **grade passback** — Whether the tool can send grades back to Chamilo
-4. Save
+1. Navigasikan ke pengaturan LTI di panel administrasi
+2. **Daftarkan alat eksternal** dengan menyediakan:
+   * **Nama alat** — Nama yang deskriptif
+   * **URL Login** — URL inisiasi login OIDC dari alat eksternal
+   * **URL Pengalihan** — URL peluncuran yang dikembalikan alat setelah login
+   * **Client ID** — Disediakan oleh vendor alat
+   * **URL Kunci Publik (JWKS URL)** — Titik akhir JWKS alat untuk pertukaran kunci keamanan
+3. Konfigurasikan **pengiriman nilai kembali** — Apakah alat dapat mengirimkan nilai kembali ke Chamilo
+4. Simpan
 
-### As a Teacher
+### Sebagai Pengajar
 
-Once an LTI tool is registered by the administrator, teachers can add it to their courses:
+Setelah alat LTI didaftarkan oleh administrator, pengajar dapat menambahkannya ke kursus mereka:
 
-1. In the course, look for the option to add an external tool
-2. Select from the registered LTI tools
-3. The tool appears as a course tool on the homepage
+1. Di dalam kursus, cari opsi untuk menambahkan alat eksternal
+2. Pilih dari alat LTI yang telah terdaftar
+3. Alat tersebut akan muncul sebagai alat kursus di halaman utama
 
-## Security
+## Keamanan
 
-LTI 1.3 uses:
+LTI 1.3 menggunakan:
 
-* **OAuth 2.0** for authentication
-* **JSON Web Tokens (JWT)** for message signing
-* **Public/private key pairs** for verification
+* **OAuth 2.0** untuk otentikasi
+* **JSON Web Tokens (JWT)** untuk penandatanganan pesan
+* **Pasangan kunci publik/privat** untuk verifikasi
 
-This means credentials are never shared directly between Chamilo and the external tool.
+Ini berarti kredensial tidak pernah dibagikan secara langsung antara Chamilo dan alat eksternal.
 
-## Grade Passback
+## Pengiriman Nilai Kembali
 
-LTI tools can send grades back to Chamilo, which can be integrated into the course gradebook. This is configured per tool during registration.
+Alat LTI dapat mengirimkan nilai kembali ke Chamilo, yang dapat diintegrasikan ke dalam buku nilai kursus. Ini dikonfigurasi per alat selama pendaftaran.
 
 ## Tips
 
-* **Verify tool compatibility** — Ensure the external tool supports LTI 1.3 (not just older versions)
-* **Test in a sandbox** — Test the LTI integration in a test course before using it in production
-* **Monitor performance** — External tools add network dependencies. Ensure the tool is responsive and reliable.
+* **Verifikasi kompatibilitas alat** — Pastikan alat eksternal mendukung LTI 1.3 (bukan hanya versi lama)
+* **Uji di sandbox** — Uji integrasi LTI di kursus percobaan sebelum menggunakannya di lingkungan produksi
+* **Pantau kinerja** — Alat eksternal menambahkan ketergantungan jaringan. Pastikan alat tersebut responsif dan dapat diandalkan.

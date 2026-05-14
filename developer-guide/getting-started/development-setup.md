@@ -1,96 +1,95 @@
-# Development Setup
+# Pengaturan untuk Pengembangan
 
-## Prerequisites
+## Prasyarat
 
-* PHP 8.2+ with extensions: intl, gd, curl, zip, mbstring, xml, json, pdo, ldap, exif, bcmath
+* PHP 8.2+ dengan ekstensi: intl, gd, curl, zip, mbstring, xml, json, pdo, ldap, exif, bcmath
 * Composer
-* Node.js and npm (or Yarn — the project uses Yarn 4; see `package.json` for the exact pinned version)
-* MySQL 5.7+ or MariaDB 10.11+
+* Node.js dan npm (atau Yarn — proyek ini menggunakan Yarn 4; lihat `package.json` untuk versi pasti yang ditetapkan)
+* MySQL 5.7+ atau MariaDB 10.11+
 * Git
 
-## Installation Steps
+## Langkah-langkah Instalasi
 
-### 1. Clone the Repository
+### 1. Mengklon Repositori
 
 ```bash
 git clone https://github.com/chamilo/chamilo-lms.git chamilo
 cd chamilo
 ```
 
-### 2. Install PHP Dependencies
+### 2. Menginstal Dependensi PHP
 
 ```bash
 composer install
 ```
 
-### 3. Configure Environment
+### 3. Mengatur Lingkungan
 
-The repository ships `.env.dist` as a reference. Create an empty `.env` file that the web installer will populate — keeping it empty ensures upgrades never overwrite your local configuration:
+Repositori ini menyertakan file `.env.dist` sebagai referensi. Buat file `.env` kosong yang akan diisi oleh penginstal web — menjaga file ini kosong memastikan pembaruan tidak akan menimpa konfigurasi lokal Anda:
 
 ```bash
 touch .env
 ```
 
-Then make `.env` and `config/` writable by the web server so the installer can write your local configuration:
+Kemudian, buat `.env` dan `config/` dapat ditulis oleh server web agar penginstal dapat menulis konfigurasi lokal Anda:
 
 ```bash
 sudo chown -R www-data: .env config/ var/
 ```
 
-### 4. Install Frontend Dependencies and Build
+### 4. Menginstal Dependensi Frontend dan Mengompilasi
 
 ```bash
-# Install JavaScript dependencies
+# Menginstal dependensi JavaScript
 yarn install
 
-# Build frontend assets for development
+# Mengompilasi aset frontend untuk pengembangan
 yarn encore dev
 
-# Or watch for changes during development
+# Atau memantau perubahan selama pengembangan
 yarn encore dev --watch
 ```
 
-### 5. Start the Development Server
+### 5. Memulai Server Pengembangan
 
 ```bash
 symfony server:start
 ```
 
-Or use Apache/Nginx pointing to the `public/` directory.
+Atau gunakan Apache/Nginx yang mengarah ke direktori `public/`.
 
-### 6. Set Up the Database
+### 6. Mengatur Basis Data
 
-Run the web-based installation wizard by navigating to your Chamilo URL in a browser.
+Jalankan asisten instalasi berbasis web dengan mengakses URL Chamilo di peramban.
 
-### 7. Generate JWT Keys
+### 7. Menghasilkan Kunci JWT
 
 ```bash
 php bin/console lexik:jwt:generate-keypair
 ```
 
-### 8. Secure your system
+### 8. Mengamankan Sistem Anda
 
-The `.env` file and `config/` directory only need to be writeable for the time of the installation. Secure them afterwards:
+File `.env` dan direktori `config/` hanya perlu dapat ditulis selama periode instalasi. Amankan setelahnya:
 
 ```bash
 sudo chown -R root: .env config/
 ```
 
-The `var/` directory needs to remain writeable by the web server.
+Direktori `var/` perlu tetap dapat ditulis oleh server web.
 
+## Perintah Kompilasi
 
-## Build Commands
+| Perintah | Tujuan |
+|---------|--------|
+| `yarn encore dev` | Mengompilasi frontend untuk pengembangan |
+| `yarn encore dev --watch` | Mengompilasi dan memantau perubahan |
+| `yarn encore production` | Mengompilasi yang dioptimalkan untuk produksi |
+| `php bin/console cache:clear` | Membersihkan cache Symfony |
 
-| Command | Purpose |
-|---------|---------|
-| `yarn encore dev` | Build frontend for development |
-| `yarn encore dev --watch` | Build and watch for changes |
-| `yarn encore production` | Build optimized for production |
-| `php bin/console cache:clear` | Clear Symfony cache |
+## Tips untuk Pengembangan
 
-## Development Tips
-
-* Set `APP_ENV=dev` and `APP_DEBUG=1` in `.env` for detailed error messages
-* The Symfony debug toolbar appears at the bottom of pages in development mode
-* API documentation is available at `/api` when `APP_ENABLE_API_ENTRYPOINT=1`
-* Use `yarn encore dev --watch` to automatically rebuild frontend changes
+* Tetapkan `APP_ENV=dev` dan `APP_DEBUG=1` di file `.env` untuk pesan kesalahan yang mendetail
+* Bilah debug Symfony muncul di bagian bawah halaman dalam mode pengembangan
+* Dokumentasi API tersedia di `/api` ketika `APP_ENABLE_API_ENTRYPOINT=1`
+* Gunakan `yarn encore dev --watch` untuk mengompilasi ulang perubahan frontend secara otomatis

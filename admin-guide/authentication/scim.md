@@ -1,26 +1,26 @@
 # SCIM
 
-**SCIM** (System for Cross-domain Identity Management) automates user provisioning — creating, updating, and deactivating Chamilo accounts based on changes in your identity provider. Unlike OAuth2 or LDAP, SCIM handles provisioning, not login.
+**SCIM** (System for Cross-domain Identity Management) mengotomatiskan penyediaan pengguna — membuat, memperbarui, dan menonaktifkan akun Chamilo berdasarkan perubahan pada penyedia identitas Anda. Berbeda dengan OAuth2 atau LDAP, SCIM menangani penyediaan, bukan proses masuk.
 
-| Scenario | SCIM action |
-|----------|-------------|
-| A new employee joins | Creates a Chamilo account |
-| An employee's name or role changes | Updates the Chamilo account |
-| An employee leaves | Deactivates or deletes the Chamilo account |
+| Skenario | Aksi SCIM |
+|----------|-----------|
+| Karyawan baru bergabung | Membuat akun Chamilo |
+| Nama atau peran karyawan berubah | Memperbarui akun Chamilo |
+| Karyawan meninggalkan perusahaan | Menonaktifkan atau menghapus akun Chamilo |
 
-## Configuration
+## Konfigurasi
 
-### 1. Set the SCIM token
+### 1. Atur Token SCIM
 
-In your `.env` (or `.env.local`) file, define a secure random token:
+Di file `.env` (atau `.env.local`) Anda, tentukan token acak yang aman:
 
 ```
 SCIM_TOKEN=your-secure-random-token
 ```
 
-This token is used by your identity provider to authenticate its requests to Chamilo's SCIM endpoints.
+Token ini digunakan oleh penyedia identitas Anda untuk mengautentikasi permintaan ke endpoint SCIM Chamilo.
 
-### 2. Enable SCIM in authentication.yaml
+### 2. Aktifkan SCIM di authentication.yaml
 
 ```yaml
 authentication:
@@ -31,37 +31,37 @@ authentication:
         auth_source: platform
 ```
 
-Clear and warm the cache after editing:
+Bersihkan dan panaskan cache setelah mengedit:
 
 ```bash
 php bin/console cache:clear && php bin/console cache:warmup
 ```
 
-### 3. Configure your identity provider
+### 3. Konfigurasikan Penyedia Identitas Anda
 
-In your identity provider (Azure AD, Okta, etc.):
+Di penyedia identitas Anda (Azure AD, Okta, dll.):
 
-1. Add Chamilo as a SCIM application
-2. Set the SCIM base URL to `https://your-chamilo-url/scim/v2/`
-3. Enter the token from step 1 as the bearer token
-4. Map provider attributes to SCIM standard fields (userName, name.givenName, name.familyName, emails)
-5. Enable automatic provisioning
+1. Tambahkan Chamilo sebagai aplikasi SCIM
+2. Atur URL dasar SCIM ke `https://your-chamilo-url/scim/v2/`
+3. Masukkan token dari langkah 1 sebagai bearer token
+4. Petakan atribut penyedia ke bidang standar SCIM (userName, name.givenName, name.familyName, emails)
+5. Aktifkan penyediaan otomatis
 
-## SCIM endpoints
+## Endpoint SCIM
 
-Chamilo implements SCIM 2.0:
+Chamilo mengimplementasikan SCIM 2.0:
 
-| Endpoint | Method | Action |
-|----------|--------|--------|
-| `/scim/v2/Users` | GET | List users |
-| `/scim/v2/Users` | POST | Create a user |
-| `/scim/v2/Users/{id}` | GET | Get a user |
-| `/scim/v2/Users/{id}` | PUT | Replace a user |
-| `/scim/v2/Users/{id}` | PATCH | Update a user |
-| `/scim/v2/Users/{id}` | DELETE | Remove a user |
+| Endpoint | Metode | Aksi |
+|----------|--------|------|
+| `/scim/v2/Users` | GET | Daftar pengguna |
+| `/scim/v2/Users` | POST | Membuat pengguna |
+| `/scim/v2/Users/{id}` | GET | Mendapatkan pengguna |
+| `/scim/v2/Users/{id}` | PUT | Mengganti pengguna |
+| `/scim/v2/Users/{id}` | PATCH | Memperbarui pengguna |
+| `/scim/v2/Users/{id}` | DELETE | Menghapus pengguna |
 
 ## Tips
 
-* **Start with a test group** — provision a small set of users before enabling SCIM for the whole organization.
-* **Combine with OAuth2** — a common setup uses Azure AD OAuth2 for login and Azure AD SCIM for provisioning.
-* **Monitor logs** — check both Chamilo (`var/log/`) and your identity provider's provisioning logs for errors.
+* **Mulai dengan grup uji** — sediakan sekelompok kecil pengguna sebelum mengaktifkan SCIM untuk seluruh organisasi.
+* **Gabungkan dengan OAuth2** — pengaturan umum menggunakan Azure AD OAuth2 untuk masuk dan Azure AD SCIM untuk penyediaan.
+* **Pantau log** — periksa log Chamilo (`var/log/`) dan log penyediaan penyedia identitas Anda untuk mendeteksi kesalahan.

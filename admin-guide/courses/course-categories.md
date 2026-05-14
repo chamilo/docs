@@ -1,47 +1,47 @@
-# Course Categories
+# Kategori Kursus
 
-Course categories help organize your course catalog, making it easier for learners to find relevant courses.
+Kategori kursus membantu mengatur katalog kursus Anda, sehingga memudahkan peserta didik untuk menemukan kursus yang relevan.
 
-## Creating a Category
+## Membuat Kategori
 
-1. From the administration panel, navigate to **Course categories**
-2. Click **Add category**
-3. Enter:
-   * **Category code** — A short unique identifier
-   * **Category name** — The display name (e.g., "Information Technology", "Management Skills")
-   * **Allow adding courses in this category?** — Whether it allows courses to set this as a category, or it just serves as an intermediate level in a hierarchy 
-   * **Parent category** — (Optional) Place this category under another category to create a hierarchy
-   * **Description** — (Optional)
-   * **Image** — (Optional) Will represent this category, although it almost doesn't show anywhere
-4. Press *Add category*
+1. Dari panel administrasi, navigasikan ke **Kategori kursus**
+2. Klik **Tambah kategori**
+3. Masukkan:
+   * **Kode kategori** — Pengenal unik yang singkat
+   * **Nama kategori** — Nama yang ditampilkan (misalnya, "Teknologi Informasi", "Keterampilan Manajemen")
+   * **Izinkan menambahkan kursus di kategori ini?** — Apakah kategori ini mengizinkan kursus untuk ditetapkan sebagai kategori ini, atau hanya berfungsi sebagai tingkat perantara dalam hierarki
+   * **Kategori induk** — (Opsional) Tempatkan kategori ini di bawah kategori lain untuk membuat hierarki
+   * **Deskripsi** — (Opsional)
+   * **Gambar** — (Opsional) Akan mewakili kategori ini, meskipun hampir tidak ditampilkan di mana pun
+4. Tekan *Tambah kategori*
 
-Chamilo creates 3 categories by default: *Language skills*, *PC Skills* and *Projects*. These can be renamed, removed or kept, depending on your needs.
+Chamilo membuat 3 kategori secara default: *Keterampilan Bahasa*, *Keterampilan PC*, dan *Proyek*. Kategori ini dapat diganti nama, dihapus, atau dipertahankan, tergantung pada kebutuhan Anda.
 
-## Category Hierarchy
+## Hierarki Kategori
 
-![The course categories management page showing a nested tree of categories](/.gitbook/assets/admin-course-categories.png)
+![Halaman manajemen kategori kursus yang menunjukkan struktur pohon bersarang dari kategori](/.gitbook/assets/admin-course-categories.png)
 
-Categories can be nested to create a tree structure:
+Kategori dapat disusun secara bersarang untuk membuat struktur pohon:
 
-* Business
-  * Management
-  * Marketing
-  * Finance
-* Technology
-  * Programming
-  * Networking
-  * Cybersecurity
+* Bisnis
+  * Manajemen
+  * Pemasaran
+  * Keuangan
+* Teknologi
+  * Pemrograman
+  * Jaringan
+  * Keamanan Siber
 
-Learners browsing the course catalog can navigate through this hierarchy to find courses.
+Peserta didik yang menjelajahi katalog kursus dapat menavigasi melalui hierarki ini untuk menemukan kursus.
 
-## Managing Categories
+## Mengelola Kategori
 
-* **Edit** — Change the category name, code, or parent
-* **Move** — Change the position of a category in the list
-* **Delete** — Remove a category. Courses in a deleted category are moved to "uncategorized."
+* **Edit** — Ubah nama kategori, kode, atau induknya
+* **Pindah** — Ubah posisi kategori dalam daftar
+* **Hapus** — Hapus kategori. Kursus dalam kategori yang dihapus akan dipindahkan ke "tidak berkategori."
 
 ## Tips
 
-* **Keep it simple** — Use broad categories that learners can understand at a glance
-* **Limit depth** — Avoid deeply nested categories. Two or three levels are usually sufficient.
-* **Assign categories during course creation** — Encourage teachers to select a category when creating courses, so the catalog stays organized
+* **Buat sederhana** — Gunakan kategori yang luas agar peserta didik dapat memahaminya sekilas
+* **Batasi kedalaman** — Hindari kategori yang terlalu bersarang. Dua atau tiga tingkat biasanya sudah cukup.
+* **Tetapkan kategori saat pembuatan kursus** — Dorong pengajar untuk memilih kategori saat membuat kursus, sehingga katalog tetap terorganisir

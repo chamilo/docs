@@ -1,11 +1,11 @@
 # CAS
 
-> **Status in Chamilo 2.x.** CAS configuration entries (`cas_activate`, `cas_server`, `cas_server_uri`, `cas_port`, `cas_protocol`, `cas_add_user_activate`) still exist in the platform settings as a legacy carry-over from Chamilo 1.x, and CAS still appears as a selectable authentication source on the user form — but there is no CAS authenticator wired into the Chamilo 2.x security pipeline. Logging in through CAS does **not** currently work out of the box. If you need SSO on Chamilo 2.x, use [OAuth2](oauth2.md) (Azure / Keycloak / Generic) or [LDAP](ldap.md) instead.
+> **Status di Chamilo 2.x.** Entri konfigurasi CAS (`cas_activate`, `cas_server`, `cas_server_uri`, `cas_port`, `cas_protocol`, `cas_add_user_activate`) masih ada di pengaturan platform sebagai warisan dari Chamilo 1.x, dan CAS masih muncul sebagai sumber autentikasi yang dapat dipilih pada formulir pengguna — namun tidak ada autentikator CAS yang terintegrasi ke dalam pipeline keamanan Chamilo 2.x. Masuk melalui CAS saat ini **tidak** berfungsi secara langsung. Jika Anda membutuhkan SSO di Chamilo 2.x, gunakan [OAuth2](oauth2.md) (Azure / Keycloak / Generic) atau [LDAP](ldap.md) sebagai gantinya.
 
-## What CAS would do (1.x behaviour)
+## Apa yang dilakukan CAS (perilaku di 1.x)
 
-CAS (Central Authentication Service) is a single sign-on protocol commonly used in universities and research institutions. In Chamilo 1.x, clicking "Log in with CAS" would redirect the user to a CAS server, validate the returned ticket, and create or match a local account from CAS attributes.
+CAS (Central Authentication Service) adalah protokol single sign-on yang umum digunakan di universitas dan lembaga penelitian. Di Chamilo 1.x, mengklik "Masuk dengan CAS" akan mengarahkan pengguna ke server CAS, memvalidasi tiket yang dikembalikan, dan membuat atau mencocokkan akun lokal dari atribut CAS.
 
-## Migration note
+## Catatan migrasi
 
-If you are upgrading a Chamilo 1.x portal that used CAS, plan to re-implement that login flow on top of OAuth2 or LDAP for the time being, until the CAS authenticator is restored in a future 2.x release.
+Jika Anda sedang meningkatkan portal Chamilo 1.x yang menggunakan CAS, rencanakan untuk mengimplementasikan kembali alur masuk tersebut di atas OAuth2 atau LDAP untuk sementara waktu, sampai autentikator CAS dipulihkan di rilis 2.x mendatang.

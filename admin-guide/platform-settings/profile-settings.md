@@ -1,227 +1,217 @@
-# User Profile Settings
+# Pengaturan Profil Pengguna
 
-Which fields appear on the user profile, which ones the user can edit, and related preferences.
+Bidang mana yang muncul di profil pengguna, mana yang dapat diedit oleh pengguna, dan preferensi terkait.
 
-Access these settings under **Administration > Configuration settings > User Profile**. This category contains **29 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+Akses pengaturan ini di bawah **Administrasi > Pengaturan konfigurasi > Profil Pengguna**. Kategori ini berisi **29 pengaturan**, yang tercantum di bawah ini dengan judul dan komentar yang disertakan dalam fixture pengaturan platform (`SettingsCurrentFixtures.php`).
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> Nama variabel dalam kode ditampilkan dalam monospace. Gunakan saat membuat skrip melalui API atau ketika Anda perlu mengubah pengaturan tersebut pada tingkat global dengan mengedit [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
 
-## Settings
+## Pengaturan
 
 ### `account_valid_duration`
 
-**Account validity**
+**Validitas Akun**
 
-A user account is valid for this number of days after creation
+Akun pengguna berlaku selama jumlah hari ini setelah dibuat
 
 *Default: `3660`*
 
-
 ### `add_user_course_information_in_mailto`
 
-**Pre-fill the mail with user and course info in footer contact**
+**Isi awal email dengan info pengguna dan kursus di kontak footer**
 
-Add subject and body in the mailto: footer.
+Tambahkan subjek dan isi di mailto: footer.
 
 *Default: `false`*
-
 
 ### `allow_show_linkedin_url`
 
-**Allow show the user LinkedIn URL**
+**Izinkan menampilkan URL LinkedIn pengguna**
 
-Add a link on the user social block, allowing visit the user's LinkedIn profile
+Tambahkan tautan di blok sosial pengguna, yang memungkinkan mengunjungi profil LinkedIn pengguna
 
 ### `allow_show_skype_account`
 
-**Allow show the user Skype account**
+**Izinkan menampilkan akun Skype pengguna**
 
-Add a link on the user social block allowing start a chat by Skype
+Tambahkan tautan di blok sosial pengguna yang memungkinkan memulai obrolan melalui Skype
 
 ### `allow_social_map_fields`
 
-**Users geolocation on a map**
+**Geolokasi pengguna di peta**
 
-Enable the display of a map in the social network allowing you to locate other users. This includes several positions (current and destination) which have to be defined as addresses or coordinates in separate extra fields. The extra fields must be set as an array here.
+Aktifkan tampilan peta di jejaring sosial yang memungkinkan Anda menemukan lokasi pengguna lain. Ini mencakup beberapa posisi (saat ini dan tujuan) yang harus ditentukan sebagai alamat atau koordinat di bidang tambahan terpisah. Bidang tambahan harus diatur sebagai array di sini.
 
 ### `allow_teachers_to_classes`
 
-**Allow teachers to manage classes**
+**Izinkan guru mengelola kelas**
 
-Enables teachers to manage class groups and their membership within the system.
+Memungkinkan guru untuk mengelola grup kelas dan keanggotaannya dalam sistem.
 
 *Default: `false`*
 
-
 ### `allow_user_headings`
 
-**Allow users profiling inside courses**
+**Izinkan profil pengguna di dalam kursus**
 
-Can a teacher define learner profile fields to retrieve additional information?
+Dapatkah seorang guru menentukan bidang profil peserta didik untuk mengambil informasi tambahan?
 
 ### `allow_users_to_change_email_with_no_password`
 
-**Allow users to change e-mail without password**
+**Izinkan pengguna mengubah email tanpa kata sandi**
 
-When changing the account information
+Saat mengubah informasi akun
 
 *Default: `false`*
 
 ### `changeable_options`
 
-**Fields users are allowed to change in their profile**
+**Bidang yang diizinkan untuk diubah pengguna di profil mereka**
 
-Select the fields users will be able to change on their profile page.
-
+Pilih bidang yang dapat diubah pengguna di halaman profil mereka.
 
 ### `enable_profile_user_address_geolocalization`
 
-**Enable user's geolocalization**
+**Aktifkan geolokasi pengguna**
 
-Enable user's address field and show it on a map using geolocalization features
+Aktifkan bidang alamat pengguna dan tampilkan di peta menggunakan fitur geolokasi
 
 ### `extended_profile`
 
-**Portfolio**
+**Portofolio**
 
-If this setting is on, a user can fill in the following (optional) fields: 'My personal open area', 'My competences', 'My diplomas', 'What I am able to teach'
+Jika pengaturan ini aktif, pengguna dapat mengisi bidang opsional berikut: 'Area terbuka pribadi saya', 'Kompetensi saya', 'Diploma saya', 'Apa yang dapat saya ajarkan'
 
 *Default: `false`*
 
 ### `hide_username_in_course_chat`
 
-**Hide username in course chat**
+**Sembunyikan nama pengguna di obrolan kursus**
 
-In the course chat, hide the username. Only display people's names.
+Di obrolan kursus, sembunyikan nama pengguna. Hanya tampilkan nama orang.
 
 *Default: `false`*
-
 
 ### `hide_username_with_complete_name`
 
-**Hide username when already showing complete name**
+**Sembunyikan nama pengguna saat sudah menampilkan nama lengkap**
 
-Some internal functions will return the username when returning the user's complete name. With this option enabled, you ensure the username will not appear.
+Beberapa fungsi internal akan mengembalikan nama pengguna saat mengembalikan nama lengkap pengguna. Dengan opsi ini diaktifkan, Anda memastikan nama pengguna tidak akan muncul.
 
 *Default: `false`*
-
 
 ### `linkedin_organization_id`
 
-**LinkedIn Orgnization ID**
+**ID Organisasi LinkedIn**
 
-When sharing a badge on LinkedIn, LinkedIn allows you to set an organization ID that will link to the LinkedIn's page of your organization (to link the organization attributing the badge).
+Saat membagikan lencana di LinkedIn, LinkedIn memungkinkan Anda untuk menetapkan ID organisasi yang akan terhubung ke halaman LinkedIn organisasi Anda (untuk menghubungkan organisasi yang memberikan lencana).
 
 *Default: `false`*
 
-
 ### `login_is_email`
 
-**Use the email as username**
+**Gunakan email sebagai nama pengguna**
 
-Use the email in order to login to the system
+Gunakan email untuk masuk ke sistem
 
 *Default: `false`*
 
 ### `my_space_users_items_per_page`
 
-**Default number of items per page in mySpace**
+**Jumlah item default per halaman di mySpace**
 
-Number of records displayed per page in MySpace tracking sections (users, work statistics, student list).
+Jumlah catatan yang ditampilkan per halaman di bagian pelacakan MySpace (pengguna, statistik pekerjaan, daftar siswa).
 
 *Default: `10`*
 
-
 ### `pass_reminder_custom_link`
 
-**Custom page for password reminder**
+**Halaman khusus untuk pengingat kata sandi**
 
-Set your own URL to a password reset page. Useful when using a federated account management system.
+Tetapkan URL Anda sendiri ke halaman pengaturan ulang kata sandi. Berguna saat menggunakan sistem manajemen akun federasi.
 
 ### `profile_fields_visibility`
 
-**Fields visible on profile page**
+**Bidang yang terlihat di halaman profil**
 
-Array of fields and whether (boolean) they are visible or not on the user's profile page (also works with extra fields labels).
+Array bidang dan apakah (boolean) mereka terlihat atau tidak di halaman profil pengguna (juga berfungsi dengan label bidang tambahan).
 
 ### `registration_add_helptext_for_2_names`
 
-**Add helper to add two names in registration**
+**Tambahkan bantuan untuk menambahkan dua nama di pendaftaran**
 
-Add help text for users to enter two names in the registration form when double lastnames are common.
+Tambahkan teks bantuan bagi pengguna untuk memasukkan dua nama di formulir pendaftaran ketika nama belakang ganda umum digunakan.
 
 *Default: `false`*
-
 
 ### `send_notification_when_user_added`
 
-**Send mail to admin when user created**
+**Kirim email ke admin saat pengguna dibuat**
 
-Send email notification to admin when a user is created.
+Kirim pemberitahuan email ke admin saat pengguna dibuat.
 
 ### `show_conditions_to_user`
 
-**Show specific registration conditions**
+**Tampilkan kondisi pendaftaran khusus**
 
-Show multiple conditions to user during sign up process. Provide an array with each element containing 'variable' (internal extra field name), 'display_text' (simple text for a checkbox), 'text_area' (long text of conditions).
+Tampilkan beberapa kondisi kepada pengguna selama proses pendaftaran. Sediakan array dengan setiap elemen berisi 'variable' (nama bidang tambahan internal), 'display_text' (teks sederhana untuk kotak centang), 'text_area' (teks panjang kondisi).
 
 ### `show_official_code_whoisonline`
 
-**Official code on 'Who is online'**
+**Kode resmi di 'Siapa yang online'**
 
-Show official code on the 'Who is online' page, below the username.
+Tampilkan kode resmi di halaman 'Siapa yang online', di bawah nama pengguna.
 
 *Default: `false`*
 
+---
 ### `show_terms_if_profile_completed`
 
-**Terms and conditions only if profile complete**
+**Syarat dan ketentuan hanya jika profil lengkap**
 
-By enabling this option, terms and conditions will be available to the user only when the extra profile fields that start with 'terms_' and set to visible are completed.
+Dengan mengaktifkan opsi ini, syarat dan ketentuan hanya akan tersedia bagi pengguna ketika bidang profil tambahan yang dimulai dengan 'terms_' dan diatur sebagai terlihat telah diisi.
 
 *Default: `false`*
 
 
 ### `split_users_upload_directory`
 
-**Split users' upload directory**
+**Pisahkan direktori unggahan pengguna**
 
-On high-load portals, where a lot of users are registered and send their pictures, the upload directory (main/upload/users/) might contain too many files for the filesystem to handle (it has been reported with more than 36000 files on a Debian server). Changing this option will enable a one-level splitting of the directories in the upload directory. 9 directories will be used in the base directory and all subsequent users' directories will be stored into one of these 9 directories. The change of this option will not affect the directories structure on disk, but will affect the behaviour of the Chamilo code, so if you change this option, you have to create the new directories and move the existing directories by yourself on te server. Be aware that when creating and moving those directories, you will have to move the directories of users 1 to 9 into subdirectories of the same name. If you are not sure about this option, it is best not to activate it.
+Pada portal dengan beban tinggi, di mana banyak pengguna terdaftar dan mengirimkan foto mereka, direktori unggahan (main/upload/users/) mungkin berisi terlalu banyak file untuk ditangani oleh sistem file (telah dilaporkan dengan lebih dari 36.000 file pada server Debian). Mengubah opsi ini akan mengaktifkan pemisahan direktori satu tingkat di direktori unggahan. 9 direktori akan digunakan di direktori dasar dan semua direktori pengguna berikutnya akan disimpan ke salah satu dari 9 direktori tersebut. Perubahan opsi ini tidak akan memengaruhi struktur direktori di disk, tetapi akan memengaruhi perilaku kode Chamilo, jadi jika Anda mengubah opsi ini, Anda harus membuat direktori baru dan memindahkan direktori yang ada secara manual di server. Perhatikan bahwa saat membuat dan memindahkan direktori tersebut, Anda harus memindahkan direktori pengguna 1 hingga 9 ke subdirektori dengan nama yang sama. Jika Anda tidak yakin tentang opsi ini, sebaiknya tidak mengaktifkannya.
 
 *Default: `true`*
 
 ### `use_users_timezone`
 
-**Enable users timezones**
+**Aktifkan zona waktu pengguna**
 
-Enable the possibility for users to select their own timezone. Once configured, users will be able to see assignment deadlines and other time references in their own timezone, which will reduce errors at delivery time.
+Mengaktifkan kemungkinan bagi pengguna untuk memilih zona waktu mereka sendiri. Setelah dikonfigurasi, pengguna akan dapat melihat batas waktu tugas dan referensi waktu lainnya dalam zona waktu mereka sendiri, yang akan mengurangi kesalahan pada saat pengiriman.
 
 *Default: `true`*
 
 ### `user_import_settings`
 
-**Options for user import**
+**Opsi untuk impor pengguna**
 
-Array of options to apply as default parameters in the CSV/XML user import.
+Array opsi yang diterapkan sebagai parameter default dalam impor pengguna CSV/XML.
 
 ### `user_search_on_extra_fields`
 
-**Search users by extra fields in users list for admins**
+**Cari pengguna berdasarkan bidang tambahan di daftar pengguna untuk admin**
 
-Naturally include the given extra fields (array of extra fields labels) in the user searches.
+Secara alami menyertakan bidang tambahan yang diberikan (array label bidang tambahan) dalam pencarian pengguna.
 
 ### `user_selected_theme`
 
-**User theme selection**
+**Pemilihan tema pengguna**
 
-Allow users to select their own visual theme in their profile. This will change the look of Chamilo for them, but will leave the default style of the portal intact. If a specific course or session has a specific theme assigned, it will have priority over user-defined themes.
+Izinkan pengguna untuk memilih tema visual mereka sendiri di profil mereka. Ini akan mengubah tampilan Chamilo bagi mereka, tetapi akan membiarkan gaya default portal tetap utuh. Jika kursus atau sesi tertentu memiliki tema khusus yang ditetapkan, tema tersebut akan memiliki prioritas atas tema yang ditentukan pengguna.
 
 *Default: `false`*
 
 ### `visible_options`
 
-**List of visible fields in profile**
+**Daftar bidang yang terlihat di profil**
 
-Controls which profile fields are visible to users and others.
-
-
+Mengontrol bidang profil mana yang terlihat oleh pengguna dan orang lain.

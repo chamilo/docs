@@ -1,22 +1,22 @@
-# Chamilo 2.0 Documentation
+# Dokumentasi Chamilo 2.0
 
-Welcome to the official documentation for **Chamilo 2.0**, the open-source e-learning platform.
+Selamat datang di dokumentasi resmi untuk **Chamilo 2.0**, platform e-learning sumber terbuka.
 
-This documentation is organized into three guides, each tailored to a specific audience:
+Dokumentasi ini diorganisasi menjadi tiga panduan, masing-masing disesuaikan dengan audiens tertentu:
 
-* [**Teacher Guide**](teacher-guide/) — For instructors and trainers: create courses, add content, assess learners, and track progress.
-* [**Administration Guide**](admin-guide/) — For platform administrators: install, configure, and manage the Chamilo platform.
-* [**Developer Guide**](developer-guide/) — For developers: understand the architecture, build plugins, use the API, and contribute to the project.
+* [**Panduan Guru**](teacher-guide/) — Untuk instruktur dan pelatih: membuat kursus, menambahkan konten, menilai peserta didik, dan melacak kemajuan.
+* [**Panduan Administrasi**](admin-guide/) — Untuk administrator platform: menginstal, mengonfigurasi, dan mengelola platform Chamilo.
+* [**Panduan Pengembang**](developer-guide/) — Untuk pengembang: memahami arsitektur, membangun plugin, menggunakan API, dan berkontribusi pada proyek.
 
-## What's New in Chamilo 2.0
+## Apa yang Baru di Chamilo 2.0
 
-Chamilo 2.0 is a major release with a completely redesigned interface and many new features:
+Chamilo 2.0 adalah rilis utama dengan antarmuka yang didesain ulang sepenuhnya dan banyak fitur baru:
 
-* **Modern interface** — Built with Vue 3 and PrimeVue for a faster, more responsive experience
-* **AI-powered tools** — Generate exercises, learning paths, and get AI-assisted grading
-* **REST API** — Full API Platform-based REST API with JWT authentication
-* **New authentication options** — OAuth2 (Azure, Keycloak, Facebook), SCIM user provisioning
-* **LTI 1.3** — Connect external learning tools seamlessly
-* **Cloud storage** — Native support for Azure Blob, AWS S3, and Google Cloud Storage
-* **Color themes** — Customizable platform branding with theme support
-* **OnlyOffice integration** — Edit documents collaboratively within the platform
+* **Antarmuka modern** — Dibangun dengan Vue 3 dan PrimeVue untuk pengalaman yang lebih cepat dan responsif
+* **Alat bertenaga AI** — Menghasilkan latihan, jalur pembelajaran, dan mendapatkan penilaian berbantuan AI
+* **REST API** — API berbasis API Platform lengkap dengan autentikasi JWT
+* **Opsi autentikasi baru** — OAuth2 (Azure, Keycloak, Facebook), penyediaan pengguna SCIM
+* **LTI 1.3** — Menghubungkan alat pembelajaran eksternal dengan mulus
+* **Penyimpanan cloud** — Dukungan asli untuk Azure Blob, AWS S3, dan Google Cloud Storage
+* **Tema warna** — Branding platform yang dapat disesuaikan dengan dukungan tema
+* **Integrasi OnlyOffice** — Mengedit dokumen secara kolaboratif di dalam platform

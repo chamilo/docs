@@ -1,76 +1,76 @@
-# AI Configuration
+# Konfigurasi AI
 
-Chamilo 2.0 includes AI-powered features that require configuration before they become available to teachers and learners.
+Chamilo 2.0 menyertakan fitur berbasis AI yang memerlukan konfigurasi sebelum dapat digunakan oleh pengajar dan peserta didik.
 
-## Supported AI Providers
+## Penyedia AI yang Didukung
 
-Chamilo supports multiple AI providers:
+Chamilo mendukung beberapa penyedia AI:
 
-| Provider | Capabilities |
-|----------|-------------|
-| **DeepSeek** | Text generation |
-| **Google Gemini** | Text, image, video generation |
-| **Grok** | Text, image, video generation |
-| **Mistral** | Text generation |
-| **OpenAI** | Text, image, video generation |
+| Penyedia | Kemampuan |
+|----------|-----------|
+| **DeepSeek** | Pembuatan teks |
+| **Google Gemini** | Pembuatan teks, gambar, video |
+| **Grok** | Pembuatan teks, gambar, video |
+| **Mistral** | Pembuatan teks |
+| **OpenAI** | Pembuatan teks, gambar, video |
 
-Each provider can be configured for different types of AI tasks:
+Setiap penyedia dapat dikonfigurasi untuk berbagai jenis tugas AI:
 
-* **Text** — Used for exercise generation, learning path generation, AI grading, and the AI tutor
-* **Image** — Used for AI image generation
-* **Video** — Used for AI video generation (where supported)
-* **Document** — Used for AI document analysis
+* **Teks** — Digunakan untuk pembuatan latihan, pembuatan jalur pembelajaran, penilaian AI, dan tutor AI
+* **Gambar** — Digunakan untuk pembuatan gambar AI
+* **Video** — Digunakan untuk pembuatan video AI (jika didukung)
+* **Dokumen** — Digunakan untuk analisis dokumen AI
 
-## Configuration Steps
+## Langkah-langkah Konfigurasi
 
-### 1. Obtain API Keys
+### 1. Dapatkan Kunci API
 
-Register for an account with your chosen AI provider and obtain an API key:
+Daftarkan akun dengan penyedia AI pilihan Anda dan dapatkan kunci API:
 
 * **DeepSeek**: [platform.deepseek.com](https://platform.deepseek.com/)
-* **Google Gemini**: Google AI Studio or Google Cloud
+* **Google Gemini**: Google AI Studio atau Google Cloud
 * **Grok**: [console.x.ai](https://console.x.ai/)
 * **Mistral**: [console.mistral.ai](https://console.mistral.ai/)
 * **OpenAI**: [platform.openai.com](https://platform.openai.com/)
 
-### 2. Configure Providers in Chamilo
+### 2. Konfigurasi Penyedia di Chamilo
 
-![The AI helpers configuration page showing provider settings with API key, model, and endpoint fields](/.gitbook/assets/admin-ai-helpers-config.png)
+![Halaman konfigurasi pembantu AI yang menunjukkan pengaturan penyedia dengan kolom kunci API, model, dan endpoint](/.gitbook/assets/admin-ai-helpers-config.png)
 
-In the platform settings, navigate to the **AI Helpers** section:
+Di pengaturan platform, navigasikan ke bagian **AI Helpers**:
 
-1. **Enable AI helpers** — Turn on the AI features globally
-2. **Configure AI providers** — Add one or more providers with:
-   * **Provider name** (deepseek, gemini, grok, mistral, openai)
-   * **API key** — Your API key for the provider
-   * **Model** — The specific model to use (e.g., `gpt-4`, `gemini-pro`, `mistral-large`)
-   * **API URL** — The endpoint URL (pre-configured for standard providers)
+1. **Aktifkan pembantu AI** — Nyalakan fitur AI secara global
+2. **Konfigurasi penyedia AI** — Tambahkan satu atau lebih penyedia dengan:
+   * **Nama penyedia** (deepseek, gemini, grok, mistral, openai)
+   * **Kunci API** — Kunci API Anda untuk penyedia tersebut
+   * **Model** — Model spesifik yang akan digunakan (misalnya, `gpt-4`, `gemini-pro`, `mistral-large`)
+   * **URL API** — URL endpoint (sudah dikonfigurasi sebelumnya untuk penyedia standar)
 
-You can configure multiple providers. The first provider in the configuration becomes the default.
+Anda dapat mengkonfigurasi beberapa penyedia. Penyedia pertama dalam konfigurasi akan menjadi default.
 
-### 3. Enable Features Per Course
+### 3. Aktifkan Fitur per Kursus
 
-AI features can be enabled or disabled at the course level. Teachers can toggle:
+Fitur AI dapat diaktifkan atau dinonaktifkan pada tingkat kursus. Pengajar dapat mengatur:
 
-* **AI Tutor chatbot** — The AI assistant for learners
-* **Assignment grader** — AI-generated grading recommendation
-* **Exercise generator** — AI-generated quiz questions
-* **Learning path generator** — AI-generated learning sequences
-* **Image/Video generator** — AI-generated images and videos in documents
+* **Chatbot Tutor AI** — Asisten AI untuk peserta didik
+* **Penilai tugas** — Rekomendasi penilaian yang dihasilkan AI
+* **Pembuat latihan** — Pertanyaan kuis yang dihasilkan AI
+* **Pembuat jalur pembelajaran** — Urutan pembelajaran yang dihasilkan AI
+* **Pembuat gambar/video** — Gambar dan video yang dihasilkan AI dalam dokumen
 
-This allows different courses to use different AI configurations based on their needs.
+Hal ini memungkinkan kursus yang berbeda menggunakan konfigurasi AI yang berbeda sesuai kebutuhan mereka.
 
-## Cost Considerations
+## Pertimbangan Biaya
 
-AI API calls have costs associated with them. Consider:
+Panggilan API AI memiliki biaya yang terkait dengannya. Pertimbangkan:
 
-* **Setting usage limits** — Monitor and limit AI API usage to control costs
-* **Choosing models wisely** — Smaller, less expensive models may be sufficient for many educational tasks
-* **Tracking usage** — Chamilo logs AI requests to help you monitor consumption
+* **Menetapkan batas penggunaan** — Pantau dan batasi penggunaan API AI untuk mengontrol biaya
+* **Memilih model dengan bijak** — Model yang lebih kecil dan lebih murah mungkin sudah cukup untuk banyak tugas pendidikan
+* **Melacak penggunaan** — Chamilo mencatat permintaan AI untuk membantu Anda memantau konsumsi
 
 ## Tips
 
-* **Start with one provider** — Configure and test one provider before adding more
-* **Test with a course** — Enable AI features in a test course first to verify they work as expected
-* **Communicate with teachers** — Let teachers know which AI features are available and how to use them
-* **Monitor quality** — Regularly review AI-generated content to ensure it meets your educational standards
+* **Mulai dengan satu penyedia** — Konfigurasi dan uji satu penyedia sebelum menambahkan yang lain
+* **Uji dengan kursus** — Aktifkan fitur AI di kursus uji coba terlebih dahulu untuk memastikan semuanya berfungsi sesuai harapan
+* **Komunikasikan dengan pengajar** — Beritahu pengajar fitur AI mana yang tersedia dan cara menggunakannya
+* **Pantau kualitas** — Tinjau secara berkala konten yang dihasilkan AI untuk memastikan memenuhi standar pendidikan Anda

@@ -1,212 +1,204 @@
-# Security Settings
+# Pengaturan Keamanan
 
-Login protection, password policy, content security headers, two-factor authentication, and the lightweight intrusion detection system.
+Perlindungan login, kebijakan kata sandi, header keamanan konten, otentikasi dua faktor, dan sistem deteksi intrusi ringan.
 
-Access these settings under **Administration > Configuration settings > Security**. This category contains **31 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+Akses pengaturan ini di bawah **Administrasi > Pengaturan Konfigurasi > Keamanan**. Kategori ini berisi **31 pengaturan**, yang tercantum di bawah ini dengan judul dan komentar yang disertakan dalam fixture pengaturan platform (`SettingsCurrentFixtures.php`).
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> Nama variabel dalam kode ditampilkan dalam monospace. Gunakan ini saat membuat skrip melalui API atau ketika Anda perlu mengubah pengaturan tersebut pada tingkat global dengan mengedit [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
 
-## Settings
+## Pengaturan
 
 ### `2fa_enable`
 
-**Enable 2FA**
+**Aktifkan 2FA**
 
-Add fields in the password update page to enable 2FA using a TOTP authenticator app. When disabled globally, users won't see 2FA fields and won't be prompted for 2FA at login, even if they had enabled it previously.
+Tambahkan kolom di halaman pembaruan kata sandi untuk mengaktifkan 2FA menggunakan aplikasi autentikator TOTP. Ketika dinonaktifkan secara global, pengguna tidak akan melihat kolom 2FA dan tidak akan diminta untuk 2FA saat login, bahkan jika mereka sebelumnya telah mengaktifkannya.
 
 *Default: `false`*
 
 ### `access_to_personal_file_for_all`
 
-**Access to personal file for all**
+**Akses ke file pribadi untuk semua**
 
-Allows access to all personal files without restriction
+Mengizinkan akses ke semua file pribadi tanpa batasan.
 
 *Default: `false`*
 
-
 ### `admins_can_set_users_pass`
 
-**Admins can set users passwords manually**
+**Admin dapat mengatur kata sandi pengguna secara manual**
 
-[inferred] When enabled, administrators can manually set user passwords directly without requiring users to reset them.
+[disimpulkan] Ketika diaktifkan, administrator dapat mengatur kata sandi pengguna secara langsung tanpa meminta pengguna untuk meresetnya.
 
 ### `allow_captcha`
 
 **CAPTCHA**
 
-Enable a CAPTCHA on the login form, inscription form and lost password form to avoid password hammering
+Aktifkan CAPTCHA pada formulir login, formulir pendaftaran, dan formulir lupa kata sandi untuk mencegah serangan brute force pada kata sandi.
 
 *Default: `false`*
 
 ### `allow_online_users_by_status`
 
-**Filter users that can be seen as online**
+**Filter pengguna yang dapat dilihat sebagai online**
 
-Limits online user visibility to specific user roles.
+Membatasi visibilitas pengguna online hanya untuk peran pengguna tertentu.
 
 ### `allow_strength_pass_checker`
 
-**Password strength checker**
+**Pemeriksa kekuatan kata sandi**
 
-Enable this option to add a visual indicator of password strength, when the user changes his/her password. This will NOT prevent bad passwords to be added, it only acts as a visual helper.
+Aktifkan opsi ini untuk menambahkan indikator visual kekuatan kata sandi saat pengguna mengubah kata sandinya. Ini TIDAK akan mencegah kata sandi yang buruk untuk ditambahkan, hanya berfungsi sebagai bantuan visual.
 
 *Default: `true`*
 
-
 ### `anonymous_autoprovisioning`
 
-**Auto-provision more anonymous users**
+**Penyediaan otomatis pengguna anonim lebih banyak**
 
-Dynamically creates new anonymous users to support high visitor traffic.
+Membuat pengguna anonim baru secara dinamis untuk mendukung lalu lintas pengunjung yang tinggi.
 
 *Default: `false`*
-
 
 ### `captcha_number_mistakes_to_block_account`
 
-**CAPTCHA mistakes allowance**
+**Jumlah kesalahan CAPTCHA yang diizinkan**
 
-The number of times a user can make a mistake on the CAPTCHA box before his account is locked out.
+Jumlah kesalahan yang dapat dilakukan pengguna pada kotak CAPTCHA sebelum akunnya dikunci.
 
 ### `captcha_time_to_block`
 
-**CAPTCHA account locking time**
+**Waktu penguncian akun CAPTCHA**
 
-If the user reaches the maximum allowance for login mistakes (when using the CAPTCHA), his/her account will be locked for this number of minutes.
+Jika pengguna mencapai batas maksimum kesalahan login (saat menggunakan CAPTCHA), akunnya akan dikunci selama jumlah menit ini.
 
 ### `check_password`
 
-**Check password requirements**
+**Periksa persyaratan kata sandi**
 
-Enable validation of the password requirements defined above during password creation or password update.
+Aktifkan validasi persyaratan kata sandi yang ditentukan di atas selama pembuatan atau pembaruan kata sandi.
 
 *Default: `false`*
-
 
 ### `filter_terms`
 
-**Filter terms**
+**Filter istilah**
 
-Give a list of terms, one by line, to be filtered out of web pages and e-mails. These terms will be replaced by ***.
+Berikan daftar istilah, satu per baris, yang akan disaring dari halaman web dan email. Istilah-istilah ini akan diganti dengan ***.
 
 ### `force_renew_password_at_first_login`
 
-**Force password renewal at first login**
+**Paksa pembaruan kata sandi pada login pertama**
 
-This is one simple measure to increase the security of your portal by asking users to immediately change their password, so the one that was transfered by e-mail is no longer valid and they then will use one that they came up with and that they are the only person to know.
+Ini adalah salah satu langkah sederhana untuk meningkatkan keamanan portal Anda dengan meminta pengguna untuk segera mengubah kata sandi mereka, sehingga kata sandi yang dikirim melalui email tidak lagi berlaku dan mereka kemudian akan menggunakan kata sandi yang mereka buat sendiri dan hanya mereka yang mengetahuinya.
 
 *Default: `false`*
-
 
 ### `hide_breadcrumb_if_not_allowed`
 
-**Hide breadcrumb if 'not allowed'**
+**Sembunyikan breadcrumb jika 'tidak diizinkan'**
 
-If the user is not allowed to access a specific page, also hide the breadcrumb. This increases security by avoiding the display of unnecessary information.
+Jika pengguna tidak diizinkan mengakses halaman tertentu, sembunyikan juga breadcrumb. Ini meningkatkan keamanan dengan menghindari tampilan informasi yang tidak perlu.
 
 *Default: `false`*
 
-
 ### `login_max_attempt_before_blocking_account`
 
-**Max login attempts before lockdown**
+**Jumlah maksimum percobaan login sebelum penguncian**
 
-Number of failed login attempts to tolerate before the user account is locked and has to be unlocked by an admin.
+Jumlah percobaan login gagal yang ditoleransi sebelum akun pengguna dikunci dan harus dibuka oleh admin.
 
 *Default: `0`*
 
 ### `password_requirements`
 
-**Minimal password syntax requirements**
+**Persyaratan sintaks minimal kata sandi**
 
-Defines the required structure for user passwords. Example: {"min":{"length":8,"lowercase":1,"uppercase":1,"numeric":1,"specials":1}}. Use "specials" (plural) to require special characters.
+Menentukan struktur yang diperlukan untuk kata sandi pengguna. Contoh: {"min":{"length":8,"lowercase":1,"uppercase":1,"numeric":1,"specials":1}}. Gunakan "specials" (jamak) untuk meminta karakter khusus.
 
 ### `password_rotation_days`
 
-**Password rotation interval (days)**
+**Interval rotasi kata sandi (hari)**
 
-Number of days before users must rotate their password (0 = disabled).
+Jumlah hari sebelum pengguna harus merotasi kata sandi mereka (0 = dinonaktifkan).
 
 *Default: `0`*
 
-
 ### `prevent_multiple_simultaneous_login`
 
-**Prevent simultaneous login**
+**Cegah login simultan**
 
-Prevent users connecting with the same account more than once. This is a good option on pay-per-access portals, but might be restrictive during testing as only one browser can connect with any given account.
+Mencegah pengguna terhubung dengan akun yang sama lebih dari sekali. Ini adalah opsi yang baik pada portal berbayar per akses, tetapi mungkin membatasi selama pengujian karena hanya satu browser yang dapat terhubung dengan akun tertentu.
 
 *Default: `false`*
-
 
 ### `proxy_settings`
 
-**Proxy settings**
+**Pengaturan proxy**
 
-Some features of Chamilo will connect to the exterior from the server. For example to make sure an external content exists when creating a link or showing an embedded page in the learning path. If your Chamilo server uses a proxy to get out of its network, this would be the place to configure it.
+Beberapa fitur Chamilo akan terhubung ke luar dari server. Misalnya, untuk memastikan konten eksternal ada saat membuat tautan atau menampilkan halaman tertanam di jalur pembelajaran. Jika server Chamilo Anda menggunakan proxy untuk keluar dari jaringannya, ini adalah tempat untuk mengonfigurasinya.
 
 ### `security_block_inactive_users_immediately`
 
-**Block disabled users immediately**
+**Blokir pengguna yang dinonaktifkan segera**
 
-Immediately block users who have been disabled by the admin through users management. Otherwise, users who have been disabled will keep their previous privileges until they logout.
+Segera blokir pengguna yang telah dinonaktifkan oleh admin melalui manajemen pengguna. Jika tidak, pengguna yang telah dinonaktifkan akan tetap memiliki hak istimewa sebelumnya sampai mereka logout.
 
 *Default: `false`*
 
-
+---
 ### `security_content_policy`
 
-**Content Security Policy**
+**Kebijakan Keamanan Konten**
 
-Content Security Policy is an effective measure to protect your site from XSS attacks. By whitelisting sources of approved content, you can prevent the browser from loading malicious assets. This setting is particularly complicated to set with WYSIWYG editors, but if you add all domains that you want to authorize for iframes inclusion in the child-src statement, this example should work for you. You can prevent JavaScript from executing from external sources (including inside SVG images) by using a strict list in the 'script-src' argument. Leave blank to disable. Example setting: default-src 'self'; script-src 'self' 'unsafe-eval' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; child-src 'self' *.youtube.com yt.be *.vimeo.com *.slideshare.com;
+Kebijakan Keamanan Konten adalah langkah efektif untuk melindungi situs Anda dari serangan XSS. Dengan membuat daftar putih sumber konten yang disetujui, Anda dapat mencegah browser memuat aset berbahaya. Pengaturan ini sangat rumit untuk diterapkan dengan editor WYSIWYG, tetapi jika Anda menambahkan semua domain yang ingin Anda izinkan untuk penyertaan iframe dalam pernyataan child-src, contoh ini seharusnya berfungsi untuk Anda. Anda dapat mencegah JavaScript dijalankan dari sumber eksternal (termasuk di dalam gambar SVG) dengan menggunakan daftar ketat dalam argumen 'script-src'. Biarkan kosong untuk menonaktifkan. Contoh pengaturan: default-src 'self'; script-src 'self' 'unsafe-eval' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; child-src 'self' *.youtube.com yt.be *.vimeo.com *.slideshare.com;
 
 ### `security_content_policy_report_only`
 
-**Content Security Policy report only**
+**Kebijakan Keamanan Konten hanya laporan**
 
-This setting allows you to experiment by reporting but not enforcing some Content Security Policy.
+Pengaturan ini memungkinkan Anda untuk bereksperimen dengan melaporkan tetapi tidak memberlakukan beberapa Kebijakan Keamanan Konten.
 
 ### `security_public_key_pins`
 
-**HTTP Public Key Pinning**
+**Pinning Kunci Publik HTTP**
 
-HTTP Public Key Pinning protects your site from MiTM attacks using rogue X.509 certificates. By whitelisting only the identities that the browser should trust, your users are protected in the event a certificate authority is compromised.
+Pinning Kunci Publik HTTP melindungi situs Anda dari serangan MiTM menggunakan sertifikat X.509 yang tidak sah. Dengan hanya mengizinkan identitas yang harus dipercaya oleh browser, pengguna Anda terlindungi jika otoritas sertifikat dikompromikan.
 
 ### `security_public_key_pins_report_only`
 
-**HTTP Public Key Pinning report only**
+**Pinning Kunci Publik HTTP hanya laporan**
 
-This setting allows you to experiment by reporting but not enforcing some HTTP Public Key Pinning.
+Pengaturan ini memungkinkan Anda untuk bereksperimen dengan melaporkan tetapi tidak memberlakukan beberapa Pinning Kunci Publik HTTP.
 
 ### `security_referrer_policy`
 
-**Security Referrer Policy**
+**Kebijakan Referrer Keamanan**
 
-Referrer Policy is a new header that allows a site to control how much information the browser includes with navigation away from a document and should be set by all sites.
+Kebijakan Referrer adalah header baru yang memungkinkan situs untuk mengontrol seberapa banyak informasi yang disertakan browser saat navigasi meninggalkan dokumen dan harus diatur oleh semua situs.
 
 *Default: `origin-when-cross-origin`*
 
 
 ### `security_session_cookie_samesite_none`
 
-**Session cookie samesite**
+**Cookie sesi samesite**
 
-Enable samesite:None parameter for session cookie. More info: https://www.chromium.org/updates/same-site and https://developers.google.com/search/blog/2020/01/get-ready-for-new-samesitenone-secure
+Aktifkan parameter samesite:None untuk cookie sesi. Informasi lebih lanjut: https://www.chromium.org/updates/same-site dan https://developers.google.com/search/blog/2020/01/get-ready-for-new-samesitenone-secure
 
 *Default: `false`*
 
 ### `security_strict_transport`
 
-**HTTP Strict Transport Security**
+**Keamanan Transportasi Ketat HTTP**
 
-HTTP Strict Transport Security is an excellent feature to support on your site and strengthens your implementation of TLS by getting the User Agent to enforce the use of HTTPS. Recommended value: 'strict-transport-security: max-age=63072000; includeSubDomains'. See https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Strict-Transport-Security. You can include the 'preload' suffix, but this has consequences on the top level domain (TLD), so probably not to be done lightly. See https://hstspreload.org/. Leave blank to disable.
+Keamanan Transportasi Ketat HTTP adalah fitur yang sangat baik untuk didukung di situs Anda dan memperkuat implementasi TLS Anda dengan meminta Agen Pengguna untuk memaksakan penggunaan HTTPS. Nilai yang direkomendasikan: 'strict-transport-security: max-age=63072000; includeSubDomains'. Lihat https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Strict-Transport-Security. Anda dapat menyertakan akhiran 'preload', tetapi ini memiliki konsekuensi pada domain tingkat atas (TLD), jadi mungkin tidak boleh dilakukan dengan sembarangan. Lihat https://hstspreload.org/. Biarkan kosong untuk menonaktifkan.
 
 ### `security_x_content_type_options`
 
 **X-Content-Type-Options**
 
-X-Content-Type-Options stops a browser from trying to MIME-sniff the content type and forces it to stick with the declared content-type. The only valid value for this header is 'nosniff'.
+X-Content-Type-Options mencegah browser mencoba mendeteksi jenis konten MIME dan memaksanya untuk tetap menggunakan jenis konten yang dideklarasikan. Satu-satunya nilai yang valid untuk header ini adalah 'nosniff'.
 
 *Default: `nosniff`*
 
@@ -215,7 +207,7 @@ X-Content-Type-Options stops a browser from trying to MIME-sniff the content typ
 
 **X-Frame-Options**
 
-X-Frame-Options tells the browser whether you want to allow your site to be framed or not. By preventing a browser from framing your site you can defend against attacks like clickjacking. If defining a URL here, it should define the URL(s) from which your content should be visible, not the URLs from which your site accepts content. For example, if your main URL (root_web above) is https://11.chamilo.org/, then this setting should be: 'ALLOW-FROM https://11.chamilo.org'. These headers only apply to pages where Chamilo is responsible of the HTTP headers generation (i.e. '.php' files). It does not apply to static files. If playing with this feature, make sure you also update your web server configuration to add the right headers for static files. See CDN configuration documentation above (search for 'add_header') for more information. Recommended (strict) value for this setting, if enabled: 'SAMEORIGIN'.
+X-Frame-Options memberi tahu browser apakah Anda ingin mengizinkan situs Anda dibingkai atau tidak. Dengan mencegah browser membingkai situs Anda, Anda dapat melindungi dari serangan seperti clickjacking. Jika menentukan URL di sini, itu harus menentukan URL dari mana konten Anda harus terlihat, bukan URL dari mana situs Anda menerima konten. Misalnya, jika URL utama Anda (root_web di atas) adalah https://11.chamilo.org/, maka pengaturan ini harus: 'ALLOW-FROM https://11.chamilo.org'. Header ini hanya berlaku untuk halaman di mana Chamilo bertanggung jawab atas pembuatan header HTTP (yaitu file '.php'). Ini tidak berlaku untuk file statis. Jika bermain dengan fitur ini, pastikan Anda juga memperbarui konfigurasi server web Anda untuk menambahkan header yang tepat untuk file statis. Lihat dokumentasi konfigurasi CDN di atas (cari 'add_header') untuk informasi lebih lanjut. Nilai yang direkomendasikan (ketat) untuk pengaturan ini, jika diaktifkan: 'SAMEORIGIN'.
 
 *Default: `SAMEORIGIN`*
 
@@ -224,26 +216,24 @@ X-Frame-Options tells the browser whether you want to allow your site to be fram
 
 **X-XSS-Protection**
 
-X-XSS-Protection sets the configuration for the cross-site scripting filter built into most browsers. Recommended value '1; mode=block'.
+X-XSS-Protection mengatur konfigurasi untuk filter skrip lintas situs yang terintegrasi di sebagian besar browser. Nilai yang direkomendasikan '1; mode=block'.
 
 *Default: `1; mode=block`*
 
 
 ### `user_reset_password`
 
-**Enable password reset token**
+**Aktifkan token reset kata sandi**
 
-This option allows to generate a expiring single-use token sent by e-mail to the user to reset his/her password.
+Opsi ini memungkinkan untuk menghasilkan token sekali pakai yang kadaluarsa yang dikirim melalui email kepada pengguna untuk mengatur ulang kata sandinya.
 
 *Default: `false`*
 
 
 ### `user_reset_password_token_limit`
 
-**Time limit for password reset token**
+**Batas waktu untuk token reset kata sandi**
 
-The number of seconds before the generated token automatically expires and cannot be used anymore (a new token needs to be generated).
+Jumlah detik sebelum token yang dihasilkan secara otomatis kadaluarsa dan tidak dapat digunakan lagi (token baru perlu dihasilkan).
 
 *Default: `3600`*
-
-

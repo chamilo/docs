@@ -1,57 +1,57 @@
-# Managing Courses
+# Mengelola Kursus
 
-As an administrator, you can manage all courses on the platform regardless of who created them.
+Sebagai seorang administrator, Anda dapat mengelola semua kursus di platform ini terlepas dari siapa yang membuatnya.
 
-## Course List
+## Daftar Kursus
 
-![The course list showing all courses with title, code, category, enrolled users, and visibility status](/.gitbook/assets/admin-course-list.png)
+![Daftar kursus yang menampilkan semua kursus dengan judul, kode, kategori, pengguna yang terdaftar, dan status visibilitas](/.gitbook/assets/admin-course-list.png)
 
-From the administration panel, click **Course list** to see all courses. The list shows:
+Dari panel administrasi, klik **Daftar kursus** untuk melihat semua kursus. Daftar ini menunjukkan:
 
-* Course title and code
-* Language
-* Categories
-* Visibility status
+* Judul dan kode kursus
+* Bahasa
+* Kategori
+* Status visibilitas
 
-Use the **Advanced search** tool to find specific courses.
+Gunakan alat **Pencarian lanjutan** untuk menemukan kursus tertentu.
 
-## Creating a Course
+## Membuat Kursus
 
-As an administrator, you can create courses and assign them to any teacher:
+Sebagai administrator, Anda dapat membuat kursus dan menugaskannya kepada guru mana pun:
 
-1. Click **Add course** from the administration panel
-2. Fill in the course details (title, code, category, language)
-3. Assign a teacher to the course
-4. Save
+1. Klik **Tambah kursus** dari panel administrasi
+2. Isi detail kursus (judul, kode, kategori, bahasa)
+3. Tetapkan seorang guru untuk kursus tersebut
+4. Simpan
 
-Note: In Chamilo 1.11.x, the course code was shown as part of the course URL, and was impossible to change after the creation of the course. This behaviour is changing in 2.x. The course code is not visible in the URL anymore, and future versions might allow teachers to modify the course code afterwards as it become less essential to the platform.
+Catatan: Di Chamilo 1.11.x, kode kursus ditampilkan sebagai bagian dari URL kursus, dan tidak dapat diubah setelah kursus dibuat. Perilaku ini berubah di versi 2.x. Kode kursus tidak lagi terlihat di URL, dan versi mendatang mungkin akan memungkinkan guru untuk mengubah kode kursus setelahnya karena menjadi kurang esensial bagi platform.
 
-## Managing an Existing Course
+## Mengelola Kursus yang Sudah Ada
 
-Find a course in the list to access management options in the *Actions* column:
+Temukan kursus di daftar untuk mengakses opsi pengelolaan di kolom *Aksi*:
 
-* **Information** — Show information about the course 
-* **Course home** — Sends you directly to the course's homepage 
-* **Reporting** — See engagement and performance data
-* **Edit** — Change course title, category, visibility, and other settings
-* **Create a backup** — Go to the maintenance section of the course, where you can create copies and do other things
-* **Add to catalogue** — Add this course to the course catalogue
-* **Delete** — Permanently remove the course and all its content
+* **Informasi** — Menampilkan informasi tentang kursus
+* **Beranda kursus** — Membawa Anda langsung ke halaman utama kursus
+* **Laporan** — Melihat data keterlibatan dan kinerja
+* **Edit** — Mengubah judul kursus, kategori, visibilitas, dan pengaturan lainnya
+* **Buat cadangan** — Masuk ke bagian pemeliharaan kursus, di mana Anda dapat membuat salinan dan melakukan hal lain
+* **Tambahkan ke katalog** — Menambahkan kursus ini ke katalog kursus
+* **Hapus** — Menghapus kursus dan semua kontennya secara permanen
 
-> Deleting a course removes all content, learner data, grades, and tracking information permanently. Consider exporting the course first as a backup.
+> Menghapus kursus akan menghapus semua konten, data peserta, nilai, dan informasi pelacakan secara permanen. Pertimbangkan untuk mengekspor kursus terlebih dahulu sebagai cadangan.
 
-## Bulk Operations
+## Operasi Massal
 
-Select multiple courses in the list to perform batch actions such as deleting them. To export a course, enter the course and use the **Maintenance** tool — there is no bulk export action on the admin course list.
+Pilih beberapa kursus di daftar untuk melakukan tindakan batch seperti menghapusnya. Untuk mengekspor kursus, masuk ke kursus tersebut dan gunakan alat **Pemeliharaan** — tidak ada tindakan ekspor massal di daftar kursus admin.
 
-## Course Visibility Settings
+## Pengaturan Visibilitas Kursus
 
-Administrators can override the visibility set by teachers:
+Administrator dapat mengesampingkan pengaturan visibilitas yang ditetapkan oleh guru:
 
-| Visibility | Effect |
-|-----------|--------|
-| **Public** | Accessible to everyone, including anonymous visitors |
-| **Open** | Accessible to all logged-in users |
-| **Private** | Only enrolled users can access the course |
-| **Closed** | No one can access the course (except the teacher and admins) |
-| **Hidden** | No one can view or access the course (except the admins) |
+| Visibilitas | Efek |
+|-------------|------|
+| **Publik** | Dapat diakses oleh semua orang, termasuk pengunjung anonim |
+| **Terbuka** | Dapat diakses oleh semua pengguna yang telah masuk |
+| **Pribadi** | Hanya pengguna yang terdaftar yang dapat mengakses kursus |
+| **Ditutup** | Tidak ada yang dapat mengakses kursus (kecuali guru dan admin) |
+| **Tersembunyi** | Tidak ada yang dapat melihat atau mengakses kursus (kecuali admin) |

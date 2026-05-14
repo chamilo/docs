@@ -1,27 +1,27 @@
-# AI Tools
+# Alat AI
 
-Chamilo 2.0 introduces AI-powered tools that help you create content faster and provide personalized support to your learners. These features use large language models (such as OpenAI's GPT, Google Gemini, Mistral, or others) to generate educational content and assist with grading.
+Chamilo 2.0 memperkenalkan alat bertenaga AI yang membantu Anda membuat konten lebih cepat dan memberikan dukungan yang dipersonalisasi kepada peserta didik Anda. Fitur-fitur ini menggunakan model bahasa besar (seperti GPT dari OpenAI, Google Gemini, Mistral, atau lainnya) untuk menghasilkan konten pendidikan dan membantu dalam penilaian.
 
-> AI tools must be configured by your platform administrator before they become available. See the [AI Configuration](../../admin-guide/integrations/ai-configuration.md) section of the Administration Guide for setup details.
+> Alat AI harus dikonfigurasi oleh administrator platform Anda sebelum tersedia. Lihat bagian [Konfigurasi AI](../../admin-guide/integrations/ai-configuration.md) pada Panduan Administrasi untuk detail pengaturan.
 
-## Available AI Tools
+## Alat AI yang Tersedia
 
-* **[AI Tutor](ai-tutor.md)** — An AI chatbot that learners can interact with for course-related questions
-* **[Exercise Generator](exercise-generator.md)** — Automatically generate quiz questions from your course content or a topic description
-* **[Learning Path Generator](learning-path-generator.md)** — Create structured learning sequences from a topic or set of objectives
-* **[AI Grading](ai-grading.md)** — Get AI-assisted evaluation of open-ended answers and student submissions
-* **[Glossary Terms Generator](glossary-generator.md)** — Automatically generate term definitions for your course glossary
-* **[AI Media Generation](ai-media-generation.md)** — Generate images and short videos from the rich-text editor while creating documents
+* **[Tutor AI](ai-tutor.md)** — Chatbot AI yang dapat berinteraksi dengan peserta didik untuk pertanyaan terkait kursus
+* **[Generator Latihan](exercise-generator.md)** — Secara otomatis menghasilkan pertanyaan kuis dari konten kursus Anda atau deskripsi topik
+* **[Generator Jalur Pembelajaran](learning-path-generator.md)** — Membuat urutan pembelajaran terstruktur dari topik atau serangkaian tujuan
+* **[Penilaian AI](ai-grading.md)** — Mendapatkan evaluasi berbantuan AI untuk jawaban terbuka dan pengumpulan tugas siswa
+* **[Generator Istilah Glosarium](glossary-generator.md)** — Secara otomatis menghasilkan definisi istilah untuk glosarium kursus Anda
+* **[Generasi Media AI](ai-media-generation.md)** — Menghasilkan gambar dan video pendek dari editor teks kaya saat membuat dokumen
 
-## How AI Tools Work
+## Cara Kerja Alat AI
 
-When AI tools are enabled, they appear in the relevant contexts:
+Ketika alat AI diaktifkan, alat tersebut muncul dalam konteks yang relevan:
 
-* The **Exercise Generator** appears when creating or editing exercises, and also as a quick action on documents in the Documents tool
-* The **Learning Path Generator** appears when creating learning paths
-* The **AI Grading** option appears in the assignment correction workflow
-* The **AI Tutor** is available to learners within the course
-* The **Glossary Terms Generator** appears in the Glossary tool toolbar
-* The **AI Media Generation** dialog appears in the rich-text editor when creating or editing documents
+* **Generator Latihan** muncul saat membuat atau mengedit latihan, dan juga sebagai tindakan cepat pada dokumen di alat Dokumen
+* **Generator Jalur Pembelajaran** muncul saat membuat jalur pembelajaran
+* **Opsi Penilaian AI** muncul dalam alur kerja koreksi tugas
+* **Tutor AI** tersedia untuk peserta didik di dalam kursus
+* **Generator Istilah Glosarium** muncul di bilah alat Glosarium
+* **Dialog Generasi Media AI** muncul di editor teks kaya saat membuat atau mengedit dokumen
 
-All AI-generated content is presented as a **suggestion** that you can review, edit, and modify before publishing. You always have the final say on what your learners see.
+Semua konten yang dihasilkan oleh AI disajikan sebagai **saran** yang dapat Anda tinjau, edit, dan modifikasi sebelum dipublikasikan. Anda selalu memiliki keputusan akhir tentang apa yang dilihat oleh peserta didik Anda.

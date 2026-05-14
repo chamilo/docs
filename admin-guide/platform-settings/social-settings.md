@@ -1,70 +1,65 @@
-# Social Network Settings
+# Pengaturan Jaringan Sosial
 
-Behaviour of the **Social Network** — friends, groups, wall posts, photo albums.
+Perilaku dari **Jaringan Sosial** — teman, grup, postingan dinding, album foto.
 
-Access these settings under **Administration > Configuration settings > Social Network**. This category contains **7 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+Akses pengaturan ini di bawah **Administrasi > Pengaturan Konfigurasi > Jaringan Sosial**. Kategori ini berisi **7 pengaturan**, yang tercantum di bawah ini dengan judul dan komentar yang disertakan dalam fixture pengaturan platform (`SettingsCurrentFixtures.php`).
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> Nama variabel dalam kode ditampilkan dalam format monospace. Gunakan ini saat membuat skrip melalui API atau ketika Anda perlu mengubah pengaturan tersebut pada tingkat global dengan mengedit [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
 
-## Settings
+## Pengaturan
 
 ### `allow_social_tool`
 
-**Social network tool (Facebook-like)**
+**Alat jaringan sosial (mirip Facebook)**
 
-The social network tool allows users to define relations with other users and, by doing so, to define groups of friends. Combined with the internal messaging tool, this tool allows tight communication with friends, inside the portal environment.
+Alat jaringan sosial memungkinkan pengguna untuk menentukan hubungan dengan pengguna lain dan, dengan demikian, membentuk grup teman. Dikombinasikan dengan alat pesan internal, alat ini memungkinkan komunikasi yang erat dengan teman di dalam lingkungan portal.
 
 *Default: `true`*
 
 ### `allow_students_to_create_groups_in_social`
 
-**Allow learners to create groups in social network**
+**Izinkan peserta didik membuat grup di jaringan sosial**
 
-Allow learners to create groups in social network
+Mengizinkan peserta didik untuk membuat grup di jaringan sosial.
 
 *Default: `false`*
 
-
 ### `disable_dislike_option`
 
-**Disable 'dislike' for social posts**
+**Nonaktifkan opsi 'tidak suka' untuk postingan sosial**
 
-Remove the thumb down option for social posts feedback. Only keep thumb up (like).
+Menghapus opsi jempol ke bawah untuk umpan balik postingan sosial. Hanya mempertahankan opsi jempol ke atas (suka).
 
 *Default: `false`*
 
 ### `hide_social_groups_block`
 
-**Hide groups block in social network**
+**Sembunyikan blok grup di jaringan sosial**
 
-Removes the groups section from the social network view.
+Menghapus bagian grup dari tampilan jaringan sosial.
 
 *Default: `false`*
 
-
 ### `social_enable_messages_feedback`
 
-**Like/Dislike for social posts**
+**Suka/Tidak Suka untuk postingan sosial**
 
-Allows users to add feedback (likes or dislikes) to posts in social wall.
+Mengizinkan pengguna untuk menambahkan umpan balik (suka atau tidak suka) pada postingan di dinding sosial.
 
 *Default: `false`*
 
 ### `social_make_teachers_friend_all`
 
-**Teachers and admins see students as friends on social network**
+**Guru dan admin terlihat sebagai teman bagi siswa di jaringan sosial**
 
-Automatically makes instructors and administrators appear as friends to all students in the social network module.
+Secara otomatis menjadikan instruktur dan administrator tampak sebagai teman bagi semua siswa di modul jaringan sosial.
 
 *Default: `false`*
-
 
 ### `social_show_language_flag_in_profile`
 
-**Show language flag next to avatar in social network**
+**Tampilkan bendera bahasa di samping avatar di jaringan sosial**
 
-Displays the user's language preference as a flag icon next to their avatar in social network profiles.
+Menampilkan preferensi bahasa pengguna sebagai ikon bendera di samping avatar mereka di profil jaringan sosial.
 
 *Default: `false`*
-
-

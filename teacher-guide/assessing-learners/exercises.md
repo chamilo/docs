@@ -1,164 +1,165 @@
-# Exercises
+# Latihan
 
-The exercises tool (also called "tests") lets you create quizzes and exams with automatic grading. Chamilo supports a wide variety of question types, from simple multiple choice to interactive hotspot questions.
+Alat latihan (juga disebut "tes") memungkinkan Anda membuat kuis dan ujian dengan penilaian otomatis. Chamilo mendukung berbagai jenis pertanyaan, mulai dari pilihan ganda sederhana hingga pertanyaan hotspot interaktif.
 
-## Creating an Exercise
+## Membuat Latihan
 
-1. Open the **Exercises** <img src="/.gitbook/assets/icons/mdi-order-bool-ascending-variant.svg" alt="Exercises" data-size="line"> tool from the course homepage
-2. Click **New exercise**
-3. Enter a **title** and optional **description**
-4. Configure the exercise settings (see below)
-5. Save, then add questions
+1. Buka alat **Latihan** <img src="/.gitbook/assets/icons/mdi-order-bool-ascending-variant.svg" alt="Latihan" data-size="line"> dari halaman utama kursus
+2. Klik **Latihan baru**
+3. Masukkan **judul** dan **deskripsi** opsional
+4. Konfigurasikan pengaturan latihan (lihat di bawah)
+5. Simpan, lalu tambahkan pertanyaan
 
-## Exercise Settings
+## Pengaturan Latihan
 
-![The exercise settings panel with options for display, time, attempts, and feedback](/.gitbook/assets/exercise-settings.png)
+![Panel pengaturan latihan dengan opsi untuk tampilan, waktu, percobaan, dan umpan balik](/.gitbook/assets/exercise-settings.png)
 
-### Display and Navigation
+### Tampilan dan Navigasi
 
-| Setting | Options | Description |
-|---------|---------|-------------|
-| **Question layout** | All on one page / One per page | Show all questions at once or one at a time |
-| **Hide question titles** | Yes / No | Whether to show question titles to learners |
-| **Show previous button** | Yes / No | Allow learners to go back to previous questions |
-| **Prevent backwards navigation** | Yes / No | Force learners to answer in order without going back |
+| Pengaturan | Opsi | Deskripsi |
+|------------|------|-----------|
+| **Tata letak pertanyaan** | Semua dalam satu halaman / Satu per halaman | Menampilkan semua pertanyaan sekaligus atau satu per satu |
+| **Sembunyikan judul pertanyaan** | Ya / Tidak | Apakah judul pertanyaan ditampilkan kepada peserta didik |
+| **Tampilkan tombol sebelumnya** | Ya / Tidak | Mengizinkan peserta didik kembali ke pertanyaan sebelumnya |
+| **Cegah navigasi mundur** | Ya / Tidak | Memaksa peserta didik menjawab secara berurutan tanpa kembali |
 
-### Time and Availability
+### Waktu dan Ketersediaan
 
-| Setting | Description |
-|---------|-------------|
-| **Time limit** | Maximum time (in minutes) to complete the exercise. A countdown timer is shown to the learner |
-| **Start date** | When the exercise becomes available to learners |
-| **End date** | When the exercise stops being available |
+| Pengaturan | Deskripsi |
+|------------|-----------|
+| **Batas waktu** | Waktu maksimum (dalam menit) untuk menyelesaikan latihan. Timer mundur ditampilkan kepada peserta didik |
+| **Tanggal mulai** | Kapan latihan mulai tersedia bagi peserta didik |
+| **Tanggal berakhir** | Kapan latihan berhenti tersedia |
 
-### Attempts and Scoring
+### Percobaan dan Penilaian
 
-| Setting | Description |
-|---------|-------------|
-| **Maximum attempts** | How many times a learner can take the exercise (0 = unlimited) |
-| **Pass percentage** | The minimum score to pass (e.g., 70%). Learners who do not reach this threshold see a failure message |
-| **Propagate negative scoring** | Whether negative points on individual questions reduce the total score below zero |
+| Pengaturan | Deskripsi |
+|------------|-----------|
+| **Percobaan maksimum** | Berapa kali peserta didik dapat mengikuti latihan (0 = tidak terbatas) |
+| **Persentase lulus** | Skor minimum untuk lulus (misalnya, 70%). Peserta didik yang tidak mencapai ambang batas ini akan melihat pesan gagal |
+| **Propagasi penilaian negatif** | Apakah poin negatif pada pertanyaan individu mengurangi total skor di bawah nol |
 
-### Feedback
+### Umpan Balik
 
-| Setting | Options |
-|---------|---------|
-| **At the end** | Show results and correct answers after the learner submits |
-| **Immediate** | Show feedback after each question (useful for learning exercises) |
-| **Exam mode** | Do not show any feedback or results |
+| Pengaturan | Opsi |
+|------------|------|
+| **Di akhir** | Menampilkan hasil dan jawaban yang benar setelah peserta didik mengirimkan |
+| **Segera** | Menampilkan umpan balik setelah setiap pertanyaan (berguna untuk latihan pembelajaran) |
+| **Mode ujian** | Tidak menampilkan umpan balik atau hasil apa pun |
 
-### Results Display
+### Tampilan Hasil
 
-Control what learners see after completing the exercise:
+Mengontrol apa yang dilihat peserta didik setelah menyelesaikan latihan:
 
-* Show score and expected answers
-* Show score only
-* Show score with category breakdown
-* Show ranking among other learners
-* Show only on last attempt
-* Show radar chart visualization
+* Menampilkan skor dan jawaban yang diharapkan
+* Menampilkan skor saja
+* Menampilkan skor dengan rincian kategori
+* Menampilkan peringkat di antara peserta didik lainnya
+* Menampilkan hanya pada percobaan terakhir
+* Menampilkan visualisasi grafik radar
 
-### Completion Messages
+### Pesan Penyelesaian
 
-* **Success message** — Custom text shown when the learner passes
-* **Failure message** — Custom text shown when the learner does not reach the pass percentage
+* **Pesan sukses** — Teks khusus yang ditampilkan saat peserta didik lulus
+* **Pesan gagal** — Teks khusus yang ditampilkan saat peserta didik tidak mencapai persentase lulus
 
-### Question Randomization
+### Pengacakan Pertanyaan
 
-| Setting | Description |
-|---------|-------------|
-| **Random question order** | Shuffle the order of questions for each attempt |
-| **Random answers** | Shuffle answer options within each question |
-| **Random by category** | Select random questions from each question category |
+| Pengaturan | Deskripsi |
+|------------|-----------|
+| **Urutan pertanyaan acak** | Mengacak urutan pertanyaan untuk setiap percobaan |
+| **Jawaban acak** | Mengacak opsi jawaban dalam setiap pertanyaan |
+| **Acak berdasarkan kategori** | Memilih pertanyaan secara acak dari setiap kategori pertanyaan |
 
-You can also configure advanced selection strategies that combine categories and randomization.
+Anda juga dapat mengonfigurasi strategi pemilihan lanjutan yang menggabungkan kategori dan pengacakan.
 
-## Question Types
+## Jenis Pertanyaan
 
-![Overview of available question types in the exercise creation interface](/.gitbook/assets/exercise-question-types.png)
+![Gambaran umum jenis pertanyaan yang tersedia di antarmuka pembuatan latihan](/.gitbook/assets/exercise-question-types.png)
 
-Chamilo offers a rich set of question types organized into several categories:
+Chamilo menawarkan berbagai jenis pertanyaan yang diorganisasi ke dalam beberapa kategori:
 
-### Single Choice
+### Pilihan Tunggal
 
-* **Multiple choice (single answer)** — Learner selects one correct answer from a list of options
-* **Single answer with images** — Same as above, but answer options are displayed as images
+* **Pilihan ganda (jawaban tunggal)** — Peserta didik memilih satu jawaban yang benar dari daftar opsi
+* **Jawaban tunggal dengan gambar** — Sama seperti di atas, tetapi opsi jawaban ditampilkan sebagai gambar
 
-### Multiple Choice
+### Pilihan Ganda
 
-* **Multiple answer** — Learner selects one or more correct answers
-* **Multiple answer (dropdown)** — Answer options are presented as dropdown menus
-* **True/False** — A series of statements that the learner marks as true or false
-* **True/False with degree of certainty** — True/false with an additional confidence level, enabling more nuanced scoring
+* **Jawaban ganda** — Peserta didik memilih satu atau lebih jawaban yang benar
+* **Jawaban ganda (dropdown)** — Opsi jawaban disajikan sebagai menu dropdown
+* **Benar/Salah** — Serangkaian pernyataan yang ditandai peserta didik sebagai benar atau salah
+* **Benar/Salah dengan tingkat kepastian** — Benar/salah dengan tingkat kepercayaan tambahan, memungkinkan penilaian yang lebih terperinci
 
-### Fill in the Blanks
+### Isi Tempat Kosong
 
-* **Fill in the blanks** — Learner completes missing words in a text. You define the blanks and accepted answers when creating the question.
+* **Isi tempat kosong** — Peserta didik melengkapi kata-kata yang hilang dalam teks. Anda menentukan tempat kosong dan jawaban yang diterima saat membuat pertanyaan.
 
-### Matching
+### Pencocokan
 
-* **Matching** — Learner connects items from two columns
-* **Matching (draggable)** — Same concept, but with a drag-and-drop interface
-* **Draggable** — Drag items into the correct positions
+* **Pencocokan** — Peserta didik menghubungkan item dari dua kolom
+* **Pencocokan (dapat diseret)** — Konsep yang sama, tetapi dengan antarmuka seret-dan-lepaskan
+* **Dapat diseret** — Seret item ke posisi yang benar
 
-### Open-Ended
+### Terbuka
 
-* **Free answer (essay)** — Learner writes a text response. Requires manual grading (or AI-assisted grading if configured)
-* **Oral expression** — Learner records an audio response using their microphone
-* **Upload answer** — Learner uploads a file as their answer
+* **Jawaban bebas (esai)** — Peserta didik menulis tanggapan teks. Memerlukan penilaian manual (atau penilaian berbantuan AI jika dikonfigurasi)
+* **Ekspresi lisan** — Peserta didik merekam tanggapan audio menggunakan mikrofon mereka
+* **Unggah jawaban** — Peserta didik mengunggah file sebagai jawaban mereka
 
 ### Hotspot
 
-* **Hotspot** — Learner clicks on specific areas of an image to answer
-* **Hotspot delineation** — Learner draws boundaries around areas on an image
+* **Hotspot** — Peserta didik mengklik area tertentu pada gambar untuk menjawab
+* **Penandaan hotspot** — Peserta didik menggambar batas di sekitar area pada gambar
 
-### Calculated
+### Terhitung
 
-* **Calculated answer** — Numerical questions with a formula and tolerance range. Useful for math and science courses.
+* **Jawaban terhitung** — Pertanyaan numerik dengan formula dan rentang toleransi. Berguna untuk kursus matematika dan sains.
 
-### Special
+---
+### Khusus
 
-* **Reading comprehension** — Tests based on reading a passage
-* **Annotation** — Teacher uploads an image and the learner annotates it
-* **Answer in Office document** — When the OnlyOffice plugin is enabled, the learner answers the question by editing an embedded Office document (Word, Excel, PowerPoint). Their response is saved as a separate file under the exercise so it can be reviewed alongside the rest of their attempt.
+* **Pemahaman Bacaan** — Tes berdasarkan membaca sebuah bagian teks
+* **Anotasi** — Guru mengunggah gambar dan peserta didik memberi anotasi padanya
+* **Jawaban dalam Dokumen Office** — Ketika plugin OnlyOffice diaktifkan, peserta didik menjawab pertanyaan dengan mengedit dokumen Office yang disematkan (Word, Excel, PowerPoint). Tanggapan mereka disimpan sebagai file terpisah di bawah latihan sehingga dapat ditinjau bersama dengan sisa upaya mereka.
 
-## Adding Questions to an Exercise
+## Menambahkan Pertanyaan ke Latihan
 
-1. Open the exercise and click **Add a question**
-2. Select the question type
-3. Enter the **question text** (supports rich text with images and formatting)
-4. Define the **answers** and their scoring:
-   * For each answer option, specify whether it is correct and how many points it is worth
-   * You can assign negative points to wrong answers to discourage guessing
-5. Optionally add **feedback** — explanations shown to the learner after answering
-6. Set the **difficulty level** and **category** (useful for random selection and reporting)
-7. Save
+1. Buka latihan dan klik **Tambah pertanyaan**
+2. Pilih jenis pertanyaan
+3. Masukkan **teks pertanyaan** (mendukung teks kaya dengan gambar dan pemformatan)
+4. Tentukan **jawaban** dan penilaiannya:
+   * Untuk setiap opsi jawaban, tentukan apakah itu benar dan berapa poin yang bernilai
+   * Anda dapat memberikan poin negatif untuk jawaban yang salah untuk mencegah tebakan
+5. Secara opsional tambahkan **umpan balik** — penjelasan yang ditunjukkan kepada peserta didik setelah menjawab
+6. Tetapkan **tingkat kesulitan** dan **kategori** (berguna untuk pemilihan acak dan pelaporan)
+7. Simpan
 
-## Question Categories
+## Kategori Pertanyaan
 
-You can organize questions into categories (e.g., "Module 1", "Vocabulary", "Advanced"). Categories are useful for:
+Anda dapat mengatur pertanyaan ke dalam kategori (misalnya, "Modul 1", "Kosakata", "Lanjutan"). Kategori berguna untuk:
 
-* Organizing large question banks
-* Enabling random selection by category (e.g., "5 questions from Module 1, 3 from Module 2")
-* Viewing scores broken down by category in reports
+* Mengatur bank pertanyaan yang besar
+* Mengaktifkan pemilihan acak berdasarkan kategori (misalnya, "5 pertanyaan dari Modul 1, 3 dari Modul 2")
+* Melihat skor yang diuraikan berdasarkan kategori dalam laporan
 
-## Question Reuse
+## Penggunaan Ulang Pertanyaan
 
-Questions can be reused across exercises within the same course. When adding a question, you can choose to create a new one or select an existing question from the question bank.
+Pertanyaan dapat digunakan kembali di berbagai latihan dalam kursus yang sama. Saat menambahkan pertanyaan, Anda dapat memilih untuk membuat yang baru atau memilih pertanyaan yang sudah ada dari bank pertanyaan.
 
-## Importing Exercises
+## Mengimpor Latihan
 
-Chamilo supports importing exercises from external formats:
+Chamilo mendukung impor latihan dari format eksternal:
 
-* **IMS QTI / Common Cartridge** — The standard e-learning quiz format
-* **Moodle format** — Import quizzes from Moodle exports
+* **IMS QTI / Common Cartridge** — Format kuis e-learning standar
+* **Format Moodle** — Impor kuis dari ekspor Moodle
 
-To import, look for the **Import** option in the exercises tool and upload your file.
+Untuk mengimpor, cari opsi **Impor** di alat latihan dan unggah file Anda.
 
 ## Tips
 
-* **Mix question types** — Combine multiple choice, fill-in-the-blanks, and open-ended questions for a comprehensive assessment
-* **Use categories** — Organize questions by topic to enable targeted random selection
-* **Set a pass percentage** — Give learners a clear target and link it to certificate generation via the Gradebook
-* **Use immediate feedback for practice** — Create ungraded practice exercises with immediate feedback to help learners learn from their mistakes
-* **Randomize for integrity** — Enable random question order and random answers to reduce the chance of copying
+* **Campur jenis pertanyaan** — Gabungkan pilihan ganda, isi titik-titik, dan pertanyaan terbuka untuk penilaian yang komprehensif
+* **Gunakan kategori** — Atur pertanyaan berdasarkan topik untuk memungkinkan pemilihan acak yang ditargetkan
+* **Tetapkan persentase lulus** — Berikan target yang jelas kepada peserta didik dan hubungkan dengan pembuatan sertifikat melalui Gradebook
+* **Gunakan umpan balik langsung untuk latihan** — Buat latihan praktik tanpa nilai dengan umpan balik langsung untuk membantu peserta didik belajar dari kesalahan mereka
+* **Acak untuk integritas** — Aktifkan urutan pertanyaan acak dan jawaban acak untuk mengurangi kemungkinan menyalin

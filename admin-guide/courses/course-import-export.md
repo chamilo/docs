@@ -1,78 +1,78 @@
-# Course Import and Export
+# Impor dan Ekspor Kursus
 
-Chamilo supports importing and exporting courses for backup, migration, and content sharing purposes.
+Chamilo mendukung impor dan ekspor kursus untuk keperluan cadangan, migrasi, dan berbagi konten.
 
-These features are located inside the course, in the **Maintenance** tool located under the cog icon at the top of the course homepage.
+Fitur-fitur ini terletak di dalam kursus, pada alat **Pemeliharaan** yang berada di bawah ikon roda gigi di bagian atas halaman utama kursus.
 
-## Exporting a Course
+## Mengekspor Kursus
 
-Teachers can export their own courses from the course Maintenance tool. As an administrator, you can export any course:
+Guru dapat mengekspor kursus mereka sendiri dari alat Pemeliharaan kursus. Sebagai administrator, Anda dapat mengekspor kursus apa pun:
 
-1. Enter the course
-2. Access the **Course maintenance** tool
-3. Select **Create a backup**
-4. Choose what to include (content, user data, etc.)
-5. Download the export file
+1. Masuk ke kursus
+2. Akses alat **Pemeliharaan kursus**
+3. Pilih **Buat cadangan**
+4. Pilih apa yang akan disertakan (konten, data pengguna, dll.)
+5. Unduh file ekspor
 
-The export creates a package containing the course's documents, exercises, forums, learning paths, and configuration.
+Ekspor akan membuat paket yang berisi dokumen kursus, latihan, forum, jalur pembelajaran, dan konfigurasi.
 
-## Importing a Course
+## Mengimpor Kursus
 
-To import a course from a Chamilo export file:
+Untuk mengimpor kursus dari file ekspor Chamilo:
 
-1. Enter the course
-2. Access the **Course maintenance** tool
-3. In the **Import backup** section, upload the export file
-4. Choose what to include (content, user data, etc.)
-5. Configure import options:
-   * Whether to overwrite existing content
-   * Whether to include user data
-6. Run the import
+1. Masuk ke kursus
+2. Akses alat **Pemeliharaan kursus**
+3. Pada bagian **Impor cadangan**, unggah file ekspor
+4. Pilih apa yang akan disertakan (konten, data pengguna, dll.)
+5. Konfigurasikan opsi impor:
+   * Apakah akan menimpa konten yang sudah ada
+   * Apakah akan menyertakan data pengguna
+6. Jalankan impor
 
-## Copying a Course
+## Menyalin Kursus
 
-To copy the contents from another course into your course, you will need a source course and a destination course to be created first.
+Untuk menyalin konten dari kursus lain ke kursus Anda, Anda perlu membuat kursus sumber dan kursus tujuan terlebih dahulu.
 
-1. Enter the destination course
-2. Access the **Course maintenance** tool
-3. In the **Copy course** section, select the **Source** course
-4. Validate the options
-5. Click **Continue** and follow the instructions
+1. Masuk ke kursus tujuan
+2. Akses alat **Pemeliharaan kursus**
+3. Pada bagian **Salin kursus**, pilih kursus **Sumber**
+4. Validasi opsi
+5. Klik **Lanjutkan** dan ikuti petunjuk
 
 ## Common Cartridge
 
-Chamilo supports the **IMS Common Cartridge 1.3** (IMS CC 1.3) standard for interoperability with other learning management systems. You can:
+Chamilo mendukung standar **IMS Common Cartridge 1.3** (IMS CC 1.3) untuk interoperabilitas dengan sistem manajemen pembelajaran lainnya. Anda dapat:
 
-* **Import** Common Cartridge packages (.imscc files)
-* **Export** course content in Common Cartridge format
+* **Mengimpor** paket Common Cartridge (file .imscc)
+* **Mengekspor** konten kursus dalam format Common Cartridge
 
-This allows content exchange with other platforms that support the Common Cartridge standard (Moodle, Canvas, Blackboard, etc.).
+Ini memungkinkan pertukaran konten dengan platform lain yang mendukung standar Common Cartridge (Moodle, Canvas, Blackboard, dll.).
 
-## Recycling a course
+## Mendaur Ulang Kursus
 
-The course recycling feature simply allows you to keep the shell of the course but to erase its content.
+Fitur daur ulang kursus memungkinkan Anda untuk mempertahankan kerangka kursus tetapi menghapus kontennya.
 
-## Deleting a course
+## Menghapus Kursus
 
-This will completely erase your course, including all its contents and the user activity in it.
+Ini akan menghapus kursus Anda sepenuhnya, termasuk semua konten dan aktivitas pengguna di dalamnya.
 
-To delete a course permanently:
+Untuk menghapus kursus secara permanen:
 
-1. Enter the destination course
-2. Access the **Course maintenance** tool
-3. In the **Completely delete this course** section, enter the code of the course manually to confirm your intention
-4. Validate
+1. Masuk ke kursus tujuan
+2. Akses alat **Pemeliharaan kursus**
+3. Pada bagian **Hapus kursus ini sepenuhnya**, masukkan kode kursus secara manual untuk mengonfirmasi niat Anda
+4. Validasi
 
-You then get redirected to the portal homepage, because the course does not exist anymore.
+Anda kemudian akan diarahkan ke halaman utama portal, karena kursus tersebut tidak ada lagi.
 
-## Moodle Import
+## Impor Moodle
 
-Chamilo can import course backups from **Moodle**. The importer converts Moodle's content structure to Chamilo's format, including quizzes, documents, and course settings.
+Chamilo dapat mengimpor cadangan kursus dari **Moodle**. Pengimpor mengonversi struktur konten Moodle ke format Chamilo, termasuk kuis, dokumen, dan pengaturan kursus.
 
-> **Work in progress.** Although it already covers a wide base, the Moodle importer does not currently cover every Moodle activity type and content format. Treat it as a starting point that may still require manual adjustment after the import completes. If you detect any failing/missing element in the import or export, please report it to us through our [Github space](https://github.com/chamilo/chamilo-lms/issues) by clicking **New issue** at the top and giving as much details as possible (including the course backup itself if it's not confidential).
+> **Sedang dalam proses pengembangan.** Meskipun sudah mencakup banyak hal, pengimpor Moodle saat ini belum mencakup semua jenis aktivitas dan format konten Moodle. Anggap ini sebagai titik awal yang mungkin masih memerlukan penyesuaian manual setelah impor selesai. Jika Anda mendeteksi elemen yang gagal atau hilang dalam impor atau ekspor, harap laporkan kepada kami melalui [ruang Github kami](https://github.com/chamilo/chamilo-lms/issues) dengan mengklik **New issue** di bagian atas dan memberikan detail sebanyak mungkin (termasuk cadangan kursus itu sendiri jika tidak bersifat rahasia).
 
 ## Tips
 
-* **Regular backups** — Encourage teachers to export their courses periodically as a backup
-* **Test imports** — When importing content from another platform, test the import in a trial course first to verify that everything transferred correctly
-* **Content portability** — Use Common Cartridge format when you need to share content with other LMS platforms
+* **Cadangan rutin** — Dorong guru untuk mengekspor kursus mereka secara berkala sebagai cadangan
+* **Uji impor** — Saat mengimpor konten dari platform lain, uji impor di kursus percobaan terlebih dahulu untuk memverifikasi bahwa semuanya ditransfer dengan benar
+* **Portabilitas konten** — Gunakan format Common Cartridge ketika Anda perlu berbagi konten dengan platform LMS lainnya

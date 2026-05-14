@@ -1,75 +1,75 @@
-# Managing Sessions
+# Mengelola Sesi
 
-## Creating a Session
+## Membuat Sesi
 
-![The session creation form with fields for name, dates, coach, category, and visibility](/.gitbook/assets/admin-session-create-form.png)
+![Formulir pembuatan sesi dengan kolom untuk nama, tanggal, pelatih, kategori, dan visibilitas](/.gitbook/assets/admin-session-create-form.png)
 
-1. From the administration panel, click **Create a session**
-2. Fill in the session details:
-   * **Session name** — A descriptive name (e.g., "Spring 2026 Onboarding")
-   * **Start and end dates** — When the session runs (optional — sessions can be open-ended). There are 3 sets of dates: Dates to display, dates to limit learners access and dates to limit coaches access
-   * **Session coach** — The person overseeing the entire session
-   * **Category** — Assign to a session category for organization
-   * **Visibility** — Control access and listing behavior
-3. **Add courses** — Select one or more courses to include in the session
-4. **Enroll learners** — Add individual users or classes of users
-5. **Assign course coaches** — For each course, assign a teacher (course coach)
-6. Save
+1. Dari panel administrasi, klik **Buat sesi**
+2. Isi detail sesi:
+   * **Nama sesi** — Nama yang deskriptif (misalnya, "Pengenalan Musim Semi 2026")
+   * **Tanggal mulai dan berakhir** — Kapan sesi berlangsung (opsional — sesi dapat bersifat terbuka tanpa batas waktu). Terdapat 3 set tanggal: Tanggal untuk ditampilkan, tanggal untuk membatasi akses peserta didik, dan tanggal untuk membatasi akses pelatih
+   * **Pelatih sesi** — Orang yang mengawasi seluruh sesi
+   * **Kategori** — Tetapkan ke kategori sesi untuk pengorganisasian
+   * **Visibilitas** — Mengontrol perilaku akses dan daftar
+3. **Tambahkan kursus** — Pilih satu atau lebih kursus untuk dimasukkan ke dalam sesi
+4. **Daftarkan peserta didik** — Tambahkan pengguna individu atau kelas pengguna
+5. **Tetapkan pelatih kursus** — Untuk setiap kursus, tetapkan seorang pengajar (pelatih kursus)
+6. Simpan
 
-## Session Dates
+## Tanggal Sesi
 
-Sessions support flexible date configuration:
+Sesi mendukung konfigurasi tanggal yang fleksibel:
 
-| Date | Purpose |
+| Tanggal | Tujuan |
 |------|---------|
-| **Display start/end** | When the session appears in learner listings |
-| **Access start/end** | When learners can actually access the session content |
-| **Coach access start/end** | When coaches can access the session (often starts before and ends after learner access) |
+| **Mulai/berakhir tampilan** | Kapan sesi muncul di daftar peserta didik |
+| **Mulai/berakhir akses** | Kapan peserta didik benar-benar dapat mengakses konten sesi |
+| **Mulai/berakhir akses pelatih** | Kapan pelatih dapat mengakses sesi (sering kali dimulai sebelum dan berakhir setelah akses peserta didik) |
 
-This allows you to prepare the session before learners arrive and keep coach access open after the session ends for grading and reporting.
+Ini memungkinkan Anda untuk mempersiapkan sesi sebelum peserta didik datang dan menjaga akses pelatih tetap terbuka setelah sesi berakhir untuk penilaian dan pelaporan.
 
-## Session List
+## Daftar Sesi
 
-![The session list showing all sessions with name, dates, course count, learner count, and status](/.gitbook/assets/admin-session-list.png)
+![Daftar sesi yang menampilkan semua sesi dengan nama, tanggal, jumlah kursus, jumlah peserta didik, dan status](/.gitbook/assets/admin-session-list.png)
 
-The session list shows all sessions with:
+Daftar sesi menunjukkan semua sesi dengan:
 
-* Session name
-* Start and end dates
-* Status (active, upcoming, past)
+* Nama sesi
+* Tanggal mulai dan berakhir
+* Status (aktif, akan datang, selesai)
 
-Use search and filters to find sessions by name, date, category, or status.
+Gunakan pencarian dan filter untuk menemukan sesi berdasarkan nama, tanggal, kategori, atau status.
 
-## Editing a Session
+## Mengedit Sesi
 
-Click on a session to edit:
+Klik pada sesi untuk mengedit:
 
-* Change dates, name, or category
-* Add or remove courses
-* Change course coaches
-* Add or remove learners
-* View tracking data for the session
+* Ubah tanggal, nama, atau kategori
+* Tambah atau hapus kursus
+* Ubah pelatih kursus
+* Tambah atau hapus peserta didik
+* Lihat data pelacakan untuk sesi tersebut
 
-## Enrolling Users
+## Mendaftarkan Pengguna
 
-![The session enrollment interface for adding individual users, classes, or importing via CSV](/.gitbook/assets/admin-session-enrollment.png)
+![Antarmuka pendaftaran sesi untuk menambahkan pengguna individu, kelas, atau mengimpor melalui CSV](/.gitbook/assets/admin-session-enrollment.png)
 
-You can enroll users in a session by:
+Anda dapat mendaftarkan pengguna dalam sesi dengan:
 
-* **Individual enrollment** — Search for and add individual users
-* **Class enrollment** — Add an entire class (group of pre-defined users) at once
-* **CSV import** — Upload a file with user-session assignments
+* **Pendaftaran individu** — Cari dan tambahkan pengguna individu
+* **Pendaftaran kelas** — Tambahkan seluruh kelas (grup pengguna yang telah ditentukan sebelumnya) sekaligus
+* **Impor CSV** — Unggah file dengan penugasan pengguna-sesi
 
-## Session Access
+## Akses Sesi
 
-Learners access their sessions through **My sessions** in the sidebar. Sessions are organized into:
+Peserta didik mengakses sesi mereka melalui **Sesi saya** di bilah sisi. Sesi diorganisasi menjadi:
 
-* **Current sessions** — Currently active
-* **Past sessions** — Ended
-* **Upcoming sessions** — Not yet started
+* **Sesi saat ini** — Sedang aktif
+* **Sesi sebelumnya** — Telah berakhir
+* **Sesi mendatang** — Belum dimulai
 
 ## Tips
 
-* **Plan dates carefully** — Make sure coach access dates extend beyond learner dates so coaches can set up and follow up
-* **Use classes for recurring enrollment** — If you frequently enroll the same groups, create classes and assign them to sessions
-* **Keep sessions organized** — Use categories and clear naming conventions for easy management
+* **Rencanakan tanggal dengan cermat** — Pastikan tanggal akses pelatih melampaui tanggal peserta didik sehingga pelatih dapat menyiapkan dan menindaklanjuti
+* **Gunakan kelas untuk pendaftaran berulang** — Jika Anda sering mendaftarkan grup yang sama, buat kelas dan tetapkan ke sesi
+* **Jaga sesi tetap terorganisir** — Gunakan kategori dan konvensi penamaan yang jelas untuk pengelolaan yang mudah

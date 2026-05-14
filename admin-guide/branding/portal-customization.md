@@ -1,20 +1,20 @@
-# Portal Customization
+# Kustomisasi Portal
 
-Customize how your Chamilo platform looks and what information is displayed to users.
+Sesuaikan tampilan platform Chamilo Anda dan informasi yang ditampilkan kepada pengguna.
 
-## Platform Identity
+## Identitas Platform
 
-![The portal customization page showing platform identity settings for name, logo, and institution](/.gitbook/assets/admin-portal-customization.png)
+![Halaman kustomisasi portal yang menunjukkan pengaturan identitas platform untuk nama, logo, dan institusi](/.gitbook/assets/admin-portal-customization.png)
 
-Configure the basic identity of your portal:
+Konfigurasikan identitas dasar portal Anda:
 
-* **Platform name** — The name shown in the browser title and throughout the interface
-* **Institution name** — Your organization's name
-* **Institution URL** — A link to your organization's website
-* **Platform logo** — Upload your organization's logo (displayed in the top bar)
+* **Nama platform** — Nama yang ditampilkan di judul peramban dan di seluruh antarmuka
+* **Nama institusi** — Nama organisasi Anda
+* **URL institusi** — Tautan ke situs web organisasi Anda
+* **Logo platform** — Unggah logo organisasi Anda (ditampilkan di bilah atas)
 
 ## Tips
 
-* **Keep the homepage clean** — Too much content on the homepage can be overwhelming. Focus on essential announcements and course access.
-* **Update regularly** — Keep system announcements current and remove outdated ones
-* **Upload a high-quality logo** — The logo is one of the most visible branding elements. Use a crisp, appropriately sized image.
+* **Jaga kebersihan halaman utama** — Terlalu banyak konten di halaman utama dapat membingungkan. Fokus pada pengumuman penting dan akses kursus.
+* **Perbarui secara berkala** — Pastikan pengumuman sistem selalu terkini dan hapus yang sudah kedaluwarsa
+* **Unggah logo berkualitas tinggi** — Logo adalah salah satu elemen branding yang paling terlihat. Gunakan gambar yang tajam dan berukuran sesuai.

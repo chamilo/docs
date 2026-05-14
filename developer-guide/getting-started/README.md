@@ -1,7 +1,7 @@
-# Getting Started
+# Langkah Awal
 
-This section helps you set up a development environment and understand the Chamilo 2.0 project structure.
+Bagian ini membantu Anda mengatur lingkungan pengembangan dan memahami struktur proyek Chamilo 2.0.
 
-* **[Tech Stack](tech-stack.md)** — All technologies and their versions
-* **[Development Setup](development-setup.md)** — How to get Chamilo running locally
-* **[Project Structure](project-structure.md)** — Where things live in the codebase
+* **[Tumpukan Teknologi](tech-stack.md)** — Semua teknologi dan versinya
+* **[Pengaturan Pengembangan](development-setup.md)** — Cara menjalankan Chamilo secara lokal
+* **[Struktur Proyek](project-structure.md)** — Di mana letak berbagai hal dalam kode sumber

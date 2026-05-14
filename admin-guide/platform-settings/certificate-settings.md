@@ -1,82 +1,81 @@
-# Certificates Settings
+# Pengaturan Sertifikat
 
-Defaults applied when a learner earns a certificate from the gradebook.
+Pengaturan default yang diterapkan ketika seorang peserta didik memperoleh sertifikat dari buku nilai.
 
-Access these settings under **Administration > Configuration settings > Certificates**. This category contains **9 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+Akses pengaturan ini di bawah **Administrasi > Pengaturan Konfigurasi > Sertifikat**. Kategori ini berisi **9 pengaturan**, yang tercantum di bawah ini beserta judul dan komentar yang disertakan dalam fixture pengaturan platform (`SettingsCurrentFixtures.php`).
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> Nama variabel dalam kode ditampilkan dalam format monospace. Gunakan nama ini saat membuat skrip melalui API atau ketika Anda perlu mengubah pengaturan tersebut pada tingkat global dengan mengedit [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
 
-## Settings
+## Pengaturan
 
 ### `add_certificate_pdf_footer`
 
-**Add footer to PDF certificate exports**
+**Tambahkan footer ke ekspor sertifikat PDF**
 
-When enabled, a footer is added to PDF exports of certificates.
+Jika diaktifkan, footer akan ditambahkan ke ekspor PDF sertifikat.
 
 *Default: `false`*
 
 ### `allow_general_certificate`
 
-**Enable general certificate**
+**Aktifkan sertifikat umum**
 
-A general certificate is a certificate grouping all the accomplishments by the user in the courses (s)he followed.
+Sertifikat umum adalah sertifikat yang mengelompokkan semua pencapaian pengguna dalam kursus yang diikutinya.
 
 *Default: `false`*
 
 ### `allow_public_certificates`
 
-**Allow public certificates**
+**Izinkan sertifikat publik**
 
-User certificates can be view by unregistered users.
+Sertifikat pengguna dapat dilihat oleh pengguna yang tidak terdaftar.
 
 *Default: `false`*
 
 ### `certificate_filter_by_official_code`
 
-**Certificates filter by official code**
+**Filter sertifikat berdasarkan kode resmi**
 
-Add a filter on the students official code to the certificates list.
+Tambahkan filter pada kode resmi siswa ke daftar sertifikat.
 
 *Default: `false`*
 
 ### `certificate_pdf_orientation`
 
-**PDF orientation for certificates**
+**Orientasi PDF untuk sertifikat**
 
-Set ‘portrait’ or ‘landscape’ (technical terms) for PDF certificates.
+Atur ‘portrait’ atau ‘landscape’ (istilah teknis) untuk sertifikat PDF.
 
 *Default: `landscape`*
 
 ### `hide_certificate_export_link`
 
-**Certificates: hide PDF export link for all**
+**Sertifikat: sembunyikan tautan ekspor PDF untuk semua**
 
-Enable to completely remove the possibility to export certificates to PDF (for all users). If enabled, this includes hiding it from students.
+Aktifkan untuk menghapus sepenuhnya kemungkinan mengekspor sertifikat ke PDF (untuk semua pengguna). Jika diaktifkan, ini termasuk menyembunyikannya dari siswa.
 
 *Default: `false`*
 
 ### `hide_certificate_export_link_students`
 
-**Certificates: hide export link from students**
+**Sertifikat: sembunyikan tautan ekspor dari siswa**
 
-If enabled, students won’t be able to export their certificates to PDF. This option is available because, depending on the precise HTML structure of the certificate template, the PDF export might be of low quality. In this case, it is best to only show the HTML certificate to students.
+Jika diaktifkan, siswa tidak akan dapat mengekspor sertifikat mereka ke PDF. Opsi ini tersedia karena, tergantung pada struktur HTML yang tepat dari template sertifikat, ekspor PDF mungkin memiliki kualitas rendah. Dalam hal ini, sebaiknya hanya menampilkan sertifikat HTML kepada siswa.
 
 *Default: `false`*
 
 ### `hide_my_certificate_link`
 
-**Hide ‘my certificate’ link**
+**Sembunyikan tautan ‘sertifikat saya’**
 
-Hide the certificates page for non-admin users.
+Sembunyikan halaman sertifikat untuk pengguna non-admin.
 
 *Default: `false`*
 
 ### `session_admin_can_download_all_certificates`
 
-**Allow session admins to download private certificates**
+**Izinkan admin sesi untuk mengunduh sertifikat pribadi**
 
-If enabled, session administrators can download certificates even if they are not publicly published.
+Jika diaktifkan, administrator sesi dapat mengunduh sertifikat meskipun sertifikat tersebut tidak dipublikasikan secara publik.
 
 *Default: `false`*
-

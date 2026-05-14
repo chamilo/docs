@@ -1,57 +1,57 @@
-# User Roles
+# Peran Pengguna
 
-Chamilo uses a role-based permission system. Each user is assigned a role that determines what they can see and do on the platform.
+Chamilo menggunakan sistem izin berbasis peran. Setiap pengguna diberikan peran yang menentukan apa yang dapat mereka lihat dan lakukan di platform ini.
 
-## Platform-Level Roles
+## Peran pada Tingkat Platform
 
-These roles control access to platform-wide features:
+Peran-peran ini mengontrol akses ke fungsionalitas di seluruh platform:
 
-| Role |  Description |
+| Peran | Deskripsi |
 |------|------------|
-| **Learner (Student)** | The default role. Can enroll in courses, access learning content, submit assignments, and take exercises. |
-| **Teacher (Trainer)** | Can create and manage courses, add content, grade students, and view course-level reports. |
-| **Sessions Administrator** | Can create and manage sessions (i.e. time-based course packages), enroll users in sessions, and assign coaches. Cannot access general platform settings. |
-| **Human Resources Manager (HRM)** | Can view tracking and reporting data for assigned users. Used for supervisors who need to monitor employee training but not manage content nor the platform. |
-| **Portal Administrator** | Full access to all platform administration features. Can manage users, courses, sessions, plugins, and all settings. |
-| **Global Administrator** | Same as Portal Administrator but with access across all access URLs in a multi-URL (i.e. multi-tenant) setup. |
-| **Anonymous** | A special role for visitors who are not logged in. Can access public courses and content if enabled. |
+| **Peserta Didik (Mahasiswa)** | Peran standar. Dapat mendaftar ke kursus, mengakses konten pembelajaran, mengirimkan tugas, dan melakukan latihan. |
+| **Pengajar (Instruktur)** | Dapat membuat dan mengelola kursus, menambahkan konten, menilai peserta didik, dan melihat laporan pada tingkat kursus. |
+| **Administrator Sesi** | Dapat membuat dan mengelola sesi (yaitu, paket kursus berbasis waktu), mendaftarkan pengguna ke sesi, dan menugaskan tutor. Tidak memiliki akses ke pengaturan umum platform. |
+| **Manajer Sumber Daya Manusia (SDM)** | Dapat melihat data pelacakan dan laporan untuk pengguna yang ditugaskan. Digunakan untuk pengawas yang perlu memantau pelatihan karyawan, tetapi tidak mengelola konten atau platform. |
+| **Administrator Portal** | Akses penuh ke semua fungsionalitas administrasi platform. Dapat mengelola pengguna, kursus, sesi, plugin, dan semua pengaturan. |
+| **Administrator Global** | Sama dengan Administrator Portal, tetapi dengan akses ke semua URL akses dalam konfigurasi multi-URL (yaitu, multi-tenant). |
+| **Anonim** | Peran khusus untuk pengunjung yang tidak masuk. Dapat mengakses kursus dan konten publik, jika diaktifkan. |
 
-## Course-Level Roles
+## Peran pada Tingkat Kursus
 
-Within a course, users have specific roles:
+Di dalam sebuah kursus, pengguna memiliki peran spesifik:
 
-| Role | Description |
+| Peran | Deskripsi |
 |------|-------------|
-| **Student** | Default course role. Can access content, take exercises, submit assignments. |
-| **Course assistant** | Has limited management permissions within the course. Can help manage content and moderate forums. |
-| **Teacher** | Full control over the course: manage content, tools, settings, and enrollment. |
+| **Mahasiswa** | Peran standar kursus. Dapat mengakses konten, melakukan latihan, dan mengirimkan tugas. |
+| **Asisten Kursus** | Memiliki izin pengelolaan terbatas di dalam kursus. Dapat membantu mengelola konten dan memoderasi forum. |
+| **Pengajar** | Kontrol penuh atas kursus: mengelola konten, alat, pengaturan, dan pendaftaran. |
 
-## Session-Level Roles
+## Peran pada Tingkat Sesi
 
-Within a session, additional roles exist:
+Di dalam sebuah sesi, terdapat peran tambahan:
 
-| Role | Description |
+| Peran | Deskripsi |
 |------|-------------|
-| **Session tutor** | Oversees all courses within a session. Can view tracking across all courses in the session. |
-| **Course tutor** | Teaches a specific course within a session. Can manage content and track learners for that course in that session. |
+| **Tutor Sesi** | Mengawasi semua kursus di dalam sebuah sesi. Dapat melihat pelacakan di semua kursus dalam sesi tersebut. |
+| **Tutor Kursus** | Mengajar kursus tertentu di dalam sebuah sesi. Dapat mengelola konten dan melacak peserta didik untuk kursus tersebut dalam sesi itu. |
 
-Note: The coach and tutor names are very similar in meaning and are generally dependent on the organization. We use both terms interchangeably in Chamilo 2.0, but most of the time we mean tutor, a person that will help you learn from the course, not a personal coach. We might use "tutor" exclusively in the future.
+Catatan: Istilah "coach" dan "tutor" memiliki makna yang sangat mirip dan biasanya tergantung pada organisasi. Kami menggunakan kedua istilah tersebut secara bergantian di Chamilo 2.0, tetapi sebagian besar waktu kami merujuk ke "tutor", yaitu seseorang yang akan membantu dalam pembelajaran kursus, bukan pelatih pribadi. Kami mungkin akan menggunakan "tutor" secara eksklusif di masa depan.
 
-## Assigning Roles
+## Penugasan Peran
 
-When creating or editing a user account in the administration panel, you select their platform-level role. Course and session roles are assigned when enrolling users in courses or sessions.
+Saat membuat atau mengedit akun pengguna di panel administrasi, Anda memilih peran pada tingkat platform. Peran kursus dan sesi ditugaskan saat mendaftarkan pengguna ke kursus atau sesi.
 
-## Role Hierarchy
+## Hierarki Peran
 
-Higher-privileged roles inherit the capabilities of lower-privileged roles:
+Peran dengan hak istimewa yang lebih tinggi mewarisi kemampuan dari peran dengan hak istimewa yang lebih rendah:
 
-* An administrator can do everything a teacher can do
-* A teacher can do everything a student can do
-* Session-level roles (coach) provide additional capabilities only within their assigned session
+* Seorang administrator dapat melakukan semua yang dapat dilakukan oleh seorang pengajar
+* Seorang pengajar dapat melakukan semua yang dapat dilakukan oleh seorang mahasiswa
+* Peran pada tingkat sesi (tutor) memberikan kemampuan tambahan hanya di dalam sesi yang ditugaskan
 
 ## Tips
 
-* **Use the principle of least privilege** — Assign users the minimum role they need to perform their tasks
-* **Use Sessions Administrators** for delegated management — If you have staff who need to manage training sessions but not the entire platform, give them the Sessions Administrator role instead of full administrator access
-* **Use HRM for supervisors** — Human Resources Managers can monitor training progress without having access to modify courses or platform settings
-* **Roles creation** — Chamilo 2.x has the internal structure ready for the creation of new roles, but the feature lacks more testing for wide release. It can be enabled through [Official providers of Chamilo](https://chamilo.org/providers).
+* **Gunakan prinsip hak istimewa minimum** — Berikan pengguna peran minimal yang diperlukan untuk melakukan tugas mereka
+* **Gunakan Administrator Sesi untuk pengelolaan yang didelegasikan** — Jika Anda memiliki staf yang perlu mengelola sesi pelatihan, tetapi tidak seluruh platform, berikan mereka peran Administrator Sesi daripada akses penuh administrator
+* **Gunakan SDM untuk pengawas** — Manajer Sumber Daya Manusia dapat memantau kemajuan pelatihan tanpa memiliki akses untuk mengubah kursus atau pengaturan platform
+* **Pembuatan peran** — Chamilo 2.x memiliki struktur internal yang siap untuk pembuatan peran baru, tetapi fitur ini masih memerlukan lebih banyak pengujian untuk peluncuran yang lebih luas. Fitur ini dapat diaktifkan melalui [Penyedia Resmi Chamilo](https://chamilo.org/providers).

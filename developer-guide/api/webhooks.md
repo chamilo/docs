@@ -1,35 +1,35 @@
 # Webhooks
 
-Chamilo's webhook support is currently scoped to the **BigBlueButton (BBB) plugin**. Rather than sending webhooks to external systems, Chamilo acts as a webhook *receiver*: it exposes endpoints that BigBlueButton calls when room events occur, and uses those events to build per-participant activity metrics.
+Dukungan webhook di Chamilo saat ini terbatas pada **plugin BigBlueButton (BBB)**. Alih-alih mengirim webhook ke sistem eksternal, Chamilo berfungsi sebagai *penerima* webhook: platform ini menyediakan endpoint yang dipanggil oleh BigBlueButton ketika terjadi peristiwa di ruang rapat, dan menggunakan peristiwa tersebut untuk membangun metrik aktivitas per peserta.
 
-## How It Works
+## Cara Kerja
 
-When a BBB meeting takes place, the BBB server pushes real-time event notifications to a signed callback URL on your Chamilo installation. Chamilo processes each event and stores aggregated metrics (talk time, camera time, messages, reactions, hand raises) in the `conference_activity` database table.
+Ketika rapat BBB berlangsung, server BBB mengirimkan notifikasi peristiwa secara real-time ke URL callback yang ditandatangani di instalasi Chamilo Anda. Chamilo memproses setiap peristiwa dan menyimpan metrik agregat (waktu berbicara, waktu kamera, pesan, reaksi, tangan terangkat) di tabel basis data `conference_activity`.
 
 ```
-BigBlueButton server
-        │  POST (signed)
+Server BigBlueButton
+        │  POST (ditandatangani)
         ▼
-Chamilo webhook endpoint
+Endpoint webhook Chamilo
         │
         ▼
-conference_activity (metrics JSON)
+conference_activity (JSON metrik)
         │
         ▼
-Webhook dashboard (/plugin/Bbb/webhook_dashboard.php)
+Dashboard webhook (/plugin/Bbb/webhook_dashboard.php)
 ```
 
-## Endpoints
+## Endpoint
 
-### Legacy PHP endpoint
+### Endpoint PHP Lama
 
 ```
 POST /plugin/Bbb/webhook.php?au={accessUrlId}&mid={meetingId}&ts={timestamp}&sig={hmac}
 ```
 
-Handles all BBB room events. Validates the HMAC signature, then upserts a `ConferenceActivity` row and updates the metrics JSON field.
+Mengatur semua peristiwa ruang BBB. Memvalidasi tanda tangan HMAC, kemudian menyisipkan atau memperbarui baris `ConferenceActivity` dan memperbarui kolom JSON metrik.
 
-### Modern Symfony endpoint
+### Endpoint Modern Symfony
 
 ```
 POST /api/videoconference/callback
@@ -38,45 +38,45 @@ Headers:
   X-Chamilo-Signature: <hmac-sha256>
 ```
 
-Defined via API Platform on the `ConferenceActivity` entity. Requires the signature headers for activity recording; requests without a valid signature are accepted but no activity row is written.
+Ditetapkan melalui API Platform pada entitas `ConferenceActivity`. Memerlukan header tanda tangan untuk pencatatan aktivitas; permintaan tanpa tanda tangan yang valid diterima, tetapi tidak ada baris aktivitas yang dicatat.
 
-## Configuration (BBB Plugin)
+## Konfigurasi (Plugin BBB)
 
-In **Administration → Plugins → BigBlueButton**, the following webhook settings are available:
+Di **Administrasi → Plugin → BigBlueButton**, pengaturan webhook berikut tersedia:
 
-| Setting | Values | Description |
+| Pengaturan | Nilai | Deskripsi |
 |---|---|---|
-| `webhooks_enabled` | `true` / `false` | Enable or disable webhook registration |
-| `webhooks_scope` | `per_meeting` / `global` | Register one hook per meeting or a single global hook for all meetings |
-| `webhooks_hash_algo` | `sha256` / `sha1` | HMAC algorithm for signature verification |
-| `webhooks_event_filter` | comma-separated string | Optional list of BBB event names to receive (empty = all events) |
+| `webhooks_enabled` | `true` / `false` | Mengaktifkan atau menonaktifkan pencatatan webhook |
+| `webhooks_scope` | `per_meeting` / `global` | Mendaftarkan hook per rapat atau satu hook global untuk semua rapat |
+| `webhooks_hash_algo` | `sha256` / `sha1` | Algoritma HMAC untuk verifikasi tanda tangan |
+| `webhooks_event_filter` | string yang dipisahkan koma | Daftar opsional nama peristiwa BBB yang akan diterima (kosong = semua peristiwa) |
 
-When a meeting is created and webhooks are enabled, Chamilo calls the BBB `hooks/create` API to register the callback URL. The URL includes a time-bound HMAC signature.
+Ketika rapat dibuat dan webhook diaktifkan, Chamilo memanggil API `hooks/create` dari BBB untuk mendaftarkan URL callback. URL tersebut mencakup tanda tangan HMAC yang dibatasi waktu.
 
-## Signature Validation
+## Validasi Tanda Tangan
 
-The legacy endpoint uses query-string parameters:
+Endpoint lama menggunakan parameter query-string:
 
 ```
 sig = HMAC-{algo}("{accessUrlId}|{meetingId}|{timestamp}", salt)
 ```
 
-- The `salt` is the BBB plugin's configured salt value.
-- Requests older than **15 minutes** are rejected to limit replay attacks.
+- `salt` adalah nilai salt yang dikonfigurasi di plugin BBB.
+- Permintaan yang lebih dari **15 menit** ditolak untuk membatasi serangan ulang.
 
-The modern endpoint uses headers:
+Endpoint modern menggunakan header:
 
 ```
 sig = HMAC-SHA256("{timestamp}\n{rawBody}", kernelSecret)
 ```
 
-- Requests older than **5 minutes** are rejected.
+- Permintaan yang lebih dari **5 menit** ditolak.
 
-## Example: BigBlueButton Webhook Event
+## Contoh: Peristiwa Webhook BigBlueButton
 
-BBB posts a JSON body containing an array of events. Each event has an `data.id` (event name) and a `data.attributes` object.
+BBB mengirimkan tubuh JSON yang berisi array peristiwa. Setiap peristiwa memiliki `data.id` (nama peristiwa) dan objek `data.attributes`.
 
-**Request from BBB:**
+**Permintaan BBB:**
 
 ```http
 POST /plugin/Bbb/webhook.php?au=1&mid=chamilo-meeting-abc123&ts=1715520000&sig=e3b0c44298fc
@@ -101,32 +101,34 @@ Content-Type: application/json
 }
 ```
 
-**What Chamilo does:**
+**Apa yang dilakukan Chamilo:**
 
-1. Validates the HMAC signature and timestamp.
-2. Looks up the `ConferenceMeeting` by `remote_id`.
-3. Looks up (or creates) an open `ConferenceActivity` row for that meeting + user.
-4. Records `temp.talk_started_at = 1715520123` in the metrics JSON.
+1. Memvalidasi tanda tangan HMAC dan timestamp.
+2. Mencari `ConferenceMeeting` berdasarkan `remote_id`.
+3. Mencari (atau membuat) baris terbuka `ConferenceActivity` untuk rapat + pengguna tersebut.
+4. Mencatat `temp.talk_started_at = 1715520123` di JSON metrik.
 
-When the matching `user-talking-stopped` event arrives, Chamilo computes the elapsed seconds and adds them to `totals.talk_seconds`.
+Ketika peristiwa yang sesuai `user-talking-stopped` tiba, Chamilo menghitung detik yang telah berlalu dan menambahkannya ke `totals.talk_seconds`.
 
-## Tracked Events and Metrics
+---
+## Peristiwa yang Dilacak dan Metrik
 
-| BBB event(s) | Metric updated |
+| Peristiwa BBB | Metrik yang Diperbarui |
 |---|---|
-| `user-joined` / `participantjoined` | Activity row created |
-| `user-talking-started` / `uservoiceactivated` | Timer started for `totals.talk_seconds` |
-| `user-talking-stopped` / `uservoicedeactivated` | `totals.talk_seconds` incremented |
-| `camera-share-started` / `webcamsharestarted` | Timer started for `totals.camera_seconds` |
-| `camera-share-stopped` / `webcamsharestopped` | `totals.camera_seconds` incremented |
-| `chat-message-posted` / `publicchatmessageposted` | `counts.messages` incremented |
-| `user-reaction-changed` / `useremojichanged` | `counts.reactions` + per-emoji breakdown |
-| `user-hand-raised` / `userraisedhand` | `counts.hands` incremented |
-| `user-left` / `participantleft` | Open timers flushed, activity row closed |
+| `user-joined` / `participantjoined` | Baris aktivitas dibuat |
+| `user-talking-started` / `uservoiceactivated` | Pengatur waktu dimulai untuk `totals.talk_seconds` |
+| `user-talking-stopped` / `uservoicedeactivated` | `totals.talk_seconds` bertambah |
+| `camera-share-started` / `webcamsharestarted` | Pengatur waktu dimulai untuk `totals.camera_seconds` |
+| `camera-share-stopped` / `webcamsharestopped` | `totals.camera_seconds` bertambah |
+| `chat-message-posted` / `publicchatmessageposted` | `counts.messages` bertambah |
+| `user-reaction-changed` / `useremojichanged` | `counts.reactions` + rincian berdasarkan emoji |
+| `user-hand-raised` / `userraisedhand` | `counts.hands` bertambah |
+| `user-left` / `participantleft` | Pengatur waktu yang terbuka selesai, baris aktivitas ditutup |
 
-## Metrics Data Structure
+---
+## Struktur Data Metrik
 
-Metrics are stored as a JSON column on `ConferenceActivity`:
+Metrik disimpan sebagai kolom JSON di `ConferenceActivity`:
 
 ```json
 {
@@ -150,26 +152,26 @@ Metrics are stored as a JSON column on `ConferenceActivity`:
 }
 ```
 
-The `temp` fields hold in-progress timer start timestamps; they are cleared when the corresponding stop event arrives or when the participant leaves.
+Kolom `temp` menyimpan cap waktu mulai dari pengatur waktu yang sedang berjalan; kolom ini akan dihapus ketika peristiwa berhenti yang sesuai tiba atau ketika peserta keluar.
 
-## Webhook Dashboard
+## Dasbor Kontrol Webhook
 
-An admin dashboard is available at `/plugin/Bbb/webhook_dashboard.php`. It shows real-time and historical metrics per participant for a given meeting: connection time, talk time, camera time, message count, reaction count, and hand raises. Data can be exported as CSV.
+Sebuah dasbor administratif tersedia di `/plugin/Bbb/webhook_dashboard.php`. Dasbor ini menampilkan metrik secara real-time dan historis per peserta untuk rapat tertentu: waktu koneksi, waktu berbicara, waktu kamera, jumlah pesan, jumlah reaksi, dan jumlah mengangkat tangan. Data dapat diekspor sebagai CSV.
 
-## Registering and Cleaning Up Hooks
+## Pendaftaran dan Pembersihan Hook
 
-The `BbbLib` class provides methods for managing hook registration on the BBB server:
+Kelas `BbbLib` menyediakan metode untuk mengelola pendaftaran hook di server BBB:
 
-| Method | Description |
+| Metode | Deskripsi |
 |---|---|
-| `ensureHookForMeeting($remoteId)` | Register (or confirm) a per-meeting hook after a user joins |
-| `ensureGlobalWebhook()` | Register a single global hook covering all meetings |
-| `cleanupWebhooks($meetingId)` | Delete Chamilo-registered hooks from the BBB server |
-| `BbbPlugin::checkWebhooksHealth()` | Validate that the BBB `hooks/list` endpoint is reachable |
+| `ensureHookForMeeting($remoteId)` | Mendaftarkan (atau mengonfirmasi) hook per rapat setelah pengguna bergabung |
+| `ensureGlobalWebhook()` | Mendaftarkan satu hook global yang mencakup semua rapat |
+| `cleanupWebhooks($meetingId)` | Menghapus hook yang didaftarkan oleh Chamilo dari server BBB |
+| `BbbPlugin::checkWebhooksHealth()` | Memvalidasi apakah endpoint `hooks/list` dari BBB dapat diakses |
 
-## Extending to Other Event Sources
+## Ekstensi untuk Sumber Peristiwa Lain
 
-There is currently no generic outbound webhook system in Chamilo (i.e., no built-in way to POST to an external URL when a user enrolls or completes a course). If you need that behaviour, options include:
+Saat ini, tidak ada sistem webhook keluar generik di Chamilo (yaitu, tidak ada cara bawaan untuk melakukan POST ke URL eksternal ketika pengguna mendaftar atau menyelesaikan kursus). Jika Anda membutuhkan perilaku ini, opsi yang tersedia meliputi:
 
-- Writing a plugin that listens to Symfony events and dispatches HTTP calls (see [Plugins](../plugins/README.md) and [Event System](../events.md)).
-- Using the REST API to poll for state changes from an external system.
+- Menulis plugin yang mendengarkan peristiwa dari Symfony dan memicu panggilan HTTP (lihat [Plugins](../plugins/README.md) dan [Sistem Peristiwa](../events.md)).
+- Menggunakan API REST untuk memantau perubahan status dari sistem eksternal.

@@ -1,55 +1,54 @@
-# Access URLs
+# URL Akses
 
-Access URLs allow a single Chamilo installation to serve multiple separate portals.
+URL Akses memungkinkan satu instalasi Chamilo untuk melayani beberapa portal terpisah.
 
+## Kasus Penggunaan
 
-## Use Cases
+* **Penerapan multi-tenant** — Menghosting portal pelatihan terpisah untuk organisasi yang berbeda pada satu server
+* **Portal departemen** — Memberikan portal bermerek sendiri untuk setiap departemen (misalnya, `hr.training.company.com`, `it.training.company.com`)
+* **Portal regional** — Portal terpisah untuk wilayah atau bahasa yang berbeda
 
-* **Multi-tenant deployments** — Host separate training portals for different organizations on a single server
-* **Departmental portals** — Give each department its own branded portal (e.g., `hr.training.company.com`, `it.training.company.com`)
-* **Regional portals** — Separate portals for different regions or languages
+## Cara Kerja
 
-## How It Works
+Setiap URL akses adalah titik masuk terpisah ke instalasi Chamilo yang sama:
 
-Each access URL is a separate entry point to the same Chamilo installation:
+* Pengguna dapat ditetapkan ke satu atau lebih URL akses
+* Kursus dan sesi milik URL akses tertentu
+* Pengaturan platform dapat disesuaikan per URL akses
+* Branding dan tema dapat berbeda per URL
+* Pengguna di satu portal tidak dapat melihat pengguna atau kursus di portal lain (kecuali jika dibagikan secara eksplisit)
 
-* Users can be assigned to one or more access URLs
-* Courses and sessions belong to specific access URLs
-* Platform settings can be customized per access URL
-* Branding and themes can differ per URL
-* Users on one portal cannot see users or courses on another (unless explicitly shared)
+## Konfigurasi
 
-## Configuration
+### Mengaktifkan Multi-URL
 
-### Enabling Multi-URL
+Multi-URL harus diaktifkan dalam konfigurasi Chamilo (biasanya di pengaturan lingkungan). Ini biasanya dilakukan selama pengaturan awal.
 
-Multi-URL must be enabled in the Chamilo configuration (typically in the environment settings). This is usually done during initial setup.
+### Membuat URL Akses
 
-### Creating an Access URL
+1. Dari panel administrasi, navigasikan ke **URL Akses**
+2. Klik **Tambah URL**
+3. Masukkan URL (misalnya, `https://portal2.yoursite.com`)
+4. Konfigurasikan pengaturan khusus untuk URL ini
+5. Simpan
 
-1. From the administration panel, navigate to **Access URLs**
-2. Click **Add a URL**
-3. Enter the URL (e.g., `https://portal2.yoursite.com`)
-4. Configure settings specific to this URL
-5. Save
+### Menetapkan Pengguna dan Kursus
 
-### Assigning Users and Courses
+* **Pengguna** — Tetapkan pengguna ke URL akses tertentu. Seorang pengguna dapat tergabung ke beberapa URL.
+* **Kursus** — Tetapkan kursus ke URL akses tertentu
+* **Sesi** — Tetapkan sesi ke URL akses tertentu
 
-* **Users** — Assign users to specific access URLs. A user can belong to multiple URLs.
-* **Courses** — Assign courses to specific access URLs
-* **Sessions** — Assign sessions to specific access URLs
+### Pengaturan Per-URL
 
-### Per-URL Settings
+Setiap URL akses dapat memiliki:
 
-Each access URL can have its own:
-
-* **Color theme** — Different visual branding
-* **Platform name and logo** — Custom identity
-* **Settings overrides** — Certain platform settings can be customized per URL
+* **Tema warna** — Branding visual yang berbeda
+* **Nama dan logo platform** — Identitas khusus
+* **Pengaturan override** — Pengaturan platform tertentu dapat disesuaikan per URL
 
 ## Tips
 
-* **Decide early** — If choosing a multi-URL setup, you should do that at the start of your Chamilo project as it requires leaving the first URL relatively empty of content. Enabling multi-URL afterwards is more challenging (requires manual databases changes).
-* **Plan URL structure** — Decide on your URL scheme before creating access URLs, as changing URLs later affects all existing links and bookmarks
-* **DNS configuration** — Each access URL must resolve to the same Chamilo server. Configure DNS records accordingly.
-* **Global administrator** — Use the Global Administrator role to manage across all access URLs
+* **Putuskan sejak awal** — Jika memilih pengaturan multi-URL, Anda harus melakukannya di awal proyek Chamilo Anda karena ini membutuhkan URL pertama relatif kosong dari konten. Mengaktifkan multi-URL setelahnya lebih menantang (memerlukan perubahan basis data manual).
+* **Rencanakan struktur URL** — Tentukan skema URL Anda sebelum membuat URL akses, karena mengubah URL nanti akan memengaruhi semua tautan dan bookmark yang ada
+* **Konfigurasi DNS** — Setiap URL akses harus mengarah ke server Chamilo yang sama. Konfigurasikan catatan DNS sesuai kebutuhan.
+* **Administrator global** — Gunakan peran Administrator Global untuk mengelola semua URL akses

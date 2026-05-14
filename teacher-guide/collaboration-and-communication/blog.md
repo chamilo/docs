@@ -1,46 +1,46 @@
 # Blog
 
-The blog tool lets you create a shared blog within your course. Learners can write posts, leave comments, and engage in structured writing activities.
+Alat blog memungkinkan Anda membuat blog bersama di dalam kursus. Siswa dapat menulis posting, meninggalkan komentar, dan berpartisipasi dalam kegiatan penulisan yang terstruktur.
 
-## Creating a Blog
+## Membuat Blog
 
-1. Open the **Blog** tool from the course homepage (under the cog icon at the top)
-2. Click **New project**
-3. Enter a **title** and optional subtitle
-4. Save
-5. Decide when you want to make it available to students by clicking the **Show** (eye) icon
+1. Buka alat **Blog** di halaman utama kursus (terletak di bawah ikon roda gigi di bagian atas)
+2. Klik **Proyek Baru**
+3. Masukkan **Judul** dan subjudul opsional
+4. Simpan
+5. Klik ikon **Tampilkan** (ikon mata) untuk menentukan kapan siswa dapat mengaksesnya
 
-You can create multiple blogs within a single course (e.g., one per topic or one per group).
+Anda dapat membuat beberapa blog dalam satu kursus (misalnya, satu untuk setiap topik atau satu untuk setiap kelompok).
 
-## Writing Blog Posts
+## Menulis Posting Blog
 
-1. Open a blog
-2. Click **New post**
-3. Enter a **title** and write the post content using the rich-text editor
-4. Save
+1. Buka sebuah blog
+2. Klik **Posting Baru**
+3. Masukkan **Judul** dan gunakan editor teks kaya untuk menulis isi posting
+4. Simpan
 
-Both teachers and learners (depending on permissions) can create posts.
+Guru dan siswa (tergantung pada pengaturan izin) dapat membuat posting.
 
-## Comments and Ratings
+## Komentar dan Penilaian
 
-Readers can interact with blog posts through:
+Pembaca dapat berinteraksi dengan posting blog melalui cara berikut:
 
-* **Comments** — Leave feedback or start a discussion under a post (comments can also be threaded as replies to other comments)
-* **Ratings** — Rate posts to highlight the most valued contributions
-* **Attachments** — Both posts and comments can carry file attachments
+* **Komentar** — Memberikan umpan balik atau memulai diskusi di bawah posting (komentar juga dapat bersarang sebagai balasan atas komentar lain)
+* **Penilaian** — Memberi skor pada posting untuk menonjolkan kontribusi yang paling dihargai
+* **Lampiran** — Posting dan komentar dapat menyertakan file lampiran
 
-## Blog Tasks
+## Tugas Blog
 
-You can create **tasks** within a blog — specific writing assignments that learners must complete as blog posts. This is useful for:
+Anda dapat membuat **Tugas** di dalam blog — tugas penulisan spesifik yang harus diselesaikan siswa dalam bentuk posting blog. Ini cocok untuk:
 
-* Reflective journals
-* Weekly writing assignments
-* Project update reports
+* Jurnal refleksi
+* Tugas penulisan mingguan
+* Laporan pembaruan proyek
 
-## Managing the Blog
+## Mengelola Blog
 
-As the teacher, you can:
+Sebagai guru, Anda dapat:
 
-* **Edit or delete** posts and comments (post deletion is restricted to the post author or to teachers)
-* **Toggle blog visibility** to show or hide the blog from learners
-* **Define tasks** — Add specific writing assignments learners are expected to complete as posts. Tasks can be color-coded for easier visual grouping.
+* **Mengedit atau menghapus** posting dan komentar (menghapus posting hanya dapat dilakukan oleh penulis posting atau guru)
+* **Mengubah visibilitas blog** untuk menampilkan atau menyembunyikan blog dari siswa
+* **Menetapkan tugas** — Menambahkan tugas penulisan spesifik yang harus diselesaikan siswa dalam bentuk posting. Tugas dapat diberi kode warna untuk pengelompokan visual yang lebih mudah.

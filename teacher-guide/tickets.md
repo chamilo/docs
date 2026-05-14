@@ -1,78 +1,78 @@
-# Support Tickets
+# Tiket Dukungan
 
-The **Tickets** tool is a built-in helpdesk system that lets users submit support requests and track their resolution. Depending on how your platform is configured, you may use it as a **requester** (submitting tickets on behalf of yourself or your learners) or as a **support agent** (responding to tickets assigned to your category).
+Alat **Tickets** adalah sistem helpdesk bawaan yang memungkinkan pengguna mengirimkan permintaan dukungan dan melacak penyelesaiannya. Tergantung pada konfigurasi platform Anda, Anda dapat menggunakannya sebagai **requester** (mengirimkan tiket atas nama diri sendiri atau pembelajar Anda) atau sebagai **support agent** (merespons tiket yang ditugaskan ke kategori Anda).
 
-## How the System Is Organized
+## Bagaimana Sistem Diorganisir
 
-Tickets belong to **projects**, which are further divided into **categories**. Each category can have one or more support agents assigned to it. When a ticket is submitted, it is automatically routed to an available agent in the selected category.
+Tiket termasuk dalam **projects**, yang lebih lanjut dibagi menjadi **categories**. Setiap kategori dapat memiliki satu atau lebih support agent yang ditugaskan kepadanya. Ketika tiket dikirimkan, tiket tersebut secara otomatis dirutekan ke agen yang tersedia di kategori yang dipilih.
 
-Default categories include:
+Kategori default meliputi:
 
 | Category | Description |
 |----------|-------------|
-| Enrollment | Questions and issues about course or session enrollment |
-| General information | General platform questions |
-| Requests and paperwork | Administrative requests and documentation |
-| Academic Incidents | Issues related to exams, assignments, or tasks |
-| Virtual campus | Technical issues with the platform |
-| Online evaluation | Issues with a specific course assessment (requires selecting a course) |
+| Enrollment | Pertanyaan dan masalah tentang pendaftaran kursus atau sesi |
+| General information | Pertanyaan umum tentang platform |
+| Requests and paperwork | Permintaan administratif dan dokumentasi |
+| Academic Incidents | Masalah terkait ujian, tugas, atau pekerjaan |
+| Virtual campus | Masalah teknis dengan platform |
+| Online evaluation | Masalah dengan penilaian kursus tertentu (memerlukan pemilihan kursus) |
 
-## Accessing the Ticket Tool
+## Mengakses Alat Tiket
 
-If your administrator has enabled the ticket link, a ticket icon <img src="/.gitbook/assets/icons/mdi-ticket-account.svg" alt="Ticket" data-size="line"> appears in the top navigation bar. Click it to go directly to the ticket submission form.
+Jika administrator Anda telah mengaktifkan tautan tiket, ikon tiket <img src="/.gitbook/assets/icons/mdi-ticket-account.svg" alt="Tiket" data-size="line"> muncul di bilah navigasi atas. Klik ikon tersebut untuk langsung menuju formulir pengiriman tiket.
 
-You can also access your tickets from the main menu under **Support** or **Tickets**, depending on your platform configuration.
+Anda juga dapat mengakses tiket Anda dari menu utama di bawah **Support** atau **Tickets**, tergantung pada konfigurasi platform Anda.
 
-## Submitting a Ticket
+## Mengirimkan Tiket
 
-To open a new support request:
+Untuk membuka permintaan dukungan baru:
 
-1. Click **New ticket** (or the ticket icon in the top bar).
-2. Select the **category** that best matches your issue.
-3. If the category requires it (for example, Online evaluation), select the relevant **course**.
-4. Enter a **subject** — a short summary of the issue.
-5. Write your **message** describing the problem in detail.
-6. Optionally attach files (screenshots, documents) to help the support agent understand the issue.
-7. Click **Submit**.
+1. Klik **New ticket** (atau ikon tiket di bilah atas).
+2. Pilih **category** yang paling sesuai dengan masalah Anda.
+3. Jika kategori memerlukannya (misalnya, Online evaluation), pilih **kursus** yang relevan.
+4. Masukkan **subject** — ringkasan singkat dari masalah.
+5. Tulis **message** Anda yang menggambarkan masalah secara rinci.
+6. Secara opsional, lampirkan file (screenshot, dokumen) untuk membantu support agent memahami masalah.
+7. Klik **Submit**.
 
-The ticket is assigned an ID and routed to a support agent. You will receive a notification when the agent responds.
+Tiket diberi ID dan dirutekan ke support agent. Anda akan menerima notifikasi ketika agen merespons.
 
-## Tracking Your Tickets
+## Melacak Tiket Anda
 
-From the ticket list, you can see all tickets you have submitted and their current status:
+Dari daftar tiket, Anda dapat melihat semua tiket yang telah Anda kirimkan dan status saat ini mereka:
 
 | Status | Meaning |
 |--------|---------|
-| New | Just submitted, not yet reviewed |
-| Pending | Being reviewed by a support agent |
-| Unconfirmed | Awaiting confirmation or additional information |
-| Forwarded | Transferred to another team or agent |
-| Closed | Resolved |
+| New | Baru dikirimkan, belum ditinjau |
+| Pending | Sedang ditinjau oleh support agent |
+| Unconfirmed | Menunggu konfirmasi atau informasi tambahan |
+| Forwarded | Dipindahkan ke tim atau agen lain |
+| Closed | Telah terselesaikan |
 
-Click any ticket to read the full conversation thread and add a reply.
+Klik tiket apa pun untuk membaca seluruh utas percakapan dan menambahkan balasan.
 
-## Replying to a Ticket
+## Membalas Tiket
 
-Once a ticket is open, you and the support agent exchange messages within the same thread. To add a reply:
+Setelah tiket dibuka, Anda dan support agent bertukar pesan dalam utas yang sama. Untuk menambahkan balasan:
 
-1. Open the ticket from your list.
-2. Scroll to the reply field at the bottom.
-3. Write your response and attach files if needed.
-4. Click **Send**.
+1. Buka tiket dari daftar Anda.
+2. Gulir ke bidang balasan di bagian bawah.
+3. Tulis respons Anda dan lampirkan file jika diperlukan.
+4. Klik **Send**.
 
-Both parties receive notifications when a new message is added to the thread.
+Kedua pihak menerima notifikasi ketika pesan baru ditambahkan ke utas.
 
-## Handling Tickets as a Support Agent
+## Menangani Tiket sebagai Support Agent
 
-If your administrator has assigned you to one or more ticket categories, you will see incoming tickets from learners or colleagues in your queue.
+Jika administrator Anda telah menugaskan Anda ke satu atau lebih kategori tiket, Anda akan melihat tiket masuk dari pembelajar atau rekan kerja di antrian Anda.
 
-To respond to an assigned ticket:
+Untuk merespons tiket yang ditugaskan:
 
-1. Open your ticket list — assigned tickets appear alongside tickets you have submitted.
-2. Click a ticket to read the requester's message.
-3. Write a reply and click **Send**. The ticket status updates automatically.
-4. When the issue is resolved, change the status to **Closed**.
+1. Buka daftar tiket Anda — tiket yang ditugaskan muncul bersama tiket yang telah Anda kirimkan.
+2. Klik tiket untuk membaca pesan requester.
+3. Tulis balasan dan klik **Send**. Status tiket diperbarui secara otomatis.
+4. Ketika masalah terselesaikan, ubah status menjadi **Closed**.
 
-You can also change the **priority** of a ticket (Low, Normal, High) to help triage your queue.
+Anda juga dapat mengubah **priority** tiket (Low, Normal, High) untuk membantu mengurutkan antrian Anda.
 
-> Access to ticket categories is controlled by the platform administrator. If you need to be added as a support agent for a category, contact your administrator. See the Admin Guide's [Tickets Settings](../admin-guide/platform-settings/ticket-settings.md) for configuration options.
+> Akses ke kategori tiket dikendalikan oleh administrator platform. Jika Anda perlu ditambahkan sebagai support agent untuk kategori, hubungi administrator Anda. Lihat [Pengaturan Tiket](../admin-guide/platform-settings/ticket-settings.md) di Panduan Admin untuk opsi konfigurasi.

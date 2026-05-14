@@ -1,111 +1,110 @@
-# Surveys Settings
+# Pengaturan Survei
 
-Defaults and behaviour of the **Surveys** tool.
+Pengaturan bawaan dan perilaku alat **Survei**.
 
-Access these settings under **Administration > Configuration settings > Surveys**. This category contains **12 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+Akses pengaturan ini di bawah **Administrasi > Pengaturan Konfigurasi > Survei**. Kategori ini berisi **12 pengaturan**, yang tercantum di bawah ini beserta judul dan komentar yang disertakan dalam fixture pengaturan platform (`SettingsCurrentFixtures.php`).
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> Nama variabel dalam kode ditampilkan dalam format monospace. Gunakan saat membuat skrip melalui API atau ketika Anda perlu mengubah pengaturan tersebut pada tingkat global dengan mengedit [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
 
-## Settings
+## Pengaturan
 
 ### `extend_rights_for_coach_on_survey`
 
-**Extend rights for coachs on surveys**
+**Perluas hak untuk pelatih pada survei**
 
-Activate this option will allow the coachs to create and edit surveys
+Mengaktifkan opsi ini akan memungkinkan pelatih untuk membuat dan mengedit survei.
 
 *Default: `true`*
 
 
 ### `hide_survey_edition`
 
-**Prevent survey edition**
+**Cegah pengeditan survei**
 
-Prevent editing surveys for all surveys listed here (by code). Use * to prevent edition of all surveys.
+Mencegah pengeditan survei untuk semua survei yang tercantum di sini (berdasarkan kode). Gunakan * untuk mencegah pengeditan semua survei.
 
 ### `hide_survey_reporting_button`
 
-**Hide survey reporting button**
+**Sembunyikan tombol pelaporan survei**
 
-Allows admins to hide survey reporting button if surveys are used to survey teachers.
+Memungkinkan admin untuk menyembunyikan tombol pelaporan survei jika survei digunakan untuk mengevaluasi guru.
 
 *Default: `false`*
 
 
 ### `show_pending_survey_in_menu`
 
-**Show "Pending surveys" in menu**
+**Tampilkan "Survei Tertunda" di menu**
 
-Display a menu item that lets users access their pending surveys.
+Menampilkan item menu yang memungkinkan pengguna mengakses survei tertunda mereka.
 
 *Default: `false`*
 
 
 ### `show_surveys_base_in_sessions`
 
-**Display surveys from base course in all session courses**
+**Tampilkan survei dari kursus dasar di semua kursus sesi**
 
-[inferred] Make surveys from the base course visible and available to learners in all related session courses.
+Membuat survei dari kursus dasar terlihat dan tersedia bagi peserta didik di semua kursus sesi terkait.
 
 *Default: `false`*
 
 
 ### `survey_additional_teacher_modify_actions`
 
-**Add additional actions (as links) to survey lists for teachers**
+**Tambahkan tindakan tambahan (sebagai tautan) ke daftar survei untuk guru**
 
-Add actions (usually connected to plugins) in the list of surveys. Use array syntax ['myplugin' => ['MyPlugin', 'urlGeneratorCallback']].
+Menambahkan tindakan (biasanya terhubung ke plugin) dalam daftar survei. Gunakan sintaks array ['myplugin' => ['MyPlugin', 'urlGeneratorCallback']].
 
 ### `survey_allow_answered_question_edit`
 
-**Allow teachers to edit survey questions after students answered**
+**Izinkan guru mengedit pertanyaan survei setelah siswa menjawab**
 
-[inferred] Allow instructors to modify survey questions even after learners have submitted responses.
+Mengizinkan instruktur untuk mengubah pertanyaan survei bahkan setelah peserta didik telah mengirimkan tanggapan.
 
 *Default: `false`*
 
 
 ### `survey_anonymous_show_answered`
 
-**Allow teachers to see who answered in anonymous surveys**
+**Izinkan guru melihat siapa yang menjawab dalam survei anonim**
 
-Allow teachers to see which learners have already answered an anonymous survey. This only appears once more than one user has answered, so it remains difficult to identify who answered what.
+Mengizinkan guru untuk melihat peserta didik mana yang telah menjawab survei anonim. Ini hanya muncul setelah lebih dari satu pengguna menjawab, sehingga tetap sulit untuk mengidentifikasi siapa yang menjawab apa.
 
 *Default: `false`*
 
 
 ### `survey_backwards_enable`
 
-**Enable 'previous question' button in surveys**
+**Aktifkan tombol 'pertanyaan sebelumnya' dalam survei**
 
-[inferred] Enable a "previous question" navigation button to allow learners to review earlier survey questions.
+Mengaktifkan tombol navigasi "pertanyaan sebelumnya" untuk memungkinkan peserta didik meninjau pertanyaan survei sebelumnya.
 
 *Default: `false`*
 
 
 ### `survey_duplicate_order_by_name`
 
-**Order by student name when using survey duplication feature**
+**Urutkan berdasarkan nama siswa saat menggunakan fitur duplikasi survei**
 
-The survey duplication feature is oriented towards teachers and is meant to ask teachers to give their appreciation about each student in order. This option will order the questions by learner's lastname.
+Fitur duplikasi survei ditujukan untuk guru dan dimaksudkan untuk meminta guru memberikan penilaian tentang setiap siswa secara berurutan. Opsi ini akan mengurutkan pertanyaan berdasarkan nama belakang peserta didik.
 
 *Default: `true`*
 
 
 ### `survey_email_sender_noreply`
 
-**Survey e-mail sender (no-reply)**
+**Pengirim email survei (tanpa balasan)**
 
-Should the survey invitations use the coach e-mail address or the no-reply address defined in the main configuration section?
+Haruskah undangan survei menggunakan alamat email pelatih atau alamat tanpa balasan yang ditentukan di bagian konfigurasi utama?
 
 *Default: `coach`*
 
 
 ### `survey_mark_question_as_required`
 
-**Mark all survey questions as 'required' by default**
+**Tandai semua pertanyaan survei sebagai 'wajib' secara bawaan**
 
-[inferred] Automatically mark all newly created survey questions as required responses by default.
+Secara otomatis menandai semua pertanyaan survei yang baru dibuat sebagai tanggapan wajib secara bawaan.
 
 *Default: `false`*
-

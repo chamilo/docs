@@ -1,120 +1,109 @@
-# Skills Settings
+# Pengaturan Keterampilan
 
-Behaviour of the **Skills** system — skills tree, awarding rules, profile integration.
+Perilaku sistem **Keterampilan** — pohon keterampilan, aturan pemberian, integrasi profil.
 
-Access these settings under **Administration > Configuration settings > Skills**. This category contains **13 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+Akses pengaturan ini di bawah **Administrasi > Pengaturan Konfigurasi > Keterampilan**. Kategori ini berisi **13 pengaturan**, yang tercantum di bawah ini beserta judul dan komentar yang disertakan dalam fixture pengaturan platform (`SettingsCurrentFixtures.php`).
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> Nama variabel dalam kode ditampilkan dalam format monospace. Gunakan ini saat membuat skrip melalui API atau ketika Anda perlu mengubah pengaturan tersebut pada tingkat global dengan mengedit [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
 
-## Settings
+## Pengaturan
 
 ### `allow_hr_skills_management`
 
-**Allow HR skills management**
+**Izinkan manajemen keterampilan oleh HR**
 
-Allows HR to manage skills
+Mengizinkan HR untuk mengelola keterampilan
 
 *Default: `true`*
 
-
 ### `allow_private_skills`
 
-**Hide skills from learners**
+**Sembunyikan keterampilan dari peserta didik**
 
-If enabled, skills can only be visible for admins, teachers (related to a user via a course), and HRM users (if related to a user).
+Jika diaktifkan, keterampilan hanya dapat dilihat oleh admin, pengajar (yang terkait dengan pengguna melalui kursus), dan pengguna HRM (jika terkait dengan pengguna).
 
 *Default: `false`*
-
 
 ### `allow_skill_rel_items`
 
-**Enable linking skills to items**
+**Aktifkan penautan keterampilan ke item**
 
-This enables a major feature that enables any item to be linked to (and as such to allow acquisition of) a skill. The feature still requires the teacher to confirm the acquisition of the skill, so the acquisition is not automatic.
+Ini mengaktifkan fitur utama yang memungkinkan item apa pun untuk ditautkan ke (dan dengan demikian memungkinkan perolehan) keterampilan. Fitur ini masih memerlukan pengajar untuk mengonfirmasi perolehan keterampilan, sehingga perolehan tidak otomatis.
 
 *Default: `false`*
 
-
 ### `allow_skills_tool`
 
-**Allow Skills tool**
+**Izinkan alat Keterampilan**
 
-Users can see their skills in the social network and in a block in the homepage.
+Pengguna dapat melihat keterampilan mereka di jejaring sosial dan di blok di halaman utama.
 
 *Default: `true`*
 
 ### `allow_teacher_access_student_skills`
 
-**Allow teachers to access learners' skills**
+**Izinkan pengajar mengakses keterampilan peserta didik**
 
-[inferred] Allow instructors to view and monitor skills acquired by learners in their courses.
+[disimpulkan] Mengizinkan instruktur untuk melihat dan memantau keterampilan yang diperoleh oleh peserta didik dalam kursus mereka.
 
 *Default: `false`*
-
 
 ### `badge_assignation_notification`
 
-**Send notification to learner when a skill/badge has been acquired**
+**Kirim pemberitahuan ke peserta didik ketika keterampilan/lencana telah diperoleh**
 
-[inferred] Send notifications to learners when they acquire a new skill or badge achievement.
+[disimpulkan] Mengirim pemberitahuan ke peserta didik ketika mereka memperoleh keterampilan baru atau pencapaian lencana.
 
 *Default: `false`*
-
 
 ### `hide_skill_levels`
 
-**Hide skill levels feature**
+**Sembunyikan fitur tingkat keterampilan**
 
-[inferred] Conceal the skill level hierarchy and level labels in skill-related views.
+[disimpulkan] Menyembunyikan hierarki tingkat keterampilan dan label tingkat dalam tampilan terkait keterampilan.
 
 *Default: `false`*
-
 
 ### `manual_assignment_subskill_autoload`
 
-**Assigning skills to user: sub-skills auto-loading**
+**Penugasan keterampilan ke pengguna: pemuatan otomatis sub-keterampilan**
 
-When manually assigning skills to a user, the form can be set to automatically offer you to assign a sub-skill instead of the skill you selected.
+Saat menugaskan keterampilan secara manual ke pengguna, formulir dapat diatur untuk secara otomatis menawarkan Anda untuk menugaskan sub-keterampilan alih-alih keterampilan yang Anda pilih.
 
 *Default: `false`*
-
 
 ### `openbadges_backpack`
 
-**OpenBadges backpack URL**
+**URL ransel OpenBadges**
 
-The URL of the OpenBadges backpack server that will be used by default for all users wanting to export their badges. This defaults to the open and free Mozilla Foundation backpack repository: https://backpack.openbadges.org/
+URL server ransel OpenBadges yang akan digunakan secara default untuk semua pengguna yang ingin mengekspor lencana mereka. Ini secara default mengarah ke repositori ransel gratis dan terbuka dari Mozilla Foundation: https://backpack.openbadges.org/
 
 ### `show_full_skill_name_on_skill_wheel`
 
-**Show full skill name on skill wheel**
+**Tampilkan nama lengkap keterampilan di roda keterampilan**
 
-On the wheel of skills, it shows the name of the skill when it has short code.
+Pada roda keterampilan, ini menampilkan nama keterampilan ketika memiliki kode pendek.
 
 *Default: `false`*
-
 
 ### `skill_levels_names`
 
-**Skill levels names**
+**Nama tingkat keterampilan**
 
-Define names for levels of skills as an array of id => name.
+Tentukan nama untuk tingkat keterampilan sebagai array id => nama.
 
 ### `skills_hierarchical_view_in_user_tracking`
 
-**Show skills as a hierarchical table**
+**Tampilkan keterampilan sebagai tabel hierarkis**
 
-[inferred] Display learner skills as a hierarchical tree structure in progress and reporting pages.
+[disimpulkan] Menampilkan keterampilan peserta didik sebagai struktur pohon hierarkis di halaman kemajuan dan pelaporan.
 
 *Default: `false`*
-
 
 ### `skills_teachers_can_assign_skills`
 
-**Allow teachers to set which skills are acquired through their courses**
+**Izinkan pengajar menentukan keterampilan yang diperoleh melalui kursus mereka**
 
-By default, only admins can decide which skills can be acquired through which course.
+Secara default, hanya admin yang dapat menentukan keterampilan mana yang dapat diperoleh melalui kursus tertentu.
 
 *Default: `false`*
-
-

@@ -1,80 +1,80 @@
-# Resource System
+# Sistem Sumber Daya
 
-The resource system is one of the most important architectural concepts in Chamilo 2.0. It provides a unified abstraction for all course content — documents, exercises, learning paths, forum posts, and more.
+Sistem sumber daya adalah salah satu konsep arsitektur paling penting di Chamilo 2.0. Sistem ini menyediakan abstraksi terpadu untuk semua konten kursus — dokumen, latihan, jalur pembelajaran, posting di forum, dan banyak lagi.
 
-## Core Concept
+## Konsep Inti
 
-Every piece of course content is represented by a **ResourceNode**. This gives all content types a common set of capabilities:
+Setiap bagian dari konten kursus diwakili oleh sebuah **ResourceNode**. Ini memberikan serangkaian kemampuan umum untuk semua jenis konten:
 
-* **Visibility control** — Show/hide from learners
-* **Access control** — Security voters check permissions via the ResourceNode
-* **File storage** — Attached files are stored via ResourceFile
-* **Tree structure** — ResourceNodes form a tree (parent-child relationships)
-* **Audit trail** — Creator, creation date, modification tracking
+* **Kontrol visibilitas** — Tampilkan/sembunyikan untuk siswa
+* **Kontrol akses** — Pemilih keamanan memeriksa izin melalui ResourceNode
+* **Penyimpanan berkas** — Berkas yang dilampirkan disimpan melalui ResourceFile
+* **Struktur pohon** — ResourceNodes membentuk pohon (hubungan induk-anak)
+* **Jejak audit** — Pencipta, tanggal pembuatan, pelacakan modifikasi
 
-## Key Entities
+## Entitas Utama
 
 ### ResourceNode (`src/CoreBundle/Entity/ResourceNode.php`)
 
-The central entity. Every content entity has a one-to-one relationship with a ResourceNode.
+Entitas pusat. Setiap entitas konten memiliki hubungan satu-ke-satu dengan sebuah ResourceNode.
 
-Key fields:
+Kolom utama:
 
-| Field | Type | Description |
-|-------|------|-------------|
-| `id` | integer | Primary key |
-| `uuid` | UUID v4 | Unique identifier for API use |
-| `title` | string | Display title |
-| `creator` | User | The user who created this resource |
-| `resourceFile` | ResourceFile | The attached file (if any) |
-| `resourceType` | ResourceType | The type of resource (document, quiz, etc.) |
-| `parent` | ResourceNode | Parent in the resource tree |
-| `children` | Collection | Child ResourceNodes |
-| `resourceLinks` | Collection | Visibility and access links |
+| Kolom | Tipe | Deskripsi |
+|-------|------|-----------|
+| `id` | integer | Kunci utama |
+| `uuid` | UUID v4 | Pengenal unik untuk penggunaan di API |
+| `title` | string | Judul yang ditampilkan |
+| `creator` | User | Pengguna yang membuat sumber daya ini |
+| `resourceFile` | ResourceFile | Berkas yang dilampirkan (jika ada) |
+| `resourceType` | ResourceType | Jenis sumber daya (dokumen, kuis, dll.) |
+| `parent` | ResourceNode | Induk dalam pohon sumber daya |
+| `children` | Collection | ResourceNodes anak |
+| `resourceLinks` | Collection | Tautan visibilitas dan akses |
 
-The tree uses Gedmo's **materialized path** strategy for efficient hierarchical queries.
+Pohon ini menggunakan strategi **materialized path** dari Gedmo untuk kueri hierarkis yang efisien.
 
 ### ResourceFile (`src/CoreBundle/Entity/ResourceFile.php`)
 
-Stores the actual file data for a resource:
+Menyimpan data berkas aktual untuk sebuah sumber daya:
 
-| Field | Type | Description |
-|-------|------|-------------|
-| `id` | integer | Primary key |
-| `title` | string | Original filename |
-| `mimeType` | string | MIME type |
-| `originalName` | string | Original upload name |
-| `size` | integer | File size in bytes |
-| `crop` | string | Crop data (for images) |
+| Kolom | Tipe | Deskripsi |
+|-------|------|-----------|
+| `id` | integer | Kunci utama |
+| `title` | string | Nama asli berkas |
+| `mimeType` | string | Tipe MIME |
+| `originalName` | string | Nama asli saat diunggah |
+| `size` | integer | Ukuran berkas dalam byte |
+| `crop` | string | Data pemotongan (untuk gambar) |
 
-File storage is handled by Flysystem, so files can be on local disk, S3, Azure, or GCS depending on configuration.
+Penyimpanan berkas dikelola oleh Flysystem, memungkinkan berkas disimpan di disk lokal, S3, Azure, atau GCS, tergantung pada konfigurasi.
 
 ### ResourceLink
 
-Controls visibility and access per context. There are 3 main context types:
+Mengontrol visibilitas dan akses berdasarkan konteks. Ada 3 jenis konteks utama:
 
-1. Course
-2. Session
-3. Group (in a course)
+1. Kursus
+2. Sesi
+3. Grup (dalam sebuah kursus)
 
-So the ResourceLink entity reflects the combination of those 3 context types and establishes a visibility for that complete context:
+Dengan demikian, entitas ResourceLink mencerminkan kombinasi dari ketiga jenis konteks ini dan menetapkan visibilitas untuk konteks lengkap tersebut:
 
-| Field | Type | Description |
-|-------|------|-------------|
-| `course` | Course | Which course the resource belongs to |
-| `session` | Session | Which session (null for base course) |
-| `group` | CGroup | Which group (null for whole course) |
-| `visibility` | integer | Visible, invisible, or deleted |
+| Kolom | Tipe | Deskripsi |
+|-------|------|-----------|
+| `course` | Course | Kursus mana yang menjadi milik sumber daya ini |
+| `session` | Session | Sesi mana (kosong untuk kursus dasar) |
+| `group` | CGroup | Grup mana (kosong untuk seluruh kursus) |
+| `visibility` | integer | Terlihat, tidak terlihat, atau dihapus |
 
-This allows the same ResourceNode to have different visibility in different contexts (e.g., visible in one session but hidden in another).
+Ini memungkinkan ResourceNode yang sama memiliki visibilitas berbeda di konteks yang berbeda (misalnya, terlihat di satu sesi, tetapi disembunyikan di sesi lain).
 
-This is set automatically when using the interface and deciding, for example, that a resource is a session-specific resource which will be visible for all groups in a given course in a given session, but invisible in the base course or in another session.
+Ini ditetapkan secara otomatis saat menggunakan antarmuka dan memutuskan, misalnya, bahwa sebuah sumber daya khusus untuk sebuah sesi, menjadi terlihat untuk semua grup dalam kursus tertentu pada sesi tertentu, tetapi tidak terlihat di kursus dasar atau sesi lain.
 
-By default, resources visible in a base course are also visible in all sessions of that course, but the course tutor can decide to hide a resource from a specific session. In this case, we will retrieve the specific visibility for this resource in this session and see that it has a visibility of 0, so the item will not appear to learners in this session, while a lack of session-specific visibility in other sessions will make the resource use the visibility of the base course (and the resource will show to learners).
+Secara default, sumber daya yang terlihat di kursus dasar juga terlihat di semua sesi kursus tersebut, tetapi tutor kursus dapat memutuskan untuk menyembunyikan sumber daya dari sesi tertentu. Dalam kasus ini, kami akan mengambil visibilitas spesifik untuk sumber daya tersebut di sesi ini dan melihat bahwa visibilitasnya adalah 0, sehingga item tersebut tidak akan muncul untuk siswa di sesi ini, sementara kurangnya visibilitas spesifik sesi di sesi lain akan membuat sumber daya menggunakan visibilitas kursus dasar (dan sumber daya akan ditampilkan untuk siswa).
 
-## API Platform Integration
+## Integrasi dengan API Platform
 
-ResourceNode is exposed as an API Platform resource with security:
+ResourceNode diekspos sebagai sumber daya API Platform dengan keamanan:
 
 ```php
 #[ApiResource(
@@ -87,24 +87,24 @@ ResourceNode is exposed as an API Platform resource with security:
 )]
 ```
 
-## How Content Entities Connect
+## Bagaimana Entitas Konten Terhubung
 
-Course content entities (CDocument, CQuiz, CLp, etc.) extend `AbstractResource` or implement `ResourceInterface`, which gives them a `resourceNode` relationship:
+Entitas konten kursus (CDocument, CQuiz, CLp, dll.) memperluas `AbstractResource` atau mengimplementasikan `ResourceInterface`, yang memberikan mereka hubungan `resourceNode`:
 
 ```php
-// In CDocument entity:
+// Dalam entitas CDocument:
 #[ORM\OneToOne(targetEntity: ResourceNode::class)]
 private ResourceNode $resourceNode;
 ```
 
-When you create a CDocument, a ResourceNode is automatically created alongside it, providing unified resource management.
+Ketika Anda membuat sebuah CDocument, sebuah ResourceNode secara otomatis dibuat bersamanya, memberikan pengelolaan sumber daya yang terpadu.
 
-## Practical Implications
+## Implikasi Praktis
 
-When working with course content:
+Saat bekerja dengan konten kursus:
 
-1. **Creating content** — Create both the content entity AND its ResourceNode
-2. **Checking permissions** — Use the ResourceNode's security voters
-3. **Managing files** — Attach files through ResourceFile
-4. **Controlling visibility** — Create/modify ResourceLinks
-5. **Building trees** — Use the parent-child relationship on ResourceNode for folder structures (e.g., document folders)
+1. **Pembuatan konten** — Buat baik entitas konten maupun ResourceNode-nya
+2. **Pemeriksaan izin** — Gunakan pemilih keamanan dari ResourceNode
+3. **Pengelolaan berkas** — Lampirkan berkas melalui ResourceFile
+4. **Kontrol visibilitas** — Buat/modifikasi ResourceLinks
+5. **Pembangunan struktur pohon** — Gunakan hubungan induk-anak di ResourceNode untuk struktur folder (misalnya, folder dokumen)

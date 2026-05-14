@@ -1,59 +1,59 @@
-# Exercise Generator
+# Generator Latihan
 
-The AI Exercise Generator helps you create quiz questions automatically using artificial intelligence. You provide a topic or content, and the AI generates questions that you can review, edit, and add to your exercises.
+Generator Latihan AI membantu Anda membuat pertanyaan kuis secara otomatis menggunakan kecerdasan buatan. Anda memberikan topik atau konten, dan AI akan menghasilkan pertanyaan yang dapat Anda tinjau, edit, dan tambahkan ke latihan Anda.
 
-## Accessing the Exercise Generator
+## Mengakses Generator Latihan
 
-The Exercise Generator is available when creating or editing an exercise, provided that:
+Generator Latihan tersedia saat membuat atau mengedit latihan, dengan syarat:
 
-1. AI helpers are enabled at the platform level
-2. At least one AI text provider is configured
+1. Pembantu AI diaktifkan di tingkat platform
+2. Setidaknya satu penyedia teks AI telah dikonfigurasi
 
-Look for the **AI Generator** button or section within the exercise creation interface.
+Cari tombol atau bagian **Generator AI** di dalam antarmuka pembuatan latihan.
 
-## How to Generate Questions
+## Cara Menghasilkan Pertanyaan
 
-![The AI exercise generator form with fields for topic and number of questions](/.gitbook/assets/ai-exercise-generator.png)
+![Formulir generator latihan AI dengan kolom untuk topik dan jumlah pertanyaan](/.gitbook/assets/ai-exercise-generator.png)
 
-The generator offers two modes, available as tabs:
+Generator ini menawarkan dua mode, tersedia sebagai tab:
 
-* **Test from topic** — Generate questions from a textual topic description
-* **Test from document** — Generate questions from a course document (only available when a document-capable provider is configured). When this mode is used, the topic field becomes optional and is treated as an extra hint.
+* **Tes dari topik** — Menghasilkan pertanyaan dari deskripsi topik teks
+* **Tes dari dokumen** — Menghasilkan pertanyaan dari dokumen kursus (hanya tersedia jika penyedia yang mendukung dokumen telah dikonfigurasi). Saat mode ini digunakan, kolom topik menjadi opsional dan dianggap sebagai petunjuk tambahan.
 
-1. Open the AI Generator form within an exercise and pick the mode
-2. Configure the generation parameters:
-   * **Quiz title** — The title for the resulting exercise
-   * **Questions topic** — Describe what the questions should be about (or, in document mode, an optional hint)
-   * **Number of questions** — How many questions to generate (capped at 100)
-   * **Question type** — Currently only **Multiple answer** is offered
-   * **AI provider** — Select which AI provider to use (only shown when more than one is configured)
-3. Click **Generate**
-4. The AI produces a set of questions with answer options and correct answers marked. When AI disclosure is enabled, generated questions are prefixed with **\[AI-assisted\]**.
+1. Buka formulir Generator AI di dalam latihan dan pilih mode
+2. Konfigurasikan parameter pembuatan:
+   * **Judul Kuis** — Judul untuk latihan yang dihasilkan
+   * **Topik Pertanyaan** — Jelaskan tentang apa pertanyaan tersebut (atau, dalam mode dokumen, petunjuk opsional)
+   * **Jumlah Pertanyaan** — Berapa banyak pertanyaan yang akan dihasilkan (dibatasi hingga 100)
+   * **Jenis Pertanyaan** — Saat ini hanya **Jawaban Ganda** yang ditawarkan
+   * **Penyedia AI** — Pilih penyedia AI yang akan digunakan (hanya ditampilkan jika lebih dari satu dikonfigurasi)
+3. Klik **Hasilkan**
+4. AI menghasilkan sejumlah pertanyaan dengan opsi jawaban dan jawaban yang benar ditandai. Ketika pengungkapan AI diaktifkan, pertanyaan yang dihasilkan diberi awalan **\[Bantuan AI\]**.
 
-## Reviewing and Editing
+## Meninjau dan Mengedit
 
-![AI-generated questions displayed for review with options to edit, accept, or remove each one](/.gitbook/assets/ai-exercise-generator-results.png)
+![Pertanyaan yang dihasilkan AI ditampilkan untuk ditinjau dengan opsi untuk mengedit, menerima, atau menghapus masing-masing](/.gitbook/assets/ai-exercise-generator-results.png)
 
-Generated questions are presented as **suggestions**. You should:
+Pertanyaan yang dihasilkan disajikan sebagai **saran**. Anda harus:
 
-* **Review each question** for accuracy and relevance
-* **Edit the wording** if needed — adjust questions, answer options, and feedback
-* **Verify correct answers** — make sure the AI has identified the right answers
-* **Remove unsuitable questions** — delete any that don't meet your standards
-* **Adjust scoring** — set appropriate point values for each question
+* **Meninjau setiap pertanyaan** untuk akurasi dan relevansi
+* **Mengedit redaksi** jika diperlukan — sesuaikan pertanyaan, opsi jawaban, dan umpan balik
+* **Memverifikasi jawaban yang benar** — pastikan AI telah mengidentifikasi jawaban yang tepat
+* **Menghapus pertanyaan yang tidak sesuai** — hapus pertanyaan yang tidak memenuhi standar Anda
+* **Menyesuaikan skor** — tetapkan nilai poin yang sesuai untuk setiap pertanyaan
 
-Once you are satisfied, add the questions to your exercise.
+Setelah Anda puas, tambahkan pertanyaan ke latihan Anda.
 
-Note that despite our specific format requests, some models will return question titles prefixed by a number. We don't recommend leaving that number there as this will hinder the mix of questions in tests with randomly selected questions. Also, sometimes you don't get as many questions as you've asked, so make sure you check that and potentially generate more questions, or change model if you have that possibility.
+Perhatikan bahwa meskipun kami meminta format tertentu, beberapa model akan mengembalikan judul pertanyaan dengan awalan nomor. Kami tidak merekomendasikan untuk membiarkan nomor tersebut tetap ada karena ini akan menghambat pencampuran pertanyaan dalam tes dengan pertanyaan yang dipilih secara acak. Juga, terkadang Anda tidak mendapatkan jumlah pertanyaan sebanyak yang Anda minta, jadi pastikan Anda memeriksanya dan mungkin menghasilkan lebih banyak pertanyaan, atau mengganti model jika Anda memiliki kemungkinan tersebut.
 
-## AI-Generated Content Disclosure
+## Pengungkapan Konten yang Dihasilkan AI
 
-Content generated by AI is labeled with a disclosure notice, indicating that it was created using artificial intelligence. This transparency helps learners understand the origin of the material.
+Konten yang dihasilkan oleh AI diberi label dengan pemberitahuan pengungkapan, yang menunjukkan bahwa konten tersebut dibuat menggunakan kecerdasan buatan. Transparansi ini membantu peserta didik memahami asal-usul materi tersebut.
 
 ## Tips
 
-* **Provide specific topics** — The more specific your topic description, the more relevant the generated questions will be.
-* **Always review** — AI-generated content may contain errors. Never publish questions without reviewing them first.
-* **Use as a starting point** — Generated questions are a time-saver, not a finished product. Edit them to match your teaching style and course content.
-* **Mix with manual questions** — Combine AI-generated questions with manually created ones for the best results.
-* **Try different providers** — If multiple AI providers are available, try different ones to see which produces the best questions for your subject area.
+* **Berikan topik yang spesifik** — Semakin spesifik deskripsi topik Anda, semakin relevan pertanyaan yang dihasilkan.
+* **Selalu tinjau** — Konten yang dihasilkan AI mungkin mengandung kesalahan. Jangan pernah mempublikasikan pertanyaan tanpa meninjaunya terlebih dahulu.
+* **Gunakan sebagai titik awal** — Pertanyaan yang dihasilkan adalah penghemat waktu, bukan produk jadi. Edit agar sesuai dengan gaya mengajar dan konten kursus Anda.
+* **Campur dengan pertanyaan manual** — Gabungkan pertanyaan yang dihasilkan AI dengan yang dibuat secara manual untuk hasil terbaik.
+* **Coba penyedia yang berbeda** — Jika beberapa penyedia AI tersedia, cobalah yang berbeda untuk melihat mana yang menghasilkan pertanyaan terbaik untuk bidang studi Anda.

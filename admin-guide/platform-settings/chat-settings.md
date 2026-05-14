@@ -1,50 +1,49 @@
-# Chat Settings
+# Pengaturan Obrolan
 
-Behaviour of the course **Chat** tool.
+Perilaku alat **Obrolan** dalam kursus.
 
-Access these settings under **Administration > Configuration settings > Chat**. This category contains **5 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+Akses pengaturan ini di bawah **Administrasi > Pengaturan Konfigurasi > Obrolan**. Kategori ini berisi **5 pengaturan**, yang tercantum di bawah ini beserta judul dan komentar yang disertakan dalam fixture pengaturan platform (`SettingsCurrentFixtures.php`).
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> Nama variabel dalam kode ditampilkan dalam format monospace. Gunakan saat membuat skrip melalui API atau ketika Anda perlu mengubah pengaturan tersebut pada tingkat global dengan mengedit [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
 
-## Settings
+## Pengaturan
 
 ### `allow_global_chat`
 
-**Allow global chat**
+**Izinkan obrolan global**
 
-Users can chat with each other
+Pengguna dapat mengobrol satu sama lain
 
 *Default: `false`*
 
 ### `course_chat_restrict_to_coach`
 
-**Restrict course chat to coaches**
+**Batasi obrolan kursus hanya untuk pelatih**
 
-Only allow students to talk to the tutors in the course (not other students).
+Hanya izinkan siswa untuk berbicara dengan tutor dalam kursus (bukan dengan siswa lain).
 
 *Default: `false`*
 
 ### `hide_chat_video`
 
-**Hide videochat option in global chat**
+**Sembunyikan opsi obrolan video di obrolan global**
 
-When enabled, video chat functionality is disabled and unavailable in the global chat tool.
+Jika diaktifkan, fungsi obrolan video akan dinonaktifkan dan tidak tersedia di alat obrolan global.
 
 *Default: `true`*
 
 ### `save_private_conversations_in_documents`
 
-**Save private conversations in documents**
+**Simpan percakapan pribadi dalam dokumen**
 
-If enabled, 1:1 private chat messages will be mirrored in the course chat history documents. Recommended to keep disabled for privacy.
+Jika diaktifkan, pesan obrolan pribadi 1:1 akan dicerminkan dalam dokumen riwayat obrolan kursus. Disarankan untuk tetap dinonaktifkan demi privasi.
 
 *Default: `false`*
 
 ### `show_chat_folder`
 
-**Show the history folder of chat conversations**
+**Tampilkan folder riwayat percakapan obrolan**
 
-This will show to theacher the folder that contains all sessions that have been made in the chat, the teacher can make them visible or not learners and use them as a resource
+Ini akan menampilkan kepada guru folder yang berisi semua sesi yang telah dilakukan di obrolan, guru dapat membuatnya terlihat atau tidak bagi peserta didik dan menggunakannya sebagai sumber daya
 
 *Default: `true`*
-

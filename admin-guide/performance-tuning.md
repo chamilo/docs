@@ -1,92 +1,92 @@
-# Performance Tuning
+# Penyetelan Performa
 
-Performance settings help optimize Chamilo for faster page loads and better resource utilization, especially on platforms with many concurrent users.
+Pengaturan performa membantu mengoptimalkan Chamilo untuk pemuatan halaman yang lebih cepat dan pemanfaatan sumber daya yang lebih baik, terutama pada platform dengan banyak pengguna bersamaan.
 
-> **Additional reference**: Your Chamilo installation includes an extended optimization guide. Open `/documentation/optimization.html` in a browser (e.g. `https://your-chamilo-site/documentation/optimization.html`) for server-level recommendations specific to your version.
+> **Referensi tambahan**: Instalasi Chamilo Anda menyertakan panduan optimasi yang lebih luas. Buka `/documentation/optimization.html` di peramban (misalnya `https://your-chamilo-site/documentation/optimization.html`) untuk rekomendasi tingkat server yang spesifik untuk versi Anda.
 
-## Symfony Cache
+## Cache Symfony
 
-Chamilo 2.0 is built on Symfony, which uses a compiled cache for routing, dependency injection, and templates. Managing this cache is essential for performance.
+Chamilo 2.0 dibangun di atas Symfony, yang menggunakan cache yang dikompilasi untuk routing, injeksi dependensi, dan template. Mengelola cache ini sangat penting untuk performa.
 
-### Clearing the Cache
+### Menghapus Cache
 
-After configuration changes, deployment, or upgrades, clear the Symfony cache:
+Setelah perubahan konfigurasi, deployment, atau pembaruan, hapus cache Symfony:
 
 ```bash
-# Clear cache for the current environment
+# Menghapus cache untuk lingkungan saat ini
 php bin/console cache:clear
 
-# For production environments specifically
+# Khusus untuk lingkungan produksi
 php bin/console cache:clear --env=prod
 ```
 
-In production, always ensure `APP_ENV=prod` is set in your `.env.local` file. The development environment (`APP_ENV=dev`) includes extensive debugging overhead and should never be used in production.
+Dalam lingkungan produksi, pastikan selalu `APP_ENV=prod` diatur dalam file `.env.local` Anda. Lingkungan pengembangan (`APP_ENV=dev`) menyertakan overhead debugging yang ekstensif dan tidak boleh digunakan dalam produksi.
 
-### Cache Warmup
+### Pemanasan Cache
 
-After clearing cache, warm it up to pre-compile templates and configuration:
+Setelah menghapus cache, panaskan cache untuk mengkompilasi ulang template dan konfigurasi:
 
 ```bash
 php bin/console cache:warmup --env=prod
 ```
 
-## Caching Strategies
+## Strategi Cache
 
-| Strategy | Description |
-|----------|-------------|
-| **OPcache** | PHP's built-in opcode cache. Ensure it is enabled in your `php.ini` with adequate memory (`opcache.memory_consumption=256`). This is the single most impactful performance optimization. |
-| **APCu** | An in-memory key-value cache used by Symfony for storing metadata. Install the APCu PHP extension and configure it in your Symfony cache configuration. |
-| **Redis / Memcached** | For high-traffic platforms, configure an external cache backend. Set the cache adapter in `config/packages/cache.yaml`. |
+| Strategi | Deskripsi |
+|----------|-----------|
+| **OPcache** | Cache opcode bawaan PHP. Pastikan diaktifkan di `php.ini` Anda dengan memori yang memadai (`opcache.memory_consumption=256`). Ini adalah optimasi performa yang paling berdampak. |
+| **APCu** | Cache key-value dalam memori yang digunakan oleh Symfony untuk menyimpan metadata. Instal ekstensi PHP APCu dan konfigurasikan di konfigurasi cache Symfony Anda. |
+| **Redis / Memcached** | Untuk platform dengan lalu lintas tinggi, konfigurasikan backend cache eksternal. Atur adapter cache di `config/packages/cache.yaml`. |
 
-### Recommended OPcache Settings
+### Pengaturan OPcache yang Direkomendasikan
 
 ```ini
 opcache.enable=1
 opcache.memory_consumption=256
 opcache.max_accelerated_files=20000
-opcache.validate_timestamps=0   ; Set to 0 in production for best performance
+opcache.validate_timestamps=0   ; Atur ke 0 di produksi untuk performa terbaik
 opcache.revalidate_freq=0
 ```
 
-When `validate_timestamps` is set to 0, you must clear OPcache after deploying new code (restart PHP-FPM or call `opcache_reset()`).
+Ketika `validate_timestamps` diatur ke 0, Anda harus menghapus OPcache setelah mendeploy kode baru (restart PHP-FPM atau panggil `opcache_reset()`).
 
 ## Lazy Loading
 
-| Setting | Description |
-|---------|-------------|
-| **Lazy-load images** | Enables the `loading="lazy"` attribute on images so that off-screen images load only when scrolled into view. Reduces initial page load time. |
-| **Deferred JavaScript loading** | Load non-critical JavaScript files asynchronously to avoid blocking page rendering. |
+| Pengaturan | Deskripsi |
+|------------|-----------|
+| **Lazy-load gambar** | Mengaktifkan atribut `loading="lazy"` pada gambar sehingga gambar di luar layar hanya dimuat saat digulir ke tampilan. Mengurangi waktu pemuatan halaman awal. |
+| **Pemuatan JavaScript tertunda** | Memuat file JavaScript yang tidak kritis secara asinkron untuk menghindari pemblokiran rendering halaman. |
 
 ## CDN (Content Delivery Network)
 
-For platforms serving users across multiple geographic regions, a CDN can significantly improve load times for static assets (CSS, JavaScript, images).
+Untuk platform yang melayani pengguna di berbagai wilayah geografis, CDN dapat secara signifikan meningkatkan waktu pemuatan untuk aset statis (CSS, JavaScript, gambar).
 
-To configure a CDN:
+Untuk mengkonfigurasi CDN:
 
-1. Set up a CDN distribution (e.g., CloudFront, Cloudflare, or another provider) pointing to your Chamilo server.
-2. Configure the asset base URL in your environment or Symfony configuration so that static assets are served through the CDN.
-3. Set appropriate cache headers for static files (long expiry for versioned assets).
+1. Siapkan distribusi CDN (misalnya, CloudFront, Cloudflare, atau penyedia lain) yang mengarah ke server Chamilo Anda.
+2. Konfigurasikan URL dasar aset di lingkungan atau konfigurasi Symfony Anda sehingga aset statis disajikan melalui CDN.
+3. Atur header cache yang sesuai untuk file statis (kadaluarsa panjang untuk aset yang memiliki versi).
 
-## Database Optimization
+## Optimasi Basis Data
 
-| Action | Description |
-|--------|-------------|
-| **Use database connection pooling** | For high-concurrency platforms, configure connection pooling to reduce overhead of establishing database connections. |
-| **Optimize queries** | Chamilo includes database indexes for common queries. Run `ANALYZE TABLE` periodically on MySQL/MariaDB to keep query planner statistics current. |
-| **Separate database server** | For large installations, run the database on a dedicated server rather than sharing resources with the web server. |
+| Tindakan | Deskripsi |
+|----------|-----------|
+| **Gunakan pooling koneksi basis data** | Untuk platform dengan konkurensi tinggi, konfigurasikan pooling koneksi untuk mengurangi overhead dalam membangun koneksi basis data. |
+| **Optimasi kueri** | Chamilo menyertakan indeks basis data untuk kueri umum. Jalankan `ANALYZE TABLE` secara berkala di MySQL/MariaDB untuk menjaga statistik perencana kueri tetap terkini. |
+| **Server basis data terpisah** | Untuk instalasi besar, jalankan basis data di server khusus daripada berbagi sumber daya dengan server web. |
 
-## Web Server Configuration
+## Konfigurasi Server Web
 
-| Optimization | Description |
-|--------------|-------------|
-| **Enable gzip/brotli compression** | Compress HTML, CSS, and JavaScript responses. Most web servers support this natively. |
-| **Static file caching** | Set long `Cache-Control` and `Expires` headers for static assets. |
-| **PHP-FPM tuning** | Adjust `pm.max_children`, `pm.start_servers`, and `pm.max_requests` based on available RAM and expected concurrency. |
-| **HTTP/2** | Enable HTTP/2 in your web server for multiplexed connections and header compression. |
+| Optimasi | Deskripsi |
+|----------|-----------|
+| **Aktifkan kompresi gzip/brotli** | Kompres respons HTML, CSS, dan JavaScript. Sebagian besar server web mendukung ini secara bawaan. |
+| **Cache file statis** | Atur header `Cache-Control` dan `Expires` yang panjang untuk aset statis. |
+| **Penyetelan PHP-FPM** | Sesuaikan `pm.max_children`, `pm.start_servers`, dan `pm.max_requests` berdasarkan RAM yang tersedia dan konkurensi yang diharapkan. |
+| **HTTP/2** | Aktifkan HTTP/2 di server web Anda untuk koneksi multipleks dan kompresi header. |
 
 ## Tips
 
-* **OPcache is the single biggest win** -- Ensure it is enabled and properly sized before pursuing other optimizations.
-* **Never run production with `APP_ENV=dev`** -- The debug toolbar and profiler add significant overhead to every request.
-* **Monitor before tuning** -- Use tools like New Relic, Blackfire, or Symfony's built-in profiler (in dev mode) to identify actual bottlenecks rather than guessing.
-* **Warm the cache after every deployment** to avoid the first user hitting a slow uncached request.
+* **OPcache adalah keuntungan terbesar** -- Pastikan diaktifkan dan ukurannya sesuai sebelum mengejar optimasi lain.
+* **Jangan pernah menjalankan produksi dengan `APP_ENV=dev`** -- Toolbar debug dan profiler menambahkan overhead signifikan pada setiap permintaan.
+* **Pantau sebelum menyetel** -- Gunakan alat seperti New Relic, Blackfire, atau profiler bawaan Symfony (dalam mode dev) untuk mengidentifikasi hambatan aktual daripada menebak.
+* **Panaskan cache setelah setiap deployment** untuk menghindari pengguna pertama mengalami permintaan yang lambat karena cache belum terisi.

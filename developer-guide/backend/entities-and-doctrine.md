@@ -1,73 +1,73 @@
-# Entities and Doctrine
+# Entitas dan Doctrine
 
-Chamilo 2.0 has 314 Doctrine entities across two bundles. The following only mention the main ones.
+Chamilo 2.0 memiliki 314 entitas Doctrine yang didistribusikan dalam dua bundle. Berikut ini, kami hanya menyebutkan yang utama.
 
-## Entity Organization
+## Organisasi Entitas
 
-### CoreBundle Entities (213)
+### Entitas CoreBundle (213)
 
-Platform-level entities:
+Entitas pada tingkat platform:
 
-| Category | Examples |
+| Kategori | Contoh |
 |----------|---------|
-| **Users** | `User`, `UserRelUser`, `AccessUrl`, `AccessUrlRelUser` |
-| **Courses** | `Course`, `CourseCategory`, `CourseRelUser` |
-| **Sessions** | `Session`, `SessionRelUser`, `SessionRelCourse`, `SessionRelCourseRelUser` |
-| **Resources** | `ResourceNode`, `ResourceFile`, `ResourceLink`, `ResourceType` |
-| **Settings** | `SettingsCurrent`, `SettingsOptions` |
-| **Messages** | `Message`, `MessageRelUser`, `MessageAttachment` |
-| **Tracking** | `TrackELogin`, `TrackEOnline`, `TrackEDefault` |
-| **Skills** | `Skill`, `SkillRelUser`, `SkillRelProfile` |
+| **Pengguna** | `User`, `UserRelUser`, `AccessUrl`, `AccessUrlRelUser` |
+| **Kursus** | `Course`, `CourseCategory`, `CourseRelUser` |
+| **Sesi** | `Session`, `SessionRelUser`, `SessionRelCourse`, `SessionRelCourseRelUser` |
+| **Sumber Daya** | `ResourceNode`, `ResourceFile`, `ResourceLink`, `ResourceType` |
+| **Pengaturan** | `SettingsCurrent`, `SettingsOptions` |
+| **Pesan** | `Message`, `MessageRelUser`, `MessageAttachment` |
+| **Pelacakan** | `TrackELogin`, `TrackEOnline`, `TrackEDefault` |
+| **Keterampilan** | `Skill`, `SkillRelUser`, `SkillRelProfile` |
 | **AI** | `AiRequests` |
-| **Plugins** | `Plugin`, `AccessUrlRelPlugin` |
-| **Social** | `Usergroup`, `UsergroupRelUser` |
+| **Plugin** | `Plugin`, `AccessUrlRelPlugin` |
+| **Sosial** | `Usergroup`, `UsergroupRelUser` |
 | **xAPI** | `XApiObject`, `XApiResult`, `XApiActivityState` |
 
-### CourseBundle Entities (101)
+### Entitas CourseBundle (101)
 
-Course content entities — all prefixed with `C`:
+Entitas konten kursus — semuanya diawali dengan `C`:
 
-| Category | Examples |
+| Kategori | Contoh |
 |----------|---------|
-| **Documents** | `CDocument` |
-| **Exercises** | `CQuiz`, `CQuizQuestion`, `CQuizAnswer`, `CQuizQuestionCategory` |
-| **Learning paths** | `CLp`, `CLpItem`, `CLpView`, `CLpItemView`, `CLpCategory` |
-| **Forums** | `CForum`, `CForumCategory`, `CForumThread`, `CForumPost` |
-| **Assignments** | `CStudentPublication`, `CStudentPublicationAssignment`, `CStudentPublicationComment` |
-| **Surveys** | `CSurvey`, `CSurveyQuestion`, `CSurveyAnswer`, `CSurveyInvitation` |
-| **Attendance** | `CAttendance`, `CAttendanceCalendar`, `CAttendanceResult` |
-| **Blogs** | `CBlog`, `CBlogPost`, `CBlogComment`, `CBlogTask` |
-| **Other** | `CCalendarEvent`, `CGlossary`, `CLink`, `CLinkCategory`, `CNotebook`, `CWiki` |
+| **Dokumen** | `CDocument` |
+| **Latihan** | `CQuiz`, `CQuizQuestion`, `CQuizAnswer`, `CQuizQuestionCategory` |
+| **Jalur Pembelajaran** | `CLp`, `CLpItem`, `CLpView`, `CLpItemView`, `CLpCategory` |
+| **Forum** | `CForum`, `CForumCategory`, `CForumThread`, `CForumPost` |
+| **Tugas** | `CStudentPublication`, `CStudentPublicationAssignment`, `CStudentPublicationComment` |
+| **Survei** | `CSurvey`, `CSurveyQuestion`, `CSurveyAnswer`, `CSurveyInvitation` |
+| **Kehadiran** | `CAttendance`, `CAttendanceCalendar`, `CAttendanceResult` |
+| **Blog** | `CBlog`, `CBlogPost`, `CBlogComment`, `CBlogTask` |
+| **Lainnya** | `CCalendarEvent`, `CGlossary`, `CLink`, `CLinkCategory`, `CNotebook`, `CWiki` |
 
-## Naming Convention
+## Konvensi Penamaan
 
-* CoreBundle entities: standard PascalCase (e.g., `User`, `Course`, `Session`)
-* CourseBundle entities: prefixed with `C` (e.g., `CDocument`, `CQuiz`, `CLp`)
+* Entitas CoreBundle: standar PascalCase (misalnya, `User`, `Course`, `Session`)
+* Entitas CourseBundle: diawali dengan `C` (misalnya, `CDocument`, `CQuiz`, `CLp`)
 
-This prefix distinguishes course-scoped content entities from platform-level entities (in line with legacy database tables naming). This distinction might disappear in the long run as more tools are converted to global tools without a strong link to a specific course.
+Awalan ini membedakan entitas konten dalam lingkup kursus dari entitas pada tingkat platform (sejalan dengan penamaan tabel basis data warisan). Perbedaan ini mungkin akan hilang dalam jangka panjang, seiring dengan semakin banyak alat yang dikonversi menjadi alat global tanpa keterkaitan kuat dengan kursus tertentu.
 
-## Key Relationships
+## Hubungan Utama
 
-Relationships are usually evidenced by the `Rel` separator.
+Hubungan biasanya terlihat dari pemisah `Rel`.
 
-### User ↔ Course
+### Pengguna ↔ Kursus
 
 ```
 User --[CourseRelUser]--> Course
 ```
 
-`CourseRelUser` stores the enrollment status (TEACHER = 1, STUDENT = 5).
+`CourseRelUser` menyimpan status pendaftaran (TEACHER = 1, STUDENT = 5).
 
-### User ↔ Session ↔ Course
+### Pengguna ↔ Sesi ↔ Kursus
 
 ```
 User --[SessionRelUser]--> Session --[SessionRelCourse]--> Course
 User --[SessionRelCourseRelUser]--> (Session + Course)
 ```
 
-### ResourceNode (Content Abstraction)
+### ResourceNode (Abstraksi Konten)
 
-All course content entities connect to the resource system through `ResourceNode`:
+Semua entitas konten kursus terhubung ke sistem sumber daya melalui `ResourceNode`:
 
 ```
 CDocument --> ResourceNode --> ResourceFile
@@ -75,13 +75,13 @@ CQuiz ------> ResourceNode
 CLp --------> ResourceNode
 ```
 
-See [Resource System](resource-system.md) for details.
+Lihat [Sistem Sumber Daya](resource-system.md) untuk detail lebih lanjut.
 
-## Doctrine Extensions
+## Ekstensi Doctrine
 
-Chamilo uses Gedmo Doctrine Extensions (via `stof/doctrine-extensions-bundle`):
+Chamilo menggunakan Ekstensi Doctrine dari Gedmo (melalui `stof/doctrine-extensions-bundle`):
 
-* **Tree** — Hierarchical data (ResourceNode uses materialized path)
-* **Timestampable** — Automatic `createdAt`/`updatedAt` fields
-* **Sluggable** — URL-friendly slugs
-* **Sortable** — Orderable collections
+* **Tree** — Data hierarkis (ResourceNode menggunakan jalur materialisasi)
+* **Timestampable** — Kolom otomatis `createdAt`/`updatedAt`
+* **Sluggable** — Slug yang ramah URL
+* **Sortable** — Koleksi yang dapat diurutkan

@@ -1,73 +1,73 @@
-# Tracking Settings
+# Pengaturan Pelacakan
 
-Tracking-related defaults — what is recorded, what reports are exposed, time computation rules.
+Pengaturan bawaan terkait pelacakan — apa yang dicatat, laporan apa yang ditampilkan, aturan perhitungan waktu.
 
-Access these settings under **Administration > Configuration settings > Tracking**. This category contains **10 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+Akses pengaturan ini di bawah **Administrasi > Pengaturan konfigurasi > Pelacakan**. Kategori ini berisi **10 pengaturan**, yang tercantum di bawah ini beserta judul dan komentar yang disertakan dalam fixture pengaturan platform (`SettingsCurrentFixtures.php`).
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> Nama variabel dalam kode ditampilkan dalam format monospace. Gunakan nama ini saat membuat skrip melalui API atau saat Anda perlu mengubah pengaturan tersebut pada tingkat global dengan mengedit [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
 
-## Settings
+## Pengaturan
 
 ### `block_my_progress_page`
 
-**Prevent access to 'My progress'**
+**Mencegah akses ke halaman 'Kemajuan Saya'**
 
-In specific implementations like online exams, you might want to prevent user access to the 'My progress' page.
+Dalam implementasi tertentu seperti ujian daring, Anda mungkin ingin mencegah pengguna mengakses halaman 'Kemajuan Saya'.
 
 *Default: `false`*
 
 ### `footer_extra_content`
 
-**Extra content in footer**
+**Konten tambahan di footer**
 
-You can add HTML code like meta tags
+Anda dapat menambahkan kode HTML seperti tag meta
 
 ### `header_extra_content`
 
-**Extra content in header**
+**Konten tambahan di header**
 
-You can add HTML code like meta tags
+Anda dapat menambahkan kode HTML seperti tag meta
 
 ### `meta_description`
 
-**Meta description**
+**Deskripsi meta**
 
-This will show an OpenGraph Description meta (og:description) in your site's headers
+Ini akan menampilkan meta Deskripsi OpenGraph (og:description) di header situs Anda
 
 ### `meta_image_path`
 
-**Meta image path**
+**Path gambar meta**
 
-This Meta Image path is the path to a file inside your Chamilo directory (e.g. home/image.png) that should show in a Twitter card or a OpenGraph card when showing a link to your LMS. Twitter recommends an image of 120 x 120 pixels, which might sometimes be cropped to 120x90.
+Path Gambar Meta ini adalah jalur ke file di dalam direktori Chamilo Anda (misalnya home/image.png) yang seharusnya muncul di kartu Twitter atau kartu OpenGraph saat menampilkan tautan ke LMS Anda. Twitter merekomendasikan gambar berukuran 120 x 120 piksel, yang kadang-kadang dapat dipotong menjadi 120x90.
 
 ### `meta_title`
 
-**OpenGraph meta title**
+**Judul meta OpenGraph**
 
-This will show an OpenGraph Title meta (og:title) in your site's headers
+Ini akan menampilkan meta Judul OpenGraph (og:title) di header situs Anda
 
 ### `meta_twitter_creator`
 
-**Twitter Creator account**
+**Akun Pencipta Twitter**
 
-The Twitter Creator is a Twitter account (e.g. @ywarnier) that represents the *person* that created the site. This field is optional.
+Pencipta Twitter adalah akun Twitter (misalnya @ywarnier) yang mewakili *orang* yang membuat situs tersebut. Kolom ini bersifat opsional.
 
 ### `meta_twitter_site`
 
-**Twitter Site account**
+**Akun Situs Twitter**
 
-The Twitter site is a Twitter account (e.g. @chamilo_news) that is related to your site. It is usually a more temporary account than the Twitter creator account, or represents an entity (instead of a person). This field is required if you want the Twitter card meta fields to show.
+Situs Twitter adalah akun Twitter (misalnya @chamilo_news) yang terkait dengan situs Anda. Biasanya ini adalah akun yang lebih sementara dibandingkan akun pencipta Twitter, atau mewakili suatu entitas (bukan individu). Kolom ini wajib diisi jika Anda ingin bidang meta kartu Twitter ditampilkan.
 
 ### `my_progress_course_tools_order`
 
-**Order of tools on 'My progress' page**
+**Urutan alat di halaman 'Kemajuan Saya'**
 
-Change the order of tools shown on the 'My progress' page for learners. Options include 'quizzes', 'learning_paths' and 'skills'.
+Ubah urutan alat yang ditampilkan di halaman 'Kemajuan Saya' untuk peserta didik. Pilihan termasuk 'quizzes', 'learning_paths', dan 'skills'.
 
 ### `tracking_skip_generic_data`
 
-**Skip generic data in learner self-tracking page**
+**Lewati data generik di halaman pelacakan mandiri peserta didik**
 
-If the 'My progress' page takes too long to load, you might want to remove the processing of generic statistics for the user. In this case enable this setting.
+Jika halaman 'Kemajuan Saya' membutuhkan waktu lama untuk dimuat, Anda mungkin ingin menghapus pemrosesan statistik generik untuk pengguna. Dalam hal ini, aktifkan pengaturan ini.
 
 *Default: `false`*

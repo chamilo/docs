@@ -1,105 +1,105 @@
-# Git Workflow
+# Alur Kerja dengan Git
 
-## Repository
+## Repositori
 
-The Chamilo source code is hosted on GitHub: [github.com/chamilo/chamilo-lms](https://github.com/chamilo/chamilo-lms)
+Kode sumber Chamilo dihosting di GitHub: [github.com/chamilo/chamilo-lms](https://github.com/chamilo/chamilo-lms)
 
-## Branching
+## Percabangan
 
-* **`master`** — Main development branch
-* Feature branches are created from `master` for new development
-* Release branches are created for stable releases
+* **`master`** — Cabang utama untuk pengembangan
+* Cabang fitur dibuat dari `master` untuk pengembangan baru
+* Cabang rilis dibuat untuk versi stabil
 
-## Contributing a Change
+## Berkontribusi dengan Perubahan
 
-1. **Fork** the repository on GitHub
-2. **Clone** your fork locally
-3. **Create a branch** for your change: `git checkout -b feature/my-feature`
-4. **Make your changes** following the coding conventions
-5. **Commit** with clear, descriptive commit messages
-6. **Push** to your fork: `git push origin feature/my-feature`
-7. **Create a pull request** against the `master` branch
+1. **Buat fork** repositori di GitHub
+2. **Klon** fork Anda secara lokal
+3. **Buat cabang** untuk perubahan Anda: `git checkout -b feature/my-feature`
+4. **Lakukan perubahan Anda** dengan mengikuti konvensi pengkodean
+5. **Lakukan commit** dengan pesan commit yang jelas dan deskriptif
+6. **Kirim** ke fork Anda: `git push origin feature/my-feature`
+7. **Buat pull request** terhadap cabang `master`
 
-## Commit Messages
+## Pesan Commit
 
-Write clear commit messages that explain **what** and **why**:
-
-```
-Glossary: Add AI-assisted term generation
-
-Teachers can now generate glossary terms using configured AI
-providers. Supports configurable prompt and term count.
-```
-
-### Tool prefix convention
-
-The subject line is prefixed with the **tool or area** that the change touches, followed by a colon. We use a short shared terminology so that the changelog and `git log --oneline` can be skimmed by tool. The prefix is always the **singular** form of the tool's canonical name.
-
-Format: `<Prefix>: <Imperative summary in the present tense>`
-
-Examples:
+Tulis pesan commit yang jelas yang menjelaskan **apa** dan **mengapa**:
 
 ```
-Document: Fix list for student view
-Exercise: Prevent duplicate question titles within a quiz
-Learnpath: Allow reordering chapters via drag and drop
-Internal: Refactor ResourceNode hydration in the API normalizer
-CI: Cache Composer downloads in the GitHub Actions workflow
+Glosarium: Menambahkan pembuatan istilah berbantuan AI
+
+Guru sekarang dapat menghasilkan istilah glosarium menggunakan penyedia AI yang dikonfigurasi.
+Mendukung prompt yang dapat dikonfigurasi dan jumlah istilah.
 ```
 
-If a change spans several tools, pick the one most affected; truly cross-cutting changes that only touch code structure (no end-user tool) go under `Internal`. Documentation-only changes (this site, the changelog, inline docblocks meant purely as reference) go under `Documentation`.
+### Konvensi Awalan Alat
 
-#### Allowed prefixes
+Baris subjek diawali dengan **alat atau area** yang terkena dampak perubahan, diikuti oleh tanda titik dua. Kami menggunakan terminologi singkat dan umum agar changelog dan `git log --oneline` dapat dengan cepat dianalisis berdasarkan alat. Awalan selalu dalam bentuk **tunggal** dari nama kanonik alat tersebut.
 
-| Prefix               | Scope / notes                                                                        |
+Format: `<Awalan>: <Ringkasan dalam bentuk imperatif waktu sekarang>`
+
+Contoh:
+
+```
+Dokumen: Memperbaiki daftar pada tampilan siswa
+Latihan: Mencegah judul pertanyaan duplikat dalam kuis
+Jalur Pembelajaran: Memungkinkan pengurutan ulang bab dengan seret dan lepas
+Internal: Refaktor hidrasi ResourceNode pada normalizer API
+CI: Menyimpan unduhan Composer di cache pada alur kerja GitHub Actions
+```
+
+Jika suatu perubahan mencakup beberapa alat, pilih yang paling terkena dampak; perubahan yang benar-benar lintas fungsi yang hanya memengaruhi struktur kode (tanpa dampak pada alat pengguna akhir) harus diklasifikasikan sebagai `Internal`. Perubahan yang eksklusif untuk dokumentasi (situs ini, changelog, docblocks inline yang hanya dimaksudkan sebagai referensi) harus diklasifikasikan sebagai `Dokumentasi`.
+
+#### Prefix yang Diizinkan
+
+| Prefix               | Lingkup / catatan                                                                    |
 |----------------------|--------------------------------------------------------------------------------------|
 | `Admin`              |                                                                                      |
 | `Announcement`       |                                                                                      |
 | `Attendance`         |                                                                                      |
 | `Authentication`     |                                                                                      |
 | `Blog`               |                                                                                      |
-| `Calendar`           | Not "Agenda"                                                                         |
+| `Calendar`           | Bukan "Agenda"                                                                       |
 | `Career`             |                                                                                      |
-| `Catalogue`          | Courses and sessions catalogue, including "hot courses" on the homepage              |
+| `Catalogue`          | Katalog kursus dan sesi, termasuk "kursus unggulan" di halaman utama                 |
 | `Chat`               |                                                                                      |
-| `CI`                 | Continuous Integration, automated tests, etc.                                        |
+| `CI`                 | Integrasi Berkelanjutan, pengujian otomatis, dll.                                    |
 | `Course description` |                                                                                      |
-| `Course Progress`    | Not "Thematic advance"                                                               |
+| `Course Progress`    | Bukan "Kemajuan Tematik"                                                             |
 | `Course settings`    |                                                                                      |
 | `Cron`               |                                                                                      |
 | `Dashboard`          |                                                                                      |
 | `Display`            |                                                                                      |
 | `Document`           |                                                                                      |
-| `Documentation`      | Anything related exclusively to documenting Chamilo or the code, the changelog, etc. |
+| `Documentation`      | Segala hal yang berkaitan secara eksklusif dengan dokumentasi Chamilo atau kode, changelog, dll. |
 | `Dropbox`            |                                                                                      |
-| `Exercise`           | Not "Quiz"                                                                           |
+| `Exercise`           | Bukan "Kuis"                                                                         |
 | `Extra Fields`       |                                                                                      |
 | `Forum`              |                                                                                      |
 | `Glossary`           |                                                                                      |
-| `Gradebook`          | Includes Certificates                                                                |
-| `Group`              | Includes course groups, global groups, and classes                                   |
+| `Gradebook`          | Termasuk Sertifikat                                                                  |
+| `Group`              | Termasuk grup kursus, grup global, dan kelas                                        |
 | `Help`               |                                                                                      |
-| `Hook`               | For the internal hook mechanism                                                      |
-| `Install`            | Includes upgrade stuff                                                               |
-| `Internal`           | For changes and fixes that mostly affect code itself or are very global by nature    |
+| `Hook`               | Untuk mekanisme internal hook                                                        |
+| `Install`            | Termasuk item pembaruan                                                              |
+| `Internal`           | Untuk perubahan dan perbaikan yang terutama memengaruhi kode atau bersifat sangat global |
 | `Language`           |                                                                                      |
 | `Link`               |                                                                                      |
-| `Learnpath`          | For LP / Learning Paths                                                              |
-| `Maintenance`        | The course maintenance tool: course copies, backup, restore, etc.                    |
+| `Learnpath`          | Untuk LP / Jalur Pembelajaran                                                        |
+| `Maintenance`        | Alat pemeliharaan kursus: salinan kursus, cadangan, pemulihan, dll.                 |
 | `Message`            |                                                                                      |
 | `Notebook`           |                                                                                      |
 | `Optimization`       |                                                                                      |
 | `Portfolio`          |                                                                                      |
 | `Privacy`            |                                                                                      |
-| `Script`             | For what lives in `tests/scripts/`                                                   |
-| `Search`             | Full-text search                                                                     |
+| `Script`             | Untuk yang ada di `tests/scripts/`                                                   |
+| `Search`             | Pencarian teks lengkap                                                               |
 | `Security`           |                                                                                      |
 | `Session`            |                                                                                      |
 | `Skill`              |                                                                                      |
-| `Social`             | Social network                                                                       |
-| `SSO`                | Single Sign-On methods                                                               |
+| `Social`             | Jejaring sosial                                                                      |
+| `SSO`                | Metode Single Sign-On                                                                |
 | `Survey`             |                                                                                      |
-| `System`             | Things that have mostly to do with hosting and fine-tuning at server level           |
+| `System`             | Hal-hal yang terutama berkaitan dengan hosting dan penyesuaian halus di tingkat server |
 | `Template`           |                                                                                      |
 | `Ticket`             |                                                                                      |
 | `Tracking`           |                                                                                      |
@@ -110,14 +110,15 @@ If a change spans several tools, pick the one most affected; truly cross-cutting
 | `WYSIWYG`            |                                                                                      |
 | `XAPI`               |                                                                                      |
 
-## Code Review
+---
+## Tinjauan Kode
 
-Pull requests are reviewed by the maintainer team. Be prepared to:
+Permintaan pull akan ditinjau oleh tim pemeliharaan. Bersiaplah untuk:
 
-* Address feedback and make revisions
-* Keep your branch up to date with `master`
-* Ensure tests pass
+* Menanggapi umpan balik dan melakukan revisi
+* Menjaga branch Anda tetap diperbarui dengan `master`
+* Memastikan bahwa tes berhasil dilalui
 
-## Reporting Issues
+## Pelaporan Masalah
 
-Report bugs and feature requests on the GitHub issue tracker.
+Laporkan bug dan permintaan fitur di pelacak isu GitHub.

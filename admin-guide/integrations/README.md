@@ -1,11 +1,11 @@
-# Integrations
+# Integrasi
 
-Chamilo integrates with several third-party services to extend its functionality.
+Chamilo terintegrasi dengan beberapa layanan pihak ketiga untuk memperluas fungsionalitasnya.
 
-Most of these are enabled through plugins. Check the corresponding section a little further in this guide.
+Sebagian besar diaktifkan melalui plugin. Periksa bagian yang sesuai lebih lanjut dalam panduan ini.
 
-* **[Video Conferencing](video-conferencing.md)** — BigBlueButton and Zoom
-* **[LTI 1.3](lti.md)** — Connect external learning tools
-* **[xAPI](xapi.md)** — Learning experience tracking
-* **[OnlyOffice](onlyoffice.md)** — Collaborative document editing
-* **[AI Configuration](ai-configuration.md)** — Set up AI providers for AI-powered features
+* **[Konferensi Video](video-conferencing.md)** — BigBlueButton dan Zoom
+* **[LTI 1.3](lti.md)** — Menghubungkan alat pembelajaran eksternal
+* **[xAPI](xapi.md)** — Pelacakan pengalaman belajar
+* **[OnlyOffice](onlyoffice.md)** — Pengeditan dokumen kolaboratif
+* **[Konfigurasi AI](ai-configuration.md)** — Mengatur penyedia AI untuk fitur berbasis AI

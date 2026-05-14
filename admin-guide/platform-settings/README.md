@@ -1,90 +1,90 @@
-# Platform Settings
+# Pengaturan Platform
 
-Chamilo has an extensive configuration system with settings organized into categories. The full set of categories below mirrors the **Configuration settings** page in the admin panel — and the underlying `SettingsCurrentFixtures.php` in the source code, which is the source of truth for variable names, titles, and descriptions.
+Chamilo memiliki sistem konfigurasi yang luas dengan pengaturan yang diorganisasi ke dalam kategori-kategori. Kumpulan kategori di bawah ini mencerminkan halaman **Pengaturan konfigurasi** di panel admin — dan file `SettingsCurrentFixtures.php` yang mendasarinya di kode sumber, yang merupakan sumber kebenaran untuk nama variabel, judul, dan deskripsi.
 
-Access platform settings from the administration panel by clicking **Configuration settings**.
+Akses pengaturan platform dari panel administrasi dengan mengklik **Pengaturan konfigurasi**.
 
-![The platform settings page showing configuration categories organized by functional area](/.gitbook/assets/admin-settings-categories.png)
+![Halaman pengaturan platform yang menampilkan kategori konfigurasi yang diorganisasi berdasarkan area fungsional](/.gitbook/assets/admin-settings-categories.png)
 
-## All categories
+## Semua Kategori
 
-There are **39 configuration categories** in total, listed alphabetically below. The number after each link is the count of settings in that category.
+Terdapat total **39 kategori konfigurasi**, yang tercantum secara alfabetis di bawah ini. Angka setelah setiap tautan adalah jumlah pengaturan dalam kategori tersebut.
 
-### Platform-wide
+### Seluruh Platform
 
-* **[Administrator Identity](admin-settings.md)** (12) — Identity and contact details of the platform administrator.
-* **[Platform](platform-settings.md)** (29) — Platform-level identity, time zone, registration policy, online users, performance flags.
-* **[Display](display-settings.md)** (24) — Homepage layout, gravatar, menus, branding behaviour.
-* **[Editor](editor-settings.md)** (26) — Rich-text editor (TinyMCE) toolbars, plugins, AI helpers.
-* **[Languages](language-settings.md)** (12) — Available languages, default language, fallbacks.
-* **[Mail](mail-settings.md)** (18) — Outgoing-mail layout, sender identity, signature.
-* **[Workflows](workflows-settings.md)** (23) — Cross-cutting workflow toggles (course creation, enrollment validation…).
+* **[Identitas Administrator](admin-settings.md)** (12) — Identitas dan detail kontak administrator platform.
+* **[Platform](platform-settings.md)** (29) — Identitas tingkat platform, zona waktu, kebijakan pendaftaran, pengguna online, flag performa.
+* **[Tampilan](display-settings.md)** (24) — Tata letak beranda, gravatar, menu, perilaku branding.
+* **[Editor](editor-settings.md)** (26) — Toolbar editor teks kaya (TinyMCE), plugin, pembantu AI.
+* **[Bahasa](language-settings.md)** (12) — Bahasa yang tersedia, bahasa default, cadangan.
+* **[Email](mail-settings.md)** (18) — Tata letak email keluar, identitas pengirim, tanda tangan.
+* **[Alur Kerja](workflows-settings.md)** (23) — Pengalihan alur kerja lintas fungsi (pembuatan kursus, validasi pendaftaran…).
 
-### Authentication, security & privacy
+### Otentikasi, Keamanan & Privasi
 
-* **[Security](security-settings.md)** (31) — Login protection, password policy, headers, 2FA, IDS.
-* **[Registration](registration-settings.md)** (20) — Self-registration policy and post-registration redirects.
-* **[Privacy](privacy-settings.md)** (6) — Consent, data export, account-deletion requests.
-* **[CAS](cas-settings.md)** (7) — Legacy CAS configuration carried over from 1.x.
+* **[Keamanan](security-settings.md)** (31) — Perlindungan login, kebijakan kata sandi, header, 2FA, IDS.
+* **[Pendaftaran](registration-settings.md)** (20) — Kebijakan pendaftaran mandiri dan pengalihan setelah pendaftaran.
+* **[Privasi](privacy-settings.md)** (6) — Persetujuan, ekspor data, permintaan penghapusan akun.
+* **[CAS](cas-settings.md)** (7) — Konfigurasi CAS warisan yang dibawa dari versi 1.x.
 
-### Course and session lifecycle
+### Siklus Hidup Kursus dan Sesi
 
-* **[Course](course-settings.md)** (45) — Defaults and policies that apply to courses platform-wide.
-* **[Sessions](session-settings.md)** (68) — Session lifecycle, coach access windows, visibility.
-* **[Course Catalog](catalog-settings.md)** (13) — Behaviour of the public course catalog.
-* **[Profile](profile-settings.md)** (29) — Which fields appear on the user profile.
+* **[Kursus](course-settings.md)** (45) — Default dan kebijakan yang berlaku untuk kursus di seluruh platform.
+* **[Sesi](session-settings.md)** (68) — Siklus hidup sesi, jendela akses pelatih, visibilitas.
+* **[Katalog Kursus](catalog-settings.md)** (13) — Perilaku katalog kursus publik.
+* **[Profil](profile-settings.md)** (29) — Bidang mana yang muncul di profil pengguna.
 
-### Course tools
+### Alat Kursus
 
 * **[Agenda](agenda-settings.md)** (11)
-* **[Announcements](announcement-settings.md)** (9)
-* **[Assignments (Work)](work-settings.md)** (12)
-* **[Attendance](attendance-settings.md)** (4)
-* **[Chat](chat-settings.md)** (5)
-* **[Documents](document-settings.md)** (29)
+* **[Pengumuman](announcement-settings.md)** (9)
+* **[Tugas (Pekerjaan)](work-settings.md)** (12)
+* **[Kehadiran](attendance-settings.md)** (4)
+* **[Obrolan](chat-settings.md)** (5)
+* **[Dokumen](document-settings.md)** (29)
 * **[Dropbox](dropbox-settings.md)** (8)
-* **[Exercises (Tests)](exercise-settings.md)** (63)
-* **[Forums](forum-settings.md)** (9)
-* **[Glossary](glossary-settings.md)** (3)
-* **[Groups](group-settings.md)** (3)
-* **[Learning Paths](lp-settings.md)** (51)
-* **[Surveys](survey-settings.md)** (12)
+* **[Latihan (Tes)](exercise-settings.md)** (63)
+* **[Forum](forum-settings.md)** (9)
+* **[Glosarium](glossary-settings.md)** (3)
+* **[Kelompok](group-settings.md)** (3)
+* **[Jalur Pembelajaran](lp-settings.md)** (51)
+* **[Survei](survey-settings.md)** (12)
 
-### Assessment & recognition
+### Penilaian & Pengakuan
 
-* **[Gradebook (Assessments)](gradebook-settings.md)** (34) — Score display, decimals, certificate thresholds.
-* **[Certificates](certificate-settings.md)** (9) — Defaults applied when a learner earns a certificate.
-* **[Skills](skill-settings.md)** (13) — Skills tree, awarding rules, profile integration.
-* **[Tracking](tracking-settings.md)** (10) — What is recorded, what reports are exposed.
+* **[Buku Nilai (Penilaian)](gradebook-settings.md)** (34) — Tampilan skor, desimal, ambang batas sertifikat.
+* **[Sertifikat](certificate-settings.md)** (9) — Default yang diterapkan ketika peserta didik memperoleh sertifikat.
+* **[Keterampilan](skill-settings.md)** (13) — Pohon keterampilan, aturan pemberian, integrasi profil.
+* **[Pelacakan](tracking-settings.md)** (10) — Apa yang dicatat, laporan apa yang ditampilkan.
 
-### Communication & community
+### Komunikasi & Komunitas
 
-* **[Messaging](message-settings.md)** (7)
-* **[Social Network](social-settings.md)** (7)
+* **[Pesan](message-settings.md)** (7)
+* **[Jaringan Sosial](social-settings.md)** (7)
 
 ### AI
 
-* **[AI Helpers](ai-helpers-settings.md)** (13) — Providers per task type (text, image, video, tutor, grading).
+* **[Pembantu AI](ai-helpers-settings.md)** (13) — Penyedia per jenis tugas (teks, gambar, video, tutor, penilaian).
 
-### Operations & integration
+### Operasi & Integrasi
 
-* **[Cron Jobs](crons-settings.md)** (3)
-* **[Search](search-settings.md)** (3) — Xapian full-text search configuration.
-* **[Tickets](ticket-settings.md)** (7) — Helpdesk system.
-* **[Web Services](webservice-settings.md)** (7) — Legacy SOAP/REST endpoints.
+* **[Tugas Cron](crons-settings.md)** (3)
+* **[Pencarian](search-settings.md)** (3) — Konfigurasi pencarian teks lengkap Xapian.
+* **[Tiket](ticket-settings.md)** (7) — Sistem helpdesk.
+* **[Layanan Web](webservice-settings.md)** (7) — Endpoint SOAP/REST warisan.
 
-## How Settings Work
+## Cara Kerja Pengaturan
 
-* Settings are stored in the database (`settings` table) and managed through the web interface
-* Some settings are **URL-locked** in multi-URL setups (their value applies platform-wide and cannot be overridden per URL - see `access_url_locked` and `access_url_changeable` columns in the `settings` table); others (most) can be overridden per access URL
-* Changes take effect immediately (no server restart required), although your user session might be keeping some of them in memory. If changes don't reflect immediately, logout and login to flush your session.
-* Some settings have dependencies — changing one may affect the behaviour of others
-* Variable names shown on each page (e.g. `2fa_enable`) match the row in the `settings` database table (`variable` column) and the keys used in overrides (`config/settings_overrides.yaml`) where applicable.
+* Pengaturan disimpan di basis data (tabel `settings`) dan dikelola melalui antarmuka web.
+* Beberapa pengaturan **terkunci URL** dalam pengaturan multi-URL (nilainya berlaku di seluruh platform dan tidak dapat ditimpa per URL - lihat kolom `access_url_locked` dan `access_url_changeable` di tabel `settings`); lainnya (sebagian besar) dapat ditimpa per URL akses.
+* Perubahan berlaku segera (tidak perlu restart server), meskipun sesi pengguna Anda mungkin menyimpan beberapa di antaranya di memori. Jika perubahan tidak segera terlihat, logout dan login kembali untuk menyegarkan sesi Anda.
+* Beberapa pengaturan memiliki ketergantungan — mengubah satu pengaturan dapat memengaruhi perilaku pengaturan lainnya.
+* Nama variabel yang ditampilkan di setiap halaman (misalnya `2fa_enable`) sesuai dengan baris di tabel basis data `settings` (kolom `variable`) dan kunci yang digunakan dalam penggantian (`config/settings_overrides.yaml`) jika berlaku.
 
-For more information, check [Configurations](https://github.com/chamilo/chamilo-lms/wiki/Configurations) on our wiki.
+Untuk informasi lebih lanjut, periksa [Konfigurasi](https://github.com/chamilo/chamilo-lms/wiki/Configurations) di wiki kami.
 
 ## Tips
 
-* **Document your settings** — Keep a record of non-default settings and why you changed them
-* **Change one thing at a time** — When troubleshooting, modify one setting at a time so you can identify the effect
-* **Test in a staging environment** — For significant setting changes, test on a staging server first
+* **Dokumentasikan pengaturan Anda** — Simpan catatan tentang pengaturan yang tidak standar dan alasan Anda mengubahnya
+* **Ubah satu hal pada satu waktu** — Saat melakukan pemecahan masalah, ubah satu pengaturan pada satu waktu sehingga Anda dapat mengidentifikasi efeknya
+* **Uji di lingkungan staging** — Untuk perubahan pengaturan yang signifikan, uji terlebih dahulu di server staging

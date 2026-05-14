@@ -1,18 +1,18 @@
-# Creating a Plugin
+# Membuat Plugin
 
-This guide walks through creating a basic Chamilo plugin. For additional detail, see the [Plugin development wiki page](https://github.com/chamilo/chamilo-lms/wiki/Plugin-development).
+Panduan ini akan memandu Anda dalam membuat plugin dasar untuk Chamilo. Untuk detail tambahan, lihat [halaman wiki pengembangan plugin](https://github.com/chamilo/chamilo-lms/wiki/Plugin-development).
 
-## Step 1: Create the Plugin Directory
+## Langkah 1: Membuat Direktori Plugin
 
-Create a directory in `public/plugin/`. The directory name should match your plugin's identifier:
+Buat direktori di `public/plugin/`. Nama direktori harus sesuai dengan pengenal plugin Anda:
 
 ```
 public/plugin/MyPlugin/
 ```
 
-## Step 2: Define the Plugin Class
+## Langkah 2: Mendefinisikan Kelas Plugin
 
-Create `src/MyPluginPlugin.php`. The class extends `Plugin` and follows the singleton pattern:
+Buat file `src/MyPluginPlugin.php`. Kelas ini memperluas `Plugin` dan mengikuti pola singleton:
 
 ```php
 <?php
@@ -36,19 +36,19 @@ class MyPluginPlugin extends Plugin
 }
 ```
 
-### Available Setting Types
+### Tipe Pengaturan yang Tersedia
 
-| Type | Description |
-|------|-------------|
-| `boolean` | Checkbox on/off |
-| `text` | Single-line text input |
-| `select` | Dropdown (provide `options` array) |
-| `wysiwyg` | Rich text editor |
-| `html` | Raw HTML field |
-| `checkbox` | Checkbox |
-| `user` | User selector |
+| Tipe | Deskripsi |
+|------|-----------|
+| `boolean` | Kotak centang aktif/nonaktif |
+| `text` | Input teks satu baris |
+| `select` | Dropdown (sediakan array `options`) |
+| `wysiwyg` | Editor teks kaya |
+| `html` | Bidang HTML mentah |
+| `checkbox` | Kotak centang |
+| `user` | Pemilih pengguna |
 
-For `select` settings:
+Untuk pengaturan `select`:
 
 ```php
 $settings = [
@@ -60,24 +60,24 @@ $settings = [
 ];
 ```
 
-Access settings at runtime:
+Mengakses pengaturan saat runtime:
 
 ```php
 $plugin = MyPluginPlugin::create();
-$key  = $plugin->get('api_key');       // single value
-$all  = $plugin->get_settings();       // all settings
+$key  = $plugin->get('api_key');       // nilai tunggal
+$all  = $plugin->get_settings();       // semua pengaturan
 ```
 
-## Step 3: Create plugin.php
+## Langkah 3: Membuat plugin.php
 
-`plugin.php` at the plugin root is **required**. It must assign `$plugin_info`:
+File `plugin.php` di root plugin adalah **wajib**. File ini harus menetapkan `$plugin_info`:
 
 ```php
 <?php
 $plugin_info = MyPluginPlugin::create()->get_info();
 ```
 
-## Step 4: Create Install and Uninstall Scripts
+## Langkah 4: Membuat Skrip Instalasi dan Uninstall
 
 `install.php`:
 
@@ -93,11 +93,11 @@ MyPluginPlugin::create()->install();
 MyPluginPlugin::create()->uninstall();
 ```
 
-Implement the actual schema creation/deletion inside the class using Doctrine's `SchemaTool`.
+Implementasikan pembuatan/penghapusan skema aktual di dalam kelas menggunakan `SchemaTool` dari Doctrine.
 
-## Step 5: Add Translations
+## Langkah 5: Menambahkan Terjemahan
 
-Create language files in `lang/` using locale codes (e.g., `en_US.php`, `fr_FR.php`, `es_ES.php`). The fallback is `en_US.php`.
+Buat file bahasa di `lang/` menggunakan kode lokal (misalnya, `en_US.php`, `fr_FR.php`, `es_ES.php`). File cadangan adalah `en_US.php`.
 
 ```php
 <?php
@@ -109,11 +109,11 @@ $strings['api_key']        = 'API Key';
 $strings['api_key_help']   = 'Enter the API key from your account.';
 ```
 
-Access translations via `$plugin->get_lang('key')`.
+Akses terjemahan melalui `$plugin->get_lang('key')`.
 
-## Step 6: Inject Content via Display Regions
+## Langkah 6: Menyisipkan Konten melalui Wilayah Tampilan
 
-Plugins can inject HTML into 18 predefined regions of the Vue frontend. Override `renderRegion()` in your class:
+Plugin dapat menyisipkan HTML ke dalam 18 wilayah yang telah ditentukan sebelumnya di frontend Vue. Override metode `renderRegion()` di kelas Anda:
 
 ```php
 public function renderRegion(string $region): string
@@ -125,11 +125,11 @@ public function renderRegion(string $region): string
 }
 ```
 
-Available regions include: `content_bottom`, `content_top`, `course_tool_plugin`, `footer_center`, `footer_left`, `footer_right`, `header_center`, `header_left`, `header_main`, `header_right`, `login_bottom`, `login_top`, `main_bottom`, `main_top`, `menu_administrator`, `menu_bottom`, `menu_top`, `pre_footer`.
+Wilayah yang tersedia meliputi: `content_bottom`, `content_top`, `course_tool_plugin`, `footer_center`, `footer_left`, `footer_right`, `header_center`, `header_left`, `header_main`, `header_right`, `login_bottom`, `login_top`, `main_bottom`, `main_top`, `menu_administrator`, `menu_bottom`, `menu_top`, `pre_footer`.
 
-## Step 7: React to Platform Events (Optional)
+## Langkah 7: Bereaksi terhadap Peristiwa Platform (Opsional)
 
-Plugins can react to platform events using Symfony event subscribers. Create a file ending in `EventSubscriber.php` inside `src/EventSubscriber/` — it is auto-registered via `PluginEventSubscriberPass`.
+Plugin dapat bereaksi terhadap peristiwa platform menggunakan subscriber event Symfony. Buat file yang berakhiran `EventSubscriber.php` di dalam `src/EventSubscriber/` — file ini akan terdaftar secara otomatis melalui `PluginEventSubscriberPass`.
 
 ```php
 <?php
@@ -144,7 +144,7 @@ class MyPluginEventSubscriber implements EventSubscriberInterface
 
     public function __construct()
     {
-        // Plugin classes are not Symfony services — use the create() singleton.
+        // Kelas plugin bukan layanan Symfony — gunakan singleton create().
         $this->plugin = MyPluginPlugin::create();
     }
 
@@ -160,35 +160,35 @@ class MyPluginEventSubscriber implements EventSubscriberInterface
         if (!$this->plugin->isEnabled()) {
             return;
         }
-        // your logic here
+        // logika Anda di sini
     }
 }
 ```
 
-See `src/CoreBundle/Event/Events.php` for the full list of available events (user, course, session, LP, exercise, portfolio, authentication, and more).
+Lihat `src/CoreBundle/Event/Events.php` untuk daftar lengkap peristiwa yang tersedia (pengguna, kursus, sesi, LP, latihan, portofolio, autentikasi, dan lainnya).
 
-## Step 8: Lifecycle Hooks
+## Langkah 8: Kait Siklus Hidup
 
-Override these methods in your plugin class to respond to platform actions:
+Ganti metode-metode ini di kelas plugin Anda untuk merespons tindakan platform:
 
-| Method | Triggered when |
-|--------|----------------|
-| `install()` | Plugin is activated |
-| `uninstall()` | Plugin is removed |
-| `performActionsAfterConfigure()` | Admin saves the config form |
-| `course_settings_updated(array $values)` | Course-level settings change |
-| `validateCourseSetting(string $variable)` | Course setting saved (return `false` to reject) |
-| `doWhenDeletingUser(int $userId)` | A user is deleted |
-| `doWhenDeletingCourse(int $courseId)` | A course is deleted |
-| `doWhenDeletingSession(int $sessionId)` | A session is deleted |
+| Metode | Dipicu ketika |
+|--------|---------------|
+| `install()` | Plugin diaktifkan |
+| `uninstall()` | Plugin dihapus |
+| `performActionsAfterConfigure()` | Admin menyimpan formulir konfigurasi |
+| `course_settings_updated(array $values)` | Pengaturan tingkat kursus berubah |
+| `validateCourseSetting(string $variable)` | Pengaturan kursus disimpan (kembalikan `false` untuk menolak) |
+| `doWhenDeletingUser(int $userId)` | Seorang pengguna dihapus |
+| `doWhenDeletingCourse(int $courseId)` | Sebuah kursus dihapus |
+| `doWhenDeletingSession(int $sessionId)` | Sebuah sesi dihapus |
 
-## Step 9: Activate
+## Langkah 9: Aktivasi
 
-Log in as administrator, navigate to **Manage plugins**, find your plugin, and click **Activate**.
+Masuk sebagai administrator, navigasikan ke **Kelola Plugin**, temukan plugin Anda, dan klik **Aktifkan**.
 
 ## Tips
 
-* **Follow existing plugins as examples** — `public/plugin/HelloWorld/` and `public/plugin/TopLinks/` are good simple references
-* **Use translations** — Always use the `lang/` system for user-facing text
-* **Clean up on uninstall** — Remove database tables and settings in the uninstall script
-* **Check enabled state** — In event subscribers, always call `$this->plugin->isEnabled()` before executing logic
+* **Ikuti plugin yang sudah ada sebagai contoh** — `public/plugin/HelloWorld/` dan `public/plugin/TopLinks/` adalah referensi sederhana yang baik
+* **Gunakan terjemahan** — Selalu gunakan sistem `lang/` untuk teks yang menghadap pengguna
+* **Bersihkan saat uninstall** — Hapus tabel basis data dan pengaturan dalam skrip uninstall
+* **Periksa status aktif** — Dalam pelanggan acara, selalu panggil `$this->plugin->isEnabled()` sebelum menjalankan logika

@@ -1,33 +1,33 @@
-# Course Progress
+# Kemajuan Kursus
 
-The course progress tool helps you define the thematic structure of your course and track how much of the planned content has been delivered.
+Alat kemajuan kursus membantu Anda menentukan struktur tematik kursus Anda dan melacak seberapa banyak konten yang direncanakan telah disampaikan.
 
-To students, it is a useful tool for those who have been sick for a few days and could not attend class, as they will known what topics have been talked about and how far the rest of the class has progressed in their absence.
+Bagi siswa, ini adalah alat yang berguna bagi mereka yang sakit selama beberapa hari dan tidak dapat menghadiri kelas, karena mereka akan mengetahui topik apa yang telah dibahas dan sejauh mana siswa lainnya telah maju selama ketidakhadiran mereka.
 
-## How It Works
+## Cara Kerjanya
 
-Course progress is organized into three layers:
+Kemajuan kursus diorganisir ke dalam tiga lapisan:
 
-* **Thematic sections** — The main topics or modules of your course
-* **Thematic plan** — For each section, what you intend to cover. Each plan entry is one of a fixed set of types: **Objectives**, **Skills to acquire**, **Methodology**, **Infrastructure**, **Assessment**, or **Others**.
-* **Thematic advance** — Discrete delivery records under each section, each with a start date and a duration in hours. Mark advances as **done** as you deliver them to track real progress against the plan.
+* **Bagian tematik** — Topik utama atau modul dari kursus Anda
+* **Rencana tematik** — Untuk setiap bagian, apa yang ingin Anda bahas. Setiap entri rencana adalah salah satu dari jenis yang tetap: **Tujuan**, **Keterampilan yang harus diperoleh**, **Metodologi**, **Infrastruktur**, **Penilaian**, atau **Lainnya**.
+* **Kemajuan tematik** — Catatan pengiriman diskrit di bawah setiap bagian, masing-masing dengan tanggal mulai dan durasi dalam jam. Tandai kemajuan sebagai **selesai** saat Anda menyampaikannya untuk melacak kemajuan nyata terhadap rencana.
 
-## Setting Up Course Progress
+## Menyiapkan Kemajuan Kursus
 
-1. Open the **Course progress** tool from the course homepage
-2. Create **thematic sections** that correspond to your course's main topics or modules
-3. Within each section, add **plan** entries by type to describe what you intend to cover
-4. As you deliver the content, add **thematic advances** with their date and duration, and mark them as done
-5. Decide the visibility of that information on the course homepage by changing the related settings in the **Course settings** section (cog icon at the top of the course homepage)
+1. Buka alat **Kemajuan Kursus** dari beranda kursus
+2. Buat **bagian tematik** yang sesuai dengan topik utama atau modul kursus Anda
+3. Dalam setiap bagian, tambahkan entri **rencana** berdasarkan jenis untuk menjelaskan apa yang ingin Anda bahas
+4. Saat Anda menyampaikan konten, tambahkan **kemajuan tematik** dengan tanggal dan durasinya, lalu tandai sebagai selesai
+5. Tentukan visibilitas informasi tersebut di beranda kursus dengan mengubah pengaturan terkait di bagian **Pengaturan Kursus** (ikon roda gigi di bagian atas beranda kursus)
 
-You can optionally link a thematic advance to an attendance sheet so its start date is pulled from your attendance records. Sections (with their plan and advances) can also be **copied** within the same course/session.
+Anda dapat secara opsional menghubungkan kemajuan tematik ke lembar kehadiran sehingga tanggal mulainya diambil dari catatan kehadiran Anda. Bagian (beserta rencana dan kemajuannya) juga dapat **disalin** dalam kursus/sesi yang sama.
 
-## Use Cases
+## Kasus Penggunaan
 
-* **Track your teaching plan** — Monitor which parts of the course have been delivered and which remain
-* **Attendance integration** — Course progress can work alongside the attendance tool to correlate presence with topics covered
-* **Reporting** — Get a clear view of course delivery status over time
+* **Melacak rencana pengajaran Anda** — Pantau bagian mana dari kursus yang telah disampaikan dan mana yang masih tersisa
+* **Integrasi kehadiran** — Kemajuan kursus dapat bekerja bersama alat kehadiran untuk menghubungkan kehadiran dengan topik yang dibahas
+* **Pelaporan** — Dapatkan gambaran yang jelas tentang status pengiriman kursus dari waktu ke waktu
 
-## For Learners
+## Untuk Peserta Didik
 
-Learners can view the course progress to understand the course structure and see what topics have been covered so far. This is particularly useful for learners who join late or miss sessions.
+Peserta didik dapat melihat kemajuan kursus untuk memahami struktur kursus dan melihat topik apa yang telah dibahas sejauh ini. Ini sangat berguna bagi peserta didik yang bergabung terlambat atau melewatkan sesi.

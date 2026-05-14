@@ -1,78 +1,78 @@
-# Endpoints Reference
+# Referensi Endpoint
 
-API Platform automatically generates REST endpoints for entities annotated with `#[ApiResource]`. Chamilo exposes 100+ resources.
+Platform API secara otomatis menghasilkan endpoint REST untuk entitas yang dianotasi dengan `#[ApiResource]`. Chamilo mengekspos lebih dari 100 sumber daya.
 
-## Standard Operations
+## Operasi Standar
 
-For each API resource, the following operations are typically available:
+Untuk setiap sumber daya API, operasi berikut umumnya tersedia:
 
-| Method | Path | Description |
-|--------|------|-------------|
-| `GET` | `/api/{resources}` | List (collection) |
-| `POST` | `/api/{resources}` | Create |
-| `GET` | `/api/{resources}/{id}` | Read (single item) |
-| `PUT` | `/api/{resources}/{id}` | Full update |
-| `PATCH` | `/api/{resources}/{id}` | Partial update |
-| `DELETE` | `/api/{resources}/{id}` | Delete |
+| Metode | Jalur | Deskripsi |
+|--------|-------|-----------|
+| `GET` | `/api/{resources}` | Daftar (koleksi) |
+| `POST` | `/api/{resources}` | Buat |
+| `GET` | `/api/{resources}/{id}` | Baca (item tunggal) |
+| `PUT` | `/api/{resources}/{id}` | Pembaruan penuh |
+| `PATCH` | `/api/{resources}/{id}` | Pembaruan parsial |
+| `DELETE` | `/api/{resources}/{id}` | Hapus |
 
-Not all operations are enabled for every resource — security constraints apply.
+Tidak semua operasi diaktifkan untuk semua sumber daya — pembatasan keamanan berlaku.
 
-## Key API Resources
+## Sumber Daya Utama API
 
-### Platform Resources
+### Sumber Daya Platform
 
-| Resource | Path | Description |
-|----------|------|-------------|
-| Users | `/api/users` | User accounts |
-| Courses | `/api/courses` | Courses |
-| Sessions | `/api/sessions` | Training sessions |
-| Resource Nodes | `/api/resource_nodes` | Unified content nodes |
-| Access URLs | `/api/access_urls` | Multi-URL portals |
-| Messages | `/api/messages` | Platform messages |
+| Sumber Daya | Jalur | Deskripsi |
+|-------------|-------|-----------|
+| Pengguna | `/api/users` | Akun pengguna |
+| Kursus | `/api/courses` | Kursus |
+| Sesi | `/api/sessions` | Sesi pelatihan |
+| Node Sumber Daya | `/api/resource_nodes` | Node konten terpadu |
+| URL Akses | `/api/access_urls` | Portal multi-URL |
+| Pesan | `/api/messages` | Pesan platform |
 
-### Course Content Resources
+### Sumber Daya Konten Kursus
 
-| Resource | Path | Description |
-|----------|------|-------------|
-| Documents | `/api/documents` | Course documents |
-| Learning Paths | `/api/learning_paths` | Learning paths |
-| Glossaries | `/api/glossaries` | Glossary terms |
-| Links | `/api/links` | External links |
-| Calendar Events | `/api/c_calendar_events` | Agenda events |
-| Student Publications | `/api/c_student_publications` | Assignments |
-| Blogs | `/api/c_blogs` | Course blogs |
-| Groups | `/api/c_groups` | Course groups |
+| Sumber Daya | Jalur | Deskripsi |
+|-------------|-------|-----------|
+| Dokumen | `/api/documents` | Dokumen kursus |
+| Jalur Pembelajaran | `/api/learning_paths` | Jalur pembelajaran |
+| Glosarium | `/api/glossaries` | Istilah glosarium |
+| Tautan | `/api/links` | Tautan eksternal |
+| Acara Kalender | `/api/c_calendar_events` | Acara agenda |
+| Publikasi Siswa | `/api/c_student_publications` | Tugas |
+| Blog | `/api/c_blogs` | Blog kursus |
+| Grup | `/api/c_groups` | Grup kursus |
 
-### Tracking Resources
+### Sumber Daya Pelacakan
 
-| Resource | Path | Description |
-|----------|------|-------------|
-| Gradebook Categories | `/api/gradebook_categories` | Gradebook setup |
-| Gradebook Results | `/api/gradebook_results` | Grades |
+| Sumber Daya | Jalur | Deskripsi |
+|-------------|-------|-----------|
+| Kategori Buku Nilai | `/api/gradebook_categories` | Pengaturan buku nilai |
+| Hasil Buku Nilai | `/api/gradebook_results` | Nilai |
 
-## Filtering and Pagination
+## Penyaringan dan Paginasi
 
-API Platform supports:
+Platform API mendukung:
 
-* **Pagination**: `?page=2&itemsPerPage=30`
-* **Filtering**: `?title=Introduction` (depends on configured filters)
-* **Ordering**: `?order[title]=asc`
-* **Search**: Full-text search on configured fields
+* **Paginasi**: `?page=2&itemsPerPage=30`
+* **Penyaringan**: `?title=Introduction` (tergantung pada filter yang dikonfigurasi)
+* **Pengurutan**: `?order[title]=asc`
+* **Pencarian**: Pencarian teks lengkap pada bidang yang dikonfigurasi
 
-## Content Negotiation
+## Negosiasi Konten
 
-The API supports multiple formats:
+API mendukung beberapa format:
 
 * `application/ld+json` (default — JSON-LD)
 * `application/json`
-* `text/html` (API documentation)
+* `text/html` (dokumentasi API)
 
-Set the `Accept` header to choose the response format.
+Tetapkan header `Accept` untuk memilih format respons.
 
-## Security
+## Keamanan
 
-Each endpoint enforces security through:
+Setiap endpoint menerapkan keamanan melalui:
 
-* JWT authentication (required for most endpoints)
-* Symfony security voters (resource-level permissions)
-* Role-based access control (e.g., admin-only endpoints)
+* Autentikasi JWT (diperlukan untuk sebagian besar endpoint)
+* Pemilih keamanan Symfony (izin pada tingkat sumber daya)
+* Kontrol akses berbasis peran (misalnya, endpoint eksklusif untuk administrator)

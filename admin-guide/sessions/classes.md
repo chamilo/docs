@@ -1,34 +1,34 @@
-# Classes
+# Kelas
 
-Classes in Chamilo are predefined groups of users that can be enrolled in sessions as a unit. They simplify the enrollment process when you regularly train the same groups of people.
+Kelas di Chamilo adalah kelompok pengguna yang telah ditentukan sebelumnya dan dapat didaftarkan dalam sesi sebagai satu unit. Kelas mempermudah proses pendaftaran ketika Anda secara rutin melatih kelompok orang yang sama.
 
-> Classes and [User Groups](../../admin-guide/users/user-groups.md) share the same interface. The only difference is the **group type** setting: choose "Class" when creating the group. Everything else — member management, visibility, and the interface itself — works identically.
+> Kelas dan [Kelompok Pengguna](../../admin-guide/users/user-groups.md) memiliki antarmuka yang sama. Satu-satunya perbedaan adalah pengaturan **tipe kelompok**: pilih "Kelas" saat membuat kelompok. Segala hal lainnya — pengelolaan anggota, visibilitas, dan antarmuka itu sendiri — berfungsi secara identik.
 
-## Creating a Class
+## Membuat Kelas
 
-1. From the administration panel, navigate to **Classes** (or User Groups and select the "Class" type)
-2. Click **Create a class**
-3. Enter a **name** (e.g., "Engineering Team", "New Hires March 2026")
-4. Add **members** — search for and select users
-5. Save
+1. Dari panel administrasi, navigasikan ke **Kelas** (atau Kelompok Pengguna dan pilih tipe "Kelas")
+2. Klik **Buat kelas**
+3. Masukkan **nama** (misalnya, "Tim Teknik", "Karyawan Baru Maret 2026")
+4. Tambahkan **anggota** — cari dan pilih pengguna
+5. Simpan
 
-## Using Classes for Enrollment
+## Menggunakan Kelas untuk Pendaftaran
 
-When creating or editing a session, you can enroll an entire class at once instead of adding users individually:
+Saat membuat atau mengedit sesi, Anda dapat mendaftarkan seluruh kelas sekaligus alih-alih menambahkan pengguna secara individu:
 
-1. Open the session enrollment settings
-2. Click **Add a class**
-3. Select the class
-4. All members of the class are enrolled in the session
+1. Buka pengaturan pendaftaran sesi
+2. Klik **Tambah kelas**
+3. Pilih kelas
+4. Semua anggota kelas akan terdaftar dalam sesi tersebut
 
-## Managing Classes
+## Mengelola Kelas
 
-* **Edit** — Change the class name or update membership
-* **Add/remove members** — Keep the class roster up to date
-* **Delete** — Remove the class (does not affect the member accounts or their existing enrollments)
+* **Edit** — Ubah nama kelas atau perbarui keanggotaan
+* **Tambah/hapus anggota** — Pastikan daftar anggota kelas selalu terbaru
+* **Hapus** — Hapus kelas (tidak memengaruhi akun anggota atau pendaftaran mereka yang sudah ada)
 
 ## Tips
 
-* **Create classes for recurring cohorts** — If you run the same training for different teams, create a class for each team
-* **Update before each session** — Review class membership before enrolling a class in a new session to ensure the roster is current
-* **Combine with CSV import** — Import class membership from a CSV file for large groups
+* **Buat kelas untuk kelompok berulang** — Jika Anda menjalankan pelatihan yang sama untuk tim yang berbeda, buat kelas untuk setiap tim
+* **Perbarui sebelum setiap sesi** — Tinjau keanggotaan kelas sebelum mendaftarkan kelas dalam sesi baru untuk memastikan daftar anggota terkini
+* **Gabungkan dengan impor CSV** — Impor keanggotaan kelas dari file CSV untuk kelompok besar

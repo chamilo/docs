@@ -1,10 +1,10 @@
-# Authentication
+# Autentikasi
 
-The Chamilo API uses **JWT (JSON Web Tokens)** for authentication, implemented via `lexik/jwt-authentication-bundle`.
+API Chamilo menggunakan **JWT (JSON Web Tokens)** untuk autentikasi, yang diimplementasikan melalui `lexik/jwt-authentication-bundle`.
 
-## Obtaining a Token
+## Mendapatkan Token
 
-Send a POST request to the authentication endpoint:
+Kirimkan permintaan POST ke endpoint autentikasi:
 
 ```
 POST /api/authentication_token
@@ -12,11 +12,11 @@ Content-Type: application/json
 
 {
   "username": "admin",
-  "password": "your-password"
+  "password": "kata-sandi-anda"
 }
 ```
 
-Response:
+Respon:
 
 ```json
 {
@@ -24,37 +24,37 @@ Response:
 }
 ```
 
-## Using the Token
+## Menggunakan Token
 
-Include the token in the `Authorization` header of subsequent requests:
+Sertakan token dalam header `Authorization` pada permintaan berikutnya:
 
 ```
 GET /api/users
 Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9...
 ```
 
-## Token Lifecycle
+## Siklus Hidup Token
 
-* Tokens have a configurable expiration time
-* When a token expires, the client must request a new one
-* JWT keys are stored in `config/jwt/` (private and public keys)
+* Token memiliki waktu kedaluwarsa yang dapat dikonfigurasi
+* Ketika token kedaluwarsa, klien harus meminta token baru
+* Kunci JWT disimpan di `config/jwt/` (kunci privat dan publik)
 
-## Generating JWT Keys
+## Membuat Kunci JWT
 
 ```bash
 php bin/console lexik:jwt:generate-keypair
 ```
 
-This creates:
-* `config/jwt/private.pem` — Private key for signing tokens
-* `config/jwt/public.pem` — Public key for verifying tokens
+Ini akan membuat:
+* `config/jwt/private.pem` — Kunci privat untuk menandatangani token
+* `config/jwt/public.pem` — Kunci publik untuk memverifikasi token
 
-Configure the passphrase in `.env`:
+Konfigurasikan frasa sandi di file `.env`:
 
 ```env
-JWT_PASSPHRASE=your-passphrase
+JWT_PASSPHRASE=frasa-sandi-anda
 ```
 
-## API Documentation
+## Dokumentasi API
 
-When `APP_ENABLE_API_ENTRYPOINT=1` is set in the environment, the API documentation is available at `/api`. This provides an interactive Swagger/OpenAPI interface for exploring and testing endpoints.
+Ketika `APP_ENABLE_API_ENTRYPOINT=1` diatur di lingkungan, dokumentasi API tersedia di `/api`. Ini menyediakan antarmuka interaktif Swagger/OpenAPI untuk menjelajahi dan menguji endpoint.

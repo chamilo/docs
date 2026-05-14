@@ -1,36 +1,36 @@
-# Glossary
+# Glosarium
 
-The glossary tool lets you define key terms for your course. Learners can browse the glossary to look up definitions while studying.
+Alat glosarium memungkinkan Anda mendefinisikan istilah-istilah kunci untuk kursus Anda. Peserta didik dapat menelusuri glosarium untuk mencari definisi saat belajar.
 
-## Adding a Term
+## Menambahkan Istilah
 
-1. Open the **Glossary** <img src="/.gitbook/assets/icons/mdi-alphabetical.svg" alt="Glossary" data-size="line"> tool from the course homepage
-2. Click **Add new glossary term**
-3. Enter the **term** and its **definition** (the definition supports rich text formatting)
-4. Save
+1. Buka alat **Glosarium** <img src="/.gitbook/assets/icons/mdi-alphabetical.svg" alt="Glosarium" data-size="line"> dari halaman utama kursus
+2. Klik **Tambah istilah glosarium baru**
+3. Masukkan **istilah** dan **definisi**nya (definisi mendukung format teks kaya)
+4. Simpan
 
-## Managing Terms
+## Mengelola Istilah
 
-* **Edit** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Edit" data-size="line"> — Update a term or its definition
-* **Delete** <img src="/.gitbook/assets/icons/mdi-delete.svg" alt="Delete" data-size="line"> — Remove a term from the glossary
-* **Search** <img src="/.gitbook/assets/icons/mdi-magnify.svg" alt="Search" data-size="line"> — Use the search function to find specific terms quickly
+* **Sunting** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Sunting" data-size="line"> — Perbarui istilah atau definisinya
+* **Hapus** <img src="/.gitbook/assets/icons/mdi-delete.svg" alt="Hapus" data-size="line"> — Hapus istilah dari glosarium
+* **Cari** <img src="/.gitbook/assets/icons/mdi-magnify.svg" alt="Cari" data-size="line"> — Gunakan fungsi pencarian untuk menemukan istilah tertentu dengan cepat
 
-## Importing and Exporting
+## Mengimpor dan Mengekspor
 
-You can build your glossary faster using import/export:
+Anda dapat membangun glosarium lebih cepat menggunakan fitur impor/ekspor:
 
-* **Import** <img src="/.gitbook/assets/icons/mdi-database-import-outline.svg" alt="Import" data-size="line"> — Upload a list of terms and definitions from a CSV or XLS file. You can also tick "Update existing terms" to overwrite definitions for terms that are already in the glossary.
-* **Export** <img src="/.gitbook/assets/icons/mdi-file-export.svg" alt="Export" data-size="line"> — Download the glossary as CSV, Excel (XLS), or PDF for use in another course or for offline reference
+* **Impor** <img src="/.gitbook/assets/icons/mdi-database-import-outline.svg" alt="Impor" data-size="line"> — Unggah daftar istilah dan definisi dari file CSV atau XLS. Anda juga dapat mencentang "Perbarui istilah yang sudah ada" untuk menimpa definisi istilah yang sudah ada di glosarium.
+* **Ekspor** <img src="/.gitbook/assets/icons/mdi-file-export.svg" alt="Ekspor" data-size="line"> — Unduh glosarium sebagai CSV, Excel (XLS), atau PDF untuk digunakan di kursus lain atau sebagai referensi offline
 
-## Display Options
+## Opsi Tampilan
 
-The glossary can be displayed in two formats, toggled from the toolbar:
+Glosarium dapat ditampilkan dalam dua format, yang dapat diubah dari bilah alat:
 
-* **Table view** — Terms listed in a table with their definitions
-* **List view** — Terms shown as individual panels stacked one after another
+* **Tampilan tabel** — Istilah-istilah ditampilkan dalam tabel bersama definisinya
+* **Tampilan daftar** — Istilah-istilah ditampilkan sebagai panel individu yang disusun secara bertumpuk
 
 ## Tips
 
-* **Build it progressively** — Add terms as you introduce them in your course, rather than all at once
-* **Keep definitions concise** — Short, clear definitions are more useful than lengthy explanations
-* **Link from learning paths** — Reference glossary terms from your learning path content to encourage learners to use the glossary
+* **Bangun secara bertahap** — Tambahkan istilah saat Anda memperkenalkannya dalam kursus, bukan sekaligus
+* **Buat definisi singkat** — Definisi yang pendek dan jelas lebih bermanfaat daripada penjelasan yang panjang
+* **Tautkan dari jalur pembelajaran** — Rujuk istilah glosarium dari konten jalur pembelajaran Anda untuk mendorong peserta didik menggunakan glosarium

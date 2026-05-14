@@ -1,89 +1,89 @@
-# Settings System
+# Sistem Pengaturan
 
-Chamilo's configuration is managed through a set of settings schemas (around 40 of them, varying between releases) that define every configurable aspect of the platform. They live in `src/CoreBundle/Settings/` — the exact list there is the source of truth.
+Pengaturan Chamilo dikelola melalui serangkaian skema pengaturan (sekitar 40, bervariasi antar versi) yang menentukan semua aspek yang dapat dikonfigurasi pada platform. Skema ini terletak di `src/CoreBundle/Settings/` — daftar pasti di direktori ini adalah sumber referensi.
 
-## How It Works
+## Cara Kerja
 
-Settings are:
+Pengaturan-pengaturan tersebut:
 
-1. **Defined** in schema classes (`src/CoreBundle/Settings/*SettingsSchema.php`)
-2. **Stored** in the database (`settings_current` table)
-3. **Accessed** via the `SettingsManager` service
-4. **Managed** through the administration web interface
+1. **Ditetapkan** dalam kelas skema (`src/CoreBundle/Settings/*SettingsSchema.php`)
+2. **Disimpan** di basis data (tabel `settings_current`)
+3. **Diakses** melalui layanan `SettingsManager`
+4. **Dikelola** melalui antarmuka web administrasi
 
-## Settings Schemas
+## Skema Pengaturan
 
-Each schema file defines a category of settings. Key schemas:
+Setiap berkas skema mendefinisikan kategori pengaturan. Skema utama meliputi:
 
-| Schema | Purpose |
-|--------|---------|
-| `PlatformSettingsSchema` | Institution info, timezone, server type, portal features |
-| `SecuritySettingsSchema` | Login attempts, CAPTCHA, password policy, HTTP headers, 2FA |
-| `RegistrationSettingsSchema` | Self-registration, required fields, auto-subscribe |
-| `CourseSettingsSchema` | Course creation defaults, tools, catalog |
-| `SessionSettingsSchema` | Session defaults, visibility |
-| `MailSettingsSchema` | Email configuration, DKIM, notifications |
-| `AiHelpersSettingsSchema` | AI providers, feature toggles per AI tool |
-| `ExerciseSettingsSchema` | Quiz scoring, feedback, question options |
-| `LearningPathSettingsSchema` | LP display, prerequisites, SCORM settings |
-| `DocumentSettingsSchema` | Upload limits, allowed file types, storage |
-| `DisplaySettingsSchema` | UI tabs, sidebar items, theme |
-| `LanguageSettingsSchema` | Available languages, default locale |
-| `AdminSettingsSchema` | Admin email, admin-specific options |
+| Skema | Tujuan |
+|--------|------------|
+| `PlatformSettingsSchema` | Informasi institusi, zona waktu, jenis server, fitur portal |
+| `SecuritySettingsSchema` | Upaya login, CAPTCHA, kebijakan kata sandi, header HTTP, autentikasi dua faktor (2FA) |
+| `RegistrationSettingsSchema` | Pendaftaran mandiri, bidang wajib, pendaftaran otomatis |
+| `CourseSettingsSchema` | Standar pembuatan kursus, alat, katalog |
+| `SessionSettingsSchema` | Standar sesi, visibilitas |
+| `MailSettingsSchema` | Konfigurasi email, DKIM, notifikasi |
+| `AiHelpersSettingsSchema` | Penyedia AI, aktivasi fitur berdasarkan alat AI |
+| `ExerciseSettingsSchema` | Skor kuis, umpan balik, opsi pertanyaan |
+| `LearningPathSettingsSchema` | Tampilan jalur pembelajaran, prasyarat, pengaturan SCORM |
+| `DocumentSettingsSchema` | Batas unggah, jenis berkas yang diizinkan, penyimpanan |
+| `DisplaySettingsSchema` | Tab antarmuka, item bilah sisi, tema |
+| `LanguageSettingsSchema` | Bahasa yang tersedia, lokal standar |
+| `AdminSettingsSchema` | Email administrator, opsi khusus untuk administrator |
 
-## Accessing Settings
+## Mengakses Pengaturan
 
-In PHP code:
+Dalam kode PHP:
 
 ```php
-// Via SettingsManager service
+// Melalui layanan SettingsManager
 $value = $settingsManager->getSetting('platform.site_name');
 
-// In legacy code
+// Dalam kode lama
 $value = api_get_setting('platform.site_name');
 ```
 
-In templates:
+Dalam template:
 
 ```twig
-{# Read a single setting #}
+{# Membaca satu pengaturan #}
 {{ chamilo_settings_get('platform.site_name') }}
 
-{# Check whether a setting exists #}
+{# Memeriksa apakah pengaturan ada #}
 {% if chamilo_settings_has('platform.allow_registration') %}
     ...
 {% endif %}
 
-{# Get all settings as an array #}
+{# Mendapatkan semua pengaturan sebagai array #}
 {% set settings = chamilo_settings_all() %}
 ```
 
-## Setting Structure
+## Struktur Pengaturan
 
-Each setting has:
+Setiap pengaturan memiliki:
 
-* **Namespace** — The schema category (e.g., `platform`, `security`, `ai_helpers`)
-* **Variable** — The setting name (e.g., `site_name`, `allow_registration`)
-* **Value** — The current value
-* **Type** — Data type (string, boolean, array, etc.)
+* **Namespace** — Kategori skema (misalnya, `platform`, `security`, `ai_helpers`)
+* **Variabel** — Nama pengaturan (misalnya, `site_name`, `allow_registration`)
+* **Nilai** — Nilai saat ini
+* **Tipe** — Tipe data (string, boolean, array, dll.)
 
-## Course-Level Settings
+## Pengaturan pada Tingkat Kursus
 
-Some settings can be overridden at the course level. These are defined in `src/CourseBundle/Settings/` and include:
+Beberapa pengaturan dapat ditimpa pada tingkat kursus. Pengaturan ini ditetapkan di `src/CourseBundle/Settings/` dan mencakup:
 
-* Exercise settings per course
-* Assignment settings per course
-* AI feature toggles per course
+* Pengaturan latihan per kursus
+* Pengaturan tugas per kursus
+* Aktivasi fitur AI per kursus
 
-## Multi-URL Settings
+## Pengaturan Multi-URL
 
-In multi-URL setups, some settings can be customized per access URL, allowing different portal configurations from the same installation.
+Dalam pengaturan multi-URL, beberapa pengaturan dapat disesuaikan berdasarkan URL akses, memungkinkan pengaturan portal yang berbeda dari instalasi yang sama.
 
-Those settings will appear several times in the `settings` table, with different `access_url` values. By default, all settings are associated with `access_url=1`.
+Pengaturan ini akan muncul beberapa kali di tabel `settings`, dengan nilai `access_url` yang berbeda. Secara default, semua pengaturan dikaitkan dengan `access_url=1`.
 
-## Adding a New Setting
+## Menambahkan Pengaturan Baru
 
-1. Add the setting definition to the appropriate schema class
-2. Provide a default value
-3. Run database migrations if needed
-4. Access the setting via `SettingsManager`
+1. Tambahkan definisi pengaturan ke kelas skema yang sesuai
+2. Berikan nilai default
+3. Jalankan migrasi basis data, jika diperlukan
+4. Akses pengaturan melalui `SettingsManager`

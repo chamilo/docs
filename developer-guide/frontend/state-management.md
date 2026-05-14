@@ -1,103 +1,103 @@
-# State Management
+# Manajemen Status
 
-Chamilo uses two state management libraries side by side:
+Chamilo menggunakan dua pustaka manajemen status secara berdampingan:
 
-* **Pinia** — the current standard for all new stores. The majority of the codebase uses Pinia.
-* **Vuex** — legacy store, still present and used by older views. New code should use Pinia.
+- **Pinia** — standar saat ini untuk semua store baru. Sebagian besar basis kode menggunakan Pinia.
+- **Vuex** — store lama, masih ada dan digunakan oleh tampilan yang lebih lama. Kode baru harus menggunakan Pinia.
 
-## Pinia Stores
+## Store Pinia
 
-The Pinia stores live directly in `assets/vue/store/`:
+Store Pinia terletak langsung di `assets/vue/store/`:
 
-| Store file | Composable | Purpose |
-|-----------|-----------|---------|
-| `securityStore.js` | `useSecurityStore` | Authenticated user, login/logout, session check |
-| `cidReq.js` | `useCidReqStore` | Current course/session context (course ID, session ID) |
-| `courseSettingStore.js` | `useCourseSettings` | Course-level settings cache |
-| `enrolledStore.js` | `useEnrolledStore` | User enrollment data |
-| `platformConfig.js` | `usePlatformConfig` | Platform configuration, plugins, theme, OAuth2 providers |
-| `messageRelUserStore.js` | `useMessageRelUserStore` | Messaging state |
-| `socialStore.js` | `useSocialStore` | Social network state |
+| File Store | Composable | Tujuan |
+|------------|------------|--------|
+| `securityStore.js` | `useSecurityStore` | Pengguna yang terautentikasi, login/logout, verifikasi sesi |
+| `cidReq.js` | `useCidReqStore` | Konteks kursus/sesi saat ini (ID kursus, ID sesi) |
+| `courseSettingStore.js` | `useCourseSettings` | Cache pengaturan di tingkat kursus |
+| `enrolledStore.js` | `useEnrolledStore` | Data pendaftaran pengguna |
+| `platformConfig.js` | `usePlatformConfig` | Konfigurasi platform, plugin, tema, penyedia OAuth2 |
+| `messageRelUserStore.js` | `useMessageRelUserStore` | Status pesan |
+| `socialStore.js` | `useSocialStore` | Status jejaring sosial |
 
-### Security Store
+### Store Keamanan
 
 ```javascript
 const securityStore = useSecurityStore()
 
-// Check if user is logged in
+// Memeriksa apakah pengguna sudah login
 if (securityStore.isAuthenticated) { ... }
 
-// Access current user object
+// Mengakses objek pengguna saat ini
 const user = securityStore.user
 ```
 
-### CID Request Store
+### Store Permintaan CID
 
-Tracks the current course/session context — required for any course-scoped API operation:
+Melacak konteks kursus/sesi saat ini — diperlukan untuk setiap operasi API dalam lingkup kursus:
 
 ```javascript
 const cidReqStore = useCidReqStore()
 
-// Current course and session objects
+// Objek kursus dan sesi saat ini
 const course = cidReqStore.course
 const session = cidReqStore.session
 ```
 
-### Course Settings Store
+### Store Pengaturan Kursus
 
-Caches course-level settings to avoid repeated API calls:
+Menyimpan cache pengaturan di tingkat kursus untuk menghindari panggilan API berulang:
 
 ```javascript
 const courseSettings = useCourseSettings()
 const value = courseSettings.getSetting('exercise_generator')
 ```
 
-### Platform Config Store
+### Store Konfigurasi Platform
 
-Holds platform-wide configuration fetched from `/platform-config/list`:
+Berisi konfigurasi umum platform yang diperoleh dari `/platform-config/list`:
 
 ```javascript
 const platformConfig = usePlatformConfig()
 
-// Loaded settings array, active theme, enabled plugins, OAuth2 providers
+// Array pengaturan yang dimuat, tema aktif, plugin yang diaktifkan, penyedia OAuth2
 const theme = platformConfig.visualTheme
 const plugins = platformConfig.plugins
 ```
 
-## Vuex Store (Legacy)
+## Store Vuex (Warisan)
 
-The Vuex store is defined in `assets/vue/store/index.js` and contains:
+Store Vuex didefinisikan di `assets/vue/store/index.js` dan berisi:
 
-| Module | Purpose |
-|--------|---------|
-| `modules/crud.js` | Factory (`makeCrudModule`) that generates a full CRUD Vuex module for a given service — used by older list/create/update views |
-| `modules/notifications.js` | Toast notification state (show, color, text, timeout) |
-| `modules/ux.js` | UX state (forbidden-access message) |
-| `security.js` | Legacy Vuex security module (superseded by `securityStore.js`) |
+| Modul | Tujuan |
+|-------|--------|
+| `modules/crud.js` | Pabrik (`makeCrudModule`) yang menghasilkan modul Vuex CRUD lengkap untuk layanan tertentu — digunakan oleh tampilan lama untuk daftar/pembuatan/pembaruan |
+| `modules/notifications.js` | Status notifikasi toast (tampilan, warna, teks, batas waktu) |
+| `modules/ux.js` | Status UX (pesan akses dilarang) |
+| `security.js` | Modul keamanan Vuex lama (digantikan oleh `securityStore.js`) |
 
-Avoid adding new Vuex modules. Use Pinia for any new state.
+Hindari menambahkan modul Vuex baru. Gunakan Pinia untuk status baru apa pun.
 
-## Composables
+## Composable
 
-In addition to stores, `assets/vue/composables/` contains shared composition functions. Notable examples:
+Selain store, `assets/vue/composables/` berisi fungsi komposisi yang dibagikan. Contoh yang menonjol:
 
-| File | Purpose |
-|------|---------|
-| `useFileManager.js` | File browser state and operations |
-| `useTopbarLoggedIn.js` / `useTopbarNotLoggedIn.js` | Top-bar menu wiring |
-| `useTopbarTour.js` | Guided tour for the top bar |
-| `useDocumentCreate.js` / `useDocumentUpdate.js` / `useDocumentTemplates.js` | Document tool helpers |
-| `useCertificateTags.js` | Certificate-template tag helpers |
-| `sidebarMenu.js` | Sidebar navigation tree |
-| `theme.js` | Theme loading and switching |
-| `pluginRegion.js` | Plugin-injected UI region rendering |
-| `userPermissions.js` | Permission checks for the current user |
-| `notification.js` | Push notification helpers |
-| `locale.js` | Locale detection and switching |
-| `datatableList.js` / `datatableCreate.js` / `datatableUpdate.js` | Reusable datatable CRUD patterns |
-| `useSocialInfo.js` / `useSocialMenuItems.js` | Social network helpers |
-| `usePushSubscription.js` | Web Push subscription management |
-| `upload.js` | File upload helpers |
-| `useConfirmation.js` | Confirmation dialog helper |
+| File | Tujuan |
+|------|--------|
+| `useFileManager.js` | Status dan operasi penjelajah berkas |
+| `useTopbarLoggedIn.js` / `useTopbarNotLoggedIn.js` | Koneksi menu bilah atas |
+| `useTopbarTour.js` | Tur panduan untuk bilah atas |
+| `useDocumentCreate.js` / `useDocumentUpdate.js` / `useDocumentTemplates.js` | Pembantu alat dokumen |
+| `useCertificateTags.js` | Pembantu tag templat sertifikat |
+| `sidebarMenu.js` | Pohon navigasi bilah samping |
+| `theme.js` | Pemuatan dan pergantian tema |
+| `pluginRegion.js` | Rendering wilayah UI yang disuntikkan oleh plugin |
+| `userPermissions.js` | Pemeriksaan izin untuk pengguna saat ini |
+| `notification.js` | Pembantu notifikasi push |
+| `locale.js` | Deteksi dan pergantian lokalitas |
+| `datatableList.js` / `datatableCreate.js` / `datatableUpdate.js` | Pola CRUD yang dapat digunakan kembali untuk datatable |
+| `useSocialInfo.js` / `useSocialMenuItems.js` | Pembantu jejaring sosial |
+| `usePushSubscription.js` | Manajemen langganan Web Push |
+| `upload.js` | Pembantu unggah berkas |
+| `useConfirmation.js` | Pembantu dialog konfirmasi |
 
-Composables are also organized into feature subdirectories (`course/`, `session/`, `document/`, `calendar/`, `admin/`, `auth/`, `message/`, `skill/`, etc.). The full list is in `assets/vue/composables/`.
+Composable juga diorganisasi dalam subdirektori fungsionalitas (`course/`, `session/`, `document/`, `calendar/`, `admin/`, `auth/`, `message/`, `skill/`, dll.). Daftar lengkapnya ada di `assets/vue/composables/`.

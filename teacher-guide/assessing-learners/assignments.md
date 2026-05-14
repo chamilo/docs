@@ -1,93 +1,94 @@
-# Assignments
+# Tugas
 
-The assignments tool (also called "student publications") lets you collect work from learners — essays, projects, reports, or any file-based submission — and grade it.
+Alat tugas (juga disebut "publikasi siswa") memungkinkan Anda mengumpulkan pekerjaan dari peserta didik — esai, proyek, laporan, atau pengumpulan berbasis file lainnya — dan menilainya.
 
-## Creating an Assignment
+## Membuat Tugas
 
-1. Open the **Assignments** <img src="/.gitbook/assets/icons/mdi-inbox-full.svg" alt="Assignments" data-size="line"> tool from the course homepage
-2. Click **Create an assignment**
-3. Fill in the details:
-   * **Assignment name** — The name of the assignment (e.g., "Final Project Report")
-   * **Description** — Instructions for learners, including what to submit and how it will be evaluated (supports rich text)
-   * **Maximum score** — On what total will the assignment be graded
-   * **Add to gradebook** — Add as an evaluated item in the assessment (gradebook) tool, so it can be part of reaching the course's goals
-   * **Deadline** — The official (published) date and time after which submissions are flagged as late (uploads are still accepted)
-   * **Ends at (completely closed)** — The hard cutoff date and time after which no upload is possible
-   * **Add to calendar** — Create an event to reference this assignment submission date
-   * **Submission type** — Choose between **Allow only text**, **Allow only files**, or **Allow files or online text**
-4. Save
+1. Buka alat **Tugas** <img src="/.gitbook/assets/icons/mdi-inbox-full.svg" alt="Tugas" data-size="line"> dari halaman utama kursus
+2. Klik **Buat tugas**
+3. Isi detailnya:
+   * **Nama tugas** — Nama tugas (misalnya, "Laporan Proyek Akhir")
+   * **Deskripsi** — Instruksi untuk peserta didik, termasuk apa yang harus dikumpulkan dan bagaimana akan dinilai (mendukung teks kaya)
+   * **Skor maksimum** — Total skor yang akan digunakan untuk menilai tugas
+   * **Tambahkan ke buku nilai** — Tambahkan sebagai item yang dinilai di alat penilaian (buku nilai), sehingga dapat menjadi bagian dari pencapaian tujuan kursus
+   * **Batas waktu** — Tanggal dan waktu resmi (yang dipublikasikan) setelahnya pengumpulan ditandai sebagai terlambat (unggahan masih diterima)
+   * **Berakhir pada (sepenuhnya ditutup)** — Tanggal dan waktu batas akhir yang ketat setelahnya tidak ada unggahan yang mungkin dilakukan
+   * **Tambahkan ke kalender** — Buat acara untuk merujuk tanggal pengumpulan tugas ini
+   * **Jenis pengumpulan** — Pilih antara **Hanya izinkan teks**, **Hanya izinkan file**, atau **Izinkan file atau teks daring**
+4. Simpan
 
-Once you have created an assignment, you can also:
-* Upload template documents from inside the assignment detail page
-* Assign the assignment to specific users (rather than all users of the course)
+Setelah Anda membuat tugas, Anda juga dapat:
+* Mengunggah dokumen templat dari dalam halaman detail tugas
+* Menetapkan tugas ke pengguna tertentu (bukan semua pengguna kursus)
 
-And once learners have submitted their assignments, you can:
-* Export a PDF list of submissions
-* Show a list of only the learners who have not submitted their assignment
-* Download all assignments in a big ZIP
-* Upload all corrections in a big ZIP
-* Delete all corrections you submitted (this doesn't delete the learners' submissions)
+Dan setelah peserta didik mengumpulkan tugas mereka, Anda dapat:
+* Mengekspor daftar pengumpulan dalam format PDF
+* Menampilkan daftar hanya peserta didik yang belum mengumpulkan tugas mereka
+* Mengunduh semua tugas dalam satu file ZIP besar
+* Mengunggah semua koreksi dalam satu file ZIP besar
+* Menghapus semua koreksi yang Anda kirimkan (ini tidak menghapus pengumpulan peserta didik)
 
-## How Learners Submit
+## Cara Peserta Didik Mengumpulkan Tugas
 
-Learners open the assignment and:
+Peserta didik membuka tugas dan:
 
-1. Click **Upload file** or the submission button
-2. Select a file from their computer (or write text directly, depending on configuration)
-3. Add an optional comment
-4. Submit
+1. Klik **Unggah file** atau tombol pengumpulan
+2. Pilih file dari komputer mereka (atau menulis teks langsung, tergantung pada konfigurasi)
+3. Tambahkan komentar opsional
+4. Kirim
 
-Learners can see whether they have already submitted and, if allowed, update their submission.
+Peserta didik dapat melihat apakah mereka sudah mengumpulkan tugas dan, jika diizinkan, memperbarui pengumpulan mereka.
 
-## Reviewing Submissions
+## Meninjau Pengumpulan
 
-![The assignment submissions list showing student names, dates, files, and grading status](/.gitbook/assets/assignments-submissions-list.png)
+![Daftar pengumpulan tugas yang menunjukkan nama siswa, tanggal, file, dan status penilaian](/.gitbook/assets/assignments-submissions-list.png)
 
-As a teacher, open an assignment to see the list of all submissions:
+Sebagai pengajar, buka tugas untuk melihat daftar semua pengumpulan:
 
-* **Student name** — Who submitted
-* **Submission date** — When the work was submitted
-* **File** — Download the submitted file
-* **Status** — Whether the submission has been graded
-* **Comments** — Any comments left by the learner or by you
+* **Nama siswa** — Siapa yang mengumpulkan
+* **Tanggal pengumpulan** — Kapan pekerjaan dikumpulkan
+* **File** — Unduh file yang dikumpulkan
+* **Status** — Apakah pengumpulan telah dinilai
+* **Komentar** — Komentar yang ditinggalkan oleh peserta didik atau oleh Anda
 
-### Grading a Submission
+### Menilai Pengumpulan
 
-![The assignment grading view with score input, feedback field, and corrected file upload](/.gitbook/assets/assignment-grading-view.png)
+![Tampilan penilaian tugas dengan input skor, kolom umpan balik, dan unggahan file yang dikoreksi](/.gitbook/assets/assignment-grading-view.png)
 
-1. Click on a submission to open it
-2. Review the submitted file
-3. Enter a **score**
-4. Write **feedback comments** for the learner
-5. Optionally upload a **corrected file** as an attachment
-6. Save
+1. Klik pada pengumpulan untuk membukanya
+2. Tinjau file yang dikumpulkan
+3. Masukkan **skor**
+4. Tulis **komentar umpan balik** untuk peserta didik
+5. Secara opsional unggah **file yang dikoreksi** sebagai lampiran
+6. Simpan
 
-### AI-Assisted Grading
+### Penilaian Berbantuan AI
 
-If AI tools are configured on your platform, you may see an **AI grading** option when reviewing submissions. This uses an AI model to suggest a score and feedback for open-ended work. See [AI Grading](../ai-tools/ai-grading.md) for details.
+Jika alat AI dikonfigurasi pada platform Anda, Anda mungkin melihat opsi **Penilaian AI** saat meninjau pengumpulan. Ini menggunakan model AI untuk menyarankan skor dan umpan balik untuk pekerjaan terbuka. Lihat [Penilaian AI](../ai-tools/ai-grading.md) untuk detailnya.
 
-## Managing Submissions
+## Mengelola Pengumpulan
 
-Group actions:
-* **Download assignments package** — Download all submissions as a single ZIP file for offline review
-* **Upload corrections package** — If you downloaded all submissions in a single ZIP file, edited the files in place on your computer and zipped them again, you can send the zip as a package of corrections. Do not change filenames or it will not work.
-* **Late submissions** — Submissions after the deadline are flagged but may still be accepted depending on your settings
+Aksi kelompok:
+* **Unduh paket tugas** — Unduh semua pengumpulan sebagai satu file ZIP untuk ditinjau secara offline
+* **Unggah paket koreksi** — Jika Anda mengunduh semua pengumpulan dalam satu file ZIP, mengedit file di tempat pada komputer Anda dan meng-zip-nya lagi, Anda dapat mengirim zip sebagai paket koreksi. Jangan ubah nama file atau ini tidak akan berfungsi.
+* **Pengumpulan terlambat** — Pengumpulan setelah batas waktu ditandai tetapi mungkin masih diterima tergantung pada pengaturan Anda
 
-Individual submission actions:
-* **Upload correction** — Upload a correction for one learner 
-* **Download** — Download the submission of one learner
-* **Correct and grade** — Add a correction and a grade to the learner's submission 
-* **Edit** — Edit the document title or the previous feedback on the submission
-* **Move** — Transfer a submission between assignment folders (e.g. if the student submitted in the wrong assignment)
-* **Visibility** — Control whether learners can see each other's submissions
+Aksi pengumpulan individu:
+* **Unggah koreksi** — Unggah koreksi untuk satu peserta didik
+* **Unduh** — Unduh pengumpulan dari satu peserta didik
+* **Koreksi dan nilai** — Tambahkan koreksi dan nilai ke pengumpulan peserta didik
+* **Edit** — Edit judul dokumen atau umpan balik sebelumnya pada pengumpulan
+* **Pindahkan** — Pindahkan pengumpulan antar folder tugas (misalnya jika siswa mengumpulkan di tugas yang salah)
+* **Visibilitas** — Kontrol apakah peserta didik dapat melihat pengumpulan satu sama lain
 
-## Linking to the Gradebook
+## Menghubungkan ke Buku Nilai
 
-Assignment scores can be included in the course gradebook ("Assessments" tool). This allows assignment grades to contribute to the learner's overall course grade and certificate eligibility. See [Gradebook](gradebook.md) for details.
+Skor tugas dapat dimasukkan ke dalam buku nilai kursus (alat "Penilaian"). Ini memungkinkan nilai tugas berkontribusi pada nilai keseluruhan kursus peserta didik dan kelayakan sertifikat. Lihat [Buku Nilai](gradebook.md) untuk detailnya.
 
+---
 ## Tips
 
-* **Be specific in instructions** — Clearly describe what learners should submit, the expected format, and evaluation criteria
-* **Set realistic deadlines** — Use the Agenda tool to make deadlines visible in the course calendar
-* **Use the corrected file feature** — Upload annotated versions of student work so they can see your specific corrections
-* **Enable peer visibility carefully** — Allowing learners to see each other's work can encourage learning but may not be appropriate for all assignments
+* **Berikan instruksi yang spesifik** — Jelaskan dengan jelas apa yang harus diserahkan oleh peserta didik, format yang diharapkan, dan kriteria evaluasi
+* **Tetapkan tenggat waktu yang realistis** — Gunakan alat Agenda untuk membuat tenggat waktu terlihat di kalender kursus
+* **Gunakan fitur file yang dikoreksi** — Unggah versi beranotasi dari pekerjaan siswa sehingga mereka dapat melihat koreksi spesifik Anda
+* **Aktifkan visibilitas antar peserta dengan hati-hati** — Mengizinkan peserta didik untuk melihat pekerjaan satu sama lain dapat mendorong pembelajaran, tetapi mungkin tidak sesuai untuk semua tugas
