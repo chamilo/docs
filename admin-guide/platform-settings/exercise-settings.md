@@ -1,534 +1,538 @@
-# Exercises (Tests) Settings
+# Ρυθμίσεις Ασκήσεων (Δοκιμών)
 
-Defaults and behaviour of the **Exercises (Tests)** tool — question display, scoring, attempts, and similar.
+Προεπιλογές και συμπεριφορά του εργαλείου **Exercises (Tests)** — εμφάνιση ερωτήσεων, βαθμολόγηση, προσπάθειες και παρόμοια.
 
-Access these settings under **Administration > Configuration settings > Exercises (Tests)**. This category contains **63 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+Πρόσβαση σε αυτές τις ρυθμίσεις στο **Administration > Configuration settings > Exercises (Tests)**. Αυτή η κατηγορία περιέχει **63 ρυθμίσεις**, που παρατίθενται παρακάτω με τον τίτλο και το σχόλιο που παρέχονται στα fixtures των ρυθμίσεων της πλατφόρμας (`SettingsCurrentFixtures.php`).
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> Το όνομα της μεταβλητής στον κώδικα εμφανίζεται σε monospace. Χρησιμοποιήστε το όταν προγραμματίζετε μέσω του API ή όταν χρειάζεται να αλλάξετε αυτές τις ρυθμίσεις σε παγκόσμιο επίπεδο επεξεργαζόμενοι το [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
 
-## Settings
+## Ρυθμίσεις
 
 ### `add_exercise_best_attempt_in_report`
 
-**Enable display of best score attempt**
+**Ενεργοποίηση εμφάνισης καλύτερης προσπάθειας βαθμολογίας**
 
-Provide a list of courses and tests' IDs that will show the best score attempt for any learner in the reports.
+Παρέχετε μια λίστα μαθημάτων και ID δοκιμών που θα εμφανίζουν την καλύτερη προσπάθεια βαθμολογίας για κάθε εκπαιδευόμενο στις αναφορές.
 
 ### `allow_coach_feedback_exercises`
 
-**Allow coaches to comment in review of exercises**
+**Επιτρέψτε στους εκπαιδευτές να σχολιάζουν στην ανασκόπηση ασκήσεων**
 
-Allow coaches to edit feedback during review of exercises
+Επιτρέψτε στους εκπαιδευτές να επεξεργάζονται σχόλια κατά την ανασκόπηση ασκήσεων
 
-*Default: `true`*
+*Προεπιλογή: `true`*
 
 ### `allow_edit_exercise_in_lp`
 
-**Allow teachers to edit tests in learning paths**
+**Επιτρέψτε στους διδάσκοντες να επεξεργάζονται δοκιμές σε μονοπάτια μάθησης**
 
-By default, Chamilo prevents you from editing tests that are included inside a learning path. This is to avoid changes that would affect learners (past and future) differently regarding the results and/or progress in the learning path. This option allows teachers to bypass this restriction.
-
+Κατά προεπιλογή, το Chamilo σας εμποδίζει να επεξεργάζεστε δοκιμές που περιλαμβάνονται μέσα σε μονοπάτι μάθησης. Αυτό γίνεται για να αποφευχθούν αλλαγές που θα επηρέαζαν τους εκπαιδευόμενους (παρελθοντικούς και μελλοντικούς) διαφορετικά όσον αφορά τα αποτελέσματα και/ή την πρόοδο στο μονοπάτι μάθησης. Αυτή η επιλογή επιτρέπει στους διδάσκοντες να παρακάμψουν αυτόν τον περιορισμό.
 
 ### `allow_exercise_categories`
 
-**Enable test categories**
+**Ενεργοποίηση κατηγοριών δοκιμών**
 
-Test categories are not enabled by default because they add a level of complexity. Enable this feature to show all test categories related management icons appear.
+Οι κατηγορίες δοκιμών δεν ενεργοποιούνται κατά προεπιλογή επειδή προσθέτουν ένα επίπεδο πολυπλοκότητας. Ενεργοποιήστε αυτή τη λειτουργία για να εμφανιστούν όλα τα εικονίδια διαχείρισης σχετικά με τις κατηγορίες δοκιμών.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 ### `allow_mandatory_question_in_category`
 
-**Enable selecting mandatory questions**
+**Ενεργοποίηση επιλογής υποχρεωτικών ερωτήσεων**
 
-Enable the selection of mandatory questions in a test when using random categories.
+Ενεργοποιήστε την επιλογή υποχρεωτικών ερωτήσεων σε μια δοκιμή όταν χρησιμοποιούνται τυχαίες κατηγορίες.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 ### `allow_notification_setting_per_exercise`
 
-**Test notification settings at test-level**
+**Ρυθμίσεις ειδοποιήσεων δοκιμής σε επίπεδο δοκιμής**
 
-Enable the configuration of test submission notifications at the test level rather than the course level. Falls back to course-level settings if not defined at test-level.
+Ενεργοποιήστε τη διαμόρφωση ειδοποιήσεων υποβολής δοκιμής σε επίπεδο δοκιμής αντί σε επίπεδο μαθήματος. Επιστρέφει στις ρυθμίσεις επιπέδου μαθήματος αν δεν ορίζεται σε επίπεδο δοκιμής.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 ### `allow_quick_question_description_popup`
 
-**Quick image addition to question**
+**Γρήγορη προσθήκη εικόνας σε ερώτηση**
 
-Enable an additional icon in the test questions list to add an image as question description. This vastly accelerates question edition when the questions are in the title and the description only includes an image.
+Ενεργοποιήστε ένα επιπλέον εικονίδιο στη λίστα ερωτήσεων δοκιμής για να προσθέσετε μια εικόνα ως περιγραφή ερώτησης. Αυτό επιταχύνει σημαντικά την επεξεργασία ερωτήσεων όταν οι ερωτήσεις βρίσκονται στον τίτλο και η περιγραφή περιέχει μόνο μια εικόνα.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 ### `allow_quiz_question_feedback`
 
-**Add question feedback if incorrect answer**
+**Προσθήκη σχολίου ερώτησης αν λανθασμένη απάντηση**
 
-By default, Chamilo allows you to show feedback on each answer in a question. With this option, an additional field is created to provide pre-defined feedback to the whole question. This feedback will only appear if the user answered incorrectly.
+Κατά προεπιλογή, το Chamilo σας επιτρέπει να εμφανίζετε σχόλια για κάθε απάντηση σε μια ερώτηση. Με αυτή την επιλογή, δημιουργείται ένα επιπλέον πεδίο για να παρέχετε προκαθορισμένο σχόλιο για ολόκληρη την ερώτηση. Αυτό το σχόλιο θα εμφανίζεται μόνο αν ο χρήστης απάντησε λανθασμένα.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 ### `allow_quiz_results_page_config`
 
-**Enable test results page configuration**
+**Ενεργοποίηση διαμόρφωσης σελίδας αποτελεσμάτων δοκιμής**
 
-Define an array of settings you want to apply to all tests results pages. Settings can be ‘hide_question_score’, ‘hide_expected_answer’, ‘hide_category_table’, ‘hide_correct_answered_questions’, ‘hide_total_score’ and possibly more in the future. Look for ‘getPageConfigurationAttribute’ in the code to see what’s in use.
+Ορίστε έναν πίνακα ρυθμίσεων που θέλετε να εφαρμόσετε σε όλες τις σελίδες αποτελεσμάτων δοκιμών. Οι ρυθμίσεις μπορούν να είναι ‘hide_question_score’, ‘hide_expected_answer’, ‘hide_category_table’, ‘hide_correct_answered_questions’, ‘hide_total_score’ και πιθανώς περισσότερες στο μέλλον. Αναζητήστε το ‘getPageConfigurationAttribute’ στον κώδικα για να δείτε τι χρησιμοποιείται.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 ### `allow_quiz_show_previous_button_setting`
 
-**Show 'previous' button in test to navigate questions**
+**Εμφάνιση κουμπιού 'προηγούμενο' στη δοκιμή για πλοήγηση ερωτήσεων**
 
-Set this to false to disable the 'previous' button when answering questions in a test, thus forcing users to always move ahead.
+Ορίστε το σε false για να απενεργοποιήσετε το κουμπί 'προηγούμενο' κατά την απάντηση ερωτήσεων σε μια δοκιμή, αναγκάζοντας έτσι τους χρήστες να προχωρούν πάντα μπροστά.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 ### `allow_teacher_comment_audio`
 
-**Audio feedback to submitted answers**
+**Ήχος σχολίου σε υποβληθείσες απαντήσεις**
 
-Allow teachers to provide feedback to users through audio (alternatively to text) on each question in a test.
+Επιτρέψτε στους διδάσκοντες να παρέχουν σχόλια στους χρήστες μέσω ήχου (εναλλακτικά από κείμενο) για κάθε ερώτηση σε μια δοκιμή.
 
-*Default: `true`*
+*Προεπιλογή: `true`*
 
 ### `allow_time_per_question`
 
-**Enable time per question in tests**
+**Ενεργοποίηση χρόνου ανά ερώτηση σε δοκιμές**
 
-By default, it is only possible to limit the time per test. Limiting it per question adds an extra layer of possibilities, and you can (carefully) combine both.
+Κατά προεπιλογή, είναι δυνατό να περιορίζεται ο χρόνος ανά δοκιμή. Ο περιορισμός ανά ερώτηση προσθέτει ένα επιπλέον επίπεδο δυνατοτήτων και μπορείτε (προσεκτικά) να συνδυάσετε και τα δύο.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 ### `block_category_questions`
 
-**Lock questions of previous categories in a test**
+**Κλείδωμα ερωτήσεων προηγούμενων κατηγοριών σε δοκιμή**
 
-When using this option, an additional option will appear in the test's configuration. When using a test with multiple question categories and asking for a distribution by category, this will allow the user to navigate questions per category. Once a category is finished, (s)he moves to the next category and cannot return to the previous category.
+Όταν χρησιμοποιείται αυτή η επιλογή, θα εμφανιστεί μια επιπλέον επιλογή στη διαμόρφωση της δοκιμής. Όταν χρησιμοποιείται δοκιμή με πολλαπλές κατηγορίες ερωτήσεων και ζητείται κατανομή ανά κατηγορία, αυτό θα επιτρέπει στον χρήστη να πλοηγείται στις ερωτήσεις ανά κατηγορία. Μόλις ολοκληρωθεί μια κατηγορία, (εκ)εί προχωρά στην επόμενη κατηγορία και δεν μπορεί να επιστρέψει στην προηγούμενη.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 ### `block_quiz_mail_notification_general_coach`
 
-**Block sending test notifications to general coach**
+**Μπλοκάρισμα αποστολής ειδοποιήσεων δοκιμής σε γενικό εκπαιδευτή**
 
-Learners completing a test usually sends notifications to coaches, including the general session coach. Enable this option to omit the general coach from these notifications.
+Οι εκπαιδευόμενοι που ολοκληρώνουν μια δοκιμή συνήθως στέλνουν ειδοποιήσεις στους εκπαιδευτές, συμπεριλαμβανομένου του γενικού εκπαιδευτή συνεδρίας. Ενεργοποιήστε αυτή την επιλογή για να παραλείψετε τον γενικό εκπαιδευτή από αυτές τις ειδοποιήσεις.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
+---
 ### `configure_exercise_visibility_in_course`
 
-**Enable to bypass the configuration of Exercise invisible in session at a base course level**
+**Ενεργοποίηση για παράκαμψη της ρύθμισης της αορατότητας της Άσκησης σε συνεδρία στο επίπεδο του βασικού μαθήματος**
 
-To enable the configuration of the exercise invisibility in session in the base course to by pass the global configuration. If not set the global parameter is used.
+Για να ενεργοποιήσετε τη ρύθμιση της αορατότητας της άσκησης σε συνεδρία στο βασικό μάθημα ώστε να παρακαμφθεί η παγκόσμια ρύθμιση. Εάν δεν οριστεί, χρησιμοποιείται η παγκόσμια παράμετρος.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 ### `disable_clean_exercise_results_for_teachers`
 
-**Disable 'clean results' for teachers**
+**Απενεργοποίηση της επιλογής «καθαρισμός αποτελεσμάτων» για καθηγητές**
 
-Disable the option to delete test results from the tests list. This is often used when less-careful teachers manage courses, to avoid critical mistakes.
+Απενεργοποιεί την επιλογή διαγραφής αποτελεσμάτων δοκιμών από τη λίστα δοκιμών. Χρησιμοποιείται συχνά όταν καθηγητές με λιγότερη προσοχή διαχειρίζονται μαθήματα, για να αποφευχθούν κρίσιμα λάθη.
 
-*Default: `true`*
+*Προεπιλογή: `true`*
 
 ### `email_alert_manager_on_new_quiz`
 
-**Default e-mail alert setting on new quiz**
+**Προεπιλεγμένη ρύθμιση ειδοποίησης e-mail για νέα κουίζ**
 
-Whether you want course managers (teachers) to be notified by e-mail when a quiz is answered by a student. This is the default value to be given to all new courses, but each teacher can still change this setting in his/her own course.
+Εάν θέλετε οι διαχειριστές μαθήματος (καθηγητές) να ειδοποιούνται με e-mail όταν ένα κουίζ απαντηθεί από φοιτητή. Αυτή είναι η προεπιλεγμένη τιμή που δίνεται σε όλα τα νέα μαθήματα, αλλά κάθε καθηγητής μπορεί ακόμα να αλλάξει αυτή τη ρύθμιση στο δικό του μάθημα.
 
-*Default: `true`*
+*Προεπιλογή: `true`*
 
 ### `enable_quiz_scenario`
 
-**Enable Quiz scenario**
+**Ενεργοποίηση σεναρίου Κουίζ**
 
-From here you will be able to create exercises that propose different questions depending in the user's answers.
+Από εδώ θα μπορείτε να δημιουργείτε ασκήσεις που προτείνουν διαφορετικές ερωτήσεις ανάλογα με τις απαντήσεις του χρήστη.
 
-*Default: `true`*
+*Προεπιλογή: `true`*
 
 ### `exercise_additional_teacher_modify_actions`
 
-**Additional links for teachers in tests list**
+**Πρόσθετοι σύνδεσμοι για καθηγητές στη λίστα δοκιμών**
 
-Configure callback elements to generate new action icons for teachers to the right side of the tests list, in the form of an array, e.g. ['myplugin' => ['MyPlugin', 'urlGeneratorCallback']]
+Ρυθμίστε στοιχεία callback για τη δημιουργία νέων εικονιδίων ενεργειών για καθηγητές στη δεξιά πλευρά της λίστας δοκιμών, με τη μορφή πίνακα, π.χ. `['myplugin' => ['MyPlugin', 'urlGeneratorCallback']]`
 
 ### `exercise_attempts_report_show_username`
 
-**Show username in test results page**
+**Εμφάνιση ονόματος χρήστη στη σελίδα αποτελεσμάτων δοκιμής**
 
-Show the username (instead or, or as well as, the user info) on the test results page.
+Εμφανίζει το όνομα χρήστη (αντί ή καθώς και τις πληροφορίες χρήστη) στη σελίδα αποτελεσμάτων δοκιμής.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 ### `exercise_category_report_user_extra_fields`
 
-**Add user extra fields in exercise category report**
+**Προσθήκη επιπλέον πεδίων χρήστη στην αναφορά κατηγορίας άσκησης**
 
-Define an array with the list of user extra fields to add to the report.
+Ορίστε έναν πίνακα με τη λίστα των επιπλέον πεδίων χρήστη που θα προστεθούν στην αναφορά.
 
 ### `exercise_category_round_score_in_export`
 
-**Round score in test exports**
+**Στρογγυλοποίηση βαθμολογίας στις εξαγωγές δοκιμών**
 
-When enabled, test scores are rounded to the nearest integer when exporting exercise reports.
+Όταν ενεργοποιηθεί, οι βαθμολογίες δοκιμών στρογγυλοποιούνται στον πλησιέστερο ακέραιο αριθμό κατά την εξαγωγή αναφορών ασκήσεων.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 ### `exercise_embeddable_extra_types`
 
-**Embeddable question types**
+**Ενσωματώσιμες τύποι ερωτήσεων**
 
-By default, only single answer and multiple answer questions are considered when deciding whether a test can be embedded in a video or not. With this option, you can decide that more question types are available. Be aware that not all question types fit nicely in the space assigned to videos. Questions types are availalble in the code in question.class.php.
+Προεπιλογή, μόνο οι ερωτήσεις μονής και πολλαπλής απάντησης λαμβάνονται υπόψη κατά την απόφαση αν μια δοκιμή μπορεί να ενσωματωθεί σε βίντεο ή όχι. Με αυτή την επιλογή, μπορείτε να αποφασίσετε ότι περισσότεροι τύποι ερωτήσεων είναι διαθέσιμοι. Λάβετε υπόψη ότι όχι όλοι οι τύποι ερωτήσεων ταιριάζουν ωραία στον χώρο που διατίθεται για βίντεο. Οι τύποι ερωτήσεων είναι διαθέσιμοι στον κώδικα στο αρχείο `question.class.php`.
 
 ### `exercise_hide_ip`
 
-**Hide user IP from test reports**
+**Απόκρυψη IP χρήστη από αναφορές δοκιμών**
 
-By default, we show user information and its IP address, but this might be considered personal data, so this option allows you to remove this info from all test reports.
+Προεπιλογή, εμφανίζουμε πληροφορίες χρήστη και τη διεύθυνση IP του, αλλά αυτό μπορεί να θεωρηθεί προσωπικά δεδομένα, οπότε αυτή η επιλογή σας επιτρέπει να αφαιρέσετε αυτές τις πληροφορίες από όλες τις αναφορές δοκιμών.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 ### `exercise_hide_label`
 
-**Hide question ribbon (right/wrong) in test results**
+**Απόκρυψη κορδέλας ερώτησης (σωστό/λάθος) στα αποτελέσματα δοκιμής**
 
-In test results, a ribbon appears by default to indicate if the answer was right or wrong. Enable this option to remove the ribbon globally.
+Στα αποτελέσματα δοκιμής, εμφανίζεται προεπιλογή μια κορδέλα για να υποδείξει αν η απάντηση ήταν σωστή ή λανθασμένη. Ενεργοποιήστε αυτή την επιλογή για να αφαιρέσετε την κορδέλα παγκοσμίως.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 ### `exercise_invisible_in_session`
 
-**Exercise invisible in Session**
+**Άσκηση αόρατη σε Συνεδρία**
 
-If an exercise is visible in the base course then it appears invisible in the session. If an exercise is invisible in the base course then it does not appear in the session.
+Εάν μια άσκηση είναι ορατή στο βασικό μάθημα, εμφανίζεται αόρατη στη συνεδρία. Εάν μια άσκηση είναι αόρατη στο βασικό μάθημα, δεν εμφανίζεται στη συνεδρία.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 ### `exercise_max_editors_in_page`
 
-**Max editors in exercise result screen**
+**Μέγιστοι επεξεργαστές στην οθόνη αποτελεσμάτων άσκησης**
 
-Because of the sheer number of questions that might appear in an exercise, the correction screen, allowing the teacher to add comments to each answer, might be very slow to load. Set this number to 5 to ask the platform to only show WYSIWYG editors up to a certain number of answers on the screen. This will speed up the correction page loading time considerably, but will remove WYSIWYG editors and leave only a plain text editor.
+Λόγω του μεγάλου αριθμού ερωτήσεων που μπορεί να εμφανιστούν σε μια άσκηση, η οθόνη διόρθωσης, που επιτρέπει στον καθηγητή να προσθέσει σχόλια σε κάθε απάντηση, μπορεί να φορτώνει πολύ αργά. Ορίστε αυτόν τον αριθμό σε 5 για να ζητήσετε από την πλατφόρμα να εμφανίζει επεξεργαστές WYSIWYG μόνο έως έναν ορισμένο αριθμό απαντήσεων στην οθόνη. Αυτό θα επιταχύνει σημαντικά τον χρόνο φόρτωσης της σελίδας διόρθωσης, αλλά θα αφαιρέσει τους επεξεργαστές WYSIWYG και θα αφήσει μόνο έναν απλό επεξεργαστή κειμένου.
 
-*Default: `0`*
+*Προεπιλογή: `0`*
 
 
 ### `exercise_max_score`
 
-**Maximum score of exercises**
+**Μέγιστη βαθμολογία ασκήσεων**
 
-Define a maximum score (generally 10,20 or 100) for all the exercises on the platform. This will define how final results are shown to users and teachers.
+Ορίστε μια μέγιστη βαθμολογία (συνήθως 10, 20 ή 100) για όλες τις ασκήσεις της πλατφόρμας. Αυτό θα ορίσει τον τρόπο εμφάνισης των τελικών αποτελεσμάτων στους χρήστες και καθηγητές.
 
-*Default: `20`*
+*Προεπιλογή: `20`*
 
 
 ### `exercise_min_score`
 
-**Minimum score of exercises**
+**Ελάχιστη βαθμολογία ασκήσεων**
 
-Define a minimum score (generally 0) for all the exercises on the platform. This will define how final results are shown to users and teachers.
+Ορίστε μια ελάχιστη βαθμολογία (συνήθως 0) για όλες τις ασκήσεις της πλατφόρμας. Αυτό θα ορίσει τον τρόπο εμφάνισης των τελικών αποτελεσμάτων στους χρήστες και καθηγητές.
 
-*Default: `0`*
+*Προεπιλογή: `0`*
 
 
 ### `exercise_result_end_text_html_strict_filtering`
 
-**Bypass HTML filtering in test end messages**
+**Παράκαμψη φιλτραρίσματος HTML στα μηνύματα τέλους δοκιμής**
 
-Consider messages at the end of tests are always safe. Removing the filter makes it possible to use JavaScript there.
+Θεωρήστε ότι τα μηνύματα στο τέλος των δοκιμών είναι πάντα ασφαλή. Η αφαίρεση του φίλτρου καθιστά δυνατή τη χρήση JavaScript εκεί.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 
 ### `exercise_score_format`
 
-**Tests score format**
+**Μορφή βαθμολογίας δοκιμών**
 
-Select between the following forms for the display of users' score in various reports: 1 = SCORE_AVERAGE (5 / 10); 2 = SCORE_PERCENT (50%); 3 = SCORE_DIV_PERCENT (5 / 10 (50%)). Use the numerical ID of the form you want to use.
+Επιλέξτε μεταξύ των εξής μορφών για την εμφάνιση της βαθμολογίας των χρηστών σε διάφορες αναφορές: 1 = SCORE_AVERAGE (5 / 10); 2 = SCORE_PERCENT (50%); 3 = SCORE_DIV_PERCENT (5 / 10 (50%)). Χρησιμοποιήστε τον αριθμητικό αναγνωριστικό της μορφής που θέλετε να χρησιμοποιήσετε.
 
-*Default: `0`*
+*Προεπιλογή: `0`*
 
 ### `exercises_disable_new_attempts`
 
-**Disable new test attempts**
+**Απενεργοποίηση νέων προσπαθειών δοκιμής**
 
-Disable new test attempts globally. Usually used when there is a problem with tests in general and you want some time to analyse without blocking the whole platform.
+Απενεργοποιεί νέες προσπάθειες δοκιμής παγκοσμίως. Συνήθως χρησιμοποιείται όταν υπάρχει πρόβλημα με τις δοκιμές γενικά και θέλετε λίγο χρόνο για ανάλυση χωρίς να μπλοκάρετε ολόκληρη την πλατφόρμα.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 
+---
+
+---
 ### `hide_free_question_score`
 
-**Hide open questions' score**
+**Απόκρυψη βαθμολογίας ερωτήσεων ανοιχτού τύπου**
 
-Hide the fact that open questions (including audio and annotations) have a score by hiding the score display in all learner-facing reports.
+Απόκρυψη του γεγονότος ότι οι ερωτήσεις ανοιχτού τύπου (συμπεριλαμβανομένων ήχου και σχολίων) έχουν βαθμολογία, κρύβοντας την εμφάνιση της βαθμολογίας σε όλες τις αναφορές προς τους μαθητές.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 
 ### `hide_user_info_in_quiz_result`
 
-**Hide user info on test results page**
+**Απόκρυψη στοιχείων χρήστη στη σελίδα αποτελεσμάτων τεστ**
 
-The default test results page shows a user datasheet (photo, name, etc) which might, in some contexts, be considered as pushing the limits of personal data treatment. Enable this option to remove user details from the test results.
+Η προεπιλεγμένη σελίδα αποτελεσμάτων τεστ εμφανίζει φύλλο στοιχείων χρήστη (φωτογραφία, όνομα κ.λπ.), το οποίο σε ορισμένα πλαίσια μπορεί να θεωρηθεί ότι υπερβαίνει τα όρια επεξεργασίας προσωπικών δεδομένων. Ενεργοποιήστε αυτή την επιλογή για να αφαιρέσετε τα στοιχεία του χρήστη από τα αποτελέσματα του τεστ.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 
 ### `limit_exercise_teacher_access`
 
-**Limit teachers' permissions over tests**
+**Περιορισμός δικαιωμάτων καθηγητών σε τεστ**
 
-When enabled, teachers cannot delete tests nor questions, change tests visibility, download to QTI, clean results, etc.
+Όταν ενεργοποιηθεί, οι καθηγητές δεν μπορούν να διαγράψουν τεστ ή ερωτήσεις, να αλλάξουν την ορατότητα τεστ, να κατεβάσουν σε QTI, να καθαρίσουν αποτελέσματα κ.λπ.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 
 ### `my_courses_show_pending_exercise_attempts`
 
-**Global pending tests list**
+**Παγκόσμια λίστα εκκρεμών τεστ**
 
-Enable to display to the final user a page with the list of pending tests across all courses.
+Ενεργοποιήστε για να εμφανίσετε στον τελικό χρήστη μια σελίδα με τη λίστα εκκρεμών τεστ σε όλα τα μαθήματα.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 
 ### `question_exercise_html_strict_filtering`
 
-**Bypass HTML filtering in test questions**
+**Παράκαμψη φιλτραρίσματος HTML σε ερωτήσεις τεστ**
 
-Consider questions text in tests are always safe. Removing the filter makes it possible to use JavaScript there.
+Θεωρήστε ότι το κείμενο των ερωτήσεων στα τεστ είναι πάντα ασφαλές. Η αφαίρεση του φίλτρου καθιστά δυνατή τη χρήση JavaScript εκεί.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 
 ### `question_pagination_length`
 
-**Question pagination length for teachers**
+**Μήκος σελιδοποίησης ερωτήσεων για καθηγητές**
 
-Number of questions to show on every page when using the question pagination for teachers option.
+Αριθμός ερωτήσεων που εμφανίζονται σε κάθε σελίδα όταν χρησιμοποιείται η επιλογή σελιδοποίησης ερωτήσεων για καθηγητές.
 
-*Default: `20`*
+*Προεπιλογή: `20`*
 
 
 ### `quiz_answer_extra_recording`
 
-**Enable extra test answers recording**
+**Ενεργοποίηση επιπλέον εγγραφής απαντήσεων τεστ**
 
-Enable recording of all answers (even temporary) in the track_e_attempt_recording table. This feautre is experimentaland can create issues in the reporting pages when attempting to grade a test.
+Ενεργοποιήστε την εγγραφή όλων των απαντήσεων (ακόμη και προσωρινών) στον πίνακα track_e_attempt_recording. Αυτή η λειτουργία είναι πειραματική και μπορεί να προκαλέσει προβλήματα στις σελίδες αναφορών κατά την προσπάθεια βαθμολόγησης ενός τεστ.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 
 ### `quiz_check_all_answers_before_end_test`
 
-**Check all answers before submitting test**
+**Έλεγχος όλων των απαντήσεων πριν την υποβολή τεστ**
 
-Display a popup with the list of answered/unanswered questions before submitting the test.
+Εμφάνιση αναδυόμενου παραθύρου με τη λίστα των απαντημένων/αναντημένων ερωτήσεων πριν την υποβολή του τεστ.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 
 ### `quiz_check_button_enable`
 
-**Add answer-saving process check before test**
+**Προσθήκη ελέγχου διαδικασίας αποθήκευσης απαντήσεων πριν το τεστ**
 
-Make sure users are all set to start the test by providing a simulation of the question-saving process before entering the test. This allows for early detection of some connection issues and reduces user experience frictions.
+Βεβαιωθείτε ότι οι χρήστες είναι έτοιμοι να ξεκινήσουν το τεστ παρέχοντας μια προσομοίωση της διαδικασίας αποθήκευσης ερωτήσεων πριν την είσοδο στο τεστ. Αυτό επιτρέπει την έγκαιρη ανίχνευση ορισμένων προβλημάτων σύνδεσης και μειώνει τις τριβές στην εμπειρία χρήστη.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 
 ### `quiz_confirm_saved_answers`
 
-**Add checkbox for answers count confirmation**
+**Προσθήκη πλαίσιο επιλογής επιβεβαίωσης αριθμού απαντήσεων**
 
-This option adds a checkbox at the end of each test asking the user to confirm the number of answers saved. This provides better auditing data for critical tests.
+Αυτή η επιλογή προσθέτει ένα πλαίσιο επιλογής στο τέλος κάθε τεστ, ζητώντας από τον χρήστη να επιβεβαιώσει τον αριθμό των αποθηκευμένων απαντήσεων. Αυτό παρέχει καλύτερα δεδομένα ελέγχου για κρίσιμα τεστ.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 
 ### `quiz_discard_orphan_in_course_export`
 
-**Discard orphan questions in course export**
+**Απόρριψη ορφανών ερωτήσεων κατά την εξαγωγή μαθήματος**
 
-When exporting a course, do not export the questions that are not part of any test.
+Κατά την εξαγωγή μαθήματος, μην εξάγετε ερωτήσεις που δεν ανήκουν σε κανένα τεστ.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 
 ### `quiz_generate_certificate_ending`
 
-**Generate certificate on test end**
+**Δημιουργία πιστοποιητικού στο τέλος τεστ**
 
-Generate certificate when ending a quiz. The quiz needs to be linked in the gradebook tool and have a pass percentage configured.
+Δημιουργήστε πιστοποιητικό κατά το τέλος κουίζ. Το κουίζ πρέπει να συνδεθεί στο εργαλείο βαθμολογίου και να έχει ρυθμισμένο ποσοστό επιτυχίας.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 
 ### `quiz_hide_attempts_table_on_start_page`
 
-**Hide test attempts table on test start page**
+**Απόκρυψη πίνακα προσπαθειών τεστ στη σελίδα έναρξης**
 
-Hide the table showing all previous attempts on the test start page.
+Απόκρυψη του πίνακα που δείχνει όλες τις προηγούμενες προσπάθειες στη σελίδα έναρξης του τεστ.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 
 ### `quiz_hide_question_number`
 
-**Hide question number**
+**Απόκρυψη αρίθμησης ερωτήσεων**
 
-Hide the question incremental numbering when taking a test.
+Απόκρυψη της προοδευτικής αρίθμησης ερωτήσεων κατά την εκτέλεση τεστ.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 
 ### `quiz_image_zoom`
 
-**Enable test images zooming**
+**Ενεργοποίηση εστίασης εικόνων τεστ**
 
-Enable this feature to allow users to zoom on images used in the tests.
+Ενεργοποιήστε αυτή τη λειτουργία για να επιτρέψετε στους χρήστες να κάνουν εστίαση σε εικόνες που χρησιμοποιούνται στα τεστ.
+
 
 ### `quiz_keep_alive_ping_interval`
 
-**Keep session active in tests**
+**Διατήρηση ενεργής συνεδρίας σε τεστ**
 
-Keep session active by maintaining a regular ping signal to the server every x seconds, define here. We recommend once every 300 seconds.
+Διατηρήστε ενεργή τη συνεδρία στέλνοντας τακτικά σήματα ping στον διακομιστή κάθε x δευτερόλεπτα, ορίζοντας εδώ. Συνιστούμε μία φορά κάθε 300 δευτερόλεπτα.
 
-*Default: `0`*
+*Προεπιλογή: `0`*
 
 
 ### `quiz_open_question_decimal_score`
 
-**Decimal score in open question types**
+**Δεκαδική βαθμολογία σε τύπους ερωτήσεων ανοιχτού τύπου**
 
-Allow the teacher to rate the open, oral expression and annotation question types with a decimal score.
+Επιτρέψτε στον καθηγητή να βαθμολογήσει τύπους ερωτήσεων ανοιχτού τύπου, προφορικής έκφρασης και σχολιασμού με δεκαδική βαθμολογία.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 
 ### `quiz_prevent_copy_paste`
 
-**Block copy-pasting in tests**
+**Μπλοκάρισμα αντιγραφής/επικόλλησης σε τεστ**
 
-Block copy/paste/save/print keys and right-clicks in exercises.
+Μπλοκάρισμα πλήκτρων αντιγραφής/επικόλλησης/αποθήκευσης/εκτύπωσης και δεξιού κλικ σε ασκήσεις.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 
 ### `quiz_question_delete_automatically_when_deleting_exercise`
 
-**Automatically delete questions when deleting test**
+**Αυτόματη διαγραφή ερωτήσεων κατά τη διαγραφή τεστ**
 
-The default behaviour is to make questions orphan when the only test using them is deleted. When enabled, this option ensure that all questions that would otherwise end up orphan are deleted as well.
+Η προεπιλεγμένη συμπεριφορά είναι να γίνονται οι ερωτήσεις ορφανές όταν διαγράφεται το μοναδικό τεστ που τις χρησιμοποιεί. Όταν ενεργοποιηθεί, αυτή η επιλογή εξασφαλίζει ότι όλες οι ερωτήσεις που θα γίνονταν αλλιώς ορφανές διαγράφονται επίσης.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 
 ### `quiz_results_answers_report`
 
-**Show link to download test results**
+**Εμφάνιση συνδέσμου λήψης αποτελεσμάτων τεστ**
 
-On the test results page, display a link to download the results as a file.
+Στη σελίδα αποτελεσμάτων τεστ, εμφανίστε σύνδεσμο για λήψη των αποτελεσμάτων ως αρχείο.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 
 ### `quiz_show_description_on_results_page`
 
-**Always show test description on results page**
+**Πάντα εμφάνιση περιγραφής τεστ στη σελίδα αποτελεσμάτων**
 
-When enabled, the test description is always displayed on the results page after test completion.
+Όταν ενεργοποιηθεί, η περιγραφή του τεστ εμφανίζεται πάντα στη σελίδα αποτελεσμάτων μετά την ολοκλήρωση του τεστ.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 
 ### `score_grade_model`
 
-**Score grades model**
+**Μοντέλο βαθμών βαθμολογίας**
 
-Define an array of score ranges and colors to display reports using this model. This allows you to show colors rather than numerical grades.
+Ορίστε έναν πίνακα εύρους βαθμολογιών και χρωμάτων για εμφάνιση αναφορών χρησιμοποιώντας αυτό το μοντέλο. Αυτό σας επιτρέπει να εμφανίζετε χρώματα αντί για αριθμητικούς βαθμούς.
 
+---
 ### `send_score_in_exam_notification_mail_to_manager`
 
-**Add score in mail notification of test submission**
+**Προσθήκη βαθμολογίας στο email ειδοποίησης υποβολής τεστ**
 
-Add the learner's score to the e-mail notification sent to the teacher after a test was submitted.
+Προσθέτει τη βαθμολογία του μαθητή στο email ειδοποίησης που αποστέλλεται στον διδάσκοντα μετά την υποβολή ενός τεστ.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 
 ### `show_exercise_attempts_in_all_user_sessions`
 
-**Show test attempts from all sessions in pending tests report**
+**Εμφάνιση προσπαθειών τεστ από όλες τις συνεδρίες στην αναφορά εκκρεμών τεστ**
 
-Show test attempts from users in all sessions where the general coach has access in pending tests report.
+Εμφανίζει τις προσπάθειες τεστ χρηστών από όλες τις συνεδρίες στις οποίες έχει πρόσβαση ο γενικός coach στην αναφορά εκκρεμών τεστ.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 
 ### `show_exercise_expected_choice`
 
-**Show expected choice in test results**
+**Εμφάνιση αναμενόμενης επιλογής στα αποτελέσματα τεστ**
 
-Show the expected choice and a status (right/wrong) for each answer on the test results page (if the test has been configured to show results).
+Εμφανίζει την αναμενόμενη επιλογή και μια κατάσταση (σωστή/λάθος) για κάθε απάντηση στη σελίδα αποτελεσμάτων τεστ (αν το τεστ έχει ρυθμιστεί να εμφανίζει αποτελέσματα).
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 
 ### `show_exercise_question_certainty_ribbon_result`
 
-**Show score for certainty degree questions**
+**Εμφάνιση βαθμολογίας για ερωτήσεις βαθμού βεβαιότητας**
 
-By default, Chamilo does not show a score for the certainty degree question types.
+Κατ' αρχήν, το Chamilo δεν εμφανίζει βαθμολογία για τους τύπους ερωτήσεων βαθμού βεβαιότητας.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 
 ### `show_exercise_session_attempts_in_base_course`
 
-**Show test attempts from all sessions in base course**
+**Εμφάνιση προσπαθειών τεστ από όλες τις συνεδρίες στο βασικό μάθημα**
 
-Show test attempts from users in all sessions to the teacher in the base course.
+Εμφανίζει τις προσπάθειες τεστ χρηστών από όλες τις συνεδρίες στον διδάσκοντα στο βασικό μάθημα.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 
 ### `show_official_code_exercise_result_list`
 
-**Display official code in exercises results**
+**Εμφάνιση επίσημου κώδικα στα αποτελέσματα ασκήσεων**
 
-Whether to show the students' official code in the exercises results reports
+Εάν θα εμφανίζεται ο επίσημος κώδικας των μαθητών στις αναφορές αποτελεσμάτων ασκήσεων
 
-*Default: `false`*
+*Προεπιλογή: `false`*
+
 
 ### `show_question_id`
 
-**Show question IDs in tests**
+**Εμφάνιση αναγνωριστικών ερωτήσεων σε τεστ**
 
-Show questions' internal IDs to let users take note of issues on specific questions and report them more efficiently.
+Εμφανίζει τα εσωτερικά αναγνωριστικά των ερωτήσεων για να επιτρέψει στους χρήστες να σημειώσουν προβλήματα σε συγκεκριμένες ερωτήσεις και να τα αναφέρουν πιο αποτελεσματικά.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 
 ### `show_question_pagination`
 
-**Show question pagination for teachers**
+**Εμφάνιση σελιδοποίησης ερωτήσεων για διδάσκοντες**
 
-For tests with many questions, use pagination if the number of questions is higher than this setting. Set to 0 to prevent using pagination.
+Για τεστ με πολλές ερωτήσεις, χρησιμοποιεί σελιδοποίηση αν ο αριθμός ερωτήσεων είναι μεγαλύτερος από αυτή τη ρύθμιση. Ορισμός σε 0 για να αποτρέψει τη χρήση σελιδοποίησης.
 
-*Default: `100`*
+*Προεπιλογή: `100`*
 
 
 ### `tracking_my_progress_show_deleted_exercises`
 
-**Show deleted tests in 'My progress'**
+**Εμφάνιση διαγραμμένων τεστ στη σελίδα 'Η πρόοδός μου'**
 
-Enable this option to display, on the 'My progress' page, the results of all tests you have taken, even the ones that have been deleted.
+Ενεργοποιήστε αυτή την επιλογή για να εμφανίζονται στη σελίδα 'Η πρόοδός μου' τα αποτελέσματα όλων των τεστ που έχετε συμμετάσχει, ακόμα και αυτών που έχουν διαγραφεί.
 
-*Default: `false`*
-
-
+*Προεπιλογή: `false`*

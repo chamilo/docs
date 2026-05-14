@@ -1,53 +1,53 @@
 # AI Tutor
 
-The AI Tutor is a chatbot integrated into Chamilo that learners can interact with to ask course-related questions. It provides instant, context-aware responses powered by a large language model.
+Ο AI Tutor είναι ένα chatbot ενσωματωμένο στο Chamilo με το οποίο οι μαθητές μπορούν να αλληλεπιδρούν για να θέτουν ερωτήσεις σχετικές με το μάθημα. Παρέχει άμεσες, προσαρμοσμένες στο πλαίσιο απαντήσεις που τροφοδοτούνται από ένα μεγάλο μοντέλο γλώσσας.
 
-## How It Works
+## Πώς Λειτουργεί
 
-When the AI Tutor is enabled for a course, learners see a chat interface where they can:
+Όταν ο AI Tutor ενεργοποιηθεί για ένα μάθημα, οι μαθητές βλέπουν μια διεπαφή συνομιλίας όπου μπορούν να:
 
-* **Ask questions** about course content
-* **Get explanations** of concepts covered in the course
-* **Receive guidance** without waiting for the teacher to respond
+* **Θέτουν ερωτήσεις** σχετικά με το περιεχόμενο του μαθήματος
+* **Λαμβάνουν εξηγήσεις** για έννοιες που καλύπτονται στο μάθημα
+* **Παίρνουν καθοδήγηση** χωρίς να περιμένουν απάντηση από τον δάσκαλο
 
-The AI Tutor uses the course context to provide relevant answers. It is designed to supplement your teaching, not replace it.
+Ο AI Tutor χρησιμοποιεί το πλαίσιο του μαθήματος για να παρέχει σχετικές απαντήσεις. Έχει σχεδιαστεί για να συμπληρώνει τη διδασκαλία σας, όχι για να την αντικαθιστά.
 
-## Enabling the AI Tutor
+## Ενεργοποίηση του AI Tutor
 
-The AI Tutor requires two levels of configuration:
+Ο AI Tutor απαιτεί δύο επίπεδα διαμόρφωσης:
 
-1. **Platform level** — The administrator must enable AI helpers and configure at least one AI provider (see [AI Configuration](../../admin-guide/integrations/ai-configuration.md))
-2. **Course level** — The AI Tutor must be enabled in the course settings (a simple on/off toggle). The provider used for the chat is the one configured by the administrator.
+1. **Επίπεδο πλατφόρμας** — Ο διαχειριστής πρέπει να ενεργοποιήσει τους βοηθούς AI και να διαμορφώσει τουλάχιστον έναν πάροχο AI (δείτε [AI Configuration](../../admin-guide/integrations/ai-configuration.md))
+2. **Επίπεδο μαθήματος** — Ο AI Tutor πρέπει να ενεργοποιηθεί στις ρυθμίσεις του μαθήματος (ένας απλός διακόπτης ενεργοποίησης/απενεργοποίησης). Ο πάροχος που χρησιμοποιείται για τη συνομιλία είναι αυτός που έχει διαμορφώσει ο διαχειριστής.
 
-## The Chat Interface
+## Η Διεπαφή Συνομιλίας
 
-![The AI Tutor chat interface showing a conversation between a learner and the AI](/.gitbook/assets/ai-tutor-chat.png)
+![Η διεπαφή συνομιλίας του AI Tutor που δείχνει μια συζήτηση μεταξύ μαθητή και AI](/.gitbook/assets/ai-tutor-chat.png)
 
-The AI Tutor appears as a **docked chat panel** within the course. Learners can:
+Ο AI Tutor εμφανίζεται ως **πάνελ συνομιλίας αγκυρωμένο** εντός του μαθήματος. Οι μαθητές μπορούν να:
 
-* Type messages and receive AI-generated responses
-* View their conversation history
-* Reset the conversation to start fresh
+* Πληκτρολογούν μηνύματα και να λαμβάνουν απαντήσεις που παράγονται από AI
+* Προβάλλουν το ιστορικό της συνομιλίας τους
+* Επαναφέρουν τη συνομιλία για να ξεκινήσουν από την αρχή
 
-The chat interface shows the exchange between the learner and the AI in a familiar messaging format.
+Η διεπαφή συνομιλίας εμφανίζει την ανταλλαγή μεταξύ μαθητή και AI σε μια οικεία μορφή μηνυμάτων.
 
-## Important Behavior
+## Σημαντική Συμπεριφορά
 
-* **Course context only** — The AI Tutor is only available inside a course, not on the general platform
-* **Disabled during exams** — The AI Tutor is automatically disabled when a learner is taking an exercise, to prevent cheating
-* **Conversation per learner** — Each learner has their own private conversation with the AI Tutor, and the prompt context only includes the most recent messages
-* **Provider failover** — If the configured provider fails, Chamilo falls back to another available provider so the chat keeps working
+* **Μόνο πλαίσιο μαθήματος** — Ο AI Tutor είναι διαθέσιμος μόνο μέσα σε ένα μάθημα, όχι στην γενική πλατφόρμα
+* **Απενεργοποιημένος κατά τις εξετάσεις** — Ο AI Tutor απενεργοποιείται αυτόματα όταν ένας μαθητής κάνει άσκηση, για να αποτρέψει την απάτη
+* **Συνομιλία ανά μαθητή** — Κάθε μαθητής έχει τη δική του ιδιωτική συνομιλία με τον AI Tutor, και το πλαίσιο της προτροπής περιλαμβάνει μόνο τα πιο πρόσφατα μηνύματα
+* **Εναλλαγή παρόχου σε περίπτωση αποτυχίας** — Αν ο διαμορφωμένος πάροχος αποτύχει, το Chamilo επιστρέφει σε έναν άλλο διαθέσιμο πάροχο ώστε η συνομιλία να συνεχίσει να λειτουργεί
 
-## As a Teacher
+## Ως Δάσκαλος
 
-You should be aware that:
+Θα πρέπει να γνωρίζετε ότι:
 
-* The AI Tutor may not always give perfect answers — encourage learners to verify important information
-* You can review AI Tutor usage through platform tracking
-* The AI Tutor is a complement to your teaching, not a substitute. Use it alongside forums, announcements, and direct messaging for comprehensive learner support.
+* Ο AI Tutor μπορεί να μην δίνει πάντα τέλειες απαντήσεις — ενθαρρύνετε τους μαθητές να επαληθεύουν σημαντικές πληροφορίες
+* Μπορείτε να ελέγξετε τη χρήση του AI Tutor μέσω της παρακολούθησης της πλατφόρμας
+* Ο AI Tutor είναι ένα συμπλήρωμα της διδασκαλίας σας, όχι αντικατάστασή της. Χρησιμοποιήστε τον παράλληλα με φόρουμ, ανακοινώσεις και άμεσα μηνύματα για ολοκληρωμένη υποστήριξη μαθητών.
 
-## Tips
+## Συμβουλές
 
-* **Set expectations** — Tell learners at the start of the course that an AI Tutor is available and explain how to use it appropriately
-* **Encourage critical thinking** — Remind learners to think critically about AI-generated answers
-* **Use for frequently asked questions** — The AI Tutor is especially useful for handling common questions that you would otherwise answer repeatedly
+* **Θέστε προσδοκίες** — Ενημερώστε τους μαθητές στην αρχή του μαθήματος ότι ο AI Tutor είναι διαθέσιμος και εξηγήστε πώς να τον χρησιμοποιούν κατάλληλα
+* **Ενθαρρύνετε την κριτική σκέψη** — Υπενθυμίστε στους μαθητές να σκέφτονται κριτικά τις απαντήσεις που παράγονται από AI
+* **Χρησιμοποιήστε για συχνές ερωτήσεις** — Ο AI Tutor είναι ιδιαίτερα χρήσιμος για την αντιμετώπιση κοινών ερωτήσεων που θα απαντούσατε επανειλημμένα διαφορετικά

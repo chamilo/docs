@@ -1,103 +1,104 @@
-# Documents
+# Έγγραφα
 
-The documents tool is your course's file repository. You can upload files, create documents in HTML format, organize content into folders, and give learners access to all the materials they need.
+Το εργαλείο έγγραφα είναι η αποθήκη αρχείων του μαθήματός σας. Μπορείτε να ανεβάσετε αρχεία, να δημιουργήσετε έγγραφα σε μορφή HTML, να οργανώσετε το περιεχόμενο σε φακέλους και να δώσετε στους μαθητές πρόσβαση σε όλα τα υλικά που χρειάζονται.
 
-## Accessing the Documents Tool
+## Πρόσβαση στο Εργαλείο Εγγράφων
 
-Open the **Documents** <img src="/.gitbook/assets/icons/mdi-bookshelf.svg" alt="Documents" data-size="line"> tool from the course homepage. You will see a file browser showing the root folder of your course's document library.
+Ανοίξτε το εργαλείο **Documents** <img src="/.gitbook/assets/icons/mdi-bookshelf.svg" alt="Documents" data-size="line"> από την αρχική σελίδα του μαθήματος. Θα δείτε έναν περιηγητή αρχείων που εμφανίζει τον ρίζα φάκελο της βιβλιοθήκης εγγράφων του μαθήματός σας.
 
-![The documents file browser showing folders and files with action icons](/.gitbook/assets/documents-file-browser.png)
+![Ο περιηγητής αρχείων εγγράφων που εμφανίζει φακέλους και αρχεία με εικονίδια ενεργειών](/.gitbook/assets/documents-file-browser.png)
 
-## Uploading Files
+## Ανέβασμα Αρχείων
 
-1. Click the **Upload** <img src="/.gitbook/assets/icons/mdi-upload.svg" alt="Upload" data-size="line"> button
-2. Select one or more files from your computer (you can drag and drop files into the upload area)
-3. The files are uploaded and appear in the current folder
+1. Κάντε κλικ στο κουμπί **Upload** <img src="/.gitbook/assets/icons/mdi-upload.svg" alt="Upload" data-size="line">
+2. Επιλέξτε ένα ή περισσότερα αρχεία από τον υπολογιστή σας (μπορείτε να σύρετε και να αποθέσετε αρχεία στην περιοχή ανεβάσματος)
+3. Τα αρχεία ανεβαίνουν και εμφανίζονται στον τρέχοντα φάκελο
 
-Chamilo supports most common file types: PDF, office documents (.docx, .odt), presentations (.pptx, .odp), spreadsheets (.xlsx, .ods), images (PNG, JPG, SVG, GIF), audio files, video files (including WEBM), HTML files, and more.
+Το Chamilo υποστηρίζει τους περισσότερους κοινούς τύπους αρχείων: PDF, έγγραφα γραφείου (.docx, .odt), παρουσιάσεις (.pptx, .odp), υπολογιστικά φύλλα (.xlsx, .ods), εικόνες (PNG, JPG, SVG, GIF), αρχεία ήχου, αρχεία βίντεο (συμπεριλαμβανομένων WEBM), αρχεία HTML και άλλα.
 
-Some formats might be forbidden by the portal administrator through a whitelist/blacklist filtering setting in the security section of the administration.
+Μερικές μορφές ενδέχεται να απαγορεύονται από τον διαχειριστή του portal μέσω ρύθμισης φιλτραρίσματος λευκής/μαύρης λίστας στην ενότητα ασφαλείας της διαχείρισης.
 
-For better readability by learners, we do recommend uploading files a browser can view or open without additional tools. This makes your course more portable and, as such, more accessible to mobile devices and more readable for people with special abilities.
+Για καλύτερη αναγνωσιμότητα από τους μαθητές, συνιστούμε να ανεβάζετε αρχεία που μπορεί να δει ή να ανοίξει ένας περιηγητής χωρίς επιπλέον εργαλεία. Αυτό καθιστά το μάθημά σας πιο φορητό και, ως εκ τούτου, πιο προσβάσιμο σε κινητές συσκευές και πιο αναγνώσιμο για άτομα με ειδικές ικανότητες.
 
-## Creating Content
+## Δημιουργία Περιεχομένου
 
-In addition to uploading files, you can create content directly in Chamilo:
+Εκτός από το ανέβασμα αρχείων, μπορείτε να δημιουργήσετε περιεχόμενο απευθείας στο Chamilo:
 
-### Web Pages
+### Ιστοσελίδες
 
-1. Click **New document**
-2. Use the rich-text editor to write your content with formatting, images, tables, and links
-3. Enter a **title** for the page
-4. Save
+1. Κάντε κλικ στο **New document**
+2. Χρησιμοποιήστε τον επεξεργαστή πλούσιου κειμένου για να γράψετε το περιεχόμενό σας με μορφοποίηση, εικόνες, πίνακες και συνδέσμους
+3. Εισαγάγετε έναν **τίτλο** για τη σελίδα
+4. Αποθηκεύστε
 
-The rich-text editor (TinyMCE) provides word-processor-like features including:
+Ο επεξεργαστής πλούσιου κειμένου (TinyMCE) παρέχει χαρακτηριστικά παρόμοια με επεξεργαστή κειμένου, συμπεριλαμβανομένων:
 
-* Text formatting (bold, italic, headings, lists)
-* Tables
-* Images (upload or link to existing images)
-* Embedded videos and audio
-* Links to other resources
-* HTML source editing for advanced users
+* Μορφοποίηση κειμένου (έντονο, πλάγιο, τίτλοι, λίστες)
+* Πίνακες
+* Εικόνες (ανέβασμα ή σύνδεση σε υπάρχουσες εικόνες)
+* Ενσωματωμένα βίντεο και ήχος
+* Συνδέσεις σε άλλους πόρους
+* Επεξεργασία πηγής HTML για προχωρημένους χρήστες
 
-### AI media generation
+### Δημιουργία πολυμέσων με ΤΝ
 
-When AI helpers are enabled on the platform, you can ask the AI to generate an **image** or a **short video** to illustrate a paragraph in the document you are editing. Select a paragraph, open the **Generate AI media** dialog, and the AI will produce a media item that you can review and insert. The dialog respects course-level permissions and only appears in courses where AI media generation is allowed.
+Όταν οι βοηθοί ΤΝ είναι ενεργοποιημένοι στην πλατφόρμα, μπορείτε να ζητήσετε από την ΤΝ να δημιουργήσει μια **εικόνα** ή ένα **βίντεο μικρής διάρκειας** για να εικονογραφήσει μια παράγραφο στο έγγραφο που επεξεργάζεστε. Επιλέξτε μια παράγραφο, ανοίξτε τον διάλογο **Generate AI media** και η ΤΝ θα παράγει ένα στοιχείο πολυμέσων που μπορείτε να ελέγξετε και να εισαγάγετε. Ο διάλογος σέβεται τα δικαιώματα επιπέδου μαθήματος και εμφανίζεται μόνο σε μαθήματα όπου επιτρέπεται η δημιουργία πολυμέσων με ΤΝ.
 
-### Audio Recording
+### Εγγραφή Ήχου
 
-If your browser supports it, you can record audio directly within the documents tool — useful for creating audio instructions or language learning content. This requires an HTTPS configuration for Chamilo, as audio recording uses technology that the browser only allows if the connection is secure.
+Αν ο περιηγητής σας το υποστηρίζει, μπορείτε να ηχογραφήσετε ήχο απευθείας μέσα στο εργαλείο εγγράφων — χρήσιμο για τη δημιουργία οδηγιών ήχου ή περιεχομένου εκμάθησης γλωσσών. Αυτό απαιτεί ρύθμιση HTTPS για το Chamilo, καθώς η ηχογράφηση χρησιμοποιεί τεχνολογία που ο περιηγητής επιτρέπει μόνο αν η σύνδεση είναι ασφαλής.
 
-## Organizing with Folders
+## Οργάνωση με Φακέλους
 
-Keep your document library organized using folders:
+Διατηρήστε τη βιβλιοθήκη εγγράφων σας οργανωμένη χρησιμοποιώντας φακέλους:
 
-1. Click **New folder** <img src="/.gitbook/assets/icons/mdi-folder-plus.svg" alt="New folder" data-size="line">
-2. Enter a folder name
-3. Save
+1. Κάντε κλικ στο **New folder** <img src="/.gitbook/assets/icons/mdi-folder-plus.svg" alt="New folder" data-size="line">
+2. Εισαγάγετε ένα όνομα φακέλου
+3. Αποθηκεύστε
 
-You can create nested folders to build a logical content hierarchy (e.g., `Module 1 > Week 1 > Readings`).
+Μπορείτε να δημιουργήσετε εμφωλευμένους φακέλους για να χτίσετε μια λογική ιεραρχία περιεχομένου (π.χ. `Module 1 > Week 1 > Readings`).
 
-### Moving Files
+### Μετακίνηση Αρχείων
 
-* Locate your file in the list
-* Click **Move** <img src="/.gitbook/assets/icons/mdi-folder-move.svg" alt="Move" data-size="line">
-* Select the destination folder
-* Confirm
+* Εντοπίστε το αρχείο σας στη λίστα
+* Κάντε κλικ στο **Move** <img src="/.gitbook/assets/icons/mdi-folder-move.svg" alt="Move" data-size="line">
+* Επιλέξτε τον φάκελο προορισμού
+* Επιβεβαιώστε
 
-## Managing Documents
+## Διαχείριση Εγγράφων
 
-For each file or folder, you can:
+Για κάθε αρχείο ή φάκελο, μπορείτε:
 
-| Action | Icon | Description |
-|--------|------|-------------|
-| **Edit** | <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Edit" data-size="line"> | Rename the file or edit its content (for web pages) |
-| **Delete** | <img src="/.gitbook/assets/icons/mdi-delete.svg" alt="Delete" data-size="line"> | Remove the file or folder |
-| **Download** | <img src="/.gitbook/assets/icons/mdi-download-box.svg" alt="Download" data-size="line"> | Download the file to your computer |
-| **Visibility** | <img src="/.gitbook/assets/icons/mdi-eye.svg" alt="Visibility" data-size="line"> | Hide or show the file to learners |
-| **Replace** | <img src="/.gitbook/assets/icons/mdi-file-replace.svg" alt="Replace" data-size="line"> | Replace the file with an updated version |
-| **Move** | <img src="/.gitbook/assets/icons/mdi-folder-move.svg" alt="Move" data-size="line"> | Move to a different folder |
+| Ενέργεια | Εικονίδιο | Περιγραφή |
+|----------|-----------|-----------|
+| **Edit** | <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Edit" data-size="line"> | Μετονομασία του αρχείου ή επεξεργασία του περιεχομένου του (για ιστοσελίδες) |
+| **Delete** | <img src="/.gitbook/assets/icons/mdi-delete.svg" alt="Delete" data-size="line"> | Διαγραφή του αρχείου ή φακέλου |
+| **Download** | <img src="/.gitbook/assets/icons/mdi-download-box.svg" alt="Download" data-size="line"> | Λήψη του αρχείου στον υπολογιστή σας |
+| **Visibility** | <img src="/.gitbook/assets/icons/mdi-eye.svg" alt="Visibility" data-size="line"> | Απόκρυψη ή εμφάνιση του αρχείου στους μαθητές |
+| **Replace** | <img src="/.gitbook/assets/icons/mdi-file-replace.svg" alt="Replace" data-size="line"> | Αντικατάσταση του αρχείου με ενημερωμένη έκδοση |
+| **Move** | <img src="/.gitbook/assets/icons/mdi-folder-move.svg" alt="Move" data-size="line"> | Μετακίνηση σε διαφορετικό φάκελο |
 
-Replacing a file is an important feature when you use documents to build learning paths, as replacing the document will allow the document to be refreshed without learners loosing the progress saved for that document.
+Η αντικατάσταση ενός αρχείου είναι σημαντικό χαρακτηριστικό όταν χρησιμοποιείτε έγγραφα για να χτίσετε μονοπάτια μάθησης, καθώς η αντικατάσταση του εγγράφου θα επιτρέψει την ανανέωση του εγγράφου χωρίς οι μαθητές να χάσουν την πρόοδο που έχουν αποθηκεύσει για αυτό το έγγραφο.
 
-### Bulk Actions
+### Μαζικές Ενέργειες
 
-Select multiple files using checkboxes, then use the toolbar to delete or download all selected items at once.
+Επιλέξτε πολλαπλά αρχεία χρησιμοποιώντας πλαίσια ελέγχου, στη συνέχεια χρησιμοποιήστε την γραμμή εργαλείων για να διαγράψετε ή να λάβετε όλα τα επιλεγμένα στοιχεία ταυτόχρονα.
 
+---
 ## OnlyOffice Integration
 
-If your administrator has configured the **OnlyOffice** plugin, you can edit Word, Excel, and PowerPoint (or LibreOffice) files directly in the browser without downloading them. Look for the **Edit with OnlyOffice** <img src="/.gitbook/assets/icons/mdi-file-document-edit-outline.svg" alt="OnlyOffice" data-size="line"> option when viewing a supported file.
+Εάν ο διαχειριστής σας έχει ρυθμίσει το πρόσθετο **OnlyOffice**, μπορείτε να επεξεργαστείτε αρχεία Word, Excel και PowerPoint (ή LibreOffice) απευθείας στον περιηγητή χωρίς να τα κατεβάσετε. Αναζητήστε την επιλογή **Edit with OnlyOffice** <img src="/.gitbook/assets/icons/mdi-file-document-edit-outline.svg" alt="OnlyOffice" data-size="line"> κατά την προβολή ενός υποστηριζόμενου αρχείου.
 
-Documents are stored in Chamilo, OnlyOffice is only used to **view** or edit the documents in the browser, without the need for any additional tool.
+Τα έγγραφα αποθηκεύονται στο Chamilo, το OnlyOffice χρησιμοποιείται μόνο για **προβολή** ή επεξεργασία των εγγράφων στον περιηγητή, χωρίς την ανάγκη για οποιοδήποτε επιπλέον εργαλείο.
 
 ## Cloud Files
 
-If you use cloud storage (Azure Blob, AWS S3, or Google Cloud) for your files, these are stored in the cloud but you can link them from here. This is transparent to you and your learners — the document tool works the same way regardless of the storage backend.
+Εάν χρησιμοποιείτε υπηρεσίες cloud αποθήκευσης (Azure Blob, AWS S3 ή Google Cloud) για τα αρχεία σας, αυτά αποθηκεύονται στο cloud αλλά μπορείτε να τα συνδέσετε από εδώ. Αυτό είναι διαφανές για εσάς και τους μαθητές σας — το εργαλείο εγγράφων λειτουργεί με τον ίδιο τρόπο ανεξαρτήτως του backend αποθήκευσης.
 
 ## Tips
 
-* **Organize early** — Create your folder structure before uploading content so you don't have to reorganize later. If you have created other courses with the right structure, you can use those courses as template later on
-* **Use descriptive file names** — Help learners find what they need with clear, meaningful names
-* **Hide work-in-progress** — Use the visibility toggle to hide documents you are still preparing
-* **Link from learning paths** — Reference documents within your learning paths to create guided learning sequences
-* **Check the disk quota** — If your course has a storage limit, remove outdated files to free up space
+* **Οργανώστε νωρίς** — Δημιουργήστε τη δομή φακέλων σας πριν ανεβάσετε περιεχόμενο ώστε να μην χρειαστεί να επαναοργανώσετε αργότερα. Εάν έχετε δημιουργήσει άλλα μαθήματα με τη σωστή δομή, μπορείτε να χρησιμοποιήσετε αυτά τα μαθήματα ως πρότυπα αργότερα
+* **Χρησιμοποιήστε περιγραφικά ονόματα αρχείων** — Βοηθήστε τους μαθητές να βρουν αυτό που χρειάζονται με σαφή, ουσιαστικά ονόματα
+* **Κρύψτε τα έργα υπό προετοιμασία** — Χρησιμοποιήστε τον διακόπτη ορατότητας για να κρύψετε έγγραφα που προετοιμάζετε ακόμα
+* **Συνδέστε από μονοπάτια μάθησης** — Αναφέρετε έγγραφα εντός των μονοπατιών μάθησής σας για να δημιουργήσετε ακολουθίες καθοδηγούμενης μάθησης
+* **Ελέγξτε το όριο δίσκου** — Εάν το μάθημά σας έχει όριο αποθήκευσης, διαγράψτε παλιά αρχεία για να ελευθερώσετε χώρο

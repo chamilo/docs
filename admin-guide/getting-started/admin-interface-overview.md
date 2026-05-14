@@ -1,51 +1,51 @@
-# Admin Interface Overview
+# Επισκόπηση Διεπαφής Διαχείρισης
 
-The administration panel is your command center for managing the Chamilo platform. Access it by clicking **Administration** <img src="/.gitbook/assets/icons/mdi-cogs.svg" alt="Admin" data-size="line"> in the sidebar.
+Ο πίνακας διαχείρισης αποτελεί το κέντρο ελέγχου σας για τη διαχείριση της πλατφόρμας Chamilo. Πρόσβαση σε αυτόν μέσω κλικ στο **Administration** <img src="/.gitbook/assets/icons/mdi-cogs.svg" alt="Διαχείριση" data-size="line"> στη γραμμή πλαϊνής πλοήγησης.
 
-## Administration Dashboard
+## Πίνακας Ελέγχου Διαχείρισης
 
-![The administration dashboard showing functional blocks for Users, Courses, Sessions, and Settings](/.gitbook/assets/admin-dashboard-overview.png)
+![Ο πίνακας ελέγχου διαχείρισης που εμφανίζει λειτουργικούς μπλοκ για Χρήστες, Μαθήματα, Συνεδρίες και Ρυθμίσεις](/.gitbook/assets/admin-dashboard-overview.png)
 
-The admin dashboard is organized into functional blocks. Each block groups related management tools:
+Ο πίνακας ελέγχου διαχείρισης είναι οργανωμένος σε λειτουργικούς μπλοκ. Κάθε μπλοκ ομαδοποιεί σχετικά εργαλεία διαχείρισης:
 
-### Users
+### Χρήστες
 
-* **User list** — View, search, edit, and manage all users on the platform
-* **Add a user** — Create individual user accounts
-* **User groups** — Manage groups of users for organizational purposes
-* **Classes** — Manage user classes for bulk session enrollment
+* **Λίστα χρηστών** — Προβολή, αναζήτηση, επεξεργασία και διαχείριση όλων των χρηστών της πλατφόρμας
+* **Προσθήκη χρήστη** — Δημιουργία μεμονωμένων λογαριασμών χρηστών
+* **Ομάδες χρηστών** — Διαχείριση ομάδων χρηστών για οργανωτικούς σκοπούς
+* **Τάξεις** — Διαχείριση τάξεων χρηστών για μαζική εγγραφή σε συνεδρίες
 
-### Courses
+### Μαθήματα
 
-* **Course list** — View and manage all courses on the platform
-* **Create a course** — Create a new course
-* **Course categories** — Organize courses into categories for the catalog
+* **Λίστα μαθημάτων** — Προβολή και διαχείριση όλων των μαθημάτων της πλατφόρμας
+* **Δημιουργία μαθήματος** — Δημιουργία νέου μαθήματος
+* **Κατηγορίες μαθημάτων** — Οργάνωση μαθημάτων σε κατηγορίες για τον κατάλογο
 
-### Sessions
+### Συνεδρίες
 
-* **Session list** — View and manage training sessions
-* **Create a session** — Set up a new session with courses and enrollment
-* **Session categories** — Organize sessions into categories
-* **Careers and promotions** — Manage career paths and promotion workflows
+* **Λίστα συνεδριών** — Προβολή και διαχείριση εκπαιδευτικών συνεδριών
+* **Δημιουργία συνεδρίας** — Ρύθμιση νέας συνεδρίας με μαθήματα και εγγραφές
+* **Κατηγορίες συνεδριών** — Οργάνωση συνεδριών σε κατηγορίες
+* **Προορισμοί και προαγωγές** — Διαχείριση μονοπατιών καριέρας και ροών εργασιών προαγωγών
 
-### Platform Settings
+### Ρυθμίσεις Πλατφόρμας
 
-* **Configuration settings** — Access the comprehensive platform settings panel with categories for portal, courses, sessions, users, security, and more
+* **Ρυθμίσεις διαμόρφωσης** — Πρόσβαση στον ολοκληρωμένο πίνακα ρυθμίσεων της πλατφόρμας με κατηγορίες για πύλη, μαθήματα, συνεδρίες, χρήστες, ασφάλεια κ.λπ.
 
-### Plugins
+### Πρόσθετα
 
-* **Manage plugins** — Install, activate, configure, and deactivate platform plugins
+* **Διαχείριση πρόσθετων** — Εγκατάσταση, ενεργοποίηση, διαμόρφωση και απενεργοποίηση πρόσθετων της πλατφόρμας
 
-### System
+### Σύστημα
 
-* **System status** — Check PHP configuration, database status, and server health
-* **Archive cleanup** — Manage temporary files and caches
+* **Κατάσταση συστήματος** — Έλεγχος διαμόρφωσης PHP, κατάστασης βάσης δεδομένων και υγείας εξυπηρετητή
+* **Καθαρισμός αρχείου** — Διαχείριση προσωρινών αρχείων και κρυφών αποθηκεύσεων
 
-### Branding
+### Ταυτότητα Εταιρείας
 
-* **Colors** — Customize the platform's visual appearance
-* **Portal customization** — Configure portal homepage, news, and branding elements
+* **Χρώματα** — Προσαρμογή της οπτικής εμφάνισης της πλατφόρμας
+* **Προσαρμογή πύλης** — Διαμόρφωση αρχικής σελίδας πύλης, ειδήσεων και στοιχείων ταυτότητας εταιρείας
 
-Each section is covered in detail in its corresponding chapter of this guide.
+Κάθε ενότητα καλύπτεται λεπτομερώς στο αντίστοιχο κεφάλαιο του παρόντος οδηγού.
 
-Authentication methods like OAuth2, LDAP, CAS, and other external authentication providers are not configured in the administration dashboard but in `config/authentication.yaml`.
+Μέθοδοι πιστοποίησης όπως OAuth2, LDAP, CAS και άλλοι εξωτερικοί πάροχοι πιστοποίησης δεν διαμορφώνονται στον πίνακα ελέγχου διαχείρισης αλλά στο `config/authentication.yaml`.

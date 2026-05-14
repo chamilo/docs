@@ -1,136 +1,139 @@
-# Installation Wizard
+# Οδηγός Εγκατάστασης
 
-Chamilo 2.0 includes a web-based installation wizard that guides you through the initial setup. The wizard runs automatically when you access the platform for the first time.
+Το Chamilo 2.0 περιλαμβάνει έναν ιστορικό οδηγό εγκατάστασης που σας καθοδηγεί στη αρχική ρύθμιση. Ο οδηγός εκτελείται αυτόματα όταν προσπελαύνετε την πλατφόρμα για πρώτη φορά.
 
-## Before You Start
+## Πριν Ξεκινήσετε
 
-Ensure the following prerequisites are met:
+Βεβαιωθείτε ότι ικανοποιούνται οι εξής προϋποθέσεις:
 
-1. Your server meets all [server requirements](server-requirements.md).
-2. You have downloaded a packaged (zip or tar.gz) version of Chamilo.
-3. Your web server is configured to serve the `public/` directory as the document root.
-4. Your `.env` file exists and is empty (the wizard will guide database setup).
+1. Ο διακομιστής σας πληροί όλες τις [απαιτήσεις διακομιστή](server-requirements.md).
+2. Έχετε κατεβάσει μια συσκευασμένη (zip ή tar.gz) έκδοση του Chamilo.
+3. Ο ιστορικός διακομιστής σας είναι ρυθμισμένος να εξυπηρετεί τον κατάλογο `public/` ως ρίζα εγγράφων.
+4. Το αρχείο `.env` σας υπάρχει και είναι κενό (ο οδηγός θα καθοδηγήσει τη ρύθμιση της βάσης δεδομένων).
 
-## Step 1: Installation Language
+## Βήμα 1: Γλώσσα Εγκατάστασης
 
-![Installation wizard Step 1 — language selection](/.gitbook/assets/install-step1-language.png)
+![Οδηγός εγκατάστασης Βήμα 1 — επιλογή γλώσσας](/.gitbook/assets/install-step1-language.png)
 
-The first step lets you select the language for the installation process. Choose your preferred language from the dropdown.
+Το πρώτο βήμα σας επιτρέπει να επιλέξετε τη γλώσσα για τη διαδικασία εγκατάστασης. Επιλέξτε την προτιμώμενη γλώσσα σας από την αναδυόμενη λίστα.
 
-If Chamilo detects an existing installation (for an upgrade), it will display the migration status and offer an upgrade path instead of a fresh install.
+Αν το Chamilo εντοπίσει υπάρχουσα εγκατάσταση (για αναβάθμιση), θα εμφανίσει την κατάσταση μετεγκατάστασης και θα προτείνει διαδρομή αναβάθμισης αντί για νέα εγκατάσταση.
 
-## Step 2: Requirements Check
+## Βήμα 2: Έλεγχος Απαιτήσεων
 
-![Installation wizard Step 2 — requirements check showing PHP version, extensions, and directory permissions](/.gitbook/assets/install-step2-requirements.png)
+![Οδηγός εγκατάστασης Βήμα 2 — έλεγχος απαιτήσεων που δείχνει έκδοση PHP, επεκτάσεις και δικαιώματα καταλόγων](/.gitbook/assets/install-step2-requirements.png)
 
-The wizard checks your server environment:
+Ο οδηγός ελέγχει το περιβάλλον του διακομιστή σας:
 
-* **PHP version** is 8.2 or superior
-* **Required PHP extensions** are installed (intl, gd, curl, zip, mbstring, xml, etc.)
-* **Recommended PHP settings** — `date.timezone` is configured, adequate upload/memory limits
-* **Directory and file permissions** — `var/`, `config/`, and `public/upload/` are writable by the web server
+* **Έκδοση PHP** είναι 8.2 ή ανώτερη
+* **Απαιτούμενες επεκτάσεις PHP** είναι εγκατεστημένες (intl, gd, curl, zip, mbstring, xml, κ.λπ.)
+* **Συνιστώμενες ρυθμίσεις PHP** — το `date.timezone` είναι ρυθμισμένο, επαρκή όρια ανεβάσματος/μνήμης
+* **Δικαιώματα καταλόγων και αρχείων** — οι `var/`, `config/` και `public/upload/` είναι εγγράψιμοι από τον ιστορικό διακομιστή
 
-If any requirements are not met, the wizard displays warnings or errors. Resolve them before proceeding.
+Αν οποιαδήποτε απαίτηση δεν ικανοποιείται, ο οδηγός εμφανίζει προειδοποιήσεις ή σφάλματα. Αναλύστε τα πριν προχωρήσετε.
 
-## Step 3: License
+## Βήμα 3: Άδεια Χρήσης
 
-![Installation wizard Step 3 — license acceptance](/.gitbook/assets/install-step3-license.png)
+![Οδηγός εγκατάστασης Βήμα 3 — αποδοχή άδειας](/.gitbook/assets/install-step3-license.png)
 
-This step displays the GNU/GPLv3 license. You must check the **"I accept"** checkbox to proceed.
+Αυτό το βήμα εμφανίζει την άδεια GNU/GPLv3. Πρέπει να επιλέξετε το πλαίσιο ελέγχου **"Αποδέχομαι"** για να προχωρήσετε.
 
-Optionally, you can expand the **Contact information** section to provide details about your organization (name, email, company, country). This is voluntary and helps the Chamilo community understand who uses the platform, but will also allow us to contact you *very rarely* about events happening close to you.
+Προαιρετικά, μπορείτε να επεκτείνετε την ενότητα **Στοιχεία Επικοινωνίας** για να παρέχετε λεπτομέρειες σχετικά με τον οργανισμό σας (όνομα, email, εταιρεία, χώρα). Αυτό είναι προαιρετικό και βοηθά την κοινότητα του Chamilo να κατανοήσει ποιοι χρησιμοποιούν την πλατφόρμα, αλλά θα μας επιτρέψει επίσης να επικοινωνήσουμε μαζί σας *πολύ σπάνια* για εκδηλώσεις που γίνονται κοντά σας.
 
-## Step 4: Database Settings
+## Βήμα 4: Ρυθμίσεις Βάσης Δεδομένων
 
-![Installation wizard Step 4 — database connection configuration](/.gitbook/assets/install-step4-database.png)
+![Οδηγός εγκατάστασης Βήμα 4 — ρύθμιση σύνδεσης βάσης δεδομένων](/.gitbook/assets/install-step4-database.png)
 
-Enter your database connection details:
+Εισαγάγετε τα στοιχεία σύνδεσης της βάσης δεδομένων σας:
 
-| Field | Description |
+| Πεδίο | Περιγραφή |
 |-------|-------------|
-| **Database host** | The hostname or IP of your database server (e.g., `localhost` or `127.0.0.1`) |
-| **Database port** | Default: 3306 for MySQL/MariaDB |
-| **Database name** | The name of the database to use (alphanumeric and underscores only) |
-| **Database user** | A database user with full privileges on the specified database |
-| **Database password** | The password for the database user |
+| **Διακομιστής βάσης δεδομένων** | Το όνομα διακομιστή ή IP του διακομιστή βάσης δεδομένων σας (π.χ., `localhost` ή `127.0.0.1`) |
+| **Θύρα βάσης δεδομένων** | Προεπιλογή: 3306 για MySQL/MariaDB |
+| **Όνομα βάσης δεδομένων** | Το όνομα της βάσης δεδομένων που θα χρησιμοποιηθεί (μόνο αλφαριθμητικά και κάτω παύλες) |
+| **Χρήστης βάσης δεδομένων** | Ένας χρήστης βάσης δεδομένων με πλήρη δικαιώματα στην καθορισμένη βάση δεδομένων |
+| **Κωδικός βάσης δεδομένων** | Ο κωδικός πρόσβασης για τον χρήστη της βάσης δεδομένων |
 
-Click **Check database connection** to test. The wizard will not let you proceed until the connection is successful. If the database already exists, a warning is displayed.
+Κάντε κλικ στο **Έλεγχος σύνδεσης βάσης δεδομένων** για δοκιμή. Ο οδηγός δεν θα σας αφήσει να προχωρήσετε μέχρι να είναι επιτυχής η σύνδεση. Αν η βάση δεδομένων υπάρχει ήδη, εμφανίζεται προειδοποίηση.
 
-## Step 5: Configuration Settings
+## Βήμα 5: Ρυθμίσεις Διαμόρφωσης
 
-![Installation wizard Step 5 — administrator account, portal settings, and email configuration](/.gitbook/assets/install-step5-config.png)
+![Οδηγός εγκατάστασης Βήμα 5 — λογαριασμός διαχειριστή, ρυθμίσεις πύλης και ρύθμιση email](/.gitbook/assets/install-step5-config.png)
 
-This step combines administrator account creation, portal settings, and email configuration.
+Αυτό το βήμα συνδυάζει τη δημιουργία λογαριασμού διαχειριστή, ρυθμίσεις πύλης και ρύθμιση email.
 
-### Administrator Account
+### Λογαριασμός Διαχειριστή
 
-| Field | Description |
+| Πεδίο | Περιγραφή |
 |-------|-------------|
-| **Login** | The administrator username |
-| **Password** | Choose a strong password — this account has full platform access |
-| **First name** | The administrator's first name |
-| **Last name** | The administrator's last name |
-| **Email** | Used for system notifications and password resets |
-| **Phone** | Optional contact number |
+| **Σύνδεση** | Το όνομα χρήστη του διαχειριστή |
+| **Κωδικός** | Επιλέξτε έναν ισχυρό κωδικό — αυτός ο λογαριασμός έχει πλήρη πρόσβαση στην πλατφόρμα |
+| **Όνομα** | Το βαφτιστικό του διαχειριστή |
+| **Επώνυμο** | Το επώνυμο του διαχειριστή |
+| **Email** | Χρησιμοποιείται για ειδοποιήσεις συστήματος και επαναφορά κωδικού |
+| **Τηλέφωνο** | Προαιρετικός αριθμός επικοινωνίας |
 
-These admin details will also be used by Chamilo to populate the support contact details, so make sure you go reconfigure that in the settings after the installation concluded.
+Αυτές οι λεπτομέρειες διαχειριστή θα χρησιμοποιηθούν επίσης από το Chamilo για να συμπληρώσει τα στοιχεία επικοινωνίας υποστήριξης, οπότε βεβαιωθείτε ότι θα τα επαναρυθμίσετε στις ρυθμίσεις μετά την ολοκλήρωση της εγκατάστασης.
 
-### Portal Settings
+### Ρυθμίσεις Πύλης
 
-| Field | Description |
+| Πεδίο | Περιγραφή |
 |-------|-------------|
-| **Language** | The default interface language |
-| **Portal name** | The name of your platform (e.g., "My Organization LMS") |
-| **Company short name** | Your organization's abbreviated name |
-| **Company URL** | Your organization's website |
-| **Encryption method** | Password hashing algorithm — **bcrypt** is recommended |
-| **Allow self-registration** | Yes / No / After approval |
-| **Allow self-registration as trainer** | Yes / No |
+| **Γλώσσα** | Η προεπιλεγμένη γλώσσα διεπαφής |
+| **Όνομα πύλης** | Το όνομα της πλατφόρμας σας (π.χ., "LMS του Οργανισμού μου") |
+| **Σύντομο όνομα εταιρείας** | Το συντομευμένο όνομα του οργανισμού σας |
+| **URL εταιρείας** | Ο ιστότοπος του οργανισμού σας |
+| **Μέθοδος κρυπτογράφησης** | Αλγόριθμος hashing κωδικού — συνιστάται το **bcrypt** |
+| **Επιτρέπω αυτοέγγραφση** | Ναι / Όχι / Μετά από έγκριση |
+| **Επιτρέπω αυτοέγγραφση ως εκπαιδευτής** | Ναι / Όχι |
 
-### Email Configuration
+### Ρύθμιση Email
 
-The email settings section lets you configure the mail transport (SMTP, Amazon SES, Mailjet, etc.) and test email delivery. See [Email Configuration](email-configuration.md) for details.
+Η ενότητα ρυθμίσεων email σας επιτρέπει να ρυθμίσετε τον μεταφορέα αλληλογραφίας (SMTP, Amazon SES, Mailjet, κ.λπ.) και να δοκιμάσετε την αποστολή email. Δείτε [Ρύθμιση Email](email-configuration.md) για λεπτομέρειες.
 
-All these settings can be changed later from the administration panel.
+Όλες αυτές οι ρυθμίσεις μπορούν να αλλάξουν αργότερα από τον πίνακα διαχείρισης.
 
-## Step 6: Last Check Before Install
+---
 
-![Installation wizard Step 6 — review of all settings before installation](/.gitbook/assets/install-step6-review.png)
+---
+## Βήμα 6: Τελικός Έλεγχος Πριν την Εγκατάσταση
 
-This step displays a summary of everything you entered for review:
+![Οδηγός εγκατάστασης Βήμα 6 — ανασκόπηση όλων των ρυθμίσεων πριν την εγκατάσταση](/.gitbook/assets/install-step6-review.png)
 
-* Administrator credentials (password is hidden by default — click the eye icon to reveal)
-* Portal settings
-* Database connection details
+Αυτό το βήμα εμφανίζει μια σύνοψη όλων όσων εισαγάγατε για ανασκόπηση:
 
-Review carefully, then click **Install Chamilo** to execute the installation. The wizard creates all database tables, populates initial data, and configures the platform.
+* Διαπιστευτήρια διαχειριστή (ο κωδικός είναι κρυμμένος από προεπιλογή — κάντε κλικ στο εικονίδιο του ματιού για εμφάνιση)
+* Ρυθμίσεις πύλης
+* Στοιχεία σύνδεσης βάσης δεδομένων
 
-## Step 7: Installation Complete
+Ελέγξτε προσεκτικά και μετά κάντε κλικ στο **Εγκατάσταση Chamilo** για να εκτελέσετε την εγκατάσταση. Ο οδηγός δημιουργεί όλους τους πίνακες της βάσης δεδομένων, εισάγει τα αρχικά δεδομένα και ρυθμίζει την πλατφόρμα.
 
-![Installation wizard Step 7 — completion with security advice and portal link](/.gitbook/assets/install-step7-complete.png)
+## Βήμα 7: Ολοκλήρωση Εγκατάστασης
 
-After installation completes successfully, the wizard shows:
+![Οδηγός εγκατάστασης Βήμα 7 — ολοκλήρωση με συμβουλές ασφαλείας και σύνδεσμο πύλης](/.gitbook/assets/install-step7-complete.png)
 
-* **Getting started advice** — Suggests creating your first course to explore the platform (as admin, you need to do this from the admin panel)
-* **Security recommendations**:
-  * Make the `config/` directory read-only (`chmod 0555`)
-  * Delete the `public/main/install/` directory
-* A **link to your portal** to log in with the administrator credentials you just created
+Αφού ολοκληρωθεί επιτυχώς η εγκατάσταση, ο οδηγός εμφανίζει:
 
-## Post-Installation
+* **Συμβουλές έναρξης** — Προτείνει τη δημιουργία του πρώτου σας μαθήματος για εξερεύνηση της πλατφόρμας (ως διαχειριστής, πρέπει να το κάνετε από τον πίνακα διαχείρισης)
+* **Συστάσεις ασφαλείας**:
+  * Κάντε τον κατάλογο `config/` μόνο αναγνώσιμο (`chmod 0555`)
+  * Διαγράψτε τον κατάλογο `public/main/install/`
+* Έναν **σύνδεσμο προς την πύλη σας** για σύνδεση με τα διαπιστευτήρια διαχειριστή που μόλις δημιουργήσατε
 
-After completing the wizard:
+## Μετά την Εγκατάσταση
 
-* **Remove or restrict access to the installer** -- The wizard should not be accessible after installation. Chamilo typically locks it automatically, but verify that re-visiting the install URL redirects to the login page.
-* **Configure email delivery** -- See [Email Configuration](email-configuration.md).
-* **Set up backups** -- Before adding content, configure automated database and file backups (Chamilo does not provide a solution for this, but copying the var/ folder and the database are the 2 most important elements).
-* **Review security settings** -- See [Security Settings](../platform-settings/security-settings.md).
+Αφού ολοκληρώσετε τον οδηγό:
 
-## Troubleshooting
+* **Απομάκρυνση ή περιορισμός πρόσβασης στον εγκαταστάτη** -- Ο οδηγός δεν πρέπει να είναι προσβάσιμος μετά την εγκατάσταση. Το Chamilo τον κλειδώνει συνήθως αυτόματα, αλλά ελέγξτε ότι η επανεπίσκεψη στη διεύθυνση εγκατάστασης ανακατευθύνει στη σελίδα σύνδεσης.
+* **Διαμόρφωση αποστολής email** -- Δείτε [Διαμόρφωση Email](email-configuration.md).
+* **Ρύθμιση αντιγράφων ασφαλείας** -- Πριν προσθέσετε περιεχόμενο, ρυθμίστε αυτοματοποιημένα αντίγραφα ασφαλείας βάσης δεδομένων και αρχείων (το Chamilo δεν παρέχει λύση για αυτό, αλλά η αντιγραφή του φακέλου var/ και της βάσης δεδομένων είναι τα 2 πιο σημαντικά στοιχεία).
+* **Έλεγχος ρυθμίσεων ασφαλείας** -- Δείτε [Ρυθμίσεις Ασφαλείας](../platform-settings/security-settings.md).
 
-| Problem | Solution |
+## Αντιμετώπιση Προβλημάτων
+
+| Πρόβλημα | Λύση |
 |---------|----------|
-| Blank page at install URL | Check PHP error logs. Change to `APP_ENV=dev` in .env temporarily to see errors in the browser. |
-| Database connection fails | Verify credentials, confirm the database exists, check that the database server allows connections from the web server host. |
-| Permission denied errors | Ensure `var/` is writable by the web server user. |
-| Assets not loading (no CSS/JS) | Run `yarn install && yarn build` to compile frontend assets. |
+| Κενή σελίδα στη διεύθυνση εγκατάστασης | Ελέγξτε τα αρχεία καταγραφής σφαλμάτων PHP. Αλλάξτε προσωρινά σε `APP_ENV=dev` στο .env για να δείτε σφάλματα στον περιηγητή. |
+| Αποτυχία σύνδεσης βάσης δεδομένων | Επαληθεύστε τα διαπιστευτήρια, επιβεβαιώστε ότι η βάση δεδομένων υπάρχει, ελέγξτε ότι ο διακομιστής βάσης δεδομένων επιτρέπει συνδέσεις από τον ξενιστή του web server. |
+| Σφάλματα άρνησης αδειών | Βεβαιωθείτε ότι ο `var/` είναι εγγράψιμος από τον χρήστη του web server. |
+| Μη φόρτωση πόρων (χωρίς CSS/JS) | Εκτελέστε `yarn install && yarn build` για να μεταγλωττίσετε τους πόρους του frontend. |

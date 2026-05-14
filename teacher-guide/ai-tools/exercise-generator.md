@@ -1,59 +1,59 @@
-# Exercise Generator
+# Γεννήτρια Ασκήσεων
 
-The AI Exercise Generator helps you create quiz questions automatically using artificial intelligence. You provide a topic or content, and the AI generates questions that you can review, edit, and add to your exercises.
+Η Γεννήτρια Ασκήσεων ΤΝ βοηθά στην αυτόματη δημιουργία ερωτήσεων κουίζ χρησιμοποιώντας τεχνητή νοημοσύνη. Παρέχετε ένα θέμα ή περιεχόμενο, και η ΤΝ παράγει ερωτήσεις που μπορείτε να ελέγξετε, να επεξεργαστείτε και να προσθέσετε στις ασκήσεις σας.
 
-## Accessing the Exercise Generator
+## Πρόσβαση στη Γεννήτρια Ασκήσεων
 
-The Exercise Generator is available when creating or editing an exercise, provided that:
+Η Γεννήτρια Ασκήσεων είναι διαθέσιμη κατά τη δημιουργία ή επεξεργασία μιας άσκησης, εφόσον ισχύουν τα εξής:
 
-1. AI helpers are enabled at the platform level
-2. At least one AI text provider is configured
+1. Οι βοηθοί ΤΝ είναι ενεργοποιημένοι σε επίπεδο πλατφόρμας
+2. Έχει ρυθμιστεί τουλάχιστον ένας πάροχος κειμένου ΤΝ
 
-Look for the **AI Generator** button or section within the exercise creation interface.
+Αναζητήστε το κουμπί ή την ενότητα **AI Generator** στο περιβάλλον δημιουργίας άσκησης.
 
-## How to Generate Questions
+## Πώς να Γεννήσετε Ερωτήσεις
 
-![The AI exercise generator form with fields for topic and number of questions](/.gitbook/assets/ai-exercise-generator.png)
+![Η φόρμα της γεννήτριας ασκήσεων ΤΝ με πεδία για θέμα και αριθμό ερωτήσεων](/.gitbook/assets/ai-exercise-generator.png)
 
-The generator offers two modes, available as tabs:
+Η γεννήτρια προσφέρει δύο λειτουργίες, διαθέσιμες ως καρτέλες:
 
-* **Test from topic** — Generate questions from a textual topic description
-* **Test from document** — Generate questions from a course document (only available when a document-capable provider is configured). When this mode is used, the topic field becomes optional and is treated as an extra hint.
+* **Test from topic** — Γεννήστε ερωτήσεις από μια περιγραφή κειμενικού θέματος
+* **Test from document** — Γεννήστε ερωτήσεις από έγγραφο μαθήματος (διαθέσιμο μόνο όταν έχει ρυθμιστεί πάροχος ικανός για έγγραφα). Σε αυτή τη λειτουργία, το πεδίο θέματος γίνεται προαιρετικό και αντιμετωπίζεται ως επιπλέον υπόδειξη.
 
-1. Open the AI Generator form within an exercise and pick the mode
-2. Configure the generation parameters:
-   * **Quiz title** — The title for the resulting exercise
-   * **Questions topic** — Describe what the questions should be about (or, in document mode, an optional hint)
-   * **Number of questions** — How many questions to generate (capped at 100)
-   * **Question type** — Currently only **Multiple answer** is offered
-   * **AI provider** — Select which AI provider to use (only shown when more than one is configured)
-3. Click **Generate**
-4. The AI produces a set of questions with answer options and correct answers marked. When AI disclosure is enabled, generated questions are prefixed with **\[AI-assisted\]**.
+1. Ανοίξτε τη φόρμα AI Generator μέσα σε μια άσκηση και επιλέξτε λειτουργία
+2. Ρυθμίστε τις παραμέτρους γεννήσεως:
+   * **Quiz title** — Ο τίτλος της τελικής άσκησης
+   * **Questions topic** — Περιγράψτε περί τίνος πρέπει να αφορούν οι ερωτήσεις (ή, σε λειτουργία εγγράφου, προαιρετική υπόδειξη)
+   * **Number of questions** — Πόσες ερωτήσεις να παραχθούν (μέγιστο 100)
+   * **Question type** — Προς το παρόν προσφέρεται μόνο **Multiple answer**
+   * **AI provider** — Επιλέξτε ποιος πάροχος ΤΝ θα χρησιμοποιηθεί (εμφανίζεται μόνο όταν υπάρχουν περισσότεροι από έναν)
+3. Κάντε κλικ στο **Generate**
+4. Η ΤΝ παράγει ένα σύνολο ερωτήσεων με επιλογές απαντήσεων και σήμανση σωστών απαντήσεων. Όταν η αποκάλυψη ΤΝ είναι ενεργοποιημένη, οι παραχθείσες ερωτήσεις προηγούνται από το **\[AI-assisted\]**.
 
-## Reviewing and Editing
+## Επανεξέταση και Επεξεργασία
 
-![AI-generated questions displayed for review with options to edit, accept, or remove each one](/.gitbook/assets/ai-exercise-generator-results.png)
+![Ερωτήσεις που έχουν παραχθεί από ΤΝ, εμφανιζόμενες για επανεξέταση με επιλογές επεξεργασίας, αποδοχής ή διαγραφής κάθε μίας](/.gitbook/assets/ai-exercise-generator-results.png)
 
-Generated questions are presented as **suggestions**. You should:
+Οι παραχθείσες ερωτήσεις παρουσιάζονται ως **προτάσεις**. Θα πρέπει να:
 
-* **Review each question** for accuracy and relevance
-* **Edit the wording** if needed — adjust questions, answer options, and feedback
-* **Verify correct answers** — make sure the AI has identified the right answers
-* **Remove unsuitable questions** — delete any that don't meet your standards
-* **Adjust scoring** — set appropriate point values for each question
+* **Επαναφέρετε κάθε ερώτηση** ως προς ακρίβεια και συνάφεια
+* **Επεξεργαστείτε τη διατύπωση** εάν χρειάζεται — προσαρμόστε ερωτήσεις, επιλογές απαντήσεων και ανατροφοδότηση
+* **Επαληθεύσετε τις σωστές απαντήσεις** — βεβαιωθείτε ότι η ΤΝ έχει εντοπίσει τις σωστές απαντήσεις
+* **Αφαιρέσετε ακατάλληλες ερωτήσεις** — διαγράψτε όσες δεν ανταποκρίνονται στα πρότυπά σας
+* **Προσαρμόσετε τη βαθμολόγηση** — ορίστε κατάλληλες τιμές βαθμών για κάθε ερώτηση
 
-Once you are satisfied, add the questions to your exercise.
+Μόλις ικανοποιηθείτε, προσθέστε τις ερωτήσεις στην άσκηση σας.
 
-Note that despite our specific format requests, some models will return question titles prefixed by a number. We don't recommend leaving that number there as this will hinder the mix of questions in tests with randomly selected questions. Also, sometimes you don't get as many questions as you've asked, so make sure you check that and potentially generate more questions, or change model if you have that possibility.
+Σημειώστε ότι παρά τα συγκεκριμένα αιτήματα μορφής μας, ορισμένα μοντέλα επιστρέφουν τίτλους ερωτήσεων που προηγούνται από αριθμό. Δεν συνιστούμε να αφήσετε αυτόν τον αριθμό εκεί, καθώς αυτό θα δυσχεράνει τον συνδυασμό ερωτήσεων σε τεστ με τυχαία επιλεγμένες ερωτήσεις. Επίσης, μερικές φορές δεν λαμβάνετε τόσες ερωτήσεις όσες ζητήσατε, οπότε βεβαιωθείτε ότι το ελέγξατε και ενδεχομένως παράγετε περισσότερες ερωτήσεις, ή αλλάξτε μοντέλο εάν έχετε αυτή τη δυνατότητα.
 
-## AI-Generated Content Disclosure
+## Αποκάλυψη Περιεχομένου που Παράχθηκε από ΤΝ
 
-Content generated by AI is labeled with a disclosure notice, indicating that it was created using artificial intelligence. This transparency helps learners understand the origin of the material.
+Το περιεχόμενο που παράχθηκε από ΤΝ επισημαίνεται με ειδοποίηση αποκάλυψης, που υποδεικνύει ότι δημιουργήθηκε χρησιμοποιώντας τεχνητή νοημοσύνη. Αυτή η διαφάνεια βοηθά τους μαθητές να κατανοήσουν την προέλευση του υλικού.
 
-## Tips
+## Συμβουλές
 
-* **Provide specific topics** — The more specific your topic description, the more relevant the generated questions will be.
-* **Always review** — AI-generated content may contain errors. Never publish questions without reviewing them first.
-* **Use as a starting point** — Generated questions are a time-saver, not a finished product. Edit them to match your teaching style and course content.
-* **Mix with manual questions** — Combine AI-generated questions with manually created ones for the best results.
-* **Try different providers** — If multiple AI providers are available, try different ones to see which produces the best questions for your subject area.
+* **Παρέχετε συγκεκριμένα θέματα** — Όσο πιο συγκεκριμένη είναι η περιγραφή του θέματός σας, τόσο πιο σχετικές θα είναι οι παραχθείσες ερωτήσεις.
+* **Πάντα επανεξετάζετε** — Το περιεχόμενο που παράχθηκε από ΤΝ μπορεί να περιέχει λάθη. Ποτέ μην δημοσιεύετε ερωτήσεις χωρίς να τις επανεξετάσετε πρώτα.
+* **Χρησιμοποιήστε ως αφετηρία** — Οι παραχθείσες ερωτήσεις εξοικονομούν χρόνο, όχι όμως τελικό προϊόν. Επεξεργαστείτε τις ώστε να ταιριάζουν στο δικό σας στυλ διδασκαλίας και περιεχόμενο μαθήματος.
+* **Συνδυάστε με χειροκίνητες ερωτήσεις** — Συνδυάστε ερωτήσεις που παράχθηκαν από ΤΝ με χειροκίνητα δημιουργημένες για τα καλύτερα αποτελέσματα.
+* **Δοκιμάστε διαφορετικούς παρόχους** — Εάν υπάρχουν πολλοί πάροχοι ΤΝ, δοκιμάστε διαφορετικούς για να δείτε ποιος παράγει τις καλύτερες ερωτήσεις για το αντικείμενό σας.

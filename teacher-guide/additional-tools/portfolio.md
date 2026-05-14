@@ -1,29 +1,29 @@
 # Portfolio
 
-The portfolio tool lets learners collect and showcase their work throughout the course. It serves as a digital portfolio where learners can compile their best work, reflections, and achievements.
+Το εργαλείο portfolio επιτρέπει στους μαθητές να συλλέγουν και να παρουσιάζουν τα έργα τους καθ’ όλη τη διάρκεια του μαθήματος. Λειτουργεί ως ψηφιακό portfolio όπου οι μαθητές μπορούν να συγκεντρώσουν τα καλύτερα έργα τους, τις σκέψεις τους και τα επιτεύγματά τους.
 
-## How Portfolios Work
+## Πώς Λειτουργούν τα Portfolios
 
-Each learner has a personal portfolio within the course where they can:
+Κάθε μαθητής διαθέτει ένα προσωπικό portfolio εντός του μαθήματος όπου μπορεί να:
 
-* **Add items** — Write text entries with the rich-text editor and attach one or more files to each item
-* **Organize content** — Tag items so they can be filtered by topic
-* **Share selectively** — Set the visibility of each item: hidden, visible to the course, hidden except for the teacher, or shared with selected users when advanced sharing is enabled
+* **Προσθέσει αντικείμενα** — Να γράψει καταχωρίσεις κειμένου με τον επεξεργαστή πλούσιου κειμένου και να επισυνάψει ένα ή περισσότερα αρχεία σε κάθε αντικείμενο
+* **Οργανώσει περιεχόμενο** — Να επισημάνει αντικείμενα με ετικέτες ώστε να μπορούν να φιλτραριστούν ανά θέμα
+* **Κοινοποιήσει επιλεκτικά** — Να ορίσει την ορατότητα κάθε αντικειμένου: κρυφό, ορατό στο μάθημα, κρυφό εκτός από τον διδάσκοντα, ή κοινόχρηστο με επιλεγμένους χρήστες όταν είναι ενεργοποιημένη η προχωρημένη κοινοποίηση
 
-## As a Teacher
+## Ως Διδάσκων
 
-You can use portfolios for:
+Μπορείτε να χρησιμοποιήσετε τα portfolios για:
 
-* **Reflective learning** — Ask learners to maintain a portfolio of reflections on their learning journey
-* **Competency demonstration** — Have learners collect evidence of skills and knowledge
-* **Assessment** — Review portfolio contents as part of your evaluation
+* **Αναστοχαστική μάθηση** — Να ζητήσετε από τους μαθητές να διατηρούν ένα portfolio με σκέψεις σχετικά με το ταξίδι μάθησής τους
+* **Επίδειξη δεξιοτήτων** — Να ζητήσετε από τους μαθητές να συλλέξουν αποδείξεις δεξιοτήτων και γνώσεων
+* **Αξιολόγηση** — Να εξετάσετε το περιεχόμενο των portfolios ως μέρος της αξιολόγησής σας
 
-To view a learner's portfolio, open the portfolio tool and filter the items list by user.
+Για να δείτε το portfolio ενός μαθητή, ανοίξτε το εργαλείο portfolio και φιλτράρετε τη λίστα αντικειμένων ανά χρήστη.
 
-If the course is configured to allow it, you can score portfolio items and individual comments — these scores can then feed into the gradebook. You can also **highlight** items you want to draw attention to, and mark items or comments as **templates** so you (or learners) can reuse them as a starting point for new entries. Portfolios can be exported as **PDF** or **ZIP**.
+Αν το μάθημα είναι ρυθμισμένο να το επιτρέπει, μπορείτε να βαθμολογήσετε αντικείμενα portfolio και μεμονωμένα σχόλια — αυτοί οι βαθμοί μπορούν στη συνέχεια να ενσωματωθούν στο βιβλίο βαθμών. Μπορείτε επίσης να **επισημάνετε** αντικείμενα που θέλετε να τραβήξετε την προσοχή, και να επισημάνετε αντικείμενα ή σχόλια ως **πρότυπα** ώστε εσείς (ή οι μαθητές) να τα επαναχρησιμοποιήσετε ως αφετηρία για νέες καταχωρίσεις. Τα portfolios μπορούν να εξαχθούν ως **PDF** ή **ZIP**.
 
-## Tips
+## Συμβουλές
 
-* **Define expectations** — Tell learners what kinds of items to include and how to organize their portfolio
-* **Review regularly** — Check portfolios periodically rather than only at the end of the course
-* **Combine with skills** — Use portfolios alongside the skills/certificates system to create a comprehensive competency record
+* **Καθορίστε προσδοκίες** — Ενημερώστε τους μαθητές για τα είδη αντικειμένων που πρέπει να συμπεριλάβουν και πώς να οργανώσουν το portfolio τους
+* **Ελέγχετε τακτικά** — Ελέγξτε τα portfolios περιοδικά και όχι μόνο στο τέλος του μαθήματος
+* **Συνδυάστε με δεξιότητες** — Χρησιμοποιήστε τα portfolios παράλληλα με το σύστημα δεξιοτήτων/πιστοποιητικών για να δημιουργήσετε ένα ολοκληρωμένο μητρώο δεξιοτήτων

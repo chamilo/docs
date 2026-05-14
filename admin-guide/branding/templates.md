@@ -1,42 +1,42 @@
-# Templates
+# Πρότυπα
 
-Chamilo uses templates for certificates, documents, and emails. You can customize these templates to match your organization's branding and requirements.
+Το Chamilo χρησιμοποιεί πρότυπα για πιστοποιητικά, έγγραφα και email. Μπορείτε να προσαρμόσετε αυτά τα πρότυπα ώστε να ταιριάζουν με την εικόνα και τις απαιτήσεις του οργανισμού σας.
 
-## Certificate Templates
+## Πρότυπα Πιστοποιητικών
 
-Certificate templates define the layout and content of certificates awarded to learners who meet gradebook thresholds.
+Τα πρότυπα πιστοποιητικών καθορίζουν τη διάταξη και το περιεχόμενο των πιστοποιητικών που απονέμονται σε μαθητές οι οποίοι πληρούν τα όρια βαθμολογίου.
 
-### Customizing a Certificate Template
+### Προσαρμογή ενός Προτύπου Πιστοποιητικού
 
-Certificate templates use HTML and CSS with placeholder variables:
+Τα πρότυπα πιστοποιητικών χρησιμοποιούν HTML και CSS με μεταβλητές-υποκατάστατες:
 
-| Variable | Replaced with |
-|----------|-------------|
-| Student name | The learner's full name |
-| Course name | The name of the course |
-| Date | The date the certificate was earned |
-| Score | The learner's final score |
-| Barcode | A barcode placeholder (`((certificate_barcode))`) used for verification |
+| Μεταβλητή | Αντικαθίσταται με |
+|-----------|-------------------|
+| Student name | Το πλήρες όνομα του μαθητή |
+| Course name | Το όνομα του μαθήματος |
+| Date | Η ημερομηνία έκδοσης του πιστοποιητικού |
+| Score | Ο τελικός βαθμός του μαθητή |
+| Barcode | Ένας κωδικός γραμμής (`((certificate_barcode))`) που χρησιμοποιείται για επαλήθευση |
 
-### Uploading a Template
+### Ανέβασμα Προτύπου
 
-1. Navigate to certificate template management
-2. Upload or edit the HTML template
-3. Use the placeholder variables where dynamic content should appear
-4. Save
+1. Πλοηγηθείτε στη διαχείριση προτύπων πιστοποιητικών
+2. Ανεβάστε ή επεξεργαστείτε το πρότυπο HTML
+3. Χρησιμοποιήστε τις μεταβλητές-υποκατάστατες όπου πρέπει να εμφανιστεί δυναμικό περιεχόμενο
+4. Αποθηκεύστε
 
-## Document Templates
+## Πρότυπα Εγγράφων
 
-Teachers can use document templates when creating content in the Documents tool. Templates provide a starting layout for common document types.
+Οι διδάσκοντες μπορούν να χρησιμοποιήσουν πρότυπα εγγράφων κατά τη δημιουργία περιεχομένου στο εργαλείο Documents. Τα πρότυπα παρέχουν μια αρχική διάταξη για κοινά είδη εγγράφων.
 
-### Managing Document Templates
+### Διαχείριση Προτύπων Εγγράφων
 
-1. Navigate to template management in the administration panel
-2. Add new templates by uploading HTML files
-3. Templates become available to teachers when they create new documents
+1. Πλοηγηθείτε στη διαχείριση προτύπων στο πάνελ διαχείρισης
+2. Προσθέστε νέα πρότυπα ανεβάζοντας αρχεία HTML
+3. Τα πρότυπα γίνονται διαθέσιμα στους διδάσκοντες όταν δημιουργούν νέα έγγραφα
 
-## Tips
+## Συμβουλές
 
-* **Include your logo** — Add your organization's logo to certificate templates for a professional look
-* **Test with real data** — Preview certificates with actual learner data before deploying the template
-* **Keep templates simple** — Simple designs print better and look professional
+* **Περιλάβετε το λογότυπό σας** — Προσθέστε το λογότυπο του οργανισμού σας στα πρότυπα πιστοποιητικών για επαγγελματική εμφάνιση
+* **Δοκιμάστε με πραγματικά δεδομένα** — Προεπισκοπήστε πιστοποιητικά με πραγματικά δεδομένα μαθητών πριν την ανάπτυξη του προτύπου
+* **Διατηρήστε τα πρότυπα απλά** — Οι απλές σχεδιασμοί εκτυπώνονται καλύτερα και φαίνονται επαγγελματικοί

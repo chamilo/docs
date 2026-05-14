@@ -1,57 +1,57 @@
 # LTI 1.3
 
-**LTI** (Learning Tools Interoperability) is a standard that allows external learning tools to be embedded within Chamilo. Version 1.3 is the latest and most secure version of the standard.
+**LTI** (Learning Tools Interoperability) είναι ένα πρότυπο που επιτρέπει την ενσωμάτωση εξωτερικών εργαλείων μάθησης εντός του Chamilo. Η έκδοση 1.3 είναι η νεότερη και ασφαλέστερη έκδοση του προτύπου.
 
-## What LTI Allows
+## Τι Επιτρέπει το LTI
 
-With LTI, you can embed external tools within Chamilo courses. Examples:
+Με το LTI, μπορείτε να ενσωματώνετε εξωτερικά εργαλεία σε μαθήματα του Chamilo. Παραδείγματα:
 
-* Interactive simulations
-* Specialized assessment tools
-* Content authoring tools
-* Virtual labs
-* Third-party content libraries
+* Διαδραστικές προσομοιώσεις
+* Ειδικευμένα εργαλεία αξιολόγησης
+* Εργαλεία δημιουργίας περιεχομένου
+* Εικονικά εργαστήρια
+* Βιβλιοθήκες περιεχομένου τρίτων
 
-The external tool appears seamlessly within the Chamilo interface.
+Το εξωτερικό εργαλείο εμφανίζεται απρόσκοπτα εντός της διεπαφής του Chamilo.
 
-## Configuring an LTI Tool
+## Διαμόρφωση ενός Εργαλείου LTI
 
-### As an Administrator
+### Ως Διαχειριστής
 
-1. Navigate to the LTI settings in the administration panel
-2. **Register the external tool** by providing:
-   * **Tool name** — A descriptive name
-   * **Login URL** — The OIDC login initiation URL of the external tool
-   * **Redirect URL** — The launch URL the tool returns to after login
-   * **Client ID** — Provided by the tool vendor
-   * **Public keyset URL (JWKS URL)** — The tool's JWKS endpoint for security key exchange
-3. Configure **grade passback** — Whether the tool can send grades back to Chamilo
-4. Save
+1. Πλοηγηθείτε στις ρυθμίσεις LTI στο πάνελ διαχείρισης
+2. **Εγγραφή του εξωτερικού εργαλείου** παρέχοντας:
+   * **Όνομα εργαλείου** — Ένα περιγραφικό όνομα
+   * **URL Σύνδεσης** — Το URL έναρξης σύνδεσης OIDC του εξωτερικού εργαλείου
+   * **URL Ανακατεύθυνσης** — Το URL εκκίνησης στο οποίο επιστρέφει το εργαλείο μετά τη σύνδεση
+   * **Client ID** — Παρέχεται από τον προμηθευτή του εργαλείου
+   * **Public keyset URL (JWKS URL)** — Το τελικό σημείο JWKS του εργαλείου για ανταλλαγή κλειδιών ασφαλείας
+3. Διαμορφώστε **grade passback** — Εάν το εργαλείο μπορεί να στέλνει βαθμούς πίσω στο Chamilo
+4. Αποθήκευση
 
-### As a Teacher
+### Ως Εκπαιδευτικός
 
-Once an LTI tool is registered by the administrator, teachers can add it to their courses:
+Μόλις εγγραφεί ένα εργαλείο LTI από τον διαχειριστή, οι εκπαιδευτικοί μπορούν να το προσθέσουν στα μαθήματά τους:
 
-1. In the course, look for the option to add an external tool
-2. Select from the registered LTI tools
-3. The tool appears as a course tool on the homepage
+1. Στο μάθημα, αναζητήστε την επιλογή για προσθήκη εξωτερικού εργαλείου
+2. Επιλέξτε από τα εγγεγραμμένα εργαλεία LTI
+3. Το εργαλείο εμφανίζεται ως εργαλείο μαθήματος στην αρχική σελίδα
 
-## Security
+## Ασφάλεια
 
-LTI 1.3 uses:
+Το LTI 1.3 χρησιμοποιεί:
 
-* **OAuth 2.0** for authentication
-* **JSON Web Tokens (JWT)** for message signing
-* **Public/private key pairs** for verification
+* **OAuth 2.0** για επαλήθευση
+* **JSON Web Tokens (JWT)** για υπογραφή μηνυμάτων
+* **Ζεύγη δημόσιου/ιδιωτικού κλειδιού** για επαλήθευση
 
-This means credentials are never shared directly between Chamilo and the external tool.
+Αυτό σημαίνει ότι τα διαπιστευτήρια δεν κοινοποιούνται ποτέ απευθείας μεταξύ Chamilo και εξωτερικού εργαλείου.
 
 ## Grade Passback
 
-LTI tools can send grades back to Chamilo, which can be integrated into the course gradebook. This is configured per tool during registration.
+Τα εργαλεία LTI μπορούν να στέλνουν βαθμούς πίσω στο Chamilo, οι οποίοι μπορούν να ενσωματωθούν στο βιβλίο βαθμών του μαθήματος. Αυτό διαμορφώνεται ανά εργαλείο κατά την εγγραφή.
 
-## Tips
+## Συμβουλές
 
-* **Verify tool compatibility** — Ensure the external tool supports LTI 1.3 (not just older versions)
-* **Test in a sandbox** — Test the LTI integration in a test course before using it in production
-* **Monitor performance** — External tools add network dependencies. Ensure the tool is responsive and reliable.
+* **Επαληθεύστε τη συμβατότητα του εργαλείου** — Βεβαιωθείτε ότι το εξωτερικό εργαλείο υποστηρίζει LTI 1.3 (όχι μόνο παλαιότερες εκδόσεις)
+* **Δοκιμάστε σε sandbox** — Δοκιμάστε την ενσωμάτωση LTI σε δοκιμαστικό μάθημα πριν τη χρήση σε παραγωγή
+* **Παρακολουθήστε την απόδοση** — Τα εξωτερικά εργαλεία προσθέτουν εξαρτήσεις δικτύου. Βεβαιωθείτε ότι το εργαλείο είναι ανταποκρινόμενο και αξιόπιστο.

@@ -1,227 +1,226 @@
-# User Profile Settings
+# Ρυθμίσεις Προφίλ Χρήστη
 
-Which fields appear on the user profile, which ones the user can edit, and related preferences.
+Ποια πεδία εμφανίζονται στο προφίλ του χρήστη, ποια μπορεί να επεξεργαστεί ο χρήστης και σχετικές προτιμήσεις.
 
-Access these settings under **Administration > Configuration settings > User Profile**. This category contains **29 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+Πρόσβαση σε αυτές τις ρυθμίσεις στο **Administration > Configuration settings > User Profile**. Αυτή η κατηγορία περιέχει **29 ρυθμίσεις**, που παρατίθενται παρακάτω με τον τίτλο και το σχόλιο που παρέχονται στα fixtures των ρυθμίσεων της πλατφόρμας (`SettingsCurrentFixtures.php`).
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> Το όνομα της μεταβλητής στον κώδικα εμφανίζεται σε monospace. Χρησιμοποιήστε το κατά την προγραμματισμό μέσω API ή όταν χρειάζεται να αλλάξετε αυτές τις ρυθμίσεις σε παγκόσμιο επίπεδο επεξεργαζόμενοι το [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
 
-## Settings
+## Ρυθμίσεις
 
 ### `account_valid_duration`
 
-**Account validity**
+**Ισχύς λογαριασμού**
 
-A user account is valid for this number of days after creation
+Ένας λογαριασμός χρήστη είναι έγκυρος για αυτόν τον αριθμό ημερών μετά τη δημιουργία του
 
-*Default: `3660`*
+*Προεπιλογή: `3660`*
 
 
 ### `add_user_course_information_in_mailto`
 
-**Pre-fill the mail with user and course info in footer contact**
+**Προπλήρωση email με πληροφορίες χρήστη και μαθήματος στο footer επικοινωνίας**
 
-Add subject and body in the mailto: footer.
+Προσθήκη θέματος και σώματος στο mailto: footer.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 
 ### `allow_show_linkedin_url`
 
-**Allow show the user LinkedIn URL**
+**Επιτρέψτε την εμφάνιση URL LinkedIn του χρήστη**
 
-Add a link on the user social block, allowing visit the user's LinkedIn profile
+Προσθήκη συνδέσμου στο κοινωνικό μπλοκ του χρήστη, επιτρέποντας την επίσκεψη στο προφίλ LinkedIn του χρήστη
 
 ### `allow_show_skype_account`
 
-**Allow show the user Skype account**
+**Επιτρέψτε την εμφάνιση λογαριασμού Skype του χρήστη**
 
-Add a link on the user social block allowing start a chat by Skype
+Προσθήκη συνδέσμου στο κοινωνικό μπλοκ του χρήστη επιτρέποντας την έναρξη συνομιλίας μέσω Skype
 
 ### `allow_social_map_fields`
 
-**Users geolocation on a map**
+**Γεωτοποθεσία χρηστών σε χάρτη**
 
-Enable the display of a map in the social network allowing you to locate other users. This includes several positions (current and destination) which have to be defined as addresses or coordinates in separate extra fields. The extra fields must be set as an array here.
+Ενεργοποίηση εμφάνισης χάρτη στο κοινωνικό δίκτυο επιτρέποντας τον εντοπισμό άλλων χρηστών. Αυτό περιλαμβάνει αρκετές θέσεις (τρέχουσα και προορισμός) που πρέπει να οριστούν ως διευθύνσεις ή συντεταγμένες σε ξεχωριστά επιπλέον πεδία. Τα επιπλέον πεδία πρέπει να οριστούν ως πίνακας εδώ.
 
 ### `allow_teachers_to_classes`
 
-**Allow teachers to manage classes**
+**Επιτρέψτε στους διδάσκοντες να διαχειρίζονται τάξεις**
 
-Enables teachers to manage class groups and their membership within the system.
+Ενεργοποιεί στους διδάσκοντες τη δυνατότητα διαχείρισης ομάδων τάξεων και της συμμετοχής τους στο σύστημα.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 
 ### `allow_user_headings`
 
-**Allow users profiling inside courses**
+**Επιτρέψτε προφίλ χρηστών μέσα σε μαθήματα**
 
-Can a teacher define learner profile fields to retrieve additional information?
+Μπορεί ένας διδάσκων να ορίσει πεδία προφίλ μαθητή για την ανάκτηση επιπλέον πληροφοριών;
 
 ### `allow_users_to_change_email_with_no_password`
 
-**Allow users to change e-mail without password**
+**Επιτρέψτε στους χρήστες να αλλάζουν email χωρίς κωδικό πρόσβασης**
 
-When changing the account information
+Κατά την αλλαγή πληροφοριών λογαριασμού
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 ### `changeable_options`
 
-**Fields users are allowed to change in their profile**
+**Πεδία που επιτρέπεται στους χρήστες να αλλάξουν στο προφίλ τους**
 
-Select the fields users will be able to change on their profile page.
+Επιλογή των πεδίων που θα μπορούν οι χρήστες να αλλάξουν στη σελίδα προφίλ τους.
 
 
 ### `enable_profile_user_address_geolocalization`
 
-**Enable user's geolocalization**
+**Ενεργοποίηση γεωτοποθεσίας χρήστη**
 
-Enable user's address field and show it on a map using geolocalization features
+Ενεργοποίηση πεδίου διεύθυνσης χρήστη και εμφάνισή του σε χάρτη χρησιμοποιώντας δυνατότητες γεωτοποθεσίας
 
 ### `extended_profile`
 
 **Portfolio**
 
-If this setting is on, a user can fill in the following (optional) fields: 'My personal open area', 'My competences', 'My diplomas', 'What I am able to teach'
+Αν αυτή η ρύθμιση είναι ενεργή, ένας χρήστης μπορεί να συμπληρώσει τα εξής (προαιρετικά) πεδία: 'My personal open area', 'My competences', 'My diplomas', 'What I am able to teach'
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 ### `hide_username_in_course_chat`
 
-**Hide username in course chat**
+**Απόκρυψη ονόματος χρήστη σε συνομιλία μαθήματος**
 
-In the course chat, hide the username. Only display people's names.
+Στη συνομιλία μαθήματος, απόκρυψη του ονόματος χρήστη. Εμφάνιση μόνο ονομάτων ατόμων.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 
 ### `hide_username_with_complete_name`
 
-**Hide username when already showing complete name**
+**Απόκρυψη ονόματος χρήστη όταν εμφανίζεται ήδη το πλήρες όνομα**
 
-Some internal functions will return the username when returning the user's complete name. With this option enabled, you ensure the username will not appear.
+Κάποιες εσωτερικές συναρτήσεις επιστρέφουν το όνομα χρήστη όταν επιστρέφουν το πλήρες όνομα του χρήστη. Με αυτή την επιλογή ενεργοποιημένη, εξασφαλίζετε ότι το όνομα χρήστη δεν θα εμφανιστεί.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 
 ### `linkedin_organization_id`
 
-**LinkedIn Orgnization ID**
+**LinkedIn Organization ID**
 
-When sharing a badge on LinkedIn, LinkedIn allows you to set an organization ID that will link to the LinkedIn's page of your organization (to link the organization attributing the badge).
+Κατά την κοινοποίηση ενός badge στο LinkedIn, το LinkedIn επιτρέπει τον ορισμό ενός organization ID που θα συνδέεται με τη σελίδα του οργανισμού σας στο LinkedIn (για σύνδεση του οργανισμού που απονέμει το badge).
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 
 ### `login_is_email`
 
-**Use the email as username**
+**Χρήση email ως ονόματος χρήστη**
 
-Use the email in order to login to the system
+Χρήση email για σύνδεση στο σύστημα
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 ### `my_space_users_items_per_page`
 
-**Default number of items per page in mySpace**
+**Προεπιλεγμένος αριθμός αντικειμένων ανά σελίδα στο mySpace**
 
-Number of records displayed per page in MySpace tracking sections (users, work statistics, student list).
+Αριθμός εγγραφών που εμφανίζονται ανά σελίδα στις ενότητες παρακολούθησης του MySpace (χρήστες, στατιστικά εργασιών, λίστα μαθητών).
 
-*Default: `10`*
+*Προεπιλογή: `10`*
 
 
 ### `pass_reminder_custom_link`
 
-**Custom page for password reminder**
+**Προσαρμοσμένη σελίδα για υπενθύμιση κωδικού**
 
-Set your own URL to a password reset page. Useful when using a federated account management system.
+Ορισμός δικής σας URL σε σελίδα επαναφοράς κωδικού. Χρήσιμο όταν χρησιμοποιείται σύστημα διαχείρισης ομοσπονδιακών λογαριασμών.
 
 ### `profile_fields_visibility`
 
-**Fields visible on profile page**
+**Πεδία ορατά στη σελίδα προφίλ**
 
-Array of fields and whether (boolean) they are visible or not on the user's profile page (also works with extra fields labels).
+Πίνακας πεδίων και αν (boolean) είναι ορατά ή όχι στη σελίδα προφίλ του χρήστη (δουλεύει επίσης με ετικέτες επιπλέον πεδίων).
 
 ### `registration_add_helptext_for_2_names`
 
-**Add helper to add two names in registration**
+**Προσθήκη βοηθητικού κειμένου για δύο ονόματα στην εγγραφή**
 
-Add help text for users to enter two names in the registration form when double lastnames are common.
+Προσθήκη βοηθητικού κειμένου για εισαγωγή δύο ονομάτων στη φόρμα εγγραφής όταν τα διπλά επώνυμα είναι συνηθισμένα.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 
 ### `send_notification_when_user_added`
 
-**Send mail to admin when user created**
+**Αποστολή email σε διαχειριστή κατά τη δημιουργία χρήστη**
 
-Send email notification to admin when a user is created.
+Αποστολή email ειδοποίησης σε διαχειριστή όταν δημιουργείται χρήστης.
 
 ### `show_conditions_to_user`
 
-**Show specific registration conditions**
+**Εμφάνιση συγκεκριμένων συνθηκών εγγραφής**
 
-Show multiple conditions to user during sign up process. Provide an array with each element containing 'variable' (internal extra field name), 'display_text' (simple text for a checkbox), 'text_area' (long text of conditions).
+Εμφάνιση πολλαπλών συνθηκών στον χρήστη κατά τη διαδικασία εγγραφής. Παροχή πίνακα με κάθε στοιχείο να περιέχει 'variable' (εσωτερικό όνομα επιπλέον πεδίου), 'display_text' (απλό κείμενο για πλαίσιο ελέγχου), 'text_area' (μεγάλο κείμενο συνθηκών).
 
 ### `show_official_code_whoisonline`
 
-**Official code on 'Who is online'**
+**Επίσημος κωδικός στη σελίδα 'Ποιος είναι online'**
 
-Show official code on the 'Who is online' page, below the username.
+Εμφάνιση επίσημου κωδικού στη σελίδα 'Ποιος είναι online', κάτω από το όνομα χρήστη.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
+---
 ### `show_terms_if_profile_completed`
 
-**Terms and conditions only if profile complete**
+**Όροι και συνθήκες μόνο αν το προφίλ είναι πλήρες**
 
-By enabling this option, terms and conditions will be available to the user only when the extra profile fields that start with 'terms_' and set to visible are completed.
+Ενεργοποιώντας αυτή την επιλογή, οι όροι και οι συνθήκες θα είναι διαθέσιμοι στον χρήστη μόνο όταν τα επιπλέον πεδία προφίλ που ξεκινούν με 'terms_' και ορίζονται ως ορατά έχουν συμπληρωθεί.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 
 ### `split_users_upload_directory`
 
-**Split users' upload directory**
+**Διαχωρισμός καταλόγου μεταφόρτωσης χρηστών**
 
-On high-load portals, where a lot of users are registered and send their pictures, the upload directory (main/upload/users/) might contain too many files for the filesystem to handle (it has been reported with more than 36000 files on a Debian server). Changing this option will enable a one-level splitting of the directories in the upload directory. 9 directories will be used in the base directory and all subsequent users' directories will be stored into one of these 9 directories. The change of this option will not affect the directories structure on disk, but will affect the behaviour of the Chamilo code, so if you change this option, you have to create the new directories and move the existing directories by yourself on te server. Be aware that when creating and moving those directories, you will have to move the directories of users 1 to 9 into subdirectories of the same name. If you are not sure about this option, it is best not to activate it.
+Σε ιστότοπους υψηλού φόρτου, όπου πολλοί χρήστες είναι εγγεγραμμένοι και στέλνουν τις εικόνες τους, ο κατάλογος μεταφόρτωσης (main/upload/users/) μπορεί να περιέχει πάρα πολλά αρχεία ώστε το σύστημα αρχείων να τα διαχειριστεί (έχει αναφερθεί με περισσότερα από 36000 αρχεία σε διακομιστή Debian). Αλλάζοντας αυτή την επιλογή θα ενεργοποιηθεί ένας διαχωρισμός ενός επιπέδου στους καταλόγους του καταλόγου μεταφόρτωσης. Θα χρησιμοποιηθούν 9 κατάλογοι στη βασική διαδρομή και όλοι οι επόμενοι κατάλογοι χρηστών θα αποθηκευτούν σε έναν από αυτούς τους 9 καταλόγους. Η αλλαγή αυτής της επιλογής δεν θα επηρεάσει τη δομή των καταλόγων στον δίσκο, αλλά θα επηρεάσει τη συμπεριφορά του κώδικα του Chamilo, οπότε αν αλλάξετε αυτή την επιλογή, πρέπει να δημιουργήσετε μόνοι σας τους νέους καταλόγους και να μετακινήσετε τους υπάρχοντες καταλόγους στον διακομιστή. Λάβετε υπόψη ότι κατά τη δημιουργία και μετακίνηση αυτών των καταλόγων, θα πρέπει να μετακινήσετε τους καταλόγους των χρηστών 1 έως 9 σε υποκαταλόγους με το ίδιο όνομα. Αν δεν είστε σίγουροι για αυτή την επιλογή, είναι καλύτερο να μην την ενεργοποιήσετε.
 
-*Default: `true`*
+*Προεπιλογή: `true`*
 
 ### `use_users_timezone`
 
-**Enable users timezones**
+**Ενεργοποίηση ζωνών ώρας χρηστών**
 
-Enable the possibility for users to select their own timezone. Once configured, users will be able to see assignment deadlines and other time references in their own timezone, which will reduce errors at delivery time.
+Ενεργοποιήστε τη δυνατότητα για τους χρήστες να επιλέξουν τη δική τους ζώνη ώρας. Μόλις ρυθμιστεί, οι χρήστες θα μπορούν να βλέπουν προθεσμίες εργασιών και άλλες χρονικές αναφορές στη δική τους ζώνη ώρας, μειώνοντας έτσι τα σφάλματα κατά την παράδοση.
 
-*Default: `true`*
+*Προεπιλογή: `true`*
 
 ### `user_import_settings`
 
-**Options for user import**
+**Επιλογές για εισαγωγή χρηστών**
 
-Array of options to apply as default parameters in the CSV/XML user import.
+Πίνακας επιλογών που εφαρμόζονται ως προεπιλεγμένες παράμετροι στην εισαγωγή χρηστών CSV/XML.
 
 ### `user_search_on_extra_fields`
 
-**Search users by extra fields in users list for admins**
+**Αναζήτηση χρηστών βάσει επιπλέον πεδίων στη λίστα χρηστών για διαχειριστές**
 
-Naturally include the given extra fields (array of extra fields labels) in the user searches.
+Περιλαμβάνει φυσικά τα δοθέντα επιπλέον πεδία (πίνακας ετικετών επιπλέον πεδίων) στις αναζητήσεις χρηστών.
 
 ### `user_selected_theme`
 
-**User theme selection**
+**Επιλογή θέματος χρήστη**
 
-Allow users to select their own visual theme in their profile. This will change the look of Chamilo for them, but will leave the default style of the portal intact. If a specific course or session has a specific theme assigned, it will have priority over user-defined themes.
+Επιτρέψτε στους χρήστες να επιλέξουν το δικό τους οπτικό θέμα στο προφίλ τους. Αυτό θα αλλάξει την εμφάνιση του Chamilo για αυτούς, αλλά θα διατηρήσει ανέπαφο το προεπιλεγμένο στυλ του ιστότοπου. Αν ένα συγκεκριμένο μάθημα ή συνεδρία έχει ορισμένο συγκεκριμένο θέμα, θα έχει προτεραιότητα έναντι των θεμάτων που ορίζονται από τον χρήστη.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 ### `visible_options`
 
-**List of visible fields in profile**
+**Λίστα ορατών πεδίων στο προφίλ**
 
-Controls which profile fields are visible to users and others.
-
-
+Ελέγχει ποια πεδία προφίλ είναι ορατά στους χρήστες και στους άλλους.

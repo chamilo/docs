@@ -1,36 +1,36 @@
-# Glossary
+# Γλωσσάρι
 
-The glossary tool lets you define key terms for your course. Learners can browse the glossary to look up definitions while studying.
+Το εργαλείο γλωσσαρίου σας επιτρέπει να ορίζετε βασικούς όρους για το μάθημά σας. Οι μαθητές μπορούν να περιηγούνται στο γλωσσάριο για να αναζητήσουν ορισμούς κατά τη διάρκεια της μελέτης τους.
 
-## Adding a Term
+## Προσθήκη Όρου
 
-1. Open the **Glossary** <img src="/.gitbook/assets/icons/mdi-alphabetical.svg" alt="Glossary" data-size="line"> tool from the course homepage
-2. Click **Add new glossary term**
-3. Enter the **term** and its **definition** (the definition supports rich text formatting)
-4. Save
+1. Ανοίξτε το εργαλείο **Glossary** <img src="/.gitbook/assets/icons/mdi-alphabetical.svg" alt="Γλωσσάριο" data-size="line"> από την αρχική σελίδα του μαθήματος
+2. Κάντε κλικ στο **Add new glossary term**
+3. Εισαγάγετε τον **όρο** και τον **ορισμό** του (ο ορισμός υποστηρίζει μορφοποίηση πλούσιου κειμένου)
+4. Αποθήκευση
 
-## Managing Terms
+## Διαχείριση Όρων
 
-* **Edit** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Edit" data-size="line"> — Update a term or its definition
-* **Delete** <img src="/.gitbook/assets/icons/mdi-delete.svg" alt="Delete" data-size="line"> — Remove a term from the glossary
-* **Search** <img src="/.gitbook/assets/icons/mdi-magnify.svg" alt="Search" data-size="line"> — Use the search function to find specific terms quickly
+* **Επεξεργασία** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Επεξεργασία" data-size="line"> — Ενημέρωση ενός όρου ή του ορισμού του
+* **Διαγραφή** <img src="/.gitbook/assets/icons/mdi-delete.svg" alt="Διαγραφή" data-size="line"> — Αφαίρεση ενός όρου από το γλωσσάριο
+* **Αναζήτηση** <img src="/.gitbook/assets/icons/mdi-magnify.svg" alt="Αναζήτηση" data-size="line"> — Χρήση της λειτουργίας αναζήτησης για να βρείτε συγκεκριμένους όρους γρήγορα
 
-## Importing and Exporting
+## Εισαγωγή και Εξαγωγή
 
-You can build your glossary faster using import/export:
+Μπορείτε να δημιουργήσετε το γλωσσάριό σας πιο γρήγορα χρησιμοποιώντας εισαγωγή/εξαγωγή:
 
-* **Import** <img src="/.gitbook/assets/icons/mdi-database-import-outline.svg" alt="Import" data-size="line"> — Upload a list of terms and definitions from a CSV or XLS file. You can also tick "Update existing terms" to overwrite definitions for terms that are already in the glossary.
-* **Export** <img src="/.gitbook/assets/icons/mdi-file-export.svg" alt="Export" data-size="line"> — Download the glossary as CSV, Excel (XLS), or PDF for use in another course or for offline reference
+* **Εισαγωγή** <img src="/.gitbook/assets/icons/mdi-database-import-outline.svg" alt="Εισαγωγή" data-size="line"> — Ανεβάστε μια λίστα όρων και ορισμών από αρχείο CSV ή XLS. Μπορείτε επίσης να επιλέξετε "Update existing terms" για να αντικαταστήσετε ορισμούς για όρους που υπάρχουν ήδη στο γλωσσάριο.
+* **Εξαγωγή** <img src="/.gitbook/assets/icons/mdi-file-export.svg" alt="Εξαγωγή" data-size="line"> — Κατεβάστε το γλωσσάριο ως CSV, Excel (XLS) ή PDF για χρήση σε άλλο μάθημα ή για εκτός σύνδεσης αναφορά
 
-## Display Options
+## Επιλογές Εμφάνισης
 
-The glossary can be displayed in two formats, toggled from the toolbar:
+Το γλωσσάριο μπορεί να εμφανίζεται σε δύο μορφές, εναλλασσόμενες από τη γραμμή εργαλείων:
 
-* **Table view** — Terms listed in a table with their definitions
-* **List view** — Terms shown as individual panels stacked one after another
+* **Προβολή πίνακα** — Όροι σε πίνακα με τους ορισμούς τους
+* **Προβολή λίστας** — Όροι ως μεμονωμένα πλαίσια τοποθετημένα το ένα μετά το άλλο
 
-## Tips
+## Συμβουλές
 
-* **Build it progressively** — Add terms as you introduce them in your course, rather than all at once
-* **Keep definitions concise** — Short, clear definitions are more useful than lengthy explanations
-* **Link from learning paths** — Reference glossary terms from your learning path content to encourage learners to use the glossary
+* **Δημιουργήστε το σταδιακά** — Προσθέστε όρους καθώς τους εισάγετε στο μάθημά σας, αντί για όλα μαζί
+* **Κρατήστε τους ορισμούς συνοπτικούς** — Σύντομοι, σαφείς ορισμοί είναι πιο χρήσιμοι από εκτενείς εξηγήσεις
+* **Συνδέστε από μονοπάτια μάθησης** — Αναφέρετε όρους γλωσσαρίου από το περιεχόμενο των μονοπατιών μάθησης για να ενθαρρύνετε τους μαθητές να χρησιμοποιήσουν το γλωσσάριο

@@ -1,23 +1,23 @@
-# Notebook
+# Τετράδιο Σημειώσεων
 
-The notebook is a personal note-taking tool for learners. Each learner has their own private notebook within the course.
+Το τετράδιο σημειώσεων είναι ένα προσωπικό εργαλείο καταγραφής σημειώσεων για τους μαθητές. Κάθε μαθητής έχει το δικό του ιδιωτικό τετράδιο σημειώσεων εντός του μαθήματος.
 
-## How It Works
+## Πώς Λειτουργεί
 
-The notebook is a simple tool where learners can:
+Το τετράδιο σημειώσεων είναι ένα απλό εργαλείο όπου οι μαθητές μπορούν:
 
-* **Create notes** — Write and save personal notes related to the course content
-* **Organize notes** — Review, edit, and delete their notes
-* **Keep them private** — Notes are visible only to the learner who created them
+* **Να δημιουργούν σημειώσεις** — Να γράφουν και να αποθηκεύουν προσωπικές σημειώσεις σχετικές με το περιεχόμενο του μαθήματος
+* **Να οργανώνουν σημειώσεις** — Να επανεξετάζουν, να επεξεργάζονται και να διαγράφουν τις σημειώσεις τους
+* **Να τις διατηρούν ιδιωτικές** — Οι σημειώσεις είναι ορατές μόνο στον μαθητή που τις δημιούργησε
 
-## As a Teacher
+## Ως Εκπαιδευτικός
 
-As a teacher, you should be aware that:
+Ως εκπαιδευτικός, θα πρέπει να γνωρίζετε ότι:
 
-* The notebook is a **personal tool** — you cannot see your learners' notes
-* It is useful as a **reflection tool** — encourage learners to take notes while studying
-* Notes are stored within the course — they are not shared across courses
+* Το τετράδιο σημειώσεων είναι ένα **προσωπικό εργαλείο** — δεν μπορείτε να δείτε τις σημειώσεις των μαθητών σας
+* Είναι χρήσιμο ως **εργαλείο αντανάκλασης** — ενθαρρύνετε τους μαθητές να παίρνουν σημειώσεις κατά τη διάρκεια της μελέτης
+* Οι σημειώσεις αποθηκεύονται εντός του μαθήματος — δεν κοινοποιούνται σε άλλα μαθήματα
 
-## Enabling the Notebook
+## Ενεργοποίηση του Τετραδίου Σημειώσεων
 
-The notebook tool appears on the course homepage if it is enabled. If you do not see it, check that it is not hidden (look for hidden tools on the course homepage).
+Το εργαλείο του τετραδίου σημειώσεων εμφανίζεται στην αρχική σελίδα του μαθήματος εάν είναι ενεργοποιημένο. Εάν δεν το βλέπετε, ελέγξτε ότι δεν είναι κρυμμένο (αναζητήστε κρυμμένα εργαλεία στην αρχική σελίδα του μαθήματος).

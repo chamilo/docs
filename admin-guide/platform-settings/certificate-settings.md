@@ -1,82 +1,81 @@
-# Certificates Settings
+# Ρυθμίσεις Πιστοποιητικών
 
-Defaults applied when a learner earns a certificate from the gradebook.
+Προεπιλεγμένες ρυθμίσεις που εφαρμόζονται όταν ένας εκπαιδευόμενος λαμβάνει πιστοποιητικό από το **gradebook**.
 
-Access these settings under **Administration > Configuration settings > Certificates**. This category contains **9 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+Πρόσβαση σε αυτές τις ρυθμίσεις μέσω **Διαχείριση > Ρυθμίσεις διαμόρφωσης > Πιστοποιητικά**. Αυτή η κατηγορία περιέχει **9 ρυθμίσεις**, που παρατίθενται παρακάτω με τον τίτλο και το σχόλιο που παρέχονται στα fixtures των ρυθμίσεων της πλατφόρμας (`SettingsCurrentFixtures.php`).
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> Το όνομα της μεταβλητής στον κώδικα εμφανίζεται σε monospace. Χρησιμοποιήστε το κατά την προγραμματισμό μέσω API ή όταν χρειάζεται να αλλάξετε αυτές τις ρυθμίσεις σε παγκόσμιο επίπεδο επεξεργαζόμενοι το [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
 
-## Settings
+## Ρυθμίσεις
 
 ### `add_certificate_pdf_footer`
 
-**Add footer to PDF certificate exports**
+**Προσθήκη υποσέλιδου στις εξαγωγές PDF πιστοποιητικών**
 
-When enabled, a footer is added to PDF exports of certificates.
+Όταν είναι ενεργοποιημένη, προστίθεται υποσέλιδο στις εξαγωγές PDF των πιστοποιητικών.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 ### `allow_general_certificate`
 
-**Enable general certificate**
+**Ενεργοποίηση γενικού πιστοποιητικού**
 
-A general certificate is a certificate grouping all the accomplishments by the user in the courses (s)he followed.
+Ένα γενικό πιστοποιητικό είναι ένα πιστοποιητικό που συγκεντρώνει όλες τις επιτευχθείσες επιδόσεις του χρήστη στα μαθήματα που παρακολούθησε.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 ### `allow_public_certificates`
 
-**Allow public certificates**
+**Επιτρέψτε δημόσια πιστοποιητικά**
 
-User certificates can be view by unregistered users.
+Τα πιστοποιητικά χρηστών μπορούν να προβληθούν από μη εγγεγραμμένους χρήστες.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 ### `certificate_filter_by_official_code`
 
-**Certificates filter by official code**
+**Φιλτράρισμα πιστοποιητικών βάσει επίσημου κώδικα**
 
-Add a filter on the students official code to the certificates list.
+Προσθήκη φίλτρου στον επίσημο κώδικα των φοιτητών στη λίστα πιστοποιητικών.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 ### `certificate_pdf_orientation`
 
-**PDF orientation for certificates**
+**Προσανατολισμός PDF για πιστοποιητικά**
 
-Set ‘portrait’ or ‘landscape’ (technical terms) for PDF certificates.
+Ορισμός ‘portrait’ ή ‘landscape’ (τεχνικοί όροι) για τα PDF πιστοποιητικά.
 
-*Default: `landscape`*
+*Προεπιλογή: `landscape`*
 
 ### `hide_certificate_export_link`
 
-**Certificates: hide PDF export link for all**
+**Πιστοποιητικά: απόκρυψη συνδέσμου εξαγωγής PDF για όλους**
 
-Enable to completely remove the possibility to export certificates to PDF (for all users). If enabled, this includes hiding it from students.
+Ενεργοποίηση για πλήρη αφαίρεση της δυνατότητας εξαγωγής πιστοποιητικών σε PDF (για όλους τους χρήστες). Αν ενεργοποιηθεί, αυτό περιλαμβάνει την απόκρυψή του από φοιτητές.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 ### `hide_certificate_export_link_students`
 
-**Certificates: hide export link from students**
+**Πιστοποιητικά: απόκρυψη συνδέσμου εξαγωγής από φοιτητές**
 
-If enabled, students won’t be able to export their certificates to PDF. This option is available because, depending on the precise HTML structure of the certificate template, the PDF export might be of low quality. In this case, it is best to only show the HTML certificate to students.
+Αν ενεργοποιηθεί, οι φοιτητές δεν θα μπορούν να εξάγουν τα πιστοποιητικά τους σε PDF. Αυτή η επιλογή είναι διαθέσιμη επειδή, ανάλογα με την ακριβή HTML δομή του προτύπου πιστοποιητικού, η εξαγωγή PDF μπορεί να είναι χαμηλής ποιότητας. Σε αυτή την περίπτωση, είναι καλύτερο να εμφανίζεται μόνο το HTML πιστοποιητικό στους φοιτητές.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 ### `hide_my_certificate_link`
 
-**Hide ‘my certificate’ link**
+**Απόκρυψη συνδέσμου ‘το πιστοποιητικό μου’**
 
-Hide the certificates page for non-admin users.
+Απόκρυψη της σελίδας πιστοποιητικών για μη διαχειριστές χρήστες.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 ### `session_admin_can_download_all_certificates`
 
-**Allow session admins to download private certificates**
+**Επιτρέψτε στους διαχειριστές συνεδρίας να κατεβάζουν ιδιωτικά πιστοποιητικά**
 
-If enabled, session administrators can download certificates even if they are not publicly published.
+Αν ενεργοποιηθεί, οι διαχειριστές συνεδρίας μπορούν να κατεβάσουν πιστοποιητικά ακόμα και αν δεν έχουν δημοσιευθεί δημόσια.
 
-*Default: `false`*
-
+*Προεπιλογή: `false`*

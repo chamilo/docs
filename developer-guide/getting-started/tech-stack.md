@@ -1,8 +1,8 @@
-# Tech Stack
+# Τεχνολογική στοίβα
 
-The following describes the tech stack for Chamilo 2.0. All versions stated here are likely to change as new versions of Chamilo are released. Version numbers use [Composer's versions notation](https://getcomposer.org/doc/articles/versions.md) which set rules to allow for some flexibility around versions.
+Το παρακάτω περιγράφει την τεχνολογική στοίβα για το Chamilo 2.0. Όλες οι εκδοχές που αναφέρονται εδώ ενδέχεται να αλλάξουν με την κυκλοφορία νέων εκδόσεων του Chamilo. Οι αριθμοί εκδόσεων χρησιμοποιούν τη [σύμβαση εκδόσεων του Composer](https://getcomposer.org/doc/articles/versions.md) η οποία θέτει κανόνες για να επιτρέψει κάποια ευελιξία γύρω από τις εκδόσεις.
 
-Including hierarchical dependencies, Chamilo uses several hundred Free Software libraries. This list only includes the ones we use the most and that will likely affect the work of a Chamilo developer every week or so. We are greatful to all other Free Software developers out there making ou work easier, more maintainable and more secure.
+Συμπεριλαμβάνοντας ιεραρχικές εξαρτήσεις, το Chamilo χρησιμοποιεί αρκετές εκατοντάδες βιβλιοθήκες Ελεύθερου Λογισμικού. Αυτή η λίστα περιλαμβάνει μόνο αυτές που χρησιμοποιούμε περισσότερο και που ενδέχεται να επηρεάσουν την εργασία ενός προγραμματιστή του Chamilo κάθε εβδομάδα περίπου. Είμαστε ευγνώμονες προς όλους τους άλλους προγραμματιστές Ελεύθερου Λογισμικού που υπάρχουν εκεί έξω και κάνουν τη δουλειά μας ευκολότερη, πιο εύκολα συντηρήσιμη και πιο ασφαλή.
 
 ## Backend
 
@@ -39,7 +39,7 @@ Including hierarchical dependencies, Chamilo uses several hundred Free Software 
 | Uppy | ^4.5 | File upload widget |
 | PrimeFlex | ^4.0 | CSS utility framework |
 
-## Build Tools
+## Εργαλεία κατασκευής
 
 | Technology | Version | Purpose |
 |-----------|---------|---------|
@@ -52,24 +52,24 @@ Including hierarchical dependencies, Chamilo uses several hundred Free Software 
 | ESLint | ^10.0 | Linting |
 | Prettier | 3.8 | Code formatting |
 
-## Icons
+## Εικονίδια
 
 | Library | Version | Usage |
 |---------|---------|-------|
 | @mdi/font | 7.4.47 | Material Design Icons (CSS classes `mdi mdi-*`) |
 
-## Database
+## Βάση δεδομένων
 
-Chamilo supports:
+Το Chamilo υποστηρίζει:
 
 * MySQL 5.7+
 * MariaDB 10.11.2+
 
-## Cloud Storage
+## Αποθήκευση στο cloud
 
-Via Flysystem adapters:
+Μέσω προσαρμογέων Flysystem:
 
-* Local filesystem (default)
+* Τοπικό σύστημα αρχείων (προεπιλογή)
 * AWS S3 (`league/flysystem-aws-s3-v3`)
 * Azure Blob Storage (`league/flysystem-azure-blob-storage`)
 * Google Cloud Storage (`league/flysystem-google-cloud-storage`)

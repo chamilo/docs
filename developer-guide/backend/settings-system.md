@@ -1,89 +1,89 @@
-# Settings System
+# Σύστημα Ρυθμίσεων
 
-Chamilo's configuration is managed through a set of settings schemas (around 40 of them, varying between releases) that define every configurable aspect of the platform. They live in `src/CoreBundle/Settings/` — the exact list there is the source of truth.
+Η διαμόρφωση του Chamilo διαχειρίζεται μέσω ενός συνόλου σχημάτων ρυθμίσεων (περίπου 40 από αυτά, ποικίλλουν ανάλογα με τις εκδόσεις) που ορίζουν κάθε ρυθμιζόμενη πτυχή της πλατφόρμας. Βρίσκονται στο `src/CoreBundle/Settings/` — η ακριβής λίστα εκεί είναι η πηγή αλήθειας.
 
-## How It Works
+## Πώς Λειτουργεί
 
-Settings are:
+Οι ρυθμίσεις είναι:
 
-1. **Defined** in schema classes (`src/CoreBundle/Settings/*SettingsSchema.php`)
-2. **Stored** in the database (`settings_current` table)
-3. **Accessed** via the `SettingsManager` service
-4. **Managed** through the administration web interface
+1. **Ορισμένες** σε κλάσεις σχημάτων (`src/CoreBundle/Settings/*SettingsSchema.php`)
+2. **Αποθηκευμένες** στη βάση δεδομένων (`settings_current` πίνακας)
+3. **Προσβάσιμες** μέσω της υπηρεσίας `SettingsManager`
+4. **Διαχειριζόμενες** μέσω της διαδικτυακής διεπαφής διαχείρισης
 
-## Settings Schemas
+## Σχήματα Ρυθμίσεων
 
-Each schema file defines a category of settings. Key schemas:
+Κάθε αρχείο σχήματος ορίζει μια κατηγορία ρυθμίσεων. Κύρια σχήματα:
 
-| Schema | Purpose |
-|--------|---------|
-| `PlatformSettingsSchema` | Institution info, timezone, server type, portal features |
-| `SecuritySettingsSchema` | Login attempts, CAPTCHA, password policy, HTTP headers, 2FA |
-| `RegistrationSettingsSchema` | Self-registration, required fields, auto-subscribe |
-| `CourseSettingsSchema` | Course creation defaults, tools, catalog |
-| `SessionSettingsSchema` | Session defaults, visibility |
-| `MailSettingsSchema` | Email configuration, DKIM, notifications |
-| `AiHelpersSettingsSchema` | AI providers, feature toggles per AI tool |
-| `ExerciseSettingsSchema` | Quiz scoring, feedback, question options |
-| `LearningPathSettingsSchema` | LP display, prerequisites, SCORM settings |
-| `DocumentSettingsSchema` | Upload limits, allowed file types, storage |
-| `DisplaySettingsSchema` | UI tabs, sidebar items, theme |
-| `LanguageSettingsSchema` | Available languages, default locale |
-| `AdminSettingsSchema` | Admin email, admin-specific options |
+| Σχήμα | Σκοπός |
+|-------|--------|
+| `PlatformSettingsSchema` | Πληροφορίες οργανισμού, ζώνη ώρας, τύπος διακομιστή, χαρακτηριστικά πύλης |
+| `SecuritySettingsSchema` | Προσπάθειες σύνδεσης, CAPTCHA, πολιτική κωδικού, κεφαλίδες HTTP, 2FA |
+| `RegistrationSettingsSchema` | Αυτοέγγραφση, απαιτούμενα πεδία, αυτόματη εγγραφή |
+| `CourseSettingsSchema` | Προεπιλογές δημιουργίας μαθήματος, εργαλεία, κατάλογος |
+| `SessionSettingsSchema` | Προεπιλογές συνεδρίας, ορατότητα |
+| `MailSettingsSchema` | Διαμόρφωση email, DKIM, ειδοποιήσεις |
+| `AiHelpersSettingsSchema` | Παρόχοι AI, ενεργοποίηση χαρακτηριστικών ανά εργαλείο AI |
+| `ExerciseSettingsSchema` | Βαθμολόγηση κουίζ, ανατροφοδότηση, επιλογές ερωτήσεων |
+| `LearningPathSettingsSchema` | Εμφάνιση LP, προαπαιτούμενα, ρυθμίσεις SCORM |
+| `DocumentSettingsSchema` | Όρια ανεβάσματος, επιτρεπτοί τύποι αρχείων, αποθήκευση |
+| `DisplaySettingsSchema` | Καρτέλες UI, στοιχεία πλαϊνής γραμμής, θέμα |
+| `LanguageSettingsSchema` | Διαθέσιμες γλώσσες, προεπιλεγμένη τοπική ρύθμιση |
+| `AdminSettingsSchema` | Email διαχειριστή, επιλογές ειδικές για διαχειριστή |
 
-## Accessing Settings
+## Πρόσβαση σε Ρυθμίσεις
 
-In PHP code:
+Σε κώδικα PHP:
 
 ```php
-// Via SettingsManager service
+// Μέσω υπηρεσίας SettingsManager
 $value = $settingsManager->getSetting('platform.site_name');
 
-// In legacy code
+// Σε παλιό κώδικα
 $value = api_get_setting('platform.site_name');
 ```
 
-In templates:
+Σε πρότυπα:
 
 ```twig
-{# Read a single setting #}
+{# Ανάγνωση μίας ρύθμισης #}
 {{ chamilo_settings_get('platform.site_name') }}
 
-{# Check whether a setting exists #}
+{# Έλεγχος ύπαρξης ρύθμισης #}
 {% if chamilo_settings_has('platform.allow_registration') %}
     ...
 {% endif %}
 
-{# Get all settings as an array #}
+{# Λήψη όλων των ρυθμίσεων ως πίνακα #}
 {% set settings = chamilo_settings_all() %}
 ```
 
-## Setting Structure
+## Δομή Ρύθμισης
 
-Each setting has:
+Κάθε ρύθμιση έχει:
 
-* **Namespace** — The schema category (e.g., `platform`, `security`, `ai_helpers`)
-* **Variable** — The setting name (e.g., `site_name`, `allow_registration`)
-* **Value** — The current value
-* **Type** — Data type (string, boolean, array, etc.)
+* **Χώρο ονομάτων** — Η κατηγορία σχήματος (π.χ., `platform`, `security`, `ai_helpers`)
+* **Μεταβλητή** — Το όνομα της ρύθμισης (π.χ., `site_name`, `allow_registration`)
+* **Τιμή** — Η τρέχουσα τιμή
+* **Τύπο** — Τύπος δεδομένων (string, boolean, array κ.λπ.)
 
-## Course-Level Settings
+## Ρυθμίσεις Επιπέδου Μαθήματος
 
-Some settings can be overridden at the course level. These are defined in `src/CourseBundle/Settings/` and include:
+Ορισμένες ρυθμίσεις μπορούν να παρακαμφθούν σε επίπεδο μαθήματος. Αυτές ορίζονται στο `src/CourseBundle/Settings/` και περιλαμβάνουν:
 
-* Exercise settings per course
-* Assignment settings per course
-* AI feature toggles per course
+* Ρυθμίσεις ασκήσεων ανά μάθημα
+* Ρυθμίσεις εργασιών ανά μάθημα
+* Ενεργοποίηση χαρακτηριστικών AI ανά μάθημα
 
-## Multi-URL Settings
+## Ρυθμίσεις Multi-URL
 
-In multi-URL setups, some settings can be customized per access URL, allowing different portal configurations from the same installation.
+Σε ρυθμίσεις multi-URL, ορισμένες ρυθμίσεις μπορούν να προσαρμοστούν ανά URL πρόσβασης, επιτρέποντας διαφορετικές διαμορφώσεις πύλης από την ίδια εγκατάσταση.
 
-Those settings will appear several times in the `settings` table, with different `access_url` values. By default, all settings are associated with `access_url=1`.
+Αυτές οι ρυθμίσεις εμφανίζονται πολλές φορές στον πίνακα `settings`, με διαφορετικές τιμές `access_url`. Προεπιλογικά, όλες οι ρυθμίσεις συνδέονται με `access_url=1`.
 
-## Adding a New Setting
+## Προσθήκη Νέας Ρύθμισης
 
-1. Add the setting definition to the appropriate schema class
-2. Provide a default value
-3. Run database migrations if needed
-4. Access the setting via `SettingsManager`
+1. Προσθήκη ορισμού ρύθμισης στην κατάλληλη κλάση σχήματος
+2. Παροχή προεπιλεγμένης τιμής
+3. Εκτέλεση μεταφορών βάσης δεδομένων αν χρειάζεται
+4. Πρόσβαση στη ρύθμιση μέσω `SettingsManager`

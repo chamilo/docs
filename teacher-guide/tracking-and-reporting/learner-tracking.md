@@ -1,46 +1,46 @@
-# Learner Tracking
+# Παρακολούθηση Μαθητή
 
-Chamilo tracks learner activity throughout the platform, giving you detailed insights into how each learner is engaging with your course.
+Το Chamilo παρακολουθεί τη δραστηριότητα του μαθητή σε όλη την πλατφόρμα, παρέχοντας σας λεπτομερείς πληροφορίες σχετικά με τον τρόπο με τον οποίο κάθε μαθητής αλληλεπιδρά με το μάθημά σας.
 
-## Accessing Learner Tracking
+## Πρόσβαση στην Παρακολούθηση Μαθητή
 
-Open the **Tracking** <img src="/.gitbook/assets/icons/mdi-chart-box.svg" alt="Tracking" data-size="line"> tool from the course homepage, or click **Reporting** in the sidebar.
+Ανοίξτε το εργαλείο **Tracking** <img src="/.gitbook/assets/icons/mdi-chart-box.svg" alt="Tracking" data-size="line"> από την αρχική σελίδα του μαθήματος, ή κάντε κλικ στο **Reporting** στη γραμμή πλαϊνής πλοήγησης.
 
-## What Is Tracked
+## Τι Παρακολουθείται
 
-For each learner, Chamilo records (in the main per-learner tracking view):
+Για κάθε μαθητή, το Chamilo καταγράφει (στην κύρια προβολή παρακολούθησης ανά μαθητή):
 
-* **Login activity** — When the learner last logged in and their total login time
-* **Time spent in the course** — Total time the learner has spent in your course
-* **First and last access** — When the learner first entered and last visited the course
-* **Course progress** — Aggregate progress percentage across the course
-* **Exercise results** — Scores and attempts for each exercise
-* **Learning path progress** — Completion percentage and time spent on each learning path
-* **Assignment submissions** — Which assignments have been submitted and graded
+* **Δραστηριότητα σύνδεσης** — Πότε συνδέθηκε τελευταία φορά ο μαθητής και ο συνολικός χρόνος σύνδεσης
+* **Χρόνος που αφιερώθηκε στο μάθημα** — Συνολικός χρόνος που έχει περάσει ο μαθητής στο μάθημά σας
+* **Πρώτη και τελευταία πρόσβαση** — Πότε εισήλθε για πρώτη φορά και επισκέφθηκε τελευταία φορά ο μαθητής το μάθημα
+* **Πρόοδος μαθήματος** — Συγκεντρωτικό ποσοστό προόδου σε όλο το μάθημα
+* **Αποτελέσματα ασκήσεων** — Βαθμοί και προσπάθειες για κάθε άσκηση
+* **Πρόοδος διαδρομής μάθησης** — Ποσοστό ολοκλήρωσης και χρόνος που αφιερώθηκε σε κάθε διαδρομή μάθησης
+* **Υποβολές εργασιών** — Ποιες εργασίες έχουν υποβληθεί και βαθμολογηθεί
 
-Per-resource access details (which specific documents or pages a learner opened) and tool-level activity are available through the dedicated **Resources**, **Tools**, and **Events** views in the tracking section, rather than in the main learner row.
+Λεπτομέρειες πρόσβασης ανά πόρο (ποια συγκεκριμένα έγγραφα ή σελίδες άνοιξε ένας μαθητής) και δραστηριότητα επιπέδου εργαλείου είναι διαθέσιμες μέσω των ειδικών προβολών **Resources**, **Tools** και **Events** στην ενότητα παρακολούθησης, και όχι στην κύρια γραμμή του μαθητή.
 
-## Viewing Individual Learner Data
+## Προβολή Δεδομένων Ατομικού Μαθητή
 
-![Detailed learner tracking view showing progress, scores, and activity timeline](/.gitbook/assets/tracking-learner-detail.png)
+![Λεπτομερής προβολή παρακολούθησης μαθητή που δείχνει πρόοδο, βαθμούς και χρονολόγιο δραστηριότητας](/.gitbook/assets/tracking-learner-detail.png)
 
-Click on a learner's name to see their detailed activity report. This shows:
+Κάντε κλικ στο όνομα ενός μαθητή για να δείτε την λεπτομερή αναφορά δραστηριότητάς του. Αυτό δείχνει:
 
-* A summary of their overall engagement
-* Progress through each learning path
-* Exercise scores and attempt history
-* Assignment submission status
+* Περίληψη της συνολικής του εμπλοκής
+* Πρόοδο μέσω κάθε διαδρομής μάθησης
+* Βαθμούς ασκήσεων και ιστορικό προσπαθειών
+* Κατάσταση υποβολής εργασιών
 
-## Tracking Views
+## Προβολές Παρακολούθησης
 
-You can view tracking data from different perspectives:
+Μπορείτε να προβάλετε δεδομένα παρακολούθησης από διαφορετικές οπτικές γωνίες:
 
-* **By learner** — Select a learner to see all their activity
-* **By resource** — Select a document, exercise, or learning path to see how all learners interacted with it
-* **By tool** — See aggregate usage for each course tool
+* **Ανά μαθητή** — Επιλέξτε έναν μαθητή για να δείτε όλες τις δραστηριότητές του
+* **Ανά πόρο** — Επιλέξτε ένα έγγραφο, άσκηση ή διαδρομή μάθησης για να δείτε πώς αλληλεπίδρασαν όλοι οι μαθητές με αυτό
+* **Ανά εργαλείο** — Δείτε τη συγκεντρωτική χρήση για κάθε εργαλείο μαθήματος
 
-## Tips
+## Συμβουλές
 
-* **Identify struggling learners** — Look for learners with low engagement, multiple failed exercise attempts, or incomplete learning paths
-* **Monitor progress regularly** — Check tracking data weekly to spot issues early
-* **Use data for feedback** — Share relevant tracking data with learners to help them understand their own progress
+* **Εντοπίστε μαθητές με δυσκολίες** — Αναζητήστε μαθητές με χαμηλή εμπλοκή, πολλαπλές αποτυχημένες προσπάθειες ασκήσεων ή μη ολοκληρωμένες διαδρομές μάθησης
+* **Παρακολουθείτε την πρόοδο τακτικά** — Ελέγξτε τα δεδομένα παρακολούθησης εβδομαδιαίως για να εντοπίσετε προβλήματα έγκαιρα
+* **Χρησιμοποιήστε τα δεδομένα για ανατροφοδότηση** — Μοιραστείτε σχετικά δεδομένα παρακολούθησης με τους μαθητές για να τους βοηθήσετε να κατανοήσουν την πρόοδό τους

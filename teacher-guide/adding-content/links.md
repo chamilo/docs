@@ -1,43 +1,43 @@
-# Links
+# Σύνδεσμοι
 
-The links tool lets you share useful URLs with your learners, organized by category.
+Το εργαλείο Σύνδεσμοι σας επιτρέπει να μοιραστείτε χρήσιμες διευθύνσεις URL με τους μαθητές σας, οργανωμένες ανά κατηγορία.
 
-## Adding a Link
+## Προσθήκη Συνδέσμου
 
-1. Open the **Links** <img src="/.gitbook/assets/icons/mdi-link.svg" alt="Links" data-size="line"> tool from the course homepage
-2. Click **Add a link** <img src="/.gitbook/assets/icons/mdi-link-plus.svg" alt="Add link" data-size="line">
-3. Fill in the details:
-   * **URL** — The web address (e.g., `https://example.com/resource`)
-   * **Link name** — A descriptive name for the link
-   * **Description** — An optional explanation of what the resource is about
-   * **Category** — Assign the link to a category for organization
-   * **Target** — Where the link opens: `_self` (same window), `_blank` (new tab), `_parent`, or `_top`
-   * **Show link on course homepage** — Whether you want to show it as a tool icon on the course homepage
-4. Save
+1. Ανοίξτε το εργαλείο **Links** <img src="/.gitbook/assets/icons/mdi-link.svg" alt="Σύνδεσμοι" data-size="line"> από την αρχική σελίδα του μαθήματος
+2. Κάντε κλικ στο **Add a link** <img src="/.gitbook/assets/icons/mdi-link-plus.svg" alt="Προσθήκη συνδέσμου" data-size="line">
+3. Συμπληρώστε τις λεπτομέρειες:
+   * **URL** — Η διαδικτυακή διεύθυνση (π.χ., `https://example.com/resource`)
+   * **Link name** — Ένα περιγραφικό όνομα για τον σύνδεσμο
+   * **Description** — Μια προαιρετική εξήγηση για το περιεχόμενο του πόρου
+   * **Category** — Αντιστοιχίστε τον σύνδεσμο σε μια κατηγορία για οργάνωση
+   * **Target** — Πού ανοίγει ο σύνδεσμος: `_self` (ίδιο παράθυρο), `_blank` (νέα καρτέλα), `_parent`, ή `_top`
+   * **Show link on course homepage** — Εάν θέλετε να εμφανιστεί ως εικονίδιο εργαλείου στην αρχική σελίδα του μαθήματος
+4. Αποθήκευση
 
-## Organizing with Categories
+## Οργάνωση με Κατηγορίες
 
-Categories help you group related links together:
+Οι κατηγορίες σας βοηθούν να ομαδοποιήσετε σχετικούς συνδέσμους:
 
-1. Click **Add a category**
-2. Enter a **category name** and optional description
-3. Save
+1. Κάντε κλικ στο **Add a category**
+2. Εισαγάγετε ένα **όνομα κατηγορίας** και προαιρετική περιγραφή
+3. Αποθήκευση
 
-Links within a category are displayed together, making it easy for learners to find relevant resources.
+Οι σύνδεσμοι μέσα σε μια κατηγορία εμφανίζονται μαζί, διευκολύνοντας τους μαθητές να βρουν σχετικούς πόρους.
 
-## Managing Links
+## Διαχείριση Συνδέσμων
 
-* **Link checking** <img src="/.gitbook/assets/icons/mdi-check-circle.svg" alt="Validity" data-size="line">  — Chamilo can verify whether links are still active or broken
-* **Edit** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Edit" data-size="line"> — Update the link's URL, title, or description
-* **Visibility** <img src="/.gitbook/assets/icons/mdi-eye.svg" alt="Visibility" data-size="line"> — Hide or show the link to learners
-* **Delete** <img src="/.gitbook/assets/icons/mdi-delete.svg" alt="Delete" data-size="line"> — Remove the link
+* **Έλεγχος συνδέσμου** <img src="/.gitbook/assets/icons/mdi-check-circle.svg" alt="Εγκυρότητα" data-size="line">  — Το Chamilo μπορεί να ελέγξει αν οι σύνδεσμοι είναι ακόμα ενεργοί ή σπασμένοι
+* **Επεξεργασία** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Επεξεργασία" data-size="line"> — Ενημερώστε το URL, τον τίτλο ή την περιγραφή του συνδέσμου
+* **Ορατότητα** <img src="/.gitbook/assets/icons/mdi-eye.svg" alt="Ορατότητα" data-size="line"> — Εκκρύψτε ή εμφανίστε τον σύνδεσμο στους μαθητές
+* **Διαγραφή** <img src="/.gitbook/assets/icons/mdi-delete.svg" alt="Διαγραφή" data-size="line"> — Αφαιρέστε τον σύνδεσμο
 
-## Exporting Links
+## Εξαγωγή Συνδέσμων
 
-You can export your link collection to PDF. Look for the **Export** option in the links tool.
+Μπορείτε να εξάγετε τη συλλογή σας συνδέσμων σε μορφή PDF. Αναζητήστε την επιλογή **Export** στο εργαλείο συνδέσμων.
 
-## Tips
+## Συμβουλές
 
-* **Categorize by topic** — Create a category for each module or week of your course
-* **Add descriptions** — Help learners understand why a link is relevant before they click it
-* **Check regularly** — Web links can become outdated or broken over time
+* **Κατηγοριοποίηση ανά θέμα** — Δημιουργήστε μια κατηγορία για κάθε μονάδα ή εβδομάδα του μαθήματός σας
+* **Προσθήκη περιγραφών** — Βοηθήστε τους μαθητές να κατανοήσουν τη σημασία ενός συνδέσμου πριν τον κάνουν κλικ
+* **Τακτικός έλεγχος** — Οι διαδικτυακοί σύνδεσμοι μπορεί να παλιώσουν ή να σπάσουν με τον χρόνο

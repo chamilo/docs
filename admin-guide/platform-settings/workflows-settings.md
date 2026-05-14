@@ -1,196 +1,197 @@
-# Workflows Settings
+# Ρυθμίσεις Ροών Εργασιών
 
-Cross-cutting workflow toggles — course creation, enrollment validation, assignment workflows, and similar.
+Διατομεακές ενεργοποιήσεις ροών εργασιών — δημιουργία μαθήματος, έλεγχος εγγραφής, ροές εργασιών αναθέσεων και παρόμοια.
 
-Access these settings under **Administration > Configuration settings > Workflows**. This category contains **23 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+Πρόσβαση σε αυτές τις ρυθμίσεις κάτω από **Διαχείριση > Ρυθμίσεις διαμόρφωσης > Ροές Εργασιών**. Αυτή η κατηγορία περιέχει **23 ρυθμίσεις**, που παρατίθενται παρακάτω με τον τίτλο και το σχόλιο που παρέχονται στα fixtures των ρυθμίσεων της πλατφόρμας (`SettingsCurrentFixtures.php`).
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> Το όνομα της μεταβλητής στον κώδικα εμφανίζεται σε monospace. Χρησιμοποιήστε το κατά την προγραμματισμό μέσω του API ή όταν χρειάζεται να αλλάξετε αυτές τις ρυθμίσεις σε παγκόσμιο επίπεδο επεξεργαζόμενοι το [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
 
-## Settings
+## Ρυθμίσεις
 
 ### `allow_user_course_subscription_by_course_admin`
 
-**Allow User Course Subscription By Course Admininistrator**
+**Επιτρέψτε την Εγγραφή Χρηστών σε Μάθημα από Διαχειριστή Μαθήματος**
 
-Activate this option will allow course administrator to subscribe users inside a course
+Η ενεργοποίηση αυτής της επιλογής θα επιτρέψει στον διαχειριστή του μαθήματος να εγγράφει χρήστες μέσα σε ένα μάθημα
 
-*Default: `true`*
+*Προεπιλογή: `true`*
 
 
 ### `allow_users_to_create_courses`
 
-**Allow non admin to create courses**
+**Επιτρέψτε σε μη διαχειριστές να δημιουργούν μαθήματα**
 
-Allow non administrators (teachers) to create new courses on the server
+Επιτρέπει σε μη διαχειριστές (καθηγητές) να δημιουργούν νέα μαθήματα στον εξυπηρετητή
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 
 ### `allow_working_time_edition`
 
-**Enable edition of course work time**
+**Ενεργοποίηση επεξεργασίας χρόνου εργασίας μαθήματος**
 
-Enable this feature to let teachers manually update the time spent in the course by learners.
+Ενεργοποιήστε αυτή τη λειτουργία για να επιτρέψετε στους καθηγητές να ενημερώνουν χειροκίνητα τον χρόνο που πέρασαν οι μαθητές στο μάθημα.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 
 ### `course_visibility_change_only_admin`
 
-**Course visibility changes for admins only**
+**Αλλαγές ορατότητας μαθήματος μόνο για διαχειριστές**
 
-Remove the possibility for non-admins to change the course visibility. Visibility can be an issue when there are too many teachers to control directly. Forcing visibilities allows the organization to better manage courses catalogues.
+Αφαιρεί τη δυνατότητα στους μη διαχειριστές να αλλάζουν την ορατότητα του μαθήματος. Η ορατότητα μπορεί να αποτελέσει πρόβλημα όταν υπάρχουν πάρα πολλοί καθηγητές για άμεσο έλεγχο. Η επιβολή ορατότητας επιτρέπει στην οργάνωση να διαχειρίζεται καλύτερα τους καταλόγους μαθημάτων.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 
 ### `default_menu_entry_for_course_or_session`
 
-**Default menu entry for courses**
+**Προεπιλεγμένη είσοδος μενού για μαθήματα**
 
-Define the default sub-elements of the 'Courses' entry to display if user is not registered to any course nor session.
+Ορίστε τα προεπιλεγμένα υποστοιχεία της εισόδου 'Μαθήματα' που θα εμφανίζονται αν ο χρήστης δεν είναι εγγεγραμμένος σε κανένα μάθημα ή συνεδρία.
 
-*Default: `my_courses`*
+*Προεπιλογή: `my_courses`*
 
 
 ### `disable_user_conditions_sender_id`
 
-**Internal ID of the user used to send disabled account notifications**
+**Εσωτερικό Αναγνωριστικό του χρήστη που χρησιμοποιείται για αποστολή ειδοποιήσεων απενεργοποίησης λογαριασμού**
 
-Avoid being too personal with users by using a 'bot' account to send e-mails to users when their account is disabled for some reason.
+Αποφύγετε να είστε υπερβολικά προσωπικοί με τους χρήστες χρησιμοποιώντας λογαριασμό 'bot' για αποστολή email στους χρήστες όταν ο λογαριασμός τους απενεργοποιείται για κάποιο λόγο.
 
-*Default: `0`*
+*Προεπιλογή: `0`*
 
 
 ### `disabled_edit_session_coaches_course_editing_course`
 
-**Disable the ability to edit course coaches**
+**Απενεργοποίηση της δυνατότητας επεξεργασίας προπονητών μαθήματος συνεδρίας**
 
-When disabled, admins do not have a link to quickly assign coaches to session-courses on the course edition page.
+Όταν είναι απενεργοποιημένη, οι διαχειριστές δεν έχουν σύνδεσμο για γρήγορη ανάθεση προπονητών σε μαθήματα-συνεδρίας στη σελίδα επεξεργασίας μαθήματος.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 
 ### `drh_allow_access_to_all_students`
 
-**HRM can access all students from reporting pages**
+**Οι HRM μπορούν να έχουν πρόσβαση σε όλους τους μαθητές από σελίδες αναφορών**
 
-[inferred] Grant HR/DRH managers access to reporting pages for all learners across the platform.
+[inferred] Παραχωρείτε στους managers HR/DRH πρόσβαση σε σελίδες αναφορών για όλους τους μαθητές σε ολόκληρη την πλατφόρμα.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 
 ### `gamification_mode`
 
-**Gamification mode**
+**Λειτουργία Gamification**
 
-Activate the stars achievement in learning paths
+Ενεργοποιήστε την κατάκτηση αστεριών σε μονοπάτια μάθησης
 
 ### `go_to_course_after_login`
 
-**Go directly to the course after login**
+**Μετάβαση απευθείας στο μάθημα μετά την είσοδο**
 
-When a user is registered in one course, go directly to the course after login
+Όταν ένας χρήστης είναι εγγεγραμμένος σε ένα μάθημα, μεταβαίνει απευθείας στο μάθημα μετά την είσοδο
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 
 ### `load_term_conditions_section`
 
-**Load term conditions section**
+**Φόρτωση ενότητας όρων και προϋποθέσεων**
 
-The legal agreement will appear during the login or when enter to a course.
+Η νομική συμφωνία θα εμφανίζεται κατά την είσοδο ή κατά την είσοδο σε μάθημα.
 
-*Default: `login`*
+*Προεπιλογή: `login`*
 
 
 ### `multiple_url_hide_disabled_settings`
 
-**Hide disabled settings in sub-URLs**
+**Απόκρυψη απενεργοποιημένων ρυθμίσεων σε δευτερεύουσες URL**
 
-Set to yes to hide settings completely in a sub-URL if the setting is disabled in the main URL (where the access_url_changeable field = 0)
+Ορίστε σε ναι για να αποκρύψετε πλήρως τις ρυθμίσεις σε δευτερεύουσα URL αν η ρύθμιση είναι απενεργοποιημένη στην κύρια URL (όπου το πεδίο access_url_changeable = 0)
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 
 ### `plugin_redirection_enabled`
 
-**Enable redirection plugin**
+**Ενεργοποίηση προσθήκης ανακατεύθυνσης**
 
-Enable only if you are using the Redirection plugin
+Ενεργοποιήστε μόνο αν χρησιμοποιείτε την προσθήκη Redirection
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 
 ### `redirect_index_to_url_for_logged_users`
 
-**Redirect index.php to given URL for authenticated users**
+**Ανακατεύθυνση index.php σε συγκεκριμένη URL για πιστοποιημένους χρήστες**
 
-If you do not want to use the index page (announcements, popular courses, etc), you can define here the script (from the document root) where users will be redirected when trying to load the index.
+Αν δεν θέλετε να χρησιμοποιήσετε τη σελίδα index (ανακοινώσεις, δημοφιλή μαθήματα κ.λπ.), μπορείτε να ορίσετε εδώ το σενάριο (από τη ρίζα εγγράφων) όπου θα ανακατευθύνονται οι χρήστες όταν προσπαθούν να φορτώσουν το index.
 
 ### `send_all_emails_to`
 
-**Send all e-mails to**
+**Αποστολή όλων των email σε**
 
-Give a list of e-mail addresses to whom *all* e-mails sent from the platform will be sent. The e-mails are sent to these addresses as a visible destination.
+Δώστε μια λίστα διευθύνσεων email στις οποίες *όλα* τα email που αποστέλλονται από την πλατφόρμα θα σταλούν. Τα email αποστέλλονται σε αυτές τις διευθύνσεις ως ορατός προορισμός.
 
 ### `session_admin_user_subscription_search_extra_field_to_search`
 
-**Extra user field used to search and name sessions**
+**Επιπλέον πεδίο χρήστη που χρησιμοποιείται για αναζήτηση και ονομασία συνεδριών**
 
-This setting defines the extra user field key (e.g., "company") that will be used to search for users and to define the name of the session when registering students from /admin-dashboard/register.
+Αυτή η ρύθμιση ορίζει το κλειδί του επιπλέον πεδίου χρήστη (π.χ. "company") που θα χρησιμοποιηθεί για αναζήτηση χρηστών και για ορισμό του ονόματος της συνεδρίας κατά την εγγραφή μαθητών από /admin-dashboard/register.
 
 ### `teacher_can_select_course_template`
 
-**Teacher can select a course as template**
+**Ο καθηγητής μπορεί να επιλέξει μάθημα ως πρότυπο**
 
-Allow pick a course as template for the new course that teacher is creating
+Επιτρέπει την επιλογή μαθήματος ως προτύπου για το νέο μάθημα που δημιουργεί ο καθηγητής
 
-*Default: `true`*
+*Προεπιλογή: `true`*
 
 
 ### `update_student_expiration_x_date`
 
-**Set expiration date on first login**
+**Ορισμός ημερομηνίας λήξης στην πρώτη είσοδο**
 
-Array defining the 'days' and 'months' to set the account expiration date when the user first logs in.
+Πίνακας που ορίζει τις 'ημέρες' και 'μήνες' για τον ορισμό της ημερομηνίας λήξης του λογαριασμού όταν ο χρήστης συνδέεται για πρώτη φορά.
 
 ### `user_edition_extra_field_to_check`
 
-**Set an extra field as trigger for registration as ex-learner**
+**Ορισμός επιπλέον πεδίου ως σκανδάλου για εγγραφή ως πρώην μαθητή**
 
-Give an extra field label here. If this extra field is updated for any user, a process is triggered to check the access to this user to courses with the same given extra field.
+Δώστε εδώ την ετικέτα ενός επιπλέον πεδίου. Αν αυτό το επιπλέον πεδίο ενημερωθεί για οποιονδήποτε χρήστη, ενεργοποιείται μια διαδικασία ελέγχου της πρόσβασης αυτού του χρήστη σε μαθήματα με το ίδιο δεδομένο επιπλέον πεδίο.
 
+---
+
+---
 ### `user_number_of_days_for_default_expiration_date_per_role`
 
-**Default expiration days by role**
+**Ημερών λήξης προεπιλογής ανά ρόλο**
 
-An array of role => number which represents the number of days an account has before expiration, depending on the role.
+Ένας πίνακας της μορφής ρόλος => αριθμός που αντιπροσωπεύει τον αριθμό των ημερών που έχει ένας λογαριασμός πριν λήξει, ανάλογα με τον ρόλο.
 
 ### `usergroup_do_not_unsubscribe_users_from_course_nor_session_on_user_unsubscribe`
 
-**Disable user unsubscription from course/session on user unsubscription from group/class**
+**Απενεργοποίηση διαγραφής χρήστη από μάθημα/συνεδρία κατά τη διαγραφή από ομάδα/τάξη**
 
-[inferred] When removing a user from a group/class, do not automatically unsubscribe them from associated courses or sessions.
+[inferred] Κατά την αφαίρεση χρήστη από ομάδα/τάξη, μην τον διαγράφετε αυτόματα από τα σχετιζόμενα μαθήματα ή συνεδρίες.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 
 ### `usergroup_do_not_unsubscribe_users_from_course_on_course_unsubscribe`
 
-**Disable user unsubscription from course on course removal from group/class**
+**Απενεργοποίηση διαγραφής χρήστη από μάθημα κατά την αφαίρεση μαθήματος από ομάδα/τάξη**
 
-[inferred] When a course is removed from a group/class, do not automatically unsubscribe users from that course.
+[inferred] Κατά την αφαίρεση μαθήματος από ομάδα/τάξη, μην διαγράφετε αυτόματα χρήστες από αυτό το μάθημα.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 
 ### `usergroup_do_not_unsubscribe_users_from_session_on_session_unsubscribe`
 
-**Disable user unsubscription from session on session removal from group/class**
+**Απενεργοποίηση διαγραφής χρήστη από συνεδρία κατά την αφαίρεση συνεδρίας από ομάδα/τάξη**
 
-[inferred] When a session is removed from a group/class, do not automatically unsubscribe users from that session.
+[inferred] Κατά την αφαίρεση συνεδρίας από ομάδα/τάξη, μην διαγράφετε αυτόματα χρήστες από αυτή τη συνεδρία.
 
-*Default: `false`*
-
-
+*Προεπιλογή: `false`*

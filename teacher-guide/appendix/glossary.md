@@ -1,25 +1,25 @@
-# Glossary
+# Γλωσσάρι
 
-Key terms used throughout this guide.
+Κύριοι όροι που χρησιμοποιούνται σε αυτόν τον οδηγό.
 
-| Term | Definition |
-|------|-----------|
-| **Assessment** | See **Gradebook** below |
-| **Assignment** | A task where learners submit files or text for teacher review and grading. Also known as "student publication" or "work". |
-| **Auto-launch** | A feature that automatically opens a specific tool when a learner enters a course. |
-| **Certificate** | A document automatically generated when a learner meets the minimum score defined in the gradebook. |
-| **Course** | A container for learning content and tools. A course can include documents, exercises, forums, learning paths, and more. |
-| **Course coach** | A teacher role specific to sessions. A course coach manages one course within a session. |
-| **Disk quota** | The maximum storage space allocated to a course for uploaded files. |
-| **Enrollment** | The process of registering a user in a course or session, giving them access to its content. Also known as "subscription". |
-| **Exercise** | A quiz or test containing one or more questions. Also referred to as a "test" in some contexts. |
-| **Forum** | A discussion tool with threaded conversations organized into categories and topics. |
-| **Gradebook** | A tool that aggregates scores from exercises, assignments, and other activities into a unified grade for each learner. |
-| **Learning path** | A structured sequence of learning activities (documents, exercises, links) that learners follow in a defined order, optionally with prerequisites. |
-| **LTI** | Learning Tools Interoperability — a standard that allows external learning tools to be embedded within Chamilo. |
-| **SCORM** | Sharable Content Object Reference Model — a standard for e-learning content packages. Chamilo can import and play SCORM packages within learning paths. |
-| **Session** | A time-bound edition of one or more courses assigned to a specific group of learners. Sessions allow reusing the same course content for different cohorts. |
-| **Session coach** | A supervisory role that oversees all courses within a session. |
-| **Skill** | A competency that can be linked to gradebook achievements. When a learner earns a certificate, associated skills are validated. |
-| **Survey** | A questionnaire tool for collecting feedback, with various question types and anonymous response options. |
-| **Visibility** | A setting that controls whether a tool, document, or activity is visible to learners. Teachers can always see hidden items. |
+| Όρος | Ορισμός |
+|------|---------|
+| **Assessment** | Δείτε **Gradebook** παρακάτω |
+| **Assignment** | Μια εργασία όπου οι μαθητές υποβάλλουν αρχεία ή κείμενο για έλεγχο και βαθμολόγηση από τον διδάσκοντα. Επίσης γνωστή ως "δημοσίευση μαθητή" ή "εργασία". |
+| **Auto-launch** | Ένα χαρακτηριστικό που ανοίγει αυτόματα ένα συγκεκριμένο εργαλείο όταν ο μαθητής εισέρχεται σε ένα μάθημα. |
+| **Certificate** | Ένα έγγραφο που παράγεται αυτόματα όταν ο μαθητής επιτυγχάνει τον ελάχιστο βαθμό που ορίζεται στο gradebook. |
+| **Course** | Ένας δοχείος για περιεχόμενο μάθησης και εργαλεία. Ένα μάθημα μπορεί να περιλαμβάνει έγγραφα, ασκήσεις, φόρουμ, μονοπάτια μάθησης και άλλα. |
+| **Course coach** | Ένας ρόλος διδάσκοντα ειδικός για συνεδρίες. Ένας course coach διαχειρίζεται ένα μάθημα μέσα σε μια συνεδρία. |
+| **Disk quota** | Ο μέγιστος χώρος αποθήκευσης που διατίθεται σε ένα μάθημα για ανεβασμένα αρχεία. |
+| **Enrollment** | Η διαδικασία εγγραφής ενός χρήστη σε ένα μάθημα ή συνεδρία, δίνοντάς του πρόσβαση στο περιεχόμενό του. Επίσης γνωστή ως "εγγραφή". |
+| **Exercise** | Ένα κουίζ ή τεστ που περιέχει μία ή περισσότερες ερωτήσεις. Επίσης αναφέρεται ως "τεστ" σε ορισμένα πλαίσια. |
+| **Forum** | Ένα εργαλείο συζήτησης με διακλαδωμένες συνομιλίες οργανωμένες σε κατηγορίες και θέματα. |
+| **Gradebook** | Ένα εργαλείο που συγκεντρώνει βαθμούς από ασκήσεις, εργασίες και άλλες δραστηριότητες σε έναν ενιαίο βαθμό για κάθε μαθητή. |
+| **Learning path** | Μια δομημένη ακολουθία δραστηριοτήτων μάθησης (έγγραφα, ασκήσεις, συνδέσμοι) που οι μαθητές ακολουθούν σε καθορισμένη σειρά, προαιρετικά με προαπαιτούμενα. |
+| **LTI** | Learning Tools Interoperability — ένα πρότυπο που επιτρέπει σε εξωτερικά εργαλεία μάθησης να ενσωματώνονται στο Chamilo. |
+| **SCORM** | Sharable Content Object Reference Model — ένα πρότυπο για πακέτα περιεχομένου ηλεκτρονικής μάθησης. Το Chamilo μπορεί να εισάγει και να παίζει πακέτα SCORM μέσα σε learning paths. |
+| **Session** | Μια χρονικά περιορισμένη έκδοση ενός ή περισσότερων μαθημάτων που ανατίθεται σε συγκεκριμένη ομάδα μαθητών. Οι συνεδρίες επιτρέπουν την επαναχρησιμοποίηση του ίδιου περιεχομένου μαθήματος για διαφορετικά σύνολα. |
+| **Session coach** | Ένας εποπτικός ρόλος που επιβλέπει όλα τα μαθήματα μέσα σε μια συνεδρία. |
+| **Skill** | Μια δεξιότητα που μπορεί να συνδεθεί με επιτεύγματα του gradebook. Όταν ένας μαθητής αποκτά πιστοποιητικό, οι σχετικές δεξιότητες επικυρώνονται. |
+| **Survey** | Ένα εργαλείο ερωτηματολογίου για συλλογή ανατροφοδότησης, με διάφορους τύπους ερωτήσεων και επιλογές ανώνυμης απάντησης. |
+| **Visibility** | Μια ρύθμιση που ελέγχει αν ένα εργαλείο, έγγραφο ή δραστηριότητα είναι ορατό στους μαθητές. Οι διδάσκοντες μπορούν πάντα να βλέπουν κρυμμένα αντικείμενα. |

@@ -1,571 +1,574 @@
-# Sessions Settings
+# Ρυθμίσεις Συνεδριών
 
-Defaults and behaviour for **Sessions** — session lifecycle, coach access windows, course visibility within a session, and similar.
+Προεπιλογές και συμπεριφορά για τις **Sessions** — κύκλος ζωής συνεδρίας, παράθυρα πρόσβασης εκπαιδευτή, ορατότητα μαθήματος εντός συνεδρίας, και παρόμοια.
 
-Access these settings under **Administration > Configuration settings > Sessions**. This category contains **68 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+Πρόσβαση σε αυτές τις ρυθμίσεις στο **Administration > Configuration settings > Sessions**. Αυτή η κατηγορία περιέχει **68 ρυθμίσεις**, που παρατίθενται παρακάτω με τον τίτλο και το σχόλιο που παρέχονται στα fixtures των ρυθμίσεων της πλατφόρμας (`SettingsCurrentFixtures.php`).
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> Το όνομα της μεταβλητής στον κώδικα εμφανίζεται σε monospace. Χρησιμοποιήστε το κατά την προγραμματισμό μέσω API ή όταν χρειάζεται να αλλάξετε αυτές τις ρυθμίσεις σε παγκόσμιο επίπεδο επεξεργαζόμενοι το [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
 
-## Settings
+## Ρυθμίσεις
 
 ### `add_users_by_coach`
 
-**Register users by Coach**
+**Εγγραφή χρηστών από Εκπαιδευτή**
 
-Coach users may create users to the platform and subscribe users to a session.
+Οι χρήστες Coach μπορούν να δημιουργούν χρήστες στην πλατφόρμα και να τους εγγράφουν σε μια session.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 ### `allow_career_diagram`
 
-**Enable career diagrams**
+**Ενεργοποίηση διαγραμμάτων καριέρας**
 
-Career diagrams allow you to display diagrams of careers, skills and courses.
+Τα διαγράμματα καριέρας επιτρέπουν την εμφάνιση διαγραμμάτων καριέρων, δεξιοτήτων και μαθημάτων.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 
 ### `allow_career_users`
 
-**Enable career diagrams for users**
+**Ενεργοποίηση διαγραμμάτων καριέρας για χρήστες**
 
-If career diagrams are enabled, users can only see them (and only the diagrams that correspond to their studies) if you enable this option.
+Εάν τα διαγράμματα καριέρας είναι ενεργοποιημένα, οι χρήστες μπορούν να τα δουν (και μόνο τα διαγράμματα που αντιστοιχούν στις σπουδές τους) εάν ενεργοποιήσετε αυτή την επιλογή.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 ### `allow_coach_to_edit_course_session`
 
-**Allow coaches to edit inside course sessions**
+**Επιτρέψτε στους εκπαιδευτές να επεξεργάζονται εντός συνεδριών μαθήματος**
 
-Allow coaches to edit inside course sessions
+Επιτρέψτε στους εκπαιδευτές να επεξεργάζονται εντός συνεδριών μαθήματος
 
-*Default: `true`*
+*Προεπιλογή: `true`*
 
 ### `allow_delete_user_for_session_admin`
 
-**Session admins can delete users**
+**Οι διαχειριστές συνεδρίας μπορούν να διαγράφουν χρήστες**
 
-Session administrators can remove users from the platform when managing their session(s).
+Οι διαχειριστές συνεδρίας μπορούν να αφαιρούν χρήστες από την πλατφόρμα κατά τη διαχείριση των συνεδριών τους.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 
 ### `allow_disable_user_for_session_admin`
 
-**Session admins can disable users**
+**Οι διαχειριστές συνεδρίας μπορούν να απενεργοποιούν χρήστες**
 
-Session administrators can disable user accounts to prevent login while retaining enrollment records in their session(s).
+Οι διαχειριστές συνεδρίας μπορούν να απενεργοποιούν λογαριασμούς χρηστών για να εμποδίσουν τη σύνδεση διατηρώντας τα αρχεία εγγραφής στις συνεδρίες τους.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 
 ### `allow_edit_tool_visibility_in_session`
 
-**Allow tool visibility edition in sessions**
+**Επιτρέψτε την επεξεργασία ορατότητας εργαλείων σε συνεδρίες**
 
-When using sessions, the default behaviour is to use the tool visibility defined in the base course. This setting changes that to allow coaches in session courses to adapt tool visibilities to their needs.
+Όταν χρησιμοποιούνται sessions, η προεπιλεγμένη συμπεριφορά είναι να χρησιμοποιείται η ορατότητα εργαλείων που ορίζεται στο βασικό μάθημα. Αυτή η ρύθμιση αλλάζει αυτό επιτρέποντας στους εκπαιδευτές στα μαθήματα συνεδρίας να προσαρμόζουν τις ορατότητες εργαλείων στις ανάγκες τους.
 
-*Default: `true`*
+*Προεπιλογή: `true`*
 
 ### `allow_redirect_to_session_after_inscription_about`
 
-**Redirect to session after registration in session's 'About' page**
+**Ανακατεύθυνση στη συνεδρία μετά την εγγραφή στη σελίδα 'About' της συνεδρίας**
 
-Automatically redirect new users to their session page after they complete registration through a session's About page.
+Αυτόματη ανακατεύθυνση νέων χρηστών στη σελίδα της συνεδρίας τους μετά την ολοκλήρωση της εγγραφής μέσω της σελίδας About μιας συνεδρίας.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 
 ### `allow_search_diagnostic`
 
-**Enable sessions search diagnosis**
+**Ενεργοποίηση διάγνωσης αναζήτησης συνεδριών**
 
-Allow tutors to get a diagnosis that will allow them to search for the best sessions for learners.
+Επιτρέψτε στους επιβλέποντες να λαμβάνουν μια διάγνωση που θα τους επιτρέψει να αναζητούν τις καλύτερες συνεδρίες για τους μαθητές.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 
 ### `allow_session_admin_extra_access`
 
-**Session admin can access batch user import, update and export**
+**Οι διαχειριστές συνεδρίας μπορούν να έχουν πρόσβαση σε μαζική εισαγωγή, ενημέρωση και εξαγωγή χρηστών**
 
-Session administrators can access batch user import, update, and export functionality in addition to their standard permissions.
+Οι διαχειριστές συνεδρίας μπορούν να έχουν πρόσβαση στη λειτουργικότητα μαζικής εισαγωγής, ενημέρωσης και εξαγωγής χρηστών πέρα από τις τυπικές τους άδειες.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 
 ### `allow_session_admin_login_as_teacher`
 
-**Session admins can 'login as' teachers**
+**Οι διαχειριστές συνεδρίας μπορούν να 'συνδεθούν ως' εκπαιδευτές**
 
-Session administrators can impersonate teacher accounts to preview course content and student experience within their session(s).
+Οι διαχειριστές συνεδρίας μπορούν να προσποιούνται λογαριασμούς εκπαιδευτών για να προεπισκοπούν περιεχόμενο μαθήματος και την εμπειρία μαθητή εντός των συνεδριών τους.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 
 ### `allow_session_admin_read_careers`
 
-**Session admins can view careers**
+**Οι διαχειριστές συνεδρίας μπορούν να βλέπουν καριέρες**
 
-[inferred] Session administrators can view and access career paths and promotion workflows linked to their managed sessions.
+[inferred] Οι διαχειριστές συνεδρίας μπορούν να βλέπουν και να έχουν πρόσβαση σε μονοπάτια καριέρας και ροές προαγωγής συνδεδεμένες με τις συνεδρίες που διαχειρίζονται.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 
 ### `allow_session_admins_to_manage_all_sessions`
 
-**Allow session administrators to see all sessions**
+**Επιτρέψτε στους διαχειριστές συνεδρίας να βλέπουν όλες τις συνεδρίες**
 
-When this option is not enabled (default), session administrators can only see the sessions they have created. This is confusing in an open environment where session administrators might need to share support time between two sessions.
+Όταν αυτή η επιλογή δεν είναι ενεργοποιημένη (προεπιλογή), οι διαχειριστές συνεδρίας μπορούν να βλέπουν μόνο τις συνεδρίες που έχουν δημιουργήσει. Αυτό είναι μπερδευτικό σε ένα ανοιχτό περιβάλλον όπου οι διαχειριστές συνεδρίας μπορεί να χρειάζεται να μοιράζονται χρόνο υποστήριξης μεταξύ δύο συνεδριών.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 ### `allow_session_course_copy_for_teachers`
 
-**Allow session-to-session copy for teachers**
+**Επιτρέψτε αντιγραφή από συνεδρία σε συνεδρία για εκπαιδευτές**
 
-Enable this option to let teachers copy their content from one course in a session to a course in another session. By default, this option is only available to platform administrators.
+Ενεργοποιήστε αυτή την επιλογή για να επιτρέψετε στους εκπαιδευτές να αντιγράφουν το περιεχόμενό τους από ένα μάθημα σε μια συνεδρία σε ένα μάθημα σε άλλη συνεδρία. Στην προεπιλογή, αυτή η επιλογή είναι διαθέσιμη μόνο στους διαχειριστές πλατφόρμας.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 ### `allow_teachers_to_create_sessions`
 
-**Allow teachers to create sessions**
+**Επιτρέψτε στους εκπαιδευτές να δημιουργούν συνεδρίες**
 
-Teachers can create, edit and delete their own sessions.
+Οι εκπαιδευτές μπορούν να δημιουργούν, να επεξεργάζονται και να διαγράφουν τις δικές τους συνεδρίες.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 ### `allow_tutors_to_assign_students_to_session`
 
-**Tutors can assign students to sessions**
+**Οι επιβλέποντες μπορούν να εκχωρούν μαθητές σε συνεδρίες**
 
-When enabled, course coaches/tutors in sessions can subscribe new users to their session. This option is otherwise only available to administrators and session administrators.
+Όταν ενεργοποιηθεί, οι εκπαιδευτές/επιβλέποντες μαθήματος σε συνεδρίες μπορούν να εγγράφουν νέους χρήστες στη συνεδρία τους. Αυτή η επιλογή είναι διαφορετικά διαθέσιμη μόνο σε διαχειριστές και διαχειριστές συνεδρίας.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 ### `allow_user_session_collapsable`
 
-**Allow user to collapse sessions in My sessions**
+**Επιτρέψτε στον χρήστη να συρρικνώσει συνεδρίες στις Οι συνεδρίες μου**
 
-Users can collapse session cards or groups in the My sessions page to reduce visual clutter and improve navigation.
+Οι χρήστες μπορούν να συρρικνώνουν κάρτες ή ομάδες συνεδριών στη σελίδα Οι συνεδρίες μου για να μειώσουν την οπτική ακαταστασία και να βελτιώσουν την πλοήγηση.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 
 ### `assignment_base_course_teacher_access_to_all_session`
 
-**Base course teacher can see assignments from all sessions**
+**Ο εκπαιδευτής βασικού μαθήματος μπορεί να βλέπει εργασίες από όλες τις συνεδρίες**
 
-Show all learner publications (from base course and from all sessions) in the work/pending.php page of the base course.
+Εμφανίστε όλες τις δημοσιεύσεις μαθητών (από βασικό μάθημα και από όλες τις συνεδρίες) στη σελίδα work/pending.php του βασικού μαθήματος.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
+---
 ### `career_diagram_disclaimer`
 
-**Display a disclaimer below the career diagram**
+**Εμφάνιση αποποίησης ευθύνης κάτω από το διάγραμμα καριέρας**
 
-Add a disclaimer below the career diagram. A language variable called 'Career diagram disclaimer' must exist in your sub-language.
+Προσθέστε μια αποποίηση ευθύνης κάτω από το διάγραμμα καριέρας. Πρέπει να υπάρχει μια μεταβλητή γλώσσας με το όνομα 'Career diagram disclaimer' στη δευτερογλώσσα σας.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 ### `career_diagram_legend`
 
-**Display a legend below the career diagram**
+**Εμφάνιση λεζάντας κάτω από το διάγραμμα καριέρας**
 
-Add a career legend below the career diagram. A language variable called 'Career diagram legend' must exist in your sub-language.
+Προσθέστε μια λεζάντα καριέρας κάτω από το διάγραμμα καριέρας. Πρέπει να υπάρχει μια μεταβλητή γλώσσας με το όνομα 'Career diagram legend' στη δευτερογλώσσα σας.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 ### `courses_list_session_title_link`
 
-**Type of link for the session title**
+**Τύπος συνδέσμου για τον τίτλο της συνεδρίας**
 
-On the courses/sessions page, the session title can be either of the following : 0 = no link (hide session title) ; 1 = link title to a special session page ; 2 = link to the course if there is only one course ; 3 = session title makes the courses list foldable ; 4 = no link (show session title).
+Στη σελίδα μαθημάτων/συνεδριών, ο τίτλος της συνεδρίας μπορεί να είναι ένας από τους εξής: 0 = χωρίς σύνδεσμο (απόκρυψη τίτλου συνεδρίας) ; 1 = σύνδεση τίτλου σε ειδική σελίδα συνεδρίας ; 2 = σύνδεση στο μάθημα αν υπάρχει μόνο ένα μάθημα ; 3 = ο τίτλος της συνεδρίας καθιστά αναδιπλούμενη τη λίστα μαθημάτων ; 4 = χωρίς σύνδεσμο (εμφάνιση τίτλου συνεδρίας).
 
-*Default: `1`*
+*Προεπιλογή: `1`*
 
 ### `default_session_list_view`
 
-**Default sessions list view**
+**Προεπιλεγμένη προβολή λίστας συνεδριών**
 
-Select the default tab you want to see when opening the sessions list as admin.
+Επιλέξτε την προεπιλεγμένη καρτέλα που θέλετε να βλέπετε κατά το άνοιγμα της λίστας συνεδριών ως διαχειριστής.
 
-*Default: `all`*
+*Προεπιλογή: `all`*
 
 
 ### `drh_can_access_all_session_content`
 
-**HR directors access all session content**
+**Οι διευθυντές Ανθρώπινου Δυναμικού έχουν πρόσβαση σε όλο το περιεχόμενο της συνεδρίας**
 
-If enabled, human resources directors will get access to all content and users from the sessions (s)he follows.
+Αν είναι ενεργοποιημένο, οι διευθυντές ανθρώπινων πόρων θα έχουν πρόσβαση σε όλο το περιεχόμενο και τους χρήστες από τις συνεδρίες που παρακολουθεί.
 
-*Default: `true`*
+*Προεπιλογή: `true`*
 
 ### `duplicate_specific_session_content_on_session_copy`
 
-**Enable the copy of session-specific content to another session**
+**Ενεργοποίηση αντιγραφής περιεχομένου ειδικού για τη συνεδρία σε άλλη συνεδρία**
 
-Allows duplication of resources that were created in the session when duplicating the session.
+Επιτρέπει την αντιγραφή πόρων που δημιουργήθηκαν στη συνεδρία κατά την αντιγραφή της συνεδρίας.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 
 ### `email_template_subscription_to_session_confirmation_lost_password`
 
-**Add reset password link to e-mail notification of subscription to session**
+**Προσθήκη συνδέσμου επαναφοράς κωδικού πρόσβασης στην ειδοποίηση email εγγραφής σε συνεδρία**
 
-Include a password reset link in subscription confirmation emails sent to users when they are enrolled in a session.
+Περιλάβετε έναν σύνδεσμο επαναφοράς κωδικού πρόσβασης στα email επιβεβαίωσης εγγραφής που αποστέλλονται στους χρήστες όταν εγγράφονται σε μια συνεδρία.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 
 ### `email_template_subscription_to_session_confirmation_username`
 
-**Add username to e-mail notification of subscription to session**
+**Προσθήκη ονόματος χρήστη στην ειδοποίηση email εγγραφής σε συνεδρία**
 
-Include the user's username in subscription confirmation emails sent when they are enrolled in a session.
+Περιλάβετε το όνομα χρήστη του χρήστη στα email επιβεβαίωσης εγγραφής που αποστέλλονται όταν εγγράφονται σε μια συνεδρία.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 
 ### `enable_auto_reinscription`
 
-**Enable Automatic Reinscription**
+**Ενεργοποίηση Αυτόματης Επανεγγραφής**
 
-Enable or disable automatic reinscription when course validity expires. The related cron job must also be activated.
+Ενεργοποιήστε ή απενεργοποιήστε την αυτόματη επανεγγραφή όταν λήξει η ισχύς του μαθήματος. Η σχετική εργασία cron πρέπει επίσης να είναι ενεργοποιημένη.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 
 ### `enable_session_replication`
 
-**Enable Session Replication**
+**Ενεργοποίηση Αντιγραφής Συνεδρίας**
 
-Enable or disable automatic session replication. The related cron job must also be activated.
+Ενεργοποιήστε ή απενεργοποιήστε την αυτόματη αντιγραφή συνεδρίας. Η σχετική εργασία cron πρέπει επίσης να είναι ενεργοποιημένη.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 
 ### `extend_rights_for_coach`
 
-**Extend rights for coach**
+**Επέκταση δικαιωμάτων για τον coach**
 
-Activate this option will give the coach the same permissions as the trainer on authoring tools
+Η ενεργοποίηση αυτής της επιλογής θα δώσει στον coach τα ίδια δικαιώματα με τον trainer στα εργαλεία συγγραφής.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 ### `hide_courses_in_sessions`
 
-**Hide courses list in sessions**
+**Απόκρυψη λίστας μαθημάτων στις συνεδρίες**
 
-When showing the session block in your courses page, hide the list of courses inside that session (only show them inside the specific session screen).
+Κατά την εμφάνιση του μπλοκ συνεδρίας στη σελίδα μαθημάτων σας, αποκρύψτε τη λίστα μαθημάτων μέσα σε αυτή τη συνεδρία (εμφανίστε τα μόνο μέσα στην ειδική οθόνη συνεδρίας).
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 ### `hide_reporting_session_list`
 
-**Hide sessions list in reporting tool**
+**Απόκρυψη λίστας συνεδριών στο εργαλείο αναφορών**
 
-Sessions that include the course are listed in the reporting tool inside the course itself, which can add considerable weight if the same course is used in hundreds of sessions. This option removes that list.
+Οι συνεδρίες που περιλαμβάνουν το μάθημα παρατίθενται στο εργαλείο αναφορών μέσα στο ίδιο το μάθημα, κάτι που μπορεί να προσθέσει σημαντικό βάρος αν το ίδιο μάθημα χρησιμοποιείται σε εκατοντάδες συνεδρίες. Αυτή η επιλογή αφαιρεί αυτή τη λίστα.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 
 ### `hide_search_form_in_session_list`
 
-**Hide search form in sessions list**
+**Απόκρυψη φόρμας αναζήτησης στη λίστα συνεδριών**
 
-Remove the search input field from the session list view in the administration interface.
+Αφαιρέστε το πεδίο εισαγωγής αναζήτησης από την προβολή λίστας συνεδριών στη διεπαφή διαχείρισης.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 
 ### `hide_session_graph_in_my_progress`
 
-**Hide session chart in My progress**
+**Απόκρυψη γραφήματος συνεδρίας στη σελίδα My progress**
 
-Conceal session progress charts and visualizations from the My progress page in learner dashboards.
+Αποκρύψτε τα γραφήματα και οπτικοποιήσεις προόδου συνεδρίας από τη σελίδα My progress στα ταμπλό ελέγχου των μαθητών.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 
 ### `hide_tab_list`
 
-**Hide tabs on the session page**
+**Απόκρυψη καρτελών στη σελίδα συνεδρίας**
 
-Remove navigation tabs from the session detail page to simplify the interface.
+Αφαιρέστε τις καρτέλες πλοήγησης από τη σελίδα λεπτομερειών συνεδρίας για να απλοποιήσετε τη διεπαφή.
 
 ### `limit_session_admin_list_users`
 
-**Session admins are forbidden access to the users list**
+**Οι διαχειριστές συνεδρίας απαγορεύεται η πρόσβαση στη λίστα χρηστών**
 
-Prevent session administrators from accessing the global users list in the administration interface.
+Εμποδίστε τους διαχειριστές συνεδρίας από την πρόσβαση στη γενική λίστα χρηστών στη διεπαφή διαχείρισης.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 
 ### `limit_session_admin_role`
 
-**Limit session admins permissions**
+**Περιορισμός δικαιωμάτων διαχειριστών συνεδρίας**
 
-If enabled, the session administrators will only see the User block with the 'Add user' option and the Sessions block with the 'Sessions list' option.
+Αν είναι ενεργοποιημένο, οι διαχειριστές συνεδρίας θα βλέπουν μόνο το μπλοκ Χρήστης με την επιλογή 'Add user' και το μπλοκ Συνεδρίες με την επιλογή 'Sessions list'.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 ### `my_courses_session_order`
 
-**Change the default sorting of session in My sessions**
+**Αλλαγή της προεπιλεγμένης ταξινόμησης συνεδριών στις My sessions**
 
-By default, sessions are ordered by start date. Change this by providing an array of type ['field' => 'end_date', 'order' => 'desc'].
+Κατ' αρχήν, οι συνεδρίες ταξινομούνται κατά ημερομηνία έναρξης. Αλλάξτε το παρέχοντας έναν πίνακα τύπου ['field' => 'end_date', 'order' => 'desc'].
 
 ### `my_courses_view_by_session`
 
-**View my courses by session**
+**Προβολή μαθημάτων μου ανά συνεδρία**
 
-Enable an additional 'My courses' page where sessions appear as part of courses, rather than the opposite.
+Ενεργοποιήστε μια επιπλέον σελίδα 'My courses' όπου οι συνεδρίες εμφανίζονται ως μέρος των μαθημάτων, αντίθετα με το αντίστροφο.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 ### `my_progress_session_show_all_courses`
 
-**My progress: show course details in session**
+**My progress: εμφάνιση λεπτομερειών μαθήματος στη συνεδρία**
 
-Display all details of each course in session when clicking on session details.
+Εμφανίστε όλες τις λεπτομέρειες κάθε μαθήματος στη συνεδρία όταν κάνετε κλικ στις λεπτομέρειες συνεδρίας.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 
 ### `prevent_session_admins_to_manage_all_users`
 
-**Prevent session admins to manage all users**
+**Απαγόρευση στους διαχειριστές συνεδρίας να διαχειρίζονται όλους τους χρήστες**
 
-By enabling this option, session admins will only be able to see, in the administration page, the users they created.
+Ενεργοποιώντας αυτή την επιλογή, οι διαχειριστές συνεδρίας θα μπορούν να βλέπουν μόνο στη σελίδα διαχείρισης τους χρήστες που δημιούργησαν.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
+---
 ### `remove_session_url`
 
-**Hide link to session page**
+**Απόκρυψη συνδέσμου στη σελίδα συνεδρίας**
 
-Hide link to the session page from the sessions list.
+Απόκρυψη του συνδέσμου προς τη σελίδα της συνεδρίας από τη λίστα συνεδριών.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 
 ### `session_admins_access_all_content`
 
-**Session admins can access all course content**
+**Οι διαχειριστές συνεδρίας μπορούν να έχουν πρόσβαση σε όλο το περιεχόμενο μαθήματος**
 
-Session administrators can view all course content within their sessions, including restricted or archived materials.
+Οι διαχειριστές συνεδρίας μπορούν να προβάλλουν όλο το περιεχόμενο μαθήματος εντός των συνεδριών τους, συμπεριλαμβανομένων υλικών με περιορισμούς ή αρχειοθετημένων.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 ### `session_admins_edit_courses_content`
 
-**Session admins can edit course content**
+**Οι διαχειριστές συνεδρίας μπορούν να επεξεργάζονται το περιεχόμενο μαθήματος**
 
-Session administrators can modify course content (documents, exercises, tools) in courses assigned to their sessions.
+Οι διαχειριστές συνεδρίας μπορούν να τροποποιούν το περιεχόμενο μαθήματος (έγγραφα, ασκήσεις, εργαλεία) σε μαθήματα που έχουν ανατεθεί στις συνεδρίες τους.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 ### `session_automatic_creation_user_id`
 
-**Auto-created session's creator ID**
+**Ταυτότητα δημιουργού αυτόματης συνεδρίας**
 
-Set the user to use as creator of the automatically-created sessions (to avoid assigning every session to user '1' which is often the portal administrator).
+Ορίστε τον χρήστη που θα χρησιμοποιηθεί ως δημιουργός των αυτόματα δημιουργούμενων συνεδριών (για να αποφευχθεί η ανάθεση κάθε συνεδρίας στον χρήστη '1' που είναι συχνά ο διαχειριστής του portal).
 
-*Default: `1`*
+*Προεπιλογή: `1`*
 
 
 ### `session_classes_tab_disable`
 
-**Disable add class in session course for non-admin**
+**Απενεργοποίηση προσθήκης τάξης σε μάθημα συνεδρίας για μη διαχειριστές**
 
-Disable tab to add classes in session course for non-admins.
+Απενεργοποίηση καρτέλας για προσθήκη τάξεων σε μάθημα συνεδρίας για μη διαχειριστές.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 
 ### `session_coach_access_after_duration_end`
 
-**Sessions by duration always available to coaches**
+**Οι συνεδρίες βάσει διάρκειας πάντα διαθέσιμες στους εκπαιδευτές**
 
-Otherwise, session coaches only have access to sessions by duration during the active duration.
+Διαφορετικά, οι εκπαιδευτές συνεδρίας έχουν πρόσβαση σε συνεδρίες βάσει διάρκειας μόνο κατά τη διάρκεια της ενεργής περιόδου.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 
 ### `session_course_ordering`
 
-**Session courses manual ordering**
+**Χειροκίνητη ταξινόμηση μαθημάτων συνεδρίας**
 
-Enable this option to allow the session administrators to order the courses inside a session manually. If disabled, courses are ordered alphabetically on course title.
+Ενεργοποιήστε αυτή την επιλογή για να επιτρέψετε στους διαχειριστές συνεδρίας να ταξινομούν χειροκίνητα τα μαθήματα μέσα σε μια συνεδρία. Αν είναι απενεργοποιημένη, τα μαθήματα ταξινομούνται αλφαβητικά βάσει του τίτλου του μαθήματος.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 ### `session_course_users_subscription_limited_to_session_users`
 
-**Limit subscriptions to course to only users of the session**
+**Περιορισμός εγγραφών σε μάθημα μόνο σε χρήστες της συνεδρίας**
 
-Restrict the list of students to subscribe in the course session. And disable registration for users in all courses from Resume Session page.
+Περιορισμός της λίστας μαθητών που μπορούν να εγγραφούν στο μάθημα της συνεδρίας. Και απενεργοποίηση εγγραφής χρηστών σε όλα τα μαθήματα από τη σελίδα Συνέχιση Συνεδρίας.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 
 ### `session_courses_read_only_mode`
 
-**Set course read-only in session**
+**Ορισμός μαθήματος σε κατάσταση μόνο για ανάγνωση σε συνεδρία**
 
-Let teachers set some courses in read-only mode when opened through sessions. In the course properties, check the 'Lock course in session' option.
+Επιτρέπει στους διδάσκοντες να ορίζουν ορισμένα μαθήματα σε κατάσταση μόνο για ανάγνωση όταν ανοίγονται μέσω συνεδριών. Στις ιδιότητες του μαθήματος, ελέγξτε την επιλογή 'Κλείδωμα μαθήματος σε συνεδρία'.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 
 ### `session_creation_form_set_extra_fields_mandatory`
 
-**Set mandatory extra fields in session creation form**
+**Ορισμός υποχρεωτικών επιπλέον πεδίων στη φόρμα δημιουργίας συνεδρίας**
 
-Require the listed fields during session creation.
+Απαίτηση των αναφερόμενων πεδίων κατά τη δημιουργία συνεδρίας.
 
 ### `session_creation_user_course_extra_field_relation_to_prefill`
 
-**Pre-fill session fields with user fields**
+**Προκατάληψη πεδίων συνεδρίας με πεδία χρήστη**
 
-Array of relationships between user extra fields and session extra fields, so the session can be pre-filled with data matching the user's data.
+Πίνακας σχέσεων μεταξύ επιπλέον πεδίων χρήστη και επιπλέον πεδίων συνεδρίας, ώστε η συνεδρία να προκατατίθεται με δεδομένα που ταιριάζουν με τα δεδομένα του χρήστη.
 
 ### `session_days_after_coach_access`
 
-**Default coach access days after session**
+**Προεπιλεγμένες ημέρες πρόσβασης εκπαιδευτή μετά τη συνεδρία**
 
-Default number of days a coach can access his session after the official session end date
+Προεπιλεγμένος αριθμός ημερών που μπορεί να έχει πρόσβαση ο εκπαιδευτής στη συνεδρία του μετά την επίσημη ημερομηνία λήξης της συνεδρίας
 
 ### `session_days_before_coach_access`
 
-**Default coach access days before session**
+**Προεπιλεγμένες ημέρες πρόσβασης εκπαιδευτή πριν τη συνεδρία**
 
-Default number of days a coach can access his session before the official session start date
+Προεπιλεγμένος αριθμός ημερών που μπορεί να έχει πρόσβαση ο εκπαιδευτής στη συνεδρία του πριν την επίσημη ημερομηνία έναρξης της συνεδρίας
 
 ### `session_import_settings`
 
-**Options for session import**
+**Επιλογές για εισαγωγή συνεδρίας**
 
-Array of options to apply as default parameters in the CSV/XML session import.
+Πίνακας επιλογών που εφαρμόζονται ως προεπιλεγμένες παράμετροι στην εισαγωγή συνεδρίας CSV/XML.
 
 ### `session_list_order`
 
-**Sessions support manual sorting**
+**Υποστήριξη χειροκίνητης ταξινόμησης συνεδριών**
 
-Enable manual reordering of sessions in the administration session list via drag-and-drop or similar mechanism.
+Ενεργοποίηση χειροκίνητης επανατάξινσης συνεδριών στη λίστα συνεδριών διαχείρισης μέσω drag-and-drop ή παρόμοιου μηχανισμού.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 
 ### `session_list_show_count_users`
 
-**Show number of users in sessions list**
+**Εμφάνιση αριθμού χρηστών στη λίστα συνεδριών**
 
-The admin can see the number of users in each session. This adds additional weight to the sessions list, so if you use it often, consider carefully whether you want the extra waiting time.
+Ο διαχειριστής μπορεί να δει τον αριθμό χρηστών σε κάθε συνεδρία. Αυτό προσθέτει επιπλέον βάρος στη λίστα συνεδριών, οπότε αν το χρησιμοποιείτε συχνά, σκεφτείτε προσεκτικά αν θέλετε τον επιπλέον χρόνο αναμονής.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 
 ### `session_list_view_remaining_days`
 
-**Show remaining days in My Sessions**
+**Εμφάνιση εναπομεινουσών ημερών στις Συνεδρίες μου**
 
-If enabled, the session dates on the "My Sessions" page will be replaced by the number of remaining days.
+Αν ενεργοποιηθεί, οι ημερομηνίες συνεδρίας στη σελίδα "Οι Συνεδρίες μου" θα αντικατασταθούν από τον αριθμό εναπομεινουσών ημερών.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 ### `session_model_list_field_ordered_by_id`
 
-**Sort session templates by id in session creation form**
+**Ταξινόμηση προτύπων συνεδρίας κατά id στη φόρμα δημιουργίας συνεδρίας**
 
-[inferred] Sort session templates by their numeric ID in the session creation form dropdown instead of alphabetically by name.
+[inferred] Ταξινόμηση προτύπων συνεδρίας κατά τον αριθμητικό τους ID στη dropdown φόρμα δημιουργίας συνεδρίας αντί αλφαβητικά κατά όνομα.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 
 ### `session_multiple_subscription_students_list_avoid_emptying`
 
-**Prevent emptying the subscribed users in session subscription**
+**Πρόληψη κενώματος εγγεγραμμένων χρηστών σε εγγραφή συνεδρίας**
 
-When using the multiple learners subscription to a session, prevent the normal behaviour which is to unsubscribe users who are not in the right panel when clicking submit. Keep all users there.
+Κατά τη χρήση πολλαπλής εγγραφής μαθητών σε συνεδρία, αποτροπή της κανονικής συμπεριφοράς που είναι η διαγραφή χρηστών που δεν βρίσκονται στο δεξί πάνελ κατά το πάτημα submit. Διατήρηση όλων των χρηστών εκεί.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 
 ### `show_all_sessions_on_my_course_page`
 
-**Show all sessions on 'My courses' page**
+**Εμφάνιση όλων των συνεδριών στη σελίδα 'Τα μαθήματά μου'**
 
-If enabled, this option show all sessions of the user in calendar-based view.
+Αν ενεργοποιηθεί, αυτή η επιλογή εμφανίζει όλες τις συνεδρίες του χρήστη σε προβολή βάσει ημερολογίου.
 
-*Default: `true`*
+*Προεπιλογή: `true`*
 
 
 ### `show_session_coach`
 
-**Show session coach**
+**Εμφάνιση εκπαιδευτή συνεδρίας**
 
-Show the global session coach name in session title box in the courses list
+Εμφάνιση του ονόματος του γενικού εκπαιδευτή συνεδρίας στο πλαίσιο τίτλου συνεδρίας στη λίστα μαθημάτων
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 ### `show_session_data`
 
-**Show session data title**
+**Εμφάνιση τίτλου δεδομένων συνεδρίας**
 
-Show session data comment
+Εμφάνιση σχολίου δεδομένων συνεδρίας
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 ### `show_session_description`
 
-**Show session description**
+**Εμφάνιση περιγραφής συνεδρίας**
 
-Show the session description wherever this option is implemented (sessions tracking pages, etc)
+Εμφάνιση περιγραφής συνεδρίας όπου εφαρμόζεται αυτή η επιλογή (σελίδες παρακολούθησης συνεδριών, κ.λπ.)
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
+---
 ### `show_simple_session_info`
 
-**Show simple session info**
+**Εμφάνιση απλών πληροφοριών συνεδρίας**
 
-Add coach and dates to the session's subtitle in the sessions' list.
+Προσθέτει τον εκπαιδευτή και τις ημερομηνίες στον υπότιτλο της συνεδρίας στη λίστα των συνεδριών.
 
-*Default: `true`*
+*Προεπιλογή: `true`*
 
 
 ### `show_users_in_active_sessions_in_tracking`
 
-**Only display users from active sessions in tracking**
+**Εμφάνιση μόνο χρηστών από ενεργές συνεδρίες στην παρακολούθηση**
 
-Display only users from currently active sessions in learner tracking and reporting views.
+Εμφανίζει μόνο χρήστες από ενεργές συνεδρίες στις προβολές παρακολούθησης και αναφορών μαθητών.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 
 ### `tracking_columns`
 
-**Customize course-session tracking columns**
+**Προσαρμογή στηλών παρακολούθησης συνεδρίας μαθήματος**
 
-Define an array of columns for the following reports: 'course_session', 'my_students_lp', 'my_progress_lp', 'my_progress_courses'.
+Ορίζει έναν πίνακα στηλών για τις εξής αναφορές: 'course_session', 'my_students_lp', 'my_progress_lp', 'my_progress_courses'.
 
 ### `user_s_session_duration`
 
-**Auto-created sessions duration**
+**Διάρκεια αυτόματα δημιουργούμενων συνεδριών**
 
-Duration (in days) of the single-user, auto-created sessions. After expiry, the user cannot register to the same course (no other session is created).
+Διάρκεια (σε ημέρες) των συνεδριών ενός χρήστη που δημιουργούνται αυτόματα. Μετά τη λήξη, ο χρήστης δεν μπορεί να εγγραφεί στο ίδιο μάθημα (δεν δημιουργείται άλλη συνεδρία).
 
-*Default: `1095`*
+*Προεπιλογή: `1095`*
 
 
 ### `user_session_display_mode`
 
-**My Sessions display mode**
+**Τρόπος εμφάνισης των Συνεδριών μου**
 
-Choose how the "My Sessions" page is displayed: as a modern visual block (card) view or the classic list style.
+Επιλέξτε πώς εμφανίζεται η σελίδα "Οι Συνεδρίες μου": ως σύγχρονη οπτική προβολή μπλοκ (κάρτα) ή ως κλασική στυλ λίστας.
 
-*Default: `list`*
+*Προεπιλογή: `list`*

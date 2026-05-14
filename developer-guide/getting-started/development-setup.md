@@ -1,96 +1,95 @@
-# Development Setup
+# Ρύθμιση Ανάπτυξης
 
-## Prerequisites
+## Προαπαιτούμενα
 
-* PHP 8.2+ with extensions: intl, gd, curl, zip, mbstring, xml, json, pdo, ldap, exif, bcmath
+* PHP 8.2+ με επεκτάσεις: intl, gd, curl, zip, mbstring, xml, json, pdo, ldap, exif, bcmath
 * Composer
-* Node.js and npm (or Yarn — the project uses Yarn 4; see `package.json` for the exact pinned version)
-* MySQL 5.7+ or MariaDB 10.11+
+* Node.js και npm (ή Yarn — το έργο χρησιμοποιεί Yarn 4· δείτε το `package.json` για την ακριβή κατοχυρωμένη έκδοση)
+* MySQL 5.7+ ή MariaDB 10.11+
 * Git
 
-## Installation Steps
+## Βήματα Εγκατάστασης
 
-### 1. Clone the Repository
+### 1. Αντιγραφή του Αποθετηρίου
 
 ```bash
 git clone https://github.com/chamilo/chamilo-lms.git chamilo
 cd chamilo
 ```
 
-### 2. Install PHP Dependencies
+### 2. Εγκατάσταση Εξαρτήσεων PHP
 
 ```bash
 composer install
 ```
 
-### 3. Configure Environment
+### 3. Ρύθμιση Περιβάλλοντος
 
-The repository ships `.env.dist` as a reference. Create an empty `.env` file that the web installer will populate — keeping it empty ensures upgrades never overwrite your local configuration:
+Το αποθετήριο περιλαμβάνει το `.env.dist` ως αναφορά. Δημιουργήστε ένα κενό αρχείο `.env` που θα συμπληρώσει ο διαδικτυακός εγκαταστάτης — η διατήρησή του κενή εξασφαλίζει ότι οι αναβαθμίσεις δεν θα αντικαταστήσουν ποτέ τη δική σας τοπική ρύθμιση:
 
 ```bash
 touch .env
 ```
 
-Then make `.env` and `config/` writable by the web server so the installer can write your local configuration:
+Στη συνέχεια, κάντε το `.env` και τον κατάλογο `config/` εγγράψιμα από τον διακομιστή ιστοσελίδων ώστε ο εγκαταστάτης να μπορεί να γράψει τη δική σας τοπική ρύθμιση:
 
 ```bash
 sudo chown -R www-data: .env config/ var/
 ```
 
-### 4. Install Frontend Dependencies and Build
+### 4. Εγκατάσταση Εξαρτήσεων Προγράμματος Πελάτη και Δημιουργία
 
 ```bash
-# Install JavaScript dependencies
+# Εγκατάσταση εξαρτήσεων JavaScript
 yarn install
 
-# Build frontend assets for development
+# Δημιουργία στοιχείων προγράμματος πελάτη για ανάπτυξη
 yarn encore dev
 
-# Or watch for changes during development
+# Ή παρακολούθηση αλλαγών κατά την ανάπτυξη
 yarn encore dev --watch
 ```
 
-### 5. Start the Development Server
+### 5. Εκκίνηση Διακομιστή Ανάπτυξης
 
 ```bash
 symfony server:start
 ```
 
-Or use Apache/Nginx pointing to the `public/` directory.
+Ή χρησιμοποιήστε Apache/Nginx δείχνοντας στον κατάλογο `public/`.
 
-### 6. Set Up the Database
+### 6. Ρύθμιση Βάσης Δεδομένων
 
-Run the web-based installation wizard by navigating to your Chamilo URL in a browser.
+Εκτελέστε τον διαδικτυακό οδηγό εγκατάστασης πλοηγούμενοι στη διεύθυνση URL του Chamilo σε ένα πρόγραμμα περιήγησης.
 
-### 7. Generate JWT Keys
+### 7. Δημιουργία Κλειδιών JWT
 
 ```bash
 php bin/console lexik:jwt:generate-keypair
 ```
 
-### 8. Secure your system
+### 8. Ασφάλιση του Συστήματος
 
-The `.env` file and `config/` directory only need to be writeable for the time of the installation. Secure them afterwards:
+Το αρχείο `.env` και ο κατάλογος `config/` χρειάζονται να είναι εγγράψιμα μόνο για τη διάρκεια της εγκατάστασης. Ασφαλίστε τα μετά:
 
 ```bash
 sudo chown -R root: .env config/
 ```
 
-The `var/` directory needs to remain writeable by the web server.
+Ο κατάλογος `var/` χρειάζεται να παραμείνει εγγράψιμος από τον διακομιστή ιστοσελίδων.
 
+## Εντολές Δημιουργίας
 
-## Build Commands
+| Εντολή | Σκοπός |
+|--------|--------|
+| `yarn encore dev` | Δημιουργία προγράμματος πελάτη για ανάπτυξη |
+| `yarn encore dev --watch` | Δημιουργία και παρακολούθηση αλλαγών |
+| `yarn encore production` | Δημιουργία βελτιστοποιημένη για παραγωγή |
+| `php bin/console cache:clear` | Εκκαθάριση cache Symfony |
 
-| Command | Purpose |
-|---------|---------|
-| `yarn encore dev` | Build frontend for development |
-| `yarn encore dev --watch` | Build and watch for changes |
-| `yarn encore production` | Build optimized for production |
-| `php bin/console cache:clear` | Clear Symfony cache |
+## Συμβουλές Ανάπτυξης
 
-## Development Tips
-
-* Set `APP_ENV=dev` and `APP_DEBUG=1` in `.env` for detailed error messages
-* The Symfony debug toolbar appears at the bottom of pages in development mode
-* API documentation is available at `/api` when `APP_ENABLE_API_ENTRYPOINT=1`
-* Use `yarn encore dev --watch` to automatically rebuild frontend changes
+* Ορίστε `APP_ENV=dev` και `APP_DEBUG=1` στο `.env` για λεπτομερή μηνύματα σφαλμάτων
+* Η γραμμή εργαλείων αποσφαλμάτωσης του Symfony εμφανίζεται στο κάτω μέρος των σελίδων σε λειτουργία ανάπτυξης
+* Η τεκμηρίωση API είναι διαθέσιμη στο `/api` όταν `APP_ENABLE_API_ENTRYPOINT=1`
+* Χρησιμοποιήστε `yarn encore dev --watch` για αυτόματη επαναδημιουργία αλλαγών προγράμματος πελάτη

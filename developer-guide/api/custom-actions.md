@@ -1,137 +1,138 @@
-# Custom Actions
+# Προσαρμοσμένες Ενέργειες
 
-Beyond standard CRUD operations, Chamilo has a number of custom API action controllers (in the order of dozens) that handle specialized operations. The exact count varies between releases — list `src/CoreBundle/Controller/Api/` for the current set.
+Πέρα από τις τυπικές λειτουργίες CRUD, το Chamilo διαθέτει έναν αριθμό προσαρμοσμένων ελεγκτών ενεργειών API (της τάξης δεκάδων) που διαχειρίζονται εξειδικευμένες λειτουργίες. Ο ακριβής αριθμός ποικίλλει μεταξύ εκδόσεων — απαριθμήστε το `src/CoreBundle/Controller/Api/` για το τρέχον σύνολο.
 
-## Location
+## Τοποθεσία
 
-Custom actions are in `src/CoreBundle/Controller/Api/`.
+Οι προσαρμοσμένες ενέργειες βρίσκονται στο `src/CoreBundle/Controller/Api/`.
 
-## Notable Custom Actions
+## Σημαντικές Προσαρμοσμένες Ενέργειες
 
 ### Documents
 
 | Controller | Purpose |
 |-----------|---------|
-| `CreateDocumentFileAction` | Upload a file or create a folder/link document |
-| `UpdateDocumentFileAction` | Replace a document's file |
-| `ReplaceDocumentFileAction` | Replace a document file, preserving its IDs |
-| `MoveDocumentAction` | Move a document to a different folder |
-| `UpdateVisibilityDocument` | Toggle document visibility for learners |
-| `DownloadAllDocumentsAction` | Download all documents in a folder as a ZIP |
-| `DownloadSelectedDocumentsAction` | Download a selected set of documents as a ZIP |
-| `DocumentUsageAction` | List courses/sessions where a document is used |
-| `DocumentLearningPathUsageAction` | List learning paths where a document is used |
+| `CreateDocumentFileAction` | Ανέβασμα αρχείου ή δημιουργία φακέλου/συνδέσμου εγγράφου |
+| `UpdateDocumentFileAction` | Αντικατάσταση αρχείου εγγράφου |
+| `ReplaceDocumentFileAction` | Αντικατάσταση αρχείου εγγράφου, διατηρώντας τα IDs του |
+| `MoveDocumentAction` | Μετακίνηση εγγράφου σε διαφορετικό φάκελο |
+| `UpdateVisibilityDocument` | Εναλλαγή ορατότητας εγγράφου για μαθητές |
+| `DownloadAllDocumentsAction` | Λήψη όλων των εγγράφων σε φάκελο ως ZIP |
+| `DownloadSelectedDocumentsAction` | Λήψη επιλεγμένου συνόλου εγγράφων ως ZIP |
+| `DocumentUsageAction` | Λίστα μαθημάτων/συνεδριών όπου χρησιμοποιείται ένα έγγραφο |
+| `DocumentLearningPathUsageAction` | Λίστα διαδρομών μάθησης όπου χρησιμοποιείται ένα έγγραφο |
 
 ### Glossary
 
 | Controller | Purpose |
 |-----------|---------|
-| `CreateCGlossaryAction` | Create a glossary term |
-| `UpdateCGlossaryAction` | Update a glossary term |
-| `ExportCGlossaryAction` | Export glossary to file |
-| `ImportCGlossaryAction` | Import glossary from file |
-| `ExportGlossaryToDocumentsAction` | Export glossary as a document in the course |
-| `GetGlossaryCollectionController` | Get glossary collection with custom filtering |
+| `CreateCGlossaryAction` | Δημιουργία όρου γλωσσαρίου |
+| `UpdateCGlossaryAction` | Ενημέρωση όρου γλωσσαρίου |
+| `ExportCGlossaryAction` | Εξαγωγή γλωσσαρίου σε αρχείο |
+| `ImportCGlossaryAction` | Εισαγωγή γλωσσαρίου από αρχείο |
+| `ExportGlossaryToDocumentsAction` | Εξαγωγή γλωσσαρίου ως εγγράφου στο μάθημα |
+| `GetGlossaryCollectionController` | Λήψη συλλογής γλωσσαρίου με προσαρμοσμένη φιλτράρισμα |
 
 ### Links
 
 | Controller | Purpose |
 |-----------|---------|
-| `CreateCLinkAction` | Create an external link |
-| `UpdateCLinkAction` | Update an external link |
-| `CreateCLinkCategoryAction` | Create a link category |
-| `UpdateCLinkCategoryAction` | Update a link category |
-| `CheckCLinkAction` | Check whether a link URL is reachable |
-| `ExportCLinksAction` | Export links to file |
-| `CLinkDetailsController` | Get link details |
-| `CLinkImageController` | Get or set a link's preview image |
-| `GetLinksCollectionController` | Get links collection with custom filtering |
-| `UpdateVisibilityLink` | Toggle link visibility |
-| `UpdateVisibilityLinkCategory` | Toggle link category visibility |
-| `UpdatePositionLink` | Reorder links |
+| `CreateCLinkAction` | Δημιουργία εξωτερικού συνδέσμου |
+| `UpdateCLinkAction` | Ενημέρωση εξωτερικού συνδέσμου |
+| `CreateCLinkCategoryAction` | Δημιουργία κατηγορίας συνδέσμων |
+| `UpdateCLinkCategoryAction` | Ενημέρωση κατηγορίας συνδέσμων |
+| `CheckCLinkAction` | Έλεγχος αν η διεύθυνση URL συνδέσμου είναι προσβάσιμη |
+| `ExportCLinksAction` | Εξαγωγή συνδέσμων σε αρχείο |
+| `CLinkDetailsController` | Λήψη λεπτομερειών συνδέσμου |
+| `CLinkImageController` | Λήψη ή ρύθμιση εικόνας προεπισκόπησης συνδέσμου |
+| `GetLinksCollectionController` | Λήψη συλλογής συνδέσμων με προσαρμοσμένη φιλτράρισμα |
+| `UpdateVisibilityLink` | Εναλλαγή ορατότητας συνδέσμου |
+| `UpdateVisibilityLinkCategory` | Εναλλαγή ορατότητας κατηγορίας συνδέσμων |
+| `UpdatePositionLink` | Επανατάξη συνδέσμων |
 
 ### Learning Paths
 
 | Controller | Purpose |
 |-----------|---------|
-| `CreateCLpAction` | Create a learning path |
-| `LpReorderController` | Reorder learning path items |
+| `CreateCLpAction` | Δημιουργία διαδρομής μάθησης |
+| `LpReorderController` | Επανατάξη στοιχείων διαδρομής μάθησης |
 
 ### Calendar
 
 | Controller | Purpose |
 |-----------|---------|
-| `UpdateCCalendarEventAction` | Update a course calendar event |
-| `CalendarMyStudentsScheduleAction` | Get the schedule of a teacher's students |
+| `UpdateCCalendarEventAction` | Ενημέρωση γεγονότος ημερολογίου μαθήματος |
+| `CalendarMyStudentsScheduleAction` | Λήψη προγράμματος μαθητών ενός εκπαιδευτικού |
 
 ### Blog
 
 | Controller | Purpose |
 |-----------|---------|
-| `CreateCBlogAction` | Create a blog post |
-| `CreateBlogAttachmentAction` | Attach a file to a blog post |
-| `UpdateVisibilityBlog` | Toggle blog visibility |
+| `CreateCBlogAction` | Δημιουργία ανάρτησης blog |
+| `CreateBlogAttachmentAction` | Σύνδεση αρχείου με ανάρτηση blog |
+| `UpdateVisibilityBlog` | Εναλλαγή ορατότητας blog |
 
 ### Dropbox
 
 | Controller | Purpose |
 |-----------|---------|
-| `CreateDropboxFileAction` | Upload a file to the dropbox (file exchange tool) |
+| `CreateDropboxFileAction` | Ανέβασμα αρχείου στο dropbox (εργαλείο ανταλλαγής αρχείων) |
 
 ### Student Work (Assignments)
 
 | Controller | Purpose |
 |-----------|---------|
-| `CreateStudentPublicationFileAction` | Submit an assignment file |
-| `CreateStudentPublicationCommentAction` | Add a comment to a submission |
-| `CreateStudentPublicationCorrectionFileAction` | Upload a correction file for a submission |
+| `CreateStudentPublicationFileAction` | Υποβολή αρχείου εργασίας |
+| `CreateStudentPublicationCommentAction` | Πρόσθεση σχολίου σε υποβολή |
+| `CreateStudentPublicationCorrectionFileAction` | Ανέβασμα αρχείου διόρθωσης για υποβολή |
 
 ### Personal Files
 
 | Controller | Purpose |
 |-----------|---------|
-| `CreatePersonalFileAction` | Upload a file to the user's personal file space |
-| `UpdatePersonalFileAction` | Update a personal file |
+| `CreatePersonalFileAction` | Ανέβασμα αρχείου στον προσωπικό χώρο αρχείων χρήστη |
+| `UpdatePersonalFileAction` | Ενημέρωση προσωπικού αρχείου |
 
 ### Social
 
 | Controller | Purpose |
 |-----------|---------|
-| `LikeSocialPostController` | Like a social post |
-| `DislikeSocialPostController` | Unlike a social post |
-| `CreateSocialPostAttachmentAction` | Attach a file to a social post |
-| `SocialPostAttachmentsController` | List attachments on a social post |
-| `AbstractFeedbackSocialPostController` | Base class for social post feedback actions |
+| `LikeSocialPostController` | Μου αρέσει σε κοινωνική ανάρτηση |
+| `DislikeSocialPostController` | Αναιρέσει μου αρέσει από κοινωνική ανάρτηση |
+| `CreateSocialPostAttachmentAction` | Σύνδεση αρχείου με κοινωνική ανάρτηση |
+| `SocialPostAttachmentsController` | Λίστα συννημμένων σε κοινωνική ανάρτηση |
+| `AbstractFeedbackSocialPostController` | Βασική κλάση για ενέργειες ανατροφοδότησης κοινωνικών αναρτήσεων |
 
 ### Sessions
 
 | Controller | Purpose |
 |-----------|---------|
-| `CreateSessionWithUsersAndCoursesAction` | Create a session and enrol users and courses in one call |
+| `CreateSessionWithUsersAndCoursesAction` | Δημιουργία συνεδρίας και εγγραφή χρηστών και μαθημάτων σε μία κλήση |
 
 ### Users & Access URLs
 
 | Controller | Purpose |
 |-----------|---------|
-| `CreateUserOnAccessUrlAction` | Create a user and associate them with an access URL |
-| `UserAccessUrlsController` | List access URLs a user belongs to |
-| `UserSkillsController` | List skills awarded to a user |
+| `CreateUserOnAccessUrlAction` | Δημιουργία χρήστη και συσχετισμός με Access URL |
+| `UserAccessUrlsController` | Λίστα Access URLs στα οποία ανήκει ένας χρήστης |
+| `UserSkillsController` | Λίστα δεξιοτήτων που έχουν απονεμηθεί σε χρήστη |
 
 ### Video Conference
 
 | Controller | Purpose |
 |-----------|---------|
-| `VideoConferenceCallbackController` | Handle callbacks from external video conference providers |
+| `VideoConferenceCallbackController` | Διαχείριση callbacks από παρόχους εξωτερικών βιντεοδιασκέψεων |
 
 ### Base Classes
 
 | Class | Purpose |
 |-------|---------|
-| `BaseResourceFileAction` | Base class for file-upload actions; handles multipart parsing, resource node creation, and storage |
+| `BaseResourceFileAction` | Βασική κλάση για ενέργειες ανεβάσματος αρχείων· διαχειρίζεται ανάλυση multipart, δημιουργία κόμβου πόρου και αποθήκευση |
 
-## Implementing a Custom Action
+---
+## Υλοποίηση Προσαρμοσμένης Ενέργειας
 
-Custom actions are standard Symfony controllers referenced in API Platform operation definitions. The `#[ApiResource]` attribute lives on the **entity**, and each operation's `controller:` parameter points to the action class:
+Οι προσαρμοσμένες ενέργειες είναι τυπικοί ελεγκτές Symfony που αναφέρονται σε ορισμούς λειτουργιών του API Platform. Το χαρακτηριστικό `#[ApiResource]` βρίσκεται στην **οντότητα**, και η παράμετρος `controller:` κάθε λειτουργίας δείχνει στην κλάση της ενέργειας:
 
 ```php
 // On the entity class (e.g. src/CourseBundle/Entity/CDocument.php):
@@ -152,7 +153,7 @@ Custom actions are standard Symfony controllers referenced in API Platform opera
 class CDocument extends AbstractResource { ... }
 ```
 
-The action class itself is a plain invokable controller — services are injected via `__invoke()` method arguments:
+Η ίδια η κλάση της ενέργειας είναι ένας απλός ελεγκτής που μπορεί να καλεστεί — οι υπηρεσίες εγχέονται μέσω των παραμέτρων της μεθόδου `__invoke()`:
 
 ```php
 namespace Chamilo\CoreBundle\Controller\Api;
@@ -172,7 +173,7 @@ final class CreateDocumentFileAction extends BaseResourceFileAction
 }
 ```
 
-Key points:
-- `deserialize: false` is set when the action reads the request directly (e.g. multipart file uploads) instead of letting API Platform deserialize a JSON body.
-- File-upload actions typically extend `BaseResourceFileAction`, which handles multipart parsing and resource node wiring.
-- Security is enforced via the `security:` parameter on the operation, not inside the controller.
+Κύρια σημεία:
+- Η ρύθμιση `deserialize: false` χρησιμοποιείται όταν η ενέργεια διαβάζει απευθείας το αίτημα (π.χ. φόρτωση αρχείων multipart) αντί να επιτρέπει στο API Platform να αποσυμπιέσει ένα σώμα JSON.
+- Οι ενέργειες φόρτωσης αρχείων επεκτείνουν συνήθως το `BaseResourceFileAction`, το οποίο χειρίζεται την ανάλυση multipart και τη σύνδεση κόμβων πόρων.
+- Η ασφάλεια επιβάλλεται μέσω της παραμέτρου `security:` στη λειτουργία, όχι μέσα στον ελεγκτή.

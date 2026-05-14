@@ -1,70 +1,68 @@
-# Messaging Settings
+# Ρυθμίσεις Μηνυμάτων
 
-Behaviour of the **Messaging / Inbox** system.
+Συμπεριφορά του συστήματος **Messaging / Inbox**.
 
-Access these settings under **Administration > Configuration settings > Messaging**. This category contains **7 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+Πρόσβαση σε αυτές τις ρυθμίσεις στο **Administration > Configuration settings > Messaging**. Αυτή η κατηγορία περιέχει **7 ρυθμίσεις**, που παρατίθενται παρακάτω με τον τίτλο και το σχόλιο που παρέχονται στα fixtures των ρυθμίσεων της πλατφόρμας (`SettingsCurrentFixtures.php`).
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> Το όνομα της μεταβλητής στον κώδικα εμφανίζεται σε monospace. Χρησιμοποιήστε το κατά την προγραμματισμό μέσω του API ή όταν χρειάζεται να αλλάξετε αυτές τις ρυθμίσεις σε παγκόσμιο επίπεδο επεξεργαζόμενοι το [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
 
-## Settings
+## Ρυθμίσεις
 
 ### `allow_message_tool`
 
-**Internal messaging tool**
+**Εργαλείο εσωτερικών μηνυμάτων**
 
-Enabling the internal messaging tool allows users to send messages to other users of the platform and to have a messaging inbox.
+Η ενεργοποίηση του εργαλείου εσωτερικών μηνυμάτων επιτρέπει στους χρήστες να στέλνουν μηνύματα σε άλλους χρήστες της πλατφόρμας και να έχουν ένα inbox μηνυμάτων.
 
-*Default: `true`*
+*Προεπιλογή: `true`*
 
 ### `allow_send_message_to_all_platform_users`
 
-**Allow sending messages to any platform user**
+**Επιτρέψτε την αποστολή μηνυμάτων σε οποιονδήποτε χρήστη της πλατφόρμας**
 
-Allows you to send messages to any user of the platform, not just your friends or the people currently online.
+Επιτρέπει την αποστολή μηνυμάτων σε οποιονδήποτε χρήστη της πλατφόρμας, όχι μόνο στους φίλους σας ή στους χρήστες που είναι αυτή τη στιγμή συνδεδεμένοι.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 ### `allow_user_message_tracking`
 
-**Admins can see personal messages**
+**Οι διαχειριστές μπορούν να βλέπουν τα προσωπικά μηνύματα**
 
-Allow administrators to see personal messages between a teacher and a learner. Please make sure you include a note in your terms and conditions as this might affect privacy protection.
+Επιτρέπει στους διαχειριστές να βλέπουν τα προσωπικά μηνύματα μεταξύ ενός δασκάλου και ενός εκπαιδευομένου. Παρακαλούμε βεβαιωθείτε ότι περιλαμβάνετε μια σημείωση στους όρους και τις συνθήκες σας, καθώς αυτό μπορεί να επηρεάσει την προστασία της ιδιωτικότητας.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 
 ### `filter_interactivity_messages`
 
-**Teachers can access learners messages only within session timeframe**
+**Οι δάσκαλοι μπορούν να έχουν πρόσβαση στα μηνύματα των εκπαιδευομένων μόνο εντός του χρονικού πλαισίου της συνεδρίας**
 
-Filter messages between a teacher and a learner between the session start end dates
+Φιλτράρει τα μηνύματα μεταξύ ενός δασκάλου και ενός εκπαιδευομένου μεταξύ των ημερομηνιών έναρξης και λήξης της συνεδρίας
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 
 ### `message_max_upload_filesize`
 
-**Max upload file size in messages**
+**Μέγιστο μέγεθος αρχείου μεταφόρτωσης σε μηνύματα**
 
-Maximum size for file uploads in the messaging tool (in Bytes)
+Μέγιστο μέγεθος για μεταφορτώσεις αρχείων στο εργαλείο μηνυμάτων (σε Bytes)
 
-*Default: `20971520`*
+*Προεπιλογή: `20971520`*
 
 ### `private_messages_about_user`
 
-**Allow private messages between teachers about a learner**
+**Επιτρέψτε ιδιωτικά μηνύματα μεταξύ δασκάλων σχετικά με έναν εκπαιδευόμενο**
 
-Allow exchange of messages from teachers/bosses about a user from the tracking page of that user.
+Επιτρέπει την ανταλλαγή μηνυμάτων από δασκάλους/υπεύθυνους σχετικά με έναν χρήστη από τη σελίδα tracking αυτού του χρήστη.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 
 ### `private_messages_about_user_visible_to_user`
 
-**Allow learners to see messages about them between teachers**
+**Επιτρέψτε στους εκπαιδευόμενους να βλέπουν μηνύματα σχετικά με αυτούς μεταξύ δασκάλων**
 
-If exchange of messages about a user are enabled, this option will allow the corresponding user to see the messages. This is to comply with rules of transparency the organization may need to comply to.
+Αν είναι ενεργοποιημένη η ανταλλαγή μηνυμάτων σχετικά με έναν χρήστη, αυτή η επιλογή θα επιτρέψει στον αντίστοιχο χρήστη να βλέπει τα μηνύματα. Αυτό είναι για συμμόρφωση με κανόνες διαφάνειας με τους οποίους μπορεί να χρειάζεται να συμμορφωθεί ο οργανισμός.
 
-*Default: `false`*
-
-
+*Προεπιλογή: `false`*

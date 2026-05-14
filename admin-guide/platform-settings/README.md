@@ -1,40 +1,40 @@
-# Platform Settings
+# Ρυθμίσεις Πλατφόρμας
 
-Chamilo has an extensive configuration system with settings organized into categories. The full set of categories below mirrors the **Configuration settings** page in the admin panel — and the underlying `SettingsCurrentFixtures.php` in the source code, which is the source of truth for variable names, titles, and descriptions.
+Το Chamilo διαθέτει εκτεταμένο σύστημα διαμόρφωσης με ρυθμίσεις οργανωμένες σε κατηγορίες. Το πλήρες σύνολο των κατηγοριών παρακάτω αντικατοπτρίζει την σελίδα **Configuration settings** στο πάνελ διαχείρισης — και το υποκείμενο `SettingsCurrentFixtures.php` στον πηγαίο κώδικα, το οποίο αποτελεί την πηγή αλήθειας για ονόματα μεταβλητών, τίτλους και περιγραφές.
 
-Access platform settings from the administration panel by clicking **Configuration settings**.
+Προσπελάστε τις ρυθμίσεις της πλατφόρμας από το πάνελ διαχείρισης κάνοντας κλικ στο **Configuration settings**.
 
-![The platform settings page showing configuration categories organized by functional area](/.gitbook/assets/admin-settings-categories.png)
+![Η σελίδα ρυθμίσεων πλατφόρμας που δείχνει κατηγορίες διαμόρφωσης οργανωμένες ανά λειτουργική περιοχή](/.gitbook/assets/admin-settings-categories.png)
 
-## All categories
+## Όλες οι κατηγορίες
 
-There are **39 configuration categories** in total, listed alphabetically below. The number after each link is the count of settings in that category.
+Υπάρχουν **39 κατηγορίες διαμόρφωσης** συνολικά, αριθμημένες αλφαβητικά παρακάτω. Ο αριθμός μετά κάθε σύνδεσμο είναι ο αριθμός των ρυθμίσεων σε αυτή την κατηγορία.
 
-### Platform-wide
+### Πλατφόρμας-ευρείας
 
-* **[Administrator Identity](admin-settings.md)** (12) — Identity and contact details of the platform administrator.
-* **[Platform](platform-settings.md)** (29) — Platform-level identity, time zone, registration policy, online users, performance flags.
-* **[Display](display-settings.md)** (24) — Homepage layout, gravatar, menus, branding behaviour.
-* **[Editor](editor-settings.md)** (26) — Rich-text editor (TinyMCE) toolbars, plugins, AI helpers.
-* **[Languages](language-settings.md)** (12) — Available languages, default language, fallbacks.
-* **[Mail](mail-settings.md)** (18) — Outgoing-mail layout, sender identity, signature.
-* **[Workflows](workflows-settings.md)** (23) — Cross-cutting workflow toggles (course creation, enrollment validation…).
+* **[Administrator Identity](admin-settings.md)** (12) — Στοιχεία ταυτότητας και επικοινωνίας του διαχειριστή της πλατφόρμας.
+* **[Platform](platform-settings.md)** (29) — Ταυτότητα επιπέδου πλατφόρμας, ζώνη ώρας, πολιτική εγγραφής, συνδεδεμένοι χρήστες, σημαίες απόδοσης.
+* **[Display](display-settings.md)** (24) — Διάταξη αρχικής σελίδας, gravatar, μενού, συμπεριφορά μάρκετινγκ.
+* **[Editor](editor-settings.md)** (26) — Εργαλειοθήκες, πρόσθετα και βοηθοί AI του επεξεργαστή πλούσιου κειμένου (TinyMCE).
+* **[Languages](language-settings.md)** (12) — Διαθέσιμες γλώσσες, προεπιλεγμένη γλώσσα, εφεδρικές.
+* **[Mail](mail-settings.md)** (18) — Διάταξη εξερχόμενου ταχυδρομείου, ταυτότητα αποστολέα, υπογραφή.
+* **[Workflows](workflows-settings.md)** (23) — Διακόπτες ροής εργασιών διατομεακής εφαρμογής (δημιουργία μαθήματος, έλεγχος εγγραφής…).
 
-### Authentication, security & privacy
+### Πιστοποίηση, ασφάλεια & ιδιωτικότητα
 
-* **[Security](security-settings.md)** (31) — Login protection, password policy, headers, 2FA, IDS.
-* **[Registration](registration-settings.md)** (20) — Self-registration policy and post-registration redirects.
-* **[Privacy](privacy-settings.md)** (6) — Consent, data export, account-deletion requests.
-* **[CAS](cas-settings.md)** (7) — Legacy CAS configuration carried over from 1.x.
+* **[Security](security-settings.md)** (31) — Προστασία σύνδεσης, πολιτική κωδικού πρόσβασης, κεφαλίδες, 2FA, IDS.
+* **[Registration](registration-settings.md)** (20) — Πολιτική αυτο-εγγραφής και ανακατευθύνσεις μετά την εγγραφή.
+* **[Privacy](privacy-settings.md)** (6) — Συναίνεση, εξαγωγή δεδομένων, αιτήματα διαγραφής λογαριασμού.
+* **[CAS](cas-settings.md)** (7) — Ρύθμιση CAS προηγούμενων εκδόσεων από το 1.x.
 
-### Course and session lifecycle
+### Κύκλος ζωής μαθήματος και συνεδρίας
 
-* **[Course](course-settings.md)** (45) — Defaults and policies that apply to courses platform-wide.
-* **[Sessions](session-settings.md)** (68) — Session lifecycle, coach access windows, visibility.
-* **[Course Catalog](catalog-settings.md)** (13) — Behaviour of the public course catalog.
-* **[Profile](profile-settings.md)** (29) — Which fields appear on the user profile.
+* **[Course](course-settings.md)** (45) — Προεπιλογές και πολιτικές που εφαρμόζονται σε μαθήματα σε όλη την πλατφόρμα.
+* **[Sessions](session-settings.md)** (68) — Κύκλος ζωής συνεδρίας, παράθυρα πρόσβασης εκπαιδευτή, ορατότητα.
+* **[Course Catalog](catalog-settings.md)** (13) — Συμπεριφορά του δημόσιου καταλόγου μαθημάτων.
+* **[Profile](profile-settings.md)** (29) — Ποια πεδία εμφανίζονται στο προφίλ χρήστη.
 
-### Course tools
+### Εργαλεία μαθήματος
 
 * **[Agenda](agenda-settings.md)** (11)
 * **[Announcements](announcement-settings.md)** (9)
@@ -50,41 +50,44 @@ There are **39 configuration categories** in total, listed alphabetically below.
 * **[Learning Paths](lp-settings.md)** (51)
 * **[Surveys](survey-settings.md)** (12)
 
-### Assessment & recognition
+### Αξιολόγηση & αναγνώριση
 
-* **[Gradebook (Assessments)](gradebook-settings.md)** (34) — Score display, decimals, certificate thresholds.
-* **[Certificates](certificate-settings.md)** (9) — Defaults applied when a learner earns a certificate.
-* **[Skills](skill-settings.md)** (13) — Skills tree, awarding rules, profile integration.
-* **[Tracking](tracking-settings.md)** (10) — What is recorded, what reports are exposed.
+* **[Gradebook (Assessments)](gradebook-settings.md)** (34) — Εμφάνιση βαθμολογίας, δεκαδικά, κατώφλια πιστοποιητικών.
+* **[Certificates](certificate-settings.md)** (9) — Προεπιλογές που εφαρμόζονται όταν ένας μαθητής αποκτά πιστοποιητικό.
+* **[Skills](skill-settings.md)** (13) — Δέντρο δεξιοτήτων, κανόνες απονομής, ενσωμάτωση προφίλ.
+* **[Tracking](tracking-settings.md)** (10) — Τι καταγράφεται, ποιες αναφορές εκτίθενται.
 
-### Communication & community
+### Επικοινωνία & κοινότητα
 
 * **[Messaging](message-settings.md)** (7)
 * **[Social Network](social-settings.md)** (7)
 
 ### AI
 
-* **[AI Helpers](ai-helpers-settings.md)** (13) — Providers per task type (text, image, video, tutor, grading).
+* **[AI Helpers](ai-helpers-settings.md)** (13) — Παρόχοι ανά τύπο εργασίας (κείμενο, εικόνα, βίντεο, δάσκαλος, βαθμολόγηση).
 
-### Operations & integration
+### Λειτουργίες & ενσωμάτωση
 
 * **[Cron Jobs](crons-settings.md)** (3)
-* **[Search](search-settings.md)** (3) — Xapian full-text search configuration.
-* **[Tickets](ticket-settings.md)** (7) — Helpdesk system.
-* **[Web Services](webservice-settings.md)** (7) — Legacy SOAP/REST endpoints.
+* **[Search](search-settings.md)** (3) — Ρύθμιση αναζήτησης πλήρους κειμένου Xapian.
+* **[Tickets](ticket-settings.md)** (7) — Σύστημα helpdesk.
+* **[Web Services](webservice-settings.md)** (7) — legacy SOAP/REST endpoints.
 
-## How Settings Work
+## Πώς Λειτουργούν οι Ρυθμίσεις
 
-* Settings are stored in the database (`settings` table) and managed through the web interface
-* Some settings are **URL-locked** in multi-URL setups (their value applies platform-wide and cannot be overridden per URL - see `access_url_locked` and `access_url_changeable` columns in the `settings` table); others (most) can be overridden per access URL
-* Changes take effect immediately (no server restart required), although your user session might be keeping some of them in memory. If changes don't reflect immediately, logout and login to flush your session.
-* Some settings have dependencies — changing one may affect the behaviour of others
-* Variable names shown on each page (e.g. `2fa_enable`) match the row in the `settings` database table (`variable` column) and the keys used in overrides (`config/settings_overrides.yaml`) where applicable.
+* Οι ρυθμίσεις αποθηκεύονται στη βάση δεδομένων (πίνακας `settings`) και διαχειρίζονται μέσω της ιστοσελίδας
+* Ορισμένες ρυθμίσεις είναι **URL-locked** σε ρυθμίσεις πολλαπλών URL (η τιμή τους ισχύει σε όλη την πλατφόρμα και δεν μπορεί να παρακαμφθεί ανά URL - δείτε τις στήλες `access_url_locked` και `access_url_changeable` στον πίνακα `settings`); άλλες (οι περισσότερες) μπορούν να παρακαμφθούν ανά access URL
+* Οι αλλαγές ισχύουν άμεσα (δεν απαιτείται επανεκκίνηση εξυπηρετητή), αν και η συνεδρία του χρήστη σας μπορεί να διατηρεί ορισμένες από αυτές στη μνήμη. Αν οι αλλαγές δεν αντικατοπτρίζονται άμεσα, αποσυνδεθείτε και συνδεθείτε ξανά για να καθαρίσετε τη συνεδρία σας.
+* Ορισμένες ρυθμίσεις έχουν εξαρτήσεις — η αλλαγή της μίας μπορεί να επηρεάσει τη συμπεριφορά άλλων
+* Τα ονόματα μεταβλητών που εμφανίζονται σε κάθε σελίδα (π.χ. `2fa_enable`) ταιριάζουν με τη σειρά στον πίνακα βάσης δεδομένων `settings` (στήλη `variable`) και τα κλειδιά που χρησιμοποιούνται σε παρακάμψεις (`config/settings_overrides.yaml`) όπου εφαρμόζεται.
 
-For more information, check [Configurations](https://github.com/chamilo/chamilo-lms/wiki/Configurations) on our wiki.
+Για περισσότερες πληροφορίες, ελέγξτε τις [Configurations](https://github.com/chamilo/chamilo-lms/wiki/Configurations) στη wiki μας.
 
-## Tips
+---
 
-* **Document your settings** — Keep a record of non-default settings and why you changed them
-* **Change one thing at a time** — When troubleshooting, modify one setting at a time so you can identify the effect
-* **Test in a staging environment** — For significant setting changes, test on a staging server first
+---
+## Συμβουλές
+
+* **Τεκμηριώστε τις ρυθμίσεις σας** — Διατηρήστε ένα αρχείο με τις μη προεπιλεγμένες ρυθμίσεις και τον λόγο που τις αλλάξατε
+* **Αλλάξτε ένα πράγμα κάθε φορά** — Κατά την αντιμετώπιση προβλημάτων, τροποποιήστε μία ρύθμιση κάθε φορά ώστε να μπορείτε να εντοπίσετε την επίδραση
+* **Δοκιμάστε σε περιβάλλον staging** — Για σημαντικές αλλαγές ρυθμίσεων, δοκιμάστε πρώτα σε διακομιστή staging

@@ -1,14 +1,14 @@
-# Email Configuration
+# Ρύθμιση Email
 
-Chamilo now manages the emails sending configuration from the administration dashboard, platform settings section (there is a specific entry for emails). Emails are sent for account creations, password resets, course notifications, message alerts, and other platform events. Email delivery is configured through a `MAILER_DSN` configuration setting.
+Το Chamilo διαχειρίζεται πλέον τη ρύθμιση αποστολής email από τον πίνακα διαχείρισης, στην ενότητα ρυθμίσεων πλατφόρμας (υπάρχει ειδική καταχώριση για τα email). Τα email αποστέλλονται για δημιουργίες λογαριασμών, επαναφορά κωδικών πρόσβασης, ειδοποιήσεις μαθημάτων, ειδοποιήσεις μηνυμάτων και άλλα γεγονότα της πλατφόρμας. Η παράδοση email ρυθμίζεται μέσω της ρύθμισης `MAILER_DSN`.
 
-## Configuration
+## Ρύθμιση
 
-Set the `Mail DSN` option in the /admin/settings/mail section. The format depends on your email transport.
+Ορίστε την επιλογή `Mail DSN` στην ενότητα /admin/settings/mail. Η μορφή εξαρτάται από το email transport σας.
 
 ### SMTP
 
-The most common configuration, suitable for any SMTP server:
+Η πιο συνηθισμένη ρύθμιση, κατάλληλη για οποιονδήποτε SMTP server:
 
 ```bash
 # Let the system decide
@@ -24,7 +24,7 @@ smtp://username:password@smtp.example.com:587?encryption=tls
 smtp://localhost:25
 ```
 
-Replace `username`, `password`, and the host with your SMTP server credentials.
+Αντικαταστήστε το `username`, `password` και τον host με τα διαπιστευτήρια του SMTP server σας.
 
 ### Amazon SES
 
@@ -36,7 +36,7 @@ ses+smtp://ACCESS_KEY:SECRET_KEY@default?region=us-east-1
 ses+api://ACCESS_KEY:SECRET_KEY@default?region=us-east-1
 ```
 
-The Symfony Amazon Mailer transport comes embedded into Chamilo. No additional install required.
+Το Symfony Amazon Mailer transport είναι ενσωματωμένο στο Chamilo. Δεν απαιτείται επιπλέον εγκατάσταση.
 
 ### Mailjet
 
@@ -44,48 +44,48 @@ The Symfony Amazon Mailer transport comes embedded into Chamilo. No additional i
 mailjet+api://API_KEY:SECRET_KEY@default
 ```
 
-The Symfony Mailjet transport comes embedded into Chamilo. No additional install required.
+Το Symfony Mailjet transport είναι ενσωματωμένο στο Chamilo. Δεν απαιτείται επιπλέον εγκατάσταση.
 
-### Brevo (formerly Sendinblue)
+### Brevo (πρώην Sendinblue)
 
 ```bash
 brevo+api://API_KEY@default
 ```
 
-The Symfony Brevo transport comes embedded into Chamilo. No additional install required.
+Το Symfony Brevo transport είναι ενσωματωμένο στο Chamilo. Δεν απαιτείται επιπλέον εγκατάσταση.
 
-### Gmail (Development/Small Platforms)
+### Gmail (Ανάπτυξη/Μικρές Πλατφόρμες)
 
 ```bash
 gmail+smtp://your-email@gmail.com:app-password@default
 ```
 
-Use an App Password, not your regular Gmail password. This is suitable for small platforms or development only, as Gmail has sending limits.
+Χρησιμοποιήστε App Password, όχι τον κανονικό κωδικό Gmail. Αυτό είναι κατάλληλο μόνο για μικρές πλατφόρμες ή ανάπτυξη, καθώς το Gmail έχει όρια αποστολής.
 
-## Platform Email Settings
+## Ρυθμίσεις Email Πλατφόρμας
 
-In addition to the transport, configure the sender identity on the same page:
+Εκτός από το transport, ρυθμίστε την ταυτότητα αποστολέα στην ίδια σελίδα:
 
-| Setting | Description |
+| Ρύθμιση | Περιγραφή |
 |---------|-------------|
-| **Send all e-mails as originating from this (organizational) name** | The display name associated with system emails. |
-| **Send all e-mails from this e-mail address** | The "From" address for all system emails. Must be a valid address accepted by your mail transport. We recommend using a "no reply" address like `no-reply@yourdomain.com` to avoid getting pointless answers to automated e-mails. |
+| **Αποστολή όλων των e-mails ως προερχόμενα από αυτό το (οργανωτικό) όνομα** | Το όνομα εμφάνισης που σχετίζεται με τα email του συστήματος. |
+| **Αποστολή όλων των e-mails από αυτή τη διεύθυνση e-mail** | Η διεύθυνση "From" για όλα τα email του συστήματος. Πρέπει να είναι έγκυρη διεύθυνση που γίνεται αποδεκτή από το mail transport σας. Συνιστούμε τη χρήση διεύθυνσης "no reply" όπως `no-reply@yourdomain.com` για να αποφύγετε άσκοπες απαντήσεις σε αυτοματοποιημένα e-mails. |
 
-## Testing Email Delivery
+## Δοκιμή Παράδοσης Email
 
-After configuring `MAILER_DSN`, test that emails are delivered: Go to *Administration* > *System* > *E-mail tester*, specify a recipient, a subject and an e-mail body and click **Send test email**.
+Μετά τη ρύθμιση του `MAILER_DSN`, δοκιμάστε αν τα email παραδίδονται: Πηγαίνετε στο *Administration* > *System* > *E-mail tester*, καθορίστε παραλήπτη, θέμα και σώμα e-mail και κάντε κλικ στο **Send test email**.
 
-If the command completes without errors but the email is not received:
+Αν η εντολή ολοκληρωθεί χωρίς σφάλματα αλλά το email δεν ληφθεί:
 
-1. Check the recipient's spam/junk folder.
-2. Verify that your sending domain has proper DNS records (SPF, DKIM, DMARC).
-3. Check your mail provider's sending logs for bounces or rejections.
-4. Review the Chamilo log at `var/log/prod.log` for mailer errors.
-5. In the E-mail configuration settings, enable *Mail: Debug* (not available in 2.0, will be soon).
+1. Ελέγξτε τον φάκελο spam/junk του παραλήπτη.
+2. Επαληθεύστε ότι ο τομέας αποστολής σας έχει σωστά DNS records (SPF, DKIM, DMARC).
+3. Ελέγξτε τα logs αποστολής του παρόχου email σας για bounces ή απορρίψεις.
+4. Ελέγξτε το log του Chamilo στο `var/log/prod.log` για σφάλματα mailer.
+5. Στις ρυθμίσεις διαμόρφωσης E-mail, ενεργοποιήστε *Mail: Debug* (δεν είναι διαθέσιμο στο 2.0, θα είναι σύντομα).
 
-## Experimental: Email Queue (Async Delivery)
+## Πειραματικό: Ουρά Email (Ασύγχρονη Παράδοση)
 
-By default, emails are sent synchronously during the web request. For better performance, configure asynchronous delivery using Symfony Messenger:
+Προεπιλογή, τα email αποστέλλονται συγχρονισμένα κατά το web request. Για καλύτερη απόδοση, ρυθμίστε ασύγχρονη παράδοση χρησιμοποιώντας Symfony Messenger:
 
 ```yaml
 # config/packages/messenger.yaml
@@ -97,16 +97,16 @@ framework:
             'Symfony\Component\Mailer\Messenger\SendEmailMessage': async
 ```
 
-With async delivery, emails are queued and sent by a background worker:
+Με ασύγχρονη παράδοση, τα email μπαίνουν σε ουρά και αποστέλλονται από background worker:
 
 ```bash
 php bin/console messenger:consume async
 ```
 
-Run this as a system service (e.g., via systemd or supervisord) so it stays running.
+Εκτελέστε το ως system service (π.χ. μέσω systemd ή supervisord) ώστε να παραμένει ενεργό.
 
-## Tips
+## Συμβουλές
 
-* **Use a dedicated email service** (SES, Mailjet, Brevo) for production platforms. Direct SMTP to your own mail server requires careful configuration to avoid deliverability issues.
-* **Configure SPF, DKIM, and DMARC** DNS records for your sending domain to maximize delivery rates and prevent emails from being marked as spam. You can also configure DKIM headers from the e-mail settings page.
-* **Use async delivery** on platforms with more than a few dozen active users -- synchronous email sending can noticeably slow down web requests.
+* **Χρησιμοποιήστε αποκλειστική υπηρεσία email** (SES, Mailjet, Brevo) για πλατφόρμες παραγωγής. Άμεση SMTP στον δικό σας mail server απαιτεί προσεκτική ρύθμιση για αποφυγή προβλημάτων παραδοσιμότητας.
+* **Ρυθμίστε SPF, DKIM και DMARC** DNS records για τον τομέα αποστολής σας για να μεγιστοποιήσετε τα ποσοστά παράδοσης και να αποτρέψετε τα email από το να χαρακτηριστούν ως spam. Μπορείτε επίσης να ρυθμίσετε DKIM headers από τη σελίδα ρυθμίσεων e-mail.
+* **Χρησιμοποιήστε ασύγχρονη παράδοση** σε πλατφόρμες με περισσότερους από λίγους δεκάδες ενεργούς χρήστες -- η συγχρονισμένη αποστολή email μπορεί να επιβραδύνει αισθητά τα web requests.

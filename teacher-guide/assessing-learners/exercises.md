@@ -1,164 +1,167 @@
-# Exercises
+# Ασκήσεις
 
-The exercises tool (also called "tests") lets you create quizzes and exams with automatic grading. Chamilo supports a wide variety of question types, from simple multiple choice to interactive hotspot questions.
+Το εργαλείο ασκήσεων (επίσης ονομάζεται «τεστ») σας επιτρέπει να δημιουργείτε κουίζ και εξετάσεις με αυτόματη βαθμολόγηση. Το Chamilo υποστηρίζει μεγάλη ποικιλία τύπων ερωτήσεων, από απλές πολλαπλής επιλογής έως διαδραστικές ερωτήσεις hotspot.
 
-## Creating an Exercise
+## Δημιουργία Άσκησης
 
-1. Open the **Exercises** <img src="/.gitbook/assets/icons/mdi-order-bool-ascending-variant.svg" alt="Exercises" data-size="line"> tool from the course homepage
-2. Click **New exercise**
-3. Enter a **title** and optional **description**
-4. Configure the exercise settings (see below)
-5. Save, then add questions
+1. Ανοίξτε το εργαλείο **Exercises** <img src="/.gitbook/assets/icons/mdi-order-bool-ascending-variant.svg" alt="Exercises" data-size="line"> από την αρχική σελίδα του μαθήματος
+2. Κάντε κλικ στο **New exercise**
+3. Εισαγάγετε έναν **τίτλο** και προαιρετική **περιγραφή**
+4. Ρυθμίστε τις παραμέτρους της άσκησης (δείτε παρακάτω)
+5. Αποθηκεύστε, στη συνέχεια προσθέστε ερωτήσεις
 
-## Exercise Settings
+## Παράμετροι Άσκησης
 
-![The exercise settings panel with options for display, time, attempts, and feedback](/.gitbook/assets/exercise-settings.png)
+![Το πάνελ παραμέτρων άσκησης με επιλογές για εμφάνιση, χρόνο, προσπάθειες και ανατροφοδότηση](/.gitbook/assets/exercise-settings.png)
 
-### Display and Navigation
+### Εμφάνιση και Πλοήγηση
 
-| Setting | Options | Description |
-|---------|---------|-------------|
-| **Question layout** | All on one page / One per page | Show all questions at once or one at a time |
-| **Hide question titles** | Yes / No | Whether to show question titles to learners |
-| **Show previous button** | Yes / No | Allow learners to go back to previous questions |
-| **Prevent backwards navigation** | Yes / No | Force learners to answer in order without going back |
+| Παράμετρος | Επιλογές | Περιγραφή |
+|------------|----------|-----------|
+| **Διάταξη ερωτήσεων** | Όλες σε μία σελίδα / Μία ανά σελίδα | Εμφάνιση όλων των ερωτήσεων ταυτόχρονα ή μία κάθε φορά |
+| **Απόκρυψη τίτλων ερωτήσεων** | Ναι / Όχι | Εάν θα εμφανίζονται οι τίτλοι των ερωτήσεων στους μαθητές |
+| **Εμφάνιση κουμπιού προηγούμενης** | Ναι / Όχι | Επιτρέπει στους μαθητές να επιστρέφουν σε προηγούμενες ερωτήσεις |
+| **Απαγόρευση πλοήγησης προς τα πίσω** | Ναι / Όχι | Υποχρεώνει τους μαθητές να απαντούν με σειρά χωρίς επιστροφή |
 
-### Time and Availability
+### Χρόνος και Διαθεσιμότητα
 
-| Setting | Description |
-|---------|-------------|
-| **Time limit** | Maximum time (in minutes) to complete the exercise. A countdown timer is shown to the learner |
-| **Start date** | When the exercise becomes available to learners |
-| **End date** | When the exercise stops being available |
+| Παράμετρος | Περιγραφή |
+|------------|-----------|
+| **Χρονικό όριο** | Μέγιστος χρόνος (σε λεπτά) για ολοκλήρωση της άσκησης. Εμφανίζεται χρονόμετρο αντίστροφης μέτρησης στον μαθητή |
+| **Ημερομηνία έναρξης** | Πότε η άσκηση γίνεται διαθέσιμη στους μαθητές |
+| **Ημερομηνία λήξης** | Πότε η άσκηση παύει να είναι διαθέσιμη |
 
-### Attempts and Scoring
+### Προσπάθειες και Βαθμολόγηση
 
-| Setting | Description |
-|---------|-------------|
-| **Maximum attempts** | How many times a learner can take the exercise (0 = unlimited) |
-| **Pass percentage** | The minimum score to pass (e.g., 70%). Learners who do not reach this threshold see a failure message |
-| **Propagate negative scoring** | Whether negative points on individual questions reduce the total score below zero |
+| Παράμετρος | Περιγραφή |
+|------------|-----------|
+| **Μέγιστες προσπάθειες** | Πόσες φορές μπορεί ένας μαθητής να κάνει την άσκηση (0 = απεριόριστα) |
+| **Ποσοστό επιτυχίας** | Το ελάχιστο σκορ για επιτυχία (π.χ., 70%). Οι μαθητές που δεν φτάνουν αυτό το όριο βλέπουν μήνυμα αποτυχίας |
+| **Διάδοση αρνητικής βαθμολόγησης** | Εάν οι αρνητικοί πόντοι σε μεμονωμένες ερωτήσεις μειώνουν το συνολικό σκορ κάτω από το μηδέν |
 
-### Feedback
+### Ανατροφοδότηση
 
-| Setting | Options |
-|---------|---------|
-| **At the end** | Show results and correct answers after the learner submits |
-| **Immediate** | Show feedback after each question (useful for learning exercises) |
-| **Exam mode** | Do not show any feedback or results |
+| Παράμετρος | Επιλογές |
+|------------|----------|
+| **Στο τέλος** | Εμφάνιση αποτελεσμάτων και σωστών απαντήσεων μετά την υποβολή του μαθητή |
+| **Άμεση** | Εμφάνιση ανατροφοδότησης μετά από κάθε ερώτηση (χρήσιμο για ασκήσεις μάθησης) |
+| **Λειτουργία εξέτασης** | Μη εμφάνιση καμίας ανατροφοδότησης ή αποτελεσμάτων |
 
-### Results Display
+### Εμφάνιση Αποτελεσμάτων
 
-Control what learners see after completing the exercise:
+Ελέγξτε τι βλέπουν οι μαθητές μετά την ολοκλήρωση της άσκησης:
 
-* Show score and expected answers
-* Show score only
-* Show score with category breakdown
-* Show ranking among other learners
-* Show only on last attempt
-* Show radar chart visualization
+* Εμφάνιση σκορ και αναμενόμενων απαντήσεων
+* Εμφάνιση μόνο σκορ
+* Εμφάνιση σκορ με ανάλυση κατηγορίας
+* Εμφάνιση κατάταξης μεταξύ άλλων μαθητών
+* Εμφάνιση μόνο στην τελευταία προσπάθεια
+* Εμφάνιση οπτικοποίησης ραντάρ
 
-### Completion Messages
+### Μηνύματα Ολοκλήρωσης
 
-* **Success message** — Custom text shown when the learner passes
-* **Failure message** — Custom text shown when the learner does not reach the pass percentage
+* **Μήνυμα επιτυχίας** — Προσαρμοσμένο κείμενο που εμφανίζεται όταν ο μαθητής πετυχαίνει
+* **Μήνυμα αποτυχίας** — Προσαρμοσμένο κείμενο που εμφανίζεται όταν ο μαθητής δεν φτάνει το ποσοστό επιτυχίας
 
-### Question Randomization
+### Τυχαιοποίηση Ερωτήσεων
 
-| Setting | Description |
-|---------|-------------|
-| **Random question order** | Shuffle the order of questions for each attempt |
-| **Random answers** | Shuffle answer options within each question |
-| **Random by category** | Select random questions from each question category |
+| Παράμετρος | Περιγραφή |
+|------------|-----------|
+| **Τυχαιότητα σειράς ερωτήσεων** | Ανακατεμός σειράς ερωτήσεων για κάθε προσπάθεια |
+| **Τυχαιότητα απαντήσεων** | Ανακατεμός επιλογών απαντήσεων μέσα σε κάθε ερώτηση |
+| **Τυχαιότητα ανά κατηγορία** | Επιλογή τυχαίων ερωτήσεων από κάθε κατηγορία ερωτήσεων |
 
-You can also configure advanced selection strategies that combine categories and randomization.
+Μπορείτε επίσης να ρυθμίσετε προχωρημένες στρατηγικές επιλογής που συνδυάζουν κατηγορίες και τυχαιοποίηση.
 
-## Question Types
+## Τύποι Ερωτήσεων
 
-![Overview of available question types in the exercise creation interface](/.gitbook/assets/exercise-question-types.png)
+![Επισκόπηση διαθέσιμων τύπων ερωτήσεων στη διεπαφή δημιουργίας άσκησης](/.gitbook/assets/exercise-question-types.png)
 
-Chamilo offers a rich set of question types organized into several categories:
+Το Chamilo προσφέρει πλούσιο σύνολο τύπων ερωτήσεων οργανωμένο σε αρκετές κατηγορίες:
 
-### Single Choice
+### Μονή Επιλογή
 
-* **Multiple choice (single answer)** — Learner selects one correct answer from a list of options
-* **Single answer with images** — Same as above, but answer options are displayed as images
+* **Πολλαπλή επιλογή (μονή απάντηση)** — Ο μαθητής επιλέγει μία σωστή απάντηση από λίστα επιλογών
+* **Μονή απάντηση με εικόνες** — Ίδιο με παραπάνω, αλλά οι επιλογές απαντήσεων εμφανίζονται ως εικόνες
 
-### Multiple Choice
+### Πολλαπλή Επιλογή
 
-* **Multiple answer** — Learner selects one or more correct answers
-* **Multiple answer (dropdown)** — Answer options are presented as dropdown menus
-* **True/False** — A series of statements that the learner marks as true or false
-* **True/False with degree of certainty** — True/false with an additional confidence level, enabling more nuanced scoring
+* **Πολλαπλή απάντηση** — Ο μαθητής επιλέγει μία ή περισσότερες σωστές απαντήσεις
+* **Πολλαπλή απάντηση (αναδυόμενο μενού)** — Οι επιλογές απαντήσεων παρουσιάζονται ως αναδυόμενα μενού
+* **Σωστό/Λάθος** — Σειρά δηλώσεων που ο μαθητής χαρακτηρίζει ως σωστές ή λανθασμένες
+* **Σωστό/Λάθος με βαθμό βεβαιότητας** — Σωστό/λάθος με επιπλέον επίπεδο εμπιστοσύνης, επιτρέποντας πιο λεπτομερή βαθμολόγηση
 
-### Fill in the Blanks
+### Συμπλήρωση Κενών
 
-* **Fill in the blanks** — Learner completes missing words in a text. You define the blanks and accepted answers when creating the question.
+* **Συμπλήρωση κενών** — Ο μαθητής συμπληρώνει ελλείπουσες λέξεις σε κείμενο. Ορίζετε τα κενά και τις αποδεκτές απαντήσεις κατά τη δημιουργία της ερώτησης.
 
-### Matching
+### Αντιστοίχιση
 
-* **Matching** — Learner connects items from two columns
-* **Matching (draggable)** — Same concept, but with a drag-and-drop interface
-* **Draggable** — Drag items into the correct positions
+* **Αντιστοίχιση** — Ο μαθητής συνδέει αντικείμενα από δύο στήλες
+* **Αντιστοίχιση (μεταφορά)** — Ίδια έννοια, αλλά με διεπαφή drag-and-drop
+* **Μεταφορά** — Μεταφορά αντικειμένων στις σωστές θέσεις
 
-### Open-Ended
+### Ανοιχτής Τύπου
 
-* **Free answer (essay)** — Learner writes a text response. Requires manual grading (or AI-assisted grading if configured)
-* **Oral expression** — Learner records an audio response using their microphone
-* **Upload answer** — Learner uploads a file as their answer
+* **Ελεύθερη απάντηση (δοκίμιο)** — Ο μαθητής γράφει απάντηση κειμένου. Απαιτεί χειροκίνητη βαθμολόγηση (ή βαθμολόγηση με βοήθεια AI αν ρυθμιστεί)
+* **Ορθή έκφραση** — Ο μαθητής ηχογραφεί απάντηση ήχου χρησιμοποιώντας το μικρόφωνό του
+* **Ανέβασμα απάντησης** — Ο μαθητής ανεβάζει αρχείο ως απάντησή του
 
 ### Hotspot
 
-* **Hotspot** — Learner clicks on specific areas of an image to answer
-* **Hotspot delineation** — Learner draws boundaries around areas on an image
+* **Hotspot** — Ο μαθητής κάνει κλικ σε συγκεκριμένες περιοχές εικόνας για απάντηση
+* **Hotspot οριοθέτηση** — Ο μαθητής σχεδιάζει όρια γύρω από περιοχές σε εικόνα
 
-### Calculated
+### Υπολογιστικές
 
-* **Calculated answer** — Numerical questions with a formula and tolerance range. Useful for math and science courses.
+* **Υπολογιστική απάντηση** — Αριθμητικές ερωτήσεις με τύπο και εύρος ανοχής. Χρήσιμο για μαθήματα μαθηματικών και επιστήμης.
 
-### Special
+---
 
-* **Reading comprehension** — Tests based on reading a passage
-* **Annotation** — Teacher uploads an image and the learner annotates it
-* **Answer in Office document** — When the OnlyOffice plugin is enabled, the learner answers the question by editing an embedded Office document (Word, Excel, PowerPoint). Their response is saved as a separate file under the exercise so it can be reviewed alongside the rest of their attempt.
+---
+### Ειδικές
 
-## Adding Questions to an Exercise
+* **Κατανόηση κειμένου** — Δοκιμές βασισμένες στην ανάγνωση ενός κειμένου
+* **Σημειώσεις** — Ο διδάσκων ανεβάζει μια εικόνα και ο μαθητής την επισημειώνει
+* **Απάντηση σε έγγραφο Office** — Όταν το πρόσθετο OnlyOffice είναι ενεργοποιημένο, ο μαθητής απαντά στην ερώτηση επεξεργαζόμενος ένα ενσωματωμένο έγγραφο Office (Word, Excel, PowerPoint). Η απάντησή του αποθηκεύεται ως ξεχωριστό αρχείο κάτω από την άσκηση ώστε να μπορεί να εξεταστεί μαζί με την υπόλοιπη προσπάθειά του.
 
-1. Open the exercise and click **Add a question**
-2. Select the question type
-3. Enter the **question text** (supports rich text with images and formatting)
-4. Define the **answers** and their scoring:
-   * For each answer option, specify whether it is correct and how many points it is worth
-   * You can assign negative points to wrong answers to discourage guessing
-5. Optionally add **feedback** — explanations shown to the learner after answering
-6. Set the **difficulty level** and **category** (useful for random selection and reporting)
-7. Save
+## Προσθήκη Ερωτήσεων σε μια Άσκηση
 
-## Question Categories
+1. Ανοίξτε την άσκηση και κάντε κλικ στο **Προσθήκη ερώτησης**
+2. Επιλέξτε τον τύπο ερώτησης
+3. Εισαγάγετε το **κείμενο της ερώτησης** (υποστηρίζει πλούσιο κείμενο με εικόνες και μορφοποίηση)
+4. Ορίστε τις **απαντήσεις** και τον βαθμολογισμό τους:
+   * Για κάθε επιλογή απάντησης, καθορίστε αν είναι σωστή και πόσους πόντους αξίζει
+   * Μπορείτε να αποδώσετε αρνητικούς πόντους σε λανθασμένες απαντήσεις για να αποθαρρύνετε την εικασία
+5. Προαιρετικά προσθέστε **ανατροφοδότηση** — εξηγήσεις που εμφανίζονται στον μαθητή μετά την απάντηση
+6. Ορίστε το **επίπεδο δυσκολίας** και την **κατηγορία** (χρήσιμο για τυχαία επιλογή και αναφορές)
+7. Αποθηκεύστε
 
-You can organize questions into categories (e.g., "Module 1", "Vocabulary", "Advanced"). Categories are useful for:
+## Κατηγορίες Ερωτήσεων
 
-* Organizing large question banks
-* Enabling random selection by category (e.g., "5 questions from Module 1, 3 from Module 2")
-* Viewing scores broken down by category in reports
+Μπορείτε να οργανώσετε τις ερωτήσεις σε κατηγορίες (π.χ., "Μονάδα 1", "Λεξιλόγιο", "Προχωρημένο"). Οι κατηγορίες είναι χρήσιμες για:
 
-## Question Reuse
+* Οργάνωση μεγάλων τραπεζών ερωτήσεων
+* Ενεργοποίηση τυχαίας επιλογής ανά κατηγορία (π.χ., "5 ερωτήσεις από τη Μονάδα 1, 3 από τη Μονάδα 2")
+* Προβολή βαθμολογιών κατανεμημένων ανά κατηγορία στις αναφορές
 
-Questions can be reused across exercises within the same course. When adding a question, you can choose to create a new one or select an existing question from the question bank.
+## Επανάχρηση Ερωτήσεων
 
-## Importing Exercises
+Οι ερωτήσεις μπορούν να επαναχρησιμοποιηθούν σε ασκήσεις εντός του ίδιου μαθήματος. Κατά την προσθήκη ερώτησης, μπορείτε να επιλέξετε να δημιουργήσετε νέα ή να επιλέξετε υπάρχουσα από την τράπεζα ερωτήσεων.
 
-Chamilo supports importing exercises from external formats:
+## Εισαγωγή Ασκήσεων
 
-* **IMS QTI / Common Cartridge** — The standard e-learning quiz format
-* **Moodle format** — Import quizzes from Moodle exports
+Το Chamilo υποστηρίζει εισαγωγή ασκήσεων από εξωτερικές μορφές:
 
-To import, look for the **Import** option in the exercises tool and upload your file.
+* **IMS QTI / Common Cartridge** — Η τυπική μορφή κουίζ ηλεκτρονικής μάθησης
+* **Moodle format** — Εισαγωγή κουίζ από εξαγωγές Moodle
 
-## Tips
+Για εισαγωγή, αναζητήστε την επιλογή **Εισαγωγή** στο εργαλείο ασκήσεων και ανεβάστε το αρχείο σας.
 
-* **Mix question types** — Combine multiple choice, fill-in-the-blanks, and open-ended questions for a comprehensive assessment
-* **Use categories** — Organize questions by topic to enable targeted random selection
-* **Set a pass percentage** — Give learners a clear target and link it to certificate generation via the Gradebook
-* **Use immediate feedback for practice** — Create ungraded practice exercises with immediate feedback to help learners learn from their mistakes
-* **Randomize for integrity** — Enable random question order and random answers to reduce the chance of copying
+## Συμβουλές
+
+* **Συνδυάστε τύπους ερωτήσεων** — Συνδυάστε πολλαπλής επιλογής, συμπλήρωσης κενών και ανοιχτών ερωτήσεων για ολοκληρωμένη αξιολόγηση
+* **Χρησιμοποιήστε κατηγορίες** — Οργανώστε ερωτήσεις ανά θέμα για στοχευμένη τυχαία επιλογή
+* **Ορίστε ποσοστό επιτυχίας** — Δώστε στους μαθητές σαφή στόχο και συνδέστε το με παραγωγή πιστοποιητικού μέσω του Gradebook
+* **Χρησιμοποιήστε άμεση ανατροφοδότηση για εξάσκηση** — Δημιουργήστε μη βαθμολογούμενες ασκήσεις εξάσκησης με άμεση ανατροφοδότηση για να βοηθήσετε τους μαθητές να μάθουν από τα λάθη τους
+* **Τυχαιοποιήστε για ακεραιότητα** — Ενεργοποιήστε τυχαία σειρά ερωτήσεων και τυχαίες απαντήσεις για να μειώσετε την πιθανότητα αντιγραφής

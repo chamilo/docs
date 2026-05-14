@@ -1,7 +1,7 @@
-# Courses
+# Μαθήματα
 
-This section covers course management from an administrator perspective: overseeing the course catalog, managing categories, and handling imports and exports.
+Αυτή η ενότητα καλύπτει τη διαχείριση μαθημάτων από την οπτική γωνία του διαχειριστή: εποπτεία του καταλόγου μαθημάτων, διαχείριση κατηγοριών και διαχείριση εισαγωγών και εξαγωγών.
 
-* **[Managing Courses](managing-courses.md)** — View, create, edit, and delete courses
-* **[Course Categories](course-categories.md)** — Organize the course catalog with categories
-* **[Course Import and Export](course-import-export.md)** — Import and export courses between platforms
+* **[Διαχείριση Μαθημάτων](managing-courses.md)** — Προβολή, δημιουργία, επεξεργασία και διαγραφή μαθημάτων
+* **[Κατηγορίες Μαθημάτων](course-categories.md)** — Οργάνωση του καταλόγου μαθημάτων με κατηγορίες
+* **[Εισαγωγή και Εξαγωγή Μαθημάτων](course-import-export.md)** — Εισαγωγή και εξαγωγή μαθημάτων μεταξύ πλατφορμών

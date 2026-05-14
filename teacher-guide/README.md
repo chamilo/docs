@@ -1,31 +1,31 @@
-# Teacher Guide
+# Οδηγός Εκπαιδευτικού
 
-Welcome to the Chamilo 2.0 Teacher Guide. This guide is designed for instructors, trainers, and anyone responsible for creating and delivering learning content through the Chamilo platform.
+Καλώς ήρθατε στον Οδηγό Εκπαιδευτικού του Chamilo 2.0. Αυτός ο οδηγός είναι σχεδιασμένος για εκπαιδευτές, εκπαιδευτές και οποιονδήποτε είναι υπεύθυνος για τη δημιουργία και παροχή περιεχομένου εκπαίδευσης μέσω της πλατφόρμας Chamilo.
 
-Whether you are setting up your first online course or managing a complex training program, this guide will walk you through every feature available to you as a teacher.
+Είτε ρυθμίζετε το πρώτο σας διαδικτυακό μάθημα είτε διαχειρίζεστε ένα σύνθετο πρόγραμμα κατάρτισης, αυτός ο οδηγός θα σας καθοδηγήσει σε κάθε διαθέσιμη λειτουργία ως εκπαιδευτικός.
 
-## What You Can Do with Chamilo
+## Τι Μπορείτε να Κάνετε με το Chamilo
 
-As a teacher in Chamilo, you can:
+Ως εκπαιδευτικός στο Chamilo, μπορείτε να:
 
-* **Create and organize courses** with a flexible homepage and customizable tools
-* **Add content** — upload documents, create learning paths, build glossaries, and link to external resources
-* **Assess your learners** — design exercises with multiple question types, collect assignments, run surveys, and manage grades
-* **Collaborate** — set up forums, group work, wikis, blogs, and live video sessions
-* **Track progress** — monitor learner activity, generate reports, and award certificates
-* **Use AI tools** — generate exercises and learning paths automatically, and get AI-assisted grading
+* **Δημιουργείτε και οργανώνετε μαθήματα** με ευέλικτη αρχική σελίδα και προσαρμόσιμα εργαλεία
+* **Προσθέτετε περιεχόμενο** — ανεβάζετε έγγραφα, δημιουργείτε διαδρομές μάθησης, χτίζετε γλωσσάρια και συνδέεστε με εξωτερικούς πόρους
+* **Αξιολογείτε τους μαθητές σας** — σχεδιάζετε ασκήσεις με πολλούς τύπους ερωτήσεων, συλλέγετε εργασίες, διεξάγετε έρευνες και διαχειρίζεστε βαθμούς
+* **Συνεργάζεστε** — ρυθμίζετε φόρουμ, ομαδική εργασία, wikis, blogs και ζωντανές συνεδρίες βίντεο
+* **Παρακολουθείτε την πρόοδο** — ελέγχετε τη δραστηριότητα των μαθητών, παράγετε αναφορές και απονέμετε πιστοποιητικά
+* **Χρησιμοποιείτε εργαλεία ΤΝ** — παράγετε ασκήσεις και διαδρομές μάθησης αυτόματα και λαμβάνετε βαθμολόγηση με τη βοήθεια ΤΝ
 
-## How This Guide Is Organized
+## Πώς Οργανώνεται Αυτός ο Οδηγός
 
-This guide follows the natural workflow of building and running a course:
+Αυτός ο οδηγός ακολουθεί τη φυσική ροή εργασιών για τη δημιουργία και εκτέλεση ενός μαθήματος:
 
-1. **Getting Started** — Log in, navigate the interface, and set up your profile
-2. **Creating Your Course** — Create a new course, configure its settings, and customize the homepage
-3. **Adding Content** — Upload documents, organize learning paths, and manage resources
-4. **Assessing Learners** — Build tests, collect assignments, run surveys, and set up the gradebook
-5. **Collaboration and Communication** — Enable forums, chat, groups, wiki, and video conferencing
-6. **Tracking and Reporting** — Monitor learner progress and generate reports
-7. **AI Tools** — Use AI-powered features to generate content and assist with grading
-8. **Additional Tools** — Agenda, notebook, portfolio, and more
+1. **Ξεκινώντας** — Συνδεθείτε, πλοηγηθείτε στη διεπαφή και ρυθμίστε το προφίλ σας
+2. **Δημιουργία του Μαθήματός Σας** — Δημιουργήστε ένα νέο μάθημα, ρυθμίστε τις παραμέτρους του και προσαρμόστε την αρχική σελίδα
+3. **Προσθήκη Περιεχομένου** — Ανεβάστε έγγραφα, οργανώστε διαδρομές μάθησης και διαχειριστείτε πόρους
+4. **Αξιολόγηση Μαθητών** — Χτίστε δοκιμές, συλλέξτε εργασίες, διεξάγετε έρευνες και ρυθμίστε το βιβλίο βαθμών
+5. **Συνεργασία και Επικοινωνία** — Ενεργοποιήστε φόρουμ, συνομιλία, ομάδες, wiki και τηλεδιάσκεψη
+6. **Παρακολούθηση και Αναφορές** — Ελέγξτε την πρόοδο των μαθητών και παράγετε αναφορές
+7. **Εργαλεία ΤΝ** — Χρησιμοποιήστε λειτουργίες που υποστηρίζονται από ΤΝ για να παράγετε περιεχόμενο και να βοηθάτε στη βαθμολόγηση
+8. **Πρόσθετα Εργαλεία** — Ημερολόγιο, σημειωματάριο, portfolio και άλλα
 
-Let's get started.
+Ας ξεκινήσουμε.

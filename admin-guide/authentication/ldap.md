@@ -1,8 +1,8 @@
 # LDAP
 
-Chamilo can authenticate users against an LDAP server, including Microsoft Active Directory. LDAP is configured in `config/authentication.yaml`.
+Το Chamilo μπορεί να πιστοποιεί χρήστες έναντι ενός διακομιστή LDAP, συμπεριλαμβανομένου του Microsoft Active Directory. Το LDAP ρυθμίζεται στο `config/authentication.yaml`.
 
-## Configuration
+## Ρύθμιση
 
 ```yaml
 authentication:
@@ -17,17 +17,17 @@ authentication:
         force_as_login_method: false
 ```
 
-### Bind and search
+### Bind και αναζήτηση
 
-Two approaches for locating the user in the directory:
+Δύο προσεγγίσεις για τον εντοπισμό του χρήστη στον κατάλογο:
 
-**Direct bind** — constructs the DN from the username directly:
+**Direct bind** — κατασκευάζει το DN απευθείας από το όνομα χρήστη:
 
 ```yaml
         dn_string: "uid=%s,ou=people,dc=yourorg,dc=com"
 ```
 
-**Search bind** — searches the directory with a service account first, then binds as the found user:
+**Search bind** — αναζητά πρώτα τον κατάλογο με λογαριασμό υπηρεσίας και στη συνέχεια συνδέεται ως ο εντοπισθείς χρήστης:
 
 ```yaml
         base_dn: "dc=yourorg,dc=com"
@@ -37,11 +37,11 @@ Two approaches for locating the user in the directory:
         uid_key: "uid"
 ```
 
-For Active Directory, use `sAMAccountName` as `uid_key` and adjust `query_string` to `(sAMAccountName=%s)`.
+Για το Active Directory, χρησιμοποιήστε `sAMAccountName` ως `uid_key` και προσαρμόστε το `query_string` σε `(sAMAccountName=%s)`.
 
-### Attribute mapping
+### Χαρτογράφηση χαρακτηριστικών
 
-Map LDAP attributes to Chamilo user fields under `data_correspondence`:
+Χαρτογραφήστε χαρακτηριστικά LDAP σε πεδία χρήστη Chamilo κάτω από `data_correspondence`:
 
 ```yaml
         data_correspondence:
@@ -52,13 +52,13 @@ Map LDAP attributes to Chamilo user fields under `data_correspondence`:
           locale: preferredLanguage  # optional
 ```
 
-`firstname`, `lastname`, and `email` are required. The user is matched to an existing Chamilo account by email or username; if no match is found and `allow_create_new_users` is true, a new account is created.
+Τα `firstname`, `lastname` και `email` είναι υποχρεωτικά. Ο χρήστης ταιριάζει με υπάρχοντα λογαριασμό Chamilo μέσω email ή ονόματος χρήστη· αν δεν βρεθεί ταίριασμα και το `allow_create_new_users` είναι true, δημιουργείται νέος λογαριασμός.
 
-## Tips
+## Συμβουλές
 
-* **Use LDAPS in production** — switch `ldap://` to `ldaps://` (port 636) for encrypted connections.
-* **Service account** — the search bind account needs only read access to user entries.
-* **Test first** — verify your connection string and query with `ldapsearch` before configuring Chamilo.
-* **`force_as_login_method: true`** — hides other login methods and forces all users through LDAP. Leave it `false` while testing so you can still log in as an admin via the standard form.
+* **Χρησιμοποιήστε LDAPS σε παραγωγή** — αλλάξτε το `ldap://` σε `ldaps://` (θύρα 636) για κρυπτογραφημένες συνδέσεις.
+* **Λογαριασμός υπηρεσίας** — ο λογαριασμός search bind χρειάζεται μόνο πρόσβαση ανάγνωσης σε καταχωρήσεις χρηστών.
+* **Δοκιμάστε πρώτα** — ελέγξτε το connection string και την ερώτηση σας με `ldapsearch` πριν ρυθμίσετε το Chamilo.
+* **`force_as_login_method: true`** — κρύβει άλλες μεθόδους σύνδεσης και αναγκάζει όλους τους χρήστες μέσω LDAP. Αφήστε το `false` κατά τις δοκιμές ώστε να μπορείτε ακόμα να συνδεθείτε ως διαχειριστής μέσω της τυπικής φόρμας.
 
-For the full parameter reference, see the [wiki](https://github.com/chamilo/chamilo-lms/wiki/External-Authentication-configuration).
+Για την πλήρη αναφορά παραμέτρων, δείτε το [wiki](https://github.com/chamilo/chamilo-lms/wiki/External-Authentication-configuration).

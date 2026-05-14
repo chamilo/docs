@@ -1,76 +1,76 @@
-# Views and Routing
+# Views και Δρομολόγηση
 
-Chamilo has a large set of Vue views (page-level components) connected via Vue Router. The actual files live under `assets/vue/views/`.
+Το Chamilo διαθέτει ένα μεγάλο σύνολο Vue views (συστατικών επιπέδου σελίδας) συνδεδεμένων μέσω Vue Router. Τα πραγματικά αρχεία βρίσκονται στο `assets/vue/views/`.
 
-## Router Architecture
+## Αρχιτεκτονική Router
 
-The router is defined in `assets/vue/router/index.js` using `createWebHistory` for clean URLs.
+Το router ορίζεται στο `assets/vue/router/index.js` χρησιμοποιώντας το `createWebHistory` για καθαρές URLs.
 
-Routes are modular — organized into per-feature route files imported into the main router:
+Οι διαδρομές είναι modular — οργανωμένες σε αρχεία διαδρομών ανά χαρακτηριστικό που εισάγονται στο κύριο router:
 
-| Route module | Pages |
-|-------------|-------|
-| `admin` | Administration panel pages |
-| `sessionAdmin` | Session administration pages |
-| `course` | Course list, creation, home, catalog |
-| `account` | User profile and settings |
-| `personalfile` | Personal file space |
-| `message` | Messaging / inbox |
-| `user` | User management pages |
-| `usergroup` | User group (class) pages |
-| `userreluser` | User relationship (friend/follow) pages |
-| `ccalendarevent` | Course calendar and agenda |
-| `ctoolintro` | Course tool introduction pages |
-| `page` | Static CMS pages |
-| `pageLayout` | Page layout wrappers |
-| `publicPage` | Publicly accessible pages |
-| `social` | Social network pages |
-| `filemanager` | File manager (course documents browser) |
-| `skill` | Skills and competencies pages |
-| `accessurl` | Multi-URL (portal) management pages |
-| `branch` | Branch / network campus pages |
-| `room` | Virtual room pages |
-| `buycourses` | Course purchase pages |
-| `documents` | Document management |
-| `assignments` | Assignment workflow |
-| `links` | External links management |
-| `glossary` | Glossary management |
-| `attendance` | Attendance tracking |
-| `lp` | Learning path player and editor |
-| `dropbox` | Dropbox / file exchange |
-| `blog` | Blog pages |
-| `blogAdmin` | Blog administration |
-| `coursemaintenance` | Course backup and restore |
-| `catalogue` | Course and session catalogs |
+| Route module | Σελίδες |
+|-------------|---------|
+| `admin` | Σελίδες πίνακα διαχείρισης |
+| `sessionAdmin` | Σελίδες διαχείρισης συνεδρίας |
+| `course` | Λίστα μαθημάτων, δημιουργία, αρχική, κατάλογος |
+| `account` | Προφίλ χρήστη και ρυθμίσεις |
+| `personalfile` | Χώρος προσωπικού αρχείου |
+| `message` | Μηνύματα / εισερχόμενα |
+| `user` | Σελίδες διαχείρισης χρηστών |
+| `usergroup` | Σελίδες ομάδας χρηστών (τάξη) |
+| `userreluser` | Σελίδες σχέσεων χρηστών (φίλοι/παρακολούθηση) |
+| `ccalendarevent` | Ημερολόγιο και ατζέντα μαθήματος |
+| `ctoolintro` | Σελίδες εισαγωγής εργαλείων μαθήματος |
+| `page` | Στατικές CMS σελίδες |
+| `pageLayout` | Περιτυλίξεις διάταξης σελίδας |
+| `publicPage` | Δημόσια προσβάσιμες σελίδες |
+| `social` | Σελίδες κοινωνικού δικτύου |
+| `filemanager` | Διαχειριστής αρχείων (περιηγητής εγγράφων μαθήματος) |
+| `skill` | Σελίδες δεξιοτήτων και ικανοτήτων |
+| `accessurl` | Σελίδες διαχείρισης πολλαπλών URL (portal) |
+| `branch` | Σελίδες υποκαταστήματος / δικτύου campus |
+| `room` | Σελίδες εικονικού δωματίου |
+| `buycourses` | Σελίδες αγοράς μαθημάτων |
+| `documents` | Διαχείριση εγγράφων |
+| `assignments` | Ροή εργασιών αναθέσεων |
+| `links` | Διαχείριση εξωτερικών συνδέσμων |
+| `glossary` | Διαχείριση γλωσσαρίου |
+| `attendance` | Παρακολούθηση προσέλευσης |
+| `lp` | Player και επεξεργαστής μονοπατιού μάθησης |
+| `dropbox` | Dropbox / ανταλλαγή αρχείων |
+| `blog` | Σελίδες blog |
+| `blogAdmin` | Διαχείριση blog |
+| `coursemaintenance` | Αντίγραφο ασφαλείας και αποκατάσταση μαθήματος |
+| `catalogue` | Κατάλογοι μαθημάτων και συνεδριών |
 
-## Key Routes
+## Κύριες Διαδρομές
 
-| Path | View | Description |
-|------|------|-------------|
-| `/` | `AppIndex.vue` (or custom) | Application entry point |
-| `/home` | `pages/Home.vue` | Platform home page |
-| `/login` | `pages/Login.vue` | Login page |
-| `/courses` | `views/user/courses/List.vue` | User's enrolled courses |
-| `/sessions` | `views/user/sessions/SessionsCurrent.vue` | Current sessions |
-| `/sessions/past` | `views/user/sessions/SessionsPast.vue` | Past sessions |
-| `/sessions/upcoming` | `views/user/sessions/SessionsUpcoming.vue` | Upcoming sessions |
-| `/course/:id/home` | `views/course/CourseHome.vue` | Course homepage |
-| `/account/home` | `views/account/Home.vue` | User profile |
-| `/admin` | Admin views | Administration panel |
-| `/faq` | `pages/Faq.vue` | FAQ page |
+| Διαδρομή | View | Περιγραφή |
+|----------|------|-----------|
+| `/` | `AppIndex.vue` (ή προσαρμοσμένο) | Σημείο εισόδου εφαρμογής |
+| `/home` | `pages/Home.vue` | Αρχική σελίδα πλατφόρμας |
+| `/login` | `pages/Login.vue` | Σελίδα σύνδεσης |
+| `/courses` | `views/user/courses/List.vue` | Εγγεγραμμένα μαθήματα χρήστη |
+| `/sessions` | `views/user/sessions/SessionsCurrent.vue` | Τρέχουσες συνεδρίες |
+| `/sessions/past` | `views/user/sessions/SessionsPast.vue` | Προηγούμενες συνεδρίες |
+| `/sessions/upcoming` | `views/user/sessions/SessionsUpcoming.vue` | Επερχόμενες συνεδρίες |
+| `/course/:id/home` | `views/course/CourseHome.vue` | Αρχική σελίδα μαθήματος |
+| `/account/home` | `views/account/Home.vue` | Προφίλ χρήστη |
+| `/admin` | Admin views | Πίνακας διαχείρισης |
+| `/faq` | `pages/Faq.vue` | Σελίδα ΣΣΣ |
 
-## Route Guards
+## Φύλακες Διαδρομών
 
-The router uses navigation guards (declared with `beforeEach` and `afterEach`) to:
+Το router χρησιμοποιεί φύλακες πλοήγησης (δηλωμένους με `beforeEach` και `afterEach`) για να:
 
-* Check authentication status via `useSecurityStore` and redirect unauthenticated users to `/login`
-* Verify course context via `useCidReqStore`
-* Apply page-type CSS classes during SPA navigation (replacing what Twig's `PageHelper` would do on a full page load)
-* Support custom Vue template overrides — the entry component at `/` is swapped for a custom `AppIndex.vue` when a custom Vue template is enabled (`var/vue_templates/pages/AppIndex.vue`)
+* Ελέγχει την κατάσταση πιστοποίησης μέσω `useSecurityStore` και να ανακατευθύνει μη πιστοποιημένους χρήστες στο `/login`
+* Επαληθεύει το πλαίσιο μαθήματος μέσω `useCidReqStore`
+* Εφαρμόζει CSS κλάσεις τύπου σελίδας κατά την πλοήγηση SPA (αντικαθιστώντας αυτό που θα έκανε το Twig's `PageHelper` σε πλήρη φόρτωση σελίδας)
+* Υποστηρίζει προσαρμοσμένες παρακάμψεις προτύπων Vue — το συστατικό εισόδου στο `/` αντικαθίσταται με προσαρμοσμένο `AppIndex.vue` όταν ενεργοποιείται προσαρμοσμένο Vue πρότυπο (`var/vue_templates/pages/AppIndex.vue`)
 
-## View Organization
+## Οργάνωση Views
 
-Views are in `assets/vue/views/`, organized by feature:
+Τα views βρίσκονται στο `assets/vue/views/`, οργανωμένα ανά χαρακτηριστικό:
 
 ```
 views/

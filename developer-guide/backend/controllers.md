@@ -1,71 +1,71 @@
 # Controllers
 
-Chamilo 2.0 uses a large number of controllers (in the order of dozens) organized across the bundles. The exact count drifts version to version — treat the names below as illustrative, not exhaustive.
+Το Chamilo 2.0 χρησιμοποιεί μεγάλο αριθμό controllers (της τάξης δεκάδων) οργανωμένων σε bundles. Ο ακριβής αριθμός ποικίλλει από έκδοση σε έκδοση — αντιμετωπίστε τα ονόματα παρακάτω ως εικονογραφητικά, όχι εξαντλητικά.
 
 ## Controller Types
 
 ### Admin Controllers
 
-Located in `src/CoreBundle/Controller/Admin/`. Handle platform administration:
+Βρίσκονται στο `src/CoreBundle/Controller/Admin/`. Διαχειρίζονται τη διαχείριση της πλατφόρμας:
 
-* `AdminController` — Dashboard, file info, email testing
+* `AdminController` — Dashboard, πληροφορίες αρχείου, δοκιμή email
 * `UserListController` — User CRUD
-* `CourseListController` — Course management
-* `SessionAdminController` — Session management
-* `SettingsController` — Platform settings
-* `SecurityController` — Login attempts, IDS events
-* `PluginsController` — Plugin management
-* `RoomController` — Room management
+* `CourseListController` — Διαχείριση μαθημάτων
+* `SessionAdminController` — Διαχείριση συνεδριών
+* `SettingsController` — Ρυθμίσεις πλατφόρμας
+* `SecurityController` — Προσπάθειες σύνδεσης, γεγονότα IDS
+* `PluginsController` — Διαχείριση plugins
+* `RoomController` — Διαχείριση αιθουσών
 
 ### API Action Controllers
 
-Custom API Platform actions in `src/CoreBundle/Controller/Api/`:
+Προσαρμοσμένες ενέργειες API Platform στο `src/CoreBundle/Controller/Api/`:
 
-These extend API Platform's built-in CRUD with custom business logic. Examples:
+Αυτές επεκτείνουν το ενσωματωμένο CRUD της API Platform με προσαρμοσμένη λογική επιχειρήσεων. Παραδείγματα:
 
-* `CreateDocumentFileAction` — File upload for documents
-* `CreateStudentPublicationFileAction` — Assignment submission upload
-* `UpdateVisibilityDocument` — Toggle document visibility
-* `ExportCGlossaryAction` — Export glossary
-* `MoveDocumentAction` — Move a document to a different folder
+* `CreateDocumentFileAction` — Ανέβασμα αρχείου για έγγραφα
+* `CreateStudentPublicationFileAction` — Ανέβασμα υποβολής εργασίας
+* `UpdateVisibilityDocument` — Εναλλαγή ορατότητας εγγράφου
+* `ExportCGlossaryAction` — Εξαγωγή γλωσσάριου
+* `MoveDocumentAction` — Μετακίνηση εγγράφου σε διαφορετικό φάκελο
 
-For read/write operations that don't need a dedicated HTTP controller — i.e. when you only want to change *how* an item or collection is fetched or persisted — prefer a **State Provider** or **State Processor** (see below). API Action Controllers are best reserved for endpoints that genuinely need request-level logic (file uploads, custom response formats, multi-step flows).
+Για λειτουργίες ανάγνωσης/εγγραφής που δεν χρειάζονται ειδικό HTTP controller — δηλαδή όταν θέλετε μόνο να αλλάξετε *πώς* ανακτάται ή αποθηκεύεται ένα αντικείμενο ή συλλογή — προτιμήστε ένα **State Provider** ή **State Processor** (δείτε παρακάτω). Τα API Action Controllers είναι καλύτερα να διατηρούνται για endpoints που πραγματικά χρειάζονται λογική σε επίπεδο αιτήματος (ανεβάσματα αρχείων, προσαρμοσμένες μορφές απόκρισης, πολυβή flows).
 
 ### AI Controller
 
-`src/CoreBundle/Controller/AiController.php` is the entry point for AI-related endpoints (Aiken question generation, learning-path generation, image/video generation, open-answer grading, document analysis…). The exact set of routes evolves quickly — read the controller's `#[Route]` attributes for the current list rather than relying on a copy here.
+Το `src/CoreBundle/Controller/AiController.php` είναι το σημείο εισόδου για endpoints σχετικά με AI (δημιουργία ερωτήσεων Aiken, δημιουργία μονοπατιού μάθησης, δημιουργία εικόνας/βίντεο, βαθμολόγηση ανοιχτών απαντήσεων, ανάλυση εγγράφων…). Το ακριβές σύνολο διαδρομών εξελίσσεται γρήγορα — διαβάστε τα χαρακτηριστικά `#[Route]` του controller για την τρέχουσα λίστα αντί να βασίζεστε σε αντίγραφο εδώ.
 
 ### Chat Controller
 
-`src/CoreBundle/Controller/ChatController.php` handles real-time chat and AI tutor:
+Το `src/CoreBundle/Controller/ChatController.php` διαχειρίζεται real-time chat και AI tutor:
 
-* User-to-user messaging
-* AI tutor chat (docked chat panel)
-* Message history and polling
+* Μηνύματα χρήστη-προς-χρήστη
+* Chat AI tutor (προσαρτημένο πάνελ chat)
+* Ιστορικό μηνυμάτων και polling
 
 ## API Platform State Providers & Processors
 
-Not every API endpoint is backed by a controller. API Platform 3 splits the work between two interfaces:
+Δεν υποστηρίζεται κάθε endpoint API από controller. Η API Platform 3 χωρίζει τη δουλειά μεταξύ δύο διεπαφών:
 
-* **State Providers** (`ApiPlatform\State\ProviderInterface`) — return data for `GET` operations (a single item or a collection).
-* **State Processors** (`ApiPlatform\State\ProcessorInterface`) — handle writes for `POST`, `PUT`, `PATCH`, and `DELETE` operations.
+* **State Providers** (`ApiPlatform\State\ProviderInterface`) — επιστρέφουν δεδομένα για λειτουργίες `GET` (ένα μεμονωμένο αντικείμενο ή μια συλλογή).
+* **State Processors** (`ApiPlatform\State\ProcessorInterface`) — διαχειρίζονται εγγραφές για λειτουργίες `POST`, `PUT`, `PATCH` και `DELETE`.
 
-Chamilo's implementations live in `src/CoreBundle/State/` (around 35+ classes). They are wired to entities via the `provider:` and `processor:` arguments of `#[ApiResource]` operations rather than via routes.
+Οι υλοποιήσεις του Chamilo βρίσκονται στο `src/CoreBundle/State/` (περίπου 35+ κλάσεις). Συνδέονται με οντότητες μέσω των παραμέτρων `provider:` και `processor:` των λειτουργιών `#[ApiResource]` αντί μέσω διαδρομών.
 
-### When to use them
+### Πότε να τα χρησιμοποιήσετε
 
-Reach for a provider/processor — instead of an API Action Controller — when:
+Χρησιμοποιήστε ένα provider/processor — αντί για API Action Controller — όταν:
 
-* The endpoint follows the standard REST shape (list / read / create / update / delete) but needs custom data assembly or persistence logic.
-* You need to filter, denormalize, or enrich the result of a collection or item read (e.g. respecting the current Access URL, course context, or visibility rules).
-* You need to run side effects on write (audit logs, file generation, related-entity updates) while keeping API Platform's normalization, validation, and pagination pipeline.
-* You want to keep the operation discoverable in the OpenAPI / Hydra schema without registering a custom route.
+* Το endpoint ακολουθεί το τυπικό σχήμα REST (λίστα / ανάγνωση / δημιουργία / ενημέρωση / διαγραφή) αλλά χρειάζεται προσαρμοσμένη συναρμολόγηση δεδομένων ή λογική αποθήκευσης.
+* Χρειάζεται να φιλτράρετε, να αποκανονίσετε ή να εμπλουτίσετε το αποτέλεσμα μιας ανάγνωσης συλλογής ή αντικειμένου (π.χ. σεβόμενοι το τρέχον Access URL, πλαίσιο μαθήματος ή κανόνες ορατότητας).
+* Χρειάζεται να εκτελέσετε παρεπόμενες ενέργειες κατά την εγγραφή (καταγραφές ελέγχου, δημιουργία αρχείου, ενημερώσεις σχετικών οντοτήτων) διατηρώντας τον αγωγό κανονικοποίησης, επικύρωσης και σελιδοποίησης της API Platform.
+* Θέλετε να διατηρήσετε τη λειτουργία ανακαλύψιμη στο σχήμα OpenAPI / Hydra χωρίς να καταχωρήσετε προσαρμοσμένη διαδρομή.
 
-If the endpoint instead needs raw `Request` access, returns a non-resource payload (file download, CSV, redirect), or orchestrates a multi-step flow, an API Action Controller in `src/CoreBundle/Controller/Api/` is a better fit.
+Αν το endpoint αντίθετα χρειάζεται πρόσβαση σε ακατέργαστο `Request`, επιστρέφει μη-πόρο payload (λήψη αρχείου, CSV, ανακατεύθυνση) ή συντονίζει πολυβή flow, ένα API Action Controller στο `src/CoreBundle/Controller/Api/` είναι καλύτερη επιλογή.
 
-### Wiring on the entity
+### Σύνδεση στην οντότητα
 
-Reference the class on the operation:
+Αναφορά της κλάσης στη λειτουργία:
 
 ```php
 #[ApiResource(
@@ -77,9 +77,9 @@ Reference the class on the operation:
 class ColorTheme { ... }
 ```
 
-### Provider example
+### Παράδειγμα Provider
 
-`src/CoreBundle/State/DocumentProvider.php` resolves a `CDocument` by URI variable and throws `NotFoundHttpException` when missing:
+Το `src/CoreBundle/State/DocumentProvider.php` επιλύει ένα `CDocument` μέσω μεταβλητής URI και εκτοξεύει `NotFoundHttpException` όταν λείπει:
 
 ```php
 final class DocumentProvider implements ProviderInterface
@@ -99,9 +99,10 @@ final class DocumentProvider implements ProviderInterface
 }
 ```
 
-### Processor example
+---
+### Παράδειγμα επεξεργαστή
 
-`src/CoreBundle/State/ColorThemeStateProcessor.php` delegates to the default Doctrine `persistProcessor`, then runs side effects (generates a CSS file on the themes Flysystem filesystem, links the theme to the current Access URL):
+Το `src/CoreBundle/State/ColorThemeStateProcessor.php` αναθέτει στον προεπιλεγμένο επεξεργαστή `persistProcessor` του Doctrine, στη συνέχεια εκτελεί παρενέργειες (δημιουργεί ένα αρχείο CSS στο σύστημα αρχείων Flysystem των θεμάτων, συνδέει το θέμα με την τρέχουσα `Access URL`):
 
 ```php
 final readonly class ColorThemeStateProcessor implements ProcessorInterface
@@ -127,16 +128,16 @@ final readonly class ColorThemeStateProcessor implements ProcessorInterface
 }
 ```
 
-### Patterns to know
+### Σχήματα που πρέπει να γνωρίζετε
 
-* **Compose with the default processor.** Decorate `ProcessorInterface $persistProcessor` (Doctrine's built-in) so Chamilo-specific logic runs *around* the standard persist, not instead of it.
-* **Collection providers do their own pagination.** When a collection provider builds a custom query, it must respect `?page`, `?itemsPerPage`, and search filters — API Platform's automatic paginator only kicks in for the default Doctrine collection provider.
-* **One class per resource + operation kind is common**, but a provider can serve several operations (see `UsergroupStateProvider`, reused across four operations on `Usergroup`).
-* **Naming convention**: `<Entity>StateProvider` / `<Entity>StateProcessor` for resource-wide handlers; `<Entity><Action>Processor` (e.g. `CBlogAssignAuthorProcessor`, `CStudentPublicationDeleteProcessor`) for narrower operations.
+* **Σύνθεση με τον προεπιλεγμένο επεξεργαστή.** Διακοσμήστε το `ProcessorInterface $persistProcessor` (ενσωματωμένο του Doctrine) ώστε η λογική ειδική για το Chamilo να εκτελείται *γύρω* από την τυπική αποθήκευση, όχι αντί αυτής.
+* **Οι πάροχοι συλλογών κάνουν τη δική τους σελιδοποίηση.** Όταν ένας πάροχος συλλογής δημιουργεί προσαρμοσμένη ερώτηση, πρέπει να σέβεται τα `?page`, `?itemsPerPage` και φίλτρα αναζήτησης — ο αυτόματος σελιδοποιητής του API Platform ενεργοποιείται μόνο για τον προεπιλεγμένο πάροχο συλλογής Doctrine.
+* **Μία κλάση ανά πόρο + είδος λειτουργίας είναι συνηθισμένη**, αλλά ένας πάροχος μπορεί να εξυπηρετεί αρκετές λειτουργίες (δείτε το `UsergroupStateProvider`, που επαναχρησιμοποιείται σε τέσσερις λειτουργίες στο `Usergroup`).
+* **Σύμβαση ονοματολογίας**: `<Entity>StateProvider` / `<Entity>StateProcessor` για handlers σε όλο τον πόρο· `<Entity><Action>Processor` (π.χ. `CBlogAssignAuthorProcessor`, `CStudentPublicationDeleteProcessor`) για πιο στενές λειτουργίες.
 
-## Routing
+## Δρομολόγηση
 
-Controllers use **PHP 8 attributes** for route definitions:
+Οι controllers χρησιμοποιούν **χαρακτηριστικά PHP 8** για ορισμούς διαδρομών:
 
 ```php
 #[Route('/admin/user-list')]
@@ -147,12 +148,12 @@ class UserListController extends AbstractController
 }
 ```
 
-API Platform resources use `#[ApiResource]` attributes on entities, with custom operations pointing to controller actions.
+Οι πόροι του API Platform χρησιμοποιούν χαρακτηριστικά `#[ApiResource]` στις οντότητες, με προσαρμοσμένες λειτουργίες που δείχνουν σε ενέργειες controller.
 
 ## Traits
 
-Controllers use shared traits for common functionality:
+Οι controllers χρησιμοποιούν κοινά traits για κοινές λειτουργίες:
 
-* `ControllerTrait` — Access to settings, serializer, and common services
-* `CourseControllerTrait` — Course context helpers
-* `ResourceControllerTrait` — Resource node operations
+* `ControllerTrait` — Πρόσβαση σε ρυθμίσεις, serializer και κοινές υπηρεσίες
+* `CourseControllerTrait` — Βοηθοί περιβάλλοντος μαθήματος
+* `ResourceControllerTrait` — Λειτουργίες κόμβων πόρων

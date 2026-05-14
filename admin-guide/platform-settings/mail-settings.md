@@ -1,148 +1,146 @@
-# Mail Settings
+# Ρυθμίσεις Αλληλογραφίας
 
-How outgoing mail is built — sender identity, layout, signature, and special-purpose addresses.
+Πώς δημιουργείται η εξερχόμενη αλληλογραφία — ταυτότητα αποστολέα, διάταξη, υπογραφή και ειδικές διευθύνσεις.
 
-Access these settings under **Administration > Configuration settings > Mail**. This category contains **18 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+Πρόσβαση σε αυτές τις ρυθμίσεις στο **Administration > Configuration settings > Mail**. Αυτή η κατηγορία περιέχει **18 ρυθμίσεις**, που παρατίθενται παρακάτω με τον τίτλο και το σχόλιο που παρέχονται στα fixtures των ρυθμίσεων της πλατφόρμας (`SettingsCurrentFixtures.php`).
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> Το όνομα της μεταβλητής στον κώδικα εμφανίζεται σε monospace. Χρησιμοποιήστε το όταν προγραμματίζετε μέσω του API ή όταν χρειάζεται να αλλάξετε αυτές τις ρυθμίσεις σε παγκόσμιο επίπεδο επεξεργαζόμενοι το [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
 
-## Settings
+## Ρυθμίσεις
 
 ### `allow_email_editor_for_anonymous`
 
-**E-mail editor for anonymous**
+**Επεξεργαστής ηλεκτρονικού ταχυδρομείου για ανώνυμους**
 
-Allow anonymous users to send e-mails from the platform. In this day and age of information security this is not a recommended option.
+Επιτρέπει στους ανώνυμους χρήστες να στέλνουν ηλεκτρονικά μηνύματα από την πλατφόρμα. Στην εποχή μας της ασφάλειας πληροφοριών, αυτή δεν είναι συνιστώμενη επιλογή.
 
-*Default: `true`*
+*Προεπιλογή: `true`*
 
 
 ### `cron_notification_help_desk`
 
-**E-mail addresses to send cronjobs execution reports**
+**Διευθύνσεις ηλεκτρονικού ταχυδρομείου για αναφορές εκτέλεσης cronjobs**
 
-Given as array of e-mail addresses. Does not work for all cronjobs yet.
+Δίνονται ως πίνακας διευθύνσεων ηλεκτρονικού ταχυδρομείου. Δεν λειτουργεί ακόμη για όλες τις cronjobs.
 
 ### `mail_content_style`
 
-**Extra e-mail HTML body attributes**
+**Επιπλέον χαρακτηριστικά HTML σώματος ηλεκτρονικού ταχυδρομείου**
 
-Extra HTML attributes to apply to the body tag of generated notification emails.
+Επιπλέον χαρακτηριστικά HTML που εφαρμόζονται στην ετικέτα body των γενόμενων email ειδοποιήσεων.
 
 ### `mail_header_style`
 
-**Extra e-mail HTML header attributes**
+**Επιπλέον χαρακτηριστικά HTML κεφαλίδας ηλεκτρονικού ταχυδρομείου**
 
-Extra HTML attributes to apply to the header section of generated notification emails.
+Επιπλέον χαρακτηριστικά HTML που εφαρμόζονται στην ενότητα κεφαλίδας των γενόμενων email ειδοποιήσεων.
 
 ### `mailer_debug_enable`
 
-**Mail: Debug**
+**Αλληλογραφία: Αποσφαλμάτωση**
 
-Select whether you want to enable the e-mail sending debug logs. These will give you more information on what is happening when connecting to the mail service, but are not elegant and might break page design. Only use when there is not user activity.
+Επιλέξτε αν θέλετε να ενεργοποιήσετε τα αρχεία καταγραφής αποσφαλμάτωσης αποστολής ηλεκτρονικού ταχυδρομείου. Αυτά θα σας δώσουν περισσότερες πληροφορίες για το τι συμβαίνει κατά τη σύνδεση στην υπηρεσία αλληλογραφίας, αλλά δεν είναι κομψά και μπορεί να σπάσουν τον σχεδιασμό της σελίδας. Χρησιμοποιήστε μόνο όταν δεν υπάρχει δραστηριότητα χρηστών.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 
 ### `mailer_dkim`
 
-**Mail: DKIM headers**
+**Αλληλογραφία: Κεφαλίδες DKIM**
 
-Enter a JSON array of your DKIM configuration settings (see example).
+Εισαγάγετε έναν πίνακα JSON με τις ρυθμίσεις διαμόρφωσης DKIM σας (δείτε παράδειγμα).
 
 ### `mailer_dsn`
 
-**Mail DSN**
+**DSN αλληλογραφίας**
 
-The DSN fully includes all parameters needed to connect to the mail service. You can learn more at https://symfony.com/doc/6.4/mailer.html#using-built-in-transports. Here are a few examples of supported DSN syntaxes: https://symfony.com/doc/6.4/mailer.html#using-a-3rd-party-transport
+Το DSN περιλαμβάνει πλήρως όλες τις παραμέτρους που απαιτούνται για σύνδεση στην υπηρεσία αλληλογραφίας. Μπορείτε να μάθετε περισσότερα στο https://symfony.com/doc/6.4/mailer.html#using-built-in-transports. Εδώ είναι μερικά παραδείγματα υποστηριζόμενων συντακτικών DSN: https://symfony.com/doc/6.4/mailer.html#using-a-3rd-party-transport
 
-*Default: `null://null`*
+*Προεπιλογή: `null://null`*
 
 
 ### `mailer_exclude_json`
 
-**Mail: Avoid using LD+JSON**
+**Αλληλογραφία: Αποφυγή χρήσης LD+JSON**
 
-Some e-mail clients do not understand the descriptive LD+JSON format, showing it as a loose JSON string to the final user. If this is your case, you might want to set the variable below to 'false' to disable this header.
+Μερικοί πελάτες ηλεκτρονικού ταχυδρομείου δεν κατανοούν τη δομημένη μορφή LD+JSON, εμφανίζοντάς την ως χαλαρή συμβολοσειρά JSON στον τελικό χρήστη. Αν ισχύει αυτό για εσάς, μπορείτε να ορίσετε τη μεταβλητή παρακάτω σε 'false' για να απενεργοποιήσετε αυτή την κεφαλίδα.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 
 ### `mailer_from_email`
 
-**Send all e-mails from this e-mail address**
+**Αποστολή όλων των ηλεκτρονικών μηνυμάτων από αυτή τη διεύθυνση ηλεκτρονικού ταχυδρομείου**
 
-Sets the default email address used in the "from" field of emails.
+Ορίζει τη προεπιλεγμένη διεύθυνση email που χρησιμοποιείται στο πεδίο "from" των email.
 
 ### `mailer_from_name`
 
-**Send all e-mails as originating from this (organizational) name**
+**Αποστολή όλων των ηλεκτρονικών μηνυμάτων ως προερχόμενα από αυτό το (οργανωτικό) όνομα**
 
-Sets the default display name used for sending platform emails. e.g. "Support team".
+Ορίζει το προεπιλεγμένο όνομα εμφάνισης που χρησιμοποιείται για την αποστολή email της πλατφόρμας. π.χ. "Ομάδα υποστήριξης".
 
 ### `mailer_mails_charset`
 
-**Mail: character set**
+**Αλληλογραφία: κωδικοποίηση χαρακτήρων**
 
-In case you need to define the charset to use when sending those e-mails. Leave empty if you're not sure.
+Σε περίπτωση που χρειάζεται να ορίσετε την κωδικοποίηση χαρακτήρων που θα χρησιμοποιηθεί κατά την αποστολή αυτών των ηλεκτρονικών μηνυμάτων. Αφήστε κενό αν δεν είστε σίγουροι.
 
-*Default: `UTF-8`*
+*Προεπιλογή: `UTF-8`*
 
 
 ### `mailer_xoauth2`
 
-**Mail: XOAuth2 options**
+**Αλληλογραφία: Επιλογές XOAuth2**
 
-If you use some XOAuth2-based e-mail service, use this setting in JSON to save your specific configuration (see example) and select XOAuth2 in the mail service setting.
+Αν χρησιμοποιείτε υπηρεσία ηλεκτρονικού ταχυδρομείου βασισμένη σε XOAuth2, χρησιμοποιήστε αυτή τη ρύθμιση σε JSON για να αποθηκεύσετε τη συγκεκριμένη διαμόρφωσή σας (δείτε παράδειγμα) και επιλέξτε XOAuth2 στη ρύθμιση υπηρεσίας αλληλογραφίας.
 
 ### `messages_hide_mail_content`
 
-**Hide e-mail content to bring users to platform**
+**Απόκρυψη περιεχομένου ηλεκτρονικού ταχυδρομείου για προσέλκυση χρηστών στην πλατφόρμα**
 
-Prefer short e-mail versions with a link to the messaging space on the platform to increase platform-based engagement.
+Προτιμήστε σύντομες εκδόσεις ηλεκτρονικού ταχυδρομείου με σύνδεσμο στον χώρο μηνυμάτων της πλατφόρμας για αύξηση της εμπλοκής βασισμένης στην πλατφόρμα.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 
 ### `notifications_extended_footer_message`
 
-**Extended notifications footer**
+**Εκτεταμένο πόδι ειδοποιήσεων**
 
-Add a custom extra footer for notifications emails for a specific language, for example for privacy policy notices. Multiple languages and paragraphs can be added.
+Προσθέστε προσαρμοσμένο επιπλέον πόδι για email ειδοποιήσεων για συγκεκριμένη γλώσσα, π.χ. για ειδοποιήσεις πολιτικής απορρήτου. Μπορούν να προστεθούν πολλαπλές γλώσσες και παράγραφοι.
 
 ### `send_notification_score_in_percentage`
 
-**Send score in percentage in test results notification**
+**Αποστολή βαθμολογίας σε ποσοστό στην ειδοποίηση αποτελεσμάτων δοκιμής**
 
-Sends exercise scores as percentages instead of points in test result notification emails.
+Αποστέλλει βαθμολογίες ασκήσεων ως ποσοστά αντί για πόντους σε email ειδοποιήσεων αποτελεσμάτων δοκιμής.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 
 ### `send_two_inscription_confirmation_mail`
 
-**Send 2 registration e-mails**
+**Αποστολή 2 email εγγραφής**
 
-Send two separate e-mails on registration. One for the username, another one for the password.
+Αποστολή δύο ξεχωριστών email κατά την εγγραφή. Ένα για το όνομα χρήστη, άλλο ένα για τον κωδικό πρόσβασης.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 
 ### `show_user_email_in_notification`
 
-**Show sender's e-mail address in notifications**
+**Εμφάνιση διεύθυνσης email αποστολέα σε ειδοποιήσεις**
 
-Includes the sender's email address with their name in personal message and notification emails.
+Περιλαμβάνει τη διεύθυνση email του αποστολέα μαζί με το όνομά του σε προσωπικά μηνύματα και email ειδοποιήσεων.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 
 ### `update_users_email_to_dummy_except_admins`
 
-**Update users e-mail to dummy value during imports**
+**Ενημέρωση email χρηστών σε ψεύτικη τιμή κατά τις εισαγωγές**
 
-During special CSV cron imports of users, automatically replace e-mails with dummy e-mail username@example.com.
+Κατά τις ειδικές εισαγωγές CSV χρηστών μέσω cron, αντικαθιστά αυτόματα τα email με ψεύτικο email username@example.com.
 
-*Default: `false`*
-
-
+*Προεπιλογή: `false`*

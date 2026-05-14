@@ -1,418 +1,418 @@
-# Learning Paths Settings
+# Ρυθμίσεις Μονοπατιών Μάθησης
 
-Defaults and behaviour of the **Learning Paths** tool — autostart, default view, prerequisites, SCORM behaviour and similar.
+Προεπιλογές και συμπεριφορά του εργαλείου **Learning Paths** — αυτόματη εκκίνηση, προεπιλεγμένη προβολή, προϋποθέσεις, συμπεριφορά SCORM και παρόμοια.
 
-Access these settings under **Administration > Configuration settings > Learning Paths**. This category contains **51 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+Πρόσβαση σε αυτές τις ρυθμίσεις στο **Administration > Configuration settings > Learning Paths**. Αυτή η κατηγορία περιέχει **51 ρυθμίσεις**, που παρατίθενται παρακάτω με τον τίτλο και το σχόλιο που παρέχονται στα fixtures των ρυθμίσεων της πλατφόρμας (`SettingsCurrentFixtures.php`).
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> Το όνομα της μεταβλητής στον κώδικα εμφανίζεται σε monospace. Χρησιμοποιήστε το κατά την προγραμματισμό μέσω API ή όταν χρειάζεται να αλλάξετε αυτές τις ρυθμίσεις σε παγκόσμιο επίπεδο επεξεργαζόμενοι το [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
 
-## Settings
+## Ρυθμίσεις
 
 ### `add_all_files_in_lp_export`
 
-**Export all files when exporting a learning path**
+**Εξαγωγή όλων των αρχείων κατά την εξαγωγή μονοπατιού μάθησης**
 
-When exporting a LP, all files and folders in the same path of an html will be exported too.
+Κατά την εξαγωγή ενός LP, εξάγονται επίσης όλα τα αρχεία και φάκελοι στο ίδιο μονοπάτι ενός html.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 
 ### `allow_htaccess_import_from_scorm`
 
-**Allow .htaccess from SCORM packages**
+**Επιτρέψτε .htaccess από πακέτα SCORM**
 
-Normally, all .htaccess files are filtered and removed when importing content in Chamilo. This feature allows .htaccess to be imported if it is present in a SCORM package.
+Κανονικά, όλα τα αρχεία .htaccess φιλτράρονται και αφαιρούνται κατά την εισαγωγή περιεχομένου στο Chamilo. Αυτή η λειτουργία επιτρέπει την εισαγωγή .htaccess αν υπάρχει σε πακέτο SCORM.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 
 ### `allow_import_scorm_package_in_course_builder`
 
-**SCORM import within course import**
+**Εισαγωγή SCORM κατά την εισαγωγή μαθήματος**
 
-Enable to copy the directory structure of SCORM packages when restoring a course (from the course maintenance tool).
+Ενεργοποιήστε για να αντιγράψετε τη δομή καταλόγου πακέτων SCORM κατά την αποκατάσταση μαθήματος (από το εργαλείο συντήρησης μαθήματος).
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 
 ### `allow_lp_chamilo_export`
 
-**Export learning paths in the Chamilo backup format**
+**Εξαγωγή μονοπατιών μάθησης στη μορφή αντιγράφων ασφαλείας Chamilo**
 
-Enable the possibility to export any of your learning paths in a Chamilo course backup format.
+Ενεργοποιήστε τη δυνατότητα εξαγωγής οποιουδήποτε μονοπατιού μάθησης σας σε μορφή αντιγράφων ασφαλείας μαθήματος Chamilo.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 
 ### `allow_lp_return_link`
 
-**Show learning paths return link**
+**Εμφάνιση συνδέσμου επιστροφής σε μονοπάτια μάθησης**
 
-Disable this option to hide the 'Return to homepage' button in the learning paths
+Απενεργοποιήστε αυτή την επιλογή για να αποκρύψετε το κουμπί 'Επιστροφή στην αρχική σελίδα' στα μονοπάτια μάθησης
 
-*Default: `true`*
+*Προεπιλογή: `true`*
 
 
 ### `allow_lp_subscription_to_usergroups`
 
-**Learning paths subscription for classes**
+**Εγγραφή σε μονοπάτια μάθησης για τάξεις**
 
-Enable subscription to learning paths and learning path categories to groups/classes.
+Ενεργοποιήστε την εγγραφή σε μονοπάτια μάθησης και κατηγορίες μονοπατιών μάθησης σε ομάδες/τάξεις.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 
 ### `allow_session_lp_category`
 
-**Learning paths categories can be managed in sessions**
+**Οι κατηγορίες μονοπατιών μάθησης μπορούν να διαχειριστούν σε συνεδρίες**
 
-[inferred] Enable learners and instructors to organize and manage learning paths by categories within session courses.
+[inferred] Ενεργοποιήστε για να επιτρέψετε σε μαθητές και διδάσκοντες να οργανώνουν και να διαχειρίζονται μονοπάτια μάθησης ανά κατηγορίες εντός μαθημάτων συνεδρίας.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 
 ### `allow_teachers_to_access_blocked_lp_by_prerequisite`
 
-**Teachers can access blocked learning paths**
+**Οι διδάσκοντες μπορούν να έχουν πρόσβαση σε μπλοκαρισμένα μονοπάτια μάθησης**
 
-Teachers do not need to pass complete learning paths to have access to a prerequisites-blocked learning path.
+Οι διδάσκοντες δεν χρειάζεται να ολοκληρώσουν πλήρως μονοπάτια μάθησης για να έχουν πρόσβαση σε μονοπάτι μάθησης που είναι μπλοκαρισμένο από προϋποθέσεις.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 
 ### `disable_js_in_lp_view`
 
-**Disable JS in learning paths view**
+**Απενεργοποίηση JS στην προβολή μονοπατιών μάθησης**
 
-Disable JS files that Chamilo usually adds to HTML files in the learning path (while displaying them).
+Απενεργοποιήστε τα αρχεία JS που συνήθως προσθέτει το Chamilo στα αρχεία HTML στα μονοπάτια μάθησης (κατά την εμφάνισή τους).
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 
 ### `disable_my_lps_page`
 
-**Hide 'My learning paths' page**
+**Απόκρυψη σελίδας 'Τα μονοπάτια μάθησής μου'**
 
-The page 'My learning path' was added in 1.11. Use this option to hide it.
+Η σελίδα 'Το μονοπάτι μάθησής μου' προστέθηκε στην έκδοση 1.11. Χρησιμοποιήστε αυτή την επιλογή για να την αποκρύψετε.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 ### `download_files_after_all_lp_finished`
 
-**Download button after finishing learning paths**
+**Κουμπί λήψης μετά την ολοκλήρωση όλων των μονοπατιών μάθησης**
 
-Show download files button after finishing all LP. Example: if ABC is the course code, and 1 and 100 are the doc id, choose: ['courses' => ['ABC' => [1, 100]]].
+Εμφανίστε κουμπί λήψης αρχείων μετά την ολοκλήρωση όλων των LP. Παράδειγμα: αν ABC είναι ο κωδικός μαθήματος, και 1 και 100 είναι το doc id, επιλέξτε: ['courses' => ['ABC' => [1, 100]]].
 
 ### `force_edit_exercise_in_lp`
 
-**Edition of tests included in learning paths**
+**Επεξεργασία δοκιμών που περιλαμβάνονται σε μονοπάτια μάθησης**
 
-Enable editing tests even if they have been included in a learning path. The default is to prevent edition if the test is in a learning path, because that can affect consistency of tracking among many learners if test modifications are significant.
+Ενεργοποιήστε την επεξεργασία δοκιμών ακόμα και αν έχουν συμπεριληφθεί σε μονοπάτι μάθησης. Η προεπιλογή είναι να εμποδίζεται η επεξεργασία αν η δοκιμή βρίσκεται σε μονοπάτι μάθησης, επειδή αυτό μπορεί να επηρεάσει τη συνέπεια της παρακολούθησης μεταξύ πολλών μαθητών αν οι τροποποιήσεις στη δοκιμή είναι σημαντικές.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 ### `hide_accessibility_label_on_lp_item`
 
-**Hide requirements label in learning paths**
+**Απόκρυψη ετικέτας απαιτήσεων σε στοιχεία μονοπατιών μάθησης**
 
-Hide the pre-requisites tooltip on learning path items. This is mostly an estaethic choice.
+Αποκρύψτε το tooltip των προϋποθέσεων στα στοιχεία μονοπατιών μάθησης. Αυτό είναι κυρίως αισθητική επιλογή.
 
-*Default: `true`*
+*Προεπιλογή: `true`*
 
 ### `hide_lp_time`
 
-**Hide time from learning paths records**
+**Απόκρυψη χρόνου από εγγραφές μονοπατιών μάθησης**
 
-Hide learning paths time spent in reports in general.
+Αποκρύψτε τον χρόνο των μονοπατιών μάθησης στις αναφορές γενικά.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 ### `hide_scorm_copy_link`
 
-**Hide SCORM Copy**
+**Απόκρυψη Αντιγραφής SCORM**
 
-Hide the Learning Path Copy icon from the Learning Paths list
+Αποκρύψτε το εικονίδιο Αντιγραφής Μονοπατιού Μάθησης από τη λίστα Μονοπατιών Μάθησης
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 ### `hide_scorm_export_link`
 
-**Hide SCORM Export**
+**Απόκρυψη Εξαγωγής SCORM**
 
-Hide the SCORM Export icon from the Learning Paths list
+Αποκρύψτε το εικονίδιο Εξαγωγής SCORM από τη λίστα Μονοπατιών Μάθησης
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 ### `hide_scorm_pdf_link`
 
-**Hide Learning Path PDF export**
+**Απόκρυψη εξαγωγής PDF Μονοπατιού Μάθησης**
 
-Hide the Learning Path PDF Export icon from the Learning Paths list
+Αποκρύψτε το εικονίδιο Εξαγωγής PDF Μονοπατιού Μάθησης από τη λίστα Μονοπατιών Μάθησης
 
-*Default: `true`*
+*Προεπιλογή: `true`*
 
 ### `lp_allow_export_to_students`
 
-**Learners can export learning paths**
+**Οι μαθητές μπορούν να εξάγουν μονοπάτια μάθησης**
 
-Enable this to allow learners to download the learning paths as SCORM packages.
+Ενεργοποιήστε αυτό για να επιτρέψετε στους μαθητές να κατεβάσουν τα μονοπάτια μάθησης ως πακέτα SCORM.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 ### `lp_enable_flow`
 
-**Navigate between learning paths**
+**Πλοήγηση μεταξύ μονοπατιών μάθησης**
 
-Add the possibility to select a 'next' learning path and show buttons inside the learning path to move from one to the next.
+Προσθέστε τη δυνατότητα επιλογής επόμενου μονοπατιού μάθησης και εμφάνισης κουμπιών μέσα στο μονοπάτι μάθησης για μετάβαση από το ένα στο επόμενο.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 ### `lp_fixed_encoding`
 
-**Fixed encoding in learning path**
+**Σταθερή κωδικοποίηση σε μονοπάτι μάθησης**
 
-Reduce resource usage by ignoring a check on the text encoding in imported learning paths.
+Μειώστε τη χρήση πόρων αγνοώντας τον έλεγχο κωδικοποίησης κειμένου σε εισαγόμενα μονοπάτια μάθησης.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 ### `lp_item_prerequisite_dates`
 
-**Date-based learning path items prerequisites**
+**Προϋποθέσεις στοιχείων μονοπατιού μάθησης βασισμένες σε ημερομηνίες**
 
-Adds the option to define prerequisites with start and end dates for learnpath items.
+Προσθέτει την επιλογή ορισμού προϋποθέσεων με ημερομηνίες έναρξης και λήξης για στοιχεία μονοπατιού μάθησης.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
+---
 ### `lp_menu_location`
 
-**Learning path menu location**
+**Θέση μενού μονοπατιού μάθησης**
 
-Set this to 'left' or 'right' to change the side of the learning path menu.
+Ορίστε σε 'left' ή 'right' για να αλλάξετε την πλευρά του μενού του μονοπατιού μάθησης.
 
-*Default: `left`*
+*Προεπιλογή: `left`*
 
 ### `lp_minimum_time`
 
-**Minimum time to complete learning path**
+**Ελάχιστος χρόνος ολοκλήρωσης μονοπατιού μάθησης**
 
-Add a minimum time field to learning paths. If the user has not spent that much time on the learning path, the last item of the learning path cannot be completed.
+Προσθέστε ένα πεδίο ελάχιστου χρόνου στα μονοπάτια μάθησης. Αν ο χρήστης δεν έχει περάσει τόσο χρόνο στο μονοπάτι μάθησης, το τελευταίο στοιχείο του μονοπατιού μάθησης δεν μπορεί να ολοκληρωθεί.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 ### `lp_prerequisit_on_quiz_unblock_if_max_attempt_reached`
 
-**Unlock learning path item if max attempt is reached for test prerequisite**
+**Ξεκλείδωμα στοιχείου μονοπατιού μάθησης αν επιτευχθεί μέγιστος αριθμός προσπαθειών για προαπαιτούμενο τεστ**
 
-[inferred] Automatically unlock subsequent learning path items when a learner exhausts maximum quiz attempts for a prerequisite test.
-
+[inferred] Αυτόματο ξεκλείδωμα επόμενων στοιχείων μονοπατιού μάθησης όταν ο μαθητής εξαντλήσει τις μέγιστες προσπάθειες κουίζ για προαπαιτούμενο τεστ.
 
 ### `lp_prerequisite_on_quiz_unblock_if_max_attempt_reached`
 
-**Unlock prerequisites after last test attempt**
+**Ξεκλείδωμα προαπαιτουμένων μετά την τελευταία προσπάθεια τεστ**
 
-Allows users to continue in a learning path after using all quiz attempts of a test used as prerequisite for other items.
+Επιτρέπει στους χρήστες να συνεχίσουν σε μονοπάτι μάθησης μετά την εξάντληση όλων των προσπαθειών κουίζ ενός τεστ που χρησιμοποιείται ως προαπαιτούμενο για άλλα στοιχεία.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 ### `lp_prerequisite_use_last_attempt_only`
 
-**Use last score in learning path test prerequisites**
+**Χρήση τελευταίας βαθμολογίας σε προαπαιτούμενα τεστ μονοπατιού μάθησης**
 
-When a test is used as prerequisite for an item in the learning path, use the last attempt of the test only as validation for the prerequisite (default is to use best attempt).
+Όταν ένα τεστ χρησιμοποιείται ως προαπαιτούμενο για στοιχείο σε μονοπάτι μάθησης, χρησιμοποιήστε μόνο την τελευταία προσπάθεια του τεστ ως έλεγχο για το προαπαιτούμενο (προεπιλογή είναι η καλύτερη προσπάθεια).
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 ### `lp_prevents_beforeunload`
 
-**Prevent beforeunload JS event in learning path**
+**Αποτροπή γεγονότος beforeunload JS σε μονοπάτι μάθησης**
 
-This helps with browser compatibility by preventing tricky JS events to execute.
+Αυτό βοηθά στη συμβατότητα προγράμματος περιήγησης αποτρέποντας περίπλοκα γεγονότα JS να εκτελεστούν.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 ### `lp_score_as_progress_enable`
 
-**Use learning path score as progress**
+**Χρήση βαθμολογίας μονοπατιού μάθησης ως προόδου**
 
-This is useful when using SCORM content with only one large SCO. SCORM does not communicate progress, so this is a trick to use the score as progress. Enabling this option will let you configure this on a per-learning path basis.
+Αυτό είναι χρήσιμο όταν χρησιμοποιείται περιεχόμενο SCORM με μόνο ένα μεγάλο SCO. Το SCORM δεν επικοινωνεί πρόοδο, οπότε πρόκειται για κόλπο χρήσης της βαθμολογίας ως προόδου. Η ενεργοποίηση αυτής της επιλογής θα σας επιτρέψει να το ρυθμίσετε ανά μονοπάτι μάθησης.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 ### `lp_show_max_progress_instead_of_average`
 
-**Show max progress instead of average for learning paths reporting**
+**Εμφάνιση μέγιστης προόδου αντί μέσου όρου για αναφορές μονοπατιών μάθησης**
 
-[inferred] Calculate learning path progress based on maximum item completion rather than averaging all items.
+[inferred] Υπολογισμός προόδου μονοπατιού μάθησης βάσει μέγιστης ολοκλήρωσης στοιχείου αντί μέσου όρου όλων των στοιχείων.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 ### `lp_show_max_progress_or_average_enable_course_level_redefinition`
 
-**Select max progress vs average for learning paths at course level**
+**Επιλογή μέγιστης προόδου έναντι μέσου όρου για μονοπάτια μάθησης σε επίπεδο μαθήματος**
 
-Enable redefinition of the setting to show the best progress instead of averages in reporting of learnpaths at a course level.
+Ενεργοποίηση επαναπροσδιορισμού της ρύθμισης για εμφάνιση καλύτερης προόδου αντί μέσων όρων στις αναφορές μονοπατιών μάθησης σε επίπεδο μαθήματος.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 ### `lp_show_reduced_report`
 
-**Learning paths: show reduced report**
+**Μονοπάτια μάθησης: εμφάνιση συντομευμένης αναφοράς**
 
-Inside the learning paths tool, when a user reviews his own progress (through the stats icon), show a shorten (less detailed) version of the progress report.
+Μέσα στο εργαλείο μονοπατιών μάθησης, όταν ένας χρήστης ελέγχει την πρόοδό του (μέσω εικονιδίου στατιστικών), εμφανίστε συντομευμένη (λιγότερο λεπτομερή) έκδοση της αναφοράς προόδου.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 ### `lp_start_and_end_date_visible_in_student_view`
 
-**Display learning path availability to learners**
+**Εμφάνιση διαθεσιμότητας μονοπατιού μάθησης στους μαθητές**
 
-Show learning paths to learners with their availability dates, rather than hiding them until the date comes.
+Εμφανίστε μονοπάτια μάθησης στους μαθητές με τις ημερομηνίες διαθεσιμότητάς τους, αντί να τα κρύβετε μέχρι να έρθει η ημερομηνία.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 ### `lp_subscription_settings`
 
-**Learning paths subscription settings**
+**Ρυθμίσεις εγγραφής μονοπατιών μάθησης**
 
-Configure additional options for the learning paths subscription feature. Options include 'allow_add_users_to_lp' and 'allow_add_users_to_lp_category'.
+Ρυθμίστε επιπλέον επιλογές για τη λειτουργία εγγραφής μονοπατιών μάθησης. Οι επιλογές περιλαμβάνουν 'allow_add_users_to_lp' και 'allow_add_users_to_lp_category'.
 
 ### `lp_view_accordion`
 
-**Foldable learning paths' items**
+**Πτυσσόμενα στοιχεία μονοπατιών μάθησης**
 
-[inferred] Display learning path items in collapsible accordion format for improved navigation and content organization.
+[inferred] Εμφάνιση στοιχείων μονοπατιού μάθησης σε μορφή πτυσσόμενου ακορντεόν για βελτιωμένη πλοήγηση και οργάνωση περιεχομένου.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 ### `lp_view_settings`
 
-**Learning path display settings**
+**Ρυθμίσεις εμφάνισης μονοπατιού μάθησης**
 
-Configure additional options for the learning paths display. Options include 'show_reporting_icon', 'hide_lp_arrow_navigation', 'show_toolbar_by_default', 'navigation_in_the_middle' and 'add_extra_quit_to_home_icon'.
+Ρυθμίστε επιπλέον επιλογές για την εμφάνιση μονοπατιών μάθησης. Οι επιλογές περιλαμβάνουν 'show_reporting_icon', 'hide_lp_arrow_navigation', 'show_toolbar_by_default', 'navigation_in_the_middle' και 'add_extra_quit_to_home_icon'.
 
 ### `scorm_api_extrafield_to_use_as_student_id`
 
-**Use extra field as student\_id in SCORM communication**
+**Χρήση επιπλέον πεδίου ως student\_id στην επικοινωνία SCORM**
 
-Give the name of the extra field to be used as student_id for all SCORM communication.
+Δώστε το όνομα του επιπλέον πεδίου που θα χρησιμοποιηθεί ως student_id για όλη την επικοινωνία SCORM.
 
 ### `scorm_api_username_as_student_id`
 
-**Use username as student\_id in SCORM communication**
+**Χρήση ονόματος χρήστη ως student\_id στην επικοινωνία SCORM**
 
-[inferred] Use learner username as the student identifier in SCORM API communication instead of learner ID.
+[inferred] Χρήση ονόματος χρήστη μαθητή ως αναγνωριστικού μαθητή στην επικοινωνία API SCORM αντί για ID μαθητή.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 ### `scorm_lms_update_sco_status_all_time`
 
-**Update SCO status autonomously**
+**Αυτόματη ενημέρωση κατάστασης SCO**
 
-If the SCO is not sending a status, take over and update the status based on what can be observed in Chamilo.
+Αν το SCO δεν στέλνει κατάσταση, αναλάβετε και ενημερώστε την κατάσταση βάσει όσων μπορούν να παρατηρηθούν στο Chamilo.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 ### `scorm_upload_from_cache`
 
-**Upload SCORM from cache dir**
+**Ανέβασμα SCORM από κατάλογο cache**
 
-Allow admins to upload a SCORM package (in zip form) into the cache directory and to use it as import source on the SCORM upload page.
+Επιτρέπει στους διαχειριστές να ανεβάσουν πακέτο SCORM (σε μορφή zip) στον κατάλογο cache και να το χρησιμοποιήσουν ως πηγή εισαγωγής στη σελίδα ανεβάσματος SCORM.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 ### `show_hidden_exercise_added_to_lp`
 
-**Display tests from learning paths even if invisible**
+**Εμφάνιση τεστ από μονοπάτια μάθησης ακόμα και αν είναι αόρατα**
 
-Show hidden exercises that were added to a LP in the exercise list. If we are in a session, the test is invisible in the base course, it is included in a LP and the setting to show it is not specifically set to true, then hide it.
+Εμφανίστε κρυμμένες ασκήσεις που προστέθηκαν σε LP στη λίστα ασκήσεων. Αν βρισκόμαστε σε συνεδρία, το τεστ είναι αόρατο στο βασικό μάθημα, περιλαμβάνεται σε LP και η ρύθμιση εμφάνισής του δεν έχει οριστεί ρητά σε true, τότε κρύψτε το.
 
-*Default: `true`*
+*Προεπιλογή: `true`*
 
 ### `show_invisible_exercise_in_lp_list`
 
-**Display tests in list of learning path tests even if invisible**
+**Εμφάνιση τεστ στη λίστα τεστ μονοπατιού μάθησης ακόμα και αν είναι αόρατα**
 
-[inferred] Include hidden tests in the list of available tests when viewing learning path contents.
+[inferred] Συμπερίληψη κρυμμένων τεστ στη λίστα διαθέσιμων τεστ κατά την προβολή περιεχομένων μονοπατιού μάθησης.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
+---
 ### `show_invisible_exercise_in_lp_toc`
 
-**Invisible tests visible in learning paths**
+**Ορατά αόρατα τεστ σε διαδρομές μάθησης**
 
-Make tests marked as 'invisible' in the tests tool appear when they are included in a learning path.
+Κάνει τα τεστ που έχουν οριστεί ως «αόρατα» στο εργαλείο των τεστ να εμφανίζονται όταν περιλαμβάνονται σε διαδρομή μάθησης.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 ### `show_invisible_lp_in_course_home`
 
-**Display link to learning path on course home when invisible**
+**Εμφάνιση συνδέσμου διαδρομής μάθησης στην αρχική σελίδα του μαθήματος όταν είναι αόρατη**
 
-If a learning path is set to invisible but the teacher/coach decided to make it available from the course homepage, this option prevents Chamilo from hiding the link on the course homepage.
+Αν μια διαδρομή μάθησης έχει οριστεί ως αόρατη αλλά ο δάσκαλος/προπονητής αποφάσισε να την κάνει διαθέσιμη από την αρχική σελίδα του μαθήματος, αυτή η επιλογή εμποδίζει το Chamilo να κρύψει τον σύνδεσμο στην αρχική σελίδα του μαθήματος.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 ### `show_prerequisite_as_blocked`
 
-**Learning path's prerequisites**
+**Προαπαιτούμενα διαδρομών μάθησης**
 
-On the learning paths lists, display a visual element to show that other learning paths are currently blocked by some prerequisites rule.
+Στις λίστες διαδρομών μάθησης, εμφανίζει ένα οπτικό στοιχείο που δείχνει ότι άλλες διαδρομές μάθησης είναι αυτή τη στιγμή μπλοκαρισμένες από κανόνα προαπαιτουμένων.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 ### `student_follow_page_add_LP_acquisition_info`
 
-**Add acquisition column in learner follow-up**
+**Προσθήκη στήλης απόκτησης στη σελίδα παρακολούθησης μαθητή**
 
-Add column to learner follow-up page to show acquisition status by a learner on a learning path.
+Προσθέτει στήλη στη σελίδα παρακολούθησης μαθητή για να εμφανίζει την κατάσταση απόκτησης από έναν μαθητή σε μια διαδρομή μάθησης.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 ### `student_follow_page_add_LP_invisible_checkbox`
 
-**Add visibility information for learning paths on learner follow-up page**
+**Προσθήκη πληροφοριών ορατότητας για διαδρομές μάθησης στη σελίδα παρακολούθησης μαθητή**
 
-[inferred] Display visibility status indicator for learning paths on the learner progress tracking page.
+[συμπερασμένο] Εμφανίζει δείκτη κατάστασης ορατότητας για διαδρομές μάθησης στη σελίδα παρακολούθησης προόδου μαθητή.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 ### `student_follow_page_add_LP_subscription_info`
 
-**Unlocked information in learning paths list**
+**Ξεκλείδωτες πληροφορίες στη λίστα διαδρομών μάθησης**
 
-This adds an 'unlocked' column in the learning paths list if the learner is subscribed to the given learning path and has access to it.
+Προσθέτει στήλη «ξεκλείδωτη» στη λίστα διαδρομών μάθησης αν ο μαθητής είναι εγγεγραμμένος στην συγκεκριμένη διαδρομή μάθησης και έχει πρόσβαση σε αυτήν.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 ### `student_follow_page_hide_lp_tests_average`
 
-**Hide percentage sign in average of tests in learning paths in learner follow-up**
+**Απόκρυψη συμβόλου ποσοστού στον μέσο όρο τεστ σε διαδρομές μάθησης στη παρακολούθηση μαθητή**
 
-Hides the icon of percentage in 'Average of tests in Learning Paths' indication on a student tracking
+Αποκρύπτει το εικονίδιο ποσοστού στην ένδειξη «Μέσος όρος τεστ σε Διαδρομές Μάθησης» στη σελίδα παρακολούθησης μαθητή.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 ### `student_follow_page_include_not_subscribed_lp_students`
 
-**Include learning paths not subscribed to on learner follow-up page**
+**Ενσωμάτωση διαδρομών μάθησης χωρίς εγγραφή στη σελίδα παρακολούθησης μαθητή**
 
-[inferred] Show learning paths on progress pages even when learners are not subscribed to them.
+[συμπερασμένο] Εμφανίζει διαδρομές μάθησης σε σελίδες προόδου ακόμα και όταν οι μαθητές δεν είναι εγγεγραμμένοι σε αυτές.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 ### `ticket_lp_quiz_info_add`
 
-**Add learning paths and tests info to ticket reporting**
+**Προσθήκη πληροφοριών διαδρομών μάθησης και τεστ στην αναφορά εισιτηρίων**
 
-[inferred] Include learning path and test information in support ticket reporting for better issue tracking.
+[συμπερασμένο] Συμπεριλαμβάνει πληροφορίες διαδρομής μάθησης και τεστ στην αναφορά εισιτηρίων υποστήριξης για καλύτερη παρακολούθηση προβλημάτων.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 ### `validate_lp_prerequisite_from_other_session`
 
-**Use learning path item status from other sessions**
+**Χρήση κατάστασης αντικειμένου διαδρομής μάθησης από άλλες συνεδρίες**
 
-Allow users to complete prerequisites in a learning path if the corresponding item was already completed in another session.
+Επιτρέπει στους χρήστες να ολοκληρώνουν προαπαιτούμενα σε μια διαδρομή μάθησης αν το αντίστοιχο αντικείμενο έχει ήδη ολοκληρωθεί σε άλλη συνεδρία.
 
-*Default: `false`*
-
+*Προεπιλογή: `false`*

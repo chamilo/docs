@@ -1,76 +1,76 @@
-# AI Configuration
+# Ρύθμιση Τεχνητής Νοημοσύνης
 
-Chamilo 2.0 includes AI-powered features that require configuration before they become available to teachers and learners.
+Το Chamilo 2.0 περιλαμβάνει χαρακτηριστικά που υποστηρίζονται από τεχνητή νοημοσύνη και απαιτούν ρύθμιση πριν γίνουν διαθέσιμα στους διδάσκοντες και τους μαθητές.
 
-## Supported AI Providers
+## Υποστηριζόμενοι Παροχείς ΤΝ
 
-Chamilo supports multiple AI providers:
+Το Chamilo υποστηρίζει πολλαπλούς παροχείς τεχνητής νοημοσύνης:
 
-| Provider | Capabilities |
+| Παροχέας | Δυνατότητες |
 |----------|-------------|
-| **DeepSeek** | Text generation |
-| **Google Gemini** | Text, image, video generation |
-| **Grok** | Text, image, video generation |
-| **Mistral** | Text generation |
-| **OpenAI** | Text, image, video generation |
+| **DeepSeek** | Δημιουργία κειμένου |
+| **Google Gemini** | Δημιουργία κειμένου, εικόνας, βίντεο |
+| **Grok** | Δημιουργία κειμένου, εικόνας, βίντεο |
+| **Mistral** | Δημιουργία κειμένου |
+| **OpenAI** | Δημιουργία κειμένου, εικόνας, βίντεο |
 
-Each provider can be configured for different types of AI tasks:
+Κάθε παροχέας μπορεί να ρυθμιστεί για διαφορετικούς τύπους εργασιών τεχνητής νοημοσύνης:
 
-* **Text** — Used for exercise generation, learning path generation, AI grading, and the AI tutor
-* **Image** — Used for AI image generation
-* **Video** — Used for AI video generation (where supported)
-* **Document** — Used for AI document analysis
+* **Κείμενο** — Χρησιμοποιείται για δημιουργία ασκήσεων, δημιουργία διαδρομής μάθησης, βαθμολόγηση με ΤΝ και τον βοηθό ΤΝ
+* **Εικόνα** — Χρησιμοποιείται για δημιουργία εικόνων με ΤΝ
+* **Βίντεο** — Χρησιμοποιείται για δημιουργία βίντεο με ΤΝ (όπου υποστηρίζεται)
+* **Έγγραφο** — Χρησιμοποιείται για ανάλυση εγγράφων με ΤΝ
 
-## Configuration Steps
+## Βήματα Ρύθμισης
 
-### 1. Obtain API Keys
+### 1. Λήψη Κλειδιών API
 
-Register for an account with your chosen AI provider and obtain an API key:
+Εγγραφείτε σε λογαριασμό με τον επιλεγμένο παροχέα ΤΝ και λάβετε ένα κλειδί API:
 
 * **DeepSeek**: [platform.deepseek.com](https://platform.deepseek.com/)
-* **Google Gemini**: Google AI Studio or Google Cloud
+* **Google Gemini**: Google AI Studio ή Google Cloud
 * **Grok**: [console.x.ai](https://console.x.ai/)
 * **Mistral**: [console.mistral.ai](https://console.mistral.ai/)
 * **OpenAI**: [platform.openai.com](https://platform.openai.com/)
 
-### 2. Configure Providers in Chamilo
+### 2. Ρύθμιση Παροχέων στο Chamilo
 
-![The AI helpers configuration page showing provider settings with API key, model, and endpoint fields](/.gitbook/assets/admin-ai-helpers-config.png)
+![Η σελίδα ρύθμισης των βοηθών ΤΝ που εμφανίζει τις ρυθμίσεις παροχέων με πεδία για κλειδί API, μοντέλο και endpoint](/.gitbook/assets/admin-ai-helpers-config.png)
 
-In the platform settings, navigate to the **AI Helpers** section:
+Στις ρυθμίσεις της πλατφόρμας, πλοηγηθείτε στην ενότητα **Βοηθοί ΤΝ**:
 
-1. **Enable AI helpers** — Turn on the AI features globally
-2. **Configure AI providers** — Add one or more providers with:
-   * **Provider name** (deepseek, gemini, grok, mistral, openai)
-   * **API key** — Your API key for the provider
-   * **Model** — The specific model to use (e.g., `gpt-4`, `gemini-pro`, `mistral-large`)
-   * **API URL** — The endpoint URL (pre-configured for standard providers)
+1. **Ενεργοποίηση βοηθών ΤΝ** — Ενεργοποιήστε τα χαρακτηριστικά ΤΝ παγκοσμίως
+2. **Ρύθμιση παροχέων ΤΝ** — Προσθέστε έναν ή περισσότερους παροχείς με:
+   * **Όνομα παροχέα** (deepseek, gemini, grok, mistral, openai)
+   * **Κλειδί API** — Το κλειδί API σας για τον παροχέα
+   * **Μοντέλο** — Το συγκεκριμένο μοντέλο προς χρήση (π.χ. `gpt-4`, `gemini-pro`, `mistral-large`)
+   * **URL API** — Το URL του endpoint (προρρυθμισμένο για τυπικούς παροχείς)
 
-You can configure multiple providers. The first provider in the configuration becomes the default.
+Μπορείτε να ρυθμίσετε πολλαπλούς παροχείς. Ο πρώτος παροχέας στη ρύθμιση γίνεται ο προεπιλεγμένος.
 
-### 3. Enable Features Per Course
+### 3. Ενεργοποίηση Χαρακτηριστικών Ανά Μάθημα
 
-AI features can be enabled or disabled at the course level. Teachers can toggle:
+Τα χαρακτηριστικά ΤΝ μπορούν να ενεργοποιηθούν ή να απενεργοποιηθούν σε επίπεδο μαθήματος. Οι διδάσκοντες μπορούν να εναλλάξουν:
 
-* **AI Tutor chatbot** — The AI assistant for learners
-* **Assignment grader** — AI-generated grading recommendation
-* **Exercise generator** — AI-generated quiz questions
-* **Learning path generator** — AI-generated learning sequences
-* **Image/Video generator** — AI-generated images and videos in documents
+* **Chatbot Βοηθού ΤΝ** — Ο βοηθός ΤΝ για τους μαθητές
+* **Βαθμολογητής εργασιών** — Σύσταση βαθμολόγησης που παράγεται από ΤΝ
+* **Δημιουργός ασκήσεων** — Ερωτήσεις κουίζ που παράγονται από ΤΝ
+* **Δημιουργός διαδρομής μάθησης** — Αλληλουχίες μάθησης που παράγονται από ΤΝ
+* **Δημιουργός εικόνας/βίντεο** — Εικόνες και βίντεο που παράγονται από ΤΝ σε έγγραφα
 
-This allows different courses to use different AI configurations based on their needs.
+Αυτό επιτρέπει σε διαφορετικά μαθήματα να χρησιμοποιούν διαφορετικές ρυθμίσεις ΤΝ ανάλογα με τις ανάγκες τους.
 
-## Cost Considerations
+## Λαμβάνσεις Υπόψη Κόστους
 
-AI API calls have costs associated with them. Consider:
+Οι κλήσεις API ΤΝ συνδέονται με κόστη. Λάβετε υπόψη:
 
-* **Setting usage limits** — Monitor and limit AI API usage to control costs
-* **Choosing models wisely** — Smaller, less expensive models may be sufficient for many educational tasks
-* **Tracking usage** — Chamilo logs AI requests to help you monitor consumption
+* **Θέση ορίων χρήσης** — Παρακολούθηση και περιορισμός χρήσης API ΤΝ για έλεγχο κόστους
+* **Έξυπνη επιλογή μοντέλων** — Μικρότερα, λιγότερο δαπανηρά μοντέλα μπορεί να επαρκούν για πολλές εκπαιδευτικές εργασίες
+* **Παρακολούθηση χρήσης** — Το Chamilo καταγράφει τα αιτήματα ΤΝ για να σας βοηθήσει να παρακολουθείτε την κατανάλωση
 
-## Tips
+## Συμβουλές
 
-* **Start with one provider** — Configure and test one provider before adding more
-* **Test with a course** — Enable AI features in a test course first to verify they work as expected
-* **Communicate with teachers** — Let teachers know which AI features are available and how to use them
-* **Monitor quality** — Regularly review AI-generated content to ensure it meets your educational standards
+* **Ξεκινήστε με έναν παροχέα** — Ρυθμίστε και δοκιμάστε έναν παροχέα πριν προσθέσετε περισσότερους
+* **Δοκιμή με μάθημα** — Ενεργοποιήστε τα χαρακτηριστικά ΤΝ σε ένα δοκιμαστικό μάθημα πρώτα για να επαληθεύσετε ότι λειτουργούν όπως αναμένεται
+* **Επικοινωνία με διδάσκοντες** — Ενημερώστε τους διδάσκοντες ποια χαρακτηριστικά ΤΝ είναι διαθέσιμα και πώς να τα χρησιμοποιήσουν
+* **Παρακολούθηση ποιότητας** — Ελέγξτε τακτικά το περιεχόμενο που παράγεται από ΤΝ για να διασφαλίσετε ότι ανταποκρίνεται στα εκπαιδευτικά σας πρότυπα

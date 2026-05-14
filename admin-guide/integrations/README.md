@@ -1,11 +1,11 @@
-# Integrations
+# Ενσωματώσεις
 
-Chamilo integrates with several third-party services to extend its functionality.
+Το Chamilo ενσωματώνεται με αρκετές υπηρεσίες τρίτων για να επεκτείνει τις λειτουργίες του.
 
-Most of these are enabled through plugins. Check the corresponding section a little further in this guide.
+Η πλειονότητα αυτών ενεργοποιείται μέσω πρόσθετων. Ελέγξτε την αντίστοιχη ενότητα λίγο παρακάτω σε αυτόν τον οδηγό.
 
-* **[Video Conferencing](video-conferencing.md)** — BigBlueButton and Zoom
-* **[LTI 1.3](lti.md)** — Connect external learning tools
-* **[xAPI](xapi.md)** — Learning experience tracking
-* **[OnlyOffice](onlyoffice.md)** — Collaborative document editing
-* **[AI Configuration](ai-configuration.md)** — Set up AI providers for AI-powered features
+* **[Video Conferencing](video-conferencing.md)** — BigBlueButton και Zoom
+* **[LTI 1.3](lti.md)** — Σύνδεση εξωτερικών εργαλείων μάθησης
+* **[xAPI](xapi.md)** — Παρακολούθηση εμπειρίας μάθησης
+* **[OnlyOffice](onlyoffice.md)** — Συνεργατική επεξεργασία εγγράφων
+* **[AI Configuration](ai-configuration.md)** — Ρύθμιση παρόχων ΤΝ για χαρακτηριστικά που υποστηρίζονται από ΤΝ

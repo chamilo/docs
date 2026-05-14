@@ -1,52 +1,52 @@
-# Twig Templates
+# Πρότυπα Twig
 
-Chamilo uses Twig for server-side rendered pages. Templates live in `src/CoreBundle/Resources/views/` and are referenced with the `@ChamiloCore/` namespace prefix (e.g. `@ChamiloCore/Layout/base-layout.html.twig`).
+Το Chamilo χρησιμοποιεί το Twig για σελίδες που αποδίδονται από τον διακομιστή. Τα πρότυπα βρίσκονται στο `src/CoreBundle/Resources/views/` και αναφέρονται με το πρόθεμα χώρου ονομάτων `@ChamiloCore/` (π.χ. `@ChamiloCore/Layout/base-layout.html.twig`).
 
-There is no top-level `templates/` directory — all Twig templates are under `src/CoreBundle/Resources/views/`.
+Δεν υπάρχει κατάλογος `templates/` υψηλού επιπέδου — όλα τα πρότυπα Twig βρίσκονται κάτω από το `src/CoreBundle/Resources/views/`.
 
-## How Twig and Vue Coexist
+## Πώς Συνυπάρχουν το Twig και το Vue
 
-Most pages follow this flow:
+Οι περισσότερες σελίδες ακολουθούν αυτή τη ροή:
 
-1. A Symfony controller renders a Twig template that extends a layout.
-2. The layout includes `vue_setup.html.twig`, which emits `<div id="app">` and injects runtime globals (`window.user`, `window.breadcrumb`, etc.) via `vue_js_setup.html.twig`.
-3. Vue mounts on `#app` and handles all UI rendering inside that element.
-4. The Vue app communicates with the backend via the REST API.
+1. Ένας ελεγκτής Symfony αποδίδει ένα πρότυπο Twig που επεκτείνει ένα layout.
+2. Το layout περιλαμβάνει το `vue_setup.html.twig`, το οποίο παράγει `<div id="app">` και εγχέει μεταβλητές παγκόσμιου εύρους εκτέλεσης (`window.user`, `window.breadcrumb` κ.λπ.) μέσω του `vue_js_setup.html.twig`.
+3. Το Vue προσαρτάται στο `#app` και χειρίζεται όλη την απόδοση UI μέσα σε αυτό το στοιχείο.
+4. Η εφαρμογή Vue επικοινωνεί με τον backend μέσω του REST API.
 
-For legacy pages not yet migrated to Vue, Symfony renders the full page HTML via Twig and the content is placed inside `#sectionMainContent`. Vue still mounts (providing the sidebar and topbar shell), but the main content area is server-rendered HTML.
+Για παλιές σελίδες που δεν έχουν ακόμη μεταφερθεί στο Vue, το Symfony αποδίδει το πλήρες HTML της σελίδας μέσω Twig και το περιεχόμενο τοποθετείται μέσα στο `#sectionMainContent`. Το Vue εξακολουθεί να προσαρτάται (παρέχοντας το πλαίσιο sidebar και topbar), αλλά η κύρια περιοχή περιεχομένου είναι HTML που αποδίδεται από τον διακομιστή.
 
-## Layout Templates
+## Πρότυπα Layout
 
-All layouts extend `@ChamiloCore/Layout/base-layout.html.twig`, which provides the `<html>`, `<head>`, and `<body>` structure. Available layout variants:
+Όλα τα layouts επεκτείνουν το `@ChamiloCore/Layout/base-layout.html.twig`, το οποίο παρέχει τη δομή `<html>`, `<head>` και `<body>`. Διαθέσιμες παραλλαγές layout:
 
-| Template | Purpose |
-|----------|---------|
-| `Layout/base-layout.html.twig` | Root template — `<html>` shell, imports Macros, emits `<head>` and `<body>` |
-| `Layout/layout.html.twig` | Standard full layout with sidebar, topbar, and content area |
-| `Layout/layout_one_col.html.twig` | Single-column layout (no sidebar) |
-| `Layout/layout_two_col.html.twig` | Two-column layout |
-| `Layout/layout_content.html.twig` | Content-only wrapper |
-| `Layout/layout_empty.html.twig` | Empty layout with minimal chrome |
-| `Layout/no_layout.html.twig` | No header/footer; content goes directly inside `<body>` |
-| `Layout/no_layout_scorm.html.twig` | Bare layout for SCORM content frames |
-| `Layout/blank.html.twig` | Completely blank page |
-| `Layout/skill_layout.html.twig` | Layout for the skills wheel page |
+| Πρότυπο | Σκοπός |
+|---------|--------|
+| `Layout/base-layout.html.twig` | Ριζικό πρότυπο — κέλυφος `<html>`, εισάγει Macros, παράγει `<head>` και `<body>` |
+| `Layout/layout.html.twig` | Τυπικό πλήρες layout με sidebar, topbar και περιοχή περιεχομένου |
+| `Layout/layout_one_col.html.twig` | Layout μίας στήλης (χωρίς sidebar) |
+| `Layout/layout_two_col.html.twig` | Layout δύο στηλών |
+| `Layout/layout_content.html.twig` | Περιτύλιξη μόνο περιεχομένου |
+| `Layout/layout_empty.html.twig` | Άδειο layout με ελάχιστο chrome |
+| `Layout/no_layout.html.twig` | Χωρίς header/footer· το περιεχόμενο πηγαίνει απευθείας μέσα στο `<body>` |
+| `Layout/no_layout_scorm.html.twig` | Γυμνό layout για πλαίσια περιεχομένου SCORM |
+| `Layout/blank.html.twig` | Εντελώς κενή σελίδα |
+| `Layout/skill_layout.html.twig` | Layout για τη σελίδα τροχού δεξιοτήτων |
 
-## Key Partials
+## Βασικά Partials
 
-| Template | Purpose |
-|----------|---------|
-| `Layout/head.html.twig` | `<head>` content: meta tags, all Encore CSS entries, theme `colors.css`, legacy JS entries, OpenGraph/Twitter tags |
-| `Layout/foot.html.twig` | End-of-body: Vue JS entry point, `tracking.footer_extra_content` injection |
-| `Layout/vue_setup.html.twig` | Emits `<div id="app">` and includes `vue_js_setup.html.twig` |
-| `Layout/vue_js_setup.html.twig` | Injects `window.user`, `window.breadcrumb`, `window.languages`, etc. |
-| `Layout/cookie_banner.html.twig` | GDPR cookie consent banner |
-| `Layout/footer.html.twig` | Page footer bar |
-| `Layout/course_navigation.html.twig` | Course tool navigation breadcrumb |
+| Πρότυπο | Σκοπός |
+|---------|--------|
+| `Layout/head.html.twig` | Περιεχόμενο `<head>`: meta tags, όλες οι καταχωρήσεις CSS Encore, `colors.css` θέματος, παλιές καταχωρήσεις JS, OpenGraph/Twitter tags |
+| `Layout/foot.html.twig` | Τέλος body: σημείο εισόδου Vue JS, έγχυση `tracking.footer_extra_content` |
+| `Layout/vue_setup.html.twig` | Παράγει `<div id="app">` και περιλαμβάνει `vue_js_setup.html.twig` |
+| `Layout/vue_js_setup.html.twig` | Εγχέει `window.user`, `window.breadcrumb`, `window.languages` κ.λπ. |
+| `Layout/cookie_banner.html.twig` | Banner συναίνεσης GDPR για cookies |
+| `Layout/footer.html.twig` | Μπάρα υποσέλιδου σελίδας |
+| `Layout/course_navigation.html.twig` | Breadcrumb πλοήγησης εργαλείων μαθήματος |
 
-## Webpack Encore Integration
+## Ενσωμάτωση Webpack Encore
 
-`head.html.twig` loads CSS for all entries; `foot.html.twig` loads the Vue JS bundle:
+Το `head.html.twig` φορτώνει CSS για όλες τις καταχωρήσεις· το `foot.html.twig` φορτώνει το bundle Vue JS:
 
 ```twig
 {# In head.html.twig — CSS entries #}
@@ -63,33 +63,33 @@ All layouts extend `@ChamiloCore/Layout/base-layout.html.twig`, which provides t
 {{ encore_entry_script_tags('vue') }}
 ```
 
-Legacy JS entries (`legacy_app`, `legacy_lp`, etc.) are loaded in `<head>` because legacy PHP pages depend on them being available before the DOM is ready.
+Οι παλιές καταχωρήσεις JS (`legacy_app`, `legacy_lp` κ.λπ.) φορτώνονται στο `<head>` επειδή οι παλιές σελίδες PHP εξαρτώνται από την διαθεσιμότητά τους πριν ετοιμαστεί το DOM.
 
 ## Macros
 
-Reusable Twig macros are in `Macros/` and imported at the top of `base-layout.html.twig`:
+Επαναχρησιμοποιήσιμα macros Twig βρίσκονται στο `Macros/` και εισάγονται στην κορυφή του `base-layout.html.twig`:
 
-| Macro file | Provides |
-|-----------|---------|
-| `Macros/box.html.twig` | Content box helpers |
-| `Macros/actions.html.twig` | Action button rendering |
-| `Macros/buttons.html.twig` | Button HTML helpers |
-| `Macros/headers.html.twig` | Page header helpers |
-| `Macros/image.html.twig` | Image rendering helpers |
-| `Macros/modals.html.twig` | Modal dialog helpers |
+| Αρχείο Macro | Παρέχει |
+|--------------|---------|
+| `Macros/box.html.twig` | Βοηθήματα κουτιού περιεχομένου |
+| `Macros/actions.html.twig` | Απόδοση κουμπιών ενέργειας |
+| `Macros/buttons.html.twig` | Βοηθήματα HTML κουμπιών |
+| `Macros/headers.html.twig` | Βοηθήματα κεφαλίδας σελίδας |
+| `Macros/image.html.twig` | Βοηθήματα απόδοσης εικόνας |
+| `Macros/modals.html.twig` | Βοηθήματα διαλόγου modal |
 
-Usage inside any template that extends `base-layout.html.twig`:
+Χρήση μέσα σε οποιοδήποτε πρότυπο που επεκτείνει το `base-layout.html.twig`:
 
 ```twig
 {{ macro_buttons.submit('Save') }}
 {{ macro_box.content_box('Title', content) }}
 ```
 
-## Custom Vue Templates
+## Προσαρμοσμένα Πρότυπα Vue
 
-Chamilo supports per-installation Vue page overrides via the `APP_CUSTOM_VUE_TEMPLATE` environment variable. When set, the Webpack build exposes a `ENV_CUSTOM_VUE_TEMPLATE` constant via `DefinePlugin`, and the Vue router conditionally imports override components from `var/vue_templates/`.
+Το Chamilo υποστηρίζει παρακάμψεις σελίδων Vue ανά εγκατάσταση μέσω της μεταβλητής περιβάλλοντος `APP_CUSTOM_VUE_TEMPLATE`. Όταν ορίζεται, η κατασκευή Webpack εκθέτει μια σταθερά `ENV_CUSTOM_VUE_TEMPLATE` μέσω `DefinePlugin`, και ο router Vue εισάγει προαιρετικά συστατικά παρακάμψεων από το `var/vue_templates/`.
 
-Current override locations:
+Τρέχουσες τοποθεσίες παρακάμψεων:
 
 ```
 var/vue_templates/
@@ -100,20 +100,21 @@ var/vue_templates/
     └── SidebarLogin.vue
 ```
 
-Only the files present in `var/vue_templates/` are overridden — all other pages and components use the core originals.
+Μόνο τα αρχεία που υπάρχουν στο `var/vue_templates/` παρακάμπτονται — όλες οι άλλες σελίδες και συστατικά χρησιμοποιούν τα αρχικά core.
 
-## Twig Functions Reference
+---
+## Αναφορά Λειτουργιών Twig
 
-Key Twig functions available in all templates (registered in `ChamiloExtension`):
+Κύριες λειτουργίες Twig διαθέσιμες σε όλους τους πίνακες (καταχωρημένες στο `ChamiloExtension`):
 
-| Function | Purpose |
-|----------|---------|
-| `chamilo_settings_get('ns.key')` | Read a platform setting |
-| `chamilo_settings_has('ns.key')` | Check if a setting exists |
-| `chamilo_settings_all()` | Get all settings as an array |
-| `theme_asset('path')` | URL to an asset in the active theme |
-| `theme_asset_link_tag('path')` | `<link>` tag for a theme CSS file |
-| `theme_asset_script_tag('path')` | `<script>` tag for a theme JS file |
-| `theme_asset_base64('path')` | Base64 data URI for a theme asset |
-| `theme_logo('header'\|'email')` | URL to the preferred logo |
-| `is_allowed_to_edit(...)` | Permission check helper |
+| Λειτουργία | Σκοπός |
+|------------|--------|
+| `chamilo_settings_get('ns.key')` | Ανάγνωση ρύθμισης πλατφόρμας |
+| `chamilo_settings_has('ns.key')` | Έλεγχος ύπαρξης ρύθμισης |
+| `chamilo_settings_all()` | Λήψη όλων των ρυθμίσεων ως πίνακας |
+| `theme_asset('path')` | URL σε πόρο του ενεργού θέματος |
+| `theme_asset_link_tag('path')` | Ετικέτα `<link>` για αρχείο CSS θέματος |
+| `theme_asset_script_tag('path')` | Ετικέτα `<script>` για αρχείο JS θέματος |
+| `theme_asset_base64('path')` | Base64 data URI για πόρο θέματος |
+| `theme_logo('header'\|'email')` | URL στην προτιμώμενη εικόνα λογότυπου |
+| `is_allowed_to_edit(...)` | Βοηθητική λειτουργία ελέγχου άδειας |

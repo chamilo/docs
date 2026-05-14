@@ -1,115 +1,117 @@
-# Learning Paths
+# Μονοπάτια Μάθησης
 
-Learning paths let you create structured sequences of learning activities. A learning path guides your learners through a specific order of documents, exercises, links, and other resources, with optional prerequisites and progress tracking.
+Τα μονοπάτια μάθησης σας επιτρέπουν να δημιουργείτε δομημένες ακολουθίες δραστηριοτήτων μάθησης. Ένα μονοπάτι μάθησης καθοδηγεί τους μαθητές σας μέσω συγκεκριμένης σειράς εγγράφων, ασκήσεων, συνδέσμων και άλλων πόρων, με προαιρετικές προϋποθέσεις και παρακολούθηση προόδου.
 
-This tool is arguably the most used course tool, because it acts as a composer for many other tools and can very much be the ***only*** tool facing learners.
+Αυτό το εργαλείο είναι αναμφισβήτητα το πιο χρησιμοποιούμενο εργαλείο μαθήματος, επειδή λειτουργεί ως συνθέτης για πολλά άλλα εργαλεία και μπορεί να είναι το ***μόνο*** εργαλείο που βλέπουν οι μαθητές.
 
-## Why Use Learning Paths?
+## Γιατί να Χρησιμοποιήσετε Μονοπάτια Μάθησης;
 
-Learning paths are useful when you want to:
+Τα μονοπάτια μάθησης είναι χρήσιμα όταν θέλετε να:
 
-* **Control the order** of content consumption — ensure learners complete foundational material before advancing
-* **Track progress** — see exactly where each learner is in the sequence
-* **Set prerequisites** — require learners to pass an exercise before accessing the next section
-* **Award completion** — link learning path completion to the gradebook and certificates
-* **Package content** — create self-contained learning modules that learners can work through at their own pace
+* **Ελέγξετε τη σειρά** κατανάλωσης του περιεχομένου — να διασφαλίσετε ότι οι μαθητές ολοκληρώνουν βασικό υλικό πριν προχωρήσουν
+* **Παρακολουθείτε την πρόοδο** — να βλέπετε ακριβώς πού βρίσκεται κάθε μαθητής στη σειρά
+* **Θέσετε προϋποθέσεις** — να απαιτείτε από τους μαθητές να περάσουν μια άσκηση πριν έχουν πρόσβαση στην επόμενη ενότητα
+* **Βραβεύσετε την ολοκλήρωση** — να συνδέετε την ολοκλήρωση μονοπατιού μάθησης με το βιβλίο βαθμών και πιστοποιητικά
+* **Συσκευάσετε περιεχόμενο** — να δημιουργείτε αυτοτελή modules μάθησης που οι μαθητές μπορούν να διανύσουν με τον δικό τους ρυθμό
 
-## Creating a Learning Path
+## Δημιουργία Μονοπατιού Μάθησης
 
-1. Open the **Learning paths** <img src="/.gitbook/assets/icons/mdi-map-marker-path.svg" alt="Learning paths" data-size="line"> tool from the course homepage
-2. Click **Create a learning path**
-3. Enter a **title** and optional description
-4. Save — you will be taken to the learning path editor
+1. Ανοίξτε το εργαλείο **Learning paths** <img src="/.gitbook/assets/icons/mdi-map-marker-path.svg" alt="Μονοπάτια μάθησης" data-size="line"> από την αρχική σελίδα του μαθήματος
+2. Κάντε κλικ στο **Create a learning path**
+3. Εισαγάγετε έναν **τίτλο** και προαιρετική περιγραφή
+4. Αποθηκεύστε — θα μεταφερθείτε στον επεξεργαστή μονοπατιού μάθησης
 
-## The Learning Path Editor
+## Ο Επεξεργαστής Μονοπατιού Μάθησης
 
-![The learning path editor with the item tree on the left and content preview on the right](/.gitbook/assets/learning-path-editor.png)
+![Ο επεξεργαστής μονοπατιού μάθησης με το δέντρο αντικειμένων στα αριστερά και προεπισκόπηση περιεχομένου στα δεξιά](/.gitbook/assets/learning-path-editor.png)
 
-The editor has two main areas:
+Ο επεξεργαστής έχει δύο κύριες περιοχές:
 
-* **Left panel** — The list of items (steps) in the learning path, shown as a tree structure
-* **Right panel** — The content of the selected item
+* **Αριστερό πάνελ** — Η λίστα αντικειμένων (βημάτων) στο μονοπάτι μάθησης, που εμφανίζεται ως δομή δέντρου
+* **Δεξιό πάνελ** — Το περιεχόμενο του επιλεγμένου αντικειμένου
 
-### Adding Items
+### Πρόσθεση Αντικειμένων
 
-Click **Add an item** and choose what to add:
+Κάντε κλικ στο **Add an item** και επιλέξτε τι να προσθέσετε:
 
-| Item type | Description |
-|-----------|-------------|
-| **Section** | A heading that groups related items (like a chapter title). Sections do not contain content themselves. |
-| **Document** | A file or web page from your course's Documents tool |
-| **Exercise** | A quiz or test from the Exercises tool |
-| **Link** | An external URL |
-| **Assignment** | A student publication from the Assignments tool |
-| **Forum** | A link to a course forum |
-| **Survey** | A link to a survey |
-| **Certificate** | A special page to trigger the generation of a completion certificate or the awarding of skills |
+| Τύπος αντικειμένου | Περιγραφή |
+|--------------------|-----------|
+| **Section** | Ένας τίτλος που ομαδοποιεί σχετικά αντικείμενα (όπως τίτλος κεφαλαίου). Οι ενότητες δεν περιέχουν περιεχόμενο από μόνες τους. |
+| **Document** | Ένα αρχείο ή ιστοσελίδα από το εργαλείο Documents του μαθήματός σας |
+| **Exercise** | Ένα κουίζ ή τεστ από το εργαλείο Exercises |
+| **Link** | Ένα εξωτερικό URL |
+| **Assignment** | Μια δημοσίευση μαθητή από το εργαλείο Assignments |
+| **Forum** | Ένας σύνδεσμος σε φόρουμ μαθήματος |
+| **Survey** | Ένας σύνδεσμος σε έρευνα |
+| **Certificate** | Μια ειδική σελίδα για την ενεργοποίηση της δημιουργίας πιστοποιητικού ολοκλήρωσης ή την απονομή δεξιοτήτων |
 
-### Organizing Items
+### Οργάνωση Αντικειμένων
 
-* **Drag and drop** items to reorder them
-* **Nest items** under sections by dragging them to the right
-* **Delete** items you no longer need
+* **Σύρετε και αποθέστε** αντικείμενα για να τα επαναταξινομήσετε
+* **Ενσώματωση αντικειμένων** κάτω από ενότητες σύροντάς τα προς τα δεξιά
+* **Διαγραφή** αντικειμένων που δεν χρειάζεστε πλέον
 
-### Setting Prerequisites
+### Θέση Προϋποθέσεων
 
-Prerequisites ensure learners complete certain steps before accessing others:
+Οι προϋποθέσεις διασφαλίζουν ότι οι μαθητές ολοκληρώνουν ορισμένα βήματα πριν έχουν πρόσβαση σε άλλα:
 
-1. Select an item in the learning path
-2. Open its **prerequisites** settings
-3. Choose which preceding item(s) must be completed first
-4. For exercises, you can require a **minimum score** (e.g., "Must score at least 70% on Quiz 1 before accessing Module 2")
+1. Επιλέξτε ένα αντικείμενο στο μονοπάτι μάθησης
+2. Ανοίξτε τις ρυθμίσεις **prerequisites** του
+3. Επιλέξτε ποιο/α προηγούμενο/α αντικείμενο/αντικείμενα πρέπει να ολοκληρωθούν πρώτα
+4. Για ασκήσεις, μπορείτε να απαιτήσετε **ελάχιστη βαθμολογία** (π.χ., "Πρέπει να πετύχει τουλάχιστον 70% στο Quiz 1 πριν την πρόσβαση στο Module 2")
 
-## Learner Experience
+## Εμπειρία Μαθητή
 
-When a learner opens a learning path:
+Όταν ένας μαθητής ανοίγει ένα μονοπάτι μάθησης:
 
-* They see the list of items in the left panel
-* Completed items are marked with a checkmark
-* Items with unmet prerequisites are locked
-* Progress is tracked automatically — if a learner leaves and comes back, they resume where they left off
-* A progress bar shows overall completion percentage
+* Βλέπει τη λίστα αντικειμένων στο αριστερό πάνελ
+* Τα ολοκληρωμένα αντικείμενα επισημαίνονται με τικ
+* Τα αντικείμενα με μη ικανοποιημένες προϋποθέσεις είναι κλειδωμένα
+* Η πρόοδος παρακολουθείται αυτόματα — αν ο μαθητής φύγει και επιστρέψει, συνεχίζει από εκεί που σταμάτησε
+* Μια γραμμή προόδου δείχνει το συνολικό ποσοστό ολοκλήρωσης
 
-## SCORM Content
+## Περιεχόμενο SCORM
 
-Chamilo's learning path tool can import **SCORM 1.2** packages — the most widely used e-learning standard. Upload a SCORM ZIP file and Chamilo will create a learning path from it, tracking progress and scores according to the SCORM specification.
+Το εργαλείο μονοπατιών μάθησης του Chamilo μπορεί να εισάγει πακέτα **SCORM 1.2** — το πιο ευρέως χρησιμοποιούμενο πρότυπο e-learning. Ανεβάστε ένα αρχείο ZIP SCORM και το Chamilo θα δημιουργήσει ένα μονοπάτι μάθησης από αυτό, παρακολουθώντας πρόοδο και βαθμούς σύμφωνα με τις προδιαγραφές SCORM.
 
-To import a SCORM package:
+Για εισαγωγή πακέτου SCORM:
 
-1. In the Learning paths tool, open the actions menu and click **Upload**
-2. Upload the ZIP file
-3. Chamilo unpacks and creates the learning path automatically
+1. Στο εργαλείο Learning paths, ανοίξτε το μενού ενεργειών και κάντε κλικ στο **Upload**
+2. Ανεβάστε το αρχείο ZIP
+3. Το Chamilo αποσυμπιέζει και δημιουργεί το μονοπάτι μάθησης αυτόματα
 
-### CMI5 / xAPI packages
+### Πακέτα CMI5 / xAPI
 
-CMI5 packages (the modern xAPI-based successor to SCORM) are supported through the **XApi** plugin. Once the plugin is enabled by your administrator, you can import a CMI5 package and learners can launch it from the course; their statements are forwarded to the configured Learning Record Store.
+Τα πακέτα CMI5 (ο σύγχρονος διάδοχος SCORM βασισμένος σε xAPI) υποστηρίζονται μέσω του plugin **XApi**. Μόλις ενεργοποιηθεί το plugin από τον διαχειριστή σας, μπορείτε να εισάγετε ένα πακέτο CMI5 και οι μαθητές μπορούν να το εκκινήσουν από το μάθημα· οι δηλώσεις τους προωθούνται στο ρυθμισμένο Learning Record Store.
 
-## Learning Path Settings
+## Ρυθμίσεις Μονοπατιού Μάθησης
 
-Configure how the learning path behaves:
+Ρυθμίστε πώς συμπεριφέρεται το μονοπάτι μάθησης:
 
-| Setting | Description |
-|---------|-------------|
-| **Visibility** | Hide or show the learning path to learners |
-| **Prerequisites** | Require completion of other learning paths before this one |
-| **Auto-launch** | Automatically open this learning path when learners enter the course |
-| **Accumulated SCORM time** | Whether to accumulate time across multiple sessions |
+| Ρύθμιση | Περιγραφή |
+|---------|-----------|
+| **Visibility** | Απόκρυψη ή εμφάνιση του μονοπατιού μάθησης στους μαθητές |
+| **Prerequisites** | Απαίτηση ολοκλήρωσης άλλων μονοπατιών μάθησης πριν από αυτό |
+| **Auto-launch** | Αυτόματο άνοιγμα αυτού του μονοπατιού μάθησης όταν οι μαθητές εισέρχονται στο μάθημα |
+| **Accumulated SCORM time** | Εάν να συσσωρεύεται ο χρόνος σε πολλαπλές συνεδρίες |
 
-## Linking to the Gradebook
+## Σύνδεση με το Βιβλίο Βαθμών
 
-You can include learning path completion as a graded activity in the Gradebook. This allows learning path progress to contribute to the learner's overall course grade and certificate eligibility.
+Μπορείτε να συμπεριλάβετε την ολοκλήρωση μονοπατιού μάθησης ως βαθμολογούμενη δραστηριότητα στο Gradebook. Αυτό επιτρέπει στην πρόοδο του μονοπατιού μάθησης να συνεισφέρει στον συνολικό βαθμό του μαθήματος του μαθητή και στην επιλεξιμότητα πιστοποιητικού.
+---
 
-## Using AI
+---
+## Χρήση Τεχνητής Νοημοσύνης
 
-If the administrator has enabled AI-assisted learning path generation, you will find an AI generator option in the drop-down actions menu. Give the AI as precise a context as you want your learning path, ask for a number of pages and an approximate number of words per page, then tell it if you want to populate it with tests and launch. A few minutes later, you are looking down at a complete, text-based learning path.
+Εάν ο διαχειριστής έχει ενεργοποιήσει τη δημιουργία διαδρομής μάθησης με τη βοήθεια τεχνητής νοημοσύνης, θα βρείτε την επιλογή γεννήτριας ΤΝ στο μενού ενεργειών αναπτυσσόμενου. Δώστε στην ΤΝ τόσο ακριβές πλαίσιο όσο θέλετε για τη διαδρομή μάθησής σας, ζητήστε έναν αριθμό σελίδων και έναν κατά προσέγγιση αριθμό λέξεων ανά σελίδα, στη συνέχεια πείτε της αν θέλετε να την εμπλουτίσετε με δοκιμές και να την εκκινήσετε. Λίγα λεπτά αργότερα, κοιτάζετε μια πλήρη, βασισμένη σε κείμενο διαδρομή μάθησης.
 
-Edit the documents to generate illustrations with more AI and you only have some review to do before you can share it with your learners.
+Επεξεργαστείτε τα έγγραφα για να δημιουργήσετε εικόνες με περισσότερη ΤΝ και έχετε μόνο κάποια επανεξέταση να κάνετε πριν την μοιραστείτε με τους μαθητές σας.
 
-## Tips
+## Συμβουλές
 
-* **Start with an outline** — Plan your sections and items before building the path
-* **Use sections as chapters** — Group related items under section headings for clarity
-* **Set prerequisites for assessments** — Require learners to study the content before taking a quiz
-* **Mix content types** — Combine reading materials, videos, interactive exercises, and external resources for an engaging learning experience
-* **Check the learner view** — Use the Student View feature to experience the learning path as a learner would
-* **Use SCORM for interactivity** — If you have access to SCORM authoring tools (like Articulate, iSpring, or similar), create rich interactive content and import it into Chamilo
+* **Ξεκινήστε με περίγραμμα** — Σχεδιάστε τις ενότητες και τα αντικείμενα πριν τη δημιουργία της διαδρομής
+* **Χρησιμοποιήστε ενότητες ως κεφάλαια** — Ομαδοποιήστε σχετικά αντικείμενα κάτω από τίτλους ενοτήτων για σαφήνεια
+* **Ορίστε προαπαιτούμενα για αξιολογήσεις** — Απαιτήστε οι μαθητές να μελετήσουν το περιεχόμενο πριν συμμετάσχουν σε κουίζ
+* **Συνδυάστε τύπους περιεχομένου** — Συνδυάστε υλικό ανάγνωσης, βίντεο, διαδραστικές ασκήσεις και εξωτερικούς πόρους για μια ελκυστική εμπειρία μάθησης
+* **Ελέγξτε την προβολή μαθητή** — Χρησιμοποιήστε τη λειτουργία Student View για να βιώσετε τη διαδρομή μάθησης όπως θα την έβλεπε ένας μαθητής
+* **Χρησιμοποιήστε SCORM για διαδραστικότητα** — Εάν έχετε πρόσβαση σε εργαλεία δημιουργίας SCORM (όπως Articulate, iSpring ή παρόμοια), δημιουργήστε πλούσιο διαδραστικό περιεχόμενο και εισαγάγετέ το στο Chamilo

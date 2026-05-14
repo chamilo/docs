@@ -1,50 +1,49 @@
-# Chat Settings
+# Ρυθμίσεις Συνομιλίας
 
-Behaviour of the course **Chat** tool.
+Συμπεριφορά του εργαλείου **Chat** του μαθήματος.
 
-Access these settings under **Administration > Configuration settings > Chat**. This category contains **5 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+Πρόσβαση σε αυτές τις ρυθμίσεις μέσω **Διαχείριση > Ρυθμίσεις διαμόρφωσης > Chat**. Αυτή η κατηγορία περιέχει **5 ρυθμίσεις**, που παρατίθενται παρακάτω με τον τίτλο και το σχόλιο που παρέχονται στα fixtures των ρυθμίσεων της πλατφόρμας (`SettingsCurrentFixtures.php`).
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> Το όνομα της μεταβλητής στον κώδικα εμφανίζεται σε monospace. Χρησιμοποιήστε το κατά την προγραμματισμό μέσω του API ή όταν χρειάζεται να αλλάξετε αυτές τις ρυθμίσεις σε παγκόσμιο επίπεδο επεξεργαζόμενοι το [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
 
-## Settings
+## Ρυθμίσεις
 
 ### `allow_global_chat`
 
-**Allow global chat**
+**Επιτρέψτε παγκόσμια συνομιλία**
 
-Users can chat with each other
+Οι χρήστες μπορούν να συνομιλούν μεταξύ τους
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 ### `course_chat_restrict_to_coach`
 
-**Restrict course chat to coaches**
+**Περιορισμός συνομιλίας μαθήματος σε επιβλέποντες**
 
-Only allow students to talk to the tutors in the course (not other students).
+Επιτρέπει μόνο στους φοιτητές να συνομιλούν με τους επιβλέποντες του μαθήματος (όχι μεταξύ φοιτητών).
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 ### `hide_chat_video`
 
-**Hide videochat option in global chat**
+**Απόκρυψη επιλογής βιντεοσυνομιλίας στην παγκόσμια συνομιλία**
 
-When enabled, video chat functionality is disabled and unavailable in the global chat tool.
+Όταν είναι ενεργοποιημένη, η λειτουργικότητα βιντεοσυνομιλίας απενεργοποιείται και δεν είναι διαθέσιμη στο εργαλείο παγκόσμιας συνομιλίας.
 
-*Default: `true`*
+*Προεπιλογή: `true`*
 
 ### `save_private_conversations_in_documents`
 
-**Save private conversations in documents**
+**Αποθήκευση ιδιωτικών συνομιλιών σε έγγραφα**
 
-If enabled, 1:1 private chat messages will be mirrored in the course chat history documents. Recommended to keep disabled for privacy.
+Αν είναι ενεργοποιημένη, τα μηνύματα ιδιωτικής συνομιλίας 1:1 θα αντικατοπτρίζονται στα έγγραφα ιστορικού συνομιλίας του μαθήματος. Συνιστάται να παραμένει απενεργοποιημένη για λόγους απορρήτου.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 ### `show_chat_folder`
 
-**Show the history folder of chat conversations**
+**Εμφάνιση φακέλου ιστορικού συνομιλιών συνομιλίας**
 
-This will show to theacher the folder that contains all sessions that have been made in the chat, the teacher can make them visible or not learners and use them as a resource
+Αυτό θα εμφανίσει στον διδάσκοντα τον φάκελο που περιέχει όλες τις συνεδρίες που έχουν πραγματοποιηθεί στη συνομιλία, ο διδάσκων μπορεί να τις κάνει ορατές ή μη στους μαθητές και να τις χρησιμοποιήσει ως πόρο
 
-*Default: `true`*
-
+*Προεπιλογή: `true`*

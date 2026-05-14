@@ -1,52 +1,51 @@
-# CAS Settings
+# Ρυθμίσεις CAS
 
-Legacy CAS (Central Authentication Service) configuration carried over from Chamilo 1.x. See [CAS](../authentication/cas.md) for the current status of the CAS authenticator in Chamilo 2.x.
+Παλαιότερη διαμόρφωση CAS (Central Authentication Service) που μεταφέρθηκε από το Chamilo 1.x. Δείτε το [CAS](../authentication/cas.md) για την τρέχουσα κατάσταση του ελέγχου ταυτότητας CAS στο Chamilo 2.x.
 
-Access these settings under **Administration > Configuration settings > CAS**. This category contains **7 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+Προσπελάστε αυτές τις ρυθμίσεις στο **Administration > Configuration settings > CAS**. Αυτή η κατηγορία περιέχει **7 ρυθμίσεις**, που παρατίθενται παρακάτω με τον τίτλο και το σχόλιο που παρέχονται στα fixtures των ρυθμίσεων της πλατφόρμας (`SettingsCurrentFixtures.php`).
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> Το όνομα της μεταβλητής στον κώδικα εμφανίζεται σε monospace. Χρησιμοποιήστε το όταν προγραμματίζετε μέσω του API ή όταν χρειάζεται να αλλάξετε αυτές τις ρυθμίσεις σε παγκόσμιο επίπεδο επεξεργαζόμενοι το [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
 
-## Settings
+## Ρυθμίσεις
 
 ### `cas_activate`
 
-**Enable CAS authentication**
+**Ενεργοποίηση ελέγχου ταυτότητας CAS**
 
-Enabling CAS authentication will allow users to authenticate with their CAS credentials.<br/>Go to <a href='settings.php?category=CAS'>Plugin</a> to add a configurable 'CAS Login' button for your Chamilo campus. Or you can force CAS authentication by setting cas[force_redirect] in app/config/auth.conf.php.
+Η ενεργοποίηση του ελέγχου ταυτότητας CAS θα επιτρέψει στους χρήστες να ελέγχουν τα διαπιστευτήριά τους CAS.<br/>Πηγαίνετε στο <a href='settings.php?category=CAS'>Plugin</a> για να προσθέσετε ένα ρυθμιζόμενο κουμπί 'CAS Login' για τον χώρο σας Chamilo. Ή μπορείτε να επιβάλετε έλεγχο ταυτότητας CAS ορίζοντας το cas[force_redirect] στο app/config/auth.conf.php.
 
 ### `cas_add_user_activate`
 
-**Enable CAS user addition**
+**Ενεργοποίηση προσθήκης χρήστη CAS**
 
-Enable CAS user addition. To create the user account from the LDAP directory, the extldap_config and extldap_user_correspondance tables must be filled in in app/config/auth.conf.php
+Ενεργοποίηση προσθήκης χρήστη CAS. Για να δημιουργηθεί ο λογαριασμός χρήστη από τον κατάλογο LDAP, τα πίνακες extldap_config και extldap_user_correspondance πρέπει να συμπληρωθούν στο app/config/auth.conf.php
 
 ### `cas_port`
 
-**Main CAS server port**
+**Κύρια θύρα διακομιστή CAS**
 
-The port on which to connect to the main CAS server
+Η θύρα στην οποία θα συνδεθείτε με τον κύριο διακομιστή CAS
 
 ### `cas_protocol`
 
-**Main CAS server protocol**
+**Πρωτόκολλο κύριου διακομιστή CAS**
 
-The protocol with which we connect to the CAS server
+Το πρωτόκολλο με το οποίο συνδέεστε με τον διακομιστή CAS
 
 ### `cas_server`
 
-**Main CAS server**
+**Κύριος διακομιστής CAS**
 
-This is the main CAS server which will be used for the authentication (IP address or hostname)
+Αυτός είναι ο κύριος διακομιστής CAS που θα χρησιμοποιηθεί για τον έλεγχο ταυτότητας (διεύθυνση IP ή όνομα κεντρικού υπολογιστή)
 
 ### `cas_server_uri`
 
-**Main CAS server URI**
+**URI κύριου διακομιστή CAS**
 
-The path to the CAS service
+Η διαδρομή προς την υπηρεσία CAS
 
 ### `update_user_info_cas_with_ldap`
 
-**Update CAS-authenticated user account information from LDAP**
+**Ενημέρωση πληροφοριών λογαριασμού χρήστη ελέγχου ταυτότητας CAS από LDAP**
 
-Makes sure the user firstname, lastname and email address are the same as current values in the LDAP directory
-
+Βεβαιώνεται ότι το βαφτιστικό, επώνυμο και διεύθυνση email του χρήστη είναι τα ίδια με τις τρέχουσες τιμές στον κατάλογο LDAP

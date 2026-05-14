@@ -1,117 +1,115 @@
-# Languages Settings
+# Ρυθμίσεις Γλωσσών
 
-Available languages, default language, and how Chamilo resolves which language to display.
+Διαθέσιμες γλώσσες, προεπιλεγμένη γλώσσα και πώς το Chamilo επιλύει ποια γλώσσα να εμφανίσει.
 
-Access these settings under **Administration > Configuration settings > Languages**. This category contains **12 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+Πρόσβαση σε αυτές τις ρυθμίσεις στο **Administration > Configuration settings > Languages**. Αυτή η κατηγορία περιέχει **12 ρυθμίσεις**, που παρατίθενται παρακάτω με τον τίτλο και το σχόλιο που παρέχονται στα fixtures των ρυθμίσεων της πλατφόρμας (`SettingsCurrentFixtures.php`).
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> Το όνομα της μεταβλητής στον κώδικα εμφανίζεται σε monospace. Χρησιμοποιήστε το όταν προγραμματίζετε μέσω του API ή όταν χρειάζεται να αλλάξετε αυτές τις ρυθμίσεις σε παγκόσμιο επίπεδο επεξεργαζόμενοι το [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
 
-## Settings
+## Ρυθμίσεις
 
 ### `allow_course_multiple_languages`
 
-**Multiple-language courses**
+**Κurseis πολλαπλών γλωσσών**
 
-Enable courses managed in more than one language. This option adds a language selector within the course page to let users switch easily, and adds a 'multiple_language' extra field to courses which allows for remote management procedures.
+Ενεργοποιήστε τα μαθήματα που διαχειρίζονται σε περισσότερες από μία γλώσσες. Αυτή η επιλογή προσθέτει έναν επιλογέα γλώσσας στην σελίδα του μαθήματος για να επιτρέψει στους χρήστες να αλλάξουν εύκολα, και προσθέτει ένα επιπλέον πεδίο 'multiple_language' στα μαθήματα που επιτρέπει διαδικασίες απομακρυσμένης διαχείρισης.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 
 ### `allow_use_sub_language`
 
-**Allow definition and use of sub-languages**
+**Επιτρέψτε τον ορισμό και τη χρήση υπο-γλωσσών**
 
-By enabling this option, you will be able to define variations for each of the language terms used in the platform's interface, in the form of a new language based on and extending an existing language. You'll find this option in the languages section of the administration panel.
+Ενεργοποιώντας αυτή την επιλογή, θα μπορείτε να ορίσετε παραλλαγές για κάθε όρο γλώσσας που χρησιμοποιείται στη διεπαφή της πλατφόρμας, με τη μορφή νέας γλώσσας βασισμένης σε και επεκτείνουσας μια υπάρχουσα γλώσσα. Θα βρείτε αυτή την επιλογή στην ενότητα γλωσσών του πίνακα διαχείρισης.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 ### `auto_detect_language_custom_pages`
 
-**Enable language auto-detect in custom pages**
+**Ενεργοποίηση αυτόματης ανίχνευσης γλώσσας σε προσαρμοσμένες σελίδες**
 
-If you use custom pages, enable this if you want to have a language detector there present the page in the user's browser language, or disable to force the language to be the default platform language.
+Αν χρησιμοποιείτε προσαρμοσμένες σελίδες, ενεργοποιήστε το αν θέλετε να υπάρχει ανιχνευτής γλώσσας εκεί για να παρουσιάσει τη σελίδα στη γλώσσα του προγράμματος περιήγησης του χρήστη, ή απενεργοποιήστε για να επιβάλει τη γλώσσα να είναι η προεπιλεγμένη γλώσσα της πλατφόρμας.
 
-*Default: `true`*
+*Προεπιλογή: `true`*
 
 
 ### `language_flags_by_country`
 
-**Language flags**
+**Σημαίες γλωσσών**
 
-Use country flags for languages. This is not enabled by default because some languages are not strictly attached to a country, which can lead to frustration for some users.
+Χρήση σημαιών χωρών για γλώσσες. Δεν ενεργοποιείται από προεπιλογή επειδή ορισμένες γλώσσες δεν συνδέονται αυστηρά με χώρα, κάτι που μπορεί να οδηγήσει σε απογοήτευση ορισμένων χρηστών.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 
 ### `language_priority_1`
 
-**Highest priority language**
+**Γλώσσα υψηλότερης προτεραιότητας**
 
-Primary language selected when multiple language contexts are set.
+Πρωτεύουσα γλώσσα που επιλέγεται όταν ορίζονται πολλαπλά πλαίσια γλώσσας.
 
-*Default: `course_lang`*
+*Προεπιλογή: `course_lang`*
 
 
 ### `language_priority_2`
 
-**Secondary priority language**
+**Δευτερεύουσα γλώσσα προτεραιότητας**
 
-Secondary fallback language if first priority is unavailable or out of context.
+Δευτερεύουσα εφεδρική γλώσσα αν η πρώτη προτεραιότητα δεν είναι διαθέσιμη ή εκτός πλαισίου.
 
-*Default: `user_profil_lang`*
+*Προεπιλογή: `user_profil_lang`*
 
 
 ### `language_priority_3`
 
-**Third priority language**
+**Τριτοβάθμια γλώσσα προτεραιότητας**
 
-Tertiary language fallback if higher priorities fail.
+Τριτοβάθμια εφεδρική γλώσσα αν αποτύχουν οι υψηλότερες προτεραιότητες.
 
-*Default: `user_selected_lang`*
+*Προεπιλογή: `user_selected_lang`*
 
 
 ### `language_priority_4`
 
-**Fourth priority language**
+**Τεταρτοβάθμια γλώσσα προτεραιότητας**
 
-Last language fallback option by order of priority.
+Τελευταία επιλογή εφεδρικής γλώσσας κατά τάξη προτεραιότητας.
 
-*Default: `platform_lang`*
+*Προεπιλογή: `platform_lang`*
 
 
 ### `platform_language`
 
-**Default platform language**
+**Προεπιλεγμένη γλώσσα πλατφόρμας**
 
-Main language, used by default when no user language is set.
+Κύρια γλώσσα, που χρησιμοποιείται από προεπιλογή όταν δεν ορίζεται γλώσσα χρήστη.
 
-*Default: `en`*
+*Προεπιλογή: `en`*
 
 
 ### `show_different_course_language`
 
-**Show course languages**
+**Εμφάνιση γλωσσών μαθήματος**
 
-Show the language each course is in, next to the course title, on the homepage courses list
+Εμφάνιση της γλώσσας κάθε μαθήματος, δίπλα στον τίτλο του μαθήματος, στη λίστα μαθημάτων της αρχικής σελίδας
 
-*Default: `true`*
+*Προεπιλογή: `true`*
 
 
 ### `show_language_selector_in_menu`
 
-**Language switcher in main menu**
+**Επιλογέας γλώσσας στο κύριο μενού**
 
-Display a language selector in the main menu that immediately updates the language preference of the user. This can be useful in multilingual portals where learners have to switch from one language to another for their learning.
+Εμφάνιση επιλογέα γλώσσας στο κύριο μενού που ενημερώνει αμέσως την προτίμηση γλώσσας του χρήστη. Αυτό μπορεί να είναι χρήσιμο σε πολυγλωσσικά portals όπου οι μαθητές πρέπει να αλλάξουν από τη μία γλώσσα στην άλλη για τη μάθησή τους.
 
-*Default: `true`*
+*Προεπιλογή: `true`*
 
 
 ### `template_activate_language_filter`
 
-**Multiple-language document templates**
+**Πρότυπα εγγράφων πολλαπλών γλωσσών**
 
-Enable document templates (at the platform or course level) to be configured for specific languages.
+Ενεργοποίηση προτύπων εγγράφων (σε επίπεδο πλατφόρμας ή μαθήματος) να ρυθμίζονται για συγκεκριμένες γλώσσες.
 
-*Default: `false`*
-
-
+*Προεπιλογή: `false`*

@@ -1,93 +1,93 @@
-# Server Requirements
+# Απαιτήσεις Διακομιστή
 
-Before installing Chamilo 2.0, verify that your server meets the following requirements.
+Πριν την εγκατάσταση του Chamilo 2.0, ελέγξτε ότι ο διακομιστής σας πληροί τις εξής απαιτήσεις.
 
-## Software Requirements
+## Απαιτήσεις Λογισμικού
 
 ### PHP
 
-| Requirement | Minimum | Recommended |
-|-------------|---------|-------------|
-| **PHP version** | 8.2 | 8.3 or later |
+| Απαίτηση | Ελάχιστη | Συνιστώμενη |
+|----------|----------|-------------|
+| **Έκδοση PHP** | 8.2 | 8.3 ή νεότερη |
 
-### Required PHP Extensions
+### Απαιτούμενες Επεκτάσεις PHP
 
-| Extension | Purpose |
-|-----------|---------|
-| **curl** | HTTP requests (API integrations, external services) |
-| **fileinfo** | MIME type detection for uploaded files |
-| **gd** | Image processing (thumbnails, CAPTCHA) |
-| **intl** | Internationalization (date, number, and string formatting) |
-| **json** | JSON encoding/decoding |
-| **ldap** | LDAP connector. Although you will probably not use LDAP, Chamilo requires it |
-| **mbstring** | Multibyte string handling (UTF-8 support) |
-| **openssl** | Cryptographic operations (HTTPS, password hashing, tokens) |
-| **pdo_mysql** or **pdo_pgsql** | Database connectivity (install the one matching your database) |
-| **xml** | XML parsing (SCORM, RSS, SOAP) |
-| **zip** | Handling ZIP archives (SCORM packages, bulk imports/exports) |
-| **apcu** | User-level caching (recommended) |
-| **opcache** | Opcode caching (strongly recommended for performance) |
-| **xapian** | Full-text search (optional, only if you use search) |
+| Επέκταση | Σκοπός |
+|----------|--------|
+| **curl** | HTTP αιτήματα (ενσωματώσεις API, εξωτερικές υπηρεσίες) |
+| **fileinfo** | Ανίχνευση τύπου MIME για ανεβασμένα αρχεία |
+| **gd** | Επεξεργασία εικόνων (μικρογραφίες, CAPTCHA) |
+| **intl** | Διεθνοποίηση (μορφοποίηση ημερομηνιών, αριθμών και συμβολοσειρών) |
+| **json** | Κωδικοποίηση/αποκωδικοποίηση JSON |
+| **ldap** | Συνδετήρας LDAP. Αν και πιθανότατα δεν θα χρησιμοποιήσετε LDAP, το Chamilo το απαιτεί |
+| **mbstring** | Διαχείριση συμβολοσειρών πολλαπλού byte (υποστήριξη UTF-8) |
+| **openssl** | Κρυπτογραφικές λειτουργίες (HTTPS, hashing κωδικών, tokens) |
+| **pdo_mysql** ή **pdo_pgsql** | Συνδεσιμότητα βάσης δεδομένων (εγκαταστήστε αυτή που ταιριάζει με τη βάση δεδομένων σας) |
+| **xml** | Ανάλυση XML (SCORM, RSS, SOAP) |
+| **zip** | Διαχείριση ZIP αρχείων (πακέτα SCORM, μαζικές εισαγωγές/εξαγωγές) |
+| **apcu** | Κρυφή μνήμη επιπέδου χρήστη (συνιστάται) |
+| **opcache** | Κρυφή μνήμη opcode (σφοδρά συνιστάται για απόδοση) |
+| **xapian** | Πλήρης αναζήτηση κειμένου (προαιρετική, μόνο αν χρησιμοποιείτε αναζήτηση) |
 
-### Database
+### Βάση Δεδομένων
 
-| Database | Minimum Version |
-|----------|----------------|
+| Βάση Δεδομένων | Ελάχιστη Έκδοση |
+|----------------|-----------------|
 | **MySQL** | 8.0 |
 | **MariaDB** | 10.4 |
 
-### Web Server
+### Ιστότοπος Διακομιστή
 
-| Server | Notes |
-|--------|-------|
-| **Apache** | Requires `mod_rewrite` enabled. |
-| **Nginx** | Requires manual configuration for URL rewriting. See the Symfony Nginx documentation for a reference configuration. |
+| Διακομιστής | Σημειώσεις |
+|-------------|------------|
+| **Apache** | Απαιτείται η ενεργοποίηση του `mod_rewrite`. |
+| **Nginx** | Απαιτείται χειροκίνητη διαμόρφωση για αναδιάρθρωση URL. Δείτε την τεκμηρίωση Nginx του Symfony για παράδειγμα διαμόρφωσης. |
 
-### Build Tools
+### Εργαλεία Σύνταξης
 
-| Tool | Purpose |
-|------|---------|
-| **Composer** | PHP dependency management. Required to install Chamilo's PHP libraries. |
-| **Node.js** (18+) | JavaScript runtime. Required to build frontend assets. |
-| **npm** | JavaScript package manager. Installed with Node.js. |
+| Εργαλείο | Σκοπός |
+|----------|--------|
+| **Composer** | Διαχείριση εξαρτήσεων PHP. Απαιτείται για την εγκατάσταση των βιβλιοθηκών PHP του Chamilo. |
+| **Node.js** (18+) | Περιβάλλον εκτέλεσης JavaScript. Απαιτείται για τη σύνταξη frontend assets. |
+| **npm** | Διαχειριστής πακέτων JavaScript. Εγκαθίσταται με το Node.js. |
 
-## Hardware Requirements
+## Απαιτήσεις Υλικού
 
-| Resource | Minimum | Recommended |
-|----------|---------|-------------|
-| **RAM** | 2 GB | 4 GB or more |
-| **CPU** | 1 core | 2+ cores |
-| **Disk space** | 2 GB (application only) | 20+ GB (including uploaded content) |
-| **Disk type** | HDD | SSD (significantly improves database and cache performance) |
+| Πόρος | Ελάχιστη | Συνιστώμενη |
+|-------|----------|-------------|
+| **RAM** | 2 GB | 4 GB ή περισσότερο |
+| **CPU** | 1 πυρήνας | 2+ πυρήνες |
+| **Χώρος δίσκου** | 2 GB (μόνο η εφαρμογή) | 20+ GB (συμπεριλαμβανομένου περιεχομένου που ανεβαίνει) |
+| **Τύπος δίσκου** | HDD | SSD (βελτιώνει σημαντικά την απόδοση βάσης δεδομένων και κρυφής μνήμης) |
 
-These are baseline figures. Actual requirements depend on the number of concurrent users and the volume of content hosted.
+Αυτά είναι βασικά μεγέθη. Οι πραγματικές απαιτήσεις εξαρτώνται από τον αριθμό των ταυτόχρονων χρηστών και τον όγκο του φιλοξενούμενου περιεχομένου.
 
-## Operating System
+## Λειτουργικό Σύστημα
 
-| OS | Notes |
-|----|-------|
-| **Linux** | Recommended. Ubuntu 22.04+, Debian 12+, AlmaLinux 9+, or equivalent. |
-| **Windows** | Possible but not thoroughly tested. Use WSL2 for development. |
-| **macOS** | Development only / untested. |
+| ΛΣ | Σημειώσεις |
+|----|------------|
+| **Linux** | Συνιστάται. Ubuntu 22.04+, Debian 12+, AlmaLinux 9+ ή ισοδύναμο. |
+| **Windows** | Πιθανό αλλά όχι πλήρως δοκιμασμένο. Χρησιμοποιήστε WSL2 για ανάπτυξη. |
+| **macOS** | Μόνο για ανάπτυξη / μη δοκιμασμένο. |
 
-## Network Requirements
+## Απαιτήσεις Δικτύου
 
-* A domain name pointing to your server.
-* An SSL/TLS certificate for HTTPS (Let's Encrypt provides free certificates).
-* Outbound SMTP access if sending emails directly (or use a third-party email service).
-* Port 443 (HTTPS) and optionally port 80 (HTTP, for redirect to HTTPS).
+* Ένα όνομα τομέα που να δείχνει στον διακομιστή σας.
+* Πιστοποιητικό SSL/TLS για HTTPS (το Let's Encrypt παρέχει δωρεάν πιστοποιητικά).
+* Έξοδο SMTP αν στέλνετε email απευθείας (ή χρησιμοποιήστε υπηρεσία email τρίτου).
+* Θύρα 443 (HTTPS) και προαιρετικά θύρα 80 (HTTP, για ανακατεύθυνση σε HTTPS).
 
-## Checking Requirements
+## Έλεγχος Απαιτήσεων
 
-After placing the Chamilo source on your server, you can check your PHP configuration directly:
+Μετά την τοποθέτηση της πηγής του Chamilo στον διακομιστή σας, μπορείτε να ελέγξετε τη διαμόρφωση PHP σας απευθείας:
 
 ```bash
 php -m          # List installed extensions
 php -i          # Full PHP info
 ```
 
-## Tips
+## Συμβουλές
 
-* **Use PHP-FPM** with Apache or Nginx for better performance than mod_php.
-* **Separate your database** onto a dedicated server for platforms expecting more than 500 concurrent users.
-* **Use SSD storage** -- Database-heavy applications like Chamilo benefit significantly from fast disk I/O.
+* **Χρησιμοποιήστε PHP-FPM** με Apache ή Nginx για καλύτερη απόδοση από το mod_php.
+* **Διαχωρίστε τη βάση δεδομένων σας** σε ειδικό διακομιστή για πλατφόρμες που αναμένουν περισσότερους από 500 ταυτόχρονους χρήστες.
+* **Χρησιμοποιήστε αποθήκευση SSD** -- Εφαρμογές βαριές σε βάση δεδομένων όπως το Chamilo επωφελούνται σημαντικά από γρήγορο I/O δίσκου.

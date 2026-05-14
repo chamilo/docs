@@ -1,55 +1,55 @@
 # Access URLs
 
-Access URLs allow a single Chamilo installation to serve multiple separate portals.
+Οι Access URLs επιτρέπουν σε μία ενιαία εγκατάσταση Chamilo να εξυπηρετεί πολλαπλούς ξεχωριστούς πίνακες ελέγχου.
 
 
 ## Use Cases
 
-* **Multi-tenant deployments** — Host separate training portals for different organizations on a single server
-* **Departmental portals** — Give each department its own branded portal (e.g., `hr.training.company.com`, `it.training.company.com`)
-* **Regional portals** — Separate portals for different regions or languages
+* **Πολλαπλές εγκαταστάσεις** — Φιλοξενήστε ξεχωριστούς πίνακες εκπαίδευσης για διαφορετικούς οργανισμούς σε έναν ενιαίο διακομιστή
+* **Πίνακες τμημάτων** — Δώστε σε κάθε τμήμα τον δικό του επώνυμο πίνακα (π.χ., `hr.training.company.com`, `it.training.company.com`)
+* **Περιφερειακοί πίνακες** — Ξεχωριστοί πίνακες για διαφορετικές περιοχές ή γλώσσες
 
 ## How It Works
 
-Each access URL is a separate entry point to the same Chamilo installation:
+Κάθε access URL αποτελεί ξεχωριστό σημείο εισόδου στην ίδια εγκατάσταση Chamilo:
 
-* Users can be assigned to one or more access URLs
-* Courses and sessions belong to specific access URLs
-* Platform settings can be customized per access URL
-* Branding and themes can differ per URL
-* Users on one portal cannot see users or courses on another (unless explicitly shared)
+* Οι χρήστες μπορούν να ανατεθούν σε μία ή περισσότερες access URLs
+* Τα μαθήματα και οι συνεδρίες ανήκουν σε συγκεκριμένες access URLs
+* Οι ρυθμίσεις της πλατφόρμας μπορούν να προσαρμοστούν ανά access URL
+* Η επωνυμία και τα θέματα μπορούν να διαφέρουν ανά URL
+* Οι χρήστες σε έναν πίνακα δεν μπορούν να δουν χρήστες ή μαθήματα σε άλλον (εκτός αν μοιραστούν ρητά)
 
 ## Configuration
 
 ### Enabling Multi-URL
 
-Multi-URL must be enabled in the Chamilo configuration (typically in the environment settings). This is usually done during initial setup.
+Το Multi-URL πρέπει να ενεργοποιηθεί στη διαμόρφωση του Chamilo (συνήθως στις ρυθμίσεις περιβάλλοντος). Αυτό γίνεται συνήθως κατά την αρχική εγκατάσταση.
 
 ### Creating an Access URL
 
-1. From the administration panel, navigate to **Access URLs**
-2. Click **Add a URL**
-3. Enter the URL (e.g., `https://portal2.yoursite.com`)
-4. Configure settings specific to this URL
-5. Save
+1. Από τον πίνακα διαχείρισης, πλοηγηθείτε σε **Access URLs**
+2. Κάντε κλικ στο **Add a URL**
+3. Εισαγάγετε το URL (π.χ., `https://portal2.yoursite.com`)
+4. Ρυθμίστε τις συγκεκριμένες για αυτό το URL ρυθμίσεις
+5. Αποθηκεύστε
 
 ### Assigning Users and Courses
 
-* **Users** — Assign users to specific access URLs. A user can belong to multiple URLs.
-* **Courses** — Assign courses to specific access URLs
-* **Sessions** — Assign sessions to specific access URLs
+* **Χρήστες** — Αναθέστε χρήστες σε συγκεκριμένες access URLs. Ένας χρήστης μπορεί να ανήκει σε πολλαπλές URLs.
+* **Μαθήματα** — Αναθέστε μαθήματα σε συγκεκριμένες access URLs
+* **Συνεδρίες** — Αναθέστε συνεδρίες σε συγκεκριμένες access URLs
 
 ### Per-URL Settings
 
-Each access URL can have its own:
+Κάθε access URL μπορεί να έχει τις δικές του:
 
-* **Color theme** — Different visual branding
-* **Platform name and logo** — Custom identity
-* **Settings overrides** — Certain platform settings can be customized per URL
+* **Χρωματικό θέμα** — Διαφορετική οπτική επωνυμία
+* **Όνομα και λογότυπο πλατφόρμας** — Προσαρμοσμένη ταυτότητα
+* **Παρακάμψεις ρυθμίσεων** — Ορισμένες ρυθμίσεις πλατφόρμας μπορούν να προσαρμοστούν ανά URL
 
 ## Tips
 
-* **Decide early** — If choosing a multi-URL setup, you should do that at the start of your Chamilo project as it requires leaving the first URL relatively empty of content. Enabling multi-URL afterwards is more challenging (requires manual databases changes).
-* **Plan URL structure** — Decide on your URL scheme before creating access URLs, as changing URLs later affects all existing links and bookmarks
-* **DNS configuration** — Each access URL must resolve to the same Chamilo server. Configure DNS records accordingly.
-* **Global administrator** — Use the Global Administrator role to manage across all access URLs
+* **Αποφασίστε νωρίς** — Αν επιλέξετε ρύθμιση multi-URL, θα πρέπει να το κάνετε στην αρχή του έργου Chamilo σας, καθώς απαιτεί να αφήσετε την πρώτη URL σχετικά άδεια περιεχομένου. Η ενεργοποίηση multi-URL αργότερα είναι πιο δύσκολη (απαιτεί χειροκίνητες αλλαγές βάσεων δεδομένων).
+* **Σχεδιάστε τη δομή URL** — Αποφασίστε για το σχήμα URL σας πριν δημιουργήσετε access URLs, καθώς η αλλαγή URLs αργότερα επηρεάζει όλους τους υπάρχοντες συνδέσμους και σελιδοδείκτες
+* **Διαμόρφωση DNS** — Κάθε access URL πρέπει να επιλύεται στον ίδιο διακομιστή Chamilo. Ρυθμίστε τα αρχεία DNS ανάλογα.
+* **Global administrator** — Χρησιμοποιήστε τον ρόλο Global Administrator για διαχείριση σε όλες τις access URLs

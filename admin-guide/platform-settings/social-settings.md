@@ -1,70 +1,68 @@
-# Social Network Settings
+# Ρυθμίσεις Κοινωνικού Δικτύου
 
-Behaviour of the **Social Network** — friends, groups, wall posts, photo albums.
+Συμπεριφορά του **Social Network** — φίλοι, ομάδες, αναρτήσεις τοίχου, άλμπουμ φωτογραφιών.
 
-Access these settings under **Administration > Configuration settings > Social Network**. This category contains **7 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+Πρόσβαση σε αυτές τις ρυθμίσεις στο **Administration > Configuration settings > Social Network**. Αυτή η κατηγορία περιέχει **7 ρυθμίσεις**, που παρατίθενται παρακάτω με τον τίτλο και το σχόλιο που παρέχονται στα fixtures των ρυθμίσεων της πλατφόρμας (`SettingsCurrentFixtures.php`).
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> Το όνομα της μεταβλητής στον κώδικα εμφανίζεται σε monospace. Χρησιμοποιήστε το όταν προγραμματίζετε μέσω του API ή όταν χρειάζεται να αλλάξετε αυτές τις ρυθμίσεις σε παγκόσμιο επίπεδο επεξεργαζόμενοι το [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
 
-## Settings
+## Ρυθμίσεις
 
 ### `allow_social_tool`
 
-**Social network tool (Facebook-like)**
+**Εργαλείο κοινωνικού δικτύου (όπως το Facebook)**
 
-The social network tool allows users to define relations with other users and, by doing so, to define groups of friends. Combined with the internal messaging tool, this tool allows tight communication with friends, inside the portal environment.
+Το εργαλείο κοινωνικού δικτύου επιτρέπει στους χρήστες να ορίζουν σχέσεις με άλλους χρήστες και, με αυτόν τον τρόπο, να ορίζουν ομάδες φίλων. Σε συνδυασμό με το εργαλείο εσωτερικών μηνυμάτων, αυτό το εργαλείο επιτρέπει στενή επικοινωνία με φίλους, εντός του περιβάλλοντος του portal.
 
-*Default: `true`*
+*Προεπιλογή: `true`*
 
 ### `allow_students_to_create_groups_in_social`
 
-**Allow learners to create groups in social network**
+**Επιτρέψτε στους εκπαιδευόμενους να δημιουργούν ομάδες στο κοινωνικό δίκτυο**
 
-Allow learners to create groups in social network
+Επιτρέψτε στους εκπαιδευόμενους να δημιουργούν ομάδες στο κοινωνικό δίκτυο
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 
 ### `disable_dislike_option`
 
-**Disable 'dislike' for social posts**
+**Απενεργοποίηση της επιλογής 'dislike' για αναρτήσεις κοινωνικού δικτύου**
 
-Remove the thumb down option for social posts feedback. Only keep thumb up (like).
+Αφαίρεση της επιλογής αντίχειρα προς τα κάτω για σχόλια στις αναρτήσεις του κοινωνικού δικτύου. Διατήρηση μόνο της επιλογής αντίχειρα προς τα πάνω (like).
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 ### `hide_social_groups_block`
 
-**Hide groups block in social network**
+**Απόκρυψη του τμήματος ομάδων στο κοινωνικό δίκτυο**
 
-Removes the groups section from the social network view.
+Αφαίρεση του τμήματος ομάδων από την προβολή του κοινωνικού δικτύου.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 
 ### `social_enable_messages_feedback`
 
-**Like/Dislike for social posts**
+**Like/Dislike για αναρτήσεις κοινωνικού δικτύου**
 
-Allows users to add feedback (likes or dislikes) to posts in social wall.
+Επιτρέπει στους χρήστες να προσθέτουν σχόλια (likes ή dislikes) σε αναρτήσεις στον τοίχο του κοινωνικού δικτύου.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 ### `social_make_teachers_friend_all`
 
-**Teachers and admins see students as friends on social network**
+**Οι εκπαιδευτές και οι διαχειριστές εμφανίζονται ως φίλοι όλων των φοιτητών στο κοινωνικό δίκτυο**
 
-Automatically makes instructors and administrators appear as friends to all students in the social network module.
+Κάνει αυτόματα τους εκπαιδευτές και τους διαχειριστές να εμφανίζονται ως φίλοι όλων των φοιτητών στο πρόσθετο κοινωνικού δικτύου.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 
 ### `social_show_language_flag_in_profile`
 
-**Show language flag next to avatar in social network**
+**Εμφάνιση σημαίας γλώσσας δίπλα στο avatar στο κοινωνικό δίκτυο**
 
-Displays the user's language preference as a flag icon next to their avatar in social network profiles.
+Εμφανίζει την προτίμηση γλώσσας του χρήστη ως εικονίδιο σημαίας δίπλα στο avatar τους στα προφίλ του κοινωνικού δικτύου.
 
-*Default: `false`*
-
-
+*Προεπιλογή: `false`*

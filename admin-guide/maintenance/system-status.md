@@ -1,40 +1,40 @@
-# System Status
+# Κατάσταση Συστήματος
 
-The system status page helps you verify that your Chamilo server is correctly configured and identify potential issues.
+Η σελίδα κατάστασης συστήματος σας βοηθά να επαληθεύσετε ότι ο διακομιστής Chamilo σας είναι σωστά ρυθμισμένος και να εντοπίσετε πιθανά προβλήματα.
 
-## Accessing System Status
+## Πρόσβαση στην Κατάσταση Συστήματος
 
-From the administration panel, click **System status** (or **System information**).
+Από τον πίνακα διαχείρισης, κάντε κλικ στο **Κατάσταση συστήματος** (ή **Πληροφορίες συστήματος**).
 
-## What It Shows
+## Τι Εμφανίζει
 
-![The system status page showing PHP configuration, database status, file permissions, and server information](/.gitbook/assets/admin-system-status.png)
+![Η σελίδα κατάστασης συστήματος που δείχνει τη ρύθμιση PHP, την κατάσταση βάσης δεδομένων, τα δικαιώματα αρχείων και πληροφορίες διακομιστή](/.gitbook/assets/admin-system-status.png)
 
-### PHP Configuration
+### Ρύθμιση PHP
 
-* **PHP version** — Chamilo 2.0 requires PHP 8.2 or higher
-* **Required extensions** — Checks that all necessary PHP extensions are installed
-* **PHP settings** — Verifies important PHP settings like memory limit, upload limits, and execution time
+* **Έκδοση PHP** — Το Chamilo 2.0 απαιτεί PHP 8.2 ή υψηλότερη
+* **Απαιτούμενες επεκτάσεις** — Ελέγχει ότι όλες οι απαραίτητες επεκτάσεις PHP είναι εγκατεστημένες
+* **Ρυθμίσεις PHP** — Επαληθεύει σημαντικές ρυθμίσεις PHP όπως όριο μνήμης, όρια ανεβάσματος και χρόνος εκτέλεσης
 
-### Database Status
+### Κατάσταση Βάσης Δεδομένων
 
-* **Database connection** — Confirms the database is accessible
-* **Database version** — Shows the database server version
+* **Σύνδεση βάσης δεδομένων** — Επιβεβαιώνει ότι η βάση δεδομένων είναι προσβάσιμη
+* **Έκδοση βάσης δεδομένων** — Εμφανίζει την έκδοση του διακομιστή βάσης δεδομένων
 
-### File Permissions
+### Δικαιώματα Αρχείων
 
-* **Writable directories** — Checks that Chamilo can write to required directories (cache, uploads, logs)
+* **Γραφόμενοι κατάλογοι** — Ελέγχει ότι το Chamilo μπορεί να γράψει στους απαιτούμενους καταλόγους (cache, uploads, logs)
 
-### Server Information
+### Πληροφορίες Διακομιστή
 
-* **Operating system** — Server OS details
-* **Web server** — Apache, Nginx, or other
-* **Disk space** — Available storage
+* **Λειτουργικό σύστημα** — Λεπτομέρειες λειτουργικού συστήματος διακομιστή
+* **Ιστότοπος διακομιστή** — Apache, Nginx ή άλλος
+* **Χώρος δίσκου** — Διαθέτος αποθηκευτικός χώρος
 
-## Recommended Checks
+## Συνιστώμενοι Έλεγχοι
 
-Perform these checks regularly:
+Εκτελέστε αυτούς τους ελέγχους τακτικά:
 
-* **After installation** — Verify all requirements are met
-* **After upgrades** — Ensure PHP version and extensions are still compatible
-* **When issues arise** — Check system status first when troubleshooting problems
+* **Μετά την εγκατάσταση** — Επαληθεύστε ότι ικανοποιούνται όλες οι απαιτήσεις
+* **Μετά τις αναβαθμίσεις** — Βεβαιωθείτε ότι η έκδοση PHP και οι επεκτάσεις παραμένουν συμβατές
+* **Όταν προκύπτουν προβλήματα** — Ελέγξτε πρώτα την κατάσταση συστήματος κατά την αντιμετώπιση προβλημάτων

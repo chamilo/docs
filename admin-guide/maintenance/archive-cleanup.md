@@ -1,23 +1,23 @@
-# Archive Cleanup
+# Καθαρισμός Αρχείου
 
-Over time, Chamilo accumulates temporary files in its cache and archive directories. Regular cleanup prevents disk space issues.
+Με την πάροδο του χρόνου, το Chamilo συσσωρεύει προσωρινά αρχεία στους καταλόγους cache και αρχείου του. Ο τακτικός καθαρισμός αποτρέπει προβλήματα χώρου δίσκου.
 
-## What Can Be Cleaned
+## Τι Μπορεί να Καθαριστεί
 
-* **Symfony cache** — Compiled templates, cached configuration, and routing data
-* **Temporary files** — Files generated during export, import, and other operations
-* **Session data** — Expired PHP session files
-* **Log files** — Old log files that are no longer needed
+* **Symfony cache** — Μεταγλωττισμένα πρότυπα, αποθηκευμένη διαμόρφωση και δεδομένα δρομολόγησης
+* **Προσωρινά αρχεία** — Αρχεία που παράγονται κατά την εξαγωγή, εισαγωγή και άλλες λειτουργίες
+* **Δεδομένα συνεδρίας** — Ληγμένα αρχεία συνεδρίας PHP
+* **Αρχεία καταγραφής** — Παλιά αρχεία καταγραφής που δεν απαιτούνται πλέον
 
-## Performing Cleanup
+## Εκτέλεση Καθαρισμού
 
-### From the Administration Panel
+### Από τον Πίνακα Διαχείρισης
 
-Navigate to **Archive cleanup** in the administration panel. Click the cleanup button to remove temporary files.
+Πλοηγηθείτε στο **Καθαρισμός αρχείου** στον πίνακα διαχείρισης. Κάντε κλικ στο κουμπί καθαρισμού για να διαγράψετε τα προσωρινά αρχεία.
 
-### From the Command Line
+### Από τη Γραμμή Εντολών
 
-For more control, use Symfony console commands:
+Για μεγαλύτερο έλεγχο, χρησιμοποιήστε εντολές κονσόλας Symfony:
 
 ```bash
 # Clear the Symfony cache
@@ -27,8 +27,8 @@ php bin/console cache:clear
 php bin/console cache:clear --env=prod
 ```
 
-## Tips
+## Συμβουλές
 
-* **Schedule regular cleanups** — Set up a weekly or monthly cron job to clear temporary files
-* **Monitor disk usage** — Keep an eye on the `var/` directory size, as it grows with cache and log files
-* **Be careful with logs** — Before deleting log files, check if they contain information you might need for troubleshooting
+* **Προγραμματίστε τακτικούς καθαρισμούς** — Ρυθμίστε εβδομαδιαία ή μηνιαία εργασία cron για να διαγράψετε προσωρινά αρχεία
+* **Παρακολουθήστε τη χρήση δίσκου** — Ελέγξτε το μέγεθος του καταλόγου `var/`, καθώς αυξάνεται με τα αρχεία cache και καταγραφής
+* **Προσοχή με τα αρχεία καταγραφής** — Πριν διαγράψετε αρχεία καταγραφής, ελέγξτε αν περιέχουν πληροφορίες που μπορεί να χρειαστείτε για αντιμετώπιση προβλημάτων

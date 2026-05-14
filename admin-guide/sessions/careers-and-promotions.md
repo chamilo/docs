@@ -1,46 +1,46 @@
-# Careers and Promotions
+# Πορεία Καριέρας και Προαγωγές
 
-Chamilo includes a career management system that lets you define training paths and track learner progression through structured programs.
+Το Chamilo περιλαμβάνει σύστημα διαχείρισης πορείας καριέρας που σας επιτρέπει να ορίζετε εκπαιδευτικές διαδρομές και να παρακολουθείτε την πρόοδο των μαθητών μέσω δομημένων προγραμμάτων.
 
-## Careers
+## Πορεία Καριέρας
 
-![The careers list showing defined career paths with name and description](/.gitbook/assets/admin-careers-list.png)
+![Η λίστα πορείας καριέρας που εμφανίζει ορισμένες διαδρομές καριέρας με όνομα και περιγραφή](/.gitbook/assets/admin-careers-list.png)
 
-A **career** represents a structured training path — a sequence of training steps that a learner follows to achieve a professional goal.
+Μια **πορεία καριέρας** αντιπροσωπεύει μια δομημένη εκπαιδευτική διαδρομή — μια ακολουθία εκπαιδευτικών βημάτων που ακολουθεί ένας μαθητής για να επιτύχει έναν επαγγελματικό στόχο.
 
-### Creating a Career
+### Δημιουργία Πορείας Καριέρας
 
-1. From the administration panel, navigate to **Careers**
-2. Click **Create a career**
-3. Enter a **name** and **description**
-4. Save
+1. Από τον πίνακα διαχείρισης, πλοηγηθείτε στο **Careers**
+2. Κάντε κλικ στο **Create a career**
+3. Εισαγάγετε ένα **όνομα** και **περιγραφή**
+4. Αποθηκεύστε
 
-## Promotions
+## Προαγωγές
 
-A **promotion** represents a cohort or batch of learners progressing through a career. Think of it as a group of people going through the same career path at the same time.
+Μια **προαγωγή** αντιπροσωπεύει μια ομάδα ή παρτίδα μαθητών που προχωρούν μέσα από μια πορεία καριέρας. Σκεφτείτε την ως μια ομάδα ανθρώπων που ακολουθούν την ίδια διαδρομή καριέρας την ίδια χρονική περίοδο.
 
-### Linking to Sessions
+### Σύνδεση με Συνεδρίες
 
-After creating a promotion, you link sessions to it. This defines the sequence of training a learner must complete.
+Αφού δημιουργήσετε μια προαγωγή, τη συνδέετε με συνεδρίες. Αυτό ορίζει την ακολουθία εκπαίδευσης που πρέπει να ολοκληρώσει ένας μαθητής.
 
-You can later replicate promotions to help creating the next promotion with copies of the same sessions, so your next promotion can be built in an instant.
+Μπορείτε αργότερα να αντιγράψετε προαγωγές για να βοηθήσετε στη δημιουργία της επόμενης προαγωγής με αντίγραφα των ίδιων συνεδριών, ώστε η επόμενη προαγωγή σας να μπορεί να δημιουργηθεί ακαριαία.
 
-### Creating a Promotion
+### Δημιουργία Προαγωγής
 
-1. Navigate to **Promotions**
-2. Click **Create a promotion**
-3. Enter a **name** and **description**
-4. Link it to a **career**
-5. Assign **sessions** to the promotion
-6. Save
+1. Πλοηγηθείτε στο **Promotions**
+2. Κάντε κλικ στο **Create a promotion**
+3. Εισαγάγετε ένα **όνομα** και **περιγραφή**
+4. Συνδέστε την με μια **πορεία καριέρας**
+5. Αναθέστε **συνεδρίες** στην προαγωγή
+6. Αποθηκεύστε
 
-## How It Fits Together
+## Πώς Συνδέονται
 
-* A **career** defines the path (e.g., "Junior Developer Certification")
-* A **promotion** represents a cohort (e.g., "Class of March 2026")
-* **Sessions** within the promotion deliver the actual training content
+* Μια **πορεία καριέρας** ορίζει τη διαδρομή (π.χ., "Junior Developer Certification")
+* Μια **προαγωγή** αντιπροσωπεύει μια ομάδα (π.χ., "Τάξη Μαρτίου 2026")
+* Οι **συνεδρίες** μέσα στην προαγωγή παρέχουν το πραγματικό περιεχόμενο εκπαίδευσης
 
-## Tips
+## Συμβουλές
 
-* **Use for structured programs** — Careers and promotions are most useful for multi-stage training programs where learners progress through a defined sequence
-* **Track completion** — Use the reporting tools to monitor how promotions are progressing through their career paths
+* **Χρησιμοποιήστε για δομημένα προγράμματα** — Οι πορείες καριέρας και οι προαγωγές είναι πιο χρήσιμες για πολυεπίπεδα προγράμματα εκπαίδευσης όπου οι μαθητές προχωρούν μέσα από μια ορισμένη ακολουθία
+* **Παρακολούθηση ολοκλήρωσης** — Χρησιμοποιήστε τα εργαλεία αναφοράς για να παρακολουθείτε πώς προχωρούν οι προαγωγές μέσα από τις διαδρομές καριέρας τους

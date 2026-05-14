@@ -1,75 +1,74 @@
-# Dropbox Settings
+# Ρυθμίσεις Dropbox
 
-Behaviour of the **Dropbox** file-exchange tool.
+Συμπεριφορά του εργαλείου ανταλλαγής αρχείων **Dropbox**.
 
-Access these settings under **Administration > Configuration settings > Dropbox**. This category contains **8 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+Πρόσβαση σε αυτές τις ρυθμίσεις στο **Administration > Configuration settings > Dropbox**. Αυτή η κατηγορία περιέχει **8 ρυθμίσεις**, που παρατίθενται παρακάτω με τον τίτλο και το σχόλιο που παρέχονται στα fixtures των ρυθμίσεων της πλατφόρμας (`SettingsCurrentFixtures.php`).
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> Το όνομα της μεταβλητής στον κώδικα εμφανίζεται σε monospace. Χρησιμοποιήστε το όταν προγραμματίζετε μέσω του API ή όταν χρειάζεται να αλλάξετε αυτές τις ρυθμίσεις σε παγκόσμιο επίπεδο επεξεργαζόμενοι το [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
 
-## Settings
+## Ρυθμίσεις
 
 ### `dropbox_allow_group`
 
 **Dropbox: allow group**
 
-Users can send files to groups
+Οι χρήστες μπορούν να στέλνουν αρχεία σε ομάδες
 
-*Default: `true`*
+*Προεπιλογή: `true`*
 
 ### `dropbox_allow_just_upload`
 
 **Dropbox: Upload to own dropbox space?**
 
-Allow trainers and users to upload documents to their dropbox without sending  the documents to themselves
+Επιτρέπει στους εκπαιδευτές και χρήστες να ανεβάζουν έγγραφα στο dropbox τους χωρίς να τα στέλνουν στον εαυτό τους
 
-*Default: `true`*
+*Προεπιλογή: `true`*
 
 ### `dropbox_allow_mailing`
 
 **Dropbox: Allow mailing**
 
-With the mailing functionality you can send each learner a personal document
+Με τη λειτουργικότητα mailing μπορείτε να στείλετε σε κάθε εκπαιδευόμενο ένα προσωπικό έγγραφο
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 ### `dropbox_allow_overwrite`
 
 **Dropbox: Can documents be overwritten**
 
-Can the original document be overwritten when a user or trainer uploads a document with the name of a document that already exist? If you answer yes then you loose the versioning mechanism.
+Μπορεί το αρχικό έγγραφο να αντικατασταθεί όταν ένας χρήστης ή εκπαιδευτής ανεβάζει έγγραφο με το όνομα εγγράφου που υπάρχει ήδη; Αν απαντήσετε ναι, τότε χάνετε τον μηχανισμό έκδοσης.
 
-*Default: `true`*
+*Προεπιλογή: `true`*
 
 ### `dropbox_allow_student_to_student`
 
 **Dropbox: Learner <-> Learner**
 
-Allow users to send documents to other users (peer 2 peer). Users might use this for less relevant documents also (mp3, tests solutions, ...). If you disable this then the users can send documents to the trainer only.
+Επιτρέπει στους χρήστες να στέλνουν έγγραφα σε άλλους χρήστες (peer 2 peer). Οι χρήστες μπορεί να χρησιμοποιήσουν αυτή τη λειτουργία και για λιγότερο σχετικά έγγραφα (mp3, λύσεις δοκιμών, ...). Αν την απενεργοποιήσετε, οι χρήστες μπορούν να στέλνουν έγγραφα μόνο στον εκπαιδευτή.
 
-*Default: `true`*
+*Προεπιλογή: `true`*
 
 ### `dropbox_hide_course_coach`
 
 **Dropbox: hide course coach**
 
-Hide session course coach in dropbox when a document is sent by the coach to students
+Απόκρυψη του course coach της συνεδρίας στο dropbox όταν ένα έγγραφο αποστέλλεται από τον coach στους μαθητές
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 ### `dropbox_hide_general_coach`
 
 **Hide general coach in dropbox**
 
-Hide general coach name in the dropbox tool when the general coach uploaded the file
+Απόκρυψη του ονόματος του general coach στο εργαλείο dropbox όταν ο general coach ανέβασε το αρχείο
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 
 ### `dropbox_max_filesize`
 
 **Dropbox: Maximum file size of a document**
 
-How big (in MB) can a dropbox document be?
+Πόσο μεγάλο (σε MB) μπορεί να είναι ένα έγγραφο dropbox;
 
-*Default: `100000000`*
-
+*Προεπιλογή: `100000000`*

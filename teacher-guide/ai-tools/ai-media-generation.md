@@ -1,26 +1,26 @@
-# AI Media Generation
+# Δημιουργία Πολυμεσικού Περιεχομένου με Τεχνητή Νοημοσύνη
 
-When editing a document in the **Documents** tool, the AI media generation feature lets you produce an **image** or a **short video** to illustrate a paragraph — directly from the rich-text editor (WYSIWYG), without leaving the document.
+Κατά την επεξεργασία ενός εγγράφου στο εργαλείο **Documents**, η λειτουργία δημιουργίας πολυμεσικού περιεχομένου με τεχνητή νοημοσύνη σας επιτρέπει να παράγετε μια **εικόνα** ή ένα **βίντεο μικρής διάρκειας** για να εικονογραφήσετε μια παράγραφο — απευθείας από τον επεξεργαστή πλούσιου κειμένου (WYSIWYG), χωρίς να εγκαταλείπετε το έγγραφο.
 
-## Requirements
+## Απαιτήσεις
 
-* AI helpers are enabled at the platform level
-* At least one AI media provider (image or video) is configured by the administrator
-* The feature is allowed in your course (course-level permission must be enabled)
+* Οι βοηθοί τεχνητής νοημοσύνης είναι ενεργοποιημένοι σε επίπεδο πλατφόρμας
+* Τουλάχιστον ένας πάροχος πολυμεσικού περιεχομένου τεχνητής νοημοσύνης (εικόνας ή βίντεο) είναι ρυθμισμένος από τον διαχειριστή
+* Η λειτουργία επιτρέπεται στο μάθημά σας (η άδεια σε επίπεδο μαθήματος πρέπει να είναι ενεργοποιημένη)
 
-## How to Generate an Image or Video
+## Πώς να Δημιουργήσετε μια Εικόνα ή Βίντεο
 
-1. Open a document in the **Documents** <img src="/.gitbook/assets/icons/mdi-bookshelf.svg" alt="Documents" data-size="line"> tool (create a new one or edit an existing one)
-2. In the rich-text editor, place your cursor in or near the paragraph you want to illustrate
-3. Open the **Generate AI media** dialog from the editor toolbar
-4. Describe what you want the media to show, or use the selected paragraph as the prompt
-5. Choose whether to generate an **image** or a **video**
-6. Click **Generate** and wait for the AI to produce the result
-7. Preview the generated media and, if satisfied, click **Insert** to embed it in the document
+1. Ανοίξτε ένα έγγραφο στο εργαλείο **Documents** <img src="/.gitbook/assets/icons/mdi-bookshelf.svg" alt="Documents" data-size="line"> (δημιουργήστε ένα νέο ή επεξεργαστείτε ένα υπάρχον)
+2. Στον επεξεργαστή πλούσιου κειμένου, τοποθετήστε τον κέρσορα μέσα ή κοντά στην παράγραφο που θέλετε να εικονογραφήσετε
+3. Ανοίξτε τον διάλογο **Generate AI media** από την γραμμή εργαλείων του επεξεργαστή
+4. Περιγράψτε τι θέλετε να δείχνει το πολυμεσικό περιεχόμενο, ή χρησιμοποιήστε την επιλεγμένη παράγραφο ως προτροπή
+5. Επιλέξτε αν θέλετε να δημιουργήσετε **εικόνα** ή **βίντεο**
+6. Κάντε κλικ στο **Generate** και περιμένετε η τεχνητή νοημοσύνη να παράγει το αποτέλεσμα
+7. Προεπισκοπήστε το παραχθέν πολυμεσικό περιεχόμενο και, αν είστε ικανοποιημένοι, κάντε κλικ στο **Insert** για να το ενσωματώσετε στο έγγραφο
 
-## Tips
+## Συμβουλές
 
-* **Write a clear prompt** — The more specific your description, the more relevant the output. Include style cues (e.g. "diagram", "illustration", "realistic photo") if the provider supports them
-* **Always review before inserting** — Generated media may not perfectly match your intent; regenerate or adjust the prompt if needed
-* **Keep file sizes in mind** — Generated images and videos count against the course storage quota. Remove unused media from the document library if space is limited
-* **Video generation takes longer** — Short video generation can take significantly more time than image generation; plan accordingly if you are near a deadline
+* **Γράψτε μια σαφή προτροπή** — Όσο πιο συγκεκριμένη είναι η περιγραφή σας, τόσο πιο σχετικό θα είναι το αποτέλεσμα. Συμπεριλάβετε ενδείξεις στυλ (π.χ. "διάγραμμα", "εικόνα", "ρεαλιστική φωτογραφία") αν ο πάροχος τις υποστηρίζει
+* **Ελέγξτε πάντα πριν την εισαγωγή** — Το παραχθέν πολυμεσικό περιεχόμενο μπορεί να μην ταιριάζει απόλυτα με την πρόθεσή σας· ξαναδημιουργήστε ή προσαρμόστε την προτροπή αν χρειάζεται
+* **Λάβετε υπόψη το μέγεθος των αρχείων** — Οι παραχθείσες εικόνες και βίντεο υπολογίζονται στο όριο αποθήκευσης του μαθήματος. Αφαιρέστε αχρησιμοποίητο πολυμεσικό περιεχόμενο από τη βιβλιοθήκη εγγράφων αν ο χώρος είναι περιορισμένος
+* **Η δημιουργία βίντεο διαρκεί περισσότερο** — Η δημιουργία βίντεο μικρής διάρκειας μπορεί να πάρει σημαντικά περισσότερο χρόνο από τη δημιουργία εικόνας· σχεδιάστε ανάλογα αν είστε κοντά σε προθεσμία

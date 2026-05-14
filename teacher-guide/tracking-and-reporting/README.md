@@ -1,13 +1,13 @@
-# Tracking and Reporting
+# Παρακολούθηση και Αναφορές
 
-Chamilo tracks learner activity throughout the platform, giving you detailed insights into how your learners are progressing.
+Το Chamilo παρακολουθεί τη δραστηριότητα των μαθητών σε όλη την πλατφόρμα, παρέχοντας σας λεπτομερείς πληροφορίες σχετικά με την πρόοδο των μαθητών σας.
 
-* **[Learner Tracking](learner-tracking.md)** — Monitor individual learner activity: login times, time spent, pages visited, and tool usage
-* **[Course Reports](course-reports.md)** — View aggregate data across all learners in a course
-* **[Certificates and Skills](certificates-and-skills.md)** — Award certificates based on gradebook scores and validate acquired skills
+* **[Παρακολούθηση Μαθητή](learner-tracking.md)** — Παρακολουθήστε τη δραστηριότητα μεμονωμένων μαθητών: ώρες σύνδεσης, χρόνος που αφιερώθηκε, σελίδες που επισκεφτήθηκαν και χρήση εργαλείων
+* **[Αναφορές Μαθήματος](course-reports.md)** — Προβάλετε συγκεντρωτικά δεδομένα για όλους τους μαθητές σε ένα μάθημα
+* **[Πιστοποιητικά και Δεξιότητες](certificates-and-skills.md)** — Απονείμετε πιστοποιητικά βάσει βαθμολογιών του βιβλίου βαθμών και επικυρώστε τις αποκτηθείσες δεξιότητες
 
-## Accessing Reports
+## Πρόσβαση στις Αναφορές
 
-From your course, click the **Tracking** <img src="/.gitbook/assets/icons/mdi-chart-box.svg" alt="Tracking" data-size="line"> tool on the course homepage. You can also access reporting from the **Reporting** link in the sidebar for a cross-course overview.
+Από το μάθημά σας, κάντε κλικ στο εργαλείο **Tracking** <img src="/.gitbook/assets/icons/mdi-chart-box.svg" alt="Tracking" data-size="line"> στην αρχική σελίδα του μαθήματος. Μπορείτε επίσης να αποκτήσετε πρόσβαση στις αναφορές από τον σύνδεσμο **Reporting** στη γραμμή πλαϊνής πλοήγησης για μια συνολική εικόνα σε πολλαπλά μαθήματα.
 
-Teachers see reporting data for courses they teach. Session coaches see data across all courses within their session.
+Οι δάσκαλοι βλέπουν δεδομένα αναφορών για τα μαθήματα που διδάσκουν. Οι συντονιστές συνεδρίας βλέπουν δεδομένα από όλα τα μαθήματα εντός της συνεδρίας τους.

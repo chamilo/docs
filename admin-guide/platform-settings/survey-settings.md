@@ -1,111 +1,110 @@
-# Surveys Settings
+# Ρυθμίσεις Ερευνών
 
-Defaults and behaviour of the **Surveys** tool.
+Οι προεπιλογές και η συμπεριφορά του εργαλείου **Surveys**.
 
-Access these settings under **Administration > Configuration settings > Surveys**. This category contains **12 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+Πρόσβαση σε αυτές τις ρυθμίσεις στο **Administration > Configuration settings > Surveys**. Αυτή η κατηγορία περιέχει **12 ρυθμίσεις**, που παρατίθενται παρακάτω με τον τίτλο και το σχόλιο που παρέχονται στα fixtures των ρυθμίσεων της πλατφόρμας (`SettingsCurrentFixtures.php`).
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> Το όνομα της μεταβλητής στον κώδικα εμφανίζεται σε monospace. Χρησιμοποιήστε το κατά την προγραμματισμό μέσω του API ή όταν χρειάζεται να αλλάξετε αυτές τις ρυθμίσεις σε παγκόσμιο επίπεδο επεξεργαζόμενοι το [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
 
-## Settings
+## Ρυθμίσεις
 
 ### `extend_rights_for_coach_on_survey`
 
-**Extend rights for coachs on surveys**
+**Επέκταση δικαιωμάτων για coaches στις έρευνες**
 
-Activate this option will allow the coachs to create and edit surveys
+Η ενεργοποίηση αυτής της επιλογής θα επιτρέψει στους coaches να δημιουργούν και να επεξεργάζονται έρευνες
 
-*Default: `true`*
+*Προεπιλογή: `true`*
 
 
 ### `hide_survey_edition`
 
-**Prevent survey edition**
+**Απαγόρευση επεξεργασίας έρευνας**
 
-Prevent editing surveys for all surveys listed here (by code). Use * to prevent edition of all surveys.
+Απαγορεύει την επεξεργασία ερευνών για όλες τις έρευνες που παρατίθενται εδώ (βάσει κώδικα). Χρησιμοποιήστε * για να αποτρέψετε την επεξεργασία όλων των ερευνών.
 
 ### `hide_survey_reporting_button`
 
-**Hide survey reporting button**
+**Απόκρυψη κουμπιού αναφοράς έρευνας**
 
-Allows admins to hide survey reporting button if surveys are used to survey teachers.
+Επιτρέπει στους διαχειριστές να αποκρύψουν το κουμπί αναφοράς έρευνας αν οι έρευνες χρησιμοποιούνται για έρευνα δασκάλων.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 
 ### `show_pending_survey_in_menu`
 
-**Show "Pending surveys" in menu**
+**Εμφάνιση "Εκκρεμείς έρευνες" στο μενού**
 
-Display a menu item that lets users access their pending surveys.
+Εμφανίζει ένα στοιχείο μενού που επιτρέπει στους χρήστες να έχουν πρόσβαση στις εκκρεμείς έρευνές τους.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 
 ### `show_surveys_base_in_sessions`
 
-**Display surveys from base course in all session courses**
+**Εμφάνιση ερευνών από το βασικό μάθημα σε όλα τα μαθήματα συνεδρίας**
 
-[inferred] Make surveys from the base course visible and available to learners in all related session courses.
+[inferred] Κάνει τις έρευνες από το βασικό μάθημα ορατές και διαθέσιμες στους μαθητές σε όλα τα σχετικά μαθήματα συνεδρίας.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 
 ### `survey_additional_teacher_modify_actions`
 
-**Add additional actions (as links) to survey lists for teachers**
+**Προσθήκη επιπλέον ενεργειών (ως συνδέσμους) στις λίστες ερευνών για δασκάλους**
 
-Add actions (usually connected to plugins) in the list of surveys. Use array syntax ['myplugin' => ['MyPlugin', 'urlGeneratorCallback']].
+Προσθέτει ενέργειες (συνήθως συνδεδεμένες με plugins) στη λίστα των ερευνών. Χρησιμοποιήστε σύνταξη πίνακα ['myplugin' => ['MyPlugin', 'urlGeneratorCallback']].
 
 ### `survey_allow_answered_question_edit`
 
-**Allow teachers to edit survey questions after students answered**
+**Επιτρέψτε στους δασκάλους να επεξεργάζονται ερωτήσεις έρευνας μετά την απάντηση μαθητών**
 
-[inferred] Allow instructors to modify survey questions even after learners have submitted responses.
+[inferred] Επιτρέπει στους διδάσκοντες να τροποποιούν ερωτήσεις έρευνας ακόμα και μετά την υποβολή απαντήσεων από μαθητές.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 
 ### `survey_anonymous_show_answered`
 
-**Allow teachers to see who answered in anonymous surveys**
+**Επιτρέψτε στους δασκάλους να βλέπουν ποιος απάντησε σε ανώνυμες έρευνες**
 
-Allow teachers to see which learners have already answered an anonymous survey. This only appears once more than one user has answered, so it remains difficult to identify who answered what.
+Επιτρέπει στους δασκάλους να βλέπουν ποιοι μαθητές έχουν ήδη απαντήσει σε μια ανώνυμη έρευνα. Αυτό εμφανίζεται μόνο όταν περισσότεροι από ένας χρήστες έχουν απαντήσει, ώστε να παραμένει δύσκολο να προσδιοριστεί ποιος απάντησε τι.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 
 ### `survey_backwards_enable`
 
-**Enable 'previous question' button in surveys**
+**Ενεργοποίηση κουμπιού 'προηγούμενη ερώτηση' στις έρευνες**
 
-[inferred] Enable a "previous question" navigation button to allow learners to review earlier survey questions.
+[inferred] Ενεργοποιεί κουμπί πλοήγησης "προηγούμενη ερώτηση" για να επιτρέπει στους μαθητές να επανεξετάζουν προηγούμενες ερωτήσεις έρευνας.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 
 ### `survey_duplicate_order_by_name`
 
-**Order by student name when using survey duplication feature**
+**Ταξινόμηση κατά όνομα μαθητή κατά τη χρήση χαρακτηριστικού αντιγραφής έρευνας**
 
-The survey duplication feature is oriented towards teachers and is meant to ask teachers to give their appreciation about each student in order. This option will order the questions by learner's lastname.
+Το χαρακτηριστικό αντιγραφής έρευνας είναι προσανατολισμένο σε δασκάλους και προορίζεται να ζητά από τους δασκάλους να δώσουν την εκτίμησή τους για κάθε μαθητή με σειρά. Αυτή η επιλογή θα ταξινομήσει τις ερωτήσεις κατά το επώνυμο του μαθητή.
 
-*Default: `true`*
+*Προεπιλογή: `true`*
 
 
 ### `survey_email_sender_noreply`
 
-**Survey e-mail sender (no-reply)**
+**Αποστολέας email έρευνας (no-reply)**
 
-Should the survey invitations use the coach e-mail address or the no-reply address defined in the main configuration section?
+Οι προσκλήσεις έρευνας πρέπει να χρησιμοποιούν τη διεύθυνση email του coach ή τη διεύθυνση no-reply που ορίζεται στην κύρια ενότητα διαμόρφωσης;
 
-*Default: `coach`*
+*Προεπιλογή: `coach`*
 
 
 ### `survey_mark_question_as_required`
 
-**Mark all survey questions as 'required' by default**
+**Σήμανση όλων των ερωτήσεων έρευνας ως 'υποχρεωτικές' από προεπιλογή**
 
-[inferred] Automatically mark all newly created survey questions as required responses by default.
+[inferred] Σημειώνει αυτόματα όλες τις νέα δημιουργούμενες ερωτήσεις έρευνας ως απαιτούμενες απαντήσεις από προεπιλογή.
 
-*Default: `false`*
-
+*Προεπιλογή: `false`*

@@ -1,22 +1,22 @@
-# Session Categories
+# Κατηγορίες Συνεδριών
 
-Session categories help organize your sessions, especially when you have many sessions running simultaneously.
+Οι κατηγορίες συνεδριών βοηθούν στην οργάνωση των συνεδριών σας, ιδιαίτερα όταν εκτελούνται πολλές συνεδρίες ταυτόχρονα.
 
-## Creating a Category
+## Δημιουργία Κατηγορίας
 
-1. From the administration panel, navigate to **Session categories**
-2. Click **Add a category**
-3. Enter a **name** and optional start/end dates
-4. Save
+1. Από τον πίνακα διαχείρισης, πλοηγηθείτε στο **Session categories**
+2. Κάντε κλικ στο **Add a category**
+3. Εισαγάγετε ένα **όνομα** και προαιρετικές ημερομηνίες έναρξης/λήξης
+4. Αποθήκευση
 
-## Use Cases
+## Περιπτώσεις Χρήσης
 
-* **By program** — "Leadership Development", "Technical Training", "Onboarding"
-* **By period** — "Q1 2026", "Spring Semester", "July Batch"
-* **By department** — "Engineering", "Sales", "Human Resources"
+* **Ανά πρόγραμμα** — "Leadership Development", "Technical Training", "Onboarding"
+* **Ανά περίοδο** — "Q1 2026", "Spring Semester", "July Batch"
+* **Ανά τμήμα** — "Engineering", "Sales", "Human Resources"
 
-## Managing Categories
+## Διαχείριση Κατηγοριών
 
-* **Edit** — Change the category name or dates
-* **Assign sessions** — When creating or editing a session, select its category
-* **Delete** — Remove a category (sessions in the category become uncategorized)
+* **Επεξεργασία** — Αλλαγή του ονόματος της κατηγορίας ή των ημερομηνιών
+* **Ανάθεση συνεδριών** — Κατά τη δημιουργία ή επεξεργασία μιας συνεδρίας, επιλέξτε την κατηγορία της
+* **Διαγραφή** — Αφαίρεση μιας κατηγορίας (οι συνεδρίες στην κατηγορία γίνονται ακατηγοριοποιημένες)

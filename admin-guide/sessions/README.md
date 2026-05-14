@@ -1,30 +1,30 @@
-# Sessions
+# Συνεδρίες
 
-Sessions are one of Chamilo's most powerful features. They allow you to deliver the same courses to different groups of learners at different times, without duplicating course content.
+Οι συνεδρίες αποτελούν ένα από τα πιο ισχυρά χαρακτηριστικά του Chamilo. Σας επιτρέπουν να παρέχετε τα ίδια μαθήματα σε διαφορετικές ομάδες εκπαιδευομένων σε διαφορετικές χρονικές στιγμές, χωρίς να αντιγράφεται το περιεχόμενο του μαθήματος.
 
-* **[Managing Sessions](managing-sessions.md)** — Create, configure, and manage training sessions
-* **[Session Categories](session-categories.md)** — Organize sessions into categories
-* **[Careers and Promotions](careers-and-promotions.md)** — Define career paths and promotion workflows
-* **[Classes](classes.md)** — Manage learner classes for bulk enrollment
+* **[Διαχείριση Συνεδριών](managing-sessions.md)** — Δημιουργία, διαμόρφωση και διαχείριση εκπαιδευτικών συνεδριών
+* **[Κατηγορίες Συνεδριών](session-categories.md)** — Οργάνωση συνεδριών σε κατηγορίες
+* **[Προοδευτικές Διαδρομές και Προαγωγές](careers-and-promotions.md)** — Ορισμός προοδευτικών διαδρομών και ροών προαγωγών
+* **[Τάξεις](classes.md)** — Διαχείριση τάξεων εκπαιδευομένων για μαζική εγγραφή
 
-## Understanding Sessions
+## Κατανόηση των Συνεδριών
 
-Sessions are **optional**. You can make your portal work just by using courses, but we **really** recommend you consider the extra complexity of sessions as a way to save management work in the long run.
+Οι συνεδρίες είναι **προαιρετικές**. Μπορείτε να κάνετε την πύλη σας να λειτουργεί χρησιμοποιώντας μόνο μαθήματα, αλλά σας **συνιστούμε ανεπιφύλακτα** να εξετάσετε την επιπλέον πολυπλοκότητα των συνεδριών ως τρόπο εξοικονόμησης εργασίας διαχείρισης μακροπρόθεσμα.
 
-A **course** holds the content (documents, exercises, learning paths). A **session** assigns that course (or multiple courses) to a specific group of learners *for a specific time period*.
+Ένα **μάθημα** περιέχει το περιεχόμενο (έγγραφα, ασκήσεις, διαδρομές μάθησης). Μια **συνεδρία** εκχωρεί αυτό το μάθημα (ή πολλαπλά μαθήματα) σε συγκεκριμένη ομάδα εκπαιδευομένων *για συγκεκριμένη χρονική περίοδο*.
 
-This architecture means:
+Αυτή η αρχιτεκτονική σημαίνει:
 
-* Teachers create content once in the course
-* Administrators create sessions to deliver that content to different cohorts
-* Each session has its own enrollment, tracking data, and results
-* The base course content is shared, but session coaches can customize certain elements
+* Οι διδάσκοντες δημιουργούν το περιεχόμενο μία φορά στο μάθημα
+* Οι διαχειριστές δημιουργούν συνεδρίες για να παρέχουν αυτό το περιεχόμενο σε διαφορετικά σύνολα
+* Κάθε συνεδρία έχει τη δική της εγγραφή, δεδομένα παρακολούθησης και αποτελέσματα
+* Το βασικό περιεχόμενο του μαθήματος είναι κοινόχρηστο, αλλά οι προπονητές της συνεδρίας μπορούν να προσαρμόσουν ορισμένα στοιχεία
 
-## When to Use Sessions
+## Πότε να Χρησιμοποιείτε Συνεδρίες
 
-Use sessions when:
+Χρησιμοποιήστε συνεδρίες όταν:
 
-* You deliver the same training multiple times (e.g., monthly onboarding sessions)
-* You have cohort-based programs (e.g., semester-based classes)
-* You need separate tracking per group of learners
-* You want different coaches to manage different editions of the same course
+* Παρέχετε την ίδια εκπαίδευση πολλές φορές (π.χ., μηνιαίες συνεδρίες εισαγωγής)
+* Έχετε προγράμματα βασισμένα σε συνόλους (π.χ., τάξεις βασισμένες σε εξάμηνο)
+* Χρειάζεστε ξεχωριστή παρακολούθηση ανά ομάδα εκπαιδευομένων
+* Θέλετε διαφορετικοί προπονητές να διαχειρίζονται διαφορετικές εκδόσεις του ίδιου μαθήματος

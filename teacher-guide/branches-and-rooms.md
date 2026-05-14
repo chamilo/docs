@@ -1,26 +1,26 @@
-# Branches and Rooms
+# Κλάδοι και Αίθουσες
 
-Chamilo includes a basic physical location system built around two concepts: **branches** and **rooms**.
+Το Chamilo διαθέτει βασικό σύστημα για φυσικούς χώρους, βασισμένο σε δύο έννοιες: **τους κλάδους** και **τις αίθουσες**.
 
-A **branch** represents a physical site or campus — for example, a main office, a regional training centre, or a university building. Branches can be nested (a building can contain departments, a city can contain buildings). Each branch can contain one or more **rooms**, which represent individual classrooms or lab spaces within that branch.
+Ο **κλάδος** αντιπροσωπεύει έναν φυσικό χώρο ή πανεπιστημιούπολη — για παράδειγμα, κεντρικό γραφείο, περιφερειακό κέντρο εκπαίδευσης ή κτίριο πανεπιστημίου. Οι κλάδοι μπορούν να είναι εμφωλιασμένοι (ένα κτίριο μπορεί να περιέχει τμήματα, και μια πόλη μπορεί να περιέχει κτίρια). Κάθε κλάδος μπορεί να περιέχει μία ή περισσότερες **αίθουσες**, οι οποίες αντιπροσωπεύουν μεμονωμένες αίθουσες διδασκαλίας ή χώρους εργαστηρίων εντός αυτού του κλάδου.
 
-This feature is still in early stages. At this point its main practical use is letting you attach a physical location marker to a course.
+Αυτή η λειτουργία βρίσκεται ακόμη στα πρώτα της στάδια. Σε αυτό το στάδιο, η κύρια πρακτική χρήση της είναι να σας επιτρέπει να συνδέετε μια φυσική τοποθεσία με ένα μάθημα.
 
-## Assigning a Room to a Course
+## Ανάθεση αίθουσας σε μάθημα
 
-When creating a course, if your administrator has already set up rooms, a **Default room** field appears in the course creation form. Select the room where the course takes place.
+Κατά τη δημιουργία μαθήματος, αν ο διαχειριστής του συστήματος έχει ήδη ρυθμίσει τις αίθουσες, εμφανίζεται το πεδίο **Προεπιλεγμένη αίθουσα** στη φόρμα δημιουργίας μαθήματος. Επιλέξτε την αίθουσα όπου διεξάγεται το μάθημα.
 
-This information is informational — it does not affect course behaviour or access control. It simply records where the course is physically held, which can help administrators manage room scheduling and view room occupation across courses.
+Αυτές οι πληροφορίες είναι ενημερωτικές — δεν επηρεάζουν τη συμπεριφορά του μαθήματος ή τον έλεγχο πρόσβασης. Απλώς καταγράφουν τον φυσικό χώρο όπου διεξάγεται το μάθημα, κάτι που μπορεί να βοηθήσει τους διαχειριστές στη διαχείριση της προγραμματισμού των αιθουσών και στην εμφάνιση της πληρότητας των αιθουσών ανά μάθημα.
 
-If no rooms have been configured on your platform, the field will not appear.
+Αν δεν έχουν ρυθμιστεί αίθουσες στην πλατφόρμα σας, το πεδίο δεν θα εμφανιστεί.
 
-## What Administrators Can Do
+## Τι μπορούν να κάνουν οι διαχειριστές
 
-Branch and room management is handled entirely by administrators. They can:
+Η πλήρης διαχείριση των κλάδων και των αιθουσών γίνεται από τους διαχειριστές. Μπορούν να:
 
-- Create and organise branches in a tree hierarchy
-- Add rooms to branches, with optional geolocation and IP range data
-- View which courses are assigned to each room
-- View a room's occupation calendar based on attendance entries
+- Δημιουργούν κλάδους και να τους οργανώνουν σε ιεραρχική δομή δέντρου
+- Προσθέτουν αίθουσες στους κλάδους, με προαιρετικά γεωγραφικά στοιχεία και εύρος διευθύνσεων IP
+- Εμφανίζουν τα μαθήματα που έχουν ανατεθεί σε κάθε αίθουσα
+- Εμφανίζουν ημερολόγιο πληρότητας αίθουσας βάσει καταχωρήσεων παρουσίας
 
-If you need a room created or need your course moved to a different room, contact your platform administrator.
+Αν χρειάζεστε να δημιουργήσετε αίθουσα ή να μετακινήσετε μάθημα σε διαφορετική αίθουσα, επικοινωνήστε με τον διαχειριστή της πλατφόρμας σας.

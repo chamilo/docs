@@ -1,50 +1,50 @@
-# Certificates and Skills
+# Πιστοποιητικά και Δεξιότητες
 
-Chamilo allows you to award certificates to learners who meet specific achievement criteria, and to validate skills associated with those achievements.
+Το Chamilo σας επιτρέπει να απονέμετε πιστοποιητικά στους μαθητές που πληρούν συγκεκριμένα κριτήρια επιτεύγματος, και να επικυρώνετε δεξιότητες που σχετίζονται με αυτά τα επιτεύγματα.
 
-## How Certificates Work
+## Πώς Λειτουργούν τα Πιστοποιητικά
 
-Certificates are linked to the **Assessments** (also called Gradebook). When a learner's grade meets or exceeds the minimum threshold you define, a certificate becomes available for them to download.
+Τα πιστοποιητικά συνδέονται με τις **Αξιολογήσεις** (επίσης ονομάζονται Gradebook). Όταν ο βαθμός ενός μαθητή φτάσει ή υπερβεί το ελάχιστο όριο που ορίζετε, το πιστοποιητικό γίνεται διαθέσιμο για λήψη.
 
-The workflow is:
+Η ροή εργασιών είναι:
 
-1. Set up the [Assessments](../assessing-learners/gradebook.md) with your exercises, assignments, and other graded activities
-2. Define a **minimum certification score** (e.g., 70%)
-3. When a learner reaches that score, they can download their certificate (either within the Assessments tool itself, or from a learning path if you've configured the final step for that). As a teacher, you can also use the **Generate certificates** action in the gradebook to create the PDFs in batch for all eligible learners.
+1. Ρυθμίστε τις [Assessments](../assessing-learners/gradebook.md) με τις ασκήσεις, τις εργασίες και άλλες βαθμολογούμενες δραστηριότητες
+2. Ορίστε έναν **ελάχιστο βαθμό πιστοποίησης** (π.χ., 70%)
+3. Όταν ένας μαθητής φτάσει αυτόν τον βαθμό, μπορεί να λάβει το πιστοποιητικό του (είτε μέσα από το εργαλείο Assessments, είτε από μια διαδρομή μάθησης αν έχετε ρυθμίσει το τελικό βήμα γι' αυτό). Ως δάσκαλος, μπορείτε επίσης να χρησιμοποιήσετε την ενέργεια **Generate certificates** στο gradebook για να δημιουργήσετε τα PDF σε παρτίδα για όλους τους επιλέξιμους μαθητές.
 
-## Certificate Templates
+## Πρότυπα Πιστοποιητικών
 
-Certificates use templates defined by the platform administrator. The template typically includes:
+Τα πιστοποιητικά χρησιμοποιούν πρότυπα που ορίζονται από τον διαχειριστή της πλατφόρμας. Το πρότυπο συνήθως περιλαμβάνει:
 
-* The learner's name
-* The course name
-* The date of completion
-* The score achieved
-* A QR code or URL for online verification
+* Το όνομα του μαθητή
+* Το όνομα του μαθήματος
+* Την ημερομηνία ολοκλήρωσης
+* Τον βαθμό που επιτεύχθηκε
+* Έναν QR κώδικα ή URL για online επαλήθευση
 
-## Skills
+## Δεξιότητες
 
-Skills represent competencies that learners acquire. In Chamilo:
+Οι δεξιότητες αντιπροσωπεύουν ικανότητες που αποκτούν οι μαθητές. Στο Chamilo:
 
-* Skills can be linked to gradebook achievements
-* When a learner earns a certificate, any associated skills are automatically validated
-* Skills accumulate on the learner's profile, creating a competency record
-* Skills can be organized hierarchically (e.g., "Data Analysis" under "Research Methods")
-* Skills can be further evaluated by peers (360° evaluation)
+* Οι δεξιότητες μπορούν να συνδεθούν με επιτεύγματα του gradebook
+* Όταν ένας μαθητής αποκτά πιστοποιητικό, όλες οι σχετιζόμενες δεξιότητες επικυρώνονται αυτόματα
+* Οι δεξιότητες συσσωρεύονται στο προφίλ του μαθητή, δημιουργώντας ένα μητρώο ικανοτήτων
+* Οι δεξιότητες μπορούν να οργανωθούν ιεραρχικά (π.χ., "Ανάλυση Δεδομένων" κάτω από "Μέθοδοι Έρευνας")
+* Οι δεξιότητες μπορούν να αξιολογηθούν περαιτέρω από ομολόγους (αξιολόγηση 360°)
 
-## Viewing Certificate and Skill Status
+## Προβολή Κατάστασης Πιστοποιητικών και Δεξιοτήτων
 
-As a teacher, you can see:
+Ως δάσκαλος, μπορείτε να δείτε:
 
-* Which learners have earned certificates in your course
-* Which skills have been validated
-* Learners' progress toward the certification threshold
+* Ποιοι μαθητές έχουν αποκτήσει πιστοποιητικά στο μάθημά σας
+* Ποιες δεξιότητες έχουν επικυρωθεί
+* Την πρόοδο των μαθητών προς το όριο πιστοποίησης
 
-Learners can view their own certificates and validated skills from their profile, and can access the Skills Wheel to check what skills are in demand in their organisation.
+Οι μαθητές μπορούν να δουν τα δικά τους πιστοποιητικά και επικυρωμένες δεξιότητες από το προφίλ τους, και μπορούν να έχουν πρόσβαση στον Skills Wheel για να ελέγξουν ποιες δεξιότητες είναι σε ζήτηση στην οργάνωσή τους.
 
-## Tips
+## Συμβουλές
 
-* **Set clear expectations** — Tell learners at the start of the course what they need to achieve to earn a certificate
-* **Use meaningful skill names** — Skills should describe what the learner can do, not just the course name
-* **Combine with portfolios** — Encourage learners to add their certificates to their portfolio
-* **Extend certificates** — Ask your admin to enable the Custom Certificate plugin to unleash even more certificate templating power 
+* **Θέστε σαφείς προσδοκίες** — Ενημερώστε τους μαθητές στην αρχή του μαθήματος τι πρέπει να πετύχουν για να αποκτήσουν πιστοποιητικό
+* **Χρησιμοποιήστε ουσιαστικά ονόματα δεξιοτήτων** — Οι δεξιότητες πρέπει να περιγράφουν τι μπορεί να κάνει ο μαθητής, όχι απλώς το όνομα του μαθήματος
+* **Συνδυάστε με χαρτοφυλάκια** — Ενθαρρύνετε τους μαθητές να προσθέσουν τα πιστοποιητικά τους στο χαρτοφυλάκιό τους
+* **Επεκτείνετε τα πιστοποιητικά** — Ζητήστε από τον διαχειριστή σας να ενεργοποιήσει το Custom Certificate plugin για να αξιοποιήσετε ακόμα μεγαλύτερη ισχύ προτύπων πιστοποιητικών 

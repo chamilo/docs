@@ -1,89 +1,89 @@
-# Assessments
+# Αξιολογήσεις
 
-The assessments (previously *gradebook*) aggregates scores from exercises, assignments, and other graded activities into a unified view of each learner's performance. It also controls certificate generation.
+Οι αξιολογήσεις (προηγουμένως *gradebook*) συγκεντρώνουν βαθμολογίες από ασκήσεις, εργασίες και άλλες βαθμολογούμενες δραστηριότητες σε μια ενιαία προβολή της επίδοσης κάθε εκπαιδευομένου. Ελέγχει επίσης τη δημιουργία πιστοποιητικών.
 
-## How the Assessments Work
+## Πώς Λειτουργούν οι Αξιολογήσεις
 
-The assessments are weighted scoring systems. You define:
+Οι αξιολογήσεις είναι συστήματα βαθμολόγησης με βάρη. Ορίζετε:
 
-1. **Which activities** contribute to the grade (exercises, assignments, attendance, etc.)
-2. **The weight** of each activity (how much it counts toward the final grade)
-3. **The minimum certification score** (the threshold for earning a certificate)
-4. **A minimum score per activity** — Each activity in the gradebook can have its own **Minimum score**. Learners who score below that minimum on a key activity can be prevented from achieving the objectives and earning the certificate, even if their overall weighted total is otherwise high enough.
+1. **Ποιες δραστηριότητες** συνεισφέρουν στη βαθμολογία (ασκήσεις, εργασίες, παρουσία, κ.λπ.)
+2. **Το βάρος** κάθε δραστηριότητας (πόσο μετράει προς τον τελικό βαθμό)
+3. **Τον ελάχιστο βαθμό πιστοποίησης** (το όριο για την απόκτηση πιστοποιητικού)
+4. **Ελάχιστο βαθμό ανά δραστηριότητα** — Κάθε δραστηριότητα στο gradebook μπορεί να έχει τον δικό της **Ελάχιστο βαθμό**. Οι εκπαιδευόμενοι που βαθμολογούνται κάτω από αυτό το ελάχιστο σε μια κρίσιμη δραστηριότητα μπορούν να εμποδιστούν από το να πετύχουν τους στόχους και να αποκτήσουν το πιστοποιητικό, ακόμα κι αν το συνολικό τους βάρος είναι αρκετά υψηλό.
 
-Activities can be of 2 types:
-* **Classroom activity** (or in-person activity), where grades have to be imported from some other source
-* **Online activity** selected from the course, where grades are obtained through the fulfilling of the activity in the course
+Οι δραστηριότητες μπορούν να είναι 2 τύπων:
+* **Δραστηριότητα αίθουσας** (ή δραστηριότητα αυτοπροσώπως), όπου οι βαθμοί πρέπει να εισαχθούν από άλλη πηγή
+* **Δραστηριότητα online** επιλεγμένη από το μάθημα, όπου οι βαθμοί λαμβάνονται μέσω της εκπλήρωσης της δραστηριότητας στο μάθημα
 
-Chamilo calculates each learner's overall grade based on these weights.
+Το Chamilo υπολογίζει τον συνολικό βαθμό κάθε εκπαιδευομένου με βάση αυτά τα βάρη.
 
-## Setting Up the Assessment
+## Ρύθμιση της Αξιολόγησης
 
-1. Open the **Assessments** <img src="/.gitbook/assets/icons/mdi-certificate.svg" alt="Gradebook" data-size="line"> tool from the course homepage
-2. You will see the assessments overview, initially empty
+1. Ανοίξτε το εργαλείο **Assessments** <img src="/.gitbook/assets/icons/mdi-certificate.svg" alt="Gradebook" data-size="line"> από την αρχική σελίδα του μαθήματος
+2. Θα δείτε μια επισκόπηση των αξιολογήσεων, αρχικά κενή
 
-### Adding Activities
+### Πρόσθεση Δραστηριοτήτων
 
-1. Click **Add online activity**
-2. Choose the type:
-   * **Test** — Link a specific exercise from the course
-   * **Assignment** — Link a student publication folder
-   * **Learning path** — Link learning path completion
-   * **Attendance** — Link an attendance sheet
-   * **Forum thread** — Link a forum thread (which has to be graded manually)
-   * **Survey** — Link a survey
-3. Select the specific activity within the chosen type
-4. Set the **Weight** for this activity (e.g., 30% for the midterm exam, 40% for the final project)
-5. Set the **Minimum score** if applicable
-6. Save
+1. Κάντε κλικ στο **Add online activity**
+2. Επιλέξτε τον τύπο:
+   * **Test** — Σύνδεση συγκεκριμένης άσκησης από το μάθημα
+   * **Assignment** — Σύνδεση φακέλου δημοσιεύσεων μαθητή
+   * **Learning path** — Σύνδεση ολοκλήρωσης μονοπατιού μάθησης
+   * **Attendance** — Σύνδεση φύλλου παρουσίας
+   * **Forum thread** — Σύνδεση νήματος φόρουμ (που πρέπει να βαθμολογηθεί χειροκίνητα)
+   * **Survey** — Σύνδεση έρευνας
+3. Επιλέξτε τη συγκεκριμένη δραστηριότητα εντός του επιλεγμένου τύπου
+4. Ορίστε το **Βάρος** για αυτή τη δραστηριότητα (π.χ., 30% για την εξεταστική μεσο学期ίου, 40% για το τελικό έργο)
+5. Ορίστε τον **Ελάχιστο βαθμό** αν ισχύει
+6. Αποθηκεύστε
 
-The total weight of all activities should add up to 100%.
+Το συνολικό βάρος όλων των δραστηριοτήτων πρέπει να αθροίζεται στο 100%.
 
-### Sub-Categories
+### Υποκατηγορίες
 
-For complex grading schemes, you can create **sub-categories** to group related activities:
+Για σύνθετα σχήματα βαθμολόγησης, μπορείτε να δημιουργήσετε **υποκατηγορίες** για να ομαδοποιήσετε σχετικές δραστηριότητες:
 
-* **Example**: A "Homework" sub-category (weight: 30%) containing five individual assignments each worth 20% of the sub-category
-* Sub-categories let you organize the assessment hierarchically while keeping the overall calculation simple
+* **Παράδειγμα**: Μια υποκατηγορία "Εργασίες σπιτιού" (βάρος: 30%) που περιέχει πέντε μεμονωμένες εργασίες, η καθεμία αξίας 20% της υποκατηγορίας
+* Οι υποκατηγορίες σας επιτρέπουν να οργανώσετε την αξιολόγηση ιεραρχικά διατηρώντας τον συνολικό υπολογισμό απλό
 
-## Viewing Grades
+## Προβολή Βαθμών
 
-![The gradebook overview table showing learner names, activity scores, and weighted totals](/.gitbook/assets/gradebook-overview.png)
+![Ο πίνακας επισκόπησης του gradebook που δείχνει ονόματα εκπαιδευομένων, βαθμούς δραστηριοτήτων και βάρη συνολικών](/.gitbook/assets/gradebook-overview.png)
 
-The assessment shows a table with:
+Η αξιολόγηση δείχνει έναν πίνακα με:
 
-* Each learner's name
-* Scores for each activity
-* The weighted total
-* Whether the learner qualifies for a certificate
+* Το όνομα κάθε εκπαιδευομένου
+* Βαθμούς για κάθε δραστηριότητα
+* Το βάρος συνολικού
+* Εάν ο εκπαιδευόμενος πληροί τα κριτήρια για πιστοποιητικό
 
-You can sort by any column to quickly identify top performers or struggling learners.
+Μπορείτε να ταξινομήσετε ανά στήλη για να εντοπίσετε γρήγορα τους κορυφαίους ή τους αδύναμους εκπαιδευόμενους.
 
-## Certificates
+## Πιστοποιητικά
 
-To enable certificate generation:
+Για να ενεργοποιήσετε τη δημιουργία πιστοποιητικών:
 
-1. In the assessment settings, set a **minimum certification score** (e.g., 70%)
-2. When a learner's weighted total meets or exceeds this threshold (and they have not failed any per-activity minimum score), they can download their certificate
-3. The certificate is generated from a template configured by the platform administrator
+1. Στις ρυθμίσεις της αξιολόγησης, ορίστε έναν **ελάχιστο βαθμό πιστοποίησης** (π.χ., 70%)
+2. Όταν το βάρος συνολικού ενός εκπαιδευομένου φτάσει ή υπερβεί αυτό το όριο (και δεν έχει αποτύχει σε κανέναν ελάχιστο βαθμό ανά δραστηριότητα), μπορεί να κατεβάσει το πιστοποιητικό του
+3. Το πιστοποιητικό δημιουργείται από ένα πρότυπο που ρυθμίζεται από τον διαχειριστή της πλατφόρμας
 
-See [Certificates and Skills](../tracking-and-reporting/certificates-and-skills.md) for more details.
+Δείτε [Πιστοποιητικά και Δεξιότητες](../tracking-and-reporting/certificates-and-skills.md) για περισσότερες λεπτομέρειες.
 
-## Linking to Skills
+## Σύνδεση με Δεξιότητες
 
-You can associate **skills** with the assessment. When a learner reaches the set objectives to complete the assessment, they can either get a certificate, get a skill or both. Skills are visible on their profile in the social network space. This builds a competency record over time.
+Μπορείτε να συνδέσετε **δεξιότητες** με την αξιολόγηση. Όταν ένας εκπαιδευόμενος φτάσει στους ορισμένους στόχους για να ολοκληρώσει την αξιολόγηση, μπορεί είτε να λάβει πιστοποιητικό, είτε δεξιότητα ή και τα δύο. Οι δεξιότητες είναι ορατές στο προφίλ τους στον χώρο του κοινωνικού δικτύου. Αυτό δημιουργεί ένα ιστορικό δεξιοτήτων με την πάροδο του χρόνου.
 
-## Exporting Grades
+## Εξαγωγή Βαθμών
 
-Click the **Export** <img src="/.gitbook/assets/icons/mdi-export.svg" alt="Export" data-size="line"> button to download grades as a spreadsheet. This is useful for:
+Κάντε κλικ στο κουμπί **Export** <img src="/.gitbook/assets/icons/mdi-export.svg" alt="Export" data-size="line"> για να κατεβάσετε τους βαθμούς ως υπολογιστικό φύλλο. Αυτό είναι χρήσιμο για:
 
-* Sharing grades with administrative systems
-* Performing additional analysis outside Chamilo
-* Keeping offline records
+* Μοιράζοντας βαθμούς με διοικητικά συστήματα
+* Εκτέλεση επιπλέον ανάλυσης εκτός Chamilo
+* Διατήρηση offline αρχείων
 
-## Tips
+## Συμβουλές
 
-* **Plan your weights early** — Define the grading scheme at the start of the course so learners know what to expect
-* **Use sub-categories for complex courses** — Group assignments, quizzes, and participation into clear categories
-* **Set meaningful pass thresholds** — The certification score should reflect actual competency, not just participation
-* **Check regularly** — Review the gradebook periodically to ensure all activities are properly linked and scores are being recorded
+* **Σχεδιάστε τα βάρη σας νωρίς** — Ορίστε το σχήμα βαθμολόγησης στην αρχή του μαθήματος ώστε οι εκπαιδευόμενοι να γνωρίζουν τι να περιμένουν
+* **Χρησιμοποιήστε υποκατηγορίες για σύνθετα μαθήματα** — Ομαδοποιήστε εργασίες, κουίζ και συμμετοχή σε σαφείς κατηγορίες
+* **Ορίστε ουσιαστικά όρια επιτυχίας** — Ο βαθμός πιστοποίησης πρέπει να αντανακλά πραγματική ικανότητα, όχι απλώς συμμετοχή
+* **Ελέγχετε τακτικά** — Ελέγξτε περιοδικά το gradebook για να βεβαιωθείτε ότι όλες οι δραστηριότητες είναι σωστά συνδεδεμένες και οι βαθμοί καταγράφονται

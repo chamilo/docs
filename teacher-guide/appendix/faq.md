@@ -1,57 +1,57 @@
-# FAQ
+# Συνήθεις Ερωτήσεις (FAQ)
 
-## General Questions
+## Γενικές Ερωτήσεις
 
-**How do I access my course?**
+**Πώς αποκτώ πρόσβαση στο μάθημά μου;**
 
-Click **My courses** in the sidebar, then click on the course you want to open. If your course is part of a session, click **My sessions** first, then select the session and course.
+Κάντε κλικ στο **Τα μαθήματά μου** στη γραμμή πλευρικής πλοήγησης και, στη συνέχεια, κάντε κλικ στο μάθημα που θέλετε να ανοίξετε. Αν το μάθημά σας ανήκει σε συνεδρία, κάντε πρώτα κλικ στο **Οι συνεδρίες μου**, επιλέξτε τη συνεδρία και το μάθημα.
 
-**Can my learners access the course from a mobile phone?**
+**Μπορούν οι μαθητές μου να αποκτήσουν πρόσβαση στο μάθημα από κινητό τηλέφωνο;**
 
-Yes. Chamilo 2.0 has a responsive interface that adapts to all screen sizes. Learners can use any modern web browser on a phone, tablet, or computer.
+Ναι. Το Chamilo 2.0 διαθέτει ευέλικτη διεπαφή που προσαρμόζεται σε όλες τις διαστάσεις οθόνης. Οι μαθητές μπορούν να χρησιμοποιήσουν οποιονδήποτε σύγχρονο περιηγητή ιστού σε τηλέφωνο, tablet ή υπολογιστή.
 
-**What browsers are supported?**
+**Ποιοι περιηγητές υποστηρίζονται;**
 
-Chamilo 2.0 works with all major modern browsers: Chrome, Firefox, Safari, and Edge. For the best experience, use the latest version of your browser.
+Το Chamilo 2.0 λειτουργεί με όλους τους κύριους σύγχρονους περιηγητές: Chrome, Firefox, Safari και Edge. Για την καλύτερη εμπειρία, χρησιμοποιήστε την τελευταία έκδοση του περιηγητή σας.
 
-## Content and Courses
+## Περιεχόμενο και Μαθήματα
 
-**How do I create a backup of my course?**
+**Πώς δημιουργώ αντίγραφο ασφαλείας του μαθήματός μου;**
 
-Go to the **Maintenance** tool in your course (accessible from the settings menu on the course homepage). You will find options to export your course content.
+Πηγαίνετε στο εργαλείο **Συντήρηση** του μαθήματός σας (προσβάσιμο από το μενού ρυθμίσεων στην αρχική σελίδα του μαθήματος). Θα βρείτε επιλογές για εξαγωγή του περιεχομένου του μαθήματός σας.
 
-**Can I copy content from one course to another?**
+**Μπορώ να αντιγράψω περιεχόμενο από το ένα μάθημα στο άλλο;**
 
-Yes. Use the course import/export features in the Maintenance tool to copy content between courses. You will need to create an empty *destination* course first.
+Ναι. Χρησιμοποιήστε τις λειτουργίες εισαγωγής/εξαγωγής μαθήματος στο εργαλείο Συντήρηση για να αντιγράψετε περιεχόμενο μεταξύ μαθημάτων. Πρέπει πρώτα να δημιουργήσετε ένα κενό *μάθημα προορισμού*.
 
-**What file formats can I upload?**
+**Ποιες μορφές αρχείων μπορώ να ανεβάσω;**
 
-Chamilo supports most common file formats: PDF, Word documents, PowerPoint presentations, images (PNG, JPG, SVG, GIF), audio files, video files, and many more. Your administrator may restrict certain file types for security reasons.
+Το Chamilo υποστηρίζει τις περισσότερες κοινές μορφές αρχείων: PDF, έγγραφα Word, παρουσιάσεις PowerPoint, εικόνες (PNG, JPG, SVG, GIF), αρχεία ήχου, αρχεία βίντεο και πολλά άλλα. Ο διαχειριστής σας μπορεί να περιορίσει ορισμένους τύπους αρχείων για λόγους ασφαλείας.
 
-**What is the maximum file upload size?**
+**Ποιο είναι το μέγιστο μέγεθος ανεβάσματος αρχείου;**
 
-This depends on your server configuration. Your administrator sets the upload limit. If you encounter a limit, contact your administrator.
+Αυτό εξαρτάται από τη διαμόρφωση του διακομιστή σας. Ο διαχειριστής σας ορίζει το όριο ανεβάσματος. Αν συναντήσετε όριο, επικοινωνήστε με τον διαχειριστή σας.
 
-## Assessment
+## Αξιολόγηση
 
-**Can exercises be graded automatically?**
+**Μπορούν οι ασκήσεις να βαθμολογηθούν αυτόματα;**
 
-Yes. Most question types (multiple choice, true/false, fill in the blanks, matching) are graded automatically. Open-ended questions require manual grading, or you can use AI-assisted grading if configured.
+Ναι. Οι περισσότεροι τύποι ερωτήσεων (πολλαπλής επιλογής, σωστό/λάθος, συμπλήρωση κενών, αντιστοίχιση) βαθμολογούνται αυτόματα. Οι ερωτήσεις ανοιχτού τύπου απαιτούν χειροκίνητη βαθμολόγηση, ή μπορείτε να χρησιμοποιήσετε βαθμολόγηση με τη βοήθεια ΤΝ αν έχει ρυθμιστεί.
 
-**Can I set a time limit on exercises?**
+**Μπορώ να ορίσω χρονικό όριο στις ασκήσεις;**
 
-Yes. When creating or editing an exercise, you can set a time limit in minutes. Learners will see a countdown timer.
+Ναι. Κατά τη δημιουργία ή επεξεργασία μιας άσκησης, μπορείτε να ορίσετε χρονικό όριο σε λεπτά. Οι μαθητές θα δουν χρονόμετρο αντίστροφης μέτρησης.
 
-**Can learners retake an exercise?**
+**Μπορούν οι μαθητές να επαναλάβουν μια άσκηση;**
 
-Yes. You control the number of allowed attempts in the exercise settings. You can allow unlimited attempts or set a specific maximum, but this maximum applies to all users in your course (you can *free* new attempts by deleting previous ones, but this is not recommended as it results in unequal chances between users and it is registered for audit at the platform level).
+Ναι. Ελέγχετε τον αριθμό των επιτρεπόμενων προσπαθειών στις ρυθμίσεις της άσκησης. Μπορείτε να επιτρέψετε απεριόριστες προσπάθειες ή να ορίσετε συγκεκριμένο μέγιστο, αλλά αυτό το μέγιστο ισχύει για όλους τους χρήστες του μαθήματός σας (μπορείτε να *απελευθερώσετε* νέες προσπάθειες διαγράφοντας προηγούμενες, αλλά αυτό δεν συνιστάται καθώς οδηγεί σε άνισες ευκαιρίες μεταξύ χρηστών και καταγράφεται για έλεγχο στο επίπεδο της πλατφόρμας).
 
-## Technical Issues
+## Τεχνικά Προβλήματα
 
-**I cannot see a tool on my course homepage. Where is it?**
+**Δεν βλέπω ένα εργαλείο στην αρχική σελίδα του μαθήματός μου. Πού βρίσκεται;**
 
-Some tools may be hidden. As a teacher, you can show hidden tools by looking for tools with a crossed-out eye icon. If you cannot find a specific tool at all, your platform administrator may have disabled it at the platform level.
+Ορισμένα εργαλεία μπορεί να είναι κρυμμένα. Ως δάσκαλος, μπορείτε να εμφανίσετε τα κρυμμένα εργαλεία αναζητώντας εργαλεία με εικονίδιο διαγραμμένου ματιού. Αν δεν μπορείτε να βρείτε καθόλου ένα συγκεκριμένο εργαλείο, ο διαχειριστής της πλατφόρμας σας μπορεί να το έχει απενεργοποιήσει στο επίπεδο της πλατφόρμας.
 
-**My learners say they cannot access the course.**
+**Οι μαθητές μου λένε ότι δεν μπορούν να αποκτήσουν πρόσβαση στο μάθημα.**
 
-Check the course visibility settings (Course Settings > Course Visibility). If set to "Registered only," learners must be explicitly enrolled. Also verify they have an active account on the platform.
+Ελέγξτε τις ρυθμίσεις ορατότητας του μαθήματος (Ρυθμίσεις Μαθήματος > Ορατότητα Μαθήματος). Αν είναι ρυθμισμένο σε "Μόνο εγγεγραμμένοι", οι μαθητές πρέπει να είναι ρητά εγγεγραμμένοι. Επαληθεύστε επίσης ότι έχουν ενεργό λογαριασμό στην πλατφόρμα.

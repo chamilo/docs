@@ -1,46 +1,46 @@
-# Sessions
+# Συνεδρίες
 
-Sessions in Chamilo are a way to deliver the same course to different groups of learners at different times, without duplicating the course content. Think of a session as a scheduled edition or cohort of a course.
+Οι συνεδρίες στο Chamilo είναι ένας τρόπος να παραδοθεί το ίδιο μάθημα σε διαφορετικές ομάδες μαθητών σε διαφορετικές χρονικές στιγμές, χωρίς να duplicαριστεί το περιεχόμενο του μαθήματος. Σκεφτείτε μια συνεδρία ως μια προγραμματισμένη έκδοση ή ομάδα ενός μαθήματος.
 
-## How Sessions Work
+## Πώς Λειτουργούν οι Συνεδρίες
 
-A **course** is a container of content and tools. A **session** assigns that course to a specific group of learners for a specific time period. This means:
+Ένα **μάθημα** είναι ένας περιέκτης περιεχομένου και εργαλείων. Μια **συνεδρία** εκχωρεί αυτό το μάθημα σε μια συγκεκριμένη ομάδα μαθητών για μια συγκεκριμένη χρονική περίοδο. Αυτό σημαίνει:
 
-* The same course can be reused across multiple sessions
-* Each session has its own enrolled learners and its own start/end dates
-* Each session has its own results — grades, progress, and tracking data are kept separate per session
-* The base course content is shared, but teachers can customize certain elements per session
+* Το ίδιο μάθημα μπορεί να επαναχρησιμοποιηθεί σε πολλαπλές συνεδρίες
+* Κάθε συνεδρία έχει τους δικούς της εγγεγραμμένους μαθητές και τις δικές της ημερομηνίες έναρξης/λήξης
+* Κάθε συνεδρία έχει τα δικά της αποτελέσματα — βαθμοί, πρόοδος και δεδομένα παρακολούθησης διατηρούνται ξεχωριστά ανά συνεδρία
+* Το βασικό περιεχόμενο του μαθήματος είναι κοινόχρηστο, αλλά οι διδάσκοντες μπορούν να προσαρμόσουν ορισμένα στοιχεία ανά συνεδρία
 
-## Your Sessions
+## Οι Συνεδρίες Σας
 
-From the sidebar, click **My sessions** to see your sessions. They are organized into three views:
+Από τη γραμμή πλαϊνών εργαλείων, κάντε κλικ στο **Οι συνεδρίες μου** για να δείτε τις συνεδρίες σας. Οργανώνονται σε τρεις προβολές:
 
-![The My Sessions page showing current, past, and upcoming session views](/.gitbook/assets/my-sessions-list.png)
+![Η σελίδα Οι Συνεδρίες μου που δείχνει τις τρέχουσες, προηγούμενες και επερχόμενες προβολές συνεδριών](/.gitbook/assets/my-sessions-list.png)
 
-* **Current sessions** — Sessions that are currently active
-* **Past sessions** — Sessions that have ended
-* **Upcoming sessions** — Sessions that have not started yet
+* **Τρέχουσες συνεδρίες** — Συνεδρίες που είναι αυτή τη στιγμή ενεργές
+* **Προηγούμενες συνεδρίες** — Συνεδρίες που έχουν λήξει
+* **Επερχόμενες συνεδρίες** — Συνεδρίες που δεν έχουν ξεκινήσει ακόμη
 
-Each session shows the courses it contains. Click on a course within a session to access it.
+Κάθε συνεδρία δείχνει τα μαθήματα που περιέχει. Κάντε κλικ σε ένα μάθημα μέσα σε μια συνεδρία για να το προσπελάσετε.
 
-## Teaching in a Session
+## Διδασκαλία σε Συνεδρία
 
-When you enter a course through a session, the experience is similar to a regular course, with a few differences:
+Όταν εισέρχεστε σε ένα μάθημα μέσω συνεδρίας, η εμπειρία είναι παρόμοια με ένα κανονικό μάθημα, με μερικές διαφορές:
 
-* The **session name** appears alongside the course title, so you always know which session you are working in
-* Learner data (progress, grades, submissions) is specific to this session
-* Some settings (like the ability to change the visibility of tools) may be locked by the session administrator
+* Το **όνομα της συνεδρίας** εμφανίζεται δίπλα στον τίτλο του μαθήματος, ώστε να γνωρίζετε πάντα σε ποια συνεδρία εργάζεστε
+* Τα δεδομένα των μαθητών (πρόοδος, βαθμοί, υποβολές) είναι ειδικά για αυτή τη συνεδρία
+* Οριστικές ρυθμίσεις (όπως η δυνατότητα αλλαγής της ορατότητας εργαλείων) μπορεί να είναι κλειδωμένες από τον διαχειριστή της συνεδρίας
 
-## Session Roles
+## Ρόλοι Συνεδρίας
 
-Sessions introduce additional roles:
+Οι συνεδρίες εισάγουν επιπλέον ρόλους:
 
-| Role | Description |
+| Ρόλος | Περιγραφή |
 |------|-------------|
-| **Session administrator** | Manages the creation and configuration of sessions |
-| **Session coach** | Oversees all courses within a session (can access tracking across courses) |
-| **Course coach** | Teaches a specific course within a session |
+| **Διαχειριστής συνεδρίας** | Διαχειρίζεται τη δημιουργία και διαμόρφωση συνεδριών |
+| **Προπονητής συνεδρίας** | Εποπτεύει όλα τα μαθήματα μέσα σε μια συνεδρία (μπορεί να προσπελάσει παρακολούθηση σε όλα τα μαθήματα) |
+| **Προπονητής μαθήματος** | Διδάσκει ένα συγκεκριμένο μάθημα μέσα σε μια συνεδρία |
 
-If you are assigned as a **course coach** in a session, you can manage that course's content and track learner progress for the session's learners.
+Αν σας έχει οριστεί ως **προπονητής μαθήματος** σε μια συνεδρία, μπορείτε να διαχειριστείτε το περιεχόμενο αυτού του μαθήματος και να παρακολουθείτε την πρόοδο των μαθητών της συνεδρίας.
 
-> Sessions are typically managed by administrators. If you need to create or modify a session, contact your platform administrator or session administrator.
+> Οι συνεδρίες διαχειρίζονται συνήθως από διαχειριστές. Αν χρειάζεται να δημιουργήσετε ή να τροποποιήσετε μια συνεδρία, επικοινωνήστε με τον διαχειριστή της πλατφόρμας ή τον διαχειριστή της συνεδρίας.

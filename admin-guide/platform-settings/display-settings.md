@@ -1,202 +1,203 @@
-# Display Settings
+# Ρυθμίσεις Εμφάνισης
 
-How the platform is displayed to users — homepage layout, gravatar, menus, branding behaviour and similar visual preferences.
+Πώς εμφανίζεται η πλατφόρμα στους χρήστες — διάταξη αρχικής σελίδας, gravatar, μενού, συμπεριφορά εμπορικού σήματος και παρόμοιες οπτικές προτιμήσεις.
 
-Access these settings under **Administration > Configuration settings > Display**. This category contains **24 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+Προσπελάστε αυτές τις ρυθμίσεις στο **Διαχείριση > Ρυθμίσεις διαμόρφωσης > Εμφάνιση**. Αυτή η κατηγορία περιέχει **24 ρυθμίσεις**, που παρατίθενται παρακάτω με τον τίτλο και το σχόλιο που παρέχονται στα fixtures των ρυθμίσεων της πλατφόρμας (`SettingsCurrentFixtures.php`).
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> Το όνομα της μεταβλητής στον κώδικα εμφανίζεται σε monospace. Χρησιμοποιήστε το όταν προγραμματίζετε μέσω του API ή όταν χρειάζεται να αλλάξετε αυτές τις ρυθμίσεις σε παγκόσμιο επίπεδο επεξεργαζόμενοι το [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
 
-## Settings
+## Ρυθμίσεις
 
 ### `accessibility_font_resize`
 
-**Font resize accessibility feature**
+**Χαρακτηριστικό προσβασιμότητας αλλαγής μεγέθους γραμματοσειράς**
 
-Enable this option to show a set of font resize options on the top-right side of your campus. This will allow visually impaired to read their course contents more easily.
+Ενεργοποιήστε αυτή την επιλογή για να εμφανιστεί ένα σύνολο επιλογών αλλαγής μεγέθους γραμματοσειράς στην πάνω δεξιά πλευρά του campus σας. Αυτό θα επιτρέψει στους οπτικά μειονεκτούντες να διαβάζουν ευκολότερα το περιεχόμενο των μαθημάτων τους.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 ### `display_categories_on_homepage`
 
-**Display categories on home page**
+**Εμφάνιση κατηγοριών στην αρχική σελίδα**
 
-This option will display or hide courses categories on the portal home page
+Αυτή η επιλογή θα εμφανίζει ή θα αποκρύπτει τις κατηγορίες μαθημάτων στην αρχική σελίδα του πυλώνου
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 ### `enable_help_link`
 
-**Enable help link**
+**Ενεργοποίηση συνδέσμου βοήθειας**
 
-The Help link is located in the top right part of the screen
+Ο σύνδεσμος Βοήθεια βρίσκεται στο πάνω δεξί μέρος της οθόνης
 
-*Default: `true`*
+*Προεπιλογή: `true`*
 
 ### `gravatar_enabled`
 
-**Gravatar user pictures**
+**Εικόνες χρηστών Gravatar**
 
-Enable this option to search into the Gravatar repository for pictures of the current user, if the user hasn't defined a picture locally. This is great to auto-fill pictures on your site, in particular if your users are active internet users. Gravatar pictures can be configured easily, based on the e-mail address of a user, at http://en.gravatar.com/
+Ενεργοποιήστε αυτή την επιλογή για να αναζητάτε στην αποθήκη Gravatar εικόνες του τρέχοντος χρήστη, αν ο χρήστης δεν έχει ορίσει εικόνα τοπικά. Αυτό είναι εξαιρετικό για αυτόματο γέμισμα εικόνων στον ιστότοπό σας, ιδιαίτερα αν οι χρήστες σας είναι ενεργοί χρήστες internet. Οι εικόνες Gravatar μπορούν να ρυθμιστούν εύκολα, βασισμένες στη διεύθυνση email ενός χρήστη, στο http://en.gravatar.com/
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 ### `gravatar_type`
 
-**Gravatar avatar type**
+**Τύπος avatar Gravatar**
 
-If the Gravatar option is enabled and the user doesn't have a picture configured on Gravatar, this option allows you to choose the type of avatar that Gravatar will generate for each user. Check <a href='http://en.gravatar.com/site/implement/images#default-image'>http://en.gravatar.com/site/implement/images#default-image</a> for avatar types examples.
+Αν η επιλογή Gravatar είναι ενεργοποιημένη και ο χρήστης δεν έχει ρυθμίσει εικόνα στο Gravatar, αυτή η επιλογή σας επιτρέπει να επιλέξετε τον τύπο avatar που θα δημιουργήσει το Gravatar για κάθε χρήστη. Ελέγξτε το <a href='http://en.gravatar.com/site/implement/images#default-image'>http://en.gravatar.com/site/implement/images#default-image</a> για παραδείγματα τύπων avatar.
 
-*Default: `mm`*
+*Προεπιλογή: `mm`*
 
 ### `hide_complete_name_in_whoisonline`
 
-**Hide the complete username in 'who is online'**
+**Απόκρυψη πλήρους ονόματος χρήστη στη σελίδα 'ποιος είναι online'**
 
-The 'who is online' page (if enabled) will show a picture and a name for each user currently online. Enable this option to hide the names.
+Η σελίδα 'ποιος είναι online' (αν είναι ενεργοποιημένη) θα εμφανίζει μια εικόνα και ένα όνομα για κάθε χρήστη που είναι αυτή τη στιγμή online. Ενεργοποιήστε αυτή την επιλογή για να αποκρύψετε τα ονόματα.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 ### `hide_logout_button`
 
-**Hide logout button**
+**Απόκρυψη κουμπιού αποσύνδεσης**
 
-Hide the logout button. This is usually only interesting when using an external login/logout method, for example when using Single Sign On of some sort.
+Αποκρύψτε το κουμπί αποσύνδεσης. Αυτό είναι συνήθως ενδιαφέρον μόνο όταν χρησιμοποιείται εξωτερική μέθοδος σύνδεσης/αποσύνδεσης, για παράδειγμα όταν χρησιμοποιείται Single Sign On κάποιου τύπου.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 ### `hide_main_navigation_menu`
 
-**Hide main navigation menu**
+**Απόκρυψη κύριου μενού πλοήγησης**
 
-When using Chamilo for a specific purpose (like one massive online exam), you might want to reduce distraction even more by removing the side menu.
+Όταν χρησιμοποιείται το Chamilo για συγκεκριμένο σκοπό (όπως μία μαζική online εξέταση), μπορεί να θέλετε να μειώσετε την απόσπαση προσοχής ακόμα περισσότερο αφαιρώντας το πλευρικό μενού.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 ### `hide_social_media_links`
 
-**Hide social media links**
+**Απόκρυψη συνδέσμων κοινωνικών μέσων**
 
-Some pages allow you to promote the portal or a course on social networks. Enable this setting to remove the links.
+Μερικές σελίδες σας επιτρέπουν να προωθήσετε τον πυλώνα ή ένα μάθημα σε κοινωνικά δίκτυα. Ενεργοποιήστε αυτή τη ρύθμιση για να αφαιρέσετε τους συνδέσμους.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 ### `order_user_list_by_official_code`
 
-**Order users by official code**
+**Ταξινόμηση χρηστών κατά επίσημο κώδικα**
 
-Use the 'official code' to sort most students list on the platform, instead of their lastname or firstname.
+Χρησιμοποιήστε τον 'επίσημο κώδικα' για να ταξινομείτε τους περισσότερους καταλόγους φοιτητών στην πλατφόρμα, αντί για το επώνυμο ή το όνομά τους.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 ### `pdf_logo_header`
 
-**PDF header logo**
+**Λογότυπο κεφαλίδας PDF**
 
-Whether to use the image at var/themes/[your-theme]/images/pdf_logo_header.png as the PDF header logo for all PDF exports (instead of the normal portal logo)
+Εάν θα χρησιμοποιηθεί η εικόνα στο var/themes/[your-theme]/images/pdf_logo_header.png ως λογότυπο κεφαλίδας PDF για όλες τις εξαγωγές PDF (αντί για το κανονικό λογότυπο του πυλώνου)
 
 ### `show_admin_toolbar`
 
-**Show admin toolbar**
+**Εμφάνιση γραμμής εργαλείων διαχειριστή**
 
-Shows a global toolbar on top of the page to the designated user roles. This toolbar, very similar to Wordpress and Google's black toolbars, can really speed up complicated actions and improve the space you have available for the learning content, but it might be confusing for some users
+Εμφανίζει μια παγκόσμια γραμμή εργαλείων στην κορυφή της σελίδας στους ορισμένους ρόλους χρηστών. Αυτή η γραμμή εργαλείων, πολύ παρόμοια με αυτές του Wordpress και της Google, μπορεί πραγματικά να επιταχύνει περίπλοκες ενέργειες και να βελτιώσει τον χώρο που έχετε διαθέσιμο για το περιεχόμενο μάθησης, αλλά μπορεί να είναι μπερδευτική για ορισμένους χρήστες
 
-*Default: `do_not_show`*
+*Προεπιλογή: `do_not_show`*
 
 ### `show_back_link_on_top_of_tree`
 
-**Show back links from categories/courses**
+**Εμφάνιση συνδέσμων επιστροφής από κατηγορίες/μαθήματα**
 
-Show a link to go back in the courses hierarchy. A link is available at the bottom of the list anyway.
+Εμφανίστε έναν σύνδεσμο για επιστροφή στην ιεραρχία μαθημάτων. Ένας σύνδεσμος είναι διαθέσιμος έτσι κι αλλιώς στο κάτω μέρος της λίστας.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 ### `show_closed_courses`
 
-**Display closed courses on login page and portal start page?**
+**Εμφάνιση κλειστών μαθημάτων στη σελίδα σύνδεσης και στην αρχική σελίδα του πυλώνου;**
 
-Display closed courses on the login page and courses start page? On the portal start page an icon will appear next to the courses to quickly subscribe to each courses. This will only appear on the portal's start page when the user is logged in and when the user is not subscribed to the portal yet.
+Εμφάνιση κλειστών μαθημάτων στη σελίδα σύνδεσης και στην αρχική σελίδα μαθημάτων; Στην αρχική σελίδα του πυλώνου θα εμφανιστεί ένα εικονίδιο δίπλα στα μαθήματα για γρήγορη εγγραφή σε κάθε μάθημα. Αυτό θα εμφανίζεται μόνο στην αρχική σελίδα του πυλώνου όταν ο χρήστης είναι συνδεδεμένος και όταν ο χρήστης δεν είναι ακόμα εγγεγραμμένος στον πυλώνα.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 ### `show_email_addresses`
 
-**Show email addresses**
+**Εμφάνιση διευθύνσεων email**
 
-Show email addresses to users
+Εμφάνιση διευθύνσεων email στους χρήστες
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 ### `show_empty_course_categories`
 
-**Show empty courses categories**
+**Εμφάνιση κενών κατηγοριών μαθημάτων**
 
-Show the categories of courses on the homepage, even if they're empty
+Εμφάνιση των κατηγοριών μαθημάτων στην αρχική σελίδα, ακόμα κι αν είναι κενές
 
-*Default: `true`*
+*Προεπιλογή: `true`*
 
 ### `show_hot_courses`
 
-**Show hot courses**
+**Εμφάνιση δημοφιλών μαθημάτων**
 
-The hot courses list will be added in the index page
+Η λίστα δημοφιλών μαθημάτων θα προστεθεί στη σελίδα index
 
-*Default: `true`*
+*Προεπιλογή: `true`*
 
 ### `show_number_of_courses`
 
-**Show courses number**
+**Εμφάνιση αριθμού μαθημάτων**
 
-Show the number of courses in each category in the courses categories on the homepage
+Εμφάνιση του αριθμού μαθημάτων σε κάθε κατηγορία στις κατηγορίες μαθημάτων στην αρχική σελίδα
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
+---
 ### `show_tabs`
 
-**Main menu entries**
+**Καταχωρήσεις κύριου μενού**
 
-Check the entrie you want to see appear in the main menu
+Επιλέξτε τις καταχωρήσεις που θέλετε να εμφανίζονται στο κύριο μενού
 
-*Default:*
+*Προεπιλογή:*
 ```json
 {"menu":{"campus_homepage":true,"my_courses":true,"reporting":true,"platform_administration":true,"my_agenda":true,"social":true,"videoconference":false,"diagnostics":false,"catalogue":true,"session_admin":true,"search":true,"question_manager":false},"topbar":{"topbar_my_certificates":true,"topbar_my_custom_certificate":false,"topbar_skills":true}}
 ```
 
 ### `show_tabs_per_role`
 
-**Main menu entries per role**
+**Καταχωρήσεις κύριου μενού ανά ρόλο**
 
-Define header tabs visibility per role.
+Ορίστε την ορατότητα των καρτελών κεφαλίδας ανά ρόλο.
 
-*Default: `{}`*
+*Προεπιλογή: `{}`*
 
 ### `showonline`
 
-**Who's Online**
+**Ποιοι είναι Συνδεδεμένοι**
 
-Display the number of persons that are online?
+Εμφάνιση του αριθμού των συνδεδεμένων χρηστών;
 
-*Default: `world`*
+*Προεπιλογή: `world`*
 
 ### `table_default_row`
 
-**Default number of table rows**
+**Προεπιλεγμένος αριθμός γραμμών πίνακα**
 
-How many rows should be shown in all tables by default.
+Πόσες γραμμές πρέπει να εμφανίζονται σε όλους τους πίνακες από προεπιλογή.
 
-*Default: `20`*
+*Προεπιλογή: `20`*
 
 ### `table_row_list`
 
-**Default offered pagination numbers in tables**
+**Προεπιλεγμένες επιλογές σελιδοποίησης σε πίνακες**
 
-Set the options you want to appear in the navigation around a table to show less or more rows on one page. e.g. [50, 100, 200, 500].
+Ορίστε τις επιλογές που θέλετε να εμφανίζονται στη πλοήγηση γύρω από έναν πίνακα για εμφάνιση λιγότερων ή περισσότερων γραμμών σε μία σελίδα. π.χ. [50, 100, 200, 500].
 
-*Default: `[10,20,50,100]`*
+*Προεπιλογή: `[10,20,50,100]`*
 
 ### `time_limit_whosonline`
 
-**Time limit on Who Is Online**
+**Χρονικό όριο στο Ποιοι είναι Συνδεδεμένοι**
 
-This time limit defines for how many minutes after his last action a user will be considered *online*
+Αυτό το χρονικό όριο ορίζει για πόσα λεπτά μετά την τελευταία του ενέργεια ένας χρήστης θα θεωρείται *συνδεδεμένος*
 
-*Default: `30`*
+*Προεπιλογή: `30`*

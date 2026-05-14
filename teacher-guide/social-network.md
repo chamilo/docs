@@ -1,53 +1,53 @@
-# Social Network
+# Κοινωνικό Δίκτυο
 
-Chamilo includes a built-in social network that lets you connect with other users on the platform. This feature may be enabled or disabled by your platform administrator.
+Το Chamilo περιλαμβάνει ενσωματωμένο κοινωνικό δίκτυο που σας επιτρέπει να συνδεθείτε με άλλους χρήστες στην πλατφόρμα. Αυτή η λειτουργία μπορεί να ενεργοποιηθεί ή να απενεργοποιηθεί από τον διαχειριστή της πλατφόρμας σας.
 
-## Accessing the Social Network
+## Πρόσβαση στο Κοινωνικό Δίκτυο
 
-Click **Social network** in the sidebar to access the social features. If you do not see this option, your administrator may have disabled it.
+Κάντε κλικ στο **Κοινωνικό δίκτυο** στη γραμμή πλαϊνής πλοήγησης για να αποκτήσετε πρόσβαση στις κοινωνικές λειτουργίες. Αν δεν βλέπετε αυτή την επιλογή, ο διαχειριστής σας μπορεί να την έχει απενεργοποιήσει.
 
-## Your Social Wall
+## Ο Κοινωνικός Τοίχος Σας
 
-![The social wall showing a feed of posts, likes, and comments from connections](/.gitbook/assets/social-wall.png)
+![Ο κοινωνικός τοίχος που εμφανίζει ροή αναρτήσεων, likes και σχολίων από συνδέσεις](/.gitbook/assets/social-wall.png)
 
-The social wall shows a feed of activity from you and your connections. You can:
+Ο κοινωνικός τοίχος εμφανίζει ροή δραστηριότητας από εσάς και τις συνδέσεις σας. Μπορείτε να:
 
-* **Post updates** — Share text and links with your connections
-* **Like and comment** — Interact with posts from other users
-* **View activity** — See recent posts from people you are connected with
+* **Αναρτήσετε ενημερώσεις** — Μοιραστείτε κείμενο και συνδέσμους με τις συνδέσεις σας
+* **Κάνετε like και σχόλια** — Αλληλεπιδράστε με αναρτήσεις άλλων χρηστών
+* **Προβάλετε δραστηριότητα** — Δείτε πρόσφατες αναρτήσεις από άτομα με τα οποία είστε συνδεδεμένοι
 
-## Connections
+## Συνδέσεις
 
-You can connect with other users on the platform:
+Μπορείτε να συνδεθείτε με άλλους χρήστες στην πλατφόρμα:
 
-* **Search for users** — Find colleagues and learners by name
-* **Send connection requests** — Invite other users to connect
-* **Manage connections** — Accept, decline, or remove connections
+* **Αναζήτηση χρηστών** — Βρείτε συναδέλφους και μαθητές με όνομα
+* **Αποστολή αιτημάτων σύνδεσης** — Προκαλέστε άλλους χρήστες να συνδεθούν
+* **Διαχείριση συνδέσεων** — Αποδεχθείτε, απορρίψτε ή διαγράψτε συνδέσεις
 
-> **Note:** Learners can only search for and add other learners as friends — they cannot send friend requests to teachers. As a teacher, however, you can search for learners and request to add them as friends.
+> **Σημείωση:** Οι μαθητές μπορούν να αναζητήσουν και να προσθέσουν μόνο άλλους μαθητές ως φίλους — δεν μπορούν να στείλουν αιτήματα φιλίας σε δασκάλους. Ως δάσκαλος, ωστόσο, μπορείτε να αναζητήσετε μαθητές και να ζητήσετε να τους προσθέσετε ως φίλους.
 
-## Messaging
+## Μηνύματα
 
-The social network integrates with the platform's messaging system:
+Το κοινωνικό δίκτυο ενσωματώνεται με το σύστημα μηνυμάτων της πλατφόρμας:
 
-* **Send messages** <img src="/.gitbook/assets/icons/mdi-email-plus-outline.svg" alt="New message" data-size="line"> — Write direct messages to other users
-* **Inbox** <img src="/.gitbook/assets/icons/mdi-inbox.svg" alt="Inbox" data-size="line"> — Read and reply to received messages
-* **Sent messages** <img src="/.gitbook/assets/icons/mdi-send-check.svg" alt="Sent" data-size="line"> — Review messages you have sent
+* **Αποστολή μηνυμάτων** <img src="/.gitbook/assets/icons/mdi-email-plus-outline.svg" alt="New message" data-size="line"> — Γράψτε άμεσα μηνύματα σε άλλους χρήστες
+* **Εισερχόμενα** <img src="/.gitbook/assets/icons/mdi-inbox.svg" alt="Inbox" data-size="line"> — Διαβάστε και απαντήστε σε ληφθέντα μηνύματα
+* **Απεσταλμένα μηνύματα** <img src="/.gitbook/assets/icons/mdi-send-check.svg" alt="Sent" data-size="line"> — Ελέγξτε μηνύματα που έχετε στείλει
 
-### Composing and Replying
+### Σύνθεση και Απάντηση
 
-When composing a new message, you can address it to multiple recipients at once. Similarly, when replying to a message, you can include multiple users in your reply — useful for group coordination without a formal social group.
+Κατά τη σύνθεση νέου μηνύματος, μπορείτε να το απευθύνετε σε πολλαπλούς παραλήπτες ταυτόχρονα. Παρομοίως, κατά την απάντηση σε μήνυμα, μπορείτε να συμπεριλάβετε πολλαπλούς χρήστες στην απάντησή σας — χρήσιμο για συντονισμό ομάδας χωρίς επίσημη κοινωνική ομάδα.
 
-### Message Tags
+### Ετικέτες Μηνυμάτων
 
-If your platform configuration uses message tags (typically managed at the platform level), your inbox shows a tag list you can click to filter messages by that tag, which makes locating related threads faster as your inbox grows.
+Αν η διαμόρφωση της πλατφόρμας σας χρησιμοποιεί ετικέτες μηνυμάτων (συνήθως διαχειρίζονται σε επίπεδο πλατφόρμας), τα εισερχόμενά σας εμφανίζουν λίστα ετικετών που μπορείτε να κάνετε κλικ για να φιλτράρετε μηνύματα με αυτή την ετικέτα, κάτι που επιταχύνει την εύρεση σχετικών νημάτων καθώς μεγαλώνουν τα εισερχόμενά σας.
 
-## Social Groups
+## Κοινωνικές Ομάδες
 
-Social groups allow users to gather around common interests or projects:
+Οι κοινωνικές ομάδες επιτρέπουν στους χρήστες να συγκεντρωθούν γύρω από κοινά ενδιαφέροντα ή έργα:
 
-* **Join groups** — Browse and join existing groups
-* **Create groups** — Start a new social group (if permitted)
-* **Group discussions** — Share posts within a group context
+* **Συμμετοχή σε ομάδες** — Περιηγηθείτε και συμμετάσχετε σε υπάρχουσες ομάδες
+* **Δημιουργία ομάδων** — Ξεκινήστε νέα κοινωνική ομάδα (αν επιτρέπεται)
+* **Συζητήσεις ομάδας** — Μοιραστείτε αναρτήσεις στο πλαίσιο ομάδας
 
-> Social groups are different from **course groups** (covered in the [Groups](collaboration-and-communication/groups.md) section). Course groups are tied to a specific course, while social groups are platform-wide.
+> Οι κοινωνικές ομάδες διαφέρουν από τις **ομάδες μαθήματος** (που καλύπτονται στην ενότητα [Ομάδες](collaboration-and-communication/groups.md)). Οι ομάδες μαθήματος συνδέονται με συγκεκριμένο μάθημα, ενώ οι κοινωνικές ομάδες είναι σε όλη την πλατφόρμα.

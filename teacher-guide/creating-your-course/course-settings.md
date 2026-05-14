@@ -1,99 +1,100 @@
-# Course Settings
+# Ρυθμίσεις Μαθήματος
 
-Course settings allow you to control how your course behaves — who can access it, how it appears, and what features are enabled.
+Οι ρυθμίσεις μαθήματος σας επιτρέπουν να ελέγξετε τη συμπεριφορά του μαθήματός σας — ποιος μπορεί να το προσπελάσει, πώς εμφανίζεται και ποιες λειτουργίες είναι ενεργοποιημένες.
 
-To access course settings, enter your course and click the **Settings** <img src="/.gitbook/assets/icons/mdi-cog.svg" alt="Settings" data-size="line"> icon next to the **Switch to student view** button.
+Για να προσπελάσετε τις ρυθμίσεις μαθήματος, εισέλθετε στο μάθημά σας και κάντε κλικ στο εικονίδιο **Settings** <img src="/.gitbook/assets/icons/mdi-cog.svg" alt="Ρυθμίσεις" data-size="line"> δίπλα στο κουμπί **Switch to student view**.
 
-## General Settings
+## Γενικές Ρυθμίσεις
 
-### Course Information
+### Πληροφορίες Μαθήματος
 
-* **Course title** — The display name of your course
-* **Course language** — The primary language for the course interface
-* **Course category** — The category under which the course appears in the catalog
-* **Course picture** — Upload a thumbnail that represents your course in course listings (will be resized depending on context)
+* **Τίτλος μαθήματος** — Το όνομα εμφάνισης του μαθήματός σας
+* **Γλώσσα μαθήματος** — Η κύρια γλώσσα για το περιβάλλον του μαθήματος
+* **Κατηγορία μαθήματος** — Η κατηγορία κάτω από την οποία εμφανίζεται το μάθημα στον κατάλογο
+* **Εικόνα μαθήματος** — Ανεβάστε μια μικρογραφία που αντιπροσωπεύει το μάθημά σας στις καταχωρήσεις μαθημάτων (θα προσαρμοστεί ανάλογα με το πλαίσιο)
 
-The course code (the short unique identifier) is set when the course is created and is not editable from this page.
+Ο κωδικός μαθήματος (το σύντομο μοναδικό αναγνωριστικό) ορίζεται κατά τη δημιουργία του μαθήματος και δεν είναι επεξεργάσιμος από αυτή τη σελίδα.
 
-By default, all users entering your course will see the whole Chamilo interface in the language of your course. This is an immersive feature. Administrators can change this behaviour, but you can also change it with one of the first options: **Show course in user's language** (set to No by default) if you believe this makes it too hard for your users.
+Προεπιλογικά, όλοι οι χρήστες που εισέρχονται στο μάθημά σας θα βλέπουν ολόκληρο το περιβάλλον του Chamilo στη γλώσσα του μαθήματός σας. Πρόκειται για μια λειτουργία εμβύθισης. Οι διαχειριστές μπορούν να αλλάξουν αυτή τη συμπεριφορά, αλλά μπορείτε επίσης να την αλλάξετε με μία από τις πρώτες επιλογές: **Show course in user's language** (προεπιλογικά Οχι) αν πιστεύετε ότι αυτό το καθιστά πολύ δύσκολο για τους χρήστες σας.
 
-The department and department URL are deprecated fields. They are only maintained for legacy support reasons.
+Το τμήμα και η διεύθυνση URL του τμήματος είναι παρωχημένα πεδία. Διατηρούνται μόνο για λόγους υποστήριξης παλαιότερων εκδόσεων.
 
-If enabled, you can switch the style inside your course with the **Style sheets** option, using existing stylesheets on your portal. This option is often disabled by admins, for a more integrated global design.
+Αν είναι ενεργοποιημένο, μπορείτε να αλλάξετε το στυλ μέσα στο μάθημά σας με την επιλογή **Style sheets**, χρησιμοποιώντας υπάρχουσες φύλλα στυλ στην πύλη σας. Αυτή η επιλογή απενεργοποιείται συχνά από τους διαχειριστές, για πιο ενιαίο παγκόσμιο σχεδιασμό.
 
-### Disk Quota
+### Περιορισμός Χώρου Αποθήκευσης
 
-Each course has a storage limit (disk quota) for uploaded files. The quota is set by the platform administrator. You can see your current limit in the course settings, and the current usage in the **Documents** tool.
+Κάθε μάθημα έχει όριο αποθήκευσης (περιορισμός δίσκου) για τα ανεβασμένα αρχεία. Το όριο ορίζεται από τον διαχειριστή της πλατφόρμας. Μπορείτε να δείτε το τρέχον όριό σας στις ρυθμίσεις μαθήματος και την τρέχουσα χρήση στο εργαλείο **Documents**.
 
-> If you are running out of space, contact your platform administrator to request a quota increase, or remove unused files from the Documents tool.
+> Αν σας τελειώνει ο χώρος, επικοινωνήστε με τον διαχειριστή της πλατφόρμας σας για να ζητήσετε αύξηση του ορίου ή διαγράψτε αχρησιμοποίητα αρχεία από το εργαλείο Documents.
 
-### Course Visibility
+### Ορατότητα Μαθήματος
 
-![The course visibility settings showing public, open, registered, and closed options](/.gitbook/assets/course-settings-visibility.png)
+![Οι ρυθμίσεις ορατότητας μαθήματος που δείχνουν επιλογές δημόσιο, ανοιχτό, εγγεγραμμένο και κλειστό](/.gitbook/assets/course-settings-visibility.png)
 
-Control who can access your course:
+Ελέγξτε ποιος μπορεί να προσπελάσει το μάθημά σας:
 
-| Setting | Description |
+| Ρύθμιση | Περιγραφή |
 |---------|-------------|
-| **Public** | Anyone, including anonymous visitors, can access the course |
-| **Open to platform** | All registered users on the platform can access the course |
-| **Private — access granted by privileged users** | Only users explicitly enrolled in the course can access it |
-| **Closed** | The course is locked; no one can access it except the teacher |
+| **Δημόσιο** | Οποιοσδήποτε, συμπεριλαμβανομένων ανώνυμων επισκεπτών, μπορεί να προσπελάσει το μάθημα |
+| **Ανοιχτό στην πλατφόρμα** | Όλοι οι εγγεγραμμένοι χρήστες στην πλατφόρμα μπορούν να προσπελάσουν το μάθημα |
+| **Ιδιωτικό — πρόσβαση που χορηγείται από προνομιούχους χρήστες** | Μόνο οι χρήστες που έχουν εγγραφεί ρητά στο μάθημα μπορούν να το προσπελάσουν |
+| **Κλειστό** | Το μάθημα είναι κλειδωμένο· κανείς δεν μπορεί να το προσπελάσει εκτός από τον δάσκαλο |
 
-#### Enrollment Settings
+#### Ρυθμίσεις Εγγραφής
 
-Depending on your platform configuration, you may be able to control:
+Ανάλογα με τη διαμόρφωση της πλατφόρμας σας, μπορείτε ίσως να ελέγξετε:
 
-* **Allow self-enrollment** — Whether learners can subscribe themselves through the course catalog
-* **Allow self-unsubscription** — Whether learners can leave the course on their own
-* **Enrollment password** — Require a password for self-enrollment (useful for restricting access to a specific group) but the security level is low as the same course-access password is shared between all users.
+* **Επιτρέψτε αυτο-εγγραφή** — Εάν οι μαθητές μπορούν να εγγραφούν μόνοι τους μέσω του καταλόγου μαθημάτων
+* **Επιτρέψτε αυτο-αποεγγραφή** — Εάν οι μαθητές μπορούν να εγκαταλείψουν το μάθημα μόνοι τους
+* **Κωδικός πρόσβασης εγγραφής** — Απαιτείται κωδικός πρόσβασης για αυτο-εγγραφή (χρήσιμο για περιορισμό πρόσβασης σε συγκεκριμένη ομάδα) αλλά το επίπεδο ασφαλείας είναι χαμηλό καθώς ο ίδιος κωδικός πρόσβασης μαθήματος κοινοποιείται μεταξύ όλων των χρηστών.
 
-### Document Settings
+### Ρυθμίσεις Εγγράφων
 
-Choose whether to show or hide the system folders in the **Documents** tool (hidden by default, you don't really need them in most cases and showing them might cause issues with hidden content and learners).
+Επιλέξτε εάν θα εμφανίζονται ή θα κρύβονται οι φάκελοι συστήματος στο εργαλείο **Documents** (κρυφοί προεπιλογικά, δεν τους χρειάζεστε πραγματικά στις περισσότερες περιπτώσεις και η εμφάνισή τους μπορεί να προκαλέσει προβλήματα με κρυφό περιεχόμενο και μαθητές).
 
-### E-mail Notification Settings
+### Ρυθμίσεις Ειδοποιήσεων Email
 
-Configure how course activity triggers notifications:
+Διαμορφώστε πώς η δραστηριότητα του μαθήματος ενεργοποιεί ειδοποιήσεις:
 
-* **Email notifications for new content** — Notify enrolled users when you add new documents, announcements, or other content
+* **Ειδοποιήσεις email για νέο περιεχόμενο** — Ειδοποιήστε εγγεγραμμένους χρήστες όταν προσθέτετε νέα έγγραφα, ανακοινώσεις ή άλλο περιεχόμενο
 
-### Chat Settings
+### Ρυθμίσεις Συνομιλίας
 
-Control how the **Chat** tool will show.
+Ελέγξτε πώς θα εμφανίζεται το εργαλείο **Chat**.
 
-### Learning path Settings
+### Ρυθμίσεις Μονοπατιού Μάθησης
 
-* **Enable course themes** — Allow learning paths to change appearance (not recommended for integrated user experience)
-* **Learning path return link** — Decide where users land when they click the **Home** icon in a learning path: the learning paths list, the course home, *My courses*, *My sessions*, or the portal home
+* **Ενεργοποίηση θεμάτων μαθήματος** — Επιτρέψτε στα μονοπάτια μάθησης να αλλάζουν εμφάνιση (δεν συνιστάται για ενιαία εμπειρία χρήστη)
+* **Σύνδεσμος επιστροφής μονοπατιού μάθησης** — Αποφασίστε πού προσγειώνονται οι χρήστες όταν κάνουν κλικ στο εικονίδιο **Home** σε μονοπάτι μάθησης: στη λίστα μονοπατιών μάθησης, στην αρχική σελίδα μαθήματος, *My courses*, *My sessions* ή στην αρχική σελίδα της πύλης
 
-### Thematic Advance Settings
+### Ρυθμίσεις Θεματικής Προόδου
 
-Configure how the thematic advance messages will appear on the course homepage.
+Διαμορφώστε πώς θα εμφανίζονται τα μηνύματα θεματικής προόδου στην αρχική σελίδα του μαθήματος.
 
-### Forum Settings
+### Ρυθμίσεις Φόρουμ
 
-Control behaviour in the forum tool of this course.
+Ελέγξτε τη συμπεριφορά στο εργαλείο φόρουμ αυτού του μαθήματος.
 
-### Assignment Settings
+### Ρυθμίσεις Αναθέσεων
 
-* **Default setting for the visibility of newly posted files** — Decide whether new documents uploaded by learners in the **Assignments** tool are shared with all other learners (No by default)
-* **Allow learners to delete their own publications** — Allow learners to delete the assignments they have already uploaded (in case they want to upload a correction).
+* **Προεπιλεγμένη ρύθμιση για την ορατότητα νέων αναρτημένων αρχείων** — Αποφασίστε εάν τα νέα έγγραφα που ανεβάζουν οι μαθητές στο εργαλείο **Assignments** κοινοποιούνται σε όλους τους άλλους μαθητές (Όχι προεπιλογικά)
+* **Επιτρέψτε στους μαθητές να διαγράφουν τις δικές τους δημοσιεύσεις** — Επιτρέψτε στους μαθητές να διαγράφουν τις αναθέσεις που έχουν ήδη ανεβάσει (σε περίπτωση που θέλουν να ανεβάσουν διόρθωση).
 
-### Autolaunch Settings
+---
+### Ρυθμίσεις Αυτόματης Εκκίνησης
 
-A course can be set to have an auto-launch behaviour, which will shorten the path of learners to get to the important parts of your course. If enabled, the learners entering your course will be sent directly to the selected tool and will not see the course homepage as an intermediate step. You can even select specific learning paths or exercises to launch on arrival to the course. In this case, you need to select the option here, then go to the learning paths or exercises list and clic the rocket <img src="/.gitbook/assets/icons/mdi-rocket-launch.svg" alt="Auto-launch" data-size="line"> icon on the selected item.
+Ένα μάθημα μπορεί να ρυθμιστεί ώστε να έχει συμπεριφορά αυτόματης εκκίνησης, η οποία θα συντομεύσει την πορεία των μαθητών προς τα σημαντικά μέρη του μαθήματός σας. Εάν είναι ενεργοποιημένη, οι μαθητές που εισέρχονται στο μάθημά σας θα κατευθύνονται απευθείας στο επιλεγμένο εργαλείο και δεν θα βλέπουν την αρχική σελίδα του μαθήματος ως ενδιάμεσο βήμα. Μπορείτε ακόμη και να επιλέξετε συγκεκριμένες διαδρομές μάθησης ή ασκήσεις για εκκίνηση κατά την άφιξη στο μάθημα. Σε αυτή την περίπτωση, πρέπει να επιλέξετε την επιλογή εδώ, στη συνέχεια να μεταβείτε στη λίστα διαδρομών μάθησης ή ασκήσεων και να κάνετε κλικ στο εικονίδιο πυραύλου <img src="/.gitbook/assets/icons/mdi-rocket-launch.svg" alt="Αυτόματη εκκίνηση" data-size="line"> στο επιλεγμένο στοιχείο.
 
-### AI Helpers Settings
+### Ρυθμίσεις Βοηθών Τεχνητής Νοημοσύνης
 
-This section only appears if your administrator has enabled AI tools on the platform. It allows you to refine the selection of AI helper services available through different tools of your Chamilo platform. Disable them if you don't want to use them, but that would probably be a bad idea as these are very powerful.
+Αυτή η ενότητα εμφανίζεται μόνο εάν ο διαχειριστής σας έχει ενεργοποιήσει εργαλεία τεχνητής νοημοσύνης στην πλατφόρμα. Σας επιτρέπει να βελτιώσετε την επιλογή διαθέσιμων υπηρεσιών βοηθών τεχνητής νοημοσύνης μέσω διαφορετικών εργαλείων της πλατφόρμας Chamilo. Απενεργοποιήστε τα εάν δεν θέλετε να τα χρησιμοποιήσετε, αλλά αυτό πιθανότατα θα ήταν κακή ιδέα καθώς είναι πολύ ισχυρά.
 
-These features are explained in the **AI Tools** section of this guide.
+Αυτά τα χαρακτηριστικά εξηγούνται στην ενότητα **Εργαλεία Τεχνητής Νοημοσύνης** του παρόντος οδηγού.
 
-### External Tools (LTI)
+### Εξωτερικά Εργαλεία (LTI)
 
-If enabled on your platform, Learning Tools Integration allows you to integrate external, compatible activities to this course, as individual icons on the course homepage. Discussing LTI is out of the scope of this guide, but this is a powerful integration system for teachers.
+Εάν είναι ενεργοποιημένη στην πλατφόρμα σας, η Ενσωμάτωση Εργαλείων Μάθησης (Learning Tools Integration) σας επιτρέπει να ενσωματώσετε εξωτερικές, συμβατές δραστηριότητες σε αυτό το μάθημα, ως μεμονωμένα εικονίδια στην αρχική σελίδα του μαθήματος. Η συζήτηση για LTI υπερβαίνει το πεδίο αυτού του οδηγού, αλλά πρόκειται για ένα ισχυρό σύστημα ενσωμάτωσης για εκπαιδευτικούς.
 
-### Others
+### Άλλα
 
-Additional sections or options might appear on this page depending on options and versions of Chamilo.
+Μπορεί να εμφανιστούν επιπλέον ενότητες ή επιλογές σε αυτή τη σελίδα ανάλογα με τις επιλογές και τις εκδόσεις του Chamilo.

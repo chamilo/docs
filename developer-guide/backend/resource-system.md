@@ -1,80 +1,80 @@
-# Resource System
+# Σύστημα Πόρων
 
-The resource system is one of the most important architectural concepts in Chamilo 2.0. It provides a unified abstraction for all course content — documents, exercises, learning paths, forum posts, and more.
+Το σύστημα πόρων αποτελεί μία από τις πιο σημαντικές αρχιτεκτονικές έννοιες στο Chamilo 2.0. Παρέχει μια ενιαία αφαίρεση για όλο το περιεχόμενο του μαθήματος — έγγραφα, ασκήσεις, μονοπάτια μάθησης, δημοσιεύσεις φόρουμ και άλλα.
 
-## Core Concept
+## Βασική Έννοια
 
-Every piece of course content is represented by a **ResourceNode**. This gives all content types a common set of capabilities:
+Κάθε κομμάτι περιεχομένου μαθήματος αναπαριστάται από έναν **ResourceNode**. Αυτό παρέχει σε όλους τους τύπους περιεχομένου ένα κοινό σύνολο δυνατοτήτων:
 
-* **Visibility control** — Show/hide from learners
-* **Access control** — Security voters check permissions via the ResourceNode
-* **File storage** — Attached files are stored via ResourceFile
-* **Tree structure** — ResourceNodes form a tree (parent-child relationships)
-* **Audit trail** — Creator, creation date, modification tracking
+* **Έλεγχος ορατότητας** — Εμφάνιση/απόκρυψη από τους μαθητές
+* **Έλεγχος πρόσβασης** — Οι ψηφοφόροι ασφαλείας ελέγχουν τα δικαιώματα μέσω του ResourceNode
+* **Αποθήκευση αρχείων** — Τα συνημμένα αρχεία αποθηκεύονται μέσω του ResourceFile
+* **Δομή δέντρου** — Οι ResourceNodes σχηματίζουν ένα δέντρο (σχέσεις γονέα-παιδιού)
+* **Καταγραφή ελέγχου** — Δημιουργός, ημερομηνία δημιουργίας, παρακολούθηση τροποποιήσεων
 
-## Key Entities
+## Κύριες Οντότητες
 
 ### ResourceNode (`src/CoreBundle/Entity/ResourceNode.php`)
 
-The central entity. Every content entity has a one-to-one relationship with a ResourceNode.
+Η κεντρική οντότητα. Κάθε οντότητα περιεχομένου έχει σχέση ένα-προς-ένα με έναν ResourceNode.
 
-Key fields:
+Κύρια πεδία:
 
 | Field | Type | Description |
 |-------|------|-------------|
-| `id` | integer | Primary key |
-| `uuid` | UUID v4 | Unique identifier for API use |
-| `title` | string | Display title |
-| `creator` | User | The user who created this resource |
-| `resourceFile` | ResourceFile | The attached file (if any) |
-| `resourceType` | ResourceType | The type of resource (document, quiz, etc.) |
-| `parent` | ResourceNode | Parent in the resource tree |
-| `children` | Collection | Child ResourceNodes |
-| `resourceLinks` | Collection | Visibility and access links |
+| `id` | integer | Κύριο κλειδί |
+| `uuid` | UUID v4 | Μοναδικός αναγνωριστικός για χρήση API |
+| `title` | string | Τίτλος εμφάνισης |
+| `creator` | User | Ο χρήστης που δημιούργησε αυτόν τον πόρο |
+| `resourceFile` | ResourceFile | Το συνημμένο αρχείο (αν υπάρχει) |
+| `resourceType` | ResourceType | Ο τύπος του πόρου (έγγραφο, κουίζ κ.λπ.) |
+| `parent` | ResourceNode | Γονέας στο δέντρο πόρων |
+| `children` | Collection | Παιδικοί ResourceNodes |
+| `resourceLinks` | Collection | Σύνδεσμοι ορατότητας και πρόσβασης |
 
-The tree uses Gedmo's **materialized path** strategy for efficient hierarchical queries.
+Το δέντρο χρησιμοποιεί τη στρατηγική **materialized path** του Gedmo για αποδοτικές ιεραρχικές ερωτήσεις.
 
 ### ResourceFile (`src/CoreBundle/Entity/ResourceFile.php`)
 
-Stores the actual file data for a resource:
+Αποθηκεύει τα πραγματικά δεδομένα αρχείου για έναν πόρο:
 
 | Field | Type | Description |
 |-------|------|-------------|
-| `id` | integer | Primary key |
-| `title` | string | Original filename |
-| `mimeType` | string | MIME type |
-| `originalName` | string | Original upload name |
-| `size` | integer | File size in bytes |
-| `crop` | string | Crop data (for images) |
+| `id` | integer | Κύριο κλειδί |
+| `title` | string | Αρχικό όνομα αρχείου |
+| `mimeType` | string | Τύπος MIME |
+| `originalName` | string | Αρχικό όνομα μεταφόρτωσης |
+| `size` | integer | Μέγεθος αρχείου σε bytes |
+| `crop` | string | Δεδομένα περικοπής (για εικόνες) |
 
-File storage is handled by Flysystem, so files can be on local disk, S3, Azure, or GCS depending on configuration.
+Η αποθήκευση αρχείων γίνεται από το Flysystem, έτσι τα αρχεία μπορούν να βρίσκονται σε τοπικό δίσκο, S3, Azure ή GCS ανάλογα με τη διαμόρφωση.
 
 ### ResourceLink
 
-Controls visibility and access per context. There are 3 main context types:
+Ελέγχει την ορατότητα και την πρόσβαση ανά πλαίσιο. Υπάρχουν 3 κύριοι τύποι πλαισίου:
 
 1. Course
 2. Session
-3. Group (in a course)
+3. Group (σε ένα μάθημα)
 
-So the ResourceLink entity reflects the combination of those 3 context types and establishes a visibility for that complete context:
+Άρα η οντότητα ResourceLink αντανακλά τον συνδυασμό αυτών των 3 τύπων πλαισίου και καθιερώνει μια ορατότητα για αυτό το πλήρες πλαίσιο:
 
 | Field | Type | Description |
 |-------|------|-------------|
-| `course` | Course | Which course the resource belongs to |
-| `session` | Session | Which session (null for base course) |
-| `group` | CGroup | Which group (null for whole course) |
-| `visibility` | integer | Visible, invisible, or deleted |
+| `course` | Course | Σε ποιο μάθημα ανήκει ο πόρος |
+| `session` | Session | Σε ποια συνεδρία (null για βασικό μάθημα) |
+| `group` | CGroup | Σε ποια ομάδα (null για ολόκληρο το μάθημα) |
+| `visibility` | integer | Ορατό, αόρατο ή διαγραμμένο |
 
-This allows the same ResourceNode to have different visibility in different contexts (e.g., visible in one session but hidden in another).
+Αυτό επιτρέπει στον ίδιο ResourceNode να έχει διαφορετική ορατότητα σε διαφορετικά πλαίσια (π.χ. ορατό σε μία συνεδρία αλλά κρυφό σε άλλη).
 
-This is set automatically when using the interface and deciding, for example, that a resource is a session-specific resource which will be visible for all groups in a given course in a given session, but invisible in the base course or in another session.
+Αυτό ρυθμίζεται αυτόματα κατά τη χρήση της διεπαφής και την απόφαση, για παράδειγμα, ότι ένας πόρος είναι πόρος ειδικός για συνεδρία ο οποίος θα είναι ορατός για όλες τις ομάδες σε ένα δεδομένο μάθημα σε μια δεδομένη συνεδρία, αλλά αόρατος στο βασικό μάθημα ή σε άλλη συνεδρία.
 
-By default, resources visible in a base course are also visible in all sessions of that course, but the course tutor can decide to hide a resource from a specific session. In this case, we will retrieve the specific visibility for this resource in this session and see that it has a visibility of 0, so the item will not appear to learners in this session, while a lack of session-specific visibility in other sessions will make the resource use the visibility of the base course (and the resource will show to learners).
+Προεπιλογή, οι πόροι ορατοί σε ένα βασικό μάθημα είναι επίσης ορατοί σε όλες τις συνεδρίες αυτού του μαθήματος, αλλά ο επιβλέπων του μαθήματος μπορεί να αποφασίσει να κρύψει έναν πόρο από συγκεκριμένη συνεδρία. Σε αυτή την περίπτωση, θα ανακτήσουμε την ειδική ορατότητα αυτού του πόρου σε αυτή τη συνεδρία και θα δούμε ότι έχει ορατότητα 0, οπότε το στοιχείο δεν θα εμφανίζεται στους μαθητές σε αυτή τη συνεδρία, ενώ η έλλειψη ορατότητας ειδικής για συνεδρία σε άλλες συνεδρίες θα κάνει τον πόρο να χρησιμοποιήσει την ορατότητα του βασικού μαθήματος (και ο πόρος θα εμφανίζεται στους μαθητές).
 
-## API Platform Integration
+## Ενσωμάτωση API Platform
 
-ResourceNode is exposed as an API Platform resource with security:
+Ο ResourceNode εκτίθεται ως πόρος API Platform με ασφάλεια:
 
 ```php
 #[ApiResource(
@@ -87,9 +87,9 @@ ResourceNode is exposed as an API Platform resource with security:
 )]
 ```
 
-## How Content Entities Connect
+## Πώς Συνδέονται οι Οντότητες Περιεχομένου
 
-Course content entities (CDocument, CQuiz, CLp, etc.) extend `AbstractResource` or implement `ResourceInterface`, which gives them a `resourceNode` relationship:
+Οι οντότητες περιεχομένου μαθήματος (CDocument, CQuiz, CLp κ.λπ.) επεκτείνουν το `AbstractResource` ή υλοποιούν το `ResourceInterface`, το οποίο τους δίνει μια σχέση `resourceNode`:
 
 ```php
 // In CDocument entity:
@@ -97,14 +97,14 @@ Course content entities (CDocument, CQuiz, CLp, etc.) extend `AbstractResource` 
 private ResourceNode $resourceNode;
 ```
 
-When you create a CDocument, a ResourceNode is automatically created alongside it, providing unified resource management.
+Όταν δημιουργείτε ένα CDocument, δημιουργείται αυτόματα ένας ResourceNode μαζί του, παρέχοντας ενιαία διαχείριση πόρων.
 
-## Practical Implications
+## Πρακτικές Συνέπειες
 
-When working with course content:
+Κατά την εργασία με περιεχόμενο μαθήματος:
 
-1. **Creating content** — Create both the content entity AND its ResourceNode
-2. **Checking permissions** — Use the ResourceNode's security voters
-3. **Managing files** — Attach files through ResourceFile
-4. **Controlling visibility** — Create/modify ResourceLinks
-5. **Building trees** — Use the parent-child relationship on ResourceNode for folder structures (e.g., document folders)
+1. **Δημιουργία περιεχομένου** — Δημιουργήστε τόσο την οντότητα περιεχομένου όσο και τον ResourceNode της
+2. **Έλεγχος δικαιωμάτων** — Χρησιμοποιήστε τους ψηφοφόρους ασφαλείας του ResourceNode
+3. **Διαχείριση αρχείων** — Συνδέστε αρχεία μέσω του ResourceFile
+4. **Έλεγχος ορατότητας** — Δημιουργήστε/τροποποιήστε ResourceLinks
+5. **Δόμηση δέντρων** — Χρησιμοποιήστε τη σχέση γονέα-παιδιού στον ResourceNode για δομές φακέλων (π.χ. φάκελοι εγγράφων)

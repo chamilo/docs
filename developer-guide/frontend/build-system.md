@@ -1,10 +1,10 @@
-# Build System
+# Σύστημα Μεταγλώττισης
 
-Chamilo uses **Webpack 5** via **Symfony Webpack Encore** for building frontend assets. The full build configuration is in `webpack.config.js` at the project root.
+Το Chamilo χρησιμοποιεί το **Webpack 5** μέσω του **Symfony Webpack Encore** για τη μεταγλώττιση των frontend assets. Η πλήρης διαμόρφωση μεταγλώττισης βρίσκεται στο `webpack.config.js` στη ρίζα του έργου.
 
-Output is written to `public/build/`, served under the `/build` public path.
+Η έξοδος γράφεται στο `public/build/`, και παρέχεται μέσω του δημόσιου μονοπατιού `/build`.
 
-## Entry Points
+## Σημεία Εισόδου
 
 ### JavaScript
 
@@ -35,7 +35,7 @@ Output is written to `public/build/`, served under the `/build` public path.
 | `css/responsive` | `assets/css/responsive.scss` |
 | `css/scorm` | `assets/css/scorm.scss` |
 
-## Build Features
+## Χαρακτηριστικά Μεταγλώττισης
 
 * **Vue 3 SFC** — `.vue` single file components compiled by `vue-loader`; runtime compiler is disabled (`runtimeCompilerBuild: false`), so all templates must be pre-compiled
 * **TypeScript** — Transpile-only mode (`transpileOnly: true`) for fast builds, no type-checking during build
@@ -48,15 +48,15 @@ Output is written to `public/build/`, served under the `/build` public path.
 * **Filesystem cache** — Webpack's persistent filesystem cache is enabled to speed up incremental rebuilds
 * **Chunk namespacing** — `output.uniqueName` and `output.chunkLoadingGlobal` are set to `"chamilo"` / `"webpackChunkChamilo"` to avoid chunk-loading collisions when multiple Webpack bundles coexist on a page
 
-## Production-Only Features
+## Χαρακτηριστικά Μόνο για Παραγωγή
 
 * **Versioning** — Content-hash suffixes on all output filenames (`enableVersioning()`)
 * **Subresource Integrity** — `integrity` attributes on `<script>` and `<link>` tags (`enableIntegrityHashes()`)
 * **Output cleanup** — `public/build/` is wiped before each production build
 
-### Unhashed asset copies (`CopyUnhashedAssetsPlugin`)
+### Αντιγραφές Assets Χωρίς Hash (`CopyUnhashedAssetsPlugin`)
 
-Some legacy PHP pages reference assets by a fixed filename and cannot use the Webpack manifest. A custom `CopyUnhashedAssetsPlugin` (defined at the bottom of `webpack.config.js`) copies certain hashed production files to an additional unhashed path after each build:
+Ορισμένες legacy PHP σελίδες αναφέρονται σε assets με σταθερό όνομα αρχείου και δεν μπορούν να χρησιμοποιήσουν το Webpack manifest. Ένα προσαρμοσμένο `CopyUnhashedAssetsPlugin` (ορίζεται στο κάτω μέρος του `webpack.config.js`) αντιγράφει ορισμένα hashed αρχεία παραγωγής σε επιπλέον μονοπάτι χωρίς hash μετά από κάθε μεταγλώττιση:
 
 | Hashed file | Unhashed copy |
 |-------------|--------------|
@@ -67,9 +67,9 @@ Some legacy PHP pages reference assets by a fixed filename and cannot use the We
 | `css/editor_content.[hash].css` | `css/editor_content.css` |
 | `glossary_auto.[hash].js` | `glossary_auto.js` |
 
-## Copied Library Assets
+## Αντιγραφόμενα Library Assets
 
-`copyFiles()` copies a number of npm packages directly into `public/build/libs/` without bundling them, for use via `<script>` / `<link>` tags in legacy templates:
+Το `copyFiles()` αντιγράφει διάφορα npm πακέτα απευθείας στο `public/build/libs/` χωρίς να τα ενσωματώσει, για χρήση μέσω ετικετών `<script>` / `<link>` σε legacy templates:
 
 * `flatpickr` (JS + CSS + locales)
 * `chart.js`
@@ -82,7 +82,7 @@ Some legacy PHP pages reference assets by a fixed filename and cannot use the We
 * `pwstrength-bootstrap`
 * `multiselect-two-sides`
 
-## Build Commands
+## Εντολές Μεταγλώττισης
 
 ```bash
 # Development build
@@ -95,14 +95,15 @@ yarn encore dev --watch
 yarn encore production
 ```
 
-## Tailwind Configuration
+---
+## Ρύθμιση Tailwind
 
-Tailwind is configured in `tailwind.config.js`. Key points:
+Το Tailwind ρυθμίζεται στο `tailwind.config.js`. Βασικά σημεία:
 
-* **`important: true`** — All generated utilities include `!important`, allowing them to override PrimeVue component styles without extra specificity tricks
-* **Content paths** — Tailwind scans `assets/**/*.{js,vue}`, `public/main/**/*.{php,twig,tpl}`, `public/plugin/**/*.{php,twig,tpl}`, and `src/CoreBundle/Resources/views/**/*.html.twig` for class usage
-* **CSS-variable color system** — Every color token (primary, secondary, tertiary, success, info, warning, danger) is backed by a CSS custom property (e.g. `--color-primary-base`) defined per theme in `var/themes/[theme-name]/colors.css`. Values are space-separated RGB channel triplets, enabling Tailwind opacity utilities (`bg-primary/50`)
-* **Custom font scale** — `body-1`, `body-2`, `caption`, `tiny` size/line-height pairs are added via `theme.extend.fontSize`
-* **Plugins** — `@tailwindcss/forms` and `@tailwindcss/typography` are enabled
+* **`important: true`** — Όλες οι γενόμενες βοηθητικές εντολές περιλαμβάνουν `!important`, επιτρέποντάς τους να παρακάμπτουν τα στυλ των στοιχείων PrimeVue χωρίς επιπλέον κόλπα ειδικότητας
+* **Μονοπάτια περιεχομένου** — Το Tailwind σαρώνει τα `assets/**/*.{js,vue}`, `public/main/**/*.{php,twig,tpl}`, `public/plugin/**/*.{php,twig,tpl}` και `src/CoreBundle/Resources/views/**/*.html.twig` για χρήση κλάσεων
+* **Σύστημα χρωμάτων CSS-μεταβλητών** — Κάθε διακριτικό χρώματος (primary, secondary, tertiary, success, info, warning, danger) υποστηρίζεται από ιδιότητα CSS προσαρμοσμένης χρήσης (π.χ. `--color-primary-base`) που ορίζεται ανά θέμα στο `var/themes/[theme-name]/colors.css`. Οι τιμές είναι τριάδες καναλιών RGB χωρισμένες με κενά, επιτρέποντας βοηθητικές εντολές αδιαφανούς του Tailwind (`bg-primary/50`)
+* **Προσαρμοσμένη κλίμακα γραμματοσειράς** — Τα ζεύγη μεγέθους/ύψους γραμμής `body-1`, `body-2`, `caption`, `tiny` προστίθενται μέσω `theme.extend.fontSize`
+* **Πρόσθετα** — Ενεργοποιημένα τα `@tailwindcss/forms` και `@tailwindcss/typography`
 
-PostCSS (Tailwind + Autoprefixer) is configured inline inside `webpack.config.js` via `enablePostCssLoader()` — there is no standalone `postcss.config.js` file.
+Το PostCSS (Tailwind + Autoprefixer) ρυθμίζεται εν σειρά μέσα στο `webpack.config.js` μέσω `enablePostCssLoader()` — δεν υπάρχει ξεχωριστό αρχείο `postcss.config.js`.

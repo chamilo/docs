@@ -1,103 +1,103 @@
-# Managing Users
+# Διαχείριση Χρηστών
 
-This page covers the day-to-day tasks of creating, editing, and managing user accounts.
+Αυτή η σελίδα καλύπτει τις καθημερινές εργασίες δημιουργίας, επεξεργασίας και διαχείρισης λογαριασμών χρηστών.
 
-## User List
+## Λίστα Χρηστών
 
-![The user list showing accounts with name, email, role, and status columns](/.gitbook/assets/admin-user-list.png)
+![Η λίστα χρηστών που εμφανίζει λογαριασμούς με στήλες ονόματος, email, ρόλου και κατάστασης](/.gitbook/assets/admin-user-list.png)
 
-From the administration panel, click **User list** to see all users on the platform. The list shows:
+Από τον πίνακα διαχείρισης, κάντε κλικ στο **User list** για να δείτε όλους τους χρήστες της πλατφόρμας. Η λίστα εμφανίζει:
 
 * Avatar
-* Name
+* Όνομα
 * Username
-* Email address
+* Διεύθυνση email
 * Roles
-* Active/inactive status
-* Registration date
-* Last login date
+* Κατάσταση ενεργού/ανενεργού
+* Ημερομηνία εγγραφής
+* Ημερομηνία τελευταίας σύνδεσης
 
-Use the **Advanced search** tool to find specific users by name, email, role, or other criteria.
+Χρησιμοποιήστε το εργαλείο **Advanced search** για να βρείτε συγκεκριμένους χρήστες βάσει ονόματος, email, ρόλου ή άλλων κριτηρίων.
 
-## Creating a User
+## Δημιουργία Χρήστη
 
-![The user creation form with fields for name, email, username, password, role, and language](/.gitbook/assets/admin-user-create-form.png)
+![Η φόρμα δημιουργίας χρήστη με πεδία για όνομα, email, username, κωδικό πρόσβασης, ρόλο και γλώσσα](/.gitbook/assets/admin-user-create-form.png)
 
-1. Click **Add a user** from the administration panel
-2. Fill in the required fields:
-   * **First name** and **Last name**
-   * **Email** — Must be unique on the platform
-   * **Username** — The login name (must be unique)
-   * **Password** — Set an initial password
-   * **Roles** — Select the user's platform role(s) (student, teacher, admin, etc.)
-   * **Language** — The user's preferred interface language
-3. Optionally fill in additional fields:
-   * Official code (e.g. unique ID in the organization)
-   * Phone number
-   * Expiration date — Automatically deactivate the account after a date
-   * Active/inactive status
-   * Extra profile fields (if configured)
-4. Save
+1. Κάντε κλικ στο **Add a user** από τον πίνακα διαχείρισης
+2. Συμπληρώστε τα απαιτούμενα πεδία:
+   * **First name** και **Last name**
+   * **Email** — Πρέπει να είναι μοναδικό στην πλατφόρμα
+   * **Username** — Το όνομα σύνδεσης (πρέπει να είναι μοναδικό)
+   * **Password** — Ορίστε έναν αρχικό κωδικό πρόσβασης
+   * **Roles** — Επιλέξτε τον/τους ρόλο/ύς της πλατφόρμας του χρήστη (student, teacher, admin κ.λπ.)
+   * **Language** — Η προτιμώμενη γλώσσα διεπαφής του χρήστη
+3. Προαιρετικά συμπληρώστε επιπλέον πεδία:
+   * Official code (π.χ. μοναδικό ID στην οργάνωση)
+   * Αριθμός τηλεφώνου
+   * Ημερομηνία λήξης — Απενεργοποίηση του λογαριασμού αυτόματα μετά από ημερομηνία
+   * Κατάσταση ενεργού/ανενεργού
+   * Επιπλέον πεδία προφίλ (αν έχουν ρυθμιστεί)
+4. Αποθήκευση
 
-## Importing Users
+## Εισαγωγή Χρηστών
 
-![The user import interface for uploading CSV or XML files with user data](/.gitbook/assets/admin-user-import.png)
+![Η διεπαφή εισαγωγής χρηστών για ανέβασμα αρχείων CSV ή XML με δεδομένα χρηστών](/.gitbook/assets/admin-user-import.png)
 
-For bulk user creation, you can import users from a file:
+Για μαζική δημιουργία χρηστών, μπορείτε να εισάγετε χρήστες από αρχείο:
 
-1. Click **Import users** from the administration panel
-2. Upload a **CSV** or **XML** file with user data
-3. Map the file columns to Chamilo user fields
-4. Choose how to handle existing users (update or skip)
-5. Import
+1. Κάντε κλικ στο **Import users** από τον πίνακα διαχείρισης
+2. Ανεβάστε αρχείο **CSV** ή **XML** με δεδομένα χρηστών
+3. Αντιστοιχίστε τις στήλες του αρχείου με τα πεδία χρήστη του Chamilo
+4. Επιλέξτε πώς να χειριστείτε υπάρχοντες χρήστες (ενημέρωση ή παράλειψη)
+5. Εισαγωγή
 
-The import file should contain columns for at least: first name, last name, email, username, and password.
+Το αρχείο εισαγωγής πρέπει να περιέχει στήλες τουλάχιστον για: first name, last name, email, username και password.
 
-Note: The **Status** column is the legacy name for **Role** and only accepts a few values, like 1 for teacher, 5 for student. Further tuniing of the roles can only be done by hand later on, editing the user.
+Σημείωση: Η στήλη **Status** είναι το παλιό όνομα για **Role** και δέχεται μόνο λίγες τιμές, όπως 1 για teacher, 5 για student. Περισσότερη ρύθμιση των ρόλων μπορεί να γίνει μόνο χειροκίνητα αργότερα, επεξεργαζόμενοι τον χρήστη.
 
-## Exporting Users
+## Εξαγωγή Χρηστών
 
-Click **Export users** to download the user list as a CSV or XML file. You can filter which users to export by role, registration date, or other criteria.
+Κάντε κλικ στο **Export users** για να κατεβάσετε τη λίστα χρηστών ως αρχείο CSV ή XML. Μπορείτε να φιλτράρετε ποιοι χρήστες θα εξαχθούν βάσει ρόλου, ημερομηνίας εγγραφής ή άλλων κριτηρίων.
 
-## Editing a User
+## Επεξεργασία Χρήστη
 
-Click on a user's name in the user list to edit their account. You can modify:
+Κάντε κλικ στο όνομα ενός χρήστη στη λίστα χρηστών για να επεξεργαστείτε τον λογαριασμό του. Μπορείτε να τροποποιήσετε:
 
-* Personal information (name, email, phone)
+* Προσωπικά στοιχεία (όνομα, email, τηλέφωνο)
 * Roles
 * Password (reset)
-* Active/inactive status
-* Expiration date
-* Extra profile fields
+* Κατάσταση ενεργού/ανενεργού
+* Ημερομηνία λήξης
+* Επιπλέον πεδία προφίλ
 
-## Deleting a User
+## Διαγραφή Χρήστη
 
-When deleting users (usually teachers) who have created content on the platform, the system might prevent you from deleting the users permanently, and will show a warning message explaining the user is still attached to some of the resources. If you confirm the deletion, the system will not delete the content itself but attach it to a neutral user (we call it the "Fallback user") for data consistency reasons.
+Κατά τη διαγραφή χρηστών (συνήθως teachers) που έχουν δημιουργήσει περιεχόμενο στην πλατφόρμα, το σύστημα μπορεί να σας εμποδίσει από τη μόνιμη διαγραφή των χρηστών και θα εμφανίσει μήνυμα προειδοποίησης που εξηγεί ότι ο χρήστης είναι ακόμα συνδεδεμένος με ορισμένους πόρους. Αν επιβεβαιώσετε τη διαγραφή, το σύστημα δεν θα διαγράψει το ίδιο το περιεχόμενο αλλά θα το συνδέσει με έναν ουδέτερο χρήστη (τον αποκαλούμε "Fallback user") για λόγους συνέπειας δεδομένων.
 
-To avoid this, check the user details, delete each of their courses one by one, then delete the user.
+Για να αποφύγετε αυτό, ελέγξτε τα στοιχεία του χρήστη, διαγράψτε κάθε μάθημά τους ένα προς ένα, και μετά διαγράψτε τον χρήστη.
 
-## User Actions
+## Ενέργειες Χρηστών
 
 | Action | Description |
 |--------|-------------|
-| **Deactivate** | Disable a user's account without deleting it. The user cannot log in but their data is preserved. |
-| **Activate** | Re-enable a previously deactivated account. |
-| **Login as** | Log in to the platform as this user (impersonation). Useful for troubleshooting. |
-| **Anonymize** | Erase all of the account's personal information, as defined by the EU's GDPR. |
-| **Delete** | Soft delete the user account. Use the **Deleted users** tab to permanently delete the account and associated data. |
+| **Deactivate** | Απενεργοποιήστε τον λογαριασμό ενός χρήστη χωρίς να τον διαγράψετε. Ο χρήστης δεν μπορεί να συνδεθεί αλλά τα δεδομένα του διατηρούνται. |
+| **Activate** | Επανενεργοποιήστε προηγουμένως απενεργοποιημένο λογαριασμό. |
+| **Login as** | Συνδεθείτε στην πλατφόρμα ως αυτός ο χρήστης (impersonation). Χρήσιμο για αντιμετώπιση προβλημάτων. |
+| **Anonymize** | Διαγράψτε όλα τα προσωπικά στοιχεία του λογαριασμού, όπως ορίζεται από τον GDPR της ΕΕ. |
+| **Delete** | Soft delete του λογαριασμού χρήστη. Χρησιμοποιήστε την καρτέλα **Deleted users** για μόνιμη διαγραφή του λογαριασμού και των συνδεδεμένων δεδομένων. |
 
-> **Login as** is a powerful feature. Use it responsibly and only for legitimate support purposes.
+> Το **Login as** είναι ισχυρή λειτουργία. Χρησιμοποιήστε το υπεύθυνα και μόνο για νόμιμους σκοπούς υποστήριξης.
 
-## Batch Operations
+## Μαζικές Επιχειρήσεις
 
-Select multiple users in the user list to perform batch actions:
+Επιλέξτε πολλούς χρήστες στη λίστα χρηστών για να εκτελέσετε μαζικές ενέργειες:
 
-* Activate or deactivate multiple users at once
-* Delete multiple users
-* Assign users to a course or session
+* Ενεργοποίηση ή απενεργοποίηση πολλών χρηστών ταυτόχρονα
+* Διαγραφή πολλών χρηστών
+* Ανάθεση χρηστών σε μάθημα ή συνεδρία
 
-## Tips
+## Συμβουλές
 
-* **Use CSV import for large enrollments** — When onboarding many users at the start of a training program, prepare a CSV file and import in bulk
-* **Set expiration dates** — For temporary users (workshop participants, trial users), set an expiration date to automatically deactivate their accounts
-* **Deactivate rather than delete** — When a user leaves, deactivate their account first. This preserves their training records. Only delete if you are sure the data is no longer needed.
+* **Χρησιμοποιήστε εισαγωγή CSV για μεγάλες εγγραφές** — Κατά την έναρξη πολλών χρηστών στην αρχή προγράμματος εκπαίδευσης, ετοιμάστε αρχείο CSV και εισάγετε μαζικά
+* **Ορίστε ημερομηνίες λήξης** — Για προσωρινούς χρήστες (συμμετέχοντες εργαστηρίου, δοκιμαστικοί χρήστες), ορίστε ημερομηνία λήξης για αυτόματη απενεργοποίηση των λογαριασμών τους
+* **Απενεργοποιήστε αντί να διαγράψετε** — Όταν ένας χρήστης φεύγει, απενεργοποιήστε πρώτα τον λογαριασμό του. Αυτό διατηρεί τα αρχεία εκπαίδευσής του. Διαγράψτε μόνο αν είστε σίγουροι ότι τα δεδομένα δεν χρειάζονται πια.

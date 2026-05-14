@@ -1,34 +1,34 @@
-# Classes
+# Τάξεις
 
-Classes in Chamilo are predefined groups of users that can be enrolled in sessions as a unit. They simplify the enrollment process when you regularly train the same groups of people.
+Οι τάξεις στο Chamilo είναι προκαθορισμένες ομάδες χρηστών που μπορούν να εγγραφούν σε συνεδρίες ως μία ενιαία μονάδα. Απλοποιούν τη διαδικασία εγγραφής όταν εκπαιδεύετε τακτικά τις ίδιες ομάδες ανθρώπων.
 
-> Classes and [User Groups](../../admin-guide/users/user-groups.md) share the same interface. The only difference is the **group type** setting: choose "Class" when creating the group. Everything else — member management, visibility, and the interface itself — works identically.
+> Οι τάξεις και οι [Ομάδες Χρηστών](../../admin-guide/users/user-groups.md) μοιράζονται το ίδιο περιβάλλον εργασίας. Η μόνη διαφορά είναι η ρύθμιση **τύπος ομάδας**: επιλέξτε "Τάξη" κατά τη δημιουργία της ομάδας. Όλα τα υπόλοιπα — διαχείριση μελών, ορατότητα και το ίδιο το περιβάλλον εργασίας — λειτουργούν πανομοιότυπα.
 
-## Creating a Class
+## Δημιουργία Τάξης
 
-1. From the administration panel, navigate to **Classes** (or User Groups and select the "Class" type)
-2. Click **Create a class**
-3. Enter a **name** (e.g., "Engineering Team", "New Hires March 2026")
-4. Add **members** — search for and select users
-5. Save
+1. Από τον πίνακα διαχείρισης, μεταβείτε στις **Τάξεις** (ή Ομάδες Χρηστών και επιλέξτε τον τύπο "Τάξη")
+2. Κάντε κλικ στο **Δημιουργία τάξης**
+3. Εισαγάγετε ένα **όνομα** (π.χ., "Τεχνική Ομάδα", "Νέοι Υπάλληλοι Μάρτιος 2026")
+4. Προσθέστε **μέλη** — αναζητήστε και επιλέξτε χρήστες
+5. Αποθηκεύστε
 
-## Using Classes for Enrollment
+## Χρήση Τάξεων για Εγγραφή
 
-When creating or editing a session, you can enroll an entire class at once instead of adding users individually:
+Κατά τη δημιουργία ή επεξεργασία μιας συνεδρίας, μπορείτε να εγγράψετε ολόκληρη τάξη ταυτόχρονα αντί να προσθέτετε χρήστες μεμονωμένα:
 
-1. Open the session enrollment settings
-2. Click **Add a class**
-3. Select the class
-4. All members of the class are enrolled in the session
+1. Ανοίξτε τις ρυθμίσεις εγγραφής της συνεδρίας
+2. Κάντε κλικ στο **Προσθήκη τάξης**
+3. Επιλέξτε την τάξη
+4. Όλα τα μέλη της τάξης εγγράφονται στη συνεδρία
 
-## Managing Classes
+## Διαχείριση Τάξεων
 
-* **Edit** — Change the class name or update membership
-* **Add/remove members** — Keep the class roster up to date
-* **Delete** — Remove the class (does not affect the member accounts or their existing enrollments)
+* **Επεξεργασία** — Αλλαγή ονόματος τάξης ή ενημέρωση συμμετοχής
+* **Προσθήκη/αφαίρεση μελών** — Διατήρηση ενημερωμένης λίστας μελών της τάξης
+* **Διαγραφή** — Αφαίρεση της τάξης (δεν επηρεάζει τους λογαριασμούς των μελών ή τις υπάρχουσες εγγραφές τους)
 
-## Tips
+## Συμβουλές
 
-* **Create classes for recurring cohorts** — If you run the same training for different teams, create a class for each team
-* **Update before each session** — Review class membership before enrolling a class in a new session to ensure the roster is current
-* **Combine with CSV import** — Import class membership from a CSV file for large groups
+* **Δημιουργήστε τάξεις για επαναλαμβανόμενες ομάδες** — Αν εκτελείτε την ίδια εκπαίδευση για διαφορετικές ομάδες, δημιουργήστε τάξη για κάθε ομάδα
+* **Ενημερώστε πριν από κάθε συνεδρία** — Ελέγξτε τη συμμετοχή της τάξης πριν την εγγραφή σε νέα συνεδρία για να βεβαιωθείτε ότι η λίστα είναι ενημερωμένη
+* **Συνδυάστε με εισαγωγή CSV** — Εισαγάγετε τη συμμετοχή τάξης από αρχείο CSV για μεγάλες ομάδες

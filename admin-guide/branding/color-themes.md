@@ -1,26 +1,26 @@
-# Color Themes
+# Θέματα Χρωμάτων
 
-Chamilo 2.0 introduces a color theme system that lets you customize the visual appearance of the platform.
+Το Chamilo 2.0 εισάγει ένα σύστημα θεμάτων χρωμάτων που σας επιτρέπει να προσαρμόσετε την οπτική εμφάνιση της πλατφόρμας.
 
-## How Themes Work
+## Πώς Λειτουργούν τα Θέματα
 
-Color themes define the palette used across the Chamilo interface — primary colors, accent colors, backgrounds, and text colors. A theme is associated to an access URL: in a single-URL portal it effectively becomes the global theme, and in a multi-URL setup each URL can have its own.
+Τα θέματα χρωμάτων ορίζουν την παλέτα που χρησιμοποιείται σε όλη τη διεπαφή του Chamilo — πρωτεύοντα χρώματα, χρώματα έμφασης, φόντα και χρώματα κειμένου. Ένα θέμα συνδέεται με μια διεύθυνση URL πρόσβασης: σε ένα portal μονής διεύθυνσης URL γίνεται ουσιαστικά το παγκόσμιο θέμα, ενώ σε μια ρύθμιση πολλαπλών διευθύνσεων URL κάθε διεύθυνση μπορεί να έχει το δικό της.
 
-## Applying a Theme
+## Εφαρμογή ενός Θέματος
 
-![The color themes page showing available themes with preview swatches and an Apply button](/.gitbook/assets/admin-color-themes.png)
+![Η σελίδα θεμάτων χρωμάτων που δείχνει τα διαθέσιμα θέματα με δείγματα προεπισκόπησης και ένα κουμπί Εφαρμογή](/.gitbook/assets/admin-color-themes.png)
 
-1. From the administration panel, navigate to **Color themes**
-2. Browse the available themes
-3. Select a theme and click **Apply**
-4. The theme is immediately applied to the platform
+1. Από τον πίνακα διαχείρισης, πλοηγηθείτε στο **Θέματα χρωμάτων**
+2. Περιηγηθείτε στα διαθέσιμα θέματα
+3. Επιλέξτε ένα θέμα και κάντε κλικ στο **Εφαρμογή**
+4. Το θέμα εφαρμόζεται αμέσως στην πλατφόρμα
 
-## Per-URL Themes
+## Θέματα Ανά Διεύθυνση URL
 
-In a multi-URL setup, each access URL can have its own color theme. This allows different portals to have distinct visual identities while sharing the same Chamilo installation.
+Σε μια ρύθμιση πολλαπλών διευθύνσεων URL, κάθε διεύθυνση πρόσβασης μπορεί να έχει το δικό της θέμα χρωμάτων. Αυτό επιτρέπει σε διαφορετικά portals να έχουν διακριτές οπτικές ταυτότητες ενώ μοιράζονται την ίδια εγκατάσταση Chamilo.
 
-## Tips
+## Συμβουλές
 
-* **Match your brand** — Choose or customize a theme that matches your organization's brand colors
-* **Test readability** — After applying a theme, check that text is readable against background colors, especially in high-contrast situations
-* **Consider accessibility** — Ensure sufficient color contrast for users with visual impairments
+* **Ταιριάξτε με το brand σας** — Επιλέξτε ή προσαρμόστε ένα θέμα που ταιριάζει με τα χρώματα του brand του οργανισμού σας
+* **Δοκιμάστε την αναγνωσιμότητα** — Μετά την εφαρμογή ενός θέματος, ελέγξτε ότι το κείμενο είναι αναγνώσιμο σε σχέση με τα χρώματα φόντου, ειδικά σε καταστάσεις υψηλής αντίθεσης
+* **Λάβετε υπόψη την προσβασιμότητα** — Εξασφαλίστε επαρκή αντίθεση χρωμάτων για χρήστες με οπτικές βλάβες

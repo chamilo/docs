@@ -1,59 +1,59 @@
-# Video Conferencing
+# Βιντεοδιάσκεψη
 
-Chamilo integrates with video conferencing platforms to enable live sessions within courses.
+Το Chamilo ενσωματώνεται με πλατφόρμες βιντεοδιάσκεψης για να ενεργοποιήσει ζωντανές συνεδρίες εντός μαθημάτων.
 
-## Supported Platforms
+## Υποστηριζόμενες Πλατφόρμες
 
 ### BigBlueButton
 
-**BigBlueButton** (BBB) is an open-source web conferencing system designed for online learning. It is the most commonly used video conferencing solution with Chamilo.
+Το **BigBlueButton** (BBB) είναι ένα ανοικτού κώδικα σύστημα διαδικτυακών συνεδριάσεων σχεδιασμένο για online μάθηση. Είναι η πιο συνηθισμένη λύση βιντεοδιάσκεψης με το Chamilo.
 
-#### Configuration
+#### Διαμόρφωση
 
-1. Install BigBlueButton on a separate server (see [BigBlueButton documentation](https://docs.bigbluebutton.org/))
-2. Use bbb-conf --salt on the BBB server to get the integration details
-3. In Chamilo platform settings, **Plugins**, install the Videoconference plugin and enter its config to set:
-   * **BBB server URL** — The address of your BBB server
-   * **BBB salt/secret** — The API secret from your BBB server
-4. Save
-5. **Enable** the Videoconference plugin
-6. Some special features are available to admins, so make sure you enable it in the *admin_page* region
+1. Εγκαταστήστε το BigBlueButton σε ξεχωριστό διακομιστή (δείτε την [BigBlueButton documentation](https://docs.bigbluebutton.org/))
+2. Χρησιμοποιήστε το `bbb-conf --salt` στον διακομιστή BBB για να λάβετε τα στοιχεία ενσωμάτωσης
+3. Στις ρυθμίσεις της πλατφόρμας Chamilo, **Plugins**, εγκαταστήστε το πρόσθετο Videoconference και εισαγάγετε τη διαμόρφωσή του για να ορίσετε:
+   * **BBB server URL** — Η διεύθυνση του διακομιστή BBB σας
+   * **BBB salt/secret** — Το API secret από τον διακομιστή BBB σας
+4. Αποθήκευση
+5. **Ενεργοποιήστε** το πρόσθετο Videoconference
+6. Ορισμένα ειδικά χαρακτηριστικά είναι διαθέσιμα για διαχειριστές, οπότε βεβαιωθείτε ότι το ενεργοποιείτε στην περιοχή *admin_page*
 
-#### Features Available in Chamilo
+#### Διαθέσιμα Χαρακτηριστικά στο Chamilo
 
-* Start/join meetings from within a course
-* Automatic room creation per course
-* Meeting recordings (if enabled)
-* Screen sharing, whiteboard, breakout rooms
-* Chat alongside video
+* Έναρξη/συμμετοχή σε συναντήσεις από εντός μαθήματος
+* Αυτόματη δημιουργία χώρου ανά μάθημα
+* Εγγραφές συναντήσεων (αν ενεργοποιημένες)
+* Κοινή χρήση οθόνης, πίνακας λευκού, χώροι διαχωρισμού
+* Τσατ παράλληλα με το βίντεο
 
 ### Zoom
 
-Chamilo can also integrate with **Zoom** for video conferencing.
+Το Chamilo μπορεί επίσης να ενσωματωθεί με το **Zoom** για βιντεοδιάσκεψη.
 
-#### Configuration
+#### Διαμόρφωση
 
-1. Create a Zoom app in the Zoom Marketplace
-2. In Chamilo, configure the Zoom API credentials
-3. Enable the Zoom integration
+1. Δημιουργήστε μια εφαρμογή Zoom στο Zoom Marketplace
+2. Στο Chamilo, διαμορφώστε τα διαπιστευτήρια API του Zoom
+3. Ενεργοποιήστε την ενσωμάτωση Zoom
 
-#### How It Works
+#### Πώς Λειτουργεί
 
-When Zoom is configured, teachers can create and launch Zoom meetings from within their course. Learners join through the Chamilo interface.
+Όταν διαμορφωθεί το Zoom, οι διδάσκοντες μπορούν να δημιουργούν και να ξεκινούν συναντήσεις Zoom από εντός του μαθήματός τους. Οι μαθητές συμμετέχουν μέσω της διεπαφής του Chamilo.
 
-## Choosing Between BBB and Zoom
+## Επιλογή Μεταξύ BBB και Zoom
 
-| Feature | BigBlueButton | Zoom |
-|---------|--------------|------|
-| Cost | Free (open-source), but requires your own server | Requires a Zoom subscription |
-| Hosting | Self-hosted | Cloud-hosted by Zoom |
-| Integration depth | Deep (built for LMS use) | Standard |
-| Recording | Server-side, stored on your infrastructure | Zoom cloud or local |
-| Whiteboard | Built-in | Built-in |
-| Breakout rooms | Yes | Yes |
+| Χαρακτηριστικό | BigBlueButton | Zoom |
+|---------------|--------------|------|
+| Κόστος | Δωρεάν (ανοικτού κώδικα), αλλά απαιτεί τον δικό σας διακομιστή | Απαιτεί συνδρομή Zoom |
+| Φιλοξενία | Self-hosted | Cloud-hosted από το Zoom |
+| Βάθος ενσωμάτωσης | Βαθύ (σχεδιασμένο για χρήση LMS) | Τυπικό |
+| Εγγραφή | Server-side, αποθηκευμένη στη δική σας υποδομή | Zoom cloud ή τοπική |
+| Πίνακας λευκού | Ενσωματωμένος | Ενσωματωμένος |
+| Χώροι διαχωρισμού | Ναι | Ναι |
 
-## Tips
+## Συμβουλές
 
-* **Separate server for BBB** — BigBlueButton should run on its own dedicated server for best performance, not on the same server as Chamilo
-* **Test before classes** — Always test the video conferencing setup before a live session
-* **Check bandwidth** — Ensure your server and network can handle the expected number of concurrent users
+* **Ξεχωριστός διακομιστής για BBB** — Το BigBlueButton πρέπει να εκτελείται σε δικό του αποκλειστικό διακομιστή για καλύτερη απόδοση, όχι στον ίδιο διακομιστή με το Chamilo
+* **Δοκιμή πριν τα μαθήματα** — Πάντα δοκιμάστε τη ρύθμιση βιντεοδιάσκεψης πριν από ζωντανή συνεδρία
+* **Έλεγχος εύρους ζώνης** — Βεβαιωθείτε ότι ο διακομιστής και το δίκτυό σας μπορούν να διαχειριστούν τον αναμενόμενο αριθμό ταυτόχρονων χρηστών

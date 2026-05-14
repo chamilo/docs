@@ -1,27 +1,27 @@
-# Color Themes
+# Θέματα Χρωμάτων
 
-Chamilo 2.0 uses a database-driven color theme system. Themes are managed through the admin UI, stored in the database, and written to disk as CSS files. They can be customized per access URL, allowing multi-URL installations to have different visual identities.
+Το Chamilo 2.0 χρησιμοποιεί ένα σύστημα θεμάτων χρωμάτων βασισμένο σε βάση δεδομένων. Τα θέματα διαχειρίζονται μέσω της διεπαφής χρήστη διαχειριστή, αποθηκεύονται στη βάση δεδομένων και γράφονται σε δίσκο ως αρχεία CSS. Μπορούν να προσαρμοστούν ανά URL πρόσβασης, επιτρέποντας σε εγκαταστάσεις πολλαπλών URL να έχουν διαφορετικές οπτικές ταυτότητες.
 
-## Data Model
+## Μοντέλο Δεδομένων
 
-Two entities drive the theme system:
+Δύο οντότητες οδηγούν το σύστημα θεμάτων:
 
 **`ColorTheme`** (`src/CoreBundle/Entity/ColorTheme.php`)
 
 | Field | Type | Description |
 |-------|------|-------------|
-| `id` | int | Primary key |
-| `title` | string | Human-readable name |
-| `slug` | string | Auto-generated from `title` (e.g. `"My Theme"` → `my-theme`); used as the directory name in `var/themes/` |
-| `variables` | array (JSON) | Map of CSS custom property name → value (e.g. `{"--color-primary-base": "46 117 163"}`) |
+| `id` | int | Κλειδί πρωτεύουσας |
+| `title` | string | Ανθρώπινα αναγνώσιμο όνομα |
+| `slug` | string | Αυτόματα δημιουργούμενο από το `title` (π.χ. `"My Theme"` → `my-theme`); χρησιμοποιείται ως όνομα καταλόγου στο `var/themes/` |
+| `variables` | array (JSON) | Χάρτης ονόματος ιδιότητας CSS προσαρμογής → τιμή (π.χ. `{"--color-primary-base": "46 117 163"}`) |
 
 **`AccessUrlRelColorTheme`** (`src/CoreBundle/Entity/AccessUrlRelColorTheme.php`)
 
-Associates a `ColorTheme` with an `AccessUrl`. The `active` boolean flag marks which theme is currently active for that URL. Only one theme can be active per access URL at a time.
+Συνδέει ένα `ColorTheme` με ένα `AccessUrl`. Η σημαία boolean `active` επισημαίνει ποιο θέμα είναι αυτή τη στιγμή ενεργό για αυτό το URL. Μόνο ένα θέμα μπορεί να είναι ενεργό ανά URL πρόσβασης κάθε φορά.
 
-## How Themes Are Stored
+## Πώς Αποθηκεύονται τα Θέματα
 
-When a theme is created or updated via the API, `ColorThemeStateProcessor` generates the CSS file and writes it to the Flysystem `themes_filesystem` (backed by `var/themes/`):
+Όταν δημιουργείται ή ενημερώνεται ένα θέμα μέσω του API, το `ColorThemeStateProcessor` παράγει το αρχείο CSS και το γράφει στο Flysystem `themes_filesystem` (υποστηριζόμενο από `var/themes/`):
 
 ```
 var/themes/
@@ -29,7 +29,7 @@ var/themes/
     └── colors.css   ← generated from ColorTheme.variables
 ```
 
-The generated `colors.css` wraps all variables in a `:root` block:
+Το παραχθέν `colors.css` τυλίγει όλες τις μεταβλητές σε ένα μπλοκ `:root`:
 
 ```css
 :root {
@@ -40,35 +40,35 @@ The generated `colors.css` wraps all variables in a `:root` block:
 }
 ```
 
-Values are space-separated RGB channel triplets (not `rgb()`), which allows Tailwind to compose opacity variants such as `bg-primary/50` without additional configuration.
+Οι τιμές είναι τρίδυα RGB καναλιών χωρισμένα με κενά (όχι `rgb()`), κάτι που επιτρέπει στο Tailwind να συνθέτει παραλλαγές αδιαφανούς όπως `bg-primary/50` χωρίς επιπλέον διαμόρφωση.
 
-## Theme Resolution Precedence
+## Προτεραιότητα Ανάλυσης Θεμάτων
 
-`ThemeHelper::getVisualTheme()` resolves which theme slug to apply on any given page, in this order:
+Η `ThemeHelper::getVisualTheme()` αναλύει ποιο slug θέματος να εφαρμοστεί σε οποιαδήποτε δεδομένη σελίδα, σε αυτή τη σειρά:
 
-1. **Active theme for the current AccessUrl** — the `AccessUrlRelColorTheme` record with `active = true`
-2. **User-selected theme** — the theme stored on the `User` entity, if the `profile.user_selected_theme` platform setting is enabled
-3. **Course theme** — the `course_theme` course setting, if the `course.allow_course_theme` platform setting is enabled
-4. **Learning path theme** — the LP's `$lp_theme_css` value, if the `allow_learning_path_theme` course setting is enabled
-5. **`THEME_FALLBACK` env var** — set in `.env` as `THEME_FALLBACK='chamilo'`
-6. **Default** — `chamilo` (hardcoded as `ThemeHelper::DEFAULT_THEME`)
+1. **Ενεργό θέμα για το τρέχον AccessUrl** — η εγγραφή `AccessUrlRelColorTheme` με `active = true`
+2. **Θέμα επιλεγμένο από χρήστη** — το θέμα που αποθηκεύεται στην οντότητα `User`, αν η ρύθμιση πλατφόρμας `profile.user_selected_theme` είναι ενεργοποιημένη
+3. **Θέμα μαθήματος** — η ρύθμιση μαθήματος `course_theme`, αν η ρύθμιση πλατφόρμας `course.allow_course_theme` είναι ενεργοποιημένη
+4. **Θέμα διαδρομής μάθησης** — η τιμή `$lp_theme_css` του LP, αν η ρύθμιση μαθήματος `allow_learning_path_theme` είναι ενεργοποιημένη
+5. **`THEME_FALLBACK` env var** — ορισμένη στο `.env` ως `THEME_FALLBACK='chamilo'`
+6. **Προεπιλογή** — `chamilo` (σκληρά κωδικοποιημένη ως `ThemeHelper::DEFAULT_THEME`)
 
-## Asset Serving
+## Εξυπηρέτηση Πόρων
 
-Theme assets are served by `ThemeController` (`src/CoreBundle/Controller/ThemeController.php`) under the `/themes` prefix.
+Οι πόροι θεμάτων εξυπηρετούνται από το `ThemeController` (`src/CoreBundle/Controller/ThemeController.php`) κάτω από το πρόθεμα `/themes`.
 
 | Route | Purpose |
 |-------|---------|
-| `GET /themes/{name}/{path}` | Serve any theme asset (CSS, JS, images); falls back to `chamilo` theme if not found in the requested theme |
-| `GET /themes/{slug}/logo/{type}` | Serve the preferred logo (`header` or `email`), with SVG → PNG fallback |
-| `POST /themes/{slug}/logos` | Upload header/email logos (SVG and/or PNG) |
-| `DELETE /themes/{slug}/logos/{type}` | Delete a specific logo |
+| `GET /themes/{name}/{path}` | Εξυπηρέτηση οποιουδήποτε πόρου θέματος (CSS, JS, εικόνες); επιστροφή στο θέμα `chamilo` αν δεν βρεθεί στο ζητούμενο θέμα |
+| `GET /themes/{slug}/logo/{type}` | Εξυπηρέτηση του προτιμώμενου λογοτύπου (`header` ή `email`), με εφεδρεία SVG → PNG |
+| `POST /themes/{slug}/logos` | Ανέβασμα λογοτύπων header/email (SVG και/ή PNG) |
+| `DELETE /themes/{slug}/logos/{type}` | Διαγραφή συγκεκριμένου λογοτύπου |
 
-The general asset route (`/{name}/{path}`) automatically falls back to the `chamilo` default theme when a file is missing from the requested theme, so themes only need to include files they actually override.
+Η γενική διαδρομή πόρου (`/{name}/{path}`) επιστρέφει αυτόματα στο προεπιλεγμένο θέμα `chamilo` όταν λείπει ένα αρχείο από το ζητούμενο θέμα, έτσι τα θέματα χρειάζεται να περιλαμβάνουν μόνο τα αρχεία που πράγματι παρακάμπτουν.
 
-## How Themes Are Loaded in Templates
+## Πώς Φορτώνονται τα Θέματα στα Πρότυπα
 
-The `head.html.twig` layout template loads the active theme's assets via Twig helper functions:
+Το πρότυπο διάταξης `head.html.twig` φορτώνει τους πόρους του ενεργού θέματος μέσω συναρτήσεων βοηθών Twig:
 
 ```twig
 {# Inject the theme's color variables #}
@@ -81,32 +81,33 @@ The `head.html.twig` layout template loads the active theme's assets via Twig he
 <link rel="shortcut icon" href="{{ theme_asset('images/favicon.ico') }}" type="image/x-icon" />
 ```
 
-The three Twig functions (registered in `ChamiloExtension`) resolve the asset path through `ThemeHelper`, applying the same fallback chain as above:
+Οι τρεις συναρτήσεις Twig (καταχωρημένες στο `ChamiloExtension`) αναλύουν τη διαδρομή του πόρου μέσω `ThemeHelper`, εφαρμόζοντας την ίδια αλυσίδα εφεδρείας όπως παραπάνω:
 
 | Function | Returns |
 |----------|---------|
-| `theme_asset('path')` | URL to the asset in the resolved theme |
-| `theme_asset_link_tag('path')` | Full `<link rel="stylesheet">` tag |
-| `theme_asset_script_tag('path')` | Full `<script src="...">` tag |
-| `theme_asset_base64('path')` | Base64-encoded data URI of the asset |
-| `theme_logo('header'\|'email')` | URL to the best available logo |
+| `theme_asset('path')` | URL στον πόρο στο αναλυθέν θέμα |
+| `theme_asset_link_tag('path')` | Πλήρες tag `<link rel="stylesheet">` |
+| `theme_asset_script_tag('path')` | Πλήρες tag `<script src="...">` |
+| `theme_asset_base64('path')` | Base64-κωδικοποιημένο data URI του πόρου |
+| `theme_logo('header'\|'email')` | URL στο καλύτερο διαθέσιμο λογότυπο |
 
-## API Endpoints
+## Σημεία Επικοινωνίας API
 
-Theme management is exposed via the API Platform REST API (admin-only):
+Η διαχείριση θεμάτων εκτίθεται μέσω του REST API της API Platform (μόνο για διαχειριστές):
 
 | Method | Endpoint | Purpose |
 |--------|----------|---------|
-| `POST` | `/api/color_themes` | Create a new theme |
-| `PUT` | `/api/color_themes/{id}` | Update an existing theme |
-| `POST` | `/api/access_url_rel_color_themes` | Associate/activate a theme for an access URL |
-| `GET` | `/api/access_url_rel_color_themes` | List theme associations for the current access URL |
+| `POST` | `/api/color_themes` | Δημιουργία νέου θέματος |
+| `PUT` | `/api/color_themes/{id}` | Ενημέρωση υπάρχοντος θέματος |
+| `POST` | `/api/access_url_rel_color_themes` | Σύνδεση/ενεργοποίηση θέματος για URL πρόσβασης |
+| `GET` | `/api/access_url_rel_color_themes` | Λίστα συνδέσεων θεμάτων για το τρέχον URL πρόσβασης |
 
-## Creating a Custom Theme
+---
+## Δημιουργία Προσαρμοσμένου Θέματος
 
-The standard workflow is through the admin UI (**Admin → Color Themes**), which calls the API endpoints above. To create a theme programmatically:
+Η τυπική ροή εργασιών γίνεται μέσω της διεπαφής χρήστη διαχειριστή (**Admin → Color Themes**), η οποία καλεί τα παραπάνω τελικά σημεία API. Για να δημιουργήσετε ένα θέμα προγραμματιστικά:
 
-1. `POST /api/color_themes` with a JSON body:
+1. `POST /api/color_themes` με σώμα JSON:
 
 ```json
 {
@@ -123,9 +124,9 @@ The standard workflow is through the admin UI (**Admin → Color Themes**), whic
 }
 ```
 
-This persists the entity and writes `var/themes/my-theme/colors.css`.
+Αυτό αποθηκεύει την οντότητα και γράφει το αρχείο `var/themes/my-theme/colors.css`.
 
-2. `POST /api/access_url_rel_color_themes` to associate and activate it for the current access URL:
+2. `POST /api/access_url_rel_color_themes` για να το συνδέσετε και να το ενεργοποιήσετε για το τρέχον access URL:
 
 ```json
 {
@@ -133,34 +134,34 @@ This persists the entity and writes `var/themes/my-theme/colors.css`.
 }
 ```
 
-To add custom images (logo, favicon, backgrounds), upload them via `POST /themes/{slug}/logos` or place them directly in `var/themes/{slug}/images/`.
+Για να προσθέσετε προσαρμοσμένες εικόνες (logo, favicon, φόντα), ανεβάστε τις μέσω `POST /themes/{slug}/logos` ή τοποθετήστε τις απευθείας στο `var/themes/{slug}/images/`.
 
-## Color Variable Reference
+## Αναφορά Μεταβλητών Χρωμάτων
 
-All variables expected by the default Tailwind configuration:
+Όλες οι μεταβλητές που αναμένονται από τη προεπιλεγμένη διαμόρφωση Tailwind:
 
-| Variable | Purpose |
-|----------|---------|
-| `--color-primary-base` | Primary brand color |
-| `--color-primary-gradient` | Darker gradient stop for primary |
-| `--color-primary-button-text` | Text color on primary buttons |
-| `--color-primary-button-alternative-text` | Alternative text color on primary buttons |
-| `--color-secondary-base` | Secondary accent color |
-| `--color-secondary-gradient` | Gradient stop for secondary |
-| `--color-secondary-button-text` | Text color on secondary buttons |
-| `--color-tertiary-base` | Tertiary color |
-| `--color-tertiary-gradient` | Gradient stop for tertiary |
-| `--color-tertiary-button-text` | Text color on tertiary buttons |
-| `--color-success-base` | Success state color |
-| `--color-success-gradient` | Gradient stop for success |
-| `--color-success-button-text` | Text color on success buttons |
-| `--color-info-base` | Info state color |
-| `--color-info-gradient` | Gradient stop for info |
-| `--color-info-button-text` | Text color on info buttons |
-| `--color-warning-base` | Warning state color |
-| `--color-warning-gradient` | Gradient stop for warning |
-| `--color-warning-button-text` | Text color on warning buttons |
-| `--color-danger-base` | Danger/error state color |
-| `--color-danger-gradient` | Gradient stop for danger |
-| `--color-danger-button-text` | Text color on danger buttons |
-| `--color-form-base` | Form element accent color |
+| Μεταβλητή | Σκοπός |
+|-----------|--------|
+| `--color-primary-base` | Κύριο χρώμα επωνυμίας |
+| `--color-primary-gradient` | Σκούροτερο σημείο διαβάθμισης για το κύριο |
+| `--color-primary-button-text` | Χρώμα κειμένου σε κύρια κουμπιά |
+| `--color-primary-button-alternative-text` | Εναλλακτικό χρώμα κειμένου σε κύρια κουμπιά |
+| `--color-secondary-base` | Δευτερεύον χρώμα έμφασης |
+| `--color-secondary-gradient` | Σημείο διαβάθμισης για το δευτερεύον |
+| `--color-secondary-button-text` | Χρώμα κειμένου σε δευτερεύοντα κουμπιά |
+| `--color-tertiary-base` | Τριτογενές χρώμα |
+| `--color-tertiary-gradient` | Σημείο διαβάθμισης για το τριτογενές |
+| `--color-tertiary-button-text` | Χρώμα κειμένου σε τριτογενή κουμπιά |
+| `--color-success-base` | Χρώμα κατάστασης επιτυχίας |
+| `--color-success-gradient` | Σημείο διαβάθμισης για επιτυχία |
+| `--color-success-button-text` | Χρώμα κειμένου σε κουμπιά επιτυχίας |
+| `--color-info-base` | Χρώμα κατάστασης πληροφοριών |
+| `--color-info-gradient` | Σημείο διαβάθμισης για πληροφορίες |
+| `--color-info-button-text` | Χρώμα κειμένου σε κουμπιά πληροφοριών |
+| `--color-warning-base` | Χρώμα κατάστασης προειδοποίησης |
+| `--color-warning-gradient` | Σημείο διαβάθμισης για προειδοποίηση |
+| `--color-warning-button-text` | Χρώμα κειμένου σε κουμπιά προειδοποίησης |
+| `--color-danger-base` | Χρώμα κατάστασης κινδύνου/σφάλματος |
+| `--color-danger-gradient` | Σημείο διαβάθμισης για κίνδυνο |
+| `--color-danger-button-text` | Χρώμα κειμένου σε κουμπιά κινδύνου |
+| `--color-form-base` | Χρώμα έμφασης στοιχείου φόρμας |

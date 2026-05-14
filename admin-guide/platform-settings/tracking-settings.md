@@ -1,73 +1,73 @@
-# Tracking Settings
+# Ρυθμίσεις Παρακολούθησης
 
-Tracking-related defaults — what is recorded, what reports are exposed, time computation rules.
+Οι προεπιλεγμένες ρυθμίσεις σχετικές με την παρακολούθηση — τι καταγράφεται, ποιες αναφορές εμφανίζονται, κανόνες υπολογισμού χρόνου.
 
-Access these settings under **Administration > Configuration settings > Tracking**. This category contains **10 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+Πρόσβαση σε αυτές τις ρυθμίσεις στο **Administration > Configuration settings > Tracking**. Αυτή η κατηγορία περιέχει **10 ρυθμίσεις**, που παρατίθενται παρακάτω με τον τίτλο και το σχόλιο που παρέχονται στα fixtures των ρυθμίσεων της πλατφόρμας (`SettingsCurrentFixtures.php`).
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> Το όνομα της μεταβλητής στον κώδικα εμφανίζεται σε monospace. Χρησιμοποιήστε το κατά την προγραμματισμό μέσω API ή όταν χρειάζεται να αλλάξετε αυτές τις ρυθμίσεις σε παγκόσμιο επίπεδο επεξεργαζόμενοι το [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
 
-## Settings
+## Ρυθμίσεις
 
 ### `block_my_progress_page`
 
-**Prevent access to 'My progress'**
+**Απαγόρευση πρόσβασης στη σελίδα 'Η πρόοδός μου'**
 
-In specific implementations like online exams, you might want to prevent user access to the 'My progress' page.
+Σε συγκεκριμένες υλοποιήσεις όπως online εξετάσεις, μπορεί να θέλετε να αποτρέψετε την πρόσβαση του χρήστη στη σελίδα 'Η πρόοδός μου'.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 ### `footer_extra_content`
 
-**Extra content in footer**
+**Επιπλέον περιεχόμενο στο footer**
 
-You can add HTML code like meta tags
+Μπορείτε να προσθέσετε HTML κώδικα όπως meta tags
 
 ### `header_extra_content`
 
-**Extra content in header**
+**Επιπλέον περιεχόμενο στο header**
 
-You can add HTML code like meta tags
+Μπορείτε να προσθέσετε HTML κώδικα όπως meta tags
 
 ### `meta_description`
 
-**Meta description**
+**Meta περιγραφή**
 
-This will show an OpenGraph Description meta (og:description) in your site's headers
+Αυτό θα εμφανίσει ένα meta OpenGraph Description (og:description) στα headers του site σας
 
 ### `meta_image_path`
 
-**Meta image path**
+**Διαδρομή meta εικόνας**
 
-This Meta Image path is the path to a file inside your Chamilo directory (e.g. home/image.png) that should show in a Twitter card or a OpenGraph card when showing a link to your LMS. Twitter recommends an image of 120 x 120 pixels, which might sometimes be cropped to 120x90.
+Αυτή η διαδρομή Meta Image είναι η διαδρομή προς ένα αρχείο μέσα στον κατάλογο Chamilo σας (π.χ. home/image.png) που θα πρέπει να εμφανίζεται σε Twitter card ή OpenGraph card όταν εμφανίζεται σύνδεσμος προς το LMS σας. Το Twitter συνιστά εικόνα 120 x 120 pixels, η οποία μπορεί μερικές φορές να περικόπτεται σε 120x90.
 
 ### `meta_title`
 
-**OpenGraph meta title**
+**OpenGraph meta τίτλος**
 
-This will show an OpenGraph Title meta (og:title) in your site's headers
+Αυτό θα εμφανίσει ένα meta OpenGraph Title (og:title) στα headers του site σας
 
 ### `meta_twitter_creator`
 
-**Twitter Creator account**
+**Λογαριασμός Twitter Creator**
 
-The Twitter Creator is a Twitter account (e.g. @ywarnier) that represents the *person* that created the site. This field is optional.
+Ο Twitter Creator είναι ένας λογαριασμός Twitter (π.χ. @ywarnier) που αντιπροσωπεύει το *πρόσωπο* που δημιούργησε το site. Αυτό το πεδίο είναι προαιρετικό.
 
 ### `meta_twitter_site`
 
-**Twitter Site account**
+**Λογαριασμός Twitter Site**
 
-The Twitter site is a Twitter account (e.g. @chamilo_news) that is related to your site. It is usually a more temporary account than the Twitter creator account, or represents an entity (instead of a person). This field is required if you want the Twitter card meta fields to show.
+Ο Twitter site είναι ένας λογαριασμός Twitter (π.χ. @chamilo_news) που σχετίζεται με το site σας. Συνήθως είναι πιο προσωρινός λογαριασμός από τον λογαριασμό Twitter creator, ή αντιπροσωπεύει μια οντότητα (αντί για πρόσωπο). Αυτό το πεδίο απαιτείται αν θέλετε να εμφανιστούν τα meta πεδία Twitter card.
 
 ### `my_progress_course_tools_order`
 
-**Order of tools on 'My progress' page**
+**Σειρά εργαλείων στη σελίδα 'Η πρόοδός μου'**
 
-Change the order of tools shown on the 'My progress' page for learners. Options include 'quizzes', 'learning_paths' and 'skills'.
+Αλλάξτε τη σειρά των εργαλείων που εμφανίζονται στη σελίδα 'Η πρόοδός μου' για τους εκπαιδευόμενους. Οι επιλογές περιλαμβάνουν 'quizzes', 'learning_paths' και 'skills'.
 
 ### `tracking_skip_generic_data`
 
-**Skip generic data in learner self-tracking page**
+**Παράλειψη γενικών δεδομένων στη σελίδα αυτοπαρακολούθησης εκπαιδευόμενου**
 
-If the 'My progress' page takes too long to load, you might want to remove the processing of generic statistics for the user. In this case enable this setting.
+Αν η σελίδα 'Η πρόοδός μου' φορτώνει πολύ αργά, μπορεί να θέλετε να αφαιρέσετε την επεξεργασία γενικών στατιστικών για τον χρήστη. Σε αυτή την περίπτωση, ενεργοποιήστε αυτή τη ρύθμιση.
 
-*Default: `false`*
+*Προεπιλογή: `false`*

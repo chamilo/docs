@@ -1,58 +1,58 @@
 # Forums
 
-The forum tool allows you to host structured discussions within your course. Learners can post messages, reply to each other, and engage in threaded conversations.
+Το εργαλείο των forums σας επιτρέπει να φιλοξενούμε δομημένες συζητήσεις εντός του μαθήματός σας. Οι μαθητές μπορούν να δημοσιεύουν μηνύματα, να απαντούν ο ένας στον άλλον και να συμμετέχουν σε διακλαδωμένες συζητήσεις.
 
-## Forum Structure
+## Δομή Forum
 
-![The forum category list showing categories, forums, and topic counts](/.gitbook/assets/forum-category-list.png)
+![Η λίστα κατηγοριών forum που εμφανίζει κατηγορίες, forums και αριθμό θεμάτων](/.gitbook/assets/forum-category-list.png)
 
-Forums in Chamilo are organized in three levels:
+Τα forums στο Chamilo οργανώνονται σε τρία επίπεδα:
 
-1. **Forum categories** — Top-level groupings (e.g., "General Discussions", "Module 1 Questions")
-2. **Forums** — Individual discussion boards within a category
-3. **Topics (threads)** — Individual discussion topics within a forum, each with a chain of replies
+1. **Κατηγορίες forum** — Ομαδοποιήσεις ανώτατου επιπέδου (π.χ. "Γενικές Συζητήσεις", "Ερωτήσεις Μονάδας 1")
+2. **Forums** — Ατομικές πίνακες συζητήσεων εντός μιας κατηγορίας
+3. **Θέματα (threads)** — Ατομικά θέματα συζήτησης εντός ενός forum, το καθένα με μια αλυσίδα απαντήσεων
 
-## Creating a Forum Category
+## Δημιουργία Κατηγορίας Forum
 
-1. Open the **Forums** <img src="/.gitbook/assets/icons/mdi-comment-quote.svg" alt="Forums" data-size="line"> tool from your course homepage
-2. Click **Add a forum category**
-3. Enter a **Category name** and optional description
-4. Save
+1. Ανοίξτε το εργαλείο **Forums** <img src="/.gitbook/assets/icons/mdi-comment-quote.svg" alt="Forums" data-size="line"> από την αρχική σελίδα του μαθήματός σας
+2. Κάντε κλικ στο **Προσθήκη κατηγορίας forum**
+3. Εισαγάγετε ένα **Όνομα κατηγορίας** και προαιρετική περιγραφή
+4. Αποθήκευση
 
-## Creating a Forum
+## Δημιουργία Forum
 
-You can only add a forum once at least one category exists.
+Μπορείτε να προσθέσετε ένα forum μόνο εφόσον υπάρχει τουλάχιστον μία κατηγορία.
 
-1. Within a category, click **Add a forum**
-2. Fill in the basic details:
-   * **Title** — The name of this discussion board
-   * **Description** — An optional description of the forum's purpose
-   * **Create in category** — The category this forum belongs to
-3. Open **Advanced settings** to configure:
-   * **Publication date** / **Closing date** — Optional time window during which the forum is open
-   * **Moderated forum** — Require new posts to be approved by a teacher before they become visible
-   * **Can learners edit their own posts?** — Allow or prevent learners from editing posts after submitting
-   * **Allow users to start new threads** — When set to No, learners can only reply to existing threads
-   * **Default view type** — Choose how posts are displayed: **Flat**, **Threaded**, or **Nested**
-   * **For Group** — Attach this forum to a course group
-   * **Public access / Private access** — For group forums, decide whether any course member can read it or only group members
-4. Save
+1. Εντός μιας κατηγορίας, κάντε κλικ στο **Προσθήκη forum**
+2. Συμπληρώστε τα βασικά στοιχεία:
+   * **Τίτλος** — Το όνομα αυτού του πίνακα συζητήσεων
+   * **Περιγραφή** — Μια προαιρετική περιγραφή του σκοπού του forum
+   * **Δημιουργία σε κατηγορία** — Η κατηγορία στην οποία ανήκει αυτό το forum
+3. Ανοίξτε **Ρυθμίσεις προχωρημένων** για να ρυθμίσετε:
+   * **Ημερομηνία δημοσίευσης** / **Ημερομηνία λήξης** — Προαιρετικό χρονικό παράθυρο κατά το οποίο το forum είναι ανοιχτό
+   * **Forum με μέτριο** — Απαιτείται η έγκριση νέων δημοσιεύσεων από καθηγητή πριν γίνουν ορατές
+   * **Μπορούν οι μαθητές να επεξεργάζονται τις δικές τους δημοσιεύσεις;** — Επιτρέπει ή εμποδίζει τους μαθητές να επεξεργάζονται δημοσιεύσεις μετά την υποβολή
+   * **Επιτρέπεται στους χρήστες να ξεκινούν νέα threads** — Όταν οριστεί σε Όχι, οι μαθητές μπορούν μόνο να απαντούν σε υπάρχοντα threads
+   * **Προεπιλεγμένος τύπος προβολής** — Επιλέξτε πώς εμφανίζονται οι δημοσιεύσεις: **Flat**, **Threaded** ή **Nested**
+   * **Για Ομάδα** — Συνδέστε αυτό το forum με ομάδα μαθήματος
+   * **Δημόσια πρόσβαση / Ιδιωτική πρόσβαση** — Για forums ομάδας, αποφασίστε αν οποιοσδήποτε μέλος του μαθήματος μπορεί να το διαβάσει ή μόνο τα μέλη της ομάδας
+4. Αποθήκευση
 
-If the course visibility is set to "Open to the world", the form also shows an **Allow anonymous posts?** option. This option is hidden in courses with restricted visibility.
+Αν η ορατότητα του μαθήματος είναι ρυθμισμένη σε "Ανοιχτό προς τον κόσμο", η φόρμα εμφανίζει επίσης την επιλογή **Επιτρέπονται ανώνυμες δημοσιεύσεις;**. Αυτή η επιλογή είναι κρυφή σε μαθήματα με περιορισμένη ορατότητα.
 
-## Managing Topics
+## Διαχείριση Θεμάτων
 
-Learners (and you) can create new topics within a forum. As a teacher, you can:
+Οι μαθητές (και εσείς) μπορούν να δημιουργούν νέα θέματα εντός ενός forum. Ως καθηγητής, μπορείτε να:
 
-* **Pin a topic (sticky message)** — Mark a thread as sticky when you create or edit it so it always appears at the top
-* **Lock a topic** — Prevent further replies
-* **Edit or delete posts** — Moderate the discussion
-* **Move a topic** — Transfer a topic to a different forum
+* **Καρφιτώσετε ένα θέμα (sticky message)** — Σημειώστε ένα thread ως sticky κατά τη δημιουργία ή επεξεργασία του ώστε να εμφανίζεται πάντα στην κορυφή
+* **Κλειδώσετε ένα θέμα** — Εμποδίστε περαιτέρω απαντήσεις
+* **Επεξεργαστείτε ή διαγράψετε δημοσιεύσεις** — Μέτριο τη συζήτηση
+* **Μετακινήσετε ένα θέμα** — Μεταφέρετε ένα θέμα σε διαφορετικό forum
 
-## Forum Scoring
+## Βαθμολόγηση Forum
 
-When creating a new thread as a teacher, you can enable **Grade this thread** under Advanced settings. You then set a maximum score, a column header for the gradebook, and a weight in the report. You can also enable **Thread scored by peers**, which requires each learner to qualify at least two other learners before their own score counts.
+Κατά τη δημιουργία νέου thread ως καθηγητής, μπορείτε να ενεργοποιήσετε **Βαθμολόγηση αυτού του thread** στις ρυθμίσεις προχωρημένων. Στη συνέχεια ορίζετε μέγιστο σκορ, κεφαλίδα στήλης για το gradebook και βάρος στην αναφορά. Μπορείτε επίσης να ενεργοποιήσετε **Thread βαθμολογείται από συμμαθητές**, που απαιτεί κάθε μαθητή να βαθμολογήσει τουλάχιστον δύο άλλους μαθητές πριν μετρήσει το δικό του σκορ.
 
-## Notifications
+## Ειδοποιήσεις
 
-Each forum and thread has a **Notify me** toggle that you and your learners can use to subscribe to email notifications about new posts. Notifications are a per-user subscription and are not configured when creating the forum.
+Κάθε forum και thread διαθέτει διακόπτη **Ειδοποίησέ με** που εσείς και οι μαθητές σας μπορείτε να χρησιμοποιήσετε για εγγραφή σε ειδοποιήσεις email για νέες δημοσιεύσεις. Οι ειδοποιήσεις είναι εγγραφή ανά χρήστη και δεν ρυθμίζονται κατά τη δημιουργία του forum.

@@ -1,6 +1,6 @@
-# Project Structure
+# Δομή Έργου
 
-## Top-Level Directories
+## Βασικοί Κατάλογοι
 
 ```
 chamilo/
@@ -23,14 +23,14 @@ chamilo/
 └── translations/    # Translation files
 ```
 
-## Source Code (`src/`)
+## Πηγαίος Κώδικας (`src/`)
 
 ### CoreBundle
 
-The largest bundle. Notable subdirectories:
+Το μεγαλύτερο bundle. Σημαντικοί υποκατάλογοι:
 
-| Directory | Contents |
-|-----------|----------|
+| Κατάλογος | Περιεχόμενα |
+|-----------|-------------|
 | `Entity/` | Doctrine entities (User, Course, Session, ResourceNode, etc.) |
 | `Controller/` | Admin, API action, and page controllers (the Api/ subfolder holds custom API Platform actions) |
 | `Settings/` | Settings schema files (platform configuration) |
@@ -47,10 +47,10 @@ The largest bundle. Notable subdirectories:
 
 ### CourseBundle
 
-Course-specific entities and logic:
+Οντότητες και λογική ειδικά για μαθήματα:
 
-| Directory | Contents |
-|-----------|----------|
+| Κατάλογος | Περιεχόμενα |
+|-----------|-------------|
 | `Entity/` | Course-content entities (CDocument, CQuiz, CLp, CForum, CStudentPublication, etc.) |
 | `Controller/` | Course controllers |
 | `Settings/` | Course-level settings schemas |
@@ -58,20 +58,21 @@ Course-specific entities and logic:
 
 ### LtiBundle
 
-LTI 1.3 integration:
+Ενσωμάτωση LTI 1.3:
 
-| Directory | Contents |
-|-----------|----------|
+| Κατάλογος | Περιεχόμενα |
+|-----------|-------------|
 | `Entity/` | LTI platform, tool, and deployment entities |
 | `Controller/` | LTI launch and configuration endpoints |
 
+---
 ## Frontend (`assets/vue/`)
 
 ```
 assets/vue/
-├── main.js              # Application entry point
-├── main_installer.js    # Installer entry point
-├── components/          # Reusable Vue components
+├── main.js              # Σημείο εισόδου εφαρμογής
+├── main_installer.js    # Σημείο εισόδου εγκαταστάτη
+├── components/          # Επαναχρησιμοποιήσιμα Vue components
 │   ├── accessurl/       # Multi-URL (portal) components
 │   ├── admin/           # Admin-specific components
 │   ├── assignments/     # Assignment forms and lists
@@ -139,7 +140,8 @@ assets/vue/
 └── error/               # Error boundary components
 ```
 
-## Configuration (`config/`)
+---
+## Ρύθμιση (`config/`)
 
 ```
 config/
@@ -168,34 +170,34 @@ config/
 └── jwt-test/            # JWT keys for the test environment
 ```
 
-Symfony automatically merges the base `packages/*.yaml` files with those in the matching environment subdirectory (`dev/`, `prod/`, or `test/`), so environment-specific files only need to override the values that differ.
+Το Symfony συγχωνεύει αυτόματα τα βασικά αρχεία `packages/*.yaml` με αυτά στον αντίστοιχο υποφάκελο περιβάλλοντος (`dev/`, `prod/`, ή `test/`), έτσι τα αρχεία ειδικά για το περιβάλλον χρειάζεται να αντικαθιστούν μόνο τις τιμές που διαφέρουν.
 
-## Build Configuration
+## Ρύθμιση κατασκευής
 
-| File | Purpose |
-|------|---------|
-| `webpack.config.js` | Webpack Encore configuration (entries, loaders, plugins) |
-| `tailwind.config.js` | Tailwind CSS configuration (content paths, theme extensions, plugins) |
-| `tsconfig.json` | TypeScript configuration |
-| `eslint.config.mjs` | ESLint rules (flat config) |
-| `.prettierrc.json` | Prettier formatting rules |
+| Αρχείο | Σκοπός |
+|--------|--------|
+| `webpack.config.js` | Ρύθμιση Webpack Encore (εισαγωγές, loaders, plugins) |
+| `tailwind.config.js` | Ρύθμιση Tailwind CSS (μονοπάτια περιεχομένου, επεκτάσεις θέματος, plugins) |
+| `tsconfig.json` | Ρύθμιση TypeScript |
+| `eslint.config.mjs` | Κανόνες ESLint (flat config) |
+| `.prettierrc.json` | Κανόνες μορφοποίησης Prettier |
 
-All files sit at the project root. PostCSS plugins (Tailwind + Autoprefixer) are configured inline inside `webpack.config.js` via `enablePostCssLoader()` — there is no standalone `postcss.config.js`. `webpack.config.js` reads `tailwind.config.js` indirectly through PostCSS, so changes to Tailwind's `content` or `theme` sections take effect on the next `yarn encore dev` / `yarn encore production` run.
+Όλα τα αρχεία βρίσκονται στη ρίζα του έργου. Τα plugins PostCSS (Tailwind + Autoprefixer) ρυθμίζονται εν σειρά μέσα στο `webpack.config.js` μέσω `enablePostCssLoader()` — δεν υπάρχει αυτόνομο `postcss.config.js`. Το `webpack.config.js` διαβάζει το `tailwind.config.js` έμμεσα μέσω PostCSS, έτσι οι αλλαγές στις ενότητες `content` ή `theme` του Tailwind ισχύουν στην επόμενη εκτέλεση `yarn encore dev` / `yarn encore production`.
 
-## Webpack Entry Points
+## Σημεία εισόδου Webpack
 
-The build produces these bundles:
+Η κατασκευή παράγει τα εξής bundles:
 
 **JavaScript:**
-* `vue` — Main Vue 3 application (`assets/vue/main.js`)
-* `vue_installer` — Installation wizard (`assets/vue/main_installer.js`)
-* `legacy_app`, `legacy_exercise`, `legacy_lp`, `legacy_document` — Legacy JS for pages not yet migrated to Vue
+* `vue` — Κύρια εφαρμογή Vue 3 (`assets/vue/main.js`)
+* `vue_installer` — Οδηγός εγκατάστασης (`assets/vue/main_installer.js`)
+* `legacy_app`, `legacy_exercise`, `legacy_lp`, `legacy_document` — Legacy JS για σελίδες που δεν έχουν ακόμη μετεγκατασταθεί σε Vue
 
 **CSS:**
-* `app` — Main stylesheet (`assets/css/app.scss`)
-* Plus specialized sheets: `chat`, `document`, `editor`, `editor_content`, `markdown`, `print`, `responsive`, `scorm`
+* `app` — Κύριο stylesheet (`assets/css/app.scss`)
+* Συν εξειδικευμένα sheets: `chat`, `document`, `editor`, `editor_content`, `markdown`, `print`, `responsive`, `scorm`
 
-## CSS Structure (`assets/css/`)
+## Δομή CSS (`assets/css/`)
 
 ```
 assets/css/
@@ -222,31 +224,32 @@ assets/css/
     └── libs/                # Third-party library overrides (FullCalendar, MediaElement.js)
 ```
 
+---
 ### Tailwind CSS
 
-Tailwind is integrated via PostCSS. `assets/css/_tailwind.scss` emits the base, component, and utility layers; `assets/css/app.scss` imports it first so Tailwind utilities are available throughout all other partials. The Tailwind configuration — content paths for purging, theme extensions, and plugins — lives in `tailwind.config.js` at the project root (`/var/www/chamilo/tailwind.config.js`).
+Το Tailwind ενσωματώνεται μέσω PostCSS. Το `assets/css/_tailwind.scss` παράγει τα στρώματα base, component και utility· το `assets/css/app.scss` το εισάγει πρώτο ώστε οι λειτουργίες Tailwind να είναι διαθέσιμες σε όλα τα άλλα partials. Η διαμόρφωση Tailwind — μονοπάτια περιεχομένου για καθαρισμό, επεκτάσεις θέματος και plugins — βρίσκεται στο `tailwind.config.js` στη ρίζα του έργου (`/var/www/chamilo/tailwind.config.js`).
 
-Custom utility classes and component classes defined with `@layer` (visible in `app.scss`) follow Tailwind's layering convention so that user-defined classes respect the same specificity rules as the generated utilities.
+Οι προσαρμοσμένες κλάσεις utility και οι κλάσεις component που ορίζονται με `@layer` (ορατές στο `app.scss`) ακολουθούν τη σύμβαση στρωματοποίησης του Tailwind ώστε οι κλάσεις που ορίζει ο χρήστης να σέβονται τους ίδιους κανόνες ειδικότητας με τις γενόμενες λειτουργίες.
 
-### Color Themes
+### Χρωματικά Θέματα
 
-Chamilo supports a color theming system that can be configured directly from the admin interface (**Admin > Color Themes**). Each saved theme writes its files into a dedicated directory under `var/themes/`:
+Το Chamilo υποστηρίζει σύστημα χρωματικής θεματοποίησης που μπορεί να διαμορφωθεί απευθείας από τη διεπαφή διαχειριστή (**Admin > Color Themes**). Κάθε αποθηκευμένο θέμα γράφει τα αρχεία του σε ειδικό κατάλογο κάτω από το `var/themes/`:
 
 ```
 var/themes/
 └── [theme-name]/
-    ├── colors.css       # CSS custom properties for the full color palette
-    ├── default.css      # Optional additional custom CSS rules
-    ├── learnpath.css    # Learning path-specific overrides
-    ├── tiny-settings.js # TinyMCE editor color palette settings
-    └── images/          # Theme images (logo, favicon, backgrounds, PWA icons)
+    ├── colors.css       # CSS custom properties για την πλήρη χρωματική παλέτα
+    ├── default.css      # Προαιρετικοί επιπλέον κανόνες προσαρμοσμένου CSS
+    ├── learnpath.css    # Ειδικές παρακάμψεις για μονοπάτια μάθησης
+    ├── tiny-settings.js # Ρυθμίσεις χρωματικής παλέτας του επεξεργαστή TinyMCE
+    └── images/          # Εικόνες θέματος (logo, favicon, φόντα, εικόνες PWA)
         ├── header-logo.png / header-logo.svg
         ├── favicon.ico
         ├── pwa-icons/   # icon-192.png, icon-512.png
-        └── ...          # Background images, admin block images, etc.
+        └── ...          # Εικόνες φόντου, εικόνες μπλοκ διαχειριστή, κ.λπ.
 ```
 
-`colors.css` defines CSS custom properties as space-separated RGB channel triplets rather than `rgb()` values, which allows Tailwind to compose opacity variants (e.g. `bg-primary/50`) without additional configuration:
+Το `colors.css` ορίζει CSS custom properties ως τριάδες καναλιών RGB χωρισμένες με κενά αντί για τιμές `rgb()`, κάτι που επιτρέπει στο Tailwind να συνθέτει παραλλαγές αδιαφανούς (π.χ. `bg-primary/50`) χωρίς επιπλέον διαμόρφωση:
 
 ```css
 :root {
@@ -256,4 +259,4 @@ var/themes/
 }
 ```
 
-The theme layer sits on top of the compiled Tailwind/SCSS bundle: the browser loads `colors.css` after the main stylesheet, so theme changes take effect immediately without a build step.
+Το στρώμα θέματος βρίσκεται πάνω από το μεταγλωττισμένο πακέτο Tailwind/SCSS: ο περιηγητής φορτώνει το `colors.css` μετά το κύριο stylesheet, οπότε οι αλλαγές θέματος εφαρμόζονται άμεσα χωρίς βήμα κατασκευής.

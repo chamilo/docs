@@ -1,80 +1,79 @@
-# Announcements Settings
+# Ρυθμίσεις Ανακοινώσεων
 
-Behaviour of the course **Announcements** tool — how announcements are sent and scheduled.
+Συμπεριφορά του εργαλείου **Announcements** του μαθήματος — πώς αποστέλλονται και προγραμματίζονται οι ανακοινώσεις.
 
-Access these settings under **Administration > Configuration settings > Announcements**. This category contains **9 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+Πρόσβαση σε αυτές τις ρυθμίσεις στο **Administration > Configuration settings > Announcements**. Αυτή η κατηγορία περιέχει **9 ρυθμίσεις**, που παρατίθενται παρακάτω με τον τίτλο και το σχόλιο που παρέχονται στα fixtures των ρυθμίσεων της πλατφόρμας (`SettingsCurrentFixtures.php`).
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> Το όνομα της μεταβλητής στον κώδικα εμφανίζεται σε monospace. Χρησιμοποιήστε το όταν προγραμματίζετε μέσω του API ή όταν χρειάζεται να αλλάξετε αυτές τις ρυθμίσεις σε παγκόσμιο επίπεδο επεξεργαζόμενοι το [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
 
-## Settings
+## Ρυθμίσεις
 
 ### `allow_careers_in_global_announcements`
 
-**Link global announcements with careers and promotions**
+**Σύνδεση παγκόσμιων ανακοινώσεων με careers και promotions**
 
-When enabled, global announcements can be associated with careers and promotions for targeted distribution.
+Όταν είναι ενεργοποιημένη, οι παγκόσμιες ανακοινώσεις μπορούν να συνδεθούν με careers και promotions για στοχευμένη διανομή.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 ### `allow_coach_to_edit_announcements`
 
-**Allow coaches to always edit announcements**
+**Επιτρέψτε στους coaches να επεξεργάζονται πάντα τις ανακοινώσεις**
 
-Allow coaches to always edit announcements inside active or past sessions.
+Επιτρέπει στους coaches να επεξεργάζονται πάντα τις ανακοινώσεις μέσα σε ενεργές ή παρελθούσες sessions.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 ### `allow_scheduled_announcements`
 
-**Enable scheduled announcements in sessions**
+**Ενεργοποίηση προγραμματισμένων ανακοινώσεων σε sessions**
 
-Allows the sessions managers to set announcements that will be triggered on specific dates or after/before a number of days of start/end of the session. Enabling this feature requires you to setup a cron task.
+Επιτρέπει στους managers των sessions να ορίζουν ανακοινώσεις που θα ενεργοποιηθούν σε συγκεκριμένες ημερομηνίες ή μετά/πριν από έναν αριθμό ημερών από την έναρξη/λήξη της session. Η ενεργοποίηση αυτής της λειτουργίας απαιτεί τη ρύθμιση μιας cron εργασίας.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 ### `announcements_hide_send_to_hrm_users`
 
-**Hide option to send announcements to HR users**
+**Απόκρυψη επιλογής αποστολής ανακοινώσεων σε χρήστες HR**
 
-Remove the checkbox to enable sending announcements to users with HR roles (still requires to confirm in the announcements tool).
+Αφαίρεση του πλαισίου ελέγχου για την ενεργοποίηση αποστολής ανακοινώσεων σε χρήστες με ρόλους HR (απαιτείται ακόμα επιβεβαίωση στο εργαλείο ανακοινώσεων).
 
-*Default: `true`*
+*Προεπιλογή: `true`*
 
 ### `course_announcement_scheduled_by_date`
 
-**Date-based announcements**
+**Ανακοινώσεις βασισμένες σε ημερομηνία**
 
-Allow teachers to configure announcements that will be sent at specific dates. This requires you to setup a cron task on cron/course_announcement.php running at least once daily.
+Επιτρέπει στους διδάσκοντες να ρυθμίζουν ανακοινώσεις που θα αποσταλούν σε συγκεκριμένες ημερομηνίες. Αυτό απαιτεί τη ρύθμιση μιας cron εργασίας στο cron/course_announcement.php που εκτελείται τουλάχιστον μία φορά ημερησίως.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 ### `disable_announcement_attachment`
 
-**Disable attachment to announcements**
+**Απενεργοποίηση επισυνάπσεων σε ανακοινώσεις**
 
-Even though attachments in this version are dealt in an elegant way and do not multiply on disk, you might want to disable attachments altogether if you want to avoid excesses.
+Παρόλο που οι επισυνάψεις σε αυτή την έκδοση διαχειρίζονται κομψά και δεν πολλαπλασιάζονται στον δίσκο, μπορεί να θέλετε να απενεργοποιήσετε εντελώς τις επισυνάψεις αν θέλετε να αποφύγετε υπερβολές.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 ### `disable_delete_all_announcements`
 
-**Disable button to delete all announcements**
+**Απενεργοποίηση κουμπιού διαγραφής όλων των ανακοινώσεων**
 
-Select 'Yes' to remove the button to delete all announcements, as this can be used by mistake by teachers.
+Επιλέξτε 'Yes' για να αφαιρέσετε το κουμπί διαγραφής όλων των ανακοινώσεων, καθώς μπορεί να χρησιμοποιηθεί κατά λάθος από τους διδάσκοντες.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 ### `hide_announcement_sent_to_users_info`
 
-**Hide 'sent to' in announcements**
+**Απόκρυψη 'sent to' στις ανακοινώσεις**
 
-Select 'Yes' to avoid showing to whom an announcement has been sent.
+Επιλέξτε 'Yes' για να αποφύγετε την εμφάνιση σε ποιον έχει σταλεί μια ανακοίνωση.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 ### `hide_send_to_hrm_users`
 
-**Hide the option to send an announcement copy to HRM**
+**Απόκρυψη της επιλογής αποστολής αντιγράφου ανακοίνωσης στο HRM**
 
-In the announcements form, an option normally appears to allow teachers to send a copy of the announcement to the user's HRM. Set this to 'Yes' to remote the option (and *not* send the copy).
-
+Στη φόρμα ανακοινώσεων, εμφανίζεται κανονικά μια επιλογή που επιτρέπει στους διδάσκοντες να στείλουν ένα αντίγραφο της ανακοίνωσης στο HRM του χρήστη. Ορίστε το σε 'Yes' για να αφαιρέσετε την επιλογή (και *να μην* στείλετε το αντίγραφο).

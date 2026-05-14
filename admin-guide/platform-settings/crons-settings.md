@@ -1,32 +1,31 @@
-# Cron Jobs Settings
+# Ρυθμίσεις Cron Jobs
 
-Configuration of scheduled jobs (cron tasks) shipped with Chamilo.
+Ρύθμιση προγραμματισμένων εργασιών (cron tasks) που παρέχονται με το Chamilo.
 
-Access these settings under **Administration > Configuration settings > Cron Jobs**. This category contains **3 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+Πρόσβαση σε αυτές τις ρυθμίσεις στο **Administration > Configuration settings > Cron Jobs**. Αυτή η κατηγορία περιέχει **3 ρυθμίσεις**, που παρατίθενται παρακάτω με τον τίτλο και το σχόλιο που παρέχονται στα fixtures των ρυθμίσεων της πλατφόρμας (`SettingsCurrentFixtures.php`).
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> Το όνομα της μεταβλητής στον κώδικα εμφανίζεται σε monospace. Χρησιμοποιήστε το κατά την προγραμματισμό μέσω του API ή όταν χρειάζεται να αλλάξετε αυτές τις ρυθμίσεις σε παγκόσμιο επίπεδο επεξεργαζόμενοι το [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
 
-## Settings
+## Ρυθμίσεις
 
 ### `cron_remind_course_expiration_activate`
 
-**Remind Course Expiration cron**
+**Υπενθύμιση Λήξης Μαθήματος cron**
 
-Enable the Remind Course Expiration cron
+Ενεργοποίηση του cron Υπενθύμισης Λήξης Μαθήματος
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 ### `cron_remind_course_expiration_frequency`
 
-**Frequency for the Remind Course Expiration cron**
+**Συχνότητα για το cron Υπενθύμισης Λήξης Μαθήματος**
 
-Number of days before the expiration of the course to consider to send reminder mail
+Αριθμός ημερών πριν τη λήξη του μαθήματος για να ληφθεί υπόψη η αποστολή email υπενθύμισης
 
 ### `cron_remind_course_finished_activate`
 
-**Send course finished notification**
+**Αποστολή ειδοποίησης ολοκλήρωσης μαθήματος**
 
-Whether to send an e-mail to students when their course (session) is finished. This requires cron tasks to be configured (see main/cron/ directory).
+Εάν να αποσταλεί email στους φοιτητές όταν το μάθημά τους (session) ολοκληρωθεί. Αυτό απαιτεί να έχουν ρυθμιστεί cron tasks (δείτε τον κατάλογο main/cron/).
 
-*Default: `false`*
-
+*Προεπιλογή: `false`*

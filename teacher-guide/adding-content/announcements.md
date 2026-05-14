@@ -1,38 +1,38 @@
-# Announcements
+# Ανακοινώσεις
 
-The announcements tool lets you send messages to all learners enrolled in your course, or to specific individuals or groups.
+Το εργαλείο ανακοινώσεων σας επιτρέπει να στέλνετε μηνύματα σε όλους τους εκπαιδευομένους που είναι εγγεγραμμένοι στο μάθημά σας, ή σε συγκεκριμένα άτομα ή ομάδες.
 
-Messages sent through announcements are sent to the learners both by e-mail *and* to their Chamilo inbox.
+Τα μηνύματα που αποστέλλονται μέσω ανακοινώσεων στέλνονται στους εκπαιδευομένους τόσο με ηλεκτρονικό ταχυδρομείο *όσο* και στο inbox του Chamilo τους.
 
-## Creating an Announcement
+## Δημιουργία Ανακοίνωσης
 
-1. Open the **Announcements** <img src="/.gitbook/assets/icons/mdi-bullhorn.svg" alt="Announcements" data-size="line"> tool from the course homepage
-2. Click the **Add an announcement** icon <img src="/.gitbook/assets/icons/mdi-bullhorn.svg" alt="Announcements" data-size="line"> again
-3. Fill in:
-   * **Recipients** — Choose who receives the announcement:
-     * All enrolled learners
-     * Specific learners
-     * Specific groups
-   * **Subject** — A subject line for the announcement
-   * **Description** — The message body (supports rich text with formatting, links, and images)
-   * **Attachment** — An optional attachment sent along with the e-mail
-   * **Sending options** — Announcements will be sent by e-mail by default, but you can also choose (if you have the permissions) to send it through all sessions that include this course, to send a copy to yourself or to attach this announcement to a calendar event for the course.
-4. Save
+1. Ανοίξτε το εργαλείο **Announcements** <img src="/.gitbook/assets/icons/mdi-bullhorn.svg" alt="Ανακοινώσεις" data-size="line"> από την αρχική σελίδα του μαθήματος
+2. Κάντε κλικ στο εικονίδιο **Add an announcement** <img src="/.gitbook/assets/icons/mdi-bullhorn.svg" alt="Ανακοινώσεις" data-size="line"> ξανά
+3. Συμπληρώστε:
+   * **Recipients** — Επιλέξτε ποιος θα λάβει την ανακοίνωση:
+     * Όλοι οι εγγεγραμμένοι εκπαιδευόμενοι
+     * Συγκεκριμένοι εκπαιδευόμενοι
+     * Συγκεκριμένες ομάδες
+   * **Subject** — Μια γραμμή θέματος για την ανακοίνωση
+   * **Description** — Το κείμενο του μηνύματος (υποστηρίζει πλούσιο κείμενο με μορφοποίηση, συνδέσμους και εικόνες)
+   * **Attachment** — Ένα προαιρετικό συνημμένο που αποστέλλεται μαζί με το ηλεκτρονικό ταχυδρομείο
+   * **Sending options** — Οι ανακοινώσεις αποστέλλονται με ηλεκτρονικό ταχυδρομείο από προεπιλογή, αλλά μπορείτε επίσης να επιλέξετε (αν έχετε τα δικαιώματα) να το αποστείλετε μέσω όλων των συνεδριών που περιλαμβάνουν αυτό το μάθημα, να στείλετε ένα αντίγραφο στον εαυτό σας ή να συνδέσετε αυτή την ανακοίνωση με γεγονός ημερολογίου για το μάθημα.
+4. Αποθήκευση
 
-The **Tags** button lets you identify a series of markers that will be dynamically replaced in the announcement **Content**. These are relatively intuitive, so we'll let you guess what they do.
+Το κουμπί **Tags** σας επιτρέπει να προσδιορίσετε μια σειρά από δείκτες που θα αντικατασταθούν δυναμικά στο **Content** της ανακοίνωσης. Αυτοί είναι σχετικά διαισθητικοί, οπότε θα σας αφήσουμε να μαντέψετε τι κάνουν.
 
-The **Preview** button is not very intuitive: it allows you to see whom this announcement will be sent to. This acts as a confirmation of the selection of recipients you made above.
+Το κουμπί **Preview** δεν είναι πολύ διαισθητικό: σας επιτρέπει να δείτε σε ποιον θα αποσταλεί αυτή η ανακοίνωση. Λειτουργεί ως επιβεβαίωση της επιλογής παραληπτών που κάνατε παραπάνω.
 
-## Managing Announcements
+## Διαχείριση Ανακοινώσεων
 
-* **Edit** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Edit" data-size="line"> — Modify an existing announcement
-* **Delete** <img src="/.gitbook/assets/icons/mdi-delete.svg" alt="Delete" data-size="line"> — Remove an announcement
-* **Visibility** <img src="/.gitbook/assets/icons/mdi-eye.svg" alt="Visibility" data-size="line"> — Hide or show announcements
+* **Edit** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Επεξεργασία" data-size="line"> — Τροποποιήστε μια υπάρχουσα ανακοίνωση
+* **Delete** <img src="/.gitbook/assets/icons/mdi-delete.svg" alt="Διαγραφή" data-size="line"> — Αφαιρέστε μια ανακοίνωση
+* **Visibility** <img src="/.gitbook/assets/icons/mdi-eye.svg" alt="Ορατότητα" data-size="line"> — Κρύψτε ή εμφανίστε ανακοινώσεις
 
-Announcements are displayed in reverse chronological order (newest first).
+Οι ανακοινώσεις εμφανίζονται σε αντίστροφη χρονολογική σειρά (πιο πρόσφατες πρώτες).
 
-## Tips
+## Συμβουλές
 
-* **Welcome message** — Create an announcement at the start of the course to welcome learners and provide orientation
-* **Use email delivery** — For time-sensitive announcements, enable the email option so learners receive the message even if they are not currently logged into the platform
-* **Targeted announcements** — Send specific announcements to groups or individuals when the message is not relevant to the entire class
+* **Welcome message** — Δημιουργήστε μια ανακοίνωση στην αρχή του μαθήματος για να καλωσορίσετε τους εκπαιδευομένους και να παρέχετε προσανατολισμό
+* **Use email delivery** — Για ανακοινώσεις ευαίσθητες στον χρόνο, ενεργοποιήστε την επιλογή ηλεκτρονικού ταχυδρομείου ώστε οι εκπαιδευόμενοι να λάβουν το μήνυμα ακόμα και αν δεν είναι αυτή τη στιγμή συνδεδεμένοι στην πλατφόρμα
+* **Targeted announcements** — Στείλτε συγκεκριμένες ανακοινώσεις σε ομάδες ή άτομα όταν το μήνυμα δεν αφορά ολόκληρη την τάξη

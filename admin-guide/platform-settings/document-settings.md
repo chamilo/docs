@@ -1,247 +1,246 @@
-# Documents Settings
+# Ρυθμίσεις Εγγράφων
 
-Behaviour of the course **Documents** tool — uploads, allowed extensions, sharing, and templates.
+Συμπεριφορά του εργαλείου **Documents** του μαθήματος — μεταφορτώσεις, επιτρεπόμενες επεκτάσεις, κοινή χρήση και πρότυπα.
 
-Access these settings under **Administration > Configuration settings > Documents**. This category contains **29 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+Πρόσβαση σε αυτές τις ρυθμίσεις στο **Administration > Configuration settings > Documents**. Αυτή η κατηγορία περιέχει **29 ρυθμίσεις**, που παρατίθενται παρακάτω με τον τίτλο και το σχόλιο που παρέχονται στα fixtures των ρυθμίσεων της πλατφόρμας (`SettingsCurrentFixtures.php`).
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> Το όνομα της μεταβλητής στον κώδικα εμφανίζεται σε monospace. Χρησιμοποιήστε το κατά την προγραμματισμό μέσω του API ή όταν χρειάζεται να αλλάξετε αυτές τις ρυθμίσεις σε παγκόσμιο επίπεδο επεξεργαζόμενοι το [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
 
-## Settings
+## Ρυθμίσεις
 
 ### `access_url_specific_files`
 
-**Enable URL-specific files**
+**Ενεργοποίηση αρχείων ειδικών για URL**
 
-When this feature is enabled on a multi-URL configuration, you can go to the main URL and provide URL-specific versions of any file (in the documents tool). The original file will be replaced by the alternative whenever seeing it from a different URL. This allows you to customize each URL even further, while enjoying the advantage of re-using the same courses many times.
+Όταν αυτή η λειτουργία είναι ενεργοποιημένη σε διαμόρφωση πολλαπλών URL, μπορείτε να μεταβείτε στο κύριο URL και να παρέχετε εκδόσεις αρχείων ειδικές για URL (στο εργαλείο documents). Το αρχικό αρχείο θα αντικατασταθεί από την εναλλακτική όποτε το βλέπετε από διαφορετικό URL. Αυτό σας επιτρέπει να προσαρμόσετε περαιτέρω κάθε URL, απολαμβάνοντας το πλεονέκτημα της επαναχρησιμοποίησης των ίδιων μαθημάτων πολλές φορές.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 ### `default_document_quotum`
 
-**Default hard disk space**
+**Χώρος δίσκου προεπιλογής**
 
-What is the available disk space for a course? You can override the quota for specific course through: platform administration > Courses > modify
+Ποιος είναι ο διαθέσιμος χώρος δίσκου για ένα μάθημα; Μπορείτε να παρακάμψετε το όριο για συγκεκριμένο μάθημα μέσω: platform administration > Courses > modify
 
-*Default: `1000`*
+*Προεπιλογή: `1000`*
 
 
 ### `default_group_quotum`
 
-**Group disk space available**
+**Διαθέσιμος χώρος δίσκου ομάδας**
 
-What is the default hard disk spacde available for a groups documents tool?
+Ποιος είναι ο προεπιλεγμένος χώρος δίσκου διαθέσιμος για το εργαλείο εγγράφων των ομάδων;
 
-*Default: `250`*
+*Προεπιλογή: `250`*
 
 
 ### `documents_custom_cloud_link_list`
 
-**Set strict hosts list for cloud links**
+**Ορισμός αυστηρής λίστας hosts για συνδέσμους cloud**
 
-The documents tool can integrate links to files in the cloud. The list of cloud services is limited to a hardcoded list, but you can define the ‘links’ array that will contain a list of your own list of services/URLs. The list defined here will replace the default list.
+Το εργαλείο εγγράφων μπορεί να ενσωματώσει συνδέσμους σε αρχεία στο cloud. Η λίστα υπηρεσιών cloud περιορίζεται σε μια hardcoded λίστα, αλλά μπορείτε να ορίσετε τον πίνακα ‘links’ που θα περιέχει τη δική σας λίστα υπηρεσιών/URL. Η λίστα που ορίζεται εδώ θα αντικαταστήσει τη λίστα προεπιλογής.
 
 ### `documents_default_visibility_defined_in_course`
 
-**Document visibility defined in course**
+**Ορατότητα εγγράφου ορίζεται στο μάθημα**
 
-The default document visibility for all courses
+Η προεπιλεγμένη ορατότητα εγγράφου για όλα τα μαθήματα
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 ### `documents_hide_download_icon`
 
-**Hide documents download icon**
+**Απόκρυψη εικονιδίου λήψης εγγράφων**
 
-In the documents tool, hide the download icon from users.
+Στο εργαλείο εγγράφων, αποκρύψτε το εικονίδιο λήψης από τους χρήστες.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 
 ### `enable_x_sendfile_headers`
 
-**Enable X-sendfile headers**
+**Ενεργοποίηση headers X-sendfile**
 
-Enable this if you have X-sendfile enabled at the web server level and you want to add the required headers for browsers to pick it up.
+Ενεργοποιήστε αυτό εάν έχετε ενεργοποιημένο το X-sendfile σε επίπεδο web server και θέλετε να προσθέσετε τα απαιτούμενα headers ώστε τα προγράμματα περιήγησης να το αναγνωρίσουν.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 ### `group_category_document_access`
 
-**Enable sharing options for document inside group category**
+**Ενεργοποίηση επιλογών κοινής χρήσης για έγγραφα μέσα σε κατηγορία ομάδας**
 
-When enabled, administrators can set document access and sharing permissions for document groups by category.
+Όταν είναι ενεργοποιημένο, οι διαχειριστές μπορούν να ορίσουν πρόσβαση και δικαιώματα κοινής χρήσης για ομάδες εγγράφων ανά κατηγορία.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 
 ### `group_document_access`
 
-**Enable sharing options for group document**
+**Ενεργοποίηση επιλογών κοινής χρήσης για έγγραφο ομάδας**
 
-When enabled, document sharing and access permissions can be configured at the group level.
+Όταν είναι ενεργοποιημένο, τα δικαιώματα κοινής χρήσης και πρόσβασης εγγράφων μπορούν να ρυθμιστούν σε επίπεδο ομάδας.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 
 ### `pdf_export_watermark_by_course`
 
-**Enable watermark definition by course**
+**Ενεργοποίηση ορισμού υδατογραφήματος ανά μάθημα**
 
-When this option is enabled, teachers can define their own watermark for the documents in their courses.
+Όταν αυτή η επιλογή είναι ενεργοποιημένη, οι διδάσκοντες μπορούν να ορίσουν το δικό τους υδατογράφημα για τα έγγραφα στα μαθήματά τους.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 
 ### `pdf_export_watermark_enable`
 
-**Enable watermark in PDF export**
+**Ενεργοποίηση υδατογραφήματος στην εξαγωγή PDF**
 
-By enabling this option, you can upload an image or a text that will be automatically added as watermark to all PDF exports of documents on the system.
+Ενεργοποιώντας αυτή την επιλογή, μπορείτε να μεταφορτώσετε μια εικόνα ή κείμενο που θα προστεθεί αυτόματα ως υδατογράφημα σε όλες τις εξαγωγές PDF εγγράφων του συστήματος.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 ### `pdf_export_watermark_text`
 
-**PDF watermark text**
+**Κείμενο υδατογραφήματος PDF**
 
-This text will be added as a watermark to the documents exports as PDF.
+Αυτό το κείμενο θα προστεθεί ως υδατογράφημα στις εξαγωγές εγγράφων ως PDF.
 
 ### `permanently_remove_deleted_files`
 
-**Deleted files cannot be restored**
+**Διαγραμμένα αρχεία δεν μπορούν να αποκατασταθούν**
 
-Deleting a file in the documents tool permanently deletes it. The file cannot be restored
+Η διαγραφή ενός αρχείου στο εργαλείο εγγράφων το διαγράφει μόνιμα. Το αρχείο δεν μπορεί να αποκατασταθεί
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 ### `permissions_for_new_directories`
 
-**Permissions for new directories**
+**Δικαιώματα για νέους καταλόγους**
 
-The ability to define the permissions settings to assign to every newly created directory lets you improve security against attacks by hackers uploading dangerous content to your portal. The default setting (0770) should be enough to give your server a reasonable protection level. The given format uses the UNIX terminology of Owner-Group-Others with Read-Write-Execute permissions.
+Η δυνατότητα ορισμού ρυθμίσεων δικαιωμάτων για κάθε νέο κατάλογο που δημιουργείται σας επιτρέπει να βελτιώσετε την ασφάλεια έναντι επιθέσεων από hackers που μεταφορτώνουν επικίνδυνο περιεχόμενο στο portal σας. Η προεπιλεγμένη ρύθμιση (0770) θα πρέπει να είναι αρκετή για να δώσει στο server σας ένα εύλογο επίπεδο προστασίας. Η δοθείσα μορφή χρησιμοποιεί την UNIX ορολογία Owner-Group-Others με δικαιώματα Read-Write-Execute.
 
-*Default: `0770`*
+*Προεπιλογή: `0770`*
 
 
 ### `permissions_for_new_files`
 
-**Permissions for new files**
+**Δικαιώματα για νέα αρχεία**
 
-The ability to define the permissions settings to assign to every newly-created file lets you improve security against attacks by hackers uploading dangerous content to your portal. The default setting (0550) should be enough to give your server a reasonable protection level. The given format uses the UNIX terminology of Owner-Group-Others with Read-Write-Execute permissions. If you use Oogie, take care that the user who launch LibreOffice can write files in the course folder.
+Η δυνατότητα ορισμού ρυθμίσεων δικαιωμάτων για κάθε νέο αρχείο που δημιουργείται σας επιτρέπει να βελτιώσετε την ασφάλεια έναντι επιθέσεων από hackers που μεταφορτώνουν επικίνδυνο περιεχόμενο στο portal σας. Η προεπιλεγμένη ρύθμιση (0550) θα πρέπει να είναι αρκετή για να δώσει στο server σας ένα εύλογο επίπεδο προστασίας. Η δοθείσα μορφή χρησιμοποιεί την UNIX ορολογία Owner-Group-Others με δικαιώματα Read-Write-Execute. Εάν χρησιμοποιείτε Oogie, προσέξτε ώστε ο χρήστης που εκτελεί το LibreOffice να μπορεί να γράφει αρχεία στον φάκελο του μαθήματος.
 
-*Default: `0660`*
+*Προεπιλογή: `0660`*
 
 
 ### `send_notification_when_document_added`
 
-**Send notification to students when document added**
+**Αποστολή ειδοποίησης σε φοιτητές όταν προστίθεται έγγραφο**
 
-Whenever someone creates a new item in the documents tool, send a notification to users.
+Όποτε κάποιος δημιουργεί νέο αντικείμενο στο εργαλείο εγγράφων, αποστείλτε ειδοποίηση στους χρήστες.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
-
+---
 ### `show_default_folders`
 
-**Show in documents tool all folders containing multimedia resources supplied by default**
+**Εμφάνιση στο εργαλείο εγγράφων όλων των φακέλων που περιέχουν πολυμεσικά μέσα που παρέχονται από προεπιλογή**
 
-Multimedia file folders containing files supplied by default organized in categories of video, audio, image and flash animations to use in their courses. Although you make it invisible into the document tool, you can still use these resources in the platform web editor.
+Φάκελοι πολυμεσικών αρχείων που περιέχουν αρχεία που παρέχονται από προεπιλογή, οργανωμένα σε κατηγορίες βίντεο, ήχου, εικόνας και flash animations για χρήση στα μαθήματά τους. Αν και μπορείτε να τα κάνετε αόρατα στο εργαλείο εγγράφων, εξακολουθείτε να μπορείτε να χρησιμοποιείτε αυτούς τους πόρους στον web editor της πλατφόρμας.
 
-*Default: `true`*
+*Προεπιλογή: `true`*
 
 ### `show_documents_preview`
 
-**Show document preview**
+**Εμφάνιση προεπισκόπησης εγγράφων**
 
-Showing previews of the documents in the documents tool will avoid loading a new page just to show a document, but can result unstable with some older browsers or smaller width screens.
+Η εμφάνιση προεπισκοπήσεων των εγγράφων στο εργαλείο εγγράφων αποφεύγει το φόρτωμα νέας σελίδας μόνο για την εμφάνιση ενός εγγράφου, αλλά μπορεί να προκαλέσει αστάθεια με ορισμένα παλαιότερα προγράμματα περιήγησης ή οθόνες μικρότερου πλάτους.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 ### `show_users_folders`
 
-**Show users folders in the documents tool**
+**Εμφάνιση φακέλων χρηστών στο εργαλείο εγγράφων**
 
-This option allows you to show or hide to teachers the folders that the system generates for each user who visits the tool documents or send a file through the web editor. If you display these folders to the teachers, they may make visible or not the learners and allow each learner to have a specific place on the course where not only store documents, but where they can also create and edit web pages and to export to pdf, make drawings, make personal web templates, send files, as well as create, move and delete directories and files and make security copies from their folders. Each user of course have a complete document manager. Also, remember that any user can copy a file that is visible from any folder in the documents tool (whether or not the owner) to his/her portfolios or personal documents area of social network, which will be available for his/her can use it in other courses.
+Αυτή η επιλογή σας επιτρέπει να εμφανίζετε ή να αποκρύπτετε στους διδάσκοντες τους φακέλους που δημιουργεί το σύστημα για κάθε χρήστη που επισκέπτεται το εργαλείο εγγράφων ή στέλνει αρχείο μέσω του web editor. Αν εμφανίσετε αυτούς τους φακέλους στους διδάσκοντες, μπορούν να τους κάνουν ορατούς ή μη στους εκπαιδευομένους και να επιτρέψουν σε κάθε εκπαιδευόμενο να έχει έναν συγκεκριμένο χώρο στο μάθημα όπου όχι μόνο να αποθηκεύει έγγραφα, αλλά και να δημιουργεί και να επεξεργάζεται ιστοσελίδες, να εξάγει σε pdf, να κάνει σχεδιασμούς, να δημιουργεί προσωπικά πρότυπα ιστοσελίδων, να στέλνει αρχεία, καθώς και να δημιουργεί, να μετακινεί και να διαγράφει καταλόγους και αρχεία και να δημιουργεί αντίγραφα ασφαλείας από τους φακέλους τους. Κάθε χρήστης διαθέτει πλήρη διαχειριστή εγγράφων. Επίσης, θυμηθείτε ότι οποιοσδήποτε χρήστης μπορεί να αντιγράψει ένα αρχείο που είναι ορατό από οποιονδήποτε φάκελο στο εργαλείο εγγράφων (είτε είναι ο ιδιοκτήτης είτε όχι) στο portfolio του ή στην περιοχή προσωπικών εγγράφων του κοινωνικού δικτύου, το οποίο θα είναι διαθέσιμο για να το χρησιμοποιήσει σε άλλα μαθήματα.
 
-*Default: `true`*
+*Προεπιλογή: `true`*
 
 ### `students_download_folders`
 
-**Allow learners to download directories**
+**Επιτρέψτε στους εκπαιδευομένους να κατεβάζουν καταλόγους**
 
-Allow learners to pack and download a complete directory from the document tool
+Επιτρέπει στους εκπαιδευομένους να συμπτύσσουν και να κατεβάζουν έναν πλήρη κατάλογο από το εργαλείο εγγράφων
 
-*Default: `true`*
+*Προεπιλογή: `true`*
 
 
 ### `students_export2pdf`
 
-**Allow learners to export web documents to PDF format in the documents and wiki tools**
+**Επιτρέψτε στους εκπαιδευομένους να εξάγουν web έγγραφα σε μορφή PDF στα εργαλεία εγγράφων και wiki**
 
-This feature is enabled by default, but in case of server overload abuse it, or specific learning environments, might want to disable it for all courses.
+Αυτή η λειτουργία είναι ενεργοποιημένη από προεπιλογή, αλλά σε περίπτωση υπερφόρτωσης του εξυπηρετητή ή κατάχρησης ή συγκεκριμένων περιβαλλόντων μάθησης, μπορεί να θέλετε να την απενεργοποιήσετε για όλα τα μαθήματα.
 
-*Default: `true`*
+*Προεπιλογή: `true`*
 
 ### `thematic_pdf_orientation`
 
-**PDF orientation for course progress**
+**Προσανατολισμός PDF για την πρόοδο του μαθήματος**
 
-In the course progress tool, you can print a PDF of the different elements. Set ‘portrait’ or ‘landscape’ (technical terms) to change it.
+Στο εργαλείο προόδου μαθήματος, μπορείτε να εκτυπώσετε ένα PDF των διαφόρων στοιχείων. Ορίστε ‘portrait’ ή ‘landscape’ (τεχνικοί όροι) για να το αλλάξετε.
 
-*Default: `landscape`*
+*Προεπιλογή: `landscape`*
 
 
 ### `upload_extensions_blacklist`
 
-**Blacklist - setting**
+**Μαύρη λίστα - ρύθμιση**
 
-The blacklist is used to filter the files extensions by removing (or renaming) any file which extension figures in the blacklist below. The extensions should figure without the leading dot (.) and separated by semi-column (;) like the following:  exe;com;bat;scr;php. Files without extension are accepted. Letter casing (uppercase/lowercase) doesn't matter.
+Η μαύρη λίστα χρησιμοποιείται για να φιλτράρει τις επεκτάσεις αρχείων απομακρύνοντας (ή μετονομάζοντας) οποιοδήποτε αρχείο η επέκτασή του εμφανίζεται στη μαύρη λίστα παρακάτω. Οι επεκτάσεις πρέπει να εμφανίζονται χωρίς την αρχική τελεία (.) και χωρισμένες με ερωτηματικό (;) όπως τα εξής:  exe;com;bat;scr;php. Τα αρχεία χωρίς επέκταση γίνονται αποδεκτά. Η πεζοκεφαλαία (κεφαλαία/πεζά) δεν έχει σημασία.
 
 ### `upload_extensions_list_type`
 
-**Type of filtering on document uploads**
+**Τύπος φιλτραρίσματος σε φορτώσεις εγγράφων**
 
-Whether you want to use the blacklist or whitelist filtering. See blacklist or whitelist description below for more details.
+Εάν θέλετε να χρησιμοποιήσετε φιλτράρισμα μαύρης λίστας ή λευκής λίστας. Δείτε την περιγραφή μαύρης λίστας ή λευκής λίστας παρακάτω για περισσότερες λεπτομέρειες.
 
-*Default: `blacklist`*
+*Προεπιλογή: `blacklist`*
 
 
 ### `upload_extensions_replace_by`
 
-**Replacement extension**
+**Επέκταση αντικατάστασης**
 
-Enter the extension that you want to use to replace the dangerous extensions detected by the filter. Only needed if you have selected a filter by replacement.
+Εισαγάγετε την επέκταση που θέλετε να χρησιμοποιήσετε για να αντικαταστήσετε τις επικίνδυνες επεκτάσεις που ανιχνεύονται από το φίλτρο. Απαιτείται μόνο εάν έχετε επιλέξει φίλτρο με αντικατάσταση.
 
-*Default: `dangerous`*
+*Προεπιλογή: `dangerous`*
 
 
 ### `upload_extensions_skip`
 
-**Filtering behaviour (skip/rename)**
+**Συμπεριφορά φιλτραρίσματος (παράλειψη/μετονομασία)**
 
-If you choose to skip, the files filtered through the blacklist or whitelist will not be uploaded to the system. If you choose to rename them, their extension will be replaced by the one defined in the extension replacement setting. Beware that renaming doesn't really protect you, and may cause name collision if several files of the same name but different extensions exist.
+Εάν επιλέξετε παράλειψη, τα αρχεία που φιλτράρονται μέσω μαύρης λίστας ή λευκής λίστας δεν θα ανέβουν στο σύστημα. Εάν επιλέξετε μετονομασία, η επέκτασή τους θα αντικατασταθεί από αυτήν που ορίζεται στη ρύθμιση αντικατάστασης επέκτασης. Προσοχή ότι η μετονομασία δεν σας προστατεύει πραγματικά και μπορεί να προκαλέσει σύγκρουση ονομάτων εάν υπάρχουν πολλά αρχεία με το ίδιο όνομα αλλά διαφορετικές επεκτάσεις.
 
-*Default: `true`*
+*Προεπιλογή: `true`*
 
 
 ### `upload_extensions_whitelist`
 
-**Whitelist - setting**
+**Λευκή λίστα - ρύθμιση**
 
-The whitelist is used to filter the file extensions by removing (or renaming) any file whose extension does *NOT* figure in the whitelist below. It is generally considered as a safer but more restrictive approach to filtering. The extensions should figure without the leading dot (.) and separated by semi-column (;) such as the following:  htm;html;txt;doc;xls;ppt;jpg;jpeg;gif;sxw. Files without extension are accepted. Letter casing (uppercase/lowercase) doesn't matter.
+Η λευκή λίστα χρησιμοποιείται για να φιλτράρει τις επεκτάσεις αρχείων απομακρύνοντας (ή μετονομάζοντας) οποιοδήποτε αρχείο η επέκτασή του *ΔΕΝ* εμφανίζεται στη λευκή λίστα παρακάτω. Θεωρείται γενικά ως ασφαλέστερη αλλά πιο περιοριστική προσέγγιση στο φιλτράρισμα. Οι επεκτάσεις πρέπει να εμφανίζονται χωρίς την αρχική τελεία (.) και χωρισμένες με ερωτηματικό (;) όπως τα εξής:  htm;html;txt;doc;xls;ppt;jpg;jpeg;gif;sxw. Τα αρχεία χωρίς επέκταση γίνονται αποδεκτά. Η πεζοκεφαλαία (κεφαλαία/πεζά) δεν έχει σημασία.
 
 ### `users_copy_files`
 
-**Allow users to copy files from a course in your personal file area**
+**Επιτρέψτε στους χρήστες να αντιγράφουν αρχεία από ένα μάθημα στην προσωπική τους περιοχή αρχείων**
 
-Allows users to copy files from a course in your personal file area, visible through the Social Network or through the HTML editor when they are out of a course
+Επιτρέπει στους χρήστες να αντιγράφουν αρχεία από ένα μάθημα στην προσωπική τους περιοχή αρχείων, ορατή μέσω του Κοινωνικού Δικτύου ή μέσω του HTML editor όταν βρίσκονται εκτός μαθήματος
 
-*Default: `true`*
+*Προεπιλογή: `true`*
 
 
 ### `video_features`
 
-**Video features**
+**Λειτουργίες βίντεο**
 
-Array of extra features you can enable for the video player in Chamilo. Options include 'speed', which allows you to change the playback speed of a video.
-
+Πίνακας επιπλέον λειτουργιών που μπορείτε να ενεργοποιήσετε για τον player βίντεο στο Chamilo. Οι επιλογές περιλαμβάνουν 'speed', η οποία σας επιτρέπει να αλλάξετε την ταχύτητα αναπαραγωγής ενός βίντεο.

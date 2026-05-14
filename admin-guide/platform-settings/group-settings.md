@@ -1,37 +1,35 @@
-# Groups Settings
+# Ρυθμίσεις Ομάδων
 
-Behaviour of the course **Groups** tool.
+Συμπεριφορά του εργαλείου **Groups** του μαθήματος.
 
-Access these settings under **Administration > Configuration settings > Groups**. This category contains **3 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+Πρόσβαση σε αυτές τις ρυθμίσεις μέσω **Administration > Configuration settings > Groups**. Αυτή η κατηγορία περιέχει **3 ρυθμίσεις**, που παρατίθενται παρακάτω με τον τίτλο και το σχόλιο που παρέχονται στα fixtures των ρυθμίσεων της πλατφόρμας (`SettingsCurrentFixtures.php`).
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> Το όνομα της μεταβλητής στον κώδικα εμφανίζεται σε monospace. Χρησιμοποιήστε το κατά την προγραμματισμό μέσω API ή όταν χρειάζεται να αλλάξετε αυτές τις ρυθμίσεις σε παγκόσμιο επίπεδο επεξεργαζόμενοι το [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
 
-## Settings
+## Ρυθμίσεις
 
 ### `allow_group_categories`
 
-**Group categories**
+**Κατηγορίες ομάδων**
 
-Allow teachers to create categories in the Groups tool?
+Επιτρέπει στους διδάσκοντες να δημιουργούν κατηγορίες στο εργαλείο Groups;
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 
 ### `hide_course_group_if_no_tools_available`
 
-**Hide course group if no tool**
+**Απόκρυψη ομάδας μαθήματος αν δεν υπάρχουν εργαλεία**
 
-If no tool is available in a group and the user is not registered to the group itself, hide the group completely in the groups list.
+Αν δεν υπάρχει κανένα εργαλείο σε μια ομάδα και ο χρήστης δεν είναι εγγεγραμμένος στην ίδια την ομάδα, αποκρύπτει πλήρως την ομάδα από τη λίστα ομάδων.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 
 ### `show_groups_to_users`
 
-**Show classes to users**
+**Εμφάνιση τάξεων στους χρήστες**
 
-Show the classes to users. Classes are a feature that allow you to register/unregister groups of users into a session or a course directly, reducing the administrative hassle. When you pick this option, learners will be able to see in which class they are through their social network interface.
+Εμφανίζει τις τάξεις στους χρήστες. Οι τάξεις είναι ένα χαρακτηριστικό που επιτρέπει την εγγραφή/αποεγγραφή ομάδων χρηστών σε συνεδρία ή μάθημα απευθείας, μειώνοντας την διοικητική ταλαιπωρία. Όταν επιλέγετε αυτή την επιλογή, οι μαθητές θα μπορούν να βλέπουν σε ποια τάξη ανήκουν μέσω της διεπαφής του κοινωνικού τους δικτύου.
 
-*Default: `false`*
-
-
+*Προεπιλογή: `false`*

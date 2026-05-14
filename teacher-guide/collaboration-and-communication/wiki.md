@@ -1,59 +1,59 @@
 # Wiki
 
-The wiki tool lets you and your learners collaboratively create and edit web pages within the course. It is useful for group projects, shared knowledge bases, and collaborative writing exercises.
+Το εργαλείο wiki σας επιτρέπει εσάς και τους μαθητές σας να δημιουργείτε και να επεξεργάζεστε συνεργατικά ιστοσελίδες εντός του μαθήματος. Είναι χρήσιμο για ομαδικά έργα, κοινόχρηστες βάσεις γνώσεων και ασκήσεις συνεργατικής συγγραφής.
 
-## How the Wiki Works
+## Πώς λειτουργεί το Wiki
 
-A wiki is a collection of interlinked web pages that anyone with permission can edit. In Chamilo:
+Ένα wiki είναι μια συλλογή αλληλένδετων ιστοσελίδων που οποιοσδήποτε με άδεια μπορεί να επεξεργαστεί. Στο Chamilo:
 
-* Each course has its own wiki
-* Pages can be linked to each other using wiki-style links
-* All edits are tracked with a revision history
-* Previous versions can be compared and restored
+* Κάθε μάθημα έχει το δικό του wiki
+* Οι σελίδες μπορούν να συνδέονται μεταξύ τους χρησιμοποιώντας συνδέσμους τύπου wiki
+* Όλες οι επεξεργασίες παρακολουθούνται με ιστορικό αναθεωρήσεων
+* Προηγούμενες εκδόσεις μπορούν να συγκριθούν και να αποκατασταθούν
 
-## Creating a Wiki Page
+## Δημιουργία Σελίδας Wiki
 
-1. Open the **Wiki** tool from the course homepage
-2. Click **Add a new page**
-3. Enter a **page title**
-4. Write the page content using the rich-text editor
-5. Save
+1. Ανοίξτε το εργαλείο **Wiki** από την αρχική σελίδα του μαθήματος
+2. Κάντε κλικ στο **Προσθήκη νέας σελίδας**
+3. Εισαγάγετε έναν **τίτλο σελίδας**
+4. Γράψτε το περιεχόμενο της σελίδας χρησιμοποιώντας τον επεξεργαστή πλούσιου κειμένου
+5. Αποθήκευση
 
-To link to another wiki page from within the editor, create a link using the target page's title.
+Για να συνδέσετε με άλλη σελίδα wiki από μέσα στον επεξεργαστή, δημιουργήστε έναν σύνδεσμο χρησιμοποιώντας τον τίτλο της σελίδας-στόχου.
 
-## Editing Pages
+## Επεξεργασία Σελίδων
 
-Anyone with edit permissions can modify a wiki page:
+Οποιοσδήποτε με δικαιώματα επεξεργασίας μπορεί να τροποποιήσει μια σελίδα wiki:
 
-1. Open the page you want to edit
-2. Click the **Edit** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Edit" data-size="line"> button
-3. Make your changes in the editor
-4. Add an optional **Comments** entry describing what you changed
-5. Save
+1. Ανοίξτε τη σελίδα που θέλετε να επεξεργαστείτε
+2. Κάντε κλικ στο κουμπί **Επεξεργασία** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Επεξεργασία" data-size="line"> 
+3. Εισαγάγετε τις αλλαγές σας στον επεξεργαστή
+4. Προσθέστε μια προαιρετική εγγραφή **Σχόλια** που περιγράφει τι αλλάξατε
+5. Αποθήκευση
 
-## Revision History
+## Ιστορικό Αναθεωρήσεων
 
-Every edit creates a new revision. You can:
+Κάθε επεξεργασία δημιουργεί μια νέα αναθεώρηση. Μπορείτε να:
 
-* **View history** — See a list of all revisions with timestamps and authors
-* **Compare versions** — See what changed between two revisions
-* **Restore a version** — Revert the page to a previous revision if needed
+* **Εμφανίσετε ιστορικό** — Δείτε μια λίστα όλων των αναθεωρήσεων με χρονικές σφραγίδες και συγγραφείς
+* **Συγκρίνετε εκδόσεις** — Δείτε τι άλλαξε μεταξύ δύο αναθεωρήσεων
+* **Αποκαταστήσετε εκδοχή** — Επαναφέρετε τη σελίδα σε προηγούμενη αναθεώρηση αν χρειάζεται
 
-## Managing the Wiki
+## Διαχείριση του Wiki
 
-As the course teacher, you can:
+Ως δάσκαλος του μαθήματος, μπορείτε να:
 
-* **View all pages** — See a list of all wiki pages in the course
-* **Find orphan pages** — Identify pages that are not linked from any other page
-* **Find wanted pages** — See pages that are linked to but do not yet exist
-* **Lock a page for editing** — Block all edits on a page while you finalise it
-* **Toggle visibility** — Hide a page from learners
-* **Delete pages** — Remove pages that are no longer needed
-* **Monitor contributions** — Review per-user statistics: most active editors, most edited pages, most visited pages
-* **Export** — Export a wiki page to PDF, or send it into the Documents tool
+* **Εμφανίσετε όλες τις σελίδες** — Δείτε μια λίστα όλων των σελίδων wiki του μαθήματος
+* **Εντοπίσετε ορφανές σελίδες** — Αναγνωρίστε σελίδες που δεν συνδέονται από καμία άλλη σελίδα
+* **Εντοπίσετε ζητούμενες σελίδες** — Δείτε σελίδες που συνδέονται αλλά δεν υπάρχουν ακόμη
+* **Κλειδώσετε σελίδα για επεξεργασία** — Βαπτίστε όλες τις επεξεργασίες σε μια σελίδα ενώ την ολοκληρώνετε
+* **Εναλλαγή ορατότητας** — Κρύψτε μια σελίδα από τους μαθητές
+* **Διαγραφή σελίδων** — Αφαιρέστε σελίδες που δεν χρειάζονται πλέον
+* **Παρακολούθηση συνεισφορών** — Εξέταση στατιστικών ανά χρήστη: πιο ενεργοί επεξεργαστές, πιο επεξεργασμένες σελίδες, πιο επισκεπτόμενες σελίδες
+* **Εξαγωγή** — Εξαγωγή σελίδας wiki σε PDF, ή αποστολή της στο εργαλείο Documents
 
-## Tips
+## Συμβουλές
 
-* **Use the wiki for group projects** — Assign each group a wiki page to collaboratively build their deliverable
-* **Create a course knowledge base** — Build a reference wiki with key concepts, and encourage learners to contribute
-* **Review edit history** — The revision history lets you assess individual contributions in collaborative work
+* **Χρησιμοποιήστε το wiki για ομαδικά έργα** — Αναθέστε σε κάθε ομάδα μια σελίδα wiki για να χτίσουν συνεργατικά το παραδοτέο τους
+* **Δημιουργήστε βάση γνώσεων μαθήματος** — Χτίστε ένα wiki αναφοράς με βασικές έννοιες και ενθαρρύνετε τους μαθητές να συνεισφέρουν
+* **Ελέγξτε ιστορικό επεξεργασιών** — Το ιστορικό αναθεωρήσεων σας επιτρέπει να αξιολογήσετε μεμονωμένες συνεισφορές σε συνεργατική εργασία

@@ -1,78 +1,78 @@
-# Course Import and Export
+# Εισαγωγή και Εξαγωγή Μαθήματος
 
-Chamilo supports importing and exporting courses for backup, migration, and content sharing purposes.
+Το Chamilo υποστηρίζει την εισαγωγή και εξαγωγή μαθημάτων για σκοπούς αντιγράφων ασφαλείας, μετεγκατάστασης και κοινής χρήσης περιεχομένου.
 
-These features are located inside the course, in the **Maintenance** tool located under the cog icon at the top of the course homepage.
+Αυτά τα χαρακτηριστικά βρίσκονται μέσα στο μάθημα, στο εργαλείο **Συντήρηση** που βρίσκεται κάτω από το εικονίδιο γραναζιού στην κορυφή της αρχικής σελίδας του μαθήματος.
 
-## Exporting a Course
+## Εξαγωγή Μαθήματος
 
-Teachers can export their own courses from the course Maintenance tool. As an administrator, you can export any course:
+Οι διδάσκοντες μπορούν να εξάγουν τα δικά τους μαθήματα από το εργαλείο Συντήρηση μαθήματος. Ως διαχειριστής, μπορείτε να εξάγετε οποιοδήποτε μάθημα:
 
-1. Enter the course
-2. Access the **Course maintenance** tool
-3. Select **Create a backup**
-4. Choose what to include (content, user data, etc.)
-5. Download the export file
+1. Εισέλθετε στο μάθημα
+2. Πρόσβαση στο εργαλείο **Συντήρηση μαθήματος**
+3. Επιλέξτε **Δημιουργία αντιγράφου ασφαλείας**
+4. Επιλέξτε τι να συμπεριληφθεί (περιεχόμενο, δεδομένα χρηστών, κ.λπ.)
+5. Κατεβάστε το αρχείο εξαγωγής
 
-The export creates a package containing the course's documents, exercises, forums, learning paths, and configuration.
+Η εξαγωγή δημιουργεί ένα πακέτο που περιέχει τα έγγραφα του μαθήματος, τις ασκήσεις, τα φόρουμ, τα μονοπάτια μάθησης και τη διαμόρφωση.
 
-## Importing a Course
+## Εισαγωγή Μαθήματος
 
-To import a course from a Chamilo export file:
+Για να εισάγετε ένα μάθημα από αρχείο εξαγωγής Chamilo:
 
-1. Enter the course
-2. Access the **Course maintenance** tool
-3. In the **Import backup** section, upload the export file
-4. Choose what to include (content, user data, etc.)
-5. Configure import options:
-   * Whether to overwrite existing content
-   * Whether to include user data
-6. Run the import
+1. Εισέλθετε στο μάθημα
+2. Πρόσβαση στο εργαλείο **Συντήρηση μαθήματος**
+3. Στην ενότητα **Εισαγωγή αντιγράφου ασφαλείας**, ανεβάστε το αρχείο εξαγωγής
+4. Επιλέξτε τι να συμπεριληφθεί (περιεχόμενο, δεδομένα χρηστών, κ.λπ.)
+5. Διαμορφώστε επιλογές εισαγωγής:
+   * Εάν να αντικατασταθεί το υπάρχον περιεχόμενο
+   * Εάν να συμπεριληφθούν δεδομένα χρηστών
+6. Εκτελέστε την εισαγωγή
 
-## Copying a Course
+## Αντιγραφή Μαθήματος
 
-To copy the contents from another course into your course, you will need a source course and a destination course to be created first.
+Για να αντιγράψετε το περιεχόμενο από ένα άλλο μάθημα στο δικό σας μάθημα, θα χρειαστείτε πρώτα ένα μάθημα πηγής και ένα μάθημα προορισμού να δημιουργηθούν.
 
-1. Enter the destination course
-2. Access the **Course maintenance** tool
-3. In the **Copy course** section, select the **Source** course
-4. Validate the options
-5. Click **Continue** and follow the instructions
+1. Εισέλθετε στο μάθημα προορισμού
+2. Πρόσβαση στο εργαλείο **Συντήρηση μαθήματος**
+3. Στην ενότητα **Αντιγραφή μαθήματος**, επιλέξτε το μάθημα **Πηγής**
+4. Επικυρώστε τις επιλογές
+5. Κάντε κλικ στο **Συνέχεια** και ακολουθήστε τις οδηγίες
 
 ## Common Cartridge
 
-Chamilo supports the **IMS Common Cartridge 1.3** (IMS CC 1.3) standard for interoperability with other learning management systems. You can:
+Το Chamilo υποστηρίζει το πρότυπο **IMS Common Cartridge 1.3** (IMS CC 1.3) για διαλειτουργικότητα με άλλα συστήματα διαχείρισης μάθησης. Μπορείτε να:
 
-* **Import** Common Cartridge packages (.imscc files)
-* **Export** course content in Common Cartridge format
+* **Εισάγετε** πακέτα Common Cartridge (αρχεία .imscc)
+* **Εξάγετε** περιεχόμενο μαθήματος σε μορφή Common Cartridge
 
-This allows content exchange with other platforms that support the Common Cartridge standard (Moodle, Canvas, Blackboard, etc.).
+Αυτό επιτρέπει την ανταλλαγή περιεχομένου με άλλες πλατφόρμες που υποστηρίζουν το πρότυπο Common Cartridge (Moodle, Canvas, Blackboard, κ.λπ.).
 
-## Recycling a course
+## Ανακύκλωση μαθήματος
 
-The course recycling feature simply allows you to keep the shell of the course but to erase its content.
+Το χαρακτηριστικό ανακύκλωσης μαθήματος σας επιτρέπει απλώς να διατηρήσετε το κέλυφος του μαθήματος αλλά να διαγράψετε το περιεχόμενό του.
 
-## Deleting a course
+## Διαγραφή μαθήματος
 
-This will completely erase your course, including all its contents and the user activity in it.
+Αυτό θα διαγράψει πλήρως το μάθημά σας, συμπεριλαμβανομένου όλου του περιεχομένου του και της δραστηριότητας των χρηστών σε αυτό.
 
-To delete a course permanently:
+Για να διαγράψετε μόνιμα ένα μάθημα:
 
-1. Enter the destination course
-2. Access the **Course maintenance** tool
-3. In the **Completely delete this course** section, enter the code of the course manually to confirm your intention
-4. Validate
+1. Εισέλθετε στο μάθημα προορισμού
+2. Πρόσβαση στο εργαλείο **Συντήρηση μαθήματος**
+3. Στην ενότητα **Πλήρης διαγραφή αυτού του μαθήματος**, εισαγάγετε τον κωδικό του μαθήματος χειροκίνητα για να επιβεβαιώσετε την πρόθεσή σας
+4. Επικυρώστε
 
-You then get redirected to the portal homepage, because the course does not exist anymore.
+Στη συνέχεια, ανακατευθύνεστε στην αρχική σελίδα του πύλη, επειδή το μάθημα δεν υπάρχει πλέον.
 
-## Moodle Import
+## Εισαγωγή από Moodle
 
-Chamilo can import course backups from **Moodle**. The importer converts Moodle's content structure to Chamilo's format, including quizzes, documents, and course settings.
+Το Chamilo μπορεί να εισάγει αντίγραφα ασφαλείας μαθημάτων από το **Moodle**. Ο εισαγωγέας μετατρέπει τη δομή περιεχομένου του Moodle στη μορφή του Chamilo, συμπεριλαμβανομένων κουίζ, εγγράφων και ρυθμίσεων μαθήματος.
 
-> **Work in progress.** Although it already covers a wide base, the Moodle importer does not currently cover every Moodle activity type and content format. Treat it as a starting point that may still require manual adjustment after the import completes. If you detect any failing/missing element in the import or export, please report it to us through our [Github space](https://github.com/chamilo/chamilo-lms/issues) by clicking **New issue** at the top and giving as much details as possible (including the course backup itself if it's not confidential).
+> **Εργασία σε εξέλιξη.** Αν και καλύπτει ήδη ευρεία βάση, ο εισαγωγέας Moodle δεν καλύπτει αυτή τη στιγμή κάθε τύπο δραστηριότητας και μορφή περιεχομένου του Moodle. Θεωρήστε το ως αφετηρία που μπορεί να απαιτεί ακόμα χειροκίνητη προσαρμογή μετά την ολοκλήρωση της εισαγωγής. Εάν εντοπίσετε οποιοδήποτε αποτυχημένο/λείπον στοιχείο στην εισαγωγή ή εξαγωγή, παρακαλούμε αναφέρετέ το σε εμάς μέσω του [Github space](https://github.com/chamilo/chamilo-lms/issues) κάνοντας κλικ στο **New issue** στην κορυφή και δίνοντας όσο το δυνατόν περισσότερες λεπτομέρειες (συμπεριλαμβανομένου του ίδιου του αντιγράφου ασφαλείας του μαθήματος εάν δεν είναι εμπιστευτικό).
 
-## Tips
+## Συμβουλές
 
-* **Regular backups** — Encourage teachers to export their courses periodically as a backup
-* **Test imports** — When importing content from another platform, test the import in a trial course first to verify that everything transferred correctly
-* **Content portability** — Use Common Cartridge format when you need to share content with other LMS platforms
+* **Τακτικά αντίγραφα ασφαλείας** — Ενθαρρύνετε τους διδάσκοντες να εξάγουν τα μαθήματά τους περιοδικά ως αντίγραφο ασφαλείας
+* **Δοκιμές εισαγωγών** — Κατά την εισαγωγή περιεχομένου από άλλη πλατφόρμα, δοκιμάστε την εισαγωγή σε ένα δοκιμαστικό μάθημα πρώτα για να επαληθεύσετε ότι όλα μεταφέρθηκαν σωστά
+* **Φορητότητα περιεχομένου** — Χρησιμοποιήστε τη μορφή Common Cartridge όταν χρειάζεται να μοιραστείτε περιεχόμενο με άλλες πλατφόρμες LMS

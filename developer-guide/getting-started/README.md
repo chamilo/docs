@@ -1,7 +1,7 @@
-# Getting Started
+# Εκκίνηση
 
-This section helps you set up a development environment and understand the Chamilo 2.0 project structure.
+Αυτή η ενότητα σας βοηθά να ρυθμίσετε ένα περιβάλλον ανάπτυξης και να κατανοήσετε τη δομή του έργου Chamilo 2.0.
 
-* **[Tech Stack](tech-stack.md)** — All technologies and their versions
-* **[Development Setup](development-setup.md)** — How to get Chamilo running locally
-* **[Project Structure](project-structure.md)** — Where things live in the codebase
+* **[Tech Stack](tech-stack.md)** — Όλες οι τεχνολογίες και οι εκδόσεις τους
+* **[Development Setup](development-setup.md)** — Πώς να εκτελέσετε το Chamilo τοπικά
+* **[Project Structure](project-structure.md)** — Πού βρίσκονται τα πράγματα στον κώδικα πηγής

@@ -1,40 +1,40 @@
-# Glossary Terms Generator
+# Γεννήτρια Όρων Γλωσσαρίου
 
-The AI Glossary Terms Generator helps you build your course glossary faster by automatically producing term definitions from a topic or subject area. You review each suggested term and definition before adding anything to the glossary.
+Η Γεννήτρια Όρων Γλωσσαρίου με Τεχνητή Νοημοσύνη σας βοηθά να δημιουργήσετε το γλωσσάρι του μαθήματός σας ταχύτερα, παράγοντας αυτόματα ορισμούς όρων από ένα θέμα ή πεδίο γνώσης. Ελέγχετε κάθε προτεινόμενο όρο και ορισμό πριν προσθέσετε οτιδήποτε στο γλωσσάρι.
 
-## Accessing the Glossary Terms Generator
+## Πρόσβαση στη Γεννήτρια Όρων Γλωσσαρίου
 
-The generator is available from the **Glossary** tool, provided that:
+Η γεννήτρια είναι διαθέσιμη από το εργαλείο **Glossary**, εφόσον ισχύουν τα εξής:
 
-1. AI helpers are enabled at the platform level
-2. At least one AI text provider is configured
+1. Οι βοηθοί Τεχνητής Νοημοσύνης είναι ενεργοποιημένοι σε επίπεδο πλατφόρμας
+2. Έχει ρυθμιστεί τουλάχιστον ένας πάροχος κειμένου Τεχνητής Νοημοσύνης
 
-Open the **Glossary** <img src="/.gitbook/assets/icons/mdi-alphabetical.svg" alt="Glossary" data-size="line"> tool from the course homepage and look for the **Generate with AI** button in the toolbar.
+Ανοίξτε το εργαλείο **Glossary** <img src="/.gitbook/assets/icons/mdi-alphabetical.svg" alt="Glossary" data-size="line"> από την αρχική σελίδα του μαθήματος και αναζητήστε το κουμπί **Generate with AI** στη γραμμή εργαλείων.
 
-## How to Generate Terms
+## Πώς να Γεννήσετε Όρους
 
-1. Click **Generate with AI**
-2. Enter a **topic or subject area** — describe the domain you want terms for (e.g. "introductory organic chemistry" or "project management methodologies")
-3. Optionally specify the **number of terms** to generate
-4. Select an **AI provider** if more than one is configured
-5. Click **Generate**
+1. Κάντε κλικ στο **Generate with AI**
+2. Εισαγάγετε ένα **θέμα ή πεδίο γνώσης** — περιγράψτε τον τομέα για τον οποίο θέλετε όρους (π.χ. "εισαγωγική οργανική χημεία" ή "μεθοδολογίες διαχείρισης έργων")
+3. Προαιρετικά, καθορίστε τον **αριθμό όρων** που θα παραχθούν
+4. Επιλέξτε έναν **πάροχο AI** αν είναι ρυθμισμένοι περισσότεροι από ένας
+5. Κάντε κλικ στο **Generate**
 
-The AI produces a list of terms with definitions that you can then review.
+Η Τεχνητή Νοημοσύνη παράγει μια λίστα όρων με ορισμούς που μπορείτε στη συνέχεια να ελέγξετε.
 
-## Reviewing and Adding Terms
+## Επανεξέταση και Προσθήκη Όρων
 
-Generated terms are shown as suggestions. Before adding them to your glossary:
+Οι παραχθέντες όροι εμφανίζονται ως προτάσεις. Πριν τους προσθέσετε στο γλωσσάρι σας:
 
-* **Check accuracy** — Verify that definitions are correct for your course level and context
-* **Edit wording** — Adjust the definition to match your teaching style or course conventions
-* **Remove duplicates** — Skip any terms already in your glossary or outside the scope of your course
-* **Select what to add** — Choose which terms to import; you do not have to accept all of them
+* **Ελέγξτε την ακρίβεια** — Επαληθεύστε ότι οι ορισμοί είναι σωστοί για το επίπεδο και το πλαίσιο του μαθήματός σας
+* **Επεξεργαστείτε τη διατύπωση** — Προσαρμόστε τον ορισμό ώστε να ταιριάζει στο δικό σας στυλ διδασκαλίας ή στις συμβάσεις του μαθήματος
+* **Αφαιρέστε διπλότυπα** — Παραλείψτε όρους που υπάρχουν ήδη στο γλωσσάρι σας ή που είναι εκτός εύρους του μαθήματος
+* **Επιλέξτε τι θα προσθέσετε** — Διαλέξτε ποιους όρους θα εισαγάγετε· δεν χρειάζεται να αποδεχθείτε όλους
 
-Once satisfied, confirm the selection and the terms are added to your glossary.
+Μόλις είστε ικανοποιημένοι, επιβεβαιώστε την επιλογή και οι όροι προστίθενται στο γλωσσάρι σας.
 
-## Tips
+## Συμβουλές
 
-* **Be specific with your topic** — Broad topics produce general definitions; a narrower topic gives you more course-relevant terms
-* **Always review** — AI definitions may be simplified or imprecise. Check each one before publishing to learners
-* **Edit after importing** — You can always update a term's definition later from the glossary management view
-* **Combine with manual entries** — Use the generator to get a starting set, then add discipline-specific terms manually
+* **Νέστε εύστοχα το θέμα σας** — Ευρεία θέματα παράγουν γενικούς ορισμούς· ένα στενότερο θέμα σας δίνει πιο σχετικούς με το μάθημα όρους
+* **Ελέγχετε πάντα** — Οι ορισμοί της Τεχνητής Νοημοσύνης μπορεί να είναι απλοποιημένοι ή ανακριβείς. Ελέγξτε κάθε έναν πριν δημοσιεύσετε στους μαθητές
+* **Επεξεργαστείτε μετά την εισαγωγή** — Μπορείτε πάντα να ενημερώσετε τον ορισμό ενός όρου αργότερα από την προβολή διαχείρισης γλωσσαρίου
+* **Συνδυάστε με χειροκίνητες καταχωρίσεις** — Χρησιμοποιήστε τη γεννήτρια για να αποκτήσετε ένα αρχικό σύνολο, στη συνέχεια προσθέστε χειροκίνητα όρους ειδικούς για τον κλάδο

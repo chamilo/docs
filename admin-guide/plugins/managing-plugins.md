@@ -1,46 +1,46 @@
-# Managing Plugins
+# Διαχείριση Πρόσθετων
 
-## Accessing the Plugin Manager
+## Πρόσβαση στον Διαχειριστή Πρόσθετων
 
-![The plugin manager showing a list of available plugins with activation toggles and configuration options](/.gitbook/assets/admin-plugin-manager.png)
+![Ο διαχειριστής πρόσθετων που εμφανίζει λίστα διαθέσιμων πρόσθετων με διακόπτες ενεργοποίησης και επιλογές διαμόρφωσης](/.gitbook/assets/admin-plugin-manager.png)
 
-From the administration panel, click **Manage plugins** to see the list of available plugins.
+Από τον πίνακα διαχείρισης, κάντε κλικ στο **Manage plugins** για να δείτε τη λίστα με τα διαθέσιμα πρόσθετα.
 
-## Plugin States
+## Καταστάσεις Πρόσθετων
 
-Each plugin has one of two states:
+Κάθε πρόσθετο έχει μία από δύο καταστάσεις:
 
-* **Active** — The plugin is enabled and its features are available on the platform
-* **Inactive** — The plugin is installed but disabled
+* **Ενεργό** — Το πρόσθετο είναι ενεργοποιημένο και τα χαρακτηριστικά του είναι διαθέσιμα στην πλατφόρμα
+* **Ανενεργό** — Το πρόσθετο είναι εγκατεστημένο αλλά απενεργοποιημένο
 
-## Activating a Plugin
+## Ενεργοποίηση Πρόσθετου
 
-1. Find the plugin in the list
-2. Click **Install**, then **Enable** or toggle it on
-3. Configure the plugin settings (if applicable, find the **Configure** button)
-4. Save
-5. If recommended in the README, enable it in a specific **region**
+1. Βρείτε το πρόσθετο στη λίστα
+2. Κάντε κλικ στο **Install**, στη συνέχεια **Enable** ή ενεργοποιήστε το διακόπτη
+3. Διαμορφώστε τις ρυθμίσεις του πρόσθετου (αν υπάρχει, βρείτε το κουμπί **Configure**)
+4. Αποθηκεύστε
+5. Αν συνιστάται στο README, ενεργοποιήστε το σε συγκεκριμένη **περιοχή**
 
-Some plugins add tools to courses, new pages to the platform, or additional functionality to existing features.
+Μερικά πρόσθετα προσθέτουν εργαλεία σε μαθήματα, νέες σελίδες στην πλατφόρμα ή επιπλέον λειτουργικότητα σε υπάρχοντα χαρακτηριστικά.
 
-## Configuring a Plugin
+## Διαμόρφωση Πρόσθετου
 
-Many plugins have configuration options. After activating a plugin:
+Πολλά πρόσθετα έχουν επιλογές διαμόρφωσης. Μετά την ενεργοποίηση ενός πρόσθετου:
 
-1. Click the **Configure** button next to the plugin
-2. Fill in the required configuration (API keys, URLs, options, etc.)
-3. Save
+1. Κάντε κλικ στο κουμπί **Configure** δίπλα στο πρόσθετο
+2. Συμπληρώστε την απαιτούμενη διαμόρφωση (κλειδιά API, URLs, επιλογές κ.λπ.)
+3. Αποθηκεύστε
 
-## Deactivating a Plugin
+## Απενεργοποίηση Πρόσθετου
 
-1. Find the plugin in the list
-2. Click **Disable** or toggle it off
-3. The plugin's features are immediately removed from the platform, but the plugin is still installed and maintains its configuration until you **Uninstall** it
+1. Βρείτε το πρόσθετο στη λίστα
+2. Κάντε κλικ στο **Disable** ή απενεργοποιήστε το διακόπτη
+3. Τα χαρακτηριστικά του πρόσθετου αφαιρούνται αμέσως από την πλατφόρμα, αλλά το πρόσθετο παραμένει εγκατεστημένο και διατηρεί τη διαμόρφωσή του μέχρι να το **καταργήσετε**
 
-Disabling a plugin does not delete its data. If you enable it later, the data is still available.
+Η απενεργοποίηση ενός πρόσθετου δεν διαγράφει τα δεδομένα του. Αν το ενεργοποιήσετε αργότερα, τα δεδομένα εξακολουθούν να είναι διαθέσιμα.
 
-## Tips
+## Συμβουλές
 
-* **Only activate what you need** — Each active plugin adds some overhead. Keep unused plugins deactivated.
-* **Test before production** — Activate new plugins in a test environment first
-* **Check compatibility** — After upgrading Chamilo, verify that all active plugins still work correctly
+* **Ενεργοποιήστε μόνο όσα χρειάζεστε** — Κάθε ενεργό πρόσθετο προσθέτει κάποιο επιπλέον φορτίο. Διατηρήστε τα μη χρησιμοποιούμενα πρόσθετα απενεργοποιημένα.
+* **Δοκιμάστε πριν την παραγωγή** — Ενεργοποιήστε νέα πρόσθετα πρώτα σε περιβάλλον δοκιμών
+* **Ελέγξτε τη συμβατότητα** — Μετά την αναβάθμιση του Chamilo, ελέγξτε ότι όλα τα ενεργά πρόσθετα λειτουργούν σωστά

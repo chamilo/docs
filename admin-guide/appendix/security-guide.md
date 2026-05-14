@@ -1,61 +1,61 @@
-# Security Guide
+# Οδηγός Ασφάλειας
 
-This guide covers security best practices for running a Chamilo 2.0 platform in production. Security is a shared responsibility between the platform software, your server configuration, and ongoing operational practices.
+Αυτός ο οδηγός καλύπτει τις βέλτιστες πρακτικές ασφάλειας για την εκτέλεση της πλατφόρμας Chamilo 2.0 σε παραγωγικό περιβάλλον. Η ασφάλεια είναι κοινή ευθύνη μεταξύ του λογισμικού της πλατφόρμας, της διαμόρφωσης του διακομιστή σας και των συνεχιζόμενων λειτουργικών πρακτικών.
 
-## Keep Chamilo Updated
+## Διατήρηση Ενημερωμένης Chamilo
 
-The most important security practice is keeping your Chamilo installation up to date.
+Η σημαντικότερη πρακτική ασφάλειας είναι η διατήρηση της εγκατάστασης Chamilo ενημερωμένη.
 
-* Subscribe to the Chamilo security X account (@chamilosecurity) or watch the GitHub repository for release announcements.
-* Apply security patches promptly. Minor updates within the 2.0 branch are designed to be safe to apply.
-* Follow the [upgrade process](../installation/upgrading.md) for each update.
+* Εγγραφείτε στον λογαριασμό X ασφαλείας Chamilo (@chamilosecurity) ή παρακολουθήστε το αποθετήριο GitHub για ανακοινώσεις κυκλοφοριών.
+* Εφαρμόστε τα patches ασφαλείας άμεσα. Οι μικρές ενημερώσεις εντός του κλάδου 2.0 είναι σχεδιασμένες να είναι ασφαλείς στην εφαρμογή.
+* Ακολουθήστε τη [διαδικασία αναβάθμισης](../installation/upgrading.md) για κάθε ενημέρωση.
 
 ## HTTPS
 
-Always serve Chamilo over HTTPS in production.
+Πάντα να παρέχετε την Chamilo μέσω HTTPS σε παραγωγικό περιβάλλον.
 
-* Obtain an SSL/TLS certificate (Let's Encrypt provides free certificates via Certbot).
-* Configure your web server to redirect all HTTP traffic to HTTPS.
-* Enable the HSTS (HTTP Strict Transport Security) header to prevent downgrade attacks:
+* Αποκτήστε πιστοποιητικό SSL/TLS (το Let's Encrypt παρέχει δωρεάν πιστοποιητικά μέσω Certbot).
+* Διαμορφώστε τον web server σας να ανακατευθύνει όλη την κίνηση HTTP σε HTTPS.
+* Ενεργοποιήστε την κεφαλίδα HSTS (HTTP Strict Transport Security) για την αποτροπή επιθέσεων υποβάθμισης:
 
   ```
   Strict-Transport-Security: max-age=31536000; includeSubDomains
   ```
 
-Without HTTPS, login credentials, session cookies, and all user data are transmitted in plain text and can be intercepted on the network.
+Χωρίς HTTPS, τα διαπιστευτήρια σύνδεσης, τα cookies συνεδρίας και όλα τα δεδομένα χρήστη μεταδίδονται σε απλό κείμενο και μπορούν να παρεμβληθούν στο δίκτυο.
 
-## File Permissions
+## Δικαιώματα Αρχείων
 
-Restrict file permissions to the minimum necessary.
+Περιορίστε τα δικαιώματα αρχείων στο ελάχιστο απαραίτητο.
 
-| Path | Owner | Permissions | Notes |
-|------|-------|-------------|-------|
-| Application files (source code) | root or deploy user | 755 (dirs), 644 (files) | Web server needs read-only access. |
-| `var/` | web server user | 775 | Must be writable for Symfony cache, logs and file uploads |
-| `.env` | root or deploy user | 640 | Contains secrets. Web server needs read access only during normal use, but needs write access during installation. |
-| `config/` | root or deploy user | 750 | Contains secrets. Web server needs read access only during normal use, but needs write access during installation. |
+| Διαδρομή | Κάτοχος | Δικαιώματα | Σημειώσεις |
+|----------|---------|------------|------------|
+| Αρχεία εφαρμογής (πηγαίος κώδικας) | root ή χρήστης ανάπτυξης | 755 (κατάλογοι), 644 (αρχεία) | Ο web server χρειάζεται πρόσβαση μόνο-ανάγνωσης. |
+| `var/` | χρήστης web server | 775 | Πρέπει να είναι εγγράψιμο για cache Symfony, αρχεία καταγραφής και μεταφορτώσεις αρχείων |
+| `.env` | root ή χρήστης ανάπτυξης | 640 | Περιέχει μυστικά. Ο web server χρειάζεται πρόσβαση ανάγνωσης μόνο κατά τη φυσιολογική χρήση, αλλά χρειάζεται πρόσβαση εγγραφής κατά την εγκατάσταση. |
+| `config/` | root ή χρήστης ανάπτυξης | 750 | Περιέχει μυστικά. Ο web server χρειάζεται πρόσβαση ανάγνωσης μόνο κατά τη φυσιολογική χρήση, αλλά χρειάζεται πρόσβαση εγγραφής κατά την εγκατάσταση. |
 
-Never set permissions to 777. Never run the web server as root.
+Ποτέ μην ορίζετε δικαιώματα σε 777. Ποτέ μην εκτελείτε τον web server ως root.
 
-## Password Policies
+## Πολιτικές Κωδικών Πρόσβασης
 
-Configure strong password requirements in [Security Settings](../platform-settings/security-settings.md):
+Διαμορφώστε αυστηρές απαιτήσεις κωδικών πρόσβασης στις [Ρυθμίσεις Ασφαλείας](../platform-settings/security-settings.md):
 
-* Minimum length of 8 characters (12+ recommended).
-* Require a mix of uppercase, lowercase, numbers, and special characters.
-* Consider enabling password expiration for compliance-driven environments.
-* Educate users about choosing strong, unique passwords.
+* Ελάχιστο μήκος 8 χαρακτήρων (12+ συνιστάται).
+* Απαίτηση συνδυασμού κεφαλαίων, πεζών, αριθμών και ειδικών χαρακτήρων.
+* Σκεφτείτε την ενεργοποίηση λήξης κωδικού πρόσβασης για περιβάλλοντα με απαιτήσεις συμμόρφωσης.
+* Εκπαιδεύστε τους χρήστες σχετικά με την επιλογή ισχυρών, μοναδικών κωδικών πρόσβασης.
 
-## Rate Limiting and Brute-Force Protection
+## Περιορισμός Ρυθμού και Προστασία Brute-Force
 
-### Application Level
+### Επίπεδο Εφαρμογής
 
-* Set **Max login attempts before blocking account** (`login_max_attempt_before_blocking_account`) to a small value (for example 5).
-* Enable **CAPTCHA** on the login page. CAPTCHA is on/off — it is not switched on automatically after N failed logins. Pair it with **CAPTCHA mistakes before blocking** (`captcha_number_mistakes_to_block_account`) to lock out an account that keeps failing the CAPTCHA.
+* Ορίστε **Μέγιστες προσπάθειες σύνδεσης πριν τον αποκλεισμό λογαριασμού** (`login_max_attempt_before_blocking_account`) σε μικρή τιμή (π.χ. 5).
+* Ενεργοποιήστε **CAPTCHA** στη σελίδα σύνδεσης. Το CAPTCHA είναι ενεργο/ανενεργό — δεν ενεργοποιείται αυτόματα μετά από N αποτυχημένες συνδέσεις. Συνδυάστε το με **CAPTCHA λάθη πριν τον αποκλεισμό** (`captcha_number_mistakes_to_block_account`) για να κλειδώσετε έναν λογαριασμό που αποτυγχάνει συνεχώς στο CAPTCHA.
 
-### Server Level
+### Επίπεδο Διακομιστή
 
-Use **fail2ban** to monitor login failures and block offending IP addresses:
+Χρησιμοποιήστε το **fail2ban** για την παρακολούθηση αποτυχιών σύνδεσης και τον αποκλεισμό προσβλητικών διευθύνσεων IP:
 
 ```ini
 # /etc/fail2ban/jail.d/chamilo.conf
@@ -68,12 +68,12 @@ maxretry = 5
 bantime = 900
 ```
 
-Create a matching filter in `/etc/fail2ban/filter.d/chamilo-auth.conf` to match authentication failure log entries.
+Δημιουργήστε ένα αντίστοιχο φίλτρο στο `/etc/fail2ban/filter.d/chamilo-auth.conf` για να ταιριάζει με καταχωρήσεις αρχείων καταγραφής αποτυχιών ταυτοποίησης.
 
-## Session Management
+## Διαχείριση Συνεδρίας
 
-* Set a reasonable **session lifetime** (e.g., 3600 seconds / 1 hour) in security settings.
-* Configure **session cookie flags** in your Symfony configuration:
+* Ορίστε εύλογη **διάρκεια ζωής συνεδρίας** (π.χ., 3600 δευτερόλεπτα / 1 ώρα) στις ρυθμίσεις ασφαλείας.
+* Διαμορφώστε **σημαίες cookie συνεδρίας** στη διαμόρφωση Symfony σας:
 
   ```yaml
   # config/packages/framework.yaml
@@ -84,21 +84,21 @@ Create a matching filter in `/etc/fail2ban/filter.d/chamilo-auth.conf` to match 
           cookie_samesite: lax     # CSRF protection
   ```
 
-* Consider disabling "Remember me" on platforms with sensitive content.
+* Σκεφτείτε την απενεργοποίηση του "Remember me" σε πλατφόρμες με ευαίσθητο περιεχόμενο.
 
-## HTTP Security Headers
+## Κεφαλίδες Ασφαλείας HTTP
 
-Configure your web server to send security headers:
+Διαμορφώστε τον web server σας να αποστέλλει κεφαλίδες ασφαλείας:
 
-| Header | Value | Purpose |
-|--------|-------|---------|
-| `X-Content-Type-Options` | `nosniff` | Prevents MIME-type sniffing. |
-| `X-Frame-Options` | `SAMEORIGIN` | Prevents clickjacking via iframes. |
-| `X-XSS-Protection` | `1; mode=block` | Legacy XSS protection for older browsers. |
-| `Referrer-Policy` | `strict-origin-when-cross-origin` | Controls referrer information leakage. |
-| `Content-Security-Policy` | Varies | Controls which resources can be loaded. Requires careful tuning for Chamilo. |
+| Κεφαλίδα | Τιμή | Σκοπός |
+|----------|------|--------|
+| `X-Content-Type-Options` | `nosniff` | Αποτρέπει την ανίχνευση τύπου MIME. |
+| `X-Frame-Options` | `SAMEORIGIN` | Αποτρέπει το clickjacking μέσω iframes. |
+| `X-XSS-Protection` | `1; mode=block` | Αρχαία προστασία XSS για παλαιότερους browsers. |
+| `Referrer-Policy` | `strict-origin-when-cross-origin` | Ελέγχει τη διαρροή πληροφοριών referrer. |
+| `Content-Security-Policy` | Διαφέρει | Ελέγχει ποιους πόρους μπορούν να φορτωθούν. Απαιτεί προσεκτική ρύθμιση για Chamilo. |
 
-Example for Apache:
+Παράδειγμα για Apache:
 
 ```apache
 Header always set X-Content-Type-Options "nosniff"
@@ -106,7 +106,7 @@ Header always set X-Frame-Options "SAMEORIGIN"
 Header always set Referrer-Policy "strict-origin-when-cross-origin"
 ```
 
-Example for Nginx:
+Παράδειγμα για Nginx:
 
 ```nginx
 add_header X-Content-Type-Options "nosniff" always;
@@ -114,10 +114,11 @@ add_header X-Frame-Options "SAMEORIGIN" always;
 add_header Referrer-Policy "strict-origin-when-cross-origin" always;
 ```
 
-## File Upload Security
+---
+## Ασφάλεια Ανεβάσματος Αρχείων
 
-* Block executable file extensions (exe, bat, sh, php, phtml, cgi) in [Security Settings](../platform-settings/security-settings.md).
-* Configure your web server to **never execute uploaded files**. For Apache, add to the entire var/ directory:
+* Μπλοκάρετε τις επεκτάσεις εκτελέσιμων αρχείων (exe, bat, sh, php, phtml, cgi) στις [Ρυθμίσεις Ασφαλείας](../platform-settings/security-settings.md).
+* Ρυθμίστε τον web server σας ώστε να **μην εκτελεί ποτέ ανεβασμένα αρχεία**. Για Apache, προσθέστε για ολόκληρο τον κατάλογο var/:
 
   ```apache
   <Directory /path/to/chamilo/var>
@@ -126,46 +127,46 @@ add_header Referrer-Policy "strict-origin-when-cross-origin" always;
   </Directory>
   ```
 
-* Scan uploaded files with an antivirus (ClamAV) if your environment requires it.
+* Σαρώνετε τα ανεβασμένα αρχεία με antivirus (ClamAV) αν το περιβάλλον σας το απαιτεί.
 
-## Database Security
+## Ασφάλεια Βάσης Δεδομένων
 
-* Use a **dedicated database user** for Chamilo with only the privileges it needs (SELECT, INSERT, UPDATE, DELETE, CREATE, ALTER, DROP, INDEX on the Chamilo database).
-* Do not use the root database account.
-* Ensure the database is not accessible from the public internet. Bind it to localhost or a private network.
-* Enable database audit logging for compliance-sensitive environments.
+* Χρησιμοποιήστε έναν **ειδικό χρήστη βάσης δεδομένων** για το Chamilo με μόνο τα προνόμια που χρειάζεται (SELECT, INSERT, UPDATE, DELETE, CREATE, ALTER, DROP, INDEX στη βάση δεδομένων του Chamilo).
+* Μην χρησιμοποιείτε τον λογαριασμό root της βάσης δεδομένων.
+* Βεβαιωθείτε ότι η βάση δεδομένων δεν είναι προσβάσιμη από το δημόσιο internet. Δέστε την στο localhost ή σε ιδιωτικό δίκτυο.
+* Ενεργοποιήστε καταγραφή ελέγχου βάσης δεδομένων για περιβάλλοντα ευαίσθητα ως προς τη συμμόρφωση.
 
-## Backups
+## Αντίγραφα Ασφαλείας
 
-* Schedule **daily automated backups** of both the database and uploaded files.
-* Store backups in a separate location from the server (offsite or cloud storage).
-* Test backup restoration periodically to verify that backups are usable.
-* Encrypt backups if they contain sensitive data.
+* Προγραμματίστε **ημερήσια αυτοματοποιημένα αντίγραφα ασφαλείας** τόσο της βάσης δεδομένων όσο και των ανεβασμένων αρχείων.
+* Αποθηκεύστε τα αντίγραφα ασφαλείας σε ξεχωριστή τοποθεσία από τον server (εκτός έδρας ή cloud αποθήκευση).
+* Δοκιμάστε περιοδικά την αποκατάσταση αντιγράφων ασφαλείας για να επαληθεύσετε ότι είναι χρησιμοποιήσιμα.
+* Κρυπτογραφήστε τα αντίγραφα ασφαλείας αν περιέχουν ευαίσθητα δεδομένα.
 
-See [Backups](../maintenance/backups.md) for detailed instructions.
+Δείτε τις [Οδηγίες Αντιγράφων Ασφαλείας](../maintenance/backups.md) για λεπτομερείς οδηγίες.
 
-## Monitoring
+## Παρακολούθηση
 
-* Monitor Chamilo logs at `var/log/prod.log` for errors and suspicious activity.
-* Set up server monitoring (CPU, memory, disk) to detect resource exhaustion.
-* Configure alerts for repeated authentication failures.
-* Periodically review user accounts for unauthorized or dormant accounts.
+* Παρακολουθείτε τα logs του Chamilo στο `var/log/prod.log` για σφάλματα και ύποπτη δραστηριότητα.
+* Ρυθμίστε παρακολούθηση server (CPU, μνήμη, δίσκος) για ανίχνευση εξάντλησης πόρων.
+* Ρυθμίστε ειδοποιήσεις για επαναλαμβανόμενες αποτυχίες πιστοποίησης.
+* Ελέγχετε περιοδικά λογαριασμούς χρηστών για μη εξουσιοδοτημένους ή ανενεργούς λογαριασμούς.
 
-## Checklist
+## Λίστα Ελέγχου
 
-Use this checklist when deploying or auditing a Chamilo installation:
+Χρησιμοποιήστε αυτή τη λίστα ελέγχου κατά την ανάπτυξη ή έλεγχο εγκατάστασης Chamilo:
 
-- [ ] HTTPS enabled with valid certificate
-- [ ] HTTP to HTTPS redirect configured
-- [ ] `APP_ENV=prod` and `APP_DEBUG=0` in `.env`
-- [ ] Unique `APP_SECRET` generated
-- [ ] File permissions restricted (no 777)
-- [ ] Password policy configured
-- [ ] Max login attempts and CAPTCHA enabled
-- [ ] Executable file extensions blocked
-- [ ] Security headers configured on web server
-- [ ] Session cookie flags set (secure, httponly, samesite)
-- [ ] Database user has minimal privileges
-- [ ] Automated backups scheduled and tested
-- [ ] Log monitoring in place
-- [ ] Chamilo version is current
+- [ ] Ενεργοποιημένο HTTPS με έγκυρο πιστοποιητικό
+- [ ] Ρύθμιση ανακατεύθυνσης HTTP σε HTTPS
+- [ ] `APP_ENV=prod` και `APP_DEBUG=0` στο `.env`
+- [ ] Δημιουργημένο μοναδικό `APP_SECRET`
+- [ ] Περιορισμένα δικαιώματα αρχείων (όχι 777)
+- [ ] Ρυθμισμένη πολιτική κωδικών
+- [ ] Ενεργοποιημένες μέγιστες προσπάθειες σύνδεσης και CAPTCHA
+- [ ] Μπλοκαρισμένες επεκτάσεις εκτελέσιμων αρχείων
+- [ ] Ρυθμισμένες κεφαλίδες ασφαλείας στον web server
+- [ ] Σημαίες cookie συνεδρίας ρυθμισμένες (secure, httponly, samesite)
+- [ ] Χρήστης βάσης δεδομένων με ελάχιστα προνόμια
+- [ ] Προγραμματισμένα και δοκιμασμένα αυτοματοποιημένα αντίγραφα ασφαλείας
+- [ ] Παρακολούθηση logs ενεργή
+- [ ] Τρέχουσα έκδοση Chamilo

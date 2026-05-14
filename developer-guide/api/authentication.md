@@ -1,10 +1,10 @@
-# Authentication
+# Πιστοποίηση
 
-The Chamilo API uses **JWT (JSON Web Tokens)** for authentication, implemented via `lexik/jwt-authentication-bundle`.
+Η **Chamilo API** χρησιμοποιεί **JWT (JSON Web Tokens)** για πιστοποίηση, που υλοποιείται μέσω του `lexik/jwt-authentication-bundle`.
 
-## Obtaining a Token
+## Λήψη Token
 
-Send a POST request to the authentication endpoint:
+Αποστείλτε αίτημα POST στο endpoint πιστοποίησης:
 
 ```
 POST /api/authentication_token
@@ -16,7 +16,7 @@ Content-Type: application/json
 }
 ```
 
-Response:
+Απάντηση:
 
 ```json
 {
@@ -24,37 +24,37 @@ Response:
 }
 ```
 
-## Using the Token
+## Χρήση του Token
 
-Include the token in the `Authorization` header of subsequent requests:
+Περιλάβετε το token στην κεφαλίδα `Authorization` των επόμενων αιτημάτων:
 
 ```
 GET /api/users
 Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9...
 ```
 
-## Token Lifecycle
+## Κύκλος Ζωής Token
 
-* Tokens have a configurable expiration time
-* When a token expires, the client must request a new one
-* JWT keys are stored in `config/jwt/` (private and public keys)
+* Τα tokens έχουν ρυθμιζόμενο χρόνο λήξης
+* Όταν λήξει ένα token, ο πελάτης πρέπει να ζητήσει νέο
+* Τα κλειδιά JWT αποθηκεύονται στο `config/jwt/` (ιδιωτικά και δημόσια κλειδιά)
 
-## Generating JWT Keys
+## Δημιουργία Κλειδιών JWT
 
 ```bash
 php bin/console lexik:jwt:generate-keypair
 ```
 
-This creates:
-* `config/jwt/private.pem` — Private key for signing tokens
-* `config/jwt/public.pem` — Public key for verifying tokens
+Αυτό δημιουργεί:
+* `config/jwt/private.pem` — Ιδιωτικό κλειδί για υπογραφή tokens
+* `config/jwt/public.pem` — Δημόσιο κλειδί για επαλήθευση tokens
 
-Configure the passphrase in `.env`:
+Ρυθμίστε το passphrase στο `.env`:
 
 ```env
 JWT_PASSPHRASE=your-passphrase
 ```
 
-## API Documentation
+## Τεκμηρίωση API
 
-When `APP_ENABLE_API_ENTRYPOINT=1` is set in the environment, the API documentation is available at `/api`. This provides an interactive Swagger/OpenAPI interface for exploring and testing endpoints.
+Όταν οριστεί `APP_ENABLE_API_ENTRYPOINT=1` στο περιβάλλον, η τεκμηρίωση API είναι διαθέσιμη στο `/api`. Αυτό παρέχει μια διαδραστική διεπαφή Swagger/OpenAPI για εξερεύνηση και δοκιμή endpoints.

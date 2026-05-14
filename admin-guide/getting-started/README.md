@@ -1,25 +1,25 @@
-# Getting Started
+# Εκκίνηση
 
-This section introduces the Chamilo 2.0 administration interface and helps you get oriented.
+Αυτή η ενότητα εισάγει το περιβάλλον διαχείρισης του Chamilo 2.0 και σας βοηθά να προσανατολιστείτε.
 
-## Who Is an Administrator?
+## Ποιος Είναι Διαχειριστής;
 
-Chamilo has several levels of administrative roles:
+Το Chamilo διαθέτει αρκετά επίπεδα ρόλων διαχείρισης:
 
-| Role | Access |
-|------|--------|
-| **Administrator** | Full access to all administration features for the platform. Also known as **Portal Administrator** |
-| **Global Administrator** | Same as Portal Administrator, with access across all access URLs in a multi-URL (multi-tenant) setup |
-| **Sessions Administrator** | Can manage sessions, enroll users in sessions, and access session-related settings |
-| **Human Resources Manager** | Can view learner progress and tracking data for assigned users |
-| **Questions Manager** | Less of an administrator than a content curator, question managers have access to a global question bank to review questions' quality |
+| Ρόλος | Πρόσβαση |
+|------|----------|
+| **Administrator** | Πλήρης πρόσβαση σε όλες τις λειτουργίες διαχείρισης της πλατφόρμας. Επίσης γνωστός ως **Portal Administrator** |
+| **Global Administrator** | Ίδιο με τον Portal Administrator, με πρόσβαση σε όλες τις διευθύνσεις URL πρόσβασης σε ρύθμιση πολλαπλών URL (multi-tenant) |
+| **Sessions Administrator** | Μπορεί να διαχειρίζεται συνεδρίες, να εγγράφει χρήστες σε συνεδρίες και να έχει πρόσβαση σε ρυθμίσεις σχετικές με συνεδρίες |
+| **Human Resources Manager** | Μπορεί να βλέπει την πρόοδο των μαθητών και δεδομένα παρακολούθησης για τους εκχωρημένους χρήστες |
+| **Questions Manager** | Λιγότερο διαχειριστής και περισσότερο επιμελητής περιεχομένου, οι διαχειριστές ερωτήσεων έχουν πρόσβαση σε παγκόσμια τράπεζα ερωτήσεων για την αξιολόγηση της ποιότητας των ερωτήσεων |
 
-This guide focuses primarily on the **Portal Administrator** role, which has the broadest access.
+Ο παρών οδηγός εστιάζει κυρίως στον ρόλο **Portal Administrator**, ο οποίος έχει την ευρύτερη πρόσβαση.
 
-## Logging In
+## Σύνδεση
 
-Administrators log in through the same login page as all other users. After entering your credentials, you will be sent (in the absence of other configuration) to the **Administration** page. A notable difference from other user roles is the **Administration** section in the sidebar (not visible to other roles).
+Οι διαχειριστές συνδέονται μέσω της ίδιας σελίδας σύνδεσης με όλους τους άλλους χρήστες. Μετά την εισαγωγή των πιστοποιητικών σας, θα μεταφερθείτε (εν απουσία άλλης ρύθμισης) στη σελίδα **Administration**. Μια σημαντική διαφορά από άλλους ρόλους χρηστών είναι η ενότητα **Administration** στη γραμμή πλαϊνής πλοήγησης (μη ορατή σε άλλους ρόλους).
 
-## Next Steps
+## Επόμενα Βήματα
 
-* [Admin Interface Overview](admin-interface-overview.md) — A tour of the administration panel and its sections
+* [Επισκόπηση Διεπαφής Διαχείρισης](admin-interface-overview.md) — Περιήγηση στο πάνελ διαχείρισης και τις ενότητές του

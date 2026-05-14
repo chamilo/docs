@@ -1,17 +1,17 @@
-# Cloud Storage
+# Αποθήκευση Σύννεφου
 
-Chamilo 2.0 supports cloud storage backends for user-uploaded files through **Flysystem**, a PHP filesystem abstraction library integrated into Symfony. This allows you to store files on cloud services instead of (or in addition to) the local filesystem.
+Το Chamilo 2.0 υποστηρίζει backends αποθήκευσης σύννεφου για αρχεία που ανεβάζουν οι χρήστες μέσω του **Flysystem**, μιας βιβλιοθήκης αφαίρεσης συστήματος αρχείων PHP ενσωματωμένης στο Symfony. Αυτό σας επιτρέπει να αποθηκεύετε αρχεία σε υπηρεσίες σύννεφου αντί για (ή σε προσθήκη με) το τοπικό σύστημα αρχείων.
 
-## Why Use Cloud Storage?
+## Γιατί να Χρησιμοποιήσετε την Αποθήκευση Σύννεφου;
 
-* **Scalability** -- Cloud storage grows with your platform without managing disk space.
-* **Multi-server deployments** -- When running multiple web servers behind a load balancer, cloud storage ensures all servers access the same files.
-* **Durability** -- Cloud providers offer built-in redundancy and backup.
-* **Cost** -- Object storage is often cheaper per gigabyte than block storage attached to servers.
+* **Κλιμάκωση** -- Η αποθήκευση σύννεφου αναπτύσσεται μαζί με την πλατφόρμα σας χωρίς διαχείριση χώρου δίσκου.
+* **Αναπτύξεις πολλαπλών εξυπηρετητών** -- Όταν εκτελείτε πολλούς web servers πίσω από έναν load balancer, η αποθήκευση σύννεφου εξασφαλίζει ότι όλοι οι servers έχουν πρόσβαση στα ίδια αρχεία.
+* **Ανθεκτικότητα** -- Οι πάροχοι σύννεφου προσφέρουν ενσωματωμένη επανεξασφάλιση και αντιγράφων ασφαλείας.
+* **Κόστος** -- Η αποθήκευση αντικειμένων είναι συχνά φθηνότερη ανά gigabyte από την αποθήκευση μπλοκ συνδεδεμένη με servers.
 
-## Supported Providers
+## Υποστηριζόμενοι Πάροχοι
 
-| Provider | Flysystem Adapter |
+| Πάροχος | Flysystem Adapter |
 |----------|-------------------|
 | **Amazon S3** | `league/flysystem-aws-s3-v3` |
 | **Google Cloud Storage** | `league/flysystem-google-cloud-storage` |
@@ -19,9 +19,9 @@ Chamilo 2.0 supports cloud storage backends for user-uploaded files through **Fl
 | **MinIO** (S3-compatible) | Uses the S3 adapter with a custom endpoint |
 | **Local filesystem** | Default, no additional packages needed |
 
-## Installation
+## Εγκατάσταση
 
-Chamilo already comes with the following pre-installed providers:
+Το Chamilo περιλαμβάνει ήδη προεγκατεστημένους τους εξής παρόχους:
 
 ```bash
 # Amazon S3
@@ -34,9 +34,9 @@ league/flysystem-google-cloud-storage
 league/flysystem-azure-blob-storage
 ```
 
-## Configuration
+## Διαμόρφωση
 
-Chamilo splits its files across several Flysystem mounts — **assets**, **assets cache**, **resources**, **resources cache**, **themes**, and **plugins**. Each mount can target a different bucket or container. The cloud configuration in `config/packages/oneup_flysystem.yaml` is selected by environment using `when@` conditions and reads the variables you set in `.env`.
+Το Chamilo χωρίζει τα αρχεία του σε αρκετά mounts του Flysystem — **assets**, **assets cache**, **resources**, **resources cache**, **themes**, και **plugins**. Κάθε mount μπορεί να στοχεύει σε διαφορετικό bucket ή container. Η διαμόρφωση σύννεφου στο `config/packages/oneup_flysystem.yaml` επιλέγεται ανά περιβάλλον χρησιμοποιώντας συνθήκες `when@` και διαβάζει τις μεταβλητές που ορίζετε στο `.env`.
 
 ### Amazon S3
 
@@ -76,30 +76,30 @@ AZURE_STORAGE_ASSET_PREFIX=optional/prefix
 
 ### Google Cloud Storage
 
-Configure GCS the same way as S3, using GCS-specific environment variables and one bucket per mount. Refer to the `oneup_flysystem.yaml` shipped with your release for the exact variable names — they are also documented in `.env`.
+Διαμορφώστε το GCS με τον ίδιο τρόπο όπως το S3, χρησιμοποιώντας μεταβλητές περιβάλλοντος ειδικές για το GCS και ένα bucket ανά mount. Ανατρέξτε στο `oneup_flysystem.yaml` που συνοδεύει την έκδοσή σας για τα ακριβή ονόματα μεταβλητών — είναι επίσης τεκμηριωμένες στο `.env`.
 
 ### MinIO (S3-Compatible)
 
-MinIO works through the S3 adapter with a custom endpoint and path-style addressing — set `AWS_S3_STORAGE_*` as for S3 and add the MinIO endpoint and path-style flags supported by the bundle.
+Το MinIO λειτουργεί μέσω του S3 adapter με προσαρμοσμένο endpoint και path-style addressing — ορίστε `AWS_S3_STORAGE_*` όπως για το S3 και προσθέστε το endpoint του MinIO και τις σημαίες path-style που υποστηρίζονται από το bundle.
 
-> The full set of variable names is listed in the `.env.dist` file shipped with Chamilo. Copy only the lines for the provider you actually use into your `.env` and uncomment them.
+> Το πλήρες σύνολο ονομάτων μεταβλητών παρατίθεται στο αρχείο `.env.dist` που συνοδεύει το Chamilo. Αντιγράψτε μόνο τις γραμμές για τον πάροχο που χρησιμοποιείτε πραγματικά στο `.env` σας και καταργήστε τα σχόλιά τους.
 
-## Migrating Existing Files
+## Μεταφορά Υπάρχοντων Αρχείων
 
-If you are switching from local storage to cloud storage on an existing platform, you must migrate the existing files:
+Αν μεταβαίνετε από τοπική αποθήκευση σε αποθήκευση σύννεφου σε μια υπάρχουσα πλατφόρμα, πρέπει να μεταφέρετε τα υπάρχοντα αρχεία:
 
-1. Configure the new storage adapter as described above.
-2. Copy existing files from the local `var/upload/` directory to your cloud storage bucket, preserving the directory structure.
-3. Verify that files are accessible through the platform after migration.
+1. Διαμορφώστε τον νέο storage adapter όπως περιγράφεται παραπάνω.
+2. Αντιγράψτε τα υπάρχοντα αρχεία από τον τοπικό κατάλογο `var/upload/` στο bucket αποθήκευσης σύννεφου, διατηρώντας τη δομή καταλόγου.
+3. Επαληθεύστε ότι τα αρχεία είναι προσβάσιμα μέσω της πλατφόρμας μετά τη μεταφορά.
 
-## Permissions and Access
+## Δικαιώματα και Πρόσβαση
 
-Ensure your cloud storage bucket is **not publicly accessible** unless you explicitly need public file URLs. Chamilo serves files through its own access control layer, so direct public access to the bucket is unnecessary and a security risk.
+Βεβαιωθείτε ότι το bucket αποθήκευσης σύννεφου σας **δεν είναι δημόσια προσβάσιμο** εκτός αν χρειάζεστε ρητά δημόσιες URLs αρχείων. Το Chamilo παρέχει αρχεία μέσω του δικού του στρώματος ελέγχου πρόσβασης, οπότε η άμεση δημόσια πρόσβαση στο bucket είναι περιττή και κίνδυνος ασφαλείας.
 
-For S3, use a bucket policy that restricts access to the IAM credentials configured above.
+Για το S3, χρησιμοποιήστε μια bucket policy που περιορίζει την πρόσβαση στα IAM credentials που διαμορφώσατε παραπάνω.
 
-## Tips
+## Συμβουλές
 
-* **Test with MinIO locally** before deploying to a cloud provider -- MinIO is a free, S3-compatible server you can run on your own machine.
-* **Use a dedicated bucket** for Chamilo rather than sharing a bucket with other applications.
-* **Set up lifecycle policies** on your cloud bucket to manage storage costs (e.g., move old files to cheaper storage tiers).
+* **Δοκιμάστε με MinIO τοπικά** πριν την ανάπτυξη σε πάροχο σύννεφου -- Το MinIO είναι ένας δωρεάν, S3-compatible server που μπορείτε να εκτελέσετε στο δικό σας μηχάνημα.
+* **Χρησιμοποιήστε ένα αποκλειστικό bucket** για το Chamilo αντί να μοιραστείτε bucket με άλλες εφαρμογές.
+* **Ρυθμίστε lifecycle policies** στο cloud bucket σας για τη διαχείριση κόστους αποθήκευσης (π.χ., μετακίνηση παλιών αρχείων σε φθηνότερα tiers αποθήκευσης).

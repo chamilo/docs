@@ -1,13 +1,13 @@
-# State Management
+# Διαχείριση Κατάστασης
 
-Chamilo uses two state management libraries side by side:
+Το Chamilo χρησιμοποιεί δύο βιβλιοθήκες διαχείρισης κατάστασης παράλληλα:
 
-* **Pinia** — the current standard for all new stores. The majority of the codebase uses Pinia.
-* **Vuex** — legacy store, still present and used by older views. New code should use Pinia.
+* **Pinia** — το τρέχον πρότυπο για όλους τους νέους αποθηκευτικούς χώρους. Η πλειονότητα του κώδικα χρησιμοποιεί Pinia.
+* **Vuex** — παλιός αποθηκευτικός χώρος, παρών και χρησιμοποιούμενος από παλαιότερες προβολές. Ο νέος κώδικας πρέπει να χρησιμοποιεί Pinia.
 
 ## Pinia Stores
 
-The Pinia stores live directly in `assets/vue/store/`:
+Οι Pinia stores βρίσκονται απευθείας στο `assets/vue/store/`:
 
 | Store file | Composable | Purpose |
 |-----------|-----------|---------|
@@ -33,7 +33,7 @@ const user = securityStore.user
 
 ### CID Request Store
 
-Tracks the current course/session context — required for any course-scoped API operation:
+Παρακολουθεί το τρέχον πλαίσιο μαθήματος/συνεδρίας — απαιτείται για οποιαδήποτε λειτουργία API περιορισμένη σε μάθημα:
 
 ```javascript
 const cidReqStore = useCidReqStore()
@@ -45,7 +45,7 @@ const session = cidReqStore.session
 
 ### Course Settings Store
 
-Caches course-level settings to avoid repeated API calls:
+Αποθηκεύει προσωρινά ρυθμίσεις επιπέδου μαθήματος για να αποφευχθούν επαναλαμβανόμενες κλήσεις API:
 
 ```javascript
 const courseSettings = useCourseSettings()
@@ -54,7 +54,7 @@ const value = courseSettings.getSetting('exercise_generator')
 
 ### Platform Config Store
 
-Holds platform-wide configuration fetched from `/platform-config/list`:
+Περιέχει διαμόρφωση σε επίπεδο πλατφόρμας που λαμβάνεται από το `/platform-config/list`:
 
 ```javascript
 const platformConfig = usePlatformConfig()
@@ -66,7 +66,7 @@ const plugins = platformConfig.plugins
 
 ## Vuex Store (Legacy)
 
-The Vuex store is defined in `assets/vue/store/index.js` and contains:
+Ο Vuex store ορίζεται στο `assets/vue/store/index.js` και περιέχει:
 
 | Module | Purpose |
 |--------|---------|
@@ -75,11 +75,11 @@ The Vuex store is defined in `assets/vue/store/index.js` and contains:
 | `modules/ux.js` | UX state (forbidden-access message) |
 | `security.js` | Legacy Vuex security module (superseded by `securityStore.js`) |
 
-Avoid adding new Vuex modules. Use Pinia for any new state.
+Αποφύγετε την προσθήκη νέων Vuex modules. Χρησιμοποιήστε Pinia για οποιαδήποτε νέα κατάσταση.
 
 ## Composables
 
-In addition to stores, `assets/vue/composables/` contains shared composition functions. Notable examples:
+Επιπλέον των stores, το `assets/vue/composables/` περιέχει κοινές συναρτήσεις σύνθεσης. Σημαντικά παραδείγματα:
 
 | File | Purpose |
 |------|---------|
@@ -100,4 +100,4 @@ In addition to stores, `assets/vue/composables/` contains shared composition fun
 | `upload.js` | File upload helpers |
 | `useConfirmation.js` | Confirmation dialog helper |
 
-Composables are also organized into feature subdirectories (`course/`, `session/`, `document/`, `calendar/`, `admin/`, `auth/`, `message/`, `skill/`, etc.). The full list is in `assets/vue/composables/`.
+Τα composables οργανώνονται επίσης σε υποκαταλόγους χαρακτηριστικών (`course/`, `session/`, `document/`, `calendar/`, `admin/`, `auth/`, `message/`, `skill/`, κ.λπ.). Η πλήρης λίστα βρίσκεται στο `assets/vue/composables/`.

@@ -1,18 +1,18 @@
-# Creating a Plugin
+# Δημιουργία Plugin
 
-This guide walks through creating a basic Chamilo plugin. For additional detail, see the [Plugin development wiki page](https://github.com/chamilo/chamilo-lms/wiki/Plugin-development).
+Αυτός ο οδηγός περιγράφει βήμα-βήμα τη δημιουργία ενός βασικού plugin του Chamilo. Για επιπλέον λεπτομέρειες, δείτε τη [σελίδα wiki ανάπτυξης Plugin](https://github.com/chamilo/chamilo-lms/wiki/Plugin-development).
 
-## Step 1: Create the Plugin Directory
+## Βήμα 1: Δημιουργία Καταλόγου Plugin
 
-Create a directory in `public/plugin/`. The directory name should match your plugin's identifier:
+Δημιουργήστε έναν κατάλογο στο `public/plugin/`. Το όνομα του καταλόγου πρέπει να ταιριάζει με τον αναγνωριστή του plugin σας:
 
 ```
 public/plugin/MyPlugin/
 ```
 
-## Step 2: Define the Plugin Class
+## Βήμα 2: Ορισμός Κλάσης Plugin
 
-Create `src/MyPluginPlugin.php`. The class extends `Plugin` and follows the singleton pattern:
+Δημιουργήστε το `src/MyPluginPlugin.php`. Η κλάση επεκτείνει την `Plugin` και ακολουθεί το μοτίβο singleton:
 
 ```php
 <?php
@@ -36,7 +36,7 @@ class MyPluginPlugin extends Plugin
 }
 ```
 
-### Available Setting Types
+### Διαθέσιμοι Τύποι Ρυθμίσεων
 
 | Type | Description |
 |------|-------------|
@@ -48,7 +48,7 @@ class MyPluginPlugin extends Plugin
 | `checkbox` | Checkbox |
 | `user` | User selector |
 
-For `select` settings:
+Για ρυθμίσεις `select`:
 
 ```php
 $settings = [
@@ -60,7 +60,7 @@ $settings = [
 ];
 ```
 
-Access settings at runtime:
+Πρόσβαση στις ρυθμίσεις κατά την εκτέλεση:
 
 ```php
 $plugin = MyPluginPlugin::create();
@@ -68,16 +68,16 @@ $key  = $plugin->get('api_key');       // single value
 $all  = $plugin->get_settings();       // all settings
 ```
 
-## Step 3: Create plugin.php
+## Βήμα 3: Δημιουργία plugin.php
 
-`plugin.php` at the plugin root is **required**. It must assign `$plugin_info`:
+Το `plugin.php` στη ρίζα του plugin είναι **απαιτούμενο**. Πρέπει να εκχωρεί το `$plugin_info`:
 
 ```php
 <?php
 $plugin_info = MyPluginPlugin::create()->get_info();
 ```
 
-## Step 4: Create Install and Uninstall Scripts
+## Βήμα 4: Δημιουργία Scripts Εγκατάστασης και Απεγκατάστασης
 
 `install.php`:
 
@@ -93,11 +93,11 @@ MyPluginPlugin::create()->install();
 MyPluginPlugin::create()->uninstall();
 ```
 
-Implement the actual schema creation/deletion inside the class using Doctrine's `SchemaTool`.
+Εφαρμόστε την πραγματική δημιουργία/διαγραφή σχήματος μέσα στην κλάση χρησιμοποιώντας το `SchemaTool` του Doctrine.
 
-## Step 5: Add Translations
+## Βήμα 5: Προσθήκη Μεταφράσεων
 
-Create language files in `lang/` using locale codes (e.g., `en_US.php`, `fr_FR.php`, `es_ES.php`). The fallback is `en_US.php`.
+Δημιουργήστε αρχεία γλώσσας στο `lang/` χρησιμοποιώντας κωδικούς τοπικής ρύθμισης (π.χ. `en_US.php`, `fr_FR.php`, `es_ES.php`). Το fallback είναι το `en_US.php`.
 
 ```php
 <?php
@@ -109,11 +109,11 @@ $strings['api_key']        = 'API Key';
 $strings['api_key_help']   = 'Enter the API key from your account.';
 ```
 
-Access translations via `$plugin->get_lang('key')`.
+Πρόσβαση στις μεταφράσεις μέσω `$plugin->get_lang('key')`.
 
-## Step 6: Inject Content via Display Regions
+## Βήμα 6: Εισαγωγή Περιεχομένου μέσω Περιοχών Εμφάνισης
 
-Plugins can inject HTML into 18 predefined regions of the Vue frontend. Override `renderRegion()` in your class:
+Τα plugin μπορούν να εισάγουν HTML σε 18 προκαθορισμένες περιοχές του frontend Vue. Αντικαταστήστε το `renderRegion()` στην κλάση σας:
 
 ```php
 public function renderRegion(string $region): string
@@ -125,11 +125,11 @@ public function renderRegion(string $region): string
 }
 ```
 
-Available regions include: `content_bottom`, `content_top`, `course_tool_plugin`, `footer_center`, `footer_left`, `footer_right`, `header_center`, `header_left`, `header_main`, `header_right`, `login_bottom`, `login_top`, `main_bottom`, `main_top`, `menu_administrator`, `menu_bottom`, `menu_top`, `pre_footer`.
+Διαθέσιμες περιοχές: `content_bottom`, `content_top`, `course_tool_plugin`, `footer_center`, `footer_left`, `footer_right`, `header_center`, `header_left`, `header_main`, `header_right`, `login_bottom`, `login_top`, `main_bottom`, `main_top`, `menu_administrator`, `menu_bottom`, `menu_top`, `pre_footer`.
 
-## Step 7: React to Platform Events (Optional)
+## Βήμα 7: Αντίδραση σε Γεγονότα Πλατφόρμας (Προαιρετικό)
 
-Plugins can react to platform events using Symfony event subscribers. Create a file ending in `EventSubscriber.php` inside `src/EventSubscriber/` — it is auto-registered via `PluginEventSubscriberPass`.
+Τα plugin μπορούν να αντιδρούν σε γεγονότα πλατφόρμας χρησιμοποιώντας event subscribers του Symfony. Δημιουργήστε ένα αρχείο που τελειώνει σε `EventSubscriber.php` μέσα στο `src/EventSubscriber/` — καταχωρείται αυτόματα μέσω του `PluginEventSubscriberPass`.
 
 ```php
 <?php
@@ -165,30 +165,32 @@ class MyPluginEventSubscriber implements EventSubscriberInterface
 }
 ```
 
-See `src/CoreBundle/Event/Events.php` for the full list of available events (user, course, session, LP, exercise, portfolio, authentication, and more).
+Δείτε το `src/CoreBundle/Event/Events.php` για την πλήρη λίστα διαθέσιμων γεγονότων (χρήστης, μάθημα, συνεδρία, LP, άσκηση, portfolio, εμπειρογνωμοσύνη, και άλλα).
+---
 
-## Step 8: Lifecycle Hooks
+---
+## Βήμα 8: Συνδέσμοι κύκλου ζωής
 
-Override these methods in your plugin class to respond to platform actions:
+Προσαρμόστε αυτές τις μεθόδους στην κλάση του πρόσθετου σας για να ανταποκριθείτε σε ενέργειες της πλατφόρμας:
 
-| Method | Triggered when |
-|--------|----------------|
-| `install()` | Plugin is activated |
-| `uninstall()` | Plugin is removed |
-| `performActionsAfterConfigure()` | Admin saves the config form |
-| `course_settings_updated(array $values)` | Course-level settings change |
-| `validateCourseSetting(string $variable)` | Course setting saved (return `false` to reject) |
-| `doWhenDeletingUser(int $userId)` | A user is deleted |
-| `doWhenDeletingCourse(int $courseId)` | A course is deleted |
-| `doWhenDeletingSession(int $sessionId)` | A session is deleted |
+| Μέθοδος | Ενεργοποιείται όταν |
+|--------|---------------------|
+| `install()` | Το πρόσθετο ενεργοποιείται |
+| `uninstall()` | Το πρόσθετο αφαιρείται |
+| `performActionsAfterConfigure()` | Ο διαχειριστής αποθηκεύει τη φόρμα διαμόρφωσης |
+| `course_settings_updated(array $values)` | Αλλάζουν οι ρυθμίσεις επιπέδου μαθήματος |
+| `validateCourseSetting(string $variable)` | Αποθηκεύεται ρύθμιση μαθήματος (επιστρέψτε `false` για απόρριψη) |
+| `doWhenDeletingUser(int $userId)` | Διαγράφεται ένας χρήστης |
+| `doWhenDeletingCourse(int $courseId)` | Διαγράφεται ένα μάθημα |
+| `doWhenDeletingSession(int $sessionId)` | Διαγράφεται μια συνεδρία |
 
-## Step 9: Activate
+## Βήμα 9: Ενεργοποίηση
 
-Log in as administrator, navigate to **Manage plugins**, find your plugin, and click **Activate**.
+Συνδεθείτε ως διαχειριστής, μεταβείτε στο **Διαχείριση πρόσθετων**, βρείτε το πρόσθετό σας και κάντε κλικ στο **Ενεργοποίηση**.
 
-## Tips
+## Συμβουλές
 
-* **Follow existing plugins as examples** — `public/plugin/HelloWorld/` and `public/plugin/TopLinks/` are good simple references
-* **Use translations** — Always use the `lang/` system for user-facing text
-* **Clean up on uninstall** — Remove database tables and settings in the uninstall script
-* **Check enabled state** — In event subscribers, always call `$this->plugin->isEnabled()` before executing logic
+* **Ακολουθήστε υπάρχοντα πρόσθετα ως παραδείγματα** — `public/plugin/HelloWorld/` και `public/plugin/TopLinks/` είναι καλά απλά παραδείγματα
+* **Χρησιμοποιήστε μεταφράσεις** — Πάντα χρησιμοποιήστε το σύστημα `lang/` για κείμενα που βλέπουν οι χρήστες
+* **Καθαρίστε κατά την απεγκατάσταση** — Αφαιρέστε πίνακες βάσης δεδομένων και ρυθμίσεις στο σενάριο απεγκατάστασης
+* **Ελέγξτε την κατάσταση ενεργοποίησης** — Σε συνδρομητές συμβάντων, πάντα καλέστε `$this->plugin->isEnabled()` πριν εκτελέσετε λογική

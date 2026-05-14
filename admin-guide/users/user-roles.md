@@ -1,57 +1,57 @@
-# User Roles
+# Ρόλοι Χρηστών
 
-Chamilo uses a role-based permission system. Each user is assigned a role that determines what they can see and do on the platform.
+Το Chamilo χρησιμοποιεί σύστημα δικαιωμάτων βασισμένο σε ρόλους. Κάθε χρήστης ανατίθεται ένας ρόλος που καθορίζει τι μπορεί να δει και να κάνει στην πλατφόρμα.
 
-## Platform-Level Roles
+## Ρόλοι Επιπέδου Πλατφόρμας
 
-These roles control access to platform-wide features:
+Αυτοί οι ρόλοι ελέγχουν την πρόσβαση σε χαρακτηριστικά σε όλη την πλατφόρμα:
 
-| Role |  Description |
+| Ρόλος |  Περιγραφή |
 |------|------------|
-| **Learner (Student)** | The default role. Can enroll in courses, access learning content, submit assignments, and take exercises. |
-| **Teacher (Trainer)** | Can create and manage courses, add content, grade students, and view course-level reports. |
-| **Sessions Administrator** | Can create and manage sessions (i.e. time-based course packages), enroll users in sessions, and assign coaches. Cannot access general platform settings. |
-| **Human Resources Manager (HRM)** | Can view tracking and reporting data for assigned users. Used for supervisors who need to monitor employee training but not manage content nor the platform. |
-| **Portal Administrator** | Full access to all platform administration features. Can manage users, courses, sessions, plugins, and all settings. |
-| **Global Administrator** | Same as Portal Administrator but with access across all access URLs in a multi-URL (i.e. multi-tenant) setup. |
-| **Anonymous** | A special role for visitors who are not logged in. Can access public courses and content if enabled. |
+| **Learner (Student)** | Ο προεπιλεγμένος ρόλος. Μπορεί να εγγραφεί σε μαθήματα, να έχει πρόσβαση σε περιεχόμενο εκπαίδευσης, να υποβάλει εργασίες και να συμμετέχει σε ασκήσεις. |
+| **Teacher (Trainer)** | Μπορεί να δημιουργεί και να διαχειρίζεται μαθήματα, να προσθέτει περιεχόμενο, να βαθμολογεί φοιτητές και να βλέπει αναφορές επιπέδου μαθήματος. |
+| **Sessions Administrator** | Μπορεί να δημιουργεί και να διαχειρίζεται συνεδρίες (δηλ. πακέτα μαθημάτων βασισμένα σε χρόνο), να εγγράφει χρήστες σε συνεδρίες και να αναθέτει προπονητές. Δεν μπορεί να έχει πρόσβαση σε γενικές ρυθμίσεις πλατφόρμας. |
+| **Human Resources Manager (HRM)** | Μπορεί να βλέπει δεδομένα παρακολούθησης και αναφορών για ανατεθειμένους χρήστες. Χρησιμοποιείται για επόπτες που χρειάζεται να παρακολουθούν την εκπαίδευση υπαλλήλων αλλά όχι να διαχειρίζονται περιεχόμενο ή την πλατφόρμα. |
+| **Portal Administrator** | Πλήρης πρόσβαση σε όλα τα χαρακτηριστικά διαχείρισης πλατφόρμας. Μπορεί να διαχειρίζεται χρήστες, μαθήματα, συνεδρίες, προσθήκες και όλες τις ρυθμίσεις. |
+| **Global Administrator** | Ίδιος με τον Portal Administrator αλλά με πρόσβαση σε όλες τις διευθύνσεις URL πρόσβασης σε ρύθμιση multi-URL (δηλ. multi-tenant). |
+| **Anonymous** | Ειδικός ρόλος για επισκέπτες που δεν έχουν συνδεθεί. Μπορεί να έχει πρόσβαση σε δημόσια μαθήματα και περιεχόμενο αν είναι ενεργοποιημένο. |
 
-## Course-Level Roles
+## Ρόλοι Επιπέδου Μαθήματος
 
-Within a course, users have specific roles:
+Μέσα σε ένα μάθημα, οι χρήστες έχουν συγκεκριμένους ρόλους:
 
-| Role | Description |
+| Ρόλος | Περιγραφή |
 |------|-------------|
-| **Student** | Default course role. Can access content, take exercises, submit assignments. |
-| **Course assistant** | Has limited management permissions within the course. Can help manage content and moderate forums. |
-| **Teacher** | Full control over the course: manage content, tools, settings, and enrollment. |
+| **Student** | Προεπιλεγμένος ρόλος μαθήματος. Μπορεί να έχει πρόσβαση σε περιεχόμενο, να συμμετέχει σε ασκήσεις, να υποβάλλει εργασίες. |
+| **Course assistant** | Έχει περιορισμένα δικαιώματα διαχείρισης μέσα στο μάθημα. Μπορεί να βοηθά στη διαχείριση περιεχομένου και να μετριάζει φόρουμ. |
+| **Teacher** | Πλήρης έλεγχος στο μάθημα: διαχείριση περιεχομένου, εργαλείων, ρυθμίσεων και εγγραφών. |
 
-## Session-Level Roles
+## Ρόλοι Επιπέδου Συνεδρίας
 
-Within a session, additional roles exist:
+Μέσα σε μια συνεδρία, υπάρχουν επιπλέον ρόλοι:
 
-| Role | Description |
+| Ρόλος | Περιγραφή |
 |------|-------------|
-| **Session tutor** | Oversees all courses within a session. Can view tracking across all courses in the session. |
-| **Course tutor** | Teaches a specific course within a session. Can manage content and track learners for that course in that session. |
+| **Session tutor** | Εποπτεύει όλα τα μαθήματα μέσα σε μια συνεδρία. Μπορεί να βλέπει παρακολούθηση σε όλα τα μαθήματα της συνεδρίας. |
+| **Course tutor** | Διδάσκει ένα συγκεκριμένο μάθημα μέσα σε μια συνεδρία. Μπορεί να διαχειρίζεται περιεχόμενο και να παρακολουθεί εκπαιδευόμενους για αυτό το μάθημα σε αυτή τη συνεδρία. |
 
-Note: The coach and tutor names are very similar in meaning and are generally dependent on the organization. We use both terms interchangeably in Chamilo 2.0, but most of the time we mean tutor, a person that will help you learn from the course, not a personal coach. We might use "tutor" exclusively in the future.
+Σημείωση: Τα ονόματα coach και tutor είναι πολύ παρόμοια ως προς το νόημα και εξαρτώνται γενικά από τον οργανισμό. Χρησιμοποιούμε και τους δύο όρους εναλλάξ στο Chamilo 2.0, αλλά τις περισσότερες φορές εννοούμε tutor, ένα άτομο που θα σας βοηθήσει να μάθετε από το μάθημα, όχι προσωπικό coach. Μπορεί να χρησιμοποιήσουμε αποκλειστικά τον όρο "tutor" στο μέλλον.
 
-## Assigning Roles
+## Ανάθεση Ρόλων
 
-When creating or editing a user account in the administration panel, you select their platform-level role. Course and session roles are assigned when enrolling users in courses or sessions.
+Κατά τη δημιουργία ή επεξεργασία λογαριασμού χρήστη στο πάνελ διαχείρισης, επιλέγετε τον ρόλο επιπέδου πλατφόρμας τους. Οι ρόλοι μαθήματος και συνεδρίας ανατίθενται κατά την εγγραφή χρηστών σε μαθήματα ή συνεδρίες.
 
-## Role Hierarchy
+## Ιεραρχία Ρόλων
 
-Higher-privileged roles inherit the capabilities of lower-privileged roles:
+Οι ρόλοι υψηλότερης προνομιακότητας κληρονομούν τις δυνατότητες των ρόλων χαμηλότερης προνομιακότητας:
 
-* An administrator can do everything a teacher can do
-* A teacher can do everything a student can do
-* Session-level roles (coach) provide additional capabilities only within their assigned session
+* Ένας διαχειριστής μπορεί να κάνει ό,τι μπορεί να κάνει ένας δάσκαλος
+* Ένας δάσκαλος μπορεί να κάνει ό,τι μπορεί να κάνει ένας φοιτητής
+* Οι ρόλοι επιπέδου συνεδρίας (coach) παρέχουν επιπλέον δυνατότητες μόνο μέσα στη συνεδρία τους
 
-## Tips
+## Συμβουλές
 
-* **Use the principle of least privilege** — Assign users the minimum role they need to perform their tasks
-* **Use Sessions Administrators** for delegated management — If you have staff who need to manage training sessions but not the entire platform, give them the Sessions Administrator role instead of full administrator access
-* **Use HRM for supervisors** — Human Resources Managers can monitor training progress without having access to modify courses or platform settings
-* **Roles creation** — Chamilo 2.x has the internal structure ready for the creation of new roles, but the feature lacks more testing for wide release. It can be enabled through [Official providers of Chamilo](https://chamilo.org/providers).
+* **Χρησιμοποιήστε την αρχή της ελάχιστης προνομιακότητας** — Αναθέστε στους χρήστες τον ελάχιστο ρόλο που χρειάζονται για να εκτελέσουν τις εργασίες τους
+* **Χρησιμοποιήστε Sessions Administrators** για εκχώρηση διαχείρισης — Αν έχετε προσωπικό που χρειάζεται να διαχειρίζεται συνεδρίες εκπαίδευσης αλλά όχι ολόκληρη την πλατφόρμα, δώστε τους τον ρόλο Sessions Administrator αντί για πλήρη πρόσβαση διαχειριστή
+* **Χρησιμοποιήστε HRM για επόπτες** — Οι Human Resources Managers μπορούν να παρακολουθούν την πρόοδο εκπαίδευσης χωρίς πρόσβαση στη τροποποίηση μαθημάτων ή ρυθμίσεων πλατφόρμας
+* **Δημιουργία ρόλων** — Το Chamilo 2.x έχει την εσωτερική δομή έτοιμη για τη δημιουργία νέων ρόλων, αλλά το χαρακτηριστικό χρειάζεται περισσότερα τεστ για ευρεία κυκλοφορία. Μπορεί να ενεργοποιηθεί μέσω [Official providers of Chamilo](https://chamilo.org/providers).

@@ -1,10 +1,10 @@
-# Authentication
+# Πιστοποίηση
 
-Chamilo supports multiple authentication methods, from the built-in username/password system to enterprise single sign-on solutions.
+Το Chamilo υποστηρίζει πολλαπλές μεθόδους πιστοποίησης, από το ενσωματωμένο σύστημα username/password έως λύσεις enterprise single sign-on.
 
-## Configuration file
+## Αρχείο διαμόρφωσης
 
-All external authentication methods are configured in `config/authentication.yaml`. A template is provided at `config/authentication.dist.yaml`. The general structure is:
+Όλες οι εξωτερικές μέθοδοι πιστοποίησης διαμορφώνονται στο `config/authentication.yaml`. Παρέχεται πρότυπο στο `config/authentication.dist.yaml`. Η γενική δομή είναι:
 
 ```yaml
 parameters:
@@ -15,27 +15,27 @@ parameters:
           <config_key>: <value>
 ```
 
-After editing the file, clear and warm the cache:
+Μετά την επεξεργασία του αρχείου, καθαρίστε και θερμάνετε την cache:
 
 ```bash
 php bin/console cache:clear
 php bin/console cache:warmup
 ```
 
-External login buttons appear on the login page after the cache is refreshed.
+Τα κουμπιά εξωτερικής σύνδεσης εμφανίζονται στη σελίδα σύνδεσης μετά την ανανέωση της cache.
 
-## Supported methods
+## Υποστηριζόμενες μέθοδοι
 
-* **[OAuth2](oauth2.md)** — Azure AD, Keycloak, Facebook, and generic OAuth2 providers
-* **[LDAP](ldap.md)** — Authenticate against an LDAP or Active Directory server
-* **[CAS](cas.md)** — Central Authentication Service (legacy, not functional in 2.x)
-* **[SCIM](scim.md)** — Automated user provisioning from external identity providers
-* **[SSO Configuration](sso-configuration.md)** — Troubleshooting and cross-method notes
+* **[OAuth2](oauth2.md)** — Azure AD, Keycloak, Facebook, και γενικοί πάροχοι OAuth2
+* **[LDAP](ldap.md)** — Πιστοποίηση έναντι εξυπηρετητή LDAP ή Active Directory
+* **[CAS](cas.md)** — Central Authentication Service (παρωχημένη, μη λειτουργική στο 2.x)
+* **[SCIM](scim.md)** — Αυτοματοποιημένη προμήθεια χρηστών από εξωτερικούς παρόχους ταυτότητας
+* **[Διαμόρφωση SSO](sso-configuration.md)** — Αντιμετώπιση προβλημάτων και σημειώσεις διατομής μεθόδων
 
-## Default authentication
+## Προεπιλεγμένη πιστοποίηση
 
-By default, Chamilo uses its own internal system — users log in with a username and password stored in the Chamilo database. External methods are additive: the standard login form stays available alongside any configured providers.
+Προεπιλογή, το Chamilo χρησιμοποιεί το δικό του εσωτερικό σύστημα — οι χρήστες συνδέονται με username και password αποθηκευμένα στη βάση δεδομένων του Chamilo. Οι εξωτερικές μέθοδοι είναι πρόσθετες: η τυπική φόρμα σύνδεσης παραμένει διαθέσιμη παράλληλα με οποιονδήποτε διαμορφωμένους παρόχους.
 
-## Further reference
+## Περαιτέρω αναφορά
 
-For full parameter reference and advanced scenarios, see the [External Authentication configuration wiki page](https://github.com/chamilo/chamilo-lms/wiki/External-Authentication-configuration).
+Για πλήρη αναφορά παραμέτρων και προχωρημένα σενάρια, δείτε τη [σελίδα wiki διαμόρφωσης Εξωτερικής Πιστοποίησης](https://github.com/chamilo/chamilo-lms/wiki/External-Authentication-configuration).

@@ -1,249 +1,247 @@
-# Security Settings
+# Ρυθμίσεις Ασφαλείας
 
-Login protection, password policy, content security headers, two-factor authentication, and the lightweight intrusion detection system.
+Προστασία σύνδεσης, πολιτική κωδικών πρόσβασης, κεφαλίδες ασφαλείας περιεχομένου, έλεγχος ταυτότητας δύο παραγόντων και το ελαφρύ σύστημα ανίχνευσης εισβολών.
 
-Access these settings under **Administration > Configuration settings > Security**. This category contains **31 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+Πρόσβαση σε αυτές τις ρυθμίσεις στο **Administration > Configuration settings > Security**. Αυτή η κατηγορία περιέχει **31 ρυθμίσεις**, που παρατίθενται παρακάτω με τον τίτλο και το σχόλιο που παρέχονται στα fixtures των ρυθμίσεων της πλατφόρμας (`SettingsCurrentFixtures.php`).
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> Το όνομα της μεταβλητής στον κώδικα εμφανίζεται σε monospace. Χρησιμοποιήστε το κατά την προγραμματισμό μέσω του API ή όταν χρειάζεται να αλλάξετε αυτές τις ρυθμίσεις σε παγκόσμιο επίπεδο επεξεργαζόμενοι το [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
 
-## Settings
+## Ρυθμίσεις
 
 ### `2fa_enable`
 
-**Enable 2FA**
+**Ενεργοποίηση 2FA**
 
-Add fields in the password update page to enable 2FA using a TOTP authenticator app. When disabled globally, users won't see 2FA fields and won't be prompted for 2FA at login, even if they had enabled it previously.
+Προσθέτει πεδία στη σελίδα ενημέρωσης κωδικού πρόσβασης για την ενεργοποίηση του 2FA χρησιμοποιώντας εφαρμογή TOTP authenticator. Όταν απενεργοποιημένο παγκοσμίως, οι χρήστες δεν θα βλέπουν πεδία 2FA και δεν θα καλούνται για 2FA κατά τη σύνδεση, ακόμα κι αν το είχαν ενεργοποιήσει προηγουμένως.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 ### `access_to_personal_file_for_all`
 
-**Access to personal file for all**
+**Πρόσβαση σε προσωπικά αρχεία για όλους**
 
-Allows access to all personal files without restriction
+Επιτρέπει την πρόσβαση σε όλα τα προσωπικά αρχεία χωρίς περιορισμούς
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 
 ### `admins_can_set_users_pass`
 
-**Admins can set users passwords manually**
+**Οι διαχειριστές μπορούν να ορίζουν χειροκίνητα κωδικούς πρόσβασης χρηστών**
 
-[inferred] When enabled, administrators can manually set user passwords directly without requiring users to reset them.
+[inferred] Όταν ενεργοποιημένο, οι διαχειριστές μπορούν να ορίζουν χειροκίνητα κωδικούς πρόσβασης χρηστών απευθείας χωρίς να απαιτείται από τους χρήστες να τους επαναφέρουν.
 
 ### `allow_captcha`
 
 **CAPTCHA**
 
-Enable a CAPTCHA on the login form, inscription form and lost password form to avoid password hammering
+Ενεργοποιεί CAPTCHA στη φόρμα σύνδεσης, φόρμα εγγραφής και φόρμα ξεχασμένου κωδικού πρόσβασης για αποφυγή brute force επιθέσεων κωδικών.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 ### `allow_online_users_by_status`
 
-**Filter users that can be seen as online**
+**Φιλτράρισμα χρηστών που εμφανίζονται ως συνδεδεμένοι**
 
-Limits online user visibility to specific user roles.
+Περιορίζει την ορατότητα συνδεδεμένων χρηστών σε συγκεκριμένους ρόλους χρηστών.
 
 ### `allow_strength_pass_checker`
 
-**Password strength checker**
+**Έλεγχος ισχύος κωδικού πρόσβασης**
 
-Enable this option to add a visual indicator of password strength, when the user changes his/her password. This will NOT prevent bad passwords to be added, it only acts as a visual helper.
+Ενεργοποιήστε αυτή την επιλογή για να προσθέσετε οπτικό δείκτη ισχύος κωδικού πρόσβασης, όταν ο χρήστης αλλάζει τον κωδικό του. Αυτό ΔΕΝ εμποδίζει την προσθήκη κακών κωδικών, λειτουργεί μόνο ως οπτικός βοηθός.
 
-*Default: `true`*
+*Προεπιλογή: `true`*
 
 
 ### `anonymous_autoprovisioning`
 
-**Auto-provision more anonymous users**
+**Αυτόματη προώθηση περισσότερων ανωνύμων χρηστών**
 
-Dynamically creates new anonymous users to support high visitor traffic.
+Δημιουργεί δυναμικά νέους ανώνυμους χρήστες για υποστήριξη υψηλής επισκεψιμότητας.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 
 ### `captcha_number_mistakes_to_block_account`
 
-**CAPTCHA mistakes allowance**
+**Επιτρεπόμενα λάθη CAPTCHA**
 
-The number of times a user can make a mistake on the CAPTCHA box before his account is locked out.
+Ο αριθμός φορών που μπορεί ένας χρήστης να κάνει λάθος στο πλαίσιο CAPTCHA πριν κλειδωθεί ο λογαριασμός του.
 
 ### `captcha_time_to_block`
 
-**CAPTCHA account locking time**
+**Χρόνος κλειδώματος λογαριασμού CAPTCHA**
 
-If the user reaches the maximum allowance for login mistakes (when using the CAPTCHA), his/her account will be locked for this number of minutes.
+Αν ο χρήστης φτάσει το μέγιστο επιτρεπόμενο για λάθη σύνδεσης (όταν χρησιμοποιείται CAPTCHA), ο λογαριασμός του θα κλειδωθεί για αυτόν τον αριθμό λεπτών.
 
 ### `check_password`
 
-**Check password requirements**
+**Έλεγχος απαιτήσεων κωδικού πρόσβασης**
 
-Enable validation of the password requirements defined above during password creation or password update.
+Ενεργοποιεί την επικύρωση των απαιτήσεων κωδικού πρόσβασης που ορίζονται παραπάνω κατά τη δημιουργία ή ενημέρωση κωδικού πρόσβασης.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 
 ### `filter_terms`
 
-**Filter terms**
+**Όροι φιλτραρίσματος**
 
-Give a list of terms, one by line, to be filtered out of web pages and e-mails. These terms will be replaced by ***.
+Δώστε μια λίστα όρων, ένας ανά γραμμή, που θα φιλτραριστούν από ιστοσελίδες και email. Αυτοί οι όροι θα αντικατασταθούν με ***.
 
 ### `force_renew_password_at_first_login`
 
-**Force password renewal at first login**
+**Αναγκαστική ανανέωση κωδικού στην πρώτη σύνδεση**
 
-This is one simple measure to increase the security of your portal by asking users to immediately change their password, so the one that was transfered by e-mail is no longer valid and they then will use one that they came up with and that they are the only person to know.
+Αυτή είναι ένα απλό μέτρο για αύξηση της ασφάλειας του portal σας ζητώντας από τους χρήστες να αλλάξουν αμέσως τον κωδικό τους, ώστε αυτός που μεταφέρθηκε με email να μην ισχύει πλέον και να χρησιμοποιούν έναν που σκέφτηκαν μόνοι τους και γνωρίζουν μόνο αυτοί.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 
 ### `hide_breadcrumb_if_not_allowed`
 
-**Hide breadcrumb if 'not allowed'**
+**Απόκρυψη breadcrumb αν 'μη επιτρέπεται'**
 
-If the user is not allowed to access a specific page, also hide the breadcrumb. This increases security by avoiding the display of unnecessary information.
+Αν ο χρήστης δεν επιτρέπεται να προσπελάσει συγκεκριμένη σελίδα, αποκρύψτε επίσης το breadcrumb. Αυτό αυξάνει την ασφάλεια αποφεύγοντας την εμφάνιση μη αναγκαίων πληροφοριών.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 
 ### `login_max_attempt_before_blocking_account`
 
-**Max login attempts before lockdown**
+**Μέγιστες προσπάθειες σύνδεσης πριν το κλείδωμα**
 
-Number of failed login attempts to tolerate before the user account is locked and has to be unlocked by an admin.
+Αριθμός αποτυχημένων προσπαθειών σύνδεσης που ανέχεται πριν κλειδωθεί ο λογαριασμός χρήστη και απαιτείται ξεκλείδωμα από διαχειριστή.
 
-*Default: `0`*
+*Προεπιλογή: `0`*
 
 ### `password_requirements`
 
-**Minimal password syntax requirements**
+**Ελάχιστες απαιτήσεις συντακτικού κωδικού πρόσβασης**
 
-Defines the required structure for user passwords. Example: {"min":{"length":8,"lowercase":1,"uppercase":1,"numeric":1,"specials":1}}. Use "specials" (plural) to require special characters.
+Ορίζει τη δομή που απαιτείται για κωδικούς πρόσβασης χρηστών. Παράδειγμα: {"min":{"length":8,"lowercase":1,"uppercase":1,"numeric":1,"specials":1}}. Χρησιμοποιήστε "specials" (πληθυντικός) για απαιτούμενους ειδικούς χαρακτήρες.
 
 ### `password_rotation_days`
 
-**Password rotation interval (days)**
+**Διάστημα περιστροφής κωδικού (ημέρες)**
 
-Number of days before users must rotate their password (0 = disabled).
+Αριθμός ημερών πριν οι χρήστες πρέπει να περιστρέψουν τον κωδικό τους (0 = απενεργοποιημένο).
 
-*Default: `0`*
+*Προεπιλογή: `0`*
 
 
 ### `prevent_multiple_simultaneous_login`
 
-**Prevent simultaneous login**
+**Πρόληψη ταυτόχρονης σύνδεσης**
 
-Prevent users connecting with the same account more than once. This is a good option on pay-per-access portals, but might be restrictive during testing as only one browser can connect with any given account.
+Εμποδίζει τους χρήστες να συνδέονται με τον ίδιο λογαριασμό περισσότερες από μία φορές. Καλή επιλογή σε portals με χρέωση ανά πρόσβαση, αλλά μπορεί να είναι περιοριστική κατά τις δοκιμές καθώς μόνο ένας browser μπορεί να συνδεθεί με οποιονδήποτε λογαριασμό.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 
 ### `proxy_settings`
 
-**Proxy settings**
+**Ρυθμίσεις proxy**
 
-Some features of Chamilo will connect to the exterior from the server. For example to make sure an external content exists when creating a link or showing an embedded page in the learning path. If your Chamilo server uses a proxy to get out of its network, this would be the place to configure it.
+Μερικά χαρακτηριστικά του Chamilo θα συνδέονται με το εξωτερικό από τον server. Για παράδειγμα για να βεβαιωθούν ότι υπάρχει εξωτερικό περιεχόμενο κατά τη δημιουργία συνδέσμου ή εμφάνιση ενσωματωμένης σελίδας στη λωρίδα μάθησης. Αν ο server Chamilo σας χρησιμοποιεί proxy για να βγει από το δίκτυό του, εδώ είναι το μέρος να το ρυθμίσετε.
 
 ### `security_block_inactive_users_immediately`
 
-**Block disabled users immediately**
+**Άμεσο κλείδωμα απενεργοποιημένων χρηστών**
 
-Immediately block users who have been disabled by the admin through users management. Otherwise, users who have been disabled will keep their previous privileges until they logout.
+Κλειδώνει αμέσως χρήστες που έχουν απενεργοποιηθεί από τον διαχειριστή μέσω διαχείρισης χρηστών. Διαφορετικά, οι απενεργοποιημένοι χρήστες διατηρούν τα προηγούμενα προνόμιά τους μέχρι να αποσυνδεθούν.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
-
+---
 ### `security_content_policy`
 
-**Content Security Policy**
+**Πολιτική Ασφάλειας Περιεχομένου**
 
-Content Security Policy is an effective measure to protect your site from XSS attacks. By whitelisting sources of approved content, you can prevent the browser from loading malicious assets. This setting is particularly complicated to set with WYSIWYG editors, but if you add all domains that you want to authorize for iframes inclusion in the child-src statement, this example should work for you. You can prevent JavaScript from executing from external sources (including inside SVG images) by using a strict list in the 'script-src' argument. Leave blank to disable. Example setting: default-src 'self'; script-src 'self' 'unsafe-eval' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; child-src 'self' *.youtube.com yt.be *.vimeo.com *.slideshare.com;
+Η Πολιτική Ασφάλειας Περιεχομένου αποτελεί αποτελεσματικό μέτρο για την προστασία του ιστότοπού σας από επιθέσεις XSS. Μέσω της λευκής λίστας πηγών εγκεκριμένου περιεχομένου, μπορείτε να εμποδίσετε τον περιηγητή από το φόρτωμα κακόβουλων στοιχείων. Αυτή η ρύθμιση είναι ιδιαίτερα περίπλοκη στην εγκατάσταση με επεξεργαστές WYSIWYG, αλλά αν προσθέσετε όλους τους τομείς που θέλετε να εξουσιοδοτήσετε για την ενσωμάτωση iframes στη δήλωση child-src, αυτό το παράδειγμα θα πρέπει να λειτουργήσει για εσάς. Μπορείτε να εμποδίσετε την εκτέλεση JavaScript από εξωτερικές πηγές (συμπεριλαμβανομένων εικόνων SVG) χρησιμοποιώντας μια αυστηρή λίστα στο όρισμα 'script-src'. Αφήστε κενό για απενεργοποίηση. Παράδειγμα ρύθμισης: default-src 'self'; script-src 'self' 'unsafe-eval' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; child-src 'self' *.youtube.com yt.be *.vimeo.com *.slideshare.com;
 
 ### `security_content_policy_report_only`
 
-**Content Security Policy report only**
+**Πολιτική Ασφάλειας Περιεχομένου μόνο αναφορά**
 
-This setting allows you to experiment by reporting but not enforcing some Content Security Policy.
+Αυτή η ρύθμιση σας επιτρέπει να πειραματιστείτε αναφέροντας αλλά όχι επιβάλλοντας κάποια Πολιτική Ασφάλειας Περιεχομένου.
 
 ### `security_public_key_pins`
 
-**HTTP Public Key Pinning**
+**Καρφίτσωμα Δημόσιου Κλειδιού HTTP**
 
-HTTP Public Key Pinning protects your site from MiTM attacks using rogue X.509 certificates. By whitelisting only the identities that the browser should trust, your users are protected in the event a certificate authority is compromised.
+Το Καρφίτσωμα Δημόσιου Κλειδιού HTTP προστατεύει τον ιστότοπό σας από επιθέσεις MiTM χρησιμοποιώντας πλαστά πιστοποιητικά X.509. Μέσω της λευκής λίστας μόνο των ταυτοτήτων που πρέπει να εμπιστεύεται ο περιηγητής, οι χρήστες σας προστατεύονται σε περίπτωση συμβιβασμού αρχής πιστοποιητικών.
 
 ### `security_public_key_pins_report_only`
 
-**HTTP Public Key Pinning report only**
+**Καρφίτσωμα Δημόσιου Κλειδιού HTTP μόνο αναφορά**
 
-This setting allows you to experiment by reporting but not enforcing some HTTP Public Key Pinning.
+Αυτή η ρύθμιση σας επιτρέπει να πειραματιστείτε αναφέροντας αλλά όχι επιβάλλοντας κάποιο Καρφίτσωμα Δημόσιου Κλειδιού HTTP.
 
 ### `security_referrer_policy`
 
-**Security Referrer Policy**
+**Πολιτική Αναφοράς Ασφαλείας**
 
-Referrer Policy is a new header that allows a site to control how much information the browser includes with navigation away from a document and should be set by all sites.
+Η Πολιτική Αναφοράς είναι μια νέα κεφαλίδα που επιτρέπει σε έναν ιστότοπο να ελέγχει πόσες πληροφορίες περιλαμβάνει ο περιηγητής με την πλοήγηση μακριά από ένα έγγραφο και θα πρέπει να ορίζεται από όλους τους ιστότοπους.
 
-*Default: `origin-when-cross-origin`*
+*Προεπιλογή: `origin-when-cross-origin`*
 
 
 ### `security_session_cookie_samesite_none`
 
-**Session cookie samesite**
+**Cookie συνεδρίας samesite**
 
-Enable samesite:None parameter for session cookie. More info: https://www.chromium.org/updates/same-site and https://developers.google.com/search/blog/2020/01/get-ready-for-new-samesitenone-secure
+Ενεργοποίηση παραμέτρου samesite:None για cookie συνεδρίας. Περισσότερες πληροφορίες: https://www.chromium.org/updates/same-site and https://developers.google.com/search/blog/2020/01/get-ready-for-new-samesitenone-secure
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 ### `security_strict_transport`
 
-**HTTP Strict Transport Security**
+**Αυστηρή Ασφάλεια Μεταφοράς HTTP**
 
-HTTP Strict Transport Security is an excellent feature to support on your site and strengthens your implementation of TLS by getting the User Agent to enforce the use of HTTPS. Recommended value: 'strict-transport-security: max-age=63072000; includeSubDomains'. See https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Strict-Transport-Security. You can include the 'preload' suffix, but this has consequences on the top level domain (TLD), so probably not to be done lightly. See https://hstspreload.org/. Leave blank to disable.
+Η Αυστηρή Ασφάλεια Μεταφοράς HTTP είναι εξαιρετικό χαρακτηριστικό για υποστήριξη στον ιστότοπό σας και ενισχύει την υλοποίησή σας TLS κάνοντας τον User Agent να επιβάλλει τη χρήση HTTPS. Συνιστώμενη τιμή: 'strict-transport-security: max-age=63072000; includeSubDomains'. Δείτε https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Strict-Transport-Security. Μπορείτε να συμπεριλάβετε την κατάληξη 'preload', αλλά αυτό έχει συνέπειες στον ανώτατο τομέα επιπέδου (TLD), οπότε πιθανότατα δεν πρέπει να γίνει ελαφρά. Δείτε https://hstspreload.org/. Αφήστε κενό για απενεργοποίηση.
 
 ### `security_x_content_type_options`
 
 **X-Content-Type-Options**
 
-X-Content-Type-Options stops a browser from trying to MIME-sniff the content type and forces it to stick with the declared content-type. The only valid value for this header is 'nosniff'.
+Οι X-Content-Type-Options εμποδίζουν τον περιηγητή από το να προσπαθήσει να ανιχνεύσει MIME τον τύπο περιεχομένου και τον αναγκάζουν να παραμείνει με τον δηλωμένο τύπο περιεχομένου. Η μόνη έγκυρη τιμή για αυτή την κεφαλίδα είναι 'nosniff'.
 
-*Default: `nosniff`*
+*Προεπιλογή: `nosniff`*
 
 
 ### `security_x_frame_options`
 
 **X-Frame-Options**
 
-X-Frame-Options tells the browser whether you want to allow your site to be framed or not. By preventing a browser from framing your site you can defend against attacks like clickjacking. If defining a URL here, it should define the URL(s) from which your content should be visible, not the URLs from which your site accepts content. For example, if your main URL (root_web above) is https://11.chamilo.org/, then this setting should be: 'ALLOW-FROM https://11.chamilo.org'. These headers only apply to pages where Chamilo is responsible of the HTTP headers generation (i.e. '.php' files). It does not apply to static files. If playing with this feature, make sure you also update your web server configuration to add the right headers for static files. See CDN configuration documentation above (search for 'add_header') for more information. Recommended (strict) value for this setting, if enabled: 'SAMEORIGIN'.
+Οι X-Frame-Options λένε στον περιηγητή αν θέλετε να επιτρέψετε στον ιστότοπό σας να εμφανίζεται σε πλαίσιο ή όχι. Εμποδίζοντας τον περιηγητή από το να εμφανίσει τον ιστότοπό σας σε πλαίσιο, μπορείτε να υπερασπιστείτε από επιθέσεις όπως το clickjacking. Αν ορίζετε URL εδώ, θα πρέπει να ορίζει τα URL από τα οποία θα πρέπει να είναι ορατό το περιεχόμενό σας, όχι τα URL από τα οποία ο ιστότοπός σας δέχεται περιεχόμενο. Για παράδειγμα, αν το κύριο URL σας (root_web παραπάνω) είναι https://11.chamilo.org/, τότε αυτή η ρύθμιση θα πρέπει να είναι: 'ALLOW-FROM https://11.chamilo.org'. Αυτές οι κεφαλίδες ισχύουν μόνο σε σελίδες όπου το Chamilo είναι υπεύθυνο για τη δημιουργία των κεφαλίδων HTTP (δηλ. αρχεία '.php'). Δεν ισχύουν σε στατικά αρχεία. Αν πειραματίζεστε με αυτό το χαρακτηριστικό, βεβαιωθείτε ότι ενημερώνετε επίσης τη διαμόρφωση του web server σας για να προσθέσετε τις σωστές κεφαλίδες για στατικά αρχεία. Δείτε την τεκμηρίωση διαμόρφωσης CDN παραπάνω (αναζήτηση για 'add_header') για περισσότερες πληροφορίες. Συνιστώμενη (αυστηρή) τιμή για αυτή τη ρύθμιση, αν ενεργοποιηθεί: 'SAMEORIGIN'.
 
-*Default: `SAMEORIGIN`*
+*Προεπιλογή: `SAMEORIGIN`*
 
 
 ### `security_xss_protection`
 
 **X-XSS-Protection**
 
-X-XSS-Protection sets the configuration for the cross-site scripting filter built into most browsers. Recommended value '1; mode=block'.
+Η X-XSS-Protection ορίζει τη διαμόρφωση για το φίλτρο διασύνδεσης scripting που είναι ενσωματωμένο στους περισσότερους περιηγητές. Συνιστώμενη τιμή '1; mode=block'.
 
-*Default: `1; mode=block`*
+*Προεπιλογή: `1; mode=block`*
 
 
 ### `user_reset_password`
 
-**Enable password reset token**
+**Ενεργοποίηση token επαναφοράς κωδικού πρόσβασης**
 
-This option allows to generate a expiring single-use token sent by e-mail to the user to reset his/her password.
+Αυτή η επιλογή επιτρέπει τη δημιουργία ενός λήξαντος token μίας χρήσης που αποστέλλεται με email στον χρήστη για την επαναφορά του κωδικού πρόσβασης.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 
 ### `user_reset_password_token_limit`
 
-**Time limit for password reset token**
+**Χρονικό όριο για token επαναφοράς κωδικού πρόσβασης**
 
-The number of seconds before the generated token automatically expires and cannot be used anymore (a new token needs to be generated).
+Ο αριθμός δευτερολέπτων πριν το γεννηθέν token λήξει αυτόματα και δεν μπορεί να χρησιμοποιηθεί πλέον (πρέπει να δημιουργηθεί νέο token).
 
-*Default: `3600`*
-
-
+*Προεπιλογή: `3600`*

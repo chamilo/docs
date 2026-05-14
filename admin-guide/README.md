@@ -1,35 +1,35 @@
-# Administration Guide
+# Οδηγός Διαχείρισης
 
-Welcome to the Chamilo 2.0 Administration Guide. This guide is designed for platform administrators responsible for installing, configuring, and managing a Chamilo instance.
+Καλώς ήρθατε στον Οδηγό Διαχείρισης του Chamilo 2.0. Αυτός ο οδηγός είναι σχεδιασμένος για τους διαχειριστές της πλατφόρμας που ευθύνονται για την εγκατάσταση, διαμόρφωση και διαχείριση μιας εγκατάστασης Chamilo.
 
-## What you can do as an Administrator
+## Τι μπορείτε να κάνετε ως Διαχειριστής
 
-As a Chamilo administrator, you manage:
+Ως διαχειριστής του Chamilo, διαχειρίζεστε:
 
-* **Installation and configuration** — Set up Chamilo on your server, configure storage, email, and environment settings
-* **Users** — Create, import, and manage user accounts, roles, and permissions
-* **Courses and sessions** — Oversee course creation, manage the course catalog, and configure training sessions
-* **Platform settings** — Configure portal behavior, security, performance, and feature availability
-* **Authentication** — Set up external login systems (OAuth2, LDAP, CAS, SCIM)
-* **Integrations** — Connect Chamilo to video conferencing, LTI tools, AI providers, and more
-* **Branding** — Customize the look and feel of the platform with themes and visual settings
-* **Maintenance** — Perform backups, monitor system health, and manage storage
+* **Εγκατάσταση και διαμόρφωση** — Ρυθμίστε το Chamilo στον διακομιστή σας, διαμορφώστε την αποθήκευση, το email και τις ρυθμίσεις περιβάλλοντος
+* **Χρήστες** — Δημιουργήστε, εισάγετε και διαχειριστείτε λογαριασμούς χρηστών, ρόλους και δικαιώματα
+* **Μαθήματα και συνεδρίες** — Εποπτεύστε τη δημιουργία μαθημάτων, διαχειριστείτε τον κατάλογο μαθημάτων και διαμορφώστε εκπαιδευτικές συνεδρίες
+* **Ρυθμίσεις πλατφόρμας** — Διαμορφώστε τη συμπεριφορά του πύλη, την ασφάλεια, την απόδοση και τη διαθεσιμότητα χαρακτηριστικών
+* **Πιστοποίηση** — Ρυθμίστε εξωτερικά συστήματα σύνδεσης (OAuth2, LDAP, CAS, SCIM)
+* **Ενσωματώσεις** — Συνδέστε το Chamilo με συστήματα τηλεδιάσκεψης, εργαλεία LTI, παρόχους ΤΝ και άλλα
+* **Branding** — Προσαρμόστε την εμφάνιση και αίσθηση της πλατφόρμας με θέματα και οπτικές ρυθμίσεις
+* **Συντήρηση** — Εκτελέστε αντιγράφους ασφαλείας, παρακολουθήστε την υγεία του συστήματος και διαχειριστείτε την αποθήκευση
 
-## How this guide is organized
+## Πώς οργανώνεται αυτός ο οδηγός
 
-1. **Getting Started** — An overview of the administration interface
-2. **Installation** — Server requirements, installation wizard, and initial configuration
-3. **Users** — Managing user accounts, roles, groups, and profiles
-4. **Courses** — Managing courses, categories, and import/export
-5. **Sessions** — Organizing time-bound training cohorts
-6. **Platform Settings** — Configuring every aspect of the platform
-7. **Authentication** — Setting up external authentication providers
-8. **Integrations** — Connecting third-party services
-9. **Plugins** — Managing platform extensions
-10. **Multi-URL** — Running multiple portals from a single installation
-11. **Maintenance** — Backups, system status, and cleanup
-12. **Branding** — Customizing the platform appearance
+1. **Ξεκινώντας** — Επισκόπηση της διεπαφής διαχείρισης
+2. **Εγκατάσταση** — Απαιτήσεις διακομιστή, οδηγός εγκατάστασης και αρχική διαμόρφωση
+3. **Χρήστες** — Διαχείριση λογαριασμών χρηστών, ρόλων, ομάδων και προφίλ
+4. **Μαθήματα** — Διαχείριση μαθημάτων, κατηγοριών και εισαγωγής/εξαγωγής
+5. **Συνεδρίες** — Οργάνωση χρονικά περιορισμένων ομάδων εκπαίδευσης
+6. **Ρυθμίσεις Πλατφόρμας** — Διαμόρφωση κάθε πτυχής της πλατφόρμας
+7. **Πιστοποίηση** — Ρύθμιση εξωτερικών παρόχων πιστοποίησης
+8. **Ενσωματώσεις** — Σύνδεση υπηρεσιών τρίτων
+9. **Πρόσθετα** — Διαχείριση επεκτάσεων πλατφόρμας
+10. **Multi-URL** — Εκτέλεση πολλαπλών πυλών από μία εγκατάσταση
+11. **Συντήρηση** — Αντιγράφοι ασφαλείας, κατάσταση συστήματος και καθαρισμός
+12. **Branding** — Προσαρμογή της εμφάνισης της πλατφόρμας
 
-## Accessing the Administration Panel
+## Πρόσβαση στο Πίνακα Διαχείρισης
 
-After logging in as an administrator, click **Administration** <img src="/.gitbook/assets/icons/mdi-cogs.svg" alt="Admin" data-size="line"> in the sidebar to access the administration panel.
+Μετά τη σύνδεση ως διαχειριστής, κάντε κλικ στο **Administration** <img src="/.gitbook/assets/icons/mdi-cogs.svg" alt="Διαχείριση" data-size="line"> στη γραμμή πλαϊνής πλοήγησης για να αποκτήσετε πρόσβαση στον πίνακα διαχείρισης.

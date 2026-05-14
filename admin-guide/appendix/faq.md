@@ -1,87 +1,87 @@
-# FAQ
+# Συνήθεις Ερωτήσεις (FAQ)
 
-Frequently asked questions for Chamilo 2.0 administrators.
+Συχνές ερωτήσεις για διαχειριστές του Chamilo 2.0.
 
-## Installation and Setup
+## Εγκατάσταση και Ρύθμιση
 
-**Q: What PHP version does Chamilo 2.0 require?**
-A: PHP 8.2 or higher. PHP 8.3 is recommended. See [Server Requirements](../installation/server-requirements.md).
+**Ε: Ποια έκδοση PHP απαιτεί το Chamilo 2.0;**
+Α: PHP 8.2 ή υψηλότερη. Συνιστάται η PHP 8.3. Δείτε [Server Requirements](../installation/server-requirements.md).
 
-**Q: Can I run Chamilo on shared hosting?**
-A: It is possible but not recommended. Chamilo 2.0 requires Composer, Node.js in development mode, and command
--line access for installation and maintenance. A VPS or dedicated server provides a much better experience.
+**Ε: Μπορώ να εκτελέσω το Chamilo σε κοινόχρηστο hosting;**
+Α: Είναι δυνατό αλλά δεν συνιστάται. Το Chamilo 2.0 απαιτεί Composer, Node.js σε λειτουργία ανάπτυξης και πρόσβαση γραμμής εντολών για εγκατάσταση και συντήρηση. Ένας VPS ή ειδικός διακομιστής παρέχει πολύ καλύτερη εμπειρία.
 
-**Q: Which database should I use?**
-A: MySQL 8.0+ or MariaDB 10.4+ are the most commonly used and best tested.
+**Ε: Ποια βάση δεδομένων πρέπει να χρησιμοποιήσω;**
+Α: Το MySQL 8.0+ ή MariaDB 10.4+ είναι οι πιο συνηθισμένες και καλύτερα δοκιμασμένες επιλογές.
 
-**Q: Can I install Chamilo without the command line?**
-A: Yes, if you use the packaged version (.zip or .tar.gz). Otherwise, you will need the command line to install Composer dependencies, build frontend assets, and run database migrations. The web-based wizard handles the database setup and initial configuration, but the surrounding steps require shell access in dev mode.
+**Ε: Μπορώ να εγκαταστήσω το Chamilo χωρίς γραμμή εντολών;**
+Α: Ναι, αν χρησιμοποιήσετε την συσκευασμένη έκδοση (.zip ή .tar.gz). Διαφορετικά, θα χρειαστείτε γραμμή εντολών για εγκατάσταση εξαρτήσεων Composer, κατασκευή frontend assets και εκτέλεση μεταφορών βάσης δεδομένων. Ο web-based οδηγός χειρίζεται τη ρύθμιση της βάσης δεδομένων και την αρχική διαμόρφωση, αλλά τα υπόλοιπα βήματα απαιτούν πρόσβαση shell σε λειτουργία ανάπτυξης.
 
-## Users and Authentication
+## Χρήστες και Πιστοποίηση
 
-**Q: How do I reset a user's password?**
-A: Go to **Administration > User list**, find the user, click edit, and set a new password. Alternatively, the user can use the "Forgot password" link on the login page (if email is configured).
+**Ε: Πώς επαναφέρω τον κωδικό πρόσβασης ενός χρήστη;**
+Α: Πηγαίνετε στο **Administration > User list**, βρείτε τον χρήστη, κάντε κλικ στην επεξεργασία και ορίστε νέο κωδικό πρόσβασης. Εναλλακτικά, ο χρήστης μπορεί να χρησιμοποιήσει τον σύνδεσμο "Forgot password" στη σελίδα σύνδεσης (αν είναι ρυθμισμένο το email).
 
-**Q: Can I import users in bulk?**
-A: Yes. Go to **Administration > Import users** and upload a CSV or XML file with user data. The import supports creating new users and updating existing ones.
+**Ε: Μπορώ να εισάγω χρήστες μαζικά;**
+Α: Ναι. Πηγαίνετε στο **Administration > Import users** και ανεβάστε αρχείο CSV ή XML με δεδομένα χρηστών. Η εισαγωγή υποστηρίζει δημιουργία νέων χρηστών και ενημέρωση υπαρχόντων.
 
-**Q: How do I integrate with LDAP or Active Directory?**
-A: Configure LDAP settings in the authentication configuration. See [LDAP](../authentication/ldap.md). Users are synchronized on login or via scheduled sync.
+**Ε: Πώς ενσωματώνω με LDAP ή Active Directory;**
+Α: Ρυθμίστε τις παραμέτρους LDAP στη διαμόρφωση πιστοποίησης. Δείτε [LDAP](../authentication/ldap.md). Οι χρήστες συγχρονίζονται κατά τη σύνδεση ή μέσω προγραμματισμένης συγχρονισμού.
 
-**Q: Can users belong to multiple sessions at the same time?**
-A: Yes. Users can be enrolled in any number of sessions simultaneously. Each session tracks progress independently.
+**Ε: Μπορούν οι χρήστες να ανήκουν σε πολλαπλές συνεδρίες ταυτόχρονα;**
+Α: Ναι. Οι χρήστες μπορούν να εγγραφούν σε οποιοδήποτε αριθμό συνεδριών ταυτόχρονα. Κάθε συνεδρία παρακολουθεί την πρόοδο ανεξάρτητα.
 
-## Courses and Content
+## Μαθήματα και Περιεχόμενο
 
-**Q: How do I back up a single course?**
-A: Within the course, go to **Maintenance > Create a backup**. This generates a downloadable archive of course content and settings. You can restore it on the same or a different Chamilo instance.
+**Ε: Πώς δημιουργώ αντιγράφων ασφαλείας ενός μεμονωμένου μαθήματος;**
+Α: Μέσα στο μάθημα, πηγαίνετε στο **Maintenance > Create a backup**. Αυτό δημιουργεί ενημερώσιμο αρχείο του περιεχομένου και των ρυθμίσεων του μαθήματος. Μπορείτε να το επαναφέρετε στο ίδιο ή σε διαφορετικό instance του Chamilo.
 
-**Q: Can I copy a course?**
-A: Yes. Use **Administration > Copy course** or the course maintenance tool within the course. You can copy content between courses or create a new course from an existing one.
+**Ε: Μπορώ να αντιγράψω ένα μάθημα;**
+Α: Ναι. Χρησιμοποιήστε **Administration > Copy course** ή το εργαλείο συντήρησης μαθήματος μέσα στο μάθημα. Μπορείτε να αντιγράψετε περιεχόμενο μεταξύ μαθημάτων ή να δημιουργήσετε νέο μάθημα από υπάρχον.
 
-**Q: What SCORM versions are supported?**
-A: Chamilo supports SCORM 1.2. SCORM packages are imported as learning paths.
+**Ε: Ποιες εκδόσεις SCORM υποστηρίζονται;**
+Α: Το Chamilo υποστηρίζει SCORM 1.2. Τα πακέτα SCORM εισάγονται ως learning paths.
 
-**Q: How do I limit who can create courses?**
-A: Go to **Administration > Configuration settings > Course** and disable **Allow non administrators (teachers) to create new courses** (`allow_users_to_create_courses`). When disabled, only administrators can create courses. Alternatively, you can set a limit to the number of courses any teacher can create.
+**Ε: Πώς περιορίζω ποιος μπορεί να δημιουργεί μαθήματα;**
+Α: Πηγαίνετε στο **Administration > Configuration settings > Course** και απενεργοποιήστε το **Allow non administrators (teachers) to create new courses** (`allow_users_to_create_courses`). Όταν είναι απενεργοποιημένο, μόνο οι διαχειριστές μπορούν να δημιουργούν μαθήματα. Εναλλακτικά, μπορείτε να ορίσετε όριο στον αριθμό μαθημάτων που μπορεί να δημιουργήσει οποιοσδήποτε δάσκαλος.
 
-## Performance and Maintenance
+## Απόδοση και Συντήρηση
 
-**Q: The platform is slow. What should I check first?**
-A: In order of impact: (1) Ensure `APP_ENV=prod` and `APP_DEBUG=0` in `.env`. (2) Verify PHP OPcache is enabled. (3) Check database performance. (4) See [Performance Tuning](../platform-settings/performance-tuning.md).
+**Ε: Η πλατφόρμα είναι αργή. Τι πρέπει να ελέγξω πρώτα;**
+Α: Κατά σειρά επιρροής: (1) Βεβαιωθείτε ότι `APP_ENV=prod` και `APP_DEBUG=0` στο `.env`. (2) Επαληθεύστε ότι το PHP OPcache είναι ενεργοποιημένο. (3) Ελέγξτε την απόδοση της βάσης δεδομένων. (4) Δείτε [Performance Tuning](../platform-settings/performance-tuning.md).
 
-**Q: How do I clear the cache?**
-A: Run `php bin/console cache:clear --env=prod` from the command line. Do not delete the `var/cache/` directory manually while the application is running.
+**Ε: Πώς καθαρίζω την cache;**
+Α: Εκτελέστε `php bin/console cache:clear --env=prod` από τη γραμμή εντολών. Μην διαγράψετε χειροκίνητα τον κατάλογο `var/cache/` ενώ η εφαρμογή εκτελείται.
 
-**Q: How much disk space does Chamilo need?**
-A: The application itself needs about 2 GB uncompressed. Total space depends on uploaded content (documents, videos, SCORM packages). Monitor disk usage and plan accordingly.
+**Ε: Πόσο χώρο δίσκου χρειάζεται το Chamilo;**
+Α: Η ίδια η εφαρμογή χρειάζεται περίπου 2 GB αποσυμπιεσμένη. Ο συνολικός χώρος εξαρτάται από το ανεβασμένο περιεχόμενο (έγγραφα, βίντεο, πακέτα SCORM). Παρακολουθήστε τη χρήση δίσκου και σχεδιάστε ανάλογα.
 
-**Q: How do I set up automated backups?**
-A: See [Backups](../maintenance/backups.md). At minimum, schedule a daily database dump and regular file-level backups of the upload directory.
+**Ε: Πώς ρυθμίζω αυτοματοποιημένα αντιγράφων ασφαλείας;**
+Α: Δείτε [Backups](../maintenance/backups.md). Ελάχιστα, προγραμματίστε καθημερινή εξαγωγή βάσης δεδομένων και τακτικά backups σε επίπεδο αρχείων του καταλόγου upload.
 
 ## Email
 
-**Q: Users are not receiving emails. What should I check?**
-A: (1) Verify `MAILER_DSN` in `.env`. (2) Run `php bin/console mailer:test someone@example.com` to test. (3) Check spam folders. (4) Verify SPF/DKIM DNS records. See [Email Configuration](../installation/email-configuration.md).
+**Ε: Οι χρήστες δεν λαμβάνουν emails. Τι πρέπει να ελέγξω;**
+Α: (1) Επαληθεύστε το `MAILER_DSN` στο `.env`. (2) Εκτελέστε `php bin/console mailer:test someone@example.com` για δοκιμή. (3) Ελέγξτε φακέλους spam. (4) Επαληθεύστε εγγραφές DNS SPF/DKIM. Δείτε [Email Configuration](../installation/email-configuration.md).
 
-**Q: Can I use Gmail to send emails?**
-A: Yes, for small platforms or development. Use an App Password and be aware of Gmail's daily sending limits (500 emails/day for regular accounts).
+**Ε: Μπορώ να χρησιμοποιήσω Gmail για αποστολή emails;**
+Α: Ναι, για μικρές πλατφόρμες ή ανάπτυξη. Χρησιμοποιήστε App Password και λάβετε υπόψη τα ημερήσια όρια αποστολής του Gmail (500 emails/ημέρα για κανονικούς λογαριασμούς).
 
-## Security
+## Ασφάλεια
 
-**Q: How do I force HTTPS?**
-A: Configure your web server to redirect HTTP to HTTPS. Additionally, enable the "Force HTTPS" setting in **Administration > Configuration settings > Security**. See [Security Settings](../platform-settings/security-settings.md).
+**Ε: Πώς επιβάλλω το HTTPS;**
+Α: Ρυθμίστε τον web server να ανακατευθύνει το HTTP σε HTTPS. Επιπλέον, ενεργοποιήστε τη ρύθμιση "Force HTTPS" στο **Administration > Configuration settings > Security**. Δείτε [Security Settings](../platform-settings/security-settings.md).
 
-**Q: How do I block brute-force login attacks?**
-A: Configure max login attempts and CAPTCHA in security settings. Consider also using fail2ban at the server level for additional protection.
+**Ε: Πώς μπλοκάρω επιθέσεις brute-force σύνδεσης;**
+Α: Ρυθμίστε μέγιστο αριθμό προσπαθειών σύνδεσης και CAPTCHA στις ρυθμίσεις ασφαλείας. Εξετάστε επίσης τη χρήση fail2ban σε επίπεδο διακομιστή για επιπλέον προστασία.
 
-**Q: A user forgot their password and email is not working. How do I help them?**
-A: As an administrator, edit the user account directly and set a new password. Go to **Administration > User list**, find the account, and update the password field.
+**Ε: Ένας χρήστης ξέχασε τον κωδικό του και το email δεν λειτουργεί. Πώς τον βοηθάω;**
+Α: Ως διαχειριστής, επεξεργαστείτε απευθείας τον λογαριασμό του χρήστη και ορίστε νέο κωδικό πρόσβασης. Πηγαίνετε στο **Administration > User list**, βρείτε τον λογαριασμό και ενημερώστε το πεδίο κωδικού πρόσβασης.
 
-## Upgrades
+---
+## Αναβαθμίσεις
 
-**Q: Can I upgrade directly from Chamilo 1.11.x to 2.0?**
-A: Yes, but it is a major migration, not a simple update. See [Upgrading](../installation/upgrading.md). Always test on a staging server first.
+**Ε: Μπορώ να αναβαθμίσω απευθείας από Chamilo 1.11.x σε 2.0;**
+Α: Ναι, αλλά πρόκειται για σημαντική μετεγκατάσταση, όχι για απλή ενημέρωση. Δείτε [Αναβάθμιση](../installation/upgrading.md). Δοκιμάστε πάντα πρώτα σε διακομιστή staging.
 
-**Q: Will my plugins work after upgrading to 2.0?**
-A: No. Plugins from 1.11.x are not compatible with 2.0 and must be rewritten or replaced with equivalent 2.0 functionality.
+**Ε: Θα λειτουργήσουν τα πρόσθετά μου μετά την αναβάθμιση σε 2.0;**
+Α: Όχι. Τα πρόσθετα από 1.11.x δεν είναι συμβατά με 2.0 και πρέπει να ξαναγραφούν ή να αντικατασταθούν με ισοδύναμη λειτουργικότητα 2.0.

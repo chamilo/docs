@@ -1,40 +1,40 @@
-# Getting Started
+# Εισαγωγή
 
-This section helps you get oriented with Chamilo 2.0. You will learn how to log in, navigate the main interface, and configure your profile.
+Αυτή η ενότητα σας βοηθά να προσανατολιστείτε στο Chamilo 2.0. Θα μάθετε πώς να συνδεθείτε, να πλοηγηθείτε στη βασική διεπαφή και να ρυθμίσετε το προφίλ σας.
 
-## Logging In
+## Σύνδεση
 
-To access Chamilo, open your browser and navigate to the URL provided by your institution (for example, `https://chamilo.yourschool.edu`). Enter your username and password on the login page and click **Sign in**.
+Για να αποκτήσετε πρόσβαση στο Chamilo, ανοίξτε τον περιηγητή σας και μεταβείτε στη διεύθυνση URL που παρέχει το ίδρυμά σας (π.χ., `https://chamilo.yourschool.edu`). Εισαγάγετε το όνομα χρήστη και τον κωδικό πρόσβασής σας στη σελίδα σύνδεσης και κάντε κλικ στο **Είσοδος**.
 
-If your institution uses external authentication (such as Azure, Keycloak, or a university single sign-on system), you may see additional login buttons below the standard login form. Click the appropriate button to authenticate through your institution's identity provider.
+Αν το ίδρυμά σας χρησιμοποιεί εξωτερική πιστοποίηση (όπως Azure, Keycloak ή σύστημα ενιαίας σύνδεσης πανεπιστημίου), ενδέχεται να δείτε επιπλέον κουμπιά σύνδεσης κάτω από τη standard φόρμα σύνδεσης. Κάντε κλικ στο κατάλληλο κουμπί για να πιστοποιηθείτε μέσω του παρόχου ταυτότητας του ιδρύματός σας.
 
-> If you have forgotten your password, click the **Forgot password?** link on the login page. You will receive an email with instructions to reset it.
+> Αν έχετε ξεχάσει τον κωδικό πρόσβασής σας, κάντε κλικ στον σύνδεσμο **Ξεχάσατε τον κωδικό σας;** στη σελίδα σύνδεσης. Θα λάβετε ένα email με οδηγίες για την επαναφορά του.
 
-## First Look
+## Πρώτη Ματιά
 
-After logging in, you will see the Chamilo home page. The interface is organized into three main areas:
+Μετά τη σύνδεση, θα δείτε την αρχική σελίδα του Chamilo. Η διεπαφή οργανώνεται σε τρεις βασικές περιοχές:
 
-![The Chamilo home page showing system announcements and course cards](/.gitbook/assets/home-page-teacher.png)
+![Η αρχική σελίδα του Chamilo που εμφανίζει συστημικές ανακοινώσεις και κάρτες μαθημάτων](/.gitbook/assets/home-page-teacher.png)
 
-* **Top bar** — Displays the platform logo, your message inbox (with a badge showing unread messages), and your user avatar. Click your avatar to access your profile and account settings.
-* **Sidebar** — The left navigation panel gives you quick access to your courses, sessions, agenda, social network, and more. You can collapse it by clicking the toggle at its edge.
-* **Main content area** — This is where the current page content is displayed. On the home page, you will see system announcements and your featured courses.
+* **Γραμμή κορυφής** — Εμφανίζει το λογότυπο της πλατφόρμας, το inbox μηνυμάτων σας (με ένδειξη μη αναγνωσμένων μηνυμάτων) και το avatar σας. Κάντε κλικ στο avatar σας για να αποκτήσετε πρόσβαση στο προφίλ και τις ρυθμίσεις λογαριασμού σας.
+* **Πλευρική γραμμή** — Ο αριστερός πίνακας πλοήγησης σας δίνει γρήγορη πρόσβαση στα μαθήματα, συνεδρίες, ημερήσιο πρόγραμμα, κοινωνικό δίκτυο και άλλα. Μπορείτε να την συρρικνώσετε κάνοντας κλικ στο κουμπί εναλλαγής στην άκρη της.
+* **Κύρια περιοχή περιεχομένου** — Εδώ εμφανίζεται το περιεχόμενο της τρέχουσας σελίδας. Στην αρχική σελίδα, θα δείτε συστημικές ανακοινώσεις και τα επιλεγμένα μαθήματά σας.
 
-## Your Courses
+## Τα Μαθήματά Σας
 
-From the sidebar, click **My courses** to see all the courses you are enrolled in as a teacher or student. Each course appears as a card showing:
+Από την πλευρική γραμμή, κάντε κλικ στο **Τα μαθήματά μου** για να δείτε όλα τα μαθήματα στα οποία είστε εγγεγραμμένος ως δάσκαλος ή μαθητής. Κάθε μάθημα εμφανίζεται ως κάρτα που δείχνει:
 
-![The My Courses page displaying course cards with thumbnails and quick-access actions](/.gitbook/assets/my-courses-list.png)
+![Η σελίδα Τα μαθήματά μου που εμφανίζει κάρτες μαθημάτων με μικρές εικόνες και γρήγορες ενέργειες πρόσβασης](/.gitbook/assets/my-courses-list.png)
 
-* The course image or thumbnail
-* The course title
-* Quick-access actions
+* Την εικόνα ή μικρή εικόνα του μαθήματος
+* Τον τίτλο του μαθήματος
+* Γρήγορες ενέργειες πρόσβασης
 
-If your institution uses **sessions** (time-bound training periods), you will also see a **My sessions** link in the sidebar, organized into current, past, and upcoming sessions.
+Αν το ίδρυμά σας χρησιμοποιεί **συνεδρίες** (περιοδικές περιόδους εκπαίδευσης), θα δείτε επίσης έναν σύνδεσμο **Οι συνεδρίες μου** στην πλευρική γραμμή, οργανωμένο σε τρέχουσες, προηγούμενες και επερχόμενες συνεδρίες.
 
-Sessions in Chamilo are a way to deliver the same course to different groups of learners at different times, without duplicating the course content. Think of a session as a scheduled edition or cohort of a course. More on that topic later.
+Οι συνεδρίες στο Chamilo είναι ένας τρόπος να παραδώσετε το ίδιο μάθημα σε διαφορετικές ομάδες μαθητών σε διαφορετικές χρονικές στιγμές, χωρίς να αντιγράψετε το περιεχόμενο του μαθήματος. Σκεφτείτε μια συνεδρία ως προγραμματισμένη έκδοση ή ομάδα ενός μαθήματος. Περισσότερα για αυτό το θέμα αργότερα.
 
-## Next Steps
+## Επόμενα Βήματα
 
-* [Understanding the Interface](understanding-the-interface.md) — A detailed look at every part of the Chamilo interface
-* [Your Profile](your-profile.md) — How to manage your personal information and preferences
+* [Κατανόηση της Διεπαφής](understanding-the-interface.md) — Λεπτομερής ματιά σε κάθε μέρος της διεπαφής του Chamilo
+* [Το Προφίλ Σας](your-profile.md) — Πώς να διαχειριστείτε τις προσωπικές σας πληροφορίες και προτιμήσεις

@@ -1,96 +1,95 @@
-# Administrator Identity Settings
+# Ρυθμίσεις Ταυτότητας Διαχειριστή
 
-Identity and contact details of the platform administrator. These values appear in the platform footer and in some system-generated emails.
+Στοιχεία ταυτότητας και επικοινωνίας του διαχειριστή της πλατφόρμας. Αυτές οι τιμές εμφανίζονται στο υποσέλιδο της πλατφόρμας και σε ορισμένα συστημικά emails.
 
-Access these settings under **Administration > Configuration settings > Administrator Identity**. This category contains **12 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+Πρόσβαση σε αυτές τις ρυθμίσεις μέσω **Διαχείριση > Ρυθμίσεις διαμόρφωσης > Ταυτότητα Διαχειριστή**. Αυτή η κατηγορία περιέχει **12 ρυθμίσεις**, που παρατίθενται παρακάτω με τον τίτλο και το σχόλιο που παρέχονται στα fixtures των ρυθμίσεων της πλατφόρμας (`SettingsCurrentFixtures.php`).
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> Το όνομα της μεταβλητής στον κώδικα εμφανίζεται σε monospace. Χρησιμοποιήστε το κατά την προγραμματισμό μέσω API ή όταν χρειάζεται να αλλάξετε αυτές τις ρυθμίσεις σε παγκόσμιο επίπεδο επεξεργαζόμενοι το [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
 
-## Settings
+## Ρυθμίσεις
 
 ### `administrator_email`
 
-**Portal Administrator: e-mail**
+**Διαχειριστής Πύλης: email**
 
-The e-mail address of the Platform Administrator (appears in the footer on the left)
+Η διεύθυνση email του Διαχειριστή της Πλατφόρμας (εμφανίζεται στο υποσέλιδο αριστερά)
 
 ### `administrator_name`
 
-**Portal Administrator: First Name**
+**Διαχειριστής Πύλης: Όνομα**
 
-The First Name of the Platform Administrator (appears in the footer on the left)
+Το Όνομα του Διαχειριστή της Πλατφόρμας (εμφανίζεται στο υποσέλιδο αριστερά)
 
 ### `administrator_phone`
 
-**Portal Administrator: Phone number**
+**Διαχειριστής Πύλης: Τηλέφωνο**
 
-The phone number of the Platform Administrator (appears in the footer on the left)
+Ο αριθμός τηλεφώνου του Διαχειριστή της Πλατφόρμας (εμφανίζεται στο υποσέλιδο αριστερά)
 
 ### `administrator_surname`
 
-**Portal Administrator: Last Name**
+**Διαχειριστής Πύλης: Επώνυμο**
 
-The Family Name of the Platform Administrator (appears in the footer on the left)
+Το Επώνυμο του Διαχειριστή της Πλατφόρμας (εμφανίζεται στο υποσέλιδο αριστερά)
 
 ### `chamilo_latest_news`
 
-**Latest news**
+**Τελευταία νέα**
 
-Get the latest news from Chamilo, including security vulnerabilities and events, directly inside your administration panel. These pieces of news will be checked on the Chamilo news server every time you load the administration page and are only visible to administrators.
+Λάβετε τα τελευταία νέα από το Chamilo, συμπεριλαμβανομένων ευπαθειών ασφαλείας και εκδηλώσεων, απευθείας στο πάνελ διαχείρισής σας. Αυτά τα νέα ελέγχονται στον διακομιστή νέων του Chamilo κάθε φορά που φορτώνετε τη σελίδα διαχείρισης και είναι ορατά μόνο στους διαχειριστές.
 
-*Default: `true`*
+*Προεπιλογή: `true`*
 
 ### `chamilo_support`
 
-**Chamilo support block**
+**Μπλοκ υποστήριξης Chamilo**
 
-Get pro tips and an easy way to contact official service providers for professional support, directly from the makers of Chamilo. This block appears on your administration page, is only visible by administrators, and refreshes every time you load the administration page.
+Λάβετε επαγγελματικές συμβουλές και εύκολο τρόπο επικοινωνίας με επίσημους παρόχους υπηρεσιών για επαγγελματική υποστήριξη, απευθείας από τους δημιουργούς του Chamilo. Αυτό το μπλοκ εμφανίζεται στη σελίδα διαχείρισής σας, είναι ορατό μόνο από διαχειριστές και ανανεώνεται κάθε φορά που φορτώνετε τη σελίδα διαχείρισης.
 
-*Default: `true`*
+*Προεπιλογή: `true`*
 
 ### `max_anonymous_users`
 
-**Multiple anonymous users**
+**Πολλαπλοί ανώνυμοι χρήστες**
 
-Enable this option to allow multiple system users for anonymous users. This is useful when using this platform as a public showroom for some courses. Having multiple anonymous users will let tracking work for the duration of the experience for several users without mixing their data (which could otherwise confuse them).
+Ενεργοποιήστε αυτή την επιλογή για να επιτρέψετε πολλαπλούς συστημικούς χρήστες για ανώνυμους χρήστες. Αυτό είναι χρήσιμο όταν χρησιμοποιείτε αυτή την πλατφόρμα ως δημόσια βιτρίνα για ορισμένα μαθήματα. Η ύπαρξη πολλαπλών ανώνυμων χρηστών θα επιτρέψει την παρακολούθηση να λειτουργεί για τη διάρκεια της εμπειρίας για αρκετούς χρήστες χωρίς να αναμιγνύονται τα δεδομένα τους (κάτι που θα μπορούσε διαφορετικά να τους μπερδέψει).
 
-*Default: `0`*
+*Προεπιλογή: `0`*
 
 ### `redirect_admin_to_courses_list`
 
-**Redirect admin to courses list**
+**Ανακατεύθυνση διαχειριστή στη λίστα μαθημάτων**
 
-The default behaviour is to send administrators directly to the administration panel (while teachers and students are sent to the courses list or the platform homepage). Enable to redirect the administrator also to his/her courses list.
+Η προεπιλεγμένη συμπεριφορά είναι να στέλνει τους διαχειριστές απευθείας στο πάνελ διαχείρισης (ενώ εκπαιδευτικοί και μαθητές στέλνονται στη λίστα μαθημάτων ή στην αρχική σελίδα της πλατφόρμας). Ενεργοποιήστε για να ανακατευθύνετε και τον διαχειριστή στη λίστα μαθημάτων του.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 ### `send_inscription_notification_to_general_admin_only`
 
-**Notify global admin only of new users**
+**Ειδοποίηση μόνο στον γενικό διαχειριστή για νέους χρήστες**
 
-When enabled, only the global administrator receives email notifications about new user registrations instead of all administrators.
+Όταν ενεργοποιηθεί, μόνο ο γενικός διαχειριστής λαμβάνει ειδοποιήσεις email για νέες εγγραφές χρηστών αντί για όλους τους διαχειριστές.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 ### `show_link_request_hrm_user`
 
-**Show link to request bond between user and HRM**
+**Εμφάνιση συνδέσμου αίτησης σύνδεσης χρήστη με HRM**
 
-Display a link on the profile page allowing Human Resources directors to request to be linked with a user account.
+Εμφανίστε έναν σύνδεσμο στη σελίδα προφίλ που επιτρέπει στους διευθυντές Ανθρώπινου Δυναμικού να ζητήσουν να συνδεθούν με λογαριασμό χρήστη.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 ### `user_status_option_only_for_admin_enabled`
 
-**Hide role from normal users**
+**Απόκρυψη ρόλου από κανονικούς χρήστες**
 
-Allows hiding users' role when this option is set to true and the following array sets the corresponding role to 'true'.
+Επιτρέπει την απόκρυψη του ρόλου των χρηστών όταν αυτή η επιλογή οριστεί σε true και ο ακόλουθος πίνακας ορίζει τον αντίστοιχο ρόλο σε 'true'.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 ### `user_status_option_show_only_for_admin`
 
-**Define which roles are hidden to normal users**
+**Ορισμός ρόλων που είναι κρυφοί από κανονικούς χρήστες**
 
-The roles set to 'true' will only appear to administrators. Other users will not be able to see them.
-
+Οι ρόλοι που ορίζονται σε 'true' θα εμφανίζονται μόνο σε διαχειριστές. Άλλοι χρήστες δεν θα μπορούν να τους δουν.

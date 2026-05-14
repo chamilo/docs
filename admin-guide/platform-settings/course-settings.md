@@ -1,361 +1,362 @@
-# Course Settings
+# Ρυθμίσεις Μαθήματος
 
-Defaults and policies that apply to courses across the platform — visibility, creation rights, allowed tools, learner permissions, and similar.
+Προεπιλογές και πολιτικές που ισχύουν για τα μαθήματα σε ολόκληρη την πλατφόρμα — ορατότητα, δικαιώματα δημιουργίας, επιτρεπόμενα εργαλεία, δικαιώματα μαθητών και παρόμοια.
 
-Access these settings under **Administration > Configuration settings > Course**. This category contains **45 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+Προσπελάστε αυτές τις ρυθμίσεις στο **Administration > Configuration settings > Course**. Αυτή η κατηγορία περιέχει **45 ρυθμίσεις**, που παρατίθενται παρακάτω με τον τίτλο και το σχόλιο που παρέχονται στα fixtures των ρυθμίσεων της πλατφόρμας (`SettingsCurrentFixtures.php`).
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> Το όνομα της μεταβλητής στον κώδικα εμφανίζεται σε monospace. Χρησιμοποιήστε το όταν προγραμματίζετε μέσω του API ή όταν χρειάζεται να αλλάξετε αυτές τις ρυθμίσεις σε παγκόσμιο επίπεδο επεξεργαζόμενοι το [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
 
-## Settings
+## Ρυθμίσεις
 
 ### `active_tools_on_create`
 
-**Active tools on course creation**
+**Ενεργά εργαλεία κατά τη δημιουργία μαθήματος**
 
-Select the tools that will be *active* after the creation of a course.
+Επιλέξτε τα εργαλεία που θα είναι *ενεργά* μετά τη δημιουργία ενός μαθήματος.
 
-*Default:*
+*Προεπιλογή:*
 ```
 agenda,announcement,attendance,bbb,blog,chat,course_description,course_progress,customcertificate,document,dropbox,forum,global,glossary,gradebook,group,learnpath,link,mobidico,notebook,notebookteacher,portfolio,positioning,quiz,student_publication,survey,test2pdf,tracking,user,wiki,zoom
 ```
 
 ### `allow_base_course_category`
 
-**Use course categories from top URL**
+**Χρήση κατηγοριών μαθημάτων από την κορυφαία URL**
 
-In multi-URL settings, allow admins and teachers to assign categories from the top URL to courses in the children URLs.
+Σε ρυθμίσεις πολλαπλών URL, επιτρέψτε στους διαχειριστές και καθηγητές να εκχωρούν κατηγορίες από την κορυφαία URL σε μαθήματα στις URL παιδιών.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 ### `allow_course_theme`
 
-**Allow course themes**
+**Επιτρέψτε θέματα μαθήματος**
 
-Allows course graphical themes and makes it possible to change the style sheet used by a course to any of the possible style sheets available to Chamilo. When a user enters the course, the style sheet of the course will have priority over the user's own style sheet and the platform's default style sheet.
+Επιτρέπει τα γραφικά θέματα μαθήματος και καθιστά δυνατή την αλλαγή του φύλλου στυλ που χρησιμοποιείται από ένα μάθημα σε οποιοδήποτε από τα διαθέσιμα φύλλα στυλ του Chamilo. Όταν ένας χρήστης εισέρχεται στο μάθημα, το φύλλο στυλ του μαθήματος θα έχει προτεραιότητα έναντι του φύλλου στυλ του χρήστη και του προεπιλεγμένου φύλλου στυλ της πλατφόρμας.
 
-*Default: `true`*
+*Προεπιλογή: `true`*
 
 ### `allow_public_course_with_no_terms_conditions`
 
-**Access public courses with terms and conditions**
+**Πρόσβαση σε δημόσια μαθήματα με όρους και συνθήκες**
 
-With this option enabled, if a course has public visibility and terms and conditions, those terms are disabled while the course is public.
+Με αυτή την επιλογή ενεργοποιημένη, αν ένα μάθημα έχει δημόσια ορατότητα και όρους και συνθήκες, αυτοί οι όροι απενεργοποιούνται ενώ το μάθημα είναι δημόσιο.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 ### `block_registered_users_access_to_open_course_contents`
 
-**Block public courses access to authenticated users**
+**Περιορισμός πρόσβασης σε δημόσια μαθήματα για πιστοποιημένους χρήστες**
 
-Only show public courses. Do not allow registered users to access courses with 'open' visibility unless they are subscribed to each of these courses.
+Εμφανίστε μόνο δημόσια μαθήματα. Μην επιτρέπετε σε εγγεγραμμένους χρήστες να έχουν πρόσβαση σε μαθήματα με ορατότητα 'open' εκτός αν είναι εγγεγραμμένοι σε καθένα από αυτά τα μαθήματα.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 ### `breadcrumbs_course_homepage`
 
-**Course homepage breadcrumb**
+**Breadcrumb στην αρχική σελίδα μαθήματος**
 
-The breadcrumb is the horizontal links navigation system usually in the top left of your page. This option selects what you want to appear in the breadcrumb on courses' homepages
+Το breadcrumb είναι το οριζόντιο σύστημα πλοήγησης συνδέσμων συνήθως στην επάνω αριστερή γωνία της σελίδας σας. Αυτή η επιλογή επιλέγει τι θέλετε να εμφανίζεται στο breadcrumb στις αρχικές σελίδες των μαθημάτων.
 
-*Default: `course_title`*
+*Προεπιλογή: `course_title`*
 
 ### `course_about_teacher_name_hide`
 
-**Hide course teacher info on course details page**
+**Απόκρυψη πληροφοριών καθηγητή στη σελίδα λεπτομερειών μαθήματος**
 
-On the course details page, hide the teacher information.
+Στη σελίδα λεπτομερειών μαθήματος, αποκρύψτε τις πληροφορίες του καθηγητή.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 ### `course_category_code_to_use_as_model`
 
-**Restrict course templates to one course category**
+**Περιορισμός προτύπων μαθήματος σε μία κατηγορία μαθήματος**
 
-Give a category code to use as course templates. Only those courses will show in the drop-down at course creation time, and users won’t see the courses in this category from the courses catalogue.
+Δώστε έναν κωδικό κατηγορίας για χρήση ως πρότυπα μαθήματος. Μόνο αυτά τα μαθήματα θα εμφανίζονται στο αναδυόμενο μενού κατά τη δημιουργία μαθήματος, και οι χρήστες δεν θα βλέπουν τα μαθήματα αυτής της κατηγορίας από τον κατάλογο μαθημάτων.
 
 ### `course_configuration_tool_extra_fields_to_show_and_edit`
 
-**Extra fields to show in course settings**
+**Επιπλέον πεδία για εμφάνιση στις ρυθμίσεις μαθήματος**
 
-The fields defined in this array will appear on the course settings page.
+Τα πεδία που ορίζονται σε αυτόν τον πίνακα θα εμφανίζονται στη σελίδα ρυθμίσεων μαθήματος.
 
 ### `course_creation_by_teacher_extra_fields_to_show`
 
-**Extra fields to show on course creation form**
+**Επιπλέον πεδία για εμφάνιση στη φόρμα δημιουργίας μαθήματος**
 
-The fields defined in this array will appear as additional fields in the course creation form.
+Τα πεδία που ορίζονται σε αυτόν τον πίνακα θα εμφανίζονται ως επιπλέον πεδία στη φόρμα δημιουργίας μαθήματος.
 
 ### `course_creation_donate_link`
 
-**Donation link on course creation page**
+**Σύνδεσμος δωρεάς στη σελίδα δημιουργίας μαθήματος**
 
-The page the donation message should link to (full URL).
+Η σελίδα στην οποία πρέπει να παραπέμπει το μήνυμα δωρεάς (πλήρης URL).
 
 ### `course_creation_donate_message_show`
 
-**Show donate message on course creation page**
+**Εμφάνιση μηνύματος δωρεάς στη σελίδα δημιουργίας μαθήματος**
 
-Add a message box in the course creation page for teachers, asking them to donate to the project.
+Προσθέστε ένα πλαίσιο μηνύματος στη σελίδα δημιουργίας μαθήματος για καθηγητές, ζητώντας τους να δωρίσουν στο έργο.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 ### `course_creation_form_hide_course_code`
 
-**Remove course code field from course creation form**
+**Αφαίρεση πεδίου κωδικού μαθήματος από τη φόρμα δημιουργίας μαθήματος**
 
-If not provided, the course code is generated by default based on the course title, so enable this option to remove the code field from the course creation form altogether.
+Αν δεν παρέχεται, ο κωδικός μαθήματος παράγεται από προεπιλογή βάσει του τίτλου του μαθήματος, οπότε ενεργοποιήστε αυτή την επιλογή για να αφαιρέσετε εντελώς το πεδίο κωδικού από τη φόρμα δημιουργίας μαθήματος.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 ### `course_creation_form_set_course_category_mandatory`
 
-**Set course category mandatory**
+**Ορισμός κατηγορίας μαθήματος ως υποχρεωτικής**
 
-When creating a course, make the course category a required setting.
+Κατά τη δημιουργία μαθήματος, καθιστά την κατηγορία μαθήματος υποχρεωτική ρύθμιση.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 ### `course_creation_form_set_extra_fields_mandatory`
 
-**Extra fields to require on course creation form**
+**Επιπλέον πεδία υποχρεωτικά στη φόρμα δημιουργίας μαθήματος**
 
-The fields defined in this array will be mandatory in the course creation form.
+Τα πεδία που ορίζονται σε αυτόν τον πίνακα θα είναι υποχρεωτικά στη φόρμα δημιουργίας μαθήματος.
 
 ### `course_creation_splash_screen`
 
-**Splash screen for courses**
+**Οθόνη έναρξης για μαθήματα**
 
-Show a splash screen when creating a new course.
+Εμφανίστε μια οθόνη έναρξης κατά τη δημιουργία νέου μαθήματος.
 
-*Default: `true`*
+*Προεπιλογή: `true`*
 
+---
 ### `course_creation_use_template`
 
-**Use template course for new courses**
+**Χρήση προτύπου μαθήματος για νέα μαθήματα**
 
-Set this to use the same template course (identified by its course numeric ID in the database) for all new courses that will be created on the platform. Please note that, if not properly planned, this setting might have a massive impact on space usage. The template course will be used as if the teacher did a copy of the course with the course backup tools, so no user content is copied, only teacher material. All other course-backup rules apply. Leave empty (or set to 0) to disable.
+Ορισμός αυτής της παραμέτρου για χρήση του ίδιου προτύπου μαθήματος (προσδιοριζόμενου από τον αριθμητικό κωδικό του μαθήματος στη βάση δεδομένων) για όλα τα νέα μαθήματα που θα δημιουργηθούν στην πλατφόρμα. Παρακαλούμε σημειώστε ότι, αν δεν σχεδιαστεί σωστά, αυτή η ρύθμιση μπορεί να έχει τεράστιο αντίκτυπο στη χρήση χώρου. Το πρότυπο μάθημα θα χρησιμοποιηθεί σαν ο δάσκαλος να έκανε αντιγραφή του μαθήματος με τα εργαλεία αντιγράφων ασφαλείας μαθήματος, επομένως δεν αντιγράφεται περιεχόμενο χρήστη, μόνο υλικό δασκάλου. Ισχύουν όλοι οι άλλοι κανόνες αντιγράφων ασφαλείας μαθήματος. Αφήστε κενό (ή ορίστε 0) για απενεργοποίηση.
 
 ### `course_creation_user_course_extra_field_relation_to_prefill`
 
-**Prefill course fields with fields from user**
+**Προπλήρωση πεδίων μαθήματος με πεδία από χρήστη**
 
-If not empty, the course creation process will look for some fields in the user profile and auto-fill them for the course. For example, a teacher specialized in digital marketing could automatically set a « digital marketing » flag on each course (s)he creates.
+Αν δεν είναι κενό, η διαδικασία δημιουργίας μαθήματος θα αναζητήσει ορισμένα πεδία στο προφίλ του χρήστη και θα τα προπληρώσει αυτόματα για το μάθημα. Για παράδειγμα, ένας δάσκαλος εξειδικευμένος στο digital marketing μπορεί να ορίσει αυτόματα μια σημαία «digital marketing» σε κάθε μάθημα που δημιουργεί.
 
 ### `course_hide_tools`
 
-**Hide tools from teachers**
+**Απόκρυψη εργαλείων από δασκάλους**
 
-Check the tools you want to hide from teachers. This will prohibit access to the tool.
+Επιλέξτε τα εργαλεία που θέλετε να αποκρύψετε από τους δασκάλους. Αυτό θα απαγορεύσει την πρόσβαση στο εργαλείο.
 
 ### `course_images_in_courses_list`
 
-**Courses custom icons**
+**Προσαρμοσμένα εικονίδια μαθημάτων**
 
-Use course images as the course icon in courses lists (instead of the default green blackboard icon).
+Χρήση εικόνων μαθήματος ως εικονιδίου μαθήματος στις λίστες μαθημάτων (αντί για το προεπιλεγμένο πράσινο εικονίδιο πίνακα).
 
-*Default: `true`*
+*Προεπιλογή: `true`*
 
 ### `course_log_default_extra_fields`
 
-**User extra fields by default in course stats page**
+**Πρόσθετα πεδία χρήστη από προεπιλογή στη σελίδα στατιστικών μαθήματος**
 
-Configure this array with the internal IDs of the extra fields you want to show by default in the main course stats page.
+Διαμορφώστε αυτόν τον πίνακα με τους εσωτερικούς κωδικούς των πρόσθετων πεδίων που θέλετε να εμφανίζονται από προεπιλογή στην κύρια σελίδα στατιστικών μαθήματος.
 
 ### `course_log_hide_columns`
 
-**Hide columns from course logs**
+**Απόκρυψη στηλών από αρχεία μαθήματος**
 
-This array gives you the possibility to configure which columns to hide in the main course stats page and in the total time report.
+Αυτός ο πίνακας σας δίνει τη δυνατότητα να διαμορφώσετε ποιες στήλες να αποκρύψετε στην κύρια σελίδα στατιστικών μαθήματος και στην αναφορά συνολικού χρόνου.
 
 ### `course_sequence_valid_only_in_same_session`
 
-**Validate prerequisites only within the same session**
+**Επικύρωση προϋποθέσεων μόνο στην ίδια συνεδρία**
 
-When enabled, a course will be considered validated only if passed within the current session. If disabled, courses passed in other sessions will also unlock dependent courses.
+Όταν είναι ενεργοποιημένη, ένα μάθημα θα θεωρείται επικυρωμένο μόνο αν ολοκληρωθεί εντός της τρέχουσας συνεδρίας. Αν είναι απενεργοποιημένη, τα μαθήματα που ολοκληρώθηκαν σε άλλες συνεδρίες θα ξεκλειδώσουν επίσης εξαρτώμενα μαθήματα.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 
 ### `course_student_info`
 
-**Course student info display**
+**Εμφάνιση πληροφοριών μαθητή μαθήματος**
 
-On the ‘My courses’/’My sessions’ pages, show additional information regarding the score, progress and/or certificate acquisition by the student.
+Στις σελίδες «Τα μαθήματά μου»/«Οι συνεδρίες μου», εμφάνιση πρόσθετων πληροφοριών σχετικά με τον βαθμό, την πρόοδο και/ή την απόκτηση πιστοποιητικού από τον μαθητή.
 
 ### `course_validation`
 
-**Courses validation**
+**Επικύρωση μαθημάτων**
 
-When the 'Courses validation' feature is enabled, a teacher is not able to create a course alone. He/she fills a course request. The platform administrator reviews the request and approves it or rejects it.<br />This feature relies on automated e-mail messaging; set Chamilo to access an e-mail server and to use a dedicated an e-mail account.
+Όταν η λειτουργία «Επικύρωση μαθημάτων» είναι ενεργοποιημένη, ένας δάσκαλος δεν μπορεί να δημιουργήσει μάθημα μόνος του. Συμπληρώνει αίτημα δημιουργίας μαθήματος. Ο διαχειριστής της πλατφόρμας εξετάζει το αίτημα και το εγκρίνει ή το απορρίπτει.<br />Αυτή η λειτουργία βασίζεται σε αυτοματοποιημένα μηνύματα ηλεκτρονικού ταχυδρομείου· ορίστε το Chamilo να έχει πρόσβαση σε διακομιστή ηλεκτρονικού ταχυδρομείου και να χρησιμοποιεί ειδικό λογαριασμό ηλεκτρονικού ταχυδρομείου.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 
 ### `course_validation_terms_and_conditions_url`
 
-**Course validation - a link to the terms and conditions**
+**Επικύρωση μαθήματος - σύνδεσμος στους όρους και τις προϋποθέσεις**
 
-This is the URL to the 'Terms and Conditions' document that is valid for making a course request. If the address is set here, the user should read and agree with these terms and conditions before sending a course request.<br />If you enable Chamilo's 'Terms and Conditions' module and if you want its URL to be used, then leave this setting empty.
+Αυτή είναι η διεύθυνση URL του εγγράφου «Όροι και Προϋποθέσεις» που ισχύει για την υποβολή αιτήματος μαθήματος. Αν οριστεί εδώ η διεύθυνση, ο χρήστης πρέπει να διαβάσει και να συμφωνήσει με αυτούς τους όρους και προϋποθέσεις πριν υποβάλει αίτημα μαθήματος.<br />Αν ενεργοποιήσετε το πρόσθετο «Όροι και Προϋποθέσεις» του Chamilo και θέλετε να χρησιμοποιηθεί η διεύθυνσή του, αφήστε αυτή τη ρύθμιση κενή.
 
 ### `courses_default_creation_visibility`
 
-**Default course visibility**
+**Προεπιλεγμένη ορατότητα μαθήματος**
 
-Default course visibility while creating a new course
+Προεπιλεγμένη ορατότητα μαθήματος κατά τη δημιουργία νέου μαθήματος
 
-*Default: `2`*
+*Προεπιλογή: `2`*
 
 
 ### `display_coursecode_in_courselist`
 
-**Display Code in Course name**
+**Εμφάνιση Κωδικού σε όνομα μαθήματος**
 
-Display Course Code in courses list
+Εμφάνιση Κωδικού Μαθήματος σε λίστες μαθημάτων
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 
 ### `display_teacher_in_courselist`
 
-**Display teacher in course name**
+**Εμφάνιση δασκάλου σε όνομα μαθήματος**
 
-Display teacher in courses list
+Εμφάνιση δασκάλου σε λίστες μαθημάτων
 
-*Default: `true`*
+*Προεπιλογή: `true`*
 
 
 ### `enable_tool_introduction`
 
-**Enable tool introduction**
+**Ενεργοποίηση εισαγωγής εργαλείου**
 
-Enable introductions on each tool's homepage
+Ενεργοποίηση εισαγωγών στην αρχική σελίδα κάθε εργαλείου
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 
 ### `enable_unsubscribe_button_on_my_course_page`
 
-**Show unsubscribe button in ‘My courses’**
+**Εμφάνιση κουμπιού διαγραφής εγγραφής στα «Τα μαθήματά μου»**
 
-Add a button to unsubscribe from a course on the ‘My courses’ page.
+Προσθήκη κουμπιού διαγραφής εγγραφής από μάθημα στη σελίδα «Τα μαθήματά μου».
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 ### `example_material_course_creation`
 
-**Example material on course creation**
+**Παράδειγμα υλικού κατά τη δημιουργία μαθήματος**
 
-Create example material automatically when creating a new course
+Δημιουργία παραδείγματος υλικού αυτόματα κατά τη δημιουργία νέου μαθήματος
 
-*Default: `true`*
+*Προεπιλογή: `true`*
 
 
 ### `hide_course_rating`
 
-**Hide course rating**
+**Απόκρυψη βαθμολογίας μαθήματος**
 
-The course rating feature comes by default in different places. If you don’t want it, enable this option.
+Η λειτουργία βαθμολογίας μαθήματος εμφανίζεται από προεπιλογή σε διάφορα μέρη. Αν δεν τη θέλετε, ενεργοποιήστε αυτή την επιλογή.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 ### `hide_course_sidebar`
 
-**Hide courses block in the sidebar**
+**Απόκρυψη μπλοκ μαθημάτων στη γραμμή πλαϊνών εργαλείων**
 
-When on screens where the left menu is visible, do not display the « Courses » section.
+Όταν σε οθόνες όπου είναι ορατό το αριστερό μενού, μην εμφανίζετε την ενότητα «Μαθήματα».
 
-*Default: `true`*
+*Προεπιλογή: `true`*
 
 ### `multiple_access_url_show_shared_course_marker`
 
-**Show multi-URL shared course marker**
+**Εμφάνιση δείκτη κοινόχρηστου μαθήματος multi-URL**
 
-Adds a link icon to courses that are shared between URLs, so users (in particular teachers) know they have to take special care when editing the course content.
+Προσθήκη εικονιδίου συνδέσμου σε μαθήματα που κοινοποιούνται μεταξύ διευθύνσεων URL, ώστε οι χρήστες (ιδιαίτερα οι δάσκαλοι) να γνωρίζουν ότι πρέπει να λάβουν ειδική προσοχή κατά την επεξεργασία του περιεχομένου του μαθήματος.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 ### `my_courses_show_courses_in_user_language_only`
 
-**Only show courses in the user’s language**
+**Εμφάνιση μόνο μαθημάτων στη γλώσσα του χρήστη**
 
-If enabled, this option will hide all courses not set in the user’s language.
+Αν ενεργοποιηθεί, αυτή η επιλογή θα αποκρύψει όλα τα μαθήματα που δεν είναι ορισμένα στη γλώσσα του χρήστη.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
+---
 ### `profiling_filter_adding_users`
 
-**Filter users on profile fields on subscription to course**
+**Φιλτράρισμα χρηστών βάσει πεδίων προφίλ κατά την εγγραφή στο μάθημα**
 
-Allow teachers to filter the users based on extra fields on the page to subscribe users to their course.
+Επιτρέπει στους διδάσκοντες να φιλτράρουν τους χρήστες βάσει επιπλέον πεδίων στη σελίδα εγγραφής χρηστών στο μάθημά τους.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 
 ### `resource_sequence_show_dependency_in_course_intro`
 
-**Show dependencies in course intro**
+**Εμφάνιση εξαρτήσεων στην εισαγωγή του μαθήματος**
 
-When using resources sequencing with courses or sessions, show the dependencies of the course on the course’s homepage.
+Όταν χρησιμοποιείται αλληλουχία πόρων με μαθήματα ή συνεδρίες, εμφανίζει τις εξαρτήσεις του μαθήματος στην αρχική σελίδα του μαθήματος.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 ### `scorm_cumulative_session_time`
 
-**Cumulative session time for SCORM**
+**Συνολικός χρόνος συνεδρίας για SCORM**
 
-When enabled, the session time for SCORM Learning Paths will be cumulative, otherwise, it will only be counted from the last update time. This is a global setting. It is used when creating a new Learning Path but can then be redefined for each one.
+Όταν είναι ενεργοποιημένη, ο χρόνος συνεδρίας για τα Μονοπάτια Μάθησης SCORM θα είναι συνολικός, διαφορετικά θα υπολογίζεται μόνο από την τελευταία ενημέρωση. Πρόκειται για παγίδα ρύθμιση. Χρησιμοποιείται κατά τη δημιουργία νέου Μονοπατιού Μάθησης, αλλά μπορεί στη συνέχεια να επαναπροσδιοριστεί για το καθένα.
 
-*Default: `true`*
+*Προεπιλογή: `true`*
 
 
 ### `send_email_to_admin_when_create_course`
 
-**E-mail alert on course creation**
+**Ειδοποίηση email κατά τη δημιουργία μαθήματος**
 
-Send an email to the platform administrator each time a teacher creates a new course
+Αποστολή email στον διαχειριστή της πλατφόρμας κάθε φορά που ένας διδάσκων δημιουργεί νέο μάθημα
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 
 ### `show_course_duration`
 
-**Show courses duration**
+**Εμφάνιση διάρκειας μαθήματος**
 
-Display the course duration next to the course title in the course catalogue and the courses list.
+Εμφάνιση της διάρκειας του μαθήματος δίπλα στον τίτλο του μαθήματος στον κατάλογο μαθημάτων και στη λίστα μαθημάτων.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 ### `show_navigation_menu`
 
-**Display course navigation menu**
+**Εμφάνιση μενού πλοήγησης μαθήματος**
 
-Display a navigation menu that quickens access to the tools
+Εμφάνιση μενού πλοήγησης που επιταχύνει την πρόσβαση στα εργαλεία
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 
 ### `show_toolshortcuts`
 
-**Tools shortcuts**
+**Συντομεύσεις εργαλείων**
 
-Show the tool shortcuts in the banner?
+Εμφάνιση συντομεύσεων εργαλείων στη μπάρα επικεφαλίδας;
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 ### `student_view_enabled`
 
-**Enable learner view**
+**Ενεργοποίηση προβολής μαθητή**
 
-Enable the learner view, which allows a teacher or admin to see a course as a learner would see it
+Ενεργοποίηση της προβολής μαθητή, η οποία επιτρέπει σε διδάσκοντα ή διαχειριστή να δει ένα μάθημα όπως θα το έβλεπε ένας μαθητής
 
-*Default: `true`*
+*Προεπιλογή: `true`*
 
 
 ### `view_grid_courses`
 
-**View courses in a grid layout**
+**Προβολή μαθημάτων σε διάταξη πλέγματος**
 
-View courses in a layout with several courses per line. Otherwise, the layout will show one course per line.
+Προβολή μαθημάτων σε διάταξη με πολλά μαθήματα ανά γραμμή. Διαφορετικά, η διάταξη θα εμφανίζει ένα μάθημα ανά γραμμή.
 
-*Default: `true`*
-
+*Προεπιλογή: `true`*

@@ -1,78 +1,78 @@
-# Support Tickets
+# Αιτήματα Υποστήριξης
 
-The **Tickets** tool is a built-in helpdesk system that lets users submit support requests and track their resolution. Depending on how your platform is configured, you may use it as a **requester** (submitting tickets on behalf of yourself or your learners) or as a **support agent** (responding to tickets assigned to your category).
+Το εργαλείο **Tickets** είναι ένα ενσωματωμένο σύστημα helpdesk που επιτρέπει στους χρήστες να υποβάλλουν αιτήματα υποστήριξης και να παρακολουθούν την επίλυσή τους. Ανάλογα με τη διαμόρφωση της πλατφόρμας σας, μπορείτε να το χρησιμοποιήσετε ως **requester** (υποβάλλοντας αιτήματα για λογαριασμό σας ή των εκπαιδευομένων σας) ή ως **support agent** (απαντώντας σε αιτήματα που έχουν ανατεθεί στην κατηγορία σας).
 
-## How the System Is Organized
+## Πώς Οργανώνεται το Σύστημα
 
-Tickets belong to **projects**, which are further divided into **categories**. Each category can have one or more support agents assigned to it. When a ticket is submitted, it is automatically routed to an available agent in the selected category.
+Τα αιτήματα ανήκουν σε **projects**, τα οποία χωρίζονται περαιτέρω σε **categories**. Κάθε κατηγορία μπορεί να έχει έναν ή περισσότερους support agents που έχουν ανατεθεί σε αυτήν. Όταν υποβάλλεται ένα αίτημα, διαβιβάζεται αυτόματα σε έναν διαθέσιμο agent στην επιλεγμένη κατηγορία.
 
-Default categories include:
+Οι προεπιλεγμένες κατηγορίες περιλαμβάνουν:
 
-| Category | Description |
-|----------|-------------|
-| Enrollment | Questions and issues about course or session enrollment |
-| General information | General platform questions |
-| Requests and paperwork | Administrative requests and documentation |
-| Academic Incidents | Issues related to exams, assignments, or tasks |
-| Virtual campus | Technical issues with the platform |
-| Online evaluation | Issues with a specific course assessment (requires selecting a course) |
+| Κατηγορία | Περιγραφή |
+|-----------|-----------|
+| Enrollment | Ερωτήσεις και προβλήματα σχετικά με την εγγραφή σε μάθημα ή συνεδρία |
+| General information | Γενικές ερωτήσεις για την πλατφόρμα |
+| Requests and paperwork | Διοικητικά αιτήματα και έγγραφα |
+| Academic Incidents | Προβλήματα σχετικά με εξετάσεις, εργασίες ή δραστηριότητες |
+| Virtual campus | Τεχνικά προβλήματα με την πλατφόρμα |
+| Online evaluation | Προβλήματα με συγκεκριμένη αξιολόγηση μαθήματος (απαιτείται επιλογή μαθήματος) |
 
-## Accessing the Ticket Tool
+## Πρόσβαση στο Εργαλείο Αιτημάτων
 
-If your administrator has enabled the ticket link, a ticket icon <img src="/.gitbook/assets/icons/mdi-ticket-account.svg" alt="Ticket" data-size="line"> appears in the top navigation bar. Click it to go directly to the ticket submission form.
+Εάν ο διαχειριστής σας έχει ενεργοποιήσει τον σύνδεσμο αιτημάτων, εμφανίζεται ένα εικονίδιο αιτήματος <img src="/.gitbook/assets/icons/mdi-ticket-account.svg" alt="Ticket" data-size="line"> στη γραμμή επάνω πλοήγησης. Κάντε κλικ σε αυτό για να μεταβείτε απευθείας στη φόρμα υποβολής αιτήματος.
 
-You can also access your tickets from the main menu under **Support** or **Tickets**, depending on your platform configuration.
+Μπορείτε επίσης να προσπελάσετε τα αιτήματά σας από το κύριο μενού κάτω από **Support** ή **Tickets**, ανάλογα με τη διαμόρφωση της πλατφόρμας σας.
 
-## Submitting a Ticket
+## Υποβολή Αιτήματος
 
-To open a new support request:
+Για να ανοίξετε ένα νέο αίτημα υποστήριξης:
 
-1. Click **New ticket** (or the ticket icon in the top bar).
-2. Select the **category** that best matches your issue.
-3. If the category requires it (for example, Online evaluation), select the relevant **course**.
-4. Enter a **subject** — a short summary of the issue.
-5. Write your **message** describing the problem in detail.
-6. Optionally attach files (screenshots, documents) to help the support agent understand the issue.
-7. Click **Submit**.
+1. Κάντε κλικ στο **New ticket** (ή στο εικονίδιο αιτήματος στη γραμμή επάνω).
+2. Επιλέξτε την **category** που ταιριάζει καλύτερα στο πρόβλημά σας.
+3. Εάν η κατηγορία το απαιτεί (π.χ. Online evaluation), επιλέξτε το σχετικό **course**.
+4. Εισαγάγετε ένα **subject** — μια σύντομη περίληψη του προβλήματος.
+5. Γράψτε το **message** σας περιγράφοντας το πρόβλημα λεπτομερώς.
+6. Προαιρετικά, επισυνάψτε αρχεία (συνταγές οθόνης, έγγραφα) για να βοηθήσετε τον support agent να κατανοήσει το πρόβλημα.
+7. Κάντε κλικ στο **Submit**.
 
-The ticket is assigned an ID and routed to a support agent. You will receive a notification when the agent responds.
+Το αίτημα λαμβάνει ένα ID και διαβιβάζεται σε έναν support agent. Θα λάβετε ειδοποίηση όταν ο agent απαντήσει.
 
-## Tracking Your Tickets
+## Παρακολούθηση των Αιτημάτων Σας
 
-From the ticket list, you can see all tickets you have submitted and their current status:
+Από τη λίστα αιτημάτων, μπορείτε να δείτε όλα τα αιτήματα που έχετε υποβάλει και την τρέχουσα κατάστασή τους:
 
-| Status | Meaning |
-|--------|---------|
-| New | Just submitted, not yet reviewed |
-| Pending | Being reviewed by a support agent |
-| Unconfirmed | Awaiting confirmation or additional information |
-| Forwarded | Transferred to another team or agent |
-| Closed | Resolved |
+| Κατάσταση | Σημασία |
+|-----------|---------|
+| New | Μόλις υποβλήθηκε, δεν έχει ακόμη εξεταστεί |
+| Pending | Εξετάζεται από support agent |
+| Unconfirmed | Αναμένει επιβεβαίωση ή επιπλέον πληροφορίες |
+| Forwarded | Μεταβιβάστηκε σε άλλη ομάδα ή agent |
+| Closed | Επίλυση |
 
-Click any ticket to read the full conversation thread and add a reply.
+Κάντε κλικ σε οποιοδήποτε αίτημα για να διαβάσετε ολόκληρο το νήμα συνομιλίας και να προσθέσετε απάντηση.
 
-## Replying to a Ticket
+## Απάντηση σε Αίτημα
 
-Once a ticket is open, you and the support agent exchange messages within the same thread. To add a reply:
+Μόλις ανοίξει ένα αίτημα, εσείς και ο support agent ανταλλάσσετε μηνύματα στο ίδιο νήμα. Για να προσθέσετε απάντηση:
 
-1. Open the ticket from your list.
-2. Scroll to the reply field at the bottom.
-3. Write your response and attach files if needed.
-4. Click **Send**.
+1. Ανοίξτε το αίτημα από τη λίστα σας.
+2. Κυλήστε στο πεδίο απάντησης στο κάτω μέρος.
+3. Γράψτε την απάντησή σας και επισυνάψτε αρχεία εάν χρειάζεται.
+4. Κάντε κλικ στο **Send**.
 
-Both parties receive notifications when a new message is added to the thread.
+Και οι δύο πλευρές λαμβάνουν ειδοποιήσεις όταν προστίθεται νέο μήνυμα στο νήμα.
 
-## Handling Tickets as a Support Agent
+## Διαχείριση Αιτημάτων ως Support Agent
 
-If your administrator has assigned you to one or more ticket categories, you will see incoming tickets from learners or colleagues in your queue.
+Εάν ο διαχειριστής σας σας έχει αναθέσει σε μία ή περισσότερες κατηγορίες αιτημάτων, θα δείτε εισερχόμενα αιτήματα από εκπαιδευόμενους ή συναδέλφους στη σειρά σας.
 
-To respond to an assigned ticket:
+Για να απαντήσετε σε ανατεθειμένο αίτημα:
 
-1. Open your ticket list — assigned tickets appear alongside tickets you have submitted.
-2. Click a ticket to read the requester's message.
-3. Write a reply and click **Send**. The ticket status updates automatically.
-4. When the issue is resolved, change the status to **Closed**.
+1. Ανοίξτε τη λίστα αιτημάτων σας — τα ανατεθειμένα αιτήματα εμφανίζονται δίπλα στα αιτήματα που έχετε υποβάλει.
+2. Κάντε κλικ σε ένα αίτημα για να διαβάσετε το μήνυμα του requester.
+3. Γράψτε μια απάντηση και κάντε κλικ στο **Send**. Η κατάσταση του αιτήματος ενημερώνεται αυτόματα.
+4. Όταν το πρόβλημα επιλυθεί, αλλάξτε την κατάσταση σε **Closed**.
 
-You can also change the **priority** of a ticket (Low, Normal, High) to help triage your queue.
+Μπορείτε επίσης να αλλάξετε την **priority** ενός αιτήματος (Low, Normal, High) για να βοηθήσετε στην ταξινόμηση της σειράς σας.
 
-> Access to ticket categories is controlled by the platform administrator. If you need to be added as a support agent for a category, contact your administrator. See the Admin Guide's [Tickets Settings](../admin-guide/platform-settings/ticket-settings.md) for configuration options.
+> Η πρόσβαση σε κατηγορίες αιτημάτων ελέγχεται από τον διαχειριστή της πλατφόρμας. Εάν χρειάζεται να προστεθείτε ως support agent σε μια κατηγορία, επικοινωνήστε με τον διαχειριστή σας. Δείτε τις [Tickets Settings](../admin-guide/platform-settings/ticket-settings.md) στον Οδηγό Διαχειριστή για επιλογές διαμόρφωσης.

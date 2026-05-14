@@ -1,20 +1,20 @@
-# Portal Customization
+# Προσαρμογή Πύλης
 
-Customize how your Chamilo platform looks and what information is displayed to users.
+Προσαρμόστε την εμφάνιση της πλατφόρμας Chamilo σας και τις πληροφορίες που εμφανίζονται στους χρήστες.
 
-## Platform Identity
+## Ταυτότητα Πλατφόρμας
 
-![The portal customization page showing platform identity settings for name, logo, and institution](/.gitbook/assets/admin-portal-customization.png)
+![Η σελίδα προσαρμογής πύλης που δείχνει ρυθμίσεις ταυτότητας πλατφόρμας για όνομα, λογότυπο και οργανισμό](/.gitbook/assets/admin-portal-customization.png)
 
-Configure the basic identity of your portal:
+Ρυθμίστε την βασική ταυτότητα της πύλης σας:
 
-* **Platform name** — The name shown in the browser title and throughout the interface
-* **Institution name** — Your organization's name
-* **Institution URL** — A link to your organization's website
-* **Platform logo** — Upload your organization's logo (displayed in the top bar)
+* **Όνομα πλατφόρμας** — Το όνομα που εμφανίζεται στον τίτλο του προγράμματος περιήγησης και σε όλη την διεπαφή
+* **Όνομα οργανισμού** — Το όνομα του οργανισμού σας
+* **URL οργανισμού** — Ένας σύνδεσμος προς την ιστοσελίδα του οργανισμού σας
+* **Λογότυπο πλατφόρμας** — Ανεβάστε το λογότυπο του οργανισμού σας (εμφανίζεται στην επάνω γραμμή)
 
-## Tips
+## Συμβουλές
 
-* **Keep the homepage clean** — Too much content on the homepage can be overwhelming. Focus on essential announcements and course access.
-* **Update regularly** — Keep system announcements current and remove outdated ones
-* **Upload a high-quality logo** — The logo is one of the most visible branding elements. Use a crisp, appropriately sized image.
+* **Διατηρήστε την αρχική σελίδα καθαρή** — Πολύ περιεχόμενο στην αρχική σελίδα μπορεί να είναι συντριπτικό. Εστιάστε σε βασικές ανακοινώσεις και πρόσβαση σε μαθήματα.
+* **Ενημερώνετε τακτικά** — Διατηρήστε τις ανακοινώσεις του συστήματος ενημερωμένες και αφαιρέστε τις παρωχημένες
+* **Ανεβάστε λογότυπο υψηλής ποιότητας** — Το λογότυπο είναι ένα από τα πιο ορατά στοιχεία μπράντινγκ. Χρησιμοποιήστε μια καθαρή, κατάλληλα διαστάσεων εικόνα.

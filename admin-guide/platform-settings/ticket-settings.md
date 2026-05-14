@@ -1,68 +1,66 @@
-# Tickets Settings
+# Ρυθμίσεις Εισιτηρίων
 
-Behaviour of the **Tickets** (helpdesk) system.
+Συμπεριφορά του συστήματος **Tickets** (helpdesk).
 
-Access these settings under **Administration > Configuration settings > Tickets**. This category contains **7 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+Πρόσβαση σε αυτές τις ρυθμίσεις μέσω **Διαχείριση > Ρυθμίσεις διαμόρφωσης > Tickets**. Αυτή η κατηγορία περιέχει **7 ρυθμίσεις**, που παρατίθενται παρακάτω με τον τίτλο και το σχόλιο που παρέχονται στα fixtures των ρυθμίσεων της πλατφόρμας (`SettingsCurrentFixtures.php`).
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> Το όνομα της μεταβλητής στον κώδικα εμφανίζεται σε monospace. Χρησιμοποιήστε το κατά την προγραμματισμό μέσω API ή όταν χρειάζεται να αλλάξετε αυτές τις ρυθμίσεις σε παγκόσμιο επίπεδο επεξεργαζόμενοι το [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
 
-## Settings
+## Ρυθμίσεις
 
 ### `show_link_bug_notification`
 
-**Show link to report bug**
+**Εμφάνιση συνδέσμου για αναφορά σφάλματος**
 
-Show a link in the header to report a bug inside of our support platform (http://support.chamilo.org). When clicking on the link, the user is sent to the support platform, on a wiki page that describes the bug reporting process.
+Εμφανίζει έναν σύνδεσμο στην κεφαλίδα για αναφορά σφάλματος στην πλατφόρμα υποστήριξής μας (http://support.chamilo.org). Με το κλικ στον σύνδεσμο, ο χρήστης μεταφέρεται στην πλατφόρμα υποστήριξης, σε μια σελίδα wiki που περιγράφει τη διαδικασία αναφοράς σφαλμάτων.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 
 ### `show_link_ticket_notification`
 
-**Show ticket creation link**
+**Εμφάνιση συνδέσμου δημιουργίας εισιτηρίου**
 
-Show the ticket creation link to users on the right side of the portal
+Εμφανίζει τον σύνδεσμο δημιουργίας εισιτηρίου στους χρήστες στη δεξιά πλευρά του portal
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 
 ### `ticket_allow_category_edition`
 
-**Allow tickets categories edition**
+**Επιτρέψτε την επεξεργασία κατηγοριών εισιτηρίων**
 
-Allow category edition by administrators.
+Επιτρέπει την επεξεργασία κατηγοριών από διαχειριστές.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 ### `ticket_allow_student_add`
 
-**Allow users to add tickets**
+**Επιτρέψτε στους χρήστες να προσθέτουν εισιτήρια**
 
-Allows all users to add tickets not only the administrators.
+Επιτρέπει σε όλους τους χρήστες να προσθέτουν εισιτήρια, όχι μόνο στους διαχειριστές.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 ### `ticket_project_user_roles`
 
-**Access by role to ticket projects**
+**Πρόσβαση ανά ρόλο σε έργα εισιτηρίων**
 
-Allow ticket projects to be accesses by specific user roles. Example: ['permissions' => [1 => [17]] where project_id = 1, STUDENT_BOSS = 17.
+Επιτρέπει σε έργα εισιτηρίων να προσβάλλονται από συγκεκριμένους ρόλους χρηστών. Παράδειγμα: ['permissions' => [1 => [17]] όπου project_id = 1, STUDENT_BOSS = 17.
 
 ### `ticket_send_warning_to_all_admins`
 
-**Send ticket warning messages to administrators**
+**Αποστολή μηνυμάτων προειδοποίησης εισιτηρίων σε διαχειριστές**
 
-Send a message if a ticket was created without a category or if a category doesn't have any administrator assigned.
+Αποστέλλει μήνυμα αν δημιουργηθεί εισιτήριο χωρίς κατηγορία ή αν μια κατηγορία δεν έχει ανατεθεί σε κάποιον διαχειριστή.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 
 ### `ticket_warn_admin_no_user_in_category`
 
-**Send alert to administrators if tickets category has no one in charge**
+**Αποστολή ειδοποίησης σε διαχειριστές αν κατηγορία εισιτηρίων δεν έχει υπεύθυνο**
 
-Send a warning message (e-mail and Chamilo message) to all administrators if there's not a user assigned to a category.
+Αποστέλλει μήνυμα προειδοποίησης (e-mail και μήνυμα Chamilo) σε όλους τους διαχειριστές αν δεν υπάρχει χρήστης ανατεθειμένος σε μια κατηγορία.
 
-*Default: `false`*
-
-
+*Προεπιλογή: `false`*

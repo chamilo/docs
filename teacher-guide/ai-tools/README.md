@@ -1,27 +1,27 @@
-# AI Tools
+# Εργαλεία Τεχνητής Νοημοσύνης
 
-Chamilo 2.0 introduces AI-powered tools that help you create content faster and provide personalized support to your learners. These features use large language models (such as OpenAI's GPT, Google Gemini, Mistral, or others) to generate educational content and assist with grading.
+Το Chamilo 2.0 εισάγει εργαλεία που λειτουργούν με τεχνητή νοημοσύνη και σας βοηθούν να δημιουργείτε περιεχόμενο πιο γρήγορα και να παρέχετε εξατομικευμένη υποστήριξη στους εκπαιδευομένους σας. Αυτά τα χαρακτηριστικά χρησιμοποιούν μεγάλα μοντέλα γλώσσας (όπως το GPT της OpenAI, το Google Gemini, το Mistral ή άλλα) για να παράγουν εκπαιδευτικό περιεχόμενο και να βοηθούν στην βαθμολόγηση.
 
-> AI tools must be configured by your platform administrator before they become available. See the [AI Configuration](../../admin-guide/integrations/ai-configuration.md) section of the Administration Guide for setup details.
+> Τα εργαλεία τεχνητής νοημοσύνης πρέπει να ρυθμιστούν από τον διαχειριστή της πλατφόρμας σας πριν γίνουν διαθέσιμα. Δείτε την ενότητα [AI Configuration](../../admin-guide/integrations/ai-configuration.md) του Οδηγού Διαχείρισης για λεπτομέρειες ρύθμισης.
 
-## Available AI Tools
+## Διαθέσιμα Εργαλεία Τεχνητής Νοημοσύνης
 
-* **[AI Tutor](ai-tutor.md)** — An AI chatbot that learners can interact with for course-related questions
-* **[Exercise Generator](exercise-generator.md)** — Automatically generate quiz questions from your course content or a topic description
-* **[Learning Path Generator](learning-path-generator.md)** — Create structured learning sequences from a topic or set of objectives
-* **[AI Grading](ai-grading.md)** — Get AI-assisted evaluation of open-ended answers and student submissions
-* **[Glossary Terms Generator](glossary-generator.md)** — Automatically generate term definitions for your course glossary
-* **[AI Media Generation](ai-media-generation.md)** — Generate images and short videos from the rich-text editor while creating documents
+* **[AI Tutor](ai-tutor.md)** — Ένας chatbot τεχνητής νοημοσύνης με τον οποίο μπορούν να αλληλεπιδρούν οι εκπαιδευόμενοι για ερωτήσεις σχετικές με το μάθημα
+* **[Exercise Generator](exercise-generator.md)** — Αυτόματη παραγωγή ερωτήσεων κουίζ από το περιεχόμενο του μαθήματός σας ή μια περιγραφή θέματος
+* **[Learning Path Generator](learning-path-generator.md)** — Δημιουργία δομημένων ακολουθιών μάθησης από ένα θέμα ή σύνολο στόχων
+* **[AI Grading](ai-grading.md)** — Λήψη βοήθειας από τεχνητή νοημοσύνη για την αξιολόγηση ανοιχτών απαντήσεων και υποβολών μαθητών
+* **[Glossary Terms Generator](glossary-generator.md)** — Αυτόματη παραγωγή ορισμών όρων για το γλωσσάριο του μαθήματός σας
+* **[AI Media Generation](ai-media-generation.md)** — Παραγωγή εικόνων και σύντομων βίντεο από τον επεξεργαστή πλούσιου κειμένου κατά τη δημιουργία εγγράφων
 
-## How AI Tools Work
+## Πώς Λειτουργούν τα Εργαλεία Τεχνητής Νοημοσύνης
 
-When AI tools are enabled, they appear in the relevant contexts:
+Όταν τα εργαλεία τεχνητής νοημοσύνης είναι ενεργοποιημένα, εμφανίζονται στους αντίστοιχους χώρους:
 
-* The **Exercise Generator** appears when creating or editing exercises, and also as a quick action on documents in the Documents tool
-* The **Learning Path Generator** appears when creating learning paths
-* The **AI Grading** option appears in the assignment correction workflow
-* The **AI Tutor** is available to learners within the course
-* The **Glossary Terms Generator** appears in the Glossary tool toolbar
-* The **AI Media Generation** dialog appears in the rich-text editor when creating or editing documents
+* Το **Exercise Generator** εμφανίζεται κατά τη δημιουργία ή επεξεργασία ασκήσεων, καθώς και ως γρήγορη ενέργεια σε έγγραφα στο εργαλείο Documents
+* Το **Learning Path Generator** εμφανίζεται κατά τη δημιουργία μονοπατιών μάθησης
+* Η επιλογή **AI Grading** εμφανίζεται στη ροή εργασιών διόρθωσης εργασιών
+* Το **AI Tutor** είναι διαθέσιμο στους εκπαιδευόμενους εντός του μαθήματος
+* Το **Glossary Terms Generator** εμφανίζεται στη γραμμή εργαλείων του εργαλείου Glossary
+* Ο διάλογος **AI Media Generation** εμφανίζεται στον επεξεργαστή πλούσιου κειμένου κατά τη δημιουργία ή επεξεργασία εγγράφων
 
-All AI-generated content is presented as a **suggestion** that you can review, edit, and modify before publishing. You always have the final say on what your learners see.
+Όλο το περιεχόμενο που παράγεται από τεχνητή νοημοσύνη παρουσιάζεται ως **πρόταση** που μπορείτε να ελέγξετε, να επεξεργαστείτε και να τροποποιήσετε πριν τη δημοσίευση. Έχετε πάντα την τελική απόφαση για το τι βλέπουν οι εκπαιδευόμενοί σας.

@@ -1,50 +1,50 @@
-# Course Reports
+# Αναφορές Μαθήματος
 
-Course reports give you an aggregate view of activity and performance across all learners in your course.
+Οι αναφορές μαθήματος σας παρέχουν μια συγκεντρωτική άποψη της δραστηριότητας και της απόδοσης όλων των εκπαιδευομένων στο μάθημά σας.
 
-## Accessing Course Reports
+## Πρόσβαση στις Αναφορές Μαθήματος
 
-Open the **Tracking** <img src="/.gitbook/assets/icons/mdi-chart-box.svg" alt="Tracking" data-size="line"> tool from the course homepage and select the course-level reports view.
+Ανοίξτε το εργαλείο **Tracking** <img src="/.gitbook/assets/icons/mdi-chart-box.svg" alt="Tracking" data-size="line"> από την αρχική σελίδα του μαθήματος και επιλέξτε την προβολή αναφορών επιπέδου μαθήματος.
 
-![The course tracking overview showing engagement metrics and learner activity summary](/.gitbook/assets/tracking-course-overview.png)
+![Η επισκόπηση παρακολούθησης μαθήματος που δείχνει μετρήσεις εμπλοκής και περίληψη δραστηριότητας εκπαιδευομένων](/.gitbook/assets/tracking-course-overview.png)
 
-## Available Reports
+## Διαθέσιμες Αναφορές
 
-### Activity Overview
+### Επισκόπηση Δραστηριότητας
 
-A summary of overall course engagement, including enrolled learners, time spent in the course, course progress, exercise progress and average score, and assignment activity.
+Μια περίληψη της συνολικής εμπλοκής στο μάθημα, συμπεριλαμβανομένων των εγγεγραμμένων εκπαιδευομένων, του χρόνου που αφιερώθηκε στο μάθημα, της προόδου του μαθήματος, της προόδου ασκήσεων και μέσου σκορ, και της δραστηριότητας εργασιών.
 
-Separate detail views are available from the tracking section for **resources** (per-resource access counts), **tools** (per-tool usage), and **events** (raw event log).
+Ξεχωριστές λεπτομερείς προβολές είναι διαθέσιμες από την ενότητα παρακολούθησης για **resources** (αριθμός προσβάσεων ανά πόρο), **tools** (χρήση ανά εργαλείο), και **events** (ωμός αρχείο καταγραφής συμβάντων).
 
-### Exercise Reports
+### Αναφορές Ασκήσεων
 
-For each exercise in the course:
+Για κάθε άσκηση στο μάθημα:
 
-* Number of learners who attempted it
-* Average score
-* Score distribution
-* Number of learners who passed (based on the pass threshold you set)
+* Αριθμός εκπαιδευομένων που την επιχείρησαν
+* Μέσο σκορ
+* Κατανομή σκορ
+* Αριθμός εκπαιδευομένων που πέρασαν (βασισμένο στο όριο επιτυχίας που ορίσατε)
 
-### Learning Path Reports
+### Αναφορές Μονοπατιών Μάθησης
 
-For each learning path:
+Για κάθε μονοπάτι μάθησης:
 
-* Completion rates across all learners
-* Average progress percentage
-* Time spent per item
-* Learners who have completed the path vs. those still in progress
+* Ποσοστά ολοκλήρωσης σε όλους τους εκπαιδευομένους
+* Μέσο ποσοστό προόδου
+* Χρόνος που αφιερώθηκε ανά αντικείμενο
+* Εκπαιδευόμενοι που ολοκλήρωσαν το μονοπάτι έναντι αυτών που είναι ακόμα σε εξέλιξη
 
-### Assignment Reports
+### Αναφορές Εργασιών
 
-For each assignment:
+Για κάθε εργασία:
 
-* Number of submissions received
-* Number of pending reviews
+* Αριθμός υποβολών που έλαβε
+* Αριθμός εκκρεμών ελέγχων
 
-## Exporting Data
+## Εξαγωγή Δεδομένων
 
-You can export tracking and report data for further analysis. Look for the **Export** <img src="/.gitbook/assets/icons/mdi-export.svg" alt="Export" data-size="line"> option to download data in a spreadsheet-compatible format.
+Μπορείτε να εξάγετε δεδομένα παρακολούθησης και αναφορών για περαιτέρω ανάλυση. Αναζητήστε την επιλογή **Export** <img src="/.gitbook/assets/icons/mdi-export.svg" alt="Export" data-size="line"> για λήψη δεδομένων σε μορφή συμβατή με υπολογιστικά φύλλα.
 
-## Session Reports
+## Αναφορές Συνεδρίας
 
-If you teach within a session, reports are scoped to the session's learners. Session coaches have access to reports across all courses in their session. A global configuration setting can also allows teachers to see assignments through all sessions using their course (ask your admin).
+Εάν διδάσκετε μέσα σε μια συνεδρία, οι αναφορές περιορίζονται στους εκπαιδευόμενους της συνεδρίας. Οι προπονητές συνεδρίας έχουν πρόσβαση σε αναφορές σε όλα τα μαθήματα της συνεδρίας τους. Μια ρύθμιση παγκόσμιας διαμόρφωσης επιτρέπει επίσης στους διδάσκοντες να βλέπουν εργασίες μέσω όλων των συνεδριών που χρησιμοποιούν το μάθημά τους (ρωτήστε τον διαχειριστή σας).

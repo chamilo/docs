@@ -1,239 +1,245 @@
-# Platform Settings
+# Ρυθμίσεις Πλατφόρμας
 
-Platform-level identity and behaviour — institution name, time zone, registration policy, online users, performance flags.
+Ρυθμίσεις ταυτότητας και συμπεριφοράς σε επίπεδο πλατφόρμας — όνομα ιδρύματος, ζώνη ώρας, πολιτική εγγραφής, συνδεδεμένοι χρήστες, σημαίες απόδοσης.
 
-Access these settings under **Administration > Configuration settings > Platform**. This category contains **29 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+Πρόσβαση σε αυτές τις ρυθμίσεις μέσω **Administration > Configuration settings > Platform**. Αυτή η κατηγορία περιέχει **29 ρυθμίσεις**, που παρατίθενται παρακάτω με τον τίτλο και το σχόλιο που παρέχονται στα fixtures των ρυθμίσεων της πλατφόρμας (`SettingsCurrentFixtures.php`).
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> Το όνομα της μεταβλητής στον κώδικα εμφανίζεται σε monospace. Χρησιμοποιήστε το κατά την προγραμματισμό μέσω API ή όταν χρειάζεται να αλλάξετε αυτές τις ρυθμίσεις σε παγκόσμιο επίπεδο επεξεργαζόμενοι το [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
 
-## Settings
+## Ρυθμίσεις
 
 ### `allow_my_files`
 
-**Enable 'My Files' section**
+**Ενεργοποίηση ενότητας 'My Files'**
 
-Allow users to upload files to a personal space on the platform.
+Επιτρέπει στους χρήστες να ανεβάζουν αρχεία σε προσωπικό χώρο στην πλατφόρμα.
 
-*Default: `true`*
+*Προεπιλογή: `true`*
 
 ### `chamilo_database_version`
 
-**Current version of the database schema used by Chamilo**
+**Τρέχουσα έκδοση σχήματος βάσης δεδομένων που χρησιμοποιείται από το Chamilo**
 
-Displays the current DB version to match the Chamilo core version.
+Εμφανίζει την τρέχουσα έκδοση της ΒΔ για αντιστοίχιση με την έκδοση του πυρήνα του Chamilo.
 
 ### `cookie_warning`
 
-**Cookie privacy notification**
+**Ειδοποίηση απορρήτου cookies**
 
-If enabled, this option shows a banner on top of your platform that asks users to acknowledge that the platform is using cookies necessary to provide the user experience. The banner can easily be acknowledged and hidden by the user. This allows Chamilo to comply with EU web cookies regulations.
+Αν ενεργοποιηθεί, αυτή η επιλογή εμφανίζει μια μπάρα στην κορυφή της πλατφόρμας που ζητά από τους χρήστες να αναγνωρίσουν ότι η πλατφόρμα χρησιμοποιεί cookies απαραίτητα για την παροχή της εμπειρίας χρήστη. Η μπάρα μπορεί εύκολα να αναγνωριστεί και να κρυφτεί από τον χρήστη. Αυτό επιτρέπει στο Chamilo να συμμορφώνεται με τους κανονισμούς της ΕΕ για web cookies.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 ### `disable_copy_paste`
 
-**Disable copy-pasting**
+**Απενεργοποίηση αντιγραφής-επικόλλησης**
 
-When enabled, this option disables as well as possible the copy-pasting mechanisms. Useful in restrictive exams setups.
+Όταν ενεργοποιηθεί, αυτή η επιλογή απενεργοποιεί όσο το δυνατόν καλύτερα τους μηχανισμούς αντιγραφής-επικόλλησης. Χρήσιμο σε ρυθμίσεις περιοριστικών εξετάσεων.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 ### `donotlistcampus`
 
-**Do not list this campus on chamilo.org**
+**Μη καταχώριση αυτής της πλατφόρμας στο chamilo.org**
 
-By default, Chamilo portals are automatically registered in a public list at chamilo.org, just using the title you gave to this portal (not the URL nor any private data). Check this box to avoid having the title of your portal appear.
+Εξ ορισμού, οι πύλες Chamilo καταχωρίζονται αυτόματα σε δημόσια λίστα στο chamilo.org, χρησιμοποιώντας μόνο τον τίτλο που δώσατε σε αυτή την πύλη (όχι την URL ούτε κάποια ιδιωτικά δεδομένα). Επιλέξτε αυτό το πλαίσιο για να αποφύγετε την εμφάνιση του τίτλου της πύλης σας.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 ### `generate_random_login`
 
-**Generate random username**
+**Δημιουργία τυχαίου ονόματος χρήστη**
 
-When importing users (batch processes), automatically generate a random string for username. Otherwise, the username will be generated on the basis of the firstname and lastname, or the prefix of the e-mail.
+Κατά την εισαγωγή χρηστών (διαδικασίες batch), δημιουργείται αυτόματα τυχαία συμβολοσειρά για όνομα χρήστη. Διαφορετικά, το όνομα χρήστη θα δημιουργηθεί βάσει του ονόματος και επωνύμου, ή της προθήκης του email.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 ### `hosting_limit_identical_email`
 
-**Limit identical email usage**
+**Περιορισμός χρήσης ίδιου email**
 
-Maximum number of accounts allowed to share the same e-mail address. Set to 0 to disable this limit.
+Μέγιστος αριθμός λογαριασμών που επιτρέπεται να μοιράζονται την ίδια διεύθυνση email. Ορισμός σε 0 για απενεργοποίηση του περιορισμού.
 
-*Default: `0`*
+*Προεπιλογή: `0`*
 
 ### `hosting_limit_users_per_course`
 
-**Global limit of users per course**
+**Γενικός περιορισμός χρηστών ανά μάθημα**
 
-Defines a global maximum number of users (teachers included) allowed to be subscribed to any single course in the platform. Set this value to 0 to disable the limit. This helps avoid courses being overloaded in open portals.
+Ορίζει έναν γενικό μέγιστο αριθμό χρηστών (συμπεριλαμβανομένων δασκάλων) που επιτρέπεται να εγγραφούν σε οποιοδήποτε μεμονωμένο μάθημα στην πλατφόρμα. Ορισμός αυτής της τιμής σε 0 για απενεργοποίηση του περιορισμού. Βοηθά στην αποφυγή υπερφόρτωσης μαθημάτων σε ανοιχτές πύλες.
 
-*Default: `0`*
+*Προεπιλογή: `0`*
 
 ### `institution`
 
-**Organization name**
+**Όνομα οργανισμού**
 
-The name of the organization (appears in the header on the right)
+Το όνομα του οργανισμού (εμφανίζεται στην κεφαλίδα δεξιά)
 
-*Default: `Chamilo.org`*
+*Προεπιλογή: `Chamilo.org`*
 
 
 ### `institution_address`
 
-**Institution address**
+**Διεύθυνση ιδρύματος**
 
-Address
+Διεύθυνση
 
 ### `institution_url`
 
-**Organization URL (web address)**
+**URL οργανισμού (web διεύθυνση)**
 
-The URL of the institutions (the link that appears in the header on the right)
+Η URL του ιδρύματος (ο σύνδεσμος που εμφανίζεται στην κεφαλίδα δεξιά)
 
-*Default: `http://www.chamilo.org`*
+*Προεπιλογή: `http://www.chamilo.org`*
 
 
 ### `max_courses_per_user`
 
-**Maximum courses per user**
+**Μέγιστα μαθήματα ανά χρήστη**
 
-Maximum number of courses a teacher/trainer can create. Set to 0 to disable the limit. Can be overridden per user via a BuyCourses service purchase.
+Μέγιστος αριθμός μαθημάτων που μπορεί να δημιουργήσει ένας δάσκαλος/εκπαιδευτής. Ορισμός σε 0 για απενεργοποίηση του περιορισμού. Μπορεί να παρακαμφθεί ανά χρήστη μέσω αγοράς υπηρεσίας BuyCourses.
 
-*Default: `0`*
+*Προεπιλογή: `0`*
 
 ### `notification_event`
 
-**Enable the notification tool for a more impactful communication channel with students**
+**Ενεργοποίηση εργαλείου ειδοποιήσεων για πιο αποτελεσματικό κανάλι επικοινωνίας με φοιτητές**
 
-Activates popup or system notifications for important platform events.
+Ενεργοποιεί popup ή ειδοποιήσεις συστήματος για σημαντικά γεγονότα της πλατφόρμας.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 ### `pdf_img_dpi`
 
-**PDF export resolution**
+**Ανάλυση εξαγωγής PDF**
 
-This represents the resolution of generated PDF files (in dot per inch, or dpi). The default is 96. Increasing it will give you better resolution PDF files but will also increase the weight and generation time of the files.
+Αυτή αντιπροσωπεύει την ανάλυση των δημιουργούμενων αρχείων PDF (σε τε点 ανά ίντσα, ή dpi). Η προεπιλογή είναι 96. Η αύξησή της θα δώσει καλύτερη ανάλυση στα αρχεία PDF αλλά θα αυξήσει επίσης το μέγεθος και τον χρόνο δημιουργίας των αρχείων.
 
-*Default: `96`*
+*Προεπιλογή: `96`*
 
 ### `platform_logo_url`
 
-**URL for alternative platform logo**
+**URL για εναλλακτικό λογότυπο πλατφόρμας**
 
-Replaces the Chamilo logo by loading a (possibly remote) URL. Make sure this is allowed by your security policies.
+Αντικαθιστά το λογότυπο Chamilo φορτώνοντας μια (πιθανώς απομακρυσμένη) URL. Βεβαιωθείτε ότι αυτό επιτρέπεται από τις πολιτικές ασφαλείας σας.
 
-*Default: `https://chamilo.org`*
+*Προεπιλογή: `https://chamilo.org`*
 
 
-### `portfolio_advanced_sharing`
+### `portfolio_advanced_sharing**
 
-**Enable portfolio advanced sharing**
+**Ενεργοποίηση προχωρημένης κοινής χρήσης portfolio**
 
-Decide who can view the posts and comments of the portfolio.
+Αποφασίστε ποιος μπορεί να δει τις αναρτήσεις και σχόλια του portfolio.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 ### `portfolio_show_base_course_post_in_sessions`
 
-**Show base course posts in session course**
+**Εμφάνιση αναρτήσεων βασικού μαθήματος σε μάθημα συνεδρίας**
 
-Decide who can view the posts and comments of the portfolio.
+Αποφασίστε ποιος μπορεί να δει τις αναρτήσεις και σχόλια του portfolio.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 ### `push_notification_settings`
 
-**Push notification settings (JSON)**
+**Ρυθμίσεις push ειδοποιήσεων (JSON)**
 
-JSON configuration for Push notifications integration.
+Συνάρτηση JSON για ενσωμάτωση push ειδοποιήσεων.
 
 ### `server_type`
 
-**Server Type**
+**Τύπος εξυπηρετητή**
 
-Defines the environment type: "prod" (normal production), "validation" (like production but without reporting statistics), or "test" (debug mode with developer tools such as untranslated string indicators).
+Ορίζει τον τύπο περιβάλλοντος: "prod" (κανονική παραγωγή), "validation" (όπως παραγωγή αλλά χωρίς αναφορές στατιστικών), ή "test" (λειτουργία debug με εργαλεία προγραμματιστή όπως ενδείξεις μη μεταφρασμένων συμβολοσειρών).
 
-*Default: `prod`*
+*Προεπιλογή: `prod`*
 
 ### `session_admin_access_to_all_users_on_all_urls`
 
-**Allow session admins to see all users on all URLs**
+**Επιτρέψτε στους διαχειριστές συνεδρίας να βλέπουν όλους τους χρήστες σε όλες τις URL**
 
-If enabled, session admins can search and list users from all access URLs, regardless of their current URL.
+Αν ενεργοποιηθεί, οι διαχειριστές συνεδρίας μπορούν να αναζητούν και να παρατίθενται χρήστες από όλες τις URL πρόσβασης, ανεξαρτήτως της τρέχουσας URL τους.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
+---
 ### `site_name`
 
-**E-learning portal name**
+**Όνομα πύλης ηλεκτρονικής μάθησης**
 
-The Name of your Chamilo Portal (appears in the header)
+Το Όνομα της Πύλης Chamilo σας (εμφανίζεται στην κεφαλίδα)
 
-*Default: `Chamilo site`*
+*Προεπιλογή: `Chamilo site`*
 
 
 ### `timepicker_increment`
 
-**Timepicker increment**
+**Βήμα επιλογέα ώρας**
 
-Minimal time increment (in minutes) when selecting a date and time with the timepicker widget. For example, it might not be useful to have less than 5 or 15 minutes increments when talking about assignment submission, availability of a test, start time of a session, etc.
+Ελάχιστο βήμα χρόνου (σε λεπτά) κατά την επιλογή ημερομηνίας και ώρας με το widget επιλογέα ώρας. Για παράδειγμα, μπορεί να μην είναι χρήσιμο να έχετε βήματα μικρότερα από 5 ή 15 λεπτά όταν μιλάμε για υποβολή εργασίας, διαθεσιμότητα δοκιμασίας, ώρα έναρξης συνεδρίας κ.λπ.
 
-*Default: `15`*
+*Προεπιλογή: `15`*
+
 
 ### `timezone`
 
-**Default timezone**
+**Προεπιλεγμένη ζώνη ώρας**
 
-Select the default timezone for this portal. This will help set the timezone (if the feature is enabled) for each new user or for any user that has not set a specific timezone yet. Timezones help show all time-related information on screen in the specific timezone of each user.
+Επιλέξτε την προεπιλεγμένη ζώνη ώρας για αυτή την πύλη. Αυτό θα βοηθήσει στην ορισμό της ζώνης ώρας (αν η λειτουργία είναι ενεργοποιημένη) για κάθε νέο χρήστη ή για οποιονδήποτε χρήστη δεν έχει ορίσει ακόμη συγκεκριμένη ζώνη ώρας. Οι ζώνες ώρας βοηθούν στην εμφάνιση όλων των πληροφοριών σχετικών με την ώρα στην οθόνη στη συγκεκριμένη ζώνη ώρας κάθε χρήστη.
 
-*Default: `Europe/Paris`*
+*Προεπιλογή: `Europe/Paris`*
 
 
 ### `unoconv_binaries`
 
-**UNO converter binaries**
+**Αρχεία εκτελέσιμου UNO converter**
 
-Give the system path to the UNO converter library to enable some extra exporting features.
+Δώστε την πορεία συστήματος προς τη βιβλιοθήκη UNO converter για να ενεργοποιήσετε ορισμένες επιπλέον λειτουργίες εξαγωγής.
 
-*Default: `/usr/bin/unoconv`*
+*Προεπιλογή: `/usr/bin/unoconv`*
 
 
 ### `use_career_external_id_as_identifier_in_diagrams`
 
-**Use external career ID in diagrams**
+**Χρήση εξωτερικού ID καριέρας σε διαγράμματα**
 
-If using career diagrams, show an extra field instead of the internal career ID.
+Αν χρησιμοποιείτε διαγράμματα καριέρας, εμφανίστε ένα επιπλέον πεδίο αντί του εσωτερικού ID καριέρας.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
+
 
 ### `use_custom_pages`
 
-**Use custom pages**
+**Χρήση προσαρμοσμένων σελίδων**
 
-Enable this feature to configure specific login pages by role
+Ενεργοποιήστε αυτή τη λειτουργία για να ρυθμίσετε συγκεκριμένες σελίδες σύνδεσης ανά ρόλο
 
-*Default: `false`*
+*Προεπιλογή: `false`*
+
 
 ### `use_virtual_keyboard`
 
-**Use virtual keyboard**
+**Χρήση εικονικού πληκτρολογίου**
 
-Make a virtual keyboard appear. This is useful when setting up restrictive exams in a physical room where students have no keyboard to limit their ability to cheat.
+Κάντε να εμφανίζεται ένα εικονικό πληκτρολόγιο. Αυτό είναι χρήσιμο κατά την εγκατάσταση περιοριστικών εξετάσεων σε φυσικό χώρο όπου οι μαθητές δεν έχουν πληκτρολόγιο για να περιορίσετε την ικανότητά τους να απατήσουν.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
+
 
 ### `user_status_show_option`
 
-**Roles display options**
+**Επιλογές εμφάνισης ρόλων**
 
-An array of role => true/false that defines whether that role should be shown or hidden.
+Ένας πίνακας role => true/false που ορίζει αν αυτός ο ρόλος πρέπει να εμφανίζεται ή να κρύβεται.
+
 
 ### `user_status_show_options_enabled`
 
-**Selective display of roles**
+**Επιλεκτική εμφάνιση ρόλων**
 
-Enable to use an array to define which roles should be clearly displayed and which should be hidden.
+Ενεργοποιήστε για να χρησιμοποιήσετε έναν πίνακα ώστε να ορίσετε ποιοι ρόλοι πρέπει να εμφανίζονται ξεκάθαρα και ποιοι να κρύβονται.
 
-*Default: `false`*
+*Προεπιλογή: `false`*

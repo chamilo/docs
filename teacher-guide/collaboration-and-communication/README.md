@@ -1,12 +1,12 @@
-# Collaboration and Communication
+# Συνεργασία και Επικοινωνία
 
-Chamilo provides several tools to enable interaction between you and your learners, and among learners themselves.
+Το Chamilo παρέχει αρκετά εργαλεία για να ενεργοποιήσει την αλληλεπίδραση μεταξύ εσάς και των μαθητών σας, και μεταξύ των μαθητών μεταξύ τους.
 
-* **[Forums](forums.md)** — Threaded discussions organized by category and topic
-* **[Chat](chat.md)** — Real-time text messaging within a course
-* **[Groups](groups.md)** — Divide learners into working groups with their own shared tools
-* **[Wiki](wiki.md)** — Collaborative document editing
-* **[Blog](blog.md)** — Shared blogging within the course
-* **[Video Conferencing](video-conferencing.md)** — Live video sessions using BigBlueButton or Zoom
+* **[Φόρουμ](forums.md)** — Συζητήσεις με νήματα οργανωμένες ανά κατηγορία και θέμα
+* **[Τσατ](chat.md)** — Μηνύματα κειμένου σε πραγματικό χρόνο εντός μαθήματος
+* **[Ομάδες](groups.md)** — Διαίρεση μαθητών σε ομάδες εργασίας με τα δικά τους κοινόχρηστα εργαλεία
+* **[Wiki](wiki.md)** — Συνεργατική επεξεργασία εγγράφων
+* **[Μπλογκ](blog.md)** — Κοινόχρηστο μπλογκ εντός του μαθήματος
+* **[Τηλεδιάσκεψη](video-conferencing.md)** — Ζωνταντές συνεδρίες βίντεο χρησιμοποιώντας BigBlueButton ή Zoom
 
-These tools are available from the course homepage. Some may be hidden by default — you can make them visible from the tool grid (see [Course Homepage](../creating-your-course/course-homepage.md)).
+Αυτά τα εργαλεία είναι διαθέσιμα από την αρχική σελίδα του μαθήματος. Κάποια μπορεί να είναι κρυμμένα από προεπιλογή — μπορείτε να τα κάνετε ορατά από τον πίνακα εργαλείων (δείτε [Αρχική Σελίδα Μαθήματος](../creating-your-course/course-homepage.md)).

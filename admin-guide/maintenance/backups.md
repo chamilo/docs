@@ -1,53 +1,53 @@
-# Backups
+# Αντιγράφων Ασφαλείας
 
-Regular backups are essential for protecting your Chamilo data. This page covers what to back up and how.
+Τα τακτικά αντιγράφων ασφαλείας είναι απαραίτητα για την προστασία των δεδομένων του Chamilo. Αυτή η σελίδα καλύπτει τι να αντιγράψετε ασφαλίστρια και πώς.
 
-## What to Back Up
+## Τι να Αντιγράψετε Ασφαλίστρια
 
-### 1. Database
+### 1. Βάση Δεδομένων
 
-The Chamilo database contains all platform data: users, courses, tracking, grades, messages, and settings. This is the most critical component to back up.
+Η βάση δεδομένων του Chamilo περιέχει όλα τα δεδομένα της πλατφόρμας: χρήστες, μαθήματα, παρακολούθηση, βαθμολογίες, μηνύματα και ρυθμίσεις. Αυτό είναι το πιο κρίσιμο στοιχείο για αντιγραφή ασφαλείας.
 
-**How to back up:**
+**Πώς να κάνετε αντιγραφή ασφαλείας:**
 
 ```bash
 mysqldump -u username -p chamilo_database > chamilo_backup_$(date +%Y%m%d).sql
 ```
 
-### 2. Files
+### 2. Αρχεία
 
-Chamilo stores uploaded files (documents, images, SCORM packages) in the filesystem. The key directories to back up:
+Το Chamilo αποθηκεύει τα ανεβασμένα αρχεία (έγγραφα, εικόνες, πακέτα SCORM) στο σύστημα αρχείων. Οι βασικοί κατάλογοι για αντιγραφή ασφαλείας:
 
-* `var/` — Uploaded files and resources
-* `public/plugin/` — Plugin files (only if you have added custom plugins)
+* `var/` — Ανεβασμένα αρχεία και πόροι
+* `public/plugin/` — Αρχεία πρόσθετων (μόνο αν έχετε προσθέσει προσαρμοσμένα πρόσθετα)
 
-If you use cloud storage (S3, Azure Blob), ensure your cloud provider's backup/versioning is enabled.
+Αν χρησιμοποιείτε αποθήκευση cloud (S3, Azure Blob), βεβαιωθείτε ότι η αντιγραφή ασφαλείας/έκδοση του παρόχου cloud είναι ενεργοποιημένη.
 
-### 3. Configuration
+### 3. Ρυθμίσεις
 
-* `.env` — Your environment configuration
-* `config/` — Any custom configuration files
+* `.env` — Η ρύθμιση περιβάλλοντος σας
+* `config/` — Οποιαδήποτε προσαρμοσμένα αρχεία ρυθμίσεων
 
-## Backup Schedule
+## Πρόγραμμα Αντιγράφων Ασφαλείας
 
-| Component | Recommended frequency |
-|-----------|---------------------|
-| Database | Daily |
-| Files | Daily or weekly (depending on upload activity) |
-| Configuration | After any configuration change |
+| Στοιχείο | Συνιστώμενη συχνότητα |
+|----------|----------------------|
+| Βάση Δεδομένων | Καθημερινά |
+| Αρχεία | Καθημερινά ή εβδομαδιαία (ανάλογα με τη δραστηριότητα ανεβάσματος) |
+| Ρυθμίσεις | Μετά από οποιαδήποτε αλλαγή ρυθμίσεων |
 
-## Restoration
+## Αποκατάσταση
 
-To restore from a backup:
+Για να αποκαταστήσετε από αντιγραφή ασφαλείας:
 
-1. Restore the database from the SQL dump
-2. Restore the file directories
-3. Restore the configuration files
-4. Clear the Symfony cache: `php bin/console cache:clear`
+1. Αποκαταστήστε τη βάση δεδομένων από το SQL dump
+2. Αποκαταστήστε τους καταλόγους αρχείων
+3. Αποκαταστήστε τα αρχεία ρυθμίσεων
+4. Καθαρίστε την cache του Symfony: `php bin/console cache:clear`
 
-## Tips
+## Συμβουλές
 
-* **Automate backups** — Use cron jobs to run backups automatically
-* **Store off-site** — Keep backup copies on a separate server or cloud storage
-* **Test restoration** — Periodically test that you can restore from a backup successfully
-* **Document your process** — Keep written instructions for the restoration process so anyone on the team can perform it
+* **Αυτοματοποιήστε τα αντιγράφων ασφαλείας** — Χρησιμοποιήστε cron jobs για να εκτελούνται αυτόματα
+* **Αποθηκεύστε εκτός έδρας** — Κρατήστε αντίγραφα ασφαλείας σε ξεχωριστό διακομιστή ή αποθήκευση cloud
+* **Δοκιμάστε την αποκατάσταση** — Περιοδικά δοκιμάστε ότι μπορείτε να αποκαταστήσετε επιτυχώς από αντιγραφή ασφαλείας
+* **Τεκμηριώστε τη διαδικασία σας** — Κρατήστε γραπτές οδηγίες για τη διαδικασία αποκατάστασης ώστε οποιοσδήποτε στην ομάδα να μπορεί να την εκτελέσει

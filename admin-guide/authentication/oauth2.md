@@ -1,30 +1,30 @@
 # OAuth2
 
-OAuth2 authentication is configured in `config/authentication.yaml`. Chamilo includes built-in support for Azure AD, Keycloak, Facebook, and any generic OAuth2-compliant provider.
+Η πιστοποίηση OAuth2 ρυθμίζεται στο `config/authentication.yaml`. Το Chamilo περιλαμβάνει ενσωματωμένη υποστήριξη για Azure AD, Keycloak, Facebook και οποιονδήποτε γενικό πάροχο συμβατό με OAuth2.
 
-## Step 1 — Register Chamilo in your identity provider
+## Βήμα 1 — Εγγραφή του Chamilo στον πάροχο ταυτότητας
 
-Create an application in your provider's admin panel and set the **redirect URI** to:
+Δημιουργήστε μια εφαρμογή στον πίνακα διαχείρισης του παρόχου σας και ορίστε το **redirect URI** σε:
 
 ```
 https://your-chamilo-url/connect/<provider>/check
 ```
 
-Where `<provider>` is `azure`, `keycloak`, `facebook`, or the name you give a generic provider. Note the **Client ID** and **Client Secret**.
+Όπου το `<provider>` είναι `azure`, `keycloak`, `facebook` ή το όνομα που δίνετε σε έναν γενικό πάροχο. Σημειώστε το **Client ID** και το **Client Secret**.
 
-## Step 2 — Configure authentication.yaml
+## Βήμα 2 — Ρύθμιση του authentication.yaml
 
-Enable the provider and supply its credentials. All providers share these common keys:
+Ενεργοποιήστε τον πάροχο και παρέχετε τα διαπιστευτήριά του. Όλοι οι πάροχοι μοιράζονται αυτά τα κοινά κλειδιά:
 
-| Key | Description |
-|-----|-------------|
-| `enabled` | `true` to activate |
-| `title` | Label shown on the login button |
-| `client_id` | From your identity provider |
-| `client_secret` | From your identity provider |
-| `allow_create_new_users` | Auto-create a Chamilo account on first login |
-| `allow_update_user_info` | Sync user data on each login |
-| `force_as_login_method` | Disable other methods and force this one |
+| Κλειδί | Περιγραφή |
+|--------|-----------|
+| `enabled` | `true` για ενεργοποίηση |
+| `title` | Ετικέτα που εμφανίζεται στο κουμπί σύνδεσης |
+| `client_id` | Από τον πάροχο ταυτότητας |
+| `client_secret` | Από τον πάροχο ταυτότητας |
+| `allow_create_new_users` | Αυτόματη δημιουργία λογαριασμού Chamilo στην πρώτη σύνδεση |
+| `allow_update_user_info` | Συγχρονισμός δεδομένων χρήστη σε κάθε σύνδεση |
+| `force_as_login_method` | Απενεργοποίηση άλλων μεθόδων και επιβολή αυτής |
 
 ### Azure AD (Microsoft Entra ID)
 
@@ -46,7 +46,7 @@ authentication:
         allow_update_user_info: true
 ```
 
-Azure also supports group-based role mapping (mapping Azure group IDs to Chamilo roles such as teacher or admin), user delta sync commands, and certificate authentication instead of a client secret. See the [wiki](https://github.com/chamilo/chamilo-lms/wiki/External-Authentication-configuration) for those options.
+Το Azure υποστηρίζει επίσης χαρτογράφηση ρόλων βασισμένη σε ομάδες (χαρτογράφηση ID ομάδων Azure σε ρόλους Chamilo όπως δάσκαλος ή διαχειριστής), εντολές συγχρονισμού delta χρηστών και πιστοποίηση με πιστοποιητικό αντί για client secret. Δείτε το [wiki](https://github.com/chamilo/chamilo-lms/wiki/External-Authentication-configuration) για αυτές τις επιλογές.
 
 ### Keycloak
 
@@ -79,9 +79,9 @@ authentication:
         allow_create_new_users: true
 ```
 
-### Generic OAuth2
+### Γενικό OAuth2
 
-Use this for Google, GitLab, or any OAuth2-compliant provider:
+Χρησιμοποιήστε αυτό για Google, GitLab ή οποιονδήποτε πάροχο συμβατό με OAuth2:
 
 ```yaml
 authentication:
@@ -99,18 +99,18 @@ authentication:
         allow_create_new_users: true
 ```
 
-Field mapping (how provider attributes map to Chamilo's `firstname`, `lastname`, `email`, etc.) and role mapping are also configurable. See the [wiki](https://github.com/chamilo/chamilo-lms/wiki/External-Authentication-configuration) for the full list of mapping keys.
+Η χαρτογράφηση πεδίων (πώς τα χαρακτηριστικά του παρόχου χαρτογραφούνται στα `firstname`, `lastname`, `email` κ.λπ. του Chamilo) και η χαρτογράφηση ρόλων είναι επίσης ρυθμιζόμενες. Δείτε το [wiki](https://github.com/chamilo/chamilo-lms/wiki/External-Authentication-configuration) για την πλήρη λίστα κλειδιών χαρτογράφησης.
 
-## Step 3 — Clear cache and test
+## Βήμα 3 — Εκκαθάριση cache και δοκιμή
 
 ```bash
 php bin/console cache:clear && php bin/console cache:warmup
 ```
 
-Log out of Chamilo. The configured provider's button should appear on the login page. Test with a dedicated account before rolling out to all users.
+Αποσυνδεθείτε από το Chamilo. Το κουμπί του ρυθμισμένου παρόχου πρέπει να εμφανίζεται στη σελίδα σύνδεσης. Δοκιμάστε με έναν ειδικό λογαριασμό πριν την εφαρμογή σε όλους τους χρήστες.
 
-## Tips
+## Συμβουλές
 
-* Keep the standard login form enabled so administrators can always log in if OAuth2 has issues.
-* When using Azure with existing users, configure `existing_user_verification_order` to control how Chamilo matches incoming users to existing accounts.
-* Role assignment defaults to student; use group mapping to promote users to teacher or admin roles automatically.
+* Διατηρήστε ενεργή τη standard φόρμα σύνδεσης ώστε οι διαχειριστές να μπορούν πάντα να συνδέονται αν υπάρξουν προβλήματα με το OAuth2.
+* Κατά τη χρήση Azure με υπάρχοντες χρήστες, ρυθμίστε το `existing_user_verification_order` για να ελέγξετε πώς το Chamilo ταιριάζει τους εισερχόμενους χρήστες με υπάρχοντες λογαριασμούς.
+* Η ανάθεση ρόλου προεπιλογής είναι μαθητής· χρησιμοποιήστε χαρτογράφηση ομάδας για αυτόματη προαγωγή χρηστών σε ρόλους δασκάλου ή διαχειριστή.

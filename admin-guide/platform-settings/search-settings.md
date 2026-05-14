@@ -1,33 +1,32 @@
-# Search Settings
+# Ρυθμίσεις Αναζήτησης
 
-Configuration of the full-text search system (Xapian).
+Ρύθμιση του συστήματος πλήρους αναζήτησης κειμένου (Xapian).
 
-Access these settings under **Administration > Configuration settings > Search**. This category contains **3 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+Πρόσβαση σε αυτές τις ρυθμίσεις στο **Διαχείριση > Ρυθμίσεις διαμόρφωσης > Αναζήτηση**. Αυτή η κατηγορία περιέχει **3 ρυθμίσεις**, που παρατίθενται παρακάτω με τον τίτλο και το σχόλιο που παρέχονται στα fixtures των ρυθμίσεων της πλατφόρμας (`SettingsCurrentFixtures.php`).
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> Το όνομα της μεταβλητής στον κώδικα εμφανίζεται σε monospace. Χρησιμοποιήστε το όταν προγραμματίζετε μέσω του API ή όταν χρειάζεται να αλλάξετε αυτές τις ρυθμίσεις σε παγκόσμιο επίπεδο επεξεργαζόμενοι το [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
 
-## Settings
+## Ρυθμίσεις
 
 ### `search_enabled`
 
-**Full-text search feature**
+**Λειτουργία πλήρους αναζήτησης κειμένου**
 
-Select 'Yes' to enable this feature. It is highly dependent on the Xapian extension for PHP, so this will not work if this extension is not installed on your server, in version 1.x at minimum.
+Επιλέξτε 'Ναι' για να ενεργοποιήσετε αυτή τη λειτουργία. Εξαρτάται σε μεγάλο βαθμό από την επέκταση Xapian για PHP, επομένως δεν θα λειτουργεί αν αυτή η επέκταση δεν είναι εγκατεστημένη στον διακομιστή σας, σε έκδοση 1.x ελάχιστα.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 
 ### `search_prefilter_prefix`
 
-**Specific Field for prefilter**
+**Ειδικό Πεδίο για προφίλτρο**
 
-This option let you choose the Specific field to use on prefilter search type.
+Αυτή η επιλογή σας επιτρέπει να επιλέξετε το Ειδικό πεδίο που θα χρησιμοποιηθεί στον τύπο αναζήτησης προφίλτρου.
 
 ### `search_show_unlinked_results`
 
-**Full-text search: show unlinked results**
+**Πλήρης αναζήτηση κειμένου: εμφάνιση μη συνδεδεμένων αποτελεσμάτων**
 
-When showing the results of a full-text search, what should be done with the results that are not accessible to the current user?
+Κατά την εμφάνιση των αποτελεσμάτων μιας πλήρους αναζήτησης κειμένου, τι πρέπει να γίνει με τα αποτελέσματα που δεν είναι προσβάσιμα στον τρέχοντα χρήστη;
 
-*Default: `true`*
-
+*Προεπιλογή: `true`*

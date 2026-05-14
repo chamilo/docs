@@ -1,53 +1,53 @@
-# Groups
+# Ομάδες
 
-Groups allow you to divide your learners into smaller teams for collaborative work. Each group can have its own shared tools, such as documents, forums, and a wiki.
+Οι ομάδες σας επιτρέπουν να χωρίσετε τους μαθητές σας σε μικρότερες ομάδες για συνεργατική εργασία. Κάθε ομάδα μπορεί να έχει τα δικά της εργαλεία κοινής χρήσης, όπως έγγραφα, φόρουμ και wiki.
 
-## Creating Groups
+## Δημιουργία Ομάδων
 
-1. Open the **Groups** tool from the course homepage
-2. Click **Create groups**
-3. Configure the group settings:
-   * **Number of groups** — How many groups to create
-   * **Maximum members per group** — The size limit for each group (0 for unlimited)
-   * **Self-registration** — Whether learners can join groups on their own
-   * **Self-unregistration** — Whether learners can leave a group on their own
+1. Ανοίξτε το εργαλείο **Groups** από την αρχική σελίδα του μαθήματος
+2. Κάντε κλικ στο **Create groups**
+3. Ρυθμίστε τις παραμέτρους της ομάδας:
+   * **Number of groups** — Πόσες ομάδες θα δημιουργηθούν
+   * **Maximum members per group** — Το όριο μελών για κάθε ομάδα (0 για απεριόριστο)
+   * **Self-registration** — Εάν οι μαθητές μπορούν να εγγραφούν σε ομάδες μόνοι τους
+   * **Self-unregistration** — Εάν οι μαθητές μπορούν να αποχωρήσουν από ομάδα μόνοι τους
 
-## Group Tools
+## Εργαλεία Ομάδας
 
-![The groups overview showing available group tools and member counts](/.gitbook/assets/groups-overview.png)
+![Η επισκόπηση των ομάδων που δείχνει τα διαθέσιμα εργαλεία ομάδας και τον αριθμό μελών](/.gitbook/assets/groups-overview.png)
 
-Each group can have access to a subset of course tools that are shared only among group members:
+Κάθε ομάδα μπορεί να έχει πρόσβαση σε ένα υποσύνολο εργαλείων του μαθήματος που κοινοποιούνται μόνο μεταξύ των μελών της ομάδας:
 
-* **Documents** — A shared file space for the group
-* **Forum** — A group-specific discussion forum
-* **Wiki** — A collaborative wiki for the group
-* **Chat** — A chat space for the group
-* **Agenda** — Group-scoped calendar events
-* **Announcements** — Send announcements to group members only
-* **Assignments** — Collect work from the group
+* **Documents** — Χώρος κοινής χρήσης αρχείων για την ομάδα
+* **Forum** — Φόρουμ συζητήσεων ειδικό για την ομάδα
+* **Wiki** — Συνεργατική wiki για την ομάδα
+* **Chat** — Χώρος συνομιλίας για την ομάδα
+* **Agenda** — Γεγονότα ημερολογίου εστιασμένα στην ομάδα
+* **Announcements** — Αποστολή ανακοινώσεων μόνο στα μέλη της ομάδας
+* **Assignments** — Συλλογή εργασιών από την ομάδα
 
-For each tool you can choose its access level: **Not available**, **Public** (any course member), or **Private** (group members only). These settings can be applied at the group category level, so multiple groups in the same category share the same tool configuration.
+Για κάθε εργαλείο μπορείτε να επιλέξετε το επίπεδο πρόσβασης: **Not available**, **Public** (οποιοδήποτε μέλος του μαθήματος), ή **Private** (μόνο μέλη της ομάδας). Αυτές οι ρυθμίσεις μπορούν να εφαρμοστούν σε επίπεδο κατηγορίας ομάδας, ώστε πολλαπλές ομάδες στην ίδια κατηγορία να μοιράζονται την ίδια διαμόρφωση εργαλείων.
 
-## Managing Group Members
+## Διαχείριση Μελών Ομάδας
 
-You can manage group membership in several ways:
+Μπορείτε να διαχειριστείτε τη συμμετοχή σε ομάδες με διάφορους τρόπους:
 
-* **Manual assignment** — Add specific learners to each group
-* **Fill selected groups** — Automatically distribute unsubscribed learners across the selected groups, respecting each group's capacity and the per-user group limit
-* **Self-registration** — Allow learners to choose their own group
-* **Import from classes** — Auto-create groups from the classes already enrolled in the course
+* **Manual assignment** — Προσθήκη συγκεκριμένων μαθητών σε κάθε ομάδα
+* **Fill selected groups** — Αυτόματη κατανομή μη εγγεγραμμένων μαθητών στις επιλεγμένες ομάδες, λαμβάνοντας υπόψη την χωρητικότητα κάθε ομάδας και το όριο ομάδων ανά χρήστη
+* **Self-registration** — Επιτρέψτε στους μαθητές να επιλέξουν την ομάδα τους
+* **Import from classes** — Αυτόματη δημιουργία ομάδων από τις υπάρχουσες τάξεις του μαθήματος
 
-To manually manage members, click on a group name, then use the **Members** section to add or remove learners.
+Για χειροκίνητη διαχείριση μελών, κάντε κλικ στο όνομα μιας ομάδας και στη συνέχεια χρησιμοποιήστε την ενότητα **Members** για να προσθέσετε ή να αφαιρέσετε μαθητές.
 
-## Group Tutors
+## Επόπτες Ομάδας
 
-You can assign **tutors** to groups. A tutor is typically a learner or assistant who helps manage the group's work. Tutors may have additional permissions within the group, such as moderating the group forum.
+Μπορείτε να ορίσετε **tutors** σε ομάδες. Ένας επόπτης είναι συνήθως ένας μαθητής ή βοηθός που βοηθά στη διαχείριση της εργασίας της ομάδας. Οι επόπτες μπορεί να έχουν πρόσθετες άδειες εντός της ομάδας, όπως τη μέτριοση του φόρουμ της ομάδας.
 
-## Monitoring Group Work
+## Παρακολούθηση Εργασίας Ομάδας
 
-As the course teacher, you can access all groups and their shared tools regardless of membership. This allows you to:
+Ως δάσκαλος του μαθήματος, μπορείτε να έχετε πρόσβαση σε όλες τις ομάδες και τα εργαλεία κοινής χρήσης τους ανεξαρτήτως συμμετοχής. Αυτό σας επιτρέπει να:
 
-* Review documents uploaded by each group
-* Read group forum discussions
-* Check wiki contributions
-* Assess group collaboration
+* Ελέγξετε τα έγγραφα που ανέβασαν οι ομάδες
+* Διαβάσετε συζητήσεις φόρουμ ομάδας
+* Ελέγξετε συνεισφορές wiki
+* Αξιολογήσετε τη συνεργασία της ομάδας

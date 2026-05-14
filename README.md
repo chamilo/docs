@@ -1,22 +1,22 @@
-# Chamilo 2.0 Documentation
+# Τεκμηρίωση Chamilo 2.0
 
-Welcome to the official documentation for **Chamilo 2.0**, the open-source e-learning platform.
+Καλώς ήρθατε στην επίσημη τεκμηρίωση του **Chamilo 2.0**, της ανοικτού κώδικα πλατφόρμας ηλεκτρονικής μάθησης.
 
-This documentation is organized into three guides, each tailored to a specific audience:
+Η τεκμηρίωση αυτή οργανώνεται σε τρεις οδηγούς, ο καθένας προσαρμοσμένος σε συγκεκριμένο κοινό:
 
-* [**Teacher Guide**](teacher-guide/) — For instructors and trainers: create courses, add content, assess learners, and track progress.
-* [**Administration Guide**](admin-guide/) — For platform administrators: install, configure, and manage the Chamilo platform.
-* [**Developer Guide**](developer-guide/) — For developers: understand the architecture, build plugins, use the API, and contribute to the project.
+* [**Οδηγός Διδάσκοντα**](teacher-guide/) — Για διδάσκοντες και εκπαιδευτές: δημιουργία μαθημάτων, προσθήκη περιεχομένου, αξιολόγηση μαθητών και παρακολούθηση προόδου.
+* [**Οδηγός Διαχειριστή**](admin-guide/) — Για διαχειριστές πλατφόρμας: εγκατάσταση, διαμόρφωση και διαχείριση της πλατφόρμας Chamilo.
+* [**Οδηγός Προγραμματιστή**](developer-guide/) — Για προγραμματιστές: κατανόηση της αρχιτεκτονικής, κατασκευή πρόσθετων, χρήση του API και συνεισφορά στο έργο.
 
-## What's New in Chamilo 2.0
+## Τι Νέο στο Chamilo 2.0
 
-Chamilo 2.0 is a major release with a completely redesigned interface and many new features:
+Το Chamilo 2.0 είναι μια σημαντική έκδοση με εντελώς ανασχεδιασμένη διεπαφή και πολλά νέα χαρακτηριστικά:
 
-* **Modern interface** — Built with Vue 3 and PrimeVue for a faster, more responsive experience
-* **AI-powered tools** — Generate exercises, learning paths, and get AI-assisted grading
-* **REST API** — Full API Platform-based REST API with JWT authentication
-* **New authentication options** — OAuth2 (Azure, Keycloak, Facebook), SCIM user provisioning
-* **LTI 1.3** — Connect external learning tools seamlessly
-* **Cloud storage** — Native support for Azure Blob, AWS S3, and Google Cloud Storage
-* **Color themes** — Customizable platform branding with theme support
-* **OnlyOffice integration** — Edit documents collaboratively within the platform
+* **Σύγχρονη διεπαφή** — Κατασκευασμένη με Vue 3 και PrimeVue για ταχύτερη και πιο ανταποκρινόμενη εμπειρία
+* **Εργαλεία τεχνητής νοημοσύνης** — Δημιουργία ασκήσεων, μονοπατιών μάθησης και βαθμολόγηση με βοήθεια τεχνητής νοημοσύνης
+* **REST API** — Πλήρες REST API βασισμένο στο API Platform με πιστοποίηση JWT
+* **Νέες επιλογές πιστοποίησης** — OAuth2 (Azure, Keycloak, Facebook), προμήθεια χρηστών SCIM
+* **LTI 1.3** — Σύνδεση εξωτερικών εργαλείων μάθησης απρόσκοπτα
+* **Αποθήκευση σε cloud** — Εγγενής υποστήριξη για Azure Blob, AWS S3 και Google Cloud Storage
+* **Θέματα χρωμάτων** — Προσαρμόσιμη μαρκίζα πλατφόρμας με υποστήριξη θεμάτων
+* **Ενσωμάτωση OnlyOffice** — Συνεργατική επεξεργασία εγγράφων εντός της πλατφόρμας

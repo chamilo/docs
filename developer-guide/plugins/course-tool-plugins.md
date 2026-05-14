@@ -1,18 +1,18 @@
-# Course Tool Plugins
+# Πρόσθετα Εργαλείων Μαθήματος
 
-Course tool plugins add new tools to the course homepage alongside built-in tools like Documents, Exercises, and Forums.
+Τα πρόσθετα εργαλείων μαθήματος προσθέτουν νέα εργαλεία στην αρχική σελίδα του μαθήματος δίπλα στα ενσωματωμένα εργαλεία όπως τα Documents, Exercises και Forums.
 
-## How Course Tool Plugins Work
+## Πώς Λειτουργούν τα Πρόσθετα Εργαλείων Μαθήματος
 
-When a plugin registers itself as a course tool:
+Όταν ένα πρόσθετο καταχωρείται ως εργαλείο μαθήματος:
 
-1. It appears in the course homepage tool grid
-2. Teachers can show/hide it like any other tool
-3. Clicking the tool opens the plugin's interface within the course context
+1. Εμφανίζεται στη μπάρα εργαλείων της αρχικής σελίδας του μαθήματος
+2. Οι διδάσκοντες μπορούν να το εμφανίζουν/να το αποκρύπτουν όπως οποιοδήποτε άλλο εργαλείο
+3. Κάνοντας κλικ στο εργαλείο ανοίγει η διεπαφή του πρόσθετου στο πλαίσιο του μαθήματος
 
-## Registering as a Course Tool
+## Καταχώριση ως Εργαλείο Μαθήματος
 
-In your plugin class, set `$isCoursePlugin = true`. To automatically add a tool icon to the course homepage, also set `$addCourseTool = true`:
+Στην κλάση του πρόσθετου σας, ορίστε `$isCoursePlugin = true`. Για να προστεθεί αυτόματα εικονίδιο εργαλείου στην αρχική σελίδα του μαθήματος, ορίστε επίσης `$addCourseTool = true`:
 
 ```php
 class MyToolPlugin extends Plugin
@@ -26,9 +26,9 @@ class MyToolPlugin extends Plugin
 }
 ```
 
-## Per-Course Settings
+## Ρυθμίσεις Ανά Μάθημα
 
-Define course-level configuration fields via the `$course_settings` property:
+Ορίστε πεδία ρυθμίσεων επιπέδου μαθήματος μέσω της ιδιότητας `$course_settings`:
 
 ```php
 public array $course_settings = [
@@ -37,11 +37,11 @@ public array $course_settings = [
 ];
 ```
 
-These appear in the course settings panel and can be validated by overriding `validateCourseSetting(string $variable)` (return `false` to reject a value) or acted on via `course_settings_updated(array $values)`.
+Αυτά εμφανίζονται στον πίνακα ρυθμίσεων του μαθήματος και μπορούν να επικυρωθούν με την επανεγγραφή της `validateCourseSetting(string $variable)` (επιστροφή `false` για απόρριψη τιμής) ή να επεξεργαστούν μέσω της `course_settings_updated(array $values)`.
 
-## Installation and Uninstallation
+## Εγκατάσταση και Απεγκατάσταση
 
-To register the plugin fields across all existing courses on install:
+Για να καταχωρηθούν τα πεδία του πρόσθετου σε όλα τα υπάρχοντα μαθήματα κατά την εγκατάσταση:
 
 ```php
 public function install(): void
@@ -50,39 +50,39 @@ public function install(): void
 }
 ```
 
-To install into a single course (e.g., when a new course is created):
+Για εγκατάσταση σε ένα μόνο μάθημα (π.χ. όταν δημιουργείται νέο μάθημα):
 
 ```php
 $this->course_install(courseId: $courseId, addToolLink: true);
 ```
 
-To remove fields from a specific course:
+Για αφαίρεση πεδίων από συγκεκριμένο μάθημα:
 
 ```php
 $this->uninstall_course_fields(courseId: $courseId);
 ```
 
-## Integration Points
+## Σημεία Ενσωμάτωσης
 
-Course tool plugins integrate through:
+Τα πρόσθετα εργαλείων μαθήματος ενσωματώνονται μέσω:
 
-* **`LegacyPluginCourseTool`** (`src/CoreBundle/Tool/LegacyPluginCourseTool.php`) — Registers the plugin as a tool in the course
-* **`CToolStateProvider`** (`src/CoreBundle/State/CToolStateProvider.php`) — Resolves which tools (including plugin tools) appear on the course homepage
-* The tool appears in the `CTool` collection for the course
+* **`LegacyPluginCourseTool`** (`src/CoreBundle/Tool/LegacyPluginCourseTool.php`) — Καταχωρεί το πρόσθετο ως εργαλείο στο μάθημα
+* **`CToolStateProvider`** (`src/CoreBundle/State/CToolStateProvider.php`) — Καθορίζει ποια εργαλεία (συμπεριλαμβανομένων των εργαλείων πρόσθετων) εμφανίζονται στην αρχική σελίδα του μαθήματος
+* Το εργαλείο εμφανίζεται στη συλλογή `CTool` για το μάθημα
 
-## Course Context
+## Πλαίσιο Μαθήματος
 
-When a learner clicks your plugin's tool, your plugin code runs within the course context. You can access:
+Όταν ένας μαθητής κάνει κλικ στο εργαλείο του πρόσθετου σας, ο κώδικας του πρόσθετου εκτελείται στο πλαίσιο του μαθήματος. Μπορείτε να έχετε πρόσβαση σε:
 
-* The current course (via `api_get_course_id()` or the CID request store)
-* The current session (if applicable)
-* The current user
-* Course-level plugin settings
+* Το τρέχον μάθημα (μέσω `api_get_course_id()` ή του αποθηκευτικού χώρου αιτήματος CID)
+* Την τρέχουσα συνεδρία (αν υπάρχει)
+* Τον τρέχοντα χρήστη
+* Ρυθμίσεις πρόσθετου επιπέδου μαθήματος
 
-## Examples
+## Παραδείγματα
 
-Built-in course tool plugins:
+Ενσωματωμένα πρόσθετα εργαλείων μαθήματος:
 
-* **BigBlueButton** (`Bbb/`) — Video conferencing within courses
-* **Zoom** (`Zoom/`) — Zoom meetings within courses
-* **OnlyOffice** (`Onlyoffice/`) — Document editing within courses
+* **BigBlueButton** (`Bbb/`) — Βιντεοδιάσκεψη εντός μαθημάτων
+* **Zoom** (`Zoom/`) — Συναντήσεις Zoom εντός μαθημάτων
+* **OnlyOffice** (`Onlyoffice/`) — Επεξεργασία εγγράφων εντός μαθημάτων

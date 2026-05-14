@@ -1,12 +1,12 @@
-# User Profiling
+# Προφίλ Χρηστών
 
-Chamilo allows you to define custom profile fields (extra fields) to capture additional information about users beyond the standard name, email, and role.
+Το Chamilo σας επιτρέπει να ορίζετε προσαρμοσμένα πεδία προφίλ (επιπλέον πεδία) για να συλλέγετε πρόσθετες πληροφορίες για τους χρήστες πέρα από το τυπικό όνομα, email και ρόλο.
 
-## Extra Profile Fields
+## Επιπλέον Πεδία Προφίλ
 
-![The extra profile fields list showing custom fields with name, type, and visibility settings](/.gitbook/assets/admin-extra-fields-list.png)
+![Η λίστα επιπλέον πεδίων προφίλ που εμφανίζει προσαρμοσμένα πεδία με όνομα, τύπο και ρυθμίσεις ορατότητας](/.gitbook/assets/admin-extra-fields-list.png)
 
-Extra fields let you store metadata specific to your organization, such as:
+Τα επιπλέον πεδία σας επιτρέπουν να αποθηκεύετε μεταδεδομένα συγκεκριμένα για τον οργανισμό σας, όπως:
 
 * Employee ID
 * Department
@@ -15,61 +15,61 @@ Extra fields let you store metadata specific to your organization, such as:
 * Phone number
 * Custom identifiers
 
-## Creating Extra Fields
+## Δημιουργία Επιπλέον Πεδίων
 
-1. From the administration panel, navigate to **Extra fields** or **Profile fields**
-2. Click **Add**
-3. Configure the field:
-   * **Name** — The field title shown to users
-   * **Description** — Optional description
-   * **Helper text** — To be shown under the field in any form including it
-   * **Field type** — Text, dropdown, date, checkbox, etc.
-   * **Field label** — The internal name of the field, for plugins integration 
-   * **Possible values** — If the field is a selector between those values 
-   * **Default value** — An optional default
-   * **Visible to self** — Whether the field is visible on the user profile by the user itself
-   * **Visible to others** — Whether the field is visible to other users of the platform
-   * **Can change** — Whether the user can change its own field by himself (or whether only the admins can)
-   * **Filter** — If this is a selector-type field, whether to include it as a filter in administrative pages (e.g. to subscribe users to courses or sessions)
-   * **Order** — If you want to manage the display order of the fields, you will have to give a numerical order to each field
-   * **Remove on anonymization** — Important for privacy rules & laws: If the user is anonymized but not deleted, should this field be considered as potential holder of personally identifiable data? 
-4. Save
+1. Από τον πίνακα διαχείρισης, πλοηγηθείτε σε **Extra fields** ή **Profile fields**
+2. Κάντε κλικ στο **Add**
+3. Ρυθμίστε το πεδίο:
+   * **Name** — Ο τίτλος του πεδίου που εμφανίζεται στους χρήστες
+   * **Description** — Προαιρετική περιγραφή
+   * **Helper text** — Για εμφάνιση κάτω από το πεδίο σε οποιαδήποτε φόρμα το περιλαμβάνει
+   * **Field type** — Κείμενο, dropdown, ημερομηνία, checkbox κ.λπ.
+   * **Field label** — Το εσωτερικό όνομα του πεδίου, για ενσωμάτωση με plugins 
+   * **Possible values** — Αν το πεδίο είναι selector μεταξύ αυτών των τιμών 
+   * **Default value** — Μια προαιρετική προεπιλεγμένη τιμή
+   * **Visible to self** — Εάν το πεδίο είναι ορατό στο προφίλ του χρήστη από τον ίδιο τον χρήστη
+   * **Visible to others** — Εάν το πεδίο είναι ορατό σε άλλους χρήστες της πλατφόρμας
+   * **Can change** — Εάν ο χρήστης μπορεί να αλλάξει το δικό του πεδίο μόνος του (ή μόνο οι διαχειριστές)
+   * **Filter** — Αν πρόκειται για πεδίο τύπου selector, εάν να συμπεριληφθεί ως φίλτρο σε σελίδες διαχείρισης (π.χ. για εγγραφή χρηστών σε μαθήματα ή περιόδους)
+   * **Order** — Αν θέλετε να διαχειριστείτε τη σειρά εμφάνισης των πεδίων, δώστε αριθμητική σειρά σε κάθε πεδίο
+   * **Remove on anonymization** — Σημαντικό για κανόνες και νόμους απορρήτου: Αν ο χρήστης ανωνυμοποιηθεί αλλά δεν διαγραφεί, πρέπει αυτό το πεδίο να θεωρηθεί πιθανός φορέας προσωπικά ταυτοποιήσιμων δεδομένων; 
+4. Αποθήκευση
 
-## Field Types
+## Τύποι Πεδίων
 
-The extra-field engine supports a broad set of input types. Common ones include:
+Ο κινητήρας επιπλέον πεδίων υποστηρίζει ευρεία γκάμα τύπων εισόδου. Οι συνηθισμένοι περιλαμβάνουν:
 
 | Type | Description |
 |------|-------------|
-| **Text** | A single-line text input |
-| **Textarea** | A multi-line text input |
-| **Radio** | A single-choice radio group |
-| **Dropdown / Dropdown multiple** | A list of predefined options (single or multi-select) |
-| **Double select** | Two dependent dropdowns (e.g., country → city) |
-| **Checkbox** | A yes/no toggle |
-| **Date / Date and time** | Date or date+time picker |
-| **Integer** | A numeric input |
-| **Tag** | Multiple free-form tag values |
-| **File** | File upload field |
-| **Video URL** | A URL pointing to a video |
-| **Mobile phone number** | A formatted phone number field |
-| **Timezone** | A timezone picker |
-| **Social profile** | A link to a social network profile |
-| **Divider** | A visual separator inside the form (no value) |
+| **Text** | Μονής γραμμής είσοδος κειμένου |
+| **Textarea** | Πολλαπλών γραμμών είσοδος κειμένου |
+| **Radio** | Ομάδα radio μονής επιλογής |
+| **Dropdown / Dropdown multiple** | Λίστα προκαθορισμένων επιλογών (μονή ή πολλαπλή επιλογή) |
+| **Double select** | Δύο εξαρτώμενα dropdown (π.χ. χώρα → πόλη) |
+| **Checkbox** | Διακόπτης ναι/όχι |
+| **Date / Date and time** | Επιλογέας ημερομηνίας ή ημερομηνίας+ώρας |
+| **Integer** | Είσοδος αριθμητική |
+| **Tag** | Πολλαπλές ελεύθερες τιμές ετικετών |
+| **File** | Πεδίο ανεβάσματος αρχείου |
+| **Video URL** | URL που δείχνει σε βίντεο |
+| **Mobile phone number** | Μορφοποιημένο πεδίο αριθμού κινητού τηλεφώνου |
+| **Timezone** | Επιλογέας ζώνης ώρας |
+| **Social profile** | Σύνδεσμος σε προφίλ κοινωνικού δικτύου |
+| **Divider** | Οπτικός διαχωριστής μέσα στη φόρμα (χωρίς τιμή) |
 
-The exact set of usable types depends on the Chamilo version; the field-type dropdown in the **Extra fields** admin page is the source of truth.
+Το ακριβές σύνολο διαθέσιμων τύπων εξαρτάται από την έκδοση του Chamilo· το dropdown τύπου πεδίου στη σελίδα διαχείρισης **Extra fields** είναι η πηγή αλήθειας.
 
-## Using Extra Fields
+## Χρήση Επιπλέον Πεδίων
 
-Extra fields appear:
+Τα επιπλέον πεδία εμφανίζονται:
 
-* In the user creation (if visible to self) and edit forms
-* On user profile pages (if visible to self)
-* In user imports (you can include extra field values in CSV imports)
-* In exports and reports (filter or group by extra field values)
+* Στις φόρμες δημιουργίας (αν ορατά στον εαυτό) και επεξεργασίας χρήστη
+* Στις σελίδες προφίλ χρήστη (αν ορατά στον εαυτό)
+* Στις εισαγωγές χρηστών (μπορείτε να συμπεριλάβετε τιμές επιπλέον πεδίων σε εισαγωγές CSV)
+* Στις εξαγωγές και αναφορές (φιλτράρισμα ή ομαδοποίηση βάσει τιμών επιπλέον πεδίων)
 
-## Tips
+## Συμβουλές
 
-* **Plan before creating** — Define what information you need before creating fields, as changing field types after data has been entered can be problematic
-* **Use dropdowns for consistency** — When a field has a known set of possible values, use a dropdown instead of free text to ensure data consistency
-* **Use for reporting** — Extra fields are useful for filtering reports (e.g., "show all users in Department X who completed Training Y")
+* **Σχεδιάστε πριν δημιουργήσετε** — Ορίστε ποιες πληροφορίες χρειάζεστε πριν δημιουργήσετε πεδία, καθώς η αλλαγή τύπων πεδίων μετά την εισαγωγή δεδομένων μπορεί να είναι προβληματική
+* **Χρησιμοποιήστε dropdown για συνέπεια** — Όταν ένα πεδίο έχει γνωστό σύνολο πιθανών τιμών, χρησιμοποιήστε dropdown αντί ελεύθερο κείμενο για να εξασφαλίσετε συνέπεια δεδομένων
+* **Χρησιμοποιήστε για αναφορές** — Τα επιπλέον πεδία είναι χρήσιμα για φιλτράρισμα αναφορών (π.χ. "εμφάνιση όλων των χρηστών του Τμήματος X που ολοκλήρωσαν την Εκπαίδευση Y")

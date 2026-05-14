@@ -1,46 +1,46 @@
 # Blog
 
-The blog tool lets you create a shared blog within your course. Learners can write posts, leave comments, and engage in structured writing activities.
+Το εργαλείο blog σας επιτρέπει να δημιουργήσετε ένα κοινόχρηστο blog εντός του μαθήματός σας. Οι μαθητές μπορούν να γράφουν αναρτήσεις, να αφήνουν σχόλια και να συμμετέχουν σε δομημένες δραστηριότητες γραφής.
 
-## Creating a Blog
+## Δημιουργία Blog
 
-1. Open the **Blog** tool from the course homepage (under the cog icon at the top)
-2. Click **New project**
-3. Enter a **title** and optional subtitle
-4. Save
-5. Decide when you want to make it available to students by clicking the **Show** (eye) icon
+1. Ανοίξτε το εργαλείο **Blog** από την αρχική σελίδα του μαθήματος (κάτω από το εικονίδιο γραναζιού στην κορυφή)
+2. Κάντε κλικ στο **New project**
+3. Εισαγάγετε έναν **τίτλο** και προαιρετικό υπότιτλο
+4. Αποθηκεύστε
+5. Αποφασίστε πότε θέλετε να το κάνετε διαθέσιμο στους μαθητές κάνοντας κλικ στο εικονίδιο **Show** (μάτι)
 
-You can create multiple blogs within a single course (e.g., one per topic or one per group).
+Μπορείτε να δημιουργήσετε πολλαπλά blogs εντός ενός μαθήματος (π.χ., ένα ανά θέμα ή ένα ανά ομάδα).
 
-## Writing Blog Posts
+## Γράψιμο Αναρτήσεων Blog
 
-1. Open a blog
-2. Click **New post**
-3. Enter a **title** and write the post content using the rich-text editor
-4. Save
+1. Ανοίξτε ένα blog
+2. Κάντε κλικ στο **New post**
+3. Εισαγάγετε έναν **τίτλο** και γράψτε το περιεχόμενο της ανάρτησης χρησιμοποιώντας τον επεξεργαστή πλούσιου κειμένου
+4. Αποθηκεύστε
 
-Both teachers and learners (depending on permissions) can create posts.
+Και οι διδάσκοντες και οι μαθητές (ανάλογα με τα δικαιώματα) μπορούν να δημιουργούν αναρτήσεις.
 
-## Comments and Ratings
+## Σχόλια και Βαθμολογίες
 
-Readers can interact with blog posts through:
+Οι αναγνώστες μπορούν να αλληλεπιδρούν με τις αναρτήσεις blog μέσω:
 
-* **Comments** — Leave feedback or start a discussion under a post (comments can also be threaded as replies to other comments)
-* **Ratings** — Rate posts to highlight the most valued contributions
-* **Attachments** — Both posts and comments can carry file attachments
+* **Σχόλια** — Αφήστε ανατροφοδότηση ή ξεκινήστε μια συζήτηση κάτω από μια ανάρτηση (τα σχόλια μπορούν επίσης να είναι διακεκαυμένα ως απαντήσεις σε άλλα σχόλια)
+* **Βαθμολογίες** — Βαθμολογήστε αναρτήσεις για να αναδείξετε τις πιο αξιόλογες συνεισφορές
+* **Επισυναπτόμενα** — Και οι αναρτήσεις και τα σχόλια μπορούν να περιέχουν επισυναπτόμενα αρχεία
 
-## Blog Tasks
+## Εργασίες Blog
 
-You can create **tasks** within a blog — specific writing assignments that learners must complete as blog posts. This is useful for:
+Μπορείτε να δημιουργήσετε **tasks** εντός ενός blog — συγκεκριμένες γραπτές εργασίες που οι μαθητές πρέπει να ολοκληρώσουν ως αναρτήσεις blog. Αυτό είναι χρήσιμο για:
 
-* Reflective journals
-* Weekly writing assignments
-* Project update reports
+* Ημερολόγια αναστοχασμού
+* Εβδομαδιαίες γραπτές εργασίες
+* Αναφορές ενημέρωσης έργου
 
-## Managing the Blog
+## Διαχείριση του Blog
 
-As the teacher, you can:
+Ως διδάσκων, μπορείτε να:
 
-* **Edit or delete** posts and comments (post deletion is restricted to the post author or to teachers)
-* **Toggle blog visibility** to show or hide the blog from learners
-* **Define tasks** — Add specific writing assignments learners are expected to complete as posts. Tasks can be color-coded for easier visual grouping.
+* **Επεξεργαστείτε ή διαγράψετε** αναρτήσεις και σχόλια (η διαγραφή ανάρτησης περιορίζεται στον συγγραφέα της ανάρτησης ή στους διδάσκοντες)
+* **Εναλλάξετε την ορατότητα του blog** για να εμφανίσετε ή να αποκρύψετε το blog από τους μαθητές
+* **Ορίσετε tasks** — Προσθέστε συγκεκριμένες γραπτές εργασίες που αναμένεται να ολοκληρώσουν οι μαθητές ως αναρτήσεις. Οι εργασίες μπορούν να κωδικοποιηθούν με χρώματα για ευκολότερη οπτική ομαδοποίηση.

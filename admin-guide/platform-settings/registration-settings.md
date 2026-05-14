@@ -1,110 +1,110 @@
-# Registration Settings
+# Ρυθμίσεις Εγγραφής
 
-Self-registration policy and post-registration redirects — what new users are asked for and where they land.
+Πολιτική αυτο-εγγραφής και ανακατευθύνσεις μετά την εγγραφή — τι ζητείται από τους νέους χρήστες και πού προσγειώνονται.
 
-Access these settings under **Administration > Configuration settings > Registration**. This category contains **20 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+Πρόσβαση σε αυτές τις ρυθμίσεις στο **Administration > Configuration settings > Registration**. Αυτή η κατηγορία περιέχει **20 ρυθμίσεις**, που παρατίθενται παρακάτω με τον τίτλο και το σχόλιο που παρέχονται στα fixtures των ρυθμίσεων της πλατφόρμας (`SettingsCurrentFixtures.php`).
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> Το όνομα της μεταβλητής στον κώδικα εμφανίζεται σε monospace. Χρησιμοποιήστε το όταν προγραμματίζετε μέσω του API ή όταν χρειάζεται να αλλάξετε αυτές τις ρυθμίσεις σε παγκόσμιο επίπεδο επεξεργαζόμενοι το [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
 
-## Settings
+## Ρυθμίσεις
 
 ### `allow_double_validation_in_registration`
 
-**Double validation for registration process**
+**Διπλή επικύρωση για τη διαδικασία εγγραφής**
 
-Simply display a confirmation request on the registration page before going forward with the user creation.
+Εμφανίζει απλώς ένα αίτημα επιβεβαίωσης στη σελίδα εγγραφής πριν προχωρήσει στη δημιουργία του χρήστη.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 
 ### `allow_fields_inscription`
 
-**Restrict fields shown during registration**
+**Περιορισμός πεδίων που εμφανίζονται κατά την εγγραφή**
 
-If you only want to show some of the available profile field, your can complete the array here with sub-elements 'fields' and 'extra_fields' containing arrays with a list of the fields to show.
+Αν θέλετε να εμφανίζετε μόνο ορισμένα από τα διαθέσιμα πεδία προφίλ, μπορείτε να συμπληρώσετε εδώ έναν πίνακα με υπο-στοιχεία 'fields' και 'extra_fields' που περιέχουν πίνακες με λίστα των πεδίων που θα εμφανιστούν.
 
 ### `allow_lostpassword`
 
-**Lost password**
+**Χαμένη κωδικός πρόσβασης**
 
-Are users allowed to request their lost password?
+Επιτρέπεται στους χρήστες να ζητούν τον χαμένο κωδικό πρόσβασης τους;
 
-*Default: `true`*
+*Προεπιλογή: `true`*
 
 ### `allow_registration`
 
-**Registration**
+**Εγγραφή**
 
-Is registration as a new user allowed? Can users create new accounts?
+Επιτρέπεται η εγγραφή ως νέος χρήστης; Μπορούν οι χρήστες να δημιουργούν νέους λογαριασμούς;
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 ### `allow_registration_as_teacher`
 
-**Registration as teacher**
+**Εγγραφή ως εκπαιδευτικός**
 
-Can one register as a teacher (with the ability to create courses)?
+Μπορεί κάποιος να εγγραφεί ως εκπαιδευτικός (με τη δυνατότητα δημιουργίας μαθημάτων);
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 ### `allow_terms_conditions`
 
-**Enable terms and conditions**
+**Ενεργοποίηση όρων και προϋποθέσεων**
 
-This option will display the Terms and Conditions in the register form for new users. Need to be configured first in the portal administration page.
+Αυτή η επιλογή θα εμφανίσει τους Όρους και Προϋποθέσεις στη φόρμα εγγραφής για νέους χρήστες. Πρέπει να ρυθμιστεί πρώτα στη σελίδα διαχείρισης του πύλη.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 
 ### `drh_autosubscribe`
 
-**Human resources director autosubscribe**
+**Αυτόματη εγγραφή διευθυντή ανθρώπινων πόρων**
 
-Human resources director autosubscribe - not yet available
+Αυτόματη εγγραφή διευθυντή ανθρώπινων πόρων - δεν είναι ακόμη διαθέσιμο
 
 ### `extendedprofile_registration`
 
-**Portfolio fields at registration**
+**Πεδία portfolio κατά την εγγραφή**
 
-Which of the following fields of the portfolio have to be available in the user registration process? This requires that the portfolio option be enabled (see above).
+Ποια από τα παρακάτω πεδία του portfolio πρέπει να είναι διαθέσιμα στη διαδικασία εγγραφής χρήστη; Αυτό απαιτεί η επιλογή portfolio να είναι ενεργοποιημένη (δείτε παραπάνω).
 
 ### `extendedprofile_registrationrequired`
 
-**Required portfolio fields in registration**
+**Υποχρεωτικά πεδία portfolio στην εγγραφή**
 
-Which of the following fields of the portfolio are *required* in the user registration process? This requires that the portfolio option be enabled and that the field be also available in the registration form (see above).
+Ποια από τα παρακάτω πεδία του portfolio είναι *υποχρεωτικά* στη διαδικασία εγγραφής χρήστη; Αυτό απαιτεί η επιλογή portfolio να είναι ενεργοποιημένη και το πεδίο να είναι επίσης διαθέσιμο στη φόρμα εγγραφής (δείτε παραπάνω).
 
 ### `extldap_config`
 
-**LDAP connection configuration**
+**Ρύθμιση σύνδεσης LDAP**
 
-Array defining host and port for the LDAP server.
+Πίνακας που ορίζει host και θύρα για τον διακομιστή LDAP.
 
 ### `hide_legal_accept_checkbox`
 
-**Hide legal accept checkbox in Terms and Conditions page**
+**Απόκρυψη κουτιού ελέγχου αποδοχής νομικών όρων στη σελίδα Όρων και Προϋποθέσεων**
 
-If set to true, removes the "I have read and accept" checkbox in the Terms and Conditions page flow.
+Αν οριστεί σε true, αφαιρεί το κουτί ελέγχου "Έχω διαβάσει και αποδέχομαι" στη ροή της σελίδας Όρων και Προϋποθέσεων.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 
 ### `platform_unsubscribe_allowed`
 
-**Allow unsubscription from platform**
+**Επιτρέψτε την απεγγραφή από την πλατφόρμα**
 
-By enabling this option, you allow any user to definitively remove his own account and all data related to it from the platform. This is quite a radical action, but it is necessary for portals opened to the public where users can auto-register. An additional entry will appear in the user profile to unsubscribe after confirmation.
+Ενεργοποιώντας αυτή την επιλογή, επιτρέπετε σε οποιονδήποτε χρήστη να διαγράψει οριστικά τον δικό του λογαριασμό και όλα τα σχετικά δεδομένα από την πλατφόρμα. Αυτή είναι αρκετά ριζική ενέργεια, αλλά είναι απαραίτητη για πύλες ανοιχτές στο κοινό όπου οι χρήστες μπορούν να αυτο-εγγράφονται. Θα εμφανιστεί επιπλέον καταχώριση στο προφίλ χρήστη για απεγγραφή μετά από επιβεβαίωση.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 
 ### `redirect_after_login`
 
-**Redirect after login (per profile)**
+**Ανακατεύθυνση μετά την είσοδο (ανά προφίλ)**
 
-Define redirection per profile after login using a JSON object like {"STUDENT":"", "ADMIN":"admin-dashboard"}
+Ορίστε ανακατεύθυνση ανά προφίλ μετά την είσοδο χρησιμοποιώντας αντικείμενο JSON όπως {"STUDENT":"", "ADMIN":"admin-dashboard"}
 
-*Default:*
+*Προεπιλογή:*
 ```json
 {
   "COURSEMANAGER": "courses",
@@ -119,49 +119,47 @@ Define redirection per profile after login using a JSON object like {"STUDENT":"
 
 ### `required_extra_fields_in_inscription`
 
-**Required extra fields during registration**
+**Υποχρεωτικά επιπλέον πεδία κατά την εγγραφή**
 
-Array of extra field identifiers that must be completed during user registration.
+Πίνακας αναγνωριστικών επιπλέον πεδίων που πρέπει να συμπληρωθούν κατά την εγγραφή χρήστη.
 
 ### `required_profile_fields`
 
-**Required fields during registration**
+**Υποχρεωτικά πεδία κατά την εγγραφή**
 
-Array of profile field names (email, phone, language, official_code) that must be provided during registration.
+Πίνακας ονομάτων πεδίων προφίλ (email, phone, language, official_code) που πρέπει να παρέχονται κατά την εγγραφή.
 
 ### `send_inscription_msg_to_inbox`
 
-**Send the welcome message to e-mail and inbox**
+**Αποστολή μηνύματος καλωσορίσματος σε email και inbox**
 
-By default, the welcome message (with credentials) is sent only by e-mail. Enable this option to send it to the user's Chamilo inbox as well.
+Εξ ορισμού, το μήνυμα καλωσορίσματος (με διαπιστευτήρια) αποστέλλεται μόνο μέσω email. Ενεργοποιήστε αυτή την επιλογή για να αποσταλεί επίσης στο inbox του Chamilo του χρήστη.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 
 ### `sessionadmin_autosubscribe`
 
-**Session admin autosubscribe**
+**Αυτόματη εγγραφή διαχειριστή συνεδρίας**
 
-Session administrator autosubscribe - not available yet
+Αυτόματη εγγραφή διαχειριστή συνεδρίας - δεν είναι ακόμη διαθέσιμο
 
 ### `student_autosubscribe`
 
-**Learner autosubscribe**
+**Αυτόματη εγγραφή εκπαιδευομένου**
 
-Learner autosubscribe - not yet available
+Αυτόματη εγγραφή εκπαιδευομένου - δεν είναι ακόμη διαθέσιμο
 
 ### `teacher_autosubscribe`
 
-**Teacher autosubscribe**
+**Αυτόματη εγγραφή εκπαιδευτικού**
 
-Teacher autosubscribe - not yet available
+Αυτόματη εγγραφή εκπαιδευτικού - δεν είναι ακόμη διαθέσιμο
 
 ### `user_hide_never_expire_option`
 
-**Hide 'never expires' option for users**
+**Απόκρυψη επιλογής 'ποτέ δεν λήγει' για χρήστες**
 
-Remove the option 'never expires' when creating/editing a user account.
+Αφαίρεση της επιλογής 'ποτέ δεν λήγει' κατά τη δημιουργία/επεξεργασία λογαριασμού χρήστη.
 
-*Default: `false`*
-
-
+*Προεπιλογή: `false`*

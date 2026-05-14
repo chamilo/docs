@@ -1,120 +1,118 @@
-# Skills Settings
+# Ρυθμίσεις Δεξιοτήτων
 
-Behaviour of the **Skills** system — skills tree, awarding rules, profile integration.
+Συμπεριφορά του συστήματος **Skills** — δέντρο δεξιοτήτων, κανόνες απονομής, ενσωμάτωση προφίλ.
 
-Access these settings under **Administration > Configuration settings > Skills**. This category contains **13 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+Πρόσβαση σε αυτές τις ρυθμίσεις στο **Administration > Configuration settings > Skills**. Αυτή η κατηγορία περιέχει **13 ρυθμίσεις**, που παρατίθενται παρακάτω με τον τίτλο και το σχόλιο που παρέχονται στα fixtures των ρυθμίσεων της πλατφόρμας (`SettingsCurrentFixtures.php`).
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> Το όνομα της μεταβλητής στον κώδικα εμφανίζεται σε monospace. Χρησιμοποιήστε το όταν προγραμματίζετε μέσω του API ή όταν χρειάζεται να αλλάξετε αυτές τις ρυθμίσεις σε παγκόσμιο επίπεδο επεξεργαζόμενοι το [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
 
-## Settings
+## Ρυθμίσεις
 
 ### `allow_hr_skills_management`
 
-**Allow HR skills management**
+**Επιτρέψτε τη διαχείριση δεξιοτήτων HR**
 
-Allows HR to manage skills
+Επιτρέπει στο HR να διαχειρίζεται δεξιότητες
 
-*Default: `true`*
+*Προεπιλογή: `true`*
 
 
 ### `allow_private_skills`
 
-**Hide skills from learners**
+**Απόκρυψη δεξιοτήτων από εκπαιδευόμενους**
 
-If enabled, skills can only be visible for admins, teachers (related to a user via a course), and HRM users (if related to a user).
+Εάν είναι ενεργοποιημένη, οι δεξιότητες είναι ορατές μόνο σε διαχειριστές, καθηγητές (σχετιζόμενους με χρήστη μέσω μαθήματος) και χρήστες HRM (εάν σχετίζονται με χρήστη).
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 
 ### `allow_skill_rel_items`
 
-**Enable linking skills to items**
+**Ενεργοποίηση σύνδεσης δεξιοτήτων με αντικείμενα**
 
-This enables a major feature that enables any item to be linked to (and as such to allow acquisition of) a skill. The feature still requires the teacher to confirm the acquisition of the skill, so the acquisition is not automatic.
+Αυτό ενεργοποιεί μια βασική λειτουργία που επιτρέπει σε οποιοδήποτε αντικείμενο να συνδεθεί με (και επομένως να επιτρέψει την απόκτηση) μιας δεξιότητας. Η λειτουργία εξακολουθεί να απαιτεί από τον καθηγητή να επιβεβαιώσει την απόκτηση της δεξιότητας, οπότε η απόκτηση δεν είναι αυτόματη.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 
 ### `allow_skills_tool`
 
-**Allow Skills tool**
+**Επιτρέψτε το εργαλείο Skills**
 
-Users can see their skills in the social network and in a block in the homepage.
+Οι χρήστες μπορούν να βλέπουν τις δεξιότητές τους στο κοινωνικό δίκτυο και σε ένα μπλοκ στην αρχική σελίδα.
 
-*Default: `true`*
+*Προεπιλογή: `true`*
 
 ### `allow_teacher_access_student_skills`
 
-**Allow teachers to access learners' skills**
+**Επιτρέψτε στους καθηγητές την πρόσβαση σε δεξιότητες εκπαιδευόμενων**
 
-[inferred] Allow instructors to view and monitor skills acquired by learners in their courses.
+[inferred] Επιτρέπει στους διδάσκοντες να βλέπουν και να παρακολουθούν δεξιότητες που έχουν αποκτήσει εκπαιδευόμενοι στα μαθήματά τους.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 
 ### `badge_assignation_notification`
 
-**Send notification to learner when a skill/badge has been acquired**
+**Αποστολή ειδοποίησης σε εκπαιδευόμενο όταν αποκτάται δεξιότητα/badge**
 
-[inferred] Send notifications to learners when they acquire a new skill or badge achievement.
+[inferred] Αποστολή ειδοποιήσεων σε εκπαιδευόμενους όταν αποκτούν νέα δεξιότητα ή επίτευξη badge.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 
 ### `hide_skill_levels`
 
-**Hide skill levels feature**
+**Απόκρυψη λειτουργίας επιπέδων δεξιοτήτων**
 
-[inferred] Conceal the skill level hierarchy and level labels in skill-related views.
+[inferred] Απόκρυψη της ιεραρχίας επιπέδων δεξιοτήτων και ετικετών επιπέδων σε προβολές σχετικές με δεξιότητες.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 
 ### `manual_assignment_subskill_autoload`
 
-**Assigning skills to user: sub-skills auto-loading**
+**Ανάθεση δεξιοτήτων σε χρήστη: αυτόματη φόρτωση υπο-δεξιοτήτων**
 
-When manually assigning skills to a user, the form can be set to automatically offer you to assign a sub-skill instead of the skill you selected.
+Κατά την χειροκίνητη ανάθεση δεξιοτήτων σε χρήστη, η φόρμα μπορεί να ρυθμιστεί ώστε να σας προτείνει αυτόματα την ανάθεση υπο-δεξιότητας αντί της επιλεγμένης δεξιότητας.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 
 ### `openbadges_backpack`
 
 **OpenBadges backpack URL**
 
-The URL of the OpenBadges backpack server that will be used by default for all users wanting to export their badges. This defaults to the open and free Mozilla Foundation backpack repository: https://backpack.openbadges.org/
+Το URL του διακομιστή OpenBadges backpack που θα χρησιμοποιηθεί από προεπιλογή για όλους τους χρήστες που θέλουν να εξάγουν τα badges τους. Αυτό προεπιλεγμένα είναι η ανοιχτή και δωρεάν αποθήκη backpack της Mozilla Foundation: https://backpack.openbadges.org/
 
 ### `show_full_skill_name_on_skill_wheel`
 
-**Show full skill name on skill wheel**
+**Εμφάνιση πλήρους ονόματος δεξιότητας στον τροχό δεξιοτήτων**
 
-On the wheel of skills, it shows the name of the skill when it has short code.
+Στον τροχό δεξιοτήτων, εμφανίζει το όνομα της δεξιότητας όταν έχει σύντομο κώδικα.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 
 ### `skill_levels_names`
 
-**Skill levels names**
+**Ονόματα επιπέδων δεξιοτήτων**
 
-Define names for levels of skills as an array of id => name.
+Ορισμός ονομάτων για επίπεδα δεξιοτήτων ως πίνακας id => name.
 
 ### `skills_hierarchical_view_in_user_tracking`
 
-**Show skills as a hierarchical table**
+**Εμφάνιση δεξιοτήτων ως ιεραρχικός πίνακας**
 
-[inferred] Display learner skills as a hierarchical tree structure in progress and reporting pages.
+[inferred] Εμφάνιση δεξιοτήτων εκπαιδευόμενου ως ιεραρχική δομή δέντρου σε σελίδες προόδου και αναφορών.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 
 ### `skills_teachers_can_assign_skills`
 
-**Allow teachers to set which skills are acquired through their courses**
+**Επιτρέψτε στους καθηγητές να ορίζουν ποιες δεξιότητες αποκτώνται μέσω των μαθημάτων τους**
 
-By default, only admins can decide which skills can be acquired through which course.
+Από προεπιλογή, μόνο οι διαχειριστές μπορούν να αποφασίζουν ποιες δεξιότητες μπορούν να αποκτηθούν μέσω ποιου μαθήματος.
 
-*Default: `false`*
-
-
+*Προεπιλογή: `false`*

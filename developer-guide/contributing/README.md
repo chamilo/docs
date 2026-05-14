@@ -1,7 +1,7 @@
-# Contributing
+# Συνεισφορά
 
-Chamilo is an open-source project that welcomes contributions. This section covers how to contribute effectively.
+Το Chamilo είναι ένα έργο ανοιχτού κώδικα που καλωσορίζει τις συνεισφορές. Αυτή η ενότητα καλύπτει τον τρόπο συνεισφοράς με αποτελεσματικότητα.
 
-* **[Coding Conventions](coding-conventions.md)** — Code style and standards
-* **[Git Workflow](git-workflow.md)** — Branching, commits, and pull requests
-* **[Testing](testing.md)** — Testing strategy and tools
+* **[Coding Conventions](coding-conventions.md)** — Στυλ κώδικα και πρότυπα
+* **[Git Workflow](git-workflow.md)** — Διακλάδωση, commits και pull requests
+* **[Testing](testing.md)** — Στρατηγική δοκιμών και εργαλεία

@@ -1,13 +1,13 @@
-# Assessing Learners
+# Αξιολόγηση Μαθητών
 
-Chamilo provides a comprehensive set of tools for evaluating your learners' knowledge and tracking their performance.
+Το Chamilo παρέχει ένα ολοκληρωμένο σύνολο εργαλείων για την αξιολόγηση των γνώσεων των μαθητών σας και την παρακολούθηση της απόδοσής τους.
 
-* **[Exercises](exercises.md)** — Create quizzes and tests with a variety of question types, automatic grading, and detailed feedback
-* **[Assignments](assignments.md)** — Collect homework and projects from learners, with support for file uploads, peer review, and manual or AI-assisted grading
-* **[Surveys](surveys.md)** — Gather feedback from learners through customizable questionnaires
-* **[Attendance](attendance.md)** — Track learner presence in class sessions
-* **[Gradebook](gradebook.md)** — Combine scores from exercises, assignments, and other activities into a unified grade, and award certificates
+* **[Exercises](exercises.md)** — Δημιουργήστε κουίζ και τεστ με ποικιλία τύπων ερωτήσεων, αυτόματη βαθμολόγηση και λεπτομερή ανατροφοδότηση
+* **[Assignments](assignments.md)** — Συλλέξτε εργασίες και projects από μαθητές, με υποστήριξη για μεταφορτώσεις αρχείων, peer review και χειροκίνητη ή AI-assisted βαθμολόγηση
+* **[Surveys](surveys.md)** — Συλλέξτε ανατροφοδότηση από μαθητές μέσω προσαρμόσιμων ερωτηματολογίων
+* **[Attendance](attendance.md)** — Παρακολουθήστε την παρουσία μαθητών σε συνεδρίες μαθημάτων
+* **[Gradebook](gradebook.md)** — Συνδυάστε βαθμούς από exercises, assignments και άλλες δραστηριότητες σε έναν ενιαίο βαθμό, και απονείμετε πιστοποιητικά
 
-The **Reporting** tool is still present but moved to the top of the course homepage for the teacher, as a small chart icon. This is the central place to access progress information for the whole course and its students.
+Το εργαλείο **Reporting** εξακολουθεί να υπάρχει αλλά μετακινήθηκε στην κορυφή της αρχικής σελίδας του μαθήματος για τον δάσκαλο, ως ένα μικρό εικονίδιο γραφήματος. Αυτό είναι το κεντρικό μέρος για πρόσβαση σε πληροφορίες προόδου για ολόκληρο το μάθημα και τους μαθητές του.
 
-These tools work together: exercise scores and assignment grades can feed into the Gradebook, which can be linked to certificate generation and skill validation.
+Αυτά τα εργαλεία λειτουργούν μαζί: βαθμοί από exercises και grades από assignments μπορούν να τροφοδοτήσουν το Gradebook, το οποίο μπορεί να συνδεθεί με τη δημιουργία πιστοποιητικών και την επικύρωση δεξιοτήτων.

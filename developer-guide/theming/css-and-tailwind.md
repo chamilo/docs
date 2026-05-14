@@ -1,28 +1,28 @@
-# CSS and Tailwind
+# CSS και Tailwind
 
-## Stylesheet Architecture
+## Αρχιτεκτονική Φύλλων Στυλ
 
-Chamilo's styles are layered in this order:
+Τα στυλ του Chamilo είναι ταξινομημένα σε αυτήν τη σειρά:
 
-1. **Tailwind CSS** — Utility classes for layout, spacing, and color. Configured with `important: true` so utilities override PrimeVue component defaults.
-2. **SCSS** — Custom styles in `assets/css/scss/`, organized into atoms, molecules, organisms, layout, and components layers.
-3. **PrimeVue component styles** — Overridden per-component inside `assets/css/scss/atoms/`.
-4. **Theme `colors.css`** — CSS custom properties for the active color theme, loaded last so they cascade over everything else.
+1. **Tailwind CSS** — Κλάσεις χρησιμότητας για διάταξη, απόσταση και χρώμα. Ρυθμισμένο με `important: true` ώστε οι χρησιμότητες να παρακάμπτουν τις προεπιλεγμένες ρυθμίσεις των στοιχείων PrimeVue.
+2. **SCSS** — Προσαρμοσμένα στυλ στο `assets/css/scss/`, οργανωμένα σε επίπεδα atoms, molecules, organisms, layout και components.
+3. **Στυλ στοιχείων PrimeVue** — Παρακώλυση ανά στοιχείο στο `assets/css/scss/atoms/`.
+4. **Theme `colors.css`** — Ιδιότητες CSS προσαρμοσμένες για το ενεργό χρωματικό θέμα, φορτώνονται τελευταίες ώστε να εφαρμόζονται πάνω από όλα τα υπόλοιπα.
 
-PrimeFlex is listed in `package.json` but is not imported — Tailwind covers all utility needs.
+Το PrimeFlex αναφέρεται στο `package.json` αλλά δεν εισάγεται — το Tailwind καλύπτει όλες τις ανάγκες χρησιμοτήτων.
 
-## Main Stylesheet (`assets/css/app.scss`)
+## Κύριο Φύλλο Στυλ (`assets/css/app.scss`)
 
-`app.scss` is the Webpack entry point for the main stylesheet. It imports:
+Το `app.scss` είναι το σημείο εισόδου Webpack για το κύριο φύλλο στυλ. Εισάγει:
 
-1. `_tailwind.scss` — Tailwind's `@tailwind base / components / utilities` directives
-2. `scss/index.scss` — Barrel file that imports all SCSS partials
-3. Third-party CSS (cropper, select2, daterangepicker, TinyMCE skin, fancybox, timepicker, qtip)
-4. `editor_content.scss` — Styles injected into the TinyMCE editor iframe body
+1. `_tailwind.scss` — Οδηγίες `@tailwind base / components / utilities` του Tailwind
+2. `scss/index.scss` — Barrel αρχείο που εισάγει όλα τα μερικά SCSS
+3. CSS τρίτων (`cropper`, `select2`, `daterangepicker`, TinyMCE skin, `fancybox`, `timepicker`, `qtip`)
+4. `editor_content.scss` — Στυλ που εγχέονται στο σώμα του iframe του TinyMCE editor
 
-## Tailwind Configuration (`tailwind.config.js`)
+## Ρύθμιση Tailwind (`tailwind.config.js`)
 
-Key settings:
+Κύριες ρυθμίσεις:
 
 ```javascript
 module.exports = {
@@ -37,11 +37,11 @@ module.exports = {
 }
 ```
 
-Content paths scan Vue components, legacy PHP pages, plugin files, and Twig templates so unused utilities are purged on production builds.
+Οι διαδρομές περιεχομένου σαρώνουν στοιχεία Vue, παλιές σελίδες PHP, αρχεία πρόσθετων και πρότυπα Twig ώστε οι μη χρησιμοποιούμενες χρησιμότητες να αφαιρούνται στις παραγωγικές κατασκευές.
 
-### CSS-Variable Color System
+### Σύστημα Χρωμάτων CSS-Variable
 
-All color tokens are backed by CSS custom properties rather than hardcoded values:
+Όλα τα χρωματικά tokens υποστηρίζονται από ιδιότητες CSS προσαρμοσμένες αντί για hardcoded τιμές:
 
 ```javascript
 theme: {
@@ -56,18 +56,18 @@ theme: {
 }
 ```
 
-The `colorWithOpacity` helper emits `rgb(var(--color-primary-base) / <opacity>)`, enabling opacity variants such as `bg-primary/50`. The actual RGB values are defined per theme in `var/themes/{slug}/colors.css` and loaded at runtime — see [Color Themes](color-themes.md).
+Ο βοηθός `colorWithOpacity` παράγει `rgb(var(--color-primary-base) / <opacity>)`, ενεργοποιώντας παραλλαγές αδιαφανούς όπως `bg-primary/50`. Οι πραγματικές τιμές RGB ορίζονται ανά θέμα στο `var/themes/{slug}/colors.css` και φορτώνονται κατά την εκτέλεση — βλ. [Color Themes](color-themes.md).
 
-### Tailwind Plugins
+### Πρόσθετα Tailwind
 
-`@tailwindcss/forms` and `@tailwindcss/typography` are enabled.
+Ενεργοποιημένα τα `@tailwindcss/forms` και `@tailwindcss/typography`.
 
-### Custom Type Scale
+### Προσαρμοσμένη Κλίμακα Τύπων
 
-Four extra font-size/line-height pairs are added via `theme.extend.fontSize`:
+Προστίθενται τέσσερα επιπλέον ζεύγη μεγέθους γραμματοσειράς/ύψους γραμμής μέσω `theme.extend.fontSize`:
 
-| Class | Size / Line-height |
-|-------|--------------------|
+| Κλάση | Μέγεθος / Ύψος γραμμής |
+|-------|------------------------|
 | `text-body-1` | 16px / 24px |
 | `text-body-2` | 14px / 16px |
 | `text-caption` | 13px / 16px |
@@ -75,23 +75,23 @@ Four extra font-size/line-height pairs are added via `theme.extend.fontSize`:
 
 ## PostCSS
 
-PostCSS (Tailwind + Autoprefixer) is configured inline inside `webpack.config.js` via `enablePostCssLoader()`. There is no standalone `postcss.config.js` file.
+Το PostCSS (Tailwind + Autoprefixer) ρυθμίζεται εν σειρά μέσα στο `webpack.config.js` μέσω `enablePostCssLoader()`. Δεν υπάρχει ανεξάρτητο αρχείο `postcss.config.js`.
 
-## Specialized Stylesheets
+## Ειδικευμένα Φύλλα Στυλ
 
-| File | Webpack entry | Purpose |
-|------|--------------|---------|
-| `assets/css/app.scss` | `app` | Main application styles |
-| `assets/css/chat.scss` | `css/chat` | Chat interface styles |
-| `assets/css/document.scss` | `css/document` | Document viewer styles |
-| `assets/css/editor.scss` | `css/editor` | TinyMCE editor shell styles |
-| `assets/css/editor_content.scss` | `css/editor_content` | Styles injected into the editor iframe body |
-| `assets/css/markdown.scss` | `css/markdown` | Markdown-rendered content |
-| `assets/css/print.scss` | `css/print` | Print stylesheet |
-| `assets/css/responsive.scss` | `css/responsive` | Responsive overrides |
-| `assets/css/scorm.scss` | `css/scorm` | SCORM player styles |
+| Αρχείο | Σημείο εισόδου Webpack | Σκοπός |
+|--------|------------------------|--------|
+| `assets/css/app.scss` | `app` | Κύρια στυλ εφαρμογής |
+| `assets/css/chat.scss` | `css/chat` | Στυλ διεπαφής συνομιλίας |
+| `assets/css/document.scss` | `css/document` | Στυλ προβολής εγγράφων |
+| `assets/css/editor.scss` | `css/editor` | Στυλ κελύφους TinyMCE editor |
+| `assets/css/editor_content.scss` | `css/editor_content` | Στυλ εγχυμένα στο σώμα του iframe του editor |
+| `assets/css/markdown.scss` | `css/markdown` | Περιεχόμενο Markdown-rendered |
+| `assets/css/print.scss` | `css/print` | Φύλλο στυλ εκτύπωσης |
+| `assets/css/responsive.scss` | `css/responsive` | Παρακώλυση responsive |
+| `assets/css/scorm.scss` | `css/scorm` | Στυλ αναπαραγωγού SCORM |
 
-## SCSS Module Structure (`assets/css/scss/`)
+## Δομή Μодуλων SCSS (`assets/css/scss/`)
 
 ```
 scss/
@@ -106,7 +106,7 @@ scss/
 └── libs/             # Third-party overrides (FullCalendar, MediaElement.js)
 ```
 
-## Using Tailwind in Vue Components
+## Χρήση Tailwind σε Στοιχεία Vue
 
 ```vue
 <template>
@@ -116,4 +116,4 @@ scss/
 </template>
 ```
 
-Because `important: true` is set in `tailwind.config.js`, Tailwind utilities reliably override PrimeVue component styles without needing extra specificity.
+Επειδή ορίζεται `important: true` στο `tailwind.config.js`, οι χρησιμότητες Tailwind παρακάμπτουν αξιόπιστα τα στυλ στοιχείων PrimeVue χωρίς να απαιτείται επιπλέον ειδικότητα.

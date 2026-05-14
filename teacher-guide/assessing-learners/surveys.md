@@ -1,85 +1,88 @@
-# Surveys
+# Ερωτηματολόγια
 
-The survey tool lets you create questionnaires to collect feedback from your learners. Surveys are useful for course evaluations, needs assessments, and opinion polls.
+Η εργαλειοθήκη Ερωτηματολογίων επιτρέπει τη δημιουργία ερωτηματολογίων για τη συλλογή σχολίων από τους εκπαιδευομένους σας. Τα ερωτηματολόγια είναι χρήσιμα για την αξιολόγηση μαθημάτων, την εκτίμηση αναγκών και δημοσκοπήσεις.
 
-## Creating a Survey
+## Δημιουργία ερωτηματολογίου
 
-1. Open the **Surveys** <img src="/.gitbook/assets/icons/mdi-form-dropdown.svg" alt="Surveys" data-size="line"> tool from the course homepage
-2. Click **Create survey**
-3. Fill in the survey details:
-   * **Code** — This is a unique code for the survey. It will be used in mails and links.
-   * **Title** — The name of the survey
-   * **Subtitle** — An optional secondary heading
-   * **Start date** — From when this survey will be open to participation
-   * **End date** — Until when this survey will be open to participation
-   * **Anonymous** — Whether responses are anonymous or linked to individual learners
-   * **Results visibility** — Who can see the results (only coach, coach and students, everyone)
-   * **Introduction** — A message shown to learners before they start the survey
-   * **Thank you message** — A message shown after submission
-4. Save
+1. Ανοίξτε το εργαλείο **Surveys** <img src="/.gitbook/assets/icons/mdi-form-dropdown.svg" alt="Surveys" data-size="line"> από την κύρια σελίδα του μαθήματος
+2. Κάντε κλικ στο **Create survey**
+3. Συμπληρώστε τις λεπτομέρειες του ερωτηματολογίου:
+   * **Code** — Αυτός είναι ένας μοναδικός κωδικός για το ερωτηματολόγιο. Θα χρησιμοποιηθεί σε email και συνδέσμους.
+   * **Title** — Όνομα του ερωτηματολογίου
+   * **Subtitle** — Προαιρετικός υπότιτλος
+   * **Start date** — Από πότε θα είναι ανοιχτό το ερωτηματολόγιο για συμμετοχή
+   * **End date** — Μέχρι πότε θα είναι ανοιχτό το ερωτηματολόγιο για συμμετοχή
+   * **Anonymous** — Εάν οι απαντήσεις είναι ανώνυμες ή συνδεδεμένες με μεμονωμένους εκπαιδευομένους
+   * **Results visibility** — Ποιος μπορεί να δει τα αποτελέσματα (μόνο ο εκπαιδευτής, εκπαιδευτής και μαθητές, όλοι)
+   * **Introduction** — Μήνυμα που εμφανίζεται στους εκπαιδευομένους πριν ξεκινήσει το ερωτηματολόγιο
+   * **Thank you message** — Μήνυμα που εμφανίζεται μετά την αποστολή
+4. Αποθήκευση
 
-### Advanced settings
+### Προχωρημένες ρυθμίσεις
 
-* **Grade in the assessment tool** — Whether to include this survey's answer state in the assessment tool (gradebook). Anyone having completed the survey gets 100%, anyone else get 0%
-* **Parent survey** — Not really used at this point (legacy feature)
-* **One question per page** — Presentation style for the questions
-* **Enable shuffle mode** — Whether to shuffle questions
-* **Show question number** — Whether to show (auto-generated) question numbers
+* **Grade in the assessment tool** — Εάν πρέπει να συμπεριληφθεί η κατάσταση απάντησης αυτού του ερωτηματολογίου στο εργαλείο αξιολόγησης (βαθμολογικό βιβλίο). Οποιοσδήποτε ολοκληρώνει το ερωτηματολόγιο λαμβάνει 100%, και οι υπόλοιποι 0%
+* **Parent survey** — Δεν χρησιμοποιείται αυτή τη στιγμή (παλιά λειτουργία)
+* **One question per page** — Τρόπος εμφάνισης των ερωτήσεων
+* **Enable shuffle mode** — Εάν πρέπει να ανακατεύονται οι ερωτήσεις
+* **Show question number** — Εάν πρέπει να εμφανίζονται οι αριθμοί των ερωτήσεων (που παράγονται αυτόματα)
 
-## Adding Questions
+## Προσθήκη ερωτήσεων
 
-Once the survey is created, add questions:
+Μετά τη δημιουργία του ερωτηματολογίου, προσθέστε ερωτήσεις:
 
-1. Choose the question type:
-   * **Yes/No** — A simple binary choice
-   * **Multiple choice** — Select one answer from several options
-   * **Multiple answer** — Select one or more answers from several options
-   * **Open-ended** — Free text response
-   * **Dropdown** — Select from a dropdown list
-   * **Percentage** — Choose a percentage value
-   * **Score** — Rate on a numeric scale
-   * **Comment** — A text block (not a question) for adding instructions between questions
-   * **Multiple choice with "other" option** — Select one answer from several options, with an alternative choice
-   * **Selective display** — Special type allowing you to adapt the flow of questions based on previous answers
-   * **Page break** — Add page breaks in the questions flow. Only useful if "One question per page" was **not** selected in the previous step
-2. Configure the question text and answer options
-3. Save
+1. Επιλέξτε τύπο ερώτησης:
+   * **Yes/No** — Απλή δυαδική επιλογή
+   * **Multiple choice** — Επιλέξτε μία απάντηση από αρκετές επιλογές
+   * **Multiple answer** — Επιλέξτε μία ή περισσότερες απαντήσεις από αρκετές επιλογές
+   * **Open-ended** — Ελεύθερη απάντηση κειμένου
+   * **Dropdown** — Επιλογή από πτυσσόμενο μενού
+   * **Percentage** — Επιλογή τιμής ποσοστού
+   * **Score** — Αξιολόγηση σε αριθμητική κλίμακα
+   * **Comment** — Μπλοκ κειμένου (όχι ερώτηση) για προσθήκη οδηγών μεταξύ ερωτήσεων
+   * **Multiple choice with "other" option** — Επιλέξτε μία απάντηση από αρκετές επιλογές, με επιλογή "άλλο"
+   * **Selective display** — Ειδικός τύπος που επιτρέπει προσαρμογή της ροής των ερωτήσεων βάσει προηγούμενων απαντήσεων
+   * **Page break** — Προσθήκη διαχωριστικών σελίδας στη ροή των ερωτήσεων. Χρήσιμο μόνο εάν δεν έχει επιλεγεί **One question per page** στο προηγούμενο βήμα
+2. Ρυθμίστε το κείμενο της ερώτησης και τις επιλογές απάντησης
+3. Αποθήκευση
 
-Each question can be marked as mandatory. If you don't, skipping any question will be acceptable behaviour.
+Κάθε ερώτηση μπορεί να επισημανθεί ως υποχρεωτική. Εάν δεν το κάνετε, το παράλειψη οποιασδήποτε ερώτησης θα είναι αποδεκτή συμπεριφορά.
 
-## Publishing a Survey
+## Δημοσίευση ερωτηματολογίου
 
-After adding all questions:
+Μετά την προσθήκη όλων των ερωτήσεων:
 
-1. Click **Publish**
-2. Choose the recipients — Select specific learners or groups (you select them). The **Add learners** button adds all the learners in one single push and leaves the teachers behind
-3. Add additional users — Lets you invite users from outside Chamilo to participate in the survey. They will receive an e-mail with a link and will appear by their e-mail address in the survey details
-4. Mail subject
-5. Mail text — Explain what the survey is about and when/how to answer
-6. Different options for repeat invitations are available
-7. Confirm
+1. Κάντε κλικ στο **Publish**
+2. Επιλέξτε παραλήπτες — Καθορίστε συγκεκριμένους εκπαιδευομένους ή ομάδες (εσείς τους επιλέγετε). Το κουμπί **Add learners** προσθέτει όλους τους εκπαιδευομένους με μία κίνηση και αφήνει έξω τους εκπαιδευτές
+3. Προσθέστε επιπλέον χρήστες — Σας επιτρέπει να προσκαλέσετε χρήστες εκτός Chamilo να συμμετάσχουν στο ερωτηματολόγιο. Θα λάβουν email με σύνδεσμο και θα εμφανιστούν με τη διεύθυνση email τους στις λεπτομέρειες του ερωτηματολογίου
+4. Θέμα email
+5. Κείμενο email — Εξήγηση σχετικά με το ερωτηματολόγιο και πότε/πώς να απαντήσουν
+6. Διατίθενται διάφορες επιλογές για επαναλαμβανόμενες προσκλήσεις
+7. Επιβεβαίωση
 
-Learners receive an invitation (as an email) to complete the survey.
+Οι εκπαιδευόμενοι λαμβάνουν πρόσκληση (ως email) για να ολοκληρώσουν το ερωτηματολόγιο.
 
-A link is available at the bottom of the publication page to invite even more external users to participate. Participants using this link will not be identified and appear as anonymous in the survey results.
+Υπάρχει διαθέσιμος σύνδεσμος στο κάτω μέρος της σελίδας δημοσίευσης για να προσκαλέσετε περισσότερους εξωτερικούς χρήστες να συμμετάσχουν. Οι συμμετέχοντες με αυτόν τον σύνδεσμο δεν θα αναγνωριστούν και θα εμφανιστούν ως ανώνυμοι στα αποτελέσματα του ερωτηματολογίου.
 
-## Viewing Results
+---
 
-![Survey results with charts and percentage breakdowns for each question](/.gitbook/assets/survey-results-charts.png)
+---
+## Εμφάνιση αποτελεσμάτων
 
-After learners have responded:
+![Αποτελέσματα έρευνας με γραφήματα και κατανομή ποσοστών για κάθε ερώτηση](/.gitbook/assets/survey-results-charts.png)
 
-1. Open the survey
-2. Click **Results** or **Report**
-3. View response summaries:
-   * Charts and percentages for closed questions
-   * Individual text responses for open-ended questions
-   * Completion rate (how many invitees responded)
+Μετά την απάντηση των εκπαιδευομένων:
 
-You can export results to a spreadsheet for further analysis.
+1. Ανοίξτε την έρευνα
+2. Κάντε κλικ στο **Results** ή **Report**
+3. Εμφάνιση περιλήψεων των απαντήσεων:
+   * Γραφήματα και ποσοστά για τις κλειστές ερωτήσεις
+   * Ατομικές απαντήσεις κειμένου για τις ανοιχτές ερωτήσεις
+   * Ποσοστό ολοκλήρωσης (πόσοι από τους προσκεκλημένους απάντησαν)
 
-## Tips
+Μπορείτε να εξάγετε τα αποτελέσματα σε υπολογιστικό φύλλο για περαιτέρω ανάλυση.
 
-* **Keep it short** — Learners are more likely to complete shorter surveys
-* **Use anonymous mode** — For honest feedback, enable anonymous responses
-* **Time it right** — Send mid-course surveys to make adjustments, not just end-of-course evaluations
+## Συμβουλές
+
+* **Keep it short** — Οι εκπαιδευόμενοι είναι πιο πιθανό να ολοκληρώσουν τις σύντομες έρευνες
+* **Use anonymous mode** — Για ειλικρινή σχόλια, ενεργοποιήστε τις ανώνυμες απαντήσεις
+* **Time it right** — Στείλτε έρευνες στη μέση της περιόδου για διενέργεια τροποποιήσεων, όχι μόνο τελικές αξιολογήσεις περιόδου

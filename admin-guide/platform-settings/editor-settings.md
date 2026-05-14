@@ -1,185 +1,185 @@
-# Editor Settings
+# Ρυθμίσεις Επεξεργαστή
 
-Configuration of the rich-text editor (TinyMCE) used across the platform — toolbars, plugins, AI helpers in the editor.
+Ρύθμιση του επεξεργαστή πλούσιου κειμένου (TinyMCE) που χρησιμοποιείται σε ολόκληρη την πλατφόρμα — γραμμές εργαλείων, πρόσθετα, βοηθοί ΤΝΕ στον επεξεργαστή.
 
-Access these settings under **Administration > Configuration settings > Editor**. This category contains **26 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+Πρόσβαση σε αυτές τις ρυθμίσεις στο **Διαχείριση > Ρυθμίσεις διαμόρφωσης > Επεξεργαστής**. Αυτή η κατηγορία περιέχει **26 ρυθμίσεις**, που παρατίθενται παρακάτω με τον τίτλο και το σχόλιο που παρέχονται στα fixtures των ρυθμίσεων της πλατφόρμας (`SettingsCurrentFixtures.php`).
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> Το όνομα της μεταβλητής στον κώδικα εμφανίζεται σε monospace. Χρησιμοποιήστε το όταν προγραμματίζετε μέσω του API ή όταν χρειάζεται να αλλάξετε αυτές τις ρυθμίσεις σε παγκόσμιο επίπεδο επεξεργαζόμενοι το [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
 
-## Settings
+## Ρυθμίσεις
 
 ### `allow_email_editor`
 
-**Online e-mail editor enabled**
+**Ενεργοποίηση επεξεργαστή ηλεκτρονικού ταχυδρομείου online**
 
-If this option is activated, clicking on an e-mail address will open an online editor.
+Αν αυτή η επιλογή είναι ενεργοποιημένη, το κλικ σε μια διεύθυνση ηλεκτρονικού ταχυδρομείου θα ανοίξει έναν επεξεργαστή online.
 
 ### `allow_spellcheck`
 
-**Spell check**
+**Ορθογραφικός έλεγχος**
 
-Enable spell check
+Ενεργοποίηση ορθογραφικού ελέγχου
 
 ### `block_copy_paste_for_students`
 
-**Block learners copy and paste**
+**Περιορισμός αντιγραφής και επικόλλησης για μαθητές**
 
-Block learners the ability to copy and paste into the WYSIWYG editor
+Περιορισμός της δυνατότητας των μαθητών να αντιγράφουν και να επικολλούν στον επεξεργαστή WYSIWYG
 
 ### `editor_block_image_copy_paste`
 
-**Prevent copy-pasting images in WYSIWYG editor**
+**Απαγόρευση αντιγραφής-επικόλλησης εικόνων στον επεξεργαστή WYSIWYG**
 
-Prevent the use of images copy-paste as base64 in the editor to avoid filling the database with images.
+Απαγόρευση της χρήσης αντιγραφής-επικόλλησης εικόνων ως base64 στον επεξεργαστή για αποφυγή πλήρωσης της βάσης δεδομένων με εικόνες.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 
 ### `editor_driver_list`
 
-**List of WYSIWYG files drivers**
+**Λίστα οδηγών αρχείων WYSIWYG**
 
-Array containing the names of the drivers for files access from the WYSIWYG editor.
+Πίνακας που περιέχει τα ονόματα των οδηγών για πρόσβαση σε αρχεία από τον επεξεργαστή WYSIWYG.
 
 ### `editor_settings`
 
-**WYSIWYG editor settings**
+**Ρυθμίσεις επεξεργαστή WYSIWYG**
 
-Generic configuration array to reconfigure the WYSIWYG editor globally.
+Γενικός πίνακας διαμόρφωσης για επαναδιαμόρφωση του επεξεργαστή WYSIWYG παγκοσμίως.
 
 ### `enable_iframe_inclusion`
 
-**Allow iframes in HTML Editor**
+**Επιτρέψτε iframes στον επεξεργαστή HTML**
 
-Allowing arbitrary iframes in the HTML Editor will enhance the edition capabilities of the users, but it can represent a security risk. Please make sure you can rely on your users (i.e. you know who they are) before enabling this feature.
+Η επιλογή αυθαίρετων iframes στον επεξεργαστή HTML θα βελτιώσει τις δυνατότητες επεξεργασίας των χρηστών, αλλά μπορεί να αποτελέσει κίνδυνο ασφαλείας. Βεβαιωθείτε ότι μπορείτε να εμπιστευτείτε τους χρήστες σας (δηλ. γνωρίζετε ποιοι είναι) πριν ενεργοποιήσετε αυτή τη λειτουργία.
 
 ### `enable_uploadimage_editor`
 
-**Allow images drag&drop in WYSIWYG editor**
+**Επιτρέψτε drag&drop εικόνων στον επεξεργαστή WYSIWYG**
 
-Enable image upload as file when doing a copy in the content or a drag and drop.
+Ενεργοποίηση ανεβάσματος εικόνας ως αρχείου κατά την αντιγραφή περιεχομένου ή drag and drop.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 
 ### `enabled_asciisvg`
 
-**Enable AsciiSVG**
+**Ενεργοποίηση AsciiSVG**
 
-Enable the AsciiSVG plugin in the WYSIWYG editor to draw charts from mathematical functions.
+Ενεργοποίηση του πρόσθετου AsciiSVG στον επεξεργαστή WYSIWYG για σχεδίαση διαγραμμάτων από μαθηματικές συναρτήσεις.
 
 ### `enabled_googlemaps`
 
-**Activate Google maps**
+**Ενεργοποίηση Google Maps**
 
-Activate the button to insert Google maps. Activation is not fully realized if not previously edited the file main/inc/lib/fckeditor/myconfig.php and added a Google maps API key.
+Ενεργοποίηση του κουμπιού για εισαγωγή Google Maps. Η ενεργοποίηση δεν υλοποιείται πλήρως αν δεν έχει προηγουμένως επεξεργαστεί το αρχείο main/inc/lib/fckeditor/myconfig.php και προστεθεί κλειδί API Google Maps.
 
 ### `enabled_imgmap`
 
-**Activate Image maps**
+**Ενεργοποίηση Image Maps**
 
-Activate the button to insert Image maps. This allows you to associate URLs to areas of an image, creating hotspots.
+Ενεργοποίηση του κουμπιού για εισαγωγή Image Maps. Αυτό επιτρέπει τον συνδυασμό URLs με περιοχές μιας εικόνας, δημιουργώντας hotspots.
 
 ### `enabled_insertHtml`
 
-**Allow insertion of widgets**
+**Επιτρέψτε εισαγωγή widgets**
 
-This allows you to embed on your webpages your favorite videos and applications such as vimeo or slideshare and all sorts of widgets and gadgets
+Αυτό σας επιτρέπει να ενσωματώνετε στις ιστοσελίδες σας τα αγαπημένα σας βίντεο και εφαρμογές όπως vimeo ή slideshare και όλα τα είδη widgets και gadgets
 
 ### `enabled_mathjax`
 
-**Enable MathJax**
+**Ενεργοποίηση MathJax**
 
-Enable the MathJax library to visualize mathematical formulas. This is only useful if either ASCIIMathML or ASCIISVG settings are enabled.
+Ενεργοποίηση της βιβλιοθήκης MathJax για απεικόνιση μαθηματικών τύπων. Αυτό είναι χρήσιμο μόνο αν είναι ενεργοποιημένες οι ρυθμίσεις ASCIIMathML ή ASCIISVG.
 
 ### `enabled_support_svg`
 
-**Create and edit SVG files**
+**Δημιουργία και επεξεργασία αρχείων SVG**
 
-This option allows you to create and edit SVG (Scalable Vector Graphics) multilayer online, as well as export them to png format images.
+Αυτή η επιλογή σας επιτρέπει να δημιουργείτε και να επεξεργάζεστε SVG (Scalable Vector Graphics) πολυεπίπεδα online, καθώς και να τα εξάγετε σε εικόνες png.
 
 ### `enabled_wiris`
 
-**WIRIS mathematical editor**
+**Μαθηματικός επεξεργαστής WIRIS**
 
-Enable WIRIS mathematical editor. Installing this plugin you get WIRIS editor and WIRIS CAS.<br/>This activation is not fully realized unless it has been previously downloaded the <a href='http://www.wiris.com/es/plugins3/ckeditor/download' target='_blank'>PHP plugin for CKeditor WIRIS</a> and unzipped its contents in the Chamilo's directory main/inc/lib/javascript/ckeditor/plugins/.<br/>This is necessary because Wiris is proprietary software and his services are <a href='http://www.wiris.com/store/who-pays' target='_blank'>commercial</a>. To make adjustments to the plugin, edit configuration.ini file or replace his content by the file configuration.ini.default shipped with Chamilo.
+Ενεργοποίηση μαθηματικού επεξεργαστή WIRIS. Με την εγκατάσταση αυτού του πρόσθετου αποκτάτε τον επεξεργαστή WIRIS και το WIRIS CAS.<br/>Αυτή η ενεργοποίηση δεν υλοποιείται πλήρως εκτός αν έχει προηγουμένως κατεβαστεί το <a href='http://www.wiris.com/es/plugins3/ckeditor/download' target='_blank'>PHP plugin για CKeditor WIRIS</a> και έχει αποσυμπιεστεί το περιεχόμενό του στον κατάλογο του Chamilo main/inc/lib/javascript/ckeditor/plugins/.<br/>Αυτό είναι απαραίτητο επειδή το Wiris είναι ιδιόκτητο λογισμικό και οι υπηρεσίες του είναι <a href='http://www.wiris.com/store/who-pays' target='_blank'>εμπορικές</a>. Για προσαρμογές στο πρόσθετο, επεξεργαστείτε το αρχείο configuration.ini ή αντικαταστήστε το περιεχόμενό του με το αρχείο configuration.ini.default που παρέχεται με το Chamilo.
 
 ### `force_wiki_paste_as_plain_text`
 
-**Forcing pasting as plain text in the wiki**
+**Αναγκαστική επικόλληση ως απλό κείμενο στη wiki**
 
-This will prevent many hidden tags, incorrect or non-standard, copied from other texts to stop corrupting the text of the Wiki after many issues; but will lose some features while editing.
+Αυτό θα αποτρέψει πολλές κρυμμένες ετικέτες, λανθασμένες ή μη τυπικές, που αντιγράφονται από άλλα κείμενα να καταστρέφουν το κείμενο της Wiki μετά από πολλά προβλήματα· αλλά θα χάσετε ορισμένες λειτουργίες κατά την επεξεργασία.
 
 ### `full_editor_toolbar_set`
 
-**Full WYSIWYG editor toolbar**
+**Πλήρης γραμμή εργαλείων επεξεργαστή WYSIWYG**
 
-Show the full toolbar in all WYSIWYG editor boxes around the platform.
+Εμφάνιση της πλήρους γραμμής εργαλείων σε όλους τους πίνακες επεξεργαστή WYSIWYG σε ολόκληρη την πλατφόρμα.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 
 ### `htmlpurifier_wiki`
 
-**HTMLPurifier in Wiki**
+**HTMLPurifier στη Wiki**
 
-Enable HTML purifier in the wiki tool (will increase security but reduce style features)
+Ενεργοποίηση HTML purifier στο εργαλείο wiki (θα αυξήσει την ασφάλεια αλλά θα μειώσει τις λειτουργίες στυλ)
 
 ### `include_asciimathml_script`
 
-**Load the Mathjax library in all the system pages**
+**Φόρτωση βιβλιοθήκης Mathjax σε όλες τις σελίδες του συστήματος**
 
-Activate this setting if you want to show MathML-based mathematical formulas and ASCIIsvg-based mathematical graphics not only in the 'Documents' tool, but elsewhere in the system.
+Ενεργοποιήστε αυτή τη ρύθμιση αν θέλετε να εμφανίζετε μαθηματικούς τύπους βασισμένους σε MathML και μαθηματικά γραφικά βασισμένα σε ASCIIsvg όχι μόνο στο εργαλείο 'Έγγραφα', αλλά και αλλού στο σύστημα.
 
 ### `math_asciimathML`
 
-**ASCIIMathML mathematical editor**
+**Μαθηματικός επεξεργαστής ASCIIMathML**
 
-Enable ASCIIMathML mathematical editor
+Ενεργοποίηση μαθηματικού επεξεργαστή ASCIIMathML
 
 ### `more_buttons_maximized_mode`
 
-**Buttons bar extended**
+**Εκτεταμένη γραμμή εργαλείων**
 
-Enable button bars extended when the WYSIWYG editor is maximized
+Ενεργοποίηση εκτεταμένων γραμμών εργαλείων όταν ο επεξεργαστής WYSIWYG είναι μεγιστοποιημένος
 
-*Default: `true`*
+*Προεπιλογή: `true`*
 
+---
 ### `save_titles_as_html`
 
-**Save titles as HTML**
+**Αποθήκευση τίτλων ως HTML**
 
-Allow users to include HTML in title fields in several places. This allows for some styling of titles, notably in test questions.
+Επιτρέπει στους χρήστες να συμπεριλάβουν HTML σε πεδία τίτλων σε διάφορα σημεία. Αυτό επιτρέπει κάποια μορφοποίηση των τίτλων, ιδιαίτερα σε ερωτήσεις δοκιμής.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 ### `translate_html`
 
-**Support multi-language HTML content**
+**Υποστήριξη πολυγλωσσικού HTML περιεχομένου**
 
-If enabled, this option allows users to use a ‘lang’ attribute in HTML elements to define the langage the content of that element is written in. Enable multiple elements with different ‘lang’ attributes and Chamilo will display the content in the langage of the user only.
+Εάν είναι ενεργοποιημένη, αυτή η επιλογή επιτρέπει στους χρήστες να χρησιμοποιούν ένα χαρακτηριστικό ‘lang’ σε στοιχεία HTML για να ορίζουν τη γλώσσα στην οποία είναι γραμμένο το περιεχόμενο του στοιχείου. Ενεργοποιήστε πολλαπλά στοιχεία με διαφορετικά χαρακτηριστικά ‘lang’ και το Chamilo θα εμφανίζει το περιεχόμενο μόνο στη γλώσσα του χρήστη.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 
 ### `video_context_menu_hidden`
 
-**Hide the context menu on video player**
+**Απόκρυψη του μενού περιβάλλοντος στον αναπαραγωγέα βίντεο**
 
-When enabled, the right-click context menu on HTML5 video players is disabled.
+Όταν είναι ενεργοποιημένη, απενεργοποιείται το μενού περιβάλλοντος δεξιού κλικ στους αναπαραγωγείς βίντεο HTML5.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 
 ### `video_player_renderers`
 
-**Video player renderers**
+**Renderers αναπαραγωγέα βίντεο**
 
-Enable player renderers for YouTube, Vimeo, Facebook, DailyMotion, Twitch medias
+Ενεργοποίηση renderers αναπαραγωγέα για YouTube, Vimeo, Facebook, DailyMotion, Twitch medias
 
 ### `youtube_for_students`
 
-**Allow learners to insert videos from YouTube**
+**Επιτρέψτε στους μαθητές να εισάγουν βίντεο από YouTube**
 
-Enable the possibility that learners can insert Youtube videos
-
+Ενεργοποίηση της δυνατότητας οι μαθητές να εισάγουν βίντεο Youtube

@@ -1,38 +1,38 @@
-# Video Conferencing
+# Βιντεοδιάσκεψη
 
-Chamilo integrates with video conferencing platforms to let you run live sessions directly from your course. Supported platforms include **BigBlueButton** and **Zoom**.
+Το Chamilo ενσωματώνεται με πλατφόρμες βιντεοδιάσκεψης για να σας επιτρέψει να διεξάγετε ζωντανές συνεδρίες απευθείας από το μάθημά σας. Υποστηριζόμενες πλατφόρμες περιλαμβάνουν το **BigBlueButton** και το **Zoom**.
 
-> Video conferencing must be configured by your platform administrator. If you do not see the video conferencing tool in your course, contact your administrator.
+> Η βιντεοδιάσκεψη πρέπει να ρυθμιστεί από τον διαχειριστή της πλατφόρμας σας. Εάν δεν βλέπετε το εργαλείο βιντεοδιάσκεψης στο μάθημά σας, επικοινωνήστε με τον διαχειριστή σας.
 
-## Starting a Video Session
+## Έναρξη Βιντεοσυνεδρίας
 
-1. Open the **Video conference** <img src="/.gitbook/assets/icons/mdi-video.svg" alt="Video" data-size="line"> tool from the course homepage (or from the sidebar)
-2. Click **Start a meeting** (or a similar button depending on the configured platform)
-3. A new video conferencing room will open in a new browser tab
+1. Ανοίξτε το εργαλείο **Video conference** <img src="/.gitbook/assets/icons/mdi-video.svg" alt="Video" data-size="line"> από την αρχική σελίδα του μαθήματος (ή από την πλευρική γραμμή)
+2. Κάντε κλικ στο **Start a meeting** (ή σε παρόμοιο κουμπί ανάλογα με την ρυθμισμένη πλατφόρμα)
+3. Θα ανοίξει ένα νέο δωμάτιο βιντεοδιάσκεψης σε νέα καρτέλα του προγράμματος περιήγησης
 
-## Inviting Learners
+## Πρόσκληση Μαθητών
 
-Once a meeting is running, enrolled learners can join it by:
+Μόλις ξεκινήσει μια συνάντηση, οι εγγεγραμμένοι μαθητές μπορούν να συμμετάσχουν κάνοντας:
 
-* Clicking the same **Video conference** tool in their course homepage
-* Clicking the join link in an announcement or message you send them
+* Κλικ στο ίδιο εργαλείο **Video conference** στην αρχική σελίδα του μαθήματός τους
+* Κλικ στον σύνδεσμο συμμετοχής σε μια ανακοίνωση ή μήνυμα που τους στέλνετε
 
 ## BigBlueButton
 
-If your platform uses the BigBlueButton plugin, the meeting itself runs in BigBlueButton, where the usual conference features (audio/video, screen sharing, whiteboard, in-meeting chat, breakout rooms) are available. The Chamilo plugin specifically adds:
+Εάν η πλατφόρμα σας χρησιμοποιεί το πρόσθετο BigBlueButton, η ίδια η συνάντηση εκτελείται στο BigBlueButton, όπου είναι διαθέσιμες οι συνηθισμένες λειτουργίες διάσκεψης (ήχος/εικόνα, κοινή χρήση οθόνης, πίνακας λευκού, συνομιλία κατά τη διάρκεια της συνάντησης, δωμάτια διαχωρισμού). Το πρόσθετο του Chamilo προσθέτει ειδικά:
 
-* **Recording management** — If recording is enabled by the administrator, recordings made during the session are listed inside the course so learners can replay them
-* **Pre-upload presentation documents** — Attach a presentation file to a meeting so it is loaded into BigBlueButton when the room opens
-* **Calendar integration** — Scheduled meetings are surfaced in the course agenda
-* **Course / group / global rooms** — Run a single course-wide room, separate group rooms, or a platform-wide room
+* **Διαχείριση εγγραφών** — Εάν η εγγραφή είναι ενεργοποιημένη από τον διαχειριστή, οι εγγραφές που γίνονται κατά τη διάρκεια της συνεδρίας παρατίθενται μέσα στο μάθημα ώστε οι μαθητές να μπορούν να τις επαναλάβουν
+* **Προ-αποστολή εγγράφων παρουσίασης** — Συνδέστε ένα αρχείο παρουσίασης σε μια συνάντηση ώστε να φορτωθεί στο BigBlueButton όταν ανοίξει το δωμάτιο
+* **Ενσωμάτωση ημερολογίου** — Οι προγραμματισμένες συναντήσεις εμφανίζονται στην ατζέντα του μαθήματος
+* **Δωμάτια μαθήματος / ομάδας / πλατφόρμας** — Εκτελέστε ένα ενιαίο δωμάτιο σε ολόκληρο το μάθημα, ξεχωριστά δωμάτια ομάδας ή δωμάτιο σε ολόκληρη την πλατφόρμα
 
-## Zoom Integration
+## Ενσωμάτωση Zoom
 
-If your platform uses Zoom, meetings are created and managed through Zoom's interface. Chamilo provides the integration point for launching and joining meetings from within the course.
+Εάν η πλατφόρμα σας χρησιμοποιεί το Zoom, οι συναντήσεις δημιουργούνται και διαχειρίζονται μέσω της διεπαφής του Zoom. Το Chamilo παρέχει το σημείο ενσωμάτωσης για την εκκίνηση και συμμετοχή σε συναντήσεις από μέσα στο μάθημα.
 
-## Tips
+## Συμβουλές
 
-* **Schedule in advance** — Use the Agenda tool to schedule video sessions and send reminders
-* **Test your setup** — Check your microphone and camera before the session
-* **Record for absent learners** — If recording is enabled, share the recording link after the session for learners who could not attend
-* **Combine with other tools** — Share presentation files in Documents before the session, and follow up with a Forum discussion afterward
+* **Προγραμματίστε εκ των προτέρων** — Χρησιμοποιήστε το εργαλείο Ατζέντα για να προγραμματίσετε βιντεοσυνεδρίες και να στείλετε υπενθυμίσεις
+* **Δοκιμάστε τη ρύθμισή σας** — Ελέγξτε το μικρόφωνο και την κάμερά σας πριν από τη συνεδρία
+* **Καταγράψτε για απόντες μαθητές** — Εάν η εγγραφή είναι ενεργοποιημένη, μοιραστείτε τον σύνδεσμο εγγραφής μετά τη συνεδρία για μαθητές που δεν μπόρεσαν να παρευρεθούν
+* **Συνδυάστε με άλλα εργαλεία** — Μοιραστείτε αρχεία παρουσίασης στα Έγγραφα πριν από τη συνεδρία και ακολουθήστε με συζήτηση στο Φόρουμ μετά

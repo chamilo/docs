@@ -1,108 +1,107 @@
-# Course Catalog Settings
+# Ρυθμίσεις Καταλόγου Μαθημάτων
 
-Behaviour of the course catalog (the public list where users can browse and self-enroll).
+Συμπεριφορά του καταλόγου μαθημάτων (η δημόσια λίστα όπου οι χρήστες μπορούν να περιηγηθούν και να εγγραφούν αυτοβούλως).
 
-Access these settings under **Administration > Configuration settings > Course Catalog**. This category contains **13 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+Πρόσβαση σε αυτές τις ρυθμίσεις στο **Administration > Configuration settings > Course Catalog**. Αυτή η κατηγορία περιέχει **13 ρυθμίσεις**, που παρατίθενται παρακάτω με τον τίτλο και το σχόλιο που παρέχονται στα fixtures των ρυθμίσεων της πλατφόρμας (`SettingsCurrentFixtures.php`).
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> Το όνομα της μεταβλητής στον κώδικα εμφανίζεται σε monospace. Χρησιμοποιήστε το κατά την προγραμματισμό μέσω του API ή όταν χρειάζεται να αλλάξετε αυτές τις ρυθμίσεις σε παγκόσμιο επίπεδο επεξεργαζόμενοι το [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
 
-## Settings
+## Ρυθμίσεις
 
 ### `allow_session_auto_subscription`
 
-**Auto Session Subscription**
+**Αυτόματη Εγγραφή Συνεδρίας**
 
-Enable automatic subscription to sessions for users.
+Ενεργοποίηση αυτόματης εγγραφής σε συνεδρίες για χρήστες.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 ### `allow_students_to_browse_courses`
 
-**Allow Student Browsing**
+**Επιτρέψτε την Περιήγηση Μαθητών**
 
-Permit students to browse and filter the course catalog.
+Επιτρέψτε στους μαθητές να περιηγηθούν και να φιλτράρουν τον κατάλογο μαθημάτων.
 
-*Default: `true`*
+*Προεπιλογή: `true`*
 
 ### `course_catalog_display_in_home`
 
-**Display Catalog on Homepage**
+**Εμφάνιση Καταλόγου στην Αρχική Σελίδα**
 
-Show the course catalog block on the platform homepage.
+Εμφάνιση του μπλοκ καταλόγου μαθημάτων στην αρχική σελίδα της πλατφόρμας.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 ### `course_catalog_hide_private`
 
-**Hide Private Courses**
+**Απόκρυψη Ιδιωτικών Μαθημάτων**
 
-Exclude private courses from the catalog display.
+Αποκλεισμός ιδιωτικών μαθημάτων από την εμφάνιση του καταλόγου.
 
-*Default: `true`*
+*Προεπιλογή: `true`*
 
 ### `course_catalog_published`
 
-**Publish course catalogue**
+**Δημοσίευση Καταλόγου Μαθημάτων**
 
-Make the courses catalogue available to anonymous users (the general public) without the need to login.
+Καθιστά τον κατάλογο μαθημάτων διαθέσιμο σε ανώνυμους χρήστες (το ευρύ κοινό) χωρίς την ανάγκη σύνδεσης.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 ### `course_catalog_settings`
 
-**Course catalogue settings**
+**Ρυθμίσεις Καταλόγου Μαθημάτων**
 
-JSON configuration for course catalog: link settings, filters, sort options, and more.
+JSON διαμόρφωση για κατάλογο μαθημάτων: ρυθμίσεις συνδέσμων, φίλτρα, επιλογές ταξινόμησης κ.λπ.
 
 ### `course_subscription_in_user_s_session`
 
-**Subscription in Session View**
+**Εγγραφή στην Προβολή Συνεδρίας**
 
-Allow users to subscribe to courses directly from their session page.
+Επιτρέψτε στους χρήστες να εγγραφούν σε μαθήματα απευθείας από τη σελίδα της συνεδρίας τους.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 ### `hide_public_link`
 
-**Hide Public Link**
+**Απόκρυψη Δημόσιου Συνδέσμου**
 
-Remove the public URL link from course cards.
+Αφαίρεση του δημόσιου URL συνδέσμου από τις κάρτες μαθημάτων.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 ### `only_show_course_from_selected_category`
 
-**Only show matching categories in courses catalogue**
+**Εμφάνιση Μόνο Συμβατών Κατηγοριών στον Κατάλογο Μαθημάτων**
 
-When not empty, only the courses from the given categories will appear in the courses catalogue.
+Όταν δεν είναι κενό, μόνο τα μαθήματα από τις δοθείσες κατηγορίες θα εμφανίζονται στον κατάλογο μαθημάτων.
 
 ### `only_show_selected_courses`
 
-**Only Selected Courses**
+**Μόνο Επιλεγμένα Μαθήματα**
 
-Show only manually selected courses in the catalog.
+Εμφάνιση μόνο χειροκίνητα επιλεγμένων μαθημάτων στον κατάλογο.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 ### `session_catalog_settings`
 
-**Session Catalog Settings**
+**Ρυθμίσεις Καταλόγου Συνεδριών**
 
-JSON configuration for session catalog: filters and display options.
+JSON διαμόρφωση για κατάλογο συνεδριών: φίλτρα και επιλογές εμφάνισης.
 
 ### `show_courses_descriptions_in_catalog`
 
-**Show Course Descriptions**
+**Εμφάνιση Περιγραφών Μαθημάτων**
 
-Display course descriptions within the catalog listing.
+Εμφάνιση περιγραφών μαθημάτων στη λίστα του καταλόγου.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 ### `show_courses_sessions`
 
-**Show Courses & Sessions**
+**Εμφάνιση Μαθημάτων & Συνεδριών**
 
-Include both courses and sessions in catalog results.
+Συμπερίληψη τόσο μαθημάτων όσο και συνεδριών στα αποτελέσματα του καταλόγου.
 
-*Default: `0`*
-
+*Προεπιλογή: `0`*

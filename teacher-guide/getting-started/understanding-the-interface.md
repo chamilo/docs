@@ -1,76 +1,79 @@
-# Understanding the Interface
+# Κατανόηση της Διεπαφής
 
-Chamilo 2.0 has a clean, modern interface designed to keep navigation simple. This page explains each part of the interface in detail.
+Το Chamilo 2.0 διαθέτει μια καθαρή, σύγχρονη διεπαφή σχεδιασμένη για να διατηρεί την πλοήγηση απλή. Αυτή η σελίδα εξηγεί αναλυτικά κάθε μέρος της διεπαφής.
 
-## The Top Bar
+## Η Γραμμή Εργαλείων Κορυφής
 
-![The top bar with annotated elements including logo, inbox, support ticket, and user avatar](/.gitbook/assets/top-bar-annotated.png)
+![Η γραμμή εργαλείων κορυφής με σχολιασμένα στοιχεία όπως λογότυπο, εισερχόμενα, αίτημα υποστήριξης και avatar χρήστη](/.gitbook/assets/top-bar-annotated.png)
 
-The top bar is always visible at the top of every page. It contains:
+Η γραμμή εργαλείων κορυφής είναι πάντα ορατή στην κορυφή κάθε σελίδας. Περιέχει:
 
-* **Platform logo** — Click it to return to the home page at any time.
-* **Inbox icon** <img src="/.gitbook/assets/icons/mdi-inbox.svg" alt="Inbox" data-size="line"> — Shows your messages. A red badge indicates unread messages. Click to open your inbox.
-* **Support ticket icon** <img src="/.gitbook/assets/icons/mdi-ticket-account.svg" alt="Support" data-size="line"> — If enabled by your administrator, this gives you access to the support ticket system.
-* **Your avatar** — A circular image in the top-right corner. Click it to open a dropdown menu with links to your profile, account settings, and sign-out.
+* **Λογότυπο πλατφόρμας** — Κάντε κλικ για επιστροφή στην αρχική σελίδα οποτεδήποτε.
+* **Εικονίδιο Εισερχόμενων** <img src="/.gitbook/assets/icons/mdi-inbox.svg" alt="Inbox" data-size="line"> — Εμφανίζει τα μηνύματά σας. Ένα κόκκινο σήμα υποδεικνύει μη αναγνωσμένα μηνύματα. Κάντε κλικ για να ανοίξετε τα εισερχόμενά σας.
+* **Εικονίδιο αιτήματος υποστήριξης** <img src="/.gitbook/assets/icons/mdi-ticket-account.svg" alt="Support" data-size="line"> — Εάν είναι ενεργοποιημένο από τον διαχειριστή σας, παρέχει πρόσβαση στο σύστημα αιτημάτων υποστήριξης.
+* **Το avatar σας** — Μια κυκλική εικόνα στην πάνω δεξιά γωνία. Κάντε κλικ για να ανοίξετε ένα μενού αναδυόμενο με συνδέσμους στο προφίλ σας, τις ρυθμίσεις λογαριασμού και την έξοδο.
 
-## The Sidebar
+## Η Πλευρική Μπάρα
 
-The sidebar on the left is your main navigation. It can be collapsed to give more space to the content area. Click the toggle arrow at its right edge to expand or collapse it. Chamilo remembers your preference.
+Η πλευρική μπάρα στα αριστερά είναι η κύρια πλοήγησή σας. Μπορεί να συρρικνωθεί για να δώσει περισσότερο χώρο στην περιοχή περιεχομένου. Κάντε κλικ στο βέλος εναλλαγής στο δεξί της άκρο για να την επεκτείνετε ή να την συρρικνώσετε. Το Chamilo θυμάται την προτίμησή σας.
 
-The sidebar contains the following links (some may be hidden depending on your platform's configuration):
+Η πλευρική μπάρα περιέχει τους εξής συνδέσμους (ορισμένοι μπορεί να είναι κρυφοί ανάλογα με τη διαμόρφωση της πλατφόρμας σας):
 
-![The sidebar navigation panel in its expanded state showing all menu items](/.gitbook/assets/sidebar-expanded.png)
+![Η πλευρική μπάρα πλοήγησης στην επεκταμένη της κατάσταση που δείχνει όλα τα στοιχεία μενού](/.gitbook/assets/sidebar-expanded.png)
 
-| Menu item | Icon | Description |
-|-----------|------|-------------|
-| **Home** | <img src="/.gitbook/assets/icons/mdi-home.svg" alt="Home" data-size="line"> | Returns to the main dashboard |
-| **My courses** | <img src="/.gitbook/assets/icons/mdi-book-open-page-variant.svg" alt="Courses" data-size="line"> | Lists all courses you are enrolled in |
-| **My sessions** | <img src="/.gitbook/assets/icons/mdi-google-classroom.svg" alt="Sessions" data-size="line"> | Lists your training sessions (current, past, upcoming) |
-| **Explore more courses** | <img src="/.gitbook/assets/icons/mdi-bookmark-multiple.svg" alt="Catalogue" data-size="line"> | Browse the course catalog to find new courses |
-| **Agenda** | <img src="/.gitbook/assets/icons/mdi-calendar-text.svg" alt="Agenda" data-size="line"> | Your personal and course calendar |
-| **Reporting** | <img src="/.gitbook/assets/icons/mdi-chart-box.svg" alt="Reporting" data-size="line"> | Access learner tracking and course reports |
-| **Social network** | <img src="/.gitbook/assets/icons/mdi-sitemap-outline.svg" alt="Social network" data-size="line"> | Connect with other users, send messages, join groups |
-| **Videoconference** | <img src="/.gitbook/assets/icons/mdi-video.svg" alt="Video" data-size="line"> | Access live video sessions (if configured) |
-| **Administration** | <img src="/.gitbook/assets/icons/mdi-cogs.svg" alt="Admin" data-size="line"> | Platform administration (visible only to admins) |
+| Στοιχείο μενού | Εικονίδιο | Περιγραφή |
+|---------------|-----------|-----------|
+| **Αρχική** | <img src="/.gitbook/assets/icons/mdi-home.svg" alt="Home" data-size="line"> | Επιστροφή στο κύριο ταμπλό |
+| **Τα μαθήματά μου** | <img src="/.gitbook/assets/icons/mdi-book-open-page-variant.svg" alt="Courses" data-size="line"> | Λίστα όλων των μαθημάτων στα οποία είστε εγγεγραμμένοι |
+| **Οι συνεδρίες μου** | <img src="/.gitbook/assets/icons/mdi-google-classroom.svg" alt="Sessions" data-size="line"> | Λίστα των εκπαιδευτικών συνεδριών σας (τρέχουσες, προηγούμενες, επερχόμενες) |
+| **Εξερεύνηση περισσότερων μαθημάτων** | <img src="/.gitbook/assets/icons/mdi-bookmark-multiple.svg" alt="Catalogue" data-size="line"> | Περιήγηση στον κατάλογο μαθημάτων για εύρεση νέων μαθημάτων |
+| **Ημερήσια διάταξη** | <img src="/.gitbook/assets/icons/mdi-calendar-text.svg" alt="Agenda" data-size="line"> | Το προσωπικό και το ημερολόγιο του μαθήματος |
+| **Αναφορές** | <img src="/.gitbook/assets/icons/mdi-chart-box.svg" alt="Reporting" data-size="line"> | Πρόσβαση στην παρακολούθηση εκπαιδευομένων και αναφορές μαθήματος |
+| **Κοινωνικό δίκτυο** | <img src="/.gitbook/assets/icons/mdi-sitemap-outline.svg" alt="Social network" data-size="line"> | Σύνδεση με άλλους χρήστες, αποστολή μηνυμάτων, συμμετοχή σε ομάδες |
+| **Τηλεδιάσκεψη** | <img src="/.gitbook/assets/icons/mdi-video.svg" alt="Video" data-size="line"> | Πρόσβαση σε ζωντανές βιντεοσυνεδρίες (εάν είναι διαμορφωμένο) |
+| **Διαχείριση** | <img src="/.gitbook/assets/icons/mdi-cogs.svg" alt="Admin" data-size="line"> | Διαχείριση πλατφόρμας (ορατό μόνο σε διαχειριστές) |
 
-At the very bottom of the sidebar, you will find a **Sign out** option to quickly sign out when you're done. This option is also available from your avatar icon's drop-down menu on the top-right corner.
-If the platform is managed through external authentication methods, these signing out options might not be available.
+Στο πιο κάτω μέρος της πλευρικής μπάρας, θα βρείτε μια επιλογή **Έξοδος** για γρήγορη αποσύνδεση όταν ολοκληρώσετε. Αυτή η επιλογή είναι επίσης διαθέσιμη από το μενού αναδυόμενο του εικονιδίου avatar σας στην πάνω δεξιά γωνία.
+Εάν η πλατφόρμα διαχειρίζεται μέσω εξωτερικών μεθόδων πιστοποίησης, αυτές οι επιλογές εξόδου ενδέχεται να μην είναι διαθέσιμες.
 
-## The Main Content Area
+## Η Κύρια Περιοχή Περιεχομένου
 
-The central area of the screen displays the content of the current page. At the top, you will often see a **breadcrumb trail** showing your current location in the platform (for example: Home > Rock music > Documents). Use the breadcrumbs to navigate back to a parent page.
+Η κεντρική περιοχή της οθόνης εμφανίζει το περιεχόμενο της τρέχουσας σελίδας. Στην κορυφή, συχνά θα δείτε ένα **μονοπάτι ψίχουλων** που δείχνει την τρέχουσα θέση σας στην πλατφόρμα (π.χ.: Αρχική > Rock music > Documents). Χρησιμοποιήστε τα ψίχουλα για να πλοηγηθείτε πίσω σε μια γονική σελίδα.
 
-## The Course Homepage
+## Η Αρχική Σελίδα του Μαθήματος
 
-When you enter a course, you see the **course homepage**. This is covered in detail in the [Creating Your Course](../creating-your-course/) section, but here is a quick overview:
+Όταν εισέρχεστε σε ένα μάθημα, βλέπετε την **αρχική σελίδα του μαθήματος**. Αυτό καλύπτεται αναλυτικά στην ενότητα [Δημιουργία του Μαθήματός σας](../creating-your-course/), αλλά εδώ είναι μια σύντομη επισκόπηση:
 
-* **Course title** — Displayed prominently at the top
-* **Course introduction** — An optional rich-text description that you can edit
-* **Tool grid** — A grid of icons representing the course tools (Documents, Exercises, Forums, etc.)
+* **Τίτλος μαθήματος** — Εμφανίζεται εμφαντικά στην κορυφή
+* **Εισαγωγή μαθήματος** — Περιγραφή πλούσιου κειμένου προαιρετική που μπορείτε να επεξεργαστείτε
+* **Πλέγμα εργαλείων** — Πλέγμα εικονιδίων που αντιπροσωπεύουν τα εργαλεία του μαθήματος (Documents, Exercises, Forums, κ.λπ.)
 
-As a teacher, you will see additional controls:
+Ως δάσκαλος, θα δείτε επιπλέον ελέγχους:
 
-* **Student view** <img src="/.gitbook/assets/icons/mdi-eye.svg" alt="Student view" data-size="line"> — Toggle this to see the course as a student would see it
-* **Edit introduction** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Edit" data-size="line"> — Edit the course introduction text
-* **Show all / Hide all** — Quickly change the visibility of all tools for students
-* **Sort** — Enable drag-and-drop to reorder the tools on the homepage
+* **Προβολή μαθητή** <img src="/.gitbook/assets/icons/mdi-eye.svg" alt="Student view" data-size="line"> — Εναλλάξτε αυτήν για να δείτε το μάθημα όπως θα το έβλεπε ένας μαθητής
+* **Επεξεργασία εισαγωγής** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Edit" data-size="line"> — Επεξεργαστείτε το κείμενο εισαγωγής του μαθήματος
+* **Εμφάνιση όλων / Απόκρυψη όλων** — Αλλαγή γρήγορα της ορατότητας όλων των εργαλείων για μαθητές
+* **Ταξινόμηση** — Ενεργοποίηση drag-and-drop για επανατάξινση των εργαλείων στην αρχική σελίδα
 
-## Icon colors
+---
 
-This is still experimental and not entirely complete in Chamilo 2.0, but we're trying to use the following rules for all buttons and action icons in the interface:
+---
+## Χρώματα εικονιδίων
 
-* **Green** for creation actions. This includes adding, creating, importing, grading, saving and copying content.
-* **Blue** for view actions. This includes exporting, viewing, pre-viewing in lists or in detail views, searching and downloading.
-* **Orange** for editing actions. This includes editing, moving, configuring, enabling/disabling, hiding and showing.
-* **Red** for deletion/removal actions. This includes deleting, removing, unsubscribing.
-* **Grey** for cancelling actions. Just leaving things in the status quo.
+Αυτό είναι ακόμη πειραματικό και όχι πλήρως ολοκληρωμένο στο Chamilo 2.0, αλλά προσπαθούμε να χρησιμοποιούμε τους εξής κανόνες για όλα τα κουμπιά και τα εικονίδια ενεργειών στη διεπαφή:
+
+* **Πράσινο** για ενέργειες δημιουργίας. Αυτό περιλαμβάνει προσθήκη, δημιουργία, εισαγωγή, βαθμολόγηση, αποθήκευση και αντιγραφή περιεχομένου.
+* **Μπλε** για ενέργειες προβολής. Αυτό περιλαμβάνει εξαγωγή, προβολή, προεπισκόπηση σε λίστες ή σε λεπτομερείς προβολές, αναζήτηση και λήψη.
+* **Πορτοκαλί** για ενέργειες επεξεργασίας. Αυτό περιλαμβάνει επεξεργασία, μετακίνηση, διαμόρφωση, ενεργοποίηση/απενεργοποίηση, απόκρυψη και εμφάνιση.
+* **Κόκκινο** για ενέργειες διαγραφής/αφαίρεσης. Αυτό περιλαμβάνει διαγραφή, αφαίρεση, διαγραφή εγγραφής.
+* **Γκρι** για ενέργειες ακύρωσης. Απλώς διατήρηση των πραγμάτων στην τρέχουσα κατάσταση.
 
 ## Responsive Design
 
-Chamilo 2.0 adapts to different screen sizes. On a mobile device or narrow browser window:
+Το Chamilo 2.0 προσαρμόζεται σε διαφορετικά μεγέθη οθόνης. Σε κινητή συσκευή ή στενό παράθυρο προγράμματος περιήγησης:
 
-* The sidebar is hidden by default and can be opened by tapping the menu icon
-* Course cards display in a single column instead of a grid
-* Tables become scrollable horizontally
+* Η πλευρική γραμμή είναι κρυφή από προεπιλογή και μπορεί να ανοίξει πατώντας το εικονίδιο μενού
+* Οι κάρτες μαθήματος εμφανίζονται σε μία στήλη αντί για πλέγμα
+* Οι πίνακες γίνονται οριζόντια κύλιση
 
-This means you and your learners can access the platform from a phone, tablet, or computer, but you might experience the interface slightly differently.
+Αυτό σημαίνει ότι εσείς και οι μαθητές σας μπορείτε να έχετε πρόσβαση στην πλατφόρμα από τηλέφωνο, tablet ή υπολογιστή, αλλά μπορεί να βιώσετε ελαφρώς διαφορετικά τη διεπαφή.

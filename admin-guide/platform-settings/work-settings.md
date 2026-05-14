@@ -1,103 +1,103 @@
-# Assignments (Work) Settings
+# Ρυθμίσεις εργασιών (Assignments)
 
-Defaults and behaviour of the **Assignments (Student Publications)** tool.
+Προεπιλογές και συμπεριφορά του εργαλείου **Assignments (Student Publications)**.
 
-Access these settings under **Administration > Configuration settings > Assignments (Work)**. This category contains **12 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+Πρόσβαση σε αυτές τις ρυθμίσεις στο **Administration > Configuration settings > Assignments (Work)**. Αυτή η κατηγορία περιέχει **12 ρυθμίσεις**, που παρατίθενται παρακάτω με τον τίτλο και το σχόλιο που παρέχονται στα fixtures των ρυθμίσεων της πλατφόρμας (`SettingsCurrentFixtures.php`).
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> Το όνομα της μεταβλητής στον κώδικα εμφανίζεται σε monospace. Χρησιμοποιήστε το κατά την προγραμματισμό μέσω του API ή όταν χρειάζεται να αλλάξετε αυτές τις ρυθμίσεις σε παγκόσμιο επίπεδο επεξεργαζόμενοι το [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
 
-## Settings
+## Ρυθμίσεις
 
 ### `allow_compilatio_tool`
 
-**Enable Compilatio**
+**Ενεργοποίηση Compilatio**
 
-Compilatio is an anti-cheating service that compares text between two submissions and reports if there is a high probability the content (usually assignments) is not genuine.
+Το Compilatio είναι μια υπηρεσία κατά της αντιγραφής που συγκρίνει κείμενα μεταξύ δύο υποβολών και αναφέρει εάν υπάρχει υψηλή πιθανότητα το περιεχόμενο (συνήθως εργασίες) να μην είναι αυθεντικό.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 ### `allow_my_student_publication_page`
 
-**Enable My assignments page**
+**Ενεργοποίηση σελίδας Οι εργασίες μου**
 
-[inferred] Enable a dedicated page for learners to view and manage their own submitted assignments.
+[inferred] Ενεργοποίηση ειδικής σελίδας για τους μαθητές να βλέπουν και να διαχειρίζονται τις δικές τους υποβληθείσες εργασίες.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 ### `allow_only_one_student_publication_per_user`
 
-**Students can only upload one assignment**
+**Οι μαθητές μπορούν να ανεβάσουν μόνο μία εργασία**
 
-[inferred] Restrict learners to submitting only one assignment per activity, preventing multiple submissions.
+[inferred] Περιορισμός των μαθητών σε μία μόνο υποβολή εργασίας ανά δραστηριότητα, αποτρέποντας πολλαπλές υποβολές.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 ### `allow_redirect_to_main_page_after_work_upload`
 
-**Redirect to assigment tool homepage after upload or comment**
+**Ανακατεύθυνση στην αρχική σελίδα του εργαλείου εργασιών μετά από ανέβασμα ή σχόλιο**
 
-Redirect to assignments list after uploading an assignment or a adding a comment
+Ανακατεύθυνση στη λίστα εργασιών μετά από ανέβασμα εργασίας ή προσθήκη σχολίου
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 ### `assignment_prevent_duplicate_upload`
 
-**Prevent duplicate uploads in assignments**
+**Αποτροπή διπλών αναβασμάτων σε εργασίες**
 
-[inferred] Block learners from uploading identical files for the same assignment submission.
+[inferred] Αποκλεισμός των μαθητών από το ανέβασμα πανομοιότυπων αρχείων για την ίδια υποβολή εργασίας.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 ### `block_student_publication_add_documents`
 
-**Prevent adding documents to assignments**
+**Αποτροπή προσθήκης εγγράφων σε εργασίες**
 
-[inferred] Prevent learners from adding or attaching documents when submitting assignments.
+[inferred] Αποτροπή των μαθητών από την προσθήκη ή επισύναψη εγγράφων κατά την υποβολή εργασιών.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 ### `block_student_publication_edition`
 
-**Prevent assignments edition**
+**Αποτροπή επεξεργασίας εργασιών**
 
-[inferred] Prevent learners from modifying or updating their submitted assignments after initial submission.
+[inferred] Αποτροπή των μαθητών από την τροποποίηση ή ενημέρωση των υποβληθεισών εργασιών τους μετά την αρχική υποβολή.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 ### `block_student_publication_score_edition`
 
-**Prevent teacher from modifying assignment scores**
+**Αποτροπή τροποποίησης βαθμών εργασιών από τον δάσκαλο**
 
-[inferred] Prevent instructors from changing assignment scores after they have been recorded.
+[inferred] Αποτροπή των διδασκόντων από την αλλαγή βαθμών εργασιών μετά την καταγραφή τους.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 ### `compilatio_tool`
 
-**Compilatio settings**
+**Ρυθμίσεις Compilatio**
 
-Configure the Compilatio connection details here.
+Εδώ ρυθμίστε τις λεπτομέρειες σύνδεσης του Compilatio.
 
 ### `considered_working_time`
 
-**Enable time effort for assignments**
+**Ενεργοποίηση χρόνου προσπάθειας για εργασίες**
 
-This will allow teachers to give an estimated time effort (in hh:mm:ss format) to complete the assignment. Upon submission of the assignment and approval by the teacher (the assignment is given a score), the learner will automatically be assigned the corresponding time.
+Αυτό θα επιτρέψει στους δασκάλους να δίνουν εκτιμώμενο χρόνο προσπάθειας (σε μορφή hh:mm:ss) για την ολοκλήρωση της εργασίας. Κατά την υποβολή της εργασίας και την έγκρισή της από τον δάσκαλο (η εργασία λαμβάνει βαθμό), ο μαθητής θα αναθέσει αυτόματα ο αντίστοιχος χρόνος.
 
-*Default: `work_time`*
+*Προεπιλογή: `work_time`*
 
 ### `force_download_doc_before_upload_work`
 
-**Force download of document before assignment upload**
+**Υποχρεωτική λήψη εγγράφου πριν το ανέβασμα εργασίας**
 
-Force users to download the provided document in the assignment definition before they can upload their assignment.
+Υποχρεώνει τους χρήστες να κατεβάσουν το παρεχόμενο έγγραφο στην περιγραφή της εργασίας πριν ανεβάσουν την εργασία τους.
 
-*Default: `true`*
+*Προεπιλογή: `true`*
 
 ### `my_courses_show_pending_work`
 
-**Display link to 'pending' assignments from My courses page**
+**Εμφάνιση συνδέσμου σε 'εκκρεμείς' εργασίες από τη σελίδα Τα μαθήματά μου**
 
-[inferred] Display a link or count of pending assignments on the learner's My Courses page for quick access.
+[inferred] Εμφάνιση συνδέσμου ή αρίθμησης εκκρεμών εργασιών στη σελίδα Τα μαθήματά μου του μαθητή για γρήγορη πρόσβαση.
 
-*Default: `false`*
+*Προεπιλογή: `false`*

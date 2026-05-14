@@ -1,12 +1,12 @@
-# Testing
+# Δοκιμές
 
-## PHP Testing
+## Δοκιμές PHP
 
-Chamilo uses **PHPUnit** for backend testing.
+Το Chamilo χρησιμοποιεί το **PHPUnit** για δοκιμές backend.
 
-### Test Database Setup
+### Ρύθμιση Βάσης Δεδομένων Δοκιμών
 
-Tests require a dedicated database. Create `.env.test.local` with your test database credentials:
+Οι δοκιμές απαιτούν μια ειδική βάση δεδομένων. Δημιουργήστε το `.env.test.local` με τα διαπιστευτήρια της βάσης δεδομένων δοκιμών σας:
 
 ```ini
 DATABASE_HOST='127.0.0.1'
@@ -16,7 +16,7 @@ DATABASE_USER='root'
 DATABASE_PASSWORD='root'
 ```
 
-Then initialise the test database:
+Στη συνέχεια, αρχικοποιήστε τη βάση δεδομένων δοκιμών:
 
 ```bash
 php bin/console --env=test cache:clear
@@ -25,28 +25,28 @@ php bin/console --env=test doctrine:schema:create
 php bin/console --env=test doctrine:fixtures:load --no-interaction
 ```
 
-To reset after schema changes:
+Για επαναφορά μετά από αλλαγές σχήματος:
 
 ```bash
 php bin/console --env=test doctrine:schema:update --force --complete
 ```
 
-### Running Tests
+### Εκτέλεση Δοκιμών
 
 ```bash
-# Run all tests
+# Εκτέλεση όλων των δοκιμών
 php bin/phpunit
 
-# Run a specific test file
+# Εκτέλεση συγκεκριμένου αρχείου δοκιμής
 php bin/phpunit tests/CoreBundle/Repository/UserRepositoryTest.php
 
-# Run tests with HTML coverage report
+# Εκτέλεση δοκιμών με αναφορά κάλυψης HTML
 php bin/phpunit --coverage-html var/coverage
 ```
 
-### Test Location
+### Τοποθεσία Δοκιμών
 
-Tests are in the `tests/` directory:
+Οι δοκιμές βρίσκονται στον κατάλογο `tests/`:
 
 ```
 tests/
@@ -70,76 +70,76 @@ tests/
 └── ChamiloTestTrait.php # Shared test helpers
 ```
 
-### Test Types
+### Τύποι Δοκιμών
 
-* **Unit/Integration tests** — PHPUnit tests in `CoreBundle/` and `CourseBundle/`; most hit a real database (via `dama/doctrine-test-bundle`)
-* **Functional (API) tests** — Extend `AbstractApiTest` and test HTTP endpoints end-to-end
-* **Behat tests** — Browser-level acceptance tests in `tests/behat/features/` (see below)
+* **Δοκιμές μονάδας/ενσωμάτωσης** — Δοκιμές PHPUnit στο `CoreBundle/` και `CourseBundle/`· οι περισσότερες αλληλεπιδρούν με πραγματική βάση δεδομένων (μέσω `dama/doctrine-test-bundle`)
+* **Λειτουργικές (API) δοκιμές** — Επεκτείνουν το `AbstractApiTest` και δοκιμάζουν endpoints HTTP end-to-end
+* **Δοκιμές Behat** — Δοκιμές αποδοχής επιπέδου προγράμματος περιήγησης στο `tests/behat/features/` (δείτε παρακάτω)
 
-## Behat (End-to-End) Tests
+## Δοκιμές Behat (End-to-End)
 
-Chamilo has a Behat test suite for browser-level acceptance testing. It requires a running Chamilo instance, Chrome, and ChromeDriver.
+Το Chamilo διαθέτει σουίτα δοκιμών Behat για δοκιμές αποδοχής επιπέδου προγράμματος περιήγησης. Απαιτεί μια εκτελόμενη εγκατάσταση Chamilo, Chrome και ChromeDriver.
 
 ```bash
-# From the tests/behat/ directory:
+# Από τον κατάλογο tests/behat/:
 ../../vendor/behat/behat/bin/behat features/actionInstall.feature
 ../../vendor/behat/behat/bin/behat features/createUser.feature
 ../../vendor/behat/behat/bin/behat features/createCourse.feature
 
-# Or run all features:
+# Ή εκτέλεση όλων των χαρακτηριστικών:
 ../../vendor/behat/behat/bin/behat
 ```
 
-Configure the base URL in `tests/behat/behat.yml` before running.
+Ρυθμίστε τη βασική διεύθυνση URL στο `tests/behat/behat.yml` πριν την εκτέλεση.
 
-## Frontend Checks
+## Ελέγχοι Frontend
 
 ```bash
-# Lint JavaScript/Vue (ESLint with Prettier)
+# Έλεγχος σύνταξης JavaScript/Vue (ESLint με Prettier)
 yarn eslint assets/vue/
 
-# Type-check TypeScript
+# Έλεγχος τύπων TypeScript
 yarn tsc --noEmit
 
-# Build production assets (verifies the entire build compiles)
+# Δημιουργία assets παραγωγής (επαληθεύει ότι ολόκληρο το build μεταγλωττίζεται)
 yarn build
 ```
 
-## PHP Code Quality
+## Ποιότητα Κώδικα PHP
 
-Chamilo uses **ECS** (Easy Coding Standard), **PHPStan**, and **Psalm** for code quality. Composer shortcuts are available for each:
+Το Chamilo χρησιμοποιεί **ECS** (Easy Coding Standard), **PHPStan** και **Psalm** για ποιότητα κώδικα. Υπάρχουν διαθέσιμα συντομεύματα Composer για κάθε εργαλείο:
 
 ```bash
-# Check code style (ECS — Easy Coding Standard)
+# Έλεγχος στυλ κώδικα (ECS — Easy Coding Standard)
 composer phpcs
-# or directly:
+# ή απευθείας:
 vendor/bin/ecs check
 
-# Auto-fix code style violations
+# Αυτόματη διόρθωση παραβάσεων στυλ κώδικα
 composer phpcs-fix
-# or directly:
+# ή απευθείας:
 vendor/bin/ecs check --fix
 
-# Static analysis with PHPStan (level 5, scans src/ and tests/)
+# Στατική ανάλυση με PHPStan (επίπεδο 5, σαρώνει src/ και tests/)
 composer phpstan
-# or directly:
+# ή απευθείας:
 vendor/bin/phpstan analyse
 
-# Static analysis with Psalm
+# Στατική ανάλυση με Psalm
 composer psalm
-# or directly:
+# ή απευθείας:
 vendor/bin/psalm --show-info=false
 ```
 
-Note: there is no `php-cs-fixer` in this project. ECS (`symplify/easy-coding-standard`) is the code style tool.
+Σημείωση: δεν υπάρχει `php-cs-fixer` σε αυτό το έργο. Το ECS (`symplify/easy-coding-standard`) είναι το εργαλείο στυλ κώδικα.
 
-## Continuous Integration
+## Συνεχής Ενσωμάτωση
 
-Pull requests are automatically checked by four GitHub Actions workflows:
+Οι αιτήσεις έλξης ελέγχονται αυτόματα από τέσσερις ροές εργασιών GitHub Actions:
 
-| Workflow | What it runs |
-|----------|-------------|
-| `phpunit.yml` | PHPUnit test suite |
-| `format_code.yml` | ECS code style check |
-| `php_analysis.yml` | Psalm, Doctrine schema validation, security checker |
-| `behat.yml` | Behat end-to-end tests |
+| Ροή εργασιών | Τι εκτελεί |
+|--------------|------------|
+| `phpunit.yml` | Σουίτα δοκιμών PHPUnit |
+| `format_code.yml` | Έλεγχος στυλ κώδικα ECS |
+| `php_analysis.yml` | Psalm, επικύρωση σχήματος Doctrine, ελεγκτής ασφαλείας |
+| `behat.yml` | Δοκιμές Behat end-to-end |

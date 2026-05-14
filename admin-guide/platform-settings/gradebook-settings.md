@@ -1,293 +1,291 @@
-# Gradebook (Assessments) Settings
+# Ρυθμίσεις Βαθμολογίου (Αξιολογήσεων)
 
-Defaults applied across the **Gradebook (Assessments)** tool — score display, decimal precision, certificate score thresholds, and aggregation.
+Προεπιλεγμένες ρυθμίσεις που εφαρμόζονται σε ολόκληρο το εργαλείο **Gradebook (Assessments)** — εμφάνιση βαθμολογίας, ακρίβεια δεκαδικών, κατώφλια βαθμολογίας πιστοποιητικών και συσσώρευση.
 
-Access these settings under **Administration > Configuration settings > Gradebook (Assessments)**. This category contains **34 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+Πρόσβαση σε αυτές τις ρυθμίσεις μέσω **Administration > Configuration settings > Gradebook (Assessments)**. Αυτή η κατηγορία περιέχει **34 ρυθμίσεις**, που παρατίθενται παρακάτω με τον τίτλο και το σχόλιο που παρέχονται στα fixtures των ρυθμίσεων της πλατφόρμας (`SettingsCurrentFixtures.php`).
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> Το όνομα της μεταβλητής στον κώδικα εμφανίζεται σε monospace. Χρησιμοποιήστε το κατά την προγραμματισμό μέσω API ή όταν χρειάζεται να αλλάξετε αυτές τις ρυθμίσεις σε παγκόσμιο επίπεδο επεξεργαζόμενοι το [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
 
-## Settings
+## Ρυθμίσεις
 
 ### `allow_gradebook_comments`
 
-**Gradebook comments**
+**Σχόλια βαθμολογίου**
 
-Enable gradebook comments so teachers can add a comment to the overall performance of the learner in this course. The comment will appear in the PDF export for the learner.
+Ενεργοποίηση σχολίων βαθμολογίου ώστε οι εκπαιδευτές να μπορούν να προσθέσουν ένα σχόλιο για την συνολική επίδοση του μαθητή σε αυτό το μάθημα. Το σχόλιο θα εμφανίζεται στην εξαγωγή PDF για τον μαθητή.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 
 ### `allow_gradebook_stats`
 
-**Cache results in the gradebook**
+**Αποθήκευση αποτελεσμάτων στη μνήμη cache του βαθμολογίου**
 
-Put some of the large calculations of averages in cached fields for the links and evaluations to increase speed (considerably). The potential negative impact is that it can take some time to refresh the gradebook results tables.
+Αποθήκευση ορισμένων μεγάλων υπολογισμών μέσων όρων σε πεδία cache για τους συνδέσμους και τις αξιολογήσεις προς αύξηση της ταχύτητας (σημαντικά). Η πιθανή αρνητική επίδραση είναι ότι μπορεί να πάρει κάποιο χρόνο για να ανανεωθούν οι πίνακες αποτελεσμάτων του βαθμολογίου.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 ### `gradebook_badge_sidebar`
 
-**Gradebook badges sidebar**
+**Πλευρική μπάρα με διακριτικά βαθμολογίου**
 
-Generate a block inside the side menu where a few badges can be shown as pending approval. Requires gradebooks to be listed here, by (numerical) ID.
+Δημιουργία ενός μπλοκ μέσα στο πλευρικό μενού όπου μπορούν να εμφανιστούν λίγα διακριτικά ως εκκρεμή έγκρισης. Απαιτεί τα βαθμολογία να παρατίθενται εδώ, με (αριθμητικό) ID.
 
 ### `gradebook_default_grade_model_id`
 
-**Default grade model**
+**Προεπιλεγμένο μοντέλο βαθμολόγησης**
 
-This value will be selected by default when creating a course
+Αυτή η τιμή θα επιλεγεί από προεπιλογή κατά τη δημιουργία μαθήματος
 
 ### `gradebook_default_weight`
 
-**Default weight in Gradebook**
+**Προεπιλεγμένο βάρος στο Gradebook**
 
-This weight will be use in all courses by default
+Αυτό το βάρος θα χρησιμοποιηθεί σε όλα τα μαθήματα από προεπιλογή
 
-*Default: `100`*
+*Προεπιλογή: `100`*
 
 ### `gradebook_dependency`
 
-**Inter-gradebook dependencies**
+**Εξαρτήσεις μεταξύ βαθμολογίων**
 
-Enables a mechanism of gradebook dependencies that lets people know which other items they need to go through first in order to complete the gradebook.
+Ενεργοποίηση μηχανισμού εξαρτήσεων βαθμολογίου που ενημερώνει τους χρήστες για τα άλλα αντικείμενα που πρέπει να ολοκληρώσουν πρώτα για να ολοκληρώσουν το βαθμολογίου.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 
 ### `gradebook_dependency_mandatory_courses`
 
-**Mandatory courses for gradebook dependencies**
+**Υποχρεωτικά μαθήματα για εξαρτήσεις βαθμολογίου**
 
-When using inter-gradebook dependencies, you can choose a list of mandatory courses that will be required before approving any gradebook that has dependencies.
+Όταν χρησιμοποιούνται εξαρτήσεις μεταξύ βαθμολογίων, μπορείτε να επιλέξετε μια λίστα υποχρεωτικών μαθημάτων που θα απαιτούνται πριν την έγκριση οποιουδήποτε βαθμολογίου που έχει εξαρτήσεις.
 
 ### `gradebook_detailed_admin_view`
 
-**Show additional columns in gradebook**
+**Εμφάνιση επιπλέον στηλών στο βαθμολογίου**
 
-Show additional columns in the student view of the gradebook with the best score of all students, the relative position of the student looking at the report and the average score of the whole group of students.
+Εμφάνιση επιπλέον στηλών στην προβολή μαθητή του βαθμολογίου με την καλύτερη βαθμολογία όλων των μαθητών, τη σχετική θέση του μαθητή που βλέπει την αναφορά και τον μέσο όρο βαθμολογίας ολόκληρης της ομάδας μαθητών.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 
 ### `gradebook_display_extra_stats`
 
-**Gradebook extra statistics**
+**Επιπλέον στατιστικά βαθμολογίου**
 
-Add additional columns to the gradebook's main report (1 = ranking, 2 = best score, 3 = average).
+Προσθήκη επιπλέον στηλών στην κύρια αναφορά του βαθμολογίου (1 = κατάταξη, 2 = καλύτερη βαθμολογία, 3 = μέσος όρος).
 
 ### `gradebook_enable`
 
-**Assessments tool activation**
+**Ενεργοποίηση εργαλείου Αξιολογήσεων**
 
-The Assessments tool allows you to assess competences in your organization by merging classroom and online activities evaluations into Performance reports. Do you want to activate it?
+Το εργαλείο Αξιολογήσεων σας επιτρέπει να αξιολογείτε ικανότητες στην οργανισμό σας συνδυάζοντας αξιολογήσεις δια ζώσης και online δραστηριοτήτων σε Αναφορές Απόδοσης. Θέλετε να το ενεργοποιήσετε;
 
-*Default: `true`*
+*Προεπιλογή: `true`*
 
 
 ### `gradebook_enable_grade_model`
 
-**Enable Gradebook model**
+**Ενεργοποίηση μοντέλου Gradebook**
 
-Enables the auto creation of gradebook categories inside a course depending of the gradebook models.
+Ενεργοποίηση αυτόματης δημιουργίας κατηγοριών βαθμολογίου μέσα σε μάθημα ανάλογα με τα μοντέλα βαθμολογίου.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 ### `gradebook_enable_subcategory_skills_independant_assignement`
 
-**Enable skills by gradebook's subcategory**
+**Ενεργοποίηση ικανοτήτων ανά υποκατηγορία βαθμολογίου**
 
-Skills are normally attributed for completing a whole gradebook. By enabling this option, you allow skills to be attached to sub-sections of gradebooks.
+Οι ικανότητες αποδίδονται κανονικά για την ολοκλήρωση ολόκληρου βαθμολογίου. Ενεργοποιώντας αυτή την επιλογή, επιτρέπετε στις ικανότητες να συνδέονται με υπο-ενότητες βαθμολογίων.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 
 ### `gradebook_flatview_extrafields_columns`
 
-**User extra fields in gradebook flat view**
+**Επιπλέον πεδία χρήστη στην επίπεδη προβολή βαθμολογίου**
 
-Add the given columns ('variables' array) to the main results table in the gradebook.
+Προσθήκη των δεδομένων στηλών ('variables' array) στον κύριο πίνακα αποτελεσμάτων του βαθμολογίου.
 
 ### `gradebook_hide_graph`
 
-**Hide gradebook charts**
+**Απόκρυψη γραφημάτων βαθμολογίου**
 
-If your portal is resources-limited, reducing the generation of the dynamic gradebok charts with potentially thousands of results is a good option.
+Αν το portal σας έχει περιορισμένους πόρους, η μείωση της παραγωγής δυναμικών γραφημάτων βαθμολογίου με πιθανώς χιλιάδες αποτελέσματα είναι καλή επιλογή.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 
 ### `gradebook_hide_link_to_item_for_student`
 
-**Hide item links for learners in gradebook**
+**Απόκρυψη συνδέσμων αντικειμένων για μαθητές στο βαθμολογίου**
 
-Avoid learners clicking on items from the gradebook by removing the links on the items.
+Αποφυγή κλικ μαθητών σε αντικείμενα από το βαθμολογίου αφαιρώντας τους συνδέσμους στα αντικείμενα.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 
 ### `gradebook_hide_pdf_report_button`
 
-**Hide gradebook button 'download PDF report'**
+**Απόκρυψη κουμπιού βαθμολογίου 'λήψη αναφοράς PDF'**
 
-Removes the PDF export button from gradebook views for learners.
+Κατάργηση κουμπιού εξαγωγής PDF από προβολές βαθμολογίου για μαθητές.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 
 ### `gradebook_hide_table`
 
-**Hide gradebook table for learners**
+**Απόκρυψη πίνακα βαθμολογίου για μαθητές**
 
-Reduce gradebook load time by hiding the results table (but still giving access to certificates, skills, etc).
+Μείωση χρόνου φόρτωσης βαθμολογίου κρύβοντας τον πίνακα αποτελεσμάτων (αλλά δίνοντας ακόμα πρόσβαση σε πιστοποιητικά, ικανότητες κ.λπ.).
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
-
+---
 ### `gradebook_locking_enabled`
 
-**Enable locking of assessments by teachers**
+**Ενεργοποίηση κλειδώματος αξιολογήσεων από καθηγητές**
 
-Once enabled, this option will enable locking of any assessment by the teachers of the corresponding course. This, in turn, will prevent any modification of results by the teacher inside the resources used in the assessment: exams, learning paths, tasks, etc. The only role authorized to unlock a locked assessment is the administrator. The teacher will be informed of this possibility. The locking and unlocking of gradebooks will be registered in the system's report of important activities
+Μόλις ενεργοποιηθεί, αυτή η επιλογή θα επιτρέψει το κλείδωμα οποιασδήποτε αξιολόγησης από τους καθηγητές του αντίστοιχου μαθήματος. Αυτό, με τη σειρά του, θα εμποδίσει οποιαδήποτε τροποποίηση των αποτελεσμάτων από τον καθηγητή μέσα στους πόρους που χρησιμοποιούνται στην αξιολόγηση: εξετάσεις, μονοπάτια μάθησης, εργασίες κ.λπ. Ο μόνος ρόλος που έχει εξουσιοδότηση να ξεκλειδώσει μια κλειδωμένη αξιολόγηση είναι ο διαχειριστής. Ο καθηγητής θα ενημερωθεί για αυτή τη δυνατότητα. Το κλείδωμα και ξεκλείδωμα των βιβλίων βαθμών θα καταγραφεί στην αναφορά του συστήματος για σημαντικές δραστηριότητες.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 ### `gradebook_multiple_evaluation_attempts`
 
-**Allow multiple evaluation attempts in gradebook**
+**Επιτρέψτε πολλαπλές προσπάθειες αξιολόγησης στο βιβλίο βαθμών**
 
-Allows adding comments to multiple evaluation attempts in gradebook and result tables.
+Επιτρέπει την προσθήκη σχολίων σε πολλαπλές προσπάθειες αξιολόγησης στο βιβλίο βαθμών και στους πίνακες αποτελεσμάτων.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 
 ### `gradebook_number_decimals`
 
-**Number of decimals**
+**Αριθμός δεκαδικών**
 
-Allows you to set the number of decimals allowed in a score
+Σας επιτρέπει να ορίσετε τον αριθμό δεκαδικών που επιτρέπονται σε μια βαθμολογία
 
-*Default: `0`*
+*Προεπιλογή: `0`*
 
 ### `gradebook_pdf_export_settings`
 
-**Gradebook PDF export options**
+**Επιλογές εξαγωγής PDF βιβλίου βαθμών**
 
-Change the PDF export for learners based on the provided settings ('hide_score_weight', 'hide_feedback_textarea', ...)
+Αλλάζει την εξαγωγή PDF για τους μαθητές βάσει των παρεχόμενων ρυθμίσεων ('hide_score_weight', 'hide_feedback_textarea', ...)
 
 ### `gradebook_report_score_style`
 
-**Gradebook reports score style**
+**Στυλ βαθμολόγησης αναφορών βιβλίου βαθμών**
 
-Add gradebook score style configuration in the flat view. See api.lib.php in order to find the options: examples SCORE_DIV = 1, SCORE_PERCENT = 2, etc
+Προσθέτει διαμόρφωση στυλ βαθμολόγησης βιβλίου βαθμών στην επίπεδη προβολή. Δείτε το api.lib.php για να βρείτε τις επιλογές: παραδείγματα SCORE_DIV = 1, SCORE_PERCENT = 2, κ.λπ.
 
-*Default: `1`*
+*Προεπιλογή: `1`*
 
 
 ### `gradebook_score_display_colorsplit`
 
-**Threshold**
+**Κατώφλι**
 
-The threshold (in %) under which scores will be colored red
+Το κατώφλι (σε %) κάτω από το οποίο οι βαθμολογίες θα χρωματιστούν κόκκινα
 
-*Default: `50`*
+*Προεπιλογή: `50`*
 
 
 ### `gradebook_score_display_custom`
 
-**Competence levels labelling**
+**Ετικετοποίηση επιπέδων δεξιοτήτων**
 
-Tick the box to enable Competence levels labelling
+Επιλέξτε το πλαίσιο για να ενεργοποιήσετε την ετικετοποίηση επιπέδων δεξιοτήτων
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 
 ### `gradebook_score_display_custom_standalone`
 
-**Custom score display in gradebook's standalone column**
+**Προσαρμοσμένη εμφάνιση βαθμολογίας στην αυτόνομη στήλη του βιβλίου βαθμών**
 
-Shows custom competence level values in a separate column in gradebook flatview when using custom score display.
+Εμφανίζει προσαρμοσμένες τιμές επιπέδων δεξιοτήτων σε ξεχωριστή στήλη στην επίπεδη προβολή του βιβλίου βαθμών όταν χρησιμοποιείται προσαρμοσμένη εμφάνιση βαθμολογίας.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 
 ### `gradebook_score_display_upperlimit`
 
-**Display score upper limit**
+**Εμφάνιση άνω ορίου βαθμολογίας**
 
-Tick the box to show the score's upper limit
+Επιλέξτε το πλαίσιο για να εμφανιστεί το άνω όριο της βαθμολογίας
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 
 ### `gradebook_use_apcu_cache`
 
-**Use APCu caching to speed up gradebok**
+**Χρήση APCu cache για επιτάχυνση βιβλίου βαθμών**
 
-Improve speed when rendering gradebook student reports using Doctrine APCU cache. APCu is an optional but recommended PHP extension.
+Βελτιώνει την ταχύτητα κατά την απόδοση αναφορών μαθητών βιβλίου βαθμών χρησιμοποιώντας Doctrine APCu cache. Το APCu είναι προαιρετική αλλά συνιστώμενη επέκταση PHP.
 
-*Default: `true`*
+*Προεπιλογή: `true`*
 
 
 ### `gradebook_use_exercise_score_settings_in_categories`
 
-**Use test settings for grades display**
+**Χρήση ρυθμίσεων άσκησης για εμφάνιση βαθμών**
 
-Applies exercise score display settings (percentage vs. points) to category scores in gradebook.
+Εφαρμόζει ρυθμίσεις εμφάνισης βαθμολογίας άσκησης (ποσοστό vs. πόντοι) σε βαθμολογίες κατηγοριών στο βιβλίο βαθμών.
 
-*Default: `true`*
+*Προεπιλογή: `true`*
 
 
 ### `gradebook_use_exercise_score_settings_in_total`
 
-**Use global score display setting in gradebook**
+**Χρήση γενικής ρύθμισης εμφάνισης βαθμολογίας άσκησης στο βιβλίο βαθμών**
 
-Applies global exercise score display settings to total score calculations in gradebook.
+Εφαρμόζει γενικές ρυθμίσεις εμφάνισης βαθμολογίας άσκησης σε υπολογισμούς συνολικής βαθμολογίας στο βιβλίο βαθμών.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 
 ### `hide_gradebook_percentage_user_result`
 
-**Hide percentage in best/average gradebook results**
+**Απόκρυψη ποσοστού στα καλύτερα/μέσους βαθμούς βιβλίου βαθμών**
 
-Removes percentage display from best/average score results shown to learners in gradebook.
+Αφαιρεί την εμφάνιση ποσοστού από τα καλύτερα/μέσους αποτελέσματα βαθμολογίας που εμφανίζονται στους μαθητές στο βιβλίο βαθμών.
 
-*Default: `true`*
+*Προεπιλογή: `true`*
 
 
 ### `my_display_coloring`
 
-**Display colors for scores in the gradebook**
+**Εμφάνιση χρωμάτων για βαθμολογίες στο βιβλίο βαθμών**
 
-Enables color coding for better score visibility in the gradebook.
+Ενεργοποιεί κωδικοποίηση χρωμάτων για καλύτερη ορατότητα βαθμολογιών στο βιβλίο βαθμών.
 
-*Default: `false`*
+*Προεπιλογή: `false`*
 
 
 ### `student_publication_to_take_in_gradebook`
 
-**Assignment considered for gradebook**
+**Εργασία που λαμβάνεται υπόψη στο βιβλίο βαθμών**
 
-In the assignments tool, students can upload more than one file. In case there is more than one for a single assignment, which one should be considered when ranking them in the gradebook? This depends on your methodology. Use 'first' to put the accent on attention to detail (like handling in time and handling the right work first). Use 'last' to highlight collaborative and adaptative work.
+Στο εργαλείο εργασιών, οι μαθητές μπορούν να ανεβάσουν περισσότερα από ένα αρχεία. Σε περίπτωση που υπάρχουν περισσότερα από ένα για μία εργασία, ποιο πρέπει να ληφθεί υπόψη κατά την ταξινόμησή τους στο βιβλίο βαθμών; Αυτό εξαρτάται από τη μεθοδολογία σας. Χρησιμοποιήστε 'first' για να δώσετε έμφαση στην προσοχή στη λεπτομέρεια (π.χ. έγκαιρη παράδοση και σωστή εργασία πρώτη). Χρησιμοποιήστε 'last' για να αναδείξετε συνεργατική και προσαρμοστική εργασία.
 
-*Default: `first`*
+*Προεπιλογή: `first`*
 
 
 ### `teachers_can_change_grade_model_settings`
 
-**Teachers can change the Gradebook model settings**
+**Οι καθηγητές μπορούν να αλλάξουν τις ρυθμίσεις μοντέλου βιβλίου βαθμών**
 
-When editing a Gradebook
+Κατά την επεξεργασία ενός βιβλίου βαθμών
 
-*Default: `true`*
+*Προεπιλογή: `true`*
 
 
 ### `teachers_can_change_score_settings`
 
-**Teachers can change the Gradebook score settings**
+**Οι καθηγητές μπορούν να αλλάξουν τις ρυθμίσεις βαθμολογίας βιβλίου βαθμών**
 
-When editing the Gradebook settings
+Κατά την επεξεργασία των ρυθμίσεων βιβλίου βαθμών
 
-*Default: `true`*
-
-
+*Προεπιλογή: `true`*

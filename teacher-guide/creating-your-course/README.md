@@ -1,55 +1,55 @@
-# Creating Your Course
+# Δημιουργία του Μάθημά σας
 
-This section explains how to create a new course in Chamilo and configure it for your needs.
+Αυτή η ενότητα εξηγεί πώς να δημιουργήσετε ένα νέο μάθημα στο Chamilo και να το ρυθμίσετε σύμφωνα με τις ανάγκες σας.
 
-## Creating a New Course
+## Δημιουργία Νέου Μαθήματος
 
-To create a course:
+Για να δημιουργήσετε ένα μάθημα:
 
-1. Click **My courses** in the sidebar
-2. Click the **Create course** button (usually a green book <img src="/.gitbook/assets/icons/mdi-book-open-page-variant.svg" alt="Courses" data-size="line"> icon with a + sign)
-3. Fill in the course creation form:
+1. Κάντε κλικ στο **Τα μαθήματά μου** στη γραμμή πλαϊνής πλοήγησης
+2. Κάντε κλικ στο κουμπί **Δημιουργία μαθήματος** (συνήθως ένα πράσινο εικονίδιο βιβλίου <img src="/.gitbook/assets/icons/mdi-book-open-page-variant.svg" alt="Courses" data-size="line"> με σύμβολο +)
+3. Συμπληρώστε τη φόρμα δημιουργίας μαθήματος:
 
-![The course creation form with fields for name, category, code, and language](/.gitbook/assets/course-creation-form.png)
+![Η φόρμα δημιουργίας μαθήματος με πεδία για όνομα, κατηγορία, κωδικό και γλώσσα](/.gitbook/assets/course-creation-form.png)
 
-| Field | Required | Description |
-|-------|----------|-------------|
-| **Course name** | Yes | A short, descriptive title for your course (e.g., "Innovation Management") |
-| **Course category** | No | Select a category to help organize courses on the platform |
-| **Course code** | No | A short code using only letters and numbers (max 40 characters). If left blank, one is generated automatically from the course name |
-| **Language** | No | The primary language of the course. Defaults to your current language |
+| Πεδίο | Υποχρεωτικό | Περιγραφή |
+|-------|-------------|-----------|
+| **Όνομα μαθήματος** | Ναι | Ένας σύντομος, περιγραφικός τίτλος για το μάθημά σας (π.χ., "Διαχείριση Καινοτομίας") |
+| **Κατηγορία μαθήματος** | Όχι | Επιλέξτε μια κατηγορία για να βοηθήσετε στην οργάνωση των μαθημάτων στην πλατφόρμα |
+| **Κωδικός μαθήματος** | Όχι | Ένας σύντομος κωδικός χρησιμοποιώντας μόνο γράμματα και αριθμούς (μέγιστο 40 χαρακτήρες). Αν μείνει κενό, δημιουργείται αυτόματα από το όνομα του μαθήματος |
+| **Γλώσσα** | Όχι | Η κύρια γλώσσα του μαθήματος. Προεπιλογή η τρέχουσα γλώσσα σας |
 
-If enabled, you might also find a **Default room** setting and the possibility to use a **Course template** to avoid creating your course entirely from scratch.
+Αν είναι ενεργοποιημένο, μπορείτε επίσης να βρείτε μια ρύθμιση **Προεπιλεγμένη αίθουσα** και τη δυνατότητα χρήσης **Πρότυπου μαθήματος** για να αποφύγετε τη δημιουργία του μαθήματός σας εξ ολοκλήρου από την αρχή.
 
-4. Click **Create this course**
+4. Κάντε κλικ στο **Δημιουργία αυτού του μαθήματος**
 
-You will be redirected to your new course's homepage. A confirmation message will appear: "Course created successfully."
+Θα μεταφερθείτε στην αρχική σελίδα του νέου μαθήματός σας. Θα εμφανιστεί μήνυμα επιβεβαίωσης: "Το μάθημα δημιουργήθηκε επιτυχώς."
 
-## The Course Homepage
+## Η Αρχική Σελίδα του Μαθήματος
 
-Once your course is created, you land on its homepage. This is the central hub for your course, where you and your learners access all tools and content.
+Μόλις δημιουργηθεί το μάθημά σας, προσγειώνεστε στην αρχική του σελίδα. Αυτή είναι το κεντρικό κέντρο του μαθήματός σας, όπου εσείς και οι μαθητές σας έχετε πρόσβαση σε όλα τα εργαλεία και το περιεχόμενο.
 
-![The course homepage tool grid showing available course tools with icons and visibility toggles](/.gitbook/assets/course-homepage-tool-grid.png)
+![Η πλέγμα εργαλείων της αρχικής σελίδας του μαθήματος που δείχνει τα διαθέσιμα εργαλεία μαθήματος με εικονίδια και διακόπτες ορατότητας](/.gitbook/assets/course-homepage-tool-grid.png)
 
-The homepage displays:
+Η αρχική σελίδα εμφανίζει:
 
-* **Course title** — The name of your course, shown at the top.
-* **Course introduction** — An optional description or welcome message. Click the **+ Course introduction** button to add one, or the **Edit introduction** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Edit" data-size="line"> button at the top to modify it. This supports rich text with images, links, and formatting.
-* **Tool grid** — A grid of all available course tools, each shown as a card with an icon and name.
+* **Τίτλος μαθήματος** — Το όνομα του μαθήματός σας, που εμφανίζεται στην κορυφή.
+* **Εισαγωγή μαθήματος** — Μια προαιρετική περιγραφή ή μήνυμα καλωσορίσματος. Κάντε κλικ στο κουμπί **+ Εισαγωγή μαθήματος** για να προσθέσετε μία, ή στο κουμπί **Επεξεργασία εισαγωγής** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Edit" data-size="line"> στην κορυφή για να την τροποποιήσετε. Υποστηρίζει πλούσιο κείμενο με εικόνες, συνδέσμους και μορφοποίηση.
+* **Πλέγμα εργαλείων** — Ένα πλέγμα όλων των διαθέσιμων εργαλείων μαθήματος, το καθένα εμφανίζεται ως κάρτα με εικονίδιο και όνομα.
 
-### Managing Tool Visibility
+### Διαχείριση Ορατότητας Εργαλείων
 
-As a teacher, you can control which tools your learners can see:
+Ως δάσκαλος, μπορείτε να ελέγξετε ποια εργαλεία μπορούν να δουν οι μαθητές σας:
 
-* Click the **eye icon** <img src="/.gitbook/assets/icons/mdi-eye.svg" alt="Visible" data-size="line"> next to any tool to hide it from learners. Hidden tools show a **crossed-out eye** <img src="/.gitbook/assets/icons/mdi-eye-off.svg" alt="Hidden" data-size="line"> and are still accessible to you.
-* Use the **Show all** and **Hide all** buttons to change all tools at once
-* Click **Sort** to enable drag-and-drop reordering of the tool grid
+* Κάντε κλικ στο **εικονίδιο ματιού** <img src="/.gitbook/assets/icons/mdi-eye.svg" alt="Visible" data-size="line"> δίπλα σε οποιοδήποτε εργαλείο για να το αποκρύψετε από τους μαθητές. Τα κρυμμένα εργαλεία δείχνουν ένα **διαγραμμένο μάτι** <img src="/.gitbook/assets/icons/mdi-eye-off.svg" alt="Hidden" data-size="line"> και παραμένουν προσβάσιμα σε εσάς.
+* Χρησιμοποιήστε τα κουμπιά **Εμφάνιση όλων** και **Απόκρυψη όλων** για να αλλάξετε όλα τα εργαλεία ταυτόχρονα
+* Κάντε κλικ στο **Ταξινόμηση** για να ενεργοποιήσετε την επανευθετοποίηση με σύρσιμο και απόθεση του πλέγματος εργαλείων
 
-### Student View
+### Πρόσβαση Μαθητή
 
-Click the **Student view** button to see the course homepage exactly as a learner would see it. This is useful to verify that hidden tools and unpublished content are not visible. Click the button again to return to the teacher view.
+Κάντε κλικ στο κουμπί **Πρόσβαση Μαθητή** για να δείτε την αρχική σελίδα του μαθήματος ακριβώς όπως θα την έβλεπε ένας μαθητής. Αυτό είναι χρήσιμο για να επαληθεύσετε ότι τα κρυμμένα εργαλεία και το μη δημοσιευμένο περιεχόμενο δεν είναι ορατά. Κάντε κλικ στο κουμπί ξανά για να επιστρέψετε στην προβολή δασκάλου.
 
-## Next Steps
+## Επόμενα Βήματα
 
-* [Course Settings](course-settings.md) — Configure access, enrollment, and other course-level options
-* [Course Homepage](course-homepage.md) — Detailed guide to customizing your course homepage
+* [Ρυθμίσεις Μαθήματος](course-settings.md) — Ρύθμιση πρόσβασης, εγγραφής και άλλων επιλογών επιπέδου μαθήματος
+* [Αρχική Σελίδα Μαθήματος](course-homepage.md) — Λεπτομερής οδηγός προσαρμογής της αρχικής σελίδας του μαθήματός σας

@@ -1,41 +1,41 @@
-# Classes / User Groups
+# Τάξεις / Ομάδες Χρηστών
 
-Classes in the administration panel are platform-wide groups used to organize users for management purposes. They are distinct from course-level groups (which are created by teachers within a course).
+Οι τάξεις στον πίνακα διαχείρισης είναι ομάδες σε επίπεδο πλατφόρμας που χρησιμοποιούνται για την οργάνωση χρηστών για σκοπούς διαχείρισης. Διαφέρουν από τις ομάδες σε επίπεδο μαθήματος (τις οποίες δημιουργούν οι διδάσκοντες εντός ενός μαθήματος).
 
-> User groups and [Classes](../../admin-guide/sessions/classes.md) share the same interface. The only difference is the **group type** setting: choose "Class" to create a class (used for bulk session enrollment), or "User group" for more social groups that can have their own space in the internal social network. See [Classes](../../admin-guide/sessions/classes.md) for details on session enrollment.
+> Οι ομάδες χρηστών και οι [Τάξεις](../../admin-guide/sessions/classes.md) μοιράζονται το ίδιο περιβάλλον εργασίας. Η μόνη διαφορά είναι η ρύθμιση **τύπος ομάδας**: επιλέξτε "Τάξη" για να δημιουργήσετε μια τάξη (χρησιμοποιείται για μαζική εγγραφή σε συνεδρίες), ή "Ομάδα χρηστών" για πιο κοινωνικές ομάδες που μπορούν να έχουν τον δικό τους χώρο στο εσωτερικό κοινωνικό δίκτυο. Δείτε τις [Τάξεις](../../admin-guide/sessions/classes.md) για λεπτομέρειες σχετικά με την εγγραφή σε συνεδρίες.
 
-## Creating a Group
+## Δημιουργία Ομάδας
 
-![The user groups list showing available groups with name, description, and member count](/.gitbook/assets/admin-user-groups-list.png)
+![Η λίστα ομάδων χρηστών που εμφανίζει τις διαθέσιμες ομάδες με όνομα, περιγραφή και αριθμό μελών](/.gitbook/assets/admin-user-groups-list.png)
 
-1. From the administration panel, navigate to **Classes**
-2. Click **Add classes**
-3. Enter a **title** and optional **description**
-4. Check **Social group** if this will be a social group. Leave unchecked if it will be a class.
-5. Add an optionali reference URL and picture/logo.
-6. Choose the group **permissions**:
-   * **Open** — Any user can join
-   * **Closed** — Users must be added by an administrator
-7. Check if you want members to be able to leave the class by themselves.
-8. Save.
+1. Από τον πίνακα διαχείρισης, μεταβείτε στις **Τάξεις**
+2. Κάντε κλικ στο **Προσθήκη τάξεων**
+3. Εισαγάγετε έναν **τίτλο** και προαιρετική **περιγραφή**
+4. Επιλέξτε **Κοινωνική ομάδα** αν πρόκειται για κοινωνική ομάδα. Αφήστε ανεπιλεγμένο αν πρόκειται για τάξη.
+5. Προσθέστε προαιρετικά αναφορά URL και εικόνα/λόγотип.
+6. Επιλέξτε τα **δικαιώματα** της ομάδας:
+   * **Ανοιχτή** — Οποιοσδήποτε χρήστης μπορεί να εγγραφεί
+   * **Κλειστή** — Οι χρήστες πρέπει να προστεθούν από διαχειριστή
+7. Επιλέξτε αν θέλετε τα μέλη να μπορούν να εγκαταλείψουν την τάξη μόνοι τους.
+8. Αποθηκεύστε.
 
-## Adding Members
+## Προσθήκη Μελών
 
-1. Open the list of classes/user groups
-2. Click the user icon **Subscribe users to class**
-3. Search for users by name, username or email
-4. Select the users to add, using the arrows to the right side
-5. Click the confirmation button to save
+1. Ανοίξτε τη λίστα τάξεων/ομάδων χρηστών
+2. Κάντε κλικ στο εικονίδιο χρήστη **Εγγραφή χρηστών σε τάξη**
+3. Αναζητήστε χρήστες με όνομα, όνομα χρήστη ή email
+4. Επιλέξτε τους χρήστες προς προσθήκη, χρησιμοποιώντας τα βέλη στη δεξιά πλευρά
+5. Κάντε κλικ στο κουμπί επιβεβαίωσης για αποθήκευση
 
-## Use Cases
+## Περιπτώσεις Χρήσης
 
-* **Department organization** — Group users by department or team
-* **Bulk enrollment** — Add all members of a group to a course or session at once
-* **Targeted communication** — Send announcements to specific groups
-* **Reporting** — View training progress filtered by group
+* **Οργάνωση τμήματος** — Ομαδοποίηση χρηστών ανά τμήμα ή ομάδα
+* **Μαζική εγγραφή** — Προσθήκη όλων των μελών μιας ομάδας σε μάθημα ή συνεδρία ταυτόχρονα
+* **Στοχευμένη επικοινωνία** — Αποστολή ανακοινώσεων σε συγκεκριμένες ομάδες
+* **Αναφορές** — Προβολή προόδου εκπαίδευσης φιλτραρισμένης ανά ομάδα
 
-## Managing Groups
+## Διαχείριση Ομάδων
 
-* **Edit** — Change the group name, description, or visibility
-* **Manage members** — Add or remove members
-* **Delete** — Remove the group (does not delete the member accounts)
+* **Επεξεργασία** — Αλλαγή ονόματος ομάδας, περιγραφής ή ορατότητας
+* **Διαχείριση μελών** — Προσθήκη ή αφαίρεση μελών
+* **Διαγραφή** — Αφαίρεση της ομάδας (δεν διαγράφει τους λογαριασμούς των μελών)
