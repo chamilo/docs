@@ -1,26 +1,26 @@
 # SCIM
 
-**SCIM** (System for Cross-domain Identity Management) automates user provisioning — creating, updating, and deactivating Chamilo accounts based on changes in your identity provider. Unlike OAuth2 or LDAP, SCIM handles provisioning, not login.
+**SCIM** (Sistema para Gerenciamento de Identidade entre Domínios) automatiza o provisionamento de usuários — criando, atualizando e desativando contas no Chamilo com base em alterações no seu provedor de identidade. Diferentemente do OAuth2 ou LDAP, o SCIM gerencia o provisionamento, não o login.
 
-| Scenario | SCIM action |
-|----------|-------------|
-| A new employee joins | Creates a Chamilo account |
-| An employee's name or role changes | Updates the Chamilo account |
-| An employee leaves | Deactivates or deletes the Chamilo account |
+| Cenário | Ação do SCIM |
+|----------|--------------|
+| Um novo funcionário ingressa | Cria uma conta no Chamilo |
+| O nome ou cargo de um funcionário muda | Atualiza a conta no Chamilo |
+| Um funcionário sai | Desativa ou exclui a conta no Chamilo |
 
-## Configuration
+## Configuração
 
-### 1. Set the SCIM token
+### 1. Definir o token SCIM
 
-In your `.env` (or `.env.local`) file, define a secure random token:
+No seu arquivo `.env` (ou `.env.local`), defina um token aleatório seguro:
 
 ```
 SCIM_TOKEN=your-secure-random-token
 ```
 
-This token is used by your identity provider to authenticate its requests to Chamilo's SCIM endpoints.
+Esse token é usado pelo seu provedor de identidade para autenticar suas solicitações aos endpoints SCIM do Chamilo.
 
-### 2. Enable SCIM in authentication.yaml
+### 2. Habilitar o SCIM em authentication.yaml
 
 ```yaml
 authentication:
@@ -31,37 +31,37 @@ authentication:
         auth_source: platform
 ```
 
-Clear and warm the cache after editing:
+Limpe e aqueça o cache após a edição:
 
 ```bash
 php bin/console cache:clear && php bin/console cache:warmup
 ```
 
-### 3. Configure your identity provider
+### 3. Configurar seu provedor de identidade
 
-In your identity provider (Azure AD, Okta, etc.):
+No seu provedor de identidade (Azure AD, Okta, etc.):
 
-1. Add Chamilo as a SCIM application
-2. Set the SCIM base URL to `https://your-chamilo-url/scim/v2/`
-3. Enter the token from step 1 as the bearer token
-4. Map provider attributes to SCIM standard fields (userName, name.givenName, name.familyName, emails)
-5. Enable automatic provisioning
+1. Adicione o Chamilo como uma aplicação SCIM
+2. Defina a URL base do SCIM como `https://your-chamilo-url/scim/v2/`
+3. Insira o token do passo 1 como o token de portador (bearer token)
+4. Mapeie os atributos do provedor para os campos padrão do SCIM (userName, name.givenName, name.familyName, emails)
+5. Habilite o provisionamento automático
 
-## SCIM endpoints
+## Endpoints SCIM
 
-Chamilo implements SCIM 2.0:
+O Chamilo implementa o SCIM 2.0:
 
-| Endpoint | Method | Action |
-|----------|--------|--------|
-| `/scim/v2/Users` | GET | List users |
-| `/scim/v2/Users` | POST | Create a user |
-| `/scim/v2/Users/{id}` | GET | Get a user |
-| `/scim/v2/Users/{id}` | PUT | Replace a user |
-| `/scim/v2/Users/{id}` | PATCH | Update a user |
-| `/scim/v2/Users/{id}` | DELETE | Remove a user |
+| Endpoint | Método | Ação |
+|----------|--------|------|
+| `/scim/v2/Users` | GET | Listar usuários |
+| `/scim/v2/Users` | POST | Criar um usuário |
+| `/scim/v2/Users/{id}` | GET | Obter um usuário |
+| `/scim/v2/Users/{id}` | PUT | Substituir um usuário |
+| `/scim/v2/Users/{id}` | PATCH | Atualizar um usuário |
+| `/scim/v2/Users/{id}` | DELETE | Remover um usuário |
 
-## Tips
+## Dicas
 
-* **Start with a test group** — provision a small set of users before enabling SCIM for the whole organization.
-* **Combine with OAuth2** — a common setup uses Azure AD OAuth2 for login and Azure AD SCIM for provisioning.
-* **Monitor logs** — check both Chamilo (`var/log/`) and your identity provider's provisioning logs for errors.
+* **Comece com um grupo de teste** — provisione um pequeno conjunto de usuários antes de habilitar o SCIM para toda a organização.
+* **Combine com OAuth2** — uma configuração comum utiliza o Azure AD OAuth2 para login e o Azure AD SCIM para provisionamento.
+* **Monitore os logs** — verifique tanto os logs do Chamilo (`var/log/`) quanto os logs de provisionamento do seu provedor de identidade para identificar erros.

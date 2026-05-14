@@ -1,34 +1,34 @@
-# Classes
+# Turmas
 
-Classes in Chamilo are predefined groups of users that can be enrolled in sessions as a unit. They simplify the enrollment process when you regularly train the same groups of people.
+As turmas no Chamilo são grupos predefinidos de usuários que podem ser inscritos em sessões como uma unidade. Elas simplificam o processo de inscrição quando você treina regularmente os mesmos grupos de pessoas.
 
-> Classes and [User Groups](../../admin-guide/users/user-groups.md) share the same interface. The only difference is the **group type** setting: choose "Class" when creating the group. Everything else — member management, visibility, and the interface itself — works identically.
+> As turmas e os [Grupos de Usuários](../../admin-guide/users/user-groups.md) compartilham a mesma interface. A única diferença é a configuração de **tipo de grupo**: escolha "Turma" ao criar o grupo. Todo o resto — gerenciamento de membros, visibilidade e a própria interface — funciona de forma idêntica.
 
-## Creating a Class
+## Criando uma Turma
 
-1. From the administration panel, navigate to **Classes** (or User Groups and select the "Class" type)
-2. Click **Create a class**
-3. Enter a **name** (e.g., "Engineering Team", "New Hires March 2026")
-4. Add **members** — search for and select users
-5. Save
+1. No painel de administração, navegue até **Turmas** (ou Grupos de Usuários e selecione o tipo "Turma")
+2. Clique em **Criar uma turma**
+3. Insira um **nome** (por exemplo, "Equipe de Engenharia", "Novos Contratados Março 2026")
+4. Adicione **membros** — pesquise e selecione os usuários
+5. Salve
 
-## Using Classes for Enrollment
+## Usando Turmas para Inscrição
 
-When creating or editing a session, you can enroll an entire class at once instead of adding users individually:
+Ao criar ou editar uma sessão, você pode inscrever uma turma inteira de uma só vez, em vez de adicionar usuários individualmente:
 
-1. Open the session enrollment settings
-2. Click **Add a class**
-3. Select the class
-4. All members of the class are enrolled in the session
+1. Abra as configurações de inscrição da sessão
+2. Clique em **Adicionar uma turma**
+3. Selecione a turma
+4. Todos os membros da turma serão inscritos na sessão
 
-## Managing Classes
+## Gerenciando Turmas
 
-* **Edit** — Change the class name or update membership
-* **Add/remove members** — Keep the class roster up to date
-* **Delete** — Remove the class (does not affect the member accounts or their existing enrollments)
+* **Editar** — Altere o nome da turma ou atualize os membros
+* **Adicionar/remover membros** — Mantenha a lista de membros da turma atualizada
+* **Excluir** — Remova a turma (não afeta as contas dos membros ou suas inscrições existentes)
 
-## Tips
+## Dicas
 
-* **Create classes for recurring cohorts** — If you run the same training for different teams, create a class for each team
-* **Update before each session** — Review class membership before enrolling a class in a new session to ensure the roster is current
-* **Combine with CSV import** — Import class membership from a CSV file for large groups
+* **Crie turmas para grupos recorrentes** — Se você realiza o mesmo treinamento para diferentes equipes, crie uma turma para cada equipe
+* **Atualize antes de cada sessão** — Revise a lista de membros da turma antes de inscrevê-la em uma nova sessão para garantir que esteja atualizada
+* **Combine com importação CSV** — Importe a lista de membros da turma a partir de um arquivo CSV para grupos grandes

@@ -1,42 +1,42 @@
-# Email Configuration
+# Configuração de E-mail
 
-Chamilo now manages the emails sending configuration from the administration dashboard, platform settings section (there is a specific entry for emails). Emails are sent for account creations, password resets, course notifications, message alerts, and other platform events. Email delivery is configured through a `MAILER_DSN` configuration setting.
+O Chamilo agora gerencia a configuração de envio de e-mails a partir do painel de administração, na seção de configurações da plataforma (há uma entrada específica para e-mails). Os e-mails são enviados para criações de contas, redefinições de senha, notificações de cursos, alertas de mensagens e outros eventos da plataforma. A entrega de e-mails é configurada por meio de uma configuração chamada `MAILER_DSN`.
 
-## Configuration
+## Configuração
 
-Set the `Mail DSN` option in the /admin/settings/mail section. The format depends on your email transport.
+Defina a opção `Mail DSN` na seção /admin/settings/mail. O formato depende do seu transporte de e-mail.
 
 ### SMTP
 
-The most common configuration, suitable for any SMTP server:
+A configuração mais comum, adequada para qualquer servidor SMTP:
 
 ```bash
-# Let the system decide
+# Deixe o sistema decidir
 native://default
 
-# Basic SMTP
+# SMTP básico
 smtp://username:password@smtp.example.com:587
 
-# SMTP with TLS (most providers)
+# SMTP com TLS (a maioria dos provedores)
 smtp://username:password@smtp.example.com:587?encryption=tls
 
-# SMTP without authentication (local relay)
+# SMTP sem autenticação (relay local)
 smtp://localhost:25
 ```
 
-Replace `username`, `password`, and the host with your SMTP server credentials.
+Substitua `username`, `password` e o host pelas credenciais do seu servidor SMTP.
 
 ### Amazon SES
 
 ```bash
-# Using SMTP interface
+# Usando interface SMTP
 ses+smtp://ACCESS_KEY:SECRET_KEY@default?region=us-east-1
 
-# Using API
+# Usando API
 ses+api://ACCESS_KEY:SECRET_KEY@default?region=us-east-1
 ```
 
-The Symfony Amazon Mailer transport comes embedded into Chamilo. No additional install required.
+O transporte Symfony Amazon Mailer vem integrado ao Chamilo. Não é necessária instalação adicional.
 
 ### Mailjet
 
@@ -44,48 +44,48 @@ The Symfony Amazon Mailer transport comes embedded into Chamilo. No additional i
 mailjet+api://API_KEY:SECRET_KEY@default
 ```
 
-The Symfony Mailjet transport comes embedded into Chamilo. No additional install required.
+O transporte Symfony Mailjet vem integrado ao Chamilo. Não é necessária instalação adicional.
 
-### Brevo (formerly Sendinblue)
+### Brevo (anteriormente Sendinblue)
 
 ```bash
 brevo+api://API_KEY@default
 ```
 
-The Symfony Brevo transport comes embedded into Chamilo. No additional install required.
+O transporte Symfony Brevo vem integrado ao Chamilo. Não é necessária instalação adicional.
 
-### Gmail (Development/Small Platforms)
+### Gmail (Desenvolvimento/Pequenas Plataformas)
 
 ```bash
 gmail+smtp://your-email@gmail.com:app-password@default
 ```
 
-Use an App Password, not your regular Gmail password. This is suitable for small platforms or development only, as Gmail has sending limits.
+Use uma Senha de Aplicativo, não a sua senha regular do Gmail. Isso é adequado apenas para pequenas plataformas ou desenvolvimento, pois o Gmail possui limites de envio.
 
-## Platform Email Settings
+## Configurações de E-mail da Plataforma
 
-In addition to the transport, configure the sender identity on the same page:
+Além do transporte, configure a identidade do remetente na mesma página:
 
-| Setting | Description |
-|---------|-------------|
-| **Send all e-mails as originating from this (organizational) name** | The display name associated with system emails. |
-| **Send all e-mails from this e-mail address** | The "From" address for all system emails. Must be a valid address accepted by your mail transport. We recommend using a "no reply" address like `no-reply@yourdomain.com` to avoid getting pointless answers to automated e-mails. |
+| Configuração | Descrição |
+|--------------|-----------|
+| **Enviar todos os e-mails como originados deste nome (organizacional)** | O nome de exibição associado aos e-mails do sistema. |
+| **Enviar todos os e-mails a partir deste endereço de e-mail** | O endereço "De" para todos os e-mails do sistema. Deve ser um endereço válido aceito pelo seu transporte de e-mail. Recomendamos usar um endereço "no reply" como `no-reply@seu-dominio.com` para evitar respostas desnecessárias a e-mails automáticos. |
 
-## Testing Email Delivery
+## Testando a Entrega de E-mails
 
-After configuring `MAILER_DSN`, test that emails are delivered: Go to *Administration* > *System* > *E-mail tester*, specify a recipient, a subject and an e-mail body and click **Send test email**.
+Após configurar o `MAILER_DSN`, teste se os e-mails estão sendo entregues: Vá para *Administração* > *Sistema* > *Testador de E-mail*, especifique um destinatário, um assunto e o corpo do e-mail e clique em **Enviar e-mail de teste**.
 
-If the command completes without errors but the email is not received:
+Se o comando for concluído sem erros, mas o e-mail não for recebido:
 
-1. Check the recipient's spam/junk folder.
-2. Verify that your sending domain has proper DNS records (SPF, DKIM, DMARC).
-3. Check your mail provider's sending logs for bounces or rejections.
-4. Review the Chamilo log at `var/log/prod.log` for mailer errors.
-5. In the E-mail configuration settings, enable *Mail: Debug* (not available in 2.0, will be soon).
+1. Verifique a pasta de spam/lixo do destinatário.
+2. Confirme se o seu domínio de envio possui registros DNS adequados (SPF, DKIM, DMARC).
+3. Verifique os logs de envio do seu provedor de e-mail para rejeições ou devoluções.
+4. Revise o log do Chamilo em `var/log/prod.log` para erros do mailer.
+5. Nas configurações de e-mail, habilite *Mail: Debug* (não disponível na versão 2.0, estará em breve).
 
-## Experimental: Email Queue (Async Delivery)
+## Experimental: Fila de E-mails (Entrega Assíncrona)
 
-By default, emails are sent synchronously during the web request. For better performance, configure asynchronous delivery using Symfony Messenger:
+Por padrão, os e-mails são enviados de forma síncrona durante a solicitação web. Para melhor desempenho, configure a entrega assíncrona usando o Symfony Messenger:
 
 ```yaml
 # config/packages/messenger.yaml
@@ -97,16 +97,16 @@ framework:
             'Symfony\Component\Mailer\Messenger\SendEmailMessage': async
 ```
 
-With async delivery, emails are queued and sent by a background worker:
+Com a entrega assíncrona, os e-mails são enfileirados e enviados por um trabalhador em segundo plano:
 
 ```bash
 php bin/console messenger:consume async
 ```
 
-Run this as a system service (e.g., via systemd or supervisord) so it stays running.
+Execute isso como um serviço do sistema (por exemplo, via systemd ou supervisord) para que continue funcionando.
 
-## Tips
+## Dicas
 
-* **Use a dedicated email service** (SES, Mailjet, Brevo) for production platforms. Direct SMTP to your own mail server requires careful configuration to avoid deliverability issues.
-* **Configure SPF, DKIM, and DMARC** DNS records for your sending domain to maximize delivery rates and prevent emails from being marked as spam. You can also configure DKIM headers from the e-mail settings page.
-* **Use async delivery** on platforms with more than a few dozen active users -- synchronous email sending can noticeably slow down web requests.
+* **Use um serviço de e-mail dedicado** (SES, Mailjet, Brevo) para plataformas de produção. O SMTP direto para o seu próprio servidor de e-mail exige configuração cuidadosa para evitar problemas de entregabilidade.
+* **Configure registros DNS SPF, DKIM e DMARC** para o seu domínio de envio para maximizar as taxas de entrega e evitar que os e-mails sejam marcados como spam. Você também pode configurar cabeçalhos DKIM na página de configurações de e-mail.
+* **Use entrega assíncrona** em plataformas com mais de algumas dezenas de usuários ativos — o envio síncrono de e-mails pode desacelerar visivelmente as solicitações web.

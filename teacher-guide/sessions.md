@@ -1,46 +1,46 @@
-# Sessions
+# Sessões
 
-Sessions in Chamilo are a way to deliver the same course to different groups of learners at different times, without duplicating the course content. Think of a session as a scheduled edition or cohort of a course.
+As sessões no Chamilo são uma forma de oferecer o mesmo curso a diferentes grupos de alunos em momentos distintos, sem duplicar o conteúdo do curso. Pense em uma sessão como uma edição agendada ou coorte de um curso.
 
-## How Sessions Work
+## Como Funcionam as Sessões
 
-A **course** is a container of content and tools. A **session** assigns that course to a specific group of learners for a specific time period. This means:
+Um **curso** é um contêiner de conteúdo e ferramentas. Uma **sessão** atribui esse curso a um grupo específico de alunos por um período de tempo determinado. Isso significa:
 
-* The same course can be reused across multiple sessions
-* Each session has its own enrolled learners and its own start/end dates
-* Each session has its own results — grades, progress, and tracking data are kept separate per session
-* The base course content is shared, but teachers can customize certain elements per session
+* O mesmo curso pode ser reutilizado em várias sessões
+* Cada sessão tem seus próprios alunos inscritos e suas próprias datas de início e término
+* Cada sessão tem seus próprios resultados — notas, progresso e dados de rastreamento são mantidos separados por sessão
+* O conteúdo base do curso é compartilhado, mas os professores podem personalizar certos elementos por sessão
 
-## Your Sessions
+## Suas Sessões
 
-From the sidebar, click **My sessions** to see your sessions. They are organized into three views:
+Na barra lateral, clique em **Minhas sessões** para ver suas sessões. Elas estão organizadas em três visualizações:
 
-![The My Sessions page showing current, past, and upcoming session views](/.gitbook/assets/my-sessions-list.png)
+![A página Minhas Sessões mostrando as visualizações de sessões atuais, passadas e futuras](/.gitbook/assets/my-sessions-list.png)
 
-* **Current sessions** — Sessions that are currently active
-* **Past sessions** — Sessions that have ended
-* **Upcoming sessions** — Sessions that have not started yet
+* **Sessões atuais** — Sessões que estão ativas no momento
+* **Sessões passadas** — Sessões que já terminaram
+* **Sessões futuras** — Sessões que ainda não começaram
 
-Each session shows the courses it contains. Click on a course within a session to access it.
+Cada sessão mostra os cursos que contém. Clique em um curso dentro de uma sessão para acessá-lo.
 
-## Teaching in a Session
+## Ensinando em uma Sessão
 
-When you enter a course through a session, the experience is similar to a regular course, with a few differences:
+Quando você entra em um curso por meio de uma sessão, a experiência é semelhante a um curso regular, com algumas diferenças:
 
-* The **session name** appears alongside the course title, so you always know which session you are working in
-* Learner data (progress, grades, submissions) is specific to this session
-* Some settings (like the ability to change the visibility of tools) may be locked by the session administrator
+* O **nome da sessão** aparece ao lado do título do curso, para que você sempre saiba em qual sessão está trabalhando
+* Os dados dos alunos (progresso, notas, entregas) são específicos dessa sessão
+* Algumas configurações (como a capacidade de alterar a visibilidade de ferramentas) podem estar bloqueadas pelo administrador da sessão
 
-## Session Roles
+## Papéis nas Sessões
 
-Sessions introduce additional roles:
+As sessões introduzem papéis adicionais:
 
-| Role | Description |
+| Papel | Descrição |
 |------|-------------|
-| **Session administrator** | Manages the creation and configuration of sessions |
-| **Session coach** | Oversees all courses within a session (can access tracking across courses) |
-| **Course coach** | Teaches a specific course within a session |
+| **Administrador da sessão** | Gerencia a criação e configuração de sessões |
+| **Tutor da sessão** | Supervisiona todos os cursos dentro de uma sessão (pode acessar o rastreamento entre cursos) |
+| **Tutor do curso** | Ensina um curso específico dentro de uma sessão |
 
-If you are assigned as a **course coach** in a session, you can manage that course's content and track learner progress for the session's learners.
+Se você for designado como **tutor do curso** em uma sessão, poderá gerenciar o conteúdo desse curso e acompanhar o progresso dos alunos dessa sessão.
 
-> Sessions are typically managed by administrators. If you need to create or modify a session, contact your platform administrator or session administrator.
+> As sessões são geralmente gerenciadas por administradores. Se você precisar criar ou modificar uma sessão, entre em contato com o administrador da plataforma ou o administrador da sessão.

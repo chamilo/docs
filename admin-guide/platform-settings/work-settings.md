@@ -1,103 +1,103 @@
-# Assignments (Work) Settings
+# Configurações de Tarefas (Trabalhos)
 
-Defaults and behaviour of the **Assignments (Student Publications)** tool.
+Padrões e comportamento da ferramenta **Tarefas (Publicações de Estudantes)**.
 
-Access these settings under **Administration > Configuration settings > Assignments (Work)**. This category contains **12 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+Acesse essas configurações em **Administração > Configurações de configuração > Tarefas (Trabalhos)**. Esta categoria contém **12 configurações**, listadas abaixo com o título e o comentário fornecidos nos arquivos de configurações da plataforma (`SettingsCurrentFixtures.php`).
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> O nome da variável no código é mostrado em fonte monoespaçada. Use-o ao criar scripts via API ou quando precisar alterar essas configurações em um nível global editando [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
 
-## Settings
+## Configurações
 
 ### `allow_compilatio_tool`
 
-**Enable Compilatio**
+**Ativar Compilatio**
 
-Compilatio is an anti-cheating service that compares text between two submissions and reports if there is a high probability the content (usually assignments) is not genuine.
+Compilatio é um serviço anti-fraude que compara textos entre duas submissões e relata se há alta probabilidade de que o conteúdo (geralmente tarefas) não seja autêntico.
 
-*Default: `false`*
+*Padrão: `false`*
 
 ### `allow_my_student_publication_page`
 
-**Enable My assignments page**
+**Ativar página Minhas tarefas**
 
-[inferred] Enable a dedicated page for learners to view and manage their own submitted assignments.
+[inferido] Habilita uma página dedicada para os alunos visualizarem e gerenciarem suas tarefas enviadas.
 
-*Default: `false`*
+*Padrão: `false`*
 
 ### `allow_only_one_student_publication_per_user`
 
-**Students can only upload one assignment**
+**Estudantes podem enviar apenas uma tarefa**
 
-[inferred] Restrict learners to submitting only one assignment per activity, preventing multiple submissions.
+[inferido] Restringe os alunos a enviar apenas uma tarefa por atividade, impedindo múltiplas submissões.
 
-*Default: `false`*
+*Padrão: `false`*
 
 ### `allow_redirect_to_main_page_after_work_upload`
 
-**Redirect to assigment tool homepage after upload or comment**
+**Redirecionar para a página inicial da ferramenta de tarefas após envio ou comentário**
 
-Redirect to assignments list after uploading an assignment or a adding a comment
+Redireciona para a lista de tarefas após o envio de uma tarefa ou a adição de um comentário.
 
-*Default: `false`*
+*Padrão: `false`*
 
 ### `assignment_prevent_duplicate_upload`
 
-**Prevent duplicate uploads in assignments**
+**Impedir envios duplicados em tarefas**
 
-[inferred] Block learners from uploading identical files for the same assignment submission.
+[inferido] Impede que os alunos enviem arquivos idênticos para a mesma submissão de tarefa.
 
-*Default: `false`*
+*Padrão: `false`*
 
 ### `block_student_publication_add_documents`
 
-**Prevent adding documents to assignments**
+**Impedir a adição de documentos às tarefas**
 
-[inferred] Prevent learners from adding or attaching documents when submitting assignments.
+[inferido] Impede que os alunos adicionem ou anexem documentos ao enviar tarefas.
 
-*Default: `false`*
+*Padrão: `false`*
 
 ### `block_student_publication_edition`
 
-**Prevent assignments edition**
+**Impedir a edição de tarefas**
 
-[inferred] Prevent learners from modifying or updating their submitted assignments after initial submission.
+[inferido] Impede que os alunos modifiquem ou atualizem suas tarefas enviadas após a submissão inicial.
 
-*Default: `false`*
+*Padrão: `false`*
 
 ### `block_student_publication_score_edition`
 
-**Prevent teacher from modifying assignment scores**
+**Impedir que o professor modifique as pontuações das tarefas**
 
-[inferred] Prevent instructors from changing assignment scores after they have been recorded.
+[inferido] Impede que os instrutores alterem as pontuações das tarefas após terem sido registradas.
 
-*Default: `false`*
+*Padrão: `false`*
 
 ### `compilatio_tool`
 
-**Compilatio settings**
+**Configurações do Compilatio**
 
-Configure the Compilatio connection details here.
+Configure os detalhes de conexão do Compilatio aqui.
 
 ### `considered_working_time`
 
-**Enable time effort for assignments**
+**Ativar esforço de tempo para tarefas**
 
-This will allow teachers to give an estimated time effort (in hh:mm:ss format) to complete the assignment. Upon submission of the assignment and approval by the teacher (the assignment is given a score), the learner will automatically be assigned the corresponding time.
+Isso permitirá que os professores forneçam um tempo estimado de esforço (no formato hh:mm:ss) para completar a tarefa. Após a submissão da tarefa e aprovação pelo professor (a tarefa recebe uma pontuação), o aluno será automaticamente atribuído ao tempo correspondente.
 
-*Default: `work_time`*
+*Padrão: `work_time`*
 
 ### `force_download_doc_before_upload_work`
 
-**Force download of document before assignment upload**
+**Forçar download do documento antes do envio da tarefa**
 
-Force users to download the provided document in the assignment definition before they can upload their assignment.
+Força os usuários a baixarem o documento fornecido na definição da tarefa antes de poderem enviar sua tarefa.
 
-*Default: `true`*
+*Padrão: `true`*
 
 ### `my_courses_show_pending_work`
 
-**Display link to 'pending' assignments from My courses page**
+**Exibir link para tarefas 'pendentes' na página Meus cursos**
 
-[inferred] Display a link or count of pending assignments on the learner's My Courses page for quick access.
+[inferido] Exibe um link ou contador de tarefas pendentes na página Meus Cursos do aluno para acesso rápido.
 
-*Default: `false`*
+*Padrão: `false`*

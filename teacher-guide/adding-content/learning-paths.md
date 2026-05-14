@@ -1,115 +1,115 @@
-# Learning Paths
+# Caminhos de Aprendizagem
 
-Learning paths let you create structured sequences of learning activities. A learning path guides your learners through a specific order of documents, exercises, links, and other resources, with optional prerequisites and progress tracking.
+Os caminhos de aprendizagem permitem criar sequências estruturadas de atividades de aprendizado. Um caminho de aprendizagem orienta seus alunos por uma ordem específica de documentos, exercícios, links e outros recursos, com pré-requisitos opcionais e acompanhamento de progresso.
 
-This tool is arguably the most used course tool, because it acts as a composer for many other tools and can very much be the ***only*** tool facing learners.
+Esta ferramenta é, sem dúvida, a mais utilizada no curso, pois atua como um compositor para muitas outras ferramentas e pode ser, de fato, a ***única*** ferramenta voltada para os alunos.
 
-## Why Use Learning Paths?
+## Por que Usar Caminhos de Aprendizagem?
 
-Learning paths are useful when you want to:
+Os caminhos de aprendizagem são úteis quando você deseja:
 
-* **Control the order** of content consumption — ensure learners complete foundational material before advancing
-* **Track progress** — see exactly where each learner is in the sequence
-* **Set prerequisites** — require learners to pass an exercise before accessing the next section
-* **Award completion** — link learning path completion to the gradebook and certificates
-* **Package content** — create self-contained learning modules that learners can work through at their own pace
+* **Controlar a ordem** de consumo de conteúdo — garantir que os alunos concluam o material básico antes de avançar
+* **Acompanhar o progresso** — ver exatamente onde cada aluno está na sequência
+* **Definir pré-requisitos** — exigir que os alunos passem em um exercício antes de acessar a próxima seção
+* **Conceder conclusão** — vincular a conclusão do caminho de aprendizagem ao livro de notas e certificados
+* **Empacotar conteúdo** — criar módulos de aprendizagem autônomos que os alunos possam trabalhar no seu próprio ritmo
 
-## Creating a Learning Path
+## Criando um Caminho de Aprendizagem
 
-1. Open the **Learning paths** <img src="/.gitbook/assets/icons/mdi-map-marker-path.svg" alt="Learning paths" data-size="line"> tool from the course homepage
-2. Click **Create a learning path**
-3. Enter a **title** and optional description
-4. Save — you will be taken to the learning path editor
+1. Abra a ferramenta **Caminhos de aprendizagem** <img src="/.gitbook/assets/icons/mdi-map-marker-path.svg" alt="Caminhos de aprendizagem" data-size="line"> na página inicial do curso
+2. Clique em **Criar um caminho de aprendizagem**
+3. Insira um **título** e uma descrição opcional
+4. Salve — você será levado ao editor de caminho de aprendizagem
 
-## The Learning Path Editor
+## O Editor de Caminho de Aprendizagem
 
-![The learning path editor with the item tree on the left and content preview on the right](/.gitbook/assets/learning-path-editor.png)
+![O editor de caminho de aprendizagem com a árvore de itens à esquerda e a pré-visualização do conteúdo à direita](/.gitbook/assets/learning-path-editor.png)
 
-The editor has two main areas:
+O editor possui duas áreas principais:
 
-* **Left panel** — The list of items (steps) in the learning path, shown as a tree structure
-* **Right panel** — The content of the selected item
+* **Painel esquerdo** — A lista de itens (etapas) no caminho de aprendizagem, exibida como uma estrutura em árvore
+* **Painel direito** — O conteúdo do item selecionado
 
-### Adding Items
+### Adicionando Itens
 
-Click **Add an item** and choose what to add:
+Clique em **Adicionar um item** e escolha o que adicionar:
 
-| Item type | Description |
-|-----------|-------------|
-| **Section** | A heading that groups related items (like a chapter title). Sections do not contain content themselves. |
-| **Document** | A file or web page from your course's Documents tool |
-| **Exercise** | A quiz or test from the Exercises tool |
-| **Link** | An external URL |
-| **Assignment** | A student publication from the Assignments tool |
-| **Forum** | A link to a course forum |
-| **Survey** | A link to a survey |
-| **Certificate** | A special page to trigger the generation of a completion certificate or the awarding of skills |
+| Tipo de Item | Descrição |
+|--------------|-----------|
+| **Seção** | Um cabeçalho que agrupa itens relacionados (como um título de capítulo). As seções não contêm conteúdo por si mesmas. |
+| **Documento** | Um arquivo ou página da web da ferramenta Documentos do seu curso |
+| **Exercício** | Um questionário ou teste da ferramenta Exercícios |
+| **Link** | Uma URL externa |
+| **Tarefa** | Uma publicação de aluno da ferramenta Tarefas |
+| **Fórum** | Um link para um fórum do curso |
+| **Pesquisa** | Um link para uma pesquisa |
+| **Certificado** | Uma página especial para disparar a geração de um certificado de conclusão ou a concessão de competências |
 
-### Organizing Items
+### Organizando Itens
 
-* **Drag and drop** items to reorder them
-* **Nest items** under sections by dragging them to the right
-* **Delete** items you no longer need
+* **Arraste e solte** itens para reordená-los
+* **Aninhe itens** sob seções arrastando-os para a direita
+* **Exclua** itens que não são mais necessários
 
-### Setting Prerequisites
+### Definindo Pré-requisitos
 
-Prerequisites ensure learners complete certain steps before accessing others:
+Os pré-requisitos garantem que os alunos concluam certas etapas antes de acessar outras:
 
-1. Select an item in the learning path
-2. Open its **prerequisites** settings
-3. Choose which preceding item(s) must be completed first
-4. For exercises, you can require a **minimum score** (e.g., "Must score at least 70% on Quiz 1 before accessing Module 2")
+1. Selecione um item no caminho de aprendizagem
+2. Abra as configurações de **pré-requisitos**
+3. Escolha qual(is) item(ns) anterior(es) deve(m) ser concluído(s) primeiro
+4. Para exercícios, você pode exigir uma **pontuação mínima** (por exemplo, "Deve obter pelo menos 70% no Questionário 1 antes de acessar o Módulo 2")
 
-## Learner Experience
+## Experiência do Aluno
 
-When a learner opens a learning path:
+Quando um aluno abre um caminho de aprendizagem:
 
-* They see the list of items in the left panel
-* Completed items are marked with a checkmark
-* Items with unmet prerequisites are locked
-* Progress is tracked automatically — if a learner leaves and comes back, they resume where they left off
-* A progress bar shows overall completion percentage
+* Ele vê a lista de itens no painel esquerdo
+* Itens concluídos são marcados com um sinal de verificação
+* Itens com pré-requisitos não atendidos estão bloqueados
+* O progresso é rastreado automaticamente — se um aluno sair e voltar, ele retoma de onde parou
+* Uma barra de progresso mostra a porcentagem de conclusão geral
 
-## SCORM Content
+## Conteúdo SCORM
 
-Chamilo's learning path tool can import **SCORM 1.2** packages — the most widely used e-learning standard. Upload a SCORM ZIP file and Chamilo will create a learning path from it, tracking progress and scores according to the SCORM specification.
+A ferramenta de caminho de aprendizagem do Chamilo pode importar pacotes **SCORM 1.2** — o padrão de e-learning mais amplamente utilizado. Faça upload de um arquivo ZIP SCORM e o Chamilo criará um caminho de aprendizagem a partir dele, rastreando progresso e pontuações de acordo com a especificação SCORM.
 
-To import a SCORM package:
+Para importar um pacote SCORM:
 
-1. In the Learning paths tool, open the actions menu and click **Upload**
-2. Upload the ZIP file
-3. Chamilo unpacks and creates the learning path automatically
+1. Na ferramenta Caminhos de aprendizagem, abra o menu de ações e clique em **Upload**
+2. Faça upload do arquivo ZIP
+3. O Chamilo descompacta e cria o caminho de aprendizagem automaticamente
 
-### CMI5 / xAPI packages
+### Pacotes CMI5 / xAPI
 
-CMI5 packages (the modern xAPI-based successor to SCORM) are supported through the **XApi** plugin. Once the plugin is enabled by your administrator, you can import a CMI5 package and learners can launch it from the course; their statements are forwarded to the configured Learning Record Store.
+Pacotes CMI5 (o sucessor moderno baseado em xAPI do SCORM) são suportados por meio do plugin **XApi**. Uma vez que o plugin é habilitado pelo seu administrador, você pode importar um pacote CMI5 e os alunos podem iniciá-lo a partir do curso; suas declarações são encaminhadas para o Learning Record Store configurado.
 
-## Learning Path Settings
+## Configurações do Caminho de Aprendizagem
 
-Configure how the learning path behaves:
+Configure como o caminho de aprendizagem se comporta:
 
-| Setting | Description |
-|---------|-------------|
-| **Visibility** | Hide or show the learning path to learners |
-| **Prerequisites** | Require completion of other learning paths before this one |
-| **Auto-launch** | Automatically open this learning path when learners enter the course |
-| **Accumulated SCORM time** | Whether to accumulate time across multiple sessions |
+| Configuração | Descrição |
+|--------------|-----------|
+| **Visibilidade** | Ocultar ou mostrar o caminho de aprendizagem para os alunos |
+| **Pré-requisitos** | Exigir a conclusão de outros caminhos de aprendizagem antes deste |
+| **Início automático** | Abrir automaticamente este caminho de aprendizagem quando os alunos entrarem no curso |
+| **Tempo SCORM acumulado** | Se deve acumular tempo ao longo de várias sessões |
 
-## Linking to the Gradebook
+## Vinculando ao Livro de Notas
 
-You can include learning path completion as a graded activity in the Gradebook. This allows learning path progress to contribute to the learner's overall course grade and certificate eligibility.
+Você pode incluir a conclusão do caminho de aprendizagem como uma atividade avaliada no Livro de Notas. Isso permite que o progresso no caminho de aprendizagem contribua para a nota geral do curso do aluno e para a elegibilidade ao certificado.
 
-## Using AI
+## Usando IA
 
-If the administrator has enabled AI-assisted learning path generation, you will find an AI generator option in the drop-down actions menu. Give the AI as precise a context as you want your learning path, ask for a number of pages and an approximate number of words per page, then tell it if you want to populate it with tests and launch. A few minutes later, you are looking down at a complete, text-based learning path.
+Se o administrador tiver habilitado a geração de caminhos de aprendizagem assistidos por IA, você encontrará uma opção de gerador de IA no menu suspenso de ações. Forneça à IA um contexto tão preciso quanto desejar para o seu caminho de aprendizagem, solicite um número de páginas e um número aproximado de palavras por página, e então informe se deseja preenchê-lo com testes e lançá-lo. Alguns minutos depois, você estará olhando para um caminho de aprendizagem completo, baseado em texto.
 
-Edit the documents to generate illustrations with more AI and you only have some review to do before you can share it with your learners.
+Edite os documentos para gerar ilustrações com mais IA e você terá apenas algumas revisões a fazer antes de compartilhá-lo com seus alunos.
 
-## Tips
+## Dicas
 
-* **Start with an outline** — Plan your sections and items before building the path
-* **Use sections as chapters** — Group related items under section headings for clarity
-* **Set prerequisites for assessments** — Require learners to study the content before taking a quiz
-* **Mix content types** — Combine reading materials, videos, interactive exercises, and external resources for an engaging learning experience
-* **Check the learner view** — Use the Student View feature to experience the learning path as a learner would
-* **Use SCORM for interactivity** — If you have access to SCORM authoring tools (like Articulate, iSpring, or similar), create rich interactive content and import it into Chamilo
+* **Comece com um esboço** — Planeje suas seções e itens antes de construir o caminho
+* **Use seções como capítulos** — Agrupe itens relacionados sob títulos de seção para maior clareza
+* **Defina pré-requisitos para avaliações** — Exija que os alunos estudem o conteúdo antes de fazer um teste
+* **Misture tipos de conteúdo** — Combine materiais de leitura, vídeos, exercícios interativos e recursos externos para uma experiência de aprendizagem envolvente
+* **Verifique a visão do aluno** — Use o recurso de Visualização do Aluno para experimentar o caminho de aprendizagem como um aluno o faria
+* **Use SCORM para interatividade** — Se você tiver acesso a ferramentas de autoria SCORM (como Articulate, iSpring ou similares), crie conteúdo interativo rico e importe-o para o Chamilo

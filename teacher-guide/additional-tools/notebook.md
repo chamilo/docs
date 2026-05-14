@@ -1,23 +1,23 @@
-# Notebook
+# Caderno de Anotações
 
-The notebook is a personal note-taking tool for learners. Each learner has their own private notebook within the course.
+O caderno de anotações é uma ferramenta pessoal para os alunos tomarem notas. Cada aluno possui seu próprio caderno privado dentro do curso.
 
-## How It Works
+## Como Funciona
 
-The notebook is a simple tool where learners can:
+O caderno de anotações é uma ferramenta simples onde os alunos podem:
 
-* **Create notes** — Write and save personal notes related to the course content
-* **Organize notes** — Review, edit, and delete their notes
-* **Keep them private** — Notes are visible only to the learner who created them
+* **Criar notas** — Escrever e salvar notas pessoais relacionadas ao conteúdo do curso
+* **Organizar notas** — Revisar, editar e excluir suas notas
+* **Mantê-las privadas** — As notas são visíveis apenas para o aluno que as criou
 
-## As a Teacher
+## Como Professor
 
-As a teacher, you should be aware that:
+Como professor, você deve estar ciente de que:
 
-* The notebook is a **personal tool** — you cannot see your learners' notes
-* It is useful as a **reflection tool** — encourage learners to take notes while studying
-* Notes are stored within the course — they are not shared across courses
+* O caderno de anotações é uma **ferramenta pessoal** — você não pode ver as notas dos seus alunos
+* É útil como uma **ferramenta de reflexão** — incentive os alunos a fazerem anotações enquanto estudam
+* As notas são armazenadas dentro do curso — elas não são compartilhadas entre diferentes cursos
 
-## Enabling the Notebook
+## Ativando o Caderno de Anotações
 
-The notebook tool appears on the course homepage if it is enabled. If you do not see it, check that it is not hidden (look for hidden tools on the course homepage).
+A ferramenta de caderno de anotações aparece na página inicial do curso se estiver ativada. Se você não a visualizar, verifique se ela não está oculta (procure por ferramentas ocultas na página inicial do curso).

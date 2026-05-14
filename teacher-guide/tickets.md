@@ -1,78 +1,78 @@
-# Support Tickets
+# Bilhetes de Suporte
 
-The **Tickets** tool is a built-in helpdesk system that lets users submit support requests and track their resolution. Depending on how your platform is configured, you may use it as a **requester** (submitting tickets on behalf of yourself or your learners) or as a **support agent** (responding to tickets assigned to your category).
+A ferramenta **Bilhetes** é um sistema de helpdesk integrado que permite aos usuários enviar solicitações de suporte e acompanhar sua resolução. Dependendo de como sua plataforma está configurada, você pode usá-la como **solicitante** (enviando bilhetes em seu nome ou em nome de seus alunos) ou como **agente de suporte** (respondendo a bilhetes atribuídos à sua categoria).
 
-## How the System Is Organized
+## Como o Sistema Está Organizado
 
-Tickets belong to **projects**, which are further divided into **categories**. Each category can have one or more support agents assigned to it. When a ticket is submitted, it is automatically routed to an available agent in the selected category.
+Os bilhetes pertencem a **projetos**, que são subdivididos em **categorias**. Cada categoria pode ter um ou mais agentes de suporte atribuídos a ela. Quando um bilhete é enviado, ele é automaticamente encaminhado para um agente disponível na categoria selecionada.
 
-Default categories include:
+As categorias padrão incluem:
 
-| Category | Description |
+| Categoria | Descrição |
 |----------|-------------|
-| Enrollment | Questions and issues about course or session enrollment |
-| General information | General platform questions |
-| Requests and paperwork | Administrative requests and documentation |
-| Academic Incidents | Issues related to exams, assignments, or tasks |
-| Virtual campus | Technical issues with the platform |
-| Online evaluation | Issues with a specific course assessment (requires selecting a course) |
+| Matrícula | Perguntas e problemas sobre matrícula em cursos ou sessões |
+| Informações gerais | Perguntas gerais sobre a plataforma |
+| Solicitações e documentação | Pedidos administrativos e documentação |
+| Incidentes acadêmicos | Problemas relacionados a exames, tarefas ou atividades |
+| Campus virtual | Problemas técnicos com a plataforma |
+| Avaliação online | Problemas com uma avaliação específica de um curso (requer a seleção de um curso) |
 
-## Accessing the Ticket Tool
+## Acessando a Ferramenta de Bilhetes
 
-If your administrator has enabled the ticket link, a ticket icon <img src="/.gitbook/assets/icons/mdi-ticket-account.svg" alt="Ticket" data-size="line"> appears in the top navigation bar. Click it to go directly to the ticket submission form.
+Se o administrador tiver ativado o link de bilhetes, um ícone de bilhete <img src="/.gitbook/assets/icons/mdi-ticket-account.svg" alt="Bilhete" data-size="line"> aparecerá na barra de navegação superior. Clique nele para ir diretamente ao formulário de envio de bilhetes.
 
-You can also access your tickets from the main menu under **Support** or **Tickets**, depending on your platform configuration.
+Você também pode acessar seus bilhetes pelo menu principal em **Suporte** ou **Bilhetes**, dependendo da configuração da sua plataforma.
 
-## Submitting a Ticket
+## Enviando um Bilhete
 
-To open a new support request:
+Para abrir uma nova solicitação de suporte:
 
-1. Click **New ticket** (or the ticket icon in the top bar).
-2. Select the **category** that best matches your issue.
-3. If the category requires it (for example, Online evaluation), select the relevant **course**.
-4. Enter a **subject** — a short summary of the issue.
-5. Write your **message** describing the problem in detail.
-6. Optionally attach files (screenshots, documents) to help the support agent understand the issue.
-7. Click **Submit**.
+1. Clique em **Novo bilhete** (ou no ícone de bilhete na barra superior).
+2. Selecione a **categoria** que melhor corresponde ao seu problema.
+3. Se a categoria exigir (por exemplo, Avaliação online), selecione o **curso** relevante.
+4. Insira um **assunto** — um breve resumo do problema.
+5. Escreva sua **mensagem** descrevendo o problema em detalhes.
+6. Opcionalmente, anexe arquivos (capturas de tela, documentos) para ajudar o agente de suporte a entender o problema.
+7. Clique em **Enviar**.
 
-The ticket is assigned an ID and routed to a support agent. You will receive a notification when the agent responds.
+O bilhete recebe um ID e é encaminhado para um agente de suporte. Você receberá uma notificação quando o agente responder.
 
-## Tracking Your Tickets
+## Acompanhando Seus Bilhetes
 
-From the ticket list, you can see all tickets you have submitted and their current status:
+Na lista de bilhetes, você pode ver todos os bilhetes que enviou e seu status atual:
 
-| Status | Meaning |
-|--------|---------|
-| New | Just submitted, not yet reviewed |
-| Pending | Being reviewed by a support agent |
-| Unconfirmed | Awaiting confirmation or additional information |
-| Forwarded | Transferred to another team or agent |
-| Closed | Resolved |
+| Status | Significado |
+|--------|-------------|
+| Novo | Acabou de ser enviado, ainda não revisado |
+| Pendente | Em revisão por um agente de suporte |
+| Não confirmado | Aguardando confirmação ou informações adicionais |
+| Encaminhado | Transferido para outra equipe ou agente |
+| Fechado | Resolvido |
 
-Click any ticket to read the full conversation thread and add a reply.
+Clique em qualquer bilhete para ler o thread completo da conversa e adicionar uma resposta.
 
-## Replying to a Ticket
+## Respondendo a um Bilhete
 
-Once a ticket is open, you and the support agent exchange messages within the same thread. To add a reply:
+Uma vez que um bilhete está aberto, você e o agente de suporte trocam mensagens dentro do mesmo thread. Para adicionar uma resposta:
 
-1. Open the ticket from your list.
-2. Scroll to the reply field at the bottom.
-3. Write your response and attach files if needed.
-4. Click **Send**.
+1. Abra o bilhete na sua lista.
+2. Role até o campo de resposta na parte inferior.
+3. Escreva sua resposta e anexe arquivos, se necessário.
+4. Clique em **Enviar**.
 
-Both parties receive notifications when a new message is added to the thread.
+Ambas as partes recebem notificações quando uma nova mensagem é adicionada ao thread.
 
-## Handling Tickets as a Support Agent
+## Gerenciando Bilhetes como Agente de Suporte
 
-If your administrator has assigned you to one or more ticket categories, you will see incoming tickets from learners or colleagues in your queue.
+Se o administrador tiver atribuído você a uma ou mais categorias de bilhetes, você verá os bilhetes recebidos de alunos ou colegas na sua fila.
 
-To respond to an assigned ticket:
+Para responder a um bilhete atribuído:
 
-1. Open your ticket list — assigned tickets appear alongside tickets you have submitted.
-2. Click a ticket to read the requester's message.
-3. Write a reply and click **Send**. The ticket status updates automatically.
-4. When the issue is resolved, change the status to **Closed**.
+1. Abra sua lista de bilhetes — os bilhetes atribuídos aparecem junto aos bilhetes que você enviou.
+2. Clique em um bilhete para ler a mensagem do solicitante.
+3. Escreva uma resposta e clique em **Enviar**. O status do bilhete é atualizado automaticamente.
+4. Quando o problema for resolvido, altere o status para **Fechado**.
 
-You can also change the **priority** of a ticket (Low, Normal, High) to help triage your queue.
+Você também pode alterar a **prioridade** de um bilhete (Baixa, Normal, Alta) para ajudar na triagem da sua fila.
 
-> Access to ticket categories is controlled by the platform administrator. If you need to be added as a support agent for a category, contact your administrator. See the Admin Guide's [Tickets Settings](../admin-guide/platform-settings/ticket-settings.md) for configuration options.
+> O acesso às categorias de bilhetes é controlado pelo administrador da plataforma. Se você precisar ser adicionado como agente de suporte para uma categoria, entre em contato com seu administrador. Consulte as [Configurações de Bilhetes](../admin-guide/platform-settings/ticket-settings.md) no Guia do Administrador para opções de configuração.

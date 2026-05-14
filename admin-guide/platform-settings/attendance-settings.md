@@ -1,42 +1,41 @@
-# Attendance Settings
+# Configurações de Presença
 
-Defaults and behaviour of the **Attendance** tool.
+Padrões e comportamento da ferramenta **Presença**.
 
-Access these settings under **Administration > Configuration settings > Attendance**. This category contains **4 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+Acesse essas configurações em **Administração > Configurações de configuração > Presença**. Esta categoria contém **4 configurações**, listadas abaixo com o título e o comentário fornecidos nos arquivos de configurações da plataforma (`SettingsCurrentFixtures.php`).
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> O nome da variável no código é mostrado em fonte monoespaçada. Use-o ao criar scripts via API ou quando precisar alterar essas configurações em um nível global editando [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
 
-## Settings
+## Configurações
 
 ### `allow_delete_attendance`
 
-**Attendances: enable deletion**
+**Presenças: habilitar exclusão**
 
-The default behaviour in Chamilo is to hide attendance sheets instead of deleting them, just in case the teacher would do it by mistake. Enable this option to allow teachers to *really* delete attendance sheets.
+O comportamento padrão no Chamilo é ocultar as folhas de presença em vez de excluí-las, caso o professor o faça por engano. Habilite esta opção para permitir que os professores *realmente* excluam folhas de presença.
 
-*Default: `true`*
+*Padrão: `true`*
 
 ### `attendance_allow_comments`
 
-**Allow comments in attendance sheets**
+**Permitir comentários nas folhas de presença**
 
-Teachers and students can comment on each individual attendance (to justify).
+Professores e alunos podem comentar em cada registro de presença individual (para justificar).
 
-*Default: `false`*
+*Padrão: `false`*
 
 ### `enable_sign_attendance_sheet`
 
-**Attendance signing**
+**Assinatura de presença**
 
-Enable taking signatures to confirm one's attendance.
+Habilita a coleta de assinaturas para confirmar a presença de alguém.
 
-*Default: `false`*
+*Padrão: `false`*
 
 ### `multilevel_grading`
 
-**Enable Multi-Level Attendance Grading**
+**Habilitar Avaliação de Presença em Múltiplos Níveis**
 
-Allows grading attendance with multiple levels instead of a simple present/absent system.
+Permite avaliar a presença com múltiplos níveis em vez de um simples sistema de presente/ausente.
 
-*Default: `false`*
-
+*Padrão: `false`*

@@ -1,73 +1,73 @@
-# Entities and Doctrine
+# Entidades e Doctrine
 
-Chamilo 2.0 has 314 Doctrine entities across two bundles. The following only mention the main ones.
+O Chamilo 2.0 possui 314 entidades Doctrine distribuídas em dois bundles. A seguir, mencionamos apenas as principais.
 
-## Entity Organization
+## Organização das Entidades
 
-### CoreBundle Entities (213)
+### Entidades do CoreBundle (213)
 
-Platform-level entities:
+Entidades no nível da plataforma:
 
-| Category | Examples |
+| Categoria | Exemplos |
 |----------|---------|
-| **Users** | `User`, `UserRelUser`, `AccessUrl`, `AccessUrlRelUser` |
-| **Courses** | `Course`, `CourseCategory`, `CourseRelUser` |
-| **Sessions** | `Session`, `SessionRelUser`, `SessionRelCourse`, `SessionRelCourseRelUser` |
-| **Resources** | `ResourceNode`, `ResourceFile`, `ResourceLink`, `ResourceType` |
-| **Settings** | `SettingsCurrent`, `SettingsOptions` |
-| **Messages** | `Message`, `MessageRelUser`, `MessageAttachment` |
-| **Tracking** | `TrackELogin`, `TrackEOnline`, `TrackEDefault` |
-| **Skills** | `Skill`, `SkillRelUser`, `SkillRelProfile` |
-| **AI** | `AiRequests` |
+| **Usuários** | `User`, `UserRelUser`, `AccessUrl`, `AccessUrlRelUser` |
+| **Cursos** | `Course`, `CourseCategory`, `CourseRelUser` |
+| **Sessões** | `Session`, `SessionRelUser`, `SessionRelCourse`, `SessionRelCourseRelUser` |
+| **Recursos** | `ResourceNode`, `ResourceFile`, `ResourceLink`, `ResourceType` |
+| **Configurações** | `SettingsCurrent`, `SettingsOptions` |
+| **Mensagens** | `Message`, `MessageRelUser`, `MessageAttachment` |
+| **Rastreamento** | `TrackELogin`, `TrackEOnline`, `TrackEDefault` |
+| **Habilidades** | `Skill`, `SkillRelUser`, `SkillRelProfile` |
+| **IA** | `AiRequests` |
 | **Plugins** | `Plugin`, `AccessUrlRelPlugin` |
 | **Social** | `Usergroup`, `UsergroupRelUser` |
 | **xAPI** | `XApiObject`, `XApiResult`, `XApiActivityState` |
 
-### CourseBundle Entities (101)
+### Entidades do CourseBundle (101)
 
-Course content entities — all prefixed with `C`:
+Entidades de conteúdo de curso — todas prefixadas com `C`:
 
-| Category | Examples |
+| Categoria | Exemplos |
 |----------|---------|
-| **Documents** | `CDocument` |
-| **Exercises** | `CQuiz`, `CQuizQuestion`, `CQuizAnswer`, `CQuizQuestionCategory` |
-| **Learning paths** | `CLp`, `CLpItem`, `CLpView`, `CLpItemView`, `CLpCategory` |
-| **Forums** | `CForum`, `CForumCategory`, `CForumThread`, `CForumPost` |
-| **Assignments** | `CStudentPublication`, `CStudentPublicationAssignment`, `CStudentPublicationComment` |
-| **Surveys** | `CSurvey`, `CSurveyQuestion`, `CSurveyAnswer`, `CSurveyInvitation` |
-| **Attendance** | `CAttendance`, `CAttendanceCalendar`, `CAttendanceResult` |
+| **Documentos** | `CDocument` |
+| **Exercícios** | `CQuiz`, `CQuizQuestion`, `CQuizAnswer`, `CQuizQuestionCategory` |
+| **Caminhos de aprendizagem** | `CLp`, `CLpItem`, `CLpView`, `CLpItemView`, `CLpCategory` |
+| **Fóruns** | `CForum`, `CForumCategory`, `CForumThread`, `CForumPost` |
+| **Tarefas** | `CStudentPublication`, `CStudentPublicationAssignment`, `CStudentPublicationComment` |
+| **Pesquisas** | `CSurvey`, `CSurveyQuestion`, `CSurveyAnswer`, `CSurveyInvitation` |
+| **Frequência** | `CAttendance`, `CAttendanceCalendar`, `CAttendanceResult` |
 | **Blogs** | `CBlog`, `CBlogPost`, `CBlogComment`, `CBlogTask` |
-| **Other** | `CCalendarEvent`, `CGlossary`, `CLink`, `CLinkCategory`, `CNotebook`, `CWiki` |
+| **Outros** | `CCalendarEvent`, `CGlossary`, `CLink`, `CLinkCategory`, `CNotebook`, `CWiki` |
 
-## Naming Convention
+## Convenção de Nomenclatura
 
-* CoreBundle entities: standard PascalCase (e.g., `User`, `Course`, `Session`)
-* CourseBundle entities: prefixed with `C` (e.g., `CDocument`, `CQuiz`, `CLp`)
+* Entidades do CoreBundle: padrão PascalCase (por exemplo, `User`, `Course`, `Session`)
+* Entidades do CourseBundle: prefixadas com `C` (por exemplo, `CDocument`, `CQuiz`, `CLp`)
 
-This prefix distinguishes course-scoped content entities from platform-level entities (in line with legacy database tables naming). This distinction might disappear in the long run as more tools are converted to global tools without a strong link to a specific course.
+Esse prefixo distingue entidades de conteúdo no escopo do curso de entidades no nível da plataforma (em linha com a nomenclatura de tabelas de banco de dados legadas). Essa distinção pode desaparecer a longo prazo, à medida que mais ferramentas forem convertidas para ferramentas globais sem um vínculo forte com um curso específico.
 
-## Key Relationships
+## Relacionamentos Principais
 
-Relationships are usually evidenced by the `Rel` separator.
+Os relacionamentos geralmente são evidenciados pelo separador `Rel`.
 
-### User ↔ Course
+### Usuário ↔ Curso
 
 ```
 User --[CourseRelUser]--> Course
 ```
 
-`CourseRelUser` stores the enrollment status (TEACHER = 1, STUDENT = 5).
+`CourseRelUser` armazena o status de matrícula (TEACHER = 1, STUDENT = 5).
 
-### User ↔ Session ↔ Course
+### Usuário ↔ Sessão ↔ Curso
 
 ```
 User --[SessionRelUser]--> Session --[SessionRelCourse]--> Course
 User --[SessionRelCourseRelUser]--> (Session + Course)
 ```
 
-### ResourceNode (Content Abstraction)
+### ResourceNode (Abstração de Conteúdo)
 
-All course content entities connect to the resource system through `ResourceNode`:
+Todas as entidades de conteúdo de curso se conectam ao sistema de recursos por meio de `ResourceNode`:
 
 ```
 CDocument --> ResourceNode --> ResourceFile
@@ -75,13 +75,13 @@ CQuiz ------> ResourceNode
 CLp --------> ResourceNode
 ```
 
-See [Resource System](resource-system.md) for details.
+Consulte [Sistema de Recursos](resource-system.md) para mais detalhes.
 
-## Doctrine Extensions
+## Extensões do Doctrine
 
-Chamilo uses Gedmo Doctrine Extensions (via `stof/doctrine-extensions-bundle`):
+O Chamilo utiliza as Extensões do Doctrine da Gedmo (via `stof/doctrine-extensions-bundle`):
 
-* **Tree** — Hierarchical data (ResourceNode uses materialized path)
-* **Timestampable** — Automatic `createdAt`/`updatedAt` fields
-* **Sluggable** — URL-friendly slugs
-* **Sortable** — Orderable collections
+* **Tree** — Dados hierárquicos (ResourceNode utiliza o caminho materializado)
+* **Timestampable** — Campos automáticos `createdAt`/`updatedAt`
+* **Sluggable** — Slugs amigáveis para URL
+* **Sortable** — Coleções ordenáveis

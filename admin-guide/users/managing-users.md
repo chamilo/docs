@@ -1,103 +1,103 @@
-# Managing Users
+# Gerenciando Usuários
 
-This page covers the day-to-day tasks of creating, editing, and managing user accounts.
+Esta página aborda as tarefas diárias de criação, edição e gerenciamento de contas de usuários.
 
-## User List
+## Lista de Usuários
 
-![The user list showing accounts with name, email, role, and status columns](/.gitbook/assets/admin-user-list.png)
+![A lista de usuários mostrando contas com colunas de nome, e-mail, função e status](/.gitbook/assets/admin-user-list.png)
 
-From the administration panel, click **User list** to see all users on the platform. The list shows:
+No painel de administração, clique em **Lista de usuários** para ver todos os usuários da plataforma. A lista exibe:
 
 * Avatar
-* Name
-* Username
-* Email address
-* Roles
-* Active/inactive status
-* Registration date
-* Last login date
+* Nome
+* Nome de usuário
+* Endereço de e-mail
+* Funções
+* Status ativo/inativo
+* Data de registro
+* Data do último login
 
-Use the **Advanced search** tool to find specific users by name, email, role, or other criteria.
+Use a ferramenta de **Busca avançada** para encontrar usuários específicos por nome, e-mail, função ou outros critérios.
 
-## Creating a User
+## Criando um Usuário
 
-![The user creation form with fields for name, email, username, password, role, and language](/.gitbook/assets/admin-user-create-form.png)
+![O formulário de criação de usuário com campos para nome, e-mail, nome de usuário, senha, função e idioma](/.gitbook/assets/admin-user-create-form.png)
 
-1. Click **Add a user** from the administration panel
-2. Fill in the required fields:
-   * **First name** and **Last name**
-   * **Email** — Must be unique on the platform
-   * **Username** — The login name (must be unique)
-   * **Password** — Set an initial password
-   * **Roles** — Select the user's platform role(s) (student, teacher, admin, etc.)
-   * **Language** — The user's preferred interface language
-3. Optionally fill in additional fields:
-   * Official code (e.g. unique ID in the organization)
-   * Phone number
-   * Expiration date — Automatically deactivate the account after a date
-   * Active/inactive status
-   * Extra profile fields (if configured)
-4. Save
+1. Clique em **Adicionar um usuário** no painel de administração
+2. Preencha os campos obrigatórios:
+   * **Nome** e **Sobrenome**
+   * **E-mail** — Deve ser único na plataforma
+   * **Nome de usuário** — O nome de login (deve ser único)
+   * **Senha** — Defina uma senha inicial
+   * **Funções** — Selecione a(s) função(ões) do usuário na plataforma (estudante, professor, administrador, etc.)
+   * **Idioma** — O idioma preferido da interface do usuário
+3. Opcionalmente, preencha campos adicionais:
+   * Código oficial (por exemplo, ID único na organização)
+   * Número de telefone
+   * Data de expiração — Desativar automaticamente a conta após uma data
+   * Status ativo/inativo
+   * Campos extras de perfil (se configurados)
+4. Salve
 
-## Importing Users
+## Importando Usuários
 
-![The user import interface for uploading CSV or XML files with user data](/.gitbook/assets/admin-user-import.png)
+![A interface de importação de usuários para enviar arquivos CSV ou XML com dados de usuários](/.gitbook/assets/admin-user-import.png)
 
-For bulk user creation, you can import users from a file:
+Para criação de usuários em massa, você pode importar usuários de um arquivo:
 
-1. Click **Import users** from the administration panel
-2. Upload a **CSV** or **XML** file with user data
-3. Map the file columns to Chamilo user fields
-4. Choose how to handle existing users (update or skip)
-5. Import
+1. Clique em **Importar usuários** no painel de administração
+2. Faça upload de um arquivo **CSV** ou **XML** com dados de usuários
+3. Mapeie as colunas do arquivo para os campos de usuário do Chamilo
+4. Escolha como lidar com usuários existentes (atualizar ou ignorar)
+5. Importe
 
-The import file should contain columns for at least: first name, last name, email, username, and password.
+O arquivo de importação deve conter colunas para, pelo menos: nome, sobrenome, e-mail, nome de usuário e senha.
 
-Note: The **Status** column is the legacy name for **Role** and only accepts a few values, like 1 for teacher, 5 for student. Further tuniing of the roles can only be done by hand later on, editing the user.
+Nota: A coluna **Status** é o nome legado para **Função** e aceita apenas alguns valores, como 1 para professor, 5 para estudante. Ajustes adicionais nas funções só podem ser feitos manualmente posteriormente, editando o usuário.
 
-## Exporting Users
+## Exportando Usuários
 
-Click **Export users** to download the user list as a CSV or XML file. You can filter which users to export by role, registration date, or other criteria.
+Clique em **Exportar usuários** para baixar a lista de usuários como um arquivo CSV ou XML. Você pode filtrar quais usuários exportar por função, data de registro ou outros critérios.
 
-## Editing a User
+## Editando um Usuário
 
-Click on a user's name in the user list to edit their account. You can modify:
+Clique no nome de um usuário na lista de usuários para editar sua conta. Você pode modificar:
 
-* Personal information (name, email, phone)
-* Roles
-* Password (reset)
-* Active/inactive status
-* Expiration date
-* Extra profile fields
+* Informações pessoais (nome, e-mail, telefone)
+* Funções
+* Senha (redefinir)
+* Status ativo/inativo
+* Data de expiração
+* Campos extras de perfil
 
-## Deleting a User
+## Excluindo um Usuário
 
-When deleting users (usually teachers) who have created content on the platform, the system might prevent you from deleting the users permanently, and will show a warning message explaining the user is still attached to some of the resources. If you confirm the deletion, the system will not delete the content itself but attach it to a neutral user (we call it the "Fallback user") for data consistency reasons.
+Ao excluir usuários (geralmente professores) que criaram conteúdo na plataforma, o sistema pode impedir que você exclua os usuários permanentemente e exibirá uma mensagem de aviso explicando que o usuário ainda está vinculado a alguns recursos. Se você confirmar a exclusão, o sistema não excluirá o conteúdo em si, mas o vinculará a um usuário neutro (chamamos de "Usuário de fallback") por razões de consistência de dados.
 
-To avoid this, check the user details, delete each of their courses one by one, then delete the user.
+Para evitar isso, verifique os detalhes do usuário, exclua cada um de seus cursos um por um e, em seguida, exclua o usuário.
 
-## User Actions
+## Ações do Usuário
 
-| Action | Description |
-|--------|-------------|
-| **Deactivate** | Disable a user's account without deleting it. The user cannot log in but their data is preserved. |
-| **Activate** | Re-enable a previously deactivated account. |
-| **Login as** | Log in to the platform as this user (impersonation). Useful for troubleshooting. |
-| **Anonymize** | Erase all of the account's personal information, as defined by the EU's GDPR. |
-| **Delete** | Soft delete the user account. Use the **Deleted users** tab to permanently delete the account and associated data. |
+| Ação | Descrição |
+|------|-----------|
+| **Desativar** | Desabilita a conta de um usuário sem excluí-la. O usuário não pode fazer login, mas seus dados são preservados. |
+| **Ativar** | Reativa uma conta previamente desativada. |
+| **Entrar como** | Faz login na plataforma como este usuário (personificação). Útil para solução de problemas. |
+| **Anonimizar** | Apaga todas as informações pessoais da conta, conforme definido pelo GDPR da UE. |
+| **Excluir** | Exclui suavemente a conta do usuário. Use a aba **Usuários excluídos** para excluir permanentemente a conta e os dados associados. |
 
-> **Login as** is a powerful feature. Use it responsibly and only for legitimate support purposes.
+> **Entrar como** é uma funcionalidade poderosa. Use-a de forma responsável e apenas para fins legítimos de suporte.
 
-## Batch Operations
+## Operações em Lote
 
-Select multiple users in the user list to perform batch actions:
+Selecione vários usuários na lista de usuários para realizar ações em lote:
 
-* Activate or deactivate multiple users at once
-* Delete multiple users
-* Assign users to a course or session
+* Ativar ou desativar vários usuários de uma vez
+* Excluir vários usuários
+* Atribuir usuários a um curso ou sessão
 
-## Tips
+## Dicas
 
-* **Use CSV import for large enrollments** — When onboarding many users at the start of a training program, prepare a CSV file and import in bulk
-* **Set expiration dates** — For temporary users (workshop participants, trial users), set an expiration date to automatically deactivate their accounts
-* **Deactivate rather than delete** — When a user leaves, deactivate their account first. This preserves their training records. Only delete if you are sure the data is no longer needed.
+* **Use a importação CSV para grandes matrículas** — Ao integrar muitos usuários no início de um programa de treinamento, prepare um arquivo CSV e importe em massa
+* **Defina datas de expiração** — Para usuários temporários (participantes de workshops, usuários de teste), defina uma data de expiração para desativar automaticamente suas contas
+* **Desative em vez de excluir** — Quando um usuário sair, desative sua conta primeiro. Isso preserva seus registros de treinamento. Exclua apenas se tiver certeza de que os dados não são mais necessários.

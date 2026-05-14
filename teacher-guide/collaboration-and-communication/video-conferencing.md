@@ -1,38 +1,38 @@
-# Video Conferencing
+# Videoconferência
 
-Chamilo integrates with video conferencing platforms to let you run live sessions directly from your course. Supported platforms include **BigBlueButton** and **Zoom**.
+O Chamilo integra-se com plataformas de videoconferência para permitir que você realize sessões ao vivo diretamente do seu curso. As plataformas suportadas incluem **BigBlueButton** e **Zoom**.
 
-> Video conferencing must be configured by your platform administrator. If you do not see the video conferencing tool in your course, contact your administrator.
+> A videoconferência deve ser configurada pelo administrador da plataforma. Se você não visualizar a ferramenta de videoconferência no seu curso, entre em contato com o administrador.
 
-## Starting a Video Session
+## Iniciando uma Sessão de Vídeo
 
-1. Open the **Video conference** <img src="/.gitbook/assets/icons/mdi-video.svg" alt="Video" data-size="line"> tool from the course homepage (or from the sidebar)
-2. Click **Start a meeting** (or a similar button depending on the configured platform)
-3. A new video conferencing room will open in a new browser tab
+1. Abra a ferramenta **Videoconferência** <img src="/.gitbook/assets/icons/mdi-video.svg" alt="Vídeo" data-size="line"> na página inicial do curso (ou na barra lateral)
+2. Clique em **Iniciar uma reunião** (ou um botão semelhante, dependendo da plataforma configurada)
+3. Uma nova sala de videoconferência será aberta em uma nova aba do navegador
 
-## Inviting Learners
+## Convidando Alunos
 
-Once a meeting is running, enrolled learners can join it by:
+Uma vez que a reunião esteja em andamento, os alunos matriculados podem participar:
 
-* Clicking the same **Video conference** tool in their course homepage
-* Clicking the join link in an announcement or message you send them
+* Clicando na mesma ferramenta **Videoconferência** na página inicial do curso deles
+* Clicando no link de participação em um comunicado ou mensagem que você enviar
 
 ## BigBlueButton
 
-If your platform uses the BigBlueButton plugin, the meeting itself runs in BigBlueButton, where the usual conference features (audio/video, screen sharing, whiteboard, in-meeting chat, breakout rooms) are available. The Chamilo plugin specifically adds:
+Se a sua plataforma utiliza o plugin BigBlueButton, a reunião em si é executada no BigBlueButton, onde os recursos usuais de conferência (áudio/vídeo, compartilhamento de tela, quadro branco, chat durante a reunião, salas de breakout) estão disponíveis. O plugin do Chamilo adiciona especificamente:
 
-* **Recording management** — If recording is enabled by the administrator, recordings made during the session are listed inside the course so learners can replay them
-* **Pre-upload presentation documents** — Attach a presentation file to a meeting so it is loaded into BigBlueButton when the room opens
-* **Calendar integration** — Scheduled meetings are surfaced in the course agenda
-* **Course / group / global rooms** — Run a single course-wide room, separate group rooms, or a platform-wide room
+* **Gerenciamento de gravações** — Se a gravação estiver habilitada pelo administrador, as gravações feitas durante a sessão serão listadas dentro do curso para que os alunos possam reproduzi-las
+* **Pré-carregamento de documentos de apresentação** — Anexe um arquivo de apresentação a uma reunião para que ele seja carregado no BigBlueButton quando a sala for aberta
+* **Integração com o calendário** — Reuniões agendadas são exibidas na agenda do curso
+* **Salas de curso/grupo/global** — Execute uma única sala para todo o curso, salas separadas para grupos ou uma sala para toda a plataforma
 
-## Zoom Integration
+## Integração com Zoom
 
-If your platform uses Zoom, meetings are created and managed through Zoom's interface. Chamilo provides the integration point for launching and joining meetings from within the course.
+Se a sua plataforma utiliza o Zoom, as reuniões são criadas e gerenciadas pela interface do Zoom. O Chamilo fornece o ponto de integração para iniciar e participar de reuniões diretamente do curso.
 
-## Tips
+## Dicas
 
-* **Schedule in advance** — Use the Agenda tool to schedule video sessions and send reminders
-* **Test your setup** — Check your microphone and camera before the session
-* **Record for absent learners** — If recording is enabled, share the recording link after the session for learners who could not attend
-* **Combine with other tools** — Share presentation files in Documents before the session, and follow up with a Forum discussion afterward
+* **Agende com antecedência** — Use a ferramenta Agenda para programar sessões de vídeo e enviar lembretes
+* **Teste sua configuração** — Verifique seu microfone e câmera antes da sessão
+* **Grave para alunos ausentes** — Se a gravação estiver habilitada, compartilhe o link da gravação após a sessão para os alunos que não puderam comparecer
+* **Combine com outras ferramentas** — Compartilhe arquivos de apresentação em Documentos antes da sessão e siga com uma discussão no Fórum depois

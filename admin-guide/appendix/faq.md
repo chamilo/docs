@@ -1,87 +1,88 @@
-# FAQ
+# Perguntas Frequentes (FAQ)
 
-Frequently asked questions for Chamilo 2.0 administrators.
+Perguntas frequentes para administradores do Chamilo 2.0.
 
-## Installation and Setup
+## Instalação e Configuração
 
-**Q: What PHP version does Chamilo 2.0 require?**
-A: PHP 8.2 or higher. PHP 8.3 is recommended. See [Server Requirements](../installation/server-requirements.md).
+**P: Qual versão do PHP é necessária para o Chamilo 2.0?**  
+R: PHP 8.2 ou superior. Recomenda-se o PHP 8.3. Consulte [Requisitos do Servidor](../installation/server-requirements.md).
 
-**Q: Can I run Chamilo on shared hosting?**
-A: It is possible but not recommended. Chamilo 2.0 requires Composer, Node.js in development mode, and command
--line access for installation and maintenance. A VPS or dedicated server provides a much better experience.
+**P: Posso executar o Chamilo em hospedagem compartilhada?**  
+R: É possível, mas não recomendado. O Chamilo 2.0 requer Composer, Node.js no modo de desenvolvimento e acesso à linha de comando para instalação e manutenção. Um VPS ou servidor dedicado oferece uma experiência muito melhor.
 
-**Q: Which database should I use?**
-A: MySQL 8.0+ or MariaDB 10.4+ are the most commonly used and best tested.
+**P: Qual banco de dados devo usar?**  
+R: MySQL 8.0+ ou MariaDB 10.4+ são os mais utilizados e melhor testados.
 
-**Q: Can I install Chamilo without the command line?**
-A: Yes, if you use the packaged version (.zip or .tar.gz). Otherwise, you will need the command line to install Composer dependencies, build frontend assets, and run database migrations. The web-based wizard handles the database setup and initial configuration, but the surrounding steps require shell access in dev mode.
+**P: Posso instalar o Chamilo sem usar a linha de comando?**  
+R: Sim, se você usar a versão empacotada (.zip ou .tar.gz). Caso contrário, será necessário usar a linha de comando para instalar dependências do Composer, construir ativos de frontend e executar migrações de banco de dados. O assistente baseado na web cuida da instalação do banco de dados e da configuração inicial, mas as etapas relacionadas exigem acesso ao shell no modo de desenvolvimento.
 
-## Users and Authentication
+## Usuários e Autenticação
 
-**Q: How do I reset a user's password?**
-A: Go to **Administration > User list**, find the user, click edit, and set a new password. Alternatively, the user can use the "Forgot password" link on the login page (if email is configured).
+**P: Como posso redefinir a senha de um usuário?**  
+R: Vá para **Administração > Lista de Usuários**, encontre o usuário, clique em editar e defina uma nova senha. Alternativamente, o usuário pode usar o link "Esqueceu a senha" na página de login (desde que o e-mail esteja configurado).
 
-**Q: Can I import users in bulk?**
-A: Yes. Go to **Administration > Import users** and upload a CSV or XML file with user data. The import supports creating new users and updating existing ones.
+**P: Posso importar usuários em massa?**  
+R: Sim. Vá para **Administração > Importar Usuários** e faça upload de um arquivo CSV ou XML com os dados dos usuários. A importação suporta a criação de novos usuários e a atualização de usuários existentes.
 
-**Q: How do I integrate with LDAP or Active Directory?**
-A: Configure LDAP settings in the authentication configuration. See [LDAP](../authentication/ldap.md). Users are synchronized on login or via scheduled sync.
+**P: Como integro com LDAP ou Active Directory?**  
+R: Configure as definições de LDAP na configuração de autenticação. Consulte [LDAP](../authentication/ldap.md). Os usuários são sincronizados no login ou por meio de uma sincronização agendada.
 
-**Q: Can users belong to multiple sessions at the same time?**
-A: Yes. Users can be enrolled in any number of sessions simultaneously. Each session tracks progress independently.
+**P: Os usuários podem participar de várias sessões simultaneamente?**  
+R: Sim. Os usuários podem estar inscritos em qualquer número de sessões simultaneamente. Cada sessão acompanha o progresso de forma independente.
 
-## Courses and Content
+## Cursos e Conteúdo
 
-**Q: How do I back up a single course?**
-A: Within the course, go to **Maintenance > Create a backup**. This generates a downloadable archive of course content and settings. You can restore it on the same or a different Chamilo instance.
+**P: Como faço backup de um único curso?**  
+R: Dentro do curso, vá para **Manutenção > Fazer Backup**. Isso gerará um arquivo baixável com o conteúdo e as configurações do curso. Você pode restaurá-lo na mesma instância do Chamilo ou em outra.
 
-**Q: Can I copy a course?**
-A: Yes. Use **Administration > Copy course** or the course maintenance tool within the course. You can copy content between courses or create a new course from an existing one.
+**P: Posso copiar um curso?**  
+R: Sim. Use **Administração > Copiar Curso** ou a ferramenta de manutenção dentro do curso. Você pode copiar conteúdo entre cursos ou criar um novo curso com base em um existente.
 
-**Q: What SCORM versions are supported?**
-A: Chamilo supports SCORM 1.2. SCORM packages are imported as learning paths.
+**P: Quais versões do SCORM são suportadas?**  
+R: O Chamilo suporta SCORM 1.2. Pacotes SCORM são importados como caminhos de aprendizagem.
 
-**Q: How do I limit who can create courses?**
-A: Go to **Administration > Configuration settings > Course** and disable **Allow non administrators (teachers) to create new courses** (`allow_users_to_create_courses`). When disabled, only administrators can create courses. Alternatively, you can set a limit to the number of courses any teacher can create.
+**P: Como restrinjo quem pode criar cursos?**  
+R: Vá para **Administração > Configurações de Configuração > Curso** e desative a opção **Permitir que não administradores (professores) criem novos cursos** (`allow_users_to_create_courses`). Quando desativado, apenas administradores podem criar cursos. Alternativamente, você pode definir um limite para o número de cursos que um professor pode criar.
 
-## Performance and Maintenance
+## Desempenho e Manutenção
 
-**Q: The platform is slow. What should I check first?**
-A: In order of impact: (1) Ensure `APP_ENV=prod` and `APP_DEBUG=0` in `.env`. (2) Verify PHP OPcache is enabled. (3) Check database performance. (4) See [Performance Tuning](../platform-settings/performance-tuning.md).
+**P: A plataforma está lenta. O que devo verificar primeiro?**  
+R: Em ordem de impacto: (1) Certifique-se de que `APP_ENV=prod` e `APP_DEBUG=0` estão definidos em `.env`. (2) Verifique se o PHP OPcache está ativado. (3) Verifique o desempenho do banco de dados. (4) Consulte [Otimização de Desempenho](../platform-settings/performance-tuning.md).
 
-**Q: How do I clear the cache?**
-A: Run `php bin/console cache:clear --env=prod` from the command line. Do not delete the `var/cache/` directory manually while the application is running.
+**P: Como limpo o cache?**  
+R: Execute `php bin/console cache:clear --env=prod` a partir da linha de comando. Não remova manualmente a pasta `var/cache/` enquanto o aplicativo estiver ativo.
 
-**Q: How much disk space does Chamilo need?**
-A: The application itself needs about 2 GB uncompressed. Total space depends on uploaded content (documents, videos, SCORM packages). Monitor disk usage and plan accordingly.
+**P: Quanto espaço em disco o Chamilo precisa?**  
+R: O aplicativo em si requer cerca de 2 GB de espaço descompactado. O espaço total depende do conteúdo enviado (documentos, vídeos, pacotes SCORM). Monitore o uso do disco e planeje adequadamente.
 
-**Q: How do I set up automated backups?**
-A: See [Backups](../maintenance/backups.md). At minimum, schedule a daily database dump and regular file-level backups of the upload directory.
+**P: Como configuro backups automáticos?**  
+R: Consulte [Backups](../maintenance/backups.md). Programe pelo menos um dump diário do banco de dados e backups regulares em nível de arquivo da pasta de upload.
 
-## Email
+## E-mail
 
-**Q: Users are not receiving emails. What should I check?**
-A: (1) Verify `MAILER_DSN` in `.env`. (2) Run `php bin/console mailer:test someone@example.com` to test. (3) Check spam folders. (4) Verify SPF/DKIM DNS records. See [Email Configuration](../installation/email-configuration.md).
+**P: Os usuários não estão recebendo e-mails. O que devo verificar?**  
+R: (1) Verifique `MAILER_DSN` em `.env`. (2) Execute `php bin/console mailer:test someone@example.com` para testar. (3) Verifique as pastas de spam. (4) Verifique os registros DNS SPF/DKIM. Consulte [Configuração de E-mail](../installation/email-configuration.md).
 
-**Q: Can I use Gmail to send emails?**
-A: Yes, for small platforms or development. Use an App Password and be aware of Gmail's daily sending limits (500 emails/day for regular accounts).
+**P: Posso usar o Gmail para enviar e-mails?**  
+R: Sim, para plataformas pequenas ou desenvolvimento. Use uma senha de aplicativo e esteja ciente dos limites diários de envio do Gmail (500 e-mails/dia para contas regulares).
 
-## Security
+---
+## Segurança
 
-**Q: How do I force HTTPS?**
-A: Configure your web server to redirect HTTP to HTTPS. Additionally, enable the "Force HTTPS" setting in **Administration > Configuration settings > Security**. See [Security Settings](../platform-settings/security-settings.md).
+**P: Como forçar o uso de HTTPS?**  
+R: Configure o seu servidor web para redirecionar HTTP para HTTPS. Além disso, ative a configuração "Forçar HTTPS" em **Administração > Configurações de Configuração > Segurança**. Consulte [Configurações de Segurança](../platform-settings/security-settings.md).
 
-**Q: How do I block brute-force login attacks?**
-A: Configure max login attempts and CAPTCHA in security settings. Consider also using fail2ban at the server level for additional protection.
+**P: Como bloquear ataques de força bruta em logins?**  
+R: Configure o número máximo de tentativas de login e o CAPTCHA nas configurações de segurança. Considere também usar o fail2ban no nível do servidor para proteção adicional.
 
-**Q: A user forgot their password and email is not working. How do I help them?**
-A: As an administrator, edit the user account directly and set a new password. Go to **Administration > User list**, find the account, and update the password field.
+**P: Um usuário esqueceu a senha e o e-mail não está funcionando. Como posso ajudar?**  
+R: Como administrador, você pode editar diretamente a conta do usuário e definir uma nova senha. Vá para **Administração > Lista de Usuários**, localize a conta e atualize o campo de senha.
 
-## Upgrades
+---
+## Atualizações
 
-**Q: Can I upgrade directly from Chamilo 1.11.x to 2.0?**
-A: Yes, but it is a major migration, not a simple update. See [Upgrading](../installation/upgrading.md). Always test on a staging server first.
+**P: Posso atualizar diretamente do Chamilo 1.11.x para o 2.0?**  
+R: Sim, mas trata-se de uma grande migração, não de uma simples atualização. Consulte [Atualização](../installation/upgrading.md). Sempre teste primeiro em um servidor de staging.
 
-**Q: Will my plugins work after upgrading to 2.0?**
-A: No. Plugins from 1.11.x are not compatible with 2.0 and must be rewritten or replaced with equivalent 2.0 functionality.
+**P: Meus plugins funcionarão após a atualização para o 2.0?**  
+R: Não. Plugins da versão 1.11.x não são compatíveis com o 2.0 e precisam ser reescritos ou substituídos por funcionalidades equivalentes no 2.0.

@@ -1,136 +1,137 @@
-# Installation Wizard
+# Assistente de Instalação
 
-Chamilo 2.0 includes a web-based installation wizard that guides you through the initial setup. The wizard runs automatically when you access the platform for the first time.
+O Chamilo 2.0 inclui um assistente de instalação baseado na web que o guia pelo processo de configuração inicial. O assistente é executado automaticamente quando você acessa a plataforma pela primeira vez.
 
-## Before You Start
+## Antes de Começar
 
-Ensure the following prerequisites are met:
+Certifique-se de que os seguintes pré-requisitos sejam atendidos:
 
-1. Your server meets all [server requirements](server-requirements.md).
-2. You have downloaded a packaged (zip or tar.gz) version of Chamilo.
-3. Your web server is configured to serve the `public/` directory as the document root.
-4. Your `.env` file exists and is empty (the wizard will guide database setup).
+1. Seu servidor atende a todos os [requisitos do servidor](server-requirements.md).
+2. Você baixou uma versão empacotada (zip ou tar.gz) do Chamilo.
+3. Seu servidor web está configurado para servir o diretório `public/` como raiz do documento.
+4. Seu arquivo `.env` existe e está vazio (o assistente guiará a configuração do banco de dados).
 
-## Step 1: Installation Language
+## Passo 1: Idioma de Instalação
 
-![Installation wizard Step 1 — language selection](/.gitbook/assets/install-step1-language.png)
+![Assistente de instalação Passo 1 — seleção de idioma](/.gitbook/assets/install-step1-language.png)
 
-The first step lets you select the language for the installation process. Choose your preferred language from the dropdown.
+O primeiro passo permite que você selecione o idioma para o processo de instalação. Escolha seu idioma preferido no menu suspenso.
 
-If Chamilo detects an existing installation (for an upgrade), it will display the migration status and offer an upgrade path instead of a fresh install.
+Se o Chamilo detectar uma instalação existente (para uma atualização), ele exibirá o status da migração e oferecerá um caminho de atualização em vez de uma instalação nova.
 
-## Step 2: Requirements Check
+## Passo 2: Verificação de Requisitos
 
-![Installation wizard Step 2 — requirements check showing PHP version, extensions, and directory permissions](/.gitbook/assets/install-step2-requirements.png)
+![Assistente de instalação Passo 2 — verificação de requisitos mostrando versão do PHP, extensões e permissões de diretório](/.gitbook/assets/install-step2-requirements.png)
 
-The wizard checks your server environment:
+O assistente verifica o ambiente do seu servidor:
 
-* **PHP version** is 8.2 or superior
-* **Required PHP extensions** are installed (intl, gd, curl, zip, mbstring, xml, etc.)
-* **Recommended PHP settings** — `date.timezone` is configured, adequate upload/memory limits
-* **Directory and file permissions** — `var/`, `config/`, and `public/upload/` are writable by the web server
+* **Versão do PHP** é 8.2 ou superior
+* **Extensões PHP necessárias** estão instaladas (intl, gd, curl, zip, mbstring, xml, etc.)
+* **Configurações PHP recomendadas** — `date.timezone` está configurado, limites adequados de upload/memória
+* **Permissões de diretórios e arquivos** — `var/`, `config/` e `public/upload/` têm permissão de escrita pelo servidor web
 
-If any requirements are not met, the wizard displays warnings or errors. Resolve them before proceeding.
+Se algum requisito não for atendido, o assistente exibirá avisos ou erros. Resolva-os antes de prosseguir.
 
-## Step 3: License
+## Passo 3: Licença
 
-![Installation wizard Step 3 — license acceptance](/.gitbook/assets/install-step3-license.png)
+![Assistente de instalação Passo 3 — aceitação da licença](/.gitbook/assets/install-step3-license.png)
 
-This step displays the GNU/GPLv3 license. You must check the **"I accept"** checkbox to proceed.
+Este passo exibe a licença GNU/GPLv3. Você deve marcar a caixa **"Eu aceito"** para prosseguir.
 
-Optionally, you can expand the **Contact information** section to provide details about your organization (name, email, company, country). This is voluntary and helps the Chamilo community understand who uses the platform, but will also allow us to contact you *very rarely* about events happening close to you.
+Opcionalmente, você pode expandir a seção **Informações de contato** para fornecer detalhes sobre sua organização (nome, e-mail, empresa, país). Isso é voluntário e ajuda a comunidade Chamilo a entender quem usa a plataforma, mas também nos permitirá contatá-lo *muito raramente* sobre eventos que acontecem perto de você.
 
-## Step 4: Database Settings
+## Passo 4: Configurações do Banco de Dados
 
-![Installation wizard Step 4 — database connection configuration](/.gitbook/assets/install-step4-database.png)
+![Assistente de instalação Passo 4 — configuração da conexão com o banco de dados](/.gitbook/assets/install-step4-database.png)
 
-Enter your database connection details:
+Insira os detalhes da conexão com o banco de dados:
 
-| Field | Description |
-|-------|-------------|
-| **Database host** | The hostname or IP of your database server (e.g., `localhost` or `127.0.0.1`) |
-| **Database port** | Default: 3306 for MySQL/MariaDB |
-| **Database name** | The name of the database to use (alphanumeric and underscores only) |
-| **Database user** | A database user with full privileges on the specified database |
-| **Database password** | The password for the database user |
+| Campo | Descrição |
+|-------|-----------|
+| **Host do banco de dados** | O nome do host ou IP do seu servidor de banco de dados (por exemplo, `localhost` ou `127.0.0.1`) |
+| **Porta do banco de dados** | Padrão: 3306 para MySQL/MariaDB |
+| **Nome do banco de dados** | O nome do banco de dados a ser usado (somente alfanuméricos e sublinhados) |
+| **Usuário do banco de dados** | Um usuário do banco de dados com privilégios completos no banco especificado |
+| **Senha do banco de dados** | A senha para o usuário do banco de dados |
 
-Click **Check database connection** to test. The wizard will not let you proceed until the connection is successful. If the database already exists, a warning is displayed.
+Clique em **Verificar conexão com o banco de dados** para testar. O assistente não permitirá que você prossiga até que a conexão seja bem-sucedida. Se o banco de dados já existir, um aviso será exibido.
 
-## Step 5: Configuration Settings
+## Passo 5: Configurações Gerais
 
-![Installation wizard Step 5 — administrator account, portal settings, and email configuration](/.gitbook/assets/install-step5-config.png)
+![Assistente de instalação Passo 5 — conta de administrador, configurações do portal e configuração de e-mail](/.gitbook/assets/install-step5-config.png)
 
-This step combines administrator account creation, portal settings, and email configuration.
+Este passo combina a criação da conta de administrador, configurações do portal e configuração de e-mail.
 
-### Administrator Account
+### Conta de Administrador
 
-| Field | Description |
-|-------|-------------|
-| **Login** | The administrator username |
-| **Password** | Choose a strong password — this account has full platform access |
-| **First name** | The administrator's first name |
-| **Last name** | The administrator's last name |
-| **Email** | Used for system notifications and password resets |
-| **Phone** | Optional contact number |
+| Campo | Descrição |
+|-------|-----------|
+| **Login** | O nome de usuário do administrador |
+| **Senha** | Escolha uma senha forte — esta conta tem acesso total à plataforma |
+| **Nome** | O primeiro nome do administrador |
+| **Sobrenome** | O sobrenome do administrador |
+| **E-mail** | Usado para notificações do sistema e redefinições de senha |
+| **Telefone** | Número de contato opcional |
 
-These admin details will also be used by Chamilo to populate the support contact details, so make sure you go reconfigure that in the settings after the installation concluded.
+Esses detalhes do administrador também serão usados pelo Chamilo para preencher os detalhes de contato de suporte, então certifique-se de reconfigurar isso nas configurações após a conclusão da instalação.
 
-### Portal Settings
+### Configurações do Portal
 
-| Field | Description |
-|-------|-------------|
-| **Language** | The default interface language |
-| **Portal name** | The name of your platform (e.g., "My Organization LMS") |
-| **Company short name** | Your organization's abbreviated name |
-| **Company URL** | Your organization's website |
-| **Encryption method** | Password hashing algorithm — **bcrypt** is recommended |
-| **Allow self-registration** | Yes / No / After approval |
-| **Allow self-registration as trainer** | Yes / No |
+| Campo | Descrição |
+|-------|-----------|
+| **Idioma** | O idioma padrão da interface |
+| **Nome do portal** | O nome da sua plataforma (por exemplo, "LMS da Minha Organização") |
+| **Nome abreviado da empresa** | O nome abreviado da sua organização |
+| **URL da empresa** | O site da sua organização |
+| **Método de criptografia** | Algoritmo de hash de senha — **bcrypt** é recomendado |
+| **Permitir auto-registro** | Sim / Não / Após aprovação |
+| **Permitir auto-registro como instrutor** | Sim / Não |
 
-### Email Configuration
+### Configuração de E-mail
 
-The email settings section lets you configure the mail transport (SMTP, Amazon SES, Mailjet, etc.) and test email delivery. See [Email Configuration](email-configuration.md) for details.
+A seção de configurações de e-mail permite que você configure o transporte de e-mail (SMTP, Amazon SES, Mailjet, etc.) e teste o envio de e-mails. Consulte [Configuração de E-mail](email-configuration.md) para detalhes.
 
-All these settings can be changed later from the administration panel.
+Todas essas configurações podem ser alteradas posteriormente no painel de administração.
 
-## Step 6: Last Check Before Install
+---
+## Passo 6: Última Verificação Antes da Instalação
 
-![Installation wizard Step 6 — review of all settings before installation](/.gitbook/assets/install-step6-review.png)
+![Assistente de instalação Passo 6 — revisão de todas as configurações antes da instalação](/.gitbook/assets/install-step6-review.png)
 
-This step displays a summary of everything you entered for review:
+Este passo exibe um resumo de tudo o que você inseriu para revisão:
 
-* Administrator credentials (password is hidden by default — click the eye icon to reveal)
-* Portal settings
-* Database connection details
+* Credenciais do administrador (a senha está oculta por padrão — clique no ícone de olho para revelá-la)
+* Configurações do portal
+* Detalhes da conexão com o banco de dados
 
-Review carefully, then click **Install Chamilo** to execute the installation. The wizard creates all database tables, populates initial data, and configures the platform.
+Revise cuidadosamente e, em seguida, clique em **Instalar Chamilo** para executar a instalação. O assistente cria todas as tabelas do banco de dados, preenche os dados iniciais e configura a plataforma.
 
-## Step 7: Installation Complete
+## Passo 7: Instalação Concluída
 
-![Installation wizard Step 7 — completion with security advice and portal link](/.gitbook/assets/install-step7-complete.png)
+![Assistente de instalação Passo 7 — conclusão com conselhos de segurança e link para o portal](/.gitbook/assets/install-step7-complete.png)
 
-After installation completes successfully, the wizard shows:
+Após a conclusão bem-sucedida da instalação, o assistente exibe:
 
-* **Getting started advice** — Suggests creating your first course to explore the platform (as admin, you need to do this from the admin panel)
-* **Security recommendations**:
-  * Make the `config/` directory read-only (`chmod 0555`)
-  * Delete the `public/main/install/` directory
-* A **link to your portal** to log in with the administrator credentials you just created
+* **Conselhos para começar** — Sugere criar seu primeiro curso para explorar a plataforma (como administrador, você precisa fazer isso a partir do painel de administração)
+* **Recomendações de segurança**:
+  * Torne o diretório `config/` somente leitura (`chmod 0555`)
+  * Exclua o diretório `public/main/install/`
+* Um **link para o seu portal** para fazer login com as credenciais de administrador que você acabou de criar
 
-## Post-Installation
+## Pós-Instalação
 
-After completing the wizard:
+Após completar o assistente:
 
-* **Remove or restrict access to the installer** -- The wizard should not be accessible after installation. Chamilo typically locks it automatically, but verify that re-visiting the install URL redirects to the login page.
-* **Configure email delivery** -- See [Email Configuration](email-configuration.md).
-* **Set up backups** -- Before adding content, configure automated database and file backups (Chamilo does not provide a solution for this, but copying the var/ folder and the database are the 2 most important elements).
-* **Review security settings** -- See [Security Settings](../platform-settings/security-settings.md).
+* **Remova ou restrinja o acesso ao instalador** — O assistente não deve estar acessível após a instalação. O Chamilo geralmente o bloqueia automaticamente, mas verifique se ao revisitar a URL de instalação você é redirecionado para a página de login.
+* **Configure a entrega de e-mails** — Consulte [Configuração de E-mail](email-configuration.md).
+* **Configure backups** — Antes de adicionar conteúdo, configure backups automáticos do banco de dados e dos arquivos (o Chamilo não oferece uma solução para isso, mas copiar a pasta var/ e o banco de dados são os dois elementos mais importantes).
+* **Revise as configurações de segurança** — Consulte [Configurações de Segurança](../platform-settings/security-settings.md).
 
-## Troubleshooting
+## Solução de Problemas
 
-| Problem | Solution |
+| Problema | Solução |
 |---------|----------|
-| Blank page at install URL | Check PHP error logs. Change to `APP_ENV=dev` in .env temporarily to see errors in the browser. |
-| Database connection fails | Verify credentials, confirm the database exists, check that the database server allows connections from the web server host. |
-| Permission denied errors | Ensure `var/` is writable by the web server user. |
-| Assets not loading (no CSS/JS) | Run `yarn install && yarn build` to compile frontend assets. |
+| Página em branco na URL de instalação | Verifique os logs de erro do PHP. Altere temporariamente para `APP_ENV=dev` no arquivo .env para ver os erros no navegador. |
+| Falha na conexão com o banco de dados | Verifique as credenciais, confirme se o banco de dados existe, verifique se o servidor de banco de dados permite conexões a partir do host do servidor web. |
+| Erros de permissão negada | Certifique-se de que o diretório `var/` tem permissão de escrita para o usuário do servidor web. |
+| Ativos não carregam (sem CSS/JS) | Execute `yarn install && yarn build` para compilar os ativos de frontend. |

@@ -1,96 +1,95 @@
-# Development Setup
+# Configuração para Desenvolvimento
 
-## Prerequisites
+## Pré-requisitos
 
-* PHP 8.2+ with extensions: intl, gd, curl, zip, mbstring, xml, json, pdo, ldap, exif, bcmath
+* PHP 8.2+ com as extensões: intl, gd, curl, zip, mbstring, xml, json, pdo, ldap, exif, bcmath
 * Composer
-* Node.js and npm (or Yarn — the project uses Yarn 4; see `package.json` for the exact pinned version)
-* MySQL 5.7+ or MariaDB 10.11+
+* Node.js e npm (ou Yarn — o projeto utiliza Yarn 4; consulte `package.json` para a versão exata fixada)
+* MySQL 5.7+ ou MariaDB 10.11+
 * Git
 
-## Installation Steps
+## Passos de Instalação
 
-### 1. Clone the Repository
+### 1. Clonar o Repositório
 
 ```bash
 git clone https://github.com/chamilo/chamilo-lms.git chamilo
 cd chamilo
 ```
 
-### 2. Install PHP Dependencies
+### 2. Instalar Dependências do PHP
 
 ```bash
 composer install
 ```
 
-### 3. Configure Environment
+### 3. Configurar o Ambiente
 
-The repository ships `.env.dist` as a reference. Create an empty `.env` file that the web installer will populate — keeping it empty ensures upgrades never overwrite your local configuration:
+O repositório inclui o arquivo `.env.dist` como referência. Crie um arquivo `.env` vazio que será preenchido pelo instalador web — mantê-lo vazio garante que atualizações nunca sobrescrevam sua configuração local:
 
 ```bash
 touch .env
 ```
 
-Then make `.env` and `config/` writable by the web server so the installer can write your local configuration:
+Em seguida, torne `.env` e `config/` graváveis pelo servidor web para que o instalador possa escrever sua configuração local:
 
 ```bash
 sudo chown -R www-data: .env config/ var/
 ```
 
-### 4. Install Frontend Dependencies and Build
+### 4. Instalar Dependências de Frontend e Compilar
 
 ```bash
-# Install JavaScript dependencies
+# Instalar dependências JavaScript
 yarn install
 
-# Build frontend assets for development
+# Compilar ativos de frontend para desenvolvimento
 yarn encore dev
 
-# Or watch for changes during development
+# Ou observar mudanças durante o desenvolvimento
 yarn encore dev --watch
 ```
 
-### 5. Start the Development Server
+### 5. Iniciar o Servidor de Desenvolvimento
 
 ```bash
 symfony server:start
 ```
 
-Or use Apache/Nginx pointing to the `public/` directory.
+Ou utilize Apache/Nginx apontando para o diretório `public/`.
 
-### 6. Set Up the Database
+### 6. Configurar o Banco de Dados
 
-Run the web-based installation wizard by navigating to your Chamilo URL in a browser.
+Execute o assistente de instalação baseado na web navegando até a URL do Chamilo em um navegador.
 
-### 7. Generate JWT Keys
+### 7. Gerar Chaves JWT
 
 ```bash
 php bin/console lexik:jwt:generate-keypair
 ```
 
-### 8. Secure your system
+### 8. Proteger seu Sistema
 
-The `.env` file and `config/` directory only need to be writeable for the time of the installation. Secure them afterwards:
+O arquivo `.env` e o diretório `config/` só precisam ser graváveis durante o período de instalação. Proteja-os depois:
 
 ```bash
 sudo chown -R root: .env config/
 ```
 
-The `var/` directory needs to remain writeable by the web server.
+O diretório `var/` precisa permanecer gravável pelo servidor web.
 
+## Comandos de Compilação
 
-## Build Commands
+| Comando | Finalidade |
+|---------|------------|
+| `yarn encore dev` | Compilar frontend para desenvolvimento |
+| `yarn encore dev --watch` | Compilar e observar mudanças |
+| `yarn encore production` | Compilar otimizado para produção |
+| `php bin/console cache:clear` | Limpar o cache do Symfony |
 
-| Command | Purpose |
-|---------|---------|
-| `yarn encore dev` | Build frontend for development |
-| `yarn encore dev --watch` | Build and watch for changes |
-| `yarn encore production` | Build optimized for production |
-| `php bin/console cache:clear` | Clear Symfony cache |
+## Dicas de Desenvolvimento
 
-## Development Tips
-
-* Set `APP_ENV=dev` and `APP_DEBUG=1` in `.env` for detailed error messages
-* The Symfony debug toolbar appears at the bottom of pages in development mode
-* API documentation is available at `/api` when `APP_ENABLE_API_ENTRYPOINT=1`
-* Use `yarn encore dev --watch` to automatically rebuild frontend changes
+* Defina `APP_ENV=dev` e `APP_DEBUG=1` no arquivo `.env` para mensagens de erro detalhadas
+* A barra de depuração do Symfony aparece na parte inferior das páginas no modo de desenvolvimento
+* A documentação da API está disponível em `/api` quando `APP_ENABLE_API_ENTRYPOINT=1`
+* Use `yarn encore dev --watch` para recompilar automaticamente as alterações no frontend

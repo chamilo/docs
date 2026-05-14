@@ -1,70 +1,65 @@
-# Social Network Settings
+# Configurações de Rede Social
 
-Behaviour of the **Social Network** — friends, groups, wall posts, photo albums.
+Comportamento da **Rede Social** — amigos, grupos, publicações no mural, álbuns de fotos.
 
-Access these settings under **Administration > Configuration settings > Social Network**. This category contains **7 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+Acesse essas configurações em **Administração > Configurações de configuração > Rede Social**. Esta categoria contém **7 configurações**, listadas abaixo com o título e o comentário fornecidos nos arquivos de configurações padrão da plataforma (`SettingsCurrentFixtures.php`).
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> O nome da variável no código é mostrado em fonte monoespaçada. Use-o ao criar scripts via API ou quando precisar alterar essas configurações em um nível global editando [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
 
-## Settings
+## Configurações
 
 ### `allow_social_tool`
 
-**Social network tool (Facebook-like)**
+**Ferramenta de rede social (semelhante ao Facebook)**
 
-The social network tool allows users to define relations with other users and, by doing so, to define groups of friends. Combined with the internal messaging tool, this tool allows tight communication with friends, inside the portal environment.
+A ferramenta de rede social permite que os usuários definam relações com outros usuários e, ao fazê-lo, criem grupos de amigos. Combinada com a ferramenta de mensagens internas, essa funcionalidade possibilita uma comunicação próxima com amigos dentro do ambiente do portal.
 
 *Default: `true`*
 
 ### `allow_students_to_create_groups_in_social`
 
-**Allow learners to create groups in social network**
+**Permitir que alunos criem grupos na rede social**
 
-Allow learners to create groups in social network
+Permite que os alunos criem grupos na rede social.
 
 *Default: `false`*
 
-
 ### `disable_dislike_option`
 
-**Disable 'dislike' for social posts**
+**Desativar opção de 'não gostar' para publicações sociais**
 
-Remove the thumb down option for social posts feedback. Only keep thumb up (like).
+Remove a opção de polegar para baixo no feedback de publicações sociais. Mantém apenas a opção de polegar para cima (curtir).
 
 *Default: `false`*
 
 ### `hide_social_groups_block`
 
-**Hide groups block in social network**
+**Ocultar bloco de grupos na rede social**
 
-Removes the groups section from the social network view.
+Remove a seção de grupos da visualização da rede social.
 
 *Default: `false`*
 
-
 ### `social_enable_messages_feedback`
 
-**Like/Dislike for social posts**
+**Curtir/Não curtir para publicações sociais**
 
-Allows users to add feedback (likes or dislikes) to posts in social wall.
+Permite que os usuários adicionem feedback (curtidas ou não curtidas) às publicações no mural social.
 
 *Default: `false`*
 
 ### `social_make_teachers_friend_all`
 
-**Teachers and admins see students as friends on social network**
+**Professores e administradores aparecem como amigos dos alunos na rede social**
 
-Automatically makes instructors and administrators appear as friends to all students in the social network module.
+Faz com que instrutores e administradores apareçam automaticamente como amigos de todos os alunos no módulo de rede social.
 
 *Default: `false`*
-
 
 ### `social_show_language_flag_in_profile`
 
-**Show language flag next to avatar in social network**
+**Mostrar bandeira do idioma ao lado do avatar na rede social**
 
-Displays the user's language preference as a flag icon next to their avatar in social network profiles.
+Exibe a preferência de idioma do usuário como um ícone de bandeira ao lado do avatar nos perfis da rede social.
 
 *Default: `false`*
-
-

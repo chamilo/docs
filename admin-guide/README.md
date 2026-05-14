@@ -1,35 +1,35 @@
-# Administration Guide
+# Manual do Administrador
 
-Welcome to the Chamilo 2.0 Administration Guide. This guide is designed for platform administrators responsible for installing, configuring, and managing a Chamilo instance.
+Bem-vindo ao Manual do Administrador do Chamilo 2.0. Este manual destina-se a administradores de plataforma responsáveis pela instalação, configuração e gestão de uma instância do Chamilo.
 
-## What you can do as an Administrator
+## O que você pode fazer como administrador
 
-As a Chamilo administrator, you manage:
+Como administrador do Chamilo, você é responsável por:
 
-* **Installation and configuration** — Set up Chamilo on your server, configure storage, email, and environment settings
-* **Users** — Create, import, and manage user accounts, roles, and permissions
-* **Courses and sessions** — Oversee course creation, manage the course catalog, and configure training sessions
-* **Platform settings** — Configure portal behavior, security, performance, and feature availability
-* **Authentication** — Set up external login systems (OAuth2, LDAP, CAS, SCIM)
-* **Integrations** — Connect Chamilo to video conferencing, LTI tools, AI providers, and more
-* **Branding** — Customize the look and feel of the platform with themes and visual settings
-* **Maintenance** — Perform backups, monitor system health, and manage storage
+* **Instalação e configuração** — Configurar o Chamilo no seu servidor, ajustar o armazenamento, e-mail e configurações de ambiente
+* **Usuários** — Criar, importar e gerenciar contas de usuários, papéis e permissões
+* **Cursos e sessões** — Supervisionar a criação de cursos, gerenciar o catálogo de cursos e configurar sessões de treinamento
+* **Configurações da plataforma** — Configurar o comportamento do portal, segurança, desempenho e disponibilidade de funcionalidades
+* **Autenticação** — Configurar sistemas de login externos (OAuth2, LDAP, CAS, SCIM)
+* **Integrações** — Conectar o Chamilo a videoconferências, ferramentas LTI, provedores de IA e mais
+* **Personalização visual (Branding)** — Customizar a aparência da plataforma com temas e configurações visuais
+* **Manutenção** — Realizar backups, monitorar o status do sistema e gerenciar o armazenamento
 
-## How this guide is organized
+## Como este manual está organizado
 
-1. **Getting Started** — An overview of the administration interface
-2. **Installation** — Server requirements, installation wizard, and initial configuration
-3. **Users** — Managing user accounts, roles, groups, and profiles
-4. **Courses** — Managing courses, categories, and import/export
-5. **Sessions** — Organizing time-bound training cohorts
-6. **Platform Settings** — Configuring every aspect of the platform
-7. **Authentication** — Setting up external authentication providers
-8. **Integrations** — Connecting third-party services
-9. **Plugins** — Managing platform extensions
-10. **Multi-URL** — Running multiple portals from a single installation
-11. **Maintenance** — Backups, system status, and cleanup
-12. **Branding** — Customizing the platform appearance
+1. **Primeiros passos** — Uma visão geral da interface de administração
+2. **Instalação** — Requisitos do servidor, assistente de instalação e configuração inicial
+3. **Usuários** — Gerenciamento de contas de usuários, papéis, grupos e perfis
+4. **Cursos** — Gerenciamento de cursos, categorias e importação/exportação
+5. **Sessões** — Organização de coortes de treinamento com limite de tempo
+6. **Configurações da plataforma** — Configuração de todos os aspectos da plataforma
+7. **Autenticação** — Configuração de provedores de autenticação externos
+8. **Integrações** — Conexão com serviços de terceiros
+9. **Plugins** — Gerenciamento de extensões da plataforma
+10. **Multi-URL** — Execução de múltiplos portais a partir de uma única instalação
+11. **Manutenção** — Backups, status do sistema e limpeza
+12. **Personalização visual (Branding)** — Customização da aparência da plataforma
 
-## Accessing the Administration Panel
+## Acesso ao painel de administração
 
-After logging in as an administrator, click **Administration** <img src="/.gitbook/assets/icons/mdi-cogs.svg" alt="Admin" data-size="line"> in the sidebar to access the administration panel.
+Após fazer login como administrador, clique em **Administração** <img src="/.gitbook/assets/icons/mdi-cogs.svg" alt="Administração" data-size="line"> na barra lateral para acessar o painel de administração.

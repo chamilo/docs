@@ -1,9 +1,9 @@
-# Additional Tools
+# Ferramentas Adicionais
 
-Beyond the core content, assessment, and collaboration tools, Chamilo offers several additional tools that can enhance your course.
+Além das ferramentas principais de conteúdo, avaliação e colaboração, o Chamilo oferece várias ferramentas adicionais que podem enriquecer o seu curso.
 
-* **[Agenda](agenda.md)** — Schedule events, deadlines, and reminders for your course
-* **[Notebook](notebook.md)** — A personal note-taking tool for learners
-* **[Dropbox](dropbox.md)** — A simple file exchange tool between you and your learners
-* **[Portfolio](portfolio.md)** — Let learners build and showcase a portfolio of their work
-* **[Course Progress](course-progress.md)** — Define thematic sections and track course delivery
+* **[Agenda](agenda.md)** — Agende eventos, prazos e lembretes para o seu curso
+* **[Bloco de Notas](notebook.md)** — Uma ferramenta pessoal de anotações para os alunos
+* **[Dropbox](dropbox.md)** — Uma ferramenta simples de troca de arquivos entre você e seus alunos
+* **[Portfólio](portfolio.md)** — Permita que os alunos construam e exibam um portfólio de seus trabalhos
+* **[Progresso do Curso](course-progress.md)** — Defina seções temáticas e acompanhe a entrega do curso

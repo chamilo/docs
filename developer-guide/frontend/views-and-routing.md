@@ -1,107 +1,107 @@
-# Views and Routing
+# Visualizações e Rotas
 
-Chamilo has a large set of Vue views (page-level components) connected via Vue Router. The actual files live under `assets/vue/views/`.
+Chamilo possui um grande conjunto de visualizações Vue (componentes de nível de página) conectadas por meio do Vue Router. Os arquivos reais estão localizados em `assets/vue/views/`.
 
-## Router Architecture
+## Arquitetura do Roteador
 
-The router is defined in `assets/vue/router/index.js` using `createWebHistory` for clean URLs.
+O roteador é definido em `assets/vue/router/index.js` usando `createWebHistory` para URLs limpas.
 
-Routes are modular — organized into per-feature route files imported into the main router:
+As rotas são modulares — organizadas em arquivos de rota por funcionalidade, importados para o roteador principal:
 
-| Route module | Pages |
-|-------------|-------|
-| `admin` | Administration panel pages |
-| `sessionAdmin` | Session administration pages |
-| `course` | Course list, creation, home, catalog |
-| `account` | User profile and settings |
-| `personalfile` | Personal file space |
-| `message` | Messaging / inbox |
-| `user` | User management pages |
-| `usergroup` | User group (class) pages |
-| `userreluser` | User relationship (friend/follow) pages |
-| `ccalendarevent` | Course calendar and agenda |
-| `ctoolintro` | Course tool introduction pages |
-| `page` | Static CMS pages |
-| `pageLayout` | Page layout wrappers |
-| `publicPage` | Publicly accessible pages |
-| `social` | Social network pages |
-| `filemanager` | File manager (course documents browser) |
-| `skill` | Skills and competencies pages |
-| `accessurl` | Multi-URL (portal) management pages |
-| `branch` | Branch / network campus pages |
-| `room` | Virtual room pages |
-| `buycourses` | Course purchase pages |
-| `documents` | Document management |
-| `assignments` | Assignment workflow |
-| `links` | External links management |
-| `glossary` | Glossary management |
-| `attendance` | Attendance tracking |
-| `lp` | Learning path player and editor |
-| `dropbox` | Dropbox / file exchange |
-| `blog` | Blog pages |
-| `blogAdmin` | Blog administration |
-| `coursemaintenance` | Course backup and restore |
-| `catalogue` | Course and session catalogs |
+| Módulo de Rota | Páginas |
+|----------------|---------|
+| `admin` | Páginas do painel de administração |
+| `sessionAdmin` | Páginas de administração de sessões |
+| `course` | Lista de cursos, criação, página inicial, catálogo |
+| `account` | Perfil e configurações do usuário |
+| `personalfile` | Espaço de arquivos pessoais |
+| `message` | Mensagens / caixa de entrada |
+| `user` | Páginas de gerenciamento de usuários |
+| `usergroup` | Páginas de grupos de usuários (turmas) |
+| `userreluser` | Páginas de relacionamento entre usuários (amigos/seguidores) |
+| `ccalendarevent` | Calendário e agenda do curso |
+| `ctoolintro` | Páginas de introdução às ferramentas do curso |
+| `page` | Páginas estáticas de CMS |
+| `pageLayout` | Envoltórios de layout de página |
+| `publicPage` | Páginas acessíveis publicamente |
+| `social` | Páginas de rede social |
+| `filemanager` | Gerenciador de arquivos (navegador de documentos do curso) |
+| `skill` | Páginas de habilidades e competências |
+| `accessurl` | Páginas de gerenciamento de multi-URL (portal) |
+| `branch` | Páginas de filial / campus de rede |
+| `room` | Páginas de salas virtuais |
+| `buycourses` | Páginas de compra de cursos |
+| `documents` | Gerenciamento de documentos |
+| `assignments` | Fluxo de trabalho de tarefas |
+| `links` | Gerenciamento de links externos |
+| `glossary` | Gerenciamento de glossário |
+| `attendance` | Rastreamento de presença |
+| `lp` | Player e editor de trilhas de aprendizagem |
+| `dropbox` | Dropbox / troca de arquivos |
+| `blog` | Páginas de blog |
+| `blogAdmin` | Administração de blog |
+| `coursemaintenance` | Backup e restauração de cursos |
+| `catalogue` | Catálogos de cursos e sessões |
 
-## Key Routes
+## Rotas Principais
 
-| Path | View | Description |
-|------|------|-------------|
-| `/` | `AppIndex.vue` (or custom) | Application entry point |
-| `/home` | `pages/Home.vue` | Platform home page |
-| `/login` | `pages/Login.vue` | Login page |
-| `/courses` | `views/user/courses/List.vue` | User's enrolled courses |
-| `/sessions` | `views/user/sessions/SessionsCurrent.vue` | Current sessions |
-| `/sessions/past` | `views/user/sessions/SessionsPast.vue` | Past sessions |
-| `/sessions/upcoming` | `views/user/sessions/SessionsUpcoming.vue` | Upcoming sessions |
-| `/course/:id/home` | `views/course/CourseHome.vue` | Course homepage |
-| `/account/home` | `views/account/Home.vue` | User profile |
-| `/admin` | Admin views | Administration panel |
-| `/faq` | `pages/Faq.vue` | FAQ page |
+| Caminho | Visualização | Descrição |
+|---------|--------------|-----------|
+| `/` | `AppIndex.vue` (ou personalizado) | Ponto de entrada da aplicação |
+| `/home` | `pages/Home.vue` | Página inicial da plataforma |
+| `/login` | `pages/Login.vue` | Página de login |
+| `/courses` | `views/user/courses/List.vue` | Cursos inscritos do usuário |
+| `/sessions` | `views/user/sessions/SessionsCurrent.vue` | Sessões atuais |
+| `/sessions/past` | `views/user/sessions/SessionsPast.vue` | Sessões passadas |
+| `/sessions/upcoming` | `views/user/sessions/SessionsUpcoming.vue` | Sessões futuras |
+| `/course/:id/home` | `views/course/CourseHome.vue` | Página inicial do curso |
+| `/account/home` | `views/account/Home.vue` | Perfil do usuário |
+| `/admin` | Visualizações de administrador | Painel de administração |
+| `/faq` | `pages/Faq.vue` | Página de perguntas frequentes (FAQ) |
 
-## Route Guards
+## Guardas de Rota
 
-The router uses navigation guards (declared with `beforeEach` and `afterEach`) to:
+O roteador utiliza guardas de navegação (declaradas com `beforeEach` e `afterEach`) para:
 
-* Check authentication status via `useSecurityStore` and redirect unauthenticated users to `/login`
-* Verify course context via `useCidReqStore`
-* Apply page-type CSS classes during SPA navigation (replacing what Twig's `PageHelper` would do on a full page load)
-* Support custom Vue template overrides — the entry component at `/` is swapped for a custom `AppIndex.vue` when a custom Vue template is enabled (`var/vue_templates/pages/AppIndex.vue`)
+* Verificar o status de autenticação por meio de `useSecurityStore` e redirecionar usuários não autenticados para `/login`
+* Verificar o contexto do curso por meio de `useCidReqStore`
+* Aplicar classes CSS de tipo de página durante a navegação SPA (substituindo o que o `PageHelper` do Twig faria em um carregamento completo de página)
+* Suportar substituições de modelo Vue personalizadas — o componente de entrada em `/` é trocado por um `AppIndex.vue` personalizado quando um modelo Vue personalizado está ativado (`var/vue_templates/pages/AppIndex.vue`)
 
-## View Organization
+## Organização de Visualizações
 
-Views are in `assets/vue/views/`, organized by feature:
+As visualizações estão em `assets/vue/views/`, organizadas por funcionalidade:
 
 ```
 views/
-├── account/          # User profile and settings
-├── admin/            # Admin pages
-├── assignments/      # Assignment submission and grading
-├── attendance/       # Attendance sheets
-├── blog/             # Blog posts and comments
-├── branch/           # Network campus management
-├── buycourses/       # Course purchase flow
-├── ccalendarevent/   # Course calendar
-├── course/           # Course list, home, creation, catalog
-├── coursecategory/   # Course category management
-├── coursemaintenance/# Course backup/restore
-├── ctoolintro/       # Tool introduction pages
-├── documents/        # Document list, creation, media generation
-├── dropbox/          # Dropbox / file exchange
-├── filemanager/      # File browser
-├── glossary/         # Glossary list and term management
-├── links/            # External links
-├── lp/               # Learning path player and editor
-├── message/          # Inbox and messaging
-├── page/             # CMS static pages
-├── pageLayout/       # Page layout wrappers
-├── personalfile/     # Personal file space
-├── room/             # Virtual rooms
-├── sessionadmin/     # Session administration
-├── skill/            # Skills and competencies
-├── social/           # Social network
-├── terms/            # Terms of service
-├── user/             # User management and course/session lists
-├── usergroup/        # User groups (classes)
-└── userreluser/      # User relationships (friends/follows)
+├── account/          # Perfil e configurações do usuário
+├── admin/            # Páginas de administração
+├── assignments/      # Envio e avaliação de tarefas
+├── attendance/       # Folhas de presença
+├── blog/             # Postagens e comentários de blog
+├── branch/           # Gerenciamento de campus de rede
+├── buycourses/       # Fluxo de compra de cursos
+├── ccalendarevent/   # Calendário do curso
+├── course/           # Lista de cursos, página inicial, criação, catálogo
+├── coursecategory/   # Gerenciamento de categorias de cursos
+├── coursemaintenance/# Backup/restauração de cursos
+├── ctoolintro/       # Páginas de introdução às ferramentas
+├── documents/        # Lista de documentos, criação, geração de mídia
+├── dropbox/          # Dropbox / troca de arquivos
+├── filemanager/      # Navegador de arquivos
+├── glossary/         # Lista de glossário e gerenciamento de termos
+├── links/            # Links externos
+├── lp/               # Player e editor de trilhas de aprendizagem
+├── message/          # Caixa de entrada e mensagens
+├── page/             # Páginas estáticas de CMS
+├── pageLayout/       # Envoltórios de layout de página
+├── personalfile/     # Espaço de arquivos pessoais
+├── room/             # Salas virtuais
+├── sessionadmin/     # Administração de sessões
+├── skill/            # Habilidades e competências
+├── social/           # Rede social
+├── terms/            # Termos de serviço
+├── user/             # Gerenciamento de usuários e listas de cursos/sessões
+├── usergroup/        # Grupos de usuários (turmas)
+└── userreluser/      # Relacionamentos entre usuários (amigos/seguidores)
 ```

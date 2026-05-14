@@ -1,10 +1,10 @@
-# Authentication
+# Autenticação
 
-Chamilo supports multiple authentication methods, from the built-in username/password system to enterprise single sign-on solutions.
+Chamilo suporta múltiplos métodos de autenticação, desde o sistema integrado de nome de usuário/senha até soluções de single sign-on corporativas.
 
-## Configuration file
+## Arquivo de Configuração
 
-All external authentication methods are configured in `config/authentication.yaml`. A template is provided at `config/authentication.dist.yaml`. The general structure is:
+Todos os métodos de autenticação externos são configurados em `config/authentication.yaml`. Um modelo está disponível em `config/authentication.dist.yaml`. A estrutura geral é:
 
 ```yaml
 parameters:
@@ -15,27 +15,27 @@ parameters:
           <config_key>: <value>
 ```
 
-After editing the file, clear and warm the cache:
+Após editar o arquivo, limpe e aqueça o cache:
 
 ```bash
 php bin/console cache:clear
 php bin/console cache:warmup
 ```
 
-External login buttons appear on the login page after the cache is refreshed.
+Botões de login externos aparecerão na página de login após a atualização do cache.
 
-## Supported methods
+## Métodos Suportados
 
-* **[OAuth2](oauth2.md)** — Azure AD, Keycloak, Facebook, and generic OAuth2 providers
-* **[LDAP](ldap.md)** — Authenticate against an LDAP or Active Directory server
-* **[CAS](cas.md)** — Central Authentication Service (legacy, not functional in 2.x)
-* **[SCIM](scim.md)** — Automated user provisioning from external identity providers
-* **[SSO Configuration](sso-configuration.md)** — Troubleshooting and cross-method notes
+* **[OAuth2](oauth2.md)** — Azure AD, Keycloak, Facebook e provedores genéricos de OAuth2
+* **[LDAP](ldap.md)** — Autenticação contra um servidor LDAP ou Active Directory
+* **[CAS](cas.md)** — Central Authentication Service (obsoleto, não funcional na versão 2.x)
+* **[SCIM](scim.md)** — Provisionamento automatizado de usuários a partir de provedores de identidade externos
+* **[Configuração SSO](sso-configuration.md)** — Solução de problemas e notas sobre diferentes métodos
 
-## Default authentication
+## Autenticação Padrão
 
-By default, Chamilo uses its own internal system — users log in with a username and password stored in the Chamilo database. External methods are additive: the standard login form stays available alongside any configured providers.
+Por padrão, o Chamilo utiliza seu próprio sistema interno — os usuários fazem login com um nome de usuário e senha armazenados no banco de dados do Chamilo. Métodos externos são complementares: o formulário de login padrão permanece disponível ao lado de quaisquer provedores configurados.
 
-## Further reference
+## Referência Adicional
 
-For full parameter reference and advanced scenarios, see the [External Authentication configuration wiki page](https://github.com/chamilo/chamilo-lms/wiki/External-Authentication-configuration).
+Para uma referência completa de parâmetros e cenários avançados, consulte a [página wiki de configuração de Autenticação Externa](https://github.com/chamilo/chamilo-lms/wiki/External-Authentication-configuration).

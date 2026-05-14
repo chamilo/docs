@@ -1,247 +1,232 @@
-# Documents Settings
+# Configurações de Documentos
 
-Behaviour of the course **Documents** tool — uploads, allowed extensions, sharing, and templates.
+Comportamento da ferramenta **Documentos** do curso — uploads, extensões permitidas, compartilhamento e modelos.
 
-Access these settings under **Administration > Configuration settings > Documents**. This category contains **29 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+Acesse essas configurações em **Administração > Configurações de configuração > Documentos**. Esta categoria contém **29 configurações**, listadas abaixo com o título e o comentário fornecidos nos arquivos de configurações padrão da plataforma (`SettingsCurrentFixtures.php`).
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> O nome da variável no código é mostrado em fonte monoespaçada. Use-o ao criar scripts via API ou quando precisar alterar essas configurações em nível global editando [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
 
-## Settings
+## Configurações
 
 ### `access_url_specific_files`
 
-**Enable URL-specific files**
+**Habilitar arquivos específicos por URL**
 
-When this feature is enabled on a multi-URL configuration, you can go to the main URL and provide URL-specific versions of any file (in the documents tool). The original file will be replaced by the alternative whenever seeing it from a different URL. This allows you to customize each URL even further, while enjoying the advantage of re-using the same courses many times.
+Quando esta funcionalidade está ativada em uma configuração multi-URL, você pode acessar a URL principal e fornecer versões específicas de qualquer arquivo (na ferramenta de documentos) para cada URL. O arquivo original será substituído pela alternativa sempre que visualizado a partir de uma URL diferente. Isso permite personalizar ainda mais cada URL, enquanto aproveita a vantagem de reutilizar os mesmos cursos várias vezes.
 
-*Default: `false`*
+*Padrão: `false`*
 
 ### `default_document_quotum`
 
-**Default hard disk space**
+**Espaço em disco padrão**
 
-What is the available disk space for a course? You can override the quota for specific course through: platform administration > Courses > modify
+Qual é o espaço em disco disponível para um curso? Você pode sobrescrever a cota para cursos específicos através de: administração da plataforma > Cursos > modificar
 
-*Default: `1000`*
-
+*Padrão: `1000`*
 
 ### `default_group_quotum`
 
-**Group disk space available**
+**Espaço em disco disponível para grupos**
 
-What is the default hard disk spacde available for a groups documents tool?
+Qual é o espaço em disco padrão disponível para a ferramenta de documentos de grupos?
 
-*Default: `250`*
-
+*Padrão: `250`*
 
 ### `documents_custom_cloud_link_list`
 
-**Set strict hosts list for cloud links**
+**Definir lista restrita de hosts para links na nuvem**
 
-The documents tool can integrate links to files in the cloud. The list of cloud services is limited to a hardcoded list, but you can define the ‘links’ array that will contain a list of your own list of services/URLs. The list defined here will replace the default list.
+A ferramenta de documentos pode integrar links para arquivos na nuvem. A lista de serviços de nuvem é limitada a uma lista codificada, mas você pode definir o array ‘links’ que conterá uma lista de serviços/URLs personalizados. A lista definida aqui substituirá a lista padrão.
 
 ### `documents_default_visibility_defined_in_course`
 
-**Document visibility defined in course**
+**Visibilidade de documentos definida no curso**
 
-The default document visibility for all courses
+A visibilidade padrão de documentos para todos os cursos
 
-*Default: `false`*
+*Padrão: `false`*
 
 ### `documents_hide_download_icon`
 
-**Hide documents download icon**
+**Ocultar ícone de download de documentos**
 
-In the documents tool, hide the download icon from users.
+Na ferramenta de documentos, ocultar o ícone de download para os usuários.
 
-*Default: `false`*
-
+*Padrão: `false`*
 
 ### `enable_x_sendfile_headers`
 
-**Enable X-sendfile headers**
+**Habilitar cabeçalhos X-sendfile**
 
-Enable this if you have X-sendfile enabled at the web server level and you want to add the required headers for browsers to pick it up.
+Habilite esta opção se você tiver o X-sendfile ativado no nível do servidor web e desejar adicionar os cabeçalhos necessários para que os navegadores o reconheçam.
 
-*Default: `false`*
+*Padrão: `false`*
 
 ### `group_category_document_access`
 
-**Enable sharing options for document inside group category**
+**Habilitar opções de compartilhamento para documentos dentro de categorias de grupo**
 
-When enabled, administrators can set document access and sharing permissions for document groups by category.
+Quando ativado, os administradores podem definir permissões de acesso e compartilhamento para grupos de documentos por categoria.
 
-*Default: `false`*
-
+*Padrão: `false`*
 
 ### `group_document_access`
 
-**Enable sharing options for group document**
+**Habilitar opções de compartilhamento para documentos de grupo**
 
-When enabled, document sharing and access permissions can be configured at the group level.
+Quando ativado, as permissões de compartilhamento e acesso a documentos podem ser configuradas no nível do grupo.
 
-*Default: `false`*
-
+*Padrão: `false`*
 
 ### `pdf_export_watermark_by_course`
 
-**Enable watermark definition by course**
+**Habilitar definição de marca d'água por curso**
 
-When this option is enabled, teachers can define their own watermark for the documents in their courses.
+Quando esta opção está ativada, os professores podem definir sua própria marca d'água para os documentos em seus cursos.
 
-*Default: `false`*
-
+*Padrão: `false`*
 
 ### `pdf_export_watermark_enable`
 
-**Enable watermark in PDF export**
+**Habilitar marca d'água na exportação de PDF**
 
-By enabling this option, you can upload an image or a text that will be automatically added as watermark to all PDF exports of documents on the system.
+Ao ativar esta opção, você pode fazer upload de uma imagem ou texto que será automaticamente adicionado como marca d'água em todas as exportações de documentos para PDF no sistema.
 
-*Default: `false`*
+*Padrão: `false`*
 
 ### `pdf_export_watermark_text`
 
-**PDF watermark text**
+**Texto de marca d'água em PDF**
 
-This text will be added as a watermark to the documents exports as PDF.
+Este texto será adicionado como marca d'água nas exportações de documentos para PDF.
 
 ### `permanently_remove_deleted_files`
 
-**Deleted files cannot be restored**
+**Arquivos excluídos não podem ser restaurados**
 
-Deleting a file in the documents tool permanently deletes it. The file cannot be restored
+Excluir um arquivo na ferramenta de documentos o remove permanentemente. O arquivo não pode ser restaurado.
 
-*Default: `false`*
+*Padrão: `false`*
 
 ### `permissions_for_new_directories`
 
-**Permissions for new directories**
+**Permissões para novos diretórios**
 
-The ability to define the permissions settings to assign to every newly created directory lets you improve security against attacks by hackers uploading dangerous content to your portal. The default setting (0770) should be enough to give your server a reasonable protection level. The given format uses the UNIX terminology of Owner-Group-Others with Read-Write-Execute permissions.
+A capacidade de definir as configurações de permissões a serem atribuídas a cada diretório recém-criado permite melhorar a segurança contra ataques de hackers que fazem upload de conteúdo perigoso para o seu portal. A configuração padrão (0770) deve ser suficiente para fornecer ao seu servidor um nível razoável de proteção. O formato fornecido usa a terminologia UNIX de Proprietário-Grupo-Outros com permissões de Leitura-Escrita-Execução.
 
-*Default: `0770`*
-
+*Padrão: `0770`*
 
 ### `permissions_for_new_files`
 
-**Permissions for new files**
+**Permissões para novos arquivos**
 
-The ability to define the permissions settings to assign to every newly-created file lets you improve security against attacks by hackers uploading dangerous content to your portal. The default setting (0550) should be enough to give your server a reasonable protection level. The given format uses the UNIX terminology of Owner-Group-Others with Read-Write-Execute permissions. If you use Oogie, take care that the user who launch LibreOffice can write files in the course folder.
+A capacidade de definir as configurações de permissões a serem atribuídas a cada arquivo recém-criado permite melhorar a segurança contra ataques de hackers que fazem upload de conteúdo perigoso para o seu portal. A configuração padrão (0550) deve ser suficiente para fornecer ao seu servidor um nível razoável de proteção. O formato fornecido usa a terminologia UNIX de Proprietário-Grupo-Outros com permissões de Leitura-Escrita-Execução. Se você usa o Oogie, certifique-se de que o usuário que executa o LibreOffice pode gravar arquivos na pasta do curso.
 
-*Default: `0660`*
-
+*Padrão: `0660`*
 
 ### `send_notification_when_document_added`
 
-**Send notification to students when document added**
+**Enviar notificação aos alunos quando um documento for adicionado**
 
-Whenever someone creates a new item in the documents tool, send a notification to users.
+Sempre que alguém criar um novo item na ferramenta de documentos, enviar uma notificação aos usuários.
 
-*Default: `false`*
+*Padrão: `false`*
 
-
+---
 ### `show_default_folders`
 
-**Show in documents tool all folders containing multimedia resources supplied by default**
+**Mostrar na ferramenta de documentos todas as pastas contendo recursos multimídia fornecidos por padrão**
 
-Multimedia file folders containing files supplied by default organized in categories of video, audio, image and flash animations to use in their courses. Although you make it invisible into the document tool, you can still use these resources in the platform web editor.
+Pastas de arquivos multimídia contendo arquivos fornecidos por padrão, organizados em categorias de vídeo, áudio, imagem e animações em flash para uso nos cursos. Embora você possa torná-las invisíveis na ferramenta de documentos, ainda é possível utilizar esses recursos no editor web da plataforma.
 
-*Default: `true`*
+*Padrão: `true`*
 
 ### `show_documents_preview`
 
-**Show document preview**
+**Mostrar pré-visualização de documentos**
 
-Showing previews of the documents in the documents tool will avoid loading a new page just to show a document, but can result unstable with some older browsers or smaller width screens.
+Exibir pré-visualizações dos documentos na ferramenta de documentos evita o carregamento de uma nova página apenas para mostrar um documento, mas pode ser instável em alguns navegadores mais antigos ou em telas de largura menor.
 
-*Default: `false`*
+*Padrão: `false`*
 
 ### `show_users_folders`
 
-**Show users folders in the documents tool**
+**Mostrar pastas de usuários na ferramenta de documentos**
 
-This option allows you to show or hide to teachers the folders that the system generates for each user who visits the tool documents or send a file through the web editor. If you display these folders to the teachers, they may make visible or not the learners and allow each learner to have a specific place on the course where not only store documents, but where they can also create and edit web pages and to export to pdf, make drawings, make personal web templates, send files, as well as create, move and delete directories and files and make security copies from their folders. Each user of course have a complete document manager. Also, remember that any user can copy a file that is visible from any folder in the documents tool (whether or not the owner) to his/her portfolios or personal documents area of social network, which will be available for his/her can use it in other courses.
+Esta opção permite mostrar ou ocultar para os professores as pastas que o sistema gera para cada usuário que acessa a ferramenta de documentos ou envia um arquivo pelo editor web. Se você exibir essas pastas para os professores, eles podem torná-las visíveis ou não para os alunos e permitir que cada aluno tenha um espaço específico no curso onde não apenas armazenar documentos, mas também criar e editar páginas web, exportar para PDF, fazer desenhos, criar modelos web pessoais, enviar arquivos, bem como criar, mover e excluir diretórios e arquivos e fazer cópias de segurança de suas pastas. Cada usuário do curso terá um gerenciador de documentos completo. Além disso, lembre-se de que qualquer usuário pode copiar um arquivo visível de qualquer pasta na ferramenta de documentos (independentemente de quem seja o proprietário) para seus portfólios ou área de documentos pessoais da rede social, que estará disponível para uso em outros cursos.
 
-*Default: `true`*
+*Padrão: `true`*
 
 ### `students_download_folders`
 
-**Allow learners to download directories**
+**Permitir que os alunos baixem diretórios**
 
-Allow learners to pack and download a complete directory from the document tool
+Permite que os alunos compactem e baixem um diretório completo da ferramenta de documentos.
 
-*Default: `true`*
-
+*Padrão: `true`*
 
 ### `students_export2pdf`
 
-**Allow learners to export web documents to PDF format in the documents and wiki tools**
+**Permitir que os alunos exportem documentos web para o formato PDF nas ferramentas de documentos e wiki**
 
-This feature is enabled by default, but in case of server overload abuse it, or specific learning environments, might want to disable it for all courses.
+Este recurso está ativado por padrão, mas em caso de sobrecarga do servidor ou abuso, ou em ambientes de aprendizagem específicos, você pode querer desativá-lo para todos os cursos.
 
-*Default: `true`*
+*Padrão: `true`*
 
 ### `thematic_pdf_orientation`
 
-**PDF orientation for course progress**
+**Orientação do PDF para o progresso do curso**
 
-In the course progress tool, you can print a PDF of the different elements. Set ‘portrait’ or ‘landscape’ (technical terms) to change it.
+Na ferramenta de progresso do curso, você pode imprimir um PDF dos diferentes elementos. Defina 'portrait' ou 'landscape' (termos técnicos) para alterar a orientação.
 
-*Default: `landscape`*
-
+*Padrão: `landscape`*
 
 ### `upload_extensions_blacklist`
 
-**Blacklist - setting**
+**Lista negra - configuração**
 
-The blacklist is used to filter the files extensions by removing (or renaming) any file which extension figures in the blacklist below. The extensions should figure without the leading dot (.) and separated by semi-column (;) like the following:  exe;com;bat;scr;php. Files without extension are accepted. Letter casing (uppercase/lowercase) doesn't matter.
+A lista negra é usada para filtrar as extensões de arquivos, removendo (ou renomeando) qualquer arquivo cuja extensão esteja na lista negra abaixo. As extensões devem ser listadas sem o ponto inicial (.) e separadas por ponto e vírgula (;) como no exemplo a seguir: exe;com;bat;scr;php. Arquivos sem extensão são aceitos. A distinção entre maiúsculas e minúsculas não é considerada.
 
 ### `upload_extensions_list_type`
 
-**Type of filtering on document uploads**
+**Tipo de filtragem no upload de documentos**
 
-Whether you want to use the blacklist or whitelist filtering. See blacklist or whitelist description below for more details.
+Define se você deseja usar a filtragem por lista negra ou lista branca. Veja a descrição de lista negra ou lista branca abaixo para mais detalhes.
 
-*Default: `blacklist`*
-
+*Padrão: `blacklist`*
 
 ### `upload_extensions_replace_by`
 
-**Replacement extension**
+**Extensão de substituição**
 
-Enter the extension that you want to use to replace the dangerous extensions detected by the filter. Only needed if you have selected a filter by replacement.
+Insira a extensão que você deseja usar para substituir as extensões perigosas detectadas pelo filtro. Necessário apenas se você selecionou um filtro por substituição.
 
-*Default: `dangerous`*
-
+*Padrão: `dangerous`*
 
 ### `upload_extensions_skip`
 
-**Filtering behaviour (skip/rename)**
+**Comportamento de filtragem (ignorar/renomear)**
 
-If you choose to skip, the files filtered through the blacklist or whitelist will not be uploaded to the system. If you choose to rename them, their extension will be replaced by the one defined in the extension replacement setting. Beware that renaming doesn't really protect you, and may cause name collision if several files of the same name but different extensions exist.
+Se você escolher ignorar, os arquivos filtrados pela lista negra ou lista branca não serão enviados para o sistema. Se você optar por renomeá-los, a extensão deles será substituída pela definida na configuração de substituição de extensão. Cuidado, pois renomear não oferece proteção real e pode causar colisão de nomes se vários arquivos com o mesmo nome, mas extensões diferentes, existirem.
 
-*Default: `true`*
-
+*Padrão: `true`*
 
 ### `upload_extensions_whitelist`
 
-**Whitelist - setting**
+**Lista branca - configuração**
 
-The whitelist is used to filter the file extensions by removing (or renaming) any file whose extension does *NOT* figure in the whitelist below. It is generally considered as a safer but more restrictive approach to filtering. The extensions should figure without the leading dot (.) and separated by semi-column (;) such as the following:  htm;html;txt;doc;xls;ppt;jpg;jpeg;gif;sxw. Files without extension are accepted. Letter casing (uppercase/lowercase) doesn't matter.
+A lista branca é usada para filtrar as extensões de arquivos, removendo (ou renomeando) qualquer arquivo cuja extensão *NÃO* esteja na lista branca abaixo. Geralmente, é considerada uma abordagem mais segura, porém mais restritiva, para filtragem. As extensões devem ser listadas sem o ponto inicial (.) e separadas por ponto e vírgula (;) como no exemplo a seguir: htm;html;txt;doc;xls;ppt;jpg;jpeg;gif;sxw. Arquivos sem extensão são aceitos. A distinção entre maiúsculas e minúsculas não é considerada.
 
 ### `users_copy_files`
 
-**Allow users to copy files from a course in your personal file area**
+**Permitir que os usuários copiem arquivos de um curso para sua área de arquivos pessoais**
 
-Allows users to copy files from a course in your personal file area, visible through the Social Network or through the HTML editor when they are out of a course
+Permite que os usuários copiem arquivos de um curso para sua área de arquivos pessoais, visível através da Rede Social ou pelo editor HTML quando estão fora de um curso.
 
-*Default: `true`*
-
+*Padrão: `true`*
 
 ### `video_features`
 
-**Video features**
+**Recursos de vídeo**
 
-Array of extra features you can enable for the video player in Chamilo. Options include 'speed', which allows you to change the playback speed of a video.
-
+Conjunto de recursos extras que você pode habilitar para o reprodutor de vídeo no Chamilo. As opções incluem 'speed', que permite alterar a velocidade de reprodução de um vídeo.

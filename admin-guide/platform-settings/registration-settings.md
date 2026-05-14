@@ -1,110 +1,106 @@
-# Registration Settings
+# Configurações de Registro
 
-Self-registration policy and post-registration redirects — what new users are asked for and where they land.
+Política de auto-registro e redirecionamentos pós-registro — o que é solicitado aos novos usuários e para onde eles são direcionados.
 
-Access these settings under **Administration > Configuration settings > Registration**. This category contains **20 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+Acesse essas configurações em **Administração > Configurações de configuração > Registro**. Esta categoria contém **20 configurações**, listadas abaixo com o título e o comentário fornecidos nos arquivos de configurações da plataforma (`SettingsCurrentFixtures.php`).
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> O nome da variável no código é mostrado em fonte monoespaçada. Use-o ao criar scripts via API ou quando precisar alterar essas configurações em um nível global editando [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
 
-## Settings
+## Configurações
 
 ### `allow_double_validation_in_registration`
 
-**Double validation for registration process**
+**Validação dupla no processo de registro**
 
-Simply display a confirmation request on the registration page before going forward with the user creation.
+Exibe simplesmente uma solicitação de confirmação na página de registro antes de prosseguir com a criação do usuário.
 
-*Default: `false`*
-
+*Padrão: `false`*
 
 ### `allow_fields_inscription`
 
-**Restrict fields shown during registration**
+**Restringir campos exibidos durante o registro**
 
-If you only want to show some of the available profile field, your can complete the array here with sub-elements 'fields' and 'extra_fields' containing arrays with a list of the fields to show.
+Se você deseja mostrar apenas alguns dos campos de perfil disponíveis, pode completar o array aqui com subelementos 'fields' e 'extra_fields' contendo arrays com a lista dos campos a serem exibidos.
 
 ### `allow_lostpassword`
 
-**Lost password**
+**Senha perdida**
 
-Are users allowed to request their lost password?
+Os usuários podem solicitar a recuperação de senha perdida?
 
-*Default: `true`*
+*Padrão: `true`*
 
 ### `allow_registration`
 
-**Registration**
+**Registro**
 
-Is registration as a new user allowed? Can users create new accounts?
+O registro como novo usuário é permitido? Os usuários podem criar novas contas?
 
-*Default: `false`*
+*Padrão: `false`*
 
 ### `allow_registration_as_teacher`
 
-**Registration as teacher**
+**Registro como professor**
 
-Can one register as a teacher (with the ability to create courses)?
+É possível se registrar como professor (com a capacidade de criar cursos)?
 
-*Default: `false`*
+*Padrão: `false`*
 
 ### `allow_terms_conditions`
 
-**Enable terms and conditions**
+**Ativar termos e condições**
 
-This option will display the Terms and Conditions in the register form for new users. Need to be configured first in the portal administration page.
+Esta opção exibirá os Termos e Condições no formulário de registro para novos usuários. Precisa ser configurada primeiro na página de administração do portal.
 
-*Default: `false`*
-
+*Padrão: `false`*
 
 ### `drh_autosubscribe`
 
-**Human resources director autosubscribe**
+**Inscrição automática de diretor de recursos humanos**
 
-Human resources director autosubscribe - not yet available
+Inscrição automática de diretor de recursos humanos - ainda não disponível
 
 ### `extendedprofile_registration`
 
-**Portfolio fields at registration**
+**Campos de portfólio no registro**
 
-Which of the following fields of the portfolio have to be available in the user registration process? This requires that the portfolio option be enabled (see above).
+Quais dos seguintes campos do portfólio devem estar disponíveis no processo de registro do usuário? Isso exige que a opção de portfólio esteja ativada (veja acima).
 
 ### `extendedprofile_registrationrequired`
 
-**Required portfolio fields in registration**
+**Campos de portfólio obrigatórios no registro**
 
-Which of the following fields of the portfolio are *required* in the user registration process? This requires that the portfolio option be enabled and that the field be also available in the registration form (see above).
+Quais dos seguintes campos do portfólio são *obrigatórios* no processo de registro do usuário? Isso exige que a opção de portfólio esteja ativada e que o campo também esteja disponível no formulário de registro (veja acima).
 
 ### `extldap_config`
 
-**LDAP connection configuration**
+**Configuração de conexão LDAP**
 
-Array defining host and port for the LDAP server.
+Array definindo host e porta para o servidor LDAP.
 
 ### `hide_legal_accept_checkbox`
 
-**Hide legal accept checkbox in Terms and Conditions page**
+**Ocultar caixa de aceitação legal na página de Termos e Condições**
 
-If set to true, removes the "I have read and accept" checkbox in the Terms and Conditions page flow.
+Se definido como true, remove a caixa de seleção "Li e aceito" no fluxo da página de Termos e Condições.
 
-*Default: `false`*
-
+*Padrão: `false`*
 
 ### `platform_unsubscribe_allowed`
 
-**Allow unsubscription from platform**
+**Permitir cancelamento de inscrição na plataforma**
 
-By enabling this option, you allow any user to definitively remove his own account and all data related to it from the platform. This is quite a radical action, but it is necessary for portals opened to the public where users can auto-register. An additional entry will appear in the user profile to unsubscribe after confirmation.
+Ao ativar esta opção, você permite que qualquer usuário remova definitivamente sua própria conta e todos os dados relacionados a ela da plataforma. Esta é uma ação bastante radical, mas necessária para portais abertos ao público onde os usuários podem se auto-registrar. Uma entrada adicional aparecerá no perfil do usuário para cancelar a inscrição após confirmação.
 
-*Default: `false`*
-
+*Padrão: `false`*
 
 ### `redirect_after_login`
 
-**Redirect after login (per profile)**
+**Redirecionamento após login (por perfil)**
 
-Define redirection per profile after login using a JSON object like {"STUDENT":"", "ADMIN":"admin-dashboard"}
+Defina o redirecionamento por perfil após o login usando um objeto JSON como {"STUDENT":"", "ADMIN":"admin-dashboard"}
 
-*Default:*
+*Padrão:*
 ```json
 {
   "COURSEMANAGER": "courses",
@@ -119,49 +115,46 @@ Define redirection per profile after login using a JSON object like {"STUDENT":"
 
 ### `required_extra_fields_in_inscription`
 
-**Required extra fields during registration**
+**Campos extras obrigatórios durante o registro**
 
-Array of extra field identifiers that must be completed during user registration.
+Array de identificadores de campos extras que devem ser preenchidos durante o registro do usuário.
 
 ### `required_profile_fields`
 
-**Required fields during registration**
+**Campos obrigatórios durante o registro**
 
-Array of profile field names (email, phone, language, official_code) that must be provided during registration.
+Array de nomes de campos de perfil (email, phone, language, official_code) que devem ser fornecidos durante o registro.
 
 ### `send_inscription_msg_to_inbox`
 
-**Send the welcome message to e-mail and inbox**
+**Enviar mensagem de boas-vindas para e-mail e caixa de entrada**
 
-By default, the welcome message (with credentials) is sent only by e-mail. Enable this option to send it to the user's Chamilo inbox as well.
+Por padrão, a mensagem de boas-vindas (com credenciais) é enviada apenas por e-mail. Ative esta opção para enviá-la também para a caixa de entrada do usuário no Chamilo.
 
-*Default: `false`*
-
+*Padrão: `false`*
 
 ### `sessionadmin_autosubscribe`
 
-**Session admin autosubscribe**
+**Inscrição automática de administrador de sessão**
 
-Session administrator autosubscribe - not available yet
+Inscrição automática de administrador de sessão - ainda não disponível
 
 ### `student_autosubscribe`
 
-**Learner autosubscribe**
+**Inscrição automática de aluno**
 
-Learner autosubscribe - not yet available
+Inscrição automática de aluno - ainda não disponível
 
 ### `teacher_autosubscribe`
 
-**Teacher autosubscribe**
+**Inscrição automática de professor**
 
-Teacher autosubscribe - not yet available
+Inscrição automática de professor - ainda não disponível
 
 ### `user_hide_never_expire_option`
 
-**Hide 'never expires' option for users**
+**Ocultar opção 'nunca expira' para usuários**
 
-Remove the option 'never expires' when creating/editing a user account.
+Remove a opção 'nunca expira' ao criar/editar uma conta de usuário.
 
-*Default: `false`*
-
-
+*Padrão: `false`*

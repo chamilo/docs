@@ -1,55 +1,55 @@
-# Twig Templates
+# Modelos Twig
 
-Chamilo uses Twig for server-side rendered pages. Templates live in `src/CoreBundle/Resources/views/` and are referenced with the `@ChamiloCore/` namespace prefix (e.g. `@ChamiloCore/Layout/base-layout.html.twig`).
+Chamilo utiliza Twig para páginas renderizadas no lado do servidor. Os modelos estão localizados em `src/CoreBundle/Resources/views/` e são referenciados com o prefixo de namespace `@ChamiloCore/` (por exemplo, `@ChamiloCore/Layout/base-layout.html.twig`).
 
-There is no top-level `templates/` directory — all Twig templates are under `src/CoreBundle/Resources/views/`.
+Não há um diretório de nível superior `templates/` — todos os modelos Twig estão sob `src/CoreBundle/Resources/views/`.
 
-## How Twig and Vue Coexist
+## Como Twig e Vue Coexistem
 
-Most pages follow this flow:
+A maioria das páginas segue este fluxo:
 
-1. A Symfony controller renders a Twig template that extends a layout.
-2. The layout includes `vue_setup.html.twig`, which emits `<div id="app">` and injects runtime globals (`window.user`, `window.breadcrumb`, etc.) via `vue_js_setup.html.twig`.
-3. Vue mounts on `#app` and handles all UI rendering inside that element.
-4. The Vue app communicates with the backend via the REST API.
+1. Um controlador Symfony renderiza um modelo Twig que estende um layout.
+2. O layout inclui `vue_setup.html.twig`, que emite `<div id="app">` e injeta variáveis globais de tempo de execução (`window.user`, `window.breadcrumb`, etc.) por meio de `vue_js_setup.html.twig`.
+3. Vue é montado em `#app` e gerencia toda a renderização da interface do usuário dentro desse elemento.
+4. O aplicativo Vue se comunica com o backend por meio da API REST.
 
-For legacy pages not yet migrated to Vue, Symfony renders the full page HTML via Twig and the content is placed inside `#sectionMainContent`. Vue still mounts (providing the sidebar and topbar shell), but the main content area is server-rendered HTML.
+Para páginas legadas que ainda não foram migradas para Vue, o Symfony renderiza o HTML completo da página via Twig e o conteúdo é colocado dentro de `#sectionMainContent`. Vue ainda é montado (fornecendo a barra lateral e a barra superior), mas a área de conteúdo principal é HTML renderizado no servidor.
 
-## Layout Templates
+## Modelos de Layout
 
-All layouts extend `@ChamiloCore/Layout/base-layout.html.twig`, which provides the `<html>`, `<head>`, and `<body>` structure. Available layout variants:
+Todos os layouts estendem `@ChamiloCore/Layout/base-layout.html.twig`, que fornece a estrutura `<html>`, `<head>` e `<body>`. Variantes de layout disponíveis:
 
-| Template | Purpose |
+| Modelo | Finalidade |
 |----------|---------|
-| `Layout/base-layout.html.twig` | Root template — `<html>` shell, imports Macros, emits `<head>` and `<body>` |
-| `Layout/layout.html.twig` | Standard full layout with sidebar, topbar, and content area |
-| `Layout/layout_one_col.html.twig` | Single-column layout (no sidebar) |
-| `Layout/layout_two_col.html.twig` | Two-column layout |
-| `Layout/layout_content.html.twig` | Content-only wrapper |
-| `Layout/layout_empty.html.twig` | Empty layout with minimal chrome |
-| `Layout/no_layout.html.twig` | No header/footer; content goes directly inside `<body>` |
-| `Layout/no_layout_scorm.html.twig` | Bare layout for SCORM content frames |
-| `Layout/blank.html.twig` | Completely blank page |
-| `Layout/skill_layout.html.twig` | Layout for the skills wheel page |
+| `Layout/base-layout.html.twig` | Modelo raiz — estrutura `<html>`, importa Macros, emite `<head>` e `<body>` |
+| `Layout/layout.html.twig` | Layout completo padrão com barra lateral, barra superior e área de conteúdo |
+| `Layout/layout_one_col.html.twig` | Layout de uma coluna (sem barra lateral) |
+| `Layout/layout_two_col.html.twig` | Layout de duas colunas |
+| `Layout/layout_content.html.twig` | Envoltório apenas para conteúdo |
+| `Layout/layout_empty.html.twig` | Layout vazio com mínimo de elementos visuais |
+| `Layout/no_layout.html.twig` | Sem cabeçalho/rodapé; conteúdo vai diretamente dentro de `<body>` |
+| `Layout/no_layout_scorm.html.twig` | Layout básico para quadros de conteúdo SCORM |
+| `Layout/blank.html.twig` | Página completamente em branco |
+| `Layout/skill_layout.html.twig` | Layout para a página de roda de habilidades |
 
-## Key Partials
+## Partes-Chave
 
-| Template | Purpose |
+| Modelo | Finalidade |
 |----------|---------|
-| `Layout/head.html.twig` | `<head>` content: meta tags, all Encore CSS entries, theme `colors.css`, legacy JS entries, OpenGraph/Twitter tags |
-| `Layout/foot.html.twig` | End-of-body: Vue JS entry point, `tracking.footer_extra_content` injection |
-| `Layout/vue_setup.html.twig` | Emits `<div id="app">` and includes `vue_js_setup.html.twig` |
-| `Layout/vue_js_setup.html.twig` | Injects `window.user`, `window.breadcrumb`, `window.languages`, etc. |
-| `Layout/cookie_banner.html.twig` | GDPR cookie consent banner |
-| `Layout/footer.html.twig` | Page footer bar |
-| `Layout/course_navigation.html.twig` | Course tool navigation breadcrumb |
+| `Layout/head.html.twig` | Conteúdo de `<head>`: meta tags, todas as entradas CSS do Encore, `colors.css` do tema, entradas JS legadas, tags OpenGraph/Twitter |
+| `Layout/foot.html.twig` | Fim do corpo: ponto de entrada JS do Vue, injeção de `tracking.footer_extra_content` |
+| `Layout/vue_setup.html.twig` | Emite `<div id="app">` e inclui `vue_js_setup.html.twig` |
+| `Layout/vue_js_setup.html.twig` | Injeta `window.user`, `window.breadcrumb`, `window.languages`, etc. |
+| `Layout/cookie_banner.html.twig` | Banner de consentimento de cookies GDPR |
+| `Layout/footer.html.twig` | Barra de rodapé da página |
+| `Layout/course_navigation.html.twig` | Migalha de navegação de ferramentas do curso |
 
-## Webpack Encore Integration
+## Integração com Webpack Encore
 
-`head.html.twig` loads CSS for all entries; `foot.html.twig` loads the Vue JS bundle:
+`head.html.twig` carrega CSS para todas as entradas; `foot.html.twig` carrega o pacote JS do Vue:
 
 ```twig
-{# In head.html.twig — CSS entries #}
+{# Em head.html.twig — entradas CSS #}
 {{ encore_entry_link_tags('legacy_free-jqgrid') }}
 {{ encore_entry_link_tags('legacy_app') }}
 {{ encore_entry_link_tags('legacy_lp') }}
@@ -59,61 +59,62 @@ All layouts extend `@ChamiloCore/Layout/base-layout.html.twig`, which provides t
 {{ encore_entry_link_tags('app') }}
 {{ theme_asset_link_tag('colors.css') }}
 
-{# In foot.html.twig — Vue JS (loaded at end of body) #}
+{# Em foot.html.twig — Vue JS (carregado no final do body) #}
 {{ encore_entry_script_tags('vue') }}
 ```
 
-Legacy JS entries (`legacy_app`, `legacy_lp`, etc.) are loaded in `<head>` because legacy PHP pages depend on them being available before the DOM is ready.
+Entradas JS legadas (`legacy_app`, `legacy_lp`, etc.) são carregadas em `<head>` porque páginas PHP legadas dependem de sua disponibilidade antes que o DOM esteja pronto.
 
 ## Macros
 
-Reusable Twig macros are in `Macros/` and imported at the top of `base-layout.html.twig`:
+Macros Twig reutilizáveis estão em `Macros/` e são importados no topo de `base-layout.html.twig`:
 
-| Macro file | Provides |
+| Arquivo de Macro | Fornece |
 |-----------|---------|
-| `Macros/box.html.twig` | Content box helpers |
-| `Macros/actions.html.twig` | Action button rendering |
-| `Macros/buttons.html.twig` | Button HTML helpers |
-| `Macros/headers.html.twig` | Page header helpers |
-| `Macros/image.html.twig` | Image rendering helpers |
-| `Macros/modals.html.twig` | Modal dialog helpers |
+| `Macros/box.html.twig` | Auxiliares para caixas de conteúdo |
+| `Macros/actions.html.twig` | Renderização de botões de ação |
+| `Macros/buttons.html.twig` | Auxiliares HTML para botões |
+| `Macros/headers.html.twig` | Auxiliares para cabeçalhos de página |
+| `Macros/image.html.twig` | Auxiliares para renderização de imagens |
+| `Macros/modals.html.twig` | Auxiliares para diálogos modais |
 
-Usage inside any template that extends `base-layout.html.twig`:
+Uso dentro de qualquer modelo que estenda `base-layout.html.twig`:
 
 ```twig
-{{ macro_buttons.submit('Save') }}
-{{ macro_box.content_box('Title', content) }}
+{{ macro_buttons.submit('Salvar') }}
+{{ macro_box.content_box('Título', conteúdo) }}
 ```
 
-## Custom Vue Templates
+## Modelos Vue Personalizados
 
-Chamilo supports per-installation Vue page overrides via the `APP_CUSTOM_VUE_TEMPLATE` environment variable. When set, the Webpack build exposes a `ENV_CUSTOM_VUE_TEMPLATE` constant via `DefinePlugin`, and the Vue router conditionally imports override components from `var/vue_templates/`.
+Chamilo suporta substituições de páginas Vue por instalação por meio da variável de ambiente `APP_CUSTOM_VUE_TEMPLATE`. Quando definida, a construção do Webpack expõe uma constante `ENV_CUSTOM_VUE_TEMPLATE` via `DefinePlugin`, e o roteador Vue importa condicionalmente componentes de substituição de `var/vue_templates/`.
 
-Current override locations:
+Localizações atuais de substituição:
 
 ```
 var/vue_templates/
 ├── pages/
-│   └── AppIndex.vue   # Replaces the default / entry page
+│   └── AppIndex.vue   # Substitui a página de entrada padrão /
 └── components/
     ├── layout/
     └── SidebarLogin.vue
 ```
 
-Only the files present in `var/vue_templates/` are overridden — all other pages and components use the core originals.
+Apenas os arquivos presentes em `var/vue_templates/` são substituídos — todas as outras páginas e componentes usam os originais do núcleo.
 
-## Twig Functions Reference
+---
+## Referência de Funções Twig
 
-Key Twig functions available in all templates (registered in `ChamiloExtension`):
+Funções Twig principais disponíveis em todos os modelos (registradas em `ChamiloExtension`):
 
-| Function | Purpose |
+| Função | Finalidade |
 |----------|---------|
-| `chamilo_settings_get('ns.key')` | Read a platform setting |
-| `chamilo_settings_has('ns.key')` | Check if a setting exists |
-| `chamilo_settings_all()` | Get all settings as an array |
-| `theme_asset('path')` | URL to an asset in the active theme |
-| `theme_asset_link_tag('path')` | `<link>` tag for a theme CSS file |
-| `theme_asset_script_tag('path')` | `<script>` tag for a theme JS file |
-| `theme_asset_base64('path')` | Base64 data URI for a theme asset |
-| `theme_logo('header'\|'email')` | URL to the preferred logo |
-| `is_allowed_to_edit(...)` | Permission check helper |
+| `chamilo_settings_get('ns.key')` | Ler uma configuração da plataforma |
+| `chamilo_settings_has('ns.key')` | Verificar se uma configuração existe |
+| `chamilo_settings_all()` | Obter todas as configurações como um array |
+| `theme_asset('path')` | URL para um recurso no tema ativo |
+| `theme_asset_link_tag('path')` | Tag `<link>` para um arquivo CSS do tema |
+| `theme_asset_script_tag('path')` | Tag `<script>` para um arquivo JS do tema |
+| `theme_asset_base64('path')` | URI de dados Base64 para um recurso do tema |
+| `theme_logo('header'\|'email')` | URL para o logotipo preferido |
+| `is_allowed_to_edit(...)` | Auxiliar de verificação de permissão |

@@ -1,418 +1,409 @@
-# Learning Paths Settings
+# Configurações de Percursos de Aprendizagem
 
-Defaults and behaviour of the **Learning Paths** tool — autostart, default view, prerequisites, SCORM behaviour and similar.
+Padrões e comportamentos da ferramenta **Percursos de Aprendizagem** — início automático, visualização padrão, pré-requisitos, comportamento SCORM e similares.
 
-Access these settings under **Administration > Configuration settings > Learning Paths**. This category contains **51 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+Acesse essas configurações em **Administração > Configurações de configuração > Percursos de Aprendizagem**. Esta categoria contém **51 configurações**, listadas abaixo com o título e comentário fornecidos nos arquivos de configurações da plataforma (`SettingsCurrentFixtures.php`).
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> O nome da variável no código é mostrado em fonte monoespaçada. Use-o ao criar scripts via API ou quando precisar alterar essas configurações em um nível global editando [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
 
-## Settings
+## Configurações
 
 ### `add_all_files_in_lp_export`
 
-**Export all files when exporting a learning path**
+**Exportar todos os arquivos ao exportar um percurso de aprendizagem**
 
-When exporting a LP, all files and folders in the same path of an html will be exported too.
+Ao exportar um percurso de aprendizagem, todos os arquivos e pastas no mesmo caminho de um HTML também serão exportados.
 
-*Default: `false`*
-
+*Padrão: `false`*
 
 ### `allow_htaccess_import_from_scorm`
 
-**Allow .htaccess from SCORM packages**
+**Permitir .htaccess de pacotes SCORM**
 
-Normally, all .htaccess files are filtered and removed when importing content in Chamilo. This feature allows .htaccess to be imported if it is present in a SCORM package.
+Normalmente, todos os arquivos .htaccess são filtrados e removidos ao importar conteúdo no Chamilo. Esta funcionalidade permite que .htaccess sejam importados se estiverem presentes em um pacote SCORM.
 
-*Default: `false`*
-
+*Padrão: `false`*
 
 ### `allow_import_scorm_package_in_course_builder`
 
-**SCORM import within course import**
+**Importação de SCORM dentro da importação de curso**
 
-Enable to copy the directory structure of SCORM packages when restoring a course (from the course maintenance tool).
+Habilite para copiar a estrutura de diretórios de pacotes SCORM ao restaurar um curso (a partir da ferramenta de manutenção de curso).
 
-*Default: `false`*
-
+*Padrão: `false`*
 
 ### `allow_lp_chamilo_export`
 
-**Export learning paths in the Chamilo backup format**
+**Exportar percursos de aprendizagem no formato de backup do Chamilo**
 
-Enable the possibility to export any of your learning paths in a Chamilo course backup format.
+Habilite a possibilidade de exportar qualquer um dos seus percursos de aprendizagem no formato de backup de curso do Chamilo.
 
-*Default: `false`*
-
+*Padrão: `false`*
 
 ### `allow_lp_return_link`
 
-**Show learning paths return link**
+**Mostrar link de retorno nos percursos de aprendizagem**
 
-Disable this option to hide the 'Return to homepage' button in the learning paths
+Desative esta opção para ocultar o botão 'Retornar à página inicial' nos percursos de aprendizagem.
 
-*Default: `true`*
-
+*Padrão: `true`*
 
 ### `allow_lp_subscription_to_usergroups`
 
-**Learning paths subscription for classes**
+**Inscrição em percursos de aprendizagem para turmas**
 
-Enable subscription to learning paths and learning path categories to groups/classes.
+Habilite a inscrição em percursos de aprendizagem e categorias de percursos de aprendizagem para grupos/turmas.
 
-*Default: `false`*
-
+*Padrão: `false`*
 
 ### `allow_session_lp_category`
 
-**Learning paths categories can be managed in sessions**
+**Categorias de percursos de aprendizagem podem ser gerenciadas em sessões**
 
-[inferred] Enable learners and instructors to organize and manage learning paths by categories within session courses.
+[inferido] Habilite que alunos e instrutores organizem e gerenciem percursos de aprendizagem por categorias dentro de cursos de sessão.
 
-*Default: `false`*
-
+*Padrão: `false`*
 
 ### `allow_teachers_to_access_blocked_lp_by_prerequisite`
 
-**Teachers can access blocked learning paths**
+**Professores podem acessar percursos de aprendizagem bloqueados**
 
-Teachers do not need to pass complete learning paths to have access to a prerequisites-blocked learning path.
+Professores não precisam completar percursos de aprendizagem para ter acesso a um percurso de aprendizagem bloqueado por pré-requisitos.
 
-*Default: `false`*
-
+*Padrão: `false`*
 
 ### `disable_js_in_lp_view`
 
-**Disable JS in learning paths view**
+**Desativar JS na visualização de percursos de aprendizagem**
 
-Disable JS files that Chamilo usually adds to HTML files in the learning path (while displaying them).
+Desative arquivos JS que o Chamilo normalmente adiciona aos arquivos HTML no percurso de aprendizagem (ao exibi-los).
 
-*Default: `false`*
-
+*Padrão: `false`*
 
 ### `disable_my_lps_page`
 
-**Hide 'My learning paths' page**
+**Ocultar página 'Meus percursos de aprendizagem'**
 
-The page 'My learning path' was added in 1.11. Use this option to hide it.
+A página 'Meu percurso de aprendizagem' foi adicionada na versão 1.11. Use esta opção para ocultá-la.
 
-*Default: `false`*
+*Padrão: `false`*
 
 ### `download_files_after_all_lp_finished`
 
-**Download button after finishing learning paths**
+**Botão de download após concluir percursos de aprendizagem**
 
-Show download files button after finishing all LP. Example: if ABC is the course code, and 1 and 100 are the doc id, choose: ['courses' => ['ABC' => [1, 100]]].
+Mostre o botão de download de arquivos após concluir todos os percursos de aprendizagem. Exemplo: se ABC é o código do curso, e 1 e 100 são os IDs dos documentos, escolha: ['courses' => ['ABC' => [1, 100]]].
 
 ### `force_edit_exercise_in_lp`
 
-**Edition of tests included in learning paths**
+**Edição de testes incluídos em percursos de aprendizagem**
 
-Enable editing tests even if they have been included in a learning path. The default is to prevent edition if the test is in a learning path, because that can affect consistency of tracking among many learners if test modifications are significant.
+Habilite a edição de testes mesmo que tenham sido incluídos em um percurso de aprendizagem. O padrão é impedir a edição se o teste estiver em um percurso de aprendizagem, pois isso pode afetar a consistência do rastreamento entre muitos alunos se as modificações no teste forem significativas.
 
-*Default: `false`*
+*Padrão: `false`*
 
 ### `hide_accessibility_label_on_lp_item`
 
-**Hide requirements label in learning paths**
+**Ocultar rótulo de requisitos em itens de percursos de aprendizagem**
 
-Hide the pre-requisites tooltip on learning path items. This is mostly an estaethic choice.
+Oculte a dica de ferramenta de pré-requisitos em itens de percurso de aprendizagem. Esta é principalmente uma escolha estética.
 
-*Default: `true`*
+*Padrão: `true`*
 
 ### `hide_lp_time`
 
-**Hide time from learning paths records**
+**Ocultar tempo dos registros de percursos de aprendizagem**
 
-Hide learning paths time spent in reports in general.
+Oculte o tempo gasto em percursos de aprendizagem nos relatórios em geral.
 
-*Default: `false`*
+*Padrão: `false`*
 
 ### `hide_scorm_copy_link`
 
-**Hide SCORM Copy**
+**Ocultar Cópia SCORM**
 
-Hide the Learning Path Copy icon from the Learning Paths list
+Oculte o ícone de Cópia de Percurso de Aprendizagem da lista de Percursos de Aprendizagem.
 
-*Default: `false`*
+*Padrão: `false`*
 
 ### `hide_scorm_export_link`
 
-**Hide SCORM Export**
+**Ocultar Exportação SCORM**
 
-Hide the SCORM Export icon from the Learning Paths list
+Oculte o ícone de Exportação SCORM da lista de Percursos de Aprendizagem.
 
-*Default: `false`*
+*Padrão: `false`*
 
 ### `hide_scorm_pdf_link`
 
-**Hide Learning Path PDF export**
+**Ocultar exportação de PDF de Percurso de Aprendizagem**
 
-Hide the Learning Path PDF Export icon from the Learning Paths list
+Oculte o ícone de Exportação de PDF de Percurso de Aprendizagem da lista de Percursos de Aprendizagem.
 
-*Default: `true`*
+*Padrão: `true`*
 
 ### `lp_allow_export_to_students`
 
-**Learners can export learning paths**
+**Alunos podem exportar percursos de aprendizagem**
 
-Enable this to allow learners to download the learning paths as SCORM packages.
+Habilite esta opção para permitir que os alunos baixem os percursos de aprendizagem como pacotes SCORM.
 
-*Default: `false`*
+*Padrão: `false`*
 
 ### `lp_enable_flow`
 
-**Navigate between learning paths**
+**Navegar entre percursos de aprendizagem**
 
-Add the possibility to select a 'next' learning path and show buttons inside the learning path to move from one to the next.
+Adicione a possibilidade de selecionar um percurso de aprendizagem 'próximo' e mostre botões dentro do percurso de aprendizagem para passar de um para o próximo.
 
-*Default: `false`*
+*Padrão: `false`*
 
 ### `lp_fixed_encoding`
 
-**Fixed encoding in learning path**
+**Codificação fixa em percurso de aprendizagem**
 
-Reduce resource usage by ignoring a check on the text encoding in imported learning paths.
+Reduza o uso de recursos ignorando uma verificação na codificação de texto em percursos de aprendizagem importados.
 
-*Default: `false`*
+*Padrão: `false`*
 
 ### `lp_item_prerequisite_dates`
 
-**Date-based learning path items prerequisites**
+**Pré-requisitos de itens de percurso de aprendizagem baseados em datas**
 
-Adds the option to define prerequisites with start and end dates for learnpath items.
+Adiciona a opção de definir pré-requisitos com datas de início e término para itens de percurso de aprendizagem.
 
-*Default: `false`*
+*Padrão: `false`*
 
+---
 ### `lp_menu_location`
 
-**Learning path menu location**
+**Localização do menu do percurso de aprendizagem**
 
-Set this to 'left' or 'right' to change the side of the learning path menu.
+Defina como 'left' ou 'right' para alterar o lado do menu do percurso de aprendizagem.
 
-*Default: `left`*
+*Padrão: `left`*
 
 ### `lp_minimum_time`
 
-**Minimum time to complete learning path**
+**Tempo mínimo para completar o percurso de aprendizagem**
 
-Add a minimum time field to learning paths. If the user has not spent that much time on the learning path, the last item of the learning path cannot be completed.
+Adicione um campo de tempo mínimo aos percursos de aprendizagem. Se o usuário não tiver passado esse tempo no percurso de aprendizagem, o último item do percurso não poderá ser concluído.
 
-*Default: `false`*
+*Padrão: `false`*
 
 ### `lp_prerequisit_on_quiz_unblock_if_max_attempt_reached`
 
-**Unlock learning path item if max attempt is reached for test prerequisite**
+**Desbloquear item do percurso de aprendizagem se o número máximo de tentativas for atingido para o teste pré-requisito**
 
-[inferred] Automatically unlock subsequent learning path items when a learner exhausts maximum quiz attempts for a prerequisite test.
-
+[inferido] Desbloqueia automaticamente itens subsequentes do percurso de aprendizagem quando um aluno esgota o número máximo de tentativas em um teste pré-requisito.
 
 ### `lp_prerequisite_on_quiz_unblock_if_max_attempt_reached`
 
-**Unlock prerequisites after last test attempt**
+**Desbloquear pré-requisitos após a última tentativa de teste**
 
-Allows users to continue in a learning path after using all quiz attempts of a test used as prerequisite for other items.
+Permite que os usuários continuem em um percurso de aprendizagem após utilizarem todas as tentativas de um teste usado como pré-requisito para outros itens.
 
-*Default: `false`*
+*Padrão: `false`*
 
 ### `lp_prerequisite_use_last_attempt_only`
 
-**Use last score in learning path test prerequisites**
+**Usar apenas a última pontuação em pré-requisitos de teste no percurso de aprendizagem**
 
-When a test is used as prerequisite for an item in the learning path, use the last attempt of the test only as validation for the prerequisite (default is to use best attempt).
+Quando um teste é usado como pré-requisito para um item no percurso de aprendizagem, considera apenas a última tentativa do teste como validação para o pré-requisito (o padrão é usar a melhor tentativa).
 
-*Default: `false`*
+*Padrão: `false`*
 
 ### `lp_prevents_beforeunload`
 
-**Prevent beforeunload JS event in learning path**
+**Prevenir evento JS beforeunload no percurso de aprendizagem**
 
-This helps with browser compatibility by preventing tricky JS events to execute.
+Isso ajuda na compatibilidade com navegadores, evitando a execução de eventos JS problemáticos.
 
-*Default: `false`*
+*Padrão: `false`*
 
 ### `lp_score_as_progress_enable`
 
-**Use learning path score as progress**
+**Usar pontuação do percurso de aprendizagem como progresso**
 
-This is useful when using SCORM content with only one large SCO. SCORM does not communicate progress, so this is a trick to use the score as progress. Enabling this option will let you configure this on a per-learning path basis.
+Isso é útil ao usar conteúdo SCORM com apenas um grande SCO. O SCORM não comunica progresso, então este é um truque para usar a pontuação como progresso. Ativar esta opção permitirá configurá-la por percurso de aprendizagem.
 
-*Default: `false`*
+*Padrão: `false`*
 
 ### `lp_show_max_progress_instead_of_average`
 
-**Show max progress instead of average for learning paths reporting**
+**Mostrar progresso máximo em vez de média para relatórios de percursos de aprendizagem**
 
-[inferred] Calculate learning path progress based on maximum item completion rather than averaging all items.
+[inferido] Calcula o progresso do percurso de aprendizagem com base na conclusão máxima de itens, em vez de fazer a média de todos os itens.
 
-*Default: `false`*
+*Padrão: `false`*
 
 ### `lp_show_max_progress_or_average_enable_course_level_redefinition`
 
-**Select max progress vs average for learning paths at course level**
+**Selecionar progresso máximo versus média para percursos de aprendizagem no nível do curso**
 
-Enable redefinition of the setting to show the best progress instead of averages in reporting of learnpaths at a course level.
+Habilita a redefinição da configuração para mostrar o melhor progresso em vez de médias nos relatórios de percursos de aprendizagem no nível do curso.
 
-*Default: `false`*
+*Padrão: `false`*
 
 ### `lp_show_reduced_report`
 
-**Learning paths: show reduced report**
+**Percursos de aprendizagem: mostrar relatório reduzido**
 
-Inside the learning paths tool, when a user reviews his own progress (through the stats icon), show a shorten (less detailed) version of the progress report.
+Dentro da ferramenta de percursos de aprendizagem, quando um usuário revisa seu próprio progresso (por meio do ícone de estatísticas), exibe uma versão resumida (menos detalhada) do relatório de progresso.
 
-*Default: `false`*
+*Padrão: `false`*
 
 ### `lp_start_and_end_date_visible_in_student_view`
 
-**Display learning path availability to learners**
+**Exibir disponibilidade do percurso de aprendizagem para os alunos**
 
-Show learning paths to learners with their availability dates, rather than hiding them until the date comes.
+Mostra os percursos de aprendizagem aos alunos com suas datas de disponibilidade, em vez de ocultá-los até que a data chegue.
 
-*Default: `false`*
+*Padrão: `false`*
 
 ### `lp_subscription_settings`
 
-**Learning paths subscription settings**
+**Configurações de inscrição em percursos de aprendizagem**
 
-Configure additional options for the learning paths subscription feature. Options include 'allow_add_users_to_lp' and 'allow_add_users_to_lp_category'.
+Configura opções adicionais para o recurso de inscrição em percursos de aprendizagem. As opções incluem 'allow_add_users_to_lp' e 'allow_add_users_to_lp_category'.
 
 ### `lp_view_accordion`
 
-**Foldable learning paths' items**
+**Itens de percursos de aprendizagem dobráveis**
 
-[inferred] Display learning path items in collapsible accordion format for improved navigation and content organization.
+[inferido] Exibe os itens do percurso de aprendizagem em formato de acordeão dobrável para melhorar a navegação e a organização do conteúdo.
 
-*Default: `false`*
+*Padrão: `false`*
 
 ### `lp_view_settings`
 
-**Learning path display settings**
+**Configurações de exibição do percurso de aprendizagem**
 
-Configure additional options for the learning paths display. Options include 'show_reporting_icon', 'hide_lp_arrow_navigation', 'show_toolbar_by_default', 'navigation_in_the_middle' and 'add_extra_quit_to_home_icon'.
+Configura opções adicionais para a exibição dos percursos de aprendizagem. As opções incluem 'show_reporting_icon', 'hide_lp_arrow_navigation', 'show_toolbar_by_default', 'navigation_in_the_middle' e 'add_extra_quit_to_home_icon'.
 
 ### `scorm_api_extrafield_to_use_as_student_id`
 
-**Use extra field as student\_id in SCORM communication**
+**Usar campo extra como student_id na comunicação SCORM**
 
-Give the name of the extra field to be used as student_id for all SCORM communication.
+Informe o nome do campo extra a ser usado como student_id para toda a comunicação SCORM.
 
 ### `scorm_api_username_as_student_id`
 
-**Use username as student\_id in SCORM communication**
+**Usar nome de usuário como student_id na comunicação SCORM**
 
-[inferred] Use learner username as the student identifier in SCORM API communication instead of learner ID.
+[inferido] Usa o nome de usuário do aluno como identificador do estudante na comunicação da API SCORM, em vez do ID do aluno.
 
-*Default: `false`*
+*Padrão: `false`*
 
 ### `scorm_lms_update_sco_status_all_time`
 
-**Update SCO status autonomously**
+**Atualizar status do SCO autonomamente**
 
-If the SCO is not sending a status, take over and update the status based on what can be observed in Chamilo.
+Se o SCO não estiver enviando um status, assume o controle e atualiza o status com base no que pode ser observado no Chamilo.
 
-*Default: `false`*
+*Padrão: `false`*
 
 ### `scorm_upload_from_cache`
 
-**Upload SCORM from cache dir**
+**Carregar SCORM a partir do diretório de cache**
 
-Allow admins to upload a SCORM package (in zip form) into the cache directory and to use it as import source on the SCORM upload page.
+Permite que administradores façam upload de um pacote SCORM (em formato zip) para o diretório de cache e o utilizem como fonte de importação na página de upload SCORM.
 
-*Default: `false`*
+*Padrão: `false`*
 
 ### `show_hidden_exercise_added_to_lp`
 
-**Display tests from learning paths even if invisible**
+**Exibir testes de percursos de aprendizagem mesmo se invisíveis**
 
-Show hidden exercises that were added to a LP in the exercise list. If we are in a session, the test is invisible in the base course, it is included in a LP and the setting to show it is not specifically set to true, then hide it.
+Mostra exercícios ocultos que foram adicionados a um percurso de aprendizagem na lista de exercícios. Se estivermos em uma sessão, o teste estiver invisível no curso base, estiver incluído em um percurso de aprendizagem e a configuração para mostrá-lo não estiver especificamente definida como verdadeira, então o oculta.
 
-*Default: `true`*
+*Padrão: `true`*
 
 ### `show_invisible_exercise_in_lp_list`
 
-**Display tests in list of learning path tests even if invisible**
+**Exibir testes na lista de testes do percurso de aprendizagem mesmo se invisíveis**
 
-[inferred] Include hidden tests in the list of available tests when viewing learning path contents.
+[inferido] Inclui testes ocultos na lista de testes disponíveis ao visualizar o conteúdo do percurso de aprendizagem.
 
-*Default: `false`*
+*Padrão: `false`*
 
+---
 ### `show_invisible_exercise_in_lp_toc`
 
-**Invisible tests visible in learning paths**
+**Testes invisíveis visíveis em percursos de aprendizagem**
 
-Make tests marked as 'invisible' in the tests tool appear when they are included in a learning path.
+Faz com que testes marcados como 'invisíveis' na ferramenta de testes apareçam quando incluídos em um percurso de aprendizagem.
 
-*Default: `false`*
+*Padrão: `false`*
 
 ### `show_invisible_lp_in_course_home`
 
-**Display link to learning path on course home when invisible**
+**Exibir link para percurso de aprendizagem na página inicial do curso quando invisível**
 
-If a learning path is set to invisible but the teacher/coach decided to make it available from the course homepage, this option prevents Chamilo from hiding the link on the course homepage.
+Se um percurso de aprendizagem estiver definido como invisível, mas o professor/treinador decidir torná-lo disponível na página inicial do curso, esta opção impede que o Chamilo oculte o link na página inicial do curso.
 
-*Default: `false`*
+*Padrão: `false`*
 
 ### `show_prerequisite_as_blocked`
 
-**Learning path's prerequisites**
+**Pré-requisitos do percurso de aprendizagem**
 
-On the learning paths lists, display a visual element to show that other learning paths are currently blocked by some prerequisites rule.
+Nas listas de percursos de aprendizagem, exibe um elemento visual para mostrar que outros percursos de aprendizagem estão atualmente bloqueados por alguma regra de pré-requisitos.
 
-*Default: `false`*
+*Padrão: `false`*
 
 ### `student_follow_page_add_LP_acquisition_info`
 
-**Add acquisition column in learner follow-up**
+**Adicionar coluna de aquisição na página de acompanhamento do aluno**
 
-Add column to learner follow-up page to show acquisition status by a learner on a learning path.
+Adiciona uma coluna à página de acompanhamento do aluno para mostrar o status de aquisição de um aluno em um percurso de aprendizagem.
 
-*Default: `false`*
+*Padrão: `false`*
 
 ### `student_follow_page_add_LP_invisible_checkbox`
 
-**Add visibility information for learning paths on learner follow-up page**
+**Adicionar informação de visibilidade para percursos de aprendizagem na página de acompanhamento do aluno**
 
-[inferred] Display visibility status indicator for learning paths on the learner progress tracking page.
+[inferido] Exibe um indicador de status de visibilidade para percursos de aprendizagem na página de rastreamento de progresso do aluno.
 
-*Default: `false`*
+*Padrão: `false`*
 
 ### `student_follow_page_add_LP_subscription_info`
 
-**Unlocked information in learning paths list**
+**Informação de desbloqueio na lista de percursos de aprendizagem**
 
-This adds an 'unlocked' column in the learning paths list if the learner is subscribed to the given learning path and has access to it.
+Adiciona uma coluna 'desbloqueado' na lista de percursos de aprendizagem se o aluno estiver inscrito no percurso de aprendizagem em questão e tiver acesso a ele.
 
-*Default: `false`*
+*Padrão: `false`*
 
 ### `student_follow_page_hide_lp_tests_average`
 
-**Hide percentage sign in average of tests in learning paths in learner follow-up**
+**Ocultar sinal de porcentagem na média de testes em percursos de aprendizagem no acompanhamento do aluno**
 
-Hides the icon of percentage in 'Average of tests in Learning Paths' indication on a student tracking
+Oculta o ícone de porcentagem na indicação de 'Média de testes em Percursos de Aprendizagem' no rastreamento de um aluno.
 
-*Default: `false`*
+*Padrão: `false`*
 
 ### `student_follow_page_include_not_subscribed_lp_students`
 
-**Include learning paths not subscribed to on learner follow-up page**
+**Incluir percursos de aprendizagem não inscritos na página de acompanhamento do aluno**
 
-[inferred] Show learning paths on progress pages even when learners are not subscribed to them.
+[inferido] Mostra percursos de aprendizagem nas páginas de progresso mesmo quando os alunos não estão inscritos neles.
 
-*Default: `false`*
+*Padrão: `false`*
 
 ### `ticket_lp_quiz_info_add`
 
-**Add learning paths and tests info to ticket reporting**
+**Adicionar informações de percursos de aprendizagem e testes ao relatório de tickets**
 
-[inferred] Include learning path and test information in support ticket reporting for better issue tracking.
+[inferido] Inclui informações de percursos de aprendizagem e testes no relatório de tickets de suporte para melhor rastreamento de problemas.
 
-*Default: `false`*
+*Padrão: `false`*
 
 ### `validate_lp_prerequisite_from_other_session`
 
-**Use learning path item status from other sessions**
+**Usar status de item de percurso de aprendizagem de outras sessões**
 
-Allow users to complete prerequisites in a learning path if the corresponding item was already completed in another session.
+Permite que os usuários completem pré-requisitos em um percurso de aprendizagem se o item correspondente já tiver sido concluído em outra sessão.
 
-*Default: `false`*
-
+*Padrão: `false`*

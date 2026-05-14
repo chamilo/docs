@@ -1,41 +1,41 @@
-# Classes / User Groups
+# Turmas / Grupos de Usuários
 
-Classes in the administration panel are platform-wide groups used to organize users for management purposes. They are distinct from course-level groups (which are created by teachers within a course).
+As turmas no painel de administração são grupos em toda a plataforma usados para organizar usuários para fins de gerenciamento. Eles são distintos dos grupos de nível de curso (que são criados por professores dentro de um curso).
 
-> User groups and [Classes](../../admin-guide/sessions/classes.md) share the same interface. The only difference is the **group type** setting: choose "Class" to create a class (used for bulk session enrollment), or "User group" for more social groups that can have their own space in the internal social network. See [Classes](../../admin-guide/sessions/classes.md) for details on session enrollment.
+> Grupos de usuários e [Turmas](../../admin-guide/sessions/classes.md) compartilham a mesma interface. A única diferença é a configuração de **tipo de grupo**: escolha "Turma" para criar uma turma (usada para matrícula em massa em sessões), ou "Grupo de usuários" para grupos mais sociais que podem ter seu próprio espaço na rede social interna. Veja [Turmas](../../admin-guide/sessions/classes.md) para detalhes sobre matrícula em sessões.
 
-## Creating a Group
+## Criando um Grupo
 
-![The user groups list showing available groups with name, description, and member count](/.gitbook/assets/admin-user-groups-list.png)
+![Lista de grupos de usuários mostrando os grupos disponíveis com nome, descrição e contagem de membros](/.gitbook/assets/admin-user-groups-list.png)
 
-1. From the administration panel, navigate to **Classes**
-2. Click **Add classes**
-3. Enter a **title** and optional **description**
-4. Check **Social group** if this will be a social group. Leave unchecked if it will be a class.
-5. Add an optionali reference URL and picture/logo.
-6. Choose the group **permissions**:
-   * **Open** — Any user can join
-   * **Closed** — Users must be added by an administrator
-7. Check if you want members to be able to leave the class by themselves.
-8. Save.
+1. No painel de administração, navegue até **Turmas**
+2. Clique em **Adicionar turmas**
+3. Insira um **título** e uma **descrição** opcional
+4. Marque **Grupo social** se este for um grupo social. Deixe desmarcado se for uma turma.
+5. Adicione uma URL de referência opcional e uma imagem/logotipo.
+6. Escolha as **permissões** do grupo:
+   * **Aberto** — Qualquer usuário pode ingressar
+   * **Fechado** — Os usuários devem ser adicionados por um administrador
+7. Marque se você deseja que os membros possam sair da turma por conta própria.
+8. Salve.
 
-## Adding Members
+## Adicionando Membros
 
-1. Open the list of classes/user groups
-2. Click the user icon **Subscribe users to class**
-3. Search for users by name, username or email
-4. Select the users to add, using the arrows to the right side
-5. Click the confirmation button to save
+1. Abra a lista de turmas/grupos de usuários
+2. Clique no ícone de usuário **Inscrever usuários na turma**
+3. Pesquise usuários por nome, nome de usuário ou e-mail
+4. Selecione os usuários a adicionar, usando as setas do lado direito
+5. Clique no botão de confirmação para salvar
 
-## Use Cases
+## Casos de Uso
 
-* **Department organization** — Group users by department or team
-* **Bulk enrollment** — Add all members of a group to a course or session at once
-* **Targeted communication** — Send announcements to specific groups
-* **Reporting** — View training progress filtered by group
+* **Organização por departamento** — Agrupe usuários por departamento ou equipe
+* **Matrícula em massa** — Adicione todos os membros de um grupo a um curso ou sessão de uma só vez
+* **Comunicação direcionada** — Envie anúncios para grupos específicos
+* **Relatórios** — Visualize o progresso do treinamento filtrado por grupo
 
-## Managing Groups
+## Gerenciando Grupos
 
-* **Edit** — Change the group name, description, or visibility
-* **Manage members** — Add or remove members
-* **Delete** — Remove the group (does not delete the member accounts)
+* **Editar** — Altere o nome, descrição ou visibilidade do grupo
+* **Gerenciar membros** — Adicione ou remova membros
+* **Excluir** — Remova o grupo (não exclui as contas dos membros)

@@ -1,89 +1,89 @@
-# Settings System
+# Sistema de Configurações
 
-Chamilo's configuration is managed through a set of settings schemas (around 40 of them, varying between releases) that define every configurable aspect of the platform. They live in `src/CoreBundle/Settings/` — the exact list there is the source of truth.
+A configuração do Chamilo é gerenciada por meio de um conjunto de esquemas de configurações (cerca de 40, variando entre versões) que definem todos os aspectos configuráveis da plataforma. Eles estão localizados em `src/CoreBundle/Settings/` — a lista exata nesse diretório é a fonte de referência.
 
-## How It Works
+## Como Funciona
 
-Settings are:
+As configurações são:
 
-1. **Defined** in schema classes (`src/CoreBundle/Settings/*SettingsSchema.php`)
-2. **Stored** in the database (`settings_current` table)
-3. **Accessed** via the `SettingsManager` service
-4. **Managed** through the administration web interface
+1. **Definidas** em classes de esquema (`src/CoreBundle/Settings/*SettingsSchema.php`)
+2. **Armazenadas** no banco de dados (tabela `settings_current`)
+3. **Acessadas** por meio do serviço `SettingsManager`
+4. **Gerenciadas** pela interface web de administração
 
-## Settings Schemas
+## Esquemas de Configurações
 
-Each schema file defines a category of settings. Key schemas:
+Cada arquivo de esquema define uma categoria de configurações. Principais esquemas:
 
-| Schema | Purpose |
-|--------|---------|
-| `PlatformSettingsSchema` | Institution info, timezone, server type, portal features |
-| `SecuritySettingsSchema` | Login attempts, CAPTCHA, password policy, HTTP headers, 2FA |
-| `RegistrationSettingsSchema` | Self-registration, required fields, auto-subscribe |
-| `CourseSettingsSchema` | Course creation defaults, tools, catalog |
-| `SessionSettingsSchema` | Session defaults, visibility |
-| `MailSettingsSchema` | Email configuration, DKIM, notifications |
-| `AiHelpersSettingsSchema` | AI providers, feature toggles per AI tool |
-| `ExerciseSettingsSchema` | Quiz scoring, feedback, question options |
-| `LearningPathSettingsSchema` | LP display, prerequisites, SCORM settings |
-| `DocumentSettingsSchema` | Upload limits, allowed file types, storage |
-| `DisplaySettingsSchema` | UI tabs, sidebar items, theme |
-| `LanguageSettingsSchema` | Available languages, default locale |
-| `AdminSettingsSchema` | Admin email, admin-specific options |
+| Esquema | Finalidade |
+|--------|------------|
+| `PlatformSettingsSchema` | Informações da instituição, fuso horário, tipo de servidor, recursos do portal |
+| `SecuritySettingsSchema` | Tentativas de login, CAPTCHA, política de senha, cabeçalhos HTTP, autenticação de dois fatores (2FA) |
+| `RegistrationSettingsSchema` | Auto-registro, campos obrigatórios, inscrição automática |
+| `CourseSettingsSchema` | Padrões de criação de cursos, ferramentas, catálogo |
+| `SessionSettingsSchema` | Padrões de sessões, visibilidade |
+| `MailSettingsSchema` | Configuração de e-mail, DKIM, notificações |
+| `AiHelpersSettingsSchema` | Provedores de IA, ativação de recursos por ferramenta de IA |
+| `ExerciseSettingsSchema` | Pontuação de questionários, feedback, opções de perguntas |
+| `LearningPathSettingsSchema` | Exibição de caminhos de aprendizagem, pré-requisitos, configurações SCORM |
+| `DocumentSettingsSchema` | Limites de upload, tipos de arquivo permitidos, armazenamento |
+| `DisplaySettingsSchema` | Abas da interface, itens da barra lateral, tema |
+| `LanguageSettingsSchema` | Idiomas disponíveis, localidade padrão |
+| `AdminSettingsSchema` | E-mail do administrador, opções específicas para administradores |
 
-## Accessing Settings
+## Acessando Configurações
 
-In PHP code:
+Em código PHP:
 
 ```php
-// Via SettingsManager service
+// Via serviço SettingsManager
 $value = $settingsManager->getSetting('platform.site_name');
 
-// In legacy code
+// Em código legado
 $value = api_get_setting('platform.site_name');
 ```
 
-In templates:
+Em templates:
 
 ```twig
-{# Read a single setting #}
+{# Ler uma única configuração #}
 {{ chamilo_settings_get('platform.site_name') }}
 
-{# Check whether a setting exists #}
+{# Verificar se uma configuração existe #}
 {% if chamilo_settings_has('platform.allow_registration') %}
     ...
 {% endif %}
 
-{# Get all settings as an array #}
+{# Obter todas as configurações como um array #}
 {% set settings = chamilo_settings_all() %}
 ```
 
-## Setting Structure
+## Estrutura das Configurações
 
-Each setting has:
+Cada configuração possui:
 
-* **Namespace** — The schema category (e.g., `platform`, `security`, `ai_helpers`)
-* **Variable** — The setting name (e.g., `site_name`, `allow_registration`)
-* **Value** — The current value
-* **Type** — Data type (string, boolean, array, etc.)
+* **Namespace** — A categoria do esquema (por exemplo, `platform`, `security`, `ai_helpers`)
+* **Variável** — O nome da configuração (por exemplo, `site_name`, `allow_registration`)
+* **Valor** — O valor atual
+* **Tipo** — Tipo de dado (string, boolean, array, etc.)
 
-## Course-Level Settings
+## Configurações no Nível do Curso
 
-Some settings can be overridden at the course level. These are defined in `src/CourseBundle/Settings/` and include:
+Algumas configurações podem ser sobrescritas no nível do curso. Elas são definidas em `src/CourseBundle/Settings/` e incluem:
 
-* Exercise settings per course
-* Assignment settings per course
-* AI feature toggles per course
+* Configurações de exercícios por curso
+* Configurações de tarefas por curso
+* Ativação de recursos de IA por curso
 
-## Multi-URL Settings
+## Configurações Multi-URL
 
-In multi-URL setups, some settings can be customized per access URL, allowing different portal configurations from the same installation.
+Em configurações multi-URL, algumas configurações podem ser personalizadas por URL de acesso, permitindo diferentes configurações de portal a partir da mesma instalação.
 
-Those settings will appear several times in the `settings` table, with different `access_url` values. By default, all settings are associated with `access_url=1`.
+Essas configurações aparecerão várias vezes na tabela `settings`, com diferentes valores de `access_url`. Por padrão, todas as configurações estão associadas a `access_url=1`.
 
-## Adding a New Setting
+## Adicionando uma Nova Configuração
 
-1. Add the setting definition to the appropriate schema class
-2. Provide a default value
-3. Run database migrations if needed
-4. Access the setting via `SettingsManager`
+1. Adicione a definição da configuração à classe de esquema apropriada
+2. Forneça um valor padrão
+3. Execute migrações de banco de dados, se necessário
+4. Acesse a configuração via `SettingsManager`

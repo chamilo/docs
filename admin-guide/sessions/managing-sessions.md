@@ -1,75 +1,75 @@
-# Managing Sessions
+# Gerenciando Sessões
 
-## Creating a Session
+## Criando uma Sessão
 
-![The session creation form with fields for name, dates, coach, category, and visibility](/.gitbook/assets/admin-session-create-form.png)
+![Formulário de criação de sessão com campos para nome, datas, tutor, categoria e visibilidade](/.gitbook/assets/admin-session-create-form.png)
 
-1. From the administration panel, click **Create a session**
-2. Fill in the session details:
-   * **Session name** — A descriptive name (e.g., "Spring 2026 Onboarding")
-   * **Start and end dates** — When the session runs (optional — sessions can be open-ended). There are 3 sets of dates: Dates to display, dates to limit learners access and dates to limit coaches access
-   * **Session coach** — The person overseeing the entire session
-   * **Category** — Assign to a session category for organization
-   * **Visibility** — Control access and listing behavior
-3. **Add courses** — Select one or more courses to include in the session
-4. **Enroll learners** — Add individual users or classes of users
-5. **Assign course coaches** — For each course, assign a teacher (course coach)
-6. Save
+1. No painel de administração, clique em **Criar uma sessão**
+2. Preencha os detalhes da sessão:
+   * **Nome da sessão** — Um nome descritivo (por exemplo, "Integração Primavera 2026")
+   * **Datas de início e término** — Quando a sessão ocorrerá (opcional — sessões podem ser indefinidas). Há 3 conjuntos de datas: Datas para exibição, datas para limitar o acesso dos alunos e datas para limitar o acesso dos tutores
+   * **Tutor da sessão** — A pessoa responsável por supervisionar toda a sessão
+   * **Categoria** — Atribua a uma categoria de sessão para organização
+   * **Visibilidade** — Controle o comportamento de acesso e listagem
+3. **Adicionar cursos** — Selecione um ou mais cursos para incluir na sessão
+4. **Inscrever alunos** — Adicione usuários individuais ou turmas de usuários
+5. **Atribuir tutores de curso** — Para cada curso, atribua um professor (tutor do curso)
+6. Salvar
 
-## Session Dates
+## Datas da Sessão
 
-Sessions support flexible date configuration:
+As sessões suportam configurações flexíveis de datas:
 
-| Date | Purpose |
-|------|---------|
-| **Display start/end** | When the session appears in learner listings |
-| **Access start/end** | When learners can actually access the session content |
-| **Coach access start/end** | When coaches can access the session (often starts before and ends after learner access) |
+| Data | Finalidade |
+|------|------------|
+| **Início/fim de exibição** | Quando a sessão aparece nas listagens dos alunos |
+| **Início/fim de acesso** | Quando os alunos podem realmente acessar o conteúdo da sessão |
+| **Início/fim de acesso do tutor** | Quando os tutores podem acessar a sessão (geralmente começa antes e termina depois do acesso dos alunos) |
 
-This allows you to prepare the session before learners arrive and keep coach access open after the session ends for grading and reporting.
+Isso permite que você prepare a sessão antes da chegada dos alunos e mantenha o acesso dos tutores aberto após o término da sessão para correção e relatórios.
 
-## Session List
+## Lista de Sessões
 
-![The session list showing all sessions with name, dates, course count, learner count, and status](/.gitbook/assets/admin-session-list.png)
+![Lista de sessões mostrando todas as sessões com nome, datas, número de cursos, número de alunos e status](/.gitbook/assets/admin-session-list.png)
 
-The session list shows all sessions with:
+A lista de sessões exibe todas as sessões com:
 
-* Session name
-* Start and end dates
-* Status (active, upcoming, past)
+* Nome da sessão
+* Datas de início e término
+* Status (ativa, futura, passada)
 
-Use search and filters to find sessions by name, date, category, or status.
+Use a busca e os filtros para encontrar sessões por nome, data, categoria ou status.
 
-## Editing a Session
+## Editando uma Sessão
 
-Click on a session to edit:
+Clique em uma sessão para editar:
 
-* Change dates, name, or category
-* Add or remove courses
-* Change course coaches
-* Add or remove learners
-* View tracking data for the session
+* Alterar datas, nome ou categoria
+* Adicionar ou remover cursos
+* Alterar tutores de curso
+* Adicionar ou remover alunos
+* Visualizar dados de acompanhamento da sessão
 
-## Enrolling Users
+## Inscrevendo Usuários
 
-![The session enrollment interface for adding individual users, classes, or importing via CSV](/.gitbook/assets/admin-session-enrollment.png)
+![Interface de inscrição na sessão para adicionar usuários individuais, turmas ou importar via CSV](/.gitbook/assets/admin-session-enrollment.png)
 
-You can enroll users in a session by:
+Você pode inscrever usuários em uma sessão por meio de:
 
-* **Individual enrollment** — Search for and add individual users
-* **Class enrollment** — Add an entire class (group of pre-defined users) at once
-* **CSV import** — Upload a file with user-session assignments
+* **Inscrição individual** — Pesquise e adicione usuários individuais
+* **Inscrição de turma** — Adicione uma turma inteira (grupo de usuários predefinidos) de uma só vez
+* **Importação por CSV** — Faça upload de um arquivo com atribuições de usuário-sessão
 
-## Session Access
+## Acesso à Sessão
 
-Learners access their sessions through **My sessions** in the sidebar. Sessions are organized into:
+Os alunos acessam suas sessões por meio de **Minhas sessões** na barra lateral. As sessões são organizadas em:
 
-* **Current sessions** — Currently active
-* **Past sessions** — Ended
-* **Upcoming sessions** — Not yet started
+* **Sessões atuais** — Atualmente ativas
+* **Sessões passadas** — Encerradas
+* **Sessões futuras** — Ainda não iniciadas
 
-## Tips
+## Dicas
 
-* **Plan dates carefully** — Make sure coach access dates extend beyond learner dates so coaches can set up and follow up
-* **Use classes for recurring enrollment** — If you frequently enroll the same groups, create classes and assign them to sessions
-* **Keep sessions organized** — Use categories and clear naming conventions for easy management
+* **Planeje as datas com cuidado** — Certifique-se de que as datas de acesso dos tutores se estendam além das datas dos alunos para que os tutores possam preparar e acompanhar
+* **Use turmas para inscrições recorrentes** — Se você frequentemente inscreve os mesmos grupos, crie turmas e atribua-as às sessões
+* **Mantenha as sessões organizadas** — Use categorias e convenções de nomenclatura claras para facilitar o gerenciamento

@@ -1,50 +1,50 @@
-# Course Reports
+# Relatórios do Curso
 
-Course reports give you an aggregate view of activity and performance across all learners in your course.
+Os relatórios do curso oferecem uma visão agregada da atividade e do desempenho de todos os alunos no seu curso.
 
-## Accessing Course Reports
+## Acessando os Relatórios do Curso
 
-Open the **Tracking** <img src="/.gitbook/assets/icons/mdi-chart-box.svg" alt="Tracking" data-size="line"> tool from the course homepage and select the course-level reports view.
+Abra a ferramenta **Rastreamento** <img src="/.gitbook/assets/icons/mdi-chart-box.svg" alt="Rastreamento" data-size="line"> na página inicial do curso e selecione a visualização de relatórios no nível do curso.
 
-![The course tracking overview showing engagement metrics and learner activity summary](/.gitbook/assets/tracking-course-overview.png)
+![Visão geral do rastreamento do curso mostrando métricas de engajamento e resumo da atividade dos alunos](/.gitbook/assets/tracking-course-overview.png)
 
-## Available Reports
+## Relatórios Disponíveis
 
-### Activity Overview
+### Visão Geral da Atividade
 
-A summary of overall course engagement, including enrolled learners, time spent in the course, course progress, exercise progress and average score, and assignment activity.
+Um resumo do engajamento geral no curso, incluindo alunos matriculados, tempo gasto no curso, progresso no curso, progresso nos exercícios e pontuação média, além da atividade de tarefas.
 
-Separate detail views are available from the tracking section for **resources** (per-resource access counts), **tools** (per-tool usage), and **events** (raw event log).
+Visualizações detalhadas separadas estão disponíveis na seção de rastreamento para **recursos** (contagem de acessos por recurso), **ferramentas** (uso por ferramenta) e **eventos** (registro bruto de eventos).
 
-### Exercise Reports
+### Relatórios de Exercícios
 
-For each exercise in the course:
+Para cada exercício no curso:
 
-* Number of learners who attempted it
-* Average score
-* Score distribution
-* Number of learners who passed (based on the pass threshold you set)
+* Número de alunos que o tentaram
+* Pontuação média
+* Distribuição de pontuações
+* Número de alunos que passaram (com base no limite de aprovação que você definiu)
 
-### Learning Path Reports
+### Relatórios de Caminho de Aprendizagem
 
-For each learning path:
+Para cada caminho de aprendizagem:
 
-* Completion rates across all learners
-* Average progress percentage
-* Time spent per item
-* Learners who have completed the path vs. those still in progress
+* Taxas de conclusão entre todos os alunos
+* Percentual médio de progresso
+* Tempo gasto por item
+* Alunos que completaram o caminho versus aqueles ainda em progresso
 
-### Assignment Reports
+### Relatórios de Tarefas
 
-For each assignment:
+Para cada tarefa:
 
-* Number of submissions received
-* Number of pending reviews
+* Número de submissões recebidas
+* Número de revisões pendentes
 
-## Exporting Data
+## Exportando Dados
 
-You can export tracking and report data for further analysis. Look for the **Export** <img src="/.gitbook/assets/icons/mdi-export.svg" alt="Export" data-size="line"> option to download data in a spreadsheet-compatible format.
+Você pode exportar dados de rastreamento e relatórios para análise adicional. Procure pela opção **Exportar** <img src="/.gitbook/assets/icons/mdi-export.svg" alt="Exportar" data-size="line"> para baixar os dados em um formato compatível com planilhas.
 
-## Session Reports
+## Relatórios de Sessão
 
-If you teach within a session, reports are scoped to the session's learners. Session coaches have access to reports across all courses in their session. A global configuration setting can also allows teachers to see assignments through all sessions using their course (ask your admin).
+Se você leciona dentro de uma sessão, os relatórios são limitados aos alunos dessa sessão. Os treinadores de sessão têm acesso a relatórios de todos os cursos em sua sessão. Uma configuração global também pode permitir que professores vejam tarefas em todas as sessões que utilizam seu curso (consulte seu administrador).

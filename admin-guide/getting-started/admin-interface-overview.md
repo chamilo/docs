@@ -1,51 +1,51 @@
-# Admin Interface Overview
+# Visão Geral da Interface de Administração
 
-The administration panel is your command center for managing the Chamilo platform. Access it by clicking **Administration** <img src="/.gitbook/assets/icons/mdi-cogs.svg" alt="Admin" data-size="line"> in the sidebar.
+O painel de administração é o seu centro de comando para gerenciar a plataforma Chamilo. Acesse-o clicando em **Administração** <img src="/.gitbook/assets/icons/mdi-cogs.svg" alt="Administração" data-size="line"> na barra lateral.
 
-## Administration Dashboard
+## Painel de Administração
 
-![The administration dashboard showing functional blocks for Users, Courses, Sessions, and Settings](/.gitbook/assets/admin-dashboard-overview.png)
+![O painel de administração exibindo blocos funcionais para Usuários, Cursos, Sessões e Configurações](/.gitbook/assets/admin-dashboard-overview.png)
 
-The admin dashboard is organized into functional blocks. Each block groups related management tools:
+O painel de administração está organizado em blocos funcionais. Cada bloco agrupa ferramentas de gerenciamento relacionadas:
 
-### Users
+### Usuários
 
-* **User list** — View, search, edit, and manage all users on the platform
-* **Add a user** — Create individual user accounts
-* **User groups** — Manage groups of users for organizational purposes
-* **Classes** — Manage user classes for bulk session enrollment
+* **Lista de usuários** — Visualize, pesquise, edite e gerencie todos os usuários na plataforma
+* **Adicionar um usuário** — Crie contas de usuário individuais
+* **Grupos de usuários** — Gerencie grupos de usuários para fins organizacionais
+* **Turmas** — Gerencie turmas de usuários para inscrição em massa em sessões
 
-### Courses
+### Cursos
 
-* **Course list** — View and manage all courses on the platform
-* **Create a course** — Create a new course
-* **Course categories** — Organize courses into categories for the catalog
+* **Lista de cursos** — Visualize e gerencie todos os cursos na plataforma
+* **Criar um curso** — Crie um novo curso
+* **Categorias de cursos** — Organize cursos em categorias para o catálogo
 
-### Sessions
+### Sessões
 
-* **Session list** — View and manage training sessions
-* **Create a session** — Set up a new session with courses and enrollment
-* **Session categories** — Organize sessions into categories
-* **Careers and promotions** — Manage career paths and promotion workflows
+* **Lista de sessões** — Visualize e gerencie sessões de treinamento
+* **Criar uma sessão** — Configure uma nova sessão com cursos e inscrições
+* **Categorias de sessões** — Organize sessões em categorias
+* **Carreiras e promoções** — Gerencie trajetórias de carreira e fluxos de promoção
 
-### Platform Settings
+### Configurações da Plataforma
 
-* **Configuration settings** — Access the comprehensive platform settings panel with categories for portal, courses, sessions, users, security, and more
+* **Configurações de configuração** — Acesse o painel abrangente de configurações da plataforma com categorias para portal, cursos, sessões, usuários, segurança e mais
 
 ### Plugins
 
-* **Manage plugins** — Install, activate, configure, and deactivate platform plugins
+* **Gerenciar plugins** — Instale, ative, configure e desative plugins da plataforma
 
-### System
+### Sistema
 
-* **System status** — Check PHP configuration, database status, and server health
-* **Archive cleanup** — Manage temporary files and caches
+* **Status do sistema** — Verifique a configuração do PHP, o status do banco de dados e a saúde do servidor
+* **Limpeza de arquivo** — Gerencie arquivos temporários e caches
 
-### Branding
+### Marca
 
-* **Colors** — Customize the platform's visual appearance
-* **Portal customization** — Configure portal homepage, news, and branding elements
+* **Cores** — Personalize a aparência visual da plataforma
+* **Personalização do portal** — Configure a página inicial do portal, notícias e elementos de marca
 
-Each section is covered in detail in its corresponding chapter of this guide.
+Cada seção é abordada em detalhes no capítulo correspondente deste guia.
 
-Authentication methods like OAuth2, LDAP, CAS, and other external authentication providers are not configured in the administration dashboard but in `config/authentication.yaml`.
+Métodos de autenticação como OAuth2, LDAP, CAS e outros provedores de autenticação externos não são configurados no painel de administração, mas sim em `config/authentication.yaml`.

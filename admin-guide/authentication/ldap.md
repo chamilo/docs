@@ -1,8 +1,8 @@
 # LDAP
 
-Chamilo can authenticate users against an LDAP server, including Microsoft Active Directory. LDAP is configured in `config/authentication.yaml`.
+O Chamilo pode autenticar usuários contra um servidor LDAP, incluindo o Microsoft Active Directory. O LDAP é configurado no arquivo `config/authentication.yaml`.
 
-## Configuration
+## Configuração
 
 ```yaml
 authentication:
@@ -10,24 +10,24 @@ authentication:
     ldap:
       main:
         enabled: true
-        title: "Sign in with LDAP"
+        title: "Entrar com LDAP"
         connection_string: "ldap://ldap.yourorg.com:389"
         protocol_version: 3
         referrals: false
         force_as_login_method: false
 ```
 
-### Bind and search
+### Vinculação e pesquisa
 
-Two approaches for locating the user in the directory:
+Existem duas abordagens para localizar o usuário no diretório:
 
-**Direct bind** — constructs the DN from the username directly:
+**Vinculação direta** — constrói o DN a partir do nome de usuário diretamente:
 
 ```yaml
         dn_string: "uid=%s,ou=people,dc=yourorg,dc=com"
 ```
 
-**Search bind** — searches the directory with a service account first, then binds as the found user:
+**Vinculação por pesquisa** — pesquisa o diretório com uma conta de serviço primeiro, depois realiza a vinculação como o usuário encontrado:
 
 ```yaml
         base_dn: "dc=yourorg,dc=com"
@@ -37,28 +37,28 @@ Two approaches for locating the user in the directory:
         uid_key: "uid"
 ```
 
-For Active Directory, use `sAMAccountName` as `uid_key` and adjust `query_string` to `(sAMAccountName=%s)`.
+Para o Active Directory, use `sAMAccountName` como `uid_key` e ajuste `query_string` para `(sAMAccountName=%s)`.
 
-### Attribute mapping
+### Mapeamento de atributos
 
-Map LDAP attributes to Chamilo user fields under `data_correspondence`:
+Mapeie os atributos LDAP para os campos de usuário do Chamilo sob `data_correspondence`:
 
 ```yaml
         data_correspondence:
           firstname: givenName
           lastname: sn
           email: mail
-          phone: telephoneNumber   # optional
-          locale: preferredLanguage  # optional
+          phone: telephoneNumber   # opcional
+          locale: preferredLanguage  # opcional
 ```
 
-`firstname`, `lastname`, and `email` are required. The user is matched to an existing Chamilo account by email or username; if no match is found and `allow_create_new_users` is true, a new account is created.
+`firstname`, `lastname` e `email` são obrigatórios. O usuário é correspondido a uma conta existente no Chamilo pelo e-mail ou nome de usuário; se não houver correspondência e `allow_create_new_users` estiver definido como true, uma nova conta será criada.
 
-## Tips
+## Dicas
 
-* **Use LDAPS in production** — switch `ldap://` to `ldaps://` (port 636) for encrypted connections.
-* **Service account** — the search bind account needs only read access to user entries.
-* **Test first** — verify your connection string and query with `ldapsearch` before configuring Chamilo.
-* **`force_as_login_method: true`** — hides other login methods and forces all users through LDAP. Leave it `false` while testing so you can still log in as an admin via the standard form.
+* **Use LDAPS em produção** — altere `ldap://` para `ldaps://` (porta 636) para conexões criptografadas.
+* **Conta de serviço** — a conta de vinculação por pesquisa precisa apenas de acesso de leitura às entradas de usuário.
+* **Teste primeiro** — verifique sua string de conexão e consulta com `ldapsearch` antes de configurar o Chamilo.
+* **`force_as_login_method: true`** — oculta outros métodos de login e força todos os usuários a usarem o LDAP. Mantenha como `false` durante os testes para que você ainda possa fazer login como administrador pelo formulário padrão.
 
-For the full parameter reference, see the [wiki](https://github.com/chamilo/chamilo-lms/wiki/External-Authentication-configuration).
+Para a referência completa de parâmetros, consulte o [wiki](https://github.com/chamilo/chamilo-lms/wiki/External-Authentication-configuration).

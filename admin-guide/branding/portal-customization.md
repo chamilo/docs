@@ -1,20 +1,20 @@
-# Portal Customization
+# Personalização do Portal
 
-Customize how your Chamilo platform looks and what information is displayed to users.
+Personalize a aparência da sua plataforma Chamilo e as informações exibidas aos usuários.
 
-## Platform Identity
+## Identidade da Plataforma
 
-![The portal customization page showing platform identity settings for name, logo, and institution](/.gitbook/assets/admin-portal-customization.png)
+![A página de personalização do portal mostrando as configurações de identidade da plataforma para nome, logotipo e instituição](/.gitbook/assets/admin-portal-customization.png)
 
-Configure the basic identity of your portal:
+Configure a identidade básica do seu portal:
 
-* **Platform name** — The name shown in the browser title and throughout the interface
-* **Institution name** — Your organization's name
-* **Institution URL** — A link to your organization's website
-* **Platform logo** — Upload your organization's logo (displayed in the top bar)
+* **Nome da plataforma** — O nome exibido no título do navegador e em toda a interface
+* **Nome da instituição** — O nome da sua organização
+* **URL da instituição** — Um link para o site da sua organização
+* **Logotipo da plataforma** — Faça upload do logotipo da sua organização (exibido na barra superior)
 
-## Tips
+## Dicas
 
-* **Keep the homepage clean** — Too much content on the homepage can be overwhelming. Focus on essential announcements and course access.
-* **Update regularly** — Keep system announcements current and remove outdated ones
-* **Upload a high-quality logo** — The logo is one of the most visible branding elements. Use a crisp, appropriately sized image.
+* **Mantenha a página inicial limpa** — Muito conteúdo na página inicial pode ser sobrecarregante. Concentre-se em anúncios essenciais e acesso aos cursos.
+* **Atualize regularmente** — Mantenha os anúncios do sistema atualizados e remova os desatualizados.
+* **Faça upload de um logotipo de alta qualidade** — O logotipo é um dos elementos de marca mais visíveis. Use uma imagem nítida e com tamanho apropriado.

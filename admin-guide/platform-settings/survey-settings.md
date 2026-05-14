@@ -1,111 +1,101 @@
-# Surveys Settings
+# Configurações de Pesquisas
 
-Defaults and behaviour of the **Surveys** tool.
+Padrões e comportamento da ferramenta **Pesquisas**.
 
-Access these settings under **Administration > Configuration settings > Surveys**. This category contains **12 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+Acesse essas configurações em **Administração > Configurações de configuração > Pesquisas**. Esta categoria contém **12 configurações**, listadas abaixo com o título e comentário fornecidos nos arquivos de configurações da plataforma (`SettingsCurrentFixtures.php`).
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> O nome da variável no código é mostrado em fonte monoespaçada. Use-o ao criar scripts via API ou quando precisar alterar essas configurações em um nível global editando [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
 
-## Settings
+## Configurações
 
 ### `extend_rights_for_coach_on_survey`
 
-**Extend rights for coachs on surveys**
+**Estender direitos para treinadores em pesquisas**
 
-Activate this option will allow the coachs to create and edit surveys
+Ativar esta opção permitirá que os treinadores criem e editem pesquisas.
 
 *Default: `true`*
-
 
 ### `hide_survey_edition`
 
-**Prevent survey edition**
+**Impedir edição de pesquisas**
 
-Prevent editing surveys for all surveys listed here (by code). Use * to prevent edition of all surveys.
+Impede a edição de todas as pesquisas listadas aqui (por código). Use * para impedir a edição de todas as pesquisas.
 
 ### `hide_survey_reporting_button`
 
-**Hide survey reporting button**
+**Ocultar botão de relatório de pesquisa**
 
-Allows admins to hide survey reporting button if surveys are used to survey teachers.
+Permite que administradores ocultem o botão de relatório de pesquisa se as pesquisas forem usadas para avaliar professores.
 
 *Default: `false`*
-
 
 ### `show_pending_survey_in_menu`
 
-**Show "Pending surveys" in menu**
+**Mostrar "Pesquisas pendentes" no menu**
 
-Display a menu item that lets users access their pending surveys.
+Exibe um item de menu que permite aos usuários acessarem suas pesquisas pendentes.
 
 *Default: `false`*
-
 
 ### `show_surveys_base_in_sessions`
 
-**Display surveys from base course in all session courses**
+**Exibir pesquisas do curso base em todos os cursos de sessão**
 
-[inferred] Make surveys from the base course visible and available to learners in all related session courses.
+[inferido] Torna as pesquisas do curso base visíveis e disponíveis para os alunos em todos os cursos de sessão relacionados.
 
 *Default: `false`*
-
 
 ### `survey_additional_teacher_modify_actions`
 
-**Add additional actions (as links) to survey lists for teachers**
+**Adicionar ações adicionais (como links) às listas de pesquisas para professores**
 
-Add actions (usually connected to plugins) in the list of surveys. Use array syntax ['myplugin' => ['MyPlugin', 'urlGeneratorCallback']].
+Adiciona ações (geralmente conectadas a plugins) na lista de pesquisas. Use a sintaxe de array ['myplugin' => ['MyPlugin', 'urlGeneratorCallback']].
 
 ### `survey_allow_answered_question_edit`
 
-**Allow teachers to edit survey questions after students answered**
+**Permitir que professores editem perguntas de pesquisa após respostas dos alunos**
 
-[inferred] Allow instructors to modify survey questions even after learners have submitted responses.
+[inferido] Permite que instrutores modifiquem perguntas de pesquisa mesmo após os alunos terem enviado respostas.
 
 *Default: `false`*
-
 
 ### `survey_anonymous_show_answered`
 
-**Allow teachers to see who answered in anonymous surveys**
+**Permitir que professores vejam quem respondeu em pesquisas anônimas**
 
-Allow teachers to see which learners have already answered an anonymous survey. This only appears once more than one user has answered, so it remains difficult to identify who answered what.
+Permite que professores vejam quais alunos já responderam a uma pesquisa anônima. Isso só aparece quando mais de um usuário respondeu, tornando difícil identificar quem respondeu o quê.
 
 *Default: `false`*
-
 
 ### `survey_backwards_enable`
 
-**Enable 'previous question' button in surveys**
+**Habilitar botão de 'pergunta anterior' em pesquisas**
 
-[inferred] Enable a "previous question" navigation button to allow learners to review earlier survey questions.
+[inferido] Habilita um botão de navegação "pergunta anterior" para permitir que os alunos revisem perguntas anteriores da pesquisa.
 
 *Default: `false`*
-
 
 ### `survey_duplicate_order_by_name`
 
-**Order by student name when using survey duplication feature**
+**Ordenar por nome do aluno ao usar o recurso de duplicação de pesquisa**
 
-The survey duplication feature is oriented towards teachers and is meant to ask teachers to give their appreciation about each student in order. This option will order the questions by learner's lastname.
+O recurso de duplicação de pesquisa é voltado para professores e tem como objetivo pedir aos professores que deem sua avaliação sobre cada aluno em ordem. Esta opção ordenará as perguntas pelo sobrenome do aluno.
 
 *Default: `true`*
 
-
 ### `survey_email_sender_noreply`
 
-**Survey e-mail sender (no-reply)**
+**Remetente de e-mail de pesquisa (sem resposta)**
 
-Should the survey invitations use the coach e-mail address or the no-reply address defined in the main configuration section?
+As convites de pesquisa devem usar o endereço de e-mail do treinador ou o endereço sem resposta definido na seção de configuração principal?
 
 *Default: `coach`*
 
-
 ### `survey_mark_question_as_required`
 
-**Mark all survey questions as 'required' by default**
+**Marcar todas as perguntas de pesquisa como 'obrigatórias' por padrão**
 
-[inferred] Automatically mark all newly created survey questions as required responses by default.
+[inferido] Marca automaticamente todas as perguntas de pesquisa recém-criadas como respostas obrigatórias por padrão.
 
 *Default: `false`*
-

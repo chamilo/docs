@@ -1,77 +1,77 @@
-# Course Homepage
+# Página Inicial do Curso
 
-The course homepage is the first page your learners see when they enter a course. This page describes how to customize it to create an engaging entry point.
+A página inicial do curso é a primeira página que seus alunos veem ao entrar em um curso. Esta página descreve como personalizá-la para criar um ponto de entrada envolvente.
 
-## Course Introduction
+## Introdução ao Curso
 
-The course introduction is a rich-text area displayed at the top of the homepage, above the tool grid. Use it to:
+A introdução ao curso é uma área de texto rico exibida no topo da página inicial, acima da grade de ferramentas. Use-a para:
 
-* Welcome your learners
-* Describe the course objectives
-* Provide instructions for getting started
-* Embed images, videos, or links
+* Dar as boas-vindas aos seus alunos
+* Descrever os objetivos do curso
+* Fornecer instruções para começar
+* Incorporar imagens, vídeos ou links
 
-To edit the introduction:
+Para editar a introdução:
 
-1. Click the **Edit introduction** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Edit" data-size="line"> button
-2. Use the rich-text editor to write your content
-3. Save your changes
+1. Clique no botão **Editar introdução** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Editar" data-size="line">
+2. Use o editor de texto rico para escrever seu conteúdo
+3. Salve suas alterações
 
-If no introduction has been created yet, you will see a button to **Create an introduction**.
+Se ainda não foi criada uma introdução, você verá um botão para **Criar uma introdução**.
 
-## Tool Grid
+## Grade de Ferramentas
 
-![The course homepage tool grid showing available course tools with icons and visibility toggles](/.gitbook/assets/course-homepage-tool-grid.png)
+![A grade de ferramentas da página inicial do curso mostrando as ferramentas disponíveis com ícones e alternâncias de visibilidade](/.gitbook/assets/course-homepage-tool-grid.png)
 
-Below the introduction, the course tools are displayed in a grid layout. Each tool appears as a card with:
+Abaixo da introdução, as ferramentas do curso são exibidas em um layout de grade. Cada ferramenta aparece como um cartão com:
 
-* An icon representing the tool
-* The tool name
+* Um ícone representando a ferramenta
+* O nome da ferramenta
 
-The tools available in your course may include:
+As ferramentas disponíveis em seu curso podem incluir:
 
-| Tool | Icon | Purpose |
-|------|------|---------|
-| Agenda | <img src="/.gitbook/assets/icons/mdi-calendar-text.svg" alt="Agenda" data-size="line"> | Schedule events and deadlines |
-| Announcements | <img src="/.gitbook/assets/icons/mdi-bullhorn.svg" alt="Announcements" data-size="line"> | Send messages to enrolled learners |
-| Assignments | <img src="/.gitbook/assets/icons/mdi-inbox-full.svg" alt="Assignments" data-size="line"> | Collect and grade student work |
-| Documents | <img src="/.gitbook/assets/icons/mdi-bookshelf.svg" alt="Documents" data-size="line"> | Upload and organize files and content |
-| Tests | <img src="/.gitbook/assets/icons/mdi-order-bool-ascending-variant.svg" alt="Exercises" data-size="line"> | Create quizzes and tests |
-| Forum | <img src="/.gitbook/assets/icons/mdi-comment-quote.svg" alt="Forums" data-size="line"> | Host discussions |
-| Glossary | <img src="/.gitbook/assets/icons/mdi-alphabetical.svg" alt="Glossary" data-size="line"> | Define key terms |
-| Assessments | <img src="/.gitbook/assets/icons/mdi-certificate.svg" alt="Gradebook" data-size="line"> | Manage grades and certificates |
-| Learning paths | <img src="/.gitbook/assets/icons/mdi-map-marker-path.svg" alt="Learning paths" data-size="line"> | Build structured learning sequences |
-| Links | <img src="/.gitbook/assets/icons/mdi-link.svg" alt="Links" data-size="line"> | Share useful URLs |
-| Users | <img src="/.gitbook/assets/icons/mdi-account.svg" alt="Members" data-size="line"> | View and manage enrolled users |
-| Surveys | <img src="/.gitbook/assets/icons/mdi-form-dropdown.svg" alt="Surveys" data-size="line"> | Create and distribute surveys |
+| Ferramenta | Ícone | Finalidade |
+|------------|-------|------------|
+| Agenda | <img src="/.gitbook/assets/icons/mdi-calendar-text.svg" alt="Agenda" data-size="line"> | Agendar eventos e prazos |
+| Anúncios | <img src="/.gitbook/assets/icons/mdi-bullhorn.svg" alt="Anúncios" data-size="line"> | Enviar mensagens para os alunos inscritos |
+| Tarefas | <img src="/.gitbook/assets/icons/mdi-inbox-full.svg" alt="Tarefas" data-size="line"> | Coletar e avaliar o trabalho dos alunos |
+| Documentos | <img src="/.gitbook/assets/icons/mdi-bookshelf.svg" alt="Documentos" data-size="line"> | Carregar e organizar arquivos e conteúdo |
+| Testes | <img src="/.gitbook/assets/icons/mdi-order-bool-ascending-variant.svg" alt="Exercícios" data-size="line"> | Criar questionários e testes |
+| Fórum | <img src="/.gitbook/assets/icons/mdi-comment-quote.svg" alt="Fóruns" data-size="line"> | Hospedar discussões |
+| Glossário | <img src="/.gitbook/assets/icons/mdi-alphabetical.svg" alt="Glossário" data-size="line"> | Definir termos-chave |
+| Avaliações | <img src="/.gitbook/assets/icons/mdi-certificate.svg" alt="Boletim" data-size="line"> | Gerenciar notas e certificados |
+| Caminhos de aprendizagem | <img src="/.gitbook/assets/icons/mdi-map-marker-path.svg" alt="Caminhos de aprendizagem" data-size="line"> | Construir sequências de aprendizagem estruturadas |
+| Links | <img src="/.gitbook/assets/icons/mdi-link.svg" alt="Links" data-size="line"> | Compartilhar URLs úteis |
+| Usuários | <img src="/.gitbook/assets/icons/mdi-account.svg" alt="Membros" data-size="line"> | Visualizar e gerenciar usuários inscritos |
+| Pesquisas | <img src="/.gitbook/assets/icons/mdi-form-dropdown.svg" alt="Pesquisas" data-size="line"> | Criar e distribuir pesquisas |
 
-> Some tools may not appear if your administrator has disabled them at the platform level or if you have hidden them.
+> Algumas ferramentas podem não aparecer se o administrador as desativou no nível da plataforma ou se você as ocultou.
 
-A notable change from Chamilo 1.* is that we don't split the tools in 3 different sections anymore. This gives full control to the teachers on what tools to show in what order.
+Uma mudança notável em relação ao Chamilo 1.* é que não dividimos mais as ferramentas em 3 seções diferentes. Isso dá total controle aos professores sobre quais ferramentas mostrar e em que ordem.
 
-Also, the **Tracking** and **Maintenance** tools have been moved to the top of the page under the stats and cog icons to remove tools that are never shown to the learners from the list.
+Além disso, as ferramentas de **Rastreamento** e **Manutenção** foram movidas para o topo da página, sob os ícones de estatísticas e engrenagem, para remover da lista as ferramentas que nunca são mostradas aos alunos.
 
-## Organizing Tools
+## Organizando Ferramentas
 
-### Reordering
+### Reordenando
 
-1. Click the **Sort** button at the top of the tool grid
-2. Drag and drop tools to rearrange their order
-3. The new order is saved automatically
+1. Clique no botão **Ordenar** no topo da grade de ferramentas
+2. Arraste e solte as ferramentas para reorganizar sua ordem
+3. A nova ordem é salva automaticamente
 
-### Hiding and Showing
+### Ocultando e Mostrando
 
-* Click the **visibility icon** on any tool to toggle it between visible and hidden for learners
-* Use **Show all** or **Hide all** for bulk changes
-* Hidden tools remain accessible to you as the teacher — they are only hidden from learners
+* Clique no **ícone de visibilidade** em qualquer ferramenta para alternar entre visível e oculto para os alunos
+* Use **Mostrar tudo** ou **Ocultar tudo** para alterações em massa
+* Ferramentas ocultas permanecem acessíveis para você como professor — elas estão ocultas apenas para os alunos
 
-![The course homepage as seen by a student, with hidden tools not visible](/.gitbook/assets/course-homepage-student-view.png)
+![A página inicial do curso como vista por um aluno, com ferramentas ocultas não visíveis](/.gitbook/assets/course-homepage-student-view.png)
 
-## Auto-Launch Features
+## Recursos de Lançamento Automático
 
-You may configure certain tools to launch automatically when a learner enters the course. If enabled, a notification appears at the top of the course homepage indicating which auto-launch is active:
+Você pode configurar certas ferramentas para serem lançadas automaticamente quando um aluno entra no curso. Se ativado, uma notificação aparece no topo da página inicial do curso indicando qual lançamento automático está ativo:
 
-* Document auto-launch — Opens a specific document automatically
-* Exercise auto-launch — Launches a test immediately
-* Learning path auto-launch — Starts a learning path upon course entry
-* Forum auto-launch — Opens the forum directly
+* Lançamento automático de documento — Abre um documento específico automaticamente
+* Lançamento automático de exercício — Inicia um teste imediatamente
+* Lançamento automático de caminho de aprendizagem — Inicia um caminho de aprendizagem ao entrar no curso
+* Lançamento automático de fórum — Abre o fórum diretamente

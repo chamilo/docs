@@ -1,92 +1,92 @@
-# Database Schema
+# Esquema do Banco de Dados
 
-Chamilo 2.0 maps a large set of Doctrine entities to database tables. The exact counts drift between releases — read the entity directories listed below for the current state.
+O Chamilo 2.0 mapeia um grande conjunto de entidades Doctrine para tabelas de banco de dados. As contagens exatas variam entre as versões — consulte os diretórios de entidades listados abaixo para o estado atual.
 
-## Entity locations
+## Localizações das Entidades
 
-| Bundle | Where | Prefix |
-|--------|-------|--------|
-| CoreBundle | `src/CoreBundle/Entity/` | None (e.g., `user`, `course`, `session`) |
-| CourseBundle | `src/CourseBundle/Entity/` | `c_` (e.g., `c_document`, `c_quiz`, `c_lp`) |
+| Bundle | Onde | Prefixo |
+|--------|-------|---------|
+| CoreBundle | `src/CoreBundle/Entity/` | Nenhum (por exemplo, `user`, `course`, `session`) |
+| CourseBundle | `src/CourseBundle/Entity/` | `c_` (por exemplo, `c_document`, `c_quiz`, `c_lp`) |
 | LtiBundle | `src/LtiBundle/Entity/` | `lti_` |
 
-## Key Tables
+## Tabelas Principais
 
-### User and Authentication
+### Usuário e Autenticação
 
-| Table | Purpose |
-|-------|---------|
-| `user` | User accounts |
-| `access_url` | Multi-URL portals |
-| `access_url_rel_user` | User-portal assignments |
-| `usergroup` | Platform-wide user groups |
+| Tabela | Finalidade |
+|-------|------------|
+| `user` | Contas de usuário |
+| `access_url` | Portais multi-URL |
+| `access_url_rel_user` | Atribuições de usuário-portal |
+| `usergroup` | Grupos de usuários em toda a plataforma |
 
-### Courses
+### Cursos
 
-| Table | Purpose |
-|-------|---------|
-| `course` | Courses |
-| `course_category` | Course categories |
-| `course_rel_user` | Course enrollments |
+| Tabela | Finalidade |
+|-------|------------|
+| `course` | Cursos |
+| `course_category` | Categorias de cursos |
+| `course_rel_user` | Inscrições em cursos |
 
-### Sessions
+### Sessões
 
-| Table | Purpose |
-|-------|---------|
-| `session` | Training sessions |
-| `session_rel_user` | Session enrollments |
-| `session_rel_course` | Courses in sessions |
-| `session_rel_course_rel_user` | User enrollment per session-course |
+| Tabela | Finalidade |
+|-------|------------|
+| `session` | Sessões de treinamento |
+| `session_rel_user` | Inscrições em sessões |
+| `session_rel_course` | Cursos em sessões |
+| `session_rel_course_rel_user` | Inscrição de usuário por sessão-curso |
 
-### Resource System
+### Sistema de Recursos
 
-| Table | Purpose |
-|-------|---------|
-| `resource_node` | Unified content abstraction |
-| `resource_file` | File attachments |
-| `resource_link` | Visibility/access per context |
-| `resource_type` | Resource type registry |
+| Tabela | Finalidade |
+|-------|------------|
+| `resource_node` | Abstração unificada de conteúdo |
+| `resource_file` | Anexos de arquivos |
+| `resource_link` | Visibilidade/acesso por contexto |
+| `resource_type` | Registro de tipo de recurso |
 
-### Course Content (c_ prefix)
+### Conteúdo do Curso (prefixo c_)
 
-| Table | Purpose |
-|-------|---------|
-| `c_document` | Documents |
-| `c_quiz` | Exercises/tests |
-| `c_quiz_question` | Quiz questions |
-| `c_quiz_answer` | Question answers |
-| `c_lp` | Learning paths |
-| `c_lp_item` | Learning path items |
-| `c_forum_category` | Forum categories |
-| `c_forum_forum` | Forums |
-| `c_forum_thread` | Forum threads |
-| `c_forum_post` | Forum posts |
-| `c_student_publication` | Assignments/submissions |
-| `c_survey` | Surveys |
-| `c_glossary` | Glossary terms |
-| `c_calendar_event` | Calendar events |
-| `c_attendance` | Attendance sheets |
+| Tabela | Finalidade |
+|-------|------------|
+| `c_document` | Documentos |
+| `c_quiz` | Exercícios/testes |
+| `c_quiz_question` | Questões de questionários |
+| `c_quiz_answer` | Respostas de questões |
+| `c_lp` | Caminhos de aprendizagem |
+| `c_lp_item` | Itens de caminhos de aprendizagem |
+| `c_forum_category` | Categorias de fórum |
+| `c_forum_forum` | Fóruns |
+| `c_forum_thread` | Tópicos de fórum |
+| `c_forum_post` | Postagens de fórum |
+| `c_student_publication` | Tarefas/envios |
+| `c_survey` | Pesquisas |
+| `c_glossary` | Termos de glossário |
+| `c_calendar_event` | Eventos de calendário |
+| `c_attendance` | Folhas de presença |
 
-### Tracking
+### Rastreamento
 
-| Table | Purpose |
-|-------|---------|
-| `track_e_login` | Login tracking |
-| `track_e_online` | Online user tracking |
-| `track_e_default` | Generic activity tracking |
-| `gradebook_category` | Gradebook categories |
-| `gradebook_result` | Grades |
+| Tabela | Finalidade |
+|-------|------------|
+| `track_e_login` | Rastreamento de login |
+| `track_e_online` | Rastreamento de usuários online |
+| `track_e_default` | Rastreamento de atividade genérica |
+| `gradebook_category` | Categorias de livro de notas |
+| `gradebook_result` | Notas |
 
-### Settings
+### Configurações
 
-| Table | Purpose |
-|-------|---------|
-| `settings` | Platform settings |
-| `settings_options` | Setting option definitions |
+| Tabela | Finalidade |
+|-------|------------|
+| `settings` | Configurações da plataforma |
+| `settings_options` | Definições de opções de configuração |
 
-## Migrations
+## Migrações
 
-Database schema changes are managed through Doctrine Migrations in `src/CoreBundle/Migrations/`. Run migrations with:
+As alterações no esquema do banco de dados são gerenciadas por meio de Doctrine Migrations em `src/CoreBundle/Migrations/`. Execute as migrações com:
 
 ```bash
 php bin/console doctrine:migrations:migrate

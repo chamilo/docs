@@ -1,26 +1,26 @@
-# AI Media Generation
+# Geração de Mídia por IA
 
-When editing a document in the **Documents** tool, the AI media generation feature lets you produce an **image** or a **short video** to illustrate a paragraph — directly from the rich-text editor (WYSIWYG), without leaving the document.
+Ao editar um documento na ferramenta **Documentos**, o recurso de geração de mídia por IA permite que você produza uma **imagem** ou um **vídeo curto** para ilustrar um parágrafo — diretamente do editor de texto rico (WYSIWYG), sem sair do documento.
 
-## Requirements
+## Requisitos
 
-* AI helpers are enabled at the platform level
-* At least one AI media provider (image or video) is configured by the administrator
-* The feature is allowed in your course (course-level permission must be enabled)
+* Os assistentes de IA estão habilitados no nível da plataforma
+* Pelo menos um provedor de mídia por IA (imagem ou vídeo) está configurado pelo administrador
+* O recurso está permitido no seu curso (a permissão no nível do curso deve estar ativada)
 
-## How to Generate an Image or Video
+## Como Gerar uma Imagem ou Vídeo
 
-1. Open a document in the **Documents** <img src="/.gitbook/assets/icons/mdi-bookshelf.svg" alt="Documents" data-size="line"> tool (create a new one or edit an existing one)
-2. In the rich-text editor, place your cursor in or near the paragraph you want to illustrate
-3. Open the **Generate AI media** dialog from the editor toolbar
-4. Describe what you want the media to show, or use the selected paragraph as the prompt
-5. Choose whether to generate an **image** or a **video**
-6. Click **Generate** and wait for the AI to produce the result
-7. Preview the generated media and, if satisfied, click **Insert** to embed it in the document
+1. Abra um documento na ferramenta **Documentos** <img src="/.gitbook/assets/icons/mdi-bookshelf.svg" alt="Documentos" data-size="line"> (crie um novo ou edite um existente)
+2. No editor de texto rico, posicione o cursor dentro ou próximo ao parágrafo que você deseja ilustrar
+3. Abra o diálogo **Gerar mídia por IA** na barra de ferramentas do editor
+4. Descreva o que você deseja que a mídia mostre, ou use o parágrafo selecionado como prompt
+5. Escolha se deseja gerar uma **imagem** ou um **vídeo**
+6. Clique em **Gerar** e aguarde o resultado produzido pela IA
+7. Visualize a mídia gerada e, se estiver satisfeito, clique em **Inserir** para incorporá-la ao documento
 
-## Tips
+## Dicas
 
-* **Write a clear prompt** — The more specific your description, the more relevant the output. Include style cues (e.g. "diagram", "illustration", "realistic photo") if the provider supports them
-* **Always review before inserting** — Generated media may not perfectly match your intent; regenerate or adjust the prompt if needed
-* **Keep file sizes in mind** — Generated images and videos count against the course storage quota. Remove unused media from the document library if space is limited
-* **Video generation takes longer** — Short video generation can take significantly more time than image generation; plan accordingly if you are near a deadline
+* **Escreva um prompt claro** — Quanto mais específica for sua descrição, mais relevante será o resultado. Inclua indicações de estilo (por exemplo, "diagrama", "ilustração", "foto realista") se o provedor as suportar
+* **Sempre revise antes de inserir** — A mídia gerada pode não corresponder perfeitamente à sua intenção; regenere ou ajuste o prompt se necessário
+* **Considere o tamanho dos arquivos** — Imagens e vídeos gerados contam para a cota de armazenamento do curso. Remova mídias não utilizadas da biblioteca de documentos se o espaço for limitado
+* **A geração de vídeos leva mais tempo** — A geração de vídeos curtos pode levar significativamente mais tempo do que a geração de imagens; planeje-se adequadamente se estiver próximo a um prazo limite

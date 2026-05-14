@@ -1,68 +1,63 @@
-# Tickets Settings
+# Configurações de Tickets
 
-Behaviour of the **Tickets** (helpdesk) system.
+Comportamento do sistema de **Tickets** (helpdesk).
 
-Access these settings under **Administration > Configuration settings > Tickets**. This category contains **7 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+Acesse essas configurações em **Administração > Configurações de configuração > Tickets**. Esta categoria contém **7 configurações**, listadas abaixo com o título e comentário fornecidos nos arquivos de configurações padrão da plataforma (`SettingsCurrentFixtures.php`).
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> O nome da variável no código é mostrado em fonte monoespaçada. Use-o ao criar scripts via API ou quando precisar alterar essas configurações em um nível global editando [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
 
-## Settings
+## Configurações
 
 ### `show_link_bug_notification`
 
-**Show link to report bug**
+**Mostrar link para relatar erro**
 
-Show a link in the header to report a bug inside of our support platform (http://support.chamilo.org). When clicking on the link, the user is sent to the support platform, on a wiki page that describes the bug reporting process.
+Mostra um link no cabeçalho para relatar um erro dentro da nossa plataforma de suporte (http://support.chamilo.org). Ao clicar no link, o usuário é direcionado para a plataforma de suporte, em uma página wiki que descreve o processo de relato de erros.
 
-*Default: `false`*
-
+*Padrão: `false`*
 
 ### `show_link_ticket_notification`
 
-**Show ticket creation link**
+**Mostrar link de criação de ticket**
 
-Show the ticket creation link to users on the right side of the portal
+Mostra o link de criação de ticket para os usuários no lado direito do portal.
 
-*Default: `false`*
-
+*Padrão: `false`*
 
 ### `ticket_allow_category_edition`
 
-**Allow tickets categories edition**
+**Permitir edição de categorias de tickets**
 
-Allow category edition by administrators.
+Permite a edição de categorias por administradores.
 
-*Default: `false`*
+*Padrão: `false`*
 
 ### `ticket_allow_student_add`
 
-**Allow users to add tickets**
+**Permitir que usuários adicionem tickets**
 
-Allows all users to add tickets not only the administrators.
+Permite que todos os usuários adicionem tickets, não apenas os administradores.
 
-*Default: `false`*
+*Padrão: `false`*
 
 ### `ticket_project_user_roles`
 
-**Access by role to ticket projects**
+**Acesso por função a projetos de tickets**
 
-Allow ticket projects to be accesses by specific user roles. Example: ['permissions' => [1 => [17]] where project_id = 1, STUDENT_BOSS = 17.
+Permite que projetos de tickets sejam acessados por funções específicas de usuário. Exemplo: ['permissions' => [1 => [17]] onde project_id = 1, STUDENT_BOSS = 17.
 
 ### `ticket_send_warning_to_all_admins`
 
-**Send ticket warning messages to administrators**
+**Enviar mensagens de alerta de tickets aos administradores**
 
-Send a message if a ticket was created without a category or if a category doesn't have any administrator assigned.
+Envia uma mensagem se um ticket for criado sem uma categoria ou se uma categoria não tiver nenhum administrador atribuído.
 
-*Default: `false`*
-
+*Padrão: `false`*
 
 ### `ticket_warn_admin_no_user_in_category`
 
-**Send alert to administrators if tickets category has no one in charge**
+**Enviar alerta aos administradores se a categoria de tickets não tiver responsável**
 
-Send a warning message (e-mail and Chamilo message) to all administrators if there's not a user assigned to a category.
+Envia uma mensagem de alerta (e-mail e mensagem no Chamilo) a todos os administradores se não houver um usuário atribuído a uma categoria.
 
-*Default: `false`*
-
-
+*Padrão: `false`*

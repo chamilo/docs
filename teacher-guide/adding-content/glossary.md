@@ -1,36 +1,36 @@
-# Glossary
+# Glossário
 
-The glossary tool lets you define key terms for your course. Learners can browse the glossary to look up definitions while studying.
+A ferramenta de glossário permite que você defina termos-chave para o seu curso. Os alunos podem navegar pelo glossário para consultar definições enquanto estudam.
 
-## Adding a Term
+## Adicionar um Termo
 
-1. Open the **Glossary** <img src="/.gitbook/assets/icons/mdi-alphabetical.svg" alt="Glossary" data-size="line"> tool from the course homepage
-2. Click **Add new glossary term**
-3. Enter the **term** and its **definition** (the definition supports rich text formatting)
-4. Save
+1. Abra a ferramenta **Glossário** <img src="/.gitbook/assets/icons/mdi-alphabetical.svg" alt="Glossário" data-size="line"> na página inicial do curso
+2. Clique em **Adicionar novo termo ao glossário**
+3. Insira o **termo** e sua **definição** (a definição suporta formatação de texto rico)
+4. Salve
 
-## Managing Terms
+## Gerenciar Termos
 
-* **Edit** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Edit" data-size="line"> — Update a term or its definition
-* **Delete** <img src="/.gitbook/assets/icons/mdi-delete.svg" alt="Delete" data-size="line"> — Remove a term from the glossary
-* **Search** <img src="/.gitbook/assets/icons/mdi-magnify.svg" alt="Search" data-size="line"> — Use the search function to find specific terms quickly
+* **Editar** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Editar" data-size="line"> — Atualize um termo ou sua definição
+* **Excluir** <img src="/.gitbook/assets/icons/mdi-delete.svg" alt="Excluir" data-size="line"> — Remova um termo do glossário
+* **Pesquisar** <img src="/.gitbook/assets/icons/mdi-magnify.svg" alt="Pesquisar" data-size="line"> — Use a função de pesquisa para encontrar termos específicos rapidamente
 
-## Importing and Exporting
+## Importar e Exportar
 
-You can build your glossary faster using import/export:
+Você pode construir seu glossário mais rapidamente usando importação/exportação:
 
-* **Import** <img src="/.gitbook/assets/icons/mdi-database-import-outline.svg" alt="Import" data-size="line"> — Upload a list of terms and definitions from a CSV or XLS file. You can also tick "Update existing terms" to overwrite definitions for terms that are already in the glossary.
-* **Export** <img src="/.gitbook/assets/icons/mdi-file-export.svg" alt="Export" data-size="line"> — Download the glossary as CSV, Excel (XLS), or PDF for use in another course or for offline reference
+* **Importar** <img src="/.gitbook/assets/icons/mdi-database-import-outline.svg" alt="Importar" data-size="line"> — Faça upload de uma lista de termos e definições a partir de um arquivo CSV ou XLS. Você também pode marcar "Atualizar termos existentes" para substituir definições de termos que já estão no glossário.
+* **Exportar** <img src="/.gitbook/assets/icons/mdi-file-export.svg" alt="Exportar" data-size="line"> — Baixe o glossário como CSV, Excel (XLS) ou PDF para uso em outro curso ou para referência offline
 
-## Display Options
+## Opções de Exibição
 
-The glossary can be displayed in two formats, toggled from the toolbar:
+O glossário pode ser exibido em dois formatos, alternados a partir da barra de ferramentas:
 
-* **Table view** — Terms listed in a table with their definitions
-* **List view** — Terms shown as individual panels stacked one after another
+* **Visualização em tabela** — Termos listados em uma tabela com suas definições
+* **Visualização em lista** — Termos exibidos como painéis individuais empilhados um após o outro
 
-## Tips
+## Dicas
 
-* **Build it progressively** — Add terms as you introduce them in your course, rather than all at once
-* **Keep definitions concise** — Short, clear definitions are more useful than lengthy explanations
-* **Link from learning paths** — Reference glossary terms from your learning path content to encourage learners to use the glossary
+* **Construa progressivamente** — Adicione termos à medida que os introduz no seu curso, em vez de todos de uma vez
+* **Mantenha as definições concisas** — Definições curtas e claras são mais úteis do que explicações longas
+* **Vincule a partir de caminhos de aprendizagem** — Referencie termos do glossário no conteúdo do seu caminho de aprendizagem para incentivar os alunos a usarem o glossário

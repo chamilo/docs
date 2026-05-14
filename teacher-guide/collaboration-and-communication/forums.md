@@ -1,58 +1,58 @@
-# Forums
+# Fóruns
 
-The forum tool allows you to host structured discussions within your course. Learners can post messages, reply to each other, and engage in threaded conversations.
+A ferramenta de fórum permite que você hospede discussões estruturadas dentro do seu curso. Os alunos podem postar mensagens, responder uns aos outros e participar de conversas encadeadas.
 
-## Forum Structure
+## Estrutura do Fórum
 
-![The forum category list showing categories, forums, and topic counts](/.gitbook/assets/forum-category-list.png)
+![Lista de categorias de fórum mostrando categorias, fóruns e contagem de tópicos](/.gitbook/assets/forum-category-list.png)
 
-Forums in Chamilo are organized in three levels:
+Os fóruns no Chamilo são organizados em três níveis:
 
-1. **Forum categories** — Top-level groupings (e.g., "General Discussions", "Module 1 Questions")
-2. **Forums** — Individual discussion boards within a category
-3. **Topics (threads)** — Individual discussion topics within a forum, each with a chain of replies
+1. **Categorias de fórum** — Agrupamentos de nível superior (por exemplo, "Discussões Gerais", "Perguntas do Módulo 1")
+2. **Fóruns** — Quadros de discussão individuais dentro de uma categoria
+3. **Tópicos (threads)** — Tópicos de discussão individuais dentro de um fórum, cada um com uma cadeia de respostas
 
-## Creating a Forum Category
+## Criando uma Categoria de Fórum
 
-1. Open the **Forums** <img src="/.gitbook/assets/icons/mdi-comment-quote.svg" alt="Forums" data-size="line"> tool from your course homepage
-2. Click **Add a forum category**
-3. Enter a **Category name** and optional description
-4. Save
+1. Abra a ferramenta **Fóruns** <img src="/.gitbook/assets/icons/mdi-comment-quote.svg" alt="Fóruns" data-size="line"> na página inicial do seu curso
+2. Clique em **Adicionar uma categoria de fórum**
+3. Insira um **Nome da categoria** e uma descrição opcional
+4. Salve
 
-## Creating a Forum
+## Criando um Fórum
 
-You can only add a forum once at least one category exists.
+Você só pode adicionar um fórum depois que pelo menos uma categoria existir.
 
-1. Within a category, click **Add a forum**
-2. Fill in the basic details:
-   * **Title** — The name of this discussion board
-   * **Description** — An optional description of the forum's purpose
-   * **Create in category** — The category this forum belongs to
-3. Open **Advanced settings** to configure:
-   * **Publication date** / **Closing date** — Optional time window during which the forum is open
-   * **Moderated forum** — Require new posts to be approved by a teacher before they become visible
-   * **Can learners edit their own posts?** — Allow or prevent learners from editing posts after submitting
-   * **Allow users to start new threads** — When set to No, learners can only reply to existing threads
-   * **Default view type** — Choose how posts are displayed: **Flat**, **Threaded**, or **Nested**
-   * **For Group** — Attach this forum to a course group
-   * **Public access / Private access** — For group forums, decide whether any course member can read it or only group members
-4. Save
+1. Dentro de uma categoria, clique em **Adicionar um fórum**
+2. Preencha os detalhes básicos:
+   * **Título** — O nome deste quadro de discussão
+   * **Descrição** — Uma descrição opcional do propósito do fórum
+   * **Criar na categoria** — A categoria à qual este fórum pertence
+3. Abra **Configurações avançadas** para configurar:
+   * **Data de publicação** / **Data de encerramento** — Janela de tempo opcional durante a qual o fórum estará aberto
+   * **Fórum moderado** — Exigir que novas postagens sejam aprovadas por um professor antes de se tornarem visíveis
+   * **Os alunos podem editar suas próprias postagens?** — Permitir ou impedir que os alunos editem postagens após enviá-las
+   * **Permitir que usuários iniciem novos tópicos** — Quando definido como Não, os alunos só podem responder a tópicos existentes
+   * **Tipo de visualização padrão** — Escolha como as postagens são exibidas: **Plano**, **Encadeado** ou **Aninhado**
+   * **Para Grupo** — Vincule este fórum a um grupo do curso
+   * **Acesso público / Acesso privado** — Para fóruns de grupo, decida se qualquer membro do curso pode lê-lo ou apenas os membros do grupo
+4. Salve
 
-If the course visibility is set to "Open to the world", the form also shows an **Allow anonymous posts?** option. This option is hidden in courses with restricted visibility.
+Se a visibilidade do curso estiver definida como "Aberto para o mundo", o formulário também mostrará uma opção **Permitir postagens anônimas?**. Essa opção fica oculta em cursos com visibilidade restrita.
 
-## Managing Topics
+## Gerenciando Tópicos
 
-Learners (and you) can create new topics within a forum. As a teacher, you can:
+Os alunos (e você) podem criar novos tópicos dentro de um fórum. Como professor, você pode:
 
-* **Pin a topic (sticky message)** — Mark a thread as sticky when you create or edit it so it always appears at the top
-* **Lock a topic** — Prevent further replies
-* **Edit or delete posts** — Moderate the discussion
-* **Move a topic** — Transfer a topic to a different forum
+* **Fixar um tópico (mensagem destacada)** — Marcar um tópico como fixo ao criá-lo ou editá-lo para que ele sempre apareça no topo
+* **Bloquear um tópico** — Impedir novas respostas
+* **Editar ou excluir postagens** — Moderar a discussão
+* **Mover um tópico** — Transferir um tópico para um fórum diferente
 
-## Forum Scoring
+## Pontuação no Fórum
 
-When creating a new thread as a teacher, you can enable **Grade this thread** under Advanced settings. You then set a maximum score, a column header for the gradebook, and a weight in the report. You can also enable **Thread scored by peers**, which requires each learner to qualify at least two other learners before their own score counts.
+Ao criar um novo tópico como professor, você pode habilitar **Avaliar este tópico** nas configurações avançadas. Em seguida, você define uma pontuação máxima, um cabeçalho de coluna para o boletim de notas e um peso no relatório. Você também pode habilitar **Tópico avaliado por pares**, o que exige que cada aluno avalie pelo menos dois outros alunos antes que sua própria pontuação seja considerada.
 
-## Notifications
+## Notificações
 
-Each forum and thread has a **Notify me** toggle that you and your learners can use to subscribe to email notifications about new posts. Notifications are a per-user subscription and are not configured when creating the forum.
+Cada fórum e tópico possui um botão **Notifique-me** que você e seus alunos podem usar para se inscrever em notificações por e-mail sobre novas postagens. As notificações são uma assinatura por usuário e não são configuradas ao criar o fórum.

@@ -1,33 +1,33 @@
-# Course Progress
+# Progresso do Curso
 
-The course progress tool helps you define the thematic structure of your course and track how much of the planned content has been delivered.
+A ferramenta de progresso do curso ajuda você a definir a estrutura temática do seu curso e a acompanhar quanto do conteúdo planejado foi entregue.
 
-To students, it is a useful tool for those who have been sick for a few days and could not attend class, as they will known what topics have been talked about and how far the rest of the class has progressed in their absence.
+Para os alunos, é uma ferramenta útil para aqueles que estiveram doentes por alguns dias e não puderam comparecer às aulas, pois saberão quais tópicos foram discutidos e até que ponto o resto da turma avançou na sua ausência.
 
-## How It Works
+## Como Funciona
 
-Course progress is organized into three layers:
+O progresso do curso é organizado em três camadas:
 
-* **Thematic sections** — The main topics or modules of your course
-* **Thematic plan** — For each section, what you intend to cover. Each plan entry is one of a fixed set of types: **Objectives**, **Skills to acquire**, **Methodology**, **Infrastructure**, **Assessment**, or **Others**.
-* **Thematic advance** — Discrete delivery records under each section, each with a start date and a duration in hours. Mark advances as **done** as you deliver them to track real progress against the plan.
+* **Seções temáticas** — Os principais tópicos ou módulos do seu curso
+* **Plano temático** — Para cada seção, o que você pretende abordar. Cada entrada do plano é de um tipo fixo: **Objetivos**, **Competências a adquirir**, **Metodologia**, **Infraestrutura**, **Avaliação** ou **Outros**.
+* **Avanço temático** — Registros discretos de entrega sob cada seção, cada um com uma data de início e uma duração em horas. Marque os avanços como **concluídos** à medida que os entrega para acompanhar o progresso real em relação ao plano.
 
-## Setting Up Course Progress
+## Configurando o Progresso do Curso
 
-1. Open the **Course progress** tool from the course homepage
-2. Create **thematic sections** that correspond to your course's main topics or modules
-3. Within each section, add **plan** entries by type to describe what you intend to cover
-4. As you deliver the content, add **thematic advances** with their date and duration, and mark them as done
-5. Decide the visibility of that information on the course homepage by changing the related settings in the **Course settings** section (cog icon at the top of the course homepage)
+1. Abra a ferramenta **Progresso do curso** na página inicial do curso
+2. Crie **seções temáticas** que correspondam aos principais tópicos ou módulos do seu curso
+3. Dentro de cada seção, adicione entradas de **plano** por tipo para descrever o que você pretende abordar
+4. À medida que entrega o conteúdo, adicione **avanços temáticos** com sua data e duração, e marque-os como concluídos
+5. Decida a visibilidade dessas informações na página inicial do curso alterando as configurações relacionadas na seção **Configurações do curso** (ícone de engrenagem no topo da página inicial do curso)
 
-You can optionally link a thematic advance to an attendance sheet so its start date is pulled from your attendance records. Sections (with their plan and advances) can also be **copied** within the same course/session.
+Você pode, opcionalmente, vincular um avanço temático a uma folha de presença para que a data de início seja extraída dos seus registros de presença. As seções (com seus planos e avanços) também podem ser **copiadas** dentro do mesmo curso/sessão.
 
-## Use Cases
+## Casos de Uso
 
-* **Track your teaching plan** — Monitor which parts of the course have been delivered and which remain
-* **Attendance integration** — Course progress can work alongside the attendance tool to correlate presence with topics covered
-* **Reporting** — Get a clear view of course delivery status over time
+* **Acompanhar seu plano de ensino** — Monitore quais partes do curso foram entregues e quais ainda restam
+* **Integração com presença** — O progresso do curso pode funcionar junto com a ferramenta de presença para correlacionar a presença com os tópicos abordados
+* **Relatórios** — Obtenha uma visão clara do status de entrega do curso ao longo do tempo
 
-## For Learners
+## Para os Alunos
 
-Learners can view the course progress to understand the course structure and see what topics have been covered so far. This is particularly useful for learners who join late or miss sessions.
+Os alunos podem visualizar o progresso do curso para entender a estrutura do curso e ver quais tópicos foram abordados até o momento. Isso é particularmente útil para alunos que ingressam tarde ou perdem sessões.

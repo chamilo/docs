@@ -1,53 +1,53 @@
 # Backups
 
-Regular backups are essential for protecting your Chamilo data. This page covers what to back up and how.
+Backups regulares são essenciais para proteger os dados do Chamilo. Esta página aborda o que fazer backup e como realizá-lo.
 
-## What to Back Up
+## O que fazer backup
 
-### 1. Database
+### 1. Banco de dados
 
-The Chamilo database contains all platform data: users, courses, tracking, grades, messages, and settings. This is the most critical component to back up.
+O banco de dados do Chamilo contém todos os dados da plataforma: usuários, cursos, rastreamento, notas, mensagens e configurações. Este é o componente mais crítico para fazer backup.
 
-**How to back up:**
+**Como fazer backup:**
 
 ```bash
 mysqldump -u username -p chamilo_database > chamilo_backup_$(date +%Y%m%d).sql
 ```
 
-### 2. Files
+### 2. Arquivos
 
-Chamilo stores uploaded files (documents, images, SCORM packages) in the filesystem. The key directories to back up:
+O Chamilo armazena arquivos enviados (documentos, imagens, pacotes SCORM) no sistema de arquivos. Os diretórios principais para fazer backup são:
 
-* `var/` — Uploaded files and resources
-* `public/plugin/` — Plugin files (only if you have added custom plugins)
+* `var/` — Arquivos e recursos enviados
+* `public/plugin/` — Arquivos de plugins (somente se você adicionou plugins personalizados)
 
-If you use cloud storage (S3, Azure Blob), ensure your cloud provider's backup/versioning is enabled.
+Se você utiliza armazenamento em nuvem (S3, Azure Blob), certifique-se de que o backup/versão do seu provedor de nuvem está ativado.
 
-### 3. Configuration
+### 3. Configuração
 
-* `.env` — Your environment configuration
-* `config/` — Any custom configuration files
+* `.env` — Sua configuração de ambiente
+* `config/` — Quaisquer arquivos de configuração personalizados
 
-## Backup Schedule
+## Cronograma de Backup
 
-| Component | Recommended frequency |
-|-----------|---------------------|
-| Database | Daily |
-| Files | Daily or weekly (depending on upload activity) |
-| Configuration | After any configuration change |
+| Componente | Frequência recomendada |
+|------------|------------------------|
+| Banco de dados | Diário |
+| Arquivos | Diário ou semanal (dependendo da atividade de upload) |
+| Configuração | Após qualquer alteração de configuração |
 
-## Restoration
+## Restauração
 
-To restore from a backup:
+Para restaurar a partir de um backup:
 
-1. Restore the database from the SQL dump
-2. Restore the file directories
-3. Restore the configuration files
-4. Clear the Symfony cache: `php bin/console cache:clear`
+1. Restaure o banco de dados a partir do dump SQL
+2. Restaure os diretórios de arquivos
+3. Restaure os arquivos de configuração
+4. Limpe o cache do Symfony: `php bin/console cache:clear`
 
-## Tips
+## Dicas
 
-* **Automate backups** — Use cron jobs to run backups automatically
-* **Store off-site** — Keep backup copies on a separate server or cloud storage
-* **Test restoration** — Periodically test that you can restore from a backup successfully
-* **Document your process** — Keep written instructions for the restoration process so anyone on the team can perform it
+* **Automatize backups** — Use tarefas cron para executar backups automaticamente
+* **Armazene fora do local** — Mantenha cópias de backup em um servidor separado ou armazenamento em nuvem
+* **Teste a restauração** — Teste periodicamente se você consegue restaurar a partir de um backup com sucesso
+* **Documente o processo** — Mantenha instruções escritas para o processo de restauração, para que qualquer pessoa da equipe possa realizá-lo

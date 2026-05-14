@@ -1,75 +1,75 @@
-# User Profiling
+# Perfil de Usuário
 
-Chamilo allows you to define custom profile fields (extra fields) to capture additional information about users beyond the standard name, email, and role.
+O Chamilo permite definir campos de perfil personalizados (campos extras) para capturar informações adicionais sobre os usuários além do nome, e-mail e função padrão.
 
-## Extra Profile Fields
+## Campos de Perfil Extras
 
-![The extra profile fields list showing custom fields with name, type, and visibility settings](/.gitbook/assets/admin-extra-fields-list.png)
+![Lista de campos de perfil extras mostrando campos personalizados com nome, tipo e configurações de visibilidade](/.gitbook/assets/admin-extra-fields-list.png)
 
-Extra fields let you store metadata specific to your organization, such as:
+Os campos extras permitem armazenar metadados específicos da sua organização, como:
 
-* Employee ID
-* Department
-* Job title
-* Location/office
-* Phone number
-* Custom identifiers
+* ID de funcionário
+* Departamento
+* Cargo
+* Localização/escritório
+* Número de telefone
+* Identificadores personalizados
 
-## Creating Extra Fields
+## Criando Campos Extras
 
-1. From the administration panel, navigate to **Extra fields** or **Profile fields**
-2. Click **Add**
-3. Configure the field:
-   * **Name** — The field title shown to users
-   * **Description** — Optional description
-   * **Helper text** — To be shown under the field in any form including it
-   * **Field type** — Text, dropdown, date, checkbox, etc.
-   * **Field label** — The internal name of the field, for plugins integration 
-   * **Possible values** — If the field is a selector between those values 
-   * **Default value** — An optional default
-   * **Visible to self** — Whether the field is visible on the user profile by the user itself
-   * **Visible to others** — Whether the field is visible to other users of the platform
-   * **Can change** — Whether the user can change its own field by himself (or whether only the admins can)
-   * **Filter** — If this is a selector-type field, whether to include it as a filter in administrative pages (e.g. to subscribe users to courses or sessions)
-   * **Order** — If you want to manage the display order of the fields, you will have to give a numerical order to each field
-   * **Remove on anonymization** — Important for privacy rules & laws: If the user is anonymized but not deleted, should this field be considered as potential holder of personally identifiable data? 
-4. Save
+1. No painel de administração, navegue até **Campos extras** ou **Campos de perfil**
+2. Clique em **Adicionar**
+3. Configure o campo:
+   * **Nome** — O título do campo exibido aos usuários
+   * **Descrição** — Descrição opcional
+   * **Texto de ajuda** — Para ser exibido abaixo do campo em qualquer formulário que o inclua
+   * **Tipo de campo** — Texto, lista suspensa, data, caixa de seleção, etc.
+   * **Rótulo do campo** — O nome interno do campo, para integração com plugins
+   * **Valores possíveis** — Se o campo for um seletor entre esses valores
+   * **Valor padrão** — Um valor padrão opcional
+   * **Visível para si mesmo** — Se o campo é visível no perfil do usuário pelo próprio usuário
+   * **Visível para outros** — Se o campo é visível para outros usuários da plataforma
+   * **Pode alterar** — Se o usuário pode alterar seu próprio campo por si mesmo (ou se apenas os administradores podem)
+   * **Filtro** — Se este for um campo do tipo seletor, se deve ser incluído como filtro em páginas administrativas (por exemplo, para inscrever usuários em cursos ou sessões)
+   * **Ordem** — Se você deseja gerenciar a ordem de exibição dos campos, deverá atribuir uma ordem numérica a cada campo
+   * **Remover na anonimização** — Importante para regras e leis de privacidade: Se o usuário for anonimizado, mas não excluído, este campo deve ser considerado como potencial detentor de dados pessoalmente identificáveis?
+4. Salvar
 
-## Field Types
+## Tipos de Campo
 
-The extra-field engine supports a broad set of input types. Common ones include:
+O mecanismo de campos extras suporta um amplo conjunto de tipos de entrada. Os mais comuns incluem:
 
-| Type | Description |
+| Tipo | Descrição |
 |------|-------------|
-| **Text** | A single-line text input |
-| **Textarea** | A multi-line text input |
-| **Radio** | A single-choice radio group |
-| **Dropdown / Dropdown multiple** | A list of predefined options (single or multi-select) |
-| **Double select** | Two dependent dropdowns (e.g., country → city) |
-| **Checkbox** | A yes/no toggle |
-| **Date / Date and time** | Date or date+time picker |
-| **Integer** | A numeric input |
-| **Tag** | Multiple free-form tag values |
-| **File** | File upload field |
-| **Video URL** | A URL pointing to a video |
-| **Mobile phone number** | A formatted phone number field |
-| **Timezone** | A timezone picker |
-| **Social profile** | A link to a social network profile |
-| **Divider** | A visual separator inside the form (no value) |
+| **Texto** | Uma entrada de texto de linha única |
+| **Área de texto** | Uma entrada de texto de várias linhas |
+| **Rádio** | Um grupo de rádio de escolha única |
+| **Lista suspensa / Lista suspensa múltipla** | Uma lista de opções predefinidas (seleção única ou múltipla) |
+| **Seleção dupla** | Duas listas suspensas dependentes (por exemplo, país → cidade) |
+| **Caixa de seleção** | Um alternador sim/não |
+| **Data / Data e hora** | Seletor de data ou data+hora |
+| **Inteiro** | Uma entrada numérica |
+| **Tag** | Múltiplos valores de tag de forma livre |
+| **Arquivo** | Campo de upload de arquivo |
+| **URL de vídeo** | Uma URL apontando para um vídeo |
+| **Número de telefone celular** | Um campo de número de telefone formatado |
+| **Fuso horário** | Um seletor de fuso horário |
+| **Perfil social** | Um link para um perfil de rede social |
+| **Divisor** | Um separador visual dentro do formulário (sem valor) |
 
-The exact set of usable types depends on the Chamilo version; the field-type dropdown in the **Extra fields** admin page is the source of truth.
+O conjunto exato de tipos utilizáveis depende da versão do Chamilo; a lista suspensa de tipo de campo na página de administração **Campos extras** é a fonte de referência.
 
-## Using Extra Fields
+## Usando Campos Extras
 
-Extra fields appear:
+Os campos extras aparecem:
 
-* In the user creation (if visible to self) and edit forms
-* On user profile pages (if visible to self)
-* In user imports (you can include extra field values in CSV imports)
-* In exports and reports (filter or group by extra field values)
+* Na criação de usuário (se visível para si mesmo) e formulários de edição
+* Nas páginas de perfil do usuário (se visível para si mesmo)
+* Em importações de usuários (você pode incluir valores de campos extras em importações CSV)
+* Em exportações e relatórios (filtrar ou agrupar por valores de campos extras)
 
-## Tips
+## Dicas
 
-* **Plan before creating** — Define what information you need before creating fields, as changing field types after data has been entered can be problematic
-* **Use dropdowns for consistency** — When a field has a known set of possible values, use a dropdown instead of free text to ensure data consistency
-* **Use for reporting** — Extra fields are useful for filtering reports (e.g., "show all users in Department X who completed Training Y")
+* **Planeje antes de criar** — Defina quais informações você precisa antes de criar campos, pois alterar tipos de campo após a inserção de dados pode ser problemático
+* **Use listas suspensas para consistência** — Quando um campo tem um conjunto conhecido de valores possíveis, use uma lista suspensa em vez de texto livre para garantir a consistência dos dados
+* **Use para relatórios** — Campos extras são úteis para filtrar relatórios (por exemplo, "mostrar todos os usuários do Departamento X que completaram o Treinamento Y")

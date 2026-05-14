@@ -1,5 +1,5 @@
 # Plugins
 
-Plugins extend Chamilo's functionality without modifying the core code. Chamilo 2.0 comes with over 50 plugins that can be activated as needed.
+Os plugins ampliam a funcionalidade do Chamilo sem modificar o código principal. O Chamilo 2.0 vem com mais de 50 plugins que podem ser ativados conforme necessário.
 
-* **[Managing Plugins](managing-plugins.md)** — Install, activate, configure, and deactivate plugins
+* **[Gerenciando Plugins](managing-plugins.md)** — Instalar, ativar, configurar e desativar plugins

@@ -1,47 +1,47 @@
-# Course Categories
+# Categorias de Cursos
 
-Course categories help organize your course catalog, making it easier for learners to find relevant courses.
+As categorias de cursos ajudam a organizar o catálogo de cursos, facilitando aos alunos encontrar cursos relevantes.
 
-## Creating a Category
+## Criando uma Categoria
 
-1. From the administration panel, navigate to **Course categories**
-2. Click **Add category**
-3. Enter:
-   * **Category code** — A short unique identifier
-   * **Category name** — The display name (e.g., "Information Technology", "Management Skills")
-   * **Allow adding courses in this category?** — Whether it allows courses to set this as a category, or it just serves as an intermediate level in a hierarchy 
-   * **Parent category** — (Optional) Place this category under another category to create a hierarchy
-   * **Description** — (Optional)
-   * **Image** — (Optional) Will represent this category, although it almost doesn't show anywhere
-4. Press *Add category*
+1. No painel de administração, navegue até **Categorias de cursos**
+2. Clique em **Adicionar categoria**
+3. Insira:
+   * **Código da categoria** — Um identificador curto e único
+   * **Nome da categoria** — O nome exibido (por exemplo, "Tecnologia da Informação", "Habilidades de Gestão")
+   * **Permitir adicionar cursos nesta categoria?** — Se permite que cursos sejam associados a esta categoria, ou se ela serve apenas como um nível intermediário em uma hierarquia
+   * **Categoria pai** — (Opcional) Coloque esta categoria sob outra categoria para criar uma hierarquia
+   * **Descrição** — (Opcional)
+   * **Imagem** — (Opcional) Representará esta categoria, embora quase não seja exibida em nenhum lugar
+4. Pressione *Adicionar categoria*
 
-Chamilo creates 3 categories by default: *Language skills*, *PC Skills* and *Projects*. These can be renamed, removed or kept, depending on your needs.
+O Chamilo cria 3 categorias por padrão: *Habilidades de idioma*, *Habilidades em PC* e *Projetos*. Estas podem ser renomeadas, removidas ou mantidas, dependendo das suas necessidades.
 
-## Category Hierarchy
+## Hierarquia de Categorias
 
-![The course categories management page showing a nested tree of categories](/.gitbook/assets/admin-course-categories.png)
+![A página de gerenciamento de categorias de cursos mostrando uma árvore aninhada de categorias](/.gitbook/assets/admin-course-categories.png)
 
-Categories can be nested to create a tree structure:
+As categorias podem ser aninhadas para criar uma estrutura em árvore:
 
-* Business
-  * Management
+* Negócios
+  * Gestão
   * Marketing
-  * Finance
-* Technology
-  * Programming
-  * Networking
-  * Cybersecurity
+  * Finanças
+* Tecnologia
+  * Programação
+  * Redes
+  * Segurança Cibernética
 
-Learners browsing the course catalog can navigate through this hierarchy to find courses.
+Os alunos que navegam pelo catálogo de cursos podem explorar essa hierarquia para encontrar cursos.
 
-## Managing Categories
+## Gerenciando Categorias
 
-* **Edit** — Change the category name, code, or parent
-* **Move** — Change the position of a category in the list
-* **Delete** — Remove a category. Courses in a deleted category are moved to "uncategorized."
+* **Editar** — Alterar o nome da categoria, código ou categoria pai
+* **Mover** — Alterar a posição de uma categoria na lista
+* **Excluir** — Remover uma categoria. Cursos em uma categoria excluída são movidos para "sem categoria".
 
-## Tips
+## Dicas
 
-* **Keep it simple** — Use broad categories that learners can understand at a glance
-* **Limit depth** — Avoid deeply nested categories. Two or three levels are usually sufficient.
-* **Assign categories during course creation** — Encourage teachers to select a category when creating courses, so the catalog stays organized
+* **Mantenha simples** — Use categorias amplas que os alunos possam entender rapidamente
+* **Limite a profundidade** — Evite categorias muito aninhadas. Dois ou três níveis geralmente são suficientes.
+* **Atribua categorias durante a criação do curso** — Incentive os professores a selecionar uma categoria ao criar cursos, para que o catálogo permaneça organizado

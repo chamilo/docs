@@ -1,66 +1,66 @@
-# Attendance
+# Presença
 
-The attendance tool lets you track learner presence for scheduled class sessions, whether in-person or online.
+A ferramenta de presença permite que você acompanhe a participação dos alunos em sessões de aula agendadas, seja presencialmente ou online.
 
-## Creating an Attendance Sheet
+## Criando uma Folha de Presença
 
-1. Open the **Attendance** tool from the course homepage
-2. Click **Add attendance** to create an attendance sheet
-3. Enter a **Title** for the attendance sheet (e.g., "Week 1 - Introduction")
-4. Enter a **Description** (this is mostly for your use - learners will not see the description)
-5. Save
+1. Abra a ferramenta **Presença** na página inicial do curso
+2. Clique em **Adicionar presença** para criar uma folha de presença
+3. Insira um **Título** para a folha de presença (por exemplo, "Semana 1 - Introdução")
+4. Insira uma **Descrição** (isso é principalmente para seu uso - os alunos não verão a descrição)
+5. Salve
 
-### Advanced settings
+### Configurações Avançadas
 
-1. **Require unique presence** allows you to consider a learner as fully present if he/she participated even to only one date of the attendance sheet
-2. **Gradebook options** lets you decide to qualify the attendance sheet in the assessement tool (gradebook).
+1. **Exigir presença única** permite que você considere um aluno como totalmente presente se ele participou de pelo menos uma data da folha de presença
+2. **Opções de caderno de notas** permite que você decida qualificar a folha de presença na ferramenta de avaliação (caderno de notas).
 
-## Adding dates
+## Adicionando Datas
 
-Each attendance sheet contains one or more dates (sessions) where you record presence:
+Cada folha de presença contém uma ou mais datas (sessões) nas quais você registra a presença:
 
-1. Open an attendance sheet or continue with the creation process
-2. Click **Add a date** <img src="/.gitbook/assets/icons/mdi-calendar-plus.svg" alt="Add date" data-size="line">
-3. Select the date and time
-4. Optionally, check **Repeat date** to choose a repetition logic
-5. Give a **Duration** in minutes for the event (defaults to 60 minutes)
-6. Optionally, select a **Group** if this attendance date only applies to one group of learners
-7. Save
+1. Abra uma folha de presença ou continue com o processo de criação
+2. Clique em **Adicionar uma data** <img src="/.gitbook/assets/icons/mdi-calendar-plus.svg" alt="Adicionar data" data-size="line">
+3. Selecione a data e o horário
+4. Opcionalmente, marque **Repetir data** para escolher uma lógica de repetição
+5. Defina uma **Duração** em minutos para o evento (o padrão é 60 minutos)
+6. Opcionalmente, selecione um **Grupo** se esta data de presença se aplicar apenas a um grupo de alunos
+7. Salve
 
-You can add multiple dates to the same attendance sheet (e.g., all sessions for a month).
+Você pode adicionar várias datas à mesma folha de presença (por exemplo, todas as sessões de um mês).
 
-## Recording Attendance
+## Registrando a Presença
 
-For each date, mark each learner as:
+Para cada data, marque cada aluno como:
 
-* **Present** — The learner attended (default value for all learners)
-* **Absent** — The learner did not attend
+* **Presente** — O aluno compareceu (valor padrão para todos os alunos)
+* **Ausente** — O aluno não compareceu
 
-Click on the status cell next to each learner's name to toggle between present and absent.
+Clique na célula de status ao lado do nome de cada aluno para alternar entre presente e ausente.
 
-By default, all learners are marked present, as we consider that chances are you have more people present than absent.
+Por padrão, todos os alunos são marcados como presentes, pois consideramos que é mais provável que haja mais pessoas presentes do que ausentes.
 
-Note: Admins can modify the portal configuration to allow you to choose more extended attendance types (late, absent with justification, etc), which can better reflect your procedures. In this case, just clicking the presence input will toggle between all the presence types.
+Nota: Os administradores podem modificar a configuração do portal para permitir que você escolha tipos de presença mais extensos (atrasado, ausente com justificativa, etc.), o que pode refletir melhor seus procedimentos. Nesse caso, basta clicar na entrada de presença para alternar entre todos os tipos de presença.
 
-## Viewing Attendance Reports
+## Visualizando Relatórios de Presença
 
-![The attendance sheet showing a summary table with learners, dates, and presence indicators](/.gitbook/assets/attendance-sheet.png)
+![A folha de presença mostrando uma tabela de resumo com alunos, datas e indicadores de presença](/.gitbook/assets/attendance-sheet.png)
 
-The attendance tool shows:
+A ferramenta de presença exibe:
 
-* A summary table with all learners and all dates
-* Each learner's attendance percentage (present sessions / total sessions)
-* Color-coded indicators for easy scanning
+* Uma tabela de resumo com todos os alunos e todas as datas
+* A porcentagem de presença de cada aluno (sessões presentes / total de sessões)
+* Indicadores codificados por cores para facilitar a visualização
 
-## Extra
+## Extras
 
-Attendances have a few extended features that are not visible straight away:
-* **Signatures** can be enabled so that learners can sign their attendance in-class through a tablet handled by the teacher
-* **Comments** can be added by the teacher on each student attendance
-* **PDF reports** can be extracted to comply with regulation
+As presenças possuem algumas funcionalidades adicionais que não são visíveis imediatamente:
+* **Assinaturas** podem ser habilitadas para que os alunos possam assinar sua presença em sala de aula por meio de um tablet gerenciado pelo professor
+* **Comentários** podem ser adicionados pelo professor sobre a presença de cada aluno
+* **Relatórios em PDF** podem ser extraídos para cumprir regulamentações
 
-## Tips
+## Dicas
 
-* **Link to course progress** — Use attendance data alongside the Course Progress tool to correlate presence with topic coverage
-* **Export data** — Export the attendance sheet for administrative records
-* **Set expectations** — If attendance is mandatory, communicate the policy clearly in your course introduction or announcements
+* **Vincular ao progresso do curso** — Use os dados de presença junto com a ferramenta de Progresso do Curso para correlacionar presença com a cobertura de tópicos
+* **Exportar dados** — Exporte a folha de presença para registros administrativos
+* **Definir expectativas** — Se a presença for obrigatória, comunique a política claramente na introdução do curso ou nos anúncios

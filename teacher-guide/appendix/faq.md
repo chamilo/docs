@@ -1,57 +1,57 @@
 # FAQ
 
-## General Questions
+## Perguntas Gerais
 
-**How do I access my course?**
+**Como faço para acessar meu curso?**
 
-Click **My courses** in the sidebar, then click on the course you want to open. If your course is part of a session, click **My sessions** first, then select the session and course.
+Clique em **Meus cursos** na barra lateral e, em seguida, clique no curso que deseja abrir. Se o seu curso fizer parte de uma sessão, clique primeiro em **Minhas sessões**, depois selecione a sessão e o curso.
 
-**Can my learners access the course from a mobile phone?**
+**Meus alunos podem acessar o curso pelo celular?**
 
-Yes. Chamilo 2.0 has a responsive interface that adapts to all screen sizes. Learners can use any modern web browser on a phone, tablet, or computer.
+Sim. O Chamilo 2.0 possui uma interface responsiva que se adapta a todos os tamanhos de tela. Os alunos podem usar qualquer navegador web moderno em um telefone, tablet ou computador.
 
-**What browsers are supported?**
+**Quais navegadores são suportados?**
 
-Chamilo 2.0 works with all major modern browsers: Chrome, Firefox, Safari, and Edge. For the best experience, use the latest version of your browser.
+O Chamilo 2.0 funciona com todos os principais navegadores modernos: Chrome, Firefox, Safari e Edge. Para a melhor experiência, use a versão mais recente do seu navegador.
 
-## Content and Courses
+## Conteúdo e Cursos
 
-**How do I create a backup of my course?**
+**Como faço um backup do meu curso?**
 
-Go to the **Maintenance** tool in your course (accessible from the settings menu on the course homepage). You will find options to export your course content.
+Acesse a ferramenta **Manutenção** no seu curso (disponível no menu de configurações na página inicial do curso). Lá você encontrará opções para exportar o conteúdo do seu curso.
 
-**Can I copy content from one course to another?**
+**Posso copiar conteúdo de um curso para outro?**
 
-Yes. Use the course import/export features in the Maintenance tool to copy content between courses. You will need to create an empty *destination* course first.
+Sim. Use os recursos de importação/exportação de cursos na ferramenta de Manutenção para copiar conteúdo entre cursos. Você precisará criar um curso de *destino* vazio primeiro.
 
-**What file formats can I upload?**
+**Quais formatos de arquivo posso fazer upload?**
 
-Chamilo supports most common file formats: PDF, Word documents, PowerPoint presentations, images (PNG, JPG, SVG, GIF), audio files, video files, and many more. Your administrator may restrict certain file types for security reasons.
+O Chamilo suporta a maioria dos formatos de arquivo comuns: PDF, documentos do Word, apresentações do PowerPoint, imagens (PNG, JPG, SVG, GIF), arquivos de áudio, arquivos de vídeo e muitos outros. Seu administrador pode restringir certos tipos de arquivo por motivos de segurança.
 
-**What is the maximum file upload size?**
+**Qual é o tamanho máximo para upload de arquivos?**
 
-This depends on your server configuration. Your administrator sets the upload limit. If you encounter a limit, contact your administrator.
+Isso depende da configuração do seu servidor. O limite de upload é definido pelo seu administrador. Se você encontrar um limite, entre em contato com o administrador.
 
-## Assessment
+## Avaliação
 
-**Can exercises be graded automatically?**
+**Os exercícios podem ser corrigidos automaticamente?**
 
-Yes. Most question types (multiple choice, true/false, fill in the blanks, matching) are graded automatically. Open-ended questions require manual grading, or you can use AI-assisted grading if configured.
+Sim. A maioria dos tipos de perguntas (múltipla escolha, verdadeiro/falso, preencher lacunas, correspondência) é corrigida automaticamente. Perguntas abertas exigem correção manual, ou você pode usar a correção assistida por IA, se configurada.
 
-**Can I set a time limit on exercises?**
+**Posso definir um limite de tempo para os exercícios?**
 
-Yes. When creating or editing an exercise, you can set a time limit in minutes. Learners will see a countdown timer.
+Sim. Ao criar ou editar um exercício, você pode definir um limite de tempo em minutos. Os alunos verão um cronômetro regressivo.
 
-**Can learners retake an exercise?**
+**Os alunos podem refazer um exercício?**
 
-Yes. You control the number of allowed attempts in the exercise settings. You can allow unlimited attempts or set a specific maximum, but this maximum applies to all users in your course (you can *free* new attempts by deleting previous ones, but this is not recommended as it results in unequal chances between users and it is registered for audit at the platform level).
+Sim. Você controla o número de tentativas permitidas nas configurações do exercício. Pode permitir tentativas ilimitadas ou definir um máximo específico, mas esse máximo se aplica a todos os usuários do seu curso (você pode *liberar* novas tentativas excluindo as anteriores, mas isso não é recomendado, pois resulta em chances desiguais entre os usuários e é registrado para auditoria no nível da plataforma).
 
-## Technical Issues
+## Problemas Técnicos
 
-**I cannot see a tool on my course homepage. Where is it?**
+**Não consigo ver uma ferramenta na página inicial do meu curso. Onde ela está?**
 
-Some tools may be hidden. As a teacher, you can show hidden tools by looking for tools with a crossed-out eye icon. If you cannot find a specific tool at all, your platform administrator may have disabled it at the platform level.
+Algumas ferramentas podem estar ocultas. Como professor, você pode exibir ferramentas ocultas procurando por ferramentas com um ícone de olho riscado. Se não conseguir encontrar uma ferramenta específica, o administrador da plataforma pode tê-la desativado no nível da plataforma.
 
-**My learners say they cannot access the course.**
+**Meus alunos dizem que não conseguem acessar o curso.**
 
-Check the course visibility settings (Course Settings > Course Visibility). If set to "Registered only," learners must be explicitly enrolled. Also verify they have an active account on the platform.
+Verifique as configurações de visibilidade do curso (Configurações do Curso > Visibilidade do Curso). Se estiver definido como "Somente registrados", os alunos devem estar explicitamente matriculados. Também confirme se eles possuem uma conta ativa na plataforma.

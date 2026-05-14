@@ -1,35 +1,35 @@
 # Webhooks
 
-Chamilo's webhook support is currently scoped to the **BigBlueButton (BBB) plugin**. Rather than sending webhooks to external systems, Chamilo acts as a webhook *receiver*: it exposes endpoints that BigBlueButton calls when room events occur, and uses those events to build per-participant activity metrics.
+O suporte a webhooks do Chamilo está atualmente limitado ao **plugin BigBlueButton (BBB)**. Em vez de enviar webhooks para sistemas externos, o Chamilo atua como um *receptor* de webhooks: ele expõe endpoints que o BigBlueButton chama quando ocorrem eventos em salas, e utiliza esses eventos para construir métricas de atividade por participante.
 
-## How It Works
+## Como Funciona
 
-When a BBB meeting takes place, the BBB server pushes real-time event notifications to a signed callback URL on your Chamilo installation. Chamilo processes each event and stores aggregated metrics (talk time, camera time, messages, reactions, hand raises) in the `conference_activity` database table.
+Quando uma reunião BBB ocorre, o servidor BBB envia notificações de eventos em tempo real para uma URL de callback assinada na sua instalação do Chamilo. O Chamilo processa cada evento e armazena métricas agregadas (tempo de fala, tempo de câmera, mensagens, reações, mãos levantadas) na tabela de banco de dados `conference_activity`.
 
 ```
-BigBlueButton server
-        │  POST (signed)
+Servidor BigBlueButton
+        │  POST (assinado)
         ▼
-Chamilo webhook endpoint
+Endpoint de webhook do Chamilo
         │
         ▼
-conference_activity (metrics JSON)
+conference_activity (JSON de métricas)
         │
         ▼
-Webhook dashboard (/plugin/Bbb/webhook_dashboard.php)
+Painel de webhooks (/plugin/Bbb/webhook_dashboard.php)
 ```
 
 ## Endpoints
 
-### Legacy PHP endpoint
+### Endpoint PHP legado
 
 ```
 POST /plugin/Bbb/webhook.php?au={accessUrlId}&mid={meetingId}&ts={timestamp}&sig={hmac}
 ```
 
-Handles all BBB room events. Validates the HMAC signature, then upserts a `ConferenceActivity` row and updates the metrics JSON field.
+Gerencia todos os eventos de salas BBB. Valida a assinatura HMAC, depois insere ou atualiza uma linha `ConferenceActivity` e atualiza o campo JSON de métricas.
 
-### Modern Symfony endpoint
+### Endpoint moderno do Symfony
 
 ```
 POST /api/videoconference/callback
@@ -38,45 +38,45 @@ Headers:
   X-Chamilo-Signature: <hmac-sha256>
 ```
 
-Defined via API Platform on the `ConferenceActivity` entity. Requires the signature headers for activity recording; requests without a valid signature are accepted but no activity row is written.
+Definido via API Platform na entidade `ConferenceActivity`. Requer os cabeçalhos de assinatura para registro de atividade; solicitações sem uma assinatura válida são aceitas, mas nenhuma linha de atividade é gravada.
 
-## Configuration (BBB Plugin)
+## Configuração (Plugin BBB)
 
-In **Administration → Plugins → BigBlueButton**, the following webhook settings are available:
+Em **Administração → Plugins → BigBlueButton**, as seguintes configurações de webhook estão disponíveis:
 
-| Setting | Values | Description |
+| Configuração | Valores | Descrição |
 |---|---|---|
-| `webhooks_enabled` | `true` / `false` | Enable or disable webhook registration |
-| `webhooks_scope` | `per_meeting` / `global` | Register one hook per meeting or a single global hook for all meetings |
-| `webhooks_hash_algo` | `sha256` / `sha1` | HMAC algorithm for signature verification |
-| `webhooks_event_filter` | comma-separated string | Optional list of BBB event names to receive (empty = all events) |
+| `webhooks_enabled` | `true` / `false` | Ativar ou desativar o registro de webhooks |
+| `webhooks_scope` | `per_meeting` / `global` | Registrar um hook por reunião ou um único hook global para todas as reuniões |
+| `webhooks_hash_algo` | `sha256` / `sha1` | Algoritmo HMAC para verificação de assinatura |
+| `webhooks_event_filter` | string separada por vírgulas | Lista opcional de nomes de eventos BBB a serem recebidos (vazio = todos os eventos) |
 
-When a meeting is created and webhooks are enabled, Chamilo calls the BBB `hooks/create` API to register the callback URL. The URL includes a time-bound HMAC signature.
+Quando uma reunião é criada e os webhooks estão ativados, o Chamilo chama a API `hooks/create` do BBB para registrar a URL de callback. A URL inclui uma assinatura HMAC limitada por tempo.
 
-## Signature Validation
+## Validação de Assinatura
 
-The legacy endpoint uses query-string parameters:
+O endpoint legado utiliza parâmetros de query-string:
 
 ```
 sig = HMAC-{algo}("{accessUrlId}|{meetingId}|{timestamp}", salt)
 ```
 
-- The `salt` is the BBB plugin's configured salt value.
-- Requests older than **15 minutes** are rejected to limit replay attacks.
+- O `salt` é o valor de salt configurado no plugin BBB.
+- Solicitações com mais de **15 minutos** são rejeitadas para limitar ataques de repetição.
 
-The modern endpoint uses headers:
+O endpoint moderno utiliza cabeçalhos:
 
 ```
 sig = HMAC-SHA256("{timestamp}\n{rawBody}", kernelSecret)
 ```
 
-- Requests older than **5 minutes** are rejected.
+- Solicitações com mais de **5 minutos** são rejeitadas.
 
-## Example: BigBlueButton Webhook Event
+## Exemplo: Evento de Webhook do BigBlueButton
 
-BBB posts a JSON body containing an array of events. Each event has an `data.id` (event name) and a `data.attributes` object.
+O BBB envia um corpo JSON contendo um array de eventos. Cada evento possui um `data.id` (nome do evento) e um objeto `data.attributes`.
 
-**Request from BBB:**
+**Solicitação do BBB:**
 
 ```http
 POST /plugin/Bbb/webhook.php?au=1&mid=chamilo-meeting-abc123&ts=1715520000&sig=e3b0c44298fc
@@ -101,32 +101,33 @@ Content-Type: application/json
 }
 ```
 
-**What Chamilo does:**
+**O que o Chamilo faz:**
 
-1. Validates the HMAC signature and timestamp.
-2. Looks up the `ConferenceMeeting` by `remote_id`.
-3. Looks up (or creates) an open `ConferenceActivity` row for that meeting + user.
-4. Records `temp.talk_started_at = 1715520123` in the metrics JSON.
+1. Valida a assinatura HMAC e o timestamp.
+2. Pesquisa o `ConferenceMeeting` por `remote_id`.
+3. Pesquisa (ou cria) uma linha aberta de `ConferenceActivity` para essa reunião + usuário.
+4. Registra `temp.talk_started_at = 1715520123` no JSON de métricas.
 
-When the matching `user-talking-stopped` event arrives, Chamilo computes the elapsed seconds and adds them to `totals.talk_seconds`.
+Quando o evento correspondente `user-talking-stopped` chega, o Chamilo calcula os segundos decorridos e os adiciona a `totals.talk_seconds`.
 
-## Tracked Events and Metrics
+## Eventos Rastreados e Métricas
 
-| BBB event(s) | Metric updated |
+| Evento(s) BBB | Métrica atualizada |
 |---|---|
-| `user-joined` / `participantjoined` | Activity row created |
-| `user-talking-started` / `uservoiceactivated` | Timer started for `totals.talk_seconds` |
-| `user-talking-stopped` / `uservoicedeactivated` | `totals.talk_seconds` incremented |
-| `camera-share-started` / `webcamsharestarted` | Timer started for `totals.camera_seconds` |
-| `camera-share-stopped` / `webcamsharestopped` | `totals.camera_seconds` incremented |
-| `chat-message-posted` / `publicchatmessageposted` | `counts.messages` incremented |
-| `user-reaction-changed` / `useremojichanged` | `counts.reactions` + per-emoji breakdown |
-| `user-hand-raised` / `userraisedhand` | `counts.hands` incremented |
-| `user-left` / `participantleft` | Open timers flushed, activity row closed |
+| `user-joined` / `participantjoined` | Linha de atividade criada |
+| `user-talking-started` / `uservoiceactivated` | Temporizador iniciado para `totals.talk_seconds` |
+| `user-talking-stopped` / `uservoicedeactivated` | `totals.talk_seconds` incrementado |
+| `camera-share-started` / `webcamsharestarted` | Temporizador iniciado para `totals.camera_seconds` |
+| `camera-share-stopped` / `webcamsharestopped` | `totals.camera_seconds` incrementado |
+| `chat-message-posted` / `publicchatmessageposted` | `counts.messages` incrementado |
+| `user-reaction-changed` / `useremojichanged` | `counts.reactions` + detalhamento por emoji |
+| `user-hand-raised` / `userraisedhand` | `counts.hands` incrementado |
+| `user-left` / `participantleft` | Temporizadores abertos finalizados, linha de atividade fechada |
 
-## Metrics Data Structure
+---
+## Estrutura de Dados de Métricas
 
-Metrics are stored as a JSON column on `ConferenceActivity`:
+As métricas são armazenadas como uma coluna JSON em `ConferenceActivity`:
 
 ```json
 {
@@ -150,26 +151,26 @@ Metrics are stored as a JSON column on `ConferenceActivity`:
 }
 ```
 
-The `temp` fields hold in-progress timer start timestamps; they are cleared when the corresponding stop event arrives or when the participant leaves.
+Os campos `temp` armazenam carimbos de tempo de início de temporizadores em andamento; eles são limpos quando o evento de parada correspondente chega ou quando o participante sai.
 
-## Webhook Dashboard
+## Painel de Controle de Webhook
 
-An admin dashboard is available at `/plugin/Bbb/webhook_dashboard.php`. It shows real-time and historical metrics per participant for a given meeting: connection time, talk time, camera time, message count, reaction count, and hand raises. Data can be exported as CSV.
+Um painel de controle administrativo está disponível em `/plugin/Bbb/webhook_dashboard.php`. Ele exibe métricas em tempo real e históricas por participante para uma determinada reunião: tempo de conexão, tempo de fala, tempo de câmera, contagem de mensagens, contagem de reações e levantadas de mão. Os dados podem ser exportados como CSV.
 
-## Registering and Cleaning Up Hooks
+## Registro e Limpeza de Hooks
 
-The `BbbLib` class provides methods for managing hook registration on the BBB server:
+A classe `BbbLib` fornece métodos para gerenciar o registro de hooks no servidor BBB:
 
-| Method | Description |
+| Método | Descrição |
 |---|---|
-| `ensureHookForMeeting($remoteId)` | Register (or confirm) a per-meeting hook after a user joins |
-| `ensureGlobalWebhook()` | Register a single global hook covering all meetings |
-| `cleanupWebhooks($meetingId)` | Delete Chamilo-registered hooks from the BBB server |
-| `BbbPlugin::checkWebhooksHealth()` | Validate that the BBB `hooks/list` endpoint is reachable |
+| `ensureHookForMeeting($remoteId)` | Registra (ou confirma) um hook por reunião após um usuário ingressar |
+| `ensureGlobalWebhook()` | Registra um único hook global que cobre todas as reuniões |
+| `cleanupWebhooks($meetingId)` | Exclui hooks registrados pelo Chamilo do servidor BBB |
+| `BbbPlugin::checkWebhooksHealth()` | Valida se o endpoint `hooks/list` do BBB está acessível |
 
-## Extending to Other Event Sources
+## Extensão para Outras Fontes de Eventos
 
-There is currently no generic outbound webhook system in Chamilo (i.e., no built-in way to POST to an external URL when a user enrolls or completes a course). If you need that behaviour, options include:
+Atualmente, não há um sistema genérico de webhook de saída no Chamilo (ou seja, não há uma maneira integrada de fazer POST para uma URL externa quando um usuário se inscreve ou conclui um curso). Se você precisar desse comportamento, as opções incluem:
 
-- Writing a plugin that listens to Symfony events and dispatches HTTP calls (see [Plugins](../plugins/README.md) and [Event System](../events.md)).
-- Using the REST API to poll for state changes from an external system.
+- Escrever um plugin que escute eventos do Symfony e dispare chamadas HTTP (consulte [Plugins](../plugins/README.md) e [Sistema de Eventos](../events.md)).
+- Usar a API REST para sondar alterações de estado a partir de um sistema externo.

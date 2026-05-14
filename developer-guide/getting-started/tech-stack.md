@@ -1,75 +1,75 @@
-# Tech Stack
+# Pilha Tecnológica
 
-The following describes the tech stack for Chamilo 2.0. All versions stated here are likely to change as new versions of Chamilo are released. Version numbers use [Composer's versions notation](https://getcomposer.org/doc/articles/versions.md) which set rules to allow for some flexibility around versions.
+A seguir, descreve-se a pilha tecnológica do Chamilo 2.0. Todas as versões mencionadas aqui estão sujeitas a alterações à medida que novas versões do Chamilo são lançadas. Os números de versão utilizam a [notação de versões do Composer](https://getcomposer.org/doc/articles/versions.md), que estabelece regras para permitir certa flexibilidade em relação às versões.
 
-Including hierarchical dependencies, Chamilo uses several hundred Free Software libraries. This list only includes the ones we use the most and that will likely affect the work of a Chamilo developer every week or so. We are greatful to all other Free Software developers out there making ou work easier, more maintainable and more secure.
+Incluindo dependências hierárquicas, o Chamilo utiliza várias centenas de bibliotecas de Software Livre. Esta lista inclui apenas aquelas que usamos com mais frequência e que provavelmente afetarão o trabalho de um desenvolvedor do Chamilo semanalmente. Somos gratos a todos os outros desenvolvedores de Software Livre que tornam nosso trabalho mais fácil, sustentável e seguro.
 
 ## Backend
 
-| Technology | Version | Purpose |
+| Tecnologia | Versão | Finalidade |
 |-----------|---------|---------|
-| PHP | 8.2+ | Runtime |
+| PHP | 8.2+ | Ambiente de execução |
 | Symfony | 6.4.* | Framework |
-| Doctrine ORM | ^2.16 | Database abstraction |
-| API Platform | ^3.0 | REST API framework |
-| oneup/flysystem-bundle | ~4.0 | File storage abstraction |
-| vich/uploader-bundle | ^2.8 | File upload handling |
-| stof/doctrine-extensions-bundle | ^1.12 | Doctrine extensions (tree, timestampable, sluggable) |
-| lexik/jwt-authentication-bundle | ^2.20 | JWT authentication |
-| nelmio/cors-bundle | ^2.2 | CORS headers |
-| mpdf/mpdf | ~8.0 | PDF generation |
-| phpoffice/phpspreadsheet | ~1.16 | Excel/spreadsheet handling |
-| firebase/php-jwt | ^7.0 | JWT token handling |
-| bigbluebutton/bigbluebutton-api-php | ^2.0 | BigBlueButton integration |
-| packbackbooks/lti-1p3-tool | ^6.4 | LTI 1.3 implementation |
+| Doctrine ORM | ^2.16 | Abstração de banco de dados |
+| API Platform | ^3.0 | Framework para API REST |
+| oneup/flysystem-bundle | ~4.0 | Abstração de armazenamento de arquivos |
+| vich/uploader-bundle | ^2.8 | Gerenciamento de upload de arquivos |
+| stof/doctrine-extensions-bundle | ^1.12 | Extensões do Doctrine (árvore, timestampable, sluggable) |
+| lexik/jwt-authentication-bundle | ^2.20 | Autenticação JWT |
+| nelmio/cors-bundle | ^2.2 | Cabeçalhos CORS |
+| mpdf/mpdf | ~8.0 | Geração de PDF |
+| phpoffice/phpspreadsheet | ~1.16 | Manipulação de planilhas Excel |
+| firebase/php-jwt | ^7.0 | Manipulação de tokens JWT |
+| bigbluebutton/bigbluebutton-api-php | ^2.0 | Integração com BigBlueButton |
+| packbackbooks/lti-1p3-tool | ^6.4 | Implementação de LTI 1.3 |
 
 ## Frontend
 
-| Technology | Version | Purpose |
+| Tecnologia | Versão | Finalidade |
 |-----------|---------|---------|
-| Vue.js | ^3.5 | UI framework |
-| PrimeVue | ^4.5 | Component library |
-| Pinia | ^3.0 | State management |
-| Vue Router | 5.0 | Client-side routing |
-| Vue I18n | 11.3 | Internationalization |
-| Axios | ^1.13 | HTTP client |
-| TinyMCE | ^5.10 | Rich text editor |
-| Chart.js | ^4.5 | Charts and visualizations |
-| FullCalendar | ^6.1 | Calendar component |
-| Uppy | ^4.5 | File upload widget |
-| PrimeFlex | ^4.0 | CSS utility framework |
+| Vue.js | ^3.5 | Framework de interface do usuário |
+| PrimeVue | ^4.5 | Biblioteca de componentes |
+| Pinia | ^3.0 | Gerenciamento de estado |
+| Vue Router | 5.0 | Roteamento do lado do cliente |
+| Vue I18n | 11.3 | Internacionalização |
+| Axios | ^1.13 | Cliente HTTP |
+| TinyMCE | ^5.10 | Editor de texto rico |
+| Chart.js | ^4.5 | Gráficos e visualizações |
+| FullCalendar | ^6.1 | Componente de calendário |
+| Uppy | ^4.5 | Widget de upload de arquivos |
+| PrimeFlex | ^4.0 | Framework de utilitários CSS |
 
-## Build Tools
+## Ferramentas de Build
 
-| Technology | Version | Purpose |
+| Tecnologia | Versão | Finalidade |
 |-----------|---------|---------|
-| Composer | ^2.8 | PHP dependency manager |
-| Webpack | ^5.105 | Module bundler |
-| Symfony Webpack Encore | ^5.3 | Webpack wrapper for Symfony |
-| Tailwind CSS | ^3.4 | Utility-first CSS framework |
-| Sass | ^1.98 | CSS preprocessor |
-| TypeScript | ^5.9 | Type-safe JavaScript |
+| Composer | ^2.8 | Gerenciador de dependências PHP |
+| Webpack | ^5.105 | Empacotador de módulos |
+| Symfony Webpack Encore | ^5.3 | Wrapper do Webpack para Symfony |
+| Tailwind CSS | ^3.4 | Framework CSS utilitário |
+| Sass | ^1.98 | Pré-processador CSS |
+| TypeScript | ^5.9 | JavaScript com tipagem segura |
 | ESLint | ^10.0 | Linting |
-| Prettier | 3.8 | Code formatting |
+| Prettier | 3.8 | Formatação de código |
 
-## Icons
+## Ícones
 
-| Library | Version | Usage |
+| Biblioteca | Versão | Uso |
 |---------|---------|-------|
-| @mdi/font | 7.4.47 | Material Design Icons (CSS classes `mdi mdi-*`) |
+| @mdi/font | 7.4.47 | Material Design Icons (classes CSS `mdi mdi-*`) |
 
-## Database
+## Banco de Dados
 
-Chamilo supports:
+O Chamilo suporta:
 
 * MySQL 5.7+
 * MariaDB 10.11.2+
 
-## Cloud Storage
+## Armazenamento em Nuvem
 
-Via Flysystem adapters:
+Via adaptadores Flysystem:
 
-* Local filesystem (default)
+* Sistema de arquivos local (padrão)
 * AWS S3 (`league/flysystem-aws-s3-v3`)
 * Azure Blob Storage (`league/flysystem-azure-blob-storage`)
 * Google Cloud Storage (`league/flysystem-google-cloud-storage`)
