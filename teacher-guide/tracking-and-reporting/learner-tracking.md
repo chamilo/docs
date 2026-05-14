@@ -1,46 +1,46 @@
-# Learner Tracking
+# تتبع المتعلمين
 
-Chamilo tracks learner activity throughout the platform, giving you detailed insights into how each learner is engaging with your course.
+يتابع Chamilo نشاط المتعلمين عبر المنصة بأكملها، مما يمنحك رؤى مفصلة حول كيفية تفاعل كل متعلم مع مساقك.
 
-## Accessing Learner Tracking
+## الوصول إلى تتبع المتعلمين
 
-Open the **Tracking** <img src="/.gitbook/assets/icons/mdi-chart-box.svg" alt="Tracking" data-size="line"> tool from the course homepage, or click **Reporting** in the sidebar.
+افتح أداة **Tracking** <img src="/.gitbook/assets/icons/mdi-chart-box.svg" alt="تتبع" data-size="line"> من الصفحة الرئيسية للمساق، أو انقر على **Reporting** في الشريط الجانبي.
 
-## What Is Tracked
+## ما الذي يتم تتبعه
 
-For each learner, Chamilo records (in the main per-learner tracking view):
+بالنسبة لكل متعلم، يسجل Chamilo (في عرض التتبع الرئيسي لكل متعلم):
 
-* **Login activity** — When the learner last logged in and their total login time
-* **Time spent in the course** — Total time the learner has spent in your course
-* **First and last access** — When the learner first entered and last visited the course
-* **Course progress** — Aggregate progress percentage across the course
-* **Exercise results** — Scores and attempts for each exercise
-* **Learning path progress** — Completion percentage and time spent on each learning path
-* **Assignment submissions** — Which assignments have been submitted and graded
+* **نشاط تسجيل الدخول** — متى سجل المتعلم الدخول آخر مرة وإجمالي وقت تسجيل الدخول
+* **الوقت المستغرق في المساق** — إجمالي الوقت الذي قضاه المتعلم في مساقك
+* **أول وآخر وصول** — متى دخل المتعلم المساق لأول مرة وآخر زيارة له
+* **تقدم المساق** — النسبة المئوية للتقدم الإجمالي عبر المساق
+* **نتائج التمارين** — الدرجات والمحاولات لكل تمرين
+* **تقدم مسار التعلم** — نسبة الإكمال والوقت المستغرق في كل مسار تعلم
+* **تقديم الواجبات** — الواجبات التي تم تقديمها وتصحيحها
 
-Per-resource access details (which specific documents or pages a learner opened) and tool-level activity are available through the dedicated **Resources**, **Tools**, and **Events** views in the tracking section, rather than in the main learner row.
+تفاصيل الوصول لكل مورد (أي الوثائق أو الصفحات المحددة التي فتحها المتعلم) ونشاط الأدوات على مستوى الأداة متاحة من خلال عروض **Resources** و**Tools** و**Events** المخصصة في قسم التتبع، وليس في صف المتعلم الرئيسي.
 
-## Viewing Individual Learner Data
+## عرض بيانات المتعلم الفردي
 
-![Detailed learner tracking view showing progress, scores, and activity timeline](/.gitbook/assets/tracking-learner-detail.png)
+![عرض مفصل لتتبع المتعلم يظهر التقدم والدرجات وجدول زمني للنشاط](/.gitbook/assets/tracking-learner-detail.png)
 
-Click on a learner's name to see their detailed activity report. This shows:
+انقر على اسم المتعلم لرؤية تقرير نشاطه المفصل. يظهر هذا:
 
-* A summary of their overall engagement
-* Progress through each learning path
-* Exercise scores and attempt history
-* Assignment submission status
+* ملخص لتفاعله العام
+* التقدم عبر كل مسار تعلم
+* درجات التمارين وتاريخ المحاولات
+* حالة تقديم الواجبات
 
-## Tracking Views
+## عروض التتبع
 
-You can view tracking data from different perspectives:
+يمكنك عرض بيانات التتبع من وجهات نظر مختلفة:
 
-* **By learner** — Select a learner to see all their activity
-* **By resource** — Select a document, exercise, or learning path to see how all learners interacted with it
-* **By tool** — See aggregate usage for each course tool
+* **حسب المتعلم** — اختر متعلماً لرؤية جميع أنشطته
+* **حسب المورد** — اختر وثيقة أو تمريناً أو مسار تعلم لرؤية كيفية تفاعل جميع المتعلمين معه
+* **حسب الأداة** — شاهد الاستخدام الإجمالي لكل أداة مساق
 
-## Tips
+## نصائح
 
-* **Identify struggling learners** — Look for learners with low engagement, multiple failed exercise attempts, or incomplete learning paths
-* **Monitor progress regularly** — Check tracking data weekly to spot issues early
-* **Use data for feedback** — Share relevant tracking data with learners to help them understand their own progress
+* **تحديد المتعلمين الذين يواجهون صعوبات** — ابحث عن المتعلمين ذوي التفاعل المنخفض، أو المحاولات المتعددة الفاشلة في التمارين، أو مسارات التعلم غير المكتملة
+* **مراقبة التقدم بانتظام** — تحقق من بيانات التتبع أسبوعياً لاكتشاف المشكلات مبكراً
+* **استخدام البيانات للتغذية الراجعة** — شارك بيانات التتبع ذات الصلة مع المتعلمين لمساعدتهم على فهم تقدمهم الخاص

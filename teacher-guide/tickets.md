@@ -1,78 +1,78 @@
-# Support Tickets
+# تذاكر الدعم
 
-The **Tickets** tool is a built-in helpdesk system that lets users submit support requests and track their resolution. Depending on how your platform is configured, you may use it as a **requester** (submitting tickets on behalf of yourself or your learners) or as a **support agent** (responding to tickets assigned to your category).
+أداة **التذاكر** هي نظام مساعدة مدمج يسمح للمستخدمين بتقديم طلبات الدعم وتتبع حلها. اعتمادًا على كيفية تكوين المنصة الخاصة بك، يمكنك استخدامها كـ **طالب دعم** (تقديم التذاكر نيابة عن نفسك أو طلابك) أو كـ **وكيل دعم** (الرد على التذاكر المخصصة لفئتك).
 
-## How the System Is Organized
+## كيفية تنظيم النظام
 
-Tickets belong to **projects**, which are further divided into **categories**. Each category can have one or more support agents assigned to it. When a ticket is submitted, it is automatically routed to an available agent in the selected category.
+تنتمي التذاكر إلى **مشاريع**، والتي تنقسم بدورها إلى **فئات**. يمكن أن يكون لكل فئة وكيل دعم واحد أو أكثر مخصص له. عند تقديم تذكرة، يتم توجيهها تلقائيًا إلى وكيل متاح في الفئة المحددة.
 
-Default categories include:
+تشمل الفئات الافتراضية:
 
-| Category | Description |
-|----------|-------------|
-| Enrollment | Questions and issues about course or session enrollment |
-| General information | General platform questions |
-| Requests and paperwork | Administrative requests and documentation |
-| Academic Incidents | Issues related to exams, assignments, or tasks |
-| Virtual campus | Technical issues with the platform |
-| Online evaluation | Issues with a specific course assessment (requires selecting a course) |
+| الفئة | الوصف |
+|-------|-------|
+| التسجيل | أسئلة ومشكلات تتعلق بالتسجيل في الدورة أو الجلسة |
+| معلومات عامة | أسئلة عامة حول المنصة |
+| الطلبات والأوراق | طلبات إدارية ووثائق |
+| حوادث أكاديمية | مشكلات تتعلق بالامتحانات أو الواجبات أو المهام |
+| الحرم الافتراضي | مشكلات فنية مع المنصة |
+| التقييم عبر الإنترنت | مشكلات مع تقييم دورة محددة (يتطلب اختيار دورة) |
 
-## Accessing the Ticket Tool
+## الوصول إلى أداة التذاكر
 
-If your administrator has enabled the ticket link, a ticket icon <img src="/.gitbook/assets/icons/mdi-ticket-account.svg" alt="Ticket" data-size="line"> appears in the top navigation bar. Click it to go directly to the ticket submission form.
+إذا قام مديرك بتمكين رابط التذكرة، يظهر أيقونة تذكرة <img src="/.gitbook/assets/icons/mdi-ticket-account.svg" alt="تذكرة" data-size="line"> في شريط التنقل العلوي. انقر عليها للانتقال مباشرة إلى نموذج تقديم التذكرة.
 
-You can also access your tickets from the main menu under **Support** or **Tickets**, depending on your platform configuration.
+يمكنك أيضًا الوصول إلى تذاكرك من القائمة الرئيسية تحت **الدعم** أو **التذاكر**، اعتمادًا على تكوين المنصة الخاصة بك.
 
-## Submitting a Ticket
+## تقديم تذكرة
 
-To open a new support request:
+لفتح طلب دعم جديد:
 
-1. Click **New ticket** (or the ticket icon in the top bar).
-2. Select the **category** that best matches your issue.
-3. If the category requires it (for example, Online evaluation), select the relevant **course**.
-4. Enter a **subject** — a short summary of the issue.
-5. Write your **message** describing the problem in detail.
-6. Optionally attach files (screenshots, documents) to help the support agent understand the issue.
-7. Click **Submit**.
+1. انقر على **تذكرة جديدة** (أو أيقونة التذكرة في الشريط العلوي).
+2. حدد **الفئة** التي تتناسب بشكل أفضل مع مشكلتك.
+3. إذا كانت الفئة تتطلب ذلك (على سبيل المثال، التقييم عبر الإنترنت)، حدد **الدورة** ذات الصلة.
+4. أدخل **الموضوع** — ملخص قصير للمشكلة.
+5. اكتب **رسالتك** وصف المشكلة بالتفصيل.
+6. اختياريًا، أرفق ملفات (لقطات شاشة، وثائق) لمساعدة وكيل الدعم على فهم المشكلة.
+7. انقر على **إرسال**.
 
-The ticket is assigned an ID and routed to a support agent. You will receive a notification when the agent responds.
+يتم تخصيص معرف للتذكرة وتوجيهها إلى وكيل دعم. ستتلقى إشعارًا عندما يرد الوكيل.
 
-## Tracking Your Tickets
+## تتبع تذاكرك
 
-From the ticket list, you can see all tickets you have submitted and their current status:
+من قائمة التذاكر، يمكنك رؤية جميع التذاكر التي قدمتها وحالتهم الحالية:
 
-| Status | Meaning |
+| الحالة | المعنى |
 |--------|---------|
-| New | Just submitted, not yet reviewed |
-| Pending | Being reviewed by a support agent |
-| Unconfirmed | Awaiting confirmation or additional information |
-| Forwarded | Transferred to another team or agent |
-| Closed | Resolved |
+| جديدة | تم تقديمها للتو، لم يتم مراجعتها بعد |
+| معلقة | قيد المراجعة من قبل وكيل دعم |
+| غير مؤكدة | في انتظار التأكيد أو معلومات إضافية |
+| محولة | نقلت إلى فريق أو وكيل آخر |
+| مغلقة | محلولة |
 
-Click any ticket to read the full conversation thread and add a reply.
+انقر على أي تذكرة لقراءة خيط المحادثة الكامل وإضافة رد.
 
-## Replying to a Ticket
+## الرد على تذكرة
 
-Once a ticket is open, you and the support agent exchange messages within the same thread. To add a reply:
+بمجرد فتح التذكرة، يتبادل أنت ووكيل الدعم الرسائل داخل نفس الخيط. لإضافة رد:
 
-1. Open the ticket from your list.
-2. Scroll to the reply field at the bottom.
-3. Write your response and attach files if needed.
-4. Click **Send**.
+1. افتح التذكرة من قائمتك.
+2. قم بالتمرير إلى حقل الرد في الأسفل.
+3. اكتب ردك وأرفق الملفات إذا لزم الأمر.
+4. انقر على **إرسال**.
 
-Both parties receive notifications when a new message is added to the thread.
+يتلقى الطرفان إشعارات عند إضافة رسالة جديدة إلى الخيط.
 
-## Handling Tickets as a Support Agent
+## التعامل مع التذاكر كوكيل دعم
 
-If your administrator has assigned you to one or more ticket categories, you will see incoming tickets from learners or colleagues in your queue.
+إذا قام مديرك بتخصيصك لفئة تذاكر واحدة أو أكثر، سترى التذاكر الواردة من المتعلمين أو الزملاء في قائمتك.
 
-To respond to an assigned ticket:
+للرد على تذكرة مخصصة:
 
-1. Open your ticket list — assigned tickets appear alongside tickets you have submitted.
-2. Click a ticket to read the requester's message.
-3. Write a reply and click **Send**. The ticket status updates automatically.
-4. When the issue is resolved, change the status to **Closed**.
+1. افتح قائمة تذاكرك — تظهر التذاكر المخصصة إلى جانب التذاكر التي قدمتها.
+2. انقر على تذكرة لقراءة رسالة طالب الدعم.
+3. اكتب ردًا وانقر على **إرسال**. يتم تحديث حالة التذكرة تلقائيًا.
+4. عند حل المشكلة، غير الحالة إلى **مغلقة**.
 
-You can also change the **priority** of a ticket (Low, Normal, High) to help triage your queue.
+يمكنك أيضًا تغيير **الأولوية** لتذكرة (منخفضة، عادية، عالية) لمساعدة في ترتيب قائمتك.
 
-> Access to ticket categories is controlled by the platform administrator. If you need to be added as a support agent for a category, contact your administrator. See the Admin Guide's [Tickets Settings](../admin-guide/platform-settings/ticket-settings.md) for configuration options.
+> يتم التحكم في الوصول إلى فئات التذاكر من قبل مدير المنصة. إذا كنت بحاجة إلى إضافتك كوكيل دعم لفئة، اتصل بمديرك. انظر دليل المدير [إعدادات التذاكر](../admin-guide/platform-settings/ticket-settings.md) لخيارات التكوين.

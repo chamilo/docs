@@ -1,79 +1,79 @@
-# Forums Settings
+# إعدادات المنتديات
 
-Behaviour of the course **Forums** tool.
+سلوك أداة **Forums** في الدورة.
 
-Access these settings under **Administration > Configuration settings > Forums**. This category contains **9 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+الوصول إلى هذه الإعدادات تحت **Administration > Configuration settings > Forums**. تحتوي هذه الفئة على **9 إعدادات**، مدرجة أدناه مع العنوان والتعليق المرسل في إعدادات المنصة (`SettingsCurrentFixtures.php`).
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> يُعرض اسم المتغير في الكود بخط monospace. استخدمه عند البرمجة عبر API أو عند الحاجة إلى تغيير هذه الإعدادات على المستوى العام بتحرير [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
 
-## Settings
+## الإعدادات
 
 ### `allow_forum_category_language_filter`
 
-**Forum categories language filter**
+**فلتر لغة فئات المنتدى**
 
-Add a language filter to the forum view to only see categries configured in a specific language. Requires using the 'language' extra field on the 'forum_category' entity.
+يضيف فلتر لغة إلى عرض المنتدى لعرض الفئات المُهيأة بلغة معينة فقط. يتطلب استخدام حقل إضافي 'language' على كيان 'forum_category'.
 
-*Default: `false`*
+*افتراضي: `false`*
 
 ### `allow_forum_post_revisions`
 
-**Forum post review**
+**مراجعة منشور المنتدى**
 
-Enable this option to allow asking for a review or a translation to one's post in a forum. When extensively configured, can be used to collaborate with other users in a language-learning forum.
+قم بتفعيل هذا الخيار للسماح بطلب مراجعة أو ترجمة لمنشور في المنتدى. عند التهيئة الواسعة، يمكن استخدامه للتعاون مع مستخدمين آخرين في منتدى تعلم اللغات.
 
-*Default: `false`*
+*افتراضي: `false`*
 
 ### `community_managers_user_list`
 
-**Community managers list**
+**قائمة مديري المجتمع**
 
-Provide an array of user IDs that will be considered community managers in the special course designated as global forum. Community managers have additional privileges on the global forum.
+قدم مصفوفة من معرفات المستخدمين التي ستُعتبر مديري مجتمع في الدورة الخاصة المخصصة كمنتدى عام. يتمتع مديرو المجتمع بامتيازات إضافية على المنتدى العام.
 
 ### `default_forum_view`
 
-**Default forum view**
+**عرض المنتدى الافتراضي**
 
-What should be the default option when creating a new forum. Any trainer can however choose a different view for every individual forum
+ما يجب أن يكون الخيار الافتراضي عند إنشاء منتدى جديد. يمكن لأي مدرب اختيار عرض مختلف لكل منتدى فردي
 
-*Default: `flat`*
+*افتراضي: `flat`*
 
 ### `display_groups_forum_in_general_tool`
 
-**Display group forums in general forum**
+**عرض منتديات المجموعات في المنتدى العام**
 
-Display group forums in the forum tool at the course level. This option is enabled by default (in this case, group forum individual visibilities still act as an additional criteria). If disabled, group forums will only be visible through the group tool, be them public or not.
+عرض منتديات المجموعات في أداة المنتدى على مستوى الدورة. هذا الخيار مفعل افتراضيًا (في هذه الحالة، تظل رؤيات منتديات المجموعات الفردية كمعيار إضافي). إذا تم تعطيله، ستكون منتديات المجموعات مرئية فقط من خلال أداة المجموعة، سواء كانت عامة أم لا.
 
-*Default: `true`*
+*افتراضي: `true`*
 
 ### `forum_fold_categories`
 
-**Fold forum categories**
+**طي فئات المنتدى**
 
-Visual effect to enable forum categories folding/unfolding.
+تأثير بصري لتفعيل طي/فك طي فئات المنتدى.
 
-*Default: `false`*
+*افتراضي: `false`*
 
 ### `global_forums_course_id`
 
-**Use course as global forum**
+**استخدام الدورة كمنتدى عام**
 
-Set the course ID (numerical) of a course reserverd to use as a global forum. This replaces the 'Social groups' link in the social network by a link to the forum of that course.
+حدد معرف الدورة (رقمي) لدورة محجوزة لاستخدامها كمنتدى عام. يحل هذا محل رابط 'Social groups' في الشبكة الاجتماعية برابط إلى منتدى تلك الدورة.
 
-*Default: `0`*
+*افتراضي: `0`*
 
 ### `hide_forum_post_revision_language`
 
-**Hide forum post review language**
+**إخفاء لغة مراجعة منشور المنتدى**
 
-Hide the possibility to assign a language to a forum post review.
+إخفاء إمكانية تعيين لغة لمراجعة منشور المنتدى.
 
-*Default: `false`*
+*افتراضي: `false`*
 
 ### `subscribe_users_to_forum_notifications_also_in_base_course`
 
-**Forum notifications from base course as well**
+**إشعارات المنتدى من الدورة الأساسية أيضًا**
 
-Enable this option to enable notifications coming from the base course forum, even if following the course through a session.
+قم بتفعيل هذا الخيار لتفعيل الإشعارات القادمة من منتدى الدورة الأساسية، حتى لو كنت تتابع الدورة من خلال جلسة.
 
-*Default: `false`*
+*افتراضي: `false`*

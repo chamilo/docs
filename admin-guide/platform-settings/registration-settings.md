@@ -1,110 +1,110 @@
-# Registration Settings
+# إعدادات التسجيل
 
-Self-registration policy and post-registration redirects — what new users are asked for and where they land.
+سياسة التسجيل الذاتي وإعادة التوجيه بعد التسجيل — ما يُطلب من المستخدمين الجدد وإلى أين يصلون.
 
-Access these settings under **Administration > Configuration settings > Registration**. This category contains **20 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+الوصول إلى هذه الإعدادات تحت **إدارة > إعدادات التكوين > التسجيل**. تحتوي هذه الفئة على **20 إعدادًا**، مدرجة أدناه مع العنوان والتعليق المرسل في إعدادات المنصة (`SettingsCurrentFixtures.php`).
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> يُعرض اسم المتغير في الكود بخط monospace. استخدمه عند البرمجة عبر [API](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml) أو عند الحاجة إلى تغيير هذه الإعدادات على المستوى العام بتحرير [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
 
-## Settings
+## الإعدادات
 
 ### `allow_double_validation_in_registration`
 
-**Double validation for registration process**
+**التحقق المزدوج لعملية التسجيل**
 
-Simply display a confirmation request on the registration page before going forward with the user creation.
+يعرض ببساطة طلب تأكيد على صفحة التسجيل قبل المتابعة في إنشاء المستخدم.
 
-*Default: `false`*
+*افتراضي: `false`*
 
 
 ### `allow_fields_inscription`
 
-**Restrict fields shown during registration**
+**تقييد الحقول المعروضة أثناء التسجيل**
 
-If you only want to show some of the available profile field, your can complete the array here with sub-elements 'fields' and 'extra_fields' containing arrays with a list of the fields to show.
+إذا كنت تريد عرض بعض الحقول الشخصية المتاحة فقط، يمكنك إكمال المصفوفة هنا بعناصر فرعية 'fields' و'extra_fields' تحتوي على مصفوفات بقائمة الحقول المراد عرضها.
 
 ### `allow_lostpassword`
 
-**Lost password**
+**كلمة المرور المفقودة**
 
-Are users allowed to request their lost password?
+هل يُسمح للمستخدمين بطلب كلمة مرورهم المفقودة؟
 
-*Default: `true`*
+*افتراضي: `true`*
 
 ### `allow_registration`
 
-**Registration**
+**التسجيل**
 
-Is registration as a new user allowed? Can users create new accounts?
+هل يُسمح بالتسجيل كمستخدم جديد؟ هل يمكن للمستخدمين إنشاء حسابات جديدة؟
 
-*Default: `false`*
+*افتراضي: `false`*
 
 ### `allow_registration_as_teacher`
 
-**Registration as teacher**
+**التسجيل كمدرس**
 
-Can one register as a teacher (with the ability to create courses)?
+هل يمكن التسجيل كمدرس (مع القدرة على إنشاء الدورات)؟
 
-*Default: `false`*
+*افتراضي: `false`*
 
 ### `allow_terms_conditions`
 
-**Enable terms and conditions**
+**تمكين الشروط والأحكام**
 
-This option will display the Terms and Conditions in the register form for new users. Need to be configured first in the portal administration page.
+سيعرض هذا الخيار الشروط والأحكام في نموذج التسجيل للمستخدمين الجدد. يجب تهيئتها أولاً في صفحة إدارة البوابة.
 
-*Default: `false`*
+*افتراضي: `false`*
 
 
 ### `drh_autosubscribe`
 
-**Human resources director autosubscribe**
+**الاشتراك التلقائي لمدير الموارد البشرية**
 
-Human resources director autosubscribe - not yet available
+الاشتراك التلقائي لمدير الموارد البشرية - غير متاح بعد
 
 ### `extendedprofile_registration`
 
-**Portfolio fields at registration**
+**حقول المحفظة عند التسجيل**
 
-Which of the following fields of the portfolio have to be available in the user registration process? This requires that the portfolio option be enabled (see above).
+أي من الحقول التالية للمحفظة يجب أن تكون متاحة في عملية تسجيل المستخدم؟ يتطلب ذلك تمكين خيار المحفظة (انظر أعلاه).
 
 ### `extendedprofile_registrationrequired`
 
-**Required portfolio fields in registration**
+**الحقول المطلوبة للمحفظة في التسجيل**
 
-Which of the following fields of the portfolio are *required* in the user registration process? This requires that the portfolio option be enabled and that the field be also available in the registration form (see above).
+أي من الحقول التالية للمحفظة *مطلوبة* في عملية تسجيل المستخدم؟ يتطلب ذلك تمكين خيار المحفظة وأن يكون الحقل متاحًا أيضًا في نموذج التسجيل (انظر أعلاه).
 
 ### `extldap_config`
 
-**LDAP connection configuration**
+**تكوين اتصال LDAP**
 
-Array defining host and port for the LDAP server.
+مصفوفة تحدد المضيف والمنفذ لخادم LDAP.
 
 ### `hide_legal_accept_checkbox`
 
-**Hide legal accept checkbox in Terms and Conditions page**
+**إخفاء مربع اختيار القبول القانوني في صفحة الشروط والأحكام**
 
-If set to true, removes the "I have read and accept" checkbox in the Terms and Conditions page flow.
+إذا تم تعيينه إلى true، يزيل مربع الاختيار "لقد قرأت وأقبل" في تدفق صفحة الشروط والأحكام.
 
-*Default: `false`*
+*افتراضي: `false`*
 
 
 ### `platform_unsubscribe_allowed`
 
-**Allow unsubscription from platform**
+**السماح بالإلغاء الاشتراك من المنصة**
 
-By enabling this option, you allow any user to definitively remove his own account and all data related to it from the platform. This is quite a radical action, but it is necessary for portals opened to the public where users can auto-register. An additional entry will appear in the user profile to unsubscribe after confirmation.
+بتمكين هذا الخيار، تسمح لأي مستخدم بحذف حسابه الخاص وبجميع البيانات المتعلقة به نهائيًا من المنصة. هذا إجراء جذري جدًا، لكنه ضروري للبوابات المفتوحة للجمهور حيث يمكن للمستخدمين التسجيل الذاتي. سيظهر مدخل إضافي في ملف المستخدم للإلغاء الاشتراك بعد التأكيد.
 
-*Default: `false`*
+*افتراضي: `false`*
 
 
 ### `redirect_after_login`
 
-**Redirect after login (per profile)**
+**إعادة التوجيه بعد تسجيل الدخول (لكل ملف شخصي)**
 
-Define redirection per profile after login using a JSON object like {"STUDENT":"", "ADMIN":"admin-dashboard"}
+حدد إعادة التوجيه لكل ملف شخصي بعد تسجيل الدخول باستخدام كائن JSON مثل {"STUDENT":"", "ADMIN":"admin-dashboard"}
 
-*Default:*
+*افتراضي:*
 ```json
 {
   "COURSEMANAGER": "courses",
@@ -119,49 +119,47 @@ Define redirection per profile after login using a JSON object like {"STUDENT":"
 
 ### `required_extra_fields_in_inscription`
 
-**Required extra fields during registration**
+**الحقول الإضافية المطلوبة أثناء التسجيل**
 
-Array of extra field identifiers that must be completed during user registration.
+مصفوفة من معرفات الحقول الإضافية التي يجب إكمالها أثناء تسجيل المستخدم.
 
 ### `required_profile_fields`
 
-**Required fields during registration**
+**الحقول المطلوبة أثناء التسجيل**
 
-Array of profile field names (email, phone, language, official_code) that must be provided during registration.
+مصفوفة من أسماء حقول الملف الشخصي (email، phone، language، official_code) التي يجب تقديمها أثناء التسجيل.
 
 ### `send_inscription_msg_to_inbox`
 
-**Send the welcome message to e-mail and inbox**
+**إرسال رسالة الترحيب إلى البريد الإلكتروني والصندوق الوارد**
 
-By default, the welcome message (with credentials) is sent only by e-mail. Enable this option to send it to the user's Chamilo inbox as well.
+افتراضيًا، تُرسل رسالة الترحيب (مع بيانات الاعتماد) بالبريد الإلكتروني فقط. قم بتمكين هذا الخيار لإرسالها إلى صندوق Chamilo الوارد للمستخدم أيضًا.
 
-*Default: `false`*
+*افتراضي: `false`*
 
 
 ### `sessionadmin_autosubscribe`
 
-**Session admin autosubscribe**
+**الاشتراك التلقائي لمدير الجلسة**
 
-Session administrator autosubscribe - not available yet
+الاشتراك التلقائي لمدير الجلسة - غير متاح بعد
 
 ### `student_autosubscribe`
 
-**Learner autosubscribe**
+**الاشتراك التلقائي للمتعلم**
 
-Learner autosubscribe - not yet available
+الاشتراك التلقائي للمتعلم - غير متاح بعد
 
 ### `teacher_autosubscribe`
 
-**Teacher autosubscribe**
+**الاشتراك التلقائي للمدرس**
 
-Teacher autosubscribe - not yet available
+الاشتراك التلقائي للمدرس - غير متاح بعد
 
 ### `user_hide_never_expire_option`
 
-**Hide 'never expires' option for users**
+**إخفاء خيار 'لا ينتهي أبدًا' للمستخدمين**
 
-Remove the option 'never expires' when creating/editing a user account.
+إزالة الخيار 'لا ينتهي أبدًا' عند إنشاء/تحرير حساب مستخدم.
 
-*Default: `false`*
-
-
+*افتراضي: `false`*

@@ -1,418 +1,420 @@
-# Learning Paths Settings
+# إعدادات مسارات التعلم
 
-Defaults and behaviour of the **Learning Paths** tool — autostart, default view, prerequisites, SCORM behaviour and similar.
+الإعدادات الافتراضية وسلوك أداة **Learning Paths** — التشغيل التلقائي، العرض الافتراضي، المتطلبات المسبقة، سلوك SCORM وما شابه.
 
-Access these settings under **Administration > Configuration settings > Learning Paths**. This category contains **51 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+يمكن الوصول إلى هذه الإعدادات تحت **إدارة > إعدادات التكوين > Learning Paths**. تحتوي هذه الفئة على **51 إعدادًا**، مدرجة أدناه مع العنوان والتعليق المرسل في إعدادات المنصة (`SettingsCurrentFixtures.php`).
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> يُعرض اسم المتغير في الكود بخط monospace. استخدمه عند البرمجة عبر API أو عند الحاجة إلى تغيير هذه الإعدادات على مستوى عام عن طريق تحرير [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
 
-## Settings
+## الإعدادات
 
 ### `add_all_files_in_lp_export`
 
-**Export all files when exporting a learning path**
+**تصدير جميع الملفات عند تصدير مسار التعلم**
 
-When exporting a LP, all files and folders in the same path of an html will be exported too.
+عند تصدير LP، سيتم تصدير جميع الملفات والمجلدات في نفس مسار html أيضًا.
 
-*Default: `false`*
+*الافتراضي: `false`*
 
 
 ### `allow_htaccess_import_from_scorm`
 
-**Allow .htaccess from SCORM packages**
+**السماح بـ .htaccess من حزم SCORM**
 
-Normally, all .htaccess files are filtered and removed when importing content in Chamilo. This feature allows .htaccess to be imported if it is present in a SCORM package.
+عادةً، يتم تصفية جميع ملفات .htaccess وإزالتها عند استيراد المحتوى في Chamilo. تسمح هذه الميزة باستيراد .htaccess إذا كان موجودًا في حزمة SCORM.
 
-*Default: `false`*
+*الافتراضي: `false`*
 
 
 ### `allow_import_scorm_package_in_course_builder`
 
-**SCORM import within course import**
+**استيراد SCORM داخل استيراد الدورة**
 
-Enable to copy the directory structure of SCORM packages when restoring a course (from the course maintenance tool).
+تفعيل نسخ هيكل المجلدات لحزم SCORM عند استعادة دورة (من أداة صيانة الدورة).
 
-*Default: `false`*
+*الافتراضي: `false`*
 
 
 ### `allow_lp_chamilo_export`
 
-**Export learning paths in the Chamilo backup format**
+**تصدير مسارات التعلم بتنسيق نسخ احتياطي Chamilo**
 
-Enable the possibility to export any of your learning paths in a Chamilo course backup format.
+تفعيل إمكانية تصدير أي من مسارات التعلم الخاصة بك بتنسيق نسخ احتياطي لدورة Chamilo.
 
-*Default: `false`*
+*الافتراضي: `false`*
 
 
 ### `allow_lp_return_link`
 
-**Show learning paths return link**
+**إظهار رابط العودة لمسارات التعلم**
 
-Disable this option to hide the 'Return to homepage' button in the learning paths
+تعطيل هذا الخيار لإخفاء زر "العودة إلى الصفحة الرئيسية" في مسارات التعلم
 
-*Default: `true`*
+*الافتراضي: `true`*
 
 
 ### `allow_lp_subscription_to_usergroups`
 
-**Learning paths subscription for classes**
+**اشتراك مسارات التعلم للفصول الدراسية**
 
-Enable subscription to learning paths and learning path categories to groups/classes.
+تفعيل الاشتراك في مسارات التعلم وفئات مسارات التعلم للمجموعات/الفصول.
 
-*Default: `false`*
+*الافتراضي: `false`*
 
 
 ### `allow_session_lp_category`
 
-**Learning paths categories can be managed in sessions**
+**يمكن إدارة فئات مسارات التعلم في الجلسات**
 
-[inferred] Enable learners and instructors to organize and manage learning paths by categories within session courses.
+[inferred] تفعيل للمتعلمين والمدربين تنظيم وإدارة مسارات التعلم حسب الفئات داخل دورات الجلسة.
 
-*Default: `false`*
+*الافتراضي: `false`*
 
 
 ### `allow_teachers_to_access_blocked_lp_by_prerequisite`
 
-**Teachers can access blocked learning paths**
+**يمكن للمعلمين الوصول إلى مسارات التعلم المحجوبة**
 
-Teachers do not need to pass complete learning paths to have access to a prerequisites-blocked learning path.
+لا يحتاج المعلمون إلى إكمال مسارات التعلم بالكامل للوصول إلى مسار تعلم محجوب بسبب المتطلبات المسبقة.
 
-*Default: `false`*
+*الافتراضي: `false`*
 
 
 ### `disable_js_in_lp_view`
 
-**Disable JS in learning paths view**
+**تعطيل JS في عرض مسارات التعلم**
 
-Disable JS files that Chamilo usually adds to HTML files in the learning path (while displaying them).
+تعطيل ملفات JS التي تضيفها Chamilo عادةً إلى ملفات HTML في مسار التعلم (أثناء عرضها).
 
-*Default: `false`*
+*الافتراضي: `false`*
 
 
 ### `disable_my_lps_page`
 
-**Hide 'My learning paths' page**
+**إخفاء صفحة "مسارات تعلمي"**
 
-The page 'My learning path' was added in 1.11. Use this option to hide it.
+تم إضافة صفحة "مسار تعلمي" في 1.11. استخدم هذا الخيار لإخفائها.
 
-*Default: `false`*
+*الافتراضي: `false`*
 
 ### `download_files_after_all_lp_finished`
 
-**Download button after finishing learning paths**
+**زر التنزيل بعد إنهاء مسارات التعلم**
 
-Show download files button after finishing all LP. Example: if ABC is the course code, and 1 and 100 are the doc id, choose: ['courses' => ['ABC' => [1, 100]]].
+إظهار زر تنزيل الملفات بعد إنهاء جميع LP. مثال: إذا كان ABC رمز الدورة، و1 و100 معرف الوثيقة، اختر: ['courses' => ['ABC' => [1, 100]]].
 
 ### `force_edit_exercise_in_lp`
 
-**Edition of tests included in learning paths**
+**تحرير الاختبارات المضمنة في مسارات التعلم**
 
-Enable editing tests even if they have been included in a learning path. The default is to prevent edition if the test is in a learning path, because that can affect consistency of tracking among many learners if test modifications are significant.
+تفعيل تحرير الاختبارات حتى لو كانت قد تم تضمينها في مسار تعلم. الافتراضي هو منع التحرير إذا كان الاختبار في مسار تعلم، لأن ذلك قد يؤثر على اتساق التتبع بين العديد من المتعلمين إذا كانت تعديلات الاختبار كبيرة.
 
-*Default: `false`*
+*الافتراضي: `false`*
 
 ### `hide_accessibility_label_on_lp_item`
 
-**Hide requirements label in learning paths**
+**إخفاء تسمية المتطلبات في مسارات التعلم**
 
-Hide the pre-requisites tooltip on learning path items. This is mostly an estaethic choice.
+إخفاء تلميح المتطلبات المسبقة على عناصر مسار التعلم. هذا اختيار جمالي في الغالب.
 
-*Default: `true`*
+*الافتراضي: `true`*
 
 ### `hide_lp_time`
 
-**Hide time from learning paths records**
+**إخفاء الوقت من سجلات مسارات التعلم**
 
-Hide learning paths time spent in reports in general.
+إخفاء وقت مسارات التعلم المستغرق في التقارير بشكل عام.
 
-*Default: `false`*
+*الافتراضي: `false`*
 
 ### `hide_scorm_copy_link`
 
-**Hide SCORM Copy**
+**إخفاء نسخ SCORM**
 
-Hide the Learning Path Copy icon from the Learning Paths list
+إخفاء أيقونة نسخ مسار التعلم من قائمة مسارات التعلم
 
-*Default: `false`*
+*الافتراضي: `false`*
 
 ### `hide_scorm_export_link`
 
-**Hide SCORM Export**
+**إخفاء تصدير SCORM**
 
-Hide the SCORM Export icon from the Learning Paths list
+إخفاء أيقونة تصدير SCORM من قائمة مسارات التعلم
 
-*Default: `false`*
+*الافتراضي: `false`*
 
 ### `hide_scorm_pdf_link`
 
-**Hide Learning Path PDF export**
+**إخفاء تصدير PDF لمسار التعلم**
 
-Hide the Learning Path PDF Export icon from the Learning Paths list
+إخفاء أيقونة تصدير PDF لمسار التعلم من قائمة مسارات التعلم
 
-*Default: `true`*
+*الافتراضي: `true`*
 
 ### `lp_allow_export_to_students`
 
-**Learners can export learning paths**
+**يمكن للمتعلمين تصدير مسارات التعلم**
 
-Enable this to allow learners to download the learning paths as SCORM packages.
+تفعيل هذا للسماح للمتعلمين بتنزيل مسارات التعلم كحزم SCORM.
 
-*Default: `false`*
+*الافتراضي: `false`*
 
 ### `lp_enable_flow`
 
-**Navigate between learning paths**
+**التنقل بين مسارات التعلم**
 
-Add the possibility to select a 'next' learning path and show buttons inside the learning path to move from one to the next.
+إضافة إمكانية اختيار مسار تعلم "التالي" وعرض أزرار داخل مسار التعلم للانتقال من واحد إلى التالي.
 
-*Default: `false`*
+*الافتراضي: `false`*
 
 ### `lp_fixed_encoding`
 
-**Fixed encoding in learning path**
+**ترميز ثابت في مسار التعلم**
 
-Reduce resource usage by ignoring a check on the text encoding in imported learning paths.
+تقليل استخدام الموارد عن طريق تجاهل التحقق من ترميز النص في مسارات التعلم المستوردة.
 
-*Default: `false`*
+*الافتراضي: `false`*
 
 ### `lp_item_prerequisite_dates`
 
-**Date-based learning path items prerequisites**
+**متطلبات عناصر مسار التعلم بناءً على التاريخ**
 
-Adds the option to define prerequisites with start and end dates for learnpath items.
+إضافة خيار تحديد المتطلبات المسبقة بتواريخ البدء والانتهاء لعناصر مسار التعلم.
 
-*Default: `false`*
+*الافتراضي: `false`*
 
+---
 ### `lp_menu_location`
 
-**Learning path menu location**
+**موقع قائمة مسار التعلم**
 
-Set this to 'left' or 'right' to change the side of the learning path menu.
+اضبط هذا على 'left' أو 'right' لتغيير جانب قائمة مسار التعلم.
 
-*Default: `left`*
+*الافتراضي: `left`*
 
 ### `lp_minimum_time`
 
-**Minimum time to complete learning path**
+**الحد الأدنى للوقت لإكمال مسار التعلم**
 
-Add a minimum time field to learning paths. If the user has not spent that much time on the learning path, the last item of the learning path cannot be completed.
+أضف حقل وقت أدنى إلى مسارات التعلم. إذا لم يقضِ المستخدم ذلك القدر من الوقت في مسار التعلم، لا يمكن إكمال العنصر الأخير من مسار التعلم.
 
-*Default: `false`*
+*الافتراضي: `false`*
 
 ### `lp_prerequisit_on_quiz_unblock_if_max_attempt_reached`
 
-**Unlock learning path item if max attempt is reached for test prerequisite**
+**فتح قفل عنصر مسار التعلم إذا تم الوصول إلى الحد الأقصى للمحاولات في اختبار الشرط المسبق**
 
-[inferred] Automatically unlock subsequent learning path items when a learner exhausts maximum quiz attempts for a prerequisite test.
-
+[inferred] فتح قفل عناصر مسار التعلم اللاحقة تلقائيًا عندما ينفذ المتعلم الحد الأقصى من محاولات الاختبار لاختبار شرط مسبق.
 
 ### `lp_prerequisite_on_quiz_unblock_if_max_attempt_reached`
 
-**Unlock prerequisites after last test attempt**
+**فتح قفل الشروط المسبقة بعد آخر محاولة اختبار**
 
-Allows users to continue in a learning path after using all quiz attempts of a test used as prerequisite for other items.
+يسمح للمستخدمين بمواصلة مسار التعلم بعد استخدام جميع محاولات الاختبار لاختبار يُستخدم كشرط مسبق لعناصر أخرى.
 
-*Default: `false`*
+*الافتراضي: `false`*
 
 ### `lp_prerequisite_use_last_attempt_only`
 
-**Use last score in learning path test prerequisites**
+**استخدام آخر درجة في شروط الاختبارات في مسار التعلم**
 
-When a test is used as prerequisite for an item in the learning path, use the last attempt of the test only as validation for the prerequisite (default is to use best attempt).
+عند استخدام اختبار كشرط مسبق لعنصر في مسار التعلم، استخدم آخر محاولة للاختبار فقط كتأكيد للشرط المسبق (الافتراضي هو استخدام أفضل محاولة).
 
-*Default: `false`*
+*الافتراضي: `false`*
 
 ### `lp_prevents_beforeunload`
 
-**Prevent beforeunload JS event in learning path**
+**منع حدث beforeunload JS في مسار التعلم**
 
-This helps with browser compatibility by preventing tricky JS events to execute.
+يساعد هذا في توافق المتصفح من خلال منع أحداث JS المعقدة من التنفيذ.
 
-*Default: `false`*
+*الافتراضي: `false`*
 
 ### `lp_score_as_progress_enable`
 
-**Use learning path score as progress**
+**استخدام درجة مسار التعلم كتقدم**
 
-This is useful when using SCORM content with only one large SCO. SCORM does not communicate progress, so this is a trick to use the score as progress. Enabling this option will let you configure this on a per-learning path basis.
+هذا مفيد عند استخدام محتوى SCORM مع SCO كبير واحد فقط. لا يتواصل SCORM مع التقدم، لذا هذه حيلة لاستخدام الدرجة كتقدم. تمكين هذا الخيار سيسمح لك بتكوينه على أساس مسار تعلم فردي.
 
-*Default: `false`*
+*الافتراضي: `false`*
 
 ### `lp_show_max_progress_instead_of_average`
 
-**Show max progress instead of average for learning paths reporting**
+**عرض أقصى تقدم بدلاً من المتوسط في تقارير مسارات التعلم**
 
-[inferred] Calculate learning path progress based on maximum item completion rather than averaging all items.
+[inferred] حساب تقدم مسار التعلم بناءً على إكمال العنصر الأقصى بدلاً من المتوسط لجميع العناصر.
 
-*Default: `false`*
+*الافتراضي: `false`*
 
 ### `lp_show_max_progress_or_average_enable_course_level_redefinition`
 
-**Select max progress vs average for learning paths at course level**
+**اختيار أقصى تقدم مقابل المتوسط لمسارات التعلم على مستوى المقرر**
 
-Enable redefinition of the setting to show the best progress instead of averages in reporting of learnpaths at a course level.
+تمكين إعادة تعريف الإعداد لعرض أفضل تقدم بدلاً من المتوسطات في تقارير مسارات التعلم على مستوى المقرر.
 
-*Default: `false`*
+*الافتراضي: `false`*
 
 ### `lp_show_reduced_report`
 
-**Learning paths: show reduced report**
+**مسارات التعلم: عرض تقرير مختصر**
 
-Inside the learning paths tool, when a user reviews his own progress (through the stats icon), show a shorten (less detailed) version of the progress report.
+داخل أداة مسارات التعلم، عندما يراجع المستخدم تقدمه الخاص (من خلال أيقونة الإحصاءات)، اعرض نسخة مختصرة (أقل تفصيلاً) من تقرير التقدم.
 
-*Default: `false`*
+*الافتراضي: `false`*
 
 ### `lp_start_and_end_date_visible_in_student_view`
 
-**Display learning path availability to learners**
+**عرض توافر مسار التعلم للمتعلمين**
 
-Show learning paths to learners with their availability dates, rather than hiding them until the date comes.
+اعرض مسارات التعلم للمتعلمين مع تواريخ التوافر الخاصة بها، بدلاً من إخفائها حتى يأتي التاريخ.
 
-*Default: `false`*
+*الافتراضي: `false`*
 
 ### `lp_subscription_settings`
 
-**Learning paths subscription settings**
+**إعدادات اشتراك مسارات التعلم**
 
-Configure additional options for the learning paths subscription feature. Options include 'allow_add_users_to_lp' and 'allow_add_users_to_lp_category'.
+قم بتكوين خيارات إضافية لميزة اشتراك مسارات التعلم. تشمل الخيارات 'allow_add_users_to_lp' و 'allow_add_users_to_lp_category'.
 
 ### `lp_view_accordion`
 
-**Foldable learning paths' items**
+**عناصر مسارات التعلم القابلة للطي**
 
-[inferred] Display learning path items in collapsible accordion format for improved navigation and content organization.
+[inferred] عرض عناصر مسار التعلم بتنسيق أكورديون قابل للطي لتحسين التنقل وتنظيم المحتوى.
 
-*Default: `false`*
+*الافتراضي: `false`*
 
 ### `lp_view_settings`
 
-**Learning path display settings**
+**إعدادات عرض مسار التعلم**
 
-Configure additional options for the learning paths display. Options include 'show_reporting_icon', 'hide_lp_arrow_navigation', 'show_toolbar_by_default', 'navigation_in_the_middle' and 'add_extra_quit_to_home_icon'.
+قم بتكوين خيارات إضافية لعرض مسارات التعلم. تشمل الخيارات 'show_reporting_icon'، 'hide_lp_arrow_navigation'، 'show_toolbar_by_default'، 'navigation_in_the_middle' و 'add_extra_quit_to_home_icon'.
 
 ### `scorm_api_extrafield_to_use_as_student_id`
 
-**Use extra field as student\_id in SCORM communication**
+**استخدام حقل إضافي كـ student_id في التواصل SCORM**
 
-Give the name of the extra field to be used as student_id for all SCORM communication.
+أعطِ اسم الحقل الإضافي الذي سيُستخدم كـ student_id لجميع التواصل SCORM.
 
 ### `scorm_api_username_as_student_id`
 
-**Use username as student\_id in SCORM communication**
+**استخدام اسم المستخدم كـ student_id في التواصل SCORM**
 
-[inferred] Use learner username as the student identifier in SCORM API communication instead of learner ID.
+[inferred] استخدام اسم مستخدم المتعلم كمعرف الطالب في التواصل API SCORM بدلاً من معرف المتعلم.
 
-*Default: `false`*
+*الافتراضي: `false`*
 
 ### `scorm_lms_update_sco_status_all_time`
 
-**Update SCO status autonomously**
+**تحديث حالة SCO بشكل مستقل**
 
-If the SCO is not sending a status, take over and update the status based on what can be observed in Chamilo.
+إذا لم يرسل SCO حالة، فتولَ السيطرة وحدّث الحالة بناءً على ما يمكن ملاحظته في Chamilo.
 
-*Default: `false`*
+*الافتراضي: `false`*
 
 ### `scorm_upload_from_cache`
 
-**Upload SCORM from cache dir**
+**رفع SCORM من مجلد التخزين المؤقت**
 
-Allow admins to upload a SCORM package (in zip form) into the cache directory and to use it as import source on the SCORM upload page.
+السماح للمشرفين برفع حزمة SCORM (بتنسيق zip) إلى مجلد التخزين المؤقت واستخدامها كمصدر استيراد في صفحة رفع SCORM.
 
-*Default: `false`*
+*الافتراضي: `false`*
 
 ### `show_hidden_exercise_added_to_lp`
 
-**Display tests from learning paths even if invisible**
+**عرض الاختبارات من مسارات التعلم حتى لو كانت غير مرئية**
 
-Show hidden exercises that were added to a LP in the exercise list. If we are in a session, the test is invisible in the base course, it is included in a LP and the setting to show it is not specifically set to true, then hide it.
+اعرض التمارين المخفية التي أُضيفت إلى LP في قائمة التمارين. إذا كنا في جلسة، والاختبار غير مرئي في المقرر الأساسي، وهو مدرج في LP والإعداد لعرضه لم يُحدد صراحةً على true، فأخفِه.
 
-*Default: `true`*
+*الافتراضي: `true`*
 
 ### `show_invisible_exercise_in_lp_list`
 
-**Display tests in list of learning path tests even if invisible**
+**عرض الاختبارات في قائمة اختبارات مسار التعلم حتى لو كانت غير مرئية**
 
-[inferred] Include hidden tests in the list of available tests when viewing learning path contents.
+[inferred] تضمين الاختبارات المخفية في قائمة الاختبارات المتاحة عند عرض محتويات مسار التعلم.
 
-*Default: `false`*
+*الافتراضي: `false`*
 
+---
+
+---
 ### `show_invisible_exercise_in_lp_toc`
 
-**Invisible tests visible in learning paths**
+**اختبارات غير مرئية مرئية في مسارات التعلم**
 
-Make tests marked as 'invisible' in the tests tool appear when they are included in a learning path.
+يجعل الاختبارات المُشار إليها بأنها "غير مرئية" في أداة الاختبارات تظهر عند تضمينها في مسار تعلم.
 
-*Default: `false`*
+*القيمة الافتراضية: `false`*
 
 ### `show_invisible_lp_in_course_home`
 
-**Display link to learning path on course home when invisible**
+**عرض رابط مسار التعلم في الصفحة الرئيسية للمقرر عندما يكون غير مرئي**
 
-If a learning path is set to invisible but the teacher/coach decided to make it available from the course homepage, this option prevents Chamilo from hiding the link on the course homepage.
+إذا تم تعيين مسار تعلم على غير مرئي ولكن قرر المعلم/المدرب جعله متاحًا من صفحة المقرر الرئيسية، فإن هذا الخيار يمنع Chamilo من إخفاء الرابط في صفحة المقرر الرئيسية.
 
-*Default: `false`*
+*القيمة الافتراضية: `false`*
 
 ### `show_prerequisite_as_blocked`
 
-**Learning path's prerequisites**
+**شروط مسار التعلم**
 
-On the learning paths lists, display a visual element to show that other learning paths are currently blocked by some prerequisites rule.
+في قوائم مسارات التعلم، اعرض عنصرًا بصريًا للإشارة إلى أن مسارات تعلم أخرى محظورة حاليًا بسبب قاعدة شروط سابقة.
 
-*Default: `false`*
+*القيمة الافتراضية: `false`*
 
 ### `student_follow_page_add_LP_acquisition_info`
 
-**Add acquisition column in learner follow-up**
+**إضافة عمود الاستحواذ في صفحة متابعة المتعلم**
 
-Add column to learner follow-up page to show acquisition status by a learner on a learning path.
+إضافة عمود إلى صفحة متابعة المتعلم لعرض حالة الاستحواذ لدى المتعلم في مسار تعلم.
 
-*Default: `false`*
+*القيمة الافتراضية: `false`*
 
 ### `student_follow_page_add_LP_invisible_checkbox`
 
-**Add visibility information for learning paths on learner follow-up page**
+**إضافة معلومات الرؤية لمسارات التعلم في صفحة متابعة المتعلم**
 
-[inferred] Display visibility status indicator for learning paths on the learner progress tracking page.
+[inferred] عرض مؤشر حالة الرؤية لمسارات التعلم في صفحة تتبع تقدم المتعلم.
 
-*Default: `false`*
+*القيمة الافتراضية: `false`*
 
 ### `student_follow_page_add_LP_subscription_info`
 
-**Unlocked information in learning paths list**
+**معلومات المفتوحة في قائمة مسارات التعلم**
 
-This adds an 'unlocked' column in the learning paths list if the learner is subscribed to the given learning path and has access to it.
+يضيف هذا عمودًا "مفتوح" في قائمة مسارات التعلم إذا كان المتعلم مشتركًا في مسار التعلم المعطى ولديه وصول إليه.
 
-*Default: `false`*
+*القيمة الافتراضية: `false`*
 
 ### `student_follow_page_hide_lp_tests_average`
 
-**Hide percentage sign in average of tests in learning paths in learner follow-up**
+**إخفاء علامة النسبة المئوية في متوسط الاختبارات في مسارات التعلم في متابعة المتعلم**
 
-Hides the icon of percentage in 'Average of tests in Learning Paths' indication on a student tracking
+يخفي أيقونة النسبة المئوية في إشارة "متوسط الاختبارات في مسارات التعلم" في تتبع الطالب.
 
-*Default: `false`*
+*القيمة الافتراضية: `false`*
 
 ### `student_follow_page_include_not_subscribed_lp_students`
 
-**Include learning paths not subscribed to on learner follow-up page**
+**تضمين مسارات التعلم غير المشترك فيها في صفحة متابعة المتعلم**
 
-[inferred] Show learning paths on progress pages even when learners are not subscribed to them.
+[inferred] عرض مسارات التعلم في صفحات التقدم حتى لو لم يكن المتعلمون مشتركين فيها.
 
-*Default: `false`*
+*القيمة الافتراضية: `false`*
 
 ### `ticket_lp_quiz_info_add`
 
-**Add learning paths and tests info to ticket reporting**
+**إضافة معلومات مسارات التعلم والاختبارات إلى تقارير التذاكر**
 
-[inferred] Include learning path and test information in support ticket reporting for better issue tracking.
+[inferred] تضمين معلومات مسار التعلم والاختبار في تقارير تذاكر الدعم لتتبع المشكلات بشكل أفضل.
 
-*Default: `false`*
+*القيمة الافتراضية: `false`*
 
 ### `validate_lp_prerequisite_from_other_session`
 
-**Use learning path item status from other sessions**
+**استخدام حالة عنصر مسار التعلم من جلسات أخرى**
 
-Allow users to complete prerequisites in a learning path if the corresponding item was already completed in another session.
+السماح للمستخدمين بإكمال الشروط السابقة في مسار تعلم إذا تم إكمال العنصر المقابل بالفعل في جلسة أخرى.
 
-*Default: `false`*
-
+*القيمة الافتراضية: `false`*

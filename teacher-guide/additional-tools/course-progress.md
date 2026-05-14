@@ -1,33 +1,33 @@
-# Course Progress
+# تقدم الدورة
 
-The course progress tool helps you define the thematic structure of your course and track how much of the planned content has been delivered.
+أداة تقدم الدورة تساعدك في تحديد الهيكل الموضوعي لدورتك وتتبع مقدار المحتوى المخطط الذي تم تقديمه.
 
-To students, it is a useful tool for those who have been sick for a few days and could not attend class, as they will known what topics have been talked about and how far the rest of the class has progressed in their absence.
+بالنسبة للطلاب، إنها أداة مفيدة لأولئك الذين كانوا مرضى لبضعة أيام ولم يتمكنوا من حضور الدرس، حيث سيتمكنون من معرفة المواضيع التي تم مناقشتها ومدى تقدم باقي الصف في غيابهم.
 
-## How It Works
+## كيفية عملها
 
-Course progress is organized into three layers:
+يتم تنظيم تقدم الدورة في ثلاث طبقات:
 
-* **Thematic sections** — The main topics or modules of your course
-* **Thematic plan** — For each section, what you intend to cover. Each plan entry is one of a fixed set of types: **Objectives**, **Skills to acquire**, **Methodology**, **Infrastructure**, **Assessment**, or **Others**.
-* **Thematic advance** — Discrete delivery records under each section, each with a start date and a duration in hours. Mark advances as **done** as you deliver them to track real progress against the plan.
+* **الأقسام الموضوعية** — المواضيع أو الوحدات الرئيسية لدورتك
+* **الخطة الموضوعية** — لكل قسم، ما تنوي تغطيته. كل مدخل في الخطة هو أحد أنواع ثابتة: **أهداف**، **مهارات للكتسب**، **منهجية**، **بنية تحتية**، **تقييم**، أو **أخرى**.
+* **التقدم الموضوعي** — سجلات تقديم منفصلة تحت كل قسم، كل منها مع تاريخ بداية ومدة بالساعات. قم بعلامة التقدمات كـ **مكتملة** أثناء تقديمها لتتبع التقدم الحقيقي مقابل الخطة.
 
-## Setting Up Course Progress
+## إعداد تقدم الدورة
 
-1. Open the **Course progress** tool from the course homepage
-2. Create **thematic sections** that correspond to your course's main topics or modules
-3. Within each section, add **plan** entries by type to describe what you intend to cover
-4. As you deliver the content, add **thematic advances** with their date and duration, and mark them as done
-5. Decide the visibility of that information on the course homepage by changing the related settings in the **Course settings** section (cog icon at the top of the course homepage)
+1. افتح أداة **تقدم الدورة** من الصفحة الرئيسية للدورة
+2. أنشئ **أقسامًا موضوعية** تتوافق مع المواضيع أو الوحدات الرئيسية لدورتك
+3. داخل كل قسم، أضف مدخلات **الخطة** حسب النوع لوصف ما تنوي تغطيته
+4. أثناء تقديم المحتوى، أضف **تقدمات موضوعية** مع تاريخها ومدتها، وقم بعلامتها كمكتملة
+5. قرر رؤية تلك المعلومات على الصفحة الرئيسية للدورة عن طريق تغيير الإعدادات ذات الصلة في قسم **إعدادات الدورة** (أيقونة الترس في أعلى الصفحة الرئيسية للدورة)
 
-You can optionally link a thematic advance to an attendance sheet so its start date is pulled from your attendance records. Sections (with their plan and advances) can also be **copied** within the same course/session.
+يمكنك بشكل اختياري ربط تقدم موضوعي بجدول حضور بحيث يتم سحب تاريخ البدء من سجلات الحضور الخاصة بك. يمكن أيضًا **نسخ** الأقسام (مع خطتها وتقدماتها) داخل نفس الدورة/الجلسة.
 
-## Use Cases
+## حالات الاستخدام
 
-* **Track your teaching plan** — Monitor which parts of the course have been delivered and which remain
-* **Attendance integration** — Course progress can work alongside the attendance tool to correlate presence with topics covered
-* **Reporting** — Get a clear view of course delivery status over time
+* **تتبع خطة التدريس** — مراقبة أي أجزاء من الدورة تم تقديمها وأيها ما زال متبقيًا
+* **تكامل الحضور** — يمكن لتقدم الدورة العمل جنبًا إلى جنب مع أداة الحضور لربط الحضور بالمواضيع المغطاة
+* **التقارير** — الحصول على نظرة واضحة على حالة تقديم الدورة عبر الزمن
 
-## For Learners
+## للمتعلمين
 
-Learners can view the course progress to understand the course structure and see what topics have been covered so far. This is particularly useful for learners who join late or miss sessions.
+يمكن للمتعلمين عرض تقدم الدورة لفهم هيكل الدورة ورؤية المواضيع التي تم تغطيتها حتى الآن. هذا مفيد بشكل خاص للمتعلمين الذين ينضمون متأخرين أو يغيبون عن الجلسات.

@@ -1,59 +1,59 @@
-# Video Conferencing
+# مؤتمرات الفيديو
 
-Chamilo integrates with video conferencing platforms to enable live sessions within courses.
+يدمج Chamilo مع منصات مؤتمرات الفيديو لتمكين الجلسات الحية داخل الدورات.
 
-## Supported Platforms
+## المنصات المدعومة
 
 ### BigBlueButton
 
-**BigBlueButton** (BBB) is an open-source web conferencing system designed for online learning. It is the most commonly used video conferencing solution with Chamilo.
+**BigBlueButton** (BBB) هو نظام مؤتمرات ويب مفتوح المصدر مصمم للتعلم عبر الإنترنت. إنه أكثر حلول مؤتمرات الفيديو شيوعًا مع Chamilo.
 
-#### Configuration
+#### الإعداد
 
-1. Install BigBlueButton on a separate server (see [BigBlueButton documentation](https://docs.bigbluebutton.org/))
-2. Use bbb-conf --salt on the BBB server to get the integration details
-3. In Chamilo platform settings, **Plugins**, install the Videoconference plugin and enter its config to set:
-   * **BBB server URL** — The address of your BBB server
-   * **BBB salt/secret** — The API secret from your BBB server
-4. Save
-5. **Enable** the Videoconference plugin
-6. Some special features are available to admins, so make sure you enable it in the *admin_page* region
+1. قم بتثبيت BigBlueButton على خادم منفصل (انظر [وثائق BigBlueButton](https://docs.bigbluebutton.org/))
+2. استخدم bbb-conf --salt على خادم BBB للحصول على تفاصيل التكامل
+3. في إعدادات منصة Chamilo، **Plugins**، قم بتثبيت إضافة Videoconference وأدخل إعداداتها لتحديد:
+   * **BBB server URL** — عنوان خادم BBB الخاص بك
+   * **BBB salt/secret** — سر API من خادم BBB الخاص بك
+4. احفظ
+5. **فعّل** إضافة Videoconference
+6. بعض الميزات الخاصة متاحة للمشرفين، لذا تأكد من تمكينها في منطقة *admin_page*
 
-#### Features Available in Chamilo
+#### الميزات المتاحة في Chamilo
 
-* Start/join meetings from within a course
-* Automatic room creation per course
-* Meeting recordings (if enabled)
-* Screen sharing, whiteboard, breakout rooms
-* Chat alongside video
+* بدء/الانضمام إلى الاجتماعات من داخل الدورة
+* إنشاء غرفة تلقائي لكل دورة
+* تسجيلات الاجتماعات (إذا تم تمكينها)
+* مشاركة الشاشة، السبورة البيضاء، غرف الفرق الفرعية
+* الدردشة جنبًا إلى جنب مع الفيديو
 
 ### Zoom
 
-Chamilo can also integrate with **Zoom** for video conferencing.
+يمكن لـ Chamilo أيضًا التكامل مع **Zoom** لمؤتمرات الفيديو.
 
-#### Configuration
+#### الإعداد
 
-1. Create a Zoom app in the Zoom Marketplace
-2. In Chamilo, configure the Zoom API credentials
-3. Enable the Zoom integration
+1. أنشئ تطبيق Zoom في Zoom Marketplace
+2. في Chamilo، قم بإعداد بيانات اعتماد Zoom API
+3. فعّل تكامل Zoom
 
-#### How It Works
+#### كيفية العمل
 
-When Zoom is configured, teachers can create and launch Zoom meetings from within their course. Learners join through the Chamilo interface.
+عند إعداد Zoom، يمكن للمعلمين إنشاء وإطلاق اجتماعات Zoom من داخل دورتهم. ينضم المتعلمون عبر واجهة Chamilo.
 
-## Choosing Between BBB and Zoom
+## الاختيار بين BBB و Zoom
 
-| Feature | BigBlueButton | Zoom |
+| الميزة | BigBlueButton | Zoom |
 |---------|--------------|------|
-| Cost | Free (open-source), but requires your own server | Requires a Zoom subscription |
-| Hosting | Self-hosted | Cloud-hosted by Zoom |
-| Integration depth | Deep (built for LMS use) | Standard |
-| Recording | Server-side, stored on your infrastructure | Zoom cloud or local |
-| Whiteboard | Built-in | Built-in |
-| Breakout rooms | Yes | Yes |
+| التكلفة | مجاني (مفتوح المصدر)، لكنه يتطلب خادمك الخاص | يتطلب اشتراك Zoom |
+| الاستضافة | ذاتي الاستضافة | مستضافة على السحابة بواسطة Zoom |
+| عمق التكامل | عميق (مصمم لاستخدام LMS) | قياسي |
+| التسجيل | من جانب الخادم، مخزن على بنيتك التحتية | سحابة Zoom أو محلي |
+| السبورة البيضاء | مدمج | مدمج |
+| غرف الفرق الفرعية | نعم | نعم |
 
-## Tips
+## نصائح
 
-* **Separate server for BBB** — BigBlueButton should run on its own dedicated server for best performance, not on the same server as Chamilo
-* **Test before classes** — Always test the video conferencing setup before a live session
-* **Check bandwidth** — Ensure your server and network can handle the expected number of concurrent users
+* **خادم منفصل لـ BBB** — يجب تشغيل BigBlueButton على خادم مخصص له للحصول على أفضل أداء، وليس على نفس خادم Chamilo
+* **اختبر قبل الحصص** — اختبر دائمًا إعداد مؤتمرات الفيديو قبل جلسة حية
+* **تحقق من عرض النطاق الترددي** — تأكد من أن خادمك والشبكة يمكنهما التعامل مع العدد المتوقع من المستخدمين المتزامنين

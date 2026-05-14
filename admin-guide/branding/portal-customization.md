@@ -1,20 +1,20 @@
-# Portal Customization
+# تخصيص البوابة
 
-Customize how your Chamilo platform looks and what information is displayed to users.
+يتم تخصيص مظهر منصة Chamilo والمعلومات المعروضة للمستخدمين.
 
-## Platform Identity
+## هوية المنصة
 
-![The portal customization page showing platform identity settings for name, logo, and institution](/.gitbook/assets/admin-portal-customization.png)
+![صفحة تخصيص البوابة التي تظهر إعدادات هوية المنصة. يتم عرض الاسم والشعار وإعدادات المؤسسة](/.gitbook/assets/admin-portal-customization.png)
 
-Configure the basic identity of your portal:
+يتم تعيين الهوية الأساسية للبوابة:
 
-* **Platform name** — The name shown in the browser title and throughout the interface
-* **Institution name** — Your organization's name
-* **Institution URL** — A link to your organization's website
-* **Platform logo** — Upload your organization's logo (displayed in the top bar)
+* **اسم المنصة** — الاسم الذي يظهر في عنوان المتصفح وواجهة المستخدم بأكملها
+* **اسم المؤسسة** — اسم منظمتك
+* **رابط المؤسسة** — رابط موقع الويب الخاص بمنظمتك
+* **شعار المنصة** — رفع شعار منظمتك (يظهر في شريط الأعلى)
 
-## Tips
+## نصائح
 
-* **Keep the homepage clean** — Too much content on the homepage can be overwhelming. Focus on essential announcements and course access.
-* **Update regularly** — Keep system announcements current and remove outdated ones
-* **Upload a high-quality logo** — The logo is one of the most visible branding elements. Use a crisp, appropriately sized image.
+* **الحفاظ على الصفحة الرئيسية بسيطة** — إذا كان هناك الكثير من المحتوى على الصفحة الرئيسية، قد يشعر المستخدمون بالإرهاق. ركز على الإعلانات المهمة والوصول إلى الدورات.
+* **التحديث الدوري** — احتفظ بإعلانات النظام محدثة وحذف ما هو قديم.
+* **رفع شعار عالي الجودة** — الشعار هو أحد أبرز عناصر العلامة التجارية. استخدم صورة واضحة بحجم مناسب.

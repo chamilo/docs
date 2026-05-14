@@ -1,23 +1,23 @@
-# Archive Cleanup
+# تنظيف الأرشيف
 
-Over time, Chamilo accumulates temporary files in its cache and archive directories. Regular cleanup prevents disk space issues.
+مع مرور الوقت، يتراكم في Chamilo ملفات مؤقتة في مجلدات التخزين المؤقت والأرشيف. يمنع التنظيف الدوري مشكلات مساحة القرص.
 
-## What Can Be Cleaned
+## ما يمكن تنظيفه
 
-* **Symfony cache** — Compiled templates, cached configuration, and routing data
-* **Temporary files** — Files generated during export, import, and other operations
-* **Session data** — Expired PHP session files
-* **Log files** — Old log files that are no longer needed
+* **Symfony cache** — القوالب المترجمة، وتكوين التخزين المؤقت، وبيانات التوجيه
+* **الملفات المؤقتة** — الملفات الناتجة أثناء التصدير، والاستيراد، وعمليات أخرى
+* **بيانات الجلسة** — ملفات جلسات PHP المنتهية الصلاحية
+* **ملفات السجلات** — ملفات السجلات القديمة غير الضرورية بعد الآن
 
-## Performing Cleanup
+## تنفيذ التنظيف
 
-### From the Administration Panel
+### من لوحة الإدارة
 
-Navigate to **Archive cleanup** in the administration panel. Click the cleanup button to remove temporary files.
+انتقل إلى **تنظيف الأرشيف** في لوحة الإدارة. انقر على زر التنظيف لإزالة الملفات المؤقتة.
 
-### From the Command Line
+### من سطر الأوامر
 
-For more control, use Symfony console commands:
+للحصول على تحكم أكبر، استخدم أوامر وحدة تحكم Symfony:
 
 ```bash
 # Clear the Symfony cache
@@ -27,8 +27,8 @@ php bin/console cache:clear
 php bin/console cache:clear --env=prod
 ```
 
-## Tips
+## نصائح
 
-* **Schedule regular cleanups** — Set up a weekly or monthly cron job to clear temporary files
-* **Monitor disk usage** — Keep an eye on the `var/` directory size, as it grows with cache and log files
-* **Be careful with logs** — Before deleting log files, check if they contain information you might need for troubleshooting
+* **جدولة تنظيفات دورية** — قم بإعداد مهمة cron أسبوعية أو شهرية لمسح الملفات المؤقتة
+* **مراقبة استخدام القرص** — راقب حجم مجلد `var/`، حيث ينمو مع ملفات التخزين المؤقت والسجلات
+* **كن حذراً مع السجلات** — قبل حذف ملفات السجلات، تحقق مما إذا كانت تحتوي على معلومات قد تحتاجها لاستكشاف الأخطاء

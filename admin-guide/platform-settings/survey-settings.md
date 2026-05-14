@@ -1,111 +1,112 @@
-# Surveys Settings
+# إعدادات الاستطلاعات
 
-Defaults and behaviour of the **Surveys** tool.
+الإعدادات الافتراضية وسلوك أداة **Surveys**.
 
-Access these settings under **Administration > Configuration settings > Surveys**. This category contains **12 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+الوصول إلى هذه الإعدادات تحت **إدارة > إعدادات التكوين > Surveys**. تحتوي هذه الفئة على **12 إعدادًا**، مدرجة أدناه مع العنوان والتعليق المرسل في إعدادات المنصة (`SettingsCurrentFixtures.php`).
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> يُعرض اسم المتغير في الكود بخط monospace. استخدمه عند البرمجة عبر API أو عند الحاجة إلى تغيير هذه الإعدادات على المستوى العام بتحرير [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
 
-## Settings
+## الإعدادات
 
 ### `extend_rights_for_coach_on_survey`
 
-**Extend rights for coachs on surveys**
+**توسيع الحقوق للمدربين في الاستطلاعات**
 
-Activate this option will allow the coachs to create and edit surveys
+تفعيل هذا الخيار سيسمح للمدربين بإنشاء وتحرير الاستطلاعات
 
-*Default: `true`*
+*افتراضي: `true`*
 
 
 ### `hide_survey_edition`
 
-**Prevent survey edition**
+**منع تحرير الاستطلاعات**
 
-Prevent editing surveys for all surveys listed here (by code). Use * to prevent edition of all surveys.
+منع تحرير الاستطلاعات لجميع الاستطلاعات المدرجة هنا (حسب الكود). استخدم * لمنع تحرير جميع الاستطلاعات.
+
 
 ### `hide_survey_reporting_button`
 
-**Hide survey reporting button**
+**إخفاء زر تقارير الاستطلاع**
 
-Allows admins to hide survey reporting button if surveys are used to survey teachers.
+يسمح للمسؤولين بإخفاء زر تقارير الاستطلاع إذا كانت الاستطلاعات تُستخدم لاستطلاع آراء المعلمين.
 
-*Default: `false`*
+*افتراضي: `false`*
 
 
 ### `show_pending_survey_in_menu`
 
-**Show "Pending surveys" in menu**
+**عرض "الاستطلاعات المعلقة" في القائمة**
 
-Display a menu item that lets users access their pending surveys.
+عرض عنصر قائمة يسمح للمستخدمين بالوصول إلى استطلاعاتهم المعلقة.
 
-*Default: `false`*
+*افتراضي: `false`*
 
 
 ### `show_surveys_base_in_sessions`
 
-**Display surveys from base course in all session courses**
+**عرض استطلاعات الدورة الأساسية في جميع دورات الجلسات**
 
-[inferred] Make surveys from the base course visible and available to learners in all related session courses.
+[inferred] جعل استطلاعات الدورة الأساسية مرئية ومتاحة للمتعلمين في جميع دورات الجلسات المرتبطة.
 
-*Default: `false`*
+*افتراضي: `false`*
 
 
 ### `survey_additional_teacher_modify_actions`
 
-**Add additional actions (as links) to survey lists for teachers**
+**إضافة إجراءات إضافية (كروابط) إلى قوائم الاستطلاعات للمعلمين**
 
-Add actions (usually connected to plugins) in the list of surveys. Use array syntax ['myplugin' => ['MyPlugin', 'urlGeneratorCallback']].
+إضافة إجراءات (عادةً مرتبطة بإضافات) في قائمة الاستطلاعات. استخدم صيغة المصفوفة ['myplugin' => ['MyPlugin', 'urlGeneratorCallback']].
+
 
 ### `survey_allow_answered_question_edit`
 
-**Allow teachers to edit survey questions after students answered**
+**السماح للمعلمين بتحرير أسئلة الاستطلاع بعد إجابة الطلاب**
 
-[inferred] Allow instructors to modify survey questions even after learners have submitted responses.
+[inferred] السماح للمدربين بتعديل أسئلة الاستطلاع حتى بعد تقديم المتعلمين لإجاباتهم.
 
-*Default: `false`*
+*افتراضي: `false`*
 
 
 ### `survey_anonymous_show_answered`
 
-**Allow teachers to see who answered in anonymous surveys**
+**السماح للمعلمين برؤية من أجاب في الاستطلاعات المجهولة**
 
-Allow teachers to see which learners have already answered an anonymous survey. This only appears once more than one user has answered, so it remains difficult to identify who answered what.
+السماح للمعلمين برؤية أي المتعلمين قد أجابوا بالفعل على استطلاع مجهول. يظهر هذا فقط بعد أن يجيب أكثر من مستخدم واحد، مما يجعله صعب التعرف على من أجاب على ماذا.
 
-*Default: `false`*
+*افتراضي: `false`*
 
 
 ### `survey_backwards_enable`
 
-**Enable 'previous question' button in surveys**
+**تفعيل زر "السؤال السابق" في الاستطلاعات**
 
-[inferred] Enable a "previous question" navigation button to allow learners to review earlier survey questions.
+[inferred] تفعيل زر تنقل "السؤال السابق" للسماح للمتعلمين بمراجعة أسئلة الاستطلاع السابقة.
 
-*Default: `false`*
+*افتراضي: `false`*
 
 
 ### `survey_duplicate_order_by_name`
 
-**Order by student name when using survey duplication feature**
+**ترتيب حسب اسم الطالب عند استخدام ميزة تكرار الاستطلاع**
 
-The survey duplication feature is oriented towards teachers and is meant to ask teachers to give their appreciation about each student in order. This option will order the questions by learner's lastname.
+ميزة تكرار الاستطلاع موجهة نحو المعلمين وتهدف إلى طلب من المعلمين تقييم كل طالب بالترتيب. سيُرتب هذا الخيار الأسئلة حسب لقب المتعلم.
 
-*Default: `true`*
+*افتراضي: `true`*
 
 
 ### `survey_email_sender_noreply`
 
-**Survey e-mail sender (no-reply)**
+**مرسل بريد الاستطلاع الإلكتروني (لا رد)**
 
-Should the survey invitations use the coach e-mail address or the no-reply address defined in the main configuration section?
+هل يجب أن تستخدم دعوات الاستطلاع عنوان بريد المدرب الإلكتروني أم عنوان عدم الرد المحدد في قسم التكوين الرئيسي؟
 
-*Default: `coach`*
+*افتراضي: `coach`*
 
 
 ### `survey_mark_question_as_required`
 
-**Mark all survey questions as 'required' by default**
+**وضع علامة على جميع أسئلة الاستطلاع كـ"مطلوبة" افتراضيًا**
 
-[inferred] Automatically mark all newly created survey questions as required responses by default.
+[inferred] وضع علامة تلقائيًا على جميع أسئلة الاستطلاع الجديدة كإجابات مطلوبة افتراضيًا.
 
-*Default: `false`*
-
+*افتراضي: `false`*

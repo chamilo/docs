@@ -1,46 +1,46 @@
-# Blog
+# المدونة
 
-The blog tool lets you create a shared blog within your course. Learners can write posts, leave comments, and engage in structured writing activities.
+يسمح أداة المدونة بإنشاء مدونة مشتركة داخل مساقك. يمكن للمتعلمين كتابة منشورات، وترك تعليقات، والمشاركة في أنشطة كتابة منظمة.
 
-## Creating a Blog
+## إنشاء مدونة
 
-1. Open the **Blog** tool from the course homepage (under the cog icon at the top)
-2. Click **New project**
-3. Enter a **title** and optional subtitle
-4. Save
-5. Decide when you want to make it available to students by clicking the **Show** (eye) icon
+1. افتح أداة **Blog** من الصفحة الرئيسية للمساق (تحت أيقونة الترس في الأعلى)
+2. انقر على **New project**
+3. أدخل **عنوانًا** ونصًا فرعيًا اختياريًا
+4. احفظ
+5. قرر متى تريد جعلها متاحة للطلاب بالنقر على أيقونة **Show** (العين)
 
-You can create multiple blogs within a single course (e.g., one per topic or one per group).
+يمكنك إنشاء مدونات متعددة داخل مساق واحد (مثل واحدة لكل موضوع أو واحدة لكل مجموعة).
 
-## Writing Blog Posts
+## كتابة منشورات المدونة
 
-1. Open a blog
-2. Click **New post**
-3. Enter a **title** and write the post content using the rich-text editor
-4. Save
+1. افتح مدونة
+2. انقر على **New post**
+3. أدخل **عنوانًا** واكتب محتوى المنشور باستخدام محرر النصوص الغني
+4. احفظ
 
-Both teachers and learners (depending on permissions) can create posts.
+يمكن لكل من المعلمين والمتعلمين (حسب الصلاحيات) إنشاء منشورات.
 
-## Comments and Ratings
+## التعليقات والتقييمات
 
-Readers can interact with blog posts through:
+يمكن للقراء التفاعل مع منشورات المدونة من خلال:
 
-* **Comments** — Leave feedback or start a discussion under a post (comments can also be threaded as replies to other comments)
-* **Ratings** — Rate posts to highlight the most valued contributions
-* **Attachments** — Both posts and comments can carry file attachments
+* **التعليقات** — ترك تعليقات أو بدء مناقشة تحت المنشور (يمكن أن تكون التعليقات متداخلة كردود على تعليقات أخرى)
+* **التقييمات** — تقييم المنشورات لإبراز المساهمات الأكثر قيمة
+* **المرفقات** — يمكن للمنشورات والتعليقات حمل مرفقات ملفات
 
-## Blog Tasks
+## مهام المدونة
 
-You can create **tasks** within a blog — specific writing assignments that learners must complete as blog posts. This is useful for:
+يمكنك إنشاء **مهام** داخل المدونة — واجبات كتابة محددة يجب على المتعلمين إكمالها كمنشورات مدونة. هذا مفيد لـ:
 
-* Reflective journals
-* Weekly writing assignments
-* Project update reports
+* الدفاتر التأملية
+* واجبات الكتابة الأسبوعية
+* تقارير تحديث المشاريع
 
-## Managing the Blog
+## إدارة المدونة
 
-As the teacher, you can:
+كمعلم، يمكنك:
 
-* **Edit or delete** posts and comments (post deletion is restricted to the post author or to teachers)
-* **Toggle blog visibility** to show or hide the blog from learners
-* **Define tasks** — Add specific writing assignments learners are expected to complete as posts. Tasks can be color-coded for easier visual grouping.
+* **تعديل أو حذف** المنشورات والتعليقات (حذف المنشور مقتصر على مؤلف المنشور أو المعلمين)
+* **تبديل رؤية المدونة** لإظهارها أو إخفاءها عن المتعلمين
+* **تحديد المهام** — إضافة واجبات كتابة محددة يُتوقع من المتعلمين إكمالها كمنشورات. يمكن ترميز المهام بالألوان لتسهيل التجميع البصري.

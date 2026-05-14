@@ -1,73 +1,73 @@
-# Tracking Settings
+# إعدادات التتبع
 
-Tracking-related defaults — what is recorded, what reports are exposed, time computation rules.
+الإعدادات الافتراضية المتعلقة بالتتبع — ما يتم تسجيله، ما هي التقارير المعروضة، قواعد حساب الوقت.
 
-Access these settings under **Administration > Configuration settings > Tracking**. This category contains **10 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+يمكن الوصول إلى هذه الإعدادات تحت **إدارة > إعدادات التكوين > التتبع**. تحتوي هذه الفئة على **10 إعدادات**، مدرجة أدناه مع العنوان والتعليق المرسل في إعدادات المنصة (`SettingsCurrentFixtures.php`).
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> يتم عرض اسم المتغير في الكود بخط monospace. استخدمه عند البرمجة عبر `API` أو عند الحاجة إلى تغيير هذه الإعدادات على المستوى العام عن طريق تحرير [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
 
-## Settings
+## الإعدادات
 
 ### `block_my_progress_page`
 
-**Prevent access to 'My progress'**
+**منع الوصول إلى 'تقدمي'**
 
-In specific implementations like online exams, you might want to prevent user access to the 'My progress' page.
+في تنفيذات محددة مثل الامتحانات عبر الإنترنت، قد ترغب في منع وصول المستخدم إلى صفحة 'تقدمي'.
 
-*Default: `false`*
+*الافتراضي: `false`*
 
 ### `footer_extra_content`
 
-**Extra content in footer**
+**محتوى إضافي في تذييل الصفحة**
 
-You can add HTML code like meta tags
+يمكنك إضافة كود HTML مثل علامات meta
 
 ### `header_extra_content`
 
-**Extra content in header**
+**محتوى إضافي في رأس الصفحة**
 
-You can add HTML code like meta tags
+يمكنك إضافة كود HTML مثل علامات meta
 
 ### `meta_description`
 
-**Meta description**
+**وصف meta**
 
-This will show an OpenGraph Description meta (og:description) in your site's headers
+سيظهر هذا وصف OpenGraph meta (og:description) في رؤوس موقعك
 
 ### `meta_image_path`
 
-**Meta image path**
+**مسار صورة meta**
 
-This Meta Image path is the path to a file inside your Chamilo directory (e.g. home/image.png) that should show in a Twitter card or a OpenGraph card when showing a link to your LMS. Twitter recommends an image of 120 x 120 pixels, which might sometimes be cropped to 120x90.
+هذا مسار الصورة meta هو مسار إلى ملف داخل دليل Chamilo الخاص بك (مثل home/image.png) يجب أن يظهر في بطاقة Twitter أو بطاقة OpenGraph عند عرض رابط إلى LMS الخاص بك. يوصي Twitter بصورة بحجم 120 × 120 بكسل، والتي قد تُقصّ أحيانًا إلى 120×90.
 
 ### `meta_title`
 
-**OpenGraph meta title**
+**عنوان meta OpenGraph**
 
-This will show an OpenGraph Title meta (og:title) in your site's headers
+سيظهر هذا عنوان OpenGraph meta (og:title) في رؤوس موقعك
 
 ### `meta_twitter_creator`
 
-**Twitter Creator account**
+**حساب Twitter Creator**
 
-The Twitter Creator is a Twitter account (e.g. @ywarnier) that represents the *person* that created the site. This field is optional.
+حساب Twitter Creator هو حساب Twitter (مثل @ywarnier) يمثل *الشخص* الذي أنشأ الموقع. هذا الحقل اختياري.
 
 ### `meta_twitter_site`
 
-**Twitter Site account**
+**حساب Twitter Site**
 
-The Twitter site is a Twitter account (e.g. @chamilo_news) that is related to your site. It is usually a more temporary account than the Twitter creator account, or represents an entity (instead of a person). This field is required if you want the Twitter card meta fields to show.
+حساب Twitter Site هو حساب Twitter (مثل @chamilo_news) مرتبط بموقعك. عادةً ما يكون حسابًا أكثر مؤقتًا من حساب Twitter Creator، أو يمثل كيانًا (بدلاً من شخص). هذا الحقل مطلوب إذا كنت تريد عرض حقول meta بطاقة Twitter.
 
 ### `my_progress_course_tools_order`
 
-**Order of tools on 'My progress' page**
+**ترتيب الأدوات في صفحة 'تقدمي'**
 
-Change the order of tools shown on the 'My progress' page for learners. Options include 'quizzes', 'learning_paths' and 'skills'.
+غيّر ترتيب الأدوات المعروضة في صفحة 'تقدمي' للمتعلمين. تشمل الخيارات 'quizzes'، 'learning_paths' و 'skills'.
 
 ### `tracking_skip_generic_data`
 
-**Skip generic data in learner self-tracking page**
+**تخطي البيانات العامة في صفحة تتبع المتعلم الذاتي**
 
-If the 'My progress' page takes too long to load, you might want to remove the processing of generic statistics for the user. In this case enable this setting.
+إذا كانت صفحة 'تقدمي' تستغرق وقتًا طويلاً في التحميل، قد ترغب في إزالة معالجة الإحصاءات العامة للمستخدم. في هذه الحالة، فعّل هذا الإعداد.
 
-*Default: `false`*
+*الافتراضي: `false`*

@@ -1,12 +1,12 @@
-# Testing
+# الاختبار
 
-## PHP Testing
+## اختبار PHP
 
-Chamilo uses **PHPUnit** for backend testing.
+يستخدم **Chamilo** برنامج **PHPUnit** لاختبار الخلفية.
 
-### Test Database Setup
+### إعداد قاعدة بيانات الاختبار
 
-Tests require a dedicated database. Create `.env.test.local` with your test database credentials:
+تتطلب الاختبارات قاعدة بيانات مخصصة. أنشئ `.env.test.local` مع بيانات اعتماد قاعدة بيانات الاختبار:
 
 ```ini
 DATABASE_HOST='127.0.0.1'
@@ -16,7 +16,7 @@ DATABASE_USER='root'
 DATABASE_PASSWORD='root'
 ```
 
-Then initialise the test database:
+ثم قم بتهيئة قاعدة بيانات الاختبار:
 
 ```bash
 php bin/console --env=test cache:clear
@@ -25,28 +25,28 @@ php bin/console --env=test doctrine:schema:create
 php bin/console --env=test doctrine:fixtures:load --no-interaction
 ```
 
-To reset after schema changes:
+لإعادة التعيين بعد تغييرات في المخطط:
 
 ```bash
 php bin/console --env=test doctrine:schema:update --force --complete
 ```
 
-### Running Tests
+### تشغيل الاختبارات
 
 ```bash
-# Run all tests
+# تشغيل جميع الاختبارات
 php bin/phpunit
 
-# Run a specific test file
+# تشغيل ملف اختبار محدد
 php bin/phpunit tests/CoreBundle/Repository/UserRepositoryTest.php
 
-# Run tests with HTML coverage report
+# تشغيل الاختبارات مع تقرير تغطية HTML
 php bin/phpunit --coverage-html var/coverage
 ```
 
-### Test Location
+### موقع الاختبارات
 
-Tests are in the `tests/` directory:
+توجد الاختبارات في دليل `tests/`:
 
 ```
 tests/
@@ -70,76 +70,76 @@ tests/
 └── ChamiloTestTrait.php # Shared test helpers
 ```
 
-### Test Types
+### أنواع الاختبارات
 
-* **Unit/Integration tests** — PHPUnit tests in `CoreBundle/` and `CourseBundle/`; most hit a real database (via `dama/doctrine-test-bundle`)
-* **Functional (API) tests** — Extend `AbstractApiTest` and test HTTP endpoints end-to-end
-* **Behat tests** — Browser-level acceptance tests in `tests/behat/features/` (see below)
+* **اختبارات الوحدة/التكامل** — اختبارات PHPUnit في `CoreBundle/` و`CourseBundle/`؛ معظمها يصل إلى قاعدة بيانات حقيقية (عبر `dama/doctrine-test-bundle`)
+* **اختبارات وظيفية (API)** — تمتد `AbstractApiTest` وتختبر نقاط نهاية HTTP من نهاية إلى نهاية
+* **اختبارات Behat** — اختبارات قبول على مستوى المتصفح في `tests/behat/features/` (انظر أدناه)
 
-## Behat (End-to-End) Tests
+## اختبارات Behat (من نهاية إلى نهاية)
 
-Chamilo has a Behat test suite for browser-level acceptance testing. It requires a running Chamilo instance, Chrome, and ChromeDriver.
+يحتوي **Chamilo** على مجموعة اختبار Behat لاختبار القبول على مستوى المتصفح. يتطلب تشغيل نسخة Chamilo، Chrome، وChromeDriver.
 
 ```bash
-# From the tests/behat/ directory:
+# من دليل tests/behat/:
 ../../vendor/behat/behat/bin/behat features/actionInstall.feature
 ../../vendor/behat/behat/bin/behat features/createUser.feature
 ../../vendor/behat/behat/bin/behat features/createCourse.feature
 
-# Or run all features:
+# أو تشغيل جميع الميزات:
 ../../vendor/behat/behat/bin/behat
 ```
 
-Configure the base URL in `tests/behat/behat.yml` before running.
+قم بتكوين عنوان URL الأساسي في `tests/behat/behat.yml` قبل التشغيل.
 
-## Frontend Checks
+## فحوصات الواجهة الأمامية
 
 ```bash
-# Lint JavaScript/Vue (ESLint with Prettier)
+# فحص JavaScript/Vue (ESLint مع Prettier)
 yarn eslint assets/vue/
 
-# Type-check TypeScript
+# فحص أنواع TypeScript
 yarn tsc --noEmit
 
-# Build production assets (verifies the entire build compiles)
+# بناء أصول الإنتاج (يتحقق من تجميع البناء بأكمله)
 yarn build
 ```
 
-## PHP Code Quality
+## جودة كود PHP
 
-Chamilo uses **ECS** (Easy Coding Standard), **PHPStan**, and **Psalm** for code quality. Composer shortcuts are available for each:
+يستخدم **Chamilo** أدوات **ECS** (Easy Coding Standard)، و**PHPStan**، و**Psalm** لجودة الكود. تتوفر اختصارات Composer لكل منها:
 
 ```bash
-# Check code style (ECS — Easy Coding Standard)
+# فحص أسلوب الكود (ECS — Easy Coding Standard)
 composer phpcs
-# or directly:
+# أو مباشرة:
 vendor/bin/ecs check
 
-# Auto-fix code style violations
+# إصلاح مخالفات أسلوب الكود تلقائيًا
 composer phpcs-fix
-# or directly:
+# أو مباشرة:
 vendor/bin/ecs check --fix
 
-# Static analysis with PHPStan (level 5, scans src/ and tests/)
+# تحليل ثابت باستخدام PHPStan (مستوى 5، يفحص src/ وtests/)
 composer phpstan
-# or directly:
+# أو مباشرة:
 vendor/bin/phpstan analyse
 
-# Static analysis with Psalm
+# تحليل ثابت باستخدام Psalm
 composer psalm
-# or directly:
+# أو مباشرة:
 vendor/bin/psalm --show-info=false
 ```
 
-Note: there is no `php-cs-fixer` in this project. ECS (`symplify/easy-coding-standard`) is the code style tool.
+ملاحظة: لا يوجد `php-cs-fixer` في هذا المشروع. ECS (`symplify/easy-coding-standard`) هو أداة أسلوب الكود.
 
-## Continuous Integration
+## التكامل المستمر
 
-Pull requests are automatically checked by four GitHub Actions workflows:
+يتم فحص طلبات السحب تلقائيًا بواسطة أربعة تدفقات عمل GitHub Actions:
 
-| Workflow | What it runs |
+| التدفق العملي | ما يشغله |
 |----------|-------------|
-| `phpunit.yml` | PHPUnit test suite |
-| `format_code.yml` | ECS code style check |
-| `php_analysis.yml` | Psalm, Doctrine schema validation, security checker |
-| `behat.yml` | Behat end-to-end tests |
+| `phpunit.yml` | مجموعة اختبار PHPUnit |
+| `format_code.yml` | فحص أسلوب كود ECS |
+| `php_analysis.yml` | Psalm، التحقق من صحة مخطط Doctrine، فاحص الأمان |
+| `behat.yml` | اختبارات Behat من نهاية إلى نهاية |

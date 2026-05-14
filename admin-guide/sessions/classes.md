@@ -1,34 +1,34 @@
-# Classes
+# الفئات
 
-Classes in Chamilo are predefined groups of users that can be enrolled in sessions as a unit. They simplify the enrollment process when you regularly train the same groups of people.
+الفئات في Chamilo هي مجموعات محددة مسبقًا من المستخدمين يمكن تسجيلهم في الجلسات كوحدة واحدة. إنها تبسط عملية التسجيل عندما تقوم بتدريب نفس المجموعات من الأشخاص بانتظام.
 
-> Classes and [User Groups](../../admin-guide/users/user-groups.md) share the same interface. The only difference is the **group type** setting: choose "Class" when creating the group. Everything else — member management, visibility, and the interface itself — works identically.
+> تشترك الفئات و[مجموعات المستخدمين](../../admin-guide/users/user-groups.md) في نفس الواجهة. الفرق الوحيد هو إعداد **نوع المجموعة**: اختر "Class" عند إنشاء المجموعة. كل شيء آخر — إدارة الأعضاء، والرؤية، والواجهة نفسها — يعمل بنفس الطريقة.
 
-## Creating a Class
+## إنشاء فئة
 
-1. From the administration panel, navigate to **Classes** (or User Groups and select the "Class" type)
-2. Click **Create a class**
-3. Enter a **name** (e.g., "Engineering Team", "New Hires March 2026")
-4. Add **members** — search for and select users
-5. Save
+1. من لوحة الإدارة، انتقل إلى **الفئات** (أو مجموعات المستخدمين واختر نوع "Class")
+2. انقر على **إنشاء فئة**
+3. أدخل **اسمًا** (مثل "فريق الهندسة"، "الموظفون الجدد مارس 2026")
+4. أضف **الأعضاء** — ابحث عن المستخدمين وحددّهم
+5. احفظ
 
-## Using Classes for Enrollment
+## استخدام الفئات للتسجيل
 
-When creating or editing a session, you can enroll an entire class at once instead of adding users individually:
+عند إنشاء أو تعديل جلسة، يمكنك تسجيل فئة كاملة دفعة واحدة بدلاً من إضافة المستخدمين فرديًا:
 
-1. Open the session enrollment settings
-2. Click **Add a class**
-3. Select the class
-4. All members of the class are enrolled in the session
+1. افتح إعدادات تسجيل الجلسة
+2. انقر على **إضافة فئة**
+3. حدد الفئة
+4. يتم تسجيل جميع أعضاء الفئة في الجلسة
 
-## Managing Classes
+## إدارة الفئات
 
-* **Edit** — Change the class name or update membership
-* **Add/remove members** — Keep the class roster up to date
-* **Delete** — Remove the class (does not affect the member accounts or their existing enrollments)
+* **تعديل** — تغيير اسم الفئة أو تحديث العضوية
+* **إضافة/إزالة أعضاء** — الحفاظ على قائمة الفئة محدثة
+* **حذف** — إزالة الفئة (لا يؤثر على حسابات الأعضاء أو تسجيلاتهم الحالية)
 
-## Tips
+## نصائح
 
-* **Create classes for recurring cohorts** — If you run the same training for different teams, create a class for each team
-* **Update before each session** — Review class membership before enrolling a class in a new session to ensure the roster is current
-* **Combine with CSV import** — Import class membership from a CSV file for large groups
+* **إنشاء فئات للمجموعات المتكررة** — إذا كنت تقوم بتشغيل نفس التدريب لفرق مختلفة، أنشئ فئة لكل فريق
+* **تحديث قبل كل جلسة** — راجع عضوية الفئة قبل تسجيل فئة في جلسة جديدة للتأكد من أن القائمة محدثة
+* **الجمع مع استيراد CSV** — استورد عضوية الفئة من ملف CSV للمجموعات الكبيرة

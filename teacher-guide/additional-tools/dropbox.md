@@ -1,34 +1,34 @@
 # Dropbox
 
-The dropbox is a file exchange tool that allows you and your learners to share files with each other within the course.
+صندوق الإرسال هو أداة تبادل ملفات تتيح لك ولمتعلميك مشاركة الملفات مع بعضكم البعض داخل الدورة.
 
-> For collecting graded student work, the [Assignments](../assessing-learners/assignments.md) tool is usually more appropriate, as it includes grading and feedback features. The dropbox is better suited for informal file sharing.
+> لجمع أعمال الطلاب المقيمة، عادةً ما تكون أداة [المهام](../assessing-learners/assignments.md) أكثر ملاءمة، حيث تشمل ميزات التقييم والتعليقات. أما صندوق الإرسال فهو أكثر ملاءمة لمشاركة الملفات غير الرسمية.
 
-## Sending a File
+## إرسال ملف
 
-1. Open the **Dropbox** tool from the course homepage
-2. Click **Share a new file**
-3. Select the file to upload
-4. Choose the **recipient(s)** — one or more enrolled users or course groups
-5. Send
+1. افتح أداة **Dropbox** من الصفحة الرئيسية للدورة
+2. انقر على **مشاركة ملف جديد**
+3. حدد الملف للرفع
+4. اختر **المستلم(ين)** — مستخدم واحد أو أكثر مسجلين أو مجموعات الدورة
+5. أرسل
 
-## Receiving Files
+## استلام الملفات
 
-When someone sends you a file, it appears in your dropbox inbox. You can:
+عندما يرسل أحدهم ملفًا إليك، يظهر في صندوق الوارد الخاص بك. يمكنك:
 
-* **Download** the file
-* **Add a comment** to the file (after it has been received)
-* **Move** the file into one of your categories
-* **Delete** the file from your inbox
+* **تنزيل** الملف
+* **إضافة تعليق** إلى الملف (بعد استلامه)
+* **نقل** الملف إلى إحدى فئاتك
+* **حذف** الملف من صندوق الوارد الخاص بك
 
-## Organizing files
+## تنظيم الملفات
 
-Both sent and received files can be organized into custom **categories** (folders). Use the category controls in the dropbox toolbar to create a category, then move files into it. If the platform setting "allow overwrite" is enabled, re-sending a file with the same name lets you overwrite the previous version.
+يمكن تنظيم الملفات المرسلة والمستلمة في **فئات** (مجلدات) مخصصة. استخدم عناصر التحكم في الفئات في شريط أدوات صندوق الإرسال لإنشاء فئة، ثم انقل الملفات إليها. إذا كان إعداد المنصة "allow overwrite" مفعلاً، فإن إعادة إرسال ملف بنفس الاسم يتيح لك الكتابة فوق النسخة السابقة.
 
-You can also batch-download selected files as a ZIP.
+يمكنك أيضًا تنزيل الملفات المحددة بشكل جماعي كملف ZIP.
 
-## As a Teacher
+## كمدرس
 
-* You can send files to individual learners, groups of learners, or all enrolled users
-* You can view files sent to you by learners
-* This tool is useful for sharing supplementary materials, providing individual feedback documents, or receiving informal submissions
+* يمكنك إرسال الملفات إلى متعلم فردي، أو مجموعات من المتعلمين، أو جميع المستخدمين المسجلين
+* يمكنك عرض الملفات التي أرسلها المتعلمون إليك
+* هذه الأداة مفيدة لمشاركة المواد التكميلية، أو تقديم وثائق تعليقات فردية، أو استلام تقديمات غير رسمية

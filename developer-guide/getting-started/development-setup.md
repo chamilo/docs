@@ -1,96 +1,95 @@
-# Development Setup
+# إعداد التطوير
 
-## Prerequisites
+## المتطلبات الأساسية
 
-* PHP 8.2+ with extensions: intl, gd, curl, zip, mbstring, xml, json, pdo, ldap, exif, bcmath
+* PHP 8.2+ مع الامتدادات: intl, gd, curl, zip, mbstring, xml, json, pdo, ldap, exif, bcmath
 * Composer
-* Node.js and npm (or Yarn — the project uses Yarn 4; see `package.json` for the exact pinned version)
-* MySQL 5.7+ or MariaDB 10.11+
+* Node.js و npm (أو Yarn — يستخدم المشروع Yarn 4؛ انظر `package.json` للإصدار المحدد بدقة)
+* MySQL 5.7+ أو MariaDB 10.11+
 * Git
 
-## Installation Steps
+## خطوات التثبيت
 
-### 1. Clone the Repository
+### 1. استنساخ المستودع
 
 ```bash
 git clone https://github.com/chamilo/chamilo-lms.git chamilo
 cd chamilo
 ```
 
-### 2. Install PHP Dependencies
+### 2. تثبيت تبعيات PHP
 
 ```bash
 composer install
 ```
 
-### 3. Configure Environment
+### 3. تهيئة البيئة
 
-The repository ships `.env.dist` as a reference. Create an empty `.env` file that the web installer will populate — keeping it empty ensures upgrades never overwrite your local configuration:
+يأتي المستودع مع `.env.dist` كمرجع. أنشئ ملف `.env` فارغًا سيملأه مثبت الويب — الحفاظ على فراغه يضمن عدم الكتابة فوق تكوينك المحلي أثناء الترقيات:
 
 ```bash
 touch .env
 ```
 
-Then make `.env` and `config/` writable by the web server so the installer can write your local configuration:
+ثم اجعل `.env` و `config/` قابلين للكتابة من قبل خادم الويب حتى يتمكن المثبت من كتابة تكوينك المحلي:
 
 ```bash
 sudo chown -R www-data: .env config/ var/
 ```
 
-### 4. Install Frontend Dependencies and Build
+### 4. تثبيت تبعيات الواجهة الأمامية والبناء
 
 ```bash
-# Install JavaScript dependencies
+# تثبيت تبعيات JavaScript
 yarn install
 
-# Build frontend assets for development
+# بناء أصول الواجهة الأمامية للتطوير
 yarn encore dev
 
-# Or watch for changes during development
+# أو مراقبة التغييرات أثناء التطوير
 yarn encore dev --watch
 ```
 
-### 5. Start the Development Server
+### 5. بدء خادم التطوير
 
 ```bash
 symfony server:start
 ```
 
-Or use Apache/Nginx pointing to the `public/` directory.
+أو استخدم Apache/Nginx مشيرًا إلى دليل `public/` .
 
-### 6. Set Up the Database
+### 6. إعداد قاعدة البيانات
 
-Run the web-based installation wizard by navigating to your Chamilo URL in a browser.
+شغّل معالج التثبيت المبني على الويب بالانتقال إلى عنوان URL الخاص بـ Chamilo في المتصفح.
 
-### 7. Generate JWT Keys
+### 7. إنشاء مفاتيح JWT
 
 ```bash
 php bin/console lexik:jwt:generate-keypair
 ```
 
-### 8. Secure your system
+### 8. تأمين نظامك
 
-The `.env` file and `config/` directory only need to be writeable for the time of the installation. Secure them afterwards:
+يحتاج ملف `.env` ودليل `config/` إلى أن يكونا قابلين للكتابة فقط خلال فترة التثبيت. أمّنهما بعد ذلك:
 
 ```bash
 sudo chown -R root: .env config/
 ```
 
-The `var/` directory needs to remain writeable by the web server.
+يحتاج دليل `var/` إلى أن يظل قابلًا للكتابة من قبل خادم الويب.
 
+## أوامر البناء
 
-## Build Commands
+| الأمر | الغرض |
+|-------|-------|
+| `yarn encore dev` | بناء الواجهة الأمامية للتطوير |
+| `yarn encore dev --watch` | بناء ومراقبة التغييرات |
+| `yarn encore production` | بناء محسن للإنتاج |
+| `php bin/console cache:clear` | مسح ذاكرة التخزين المؤقت لـ Symfony |
 
-| Command | Purpose |
-|---------|---------|
-| `yarn encore dev` | Build frontend for development |
-| `yarn encore dev --watch` | Build and watch for changes |
-| `yarn encore production` | Build optimized for production |
-| `php bin/console cache:clear` | Clear Symfony cache |
+## نصائح التطوير
 
-## Development Tips
-
-* Set `APP_ENV=dev` and `APP_DEBUG=1` in `.env` for detailed error messages
-* The Symfony debug toolbar appears at the bottom of pages in development mode
-* API documentation is available at `/api` when `APP_ENABLE_API_ENTRYPOINT=1`
-* Use `yarn encore dev --watch` to automatically rebuild frontend changes
+* حدد `APP_ENV=dev` و `APP_DEBUG=1` في `.env` لرسائل خطأ مفصلة
+* يظهر شريط أدوات تصحيح Symfony في أسفل الصفحات في وضع التطوير
+* توثيق API متاح على `/api` عندما `APP_ENABLE_API_ENTRYPOINT=1`
+* استخدم `yarn encore dev --watch` لإعادة بناء تغييرات الواجهة الأمامية تلقائيًا

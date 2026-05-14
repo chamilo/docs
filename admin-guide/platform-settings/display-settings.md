@@ -1,202 +1,205 @@
-# Display Settings
+# إعدادات العرض
 
-How the platform is displayed to users — homepage layout, gravatar, menus, branding behaviour and similar visual preferences.
+كيفية عرض المنصة للمستخدمين — تخطيط الصفحة الرئيسية، gravatar، القوائم، سلوك العلامة التجارية وتفضيلات بصرية مشابهة.
 
-Access these settings under **Administration > Configuration settings > Display**. This category contains **24 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+الوصول إلى هذه الإعدادات تحت **إدارة > إعدادات التكوين > عرض**. تحتوي هذه الفئة على **24 إعدادًا**، مدرجة أدناه مع العنوان والتعليق المرسل في إعدادات المنصة الافتراضية (`SettingsCurrentFixtures.php`).
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> يُعرض اسم المتغير في الكود بخط monospace. استخدمه عند البرمجة عبر API أو عند الحاجة إلى تغيير هذه الإعدادات على المستوى العام بتحرير [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
 
-## Settings
+## الإعدادات
 
 ### `accessibility_font_resize`
 
-**Font resize accessibility feature**
+**ميزة إعادة تغيير حجم الخط لإمكانية الوصول**
 
-Enable this option to show a set of font resize options on the top-right side of your campus. This will allow visually impaired to read their course contents more easily.
+قم بتفعيل هذا الخيار لعرض مجموعة من خيارات إعادة تغيير حجم الخط في الجانب الأيمن العلوي من الحرم الجامعي. سيتيح ذلك للمكفوفين بصريًا قراءة محتويات الدورات الدراسية بسهولة أكبر.
 
-*Default: `false`*
+*افتراضي: `false`*
 
 ### `display_categories_on_homepage`
 
-**Display categories on home page**
+**عرض الفئات في الصفحة الرئيسية**
 
-This option will display or hide courses categories on the portal home page
+سيقوم هذا الخيار بعرض أو إخفاء فئات الدورات في صفحة البوابة الرئيسية
 
-*Default: `false`*
+*افتراضي: `false`*
 
 ### `enable_help_link`
 
-**Enable help link**
+**تفعيل رابط المساعدة**
 
-The Help link is located in the top right part of the screen
+يقع رابط المساعدة في الجزء الأيمن العلوي من الشاشة
 
-*Default: `true`*
+*افتراضي: `true`*
 
 ### `gravatar_enabled`
 
-**Gravatar user pictures**
+**صور مستخدمي Gravatar**
 
-Enable this option to search into the Gravatar repository for pictures of the current user, if the user hasn't defined a picture locally. This is great to auto-fill pictures on your site, in particular if your users are active internet users. Gravatar pictures can be configured easily, based on the e-mail address of a user, at http://en.gravatar.com/
+قم بتفعيل هذا الخيار للبحث في مستودع Gravatar عن صور المستخدم الحالي، إذا لم يحدد المستخدم صورة محليًا. هذا رائع لملء الصور تلقائيًا على موقعك، خاصة إذا كان مستخدموك نشطين على الإنترنت. يمكن تكوين صور Gravatar بسهولة، بناءً على عنوان بريد إلكتروني للمستخدم، على http://en.gravatar.com/
 
-*Default: `false`*
+*افتراضي: `false`*
 
 ### `gravatar_type`
 
-**Gravatar avatar type**
+**نوع صورة Gravatar**
 
-If the Gravatar option is enabled and the user doesn't have a picture configured on Gravatar, this option allows you to choose the type of avatar that Gravatar will generate for each user. Check <a href='http://en.gravatar.com/site/implement/images#default-image'>http://en.gravatar.com/site/implement/images#default-image</a> for avatar types examples.
+إذا تم تفعيل خيار Gravatar ولم يكن لدى المستخدم صورة مُعدة على Gravatar، يسمح هذا الخيار لك باختيار نوع الصورة التي سيقوم Gravatar بتوليدها لكل مستخدم. تحقق من <a href='http://en.gravatar.com/site/implement/images#default-image'>http://en.gravatar.com/site/implement/images#default-image</a> لأمثلة على أنواع الصور.
 
-*Default: `mm`*
+*افتراضي: `mm`*
 
 ### `hide_complete_name_in_whoisonline`
 
-**Hide the complete username in 'who is online'**
+**إخفاء اسم المستخدم الكامل في "من يتواجد على الخط"**
 
-The 'who is online' page (if enabled) will show a picture and a name for each user currently online. Enable this option to hide the names.
+ستعرض صفحة "من يتواجد على الخط" (إذا تم تفعيلها) صورة واسمًا لكل مستخدم متصل حاليًا. قم بتفعيل هذا الخيار لإخفاء الأسماء.
 
-*Default: `false`*
+*افتراضي: `false`*
 
 ### `hide_logout_button`
 
-**Hide logout button**
+**إخفاء زر تسجيل الخروج**
 
-Hide the logout button. This is usually only interesting when using an external login/logout method, for example when using Single Sign On of some sort.
+إخفاء زر تسجيل الخروج. هذا عادةً مثير للاهتمام فقط عند استخدام طريقة تسجيل دخول/خروج خارجية، على سبيل المثال عند استخدام Single Sign On من نوع ما.
 
-*Default: `false`*
+*افتراضي: `false`*
 
 ### `hide_main_navigation_menu`
 
-**Hide main navigation menu**
+**إخفاء القائمة الرئيسية للتنقل**
 
-When using Chamilo for a specific purpose (like one massive online exam), you might want to reduce distraction even more by removing the side menu.
+عند استخدام Chamilo لغرض محدد (مثل امتحان عبر الإنترنت ضخم واحد)، قد ترغب في تقليل التشتت أكثر بإزالة القائمة الجانبية.
 
-*Default: `false`*
+*افتراضي: `false`*
 
 ### `hide_social_media_links`
 
-**Hide social media links**
+**إخفاء روابط وسائل التواصل الاجتماعي**
 
-Some pages allow you to promote the portal or a course on social networks. Enable this setting to remove the links.
+تسمح بعض الصفحات لك بالترويج للبوابة أو الدورة على الشبكات الاجتماعية. قم بتفعيل هذا الإعداد لإزالة الروابط.
 
-*Default: `false`*
+*افتراضي: `false`*
 
 ### `order_user_list_by_official_code`
 
-**Order users by official code**
+**ترتيب المستخدمين حسب الرمز الرسمي**
 
-Use the 'official code' to sort most students list on the platform, instead of their lastname or firstname.
+استخدم "الرمز الرسمي" لترتيب معظم قوائم الطلاب على المنصة، بدلاً من اسم العائلة أو الاسم الأول.
 
-*Default: `false`*
+*افتراضي: `false`*
 
 ### `pdf_logo_header`
 
-**PDF header logo**
+**شعار رأس PDF**
 
-Whether to use the image at var/themes/[your-theme]/images/pdf_logo_header.png as the PDF header logo for all PDF exports (instead of the normal portal logo)
+هل استخدام الصورة في var/themes/[your-theme]/images/pdf_logo_header.png كشعار رأس PDF لجميع تصديرات PDF (بدلاً من شعار البوابة العادي)
 
 ### `show_admin_toolbar`
 
-**Show admin toolbar**
+**عرض شريط أدوات المسؤول**
 
-Shows a global toolbar on top of the page to the designated user roles. This toolbar, very similar to Wordpress and Google's black toolbars, can really speed up complicated actions and improve the space you have available for the learning content, but it might be confusing for some users
+يعرض شريط أدوات عامًا في أعلى الصفحة لأدوار المستخدمين المحددة. هذا الشريط، الذي يشبه جدًا شرائط أدوات Wordpress وGoogle السوداء، يمكن أن يسرع الإجراءات المعقدة حقًا ويحسن المساحة المتاحة لمحتوى التعلم، لكنه قد يكون مربكًا لبعض المستخدمين
 
-*Default: `do_not_show`*
+*افتراضي: `do_not_show`*
 
 ### `show_back_link_on_top_of_tree`
 
-**Show back links from categories/courses**
+**عرض روابط العودة من الفئات/الدورات**
 
-Show a link to go back in the courses hierarchy. A link is available at the bottom of the list anyway.
+عرض رابط للعودة في تسلسل الدورات. يتوفر رابط في أسفل القائمة على أي حال.
 
-*Default: `false`*
+*افتراضي: `false`*
 
 ### `show_closed_courses`
 
-**Display closed courses on login page and portal start page?**
+**عرض الدورات المغلقة في صفحة تسجيل الدخول وصفحة بدء البوابة؟**
 
-Display closed courses on the login page and courses start page? On the portal start page an icon will appear next to the courses to quickly subscribe to each courses. This will only appear on the portal's start page when the user is logged in and when the user is not subscribed to the portal yet.
+عرض الدورات المغلقة في صفحة تسجيل الدخول وصفحة بدء الدورات؟ في صفحة بدء البوابة سيظهر أيقونة بجانب الدورات للاشتراك السريع في كل دورة. سيظهر هذا فقط في صفحة بدء البوابة عندما يكون المستخدم مسجل الدخول وعندما لم يكن المستخدم مشتركًا في البوابة بعد.
 
-*Default: `false`*
+*افتراضي: `false`*
 
 ### `show_email_addresses`
 
-**Show email addresses**
+**عرض عناوين البريد الإلكتروني**
 
-Show email addresses to users
+عرض عناوين البريد الإلكتروني للمستخدمين
 
-*Default: `false`*
+*افتراضي: `false`*
 
 ### `show_empty_course_categories`
 
-**Show empty courses categories**
+**عرض فئات الدورات الفارغة**
 
-Show the categories of courses on the homepage, even if they're empty
+عرض فئات الدورات في الصفحة الرئيسية، حتى لو كانت فارغة
 
-*Default: `true`*
+*افتراضي: `true`*
 
 ### `show_hot_courses`
 
-**Show hot courses**
+**عرض الدورات الساخنة**
 
-The hot courses list will be added in the index page
+سيتم إضافة قائمة الدورات الساخنة في صفحة الفهرس
 
-*Default: `true`*
+*افتراضي: `true`*
 
 ### `show_number_of_courses`
 
-**Show courses number**
+**عرض عدد الدورات**
 
-Show the number of courses in each category in the courses categories on the homepage
+عرض عدد الدورات في كل فئة في فئات الدورات في الصفحة الرئيسية
 
-*Default: `false`*
+*افتراضي: `false`*
 
+---
+
+---
 ### `show_tabs`
 
-**Main menu entries**
+**مدخلات القائمة الرئيسية**
 
-Check the entrie you want to see appear in the main menu
+حدد المدخلات التي تريد أن تظهر في القائمة الرئيسية
 
-*Default:*
+*القيمة الافتراضية:*
 ```json
 {"menu":{"campus_homepage":true,"my_courses":true,"reporting":true,"platform_administration":true,"my_agenda":true,"social":true,"videoconference":false,"diagnostics":false,"catalogue":true,"session_admin":true,"search":true,"question_manager":false},"topbar":{"topbar_my_certificates":true,"topbar_my_custom_certificate":false,"topbar_skills":true}}
 ```
 
 ### `show_tabs_per_role`
 
-**Main menu entries per role**
+**مدخلات القائمة الرئيسية حسب الدور**
 
-Define header tabs visibility per role.
+حدد رؤية علامات الرأس حسب الدور.
 
-*Default: `{}`*
+*القيمة الافتراضية: `{}`*
 
 ### `showonline`
 
-**Who's Online**
+**من يتواجد عبر الإنترنت**
 
-Display the number of persons that are online?
+عرض عدد الأشخاص الذين يتواجدون عبر الإنترنت؟
 
-*Default: `world`*
+*القيمة الافتراضية: `world`*
 
 ### `table_default_row`
 
-**Default number of table rows**
+**عدد الصفوف الافتراضي في الجدول**
 
-How many rows should be shown in all tables by default.
+كم عدد الصفوف التي يجب عرضها في جميع الجداول افتراضيًا.
 
-*Default: `20`*
+*القيمة الافتراضية: `20`*
 
 ### `table_row_list`
 
-**Default offered pagination numbers in tables**
+**خيارات ترقيم الصفحات الافتراضية في الجداول**
 
-Set the options you want to appear in the navigation around a table to show less or more rows on one page. e.g. [50, 100, 200, 500].
+حدد الخيارات التي تريد أن تظهر في التنقل حول الجدول لعرض صفوف أقل أو أكثر في صفحة واحدة. مثال: [50, 100, 200, 500].
 
-*Default: `[10,20,50,100]`*
+*القيمة الافتراضية: `[10,20,50,100]`*
 
 ### `time_limit_whosonline`
 
-**Time limit on Who Is Online**
+**حد زمني لمن يتواجد عبر الإنترنت**
 
-This time limit defines for how many minutes after his last action a user will be considered *online*
+يحدد هذا الحد الزمني لمدة كم دقيقة بعد آخر إجراء يُعتبر فيه المستخدم *على الإنترنت*
 
-*Default: `30`*
+*القيمة الافتراضية: `30`*

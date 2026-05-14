@@ -1,31 +1,31 @@
-# Developer Guide
+# دليل المطور
 
-Welcome to the Chamilo 2.0 Developer Guide. This guide is for developers who want to understand the Chamilo architecture, extend the platform with plugins, use the API, customize the interface, or contribute to the project.
+مرحباً بكم في دليل المطور لـ Chamilo 2.0. هذا الدليل مخصص للمطورين الذين يرغبون في فهم معمارية Chamilo، وتوسيع المنصة باستخدام الإضافات، واستخدام الـ API، وتخصيص الواجهة، أو المساهمة في المشروع.
 
-## Architecture at a Glance
+## نظرة عامة على المعمارية
 
-Chamilo 2.0 is built on:
+يُبنى Chamilo 2.0 على:
 
-* **Backend**: Symfony 6.4 (PHP 8.2+) with Doctrine ORM and API Platform 3.0
-* **Frontend**: Vue 3 with PrimeVue, Pinia state management, and Vue Router
-* **Build system**: Webpack 5 via Symfony Webpack Encore, with Tailwind CSS
-* **Authentication**: JWT tokens (lexik/jwt-authentication-bundle)
-* **File storage**: Flysystem (supports local, AWS S3, Azure Blob, Google Cloud)
+* **الخلفية**: Symfony 6.4 (PHP 8.2+) مع Doctrine ORM و API Platform 3.0
+* **الواجهة الأمامية**: Vue 3 مع PrimeVue، وإدارة الحالة Pinia، و Vue Router
+* **نظام البناء**: Webpack 5 عبر Symfony Webpack Encore، مع Tailwind CSS
+* **المصادقة**: رموز JWT (lexik/jwt-authentication-bundle)
+* **تخزين الملفات**: Flysystem (يدعم المحلي، AWS S3، Azure Blob، Google Cloud)
 
-The codebase is organized into three Symfony bundles:
+يتم تنظيم قاعدة الكود في ثلاث حزم Symfony:
 
-| Bundle | Purpose |
-|--------|---------|
-| **CoreBundle** | Platform core: users, settings, resources, admin, AI providers, security |
-| **CourseBundle** | Course-specific features: documents, exercises, learning paths, forums, etc. |
-| **LtiBundle** | LTI 1.3 integration for external learning tools |
+| الحزمة | الغرض |
+|--------|-------|
+| **CoreBundle** | نواة المنصة: المستخدمون، الإعدادات، الموارد، الإدارة، مزودو الذكاء الاصطناعي، الأمان |
+| **CourseBundle** | الميزات الخاصة بالدورة: الوثائق، التمارين، مسارات التعلم، المنتديات، إلخ. |
+| **LtiBundle** | تكامل LTI 1.3 لأدوات التعلم الخارجية |
 
-## How This Guide Is Organized
+## كيفية تنظيم هذا الدليل
 
-1. **Getting Started** — Tech stack, development setup, project structure
-2. **Backend** — Symfony architecture, entities, resource system, controllers, settings
-3. **API** — REST API via API Platform, JWT authentication, custom actions
-4. **Frontend** — Vue components, views, routing, state management, build system
-5. **Theming** — Color themes, CSS/Tailwind, Twig templates
-6. **Plugins** — Plugin architecture and development
-7. **Contributing** — Coding conventions, git workflow, testing
+1. **البدء** — مكدس التقنيات، إعداد التطوير، هيكل المشروع
+2. **الخلفية** — معمارية Symfony، الكيانات، نظام الموارد، المتحكمات، الإعدادات
+3. **الـ API** — REST API عبر API Platform، مصادقة JWT، الإجراءات المخصصة
+4. **الواجهة الأمامية** — مكونات Vue، العروض، التوجيه، إدارة الحالة، نظام البناء
+5. **التصميم الثيمي** — ثيمات الألوان، CSS/Tailwind، قوالب Twig
+6. **الإضافات** — معمارية الإضافات وتطويرها
+7. **المساهمة** — قواعد البرمجة، سير العمل git، الاختبار

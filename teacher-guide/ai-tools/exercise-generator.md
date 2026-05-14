@@ -1,59 +1,59 @@
-# Exercise Generator
+# مولد التمارين
 
-The AI Exercise Generator helps you create quiz questions automatically using artificial intelligence. You provide a topic or content, and the AI generates questions that you can review, edit, and add to your exercises.
+يساعد مولد التمارين بالذكاء الاصطناعي في إنشاء أسئلة الاختبار تلقائيًا باستخدام الذكاء الاصطناعي. تقدم موضوعًا أو محتوى، وينشئ الذكاء الاصطناعي أسئلة يمكنك مراجعتها وتعديلها وإضافتها إلى تمارينك.
 
-## Accessing the Exercise Generator
+## الوصول إلى مولد التمارين
 
-The Exercise Generator is available when creating or editing an exercise, provided that:
+يتوفر مولد التمارين عند إنشاء أو تعديل تمرين، شريطة أن:
 
-1. AI helpers are enabled at the platform level
-2. At least one AI text provider is configured
+1. تكون مساعدات الذكاء الاصطناعي مفعلة على مستوى المنصة
+2. يكون على الأقل مزود نص ذكاء اصطناعي واحد مُهيأ
 
-Look for the **AI Generator** button or section within the exercise creation interface.
+ابحث عن زر أو قسم **AI Generator** داخل واجهة إنشاء التمرين.
 
-## How to Generate Questions
+## كيفية إنشاء الأسئلة
 
-![The AI exercise generator form with fields for topic and number of questions](/.gitbook/assets/ai-exercise-generator.png)
+![نموذج مولد التمارين بالذكاء الاصطناعي مع حقول للموضوع وعدد الأسئلة](/.gitbook/assets/ai-exercise-generator.png)
 
-The generator offers two modes, available as tabs:
+يقدم المولد وضعين، متاحين كعلامات تبويب:
 
-* **Test from topic** — Generate questions from a textual topic description
-* **Test from document** — Generate questions from a course document (only available when a document-capable provider is configured). When this mode is used, the topic field becomes optional and is treated as an extra hint.
+* **Test from topic** — إنشاء أسئلة من وصف موضوع نصي
+* **Test from document** — إنشاء أسئلة من وثيقة في الدورة (متاح فقط عند تهيئة مزود قادر على الوثائق). عند استخدام هذا الوضع، يصبح حقل الموضوع اختياريًا ويُعامل كنصيحة إضافية.
 
-1. Open the AI Generator form within an exercise and pick the mode
-2. Configure the generation parameters:
-   * **Quiz title** — The title for the resulting exercise
-   * **Questions topic** — Describe what the questions should be about (or, in document mode, an optional hint)
-   * **Number of questions** — How many questions to generate (capped at 100)
-   * **Question type** — Currently only **Multiple answer** is offered
-   * **AI provider** — Select which AI provider to use (only shown when more than one is configured)
-3. Click **Generate**
-4. The AI produces a set of questions with answer options and correct answers marked. When AI disclosure is enabled, generated questions are prefixed with **\[AI-assisted\]**.
+1. افتح نموذج AI Generator داخل تمرين واختر الوضع
+2. هيئ معلمات الإنشاء:
+   * **Quiz title** — العنوان للتمرين الناتج
+   * **Questions topic** — وصف ما يجب أن تكون الأسئلة عنه (أو، في وضع الوثيقة، نصيحة اختيارية)
+   * **Number of questions** — عدد الأسئلة لإنشائها (محدود بـ 100)
+   * **Question type** — حاليًا يُقدم **Multiple answer** فقط
+   * **AI provider** — اختر أي مزود ذكاء اصطناعي لاستخدامه (يظهر فقط عند تهيئة أكثر من واحد)
+3. انقر على **Generate**
+4. ينتج الذكاء الاصطناعي مجموعة من الأسئلة مع خيارات الإجابات والإجابات الصحيحة المحددة. عند تفعيل الكشف عن الذكاء الاصطناعي، تُسبق الأسئلة المُنشأة بـ **\[AI-assisted\]**.
 
-## Reviewing and Editing
+## المراجعة والتعديل
 
-![AI-generated questions displayed for review with options to edit, accept, or remove each one](/.gitbook/assets/ai-exercise-generator-results.png)
+![أسئلة مُنشأة بالذكاء الاصطناعي معروضة للمراجعة مع خيارات لتعديل أو قبول أو إزالة كل واحدة](/.gitbook/assets/ai-exercise-generator-results.png)
 
-Generated questions are presented as **suggestions**. You should:
+تُقدم الأسئلة المُنشأة كـ **اقتراحات**. يجب عليك:
 
-* **Review each question** for accuracy and relevance
-* **Edit the wording** if needed — adjust questions, answer options, and feedback
-* **Verify correct answers** — make sure the AI has identified the right answers
-* **Remove unsuitable questions** — delete any that don't meet your standards
-* **Adjust scoring** — set appropriate point values for each question
+* **مراجعة كل سؤال** للدقة والصلة
+* **تعديل الصياغة** إذا لزم الأمر — تعديل الأسئلة وخيارات الإجابات والتعليقات
+* **التحقق من الإجابات الصحيحة** — التأكد من أن الذكاء الاصطناعي حدد الإجابات الصحيحة
+* **إزالة الأسئلة غير المناسبة** — حذف أي أسئلة لا تلبي معاييرك
+* **تعديل الدرجات** — تعيين قيم نقاط مناسبة لكل سؤال
 
-Once you are satisfied, add the questions to your exercise.
+بمجرد رضاك، أضف الأسئلة إلى تمرينك.
 
-Note that despite our specific format requests, some models will return question titles prefixed by a number. We don't recommend leaving that number there as this will hinder the mix of questions in tests with randomly selected questions. Also, sometimes you don't get as many questions as you've asked, so make sure you check that and potentially generate more questions, or change model if you have that possibility.
+لاحظ أنه رغم طلباتنا الخاصة بالتنسيق، ستُرجع بعض النماذج عناوين الأسئلة مسبوقة برقم. لا نوصي بترك ذلك الرقم هناك لأنه سيُعيق مزج الأسئلة في الاختبارات ذات الأسئلة المختارة عشوائيًا. كما أنك قد لا تحصل على عدد الأسئلة الذي طلبت، لذا تأكد من التحقق من ذلك وإنشاء المزيد من الأسئلة إذا لزم الأمر، أو تغيير النموذج إذا كان ذلك ممكنًا.
 
-## AI-Generated Content Disclosure
+## الكشف عن محتوى الذكاء الاصطناعي
 
-Content generated by AI is labeled with a disclosure notice, indicating that it was created using artificial intelligence. This transparency helps learners understand the origin of the material.
+يُشار إلى المحتوى المُنشأ بالذكاء الاصطناعي بنبذة كشف، تشير إلى أنه تم إنشاؤه باستخدام الذكاء الاصطناعي. يساعد هذا الشفافية المتعلمين على فهم أصل المادة.
 
-## Tips
+## نصائح
 
-* **Provide specific topics** — The more specific your topic description, the more relevant the generated questions will be.
-* **Always review** — AI-generated content may contain errors. Never publish questions without reviewing them first.
-* **Use as a starting point** — Generated questions are a time-saver, not a finished product. Edit them to match your teaching style and course content.
-* **Mix with manual questions** — Combine AI-generated questions with manually created ones for the best results.
-* **Try different providers** — If multiple AI providers are available, try different ones to see which produces the best questions for your subject area.
+* **قدم مواضيع محددة** — كلما كان وصف الموضوع أكثر تحديدًا، كانت الأسئلة المُنشأة أكثر صلة.
+* **راجع دائمًا** — قد يحتوي المحتوى المُنشأ بالذكاء الاصطناعي على أخطاء. لا تنشر الأسئلة دون مراجعتها أولاً.
+* **استخدم كنقطة انطلاق** — الأسئلة المُنشأة توفر الوقت، ليست منتجًا نهائيًا. عدلها لتتناسب مع أسلوب تدريسك ومحتوى الدورة.
+* **اخلط مع أسئلة يدوية** — اجمع بين الأسئلة المُنشأة بالذكاء الاصطناعي والأسئلة المُنشأة يدويًا للحصول على أفضل النتائج.
+* **جرب مزودين مختلفين** — إذا كان هناك عدة مزودي ذكاء اصطناعي متاحين، جرب مختلفين لترى أيهم ينتج أفضل الأسئلة لمجالك الدراسي.

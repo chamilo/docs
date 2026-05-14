@@ -1,571 +1,576 @@
-# Sessions Settings
+# إعدادات الجلسات
 
-Defaults and behaviour for **Sessions** — session lifecycle, coach access windows, course visibility within a session, and similar.
+الإعدادات الافتراضية والسلوك لـ **Sessions** — دورة حياة الجلسة، نوافذ الوصول للمدرب، رؤية الدورة داخل الجلسة، وما شابه.
 
-Access these settings under **Administration > Configuration settings > Sessions**. This category contains **68 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+الوصول إلى هذه الإعدادات تحت **Administration > Configuration settings > Sessions**. تحتوي هذه الفئة على **68 settings**، مدرجة أدناه مع العنوان والتعليق المرسل في إعدادات المنصة (`SettingsCurrentFixtures.php`).
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> اسم المتغير في الكود موضح بحرف monospace. استخدمه عند البرمجة عبر API أو عند الحاجة إلى تغيير هذه الإعدادات على المستوى العام بتحرير [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
 
-## Settings
+## الإعدادات
 
 ### `add_users_by_coach`
 
-**Register users by Coach**
+**تسجيل المستخدمين بواسطة المدرب**
 
-Coach users may create users to the platform and subscribe users to a session.
+يمكن لمستخدمي المدرب إنشاء مستخدمين للمنصة وتسجيلهم في جلسة.
 
-*Default: `false`*
+*الافتراضي: `false`*
 
 ### `allow_career_diagram`
 
-**Enable career diagrams**
+**تمكين رسوم بيانية المسارات المهنية**
 
-Career diagrams allow you to display diagrams of careers, skills and courses.
+تسمح رسوم بيانية المسارات المهنية بعرض رسوم بيانية للمسارات المهنية والمهارات والدورات.
 
-*Default: `false`*
+*الافتراضي: `false`*
 
 
 ### `allow_career_users`
 
-**Enable career diagrams for users**
+**تمكين رسوم بيانية المسارات المهنية للمستخدمين**
 
-If career diagrams are enabled, users can only see them (and only the diagrams that correspond to their studies) if you enable this option.
+إذا تم تمكين رسوم بيانية المسارات المهنية، يمكن للمستخدمين رؤيتها فقط (ورسوم بيانية تتوافق مع دراستهم فقط) إذا قمت بتمكين هذا الخيار.
 
-*Default: `false`*
+*الافتراضي: `false`*
 
 ### `allow_coach_to_edit_course_session`
 
-**Allow coaches to edit inside course sessions**
+**السماح للمدربين بالتحرير داخل جلسات الدورات**
 
-Allow coaches to edit inside course sessions
+السماح للمدربين بالتحرير داخل جلسات الدورات
 
-*Default: `true`*
+*الافتراضي: `true`*
 
 ### `allow_delete_user_for_session_admin`
 
-**Session admins can delete users**
+**يمكن لمديري الجلسات حذف المستخدمين**
 
-Session administrators can remove users from the platform when managing their session(s).
+يمكن لمديري الجلسات إزالة المستخدمين من المنصة عند إدارة جلساتهم.
 
-*Default: `false`*
+*الافتراضي: `false`*
 
 
 ### `allow_disable_user_for_session_admin`
 
-**Session admins can disable users**
+**يمكن لمديري الجلسات تعطيل المستخدمين**
 
-Session administrators can disable user accounts to prevent login while retaining enrollment records in their session(s).
+يمكن لمديري الجلسات تعطيل حسابات المستخدمين لمنع تسجيل الدخول مع الاحتفاظ بسجلات التسجيل في جلساتهم.
 
-*Default: `false`*
+*الافتراضي: `false`*
 
 
 ### `allow_edit_tool_visibility_in_session`
 
-**Allow tool visibility edition in sessions**
+**السماح بتحرير رؤية الأدوات في الجلسات**
 
-When using sessions, the default behaviour is to use the tool visibility defined in the base course. This setting changes that to allow coaches in session courses to adapt tool visibilities to their needs.
+عند استخدام الجلسات، السلوك الافتراضي هو استخدام رؤية الأداة المحددة في الدورة الأساسية. يغير هذا الإعداد ذلك للسماح للمدربين في دورات الجلسة بتكييف رؤية الأدوات حسب احتياجاتهم.
 
-*Default: `true`*
+*الافتراضي: `true`*
 
 ### `allow_redirect_to_session_after_inscription_about`
 
-**Redirect to session after registration in session's 'About' page**
+**إعادة التوجيه إلى الجلسة بعد التسجيل في صفحة "About" الخاصة بالجلسة**
 
-Automatically redirect new users to their session page after they complete registration through a session's About page.
+إعادة توجيه المستخدمين الجدد تلقائياً إلى صفحة الجلسة بعد إكمالهم التسجيل عبر صفحة About الجلسة.
 
-*Default: `false`*
+*الافتراضي: `false`*
 
 
 ### `allow_search_diagnostic`
 
-**Enable sessions search diagnosis**
+**تمكين تشخيص بحث الجلسات**
 
-Allow tutors to get a diagnosis that will allow them to search for the best sessions for learners.
+السماح للمعلمين بالحصول على تشخيص يسمح لهم بالبحث عن أفضل الجلسات للمتعلمين.
 
-*Default: `false`*
+*الافتراضي: `false`*
 
 
 ### `allow_session_admin_extra_access`
 
-**Session admin can access batch user import, update and export**
+**يمكن لمديري الجلسات الوصول إلى استيراد وتحديث وتصدير المستخدمين الجماعي**
 
-Session administrators can access batch user import, update, and export functionality in addition to their standard permissions.
+يمكن لمديري الجلسات الوصول إلى وظيفة استيراد وتحديث وتصدير المستخدمين الجماعي بالإضافة إلى صلاحياتهم القياسية.
 
-*Default: `false`*
+*الافتراضي: `false`*
 
 
 ### `allow_session_admin_login_as_teacher`
 
-**Session admins can 'login as' teachers**
+**يمكن لمديري الجلسات "تسجيل الدخول كـ" المعلمين**
 
-Session administrators can impersonate teacher accounts to preview course content and student experience within their session(s).
+يمكن لمديري الجلسات انتحال حسابات المعلمين لمعاينة محتوى الدورة وتجربة الطالب داخل جلساتهم.
 
-*Default: `false`*
+*الافتراضي: `false`*
 
 
 ### `allow_session_admin_read_careers`
 
-**Session admins can view careers**
+**يمكن لمديري الجلسات عرض المسارات المهنية**
 
-[inferred] Session administrators can view and access career paths and promotion workflows linked to their managed sessions.
+[inferred] يمكن لمديري الجلسات عرض و الوصول إلى مسارات المسارات المهنية وسير عمل الترقيات المرتبطة بجلساتهم المُدارة.
 
-*Default: `false`*
+*الافتراضي: `false`*
 
 
 ### `allow_session_admins_to_manage_all_sessions`
 
-**Allow session administrators to see all sessions**
+**السماح لمديري الجلسات برؤية جميع الجلسات**
 
-When this option is not enabled (default), session administrators can only see the sessions they have created. This is confusing in an open environment where session administrators might need to share support time between two sessions.
+عندما لا يكون هذا الخيار مفعلاً (الافتراضي)، يمكن لمديري الجلسات رؤية الجلسات التي أنشأوها فقط. هذا مربك في بيئة مفتوحة حيث قد يحتاج مديرو الجلسات إلى مشاركة وقت الدعم بين جلسات اثنتين.
 
-*Default: `false`*
+*الافتراضي: `false`*
 
 ### `allow_session_course_copy_for_teachers`
 
-**Allow session-to-session copy for teachers**
+**السماح بنسخ جلسة إلى جلسة للمعلمين**
 
-Enable this option to let teachers copy their content from one course in a session to a course in another session. By default, this option is only available to platform administrators.
+قم بتمكين هذا الخيار للسماح للمعلمين بنسخ محتواهم من دورة في جلسة إلى دورة في جلسة أخرى. افتراضياً، هذا الخيار متاح فقط لمديري المنصة.
 
-*Default: `false`*
+*الافتراضي: `false`*
 
 ### `allow_teachers_to_create_sessions`
 
-**Allow teachers to create sessions**
+**السماح للمعلمين بإنشاء الجلسات**
 
-Teachers can create, edit and delete their own sessions.
+يمكن للمعلمين إنشاء وتحرير وحذف جلساتهم الخاصة.
 
-*Default: `false`*
+*الافتراضي: `false`*
 
 ### `allow_tutors_to_assign_students_to_session`
 
-**Tutors can assign students to sessions**
+**يمكن للمعلمين تعيين الطلاب إلى الجلسات**
 
-When enabled, course coaches/tutors in sessions can subscribe new users to their session. This option is otherwise only available to administrators and session administrators.
+عند التمكين، يمكن لمدربي/معلمي الدورات في الجلسات تسجيل مستخدمين جدد في جلساتهم. هذا الخيار متاح عادة فقط للمديرين ومديري الجلسات.
 
-*Default: `false`*
+*الافتراضي: `false`*
 
 ### `allow_user_session_collapsable`
 
-**Allow user to collapse sessions in My sessions**
+**السماح للمستخدم بطي الجلسات في صفحة جلساتي**
 
-Users can collapse session cards or groups in the My sessions page to reduce visual clutter and improve navigation.
+يمكن للمستخدمين طي بطاقات الجلسة أو المجموعات في صفحة جلساتي لتقليل الفوضى البصرية وتحسين التنقل.
 
-*Default: `false`*
+*الافتراضي: `false`*
 
 
 ### `assignment_base_course_teacher_access_to_all_session`
 
-**Base course teacher can see assignments from all sessions**
+**يمكن لمعلم الدورة الأساسية رؤية المهام من جميع الجلسات**
 
-Show all learner publications (from base course and from all sessions) in the work/pending.php page of the base course.
+عرض جميع منشورات المتعلمين (من الدورة الأساسية ومن جميع الجلسات) في صفحة work/pending.php الخاصة بالدورة الأساسية.
 
-*Default: `false`*
+*الافتراضي: `false`*
 
+---
 ### `career_diagram_disclaimer`
 
-**Display a disclaimer below the career diagram**
+**عرض تنويه أسفل رسم بياني المسار المهني**
 
-Add a disclaimer below the career diagram. A language variable called 'Career diagram disclaimer' must exist in your sub-language.
+أضف تنويهًا أسفل رسم بياني المسار المهني. يجب أن تكون هناك متغير لغة يُدعى 'Career diagram disclaimer' في اللغة الفرعية الخاصة بك.
 
-*Default: `false`*
+*القيمة الافتراضية: `false`*
 
 ### `career_diagram_legend`
 
-**Display a legend below the career diagram**
+**عرض وسيلة تفسير أسفل رسم بياني المسار المهني**
 
-Add a career legend below the career diagram. A language variable called 'Career diagram legend' must exist in your sub-language.
+أضف وسيلة تفسير للمسار المهني أسفل رسم بياني المسار المهني. يجب أن تكون هناك متغير لغة يُدعى 'Career diagram legend' في اللغة الفرعية الخاصة بك.
 
-*Default: `false`*
+*القيمة الافتراضية: `false`*
 
 ### `courses_list_session_title_link`
 
-**Type of link for the session title**
+**نوع الرابط لعنوان الجلسة**
 
-On the courses/sessions page, the session title can be either of the following : 0 = no link (hide session title) ; 1 = link title to a special session page ; 2 = link to the course if there is only one course ; 3 = session title makes the courses list foldable ; 4 = no link (show session title).
+في صفحة الدورات/الجلسات، يمكن أن يكون عنوان الجلسة أحد الخيارات التالية: 0 = لا رابط (إخفاء عنوان الجلسة)؛ 1 = ربط العنوان بصفحة جلسة خاصة؛ 2 = رابط إلى الدورة إذا كانت هناك دورة واحدة فقط؛ 3 = عنوان الجلسة يجعل قائمة الدورات قابلة للطي؛ 4 = لا رابط (عرض عنوان الجلسة).
 
-*Default: `1`*
+*القيمة الافتراضية: `1`*
 
 ### `default_session_list_view`
 
-**Default sessions list view**
+**عرض افتراضي لقائمة الجلسات**
 
-Select the default tab you want to see when opening the sessions list as admin.
+حدد علامة التبويب الافتراضية التي تريد رؤيتها عند فتح قائمة الجلسات كمدير.
 
-*Default: `all`*
+*القيمة الافتراضية: `all`*
 
 
 ### `drh_can_access_all_session_content`
 
-**HR directors access all session content**
+**يصل مديرو الموارد البشرية إلى جميع محتويات الجلسة**
 
-If enabled, human resources directors will get access to all content and users from the sessions (s)he follows.
+إذا تم تمكينه، سيحصل مديرو الموارد البشرية على الوصول إلى جميع المحتويات والمستخدمين من الجلسات التي يتابعونها.
 
-*Default: `true`*
+*القيمة الافتراضية: `true`*
 
 ### `duplicate_specific_session_content_on_session_copy`
 
-**Enable the copy of session-specific content to another session**
+**تمكين نسخ المحتوى الخاص بالجلسة إلى جلسة أخرى**
 
-Allows duplication of resources that were created in the session when duplicating the session.
+يسمح بنسخ الموارد التي تم إنشاؤها في الجلسة عند نسخ الجلسة.
 
-*Default: `false`*
+*القيمة الافتراضية: `false`*
 
 
 ### `email_template_subscription_to_session_confirmation_lost_password`
 
-**Add reset password link to e-mail notification of subscription to session**
+**إضافة رابط إعادة تعيين كلمة المرور إلى إشعار البريد الإلكتروني للتسجيل في الجلسة**
 
-Include a password reset link in subscription confirmation emails sent to users when they are enrolled in a session.
+تضمين رابط إعادة تعيين كلمة المرور في رسائل البريد الإلكتروني لتأكيد التسجيل المرسلة إلى المستخدمين عند تسجيلهم في جلسة.
 
-*Default: `false`*
+*القيمة الافتراضية: `false`*
 
 
 ### `email_template_subscription_to_session_confirmation_username`
 
-**Add username to e-mail notification of subscription to session**
+**إضافة اسم المستخدم إلى إشعار البريد الإلكتروني للتسجيل في الجلسة**
 
-Include the user's username in subscription confirmation emails sent when they are enrolled in a session.
+تضمين اسم مستخدم المستخدم في رسائل البريد الإلكتروني لتأكيد التسجيل المرسلة عند تسجيله في جلسة.
 
-*Default: `false`*
+*القيمة الافتراضية: `false`*
 
 
 ### `enable_auto_reinscription`
 
-**Enable Automatic Reinscription**
+**تمكين إعادة التسجيل التلقائي**
 
-Enable or disable automatic reinscription when course validity expires. The related cron job must also be activated.
+تمكين أو تعطيل إعادة التسجيل التلقائي عند انتهاء صلاحية الدورة. يجب أيضًا تفعيل المهمة الزمنية المرتبطة.
 
-*Default: `false`*
+*القيمة الافتراضية: `false`*
 
 
 ### `enable_session_replication`
 
-**Enable Session Replication**
+**تمكين تكرار الجلسة**
 
-Enable or disable automatic session replication. The related cron job must also be activated.
+تمكين أو تعطيل تكرار الجلسة التلقائي. يجب أيضًا تفعيل المهمة الزمنية المرتبطة.
 
-*Default: `false`*
+*القيمة الافتراضية: `false`*
 
 
 ### `extend_rights_for_coach`
 
-**Extend rights for coach**
+**توسيع الصلاحيات للمدرب**
 
-Activate this option will give the coach the same permissions as the trainer on authoring tools
+تفعيل هذا الخيار سيعطي المدرب نفس الصلاحيات مثل المدرب في أدوات إنشاء المحتوى
 
-*Default: `false`*
+*القيمة الافتراضية: `false`*
 
 ### `hide_courses_in_sessions`
 
-**Hide courses list in sessions**
+**إخفاء قائمة الدورات في الجلسات**
 
-When showing the session block in your courses page, hide the list of courses inside that session (only show them inside the specific session screen).
+عند عرض كتلة الجلسة في صفحة الدورات الخاصة بك، قم بإخفاء قائمة الدورات داخل تلك الجلسة (اعرضها فقط داخل شاشة الجلسة المحددة).
 
-*Default: `false`*
+*القيمة الافتراضية: `false`*
 
 ### `hide_reporting_session_list`
 
-**Hide sessions list in reporting tool**
+**إخفاء قائمة الجلسات في أداة التقارير**
 
-Sessions that include the course are listed in the reporting tool inside the course itself, which can add considerable weight if the same course is used in hundreds of sessions. This option removes that list.
+تُدرج الجلسات التي تشمل الدورة في أداة التقارير داخل الدورة نفسها، مما قد يضيف وزنًا كبيرًا إذا تم استخدام نفس الدورة في مئات الجلسات. يزيل هذا الخيار تلك القائمة.
 
-*Default: `false`*
+*القيمة الافتراضية: `false`*
 
 
 ### `hide_search_form_in_session_list`
 
-**Hide search form in sessions list**
+**إخفاء نموذج البحث في قائمة الجلسات**
 
-Remove the search input field from the session list view in the administration interface.
+إزالة حقل إدخال البحث من عرض قائمة الجلسات في واجهة الإدارة.
 
-*Default: `false`*
+*القيمة الافتراضية: `false`*
 
 
 ### `hide_session_graph_in_my_progress`
 
-**Hide session chart in My progress**
+**إخفاء رسم بياني الجلسة في تقدمي**
 
-Conceal session progress charts and visualizations from the My progress page in learner dashboards.
+إخفاء رسوم بيانية وتصورات تقدم الجلسة من صفحة تقدمي في لوحات تحكم المتعلمين.
 
-*Default: `false`*
+*القيمة الافتراضية: `false`*
 
 
 ### `hide_tab_list`
 
-**Hide tabs on the session page**
+**إخفاء علامات التبويب في صفحة الجلسة**
 
-Remove navigation tabs from the session detail page to simplify the interface.
+إزالة علامات التنقل التبويبية من صفحة تفاصيل الجلسة لتبسيط الواجهة.
 
 ### `limit_session_admin_list_users`
 
-**Session admins are forbidden access to the users list**
+**يُمنع مديرو الجلسات من الوصول إلى قائمة المستخدمين**
 
-Prevent session administrators from accessing the global users list in the administration interface.
+منع مديري الجلسات من الوصول إلى قائمة المستخدمين العامة في واجهة الإدارة.
 
-*Default: `false`*
+*القيمة الافتراضية: `false`*
 
 
 ### `limit_session_admin_role`
 
-**Limit session admins permissions**
+**تقييد صلاحيات مديري الجلسات**
 
-If enabled, the session administrators will only see the User block with the 'Add user' option and the Sessions block with the 'Sessions list' option.
+إذا تم تمكينه، سيرى مديرو الجلسات فقط كتلة المستخدم مع خيار 'إضافة مستخدم' وكتلة الجلسات مع خيار 'قائمة الجلسات'.
 
-*Default: `false`*
+*القيمة الافتراضية: `false`*
 
 ### `my_courses_session_order`
 
-**Change the default sorting of session in My sessions**
+**تغيير الترتيب الافتراضي للجلسات في جلساتي**
 
-By default, sessions are ordered by start date. Change this by providing an array of type ['field' => 'end_date', 'order' => 'desc'].
+افتراضيًا، تُرتب الجلسات حسب تاريخ البدء. غيّر ذلك بتقديم مصفوفة من نوع ['field' => 'end_date', 'order' => 'desc'].
 
 ### `my_courses_view_by_session`
 
-**View my courses by session**
+**عرض دوراتي حسب الجلسة**
 
-Enable an additional 'My courses' page where sessions appear as part of courses, rather than the opposite.
+تمكين صفحة 'دوراتي' إضافية حيث تظهر الجلسات كجزء من الدورات، بدلاً من العكس.
 
-*Default: `false`*
+*القيمة الافتراضية: `false`*
 
 ### `my_progress_session_show_all_courses`
 
-**My progress: show course details in session**
+**تقدمي: عرض تفاصيل الدورة في الجلسة**
 
-Display all details of each course in session when clicking on session details.
+عرض جميع تفاصيل كل دورة في الجلسة عند النقر على تفاصيل الجلسة.
 
-*Default: `false`*
+*القيمة الافتراضية: `false`*
 
 
 ### `prevent_session_admins_to_manage_all_users`
 
-**Prevent session admins to manage all users**
+**منع مديري الجلسات من إدارة جميع المستخدمين**
 
-By enabling this option, session admins will only be able to see, in the administration page, the users they created.
+بتفعيل هذا الخيار، سيرى مديرو الجلسات فقط، في صفحة الإدارة، المستخدمين الذين أنشأوهم.
 
-*Default: `false`*
+*القيمة الافتراضية: `false`*
 
+---
+
+---
 ### `remove_session_url`
 
-**Hide link to session page**
+**إخفاء رابط صفحة الجلسة**
 
-Hide link to the session page from the sessions list.
+إخفاء رابط صفحة الجلسة من قائمة الجلسات.
 
-*Default: `false`*
+*القيمة الافتراضية: `false`*
 
 
 ### `session_admins_access_all_content`
 
-**Session admins can access all course content**
+**يمكن لمديري الجلسات الوصول إلى جميع محتويات الدورة**
 
-Session administrators can view all course content within their sessions, including restricted or archived materials.
+يمكن لمديري الجلسات عرض جميع محتويات الدورة داخل جلساتهم، بما في ذلك المواد المقيدة أو المؤرشفة.
 
-*Default: `false`*
+*القيمة الافتراضية: `false`*
 
 ### `session_admins_edit_courses_content`
 
-**Session admins can edit course content**
+**يمكن لمديري الجلسات تعديل محتوى الدورة**
 
-Session administrators can modify course content (documents, exercises, tools) in courses assigned to their sessions.
+يمكن لمديري الجلسات تعديل محتوى الدورة (المستندات، التمارين، الأدوات) في الدورات المخصصة لجلساتهم.
 
-*Default: `false`*
+*القيمة الافتراضية: `false`*
 
 ### `session_automatic_creation_user_id`
 
-**Auto-created session's creator ID**
+**معرف صانع الجلسة المُنشأة تلقائيًا**
 
-Set the user to use as creator of the automatically-created sessions (to avoid assigning every session to user '1' which is often the portal administrator).
+تحديد المستخدم المستخدم كصانع للجلسات المُنشأة تلقائيًا (لتجنب تخصيص كل جلسة للمستخدم '1' الذي غالبًا ما يكون مدير البوابة).
 
-*Default: `1`*
+*القيمة الافتراضية: `1`*
 
 
 ### `session_classes_tab_disable`
 
-**Disable add class in session course for non-admin**
+**تعطيل إضافة الفصل في دورة الجلسة لغير المديرين**
 
-Disable tab to add classes in session course for non-admins.
+تعطيل علامة التبويب لإضافة الفصول في دورة الجلسة لغير المديرين.
 
-*Default: `false`*
+*القيمة الافتراضية: `false`*
 
 
 ### `session_coach_access_after_duration_end`
 
-**Sessions by duration always available to coaches**
+**الجلسات حسب المدة متاحة دائمًا للمدربين**
 
-Otherwise, session coaches only have access to sessions by duration during the active duration.
+وإلا، يكون لمدربي الجلسة وصول إلى الجلسات حسب المدة فقط خلال المدة الفعالة.
 
-*Default: `false`*
+*القيمة الافتراضية: `false`*
 
 
 ### `session_course_ordering`
 
-**Session courses manual ordering**
+**ترتيب يدوي لدورات الجلسة**
 
-Enable this option to allow the session administrators to order the courses inside a session manually. If disabled, courses are ordered alphabetically on course title.
+تفعيل هذا الخيار للسماح لمديري الجلسات بترتيب الدورات داخل الجلسة يدويًا. إذا تم تعطيله، يتم ترتيب الدورات أبجديًا حسب عنوان الدورة.
 
-*Default: `false`*
+*القيمة الافتراضية: `false`*
 
 ### `session_course_users_subscription_limited_to_session_users`
 
-**Limit subscriptions to course to only users of the session**
+**تقييد الاشتراكات في الدورة لمستخدمي الجلسة فقط**
 
-Restrict the list of students to subscribe in the course session. And disable registration for users in all courses from Resume Session page.
+تقييد قائمة الطلاب للاشتراك في جلسة الدورة. وتعطيل التسجيل للمستخدمين في جميع الدورات من صفحة استئناف الجلسة.
 
-*Default: `false`*
+*القيمة الافتراضية: `false`*
 
 
 ### `session_courses_read_only_mode`
 
-**Set course read-only in session**
+**تعيين الدورة في وضع القراءة فقط في الجلسة**
 
-Let teachers set some courses in read-only mode when opened through sessions. In the course properties, check the 'Lock course in session' option.
+السماح للمعلمين بتعيين بعض الدورات في وضع القراءة فقط عند فتحها من خلال الجلسات. في خصائص الدورة، تحقق من خيار 'قفل الدورة في الجلسة'.
 
-*Default: `false`*
+*القيمة الافتراضية: `false`*
 
 
 ### `session_creation_form_set_extra_fields_mandatory`
 
-**Set mandatory extra fields in session creation form**
+**تعيين حقول إضافية إلزامية في نموذج إنشاء الجلسة**
 
-Require the listed fields during session creation.
+طلب الحقول المدرجة أثناء إنشاء الجلسة.
 
 ### `session_creation_user_course_extra_field_relation_to_prefill`
 
-**Pre-fill session fields with user fields**
+**ملء مسبق لحقول الجلسة بحقول المستخدم**
 
-Array of relationships between user extra fields and session extra fields, so the session can be pre-filled with data matching the user's data.
+مصفوفة من العلاقات بين حقول المستخدم الإضافية وحقول الجلسة الإضافية، حتى يتم ملء الجلسة مسبقًا ببيانات تطابق بيانات المستخدم.
 
 ### `session_days_after_coach_access`
 
-**Default coach access days after session**
+**أيام وصول المدرب الافتراضية بعد الجلسة**
 
-Default number of days a coach can access his session after the official session end date
+العدد الافتراضي من الأيام التي يمكن للمدرب الوصول إلى جلسته بعد تاريخ نهاية الجلسة الرسمي
 
 ### `session_days_before_coach_access`
 
-**Default coach access days before session**
+**أيام وصول المدرب الافتراضية قبل الجلسة**
 
-Default number of days a coach can access his session before the official session start date
+العدد الافتراضي من الأيام التي يمكن للمدرب الوصول إلى جلسته قبل تاريخ بدء الجلسة الرسمي
 
 ### `session_import_settings`
 
-**Options for session import**
+**خيارات استيراد الجلسة**
 
-Array of options to apply as default parameters in the CSV/XML session import.
+مصفوفة من الخيارات لتطبيقها كمعاملات افتراضية في استيراد الجلسة CSV/XML.
 
 ### `session_list_order`
 
-**Sessions support manual sorting**
+**دعم ترتيب يدوي للجلسات**
 
-Enable manual reordering of sessions in the administration session list via drag-and-drop or similar mechanism.
+تفعيل إعادة ترتيب يدوي للجلسات في قائمة إدارة الجلسات عبر السحب والإفلات أو آلية مشابهة.
 
-*Default: `false`*
+*القيمة الافتراضية: `false`*
 
 
 ### `session_list_show_count_users`
 
-**Show number of users in sessions list**
+**عرض عدد المستخدمين في قائمة الجلسات**
 
-The admin can see the number of users in each session. This adds additional weight to the sessions list, so if you use it often, consider carefully whether you want the extra waiting time.
+يمكن للمدير رؤية عدد المستخدمين في كل جلسة. هذا يضيف وزنًا إضافيًا إلى قائمة الجلسات، لذا إذا كنت تستخدمها كثيرًا، فكر جيدًا فيما إذا كنت تريد الوقت الإضافي للانتظار.
 
-*Default: `false`*
+*القيمة الافتراضية: `false`*
 
 
 ### `session_list_view_remaining_days`
 
-**Show remaining days in My Sessions**
+**عرض الأيام المتبقية في جلساتي**
 
-If enabled, the session dates on the "My Sessions" page will be replaced by the number of remaining days.
+إذا تم تفعيلها، سيتم استبدال تواريخ الجلسة في صفحة "جلساتي" بعدد الأيام المتبقية.
 
-*Default: `false`*
+*القيمة الافتراضية: `false`*
 
 ### `session_model_list_field_ordered_by_id`
 
-**Sort session templates by id in session creation form**
+**ترتيب قوالب الجلسة حسب المعرف في نموذج إنشاء الجلسة**
 
-[inferred] Sort session templates by their numeric ID in the session creation form dropdown instead of alphabetically by name.
+[مستنتج] ترتيب قوالب الجلسة حسب معرفها الرقمي في قائمة منسدلة نموذج إنشاء الجلسة بدلاً من الترتيب الأبجدي حسب الاسم.
 
-*Default: `false`*
+*القيمة الافتراضية: `false`*
 
 
 ### `session_multiple_subscription_students_list_avoid_emptying`
 
-**Prevent emptying the subscribed users in session subscription**
+**منع إفراغ المستخدمين المشتركين في اشتراك الجلسة**
 
-When using the multiple learners subscription to a session, prevent the normal behaviour which is to unsubscribe users who are not in the right panel when clicking submit. Keep all users there.
+عند استخدام اشتراك متعدد المتعلمين في جلسة، منع السلوك الطبيعي الذي هو إلغاء اشتراك المستخدمين الذين ليسوا في اللوحة اليمنى عند النقر على إرسال. الاحتفاظ بجميع المستخدمين هناك.
 
-*Default: `false`*
+*القيمة الافتراضية: `false`*
 
 
 ### `show_all_sessions_on_my_course_page`
 
-**Show all sessions on 'My courses' page**
+**عرض جميع الجلسات في صفحة 'دوراتي'**
 
-If enabled, this option show all sessions of the user in calendar-based view.
+إذا تم تفعيلها، يعرض هذا الخيار جميع جلسات المستخدم في عرض قائمة زمني.
 
-*Default: `true`*
+*القيمة الافتراضية: `true`*
 
 
 ### `show_session_coach`
 
-**Show session coach**
+**عرض مدرب الجلسة**
 
-Show the global session coach name in session title box in the courses list
+عرض اسم مدرب الجلسة العام في صندوق عنوان الجلسة في قائمة الدورات
 
-*Default: `false`*
+*القيمة الافتراضية: `false`*
 
 ### `show_session_data`
 
-**Show session data title**
+**عرض عنوان بيانات الجلسة**
 
-Show session data comment
+عرض تعليق بيانات الجلسة
 
-*Default: `false`*
+*القيمة الافتراضية: `false`*
 
 ### `show_session_description`
 
-**Show session description**
+**عرض وصف الجلسة**
 
-Show the session description wherever this option is implemented (sessions tracking pages, etc)
+عرض وصف الجلسة في أي مكان يتم فيه تنفيذ هذا الخيار (صفحات تتبع الجلسات، إلخ)
 
-*Default: `false`*
+*القيمة الافتراضية: `false`*
 
+---
 ### `show_simple_session_info`
 
-**Show simple session info**
+**عرض معلومات الجلسة البسيطة**
 
-Add coach and dates to the session's subtitle in the sessions' list.
+إضافة المدرب والتواريخ إلى عنوان فرعي الجلسة في قائمة الجلسات.
 
-*Default: `true`*
+*القيمة الافتراضية: `true`*
 
 
 ### `show_users_in_active_sessions_in_tracking`
 
-**Only display users from active sessions in tracking**
+**عرض مستخدمي الجلسات النشطة فقط في التتبع**
 
-Display only users from currently active sessions in learner tracking and reporting views.
+عرض مستخدمي الجلسات النشطة حاليًا فقط في عروض تتبع المتعلمين والتقارير.
 
-*Default: `false`*
+*القيمة الافتراضية: `false`*
 
 
 ### `tracking_columns`
 
-**Customize course-session tracking columns**
+**تخصيص أعمدة تتبع الدورة-الجلسة**
 
-Define an array of columns for the following reports: 'course_session', 'my_students_lp', 'my_progress_lp', 'my_progress_courses'.
+تحديد مصفوفة من الأعمدة للتقارير التالية: 'course_session'، 'my_students_lp'، 'my_progress_lp'، 'my_progress_courses'.
 
 ### `user_s_session_duration`
 
-**Auto-created sessions duration**
+**مدة الجلسات المُنشأة تلقائيًا**
 
-Duration (in days) of the single-user, auto-created sessions. After expiry, the user cannot register to the same course (no other session is created).
+مدة (بالأيام) للجلسات المُنشأة تلقائيًا لمستخدم واحد. بعد انتهاء الصلاحية، لا يمكن للمستخدم التسجيل في نفس الدورة (لا تُنشأ جلسة أخرى).
 
-*Default: `1095`*
+*القيمة الافتراضية: `1095`*
 
 
 ### `user_session_display_mode`
 
-**My Sessions display mode**
+**وضع عرض جلساتي**
 
-Choose how the "My Sessions" page is displayed: as a modern visual block (card) view or the classic list style.
+اختيار كيفية عرض صفحة "جلساتي": كعرض كتل بصرية حديثة (بطاقات) أو نمط القائمة الكلاسيكي.
 
-*Default: `list`*
+*القيمة الافتراضية: `list`*

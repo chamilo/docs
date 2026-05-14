@@ -1,80 +1,79 @@
-# Announcements Settings
+# إعدادات الإعلانات
 
-Behaviour of the course **Announcements** tool — how announcements are sent and scheduled.
+سلوك أداة **Announcements** في الدورة — كيفية إرسال الإعلانات وجدولتها.
 
-Access these settings under **Administration > Configuration settings > Announcements**. This category contains **9 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+يمكن الوصول إلى هذه الإعدادات تحت **Administration > Configuration settings > Announcements**. تحتوي هذه الفئة على **9 إعدادات**، مدرجة أدناه مع العنوان والتعليق المرسل في إعدادات المنصة (`SettingsCurrentFixtures.php`).
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> يتم عرض اسم المتغير في الكود بخط monospace. استخدمه عند البرمجة عبر [API](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml) أو عند الحاجة إلى تغيير هذه الإعدادات على المستوى العام بتحرير [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
 
-## Settings
+## الإعدادات
 
 ### `allow_careers_in_global_announcements`
 
-**Link global announcements with careers and promotions**
+**ربط الإعلانات العامة بالمسارات المهنية والترقيات**
 
-When enabled, global announcements can be associated with careers and promotions for targeted distribution.
+عند التفعيل، يمكن ربط الإعلانات العامة بالمسارات المهنية والترقيات للتوزيع المستهدف.
 
-*Default: `false`*
+*القيمة الافتراضية: `false`*
 
 ### `allow_coach_to_edit_announcements`
 
-**Allow coaches to always edit announcements**
+**السماح للمدربين دائمًا بتحرير الإعلانات**
 
-Allow coaches to always edit announcements inside active or past sessions.
+السماح للمدربين دائمًا بتحرير الإعلانات داخل الجلسات النشطة أو المنتهية.
 
-*Default: `false`*
+*القيمة الافتراضية: `false`*
 
 ### `allow_scheduled_announcements`
 
-**Enable scheduled announcements in sessions**
+**تفعيل الإعلانات المجدولة في الجلسات**
 
-Allows the sessions managers to set announcements that will be triggered on specific dates or after/before a number of days of start/end of the session. Enabling this feature requires you to setup a cron task.
+يسمح لمديري الجلسات بتعيين إعلانات سيتم تشغيلها في تواريخ محددة أو بعد/قبل عدد من الأيام من بداية/نهاية الجلسة. يتطلب تفعيل هذه الميزة إعداد مهمة cron.
 
-*Default: `false`*
+*القيمة الافتراضية: `false`*
 
 ### `announcements_hide_send_to_hrm_users`
 
-**Hide option to send announcements to HR users**
+**إخفاء خيار إرسال الإعلانات إلى مستخدمي HR**
 
-Remove the checkbox to enable sending announcements to users with HR roles (still requires to confirm in the announcements tool).
+إزالة خانة الاختيار لتفعيل إرسال الإعلانات إلى المستخدمين ذوي الأدوار في HR (لا يزال يتطلب التأكيد في أداة الإعلانات).
 
-*Default: `true`*
+*القيمة الافتراضية: `true`*
 
 ### `course_announcement_scheduled_by_date`
 
-**Date-based announcements**
+**الإعلانات المبنية على التاريخ**
 
-Allow teachers to configure announcements that will be sent at specific dates. This requires you to setup a cron task on cron/course_announcement.php running at least once daily.
+السماح للمعلمين بتكوين إعلانات سيتم إرسالها في تواريخ محددة. يتطلب هذا إعداد مهمة cron على cron/course_announcement.php تعمل مرة واحدة على الأقل يوميًا.
 
-*Default: `false`*
+*القيمة الافتراضية: `false`*
 
 ### `disable_announcement_attachment`
 
-**Disable attachment to announcements**
+**تعطيل المرفقات في الإعلانات**
 
-Even though attachments in this version are dealt in an elegant way and do not multiply on disk, you might want to disable attachments altogether if you want to avoid excesses.
+رغم أن المرفقات في هذه النسخة تُدار بطريقة أنيقة ولا تتكاثر على القرص، قد ترغب في تعطيل المرفقات تمامًا إذا كنت تريد تجنب الإفراط.
 
-*Default: `false`*
+*القيمة الافتراضية: `false`*
 
 ### `disable_delete_all_announcements`
 
-**Disable button to delete all announcements**
+**تعطيل زر حذف جميع الإعلانات**
 
-Select 'Yes' to remove the button to delete all announcements, as this can be used by mistake by teachers.
+اختر "نعم" لإزالة الزر لحذف جميع الإعلانات، حيث يمكن أن يستخدمه المعلمون بالخطأ.
 
-*Default: `false`*
+*القيمة الافتراضية: `false`*
 
 ### `hide_announcement_sent_to_users_info`
 
-**Hide 'sent to' in announcements**
+**إخفاء "مرسل إلى" في الإعلانات**
 
-Select 'Yes' to avoid showing to whom an announcement has been sent.
+اختر "نعم" لتجنب عرض من تم إرسال الإعلان إليهم.
 
-*Default: `false`*
+*القيمة الافتراضية: `false`*
 
 ### `hide_send_to_hrm_users`
 
-**Hide the option to send an announcement copy to HRM**
+**إخفاء خيار إرسال نسخة من الإعلان إلى HRM**
 
-In the announcements form, an option normally appears to allow teachers to send a copy of the announcement to the user's HRM. Set this to 'Yes' to remote the option (and *not* send the copy).
-
+في نموذج الإعلانات، يظهر خيار عادةً يسمح للمعلمين بإرسال نسخة من الإعلان إلى HRM للمستخدم. قم بتعيين هذا إلى "نعم" لإزالة الخيار (ول*عدم* إرسال النسخة).

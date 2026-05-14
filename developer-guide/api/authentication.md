@@ -1,10 +1,10 @@
-# Authentication
+# المصادقة
 
-The Chamilo API uses **JWT (JSON Web Tokens)** for authentication, implemented via `lexik/jwt-authentication-bundle`.
+يستخدم **Chamilo API** خيار **JWT (JSON Web Tokens)** للمصادقة، والذي يتم تنفيذه عبر `lexik/jwt-authentication-bundle`.
 
-## Obtaining a Token
+## الحصول على الرمز
 
-Send a POST request to the authentication endpoint:
+أرسل طلب POST إلى نقطة نهاية المصادقة:
 
 ```
 POST /api/authentication_token
@@ -16,7 +16,7 @@ Content-Type: application/json
 }
 ```
 
-Response:
+الاستجابة:
 
 ```json
 {
@@ -24,37 +24,37 @@ Response:
 }
 ```
 
-## Using the Token
+## استخدام الرمز
 
-Include the token in the `Authorization` header of subsequent requests:
+قم بتضمين الرمز في رأس `Authorization` لطلبات لاحقة:
 
 ```
 GET /api/users
 Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9...
 ```
 
-## Token Lifecycle
+## دورة حياة الرمز
 
-* Tokens have a configurable expiration time
-* When a token expires, the client must request a new one
-* JWT keys are stored in `config/jwt/` (private and public keys)
+* تمتلك الرموز وقت انتهاء صلاحية قابل للتكوين
+* عند انتهاء صلاحية الرمز، يجب على العميل طلب رمز جديد
+* تُخزن مفاتيح JWT في `config/jwt/` (المفاتيح الخاصة والعامة)
 
-## Generating JWT Keys
+## إنشاء مفاتيح JWT
 
 ```bash
 php bin/console lexik:jwt:generate-keypair
 ```
 
-This creates:
-* `config/jwt/private.pem` — Private key for signing tokens
-* `config/jwt/public.pem` — Public key for verifying tokens
+هذا ينشئ:
+* `config/jwt/private.pem` — المفتاح الخاص لتوقيع الرموز
+* `config/jwt/public.pem` — المفتاح العام للتحقق من الرموز
 
-Configure the passphrase in `.env`:
+قم بتكوين كلمة المرور في `.env`:
 
 ```env
 JWT_PASSPHRASE=your-passphrase
 ```
 
-## API Documentation
+## وثائق API
 
-When `APP_ENABLE_API_ENTRYPOINT=1` is set in the environment, the API documentation is available at `/api`. This provides an interactive Swagger/OpenAPI interface for exploring and testing endpoints.
+عند تعيين `APP_ENABLE_API_ENTRYPOINT=1` في البيئة، تكون وثائق API متاحة على `/api`. هذا يوفر واجهة Swagger/OpenAPI تفاعلية لاستكشاف واختبار نقاط النهاية.

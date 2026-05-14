@@ -1,76 +1,76 @@
-# AI Configuration
+# تكوين الذكاء الاصطناعي
 
-Chamilo 2.0 includes AI-powered features that require configuration before they become available to teachers and learners.
+يحتوي Chamilo 2.0 على ميزات مدعومة بالذكاء الاصطناعي تتطلب التكوين قبل أن تصبح متاحة للمعلمين والمتعلمين.
 
-## Supported AI Providers
+## مزودو الذكاء الاصطناعي المدعومون
 
-Chamilo supports multiple AI providers:
+يدعم Chamilo عدة مزودي ذكاء اصطناعي:
 
-| Provider | Capabilities |
-|----------|-------------|
-| **DeepSeek** | Text generation |
-| **Google Gemini** | Text, image, video generation |
-| **Grok** | Text, image, video generation |
-| **Mistral** | Text generation |
-| **OpenAI** | Text, image, video generation |
+| المزود | القدرات |
+|--------|----------|
+| **DeepSeek** | توليد النصوص |
+| **Google Gemini** | توليد النصوص والصور والفيديو |
+| **Grok** | توليد النصوص والصور والفيديو |
+| **Mistral** | توليد النصوص |
+| **OpenAI** | توليد النصوص والصور والفيديو |
 
-Each provider can be configured for different types of AI tasks:
+يمكن تكوين كل مزود لأنواع مختلفة من مهام الذكاء الاصطناعي:
 
-* **Text** — Used for exercise generation, learning path generation, AI grading, and the AI tutor
-* **Image** — Used for AI image generation
-* **Video** — Used for AI video generation (where supported)
-* **Document** — Used for AI document analysis
+* **النص** — يُستخدم لتوليد التمارين، وتوليد مسارات التعلم، وتصحيح الذكاء الاصطناعي، ومساعد الذكاء الاصطناعي
+* **الصورة** — يُستخدم لتوليد الصور بالذكاء الاصطناعي
+* **الفيديو** — يُستخدم لتوليد الفيديو بالذكاء الاصطناعي (حيث يدعم)
+* **الوثيقة** — يُستخدم لتحليل الوثائق بالذكاء الاصطناعي
 
-## Configuration Steps
+## خطوات التكوين
 
-### 1. Obtain API Keys
+### 1. الحصول على مفاتيح API
 
-Register for an account with your chosen AI provider and obtain an API key:
+قم بالتسجيل في حساب لدى مزود الذكاء الاصطناعي الذي اخترته والحصول على مفتاح API:
 
 * **DeepSeek**: [platform.deepseek.com](https://platform.deepseek.com/)
-* **Google Gemini**: Google AI Studio or Google Cloud
+* **Google Gemini**: Google AI Studio أو Google Cloud
 * **Grok**: [console.x.ai](https://console.x.ai/)
 * **Mistral**: [console.mistral.ai](https://console.mistral.ai/)
 * **OpenAI**: [platform.openai.com](https://platform.openai.com/)
 
-### 2. Configure Providers in Chamilo
+### 2. تكوين المزودين في Chamilo
 
-![The AI helpers configuration page showing provider settings with API key, model, and endpoint fields](/.gitbook/assets/admin-ai-helpers-config.png)
+![صفحة تكوين مساعدي الذكاء الاصطناعي التي تظهر إعدادات المزودين مع حقول مفتاح API والنموذج ونقطة النهاية](/.gitbook/assets/admin-ai-helpers-config.png)
 
-In the platform settings, navigate to the **AI Helpers** section:
+في إعدادات المنصة، انتقل إلى قسم **مساعدي الذكاء الاصطناعي**:
 
-1. **Enable AI helpers** — Turn on the AI features globally
-2. **Configure AI providers** — Add one or more providers with:
-   * **Provider name** (deepseek, gemini, grok, mistral, openai)
-   * **API key** — Your API key for the provider
-   * **Model** — The specific model to use (e.g., `gpt-4`, `gemini-pro`, `mistral-large`)
-   * **API URL** — The endpoint URL (pre-configured for standard providers)
+1. **تمكين مساعدي الذكاء الاصطناعي** — تشغيل ميزات الذكاء الاصطناعي عالميًا
+2. **تكوين مزودي الذكاء الاصطناعي** — إضافة مزود واحد أو أكثر مع:
+   * **اسم المزود** (deepseek, gemini, grok, mistral, openai)
+   * **مفتاح API** — مفتاح API الخاص بك للمزود
+   * **النموذج** — النموذج المحدد للاستخدام (مثل `gpt-4`، `gemini-pro`، `mistral-large`)
+   * **رابط API** — رابط نقطة النهاية (مُعد مسبقًا للمزودين القياسيين)
 
-You can configure multiple providers. The first provider in the configuration becomes the default.
+يمكنك تكوين مزودين متعددين. يصبح المزود الأول في التكوين الافتراضيًا.
 
-### 3. Enable Features Per Course
+### 3. تمكين الميزات لكل مساق
 
-AI features can be enabled or disabled at the course level. Teachers can toggle:
+يمكن تمكين ميزات الذكاء الاصطناعي أو تعطيلها على مستوى المساق. يمكن للمعلمين تبديل:
 
-* **AI Tutor chatbot** — The AI assistant for learners
-* **Assignment grader** — AI-generated grading recommendation
-* **Exercise generator** — AI-generated quiz questions
-* **Learning path generator** — AI-generated learning sequences
-* **Image/Video generator** — AI-generated images and videos in documents
+* **روبوت الدردشة لمساعد الذكاء الاصطناعي** — المساعد الذكاء الاصطناعي للمتعلمين
+* **مصحح المهام** — توصية تصحيح مولدة بالذكاء الاصطناعي
+* **مولد التمارين** — أسئلة الاختبار المولدة بالذكاء الاصطناعي
+* **مولد مسارات التعلم** — تسلسلات التعلم المولدة بالذكاء الاصطناعي
+* **مولد الصور/الفيديو** — الصور والفيديوهات المولدة بالذكاء الاصطناعي في الوثائق
 
-This allows different courses to use different AI configurations based on their needs.
+يسمح ذلك للمساقات المختلفة باستخدام تكوينات ذكاء اصطناعي مختلفة بناءً على احتياجاتها.
 
-## Cost Considerations
+## اعتبارات التكلفة
 
-AI API calls have costs associated with them. Consider:
+تكون لاستدعاءات API الذكاء الاصطناعي تكاليف مرتبطة بها. اعتبر:
 
-* **Setting usage limits** — Monitor and limit AI API usage to control costs
-* **Choosing models wisely** — Smaller, less expensive models may be sufficient for many educational tasks
-* **Tracking usage** — Chamilo logs AI requests to help you monitor consumption
+* **تعيين حدود الاستخدام** — مراقبة وتقييد استخدام API الذكاء الاصطناعي للسيطرة على التكاليف
+* **اختيار النماذج بحكمة** — قد تكون النماذج الأصغر حجمًا وأقل تكلفة كافية للعديد من المهام التعليمية
+* **تتبع الاستخدام** — يسجل Chamilo طلبات الذكاء الاصطناعي لمساعدتك على مراقبة الاستهلاك
 
-## Tips
+## نصائح
 
-* **Start with one provider** — Configure and test one provider before adding more
-* **Test with a course** — Enable AI features in a test course first to verify they work as expected
-* **Communicate with teachers** — Let teachers know which AI features are available and how to use them
-* **Monitor quality** — Regularly review AI-generated content to ensure it meets your educational standards
+* **ابدأ بمزود واحد** — قم بتكوين واختبار مزود واحد قبل إضافة المزيد
+* **اختبر بمساق** — قم بتمكين ميزات الذكاء الاصطناعي في مساق اختبار أولاً للتحقق من عملها كما هو متوقع
+* **تواصل مع المعلمين** — أخبر المعلمين بميزات الذكاء الاصطناعي المتاحة وكيفية استخدامها
+* **راقب الجودة** — قم بمراجعة المحتوى المولد بالذكاء الاصطناعي بانتظام للتأكد من أنه يلبي معاييرك التعليمية

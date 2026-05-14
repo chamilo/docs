@@ -1,48 +1,48 @@
-# SSO Configuration
+# إعداد SSO
 
-This page covers topics that apply across authentication methods.
+تغطي هذه الصفحة الموضوعات العامة التي تنطبق على طرق المصادقة بشكل عام.
 
-## Multiple providers
+## عدة مزودين
 
-You can enable more than one authentication method at the same time. Each enabled provider shows its own button on the login page alongside the standard username/password form. Users choose their preferred method.
+يمكنك تفعيل عدة طرق مصادقة في وقت واحد. سيتم عرض كل مزود مفعّل كزر خاص بجانب نموذج اسم المستخدم/كلمة المرور القياسي في صفحة تسجيل الدخول. يمكن للمستخدمين اختيار الطريقة المفضلة لديهم.
 
-Keep the standard form enabled so platform administrators can always log in, even if an external provider is misconfigured.
+حتى في حالة إعداد مزود خارجي بشكل خاطئ، يجب الحفاظ على تفعيل النموذج القياسي ليتمكن مدير المنصة دائمًا من تسجيل الدخول.
 
-## Authentication priority
+## أولوية المصادقة
 
-When multiple methods are active, the system checks credentials in this order:
+عند تفعيل عدة طرق، يتحقق النظام من معلومات المصادقة بالترتيب التالي:
 
-1. LDAP (if `force_as_login_method` is set)
-2. OAuth2 providers (in the order they appear in `authentication.yaml`)
-3. Internal Chamilo database
+1. LDAP (في حال تعيين `force_as_login_method`)
+2. مزودي OAuth2 (بالترتيب الموضح في `authentication.yaml`)
+3. قاعدة بيانات Chamilo الداخلية
 
-## JWT tokens for API access
+## رموز JWT للوصول إلى API
 
-Chamilo uses JWT (JSON Web Tokens) for its REST API. Token lifetime and refresh behaviour are configured in `config/packages/lexik_jwt_authentication.yaml`. This is separate from the SSO login flow and applies to API clients only.
+يستخدم Chamilo رموز JWT (JSON Web Tokens) لـ REST API. يتم تعيين مدة صلاحية الرموز وسلوك التجديد في `config/packages/lexik_jwt_authentication.yaml`. هذا منفصل عن تدفق تسجيل الدخول SSO وينطبق فقط على عملاء API.
 
-## Troubleshooting
+## استكشاف الأخطاء وحل المشكلات
 
-### Login button does not appear after configuration
+### عدم ظهور أزرار تسجيل الدخول بعد الإعداد
 
-The cache must be cleared after every change to `authentication.yaml`:
+يجب مسح الذاكرة المؤقتة في كل مرة تقوم فيها بتغيير `authentication.yaml`:
 
 ```bash
 php bin/console cache:clear && php bin/console cache:warmup
 ```
 
-### Users cannot log in via SSO
+### عدم قدرة المستخدمين على تسجيل الدخول عبر SSO
 
-* **Redirect URI mismatch** — The URI registered in your identity provider must exactly match `https://your-chamilo-url/connect/<provider>/check`.
-* **Clock drift** — SSO tokens are time-sensitive. Ensure your server clock is synchronized (NTP).
-* **SSL certificate** — Chamilo must trust the identity provider's certificate. Check for self-signed certificate issues.
-* **Logs** — Review `var/log/` and your identity provider's logs for specific error messages.
+* **عدم تطابق URI إعادة التوجيه** — يجب أن تتطابق URI المسجلة في مزود الهوية تمامًا مع `https://your-chamilo-url/connect/<provider>/check`.
+* **انحراف الساعة** — رموز SSO حساسة للوقت. تأكد من مزامنة ساعة الخادم (NTP).
+* **شهادة SSL** — يجب أن يثق Chamilo بشهادة مزود الهوية. تحقق من عدم وجود مشكلات في الشهادات الذاتية التوقيع.
+* **السجلات** — تحقق من `var/log/` وسجلات مزود الهوية للحصول على رسائل الخطأ المحددة.
 
-### Users are created with the wrong role
+### إنشاء المستخدمين بدور خاطئ
 
-Check the role mapping configuration for the provider. New users default to the student role unless a group or attribute mapping promotes them.
+تحقق من إعدادات تعيين الأدوار للمزود. سيحصل المستخدمون الجدد على دور الطالب افتراضيًا ما لم يتم ترقيتهم عبر تعيين المجموعات أو السمات.
 
-### Users exist in the provider but cannot access Chamilo
+### وجود المستخدم في المزود لكن عدم الوصول إلى Chamilo
 
-* If `allow_create_new_users` is false, the user must already have a Chamilo account whose email or username matches the provider's data.
-* Check that the user is not deactivated in Chamilo.
-* For Azure, review `existing_user_verification_order` to understand how Chamilo matches incoming users to existing accounts.
+* إذا كان `allow_create_new_users` خاطئًا، يجب أن يكون لدى المستخدم حساب Chamilo موجود مسبقًا بعنوان بريد إلكتروني أو اسم مستخدم مطابق لبيانات المزود.
+* تأكد من أن المستخدم لم يُعطل في Chamilo.
+* في حالة Azure، تحقق من `existing_user_verification_order` لفهم كيفية مطابقة Chamilo للمستخدمين المستلمين مع الحسابات الموجودة.

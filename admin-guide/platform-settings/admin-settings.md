@@ -1,96 +1,95 @@
-# Administrator Identity Settings
+# إعدادات هوية المسؤول
 
-Identity and contact details of the platform administrator. These values appear in the platform footer and in some system-generated emails.
+تفاصيل الهوية والاتصال لمسؤول المنصة. تظهر هذه القيم في تذييل المنصة وفي بعض الرسائل الإلكترونية المُولَّدة من النظام.
 
-Access these settings under **Administration > Configuration settings > Administrator Identity**. This category contains **12 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+الوصول إلى هذه الإعدادات تحت **إدارة > إعدادات التكوين > هوية المسؤول**. تحتوي هذه الفئة على **12 إعدادًا**، مدرجة أدناه مع العنوان والتعليق المُرسَل مع إعدادات المنصة (`SettingsCurrentFixtures.php`).
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> يُعْرَض اسم المتغير في الكود بخط أحادي المسافة. استخدمه عند البرمجة عبر `API` أو عند الحاجة إلى تغيير هذه الإعدادات على المستوى العام بتحرير [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
 
-## Settings
+## الإعدادات
 
 ### `administrator_email`
 
-**Portal Administrator: e-mail**
+**مسؤول البوابة: البريد الإلكتروني**
 
-The e-mail address of the Platform Administrator (appears in the footer on the left)
+عنوان البريد الإلكتروني لمسؤول المنصة (يظهر في التذييل على اليسار)
 
 ### `administrator_name`
 
-**Portal Administrator: First Name**
+**مسؤول البوابة: الاسم الأول**
 
-The First Name of the Platform Administrator (appears in the footer on the left)
+الاسم الأول لمسؤول المنصة (يظهر في التذييل على اليسار)
 
 ### `administrator_phone`
 
-**Portal Administrator: Phone number**
+**مسؤول البوابة: رقم الهاتف**
 
-The phone number of the Platform Administrator (appears in the footer on the left)
+رقم هاتف مسؤول المنصة (يظهر في التذييل على اليسار)
 
 ### `administrator_surname`
 
-**Portal Administrator: Last Name**
+**مسؤول البوابة: اسم العائلة**
 
-The Family Name of the Platform Administrator (appears in the footer on the left)
+اسم العائلة لمسؤول المنصة (يظهر في التذييل على اليسار)
 
 ### `chamilo_latest_news`
 
-**Latest news**
+**آخر الأخبار**
 
-Get the latest news from Chamilo, including security vulnerabilities and events, directly inside your administration panel. These pieces of news will be checked on the Chamilo news server every time you load the administration page and are only visible to administrators.
+احصل على آخر أخبار Chamilo، بما في ذلك الثغرات الأمنية والأحداث، مباشرة داخل لوحة الإدارة الخاصة بك. سيتم التحقق من هذه الأخبار على خادم أخبار Chamilo في كل مرة تقوم فيها بتحميل صفحة الإدارة وهي مرئية فقط للمسؤولين.
 
-*Default: `true`*
+*القيمة الافتراضية: `true`*
 
 ### `chamilo_support`
 
-**Chamilo support block**
+**كتلة دعم Chamilo**
 
-Get pro tips and an easy way to contact official service providers for professional support, directly from the makers of Chamilo. This block appears on your administration page, is only visible by administrators, and refreshes every time you load the administration page.
+احصل على نصائح احترافية وطريقة سهلة للاتصال بمقدمي الخدمات الرسميين للحصول على دعم احترافي، مباشرة من صانعي Chamilo. تظهر هذه الكتلة في صفحة الإدارة الخاصة بك، وهي مرئية فقط للمسؤولين، وتُحدَّث في كل مرة تقوم فيها بتحميل صفحة الإدارة.
 
-*Default: `true`*
+*القيمة الافتراضية: `true`*
 
 ### `max_anonymous_users`
 
-**Multiple anonymous users**
+**مستخدمون مجهولون متعددون**
 
-Enable this option to allow multiple system users for anonymous users. This is useful when using this platform as a public showroom for some courses. Having multiple anonymous users will let tracking work for the duration of the experience for several users without mixing their data (which could otherwise confuse them).
+قم بتفعيل هذا الخيار للسماح بمستخدمي نظام متعددين للمستخدمين المجهولين. هذا مفيد عند استخدام هذه المنصة كمعرض عام لبعض الدورات. وجود مستخدمين مجهولين متعددين سيسمح بعمل التتبع طوال مدة التجربة لعدة مستخدمين دون خلط بياناتهم (الذي قد يربكهم خلاف ذلك).
 
-*Default: `0`*
+*القيمة الافتراضية: `0`*
 
 ### `redirect_admin_to_courses_list`
 
-**Redirect admin to courses list**
+**إعادة توجيه المسؤول إلى قائمة الدورات**
 
-The default behaviour is to send administrators directly to the administration panel (while teachers and students are sent to the courses list or the platform homepage). Enable to redirect the administrator also to his/her courses list.
+السلوك الافتراضي هو إرسال المسؤولين مباشرة إلى لوحة الإدارة (بينما يُرسَل المعلمون والطلاب إلى قائمة الدورات أو الصفحة الرئيسية للمنصة). قم بتفعيل هذا لإعادة توجيه المسؤول أيضًا إلى قائمة دوراته.
 
-*Default: `false`*
+*القيمة الافتراضية: `false`*
 
 ### `send_inscription_notification_to_general_admin_only`
 
-**Notify global admin only of new users**
+**إخطار مسؤول عام فقط بالمستخدمين الجدد**
 
-When enabled, only the global administrator receives email notifications about new user registrations instead of all administrators.
+عند التفعيل، يتلقى المسؤول العام فقط إشعارات البريد الإلكتروني حول تسجيلات المستخدمين الجدد بدلاً من جميع المسؤولين.
 
-*Default: `false`*
+*القيمة الافتراضية: `false`*
 
 ### `show_link_request_hrm_user`
 
-**Show link to request bond between user and HRM**
+**عرض رابط طلب ربط بين المستخدم وHRM**
 
-Display a link on the profile page allowing Human Resources directors to request to be linked with a user account.
+عرض رابط في صفحة الملف الشخصي يسمح لمديري الموارد البشرية بطلب الربط مع حساب مستخدم.
 
-*Default: `false`*
+*القيمة الافتراضية: `false`*
 
 ### `user_status_option_only_for_admin_enabled`
 
-**Hide role from normal users**
+**إخفاء الدور عن المستخدمين العاديين**
 
-Allows hiding users' role when this option is set to true and the following array sets the corresponding role to 'true'.
+يسمح بإخفاء دور المستخدمين عند تعيين هذا الخيار إلى `true` والمصفوفة التالية تعيين الدور المقابل إلى `'true'`.
 
-*Default: `false`*
+*القيمة الافتراضية: `false`*
 
 ### `user_status_option_show_only_for_admin`
 
-**Define which roles are hidden to normal users**
+**تحديد الدور التي تُخْفَى عن المستخدمين العاديين**
 
-The roles set to 'true' will only appear to administrators. Other users will not be able to see them.
-
+الأدوار المُعْيَنَة إلى `'true'` ستظهر فقط للمسؤولين. لن يتمكن المستخدمون الآخرون من رؤيتها.

@@ -1,63 +1,63 @@
-# Configuration
+# الإعدادات
 
-Chamilo 2.0 uses environment variables and Symfony configuration files for its core settings. This page covers the key configuration files and variables.
+يستخدم Chamilo 2.0 متغيرات البيئة وملفات إعدادات Symfony لإعداداته الأساسية. تغطي هذه الصفحة الملفات والمتغيرات الرئيسية للإعدادات.
 
-## Environment Variables (.env)
+## متغيرات البيئة (.env)
 
-The primary configuration file is `.env` in the Chamilo root directory. This file contains environment-specific settings that should not be committed to version control.
+الملف الرئيسي للإعدادات هو `.env` في دليل Chamilo الرئيسي. يحتوي هذا الملف على إعدادات خاصة بالبيئة لا يجب إدراجها في نظام التحكم بالإصدارات.
 
-A default `.env.dist` file ships with Chamilo and contains documented defaults. Create `.env` (required to start the installation) to override values for your environment.
+يأتي مع Chamilo ملف `.env.dist` افتراضي يحتوي على القيم الافتراضية الموثقة. أنشئ `.env` (مطلوب لبدء التثبيت) لتجاوز القيم لبيئتك.
 
-### Key Variables
+### المتغيرات الرئيسية
 
 | Variable | Description | Example |
 |----------|-------------|---------|
-| `APP_ENV` | The application environment, at the Symfony level. Use `prod` for production, `dev` for development, 'test' for testing. | `prod` |
-| `APP_SECRET` | A random string used for CSRF tokens, cookie signing, and other cryptographic operations. Chamilo generates a unique value for each installation. Don't modify it. | `a1b2c3d4e5f6...` |
-| `DATABASE_HOST` | The database host. Defaults to localhost | `localhost` |
-| `DATABASE_PORT` | The database port. Defaults to 3306 for MySQL/MariaDB | `3306` |
-| `DATABASE_NAME` | The database name, as given by you to the installation wizard. | See below. |
-| `DATABASE_USER` | The database username, as given by you to the installation wizard. | See below. |
-| `DATABASE_PASSWORD` | The database user's password, as given by you to the installation wizard. | See below. |
-| `TRUSTED_PROXIES` | (Optional) If you are hosting Chamilo behind a reverse proxy, you need to provide the IP(s) of the reverse proxy here for Chamilo to be able to interpret calls and generate responses correctly. | |
+| `APP_ENV` | بيئة التطبيق، على مستوى Symfony. استخدم `prod` للإنتاج، `dev` للتطوير، 'test' للاختبار. | `prod` |
+| `APP_SECRET` | سلسلة عشوائية تُستخدم لرموز CSRF، توقيع الكوكيز، وعمليات التشفير الأخرى. يولد Chamilo قيمة فريدة لكل تثبيت. لا تعدلها. | `a1b2c3d4e5f6...` |
+| `DATABASE_HOST` | مضيف قاعدة البيانات. الافتراضي localhost | `localhost` |
+| `DATABASE_PORT` | منفذ قاعدة البيانات. الافتراضي 3306 لـ MySQL/MariaDB | `3306` |
+| `DATABASE_NAME` | اسم قاعدة البيانات، كما قدمته إلى معالج التثبيت. | انظر أدناه. |
+| `DATABASE_USER` | اسم مستخدم قاعدة البيانات، كما قدمته إلى معالج التثبيت. | انظر أدناه. |
+| `DATABASE_PASSWORD` | كلمة مرور مستخدم قاعدة البيانات، كما قدمتها إلى معالج التثبيت. | انظر أدناه. |
+| `TRUSTED_PROXIES` | (اختياري) إذا كنت تستضيف Chamilo خلف خادم وكيل عكسي، يجب تقديم عنوان(ات) IP لخادم الوكيل العكسي هنا حتى يتمكن Chamilo من تفسير الطلبات وتوليد الردود بشكل صحيح. | |
 
-Other settings in .env are relatively rarely modified.
+الإعدادات الأخرى في .env تُعدل نادراً.
 
-Note that, in future versions, the DATABASE_* settings will be combined into one single `DATABASE_URL` variable.
+لاحظ أنه، في الإصدارات المستقبلية، ستُجمع إعدادات DATABASE_* في متغير واحد `DATABASE_URL`.
 
-E-mail sending configuration is presented during installation, but can be modified later on in the `Platform settings` section of the administration dashboard.
+يتم عرض إعدادات إرسال البريد الإلكتروني أثناء التثبيت، ولكن يمكن تعديلها لاحقاً في قسم `إعدادات المنصة` في لوحة الإدارة.
 
-## Symfony Configuration (config/ Directory)
+## إعدادات Symfony (دليل config/)
 
-Symfony-level configuration lives in the `config/` directory. These YAML files control framework behavior, service definitions, and package-specific settings.
+توجد إعدادات على مستوى Symfony في دليل `config/`. تتحكم هذه ملفات YAML في سلوك الإطار، تعريفات الخدمات، والإعدادات الخاصة بالحزم.
 
-It is not frequent to have to modify those files, and changing them can render your portal inoperative, so please do not attempt to modify those if you must ensure the system's availability.
+ليس من الشائع تعديل هذه الملفات، وتغييرها قد يجعل بوابةك غير فعالة، لذا من فضلك لا تحاول تعديلها إذا كنت مضطراً لضمان توافر النظام.
 
-### Key Configuration Files
+### الملفات الرئيسية للإعدادات
 
 | File | Purpose |
 |------|---------|
-| `config/authentication.yaml` | Authentication methods configuration. |
-| `config/packages/doctrine.yaml` | Database and ORM configuration. |
-| `config/packages/security.yaml` | Authentication, firewalls, access control, and role hierarchies. |
-| `config/packages/cache.yaml` | Cache adapter configuration (filesystem, APCu, Redis). |
-| `config/packages/framework.yaml` | General Symfony framework settings (session, CSRF, router, HTTP caching). |
-| `config/packages/twig.yaml` | Template engine configuration. |
-| `config/services.yaml` | Application service definitions and dependency injection. |
+| `config/authentication.yaml` | إعدادات طرق المصادقة. |
+| `config/packages/doctrine.yaml` | إعدادات قاعدة البيانات و ORM. |
+| `config/packages/security.yaml` | المصادقة، جدران الحماية، التحكم في الوصول، وتسلسلات الأدوار. |
+| `config/packages/cache.yaml` | إعدادات محول التخزين المؤقت (نظام الملفات، APCu، Redis). |
+| `config/packages/framework.yaml` | إعدادات إطار Symfony العامة (الجلسة، CSRF، الراوتر، تخزين HTTP المؤقت). |
+| `config/packages/twig.yaml` | إعدادات محرك القوالب. |
+| `config/services.yaml` | تعريفات خدمات التطبيق وحقن التبعيات. |
 
-### Environment-Specific Overrides
+### التجاوزات الخاصة بالبيئة
 
-Symfony supports per-environment configuration. Files in `config/packages/prod/` override the defaults when `APP_ENV=prod`, and `config/packages/dev/` overrides when `APP_ENV=dev`.
+يدعم Symfony إعدادات خاصة بكل بيئة. تتجاوز الملفات في `config/packages/prod/` الافتراضيات عند `APP_ENV=prod`، و `config/packages/dev/` تتجاوز عند `APP_ENV=dev`.
 
-For example, `config/packages/prod/monolog.yaml` typically configures less verbose logging than the development equivalent.
+على سبيل المثال، يقوم `config/packages/prod/monolog.yaml` عادةً بإعداد تسجيل أقل تفصيلاً من المقابل في التطوير.
 
-Chamilo does not define any configuration in `config/packages/prod/` in the software itself, so if you want to customize setting from `config/packages/*.yaml`, just create a copy of the yaml file inside that directory and change the settings there.
+لا يحدد Chamilo أي إعدادات في `config/packages/prod/` في البرمجيات نفسها، لذا إذا أردت تخصيص إعداد من `config/packages/*.yaml`، فقط أنشئ نسخة من ملف yaml داخل ذلك الدليل وقم بتغيير الإعدادات هناك.
 
-## File Permissions
+## صلاحيات الملفات
 
-We made efforts in 2.0+ to ensure that a single directory needed permissions. This is the `var/` directory, and to avoid complex issues, just setting the whole folder as writeable by the web server system user is enough.
+قمنا في 2.0+ بجهود لضمان أن دليلاً واحداً فقط يحتاج صلاحيات. هذا هو دليل `var/`، ولتجنب المشكلات المعقدة، مجرد تعيين الدليل بأكمله كقابل للكتابة من قبل مستخدم نظام خادم الويب يكفي.
 
-Set permissions appropriately under Debian-based systems:
+عيّن الصلاحيات بشكل مناسب تحت أنظمة Debian:
 
 ```bash
 # For systems where the web server runs as www-data
@@ -65,9 +65,9 @@ chown -R www-data:www-data var/
 chmod -R 775 var/
 ```
 
-## Common Configuration Tasks
+## مهام الإعدادات الشائعة
 
-### Switch to Production Mode
+### التبديل إلى وضع الإنتاج
 
 ```bash
 # In .env
@@ -75,25 +75,25 @@ APP_ENV=prod
 APP_DEBUG=0
 ```
 
-Then clear and warm the cache:
+ثم امسح ودفّئ التخزين المؤقت:
 
 ```bash
 php bin/console cache:clear --env=prod
 php bin/console cache:warmup --env=prod
 ```
 
-### Configure Trusted Proxies
+### إعداد الوكلاء الموثوقين
 
-If Chamilo runs behind a reverse proxy or load balancer, configure trusted proxies so that HTTPS detection and client IP resolution work correctly:
+إذا كان Chamilo يعمل خلف خادم وكيل عكسي أو موازن حمل، قم بإعداد الوكلاء الموثوقين حتى يعمل كشف HTTPS وحل عنوان IP للعميل بشكل صحيح:
 
 ```yaml
 # .env
 TRUSTED_PROXIES='127.0.0.1,PROXY_IP'
 ```
 
-### Configure Session Storage
+### إعداد تخزين الجلسات
 
-By default, sessions are stored on the filesystem. For multi-server deployments, configure Redis or database-backed sessions:
+افتراضياً، تُخزن الجلسات على نظام الملفات. للنشر على خوادم متعددة، قم بإعداد جلسات مدعومة بـ Redis أو قاعدة بيانات:
 
 ```yaml
 # config/packages/framework.yaml
@@ -102,8 +102,9 @@ framework:
         handler_id: 'redis://localhost:6379'
 ```
 
-## Tips
+---
+## نصائح
 
-* **Never edit `.env.dist` directly** -- Always use `.env` for your overrides. The `.env.dist` file may be overwritten during upgrades.
-* **Keep `APP_DEBUG=0` in production** -- Debug mode exposes sensitive information in error pages.
-* **Back up `.env`** separately from the codebase since it contains credentials and is excluded from version control.
+* **لا تقم بتحرير `.env.dist` مباشرة** -- استخدم دائمًا `.env` للتجاوزات الخاصة بك. قد يتم الكتابة فوق ملف `.env.dist` أثناء الترقيات.
+* **احتفظ بـ `APP_DEBUG=0` في الإنتاج** -- وضع التصحيح يكشف معلومات حساسة في صفحات الأخطاء.
+* **قم بعمل نسخة احتياطية لـ `.env`** بشكل منفصل عن قاعدة الكود لأنه يحتوي على بيانات الاعتماد ويُستثنى من التحكم في الإصدارات.

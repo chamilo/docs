@@ -1,137 +1,140 @@
-# Custom Actions
+# الإجراءات المخصصة
 
-Beyond standard CRUD operations, Chamilo has a number of custom API action controllers (in the order of dozens) that handle specialized operations. The exact count varies between releases — list `src/CoreBundle/Controller/Api/` for the current set.
+بالإضافة إلى عمليات CRUD القياسية، يحتوي Chamilo على عدد من متحكمات إجراءات API المخصصة (بالعشرات) التي تتعامل مع عمليات متخصصة. يختلف العدد الدقيق بين الإصدارات — قم بسرد `src/CoreBundle/Controller/Api/` للحصول على المجموعة الحالية.
 
-## Location
+## الموقع
 
-Custom actions are in `src/CoreBundle/Controller/Api/`.
+تقع الإجراءات المخصصة في `src/CoreBundle/Controller/Api/`.
 
-## Notable Custom Actions
+## الإجراءات المخصصة البارزة
 
-### Documents
+### المستندات
 
-| Controller | Purpose |
-|-----------|---------|
-| `CreateDocumentFileAction` | Upload a file or create a folder/link document |
-| `UpdateDocumentFileAction` | Replace a document's file |
-| `ReplaceDocumentFileAction` | Replace a document file, preserving its IDs |
-| `MoveDocumentAction` | Move a document to a different folder |
-| `UpdateVisibilityDocument` | Toggle document visibility for learners |
-| `DownloadAllDocumentsAction` | Download all documents in a folder as a ZIP |
-| `DownloadSelectedDocumentsAction` | Download a selected set of documents as a ZIP |
-| `DocumentUsageAction` | List courses/sessions where a document is used |
-| `DocumentLearningPathUsageAction` | List learning paths where a document is used |
+| المتحكم | الغرض |
+|---------|-------|
+| `CreateDocumentFileAction` | رفع ملف أو إنشاء مجلد/رابط مستند |
+| `UpdateDocumentFileAction` | استبدال ملف المستند |
+| `ReplaceDocumentFileAction` | استبدال ملف مستند مع الحفاظ على معرفاته |
+| `MoveDocumentAction` | نقل مستند إلى مجلد مختلف |
+| `UpdateVisibilityDocument` | تبديل رؤية المستند للمتعلمين |
+| `DownloadAllDocumentsAction` | تنزيل جميع المستندات في مجلد كملف ZIP |
+| `DownloadSelectedDocumentsAction` | تنزيل مجموعة مختارة من المستندات كملف ZIP |
+| `DocumentUsageAction` | سرد الدورات/الجلسات التي يُستخدم فيها المستند |
+| `DocumentLearningPathUsageAction` | سرد مسارات التعلم التي يُستخدم فيها المستند |
 
-### Glossary
+### المصطلحات
 
-| Controller | Purpose |
-|-----------|---------|
-| `CreateCGlossaryAction` | Create a glossary term |
-| `UpdateCGlossaryAction` | Update a glossary term |
-| `ExportCGlossaryAction` | Export glossary to file |
-| `ImportCGlossaryAction` | Import glossary from file |
-| `ExportGlossaryToDocumentsAction` | Export glossary as a document in the course |
-| `GetGlossaryCollectionController` | Get glossary collection with custom filtering |
+| المتحكم | الغرض |
+|---------|-------|
+| `CreateCGlossaryAction` | إنشاء مصطلح مصطلحات |
+| `UpdateCGlossaryAction` | تحديث مصطلح مصطلحات |
+| `ExportCGlossaryAction` | تصدير المصطلحات إلى ملف |
+| `ImportCGlossaryAction` | استيراد المصطلحات من ملف |
+| `ExportGlossaryToDocumentsAction` | تصدير المصطلحات كمستند في الدورة |
+| `GetGlossaryCollectionController` | الحصول على مجموعة المصطلحات مع تصفية مخصصة |
 
-### Links
+### الروابط
 
-| Controller | Purpose |
-|-----------|---------|
-| `CreateCLinkAction` | Create an external link |
-| `UpdateCLinkAction` | Update an external link |
-| `CreateCLinkCategoryAction` | Create a link category |
-| `UpdateCLinkCategoryAction` | Update a link category |
-| `CheckCLinkAction` | Check whether a link URL is reachable |
-| `ExportCLinksAction` | Export links to file |
-| `CLinkDetailsController` | Get link details |
-| `CLinkImageController` | Get or set a link's preview image |
-| `GetLinksCollectionController` | Get links collection with custom filtering |
-| `UpdateVisibilityLink` | Toggle link visibility |
-| `UpdateVisibilityLinkCategory` | Toggle link category visibility |
-| `UpdatePositionLink` | Reorder links |
+| المتحكم | الغرض |
+|---------|-------|
+| `CreateCLinkAction` | إنشاء رابط خارجي |
+| `UpdateCLinkAction` | تحديث رابط خارجي |
+| `CreateCLinkCategoryAction` | إنشاء فئة روابط |
+| `UpdateCLinkCategoryAction` | تحديث فئة روابط |
+| `CheckCLinkAction` | التحقق من إمكانية الوصول إلى عنوان URL للرابط |
+| `ExportCLinksAction` | تصدير الروابط إلى ملف |
+| `CLinkDetailsController` | الحصول على تفاصيل الرابط |
+| `CLinkImageController` | الحصول على صورة معاينة الرابط أو تعيينها |
+| `GetLinksCollectionController` | الحصول على مجموعة الروابط مع تصفية مخصصة |
+| `UpdateVisibilityLink` | تبديل رؤية الرابط |
+| `UpdateVisibilityLinkCategory` | تبديل رؤية فئة الروابط |
+| `UpdatePositionLink` | إعادة ترتيب الروابط |
 
-### Learning Paths
+### مسارات التعلم
 
-| Controller | Purpose |
-|-----------|---------|
-| `CreateCLpAction` | Create a learning path |
-| `LpReorderController` | Reorder learning path items |
+| المتحكم | الغرض |
+|---------|-------|
+| `CreateCLpAction` | إنشاء مسار تعلم |
+| `LpReorderController` | إعادة ترتيب عناصر مسار التعلم |
 
-### Calendar
+### التقويم
 
-| Controller | Purpose |
-|-----------|---------|
-| `UpdateCCalendarEventAction` | Update a course calendar event |
-| `CalendarMyStudentsScheduleAction` | Get the schedule of a teacher's students |
+| المتحكم | الغرض |
+|---------|-------|
+| `UpdateCCalendarEventAction` | تحديث حدث تقويم الدورة |
+| `CalendarMyStudentsScheduleAction` | الحصول على جدول طلاب المعلم |
 
-### Blog
+### المدونة
 
-| Controller | Purpose |
-|-----------|---------|
-| `CreateCBlogAction` | Create a blog post |
-| `CreateBlogAttachmentAction` | Attach a file to a blog post |
-| `UpdateVisibilityBlog` | Toggle blog visibility |
+| المتحكم | الغرض |
+|---------|-------|
+| `CreateCBlogAction` | إنشاء منشور مدونة |
+| `CreateBlogAttachmentAction` | إرفاق ملف بمنشور مدونة |
+| `UpdateVisibilityBlog` | تبديل رؤية المدونة |
 
-### Dropbox
+### صندوق الإرسال
 
-| Controller | Purpose |
-|-----------|---------|
-| `CreateDropboxFileAction` | Upload a file to the dropbox (file exchange tool) |
+| المتحكم | الغرض |
+|---------|-------|
+| `CreateDropboxFileAction` | رفع ملف إلى صندوق الإرسال (أداة تبادل الملفات) |
 
-### Student Work (Assignments)
+### أعمال الطلاب (الواجبات)
 
-| Controller | Purpose |
-|-----------|---------|
-| `CreateStudentPublicationFileAction` | Submit an assignment file |
-| `CreateStudentPublicationCommentAction` | Add a comment to a submission |
-| `CreateStudentPublicationCorrectionFileAction` | Upload a correction file for a submission |
+| المتحكم | الغرض |
+|---------|-------|
+| `CreateStudentPublicationFileAction` | تقديم ملف واجب |
+| `CreateStudentPublicationCommentAction` | إضافة تعليق إلى تقديم |
+| `CreateStudentPublicationCorrectionFileAction` | رفع ملف تصحيح لتقديم |
 
-### Personal Files
+### الملفات الشخصية
 
-| Controller | Purpose |
-|-----------|---------|
-| `CreatePersonalFileAction` | Upload a file to the user's personal file space |
-| `UpdatePersonalFileAction` | Update a personal file |
+| المتحكم | الغرض |
+|---------|-------|
+| `CreatePersonalFileAction` | رفع ملف إلى مساحة الملفات الشخصية للمستخدم |
+| `UpdatePersonalFileAction` | تحديث ملف شخصي |
 
-### Social
+### الاجتماعي
 
-| Controller | Purpose |
-|-----------|---------|
-| `LikeSocialPostController` | Like a social post |
-| `DislikeSocialPostController` | Unlike a social post |
-| `CreateSocialPostAttachmentAction` | Attach a file to a social post |
-| `SocialPostAttachmentsController` | List attachments on a social post |
-| `AbstractFeedbackSocialPostController` | Base class for social post feedback actions |
+| المتحكم | الغرض |
+|---------|-------|
+| `LikeSocialPostController` | الإعجاب بمنشور اجتماعي |
+| `DislikeSocialPostController` | إلغاء الإعجاب بمنشور اجتماعي |
+| `CreateSocialPostAttachmentAction` | إرفاق ملف بمنشور اجتماعي |
+| `SocialPostAttachmentsController` | سرد الملحقات على منشور اجتماعي |
+| `AbstractFeedbackSocialPostController` | الفئة الأساسية لإجراءات تعليقات المنشورات الاجتماعية |
 
-### Sessions
+### الجلسات
 
-| Controller | Purpose |
-|-----------|---------|
-| `CreateSessionWithUsersAndCoursesAction` | Create a session and enrol users and courses in one call |
+| المتحكم | الغرض |
+|---------|-------|
+| `CreateSessionWithUsersAndCoursesAction` | إنشاء جلسة وتسجيل مستخدمين ودورات في مكالمة واحدة |
 
-### Users & Access URLs
+### المستخدمون وروابط الوصول
 
-| Controller | Purpose |
-|-----------|---------|
-| `CreateUserOnAccessUrlAction` | Create a user and associate them with an access URL |
-| `UserAccessUrlsController` | List access URLs a user belongs to |
-| `UserSkillsController` | List skills awarded to a user |
+| المتحكم | الغرض |
+|---------|-------|
+| `CreateUserOnAccessUrlAction` | إنشاء مستخدم وربطه برابط وصول |
+| `UserAccessUrlsController` | سرد روابط الوصول التابعة لمستخدم |
+| `UserSkillsController` | سرد المهارات الممنوحة لمستخدم |
 
-### Video Conference
+### مؤتمرات الفيديو
 
-| Controller | Purpose |
-|-----------|---------|
-| `VideoConferenceCallbackController` | Handle callbacks from external video conference providers |
+| المتحكم | الغرض |
+|---------|-------|
+| `VideoConferenceCallbackController` | التعامل مع الاستدعاءات المرتدة من مزودي مؤتمرات الفيديو الخارجيين |
 
-### Base Classes
+### الفئات الأساسية
 
-| Class | Purpose |
-|-------|---------|
-| `BaseResourceFileAction` | Base class for file-upload actions; handles multipart parsing, resource node creation, and storage |
+| الفئة | الغرض |
+|-------|-------|
+| `BaseResourceFileAction` | الفئة الأساسية لإجراءات رفع الملفات؛ تتعامل مع تحليل multipart، إنشاء عقدة المورد، والتخزين |
 
-## Implementing a Custom Action
+---
 
-Custom actions are standard Symfony controllers referenced in API Platform operation definitions. The `#[ApiResource]` attribute lives on the **entity**, and each operation's `controller:` parameter points to the action class:
+---
+## تنفيذ إجراء مخصص
+
+الإجراءات المخصصة هي وحدات تحكم Symfony قياسية يتم الإشارة إليها في تعريفات عمليات API Platform. يوجد سمة `#[ApiResource]` على **الكيان**، ويشير معامل `controller:` لكل عملية إلى فئة الإجراء:
 
 ```php
 // On the entity class (e.g. src/CourseBundle/Entity/CDocument.php):
@@ -152,7 +155,7 @@ Custom actions are standard Symfony controllers referenced in API Platform opera
 class CDocument extends AbstractResource { ... }
 ```
 
-The action class itself is a plain invokable controller — services are injected via `__invoke()` method arguments:
+فئة الإجراء نفسها هي وحدة تحكم قابلة للاستدعاء عادية — يتم حقن الخدمات عبر معاملات طريقة `__invoke()`:
 
 ```php
 namespace Chamilo\CoreBundle\Controller\Api;
@@ -172,7 +175,7 @@ final class CreateDocumentFileAction extends BaseResourceFileAction
 }
 ```
 
-Key points:
-- `deserialize: false` is set when the action reads the request directly (e.g. multipart file uploads) instead of letting API Platform deserialize a JSON body.
-- File-upload actions typically extend `BaseResourceFileAction`, which handles multipart parsing and resource node wiring.
-- Security is enforced via the `security:` parameter on the operation, not inside the controller.
+نقاط رئيسية:
+- يتم تعيين `deserialize: false` عندما يقرأ الإجراء الطلب مباشرة (مثل تحميلات الملفات متعددة الأجزاء) بدلاً من السماح لـ API Platform بتحليل جسم JSON.
+- عادةً ما تمتد إجراءات تحميل الملفات من `BaseResourceFileAction`، والتي تتعامل مع تحليل متعدد الأجزاء وربط عقدة المورد.
+- يتم فرض الأمان عبر معامل `security:` على العملية، وليس داخل وحدة التحكم.

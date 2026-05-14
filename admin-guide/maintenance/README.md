@@ -1,7 +1,7 @@
-# Maintenance
+# الصيانة
 
-Regular maintenance keeps your Chamilo platform running smoothly.
+تحافظ الصيانة الدورية على سلاسة تشغيل منصة Chamilo الخاصة بك.
 
-* **[Backups](backups.md)** — Database and file backup strategies
-* **[System Status](system-status.md)** — Monitor server health and configuration
-* **[Archive Cleanup](archive-cleanup.md)** — Manage temporary files and free up disk space
+* **[النسخ الاحتياطية](backups.md)** — استراتيجيات نسخ قاعدة البيانات والملفات احتياطيًا
+* **[حالة النظام](system-status.md)** — مراقبة صحة الخادم والتكوين
+* **[تنظيف الأرشيف](archive-cleanup.md)** — إدارة الملفات المؤقتة وتحرير مساحة القرص

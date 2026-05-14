@@ -1,7 +1,7 @@
-# Courses
+# الدورات
 
-This section covers course management from an administrator perspective: overseeing the course catalog, managing categories, and handling imports and exports.
+في هذا القسم، يتم شرح إدارة الدورات من منظور المسؤول: الإشراف على كتالوج الدورات، إدارة الفئات، معالجة الاستيراد والتصدير.
 
-* **[Managing Courses](managing-courses.md)** — View, create, edit, and delete courses
-* **[Course Categories](course-categories.md)** — Organize the course catalog with categories
-* **[Course Import and Export](course-import-export.md)** — Import and export courses between platforms
+* **[إدارة الدورات](managing-courses.md)** — عرض الدورات، إنشاؤها، تعديلها، حذفها
+* **[فئات الدورات](course-categories.md)** — استخدام الفئات لتنظيم كتالوج الدورات
+* **[استيراد وتصدير الدورات](course-import-export.md)** — استيراد وتصدير الدورات بين المنصات

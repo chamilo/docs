@@ -1,75 +1,75 @@
-# Managing Sessions
+# إدارة الجلسات
 
-## Creating a Session
+## إنشاء جلسة
 
-![The session creation form with fields for name, dates, coach, category, and visibility](/.gitbook/assets/admin-session-create-form.png)
+![نموذج إنشاء الجلسة مع حقول الاسم والتواريخ والمدرب والفئة والرؤية](/.gitbook/assets/admin-session-create-form.png)
 
-1. From the administration panel, click **Create a session**
-2. Fill in the session details:
-   * **Session name** — A descriptive name (e.g., "Spring 2026 Onboarding")
-   * **Start and end dates** — When the session runs (optional — sessions can be open-ended). There are 3 sets of dates: Dates to display, dates to limit learners access and dates to limit coaches access
-   * **Session coach** — The person overseeing the entire session
-   * **Category** — Assign to a session category for organization
-   * **Visibility** — Control access and listing behavior
-3. **Add courses** — Select one or more courses to include in the session
-4. **Enroll learners** — Add individual users or classes of users
-5. **Assign course coaches** — For each course, assign a teacher (course coach)
-6. Save
+1. من لوحة الإدارة، انقر على **إنشاء جلسة**
+2. املأ تفاصيل الجلسة:
+   * **اسم الجلسة** — اسم وصفي (مثل "تدريب الاندماج ربيع 2026")
+   * **تواريخ البدء والانتهاء** — متى تعمل الجلسة (اختياري — يمكن أن تكون الجلسات مفتوحة النهاية). هناك 3 مجموعات من التواريخ: التواريخ للعرض، والتواريخ لتقييد وصول المتعلمين، والتواريخ لتقييد وصول المدربين
+   * **مدرب الجلسة** — الشخص المسؤول عن الإشراف على الجلسة بأكملها
+   * **الفئة** — تعيين إلى فئة جلسة للتنظيم
+   * **الرؤية** — التحكم في الوصول وسلوك الإدراج
+3. **إضافة الدورات** — اختر دورة واحدة أو أكثر لتضمينها في الجلسة
+4. **تسجيل المتعلمين** — إضافة مستخدمين فرديين أو فئات من المستخدمين
+5. **تعيين مدربي الدورات** — لكل دورة، عيّن مدرسًا (مدرب الدورة)
+6. احفظ
 
-## Session Dates
+## تواريخ الجلسة
 
-Sessions support flexible date configuration:
+تدعم الجلسات تكوين تواريخ مرن:
 
-| Date | Purpose |
-|------|---------|
-| **Display start/end** | When the session appears in learner listings |
-| **Access start/end** | When learners can actually access the session content |
-| **Coach access start/end** | When coaches can access the session (often starts before and ends after learner access) |
+| التاريخ | الغرض |
+|---------|-------|
+| **عرض البدء/الانتهاء** | متى تظهر الجلسة في قوائم المتعلمين |
+| **وصول البدء/الانتهاء** | متى يمكن للمتعلمين الوصول فعليًا إلى محتوى الجلسة |
+| **وصول المدرب البدء/الانتهاء** | متى يمكن للمدربين الوصول إلى الجلسة (غالبًا ما يبدأ قبل وينتهي بعد وصول المتعلمين) |
 
-This allows you to prepare the session before learners arrive and keep coach access open after the session ends for grading and reporting.
+يسمح ذلك لك بإعداد الجلسة قبل وصول المتعلمين والحفاظ على وصول المدربين مفتوحًا بعد انتهاء الجلسة للتقييم والتقارير.
 
-## Session List
+## قائمة الجلسات
 
-![The session list showing all sessions with name, dates, course count, learner count, and status](/.gitbook/assets/admin-session-list.png)
+![قائمة الجلسات التي تظهر جميع الجلسات مع الاسم والتواريخ وعدد الدورات وعدد المتعلمين والحالة](/.gitbook/assets/admin-session-list.png)
 
-The session list shows all sessions with:
+تظهر قائمة الجلسات جميع الجلسات مع:
 
-* Session name
-* Start and end dates
-* Status (active, upcoming, past)
+* اسم الجلسة
+* تواريخ البدء والانتهاء
+* الحالة (نشطة، قادمة، سابقة)
 
-Use search and filters to find sessions by name, date, category, or status.
+استخدم البحث والفلاتر للعثور على الجلسات حسب الاسم أو التاريخ أو الفئة أو الحالة.
 
-## Editing a Session
+## تعديل جلسة
 
-Click on a session to edit:
+انقر على جلسة لتعديلها:
 
-* Change dates, name, or category
-* Add or remove courses
-* Change course coaches
-* Add or remove learners
-* View tracking data for the session
+* تغيير التواريخ أو الاسم أو الفئة
+* إضافة أو إزالة الدورات
+* تغيير مدربي الدورات
+* إضافة أو إزالة المتعلمين
+* عرض بيانات التتبع للجلسة
 
-## Enrolling Users
+## تسجيل المستخدمين
 
-![The session enrollment interface for adding individual users, classes, or importing via CSV](/.gitbook/assets/admin-session-enrollment.png)
+![واجهة تسجيل الجلسة لإضافة مستخدمين فرديين أو فئات أو استيراد عبر CSV](/.gitbook/assets/admin-session-enrollment.png)
 
-You can enroll users in a session by:
+يمكنك تسجيل المستخدمين في جلسة من خلال:
 
-* **Individual enrollment** — Search for and add individual users
-* **Class enrollment** — Add an entire class (group of pre-defined users) at once
-* **CSV import** — Upload a file with user-session assignments
+* **التسجيل الفردي** — البحث عن وإضافة مستخدمين فرديين
+* **تسجيل الفئة** — إضافة فئة كاملة (مجموعة من المستخدمين المحددين مسبقًا) دفعة واحدة
+* **استيراد CSV** — تحميل ملف مع تعيينات مستخدم-جلسة
 
-## Session Access
+## وصول الجلسة
 
-Learners access their sessions through **My sessions** in the sidebar. Sessions are organized into:
+يصل المتعلمون إلى جلساتهم من خلال **جلساتي** في الشريط الجانبي. يتم تنظيم الجلسات إلى:
 
-* **Current sessions** — Currently active
-* **Past sessions** — Ended
-* **Upcoming sessions** — Not yet started
+* **الجلسات الحالية** — نشطة حاليًا
+* **الجلسات السابقة** — انتهت
+* **الجلسات القادمة** — لم تبدأ بعد
 
-## Tips
+## نصائح
 
-* **Plan dates carefully** — Make sure coach access dates extend beyond learner dates so coaches can set up and follow up
-* **Use classes for recurring enrollment** — If you frequently enroll the same groups, create classes and assign them to sessions
-* **Keep sessions organized** — Use categories and clear naming conventions for easy management
+* **خطط للتواريخ بعناية** — تأكد من أن تواريخ وصول المدربين تمتد خارج تواريخ المتعلمين حتى يتمكن المدربون من الإعداد والمتابعة
+* **استخدم الفئات للتسجيل المتكرر** — إذا كنت تسجل نفس المجموعات بشكل متكرر، أنشئ فئات وعيّنها إلى الجلسات
+* **حافظ على تنظيم الجلسات** — استخدم الفئات واتفاقيات التسمية الواضحة لإدارة سهلة

@@ -1,11 +1,11 @@
 # CAS
 
-> **Status in Chamilo 2.x.** CAS configuration entries (`cas_activate`, `cas_server`, `cas_server_uri`, `cas_port`, `cas_protocol`, `cas_add_user_activate`) still exist in the platform settings as a legacy carry-over from Chamilo 1.x, and CAS still appears as a selectable authentication source on the user form — but there is no CAS authenticator wired into the Chamilo 2.x security pipeline. Logging in through CAS does **not** currently work out of the box. If you need SSO on Chamilo 2.x, use [OAuth2](oauth2.md) (Azure / Keycloak / Generic) or [LDAP](ldap.md) instead.
+> **الحالة في Chamilo 2.x.** إعدادات CAS (`cas_activate`, `cas_server`, `cas_server_uri`, `cas_port`, `cas_protocol`, `cas_add_user_activate`) لا تزال موجودة في إعدادات المنصة كإرث من Chamilo 1.x، وCAS لا يزال يظهر كمصدر مصادقة يمكن اختياره في نموذج المستخدم — لكن لا يوجد مصادق CAS مدمج في خط أنابيب الأمان في Chamilo 2.x. تسجيل الدخول عبر CAS **لا** يعمل حاليًا مباشرة. إذا كنت بحاجة إلى SSO في Chamilo 2.x، استخدم [OAuth2](oauth2.md) (Azure / Keycloak / Generic) أو [LDAP](ldap.md) بدلاً من ذلك.
 
-## What CAS would do (1.x behaviour)
+## ما يقوم به CAS (السلوك في 1.x)
 
-CAS (Central Authentication Service) is a single sign-on protocol commonly used in universities and research institutions. In Chamilo 1.x, clicking "Log in with CAS" would redirect the user to a CAS server, validate the returned ticket, and create or match a local account from CAS attributes.
+CAS (Central Authentication Service) هو بروتوكول تسجيل دخول واحد مركزي شائع الاستخدام في الجامعات والمؤسسات البحثية. في Chamilo 1.x، النقر على "تسجيل الدخول باستخدام CAS" يقوم بتوجيه المستخدم إلى خادم CAS، ويصادق التذكرة المُعادة، وينشئ أو يطابق حسابًا محليًا من سمات CAS.
 
-## Migration note
+## ملاحظات الهجرة
 
-If you are upgrading a Chamilo 1.x portal that used CAS, plan to re-implement that login flow on top of OAuth2 or LDAP for the time being, until the CAS authenticator is restored in a future 2.x release.
+إذا كنت تقوم بترقية بوابة Chamilo 1.x التي تستخدم CAS، خطط لإعادة تنفيذ تدفق تسجيل الدخول أعلاه عبر OAuth2 أو LDAP مؤقتًا، حتى يتم استعادة مصادق CAS في إصدار 2.x القادم.

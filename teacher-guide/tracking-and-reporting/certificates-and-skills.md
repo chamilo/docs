@@ -1,50 +1,50 @@
-# Certificates and Skills
+# الشهادات والمهارات
 
-Chamilo allows you to award certificates to learners who meet specific achievement criteria, and to validate skills associated with those achievements.
+يسمح Chamilo بمنح الشهادات للمتعلمين الذين يحققون معايير إنجاز محددة، وبتحقق المهارات المرتبطة بتلك الإنجازات.
 
-## How Certificates Work
+## كيفية عمل الشهادات
 
-Certificates are linked to the **Assessments** (also called Gradebook). When a learner's grade meets or exceeds the minimum threshold you define, a certificate becomes available for them to download.
+ترتبط الشهادات بأداة **التقييمات** (المعروفة أيضًا باسم دفتر الدرجات). عندما يصل معدل المتعلم إلى الحد الأدنى الذي تحدده أو يتجاوزه، تصبح الشهادة متاحة للتنزيل.
 
-The workflow is:
+تتكون سير العمل كالتالي:
 
-1. Set up the [Assessments](../assessing-learners/gradebook.md) with your exercises, assignments, and other graded activities
-2. Define a **minimum certification score** (e.g., 70%)
-3. When a learner reaches that score, they can download their certificate (either within the Assessments tool itself, or from a learning path if you've configured the final step for that). As a teacher, you can also use the **Generate certificates** action in the gradebook to create the PDFs in batch for all eligible learners.
+1. إعداد [التقييمات](../assessing-learners/gradebook.md) بتمارينك، الواجبات، والأنشطة المقيمة الأخرى
+2. تحديد **درجة الشهادة الدنيا** (مثل 70%)
+3. عندما يصل المتعلم إلى تلك الدرجة، يمكنه تنزيل شهادته (إما داخل أداة التقييمات نفسها، أو من مسار تعلم إذا قمت بتكوين الخطوة النهائية له). كمدرس، يمكنك أيضًا استخدام إجراء **إنشاء الشهادات** في دفتر الدرجات لإنشاء ملفات PDF بشكل جماعي لجميع المتعلمين المؤهلين.
 
-## Certificate Templates
+## قوالب الشهادات
 
-Certificates use templates defined by the platform administrator. The template typically includes:
+تستخدم الشهادات قوالب يحددها مدير المنصة. يشمل القالب عادةً:
 
-* The learner's name
-* The course name
-* The date of completion
-* The score achieved
-* A QR code or URL for online verification
+* اسم المتعلم
+* اسم الدورة
+* تاريخ الإكمال
+* الدرجة المحققة
+* رمز QR أو رابط URL للتحقق عبر الإنترنت
 
-## Skills
+## المهارات
 
-Skills represent competencies that learners acquire. In Chamilo:
+تمثل المهارات الكفاءات التي يكتسبها المتعلمون. في Chamilo:
 
-* Skills can be linked to gradebook achievements
-* When a learner earns a certificate, any associated skills are automatically validated
-* Skills accumulate on the learner's profile, creating a competency record
-* Skills can be organized hierarchically (e.g., "Data Analysis" under "Research Methods")
-* Skills can be further evaluated by peers (360° evaluation)
+* يمكن ربط المهارات بإنجازات دفتر الدرجات
+* عندما يكسب المتعلم شهادة، يتم تحقق أي مهارات مرتبطة تلقائيًا
+* تتراكم المهارات في ملف المتعلم، مما ينشئ سجل كفاءات
+* يمكن تنظيم المهارات بشكل هرمي (مثل "تحليل البيانات" تحت "طرق البحث")
+* يمكن تقييم المهارات بشكل إضافي من قبل الأقران (تقييم 360°)
 
-## Viewing Certificate and Skill Status
+## عرض حالة الشهادة والمهارة
 
-As a teacher, you can see:
+كمدرس، يمكنك رؤية:
 
-* Which learners have earned certificates in your course
-* Which skills have been validated
-* Learners' progress toward the certification threshold
+* المتعلمين الذين حصلوا على شهادات في دورتك
+* المهارات التي تم تحققها
+* تقدم المتعلمين نحو حد الشهادة
 
-Learners can view their own certificates and validated skills from their profile, and can access the Skills Wheel to check what skills are in demand in their organisation.
+يمكن للمتعلمين عرض شهاداتهم الخاصة والمهارات المحققة من ملفهم الشخصي، ويمكنهم الوصول إلى عجلة المهارات للتحقق من المهارات المطلوبة في منظمتهم.
 
-## Tips
+## نصائح
 
-* **Set clear expectations** — Tell learners at the start of the course what they need to achieve to earn a certificate
-* **Use meaningful skill names** — Skills should describe what the learner can do, not just the course name
-* **Combine with portfolios** — Encourage learners to add their certificates to their portfolio
-* **Extend certificates** — Ask your admin to enable the Custom Certificate plugin to unleash even more certificate templating power 
+* **حدد توقعات واضحة** — أخبر المتعلمين في بداية الدورة بما يحتاجونه لتحقيقه للحصول على شهادة
+* **استخدم أسماء مهارات ذات معنى** — يجب أن تصف المهارات ما يمكن للمتعلم فعله، لا اسم الدورة فقط
+* **ادمج مع المحافظ** — شجع المتعلمين على إضافة شهاداتهم إلى محفظتهم
+* **وسع الشهادات** — اطلب من مديرك تفعيل إضافة Custom Certificate لإطلاق قوة أكبر في قوالب الشهادات 

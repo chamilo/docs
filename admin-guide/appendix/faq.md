@@ -1,87 +1,88 @@
-# FAQ
+# الأسئلة الشائعة
 
-Frequently asked questions for Chamilo 2.0 administrators.
+أسئلة شائعة تُطرح على مديري Chamilo 2.0.
 
-## Installation and Setup
+## التثبيت والإعداد
 
-**Q: What PHP version does Chamilo 2.0 require?**
-A: PHP 8.2 or higher. PHP 8.3 is recommended. See [Server Requirements](../installation/server-requirements.md).
+**س: أي إصدار من PHP يتطلبه Chamilo 2.0؟**  
+ج: PHP 8.2 أو أعلى. يُوصى بـ PHP 8.3. انظر [متطلبات الخادم](../installation/server-requirements.md).
 
-**Q: Can I run Chamilo on shared hosting?**
-A: It is possible but not recommended. Chamilo 2.0 requires Composer, Node.js in development mode, and command
--line access for installation and maintenance. A VPS or dedicated server provides a much better experience.
+**س: هل يمكنني تشغيل Chamilo على استضافة مشتركة؟**  
+ج: ممكن، لكن غير موصى به. يتطلب Chamilo 2.0 برنامج Composer، وNode.js في وضع التطوير، ووصولاً إلى سطر الأوامر للتثبيت والصيانة. يوفر VPS أو خادم مخصص تجربة أفضل بكثير.
 
-**Q: Which database should I use?**
-A: MySQL 8.0+ or MariaDB 10.4+ are the most commonly used and best tested.
+**س: أي قاعدة بيانات يُفضل استخدامها؟**  
+ج: MySQL 8.0+ أو MariaDB 10.4+ هما الأكثر شيوعاً وأكثرها اختباراً.
 
-**Q: Can I install Chamilo without the command line?**
-A: Yes, if you use the packaged version (.zip or .tar.gz). Otherwise, you will need the command line to install Composer dependencies, build frontend assets, and run database migrations. The web-based wizard handles the database setup and initial configuration, but the surrounding steps require shell access in dev mode.
+**س: هل يمكنني تثبيت Chamilo بدون سطر الأوامر؟**  
+ج: نعم، إذا كنت تستخدم الإصدار المُعبأ مسبقاً (.zip أو .tar.gz). إلا ذلك، ستحتاج إلى سطر الأوامر لتثبيت تبعيات Composer، وبناء أصول الواجهة الأمامية، وتشغيل هجرات قاعدة البيانات. يتعامل معيار الويب مع إعداد قاعدة البيانات والتكوين الأولي، لكن الخطوات المحيطة تتطلب وصولاً إلى shell في وضع التطوير.
 
-## Users and Authentication
+## المستخدمون والمصادقة
 
-**Q: How do I reset a user's password?**
-A: Go to **Administration > User list**, find the user, click edit, and set a new password. Alternatively, the user can use the "Forgot password" link on the login page (if email is configured).
+**س: كيف أقوم بإعادة تعيين كلمة مرور مستخدم؟**  
+ج: افتح **الإدارة > قائمة المستخدمين**، ابحث عن المستخدم، انقر على تعديل، واضبط كلمة مرور جديدة. بديل ذلك، يمكن للمستخدم استخدام رابط "نسيت كلمة المرور" في صفحة تسجيل الدخول (إذا تم تكوين البريد الإلكتروني).
 
-**Q: Can I import users in bulk?**
-A: Yes. Go to **Administration > Import users** and upload a CSV or XML file with user data. The import supports creating new users and updating existing ones.
+**س: هل يمكنني استيراد المستخدمين بشكل جماعي؟**  
+ج: نعم. افتح **الإدارة > استيراد المستخدمين** وقم برفع ملف CSV أو XML يحتوي على بيانات المستخدمين. يدعم الاستيراد إنشاء مستخدمين جدد وتحديث المستخدمين الموجودين.
 
-**Q: How do I integrate with LDAP or Active Directory?**
-A: Configure LDAP settings in the authentication configuration. See [LDAP](../authentication/ldap.md). Users are synchronized on login or via scheduled sync.
+**س: كيف أدمج مع LDAP أو Active Directory؟**  
+ج: قم بتكوين إعدادات LDAP في تكوين المصادقة. انظر [LDAP](../authentication/ldap.md). يتم مزامنة المستخدمين عند تسجيل الدخول أو عبر مزامنة مجدولة.
 
-**Q: Can users belong to multiple sessions at the same time?**
-A: Yes. Users can be enrolled in any number of sessions simultaneously. Each session tracks progress independently.
+**س: هل يمكن للمستخدم الانضمام إلى جلسات متعددة في وقت واحد؟**  
+ج: نعم. يمكن للمستخدم التسجيل في عدد غير محدود من الجلسات في وقت واحد. تتبع كل جلسة التقدم بشكل مستقل.
 
-## Courses and Content
+## الدورات والمحتوى
 
-**Q: How do I back up a single course?**
-A: Within the course, go to **Maintenance > Create a backup**. This generates a downloadable archive of course content and settings. You can restore it on the same or a different Chamilo instance.
+**س: كيف أقوم بعمل نسخة احتياطية لدورة واحدة؟**  
+ج: داخل الدورة، افتح **الصيانة > إنشاء نسخة احتياطية**. سيتم إنشاء أرشيف قابل للتنزيل يحتوي على محتوى الدورة وإعداداتها. يمكنك استعادتها في نسخة Chamilo نفسها أو أخرى.
 
-**Q: Can I copy a course?**
-A: Yes. Use **Administration > Copy course** or the course maintenance tool within the course. You can copy content between courses or create a new course from an existing one.
+**س: هل يمكنني نسخ دورة؟**  
+ج: نعم. استخدم **الإدارة > نسخ الدورة** أو أداة الصيانة داخل الدورة. يمكنك نسخ المحتوى بين الدورات أو إنشاء دورة جديدة من دورة موجودة.
 
-**Q: What SCORM versions are supported?**
-A: Chamilo supports SCORM 1.2. SCORM packages are imported as learning paths.
+**س: أي إصدار من SCORM مدعوم؟**  
+ج: يدعم Chamilo SCORM 1.2. يتم استيراد حزم SCORM كمسار تعلم.
 
-**Q: How do I limit who can create courses?**
-A: Go to **Administration > Configuration settings > Course** and disable **Allow non administrators (teachers) to create new courses** (`allow_users_to_create_courses`). When disabled, only administrators can create courses. Alternatively, you can set a limit to the number of courses any teacher can create.
+**س: كيف أحدد من يمكنه إنشاء دورات؟**  
+ج: افتح **الإدارة > إعدادات التكوين > الدورة** وقم بتعطيل **السماح للمستخدمين غير المديرين (المدرسين) بإنشاء دورات جديدة** (`allow_users_to_create_courses`). إذا تم تعطيله، يمكن للمديرين فقط إنشاء الدورات. بديل ذلك، يمكنك تعيين حد لعدد الدورات التي يمكن لكل مدرس إنشاؤها.
 
-## Performance and Maintenance
+## الأداء والصيانة
 
-**Q: The platform is slow. What should I check first?**
-A: In order of impact: (1) Ensure `APP_ENV=prod` and `APP_DEBUG=0` in `.env`. (2) Verify PHP OPcache is enabled. (3) Check database performance. (4) See [Performance Tuning](../platform-settings/performance-tuning.md).
+**س: المنصة تبدو بطيئة. ما الذي يجب التحقق منه أولاً؟**  
+ج: بناءً على التأثير: (1) تأكد من `APP_ENV=prod` و `APP_DEBUG=0` في `.env`. (2) تحقق من تفعيل PHP OPcache. (3) تحقق من أداء قاعدة البيانات. (4) انظر [ضبط الأداء](../platform-settings/performance-tuning.md).
 
-**Q: How do I clear the cache?**
-A: Run `php bin/console cache:clear --env=prod` from the command line. Do not delete the `var/cache/` directory manually while the application is running.
+**س: كيف أقوم بحذف الذاكرة المؤقتة؟**  
+ج: شغّل `php bin/console cache:clear --env=prod` من سطر الأوامر. لا تحذف مجلد `var/cache/` يدوياً أثناء تشغيل التطبيق.
 
-**Q: How much disk space does Chamilo need?**
-A: The application itself needs about 2 GB uncompressed. Total space depends on uploaded content (documents, videos, SCORM packages). Monitor disk usage and plan accordingly.
+**س: كم مساحة القرص التي يحتاجها Chamilo؟**  
+ج: التطبيق نفسه يحتاج حوالي 2 جيجابايت في حالة غير مضغوطة. المساحة الإجمالية تعتمد على المحتوى المرفوع (المستندات، الفيديوهات، حزم SCORM). راقب استخدام القرص وخطط وفقاً للاحتياجات.
 
-**Q: How do I set up automated backups?**
-A: See [Backups](../maintenance/backups.md). At minimum, schedule a daily database dump and regular file-level backups of the upload directory.
+**س: كيف أقوم بجدولة نسخ احتياطية تلقائية؟**  
+ج: انظر [النسخ الاحتياطي](../maintenance/backups.md). كحد أدنى، جدول تصدير قاعدة البيانات يومياً ونسخ احتياطي منتظم لمستوى الملفات لمجلدات الرفع.
 
-## Email
+## البريد الإلكتروني
 
-**Q: Users are not receiving emails. What should I check?**
-A: (1) Verify `MAILER_DSN` in `.env`. (2) Run `php bin/console mailer:test someone@example.com` to test. (3) Check spam folders. (4) Verify SPF/DKIM DNS records. See [Email Configuration](../installation/email-configuration.md).
+**س: المستخدمون لا يتلقون البريد الإلكتروني. ما الذي يجب التحقق منه؟**  
+ج: (1) تحقق من `MAILER_DSN` في `.env`. (2) شغّل `php bin/console mailer:test someone@example.com` للاختبار. (3) تحقق من مجلد البريد غير المرغوب فيه. (4) تحقق من سجلات DNS SPF/DKIM. انظر [تكوين البريد الإلكتروني](../installation/email-configuration.md).
 
-**Q: Can I use Gmail to send emails?**
-A: Yes, for small platforms or development. Use an App Password and be aware of Gmail's daily sending limits (500 emails/day for regular accounts).
+**س: هل يمكنني استخدام Gmail لإرسال البريد الإلكتروني؟**  
+ج: نعم، للمنصات الصغيرة أو التطوير. استخدم كلمة مرور التطبيق وانتبه لحد الإرسال اليومي لـ Gmail (500 بريد/يوم للحسابات العادية).
 
-## Security
+---
+## الأمان
 
-**Q: How do I force HTTPS?**
-A: Configure your web server to redirect HTTP to HTTPS. Additionally, enable the "Force HTTPS" setting in **Administration > Configuration settings > Security**. See [Security Settings](../platform-settings/security-settings.md).
+**س: كيف يمكن إجبار استخدام HTTPS؟**  
+ج: قم بتكوين خادم الويب الخاص بك لإعادة توجيه HTTP إلى HTTPS. بالإضافة إلى ذلك، قم بتفعيل الإعداد "إجبار HTTPS" في **الإدارة > إعدادات التكوين > الأمان**. انظر [إعدادات الأمان](../platform-settings/security-settings.md).
 
-**Q: How do I block brute-force login attacks?**
-A: Configure max login attempts and CAPTCHA in security settings. Consider also using fail2ban at the server level for additional protection.
+**س: كيف يمكن حظر هجمات القوة الغاشمة على تسجيل الدخول؟**  
+ج: قم بتكوين الحد الأقصى لعدد محاولات تسجيل الدخول وCAPTCHA في إعدادات الأمان. فكر أيضًا في استخدام fail2ban على مستوى الخادم للحماية الإضافية.
 
-**Q: A user forgot their password and email is not working. How do I help them?**
-A: As an administrator, edit the user account directly and set a new password. Go to **Administration > User list**, find the account, and update the password field.
+**س: مستخدم نسي كلمة المرور والبريد الإلكتروني لا يعمل. كيف يمكن مساعدتهم؟**  
+ج: كمدير، قم بتحرير حساب المستخدم مباشرة وتعيين كلمة مرور جديدة. افتح **الإدارة > قائمة المستخدمين**، ابحث عن الحساب، وقم بتحديث عمود كلمة المرور.
 
-## Upgrades
+---
+## ترقية الإصدار
 
-**Q: Can I upgrade directly from Chamilo 1.11.x to 2.0?**
-A: Yes, but it is a major migration, not a simple update. See [Upgrading](../installation/upgrading.md). Always test on a staging server first.
+**س: هل يمكنني الترقية مباشرة من Chamilo 1.11.x إلى 2.0؟**
+ج: نعم، لكن هذه هجرة كبيرة، وليست تحديثًا بسيطًا. انظر [ترقية الإصدار](../installation/upgrading.md). اختبر دائمًا أولاً على خادم تجريبي.
 
-**Q: Will my plugins work after upgrading to 2.0?**
-A: No. Plugins from 1.11.x are not compatible with 2.0 and must be rewritten or replaced with equivalent 2.0 functionality.
+**س: هل ستعمل إضافاتي بعد الترقية إلى الإصدار 2.0؟**
+ج: لا. الإضافات من الإصدار 1.11.x غير متوافقة مع الإصدار 2.0 ويجب إعادة كتابتها أو استبدالها بوظائف مكافئة في الإصدار 2.0.

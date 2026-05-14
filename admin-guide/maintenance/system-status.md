@@ -1,40 +1,40 @@
-# System Status
+# حالة النظام
 
-The system status page helps you verify that your Chamilo server is correctly configured and identify potential issues.
+تساعد صفحة حالة النظام في التحقق من أن خادم Chamilo الخاص بك مُهيأ بشكل صحيح وتحديد المشكلات المحتملة.
 
-## Accessing System Status
+## الوصول إلى حالة النظام
 
-From the administration panel, click **System status** (or **System information**).
+من لوحة الإدارة، انقر على **System status** (أو **System information**).
 
-## What It Shows
+## ما يعرضه
 
-![The system status page showing PHP configuration, database status, file permissions, and server information](/.gitbook/assets/admin-system-status.png)
+![صفحة حالة النظام التي تظهر تكوين PHP، وحالة قاعدة البيانات، وأذونات الملفات، ومعلومات الخادم](/.gitbook/assets/admin-system-status.png)
 
-### PHP Configuration
+### تكوين PHP
 
-* **PHP version** — Chamilo 2.0 requires PHP 8.2 or higher
-* **Required extensions** — Checks that all necessary PHP extensions are installed
-* **PHP settings** — Verifies important PHP settings like memory limit, upload limits, and execution time
+* **إصدار PHP** — يتطلب Chamilo 2.0 إصدار PHP 8.2 أو أعلى
+* **الامتدادات المطلوبة** — يتحقق من تثبيت جميع امتدادات PHP الضرورية
+* **إعدادات PHP** — يتحقق من إعدادات PHP المهمة مثل حد الذاكرة، وحُدود التحميل، ووقت التنفيذ
 
-### Database Status
+### حالة قاعدة البيانات
 
-* **Database connection** — Confirms the database is accessible
-* **Database version** — Shows the database server version
+* **اتصال قاعدة البيانات** — يؤكد أن قاعدة البيانات متاحة
+* **إصدار قاعدة البيانات** — يعرض إصدار خادم قاعدة البيانات
 
-### File Permissions
+### أذونات الملفات
 
-* **Writable directories** — Checks that Chamilo can write to required directories (cache, uploads, logs)
+* **مجلدات قابلة للكتابة** — يتحقق من أن Chamilo يمكنه الكتابة إلى المجلدات المطلوبة (التخزين المؤقت، التحميلات، السجلات)
 
-### Server Information
+### معلومات الخادم
 
-* **Operating system** — Server OS details
-* **Web server** — Apache, Nginx, or other
-* **Disk space** — Available storage
+* **نظام التشغيل** — تفاصيل نظام التشغيل للخادم
+* **خادم الويب** — Apache، Nginx، أو غيرها
+* **مساحة القرص** — المساحة التخزينية المتاحة
 
-## Recommended Checks
+## الفحوصات الموصى بها
 
-Perform these checks regularly:
+قم بهذه الفحوصات بانتظام:
 
-* **After installation** — Verify all requirements are met
-* **After upgrades** — Ensure PHP version and extensions are still compatible
-* **When issues arise** — Check system status first when troubleshooting problems
+* **بعد التثبيت** — تحقق من تلبية جميع المتطلبات
+* **بعد الترقيات** — تأكد من توافق إصدار PHP والامتدادات معًا
+* **عند حدوث مشكلات** — تحقق من حالة النظام أولاً عند استكشاف الأخطاء وحل المشكلات

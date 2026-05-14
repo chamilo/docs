@@ -1,10 +1,10 @@
-# Color Themes
+# سمات الألوان
 
-Chamilo 2.0 uses a database-driven color theme system. Themes are managed through the admin UI, stored in the database, and written to disk as CSS files. They can be customized per access URL, allowing multi-URL installations to have different visual identities.
+يستخدم Chamilo 2.0 نظام سمات ألوان مدفوع بالقاعدة البيانات. يتم إدارة السمات من خلال واجهة المستخدم الإدارية، وتُخزن في قاعدة البيانات، وتُكتب على القرص كملفات CSS. يمكن تخصيصها لكل عنوان URL للوصول، مما يسمح للتثبيتات متعددة الـ URL بامتلاك هويات بصرية مختلفة.
 
-## Data Model
+## نموذج البيانات
 
-Two entities drive the theme system:
+يدير نظام السمات كيانان:
 
 **`ColorTheme`** (`src/CoreBundle/Entity/ColorTheme.php`)
 
@@ -17,11 +17,11 @@ Two entities drive the theme system:
 
 **`AccessUrlRelColorTheme`** (`src/CoreBundle/Entity/AccessUrlRelColorTheme.php`)
 
-Associates a `ColorTheme` with an `AccessUrl`. The `active` boolean flag marks which theme is currently active for that URL. Only one theme can be active per access URL at a time.
+يربط `ColorTheme` بـ `AccessUrl`. يشير العلم المنطقي `active` إلى السمة النشطة حاليًا لهذا العنوان URL. يمكن أن تكون سمة واحدة فقط نشطة لكل عنوان URL للوصول في وقت واحد.
 
-## How Themes Are Stored
+## كيفية تخزين السمات
 
-When a theme is created or updated via the API, `ColorThemeStateProcessor` generates the CSS file and writes it to the Flysystem `themes_filesystem` (backed by `var/themes/`):
+عند إنشاء سمة أو تحديثها عبر API، يولد `ColorThemeStateProcessor` ملف CSS ويكتبه إلى Flysystem `themes_filesystem` (مدعوم بـ `var/themes/`):
 
 ```
 var/themes/
@@ -29,7 +29,7 @@ var/themes/
     └── colors.css   ← generated from ColorTheme.variables
 ```
 
-The generated `colors.css` wraps all variables in a `:root` block:
+يلف الملف المُولد `colors.css` جميع المتغيرات في كتلة `:root`:
 
 ```css
 :root {
@@ -40,22 +40,22 @@ The generated `colors.css` wraps all variables in a `:root` block:
 }
 ```
 
-Values are space-separated RGB channel triplets (not `rgb()`), which allows Tailwind to compose opacity variants such as `bg-primary/50` without additional configuration.
+تكون القيم ثلاثيات قنوات RGB مفصولة بمسافات (وليست `rgb()`)، مما يسمح لـ Tailwind بتكوين متغيرات الشفافية مثل `bg-primary/50` دون تكوين إضافي.
 
-## Theme Resolution Precedence
+## أولوية حل السمات
 
-`ThemeHelper::getVisualTheme()` resolves which theme slug to apply on any given page, in this order:
+يحدد `ThemeHelper::getVisualTheme()` أي slug للسمة يتم تطبيقه على أي صفحة معينة، بهذا الترتيب:
 
-1. **Active theme for the current AccessUrl** — the `AccessUrlRelColorTheme` record with `active = true`
-2. **User-selected theme** — the theme stored on the `User` entity, if the `profile.user_selected_theme` platform setting is enabled
-3. **Course theme** — the `course_theme` course setting, if the `course.allow_course_theme` platform setting is enabled
-4. **Learning path theme** — the LP's `$lp_theme_css` value, if the `allow_learning_path_theme` course setting is enabled
-5. **`THEME_FALLBACK` env var** — set in `.env` as `THEME_FALLBACK='chamilo'`
-6. **Default** — `chamilo` (hardcoded as `ThemeHelper::DEFAULT_THEME`)
+1. **السمة النشطة لـ AccessUrl الحالي** — سجل `AccessUrlRelColorTheme` مع `active = true`
+2. **السمة المختارة من المستخدم** — السمة المخزنة في كيان `User`، إذا كان إعداد المنصة `profile.user_selected_theme` مفعلاً
+3. **سمة المقرر الدراسي** — إعداد المقرر `course_theme`، إذا كان إعداد المنصة `course.allow_course_theme` مفعلاً
+4. **سمة مسار التعلم** — قيمة `$lp_theme_css` لـ LP، إذا كان إعداد المقرر `allow_learning_path_theme` مفعلاً
+5. **`THEME_FALLBACK` env var** — مُعيَّن في `.env` كـ `THEME_FALLBACK='chamilo'`
+6. **افتراضي** — `chamilo` (مُشفَّر بشكل صلب كـ `ThemeHelper::DEFAULT_THEME`)
 
-## Asset Serving
+## تقديم الموارد
 
-Theme assets are served by `ThemeController` (`src/CoreBundle/Controller/ThemeController.php`) under the `/themes` prefix.
+تُقدَّم موارد السمات بواسطة `ThemeController` (`src/CoreBundle/Controller/ThemeController.php`) تحت بادئة `/themes`.
 
 | Route | Purpose |
 |-------|---------|
@@ -64,11 +64,11 @@ Theme assets are served by `ThemeController` (`src/CoreBundle/Controller/ThemeCo
 | `POST /themes/{slug}/logos` | Upload header/email logos (SVG and/or PNG) |
 | `DELETE /themes/{slug}/logos/{type}` | Delete a specific logo |
 
-The general asset route (`/{name}/{path}`) automatically falls back to the `chamilo` default theme when a file is missing from the requested theme, so themes only need to include files they actually override.
+يُرجع مسار المورد العام (`/{name}/{path}`) تلقائيًا إلى سمة `chamilo` الافتراضية عندما يكون ملف مفقودًا من السمة المطلوبة، لذا تحتاج السمات فقط إلى تضمين الملفات التي تغطيها فعليًا.
 
-## How Themes Are Loaded in Templates
+## كيفية تحميل السمات في القوالب
 
-The `head.html.twig` layout template loads the active theme's assets via Twig helper functions:
+يحمل قالب التخطيط `head.html.twig` موارد السمة النشطة عبر دوال مساعدة Twig:
 
 ```twig
 {# Inject the theme's color variables #}
@@ -81,7 +81,7 @@ The `head.html.twig` layout template loads the active theme's assets via Twig he
 <link rel="shortcut icon" href="{{ theme_asset('images/favicon.ico') }}" type="image/x-icon" />
 ```
 
-The three Twig functions (registered in `ChamiloExtension`) resolve the asset path through `ThemeHelper`, applying the same fallback chain as above:
+تحل الدالتين Twig الثلاث (المسجلة في `ChamiloExtension`) مسار المورد عبر `ThemeHelper`، مطبقة نفس سلسلة الرجوع أعلاه:
 
 | Function | Returns |
 |----------|---------|
@@ -91,9 +91,9 @@ The three Twig functions (registered in `ChamiloExtension`) resolve the asset pa
 | `theme_asset_base64('path')` | Base64-encoded data URI of the asset |
 | `theme_logo('header'\|'email')` | URL to the best available logo |
 
-## API Endpoints
+## نقاط نهاية API
 
-Theme management is exposed via the API Platform REST API (admin-only):
+يتم عرض إدارة السمات عبر REST API لـ API Platform (خاص بالإداريين فقط):
 
 | Method | Endpoint | Purpose |
 |--------|----------|---------|
@@ -102,11 +102,14 @@ Theme management is exposed via the API Platform REST API (admin-only):
 | `POST` | `/api/access_url_rel_color_themes` | Associate/activate a theme for an access URL |
 | `GET` | `/api/access_url_rel_color_themes` | List theme associations for the current access URL |
 
-## Creating a Custom Theme
+---
 
-The standard workflow is through the admin UI (**Admin → Color Themes**), which calls the API endpoints above. To create a theme programmatically:
+---
+## إنشاء سمة مخصصة
 
-1. `POST /api/color_themes` with a JSON body:
+السير العملي القياسي يكون من خلال واجهة المسؤول (**Admin → Color Themes**)، والتي تستدعي نقاط نهاية الـ API المذكورة أعلاه. لإنشاء سمة برمجيًا:
+
+1. `POST /api/color_themes` مع جسم JSON:
 
 ```json
 {
@@ -123,9 +126,9 @@ The standard workflow is through the admin UI (**Admin → Color Themes**), whic
 }
 ```
 
-This persists the entity and writes `var/themes/my-theme/colors.css`.
+هذا يحفظ الكيان ويكتب `var/themes/my-theme/colors.css`.
 
-2. `POST /api/access_url_rel_color_themes` to associate and activate it for the current access URL:
+2. `POST /api/access_url_rel_color_themes` لربطها وتفعيلها لـ access URL الحالي:
 
 ```json
 {
@@ -133,34 +136,34 @@ This persists the entity and writes `var/themes/my-theme/colors.css`.
 }
 ```
 
-To add custom images (logo, favicon, backgrounds), upload them via `POST /themes/{slug}/logos` or place them directly in `var/themes/{slug}/images/`.
+لإضافة صور مخصصة (شعار، favicon، خلفيات)، قم برفعها عبر `POST /themes/{slug}/logos` أو ضعها مباشرة في `var/themes/{slug}/images/`.
 
-## Color Variable Reference
+## مرجع متغيرات الألوان
 
-All variables expected by the default Tailwind configuration:
+جميع المتغيرات المتوقعة من تكوين Tailwind الافتراضي:
 
-| Variable | Purpose |
+| المتغير | الغرض |
 |----------|---------|
-| `--color-primary-base` | Primary brand color |
-| `--color-primary-gradient` | Darker gradient stop for primary |
-| `--color-primary-button-text` | Text color on primary buttons |
-| `--color-primary-button-alternative-text` | Alternative text color on primary buttons |
-| `--color-secondary-base` | Secondary accent color |
-| `--color-secondary-gradient` | Gradient stop for secondary |
-| `--color-secondary-button-text` | Text color on secondary buttons |
-| `--color-tertiary-base` | Tertiary color |
-| `--color-tertiary-gradient` | Gradient stop for tertiary |
-| `--color-tertiary-button-text` | Text color on tertiary buttons |
-| `--color-success-base` | Success state color |
-| `--color-success-gradient` | Gradient stop for success |
-| `--color-success-button-text` | Text color on success buttons |
-| `--color-info-base` | Info state color |
-| `--color-info-gradient` | Gradient stop for info |
-| `--color-info-button-text` | Text color on info buttons |
-| `--color-warning-base` | Warning state color |
-| `--color-warning-gradient` | Gradient stop for warning |
-| `--color-warning-button-text` | Text color on warning buttons |
-| `--color-danger-base` | Danger/error state color |
-| `--color-danger-gradient` | Gradient stop for danger |
-| `--color-danger-button-text` | Text color on danger buttons |
-| `--color-form-base` | Form element accent color |
+| `--color-primary-base` | لون العلامة التجارية الأساسي |
+| `--color-primary-gradient` | نقطة توقف التدرج الأغمق للأساسي |
+| `--color-primary-button-text` | لون نص الأزرار الأساسية |
+| `--color-primary-button-alternative-text` | لون نص بديل على الأزرار الأساسية |
+| `--color-secondary-base` | لون التمييز الثانوي |
+| `--color-secondary-gradient` | نقطة توقف التدرج للثانوي |
+| `--color-secondary-button-text` | لون نص الأزرار الثانوية |
+| `--color-tertiary-base` | اللون الثالثي |
+| `--color-tertiary-gradient` | نقطة توقف التدرج للثالثي |
+| `--color-tertiary-button-text` | لون نص الأزرار الثالثية |
+| `--color-success-base` | لون حالة النجاح |
+| `--color-success-gradient` | نقطة توقف التدرج للنجاح |
+| `--color-success-button-text` | لون نص أزرار النجاح |
+| `--color-info-base` | لون حالة المعلومات |
+| `--color-info-gradient` | نقطة توقف التدرج للمعلومات |
+| `--color-info-button-text` | لون نص أزرار المعلومات |
+| `--color-warning-base` | لون حالة التحذير |
+| `--color-warning-gradient` | نقطة توقف التدرج للتحذير |
+| `--color-warning-button-text` | لون نص أزرار التحذير |
+| `--color-danger-base` | لون حالة الخطر/الخطأ |
+| `--color-danger-gradient` | نقطة توقف التدرج للخطر |
+| `--color-danger-button-text` | لون نص أزرار الخطر |
+| `--color-form-base` | لون التمييز لعناصر النموذج |

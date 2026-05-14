@@ -1,46 +1,46 @@
-# Careers and Promotions
+# المهن والترقيات
 
-Chamilo includes a career management system that lets you define training paths and track learner progression through structured programs.
+يحتوي Chamilo على نظام إدارة المهن يتيح لك تحديد مسارات التدريب وتتبع تقدم المتعلمين عبر البرامج المنظمة.
 
-## Careers
+## المهن
 
-![The careers list showing defined career paths with name and description](/.gitbook/assets/admin-careers-list.png)
+![قائمة المهن التي تعرض مسارات المهن المحددة مع الاسم والوصف](/.gitbook/assets/admin-careers-list.png)
 
-A **career** represents a structured training path — a sequence of training steps that a learner follows to achieve a professional goal.
+تمثل **المهنة** مسار تدريب منظم — تسلسل من خطوات التدريب التي يتبعها المتعلم لتحقيق هدف مهني.
 
-### Creating a Career
+### إنشاء مهنة
 
-1. From the administration panel, navigate to **Careers**
-2. Click **Create a career**
-3. Enter a **name** and **description**
-4. Save
+1. من لوحة الإدارة، انتقل إلى **المهن**
+2. انقر على **إنشاء مهنة**
+3. أدخل **اسمًا** و**وصفًا**
+4. احفظ
 
-## Promotions
+## الترقيات
 
-A **promotion** represents a cohort or batch of learners progressing through a career. Think of it as a group of people going through the same career path at the same time.
+تمثل **الترقية** مجموعة أو دفعة من المتعلمين الذين يتقدمون عبر مهنة. فكر فيها كمجموعة من الأشخاص يمرون بنفس مسار المهنة في الوقت نفسه.
 
-### Linking to Sessions
+### ربطها بالجلسات
 
-After creating a promotion, you link sessions to it. This defines the sequence of training a learner must complete.
+بعد إنشاء الترقية، قم بربط الجلسات بها. هذا يحدد تسلسل التدريب الذي يجب على المتعلم إكماله.
 
-You can later replicate promotions to help creating the next promotion with copies of the same sessions, so your next promotion can be built in an instant.
+يمكنك لاحقًا تكرار الترقيات لمساعدة في إنشاء الترقية التالية بنسخ من نفس الجلسات، حتى تتمكن من بناء ترقيتك التالية في لحظة.
 
-### Creating a Promotion
+### إنشاء ترقية
 
-1. Navigate to **Promotions**
-2. Click **Create a promotion**
-3. Enter a **name** and **description**
-4. Link it to a **career**
-5. Assign **sessions** to the promotion
-6. Save
+1. انتقل إلى **الترقيات**
+2. انقر على **إنشاء ترقية**
+3. أدخل **اسمًا** و**وصفًا**
+4. ربطها بـ **مهنة**
+5. عيّن **جلسات** للترقية
+6. احفظ
 
-## How It Fits Together
+## كيفية عملها معًا
 
-* A **career** defines the path (e.g., "Junior Developer Certification")
-* A **promotion** represents a cohort (e.g., "Class of March 2026")
-* **Sessions** within the promotion deliver the actual training content
+* **المهنة** تحدد المسار (مثل "شهادة مطور مبتدئ")
+* **الترقية** تمثل الدفعة (مثل "دفعة مارس 2026")
+* **الجلسات** داخل الترقية تقدم محتوى التدريب الفعلي
 
-## Tips
+## نصائح
 
-* **Use for structured programs** — Careers and promotions are most useful for multi-stage training programs where learners progress through a defined sequence
-* **Track completion** — Use the reporting tools to monitor how promotions are progressing through their career paths
+* **استخدمها للبرامج المنظمة** — المهن والترقيات أكثر فائدة لبرامج التدريب متعددة المراحل حيث يتقدم المتعلمون عبر تسلسل محدد
+* **تتبع الإكمال** — استخدم أدوات التقارير لمراقبة كيفية تقدم الترقيات عبر مسارات مهنها

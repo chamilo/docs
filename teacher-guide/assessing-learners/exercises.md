@@ -1,164 +1,165 @@
-# Exercises
+# التمارين
 
-The exercises tool (also called "tests") lets you create quizzes and exams with automatic grading. Chamilo supports a wide variety of question types, from simple multiple choice to interactive hotspot questions.
+يسمح أداة التمارين (المعروفة أيضًا بـ "الاختبارات") بإنشاء اختبارات وامتحانات مع تصحيح تلقائي. يدعم Chamilo مجموعة واسعة من أنواع الأسئلة، من الاختيار المتعدد البسيط إلى أسئلة النقاط الساخنة التفاعلية.
 
-## Creating an Exercise
+## إنشاء تمرين
 
-1. Open the **Exercises** <img src="/.gitbook/assets/icons/mdi-order-bool-ascending-variant.svg" alt="Exercises" data-size="line"> tool from the course homepage
-2. Click **New exercise**
-3. Enter a **title** and optional **description**
-4. Configure the exercise settings (see below)
-5. Save, then add questions
+1. افتح أداة **Exercises** <img src="/.gitbook/assets/icons/mdi-order-bool-ascending-variant.svg" alt="Exercises" data-size="line"> من الصفحة الرئيسية للمقرر
+2. انقر على **New exercise**
+3. أدخل **عنوانًا** و**وصفًا** اختياريًا
+4. قم بتكوين إعدادات التمرين (انظر أدناه)
+5. احفظ، ثم أضف أسئلة
 
-## Exercise Settings
+## إعدادات التمرين
 
-![The exercise settings panel with options for display, time, attempts, and feedback](/.gitbook/assets/exercise-settings.png)
+![لوحة إعدادات التمرين مع خيارات العرض والوقت والمحاولات والتعليقات](/.gitbook/assets/exercise-settings.png)
 
-### Display and Navigation
+### العرض والتنقل
 
-| Setting | Options | Description |
+| الإعداد | الخيارات | الوصف |
 |---------|---------|-------------|
-| **Question layout** | All on one page / One per page | Show all questions at once or one at a time |
-| **Hide question titles** | Yes / No | Whether to show question titles to learners |
-| **Show previous button** | Yes / No | Allow learners to go back to previous questions |
-| **Prevent backwards navigation** | Yes / No | Force learners to answer in order without going back |
+| **تخطيط السؤال** | الكل في صفحة واحدة / واحد لكل صفحة | عرض جميع الأسئلة دفعة واحدة أو واحدًا تلو الآخر |
+| **إخفاء عناوين الأسئلة** | نعم / لا | ما إذا كان يتم عرض عناوين الأسئلة للمتعلمين |
+| **عرض زر السابق** | نعم / لا | السماح للمتعلمين بالعودة إلى الأسئلة السابقة |
+| **منع التنقل الخلفي** | نعم / لا | إجبار المتعلمين على الإجابة بالترتيب دون العودة |
 
-### Time and Availability
+### الوقت والتوافر
 
-| Setting | Description |
+| الإعداد | الوصف |
 |---------|-------------|
-| **Time limit** | Maximum time (in minutes) to complete the exercise. A countdown timer is shown to the learner |
-| **Start date** | When the exercise becomes available to learners |
-| **End date** | When the exercise stops being available |
+| **حد الوقت** | الحد الأقصى للوقت (بالدقائق) لإكمال التمرين. يتم عرض مؤقت تنازلي للمتعلم |
+| **تاريخ البدء** | متى يصبح التمرين متاحًا للمتعلمين |
+| **تاريخ الانتهاء** | متى يتوقف التمرين عن التوافر |
 
-### Attempts and Scoring
+### المحاولات والتسجيل
 
-| Setting | Description |
+| الإعداد | الوصف |
 |---------|-------------|
-| **Maximum attempts** | How many times a learner can take the exercise (0 = unlimited) |
-| **Pass percentage** | The minimum score to pass (e.g., 70%). Learners who do not reach this threshold see a failure message |
-| **Propagate negative scoring** | Whether negative points on individual questions reduce the total score below zero |
+| **المحاولات القصوى** | عدد المرات التي يمكن للمتعلم أخذ التمرين فيها (0 = غير محدود) |
+| **نسبة النجاح** | الحد الأدنى للدرجة للنجاح (مثل 70%). يرى المتعلمون الذين لا يصلون إلى هذا الحد رسالة فشل |
+| **نقل التسجيل السلبي** | ما إذا كانت النقاط السلبية على الأسئلة الفردية تقلل الدرجة الإجمالية إلى أقل من صفر |
 
-### Feedback
+### التعليقات
 
-| Setting | Options |
+| الإعداد | الخيارات |
 |---------|---------|
-| **At the end** | Show results and correct answers after the learner submits |
-| **Immediate** | Show feedback after each question (useful for learning exercises) |
-| **Exam mode** | Do not show any feedback or results |
+| **في النهاية** | عرض النتائج والإجابات الصحيحة بعد تقديم المتعلم |
+| **فوري** | عرض التعليقات بعد كل سؤال (مفيد لتمارين التعلم) |
+| **وضع الامتحان** | عدم عرض أي تعليقات أو نتائج |
 
-### Results Display
+### عرض النتائج
 
-Control what learners see after completing the exercise:
+السيطرة على ما يراه المتعلمون بعد إكمال التمرين:
 
-* Show score and expected answers
-* Show score only
-* Show score with category breakdown
-* Show ranking among other learners
-* Show only on last attempt
-* Show radar chart visualization
+* عرض الدرجة والإجابات المتوقعة
+* عرض الدرجة فقط
+* عرض الدرجة مع تفصيل الفئات
+* عرض الترتيب بين المتعلمين الآخرين
+* عرض فقط في المحاولة الأخيرة
+* عرض رسم بياني رادار للتصور
 
-### Completion Messages
+### رسائل الإكمال
 
-* **Success message** — Custom text shown when the learner passes
-* **Failure message** — Custom text shown when the learner does not reach the pass percentage
+* **رسالة النجاح** — نص مخصص يُعرض عند نجاح المتعلم
+* **رسالة الفشل** — نص مخصص يُعرض عندما لا يصل المتعلم إلى نسبة النجاح
 
-### Question Randomization
+### تهيئة الأسئلة عشوائيًا
 
-| Setting | Description |
+| الإعداد | الوصف |
 |---------|-------------|
-| **Random question order** | Shuffle the order of questions for each attempt |
-| **Random answers** | Shuffle answer options within each question |
-| **Random by category** | Select random questions from each question category |
+| **ترتيب الأسئلة العشوائي** | خلط ترتيب الأسئلة لكل محاولة |
+| **الإجابات العشوائية** | خلط خيارات الإجابة داخل كل سؤال |
+| **عشوائي حسب الفئة** | اختيار أسئلة عشوائية من كل فئة أسئلة |
 
-You can also configure advanced selection strategies that combine categories and randomization.
+يمكنك أيضًا تكوين استراتيجيات اختيار متقدمة تجمع بين الفئات والتهيئة العشوائية.
 
-## Question Types
+## أنواع الأسئلة
 
-![Overview of available question types in the exercise creation interface](/.gitbook/assets/exercise-question-types.png)
+![نظرة عامة على أنواع الأسئلة المتاحة في واجهة إنشاء التمرين](/.gitbook/assets/exercise-question-types.png)
 
-Chamilo offers a rich set of question types organized into several categories:
+يقدم Chamilo مجموعة غنية من أنواع الأسئلة منظمة في عدة فئات:
 
-### Single Choice
+### الاختيار الواحد
 
-* **Multiple choice (single answer)** — Learner selects one correct answer from a list of options
-* **Single answer with images** — Same as above, but answer options are displayed as images
+* **الاختيار المتعدد (إجابة واحدة)** — يختار المتعلم إجابة صحيحة واحدة من قائمة الخيارات
+* **إجابة واحدة مع صور** — نفس الشيء أعلاه، لكن خيارات الإجابة معروضة كصور
 
-### Multiple Choice
+### الاختيار المتعدد
 
-* **Multiple answer** — Learner selects one or more correct answers
-* **Multiple answer (dropdown)** — Answer options are presented as dropdown menus
-* **True/False** — A series of statements that the learner marks as true or false
-* **True/False with degree of certainty** — True/false with an additional confidence level, enabling more nuanced scoring
+* **إجابة متعددة** — يختار المتعلم إجابة أو أكثر صحيحة
+* **إجابة متعددة (قائمة منسدلة)** — خيارات الإجابة مقدمة كقوائم منسدلة
+* **صح/خطأ** — سلسلة من العبارات يقوم المتعلم بتحديد صحيحة أو خاطئة
+* **صح/خطأ مع درجة الثقة** — صح/خطأ مع مستوى ثقة إضافي، مما يمكن من تسجيل أكثر دقة
 
-### Fill in the Blanks
+### ملء الفراغات
 
-* **Fill in the blanks** — Learner completes missing words in a text. You define the blanks and accepted answers when creating the question.
+* **ملء الفراغات** — يكمل المتعلم الكلمات المفقودة في نص. تحدد الفراغات والإجابات المقبولة عند إنشاء السؤال.
 
-### Matching
+### المطابقة
 
-* **Matching** — Learner connects items from two columns
-* **Matching (draggable)** — Same concept, but with a drag-and-drop interface
-* **Draggable** — Drag items into the correct positions
+* **المطابقة** — يربط المتعلم العناصر من عمودين
+* **المطابقة (قابلة للسحب)** — نفس المفهوم، لكن بواجهة سحب وإفلات
+* **قابل للسحب** — سحب العناصر إلى المواقع الصحيحة
 
-### Open-Ended
+### مفتوحة النهاية
 
-* **Free answer (essay)** — Learner writes a text response. Requires manual grading (or AI-assisted grading if configured)
-* **Oral expression** — Learner records an audio response using their microphone
-* **Upload answer** — Learner uploads a file as their answer
+* **إجابة حرة (مقال)** — يكتب المتعلم ردًا نصيًا. يتطلب تصحيحًا يدويًا (أو تصحيحًا بمساعدة الذكاء الاصطناعي إذا تم تكوينه)
+* **التعبير الشفهي** — يسجل المتعلم ردًا صوتيًا باستخدام الميكروفون
+* **رفع الإجابة** — يرفع المتعلم ملفًا كإجابته
 
-### Hotspot
+### النقاط الساخنة
 
-* **Hotspot** — Learner clicks on specific areas of an image to answer
-* **Hotspot delineation** — Learner draws boundaries around areas on an image
+* **النقطة الساخنة** — ينقر المتعلم على مناطق محددة من صورة للإجابة
+* **تحديد النقطة الساخنة** — يرسم المتعلم حدودًا حول مناطق في صورة
 
-### Calculated
+### محسوبة
 
-* **Calculated answer** — Numerical questions with a formula and tolerance range. Useful for math and science courses.
+* **إجابة محسوبة** — أسئلة رقمية مع صيغة ونطاق تحمل. مفيدة لمقررات الرياضيات والعلوم.
 
-### Special
+---
+### خاص
 
-* **Reading comprehension** — Tests based on reading a passage
-* **Annotation** — Teacher uploads an image and the learner annotates it
-* **Answer in Office document** — When the OnlyOffice plugin is enabled, the learner answers the question by editing an embedded Office document (Word, Excel, PowerPoint). Their response is saved as a separate file under the exercise so it can be reviewed alongside the rest of their attempt.
+* **فهم القراءة** — اختبارات مبنية على قراءة نص
+* **التعليق** — يقوم المعلم برفع صورة ويقوم المتعلم بتعليقها
+* **الإجابة في مستند Office** — عند تمكين إضافة OnlyOffice، يجيب المتعلم على السؤال بتحرير مستند Office مدمج (Word، Excel، PowerPoint). يتم حفظ إجابته كملف منفصل تحت التمرين ليتم مراجعته إلى جانب باقي محاولته.
 
-## Adding Questions to an Exercise
+## إضافة أسئلة إلى تمرين
 
-1. Open the exercise and click **Add a question**
-2. Select the question type
-3. Enter the **question text** (supports rich text with images and formatting)
-4. Define the **answers** and their scoring:
-   * For each answer option, specify whether it is correct and how many points it is worth
-   * You can assign negative points to wrong answers to discourage guessing
-5. Optionally add **feedback** — explanations shown to the learner after answering
-6. Set the **difficulty level** and **category** (useful for random selection and reporting)
-7. Save
+1. افتح التمرين وانقر على **إضافة سؤال**
+2. حدد نوع السؤال
+3. أدخل **نص السؤال** (يدعم النص الغني مع الصور والتنسيق)
+4. حدد **الإجابات** ودرجاتها:
+   * لكل خيار إجابة، حدد ما إذا كان صحيحًا وكم نقطة يستحق
+   * يمكنك تخصيص نقاط سالبة للإجابات الخاطئة لردع التخمين
+5. أضف **تعليقات** اختياريًا — شروحات تُعرض للمتعلم بعد الإجابة
+6. حدد **مستوى الصعوبة** و**الفئة** (مفيد للاختيار العشوائي والتقارير)
+7. احفظ
 
-## Question Categories
+## فئات الأسئلة
 
-You can organize questions into categories (e.g., "Module 1", "Vocabulary", "Advanced"). Categories are useful for:
+يمكنك تنظيم الأسئلة في فئات (مثل "الوحدة 1"، "المفردات"، "متقدم"). الفئات مفيدة لـ:
 
-* Organizing large question banks
-* Enabling random selection by category (e.g., "5 questions from Module 1, 3 from Module 2")
-* Viewing scores broken down by category in reports
+* تنظيم بنوك الأسئلة الكبيرة
+* تمكين الاختيار العشوائي حسب الفئة (مثل "5 أسئلة من الوحدة 1، 3 من الوحدة 2")
+* عرض الدرجات مفصولة حسب الفئة في التقارير
 
-## Question Reuse
+## إعادة استخدام الأسئلة
 
-Questions can be reused across exercises within the same course. When adding a question, you can choose to create a new one or select an existing question from the question bank.
+يمكن إعادة استخدام الأسئلة عبر التمارين داخل نفس الدورة. عند إضافة سؤال، يمكنك اختيار إنشاء واحد جديد أو تحديد سؤال موجود من بنك الأسئلة.
 
-## Importing Exercises
+## استيراد التمارين
 
-Chamilo supports importing exercises from external formats:
+يدعم Chamilo استيراد التمارين من صيغ خارجية:
 
-* **IMS QTI / Common Cartridge** — The standard e-learning quiz format
-* **Moodle format** — Import quizzes from Moodle exports
+* **IMS QTI / Common Cartridge** — صيغة الاختبارات الإلكترونية القياسية
+* **صيغة Moodle** — استيراد الاختبارات من تصديرات Moodle
 
-To import, look for the **Import** option in the exercises tool and upload your file.
+للاستيراد، ابحث عن خيار **الاستيراد** في أداة التمارين وقم برفع ملفك.
 
-## Tips
+## نصائح
 
-* **Mix question types** — Combine multiple choice, fill-in-the-blanks, and open-ended questions for a comprehensive assessment
-* **Use categories** — Organize questions by topic to enable targeted random selection
-* **Set a pass percentage** — Give learners a clear target and link it to certificate generation via the Gradebook
-* **Use immediate feedback for practice** — Create ungraded practice exercises with immediate feedback to help learners learn from their mistakes
-* **Randomize for integrity** — Enable random question order and random answers to reduce the chance of copying
+* **اخلط أنواع الأسئلة** — اجمع بين الاختيار المتعدد، الفراغات، والأسئلة المفتوحة لتقييم شامل
+* **استخدم الفئات** — نظم الأسئلة حسب الموضوع لتمكين الاختيار العشوائي المستهدف
+* **حدد نسبة النجاح** — أعطِ المتعلمين هدفًا واضحًا وربطه بإنشاء الشهادات عبر دفتر الدرجات
+* **استخدم التعليقات الفورية للتدريب** — أنشئ تمارين تدريبية غير مدرجة مع تعليقات فورية لمساعدة المتعلمين على التعلم من أخطائهم
+* **عشِّر للنزاهة** — فعِّل ترتيب الأسئلة العشوائي والإجابات العشوائية لتقليل فرص النسخ

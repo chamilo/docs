@@ -1,53 +1,53 @@
-# Backups
+# النسخ الاحتياطي
 
-Regular backups are essential for protecting your Chamilo data. This page covers what to back up and how.
+النسخ الاحتياطي المنتظم أمر أساسي لحماية بيانات Chamilo الخاصة بك. تغطي هذه الصفحة ما يجب نسخه احتياطيًا وكيفية القيام بذلك.
 
-## What to Back Up
+## ما يجب نسخه احتياطيًا
 
-### 1. Database
+### 1. قاعدة البيانات
 
-The Chamilo database contains all platform data: users, courses, tracking, grades, messages, and settings. This is the most critical component to back up.
+تحتوي قاعدة بيانات Chamilo على جميع بيانات المنصة: المستخدمين، والدورات، والتتبع، والدرجات، والرسائل، والإعدادات. هذا هو المكون الأكثر أهمية للنسخ الاحتياطي.
 
-**How to back up:**
+**كيفية النسخ الاحتياطي:**
 
 ```bash
 mysqldump -u username -p chamilo_database > chamilo_backup_$(date +%Y%m%d).sql
 ```
 
-### 2. Files
+### 2. الملفات
 
-Chamilo stores uploaded files (documents, images, SCORM packages) in the filesystem. The key directories to back up:
+يخزن Chamilo الملفات المرفوعة (المستندات، الصور، حزم SCORM) في نظام الملفات. الدلائل الرئيسية التي يجب نسخها احتياطيًا:
 
-* `var/` — Uploaded files and resources
-* `public/plugin/` — Plugin files (only if you have added custom plugins)
+* `var/` — الملفات المرفوعة والموارد
+* `public/plugin/` — ملفات الإضافات (فقط إذا أضفت إضافات مخصصة)
 
-If you use cloud storage (S3, Azure Blob), ensure your cloud provider's backup/versioning is enabled.
+إذا كنت تستخدم التخزين السحابي (S3، Azure Blob)، تأكد من تفعيل خاصية النسخ الاحتياطي/الإصدارات لدى مزود الخدمة السحابية.
 
-### 3. Configuration
+### 3. الإعدادات
 
-* `.env` — Your environment configuration
-* `config/` — Any custom configuration files
+* `.env` — إعدادات البيئة الخاصة بك
+* `config/` — أي ملفات إعدادات مخصصة
 
-## Backup Schedule
+## جدول النسخ الاحتياطي
 
-| Component | Recommended frequency |
-|-----------|---------------------|
-| Database | Daily |
-| Files | Daily or weekly (depending on upload activity) |
-| Configuration | After any configuration change |
+| المكون       | التكرار الموصى به          |
+|--------------|-----------------------------|
+| قاعدة البيانات | يوميًا                     |
+| الملفات     | يوميًا أو أسبوعيًا (حسب نشاط الرفع) |
+| الإعدادات   | بعد أي تغيير في الإعدادات  |
 
-## Restoration
+## الاستعادة
 
-To restore from a backup:
+لاستعادة النسخة الاحتياطية:
 
-1. Restore the database from the SQL dump
-2. Restore the file directories
-3. Restore the configuration files
-4. Clear the Symfony cache: `php bin/console cache:clear`
+1. استعادة قاعدة البيانات من ملف التصدير SQL
+2. استعادة دلائل الملفات
+3. استعادة ملفات الإعدادات
+4. مسح ذاكرة التخزين المؤقت لـ Symfony: `php bin/console cache:clear`
 
-## Tips
+## نصائح
 
-* **Automate backups** — Use cron jobs to run backups automatically
-* **Store off-site** — Keep backup copies on a separate server or cloud storage
-* **Test restoration** — Periodically test that you can restore from a backup successfully
-* **Document your process** — Keep written instructions for the restoration process so anyone on the team can perform it
+* **أتمتة النسخ الاحتياطي** — استخدم المهام المجدولة cron لتشغيل النسخ الاحتياطي تلقائيًا
+* **التخزين خارج الموقع** — احتفظ بنسخ احتياطية على خادم منفصل أو تخزين سحابي
+* **اختبار الاستعادة** — اختبر دوريًا إمكانية الاستعادة من النسخة الاحتياطية بنجاح
+* **توثيق العملية** — احتفظ بتعليمات مكتوبة لعملية الاستعادة حتى يتمكن أي شخص في الفريق من تنفيذها

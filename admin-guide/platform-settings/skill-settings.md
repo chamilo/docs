@@ -1,120 +1,118 @@
-# Skills Settings
+# إعدادات المهارات
 
-Behaviour of the **Skills** system — skills tree, awarding rules, profile integration.
+سلوك نظام **المهارات** — شجرة المهارات، قواعد المنح، تكامل الملف الشخصي.
 
-Access these settings under **Administration > Configuration settings > Skills**. This category contains **13 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+الوصول إلى هذه الإعدادات تحت **الإدارة > إعدادات التكوين > المهارات**. تحتوي هذه الفئة على **13 إعدادًا**، مدرجة أدناه مع العنوان والتعليق المرسل في إعدادات المنصة (`SettingsCurrentFixtures.php`).
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> يُعرض اسم المتغير في الكود بخط monospace. استخدمه عند البرمجة عبر API أو عند الحاجة إلى تغيير هذه الإعدادات على المستوى العام بتحرير [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
 
-## Settings
+## الإعدادات
 
 ### `allow_hr_skills_management`
 
-**Allow HR skills management**
+**السماح بإدارة مهارات الموارد البشرية**
 
-Allows HR to manage skills
+يسمح للموارد البشرية بإدارة المهارات
 
-*Default: `true`*
+*افتراضي: `true`*
 
 
 ### `allow_private_skills`
 
-**Hide skills from learners**
+**إخفاء المهارات عن المتعلمين**
 
-If enabled, skills can only be visible for admins, teachers (related to a user via a course), and HRM users (if related to a user).
+إذا تم تفعيلها، يمكن أن تكون المهارات مرئية فقط للمشرفين، والمعلمين (المرتبطين بمستخدم عبر مساق)، ومستخدمي الموارد البشرية (إذا كانوا مرتبطين بمستخدم).
 
-*Default: `false`*
+*افتراضي: `false`*
 
 
 ### `allow_skill_rel_items`
 
-**Enable linking skills to items**
+**تمكين ربط المهارات بالعناصر**
 
-This enables a major feature that enables any item to be linked to (and as such to allow acquisition of) a skill. The feature still requires the teacher to confirm the acquisition of the skill, so the acquisition is not automatic.
+يُمكن هذا ميزة رئيسية تسمح بربط أي عنصر بمهارة (وبالتالي السماح باكتسابها). لا تزال الميزة تتطلب من المعلم تأكيد اكتساب المهارة، لذا لا يكون الاكتساب تلقائيًا.
 
-*Default: `false`*
+*افتراضي: `false`*
 
 
 ### `allow_skills_tool`
 
-**Allow Skills tool**
+**السماح بأداة المهارات**
 
-Users can see their skills in the social network and in a block in the homepage.
+يمكن للمستخدمين رؤية مهاراتهم في الشبكة الاجتماعية وفي كتلة في الصفحة الرئيسية.
 
-*Default: `true`*
+*افتراضي: `true`*
 
 ### `allow_teacher_access_student_skills`
 
-**Allow teachers to access learners' skills**
+**السماح للمعلمين بالوصول إلى مهارات المتعلمين**
 
-[inferred] Allow instructors to view and monitor skills acquired by learners in their courses.
+[مستنتج] السماح للمدربين برؤية ومراقبة المهارات التي اكتسبها المتعلمون في مساقاتهم.
 
-*Default: `false`*
+*افتراضي: `false`*
 
 
 ### `badge_assignation_notification`
 
-**Send notification to learner when a skill/badge has been acquired**
+**إرسال إشعار للمتعلم عند اكتساب مهارة/شارة**
 
-[inferred] Send notifications to learners when they acquire a new skill or badge achievement.
+[مستنتج] إرسال إشعارات للمتعلمين عند اكتسابهم مهارة أو إنجاز شارة جديد.
 
-*Default: `false`*
+*افتراضي: `false`*
 
 
 ### `hide_skill_levels`
 
-**Hide skill levels feature**
+**إخفاء ميزة مستويات المهارة**
 
-[inferred] Conceal the skill level hierarchy and level labels in skill-related views.
+[مستنتج] إخفاء تسلسل مستويات المهارة وعناوين المستويات في المناظر المتعلقة بالمهارات.
 
-*Default: `false`*
+*افتراضي: `false`*
 
 
 ### `manual_assignment_subskill_autoload`
 
-**Assigning skills to user: sub-skills auto-loading**
+**تعيين المهارات للمستخدم: تحميل المهارات الفرعية تلقائيًا**
 
-When manually assigning skills to a user, the form can be set to automatically offer you to assign a sub-skill instead of the skill you selected.
+عند تعيين المهارات يدويًا لمستخدم، يمكن تعيين النموذج ليقترح تلقائيًا تعيين مهارة فرعية بدلاً من المهارة التي اخترتها.
 
-*Default: `false`*
+*افتراضي: `false`*
 
 
 ### `openbadges_backpack`
 
-**OpenBadges backpack URL**
+**رابط OpenBadges backpack**
 
-The URL of the OpenBadges backpack server that will be used by default for all users wanting to export their badges. This defaults to the open and free Mozilla Foundation backpack repository: https://backpack.openbadges.org/
+رابط خادم OpenBadges backpack الذي سيُستخدم افتراضيًا لجميع المستخدمين الراغبين في تصدير شاراتهم. يعود هذا افتراضيًا إلى مستودع Mozilla Foundation المفتوح والمجاني: https://backpack.openbadges.org/
 
 ### `show_full_skill_name_on_skill_wheel`
 
-**Show full skill name on skill wheel**
+**عرض اسم المهارة الكامل على عجلة المهارات**
 
-On the wheel of skills, it shows the name of the skill when it has short code.
+في عجلة المهارات، يعرض اسم المهارة عندما يكون لديها رمز قصير.
 
-*Default: `false`*
+*افتراضي: `false`*
 
 
 ### `skill_levels_names`
 
-**Skill levels names**
+**أسماء مستويات المهارات**
 
-Define names for levels of skills as an array of id => name.
+تحديد أسماء لمستويات المهارات كمصفوفة من id => name.
 
 ### `skills_hierarchical_view_in_user_tracking`
 
-**Show skills as a hierarchical table**
+**عرض المهارات كجدول هرمي**
 
-[inferred] Display learner skills as a hierarchical tree structure in progress and reporting pages.
+[مستنتج] عرض مهارات المتعلم كبنية شجرة هرمية في صفحات التقدم والتقارير.
 
-*Default: `false`*
+*افتراضي: `false`*
 
 
 ### `skills_teachers_can_assign_skills`
 
-**Allow teachers to set which skills are acquired through their courses**
+**السماح للمعلمين بتحديد المهارات المكتسبة عبر مساقاتهم**
 
-By default, only admins can decide which skills can be acquired through which course.
+افتراضيًا، يمكن للمشرفين فقط تحديد المهارات التي يمكن اكتسابها عبر أي مساق.
 
-*Default: `false`*
-
-
+*افتراضي: `false`*

@@ -1,31 +1,31 @@
-# Teacher Guide
+# دليل المعلم
 
-Welcome to the Chamilo 2.0 Teacher Guide. This guide is designed for instructors, trainers, and anyone responsible for creating and delivering learning content through the Chamilo platform.
+مرحباً بكم في دليل المعلم لـ Chamilo 2.0. هذا الدليل مصمم للمدربين والمدربين وأي شخص مسؤول عن إنشاء وتقديم محتوى التعلم من خلال منصة Chamilo.
 
-Whether you are setting up your first online course or managing a complex training program, this guide will walk you through every feature available to you as a teacher.
+سواء كنت تقوم بإعداد دورة عبر الإنترنت الأولى الخاصة بك أو إدارة برنامج تدريبي معقد، سيقوم هذا الدليل بتوجيهك خطوة بخطوة عبر كل ميزة متاحة لك كمعلم.
 
-## What You Can Do with Chamilo
+## ما يمكنك القيام به مع Chamilo
 
-As a teacher in Chamilo, you can:
+كمعلم في Chamilo، يمكنك:
 
-* **Create and organize courses** with a flexible homepage and customizable tools
-* **Add content** — upload documents, create learning paths, build glossaries, and link to external resources
-* **Assess your learners** — design exercises with multiple question types, collect assignments, run surveys, and manage grades
-* **Collaborate** — set up forums, group work, wikis, blogs, and live video sessions
-* **Track progress** — monitor learner activity, generate reports, and award certificates
-* **Use AI tools** — generate exercises and learning paths automatically, and get AI-assisted grading
+* **إنشاء وتنظيم الدورات** مع صفحة رئيسية مرنة وأدوات قابلة للتخصيص
+* **إضافة محتوى** — تحميل المستندات، إنشاء مسارات تعلم، بناء قواميس مصطلحات، وربط موارد خارجية
+* **تقييم متعلميك** — تصميم تمارين مع أنواع أسئلة متعددة، جمع الواجبات، إجراء استطلاعات، وإدارة الدرجات
+* **التعاون** — إعداد المنتديات، العمل الجماعي، الويكي، المدونات، والجلسات المباشرة عبر الفيديو
+* **تتبع التقدم** — مراقبة نشاط المتعلمين، إنشاء تقارير، ومنح شهادات
+* **استخدام أدوات الذكاء الاصطناعي** — إنشاء تمارين ومسارات تعلم تلقائياً، والحصول على تصحيح مدعوم بالذكاء الاصطناعي
 
-## How This Guide Is Organized
+## كيفية تنظيم هذا الدليل
 
-This guide follows the natural workflow of building and running a course:
+يتبع هذا الدليل تدفق العمل الطبيعي لبناء وتشغيل الدورة:
 
-1. **Getting Started** — Log in, navigate the interface, and set up your profile
-2. **Creating Your Course** — Create a new course, configure its settings, and customize the homepage
-3. **Adding Content** — Upload documents, organize learning paths, and manage resources
-4. **Assessing Learners** — Build tests, collect assignments, run surveys, and set up the gradebook
-5. **Collaboration and Communication** — Enable forums, chat, groups, wiki, and video conferencing
-6. **Tracking and Reporting** — Monitor learner progress and generate reports
-7. **AI Tools** — Use AI-powered features to generate content and assist with grading
-8. **Additional Tools** — Agenda, notebook, portfolio, and more
+1. **البدء** — تسجيل الدخول، التنقل في الواجهة، وإعداد ملفك الشخصي
+2. **إنشاء دورة** — إنشاء دورة جديدة، تكوين إعداداتها، وتخصيص الصفحة الرئيسية
+3. **إضافة المحتوى** — تحميل المستندات، تنظيم مسارات التعلم، وإدارة الموارد
+4. **تقييم المتعلمين** — بناء الاختبارات، جمع الواجبات، إجراء الاستطلاعات، وإعداد دفتر الدرجات
+5. **التعاون والتواصل** — تمكين المنتديات، الدردشة، المجموعات، الويكي، والمؤتمرات الفيديو
+6. **التتبع والتقارير** — مراقبة تقدم المتعلمين وإنشاء التقارير
+7. **أدوات الذكاء الاصطناعي** — استخدام الميزات المدعومة بالذكاء الاصطناعي لإنشاء المحتوى والمساعدة في التصحيح
+8. **أدوات إضافية** — الجدول الزمني، دفتر الملاحظات، المحفظة، وأكثر
 
-Let's get started.
+دعونا نبدأ.

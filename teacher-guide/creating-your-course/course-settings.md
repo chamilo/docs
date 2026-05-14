@@ -1,99 +1,100 @@
-# Course Settings
+# إعدادات المقرر
 
-Course settings allow you to control how your course behaves — who can access it, how it appears, and what features are enabled.
+تتيح إعدادات المقرر التحكم في سلوك مقررك — من يمكنه الوصول إليه، وكيفية عرضه، وما هي الميزات المُفعّلة.
 
-To access course settings, enter your course and click the **Settings** <img src="/.gitbook/assets/icons/mdi-cog.svg" alt="Settings" data-size="line"> icon next to the **Switch to student view** button.
+للوصول إلى إعدادات المقرر، أدخل مقررك وانقر على أيقونة **Settings** <img src="/.gitbook/assets/icons/mdi-cog.svg" alt="إعدادات" data-size="line"> بجوار زر **Switch to student view**.
 
-## General Settings
+## الإعدادات العامة
 
-### Course Information
+### معلومات المقرر
 
-* **Course title** — The display name of your course
-* **Course language** — The primary language for the course interface
-* **Course category** — The category under which the course appears in the catalog
-* **Course picture** — Upload a thumbnail that represents your course in course listings (will be resized depending on context)
+* **Course title** — اسم العرض لمقررك
+* **Course language** — اللغة الأساسية لواجهة المقرر
+* **Course category** — الفئة التي يظهر تحتها المقرر في الكتالوج
+* **Course picture** — رفع صورة مصغرة تمثل مقررك في قوائم المقررات (سيتم تغيير حجمها حسب السياق)
 
-The course code (the short unique identifier) is set when the course is created and is not editable from this page.
+يتم تعيين رمز المقرر (المعرف الفريد القصير) عند إنشاء المقرر ولا يمكن تعديله من هذه الصفحة.
 
-By default, all users entering your course will see the whole Chamilo interface in the language of your course. This is an immersive feature. Administrators can change this behaviour, but you can also change it with one of the first options: **Show course in user's language** (set to No by default) if you believe this makes it too hard for your users.
+افتراضيًا، سيُظهر جميع المستخدمين الداخلين إلى مقررك واجهة Chamilo بالكامل بلغة مقررك. هذه ميزة غامرة. يمكن للمشرفين تغيير هذا السلوك، لكن يمكنك أيضًا تغييره باستخدام إحدى الخيارات الأولى: **Show course in user's language** (مُعيّن على No افتراضيًا) إذا كنت تعتقد أن ذلك يجعله صعبًا جدًا على مستخدميك.
 
-The department and department URL are deprecated fields. They are only maintained for legacy support reasons.
+حقلاً القسم وURL القسم مُهجّران. يتم الحفاظ عليهما فقط لأسباب دعم الإصدارات القديمة.
 
-If enabled, you can switch the style inside your course with the **Style sheets** option, using existing stylesheets on your portal. This option is often disabled by admins, for a more integrated global design.
+إذا تم تفعيله، يمكنك تبديل النمط داخل مقررك بخيار **Style sheets**، باستخدام أوراق الأنماط الموجودة في بوابك. غالبًا ما يُعطّل هذا الخيار بواسطة المشرفين، لتصميم عالمي أكثر تكاملاً.
 
-### Disk Quota
+### حصة القرص
 
-Each course has a storage limit (disk quota) for uploaded files. The quota is set by the platform administrator. You can see your current limit in the course settings, and the current usage in the **Documents** tool.
+يحتوي كل مقرر على حد تخزين (حصة قرص) للملفات المُرفَعة. يحدد مشرف المنصة الحصة. يمكنك رؤية حدك الحالي في إعدادات المقرر، والاستخدام الحالي في أداة **Documents**.
 
-> If you are running out of space, contact your platform administrator to request a quota increase, or remove unused files from the Documents tool.
+> إذا كنت تفتقر إلى المساحة، اتصل بمشرف المنصة لطلب زيادة الحصة، أو أزل الملفات غير المستخدمة من أداة Documents.
 
-### Course Visibility
+### رؤية المقرر
 
-![The course visibility settings showing public, open, registered, and closed options](/.gitbook/assets/course-settings-visibility.png)
+![إعدادات رؤية المقرر التي تظهر الخيارات العامة، المفتوحة، المسجلة، والمغلقة](/.gitbook/assets/course-settings-visibility.png)
 
-Control who can access your course:
+التحكم في من يمكنه الوصول إلى مقررك:
 
-| Setting | Description |
+| الإعداد | الوصف |
 |---------|-------------|
-| **Public** | Anyone, including anonymous visitors, can access the course |
-| **Open to platform** | All registered users on the platform can access the course |
-| **Private — access granted by privileged users** | Only users explicitly enrolled in the course can access it |
-| **Closed** | The course is locked; no one can access it except the teacher |
+| **Public** | يمكن لأي شخص، بما في ذلك الزوار المجهولين، الوصول إلى المقرر |
+| **Open to platform** | يمكن لجميع المستخدمين المسجلين في المنصة الوصول إلى المقرر |
+| **Private — access granted by privileged users** | يمكن للمستخدمين المُسجَّلين صراحةً في المقرر فقط الوصول إليه |
+| **Closed** | المقرر مغلق؛ لا يمكن لأحد الوصول إليه إلا المعلم |
 
-#### Enrollment Settings
+#### إعدادات التسجيل
 
-Depending on your platform configuration, you may be able to control:
+بناءً على تكوين منصتك، قد تتمكن من التحكم في:
 
-* **Allow self-enrollment** — Whether learners can subscribe themselves through the course catalog
-* **Allow self-unsubscription** — Whether learners can leave the course on their own
-* **Enrollment password** — Require a password for self-enrollment (useful for restricting access to a specific group) but the security level is low as the same course-access password is shared between all users.
+* **Allow self-enrollment** — ما إذا كان بإمكان المتعلمين التسجيل بأنفسهم من خلال كتالوج المقررات
+* **Allow self-unsubscription** — ما إذا كان بإمكان المتعلمين مغادرة المقرر بأنفسهم
+* **Enrollment password** — طلب كلمة مرور للتسجيل الذاتي (مفيد لتقييد الوصول إلى مجموعة محددة) لكن مستوى الأمان منخفض لأن كلمة مرور الوصول إلى المقرر نفسها مشتركة بين جميع المستخدمين.
 
-### Document Settings
+### إعدادات المستندات
 
-Choose whether to show or hide the system folders in the **Documents** tool (hidden by default, you don't really need them in most cases and showing them might cause issues with hidden content and learners).
+اختر ما إذا كنت تريد إظهار أو إخفاء مجلدات النظام في أداة **Documents** (مخفية افتراضيًا، لا تحتاجها حقًا في معظم الحالات وعرضها قد يسبب مشكلات مع المحتوى المخفي والمتعلمين).
 
-### E-mail Notification Settings
+### إعدادات إشعارات البريد الإلكتروني
 
-Configure how course activity triggers notifications:
+تكوين كيفية إطلاق أنشطة المقرر إشعارات:
 
-* **Email notifications for new content** — Notify enrolled users when you add new documents, announcements, or other content
+* **Email notifications for new content** — إخطار المستخدمين المُسجَّلين عند إضافة مستندات أو إعلانات أو محتوى آخر جديد
 
-### Chat Settings
+### إعدادات الدردشة
 
-Control how the **Chat** tool will show.
+التحكم في كيفية عرض أداة **Chat**.
 
-### Learning path Settings
+### إعدادات مسار التعلم
 
-* **Enable course themes** — Allow learning paths to change appearance (not recommended for integrated user experience)
-* **Learning path return link** — Decide where users land when they click the **Home** icon in a learning path: the learning paths list, the course home, *My courses*, *My sessions*, or the portal home
+* **Enable course themes** — السماح لمسارات التعلم بتغيير المظهر (غير موصى به لتجربة مستخدم متكاملة)
+* **Learning path return link** — تحديد المكان الذي يهبط فيه المستخدمون عند النقر على أيقونة **Home** في مسار تعلم: قائمة مسارات التعلم، الصفحة الرئيسية للمقرر، *My courses*، *My sessions*، أو الصفحة الرئيسية للبوابة
 
-### Thematic Advance Settings
+### إعدادات التقدم الموضوعي
 
-Configure how the thematic advance messages will appear on the course homepage.
+تكوين كيفية ظهور رسائل التقدم الموضوعي على الصفحة الرئيسية للمقرر.
 
-### Forum Settings
+### إعدادات المنتدى
 
-Control behaviour in the forum tool of this course.
+التحكم في السلوك في أداة المنتدى لهذا المقرر.
 
-### Assignment Settings
+### إعدادات الواجبات
 
-* **Default setting for the visibility of newly posted files** — Decide whether new documents uploaded by learners in the **Assignments** tool are shared with all other learners (No by default)
-* **Allow learners to delete their own publications** — Allow learners to delete the assignments they have already uploaded (in case they want to upload a correction).
+* **Default setting for the visibility of newly posted files** — تحديد ما إذا كانت المستندات الجديدة المُرفَعة بواسطة المتعلمين في أداة **Assignments** مشتركة مع جميع المتعلمين الآخرين (No افتراضيًا)
+* **Allow learners to delete their own publications** — السماح للمتعلمين بحذف الواجبات التي قاموا برفعها بالفعل (في حالة رغبتهم في رفع تصحيح).
 
-### Autolaunch Settings
+---
+### إعدادات الإطلاق التلقائي
 
-A course can be set to have an auto-launch behaviour, which will shorten the path of learners to get to the important parts of your course. If enabled, the learners entering your course will be sent directly to the selected tool and will not see the course homepage as an intermediate step. You can even select specific learning paths or exercises to launch on arrival to the course. In this case, you need to select the option here, then go to the learning paths or exercises list and clic the rocket <img src="/.gitbook/assets/icons/mdi-rocket-launch.svg" alt="Auto-launch" data-size="line"> icon on the selected item.
+يمكن تعيين مسار دراسي ليكون له سلوك إطلاق تلقائي، مما يقصر المسار الذي يسلكه المتعلمون للوصول إلى الأجزاء المهمة في مسارك الدراسي. إذا تم تمكينه، سيتم إرسال المتعلمين الداخلين إلى مسارك الدراسي مباشرة إلى الأداة المحددة ولن يروا الصفحة الرئيسية للمسار كخطوة وسيطة. يمكنك حتى تحديد مسارات تعلم محددة أو تمارين لإطلاقها عند الوصول إلى المسار. في هذه الحالة، يجب عليك تحديد الخيار هنا، ثم الذهاب إلى قائمة مسارات التعلم أو التمارين ونقر على أيقونة الصاروخ <img src="/.gitbook/assets/icons/mdi-rocket-launch.svg" alt="إطلاق تلقائي" data-size="line"> في العنصر المحدد.
 
-### AI Helpers Settings
+### إعدادات مساعدي الذكاء الاصطناعي
 
-This section only appears if your administrator has enabled AI tools on the platform. It allows you to refine the selection of AI helper services available through different tools of your Chamilo platform. Disable them if you don't want to use them, but that would probably be a bad idea as these are very powerful.
+يظهر هذا القسم فقط إذا قام مديرك بتمكين أدوات الذكاء الاصطناعي على المنصة. يسمح لك بتحسين اختيار خدمات مساعدي الذكاء الاصطناعي المتاحة من خلال أدوات مختلفة في منصة Chamilo الخاصة بك. قم بتعطيلها إذا لم تكن ترغب في استخدامها، لكن ذلك سيكون فكرة سيئة على الأرجح لأنها قوية جداً.
 
-These features are explained in the **AI Tools** section of this guide.
+يتم شرح هذه الميزات في قسم **أدوات الذكاء الاصطناعي** في هذا الدليل.
 
-### External Tools (LTI)
+### الأدوات الخارجية (LTI)
 
-If enabled on your platform, Learning Tools Integration allows you to integrate external, compatible activities to this course, as individual icons on the course homepage. Discussing LTI is out of the scope of this guide, but this is a powerful integration system for teachers.
+إذا تم تمكينها على منصتك، يسمح تكامل أدوات التعلم (LTI) لك بدمج أنشطة خارجية متوافقة في هذا المسار، كأيقونات فردية على الصفحة الرئيسية للمسار. مناقشة LTI خارج نطاق هذا الدليل، لكنها نظام تكامل قوي للمعلمين.
 
-### Others
+### أخرى
 
-Additional sections or options might appear on this page depending on options and versions of Chamilo.
+قد تظهر أقسام أو خيارات إضافية على هذه الصفحة اعتماداً على خيارات وإصدارات Chamilo.

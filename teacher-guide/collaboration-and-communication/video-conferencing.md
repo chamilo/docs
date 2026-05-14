@@ -1,38 +1,38 @@
-# Video Conferencing
+# مؤتمرات الفيديو
 
-Chamilo integrates with video conferencing platforms to let you run live sessions directly from your course. Supported platforms include **BigBlueButton** and **Zoom**.
+يدمج Chamilo مع منصات مؤتمرات الفيديو للسماح لك بتشغيل جلسات مباشرة من مقررك الدراسي. تشمل المنصات المدعومة **BigBlueButton** و**Zoom**.
 
-> Video conferencing must be configured by your platform administrator. If you do not see the video conferencing tool in your course, contact your administrator.
+> يجب على مدير المنصة تهيئة مؤتمرات الفيديو. إذا لم ترَ أداة مؤتمرات الفيديو في مقررك الدراسي، اتصل بمديرك.
 
-## Starting a Video Session
+## بدء جلسة فيديو
 
-1. Open the **Video conference** <img src="/.gitbook/assets/icons/mdi-video.svg" alt="Video" data-size="line"> tool from the course homepage (or from the sidebar)
-2. Click **Start a meeting** (or a similar button depending on the configured platform)
-3. A new video conferencing room will open in a new browser tab
+1. افتح أداة **مؤتمر فيديو** <img src="/.gitbook/assets/icons/mdi-video.svg" alt="فيديو" data-size="line"> من الصفحة الرئيسية للمقرر (أو من الشريط الجانبي)
+2. انقر على **بدء اجتماع** (أو زر مشابه حسب المنصة المُهيأة)
+3. سيفتح غرفة مؤتمر فيديو جديدة في علامة تبويب متصفح جديدة
 
-## Inviting Learners
+## دعوة المتعلمين
 
-Once a meeting is running, enrolled learners can join it by:
+بمجرد تشغيل الاجتماع، يمكن للمتعلمين المسجلين الانضمام إليه من خلال:
 
-* Clicking the same **Video conference** tool in their course homepage
-* Clicking the join link in an announcement or message you send them
+* النقر على أداة **مؤتمر فيديو** نفسها في صفحة المقرر الدراسي الخاصة بهم
+* النقر على رابط الانضمام في إعلان أو رسالة ترسلها إليهم
 
 ## BigBlueButton
 
-If your platform uses the BigBlueButton plugin, the meeting itself runs in BigBlueButton, where the usual conference features (audio/video, screen sharing, whiteboard, in-meeting chat, breakout rooms) are available. The Chamilo plugin specifically adds:
+إذا كانت منصتك تستخدم إضافة BigBlueButton، فإن الاجتماع نفسه يعمل داخل BigBlueButton، حيث تتوفر ميزات المؤتمر العادية (الصوت/الفيديو، مشاركة الشاشة، السبورة البيضاء، الدردشة داخل الاجتماع، غرف الفرق الفرعية). تضيف إضافة Chamilo تحديداً:
 
-* **Recording management** — If recording is enabled by the administrator, recordings made during the session are listed inside the course so learners can replay them
-* **Pre-upload presentation documents** — Attach a presentation file to a meeting so it is loaded into BigBlueButton when the room opens
-* **Calendar integration** — Scheduled meetings are surfaced in the course agenda
-* **Course / group / global rooms** — Run a single course-wide room, separate group rooms, or a platform-wide room
+* **إدارة التسجيلات** — إذا كان التسجيل مفعلاً من قبل المدير، فإن التسجيلات التي تم إجراؤها أثناء الجلسة مدرجة داخل المقرر الدراسي حتى يتمكن المتعلمون من إعادة تشغيلها
+* **رفع مستندات العرض مسبقاً** — أرفق ملف عرض تقديمي باجتماع حتى يتم تحميله إلى BigBlueButton عند فتح الغرفة
+* **تكامل التقويم** — تظهر الاجتماعات المجدولة في جدول أعمال المقرر الدراسي
+* **غرف المقرر / المجموعة / العامة** — شغّل غرفة واحدة للمقرر بأكمله، أو غرف مجموعات منفصلة، أو غرفة عامة للمنصة
 
-## Zoom Integration
+## تكامل Zoom
 
-If your platform uses Zoom, meetings are created and managed through Zoom's interface. Chamilo provides the integration point for launching and joining meetings from within the course.
+إذا كانت منصتك تستخدم Zoom، فإن الاجتماعات تُنشأ وتُدار من خلال واجهة Zoom. يوفر Chamilo نقطة التكامل لإطلاق الاجتماعات والانضمام إليها من داخل المقرر الدراسي.
 
-## Tips
+## نصائح
 
-* **Schedule in advance** — Use the Agenda tool to schedule video sessions and send reminders
-* **Test your setup** — Check your microphone and camera before the session
-* **Record for absent learners** — If recording is enabled, share the recording link after the session for learners who could not attend
-* **Combine with other tools** — Share presentation files in Documents before the session, and follow up with a Forum discussion afterward
+* **جدولة مسبقاً** — استخدم أداة الجدول الأعمال لجدولة جلسات الفيديو وإرسال التذكيرات
+* **اختبار الإعداد** — تحقق من ميكروفونك وكاميراك قبل الجلسة
+* **تسجيل للمتعلمين الغائبين** — إذا كان التسجيل مفعلاً، شارك رابط التسجيل بعد الجلسة للمتعلمين الذين لم يتمكنوا من الحضور
+* **دمج مع أدوات أخرى** — شارك ملفات العرض التقديمي في المستندات قبل الجلسة، وتابع بمناقشة في المنتدى بعد ذلك

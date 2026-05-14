@@ -1,22 +1,22 @@
-# Session Categories
+# فئات الجلسات
 
-Session categories help organize your sessions, especially when you have many sessions running simultaneously.
+تساعد فئات الجلسات في تنظيم جلساتك، خاصة عندما يكون لديك العديد من الجلسات تعمل في وقت واحد.
 
-## Creating a Category
+## إنشاء فئة
 
-1. From the administration panel, navigate to **Session categories**
-2. Click **Add a category**
-3. Enter a **name** and optional start/end dates
-4. Save
+1. من لوحة الإدارة، انتقل إلى **Session categories**
+2. انقر على **Add a category**
+3. أدخل **اسمًا** وتواريخ بداية/نهاية اختيارية
+4. احفظ
 
-## Use Cases
+## حالات الاستخدام
 
-* **By program** — "Leadership Development", "Technical Training", "Onboarding"
-* **By period** — "Q1 2026", "Spring Semester", "July Batch"
-* **By department** — "Engineering", "Sales", "Human Resources"
+* **حسب البرنامج** — "Leadership Development"، "Technical Training"، "Onboarding"
+* **حسب الفترة** — "Q1 2026"، "Spring Semester"، "July Batch"
+* **حسب القسم** — "Engineering"، "Sales"، "Human Resources"
 
-## Managing Categories
+## إدارة الفئات
 
-* **Edit** — Change the category name or dates
-* **Assign sessions** — When creating or editing a session, select its category
-* **Delete** — Remove a category (sessions in the category become uncategorized)
+* **تعديل** — تغيير اسم الفئة أو التواريخ
+* **تعيين جلسات** — عند إنشاء أو تعديل جلسة، حدد فئتها
+* **حذف** — إزالة فئة (تصبح الجلسات في الفئة غير مصنفة)

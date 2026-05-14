@@ -1,32 +1,31 @@
-# Cron Jobs Settings
+# إعدادات المهام المجدولة (Cron Jobs)
 
-Configuration of scheduled jobs (cron tasks) shipped with Chamilo.
+تكوين المهام المجدولة (مهام cron) المضمنة مع Chamilo.
 
-Access these settings under **Administration > Configuration settings > Cron Jobs**. This category contains **3 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+الوصول إلى هذه الإعدادات تحت **إدارة > إعدادات التكوين > المهام المجدولة (Cron Jobs)**. تحتوي هذه الفئة على **3 إعدادات**، مدرجة أدناه مع العنوان والتعليق المضمنين في إعدادات المنصة (`SettingsCurrentFixtures.php`).
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> يتم عرض اسم المتغير في الكود بخط monospace. استخدمه عند البرمجة عبر API أو عند الحاجة إلى تغيير هذه الإعدادات على المستوى العام عن طريق تحرير [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
 
-## Settings
+## الإعدادات
 
 ### `cron_remind_course_expiration_activate`
 
-**Remind Course Expiration cron**
+**مهمة تذكير انتهاء صلاحية الدورة cron**
 
-Enable the Remind Course Expiration cron
+تمكين مهمة تذكير انتهاء صلاحية الدورة cron
 
-*Default: `false`*
+*افتراضي: `false`*
 
 ### `cron_remind_course_expiration_frequency`
 
-**Frequency for the Remind Course Expiration cron**
+**التكرار لمهمة تذكير انتهاء صلاحية الدورة cron**
 
-Number of days before the expiration of the course to consider to send reminder mail
+عدد الأيام قبل انتهاء صلاحية الدورة للنظر في إرسال بريد تذكيري
 
 ### `cron_remind_course_finished_activate`
 
-**Send course finished notification**
+**إرسال إشعار انتهاء الدورة**
 
-Whether to send an e-mail to students when their course (session) is finished. This requires cron tasks to be configured (see main/cron/ directory).
+هل يتم إرسال بريد إلكتروني إلى الطلاب عند انتهاء دورتهم (جلسة). يتطلب ذلك تكوين مهام cron (انظر مجلد main/cron/).
 
-*Default: `false`*
-
+*افتراضي: `false`*

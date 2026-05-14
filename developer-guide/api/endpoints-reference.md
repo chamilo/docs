@@ -1,10 +1,10 @@
-# Endpoints Reference
+# مرجع نقاط النهاية
 
-API Platform automatically generates REST endpoints for entities annotated with `#[ApiResource]`. Chamilo exposes 100+ resources.
+يولّد API Platform تلقائياً نقاط نهاية REST للكيانات المُعلَّمة بـ `#[ApiResource]`. يُعرِّض Chamilo أكثر من 100 مورد.
 
-## Standard Operations
+## العمليات القياسية
 
-For each API resource, the following operations are typically available:
+بالنسبة لكل مورد API، تكون العمليات التالية متاحة عادةً:
 
 | Method | Path | Description |
 |--------|------|-------------|
@@ -15,11 +15,11 @@ For each API resource, the following operations are typically available:
 | `PATCH` | `/api/{resources}/{id}` | Partial update |
 | `DELETE` | `/api/{resources}/{id}` | Delete |
 
-Not all operations are enabled for every resource — security constraints apply.
+ليس كل العمليات مُفعَّلة لكل مورد — تُطبَّق قيود الأمان.
 
-## Key API Resources
+## الموارد الرئيسية لـ API
 
-### Platform Resources
+### موارد المنصة
 
 | Resource | Path | Description |
 |----------|------|-------------|
@@ -30,7 +30,7 @@ Not all operations are enabled for every resource — security constraints apply
 | Access URLs | `/api/access_urls` | Multi-URL portals |
 | Messages | `/api/messages` | Platform messages |
 
-### Course Content Resources
+### موارد محتوى الدورة
 
 | Resource | Path | Description |
 |----------|------|-------------|
@@ -43,35 +43,35 @@ Not all operations are enabled for every resource — security constraints apply
 | Blogs | `/api/c_blogs` | Course blogs |
 | Groups | `/api/c_groups` | Course groups |
 
-### Tracking Resources
+### موارد التتبع
 
 | Resource | Path | Description |
 |----------|------|-------------|
 | Gradebook Categories | `/api/gradebook_categories` | Gradebook setup |
 | Gradebook Results | `/api/gradebook_results` | Grades |
 
-## Filtering and Pagination
+## التصفية والتصفُّح
 
-API Platform supports:
+يدعم API Platform:
 
 * **Pagination**: `?page=2&itemsPerPage=30`
 * **Filtering**: `?title=Introduction` (depends on configured filters)
 * **Ordering**: `?order[title]=asc`
 * **Search**: Full-text search on configured fields
 
-## Content Negotiation
+## التفاوض على المحتوى
 
-The API supports multiple formats:
+يدعم API صيغ متعددة:
 
 * `application/ld+json` (default — JSON-LD)
 * `application/json`
 * `text/html` (API documentation)
 
-Set the `Accept` header to choose the response format.
+اضبط رأس `Accept` لاختيار صيغة الاستجابة.
 
-## Security
+## الأمان
 
-Each endpoint enforces security through:
+يفرض كل نقطة نهاية الأمان من خلال:
 
 * JWT authentication (required for most endpoints)
 * Symfony security voters (resource-level permissions)

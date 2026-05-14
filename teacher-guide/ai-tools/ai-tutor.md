@@ -1,53 +1,53 @@
-# AI Tutor
+# مساعد الذكاء الاصطناعي
 
-The AI Tutor is a chatbot integrated into Chamilo that learners can interact with to ask course-related questions. It provides instant, context-aware responses powered by a large language model.
+مساعد الذكاء الاصطناعي هو روبوت دردشة مدمج في Chamilo يمكن للمتعلمين التفاعل معه لطرح أسئلة متعلقة بالدورة. يوفر ردودًا فورية وواعية بالسياق مدعومة بنموذج لغة كبير.
 
-## How It Works
+## كيفية عمله
 
-When the AI Tutor is enabled for a course, learners see a chat interface where they can:
+عند تمكين مساعد الذكاء الاصطناعي لدورة، يرى المتعلمون واجهة دردشة يمكنهم من خلالها:
 
-* **Ask questions** about course content
-* **Get explanations** of concepts covered in the course
-* **Receive guidance** without waiting for the teacher to respond
+* **طرح أسئلة** حول محتوى الدورة
+* **الحصول على شروحات** للمفاهيم المغطاة في الدورة
+* **تلقي إرشادات** دون الحاجة إلى انتظار رد المعلم
 
-The AI Tutor uses the course context to provide relevant answers. It is designed to supplement your teaching, not replace it.
+يستخدم مساعد الذكاء الاصطناعي سياق الدورة لتقديم إجابات ذات صلة. تم تصميمه ليكمل تدريسك، لا ليحل محله.
 
-## Enabling the AI Tutor
+## تمكين مساعد الذكاء الاصطناعي
 
-The AI Tutor requires two levels of configuration:
+يتطلب مساعد الذكاء الاصطناعي مستويين من الإعداد:
 
-1. **Platform level** — The administrator must enable AI helpers and configure at least one AI provider (see [AI Configuration](../../admin-guide/integrations/ai-configuration.md))
-2. **Course level** — The AI Tutor must be enabled in the course settings (a simple on/off toggle). The provider used for the chat is the one configured by the administrator.
+1. **مستوى المنصة** — يجب على المسؤول تمكين مساعدي الذكاء الاصطناعي وإعداد مزود ذكاء اصطناعي واحد على الأقل (انظر [إعداد الذكاء الاصطناعي](../../admin-guide/integrations/ai-configuration.md))
+2. **مستوى الدورة** — يجب تمكين مساعد الذكاء الاصطناعي في إعدادات الدورة (مفتاح تشغيل/إيقاف بسيط). المزود المستخدم للدردشة هو الذي قام المسؤول بإعداده.
 
-## The Chat Interface
+## واجهة الدردشة
 
-![The AI Tutor chat interface showing a conversation between a learner and the AI](/.gitbook/assets/ai-tutor-chat.png)
+![واجهة دردشة مساعد الذكاء الاصطناعي التي تظهر محادثة بين متعلم ومساعد الذكاء الاصطناعي](/.gitbook/assets/ai-tutor-chat.png)
 
-The AI Tutor appears as a **docked chat panel** within the course. Learners can:
+يظهر مساعد الذكاء الاصطناعي كـ **لوحة دردشة مثبتة** داخل الدورة. يمكن للمتعلمين:
 
-* Type messages and receive AI-generated responses
-* View their conversation history
-* Reset the conversation to start fresh
+* كتابة الرسائل والحصول على ردود مولدة بواسطة الذكاء الاصطناعي
+* عرض تاريخ محادثاتهم
+* إعادة تعيين المحادثة لبدء جديد
 
-The chat interface shows the exchange between the learner and the AI in a familiar messaging format.
+تظهر واجهة الدردشة التبادل بين المتعلم والذكاء الاصطناعي بتنسيق رسائل مألوف.
 
-## Important Behavior
+## سلوكيات مهمة
 
-* **Course context only** — The AI Tutor is only available inside a course, not on the general platform
-* **Disabled during exams** — The AI Tutor is automatically disabled when a learner is taking an exercise, to prevent cheating
-* **Conversation per learner** — Each learner has their own private conversation with the AI Tutor, and the prompt context only includes the most recent messages
-* **Provider failover** — If the configured provider fails, Chamilo falls back to another available provider so the chat keeps working
+* **سياق الدورة فقط** — مساعد الذكاء الاصطناعي متاح فقط داخل دورة، لا على المنصة العامة
+* **معطل أثناء الامتحانات** — يتم تعطيل مساعد الذكاء الاصطناعي تلقائيًا عندما يكون المتعلم يؤدي تمرينًا، لمنع الغش
+* **محادثة لكل متعلم** — لكل متعلم محادثة خاصة به مع مساعد الذكاء الاصطناعي، وسياق الاستعلام يشمل فقط الرسائل الأحدث
+* **التبديل الاحتياطي للمزود** — إذا فشل المزود المُعد، ينتقل Chamilo إلى مزود آخر متاح للحفاظ على عمل الدردشة
 
-## As a Teacher
+## كمعلم
 
-You should be aware that:
+يجب أن تكون على دراية بأن:
 
-* The AI Tutor may not always give perfect answers — encourage learners to verify important information
-* You can review AI Tutor usage through platform tracking
-* The AI Tutor is a complement to your teaching, not a substitute. Use it alongside forums, announcements, and direct messaging for comprehensive learner support.
+* قد لا يقدم مساعد الذكاء الاصطناعي دائمًا إجابات مثالية — شجع المتعلمين على التحقق من المعلومات المهمة
+* يمكنك مراجعة استخدام مساعد الذكاء الاصطناعي من خلال تتبع المنصة
+* مساعد الذكاء الاصطناعي مكمل لتدريسك، لا بديل عنه. استخدمه إلى جانب المنتديات والإعلانات والمراسلة المباشرة لدعم شامل للمتعلمين.
 
-## Tips
+## نصائح
 
-* **Set expectations** — Tell learners at the start of the course that an AI Tutor is available and explain how to use it appropriately
-* **Encourage critical thinking** — Remind learners to think critically about AI-generated answers
-* **Use for frequently asked questions** — The AI Tutor is especially useful for handling common questions that you would otherwise answer repeatedly
+* **وضع التوقعات** — أخبر المتعلمين في بداية الدورة أن مساعد ذكاء اصطناعي متاح واشرح كيفية استخدامه بشكل مناسب
+* **تشجيع التفكير النقدي** — ذكّر المتعلمين بالتفكير نقديًا في الإجابات المولدة بواسطة الذكاء الاصطناعي
+* **استخدامه للأسئلة الشائعة** — مساعد الذكاء الاصطناعي مفيد بشكل خاص للتعامل مع الأسئلة الشائعة التي كنت ستجيب عليها مرارًا وتكرارًا

@@ -1,70 +1,68 @@
-# Messaging Settings
+# إعدادات الرسائل
 
-Behaviour of the **Messaging / Inbox** system.
+سلوك نظام **الرسائل / صندوق الوارد**.
 
-Access these settings under **Administration > Configuration settings > Messaging**. This category contains **7 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+الوصول إلى هذه الإعدادات تحت **إدارة > إعدادات التكوين > الرسائل**. تحتوي هذه الفئة على **7 إعدادات**، مدرجة أدناه مع العنوان والتعليق المرسل في إعدادات المنصة (`SettingsCurrentFixtures.php`).
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> يتم عرض اسم المتغير في الكود بخط monospace. استخدمه عند البرمجة عبر `API` أو عند الحاجة إلى تغيير هذه الإعدادات على المستوى العام عن طريق تحرير [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
 
-## Settings
+## الإعدادات
 
 ### `allow_message_tool`
 
-**Internal messaging tool**
+**أداة الرسائل الداخلية**
 
-Enabling the internal messaging tool allows users to send messages to other users of the platform and to have a messaging inbox.
+تمكين أداة الرسائل الداخلية يسمح للمستخدمين بإرسال رسائل إلى مستخدمي المنصة الآخرين ولديهم صندوق وارد للرسائل.
 
-*Default: `true`*
+*افتراضي: `true`*
 
 ### `allow_send_message_to_all_platform_users`
 
-**Allow sending messages to any platform user**
+**السماح بإرسال الرسائل إلى أي مستخدم في المنصة**
 
-Allows you to send messages to any user of the platform, not just your friends or the people currently online.
+يسمح لك بإرسال رسائل إلى أي مستخدم في المنصة، وليس فقط إلى أصدقائك أو الأشخاص المتصلين حالياً.
 
-*Default: `false`*
+*افتراضي: `false`*
 
 ### `allow_user_message_tracking`
 
-**Admins can see personal messages**
+**يمكن للمديرين رؤية الرسائل الشخصية**
 
-Allow administrators to see personal messages between a teacher and a learner. Please make sure you include a note in your terms and conditions as this might affect privacy protection.
+السماح للمديرين برؤية الرسائل الشخصية بين معلم ومتعلم. يرجى التأكد من تضمين ملاحظة في شروطك والأحكام حيث قد يؤثر ذلك على حماية الخصوصية.
 
-*Default: `false`*
+*افتراضي: `false`*
 
 
 ### `filter_interactivity_messages`
 
-**Teachers can access learners messages only within session timeframe**
+**يمكن للمعلمين الوصول إلى رسائل المتعلمين فقط خلال فترة الجلسة**
 
-Filter messages between a teacher and a learner between the session start end dates
+تصفية الرسائل بين معلم ومتعلم بين تواريخ بداية ونهاية الجلسة
 
-*Default: `false`*
+*افتراضي: `false`*
 
 
 ### `message_max_upload_filesize`
 
-**Max upload file size in messages**
+**أقصى حجم لرفع الملفات في الرسائل**
 
-Maximum size for file uploads in the messaging tool (in Bytes)
+الحجم الأقصى لرفع الملفات في أداة الرسائل (بالبايت)
 
-*Default: `20971520`*
+*افتراضي: `20971520`*
 
 ### `private_messages_about_user`
 
-**Allow private messages between teachers about a learner**
+**السماح بالرسائل الخاصة بين المعلمين حول متعلم**
 
-Allow exchange of messages from teachers/bosses about a user from the tracking page of that user.
+السماح بتبادل الرسائل من المعلمين/الرؤساء حول مستخدم من صفحة التتبع الخاصة بذلك المستخدم.
 
-*Default: `false`*
+*افتراضي: `false`*
 
 
 ### `private_messages_about_user_visible_to_user`
 
-**Allow learners to see messages about them between teachers**
+**السماح للمتعلمين برؤية الرسائل عنهم بين المعلمين**
 
-If exchange of messages about a user are enabled, this option will allow the corresponding user to see the messages. This is to comply with rules of transparency the organization may need to comply to.
+إذا تم تمكين تبادل الرسائل حول مستخدم، فإن هذا الخيار سيمكن المستخدم المعني من رؤية الرسائل. هذا للامتثال لقواعد الشفافية التي قد تحتاج المنظمة إلى الامتثال لها.
 
-*Default: `false`*
-
-
+*افتراضي: `false`*

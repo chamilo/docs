@@ -1,61 +1,61 @@
-# Symfony Architecture
+# هندسة Symfony
 
-## Bundles
+## الحزم Bundles
 
-Chamilo 2.0 is structured into three Symfony bundles:
+يُقسم Chamilo 2.0 إلى ثلاث حزم Symfony:
 
 ### CoreBundle (`src/CoreBundle/`)
 
-The largest bundle, handling all platform-wide concerns:
+أكبر حزمة، تتعامل مع جميع الاهتمامات على مستوى المنصة:
 
-* **Users and authentication** — User entity, roles, JWT tokens, OAuth2 providers
-* **Resource system** — ResourceNode and ResourceFile (the unified content abstraction)
-* **Platform settings** — settings schemas in `src/CoreBundle/Settings/` covering every configurable aspect
-* **Administration** — Admin controllers for user, course, session, and plugin management
-* **AI providers** — Factory pattern for OpenAI, Gemini, Mistral, DeepSeek, Grok
-* **File storage** — Flysystem-based storage adapters (local, S3, Azure, GCS)
-* **Security** — Voters, access control, role hierarchy
-* **Tools** — course tool definitions registered through the tool system
+* **المستخدمون والمصادقة** — كيان المستخدم، الأدوار، رموز JWT، مزودي OAuth2
+* **نظام الموارد** — ResourceNode و ResourceFile (التجريد الموحد للمحتوى)
+* **إعدادات المنصة** — مخططات الإعدادات في `src/CoreBundle/Settings/` تغطي كل جانب قابل للتكوين
+* **الإدارة** — وحدات تحكم الإدارة للمستخدمين، والدورات، والجلسات، وإدارة الإضافات
+* **مزودو الذكاء الاصطناعي** — نمط المصنع لـ OpenAI، Gemini، Mistral، DeepSeek، Grok
+* **تخزين الملفات** — محولات تخزين قائمة على Flysystem (محلي، S3، Azure، GCS)
+* **الأمان** — الناخبون، التحكم في الوصول، تسلسل الأدوار
+* **الأدوات** — تعريفات أدوات الدورة المسجلة من خلال نظام الأدوات
 
 ### CourseBundle (`src/CourseBundle/`)
 
-Everything specific to course content:
+كل ما يتعلق بمحتوى الدورة تحديدًا:
 
-* **Content entities** — 101 entities for documents, exercises, learning paths, forums, glossaries, surveys, attendance, blogs, assignments, and more
-* **Course copy** — Import/export with Common Cartridge 1.3 and Moodle format support
-* **Course settings** — Course-level setting schemas
+* **كيانات المحتوى** — 101 كيان للوثائق، والتمارين، ومسارات التعلم، والمنتديات، والمصطلحات، والاستطلاعات، والحضور، والمدونات، والمهام، وأكثر
+* **نسخ الدورة** — الاستيراد/التصدير مع دعم Common Cartridge 1.3 وصيغة Moodle
+* **إعدادات الدورة** — مخططات الإعدادات على مستوى الدورة
 
 ### LtiBundle (`src/LtiBundle/`)
 
-LTI 1.3 standard implementation:
+تنفيذ معيار LTI 1.3:
 
-* **Platform and tool registration** — Manage external tool connections
-* **Launch handling** — LTI launch flow controllers
-* **Grade passback** — Return grades from external tools to Chamilo
+* **تسجيل المنصة والأداة** — إدارة اتصالات الأدوات الخارجية
+* **معالجة الإطلاق** — وحدات تحكم تدفق إطلاق LTI
+* **إرجاع الدرجات** — إرجاع الدرجات من الأدوات الخارجية إلى Chamilo
 
-## Service Container
+## حاوية الخدمات Service Container
 
-Chamilo uses Symfony's dependency injection container. Services are configured in:
+يستخدم Chamilo حاوية حقن التبعيات في Symfony. يتم تكوين الخدمات في:
 
-* `config/services.yaml` — Global service definitions
-* Each bundle's `DependencyInjection/` directory — Bundle-specific services
+* `config/services.yaml` — تعريفات الخدمات العالمية
+* دليل `DependencyInjection/` لكل حزمة — خدمات خاصة بالحزمة
 
-## Security Architecture
+## هندسة الأمان Security Architecture
 
-The security system is configured in `config/packages/security.yaml`:
+يتم تكوين نظام الأمان في `config/packages/security.yaml`:
 
-* **Password hashing** — Supports bcrypt (default), with migration from legacy SHA1 and MD5
-* **Role hierarchy** — 18 roles organized hierarchically (ROLE_GLOBAL_ADMIN > ROLE_ADMIN > ROLE_TEACHER > ROLE_STUDENT > ROLE_USER; additional roles include ROLE_HR, ROLE_INVITEE, ROLE_STUDENT_BOSS, ROLE_SESSION_MANAGER, ROLE_QUESTION_MANAGER)
-* **Context-sensitive roles** — Course-level roles (ROLE_CURRENT_COURSE_TEACHER, ROLE_CURRENT_COURSE_STUDENT) are computed per-request based on enrollment
-* **Firewall** — JWT authentication for API, session-based for web interface
-* **Voters** — Resource-level access control through Symfony voters
+* **تجزئة كلمات المرور** — يدعم bcrypt (افتراضي)، مع الهجرة من SHA1 و MD5 القديمين
+* **تسلسل الأدوار** — 18 دورًا منظمة هرميًا (ROLE_GLOBAL_ADMIN > ROLE_ADMIN > ROLE_TEACHER > ROLE_STUDENT > ROLE_USER؛ أدوار إضافية تشمل ROLE_HR، ROLE_INVITEE، ROLE_STUDENT_BOSS، ROLE_SESSION_MANAGER، ROLE_QUESTION_MANAGER)
+* **أدوار حساسة للسياق** — أدوار على مستوى الدورة (ROLE_CURRENT_COURSE_TEACHER، ROLE_CURRENT_COURSE_STUDENT) يتم حسابها لكل طلب بناءً على التسجيل
+* **جدار الحماية** — مصادقة JWT لـ API، قائمة على الجلسة للواجهة الويبية
+* **الناخبون** — التحكم في الوصول على مستوى المورد من خلال ناخبي Symfony
 
-## Legacy Code
+## الكود القديم Legacy Code
 
-Some features still use legacy PHP code in `public/main/`:
+بعض الميزات لا تزال تستخدم كود PHP القديم في `public/main/`:
 
-* Exercise rendering and interaction
-* Learning path player
-* Some admin tools
+* عرض التمارين وتفاعلها
+* مشغل مسار التعلم
+* بعض أدوات الإدارة
 
-These are progressively being migrated to the Symfony+Vue architecture. Legacy pages are served through a compatibility layer that bootstraps the Symfony kernel.
+يتم نقل هذه تدريجيًا إلى هندسة Symfony+Vue. يتم تقديم الصفحات القديمة من خلال طبقة توافق تبدأ نواة Symfony.

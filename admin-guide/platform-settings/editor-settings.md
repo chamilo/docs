@@ -1,185 +1,185 @@
-# Editor Settings
+# إعدادات المحرر
 
-Configuration of the rich-text editor (TinyMCE) used across the platform — toolbars, plugins, AI helpers in the editor.
+تكوين محرر النصوص الغنية (TinyMCE) المستخدم في جميع أنحاء المنصة — شرائط الأدوات، الإضافات، مساعدي الذكاء الاصطناعي في المحرر.
 
-Access these settings under **Administration > Configuration settings > Editor**. This category contains **26 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+الوصول إلى هذه الإعدادات تحت **إدارة > إعدادات التكوين > محرر**. تحتوي هذه الفئة على **26 إعدادًا**، مدرجة أدناه مع العنوان والتعليق المرسل في إعدادات المنصة الافتراضية (`SettingsCurrentFixtures.php`).
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> يُعرض اسم المتغير في الكود بخط monospace. استخدمه عند البرمجة عبر API أو عند الحاجة إلى تغيير هذه الإعدادات على المستوى العام بتحرير [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
 
-## Settings
+## الإعدادات
 
 ### `allow_email_editor`
 
-**Online e-mail editor enabled**
+**تمكين محرر البريد الإلكتروني عبر الإنترنت**
 
-If this option is activated, clicking on an e-mail address will open an online editor.
+إذا تم تفعيل هذا الخيار، فإن النقر على عنوان بريد إلكتروني سيفتح محررًا عبر الإنترنت.
 
 ### `allow_spellcheck`
 
-**Spell check**
+**فحص الإملاء**
 
-Enable spell check
+تمكين فحص الإملاء
 
 ### `block_copy_paste_for_students`
 
-**Block learners copy and paste**
+**حظر نسخ ولصق المتعلمين**
 
-Block learners the ability to copy and paste into the WYSIWYG editor
+حظر قدرة المتعلمين على النسخ واللصق في محرر WYSIWYG
 
 ### `editor_block_image_copy_paste`
 
-**Prevent copy-pasting images in WYSIWYG editor**
+**منع نسخ ولصق الصور في محرر WYSIWYG**
 
-Prevent the use of images copy-paste as base64 in the editor to avoid filling the database with images.
+منع استخدام نسخ ولصق الصور كـ base64 في المحرر لتجنب ملء قاعدة البيانات بالصور.
 
-*Default: `false`*
+*افتراضي: `false`*
 
 
 ### `editor_driver_list`
 
-**List of WYSIWYG files drivers**
+**قائمة برامج تشغيل ملفات WYSIWYG**
 
-Array containing the names of the drivers for files access from the WYSIWYG editor.
+مصفوفة تحتوي على أسماء برامج التشغيل للوصول إلى الملفات من محرر WYSIWYG.
 
 ### `editor_settings`
 
-**WYSIWYG editor settings**
+**إعدادات محرر WYSIWYG**
 
-Generic configuration array to reconfigure the WYSIWYG editor globally.
+مصفوفة تكوين عامة لإعادة تكوين محرر WYSIWYG عالميًا.
 
 ### `enable_iframe_inclusion`
 
-**Allow iframes in HTML Editor**
+**السماح بـ iframes في محرر HTML**
 
-Allowing arbitrary iframes in the HTML Editor will enhance the edition capabilities of the users, but it can represent a security risk. Please make sure you can rely on your users (i.e. you know who they are) before enabling this feature.
+السماح بـ iframes عشوائية في محرر HTML سيعزز قدرات التحرير لدى المستخدمين، لكنه قد يمثل خطرًا أمنيًا. تأكد من أنك تستطيع الاعتماد على مستخدميك (أي تعرف من هم) قبل تمكين هذه الميزة.
 
 ### `enable_uploadimage_editor`
 
-**Allow images drag&drop in WYSIWYG editor**
+**السماح بسحب وإسقاط الصور في محرر WYSIWYG**
 
-Enable image upload as file when doing a copy in the content or a drag and drop.
+تمكين رفع الصور كملف عند القيام بنسخ في المحتوى أو سحب وإسقاط.
 
-*Default: `false`*
+*افتراضي: `false`*
 
 
 ### `enabled_asciisvg`
 
-**Enable AsciiSVG**
+**تمكين AsciiSVG**
 
-Enable the AsciiSVG plugin in the WYSIWYG editor to draw charts from mathematical functions.
+تمكين إضافة AsciiSVG في محرر WYSIWYG لرسم الرسوم البيانية من الدوال الرياضية.
 
 ### `enabled_googlemaps`
 
-**Activate Google maps**
+**تفعيل خرائط Google**
 
-Activate the button to insert Google maps. Activation is not fully realized if not previously edited the file main/inc/lib/fckeditor/myconfig.php and added a Google maps API key.
+تفعيل الزر لإدراج خرائط Google. التفعيل غير مكتمل تمامًا إلا إذا تم تحرير الملف main/inc/lib/fckeditor/myconfig.php مسبقًا وإضافة مفتاح API لخرائط Google.
 
 ### `enabled_imgmap`
 
-**Activate Image maps**
+**تفعيل خرائط الصور**
 
-Activate the button to insert Image maps. This allows you to associate URLs to areas of an image, creating hotspots.
+تفعيل الزر لإدراج خرائط الصور. يتيح ذلك ربط عناوين URL بمناطق من صورة، مما ينشئ نقاطًا ساخنة.
 
 ### `enabled_insertHtml`
 
-**Allow insertion of widgets**
+**السماح بإدراج الويدجتات**
 
-This allows you to embed on your webpages your favorite videos and applications such as vimeo or slideshare and all sorts of widgets and gadgets
+يتيح ذلك تضمين مقاطع الفيديو والتطبيقات المفضلة لديك على صفحات الويب مثل vimeo أو slideshare وجميع أنواع الويدجتات والأدوات
 
 ### `enabled_mathjax`
 
-**Enable MathJax**
+**تمكين MathJax**
 
-Enable the MathJax library to visualize mathematical formulas. This is only useful if either ASCIIMathML or ASCIISVG settings are enabled.
+تمكين مكتبة MathJax لتصور الصيغ الرياضية. هذا مفيد فقط إذا كان إعداد ASCIIMathML أو ASCIISVG مفعلًا.
 
 ### `enabled_support_svg`
 
-**Create and edit SVG files**
+**إنشاء وتحرير ملفات SVG**
 
-This option allows you to create and edit SVG (Scalable Vector Graphics) multilayer online, as well as export them to png format images.
+يسمح هذا الخيار بإنشاء وتحرير SVG (Scalable Vector Graphics) متعدد الطبقات عبر الإنترنت، بالإضافة إلى تصديرها إلى صور بتنسيق png.
 
 ### `enabled_wiris`
 
-**WIRIS mathematical editor**
+**محرر WIRIS الرياضي**
 
-Enable WIRIS mathematical editor. Installing this plugin you get WIRIS editor and WIRIS CAS.<br/>This activation is not fully realized unless it has been previously downloaded the <a href='http://www.wiris.com/es/plugins3/ckeditor/download' target='_blank'>PHP plugin for CKeditor WIRIS</a> and unzipped its contents in the Chamilo's directory main/inc/lib/javascript/ckeditor/plugins/.<br/>This is necessary because Wiris is proprietary software and his services are <a href='http://www.wiris.com/store/who-pays' target='_blank'>commercial</a>. To make adjustments to the plugin, edit configuration.ini file or replace his content by the file configuration.ini.default shipped with Chamilo.
+تمكين محرر WIRIS الرياضي. بتثبيت هذه الإضافة تحصل على محرر WIRIS و WIRIS CAS.<br/>هذا التفعيل غير مكتمل تمامًا إلا إذا تم تنزيل <a href='http://www.wiris.com/es/plugins3/ckeditor/download' target='_blank'>إضافة PHP لـ CKeditor WIRIS</a> مسبقًا وفك ضغط محتوياتها في دليل Chamilo main/inc/lib/javascript/ckeditor/plugins/.<br/>هذا ضروري لأن Wiris برمجيات خاصة وخدماته <a href='http://www.wiris.com/store/who-pays' target='_blank'>تجارية</a>. لإجراء تعديلات على الإضافة، قم بتحرير ملف configuration.ini أو استبدال محتواه بملف configuration.ini.default المرسل مع Chamilo.
 
 ### `force_wiki_paste_as_plain_text`
 
-**Forcing pasting as plain text in the wiki**
+**فرض اللصق كنص عادي في الويكي**
 
-This will prevent many hidden tags, incorrect or non-standard, copied from other texts to stop corrupting the text of the Wiki after many issues; but will lose some features while editing.
+سيمنع ذلك العديد من العلامات المخفية غير الصحيحة أو غير القياسية، المنسوخة من نصوص أخرى، من إفساد نص الويكي بعد العديد من المشكلات؛ لكنه سيفقد بعض الميزات أثناء التحرير.
 
 ### `full_editor_toolbar_set`
 
-**Full WYSIWYG editor toolbar**
+**شريط أدوات محرر WYSIWYG كامل**
 
-Show the full toolbar in all WYSIWYG editor boxes around the platform.
+عرض شريط الأدوات الكامل في جميع صناديق محرر WYSIWYG في المنصة.
 
-*Default: `false`*
+*افتراضي: `false`*
 
 
 ### `htmlpurifier_wiki`
 
-**HTMLPurifier in Wiki**
+**HTMLPurifier في الويكي**
 
-Enable HTML purifier in the wiki tool (will increase security but reduce style features)
+تمكين HTML purifier في أداة الويكي (يزيد الأمان لكنه يقلل من ميزات التنسيق)
 
 ### `include_asciimathml_script`
 
-**Load the Mathjax library in all the system pages**
+**تحميل مكتبة Mathjax في جميع صفحات النظام**
 
-Activate this setting if you want to show MathML-based mathematical formulas and ASCIIsvg-based mathematical graphics not only in the 'Documents' tool, but elsewhere in the system.
+فعل هذا الإعداد إذا كنت تريد عرض الصيغ الرياضية القائمة على MathML والرسوم الرياضية القائمة على ASCIIsvg ليس فقط في أداة 'المستندات'، بل في أماكن أخرى في النظام.
 
 ### `math_asciimathML`
 
-**ASCIIMathML mathematical editor**
+**محرر ASCIIMathML الرياضي**
 
-Enable ASCIIMathML mathematical editor
+تمكين محرر ASCIIMathML الرياضي
 
 ### `more_buttons_maximized_mode`
 
-**Buttons bar extended**
+**شريط أزرار موسع**
 
-Enable button bars extended when the WYSIWYG editor is maximized
+تمكين شرائط الأزرار الموسعة عندما يكون محرر WYSIWYG مُكبرًا
 
-*Default: `true`*
+*افتراضي: `true`*
 
+---
 ### `save_titles_as_html`
 
-**Save titles as HTML**
+**حفظ العناوين كـ HTML**
 
-Allow users to include HTML in title fields in several places. This allows for some styling of titles, notably in test questions.
+يسمح للمستخدمين بتضمين HTML في حقول العناوين في عدة أماكن. يتيح ذلك تنسيق بعض العناوين، خاصة في أسئلة الاختبارات.
 
-*Default: `false`*
+*القيمة الافتراضية: `false`*
 
 ### `translate_html`
 
-**Support multi-language HTML content**
+**دعم محتوى HTML متعدد اللغات**
 
-If enabled, this option allows users to use a ‘lang’ attribute in HTML elements to define the langage the content of that element is written in. Enable multiple elements with different ‘lang’ attributes and Chamilo will display the content in the langage of the user only.
+إذا تم تمكينه، يسمح هذا الخيار للمستخدمين باستخدام سمة ‘lang’ في عناصر HTML لتحديد اللغة التي كُتب بها محتوى ذلك العنصر. قم بتمكين عناصر متعددة بسمات ‘lang’ مختلفة وسيُعرض Chamilo المحتوى بلغة المستخدم فقط.
 
-*Default: `false`*
+*القيمة الافتراضية: `false`*
 
 
 ### `video_context_menu_hidden`
 
-**Hide the context menu on video player**
+**إخفاء قائمة السياق في مشغل الفيديو**
 
-When enabled, the right-click context menu on HTML5 video players is disabled.
+عند التمكين، يتم تعطيل قائمة السياق بالنقر بالزر الأيمن في مشغلات الفيديو HTML5.
 
-*Default: `false`*
+*القيمة الافتراضية: `false`*
 
 
 ### `video_player_renderers`
 
-**Video player renderers**
+**مُعيدو عرض مشغل الفيديو**
 
-Enable player renderers for YouTube, Vimeo, Facebook, DailyMotion, Twitch medias
+تمكين مُعيدي عرض اللاعب لوسائط YouTube وVimeo وFacebook وDailyMotion وTwitch
 
 ### `youtube_for_students`
 
-**Allow learners to insert videos from YouTube**
+**السماح للمتعلمين بإدراج فيديوهات من YouTube**
 
-Enable the possibility that learners can insert Youtube videos
-
+تمكين إمكانية إدراج المتعلمين لفيديوهات Youtube

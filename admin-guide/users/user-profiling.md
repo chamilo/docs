@@ -1,75 +1,75 @@
-# User Profiling
+# ملف تعريف المستخدم
 
-Chamilo allows you to define custom profile fields (extra fields) to capture additional information about users beyond the standard name, email, and role.
+يسمح Chamilo بتعريف حقول ملف تعريف مخصصة (حقول إضافية) لالتقاط معلومات إضافية عن المستخدمين تتجاوز الاسم والبريد الإلكتروني والدور القياسيين.
 
-## Extra Profile Fields
+## الحقول الإضافية للملف الشخصي
 
-![The extra profile fields list showing custom fields with name, type, and visibility settings](/.gitbook/assets/admin-extra-fields-list.png)
+![قائمة الحقول الإضافية للملف الشخصي تظهر الحقول المخصصة مع الاسم والنوع وإعدادات الرؤية](/.gitbook/assets/admin-extra-fields-list.png)
 
-Extra fields let you store metadata specific to your organization, such as:
+تتيح الحقول الإضافية تخزين بيانات وصفية خاصة بمنظمتك، مثل:
 
-* Employee ID
-* Department
-* Job title
-* Location/office
-* Phone number
-* Custom identifiers
+* معرف الموظف
+* القسم
+* منصب الوظيفة
+* الموقع/المكتب
+* رقم الهاتف
+* معرفات مخصصة
 
-## Creating Extra Fields
+## إنشاء الحقول الإضافية
 
-1. From the administration panel, navigate to **Extra fields** or **Profile fields**
-2. Click **Add**
-3. Configure the field:
-   * **Name** — The field title shown to users
-   * **Description** — Optional description
-   * **Helper text** — To be shown under the field in any form including it
-   * **Field type** — Text, dropdown, date, checkbox, etc.
-   * **Field label** — The internal name of the field, for plugins integration 
-   * **Possible values** — If the field is a selector between those values 
-   * **Default value** — An optional default
-   * **Visible to self** — Whether the field is visible on the user profile by the user itself
-   * **Visible to others** — Whether the field is visible to other users of the platform
-   * **Can change** — Whether the user can change its own field by himself (or whether only the admins can)
-   * **Filter** — If this is a selector-type field, whether to include it as a filter in administrative pages (e.g. to subscribe users to courses or sessions)
-   * **Order** — If you want to manage the display order of the fields, you will have to give a numerical order to each field
-   * **Remove on anonymization** — Important for privacy rules & laws: If the user is anonymized but not deleted, should this field be considered as potential holder of personally identifiable data? 
-4. Save
+1. من لوحة الإدارة، انتقل إلى **Extra fields** أو **Profile fields**
+2. انقر على **Add**
+3. قم بتكوين الحقل:
+   * **Name** — عنوان الحقل المعروض للمستخدمين
+   * **Description** — وصف اختياري
+   * **Helper text** — ليتم عرضه تحت الحقل في أي نموذج يتضمنه
+   * **Field type** — نص، قائمة منسدلة، تاريخ، مربع اختيار، إلخ.
+   * **Field label** — الاسم الداخلي للحقل، لتكامل الإضافات 
+   * **Possible values** — إذا كان الحقل محددًا بين هذه القيم 
+   * **Default value** — قيمة افتراضية اختيارية
+   * **Visible to self** — ما إذا كان الحقل مرئيًا في ملف تعريف المستخدم من قبل المستخدم نفسه
+   * **Visible to others** — ما إذا كان الحقل مرئيًا لمستخدمي المنصة الآخرين
+   * **Can change** — ما إذا كان المستخدم يمكنه تغيير حقه الخاص بنفسه (أو ما إذا كان يقتصر على المشرفين فقط)
+   * **Filter** — إذا كان هذا حقلًا من نوع محدد، ما إذا كان يُدرج كفلتر في صفحات الإدارة (مثل اشتراك المستخدمين في الدورات أو الجلسات)
+   * **Order** — إذا كنت ترغب في إدارة ترتيب عرض الحقول، يجب إعطاء ترتيب رقمي لكل حقل
+   * **Remove on anonymization** — مهم لقواعد الخصوصية والقوانين: إذا تم إخفاء هوية المستخدم دون حذفه، هل يُعتبر هذا الحقل حاملًا محتملًا لبيانات شخصية قابلة للتعريف؟ 
+4. احفظ
 
-## Field Types
+## أنواع الحقول
 
-The extra-field engine supports a broad set of input types. Common ones include:
+يدعم محرك الحقول الإضافية مجموعة واسعة من أنواع الإدخال. الشائعة منها تشمل:
 
 | Type | Description |
 |------|-------------|
-| **Text** | A single-line text input |
-| **Textarea** | A multi-line text input |
-| **Radio** | A single-choice radio group |
-| **Dropdown / Dropdown multiple** | A list of predefined options (single or multi-select) |
-| **Double select** | Two dependent dropdowns (e.g., country → city) |
-| **Checkbox** | A yes/no toggle |
-| **Date / Date and time** | Date or date+time picker |
-| **Integer** | A numeric input |
-| **Tag** | Multiple free-form tag values |
-| **File** | File upload field |
-| **Video URL** | A URL pointing to a video |
-| **Mobile phone number** | A formatted phone number field |
-| **Timezone** | A timezone picker |
-| **Social profile** | A link to a social network profile |
-| **Divider** | A visual separator inside the form (no value) |
+| **Text** | إدخال نص سطر واحد |
+| **Textarea** | إدخال نص متعدد الأسطر |
+| **Radio** | مجموعة راديو اختيار واحد |
+| **Dropdown / Dropdown multiple** | قائمة من الخيارات المحددة مسبقًا (اختيار واحد أو متعدد) |
+| **Double select** | قائمتان منسدلتتان مترابطتان (مثل، البلد → المدينة) |
+| **Checkbox** | تبديل نعم/لا |
+| **Date / Date and time** | محدد تاريخ أو تاريخ+وقت |
+| **Integer** | إدخال رقمي |
+| **Tag** | قيم علامات متعددة حرة الشكل |
+| **File** | حقل رفع ملف |
+| **Video URL** | رابط URL يشير إلى فيديو |
+| **Mobile phone number** | حقل رقم هاتف منسق |
+| **Timezone** | محدد منطقة زمنية |
+| **Social profile** | رابط إلى ملف تعريف شبكة اجتماعية |
+| **Divider** | فاصل بصري داخل النموذج (لا قيمة) |
 
-The exact set of usable types depends on the Chamilo version; the field-type dropdown in the **Extra fields** admin page is the source of truth.
+يعتمد المجموعة الدقيقة من الأنواع القابلة للاستخدام على إصدار Chamilo؛ قائمة نوع الحقل في صفحة إدارة **Extra fields** هي المصدر الحقيقي.
 
-## Using Extra Fields
+## استخدام الحقول الإضافية
 
-Extra fields appear:
+تظهر الحقول الإضافية:
 
-* In the user creation (if visible to self) and edit forms
-* On user profile pages (if visible to self)
-* In user imports (you can include extra field values in CSV imports)
-* In exports and reports (filter or group by extra field values)
+* في نماذج إنشاء المستخدم (إذا كانت مرئية للذات) وتعديلها
+* في صفحات ملف تعريف المستخدم (إذا كانت مرئية للذات)
+* في استيراد المستخدمين (يمكن تضمين قيم الحقول الإضافية في استيرادات CSV)
+* في التصديرات والتقارير (تصفية أو تجميع حسب قيم الحقول الإضافية)
 
-## Tips
+## نصائح
 
-* **Plan before creating** — Define what information you need before creating fields, as changing field types after data has been entered can be problematic
-* **Use dropdowns for consistency** — When a field has a known set of possible values, use a dropdown instead of free text to ensure data consistency
-* **Use for reporting** — Extra fields are useful for filtering reports (e.g., "show all users in Department X who completed Training Y")
+* **التخطيط قبل الإنشاء** — حدد المعلومات التي تحتاجها قبل إنشاء الحقول، حيث يمكن أن يكون تغيير أنواع الحقول بعد إدخال البيانات مشكلة
+* **استخدم القوائم المنسدلة للاتساق** — عندما يكون للحقل مجموعة معروفة من القيم الممكنة، استخدم قائمة منسدلة بدلاً من النص الحر لضمان اتساق البيانات
+* **استخدمها للتقارير** — الحقول الإضافية مفيدة لتصفية التقارير (مثل، "عرض جميع المستخدمين في القسم X الذين أكملوا التدريب Y")

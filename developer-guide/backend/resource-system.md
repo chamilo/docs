@@ -1,80 +1,80 @@
-# Resource System
+# نظام الموارد
 
-The resource system is one of the most important architectural concepts in Chamilo 2.0. It provides a unified abstraction for all course content — documents, exercises, learning paths, forum posts, and more.
+نظام الموارد هو أحد أهم المفاهيم المعمارية في Chamilo 2.0. يوفر تجريداً موحداً لجميع محتويات الدورة — الوثائق، والتمارين، ومسارات التعلم، ومنشورات المنتدى، وغيرها.
 
-## Core Concept
+## المفهوم الأساسي
 
-Every piece of course content is represented by a **ResourceNode**. This gives all content types a common set of capabilities:
+يُمثل كل جزء من محتويات الدورة بواسطة **ResourceNode**. هذا يمنح جميع أنواع المحتوى مجموعة مشتركة من الإمكانيات:
 
-* **Visibility control** — Show/hide from learners
-* **Access control** — Security voters check permissions via the ResourceNode
-* **File storage** — Attached files are stored via ResourceFile
-* **Tree structure** — ResourceNodes form a tree (parent-child relationships)
-* **Audit trail** — Creator, creation date, modification tracking
+* **التحكم في الرؤية** — إظهار/إخفاء عن المتعلمين
+* **التحكم في الوصول** — يتحقق التصويتات الأمنية من الصلاحيات عبر ResourceNode
+* **تخزين الملفات** — تُخزن الملفات المرفقة عبر ResourceFile
+* **هيكل الشجرة** — تشكل ResourceNodes شجرة (علاقات أب-ابن)
+* **سجل التدقيق** — المُنشئ، تاريخ الإنشاء، تتبع التعديلات
 
-## Key Entities
+## الكيانات الرئيسية
 
 ### ResourceNode (`src/CoreBundle/Entity/ResourceNode.php`)
 
-The central entity. Every content entity has a one-to-one relationship with a ResourceNode.
+الكيان المركزي. كل كيان محتوى لديه علاقة واحد لواحد مع ResourceNode.
 
-Key fields:
+الحقول الرئيسية:
 
 | Field | Type | Description |
 |-------|------|-------------|
-| `id` | integer | Primary key |
-| `uuid` | UUID v4 | Unique identifier for API use |
-| `title` | string | Display title |
-| `creator` | User | The user who created this resource |
-| `resourceFile` | ResourceFile | The attached file (if any) |
-| `resourceType` | ResourceType | The type of resource (document, quiz, etc.) |
-| `parent` | ResourceNode | Parent in the resource tree |
-| `children` | Collection | Child ResourceNodes |
-| `resourceLinks` | Collection | Visibility and access links |
+| `id` | integer | المفتاح الأساسي |
+| `uuid` | UUID v4 | معرف فريد لاستخدام API |
+| `title` | string | العنوان المعروض |
+| `creator` | User | المستخدم الذي أنشأ هذه المورد |
+| `resourceFile` | ResourceFile | الملف المرفق (إن وجد) |
+| `resourceType` | ResourceType | نوع المورد (وثيقة، اختبار، إلخ) |
+| `parent` | ResourceNode | الأب في شجرة الموارد |
+| `children` | Collection | ResourceNodes الفرعية |
+| `resourceLinks` | Collection | روابط الرؤية والوصول |
 
-The tree uses Gedmo's **materialized path** strategy for efficient hierarchical queries.
+تستخدم الشجرة استراتيجية **materialized path** الخاصة بـGedmo للاستعلامات الهرمية الفعالة.
 
 ### ResourceFile (`src/CoreBundle/Entity/ResourceFile.php`)
 
-Stores the actual file data for a resource:
+تخزن بيانات الملف الفعلية للمورد:
 
 | Field | Type | Description |
 |-------|------|-------------|
-| `id` | integer | Primary key |
-| `title` | string | Original filename |
-| `mimeType` | string | MIME type |
-| `originalName` | string | Original upload name |
-| `size` | integer | File size in bytes |
-| `crop` | string | Crop data (for images) |
+| `id` | integer | المفتاح الأساسي |
+| `title` | string | اسم الملف الأصلي |
+| `mimeType` | string | نوع MIME |
+| `originalName` | string | اسم التحميل الأصلي |
+| `size` | integer | حجم الملف بالبايتات |
+| `crop` | string | بيانات القص (للصور) |
 
-File storage is handled by Flysystem, so files can be on local disk, S3, Azure, or GCS depending on configuration.
+يتم التعامل مع تخزين الملفات بواسطة Flysystem، لذا يمكن أن تكون الملفات على القرص المحلي، أو S3، أو Azure، أو GCS حسب الإعدادات.
 
 ### ResourceLink
 
-Controls visibility and access per context. There are 3 main context types:
+يتحكم في الرؤية والوصول لكل سياق. هناك 3 أنواع سياق رئيسية:
 
 1. Course
 2. Session
-3. Group (in a course)
+3. Group (في دورة)
 
-So the ResourceLink entity reflects the combination of those 3 context types and establishes a visibility for that complete context:
+لذلك، يعكس كيان ResourceLink مزيج هذه الأنواع الثلاثة من السياقات ويحدد رؤية لهذا السياق الكامل:
 
 | Field | Type | Description |
 |-------|------|-------------|
-| `course` | Course | Which course the resource belongs to |
-| `session` | Session | Which session (null for base course) |
-| `group` | CGroup | Which group (null for whole course) |
-| `visibility` | integer | Visible, invisible, or deleted |
+| `course` | Course | الدورة التي ينتمي إليها المورد |
+| `session` | Session | الجلسة (null للدورة الأساسية) |
+| `group` | CGroup | المجموعة (null للدورة بأكملها) |
+| `visibility` | integer | مرئي، غير مرئي، أو محذوف |
 
-This allows the same ResourceNode to have different visibility in different contexts (e.g., visible in one session but hidden in another).
+هذا يسمح لنفس ResourceNode بأن يكون له رؤية مختلفة في سياقات مختلفة (مثل: مرئي في جلسة واحدة لكنه مخفي في أخرى).
 
-This is set automatically when using the interface and deciding, for example, that a resource is a session-specific resource which will be visible for all groups in a given course in a given session, but invisible in the base course or in another session.
+يتم تعيين هذا تلقائياً عند استخدام الواجهة وقرر، على سبيل المثال، أن مورداً ما هو مورد خاص بجلسة وسيكون مرئياً لجميع المجموعات في دورة معينة في جلسة معينة، لكنه غير مرئي في الدورة الأساسية أو في جلسة أخرى.
 
-By default, resources visible in a base course are also visible in all sessions of that course, but the course tutor can decide to hide a resource from a specific session. In this case, we will retrieve the specific visibility for this resource in this session and see that it has a visibility of 0, so the item will not appear to learners in this session, while a lack of session-specific visibility in other sessions will make the resource use the visibility of the base course (and the resource will show to learners).
+افتراضياً، تكون الموارد المرئية في الدورة الأساسية مرئية أيضاً في جميع جلسات تلك الدورة، لكن يمكن لمدرس الدورة أن يقرر إخفاء مورد عن جلسة معينة. في هذه الحالة، سنسترد الرؤية الخاصة لهذا المورد في هذه الجلسة ونرى أن لها قيمة رؤية 0، لذا لن يظهر العنصر للمتعلمين في هذه الجلسة، بينما عدم وجود رؤية خاصة بالجلسة في جلسات أخرى سيجعل المورد يستخدم رؤية الدورة الأساسية (وسيظهر المورد للمتعلمين).
 
-## API Platform Integration
+## تكامل API Platform
 
-ResourceNode is exposed as an API Platform resource with security:
+يُعرض ResourceNode كمورد API Platform مع أمان:
 
 ```php
 #[ApiResource(
@@ -87,9 +87,9 @@ ResourceNode is exposed as an API Platform resource with security:
 )]
 ```
 
-## How Content Entities Connect
+## كيفية ربط كيانات المحتوى
 
-Course content entities (CDocument, CQuiz, CLp, etc.) extend `AbstractResource` or implement `ResourceInterface`, which gives them a `resourceNode` relationship:
+كيانات محتوى الدورة (CDocument، CQuiz، CLp، إلخ) تمتد `AbstractResource` أو تنفذ `ResourceInterface`، مما يمنحها علاقة `resourceNode`:
 
 ```php
 // In CDocument entity:
@@ -97,14 +97,14 @@ Course content entities (CDocument, CQuiz, CLp, etc.) extend `AbstractResource` 
 private ResourceNode $resourceNode;
 ```
 
-When you create a CDocument, a ResourceNode is automatically created alongside it, providing unified resource management.
+عند إنشاء CDocument، يتم إنشاء ResourceNode تلقائياً معه، مما يوفر إدارة موارد موحدة.
 
-## Practical Implications
+## الآثار العملية
 
-When working with course content:
+عند العمل مع محتويات الدورة:
 
-1. **Creating content** — Create both the content entity AND its ResourceNode
-2. **Checking permissions** — Use the ResourceNode's security voters
-3. **Managing files** — Attach files through ResourceFile
-4. **Controlling visibility** — Create/modify ResourceLinks
-5. **Building trees** — Use the parent-child relationship on ResourceNode for folder structures (e.g., document folders)
+1. **إنشاء المحتوى** — إنشاء كيان المحتوى و ResourceNode الخاص به
+2. **التحقق من الصلاحيات** — استخدام تصويتات الأمان الخاصة بـResourceNode
+3. **إدارة الملفات** — إرفاق الملفات عبر ResourceFile
+4. **التحكم في الرؤية** — إنشاء/تعديل ResourceLinks
+5. **بناء الشجرات** — استخدام علاقة الأب-الابن في ResourceNode لهياكل المجلدات (مثل: مجلدات الوثائق)

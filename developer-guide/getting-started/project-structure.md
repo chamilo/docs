@@ -1,6 +1,6 @@
-# Project Structure
+# هيكل المشروع
 
-## Top-Level Directories
+## المجلدات الرئيسية العليا
 
 ```
 chamilo/
@@ -23,49 +23,50 @@ chamilo/
 └── translations/    # Translation files
 ```
 
-## Source Code (`src/`)
+## كود المصدر (`src/`)
 
 ### CoreBundle
 
-The largest bundle. Notable subdirectories:
+أكبر حزمة. مجلدات فرعية بارزة:
 
-| Directory | Contents |
-|-----------|----------|
-| `Entity/` | Doctrine entities (User, Course, Session, ResourceNode, etc.) |
-| `Controller/` | Admin, API action, and page controllers (the Api/ subfolder holds custom API Platform actions) |
-| `Settings/` | Settings schema files (platform configuration) |
-| `Repository/` | Doctrine repositories |
-| `AiProvider/` | AI provider implementations (OpenAI, Gemini, Mistral, DeepSeek, Grok) |
-| `Tool/` | Course tool definitions |
-| `Security/` | Voters, authenticators, authorization |
-| `EventListener/` | Event listeners |
-| `EventSubscriber/` | Event subscribers |
-| `Command/` | Symfony console commands |
-| `Migrations/` | Database migrations |
-| `Twig/` | Twig extensions |
-| `Storage/` | Flysystem storage adapters |
+| المجلد | المحتويات |
+|--------|------------|
+| `Entity/` | كيانات Doctrine (User, Course, Session, ResourceNode, إلخ.) |
+| `Controller/` | وحدات التحكم الإدارية، وحدات التحكم في إجراءات API، ووحدات التحكم في الصفحات (مجلد Api/ يحتوي على إجراءات منصة API المخصصة) |
+| `Settings/` | ملفات مخطط الإعدادات (تكوين المنصة) |
+| `Repository/` | مستودعات Doctrine |
+| `AiProvider/` | تنفيذات مزودي الذكاء الاصطناعي (OpenAI، Gemini، Mistral، DeepSeek، Grok) |
+| `Tool/` | تعريفات أدوات الدورة |
+| `Security/` | ناخبون، مصادقون، تفويض |
+| `EventListener/` | مستمعو الأحداث |
+| `EventSubscriber/` | مشتركو الأحداث |
+| `Command/` | أوامر وحدة التحكم Symfony |
+| `Migrations/` | عمليات نقل قاعدة البيانات |
+| `Twig/` | امتدادات Twig |
+| `Storage/` | محولات تخزين Flysystem |
 
 ### CourseBundle
 
-Course-specific entities and logic:
+كيانات منطق الدورة الخاصة بالدورة:
 
-| Directory | Contents |
-|-----------|----------|
-| `Entity/` | Course-content entities (CDocument, CQuiz, CLp, CForum, CStudentPublication, etc.) |
-| `Controller/` | Course controllers |
-| `Settings/` | Course-level settings schemas |
-| `Component/CourseCopy/` | Course import/export (Common Cartridge, Moodle) |
+| المجلد | المحتويات |
+|--------|------------|
+| `Entity/` | كيانات محتوى الدورة (CDocument، CQuiz، CLp، CForum، CStudentPublication، إلخ.) |
+| `Controller/` | وحدات التحكم في الدورة |
+| `Settings/` | مخططات إعدادات مستوى الدورة |
+| `Component/CourseCopy/` | استيراد/تصدير الدورة (Common Cartridge، Moodle) |
 
 ### LtiBundle
 
-LTI 1.3 integration:
+تكامل LTI 1.3:
 
-| Directory | Contents |
-|-----------|----------|
-| `Entity/` | LTI platform, tool, and deployment entities |
-| `Controller/` | LTI launch and configuration endpoints |
+| المجلد | المحتويات |
+|--------|------------|
+| `Entity/` | كيانات منصة LTI، وأداة، ونشر |
+| `Controller/` | نقاط نهاية إطلاق LTI وتكوين |
 
-## Frontend (`assets/vue/`)
+---
+## الواجهة الأمامية (`assets/vue/`)
 
 ```
 assets/vue/
@@ -139,7 +140,8 @@ assets/vue/
 └── error/               # Error boundary components
 ```
 
-## Configuration (`config/`)
+---
+## الإعدادات (`config/`)
 
 ```
 config/
@@ -168,34 +170,34 @@ config/
 └── jwt-test/            # JWT keys for the test environment
 ```
 
-Symfony automatically merges the base `packages/*.yaml` files with those in the matching environment subdirectory (`dev/`, `prod/`, or `test/`), so environment-specific files only need to override the values that differ.
+يدمج Symfony تلقائيًا ملفات `packages/*.yaml` الأساسية مع تلك الموجودة في مجلد البيئة المتطابق (`dev/`، أو `prod/`، أو `test/`)، لذا لا تحتاج ملفات محددة للبيئة إلا إلى تجاوز القيم التي تختلف.
 
-## Build Configuration
+## إعدادات البناء
 
-| File | Purpose |
-|------|---------|
-| `webpack.config.js` | Webpack Encore configuration (entries, loaders, plugins) |
-| `tailwind.config.js` | Tailwind CSS configuration (content paths, theme extensions, plugins) |
-| `tsconfig.json` | TypeScript configuration |
-| `eslint.config.mjs` | ESLint rules (flat config) |
-| `.prettierrc.json` | Prettier formatting rules |
+| الملف | الغرض |
+|-------|-------|
+| `webpack.config.js` | إعدادات Webpack Encore (المدخلات، المحملات، الإضافات) |
+| `tailwind.config.js` | إعدادات Tailwind CSS (مسارات المحتوى، امتدادات الثيم، الإضافات) |
+| `tsconfig.json` | إعدادات TypeScript |
+| `eslint.config.mjs` | قواعد ESLint (تكوين مسطح) |
+| `.prettierrc.json` | قواعد تنسيق Prettier |
 
-All files sit at the project root. PostCSS plugins (Tailwind + Autoprefixer) are configured inline inside `webpack.config.js` via `enablePostCssLoader()` — there is no standalone `postcss.config.js`. `webpack.config.js` reads `tailwind.config.js` indirectly through PostCSS, so changes to Tailwind's `content` or `theme` sections take effect on the next `yarn encore dev` / `yarn encore production` run.
+توجد جميع الملفات في جذر المشروع. تُعد إضافات PostCSS (Tailwind + Autoprefixer) داخل `webpack.config.js` عبر `enablePostCssLoader()` — لا يوجد `postcss.config.js` مستقل. يقرأ `webpack.config.js` ملف `tailwind.config.js` بشكل غير مباشر عبر PostCSS، لذا تظهر التغييرات في أقسام `content` أو `theme` الخاصة بـ Tailwind في التشغيل التالي لـ `yarn encore dev` / `yarn encore production`.
 
-## Webpack Entry Points
+## نقاط الدخول لـ Webpack
 
-The build produces these bundles:
+يُنتج البناء هذه الحزم:
 
 **JavaScript:**
-* `vue` — Main Vue 3 application (`assets/vue/main.js`)
-* `vue_installer` — Installation wizard (`assets/vue/main_installer.js`)
-* `legacy_app`, `legacy_exercise`, `legacy_lp`, `legacy_document` — Legacy JS for pages not yet migrated to Vue
+* `vue` — التطبيق الرئيسي لـ Vue 3 (`assets/vue/main.js`)
+* `vue_installer` — معالج التثبيت (`assets/vue/main_installer.js`)
+* `legacy_app`، `legacy_exercise`، `legacy_lp`، `legacy_document` — JavaScript القديم للصفحات التي لم تُهاجر إلى Vue بعد
 
 **CSS:**
-* `app` — Main stylesheet (`assets/css/app.scss`)
-* Plus specialized sheets: `chat`, `document`, `editor`, `editor_content`, `markdown`, `print`, `responsive`, `scorm`
+* `app` — ورقة الأنماط الرئيسية (`assets/css/app.scss`)
+* بالإضافة إلى أوراق متخصصة: `chat`، `document`، `editor`، `editor_content`، `markdown`، `print`، `responsive`، `scorm`
 
-## CSS Structure (`assets/css/`)
+## هيكل CSS (`assets/css/`)
 
 ```
 assets/css/
@@ -222,15 +224,16 @@ assets/css/
     └── libs/                # Third-party library overrides (FullCalendar, MediaElement.js)
 ```
 
+---
 ### Tailwind CSS
 
-Tailwind is integrated via PostCSS. `assets/css/_tailwind.scss` emits the base, component, and utility layers; `assets/css/app.scss` imports it first so Tailwind utilities are available throughout all other partials. The Tailwind configuration — content paths for purging, theme extensions, and plugins — lives in `tailwind.config.js` at the project root (`/var/www/chamilo/tailwind.config.js`).
+يتم دمج Tailwind عبر PostCSS. `assets/css/_tailwind.scss` يصدر الطبقات الأساسية والمكونات والأدوات؛ `assets/css/app.scss` يستورده أولاً حتى تكون أدوات Tailwind متاحة في جميع الجزئيات الأخرى. تكوين Tailwind — مسارات المحتوى للتنقية، وامتدادات الثيم، والإضافات — موجود في `tailwind.config.js` في جذر المشروع (`/var/www/chamilo/tailwind.config.js`).
 
-Custom utility classes and component classes defined with `@layer` (visible in `app.scss`) follow Tailwind's layering convention so that user-defined classes respect the same specificity rules as the generated utilities.
+الفئات الأدوات المخصصة وفئات المكونات المعرفة باستخدام `@layer` (المرئية في `app.scss`) تتبع اتفاقية الطبقات في Tailwind بحيث تحترم الفئات المعرفة من قبل المستخدم نفس قواعد الخصوصية مثل الأدوات المولدة.
 
 ### Color Themes
 
-Chamilo supports a color theming system that can be configured directly from the admin interface (**Admin > Color Themes**). Each saved theme writes its files into a dedicated directory under `var/themes/`:
+يدعم Chamilo نظامًا لثيمات الألوان يمكن تهيئته مباشرة من واجهة الإدارة (**Admin > Color Themes**). كل ثيم محفوظ يكتب ملفاته في دليل مخصص تحت `var/themes/`:
 
 ```
 var/themes/
@@ -246,7 +249,7 @@ var/themes/
         └── ...          # Background images, admin block images, etc.
 ```
 
-`colors.css` defines CSS custom properties as space-separated RGB channel triplets rather than `rgb()` values, which allows Tailwind to compose opacity variants (e.g. `bg-primary/50`) without additional configuration:
+`colors.css` يعرف خصائص CSS المخصصة كثلاثيات قنوات RGB مفصولة بمسافات بدلاً من قيم `rgb()`، مما يسمح لـ Tailwind بتكوين متغيرات الشفافية (مثل `bg-primary/50`) دون تكوين إضافي:
 
 ```css
 :root {
@@ -256,4 +259,4 @@ var/themes/
 }
 ```
 
-The theme layer sits on top of the compiled Tailwind/SCSS bundle: the browser loads `colors.css` after the main stylesheet, so theme changes take effect immediately without a build step.
+تضع طبقة الثيم فوق حزمة Tailwind/SCSS المجمعة: يقوم المتصفح بتحميل `colors.css` بعد ورقة الأنماط الرئيسية، لذا تطبق تغييرات الثيم فورًا دون خطوة بناء.

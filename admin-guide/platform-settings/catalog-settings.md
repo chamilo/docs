@@ -1,108 +1,107 @@
-# Course Catalog Settings
+# إعدادات كتالوج الدورات
 
-Behaviour of the course catalog (the public list where users can browse and self-enroll).
+سلوك كتالوج الدورات (القائمة العامة التي يمكن للمستخدمين من خلالها تصفح الدورات والتسجيل الذاتي فيها).
 
-Access these settings under **Administration > Configuration settings > Course Catalog**. This category contains **13 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+الوصول إلى هذه الإعدادات تحت **إدارة > إعدادات التكوين > كتالوج الدورات**. تحتوي هذه الفئة على **13 إعدادًا**، مدرجة أدناه مع العنوان والتعليق المرسل في إعدادات المنصة (`SettingsCurrentFixtures.php`).
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> يُعرض اسم المتغير في الكود بخط monospace. استخدمه عند البرمجة عبر الـ API أو عند الحاجة إلى تغيير هذه الإعدادات على المستوى العام بتحرير [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
 
-## Settings
+## الإعدادات
 
 ### `allow_session_auto_subscription`
 
-**Auto Session Subscription**
+**الاشتراك التلقائي في الجلسات**
 
-Enable automatic subscription to sessions for users.
+تمكين الاشتراك التلقائي في الجلسات للمستخدمين.
 
-*Default: `false`*
+*افتراضي: `false`*
 
 ### `allow_students_to_browse_courses`
 
-**Allow Student Browsing**
+**السماح للطلاب بالتصفح**
 
-Permit students to browse and filter the course catalog.
+السماح للطلاب بتصفح وتصفية كتالوج الدورات.
 
-*Default: `true`*
+*افتراضي: `true`*
 
 ### `course_catalog_display_in_home`
 
-**Display Catalog on Homepage**
+**عرض الكتالوج في الصفحة الرئيسية**
 
-Show the course catalog block on the platform homepage.
+عرض كتلة كتالوج الدورات في صفحة الرئيسية للمنصة.
 
-*Default: `false`*
+*افتراضي: `false`*
 
 ### `course_catalog_hide_private`
 
-**Hide Private Courses**
+**إخفاء الدورات الخاصة**
 
-Exclude private courses from the catalog display.
+استثناء الدورات الخاصة من عرض الكتالوج.
 
-*Default: `true`*
+*افتراضي: `true`*
 
 ### `course_catalog_published`
 
-**Publish course catalogue**
+**نشر كتالوج الدورات**
 
-Make the courses catalogue available to anonymous users (the general public) without the need to login.
+جعل كتالوج الدورات متاحًا للمستخدمين المجهولين (الجمهور العام) دون الحاجة إلى تسجيل الدخول.
 
-*Default: `false`*
+*افتراضي: `false`*
 
 ### `course_catalog_settings`
 
-**Course catalogue settings**
+**إعدادات كتالوج الدورات**
 
-JSON configuration for course catalog: link settings, filters, sort options, and more.
+تكوين JSON لكتالوج الدورات: إعدادات الروابط، والفلاتر، وخيارات الترتيب، وغيرها.
 
 ### `course_subscription_in_user_s_session`
 
-**Subscription in Session View**
+**الاشتراك في عرض الجلسة**
 
-Allow users to subscribe to courses directly from their session page.
+السماح للمستخدمين بالاشتراك في الدورات مباشرة من صفحة الجلسة الخاصة بهم.
 
-*Default: `false`*
+*افتراضي: `false`*
 
 ### `hide_public_link`
 
-**Hide Public Link**
+**إخفاء الرابط العام**
 
-Remove the public URL link from course cards.
+إزالة رابط URL العام من بطاقات الدورات.
 
-*Default: `false`*
+*افتراضي: `false`*
 
 ### `only_show_course_from_selected_category`
 
-**Only show matching categories in courses catalogue**
+**عرض الفئات المطابقة فقط في كتالوج الدورات**
 
-When not empty, only the courses from the given categories will appear in the courses catalogue.
+عندما لا يكون فارغًا، ستظهر فقط الدورات من الفئات المحددة في كتالوج الدورات.
 
 ### `only_show_selected_courses`
 
-**Only Selected Courses**
+**الدورات المحددة فقط**
 
-Show only manually selected courses in the catalog.
+عرض الدورات المحددة يدويًا فقط في الكتالوج.
 
-*Default: `false`*
+*افتراضي: `false`*
 
 ### `session_catalog_settings`
 
-**Session Catalog Settings**
+**إعدادات كتالوج الجلسات**
 
-JSON configuration for session catalog: filters and display options.
+تكوين JSON لكتالوج الجلسات: الفلاتر وخيارات العرض.
 
 ### `show_courses_descriptions_in_catalog`
 
-**Show Course Descriptions**
+**عرض وصف الدورات**
 
-Display course descriptions within the catalog listing.
+عرض وصف الدورات ضمن قائمة الكتالوج.
 
-*Default: `false`*
+*افتراضي: `false`*
 
 ### `show_courses_sessions`
 
-**Show Courses & Sessions**
+**عرض الدورات والجلسات**
 
-Include both courses and sessions in catalog results.
+تضمين الدورات والجلسات معًا في نتائج الكتالوج.
 
-*Default: `0`*
-
+*افتراضي: `0`*

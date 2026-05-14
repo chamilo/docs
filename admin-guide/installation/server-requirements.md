@@ -1,93 +1,93 @@
-# Server Requirements
+# متطلبات الخادم
 
-Before installing Chamilo 2.0, verify that your server meets the following requirements.
+قبل تثبيت Chamilo 2.0، تحقق من أن خادمك يلبي المتطلبات التالية.
 
-## Software Requirements
+## متطلبات البرمجيات
 
 ### PHP
 
-| Requirement | Minimum | Recommended |
-|-------------|---------|-------------|
-| **PHP version** | 8.2 | 8.3 or later |
+| المتطلب | الحد الأدنى | الموصى به |
+|---------|-------------|-----------|
+| **إصدار PHP** | 8.2 | 8.3 أو أحدث |
 
-### Required PHP Extensions
+### الامتدادات المطلوبة لـ PHP
 
-| Extension | Purpose |
-|-----------|---------|
-| **curl** | HTTP requests (API integrations, external services) |
-| **fileinfo** | MIME type detection for uploaded files |
-| **gd** | Image processing (thumbnails, CAPTCHA) |
-| **intl** | Internationalization (date, number, and string formatting) |
-| **json** | JSON encoding/decoding |
-| **ldap** | LDAP connector. Although you will probably not use LDAP, Chamilo requires it |
-| **mbstring** | Multibyte string handling (UTF-8 support) |
-| **openssl** | Cryptographic operations (HTTPS, password hashing, tokens) |
-| **pdo_mysql** or **pdo_pgsql** | Database connectivity (install the one matching your database) |
-| **xml** | XML parsing (SCORM, RSS, SOAP) |
-| **zip** | Handling ZIP archives (SCORM packages, bulk imports/exports) |
-| **apcu** | User-level caching (recommended) |
-| **opcache** | Opcode caching (strongly recommended for performance) |
-| **xapian** | Full-text search (optional, only if you use search) |
+| الامتداد | الغرض |
+|----------|-------|
+| **curl** | طلبات HTTP (تكاملات API، الخدمات الخارجية) |
+| **fileinfo** | كشف نوع MIME للملفات المرفوعة |
+| **gd** | معالجة الصور (الصور المصغرة، CAPTCHA) |
+| **intl** | التدويل (تنسيق التاريخ والأرقام والنصوص) |
+| **json** | ترميز/فك ترميز JSON |
+| **ldap** | موصل LDAP. على الرغم من أنك ربما لن تستخدم LDAP، إلا أن Chamilo يتطلبها |
+| **mbstring** | معالجة النصوص متعددة البايت (دعم UTF-8) |
+| **openssl** | العمليات التشفيرية (HTTPS، تشفير كلمات المرور، الرموز) |
+| **pdo_mysql** أو **pdo_pgsql** | الاتصال بقاعدة البيانات (قم بتثبيت الامتداد الذي يطابق قاعدة بياناتك) |
+| **xml** | تحليل XML (SCORM، RSS، SOAP) |
+| **zip** | معالجة أرشيفات ZIP (حزم SCORM، الاستيراد/التصدير الجماعي) |
+| **apcu** | التخزين المؤقت على مستوى المستخدم (موصى به) |
+| **opcache** | تخزين مؤقت الـ opcode (موصى به بشدة للأداء) |
+| **xapian** | البحث النصي الكامل (اختياري، فقط إذا كنت تستخدم البحث) |
 
-### Database
+### قاعدة البيانات
 
-| Database | Minimum Version |
-|----------|----------------|
+| قاعدة البيانات | الإصدار الأدنى |
+|-----------------|-----------------|
 | **MySQL** | 8.0 |
 | **MariaDB** | 10.4 |
 
-### Web Server
+### خادم الويب
 
-| Server | Notes |
+| الخادم | الملاحظات |
+|--------|-----------|
+| **Apache** | يتطلب تفعيل `mod_rewrite`. |
+| **Nginx** | يتطلب تكوينًا يدويًا لإعادة كتابة URL. راجع [وثائق Nginx لـ Symfony](https://symfony.com/doc/current/setup/web_server_configuration.html#nginx) لتكوين مرجعي. |
+
+### أدوات البناء
+
+| الأداة | الغرض |
 |--------|-------|
-| **Apache** | Requires `mod_rewrite` enabled. |
-| **Nginx** | Requires manual configuration for URL rewriting. See the Symfony Nginx documentation for a reference configuration. |
+| **Composer** | إدارة تبعيات PHP. مطلوبة لتثبيت مكتبات PHP الخاصة بـ Chamilo. |
+| **Node.js** (18+) | بيئة تشغيل JavaScript. مطلوبة لبناء أصول الواجهة الأمامية. |
+| **npm** | مدير حزم JavaScript. مثبت مع Node.js. |
 
-### Build Tools
+## متطلبات الأجهزة
 
-| Tool | Purpose |
-|------|---------|
-| **Composer** | PHP dependency management. Required to install Chamilo's PHP libraries. |
-| **Node.js** (18+) | JavaScript runtime. Required to build frontend assets. |
-| **npm** | JavaScript package manager. Installed with Node.js. |
+| المورد | الحد الأدنى | الموصى به |
+|--------|-------------|-----------|
+| **الذاكرة RAM** | 2 جيجابايت | 4 جيجابايت أو أكثر |
+| **المعالج CPU** | 1 نواة | 2+ نوى |
+| **مساحة القرص** | 2 جيجابايت (التطبيق فقط) | 20+ جيجابايت (بما في ذلك المحتوى المرفوع) |
+| **نوع القرص** | HDD | SSD (يحسن أداء قاعدة البيانات والتخزين المؤقت بشكل كبير) |
 
-## Hardware Requirements
+هذه أرقام أساسية. المتطلبات الفعلية تعتمد على عدد المستخدمين المتزامنين وحجم المحتوى المستضاف.
 
-| Resource | Minimum | Recommended |
-|----------|---------|-------------|
-| **RAM** | 2 GB | 4 GB or more |
-| **CPU** | 1 core | 2+ cores |
-| **Disk space** | 2 GB (application only) | 20+ GB (including uploaded content) |
-| **Disk type** | HDD | SSD (significantly improves database and cache performance) |
+## نظام التشغيل
 
-These are baseline figures. Actual requirements depend on the number of concurrent users and the volume of content hosted.
+| نظام التشغيل | الملاحظات |
+|---------------|-----------|
+| **Linux** | موصى به. Ubuntu 22.04+، Debian 12+، AlmaLinux 9+، أو ما يعادله. |
+| **Windows** | ممكن لكنه غير مختبر جيدًا. استخدم WSL2 للتطوير. |
+| **macOS** | للتطوير فقط / غير مختبر. |
 
-## Operating System
+## متطلبات الشبكة
 
-| OS | Notes |
-|----|-------|
-| **Linux** | Recommended. Ubuntu 22.04+, Debian 12+, AlmaLinux 9+, or equivalent. |
-| **Windows** | Possible but not thoroughly tested. Use WSL2 for development. |
-| **macOS** | Development only / untested. |
+* اسم نطاق يشير إلى خادمك.
+* شهادة SSL/TLS لـ HTTPS (يوفر Let's Encrypt شهادات مجانية).
+* وصول SMTP خارجي إذا كنت ترسل البريد الإلكتروني مباشرة (أو استخدم خدمة بريد إلكتروني خارجية).
+* المنفذ 443 (HTTPS) واختياريًا المنفذ 80 (HTTP، لإعادة التوجيه إلى HTTPS).
 
-## Network Requirements
+## التحقق من المتطلبات
 
-* A domain name pointing to your server.
-* An SSL/TLS certificate for HTTPS (Let's Encrypt provides free certificates).
-* Outbound SMTP access if sending emails directly (or use a third-party email service).
-* Port 443 (HTTPS) and optionally port 80 (HTTP, for redirect to HTTPS).
-
-## Checking Requirements
-
-After placing the Chamilo source on your server, you can check your PHP configuration directly:
+بعد وضع مصدر Chamilo على خادمك، يمكنك التحقق من تكوين PHP مباشرة:
 
 ```bash
 php -m          # List installed extensions
 php -i          # Full PHP info
 ```
 
-## Tips
+## نصائح
 
-* **Use PHP-FPM** with Apache or Nginx for better performance than mod_php.
-* **Separate your database** onto a dedicated server for platforms expecting more than 500 concurrent users.
-* **Use SSD storage** -- Database-heavy applications like Chamilo benefit significantly from fast disk I/O.
+* **استخدم PHP-FPM** مع Apache أو Nginx لأداء أفضل من mod_php.
+* **فصل قاعدة البيانات** على خادم مخصص للمنصات التي تتوقع أكثر من 500 مستخدم متزامن.
+* **استخدم تخزين SSD** -- التطبيقات الثقيلة على قاعدة البيانات مثل Chamilo تستفيد بشكل كبير من إدخال/إخراج القرص السريع.

@@ -1,196 +1,195 @@
-# Workflows Settings
+# إعدادات سير العمل
 
-Cross-cutting workflow toggles — course creation, enrollment validation, assignment workflows, and similar.
+مفاتيح تبديل لسير العمل عبر الأقسام — إنشاء الدورات، التحقق من التسجيل، سير عمل المهام، وما شابه.
 
-Access these settings under **Administration > Configuration settings > Workflows**. This category contains **23 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+يمكن الوصول إلى هذه الإعدادات تحت **الإدارة > إعدادات التكوين > سير العمل**. تحتوي هذه الفئة على **23 إعدادًا**، مدرجة أدناه مع العنوان والتعليق المرسل في إعدادات المنصة (`SettingsCurrentFixtures.php`).
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> يتم عرض اسم المتغير في الكود بحرف monospace. استخدمه عند البرمجة عبر API أو عند الحاجة إلى تغيير هذه الإعدادات على المستوى العام عن طريق تحرير [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
 
-## Settings
+## الإعدادات
 
 ### `allow_user_course_subscription_by_course_admin`
 
-**Allow User Course Subscription By Course Admininistrator**
+**السماح بتسجيل المستخدمين في الدورة بواسطة مدير الدورة**
 
-Activate this option will allow course administrator to subscribe users inside a course
+سيسمح تفعيل هذا الخيار لمدير الدورة بتسجيل المستخدمين داخل الدورة
 
-*Default: `true`*
+*افتراضي: `true`*
 
 
 ### `allow_users_to_create_courses`
 
-**Allow non admin to create courses**
+**السماح لغير المشرفين بإنشاء الدورات**
 
-Allow non administrators (teachers) to create new courses on the server
+السماح لغير المشرفين (المعلمين) بإنشاء دورات جديدة على الخادم
 
-*Default: `false`*
+*افتراضي: `false`*
 
 
 ### `allow_working_time_edition`
 
-**Enable edition of course work time**
+**تمكين تعديل وقت عمل الدورة**
 
-Enable this feature to let teachers manually update the time spent in the course by learners.
+تمكين هذه الميزة للسماح للمعلمين بتحديث الوقت الذي قضاه المتعلمون في الدورة يدويًا.
 
-*Default: `false`*
+*افتراضي: `false`*
 
 
 ### `course_visibility_change_only_admin`
 
-**Course visibility changes for admins only**
+**تغييرات رؤية الدورة للمشرفين فقط**
 
-Remove the possibility for non-admins to change the course visibility. Visibility can be an issue when there are too many teachers to control directly. Forcing visibilities allows the organization to better manage courses catalogues.
+إزالة إمكانية تغيير رؤية الدورة لغير المشرفين. يمكن أن تكون الرؤية مشكلة عندما يكون هناك عدد كبير من المعلمين لا يمكن التحكم بهم مباشرة. فرض الرؤيات يسمح للمنظمة بإدارة كتالوجات الدورات بشكل أفضل.
 
-*Default: `false`*
+*افتراضي: `false`*
 
 
 ### `default_menu_entry_for_course_or_session`
 
-**Default menu entry for courses**
+**مدخل القائمة الافتراضي للدورات**
 
-Define the default sub-elements of the 'Courses' entry to display if user is not registered to any course nor session.
+تحديد العناصر الفرعية الافتراضية لمدخل "الدورات" لعرضها إذا لم يكن المستخدم مسجلاً في أي دورة أو جلسة.
 
-*Default: `my_courses`*
+*افتراضي: `my_courses`*
 
 
 ### `disable_user_conditions_sender_id`
 
-**Internal ID of the user used to send disabled account notifications**
+**معرف داخلي للمستخدم المستخدم لإرسال إشعارات الحسابات المعطلة**
 
-Avoid being too personal with users by using a 'bot' account to send e-mails to users when their account is disabled for some reason.
+تجنب الشخصنة الزائدة مع المستخدمين باستخدام حساب "bot" لإرسال البريد الإلكتروني إلى المستخدمين عند تعطيل حساباتهم لسبب ما.
 
-*Default: `0`*
+*افتراضي: `0`*
 
 
 ### `disabled_edit_session_coaches_course_editing_course`
 
-**Disable the ability to edit course coaches**
+**تعطيل القدرة على تعديل مدربي الدورة في الجلسات**
 
-When disabled, admins do not have a link to quickly assign coaches to session-courses on the course edition page.
+عند التعطيل، لا يتوفر للمشرفين رابط لتعيين المدربين بسرعة لدورات الجلسة في صفحة تعديل الدورة.
 
-*Default: `false`*
+*افتراضي: `false`*
 
 
 ### `drh_allow_access_to_all_students`
 
-**HRM can access all students from reporting pages**
+**يمكن لـ HRM الوصول إلى جميع الطلاب من صفحات التقارير**
 
-[inferred] Grant HR/DRH managers access to reporting pages for all learners across the platform.
+[مستنتج] منح مديري الموارد البشرية/DRH الوصول إلى صفحات التقارير لجميع المتعلمين عبر المنصة.
 
-*Default: `false`*
+*افتراضي: `false`*
 
 
 ### `gamification_mode`
 
-**Gamification mode**
+**وضع التلعيب**
 
-Activate the stars achievement in learning paths
+تفعيل إنجاز النجوم في مسارات التعلم
 
 ### `go_to_course_after_login`
 
-**Go directly to the course after login**
+**الذهاب مباشرة إلى الدورة بعد تسجيل الدخول**
 
-When a user is registered in one course, go directly to the course after login
+عندما يكون المستخدم مسجلاً في دورة واحدة، الذهاب مباشرة إلى الدورة بعد تسجيل الدخول
 
-*Default: `false`*
+*افتراضي: `false`*
 
 
 ### `load_term_conditions_section`
 
-**Load term conditions section**
+**تحميل قسم شروط الاستخدام**
 
-The legal agreement will appear during the login or when enter to a course.
+سيظهر الاتفاق القانوني أثناء تسجيل الدخول أو عند الدخول إلى دورة.
 
-*Default: `login`*
+*افتراضي: `login`*
 
 
 ### `multiple_url_hide_disabled_settings`
 
-**Hide disabled settings in sub-URLs**
+**إخفاء الإعدادات المعطلة في الروابط الفرعية**
 
-Set to yes to hide settings completely in a sub-URL if the setting is disabled in the main URL (where the access_url_changeable field = 0)
+تعيين إلى نعم لإخفاء الإعدادات تمامًا في رابط فرعي إذا كان الإعداد معطلاً في الرابط الرئيسي (حيث access_url_changeable = 0)
 
-*Default: `false`*
+*افتراضي: `false`*
 
 
 ### `plugin_redirection_enabled`
 
-**Enable redirection plugin**
+**تمكين إضافة التوجيه**
 
-Enable only if you are using the Redirection plugin
+تمكين فقط إذا كنت تستخدم إضافة Redirection
 
-*Default: `false`*
+*افتراضي: `false`*
 
 
 ### `redirect_index_to_url_for_logged_users`
 
-**Redirect index.php to given URL for authenticated users**
+**توجيه index.php إلى الرابط المحدد للمستخدمين المسجلين دخولهم**
 
-If you do not want to use the index page (announcements, popular courses, etc), you can define here the script (from the document root) where users will be redirected when trying to load the index.
+إذا لم تكن ترغب في استخدام صفحة index (الإعلانات، الدورات الشائعة، إلخ)، يمكنك تحديد السكريبت هنا (من جذر المستندات) حيث سيتم توجيه المستخدمين عند محاولة تحميل index.
 
 ### `send_all_emails_to`
 
-**Send all e-mails to**
+**إرسال جميع البريد الإلكتروني إلى**
 
-Give a list of e-mail addresses to whom *all* e-mails sent from the platform will be sent. The e-mails are sent to these addresses as a visible destination.
+قائمة بعناوين البريد الإلكتروني التي سيتم إرسال *جميع* البريد الإلكتروني من المنصة إليها. يتم إرسال البريد الإلكتروني إلى هذه العناوين كوجهة مرئية.
 
 ### `session_admin_user_subscription_search_extra_field_to_search`
 
-**Extra user field used to search and name sessions**
+**حقل مستخدم إضافي يُستخدم للبحث واسمه الجلسات**
 
-This setting defines the extra user field key (e.g., "company") that will be used to search for users and to define the name of the session when registering students from /admin-dashboard/register.
+يحدد هذا الإعداد مفتاح حقل المستخدم الإضافي (مثل "company") الذي سيتم استخدامه للبحث عن المستخدمين ولتحديد اسم الجلسة عند تسجيل الطلاب من /admin-dashboard/register.
 
 ### `teacher_can_select_course_template`
 
-**Teacher can select a course as template**
+**يمكن للمعلم اختيار دورة كنموذج**
 
-Allow pick a course as template for the new course that teacher is creating
+السماح باختيار دورة كنموذج للدورة الجديدة التي ينشئها المعلم
 
-*Default: `true`*
+*افتراضي: `true`*
 
 
 ### `update_student_expiration_x_date`
 
-**Set expiration date on first login**
+**تعيين تاريخ الانتهاء عند تسجيل الدخول الأول**
 
-Array defining the 'days' and 'months' to set the account expiration date when the user first logs in.
+مصفوفة تحدد "الأيام" و"الشهر" لتعيين تاريخ انتهاء الحساب عند تسجيل دخول المستخدم الأول.
 
 ### `user_edition_extra_field_to_check`
 
-**Set an extra field as trigger for registration as ex-learner**
+**تعيين حقل إضافي كمحفز للتسجيل كمتعلم سابق**
 
-Give an extra field label here. If this extra field is updated for any user, a process is triggered to check the access to this user to courses with the same given extra field.
+أدخل تسمية حقل إضافي هنا. إذا تم تحديث هذا الحقل الإضافي لأي مستخدم، يتم تشغيل عملية للتحقق من وصول هذا المستخدم إلى الدورات التي تحتوي على نفس الحقل الإضافي المحدد.
 
+---
 ### `user_number_of_days_for_default_expiration_date_per_role`
 
-**Default expiration days by role**
+**عدد أيام الانتهاء الافتراضي حسب الدور**
 
-An array of role => number which represents the number of days an account has before expiration, depending on the role.
+مصفوفة من دور => عدد تمثل عدد الأيام التي يستمر فيها الحساب قبل الانتهاء، حسب الدور.
 
 ### `usergroup_do_not_unsubscribe_users_from_course_nor_session_on_user_unsubscribe`
 
-**Disable user unsubscription from course/session on user unsubscription from group/class**
+**تعطيل إلغاء اشتراك المستخدم من المقرر/الجلسة عند إلغاء اشتراكه من المجموعة/الفصل**
 
-[inferred] When removing a user from a group/class, do not automatically unsubscribe them from associated courses or sessions.
+[inferred] عند إزالة مستخدم من مجموعة/فصل، لا تلغِ اشتراكه تلقائيًا من المقررات أو الجلسات المرتبطة.
 
-*Default: `false`*
+*القيمة الافتراضية: `false`*
 
 
 ### `usergroup_do_not_unsubscribe_users_from_course_on_course_unsubscribe`
 
-**Disable user unsubscription from course on course removal from group/class**
+**تعطيل إلغاء اشتراك المستخدم من المقرر عند إزالة المقرر من المجموعة/الفصل**
 
-[inferred] When a course is removed from a group/class, do not automatically unsubscribe users from that course.
+[inferred] عند إزالة مقرر من مجموعة/فصل، لا تلغِ اشتراك المستخدمين تلقائيًا من ذلك المقرر.
 
-*Default: `false`*
+*القيمة الافتراضية: `false`*
 
 
 ### `usergroup_do_not_unsubscribe_users_from_session_on_session_unsubscribe`
 
-**Disable user unsubscription from session on session removal from group/class**
+**تعطيل إلغاء اشتراك المستخدم من الجلسة عند إزالة الجلسة من المجموعة/الفصل**
 
-[inferred] When a session is removed from a group/class, do not automatically unsubscribe users from that session.
+[inferred] عند إزالة جلسة من مجموعة/فصل، لا تلغِ اشتراك المستخدمين تلقائيًا من تلك الجلسة.
 
-*Default: `false`*
-
-
+*القيمة الافتراضية: `false`*

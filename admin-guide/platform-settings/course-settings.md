@@ -1,361 +1,362 @@
-# Course Settings
+# إعدادات الدورة
 
-Defaults and policies that apply to courses across the platform — visibility, creation rights, allowed tools, learner permissions, and similar.
+الإعدادات الافتراضية والسياسات التي تنطبق على الدورات عبر المنصة — الرؤية، حقوق الإنشاء، الأدوات المسموح بها، أذونات المتعلمين، وما شابه.
 
-Access these settings under **Administration > Configuration settings > Course**. This category contains **45 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+الوصول إلى هذه الإعدادات تحت **إدارة > إعدادات التكوين > الدورة**. تحتوي هذه الفئة على **45 إعدادًا**، مدرجة أدناه مع العنوان والتعليق المرسل في إعدادات المنصة الافتراضية (`SettingsCurrentFixtures.php`).
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> اسم المتغير في الكود موضح بحرف monospace. استخدمه عند البرمجة عبر API أو عند الحاجة إلى تغيير هذه الإعدادات على مستوى عام عن طريق تحرير [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
 
-## Settings
+## الإعدادات
 
 ### `active_tools_on_create`
 
-**Active tools on course creation**
+**الأدوات النشطة عند إنشاء الدورة**
 
-Select the tools that will be *active* after the creation of a course.
+اختر الأدوات التي ستكون *نشطة* بعد إنشاء الدورة.
 
-*Default:*
+*الافتراضي:*
 ```
 agenda,announcement,attendance,bbb,blog,chat,course_description,course_progress,customcertificate,document,dropbox,forum,global,glossary,gradebook,group,learnpath,link,mobidico,notebook,notebookteacher,portfolio,positioning,quiz,student_publication,survey,test2pdf,tracking,user,wiki,zoom
 ```
 
 ### `allow_base_course_category`
 
-**Use course categories from top URL**
+**استخدام فئات الدورات من عنوان URL العلوي**
 
-In multi-URL settings, allow admins and teachers to assign categories from the top URL to courses in the children URLs.
+في إعدادات متعددة URL، السماح للمشرفين والمعلمين بتعيين فئات من عنوان URL العلوي إلى الدورات في عناوين URL الفرعية.
 
-*Default: `false`*
+*الافتراضي: `false`*
 
 ### `allow_course_theme`
 
-**Allow course themes**
+**السماح بسمات الدورة**
 
-Allows course graphical themes and makes it possible to change the style sheet used by a course to any of the possible style sheets available to Chamilo. When a user enters the course, the style sheet of the course will have priority over the user's own style sheet and the platform's default style sheet.
+يسمح بسمات الدورة الرسومية ويجعل من الممكن تغيير ورقة الأنماط المستخدمة في الدورة إلى أي من ورقات الأنماط المتاحة لـ Chamilo. عندما يدخل المستخدم الدورة، ستكون ورقة الأنماط الخاصة بالدورة لها الأولوية على ورقة الأنماط الخاصة بالمستخدم وورقة الأنماط الافتراضية للمنصة.
 
-*Default: `true`*
+*الافتراضي: `true`*
 
 ### `allow_public_course_with_no_terms_conditions`
 
-**Access public courses with terms and conditions**
+**الوصول إلى الدورات العامة مع شروط وأحكام**
 
-With this option enabled, if a course has public visibility and terms and conditions, those terms are disabled while the course is public.
+مع تمكين هذا الخيار، إذا كانت الدورة لها رؤية عامة وشروط وأحكام، فإن تلك الشروط معطلة بينما الدورة عامة.
 
-*Default: `false`*
+*الافتراضي: `false`*
 
 ### `block_registered_users_access_to_open_course_contents`
 
-**Block public courses access to authenticated users**
+**حظر وصول المستخدمين المسجلين إلى محتويات الدورات العامة**
 
-Only show public courses. Do not allow registered users to access courses with 'open' visibility unless they are subscribed to each of these courses.
+عرض الدورات العامة فقط. عدم السماح للمستخدمين المسجلين بالوصول إلى الدورات ذات الرؤية "مفتوحة" ما لم يكونوا مشتركين في كل من هذه الدورات.
 
-*Default: `false`*
+*الافتراضي: `false`*
 
 ### `breadcrumbs_course_homepage`
 
-**Course homepage breadcrumb**
+**breadcrumb لصفحة رئيسية الدورة**
 
-The breadcrumb is the horizontal links navigation system usually in the top left of your page. This option selects what you want to appear in the breadcrumb on courses' homepages
+breadcrumb هو نظام التنقل بالروابط الأفقية عادةً في أعلى يسار الصفحة. يختار هذا الخيار ما تريد أن يظهر في breadcrumb على صفحات رئيسية الدورات.
 
-*Default: `course_title`*
+*الافتراضي: `course_title`*
 
 ### `course_about_teacher_name_hide`
 
-**Hide course teacher info on course details page**
+**إخفاء معلومات معلم الدورة في صفحة تفاصيل الدورة**
 
-On the course details page, hide the teacher information.
+في صفحة تفاصيل الدورة، إخفاء معلومات المعلم.
 
-*Default: `false`*
+*الافتراضي: `false`*
 
 ### `course_category_code_to_use_as_model`
 
-**Restrict course templates to one course category**
+**تقييد قوالب الدورة إلى فئة دورة واحدة**
 
-Give a category code to use as course templates. Only those courses will show in the drop-down at course creation time, and users won’t see the courses in this category from the courses catalogue.
+أعطِ كود فئة لاستخدامها كقوالب دورة. فقط تلك الدورات ستظهر في القائمة المنسدلة عند إنشاء الدورة، ولن يرى المستخدمون الدورات في هذه الفئة من كتالوج الدورات.
 
 ### `course_configuration_tool_extra_fields_to_show_and_edit`
 
-**Extra fields to show in course settings**
+**حقول إضافية لعرضها في إعدادات الدورة**
 
-The fields defined in this array will appear on the course settings page.
+ستظهر الحقول المحددة في هذه المصفوفة في صفحة إعدادات الدورة.
 
 ### `course_creation_by_teacher_extra_fields_to_show`
 
-**Extra fields to show on course creation form**
+**حقول إضافية لعرضها في نموذج إنشاء الدورة**
 
-The fields defined in this array will appear as additional fields in the course creation form.
+ستظهر الحقول المحددة في هذه المصفوفة كحقول إضافية في نموذج إنشاء الدورة.
 
 ### `course_creation_donate_link`
 
-**Donation link on course creation page**
+**رابط التبرع في صفحة إنشاء الدورة**
 
-The page the donation message should link to (full URL).
+الصفحة التي يجب أن يرتبط بها رسالة التبرع (عنوان URL كامل).
 
 ### `course_creation_donate_message_show`
 
-**Show donate message on course creation page**
+**عرض رسالة التبرع في صفحة إنشاء الدورة**
 
-Add a message box in the course creation page for teachers, asking them to donate to the project.
+إضافة صندوق رسالة في صفحة إنشاء الدورة للمعلمين، يطلب منهم التبرع للمشروع.
 
-*Default: `false`*
+*الافتراضي: `false`*
 
 ### `course_creation_form_hide_course_code`
 
-**Remove course code field from course creation form**
+**إزالة حقل كود الدورة من نموذج إنشاء الدورة**
 
-If not provided, the course code is generated by default based on the course title, so enable this option to remove the code field from the course creation form altogether.
+إذا لم يتم تقديمه، يتم توليد كود الدورة افتراضيًا بناءً على عنوان الدورة، لذا قم بتمكين هذا الخيار لإزالة حقل الكود من نموذج إنشاء الدورة تمامًا.
 
-*Default: `false`*
+*الافتراضي: `false`*
 
 ### `course_creation_form_set_course_category_mandatory`
 
-**Set course category mandatory**
+**جعل فئة الدورة إلزامية**
 
-When creating a course, make the course category a required setting.
+عند إنشاء دورة، اجعل فئة الدورة إعدادًا مطلوبًا.
 
-*Default: `false`*
+*الافتراضي: `false`*
 
 ### `course_creation_form_set_extra_fields_mandatory`
 
-**Extra fields to require on course creation form**
+**حقول إضافية مطلوبة في نموذج إنشاء الدورة**
 
-The fields defined in this array will be mandatory in the course creation form.
+ستكون الحقول المحددة في هذه المصفوفة إلزامية في نموذج إنشاء الدورة.
 
 ### `course_creation_splash_screen`
 
-**Splash screen for courses**
+**شاشة ترحيب للدورات**
 
-Show a splash screen when creating a new course.
+عرض شاشة ترحيب عند إنشاء دورة جديدة.
 
-*Default: `true`*
+*الافتراضي: `true`*
 
+---
 ### `course_creation_use_template`
 
-**Use template course for new courses**
+**استخدام مسار القالب للمسارات الجديدة**
 
-Set this to use the same template course (identified by its course numeric ID in the database) for all new courses that will be created on the platform. Please note that, if not properly planned, this setting might have a massive impact on space usage. The template course will be used as if the teacher did a copy of the course with the course backup tools, so no user content is copied, only teacher material. All other course-backup rules apply. Leave empty (or set to 0) to disable.
+اضبط هذا لاستخدام نفس مسار القالب (يتم تحديده برقم معرف المسار في قاعدة البيانات) لجميع المسارات الجديدة التي سيتم إنشاؤها على المنصة. يرجى ملاحظة أنه، إذا لم يتم التخطيط له بشكل صحيح، قد يكون لهذا الإعداد تأثير هائل على استخدام المساحة. سيتم استخدام مسار القالب كما لو أن المعلم قام بنسخ المسار باستخدام أدوات نسخ احتياطي المسار، لذا لا يتم نسخ محتوى المستخدم، فقط مواد المعلم. تنطبق جميع قواعد نسخ احتياطي المسار الأخرى. اتركه فارغًا (أو اضبطه على 0) لتعطيله.
 
 ### `course_creation_user_course_extra_field_relation_to_prefill`
 
-**Prefill course fields with fields from user**
+**ملء حقول المسار مسبقًا بحقول من المستخدم**
 
-If not empty, the course creation process will look for some fields in the user profile and auto-fill them for the course. For example, a teacher specialized in digital marketing could automatically set a « digital marketing » flag on each course (s)he creates.
+إذا لم يكن فارغًا، فإن عملية إنشاء المسار ستبحث عن بعض الحقول في ملف تعريف المستخدم وتملؤها تلقائيًا للمسار. على سبيل المثال، يمكن لمعلم متخصص في التسويق الرقمي تعيين علامة «التسويق الرقمي» تلقائيًا على كل مسار ينشئه.
 
 ### `course_hide_tools`
 
-**Hide tools from teachers**
+**إخفاء الأدوات عن المعلمين**
 
-Check the tools you want to hide from teachers. This will prohibit access to the tool.
+حدد الأدوات التي تريد إخفاءها عن المعلمين. سيمنع ذلك الوصول إلى الأداة.
 
 ### `course_images_in_courses_list`
 
-**Courses custom icons**
+**أيقونات المسارات المخصصة**
 
-Use course images as the course icon in courses lists (instead of the default green blackboard icon).
+استخدم صور المسارات كأيقونة المسار في قوائم المسارات (بدلاً من أيقونة السبورة الخضراء الافتراضية).
 
-*Default: `true`*
+*القيمة الافتراضية: `true`*
 
 ### `course_log_default_extra_fields`
 
-**User extra fields by default in course stats page**
+**حقول إضافية للمستخدم افتراضيًا في صفحة إحصائيات المسار**
 
-Configure this array with the internal IDs of the extra fields you want to show by default in the main course stats page.
+قم بتكوين هذا المصفوفة بمعرفات الحقول الإضافية الداخلية التي تريد عرضها افتراضيًا في صفحة إحصائيات المسار الرئيسية.
 
 ### `course_log_hide_columns`
 
-**Hide columns from course logs**
+**إخفاء الأعمدة من سجلات المسار**
 
-This array gives you the possibility to configure which columns to hide in the main course stats page and in the total time report.
+توفر هذه المصفوفة إمكانية تكوين الأعمدة التي تريد إخفاءها في صفحة إحصائيات المسار الرئيسية وفي تقرير الوقت الإجمالي.
 
 ### `course_sequence_valid_only_in_same_session`
 
-**Validate prerequisites only within the same session**
+**التحقق من الشروط السابقة فقط داخل الجلسة نفسها**
 
-When enabled, a course will be considered validated only if passed within the current session. If disabled, courses passed in other sessions will also unlock dependent courses.
+عند التفعيل، يُعتبر المسار مُصدقًا فقط إذا تم اجتيازه داخل الجلسة الحالية. إذا تم تعطيله، فإن المسارات التي تم اجتيازها في جلسات أخرى ستفتح أيضًا المسارات التابعة لها.
 
-*Default: `false`*
+*القيمة الافتراضية: `false`*
 
 
 ### `course_student_info`
 
-**Course student info display**
+**عرض معلومات طالب المسار**
 
-On the ‘My courses’/’My sessions’ pages, show additional information regarding the score, progress and/or certificate acquisition by the student.
+في صفحات «مساراتي»/«جلساتي»، اعرض معلومات إضافية بشأن الدرجة، والتقدم، و/أو الحصول على الشهادة من قبل الطالب.
 
 ### `course_validation`
 
-**Courses validation**
+**التحقق من المسارات**
 
-When the 'Courses validation' feature is enabled, a teacher is not able to create a course alone. He/she fills a course request. The platform administrator reviews the request and approves it or rejects it.<br />This feature relies on automated e-mail messaging; set Chamilo to access an e-mail server and to use a dedicated an e-mail account.
+عند تفعيل ميزة «التحقق من المسارات»، لا يتمكن المعلم من إنشاء مسار بمفرده. يملأ طلب مسار. يراجع مدير المنصة الطلب ويوافق عليه أو يرفضه.<br />تعتمد هذه الميزة على الرسائل الإلكترونية الآلية؛ قم بإعداد Chamilo للوصول إلى خادم بريد إلكتروني واستخدام حساب بريد إلكتروني مخصص.
 
-*Default: `false`*
+*القيمة الافتراضية: `false`*
 
 
 ### `course_validation_terms_and_conditions_url`
 
-**Course validation - a link to the terms and conditions**
+**التحقق من المسار - رابط إلى الشروط والأحكام**
 
-This is the URL to the 'Terms and Conditions' document that is valid for making a course request. If the address is set here, the user should read and agree with these terms and conditions before sending a course request.<br />If you enable Chamilo's 'Terms and Conditions' module and if you want its URL to be used, then leave this setting empty.
+هذا هو عنوان URL للوثيقة «الشروط والأحكام» التي تكون صالحة لتقديم طلب مسار. إذا تم تعيين العنوان هنا، يجب على المستخدم قراءة هذه الشروط والأحكام والموافقة عليها قبل إرسال طلب المسار.<br />إذا قمت بتفعيل وحدة «الشروط والأحكام» في Chamilo وتريد استخدام عنوان URL الخاص بها، فاترك هذا الإعداد فارغًا.
 
 ### `courses_default_creation_visibility`
 
-**Default course visibility**
+**رؤية المسار الافتراضية**
 
-Default course visibility while creating a new course
+رؤية المسار الافتراضية أثناء إنشاء مسار جديد
 
-*Default: `2`*
+*القيمة الافتراضية: `2`*
 
 
 ### `display_coursecode_in_courselist`
 
-**Display Code in Course name**
+**عرض الرمز في اسم المسار**
 
-Display Course Code in courses list
+عرض رمز المسار في قائمة المسارات
 
-*Default: `false`*
+*القيمة الافتراضية: `false`*
 
 
 ### `display_teacher_in_courselist`
 
-**Display teacher in course name**
+**عرض المعلم في اسم المسار**
 
-Display teacher in courses list
+عرض المعلم في قائمة المسارات
 
-*Default: `true`*
+*القيمة الافتراضية: `true`*
 
 
 ### `enable_tool_introduction`
 
-**Enable tool introduction**
+**تفعيل مقدمة الأداة**
 
-Enable introductions on each tool's homepage
+تفعيل المقدمات على صفحة الرئيسية لكل أداة
 
-*Default: `false`*
+*القيمة الافتراضية: `false`*
 
 
 ### `enable_unsubscribe_button_on_my_course_page`
 
-**Show unsubscribe button in ‘My courses’**
+**عرض زر إلغاء الاشتراك في «مساراتي»**
 
-Add a button to unsubscribe from a course on the ‘My courses’ page.
+إضافة زر لإلغاء الاشتراك في مسار على صفحة «مساراتي».
 
-*Default: `false`*
+*القيمة الافتراضية: `false`*
 
 ### `example_material_course_creation`
 
-**Example material on course creation**
+**مادة مثالية عند إنشاء المسار**
 
-Create example material automatically when creating a new course
+إنشاء مادة مثالية تلقائيًا عند إنشاء مسار جديد
 
-*Default: `true`*
+*القيمة الافتراضية: `true`*
 
 
 ### `hide_course_rating`
 
-**Hide course rating**
+**إخفاء تقييم المسار**
 
-The course rating feature comes by default in different places. If you don’t want it, enable this option.
+تأتي ميزة تقييم المسار افتراضيًا في أماكن مختلفة. إذا كنت لا تريدها، فعّل هذا الخيار.
 
-*Default: `false`*
+*القيمة الافتراضية: `false`*
 
 ### `hide_course_sidebar`
 
-**Hide courses block in the sidebar**
+**إخفاء كتلة المسارات في الشريط الجانبي**
 
-When on screens where the left menu is visible, do not display the « Courses » section.
+عند الظهور على الشاشات حيث يكون القائمة اليسرى مرئية، لا تعرض قسم «المسارات».
 
-*Default: `true`*
+*القيمة الافتراضية: `true`*
 
 ### `multiple_access_url_show_shared_course_marker`
 
-**Show multi-URL shared course marker**
+**عرض علامة مسار مشترك متعدد URL**
 
-Adds a link icon to courses that are shared between URLs, so users (in particular teachers) know they have to take special care when editing the course content.
+يضيف أيقونة رابط إلى المسارات المشتركة بين عناوين URL، حتى يعرف المستخدمون (خاصة المعلمون) أنهم يجب أن يأخذوا حذرهم الخاص عند تحرير محتوى المسار.
 
-*Default: `false`*
+*القيمة الافتراضية: `false`*
 
 ### `my_courses_show_courses_in_user_language_only`
 
-**Only show courses in the user’s language**
+**عرض المسارات فقط بلغة المستخدم**
 
-If enabled, this option will hide all courses not set in the user’s language.
+إذا تم تفعيلها، ستخفي هذه الخيار جميع المسارات غير المحددة بلغة المستخدم.
 
-*Default: `false`*
+*القيمة الافتراضية: `false`*
 
+---
 ### `profiling_filter_adding_users`
 
-**Filter users on profile fields on subscription to course**
+**تصفية المستخدمين بناءً على حقول الملف الشخصي عند الاشتراك في الدورة**
 
-Allow teachers to filter the users based on extra fields on the page to subscribe users to their course.
+يسمح للمعلمين بتصفية المستخدمين بناءً على الحقول الإضافية في صفحة اشتراك المستخدمين في دورتهم.
 
-*Default: `false`*
+*القيمة الافتراضية: `false`*
 
 
 ### `resource_sequence_show_dependency_in_course_intro`
 
-**Show dependencies in course intro**
+**عرض التبعيات في مقدمة الدورة**
 
-When using resources sequencing with courses or sessions, show the dependencies of the course on the course’s homepage.
+عند استخدام تسلسل الموارد مع الدورات أو الجلسات، عرض تبعيات الدورة في الصفحة الرئيسية للدورة.
 
-*Default: `false`*
+*القيمة الافتراضية: `false`*
 
 ### `scorm_cumulative_session_time`
 
-**Cumulative session time for SCORM**
+**الوقت التراكمي للجلسة في SCORM**
 
-When enabled, the session time for SCORM Learning Paths will be cumulative, otherwise, it will only be counted from the last update time. This is a global setting. It is used when creating a new Learning Path but can then be redefined for each one.
+عند التفعيل، سيكون وقت الجلسة لمسارات التعلم SCORM تراكميًا، وإلا سيتم حسابه فقط من آخر وقت تحديث. هذه إعداد عام. يُستخدم عند إنشاء مسار تعلم جديد ولكنه يمكن إعادة تعريفه لكل واحد.
 
-*Default: `true`*
+*القيمة الافتراضية: `true`*
 
 
 ### `send_email_to_admin_when_create_course`
 
-**E-mail alert on course creation**
+**تنبيه بريد إلكتروني عند إنشاء الدورة**
 
-Send an email to the platform administrator each time a teacher creates a new course
+إرسال بريد إلكتروني إلى مدير المنصة في كل مرة يقوم فيها معلم بإنشاء دورة جديدة
 
-*Default: `false`*
+*القيمة الافتراضية: `false`*
 
 
 ### `show_course_duration`
 
-**Show courses duration**
+**عرض مدة الدورات**
 
-Display the course duration next to the course title in the course catalogue and the courses list.
+عرض مدة الدورة بجانب عنوان الدورة في كتالوج الدورات وقائمة الدورات.
 
-*Default: `false`*
+*القيمة الافتراضية: `false`*
 
 ### `show_navigation_menu`
 
-**Display course navigation menu**
+**عرض قائمة التنقل في الدورة**
 
-Display a navigation menu that quickens access to the tools
+عرض قائمة تنقل تسرّع الوصول إلى الأدوات
 
-*Default: `false`*
+*القيمة الافتراضية: `false`*
 
 
 ### `show_toolshortcuts`
 
-**Tools shortcuts**
+**اختصارات الأدوات**
 
-Show the tool shortcuts in the banner?
+هل عرض اختصارات الأدوات في الشريط العلوي؟
 
-*Default: `false`*
+*القيمة الافتراضية: `false`*
 
 ### `student_view_enabled`
 
-**Enable learner view**
+**تفعيل عرض المتعلم**
 
-Enable the learner view, which allows a teacher or admin to see a course as a learner would see it
+تفعيل عرض المتعلم، الذي يسمح للمعلم أو المدير برؤية الدورة كما يراها المتعلم
 
-*Default: `true`*
+*القيمة الافتراضية: `true`*
 
 
 ### `view_grid_courses`
 
-**View courses in a grid layout**
+**عرض الدورات في تخطيط شبكي**
 
-View courses in a layout with several courses per line. Otherwise, the layout will show one course per line.
+عرض الدورات في تخطيط يحتوي على عدة دورات في السطر. وإلا، سيعرض التخطيط دورة واحدة في السطر.
 
-*Default: `true`*
-
+*القيمة الافتراضية: `true`*

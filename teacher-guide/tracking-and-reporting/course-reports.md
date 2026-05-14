@@ -1,50 +1,50 @@
-# Course Reports
+# تقارير الدورة
 
-Course reports give you an aggregate view of activity and performance across all learners in your course.
+توفر تقارير الدورة لك نظرة إجمالية على النشاط والأداء عبر جميع المتعلمين في دورتك.
 
-## Accessing Course Reports
+## الوصول إلى تقارير الدورة
 
-Open the **Tracking** <img src="/.gitbook/assets/icons/mdi-chart-box.svg" alt="Tracking" data-size="line"> tool from the course homepage and select the course-level reports view.
+افتح أداة **التتبع** <img src="/.gitbook/assets/icons/mdi-chart-box.svg" alt="التتبع" data-size="line"> من الصفحة الرئيسية للدورة واختر عرض تقارير مستوى الدورة.
 
-![The course tracking overview showing engagement metrics and learner activity summary](/.gitbook/assets/tracking-course-overview.png)
+![نظرة عامة على تتبع الدورة تظهر مقاييس التفاعل وملخص نشاط المتعلمين](/.gitbook/assets/tracking-course-overview.png)
 
-## Available Reports
+## التقارير المتاحة
 
-### Activity Overview
+### نظرة عامة على النشاط
 
-A summary of overall course engagement, including enrolled learners, time spent in the course, course progress, exercise progress and average score, and assignment activity.
+ملخص لتفاعل الدورة بشكل عام، بما في ذلك المتعلمين المسجلين، والوقت المستغرق في الدورة، وتقدم الدورة، وتقدم التمارين والدرجة المتوسطة، ونشاط الواجبات.
 
-Separate detail views are available from the tracking section for **resources** (per-resource access counts), **tools** (per-tool usage), and **events** (raw event log).
+توجد عروض تفصيلية منفصلة متاحة من قسم التتبع لـ **الموارد** (عدد الوصول لكل مورد)، و**الأدوات** (استخدام لكل أداة)، و**الأحداث** (سجل الأحداث الخام).
 
-### Exercise Reports
+### تقارير التمارين
 
-For each exercise in the course:
+لكل تمرين في الدورة:
 
-* Number of learners who attempted it
-* Average score
-* Score distribution
-* Number of learners who passed (based on the pass threshold you set)
+* عدد المتعلمين الذين حاولوا التمرين
+* الدرجة المتوسطة
+* توزيع الدرجات
+* عدد المتعلمين الذين نجحوا (بناءً على عتبة النجاح التي حددتها)
 
-### Learning Path Reports
+### تقارير مسارات التعلم
 
-For each learning path:
+لكل مسار تعلم:
 
-* Completion rates across all learners
-* Average progress percentage
-* Time spent per item
-* Learners who have completed the path vs. those still in progress
+* معدلات الإكمال عبر جميع المتعلمين
+* نسبة التقدم المتوسطة
+* الوقت المستغرق لكل عنصر
+* المتعلمين الذين أكملوا المسار مقابل أولئك الذين ما زالوا في طور التقدم
 
-### Assignment Reports
+### تقارير الواجبات
 
-For each assignment:
+لكل واجب:
 
-* Number of submissions received
-* Number of pending reviews
+* عدد التقديمات المستلمة
+* عدد المراجعات المعلقة
 
-## Exporting Data
+## تصدير البيانات
 
-You can export tracking and report data for further analysis. Look for the **Export** <img src="/.gitbook/assets/icons/mdi-export.svg" alt="Export" data-size="line"> option to download data in a spreadsheet-compatible format.
+يمكنك تصدير بيانات التتبع والتقارير لتحليل إضافي. ابحث عن خيار **التصدير** <img src="/.gitbook/assets/icons/mdi-export.svg" alt="التصدير" data-size="line"> لتنزيل البيانات بتنسيق متوافق مع جداول البيانات.
 
-## Session Reports
+## تقارير الجلسة
 
-If you teach within a session, reports are scoped to the session's learners. Session coaches have access to reports across all courses in their session. A global configuration setting can also allows teachers to see assignments through all sessions using their course (ask your admin).
+إذا كنت تُدرس ضمن جلسة، فإن التقارير مقتصرة على متعلمي الجلسة. يمكن لمدربي الجلسة الوصول إلى التقارير عبر جميع الدورات في جلساتهم. يمكن أيضًا لإعداد تكوين عام أن يسمح للمعلمين برؤية الواجبات عبر جميع الجلسات التي تستخدم دورتهم (اسأل مديرك).

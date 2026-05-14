@@ -1,82 +1,81 @@
-# Certificates Settings
+# إعدادات الشهادات
 
-Defaults applied when a learner earns a certificate from the gradebook.
+الإعدادات الافتراضية المطبقة عندما يكسب المتعلم شهادة من دفتر الدرجات.
 
-Access these settings under **Administration > Configuration settings > Certificates**. This category contains **9 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+الوصول إلى هذه الإعدادات تحت **إدارة > إعدادات التكوين > الشهادات**. تحتوي هذه الفئة على **9 إعدادات**، مدرجة أدناه مع العنوان والتعليق المرسل في إعدادات المنصة الافتراضية (`SettingsCurrentFixtures.php`).
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> يتم عرض اسم المتغير في الكود بحرف monospace. استخدمه عند البرمجة عبر API أو عند الحاجة إلى تغيير هذه الإعدادات على المستوى العام عن طريق تحرير [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
 
-## Settings
+## الإعدادات
 
 ### `add_certificate_pdf_footer`
 
-**Add footer to PDF certificate exports**
+**إضافة تذييل إلى تصدير PDF للشهادات**
 
-When enabled, a footer is added to PDF exports of certificates.
+عند التفعيل، يتم إضافة تذييل إلى تصدير PDF للشهادات.
 
-*Default: `false`*
+*افتراضي: `false`*
 
 ### `allow_general_certificate`
 
-**Enable general certificate**
+**تفعيل الشهادة العامة**
 
-A general certificate is a certificate grouping all the accomplishments by the user in the courses (s)he followed.
+الشهادة العامة هي شهادة تجمع جميع الإنجازات للمستخدم في الدورات التي تابعها.
 
-*Default: `false`*
+*افتراضي: `false`*
 
 ### `allow_public_certificates`
 
-**Allow public certificates**
+**السماح بالشهادات العامة**
 
-User certificates can be view by unregistered users.
+يمكن للمستخدمين غير المسجلين عرض شهادات المستخدم.
 
-*Default: `false`*
+*افتراضي: `false`*
 
 ### `certificate_filter_by_official_code`
 
-**Certificates filter by official code**
+**تصفية الشهادات حسب الرمز الرسمي**
 
-Add a filter on the students official code to the certificates list.
+إضافة تصفية على الرمز الرسمي للطلاب إلى قائمة الشهادات.
 
-*Default: `false`*
+*افتراضي: `false`*
 
 ### `certificate_pdf_orientation`
 
-**PDF orientation for certificates**
+**اتجاه PDF للشهادات**
 
-Set ‘portrait’ or ‘landscape’ (technical terms) for PDF certificates.
+تعيين ‘portrait’ أو ‘landscape’ (مصطلحات فنية) لشهادات PDF.
 
-*Default: `landscape`*
+*افتراضي: `landscape`*
 
 ### `hide_certificate_export_link`
 
-**Certificates: hide PDF export link for all**
+**الشهادات: إخفاء رابط تصدير PDF للجميع**
 
-Enable to completely remove the possibility to export certificates to PDF (for all users). If enabled, this includes hiding it from students.
+التفعيل لإزالة إمكانية تصدير الشهادات إلى PDF تمامًا (لجميع المستخدمين). إذا تم التفعيل، يشمل ذلك إخفاءه عن الطلاب.
 
-*Default: `false`*
+*افتراضي: `false`*
 
 ### `hide_certificate_export_link_students`
 
-**Certificates: hide export link from students**
+**الشهادات: إخفاء رابط التصدير عن الطلاب**
 
-If enabled, students won’t be able to export their certificates to PDF. This option is available because, depending on the precise HTML structure of the certificate template, the PDF export might be of low quality. In this case, it is best to only show the HTML certificate to students.
+إذا تم التفعيل، لن يتمكن الطلاب من تصدير شهاداتهم إلى PDF. هذا الخيار متاح لأنه، اعتمادًا على الهيكل HTML الدقيق لقالب الشهادة، قد يكون تصدير PDF منخفض الجودة. في هذه الحالة، من الأفضل عرض شهادة HTML فقط للطلاب.
 
-*Default: `false`*
+*افتراضي: `false`*
 
 ### `hide_my_certificate_link`
 
-**Hide ‘my certificate’ link**
+**إخفاء رابط ‘شهادتي’**
 
-Hide the certificates page for non-admin users.
+إخفاء صفحة الشهادات عن المستخدمين غير المشرفين.
 
-*Default: `false`*
+*افتراضي: `false`*
 
 ### `session_admin_can_download_all_certificates`
 
-**Allow session admins to download private certificates**
+**السماح لمشرفي الجلسة بتحميل الشهادات الخاصة**
 
-If enabled, session administrators can download certificates even if they are not publicly published.
+إذا تم التفعيل، يمكن لمشرفي الجلسة تحميل الشهادات حتى لو لم تُنشر علنًا.
 
-*Default: `false`*
-
+*افتراضي: `false`*

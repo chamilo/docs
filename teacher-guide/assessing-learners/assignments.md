@@ -1,93 +1,96 @@
-# Assignments
+# الواجبات
 
-The assignments tool (also called "student publications") lets you collect work from learners — essays, projects, reports, or any file-based submission — and grade it.
+يسمح أداة الواجبات (المعروفة أيضًا باسم "منشورات الطلاب") بجمع أعمال المتعلمين — مقالات، مشاريع، تقارير، أو أي تقديم قائم على الملفات — وتقييمها.
 
-## Creating an Assignment
+## إنشاء واجب
 
-1. Open the **Assignments** <img src="/.gitbook/assets/icons/mdi-inbox-full.svg" alt="Assignments" data-size="line"> tool from the course homepage
-2. Click **Create an assignment**
-3. Fill in the details:
-   * **Assignment name** — The name of the assignment (e.g., "Final Project Report")
-   * **Description** — Instructions for learners, including what to submit and how it will be evaluated (supports rich text)
-   * **Maximum score** — On what total will the assignment be graded
-   * **Add to gradebook** — Add as an evaluated item in the assessment (gradebook) tool, so it can be part of reaching the course's goals
-   * **Deadline** — The official (published) date and time after which submissions are flagged as late (uploads are still accepted)
-   * **Ends at (completely closed)** — The hard cutoff date and time after which no upload is possible
-   * **Add to calendar** — Create an event to reference this assignment submission date
-   * **Submission type** — Choose between **Allow only text**, **Allow only files**, or **Allow files or online text**
-4. Save
+1. افتح أداة **Assignments** <img src="/.gitbook/assets/icons/mdi-inbox-full.svg" alt="Assignments" data-size="line"> من الصفحة الرئيسية للمقرر
+2. انقر على **Create an assignment**
+3. املأ التفاصيل:
+   * **Assignment name** — اسم الواجب (مثل "تقرير المشروع النهائي")
+   * **Description** — تعليمات للمتعلمين، بما في ذلك ما يجب تقديمه وكيفية تقييمه (يدعم النص الغني)
+   * **Maximum score** — الدرجة الكلية التي سيتم تقييم الواجب عليها
+   * **Add to gradebook** — إضافة كعنصر تقييمي في أداة التقييم (الدفتر الدراسي)، بحيث يمكن أن يكون جزءًا من تحقيق أهداف المقرر
+   * **Deadline** — التاريخ والوقت الرسمي (المنشور) الذي بعد ذلك يتم الإشارة إلى التقديمات كمتأخرة (لا يزال يتم قبول التحميلات)
+   * **Ends at (completely closed)** — تاريخ ووقت الإغلاق النهائي الذي بعد ذلك لا يمكن التحميل
+   * **Add to calendar** — إنشاء حدث للإشارة إلى تاريخ تقديم هذا الواجب
+   * **Submission type** — اختر بين **Allow only text**، **Allow only files**، أو **Allow files or online text**
+4. احفظ
 
-Once you have created an assignment, you can also:
-* Upload template documents from inside the assignment detail page
-* Assign the assignment to specific users (rather than all users of the course)
+بمجرد إنشاء الواجب، يمكنك أيضًا:
+* تحميل مستندات القالب من داخل صفحة تفاصيل الواجب
+* تعيين الواجب لمستخدمين محددين (بدلاً من جميع مستخدمي المقرر)
 
-And once learners have submitted their assignments, you can:
-* Export a PDF list of submissions
-* Show a list of only the learners who have not submitted their assignment
-* Download all assignments in a big ZIP
-* Upload all corrections in a big ZIP
-* Delete all corrections you submitted (this doesn't delete the learners' submissions)
+وبمجرد تقديم المتعلمين لواجباتهم، يمكنك:
+* تصدير قائمة PDF للتقديمات
+* عرض قائمة بالمتعلمين الذين لم يقدموا واجبهم فقط
+* تنزيل جميع الواجبات في ملف ZIP كبير
+* تحميل جميع التصحيحات في ملف ZIP كبير
+* حذف جميع التصحيحات التي قدمتها (هذا لا يحذف تقديمات المتعلمين)
 
-## How Learners Submit
+## كيفية تقديم المتعلمين
 
-Learners open the assignment and:
+يفتح المتعلمون الواجب و:
 
-1. Click **Upload file** or the submission button
-2. Select a file from their computer (or write text directly, depending on configuration)
-3. Add an optional comment
-4. Submit
+1. ينقرون على **Upload file** أو زر التقديم
+2. يختارون ملفًا من حاسوبهم (أو يكتبون نصًا مباشرة، اعتمادًا على الإعدادات)
+3. إضافة تعليق اختياري
+4. تقديم
 
-Learners can see whether they have already submitted and, if allowed, update their submission.
+يمكن للمتعلمين رؤية ما إذا كانوا قد قدموا بالفعل، وإذا سُمح، تحديث تقديمهم.
 
-## Reviewing Submissions
+## مراجعة التقديمات
 
-![The assignment submissions list showing student names, dates, files, and grading status](/.gitbook/assets/assignments-submissions-list.png)
+![قائمة تقديمات الواجب التي تظهر أسماء الطلاب، التواريخ، الملفات، وحالة التقييم](/.gitbook/assets/assignments-submissions-list.png)
 
-As a teacher, open an assignment to see the list of all submissions:
+كمعلم، افتح واجبًا لرؤية قائمة جميع التقديمات:
 
-* **Student name** — Who submitted
-* **Submission date** — When the work was submitted
-* **File** — Download the submitted file
-* **Status** — Whether the submission has been graded
-* **Comments** — Any comments left by the learner or by you
+* **Student name** — من قدم
+* **Submission date** — متى تم تقديم العمل
+* **File** — تنزيل الملف المقدم
+* **Status** — ما إذا كان التقديم قد تم تقييمه
+* **Comments** — أي تعليقات تركها المتعلم أو أنت
 
-### Grading a Submission
+### تقييم تقديم
 
-![The assignment grading view with score input, feedback field, and corrected file upload](/.gitbook/assets/assignment-grading-view.png)
+![عرض تقييم الواجب مع إدخال الدرجة، حقل الملاحظات، وتحميل الملف المصحح](/.gitbook/assets/assignment-grading-view.png)
 
-1. Click on a submission to open it
-2. Review the submitted file
-3. Enter a **score**
-4. Write **feedback comments** for the learner
-5. Optionally upload a **corrected file** as an attachment
-6. Save
+1. انقر على تقديم لفتحه
+2. راجع الملف المقدم
+3. أدخل **score**
+4. اكتب **feedback comments** للمتعلم
+5. اختياريًا، قم بتحميل **corrected file** كمرفق
+6. احفظ
 
-### AI-Assisted Grading
+### التقييم بمساعدة الذكاء الاصطناعي
 
-If AI tools are configured on your platform, you may see an **AI grading** option when reviewing submissions. This uses an AI model to suggest a score and feedback for open-ended work. See [AI Grading](../ai-tools/ai-grading.md) for details.
+إذا تم تكوين أدوات الذكاء الاصطناعي على المنصة الخاصة بك، قد ترى خيار **AI grading** عند مراجعة التقديمات. يستخدم هذا نموذج ذكاء اصطناعي لاقتراح درجة وملاحظات للأعمال المفتوحة. انظر [AI Grading](../ai-tools/ai-grading.md) للتفاصيل.
 
-## Managing Submissions
+## إدارة التقديمات
 
-Group actions:
-* **Download assignments package** — Download all submissions as a single ZIP file for offline review
-* **Upload corrections package** — If you downloaded all submissions in a single ZIP file, edited the files in place on your computer and zipped them again, you can send the zip as a package of corrections. Do not change filenames or it will not work.
-* **Late submissions** — Submissions after the deadline are flagged but may still be accepted depending on your settings
+إجراءات جماعية:
+* **Download assignments package** — تنزيل جميع التقديمات كملف ZIP واحد للمراجعة دون اتصال
+* **Upload corrections package** — إذا قمت بتنزيل جميع التقديمات في ملف ZIP واحد، وعدلت الملفات في مكانها على حاسوبك وضغطتها مرة أخرى، يمكنك إرسال الـ zip كحزمة تصحيحات. لا تغير أسماء الملفات وإلا لن يعمل.
+* **Late submissions** — التقديمات بعد الموعد النهائي يتم الإشارة إليها لكن يمكن قبولها اعتمادًا على إعداداتك
 
-Individual submission actions:
-* **Upload correction** — Upload a correction for one learner 
-* **Download** — Download the submission of one learner
-* **Correct and grade** — Add a correction and a grade to the learner's submission 
-* **Edit** — Edit the document title or the previous feedback on the submission
-* **Move** — Transfer a submission between assignment folders (e.g. if the student submitted in the wrong assignment)
-* **Visibility** — Control whether learners can see each other's submissions
+إجراءات تقديم فردي:
+* **Upload correction** — تحميل تصحيح لمتعلم واحد 
+* **Download** — تنزيل تقديم متعلم واحد
+* **Correct and grade** — إضافة تصحيح ودرجة لتقديم المتعلم 
+* **Edit** — تعديل عنوان المستند أو الملاحظات السابقة على التقديم
+* **Move** — نقل تقديم بين مجلدات الواجبات (مثل إذا قدم الطالب في الواجب الخاطئ)
+* **Visibility** — التحكم في ما إذا كان المتعلمون يمكنهم رؤية تقديمات بعضهم البعض
 
-## Linking to the Gradebook
+## الربط بالدفتر الدراسي
 
-Assignment scores can be included in the course gradebook ("Assessments" tool). This allows assignment grades to contribute to the learner's overall course grade and certificate eligibility. See [Gradebook](gradebook.md) for details.
+يمكن تضمين درجات الواجبات في دفتر الدرجات للمقرر ("أداة التقييمات"). يسمح هذا لدرجات الواجبات بالمساهمة في الدرجة الإجمالية للمتعلم في المقرر وأهلية الشهادة. انظر [Gradebook](gradebook.md) للتفاصيل.
 
-## Tips
+---
 
-* **Be specific in instructions** — Clearly describe what learners should submit, the expected format, and evaluation criteria
-* **Set realistic deadlines** — Use the Agenda tool to make deadlines visible in the course calendar
-* **Use the corrected file feature** — Upload annotated versions of student work so they can see your specific corrections
-* **Enable peer visibility carefully** — Allowing learners to see each other's work can encourage learning but may not be appropriate for all assignments
+---
+## نصائح
+
+* **كن محددًا في التعليمات** — صف بوضوح ما يجب على المتعلمين تقديمه، والصيغة المتوقعة، ومعايير التقييم
+* **حدد مواعيد نهائية واقعية** — استخدم أداة الجدول الزمني لجعل المواعيد النهائية مرئية في تقويم الدورة
+* **استخدم ميزة الملف المصحح** — قم برفع نسخ مشروحة من أعمال الطلاب حتى يتمكنوا من رؤية تصحيحاتك المحددة
+* **فعّل رؤية الأقران بحرص** — السماح للمتعلمين برؤية أعمال بعضهم البعض يمكن أن يشجع على التعلم لكنه قد لا يكون مناسبًا لجميع الواجبات

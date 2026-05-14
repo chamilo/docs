@@ -1,40 +1,40 @@
-# Glossary Terms Generator
+# مولد مصطلحات المصطلحات
 
-The AI Glossary Terms Generator helps you build your course glossary faster by automatically producing term definitions from a topic or subject area. You review each suggested term and definition before adding anything to the glossary.
+يساعد مولد مصطلحات المصطلحات بالذكاء الاصطناعي في بناء مصطلحات مساقك بشكل أسرع من خلال إنتاج تعريفات المصطلحات تلقائيًا من موضوع أو مجال دراسي. تقوم بمراجعة كل مصطلح وتعريف مقترح قبل إضافة أي شيء إلى المصطلحات.
 
-## Accessing the Glossary Terms Generator
+## الوصول إلى مولد مصطلحات المصطلحات
 
-The generator is available from the **Glossary** tool, provided that:
+يتوفر المولد من أداة **المصطلحات**، شريطة أن:
 
-1. AI helpers are enabled at the platform level
-2. At least one AI text provider is configured
+1. تكون مساعدات الذكاء الاصطناعي مفعلة على مستوى المنصة
+2. يكون على الأقل مزود نص ذكاء اصطناعي واحد مُهيأ
 
-Open the **Glossary** <img src="/.gitbook/assets/icons/mdi-alphabetical.svg" alt="Glossary" data-size="line"> tool from the course homepage and look for the **Generate with AI** button in the toolbar.
+افتح أداة **المصطلحات** <img src="/.gitbook/assets/icons/mdi-alphabetical.svg" alt="Glossary" data-size="line"> من صفحة المساق الرئيسية وابحث عن زر **Generate with AI** في شريط الأدوات.
 
-## How to Generate Terms
+## كيفية إنشاء المصطلحات
 
-1. Click **Generate with AI**
-2. Enter a **topic or subject area** — describe the domain you want terms for (e.g. "introductory organic chemistry" or "project management methodologies")
-3. Optionally specify the **number of terms** to generate
-4. Select an **AI provider** if more than one is configured
-5. Click **Generate**
+1. انقر على **Generate with AI**
+2. أدخل **موضوعًا أو مجالًا دراسيًا** — صف المجال الذي تريد مصطلحات له (مثل "introductory organic chemistry" أو "project management methodologies")
+3. حدد اختياريًا **عدد المصطلحات** لإنشائها
+4. حدد **مزود AI** إذا كان أكثر من واحد مُهيأ
+5. انقر على **Generate**
 
-The AI produces a list of terms with definitions that you can then review.
+ينتج الذكاء الاصطناعي قائمة من المصطلحات مع تعريفات يمكنك بعد ذلك مراجعتها.
 
-## Reviewing and Adding Terms
+## مراجعة وإضافة المصطلحات
 
-Generated terms are shown as suggestions. Before adding them to your glossary:
+تُعرض المصطلحات المُولدة كاقتراحات. قبل إضافتها إلى مصطلحاتك:
 
-* **Check accuracy** — Verify that definitions are correct for your course level and context
-* **Edit wording** — Adjust the definition to match your teaching style or course conventions
-* **Remove duplicates** — Skip any terms already in your glossary or outside the scope of your course
-* **Select what to add** — Choose which terms to import; you do not have to accept all of them
+* **تحقق من الدقة** — تحقق من أن التعريفات صحيحة لمستوى مساقك وسياقه
+* **عدّل الصياغة** — قم بتعديل التعريف ليتناسب مع أسلوب تدريسك أو اتفاقيات المساق
+* **أزل التكرارات** — تجاهل أي مصطلحات موجودة بالفعل في مصطلحاتك أو خارج نطاق مساقك
+* **حدد ما يُضاف** — اختر المصطلحات التي تريد استيرادها؛ ليس عليك قبولها جميعها
 
-Once satisfied, confirm the selection and the terms are added to your glossary.
+بمجرد الرضا عنها، أكد الاختيار وستُضاف المصطلحات إلى مصطلحاتك.
 
-## Tips
+## نصائح
 
-* **Be specific with your topic** — Broad topics produce general definitions; a narrower topic gives you more course-relevant terms
-* **Always review** — AI definitions may be simplified or imprecise. Check each one before publishing to learners
-* **Edit after importing** — You can always update a term's definition later from the glossary management view
-* **Combine with manual entries** — Use the generator to get a starting set, then add discipline-specific terms manually
+* **كن محددًا في موضوعك** — المواضيع الواسعة تنتج تعريفات عامة؛ موضوع أضيق يمنحك مصطلحات أكثر صلة بالمساق
+* **راجع دائمًا** — تعريفات الذكاء الاصطناعي قد تكون مبسطة أو غير دقيقة. تحقق من كل واحدة قبل النشر للمتعلمين
+* **عدّل بعد الاستيراد** — يمكنك دائمًا تحديث تعريف مصطلح لاحقًا من عرض إدارة المصطلحات
+* **اجمع مع الإدخالات اليدوية** — استخدم المولد للحصول على مجموعة بدائية، ثم أضف مصطلحات خاصة بالتخصص يدويًا

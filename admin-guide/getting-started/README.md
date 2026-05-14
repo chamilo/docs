@@ -1,25 +1,25 @@
-# Getting Started
+# البدء
 
-This section introduces the Chamilo 2.0 administration interface and helps you get oriented.
+يقدم هذا القسم واجهة إدارة Chamilo 2.0 ويساعدك على التعرف عليها.
 
-## Who Is an Administrator?
+## من هو المسؤول؟
 
-Chamilo has several levels of administrative roles:
+يحتوي Chamilo على عدة مستويات من أدوار الإدارة:
 
-| Role | Access |
+| الدور | الوصول |
 |------|--------|
-| **Administrator** | Full access to all administration features for the platform. Also known as **Portal Administrator** |
-| **Global Administrator** | Same as Portal Administrator, with access across all access URLs in a multi-URL (multi-tenant) setup |
-| **Sessions Administrator** | Can manage sessions, enroll users in sessions, and access session-related settings |
-| **Human Resources Manager** | Can view learner progress and tracking data for assigned users |
-| **Questions Manager** | Less of an administrator than a content curator, question managers have access to a global question bank to review questions' quality |
+| **Administrator** | وصول كامل إلى جميع ميزات الإدارة في المنصة. يُعرف أيضًا باسم **Portal Administrator** |
+| **Global Administrator** | نفس صلاحيات Portal Administrator، مع وصول عبر جميع عناوين URL في إعداد متعدد URL (multi-tenant) |
+| **Sessions Administrator** | يمكنه إدارة الجلسات، وتسجيل المستخدمين في الجلسات، والوصول إلى إعدادات الجلسات |
+| **Human Resources Manager** | يمكنه عرض تقدم المتعلمين وبيانات التتبع للمستخدمين المعينين له |
+| **Questions Manager** | أقل من كونه مسؤولًا، فهو مدير محتوى، يمتلك وصولًا إلى بنك أسئلة عام لمراجعة جودة الأسئلة |
 
-This guide focuses primarily on the **Portal Administrator** role, which has the broadest access.
+يركز هذا الدليل بشكل أساسي على دور **Portal Administrator**، الذي يتمتع بالوصول الأوسع.
 
-## Logging In
+## تسجيل الدخول
 
-Administrators log in through the same login page as all other users. After entering your credentials, you will be sent (in the absence of other configuration) to the **Administration** page. A notable difference from other user roles is the **Administration** section in the sidebar (not visible to other roles).
+يسجل المسؤولون الدخول من خلال نفس صفحة تسجيل الدخول المستخدمة من قبل جميع المستخدمين الآخرين. بعد إدخال بيانات الاعتماد الخاصة بك، سيتم توجيهك (في غياب إعدادات أخرى) إلى صفحة **Administration**. الفرق البارز عن أدوار المستخدمين الأخرى هو قسم **Administration** في الشريط الجانبي (غير مرئي للأدوار الأخرى).
 
-## Next Steps
+## الخطوات التالية
 
-* [Admin Interface Overview](admin-interface-overview.md) — A tour of the administration panel and its sections
+* [Admin Interface Overview](admin-interface-overview.md) — جولة في لوحة الإدارة وقسمها

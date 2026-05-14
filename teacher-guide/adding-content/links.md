@@ -1,43 +1,43 @@
-# Links
+# الروابط
 
-The links tool lets you share useful URLs with your learners, organized by category.
+يسمح أداة الروابط بمشاركة عناوين URL مفيدة مع متعلميك، منظمة حسب الفئة.
 
-## Adding a Link
+## إضافة رابط
 
-1. Open the **Links** <img src="/.gitbook/assets/icons/mdi-link.svg" alt="Links" data-size="line"> tool from the course homepage
-2. Click **Add a link** <img src="/.gitbook/assets/icons/mdi-link-plus.svg" alt="Add link" data-size="line">
-3. Fill in the details:
-   * **URL** — The web address (e.g., `https://example.com/resource`)
-   * **Link name** — A descriptive name for the link
-   * **Description** — An optional explanation of what the resource is about
-   * **Category** — Assign the link to a category for organization
-   * **Target** — Where the link opens: `_self` (same window), `_blank` (new tab), `_parent`, or `_top`
-   * **Show link on course homepage** — Whether you want to show it as a tool icon on the course homepage
-4. Save
+1. افتح أداة **Links** <img src="/.gitbook/assets/icons/mdi-link.svg" alt="Links" data-size="line"> من الصفحة الرئيسية للمقرر
+2. انقر على **Add a link** <img src="/.gitbook/assets/icons/mdi-link-plus.svg" alt="Add link" data-size="line">
+3. املأ التفاصيل:
+   * **URL** — عنوان الويب (مثال: `https://example.com/resource`)
+   * **Link name** — اسم وصفي للرابط
+   * **Description** — شرح اختياري لما يتعلق به المورد
+   * **Category** — تعيين الرابط إلى فئة للتنظيم
+   * **Target** — مكان فتح الرابط: `_self` (نفس النافذة)، `_blank` (تبويب جديد)، `_parent`، أو `_top`
+   * **Show link on course homepage** — ما إذا كنت تريد عرضه كأيقونة أداة في الصفحة الرئيسية للمقرر
+4. احفظ
 
-## Organizing with Categories
+## التنظيم باستخدام الفئات
 
-Categories help you group related links together:
+تساعد الفئات في تجميع الروابط ذات الصلة معًا:
 
-1. Click **Add a category**
-2. Enter a **category name** and optional description
-3. Save
+1. انقر على **Add a category**
+2. أدخل **category name** ووصفًا اختياريًا
+3. احفظ
 
-Links within a category are displayed together, making it easy for learners to find relevant resources.
+يتم عرض الروابط داخل الفئة معًا، مما يسهل على المتعلمين العثور على الموارد ذات الصلة.
 
-## Managing Links
+## إدارة الروابط
 
-* **Link checking** <img src="/.gitbook/assets/icons/mdi-check-circle.svg" alt="Validity" data-size="line">  — Chamilo can verify whether links are still active or broken
-* **Edit** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Edit" data-size="line"> — Update the link's URL, title, or description
-* **Visibility** <img src="/.gitbook/assets/icons/mdi-eye.svg" alt="Visibility" data-size="line"> — Hide or show the link to learners
-* **Delete** <img src="/.gitbook/assets/icons/mdi-delete.svg" alt="Delete" data-size="line"> — Remove the link
+* **Link checking** <img src="/.gitbook/assets/icons/mdi-check-circle.svg" alt="Validity" data-size="line">  — يمكن لـ Chamilo التحقق مما إذا كانت الروابط لا تزال نشطة أو معطلة
+* **Edit** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Edit" data-size="line"> — تحديث عنوان URL للرابط، أو العنوان، أو الوصف
+* **Visibility** <img src="/.gitbook/assets/icons/mdi-eye.svg" alt="Visibility" data-size="line"> — إخفاء الرابط أو إظهاره للمتعلمين
+* **Delete** <img src="/.gitbook/assets/icons/mdi-delete.svg" alt="Delete" data-size="line"> — إزالة الرابط
 
-## Exporting Links
+## تصدير الروابط
 
-You can export your link collection to PDF. Look for the **Export** option in the links tool.
+يمكنك تصدير مجموعة الروابط الخاصة بك إلى PDF. ابحث عن خيار **Export** في أداة الروابط.
 
-## Tips
+## نصائح
 
-* **Categorize by topic** — Create a category for each module or week of your course
-* **Add descriptions** — Help learners understand why a link is relevant before they click it
-* **Check regularly** — Web links can become outdated or broken over time
+* **Categorize by topic** — إنشاء فئة لكل وحدة أو أسبوع في مقررك
+* **Add descriptions** — مساعدة المتعلمين على فهم سبب صلة الرابط قبل النقر عليه
+* **Check regularly** — يمكن أن تصبح روابط الويب قديمة أو معطلة مع مرور الوقت

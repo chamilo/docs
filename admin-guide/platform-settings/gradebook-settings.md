@@ -1,293 +1,294 @@
-# Gradebook (Assessments) Settings
+# إعدادات دفتر الدرجات (التقييمات)
 
-Defaults applied across the **Gradebook (Assessments)** tool — score display, decimal precision, certificate score thresholds, and aggregation.
+الإعدادات الافتراضية المطبقة عبر أداة **دفتر الدرجات (التقييمات)** — عرض الدرجات، دقة الأعداد العشرية، عتبات درجات الشهادات، والتجميع.
 
-Access these settings under **Administration > Configuration settings > Gradebook (Assessments)**. This category contains **34 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+الوصول إلى هذه الإعدادات تحت **الإدارة > إعدادات التكوين > دفتر الدرجات (التقييمات)**. تحتوي هذه الفئة على **34 إعدادًا**، مدرجة أدناه مع العنوان والتعليق المرسل في إعدادات المنصة (`SettingsCurrentFixtures.php`).
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> يتم عرض اسم المتغير في الكود بخط monospace. استخدمه عند البرمجة عبر `API` أو عند الحاجة إلى تغيير هذه الإعدادات على المستوى العام عن طريق تحرير [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
 
-## Settings
+## الإعدادات
 
 ### `allow_gradebook_comments`
 
-**Gradebook comments**
+**تعليقات دفتر الدرجات**
 
-Enable gradebook comments so teachers can add a comment to the overall performance of the learner in this course. The comment will appear in the PDF export for the learner.
+تمكين تعليقات دفتر الدرجات حتى يتمكن المعلمون من إضافة تعليق على الأداء العام للمتعلم في هذه الدورة. سيظهر التعليق في تصدير `PDF` للمتعلم.
 
-*Default: `false`*
+*افتراضي: `false`*
 
 
 ### `allow_gradebook_stats`
 
-**Cache results in the gradebook**
+**تخزين النتائج مؤقتًا في دفتر الدرجات**
 
-Put some of the large calculations of averages in cached fields for the links and evaluations to increase speed (considerably). The potential negative impact is that it can take some time to refresh the gradebook results tables.
+وضع بعض الحسابات الكبيرة للمتوسطات في حقول مؤقتة للروابط والتقييمات لزيادة السرعة (بشكل كبير). التأثير السلبي المحتمل هو أنه قد يستغرق بعض الوقت لتحديث جداول نتائج دفتر الدرجات.
 
-*Default: `false`*
+*افتراضي: `false`*
 
 ### `gradebook_badge_sidebar`
 
-**Gradebook badges sidebar**
+**شريط جانبي لشارات دفتر الدرجات**
 
-Generate a block inside the side menu where a few badges can be shown as pending approval. Requires gradebooks to be listed here, by (numerical) ID.
+إنشاء كتلة داخل القائمة الجانبية حيث يمكن عرض بعض الشارات كمعلقة للموافقة. يتطلب سرد دفاتر الدرجات هنا، حسب (المعرف) الرقمي.
 
 ### `gradebook_default_grade_model_id`
 
-**Default grade model**
+**نموذج الدرجات الافتراضي**
 
-This value will be selected by default when creating a course
+سيتم تحديد هذه القيمة افتراضيًا عند إنشاء دورة
 
 ### `gradebook_default_weight`
 
-**Default weight in Gradebook**
+**الوزن الافتراضي في دفتر الدرجات**
 
-This weight will be use in all courses by default
+سيتم استخدام هذا الوزن في جميع الدورات افتراضيًا
 
-*Default: `100`*
+*افتراضي: `100`*
 
 ### `gradebook_dependency`
 
-**Inter-gradebook dependencies**
+**تبعيات بين دفاتر الدرجات**
 
-Enables a mechanism of gradebook dependencies that lets people know which other items they need to go through first in order to complete the gradebook.
+تمكين آلية تبعيات دفتر الدرجات التي تخبر الأشخاص بالعناصر الأخرى التي يجب عليهم اجتيازها أولاً لإكمال دفتر الدرجات.
 
-*Default: `false`*
+*افتراضي: `false`*
 
 
 ### `gradebook_dependency_mandatory_courses`
 
-**Mandatory courses for gradebook dependencies**
+**الدورات الإلزامية لتبعيات دفتر الدرجات**
 
-When using inter-gradebook dependencies, you can choose a list of mandatory courses that will be required before approving any gradebook that has dependencies.
+عند استخدام تبعيات بين دفاتر الدرجات، يمكنك اختيار قائمة بالدورات الإلزامية التي ستكون مطلوبة قبل الموافقة على أي دفتر درجات له تبعيات.
 
 ### `gradebook_detailed_admin_view`
 
-**Show additional columns in gradebook**
+**عرض أعمدة إضافية في دفتر الدرجات**
 
-Show additional columns in the student view of the gradebook with the best score of all students, the relative position of the student looking at the report and the average score of the whole group of students.
+عرض أعمدة إضافية في عرض الطالب لدفتر الدرجات مع أعلى درجة لجميع الطلاب، والموقع النسبي للطالب الذي يشاهد التقرير، ومتوسط درجة مجموعة الطلاب بأكملها.
 
-*Default: `false`*
+*افتراضي: `false`*
 
 
 ### `gradebook_display_extra_stats`
 
-**Gradebook extra statistics**
+**إحصاءات إضافية لدفتر الدرجات**
 
-Add additional columns to the gradebook's main report (1 = ranking, 2 = best score, 3 = average).
+إضافة أعمدة إضافية إلى تقرير دفتر الدرجات الرئيسي (1 = الترتيب، 2 = أعلى درجة، 3 = المتوسط).
 
 ### `gradebook_enable`
 
-**Assessments tool activation**
+**تفعيل أداة التقييمات**
 
-The Assessments tool allows you to assess competences in your organization by merging classroom and online activities evaluations into Performance reports. Do you want to activate it?
+تسمح أداة التقييمات بتقييم الكفاءات في منظمتك من خلال دمج تقييمات الأنشطة الصفية والعبر الإنترنت في تقارير الأداء. هل تريد تفعيلها؟
 
-*Default: `true`*
+*افتراضي: `true`*
 
 
 ### `gradebook_enable_grade_model`
 
-**Enable Gradebook model**
+**تمكين نموذج دفتر الدرجات**
 
-Enables the auto creation of gradebook categories inside a course depending of the gradebook models.
+تمكين الإنشاء التلقائي لفئات دفتر الدرجات داخل الدورة اعتمادًا على نماذج دفتر الدرجات.
 
-*Default: `false`*
+*افتراضي: `false`*
 
 ### `gradebook_enable_subcategory_skills_independant_assignement`
 
-**Enable skills by gradebook's subcategory**
+**تمكين المهارات حسب فئة فرعية في دفتر الدرجات**
 
-Skills are normally attributed for completing a whole gradebook. By enabling this option, you allow skills to be attached to sub-sections of gradebooks.
+عادةً ما تُنسب المهارات لإكمال دفتر درجات كامل. بتمكين هذا الخيار، تسمح بربط المهارات بأقسام فرعية من دفاتر الدرجات.
 
-*Default: `false`*
+*افتراضي: `false`*
 
 
 ### `gradebook_flatview_extrafields_columns`
 
-**User extra fields in gradebook flat view**
+**حقول إضافية للمستخدم في عرض دفتر الدرجات المسطح**
 
-Add the given columns ('variables' array) to the main results table in the gradebook.
+إضافة الأعمدة المحددة (مصفوفة 'variables') إلى جدول النتائج الرئيسي في دفتر الدرجات.
 
 ### `gradebook_hide_graph`
 
-**Hide gradebook charts**
+**إخفاء رسوم بيانية دفتر الدرجات**
 
-If your portal is resources-limited, reducing the generation of the dynamic gradebok charts with potentially thousands of results is a good option.
+إذا كان بوابك محدود الموارد، فإن تقليل إنشاء رسوم بيانية دفتر الدرجات الديناميكية التي قد تحتوي على آلاف النتائج خيار جيد.
 
-*Default: `false`*
+*افتراضي: `false`*
 
 
 ### `gradebook_hide_link_to_item_for_student`
 
-**Hide item links for learners in gradebook**
+**إخفاء روابط العناصر للمتعلمين في دفتر الدرجات**
 
-Avoid learners clicking on items from the gradebook by removing the links on the items.
+تجنب النقر من قبل المتعلمين على العناصر من دفتر الدرجات عن طريق إزالة الروابط على العناصر.
 
-*Default: `false`*
+*افتراضي: `false`*
 
 
 ### `gradebook_hide_pdf_report_button`
 
-**Hide gradebook button 'download PDF report'**
+**إخفاء زر دفتر الدرجات 'تنزيل تقرير PDF'**
 
-Removes the PDF export button from gradebook views for learners.
+إزالة زر تصدير `PDF` من واجهات دفتر الدرجات للمتعلمين.
 
-*Default: `false`*
+*افتراضي: `false`*
 
 
 ### `gradebook_hide_table`
 
-**Hide gradebook table for learners**
+**إخفاء جدول دفتر الدرجات للمتعلمين**
 
-Reduce gradebook load time by hiding the results table (but still giving access to certificates, skills, etc).
+تقليل وقت تحميل دفتر الدرجات عن طريق إخفاء جدول النتائج (مع الاحتفاظ بالوصول إلى الشهادات والمهارات، إلخ).
 
-*Default: `false`*
+*افتراضي: `false`*
 
 
+---
+
+---
 ### `gradebook_locking_enabled`
 
-**Enable locking of assessments by teachers**
+**تمكين قفل التقييمات من قبل المعلمين**
 
-Once enabled, this option will enable locking of any assessment by the teachers of the corresponding course. This, in turn, will prevent any modification of results by the teacher inside the resources used in the assessment: exams, learning paths, tasks, etc. The only role authorized to unlock a locked assessment is the administrator. The teacher will be informed of this possibility. The locking and unlocking of gradebooks will be registered in the system's report of important activities
+بمجرد التفعيل، سيسمح هذا الخيار بقفل أي تقييم من قبل معلمي المقرر المعني. وبالتالي، سيمنع أي تعديل على النتائج من قبل المعلم داخل الموارد المستخدمة في التقييم: الامتحانات، مسارات التعلم، المهام، إلخ. الدور الوحيد المخول بفك قفل تقييم مقفل هو مدير النظام. سيتم إخطار المعلم بهذه الإمكانية. سيتم تسجيل عمليات قفل وفك قفل دفتر الدرجات في تقرير أنشطة النظام المهمة.
 
-*Default: `false`*
+*القيمة الافتراضية: `false`*
 
 ### `gradebook_multiple_evaluation_attempts`
 
-**Allow multiple evaluation attempts in gradebook**
+**السماح بمحاولات تقييم متعددة في دفتر الدرجات**
 
-Allows adding comments to multiple evaluation attempts in gradebook and result tables.
+يسمح بإضافة تعليقات إلى محاولات تقييم متعددة في دفتر الدرجات وجداول النتائج.
 
-*Default: `false`*
+*القيمة الافتراضية: `false`*
 
 
 ### `gradebook_number_decimals`
 
-**Number of decimals**
+**عدد الأرقام العشرية**
 
-Allows you to set the number of decimals allowed in a score
+يسمح لك بتعيين عدد الأرقام العشرية المسموح بها في الدرجة
 
-*Default: `0`*
+*القيمة الافتراضية: `0`*
 
 ### `gradebook_pdf_export_settings`
 
-**Gradebook PDF export options**
+**خيارات تصدير PDF لدفتر الدرجات**
 
-Change the PDF export for learners based on the provided settings ('hide_score_weight', 'hide_feedback_textarea', ...)
+تغيير تصدير PDF للمتعلمين بناءً على الإعدادات المقدمة ('hide_score_weight', 'hide_feedback_textarea', ...)
 
 ### `gradebook_report_score_style`
 
-**Gradebook reports score style**
+**نمط عرض الدرجات في تقارير دفتر الدرجات**
 
-Add gradebook score style configuration in the flat view. See api.lib.php in order to find the options: examples SCORE_DIV = 1, SCORE_PERCENT = 2, etc
+إضافة تكوين نمط عرض الدرجات في دفتر الدرجات في العرض المسطح. انظر api.lib.php للعثور على الخيارات: أمثلة SCORE_DIV = 1، SCORE_PERCENT = 2، إلخ
 
-*Default: `1`*
+*القيمة الافتراضية: `1`*
 
 
 ### `gradebook_score_display_colorsplit`
 
-**Threshold**
+**العتبة**
 
-The threshold (in %) under which scores will be colored red
+العتبة (بالنسبة المئوية %) التي تحتها سيتم تلوين الدرجات باللون الأحمر
 
-*Default: `50`*
+*القيمة الافتراضية: `50`*
 
 
 ### `gradebook_score_display_custom`
 
-**Competence levels labelling**
+**تسمية مستويات الكفاءة**
 
-Tick the box to enable Competence levels labelling
+حدد المربع لتمكين تسمية مستويات الكفاءة
 
-*Default: `false`*
+*القيمة الافتراضية: `false`*
 
 
 ### `gradebook_score_display_custom_standalone`
 
-**Custom score display in gradebook's standalone column**
+**عرض مخصص للدرجات في عمود دفتر الدرجات المستقل**
 
-Shows custom competence level values in a separate column in gradebook flatview when using custom score display.
+يعرض قيم مستوى الكفاءة المخصصة في عمود منفصل في عرض دفتر الدرجات المسطح عند استخدام عرض الدرجات المخصص.
 
-*Default: `false`*
+*القيمة الافتراضية: `false`*
 
 
 ### `gradebook_score_display_upperlimit`
 
-**Display score upper limit**
+**عرض الحد الأعلى للدرجة**
 
-Tick the box to show the score's upper limit
+حدد المربع لإظهار الحد الأعلى للدرجة
 
-*Default: `false`*
+*القيمة الافتراضية: `false`*
 
 
 ### `gradebook_use_apcu_cache`
 
-**Use APCu caching to speed up gradebok**
+**استخدام ذاكرة التخزين المؤقت APCu لتسريع دفتر الدرجات**
 
-Improve speed when rendering gradebook student reports using Doctrine APCU cache. APCu is an optional but recommended PHP extension.
+تحسين السرعة عند عرض تقارير طلاب دفتر الدرجات باستخدام ذاكرة التخزين المؤقت Doctrine APCu. APCu هو امتداد PHP اختياري ولكنه موصى به.
 
-*Default: `true`*
+*القيمة الافتراضية: `true`*
 
 
 ### `gradebook_use_exercise_score_settings_in_categories`
 
-**Use test settings for grades display**
+**استخدام إعدادات عرض درجات الاختبار لعرض الدرجات**
 
-Applies exercise score display settings (percentage vs. points) to category scores in gradebook.
+يطبق إعدادات عرض درجات التمرين (النسبة المئوية مقابل النقاط) على درجات الفئات في دفتر الدرجات.
 
-*Default: `true`*
+*القيمة الافتراضية: `true`*
 
 
 ### `gradebook_use_exercise_score_settings_in_total`
 
-**Use global score display setting in gradebook**
+**استخدام إعداد عرض الدرجة العامة في دفتر الدرجات**
 
-Applies global exercise score display settings to total score calculations in gradebook.
+يطبق إعدادات عرض درجات التمرين العامة على حسابات الدرجة الإجمالية في دفتر الدرجات.
 
-*Default: `false`*
+*القيمة الافتراضية: `false`*
 
 
 ### `hide_gradebook_percentage_user_result`
 
-**Hide percentage in best/average gradebook results**
+**إخفاء النسبة المئوية في أفضل/متوسط نتائج دفتر الدرجات**
 
-Removes percentage display from best/average score results shown to learners in gradebook.
+إزالة عرض النسبة المئوية من نتائج أفضل/متوسط الدرجات المعروضة للمتعلمين في دفتر الدرجات.
 
-*Default: `true`*
+*القيمة الافتراضية: `true`*
 
 
 ### `my_display_coloring`
 
-**Display colors for scores in the gradebook**
+**عرض الألوان للدرجات في دفتر الدرجات**
 
-Enables color coding for better score visibility in the gradebook.
+تمكين ترميز الألوان لتحسين رؤية الدرجات في دفتر الدرجات.
 
-*Default: `false`*
+*القيمة الافتراضية: `false`*
 
 
 ### `student_publication_to_take_in_gradebook`
 
-**Assignment considered for gradebook**
+**الواجب المُعتَبر في دفتر الدرجات**
 
-In the assignments tool, students can upload more than one file. In case there is more than one for a single assignment, which one should be considered when ranking them in the gradebook? This depends on your methodology. Use 'first' to put the accent on attention to detail (like handling in time and handling the right work first). Use 'last' to highlight collaborative and adaptative work.
+في أداة الواجبات، يمكن للطلاب تحميل أكثر من ملف واحد. في حال وجود أكثر من واحد للواجب الواحد، أي واحد يجب اعتباره عند ترتيبهم في دفتر الدرجات؟ يعتمد هذا على منهجيتك. استخدم 'first' للتركيز على الاهتمام بالتفاصيل (مثل التسليم في الوقت المحدد وتسليم العمل الصحيح أولاً). استخدم 'last' لإبراز العمل التعاوني والتكيفي.
 
-*Default: `first`*
+*القيمة الافتراضية: `first`*
 
 
 ### `teachers_can_change_grade_model_settings`
 
-**Teachers can change the Gradebook model settings**
+**يمكن للمعلمين تغيير إعدادات نموذج دفتر الدرجات**
 
-When editing a Gradebook
+عند تحرير دفتر الدرجات
 
-*Default: `true`*
+*القيمة الافتراضية: `true`*
 
 
 ### `teachers_can_change_score_settings`
 
-**Teachers can change the Gradebook score settings**
+**يمكن للمعلمين تغيير إعدادات درجات دفتر الدرجات**
 
-When editing the Gradebook settings
+عند تحرير إعدادات دفتر الدرجات
 
-*Default: `true`*
-
-
+*القيمة الافتراضية: `true`*

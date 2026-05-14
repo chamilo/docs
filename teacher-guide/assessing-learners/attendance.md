@@ -1,66 +1,66 @@
-# Attendance
+# الحضور
 
-The attendance tool lets you track learner presence for scheduled class sessions, whether in-person or online.
+يسمح أداة الحضور بتتبع حضور المتعلمين في جلسات الصف المجدولة، سواء كانت حضورية أو عبر الإنترنت.
 
-## Creating an Attendance Sheet
+## إنشاء جدول حضور
 
-1. Open the **Attendance** tool from the course homepage
-2. Click **Add attendance** to create an attendance sheet
-3. Enter a **Title** for the attendance sheet (e.g., "Week 1 - Introduction")
-4. Enter a **Description** (this is mostly for your use - learners will not see the description)
-5. Save
+1. افتح أداة **الحضور** من الصفحة الرئيسية للمقرر الدراسي
+2. انقر على **إضافة حضور** لإنشاء جدول حضور
+3. أدخل **عنوانًا** لجدول الحضور (مثل "الأسبوع 1 - المقدمة")
+4. أدخل **وصفًا** (هذا بشكل أساسي لاستخدامك - لن يرى المتعلمون الوصف)
+5. احفظ
 
-### Advanced settings
+### الإعدادات المتقدمة
 
-1. **Require unique presence** allows you to consider a learner as fully present if he/she participated even to only one date of the attendance sheet
-2. **Gradebook options** lets you decide to qualify the attendance sheet in the assessement tool (gradebook).
+1. **طلب حضور فريد** يسمح لك باحتساب المتعلم حاضرًا بالكامل إذا شارك حتى في تاريخ واحد فقط من جدول الحضور
+2. **خيارات دفتر الدرجات** تسمح لك بتحديد ما إذا كان جدول الحضور مؤهلاً في أداة التقييم (دفتر الدرجات).
 
-## Adding dates
+## إضافة تواريخ
 
-Each attendance sheet contains one or more dates (sessions) where you record presence:
+يحتوي كل جدول حضور على تاريخ واحد أو أكثر (جلسات) حيث تسجل الحضور:
 
-1. Open an attendance sheet or continue with the creation process
-2. Click **Add a date** <img src="/.gitbook/assets/icons/mdi-calendar-plus.svg" alt="Add date" data-size="line">
-3. Select the date and time
-4. Optionally, check **Repeat date** to choose a repetition logic
-5. Give a **Duration** in minutes for the event (defaults to 60 minutes)
-6. Optionally, select a **Group** if this attendance date only applies to one group of learners
-7. Save
+1. افتح جدول حضور أو استمر في عملية الإنشاء
+2. انقر على **إضافة تاريخ** <img src="/.gitbook/assets/icons/mdi-calendar-plus.svg" alt="إضافة تاريخ" data-size="line">
+3. حدد التاريخ والوقت
+4. اختياريًا، حدد **تكرار التاريخ** لاختيار منطق التكرار
+5. أعطِ **مدة** بالدقائق للحدث (الافتراضي 60 دقيقة)
+6. اختياريًا، حدد **مجموعة** إذا كان تاريخ الحضور هذا ينطبق فقط على مجموعة واحدة من المتعلمين
+7. احفظ
 
-You can add multiple dates to the same attendance sheet (e.g., all sessions for a month).
+يمكنك إضافة تواريخ متعددة إلى نفس جدول الحضور (مثل جميع الجلسات لشهر).
 
-## Recording Attendance
+## تسجيل الحضور
 
-For each date, mark each learner as:
+لكل تاريخ، قم بعلامة كل متعلم كـ:
 
-* **Present** — The learner attended (default value for all learners)
-* **Absent** — The learner did not attend
+* **حاضر** — حضر المتعلم (القيمة الافتراضية لجميع المتعلمين)
+* **غائب** — لم يحضر المتعلم
 
-Click on the status cell next to each learner's name to toggle between present and absent.
+انقر على خلية الحالة بجانب اسم كل متعلم للتبديل بين الحاضر والغائب.
 
-By default, all learners are marked present, as we consider that chances are you have more people present than absent.
+افتراضيًا، يتم علامة جميع المتعلمين كحاضرين، حيث نعتبر أن فرص وجود أشخاص أكثر حضورًا من الغياب أعلى.
 
-Note: Admins can modify the portal configuration to allow you to choose more extended attendance types (late, absent with justification, etc), which can better reflect your procedures. In this case, just clicking the presence input will toggle between all the presence types.
+ملاحظة: يمكن للمشرفين تعديل تكوين البوابة للسماح لك باختيار أنواع حضور أوسع (متأخر، غائب بتبرير، إلخ)، والتي يمكن أن تعكس إجراءاتك بشكل أفضل. في هذه الحالة، مجرد النقر على إدخال الحضور سيقوم بالتبديل بين جميع أنواع الحضور.
 
-## Viewing Attendance Reports
+## عرض تقارير الحضور
 
-![The attendance sheet showing a summary table with learners, dates, and presence indicators](/.gitbook/assets/attendance-sheet.png)
+![جدول الحضور الذي يعرض جدولًا ملخصًا مع المتعلمين والتواريخ ومؤشرات الحضور](/.gitbook/assets/attendance-sheet.png)
 
-The attendance tool shows:
+تعرض أداة الحضور:
 
-* A summary table with all learners and all dates
-* Each learner's attendance percentage (present sessions / total sessions)
-* Color-coded indicators for easy scanning
+* جدول ملخص يحتوي على جميع المتعلمين وجميع التواريخ
+* نسبة حضور كل متعلم (جلسات الحضور / إجمالي الجلسات)
+* مؤشرات مشفرة بالألوان للمسح السهل
 
-## Extra
+## إضافات
 
-Attendances have a few extended features that are not visible straight away:
-* **Signatures** can be enabled so that learners can sign their attendance in-class through a tablet handled by the teacher
-* **Comments** can be added by the teacher on each student attendance
-* **PDF reports** can be extracted to comply with regulation
+يحتوي الحضور على بعض الميزات الموسعة غير المرئية مباشرة:
+* **التوقيعات** يمكن تمكينها حتى يتمكن المتعلمون من توقيع حضورهم في الفصل من خلال جهاز لوحي يحمله المعلم
+* **التعليقات** يمكن إضافتها من قبل المعلم على حضور كل طالب
+* **تقارير PDF** يمكن استخراجها للامتثال للوائح
 
-## Tips
+## نصائح
 
-* **Link to course progress** — Use attendance data alongside the Course Progress tool to correlate presence with topic coverage
-* **Export data** — Export the attendance sheet for administrative records
-* **Set expectations** — If attendance is mandatory, communicate the policy clearly in your course introduction or announcements
+* **ربط بتقدم المقرر** — استخدم بيانات الحضور مع أداة تقدم المقرر لربط الحضور بتغطية المواضيع
+* **تصدير البيانات** — قم بتصدير جدول الحضور للسجلات الإدارية
+* **تحديد التوقعات** — إذا كان الحضور إلزاميًا، أبلغ السياسة بوضوح في مقدمة المقرر أو الإعلانات

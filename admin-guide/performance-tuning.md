@@ -1,16 +1,16 @@
-# Performance Tuning
+# تهيئة الأداء
 
-Performance settings help optimize Chamilo for faster page loads and better resource utilization, especially on platforms with many concurrent users.
+تساعد إعدادات الأداء في تحسين Chamilo لتحميل الصفحات بشكل أسرع واستخدام أفضل للموارد، خاصة على المنصات التي تحتوي على العديد من المستخدمين المتزامنين.
 
-> **Additional reference**: Your Chamilo installation includes an extended optimization guide. Open `/documentation/optimization.html` in a browser (e.g. `https://your-chamilo-site/documentation/optimization.html`) for server-level recommendations specific to your version.
+> **مرجع إضافي**: يتضمن تثبيت Chamilo دليل تحسين موسع. افتح `/documentation/optimization.html` في متصفح (مثل `https://your-chamilo-site/documentation/optimization.html`) للحصول على توصيات على مستوى الخادم الخاصة بإصدارك.
 
-## Symfony Cache
+## ذاكرة التخزين المؤقت لـ Symfony
 
-Chamilo 2.0 is built on Symfony, which uses a compiled cache for routing, dependency injection, and templates. Managing this cache is essential for performance.
+يُبنى Chamilo 2.0 على Symfony، الذي يستخدم ذاكرة تخزين مؤقت مترجمة لتوجيه الطلبات، حقن التبعيات، والقوالب. إدارة هذه الذاكرة ضرورية للأداء.
 
-### Clearing the Cache
+### مسح الذاكرة المؤقتة
 
-After configuration changes, deployment, or upgrades, clear the Symfony cache:
+بعد تغييرات الإعدادات، أو النشر، أو الترقيات، قم بمسح ذاكرة التخزين المؤقت لـ Symfony:
 
 ```bash
 # Clear cache for the current environment
@@ -20,25 +20,25 @@ php bin/console cache:clear
 php bin/console cache:clear --env=prod
 ```
 
-In production, always ensure `APP_ENV=prod` is set in your `.env.local` file. The development environment (`APP_ENV=dev`) includes extensive debugging overhead and should never be used in production.
+في الإنتاج، تأكد دائمًا من تعيين `APP_ENV=prod` في ملف `.env.local`. بيئة التطوير (`APP_ENV=dev`) تحتوي على حمل تشغيلي كبير للتصحيح ولا يجب استخدامها أبدًا في الإنتاج.
 
-### Cache Warmup
+### تسخين الذاكرة المؤقتة
 
-After clearing cache, warm it up to pre-compile templates and configuration:
+بعد مسح الذاكرة المؤقتة، قم بتسخينها لترجمة القوالب والإعدادات مسبقًا:
 
 ```bash
 php bin/console cache:warmup --env=prod
 ```
 
-## Caching Strategies
+## استراتيجيات التخزين المؤقت
 
-| Strategy | Description |
+| الاستراتيجية | الوصف |
 |----------|-------------|
-| **OPcache** | PHP's built-in opcode cache. Ensure it is enabled in your `php.ini` with adequate memory (`opcache.memory_consumption=256`). This is the single most impactful performance optimization. |
-| **APCu** | An in-memory key-value cache used by Symfony for storing metadata. Install the APCu PHP extension and configure it in your Symfony cache configuration. |
-| **Redis / Memcached** | For high-traffic platforms, configure an external cache backend. Set the cache adapter in `config/packages/cache.yaml`. |
+| **OPcache** | ذاكرة التخزين المؤقت للأوامر التشغيلية المدمجة في PHP. تأكد من تمكينها في `php.ini` مع ذاكرة كافية (`opcache.memory_consumption=256`). هذه هي التحسين الأكثر تأثيرًا على الأداء. |
+| **APCu** | ذاكرة تخزين مؤقت في الذاكرة للمفاتيح والقيم تستخدمها Symfony لتخزين البيانات الوصفية. قم بتثبيت امتداد PHP APCu وقم بتكوينه في إعدادات ذاكرة التخزين المؤقت لـ Symfony. |
+| **Redis / Memcached** | للمنصات ذات الحركة المرورية العالية، قم بتكوين خلفية تخزين مؤقت خارجية. قم بتعيين محول الذاكرة المؤقتة في `config/packages/cache.yaml`. |
 
-### Recommended OPcache Settings
+### إعدادات OPcache الموصى بها
 
 ```ini
 opcache.enable=1
@@ -48,45 +48,45 @@ opcache.validate_timestamps=0   ; Set to 0 in production for best performance
 opcache.revalidate_freq=0
 ```
 
-When `validate_timestamps` is set to 0, you must clear OPcache after deploying new code (restart PHP-FPM or call `opcache_reset()`).
+عند تعيين `validate_timestamps` إلى 0، يجب عليك مسح OPcache بعد نشر كود جديد (إعادة تشغيل PHP-FPM أو استدعاء `opcache_reset()`).
 
-## Lazy Loading
+## التحميل التأخيري
 
-| Setting | Description |
+| الإعداد | الوصف |
 |---------|-------------|
-| **Lazy-load images** | Enables the `loading="lazy"` attribute on images so that off-screen images load only when scrolled into view. Reduces initial page load time. |
-| **Deferred JavaScript loading** | Load non-critical JavaScript files asynchronously to avoid blocking page rendering. |
+| **تحميل الصور التأخيري** | يمكّن السمة `loading="lazy"` على الصور بحيث يتم تحميل الصور خارج الشاشة فقط عند التمرير إليها. يقلل من وقت تحميل الصفحة الأولي. |
+| **تحميل JavaScript المؤجل** | تحميل ملفات JavaScript غير الحرجة بشكل غير متزامن لتجنب حظر عرض الصفحة. |
 
-## CDN (Content Delivery Network)
+## CDN (شبكة توزيع المحتوى)
 
-For platforms serving users across multiple geographic regions, a CDN can significantly improve load times for static assets (CSS, JavaScript, images).
+للمنصات التي تخدم مستخدمين عبر مناطق جغرافية متعددة، يمكن لـ CDN تحسين أوقات التحميل بشكل كبير للأصول الثابتة (CSS، JavaScript، الصور).
 
-To configure a CDN:
+لتكوين CDN:
 
-1. Set up a CDN distribution (e.g., CloudFront, Cloudflare, or another provider) pointing to your Chamilo server.
-2. Configure the asset base URL in your environment or Symfony configuration so that static assets are served through the CDN.
-3. Set appropriate cache headers for static files (long expiry for versioned assets).
+1. قم بإعداد توزيع CDN (مثل CloudFront، Cloudflare، أو مزود آخر) يشير إلى خادم Chamilo الخاص بك.
+2. قم بتكوين عنوان URL الأساسي للأصول في بيئتك أو إعدادات Symfony بحيث يتم تقديم الأصول الثابتة عبر CDN.
+3. قم بتعيين رؤوس تخزين مؤقت مناسبة للملفات الثابتة (انتهاء صلاحية طويل للأصول المرقمة بالإصدار).
 
-## Database Optimization
+## تحسين قاعدة البيانات
 
-| Action | Description |
+| الإجراء | الوصف |
 |--------|-------------|
-| **Use database connection pooling** | For high-concurrency platforms, configure connection pooling to reduce overhead of establishing database connections. |
-| **Optimize queries** | Chamilo includes database indexes for common queries. Run `ANALYZE TABLE` periodically on MySQL/MariaDB to keep query planner statistics current. |
-| **Separate database server** | For large installations, run the database on a dedicated server rather than sharing resources with the web server. |
+| **استخدام تجميع اتصالات قاعدة البيانات** | للمنصات ذات التزامن العالي، قم بتكوين تجميع الاتصالات لتقليل الحمل التشغيلي لإنشاء اتصالات قاعدة البيانات. |
+| **تحسين الاستعلامات** | يتضمن Chamilo فهارس قاعدة بيانات للاستعلامات الشائعة. قم بتشغيل `ANALYZE TABLE` دوريًا على MySQL/MariaDB للحفاظ على إحصاءات مخطط الاستعلامات محدثة. |
+| **خادم قاعدة بيانات منفصل** | للتثبيتات الكبيرة، قم بتشغيل قاعدة البيانات على خادم مخصص بدلاً من مشاركة الموارد مع خادم الويب. |
 
-## Web Server Configuration
+## تكوين خادم الويب
 
-| Optimization | Description |
+| التحسين | الوصف |
 |--------------|-------------|
-| **Enable gzip/brotli compression** | Compress HTML, CSS, and JavaScript responses. Most web servers support this natively. |
-| **Static file caching** | Set long `Cache-Control` and `Expires` headers for static assets. |
-| **PHP-FPM tuning** | Adjust `pm.max_children`, `pm.start_servers`, and `pm.max_requests` based on available RAM and expected concurrency. |
-| **HTTP/2** | Enable HTTP/2 in your web server for multiplexed connections and header compression. |
+| **تمكين ضغط gzip/brotli** | ضغط استجابات HTML، CSS، و JavaScript. تدعم معظم خوادم الويب هذا بشكل أصلي. |
+| **تخزين الملفات الثابتة مؤقتًا** | قم بتعيين رؤوس `Cache-Control` و `Expires` طويلة الأمد للأصول الثابتة. |
+| **تهيئة PHP-FPM** | قم بتعديل `pm.max_children`، `pm.start_servers`، و `pm.max_requests` بناءً على الذاكرة المتاحة والتزامن المتوقع. |
+| **HTTP/2** | قم بتمكين HTTP/2 في خادم الويب للاتصالات المتعددة والضغط على الرؤوس. |
 
-## Tips
+## نصائح
 
-* **OPcache is the single biggest win** -- Ensure it is enabled and properly sized before pursuing other optimizations.
-* **Never run production with `APP_ENV=dev`** -- The debug toolbar and profiler add significant overhead to every request.
-* **Monitor before tuning** -- Use tools like New Relic, Blackfire, or Symfony's built-in profiler (in dev mode) to identify actual bottlenecks rather than guessing.
-* **Warm the cache after every deployment** to avoid the first user hitting a slow uncached request.
+* **OPcache هو التحسين الأكبر** -- تأكد من تمكينه وتحديد حجمه بشكل صحيح قبل متابعة التحسينات الأخرى.
+* **لا تقم أبدًا بتشغيل الإنتاج مع `APP_ENV=dev`** -- شريط التصحيح والمحلل يضيفان حملًا كبيرًا إلى كل طلب.
+* **راقب قبل التهيئة** -- استخدم أدوات مثل New Relic، Blackfire، أو محلل Symfony المدمج (في وضع التطوير) لتحديد العوائق الفعلية بدلاً من التخمين.
+* **سخّن الذاكرة المؤقتة بعد كل نشر** لتجنب أن يصادف المستخدم الأول طلبًا بطيئًا غير مخزن مؤقتًا.

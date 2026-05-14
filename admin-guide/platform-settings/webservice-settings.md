@@ -1,66 +1,64 @@
-# Web Services Settings
+# إعدادات خدمات الويب
 
-Configuration of the legacy SOAP / REST web services (separate from the modern API Platform endpoints).
+تكوين خدمات الويب القديمة SOAP / REST (منفصلة عن نقاط نهاية منصة API الحديثة).
 
-Access these settings under **Administration > Configuration settings > Web Services**. This category contains **7 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+الوصول إلى هذه الإعدادات تحت **إدارة > إعدادات التكوين > خدمات الويب**. تحتوي هذه الفئة على **7 إعدادات**، مدرجة أدناه مع العنوان والتعليق المرسل في إعدادات المنصة (`SettingsCurrentFixtures.php`).
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> يُعرض اسم المتغير في الكود بخط monospace. استخدمه عند البرمجة عبر API أو عند الحاجة إلى تغيير هذه الإعدادات على المستوى العام عن طريق تحرير [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
 
-## Settings
+## الإعدادات
 
 ### `allow_download_documents_by_api_key`
 
-**Allow download course documents by API Key**
+**السماح بتنزيل مستندات الدورة باستخدام مفتاح API**
 
-Download documents verifying the REST API key for a user
+تنزيل المستندات مع التحقق من مفتاح REST API للمستخدم
 
-*Default: `false`*
+*افتراضي: `false`*
 
 
 ### `disable_webservices`
 
-**Disable web services**
+**تعطيل خدمات الويب**
 
-If you do not use web services, enable this to avoid any unnecessary security risk.
+إذا لم تكن تستخدم خدمات الويب، قم بتفعيل هذا لتجنب أي مخاطر أمنية غير ضرورية.
 
-*Default: `false`*
+*افتراضي: `false`*
 
 
 ### `messaging_allow_send_push_notification`
 
-**Allow Push Notifications to the Chamilo Messaging mobile app**
+**السماح بإشعارات الدفع إلى تطبيق Chamilo Messaging المحمول**
 
-Send Push Notifications by Google's Firebase Console
+إرسال إشعارات الدفع عبر وحدة تحكم Google Firebase
 
-*Default: `false`*
+*افتراضي: `false`*
 
 
 ### `messaging_gdc_api_key`
 
-**Server key of Firebase Console for Cloud Messaging**
+**مفتاح الخادم في وحدة تحكم Firebase لرسائل السحابة**
 
-Server key (legacy token) from project credentials
+مفتاح الخادم (رمز قديم) من بيانات اعتماد المشروع
 
 ### `messaging_gdc_project_number`
 
-**Sender ID of Firebase Console for Cloud Messaging**
+**معرف المرسل في وحدة تحكم Firebase لرسائل السحابة**
 
-You need register a project on <a href='https://console.firebase.google.com/'>Google Firebase Console</a>
+تحتاج إلى تسجيل مشروع على <a href='https://console.firebase.google.com/'>Google Firebase Console</a>
 
 ### `webservice_enable_adminonly_api`
 
-**Enable admin-only web services**
+**تفعيل خدمات الويب الخاصة بالمشرفين فقط**
 
-Some REST web services are marked for admins only and are disabled by default. Enable this feature to give access to these web services (to users with admin credentials, obviously).
+بعض خدمات الويب REST مخصصة للمشرفين فقط ومعطلة افتراضيًا. قم بتفعيل هذه الميزة لمنح الوصول إلى هذه خدمات الويب (للمستخدمين الذين لديهم بيانات اعتماد المشرف، بالطبع).
 
-*Default: `false`*
+*افتراضي: `false`*
 
 ### `webservice_return_user_field`
 
-**Webservices return user field**
+**خدمات الويب تعيد حقل المستخدم**
 
-Ask REST webservices (v2.php) to return another identifier for fields related to user ID. This is useful if the external system doesn't really deal with user IDs as they are in Chamilo, as it helps the external system match the user data return with some external data that is know to Chamilo. For example, if you use an external authentication system, you can return the extra field used to match the user with the external authentication system rather than user.id.
+طلب من خدمات الويب REST (v2.php) إعادة معرف آخر لحقول المتعلقة بمعرف المستخدم. هذا مفيد إذا كانت النظام الخارجي لا يتعامل فعليًا مع معرفات المستخدمين كما هي في Chamilo، حيث يساعد النظام الخارجي على مطابقة بيانات المستخدم المُعادة مع بعض البيانات الخارجية المعروفة لـ Chamilo. على سبيل المثال، إذا كنت تستخدم نظام مصادقة خارجي، يمكنك إعادة الحقل الإضافي المستخدم لمطابقة المستخدم مع نظام المصادقة الخارجي بدلاً من user.id.
 
-*Default: `oauth2_id`*
-
-
+*افتراضي: `oauth2_id`*

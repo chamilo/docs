@@ -1,14 +1,14 @@
-# Email Configuration
+# تهيئة البريد الإلكتروني
 
-Chamilo now manages the emails sending configuration from the administration dashboard, platform settings section (there is a specific entry for emails). Emails are sent for account creations, password resets, course notifications, message alerts, and other platform events. Email delivery is configured through a `MAILER_DSN` configuration setting.
+يُدير Chamilo الآن تهيئة إرسال البريد الإلكتروني من لوحة الإدارة، قسم إعدادات المنصة (هناك مدخل محدد للبريد الإلكتروني). يتم إرسال البريد الإلكتروني لإنشاء الحسابات، وإعادة تعيين كلمات المرور، وإشعارات الدورات، وتنبيهات الرسائل، وأحداث المنصة الأخرى. يتم تهيئة تسليم البريد الإلكتروني من خلال إعداد `MAILER_DSN`.
 
-## Configuration
+## التهيئة
 
-Set the `Mail DSN` option in the /admin/settings/mail section. The format depends on your email transport.
+قم بتعيين خيار `Mail DSN` في قسم /admin/settings/mail. يعتمد التنسيق على وسيط البريد الإلكتروني الخاص بك.
 
 ### SMTP
 
-The most common configuration, suitable for any SMTP server:
+التهيئة الأكثر شيوعًا، والمناسبة لأي خادم SMTP:
 
 ```bash
 # Let the system decide
@@ -24,7 +24,7 @@ smtp://username:password@smtp.example.com:587?encryption=tls
 smtp://localhost:25
 ```
 
-Replace `username`, `password`, and the host with your SMTP server credentials.
+استبدل `username`، و`password`، والمضيف ببيانات اعتماد خادم SMTP الخاص بك.
 
 ### Amazon SES
 
@@ -36,7 +36,7 @@ ses+smtp://ACCESS_KEY:SECRET_KEY@default?region=us-east-1
 ses+api://ACCESS_KEY:SECRET_KEY@default?region=us-east-1
 ```
 
-The Symfony Amazon Mailer transport comes embedded into Chamilo. No additional install required.
+يأتي وسيط Symfony Amazon Mailer مدمجًا في Chamilo. لا يلزم تثبيت إضافي.
 
 ### Mailjet
 
@@ -44,7 +44,7 @@ The Symfony Amazon Mailer transport comes embedded into Chamilo. No additional i
 mailjet+api://API_KEY:SECRET_KEY@default
 ```
 
-The Symfony Mailjet transport comes embedded into Chamilo. No additional install required.
+يأتي وسيط Symfony Mailjet مدمجًا في Chamilo. لا يلزم تثبيت إضافي.
 
 ### Brevo (formerly Sendinblue)
 
@@ -52,7 +52,7 @@ The Symfony Mailjet transport comes embedded into Chamilo. No additional install
 brevo+api://API_KEY@default
 ```
 
-The Symfony Brevo transport comes embedded into Chamilo. No additional install required.
+يأتي وسيط Symfony Brevo مدمجًا في Chamilo. لا يلزم تثبيت إضافي.
 
 ### Gmail (Development/Small Platforms)
 
@@ -60,32 +60,32 @@ The Symfony Brevo transport comes embedded into Chamilo. No additional install r
 gmail+smtp://your-email@gmail.com:app-password@default
 ```
 
-Use an App Password, not your regular Gmail password. This is suitable for small platforms or development only, as Gmail has sending limits.
+استخدم كلمة مرور التطبيق، وليس كلمة مرور Gmail العادية. هذا مناسب للمنصات الصغيرة أو التطوير فقط، حيث لدى Gmail حدود على الإرسال.
 
-## Platform Email Settings
+## إعدادات بريد المنصة الإلكتروني
 
-In addition to the transport, configure the sender identity on the same page:
+بالإضافة إلى الوسيط، قم بتهيئة هوية المرسل في نفس الصفحة:
 
-| Setting | Description |
+| الإعداد | الوصف |
 |---------|-------------|
-| **Send all e-mails as originating from this (organizational) name** | The display name associated with system emails. |
-| **Send all e-mails from this e-mail address** | The "From" address for all system emails. Must be a valid address accepted by your mail transport. We recommend using a "no reply" address like `no-reply@yourdomain.com` to avoid getting pointless answers to automated e-mails. |
+| **إرسال جميع البريد الإلكتروني كأنه صادر عن هذا الاسم (التنظيمي)** | الاسم المعروض المرتبط بالبريد الإلكتروني للنظام. |
+| **إرسال جميع البريد الإلكتروني من عنوان بريد إلكتروني هذا** | عنوان "من" لجميع البريد الإلكتروني للنظام. يجب أن يكون عنوانًا صالحًا مقبولاً من قبل وسيط البريد الخاص بك. نوصي باستخدام عنوان "لا رد" مثل `no-reply@yourdomain.com` لتجنب تلقي ردود غير مفيدة على البريد الإلكتروني الآلي. |
 
-## Testing Email Delivery
+## اختبار تسليم البريد الإلكتروني
 
-After configuring `MAILER_DSN`, test that emails are delivered: Go to *Administration* > *System* > *E-mail tester*, specify a recipient, a subject and an e-mail body and click **Send test email**.
+بعد تهيئة `MAILER_DSN`، اختبر أن البريد الإلكتروني يتم تسليمه: اذهب إلى *إدارة* > *نظام* > *مختبر البريد الإلكتروني*، حدد مستلمًا، وموضوعًا، ونص البريد الإلكتروني، ثم انقر على **إرسال بريد إلكتروني تجريبي**.
 
-If the command completes without errors but the email is not received:
+إذا اكتمل الأمر دون أخطاء لكن البريد الإلكتروني لم يُستلم:
 
-1. Check the recipient's spam/junk folder.
-2. Verify that your sending domain has proper DNS records (SPF, DKIM, DMARC).
-3. Check your mail provider's sending logs for bounces or rejections.
-4. Review the Chamilo log at `var/log/prod.log` for mailer errors.
-5. In the E-mail configuration settings, enable *Mail: Debug* (not available in 2.0, will be soon).
+1. تحقق من مجلد البريد غير المرغوب فيه/السبام لدى المستلم.
+2. تحقق من أن نطاق الإرسال الخاص بك لديه سجلات DNS صحيحة (SPF، DKIM، DMARC).
+3. تحقق من سجلات الإرسال لدى مزود البريد الخاص بك بحثًا عن الارتدادات أو الرفض.
+4. راجع سجل Chamilo في `var/log/prod.log` بحثًا عن أخطاء المرسل.
+5. في إعدادات تهيئة البريد الإلكتروني، قم بتفعيل *بريد: تصحيح أخطاء* (غير متاح في 2.0، سيكون قريبًا).
 
-## Experimental: Email Queue (Async Delivery)
+## تجريبي: طابور البريد الإلكتروني (التسليم غير المتزامن)
 
-By default, emails are sent synchronously during the web request. For better performance, configure asynchronous delivery using Symfony Messenger:
+افتراضيًا، يتم إرسال البريد الإلكتروني بشكل متزامن أثناء طلب الويب. لأداء أفضل، قم بتهيئة التسليم غير المتزامن باستخدام Symfony Messenger:
 
 ```yaml
 # config/packages/messenger.yaml
@@ -97,16 +97,16 @@ framework:
             'Symfony\Component\Mailer\Messenger\SendEmailMessage': async
 ```
 
-With async delivery, emails are queued and sent by a background worker:
+مع التسليم غير المتزامن، يتم وضع البريد الإلكتروني في الطابور وإرساله بواسطة عامل خلفي:
 
 ```bash
 php bin/console messenger:consume async
 ```
 
-Run this as a system service (e.g., via systemd or supervisord) so it stays running.
+شغل هذا كخدمة نظام (مثل systemd أو supervisord) ليظل يعمل.
 
-## Tips
+## نصائح
 
-* **Use a dedicated email service** (SES, Mailjet, Brevo) for production platforms. Direct SMTP to your own mail server requires careful configuration to avoid deliverability issues.
-* **Configure SPF, DKIM, and DMARC** DNS records for your sending domain to maximize delivery rates and prevent emails from being marked as spam. You can also configure DKIM headers from the e-mail settings page.
-* **Use async delivery** on platforms with more than a few dozen active users -- synchronous email sending can noticeably slow down web requests.
+* **استخدم خدمة بريد إلكتروني مخصصة** (SES، Mailjet، Brevo) للمنصات الإنتاجية. يتطلب SMTP المباشر إلى خادم البريد الخاص بك تهيئة دقيقة لتجنب مشكلات التسليم.
+* **قم بتهيئة سجلات DNS SPF، DKIM، وDMARC** لنطاق الإرسال الخاص بك لتعظيم معدلات التسليم ومنع تصنيف البريد الإلكتروني كسبام. يمكنك أيضًا تهيئة رؤوس DKIM من صفحة إعدادات البريد الإلكتروني.
+* **استخدم التسليم غير المتزامن** على المنصات التي لديها أكثر من بضع عشرات من المستخدمين النشطين -- إرسال البريد الإلكتروني المتزامن يمكن أن يبطئ طلبات الويب بشكل ملحوظ.

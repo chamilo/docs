@@ -1,29 +1,29 @@
-# Portfolio
+# المحفظة
 
-The portfolio tool lets learners collect and showcase their work throughout the course. It serves as a digital portfolio where learners can compile their best work, reflections, and achievements.
+يسمح أداة المحفظة للمتعلمين بجمع أعمالهم وعرضها طوال الدورة. وهي تعمل كمحفظة رقمية يمكن للمتعلمين من خلالها تجميع أفضل أعمالهم، وتأملاتهم، وإنجازاتهم.
 
-## How Portfolios Work
+## كيفية عمل المحفظات
 
-Each learner has a personal portfolio within the course where they can:
+يمتلك كل متعلم محفظة شخصية داخل الدورة حيث يمكنه:
 
-* **Add items** — Write text entries with the rich-text editor and attach one or more files to each item
-* **Organize content** — Tag items so they can be filtered by topic
-* **Share selectively** — Set the visibility of each item: hidden, visible to the course, hidden except for the teacher, or shared with selected users when advanced sharing is enabled
+* **إضافة عناصر** — كتابة مدخلات نصية باستخدام محرر النصوص الغني وإرفاق ملف واحد أو أكثر لكل عنصر
+* **تنظيم المحتوى** — وضع علامات على العناصر حتى يمكن تصفيتها حسب الموضوع
+* **المشاركة الانتقائية** — تعيين رؤية كل عنصر: مخفي، مرئي للدورة، مخفي إلا للمعلم، أو مشترك مع مستخدمين محددين عند تمكين المشاركة المتقدمة
 
-## As a Teacher
+## كمعلم
 
-You can use portfolios for:
+يمكنك استخدام المحفظات لأغراض:
 
-* **Reflective learning** — Ask learners to maintain a portfolio of reflections on their learning journey
-* **Competency demonstration** — Have learners collect evidence of skills and knowledge
-* **Assessment** — Review portfolio contents as part of your evaluation
+* **التعلم التأملي** — طلب من المتعلمين الحفاظ على محفظة من التأملات حول رحلة تعلمهم
+* **إظهار الكفاءات** — طلب من المتعلمين جمع أدلة على المهارات والمعرفة
+* **التقييم** — مراجعة محتويات المحفظة كجزء من تقييمك
 
-To view a learner's portfolio, open the portfolio tool and filter the items list by user.
+لعرض محفظة متعلم، افتح أداة المحفظة وقم بتصفية قائمة العناصر حسب المستخدم.
 
-If the course is configured to allow it, you can score portfolio items and individual comments — these scores can then feed into the gradebook. You can also **highlight** items you want to draw attention to, and mark items or comments as **templates** so you (or learners) can reuse them as a starting point for new entries. Portfolios can be exported as **PDF** or **ZIP**.
+إذا كانت الدورة مُعدّلة للسماح بذلك، يمكنك تسجيل درجات لعناصر المحفظة والتعليقات الفردية — ويمكن أن تتدفق هذه الدرجات بعد ذلك إلى دفتر الدرجات. يمكنك أيضًا **إبراز** العناصر التي تريد لفت الانتباه إليها، وعلامة العناصر أو التعليقات كـ**قوالب** حتى تتمكن أنت (أو المتعلمون) من إعادة استخدامها كنقطة انطلاق لمدخلات جديدة. يمكن تصدير المحفظات كـ**PDF** أو **ZIP**.
 
-## Tips
+## نصائح
 
-* **Define expectations** — Tell learners what kinds of items to include and how to organize their portfolio
-* **Review regularly** — Check portfolios periodically rather than only at the end of the course
-* **Combine with skills** — Use portfolios alongside the skills/certificates system to create a comprehensive competency record
+* **تحديد التوقعات** — أخبر المتعلمين بأنواع العناصر التي يجب تضمينها وكيفية تنظيم محفظتهم
+* **المراجعة الدورية** — تحقق من المحفظات بشكل دوري بدلاً من الانتظار حتى نهاية الدورة فقط
+* **الجمع مع المهارات** — استخدم المحفظات إلى جانب نظام المهارات/الشهادات لإنشاء سجل كفاءات شامل

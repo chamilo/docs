@@ -1,57 +1,57 @@
 # LTI 1.3
 
-**LTI** (Learning Tools Interoperability) is a standard that allows external learning tools to be embedded within Chamilo. Version 1.3 is the latest and most secure version of the standard.
+**LTI** (Learning Tools Interoperability) هو معيار يسمح بدمج أدوات تعليمية خارجية داخل Chamilo. الإصدار 1.3 هو أحدث وأكثر الإصدارات أمانًا من المعيار.
 
-## What LTI Allows
+## ما يسمح به LTI
 
-With LTI, you can embed external tools within Chamilo courses. Examples:
+مع LTI، يمكنك تضمين أدوات خارجية داخل دورات Chamilo. أمثلة:
 
-* Interactive simulations
-* Specialized assessment tools
-* Content authoring tools
-* Virtual labs
-* Third-party content libraries
+* محاكاة تفاعلية
+* أدوات تقييم متخصصة
+* أدوات إنشاء المحتوى
+* معامل افتراضية
+* مكتبات محتوى من جهات خارجية
 
-The external tool appears seamlessly within the Chamilo interface.
+تظهر الأداة الخارجية بسلاسة داخل واجهة Chamilo.
 
-## Configuring an LTI Tool
+## تكوين أداة LTI
 
-### As an Administrator
+### كمسؤول
 
-1. Navigate to the LTI settings in the administration panel
-2. **Register the external tool** by providing:
-   * **Tool name** — A descriptive name
-   * **Login URL** — The OIDC login initiation URL of the external tool
-   * **Redirect URL** — The launch URL the tool returns to after login
-   * **Client ID** — Provided by the tool vendor
-   * **Public keyset URL (JWKS URL)** — The tool's JWKS endpoint for security key exchange
-3. Configure **grade passback** — Whether the tool can send grades back to Chamilo
-4. Save
+1. انتقل إلى إعدادات LTI في لوحة الإدارة
+2. **سجل الأداة الخارجية** بتقديم:
+   * **اسم الأداة** — اسم وصفي
+   * **رابط تسجيل الدخول** — رابط بدء تسجيل الدخول OIDC للأداة الخارجية
+   * **رابط إعادة التوجيه** — رابط الإطلاق الذي تعود إليه الأداة بعد تسجيل الدخول
+   * **معرف العميل** — مقدم من مزود الأداة
+   * **رابط مجموعة مفاتيح عامة (JWKS URL)** — نقطة نهاية JWKS للأداة لتبادل المفاتيح الأمنية
+3. قم بتكوين **إرجاع الدرجات** — ما إذا كانت الأداة يمكنها إرسال الدرجات إلى Chamilo
+4. احفظ
 
-### As a Teacher
+### كمدرس
 
-Once an LTI tool is registered by the administrator, teachers can add it to their courses:
+بمجرد تسجيل أداة LTI من قبل المسؤول، يمكن للمدرسين إضافتها إلى دوراتهم:
 
-1. In the course, look for the option to add an external tool
-2. Select from the registered LTI tools
-3. The tool appears as a course tool on the homepage
+1. في الدورة، ابحث عن الخيار لإضافة أداة خارجية
+2. اختر من أدوات LTI المسجلة
+3. تظهر الأداة كأداة دورة على الصفحة الرئيسية
 
-## Security
+## الأمان
 
-LTI 1.3 uses:
+يستخدم LTI 1.3:
 
-* **OAuth 2.0** for authentication
-* **JSON Web Tokens (JWT)** for message signing
-* **Public/private key pairs** for verification
+* **OAuth 2.0** للمصادقة
+* **JSON Web Tokens (JWT)** لتوقيع الرسائل
+* **أزواج مفاتيح عامة/خاصة** للتحقق
 
-This means credentials are never shared directly between Chamilo and the external tool.
+هذا يعني أن بيانات الاعتماد لا تُشارك مباشرة بين Chamilo والأداة الخارجية.
 
-## Grade Passback
+## إرجاع الدرجات
 
-LTI tools can send grades back to Chamilo, which can be integrated into the course gradebook. This is configured per tool during registration.
+يمكن لأدوات LTI إرسال الدرجات إلى Chamilo، والتي يمكن دمجها في دفتر الدرجات للدورة. يتم تكوين هذا لكل أداة أثناء التسجيل.
 
-## Tips
+## نصائح
 
-* **Verify tool compatibility** — Ensure the external tool supports LTI 1.3 (not just older versions)
-* **Test in a sandbox** — Test the LTI integration in a test course before using it in production
-* **Monitor performance** — External tools add network dependencies. Ensure the tool is responsive and reliable.
+* **تحقق من توافق الأداة** — تأكد من أن الأداة الخارجية تدعم LTI 1.3 (وليس فقط الإصدارات القديمة)
+* **اختبر في بيئة تجريبية** — اختبر تكامل LTI في دورة اختبار قبل استخدامه في الإنتاج
+* **راقب الأداء** — تضيف الأدوات الخارجية تبعيات شبكية. تأكد من أن الأداة سريعة الاستجابة وموثوقة.

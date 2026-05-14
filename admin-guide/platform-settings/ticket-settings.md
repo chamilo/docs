@@ -1,68 +1,66 @@
-# Tickets Settings
+# إعدادات التذاكر
 
-Behaviour of the **Tickets** (helpdesk) system.
+سلوك نظام **التذاكر** (مكتب المساعدة).
 
-Access these settings under **Administration > Configuration settings > Tickets**. This category contains **7 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+الوصول إلى هذه الإعدادات تحت **إدارة > إعدادات التكوين > التذاكر**. تحتوي هذه الفئة على **7 إعدادات**، مدرجة أدناه مع العنوان والتعليق المرسل في إعدادات المنصة (`SettingsCurrentFixtures.php`).
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> يُعرض اسم المتغير في الكود بخط monospace. استخدمه عند البرمجة عبر API أو عند الحاجة إلى تغيير هذه الإعدادات على المستوى العام بتحرير [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
 
-## Settings
+## الإعدادات
 
 ### `show_link_bug_notification`
 
-**Show link to report bug**
+**إظهار رابط الإبلاغ عن الخطأ**
 
-Show a link in the header to report a bug inside of our support platform (http://support.chamilo.org). When clicking on the link, the user is sent to the support platform, on a wiki page that describes the bug reporting process.
+إظهار رابط في الرأس للإبلاغ عن خطأ داخل منصة الدعم الخاصة بنا (http://support.chamilo.org). عند النقر على الرابط، يتم إرسال المستخدم إلى منصة الدعم، إلى صفحة ويكي تصف عملية الإبلاغ عن الأخطاء.
 
-*Default: `false`*
+*افتراضي: `false`*
 
 
 ### `show_link_ticket_notification`
 
-**Show ticket creation link**
+**إظهار رابط إنشاء التذكرة**
 
-Show the ticket creation link to users on the right side of the portal
+إظهار رابط إنشاء التذكرة للمستخدمين على الجانب الأيمن من البوابة
 
-*Default: `false`*
+*افتراضي: `false`*
 
 
 ### `ticket_allow_category_edition`
 
-**Allow tickets categories edition**
+**السماح بتحرير فئات التذاكر**
 
-Allow category edition by administrators.
+السماح بتحرير الفئات من قبل المشرفين.
 
-*Default: `false`*
+*افتراضي: `false`*
 
 ### `ticket_allow_student_add`
 
-**Allow users to add tickets**
+**السماح للمستخدمين بإضافة التذاكر**
 
-Allows all users to add tickets not only the administrators.
+يسمح لجميع المستخدمين بإضافة التذاكر لا المشرفين فقط.
 
-*Default: `false`*
+*افتراضي: `false`*
 
 ### `ticket_project_user_roles`
 
-**Access by role to ticket projects**
+**الوصول حسب الدور إلى مشاريع التذاكر**
 
-Allow ticket projects to be accesses by specific user roles. Example: ['permissions' => [1 => [17]] where project_id = 1, STUDENT_BOSS = 17.
+السماح لمشاريع التذاكر بالوصول إليها من قبل أدوار مستخدمين محددة. مثال: ['permissions' => [1 => [17]] حيث project_id = 1، STUDENT_BOSS = 17.
 
 ### `ticket_send_warning_to_all_admins`
 
-**Send ticket warning messages to administrators**
+**إرسال رسائل تحذير التذاكر إلى المشرفين**
 
-Send a message if a ticket was created without a category or if a category doesn't have any administrator assigned.
+إرسال رسالة إذا تم إنشاء تذكرة بدون فئة أو إذا لم تكن هناك فئة لها مشرف مخصص.
 
-*Default: `false`*
+*افتراضي: `false`*
 
 
 ### `ticket_warn_admin_no_user_in_category`
 
-**Send alert to administrators if tickets category has no one in charge**
+**إرسال تنبيه إلى المشرفين إذا كانت فئة التذاكر بدون مسؤول**
 
-Send a warning message (e-mail and Chamilo message) to all administrators if there's not a user assigned to a category.
+إرسال رسالة تحذير (بريد إلكتروني ورسالة Chamilo) إلى جميع المشرفين إذا لم يكن هناك مستخدم مخصص لفئة.
 
-*Default: `false`*
-
-
+*افتراضي: `false`*

@@ -1,249 +1,251 @@
-# Security Settings
+# إعدادات الأمان
 
-Login protection, password policy, content security headers, two-factor authentication, and the lightweight intrusion detection system.
+حماية تسجيل الدخول، سياسة كلمة المرور، رؤوس أمان المحتوى، المصادقة الثنائية العامل، ونظام كشف الاقتحام الخفيف الوزن.
 
-Access these settings under **Administration > Configuration settings > Security**. This category contains **31 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+يمكن الوصول إلى هذه الإعدادات تحت **إدارة > إعدادات التكوين > الأمان**. تحتوي هذه الفئة على **31 إعدادًا**، مدرجة أدناه مع العنوان والتعليق المرسل في إعدادات المنصة (`SettingsCurrentFixtures.php`).
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> يُعرض اسم المتغير في الكود بخط monospace. استخدمه عند البرمجة عبر API أو عند الحاجة إلى تغيير هذه الإعدادات على المستوى العام بتحرير [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
 
-## Settings
+## الإعدادات
 
 ### `2fa_enable`
 
-**Enable 2FA**
+**تفعيل 2FA**
 
-Add fields in the password update page to enable 2FA using a TOTP authenticator app. When disabled globally, users won't see 2FA fields and won't be prompted for 2FA at login, even if they had enabled it previously.
+يضيف حقولًا في صفحة تحديث كلمة المرور لتفعيل 2FA باستخدام تطبيق مصادقة TOTP. عند تعطيله عالميًا، لن يرى المستخدمون حقول 2FA ولن يُطلب منهم 2FA عند تسجيل الدخول، حتى لو كانوا قد فعّلوه سابقًا.
 
-*Default: `false`*
+*افتراضي: `false`*
 
 ### `access_to_personal_file_for_all`
 
-**Access to personal file for all**
+**الوصول إلى الملف الشخصي للجميع**
 
-Allows access to all personal files without restriction
+يسمح بالوصول إلى جميع الملفات الشخصية دون قيود
 
-*Default: `false`*
+*افتراضي: `false`*
 
 
 ### `admins_can_set_users_pass`
 
-**Admins can set users passwords manually**
+**يمكن للمشرفين تعيين كلمات مرور المستخدمين يدويًا**
 
-[inferred] When enabled, administrators can manually set user passwords directly without requiring users to reset them.
+[مستنتج] عند التفعيل، يمكن للمشرفين تعيين كلمات مرور المستخدمين يدويًا مباشرة دون الحاجة إلى إعادة تعيينها من قبل المستخدمين.
 
 ### `allow_captcha`
 
 **CAPTCHA**
 
-Enable a CAPTCHA on the login form, inscription form and lost password form to avoid password hammering
+تفعيل CAPTCHA في نموذج تسجيل الدخول، ونموذج التسجيل، ونموذج كلمة المرور المفقودة لتجنب هجمات كلمة المرور المتكررة
 
-*Default: `false`*
+*افتراضي: `false`*
 
 ### `allow_online_users_by_status`
 
-**Filter users that can be seen as online**
+**تصفية المستخدمين الذين يمكن رؤيتهم كمتصلين**
 
-Limits online user visibility to specific user roles.
+يحد من رؤية المستخدمين المتصلين إلى أدوار مستخدمين محددة.
 
 ### `allow_strength_pass_checker`
 
-**Password strength checker**
+**فاحص قوة كلمة المرور**
 
-Enable this option to add a visual indicator of password strength, when the user changes his/her password. This will NOT prevent bad passwords to be added, it only acts as a visual helper.
+تفعيل هذا الخيار لإضافة مؤشر بصري لقوة كلمة المرور، عندما يغير المستخدم كلمة مروره. هذا لن يمنع إضافة كلمات مرور ضعيفة، بل يعمل فقط كمساعد بصري.
 
-*Default: `true`*
+*افتراضي: `true`*
 
 
 ### `anonymous_autoprovisioning`
 
-**Auto-provision more anonymous users**
+**إنشاء تلقائي لمزيد من المستخدمين المجهولين**
 
-Dynamically creates new anonymous users to support high visitor traffic.
+يُنشئ مستخدمين مجهولين جددًا ديناميكيًا لدعم حركة مرور الزوار العالية.
 
-*Default: `false`*
+*افتراضي: `false`*
 
 
 ### `captcha_number_mistakes_to_block_account`
 
-**CAPTCHA mistakes allowance**
+**عدد الأخطاء المسموح بها في CAPTCHA**
 
-The number of times a user can make a mistake on the CAPTCHA box before his account is locked out.
+عدد المرات التي يمكن للمستخدم ارتكاب خطأ في CAPTCHA قبل قفل حسابه.
 
 ### `captcha_time_to_block`
 
-**CAPTCHA account locking time**
+**مدة قفل حساب CAPTCHA**
 
-If the user reaches the maximum allowance for login mistakes (when using the CAPTCHA), his/her account will be locked for this number of minutes.
+إذا وصل المستخدم إلى الحد الأقصى للأخطاء في تسجيل الدخول (عند استخدام CAPTCHA)، سيتم قفل حسابه لهذه الدقائق.
 
 ### `check_password`
 
-**Check password requirements**
+**فحص متطلبات كلمة المرور**
 
-Enable validation of the password requirements defined above during password creation or password update.
+تفعيل التحقق من متطلبات كلمة المرور المحددة أعلاه أثناء إنشاء كلمة المرور أو تحديثها.
 
-*Default: `false`*
+*افتراضي: `false`*
 
 
 ### `filter_terms`
 
-**Filter terms**
+**مصطلحات التصفية**
 
-Give a list of terms, one by line, to be filtered out of web pages and e-mails. These terms will be replaced by ***.
+قائمة بمصطلحات، سطرًا واحدًا لكل مصطلح، لتصفيتها من صفحات الويب والبريد الإلكتروني. سيتم استبدال هذه المصطلحات بـ ***.
 
 ### `force_renew_password_at_first_login`
 
-**Force password renewal at first login**
+**إجبار تجديد كلمة المرور عند تسجيل الدخول الأول**
 
-This is one simple measure to increase the security of your portal by asking users to immediately change their password, so the one that was transfered by e-mail is no longer valid and they then will use one that they came up with and that they are the only person to know.
+هذا إجراء بسيط لزيادة أمان بوابتك بطلب من المستخدمين تغيير كلمة مرورهم فورًا، حتى لا تكون كلمة المرور المرسلة بالبريد الإلكتروني صالحة بعد ذلك، ويستخدمون كلمة مرور اختاروها هم وهم الوحيدون الذين يعرفونها.
 
-*Default: `false`*
+*افتراضي: `false`*
 
 
 ### `hide_breadcrumb_if_not_allowed`
 
-**Hide breadcrumb if 'not allowed'**
+**إخفاء الشريط التنقلي إذا 'غير مسموح'**
 
-If the user is not allowed to access a specific page, also hide the breadcrumb. This increases security by avoiding the display of unnecessary information.
+إذا لم يُسمح للمستخدم بالوصول إلى صفحة معينة، قم أيضًا بإخفاء الشريط التنقلي. هذا يزيد الأمان بتجنب عرض معلومات غير ضرورية.
 
-*Default: `false`*
+*افتراضي: `false`*
 
 
 ### `login_max_attempt_before_blocking_account`
 
-**Max login attempts before lockdown**
+**أقصى محاولات تسجيل دخول قبل الإغلاق**
 
-Number of failed login attempts to tolerate before the user account is locked and has to be unlocked by an admin.
+عدد محاولات تسجيل الدخول الفاشلة المسموح بها قبل قفل حساب المستخدم ويحتاج إلى فك القفل من قبل مشرف.
 
-*Default: `0`*
+*افتراضي: `0`*
 
 ### `password_requirements`
 
-**Minimal password syntax requirements**
+**المتطلبات النحوية الدنيا لكلمة المرور**
 
-Defines the required structure for user passwords. Example: {"min":{"length":8,"lowercase":1,"uppercase":1,"numeric":1,"specials":1}}. Use "specials" (plural) to require special characters.
+يحدد الهيكل المطلوب لكلمات مرور المستخدمين. مثال: {"min":{"length":8,"lowercase":1,"uppercase":1,"numeric":1,"specials":1}}. استخدم "specials" (جمع) للمطالبة بحروف خاصة.
 
 ### `password_rotation_days`
 
-**Password rotation interval (days)**
+**فاصل تدوير كلمة المرور (أيام)**
 
-Number of days before users must rotate their password (0 = disabled).
+عدد الأيام قبل أن يجب على المستخدمين تدوير كلمة مرورهم (0 = معطل).
 
-*Default: `0`*
+*افتراضي: `0`*
 
 
 ### `prevent_multiple_simultaneous_login`
 
-**Prevent simultaneous login**
+**منع تسجيل الدخول المتزامن**
 
-Prevent users connecting with the same account more than once. This is a good option on pay-per-access portals, but might be restrictive during testing as only one browser can connect with any given account.
+منع المستخدمين من الاتصال بنفس الحساب أكثر من مرة. هذا خيار جيد في البوابات المدفوعة حسب الوصول، لكنه قد يكون مقيدًا أثناء الاختبار حيث يمكن لمتصفح واحد فقط الاتصال بأي حساب معين.
 
-*Default: `false`*
+*افتراضي: `false`*
 
 
 ### `proxy_settings`
 
-**Proxy settings**
+**إعدادات الوكيل**
 
-Some features of Chamilo will connect to the exterior from the server. For example to make sure an external content exists when creating a link or showing an embedded page in the learning path. If your Chamilo server uses a proxy to get out of its network, this would be the place to configure it.
+بعض ميزات Chamilo ستتصل بالخارج من الخادم. على سبيل المثال، للتأكد من وجود محتوى خارجي عند إنشاء رابط أو عرض صفحة مدمجة في مسار التعلم. إذا كان خادم Chamilo يستخدم وكيلًا للخروج من شبكته، فهذا هو المكان لتكوينه.
 
 ### `security_block_inactive_users_immediately`
 
-**Block disabled users immediately**
+**حظر المستخدمين المعطلين فورًا**
 
-Immediately block users who have been disabled by the admin through users management. Otherwise, users who have been disabled will keep their previous privileges until they logout.
+حظر المستخدمين الذين عطّلهم المشرف عبر إدارة المستخدمين فورًا. وإلا، سيحتفظ المستخدمون المعطلون بامتيازاتهم السابقة حتى يسجلوا الخروج.
 
-*Default: `false`*
+*افتراضي: `false`*
 
 
+---
+
+---
 ### `security_content_policy`
 
-**Content Security Policy**
+**سياسة أمان المحتوى**
 
-Content Security Policy is an effective measure to protect your site from XSS attacks. By whitelisting sources of approved content, you can prevent the browser from loading malicious assets. This setting is particularly complicated to set with WYSIWYG editors, but if you add all domains that you want to authorize for iframes inclusion in the child-src statement, this example should work for you. You can prevent JavaScript from executing from external sources (including inside SVG images) by using a strict list in the 'script-src' argument. Leave blank to disable. Example setting: default-src 'self'; script-src 'self' 'unsafe-eval' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; child-src 'self' *.youtube.com yt.be *.vimeo.com *.slideshare.com;
+سياسة أمان المحتوى هي إجراء فعال لحماية موقعك من هجمات XSS. من خلال السماح بمصادر المحتوى المعتمدة، يمكنك منع المتصفح من تحميل الأصول الضارة. هذا الإعداد معقد بشكل خاص مع محررات WYSIWYG، ولكن إذا أضفت جميع النطاقات التي تريد السماح بها لتضمين الـ iframes في بيان child-src، يجب أن يعمل هذا المثال لك. يمكنك منع تنفيذ JavaScript من مصادر خارجية (بما في ذلك داخل صور SVG) باستخدام قائمة صارمة في معامل 'script-src'. اتركه فارغًا لتعطيله. مثال على الإعداد: default-src 'self'; script-src 'self' 'unsafe-eval' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; child-src 'self' *.youtube.com yt.be *.vimeo.com *.slideshare.com;
 
 ### `security_content_policy_report_only`
 
-**Content Security Policy report only**
+**سياسة أمان المحتوى - الإبلاغ فقط**
 
-This setting allows you to experiment by reporting but not enforcing some Content Security Policy.
+يسمح هذا الإعداد بالتجربة من خلال الإبلاغ دون فرض بعض سياسة أمان المحتوى.
 
 ### `security_public_key_pins`
 
-**HTTP Public Key Pinning**
+**تثبيت مفتاح عام HTTP**
 
-HTTP Public Key Pinning protects your site from MiTM attacks using rogue X.509 certificates. By whitelisting only the identities that the browser should trust, your users are protected in the event a certificate authority is compromised.
+يحمي تثبيت مفتاح عام HTTP موقعك من هجمات MiTM باستخدام شهادات X.509 المزيفة. من خلال السماح فقط بالهويات التي يجب أن يثق بها المتصفح، يتم حماية مستخدميك في حالة اختراق جهة الشهادات.
 
 ### `security_public_key_pins_report_only`
 
-**HTTP Public Key Pinning report only**
+**تثبيت مفتاح عام HTTP - الإبلاغ فقط**
 
-This setting allows you to experiment by reporting but not enforcing some HTTP Public Key Pinning.
+يسمح هذا الإعداد بالتجربة من خلال الإبلاغ دون فرض بعض تثبيت مفتاح عام HTTP.
 
 ### `security_referrer_policy`
 
-**Security Referrer Policy**
+**سياسة الإحالة الأمنية**
 
-Referrer Policy is a new header that allows a site to control how much information the browser includes with navigation away from a document and should be set by all sites.
+سياسة الإحالة هي رأس جديد يسمح للموقع بالتحكم في مقدار المعلومات التي يدرجها المتصفح مع التنقل بعيدًا عن الوثيقة ويجب تعيينه من قبل جميع المواقع.
 
-*Default: `origin-when-cross-origin`*
+*افتراضي: `origin-when-cross-origin`*
 
 
 ### `security_session_cookie_samesite_none`
 
-**Session cookie samesite**
+**كعكة الجلسة samesite**
 
-Enable samesite:None parameter for session cookie. More info: https://www.chromium.org/updates/same-site and https://developers.google.com/search/blog/2020/01/get-ready-for-new-samesitenone-secure
+تفعيل معامل samesite:None لكعكة الجلسة. معلومات إضافية: https://www.chromium.org/updates/same-site and https://developers.google.com/search/blog/2020/01/get-ready-for-new-samesitenone-secure
 
-*Default: `false`*
+*افتراضي: `false`*
+
 
 ### `security_strict_transport`
 
-**HTTP Strict Transport Security**
+**أمان نقل HTTP الصارم**
 
-HTTP Strict Transport Security is an excellent feature to support on your site and strengthens your implementation of TLS by getting the User Agent to enforce the use of HTTPS. Recommended value: 'strict-transport-security: max-age=63072000; includeSubDomains'. See https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Strict-Transport-Security. You can include the 'preload' suffix, but this has consequences on the top level domain (TLD), so probably not to be done lightly. See https://hstspreload.org/. Leave blank to disable.
+أمان نقل HTTP الصارم هو ميزة ممتازة لدعمها على موقعك وتعزز تنفيذك لـ TLS من خلال إجبار وكيل المستخدم على فرض استخدام HTTPS. القيمة الموصى بها: 'strict-transport-security: max-age=63072000; includeSubDomains'. انظر https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Strict-Transport-Security. يمكنك تضمين اللاحقة 'preload'، لكن لهذا عواقب على النطاق العلوي (TLD)، لذا ربما لا تُفعل بسهولة. انظر https://hstspreload.org/. اتركه فارغًا لتعطيله.
 
 ### `security_x_content_type_options`
 
 **X-Content-Type-Options**
 
-X-Content-Type-Options stops a browser from trying to MIME-sniff the content type and forces it to stick with the declared content-type. The only valid value for this header is 'nosniff'.
+X-Content-Type-Options تمنع المتصفح من محاولة استكشاف نوع المحتوى MIME وتجبره على الالتزام بنوع المحتوى المعلن. القيمة الصالحة الوحيدة لهذا الرأس هي 'nosniff'.
 
-*Default: `nosniff`*
+*افتراضي: `nosniff`*
 
 
 ### `security_x_frame_options`
 
 **X-Frame-Options**
 
-X-Frame-Options tells the browser whether you want to allow your site to be framed or not. By preventing a browser from framing your site you can defend against attacks like clickjacking. If defining a URL here, it should define the URL(s) from which your content should be visible, not the URLs from which your site accepts content. For example, if your main URL (root_web above) is https://11.chamilo.org/, then this setting should be: 'ALLOW-FROM https://11.chamilo.org'. These headers only apply to pages where Chamilo is responsible of the HTTP headers generation (i.e. '.php' files). It does not apply to static files. If playing with this feature, make sure you also update your web server configuration to add the right headers for static files. See CDN configuration documentation above (search for 'add_header') for more information. Recommended (strict) value for this setting, if enabled: 'SAMEORIGIN'.
+X-Frame-Options تخبر المتصفح عما إذا كنت تريد السماح بتضمين موقعك في إطار أم لا. من خلال منع المتصفح من تضمين موقعك، يمكنك الدفاع عن هجمات مثل clickjacking. إذا حددت عنوان URL هنا، يجب أن يحدد العنوانات (URLs) التي يجب أن يكون المحتوى مرئيًا منها، وليس العناوين التي يقبل منها موقعك المحتوى. على سبيل المثال، إذا كان عنوان URL الرئيسي (root_web أعلاه) هو https://11.chamilo.org/، فإن هذا الإعداد يجب أن يكون: 'ALLOW-FROM https://11.chamilo.org'. تنطبق هذه الرؤوس فقط على الصفحات التي تتحمل Chamilo مسؤولية إنشاء رؤوس HTTP (أي ملفات '.php'). لا تنطبق على الملفات الثابتة. إذا لعبت بهذه الميزة، تأكد من تحديث تكوين خادم الويب الخاص بك أيضًا لإضافة الرؤوس المناسبة للملفات الثابتة. انظر وثائق تكوين CDN أعلاه (ابحث عن 'add_header') لمزيد من المعلومات. القيمة الموصى بها (الصارمة) لهذا الإعداد، إذا تم تفعيلها: 'SAMEORIGIN'.
 
-*Default: `SAMEORIGIN`*
+*افتراضي: `SAMEORIGIN`*
 
 
 ### `security_xss_protection`
 
 **X-XSS-Protection**
 
-X-XSS-Protection sets the configuration for the cross-site scripting filter built into most browsers. Recommended value '1; mode=block'.
+X-XSS-Protection تحدد التكوين لفلتر الـ cross-site scripting المدمج في معظم المتصفحات. القيمة الموصى بها '1; mode=block'.
 
-*Default: `1; mode=block`*
+*افتراضي: `1; mode=block`*
 
 
 ### `user_reset_password`
 
-**Enable password reset token**
+**تفعيل رمز إعادة تعيين كلمة المرور**
 
-This option allows to generate a expiring single-use token sent by e-mail to the user to reset his/her password.
+يسمح هذا الخيار بإنشاء رمز لمرة واحدة منتهي الصلاحية يُرسل بالبريد الإلكتروني إلى المستخدم لإعادة تعيين كلمة المرور الخاصة به.
 
-*Default: `false`*
+*افتراضي: `false`*
 
 
 ### `user_reset_password_token_limit`
 
-**Time limit for password reset token**
+**حد زمني لرمز إعادة تعيين كلمة المرور**
 
-The number of seconds before the generated token automatically expires and cannot be used anymore (a new token needs to be generated).
+عدد الثواني قبل انتهاء صلاحية الرمز المُنشأ تلقائيًا وعدم إمكانية استخدامه (يجب إنشاء رمز جديد).
 
-*Default: `3600`*
-
-
+*افتراضي: `3600`*

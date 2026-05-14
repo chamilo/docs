@@ -1,78 +1,78 @@
-# Course Import and Export
+# استيراد وتصدير الدورة
 
-Chamilo supports importing and exporting courses for backup, migration, and content sharing purposes.
+يدعم Chamilo استيراد وتصدير الدورات لأغراض النسخ الاحتياطي والترحيل ومشاركة المحتوى.
 
-These features are located inside the course, in the **Maintenance** tool located under the cog icon at the top of the course homepage.
+توجد هذه الميزات داخل الدورة، في أداة **الصيانة** الموجودة تحت أيقونة الترس في أعلى صفحة الدورة الرئيسية.
 
-## Exporting a Course
+## تصدير الدورة
 
-Teachers can export their own courses from the course Maintenance tool. As an administrator, you can export any course:
+يمكن للمعلمين تصدير دوراتهم الخاصة من أداة صيانة الدورة. كمسؤول، يمكنك تصدير أي دورة:
 
-1. Enter the course
-2. Access the **Course maintenance** tool
-3. Select **Create a backup**
-4. Choose what to include (content, user data, etc.)
-5. Download the export file
+1. الدخول إلى الدورة
+2. الوصول إلى أداة **صيانة الدورة**
+3. اختيار **إنشاء نسخة احتياطية**
+4. اختيار ما يتم تضمينه (المحتوى، بيانات المستخدمين، إلخ)
+5. تنزيل ملف التصدير
 
-The export creates a package containing the course's documents, exercises, forums, learning paths, and configuration.
+يُنشئ التصدير حزمة تحتوي على وثائق الدورة وتمارينها والمنتديات ومسارات التعلم وتكوينها.
 
-## Importing a Course
+## استيراد الدورة
 
-To import a course from a Chamilo export file:
+لاستيراد دورة من ملف تصدير Chamilo:
 
-1. Enter the course
-2. Access the **Course maintenance** tool
-3. In the **Import backup** section, upload the export file
-4. Choose what to include (content, user data, etc.)
-5. Configure import options:
-   * Whether to overwrite existing content
-   * Whether to include user data
-6. Run the import
+1. الدخول إلى الدورة
+2. الوصول إلى أداة **صيانة الدورة**
+3. في قسم **استيراد النسخة الاحتياطية**، رفع ملف التصدير
+4. اختيار ما يتم تضمينه (المحتوى، بيانات المستخدمين، إلخ)
+5. تكوين خيارات الاستيراد:
+   * ما إذا كان يتم الكتابة فوق المحتوى الموجود
+   * ما إذا كان يتم تضمين بيانات المستخدمين
+6. تشغيل الاستيراد
 
-## Copying a Course
+## نسخ الدورة
 
-To copy the contents from another course into your course, you will need a source course and a destination course to be created first.
+لنسخ المحتويات من دورة أخرى إلى دورتك، يجب إنشاء دورة مصدر ودورة وجهة أولاً.
 
-1. Enter the destination course
-2. Access the **Course maintenance** tool
-3. In the **Copy course** section, select the **Source** course
-4. Validate the options
-5. Click **Continue** and follow the instructions
+1. الدخول إلى دورة الوجهة
+2. الوصول إلى أداة **صيانة الدورة**
+3. في قسم **نسخ الدورة**، اختيار دورة **المصدر**
+4. التحقق من الخيارات
+5. النقر على **متابعة** والمتابعة وفقاً للتعليمات
 
 ## Common Cartridge
 
-Chamilo supports the **IMS Common Cartridge 1.3** (IMS CC 1.3) standard for interoperability with other learning management systems. You can:
+يدعم Chamilo معيار **IMS Common Cartridge 1.3** (IMS CC 1.3) للتوافق مع أنظمة إدارة التعلم الأخرى. يمكنك:
 
-* **Import** Common Cartridge packages (.imscc files)
-* **Export** course content in Common Cartridge format
+* **استيراد** حزم Common Cartridge (ملفات .imscc)
+* **تصدير** محتوى الدورة بصيغة Common Cartridge
 
-This allows content exchange with other platforms that support the Common Cartridge standard (Moodle, Canvas, Blackboard, etc.).
+يسمح ذلك بتبادل المحتوى مع المنصات الأخرى التي تدعم معيار Common Cartridge (Moodle، Canvas، Blackboard، إلخ).
 
-## Recycling a course
+## إعادة تدوير الدورة
 
-The course recycling feature simply allows you to keep the shell of the course but to erase its content.
+ميزة إعادة تدوير الدورة تسمح ببساطة بالاحتفاظ بهيكل الدورة مع محو محتواها.
 
-## Deleting a course
+## حذف الدورة
 
-This will completely erase your course, including all its contents and the user activity in it.
+سيؤدي ذلك إلى محو الدورة بالكامل، بما في ذلك جميع محتوياتها ونشاط المستخدمين فيها.
 
-To delete a course permanently:
+لحذف الدورة نهائياً:
 
-1. Enter the destination course
-2. Access the **Course maintenance** tool
-3. In the **Completely delete this course** section, enter the code of the course manually to confirm your intention
-4. Validate
+1. الدخول إلى دورة الوجهة
+2. الوصول إلى أداة **صيانة الدورة**
+3. في قسم **حذف هذه الدورة نهائياً**، إدخال كود الدورة يدوياً لتأكيد نيتك
+4. التحقق
 
-You then get redirected to the portal homepage, because the course does not exist anymore.
+ثم يتم إعادة توجيهك إلى الصفحة الرئيسية للبوابة، لأن الدورة لم تعد موجودة.
 
-## Moodle Import
+## استيراد Moodle
 
-Chamilo can import course backups from **Moodle**. The importer converts Moodle's content structure to Chamilo's format, including quizzes, documents, and course settings.
+يمكن لـ Chamilo استيراد نسخ احتياطية للدورات من **Moodle**. يقوم المستورد بتحويل هيكل محتوى Moodle إلى صيغة Chamilo، بما في ذلك الاختبارات والوثائق وإعدادات الدورة.
 
-> **Work in progress.** Although it already covers a wide base, the Moodle importer does not currently cover every Moodle activity type and content format. Treat it as a starting point that may still require manual adjustment after the import completes. If you detect any failing/missing element in the import or export, please report it to us through our [Github space](https://github.com/chamilo/chamilo-lms/issues) by clicking **New issue** at the top and giving as much details as possible (including the course backup itself if it's not confidential).
+> **قيد التطوير.** على الرغم من تغطيته لقاعدة واسعة، إلا أن مستورد Moodle لا يغطي حالياً كل أنواع أنشطة Moodle وصيغ المحتوى. تعامل معه كنقطة بداية قد تتطلب تعديلاً يدوياً بعد اكتمال الاستيراد. إذا اكتشفت أي عنصر فاشل/مفقود في الاستيراد أو التصدير، يرجى الإبلاغ عنه لنا عبر [مساحة Github الخاصة بنا](https://github.com/chamilo/chamilo-lms/issues) بالنقر على **New issue** في الأعلى وتقديم أكبر قدر ممكن من التفاصيل (بما في ذلك نسخة الدورة الاحتياطية نفسها إذا لم تكن سرية).
 
-## Tips
+## نصائح
 
-* **Regular backups** — Encourage teachers to export their courses periodically as a backup
-* **Test imports** — When importing content from another platform, test the import in a trial course first to verify that everything transferred correctly
-* **Content portability** — Use Common Cartridge format when you need to share content with other LMS platforms
+* **النسخ الاحتياطي الدوري** — شجع المعلمين على تصدير دوراتهم بشكل دوري كنسخة احتياطية
+* **اختبار الاستيراد** — عند استيراد محتوى من منصة أخرى، اختبر الاستيراد في دورة تجريبية أولاً للتحقق من نقل كل شيء بشكل صحيح
+* **قابلية نقل المحتوى** — استخدم صيغة Common Cartridge عند الحاجة إلى مشاركة المحتوى مع منصات LMS أخرى

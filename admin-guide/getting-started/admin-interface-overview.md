@@ -1,51 +1,51 @@
-# Admin Interface Overview
+# نظرة عامة على واجهة الإدارة
 
-The administration panel is your command center for managing the Chamilo platform. Access it by clicking **Administration** <img src="/.gitbook/assets/icons/mdi-cogs.svg" alt="Admin" data-size="line"> in the sidebar.
+لوحة الإدارة هي مركز القيادة الخاص بك لإدارة منصة Chamilo. يمكن الوصول إليها بالنقر على **Administration** <img src="/.gitbook/assets/icons/mdi-cogs.svg" alt="إدارة" data-size="line"> في الشريط الجانبي.
 
-## Administration Dashboard
+## لوحة إدارة الإدارة
 
-![The administration dashboard showing functional blocks for Users, Courses, Sessions, and Settings](/.gitbook/assets/admin-dashboard-overview.png)
+![لوحة إدارة الإدارة التي تظهر كتلًا وظيفية للمستخدمين والدورات والجلسات والإعدادات](/.gitbook/assets/admin-dashboard-overview.png)
 
-The admin dashboard is organized into functional blocks. Each block groups related management tools:
+يتم تنظيم لوحة الإدارة في كتل وظيفية. تجمع كل كتلة أدوات الإدارة ذات الصلة:
 
-### Users
+### المستخدمين
 
-* **User list** — View, search, edit, and manage all users on the platform
-* **Add a user** — Create individual user accounts
-* **User groups** — Manage groups of users for organizational purposes
-* **Classes** — Manage user classes for bulk session enrollment
+* **قائمة المستخدمين** — عرض وبحث وتعديل وإدارة جميع المستخدمين على المنصة
+* **إضافة مستخدم** — إنشاء حسابات مستخدمين فردية
+* **مجموعات المستخدمين** — إدارة مجموعات المستخدمين لأغراض تنظيمية
+* **الفصول** — إدارة فصول المستخدمين للتسجيل الجماعي في الجلسات
 
-### Courses
+### الدورات
 
-* **Course list** — View and manage all courses on the platform
-* **Create a course** — Create a new course
-* **Course categories** — Organize courses into categories for the catalog
+* **قائمة الدورات** — عرض وإدارة جميع الدورات على المنصة
+* **إنشاء دورة** — إنشاء دورة جديدة
+* **فئات الدورات** — تنظيم الدورات في فئات للكتالوج
 
-### Sessions
+### الجلسات
 
-* **Session list** — View and manage training sessions
-* **Create a session** — Set up a new session with courses and enrollment
-* **Session categories** — Organize sessions into categories
-* **Careers and promotions** — Manage career paths and promotion workflows
+* **قائمة الجلسات** — عرض وإدارة جلسات التدريب
+* **إنشاء جلسة** — إعداد جلسة جديدة مع الدورات والتسجيل
+* **فئات الجلسات** — تنظيم الجلسات في فئات
+* **المسارات المهنية والترقيات** — إدارة مسارات المهن والسير الوظيفية للترقيات
 
-### Platform Settings
+### إعدادات المنصة
 
-* **Configuration settings** — Access the comprehensive platform settings panel with categories for portal, courses, sessions, users, security, and more
+* **إعدادات التكوين** — الوصول إلى لوحة إعدادات المنصة الشاملة مع فئات للبوابة والدورات والجلسات والمستخدمين والأمان وغيرها
 
-### Plugins
+### الإضافات
 
-* **Manage plugins** — Install, activate, configure, and deactivate platform plugins
+* **إدارة الإضافات** — تثبيت وتفعيل وتكوين وإلغاء تفعيل إضافات المنصة
 
-### System
+### النظام
 
-* **System status** — Check PHP configuration, database status, and server health
-* **Archive cleanup** — Manage temporary files and caches
+* **حالة النظام** — التحقق من تكوين PHP وحالة قاعدة البيانات وصحة الخادم
+* **تنظيف الأرشيف** — إدارة الملفات المؤقتة والمخازن المؤقتة
 
-### Branding
+### العلامة التجارية
 
-* **Colors** — Customize the platform's visual appearance
-* **Portal customization** — Configure portal homepage, news, and branding elements
+* **الألوان** — تخصيص المظهر البصري للمنصة
+* **تخصيص البوابة** — تكوين الصفحة الرئيسية للبوابة والأخبار وعناصر العلامة التجارية
 
-Each section is covered in detail in its corresponding chapter of this guide.
+يتم تغطية كل قسم بالتفصيل في الفصل المقابل له في هذا الدليل.
 
-Authentication methods like OAuth2, LDAP, CAS, and other external authentication providers are not configured in the administration dashboard but in `config/authentication.yaml`.
+طرق المصادقة مثل OAuth2 وLDAP وCAS ومزودي المصادقة الخارجيين الآخرين لا يتم تكوينها في لوحة إدارة الإدارة بل في `config/authentication.yaml`.

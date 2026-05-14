@@ -1,103 +1,103 @@
-# Managing Users
+# إدارة المستخدمين
 
-This page covers the day-to-day tasks of creating, editing, and managing user accounts.
+تغطي هذه الصفحة المهام اليومية لإنشاء وحذف وإدارة حسابات المستخدمين.
 
-## User List
+## قائمة المستخدمين
 
-![The user list showing accounts with name, email, role, and status columns](/.gitbook/assets/admin-user-list.png)
+![قائمة المستخدمين التي تعرض الحسابات مع أعمدة الاسم والبريد الإلكتروني والدور والحالة](/.gitbook/assets/admin-user-list.png)
 
-From the administration panel, click **User list** to see all users on the platform. The list shows:
+من لوحة الإدارة، انقر على **قائمة المستخدمين** لرؤية جميع المستخدمين على المنصة. تعرض القائمة:
 
-* Avatar
-* Name
-* Username
-* Email address
-* Roles
-* Active/inactive status
-* Registration date
-* Last login date
+* الصورة الرمزية
+* الاسم
+* اسم المستخدم
+* عنوان البريد الإلكتروني
+* الأدوار
+* حالة النشاط/عدم النشاط
+* تاريخ التسجيل
+* تاريخ آخر تسجيل دخول
 
-Use the **Advanced search** tool to find specific users by name, email, role, or other criteria.
+استخدم أداة **البحث المتقدم** للعثور على مستخدمين محددين حسب الاسم أو البريد الإلكتروني أو الدور أو معايير أخرى.
 
-## Creating a User
+## إنشاء مستخدم
 
-![The user creation form with fields for name, email, username, password, role, and language](/.gitbook/assets/admin-user-create-form.png)
+![نموذج إنشاء المستخدم مع حقول الاسم والبريد الإلكتروني واسم المستخدم وكلمة المرور والدور واللغة](/.gitbook/assets/admin-user-create-form.png)
 
-1. Click **Add a user** from the administration panel
-2. Fill in the required fields:
-   * **First name** and **Last name**
-   * **Email** — Must be unique on the platform
-   * **Username** — The login name (must be unique)
-   * **Password** — Set an initial password
-   * **Roles** — Select the user's platform role(s) (student, teacher, admin, etc.)
-   * **Language** — The user's preferred interface language
-3. Optionally fill in additional fields:
-   * Official code (e.g. unique ID in the organization)
-   * Phone number
-   * Expiration date — Automatically deactivate the account after a date
-   * Active/inactive status
-   * Extra profile fields (if configured)
-4. Save
+1. انقر على **إضافة مستخدم** من لوحة الإدارة
+2. املأ الحقول المطلوبة:
+   * **الاسم الأول** و**الاسم الأخير**
+   * **البريد الإلكتروني** — يجب أن يكون فريداً على المنصة
+   * **اسم المستخدم** — اسم تسجيل الدخول (يجب أن يكون فريداً)
+   * **كلمة المرور** — حدد كلمة مرور أولية
+   * **الأدوار** — حدد دور(أو أدوار) المستخدم على المنصة (طالب، مدرس، مدير، إلخ)
+   * **اللغة** — لغة واجهة المستخدم المفضلة
+3. اختيارياً، املأ حقول إضافية:
+   * الرمز الرسمي (مثل المعرف الفريد في المنظمة)
+   * رقم الهاتف
+   * تاريخ الانتهاء — تعطيل الحساب تلقائياً بعد تاريخ معين
+   * حالة النشاط/عدم النشاط
+   * حقول الملف الشخصي الإضافية (إذا تم تهيئتها)
+4. احفظ
 
-## Importing Users
+## استيراد المستخدمين
 
-![The user import interface for uploading CSV or XML files with user data](/.gitbook/assets/admin-user-import.png)
+![واجهة استيراد المستخدمين لرفع ملفات CSV أو XML مع بيانات المستخدمين](/.gitbook/assets/admin-user-import.png)
 
-For bulk user creation, you can import users from a file:
+لإنشاء مستخدمين بكميات كبيرة، يمكنك استيراد المستخدمين من ملف:
 
-1. Click **Import users** from the administration panel
-2. Upload a **CSV** or **XML** file with user data
-3. Map the file columns to Chamilo user fields
-4. Choose how to handle existing users (update or skip)
-5. Import
+1. انقر على **استيراد المستخدمين** من لوحة الإدارة
+2. ارفع ملف **CSV** أو **XML** يحتوي على بيانات المستخدمين
+3. قم بتعيين أعمدة الملف إلى حقول مستخدمي Chamilo
+4. اختر كيفية التعامل مع المستخدمين الموجودين (تحديث أو تجاهل)
+5. استورد
 
-The import file should contain columns for at least: first name, last name, email, username, and password.
+يجب أن يحتوي ملف الاستيراد على أعمدة على الأقل للاسم الأول والاسم الأخير والبريد الإلكتروني واسم المستخدم وكلمة المرور.
 
-Note: The **Status** column is the legacy name for **Role** and only accepts a few values, like 1 for teacher, 5 for student. Further tuniing of the roles can only be done by hand later on, editing the user.
+ملاحظة: عمود **الحالة** هو الاسم التاريخي لـ **الدور** ويقبل قيماً قليلة فقط، مثل 1 للمدرس، 5 للطالب. يمكن تهيئة الأدوار بشكل إضافي يدوياً لاحقاً فقط، من خلال تعديل المستخدم.
 
-## Exporting Users
+## تصدير المستخدمين
 
-Click **Export users** to download the user list as a CSV or XML file. You can filter which users to export by role, registration date, or other criteria.
+انقر على **تصدير المستخدمين** لتنزيل قائمة المستخدمين كملف CSV أو XML. يمكنك تصفية المستخدمين المراد تصديرهم حسب الدور أو تاريخ التسجيل أو معايير أخرى.
 
-## Editing a User
+## تعديل مستخدم
 
-Click on a user's name in the user list to edit their account. You can modify:
+انقر على اسم مستخدم في قائمة المستخدمين لتعديل حسابه. يمكنك تعديل:
 
-* Personal information (name, email, phone)
-* Roles
-* Password (reset)
-* Active/inactive status
-* Expiration date
-* Extra profile fields
+* المعلومات الشخصية (الاسم، البريد الإلكتروني، الهاتف)
+* الأدوار
+* كلمة المرور (إعادة تعيين)
+* حالة النشاط/عدم النشاط
+* تاريخ الانتهاء
+* حقول الملف الشخصي الإضافية
 
-## Deleting a User
+## حذف مستخدم
 
-When deleting users (usually teachers) who have created content on the platform, the system might prevent you from deleting the users permanently, and will show a warning message explaining the user is still attached to some of the resources. If you confirm the deletion, the system will not delete the content itself but attach it to a neutral user (we call it the "Fallback user") for data consistency reasons.
+عند حذف مستخدمين (عادةً مدرسين) قاموا بإنشاء محتوى على المنصة، قد يمنعك النظام من حذف المستخدمين نهائياً، ويعرض رسالة تحذير تفسر أن المستخدم لا يزال مرتبطاً ببعض الموارد. إذا أكدت الحذف، لن يحذف النظام المحتوى نفسه بل سيربطه بمستخدم محايد (ندعوه "مستخدم الاحتياطي") لأسباب اتساق البيانات.
 
-To avoid this, check the user details, delete each of their courses one by one, then delete the user.
+لتجنب ذلك، تحقق من تفاصيل المستخدم، احذف كل دوراته واحدة تلو الأخرى، ثم احذف المستخدم.
 
-## User Actions
+## إجراءات المستخدم
 
-| Action | Description |
-|--------|-------------|
-| **Deactivate** | Disable a user's account without deleting it. The user cannot log in but their data is preserved. |
-| **Activate** | Re-enable a previously deactivated account. |
-| **Login as** | Log in to the platform as this user (impersonation). Useful for troubleshooting. |
-| **Anonymize** | Erase all of the account's personal information, as defined by the EU's GDPR. |
-| **Delete** | Soft delete the user account. Use the **Deleted users** tab to permanently delete the account and associated data. |
+| الإجراء | الوصف |
+|---------|-------|
+| **تعطيل** | تعطيل حساب مستخدم دون حذفه. لا يمكن للمستخدم تسجيل الدخول لكن بياناته محفوظة. |
+| **تفعيل** | إعادة تفعيل حساب تم تعطيله سابقاً. |
+| **تسجيل الدخول كـ** | تسجيل الدخول إلى المنصة كهذا المستخدم (التجسس). مفيد لاستكشاف الأخطاء. |
+| **إخفاء الهوية** | محو جميع المعلومات الشخصية للحساب، كما هو محدد في GDPR الاتحاد الأوروبي. |
+| **حذف** | حذف ناعم لحساب المستخدم. استخدم علامة التبويب **المستخدمين المحذفين** لحذف الحساب والبيانات المرتبطة نهائياً. |
 
-> **Login as** is a powerful feature. Use it responsibly and only for legitimate support purposes.
+> **تسجيل الدخول كـ** ميزة قوية. استخدمها بمسؤولية ولأغراض دعم مشروعة فقط.
 
-## Batch Operations
+## العمليات الجماعية
 
-Select multiple users in the user list to perform batch actions:
+حدد عدة مستخدمين في قائمة المستخدمين لتنفيذ إجراءات جماعية:
 
-* Activate or deactivate multiple users at once
-* Delete multiple users
-* Assign users to a course or session
+* تفعيل أو تعطيل عدة مستخدمين دفعة واحدة
+* حذف عدة مستخدمين
+* تعيين المستخدمين إلى دورة أو جلسة
 
-## Tips
+## نصائح
 
-* **Use CSV import for large enrollments** — When onboarding many users at the start of a training program, prepare a CSV file and import in bulk
-* **Set expiration dates** — For temporary users (workshop participants, trial users), set an expiration date to automatically deactivate their accounts
-* **Deactivate rather than delete** — When a user leaves, deactivate their account first. This preserves their training records. Only delete if you are sure the data is no longer needed.
+* **استخدم استيراد CSV للتسجيلات الكبيرة** — عند تسجيل العديد من المستخدمين في بداية برنامج تدريبي، أعد ملف CSV واستورده بكميات كبيرة
+* **حدد تواريخ انتهاء** — للمستخدمين المؤقتين (مشاركي ورش عمل، مستخدمي تجربة)، حدد تاريخ انتهاء لتعطيل حساباتهم تلقائياً
+* **عطل بدلاً من الحذف** — عندما يغادر المستخدم، عطل حسابه أولاً. هذا يحفظ سجلات تدريبه. احذف فقط إذا كنت متأكداً من عدم الحاجة إلى البيانات بعد ذلك.

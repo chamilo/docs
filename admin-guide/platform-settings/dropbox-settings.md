@@ -1,75 +1,74 @@
-# Dropbox Settings
+# إعدادات Dropbox
 
-Behaviour of the **Dropbox** file-exchange tool.
+سلوك أداة تبادل الملفات **Dropbox**.
 
-Access these settings under **Administration > Configuration settings > Dropbox**. This category contains **8 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+الوصول إلى هذه الإعدادات تحت **إدارة > إعدادات التكوين > Dropbox**. تحتوي هذه الفئة على **8 إعدادات**، مدرجة أدناه مع العنوان والتعليق المرسل في إعدادات المنصة (`SettingsCurrentFixtures.php`).
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> يتم عرض اسم المتغير في الكود بخط monospace. استخدمه عند البرمجة عبر API أو عند الحاجة إلى تغيير هذه الإعدادات على المستوى العام عن طريق تحرير [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
 
-## Settings
+## الإعدادات
 
 ### `dropbox_allow_group`
 
-**Dropbox: allow group**
+**Dropbox: السماح بالمجموعات**
 
-Users can send files to groups
+يمكن للمستخدمين إرسال الملفات إلى المجموعات
 
-*Default: `true`*
+*افتراضي: `true`*
 
 ### `dropbox_allow_just_upload`
 
-**Dropbox: Upload to own dropbox space?**
+**Dropbox: رفع إلى مساحة Dropbox الخاصة؟**
 
-Allow trainers and users to upload documents to their dropbox without sending  the documents to themselves
+السماح للمدربين والمستخدمين برفع المستندات إلى Dropbox الخاص بهم دون إرسال المستندات إليهم أنفسهم
 
-*Default: `true`*
+*افتراضي: `true`*
 
 ### `dropbox_allow_mailing`
 
-**Dropbox: Allow mailing**
+**Dropbox: السماح بالبريد**
 
-With the mailing functionality you can send each learner a personal document
+مع وظيفة البريد يمكنك إرسال مستند شخصي لكل متعلم
 
-*Default: `false`*
+*افتراضي: `false`*
 
 ### `dropbox_allow_overwrite`
 
-**Dropbox: Can documents be overwritten**
+**Dropbox: هل يمكن الكتابة فوق المستندات**
 
-Can the original document be overwritten when a user or trainer uploads a document with the name of a document that already exist? If you answer yes then you loose the versioning mechanism.
+هل يمكن الكتابة فوق المستند الأصلي عندما يقوم مستخدم أو مدرب برفع مستند بنفس اسم مستند موجود بالفعل؟ إذا أجبت بنعم فإنك ستفقد آلية الإصدارات.
 
-*Default: `true`*
+*افتراضي: `true`*
 
 ### `dropbox_allow_student_to_student`
 
-**Dropbox: Learner <-> Learner**
+**Dropbox: متعلم <-> متعلم**
 
-Allow users to send documents to other users (peer 2 peer). Users might use this for less relevant documents also (mp3, tests solutions, ...). If you disable this then the users can send documents to the trainer only.
+السماح للمستخدمين بإرسال المستندات إلى مستخدمين آخرين (من نظير إلى نظير). قد يستخدم المستخدمون هذا لمستندات أقل أهمية أيضًا (mp3، حلول الاختبارات، ...). إذا قمت بتعطيله فإن المستخدمين يمكنهم إرسال المستندات إلى المدرب فقط.
 
-*Default: `true`*
+*افتراضي: `true`*
 
 ### `dropbox_hide_course_coach`
 
-**Dropbox: hide course coach**
+**Dropbox: إخفاء مدرب الدورة**
 
-Hide session course coach in dropbox when a document is sent by the coach to students
+إخفاء مدرب دورة الجلسة في Dropbox عند إرسال مستند من قبل المدرب إلى الطلاب
 
-*Default: `false`*
+*افتراضي: `false`*
 
 ### `dropbox_hide_general_coach`
 
-**Hide general coach in dropbox**
+**إخفاء المدرب العام في Dropbox**
 
-Hide general coach name in the dropbox tool when the general coach uploaded the file
+إخفاء اسم المدرب العام في أداة Dropbox عند رفع المدرب العام للملف
 
-*Default: `false`*
+*افتراضي: `false`*
 
 
 ### `dropbox_max_filesize`
 
-**Dropbox: Maximum file size of a document**
+**Dropbox: الحجم الأقصى للملف**
 
-How big (in MB) can a dropbox document be?
+ما حجم (بالميغابايت) يمكن أن يكون لمستند Dropbox؟
 
-*Default: `100000000`*
-
+*افتراضي: `100000000`*

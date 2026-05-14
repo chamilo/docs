@@ -1,47 +1,47 @@
-# Course Categories
+# فئات الدورات
 
-Course categories help organize your course catalog, making it easier for learners to find relevant courses.
+تساعد فئات الدورات في تنظيم كتالوج الدورات، مما يجعل من السهل على المتعلمين العثور على الدورات ذات الصلة.
 
-## Creating a Category
+## إنشاء فئة
 
-1. From the administration panel, navigate to **Course categories**
-2. Click **Add category**
-3. Enter:
-   * **Category code** — A short unique identifier
-   * **Category name** — The display name (e.g., "Information Technology", "Management Skills")
-   * **Allow adding courses in this category?** — Whether it allows courses to set this as a category, or it just serves as an intermediate level in a hierarchy 
-   * **Parent category** — (Optional) Place this category under another category to create a hierarchy
-   * **Description** — (Optional)
-   * **Image** — (Optional) Will represent this category, although it almost doesn't show anywhere
-4. Press *Add category*
+1. انتقل إلى **فئات الدورات** من لوحة الإدارة.
+2. انقر على **إضافة فئة**.
+3. أدخل المعلومات التالية:
+   * **رمز الفئة** — معرف فريد قصير
+   * **اسم الفئة** — الاسم المعروض (مثال: «تقنية المعلومات»، «مهارات الإدارة»)
+   * **هل تسمح بإضافة دورات إلى هذه الفئة؟** — ما إذا كان يمكن للدورات تعيين هذه الفئة، أو إذا كانت مجرد مستوى وسيط في الهيكل الهرمي
+   * **الفئة الأب** — (اختياري) لترتيب هذه الفئة تحت فئة أخرى لإنشاء هيكل هرمي
+   * **الوصف** — (اختياري)
+   * **الصورة** — (اختياري) صورة تمثل هذه الفئة، لكنها نادراً ما تُعرض
+4. اضغط على *إضافة الفئة*.
 
-Chamilo creates 3 categories by default: *Language skills*, *PC Skills* and *Projects*. These can be renamed, removed or kept, depending on your needs.
+في Chamilo، يتم إنشاء 3 فئات افتراضياً: *مهارات اللغة*، *مهارات الحاسوب*، *المشاريع*. يمكن تغيير أسمائها أو حذفها أو الاحتفاظ بها حسب الحاجة.
 
-## Category Hierarchy
+## هيكل الفئات الهرمي
 
-![The course categories management page showing a nested tree of categories](/.gitbook/assets/admin-course-categories.png)
+![عرض شجرة الفئات المتداخلة في صفحة إدارة فئات الدورات](/.gitbook/assets/admin-course-categories.png)
 
-Categories can be nested to create a tree structure:
+يمكن تداخل الفئات لإنشاء هيكل شجري:
 
-* Business
-  * Management
-  * Marketing
-  * Finance
-* Technology
-  * Programming
-  * Networking
-  * Cybersecurity
+* الأعمال
+  * الإدارة
+  * التسويق
+  * المالية
+* التكنولوجيا
+  * البرمجة
+  * الشبكات
+  * الأمن السيبراني
 
-Learners browsing the course catalog can navigate through this hierarchy to find courses.
+يمكن للمتعلمين الذين يتصفحون كتالوج الدورات التنقل في هذا الهيكل الهرمي للعثور على الدورات.
 
-## Managing Categories
+## إدارة الفئات
 
-* **Edit** — Change the category name, code, or parent
-* **Move** — Change the position of a category in the list
-* **Delete** — Remove a category. Courses in a deleted category are moved to "uncategorized."
+* **التعديل** — تغيير اسم الفئة أو الرمز أو الفئة الأب
+* **النقل** — تغيير موضع الفئة في القائمة
+* **الحذف** — حذف الفئة. سيتم نقل الدورات داخل الفئة المحذوفة إلى «غير مصنفة».
 
-## Tips
+## نصائح
 
-* **Keep it simple** — Use broad categories that learners can understand at a glance
-* **Limit depth** — Avoid deeply nested categories. Two or three levels are usually sufficient.
-* **Assign categories during course creation** — Encourage teachers to select a category when creating courses, so the catalog stays organized
+* **الحفاظ على البساطة** — استخدم فئات واسعة يمكن للمتعلمين فهمها بلمحة
+* **تقييد العمق** — تجنب الفئات المتداخلة بعمق. عادةً يكفي 2-3 مستويات.
+* **تعيين الفئات عند إنشاء الدورة** — شجع المعلمين على اختيار فئة عند إنشاء الدورة للحفاظ على كتالوج منظم

@@ -1,43 +1,43 @@
-# Your Profile
+# ملفك الشخصي
 
-Your profile in Chamilo contains your personal information and preferences. Other users on the platform can see parts of your profile depending on your visibility settings.
+يحتوي ملفك الشخصي في Chamilo على معلوماتك الشخصية وتفضيلاتك. يمكن للمستخدمين الآخرين على المنصة رؤية أجزاء من ملفك الشخصي حسب إعدادات الرؤية الخاصة بك.
 
-## Accessing Your Profile
+## الوصول إلى ملفك الشخصي
 
-Click your **avatar** in the top-right corner of the top bar, then select **Profile** from the dropdown menu. You can also access it from the **Social network** section of the sidebar.
+انقر على **الصورة الرمزية** الخاصة بك في الزاوية اليمنى العلوية من شريط الأعلى، ثم اختر **الملف الشخصي** من القائمة المنسدلة. يمكنك أيضًا الوصول إليه من قسم **الشبكة الاجتماعية** في الشريط الجانبي.
 
-![The user avatar dropdown menu showing profile, account settings, and sign-out options](/.gitbook/assets/user-avatar-dropdown.png)
+![قائمة الصورة الرمزية للمستخدم التي تظهر خيارات الملف الشخصي، إعدادات الحساب، والخروج](/.gitbook/assets/user-avatar-dropdown.png)
 
-## Profile Information
+## معلومات الملف الشخصي
 
-Your profile page might show (depending on configuration):
+قد يعرض صفحة ملفك الشخصي (حسب الإعدادات):
 
-* **Avatar** — Your profile picture. Click **Edit profile** to change it.
-* **Full name** — Your first and last name as registered on the platform.
-* **Email** — Your email address. Other users can click it to send you a message within Chamilo.
-* **Language** — Your preferred language.
-* **Additional fields** — Depending on your platform's configuration, you may see fields such as phone number, Skype handle, LinkedIn profile link, or custom fields defined by your administrator.
+* **الصورة الرمزية** — صورة ملفك الشخصي. انقر على **تعديل الملف الشخصي** لتغييرها.
+* **الاسم الكامل** — اسمك الأول والأخير كما سجلته على المنصة.
+* **البريد الإلكتروني** — عنوان بريدك الإلكتروني. يمكن للمستخدمين الآخرين النقر عليه لإرسال رسالة إليك داخل Chamilo.
+* **اللغة** — اللغة المفضلة لديك.
+* **حقول إضافية** — حسب إعدادات المنصة، قد ترى حقولًا مثل رقم الهاتف، معرف Skype، رابط ملف LinkedIn، أو حقول مخصصة حددها مديرك.
 
-## Editing Your Profile
+## تعديل ملفك الشخصي
 
-To update your profile information, click **Edit profile**. Here you can:
+لتحديث معلومات ملفك الشخصي، انقر على **تعديل الملف الشخصي**. هنا يمكنك:
 
-* Change your name, email, and password
-* Upload or change your avatar/picture
-* Update your preferred language
-* Fill in additional profile fields (Skype, LinkedIn, etc.)
-* Configure notification preferences
+* تغيير اسمك، بريدك الإلكتروني، وكلمة المرور
+* تحميل أو تغيير صورة الصورة الرمزية/الصورة
+* تحديث اللغة المفضلة لديك
+* ملء حقول الملف الشخصي الإضافية (Skype، LinkedIn، إلخ)
+* تهيئة تفضيلات الإشعارات
 
-To change your password, click **Change Password**. For security reasons, you will need to give your current password and your new password twice.
+لتغيير كلمة المرور، انقر على **تغيير كلمة المرور**. لأسباب أمنية، ستحتاج إلى إدخال كلمة المرور الحالية وكلمة المرور الجديدة مرتين.
 
-If your administrator has enabled the **two-factor authentication** option (`2fa_enable`) for the platform, your profile will let you turn on 2FA for your own account using a TOTP authenticator app (Google Authenticator, Authy, 1Password, etc.). Once enabled, the login flow will ask for the time-based 6-digit code in addition to your password.
+إذا قام مديرك بتفعيل خيار **المصادقة الثنائية العامل** (`2fa_enable`) للمنصة، فسيسمح لك ملفك الشخصي بتفعيل 2FA لحسابك الخاص باستخدام تطبيق مصادقة TOTP (Google Authenticator، Authy، 1Password، إلخ). بمجرد التفعيل، سيتطلب تدفق تسجيل الدخول الكود الرقمي المكون من 6 أرقام المعتمد على الوقت بالإضافة إلى كلمة المرور.
 
-## Personal Data
+## البيانات الشخصية
 
-Under **Social network** > **Personal Data**, you can review all the information Chamilo stores about you. This section includes:
+تحت **الشبكة الاجتماعية** > **البيانات الشخصية**، يمكنك مراجعة جميع المعلومات التي يخزنها Chamilo عنك. يشمل هذا القسم:
 
-* A summary of all data collected, organized by category
-* If enabled by your organization, your acceptance status for the platform's **Terms and Conditions**
-* If enabled by your organization, an option to **withdraw your consent** or **delete account**, which will trigger an account deletion request that your administrator will process
+* ملخص لجميع البيانات المجموعة، منظمة حسب الفئة
+* إذا تم تفعيله من قبل منظمتك، حالة قبولك لـ **شروط الاستخدام** الخاصة بالمنصة
+* إذا تم تفعيله من قبل منظمتك، خيار لـ **سحب موافقتك** أو **حذف الحساب**، والذي سيؤدي إلى طلب حذف حساب يعالجه مديرك
 
-> This feature is provided to comply with data protection regulations. Contact your administrator if you have questions about how your data is handled.
+> يتم توفير هذه الميزة للامتثال للوائح حماية البيانات. اتصل بمديرك إذا كان لديك أسئلة حول كيفية التعامل مع بياناتك.

@@ -1,46 +1,46 @@
-# Managing Plugins
+# إدارة الإضافات
 
-## Accessing the Plugin Manager
+## الوصول إلى مدير الإضافات
 
-![The plugin manager showing a list of available plugins with activation toggles and configuration options](/.gitbook/assets/admin-plugin-manager.png)
+![مدير الإضافات يعرض قائمة بالإضافات المتاحة مع مفاتيح تبديل التفعيل وخيارات التكوين](/.gitbook/assets/admin-plugin-manager.png)
 
-From the administration panel, click **Manage plugins** to see the list of available plugins.
+من لوحة الإدارة، انقر على **إدارة الإضافات** لرؤية قائمة الإضافات المتاحة.
 
-## Plugin States
+## حالات الإضافة
 
-Each plugin has one of two states:
+لكل إضافة واحدة من حالتين:
 
-* **Active** — The plugin is enabled and its features are available on the platform
-* **Inactive** — The plugin is installed but disabled
+* **نشطة** — الإضافة مفعلة وميزاتها متاحة على المنصة
+* **غير نشطة** — الإضافة مثبتة لكنها معطلة
 
-## Activating a Plugin
+## تفعيل إضافة
 
-1. Find the plugin in the list
-2. Click **Install**, then **Enable** or toggle it on
-3. Configure the plugin settings (if applicable, find the **Configure** button)
-4. Save
-5. If recommended in the README, enable it in a specific **region**
+1. ابحث عن الإضافة في القائمة
+2. انقر على **تثبيت**، ثم **تفعيل** أو قم بتبديلها إلى الوضع المفعل
+3. قم بتكوين إعدادات الإضافة (إذا كان ذلك مناسباً، ابحث عن زر **تكوين**)
+4. احفظ
+5. إذا تم التوصية بذلك في ملف README، قم بتفعيلها في **منطقة** محددة
 
-Some plugins add tools to courses, new pages to the platform, or additional functionality to existing features.
+تضيف بعض الإضافات أدوات إلى الدورات، أو صفحات جديدة إلى المنصة، أو وظائف إضافية إلى الميزات الموجودة.
 
-## Configuring a Plugin
+## تكوين إضافة
 
-Many plugins have configuration options. After activating a plugin:
+لدى العديد من الإضافات خيارات تكوين. بعد تفعيل إضافة:
 
-1. Click the **Configure** button next to the plugin
-2. Fill in the required configuration (API keys, URLs, options, etc.)
-3. Save
+1. انقر على زر **تكوين** بجانب الإضافة
+2. املأ التكوين المطلوب (مفاتيح API، عناوين URL، خيارات، إلخ)
+3. احفظ
 
-## Deactivating a Plugin
+## إلغاء تفعيل إضافة
 
-1. Find the plugin in the list
-2. Click **Disable** or toggle it off
-3. The plugin's features are immediately removed from the platform, but the plugin is still installed and maintains its configuration until you **Uninstall** it
+1. ابحث عن الإضافة في القائمة
+2. انقر على **تعطيل** أو قم بتبديلها إلى الوضع المعطل
+3. يتم إزالة ميزات الإضافة فوراً من المنصة، لكن الإضافة لا تزال مثبتة وتحتفظ بتكوينها حتى تقوم بـ**إلغاء التثبيت**
 
-Disabling a plugin does not delete its data. If you enable it later, the data is still available.
+لا يؤدي تعطيل إضافة إلى حذف بياناتها. إذا قمت بتفعيلها لاحقاً، ستظل البيانات متاحة.
 
-## Tips
+## نصائح
 
-* **Only activate what you need** — Each active plugin adds some overhead. Keep unused plugins deactivated.
-* **Test before production** — Activate new plugins in a test environment first
-* **Check compatibility** — After upgrading Chamilo, verify that all active plugins still work correctly
+* **فعل ما تحتاجه فقط** — تضيف كل إضافة نشطة بعض العبء الإضافي. احتفظ بالإضافات غير المستخدمة معطلة.
+* **اختبر قبل الإنتاج** — فعل الإضافات الجديدة في بيئة اختبار أولاً
+* **تحقق من التوافق** — بعد ترقية Chamilo، تحقق من أن جميع الإضافات النشطة لا تزال تعمل بشكل صحيح

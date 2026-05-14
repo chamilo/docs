@@ -1,115 +1,117 @@
-# Learning Paths
+# مسارات التعلم
 
-Learning paths let you create structured sequences of learning activities. A learning path guides your learners through a specific order of documents, exercises, links, and other resources, with optional prerequisites and progress tracking.
+تتيح مسارات التعلم إنشاء تسلسلات منظمة من أنشطة التعلم. يرشد مسار التعلم المتعلمين عبر ترتيب محدد من الوثائق والتمارين والروابط وغيرها من الموارد، مع شروط مسبقة اختيارية وتتبع التقدم.
 
-This tool is arguably the most used course tool, because it acts as a composer for many other tools and can very much be the ***only*** tool facing learners.
+يُعتبر هذا الأداة الأكثر استخدامًا في الدورة التدريبية، لأنه يعمل كمُركِّب للعديد من الأدوات الأخرى ويمكن أن يكون ***الأداة الوحيدة*** التي يواجهها المتعلمون.
 
-## Why Use Learning Paths?
+## لماذا تستخدم مسارات التعلم؟
 
-Learning paths are useful when you want to:
+تكون مسارات التعلم مفيدة عندما تريد:
 
-* **Control the order** of content consumption — ensure learners complete foundational material before advancing
-* **Track progress** — see exactly where each learner is in the sequence
-* **Set prerequisites** — require learners to pass an exercise before accessing the next section
-* **Award completion** — link learning path completion to the gradebook and certificates
-* **Package content** — create self-contained learning modules that learners can work through at their own pace
+* **التحكم في الترتيب** لاستهلاك المحتوى — التأكد من إكمال المتعلمين للمواد الأساسية قبل التقدم
+* **تتبع التقدم** — رؤية الموقع الدقيق لكل متعلم في التسلسل
+* **تحديد شروط مسبقة** — طلب من المتعلمين اجتياز تمرين قبل الوصول إلى القسم التالي
+* **منح الإكمال** — ربط إكمال مسار التعلم بدفتر الدرجات والشهادات
+* **تغليف المحتوى** — إنشاء وحدات تعلم مستقلة ذاتية يمكن للمتعلمين العمل عليها بوتيرتهم الخاصة
 
-## Creating a Learning Path
+## إنشاء مسار تعلم
 
-1. Open the **Learning paths** <img src="/.gitbook/assets/icons/mdi-map-marker-path.svg" alt="Learning paths" data-size="line"> tool from the course homepage
-2. Click **Create a learning path**
-3. Enter a **title** and optional description
-4. Save — you will be taken to the learning path editor
+1. افتح أداة **مسارات التعلم** <img src="/.gitbook/assets/icons/mdi-map-marker-path.svg" alt="مسارات التعلم" data-size="line"> من الصفحة الرئيسية للدورة
+2. انقر على **إنشاء مسار تعلم**
+3. أدخل **عنوانًا** ووصفًا اختياريًا
+4. احفظ — سيتم نقلك إلى محرر مسار التعلم
 
-## The Learning Path Editor
+## محرر مسار التعلم
 
-![The learning path editor with the item tree on the left and content preview on the right](/.gitbook/assets/learning-path-editor.png)
+![محرر مسار التعلم مع شجرة العناصر على اليسار وعرض المحتوى على اليمين](/.gitbook/assets/learning-path-editor.png)
 
-The editor has two main areas:
+يحتوي المحرر على منطقتين رئيسيتين:
 
-* **Left panel** — The list of items (steps) in the learning path, shown as a tree structure
-* **Right panel** — The content of the selected item
+* **اللوحة اليسرى** — قائمة العناصر (الخطوات) في مسار التعلم، معروضة كتركيب شجري
+* **اللوحة اليمنى** — محتوى العنصر المحدد
 
-### Adding Items
+### إضافة عناصر
 
-Click **Add an item** and choose what to add:
+انقر على **إضافة عنصر** واختر ما تريد إضافته:
 
-| Item type | Description |
-|-----------|-------------|
-| **Section** | A heading that groups related items (like a chapter title). Sections do not contain content themselves. |
-| **Document** | A file or web page from your course's Documents tool |
-| **Exercise** | A quiz or test from the Exercises tool |
-| **Link** | An external URL |
-| **Assignment** | A student publication from the Assignments tool |
-| **Forum** | A link to a course forum |
-| **Survey** | A link to a survey |
-| **Certificate** | A special page to trigger the generation of a completion certificate or the awarding of skills |
+| نوع العنصر | الوصف |
+|-------------|-------|
+| **قسم** | عنوان يجمع عناصر ذات صلة (مثل عنوان فصل). لا تحتوي الأقسام على محتوى بحد ذاتها. |
+| **وثيقة** | ملف أو صفحة ويب من أداة الوثائق في الدورة |
+| **تمرين** | اختبار أو كويز من أداة التمارين |
+| **رابط** | عنوان URL خارجي |
+| **مهمة** | نشرة طالب من أداة المهام |
+| **منتدى** | رابط إلى منتدى الدورة |
+| **استطلاع** | رابط إلى استطلاع |
+| **شهادة** | صفحة خاصة لتشغيل إنشاء شهادة إكمال أو منح المهارات |
 
-### Organizing Items
+### تنظيم العناصر
 
-* **Drag and drop** items to reorder them
-* **Nest items** under sections by dragging them to the right
-* **Delete** items you no longer need
+* **اسحب وأفلت** العناصر لإعادة ترتيبها
+* **تداخل العناصر** تحت الأقسام بسحبها إلى اليمين
+* **حذف** العناصر التي لم تعد بحاجة إليها
 
-### Setting Prerequisites
+### تحديد شروط مسبقة
 
-Prerequisites ensure learners complete certain steps before accessing others:
+تضمن الشروط المسبقة إكمال المتعلمين لخطوات معينة قبل الوصول إلى غيرها:
 
-1. Select an item in the learning path
-2. Open its **prerequisites** settings
-3. Choose which preceding item(s) must be completed first
-4. For exercises, you can require a **minimum score** (e.g., "Must score at least 70% on Quiz 1 before accessing Module 2")
+1. حدد عنصرًا في مسار التعلم
+2. افتح إعدادات **شروطه المسبقة**
+3. اختر أي العنصر(s) السابقة يجب إكمالها أولاً
+4. بالنسبة للتمارين، يمكنك طلب **درجة دنيا** (مثل "يجب الحصول على درجة 70% على الأقل في الكويز 1 قبل الوصول إلى الوحدة 2")
 
-## Learner Experience
+## تجربة المتعلم
 
-When a learner opens a learning path:
+عندما يفتح المتعلم مسار تعلم:
 
-* They see the list of items in the left panel
-* Completed items are marked with a checkmark
-* Items with unmet prerequisites are locked
-* Progress is tracked automatically — if a learner leaves and comes back, they resume where they left off
-* A progress bar shows overall completion percentage
+* يرى قائمة العناصر في اللوحة اليسرى
+* تُشار إلى العناصر المكتملة بعلامة صح
+* تكون العناصر ذات الشروط المسبقة غير المُلباة مقفلة
+* يتم تتبع التقدم تلقائيًا — إذا غادر المتعلم وعاود العودة، يستأنف من حيث توقف
+* يظهر شريط تقدم نسبة الإكمال الكلية
 
-## SCORM Content
+## محتوى SCORM
 
-Chamilo's learning path tool can import **SCORM 1.2** packages — the most widely used e-learning standard. Upload a SCORM ZIP file and Chamilo will create a learning path from it, tracking progress and scores according to the SCORM specification.
+يمكن لأداة مسارات التعلم في Chamilo استيراد حزم **SCORM 1.2** — المعيار الأكثر استخدامًا في التعليم الإلكتروني. قم برفع ملف ZIP لـ SCORM وسيُنشئ Chamilo مسار تعلم منه، مع تتبع التقدم والدرجات وفقًا لمواصفات SCORM.
 
-To import a SCORM package:
+لاستيراد حزمة SCORM:
 
-1. In the Learning paths tool, open the actions menu and click **Upload**
-2. Upload the ZIP file
-3. Chamilo unpacks and creates the learning path automatically
+1. في أداة مسارات التعلم، افتح قائمة الإجراءات وانقر على **رفع**
+2. ارفع ملف ZIP
+3. يقوم Chamilo بفك الضغط وإنشاء مسار التعلم تلقائيًا
 
-### CMI5 / xAPI packages
+### حزم CMI5 / xAPI
 
-CMI5 packages (the modern xAPI-based successor to SCORM) are supported through the **XApi** plugin. Once the plugin is enabled by your administrator, you can import a CMI5 package and learners can launch it from the course; their statements are forwarded to the configured Learning Record Store.
+تُدعم حزم CMI5 (الخليفة الحديث القائم على xAPI لـ SCORM) من خلال إضافة **XApi**. بمجرد تمكين الإضافة من قبل مديرك، يمكنك استيراد حزمة CMI5 ويمكن للمتعلمين تشغيلها من الدورة؛ يتم إعادة توجيه بياناتهم إلى متجر سجلات التعلم المُهيأ.
 
-## Learning Path Settings
+## إعدادات مسار التعلم
 
-Configure how the learning path behaves:
+قم بتكوين سلوك مسار التعلم:
 
-| Setting | Description |
-|---------|-------------|
-| **Visibility** | Hide or show the learning path to learners |
-| **Prerequisites** | Require completion of other learning paths before this one |
-| **Auto-launch** | Automatically open this learning path when learners enter the course |
-| **Accumulated SCORM time** | Whether to accumulate time across multiple sessions |
+| الإعداد | الوصف |
+|----------|-------|
+| **الرؤية** | إخفاء أو إظهار مسار التعلم للمتعلمين |
+| **شروط مسبقة** | طلب إكمال مسارات تعلم أخرى قبل هذا |
+| **التشغيل التلقائي** | فتح مسار التعلم تلقائيًا عند دخول المتعلمين الدورة |
+| **وقت SCORM المتراكم** | ما إذا كان لتراكم الوقت عبر جلسات متعددة |
 
-## Linking to the Gradebook
+## الربط بدفتر الدرجات
 
-You can include learning path completion as a graded activity in the Gradebook. This allows learning path progress to contribute to the learner's overall course grade and certificate eligibility.
+يمكنك تضمين إكمال مسار التعلم كنشاط مدرج في دفتر الدرجات. يسمح ذلك لتقدم مسار التعلم بالمساهمة في الدرجة الكلية للمتعلم في الدورة وأهلية الشهادة.
+---
 
-## Using AI
+---
+## استخدام الذكاء الاصطناعي
 
-If the administrator has enabled AI-assisted learning path generation, you will find an AI generator option in the drop-down actions menu. Give the AI as precise a context as you want your learning path, ask for a number of pages and an approximate number of words per page, then tell it if you want to populate it with tests and launch. A few minutes later, you are looking down at a complete, text-based learning path.
+إذا قام المسؤول عن تمكين توليد مسارات التعلم بمساعدة الذكاء الاصطناعي، ستجد خيار مولّد الذكاء الاصطناعي في قائمة الإجراءات المنسدلة. أعطِ الذكاء الاصطناعي سياقًا دقيقًا قدر ما تريد لمسار التعلم الخاص بك، اطلب عددًا من الصفحات وعددًا تقريبيًا من الكلمات لكل صفحة، ثم أخبره إذا كنت تريد ملؤها باختبارات وإطلاقها. بعد بضع دقائق، ستكون تنظر إلى مسار تعلم كامل قائم على النص.
 
-Edit the documents to generate illustrations with more AI and you only have some review to do before you can share it with your learners.
+عدّل الوثائق لتوليد رسوم توضيحية بمزيد من الذكاء الاصطناعي، ولن يكون أمامك سوى بعض المراجعة قبل أن تشاركها مع متعلميك.
 
-## Tips
+## نصائح
 
-* **Start with an outline** — Plan your sections and items before building the path
-* **Use sections as chapters** — Group related items under section headings for clarity
-* **Set prerequisites for assessments** — Require learners to study the content before taking a quiz
-* **Mix content types** — Combine reading materials, videos, interactive exercises, and external resources for an engaging learning experience
-* **Check the learner view** — Use the Student View feature to experience the learning path as a learner would
-* **Use SCORM for interactivity** — If you have access to SCORM authoring tools (like Articulate, iSpring, or similar), create rich interactive content and import it into Chamilo
+* **ابدأ بخطوط عريضة** — خطط لأقسامك وعناصرك قبل بناء المسار
+* **استخدم الأقسام كفصول** — اجمع العناصر ذات الصلة تحت عناوين الأقسام للوضوح
+* **حدد المتطلبات الأساسية للتقييمات** — اطلب من المتعلمين دراسة المحتوى قبل إجراء اختبار
+* **امزج أنواع المحتوى** — ادمج مواد القراءة، والفيديوهات، والتمارين التفاعلية، والموارد الخارجية لتجربة تعلم مشوقة
+* **تحقق من عرض المتعلم** — استخدم ميزة عرض الطالب لتجربة مسار التعلم كما يراه المتعلم
+* **استخدم SCORM للتفاعلية** — إذا كان لديك وصول إلى أدوات إنشاء SCORM (مثل Articulate، أو iSpring، أو ما شابه)، أنشئ محتوى تفاعليًا غنيًا واستورده إلى Chamilo

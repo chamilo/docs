@@ -1,39 +1,39 @@
-# Settings System
+# نظام الإعدادات
 
-Chamilo's configuration is managed through a set of settings schemas (around 40 of them, varying between releases) that define every configurable aspect of the platform. They live in `src/CoreBundle/Settings/` — the exact list there is the source of truth.
+تُدار تكوين Chamilo من خلال مجموعة من مخططات الإعدادات (حوالي 40 منها، تختلف بين الإصدارات) التي تحدد كل جانب قابل للتكوين في المنصة. توجد في `src/CoreBundle/Settings/` — القائمة الدقيقة هناك هي المصدر الحقيقي للحقيقة.
 
-## How It Works
+## كيفية عمله
 
-Settings are:
+الإعدادات هي:
 
-1. **Defined** in schema classes (`src/CoreBundle/Settings/*SettingsSchema.php`)
-2. **Stored** in the database (`settings_current` table)
-3. **Accessed** via the `SettingsManager` service
-4. **Managed** through the administration web interface
+1. **مُعرَّفة** في فئات المخطط (`src/CoreBundle/Settings/*SettingsSchema.php`)
+2. **مخزنة** في قاعدة البيانات (جدول `settings_current`)
+3. **مُسْتَخْدَمَة** عبر خدمة `SettingsManager`
+4. **مُدْرَجَة** من خلال واجهة الإدارة الإلكترونية
 
-## Settings Schemas
+## مخططات الإعدادات
 
-Each schema file defines a category of settings. Key schemas:
+يحدد كل ملف مخطط فئة من الإعدادات. المخططات الرئيسية:
 
-| Schema | Purpose |
-|--------|---------|
-| `PlatformSettingsSchema` | Institution info, timezone, server type, portal features |
-| `SecuritySettingsSchema` | Login attempts, CAPTCHA, password policy, HTTP headers, 2FA |
-| `RegistrationSettingsSchema` | Self-registration, required fields, auto-subscribe |
-| `CourseSettingsSchema` | Course creation defaults, tools, catalog |
-| `SessionSettingsSchema` | Session defaults, visibility |
-| `MailSettingsSchema` | Email configuration, DKIM, notifications |
-| `AiHelpersSettingsSchema` | AI providers, feature toggles per AI tool |
-| `ExerciseSettingsSchema` | Quiz scoring, feedback, question options |
-| `LearningPathSettingsSchema` | LP display, prerequisites, SCORM settings |
-| `DocumentSettingsSchema` | Upload limits, allowed file types, storage |
-| `DisplaySettingsSchema` | UI tabs, sidebar items, theme |
-| `LanguageSettingsSchema` | Available languages, default locale |
-| `AdminSettingsSchema` | Admin email, admin-specific options |
+| المخطط | الغرض |
+|--------|-------|
+| `PlatformSettingsSchema` | معلومات المؤسسة، المنطقة الزمنية، نوع الخادم، ميزات البوابة |
+| `SecuritySettingsSchema` | محاولات تسجيل الدخول، CAPTCHA، سياسة كلمة المرور، رؤوس HTTP، 2FA |
+| `RegistrationSettingsSchema` | التسجيل الذاتي، الحقول المطلوبة، الاشتراك التلقائي |
+| `CourseSettingsSchema` | إعدادات افتراضية لإنشاء الدورة، الأدوات، الكتالوج |
+| `SessionSettingsSchema` | إعدادات افتراضية للجلسة، الرؤية |
+| `MailSettingsSchema` | تكوين البريد الإلكتروني، DKIM، الإشعارات |
+| `AiHelpersSettingsSchema` | مزودو الذكاء الاصطناعي، تبديلات الميزات لكل أداة ذكاء اصطناعي |
+| `ExerciseSettingsSchema` | تسجيل الاختبارات، الملاحظات، خيارات الأسئلة |
+| `LearningPathSettingsSchema` | عرض مسار التعلم، المتطلبات السابقة، إعدادات SCORM |
+| `DocumentSettingsSchema` | حدود الرفع، أنواع الملفات المسموح بها، التخزين |
+| `DisplaySettingsSchema` | علامات تبويب الواجهة، عناصر الشريط الجانبي، السمة |
+| `LanguageSettingsSchema` | اللغات المتاحة، الإعداد الافتراضي للموقع |
+| `AdminSettingsSchema` | بريد الإدارة الإلكتروني، خيارات خاصة بالإدارة |
 
-## Accessing Settings
+## الوصول إلى الإعدادات
 
-In PHP code:
+في كود PHP:
 
 ```php
 // Via SettingsManager service
@@ -43,7 +43,7 @@ $value = $settingsManager->getSetting('platform.site_name');
 $value = api_get_setting('platform.site_name');
 ```
 
-In templates:
+في القوالب:
 
 ```twig
 {# Read a single setting #}
@@ -58,32 +58,32 @@ In templates:
 {% set settings = chamilo_settings_all() %}
 ```
 
-## Setting Structure
+## هيكل الإعداد
 
-Each setting has:
+لكل إعداد:
 
-* **Namespace** — The schema category (e.g., `platform`, `security`, `ai_helpers`)
-* **Variable** — The setting name (e.g., `site_name`, `allow_registration`)
-* **Value** — The current value
-* **Type** — Data type (string, boolean, array, etc.)
+* **مساحة الاسم** — فئة المخطط (مثل `platform`، `security`، `ai_helpers`)
+* **المتغير** — اسم الإعداد (مثل `site_name`، `allow_registration`)
+* **القيمة** — القيمة الحالية
+* **النوع** — نوع البيانات (string، boolean، array، إلخ)
 
-## Course-Level Settings
+## إعدادات مستوى الدورة
 
-Some settings can be overridden at the course level. These are defined in `src/CourseBundle/Settings/` and include:
+يمكن تجاوز بعض الإعدادات على مستوى الدورة. هذه مُعرَّفة في `src/CourseBundle/Settings/` وتشمل:
 
-* Exercise settings per course
-* Assignment settings per course
-* AI feature toggles per course
+* إعدادات التمارين لكل دورة
+* إعدادات المهام لكل دورة
+* تبديلات ميزات الذكاء الاصطناعي لكل دورة
 
-## Multi-URL Settings
+## إعدادات متعددة الـ URL
 
-In multi-URL setups, some settings can be customized per access URL, allowing different portal configurations from the same installation.
+في الإعدادات متعددة الـ URL، يمكن تخصيص بعض الإعدادات لكل عنوان URL للوصول، مما يسمح بتكوينات بوابة مختلفة من نفس التثبيت.
 
-Those settings will appear several times in the `settings` table, with different `access_url` values. By default, all settings are associated with `access_url=1`.
+ستظهر هذه الإعدادات عدة مرات في جدول `settings`، مع قيم `access_url` مختلفة. افتراضيًا، ترتبط جميع الإعدادات بـ `access_url=1`.
 
-## Adding a New Setting
+## إضافة إعداد جديد
 
-1. Add the setting definition to the appropriate schema class
-2. Provide a default value
-3. Run database migrations if needed
-4. Access the setting via `SettingsManager`
+1. أضف تعريف الإعداد إلى فئة المخطط المناسبة
+2. قدم قيمة افتراضية
+3. قم بتشغيل هجرات قاعدة البيانات إذا لزم الأمر
+4. استخدم الإعداد عبر `SettingsManager`

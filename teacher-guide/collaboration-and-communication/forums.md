@@ -1,58 +1,58 @@
-# Forums
+# المنتديات
 
-The forum tool allows you to host structured discussions within your course. Learners can post messages, reply to each other, and engage in threaded conversations.
+يسمح أداة المنتديات باستضافة مناقشات منظمة داخل مساقك. يمكن للمتعلمين نشر الرسائل، والرد على بعضهم البعض، والمشاركة في محادثات متسلسلة.
 
-## Forum Structure
+## هيكل المنتدى
 
-![The forum category list showing categories, forums, and topic counts](/.gitbook/assets/forum-category-list.png)
+![قائمة فئات المنتدى التي تظهر الفئات والمنتديات وعدد المواضيع](/.gitbook/assets/forum-category-list.png)
 
-Forums in Chamilo are organized in three levels:
+تنظم المنتديات في Chamilo على ثلاثة مستويات:
 
-1. **Forum categories** — Top-level groupings (e.g., "General Discussions", "Module 1 Questions")
-2. **Forums** — Individual discussion boards within a category
-3. **Topics (threads)** — Individual discussion topics within a forum, each with a chain of replies
+1. **فئات المنتديات** — مجموعات على أعلى مستوى (مثل "مناقشات عامة"، "أسئلة الوحدة 1")
+2. **المنتديات** — لوحات مناقشة فردية داخل فئة
+3. **المواضيع (الخيوط)** — مواضيع مناقشة فردية داخل منتدى، كل منها يحتوي على سلسلة من الردود
 
-## Creating a Forum Category
+## إنشاء فئة منتدى
 
-1. Open the **Forums** <img src="/.gitbook/assets/icons/mdi-comment-quote.svg" alt="Forums" data-size="line"> tool from your course homepage
-2. Click **Add a forum category**
-3. Enter a **Category name** and optional description
-4. Save
+1. افتح أداة **المنتديات** <img src="/.gitbook/assets/icons/mdi-comment-quote.svg" alt="المنتديات" data-size="line"> من الصفحة الرئيسية للمساق
+2. انقر على **إضافة فئة منتدى**
+3. أدخل **اسم الفئة** ووصفًا اختياريًا
+4. احفظ
 
-## Creating a Forum
+## إنشاء منتدى
 
-You can only add a forum once at least one category exists.
+يمكنك إضافة منتدى فقط بعد وجود فئة واحدة على الأقل.
 
-1. Within a category, click **Add a forum**
-2. Fill in the basic details:
-   * **Title** — The name of this discussion board
-   * **Description** — An optional description of the forum's purpose
-   * **Create in category** — The category this forum belongs to
-3. Open **Advanced settings** to configure:
-   * **Publication date** / **Closing date** — Optional time window during which the forum is open
-   * **Moderated forum** — Require new posts to be approved by a teacher before they become visible
-   * **Can learners edit their own posts?** — Allow or prevent learners from editing posts after submitting
-   * **Allow users to start new threads** — When set to No, learners can only reply to existing threads
-   * **Default view type** — Choose how posts are displayed: **Flat**, **Threaded**, or **Nested**
-   * **For Group** — Attach this forum to a course group
-   * **Public access / Private access** — For group forums, decide whether any course member can read it or only group members
-4. Save
+1. داخل فئة، انقر على **إضافة منتدى**
+2. املأ التفاصيل الأساسية:
+   * **العنوان** — اسم لوحة المناقشة هذه
+   * **الوصف** — وصف اختياري لأغراض المنتدى
+   * **إنشاء في فئة** — الفئة التي ينتمي إليها هذا المنتدى
+3. افتح **الإعدادات المتقدمة** لتكوين:
+   * **تاريخ النشر** / **تاريخ الإغلاق** — نافذة زمنية اختيارية خلالها يكون المنتدى مفتوحًا
+   * **منتدى خاضع للإشراف** — يتطلب الموافقة على المنشورات الجديدة من قبل معلم قبل أن تصبح مرئية
+   * **هل يمكن للمتعلمين تعديل منشوراتهم الخاصة؟** — السماح أو منع المتعلمين من تعديل المنشورات بعد تقديمها
+   * **السماح للمستخدمين ببدء خيوط جديدة** — عند تعيينها إلى لا، يمكن للمتعلمين الرد فقط على الخيوط الموجودة
+   * **نوع العرض الافتراضي** — اختر كيفية عرض المنشورات: **مسطح**، **متسلسل**، أو **متداخل**
+   * **للمجموعة** — ربط هذا المنتدى بمجموعة مساق
+   * **الوصول العام / الوصول الخاص** — بالنسبة لمنتديات المجموعة، قرر ما إذا كان أي عضو في المساق يمكنه قراءتها أو أعضاء المجموعة فقط
+4. احفظ
 
-If the course visibility is set to "Open to the world", the form also shows an **Allow anonymous posts?** option. This option is hidden in courses with restricted visibility.
+إذا كانت رؤية المساق مضبوطة على "مفتوح للعالم"، فإن النموذج يظهر أيضًا خيار **السماح بالمنشورات المجهولة؟**. يختبئ هذا الخيار في المساقات ذات الرؤية المقيدة.
 
-## Managing Topics
+## إدارة المواضيع
 
-Learners (and you) can create new topics within a forum. As a teacher, you can:
+يمكن للمتعلمين (ولك) إنشاء مواضيع جديدة داخل منتدى. كمعلم، يمكنك:
 
-* **Pin a topic (sticky message)** — Mark a thread as sticky when you create or edit it so it always appears at the top
-* **Lock a topic** — Prevent further replies
-* **Edit or delete posts** — Moderate the discussion
-* **Move a topic** — Transfer a topic to a different forum
+* **تثبيت موضوع (رسالة لزجة)** — وضع علامة على خيط كلزج عند إنشائه أو تعديله حتى يظهر دائمًا في الأعلى
+* **قفل موضوع** — منع الردود الإضافية
+* **تعديل أو حذف المنشورات** — إشراف على المناقشة
+* **نقل موضوع** — نقل موضوع إلى منتدى مختلف
 
-## Forum Scoring
+## تسجيل المنتديات
 
-When creating a new thread as a teacher, you can enable **Grade this thread** under Advanced settings. You then set a maximum score, a column header for the gradebook, and a weight in the report. You can also enable **Thread scored by peers**, which requires each learner to qualify at least two other learners before their own score counts.
+عند إنشاء خيط جديد كمعلم، يمكنك تفعيل **تسجيل هذا الخيط** تحت الإعدادات المتقدمة. ثم تحدد درجة قصوى، وعنوان عمود لدفتر الدرجات، ووزنًا في التقرير. يمكنك أيضًا تفعيل **خيط مسجل من قبل الأقران**، والذي يتطلب من كل متعلم تقييم متعلمين آخرين على الأقل اثنين قبل أن يحتسب سجله الخاص.
 
-## Notifications
+## الإشعارات
 
-Each forum and thread has a **Notify me** toggle that you and your learners can use to subscribe to email notifications about new posts. Notifications are a per-user subscription and are not configured when creating the forum.
+لكل منتدى وخيط مفتاح تبويب **أخطرني** الذي يمكنك أنت ومتعلميك استخدامه للاشتراك في إشعارات البريد الإلكتروني حول المنشورات الجديدة. الإشعارات هي اشتراك لكل مستخدم ولا تُكوَّن عند إنشاء المنتدى.

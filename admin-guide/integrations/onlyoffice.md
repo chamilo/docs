@@ -1,31 +1,31 @@
 # OnlyOffice
 
-**OnlyOffice** integration allows users to edit documents (Word, Excel, PowerPoint) directly in the browser within Chamilo, without downloading them.
+تتيح تكامل **OnlyOffice** للمستخدمين تحرير المستندات (Word، Excel، PowerPoint) مباشرة في المتصفح داخل Chamilo، دون الحاجة إلى تنزيلها.
 
-## What OnlyOffice Provides
+## ما يوفره OnlyOffice
 
-* **Document editing** — Edit .docx, .xlsx, .pptx files in the browser
-* **Format compatibility** — Full compatibility with Microsoft Office formats
-* **No desktop software needed** — Everything runs in the browser
+* **تحرير المستندات** — تحرير ملفات .docx، .xlsx، .pptx في المتصفح
+* **توافق الصيغ** — توافق كامل مع صيغ Microsoft Office
+* **لا حاجة لبرمجيات سطح المكتب** — يعمل كل شيء في المتصفح
 
-> Real-time collaborative editing depends on the OnlyOffice Document Server itself; Chamilo's plugin opens and saves documents through the server but does not add or restrict that capability.
+> يعتمد تحرير التعاون في الوقت الفعلي على خادم OnlyOffice Document Server نفسه؛ يقوم إضافة Chamilo بفتح المستندات وحفظها عبر الخادم لكنه لا يضيف أو يقيد تلك الإمكانية.
 
-## Configuration
+## الإعداد
 
-1. Install **OnlyOffice Document Server** on your server (or use the OnlyOffice cloud service)
-2. In Chamilo platform settings, configure:
-   * **OnlyOffice Document Server URL** — The address of your OnlyOffice server
-   * **Secret key** — For secure communication between Chamilo and OnlyOffice
-3. Enable the integration
+1. قم بتثبيت **OnlyOffice Document Server** على خادمك (أو استخدم خدمة OnlyOffice السحابية)
+2. في إعدادات منصة Chamilo، قم بالتكوين:
+   * **OnlyOffice Document Server URL** — عنوان خادم OnlyOffice الخاص بك
+   * **Secret key** — للاتصال الآمن بين Chamilo وOnlyOffice
+3. فعّل التكامل
 
-## How It Works
+## كيفية العمل
 
-Once configured, users see an **Edit with OnlyOffice** option when viewing supported document types in the Documents tool. Clicking it opens the document in the OnlyOffice editor within the Chamilo interface.
+بمجرد الإعداد، يرى المستخدمون خيار **Edit with OnlyOffice** عند عرض أنواع المستندات المدعومة في أداة Documents. النقر عليه يفتح المستند في محرر OnlyOffice داخل واجهة Chamilo.
 
-Changes are saved back to Chamilo's document storage automatically.
+يتم حفظ التغييرات تلقائيًا في تخزين مستندات Chamilo.
 
-## Tips
+## نصائح
 
-* **Separate server recommended** — Like BigBlueButton, OnlyOffice Document Server should run on its own server for best performance
-* **HTTPS required** — Both Chamilo and OnlyOffice should be served over HTTPS for the integration to work
-* **Check formats** — OnlyOffice works best with Office formats (.docx, .xlsx, .pptx). Other formats may have limited editing support.
+* **خادم منفصل موصى به** — مثل BigBlueButton، يجب تشغيل OnlyOffice Document Server على خادم خاص به للحصول على أفضل أداء
+* **HTTPS مطلوب** — يجب تقديم كل من Chamilo وOnlyOffice عبر HTTPS ليعمل التكامل
+* **تحقق من الصيغ** — يعمل OnlyOffice بشكل أفضل مع صيغ Office (.docx، .xlsx، .pptx). قد تكون الدعم لتحرير الصيغ الأخرى محدودًا.

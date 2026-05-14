@@ -1,23 +1,23 @@
-# Notebook
+# دفتر الملاحظات
 
-The notebook is a personal note-taking tool for learners. Each learner has their own private notebook within the course.
+دفتر الملاحظات هو أداة لتدوين الملاحظات الشخصية للمتعلمين. يمتلك كل متعلم دفتر ملاحظات خاص به داخل الدورة.
 
-## How It Works
+## كيفية عمله
 
-The notebook is a simple tool where learners can:
+دفتر الملاحظات هو أداة بسيطة يمكن للمتعلمين من خلالها:
 
-* **Create notes** — Write and save personal notes related to the course content
-* **Organize notes** — Review, edit, and delete their notes
-* **Keep them private** — Notes are visible only to the learner who created them
+* **إنشاء ملاحظات** — كتابة وحفظ ملاحظات شخصية متعلقة بمحتوى الدورة
+* **تنظيم الملاحظات** — مراجعة وتعديل وحذف ملاحظاتهم
+* **الحفاظ على خصوصيتها** — الملاحظات مرئية فقط للمتعلم الذي أنشأها
 
-## As a Teacher
+## كمدرس
 
-As a teacher, you should be aware that:
+كمدرس، يجب أن تكون على دراية بأن:
 
-* The notebook is a **personal tool** — you cannot see your learners' notes
-* It is useful as a **reflection tool** — encourage learners to take notes while studying
-* Notes are stored within the course — they are not shared across courses
+* دفتر الملاحظات هو **أداة شخصية** — لا يمكنك رؤية ملاحظات متعلميك
+* إنه مفيد كـ**أداة للتأمل** — شجع المتعلمين على تدوين الملاحظات أثناء الدراسة
+* الملاحظات مخزنة داخل الدورة — لا تُشارك عبر الدورات
 
-## Enabling the Notebook
+## تفعيل دفتر الملاحظات
 
-The notebook tool appears on the course homepage if it is enabled. If you do not see it, check that it is not hidden (look for hidden tools on the course homepage).
+يظهر أداة دفتر الملاحظات على صفحة رئيسية الدورة إذا كانت مفعلة. إذا لم ترها، تحقق من أنها غير مخفية (ابحث عن الأدوات المخفية على صفحة رئيسية الدورة).

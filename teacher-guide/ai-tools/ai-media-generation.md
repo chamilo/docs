@@ -1,26 +1,26 @@
-# AI Media Generation
+# توليد الوسائط بالذكاء الاصطناعي
 
-When editing a document in the **Documents** tool, the AI media generation feature lets you produce an **image** or a **short video** to illustrate a paragraph — directly from the rich-text editor (WYSIWYG), without leaving the document.
+عند تحرير مستند في أداة **Documents**، تتيح ميزة توليد الوسائط بالذكاء الاصطناعي إنتاج **صورة** أو **فيديو قصير** لتوضيح فقرة — مباشرة من محرر النصوص الغنية (WYSIWYG)، دون مغادرة المستند.
 
-## Requirements
+## المتطلبات
 
-* AI helpers are enabled at the platform level
-* At least one AI media provider (image or video) is configured by the administrator
-* The feature is allowed in your course (course-level permission must be enabled)
+* يتم تمكين مساعدي الذكاء الاصطناعي على مستوى المنصة
+* يقوم المسؤول بتكوين مزود وسائط ذكاء اصطناعي واحد على الأقل (صورة أو فيديو)
+* يُسمح بالميزة في مساقك (يجب تمكين الإذن على مستوى المساق)
 
-## How to Generate an Image or Video
+## كيفية توليد صورة أو فيديو
 
-1. Open a document in the **Documents** <img src="/.gitbook/assets/icons/mdi-bookshelf.svg" alt="Documents" data-size="line"> tool (create a new one or edit an existing one)
-2. In the rich-text editor, place your cursor in or near the paragraph you want to illustrate
-3. Open the **Generate AI media** dialog from the editor toolbar
-4. Describe what you want the media to show, or use the selected paragraph as the prompt
-5. Choose whether to generate an **image** or a **video**
-6. Click **Generate** and wait for the AI to produce the result
-7. Preview the generated media and, if satisfied, click **Insert** to embed it in the document
+1. افتح مستندًا في أداة **Documents** <img src="/.gitbook/assets/icons/mdi-bookshelf.svg" alt="Documents" data-size="line"> (أنشئ واحدًا جديدًا أو حرر واحدًا موجودًا)
+2. في محرر النصوص الغنية، ضع مؤشرك داخل الفقرة أو بالقرب منها التي تريد توضيحها
+3. افتح مربع حوار **Generate AI media** من شريط أدوات المحرر
+4. صف ما تريد أن يظهره الوسائط، أو استخدم الفقرة المحددة كنص تلقيمي
+5. اختر ما إذا كنت تريد توليد **صورة** أو **فيديو**
+6. انقر على **Generate** وانتظر حتى ينتج الذكاء الاصطناعي النتيجة
+7. معاينة الوسائط المولدة، وإذا كنت راضيًا، انقر على **Insert** لتضمينها في المستند
 
-## Tips
+## نصائح
 
-* **Write a clear prompt** — The more specific your description, the more relevant the output. Include style cues (e.g. "diagram", "illustration", "realistic photo") if the provider supports them
-* **Always review before inserting** — Generated media may not perfectly match your intent; regenerate or adjust the prompt if needed
-* **Keep file sizes in mind** — Generated images and videos count against the course storage quota. Remove unused media from the document library if space is limited
-* **Video generation takes longer** — Short video generation can take significantly more time than image generation; plan accordingly if you are near a deadline
+* **اكتب نص تلقيمي واضحًا** — كلما كان وصفك أكثر تحديدًا، كان الإخراج أكثر صلة. قم بتضمين إشارات إلى الأسلوب (مثل "diagram"، "illustration"، "realistic photo") إذا كان المزود يدعمها
+* **راجع دائمًا قبل الإدراج** — قد لا تتطابق الوسائط المولدة تمامًا مع نيتك؛ أعد التوليد أو قم بتعديل نص التلقيم إذا لزم الأمر
+* **ضع في اعتبارك أحجام الملفات** — تُحسب الصور والفيديوهات المولدة ضمن حصة تخزين المساق. قم بإزالة الوسائط غير المستخدمة من مكتبة المستندات إذا كان المساحة محدودة
+* **توليد الفيديو يستغرق وقتًا أطول** — يمكن أن يستغرق توليد الفيديو القصير وقتًا أطول بشكل ملحوظ مقارنة بتوليد الصورة؛ خطط وفقًا لذلك إذا كنت قريبًا من موعد نهائي

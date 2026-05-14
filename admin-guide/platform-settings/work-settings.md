@@ -1,103 +1,103 @@
-# Assignments (Work) Settings
+# إعدادات المهام (العمل)
 
-Defaults and behaviour of the **Assignments (Student Publications)** tool.
+الإعدادات الافتراضية وسلوك أداة **المهام (منشورات الطلاب)**.
 
-Access these settings under **Administration > Configuration settings > Assignments (Work)**. This category contains **12 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+يمكن الوصول إلى هذه الإعدادات تحت **الإدارة > إعدادات التكوين > المهام (العمل)**. تحتوي هذه الفئة على **12 إعدادًا**، مدرجة أدناه مع العنوان والتعليق المرسل في إعدادات المنصة (`SettingsCurrentFixtures.php`).
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> يتم عرض اسم المتغير في الكود بحرف monospace. استخدمه عند البرمجة عبر `API` أو عند الحاجة إلى تغيير هذه الإعدادات على المستوى العام عن طريق تحرير [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
 
-## Settings
+## الإعدادات
 
 ### `allow_compilatio_tool`
 
-**Enable Compilatio**
+**تفعيل Compilatio**
 
-Compilatio is an anti-cheating service that compares text between two submissions and reports if there is a high probability the content (usually assignments) is not genuine.
+Compilatio هي خدمة مكافحة الغش تقارن النصوص بين تقديمين وتُبلغ إذا كان هناك احتمال عالٍ بأن المحتوى (عادةً المهام) غير أصلي.
 
-*Default: `false`*
+*الافتراضي: `false`*
 
 ### `allow_my_student_publication_page`
 
-**Enable My assignments page**
+**تفعيل صفحة مهامي**
 
-[inferred] Enable a dedicated page for learners to view and manage their own submitted assignments.
+[inferred] تفعيل صفحة مخصصة للمتعلمين لعرض وإدارة المهام المقدمة الخاصة بهم.
 
-*Default: `false`*
+*الافتراضي: `false`*
 
 ### `allow_only_one_student_publication_per_user`
 
-**Students can only upload one assignment**
+**يمكن للطلاب تحميل مهمة واحدة فقط**
 
-[inferred] Restrict learners to submitting only one assignment per activity, preventing multiple submissions.
+[inferred] تقييد المتعلمين بتقديم مهمة واحدة فقط لكل نشاط، مما يمنع التقديمات المتعددة.
 
-*Default: `false`*
+*الافتراضي: `false`*
 
 ### `allow_redirect_to_main_page_after_work_upload`
 
-**Redirect to assigment tool homepage after upload or comment**
+**إعادة التوجيه إلى الصفحة الرئيسية لأداة المهام بعد التحميل أو التعليق**
 
-Redirect to assignments list after uploading an assignment or a adding a comment
+إعادة التوجيه إلى قائمة المهام بعد تحميل مهمة أو إضافة تعليق
 
-*Default: `false`*
+*الافتراضي: `false`*
 
 ### `assignment_prevent_duplicate_upload`
 
-**Prevent duplicate uploads in assignments**
+**منع تحميل الملفات المكررة في المهام**
 
-[inferred] Block learners from uploading identical files for the same assignment submission.
+[inferred] منع المتعلمين من تحميل ملفات متطابقة لنفس تقديم المهام.
 
-*Default: `false`*
+*الافتراضي: `false`*
 
 ### `block_student_publication_add_documents`
 
-**Prevent adding documents to assignments**
+**منع إضافة المستندات إلى المهام**
 
-[inferred] Prevent learners from adding or attaching documents when submitting assignments.
+[inferred] منع المتعلمين من إضافة أو إرفاق مستندات عند تقديم المهام.
 
-*Default: `false`*
+*الافتراضي: `false`*
 
 ### `block_student_publication_edition`
 
-**Prevent assignments edition**
+**منع تعديل المهام**
 
-[inferred] Prevent learners from modifying or updating their submitted assignments after initial submission.
+[inferred] منع المتعلمين من تعديل أو تحديث المهام المقدمة بعد التقديم الأولي.
 
-*Default: `false`*
+*الافتراضي: `false`*
 
 ### `block_student_publication_score_edition`
 
-**Prevent teacher from modifying assignment scores**
+**منع المعلم من تعديل درجات المهام**
 
-[inferred] Prevent instructors from changing assignment scores after they have been recorded.
+[inferred] منع المدربين من تغيير درجات المهام بعد تسجيلها.
 
-*Default: `false`*
+*الافتراضي: `false`*
 
 ### `compilatio_tool`
 
-**Compilatio settings**
+**إعدادات Compilatio**
 
-Configure the Compilatio connection details here.
+قم بتكوين تفاصيل الاتصال بـ Compilatio هنا.
 
 ### `considered_working_time`
 
-**Enable time effort for assignments**
+**تفعيل جهد الوقت للمهام**
 
-This will allow teachers to give an estimated time effort (in hh:mm:ss format) to complete the assignment. Upon submission of the assignment and approval by the teacher (the assignment is given a score), the learner will automatically be assigned the corresponding time.
+سيسمح هذا للمعلمين بإعطاء تقدير لجهد الوقت (بتنسيق hh:mm:ss) لإكمال المهمة. عند تقديم المهمة وموافقتها من قبل المعلم (يتم إعطاء المهمة درجة)، سيتم تعيين الوقت المقابل تلقائيًا للمتعلم.
 
-*Default: `work_time`*
+*الافتراضي: `work_time`*
 
 ### `force_download_doc_before_upload_work`
 
-**Force download of document before assignment upload**
+**إجبار تحميل المستند قبل تحميل المهمة**
 
-Force users to download the provided document in the assignment definition before they can upload their assignment.
+إجبار المستخدمين على تحميل المستند المقدم في تعريف المهمة قبل أن يتمكنوا من تحميل مهمتهم.
 
-*Default: `true`*
+*الافتراضي: `true`*
 
 ### `my_courses_show_pending_work`
 
-**Display link to 'pending' assignments from My courses page**
+**عرض رابط المهام "المعلقة" من صفحة دوراتي**
 
-[inferred] Display a link or count of pending assignments on the learner's My Courses page for quick access.
+[inferred] عرض رابط أو عدد المهام المعلقة في صفحة دوراتي للمتعلم للوصول السريع.
 
-*Default: `false`*
+*الافتراضي: `false`*

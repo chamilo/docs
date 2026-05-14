@@ -1,46 +1,46 @@
-# Sessions
+# الجلسات
 
-Sessions in Chamilo are a way to deliver the same course to different groups of learners at different times, without duplicating the course content. Think of a session as a scheduled edition or cohort of a course.
+الجلسات في Chamilo هي طريقة لتقديم نفس الدورة التدريبية لمجموعات مختلفة من المتعلمين في أوقات مختلفة، دون تكرار محتوى الدورة التدريبية. فكر في الجلسة كإصدار مجدول أو مجموعة من الدورة التدريبية.
 
-## How Sessions Work
+## كيفية عمل الجلسات
 
-A **course** is a container of content and tools. A **session** assigns that course to a specific group of learners for a specific time period. This means:
+**الدورة التدريبية** هي حاوية للمحتوى والأدوات. **الجلسة** تقوم بتعيين تلك الدورة التدريبية إلى مجموعة محددة من المتعلمين لفترة زمنية محددة. هذا يعني:
 
-* The same course can be reused across multiple sessions
-* Each session has its own enrolled learners and its own start/end dates
-* Each session has its own results — grades, progress, and tracking data are kept separate per session
-* The base course content is shared, but teachers can customize certain elements per session
+* يمكن إعادة استخدام نفس الدورة التدريبية عبر جلسات متعددة
+* كل جلسة لها متعلمون مسجلون خاصون بها وتواريخ بداية/نهاية خاصة بها
+* كل جلسة لها نتائج خاصة بها — الدرجات والتقدم وبيانات التتبع محفوظة منفصلة لكل جلسة
+* محتوى الدورة التدريبية الأساسي مشترك، لكن يمكن للمدرسين تخصيص بعض العناصر لكل جلسة
 
-## Your Sessions
+## جلساتك
 
-From the sidebar, click **My sessions** to see your sessions. They are organized into three views:
+من الشريط الجانبي، انقر على **جلساتي** لرؤية جلساتك. يتم تنظيمها في ثلاثة عرض:
 
-![The My Sessions page showing current, past, and upcoming session views](/.gitbook/assets/my-sessions-list.png)
+![صفحة جلساتي التي تظهر عرض الجلسات الحالية والسابقة والقادمة](/.gitbook/assets/my-sessions-list.png)
 
-* **Current sessions** — Sessions that are currently active
-* **Past sessions** — Sessions that have ended
-* **Upcoming sessions** — Sessions that have not started yet
+* **الجلسات الحالية** — الجلسات النشطة حالياً
+* **الجلسات السابقة** — الجلسات التي انتهت
+* **الجلسات القادمة** — الجلسات التي لم تبدأ بعد
 
-Each session shows the courses it contains. Click on a course within a session to access it.
+كل جلسة تظهر الدورات التدريبية التي تحتويها. انقر على دورة تدريبية داخل جلسة للوصول إليها.
 
-## Teaching in a Session
+## التدريس في جلسة
 
-When you enter a course through a session, the experience is similar to a regular course, with a few differences:
+عندما تدخل دورة تدريبية من خلال جلسة، تكون التجربة مشابهة لدورة تدريبية عادية، مع بعض الاختلافات:
 
-* The **session name** appears alongside the course title, so you always know which session you are working in
-* Learner data (progress, grades, submissions) is specific to this session
-* Some settings (like the ability to change the visibility of tools) may be locked by the session administrator
+* يظهر **اسم الجلسة** بجانب عنوان الدورة التدريبية، حتى تعرف دائماً أي جلسة تعمل فيها
+* بيانات المتعلم (التقدم، الدرجات، التقديمات) خاصة بهذه الجلسة
+* بعض الإعدادات (مثل إمكانية تغيير رؤية الأدوات) قد تكون مقفلة من قبل مدير الجلسة
 
-## Session Roles
+## أدوار الجلسة
 
-Sessions introduce additional roles:
+تُدخل الجلسات أدواراً إضافية:
 
-| Role | Description |
-|------|-------------|
-| **Session administrator** | Manages the creation and configuration of sessions |
-| **Session coach** | Oversees all courses within a session (can access tracking across courses) |
-| **Course coach** | Teaches a specific course within a session |
+| الدور | الوصف |
+|-------|--------|
+| **مدير الجلسة** | يدير إنشاء الجلسات وتكوينها |
+| **مدرب الجلسة** | يشرف على جميع الدورات داخل الجلسة (يمكنه الوصول إلى التتبع عبر الدورات) |
+| **مدرب الدورة** | يدرّس دورة تدريبية محددة داخل الجلسة |
 
-If you are assigned as a **course coach** in a session, you can manage that course's content and track learner progress for the session's learners.
+إذا تم تعيينك كـ **مدرب دورة** في جلسة، يمكنك إدارة محتوى تلك الدورة التدريبية وتتبع تقدم المتعلمين لمتعلمي الجلسة.
 
-> Sessions are typically managed by administrators. If you need to create or modify a session, contact your platform administrator or session administrator.
+> يتم إدارة الجلسات عادةً من قبل المشرفين. إذا كنت بحاجة إلى إنشاء أو تعديل جلسة، اتصل بمشرف المنصة أو مدير الجلسة.

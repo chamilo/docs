@@ -1,74 +1,77 @@
-# Glossary
+# قاموس المصطلحات
 
-Key terms used in Chamilo 2.0 administration.
+المصطلحات الرئيسية المستخدمة في إدارة Chamilo 2.0.
 
-## Platform Concepts
+## مفاهيم المنصة
 
-| Term | Definition |
-|------|------------|
-| **Access URL** | In a multi-URL setup, each access URL is a separate virtual portal sharing the same Chamilo installation and database. Each URL can have its own branding, users, courses, and settings. |
-| **Course** | The fundamental content container in Chamilo. A course holds learning materials, exercises, forums, and other tools. Courses can exist independently or be assigned to sessions. |
-| **Session** | A time-bound instance of one or more courses. Sessions allow the same course content to be delivered to different groups of learners with separate tracking and independent coaches. |
-| **Learning path** | A structured sequence of content items (documents, exercises, links, SCORM modules) that guides learners through material in a defined order. |
-| **Gradebook** | An aggregation tool that combines scores from exercises, assignments, and other activities into a weighted final grade for a course. |
-| **Skill** | A competency or badge that can be awarded to learners upon completing specific courses, exercises, or achieving gradebook thresholds. |
-| **Extra field** | A custom data field added by administrators to users, courses, or sessions to capture organization-specific metadata. |
-| **Plugin** | An extension that adds functionality to Chamilo without modifying core code. Plugins can add pages, tools, or integrations. |
-| **Catalog** | A browsable listing of available courses where users can view descriptions and self-enroll. |
+| المصطلح | التعريف |
+|---------|----------|
+| **URL الوصول** | في إعدادات الـ URL المتعددة، كل URL وصول هو بوابة افتراضية منفصلة تشترك في نفس تثبيت وقاعدة بيانات Chamilo. يمكن لكل URL أن يكون له علامة تجارية ومستخدمون ودورات وإعدادات خاصة به. |
+| **الدورة** | حاوية المحتوى الأساسية في Chamilo. تحتوي الدورة على مواد تعليمية وتمارين ومنتديات وأدوات أخرى. يمكن للدورة أن تكون مستقلة أو مخصصة لجلسة. |
+| **الجلسة** | نسخة زمنية محدودة من الدورة، تتكون من دورة واحدة أو أكثر. تتيح الجلسة تقديم نفس محتوى الدورة إلى مجموعات متعلمين مختلفة مع تتبع منفصل ومدربين مستقلين. |
+| **مسار التعلم** | تسلسل منظم من عناصر المحتوى (وثائق، تمارين، روابط، وحدات SCORM) يوجه المتعلمين عبر المواد بترتيب محدد. |
+| **دفتر الدرجات** | أداة تجميع تجمع الدرجات من التمارين والمهام والأنشطة الأخرى في درجة نهائية مرجحة لدورة معينة. |
+| **المهارات** | كفاءات أو شارة يمكن منحها للمتعلمين بعد إكمال دورة معينة أو تمرين أو الوصول إلى حد أدنى في دفتر الدرجات. |
+| **الأعمدة الإضافية** | أعمدة بيانات مخصصة يضيفها المسؤول إلى المستخدمين أو الدورات أو الجلسات لالتقاط بيانات وصفية خاصة بالمنظمة. |
+| **الإضافات** | امتدادات تضيف وظائف إلى Chamilo دون تغيير الشيفرة الأساسية. يمكن للإضافات إضافة صفحات أو أدوات أو تكاملات. |
+| **الكتالوج** | قائمة بالدورات المتاحة يمكن تصفحها، حيث يمكن للمستخدمين رؤية الوصف والتسجيل الذاتي. |
 
-## User Roles
+## أدوار المستخدمين
 
-| Term | Definition |
-|------|------------|
-| **Learner (Student)** | The default user role. Can enroll in courses and consume content. |
-| **Teacher (Trainer)** | Can create and manage courses, add content, and grade learners. |
-| **Session administrator** | Can create and manage sessions and enrollments. |
-| **Human Resources Manager (HRM)** | Can view tracking and reporting data for assigned users. |
-| **Portal administrator** | Full access to all platform administration features. |
-| **Global administrator** | Portal administrator with access across all access URLs in a multi-URL setup. |
-| **Coach/Tutor** | A session-level role. Session coaches oversee all courses in a session; course coaches manage a specific course within a session. All coaches references should be renamed to tutors in the long run. |
+| المصطلح | التعريف |
+|---------|----------|
+| **المتعلم (الطالب)** | دور المستخدم الافتراضي. يمكنه التسجيل في الدورات والوصول إلى المحتوى. |
+| **المدرس (المدرب)** | يمكنه إنشاء وإدارة الدورات، إضافة المحتوى، وتقييم المتعلمين. |
+| **مسؤول الجلسة** | يمكنه إنشاء وإدارة الجلسات والتسجيلات. |
+| **مدير الموارد البشرية (HRM)** | يمكنه رؤية بيانات التتبع والتقارير للمستخدمين المخصصين. |
+| **مسؤول البوابة** | لديه وصول كامل إلى جميع ميزات إدارة المنصة. |
+| **المدير العام** | مسؤول بوابة مع وصول عبر جميع URL الوصول في إعدادات الـ URL المتعددة. |
+| **المدرب/المشرف** | دور على مستوى الجلسة. يشرف مدرب الجلسة على جميع الدورات في جلسة؛ يدير مدرب الدورة دورة معينة في جلسة. يُفضل استبدال جميع الإشارات إلى المدرب بـ "مشرف" على المدى الطويل. |
 
-## Standards and Protocols
+## المعايير والبروتوكولات
 
-| Term | Definition |
-|------|------------|
-| **SCORM** | Sharable Content Object Reference Model. An e-learning packaging standard that allows courses to be imported and tracked. Chamilo supports SCORM 1.2 and 2004. |
-| **xAPI (Tin Can API)** | An e-learning specification for tracking learning experiences. Broader than SCORM, it can record activities that happen outside the LMS. xAPI statements are stored in a Learning Record Store (LRS). |
-| **LTI** | Learning Tools Interoperability. An IMS Global standard that allows external tools and content to be embedded within an LMS. Chamilo supports LTI 1.1 and 1.3 as both a consumer and provider. |
-| **SCIM** | System for Cross-domain Identity Management. A standard for automating user provisioning and deprovisioning between identity providers and applications. |
-| **OAuth2** | An authorization framework that allows third-party applications to access Chamilo on behalf of a user without sharing passwords. Used for API access and SSO integrations. |
-| **LDAP** | Lightweight Directory Access Protocol. A protocol for accessing directory services (e.g., Active Directory) to authenticate users and synchronize account data. |
-| **CAS** | Central Authentication Service. A single sign-on protocol that allows users to authenticate once and access multiple applications. |
-| **JWT** | JSON Web Token. A compact, signed token format used for API authentication and session management. |
-| **SAML** | Security Assertion Markup Language. An XML-based standard for exchanging authentication data between an identity provider and a service provider. |
+| المصطلح | التعريف |
+|---------|----------|
+| **SCORM** | Sharable Content Object Reference Model. معيار تعبئة التعلم الإلكتروني الذي يتيح استيراد الدورات وتتبعها. يدعم Chamilo إصدارات SCORM 1.2 و2004. |
+| **xAPI (Tin Can API)** | مواصفات التعلم الإلكتروني لتتبع تجارب التعلم. أوسع من SCORM، يمكنها تسجيل الأنشطة التي تحدث خارج LMS. تُخزن بيانات xAPI في Learning Record Store (LRS). |
+| **LTI** | Learning Tools Interoperability. معيار IMS Global الذي يتيح تضمين الأدوات والمحتوى الخارجي داخل LMS. يدعم Chamilo LTI 1.1 و1.3 كمستهلك ومزود. |
+| **SCIM** | System for Cross-domain Identity Management. معيار لأتمتة توفير وإنهاء المستخدمين بين مزود الهوية والتطبيقات. |
+| **OAuth2** | إطار عمل للترخيص يتيح للتطبيقات الخارجية الوصول إلى Chamilo نيابة عن المستخدم دون مشاركة كلمة المرور. يُستخدم للوصول إلى API والتكاملات SSO. |
+| **LDAP** | Lightweight Directory Access Protocol. بروتوكول للوصول إلى خدمات الدليل (مثل Active Directory) لمصادقة المستخدمين ومزامنة بيانات الحسابات. |
+| **CAS** | Central Authentication Service. بروتوكول تسجيل الدخول الموحد الذي يتيح للمستخدمين المصادقة مرة واحدة والوصول إلى تطبيقات متعددة. |
+| **JWT** | JSON Web Token. تنسيق رمز مدمج وموقع يُستخدم لمصادقة API وإدارة الجلسات. |
+| **SAML** | Security Assertion Markup Language. معيار قائم على XML لتبادل بيانات المصادقة بين مزود الهوية ومزود الخدمة. |
 
-## Technical Terms
+---
 
-| Term | Definition |
-|------|------------|
-| **Symfony** | The PHP framework on which Chamilo 2.0 is built. Symfony provides routing, dependency injection, ORM (Doctrine), templating (Twig), and other infrastructure. |
-| **Doctrine** | The object-relational mapper (ORM) used by Chamilo to interact with the database. Doctrine maps PHP objects to database tables. |
-| **Twig** | The template engine used by Symfony and Chamilo for rendering HTML. |
-| **Flysystem** | A PHP filesystem abstraction layer. Chamilo uses Flysystem to support local storage, Amazon S3, Azure Blob, and Google Cloud Storage interchangeably. |
-| **Composer** | The PHP dependency manager. Used to install and update Chamilo's PHP libraries. |
-| **Mailer DSN** | Data Source Name for the email transport. A connection string that tells Symfony how to send emails (e.g., via SMTP, Amazon SES, or Mailjet). |
-| **OPcache** | PHP's built-in opcode cache. Compiles PHP scripts into bytecode and caches them in memory, significantly improving performance. |
-| **APCu** | A PHP extension providing a user-level in-memory cache. Used by Symfony for caching metadata and configuration. |
+---
+## المصطلحات التقنية
 
-## Acronyms
+| المصطلح | التعريف |
+|---------|----------|
+| **Symfony** | إطار عمل PHP الذي يشكل الأساس لـ Chamilo 2.0. يوفر Symfony التوجيه، وحقن التبعيات، و ORM (Doctrine)، وقوالب العرض (Twig)، وبنية تحتية أخرى. |
+| **Doctrine** | تعريف علاقات الكائنات (ORM) المستخدم في Chamilo للتفاعل مع قاعدة البيانات. يقوم Doctrine بتعيين كائنات PHP إلى جداول قاعدة البيانات. |
+| **Twig** | محرك قوالب يستخدمه Symfony و Chamilo لعرض HTML. |
+| **Flysystem** | طبقة تجريد لنظام الملفات في PHP. يستخدم Chamilo Flysystem لدعم التخزين المحلي، و Amazon S3، و Azure Blob، و Google Cloud Storage بشكل متبادل. |
+| **Composer** | مدير التبعيات في PHP. يُستخدم لتثبيت وتحديث مكتبات PHP الخاصة بـ Chamilo. |
+| **Mailer DSN** | اسم مصدر البيانات لنقل البريد الإلكتروني. سلسلة الاتصال التي تخبر Symfony كيفية إرسال البريد الإلكتروني (مثل عبر SMTP، أو Amazon SES، أو Mailjet). |
+| **OPcache** | ذاكرة التخزين المؤقت للكود التشغيلي الافتراضية في PHP. تقوم بتجميع نصوص PHP إلى بايت كود وتخزينها في الذاكرة، مما يحسن الأداء بشكل كبير. |
+| **APCu** | امتداد PHP يوفر ذاكرة تخزين مؤقت في الذاكرة على مستوى المستخدم. يستخدمه Symfony لتخزين البيانات الوصفية والتكوينات مؤقتًا. |
 
-| Acronym | Full Form |
-|---------|-----------|
-| **LMS** | Learning Management System |
-| **LRS** | Learning Record Store (for xAPI statements) |
-| **SSO** | Single Sign-On |
-| **CSV** | Comma-Separated Values (used for user/course imports) |
-| **API** | Application Programming Interface |
-| **REST** | Representational State Transfer (API architecture style) |
-| **GDPR** | General Data Protection Regulation (EU data privacy law) |
-| **HSTS** | HTTP Strict Transport Security |
-| **CDN** | Content Delivery Network |
-| **DNS** | Domain Name System |
-| **SPF** | Sender Policy Framework (email authentication) |
-| **DKIM** | DomainKeys Identified Mail (email authentication) |
-| **DMARC** | Domain-based Message Authentication, Reporting, and Conformance |
+## الاختصارات
+
+| الاختصار | الشكل الكامل |
+|-----------|----------------|
+| **LMS** | Learning Management System (نظام إدارة التعلم) |
+| **LRS** | Learning Record Store (مخزن سجلات التعلم لتخزين عبارات xAPI) |
+| **SSO** | Single Sign-On (تسجيل دخول واحد) |
+| **CSV** | Comma-Separated Values (قيم مفصولة بفواصل، تُستخدم لاستيراد المستخدمين/الدورات) |
+| **API** | Application Programming Interface (واجهة برمجة التطبيقات) |
+| **REST** | Representational State Transfer (أسلوب معماري لـ API) |
+| **GDPR** | General Data Protection Regulation (لائحة حماية البيانات العامة في الاتحاد الأوروبي) |
+| **HSTS** | HTTP Strict Transport Security (أمان نقل HTTP الصارم) |
+| **CDN** | Content Delivery Network (شبكة توزيع المحتوى) |
+| **DNS** | Domain Name System (نظام أسماء النطاقات) |
+| **SPF** | Sender Policy Framework (إطار سياسة المرسل لمصادقة البريد الإلكتروني) |
+| **DKIM** | DomainKeys Identified Mail (بريد إلكتروني مصادق عليه بمفاتيح النطاق لمصادقة البريد الإلكتروني) |
+| **DMARC** | Domain-based Message Authentication, Reporting, and Conformance (مصادقة الرسائل القائمة على النطاق، والإبلاغ، والامتثال) |

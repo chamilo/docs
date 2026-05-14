@@ -1,50 +1,49 @@
-# Chat Settings
+# إعدادات الدردشة
 
-Behaviour of the course **Chat** tool.
+سلوك أداة **الدردشة** في الدورة.
 
-Access these settings under **Administration > Configuration settings > Chat**. This category contains **5 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+الوصول إلى هذه الإعدادات تحت **الإدارة > إعدادات التكوين > الدردشة**. تحتوي هذه الفئة على **5 إعدادات**، مدرجة أدناه مع العنوان والتعليق المرسل في إعدادات المنصة (`SettingsCurrentFixtures.php`).
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> يتم عرض اسم المتغير في الكود بخط monospace. استخدمه عند البرمجة عبر API أو عند الحاجة إلى تغيير هذه الإعدادات على المستوى العام عن طريق تعديل [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
 
-## Settings
+## الإعدادات
 
 ### `allow_global_chat`
 
-**Allow global chat**
+**السماح بالدردشة العامة**
 
-Users can chat with each other
+يمكن للمستخدمين الدردشة مع بعضهم البعض
 
-*Default: `false`*
+*افتراضي: `false`*
 
 ### `course_chat_restrict_to_coach`
 
-**Restrict course chat to coaches**
+**تقييد دردشة الدورة على المدربين**
 
-Only allow students to talk to the tutors in the course (not other students).
+السماح للطلاب فقط بالتحدث مع المدرسين في الدورة (وليس مع الطلاب الآخرين).
 
-*Default: `false`*
+*افتراضي: `false`*
 
 ### `hide_chat_video`
 
-**Hide videochat option in global chat**
+**إخفاء خيار الفيديو دردشة في الدردشة العامة**
 
-When enabled, video chat functionality is disabled and unavailable in the global chat tool.
+عند التفعيل، يتم تعطيل وظيفة الدردشة الفيديو وتصبح غير متاحة في أداة الدردشة العامة.
 
-*Default: `true`*
+*افتراضي: `true`*
 
 ### `save_private_conversations_in_documents`
 
-**Save private conversations in documents**
+**حفظ المحادثات الخاصة في الوثائق**
 
-If enabled, 1:1 private chat messages will be mirrored in the course chat history documents. Recommended to keep disabled for privacy.
+إذا تم التفعيل، سيتم نسخ رسائل الدردشة الخاصة 1:1 في وثائق تاريخ دردشة الدورة. يُوصى بتركها معطلة لأسباب الخصوصية.
 
-*Default: `false`*
+*افتراضي: `false`*
 
 ### `show_chat_folder`
 
-**Show the history folder of chat conversations**
+**عرض مجلد تاريخ محادثات الدردشة**
 
-This will show to theacher the folder that contains all sessions that have been made in the chat, the teacher can make them visible or not learners and use them as a resource
+سيظهر هذا للمعلم المجلد الذي يحتوي على جميع الجلسات التي تم إجراؤها في الدردشة، يمكن للمعلم جعلها مرئية أو غير مرئية للمتعلمين واستخدامها كمورد
 
-*Default: `true`*
-
+*افتراضي: `true`*

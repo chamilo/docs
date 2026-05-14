@@ -1,30 +1,30 @@
-# Sessions
+# الجلسات
 
-Sessions are one of Chamilo's most powerful features. They allow you to deliver the same courses to different groups of learners at different times, without duplicating course content.
+الجلسات هي واحدة من أقوى ميزات Chamilo. تتيح لك تقديم نفس الدورات لمجموعات مختلفة من المتعلمين في أوقات مختلفة، دون تكرار محتوى الدورة.
 
-* **[Managing Sessions](managing-sessions.md)** — Create, configure, and manage training sessions
-* **[Session Categories](session-categories.md)** — Organize sessions into categories
-* **[Careers and Promotions](careers-and-promotions.md)** — Define career paths and promotion workflows
-* **[Classes](classes.md)** — Manage learner classes for bulk enrollment
+* **[إدارة الجلسات](managing-sessions.md)** — إنشاء وتكوين وإدارة جلسات التدريب
+* **[فئات الجلسات](session-categories.md)** — تنظيم الجلسات في فئات
+* **[المسارات المهنية والترقيات](careers-and-promotions.md)** — تحديد مسارات المهن والسير الإجرائية للترقيات
+* **[الفصول الدراسية](classes.md)** — إدارة فصول المتعلمين للتسجيل الجماعي
 
-## Understanding Sessions
+## فهم الجلسات
 
-Sessions are **optional**. You can make your portal work just by using courses, but we **really** recommend you consider the extra complexity of sessions as a way to save management work in the long run.
+الجلسات **اختيارية**. يمكنك جعل بوابة عملك تعمل فقط باستخدام الدورات، لكننا **نوصي بشدة** بأن تفكر في التعقيد الإضافي للجلسات كوسيلة لتوفير عمل الإدارة على المدى الطويل.
 
-A **course** holds the content (documents, exercises, learning paths). A **session** assigns that course (or multiple courses) to a specific group of learners *for a specific time period*.
+**الدورة** تحتوي على المحتوى (الوثائق، التمارين، مسارات التعلم). **الجلسة** تقوم بتخصيص تلك الدورة (أو دورات متعددة) لمجموعة محددة من المتعلمين *لفترة زمنية محددة*.
 
-This architecture means:
+هذه الهيكلية تعني:
 
-* Teachers create content once in the course
-* Administrators create sessions to deliver that content to different cohorts
-* Each session has its own enrollment, tracking data, and results
-* The base course content is shared, but session coaches can customize certain elements
+* يقوم المعلمون بإنشاء المحتوى مرة واحدة في الدورة
+* يقوم المسؤولون بإنشاء الجلسات لتقديم ذلك المحتوى لمجموعات مختلفة
+* تمتلك كل جلسة تسجيلها و بيانات تتبعها ونتائجها الخاصة
+* يتم مشاركة محتوى الدورة الأساسي، لكن مدربي الجلسة يمكنهم تخصيص عناصر معينة
 
-## When to Use Sessions
+## متى تستخدم الجلسات
 
-Use sessions when:
+استخدم الجلسات عندما:
 
-* You deliver the same training multiple times (e.g., monthly onboarding sessions)
-* You have cohort-based programs (e.g., semester-based classes)
-* You need separate tracking per group of learners
-* You want different coaches to manage different editions of the same course
+* تقدم نفس التدريب عدة مرات (مثل جلسات التوجيه الشهرية)
+* لديك برامج قائمة على المجموعات (مثل الفصول الدراسية القائمة على الفصول الدراسية)
+* تحتاج إلى تتبع منفصل لكل مجموعة من المتعلمين
+* تريد مدربين مختلفين لإدارة إصدارات مختلفة من نفس الدورة

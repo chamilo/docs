@@ -1,27 +1,27 @@
-# AI Tools
+# أدوات الذكاء الاصطناعي
 
-Chamilo 2.0 introduces AI-powered tools that help you create content faster and provide personalized support to your learners. These features use large language models (such as OpenAI's GPT, Google Gemini, Mistral, or others) to generate educational content and assist with grading.
+يُقدم Chamilo 2.0 أدوات مدعومة بالذكاء الاصطناعي تساعدك على إنشاء المحتوى بشكل أسرع وتقديم دعم مخصص لمتعلميك. تستخدم هذه الميزات نماذج لغة كبيرة (مثل GPT من OpenAI، أو Google Gemini، أو Mistral، أو غيرها) لتوليد محتوى تعليمي ومساعدة في التقييم.
 
-> AI tools must be configured by your platform administrator before they become available. See the [AI Configuration](../../admin-guide/integrations/ai-configuration.md) section of the Administration Guide for setup details.
+> يجب على مدير المنصة تكوين أدوات الذكاء الاصطناعي قبل أن تصبح متاحة. انظر قسم [تكوين الذكاء الاصطناعي](../../admin-guide/integrations/ai-configuration.md) في دليل الإدارة للحصول على تفاصيل الإعداد.
 
-## Available AI Tools
+## الأدوات المتاحة للذكاء الاصطناعي
 
-* **[AI Tutor](ai-tutor.md)** — An AI chatbot that learners can interact with for course-related questions
-* **[Exercise Generator](exercise-generator.md)** — Automatically generate quiz questions from your course content or a topic description
-* **[Learning Path Generator](learning-path-generator.md)** — Create structured learning sequences from a topic or set of objectives
-* **[AI Grading](ai-grading.md)** — Get AI-assisted evaluation of open-ended answers and student submissions
-* **[Glossary Terms Generator](glossary-generator.md)** — Automatically generate term definitions for your course glossary
-* **[AI Media Generation](ai-media-generation.md)** — Generate images and short videos from the rich-text editor while creating documents
+* **[AI Tutor](ai-tutor.md)** — روبوت دردشة مدعوم بالذكاء الاصطناعي يمكن للمتعلمين التفاعل معه للإجابة على أسئلة متعلقة بالدورة
+* **[Exercise Generator](exercise-generator.md)** — توليد أسئلة الاختبار تلقائيًا من محتوى الدورة أو وصف موضوع
+* **[Learning Path Generator](learning-path-generator.md)** — إنشاء تسلسلات تعلمية منظمة من موضوع أو مجموعة من الأهداف
+* **[AI Grading](ai-grading.md)** — الحصول على تقييم مدعوم بالذكاء الاصطناعي للإجابات المفتوحة وتقديمات الطلاب
+* **[Glossary Terms Generator](glossary-generator.md)** — توليد تعريفات المصطلحات تلقائيًا لقاموس الدورة
+* **[AI Media Generation](ai-media-generation.md)** — توليد صور وفيديوهات قصيرة من محرر النص الغني أثناء إنشاء الوثائق
 
-## How AI Tools Work
+## كيفية عمل أدوات الذكاء الاصطناعي
 
-When AI tools are enabled, they appear in the relevant contexts:
+عند تمكين أدوات الذكاء الاصطناعي، تظهر في السياقات ذات الصلة:
 
-* The **Exercise Generator** appears when creating or editing exercises, and also as a quick action on documents in the Documents tool
-* The **Learning Path Generator** appears when creating learning paths
-* The **AI Grading** option appears in the assignment correction workflow
-* The **AI Tutor** is available to learners within the course
-* The **Glossary Terms Generator** appears in the Glossary tool toolbar
-* The **AI Media Generation** dialog appears in the rich-text editor when creating or editing documents
+* يظهر **Exercise Generator** عند إنشاء أو تعديل التمارين، وكذلك كإجراء سريع على الوثائق في أداة Documents
+* يظهر **Learning Path Generator** عند إنشاء مسارات التعلم
+* يظهر خيار **AI Grading** في سير عمل تصحيح الواجبات
+* يكون **AI Tutor** متاحًا للمتعلمين داخل الدورة
+* يظهر **Glossary Terms Generator** في شريط أدوات أداة Glossary
+* يظهر مربع حوار **AI Media Generation** في محرر النص الغني عند إنشاء أو تعديل الوثائق
 
-All AI-generated content is presented as a **suggestion** that you can review, edit, and modify before publishing. You always have the final say on what your learners see.
+يُقدم جميع المحتوى الذي يولده الذكاء الاصطناعي كـ**اقتراح** يمكنك مراجعته وتعديله وتعديله قبل النشر. لديك دائمًا الكلمة الأخيرة فيما يراه متعلموك.

@@ -1,42 +1,42 @@
-# Templates
+# القوالب
 
-Chamilo uses templates for certificates, documents, and emails. You can customize these templates to match your organization's branding and requirements.
+يستخدم Chamilo قوالبًا للشهادات والوثائق والبريد الإلكتروني. يمكن تخصيص هذه القوالب وفقًا لعلامة المنظمة التجارية أو متطلباتها.
 
-## Certificate Templates
+## قوالب الشهادات
 
-Certificate templates define the layout and content of certificates awarded to learners who meet gradebook thresholds.
+تحدد قوالب الشهادات تخطيط ومحتوى الشهادات التي تُمنح للمتعلمين الذين يحققون معايير الجدول الدراسي.
 
-### Customizing a Certificate Template
+### تخصيص قوالب الشهادات
 
-Certificate templates use HTML and CSS with placeholder variables:
+تُنشأ قوالب الشهادات باستخدام HTML وCSS مع متغيرات الحاملات:
 
-| Variable | Replaced with |
+| المتغير | المحتوى المستبدل |
 |----------|-------------|
-| Student name | The learner's full name |
-| Course name | The name of the course |
-| Date | The date the certificate was earned |
-| Score | The learner's final score |
-| Barcode | A barcode placeholder (`((certificate_barcode))`) used for verification |
+| 学生名 | الاسم الكامل للمتعلم |
+| コース名 | اسم الدورة |
+| 日付 | تاريخ الحصول على الشهادة |
+| スコア | الدرجة النهائية للمتعلم |
+| バーコード | حامل الباركود للتحقق (`((certificate_barcode))`) |
 
-### Uploading a Template
+### رفع القالب
 
-1. Navigate to certificate template management
-2. Upload or edit the HTML template
-3. Use the placeholder variables where dynamic content should appear
-4. Save
+1. انتقل إلى إدارة قوالب الشهادات
+2. قم برفع أو تعديل قالب HTML
+3. استخدم متغيرات الحاملات في أماكن عرض المحتوى الديناميكي
+4. احفظ
 
-## Document Templates
+## قوالب الوثائق
 
-Teachers can use document templates when creating content in the Documents tool. Templates provide a starting layout for common document types.
+يمكن للمدرسين استخدام قوالب الوثائق عند إنشاء محتوى في أداة الوثائق. توفر القوالب تخطيطًا أوليًا لأنواع الوثائق الشائعة.
 
-### Managing Document Templates
+### إدارة قوالب الوثائق
 
-1. Navigate to template management in the administration panel
-2. Add new templates by uploading HTML files
-3. Templates become available to teachers when they create new documents
+1. انتقل إلى إدارة القوالب في لوحة الإدارة
+2. قم برفع ملف HTML لإضافة قالب جديد
+3. يصبح القالب متاحًا للمدرسين عند إنشاء وثيقة جديدة
 
-## Tips
+## نصائح
 
-* **Include your logo** — Add your organization's logo to certificate templates for a professional look
-* **Test with real data** — Preview certificates with actual learner data before deploying the template
-* **Keep templates simple** — Simple designs print better and look professional
+* **تضمين الشعار** — أضف شعار المنظمة إلى قوالب الشهادات للحصول على مظهر احترافي
+* **اختبار ببيانات حقيقية** — قم بمعاينة الشهادات باستخدام بيانات متعلم حقيقية قبل نشر القالب
+* **الحفاظ على بساطة القالب** — التصميم البسيط سهل الطباعة ويبدو احترافيًا

@@ -1,5 +1,5 @@
-# Plugins
+# الإضافات
 
-Plugins extend Chamilo's functionality without modifying the core code. Chamilo 2.0 comes with over 50 plugins that can be activated as needed.
+تمتد الإضافات وظائف Chamilo دون تعديل الشيفرة الأساسية. يأتي Chamilo 2.0 مع أكثر من 50 إضافة يمكن تفعيلها حسب الحاجة.
 
-* **[Managing Plugins](managing-plugins.md)** — Install, activate, configure, and deactivate plugins
+* **[إدارة الإضافات](managing-plugins.md)** — تثبيت الإضافات، وتفعيلها، وتكوينها، وإلغاء تفعيلها

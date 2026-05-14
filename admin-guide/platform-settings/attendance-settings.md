@@ -1,42 +1,41 @@
-# Attendance Settings
+# إعدادات الحضور
 
-Defaults and behaviour of the **Attendance** tool.
+الإعدادات الافتراضية وسلوك أداة **الحضور**.
 
-Access these settings under **Administration > Configuration settings > Attendance**. This category contains **4 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+يمكن الوصول إلى هذه الإعدادات تحت **إدارة > إعدادات التكوين > الحضور**. تحتوي هذه الفئة على **4 إعدادات**، مدرجة أدناه مع العنوان والتعليق المرسل في إعدادات المنصة (`SettingsCurrentFixtures.php`).
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> يتم عرض اسم المتغير في الكود بخط أحادي المسافة. استخدمه عند البرمجة عبر `API` أو عند الحاجة إلى تغيير هذه الإعدادات على المستوى العام من خلال تعديل [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
 
-## Settings
+## الإعدادات
 
 ### `allow_delete_attendance`
 
-**Attendances: enable deletion**
+**الحضور: تمكين الحذف**
 
-The default behaviour in Chamilo is to hide attendance sheets instead of deleting them, just in case the teacher would do it by mistake. Enable this option to allow teachers to *really* delete attendance sheets.
+السلوك الافتراضي في Chamilo هو إخفاء جداول الحضور بدلاً من حذفها، في حال قام المعلم بذلك عن طريق الخطأ. قم بتمكين هذا الخيار للسماح للمعلمين بـ*حذف جداول الحضور فعليًا*.
 
-*Default: `true`*
+*افتراضي: `true`*
 
 ### `attendance_allow_comments`
 
-**Allow comments in attendance sheets**
+**السماح بالتعليقات في جداول الحضور**
 
-Teachers and students can comment on each individual attendance (to justify).
+يمكن للمعلمين والطلاب التعليق على كل حضور فردي (للتبرير).
 
-*Default: `false`*
+*افتراضي: `false`*
 
 ### `enable_sign_attendance_sheet`
 
-**Attendance signing**
+**توقيع الحضور**
 
-Enable taking signatures to confirm one's attendance.
+تمكين أخذ التوقيعات لتأكيد الحضور.
 
-*Default: `false`*
+*افتراضي: `false`*
 
 ### `multilevel_grading`
 
-**Enable Multi-Level Attendance Grading**
+**تمكين تصنيف الحضور متعدد المستويات**
 
-Allows grading attendance with multiple levels instead of a simple present/absent system.
+يسمح بتصنيف الحضور بمستويات متعددة بدلاً من نظام بسيط حاضر/غائب.
 
-*Default: `false`*
-
+*افتراضي: `false`*

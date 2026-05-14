@@ -1,76 +1,77 @@
-# Understanding the Interface
+# فهم الواجهة
 
-Chamilo 2.0 has a clean, modern interface designed to keep navigation simple. This page explains each part of the interface in detail.
+يتميز Chamilo 2.0 بواجهة نظيفة وحديثة مصممة لتبسيط التنقل. توضح هذه الصفحة كل جزء من الواجهة بالتفصيل.
 
-## The Top Bar
+## شريط الأعلى
 
-![The top bar with annotated elements including logo, inbox, support ticket, and user avatar](/.gitbook/assets/top-bar-annotated.png)
+![شريط الأعلى مع عناصر مشروحة تشمل الشعار والصندوق الوارد والتذكرة الداعمة وصورة المستخدم](/.gitbook/assets/top-bar-annotated.png)
 
-The top bar is always visible at the top of every page. It contains:
+يظهر شريط الأعلى دائمًا في أعلى كل صفحة. ويحتوي على:
 
-* **Platform logo** — Click it to return to the home page at any time.
-* **Inbox icon** <img src="/.gitbook/assets/icons/mdi-inbox.svg" alt="Inbox" data-size="line"> — Shows your messages. A red badge indicates unread messages. Click to open your inbox.
-* **Support ticket icon** <img src="/.gitbook/assets/icons/mdi-ticket-account.svg" alt="Support" data-size="line"> — If enabled by your administrator, this gives you access to the support ticket system.
-* **Your avatar** — A circular image in the top-right corner. Click it to open a dropdown menu with links to your profile, account settings, and sign-out.
+* **شعار المنصة** — انقر عليه للعودة إلى الصفحة الرئيسية في أي وقت.
+* **أيقونة الصندوق الوارد** <img src="/.gitbook/assets/icons/mdi-inbox.svg" alt="Inbox" data-size="line"> — تعرض رسائلك. يشير شارة حمراء إلى الرسائل غير المقروءة. انقر لفتح صندوقك الوارد.
+* **أيقونة تذكرة الدعم** <img src="/.gitbook/assets/icons/mdi-ticket-account.svg" alt="Support" data-size="line"> — إذا قام مديرك بتفعيلها، فإنها تمنحك الوصول إلى نظام تذاكر الدعم.
+* **صورة ملفك الشخصي** — صورة دائرية في الزاوية العلوية اليمنى. انقر عليها لفتح قائمة منسدلة تحتوي على روابط إلى ملفك الشخصي وإعدادات الحساب وتسجيل الخروج.
 
-## The Sidebar
+## الشريط الجانبي
 
-The sidebar on the left is your main navigation. It can be collapsed to give more space to the content area. Click the toggle arrow at its right edge to expand or collapse it. Chamilo remembers your preference.
+يُعد الشريط الجانبي على اليسار التنقل الرئيسي لك. يمكن طيه لتوفير مساحة أكبر لمنطقة المحتوى. انقر على السهم التبديلي عند حافته اليمنى لتوسيعه أو طيه. يتذكر Chamilo تفضيلاتك.
 
-The sidebar contains the following links (some may be hidden depending on your platform's configuration):
+يحتوي الشريط الجانبي على الروابط التالية (قد تكون بعضها مخفية حسب تكوين المنصة):
 
-![The sidebar navigation panel in its expanded state showing all menu items](/.gitbook/assets/sidebar-expanded.png)
+![لوحة التنقل الجانبية في حالتها الموسعة تظهر جميع عناصر القائمة](/.gitbook/assets/sidebar-expanded.png)
 
-| Menu item | Icon | Description |
-|-----------|------|-------------|
-| **Home** | <img src="/.gitbook/assets/icons/mdi-home.svg" alt="Home" data-size="line"> | Returns to the main dashboard |
-| **My courses** | <img src="/.gitbook/assets/icons/mdi-book-open-page-variant.svg" alt="Courses" data-size="line"> | Lists all courses you are enrolled in |
-| **My sessions** | <img src="/.gitbook/assets/icons/mdi-google-classroom.svg" alt="Sessions" data-size="line"> | Lists your training sessions (current, past, upcoming) |
-| **Explore more courses** | <img src="/.gitbook/assets/icons/mdi-bookmark-multiple.svg" alt="Catalogue" data-size="line"> | Browse the course catalog to find new courses |
-| **Agenda** | <img src="/.gitbook/assets/icons/mdi-calendar-text.svg" alt="Agenda" data-size="line"> | Your personal and course calendar |
-| **Reporting** | <img src="/.gitbook/assets/icons/mdi-chart-box.svg" alt="Reporting" data-size="line"> | Access learner tracking and course reports |
-| **Social network** | <img src="/.gitbook/assets/icons/mdi-sitemap-outline.svg" alt="Social network" data-size="line"> | Connect with other users, send messages, join groups |
-| **Videoconference** | <img src="/.gitbook/assets/icons/mdi-video.svg" alt="Video" data-size="line"> | Access live video sessions (if configured) |
-| **Administration** | <img src="/.gitbook/assets/icons/mdi-cogs.svg" alt="Admin" data-size="line"> | Platform administration (visible only to admins) |
+| عنصر القائمة | الأيقونة | الوصف |
+|---------------|----------|-------|
+| **الرئيسية** | <img src="/.gitbook/assets/icons/mdi-home.svg" alt="Home" data-size="line"> | العودة إلى لوحة التحكم الرئيسية |
+| **دوراتي** | <img src="/.gitbook/assets/icons/mdi-book-open-page-variant.svg" alt="Courses" data-size="line"> | قائمة بجميع الدورات المسجل فيها |
+| **جلساتي** | <img src="/.gitbook/assets/icons/mdi-google-classroom.svg" alt="Sessions" data-size="line"> | قائمة بجلسات التدريب الخاصة بك (حالية، سابقة، قادمة) |
+| **استكشاف المزيد من الدورات** | <img src="/.gitbook/assets/icons/mdi-bookmark-multiple.svg" alt="Catalogue" data-size="line"> | تصفح كتالوج الدورات للعثور على دورات جديدة |
+| **جدول الأعمال** | <img src="/.gitbook/assets/icons/mdi-calendar-text.svg" alt="Agenda" data-size="line"> | تقويمك الشخصي وتقويم الدورة |
+| **التقارير** | <img src="/.gitbook/assets/icons/mdi-chart-box.svg" alt="Reporting" data-size="line"> | الوصول إلى تتبع المتعلمين وتقارير الدورة |
+| **الشبكة الاجتماعية** | <img src="/.gitbook/assets/icons/mdi-sitemap-outline.svg" alt="Social network" data-size="line"> | التواصل مع المستخدمين الآخرين، إرسال الرسائل، الانضمام إلى المجموعات |
+| **المؤتمر الافتراضي** | <img src="/.gitbook/assets/icons/mdi-video.svg" alt="Video" data-size="line"> | الوصول إلى جلسات الفيديو الحية (إذا تم تكوينها) |
+| **الإدارة** | <img src="/.gitbook/assets/icons/mdi-cogs.svg" alt="Admin" data-size="line"> | إدارة المنصة (مرئية فقط للمشرفين) |
 
-At the very bottom of the sidebar, you will find a **Sign out** option to quickly sign out when you're done. This option is also available from your avatar icon's drop-down menu on the top-right corner.
-If the platform is managed through external authentication methods, these signing out options might not be available.
+في أسفل الشريط الجانبي تمامًا، ستجد خيار **تسجيل الخروج** لتسجيل الخروج بسرعة عند الانتهاء. هذا الخيار متاح أيضًا من قائمة الصقر المنسدلة لأيقونة صورة ملفك الشخصي في الزاوية العلوية اليمنى.
+إذا كانت المنصة تُدار من خلال طرق مصادقة خارجية، فقد لا تكون خيارات تسجيل الخروج هذه متاحة.
 
-## The Main Content Area
+## منطقة المحتوى الرئيسية
 
-The central area of the screen displays the content of the current page. At the top, you will often see a **breadcrumb trail** showing your current location in the platform (for example: Home > Rock music > Documents). Use the breadcrumbs to navigate back to a parent page.
+تعرض المنطقة المركزية من الشاشة محتوى الصفحة الحالية. في الأعلى، غالبًا ما ترى **مسار الفتات** الذي يظهر موقعك الحالي في المنصة (على سبيل المثال: الرئيسية > موسيقى الروك > المستندات). استخدم الفتات للتنقل إلى صفحة أم.
 
-## The Course Homepage
+## صفحة الدورة الرئيسية
 
-When you enter a course, you see the **course homepage**. This is covered in detail in the [Creating Your Course](../creating-your-course/) section, but here is a quick overview:
+عند دخولك دورة، ترى **صفحة الدورة الرئيسية**. يتم تغطيتها بالتفصيل في قسم [إنشاء دورتك](../creating-your-course/)، لكن إليك نظرة عامة سريعة:
 
-* **Course title** — Displayed prominently at the top
-* **Course introduction** — An optional rich-text description that you can edit
-* **Tool grid** — A grid of icons representing the course tools (Documents, Exercises, Forums, etc.)
+* **عنوان الدورة** — يُعرض بشكل بارز في الأعلى
+* **مقدمة الدورة** — وصف نصي غني اختياري يمكنك تحريره
+* **شبكة الأدوات** — شبكة من الأيقونات تمثل أدوات الدورة (المستندات، التمارين، المنتديات، إلخ)
 
-As a teacher, you will see additional controls:
+كمعلم، سترى عناصر تحكم إضافية:
 
-* **Student view** <img src="/.gitbook/assets/icons/mdi-eye.svg" alt="Student view" data-size="line"> — Toggle this to see the course as a student would see it
-* **Edit introduction** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Edit" data-size="line"> — Edit the course introduction text
-* **Show all / Hide all** — Quickly change the visibility of all tools for students
-* **Sort** — Enable drag-and-drop to reorder the tools on the homepage
+* **عرض الطالب** <img src="/.gitbook/assets/icons/mdi-eye.svg" alt="Student view" data-size="line"> — قم بتبديل هذا لترى الدورة كما يراها الطالب
+* **تحرير المقدمة** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Edit" data-size="line"> — تحرير نص مقدمة الدورة
+* **إظهار الكل / إخفاء الكل** — تغيير رؤية جميع الأدوات للطلاب بسرعة
+* **ترتيب** — تفعيل السحب والإفلات لإعادة ترتيب الأدوات في الصفحة الرئيسية
 
-## Icon colors
+---
+## ألوان الأيقونات
 
-This is still experimental and not entirely complete in Chamilo 2.0, but we're trying to use the following rules for all buttons and action icons in the interface:
+هذه الميزة لا تزال تجريبية وغير مكتملة تمامًا في Chamilo 2.0، لكننا نحاول استخدام القواعد التالية لجميع الأزرار وأيقونات الإجراءات في الواجهة:
 
-* **Green** for creation actions. This includes adding, creating, importing, grading, saving and copying content.
-* **Blue** for view actions. This includes exporting, viewing, pre-viewing in lists or in detail views, searching and downloading.
-* **Orange** for editing actions. This includes editing, moving, configuring, enabling/disabling, hiding and showing.
-* **Red** for deletion/removal actions. This includes deleting, removing, unsubscribing.
-* **Grey** for cancelling actions. Just leaving things in the status quo.
+* **أخضر** لإجراءات الإنشاء. يشمل ذلك الإضافة، والإنشاء، والاستيراد، والتقييم، والحفظ، ونسخ المحتوى.
+* **أزرق** لإجراءات العرض. يشمل ذلك التصدير، والعرض، والمعاينة المسبقة في القوائم أو في العروض التفصيلية، والبحث، والتنزيل.
+* **برتقالي** لإجراءات التحرير. يشمل ذلك التحرير، والنقل، والتكوين، والتفعيل/الإلغاء، والإخفاء والإظهار.
+* **أحمر** لإجراءات الحذف/الإزالة. يشمل ذلك الحذف، والإزالة، وإلغاء الاشتراك.
+* **رمادي** لإجراءات الإلغاء. مجرد ترك الأمور كما هي دون تغيير.
 
-## Responsive Design
+## تصميم متجاوب
 
-Chamilo 2.0 adapts to different screen sizes. On a mobile device or narrow browser window:
+يتناسب Chamilo 2.0 مع أحجام الشاشات المختلفة. على جهاز محمول أو نافذة متصفح ضيقة:
 
-* The sidebar is hidden by default and can be opened by tapping the menu icon
-* Course cards display in a single column instead of a grid
-* Tables become scrollable horizontally
+* يتم إخفاء الشريط الجانبي افتراضيًا ويمكن فتحه بالنقر على أيقونة القائمة
+* تُعرض بطاقات الدورة في عمود واحد بدلاً من الشبكة
+* تصبح الجداول قابلة للتمرير أفقيًا
 
-This means you and your learners can access the platform from a phone, tablet, or computer, but you might experience the interface slightly differently.
+هذا يعني أنك ومتعلميك يمكنكم الوصول إلى المنصة من هاتف، أو جهاز لوحي، أو حاسوب، لكنكم قد تلاحظون الواجهة بشكل مختلف قليلاً.

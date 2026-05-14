@@ -1,227 +1,226 @@
-# User Profile Settings
+# إعدادات ملف تعريف المستخدم
 
-Which fields appear on the user profile, which ones the user can edit, and related preferences.
+أي الحقول تظهر في ملف تعريف المستخدم، وأيها يمكن للمستخدم تعديلها، والتفضيلات ذات الصلة.
 
-Access these settings under **Administration > Configuration settings > User Profile**. This category contains **29 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+الوصول إلى هذه الإعدادات تحت **إدارة > إعدادات التكوين > ملف تعريف المستخدم**. تحتوي هذه الفئة على **29 إعدادًا**، مدرجة أدناه مع العنوان والتعليق المرسل في إعدادات المنصة (`SettingsCurrentFixtures.php`).
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> يُعرض اسم المتغير في الكود بخط monospace. استخدمه عند البرمجة عبر `API` أو عند الحاجة إلى تغيير هذه الإعدادات على المستوى العام عن طريق تعديل [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
 
-## Settings
+## الإعدادات
 
 ### `account_valid_duration`
 
-**Account validity**
+**صلاحية الحساب**
 
-A user account is valid for this number of days after creation
+يكون حساب المستخدم صالحًا لعدد هذه الأيام بعد الإنشاء
 
-*Default: `3660`*
+*الافتراضي: `3660`*
 
 
 ### `add_user_course_information_in_mailto`
 
-**Pre-fill the mail with user and course info in footer contact**
+**ملء البريد مسبقًا بمعلومات المستخدم والدورة في تذييل الاتصال**
 
-Add subject and body in the mailto: footer.
+إضافة الموضوع والنص في تذييل mailto:.
 
-*Default: `false`*
+*الافتراضي: `false`*
 
 
 ### `allow_show_linkedin_url`
 
-**Allow show the user LinkedIn URL**
+**السماح بعرض رابط LinkedIn للمستخدم**
 
-Add a link on the user social block, allowing visit the user's LinkedIn profile
+إضافة رابط في كتلة الشبكات الاجتماعية للمستخدم، مما يسمح بزيارة ملف تعريف LinkedIn الخاص بالمستخدم
 
 ### `allow_show_skype_account`
 
-**Allow show the user Skype account**
+**السماح بعرض حساب Skype للمستخدم**
 
-Add a link on the user social block allowing start a chat by Skype
+إضافة رابط في كتلة الشبكات الاجتماعية للمستخدم مما يسمح ببدء الدردشة عبر Skype
 
 ### `allow_social_map_fields`
 
-**Users geolocation on a map**
+**تحديد موقع المستخدمين الجغرافي على الخريطة**
 
-Enable the display of a map in the social network allowing you to locate other users. This includes several positions (current and destination) which have to be defined as addresses or coordinates in separate extra fields. The extra fields must be set as an array here.
+تمكين عرض خريطة في الشبكة الاجتماعية مما يسمح لك بتحديد موقع المستخدمين الآخرين. يشمل ذلك عدة مواقع (الحالي والهدف) والتي يجب تعريفها كعناوين أو إحداثيات في حقول إضافية منفصلة. يجب تعيين الحقول الإضافية كمصفوفة هنا.
 
 ### `allow_teachers_to_classes`
 
-**Allow teachers to manage classes**
+**السماح للمعلمين بإدارة الفصول**
 
-Enables teachers to manage class groups and their membership within the system.
+تمكين المعلمين من إدارة مجموعات الفصول وعضويتها داخل النظام.
 
-*Default: `false`*
+*الافتراضي: `false`*
 
 
 ### `allow_user_headings`
 
-**Allow users profiling inside courses**
+**السماح بتفصيل ملفات تعريف المستخدمين داخل الدورات**
 
-Can a teacher define learner profile fields to retrieve additional information?
+هل يمكن للمعلم تعريف حقول ملف تعريف المتعلم لاسترداد معلومات إضافية؟
 
 ### `allow_users_to_change_email_with_no_password`
 
-**Allow users to change e-mail without password**
+**السماح للمستخدمين بتغيير البريد الإلكتروني بدون كلمة مرور**
 
-When changing the account information
+عند تغيير معلومات الحساب
 
-*Default: `false`*
+*الافتراضي: `false`*
 
 ### `changeable_options`
 
-**Fields users are allowed to change in their profile**
+**الحقول التي يُسمح للمستخدمين بتغييرها في ملف التعريف الخاص بهم**
 
-Select the fields users will be able to change on their profile page.
+حدد الحقول التي سيتمكن المستخدمون من تغييرها في صفحة ملف التعريف الخاص بهم.
 
 
 ### `enable_profile_user_address_geolocalization`
 
-**Enable user's geolocalization**
+**تمكين تحديد موقع المستخدم الجغرافي**
 
-Enable user's address field and show it on a map using geolocalization features
+تمكين حقل عنوان المستخدم وعرضه على خريطة باستخدام ميزات التحديد الجغرافي
 
 ### `extended_profile`
 
-**Portfolio**
+**محفظة**
 
-If this setting is on, a user can fill in the following (optional) fields: 'My personal open area', 'My competences', 'My diplomas', 'What I am able to teach'
+إذا كان هذا الإعداد مفعلاً، يمكن للمستخدم ملء الحقول (الاختيارية) التالية: 'منطقتي المفتوحة الشخصية'، 'كفاءاتي'، 'دبلوماتي'، 'ما أستطيع تدريسه'
 
-*Default: `false`*
+*الافتراضي: `false`*
 
 ### `hide_username_in_course_chat`
 
-**Hide username in course chat**
+**إخفاء اسم المستخدم في الدردشة الدورة**
 
-In the course chat, hide the username. Only display people's names.
+في الدردشة الدورة، إخفاء اسم المستخدم. عرض أسماء الأشخاص فقط.
 
-*Default: `false`*
+*الافتراضي: `false`*
 
 
 ### `hide_username_with_complete_name`
 
-**Hide username when already showing complete name**
+**إخفاء اسم المستخدم عند عرض الاسم الكامل بالفعل**
 
-Some internal functions will return the username when returning the user's complete name. With this option enabled, you ensure the username will not appear.
+بعض الوظائف الداخلية ستُرجع اسم المستخدم عند إرجاع الاسم الكامل للمستخدم. مع تمكين هذا الخيار، تضمن عدم ظهور اسم المستخدم.
 
-*Default: `false`*
+*الافتراضي: `false`*
 
 
 ### `linkedin_organization_id`
 
-**LinkedIn Orgnization ID**
+**معرف المنظمة في LinkedIn**
 
-When sharing a badge on LinkedIn, LinkedIn allows you to set an organization ID that will link to the LinkedIn's page of your organization (to link the organization attributing the badge).
+عند مشاركة شارة على LinkedIn، يسمح LinkedIn لك بتعيين معرف منظمة سيربط بصفحة منظمتك على LinkedIn (لربط المنظمة التي تمنح الشارة).
 
-*Default: `false`*
+*الافتراضي: `false`*
 
 
 ### `login_is_email`
 
-**Use the email as username**
+**استخدام البريد الإلكتروني كاسم مستخدم**
 
-Use the email in order to login to the system
+استخدام البريد الإلكتروني لتسجيل الدخول إلى النظام
 
-*Default: `false`*
+*الافتراضي: `false`*
 
 ### `my_space_users_items_per_page`
 
-**Default number of items per page in mySpace**
+**العدد الافتراضي للعناصر لكل صفحة في mySpace**
 
-Number of records displayed per page in MySpace tracking sections (users, work statistics, student list).
+عدد السجلات المعروضة لكل صفحة في أقسام تتبع MySpace (المستخدمون، إحصاءات الأعمال، قائمة الطلاب).
 
-*Default: `10`*
+*الافتراضي: `10`*
 
 
 ### `pass_reminder_custom_link`
 
-**Custom page for password reminder**
+**صفحة مخصصة لتذكير كلمة المرور**
 
-Set your own URL to a password reset page. Useful when using a federated account management system.
+تعيين رابط URL الخاص بك إلى صفحة إعادة تعيين كلمة المرور. مفيد عند استخدام نظام إدارة حسابات فيدرالي.
 
 ### `profile_fields_visibility`
 
-**Fields visible on profile page**
+**الحقول المرئية في صفحة الملف الشخصي**
 
-Array of fields and whether (boolean) they are visible or not on the user's profile page (also works with extra fields labels).
+مصفوفة من الحقول وما إذا كانت (boolean) مرئية أم لا في صفحة ملف تعريف المستخدم (تعمل أيضًا مع تسميات الحقول الإضافية).
 
 ### `registration_add_helptext_for_2_names`
 
-**Add helper to add two names in registration**
+**إضافة مساعد لإضافة اسمين في التسجيل**
 
-Add help text for users to enter two names in the registration form when double lastnames are common.
+إضافة نص مساعدة للمستخدمين لإدخال اسمين في نموذج التسجيل عندما تكون الألقاب المزدوجة شائعة.
 
-*Default: `false`*
+*الافتراضي: `false`*
 
 
 ### `send_notification_when_user_added`
 
-**Send mail to admin when user created**
+**إرسال بريد إلى المسؤول عند إنشاء مستخدم**
 
-Send email notification to admin when a user is created.
+إرسال إشعار بريد إلكتروني إلى المسؤول عند إنشاء مستخدم.
 
 ### `show_conditions_to_user`
 
-**Show specific registration conditions**
+**عرض شروط تسجيل محددة**
 
-Show multiple conditions to user during sign up process. Provide an array with each element containing 'variable' (internal extra field name), 'display_text' (simple text for a checkbox), 'text_area' (long text of conditions).
+عرض شروط متعددة للمستخدم أثناء عملية التسجيل. تقديم مصفوفة مع كل عنصر يحتوي على 'variable' (اسم الحقل الإضافي الداخلي)، 'display_text' (نص بسيط لصندوق اختيار)، 'text_area' (نص طويل للشروط).
 
 ### `show_official_code_whoisonline`
 
-**Official code on 'Who is online'**
+**الكود الرسمي في 'من متصل الآن'**
 
-Show official code on the 'Who is online' page, below the username.
+عرض الكود الرسمي في صفحة 'من متصل الآن'، أسفل اسم المستخدم.
 
-*Default: `false`*
+*الافتراضي: `false`*
 
+---
 ### `show_terms_if_profile_completed`
 
-**Terms and conditions only if profile complete**
+**شروط وأحكام فقط إذا تم إكمال الملف الشخصي**
 
-By enabling this option, terms and conditions will be available to the user only when the extra profile fields that start with 'terms_' and set to visible are completed.
+بتفعيل هذا الخيار، ستكون شروط وأحكام متاحة للمستخدم فقط عند إكمال حقول الملف الشخصي الإضافية التي تبدأ بـ 'terms_' ومعينة كمرئية.
 
-*Default: `false`*
+*القيمة الافتراضية: `false`*
 
 
 ### `split_users_upload_directory`
 
-**Split users' upload directory**
+**تقسيم مجلد تحميل المستخدمين**
 
-On high-load portals, where a lot of users are registered and send their pictures, the upload directory (main/upload/users/) might contain too many files for the filesystem to handle (it has been reported with more than 36000 files on a Debian server). Changing this option will enable a one-level splitting of the directories in the upload directory. 9 directories will be used in the base directory and all subsequent users' directories will be stored into one of these 9 directories. The change of this option will not affect the directories structure on disk, but will affect the behaviour of the Chamilo code, so if you change this option, you have to create the new directories and move the existing directories by yourself on te server. Be aware that when creating and moving those directories, you will have to move the directories of users 1 to 9 into subdirectories of the same name. If you are not sure about this option, it is best not to activate it.
+في البوابات ذات الحمل العالي، حيث يسجل عدد كبير من المستخدمين ويرسلون صورهم، قد يحتوي مجلد التحميل (main/upload/users/) على عدد كبير جداً من الملفات لا يستطيع نظام الملفات التعامل معها (تم الإبلاغ عن أكثر من 36000 ملف على خادم Debian). تغيير هذا الخيار سيفعل تقسيمًا على مستوى واحد للمجلدات في مجلد التحميل. سيتم استخدام 9 مجلدات في المجلد الأساسي وسيتم حفظ جميع مجلدات المستخدمين اللاحقة في إحدى هذه المجلدات الـ9. لن يؤثر تغيير هذا الخيار على هيكل المجلدات على القرص، لكنه سيؤثر على سلوك كود Chamilo، لذا إذا غيرت هذا الخيار، يجب عليك إنشاء المجلدات الجديدة ونقل المجلدات الموجودة بنفسك على الخادم. كن على دراية بأنه عند إنشاء ونقل هذه المجلدات، ستحتاج إلى نقل مجلدات المستخدمين من 1 إلى 9 إلى مجلدات فرعية بنفس الاسم. إذا لم تكن متأكداً من هذا الخيار، فمن الأفضل عدم تفعيله.
 
-*Default: `true`*
+*القيمة الافتراضية: `true`*
 
 ### `use_users_timezone`
 
-**Enable users timezones**
+**تفعيل أحجام الوقت للمستخدمين**
 
-Enable the possibility for users to select their own timezone. Once configured, users will be able to see assignment deadlines and other time references in their own timezone, which will reduce errors at delivery time.
+تفعيل إمكانية اختيار المستخدمين لحجم وقتهم الخاص. بمجرد التهيئة، سيتمكن المستخدمون من رؤية مواعيد تسليم المهام والمراجع الزمنية الأخرى بحجم وقتهم الخاص، مما سيقلل من الأخطاء في وقت التسليم.
 
-*Default: `true`*
+*القيمة الافتراضية: `true`*
 
 ### `user_import_settings`
 
-**Options for user import**
+**خيارات استيراد المستخدمين**
 
-Array of options to apply as default parameters in the CSV/XML user import.
+مصفوفة من الخيارات لتطبيقها كمعاملات افتراضية في استيراد المستخدمين CSV/XML.
 
 ### `user_search_on_extra_fields`
 
-**Search users by extra fields in users list for admins**
+**البحث عن المستخدمين بحقول إضافية في قائمة المستخدمين للمشرفين**
 
-Naturally include the given extra fields (array of extra fields labels) in the user searches.
+يشمل بشكل طبيعي الحقول الإضافية المعطاة (مصفوفة من تسميات الحقول الإضافية) في عمليات البحث عن المستخدمين.
 
 ### `user_selected_theme`
 
-**User theme selection**
+**اختيار سمة المستخدم**
 
-Allow users to select their own visual theme in their profile. This will change the look of Chamilo for them, but will leave the default style of the portal intact. If a specific course or session has a specific theme assigned, it will have priority over user-defined themes.
+السماح للمستخدمين باختيار سمتهم البصرية الخاصة في ملفهم الشخصي. سيغير هذا مظهر Chamilo بالنسبة لهم، لكنه سيترك نمط البوابة الافتراضي سليماً. إذا كان لدورة أو جلسة محددة سمة محددة مخصصة لها، فستكون لها الأولوية على السمات المعرفة من قبل المستخدم.
 
-*Default: `false`*
+*القيمة الافتراضية: `false`*
 
 ### `visible_options`
 
-**List of visible fields in profile**
+**قائمة الحقول المرئية في الملف الشخصي**
 
-Controls which profile fields are visible to users and others.
-
-
+يتحكم في الحقول الشخصية التي تكون مرئية للمستخدمين و الآخرين.

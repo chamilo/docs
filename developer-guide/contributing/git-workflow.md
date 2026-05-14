@@ -1,28 +1,28 @@
-# Git Workflow
+# سير عمل Git
 
-## Repository
+## المستودع
 
-The Chamilo source code is hosted on GitHub: [github.com/chamilo/chamilo-lms](https://github.com/chamilo/chamilo-lms)
+يتم استضافة كود المصدر Chamilo على GitHub: [github.com/chamilo/chamilo-lms](https://github.com/chamilo/chamilo-lms)
 
-## Branching
+## الفروع
 
-* **`master`** — Main development branch
-* Feature branches are created from `master` for new development
-* Release branches are created for stable releases
+* **`master`** — الفرع الرئيسي للتطوير
+* يتم إنشاء فروع الميزات من `master` للتطوير الجديد
+* يتم إنشاء فروع الإصدارات للإصدارات المستقرة
 
-## Contributing a Change
+## المساهمة بتغيير
 
-1. **Fork** the repository on GitHub
-2. **Clone** your fork locally
-3. **Create a branch** for your change: `git checkout -b feature/my-feature`
-4. **Make your changes** following the coding conventions
-5. **Commit** with clear, descriptive commit messages
-6. **Push** to your fork: `git push origin feature/my-feature`
-7. **Create a pull request** against the `master` branch
+1. **Fork** المستودع على GitHub
+2. **Clone** النسخة الخاصة بك محليًا
+3. **Create a branch** لتغييرك: `git checkout -b feature/my-feature`
+4. **Make your changes** باتباع قواعد البرمجة
+5. **Commit** برسال رسائل التزام واضحة ووصفية
+6. **Push** إلى النسخة الخاصة بك: `git push origin feature/my-feature`
+7. **Create a pull request** ضد فرع `master`
 
-## Commit Messages
+## رسائل التزام
 
-Write clear commit messages that explain **what** and **why**:
+اكتب رسائل التزام واضحة تفسر **ما** و**لماذا**:
 
 ```
 Glossary: Add AI-assisted term generation
@@ -31,13 +31,13 @@ Teachers can now generate glossary terms using configured AI
 providers. Supports configurable prompt and term count.
 ```
 
-### Tool prefix convention
+### اتفاقية بادئة الأداة
 
-The subject line is prefixed with the **tool or area** that the change touches, followed by a colon. We use a short shared terminology so that the changelog and `git log --oneline` can be skimmed by tool. The prefix is always the **singular** form of the tool's canonical name.
+يُسبق سطر الموضوع بـ **الأداة أو المنطقة** التي يؤثر عليها التغيير، متبوعًا بنقطتين. نستخدم مصطلحات مشتركة قصيرة حتى يمكن تصفح سجل التغييرات و `git log --oneline` حسب الأداة. البادئة دائمًا في الصيغة **المفردة** لاسم الأداة الرسمي.
 
-Format: `<Prefix>: <Imperative summary in the present tense>`
+الصيغة: `<Prefix>: <Imperative summary in the present tense>`
 
-Examples:
+أمثلة:
 
 ```
 Document: Fix list for student view
@@ -47,59 +47,62 @@ Internal: Refactor ResourceNode hydration in the API normalizer
 CI: Cache Composer downloads in the GitHub Actions workflow
 ```
 
-If a change spans several tools, pick the one most affected; truly cross-cutting changes that only touch code structure (no end-user tool) go under `Internal`. Documentation-only changes (this site, the changelog, inline docblocks meant purely as reference) go under `Documentation`.
+إذا امتد التغيير إلى عدة أدوات، اختر الأكثر تأثرًا؛ التغييرات العابرة حقًا التي تؤثر فقط على هيكل الكود (دون أداة مستخدم نهائي) تُصنف تحت `Internal`. التغييرات الخاصة بالتوثيق فقط (هذا الموقع، سجل التغييرات، كتل التوثيق داخل السطر المقصودة كمرجع بحت) تُصنف تحت `Documentation`.
 
-#### Allowed prefixes
+---
 
-| Prefix               | Scope / notes                                                                        |
+---
+#### البادئات المسموح بها
+
+| البادئة              | النطاق / الملاحظات                                                                  |
 |----------------------|--------------------------------------------------------------------------------------|
 | `Admin`              |                                                                                      |
 | `Announcement`       |                                                                                      |
 | `Attendance`         |                                                                                      |
 | `Authentication`     |                                                                                      |
 | `Blog`               |                                                                                      |
-| `Calendar`           | Not "Agenda"                                                                         |
+| `Calendar`           | ليس "Agenda"                                                                         |
 | `Career`             |                                                                                      |
-| `Catalogue`          | Courses and sessions catalogue, including "hot courses" on the homepage              |
+| `Catalogue`          | كتالوج الدورات والجلسات، بما في ذلك "الدورات الساخنة" على الصفحة الرئيسية         |
 | `Chat`               |                                                                                      |
-| `CI`                 | Continuous Integration, automated tests, etc.                                        |
+| `CI`                 | التكامل المستمر، الاختبارات الآلية، إلخ.                                           |
 | `Course description` |                                                                                      |
-| `Course Progress`    | Not "Thematic advance"                                                               |
+| `Course Progress`    | ليس "Thematic advance"                                                               |
 | `Course settings`    |                                                                                      |
 | `Cron`               |                                                                                      |
 | `Dashboard`          |                                                                                      |
 | `Display`            |                                                                                      |
 | `Document`           |                                                                                      |
-| `Documentation`      | Anything related exclusively to documenting Chamilo or the code, the changelog, etc. |
+| `Documentation`      | أي شيء يتعلق حصريًا بتوثيق Chamilo أو الكود، سجل التغييرات، إلخ.                   |
 | `Dropbox`            |                                                                                      |
-| `Exercise`           | Not "Quiz"                                                                           |
+| `Exercise`           | ليس "Quiz"                                                                           |
 | `Extra Fields`       |                                                                                      |
 | `Forum`              |                                                                                      |
 | `Glossary`           |                                                                                      |
-| `Gradebook`          | Includes Certificates                                                                |
-| `Group`              | Includes course groups, global groups, and classes                                   |
+| `Gradebook`          | يشمل الشهادات                                                                       |
+| `Group`              | يشمل مجموعات الدورة، المجموعات العالمية، والفصول                                    |
 | `Help`               |                                                                                      |
-| `Hook`               | For the internal hook mechanism                                                      |
-| `Install`            | Includes upgrade stuff                                                               |
-| `Internal`           | For changes and fixes that mostly affect code itself or are very global by nature    |
+| `Hook`               | لآلية الربط الداخلية                                                                |
+| `Install`            | يشمل أمور الترقية                                                                   |
+| `Internal`           | للتغييرات والإصلاحات التي تؤثر بشكل أساسي على الكود نفسه أو تكون عامة جدًا بطبيعتها |
 | `Language`           |                                                                                      |
 | `Link`               |                                                                                      |
-| `Learnpath`          | For LP / Learning Paths                                                              |
-| `Maintenance`        | The course maintenance tool: course copies, backup, restore, etc.                    |
+| `Learnpath`          | لـ LP / مسارات التعلم                                                               |
+| `Maintenance`        | أداة صيانة الدورة: نسخ الدورة، النسخ الاحتياطي، الاستعادة، إلخ.                    |
 | `Message`            |                                                                                      |
 | `Notebook`           |                                                                                      |
 | `Optimization`       |                                                                                      |
 | `Portfolio`          |                                                                                      |
 | `Privacy`            |                                                                                      |
-| `Script`             | For what lives in `tests/scripts/`                                                   |
-| `Search`             | Full-text search                                                                     |
+| `Script`             | لما يوجد في `tests/scripts/`                                                         |
+| `Search`             | البحث النصي الكامل                                                                  |
 | `Security`           |                                                                                      |
 | `Session`            |                                                                                      |
 | `Skill`              |                                                                                      |
-| `Social`             | Social network                                                                       |
-| `SSO`                | Single Sign-On methods                                                               |
+| `Social`             | الشبكة الاجتماعية                                                                   |
+| `SSO`                | طرق تسجيل الدخول الموحد                                                             |
 | `Survey`             |                                                                                      |
-| `System`             | Things that have mostly to do with hosting and fine-tuning at server level           |
+| `System`             | الأمور التي تتعلق بشكل أساسي بالاستضافة والضبط الدقيق على مستوى الخادم           |
 | `Template`           |                                                                                      |
 | `Ticket`             |                                                                                      |
 | `Tracking`           |                                                                                      |
@@ -110,14 +113,15 @@ If a change spans several tools, pick the one most affected; truly cross-cutting
 | `WYSIWYG`            |                                                                                      |
 | `XAPI`               |                                                                                      |
 
-## Code Review
+---
+## مراجعة الكود
 
-Pull requests are reviewed by the maintainer team. Be prepared to:
+يتم مراجعة طلبات السحب من قبل فريق المحافظين. كن مستعداً لـ:
 
-* Address feedback and make revisions
-* Keep your branch up to date with `master`
-* Ensure tests pass
+* معالجة التعليقات واقتراح التعديلات
+* الحفاظ على فرعك محدثاً مع `master`
+* التأكد من نجاح الاختبارات
 
-## Reporting Issues
+## الإبلاغ عن المشكلات
 
-Report bugs and feature requests on the GitHub issue tracker.
+أبلغ عن الأخطاء وطلبات التحسينات في متتبع المشكلات على GitHub.

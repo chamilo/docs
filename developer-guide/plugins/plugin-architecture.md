@@ -1,8 +1,8 @@
-# Plugin Architecture
+# هندسة الملحقات
 
-## Plugin Location
+## موقع الملحق
 
-Plugins are stored in `public/plugin/`. Each plugin has its own directory:
+يتم تخزين الملحقات في `public/plugin/`. كل ملحق له دليله الخاص:
 
 ```
 public/plugin/
@@ -13,9 +13,9 @@ public/plugin/
 ├── ...                     # bundled plugins ship under public/plugin/
 ```
 
-## Plugin Structure
+## هيكل الملحق
 
-A typical plugin directory contains:
+يحتوي دليل ملحق نموذجي على:
 
 ```
 public/plugin/MyPlugin/
@@ -34,9 +34,9 @@ public/plugin/MyPlugin/
 └── resources/              # CSS/JS assets
 ```
 
-## Plugin Class
+## كلاس الملحق
 
-Each plugin extends the `Plugin` base class (`public/main/inc/lib/plugin.class.php`) and follows the singleton pattern:
+يمتد كل ملحق من كلاس الأساس `Plugin` (`public/main/inc/lib/plugin.class.php`) ويتبع نمط الـ singleton:
 
 ```php
 class MyPluginPlugin extends Plugin
@@ -55,27 +55,27 @@ class MyPluginPlugin extends Plugin
 }
 ```
 
-### Key Class Properties
+### خصائص الكلاس الرئيسية
 
-| Property | Type | Effect |
+| الخاصية | النوع | التأثير |
 |----------|------|--------|
-| `$isCoursePlugin` | bool | Registers the plugin as a course tool |
-| `$isAdminPlugin` | bool | Adds an admin interface page |
-| `$isMailPlugin` | bool | Integrates with the mail system |
-| `$addCourseTool` | bool | Adds an icon to the course homepage |
-| `$course_settings` | array | Defines per-course configuration fields |
+| `$isCoursePlugin` | bool | يسجل الملحق كأداة مسار دراسي |
+| `$isAdminPlugin` | bool | يضيف صفحة واجهة إدارية |
+| `$isMailPlugin` | bool | يدمج مع نظام البريد الإلكتروني |
+| `$addCourseTool` | bool | يضيف أيقونة إلى الصفحة الرئيسية للمسار الدراسي |
+| `$course_settings` | array | يحدد حقول التكوين لكل مسار دراسي |
 
-## Plugin Lifecycle
+## دورة حياة الملحق
 
-1. **Installation** — The admin activates the plugin, which runs `install.php`
-2. **Configuration** — Settings are defined and managed through the admin panel; stored in `access_url_rel_plugin` (supports multi-tenant)
-3. **Execution** — The plugin injects content into display regions or reacts to platform events
-4. **Deactivation** — The plugin is disabled but its data is preserved
-5. **Uninstallation** — Runs `uninstall.php` to clean up data and tables
+1. **التثبيت** — يقوم المسؤول بتفعيل الملحق، الذي يشغل `install.php`
+2. **التكوين** — يتم تحديد الإعدادات وإدارتها عبر لوحة الإدارة؛ مخزنة في `access_url_rel_plugin` (يدعم الـ multi-tenant)
+3. **التنفيذ** — يحقن الملحق المحتوى في مناطق العرض أو يتفاعل مع أحداث المنصة
+4. **الإلغاء** — يتم تعطيل الملحق لكن بياناته محفوظة
+5. **إزالة التثبيت** — يشغل `uninstall.php` لتنظيف البيانات والجداول
 
-## Display Regions
+## مناطق العرض
 
-Plugins inject HTML into 18 predefined regions of the Vue frontend by overriding `renderRegion()`:
+تحقن الملحقات HTML في 18 منطقة محددة مسبقًا من الواجهة الأمامية Vue عن طريق تجاوز `renderRegion()`:
 
 ```php
 public function renderRegion(string $region): string
@@ -87,15 +87,15 @@ public function renderRegion(string $region): string
 }
 ```
 
-Available regions: `content_bottom`, `content_top`, `course_tool_plugin`, `footer_center`, `footer_left`, `footer_right`, `header_center`, `header_left`, `header_main`, `header_right`, `login_bottom`, `login_top`, `main_bottom`, `main_top`, `menu_administrator`, `menu_bottom`, `menu_top`, `pre_footer`.
+المناطق المتاحة: `content_bottom`, `content_top`, `course_tool_plugin`, `footer_center`, `footer_left`, `footer_right`, `header_center`, `header_left`, `header_main`, `header_right`, `login_bottom`, `login_top`, `main_bottom`, `main_top`, `menu_administrator`, `menu_bottom`, `menu_top`, `pre_footer`.
 
-## Symfony Integration
+## تكامل Symfony
 
-### Event Subscribers
+### مشتركو الأحداث
 
-Files ending in `EventSubscriber.php` placed inside `src/EventSubscriber/` are auto-registered via `PluginEventSubscriberPass`. They implement `EventSubscriberInterface` and react to events defined in `src/CoreBundle/Event/Events.php`.
+الملفات التي تنتهي بـ `EventSubscriber.php` الموضوعة داخل `src/EventSubscriber/` تُسجل تلقائيًا عبر `PluginEventSubscriberPass`. تطبق `EventSubscriberInterface` وتتفاعل مع الأحداث المحددة في `src/CoreBundle/Event/Events.php`.
 
-Because the plugin class (`MyPluginPlugin`) is not a Symfony service, it cannot be autowired into the subscriber constructor. Use the `create()` singleton instead:
+بما أن كلاس الملحق (`MyPluginPlugin`) ليس خدمة Symfony، لا يمكن حقنه تلقائيًا في بناء المشترك. استخدم الـ `create()` singleton بدلاً من ذلك:
 
 ```php
 class MyPluginEventSubscriber implements EventSubscriberInterface
@@ -109,13 +109,16 @@ class MyPluginEventSubscriber implements EventSubscriberInterface
 }
 ```
 
-### Doctrine Entities
+### كيانات Doctrine
 
-Doctrine entities placed in `src/Entity/` are auto-discovered by `PluginEntityPass`. Use PHP 8 attributes for mapping. The namespace must follow `Chamilo\PluginBundle\{PluginName}`. Use unique table name prefixes (e.g., `my_plugin_*`) to avoid collisions.
+كيانات Doctrine الموضوعة في `src/Entity/` تُكتشف تلقائيًا بواسطة `PluginEntityPass`. استخدم سمات PHP 8 للـ mapping. يجب أن يتبع المساحة اسم `Chamilo\PluginBundle\{PluginName}`. استخدم بادئات أسماء جداول فريدة (مثل `my_plugin_*`) لتجنب التصادمات.
 
-### PluginHelper Service
+---
 
-For accessing plugin state from core Symfony services, inject `PluginHelper` rather than instantiating the plugin class directly:
+---
+### خدمة PluginHelper
+
+للوصول إلى حالة الملحق من خدمات Symfony الأساسية، قم بحقن `PluginHelper` بدلاً من إنشاء كائن لفئة الملحق مباشرة:
 
 ```php
 use Chamilo\CoreBundle\Helpers\PluginHelper;
@@ -133,23 +136,23 @@ class SomeService
 }
 ```
 
-Available methods:
+الطرق المتاحة:
 
 | Method | Purpose |
 |--------|---------|
-| `isPluginEnabled(string $name): bool` | Check if a plugin is installed and active for the current access URL |
-| `loadLegacyPlugin(string $name): ?object` | Instantiate and return the plugin singleton |
-| `getPluginSetting(string $name, string $key): mixed` | Read a single plugin setting value |
-| `getPluginOverrides(string $name): array` | Get `plugin.yaml` overrides (defaults + access-URL-specific) for a plugin |
+| `isPluginEnabled(string $name): bool` | التحقق مما إذا كان الملحق مثبتًا وفعالًا لـ URL الوصول الحالي |
+| `loadLegacyPlugin(string $name): ?object` | إنشاء كائن وإرجاع الـ singleton للملحق |
+| `getPluginSetting(string $name, string $key): mixed` | قراءة قيمة إعداد ملحق واحد |
+| `getPluginOverrides(string $name): array` | الحصول على تجاوزات `plugin.yaml` (الافتراضيات + الخاصة بـ URL الوصول) للملحق |
 
-## Core File References
+## مراجع الملفات الأساسية
 
 | File | Purpose |
 |------|---------|
-| `public/main/inc/lib/plugin.class.php` | Plugin base class |
-| `public/main/inc/lib/plugin.lib.php` | Plugin manager |
-| `src/CoreBundle/Entity/Plugin.php` | Plugin Doctrine entity |
-| `src/CoreBundle/Helpers/PluginHelper.php` | PluginHelper service |
-| `src/CoreBundle/Event/Events.php` | Event constants |
-| `public/plugin/HelloWorld/` | Minimal example plugin |
-| `public/plugin/TopLinks/` | Simple example plugin |
+| `public/main/inc/lib/plugin.class.php` | فئة أساسية للملحق |
+| `public/main/inc/lib/plugin.lib.php` | مدير الملحقات |
+| `src/CoreBundle/Entity/Plugin.php` | كيان Doctrine للملحق |
+| `src/CoreBundle/Helpers/PluginHelper.php` | خدمة PluginHelper |
+| `src/CoreBundle/Event/Events.php` | ثوابت الأحداث |
+| `public/plugin/HelloWorld/` | مثال بسيط لملحق |
+| `public/plugin/TopLinks/` | مثال بسيط لملحق |

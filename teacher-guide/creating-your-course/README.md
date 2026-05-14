@@ -1,55 +1,55 @@
-# Creating Your Course
+# إنشاء مساقك
 
-This section explains how to create a new course in Chamilo and configure it for your needs.
+يشرح هذا القسم كيفية إنشاء مساق جديد في Chamilo وتكوينه حسب احتياجاتك.
 
-## Creating a New Course
+## إنشاء مساق جديد
 
-To create a course:
+لإنشاء مساق:
 
-1. Click **My courses** in the sidebar
-2. Click the **Create course** button (usually a green book <img src="/.gitbook/assets/icons/mdi-book-open-page-variant.svg" alt="Courses" data-size="line"> icon with a + sign)
-3. Fill in the course creation form:
+1. انقر على **مساقاتي** في الشريط الجانبي
+2. انقر على زر **إنشاء مساق** (عادةً أيقونة كتاب أخضر <img src="/.gitbook/assets/icons/mdi-book-open-page-variant.svg" alt="Courses" data-size="line"> مع علامة +)
+3. املأ نموذج إنشاء المساق:
 
-![The course creation form with fields for name, category, code, and language](/.gitbook/assets/course-creation-form.png)
+![نموذج إنشاء المساق مع حقول للاسم والفئة والرمز واللغة](/.gitbook/assets/course-creation-form.png)
 
-| Field | Required | Description |
+| الحقل | مطلوب | الوصف |
 |-------|----------|-------------|
-| **Course name** | Yes | A short, descriptive title for your course (e.g., "Innovation Management") |
-| **Course category** | No | Select a category to help organize courses on the platform |
-| **Course code** | No | A short code using only letters and numbers (max 40 characters). If left blank, one is generated automatically from the course name |
-| **Language** | No | The primary language of the course. Defaults to your current language |
+| **اسم المساق** | نعم | عنوان قصير وصفي لمساقك (مثل "إدارة الابتكار") |
+| **فئة المساق** | لا | حدد فئة لمساعدة في تنظيم المساقات على المنصة |
+| **رمز المساق** | لا | رمز قصير يستخدم الحروف والأرقام فقط (حد أقصى 40 حرفًا). إذا ترك فارغًا، يتم إنشاء واحد تلقائيًا من اسم المساق |
+| **اللغة** | لا | اللغة الرئيسية للمساق. الافتراضية هي لغتك الحالية |
 
-If enabled, you might also find a **Default room** setting and the possibility to use a **Course template** to avoid creating your course entirely from scratch.
+إذا كان مفعلاً، قد تجد أيضًا إعداد **الغرفة الافتراضية** وإمكانية استخدام **قالب مساق** لتجنب إنشاء مساقك بالكامل من الصفر.
 
-4. Click **Create this course**
+4. انقر على **إنشاء هذا المساق**
 
-You will be redirected to your new course's homepage. A confirmation message will appear: "Course created successfully."
+سيتم توجيهك إلى الصفحة الرئيسية لمساقك الجديد. ستظهر رسالة تأكيد: "تم إنشاء المساق بنجاح."
 
-## The Course Homepage
+## الصفحة الرئيسية للمساق
 
-Once your course is created, you land on its homepage. This is the central hub for your course, where you and your learners access all tools and content.
+بمجرد إنشاء مساقك، تهبط على صفحته الرئيسية. هذه هي المركز الرئيسي لمساقك، حيث يصل أنت ومتعلموك إلى جميع الأدوات والمحتوى.
 
-![The course homepage tool grid showing available course tools with icons and visibility toggles](/.gitbook/assets/course-homepage-tool-grid.png)
+![شبكة أدوات الصفحة الرئيسية للمساق التي تظهر أدوات المساق المتاحة مع الأيقونات ومفاتيح التبديل للرؤية](/.gitbook/assets/course-homepage-tool-grid.png)
 
-The homepage displays:
+تعرض الصفحة الرئيسية:
 
-* **Course title** — The name of your course, shown at the top.
-* **Course introduction** — An optional description or welcome message. Click the **+ Course introduction** button to add one, or the **Edit introduction** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Edit" data-size="line"> button at the top to modify it. This supports rich text with images, links, and formatting.
-* **Tool grid** — A grid of all available course tools, each shown as a card with an icon and name.
+* **عنوان المساق** — اسم مساقك، المعروض في الأعلى.
+* **مقدمة المساق** — وصف اختياري أو رسالة ترحيب. انقر على زر **+ مقدمة المساق** لإضافتها، أو زر **تعديل المقدمة** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Edit" data-size="line"> في الأعلى لتعديلها. يدعم هذا النص الغني مع الصور والروابط والتنسيق.
+* **شبكة الأدوات** — شبكة من جميع أدوات المساق المتاحة، كل واحدة معروضة كبطاقة مع أيقونة واسم.
 
-### Managing Tool Visibility
+### إدارة رؤية الأدوات
 
-As a teacher, you can control which tools your learners can see:
+كمعلم، يمكنك التحكم في الأدوات التي يمكن لمتعلميك رؤيتها:
 
-* Click the **eye icon** <img src="/.gitbook/assets/icons/mdi-eye.svg" alt="Visible" data-size="line"> next to any tool to hide it from learners. Hidden tools show a **crossed-out eye** <img src="/.gitbook/assets/icons/mdi-eye-off.svg" alt="Hidden" data-size="line"> and are still accessible to you.
-* Use the **Show all** and **Hide all** buttons to change all tools at once
-* Click **Sort** to enable drag-and-drop reordering of the tool grid
+* انقر على **أيقونة العين** <img src="/.gitbook/assets/icons/mdi-eye.svg" alt="Visible" data-size="line"> بجانب أي أداة لإخفائها عن المتعلمين. الأدوات المخفية تظهر **عينًا مشطوبة** <img src="/.gitbook/assets/icons/mdi-eye-off.svg" alt="Hidden" data-size="line"> ولا تزال متاحة لك.
+* استخدم أزرار **إظهار الكل** و**إخفاء الكل** لتغيير جميع الأدوات دفعة واحدة
+* انقر على **ترتيب** لتمكين إعادة الترتيب بسحب وإسقاط لشبكة الأدوات
 
-### Student View
+### عرض الطالب
 
-Click the **Student view** button to see the course homepage exactly as a learner would see it. This is useful to verify that hidden tools and unpublished content are not visible. Click the button again to return to the teacher view.
+انقر على زر **عرض الطالب** لرؤية الصفحة الرئيسية للمساق تمامًا كما يراه المتعلم. هذا مفيد للتحقق من أن الأدوات المخفية والمحتوى غير المنشور غير مرئي. انقر على الزر مرة أخرى للعودة إلى عرض المعلم.
 
-## Next Steps
+## الخطوات التالية
 
-* [Course Settings](course-settings.md) — Configure access, enrollment, and other course-level options
-* [Course Homepage](course-homepage.md) — Detailed guide to customizing your course homepage
+* [إعدادات المساق](course-settings.md) — تكوين الوصول والتسجيل وخيارات المساق الأخرى على مستوى المساق
+* [الصفحة الرئيسية للمساق](course-homepage.md) — دليل مفصل لتخصيص الصفحة الرئيسية لمساقك

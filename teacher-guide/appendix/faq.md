@@ -1,57 +1,57 @@
-# FAQ
+# الأسئلة الشائعة
 
-## General Questions
+## أسئلة عامة
 
-**How do I access my course?**
+**كيف أصل إلى مساقي؟**
 
-Click **My courses** in the sidebar, then click on the course you want to open. If your course is part of a session, click **My sessions** first, then select the session and course.
+انقر على **مساقاتي** في الشريط الجانبي، ثم انقر على المساق الذي تريد فتحه. إذا كان مساقك جزءًا من جلسة، انقر أولاً على **جلساتي**، ثم حدد الجلسة والمساق.
 
-**Can my learners access the course from a mobile phone?**
+**هل يمكن لمتعلمي الوصول إلى المساق من هاتف محمول؟**
 
-Yes. Chamilo 2.0 has a responsive interface that adapts to all screen sizes. Learners can use any modern web browser on a phone, tablet, or computer.
+نعم. يحتوي Chamilo 2.0 على واجهة متجاوبة تتكيف مع جميع أحجام الشاشات. يمكن للمتعلمين استخدام أي متصفح ويب حديث على الهاتف أو الجهاز اللوحي أو الحاسوب.
 
-**What browsers are supported?**
+**ما هي المتصفحات المدعومة؟**
 
-Chamilo 2.0 works with all major modern browsers: Chrome, Firefox, Safari, and Edge. For the best experience, use the latest version of your browser.
+يعمل Chamilo 2.0 مع جميع المتصفحات الحديثة الرئيسية: Chrome، Firefox، Safari، وEdge. للحصول على أفضل تجربة، استخدم الإصدار الأحدث من متصفحك.
 
-## Content and Courses
+## المحتوى والمساقات
 
-**How do I create a backup of my course?**
+**كيف أقوم بإنشاء نسخة احتياطية من مساقي؟**
 
-Go to the **Maintenance** tool in your course (accessible from the settings menu on the course homepage). You will find options to export your course content.
+اذهب إلى أداة **الصيانة** في مساقك (يمكن الوصول إليها من قائمة الإعدادات في الصفحة الرئيسية للمساق). ستجد خيارات لتصدير محتوى مساقك.
 
-**Can I copy content from one course to another?**
+**هل يمكنني نسخ المحتوى من مساق إلى آخر؟**
 
-Yes. Use the course import/export features in the Maintenance tool to copy content between courses. You will need to create an empty *destination* course first.
+نعم. استخدم ميزات استيراد/تصدير المساق في أداة الصيانة لنسخ المحتوى بين المساقات. ستحتاج إلى إنشاء مساق *وجهة* فارغ أولاً.
 
-**What file formats can I upload?**
+**ما هي صيغ الملفات التي يمكنني رفعها؟**
 
-Chamilo supports most common file formats: PDF, Word documents, PowerPoint presentations, images (PNG, JPG, SVG, GIF), audio files, video files, and many more. Your administrator may restrict certain file types for security reasons.
+يدعم Chamilo معظم صيغ الملفات الشائعة: PDF، مستندات Word، عروض PowerPoint، صور (PNG، JPG، SVG، GIF)، ملفات صوتية، ملفات فيديو، وغيرها الكثير. قد يقيد مدير النظام أنواع معينة من الملفات لأسباب أمنية.
 
-**What is the maximum file upload size?**
+**ما هو الحد الأقصى لحجم رفع الملف؟**
 
-This depends on your server configuration. Your administrator sets the upload limit. If you encounter a limit, contact your administrator.
+يعتمد ذلك على تكوين الخادم الخاص بك. يحدد مدير النظام حد الرفع. إذا واجهت حدًا، اتصل بمدير النظام.
 
-## Assessment
+## التقييم
 
-**Can exercises be graded automatically?**
+**هل يمكن تصحيح التمارين تلقائيًا؟**
 
-Yes. Most question types (multiple choice, true/false, fill in the blanks, matching) are graded automatically. Open-ended questions require manual grading, or you can use AI-assisted grading if configured.
+نعم. معظم أنواع الأسئلة (اختيار متعدد، صح/خطأ، ملء الفراغات، مطابقة) يتم تصحيحها تلقائيًا. تتطلب الأسئلة المفتوحة تصحيحًا يدويًا، أو يمكنك استخدام التصحيح بمساعدة الذكاء الاصطناعي إذا تم تكوينه.
 
-**Can I set a time limit on exercises?**
+**هل يمكنني تحديد حد زمني للتمارين؟**
 
-Yes. When creating or editing an exercise, you can set a time limit in minutes. Learners will see a countdown timer.
+نعم. عند إنشاء أو تعديل تمرين، يمكنك تحديد حد زمني بالدقائق. سيرى المتعلمون مؤقتًا تنازليًا.
 
-**Can learners retake an exercise?**
+**هل يمكن للمتعلمين إعادة أداء التمرين؟**
 
-Yes. You control the number of allowed attempts in the exercise settings. You can allow unlimited attempts or set a specific maximum, but this maximum applies to all users in your course (you can *free* new attempts by deleting previous ones, but this is not recommended as it results in unequal chances between users and it is registered for audit at the platform level).
+نعم. أنت تتحكم في عدد المحاولات المسموح بها في إعدادات التمرين. يمكنك السماح بمحاولات غير محدودة أو تحديد حد أقصى محدد، لكن هذا الحد الأقصى ينطبق على جميع المستخدمين في مساقك (يمكنك *تحرير* محاولات جديدة بحذف السابقة، لكن هذا غير موصى به لأنه يؤدي إلى فرص غير متساوية بين المستخدمين ويتم تسجيله لأغراض التدقيق على مستوى المنصة).
 
-## Technical Issues
+## المشكلات التقنية
 
-**I cannot see a tool on my course homepage. Where is it?**
+**لا أرى أداة على صفحة مساقي الرئيسية. أين هي؟**
 
-Some tools may be hidden. As a teacher, you can show hidden tools by looking for tools with a crossed-out eye icon. If you cannot find a specific tool at all, your platform administrator may have disabled it at the platform level.
+قد تكون بعض الأدوات مخفية. كمعلم، يمكنك إظهار الأدوات المخفية بالبحث عن الأدوات التي تحمل أيقونة عين مشطوبة. إذا لم تجد أداة محددة على الإطلاق، فقد يكون مدير المنصة قد عطلها على مستوى المنصة.
 
-**My learners say they cannot access the course.**
+**يقول متعلمي إنهم لا يستطيعون الوصول إلى المساق.**
 
-Check the course visibility settings (Course Settings > Course Visibility). If set to "Registered only," learners must be explicitly enrolled. Also verify they have an active account on the platform.
+تحقق من إعدادات رؤية المساق (إعدادات المساق > رؤية المساق). إذا كانت مضبوطة على "مسجلون فقط"، يجب تسجيل المتعلمين صراحةً. كما تحقق من أن لديهم حسابًا نشطًا على المنصة.

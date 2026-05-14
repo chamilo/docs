@@ -1,54 +1,54 @@
-# Entities and Doctrine
+# الكيانات وـ Doctrine
 
-Chamilo 2.0 has 314 Doctrine entities across two bundles. The following only mention the main ones.
+يحتوي Chamilo 2.0 على 314 كيان Doctrine عبر حزمتين. يذكر الآتي فقط الأساسيات منها.
 
-## Entity Organization
+## تنظيم الكيانات
 
-### CoreBundle Entities (213)
+### كيانات CoreBundle (213)
 
-Platform-level entities:
+كيانات على مستوى المنصة:
 
-| Category | Examples |
-|----------|---------|
-| **Users** | `User`, `UserRelUser`, `AccessUrl`, `AccessUrlRelUser` |
-| **Courses** | `Course`, `CourseCategory`, `CourseRelUser` |
-| **Sessions** | `Session`, `SessionRelUser`, `SessionRelCourse`, `SessionRelCourseRelUser` |
-| **Resources** | `ResourceNode`, `ResourceFile`, `ResourceLink`, `ResourceType` |
-| **Settings** | `SettingsCurrent`, `SettingsOptions` |
-| **Messages** | `Message`, `MessageRelUser`, `MessageAttachment` |
-| **Tracking** | `TrackELogin`, `TrackEOnline`, `TrackEDefault` |
-| **Skills** | `Skill`, `SkillRelUser`, `SkillRelProfile` |
-| **AI** | `AiRequests` |
-| **Plugins** | `Plugin`, `AccessUrlRelPlugin` |
-| **Social** | `Usergroup`, `UsergroupRelUser` |
+| الفئة | أمثلة |
+|-------|-------|
+| **المستخدمون** | `User`, `UserRelUser`, `AccessUrl`, `AccessUrlRelUser` |
+| **الدورات** | `Course`, `CourseCategory`, `CourseRelUser` |
+| **الجلسات** | `Session`, `SessionRelUser`, `SessionRelCourse`, `SessionRelCourseRelUser` |
+| **الموارد** | `ResourceNode`, `ResourceFile`, `ResourceLink`, `ResourceType` |
+| **الإعدادات** | `SettingsCurrent`, `SettingsOptions` |
+| **الرسائل** | `Message`, `MessageRelUser`, `MessageAttachment` |
+| **التتبع** | `TrackELogin`, `TrackEOnline`, `TrackEDefault` |
+| **المهارات** | `Skill`, `SkillRelUser`, `SkillRelProfile` |
+| **الذكاء الاصطناعي** | `AiRequests` |
+| **الإضافات** | `Plugin`, `AccessUrlRelPlugin` |
+| **الاجتماعي** | `Usergroup`, `UsergroupRelUser` |
 | **xAPI** | `XApiObject`, `XApiResult`, `XApiActivityState` |
 
-### CourseBundle Entities (101)
+### كيانات CourseBundle (101)
 
-Course content entities — all prefixed with `C`:
+كيانات محتوى الدورة — جميعها مسبوقة بـ `C`:
 
-| Category | Examples |
-|----------|---------|
-| **Documents** | `CDocument` |
-| **Exercises** | `CQuiz`, `CQuizQuestion`, `CQuizAnswer`, `CQuizQuestionCategory` |
-| **Learning paths** | `CLp`, `CLpItem`, `CLpView`, `CLpItemView`, `CLpCategory` |
-| **Forums** | `CForum`, `CForumCategory`, `CForumThread`, `CForumPost` |
-| **Assignments** | `CStudentPublication`, `CStudentPublicationAssignment`, `CStudentPublicationComment` |
-| **Surveys** | `CSurvey`, `CSurveyQuestion`, `CSurveyAnswer`, `CSurveyInvitation` |
-| **Attendance** | `CAttendance`, `CAttendanceCalendar`, `CAttendanceResult` |
-| **Blogs** | `CBlog`, `CBlogPost`, `CBlogComment`, `CBlogTask` |
-| **Other** | `CCalendarEvent`, `CGlossary`, `CLink`, `CLinkCategory`, `CNotebook`, `CWiki` |
+| الفئة | أمثلة |
+|-------|-------|
+| **المستندات** | `CDocument` |
+| **التمارين** | `CQuiz`, `CQuizQuestion`, `CQuizAnswer`, `CQuizQuestionCategory` |
+| **مسارات التعلم** | `CLp`, `CLpItem`, `CLpView`, `CLpItemView`, `CLpCategory` |
+| **المنتديات** | `CForum`, `CForumCategory`, `CForumThread`, `CForumPost` |
+| **المهام** | `CStudentPublication`, `CStudentPublicationAssignment`, `CStudentPublicationComment` |
+| **الاستطلاعات** | `CSurvey`, `CSurveyQuestion`, `CSurveyAnswer`, `CSurveyInvitation` |
+| **الحضور** | `CAttendance`, `CAttendanceCalendar`, `CAttendanceResult` |
+| **المدونات** | `CBlog`, `CBlogPost`, `CBlogComment`, `CBlogTask` |
+| **أخرى** | `CCalendarEvent`, `CGlossary`, `CLink`, `CLinkCategory`, `CNotebook`, `CWiki` |
 
-## Naming Convention
+## اتفاقية التسمية
 
-* CoreBundle entities: standard PascalCase (e.g., `User`, `Course`, `Session`)
-* CourseBundle entities: prefixed with `C` (e.g., `CDocument`, `CQuiz`, `CLp`)
+* كيانات CoreBundle: PascalCase القياسي (مثل `User`، `Course`، `Session`)
+* كيانات CourseBundle: مسبوقة بـ `C` (مثل `CDocument`، `CQuiz`، `CLp`)
 
-This prefix distinguishes course-scoped content entities from platform-level entities (in line with legacy database tables naming). This distinction might disappear in the long run as more tools are converted to global tools without a strong link to a specific course.
+يُميز هذا البادئة كيانات محتوى الدورة من كيانات مستوى المنصة (متوافقًا مع تسمية جداول قاعدة البيانات السابقة). قد يختفي هذا التمييز على المدى الطويل مع تحويل المزيد من الأدوات إلى أدوات عامة بدون رابط قوي بدورة معينة.
 
-## Key Relationships
+## العلاقات الرئيسية
 
-Relationships are usually evidenced by the `Rel` separator.
+تُظهر العلاقات عادةً بواسطة فاصل `Rel`.
 
 ### User ↔ Course
 
@@ -56,7 +56,7 @@ Relationships are usually evidenced by the `Rel` separator.
 User --[CourseRelUser]--> Course
 ```
 
-`CourseRelUser` stores the enrollment status (TEACHER = 1, STUDENT = 5).
+يخزن `CourseRelUser` حالة التسجيل (TEACHER = 1، STUDENT = 5).
 
 ### User ↔ Session ↔ Course
 
@@ -65,9 +65,9 @@ User --[SessionRelUser]--> Session --[SessionRelCourse]--> Course
 User --[SessionRelCourseRelUser]--> (Session + Course)
 ```
 
-### ResourceNode (Content Abstraction)
+### ResourceNode (تجريد المحتوى)
 
-All course content entities connect to the resource system through `ResourceNode`:
+تتصل جميع كيانات محتوى الدورة بنظام الموارد عبر `ResourceNode`:
 
 ```
 CDocument --> ResourceNode --> ResourceFile
@@ -75,13 +75,13 @@ CQuiz ------> ResourceNode
 CLp --------> ResourceNode
 ```
 
-See [Resource System](resource-system.md) for details.
+انظر [نظام الموارد](resource-system.md) للتفاصيل.
 
-## Doctrine Extensions
+## امتدادات Doctrine
 
-Chamilo uses Gedmo Doctrine Extensions (via `stof/doctrine-extensions-bundle`):
+يستخدم Chamilo امتدادات Gedmo Doctrine (عبر `stof/doctrine-extensions-bundle`):
 
-* **Tree** — Hierarchical data (ResourceNode uses materialized path)
-* **Timestampable** — Automatic `createdAt`/`updatedAt` fields
-* **Sluggable** — URL-friendly slugs
-* **Sortable** — Orderable collections
+* **Tree** — بيانات هرمية (يستخدم ResourceNode مسارًا ماديًا)
+* **Timestampable** — حقول `createdAt`/`updatedAt` التلقائية
+* **Sluggable** — اختصارات صديقة للـ URL
+* **Sortable** — مجموعات قابلة للترتيب

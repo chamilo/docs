@@ -1,26 +1,26 @@
-# Branches and Rooms
+# الفروع والغرف
 
-Chamilo includes a basic physical location system built around two concepts: **branches** and **rooms**.
+يحتوي Chamilo على نظام أساسي للمواقع الفعلية مبني حول مفهومين: **الفروع** و**الغرف**.
 
-A **branch** represents a physical site or campus — for example, a main office, a regional training centre, or a university building. Branches can be nested (a building can contain departments, a city can contain buildings). Each branch can contain one or more **rooms**, which represent individual classrooms or lab spaces within that branch.
+تمثل **الفرع** موقعًا فعليًا أو حرمًا جامعيًا — على سبيل المثال، مكتب رئيسي، أو مركز تدريب إقليمي، أو مبنى جامعي. يمكن أن تكون الفروع متداخلة (يمكن أن يحتوي مبنى على أقسام، ويمكن أن تحتوي مدينة على مبانٍ). يمكن أن تحتوي كل فرع على غرفة أو أكثر **غرف**، والتي تمثل فصول دراسية فردية أو مساحات مختبرات داخل تلك الفرع.
 
-This feature is still in early stages. At this point its main practical use is letting you attach a physical location marker to a course.
+هذه الميزة لا تزال في مراحلها الأولى. في هذه المرحلة، الاستخدام العملي الرئيسي لها هو السماح لك بربط علامة موقع فعلي بدورة دراسية.
 
-## Assigning a Room to a Course
+## تعيين غرفة لدورة دراسية
 
-When creating a course, if your administrator has already set up rooms, a **Default room** field appears in the course creation form. Select the room where the course takes place.
+عند إنشاء دورة دراسية، إذا كان مدير النظام قد أعد بالفعل إعداد الغرف، فإن حقل **الغرفة الافتراضية** يظهر في نموذج إنشاء الدورة الدراسية. اختر الغرفة التي تجري فيها الدورة الدراسية.
 
-This information is informational — it does not affect course behaviour or access control. It simply records where the course is physically held, which can help administrators manage room scheduling and view room occupation across courses.
+هذه المعلومات معلوماتية — لا تؤثر على سلوك الدورة الدراسية أو التحكم في الوصول. إنها تسجل ببساطة المكان الفعلي الذي تعقد فيه الدورة الدراسية، مما يمكن أن يساعد المدراء في إدارة جدولة الغرف وعرض اشغال الغرف عبر الدورات الدراسية.
 
-If no rooms have been configured on your platform, the field will not appear.
+إذا لم يتم تهيئة أي غرف على منصتك، فلن يظهر الحقل.
 
-## What Administrators Can Do
+## ما يمكن للمدراء فعله
 
-Branch and room management is handled entirely by administrators. They can:
+يتم التعامل مع إدارة الفروع والغرف بالكامل من قبل المدراء. يمكنهم:
 
-- Create and organise branches in a tree hierarchy
-- Add rooms to branches, with optional geolocation and IP range data
-- View which courses are assigned to each room
-- View a room's occupation calendar based on attendance entries
+- إنشاء الفروع وتنظيمها في تسلسل هرمي شجري
+- إضافة غرف إلى الفروع، مع بيانات التحديد الجغرافي الاختياري ونطاق عنوان IP
+- عرض الدورات الدراسية المعينة لكل غرفة
+- عرض تقويم اشغال الغرفة بناءً على إدخالات الحضور
 
-If you need a room created or need your course moved to a different room, contact your platform administrator.
+إذا كنت بحاجة إلى إنشاء غرفة أو نقل دورة دراسية إلى غرفة مختلفة، اتصل بمدير المنصة الخاص بك.

@@ -1,29 +1,29 @@
-# Events and Listeners
+# الأحداث والمستمعين
 
-Chamilo uses Symfony's event system for decoupled communication between components.
+يستخدم Chamilo نظام الأحداث في Symfony للاتصال المفصول بين المكونات.
 
-## Event Listeners
+## مستمعو الأحداث
 
-Chamilo uses two listener locations:
+يستخدم Chamilo موقعين للمستمعين:
 
-* **`src/CoreBundle/EventListener/`** — Symfony kernel/HTTP listeners (request, response, exception, login/logout, course/session access, etc.). Examples: `CidReqListener`, `CourseAccessListener`, `LoginSuccessHandler`, `LogoutListener`, `ExceptionListener`, `ResourceDoctrineListener`.
-* **`src/CoreBundle/Entity/Listener/`** — Doctrine entity listeners attached to specific entities. Examples: `ResourceNodeListener`, `CourseListener`, `SessionListener`, `LanguageListener`, `UserListener`, `MessageListener`.
+* **`src/CoreBundle/EventListener/`** — مستمعو نواة Symfony/HTTP (الطلب، الاستجابة، الاستثناء، تسجيل الدخول/الخروج، الوصول إلى الدورة/الجلسة، إلخ). أمثلة: `CidReqListener`، `CourseAccessListener`، `LoginSuccessHandler`، `LogoutListener`، `ExceptionListener`، `ResourceDoctrineListener`.
+* **`src/CoreBundle/Entity/Listener/`** — مستمعو الكيانات Doctrine المرتبطة بكيانات محددة. أمثلة: `ResourceNodeListener`، `CourseListener`، `SessionListener`، `LanguageListener`، `UserListener`، `MessageListener`.
 
-Pick the location that matches what you need to react to: HTTP-pipeline events go in `EventListener/`; entity lifecycle hooks go in `Entity/Listener/`.
+اختر الموقع الذي يتناسب مع ما تحتاج إلى الاستجابة له: أحداث خط أنابيب HTTP تذهب إلى `EventListener/`؛ خطافات دورة حياة الكيان تذهب إلى `Entity/Listener/`.
 
-## Event Subscribers
+## المشتركون في الأحداث
 
-Located in `src/CoreBundle/EventSubscriber/`:
+موجودون في `src/CoreBundle/EventSubscriber/`:
 
-Event subscribers can listen to multiple events:
+يمكن لمشتركي الأحداث الاستماع إلى أحداث متعددة:
 
-* **Security subscribers** — Handle login/logout events, track login attempts
-* **API subscribers** — Pre/post processing for API requests
-* **Doctrine subscribers** — React to entity lifecycle events
+* **مشتركو الأمان** — التعامل مع أحداث تسجيل الدخول/الخروج، تتبع محاولات تسجيل الدخول
+* **مشتركو API** — المعالجة قبل/بعد لطلبات API
+* **مشتركو Doctrine** — الاستجابة لأحداث دورة حياة الكيان
 
-## Doctrine Lifecycle Events
+## أحداث دورة حياة Doctrine
 
-Entities use `#[ORM\HasLifecycleCallbacks]` for database-level events:
+تستخدم الكيانات `#[ORM\HasLifecycleCallbacks]` لأحداث مستوى قاعدة البيانات:
 
 ```php
 #[ORM\PrePersist]
@@ -33,13 +33,13 @@ public function prePersist(): void
 }
 ```
 
-## Creating Custom Listeners
+## إنشاء مستمعين مخصصين
 
-To add custom behavior:
+لإضافة سلوك مخصص:
 
-1. Create a listener/subscriber class in the appropriate bundle
-2. Tag it as an event listener or subscriber in the service configuration
-3. Implement the handler method
+1. إنشاء فئة مستمع/مشترك في الحزمة المناسبة
+2. وضع علامة عليها كمستمع أو مشترك في تكوين الخدمة
+3. تنفيذ طريقة المعالج
 
 ```php
 class MyListener
@@ -51,53 +51,56 @@ class MyListener
 }
 ```
 
-## Key Events
+## الأحداث الرئيسية
 
-| Event | When it fires |
+| الحدث | متى يتم إطلاقه |
 |-------|--------------|
-| `kernel.request` | Every HTTP request |
-| `kernel.response` | Before sending the HTTP response |
-| `security.interactive_login` | User logs in |
-| `doctrine.prePersist` | Before an entity is first saved |
-| `doctrine.postUpdate` | After an entity is updated |
+| `kernel.request` | كل طلب HTTP |
+| `kernel.response` | قبل إرسال استجابة HTTP |
+| `security.interactive_login` | عند تسجيل دخول المستخدم |
+| `doctrine.prePersist` | قبل حفظ الكيان لأول مرة |
+| `doctrine.postUpdate` | بعد تحديث الكيان |
 
-## Chamilo-Specific Events
+## أحداث خاصة بـ Chamilo
 
-These events are dispatched by Chamilo's own code and are the primary integration points for plugins. Constants are defined in `Chamilo\CoreBundle\Event\Events`.
+هذه الأحداث يتم إطلاقها بواسطة كود Chamilo نفسه وهي نقاط التكامل الرئيسية للإضافات. يتم تعريف الثوابت في `Chamilo\CoreBundle\Event\Events`.
 
-| Constant | Event string | When it fires |
+| الثابت | سلسلة الحدث | متى يتم إطلاقه |
 |----------|-------------|---------------|
-| `Events::COURSE_CREATED` | `chamilo.event.course_created` | After a course is created |
-| `Events::COURSE_ACCESS_CHECK` | `chamilo.course_access_check` | Before a user accesses a course |
-| `Events::COURSE_USER_SUBSCRIPTION_CHECK` | `chamilo.event.course_user_subscription_check` | Before a user enrols in a course |
-| `Events::SESSION_RESUBSCRIPTION` | `chamilo.event.session_resubscription` | When a user attempts to resubscribe to a session |
-| `Events::LOGIN_CREDENTIALS_CHECKED` | `chamilo.event.login_credentials_checked` | After login credentials are validated |
-| `Events::LOGIN_CONDITION_CHECKED` | `chamilo.event.login_condition_checked` | After additional login conditions are checked |
-| `Events::DOCUMENT_ACTION` | `chamilo.event.document_action` | When the document tool toolbar is rendered |
-| `Events::DOCUMENT_ITEM_ACTION` | `chamilo.event.document_item_action` | When per-file action buttons are rendered |
-| `Events::DOCUMENT_ITEM_VIEW` | `chamilo.event.document_item_view` | When a document is opened for viewing |
-| `Events::EXERCISE_REPORT_ACTION` | `chamilo.event.exercise_report_action` | When the exercise report page renders its action links |
-| `Events::EXERCISE_ENDED` | `chamilo.event.exercise_ended` | After a learner submits an exercise |
-| `Events::EXERCISE_QUESTION_ANSWERED` | `chamilo.event.question_answered` | After each question is answered |
-| `Events::LP_CREATED` | `chamilo.event.learning_path_created` | After a learning path is created |
-| `Events::LP_ITEM_VIEWED` | `chamilo.event.learning_path_item_viewed` | When a learner opens an LP item |
-| `Events::LP_ENDED` | `chamilo.event.learning_path_ended` | After a learner completes a learning path |
-| `Events::ADMIN_BLOCK_DISPLAYED` | `chamilo.event.admin_block_displayed` | When the admin dashboard builds its block list |
-| `Events::USER_CREATED` | `chamilo.event.user_created` | After a user account is created |
-| `Events::USER_UPDATED` | `chamilo.event.user_updated` | After a user account is updated |
-| `Events::USER_DELETED` | `chamilo.event.user_deleted` | After a user account is deleted |
-| `Events::PORTFOLIO_ITEM_ADDED` | `chamilo.event.portfolio_item_added` | After a portfolio item is created |
-| `Events::NOTIFICATION_CONTENT_FORMATTED` | `chamilo_hook_event.notification_content` | When a notification body is formatted |
+| `Events::COURSE_CREATED` | `chamilo.event.course_created` | بعد إنشاء دورة |
+| `Events::COURSE_ACCESS_CHECK` | `chamilo.course_access_check` | قبل وصول المستخدم إلى دورة |
+| `Events::COURSE_USER_SUBSCRIPTION_CHECK` | `chamilo.event.course_user_subscription_check` | قبل تسجيل المستخدم في دورة |
+| `Events::SESSION_RESUBSCRIPTION` | `chamilo.event.session_resubscription` | عند محاولة المستخدم إعادة الاشتراك في جلسة |
+| `Events::LOGIN_CREDENTIALS_CHECKED` | `chamilo.event.login_credentials_checked` | بعد التحقق من بيانات تسجيل الدخول |
+| `Events::LOGIN_CONDITION_CHECKED` | `chamilo.event.login_condition_checked` | بعد التحقق من شروط تسجيل الدخول الإضافية |
+| `Events::DOCUMENT_ACTION` | `chamilo.event.document_action` | عند عرض شريط أدوات أداة المستندات |
+| `Events::DOCUMENT_ITEM_ACTION` | `chamilo.event.document_item_action` | عند عرض أزرار الإجراء لكل ملف |
+| `Events::DOCUMENT_ITEM_VIEW` | `chamilo.event.document_item_view` | عند فتح مستند للعرض |
+| `Events::EXERCISE_REPORT_ACTION` | `chamilo.event.exercise_report_action` | عند عرض صفحة تقرير التمرين لروابط الإجراء |
+| `Events::EXERCISE_ENDED` | `chamilo.event.exercise_ended` | بعد تقديم المتعلم لتمرين |
+| `Events::EXERCISE_QUESTION_ANSWERED` | `chamilo.event.question_answered` | بعد الإجابة على كل سؤال |
+| `Events::LP_CREATED` | `chamilo.event.learning_path_created` | بعد إنشاء مسار تعلم |
+| `Events::LP_ITEM_VIEWED` | `chamilo.event.learning_path_item_viewed` | عند فتح المتعلم لعنصر مسار تعلم |
+| `Events::LP_ENDED` | `chamilo.event.learning_path_ended` | بعد إكمال المتعلم لمسار تعلم |
+| `Events::ADMIN_BLOCK_DISPLAYED` | `chamilo.event.admin_block_displayed` | عند بناء لوحة تحكم المسؤول لقائمة الكتل |
+| `Events::USER_CREATED` | `chamilo.event.user_created` | بعد إنشاء حساب مستخدم |
+| `Events::USER_UPDATED` | `chamilo.event.user_updated` | بعد تحديث حساب مستخدم |
+| `Events::USER_DELETED` | `chamilo.event.user_deleted` | بعد حذف حساب مستخدم |
+| `Events::PORTFOLIO_ITEM_ADDED` | `chamilo.event.portfolio_item_added` | بعد إنشاء عنصر محفظة |
+| `Events::NOTIFICATION_CONTENT_FORMATTED` | `chamilo_hook_event.notification_content` | عند تهيئة نص الإشعار |
 
-## Plugin Example: Adding a Button to the Document Viewer
+## مثال إضافة: إضافة زر إلى عارض المستندات
 
-This section walks through how a plugin uses an event subscriber to inject a button into an existing Chamilo page — no core-code modification required.
+يشرح هذا القسم كيفية استخدام إضافة لمشترك حدث لإدراج زر في صفحة Chamilo موجودة — دون الحاجة إلى تعديل كود النواة.
 
-### Scenario
+---
 
-A plugin called **MyViewer** wants to add an "Open in MyViewer" button next to every document in the course file manager. The relevant event is `Events::DOCUMENT_ITEM_VIEW`, dispatched by Chamilo whenever a document is about to be displayed, carrying the `CDocument` entity and a mutable list of links.
+---
+### السيناريو
 
-### Plugin directory layout
+يُريد إضافي يُدعى **MyViewer** إضافة زر "فتح في MyViewer" بجانب كل مستند في مدير ملفات الدورة الدراسية. الحدث ذو الصلة هو `Events::DOCUMENT_ITEM_VIEW`، الذي يُطلق من قبل Chamilo كلما كان مستند على وشك العرض، ويحمل كيان `CDocument` وقائمة قابلة للتعديل من الروابط.
+
+### تخطيط دليل الإضافي
 
 ```
 public/plugin/MyViewer/
@@ -111,7 +114,7 @@ public/plugin/MyViewer/
         └── MyViewerEventSubscriber.php # Event subscriber
 ```
 
-### Main plugin class (`src/MyViewerPlugin.php`)
+### الصفحة الرئيسية للإضافي (`src/MyViewerPlugin.php`)
 
 ```php
 declare(strict_types=1);
@@ -141,9 +144,9 @@ class MyViewerPlugin extends Plugin
 }
 ```
 
-The `Plugin` base class provides `isEnabled()`, `get($settingKey)`, and helpers for installing course tools and settings. The singleton pattern (`static $instance`) is the standard Chamilo convention because the plugin class is also instantiated outside the Symfony container (in legacy PHP pages).
+توفر الصفحة الأساسية `Plugin` الوظائف `isEnabled()` و`get($settingKey)` ومساعدات لتثبيت أدوات الدورة والإعدادات. نمط الـ singleton (`static $instance`) هو الاتفاقية القياسية في Chamilo لأن صفحة الإضافي تُستخدم أيضًا خارج حاوية Symfony (في صفحات PHP التقليدية).
 
-### Event subscriber (`src/EventSubscriber/MyViewerEventSubscriber.php`)
+### مشترك الحدث (`src/EventSubscriber/MyViewerEventSubscriber.php`)
 
 ```php
 declare(strict_types=1);
@@ -188,17 +191,17 @@ class MyViewerEventSubscriber implements EventSubscriberInterface
 }
 ```
 
-`addLink()` appends HTML to the array that Chamilo's document view template renders alongside the built-in "Download" and "Preview" actions. The subscriber never modifies Chamilo core files.
+تُضيف `addLink()` HTML إلى المصفوفة التي يعرضها قالب عرض المستند في Chamilo إلى جانب إجراءات "تحميل" و"معاينة" المدمجة. لا يُعدّل المشترك أبدًا ملفات Chamilo الأساسية.
 
-### Registration
+### التسجيل
 
-No manual service registration is needed. Chamilo's `config/services.yaml` enables Symfony's `autoconfigure` flag globally, which automatically tags any class implementing `EventSubscriberInterface` as a `kernel.event_subscriber`. As long as the plugin directory is loaded (via Composer's classmap or PSR-4 autoload), Symfony picks up the subscriber on the next cache clear.
+لا حاجة لتسجيل خدمة يدوي. يُفعّل `config/services.yaml` في Chamilo علامة `autoconfigure` في Symfony عالميًا، والتي تُسجّل تلقائيًا أي صفحة تنفّذ `EventSubscriberInterface` كـ `kernel.event_subscriber`. طالما يتم تحميل دليل الإضافي (عبر classmap لـ Composer أو PSR-4 autoload)، يلتقط Symfony المشترك عند مسح الذاكرة التخزينية التالي.
 
 ```bash
 php bin/console cache:clear
 ```
 
-### How the event data flows
+### كيفية تدفق بيانات الحدث
 
 ```
 Document list rendered
@@ -213,7 +216,7 @@ Chamilo dispatches DocumentItemViewEvent (carries CDocument entity + empty links
 Template renders event->getLinks() alongside built-in file actions
 ```
 
-Multiple plugins can subscribe to the same event independently; each appends to the shared data without knowing about the others. The order of execution follows Symfony's priority system — pass a priority integer as the second element of the handler tuple in `getSubscribedEvents()` if ordering matters:
+يمكن لإضافيات متعددة الاشتراك في نفس الحدث بشكل مستقل؛ كل واحد يُضيف إلى البيانات المشتركة دون معرفة بالآخرين. يتبع ترتيب التنفيذ نظام الأولويات في Symfony — مرر رقم أولوية كعنصر ثاني في tuple المعالج في `getSubscribedEvents()` إذا كان الترتيب مهمًا:
 
 ```php
 public static function getSubscribedEvents(): array

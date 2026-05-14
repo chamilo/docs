@@ -1,34 +1,34 @@
-# Chat
+# الدردشة
 
-The chat tool provides real-time text messaging within a course. It is useful for quick communication, live Q&A sessions, or informal discussions.
+يوفر أداة الدردشة تبادل الرسائل النصية في الوقت الفعلي داخل الدورة الدراسية. وهي مفيدة للاتصال السريع، أو جلسات الأسئلة والأجوبة الحية، أو المناقشات غير الرسمية.
 
-## Using the Chat
+## استخدام الدردشة
 
-1. Open the **Chat** tool from the course homepage
-2. Type your message in the text field at the bottom
-3. Press **Enter** or click the send button to post
+1. افتح أداة **Chat** من الصفحة الرئيسية للدورة
+2. اكتب رسالتك في حقل النص في الأسفل
+3. اضغط **Enter** أو انقر على زر الإرسال للنشر
 
-All enrolled users who are currently in the chat room can see messages in real time.
+يمكن لجميع المستخدمين المسجلين الذين يتواجدون حاليًا في غرفة الدردشة رؤية الرسائل في الوقت الفعلي.
 
-## Chat Features
+## ميزات الدردشة
 
-* **Real-time messaging** — Messages appear instantly for all participants
-* **Message history** — Previous messages are visible when you enter the chat
-* **User presence** — See who is currently in the chat room
+* **المراسلة في الوقت الفعلي** — تظهر الرسائل فورًا لجميع المشاركين
+* **سجل الرسائل** — تكون الرسائل السابقة مرئية عند دخولك إلى الدردشة
+* **تواجد المستخدمين** — اعرف من يتواجد حاليًا في غرفة الدردشة
 
-## As a Teacher
+## كمدرس
 
-As the course teacher, you can:
+بصفتك مدرس الدورة، يمكنك:
 
-* **Monitor discussions** — Review chat history to track learner engagement
-* **Find chat archives in Documents** — The chat tool automatically mirrors messages into HTML files in the Documents tool, organised by day and by scope (course / session / group), so the conversation persists beyond the live session
+* **مراقبة المناقشات** — مراجعة سجل الدردشة لتتبع تفاعل المتعلمين
+* **العثور على أرشيف الدردشة في Documents** — تعكس أداة الدردشة الرسائل تلقائيًا إلى ملفات HTML في أداة Documents، منظمة حسب اليوم وحسب النطاق (الدورة / الجلسة / المجموعة)، حتى تستمر المحادثة بعد الجلسة الحية
 
-If the platform setting "restrict chat to coach" is enabled by the administrator, only coaches can chat with learners; otherwise everyone enrolled in the course can participate.
+إذا كان إعداد المنصة "restrict chat to coach" مفعلاً من قبل المدير، فإن المدربين فقط يمكنهم الدردشة مع المتعلمين؛ وإلا يمكن للجميع المسجلين في الدورة المشاركة.
 
-## Tips for Using Chat Effectively
+## نصائح لاستخدام الدردشة بفعالية
 
-* **Schedule chat sessions** — Let learners know in advance when you will be available for live chat (use the Agenda tool)
-* **Set ground rules** — Establish expectations for respectful communication
-* **Use for quick questions** — Chat works best for short exchanges; use the Forum for longer, structured discussions
+* **جدولة جلسات الدردشة** — أخبر المتعلمين مسبقًا بموعد تواجدك للدردشة الحية (استخدم أداة Agenda)
+* **وضع قواعد أساسية** — حدد التوقعات للاتصال المحترم
+* **استخدامها للأسئلة السريعة** — تعمل الدردشة بشكل أفضل للتبادلات القصيرة؛ استخدم Forum للمناقشات الأطول والهيكلية
 
-> If your platform has video conferencing configured (BigBlueButton or Zoom), consider using that for live sessions where voice and video would be more effective. See [Video Conferencing](video-conferencing.md).
+> إذا كانت منصتك تحتوي على إعداد لمؤتمرات الفيديو (BigBlueButton أو Zoom)، ففكر في استخدامها للجلسات الحية حيث يكون الصوت والفيديو أكثر فعالية. انظر [Video Conferencing](video-conferencing.md).

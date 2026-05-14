@@ -1,90 +1,89 @@
-# Agenda Settings
+# إعدادات الجدول الزمني
 
-Defaults and behaviour of the **Agenda** tool (calendar / events).
+الإعدادات الافتراضية وسلوك أداة **Agenda** (التقويم / الأحداث).
 
-Access these settings under **Administration > Configuration settings > Agenda**. This category contains **11 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+الوصول إلى هذه الإعدادات تحت **Administration > Configuration settings > Agenda**. تحتوي هذه الفئة على **11 إعدادًا**، مدرجة أدناه مع العنوان والتعليق المرسل في إعدادات المنصة (`SettingsCurrentFixtures.php`).
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> اسم المتغير في الكود موضح بخط monospace. استخدمه عند البرمجة عبر API أو عند الحاجة إلى تغيير هذه الإعدادات على المستوى العام عن طريق تحرير [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
 
-## Settings
+## الإعدادات
 
 ### `agenda_colors`
 
-**Agenda colours**
+**ألوان الجدول الزمني**
 
-Set HTML-code colours for each type of event to change the colour when displaying the event.
+تعيين ألوان HTML-code لكل نوع من أنواع الأحداث لتغيير اللون عند عرض الحدث.
 
 ### `agenda_legend`
 
-**Agenda colour legends**
+**أساطير ألوان الجدول الزمني**
 
-Add a small text as legend describing the colours used for the events.
+إضافة نص صغير كأسطورة يصف الألوان المستخدمة للأحداث.
 
 ### `agenda_on_hover_info`
 
-**Agenda hover info**
+**معلومات التمرير فوق الجدول الزمني**
 
-Customize the agenda on cursor hovering. Show agenda comment and/or description.
+تخصيص الجدول الزمني عند تمرير المؤشر. عرض تعليق الجدول الزمني و/أو الوصف.
 
 ### `agenda_reminders_sender_id`
 
-**ID of the user who officially sends the agenda reminders**
+**معرف المستخدم الذي يرسل تذكيرات الجدول الزمني رسميًا**
 
-Sets which user appears as the sender of agenda reminder emails.
+يحدد أي مستخدم يظهر كمرسل لرسائل البريد الإلكتروني لتذكيرات الجدول الزمني.
 
-*Default: `0`*
+*افتراضي: `0`*
 
 ### `allow_agenda_edit_for_hrm`
 
-**Allow HRM role to edit or delete agenda events**
+**السماح لدور HRM بتحرير أو حذف أحداث الجدول الزمني**
 
-This gives the HRM a little more power by allowing them to edit/delete agenda events in the course-session.
+يعطي هذا لـ HRM قوة أكبر قليلاً من خلال السماح لهم بتحرير/حذف أحداث الجدول الزمني في الدورة-الجلسة.
 
-*Default: `false`*
+*افتراضي: `false`*
 
 ### `allow_careers_in_global_agenda`
 
-**Link global calendar events with careers and promotions**
+**ربط أحداث التقويم العام بالمسارات المهنية والترقيات**
 
-When enabled, global calendar events can be associated with careers and promotions, allowing targeted scheduling.
+عند التفعيل، يمكن ربط أحداث التقويم العام بالمسارات المهنية والترقيات، مما يسمح بجدولة مستهدفة.
 
-*Default: `false`*
+*افتراضي: `false`*
 
 ### `allow_personal_agenda`
 
-**Personal Agenda**
+**الجدول الزمني الشخصي**
 
-Can the learner add personal events to the Agenda?
+هل يمكن للمتعلم إضافة أحداث شخصية إلى الجدول الزمني؟
 
-*Default: `true`*
+*افتراضي: `true`*
 
 ### `default_calendar_view`
 
-**Default calendar display mode**
+**وضع عرض التقويم الافتراضي**
 
-Set this to dayGridMonth, basicWeek, agendaWeek or agendaDay to change the default view of the calendar.
+تعيين هذا إلى dayGridMonth، basicWeek، agendaWeek أو agendaDay لتغيير عرض التقويم الافتراضي.
 
-*Default: `month`*
+*افتراضي: `month`*
 
 ### `fullcalendar_settings`
 
-**Calendar customization**
+**تخصيص التقويم**
 
-Extra settings for the agenda, allowing you to configure the specific calendar library we use.
+إعدادات إضافية للجدول الزمني، تسمح لك بتكوين مكتبة التقويم المحددة التي نستخدمها.
 
 ### `personal_agenda_show_all_session_events`
 
-**Display all agenda events in personal agenda**
+**عرض جميع أحداث الجدول الزمني في الجدول الزمني الشخصي**
 
-Do not hide events from expired sessions.
+عدم إخفاء الأحداث من الجلسات المنتهية الصلاحية.
 
-*Default: `false`*
+*افتراضي: `false`*
 
 ### `personal_calendar_show_sessions_occupation`
 
-**Display sessions occupations in personal agenda**
+**عرض جداول الجلسات والإشغال في الجدول الزمني الشخصي**
 
-When enabled, session schedules and occupations are displayed in users' personal calendars.
+عند التفعيل، يتم عرض جداول الجلسات والإشغال في التقاويم الشخصية للمستخدمين.
 
-*Default: `false`*
-
+*افتراضي: `false`*

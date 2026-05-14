@@ -1,55 +1,55 @@
-# Access URLs
+# روابط الوصول
 
-Access URLs allow a single Chamilo installation to serve multiple separate portals.
+تسمح روابط الوصول بتشغيل تثبيت واحد لـ Chamilo لخدمة بوابات منفصلة متعددة.
 
 
-## Use Cases
+## حالات الاستخدام
 
-* **Multi-tenant deployments** — Host separate training portals for different organizations on a single server
-* **Departmental portals** — Give each department its own branded portal (e.g., `hr.training.company.com`, `it.training.company.com`)
-* **Regional portals** — Separate portals for different regions or languages
+* **نشر متعدد المستأجرين** — استضافة بوابات تدريب منفصلة لمنظمات مختلفة على خادم واحد
+* **بوابات إدارية** — منح كل إدارة بوابتها المعروفة الخاصة (مثل `hr.training.company.com`، `it.training.company.com`)
+* **بوابات إقليمية** — بوابات منفصلة لمناطق أو لغات مختلفة
 
-## How It Works
+## كيفية العمل
 
-Each access URL is a separate entry point to the same Chamilo installation:
+كل رابط وصول هو نقطة دخول منفصلة إلى نفس تثبيت Chamilo:
 
-* Users can be assigned to one or more access URLs
-* Courses and sessions belong to specific access URLs
-* Platform settings can be customized per access URL
-* Branding and themes can differ per URL
-* Users on one portal cannot see users or courses on another (unless explicitly shared)
+* يمكن تعيين المستخدمين إلى روابط وصول واحدة أو أكثر
+* تنتمي الدورات والجلسات إلى روابط وصول محددة
+* يمكن تخصيص إعدادات المنصة لكل رابط وصول
+* يمكن أن تختلف العلامة التجارية والسمات لكل رابط
+* لا يمكن للمستخدمين في بوابة واحدة رؤية المستخدمين أو الدورات في بوابة أخرى (ما لم يتم مشاركتها صراحةً)
 
-## Configuration
+## التهيئة
 
-### Enabling Multi-URL
+### تمكين متعدد الروابط
 
-Multi-URL must be enabled in the Chamilo configuration (typically in the environment settings). This is usually done during initial setup.
+يجب تمكين متعدد الروابط في تهيئة Chamilo (عادةً في إعدادات البيئة). يتم ذلك عادةً أثناء الإعداد الأولي.
 
-### Creating an Access URL
+### إنشاء رابط وصول
 
-1. From the administration panel, navigate to **Access URLs**
-2. Click **Add a URL**
-3. Enter the URL (e.g., `https://portal2.yoursite.com`)
-4. Configure settings specific to this URL
-5. Save
+1. من لوحة الإدارة، انتقل إلى **روابط الوصول**
+2. انقر على **إضافة رابط**
+3. أدخل الرابط (مثل `https://portal2.yoursite.com`)
+4. قم بتهيئة الإعدادات الخاصة بهذا الرابط
+5. احفظ
 
-### Assigning Users and Courses
+### تعيين المستخدمين والدورات
 
-* **Users** — Assign users to specific access URLs. A user can belong to multiple URLs.
-* **Courses** — Assign courses to specific access URLs
-* **Sessions** — Assign sessions to specific access URLs
+* **المستخدمين** — تعيين المستخدمين إلى روابط وصول محددة. يمكن لمستخدم واحد الانتماء إلى روابط متعددة.
+* **الدورات** — تعيين الدورات إلى روابط وصول محددة
+* **الجلسات** — تعيين الجلسات إلى روابط وصول محددة
 
-### Per-URL Settings
+### إعدادات لكل رابط
 
-Each access URL can have its own:
+يمكن أن يكون لكل رابط وصول إعداداته الخاصة:
 
-* **Color theme** — Different visual branding
-* **Platform name and logo** — Custom identity
-* **Settings overrides** — Certain platform settings can be customized per URL
+* **سمة اللون** — علامة تجارية بصرية مختلفة
+* **اسم المنصة والشعار** — هوية مخصصة
+* **تجاوزات الإعدادات** — يمكن تخصيص بعض إعدادات المنصة لكل رابط
 
-## Tips
+## نصائح
 
-* **Decide early** — If choosing a multi-URL setup, you should do that at the start of your Chamilo project as it requires leaving the first URL relatively empty of content. Enabling multi-URL afterwards is more challenging (requires manual databases changes).
-* **Plan URL structure** — Decide on your URL scheme before creating access URLs, as changing URLs later affects all existing links and bookmarks
-* **DNS configuration** — Each access URL must resolve to the same Chamilo server. Configure DNS records accordingly.
-* **Global administrator** — Use the Global Administrator role to manage across all access URLs
+* **قرر مبكراً** — إذا كنت تختار إعداد متعدد الروابط، يجب أن تفعل ذلك في بداية مشروع Chamilo الخاص بك لأنه يتطلب ترك الرابط الأول فارغاً نسبياً من المحتوى. تمكين متعدد الروابط لاحقاً أكثر تحدياً (يتطلب تغييرات يدوية في قواعد البيانات).
+* **خطط لهيكل الروابط** — قرر مخطط الروابط الخاص بك قبل إنشاء روابط الوصول، حيث يؤثر تغيير الروابط لاحقاً على جميع الروابط والإشارات الموجودة
+* **تهيئة DNS** — يجب أن يحل كل رابط وصول إلى خادم Chamilo نفسه. قم بتهيئة سجلات DNS وفقاً لذلك.
+* **مدير عام** — استخدم دور Global Administrator للإدارة عبر جميع روابط الوصول

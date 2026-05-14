@@ -1,41 +1,41 @@
-# Classes / User Groups
+# الفصول / مجموعات المستخدمين
 
-Classes in the administration panel are platform-wide groups used to organize users for management purposes. They are distinct from course-level groups (which are created by teachers within a course).
+الفصول في لوحة الإدارة هي مجموعات على مستوى المنصة تُستخدم لتنظيم المستخدمين لأغراض الإدارة. وهي تختلف عن مجموعات مستوى المقرر (التي ينشئها المعلمون داخل مقرر دراسي).
 
-> User groups and [Classes](../../admin-guide/sessions/classes.md) share the same interface. The only difference is the **group type** setting: choose "Class" to create a class (used for bulk session enrollment), or "User group" for more social groups that can have their own space in the internal social network. See [Classes](../../admin-guide/sessions/classes.md) for details on session enrollment.
+> تشترك مجموعات المستخدمين و[الفصول](../../admin-guide/sessions/classes.md) في نفس الواجهة. الفرق الوحيد هو إعداد **نوع المجموعة**: اختر "فصل" لإنشاء فصل (يُستخدم للتسجيل الجماعي في الجلسات)، أو "مجموعة مستخدمين" لمجموعات اجتماعية أكثر يمكن أن يكون لها مساحتها الخاصة في الشبكة الاجتماعية الداخلية. انظر [الفصول](../../admin-guide/sessions/classes.md) للحصول على تفاصيل حول تسجيل الجلسات.
 
-## Creating a Group
+## إنشاء مجموعة
 
-![The user groups list showing available groups with name, description, and member count](/.gitbook/assets/admin-user-groups-list.png)
+![قائمة مجموعات المستخدمين التي تظهر المجموعات المتاحة مع الاسم والوصف وعدد الأعضاء](/.gitbook/assets/admin-user-groups-list.png)
 
-1. From the administration panel, navigate to **Classes**
-2. Click **Add classes**
-3. Enter a **title** and optional **description**
-4. Check **Social group** if this will be a social group. Leave unchecked if it will be a class.
-5. Add an optionali reference URL and picture/logo.
-6. Choose the group **permissions**:
-   * **Open** — Any user can join
-   * **Closed** — Users must be added by an administrator
-7. Check if you want members to be able to leave the class by themselves.
-8. Save.
+1. من لوحة الإدارة، انتقل إلى **الفصول**
+2. انقر على **إضافة فصول**
+3. أدخل **عنوانًا** و**وصفًا** اختياريًا
+4. حدد **مجموعة اجتماعية** إذا كانت هذه مجموعة اجتماعية. اتركها غير محددة إذا كانت فصلًا.
+5. أضف رابط مرجعيًا اختياريًا وصورة/شعارًا.
+6. اختر **أذونات المجموعة**:
+   * **مفتوحة** — يمكن لأي مستخدم الانضمام
+   * **مغلقة** — يجب إضافة المستخدمين بواسطة مدير
+7. حدد إذا كنت تريد السماح للأعضاء بمغادرة الفصل بأنفسهم.
+8. احفظ.
 
-## Adding Members
+## إضافة أعضاء
 
-1. Open the list of classes/user groups
-2. Click the user icon **Subscribe users to class**
-3. Search for users by name, username or email
-4. Select the users to add, using the arrows to the right side
-5. Click the confirmation button to save
+1. افتح قائمة الفصول/مجموعات المستخدمين
+2. انقر على أيقونة المستخدم **اشتراك المستخدمين في الفصل**
+3. ابحث عن المستخدمين بالاسم أو اسم المستخدم أو البريد الإلكتروني
+4. حدد المستخدمين المراد إضافتهم، باستخدام الأسهم على الجانب الأيمن
+5. انقر على زر التأكيد لحفظ
 
-## Use Cases
+## حالات الاستخدام
 
-* **Department organization** — Group users by department or team
-* **Bulk enrollment** — Add all members of a group to a course or session at once
-* **Targeted communication** — Send announcements to specific groups
-* **Reporting** — View training progress filtered by group
+* **تنظيم القسم** — تجميع المستخدمين حسب القسم أو الفريق
+* **التسجيل الجماعي** — إضافة جميع أعضاء مجموعة إلى مقرر أو جلسة دفعة واحدة
+* **التواصل المستهدف** — إرسال الإعلانات إلى مجموعات محددة
+* **التقارير** — عرض تقدم التدريب مفلترًا حسب المجموعة
 
-## Managing Groups
+## إدارة المجموعات
 
-* **Edit** — Change the group name, description, or visibility
-* **Manage members** — Add or remove members
-* **Delete** — Remove the group (does not delete the member accounts)
+* **تعديل** — تغيير اسم المجموعة أو الوصف أو الرؤية
+* **إدارة الأعضاء** — إضافة أو إزالة أعضاء
+* **حذف** — إزالة المجموعة (لا يحذف حسابات الأعضاء)

@@ -1,33 +1,32 @@
-# Search Settings
+# إعدادات البحث
 
-Configuration of the full-text search system (Xapian).
+تكوين نظام البحث النصي الكامل (Xapian).
 
-Access these settings under **Administration > Configuration settings > Search**. This category contains **3 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+يمكن الوصول إلى هذه الإعدادات تحت **إدارة > إعدادات التكوين > البحث**. تحتوي هذه الفئة على **3 إعدادات**، مدرجة أدناه مع العنوان والتعليق المرسل في إعدادات المنصة الافتراضية (`SettingsCurrentFixtures.php`).
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> يُعرض اسم المتغير في الكود بخط أحادي المسافة. استخدمه عند البرمجة عبر API أو عند الحاجة إلى تغيير هذه الإعدادات على المستوى العام عن طريق تحرير [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
 
-## Settings
+## الإعدادات
 
 ### `search_enabled`
 
-**Full-text search feature**
+**ميزة البحث النصي الكامل**
 
-Select 'Yes' to enable this feature. It is highly dependent on the Xapian extension for PHP, so this will not work if this extension is not installed on your server, in version 1.x at minimum.
+اختر "نعم" لتمكين هذه الميزة. تعتمد بشكل كبير على امتداد Xapian لـ PHP، لذا لن تعمل إذا لم يتم تثبيت هذا الامتداد على خادمك، في الإصدار 1.x كحد أدنى.
 
-*Default: `false`*
+*افتراضي: `false`*
 
 
 ### `search_prefilter_prefix`
 
-**Specific Field for prefilter**
+**حقل محدد للتصفية المسبقة**
 
-This option let you choose the Specific field to use on prefilter search type.
+تتيح لك هذه الخيار اختيار الحقل المحدد لاستخدامه في نوع البحث بالتصفية المسبقة.
 
 ### `search_show_unlinked_results`
 
-**Full-text search: show unlinked results**
+**البحث النصي الكامل: عرض النتائج غير المرتبطة**
 
-When showing the results of a full-text search, what should be done with the results that are not accessible to the current user?
+عند عرض نتائج البحث النصي الكامل، ماذا يجب القيام به بالنتائج التي لا يمكن للمستخدم الحالي الوصول إليها؟
 
-*Default: `true`*
-
+*افتراضي: `true`*

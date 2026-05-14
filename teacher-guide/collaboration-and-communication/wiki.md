@@ -1,59 +1,59 @@
-# Wiki
+# الويكي
 
-The wiki tool lets you and your learners collaboratively create and edit web pages within the course. It is useful for group projects, shared knowledge bases, and collaborative writing exercises.
+يسمح أداة الويكي لك ولمتعلميك بإنشاء صفحات ويب وتحريرها بشكل تعاوني داخل الدورة الدراسية. وهي مفيدة لمشاريع المجموعات، وقواعد المعرفة المشتركة، وتمارين الكتابة التعاونية.
 
-## How the Wiki Works
+## كيفية عمل الويكي
 
-A wiki is a collection of interlinked web pages that anyone with permission can edit. In Chamilo:
+الويكي هو مجموعة من صفحات الويب المترابطة التي يمكن لأي شخص لديه إذن تحريرها. في Chamilo:
 
-* Each course has its own wiki
-* Pages can be linked to each other using wiki-style links
-* All edits are tracked with a revision history
-* Previous versions can be compared and restored
+* تمتلك كل دورة ويكي خاص بها
+* يمكن ربط الصفحات ببعضها البعض باستخدام روابط على طراز الويكي
+* يتم تتبع جميع التعديلات بتاريخ التحديثات
+* يمكن مقارنة الإصدارات السابقة واستعادتها
 
-## Creating a Wiki Page
+## إنشاء صفحة ويكي
 
-1. Open the **Wiki** tool from the course homepage
-2. Click **Add a new page**
-3. Enter a **page title**
-4. Write the page content using the rich-text editor
-5. Save
+1. افتح أداة **Wiki** من الصفحة الرئيسية للدورة
+2. انقر على **Add a new page**
+3. أدخل **عنوان الصفحة**
+4. اكتب محتوى الصفحة باستخدام محرر النصوص الغنية
+5. احفظ
 
-To link to another wiki page from within the editor, create a link using the target page's title.
+لربط صفحة ويكي أخرى من داخل المحرر، أنشئ رابطًا باستخدام عنوان الصفحة المستهدفة.
 
-## Editing Pages
+## تحرير الصفحات
 
-Anyone with edit permissions can modify a wiki page:
+يمكن لأي شخص لديه أذونات التحرير تعديل صفحة ويكي:
 
-1. Open the page you want to edit
-2. Click the **Edit** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Edit" data-size="line"> button
-3. Make your changes in the editor
-4. Add an optional **Comments** entry describing what you changed
-5. Save
+1. افتح الصفحة التي تريد تحريرها
+2. انقر على زر **Edit** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="تحرير" data-size="line">
+3. قم بإجراء تعديلاتك في المحرر
+4. أضف إدخال **تعليقات** اختياري يصف ما قمت بتغييره
+5. احفظ
 
-## Revision History
+## تاريخ التحديثات
 
-Every edit creates a new revision. You can:
+كل تعديل ينشئ تحديثًا جديدًا. يمكنك:
 
-* **View history** — See a list of all revisions with timestamps and authors
-* **Compare versions** — See what changed between two revisions
-* **Restore a version** — Revert the page to a previous revision if needed
+* **عرض التاريخ** — رؤية قائمة بجميع التحديثات مع الطوابع الزمنية والمؤلفين
+* **مقارنة الإصدارات** — رؤية ما تغير بين تحديثين
+* **استعادة إصدار** — إعادة الصفحة إلى تحديث سابق إذا لزم الأمر
 
-## Managing the Wiki
+## إدارة الويكي
 
-As the course teacher, you can:
+كمعلم الدورة، يمكنك:
 
-* **View all pages** — See a list of all wiki pages in the course
-* **Find orphan pages** — Identify pages that are not linked from any other page
-* **Find wanted pages** — See pages that are linked to but do not yet exist
-* **Lock a page for editing** — Block all edits on a page while you finalise it
-* **Toggle visibility** — Hide a page from learners
-* **Delete pages** — Remove pages that are no longer needed
-* **Monitor contributions** — Review per-user statistics: most active editors, most edited pages, most visited pages
-* **Export** — Export a wiki page to PDF, or send it into the Documents tool
+* **عرض جميع الصفحات** — رؤية قائمة بجميع صفحات الويكي في الدورة
+* **البحث عن الصفحات اليتيمة** — تحديد الصفحات غير المرتبطة من أي صفحة أخرى
+* **البحث عن الصفحات المطلوبة** — رؤية الصفحات المرتبط بها لكنها غير موجودة بعد
+* **قفل صفحة للتحرير** — حظر جميع التعديلات على صفحة أثناء إنهائها
+* **تبديل الرؤية** — إخفاء صفحة عن المتعلمين
+* **حذف الصفحات** — إزالة الصفحات غير الضرورية بعد الآن
+* **مراقبة المساهمات** — مراجعة إحصاءات لكل مستخدم: أكثر المحررين نشاطًا، أكثر الصفحات تحريرًا، أكثر الصفحات زيارة
+* **تصدير** — تصدير صفحة ويكي إلى PDF، أو إرسالها إلى أداة Documents
 
-## Tips
+## نصائح
 
-* **Use the wiki for group projects** — Assign each group a wiki page to collaboratively build their deliverable
-* **Create a course knowledge base** — Build a reference wiki with key concepts, and encourage learners to contribute
-* **Review edit history** — The revision history lets you assess individual contributions in collaborative work
+* **استخدم الويكي لمشاريع المجموعات** — خصص لكل مجموعة صفحة ويكي لبناء مخرجاتها بشكل تعاوني
+* **إنشاء قاعدة معرفة للدورة** — بناء ويكي مرجعي بالمفاهيم الرئيسية، وشجع المتعلمين على المساهمة
+* **مراجعة تاريخ التعديلات** — يتيح تاريخ التحديثات تقييم المساهمات الفردية في العمل التعاوني

@@ -1,37 +1,35 @@
-# Groups Settings
+# إعدادات المجموعات
 
-Behaviour of the course **Groups** tool.
+سلوك أداة **المجموعات** في الدورة.
 
-Access these settings under **Administration > Configuration settings > Groups**. This category contains **3 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+الوصول إلى هذه الإعدادات تحت **الإدارة > إعدادات التكوين > المجموعات**. تحتوي هذه الفئة على **3 إعدادات**، مدرجة أدناه مع العنوان والتعليق المرسل في إعدادات المنصة (`SettingsCurrentFixtures.php`).
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> يتم عرض اسم المتغير في الكود بخط monospace. استخدمه عند البرمجة عبر API أو عند الحاجة إلى تغيير هذه الإعدادات على المستوى العام بتحرير [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
 
-## Settings
+## الإعدادات
 
 ### `allow_group_categories`
 
-**Group categories**
+**فئات المجموعات**
 
-Allow teachers to create categories in the Groups tool?
+هل يُسمح للمدرسين بإنشاء فئات في أداة المجموعات؟
 
-*Default: `false`*
+*افتراضي: `false`*
 
 
 ### `hide_course_group_if_no_tools_available`
 
-**Hide course group if no tool**
+**إخفاء مجموعة الدورة إذا لم تكن أدوات متاحة**
 
-If no tool is available in a group and the user is not registered to the group itself, hide the group completely in the groups list.
+إذا لم تكن أداة متاحة في مجموعة والمستخدم غير مسجل في المجموعة نفسها، قم بإخفاء المجموعة تمامًا في قائمة المجموعات.
 
-*Default: `false`*
+*افتراضي: `false`*
 
 
 ### `show_groups_to_users`
 
-**Show classes to users**
+**عرض الفصول للمستخدمين**
 
-Show the classes to users. Classes are a feature that allow you to register/unregister groups of users into a session or a course directly, reducing the administrative hassle. When you pick this option, learners will be able to see in which class they are through their social network interface.
+عرض الفصول للمستخدمين. الفصول هي ميزة تسمح لك بتسجيل/إلغاء تسجيل مجموعات من المستخدمين في جلسة أو دورة مباشرة، مما يقلل من المتاعب الإدارية. عند اختيار هذا الخيار، سيتمكن المتعلمون من رؤية الفصل الذي ينتمون إليه من خلال واجهة الشبكة الاجتماعية الخاصة بهم.
 
-*Default: `false`*
-
-
+*افتراضي: `false`*

@@ -1,107 +1,107 @@
-# Views and Routing
+# العروض والتوجيه
 
-Chamilo has a large set of Vue views (page-level components) connected via Vue Router. The actual files live under `assets/vue/views/`.
+يحتوي Chamilo على مجموعة كبيرة من عروض Vue (مكونات على مستوى الصفحة) متصلة عبر Vue Router. تقع الملفات الفعلية تحت `assets/vue/views/`.
 
-## Router Architecture
+## هندسة التوجيه
 
-The router is defined in `assets/vue/router/index.js` using `createWebHistory` for clean URLs.
+يتم تعريف التوجيه في `assets/vue/router/index.js` باستخدام `createWebHistory` للحصول على عناوين URL نظيفة.
 
-Routes are modular — organized into per-feature route files imported into the main router:
+الطرق معيارية — منظمة في ملفات طرق لكل ميزة مستوردة إلى التوجيه الرئيسي:
 
-| Route module | Pages |
-|-------------|-------|
-| `admin` | Administration panel pages |
-| `sessionAdmin` | Session administration pages |
-| `course` | Course list, creation, home, catalog |
-| `account` | User profile and settings |
-| `personalfile` | Personal file space |
-| `message` | Messaging / inbox |
-| `user` | User management pages |
-| `usergroup` | User group (class) pages |
-| `userreluser` | User relationship (friend/follow) pages |
-| `ccalendarevent` | Course calendar and agenda |
-| `ctoolintro` | Course tool introduction pages |
-| `page` | Static CMS pages |
-| `pageLayout` | Page layout wrappers |
-| `publicPage` | Publicly accessible pages |
-| `social` | Social network pages |
-| `filemanager` | File manager (course documents browser) |
-| `skill` | Skills and competencies pages |
-| `accessurl` | Multi-URL (portal) management pages |
-| `branch` | Branch / network campus pages |
-| `room` | Virtual room pages |
-| `buycourses` | Course purchase pages |
-| `documents` | Document management |
-| `assignments` | Assignment workflow |
-| `links` | External links management |
-| `glossary` | Glossary management |
-| `attendance` | Attendance tracking |
-| `lp` | Learning path player and editor |
-| `dropbox` | Dropbox / file exchange |
-| `blog` | Blog pages |
-| `blogAdmin` | Blog administration |
-| `coursemaintenance` | Course backup and restore |
-| `catalogue` | Course and session catalogs |
+| وحدة الطريق | الصفحات |
+|-------------|---------|
+| `admin` | صفحات لوحة الإدارة |
+| `sessionAdmin` | صفحات إدارة الجلسات |
+| `course` | قائمة الدورات، الإنشاء، الصفحة الرئيسية، الكتالوج |
+| `account` | ملف المستخدم والإعدادات |
+| `personalfile` | مساحة الملف الشخصي |
+| `message` | الرسائل / صندوق الوارد |
+| `user` | صفحات إدارة المستخدمين |
+| `usergroup` | صفحات مجموعات المستخدمين (الفصول) |
+| `userreluser` | صفحات علاقات المستخدمين (الأصدقاء/المتابعة) |
+| `ccalendarevent` | تقويم الدورة والجدول الزمني |
+| `ctoolintro` | صفحات مقدمة أدوات الدورة |
+| `page` | صفحات CMS الثابتة |
+| `pageLayout` | غلاف تخطيط الصفحة |
+| `publicPage` | الصفحات القابلة للوصول العام |
+| `social` | صفحات الشبكة الاجتماعية |
+| `filemanager` | مدير الملفات (متصفح وثائق الدورة) |
+| `skill` | صفحات المهارات والكفاءات |
+| `accessurl` | صفحات إدارة الـ URL المتعدد (البوابة) |
+| `branch` | صفحات الفرع / حرم الشبكة |
+| `room` | صفحات الغرف الافتراضية |
+| `buycourses` | صفحات شراء الدورات |
+| `documents` | إدارة الوثائق |
+| `assignments` | سير عمل المهام |
+| `links` | إدارة الروابط الخارجية |
+| `glossary` | إدارة المصطلحات |
+| `attendance` | تتبع الحضور |
+| `lp` | مشغل مسار التعلم والمحرر |
+| `dropbox` | Dropbox / تبادل الملفات |
+| `blog` | صفحات المدونة |
+| `blogAdmin` | إدارة المدونة |
+| `coursemaintenance` | نسخ احتياطي واستعادة الدورة |
+| `catalogue` | كتالوجات الدورات والجلسات |
 
-## Key Routes
+## الطرق الرئيسية
 
-| Path | View | Description |
-|------|------|-------------|
-| `/` | `AppIndex.vue` (or custom) | Application entry point |
-| `/home` | `pages/Home.vue` | Platform home page |
-| `/login` | `pages/Login.vue` | Login page |
-| `/courses` | `views/user/courses/List.vue` | User's enrolled courses |
-| `/sessions` | `views/user/sessions/SessionsCurrent.vue` | Current sessions |
-| `/sessions/past` | `views/user/sessions/SessionsPast.vue` | Past sessions |
-| `/sessions/upcoming` | `views/user/sessions/SessionsUpcoming.vue` | Upcoming sessions |
-| `/course/:id/home` | `views/course/CourseHome.vue` | Course homepage |
-| `/account/home` | `views/account/Home.vue` | User profile |
-| `/admin` | Admin views | Administration panel |
-| `/faq` | `pages/Faq.vue` | FAQ page |
+| المسار | العرض | الوصف |
+|--------|--------|-------|
+| `/` | `AppIndex.vue` (أو مخصص) | نقطة الدخول للتطبيق |
+| `/home` | `pages/Home.vue` | صفحة رئيسية المنصة |
+| `/login` | `pages/Login.vue` | صفحة تسجيل الدخول |
+| `/courses` | `views/user/courses/List.vue` | دورات المستخدم المسجل فيها |
+| `/sessions` | `views/user/sessions/SessionsCurrent.vue` | الجلسات الحالية |
+| `/sessions/past` | `views/user/sessions/SessionsPast.vue` | الجلسات السابقة |
+| `/sessions/upcoming` | `views/user/sessions/SessionsUpcoming.vue` | الجلسات القادمة |
+| `/course/:id/home` | `views/course/CourseHome.vue` | صفحة رئيسية الدورة |
+| `/account/home` | `views/account/Home.vue` | ملف المستخدم |
+| `/admin` | عروض الإدارة | لوحة الإدارة |
+| `/faq` | `pages/Faq.vue` | صفحة الأسئلة الشائعة |
 
-## Route Guards
+## حراس الطريق
 
-The router uses navigation guards (declared with `beforeEach` and `afterEach`) to:
+يستخدم التوجيه حراس التنقل (معلنة بـ `beforeEach` و `afterEach`) للقيام بما يلي:
 
-* Check authentication status via `useSecurityStore` and redirect unauthenticated users to `/login`
-* Verify course context via `useCidReqStore`
-* Apply page-type CSS classes during SPA navigation (replacing what Twig's `PageHelper` would do on a full page load)
-* Support custom Vue template overrides — the entry component at `/` is swapped for a custom `AppIndex.vue` when a custom Vue template is enabled (`var/vue_templates/pages/AppIndex.vue`)
+* التحقق من حالة المصادقة عبر `useSecurityStore` وإعادة توجيه المستخدمين غير المصادق عليهم إلى `/login`
+* التحقق من سياق الدورة عبر `useCidReqStore`
+* تطبيق فئات CSS حسب نوع الصفحة أثناء التنقل في SPA (بدلاً مما يقوم `PageHelper` في Twig به عند تحميل صفحة كاملة)
+* دعم تجاوزات قوالب Vue المخصصة — يتم استبدال مكون الدخول في `/` بـ `AppIndex.vue` مخصص عند تمكين قالب Vue مخصص (`var/vue_templates/pages/AppIndex.vue`)
 
-## View Organization
+## تنظيم العروض
 
-Views are in `assets/vue/views/`, organized by feature:
+تقع العروض في `assets/vue/views/`، منظمة حسب الميزة:
 
 ```
 views/
-├── account/          # User profile and settings
-├── admin/            # Admin pages
-├── assignments/      # Assignment submission and grading
-├── attendance/       # Attendance sheets
-├── blog/             # Blog posts and comments
-├── branch/           # Network campus management
-├── buycourses/       # Course purchase flow
-├── ccalendarevent/   # Course calendar
-├── course/           # Course list, home, creation, catalog
-├── coursecategory/   # Course category management
-├── coursemaintenance/# Course backup/restore
-├── ctoolintro/       # Tool introduction pages
-├── documents/        # Document list, creation, media generation
-├── dropbox/          # Dropbox / file exchange
-├── filemanager/      # File browser
-├── glossary/         # Glossary list and term management
-├── links/            # External links
-├── lp/               # Learning path player and editor
-├── message/          # Inbox and messaging
-├── page/             # CMS static pages
-├── pageLayout/       # Page layout wrappers
-├── personalfile/     # Personal file space
-├── room/             # Virtual rooms
-├── sessionadmin/     # Session administration
-├── skill/            # Skills and competencies
-├── social/           # Social network
-├── terms/            # Terms of service
-├── user/             # User management and course/session lists
-├── usergroup/        # User groups (classes)
-└── userreluser/      # User relationships (friends/follows)
+├── account/          # ملف المستخدم والإعدادات
+├── admin/            # صفحات الإدارة
+├── assignments/      # تقديم المهام والتقييم
+├── attendance/       # جداول الحضور
+├── blog/             # منشورات المدونة والتعليقات
+├── branch/           # إدارة حرم الشبكة
+├── buycourses/       # سير شراء الدورات
+├── ccalendarevent/   # تقويم الدورة
+├── course/           # قائمة الدورات، الصفحة الرئيسية، الإنشاء، الكتالوج
+├── coursecategory/   # إدارة فئات الدورات
+├── coursemaintenance/# نسخ احتياطي/استعادة الدورة
+├── ctoolintro/       # صفحات مقدمة الأدوات
+├── documents/        # قائمة الوثائق، الإنشاء، إنشاء الوسائط
+├── dropbox/          # Dropbox / تبادل الملفات
+├── filemanager/      # متصفح الملفات
+├── glossary/         # قائمة المصطلحات وإدارة المصطلحات
+├── links/            # الروابط الخارجية
+├── lp/               # مشغل مسار التعلم والمحرر
+├── message/          # صندوق الوارد والرسائل
+├── page/             # صفحات CMS الثابتة
+├── pageLayout/       # غلاف تخطيط الصفحة
+├── personalfile/     # مساحة الملف الشخصي
+├── room/             # الغرف الافتراضية
+├── sessionadmin/     # إدارة الجلسات
+├── skill/            # المهارات والكفاءات
+├── social/           # الشبكة الاجتماعية
+├── terms/            # شروط الخدمة
+├── user/             # إدارة المستخدمين وقوائم الدورات/الجلسات
+├── usergroup/        # مجموعات المستخدمين (الفصول)
+└── userreluser/      # علاقات المستخدمين (الأصدقاء/المتابعات)
 ```

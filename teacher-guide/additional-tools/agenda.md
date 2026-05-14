@@ -1,43 +1,43 @@
-# Agenda
+# جدول الأعمال
 
-The agenda tool lets you schedule events and deadlines within your course. Events appear on a calendar that your learners can view.
+يسمح أداة جدول الأعمال بجدولة الأحداث والمواعيد النهائية داخل مساقك. تظهر الأحداث في تقويم يمكن لمتعلميك عرضه.
 
-## Viewing the Agenda
+## عرض جدول الأعمال
 
-Open the **Agenda** <img src="/.gitbook/assets/icons/mdi-calendar-text.svg" alt="Agenda" data-size="line"> tool from the course homepage. You can view events in three modes:
+افتح أداة **Agenda** <img src="/.gitbook/assets/icons/mdi-calendar-text.svg" alt="Agenda" data-size="line"> من الصفحة الرئيسية للمساق. يمكنك عرض الأحداث في ثلاثة أنماط:
 
 ![The agenda in calendar view showing course events and deadlines](/.gitbook/assets/agenda-calendar-view.png)
 
-* **Calendar view** — A visual monthly/weekly/daily calendar
-* **List view** — Events shown as a chronological list
-* **Personal events** — Filter to see only events relevant to you
+* **عرض التقويم** — تقويم شهري/أسبوعي/يومي بصري
+* **عرض القائمة** — الأحداث المعروضة كقائمة زمنية
+* **الأحداث الشخصية** — تصفية لعرض الأحداث ذات الصلة بك فقط
 
-## Creating an Event
+## إنشاء حدث
 
-1. Click **Add event** <img src="/.gitbook/assets/icons/mdi-calendar-plus.svg" alt="Add event" data-size="line">
-2. Fill in the event details:
-   * **Title** — A short name for the event
-   * **Start date and time**
-   * **End date and time**
-   * **Description** — Additional details (supports rich text)
-3. Choose the **audience**:
-   * **All learners** — Everyone enrolled in the course
-   * **Specific users or groups** — Select individual learners or groups
-4. Optionally set a **reminder** <img src="/.gitbook/assets/icons/mdi-alarm.svg" alt="Reminder" data-size="line"> to send email notifications before the event (*cron* setup for the portal required by an admin)
-5. Save
+1. انقر على **إضافة حدث** <img src="/.gitbook/assets/icons/mdi-calendar-plus.svg" alt="Add event" data-size="line">
+2. املأ تفاصيل الحدث:
+   * **العنوان** — اسم قصير للحدث
+   * **تاريخ وبداية الوقت**
+   * **تاريخ ونهاية الوقت**
+   * **الوصف** — تفاصيل إضافية (يدعم النص الغني)
+3. اختر **الجمهور**:
+   * **جميع المتعلمين** — الجميع المسجلون في المساق
+   * **مستخدمون أو مجموعات محددة** — اختر متعلمين فرديين أو مجموعات
+4. اختياريًا، قم بتعيين **تذكير** <img src="/.gitbook/assets/icons/mdi-alarm.svg" alt="Reminder" data-size="line"> لإرسال إشعارات بريد إلكتروني قبل الحدث (*cron* إعداد مطلوب للبوابة من قبل مدير النظام)
+5. احفظ
 
-## Managing Events
+## إدارة الأحداث
 
-* **Edit** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Edit" data-size="line"> — Click on an event to modify its details
-* **Delete** <img src="/.gitbook/assets/icons/mdi-delete.svg" alt="Delete" data-size="line"> — Remove an event from the calendar
-* **Drag and drop** — In calendar view, drag events to reschedule them
+* **تعديل** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Edit" data-size="line"> — انقر على حدث لتعديل تفاصيله
+* **حذف** <img src="/.gitbook/assets/icons/mdi-delete.svg" alt="Delete" data-size="line"> — إزالة حدث من التقويم
+* **سحب وإفلات** — في عرض التقويم، اسحب الأحداث لإعادة جدولتها
 
-## Personal Agenda
+## جدول الأعمال الشخصي
 
-You also have a **personal agenda** accessible from the sidebar. The personal agenda aggregates events from all your courses into a single view. This is where learners see their combined schedule across all courses they are enrolled in.
+لديك أيضًا **جدول أعمال شخصي** يمكن الوصول إليه من الشريط الجانبي. يجمع جدول الأعمال الشخصي الأحداث من جميع مساقاتك في عرض واحد. هنا يرى المتعلمون جدولهم المجمع عبر جميع المساقات التي هم مسجلون فيها.
 
-## Tips
+## نصائح
 
-* **Set deadlines** — Create events for assignment due dates and exercise deadlines so learners can see them in their calendar
-* **Use reminders** — Enable email reminders for important events to help learners stay on track
-* **Coordinate with sessions** — If you teach in multiple sessions, each session has its own events, visible only to that session's learners. Teachers have a feature to see the events (homeworks, excursions, etc) of other courses in their sessions to avoid overloading students.
+* **تعيين المواعيد النهائية** — أنشئ أحداثًا لتواريخ تسليم الواجبات ومواعيد انتهاء التمارين حتى يتمكن المتعلمون من رؤيتها في تقويمهم
+* **استخدام التذكيرات** — فعّل تذكيرات البريد الإلكتروني للأحداث المهمة لمساعدة المتعلمين على البقاء على المسار الصحيح
+* **التنسيق مع الجلسات** — إذا كنت تُدرّس في جلسات متعددة، فإن كل جلسة لها أحداثها الخاصة، مرئية فقط لمتعلمي تلك الجلسة. يتوفر للمعلمين ميزة لعرض أحداث (الواجبات المنزلية، الرحلات، إلخ) المساقات الأخرى في جلساتهم لتجنب إثقال الطلاب.

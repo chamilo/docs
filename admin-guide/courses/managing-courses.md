@@ -1,57 +1,57 @@
-# Managing Courses
+# إدارة الدورات
 
-As an administrator, you can manage all courses on the platform regardless of who created them.
+بصفتك مديرًا، يمكنك إدارة جميع الدورات على المنصة بغض النظر عن من أنشأها.
 
-## Course List
+## قائمة الدورات
 
-![The course list showing all courses with title, code, category, enrolled users, and visibility status](/.gitbook/assets/admin-course-list.png)
+![قائمة الدورات التي تعرض جميع الدورات مع العنوان والرمز والفئة والمستخدمين المسجلين وحالة الرؤية](/.gitbook/assets/admin-course-list.png)
 
-From the administration panel, click **Course list** to see all courses. The list shows:
+من لوحة الإدارة، انقر على **Course list** لعرض جميع الدورات. تعرض القائمة:
 
-* Course title and code
-* Language
-* Categories
-* Visibility status
+* عنوان الدورة ورمزها
+* اللغة
+* الفئات
+* حالة الرؤية
 
-Use the **Advanced search** tool to find specific courses.
+استخدم أداة **Advanced search** للعثور على دورات محددة.
 
-## Creating a Course
+## إنشاء دورة
 
-As an administrator, you can create courses and assign them to any teacher:
+بصفتك مديرًا، يمكنك إنشاء الدورات وتعيينها لأي معلم:
 
-1. Click **Add course** from the administration panel
-2. Fill in the course details (title, code, category, language)
-3. Assign a teacher to the course
-4. Save
+1. انقر على **Add course** من لوحة الإدارة
+2. املأ تفاصيل الدورة (العنوان، الرمز، الفئة، اللغة)
+3. عيّن معلمًا للدورة
+4. احفظ
 
-Note: In Chamilo 1.11.x, the course code was shown as part of the course URL, and was impossible to change after the creation of the course. This behaviour is changing in 2.x. The course code is not visible in the URL anymore, and future versions might allow teachers to modify the course code afterwards as it become less essential to the platform.
+ملاحظة: في Chamilo 1.11.x، كان رمز الدورة يظهر كجزء من رابط الدورة، وكان من المستحيل تغييره بعد إنشاء الدورة. يتغير هذا السلوك في 2.x. لم يعد رمز الدورة مرئيًا في الرابط، وقد تسمح الإصدارات المستقبلية للمعلمين بتعديل رمز الدورة لاحقًا حيث أصبح أقل أهمية للمنصة.
 
-## Managing an Existing Course
+## إدارة دورة موجودة
 
-Find a course in the list to access management options in the *Actions* column:
+ابحث عن دورة في القائمة للوصول إلى خيارات الإدارة في عمود *Actions*:
 
-* **Information** — Show information about the course 
-* **Course home** — Sends you directly to the course's homepage 
-* **Reporting** — See engagement and performance data
-* **Edit** — Change course title, category, visibility, and other settings
-* **Create a backup** — Go to the maintenance section of the course, where you can create copies and do other things
-* **Add to catalogue** — Add this course to the course catalogue
-* **Delete** — Permanently remove the course and all its content
+* **Information** — عرض معلومات عن الدورة 
+* **Course home** — يرسلك مباشرة إلى الصفحة الرئيسية للدورة 
+* **Reporting** — عرض بيانات التفاعل والأداء
+* **Edit** — تغيير عنوان الدورة والفئة والرؤية وإعدادات أخرى
+* **Create a backup** — الانتقال إلى قسم الصيانة في الدورة، حيث يمكنك إنشاء نسخ وفعل أشياء أخرى
+* **Add to catalogue** — إضافة هذه الدورة إلى كتالوج الدورات
+* **Delete** — إزالة الدورة وجميع محتوياتها نهائيًا
 
-> Deleting a course removes all content, learner data, grades, and tracking information permanently. Consider exporting the course first as a backup.
+> إزالة دورة تزيل جميع المحتويات وبيانات المتعلمين والدرجات ومعلومات التتبع نهائيًا. فكر في تصدير الدورة أولاً كنسخة احتياطية.
 
-## Bulk Operations
+## عمليات جماعية
 
-Select multiple courses in the list to perform batch actions such as deleting them. To export a course, enter the course and use the **Maintenance** tool — there is no bulk export action on the admin course list.
+حدد دورات متعددة في القائمة لتنفيذ إجراءات جماعية مثل حذفها. لتصدير دورة، أدخل الدورة واستخدم أداة **Maintenance** — لا يوجد إجراء تصدير جماعي في قائمة دورات المدير.
 
-## Course Visibility Settings
+## إعدادات رؤية الدورة
 
-Administrators can override the visibility set by teachers:
+يمكن للمديرين تجاوز إعداد الرؤية الذي يحدده المعلمون:
 
 | Visibility | Effect |
 |-----------|--------|
-| **Public** | Accessible to everyone, including anonymous visitors |
-| **Open** | Accessible to all logged-in users |
-| **Private** | Only enrolled users can access the course |
-| **Closed** | No one can access the course (except the teacher and admins) |
-| **Hidden** | No one can view or access the course (except the admins) |
+| **Public** | متاحة للجميع، بما في ذلك الزوار المجهولين |
+| **Open** | متاحة لجميع المستخدمين المسجل الدخول |
+| **Private** | يمكن للمستخدمين المسجلين فقط الوصول إلى الدورة |
+| **Closed** | لا يمكن لأحد الوصول إلى الدورة (عدا المعلم والمديرين) |
+| **Hidden** | لا يمكن لأحد عرض الدورة أو الوصول إليها (عدا المديرين) |

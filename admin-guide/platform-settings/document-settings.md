@@ -1,247 +1,246 @@
-# Documents Settings
+# إعدادات المستندات
 
-Behaviour of the course **Documents** tool — uploads, allowed extensions, sharing, and templates.
+سلوك أداة **Documents** في الدورة — التحميلات، الامتدادات المسموح بها، المشاركة، والقوالب.
 
-Access these settings under **Administration > Configuration settings > Documents**. This category contains **29 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+الوصول إلى هذه الإعدادات تحت **Administration > Configuration settings > Documents**. تحتوي هذه الفئة على **29 إعدادًا**، مدرجة أدناه مع العنوان والتعليق المرسل في إعدادات المنصة (`SettingsCurrentFixtures.php`).
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> يتم عرض اسم المتغير في الكود بحرف monospace. استخدمه عند البرمجة عبر API أو عند الحاجة إلى تغيير هذه الإعدادات على المستوى العام بتحرير [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
 
-## Settings
+## الإعدادات
 
 ### `access_url_specific_files`
 
-**Enable URL-specific files**
+**تمكين الملفات الخاصة بالـ URL**
 
-When this feature is enabled on a multi-URL configuration, you can go to the main URL and provide URL-specific versions of any file (in the documents tool). The original file will be replaced by the alternative whenever seeing it from a different URL. This allows you to customize each URL even further, while enjoying the advantage of re-using the same courses many times.
+عند تمكين هذه الميزة في تكوين متعدد الـ URL، يمكنك الذهاب إلى الـ URL الرئيسي وتقديم إصدارات خاصة بالـ URL لأي ملف (في أداة المستندات). سيتم استبدال الملف الأصلي بالبديل كلما تم رؤيته من URL مختلف. يسمح ذلك بتخصيص كل URL بشكل أكبر، مع الاستفادة من إعادة استخدام الدورات نفسها مرات عديدة.
 
-*Default: `false`*
+*افتراضي: `false`*
 
 ### `default_document_quotum`
 
-**Default hard disk space**
+**مساحة القرص الصلب الافتراضية**
 
-What is the available disk space for a course? You can override the quota for specific course through: platform administration > Courses > modify
+ما هي مساحة القرص المتاحة لدورة؟ يمكنك تجاوز الحصة لدورة محددة من خلال: إدارة المنصة > الدورات > تعديل
 
-*Default: `1000`*
+*افتراضي: `1000`*
 
 
 ### `default_group_quotum`
 
-**Group disk space available**
+**مساحة القرص المتاحة للمجموعة**
 
-What is the default hard disk spacde available for a groups documents tool?
+ما هي مساحة القرص الصلب الافتراضية المتاحة لأداة مستندات المجموعات؟
 
-*Default: `250`*
+*افتراضي: `250`*
 
 
 ### `documents_custom_cloud_link_list`
 
-**Set strict hosts list for cloud links**
+**تعيين قائمة مضيفين صارمة لروابط السحابة**
 
-The documents tool can integrate links to files in the cloud. The list of cloud services is limited to a hardcoded list, but you can define the ‘links’ array that will contain a list of your own list of services/URLs. The list defined here will replace the default list.
+يمكن لأداة المستندات دمج روابط للملفات في السحابة. يقتصر قائمة خدمات السحابة على قائمة مشفرة بشكل صلب، لكن يمكنك تعريف مصفوفة ‘links’ التي ستحتوي على قائمة خدمات/روابط خاصة بك. ستحل القائمة المعرفة هنا محل القائمة الافتراضية.
 
 ### `documents_default_visibility_defined_in_course`
 
-**Document visibility defined in course**
+**رؤية المستند الافتراضية المعرفة في الدورة**
 
-The default document visibility for all courses
+رؤية المستند الافتراضية لجميع الدورات
 
-*Default: `false`*
+*افتراضي: `false`*
 
 ### `documents_hide_download_icon`
 
-**Hide documents download icon**
+**إخفاء أيقونة تنزيل المستندات**
 
-In the documents tool, hide the download icon from users.
+في أداة المستندات، إخفاء أيقونة التنزيل عن المستخدمين.
 
-*Default: `false`*
+*افتراضي: `false`*
 
 
 ### `enable_x_sendfile_headers`
 
-**Enable X-sendfile headers**
+**تمكين رؤوس X-sendfile**
 
-Enable this if you have X-sendfile enabled at the web server level and you want to add the required headers for browsers to pick it up.
+قم بتمكين هذا إذا كان X-sendfile مفعلاً على مستوى خادم الويب وتريد إضافة الرؤوس المطلوبة ليتمكن المتصفحات من التقاطها.
 
-*Default: `false`*
+*افتراضي: `false`*
 
 ### `group_category_document_access`
 
-**Enable sharing options for document inside group category**
+**تمكين خيارات المشاركة للمستند داخل فئة المجموعة**
 
-When enabled, administrators can set document access and sharing permissions for document groups by category.
+عند التمكين، يمكن للمسؤولين تعيين صلاحيات الوصول والمشاركة لمجموعات المستندات حسب الفئة.
 
-*Default: `false`*
+*افتراضي: `false`*
 
 
 ### `group_document_access`
 
-**Enable sharing options for group document**
+**تمكين خيارات المشاركة لمستند المجموعة**
 
-When enabled, document sharing and access permissions can be configured at the group level.
+عند التمكين، يمكن تكوين صلاحيات المشاركة والوصول على مستوى المجموعة.
 
-*Default: `false`*
+*افتراضي: `false`*
 
 
 ### `pdf_export_watermark_by_course`
 
-**Enable watermark definition by course**
+**تمكين تعريف العلامة المائية حسب الدورة**
 
-When this option is enabled, teachers can define their own watermark for the documents in their courses.
+عند تمكين هذا الخيار، يمكن للمعلمين تعريف علامة مائية خاصة بهم للمستندات في دوراتهم.
 
-*Default: `false`*
+*افتراضي: `false`*
 
 
 ### `pdf_export_watermark_enable`
 
-**Enable watermark in PDF export**
+**تمكين العلامة المائية في تصدير PDF**
 
-By enabling this option, you can upload an image or a text that will be automatically added as watermark to all PDF exports of documents on the system.
+بتمكين هذا الخيار، يمكنك تحميل صورة أو نص سيتم إضافته تلقائيًا كعلامة مائية إلى جميع تصديرات PDF للمستندات في النظام.
 
-*Default: `false`*
+*افتراضي: `false`*
 
 ### `pdf_export_watermark_text`
 
-**PDF watermark text**
+**نص العلامة المائية لـ PDF**
 
-This text will be added as a watermark to the documents exports as PDF.
+سيتم إضافة هذا النص كعلامة مائية إلى تصديرات المستندات كـ PDF.
 
 ### `permanently_remove_deleted_files`
 
-**Deleted files cannot be restored**
+**الملفات المحذوفة لا يمكن استعادتها**
 
-Deleting a file in the documents tool permanently deletes it. The file cannot be restored
+حذف ملف في أداة المستندات يحذفه نهائيًا. لا يمكن استعادة الملف
 
-*Default: `false`*
+*افتراضي: `false`*
 
 ### `permissions_for_new_directories`
 
-**Permissions for new directories**
+**الصلاحيات للمجلدات الجديدة**
 
-The ability to define the permissions settings to assign to every newly created directory lets you improve security against attacks by hackers uploading dangerous content to your portal. The default setting (0770) should be enough to give your server a reasonable protection level. The given format uses the UNIX terminology of Owner-Group-Others with Read-Write-Execute permissions.
+القدرة على تعريف إعدادات الصلاحيات لتعيينها لكل مجلد جديد تم إنشاؤه تسمح لك بتحسين الأمان ضد هجمات الهاكرز الذين يقومون بتحميل محتوى خطير إلى بوابتك. يجب أن يكون الإعداد الافتراضي (0770) كافيًا لإعطاء خادمك مستوى حماية معقول. يستخدم التنسيق المعطى مصطلحات UNIX لـ Owner-Group-Others مع صلاحيات Read-Write-Execute.
 
-*Default: `0770`*
+*افتراضي: `0770`*
 
 
 ### `permissions_for_new_files`
 
-**Permissions for new files**
+**الصلاحيات للملفات الجديدة**
 
-The ability to define the permissions settings to assign to every newly-created file lets you improve security against attacks by hackers uploading dangerous content to your portal. The default setting (0550) should be enough to give your server a reasonable protection level. The given format uses the UNIX terminology of Owner-Group-Others with Read-Write-Execute permissions. If you use Oogie, take care that the user who launch LibreOffice can write files in the course folder.
+القدرة على تعريف إعدادات الصلاحيات لتعيينها لكل ملف جديد تم إنشاؤه تسمح لك بتحسين الأمان ضد هجمات الهاكرز الذين يقومون بتحميل محتوى خطير إلى بوابتك. يجب أن يكون الإعداد الافتراضي (0550) كافيًا لإعطاء خادمك مستوى حماية معقول. يستخدم التنسيق المعطى مصطلحات UNIX لـ Owner-Group-Others مع صلاحيات Read-Write-Execute. إذا كنت تستخدم Oogie، تأكد من أن المستخدم الذي يقوم بتشغيل LibreOffice يمكنه كتابة الملفات في مجلد الدورة.
 
-*Default: `0660`*
+*افتراضي: `0660`*
 
 
 ### `send_notification_when_document_added`
 
-**Send notification to students when document added**
+**إرسال إشعار للطلاب عند إضافة مستند**
 
-Whenever someone creates a new item in the documents tool, send a notification to users.
+كلما قام شخص ما بإنشاء عنصر جديد في أداة المستندات، أرسل إشعارًا إلى المستخدمين.
 
-*Default: `false`*
+*افتراضي: `false`*
 
-
+---
 ### `show_default_folders`
 
-**Show in documents tool all folders containing multimedia resources supplied by default**
+**عرض جميع المجلدات التي تحتوي على موارد متعددة الوسائط مقدمة افتراضيًا في أداة المستندات**
 
-Multimedia file folders containing files supplied by default organized in categories of video, audio, image and flash animations to use in their courses. Although you make it invisible into the document tool, you can still use these resources in the platform web editor.
+مجلدات ملفات الوسائط المتعددة التي تحتوي على ملفات مقدمة افتراضيًا ومنظمة في فئات الفيديو والصوت والصورة والرسوم المتحركة فلاش لاستخدامها في الدورات الدراسية. على الرغم من جعلها غير مرئية في أداة المستندات، إلا أنه يمكنك لا تزال استخدام هذه الموارد في محرر الويب للمنصة.
 
-*Default: `true`*
+*الافتراضي: `true`*
 
 ### `show_documents_preview`
 
-**Show document preview**
+**عرض معاينة المستندات**
 
-Showing previews of the documents in the documents tool will avoid loading a new page just to show a document, but can result unstable with some older browsers or smaller width screens.
+عرض معاينات المستندات في أداة المستندات سيمنع تحميل صفحة جديدة فقط لعرض مستند، لكنه قد يؤدي إلى عدم استقرار مع بعض المتصفحات القديمة أو شاشات بعرض أصغر.
 
-*Default: `false`*
+*الافتراضي: `false`*
 
 ### `show_users_folders`
 
-**Show users folders in the documents tool**
+**عرض مجلدات المستخدمين في أداة المستندات**
 
-This option allows you to show or hide to teachers the folders that the system generates for each user who visits the tool documents or send a file through the web editor. If you display these folders to the teachers, they may make visible or not the learners and allow each learner to have a specific place on the course where not only store documents, but where they can also create and edit web pages and to export to pdf, make drawings, make personal web templates, send files, as well as create, move and delete directories and files and make security copies from their folders. Each user of course have a complete document manager. Also, remember that any user can copy a file that is visible from any folder in the documents tool (whether or not the owner) to his/her portfolios or personal documents area of social network, which will be available for his/her can use it in other courses.
+تتيح هذه الخيار عرض أو إخفاء مجلدات التي يولدها النظام لكل مستخدم يزور أداة المستندات أو يرسل ملفًا عبر محرر الويب للمعلمين. إذا قمت بعرض هذه المجلدات للمعلمين، فإنهم يمكنهم جعلها مرئية أو غير مرئية للمتعلمين ويسمحون لكل متعلم بامتلاك مكان محدد في الدورة حيث لا يقتصر على تخزين المستندات، بل يمكنهم أيضًا إنشاء وتحرير صفحات ويب وتصديرها إلى PDF، وصنع رسومات، وصنع قوالب ويب شخصية، وإرسال ملفات، بالإضافة إلى إنشاء ونقل وحذف المجلدات والملفات وإجراء نسخ أمان من مجلداتهم. كل مستخدم في الدورة لديه مدير مستندات كامل. كما تذكر أن أي مستخدم يمكنه نسخ ملف مرئي من أي مجلد في أداة المستندات (سواء كان المالك أم لا) إلى مجلداته الشخصية أو منطقة المستندات الشخصية في الشبكة الاجتماعية، والتي ستكون متاحة له لاستخدامها في دورات أخرى.
 
-*Default: `true`*
+*الافتراضي: `true`*
 
 ### `students_download_folders`
 
-**Allow learners to download directories**
+**السماح للمتعلمين بتنزيل المجلدات**
 
-Allow learners to pack and download a complete directory from the document tool
+السماح للمتعلمين بتغليف وتنزيل مجلد كامل من أداة المستندات
 
-*Default: `true`*
+*الافتراضي: `true`*
 
 
 ### `students_export2pdf`
 
-**Allow learners to export web documents to PDF format in the documents and wiki tools**
+**السماح للمتعلمين بتصدير المستندات الويب إلى صيغة PDF في أدوات المستندات والويكي**
 
-This feature is enabled by default, but in case of server overload abuse it, or specific learning environments, might want to disable it for all courses.
+هذه الميزة مفعلة افتراضيًا، ولكن في حالة إساءة استخدامها بسبب حمل زائد على الخادم، أو بيئات تعلم محددة، قد ترغب في تعطيلها لجميع الدورات.
 
-*Default: `true`*
+*الافتراضي: `true`*
 
 ### `thematic_pdf_orientation`
 
-**PDF orientation for course progress**
+**اتجاه PDF لتقدم الدورة**
 
-In the course progress tool, you can print a PDF of the different elements. Set ‘portrait’ or ‘landscape’ (technical terms) to change it.
+في أداة تقدم الدورة، يمكنك طباعة PDF للعناصر المختلفة. قم بتعيين «portrait» أو «landscape» (مصطلحات فنية) لتغييره.
 
-*Default: `landscape`*
+*الافتراضي: `landscape`*
 
 
 ### `upload_extensions_blacklist`
 
-**Blacklist - setting**
+**قائمة سوداء - إعداد**
 
-The blacklist is used to filter the files extensions by removing (or renaming) any file which extension figures in the blacklist below. The extensions should figure without the leading dot (.) and separated by semi-column (;) like the following:  exe;com;bat;scr;php. Files without extension are accepted. Letter casing (uppercase/lowercase) doesn't matter.
+تُستخدم القائمة السوداء لتصفية امتدادات الملفات عن طريق إزالة (أو إعادة تسمية) أي ملف يحتوي امتداده في القائمة السوداء أدناه. يجب أن تظهر الامتدادات بدون النقطة الرائدة (.) ومفصولة بنقطتين وفاصلة منقوطة (;) كالتالي: exe;com;bat;scr;php. يُقبل الملفات بدون امتداد. حالة الأحرف (كبيرة/صغيرة) لا تُفرق.
 
 ### `upload_extensions_list_type`
 
-**Type of filtering on document uploads**
+**نوع التصفية على رفع المستندات**
 
-Whether you want to use the blacklist or whitelist filtering. See blacklist or whitelist description below for more details.
+ما إذا كنت تريد استخدام تصفية القائمة السوداء أو القائمة البيضاء. انظر وصف القائمة السوداء أو البيضاء أدناه للمزيد من التفاصيل.
 
-*Default: `blacklist`*
+*الافتراضي: `blacklist`*
 
 
 ### `upload_extensions_replace_by`
 
-**Replacement extension**
+**امتداد الاستبدال**
 
-Enter the extension that you want to use to replace the dangerous extensions detected by the filter. Only needed if you have selected a filter by replacement.
+أدخل الامتداد الذي تريد استخدامه لاستبدال الامتدادات الخطرة التي يكتشفها المرشح. مطلوب فقط إذا قمت باختيار تصفية بالاستبدال.
 
-*Default: `dangerous`*
+*الافتراضي: `dangerous`*
 
 
 ### `upload_extensions_skip`
 
-**Filtering behaviour (skip/rename)**
+**سلوك التصفية (تخطي/إعادة تسمية)**
 
-If you choose to skip, the files filtered through the blacklist or whitelist will not be uploaded to the system. If you choose to rename them, their extension will be replaced by the one defined in the extension replacement setting. Beware that renaming doesn't really protect you, and may cause name collision if several files of the same name but different extensions exist.
+إذا اخترت التخطي، فلن يتم رفع الملفات المصفاة عبر القائمة السوداء أو البيضاء إلى النظام. إذا اخترت إعادة تسميتها، سيتم استبدال امتدادها بالذي هو معرف في إعداد استبدال الامتداد. احذر أن إعادة التسمية لا تحميك حقًا، وقد تسبب تضاربًا في الأسماء إذا كان هناك عدة ملفات بنفس الاسم لكن امتدادات مختلفة.
 
-*Default: `true`*
+*الافتراضي: `true`*
 
 
 ### `upload_extensions_whitelist`
 
-**Whitelist - setting**
+**قائمة بيضاء - إعداد**
 
-The whitelist is used to filter the file extensions by removing (or renaming) any file whose extension does *NOT* figure in the whitelist below. It is generally considered as a safer but more restrictive approach to filtering. The extensions should figure without the leading dot (.) and separated by semi-column (;) such as the following:  htm;html;txt;doc;xls;ppt;jpg;jpeg;gif;sxw. Files without extension are accepted. Letter casing (uppercase/lowercase) doesn't matter.
+تُستخدم القائمة البيضاء لتصفية امتدادات الملفات عن طريق إزالة (أو إعادة تسمية) أي ملف لا يحتوي امتداده في القائمة البيضاء أدناه. يُعتبر عادةً نهجًا أكثر أمانًا لكنه أكثر تقييدًا للتصفية. يجب أن تظهر الامتدادات بدون النقطة الرائدة (.) ومفصولة بنقطتين وفاصلة منقوطة (;) كالتالي: htm;html;txt;doc;xls;ppt;jpg;jpeg;gif;sxw. يُقبل الملفات بدون امتداد. حالة الأحرف (كبيرة/صغيرة) لا تُفرق.
 
 ### `users_copy_files`
 
-**Allow users to copy files from a course in your personal file area**
+**السماح للمستخدمين بنسخ الملفات من الدورة إلى منطقة الملفات الشخصية**
 
-Allows users to copy files from a course in your personal file area, visible through the Social Network or through the HTML editor when they are out of a course
+يسمح للمستخدمين بنسخ الملفات من الدورة إلى منطقة الملفات الشخصية، المرئية عبر الشبكة الاجتماعية أو عبر محرر HTML عندما يكونون خارج الدورة
 
-*Default: `true`*
+*الافتراضي: `true`*
 
 
 ### `video_features`
 
-**Video features**
+**ميزات الفيديو**
 
-Array of extra features you can enable for the video player in Chamilo. Options include 'speed', which allows you to change the playback speed of a video.
-
+مصفوفة من الميزات الإضافية التي يمكنك تفعيلها لمشغل الفيديو في Chamilo. تشمل الخيارات «speed»، والتي تتيح لك تغيير سرعة تشغيل الفيديو.

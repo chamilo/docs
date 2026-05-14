@@ -1,13 +1,13 @@
-# Assessing Learners
+# تقييم المتعلمين
 
-Chamilo provides a comprehensive set of tools for evaluating your learners' knowledge and tracking their performance.
+يوفر Chamilo مجموعة شاملة من الأدوات لتقييم معرفة متعلميك وتتبع أدائهم.
 
-* **[Exercises](exercises.md)** — Create quizzes and tests with a variety of question types, automatic grading, and detailed feedback
-* **[Assignments](assignments.md)** — Collect homework and projects from learners, with support for file uploads, peer review, and manual or AI-assisted grading
-* **[Surveys](surveys.md)** — Gather feedback from learners through customizable questionnaires
-* **[Attendance](attendance.md)** — Track learner presence in class sessions
-* **[Gradebook](gradebook.md)** — Combine scores from exercises, assignments, and other activities into a unified grade, and award certificates
+* **[Exercises](exercises.md)** — إنشاء اختبارات واختبارات بأنواع متنوعة من الأسئلة، وتصحيح تلقائي، وتعليقات مفصلة
+* **[Assignments](assignments.md)** — جمع الواجبات المنزلية والمشاريع من المتعلمين، مع دعم رفع الملفات، والمراجعة من الأقران، والتصحيح اليدوي أو بمساعدة الذكاء الاصطناعي
+* **[Surveys](surveys.md)** — جمع تعليقات من المتعلمين من خلال استبيانات قابلة للتخصيص
+* **[Attendance](attendance.md)** — تتبع حضور المتعلمين في جلسات الصف
+* **[Gradebook](gradebook.md)** — دمج الدرجات من التمارين والواجبات والأنشطة الأخرى في درجة موحدة، ومنح الشهادات
 
-The **Reporting** tool is still present but moved to the top of the course homepage for the teacher, as a small chart icon. This is the central place to access progress information for the whole course and its students.
+أداة **Reporting** لا تزال موجودة لكنها انتقلت إلى أعلى صفحة الدورة الرئيسية للمعلم، كأيقونة رسم بياني صغيرة. هذا هو المكان المركزي للوصول إلى معلومات التقدم للدورة بأكملها وطلابها.
 
-These tools work together: exercise scores and assignment grades can feed into the Gradebook, which can be linked to certificate generation and skill validation.
+تعمل هذه الأدوات معًا: يمكن أن تتدفق درجات التمارين ودرجات الواجبات إلى دفتر الدرجات، الذي يمكن ربطه بإنشاء الشهادات وتأكيد المهارات.

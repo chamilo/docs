@@ -1,89 +1,89 @@
-# Assessments
+# التقييمات
 
-The assessments (previously *gradebook*) aggregates scores from exercises, assignments, and other graded activities into a unified view of each learner's performance. It also controls certificate generation.
+تجمع التقييمات (سابقًا *gradebook*) الدرجات من التمارين والواجبات والأنشطة المقيمة الأخرى في عرض موحد لأداء كل متعلم. كما أنها تتحكم في إنشاء الشهادات.
 
-## How the Assessments Work
+## كيفية عمل التقييمات
 
-The assessments are weighted scoring systems. You define:
+التقييمات هي أنظمة تسجيل مرجحة. تحدد:
 
-1. **Which activities** contribute to the grade (exercises, assignments, attendance, etc.)
-2. **The weight** of each activity (how much it counts toward the final grade)
-3. **The minimum certification score** (the threshold for earning a certificate)
-4. **A minimum score per activity** — Each activity in the gradebook can have its own **Minimum score**. Learners who score below that minimum on a key activity can be prevented from achieving the objectives and earning the certificate, even if their overall weighted total is otherwise high enough.
+1. **أي الأنشطة** تساهم في الدرجة (التمارين، الواجبات، الحضور، إلخ.)
+2. **الوزن** لكل نشاط (كم يساهم في الدرجة النهائية)
+3. **الدرجة الدنيا للشهادة** (العتبة للحصول على شهادة)
+4. **درجة دنيا لكل نشاط** — يمكن أن يكون لكل نشاط في الـ gradebook **درجة دنيا** خاصة به. يمكن منع المتعلمين الذين يحصلون على درجة أقل من تلك الدنيا في نشاط رئيسي من تحقيق الأهداف والحصول على الشهادة، حتى لو كان إجماليهم المرجح مرتفعًا بما فيه الكفاية.
 
-Activities can be of 2 types:
-* **Classroom activity** (or in-person activity), where grades have to be imported from some other source
-* **Online activity** selected from the course, where grades are obtained through the fulfilling of the activity in the course
+يمكن أن تكون الأنشطة من نوعين:
+* **نشاط صفي** (أو نشاط حضوري)، حيث يجب استيراد الدرجات من مصدر آخر
+* **نشاط عبر الإنترنت** مختار من الدورة، حيث يتم الحصول على الدرجات من خلال إكمال النشاط في الدورة
 
-Chamilo calculates each learner's overall grade based on these weights.
+يحسب Chamilo الدرجة الإجمالية لكل متعلم بناءً على هذه الأوزان.
 
-## Setting Up the Assessment
+## إعداد التقييم
 
-1. Open the **Assessments** <img src="/.gitbook/assets/icons/mdi-certificate.svg" alt="Gradebook" data-size="line"> tool from the course homepage
-2. You will see the assessments overview, initially empty
+1. افتح أداة **التقييمات** <img src="/.gitbook/assets/icons/mdi-certificate.svg" alt="Gradebook" data-size="line"> من الصفحة الرئيسية للدورة
+2. سترى نظرة عامة على التقييمات، فارغة في البداية
 
-### Adding Activities
+### إضافة الأنشطة
 
-1. Click **Add online activity**
-2. Choose the type:
-   * **Test** — Link a specific exercise from the course
-   * **Assignment** — Link a student publication folder
-   * **Learning path** — Link learning path completion
-   * **Attendance** — Link an attendance sheet
-   * **Forum thread** — Link a forum thread (which has to be graded manually)
-   * **Survey** — Link a survey
-3. Select the specific activity within the chosen type
-4. Set the **Weight** for this activity (e.g., 30% for the midterm exam, 40% for the final project)
-5. Set the **Minimum score** if applicable
-6. Save
+1. انقر على **إضافة نشاط عبر الإنترنت**
+2. اختر النوع:
+   * **اختبار** — ربط تمرين محدد من الدورة
+   * **واجب** — ربط مجلد نشر الطلاب
+   * **مسار تعلم** — ربط إكمال مسار التعلم
+   * **حضور** — ربط جدول حضور
+   * **خيط منتدى** — ربط خيط منتدى (يجب تقييمه يدويًا)
+   * **استطلاع** — ربط استطلاع
+3. حدد النشاط المحدد داخل النوع المختار
+4. حدد **الوزن** لهذا النشاط (مثل 30% للامتحان النهائي، 40% للمشروع النهائي)
+5. حدد **الدرجة الدنيا** إذا لزم الأمر
+6. احفظ
 
-The total weight of all activities should add up to 100%.
+يجب أن يصل مجموع أوزان جميع الأنشطة إلى 100%.
 
-### Sub-Categories
+### الفئات الفرعية
 
-For complex grading schemes, you can create **sub-categories** to group related activities:
+لأنظمة التقييم المعقدة، يمكنك إنشاء **فئات فرعية** لتجميع الأنشطة ذات الصلة:
 
-* **Example**: A "Homework" sub-category (weight: 30%) containing five individual assignments each worth 20% of the sub-category
-* Sub-categories let you organize the assessment hierarchically while keeping the overall calculation simple
+* **مثال**: فئة فرعية "واجبات منزلية" (وزن: 30%) تحتوي على خمسة واجبات فردية كل واحدة تساوي 20% من الفئة الفرعية
+* تسمح الفئات الفرعية بتنظيم التقييم هرميًا مع الحفاظ على بساطة الحساب الإجمالي
 
-## Viewing Grades
+## عرض الدرجات
 
-![The gradebook overview table showing learner names, activity scores, and weighted totals](/.gitbook/assets/gradebook-overview.png)
+![جدول نظرة عامة على الـ gradebook يظهر أسماء المتعلمين، درجات الأنشطة، والإجماليات المرجحة](/.gitbook/assets/gradebook-overview.png)
 
-The assessment shows a table with:
+يعرض التقييم جدولًا يحتوي على:
 
-* Each learner's name
-* Scores for each activity
-* The weighted total
-* Whether the learner qualifies for a certificate
+* اسم كل متعلم
+* الدرجات لكل نشاط
+* الإجمالي المرجح
+* ما إذا كان المتعلم مؤهلاً للحصول على شهادة
 
-You can sort by any column to quickly identify top performers or struggling learners.
+يمكنك الفرز حسب أي عمود لتحديد الأفضل أداءً أو المتعلمين الذين يواجهون صعوبات بسرعة.
 
-## Certificates
+## الشهادات
 
-To enable certificate generation:
+لتمكين إنشاء الشهادات:
 
-1. In the assessment settings, set a **minimum certification score** (e.g., 70%)
-2. When a learner's weighted total meets or exceeds this threshold (and they have not failed any per-activity minimum score), they can download their certificate
-3. The certificate is generated from a template configured by the platform administrator
+1. في إعدادات التقييم، حدد **درجة شهادة دنيا** (مثل 70%)
+2. عندما يصل إجمالي المتعلم المرجح إلى هذه العتبة أو يتجاوزها (ولم يفشل في أي درجة دنيا لنشاط)، يمكنه تنزيل شهادته
+3. يتم إنشاء الشهادة من قالب تم تهيئته بواسطة مدير المنصة
 
-See [Certificates and Skills](../tracking-and-reporting/certificates-and-skills.md) for more details.
+انظر [الشهادات والمهارات](../tracking-and-reporting/certificates-and-skills.md) للمزيد من التفاصيل.
 
-## Linking to Skills
+## ربط بالمهارات
 
-You can associate **skills** with the assessment. When a learner reaches the set objectives to complete the assessment, they can either get a certificate, get a skill or both. Skills are visible on their profile in the social network space. This builds a competency record over time.
+يمكنك ربط **المهارات** بالتقييم. عندما يصل المتعلم إلى الأهداف المحددة لإكمال التقييم، يمكنه الحصول على شهادة، أو مهارة، أو كليهما. تظهر المهارات في ملفه الشخصي في مساحة الشبكة الاجتماعية. هذا يبني سجلًا للكفاءات مع مرور الوقت.
 
-## Exporting Grades
+## تصدير الدرجات
 
-Click the **Export** <img src="/.gitbook/assets/icons/mdi-export.svg" alt="Export" data-size="line"> button to download grades as a spreadsheet. This is useful for:
+انقر على زر **التصدير** <img src="/.gitbook/assets/icons/mdi-export.svg" alt="Export" data-size="line"> لتنزيل الدرجات كجدول بيانات. هذا مفيد لـ:
 
-* Sharing grades with administrative systems
-* Performing additional analysis outside Chamilo
-* Keeping offline records
+* مشاركة الدرجات مع الأنظمة الإدارية
+* إجراء تحليل إضافي خارج Chamilo
+* الحفاظ على سجلات غير متصلة
 
-## Tips
+## نصائح
 
-* **Plan your weights early** — Define the grading scheme at the start of the course so learners know what to expect
-* **Use sub-categories for complex courses** — Group assignments, quizzes, and participation into clear categories
-* **Set meaningful pass thresholds** — The certification score should reflect actual competency, not just participation
-* **Check regularly** — Review the gradebook periodically to ensure all activities are properly linked and scores are being recorded
+* **خطط لأوزانك مبكرًا** — حدد نظام التقييم في بداية الدورة حتى يعرف المتعلمون ما يتوقعونه
+* **استخدم الفئات الفرعية للدورات المعقدة** — اجمع الواجبات، الاختبارات، والمشاركة في فئات واضحة
+* **حدد عتبات نجاح ذات معنى** — يجب أن تعكس درجة الشهادة الكفاءة الفعلية، لا مجرد المشاركة
+* **تحقق بانتظام** — راجع الـ gradebook دوريًا للتأكد من ربط جميع الأنشطة بشكل صحيح وسجل الدرجات

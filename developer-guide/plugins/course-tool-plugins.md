@@ -1,18 +1,18 @@
-# Course Tool Plugins
+# ملحقات أدوات المقرر الدراسي
 
-Course tool plugins add new tools to the course homepage alongside built-in tools like Documents, Exercises, and Forums.
+تضيف ملحقات أدوات المقرر الدراسي أدوات جديدة إلى صفحة رئيسية المقرر الدراسي إلى جانب الأدوات المدمجة مثل Documents، Exercises، وForums.
 
-## How Course Tool Plugins Work
+## كيفية عمل ملحقات أدوات المقرر الدراسي
 
-When a plugin registers itself as a course tool:
+عندما يسجل الملحق نفسه كأداة مقرر دراسي:
 
-1. It appears in the course homepage tool grid
-2. Teachers can show/hide it like any other tool
-3. Clicking the tool opens the plugin's interface within the course context
+1. يظهر في شبكة أدوات صفحة رئيسية المقرر الدراسي
+2. يمكن للمعلمين إظهارها/إخفاءها مثل أي أداة أخرى
+3. النقر على الأداة يفتح واجهة الملحق ضمن سياق المقرر الدراسي
 
-## Registering as a Course Tool
+## التسجيل كأداة مقرر دراسي
 
-In your plugin class, set `$isCoursePlugin = true`. To automatically add a tool icon to the course homepage, also set `$addCourseTool = true`:
+في فئة الملحق الخاصة بك، قم بتعيين `$isCoursePlugin = true`. لإضافة أيقونة أداة تلقائيًا إلى صفحة رئيسية المقرر الدراسي، قم أيضًا بتعيين `$addCourseTool = true`:
 
 ```php
 class MyToolPlugin extends Plugin
@@ -26,9 +26,9 @@ class MyToolPlugin extends Plugin
 }
 ```
 
-## Per-Course Settings
+## إعدادات لكل مقرر دراسي
 
-Define course-level configuration fields via the `$course_settings` property:
+حدد حقول التكوين على مستوى المقرر الدراسي عبر خاصية `$course_settings`:
 
 ```php
 public array $course_settings = [
@@ -37,11 +37,11 @@ public array $course_settings = [
 ];
 ```
 
-These appear in the course settings panel and can be validated by overriding `validateCourseSetting(string $variable)` (return `false` to reject a value) or acted on via `course_settings_updated(array $values)`.
+تظهر هذه في لوحة إعدادات المقرر الدراسي ويمكن التحقق من صحتها عن طريق تجاوز `validateCourseSetting(string $variable)` (أعد `false` لرفض قيمة) أو التصرف عليها عبر `course_settings_updated(array $values)`.
 
-## Installation and Uninstallation
+## التثبيت والإزالة
 
-To register the plugin fields across all existing courses on install:
+لتسجيل حقول الملحق عبر جميع المقررات الدراسية الحالية عند التثبيت:
 
 ```php
 public function install(): void
@@ -50,39 +50,39 @@ public function install(): void
 }
 ```
 
-To install into a single course (e.g., when a new course is created):
+لتثبيت في مقرر دراسي واحد (مثل عند إنشاء مقرر دراسي جديد):
 
 ```php
 $this->course_install(courseId: $courseId, addToolLink: true);
 ```
 
-To remove fields from a specific course:
+لإزالة الحقول من مقرر دراسي محدد:
 
 ```php
 $this->uninstall_course_fields(courseId: $courseId);
 ```
 
-## Integration Points
+## نقاط التكامل
 
-Course tool plugins integrate through:
+تتكامل ملحقات أدوات المقرر الدراسي من خلال:
 
-* **`LegacyPluginCourseTool`** (`src/CoreBundle/Tool/LegacyPluginCourseTool.php`) — Registers the plugin as a tool in the course
-* **`CToolStateProvider`** (`src/CoreBundle/State/CToolStateProvider.php`) — Resolves which tools (including plugin tools) appear on the course homepage
-* The tool appears in the `CTool` collection for the course
+* **`LegacyPluginCourseTool`** (`src/CoreBundle/Tool/LegacyPluginCourseTool.php`) — يسجل الملحق كأداة في المقرر الدراسي
+* **`CToolStateProvider`** (`src/CoreBundle/State/CToolStateProvider.php`) — يحدد الأدوات التي تظهر (بما في ذلك أدوات الملحقات) على صفحة رئيسية المقرر الدراسي
+* تظهر الأداة في مجموعة `CTool` للمقرر الدراسي
 
-## Course Context
+## سياق المقرر الدراسي
 
-When a learner clicks your plugin's tool, your plugin code runs within the course context. You can access:
+عندما ينقر المتعلم على أداة الملحق الخاص بك، يعمل كود الملحق ضمن سياق المقرر الدراسي. يمكنك الوصول إلى:
 
-* The current course (via `api_get_course_id()` or the CID request store)
-* The current session (if applicable)
-* The current user
-* Course-level plugin settings
+* المقرر الدراسي الحالي (عبر `api_get_course_id()` أو متجر طلب CID)
+* الجلسة الحالية (إذا كانت適用ة)
+* المستخدم الحالي
+* إعدادات الملحق على مستوى المقرر الدراسي
 
-## Examples
+## أمثلة
 
-Built-in course tool plugins:
+ملحقات أدوات المقرر الدراسي المدمجة:
 
-* **BigBlueButton** (`Bbb/`) — Video conferencing within courses
-* **Zoom** (`Zoom/`) — Zoom meetings within courses
-* **OnlyOffice** (`Onlyoffice/`) — Document editing within courses
+* **BigBlueButton** (`Bbb/`) — مؤتمرات الفيديو داخل المقررات الدراسية
+* **Zoom** (`Zoom/`) — اجتماعات Zoom داخل المقررات الدراسية
+* **OnlyOffice** (`Onlyoffice/`) — تحرير المستندات داخل المقررات الدراسية

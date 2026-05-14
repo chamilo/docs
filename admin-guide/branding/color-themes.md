@@ -1,26 +1,26 @@
-# Color Themes
+# مواضيع الألوان
 
-Chamilo 2.0 introduces a color theme system that lets you customize the visual appearance of the platform.
+في Chamilo 2.0، تم تقديم نظام مواضيع الألوان الذي يتيح تخصيص المظهر البصري للمنصة.
 
-## How Themes Work
+## آلية عمل المواضيع
 
-Color themes define the palette used across the Chamilo interface — primary colors, accent colors, backgrounds, and text colors. A theme is associated to an access URL: in a single-URL portal it effectively becomes the global theme, and in a multi-URL setup each URL can have its own.
+تحدد مواضيع الألوان لوحة الألوان المستخدمة في واجهة Chamilo بأكملها. وتشمل الألوان الأساسية، وألوان التمييز، وألوان الخلفية، وألوان النصوص. يرتبط كل موضوع بعنوان URL للوصول، لذا في بوابة URL واحدة يكون الموضوع عمليًا عامًا، بينما في إعدادات متعددة URL يمكن لكل URL أن يكون له موضوعه الخاص.
 
-## Applying a Theme
+## تطبيق المواضيع
 
-![The color themes page showing available themes with preview swatches and an Apply button](/.gitbook/assets/admin-color-themes.png)
+![صفحة مواضيع الألوان التي تعرض معاينات المواضيع المتاحة مع أزرار التطبيق](/.gitbook/assets/admin-color-themes.png)
 
-1. From the administration panel, navigate to **Color themes**
-2. Browse the available themes
-3. Select a theme and click **Apply**
-4. The theme is immediately applied to the platform
+1. انتقل إلى **مواضيع الألوان** من لوحة الإدارة
+2. تصفح المواضيع المتاحة
+3. اختر الموضوع وانقر على **تطبيق**
+4. يتم تطبيق الموضوع فورًا على المنصة
 
-## Per-URL Themes
+## مواضيع لكل URL
 
-In a multi-URL setup, each access URL can have its own color theme. This allows different portals to have distinct visual identities while sharing the same Chamilo installation.
+في إعدادات متعددة URL، يمكن لكل عنوان URL للوصول أن يكون له موضوع ألوان خاص به. وبهذا يمكن مشاركة تثبيت Chamilo واحد بينما تتمتع بوابات مختلفة بهوية بصرية خاصة بها.
 
-## Tips
+## نصائح
 
-* **Match your brand** — Choose or customize a theme that matches your organization's brand colors
-* **Test readability** — After applying a theme, check that text is readable against background colors, especially in high-contrast situations
-* **Consider accessibility** — Ensure sufficient color contrast for users with visual impairments
+* **تطابق العلامة التجارية** — اختر أو قم بتخصيص موضوع يتناسب مع ألوان العلامة التجارية للمنظمة
+* **اختبار القراءة** — بعد تطبيق الموضوع، تأكد من أن النصوص قابلة للقراءة على خلفية الألوان، خاصة في حالات التباين العالي
+* **النظر في الوصولية** — ضمن تباينًا كافيًا في الألوان لصالح مستخدمي الإعاقة البصرية

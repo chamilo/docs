@@ -1,38 +1,38 @@
-# Announcements
+# الإعلانات
 
-The announcements tool lets you send messages to all learners enrolled in your course, or to specific individuals or groups.
+يسمح أداة الإعلانات بإرسال رسائل إلى جميع المتعلمين المسجلين في مساقك، أو إلى أفراد أو مجموعات محددة.
 
-Messages sent through announcements are sent to the learners both by e-mail *and* to their Chamilo inbox.
+يتم إرسال الرسائل المرسلة عبر الإعلانات إلى المتعلمين عبر البريد الإلكتروني *و* إلى صندوق الوارد في Chamilo الخاص بهم.
 
-## Creating an Announcement
+## إنشاء إعلان
 
-1. Open the **Announcements** <img src="/.gitbook/assets/icons/mdi-bullhorn.svg" alt="Announcements" data-size="line"> tool from the course homepage
-2. Click the **Add an announcement** icon <img src="/.gitbook/assets/icons/mdi-bullhorn.svg" alt="Announcements" data-size="line"> again
-3. Fill in:
-   * **Recipients** — Choose who receives the announcement:
-     * All enrolled learners
-     * Specific learners
-     * Specific groups
-   * **Subject** — A subject line for the announcement
-   * **Description** — The message body (supports rich text with formatting, links, and images)
-   * **Attachment** — An optional attachment sent along with the e-mail
-   * **Sending options** — Announcements will be sent by e-mail by default, but you can also choose (if you have the permissions) to send it through all sessions that include this course, to send a copy to yourself or to attach this announcement to a calendar event for the course.
-4. Save
+1. افتح أداة **الإعلانات** <img src="/.gitbook/assets/icons/mdi-bullhorn.svg" alt="الإعلانات" data-size="line"> من الصفحة الرئيسية للمساق
+2. انقر على أيقونة **إضافة إعلان** <img src="/.gitbook/assets/icons/mdi-bullhorn.svg" alt="الإعلانات" data-size="line"> مرة أخرى
+3. املأ:
+   * **المستلمون** — اختر من يتلقى الإعلان:
+     * جميع المتعلمين المسجلين
+     * متعلمون محددون
+     * مجموعات محددة
+   * **الموضوع** — سطر موضوع للإعلان
+   * **الوصف** — نص الرسالة (يدعم النص الغني مع التنسيق والروابط والصور)
+   * **المرفق** — مرفق اختياري يُرسل مع البريد الإلكتروني
+   * **خيارات الإرسال** — سيتم إرسال الإعلانات عبر البريد الإلكتروني افتراضيًا، لكن يمكنك أيضًا الاختيار (إذا كان لديك الصلاحيات) لإرسالها عبر جميع الجلسات التي تشمل هذا المساق، أو إرسال نسخة إليك، أو ربط هذا الإعلان بحدث تقويم للمساق.
+4. احفظ
 
-The **Tags** button lets you identify a series of markers that will be dynamically replaced in the announcement **Content**. These are relatively intuitive, so we'll let you guess what they do.
+تتيح زر **الوسوم** تحديد سلسلة من العلامات التي سيتم استبدالها ديناميكيًا في **محتوى** الإعلان. هذه العلامات بديهية نسبيًا، لذا سنتركك تخمن ما تفعله.
 
-The **Preview** button is not very intuitive: it allows you to see whom this announcement will be sent to. This acts as a confirmation of the selection of recipients you made above.
+زر **معاينة** غير بديهي جدًا: يتيح لك رؤية من سيتم إرسال هذا الإعلان إليهم. يعمل هذا كتأكيد لاختيار المستلمين الذي قمت به أعلاه.
 
-## Managing Announcements
+## إدارة الإعلانات
 
-* **Edit** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Edit" data-size="line"> — Modify an existing announcement
-* **Delete** <img src="/.gitbook/assets/icons/mdi-delete.svg" alt="Delete" data-size="line"> — Remove an announcement
-* **Visibility** <img src="/.gitbook/assets/icons/mdi-eye.svg" alt="Visibility" data-size="line"> — Hide or show announcements
+* **تعديل** <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="تعديل" data-size="line"> — تعديل إعلان موجود
+* **حذف** <img src="/.gitbook/assets/icons/mdi-delete.svg" alt="حذف" data-size="line"> — إزالة إعلان
+* **الرؤية** <img src="/.gitbook/assets/icons/mdi-eye.svg" alt="الرؤية" data-size="line"> — إخفاء أو إظهار الإعلانات
 
-Announcements are displayed in reverse chronological order (newest first).
+يتم عرض الإعلانات بترتيب زمني عكسي (الأحدث أولاً).
 
-## Tips
+## نصائح
 
-* **Welcome message** — Create an announcement at the start of the course to welcome learners and provide orientation
-* **Use email delivery** — For time-sensitive announcements, enable the email option so learners receive the message even if they are not currently logged into the platform
-* **Targeted announcements** — Send specific announcements to groups or individuals when the message is not relevant to the entire class
+* **رسالة ترحيب** — أنشئ إعلانًا في بداية المساق للترحيب بالمتعلمين وتوفير التوجيه
+* **استخدام الإرسال عبر البريد الإلكتروني** — للإعلانات الحساسة للوقت، فعّل خيار البريد الإلكتروني حتى يتلقى المتعلمون الرسالة حتى لو لم يكونوا مسجلين الدخول حاليًا إلى المنصة
+* **إعلانات مستهدفة** — أرسل إعلانات محددة إلى مجموعات أو أفراد عندما لا تكون الرسالة ذات صلة بالفصل بأكمله

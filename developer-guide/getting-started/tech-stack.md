@@ -1,10 +1,10 @@
-# Tech Stack
+# التكديس التقني
 
-The following describes the tech stack for Chamilo 2.0. All versions stated here are likely to change as new versions of Chamilo are released. Version numbers use [Composer's versions notation](https://getcomposer.org/doc/articles/versions.md) which set rules to allow for some flexibility around versions.
+يصف الآتي التكديس التقني لـ Chamilo 2.0. من المحتمل أن تتغير جميع الإصدارات المذكورة هنا مع إصدار إصدارات جديدة من Chamilo. تستخدم أرقام الإصدارات [تدوين إصدارات Composer](https://getcomposer.org/doc/articles/versions.md) التي تحدد قواعد تسمح ببعض المرونة حول الإصدارات.
 
-Including hierarchical dependencies, Chamilo uses several hundred Free Software libraries. This list only includes the ones we use the most and that will likely affect the work of a Chamilo developer every week or so. We are greatful to all other Free Software developers out there making ou work easier, more maintainable and more secure.
+بما في ذلك التبعيات الهرمية، يستخدم Chamilo مئات المكتبات الحرة للبرمجيات. هذه القائمة تشمل فقط تلك التي نستخدمها بشكل أكبر والتي من المحتمل أن تؤثر على عمل مطور Chamilo كل أسبوع أو نحو ذلك. نحن ممتنون لجميع مطوري البرمجيات الحرة الآخرين هناك الذين يجعلون عملنا أسهل وأكثر قابلية للصيانة وأكثر أمانًا.
 
-## Backend
+## الخلفية
 
 | Technology | Version | Purpose |
 |-----------|---------|---------|
@@ -23,7 +23,7 @@ Including hierarchical dependencies, Chamilo uses several hundred Free Software 
 | bigbluebutton/bigbluebutton-api-php | ^2.0 | BigBlueButton integration |
 | packbackbooks/lti-1p3-tool | ^6.4 | LTI 1.3 implementation |
 
-## Frontend
+## الواجهة الأمامية
 
 | Technology | Version | Purpose |
 |-----------|---------|---------|
@@ -39,7 +39,7 @@ Including hierarchical dependencies, Chamilo uses several hundred Free Software 
 | Uppy | ^4.5 | File upload widget |
 | PrimeFlex | ^4.0 | CSS utility framework |
 
-## Build Tools
+## أدوات البناء
 
 | Technology | Version | Purpose |
 |-----------|---------|---------|
@@ -52,22 +52,22 @@ Including hierarchical dependencies, Chamilo uses several hundred Free Software 
 | ESLint | ^10.0 | Linting |
 | Prettier | 3.8 | Code formatting |
 
-## Icons
+## الأيقونات
 
 | Library | Version | Usage |
 |---------|---------|-------|
 | @mdi/font | 7.4.47 | Material Design Icons (CSS classes `mdi mdi-*`) |
 
-## Database
+## قاعدة البيانات
 
-Chamilo supports:
+يدعم Chamilo:
 
 * MySQL 5.7+
 * MariaDB 10.11.2+
 
-## Cloud Storage
+## التخزين السحابي
 
-Via Flysystem adapters:
+عبر محولات Flysystem:
 
 * Local filesystem (default)
 * AWS S3 (`league/flysystem-aws-s3-v3`)

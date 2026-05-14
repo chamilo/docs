@@ -1,90 +1,93 @@
-# Platform Settings
+# إعدادات المنصة
 
-Chamilo has an extensive configuration system with settings organized into categories. The full set of categories below mirrors the **Configuration settings** page in the admin panel — and the underlying `SettingsCurrentFixtures.php` in the source code, which is the source of truth for variable names, titles, and descriptions.
+يحتوي Chamilo على نظام تكوين واسع مع إعدادات منظمة في فئات. يعكس المجموعة الكاملة من الفئات أدناه صفحة **إعدادات التكوين** في لوحة الإدارة — والملف الأساسي `SettingsCurrentFixtures.php` في الكود المصدري، والذي يُعد المصدر الحقيقي لأسماء المتغيرات والعناوين والوصفات.
 
-Access platform settings from the administration panel by clicking **Configuration settings**.
+الوصول إلى إعدادات المنصة من لوحة الإدارة بالنقر على **إعدادات التكوين**.
 
-![The platform settings page showing configuration categories organized by functional area](/.gitbook/assets/admin-settings-categories.png)
+![صفحة إعدادات المنصة التي تظهر فئات التكوين منظمة حسب المنطقة الوظيفية](/.gitbook/assets/admin-settings-categories.png)
 
-## All categories
+## جميع الفئات
 
-There are **39 configuration categories** in total, listed alphabetically below. The number after each link is the count of settings in that category.
+هناك **39 فئة تكوين** في المجمل، مدرجة أبجدياً أدناه. العدد بعد كل رابط هو عدد الإعدادات في تلك الفئة.
 
-### Platform-wide
+### على مستوى المنصة
 
-* **[Administrator Identity](admin-settings.md)** (12) — Identity and contact details of the platform administrator.
-* **[Platform](platform-settings.md)** (29) — Platform-level identity, time zone, registration policy, online users, performance flags.
-* **[Display](display-settings.md)** (24) — Homepage layout, gravatar, menus, branding behaviour.
-* **[Editor](editor-settings.md)** (26) — Rich-text editor (TinyMCE) toolbars, plugins, AI helpers.
-* **[Languages](language-settings.md)** (12) — Available languages, default language, fallbacks.
-* **[Mail](mail-settings.md)** (18) — Outgoing-mail layout, sender identity, signature.
-* **[Workflows](workflows-settings.md)** (23) — Cross-cutting workflow toggles (course creation, enrollment validation…).
+* **[هوية المسؤول](admin-settings.md)** (12) — تفاصيل هوية واتصال مسؤول المنصة.
+* **[المنصة](platform-settings.md)** (29) — هوية المنصة على مستوى المنصة، منطقة الوقت، سياسة التسجيل، المستخدمين المتصلين، علامات الأداء.
+* **[العرض](display-settings.md)** (24) — تخطيط الصفحة الرئيسية، gravatar، القوائم، سلوك العلامة التجارية.
+* **[المحرر](editor-settings.md)** (26) — شرائط أدوات المحرر النصي الغني (TinyMCE)، الإضافات، مساعدي الذكاء الاصطناعي.
+* **[اللغات](language-settings.md)** (12) — اللغات المتاحة، اللغة الافتراضية، الاحتياطيات.
+* **[البريد](mail-settings.md)** (18) — تخطيط البريد الصادر، هوية المرسل، التوقيع.
+* **[سير العمل](workflows-settings.md)** (23) — تبديلات سير العمل العابرة (إنشاء الدورة، التحقق من التسجيل…).
 
-### Authentication, security & privacy
+### المصادقة والأمان والخصوصية
 
-* **[Security](security-settings.md)** (31) — Login protection, password policy, headers, 2FA, IDS.
-* **[Registration](registration-settings.md)** (20) — Self-registration policy and post-registration redirects.
-* **[Privacy](privacy-settings.md)** (6) — Consent, data export, account-deletion requests.
-* **[CAS](cas-settings.md)** (7) — Legacy CAS configuration carried over from 1.x.
+* **[الأمان](security-settings.md)** (31) — حماية تسجيل الدخول، سياسة كلمة المرور، الرؤوس، 2FA، IDS.
+* **[التسجيل](registration-settings.md)** (20) — سياسة التسجيل الذاتي وإعادة التوجيه بعد التسجيل.
+* **[الخصوصية](privacy-settings.md)** (6) — الموافقة، تصدير البيانات، طلبات حذف الحساب.
+* **[CAS](cas-settings.md)** (7) — تكوين CAS القديم المحمول من 1.x.
 
-### Course and session lifecycle
+### دورة حياة الدورة والجلسة
 
-* **[Course](course-settings.md)** (45) — Defaults and policies that apply to courses platform-wide.
-* **[Sessions](session-settings.md)** (68) — Session lifecycle, coach access windows, visibility.
-* **[Course Catalog](catalog-settings.md)** (13) — Behaviour of the public course catalog.
-* **[Profile](profile-settings.md)** (29) — Which fields appear on the user profile.
+* **[الدورة](course-settings.md)** (45) — الإعدادات الافتراضية والسياسات التي تنطبق على الدورات على مستوى المنصة.
+* **[الجلسات](session-settings.md)** (68) — دورة حياة الجلسة، نوافذ وصول المدرب، الرؤية.
+* **[كتالوج الدورات](catalog-settings.md)** (13) — سلوك كتالوج الدورات العام.
+* **[الملف الشخصي](profile-settings.md)** (29) — الحقول التي تظهر في ملف المستخدم الشخصي.
 
-### Course tools
+### أدوات الدورة
 
-* **[Agenda](agenda-settings.md)** (11)
-* **[Announcements](announcement-settings.md)** (9)
-* **[Assignments (Work)](work-settings.md)** (12)
-* **[Attendance](attendance-settings.md)** (4)
-* **[Chat](chat-settings.md)** (5)
-* **[Documents](document-settings.md)** (29)
+* **[جدول الأعمال](agenda-settings.md)** (11)
+* **[الإعلانات](announcement-settings.md)** (9)
+* **[المهام (العمل)](work-settings.md)** (12)
+* **[الحضور](attendance-settings.md)** (4)
+* **[الدردشة](chat-settings.md)** (5)
+* **[المستندات](document-settings.md)** (29)
 * **[Dropbox](dropbox-settings.md)** (8)
-* **[Exercises (Tests)](exercise-settings.md)** (63)
-* **[Forums](forum-settings.md)** (9)
-* **[Glossary](glossary-settings.md)** (3)
-* **[Groups](group-settings.md)** (3)
-* **[Learning Paths](lp-settings.md)** (51)
-* **[Surveys](survey-settings.md)** (12)
+* **[التمارين (الاختبارات)](exercise-settings.md)** (63)
+* **[المنتديات](forum-settings.md)** (9)
+* **[المعجم](glossary-settings.md)** (3)
+* **[المجموعات](group-settings.md)** (3)
+* **[مسارات التعلم](lp-settings.md)** (51)
+* **[الاستطلاعات](survey-settings.md)** (12)
 
-### Assessment & recognition
+### التقييم والاعتراف
 
-* **[Gradebook (Assessments)](gradebook-settings.md)** (34) — Score display, decimals, certificate thresholds.
-* **[Certificates](certificate-settings.md)** (9) — Defaults applied when a learner earns a certificate.
-* **[Skills](skill-settings.md)** (13) — Skills tree, awarding rules, profile integration.
-* **[Tracking](tracking-settings.md)** (10) — What is recorded, what reports are exposed.
+* **[دفتر الدرجات (التقييمات)](gradebook-settings.md)** (34) — عرض الدرجات، الأرقام العشرية، عتبات الشهادات.
+* **[الشهادات](certificate-settings.md)** (9) — الإعدادات الافتراضية المطبقة عندما يكسب المتعلم شهادة.
+* **[المهارات](skill-settings.md)** (13) — شجرة المهارات، قواعد المنح، تكامل الملف الشخصي.
+* **[التتبع](tracking-settings.md)** (10) — ما يتم تسجيله، ما هي التقارير المعروضة.
 
-### Communication & community
+### التواصل والمجتمع
 
-* **[Messaging](message-settings.md)** (7)
-* **[Social Network](social-settings.md)** (7)
+* **[المراسلة](message-settings.md)** (7)
+* **[الشبكة الاجتماعية](social-settings.md)** (7)
 
-### AI
+### الذكاء الاصطناعي
 
-* **[AI Helpers](ai-helpers-settings.md)** (13) — Providers per task type (text, image, video, tutor, grading).
+* **[مساعدي الذكاء الاصطناعي](ai-helpers-settings.md)** (13) — المزودون حسب نوع المهمة (نص، صورة، فيديو، مدرس، تصحيح).
 
-### Operations & integration
+### العمليات والتكامل
 
-* **[Cron Jobs](crons-settings.md)** (3)
-* **[Search](search-settings.md)** (3) — Xapian full-text search configuration.
-* **[Tickets](ticket-settings.md)** (7) — Helpdesk system.
-* **[Web Services](webservice-settings.md)** (7) — Legacy SOAP/REST endpoints.
+* **[مهام Cron](crons-settings.md)** (3)
+* **[البحث](search-settings.md)** (3) — تكوين بحث النص الكامل Xapian.
+* **[التذاكر](ticket-settings.md)** (7) — نظام مكتب المساعدة.
+* **[خدمات الويب](webservice-settings.md)** (7) — نقاط النهاية SOAP/REST القديمة.
 
-## How Settings Work
+## كيفية عمل الإعدادات
 
-* Settings are stored in the database (`settings` table) and managed through the web interface
-* Some settings are **URL-locked** in multi-URL setups (their value applies platform-wide and cannot be overridden per URL - see `access_url_locked` and `access_url_changeable` columns in the `settings` table); others (most) can be overridden per access URL
-* Changes take effect immediately (no server restart required), although your user session might be keeping some of them in memory. If changes don't reflect immediately, logout and login to flush your session.
-* Some settings have dependencies — changing one may affect the behaviour of others
-* Variable names shown on each page (e.g. `2fa_enable`) match the row in the `settings` database table (`variable` column) and the keys used in overrides (`config/settings_overrides.yaml`) where applicable.
+* يتم تخزين الإعدادات في قاعدة البيانات (جدول `settings`) وإدارتها عبر واجهة الويب
+* بعض الإعدادات **مقفلة بـ URL** في الإعدادات متعددة URL (قيمتها تنطبق على المنصة بأكملها ولا يمكن تجاوزها لكل URL - انظر أعمدة `access_url_locked` و `access_url_changeable` في جدول `settings`); الآخرين (الأغلبية) يمكن تجاوزها لكل URL وصول
+* تظهر التغييرات تأثيرها فوراً (لا يلزم إعادة تشغيل الخادم)، على الرغم من أن جلسة المستخدم قد تحتفظ ببعضها في الذاكرة. إذا لم تظهر التغييرات فوراً، قم بتسجيل الخروج وتسجيل الدخول لتفريغ الجلسة.
+* بعض الإعدادات لها تبعيات — تغيير واحد قد يؤثر على سلوك الآخرين
+* أسماء المتغيرات المعروضة في كل صفحة (مثل `2fa_enable`) تطابق الصف في جدول قاعدة بيانات `settings` (عمود `variable`) والمفاتيح المستخدمة في التجاوزات (`config/settings_overrides.yaml`) حيثما ينطبق.
 
-For more information, check [Configurations](https://github.com/chamilo/chamilo-lms/wiki/Configurations) on our wiki.
+لمزيد من المعلومات، تحقق من [التكوينات](https://github.com/chamilo/chamilo-lms/wiki/Configurations) في ويكي الخاص بنا.
 
-## Tips
+---
 
-* **Document your settings** — Keep a record of non-default settings and why you changed them
-* **Change one thing at a time** — When troubleshooting, modify one setting at a time so you can identify the effect
-* **Test in a staging environment** — For significant setting changes, test on a staging server first
+---
+## نصائح
+
+* **وثّق إعداداتك** — احتفظ بسجل للإعدادات غير الافتراضية وسبب تغييرها
+* **غيّر شيئًا واحدًا في كل مرة** — عند استكشاف الأخطاء، قم بتعديل إعداد واحد في كل مرة لتحديد التأثير
+* **اختبر في بيئة تجريبية** — بالنسبة للتغييرات المهمة في الإعدادات، اختبر على خادم تجريبي أولاً

@@ -1,8 +1,8 @@
-# Database Schema
+# مخطط قاعدة البيانات
 
-Chamilo 2.0 maps a large set of Doctrine entities to database tables. The exact counts drift between releases — read the entity directories listed below for the current state.
+يربط Chamilo 2.0 مجموعة كبيرة من كيانات Doctrine بجداول قاعدة البيانات. تتفاوت الأعداد الدقيقة بين الإصدارات — اقرأ مجلدات الكيانات المدرجة أدناه للحالة الحالية.
 
-## Entity locations
+## مواقع الكيانات
 
 | Bundle | Where | Prefix |
 |--------|-------|--------|
@@ -10,83 +10,83 @@ Chamilo 2.0 maps a large set of Doctrine entities to database tables. The exact 
 | CourseBundle | `src/CourseBundle/Entity/` | `c_` (e.g., `c_document`, `c_quiz`, `c_lp`) |
 | LtiBundle | `src/LtiBundle/Entity/` | `lti_` |
 
-## Key Tables
+## الجداول الرئيسية
 
-### User and Authentication
-
-| Table | Purpose |
-|-------|---------|
-| `user` | User accounts |
-| `access_url` | Multi-URL portals |
-| `access_url_rel_user` | User-portal assignments |
-| `usergroup` | Platform-wide user groups |
-
-### Courses
+### المستخدم والمصادقة
 
 | Table | Purpose |
 |-------|---------|
-| `course` | Courses |
-| `course_category` | Course categories |
-| `course_rel_user` | Course enrollments |
+| `user` | حسابات المستخدمين |
+| `access_url` | بوابات متعددة الـ URL |
+| `access_url_rel_user` | تعيينات المستخدم-البوابة |
+| `usergroup` | مجموعات المستخدمين على مستوى المنصة |
 
-### Sessions
-
-| Table | Purpose |
-|-------|---------|
-| `session` | Training sessions |
-| `session_rel_user` | Session enrollments |
-| `session_rel_course` | Courses in sessions |
-| `session_rel_course_rel_user` | User enrollment per session-course |
-
-### Resource System
+### الدورات
 
 | Table | Purpose |
 |-------|---------|
-| `resource_node` | Unified content abstraction |
-| `resource_file` | File attachments |
-| `resource_link` | Visibility/access per context |
-| `resource_type` | Resource type registry |
+| `course` | الدورات |
+| `course_category` | فئات الدورات |
+| `course_rel_user` | تسجيلات الدورات |
 
-### Course Content (c_ prefix)
-
-| Table | Purpose |
-|-------|---------|
-| `c_document` | Documents |
-| `c_quiz` | Exercises/tests |
-| `c_quiz_question` | Quiz questions |
-| `c_quiz_answer` | Question answers |
-| `c_lp` | Learning paths |
-| `c_lp_item` | Learning path items |
-| `c_forum_category` | Forum categories |
-| `c_forum_forum` | Forums |
-| `c_forum_thread` | Forum threads |
-| `c_forum_post` | Forum posts |
-| `c_student_publication` | Assignments/submissions |
-| `c_survey` | Surveys |
-| `c_glossary` | Glossary terms |
-| `c_calendar_event` | Calendar events |
-| `c_attendance` | Attendance sheets |
-
-### Tracking
+### الجلسات
 
 | Table | Purpose |
 |-------|---------|
-| `track_e_login` | Login tracking |
-| `track_e_online` | Online user tracking |
-| `track_e_default` | Generic activity tracking |
-| `gradebook_category` | Gradebook categories |
-| `gradebook_result` | Grades |
+| `session` | جلسات التدريب |
+| `session_rel_user` | تسجيلات الجلسات |
+| `session_rel_course` | الدورات في الجلسات |
+| `session_rel_course_rel_user` | تسجيل المستخدم لكل جلسة-دورة |
 
-### Settings
+### نظام الموارد
 
 | Table | Purpose |
 |-------|---------|
-| `settings` | Platform settings |
-| `settings_options` | Setting option definitions |
+| `resource_node` | تجريد موحد للمحتوى |
+| `resource_file` | مرفقات الملفات |
+| `resource_link` | الرؤية/الوصول حسب السياق |
+| `resource_type` | سجل أنواع الموارد |
 
-## Migrations
+### محتوى الدورة (بادئة c_)
 
-Database schema changes are managed through Doctrine Migrations in `src/CoreBundle/Migrations/`. Run migrations with:
+| Table | Purpose |
+|-------|---------|
+| `c_document` | الوثائق |
+| `c_quiz` | التمارين/الاختبارات |
+| `c_quiz_question` | أسئلة الاختبار |
+| `c_quiz_answer` | إجابات الأسئلة |
+| `c_lp` | مسارات التعلم |
+| `c_lp_item` | عناصر مسار التعلم |
+| `c_forum_category` | فئات المنتديات |
+| `c_forum_forum` | المنتديات |
+| `c_forum_thread` | خيوط المنتديات |
+| `c_forum_post` | منشورات المنتديات |
+| `c_student_publication` | المهام/التقديمات |
+| `c_survey` | الاستطلاعات |
+| `c_glossary` | مصطلحات المعجم |
+| `c_calendar_event` | أحداث التقويم |
+| `c_attendance` | جداول الحضور |
+
+### التتبع
+
+| Table | Purpose |
+|-------|---------|
+| `track_e_login` | تتبع تسجيل الدخول |
+| `track_e_online` | تتبع المستخدمين المتصلين |
+| `track_e_default` | تتبع النشاط العام |
+| `gradebook_category` | فئات دفتر الدرجات |
+| `gradebook_result` | الدرجات |
+
+### الإعدادات
+
+| Table | Purpose |
+|-------|---------|
+| `settings` | إعدادات المنصة |
+| `settings_options` | تعريفات خيارات الإعدادات |
+
+## الترحيلات
+
+يتم إدارة تغييرات مخطط قاعدة البيانات من خلال Doctrine Migrations في `src/CoreBundle/Migrations/`. قم بتشغيل الترحيلات باستخدام:
 
 ```bash
 php bin/console doctrine:migrations:migrate

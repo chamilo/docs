@@ -1,32 +1,31 @@
-# Glossary Settings
+# إعدادات المصطلحات
 
-Behaviour of the course **Glossary** tool.
+سلوك أداة **المصطلحات** في الدورة.
 
-Access these settings under **Administration > Configuration settings > Glossary**. This category contains **3 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+الوصول إلى هذه الإعدادات تحت **الإدارة > إعدادات التكوين > المصطلحات**. تحتوي هذه الفئة على **3 إعدادات**، مدرجة أدناه مع العنوان والتعليق المرسل في إعدادات المنصة (`SettingsCurrentFixtures.php`).
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> يتم عرض اسم المتغير في الكود بخط monospace. استخدمه عند البرمجة عبر API أو عند الحاجة إلى تغيير هذه الإعدادات على المستوى العام عن طريق تحرير [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
 
-## Settings
+## الإعدادات
 
 ### `allow_remove_tags_in_glossary_export`
 
-**Remove HTML tags in glossary export**
+**إزالة علامات HTML في تصدير المصطلحات**
 
-When enabled, HTML tags are removed from glossary term definitions when exporting.
+عند التفعيل، يتم إزالة علامات HTML من تعريفات مصطلحات المصطلحات أثناء التصدير.
 
-*Default: `false`*
+*افتراضي: `false`*
 
 ### `default_glossary_view`
 
-**Default glossary view**
+**عرض المصطلحات الافتراضي**
 
-Choose which view ('table' or 'list') will be used by default in the glossary tool.
+اختر العرض الذي سيتم استخدامه افتراضيًا في أداة المصطلحات ('table' أو 'list').
 
-*Default: `table`*
+*افتراضي: `table`*
 
 ### `show_glossary_in_extra_tools`
 
-**Show the glossary terms in extra tools**
+**عرض مصطلحات المصطلحات في الأدوات الإضافية**
 
-From here you can configure how to add the glossary terms in extra tools as learning path and exercice tool
-
+من هنا يمكنك تكوين كيفية إضافة مصطلحات المصطلحات في الأدوات الإضافية مثل أداة مسار التعلم وأداة التمرين

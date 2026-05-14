@@ -1,39 +1,39 @@
-# Coding Conventions
+# قواعد البرمجة
 
 ## PHP
 
-* **Standard**: PSR-12 coding style
-* **Type declarations**: Use PHP 8.2 type declarations (parameter types, return types, property types)
-* **Strict types**: All PHP files should declare `strict_types=1`
-* **Namespaces**: Follow PSR-4 autoloading (e.g., `Chamilo\CoreBundle\Entity\User`)
-* **Symfony standards**: Follow Symfony's coding standards and best practices
+* **المعيار**: نمط ترميز PSR-12
+* **إعلانات الأنواع**: استخدم إعلانات الأنواع في PHP 8.2 (أنواع المعاملات، أنواع الإرجاع، أنواع الخصائص)
+* **الأنواع الصارمة**: يجب أن تعلن جميع ملفات PHP `strict_types=1`
+* **المساحات الاسمية**: اتبع التحميل التلقائي PSR-4 (مثال: `Chamilo\CoreBundle\Entity\User`)
+* **معايير Symfony**: اتبع معايير الترميز وأفضل الممارسات في Symfony
 
 ## JavaScript/Vue
 
-* **ESLint + Prettier**: Code is linted with ESLint and formatted with Prettier; configuration is in `eslint.config.mjs` at the project root. `prettier-plugin-tailwindcss` is also enabled for automatic Tailwind class sorting.
-* **Composition API**: Use Vue 3's `<script setup>` syntax for new components
-* **TypeScript**: TypeScript is supported; use it for type-safe code
+* **ESLint + Prettier**: يتم فحص الشفرة باستخدام ESLint وتنسيقها باستخدام Prettier؛ الإعدادات موجودة في `eslint.config.mjs` في جذر المشروع. كما يتم تمكين `prettier-plugin-tailwindcss` لترتيب فئات Tailwind تلقائيًا.
+* **واجهة البرمجة التكوينية**: استخدم بنية `<script setup>` في Vue 3 للمكونات الجديدة
+* **TypeScript**: يتم دعم TypeScript؛ استخدمه للشفرة الآمنة من حيث الأنواع
 
 ## CSS
 
-* **Tailwind CSS**: Prefer utility classes over custom CSS
-* **BEM naming**: When custom CSS is needed, use BEM naming convention
-* **SCSS**: Use SCSS for complex stylesheets
+* **Tailwind CSS**: فضّل فئات المرافق على CSS المخصص
+* **تسمية BEM**: عند الحاجة إلى CSS مخصص، استخدم اتفاقية تسمية BEM
+* **SCSS**: استخدم SCSS لأوراق الأنماط المعقدة
 
-## PHP Static Analysis and Refactoring Tools
+## أدوات التحليل الثابت وإعادة الهيكلة لـ PHP
 
-The project ships configuration for three additional tools:
+يأتي المشروع مع إعدادات لثلاث أدوات إضافية:
 
 | Tool | Config file | Purpose |
 |------|------------|---------|
-| **PHPStan** | `phpstan.neon` | Static analysis (level 5, scans `src/` and test directories) |
-| **Psalm** | `psalm.xml` | Second static analysis pass; runs in CI on every push |
-| **Rector** | `rector.php` | Automated code transformations and upgrades |
+| **PHPStan** | `phpstan.neon` | التحليل الثابت (المستوى 5، يفحص `src/` ومجلدات الاختبار) |
+| **Psalm** | `psalm.xml` | جولة ثانية من التحليل الثابت؛ تعمل في CI عند كل دفع |
+| **Rector** | `rector.php` | تحويلات الشفرة التلقائية والترقيات |
 
-Run them via composer shortcuts: `composer phpstan`, `composer psalm`. See [Testing](../contributing/testing.md) for full commands.
+شغّلها عبر اختصارات composer: `composer phpstan`، `composer psalm`. انظر [Testing](../contributing/testing.md) للحصول على الأوامر الكاملة.
 
-## General
+## عام
 
-* **English**: All code comments, variable names, and documentation should be in English
-* **Translations**: All user-facing text should use the translation system (Vue I18n for frontend, Symfony Translator for backend)
-* **No magic values**: Use constants or enums instead of hardcoded values
+* **الإنجليزية**: يجب أن تكون جميع تعليقات الشفرة، وأسماء المتغيرات، والوثائق باللغة الإنجليزية
+* **الترجمات**: يجب أن تستخدم جميع النصوص المواجهة للمستخدم نظام الترجمة (Vue I18n للواجهة الأمامية، Symfony Translator للواجهة الخلفية)
+* **لا قيم سحرية**: استخدم الثوابت أو التعدادات بدلاً من القيم المبرمجة مسبقًا

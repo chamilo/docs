@@ -1,53 +1,53 @@
-# Groups
+# المجموعات
 
-Groups allow you to divide your learners into smaller teams for collaborative work. Each group can have its own shared tools, such as documents, forums, and a wiki.
+تتيح المجموعات لك تقسيم المتعلمين إلى فرق أصغر للعمل التعاوني. يمكن لكل مجموعة أن تمتلك أدوات مشتركة خاصة بها، مثل الوثائق والمنتديات وويكي.
 
-## Creating Groups
+## إنشاء المجموعات
 
-1. Open the **Groups** tool from the course homepage
-2. Click **Create groups**
-3. Configure the group settings:
-   * **Number of groups** — How many groups to create
-   * **Maximum members per group** — The size limit for each group (0 for unlimited)
-   * **Self-registration** — Whether learners can join groups on their own
-   * **Self-unregistration** — Whether learners can leave a group on their own
+1. افتح أداة **المجموعات** من الصفحة الرئيسية للمقرر الدراسي
+2. انقر على **إنشاء مجموعات**
+3. قم بتكوين إعدادات المجموعة:
+   * **عدد المجموعات** — عدد المجموعات التي سيتم إنشاؤها
+   * **الحد الأقصى للأعضاء في المجموعة** — حد الحجم لكل مجموعة (0 لعدد غير محدود)
+   * **التسجيل الذاتي** — ما إذا كان بإمكان المتعلمين الانضمام إلى المجموعات بأنفسهم
+   * **إلغاء التسجيل الذاتي** — ما إذا كان بإمكان المتعلمين مغادرة المجموعة بأنفسهم
 
-## Group Tools
+## أدوات المجموعة
 
-![The groups overview showing available group tools and member counts](/.gitbook/assets/groups-overview.png)
+![نظرة عامة على المجموعات تظهر الأدوات المتاحة للمجموعة وعدد الأعضاء](/.gitbook/assets/groups-overview.png)
 
-Each group can have access to a subset of course tools that are shared only among group members:
+يمكن لكل مجموعة الوصول إلى مجموعة فرعية من أدوات المقرر الدراسي التي تكون مشتركة فقط بين أعضاء المجموعة:
 
-* **Documents** — A shared file space for the group
-* **Forum** — A group-specific discussion forum
-* **Wiki** — A collaborative wiki for the group
-* **Chat** — A chat space for the group
-* **Agenda** — Group-scoped calendar events
-* **Announcements** — Send announcements to group members only
-* **Assignments** — Collect work from the group
+* **Documents** — مساحة ملفات مشتركة للمجموعة
+* **Forum** — منتدى نقاش خاص بالمجموعة
+* **Wiki** — ويكي تعاوني للمجموعة
+* **Chat** — مساحة دردشة للمجموعة
+* **Agenda** — أحداث تقويم محدودة بالمجموعة
+* **Announcements** — إرسال إعلانات إلى أعضاء المجموعة فقط
+* **Assignments** — جمع أعمال من المجموعة
 
-For each tool you can choose its access level: **Not available**, **Public** (any course member), or **Private** (group members only). These settings can be applied at the group category level, so multiple groups in the same category share the same tool configuration.
+بالنسبة لكل أداة، يمكنك اختيار مستوى الوصول الخاص بها: **غير متاح**، **عام** (أي عضو في المقرر الدراسي)، أو **خاص** (أعضاء المجموعة فقط). يمكن تطبيق هذه الإعدادات على مستوى فئة المجموعة، بحيث تشترك عدة مجموعات في نفس الفئة في تكوين الأداة نفسه.
 
-## Managing Group Members
+## إدارة أعضاء المجموعة
 
-You can manage group membership in several ways:
+يمكنك إدارة عضوية المجموعة بطرق عدة:
 
-* **Manual assignment** — Add specific learners to each group
-* **Fill selected groups** — Automatically distribute unsubscribed learners across the selected groups, respecting each group's capacity and the per-user group limit
-* **Self-registration** — Allow learners to choose their own group
-* **Import from classes** — Auto-create groups from the classes already enrolled in the course
+* **التعيين اليدوي** — إضافة متعلمين محددين إلى كل مجموعة
+* **ملء المجموعات المحددة** — توزيع المتعلمين غير المسجلين تلقائيًا عبر المجموعات المحددة، مع احترام سعة كل مجموعة والحد الأقصى للمجموعات لكل مستخدم
+* **التسجيل الذاتي** — السماح للمتعلمين باختيار مجموعتهم الخاصة
+* **الاستيراد من الفصول** — إنشاء مجموعات تلقائيًا من الفصول المسجلة بالفعل في المقرر الدراسي
 
-To manually manage members, click on a group name, then use the **Members** section to add or remove learners.
+لإدارة الأعضاء يدويًا، انقر على اسم مجموعة، ثم استخدم قسم **الأعضاء** لإضافة أو إزالة المتعلمين.
 
-## Group Tutors
+## مدرسو المجموعة
 
-You can assign **tutors** to groups. A tutor is typically a learner or assistant who helps manage the group's work. Tutors may have additional permissions within the group, such as moderating the group forum.
+يمكنك تعيين **مدرسين** للمجموعات. المدرس عادةً ما يكون متعلمًا أو مساعدًا يساعد في إدارة عمل المجموعة. قد يحصل المدرسون على أذونات إضافية داخل المجموعة، مثل الإشراف على منتدى المجموعة.
 
-## Monitoring Group Work
+## مراقبة عمل المجموعة
 
-As the course teacher, you can access all groups and their shared tools regardless of membership. This allows you to:
+كمدرس المقرر الدراسي، يمكنك الوصول إلى جميع المجموعات وأدواتها المشتركة بغض النظر عن العضوية. هذا يتيح لك:
 
-* Review documents uploaded by each group
-* Read group forum discussions
-* Check wiki contributions
-* Assess group collaboration
+* مراجعة الوثائق التي قامت بتحميلها كل مجموعة
+* قراءة مناقشات منتدى المجموعة
+* التحقق من مساهمات الويكي
+* تقييم التعاون داخل المجموعة

@@ -1,117 +1,115 @@
-# Languages Settings
+# إعدادات اللغات
 
-Available languages, default language, and how Chamilo resolves which language to display.
+اللغات المتاحة، واللغة الافتراضية، وكيفية تحديد Chamilo للغة التي سيتم عرضها.
 
-Access these settings under **Administration > Configuration settings > Languages**. This category contains **12 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+يمكن الوصول إلى هذه الإعدادات تحت **إدارة > إعدادات التكوين > اللغات**. تحتوي هذه الفئة على **12 إعدادًا**، مدرجة أدناه مع العنوان والتعليق المرسل في إعدادات المنصة (`SettingsCurrentFixtures.php`).
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> يتم عرض اسم المتغير في الكود بخط monospace. استخدمه عند البرمجة عبر API أو عند الحاجة إلى تغيير هذه الإعدادات على المستوى العام عن طريق تحرير [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
 
-## Settings
+## الإعدادات
 
 ### `allow_course_multiple_languages`
 
-**Multiple-language courses**
+**دورات متعددة اللغات**
 
-Enable courses managed in more than one language. This option adds a language selector within the course page to let users switch easily, and adds a 'multiple_language' extra field to courses which allows for remote management procedures.
+تمكين الدورات التي تُدار بلغة أو أكثر. تضيف هذه الخيار محدد لغة داخل صفحة الدورة للسماح للمستخدمين بالتبديل بسهولة، وتضيف حقلًا إضافيًا 'multiple_language' إلى الدورات مما يسمح بإجراءات الإدارة عن بعد.
 
-*Default: `false`*
+*الافتراضي: `false`*
 
 
 ### `allow_use_sub_language`
 
-**Allow definition and use of sub-languages**
+**السماح بتعريف واستخدام اللغات الفرعية**
 
-By enabling this option, you will be able to define variations for each of the language terms used in the platform's interface, in the form of a new language based on and extending an existing language. You'll find this option in the languages section of the administration panel.
+بتفعيل هذا الخيار، ستتمكن من تعريف الاختلافات لكل من مصطلحات اللغة المستخدمة في واجهة المنصة، في شكل لغة جديدة تستند إلى لغة موجودة وتمتد إليها. ستجد هذا الخيار في قسم اللغات في لوحة الإدارة.
 
-*Default: `false`*
+*الافتراضي: `false`*
 
 ### `auto_detect_language_custom_pages`
 
-**Enable language auto-detect in custom pages**
+**تمكين كشف اللغة تلقائيًا في الصفحات المخصصة**
 
-If you use custom pages, enable this if you want to have a language detector there present the page in the user's browser language, or disable to force the language to be the default platform language.
+إذا كنت تستخدم صفحات مخصصة، قم بتفعيل هذا إذا كنت تريد وجود كاشف لغة هناك لعرض الصفحة بلغة متصفح المستخدم، أو قم بتعطيله لفرض اللغة لتكون اللغة الافتراضية للمنصة.
 
-*Default: `true`*
+*الافتراضي: `true`*
 
 
 ### `language_flags_by_country`
 
-**Language flags**
+**أعلام اللغات**
 
-Use country flags for languages. This is not enabled by default because some languages are not strictly attached to a country, which can lead to frustration for some users.
+استخدام أعلام الدول للغات. هذا غير مفعل افتراضيًا لأن بعض اللغات غير مرتبطة بشكل صارم بدولة، مما قد يؤدي إلى إحباط بعض المستخدمين.
 
-*Default: `false`*
+*الافتراضي: `false`*
 
 
 ### `language_priority_1`
 
-**Highest priority language**
+**أعلى أولوية لغة**
 
-Primary language selected when multiple language contexts are set.
+اللغة الأساسية المحددة عند تعيين سياقات لغات متعددة.
 
-*Default: `course_lang`*
+*الافتراضي: `course_lang`*
 
 
 ### `language_priority_2`
 
-**Secondary priority language**
+**الأولوية الثانوية للغة**
 
-Secondary fallback language if first priority is unavailable or out of context.
+اللغة الاحتياطية الثانوية إذا كانت الأولوية الأولى غير متاحة أو خارج السياق.
 
-*Default: `user_profil_lang`*
+*الافتراضي: `user_profil_lang`*
 
 
 ### `language_priority_3`
 
-**Third priority language**
+**الأولوية الثالثة للغة**
 
-Tertiary language fallback if higher priorities fail.
+اللغة الاحتياطية الثالثة إذا فشلت الأولويات الأعلى.
 
-*Default: `user_selected_lang`*
+*الافتراضي: `user_selected_lang`*
 
 
 ### `language_priority_4`
 
-**Fourth priority language**
+**الأولوية الرابعة للغة**
 
-Last language fallback option by order of priority.
+خيار اللغة الاحتياطية الأخير حسب ترتيب الأولوية.
 
-*Default: `platform_lang`*
+*الافتراضي: `platform_lang`*
 
 
 ### `platform_language`
 
-**Default platform language**
+**لغة المنصة الافتراضية**
 
-Main language, used by default when no user language is set.
+اللغة الرئيسية، المستخدمة افتراضيًا عند عدم تعيين لغة مستخدم.
 
-*Default: `en`*
+*الافتراضي: `en`*
 
 
 ### `show_different_course_language`
 
-**Show course languages**
+**عرض لغات الدورة**
 
-Show the language each course is in, next to the course title, on the homepage courses list
+عرض اللغة التي تُدرس بها كل دورة، بجانب عنوان الدورة، في قائمة الدورات على الصفحة الرئيسية
 
-*Default: `true`*
+*الافتراضي: `true`*
 
 
 ### `show_language_selector_in_menu`
 
-**Language switcher in main menu**
+**مبدل اللغة في القائمة الرئيسية**
 
-Display a language selector in the main menu that immediately updates the language preference of the user. This can be useful in multilingual portals where learners have to switch from one language to another for their learning.
+عرض محدد لغة في القائمة الرئيسية الذي يحدث تفضيل اللغة للمستخدم فورًا. يمكن أن يكون هذا مفيدًا في البوابات متعددة اللغات حيث يحتاج المتعلمون إلى التبديل من لغة إلى أخرى للتعلم.
 
-*Default: `true`*
+*الافتراضي: `true`*
 
 
 ### `template_activate_language_filter`
 
-**Multiple-language document templates**
+**قوالب المستندات متعددة اللغات**
 
-Enable document templates (at the platform or course level) to be configured for specific languages.
+تمكين قوالب المستندات (على مستوى المنصة أو الدورة) لتكوينها للغات محددة.
 
-*Default: `false`*
-
-
+*الافتراضي: `false`*

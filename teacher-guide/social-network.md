@@ -1,53 +1,53 @@
-# Social Network
+# الشبكة الاجتماعية
 
-Chamilo includes a built-in social network that lets you connect with other users on the platform. This feature may be enabled or disabled by your platform administrator.
+يحتوي Chamilo على شبكة اجتماعية مدمجة تتيح لك التواصل مع مستخدمين آخرين على المنصة. يمكن لمدير المنصة تفعيل هذه الميزة أو إلغاء تفعيلها.
 
-## Accessing the Social Network
+## الوصول إلى الشبكة الاجتماعية
 
-Click **Social network** in the sidebar to access the social features. If you do not see this option, your administrator may have disabled it.
+انقر على **الشبكة الاجتماعية** في الشريط الجانبي للوصول إلى الميزات الاجتماعية. إذا لم ترَ هذا الخيار، فقد يكون مديرك قد ألغى تفعيله.
 
-## Your Social Wall
+## جدارك الاجتماعي
 
-![The social wall showing a feed of posts, likes, and comments from connections](/.gitbook/assets/social-wall.png)
+![جدار اجتماعي يعرض تغذية من المنشورات والإعجابات والتعليقات من الاتصالات](/.gitbook/assets/social-wall.png)
 
-The social wall shows a feed of activity from you and your connections. You can:
+يعرض الجدار الاجتماعي تغذية للنشاط منك ومن اتصالاتك. يمكنك:
 
-* **Post updates** — Share text and links with your connections
-* **Like and comment** — Interact with posts from other users
-* **View activity** — See recent posts from people you are connected with
+* **نشر تحديثات** — مشاركة النصوص والروابط مع اتصالاتك
+* **الإعجاب والتعليق** — التفاعل مع المنشورات من مستخدمين آخرين
+* **عرض النشاط** — رؤية المنشورات الأخيرة من الأشخاص المتصلين بك
 
-## Connections
+## الاتصالات
 
-You can connect with other users on the platform:
+يمكنك الاتصال بمستخدمين آخرين على المنصة:
 
-* **Search for users** — Find colleagues and learners by name
-* **Send connection requests** — Invite other users to connect
-* **Manage connections** — Accept, decline, or remove connections
+* **البحث عن المستخدمين** — العثور على الزملاء والمتعلمين بالاسم
+* **إرسال طلبات الاتصال** — دعوة مستخدمين آخرين للاتصال
+* **إدارة الاتصالات** — قبول أو رفض أو إزالة الاتصالات
 
-> **Note:** Learners can only search for and add other learners as friends — they cannot send friend requests to teachers. As a teacher, however, you can search for learners and request to add them as friends.
+> **ملاحظة:** يمكن للمتعلمين فقط البحث عن متعلمين آخرين وإضافتهم كأصدقاء — لا يمكنهم إرسال طلبات صداقة إلى المعلمين. أما كمعلم، فيمكنك البحث عن المتعلمين وطلب إضافتهم كأصدقاء.
 
-## Messaging
+## المراسلة
 
-The social network integrates with the platform's messaging system:
+تتكامل الشبكة الاجتماعية مع نظام المراسلة في المنصة:
 
-* **Send messages** <img src="/.gitbook/assets/icons/mdi-email-plus-outline.svg" alt="New message" data-size="line"> — Write direct messages to other users
-* **Inbox** <img src="/.gitbook/assets/icons/mdi-inbox.svg" alt="Inbox" data-size="line"> — Read and reply to received messages
-* **Sent messages** <img src="/.gitbook/assets/icons/mdi-send-check.svg" alt="Sent" data-size="line"> — Review messages you have sent
+* **إرسال الرسائل** <img src="/.gitbook/assets/icons/mdi-email-plus-outline.svg" alt="رسالة جديدة" data-size="line"> — كتابة رسائل مباشرة إلى مستخدمين آخرين
+* **صندوق الوارد** <img src="/.gitbook/assets/icons/mdi-inbox.svg" alt="صندوق الوارد" data-size="line"> — قراءة الرد على الرسائل المستلمة
+* **الرسائل المرسلة** <img src="/.gitbook/assets/icons/mdi-send-check.svg" alt="مرسلة" data-size="line"> — مراجعة الرسائل التي أرسلتها
 
-### Composing and Replying
+### صياغة الرسائل والرد عليها
 
-When composing a new message, you can address it to multiple recipients at once. Similarly, when replying to a message, you can include multiple users in your reply — useful for group coordination without a formal social group.
+عند صياغة رسالة جديدة، يمكنك توجيهها إلى عدة مستلمين في وقت واحد. وبالمثل، عند الرد على رسالة، يمكنك تضمين مستخدمين متعددين في ردك — وهو أمر مفيد لتنسيق المجموعات دون الحاجة إلى مجموعة اجتماعية رسمية.
 
-### Message Tags
+### علامات الرسائل
 
-If your platform configuration uses message tags (typically managed at the platform level), your inbox shows a tag list you can click to filter messages by that tag, which makes locating related threads faster as your inbox grows.
+إذا كانت تكوين المنصة تستخدم علامات الرسائل (عادةً ما تُدار على مستوى المنصة)، فإن صندوق الوارد الخاص بك يعرض قائمة بالعلامات يمكنك النقر عليها لتصفية الرسائل حسب تلك العلامة، مما يجعل العثور على الخيوط ذات الصلة أسرع مع نمو صندوق الوارد.
 
-## Social Groups
+## المجموعات الاجتماعية
 
-Social groups allow users to gather around common interests or projects:
+تتيح المجموعات الاجتماعية للمستخدمين التجمع حول اهتمامات أو مشاريع مشتركة:
 
-* **Join groups** — Browse and join existing groups
-* **Create groups** — Start a new social group (if permitted)
-* **Group discussions** — Share posts within a group context
+* **الانضمام إلى المجموعات** — تصفح الانضمام إلى مجموعات موجودة
+* **إنشاء مجموعات** — بدء مجموعة اجتماعية جديدة (إذا سُمح بذلك)
+* **مناقشات المجموعة** — مشاركة المنشورات في سياق المجموعة
 
-> Social groups are different from **course groups** (covered in the [Groups](collaboration-and-communication/groups.md) section). Course groups are tied to a specific course, while social groups are platform-wide.
+> تختلف المجموعات الاجتماعية عن **مجموعات الدورة** (التي غُطيت في قسم [المجموعات](collaboration-and-communication/groups.md)). ترتبط مجموعات الدورة بدورة محددة، بينما تكون المجموعات الاجتماعية على مستوى المنصة بأكملها.

@@ -1,8 +1,8 @@
-# API
+# واجهة برمجة التطبيقات (API)
 
-Chamilo 2.0 exposes a REST API built on **API Platform 3.0**. The API provides programmatic access to platform resources and is the same API used by the Vue frontend.
+يوفر **Chamilo 2.0** واجهة برمجة تطبيقات REST مبنية على **API Platform 3.0**. توفر الواجهة البرمجية الوصول البرمجي إلى موارد المنصة، وهي نفس الواجهة البرمجية التي يستخدمها الواجهة الأمامية Vue.
 
-* **[Authentication](authentication.md)** — JWT token-based authentication
-* **[Endpoints Reference](endpoints-reference.md)** — Overview of available API resources
-* **[Custom Actions](custom-actions.md)** — Specialized endpoints beyond standard CRUD
-* **[Webhooks](webhooks.md)** — Event-driven notifications to external systems
+* **[المصادقة](authentication.md)** — مصادقة قائمة على رمز JWT
+* **[مرجع نقاط النهاية](endpoints-reference.md)** — نظرة عامة على موارد واجهة البرمجة المتاحة
+* **[الإجراءات المخصصة](custom-actions.md)** — نقاط نهاية متخصصة تتجاوز العمليات القياسية CRUD
+* **[الويب هوكس](webhooks.md)** — إشعارات مدفوعة بالأحداث إلى الأنظمة الخارجية

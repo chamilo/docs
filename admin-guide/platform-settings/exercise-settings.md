@@ -1,534 +1,537 @@
-# Exercises (Tests) Settings
+# إعدادات التمارين (الاختبارات)
 
-Defaults and behaviour of the **Exercises (Tests)** tool — question display, scoring, attempts, and similar.
+الإعدادات الافتراضية وسلوك أداة **التمارين (الاختبارات)** — عرض الأسئلة، والتسجيل، والمحاولات، وما شابه.
 
-Access these settings under **Administration > Configuration settings > Exercises (Tests)**. This category contains **63 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+الوصول إلى هذه الإعدادات تحت **الإدارة > إعدادات التكوين > التمارين (الاختبارات)**. تحتوي هذه الفئة على **63 إعدادًا**، مدرجة أدناه مع العنوان والتعليق المرسل في إعدادات المنصة (`SettingsCurrentFixtures.php`).
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> يتم عرض اسم المتغير في الكود بخط monospace. استخدمه عند البرمجة عبر `API` أو عند الحاجة إلى تغيير هذه الإعدادات على المستوى العام عن طريق تحرير [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
 
-## Settings
+## الإعدادات
 
 ### `add_exercise_best_attempt_in_report`
 
-**Enable display of best score attempt**
+**تمكين عرض أفضل محاولة تسجيل**
 
-Provide a list of courses and tests' IDs that will show the best score attempt for any learner in the reports.
+تقديم قائمة بالدورات ومعرفات الاختبارات التي ستعرض أفضل محاولة تسجيل لأي متعلم في التقارير.
 
 ### `allow_coach_feedback_exercises`
 
-**Allow coaches to comment in review of exercises**
+**السماح للمدربين بالتعليق في مراجعة التمارين**
 
-Allow coaches to edit feedback during review of exercises
+السماح للمدربين بتحرير التعليقات التوضيحية أثناء مراجعة التمارين
 
-*Default: `true`*
+*افتراضي: `true`*
 
 ### `allow_edit_exercise_in_lp`
 
-**Allow teachers to edit tests in learning paths**
+**السماح للمعلمين بتحرير الاختبارات في مسارات التعلم**
 
-By default, Chamilo prevents you from editing tests that are included inside a learning path. This is to avoid changes that would affect learners (past and future) differently regarding the results and/or progress in the learning path. This option allows teachers to bypass this restriction.
-
+افتراضيًا، يمنع Chamilo تحرير الاختبارات المضمنة داخل مسار تعلم. هذا لتجنب التغييرات التي قد تؤثر على المتعلمين (الماضي والمستقبل) بشكل مختلف فيما يتعلق بالنتائج و/أو التقدم في مسار التعلم. تسمح هذه الخيار للمعلمين بتجاوز هذا التقييد.
 
 ### `allow_exercise_categories`
 
-**Enable test categories**
+**تمكين فئات الاختبار**
 
-Test categories are not enabled by default because they add a level of complexity. Enable this feature to show all test categories related management icons appear.
+فئات الاختبار غير مفعلة افتراضيًا لأنها تضيف مستوى من التعقيد. قم بتمكين هذه الميزة لإظهار جميع أيقونات إدارة فئات الاختبار المتعلقة.
 
-*Default: `false`*
+*افتراضي: `false`*
 
 ### `allow_mandatory_question_in_category`
 
-**Enable selecting mandatory questions**
+**تمكين اختيار الأسئلة الإلزامية**
 
-Enable the selection of mandatory questions in a test when using random categories.
+تمكين اختيار الأسئلة الإلزامية في اختبار عند استخدام فئات عشوائية.
 
-*Default: `false`*
+*افتراضي: `false`*
 
 ### `allow_notification_setting_per_exercise`
 
-**Test notification settings at test-level**
+**إعدادات إشعارات الاختبار على مستوى الاختبار**
 
-Enable the configuration of test submission notifications at the test level rather than the course level. Falls back to course-level settings if not defined at test-level.
+تمكين تكوين إشعارات تقديم الاختبار على مستوى الاختبار بدلاً من مستوى الدورة. يعود إلى إعدادات مستوى الدورة إذا لم يتم تعريفها على مستوى الاختبار.
 
-*Default: `false`*
+*افتراضي: `false`*
 
 ### `allow_quick_question_description_popup`
 
-**Quick image addition to question**
+**إضافة صورة سريعة إلى السؤال**
 
-Enable an additional icon in the test questions list to add an image as question description. This vastly accelerates question edition when the questions are in the title and the description only includes an image.
+تمكين أيقونة إضافية في قائمة أسئلة الاختبار لإضافة صورة كوصف للسؤال. هذا يسرع بشكل كبير تحرير الأسئلة عندما تكون الأسئلة في العنوان والوصف يحتوي فقط على صورة.
 
-*Default: `false`*
+*افتراضي: `false`*
 
 ### `allow_quiz_question_feedback`
 
-**Add question feedback if incorrect answer**
+**إضافة تعليقات توضيحية للسؤال إذا كان الجواب خاطئًا**
 
-By default, Chamilo allows you to show feedback on each answer in a question. With this option, an additional field is created to provide pre-defined feedback to the whole question. This feedback will only appear if the user answered incorrectly.
+افتراضيًا، يسمح Chamilo بعرض التعليقات التوضيحية لكل إجابة في سؤال. مع هذا الخيار، يتم إنشاء حقل إضافي لتقديم تعليقات توضيحية محددة مسبقًا للسؤال بأكمله. ستظهر هذه التعليقات التوضيحية فقط إذا أجاب المستخدم بشكل خاطئ.
 
-*Default: `false`*
+*افتراضي: `false`*
 
 ### `allow_quiz_results_page_config`
 
-**Enable test results page configuration**
+**تمكين تكوين صفحة نتائج الاختبار**
 
-Define an array of settings you want to apply to all tests results pages. Settings can be ‘hide_question_score’, ‘hide_expected_answer’, ‘hide_category_table’, ‘hide_correct_answered_questions’, ‘hide_total_score’ and possibly more in the future. Look for ‘getPageConfigurationAttribute’ in the code to see what’s in use.
+تحديد مصفوفة من الإعدادات التي تريد تطبيقها على جميع صفحات نتائج الاختبارات. يمكن أن تكون الإعدادات ‘hide_question_score’، ‘hide_expected_answer’، ‘hide_category_table’، ‘hide_correct_answered_questions’، ‘hide_total_score’ وربما المزيد في المستقبل. ابحث عن ‘getPageConfigurationAttribute’ في الكود لمعرفة ما هو مستخدم.
 
-*Default: `false`*
+*افتراضي: `false`*
 
 ### `allow_quiz_show_previous_button_setting`
 
-**Show 'previous' button in test to navigate questions**
+**إظهار زر 'سابق' في الاختبار للتنقل بين الأسئلة**
 
-Set this to false to disable the 'previous' button when answering questions in a test, thus forcing users to always move ahead.
+اضبط هذا على false لتعطيل زر 'previous' عند الإجابة على الأسئلة في اختبار، مما يجبر المستخدمين على التقدم دائمًا.
 
-*Default: `false`*
+*افتراضي: `false`*
 
 ### `allow_teacher_comment_audio`
 
-**Audio feedback to submitted answers**
+**تعليقات صوتية على الإجابات المقدمة**
 
-Allow teachers to provide feedback to users through audio (alternatively to text) on each question in a test.
+السماح للمعلمين بتقديم تعليقات توضيحية للمستخدمين عبر الصوت (بديلًا عن النص) على كل سؤال في اختبار.
 
-*Default: `true`*
+*افتراضي: `true`*
 
 ### `allow_time_per_question`
 
-**Enable time per question in tests**
+**تمكين الوقت لكل سؤال في الاختبارات**
 
-By default, it is only possible to limit the time per test. Limiting it per question adds an extra layer of possibilities, and you can (carefully) combine both.
+افتراضيًا، من الممكن فقط تحديد الوقت لكل اختبار. تحديده لكل سؤال يضيف طبقة إضافية من الإمكانيات، ويمكنك (بحذر) دمج الاثنين.
 
-*Default: `false`*
+*افتراضي: `false`*
 
 ### `block_category_questions`
 
-**Lock questions of previous categories in a test**
+**قفل أسئلة الفئات السابقة في الاختبار**
 
-When using this option, an additional option will appear in the test's configuration. When using a test with multiple question categories and asking for a distribution by category, this will allow the user to navigate questions per category. Once a category is finished, (s)he moves to the next category and cannot return to the previous category.
+عند استخدام هذا الخيار، سيظهر خيار إضافي في تكوين الاختبار. عند استخدام اختبار مع فئات أسئلة متعددة وطلب توزيع حسب الفئة، سيسمح هذا للمستخدم بالتنقل في الأسئلة حسب الفئة. بمجرد الانتهاء من فئة، ينتقل إلى الفئة التالية ولا يمكنه العودة إلى الفئة السابقة.
 
-*Default: `false`*
+*افتراضي: `false`*
 
 ### `block_quiz_mail_notification_general_coach`
 
-**Block sending test notifications to general coach**
+**حظر إرسال إشعارات الاختبار إلى المدرب العام**
 
-Learners completing a test usually sends notifications to coaches, including the general session coach. Enable this option to omit the general coach from these notifications.
+عادةً، إكمال المتعلمين لاختبار يرسل إشعارات إلى المدربين، بما في ذلك مدرب الجلسة العام. قم بتمكين هذا الخيار لاستثناء المدرب العام من هذه الإشعارات.
 
-*Default: `false`*
+*افتراضي: `false`*
 
+---
 ### `configure_exercise_visibility_in_course`
 
-**Enable to bypass the configuration of Exercise invisible in session at a base course level**
+**تفعيل تجاوز تكوين التمرين غير المرئي في الجلسة على مستوى الدورة الأساسية**
 
-To enable the configuration of the exercise invisibility in session in the base course to by pass the global configuration. If not set the global parameter is used.
+لتفعيل تكوين عدم رؤية التمرين في الجلسة في الدورة الأساسية لتجاوز التكوين العام. إذا لم يتم تعيينه، سيتم استخدام المعلمة العامة.
 
-*Default: `false`*
+*القيمة الافتراضية: `false`*
 
 ### `disable_clean_exercise_results_for_teachers`
 
-**Disable 'clean results' for teachers**
+**تعطيل "تنظيف النتائج" للمعلمين**
 
-Disable the option to delete test results from the tests list. This is often used when less-careful teachers manage courses, to avoid critical mistakes.
+تعطيل الخيار لحذف نتائج الاختبارات من قائمة الاختبارات. يُستخدم هذا غالباً عندما يدير معلمون أقل حذراً الدورات، لتجنب الأخطاء الحرجة.
 
-*Default: `true`*
+*القيمة الافتراضية: `true`*
 
 ### `email_alert_manager_on_new_quiz`
 
-**Default e-mail alert setting on new quiz**
+**إعداد تنبيه البريد الإلكتروني الافتراضي عند الإجابة على اختبار جديد**
 
-Whether you want course managers (teachers) to be notified by e-mail when a quiz is answered by a student. This is the default value to be given to all new courses, but each teacher can still change this setting in his/her own course.
+هل تريد إخطار مديري الدورة (المعلمين) بالبريد الإلكتروني عندما يجيب طالب على اختبار. هذه هي القيمة الافتراضية التي تُعطى لجميع الدورات الجديدة، لكن كل معلم يمكنه تغيير هذا الإعداد في دورته الخاصة.
 
-*Default: `true`*
+*القيمة الافتراضية: `true`*
 
 ### `enable_quiz_scenario`
 
-**Enable Quiz scenario**
+**تفعيل سيناريو الاختبار**
 
-From here you will be able to create exercises that propose different questions depending in the user's answers.
+من هنا، ستتمكن من إنشاء تمارين تقترح أسئلة مختلفة بناءً على إجابات المستخدم.
 
-*Default: `true`*
+*القيمة الافتراضية: `true`*
 
 ### `exercise_additional_teacher_modify_actions`
 
-**Additional links for teachers in tests list**
+**روابط إضافية للمعلمين في قائمة الاختبارات**
 
-Configure callback elements to generate new action icons for teachers to the right side of the tests list, in the form of an array, e.g. ['myplugin' => ['MyPlugin', 'urlGeneratorCallback']]
+تكوين عناصر الاستدعاء المرجعي لإنشاء أيقونات إجراءات جديدة للمعلمين على الجانب الأيمن من قائمة الاختبارات، في شكل مصفوفة، مثل ['myplugin' => ['MyPlugin', 'urlGeneratorCallback']]
 
 ### `exercise_attempts_report_show_username`
 
-**Show username in test results page**
+**عرض اسم المستخدم في صفحة نتائج الاختبار**
 
-Show the username (instead or, or as well as, the user info) on the test results page.
+عرض اسم المستخدم (بدلاً من، أو بالإضافة إلى، معلومات المستخدم) في صفحة نتائج الاختبار.
 
-*Default: `false`*
+*القيمة الافتراضية: `false`*
 
 ### `exercise_category_report_user_extra_fields`
 
-**Add user extra fields in exercise category report**
+**إضافة حقول إضافية للمستخدم في تقرير فئة التمرين**
 
-Define an array with the list of user extra fields to add to the report.
+تحديد مصفوفة تحتوي على قائمة الحقول الإضافية للمستخدم لإضافتها إلى التقرير.
 
 ### `exercise_category_round_score_in_export`
 
-**Round score in test exports**
+**تقريب الدرجة في تصدير الاختبارات**
 
-When enabled, test scores are rounded to the nearest integer when exporting exercise reports.
+عند التفعيل، يتم تقريب درجات الاختبارات إلى أقرب عدد صحيح عند تصدير تقارير التمارين.
 
-*Default: `false`*
+*القيمة الافتراضية: `false`*
 
 ### `exercise_embeddable_extra_types`
 
-**Embeddable question types**
+**أنواع الأسئلة القابلة للترحيل**
 
-By default, only single answer and multiple answer questions are considered when deciding whether a test can be embedded in a video or not. With this option, you can decide that more question types are available. Be aware that not all question types fit nicely in the space assigned to videos. Questions types are availalble in the code in question.class.php.
+افتراضياً، يُؤخذ في الاعتبار فقط أسئلة الإجابة الواحدة والإجابات المتعددة عند تحديد ما إذا كان الاختبار قابلاً للترحيل في فيديو أم لا. مع هذا الخيار، يمكنك تحديد أن أنواع أسئلة إضافية متاحة. كن على دراية بأن ليست كل أنواع الأسئلة تناسب المساحة المخصصة للفيديوهات بشكل جيد. أنواع الأسئلة متاحة في الكود في ملف question.class.php.
 
 ### `exercise_hide_ip`
 
-**Hide user IP from test reports**
+**إخفاء عنوان IP للمستخدم من تقارير الاختبار**
 
-By default, we show user information and its IP address, but this might be considered personal data, so this option allows you to remove this info from all test reports.
+افتراضياً، نعرض معلومات المستخدم وعنوان IP الخاص به، لكن هذا قد يُعتبر بيانات شخصية، لذا يسمح هذا الخيار بإزالة هذه المعلومات من جميع تقارير الاختبار.
 
-*Default: `false`*
+*القيمة الافتراضية: `false`*
 
 ### `exercise_hide_label`
 
-**Hide question ribbon (right/wrong) in test results**
+**إخفاء شريط السؤال (صح/خطأ) في نتائج الاختبار**
 
-In test results, a ribbon appears by default to indicate if the answer was right or wrong. Enable this option to remove the ribbon globally.
+في نتائج الاختبار، يظهر شريط افتراضياً للإشارة إلى ما إذا كانت الإجابة صحيحة أم خاطئة. فعّل هذا الخيار لإزالة الشريط عالمياً.
 
-*Default: `false`*
+*القيمة الافتراضية: `false`*
 
 ### `exercise_invisible_in_session`
 
-**Exercise invisible in Session**
+**التمرين غير مرئي في الجلسة**
 
-If an exercise is visible in the base course then it appears invisible in the session. If an exercise is invisible in the base course then it does not appear in the session.
+إذا كان التمرين مرئياً في الدورة الأساسية، فإنه يظهر غير مرئي في الجلسة. إذا كان التمرين غير مرئي في الدورة الأساسية، فإنه لا يظهر في الجلسة.
 
-*Default: `false`*
+*القيمة الافتراضية: `false`*
 
 ### `exercise_max_editors_in_page`
 
-**Max editors in exercise result screen**
+**الحد الأقصى للمحررات في شاشة نتائج التمرين**
 
-Because of the sheer number of questions that might appear in an exercise, the correction screen, allowing the teacher to add comments to each answer, might be very slow to load. Set this number to 5 to ask the platform to only show WYSIWYG editors up to a certain number of answers on the screen. This will speed up the correction page loading time considerably, but will remove WYSIWYG editors and leave only a plain text editor.
+بسبب العدد الهائل من الأسئلة التي قد تظهر في تمرين، قد تكون شاشة التصحيح، التي تسمح للمعلم بإضافة تعليقات إلى كل إجابة، بطيئة جداً في التحميل. عيّن هذا العدد إلى 5 ليطلب من المنصة عرض محررات WYSIWYG فقط حتى عدد معين من الإجابات على الشاشة. سيزيد هذا بشكل كبير من سرعة تحميل صفحة التصحيح، لكنه سيُزيل محررات WYSIWYG ويترك محرر نص عادي فقط.
 
-*Default: `0`*
+*القيمة الافتراضية: `0`*
 
 
 ### `exercise_max_score`
 
-**Maximum score of exercises**
+**الدرجة القصوى للتمارين**
 
-Define a maximum score (generally 10,20 or 100) for all the exercises on the platform. This will define how final results are shown to users and teachers.
+تحديد درجة قصوى (عادة 10، 20 أو 100) لجميع التمارين على المنصة. سيعرف هذا كيفية عرض النتائج النهائية للمستخدمين والمعلمين.
 
-*Default: `20`*
+*القيمة الافتراضية: `20`*
 
 
 ### `exercise_min_score`
 
-**Minimum score of exercises**
+**الدرجة الدنيا للتمارين**
 
-Define a minimum score (generally 0) for all the exercises on the platform. This will define how final results are shown to users and teachers.
+تحديد درجة دنيا (عادة 0) لجميع التمارين على المنصة. سيعرف هذا كيفية عرض النتائج النهائية للمستخدمين والمعلمين.
 
-*Default: `0`*
+*القيمة الافتراضية: `0`*
 
 
 ### `exercise_result_end_text_html_strict_filtering`
 
-**Bypass HTML filtering in test end messages**
+**تجاوز تصفية HTML في رسائل نهاية الاختبار**
 
-Consider messages at the end of tests are always safe. Removing the filter makes it possible to use JavaScript there.
+اعتبر الرسائل في نهاية الاختبارات آمنة دائماً. إزالة المصفي يجعل من الممكن استخدام JavaScript هناك.
 
-*Default: `false`*
+*القيمة الافتراضية: `false`*
 
 
 ### `exercise_score_format`
 
-**Tests score format**
+**صيغة درجة الاختبارات**
 
-Select between the following forms for the display of users' score in various reports: 1 = SCORE_AVERAGE (5 / 10); 2 = SCORE_PERCENT (50%); 3 = SCORE_DIV_PERCENT (5 / 10 (50%)). Use the numerical ID of the form you want to use.
+اختر بين الأشكال التالية لعرض درجة المستخدمين في التقارير المختلفة: 1 = SCORE_AVERAGE (5 / 10); 2 = SCORE_PERCENT (50%); 3 = SCORE_DIV_PERCENT (5 / 10 (50%)). استخدم معرف الرقمي للشكل الذي تريد استخدامه.
 
-*Default: `0`*
+*القيمة الافتراضية: `0`*
 
 ### `exercises_disable_new_attempts`
 
-**Disable new test attempts**
+**تعطيل محاولات الاختبار الجديدة**
 
-Disable new test attempts globally. Usually used when there is a problem with tests in general and you want some time to analyse without blocking the whole platform.
+تعطيل محاولات الاختبار الجديدة عالمياً. يُستخدم عادة عندما يكون هناك مشكلة مع الاختبارات بشكل عام وتريد بعض الوقت للتحليل دون حظر المنصة بأكملها.
 
-*Default: `false`*
+*القيمة الافتراضية: `false`*
 
 
+---
+
+---
 ### `hide_free_question_score`
 
-**Hide open questions' score**
+**إخفاء درجة الأسئلة المفتوحة**
 
-Hide the fact that open questions (including audio and annotations) have a score by hiding the score display in all learner-facing reports.
+إخفاء حقيقة أن الأسئلة المفتوحة (بما في ذلك الصوتيات والتعليقات) لها درجة من خلال إخفاء عرض الدرجة في جميع التقارير الموجهة للمتعلمين.
 
-*Default: `false`*
+*القيمة الافتراضية: `false`*
 
 
 ### `hide_user_info_in_quiz_result`
 
-**Hide user info on test results page**
+**إخفاء معلومات المستخدم في صفحة نتائج الاختبار**
 
-The default test results page shows a user datasheet (photo, name, etc) which might, in some contexts, be considered as pushing the limits of personal data treatment. Enable this option to remove user details from the test results.
+تُظهر صفحة نتائج الاختبار الافتراضية بيانات المستخدم (الصورة، الاسم، إلخ) والتي قد تُعتبر في بعض السياقات دفعًا لحدود معالجة البيانات الشخصية. فعّل هذا الخيار لإزالة تفاصيل المستخدم من نتائج الاختبار.
 
-*Default: `false`*
+*القيمة الافتراضية: `false`*
 
 
 ### `limit_exercise_teacher_access`
 
-**Limit teachers' permissions over tests**
+**تقييد صلاحيات المعلمين على الاختبارات**
 
-When enabled, teachers cannot delete tests nor questions, change tests visibility, download to QTI, clean results, etc.
+عند التفعيل، لا يمكن للمعلمين حذف الاختبارات أو الأسئلة، أو تغيير رؤية الاختبارات، أو تنزيل إلى QTI، أو تنظيف النتائج، إلخ.
 
-*Default: `false`*
+*القيمة الافتراضية: `false`*
 
 
 ### `my_courses_show_pending_exercise_attempts`
 
-**Global pending tests list**
+**قائمة عالمية بالاختبارات المعلقة**
 
-Enable to display to the final user a page with the list of pending tests across all courses.
+فعّل لعرض صفحة للمستخدم النهائي تحتوي على قائمة الاختبارات المعلقة عبر جميع المقررات الدراسية.
 
-*Default: `false`*
+*القيمة الافتراضية: `false`*
 
 
 ### `question_exercise_html_strict_filtering`
 
-**Bypass HTML filtering in test questions**
+**تجاوز تصفية HTML في أسئلة الاختبار**
 
-Consider questions text in tests are always safe. Removing the filter makes it possible to use JavaScript there.
+اعتبر نصوص الأسئلة في الاختبارات آمنة دائمًا. إزالة المرشح يجعل من الممكن استخدام JavaScript هناك.
 
-*Default: `false`*
+*القيمة الافتراضية: `false`*
 
 
 ### `question_pagination_length`
 
-**Question pagination length for teachers**
+**طول ترقيم صفحات الأسئلة للمعلمين**
 
-Number of questions to show on every page when using the question pagination for teachers option.
+عدد الأسئلة التي يتم عرضها في كل صفحة عند استخدام خيار ترقيم صفحات الأسئلة للمعلمين.
 
-*Default: `20`*
+*القيمة الافتراضية: `20`*
 
 
 ### `quiz_answer_extra_recording`
 
-**Enable extra test answers recording**
+**تفعيل تسجيل إجابات الاختبار الإضافية**
 
-Enable recording of all answers (even temporary) in the track_e_attempt_recording table. This feautre is experimentaland can create issues in the reporting pages when attempting to grade a test.
+فعّل تسجيل جميع الإجابات (حتى المؤقتة) في جدول track_e_attempt_recording. هذه الميزة تجريبية وقد تسبب مشكلات في صفحات التقارير عند محاولة تصحيح الاختبار.
 
-*Default: `false`*
+*القيمة الافتراضية: `false`*
 
 
 ### `quiz_check_all_answers_before_end_test`
 
-**Check all answers before submitting test**
+**فحص جميع الإجابات قبل إرسال الاختبار**
 
-Display a popup with the list of answered/unanswered questions before submitting the test.
+عرض نافذة منبثقة تحتوي على قائمة الأسئلة المجابة/غير المجابة قبل إرسال الاختبار.
 
-*Default: `false`*
+*القيمة الافتراضية: `false`*
 
 
 ### `quiz_check_button_enable`
 
-**Add answer-saving process check before test**
+**إضافة فحص عملية حفظ الإجابات قبل الاختبار**
 
-Make sure users are all set to start the test by providing a simulation of the question-saving process before entering the test. This allows for early detection of some connection issues and reduces user experience frictions.
+تأكد من أن المستخدمين جاهزون لبدء الاختبار من خلال تقديم محاكاة لعملية حفظ الأسئلة قبل الدخول إلى الاختبار. هذا يسمح باكتشاف مبكر لبعض مشكلات الاتصال ويقلل من الاحتكاك في تجربة المستخدم.
 
-*Default: `false`*
+*القيمة الافتراضية: `false`*
 
 
 ### `quiz_confirm_saved_answers`
 
-**Add checkbox for answers count confirmation**
+**إضافة مربع اختيار لتأكيد عدد الإجابات المحفوظة**
 
-This option adds a checkbox at the end of each test asking the user to confirm the number of answers saved. This provides better auditing data for critical tests.
+يضيف هذا الخيار مربع اختيار في نهاية كل اختبار يطلب من المستخدم تأكيد عدد الإجابات المحفوظة. هذا يوفر بيانات تدقيق أفضل للاختبارات الحرجة.
 
-*Default: `false`*
+*القيمة الافتراضية: `false`*
 
 
 ### `quiz_discard_orphan_in_course_export`
 
-**Discard orphan questions in course export**
+**تجاهل الأسئلة اليتيمة في تصدير المقرر الدراسي**
 
-When exporting a course, do not export the questions that are not part of any test.
+عند تصدير مقرر دراسي، لا تصدر الأسئلة التي لا تكون جزءًا من أي اختبار.
 
-*Default: `false`*
+*القيمة الافتراضية: `false`*
 
 
 ### `quiz_generate_certificate_ending`
 
-**Generate certificate on test end**
+**إنشاء شهادة عند انتهاء الاختبار**
 
-Generate certificate when ending a quiz. The quiz needs to be linked in the gradebook tool and have a pass percentage configured.
+إنشاء شهادة عند انتهاء الاختبار. يجب ربط الاختبار بأداة دفتر الدرجات وتكوين نسبة النجاح.
 
-*Default: `false`*
+*القيمة الافتراضية: `false`*
 
 
 ### `quiz_hide_attempts_table_on_start_page`
 
-**Hide test attempts table on test start page**
+**إخفاء جدول محاولات الاختبار في صفحة بدء الاختبار**
 
-Hide the table showing all previous attempts on the test start page.
+إخفاء الجدول الذي يعرض جميع المحاولات السابقة في صفحة بدء الاختبار.
 
-*Default: `false`*
+*القيمة الافتراضية: `false`*
 
 
 ### `quiz_hide_question_number`
 
-**Hide question number**
+**إخفاء رقم السؤال**
 
-Hide the question incremental numbering when taking a test.
+إخفاء ترقيم الأسئلة التدريجي أثناء إجراء الاختبار.
 
-*Default: `false`*
+*القيمة الافتراضية: `false`*
 
 
 ### `quiz_image_zoom`
 
-**Enable test images zooming**
+**تفعيل تكبير صور الاختبار**
 
-Enable this feature to allow users to zoom on images used in the tests.
+فعّل هذه الميزة للسماح للمستخدمين بتكبير الصور المستخدمة في الاختبارات.
 
 ### `quiz_keep_alive_ping_interval`
 
-**Keep session active in tests**
+**الحفاظ على جلسة الاختبار نشطة**
 
-Keep session active by maintaining a regular ping signal to the server every x seconds, define here. We recommend once every 300 seconds.
+الحفاظ على الجلسة نشطة من خلال إرسال إشارة ping منتظمة إلى الخادم كل x ثوانٍ، حدد هنا. نوصي بمرة كل 300 ثانية.
 
-*Default: `0`*
+*القيمة الافتراضية: `0`*
 
 
 ### `quiz_open_question_decimal_score`
 
-**Decimal score in open question types**
+**درجة عشرية في أنواع الأسئلة المفتوحة**
 
-Allow the teacher to rate the open, oral expression and annotation question types with a decimal score.
+السماح للمعلم بتقييم أنواع الأسئلة المفتوحة والتعبير الشفوي والتعليقات بدرجة عشرية.
 
-*Default: `false`*
+*القيمة الافتراضية: `false`*
 
 
 ### `quiz_prevent_copy_paste`
 
-**Block copy-pasting in tests**
+**حظر النسخ واللصق في الاختبارات**
 
-Block copy/paste/save/print keys and right-clicks in exercises.
+حظر مفاتيح النسخ/اللصق/الحفظ/الطباعة والنقرات اليمنى في التمارين.
 
-*Default: `false`*
+*القيمة الافتراضية: `false`*
 
 
 ### `quiz_question_delete_automatically_when_deleting_exercise`
 
-**Automatically delete questions when deleting test**
+**حذف الأسئلة تلقائيًا عند حذف الاختبار**
 
-The default behaviour is to make questions orphan when the only test using them is deleted. When enabled, this option ensure that all questions that would otherwise end up orphan are deleted as well.
+السلوك الافتراضي هو جعل الأسئلة يتيمة عند حذف الاختبار الوحيد الذي يستخدمها. عند التفعيل، يضمن هذا الخيار حذف جميع الأسئلة التي كانت ستصبح يتيمة.
 
-*Default: `false`*
+*القيمة الافتراضية: `false`*
 
 
 ### `quiz_results_answers_report`
 
-**Show link to download test results**
+**عرض رابط لتنزيل نتائج الاختبار**
 
-On the test results page, display a link to download the results as a file.
+في صفحة نتائج الاختبار، عرض رابط لتنزيل النتائج كملف.
 
-*Default: `false`*
+*القيمة الافتراضية: `false`*
 
 
 ### `quiz_show_description_on_results_page`
 
-**Always show test description on results page**
+**عرض وصف الاختبار دائمًا في صفحة النتائج**
 
-When enabled, the test description is always displayed on the results page after test completion.
+عند التفعيل، يتم عرض وصف الاختبار دائمًا في صفحة النتائج بعد إكمال الاختبار.
 
-*Default: `false`*
+*القيمة الافتراضية: `false`*
 
 
 ### `score_grade_model`
 
-**Score grades model**
+**نموذج درجات التقييم**
 
-Define an array of score ranges and colors to display reports using this model. This allows you to show colors rather than numerical grades.
+حدد مصفوفة من نطاقات الدرجات والألوان لعرض التقارير باستخدام هذا النموذج. هذا يسمح لك بعرض الألوان بدلاً من الدرجات الرقمية.
 
+---
 ### `send_score_in_exam_notification_mail_to_manager`
 
-**Add score in mail notification of test submission**
+**إضافة الدرجة في إشعار البريد الإلكتروني لتقديم الاختبار**
 
-Add the learner's score to the e-mail notification sent to the teacher after a test was submitted.
+إضافة درجة المتعلم إلى إشعار البريد الإلكتروني المرسل إلى المعلم بعد تقديم الاختبار.
 
-*Default: `false`*
+*القيمة الافتراضية: `false`*
 
 
 ### `show_exercise_attempts_in_all_user_sessions`
 
-**Show test attempts from all sessions in pending tests report**
+**عرض محاولات الاختبارات من جميع الجلسات في تقرير الاختبارات المعلقة**
 
-Show test attempts from users in all sessions where the general coach has access in pending tests report.
+عرض محاولات الاختبارات للمستخدمين في جميع الجلسات التي يمتلك فيها المدرب العام صلاحية الوصول في تقرير الاختبارات المعلقة.
 
-*Default: `false`*
+*القيمة الافتراضية: `false`*
 
 
 ### `show_exercise_expected_choice`
 
-**Show expected choice in test results**
+**عرض الإجابة المتوقعة في نتائج الاختبار**
 
-Show the expected choice and a status (right/wrong) for each answer on the test results page (if the test has been configured to show results).
+عرض الإجابة المتوقعة وحالة (صحيح/خطأ) لكل إجابة في صفحة نتائج الاختبار (إذا تم تهيئة الاختبار لعرض النتائج).
 
-*Default: `false`*
+*القيمة الافتراضية: `false`*
 
 
 ### `show_exercise_question_certainty_ribbon_result`
 
-**Show score for certainty degree questions**
+**عرض الدرجة لأسئلة درجة الثقة**
 
-By default, Chamilo does not show a score for the certainty degree question types.
+افتراضيًا، لا يعرض Chamilo درجة لأنواع أسئلة درجة الثقة.
 
-*Default: `false`*
+*القيمة الافتراضية: `false`*
 
 
 ### `show_exercise_session_attempts_in_base_course`
 
-**Show test attempts from all sessions in base course**
+**عرض محاولات الاختبارات من جميع الجلسات في المقرر الأساسي**
 
-Show test attempts from users in all sessions to the teacher in the base course.
+عرض محاولات الاختبارات للمستخدمين في جميع الجلسات للمعلم في المقرر الأساسي.
 
-*Default: `false`*
+*القيمة الافتراضية: `false`*
 
 
 ### `show_official_code_exercise_result_list`
 
-**Display official code in exercises results**
+**عرض الرمز الرسمي في تقارير نتائج التمارين**
 
-Whether to show the students' official code in the exercises results reports
+هل عرض الرمز الرسمي للطلاب في تقارير نتائج التمارين
 
-*Default: `false`*
+*القيمة الافتراضية: `false`*
+
 
 ### `show_question_id`
 
-**Show question IDs in tests**
+**عرض معرفات الأسئلة في الاختبارات**
 
-Show questions' internal IDs to let users take note of issues on specific questions and report them more efficiently.
+عرض المعرفات الداخلية للأسئلة للسماح للمستخدمين بتسجيل المشكلات في أسئلة محددة وإبلاغها بكفاءة أكبر.
 
-*Default: `false`*
+*القيمة الافتراضية: `false`*
 
 
 ### `show_question_pagination`
 
-**Show question pagination for teachers**
+**عرض ترقيم صفحات الأسئلة للمعلمين**
 
-For tests with many questions, use pagination if the number of questions is higher than this setting. Set to 0 to prevent using pagination.
+بالنسبة للاختبارات التي تحتوي على العديد من الأسئلة، استخدم ترقيم الصفحات إذا كان عدد الأسئلة أعلى من هذا الإعداد. اضبط على 0 لمنع استخدام ترقيم الصفحات.
 
-*Default: `100`*
+*القيمة الافتراضية: `100`*
 
 
 ### `tracking_my_progress_show_deleted_exercises`
 
-**Show deleted tests in 'My progress'**
+**عرض الاختبارات المحذوفة في "تقدمي"**
 
-Enable this option to display, on the 'My progress' page, the results of all tests you have taken, even the ones that have been deleted.
+قم بتفعيل هذا الخيار لعرض نتائج جميع الاختبارات التي خضتها في صفحة "تقدمي"، حتى تلك التي تم حذفها.
 
-*Default: `false`*
-
-
+*القيمة الافتراضية: `false`*

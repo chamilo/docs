@@ -1,239 +1,240 @@
-# Platform Settings
+# إعدادات المنصة
 
-Platform-level identity and behaviour — institution name, time zone, registration policy, online users, performance flags.
+الهوية والسلوك على مستوى المنصة — اسم المؤسسة، المنطقة الزمنية، سياسة التسجيل، المستخدمون المتصلون، علامات الأداء.
 
-Access these settings under **Administration > Configuration settings > Platform**. This category contains **29 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+يمكن الوصول إلى هذه الإعدادات تحت **إدارة > إعدادات التكوين > المنصة**. تحتوي هذه الفئة على **29 إعدادًا**، مدرجة أدناه مع العنوان والتعليق المرسل في إعدادات المنصة (`SettingsCurrentFixtures.php`).
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> يُعرض اسم المتغير في الكود بخط monospace. استخدمه عند البرمجة عبر API أو عند الحاجة إلى تغيير هذه الإعدادات على المستوى العام عن طريق تحرير [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
 
-## Settings
+## الإعدادات
 
 ### `allow_my_files`
 
-**Enable 'My Files' section**
+**تفعيل قسم "ملفاتي"**
 
-Allow users to upload files to a personal space on the platform.
+السماح للمستخدمين برفع الملفات إلى مساحة شخصية على المنصة.
 
-*Default: `true`*
+*افتراضي: `true`*
 
 ### `chamilo_database_version`
 
-**Current version of the database schema used by Chamilo**
+**الإصدار الحالي لمخطط قاعدة البيانات المستخدم في Chamilo**
 
-Displays the current DB version to match the Chamilo core version.
+يعرض إصدار قاعدة البيانات الحالي ليتوافق مع إصدار نواة Chamilo.
 
 ### `cookie_warning`
 
-**Cookie privacy notification**
+**إشعار خصوصية الكوكيز**
 
-If enabled, this option shows a banner on top of your platform that asks users to acknowledge that the platform is using cookies necessary to provide the user experience. The banner can easily be acknowledged and hidden by the user. This allows Chamilo to comply with EU web cookies regulations.
+إذا تم تفعيله، يعرض هذا الخيار لافتة في أعلى المنصة تطلب من المستخدمين الاعتراف بأن المنصة تستخدم كوكيز ضرورية لتوفير تجربة المستخدم. يمكن للمستخدم الاعتراف باللافتة وإخفائها بسهولة. يسمح ذلك لـ Chamilo بالامتثال للوائح كوكيز الويب في الاتحاد الأوروبي.
 
-*Default: `false`*
+*افتراضي: `false`*
 
 ### `disable_copy_paste`
 
-**Disable copy-pasting**
+**تعطيل النسخ واللصق**
 
-When enabled, this option disables as well as possible the copy-pasting mechanisms. Useful in restrictive exams setups.
+عند التفعيل، يعطل هذا الخيار آليات النسخ واللصق قدر الإمكان. مفيد في إعدادات الامتحانات المقيدة.
 
-*Default: `false`*
+*افتراضي: `false`*
 
 ### `donotlistcampus`
 
-**Do not list this campus on chamilo.org**
+**عدم سرد هذه المنصة على chamilo.org**
 
-By default, Chamilo portals are automatically registered in a public list at chamilo.org, just using the title you gave to this portal (not the URL nor any private data). Check this box to avoid having the title of your portal appear.
+افتراضيًا، يتم تسجيل بوابات Chamilo تلقائيًا في قائمة عامة على chamilo.org، باستخدام العنوان الذي أعطيته لهذه البوابة فقط (وليس الـ URL أو أي بيانات خاصة). حدد هذا المربع لتجنب ظهور عنوان بوابتك.
 
-*Default: `false`*
+*افتراضي: `false`*
 
 ### `generate_random_login`
 
-**Generate random username**
+**توليد اسم مستخدم عشوائي**
 
-When importing users (batch processes), automatically generate a random string for username. Otherwise, the username will be generated on the basis of the firstname and lastname, or the prefix of the e-mail.
+عند استيراد المستخدمين (عمليات دفعية)، توليد سلسلة عشوائية تلقائيًا لاسم المستخدم. وإلا، سيتم توليد اسم المستخدم بناءً على الاسم الأول والاسم الأخير، أو بادئة البريد الإلكتروني.
 
-*Default: `false`*
+*افتراضي: `false`*
 
 ### `hosting_limit_identical_email`
 
-**Limit identical email usage**
+**حد استخدام البريد الإلكتروني المتطابق**
 
-Maximum number of accounts allowed to share the same e-mail address. Set to 0 to disable this limit.
+العدد الأقصى للحسابات المسموح بها لمشاركة نفس عنوان البريد الإلكتروني. اضبط على 0 لتعطيل هذا الحد.
 
-*Default: `0`*
+*افتراضي: `0`*
 
 ### `hosting_limit_users_per_course`
 
-**Global limit of users per course**
+**الحد العام للمستخدمين لكل مساق**
 
-Defines a global maximum number of users (teachers included) allowed to be subscribed to any single course in the platform. Set this value to 0 to disable the limit. This helps avoid courses being overloaded in open portals.
+يحدد العدد الأقصى العام للمستخدمين (بما في ذلك المعلمين) المسموح بهم بالاشتراك في أي مساق واحد في المنصة. اضبط هذه القيمة على 0 لتعطيل الحد. يساعد ذلك في تجنب تحميل المساقات بشكل زائد في البوابات المفتوحة.
 
-*Default: `0`*
+*افتراضي: `0`*
 
 ### `institution`
 
-**Organization name**
+**اسم المنظمة**
 
-The name of the organization (appears in the header on the right)
+اسم المنظمة (يظهر في الرأس على اليمين)
 
-*Default: `Chamilo.org`*
+*افتراضي: `Chamilo.org`*
 
 
 ### `institution_address`
 
-**Institution address**
+**عنوان المؤسسة**
 
-Address
+العنوان
 
 ### `institution_url`
 
-**Organization URL (web address)**
+**رابط المنظمة (عنوان الويب)**
 
-The URL of the institutions (the link that appears in the header on the right)
+رابط المؤسسة (الرابط الذي يظهر في الرأس على اليمين)
 
-*Default: `http://www.chamilo.org`*
+*افتراضي: `http://www.chamilo.org`*
 
 
 ### `max_courses_per_user`
 
-**Maximum courses per user**
+**الحد الأقصى للمساقات لكل مستخدم**
 
-Maximum number of courses a teacher/trainer can create. Set to 0 to disable the limit. Can be overridden per user via a BuyCourses service purchase.
+العدد الأقصى للمساقات التي يمكن للمعلم/المدرب إنشاؤها. اضبط على 0 لتعطيل الحد. يمكن تجاوزه لكل مستخدم عبر شراء خدمة BuyCourses.
 
-*Default: `0`*
+*افتراضي: `0`*
 
 ### `notification_event`
 
-**Enable the notification tool for a more impactful communication channel with students**
+**تفعيل أداة الإشعارات لقناة تواصل أكثر تأثيرًا مع الطلاب**
 
-Activates popup or system notifications for important platform events.
+تفعيل النوافذ المنبثقة أو إشعارات النظام للأحداث المهمة في المنصة.
 
-*Default: `false`*
+*افتراضي: `false`*
 
 ### `pdf_img_dpi`
 
-**PDF export resolution**
+**دقة تصدير PDF**
 
-This represents the resolution of generated PDF files (in dot per inch, or dpi). The default is 96. Increasing it will give you better resolution PDF files but will also increase the weight and generation time of the files.
+يمثل هذا دقة ملفات PDF المولدة (بنقاط لكل بوصة، أو dpi). الافتراضي هو 96. زيادته سيعطيك ملفات PDF بدقة أعلى لكنها ستزيد أيضًا من حجم الملفات ووقت التوليد.
 
-*Default: `96`*
+*افتراضي: `96`*
 
 ### `platform_logo_url`
 
-**URL for alternative platform logo**
+**رابط لشعار المنصة البديل**
 
-Replaces the Chamilo logo by loading a (possibly remote) URL. Make sure this is allowed by your security policies.
+يستبدل شعار Chamilo برفع رابط (قد يكون بعيدًا). تأكد من أن سياسات الأمان الخاصة بك تسمح بذلك.
 
-*Default: `https://chamilo.org`*
+*افتراضي: `https://chamilo.org`*
 
 
 ### `portfolio_advanced_sharing`
 
-**Enable portfolio advanced sharing**
+**تفعيل مشاركة المحفظة المتقدمة**
 
-Decide who can view the posts and comments of the portfolio.
+تحديد من يمكنه عرض المنشورات والتعليقات في المحفظة.
 
-*Default: `false`*
+*افتراضي: `false`*
 
 ### `portfolio_show_base_course_post_in_sessions`
 
-**Show base course posts in session course**
+**عرض منشورات المساق الأساسي في مساق الجلسة**
 
-Decide who can view the posts and comments of the portfolio.
+تحديد من يمكنه عرض المنشورات والتعليقات في المحفظة.
 
-*Default: `false`*
+*افتراضي: `false`*
 
 ### `push_notification_settings`
 
-**Push notification settings (JSON)**
+**إعدادات إشعارات الدفع (JSON)**
 
-JSON configuration for Push notifications integration.
+تكوين JSON لتكامل إشعارات الدفع.
 
 ### `server_type`
 
-**Server Type**
+**نوع الخادم**
 
-Defines the environment type: "prod" (normal production), "validation" (like production but without reporting statistics), or "test" (debug mode with developer tools such as untranslated string indicators).
+يحدد نوع البيئة: "prod" (الإنتاج العادي)، "validation" (مثل الإنتاج لكن بدون الإحصاءات)، أو "test" (وضع التصحيح مع أدوات المطور مثل مؤشرات النصوص غير المترجمة).
 
-*Default: `prod`*
+*افتراضي: `prod`*
 
 ### `session_admin_access_to_all_users_on_all_urls`
 
-**Allow session admins to see all users on all URLs**
+**السماح لمديري الجلسات برؤية جميع المستخدمين على جميع الروابط**
 
-If enabled, session admins can search and list users from all access URLs, regardless of their current URL.
+إذا تم تفعيله، يمكن لمديري الجلسات البحث عن المستخدمين وعرضهم من جميع روابط الوصول، بغض النظر عن الرابط الحالي.
 
-*Default: `false`*
+*افتراضي: `false`*
 
+---
 ### `site_name`
 
-**E-learning portal name**
+**اسم بوابة التعلم الإلكتروني**
 
-The Name of your Chamilo Portal (appears in the header)
+اسم بوابة Chamilo الخاصة بك (يظهر في الرأس)
 
-*Default: `Chamilo site`*
+*القيمة الافتراضية: `Chamilo site`*
 
 
 ### `timepicker_increment`
 
-**Timepicker increment**
+**زيادة محدد الوقت**
 
-Minimal time increment (in minutes) when selecting a date and time with the timepicker widget. For example, it might not be useful to have less than 5 or 15 minutes increments when talking about assignment submission, availability of a test, start time of a session, etc.
+الزيادة الزمنية الدنيا (بالدقائق) عند اختيار تاريخ ووقت باستخدام أداة محدد الوقت. على سبيل المثال، قد لا يكون من المفيد وجود زيادات أقل من 5 أو 15 دقيقة عند الحديث عن تسليم المهام، أو توافر الاختبار، أو وقت بدء الجلسة، إلخ.
 
-*Default: `15`*
+*القيمة الافتراضية: `15`*
 
 ### `timezone`
 
-**Default timezone**
+**المنطقة الزمنية الافتراضية**
 
-Select the default timezone for this portal. This will help set the timezone (if the feature is enabled) for each new user or for any user that has not set a specific timezone yet. Timezones help show all time-related information on screen in the specific timezone of each user.
+حدد المنطقة الزمنية الافتراضية لهذه البوابة. سيساعد ذلك في تعيين المنطقة الزمنية (إذا كانت الميزة مفعلة) لكل مستخدم جديد أو لأي مستخدم لم يحدد منطقة زمنية محددة بعد. تساعد المناطق الزمنية في عرض جميع المعلومات المتعلقة بالوقت على الشاشة في المنطقة الزمنية الخاصة بكل مستخدم.
 
-*Default: `Europe/Paris`*
+*القيمة الافتراضية: `Europe/Paris`*
 
 
 ### `unoconv_binaries`
 
-**UNO converter binaries**
+**ملفات تنفيذية محول UNO**
 
-Give the system path to the UNO converter library to enable some extra exporting features.
+أدخل مسار النظام إلى مكتبة محول UNO لتمكين بعض ميزات التصدير الإضافية.
 
-*Default: `/usr/bin/unoconv`*
+*القيمة الافتراضية: `/usr/bin/unoconv`*
 
 
 ### `use_career_external_id_as_identifier_in_diagrams`
 
-**Use external career ID in diagrams**
+**استخدام معرف المسار المهني الخارجي في الرسوم البيانية**
 
-If using career diagrams, show an extra field instead of the internal career ID.
+إذا كنت تستخدم رسوم بيانية للمسارات المهنية، اعرض حقلًا إضافيًا بدلاً من معرف المسار المهني الداخلي.
 
-*Default: `false`*
+*القيمة الافتراضية: `false`*
 
 ### `use_custom_pages`
 
-**Use custom pages**
+**استخدام صفحات مخصصة**
 
-Enable this feature to configure specific login pages by role
+فعل هذه الميزة لتكوين صفحات تسجيل دخول محددة حسب الدور
 
-*Default: `false`*
+*القيمة الافتراضية: `false`*
 
 ### `use_virtual_keyboard`
 
-**Use virtual keyboard**
+**استخدام لوحة مفاتيح افتراضية**
 
-Make a virtual keyboard appear. This is useful when setting up restrictive exams in a physical room where students have no keyboard to limit their ability to cheat.
+اجعل لوحة مفاتيح افتراضية تظهر. هذا مفيد عند إعداد امتحانات مقيدة في غرفة فيزيائية حيث لا يوجد لدى الطلاب لوحة مفاتيح للحد من قدرتهم على الغش.
 
-*Default: `false`*
+*القيمة الافتراضية: `false`*
 
 ### `user_status_show_option`
 
-**Roles display options**
+**خيارات عرض الأدوار**
 
-An array of role => true/false that defines whether that role should be shown or hidden.
+مصفوفة من دور => true/false تحدد ما إذا كان يجب عرض ذلك الدور أو إخفاؤه.
 
 ### `user_status_show_options_enabled`
 
-**Selective display of roles**
+**عرض انتقائي للأدوار**
 
-Enable to use an array to define which roles should be clearly displayed and which should be hidden.
+فعل لاستخدام مصفوفة لتحديد الأدوار التي يجب عرضها بوضوح والتي يجب إخفاؤها.
 
-*Default: `false`*
+*القيمة الافتراضية: `false`*

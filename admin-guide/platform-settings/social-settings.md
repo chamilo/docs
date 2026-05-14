@@ -1,70 +1,68 @@
-# Social Network Settings
+# إعدادات الشبكة الاجتماعية
 
-Behaviour of the **Social Network** — friends, groups, wall posts, photo albums.
+سلوك الـ **Social Network** — الأصدقاء، المجموعات، منشورات الجدار، ألبومات الصور.
 
-Access these settings under **Administration > Configuration settings > Social Network**. This category contains **7 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+الوصول إلى هذه الإعدادات تحت **إدارة > إعدادات التكوين > Social Network**. تحتوي هذه الفئة على **7 إعدادات**، مدرجة أدناه مع العنوان والتعليق المرسل في إعدادات المنصة (`SettingsCurrentFixtures.php`).
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> يتم عرض اسم المتغير في الكود بخط monospace. استخدمه عند البرمجة عبر الـ API أو عند الحاجة إلى تغيير هذه الإعدادات على المستوى العام عن طريق تحرير [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
 
-## Settings
+## الإعدادات
 
 ### `allow_social_tool`
 
-**Social network tool (Facebook-like)**
+**أداة الشبكة الاجتماعية (مثل Facebook)**
 
-The social network tool allows users to define relations with other users and, by doing so, to define groups of friends. Combined with the internal messaging tool, this tool allows tight communication with friends, inside the portal environment.
+تسمح أداة الشبكة الاجتماعية للمستخدمين بتحديد علاقات مع مستخدمين آخرين، وبذلك تحديد مجموعات من الأصدقاء. مجتمعة مع أداة الرسائل الداخلية، تسمح هذه الأداة بتواصل وثيق مع الأصدقاء داخل بيئة البوابة.
 
-*Default: `true`*
+*افتراضي: `true`*
 
 ### `allow_students_to_create_groups_in_social`
 
-**Allow learners to create groups in social network**
+**السماح للمتعلمين بإنشاء مجموعات في الشبكة الاجتماعية**
 
-Allow learners to create groups in social network
+السماح للمتعلمين بإنشاء مجموعات في الشبكة الاجتماعية
 
-*Default: `false`*
+*افتراضي: `false`*
 
 
 ### `disable_dislike_option`
 
-**Disable 'dislike' for social posts**
+**تعطيل خيار 'dislike' لمنشورات الشبكة الاجتماعية**
 
-Remove the thumb down option for social posts feedback. Only keep thumb up (like).
+إزالة خيار الإبهام لأسفل لتعليقات منشورات الشبكة الاجتماعية. الاحتفاظ فقط بالإبهام لأعلى (like).
 
-*Default: `false`*
+*افتراضي: `false`*
 
 ### `hide_social_groups_block`
 
-**Hide groups block in social network**
+**إخفاء كتلة المجموعات في الشبكة الاجتماعية**
 
-Removes the groups section from the social network view.
+إزالة قسم المجموعات من عرض الشبكة الاجتماعية.
 
-*Default: `false`*
+*افتراضي: `false`*
 
 
 ### `social_enable_messages_feedback`
 
-**Like/Dislike for social posts**
+**Like/Dislike لمنشورات الشبكة الاجتماعية**
 
-Allows users to add feedback (likes or dislikes) to posts in social wall.
+يسمح للمستخدمين بإضافة تعليقات (likes أو dislikes) إلى المنشورات في جدار الشبكة الاجتماعية.
 
-*Default: `false`*
+*افتراضي: `false`*
 
 ### `social_make_teachers_friend_all`
 
-**Teachers and admins see students as friends on social network**
+**المعلمون والمديرون يرون الطلاب كأصدقاء في الشبكة الاجتماعية**
 
-Automatically makes instructors and administrators appear as friends to all students in the social network module.
+يجعل المدربين والمديرين يظهرون تلقائيًا كأصدقاء لجميع الطلاب في وحدة الشبكة الاجتماعية.
 
-*Default: `false`*
+*افتراضي: `false`*
 
 
 ### `social_show_language_flag_in_profile`
 
-**Show language flag next to avatar in social network**
+**عرض علم اللغة بجانب الصورة الرمزية في الشبكة الاجتماعية**
 
-Displays the user's language preference as a flag icon next to their avatar in social network profiles.
+يعرض تفضيل لغة المستخدم كأيقونة علم بجانب صورته الرمزية في ملفات تعريف الشبكة الاجتماعية.
 
-*Default: `false`*
-
-
+*افتراضي: `false`*

@@ -1,103 +1,106 @@
-# Documents
+# المستندات
 
-The documents tool is your course's file repository. You can upload files, create documents in HTML format, organize content into folders, and give learners access to all the materials they need.
+أداة المستندات هي مستودع الملفات في مساقك. يمكنك تحميل الملفات، إنشاء مستندات بتنسيق HTML، تنظيم المحتوى في مجلدات، ومنح المتعلمين الوصول إلى جميع المواد التي يحتاجونها.
 
-## Accessing the Documents Tool
+## الوصول إلى أداة المستندات
 
-Open the **Documents** <img src="/.gitbook/assets/icons/mdi-bookshelf.svg" alt="Documents" data-size="line"> tool from the course homepage. You will see a file browser showing the root folder of your course's document library.
+افتح أداة **Documents** <img src="/.gitbook/assets/icons/mdi-bookshelf.svg" alt="Documents" data-size="line"> من الصفحة الرئيسية للمساق. سترى متصفح الملفات الذي يعرض المجلد الجذر لمكتبة مستندات مساقك.
 
-![The documents file browser showing folders and files with action icons](/.gitbook/assets/documents-file-browser.png)
+![متصفح ملفات المستندات يعرض المجلدات والملفات مع أيقونات الإجراءات](/.gitbook/assets/documents-file-browser.png)
 
-## Uploading Files
+## تحميل الملفات
 
-1. Click the **Upload** <img src="/.gitbook/assets/icons/mdi-upload.svg" alt="Upload" data-size="line"> button
-2. Select one or more files from your computer (you can drag and drop files into the upload area)
-3. The files are uploaded and appear in the current folder
+1. انقر على زر **Upload** <img src="/.gitbook/assets/icons/mdi-upload.svg" alt="Upload" data-size="line">
+2. حدد ملفًا واحدًا أو أكثر من جهاز الكمبيوتر (يمكنك سحب الملفات وإفلاتها في منطقة التحميل)
+3. يتم تحميل الملفات وظهورها في المجلد الحالي
 
-Chamilo supports most common file types: PDF, office documents (.docx, .odt), presentations (.pptx, .odp), spreadsheets (.xlsx, .ods), images (PNG, JPG, SVG, GIF), audio files, video files (including WEBM), HTML files, and more.
+يدعم Chamilo معظم أنواع الملفات الشائعة: PDF، مستندات المكتب (.docx، .odt)، العروض التقديمية (.pptx، .odp)، جداول البيانات (.xlsx، .ods)، الصور (PNG، JPG، SVG، GIF)، ملفات الصوت، ملفات الفيديو (بما في ذلك WEBM)، ملفات HTML، وغيرها.
 
-Some formats might be forbidden by the portal administrator through a whitelist/blacklist filtering setting in the security section of the administration.
+قد تكون بعض التنسيقات محظورة من قبل مدير البوابة من خلال إعداد تصفية قائمة بيضاء/قائمة سوداء في قسم الأمان في الإدارة.
 
-For better readability by learners, we do recommend uploading files a browser can view or open without additional tools. This makes your course more portable and, as such, more accessible to mobile devices and more readable for people with special abilities.
+لتحسين القراءة لدى المتعلمين، نوصي بتحميل ملفات يمكن للمتصفح عرضها أو فتحها دون أدوات إضافية. هذا يجعل مساقك أكثر قابلية للنقل، وبالتالي أكثر إمكانية الوصول من الأجهزة المحمولة وأكثر قابلية للقراءة للأشخاص ذوي القدرات الخاصة.
 
-## Creating Content
+## إنشاء المحتوى
 
-In addition to uploading files, you can create content directly in Chamilo:
+بالإضافة إلى تحميل الملفات، يمكنك إنشاء المحتوى مباشرة في Chamilo:
 
-### Web Pages
+### صفحات الويب
 
-1. Click **New document**
-2. Use the rich-text editor to write your content with formatting, images, tables, and links
-3. Enter a **title** for the page
-4. Save
+1. انقر على **New document**
+2. استخدم محرر النصوص الغنية لكتابة محتواك مع التنسيق والصور والجداول والروابط
+3. أدخل **عنوانًا** للصفحة
+4. احفظ
 
-The rich-text editor (TinyMCE) provides word-processor-like features including:
+يوفر محرر النصوص الغنية (TinyMCE) ميزات تشبه معالج النصوص بما في ذلك:
 
-* Text formatting (bold, italic, headings, lists)
-* Tables
-* Images (upload or link to existing images)
-* Embedded videos and audio
-* Links to other resources
-* HTML source editing for advanced users
+* تنسيق النص (غامق، مائل، عناوين، قوائم)
+* الجداول
+* الصور (تحميل أو ربط بصور موجودة)
+* الفيديوهات والصوت المضمن
+* روابط إلى موارد أخرى
+* تحرير مصدر HTML للمستخدمين المتقدمين
 
-### AI media generation
+### توليد وسائط الذكاء الاصطناعي
 
-When AI helpers are enabled on the platform, you can ask the AI to generate an **image** or a **short video** to illustrate a paragraph in the document you are editing. Select a paragraph, open the **Generate AI media** dialog, and the AI will produce a media item that you can review and insert. The dialog respects course-level permissions and only appears in courses where AI media generation is allowed.
+عندما تكون مساعدي الذكاء الاصطناعي مفعلين على المنصة، يمكنك طلب من الذكاء الاصطناعي توليد **صورة** أو **فيديو قصير** لتوضيح فقرة في المستند الذي تقوم بتحريره. حدد فقرة، افتح مربع حوار **Generate AI media**، وسيقوم الذكاء الاصطناعي بإنتاج عنصر وسائط يمكنك مراجعته وإدراجه. يحترم مربع الحوار صلاحيات مستوى المساق ويظهر فقط في المساقات التي يُسمح فيها بتوليد وسائط الذكاء الاصطناعي.
 
-### Audio Recording
+### تسجيل الصوت
 
-If your browser supports it, you can record audio directly within the documents tool — useful for creating audio instructions or language learning content. This requires an HTTPS configuration for Chamilo, as audio recording uses technology that the browser only allows if the connection is secure.
+إذا كان متصفحك يدعمه، يمكنك تسجيل الصوت مباشرة داخل أداة المستندات — مفيد لإنشاء تعليمات صوتية أو محتوى تعلم اللغات. يتطلب ذلك تكوين HTTPS لـ Chamilo، حيث يستخدم تسجيل الصوت تقنية يسمح بها المتصفح فقط إذا كان الاتصال آمنًا.
 
-## Organizing with Folders
+## التنظيم باستخدام المجلدات
 
-Keep your document library organized using folders:
+حافظ على تنظيم مكتبة المستندات باستخدام المجلدات:
 
-1. Click **New folder** <img src="/.gitbook/assets/icons/mdi-folder-plus.svg" alt="New folder" data-size="line">
-2. Enter a folder name
-3. Save
+1. انقر على **New folder** <img src="/.gitbook/assets/icons/mdi-folder-plus.svg" alt="New folder" data-size="line">
+2. أدخل اسم المجلد
+3. احفظ
 
-You can create nested folders to build a logical content hierarchy (e.g., `Module 1 > Week 1 > Readings`).
+يمكنك إنشاء مجلدات متداخلة لبناء تسلسل هرمي منطقي للمحتوى (مثل `Module 1 > Week 1 > Readings`).
 
-### Moving Files
+### نقل الملفات
 
-* Locate your file in the list
-* Click **Move** <img src="/.gitbook/assets/icons/mdi-folder-move.svg" alt="Move" data-size="line">
-* Select the destination folder
-* Confirm
+* حدد موقع ملفك في القائمة
+* انقر على **Move** <img src="/.gitbook/assets/icons/mdi-folder-move.svg" alt="Move" data-size="line">
+* حدد مجلد الوجهة
+* أكد
 
-## Managing Documents
+## إدارة المستندات
 
-For each file or folder, you can:
+لكل ملف أو مجلد، يمكنك:
 
-| Action | Icon | Description |
-|--------|------|-------------|
-| **Edit** | <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Edit" data-size="line"> | Rename the file or edit its content (for web pages) |
-| **Delete** | <img src="/.gitbook/assets/icons/mdi-delete.svg" alt="Delete" data-size="line"> | Remove the file or folder |
-| **Download** | <img src="/.gitbook/assets/icons/mdi-download-box.svg" alt="Download" data-size="line"> | Download the file to your computer |
-| **Visibility** | <img src="/.gitbook/assets/icons/mdi-eye.svg" alt="Visibility" data-size="line"> | Hide or show the file to learners |
-| **Replace** | <img src="/.gitbook/assets/icons/mdi-file-replace.svg" alt="Replace" data-size="line"> | Replace the file with an updated version |
-| **Move** | <img src="/.gitbook/assets/icons/mdi-folder-move.svg" alt="Move" data-size="line"> | Move to a different folder |
+| الإجراء | الأيقونة | الوصف |
+|---------|---------|-------|
+| **Edit** | <img src="/.gitbook/assets/icons/mdi-pencil.svg" alt="Edit" data-size="line"> | إعادة تسمية الملف أو تحرير محتواه (لصفحات الويب) |
+| **Delete** | <img src="/.gitbook/assets/icons/mdi-delete.svg" alt="Delete" data-size="line"> | إزالة الملف أو المجلد |
+| **Download** | <img src="/.gitbook/assets/icons/mdi-download-box.svg" alt="Download" data-size="line"> | تنزيل الملف إلى جهاز الكمبيوتر |
+| **Visibility** | <img src="/.gitbook/assets/icons/mdi-eye.svg" alt="Visibility" data-size="line"> | إخفاء أو إظهار الملف للمتعلمين |
+| **Replace** | <img src="/.gitbook/assets/icons/mdi-file-replace.svg" alt="Replace" data-size="line"> | استبدال الملف بإصدار محدث |
+| **Move** | <img src="/.gitbook/assets/icons/mdi-folder-move.svg" alt="Move" data-size="line"> | نقل إلى مجلد مختلف |
 
-Replacing a file is an important feature when you use documents to build learning paths, as replacing the document will allow the document to be refreshed without learners loosing the progress saved for that document.
+استبدال الملف ميزة مهمة عند استخدام المستندات لبناء مسارات التعلم، حيث يسمح استبدال المستند بتحديثه دون فقدان المتعلمين للتقدم المحفوظ لهذا المستند.
 
-### Bulk Actions
+### الإجراءات الجماعية
 
-Select multiple files using checkboxes, then use the toolbar to delete or download all selected items at once.
+حدد ملفات متعددة باستخدام صناديق الاختيار، ثم استخدم شريط الأدوات لحذف أو تنزيل جميع العناصر المحددة دفعة واحدة.
 
-## OnlyOffice Integration
+---
 
-If your administrator has configured the **OnlyOffice** plugin, you can edit Word, Excel, and PowerPoint (or LibreOffice) files directly in the browser without downloading them. Look for the **Edit with OnlyOffice** <img src="/.gitbook/assets/icons/mdi-file-document-edit-outline.svg" alt="OnlyOffice" data-size="line"> option when viewing a supported file.
+---
+## تكامل OnlyOffice
 
-Documents are stored in Chamilo, OnlyOffice is only used to **view** or edit the documents in the browser, without the need for any additional tool.
+إذا قام مديرك بتكوين ملحق **OnlyOffice**، يمكنك تحرير ملفات Word وExcel وPowerPoint (أو LibreOffice) مباشرة في المتصفح دون الحاجة إلى تنزيلها. ابحث عن خيار **Edit with OnlyOffice** <img src="/.gitbook/assets/icons/mdi-file-document-edit-outline.svg" alt="OnlyOffice" data-size="line"> عند عرض ملف مدعوم.
 
-## Cloud Files
+يتم تخزين الوثائق في Chamilo، ويُستخدم OnlyOffice فقط لـ **عرض** أو تحرير الوثائق في المتصفح، دون الحاجة إلى أي أداة إضافية.
 
-If you use cloud storage (Azure Blob, AWS S3, or Google Cloud) for your files, these are stored in the cloud but you can link them from here. This is transparent to you and your learners — the document tool works the same way regardless of the storage backend.
+## ملفات السحابة
 
-## Tips
+إذا كنت تستخدم تخزين سحابي (Azure Blob أو AWS S3 أو Google Cloud) لملفاتك، فإن هذه الملفات مخزنة في السحابة لكن يمكنك ربطها من هنا. هذا أمر شفاف بالنسبة لك ولمتعلميك — يعمل أداة الوثائق بنفس الطريقة بغض النظر عن الخلفية التخزينية.
 
-* **Organize early** — Create your folder structure before uploading content so you don't have to reorganize later. If you have created other courses with the right structure, you can use those courses as template later on
-* **Use descriptive file names** — Help learners find what they need with clear, meaningful names
-* **Hide work-in-progress** — Use the visibility toggle to hide documents you are still preparing
-* **Link from learning paths** — Reference documents within your learning paths to create guided learning sequences
-* **Check the disk quota** — If your course has a storage limit, remove outdated files to free up space
+## نصائح
+
+* **نظم مبكراً** — أنشئ هيكل مجلداتك قبل رفع المحتوى حتى لا تضطر إلى إعادة التنظيم لاحقاً. إذا كنت قد أنشأت دورات أخرى بالهيكل المناسب، يمكنك استخدام تلك الدورات كنموذج لاحقاً
+* **استخدم أسماء ملفات وصفية** — ساعد المتعلمين على العثور على ما يحتاجونه بأسماء واضحة وذات معنى
+* **أخفِ الأعمال قيد الإنجاز** — استخدم مفتاح التبديل لإخفاء الوثائق التي ما زلت تحضرها
+* **اربط من مسارات التعلم** — أشر إلى الوثائق داخل مسارات التعلم الخاصة بك لإنشاء تسلسلات تعلم موجهة
+* **تحقق من حصة القرص** — إذا كانت دورتك لها حد تخزين، قم بإزالة الملفات القديمة لتحرير المساحة

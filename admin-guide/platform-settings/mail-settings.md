@@ -1,148 +1,146 @@
-# Mail Settings
+# إعدادات البريد الإلكتروني
 
-How outgoing mail is built — sender identity, layout, signature, and special-purpose addresses.
+كيفية بناء البريد الخارجي — هوية المرسل، والتخطيط، والتوقيع، وعناوين الغرض الخاص.
 
-Access these settings under **Administration > Configuration settings > Mail**. This category contains **18 settings**, listed below with the title and comment shipped in the platform's settings fixtures (`SettingsCurrentFixtures.php`).
+يمكن الوصول إلى هذه الإعدادات تحت **إدارة > إعدادات التكوين > البريد**. تحتوي هذه الفئة على **18 إعدادًا**، مدرجة أدناه مع العنوان والتعليق المرسل في إعدادات المنصة (`SettingsCurrentFixtures.php`).
 
-> The variable name in code is shown in monospace. Use it when scripting via the API or when you need to change those settings at a global level by editing [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
+> يُعرض اسم المتغير في الكود بخط monospace. استخدمه عند البرمجة عبر API أو عند الحاجة إلى تغيير هذه الإعدادات على المستوى العام عن طريق تعديل [`config/settings_override.yaml`](https://github.com/chamilo/chamilo-lms/wiki/Configurations#configsettings_overridesyaml).
 
-## Settings
+## الإعدادات
 
 ### `allow_email_editor_for_anonymous`
 
-**E-mail editor for anonymous**
+**محرر البريد الإلكتروني للمستخدمين المجهولين**
 
-Allow anonymous users to send e-mails from the platform. In this day and age of information security this is not a recommended option.
+السماح للمستخدمين المجهولين بإرسال رسائل بريد إلكتروني من المنصة. في عصر أمن المعلومات هذا، ليس هذا خيارًا موصى به.
 
-*Default: `true`*
+*افتراضي: `true`*
 
 
 ### `cron_notification_help_desk`
 
-**E-mail addresses to send cronjobs execution reports**
+**عناوين البريد الإلكتروني لإرسال تقارير تنفيذ المهام الزمنية**
 
-Given as array of e-mail addresses. Does not work for all cronjobs yet.
+يُعطى كمصفوفة من عناوين البريد الإلكتروني. لا يعمل مع جميع المهام الزمنية بعد.
 
 ### `mail_content_style`
 
-**Extra e-mail HTML body attributes**
+**سمات إضافية لجسم HTML للبريد الإلكتروني**
 
-Extra HTML attributes to apply to the body tag of generated notification emails.
+سمات HTML إضافية لتطبيقها على علامة body في رسائل الإشعارات المُولدة.
 
 ### `mail_header_style`
 
-**Extra e-mail HTML header attributes**
+**سمات إضافية لرأس HTML للبريد الإلكتروني**
 
-Extra HTML attributes to apply to the header section of generated notification emails.
+سمات HTML إضافية لتطبيقها على قسم الرأس في رسائل الإشعارات المُولدة.
 
 ### `mailer_debug_enable`
 
-**Mail: Debug**
+**البريد: تصحيح الأخطاء**
 
-Select whether you want to enable the e-mail sending debug logs. These will give you more information on what is happening when connecting to the mail service, but are not elegant and might break page design. Only use when there is not user activity.
+حدد ما إذا كنت تريد تمكين سجلات تصحيح أخطاء إرسال البريد الإلكتروني. ستوفر لك هذه السجلات معلومات أكثر حول ما يحدث عند الاتصال بخدمة البريد، لكنها غير أنيقة وقد تكسر تصميم الصفحة. استخدمها فقط عند عدم وجود نشاط مستخدمين.
 
-*Default: `false`*
+*افتراضي: `false`*
 
 
 ### `mailer_dkim`
 
-**Mail: DKIM headers**
+**البريد: رؤوس DKIM**
 
-Enter a JSON array of your DKIM configuration settings (see example).
+أدخل مصفوفة JSON لإعدادات تكوين DKIM الخاصة بك (انظر المثال).
 
 ### `mailer_dsn`
 
-**Mail DSN**
+**DSN للبريد**
 
-The DSN fully includes all parameters needed to connect to the mail service. You can learn more at https://symfony.com/doc/6.4/mailer.html#using-built-in-transports. Here are a few examples of supported DSN syntaxes: https://symfony.com/doc/6.4/mailer.html#using-a-3rd-party-transport
+يشمل DSN جميع المعاملات اللازمة للاتصال بخدمة البريد. يمكنك معرفة المزيد على https://symfony.com/doc/6.4/mailer.html#using-built-in-transports. إليك بعض أمثلة على صيغ DSN المدعومة: https://symfony.com/doc/6.4/mailer.html#using-a-3rd-party-transport
 
-*Default: `null://null`*
+*افتراضي: `null://null`*
 
 
 ### `mailer_exclude_json`
 
-**Mail: Avoid using LD+JSON**
+**البريد: تجنب استخدام LD+JSON**
 
-Some e-mail clients do not understand the descriptive LD+JSON format, showing it as a loose JSON string to the final user. If this is your case, you might want to set the variable below to 'false' to disable this header.
+بعض عملاء البريد الإلكتروني لا يفهمون تنسيق LD+JSON الوصفي، ويعرضونه كسلسلة JSON مفككة للمستخدم النهائي. إذا كان هذا هو حالتك، قد ترغب في تعيين المتغير أدناه إلى 'false' لتعطيل هذا الرأس.
 
-*Default: `false`*
+*افتراضي: `false`*
 
 
 ### `mailer_from_email`
 
-**Send all e-mails from this e-mail address**
+**إرسال جميع الرسائل الإلكترونية من هذا عنوان البريد الإلكتروني**
 
-Sets the default email address used in the "from" field of emails.
+يحدد عنوان البريد الإلكتروني الافتراضي المستخدم في حقل "من" في الرسائل.
 
 ### `mailer_from_name`
 
-**Send all e-mails as originating from this (organizational) name**
+**إرسال جميع الرسائل الإلكترونية كأنها صادرة عن هذا الاسم (التنظيمي)**
 
-Sets the default display name used for sending platform emails. e.g. "Support team".
+يحدد الاسم العرضي الافتراضي المستخدم لإرسال رسائل المنصة. مثل "فريق الدعم".
 
 ### `mailer_mails_charset`
 
-**Mail: character set**
+**البريد: مجموعة الأحرف**
 
-In case you need to define the charset to use when sending those e-mails. Leave empty if you're not sure.
+في حال الحاجة إلى تحديد مجموعة الأحرف المستخدمة عند إرسال هذه الرسائل. اتركه فارغًا إذا لم تكن متأكدًا.
 
-*Default: `UTF-8`*
+*افتراضي: `UTF-8`*
 
 
 ### `mailer_xoauth2`
 
-**Mail: XOAuth2 options**
+**البريد: خيارات XOAuth2**
 
-If you use some XOAuth2-based e-mail service, use this setting in JSON to save your specific configuration (see example) and select XOAuth2 in the mail service setting.
+إذا كنت تستخدم خدمة بريد إلكتروني تعتمد على XOAuth2، استخدم هذا الإعداد في JSON لحفظ تكوينك الخاص (انظر المثال) وحدد XOAuth2 في إعداد خدمة البريد.
 
 ### `messages_hide_mail_content`
 
-**Hide e-mail content to bring users to platform**
+**إخفاء محتوى البريد الإلكتروني لجذب المستخدمين إلى المنصة**
 
-Prefer short e-mail versions with a link to the messaging space on the platform to increase platform-based engagement.
+تفضيل إصدارات قصيرة من البريد الإلكتروني مع رابط إلى مساحة الرسائل في المنصة لزيادة التفاعل داخل المنصة.
 
-*Default: `false`*
+*افتراضي: `false`*
 
 
 ### `notifications_extended_footer_message`
 
-**Extended notifications footer**
+**تذييل موسع للإشعارات**
 
-Add a custom extra footer for notifications emails for a specific language, for example for privacy policy notices. Multiple languages and paragraphs can be added.
+إضافة تذييل إضافي مخصص لرسائل الإشعارات للغة معينة، مثل إشعارات سياسة الخصوصية. يمكن إضافة لغات متعددة وفقرات.
 
 ### `send_notification_score_in_percentage`
 
-**Send score in percentage in test results notification**
+**إرسال الدرجة كنسبة مئوية في إشعار نتائج الاختبار**
 
-Sends exercise scores as percentages instead of points in test result notification emails.
+إرسال درجات التمارين كنسب مئوية بدلاً من النقاط في رسائل إشعار نتائج الاختبار.
 
-*Default: `false`*
+*افتراضي: `false`*
 
 
 ### `send_two_inscription_confirmation_mail`
 
-**Send 2 registration e-mails**
+**إرسال رسائلين تأكيد التسجيل**
 
-Send two separate e-mails on registration. One for the username, another one for the password.
+إرسال رسائل بريد إلكتروني منفصلتين عند التسجيل. واحدة لاسم المستخدم، وأخرى لكلمة المرور.
 
-*Default: `false`*
+*افتراضي: `false`*
 
 
 ### `show_user_email_in_notification`
 
-**Show sender's e-mail address in notifications**
+**عرض عنوان بريد المرسل في الإشعارات**
 
-Includes the sender's email address with their name in personal message and notification emails.
+يشمل عنوان بريد المرسل مع اسمه في رسائل الرسائل الشخصية ورسائل الإشعارات.
 
-*Default: `false`*
+*افتراضي: `false`*
 
 
 ### `update_users_email_to_dummy_except_admins`
 
-**Update users e-mail to dummy value during imports**
+**تحديث بريد المستخدمين إلى قيمة وهمية أثناء الاستيراد**
 
-During special CSV cron imports of users, automatically replace e-mails with dummy e-mail username@example.com.
+أثناء استيرادات CSV الخاصة للمستخدمين عبر المهام الزمنية، استبدال الرسائل الإلكترونية تلقائيًا بعنوان بريد وهمي username@example.com.
 
-*Default: `false`*
-
-
+*افتراضي: `false`*

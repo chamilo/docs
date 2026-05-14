@@ -1,136 +1,139 @@
-# Installation Wizard
+# معالج التثبيت
 
-Chamilo 2.0 includes a web-based installation wizard that guides you through the initial setup. The wizard runs automatically when you access the platform for the first time.
+يحتوي Chamilo 2.0 على معالج تثبيت قائم على الويب يرشدك خلال الإعداد الأولي. يعمل المعالج تلقائيًا عند الوصول إلى المنصة للمرة الأولى.
 
-## Before You Start
+## قبل البدء
 
-Ensure the following prerequisites are met:
+تأكد من تحقق المتطلبات التمهيدية التالية:
 
-1. Your server meets all [server requirements](server-requirements.md).
-2. You have downloaded a packaged (zip or tar.gz) version of Chamilo.
-3. Your web server is configured to serve the `public/` directory as the document root.
-4. Your `.env` file exists and is empty (the wizard will guide database setup).
+1. يلبي خادمك جميع [متطلبات الخادم](server-requirements.md).
+2. قمت بتحميل نسخة معبأة (zip أو tar.gz) من Chamilo.
+3. تم تهيئة خادم الويب الخاص بك لخدمة دليل `public/` كجذر المستندات.
+4. يوجد ملف `.env` الخاص بك وهو فارغ (سيرشد المعالج إعداد قاعدة البيانات).
 
-## Step 1: Installation Language
+## الخطوة 1: لغة التثبيت
 
 ![Installation wizard Step 1 — language selection](/.gitbook/assets/install-step1-language.png)
 
-The first step lets you select the language for the installation process. Choose your preferred language from the dropdown.
+تتيح الخطوة الأولى اختيار اللغة لعملية التثبيت. اختر اللغة المفضلة لديك من القائمة المنسدلة.
 
-If Chamilo detects an existing installation (for an upgrade), it will display the migration status and offer an upgrade path instead of a fresh install.
+إذا اكتشف Chamilo تثبيتًا موجودًا (للترقية)، فسيعرض حالة الترحيل ويقدم مسار ترقية بدلاً من تثبيت جديد.
 
-## Step 2: Requirements Check
+## الخطوة 2: فحص المتطلبات
 
 ![Installation wizard Step 2 — requirements check showing PHP version, extensions, and directory permissions](/.gitbook/assets/install-step2-requirements.png)
 
-The wizard checks your server environment:
+يفحص المعالج بيئة خادمك:
 
-* **PHP version** is 8.2 or superior
-* **Required PHP extensions** are installed (intl, gd, curl, zip, mbstring, xml, etc.)
-* **Recommended PHP settings** — `date.timezone` is configured, adequate upload/memory limits
-* **Directory and file permissions** — `var/`, `config/`, and `public/upload/` are writable by the web server
+* **إصدار PHP** هو 8.2 أو أعلى
+* **الامتدادات المطلوبة لـ PHP** مثبتة (intl، gd، curl، zip، mbstring، xml، إلخ)
+* **إعدادات PHP الموصى بها** — `date.timezone` مُهيأ، حدود تحميل/ذاكرة كافية
+* **أذونات الدليل والملف** — `var/`، `config/`، و `public/upload/` قابلة للكتابة بواسطة خادم الويب
 
-If any requirements are not met, the wizard displays warnings or errors. Resolve them before proceeding.
+إذا لم تتحقق أي من المتطلبات، يعرض المعالج تحذيرات أو أخطاء. قم بحلها قبل المتابعة.
 
-## Step 3: License
+## الخطوة 3: الترخيص
 
 ![Installation wizard Step 3 — license acceptance](/.gitbook/assets/install-step3-license.png)
 
-This step displays the GNU/GPLv3 license. You must check the **"I accept"** checkbox to proceed.
+تعرض هذه الخطوة رخصة GNU/GPLv3. يجب عليك تحديد خانة الاختيار **"أقبل"** للمتابعة.
 
-Optionally, you can expand the **Contact information** section to provide details about your organization (name, email, company, country). This is voluntary and helps the Chamilo community understand who uses the platform, but will also allow us to contact you *very rarely* about events happening close to you.
+اختياريًا، يمكنك توسيع قسم **معلومات الاتصال** لتقديم تفاصيل عن منظمتك (الاسم، البريد الإلكتروني، الشركة، البلد). هذا طوعي ويساعد مجتمع Chamilo على فهم من يستخدم المنصة، لكنه سيسمح لنا أيضًا بالاتصال بك *نادرًا جدًا* بشأن الفعاليات التي تحدث بالقرب منك.
 
-## Step 4: Database Settings
+## الخطوة 4: إعدادات قاعدة البيانات
 
 ![Installation wizard Step 4 — database connection configuration](/.gitbook/assets/install-step4-database.png)
 
-Enter your database connection details:
+أدخل تفاصيل اتصال قاعدة البيانات الخاصة بك:
 
-| Field | Description |
+| الحقل | الوصف |
 |-------|-------------|
-| **Database host** | The hostname or IP of your database server (e.g., `localhost` or `127.0.0.1`) |
-| **Database port** | Default: 3306 for MySQL/MariaDB |
-| **Database name** | The name of the database to use (alphanumeric and underscores only) |
-| **Database user** | A database user with full privileges on the specified database |
-| **Database password** | The password for the database user |
+| **مضيف قاعدة البيانات** | اسم المضيف أو عنوان IP لخادم قاعدة البيانات (مثل `localhost` أو `127.0.0.1`) |
+| **منفذ قاعدة البيانات** | الافتراضي: 3306 لـ MySQL/MariaDB |
+| **اسم قاعدة البيانات** | اسم قاعدة البيانات المستخدمة (حروف وأرقام ورموز سفلية فقط) |
+| **مستخدم قاعدة البيانات** | مستخدم قاعدة بيانات لديه صلاحيات كاملة على قاعدة البيانات المحددة |
+| **كلمة مرور قاعدة البيانات** | كلمة المرور لمستخدم قاعدة البيانات |
 
-Click **Check database connection** to test. The wizard will not let you proceed until the connection is successful. If the database already exists, a warning is displayed.
+انقر على **فحص اتصال قاعدة البيانات** للاختبار. لن يسمح المعالج بالمتابعة حتى ينجح الاتصال. إذا كانت قاعدة البيانات موجودة بالفعل، يُعرض تحذير.
 
-## Step 5: Configuration Settings
+## الخطوة 5: إعدادات التكوين
 
 ![Installation wizard Step 5 — administrator account, portal settings, and email configuration](/.gitbook/assets/install-step5-config.png)
 
-This step combines administrator account creation, portal settings, and email configuration.
+تجمع هذه الخطوة بين إنشاء حساب المسؤول، إعدادات البوابة، وتكوين البريد الإلكتروني.
 
-### Administrator Account
+### حساب المسؤول
 
-| Field | Description |
+| الحقل | الوصف |
 |-------|-------------|
-| **Login** | The administrator username |
-| **Password** | Choose a strong password — this account has full platform access |
-| **First name** | The administrator's first name |
-| **Last name** | The administrator's last name |
-| **Email** | Used for system notifications and password resets |
-| **Phone** | Optional contact number |
+| **تسجيل الدخول** | اسم مستخدم المسؤول |
+| **كلمة المرور** | اختر كلمة مرور قوية — هذا الحساب لديه وصول كامل إلى المنصة |
+| **الاسم الأول** | الاسم الأول للمسؤول |
+| **الاسم الأخير** | الاسم الأخير للمسؤول |
+| **البريد الإلكتروني** | يُستخدم لإشعارات النظام وإعادة تعيين كلمة المرور |
+| **الهاتف** | رقم الاتصال الاختياري |
 
-These admin details will also be used by Chamilo to populate the support contact details, so make sure you go reconfigure that in the settings after the installation concluded.
+سيتم استخدام هذه التفاصيل الخاصة بالمسؤول أيضًا من قبل Chamilo لملء تفاصيل الاتصال بالدعم، لذا تأكد من إعادة تهيئتها في الإعدادات بعد انتهاء التثبيت.
 
-### Portal Settings
+### إعدادات البوابة
 
-| Field | Description |
+| الحقل | الوصف |
 |-------|-------------|
-| **Language** | The default interface language |
-| **Portal name** | The name of your platform (e.g., "My Organization LMS") |
-| **Company short name** | Your organization's abbreviated name |
-| **Company URL** | Your organization's website |
-| **Encryption method** | Password hashing algorithm — **bcrypt** is recommended |
-| **Allow self-registration** | Yes / No / After approval |
-| **Allow self-registration as trainer** | Yes / No |
+| **اللغة** | اللغة الافتراضية لواجهة المستخدم |
+| **اسم البوابة** | اسم المنصة الخاصة بك (مثل "نظام إدارة التعلم لمنظمتي") |
+| **الاسم المختصر للشركة** | الاسم المختصر لمنظمتك |
+| **رابط الشركة** | موقع منظمتك على الويب |
+| **طريقة التشفير** | خوارزمية تشفير كلمات المرور — **bcrypt** موصى به |
+| **السماح بالتسجيل الذاتي** | نعم / لا / بعد الموافقة |
+| **السماح بالتسجيل الذاتي كمدرب** | نعم / لا |
 
-### Email Configuration
+### تكوين البريد الإلكتروني
 
-The email settings section lets you configure the mail transport (SMTP, Amazon SES, Mailjet, etc.) and test email delivery. See [Email Configuration](email-configuration.md) for details.
+يسمح قسم إعدادات البريد الإلكتروني بتكوين وسيلة نقل البريد (SMTP، Amazon SES، Mailjet، إلخ) واختبار إرسال البريد الإلكتروني. انظر [تكوين البريد الإلكتروني](email-configuration.md) للتفاصيل.
 
-All these settings can be changed later from the administration panel.
+يمكن تغيير جميع هذه الإعدادات لاحقًا من لوحة الإدارة.
 
-## Step 6: Last Check Before Install
+---
+
+---
+## الخطوة 6: التحقق النهائي قبل التثبيت
 
 ![Installation wizard Step 6 — review of all settings before installation](/.gitbook/assets/install-step6-review.png)
 
-This step displays a summary of everything you entered for review:
+تعرض هذه الخطوة ملخصًا لكل ما أدخلته للمراجعة:
 
-* Administrator credentials (password is hidden by default — click the eye icon to reveal)
-* Portal settings
-* Database connection details
+* بيانات مصادقة المسؤول (يتم إخفاء كلمة المرور افتراضيًا — انقر على أيقونة العين للكشف عنها)
+* إعدادات البوابة
+* تفاصيل اتصال قاعدة البيانات
 
-Review carefully, then click **Install Chamilo** to execute the installation. The wizard creates all database tables, populates initial data, and configures the platform.
+راجع بعناية، ثم انقر على **تثبيت Chamilo** لتنفيذ التثبيت. يقوم المعالج بإنشاء جميع جداول قاعدة البيانات، وملء البيانات الأولية، وتكوين المنصة.
 
-## Step 7: Installation Complete
+## الخطوة 7: اكتمل التثبيت
 
 ![Installation wizard Step 7 — completion with security advice and portal link](/.gitbook/assets/install-step7-complete.png)
 
-After installation completes successfully, the wizard shows:
+بعد اكتمال التثبيت بنجاح، يعرض المعالج:
 
-* **Getting started advice** — Suggests creating your first course to explore the platform (as admin, you need to do this from the admin panel)
-* **Security recommendations**:
-  * Make the `config/` directory read-only (`chmod 0555`)
-  * Delete the `public/main/install/` directory
-* A **link to your portal** to log in with the administrator credentials you just created
+* **نصائح البدء** — يقترح إنشاء مساقك الأول لاستكشاف المنصة (كمسؤول، يجب عليك القيام بذلك من لوحة الإدارة)
+* **توصيات الأمان**:
+  * اجعل دليل `config/` للقراءة فقط (`chmod 0555`)
+  * احذف دليل `public/main/install/`
+* **رابط إلى بوابتك** لتسجيل الدخول ببيانات مصادقة المسؤول التي أنشأتها للتو
 
-## Post-Installation
+## ما بعد التثبيت
 
-After completing the wizard:
+بعد إكمال المعالج:
 
-* **Remove or restrict access to the installer** -- The wizard should not be accessible after installation. Chamilo typically locks it automatically, but verify that re-visiting the install URL redirects to the login page.
-* **Configure email delivery** -- See [Email Configuration](email-configuration.md).
-* **Set up backups** -- Before adding content, configure automated database and file backups (Chamilo does not provide a solution for this, but copying the var/ folder and the database are the 2 most important elements).
-* **Review security settings** -- See [Security Settings](../platform-settings/security-settings.md).
+* **إزالة أو تقييد الوصول إلى برنامج التثبيت** -- يجب ألا يكون المعالج متاحًا بعد التثبيت. يقوم Chamilo عادةً بقفله تلقائيًا، لكن تحقق من أن إعادة زيارة عنوان URL للتثبيت يعيد التوجيه إلى صفحة تسجيل الدخول.
+* **تكوين إرسال البريد الإلكتروني** -- انظر [تكوين البريد الإلكتروني](email-configuration.md).
+* **إعداد النسخ الاحتياطي** -- قبل إضافة المحتوى، قم بتكوين نسخ احتياطي تلقائي لقاعدة البيانات والملفات (لا يوفر Chamilo حلاً لهذا، لكن نسخ مجلد var/ وقاعدة البيانات هما العنصران الأهم).
+* **مراجعة إعدادات الأمان** -- انظر [إعدادات الأمان](../platform-settings/security-settings.md).
 
-## Troubleshooting
+## استكشاف الأخطاء وحل المشكلات
 
-| Problem | Solution |
+| المشكلة | الحل |
 |---------|----------|
-| Blank page at install URL | Check PHP error logs. Change to `APP_ENV=dev` in .env temporarily to see errors in the browser. |
-| Database connection fails | Verify credentials, confirm the database exists, check that the database server allows connections from the web server host. |
-| Permission denied errors | Ensure `var/` is writable by the web server user. |
-| Assets not loading (no CSS/JS) | Run `yarn install && yarn build` to compile frontend assets. |
+| صفحة فارغة في عنوان URL للتثبيت | تحقق من سجلات أخطاء PHP. غيّر إلى `APP_ENV=dev` في .env مؤقتًا لرؤية الأخطاء في المتصفح. |
+| فشل اتصال قاعدة البيانات | تحقق من بيانات المصادقة، وتأكد من وجود قاعدة البيانات، وتحقق من أن خادم قاعدة البيانات يسمح بالاتصالات من مضيف الخادم الويب. |
+| أخطاء رفض الصلاحية | تأكد من أن `var/` قابل للكتابة بواسطة مستخدم الخادم الويب. |
+| عدم تحميل الموارد (لا CSS/JS) | قم بتشغيل `yarn install && yarn build` لتجميع موارد الواجهة الأمامية. |

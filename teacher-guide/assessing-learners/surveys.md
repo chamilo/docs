@@ -1,85 +1,85 @@
-# Surveys
+# الاستطلاعات
 
-The survey tool lets you create questionnaires to collect feedback from your learners. Surveys are useful for course evaluations, needs assessments, and opinion polls.
+يسمح أداة الاستطلاع بإنشاء استبيانات لجمع تعليقات من متعلميك. الاستطلاعات مفيدة لتقييم الدورات، وتقييم الاحتياجات، واستطلاعات الرأي.
 
-## Creating a Survey
+## إنشاء استطلاع
 
-1. Open the **Surveys** <img src="/.gitbook/assets/icons/mdi-form-dropdown.svg" alt="Surveys" data-size="line"> tool from the course homepage
-2. Click **Create survey**
-3. Fill in the survey details:
-   * **Code** — This is a unique code for the survey. It will be used in mails and links.
-   * **Title** — The name of the survey
-   * **Subtitle** — An optional secondary heading
-   * **Start date** — From when this survey will be open to participation
-   * **End date** — Until when this survey will be open to participation
-   * **Anonymous** — Whether responses are anonymous or linked to individual learners
-   * **Results visibility** — Who can see the results (only coach, coach and students, everyone)
-   * **Introduction** — A message shown to learners before they start the survey
-   * **Thank you message** — A message shown after submission
-4. Save
+1. افتح أداة **Surveys** <img src="/.gitbook/assets/icons/mdi-form-dropdown.svg" alt="Surveys" data-size="line"> من الصفحة الرئيسية للدورة
+2. انقر على **Create survey**
+3. املأ تفاصيل الاستطلاع:
+   * **Code** — هذا رمز فريد للاستطلاع. سيُستخدم في الرسائل الإلكترونية والروابط.
+   * **Title** — اسم الاستطلاع
+   * **Subtitle** — عنوان ثانوي اختياري
+   * **Start date** — منذ متى سيكون الاستطلاع مفتوحًا للمشاركة
+   * **End date** — حتى متى سيكون الاستطلاع مفتوحًا للمشاركة
+   * **Anonymous** — ما إذا كانت الردود مجهولة أو مرتبطة بمتعلمين فرديين
+   * **Results visibility** — من يمكنه رؤية النتائج (المدرب فقط، المدرب والطلاب، الجميع)
+   * **Introduction** — رسالة تُعرض للمتعلمين قبل بدء الاستطلاع
+   * **Thank you message** — رسالة تُعرض بعد الإرسال
+4. احفظ
 
-### Advanced settings
+### الإعدادات المتقدمة
 
-* **Grade in the assessment tool** — Whether to include this survey's answer state in the assessment tool (gradebook). Anyone having completed the survey gets 100%, anyone else get 0%
-* **Parent survey** — Not really used at this point (legacy feature)
-* **One question per page** — Presentation style for the questions
-* **Enable shuffle mode** — Whether to shuffle questions
-* **Show question number** — Whether to show (auto-generated) question numbers
+* **Grade in the assessment tool** — ما إذا كان يجب تضمين حالة إجابة هذا الاستطلاع في أداة التقييم (دفتر الدرجات). يحصل أي شخص أكمل الاستطلاع على 100%، ويحصل الآخرون على 0%
+* **Parent survey** — غير مستخدمة حاليًا (ميزة قديمة)
+* **One question per page** — نمط عرض الأسئلة
+* **Enable shuffle mode** — ما إذا كان يجب خلط الأسئلة
+* **Show question number** — ما إذا كان يجب عرض أرقام الأسئلة (التي تُولد تلقائيًا)
 
-## Adding Questions
+## إضافة أسئلة
 
-Once the survey is created, add questions:
+بعد إنشاء الاستطلاع، أضف الأسئلة:
 
-1. Choose the question type:
-   * **Yes/No** — A simple binary choice
-   * **Multiple choice** — Select one answer from several options
-   * **Multiple answer** — Select one or more answers from several options
-   * **Open-ended** — Free text response
-   * **Dropdown** — Select from a dropdown list
-   * **Percentage** — Choose a percentage value
-   * **Score** — Rate on a numeric scale
-   * **Comment** — A text block (not a question) for adding instructions between questions
-   * **Multiple choice with "other" option** — Select one answer from several options, with an alternative choice
-   * **Selective display** — Special type allowing you to adapt the flow of questions based on previous answers
-   * **Page break** — Add page breaks in the questions flow. Only useful if "One question per page" was **not** selected in the previous step
-2. Configure the question text and answer options
-3. Save
+1. اختر نوع السؤال:
+   * **Yes/No** — خيار ثنائي بسيط
+   * **Multiple choice** — اختر إجابة واحدة من عدة خيارات
+   * **Multiple answer** — اختر إجابة واحدة أو أكثر من عدة خيارات
+   * **Open-ended** — رد نصي حر
+   * **Dropdown** — اختر من قائمة منسدلة
+   * **Percentage** — اختر قيمة نسبة مئوية
+   * **Score** — تقييم على مقياس رقمي
+   * **Comment** — كتلة نصية (ليس سؤالًا) لإضافة تعليمات بين الأسئلة
+   * **Multiple choice with "other" option** — اختر إجابة واحدة من عدة خيارات، مع خيار بديل
+   * **Selective display** — نوع خاص يسمح بتكييف تدفق الأسئلة بناءً على الإجابات السابقة
+   * **Page break** — أضف فواصل صفحات في تدفق الأسئلة. مفيد فقط إذا لم يتم اختيار **One question per page** في الخطوة السابقة
+2. قم بتكوين نص السؤال وخيارات الإجابة
+3. احفظ
 
-Each question can be marked as mandatory. If you don't, skipping any question will be acceptable behaviour.
+يمكن وضع علامة على كل سؤال كإلزامي. إذا لم تفعل، فإن تخطي أي سؤال سيكون سلوكًا مقبولًا.
 
-## Publishing a Survey
+## نشر استطلاع
 
-After adding all questions:
+بعد إضافة جميع الأسئلة:
 
-1. Click **Publish**
-2. Choose the recipients — Select specific learners or groups (you select them). The **Add learners** button adds all the learners in one single push and leaves the teachers behind
-3. Add additional users — Lets you invite users from outside Chamilo to participate in the survey. They will receive an e-mail with a link and will appear by their e-mail address in the survey details
-4. Mail subject
-5. Mail text — Explain what the survey is about and when/how to answer
-6. Different options for repeat invitations are available
-7. Confirm
+1. انقر على **Publish**
+2. اختر المستلمين — حدد متعلمين أو مجموعات محددة (أنت تختارهم). تضيف زر **Add learners** جميع المتعلمين في دفعة واحدة وتترك المدرسين خارجها
+3. أضف مستخدمين إضافيين — يسمح لك بدعوة مستخدمين من خارج Chamilo للمشاركة في الاستطلاع. سيتلقون بريدًا إلكترونيًا برابط وسيظهرون بعنوان بريدهم الإلكتروني في تفاصيل الاستطلاع
+4. موضوع البريد
+5. نص البريد — شرح ما يتعلق بالاستطلاع ومتى/كيفية الإجابة
+6. تتوفر خيارات مختلفة لدعوات التكرار
+7. أكد
 
-Learners receive an invitation (as an email) to complete the survey.
+يتلقى المتعلمون دعوة (كبريد إلكتروني) لإكمال الاستطلاع.
 
-A link is available at the bottom of the publication page to invite even more external users to participate. Participants using this link will not be identified and appear as anonymous in the survey results.
+يتوفر رابط في أسفل صفحة النشر لدعوة المزيد من المستخدمين الخارجيين للمشاركة. لن يتم التعرف على المشاركين باستخدام هذا الرابط وسيظهرون كمجهولين في نتائج الاستطلاع.
 
-## Viewing Results
+## عرض النتائج
 
-![Survey results with charts and percentage breakdowns for each question](/.gitbook/assets/survey-results-charts.png)
+![نتائج الاستطلاع مع الرسوم البيانية وتوزيع النسب المئوية لكل سؤال](/.gitbook/assets/survey-results-charts.png)
 
-After learners have responded:
+بعد رد المتعلمين:
 
-1. Open the survey
-2. Click **Results** or **Report**
-3. View response summaries:
-   * Charts and percentages for closed questions
-   * Individual text responses for open-ended questions
-   * Completion rate (how many invitees responded)
+1. افتح الاستطلاع
+2. انقر على **Results** أو **Report**
+3. عرض ملخصات الردود:
+   * رسوم بيانية ونسب مئوية للأسئلة المغلقة
+   * ردود نصية فردية للأسئلة المفتوحة
+   * معدل الإكمال (كم عدد المدعوين ردّوا)
 
-You can export results to a spreadsheet for further analysis.
+يمكنك تصدير النتائج إلى جدول بيانات لتحليل إضافي.
 
-## Tips
+## نصائح
 
-* **Keep it short** — Learners are more likely to complete shorter surveys
-* **Use anonymous mode** — For honest feedback, enable anonymous responses
-* **Time it right** — Send mid-course surveys to make adjustments, not just end-of-course evaluations
+* **Keep it short** — المتعلمون أكثر احتمالية لإكمال الاستطلاعات الأقصر
+* **Use anonymous mode** — للحصول على تعليقات صادقة، فعّل الردود المجهولة
+* **Time it right** — أرسل استطلاعات منتصف الدورة لإجراء تعديلات، لا تقييمات نهاية الدورة فقط

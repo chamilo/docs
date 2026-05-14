@@ -1,37 +1,37 @@
 # xAPI
 
-**xAPI** (Experience API, also known as Tin Can API) is a standard for tracking learning experiences. Chamilo can both generate and consume xAPI statements.
+**xAPI** (Experience API، المعروف أيضًا باسم Tin Can API) هو معيار لتتبع تجارب التعلم. يمكن لـ Chamilo إنشاء واستقبال عبارات xAPI.
 
-## What xAPI Does
+## ما يقوم به xAPI
 
-xAPI tracks learning activities as **statements** in the format: "Actor did Verb on Object." For example:
+يتابع xAPI أنشطة التعلم كـ **عبارات** بتنسيق: "Actor فعل Verb على Object." على سبيل المثال:
 
-* "Jane completed Module 1"
-* "John scored 85% on the Final Exam"
-* "Maria watched the Introduction Video"
+* "Jane أكملت الوحدة 1"
+* "John حصل على 85% في الامتحان النهائي"
+* "Maria شاهدت فيديو المقدمة"
 
-These statements are stored in a **Learning Record Store (LRS)**, providing a comprehensive record of learning activity.
+تُخزن هذه العبارات في **Learning Record Store (LRS)**، مما يوفر سجلاً شاملاً لنشاط التعلم.
 
-## Configuration
+## الإعداد
 
-1. In the platform settings, configure the **LRS endpoint**:
-   * **LRS URL** — The address of your Learning Record Store
-   * **LRS authentication** — Credentials for sending data to the LRS
-2. Enable xAPI tracking for the desired activities
+1. في إعدادات المنصة، قم بتكوين **LRS endpoint**:
+   * **LRS URL** — عنوان Learning Record Store الخاص بك
+   * **LRS authentication** — بيانات الاعتماد لإرسال البيانات إلى LRS
+2. فعّل تتبع xAPI للأنشطة المرغوبة
 
-## What Chamilo Tracks via xAPI
+## ما يتابعه Chamilo عبر xAPI
 
-Chamilo can generate xAPI statements for:
+يمكن لـ Chamilo إنشاء عبارات xAPI لـ:
 
-* Course access and completion
-* Exercise attempts and scores
-* Learning path item progress
-* Portfolio items
+* الوصول إلى الدورة والإكمال
+* محاولات التمارين والدرجات
+* تقدم عناصر مسار التعلم
+* عناصر المحفظة
 
-Other tools (such as Documents and Forums) are not currently emitted as xAPI events by the plugin.
+أدوات أخرى (مثل Documents و Forums) لا تُصدر حاليًا كأحداث xAPI بواسطة الإضافة.
 
-## Use Cases
+## حالات الاستخدام
 
-* **Cross-platform tracking** — Track learning activity across multiple tools and platforms in a single LRS
-* **Advanced analytics** — Use LRS analytics tools to generate insights that go beyond Chamilo's built-in reporting
-* **Compliance reporting** — Generate audit trails of training completion for regulatory requirements
+* **تتبع عبر المنصات** — تتبع نشاط التعلم عبر أدوات ومنصات متعددة في LRS واحد
+* **تحليلات متقدمة** — استخدم أدوات تحليل LRS لتوليد رؤى تتجاوز تقارير Chamilo المدمجة
+* **تقارير الامتثال** — إنشاء سجلات تدقيق لإكمال التدريب لمتطلبات التنظيم

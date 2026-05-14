@@ -1,7 +1,7 @@
-# Plugins
+# الإضافات
 
-Chamilo's plugin system lets you extend the platform without modifying core code. A set of plugins ships with the distribution under `public/plugin/`.
+نظام الإضافات في Chamilo يتيح لك توسيع المنصة دون تعديل الشيفرة الأساسية. يأتي مجموعة من الإضافات مع التوزيعة تحت `public/plugin/`.
 
-* **[Plugin Architecture](plugin-architecture.md)** — How plugins are structured
-* **[Creating a Plugin](creating-a-plugin.md)** — Step-by-step guide to building a plugin
-* **[Course Tool Plugins](course-tool-plugins.md)** — Plugins that add tools to courses
+* **[Plugin Architecture](plugin-architecture.md)** — كيفية ترتيب الإضافات
+* **[Creating a Plugin](creating-a-plugin.md)** — دليل خطوة بخطوة لبناء إضافة
+* **[Course Tool Plugins](course-tool-plugins.md)** — الإضافات التي تضيف أدوات إلى الدورات

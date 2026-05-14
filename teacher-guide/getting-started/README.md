@@ -1,40 +1,40 @@
-# Getting Started
+# البدء
 
-This section helps you get oriented with Chamilo 2.0. You will learn how to log in, navigate the main interface, and configure your profile.
+يساعدك هذا القسم على التعرف على Chamilo 2.0. ستتعلم كيفية تسجيل الدخول، والتنقل في الواجهة الرئيسية، وتكوين ملفك الشخصي.
 
-## Logging In
+## تسجيل الدخول
 
-To access Chamilo, open your browser and navigate to the URL provided by your institution (for example, `https://chamilo.yourschool.edu`). Enter your username and password on the login page and click **Sign in**.
+للوصول إلى Chamilo، افتح متصفحك وانتقل إلى عنوان URL الذي يوفره مؤسستك (على سبيل المثال، `https://chamilo.yourschool.edu`). أدخل اسم المستخدم وكلمة المرور الخاصين بك في صفحة تسجيل الدخول وانقر على **Sign in**.
 
-If your institution uses external authentication (such as Azure, Keycloak, or a university single sign-on system), you may see additional login buttons below the standard login form. Click the appropriate button to authenticate through your institution's identity provider.
+إذا كانت مؤسستك تستخدم مصادقة خارجية (مثل Azure أو Keycloak أو نظام تسجيل دخول واحد للجامعة)، فقد ترى أزرار تسجيل دخول إضافية أسفل نموذج تسجيل الدخول القياسي. انقر على الزر المناسب للمصادقة من خلال مزود الهوية الخاص بمؤسستك.
 
-> If you have forgotten your password, click the **Forgot password?** link on the login page. You will receive an email with instructions to reset it.
+> إذا نسيت كلمة المرور الخاصة بك، انقر على رابط **Forgot password?** في صفحة تسجيل الدخول. ستتلقى بريداً إلكترونياً يحتوي على تعليمات لإعادة تعيينها.
 
-## First Look
+## نظرة أولى
 
-After logging in, you will see the Chamilo home page. The interface is organized into three main areas:
+بعد تسجيل الدخول، سترى صفحة الصفحة الرئيسية لـ Chamilo. يتم تنظيم الواجهة في ثلاث مناطق رئيسية:
 
 ![The Chamilo home page showing system announcements and course cards](/.gitbook/assets/home-page-teacher.png)
 
-* **Top bar** — Displays the platform logo, your message inbox (with a badge showing unread messages), and your user avatar. Click your avatar to access your profile and account settings.
-* **Sidebar** — The left navigation panel gives you quick access to your courses, sessions, agenda, social network, and more. You can collapse it by clicking the toggle at its edge.
-* **Main content area** — This is where the current page content is displayed. On the home page, you will see system announcements and your featured courses.
+* **شريط علوي** — يعرض شعار المنصة، صندوق الرسائل الخاص بك (مع شارة تظهر الرسائل غير المقروءة)، وصورة رمزية المستخدم الخاصة بك. انقر على صورتك الرمزية للوصول إلى ملفك الشخصي وإعدادات الحساب.
+* **شريط جانبي** — يوفر لوحة التنقل اليسرى الوصول السريع إلى الدورات الدراسية، والجلسات، والجدول الزمني، والشبكة الاجتماعية، وغيرها. يمكنك طيها بالنقر على مفتاح التبديل على حافتها.
+* **منطقة المحتوى الرئيسية** — هنا يتم عرض محتوى الصفحة الحالية. في الصفحة الرئيسية، سترى إعلانات النظام والدورات الدراسية المميزة الخاصة بك.
 
-## Your Courses
+## دوراتك الدراسية
 
-From the sidebar, click **My courses** to see all the courses you are enrolled in as a teacher or student. Each course appears as a card showing:
+من الشريط الجانبي، انقر على **My courses** لعرض جميع الدورات الدراسية التي أنت مسجل فيها كمعلم أو طالب. تظهر كل دورة دراسية كبطاقة تعرض:
 
 ![The My Courses page displaying course cards with thumbnails and quick-access actions](/.gitbook/assets/my-courses-list.png)
 
-* The course image or thumbnail
-* The course title
-* Quick-access actions
+* صورة الدورة الدراسية أو الصورة المصغرة
+* عنوان الدورة الدراسية
+* إجراءات الوصول السريع
 
-If your institution uses **sessions** (time-bound training periods), you will also see a **My sessions** link in the sidebar, organized into current, past, and upcoming sessions.
+إذا كانت مؤسستك تستخدم **sessions** (فترات تدريبية محدودة الوقت)، فسترى أيضاً رابط **My sessions** في الشريط الجانبي، منظم إلى جلسات حالية وسابقة وقادمة.
 
-Sessions in Chamilo are a way to deliver the same course to different groups of learners at different times, without duplicating the course content. Think of a session as a scheduled edition or cohort of a course. More on that topic later.
+تُعد الجلسات في Chamilo طريقة لتقديم نفس الدورة الدراسية إلى مجموعات مختلفة من المتعلمين في أوقات مختلفة، دون تكرار محتوى الدورة الدراسية. فكر في الجلسة كإصدار مجدول أو مجموعة من الدورة الدراسية. سنتحدث المزيد عن هذا الموضوع لاحقاً.
 
-## Next Steps
+## الخطوات التالية
 
-* [Understanding the Interface](understanding-the-interface.md) — A detailed look at every part of the Chamilo interface
-* [Your Profile](your-profile.md) — How to manage your personal information and preferences
+* [فهم الواجهة](understanding-the-interface.md) — نظرة مفصلة على كل جزء من واجهة Chamilo
+* [ملفك الشخصي](your-profile.md) — كيفية إدارة معلوماتك الشخصية وتفضيلاتك
